@@ -1,0 +1,16 @@
+# Backend BROADCAST + Autopilot
+# Base inicial (do README). Ao trazer o backend do desktop, substitua/complete
+# com o requirements.txt real da sua máquina (use `pip freeze > requirements.txt`).
+
+flask
+flask-cors
+yfinance
+feedparser
+beautifulsoup4
+deep_translator
+curl_cffi
+
+# Autopilot (pushes/briefings) — provavelmente já usados no seu backend:
+requests          # envio de notificações ao ntfy
+schedule          # agendamento de intraday / morning call / fechamento (se usar)
+python-dotenv     # carregar segredos do .env

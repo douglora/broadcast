@@ -1,0 +1,43 @@
+# --- Segredos / configuração local (NUNCA commitar) ---
+.env
+.env.*
+*.env
+secrets.json
+config.local.*
+# tokens do ntfy, chaves de API, URLs de túnel, etc. ficam aqui
+ntfy_token.txt
+*.key
+*.pem
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# --- Caches / dados gerados pelo autopilot ---
+*.log
+logs/
+cache/
+.cache/
+data/cache/
+*.sqlite
+*.db
+
+# --- Sistema operacional / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
