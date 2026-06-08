@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-06-08T18:00:00+00:00",
+  "_nota": "DADOS ILUSTRATIVOS (fictícios) só para o agente rodar offline. Use 'collect' para dados reais.",
+  "quotes": {
+    "PETR4": {"price": 38.42, "chg_pct": -1.8, "name": "Petrobras PN"},
+    "VALE3": {"price": 61.10, "chg_pct": 0.6, "name": "Vale ON"},
+    "WEGE3": {"price": 52.30, "chg_pct": 3.4, "name": "WEG ON"},
+    "PRIO3": {"price": 41.95, "chg_pct": -2.7, "name": "PRIO ON"},
+    "ITUB4": {"price": 36.80, "chg_pct": 0.3, "name": "Itau PN"},
+    "CL=F": {"price": 63.20, "chg_pct": -2.1, "name": "WTI"},
+    "BZ=F": {"price": 67.05, "chg_pct": -1.9, "name": "Brent"},
+    "^GSPC": {"price": 6420.0, "chg_pct": 0.4, "name": "S&P 500"}
+  },
+  "indicators": {"indicators": {
+    "selic_meta": {"value": 15.0, "label": "SELIC"},
+    "ipca_12m": {"value": 5.3, "label": "IPCA 12m"},
+    "dolar_ptax": {"value": 5.42, "label": "PTAX"}
+  }},
+  "di": {"di": [
+    {"tenor": "1a", "rate": 14.55},
+    {"tenor": "2a", "rate": 14.10},
+    {"tenor": "5a", "rate": 13.70},
+    {"tenor": "10a", "rate": 13.40}
+  ]},
+  "alerts": {"alerts": [
+    {"company": "WEG", "type": "Dividendos / JCP"}
+  ]},
+  "cvm": {"fatos": [
+    {"company": "Vale", "title": "Atualizacao sobre acordo de Mariana", "type": "Fato Relevante"}
+  ]},
+  "weekly_summary": {
+    "week_label": "02-06 jun 2026",
+    "br": [
+      "Ibovespa recuou na semana com realizacao em commodities",
+      "Mercado revisou para mais longe a expectativa de corte da Selic"
+    ],
+    "us": [
+      "S&P perto da maxima com dados de inflacao benignos",
+      "Petroleo cedeu com sinais de mais oferta"
+    ]
+  },
+  "watchlist": {"watchlist": {
+    "Petrobras": {"active": true}, "WEG": {"active": true},
+    "PRIO": {"active": true}, "Vale": {"active": true}, "Itau": {"active": true}
+  }}
+}

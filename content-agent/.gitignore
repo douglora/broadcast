@@ -1,0 +1,9 @@
+# Config local com a URL do seu túnel — não versionar
+config.json
+
+# Snapshots coletados
+data/snapshot-*.json
+
+# Python
+__pycache__/
+*.pyc

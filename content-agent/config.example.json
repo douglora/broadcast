@@ -1,0 +1,6 @@
+{
+  "broadcast_base_url": "https://SEU-TUNEL-AQUI.ngrok-free.app",
+  "model": "claude-opus-4-8",
+  "effort": "high",
+  "timeout": 10
+}
