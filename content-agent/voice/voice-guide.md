@@ -23,7 +23,11 @@ mercado**, nunca recomendação.
 - As **2 primeiras linhas são um gancho** (uma tese ou um número que para o scroll).
   Nunca comece com contexto, "introdução" ou saudação.
 - Parágrafos de 1–3 linhas, com uma linha em branco entre eles.
-- Tamanho: ~900–1300 caracteres.
+- Tamanho padrão: **~1.800–2.400 caracteres, 6–8 parágrafos** (formato "parrudo").
+  O algoritmo premia dwell time: profundidade de carta de mercado, escaneável na
+  forma. Posts abaixo de ~500 caracteres tendem a underperformar.
+- Exceção: reação rápida a fato do dia pode sair curta (~900–1.300), no máximo
+  1x por semana.
 - Termine com **uma pergunta real** para o leitor (gera comentário).
 - 0–3 hashtags no máximo, no fim. Nada de sopa de hashtags.
 
