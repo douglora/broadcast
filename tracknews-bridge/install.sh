@@ -7,7 +7,14 @@ set -euo pipefail
 origem="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 destino="${TRACKNEWS_BRIDGE_HOME:-$HOME/tracknews-bridge}"
 com_systemd=false
-[[ "${1:-}" == "--systemd" ]] && com_systemd=true
+com_launchd=false
+case "${1:-}" in
+  --systemd) com_systemd=true ;;
+  --launchd) com_launchd=true ;;
+  --agendar) [[ "$(uname -s)" == "Darwin" ]] && com_launchd=true || com_systemd=true ;;
+  "") ;;
+  *) echo "uso: install.sh [--systemd | --launchd | --agendar]" >&2; exit 2 ;;
+esac
 
 command -v python3 >/dev/null || { echo "python3 nao encontrado"; exit 1; }
 command -v git     >/dev/null || { echo "git nao encontrado"; exit 1; }
@@ -67,6 +74,44 @@ if [[ "$com_systemd" == true ]]; then
     || echo "    rode manualmente: sudo loginctl enable-linger $USER"
   echo "==> timer ligado (a cada 10 min). O envio segue DESLIGADO por config.json."
   systemctl --user list-timers tracknews-bridge.timer --no-pager || true
+fi
+
+if [[ "$com_launchd" == true ]]; then
+  if [[ "$(uname -s)" != "Darwin" ]]; then
+    echo "==> --launchd so faz sentido no macOS"; exit 1
+  fi
+  plist="$HOME/Library/LaunchAgents/com.tracknews.bridge.plist"
+  mkdir -p "$HOME/Library/LaunchAgents"
+  if [[ -f "$plist" ]]; then
+    cp -p "$plist" "$plist.bak.$(date -u +%Y%m%dT%H%M%SZ)"
+    echo "    plist anterior salvo em $plist.bak.*"
+  fi
+  # launchd nao expande $HOME: o caminho vai literal.
+  cat > "$plist" <<PLIST
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.tracknews.bridge</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>$(command -v python3)</string>
+    <string>$destino/bridge.py</string>
+    <string>run</string>
+  </array>
+  <key>StartInterval</key><integer>600</integer>
+  <key>RunAtLoad</key><false/>
+  <key>WorkingDirectory</key><string>$destino</string>
+  <key>StandardOutPath</key><string>$destino/launchd.out.log</string>
+  <key>StandardErrorPath</key><string>$destino/launchd.err.log</string>
+</dict>
+</plist>
+PLIST
+  launchctl unload "$plist" 2>/dev/null || true
+  launchctl load "$plist" && echo "==> launchd carregado (a cada 10 min)."
+  echo "    O envio segue DESLIGADO por config.json."
+  echo "    desligar : launchctl unload $plist"
+  echo "    religar  : launchctl load $plist"
 fi
 
 cat <<FIM

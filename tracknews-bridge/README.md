@@ -27,17 +27,21 @@ Para calibrar a expectativa: em 2026-08-29 o repositório de estado registrou 21
 
 ```bash
 bash install.sh              # instala em ~/tracknews-bridge, sem ligar o envio
-bash install.sh --systemd    # o mesmo + timer de 10 em 10 minutos
+bash install.sh --agendar    # o mesmo + agendamento de 10 em 10 minutos
 ```
 
-O envio nasce **desligado** (`envio_habilitado: false`). Mesmo com o timer rodando,
+O envio nasce **desligado** (`envio_habilitado: false`). Mesmo com o agendamento rodando,
 nada sai até essa chave virar `true`.
+
+`--agendar` escolhe sozinho conforme o sistema; dá para forçar com `--systemd`
+(timer de usuário, Linux/WSL) ou `--launchd` (LaunchAgent `com.tracknews.bridge`, macOS).
+Nenhuma unit, agente ou tarefa existente é tocada.
 
 Sem systemd no WSL, use `windows/tracknews-bridge-task.xml` (Tarefa Agendada nova,
 chamada "TrackNews Bridge" — nenhuma tarefa existente é tocada).
 
 Com systemd, lembre do `sudo loginctl enable-linger $USER` para o timer sobreviver ao
-logout e ao reinício do PC.
+logout e ao reinício da máquina.
 
 ## Ordem de uso
 
@@ -66,7 +70,7 @@ PY
 | `status` | config sem segredos, contadores, tamanho da fila |
 | `waha` | reconhecimento somente leitura do WAHA; localiza o grupo e grava o id |
 | `dry-run` | o que sairia agora, texto completo, e a simulação dos limites. Não envia, não grava |
-| `run` | modo real, usado pelo timer |
+| `run` | modo real, usado pelo agendamento |
 | `test-send --confirmo` | um único envio. `--alert-id <id>` escolhe qual |
 | `seed` | marca a fila atual como já entregue, sem enviar |
 | `autoteste.py` | 31 checagens das regras que não podem quebrar |
@@ -134,8 +138,8 @@ Nenhum dos dois desliga, repara ou reinicia coisa alguma. O `recon-antigo.sh` te
 imprimindo o comando **reversível** de desligar e religar para cada tipo de item — para
 serem rodados só depois do OK, um a um.
 
-## O PC precisa ficar ligado
+## A máquina precisa ficar ligada
 
 A coleta e a redação continuam na nuvem, 24/7. A **entrega** depende do WAHA local.
-Com o PC desligado os alertas se acumulam na fila do branch `state` e saem quando ele
-voltar — respeitando os limites, sem rajada.
+Com a máquina desligada os alertas se acumulam na fila do branch `state` e saem quando
+ela voltar — respeitando os limites, sem rajada.
