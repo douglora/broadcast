@@ -1007,9 +1007,30 @@ def no_cache_html(resp):
     return resp
 
 
-@app.route("/")
-def index():
+def serve_terminal():
     return send_from_directory(BASE_DIR, "index.html")
+
+
+# O terminal responde na raiz e em /terminal — este e o endereco que costuma
+# ser digitado (http://localhost:5051/terminal).
+@app.route("/")
+@app.route("/terminal")
+@app.route("/terminal/")
+@app.route("/index.html")
+def index():
+    return serve_terminal()
+
+
+@app.errorhandler(404)
+def not_found(err):
+    """
+    Fora de /api/*, qualquer caminho abre o terminal em vez de devolver 404.
+    Assim um endereco digitado com uma variacao qualquer (/terminal, /painel,
+    /broadcast...) continua abrindo a tela em vez de dar erro no navegador.
+    """
+    if request.path.startswith("/api/"):
+        return jsonify({"error": "endpoint inexistente", "path": request.path}), 404
+    return serve_terminal()
 
 
 FAVICON = (
@@ -1453,7 +1474,8 @@ def main():
 
     print("=" * 62)
     print("  BROADCAST — The Invest Post")
-    print(f"  Terminal:  http://localhost:{args.port}")
+    print(f"  Terminal:  http://localhost:{args.port}/terminal")
+    print(f"             http://localhost:{args.port}   (mesma tela)")
     print(f"  Saude:     http://localhost:{args.port}/health")
     print("=" * 62)
 

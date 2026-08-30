@@ -21,7 +21,11 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Abra **http://localhost:5051**.
+Abra **http://localhost:5051/terminal**.
+
+A mesma tela responde na raiz (`http://localhost:5051`) e, na verdade, em
+qualquer caminho: `/terminal`, `/painel`, `/index.html`. So os endpoints
+`/api/*` sao reservados.
 
 O servidor sobe na porta **5051** por padrao. Para trocar:
 
@@ -34,6 +38,7 @@ PORT=8080 python app.py
 
 1. Confira se o servidor esta de pe: **http://localhost:5051/health**
    deve responder um JSON com `"status": "ok"`.
+   Se nao responder, o servidor nao esta rodando — volte ao `python app.py`.
 2. Se a porta estiver ocupada, suba em outra (`--port 5052`) — o terminal
    funciona em qualquer porta.
 3. `app.py` e `index.html` precisam estar na mesma pasta.
