@@ -1,0 +1,6 @@
+# Estado gerado em tempo de execucao pelo servidor
+data/watchlist.json
+data/alert_history.json
+data/spread_history.json
+*.pyc
+__pycache__/

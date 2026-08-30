@@ -593,9 +593,19 @@ body{background:var(--bg0);color:var(--text0);font-family:'Nunito Sans','Inter',
 // Para rodar localmente: API_BASE = ''  (mesmo servidor)
 // Para GitHub Pages: coloque a URL do ngrok/Cloudflare Tunnel aqui
 // Exemplo: const API_BASE = 'https://abc123.ngrok-free.app';
-const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? ''  // Local: API no mesmo servidor
-  : (localStorage.getItem('BROADCAST_API_URL') || 'https://SEU-TUNNEL-AQUI.ngrok-free.app');
+const API_BASE = (function(){
+  // Servido pelo proprio app.py (localhost, 127.0.0.1, IP da rede local, servidor
+  // proprio): a API esta na mesma origem. Vale para acesso de outro aparelho da casa.
+  var host = window.location.hostname;
+  var estatico = window.location.protocol === 'file:' ||
+                 /(^|\.)github\.io$/.test(host) ||
+                 /(^|\.)pages\.dev$/.test(host) ||
+                 /(^|\.)netlify\.app$/.test(host);
+  if (!estatico) return '';
+  // Hospedagem estatica (GitHub Pages): precisa da URL do tunel do administrador.
+  var salva = localStorage.getItem('BROADCAST_API_URL');
+  return (salva || 'https://SEU-TUNNEL-AQUI.ngrok-free.app').replace(/\/$/, '');
+})();
 
 // Função helper para fetch com API_BASE
 function apiFetch(path, opts) {
