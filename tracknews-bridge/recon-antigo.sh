@@ -61,7 +61,10 @@ if command -v schtasks.exe >/dev/null 2>&1; then
 else
   echo "(schtasks.exe nao acessivel deste shell)"
 fi
-for pasta in "/mnt/c/Users/$USER/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup" \
+# $USER pode nao estar exportado (shell nao-login, unit, tarefa agendada); com
+# set -u a referencia crua abortaria o script antes das secoes 8 e 9.
+usuario_win="${USER:-$(id -un)}"
+for pasta in "/mnt/c/Users/$usuario_win/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup" \
              "/mnt/c/ProgramData/Microsoft/Windows/Start Menu/Programs/StartUp"; do
   [[ -d "$pasta" ]] && { echo "--- $pasta ---"; ls -1 "$pasta" 2>/dev/null; }
 done

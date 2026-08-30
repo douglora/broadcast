@@ -70,8 +70,11 @@ if [[ "$com_systemd" == true ]]; then
   done
   systemctl --user daemon-reload
   systemctl --user enable --now tracknews-bridge.timer
-  loginctl enable-linger "$USER" 2>/dev/null \
-    || echo "    rode manualmente: sudo loginctl enable-linger $USER"
+  # $USER pode nao estar exportado (shell nao-login); com set -u a referencia
+  # crua abortaria a instalacao exatamente aqui.
+  usuario="${USER:-$(id -un)}"
+  loginctl enable-linger "$usuario" 2>/dev/null \
+    || echo "    rode manualmente: sudo loginctl enable-linger $usuario"
   echo "==> timer ligado (a cada 10 min). O envio segue DESLIGADO por config.json."
   systemctl --user list-timers tracknews-bridge.timer --no-pager || true
 fi
