@@ -6,9 +6,14 @@ Servidor do terminal de mercado (estilo Bloomberg).
 Sobe em http://localhost:5051 e serve tanto o front (index.html) quanto
 todos os endpoints /api/* que ele consome.
 
-    python app.py                # porta 5051
+    python app.py                # porta 5051, abre o navegador sozinho
     python app.py --port 5050    # outra porta
+    python app.py --no-open      # nao abrir o navegador
     PORT=8080 python app.py      # via variavel de ambiente
+
+Nao precisa instalar nada antes: as dependencias que faltarem sao instaladas
+na primeira execucao. Se a porta estiver ocupada, o servidor pega a proxima
+livre sozinho. Se ja houver um BROADCAST rodando, so abre o navegador nele.
 
 Principio de projeto: o terminal SEMPRE abre.
 Nenhuma requisicao HTTP do navegador espera por uma fonte externa — os dados
@@ -23,12 +28,57 @@ import io
 import json
 import os
 import re
+import socket
+import subprocess
 import sys
 import threading
 import time
+import webbrowser
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+
+DEPENDENCIAS = (
+    ("flask", "flask"),
+    ("flask_cors", "flask-cors"),
+    ("requests", "requests"),
+    ("feedparser", "feedparser"),
+)
+
+
+def _garantir_dependencias():
+    """Instala o que faltar na primeira execucao, para nao exigir setup manual."""
+    faltando = []
+    for modulo, pacote in DEPENDENCIAS:
+        try:
+            __import__(modulo)
+        except ImportError:
+            faltando.append(pacote)
+    if not faltando:
+        return
+
+    print(f"Instalando dependencias que faltam: {', '.join(faltando)}")
+    print("(so acontece na primeira vez)")
+    base = [sys.executable, "-m", "pip", "install", "--quiet"]
+    if subprocess.run(base + faltando).returncode != 0:
+        # Em Python de sistema o pip costuma exigir --user
+        subprocess.run(base + ["--user"] + faltando)
+
+    ainda_falta = []
+    for modulo, pacote in DEPENDENCIAS:
+        try:
+            __import__(modulo)
+        except ImportError:
+            ainda_falta.append(pacote)
+    if ainda_falta:
+        print("\nNao consegui instalar: " + ", ".join(ainda_falta))
+        print("Rode manualmente e tente de novo:")
+        print(f"  {sys.executable} -m pip install " + " ".join(ainda_falta))
+        sys.exit(1)
+    print("Dependencias prontas.\n")
+
+
+_garantir_dependencias()
 
 import requests
 from flask import Flask, jsonify, request, send_from_directory
@@ -1452,18 +1502,94 @@ def start_scheduler():
 # ─────────────────────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────────────────────
+def porta_ocupada(porta):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        try:
+            s.bind(("127.0.0.1", porta))
+            return False
+        except OSError:
+            return True
+
+
+def broadcast_ja_rodando(porta):
+    """True se quem ocupa a porta e um BROADCAST — ai basta abrir o navegador."""
+    try:
+        sess = requests.Session()
+        sess.trust_env = False          # ignora proxy do ambiente para o loopback
+        r = sess.get(f"http://127.0.0.1:{porta}/health", timeout=3)
+        return r.status_code == 200 and r.json().get("status") == "ok"
+    except Exception:
+        return False
+
+
+def escolher_porta(preferida):
+    """Usa a porta pedida; se estiver ocupada por outro programa, pega a proxima."""
+    if not porta_ocupada(preferida):
+        return preferida, None
+    if broadcast_ja_rodando(preferida):
+        return preferida, "ja_rodando"
+    for porta in range(preferida + 1, preferida + 25):
+        if not porta_ocupada(porta):
+            return porta, "trocada"
+    return preferida, "sem_porta"
+
+
+def abrir_navegador_quando_subir(porta, tentativas=60):
+    """Espera o servidor responder e entao abre a tela no navegador padrao."""
+    def esperar():
+        sess = requests.Session()
+        sess.trust_env = False
+        url = f"http://localhost:{porta}/terminal"
+        for _ in range(tentativas):
+            try:
+                if sess.get(f"http://127.0.0.1:{porta}/health", timeout=2).status_code == 200:
+                    break
+            except Exception:
+                pass
+            time.sleep(0.5)
+        try:
+            webbrowser.open(url)
+            log(f"navegador aberto em {url}")
+        except Exception:
+            log(f"abra manualmente: {url}")
+    threading.Thread(target=esperar, daemon=True).start()
+
+
 def main():
     ap = argparse.ArgumentParser(description="Servidor BROADCAST — The Invest Post")
     ap.add_argument("--port", type=int, default=int(os.environ.get("PORT", DEFAULT_PORT)),
                     help=f"porta HTTP (padrao {DEFAULT_PORT})")
     ap.add_argument("--host", default=os.environ.get("HOST", "0.0.0.0"))
+    ap.add_argument("--no-open", action="store_true",
+                    help="nao abrir o navegador automaticamente")
     ap.add_argument("--no-bootstrap", action="store_true",
                     help="sobe sem a carga inicial (util para debug)")
     args = ap.parse_args()
 
     if not os.path.exists(os.path.join(BASE_DIR, "index.html")):
-        log("ERRO: index.html nao encontrado ao lado de app.py")
+        print("ERRO: index.html nao foi encontrado na mesma pasta que app.py.")
+        print(f"Pasta consultada: {BASE_DIR}")
         sys.exit(1)
+
+    porta, situacao = escolher_porta(args.port)
+
+    if situacao == "ja_rodando":
+        print("=" * 62)
+        print("  O BROADCAST ja esta rodando nesta porta.")
+        print(f"  Abrindo http://localhost:{porta}/terminal")
+        print("=" * 62)
+        try:
+            webbrowser.open(f"http://localhost:{porta}/terminal")
+        except Exception:
+            pass
+        return
+    if situacao == "sem_porta":
+        print(f"ERRO: as portas {args.port} a {args.port + 24} estao todas ocupadas.")
+        print("Feche algum programa ou escolha outra:  python app.py --port 6000")
+        sys.exit(1)
+    if situacao == "trocada":
+        print(f"A porta {args.port} esta ocupada por outro programa — usando a {porta}.")
 
     if not os.path.exists(SPREADS_REF_PATH):
         save_json_file(SPREADS_REF_PATH, SPREADS_REF_DEFAULT)
@@ -1474,16 +1600,23 @@ def main():
 
     print("=" * 62)
     print("  BROADCAST — The Invest Post")
-    print(f"  Terminal:  http://localhost:{args.port}/terminal")
-    print(f"             http://localhost:{args.port}   (mesma tela)")
-    print(f"  Saude:     http://localhost:{args.port}/health")
+    print(f"  Terminal:  http://localhost:{porta}/terminal")
+    print(f"             http://localhost:{porta}   (mesma tela)")
+    print(f"  Saude:     http://localhost:{porta}/health")
+    print("  Para parar: Ctrl+C")
     print("=" * 62)
+
+    if not args.no_open:
+        abrir_navegador_quando_subir(porta)
 
     if not args.no_bootstrap:
         bootstrap()
     start_scheduler()
 
-    app.run(host=args.host, port=args.port, debug=False, threaded=True, use_reloader=False)
+    try:
+        app.run(host=args.host, port=porta, debug=False, threaded=True, use_reloader=False)
+    except KeyboardInterrupt:
+        print("\nServidor encerrado.")
 
 
 if __name__ == "__main__":

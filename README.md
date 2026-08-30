@@ -16,33 +16,49 @@ O repositorio tem duas partes:
 
 ## Como abrir o terminal
 
+**Clique duas vezes no atalho:**
+
+| Sistema | Arquivo                     |
+|---------|-----------------------------|
+| Windows | `INICIAR-TERMINAL.bat`      |
+| macOS   | `INICIAR-TERMINAL.command`  |
+| Linux   | `./INICIAR-TERMINAL.command`|
+
+Pronto — o atalho busca a versao mais nova, instala o que faltar, sobe o
+servidor e **abre o navegador sozinho** em `http://localhost:5051/terminal`.
+
+Se preferir a linha de comando, e a mesma coisa:
+
 ```bash
-pip install -r requirements.txt
 python app.py
 ```
 
-Abra **http://localhost:5051/terminal**.
+Nao precisa instalar nada antes: na primeira execucao o proprio `app.py`
+instala as dependencias que faltarem. Se a porta 5051 estiver ocupada por
+outro programa, ele pega a proxima livre e avisa. Se o BROADCAST ja estiver
+rodando, ele so abre o navegador em vez de subir um segundo servidor.
 
-A mesma tela responde na raiz (`http://localhost:5051`) e, na verdade, em
-qualquer caminho: `/terminal`, `/painel`, `/index.html`. So os endpoints
-`/api/*` sao reservados.
-
-O servidor sobe na porta **5051** por padrao. Para trocar:
+Opcoes:
 
 ```bash
-python app.py --port 5050     # ou
-PORT=8080 python app.py
+python app.py --port 5050   # outra porta
+python app.py --no-open     # nao abrir o navegador
 ```
+
+O terminal responde em `/terminal`, na raiz (`http://localhost:5051`) e, na
+verdade, em qualquer caminho. So os endpoints `/api/*` sao reservados.
 
 ### Nao abriu?
 
 1. Confira se o servidor esta de pe: **http://localhost:5051/health**
    deve responder um JSON com `"status": "ok"`.
-   Se nao responder, o servidor nao esta rodando — volte ao `python app.py`.
-2. Se a porta estiver ocupada, suba em outra (`--port 5052`) — o terminal
-   funciona em qualquer porta.
-3. `app.py` e `index.html` precisam estar na mesma pasta.
-4. Os graficos usam Chart.js via CDN (`cdnjs.cloudflare.com`). Sem acesso a
+   Se nao responder, o servidor nao esta rodando — volte ao atalho.
+2. Olhe a janela preta que o atalho abriu: qualquer erro aparece ali.
+3. Se disser que o Python nao foi encontrado, instale em
+   https://www.python.org/downloads/ (no Windows, marque
+   **"Add Python to PATH"**) e clique no atalho de novo.
+4. `app.py` e `index.html` precisam estar na mesma pasta.
+5. Os graficos usam Chart.js via CDN (`cdnjs.cloudflare.com`). Sem acesso a
    esse dominio os paineis carregam, mas os graficos ficam vazios.
 
 O terminal **abre mesmo com as fontes externas fora do ar** — os paineis sem
