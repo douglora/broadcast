@@ -1,0 +1,141 @@
+# Ponte TrackNews -> AutoPilot News
+
+Entrega no grupo "AutoPilot News" os alertas que a nuvem **já aprovou**. Nada mais.
+
+A coleta, a validação de cada número contra a fonte, a relevância, a deduplicação e a
+redação acontecem em `douglora/tracknews-autopilot` (GitHub Actions, 24/7). Esta ponte
+só lê a fila do branch `state` e entrega pelo WAHA local, **sem tocar no texto**.
+
+Para calibrar a expectativa: em 2026-08-29 o repositório de estado registrou 218 linhas —
+215 itens bloqueados antes de virarem alerta, 2 alertas segurados pela própria nuvem e
+**1 alerta aprovado**. É esse corte que resolve a poluição do fluxo antigo.
+
+## O que a ponte nunca faz
+
+- Não reescreve, resume, encurta, junta nem acrescenta emoji ao texto do alerta.
+  O que sai é `alert.text` byte a byte — há teste automatizado provando isso.
+- Não envia para nenhum destino que não seja o chat id gravado em `config.json`,
+  e recusa qualquer id que não termine em `@g.us`.
+- Não inicia, reinicia, repara nem reconfigura o WAHA. Só usa o endpoint de envio
+  que já existe. Se o WAHA não responder, ela para e diz isso.
+- Não pareia WhatsApp e não escaneia QR.
+- Não toca em `autopilot-br` nem em `broadcast-terminal`.
+- Não imprime tokens, chaves, telefones ou ids de chat. O id do grupo vira um rótulo
+  estável (`id:<hash>`) nos logs e na tela.
+
+## Instalar
+
+```bash
+bash install.sh              # instala em ~/tracknews-bridge, sem ligar o envio
+bash install.sh --systemd    # o mesmo + timer de 10 em 10 minutos
+```
+
+O envio nasce **desligado** (`envio_habilitado: false`). Mesmo com o timer rodando,
+nada sai até essa chave virar `true`.
+
+Sem systemd no WSL, use `windows/tracknews-bridge-task.xml` (Tarefa Agendada nova,
+chamada "TrackNews Bridge" — nenhuma tarefa existente é tocada).
+
+Com systemd, lembre do `sudo loginctl enable-linger $USER` para o timer sobreviver ao
+logout e ao reinício do PC.
+
+## Ordem de uso
+
+```bash
+cd ~/tracknews-bridge
+python3 bridge.py waha        # 1. acha o grupo, confere participantes, grava o id (só leitura)
+python3 bridge.py dry-run     # 2. mostra o texto exato que sairia + simulação dos limites
+python3 bridge.py test-send --confirmo   # 3. UM envio, só depois do "pode enviar"
+```
+
+Ligar o piloto automático depois do teste aprovado:
+
+```bash
+python3 - <<'PY'
+import json, pathlib
+p = pathlib.Path.home() / "tracknews-bridge/config.json"
+c = json.loads(p.read_text()); c["envio_habilitado"] = True
+p.write_text(json.dumps(c, ensure_ascii=False, indent=2)); p.chmod(0o600)
+PY
+```
+
+## Comandos
+
+| comando | o que faz |
+|---|---|
+| `status` | config sem segredos, contadores, tamanho da fila |
+| `waha` | reconhecimento somente leitura do WAHA; localiza o grupo e grava o id |
+| `dry-run` | o que sairia agora, texto completo, e a simulação dos limites. Não envia, não grava |
+| `run` | modo real, usado pelo timer |
+| `test-send --confirmo` | um único envio. `--alert-id <id>` escolhe qual |
+| `seed` | marca a fila atual como já entregue, sem enviar |
+| `autoteste.py` | 31 checagens das regras que não podem quebrar |
+
+## Kill switch
+
+```bash
+touch ~/tracknews-bridge/PAUSED    # para tudo, na hora
+rm    ~/tracknews-bridge/PAUSED    # volta
+```
+
+Vale para o `run` e para o `test-send`. A fila não é descartada: acumula e sai depois.
+
+## Limites
+
+≤ 4 mensagens por hora (janela móvel) · ≤ 12 por dia (dia de São Paulo) ·
+≥ 10 minutos entre mensagens · silêncio das 22h00 às 06h30 (America/Sao_Paulo).
+
+O que for barrado **fica na fila** para a próxima janela. Correções (`CORRECTED`) e
+retratações (`RETRACTED`) furam a ordem e vão na frente, mas continuam respeitando os
+limites.
+
+## Detalhes do contrato que importam
+
+1. **O JSONL tem duas formas de linha.** A maioria é item bloqueado
+   (`{"item", "claims", "gate", "recorded_at"}`) e **não tem a chave `alert`**. Só a
+   forma com `alert` e `gate.allowed == true` vira mensagem. Um leitor ingênuo que
+   assumisse `linha["alert"]` quebraria em 215 das 218 linhas do dia 29.
+2. **O nome do arquivo é a data UTC**, não a de São Paulo (`review_queue.py` usa
+   `datetime.now(UTC)`). Entre 21h e meia-noite em São Paulo o arquivo do momento já é o
+   de "amanhã" em UTC. Por isso a ponte lê uma janela de dias (`repo.dias_janela`,
+   padrão 2), nunca um dia só.
+3. **`gate.action` pode ser `hold`**, com `held_until`: é a nuvem segurando o alerta.
+   A ponte não envia nada disso — quando a nuvem liberar, o alerta reaparece com
+   `allowed: true` e aí sim entra na fila.
+4. **Idempotência por `alert_id`**, em `enviados.json`. Se esse arquivo sumir, a próxima
+   execução **semeia** o histórico: marca tudo que está na janela como já entregue e não
+   envia nada. É o comportamento pedido, e é o que impede um despejo acidental.
+5. **Resposta incerta não é reenviada.** Se o WAHA aceitar a requisição mas não
+   responder (timeout), o alerta é gravado como `incerto` e a ponte para. A mensagem
+   pode ter chegado; quem decide reenviar é o Douglas.
+
+## Arquivos
+
+```
+~/tracknews-bridge/
+  bridge.py         a ponte
+  autoteste.py      as regras que não podem quebrar
+  config.json       600. Inclui o chat id do grupo
+  enviados.json     600. alert_id já entregues
+  log.jsonl         600. um registro por envio
+  repo.git          clone bare (só o branch state)
+  PAUSED            se existir, nada sai
+~/.config/tracknews-bridge/.env   600. chave do WAHA, se o seu exigir
+```
+
+## Reconhecimento (somente leitura)
+
+```bash
+bash recon-antigo.sh > relatorio.txt   # quem manda mensagem hoje para o grupo
+bash hermes-check.sh                   # estado do Hermes, com evidência
+```
+
+Nenhum dos dois desliga, repara ou reinicia coisa alguma. O `recon-antigo.sh` termina
+imprimindo o comando **reversível** de desligar e religar para cada tipo de item — para
+serem rodados só depois do OK, um a um.
+
+## O PC precisa ficar ligado
+
+A coleta e a redação continuam na nuvem, 24/7. A **entrega** depende do WAHA local.
+Com o PC desligado os alertas se acumulam na fila do branch `state` e saem quando ele
+voltar — respeitando os limites, sem rajada.
