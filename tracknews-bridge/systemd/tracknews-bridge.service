@@ -1,0 +1,15 @@
+[Unit]
+Description=Ponte TrackNews -> WAHA (grupo AutoPilot News)
+Documentation=https://github.com/douglora/tracknews-autopilot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/tracknews-bridge
+ExecStart=/usr/bin/python3 %h/tracknews-bridge/bridge.py run
+TimeoutStartSec=180
+NoNewPrivileges=true
+# A ponte so LE o repo de estado e USA o endpoint de envio ja existente do WAHA.
+# Ela nunca inicia, reinicia ou reconfigura o WAHA, e nunca toca em autopilot-br
+# nem em broadcast-terminal.

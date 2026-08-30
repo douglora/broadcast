@@ -1,0 +1,30 @@
+{
+  "_leia": "Copie para ~/tracknews-bridge/config.json (modo 600). O chat_id e preenchido por `bridge.py waha`.",
+  "envio_habilitado": false,
+  "waha": {
+    "base_url": "http://localhost:3000",
+    "session": "default",
+    "send_path": "/api/sendText",
+    "api_key_env": "WAHA_API_KEY",
+    "timeout_s": 20
+  },
+  "destino": {
+    "nome_grupo": "AutoPilot News",
+    "chat_id": null,
+    "participantes_esperados": 1
+  },
+  "repo": {
+    "url": "https://github.com/douglora/tracknews-autopilot.git",
+    "branch": "state",
+    "dias_janela": 2
+  },
+  "limites": {
+    "por_hora": 4,
+    "por_dia": 12,
+    "espacamento_min": 10,
+    "silencio_inicio": "22:00",
+    "silencio_fim": "06:30",
+    "max_por_execucao": 1,
+    "max_idade_horas": null
+  }
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=Roda a ponte TrackNews a cada 10 minutos
+
+[Timer]
+OnCalendar=*:0/10
+RandomizedDelaySec=30
+AccuracySec=15s
+Persistent=true
+Unit=tracknews-bridge.service
+
+[Install]
+WantedBy=timers.target
