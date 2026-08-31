@@ -7,7 +7,20 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+// Chart.js: tenta a copia local primeiro (site publicado e app.py trazem uma),
+// e so recorre ao CDN se ela nao existir. Sem isso, qualquer bloqueio a
+// cdnjs.cloudflare.com apagava todos os graficos em silencio.
+(function(){
+  var base = /\/terminal\/?$/.test(location.pathname) ? '../' : './';
+  document.write('<scr'+'ipt src="' + base + 'vendor/chart.umd.min.js"><\/scr'+'ipt>');
+})();
+</script>
+<script>
+if (typeof Chart === 'undefined') {
+  document.write('<scr'+'ipt src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"><\/scr'+'ipt>');
+}
+</script>
 <style>
 :root{
   --bg0:#f5f5f7;--bg1:#ffffff;--bg2:#f0f0f3;--bg3:#e3e3e8;
@@ -593,22 +606,146 @@ body{background:var(--bg0);color:var(--text0);font-family:'Nunito Sans','Inter',
 // Para rodar localmente: API_BASE = ''  (mesmo servidor)
 // Para GitHub Pages: coloque a URL do ngrok/Cloudflare Tunnel aqui
 // Exemplo: const API_BASE = 'https://abc123.ngrok-free.app';
-const API_BASE = (function(){
-  // Servido pelo proprio app.py (localhost, 127.0.0.1, IP da rede local, servidor
-  // proprio): a API esta na mesma origem. Vale para acesso de outro aparelho da casa.
-  var host = window.location.hostname;
-  var estatico = window.location.protocol === 'file:' ||
-                 /(^|\.)github\.io$/.test(host) ||
-                 /(^|\.)pages\.dev$/.test(host) ||
-                 /(^|\.)netlify\.app$/.test(host);
-  if (!estatico) return '';
-  // Hospedagem estatica (GitHub Pages): precisa da URL do tunel do administrador.
-  var salva = localStorage.getItem('BROADCAST_API_URL');
-  return (salva || 'https://SEU-TUNNEL-AQUI.ngrok-free.app').replace(/\/$/, '');
-})();
+// Tres modos, decididos na abertura:
+//  1. servido pelo app.py  -> mesma origem, dado ao vivo
+//  2. GitHub Pages com tunel configurado -> usa o tunel, dado ao vivo
+//  3. GitHub Pages sem tunel -> le o retrato estatico publicado pelo
+//     GitHub Actions (api/*.json), sem precisar de servidor nenhum
+let API_BASE = '';
+let MODO_ESTATICO = false;
+let MANIFESTO = null;
+
+function hostEstatico(){
+  var h = window.location.hostname;
+  return window.location.protocol === 'file:' ||
+         /(^|\.)github\.io$/.test(h) ||
+         /(^|\.)pages\.dev$/.test(h) ||
+         /(^|\.)netlify\.app$/.test(h);
+}
+
+// Caminho base dos JSON estaticos: funciona na raiz e em /terminal
+function baseEstatica(){
+  var p = window.location.pathname;
+  return /\/terminal\/?$/.test(p) ? '../' : './';
+}
+
+async function backendResponde(base){
+  try{
+    const c = new AbortController();
+    const t = setTimeout(()=>c.abort(), 6000);
+    const r = await fetch(base + '/api/quotes_fast', {signal:c.signal});
+    clearTimeout(t);
+    return r.ok;
+  }catch(e){ return false; }
+}
+
+async function detectarModo(){
+  if (!hostEstatico()) { API_BASE=''; MODO_ESTATICO=false; return; }
+
+  // Tunel configurado tem prioridade — dado ao vivo e melhor que o retrato
+  const salva = localStorage.getItem('BROADCAST_API_URL');
+  if (salva) {
+    const url = salva.replace(/\/$/, '');
+    if (await backendResponde(url)) { API_BASE = url; return; }
+  }
+
+  // Sem tunel: tenta o retrato estatico
+  try{
+    const r = await fetch(baseEstatica() + 'api/manifest.json', {cache:'no-store'});
+    if (r.ok) { MANIFESTO = await r.json(); MODO_ESTATICO = true; return; }
+  }catch(e){}
+
+  API_BASE = 'https://SEU-TUNNEL-AQUI.ngrok-free.app';  // cai no modal de config
+}
+
+// ── LEITURA DO RETRATO ESTATICO ──────────────────────────────
+function respostaJson(obj){
+  return Promise.resolve({ok:true, status:200, json:()=>Promise.resolve(obj)});
+}
+
+function arquivoDoTicker(t){
+  return String(t).replace(/[^A-Za-z0-9.\-]/g, '_');
+}
+
+async function lerEstatico(caminho){
+  const [rota, query] = caminho.split('?');
+  const par = new URLSearchParams(query || '');
+  const base = baseEstatica();
+
+  const diretos = {
+    '/api/quotes':'quotes', '/api/quotes_fast':'quotes', '/api/news':'news',
+    '/api/cvm':'cvm', '/api/weekly_summary':'weekly_summary', '/api/di':'di',
+    '/api/tesouro':'tesouro', '/api/spreads':'spreads',
+    '/api/spread_history':'spread_history', '/api/indicators':'indicators',
+    '/api/watchlist':'watchlist', '/api/alerts':'alerts',
+    '/api/alert_history':'alert_history', '/api/tir/all':'tir_all',
+  };
+  if (diretos[rota]) return fetch(base + 'api/' + diretos[rota] + '.json', {cache:'no-store'});
+
+  if (rota === '/api/indicator_history')
+    return fetch(base + 'api/indicator_history/' + encodeURIComponent(par.get('key')||'') + '.json');
+
+  if (rota === '/api/asset') {
+    const tk = arquivoDoTicker(par.get('ticker')||'');
+    const pe = par.get('period') || '1mo';
+    let r = await fetch(base + `api/asset/${tk}_${pe}.json`);
+    if (!r.ok && pe !== '1mo') r = await fetch(base + `api/asset/${tk}_1mo.json`);
+    if (!r.ok && !/-USD$/.test(tk)) r = await fetch(base + `api/asset/${tk}-USD_1mo.json`);
+    if (r.ok) return r;
+    return respostaJson({error:'sem dados para este ativo neste modo'});
+  }
+
+  if (rota === '/api/tir') {
+    const alvo = (par.get('ticker')||'').toUpperCase().replace('.SA','');
+    const d = await (await fetch(base + 'api/tir_all.json')).json();
+    const achado = (d.assets||[]).find(a => a.ticker === alvo);
+    return respostaJson(achado || {error:'sem TIR para ' + alvo});
+  }
+
+  // Busca resolvida no proprio navegador, sobre o retrato ja carregado
+  if (rota === '/api/search') {
+    const q = (par.get('q')||'').toLowerCase();
+    const TIPO = {b3:'acao_br', us:'stock', etf:'etf', index:'index',
+                  forex:'forex', commodity:'commodity', futures:'futures'};
+    const out = [];
+    for (const [tk,v] of Object.entries(quotesData.quotes||{}))
+      if (tk.toLowerCase().includes(q) || (v.name||'').toLowerCase().includes(q))
+        out.push({ticker:tk, name:v.name, type:TIPO[v.category]||v.category,
+                  price:v.price, change_pct:v.change_pct, source:'estatico'});
+    for (const [sym,v] of Object.entries(quotesData.crypto||{}))
+      if (sym.toLowerCase().includes(q) || (v.name||'').toLowerCase().includes(q))
+        out.push({ticker:sym, name:v.name, type:'crypto',
+                  price:v.price_usd, change_pct:v.change_pct, source:'estatico'});
+    return respostaJson({results: out.slice(0,40)});
+  }
+
+  if (rota === '/api/search_news') {
+    const q = (par.get('q')||'').toLowerCase();
+    const hits = (newsData||[]).filter(n =>
+      n.title.toLowerCase().includes(q) || (n.summary||'').toLowerCase().includes(q));
+    return respostaJson({news: hits.slice(0,10)});
+  }
+
+  // Sem backend nao da para raspar StatusInvest nem MaisRetorno
+  if (rota === '/api/statusinvest') return respostaJson({indicators:{}});
+  if (rota === '/api/maisretorno')  return respostaJson({profile:{}, returns:{}});
+
+  return respostaJson({});
+}
 
 // Função helper para fetch com API_BASE
 function apiFetch(path, opts) {
+  if (MODO_ESTATICO) {
+    // No retrato estatico nao ha o que gravar no servidor: a watchlist do
+    // usuario fica salva no proprio navegador.
+    if (opts && (opts.method||'GET').toUpperCase() === 'POST') {
+      if (path === '/api/watchlist') {
+        try{ localStorage.setItem('BROADCAST_WATCHLIST', opts.body); }catch(e){}
+      }
+      return respostaJson({ok:true});
+    }
+    return lerEstatico(path);
+  }
   return fetch(API_BASE + path, opts);
 }
 
@@ -1936,7 +2073,7 @@ async function fetchAlerts(){try{const d=await(await apiFetch('/api/alerts')).js
 async function fetchDI(){try{const d=await(await apiFetch('/api/di')).json();diData=d.di||[];renderDI();}catch(e){}}
 async function fetchSpreads(){try{const d=await(await apiFetch('/api/spreads')).json();spreadsData=d.spreads||{};renderSpreads();}catch(e){}}
 async function fetchIndicators(){try{const d=await(await apiFetch('/api/indicators')).json();indicators=d.indicators||{};renderIndicators();}catch(e){}}
-async function fetchWatchlist(){try{const d=await(await apiFetch('/api/watchlist')).json();watchlist=d.watchlist||{};}catch(e){}}
+async function fetchWatchlist(){try{const d=await(await apiFetch('/api/watchlist')).json();watchlist=d.watchlist||{};if(MODO_ESTATICO){try{const salvo=JSON.parse(localStorage.getItem('BROADCAST_WATCHLIST')||'{}');for(const[n,v]of Object.entries(salvo))if(watchlist[n]&&v&&'active'in v)watchlist[n].active=!!v.active;}catch(e){}}}catch(e){}}
 async function fetchAlertHistory(){try{const d=await(await apiFetch('/api/alert_history')).json();alertHistory=d.history||[];}catch(e){}}
 
 document.querySelectorAll('.ntab').forEach(b=>{b.addEventListener('click',()=>{document.querySelectorAll('.ntab').forEach(x=>x.classList.remove('active'));b.classList.add('active');activeTab=b.dataset.cat;renderNews();});});
@@ -2058,15 +2195,36 @@ function saveApiUrl() {
   window.location.reload();
 }
 
+function marcarModoEstatico(){
+  const el = document.getElementById('ws-label');
+  if (el) {
+    let quando = '';
+    if (MANIFESTO && MANIFESTO.gerado_em) {
+      const d = new Date(MANIFESTO.gerado_em);
+      quando = ' ' + d.toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',
+                                               hour:'2-digit',minute:'2-digit'});
+    }
+    el.textContent = 'SNAPSHOT' + quando;
+    el.style.color = 'var(--yellow)';
+    el.title = 'Retrato publicado pelo GitHub Actions. Para tempo real, rode o app.py.';
+  }
+  const dot = document.getElementById('conn-dot');
+  if (dot) { dot.style.background = 'var(--yellow)'; dot.style.animation = 'none'; }
+}
+
 async function init(){
   if('Notification'in window&&Notification.permission==='default')Notification.requestPermission();
-  // Se estiver no GitHub Pages, verifica conexão com API
-  if (API_BASE && !API_BASE.includes('SEU-TUNNEL-AQUI')) {
-    const ok = await checkApiConnection();
-    if (!ok) return;
+
+  await detectarModo();
+
+  if (MODO_ESTATICO) {
+    marcarModoEstatico();
   } else if (API_BASE.includes('SEU-TUNNEL-AQUI')) {
     showApiConfig();
     return;
+  } else if (API_BASE) {
+    const ok = await checkApiConnection();
+    if (!ok) return;
   }
   const modal = document.getElementById('api-config-modal');
   if (modal) modal.style.display = 'none';
@@ -2075,9 +2233,19 @@ async function init(){
   fetchAlerts();
   fetchWeeklySummary();
   fetchTirRanking();
+  agendarAtualizacoes();
 }
 init();
-setInterval(fetchQuotes,90_000);setInterval(fetchQuotesFast,2_000);setInterval(fetchNews,30_000);setInterval(fetchCVM,120_000);setInterval(fetchAlerts,30_000);setInterval(fetchDI,30_000);setInterval(fetchIndicators,60_000);setInterval(fetchSpreads,900_000);setInterval(fetchTesouro,600_000);setInterval(fetchWeeklySummary,180_000);setInterval(fetchTirRanking,300_000);
+// No modo estatico o dado so muda quando o GitHub Actions republica:
+// reconsultar a cada 2s so gastaria banda a toa.
+function agendarAtualizacoes(){
+  if (MODO_ESTATICO) {
+    setInterval(()=>{fetchQuotes();fetchNews();fetchCVM();fetchDI();fetchIndicators();
+                     fetchTesouro();fetchWeeklySummary();fetchTirRanking();}, 300_000);
+    return;
+  }
+  setInterval(fetchQuotes,90_000);setInterval(fetchQuotesFast,2_000);setInterval(fetchNews,30_000);setInterval(fetchCVM,120_000);setInterval(fetchAlerts,30_000);setInterval(fetchDI,30_000);setInterval(fetchIndicators,60_000);setInterval(fetchSpreads,900_000);setInterval(fetchTesouro,600_000);setInterval(fetchWeeklySummary,180_000);setInterval(fetchTirRanking,300_000);
+}
 </script>
 </body>
 </html>

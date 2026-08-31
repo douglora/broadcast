@@ -4,3 +4,6 @@ data/alert_history.json
 data/spread_history.json
 *.pyc
 __pycache__/
+
+# Copia local do Chart.js, baixada na primeira execucao
+vendor/

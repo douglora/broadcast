@@ -1,0 +1,90 @@
+name: Publicar terminal
+
+# Publica o terminal no GitHub Pages com um retrato novo dos dados.
+# Roda de hora em hora durante o pregao, e tambem pode ser disparado a mao
+# pela aba Actions.
+on:
+  schedule:
+    # De hora em hora, dias uteis, 09h-23h UTC (06h-20h em Brasilia):
+    # cobre a abertura da B3 ate o fechamento de Nova York.
+    - cron: "5 9-23 * * 1-5"
+    # Uma vez por dia no fim de semana, so para nao ficar desatualizado
+    - cron: "5 13 * * 0,6"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "app.py"
+      - "gerar_dados.py"
+      - "tir_real_servidor.py"
+      - "data/spreads_ref.json"
+      - ".github/workflows/publicar-terminal.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Uma publicacao por vez; se entrar outra, a anterior termina antes
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Gerar o retrato dos dados
+        run: python gerar_dados.py --saida site
+
+      - name: Conferir o que foi gerado
+        run: |
+          echo "### Retrato publicado" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          m = json.load(open("site/api/manifest.json"))
+          print(f"- Gerado em: `{m['gerado_em']}`")
+          print(f"- Cotacoes: **{m['tickers']}** ativos")
+          print(f"- Indicadores: **{m['indicadores']}**")
+          print(f"- Noticias: **{m['noticias']}**")
+          print(f"- Fatos relevantes CVM: **{m['fatos_cvm']}**")
+          if m["falhas"]:
+              print(f"- Fontes que falharam: {len(m['falhas'])}")
+              for f in m["falhas"]:
+                  print(f"  - `{f}`")
+          else:
+              print("- Todas as fontes responderam")
+          PY
+
+      - name: Conferir que o Chart.js foi embutido
+        run: |
+          test -s site/vendor/chart.umd.min.js \
+            || { echo "Chart.js nao foi baixado — os graficos dependeriam do CDN"; exit 1; }
+          echo "- Chart.js embutido: $(du -h site/vendor/chart.umd.min.js | cut -f1)" >> $GITHUB_STEP_SUMMARY
+
+      - name: Preparar o GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Endereco publicado
+        run: echo "Terminal no ar em ${{ steps.deploy.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY

@@ -1071,15 +1071,44 @@ def index():
     return serve_terminal()
 
 
+VENDOR_DIR = os.path.join(BASE_DIR, "vendor")
+CHARTJS_URL = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"
+CHARTJS_ARQ = "chart.umd.min.js"
+
+
+@app.route("/vendor/<path:arquivo>")
+def vendor(arquivo):
+    """Bibliotecas locais (Chart.js). 404 de verdade se nao existir, para o
+    fallback do CDN entrar no lugar em vez de receber HTML."""
+    destino = os.path.join(VENDOR_DIR, arquivo)
+    if os.path.isfile(destino):
+        return send_from_directory(VENDOR_DIR, arquivo)
+    return ("nao encontrado", 404)
+
+
+def baixar_chartjs():
+    """Guarda uma copia do Chart.js para os graficos nao dependerem do CDN."""
+    destino = os.path.join(VENDOR_DIR, CHARTJS_ARQ)
+    if os.path.exists(destino) and os.path.getsize(destino) > 50_000:
+        return
+    r = http_get(CHARTJS_URL, timeout=20)
+    if not r or len(r.content) < 50_000:
+        return  # sem rede agora: o CDN cobre, e tentamos de novo na proxima vez
+    os.makedirs(VENDOR_DIR, exist_ok=True)
+    with open(destino, "wb") as f:
+        f.write(r.content)
+    log(f"Chart.js salvo em vendor/ ({len(r.content)//1024} KB)")
+
+
 @app.errorhandler(404)
 def not_found(err):
     """
-    Fora de /api/*, qualquer caminho abre o terminal em vez de devolver 404.
-    Assim um endereco digitado com uma variacao qualquer (/terminal, /painel,
-    /broadcast...) continua abrindo a tela em vez de dar erro no navegador.
+    Fora de /api/* e /vendor/*, qualquer caminho abre o terminal em vez de
+    devolver 404. Assim um endereco digitado com uma variacao qualquer
+    (/terminal, /painel, /broadcast...) continua abrindo a tela.
     """
-    if request.path.startswith("/api/"):
-        return jsonify({"error": "endpoint inexistente", "path": request.path}), 404
+    if request.path.startswith("/api/") or request.path.startswith("/vendor/"):
+        return jsonify({"error": "nao encontrado", "path": request.path}), 404
     return serve_terminal()
 
 
@@ -1487,7 +1516,7 @@ def bootstrap():
         run_job(fn)
 
     # mais lentos, seguem em segundo plano sem segurar o boot
-    for fn in (refresh_cvm, refresh_sec):
+    for fn in (refresh_cvm, refresh_sec, baixar_chartjs):
         threading.Thread(target=run_job, args=(fn,), daemon=True).start()
 
     log("dados iniciais prontos")
