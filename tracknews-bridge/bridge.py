@@ -22,6 +22,7 @@ Comandos:
 from __future__ import annotations
 
 import argparse
+import fcntl
 import hashlib
 import json
 import os
@@ -51,6 +52,7 @@ ENVIADOS_PATH = HOME / "enviados.json"
 LOG_PATH = HOME / "log.jsonl"
 PAUSED_PATH = HOME / "PAUSED"
 REPO_DIR = HOME / "repo.git"
+LOCK_PATH = HOME / ".lock"
 ENV_FILE = Path.home() / ".config" / "tracknews-bridge" / ".env"
 
 DEFAULTS = {
@@ -161,6 +163,29 @@ def grava_enviados(dados: dict) -> None:
     os.chmod(tmp, 0o600)
     tmp.replace(ENVIADOS_PATH)
     os.chmod(ENVIADOS_PATH, 0o600)
+
+
+_TRAVA = None
+
+
+def trava_execucao() -> bool:
+    """Uma execucao por vez. O timer e um comando manual rodando juntos leriam o
+    mesmo enviados.json antes de qualquer um gravar -- e o mesmo alerta sairia
+    duas vezes no grupo. flock e liberado sozinho quando o processo termina."""
+    global _TRAVA
+    HOME.mkdir(parents=True, exist_ok=True)
+    handle = LOCK_PATH.open("a")
+    try:
+        os.chmod(LOCK_PATH, 0o600)
+    except OSError:
+        pass
+    try:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        handle.close()
+        return False
+    _TRAVA = handle
+    return True
 
 
 def registra_log(evento: dict) -> None:
@@ -929,6 +954,11 @@ def main() -> int:
         os.chmod(HOME, 0o700)
     except OSError:
         pass
+    if args.comando in ("run", "test-send", "seed"):
+        if not trava_execucao():
+            print("outra execucao da ponte ja esta em andamento; nada feito.")
+            registra_log({"evento": "pulado", "motivo": "lock"})
+            return 0
     return args.func(cfg, args)
 
 

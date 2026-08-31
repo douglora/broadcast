@@ -124,6 +124,7 @@ limites.
   log.jsonl         600. um registro por envio
   repo.git          clone bare (só o branch state)
   PAUSED            se existir, nada sai
+  .lock             trava: uma execução por vez (timer × comando manual)
 ~/.config/tracknews-bridge/.env   600. chave do WAHA, se o seu exigir
 ```
 
@@ -143,3 +144,28 @@ serem rodados só depois do OK, um a um.
 A coleta e a redação continuam na nuvem, 24/7. A **entrega** depende do WAHA local.
 Com a máquina desligada os alertas se acumulam na fila do branch `state` e saem quando
 ela voltar — respeitando os limites, sem rajada.
+
+## Queda de luz: a cadeia de religamento
+
+O timer roda dentro do WSL, e o Windows **não** sobe o WSL sozinho no boot. Para a
+entrega voltar sem ninguém na frente do PC, cada elo abaixo precisa estar armado —
+os dois primeiros são configuração do Windows e ficam a cargo do Douglas:
+
+1. **Energia**: nunca suspender/hibernar (Configurações → Energia). Opcional, na BIOS:
+   religar sozinho depois de falta de luz ("Restore on AC Power Loss").
+2. **Logon automático** do usuário no Windows (`netplwiz`, desmarcar "exigir nome e
+   senha"). Sem logon, nenhuma tarefa de usuário dispara.
+3. **WSL de pé**: registrar `windows/wsl-autostart-task.xml` (uma vez, PowerShell como
+   administrador). No logon ela sobe o Ubuntu e o mantém vivo.
+4. **Timer de volta**: já coberto pelo `install.sh --agendar` — systemd de usuário +
+   `loginctl enable-linger`; o `Persistent=true` do timer recupera execuções perdidas
+   enquanto o PC esteve desligado.
+5. **WAHA de volta**: a ponte não toca no WAHA, então quem garante o retorno dele é a
+   configuração do próprio container (decisão do Douglas; tipicamente
+   `docker update --restart unless-stopped <container>` + Docker Desktop iniciando com o
+   Windows). Enquanto o WAHA não voltar, a ponte apenas retenta a cada 10 minutos e
+   nada se perde: a fila continua no branch `state`.
+
+Teste do circuito completo: reiniciar o Windows, não tocar em nada e conferir
+`systemctl --user list-timers tracknews-bridge.timer` uns minutos depois do logon
+automático.
