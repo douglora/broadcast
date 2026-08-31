@@ -35,6 +35,10 @@ jobs:
   publicar:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # exigido pelo actions/deploy-pages para criar o deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
