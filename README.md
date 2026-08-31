@@ -4,17 +4,30 @@ Terminal de mercado em tempo real, estilo Bloomberg. Cotacoes, noticias,
 indicadores macro, curva DI, Tesouro Direto, fatos relevantes da CVM,
 spreads de credito privado e ranking de TIR real.
 
-O repositorio tem duas partes:
-
-| Arquivo                | O que e                                                        |
-|------------------------|----------------------------------------------------------------|
-| `index.html`           | O terminal (front-end)                                          |
-| `app.py`               | O servidor: serve o terminal **e** todos os endpoints `/api/*`  |
-| `tir_real_servidor.py` | Modelo DDM da TIR real (LPA, payout, P/L, rating por analista)   |
+| Arquivo                     | O que e                                                       |
+|-----------------------------|---------------------------------------------------------------|
+| `index.html`                | O terminal (front-end)                                        |
+| `app.py`                    | Servidor local: serve o terminal e os endpoints `/api/*`      |
+| `gerar_dados.py`            | Gera o retrato estatico publicado no GitHub Pages             |
+| `tir_real_servidor.py`      | Modelo DDM da TIR real (LPA, payout, P/L, rating)             |
+| `INICIAR-TERMINAL.bat/.command` | Atalhos de duplo clique                                   |
 
 ---
 
 ## Como abrir o terminal
+
+### 1. Pelo navegador, sem instalar nada
+
+**https://douglora.github.io/broadcast/**
+
+E so abrir. O GitHub Actions coleta os dados e republica o site sozinho, de
+hora em hora nos dias uteis (09h-23h UTC) e uma vez por dia no fim de semana.
+O selo **SNAPSHOT** no canto superior mostra a hora da ultima publicacao.
+
+Este modo e um retrato, nao tempo real: as cotacoes tem a idade da ultima
+publicacao. Para preco ao vivo, use o modo abaixo.
+
+### 2. Na sua maquina, com dados ao vivo
 
 **Clique duas vezes no atalho:**
 
@@ -24,47 +37,46 @@ O repositorio tem duas partes:
 | macOS   | `INICIAR-TERMINAL.command`  |
 | Linux   | `./INICIAR-TERMINAL.command`|
 
-Pronto — o atalho busca a versao mais nova, instala o que faltar, sobe o
-servidor e **abre o navegador sozinho** em `http://localhost:5051/terminal`.
+O atalho busca a versao mais nova, instala o que faltar, sobe o servidor e
+**abre o navegador sozinho** em `http://localhost:5051/terminal`. Ai as
+cotacoes atualizam a cada 2 segundos.
 
-Se preferir a linha de comando, e a mesma coisa:
-
-```bash
-python app.py
-```
-
-Nao precisa instalar nada antes: na primeira execucao o proprio `app.py`
-instala as dependencias que faltarem. Se a porta 5051 estiver ocupada por
-outro programa, ele pega a proxima livre e avisa. Se o BROADCAST ja estiver
-rodando, ele so abre o navegador em vez de subir um segundo servidor.
-
-Opcoes:
+Pela linha de comando e a mesma coisa:
 
 ```bash
+python app.py               # porta 5051, abre o navegador
 python app.py --port 5050   # outra porta
-python app.py --no-open     # nao abrir o navegador
+python app.py --no-open     # sem abrir o navegador
 ```
 
-O terminal responde em `/terminal`, na raiz (`http://localhost:5051`) e, na
-verdade, em qualquer caminho. So os endpoints `/api/*` sao reservados.
+Nao precisa instalar nada antes: na primeira execucao o `app.py` instala as
+dependencias que faltarem. Se a porta estiver ocupada por outro programa, ele
+pega a proxima livre e avisa. Se o BROADCAST ja estiver rodando, so abre o
+navegador em vez de subir um segundo servidor.
+
+O terminal responde em `/terminal`, na raiz e em qualquer outro caminho. So
+os endpoints `/api/*` sao reservados.
 
 ### Nao abriu?
 
-1. Confira se o servidor esta de pe: **http://localhost:5051/health**
-   deve responder um JSON com `"status": "ok"`.
-   Se nao responder, o servidor nao esta rodando — volte ao atalho.
-2. Olhe a janela preta que o atalho abriu: qualquer erro aparece ali.
-3. Se disser que o Python nao foi encontrado, instale em
+1. No modo site: veja em **Actions** se a ultima execucao de
+   *Publicar terminal* passou. O resumo dela diz quantos ativos e noticias
+   entraram e quais fontes falharam.
+2. No modo local: **http://localhost:5051/health** deve responder um JSON com
+   `"status": "ok"`. Se nao responder, o servidor nao esta rodando — volte ao
+   atalho.
+3. Olhe a janela preta que o atalho abriu: qualquer erro aparece ali.
+4. Se disser que o Python nao foi encontrado, instale em
    https://www.python.org/downloads/ (no Windows, marque
    **"Add Python to PATH"**) e clique no atalho de novo.
-4. `app.py` e `index.html` precisam estar na mesma pasta.
-5. Os graficos usam Chart.js via CDN (`cdnjs.cloudflare.com`). Sem acesso a
-   esse dominio os paineis carregam, mas os graficos ficam vazios.
 
 O terminal **abre mesmo com as fontes externas fora do ar** — os paineis sem
 dado mostram "Carregando..." em vez de travar a tela. Nenhuma requisicao do
 navegador espera por Yahoo, BCB ou CVM: as fontes sao atualizadas por threads
 em segundo plano e os endpoints respondem sempre do cache.
+
+Os graficos tambem nao dependem de CDN: tanto o site publicado quanto o
+`app.py` trazem uma copia local do Chart.js.
 
 ### Acesso de outro aparelho da casa
 
