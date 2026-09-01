@@ -43,42 +43,64 @@ python3 - <<PY
 import urllib.error, urllib.request
 
 portas = [p for p in """$PORTAS""".split() if p.isdigit()]
+
+# Um 404 tambem identifica: o corpo do erro e os cabecalhos entregam o servidor
+# ("Cannot GET /..." e Express; X-Powered-By, Server etc.). Por isso lemos o
+# corpo mesmo quando o status e de erro.
 caminhos = [
-    "/",                              # qualquer coisa
-    "/api/sessions",                  # WAHA
-    "/api/version",                   # WAHA
-    "/health",
-    "/api/health",
-    "/status",
-    "/instance/fetchInstances",       # Evolution API
-    "/api/default/status-session",    # WPPConnect
+    "/", "/api", "/api/sessions", "/api/version", "/health", "/api/health",
+    "/status", "/api/status", "/ping", "/sessions", "/docs", "/api/docs",
+    "/instance/fetchInstances",     # Evolution API
+    "/api/default/status-session",  # WPPConnect
 ]
 
 def pede(url):
+    """(status, cabecalhos_interessantes, trecho_do_corpo) ou (None, '', '')."""
     try:
         with urllib.request.urlopen(url, timeout=2) as r:
-            return r.status, r.read(160).decode("utf-8", "replace").replace("\n", " ")
+            return r.status, r.headers, r.read(200).decode("utf-8", "replace")
     except urllib.error.HTTPError as e:
-        return e.code, ""
+        try:
+            corpo = e.read(200).decode("utf-8", "replace")
+        except Exception:
+            corpo = ""
+        return e.code, e.headers, corpo
     except Exception:
-        return None, ""
+        return None, None, ""
+
+def limpa(texto):
+    return " ".join((texto or "").split())[:120]
 
 for porta in portas:
     base = f"http://localhost:{porta}"
-    achou = False
-    linhas = []
-    for caminho in caminhos:
-        status, corpo = pede(base + caminho)
-        if status is None:
-            break
-        achou = True
-        if status < 400:
-            linhas.append(f"    {caminho:32} HTTP {status}  {corpo[:110]}")
-        elif status in (401, 403):
-            linhas.append(f"    {caminho:32} HTTP {status}  (existe, pede autenticacao)")
-    if achou:
-        print(f"\n  porta {porta}:")
-        print("\n".join(linhas) if linhas else "    (responde, mas nenhum caminho conhecido existe)")
+    status, cabecalhos, corpo = pede(base + "/")
+    if status is None:
+        continue
+    print(f"\n  porta {porta}:")
+    if cabecalhos is not None:
+        assinatura = [f"{c}: {cabecalhos.get(c)}"
+                      for c in ("Server", "X-Powered-By", "Content-Type")
+                      if cabecalhos.get(c)]
+        if assinatura:
+            print("    assinatura   " + " | ".join(assinatura))
+    print(f"    /            HTTP {status}  {limpa(corpo)}")
+    # Um 404 igual ao da raiz nao acrescenta nada: so mostramos o que difere.
+    padrao = (status, limpa(corpo)[:60])
+    iguais = []
+    for caminho in caminhos[1:]:
+        st, _, cp = pede(base + caminho)
+        if st is None:
+            continue
+        if (st, limpa(cp)[:60]) == padrao:
+            iguais.append(caminho)
+        elif st in (401, 403):
+            print(f"    {caminho:28} HTTP {st}  (EXISTE, pede autenticacao)")
+        elif st < 400:
+            print(f"    {caminho:28} HTTP {st}  {limpa(cp)}")
+        else:
+            print(f"    {caminho:28} HTTP {st}  {limpa(cp)[:70]}")
+    if iguais:
+        print(f"    (mesma resposta da raiz em: {', '.join(iguais)})")
 PY
 
 titulo "5. rastros de instalacao do WAHA"
