@@ -195,8 +195,14 @@ PY
 WAHA_OK=0
 if python3 bridge.py waha; then
   WAHA_OK=1
+elif python3 bridge.py hermes; then
+  # Sem WAHA, mas o bridge.js do Hermes ja tem sessao pareada e conectada nesta
+  # maquina: entregamos por ele. So o transporte muda -- o texto do alerta
+  # continua vindo pronto e auditado da nuvem, byte a byte.
+  WAHA_OK=1
+  echo "    transporte: Hermes (o WAHA nao existe nesta maquina)"
 else
-  pend "WAHA nao confirmou o grupo (veja acima): envio segue DESLIGADO; suba o WAHA e rode o bootstrap de novo"
+  pend "nenhum transporte de WhatsApp confirmou o grupo (WAHA e Hermes, veja acima): envio segue DESLIGADO"
   # Sem WAHA nao adianta seguir no escuro: levanta na hora o retrato de quem
   # atende em cada porta, quais processos servem WhatsApp e como esta o Hermes.
   # Tudo so leitura.

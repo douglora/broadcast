@@ -465,7 +465,24 @@ def waha_envia(cfg: dict, chat_id: str, texto: str) -> tuple[str, int | None, st
       enviado  -> WAHA aceitou
       falhou   -> nao chegou / recusado; pode tentar de novo na proxima janela
       incerto  -> a requisicao saiu mas nao houve resposta: NAO reenviar sozinho
+
+    Quando `transporte` e "hermes", o envio sai pelo bridge.js do Hermes, que ja
+    tem sessao pareada nesta maquina. O texto vai igual nos dois caminhos: o
+    transporte muda, o conteudo nunca.
     """
+    if (cfg.get("transporte") or "waha") == "hermes":
+        import hermes
+
+        conf = cfg.get("hermes") or {}
+        api = {"rotas": conf.get("rotas") or [],
+               "cabecalho_auth": conf.get("cabecalho_auth"),
+               "envio": conf.get("envio") or {}}
+        return hermes.envia(
+            conf.get("base_url") or hermes.BASE_PADRAO, api, chat_id, texto,
+            chave=os.environ.get(conf.get("api_key_env") or "") or None,
+            timeout=conf.get("timeout_s", 30),
+        )
+
     waha = cfg["waha"]
     url = waha["base_url"].rstrip("/") + waha["send_path"]
     payload = {"session": waha["session"], "chatId": chat_id, "text": texto}
@@ -717,6 +734,66 @@ def cmd_waha(cfg: dict, args) -> int:
     return 0
 
 
+def cmd_hermes(cfg: dict, args) -> int:
+    """
+    Reconhecimento SOMENTE LEITURA do bridge.js do Hermes + gravacao do destino.
+
+    Nao inicia, nao reinicia, nao reconfigura o Hermes, nao pareia e nao escaneia
+    QR: le o fonte do bridge para deduzir a API e faz GET para listar os grupos.
+    """
+    import hermes
+
+    base = args.base_url or (cfg.get("hermes") or {}).get("base_url") or hermes.BASE_PADRAO
+    print("== Hermes (somente leitura) ==")
+
+    estado = hermes.saude(base)
+    if not estado:
+        print(f"o bridge do Hermes nao respondeu /health em {base}.")
+        print("PARANDO. Nao subo, nao reinicio e nao reconfiguro o Hermes.")
+        return 1
+    print(f"  bridge     : {base}")
+    print(f"  status     : {estado.get('status')}  fila: {estado.get('queueLength')}")
+    if str(estado.get("status", "")).lower() not in ("connected", "open", "ready"):
+        print("\nsessao do WhatsApp nao esta conectada. PARANDO: nada de reparear nem QR.")
+        return 1
+
+    api = hermes.descobre(base)
+    fonte = api.get("arquivo")
+    print(f"  fonte lido : {fonte or '(bridge.js nao encontrado; uso convencoes conhecidas)'}")
+    print(f"  rotas      : {len(api.get('rotas') or [])}")
+    envio = api.get("envio") or {}
+    if envio.get("rota"):
+        print(f"  envio      : POST {envio['rota']} "
+              f"({envio['campo_destino']}/{envio['campo_texto']})")
+    else:
+        print("  envio      : nao deduzido do fonte; vou tentar as convencoes conhecidas")
+    if api.get("cabecalho_auth"):
+        print(f"  autentica  : cabecalho {api['cabecalho_auth']}")
+
+    chave = os.environ.get((cfg.get("hermes") or {}).get("api_key_env") or "HERMES_API_KEY") or None
+    chat_id, rota, erro = hermes.acha_grupo(base, api, cfg["destino"]["nome_grupo"], chave)
+    if erro:
+        print(f"\n{erro}")
+        print("Nada foi gravado. PARANDO: nenhum outro destino.")
+        return 1
+    print(f"  grupos via : GET {rota}")
+
+    cfg["transporte"] = "hermes"
+    cfg["hermes"] = {
+        "base_url": base,
+        "api_key_env": (cfg.get("hermes") or {}).get("api_key_env") or "HERMES_API_KEY",
+        "cabecalho_auth": api.get("cabecalho_auth"),
+        "envio": envio,
+        "timeout_s": 30,
+    }
+    cfg["destino"]["chat_id"] = chat_id
+    grava_config(cfg)
+    print(f"\ntransporte = hermes; id do grupo gravado em {CONFIG_PATH} (modo 600).")
+    print(f"Rotulo do destino: {mascara(chat_id)}")
+    print("O texto do alerta continua vindo pronto da nuvem: o Hermes so transporta.")
+    return 0
+
+
 def cmd_dry_run(cfg: dict, args) -> int:
     agora = agora_local()
     print(f"== DRY-RUN {agora.isoformat()} (America/Sao_Paulo) ==")
@@ -930,6 +1007,10 @@ def main() -> int:
 
     p = sub.add_parser("waha", help="reconhecimento somente leitura do WAHA")
     p.set_defaults(func=cmd_waha)
+
+    p = sub.add_parser("hermes", help="reconhecimento somente leitura do bridge do Hermes")
+    p.add_argument("--base-url", default=None, help="padrao: http://localhost:3000")
+    p.set_defaults(func=cmd_hermes)
 
     p = sub.add_parser("dry-run", help="o que sairia agora, sem enviar nada")
     p.set_defaults(func=cmd_dry_run)
