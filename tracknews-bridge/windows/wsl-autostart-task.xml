@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
+<!-- Sem atributo encoding de proposito: o Register-ScheduledTask recebe este
+     arquivo ja como string UTF-16 e recusa uma declaracao "UTF-8" com
+     "O XML esta mal construido / nao e possivel alternar codificacao". -->
 <!--
   Religa o WSL sozinho depois de reboot ou queda de luz.
 

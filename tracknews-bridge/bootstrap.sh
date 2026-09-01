@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Instalacao completa da ponte TrackNews com UM comando, colado no Ubuntu do WSL:
 #
-#   curl -fsSL https://raw.githubusercontent.com/douglora/broadcast/claude/tracknews-bridge-autopilot-k3avgo/tracknews-bridge/bootstrap.sh | bash
+#   curl -fsSL -o /tmp/tn.sh https://raw.githubusercontent.com/douglora/broadcast/claude/tracknews-bridge-autopilot-k3avgo/tracknews-bridge/bootstrap.sh && bash /tmp/tn.sh
+#
+# Ja tendo o repo em disco, o caminho curto e:  bash ~/src/broadcast/tracknews-bridge/bootstrap.sh
 #
 # Faz, nesta ordem, tudo que o runbook manual fazia:
 #   1. clona/atualiza o repo e instala a ponte (install.sh + autoteste)
@@ -9,8 +11,8 @@
 #   3. linger, para o timer sobreviver ao fechamento do terminal
 #   4. lado Windows via interop (powershell.exe): tarefa que religa o WSL no
 #      logon, energia sem suspensao, Docker Desktop no boot; confere autologon
-#   5. WAHA: localiza o grupo (so leitura) e, se o container estiver no Docker,
-#      garante --restart unless-stopped (nao reinicia nada)
+#   5. WAHA: acha o endpoint, localiza o grupo (so leitura) e, se o container
+#      estiver no Docker, garante --restart unless-stopped (nao reinicia nada)
 #   6. dry-run; se o WAHA confirmou o grupo, liga o envio e faz UM teste com o
 #      alerta aprovado mais recente da janela (unico envio autorizado)
 #   7. recon do agente antigo e hermes-check, ambos SO LEITURA
@@ -30,7 +32,11 @@ PENDENCIAS=()
 diz()  { printf '\n==> %s\n' "$*"; }
 pend() { PENDENCIAS+=("$1"); printf '    PENDENTE: %s\n' "$1"; }
 
-exec > >(tee -a "$LOG") 2>&1
+# Depois de um re-exec (veja abaixo) a saida ja esta ligada ao tee do processo
+# anterior; montar um segundo gravaria cada linha duas vezes no log.
+if [ "${TRACKNEWS_REEXEC:-}" != "1" ]; then
+  exec > >(tee -a "$LOG") 2>&1
+fi
 diz "bootstrap TrackNews $(date '+%F %T') em $(uname -n)"
 
 # ---------------------------------------------------------------- 1. repo
@@ -46,6 +52,16 @@ else
     || { pend "clone do repo falhou; confira a rede e rode de novo"; exit 1; }
 fi
 echo "    commit: $(git -C "$SRC" log -1 --format='%h %s')"
+
+# Sob `curl | bash` o proprio script chega pela entrada padrao. Qualquer
+# subprocesso que leia stdin (o powershell.exe do passo 4 le) engole o resto do
+# script e a execucao termina no meio, em silencio. Agora que o repo esta em
+# disco, seguimos a partir do arquivo e com stdin fechado.
+if [ "${TRACKNEWS_REEXEC:-}" != "1" ] && [ ! -f "${BASH_SOURCE[0]:-}" ]; then
+  export TRACKNEWS_REEXEC=1
+  echo "    seguindo a partir do arquivo (stdin fechado)"
+  exec bash "$SRC/tracknews-bridge/bootstrap.sh" < /dev/null
+fi
 
 # ------------------------------------------------- 2. instalar + agendar
 COM_SYSTEMD=1
@@ -79,7 +95,7 @@ for c in powershell.exe /mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershel
 done
 if [ -n "$PS_EXE" ]; then
   diz "configurando o lado Windows (tarefas, energia, Docker Desktop)"
-  WTEMP_WIN="$(timeout 30 "$PS_EXE" -NoProfile -Command '[Console]::Out.Write($env:TEMP)' 2>/dev/null | tr -d '\r')"
+  WTEMP_WIN="$(timeout 30 "$PS_EXE" -NoProfile -Command '[Console]::Out.Write($env:TEMP)' </dev/null 2>/dev/null | tr -d '\r')"
   if [ -n "$WTEMP_WIN" ] && WTEMP_WSL="$(wslpath -u "$WTEMP_WIN" 2>/dev/null)" && [ -d "$WTEMP_WSL" ]; then
     cp "$SRC/tracknews-bridge/windows/wsl-autostart-task.xml" \
        "$SRC/tracknews-bridge/windows/tracknews-bridge-task.xml" \
@@ -88,7 +104,7 @@ if [ -n "$PS_EXE" ]; then
     [ "$COM_SYSTEMD" = 0 ] && FLAG="-ComBridgeTask"
     PSOUT="$(mktemp)"
     timeout 120 "$PS_EXE" -NoProfile -ExecutionPolicy Bypass \
-      -File "$WTEMP_WIN\\bootstrap-windows.ps1" $FLAG 2>&1 | tr -d '\r' > "$PSOUT" || true
+      -File "$WTEMP_WIN\\bootstrap-windows.ps1" $FLAG </dev/null 2>&1 | tr -d '\r' > "$PSOUT" || true
     sed 's/^/    /' "$PSOUT"
     while IFS= read -r l; do
       PENDENCIAS+=("windows: ${l#PENDENTE }")
@@ -101,8 +117,42 @@ else
   pend "powershell.exe inacessivel (interop desligado?): o religamento pos-boot do WSL nao foi configurado"
 fi
 
-# ------------------------- 5. WAHA: grupo (so leitura) + restart policy
-cd "$DEST"
+# ------------------- 5. WAHA: achar o endpoint, grupo, restart policy
+cd "$DEST" || { pend "diretorio $DEST nao existe"; exit 1; }
+
+# Se o base_url configurado nao responder, procura o WAHA nas portas usuais e
+# corrige waha.base_url. So leitura: nada e iniciado nem reiniciado.
+python3 - <<'PY'
+import json, pathlib, urllib.error, urllib.request
+
+caminho = pathlib.Path.home() / "tracknews-bridge/config.json"
+cfg = json.loads(caminho.read_text(encoding="utf-8"))
+atual = cfg["waha"]["base_url"].rstrip("/")
+
+def responde(base: str) -> bool:
+    try:
+        urllib.request.urlopen(base + "/api/sessions", timeout=3).read(1)
+        return True
+    except urllib.error.HTTPError:
+        return True   # 401/403 tambem provam que ha um WAHA atendendo ali
+    except Exception:
+        return False
+
+if responde(atual):
+    print(f"    WAHA responde em {atual}")
+else:
+    outras = ["http://localhost:3000", "http://localhost:3001",
+              "http://localhost:8080", "http://localhost:4000"]
+    achado = next((b for b in outras if b != atual and responde(b)), None)
+    if achado:
+        cfg["waha"]["base_url"] = achado
+        caminho.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        caminho.chmod(0o600)
+        print(f"    WAHA achado em {achado}: base_url corrigido no config.json")
+    else:
+        print(f"    WAHA nao responde em {atual} nem em 3000/3001/8080/4000")
+PY
+
 WAHA_OK=0
 if python3 bridge.py waha; then
   WAHA_OK=1
@@ -127,6 +177,8 @@ if command -v docker >/dev/null 2>&1 && timeout 20 docker ps >/dev/null 2>&1; th
   else
     pend "mais de um container parece ser o WAHA; nao mexi em nenhum (decida qual e rode: docker update --restart unless-stopped <id>)"
   fi
+else
+  echo "    docker nao acessivel deste shell; pulei a politica de restart do WAHA"
 fi
 
 # --------------------------- 6. dry-run; ligar envio; UM teste real
