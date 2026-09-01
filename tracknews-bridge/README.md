@@ -25,6 +25,18 @@ Para calibrar a expectativa: em 2026-08-29 o repositório de estado registrou 21
 
 ## Instalar
 
+**Caminho de um comando só** — cola isto no Ubuntu do WSL e ele faz tudo (instala,
+agenda, configura o lado Windows via interop, localiza o grupo, liga o envio e faz o
+único teste autorizado), terminando num resumo OK/PENDENTE:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/douglora/broadcast/claude/tracknews-bridge-autopilot-k3avgo/tracknews-bridge/bootstrap.sh | bash
+```
+
+É idempotente: rodar de novo não duplica nada e não repete o teste de envio.
+
+**Caminho manual**, por partes:
+
 ```bash
 bash install.sh              # instala em ~/tracknews-bridge, sem ligar o envio
 bash install.sh --agendar    # o mesmo + agendamento de 10 em 10 minutos
