@@ -46,10 +46,33 @@ function Registra-Tarefa($nome, $arquivoXml, $descricao) {
 }
 
 # --- 1. tarefa que sobe o Ubuntu do WSL no logon e o mantem vivo -------------
+# Registrar tarefa na raiz da biblioteca do Agendador costuma exigir elevacao.
+# Sem ela, cai no plano B: um .vbs na pasta Inicializar DO USUARIO, que dispensa
+# privilegio e roda no mesmo momento (logon). O efeito e o mesmo: sobe o Ubuntu
+# e o mantem vivo, para o timer da ponte voltar sozinho depois de queda de luz.
+$vbsInicializar = Join-Path ([Environment]::GetFolderPath('Startup')) 'TrackNews-WSL-Autostart.vbs'
+
 Registra-Tarefa 'TrackNews WSL Autostart' 'wsl-autostart-task.xml' `
-  'rode o PowerShell como administrador e tente de novo'
+  'caindo para o plano B da pasta Inicializar'
 if ($script:RegistroOk) {
   Start-ScheduledTask -TaskName 'TrackNews WSL Autostart' -ErrorAction SilentlyContinue
+  if (Test-Path $vbsInicializar) {
+    INFO "o atalho de plano B em $vbsInicializar ficou redundante; pode apagar quando quiser"
+  }
+} else {
+  try {
+    Set-Content -Path $vbsInicializar -Encoding ASCII -ErrorAction Stop `
+      -Value 'CreateObject("WScript.Shell").Run "wsl.exe -d Ubuntu --exec /bin/sh -c ""sleep infinity""", 0, False'
+    if (Test-Path $vbsInicializar) {
+      OK "plano B no lugar: $vbsInicializar sobe o Ubuntu no logon (sem precisar de administrador)"
+      # Vale ja nesta sessao, sem esperar o proximo logon.
+      Start-Process -FilePath 'wscript.exe' -ArgumentList "`"$vbsInicializar`"" -ErrorAction SilentlyContinue
+    } else {
+      PEND "nem a tarefa nem o atalho da pasta Inicializar puderam ser criados; o WSL nao vai subir sozinho apos reboot"
+    }
+  } catch {
+    PEND "plano B falhou ($($_.Exception.Message)); o WSL nao vai subir sozinho apos reboot"
+  }
 }
 
 # --- 2. tarefa da ponte, so quando o WSL nao tem systemd ---------------------
@@ -92,7 +115,26 @@ if ($candidatos) {
   INFO 'Docker Desktop nao encontrado no Windows; se o WAHA roda por dentro do WSL, quem cuida do retorno dele e a checagem do lado Linux'
 }
 
-# --- 5. logon automatico: so conferir; a senha e do Douglas ------------------
+# --- 5. diagnostico: quem ocupa as portas onde o WAHA costuma atender --------
+# So leitura. Serve para achar o WAHA quando ele nao esta na 3000 -- e para
+# saber quem esta na 3000 quando ela responde mas nao e o WAHA.
+$portas = 3000, 3001, 3002, 3003, 8000, 8080, 4000, 21465
+$viuAlguma = $false
+foreach ($porta in $portas) {
+  $conn = Get-NetTCPConnection -State Listen -LocalPort $porta -ErrorAction SilentlyContinue |
+          Select-Object -First 1
+  if ($conn) {
+    $viuAlguma = $true
+    $proc = (Get-Process -Id $conn.OwningProcess -ErrorAction SilentlyContinue).ProcessName
+    if (-not $proc) { $proc = "pid $($conn.OwningProcess)" }
+    INFO "porta $porta ouvindo no Windows, processo: $proc"
+  }
+}
+if (-not $viuAlguma) {
+  INFO 'nenhuma das portas usuais do WAHA esta ouvindo no lado Windows'
+}
+
+# --- 6. logon automatico: so conferir; a senha e do Douglas ------------------
 $wl = Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' -ErrorAction SilentlyContinue
 if ($wl -and $wl.AutoAdminLogon -eq '1') {
   OK 'logon automatico ja ativo: depois de queda de luz o PC volta ate a area de trabalho sozinho'
