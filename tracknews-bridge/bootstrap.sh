@@ -197,6 +197,15 @@ if python3 bridge.py waha; then
   WAHA_OK=1
 else
   pend "WAHA nao confirmou o grupo (veja acima): envio segue DESLIGADO; suba o WAHA e rode o bootstrap de novo"
+  # Sem WAHA nao adianta seguir no escuro: levanta na hora o retrato de quem
+  # atende em cada porta, quais processos servem WhatsApp e como esta o Hermes.
+  # Tudo so leitura.
+  if [ -x "$DEST/diagnostico-entrega.sh" ]; then
+    diz "diagnostico da entrega (so leitura)"
+    bash "$DEST/diagnostico-entrega.sh" > "$HOME/relatorio-entrega.txt" 2>&1
+    sed -n '/4. o que responde/,/7. veredito/p' "$HOME/relatorio-entrega.txt" | head -40
+    echo "    relatorio completo: $HOME/relatorio-entrega.txt"
+  fi
 fi
 
 if command -v docker >/dev/null 2>&1 && timeout 20 docker ps >/dev/null 2>&1; then

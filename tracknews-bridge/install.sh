@@ -28,6 +28,7 @@ install -m 0755 "$origem/bridge.py"    "$destino/bridge.py"
 install -m 0755 "$origem/autoteste.py" "$destino/autoteste.py"
 install -m 0755 "$origem/recon-antigo.sh" "$destino/recon-antigo.sh"
 install -m 0755 "$origem/hermes-check.sh" "$destino/hermes-check.sh"
+install -m 0755 "$origem/diagnostico-entrega.sh" "$destino/diagnostico-entrega.sh"
 
 if [[ ! -f "$destino/config.json" ]]; then
   install -m 0600 "$origem/config.example.json" "$destino/config.json"
