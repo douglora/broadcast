@@ -19,35 +19,43 @@ function Get-TaskXml($nome) {
 
 # Registra a tarefa e CONFERE que ela existe. Sem -ErrorAction Stop o erro do
 # Register e nao-terminante: o catch nao dispara e a funcao mentiria "OK".
+#
+# O resultado sai por $script:RegistroOk, nao pelo valor de retorno: em
+# PowerShell tudo que a funcao escreve no fluxo de saida VIRA o retorno, entao
+# um `if (Registra-Tarefa ...)` engoliria as proprias linhas OK/PENDENTE e nada
+# apareceria na tela.
 function Registra-Tarefa($nome, $arquivoXml, $descricao) {
+  $script:RegistroOk = $false
   if (Get-ScheduledTask -TaskName $nome -ErrorAction SilentlyContinue) {
     OK "tarefa `"$nome`" ja existia"
-    return $true
+    $script:RegistroOk = $true
+    return
   }
   try {
     Register-ScheduledTask -TaskName $nome -Xml (Get-TaskXml $arquivoXml) -ErrorAction Stop | Out-Null
   } catch {
     PEND "registrar a tarefa `"$nome`" falhou: $($_.Exception.Message) -- $descricao"
-    return $false
+    return
   }
   if (Get-ScheduledTask -TaskName $nome -ErrorAction SilentlyContinue) {
     OK "tarefa `"$nome`" registrada e confirmada"
-    return $true
+    $script:RegistroOk = $true
+  } else {
+    PEND "a tarefa `"$nome`" nao aparece depois do registro -- $descricao"
   }
-  PEND "a tarefa `"$nome`" nao aparece depois do registro -- $descricao"
-  return $false
 }
 
 # --- 1. tarefa que sobe o Ubuntu do WSL no logon e o mantem vivo -------------
-if (Registra-Tarefa 'TrackNews WSL Autostart' 'wsl-autostart-task.xml' `
-      'rode o PowerShell como administrador e tente de novo') {
+Registra-Tarefa 'TrackNews WSL Autostart' 'wsl-autostart-task.xml' `
+  'rode o PowerShell como administrador e tente de novo'
+if ($script:RegistroOk) {
   Start-ScheduledTask -TaskName 'TrackNews WSL Autostart' -ErrorAction SilentlyContinue
 }
 
 # --- 2. tarefa da ponte, so quando o WSL nao tem systemd ---------------------
 if ($ComBridgeTask) {
   Registra-Tarefa 'TrackNews Bridge' 'tracknews-bridge-task.xml' `
-    'sem ela a ponte so roda enquanto houver terminal do WSL aberto' | Out-Null
+    'sem ela a ponte so roda enquanto houver terminal do WSL aberto'
 }
 
 # --- 3. energia: no cabo, nunca suspender nem hibernar -----------------------

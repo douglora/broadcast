@@ -120,37 +120,76 @@ fi
 # ------------------- 5. WAHA: achar o endpoint, grupo, restart policy
 cd "$DEST" || { pend "diretorio $DEST nao existe"; exit 1; }
 
-# Se o base_url configurado nao responder, procura o WAHA nas portas usuais e
-# corrige waha.base_url. So leitura: nada e iniciado nem reiniciado.
+# Procura onde o WAHA realmente atende e corrige waha.base_url. So leitura:
+# nada e iniciado, reiniciado ou reconfigurado no WAHA.
+#
+# "Alguem respondeu na porta" nao basta: um 404 em /api/sessions quer dizer que
+# ha um servidor ali que NAO e o WAHA (no PC do Douglas a porta 3000 e do
+# gateway do Hermes). So contam 200 com JSON, ou 401/403, que e WAHA pedindo
+# chave.
 python3 - <<'PY'
-import json, pathlib, urllib.error, urllib.request
+import json, pathlib, re, subprocess, urllib.error, urllib.request
 
 caminho = pathlib.Path.home() / "tracknews-bridge/config.json"
 cfg = json.loads(caminho.read_text(encoding="utf-8"))
 atual = cfg["waha"]["base_url"].rstrip("/")
 
-def responde(base: str) -> bool:
+def sonda(base: str):
+    """(veredito, detalhe) com veredito em {waha, outro, mudo}."""
     try:
-        urllib.request.urlopen(base + "/api/sessions", timeout=3).read(1)
-        return True
-    except urllib.error.HTTPError:
-        return True   # 401/403 tambem provam que ha um WAHA atendendo ali
-    except Exception:
-        return False
+        with urllib.request.urlopen(base + "/api/sessions", timeout=3) as resp:
+            corpo = resp.read(400).decode("utf-8", "replace").lstrip()
+            status = resp.status
+        if corpo.startswith(("[", "{")):
+            return "waha", f"HTTP {status}, resposta JSON"
+        return "outro", f"HTTP {status}, resposta nao e JSON"
+    except urllib.error.HTTPError as erro:
+        if erro.code in (401, 403):
+            return "waha", f"HTTP {erro.code}, pede chave de API"
+        return "outro", f"HTTP {erro.code} (ha um servidor, mas nao e o WAHA)"
+    except Exception as erro:
+        return "mudo", str(erro)[:60]
 
-if responde(atual):
-    print(f"    WAHA responde em {atual}")
+def portas_do_docker():
+    """Portas publicadas por containers cuja imagem ou nome cita waha."""
+    try:
+        proc = subprocess.run(
+            ["docker", "ps", "--format", "{{.Image}}|{{.Names}}|{{.Ports}}"],
+            capture_output=True, text=True, timeout=20)
+    except Exception:
+        return []
+    achadas = []
+    for linha in proc.stdout.splitlines():
+        if "waha" not in linha.lower():
+            continue
+        for porta in re.findall(r":(\d+)->", linha):
+            achadas.append(f"http://localhost:{porta}")
+    return achadas
+
+candidatos = []
+for base in (portas_do_docker() + [atual, "http://localhost:3000",
+                                   "http://localhost:3001", "http://localhost:3002",
+                                   "http://localhost:8080", "http://localhost:8000",
+                                   "http://localhost:4000"]):
+    if base not in candidatos:
+        candidatos.append(base)
+
+escolhido = None
+for base in candidatos:
+    veredito, detalhe = sonda(base)
+    print(f"    {base}: {veredito} ({detalhe})")
+    if veredito == "waha" and escolhido is None:
+        escolhido = base
+
+if escolhido is None:
+    print("    nenhum WAHA encontrado nas portas sondadas")
+elif escolhido == atual:
+    print(f"    WAHA confirmado em {atual}")
 else:
-    outras = ["http://localhost:3000", "http://localhost:3001",
-              "http://localhost:8080", "http://localhost:4000"]
-    achado = next((b for b in outras if b != atual and responde(b)), None)
-    if achado:
-        cfg["waha"]["base_url"] = achado
-        caminho.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        caminho.chmod(0o600)
-        print(f"    WAHA achado em {achado}: base_url corrigido no config.json")
-    else:
-        print(f"    WAHA nao responde em {atual} nem em 3000/3001/8080/4000")
+    cfg["waha"]["base_url"] = escolhido
+    caminho.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    caminho.chmod(0o600)
+    print(f"    WAHA achado em {escolhido}: base_url corrigido no config.json")
 PY
 
 WAHA_OK=0
