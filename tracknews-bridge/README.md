@@ -30,8 +30,11 @@ agenda, configura o lado Windows via interop, localiza o grupo, liga o envio e f
 único teste autorizado), terminando num resumo OK/PENDENTE:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/douglora/broadcast/claude/tracknews-bridge-autopilot-k3avgo/tracknews-bridge/bootstrap.sh | bash
+curl -fsSL -o /tmp/tn.sh https://raw.githubusercontent.com/douglora/broadcast/claude/tracknews-bridge-autopilot-k3avgo/tracknews-bridge/bootstrap.sh && bash /tmp/tn.sh
 ```
+
+Já com o repo em disco, o caminho curto é `bash ~/src/broadcast/tracknews-bridge/bootstrap.sh`
+— ele atualiza o próprio repo antes de seguir.
 
 É idempotente: rodar de novo não duplica nada e não repete o teste de envio.
 
