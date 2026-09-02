@@ -140,6 +140,16 @@ limites.
   repo.git          clone bare (só o branch state)
   PAUSED            se existir, nada sai
   .lock             trava: uma execução por vez (timer × comando manual)
+  atualizar.sh      auto-atualização a cada ciclo (autoteste antes de instalar)
+  hermes.py         transporte pelo bridge do Hermes, quando não há WAHA
+  hermes-bridge-raw.sh  patch de 2 linhas no bridge.js do Hermes: POST /send com
+                    `raw: true` sai sem o cabeçalho "⚕ *Hermes Agent*" (backup em
+                    bridge.js.tracknews-bak; reverter = copiar de volta e
+                    `systemctl --user restart hermes-gateway.service`)
+  cutucar-nuvem.sh  se o agendador do GitHub pulou o ciclo da nuvem, dispara o
+                    workflow pelo gh (dia útil, 9h-18h, no máximo 1 a cada 20 min)
+  heartbeat.sh      estado sem segredos no branch tracknews-heartbeat do repo privado
+  atualizar.log     o que atualizar.sh, o patch e o cutucar fizeram
 ~/.config/tracknews-bridge/.env   600. chave do WAHA, se o seu exigir
 ```
 
