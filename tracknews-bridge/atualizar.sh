@@ -23,9 +23,10 @@ LOG="$DEST/atualizar.log"
 # ciclo que instala uma versao nova quem esta rodando ainda e o script antigo.
 [ -x "$DEST/hermes-bridge-raw.sh" ] && bash "$DEST/hermes-bridge-raw.sh" || true
 
-# Nuvem: se o agendador do GitHub pulou o ciclo, dispara o workflow pelo gh
-# (dia util, janela do cron, nunca empilha, no maximo 1 disparo a cada 20 min).
-[ -x "$DEST/cutucar-nuvem.sh" ] && bash "$DEST/cutucar-nuvem.sh" || true
+# Nuvem: se o agendador do GitHub pulou o ciclo, dispara o workflow com a mesma
+# credencial do git que a ponte usa (dia util, janela do cron, nunca empilha,
+# no maximo 1 disparo a cada 20 min). Motivo de falha vai para o atualizar.log.
+[ -f "$DEST/cutucar-nuvem.py" ] && timeout 150 python3 "$DEST/cutucar-nuvem.py" || true
 
 [ -d "$SRC/.git" ] || exit 0
 mkdir -p "$DEST"
