@@ -57,9 +57,14 @@ echo "    commit: $(git -C "$SRC" log -1 --format='%h %s')"
 # subprocesso que leia stdin (o powershell.exe do passo 4 le) engole o resto do
 # script e a execucao termina no meio, em silencio. Agora que o repo esta em
 # disco, seguimos a partir do arquivo e com stdin fechado.
-if [ "${TRACKNEWS_REEXEC:-}" != "1" ] && [ ! -f "${BASH_SOURCE[0]:-}" ]; then
+#
+# Vale mesmo quando o script veio de um arquivo: o `git pull` acima acabou de
+# atualizar este proprio arquivo, e o bash continuaria executando a versao antiga
+# que ja tinha em memoria -- era por isso que cada correcao so valia na execucao
+# seguinte. Reexecutando aqui, uma correcao publicada agora vale agora.
+if [ "${TRACKNEWS_REEXEC:-}" != "1" ]; then
   export TRACKNEWS_REEXEC=1
-  echo "    seguindo a partir do arquivo (stdin fechado)"
+  echo "    seguindo pela versao recem-atualizada (stdin fechado)"
   exec bash "$SRC/tracknews-bridge/bootstrap.sh" < /dev/null
 fi
 
