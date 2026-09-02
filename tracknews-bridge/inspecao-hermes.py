@@ -30,7 +30,8 @@ LIMITE_LINHA = 160
 
 def mascara(texto: str) -> str:
     texto = re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net|lid)", r"<id>@\1", texto or "")
-    texto = re.sub(r"\+?\d{2}\s?\(?\d{2}\)?\s?9?\d{4}[-\s]?\d{4}", "<fone>", texto)
+    # celular/fixo brasileiro: [+55] DDD [9]NNNN-NNNN, com ou sem parenteses/espacos
+    texto = re.sub(r"(?<!\d)(?:\+?55[\s.-]?)?\(?\d{2}\)?[\s.-]?9?\d{4}[\s.-]?\d{4}(?!\d)", "<fone>", texto)
     texto = re.sub(r"(key|token|secret|senha|pass|bearer|authorization)([=: \"']+)[^\s\"',}]+",
                    r"\1\2<omitido>", texto, flags=re.I)
     return texto
@@ -71,6 +72,26 @@ def funcoes_do_bridge() -> dict:
     except OSError as erro:
         return {"erro": str(erro)[:80]}
     saida = {"arquivo": str(achado), "linhas_total": len(linhas)}
+    # Constantes e handlers que decidem como o texto sai: prefixo de self-chat,
+    # modo, tamanho maximo, preview de link, e o /edit (que pode reescrever sem
+    # prefixo). Procurado em todo o diretorio do bridge, nao so no bridge.js.
+    padrao_ctx = re.compile(r"REPLY_PREFIX|WHATSAPP_MODE|MAX_MESSAGE_LENGTH|linkPreview|buildTextSendPayload|CHUNK_DELAY_MS")
+    contexto = []
+    for arq in sorted(achado.parent.rglob("*.js")):
+        if "node_modules" in str(arq):
+            continue
+        try:
+            ls = arq.read_text(encoding="utf-8", errors="replace").splitlines()
+        except OSError:
+            continue
+        for i, l in enumerate(ls):
+            if padrao_ctx.search(l) and not l.strip().startswith("//"):
+                contexto.append(f"{arq.name}:{i+1}: {mascara(l.strip())[:LIMITE_LINHA]}")
+    saida["constantes_e_usos"] = contexto[:60]
+    for i, l in enumerate(linhas):
+        if re.search(r"post\(\s*['\"]/edit['\"]", l):
+            saida["handler_edit"] = bloco_js(linhas, i, 45)
+            break
     for nome in ("formatOutgoingMessage", "splitLongMessage", "buildTextSendPayload"):
         padrao = re.compile(rf"(function\s+{nome}\b|(const|let|var)\s+{nome}\s*=)")
         for i, l in enumerate(linhas):
@@ -154,6 +175,26 @@ def logs_de_hoje() -> dict:
     return saida
 
 
+def perfil_de_voz() -> dict:
+    """O que define o formato dos posts do Douglas: voz.md, perfil.md, a lista de
+    empresas monitoradas e as flags do workspace (so os nomes)."""
+    base = Path.home() / "Hermes"
+    saida = {}
+    for rel, maximo in (("perfil-douglas/voz.md", 600), ("perfil-douglas/perfil.md", 80),
+                        ("fontes/empresas-monitoradas.md", 200)):
+        caminho = base / rel
+        saida[rel] = le(caminho, maximo) if caminho.is_file() else ["(ausente)"]
+    flags = base / "flags.env"
+    if flags.is_file():
+        try:
+            saida["flags.env (nomes)"] = sorted({l.split("=", 1)[0].strip() for l in
+                                                 flags.read_text(encoding="utf-8", errors="replace").splitlines()
+                                                 if "=" in l and not l.strip().startswith("#")})
+        except OSError:
+            pass
+    return saida
+
+
 def main() -> int:
     if not HERMES.is_dir():
         print(json.dumps({"erro": "~/.hermes nao existe"}))
@@ -163,6 +204,7 @@ def main() -> int:
         "skills": skills(),
         "crons": crons(),
         "logs_hoje": logs_de_hoje(),
+        "perfil_de_voz": perfil_de_voz(),
     }, ensure_ascii=False))
     return 0
 

@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 # Heartbeat: publica o estado da ponte no branch `tracknews-heartbeat` do repo
-# douglora/broadcast, num unico commit sempre reescrito (a branch nunca cresce).
-# Chamado pelo systemd (ExecStartPost) depois de cada execucao de 10 em 10 min.
+# PRIVADO douglora/tracknews-autopilot, num unico commit sempre reescrito (a
+# branch nunca cresce). Chamado pelo systemd (ExecStartPost) depois de cada
+# execucao de 10 em 10 min.
 #
 # E o que permite acompanhar o PC de fora -- do celular, ou de uma sessao na
-# nuvem -- sem ninguem colar nada em terminal. Por isso NUNCA carrega segredo:
-# nenhum token, telefone ou id de chat (o destino sai so como rotulo id:<hash>,
-# o mesmo que a ponte imprime na tela). O repo e publico; trate assim.
+# nuvem -- sem ninguem colar nada em terminal. Mesmo indo para um repo privado,
+# NUNCA carrega segredo: nenhum token, telefone ou id de chat (o destino sai so
+# como rotulo id:<hash>, o mesmo que a ponte imprime na tela).
 #
 # Qualquer falha e silenciosa: sem rede ou sem credencial, simplesmente nao
 # publica; a entrega nao depende disto.
@@ -18,8 +19,11 @@ RAMO="tracknews-heartbeat"
 WORK="$DEST/heartbeat"
 
 [ -d "$DEST" ] || exit 0
-URL="$(git -C "$SRC" remote get-url origin 2>/dev/null)" || exit 0
-[ -n "$URL" ] || exit 0
+# Publica no repo PRIVADO do TrackNews (o mesmo cujo branch `state` a ponte
+# le), nunca no repo publico: o status passa a carregar trechos do perfil de
+# voz e das skills do Hermes, que sao do Douglas. Sem credencial para ele,
+# simplesmente nao publica.
+URL="${TRACKNEWS_HEARTBEAT_URL:-https://github.com/douglora/tracknews-autopilot.git}"
 
 # credencial: o gh ja autenticado configura o helper do git uma unica vez
 if ! git config --global --get-all credential.helper 2>/dev/null | grep -q .; then
@@ -101,7 +105,7 @@ if not chat:
 import re as _re
 def _mask(s):
     s = _re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net)", r"<id>@\1", s or "")
-    s = _re.sub(r"\+?\d{2}\s?\(?\d{2}\)?\s?9?\d{4}[-\s]?\d{4}", "<fone>", s)
+    s = _re.sub(r"(?<!\d)(?:\+?55[\s.-]?)?\(?\d{2}\)?[\s.-]?9?\d{4}[\s.-]?\d{4}(?!\d)", "<fone>", s)
     return _re.sub(r"(key|token|secret|senha|pass)([=: ])\S+", r"\1\2<omitido>", s, flags=_re.I)
 
 # --- o que ha no grupo de destino (so leitura, sem ids): quem mandou, tamanho,
