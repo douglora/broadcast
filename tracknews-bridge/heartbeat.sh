@@ -152,6 +152,15 @@ try:
 except Exception:
     pass
 
+# --- inspecao do Hermes (bridge, skills, crons, logs), so leitura e mascarada
+inspecao = None
+try:
+    import subprocess as _sp
+    proc = _sp.run([sys.executable, str(dest / "inspecao-hermes.py")], capture_output=True, text=True, timeout=120)
+    inspecao = json.loads(proc.stdout) if proc.stdout.strip() else {"erro": (proc.stderr or "")[-200:]}
+except Exception as erro:
+    inspecao = {"erro": str(erro)[:120]}
+
 # --- o handler /send do bridge.js do Hermes: ele altera o texto?
 handler = []
 try:
@@ -177,6 +186,7 @@ print(json.dumps({
     "grupo_recentes": recentes,
     "agente_antigo_recon": antigo,
     "bridge_send_handler": handler,
+    "inspecao_hermes": inspecao,
     "gerado_em": agora.isoformat(),
     "host": socket.gethostname(),
     "commit_instalado": sh("git", "-C", str(src), "rev-parse", "--short", "HEAD"),
