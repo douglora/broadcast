@@ -405,6 +405,114 @@ def acha_grupo_local(nome: str, raizes: list[Path] | None = None):
     return jid, fonte, None
 
 
+# --------------------------------------------------------------------------
+# grupo perguntando ao bridge chat por chat (GET /chat/:id)
+# --------------------------------------------------------------------------
+ROTAS_CHAT_CONHECIDAS = ("/chat/{jid}", "/chats/{jid}", "/api/chat/{jid}",
+                         "/group/{jid}", "/groups/{jid}", "/api/groups/{jid}")
+
+
+def rotas_de_chat(api: dict) -> list[str]:
+    """Modelos de URL para um chat especifico, deduzidos do fonte + conhecidos."""
+    modelos: list[str] = []
+    for rota in api.get("rotas", []):
+        caminho = rota["rota"]
+        if rota["metodo"] == "GET" and re.search(r"chat|group", caminho, re.I) \
+                and re.search(r":[A-Za-z_]+|\{[A-Za-z_]+\}", caminho):
+            modelos.append(re.sub(r":[A-Za-z_]+|\{[A-Za-z_]+\}", "{jid}", caminho))
+    for modelo in ROTAS_CHAT_CONHECIDAS:
+        if modelo not in modelos:
+            modelos.append(modelo)
+    return modelos
+
+
+def nome_do_chat(base: str, api: dict, jid: str, chave: str | None = None,
+                 modelos: list[str] | None = None) -> tuple[str | None, str | None]:
+    """(nome, modelo_que_funcionou). Tenta o jid cru e depois URL-encoded."""
+    for modelo in modelos or rotas_de_chat(api):
+        for alvo in (jid, urllib.parse.quote(jid, safe="")):
+            status, dados = _pede(base, modelo.replace("{jid}", alvo), chave=chave,
+                                  cabecalho_auth=api.get("cabecalho_auth"), timeout=6)
+            if status == 200 and isinstance(dados, dict):
+                interno = dados.get("chat") if isinstance(dados.get("chat"), dict) else dados
+                nome = _extrai_nome(interno)
+                if nome:
+                    return nome, modelo
+                return None, modelo   # o chat existe, mas veio sem nome
+            if status not in (404, 405, None):
+                break
+    return None, None
+
+
+def acha_grupo_por_sessao(base: str, api: dict, nome: str, chave: str | None = None):
+    """
+    (chat_id, detalhe, erro). Pega os grupos em que a sessao pareada esta (arquivos
+    sender-key do Baileys), pergunta o nome de cada um ao bridge via GET /chat/:id
+    e casa o nome exato. Um unico match, ou nada.
+    """
+    jids = sorted(grupos_da_sessao())
+    if not jids:
+        return None, None, "sessao sem arquivos sender-key: nao sei em que grupos ela esta"
+    modelos = rotas_de_chat(api)
+    procurado = nome.strip().casefold()
+    achados, com_nome, modelo_ok = [], 0, None
+    for jid in jids:
+        nome_chat, modelo = nome_do_chat(base, api, jid, chave, modelos)
+        if modelo and modelo_ok is None:
+            modelo_ok = modelo
+            modelos = [modelo]          # daqui em diante so o que funcionou
+        if nome_chat:
+            com_nome += 1
+            if nome_chat.strip().casefold() == procurado:
+                achados.append(jid)
+    detalhe = f"{len(jids)} grupos na sessao, {com_nome} com nome via {modelo_ok or 'nenhuma rota'}"
+    if not achados:
+        return None, detalhe, f'nenhum dos grupos se chama "{nome}" ({detalhe})'
+    if len(achados) > 1:
+        return None, detalhe, f'{len(achados)} grupos com o nome exato "{nome}"; nao da para escolher'
+    return achados[0], detalhe, None
+
+
+def pares_de_messages(base: str, api: dict, chave: str | None = None) -> dict[str, str]:
+    """{jid_de_grupo: nome} extraidos de GET /messages, quando o bridge expoe."""
+    pares: dict[str, str] = {}
+    for caminho in ("/messages?limit=500", "/messages", "/api/messages"):
+        status, dados = _pede(base, caminho, chave=chave,
+                              cabecalho_auth=api.get("cabecalho_auth"), timeout=8)
+        if status != 200:
+            continue
+        for item in _achata(dados) or ([dados] if isinstance(dados, dict) else []):
+            jid = _extrai_id(item.get("chatId") or item.get("chat_id") or item.get("jid")
+                             or item.get("remoteJid") or item.get("from") or item.get("chat"))
+            if not jid or not jid.endswith("@g.us"):
+                continue
+            nome = None
+            for chave_nome in ("chatName", "chat_name", "groupName", "group_name",
+                               "subject", "name", "title"):
+                valor = item.get(chave_nome)
+                if isinstance(valor, str) and valor.strip():
+                    nome = valor.strip()
+                    break
+            if nome:
+                pares.setdefault(jid, nome)
+        if pares:
+            break
+    return pares
+
+
+def acha_grupo_por_messages(base: str, api: dict, nome: str, chave: str | None = None):
+    pares = pares_de_messages(base, api, chave)
+    if not pares:
+        return None, None, "GET /messages nao trouxe grupos com nome"
+    procurado = nome.strip().casefold()
+    achados = [j for j, n in pares.items() if n.strip().casefold() == procurado]
+    if not achados:
+        return None, None, f'"{nome}" nao aparece entre os {len(pares)} grupos com mensagens recentes'
+    if len(achados) > 1:
+        return None, None, f"{len(achados)} grupos com esse nome nas mensagens recentes"
+    return achados[0], "GET /messages", None
+
+
 def _mascara_jid(texto: str) -> str:
     return re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net)", r"<id-omitido>@\1", texto or "")
 
@@ -423,6 +531,10 @@ def diagnostico(base: str, nome_grupo: str) -> dict:
     saida["listagem_de_grupos"] = {"rota": rota, "grupos_vistos": len(grupos),
                                    "nome_bate": sum(1 for g in grupos
                                                     if g["nome"].strip().casefold() == nome_grupo.strip().casefold())}
+    jid_s, detalhe_s, erro_s = acha_grupo_por_sessao(base, api, nome_grupo)
+    saida["por_sessao"] = {"achou": bool(jid_s), "detalhe": detalhe_s, "erro": _mascara_jid(erro_s or "")}
+    jid_m, _, erro_m = acha_grupo_por_messages(base, api, nome_grupo)
+    saida["por_messages"] = {"achou": bool(jid_m), "erro": _mascara_jid(erro_m or "")}
     jid, fonte, erro = acha_grupo_local(nome_grupo)
     saida["busca_local"] = {"achou": bool(jid), "fonte": fonte, "erro": _mascara_jid(erro or "")}
     saida["grupos_da_sessao"] = len(grupos_da_sessao())

@@ -806,12 +806,25 @@ def cmd_hermes(cfg: dict, args) -> int:
         # locais -- config/log do Hermes ou do agente antigo -- e so aceita um
         # id em que a sessao pareada comprovadamente esta.
         print(f"  pela API   : {erro}")
-        chat_id, fonte, erro_local = hermes.acha_grupo_local(cfg["destino"]["nome_grupo"])
-        if erro_local:
-            print(f"  nos arquivos: {erro_local}")
-            print("\nNada foi gravado. PARANDO: nenhum outro destino.")
-            return 1
-        print(f"  grupo via  : arquivo local {fonte}")
+        # Pergunta o nome de cada grupo em que a sessao esta (GET /chat/:id),
+        # depois as mensagens recentes, e por ultimo os arquivos locais.
+        nome_grupo = cfg["destino"]["nome_grupo"]
+        chat_id, detalhe, erro_s = hermes.acha_grupo_por_sessao(base, api, nome_grupo, chave)
+        if chat_id:
+            print(f"  grupo via  : GET /chat/:id ({detalhe})")
+        else:
+            print(f"  chat a chat: {erro_s}")
+            chat_id, _, erro_m = hermes.acha_grupo_por_messages(base, api, nome_grupo, chave)
+            if chat_id:
+                print("  grupo via  : GET /messages")
+            else:
+                print(f"  /messages  : {erro_m}")
+                chat_id, fonte, erro_local = hermes.acha_grupo_local(nome_grupo)
+                if erro_local:
+                    print(f"  nos arquivos: {erro_local}")
+                    print("\nNada foi gravado. PARANDO: nenhum outro destino.")
+                    return 1
+                print(f"  grupo via  : arquivo local {fonte}")
     else:
         print(f"  grupos via : GET {rota}")
 
