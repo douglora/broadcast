@@ -329,6 +329,10 @@ bash "$DEST/hermes-check.sh" > "$HOME/relatorio-hermes.txt" 2>&1 \
   && echo "    hermes-check: $HOME/relatorio-hermes.txt (nada foi alterado)" \
   || pend "hermes-check.sh falhou"
 
+# ------------------------------------------- 7b. heartbeat (sem segredos)
+# Publica o estado no branch tracknews-heartbeat, para ser acompanhado de fora.
+bash "$DEST/heartbeat.sh" && echo "    heartbeat publicado (branch tracknews-heartbeat)" || true
+
 # ----------------------------------------------------------- 8. resumo
 diz "RESUMO"
 if [ "$COM_SYSTEMD" = 1 ]; then

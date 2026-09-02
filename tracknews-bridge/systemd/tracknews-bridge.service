@@ -12,7 +12,10 @@ WorkingDirectory=%h/tracknews-bridge
 # falha (rede, teste) ser ignorada: a entrega segue com a versao ja instalada.
 ExecStartPre=-/usr/bin/bash %h/tracknews-bridge/atualizar.sh
 ExecStart=/usr/bin/python3 %h/tracknews-bridge/bridge.py run
-TimeoutStartSec=240
+# Heartbeat depois de cada execucao: estado da ponte, sem segredos, no branch
+# tracknews-heartbeat do repo -- e o que permite acompanhar o PC de fora.
+ExecStartPost=-/usr/bin/bash %h/tracknews-bridge/heartbeat.sh
+TimeoutStartSec=300
 NoNewPrivileges=true
 # A ponte so LE o repo de estado e USA o endpoint de envio ja existente (WAHA ou
 # o bridge do Hermes). Ela nunca inicia, reinicia ou reconfigura nenhum dos dois,
