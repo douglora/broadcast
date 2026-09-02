@@ -802,10 +802,18 @@ def cmd_hermes(cfg: dict, args) -> int:
     chave = os.environ.get((cfg.get("hermes") or {}).get("api_key_env") or "HERMES_API_KEY") or None
     chat_id, rota, erro = hermes.acha_grupo(base, api, cfg["destino"]["nome_grupo"], chave)
     if erro:
-        print(f"\n{erro}")
-        print("Nada foi gravado. PARANDO: nenhum outro destino.")
-        return 1
-    print(f"  grupos via : GET {rota}")
+        # O bridge nao lista grupos (ou nao achou o nome): cai para os arquivos
+        # locais -- config/log do Hermes ou do agente antigo -- e so aceita um
+        # id em que a sessao pareada comprovadamente esta.
+        print(f"  pela API   : {erro}")
+        chat_id, fonte, erro_local = hermes.acha_grupo_local(cfg["destino"]["nome_grupo"])
+        if erro_local:
+            print(f"  nos arquivos: {erro_local}")
+            print("\nNada foi gravado. PARANDO: nenhum outro destino.")
+            return 1
+        print(f"  grupo via  : arquivo local {fonte}")
+    else:
+        print(f"  grupos via : GET {rota}")
 
     cfg["transporte"] = "hermes"
     cfg["hermes"] = {
@@ -1012,6 +1020,78 @@ def cmd_test_send(cfg: dict, args) -> int:
     return 0
 
 
+def cmd_armar(cfg: dict, args) -> int:
+    """
+    Usado pelo timer antes de cada `run`: deixa a ponte pronta sem ninguem colar
+    comando. Idempotente e barato quando ja esta tudo armado.
+
+      1. sem destino gravado -> tenta WAHA, depois o bridge do Hermes;
+      2. destino confirmado e envio desligado -> liga (autorizacao do Douglas
+         registrada no briefing: "ligar o envio e UM teste");
+      3. teste unico ainda nao feito -> semeia o historico e envia o alerta
+         aprovado mais recente, uma vez so (marca .teste-ok). Este unico envio
+         pode furar o silencio noturno; os seguintes nunca.
+    """
+    marca = HOME / ".teste-ok"
+    if PAUSED_PATH.exists():
+        print("kill switch ativo (PAUSED); nao armo nada.")
+        return 0
+
+    if not cfg["destino"]["chat_id"]:
+        print("== armar: sem destino gravado; procurando transporte ==")
+        if cmd_waha(cfg, args) != 0:
+            cfg = carrega_config()
+            if cmd_hermes(cfg, argparse.Namespace(base_url=None)) != 0:
+                print("armar: nenhum transporte confirmou o grupo; envio segue desligado.")
+                registra_log({"evento": "armar", "resultado": "sem_transporte"})
+                return 1
+        cfg = carrega_config()
+
+    problema = valida_destino(cfg)
+    if problema:
+        print(problema)
+        return 1
+
+    if not cfg["envio_habilitado"]:
+        cfg["envio_habilitado"] = True
+        grava_config(cfg)
+        registra_log({"evento": "armar", "resultado": "envio_ligado",
+                      "transporte": cfg.get("transporte") or "waha"})
+        print("armar: envio_habilitado = true")
+
+    if marca.exists():
+        return 0
+
+    try:
+        _, _, enviados, _ = prepara(cfg)   # semeia o historico na primeira vez
+        aprovados, _ = coleta_aprovados(cfg)
+    except subprocess.CalledProcessError as erro:
+        print(f"armar: repo de estado indisponivel: {erro.stderr.strip()[:200]}")
+        return 1
+    fila = [i for i in ordena_fila(aprovados) if i["revision_type"] != "DIGEST"]
+    if not fila:
+        print("armar: nenhum alerta aprovado na janela; o teste sai com o primeiro real.")
+        return 0
+    escolhido = fila[-1]
+    print("armar: teste unico autorizado, vai sair exatamente isto:")
+    imprime_alerta(escolhido)
+    resultado, status = entrega(cfg, escolhido, enviados, rotulo="teste")
+    print(f"armar: resultado {resultado}" + (f" (HTTP {status})" if status else ""))
+    if resultado == "enviado":
+        marca.write_text(agora_local().strftime("%Y-%m-%d %H:%M:%S") + "\n", encoding="utf-8")
+        return 0
+    if resultado == "incerto":
+        marca.write_text(agora_local().strftime("%Y-%m-%d %H:%M:%S") + " (incerto)\n", encoding="utf-8")
+        return 1
+    # falhou: desliga de novo para o timer nao insistir as cegas; proxima
+    # execucao do armar tenta o transporte outra vez.
+    cfg["envio_habilitado"] = False
+    grava_config(cfg)
+    registra_log({"evento": "armar", "resultado": "teste_falhou"})
+    print("armar: teste falhou; envio_habilitado voltou para false.")
+    return 1
+
+
 def cmd_seed(cfg: dict, args) -> int:
     if ENVIADOS_PATH.is_file() and not args.forcar:
         print("enviados.json ja existe; use --forcar para semear de novo.")
@@ -1053,6 +1133,9 @@ def main() -> int:
     p.add_argument("--alert-id", default=None)
     p.add_argument("--ignorar-silencio", action="store_true")
     p.set_defaults(func=cmd_test_send)
+
+    p = sub.add_parser("armar", help="deixa a ponte pronta (transporte, destino, envio, teste unico)")
+    p.set_defaults(func=cmd_armar)
 
     p = sub.add_parser("seed", help="marca a fila atual como ja entregue")
     p.add_argument("--forcar", action="store_true")

@@ -7,15 +7,17 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 WorkingDirectory=%h/tracknews-bridge
-# Auto-atualizacao antes de cada execucao: busca o branch, roda o autoteste da
-# versao nova num diretorio descartavel e so entao instala. O "-" faz qualquer
-# falha (rede, teste) ser ignorada: a entrega segue com a versao ja instalada.
+# 1. Auto-atualizacao: busca o branch, roda o autoteste da versao nova num
+#    diretorio descartavel e so entao instala. "-" ignora qualquer falha.
 ExecStartPre=-/usr/bin/bash %h/tracknews-bridge/atualizar.sh
+# 2. Armar: sem destino gravado, procura o transporte (WAHA, depois o bridge do
+#    Hermes) e o grupo; liga o envio; faz o teste unico autorizado uma vez so.
+ExecStartPre=-/usr/bin/python3 %h/tracknews-bridge/bridge.py armar
+# 3. Entrega respeitando os limites.
 ExecStart=/usr/bin/python3 %h/tracknews-bridge/bridge.py run
-# Heartbeat depois de cada execucao: estado da ponte, sem segredos, no branch
-# tracknews-heartbeat do repo -- e o que permite acompanhar o PC de fora.
+# 4. Heartbeat sem segredos no branch tracknews-heartbeat, para acompanhar de fora.
 ExecStartPost=-/usr/bin/bash %h/tracknews-bridge/heartbeat.sh
-TimeoutStartSec=300
+TimeoutStartSec=420
 NoNewPrivileges=true
 # A ponte so LE o repo de estado e USA o endpoint de envio ja existente (WAHA ou
 # o bridge do Hermes). Ela nunca inicia, reinicia ou reconfigura nenhum dos dois,

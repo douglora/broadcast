@@ -85,7 +85,31 @@ chat = cfg.get("destino", {}).get("chat_id")
 rotulo = ("id:" + hashlib.sha256(chat.encode()).hexdigest()[:12]) if chat else None
 
 marca = dest / ".teste-ok"
+
+# Enquanto o destino nao estiver gravado, o heartbeat carrega o diagnostico da
+# descoberta (rotas do bridge, listagem de grupos, busca local) -- sem ids.
+diag = None
+if not chat:
+    try:
+        sys.path.insert(0, str(dest))
+        import hermes as _h
+        diag = _h.diagnostico((cfg.get("hermes") or {}).get("base_url") or "http://localhost:3000",
+                              cfg.get("destino", {}).get("nome_grupo") or "AutoPilot News")
+    except Exception as erro:
+        diag = {"erro": str(erro)[:120]}
+
+import re as _re
+def _mask(s):
+    s = _re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net)", r"<id>@\1", s)
+    return _re.sub(r"(key|token|secret|senha|pass)([=: ])\S+", r"\1\2<omitido>", s, flags=_re.I)
+try:
+    rabo = [ _mask(l)[:160] for l in (pathlib.Path.home() / "bootstrap-tracknews.log").read_text(encoding="utf-8", errors="replace").splitlines()[-25:] ]
+except Exception:
+    rabo = []
+
 print(json.dumps({
+    "diagnostico_descoberta": diag,
+    "bootstrap_ultimas_linhas": rabo,
     "gerado_em": agora.isoformat(),
     "host": socket.gethostname(),
     "commit_instalado": sh("git", "-C", str(src), "rev-parse", "--short", "HEAD"),

@@ -20,6 +20,7 @@ import json
 import os
 import re
 import socket
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -305,3 +306,124 @@ def descobre(base: str = BASE_PADRAO) -> dict:
     rota, destino, texto = rota_de_envio(api)
     api["envio"] = {"rota": rota, "campo_destino": destino, "campo_texto": texto}
     return api
+
+
+# --------------------------------------------------------------------------
+# grupo pelos arquivos locais (quando o bridge nao lista grupos)
+# --------------------------------------------------------------------------
+JID_GRUPO = re.compile(r"\b(\d{10,}@g\.us)\b")
+EXCLUIR_DIRS = ("node_modules", ".git", ".cache", ".npm", ".cargo", ".rustup",
+                "venv", ".venv", "site-packages", "__pycache__", ".local/share/Trash")
+
+
+def grupos_da_sessao() -> set[str]:
+    """JIDs de grupo em que a sessao pareada do Hermes realmente esta.
+
+    O Baileys grava um arquivo sender-key-<jid-do-grupo>--<participante>.json
+    por grupo/participante em ~/.hermes/whatsapp/session. Serve de prova de
+    pertencimento: um id achado em texto solto so vale se estiver aqui.
+    """
+    pasta = Path.home() / ".hermes" / "whatsapp" / "session"
+    achados: set[str] = set()
+    if not pasta.is_dir():
+        return achados
+    try:
+        for entrada in os.scandir(pasta):
+            nome = entrada.name
+            if nome.startswith("sender-key-") and "@g.us" in nome:
+                achado = JID_GRUPO.search(nome.replace("sender-key-", "", 1))
+                if achado:
+                    achados.add(achado.group(1))
+    except OSError:
+        pass
+    return achados
+
+
+def acha_grupo_local(nome: str, raizes: list[Path] | None = None):
+    """
+    (chat_id, fonte, erro). Procura o NOME do grupo em arquivos de texto da
+    maquina (config e logs do Hermes, do agente antigo, do proprio Douglas) e
+    pega o id @g.us que aparece perto dele. So leitura; nada e impresso alem do
+    caminho do arquivo. O id so e aceito se a sessao pareada estiver nesse grupo
+    (ver grupos_da_sessao) -- e se houver um unico candidato.
+    """
+    nome = nome.strip()
+    if not nome:
+        return None, None, "nome do grupo vazio"
+    raizes = raizes or [Path.home()]
+    excluir = [f"--exclude-dir={d}" for d in EXCLUIR_DIRS]
+    arquivos: list[str] = []
+    for raiz in raizes:
+        if not raiz.is_dir():
+            continue
+        try:
+            proc = subprocess.run(
+                ["grep", "-rlIF", "--binary-files=without-match", *excluir, "-e", nome, str(raiz)],
+                capture_output=True, text=True, timeout=150)
+        except (subprocess.TimeoutExpired, OSError):
+            continue
+        arquivos += [a for a in proc.stdout.splitlines() if a.strip()]
+    arquivos = arquivos[:200]
+    if not arquivos:
+        return None, None, f'"{nome}" nao aparece em nenhum arquivo de texto sob {", ".join(str(r) for r in raizes)}'
+
+    pertence = grupos_da_sessao()
+    candidatos: dict[str, str] = {}
+    for caminho in arquivos:
+        try:
+            if os.path.getsize(caminho) > 20_000_000:
+                continue
+            texto = Path(caminho).read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            continue
+        for ocorrencia in re.finditer(re.escape(nome), texto):
+            # Primeiro a propria linha (log/JSON compacto); so sem id nela e que
+            # olhamos uma janela em volta (JSON indentado). Isso evita pegar o
+            # id de um chat vizinho num log que lista varios grupos seguidos.
+            ini = texto.rfind("\n", 0, ocorrencia.start()) + 1
+            fim = texto.find("\n", ocorrencia.end())
+            linha = texto[ini: fim if fim != -1 else len(texto)]
+            achados = JID_GRUPO.findall(linha)
+            if not achados:
+                janela = texto[max(0, ocorrencia.start() - 600): ocorrencia.end() + 600]
+                achados = JID_GRUPO.findall(janela)
+            for jid in achados:
+                candidatos.setdefault(jid, caminho)
+    if not candidatos:
+        return None, None, (f'"{nome}" aparece em {len(arquivos)} arquivo(s), mas sem id @g.us '
+                            "por perto em nenhum deles")
+    if pertence:
+        validos = {j: c for j, c in candidatos.items() if j in pertence}
+        if not validos:
+            return None, None, (f"{len(candidatos)} id(s) achado(s) perto do nome, mas a sessao "
+                                "pareada nao esta em nenhum desses grupos")
+        candidatos = validos
+    if len(candidatos) > 1:
+        return None, None, (f"{len(candidatos)} grupos diferentes aparecem com esse nome nos "
+                            "arquivos; nao da para escolher sozinho")
+    jid, fonte = next(iter(candidatos.items()))
+    return jid, fonte, None
+
+
+def _mascara_jid(texto: str) -> str:
+    return re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net)", r"<id-omitido>@\1", texto or "")
+
+
+def diagnostico(base: str, nome_grupo: str) -> dict:
+    """Retrato SEM SEGREDOS do que a descoberta enxerga -- vai para o heartbeat."""
+    api = descobre(base)
+    saida = {
+        "bridge_js": api.get("arquivo"),
+        "saude": api.get("saude"),
+        "rotas": [f"{r['metodo']} {r['rota']}" for r in api.get("rotas", [])][:20],
+        "envio_deduzido": api.get("envio"),
+        "cabecalho_auth": api.get("cabecalho_auth"),
+    }
+    grupos, rota = lista_grupos(base, api)
+    saida["listagem_de_grupos"] = {"rota": rota, "grupos_vistos": len(grupos),
+                                   "nome_bate": sum(1 for g in grupos
+                                                    if g["nome"].strip().casefold() == nome_grupo.strip().casefold())}
+    jid, fonte, erro = acha_grupo_local(nome_grupo)
+    saida["busca_local"] = {"achou": bool(jid), "fonte": fonte, "erro": _mascara_jid(erro or "")}
+    saida["grupos_da_sessao"] = len(grupos_da_sessao())
+    return saida
