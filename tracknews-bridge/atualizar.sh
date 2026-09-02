@@ -50,6 +50,10 @@ else
   printf '%s  install.sh falhou na versao %s\n' "$(date '+%F %T')" "${depois:0:7}" >> "$LOG"
 fi
 
+# Bridge do Hermes: garante o `raw: true` no /send (patch de duas linhas,
+# idempotente, com backup e restart unico do gateway quando acabou de aplicar).
+[ -x "$DEST/hermes-bridge-raw.sh" ] && bash "$DEST/hermes-bridge-raw.sh" || true
+
 # Units do systemd: se mudaram no branch, copia e recarrega. daemon-reload nao
 # para o timer nem interrompe nada; so faz o systemd reler os arquivos.
 unidades="$HOME/.config/systemd/user"

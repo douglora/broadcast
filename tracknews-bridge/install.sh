@@ -33,6 +33,7 @@ install -m 0755 "$origem/diagnostico-entrega.sh" "$destino/diagnostico-entrega.s
 install -m 0755 "$origem/atualizar.sh" "$destino/atualizar.sh"
 install -m 0755 "$origem/heartbeat.sh" "$destino/heartbeat.sh"
 install -m 0755 "$origem/inspecao-hermes.py" "$destino/inspecao-hermes.py"
+install -m 0755 "$origem/hermes-bridge-raw.sh" "$destino/hermes-bridge-raw.sh"
 mkdir -p "$destino/hermes-skills"
 cp -R "$origem/hermes-skills/." "$destino/hermes-skills/"
 

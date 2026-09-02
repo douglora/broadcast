@@ -277,7 +277,10 @@ def envia(base: str, api: dict, chat_id: str, texto: str,
         if assinatura in vistos:
             continue
         vistos.add(assinatura)
-        status, dados = _pede(base, caminho, "POST", {destino: chat_id, campo: texto},
+        # `raw: true` pede ao bridge do Hermes que NAO cole o cabecalho de
+        # self-chat ("⚕ *Hermes Agent*" + regua) na frente do alerta. Bridges
+        # sem o patch ignoram o campo.
+        status, dados = _pede(base, caminho, "POST", {destino: chat_id, campo: texto, "raw": True},
                               chave=chave, cabecalho_auth=api.get("cabecalho_auth"),
                               timeout=timeout)
         if status is None:
