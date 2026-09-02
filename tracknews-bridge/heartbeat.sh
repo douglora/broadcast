@@ -100,8 +100,72 @@ if not chat:
 
 import re as _re
 def _mask(s):
-    s = _re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net)", r"<id>@\1", s)
+    s = _re.sub(r"\d{10,}@(g\.us|c\.us|s\.whatsapp\.net)", r"<id>@\1", s or "")
+    s = _re.sub(r"\+?\d{2}\s?\(?\d{2}\)?\s?9?\d{4}[-\s]?\d{4}", "<fone>", s)
     return _re.sub(r"(key|token|secret|senha|pass)([=: ])\S+", r"\1\2<omitido>", s, flags=_re.I)
+
+# --- o que ha no grupo de destino (so leitura, sem ids): quem mandou, tamanho,
+#     comeco do texto. E o que permite saber se o que o Douglas ve veio da ponte
+#     ou de outro agente que ainda posta no grupo.
+recentes = []
+if chat and transporte == "hermes" and base:
+    def _get(url):
+        try:
+            with urllib.request.urlopen(url, timeout=8) as r:
+                return json.loads(r.read(400_000).decode("utf-8", "replace"))
+        except Exception:
+            return None
+    itens = []
+    d1 = _get(base.rstrip("/") + "/chat/" + chat)
+    if isinstance(d1, dict):
+        for k in ("messages", "recent", "history"):
+            if isinstance(d1.get(k), list): itens += d1[k]
+        if isinstance(d1.get("chat"), dict):
+            for k in ("messages", "recent", "history"):
+                if isinstance(d1["chat"].get(k), list): itens += d1["chat"][k]
+    d2 = _get(base.rstrip("/") + "/messages?limit=500") or _get(base.rstrip("/") + "/messages")
+    lista = d2 if isinstance(d2, list) else (d2.get("messages") if isinstance(d2, dict) else None) or []
+    for m in lista:
+        if not isinstance(m, dict): continue
+        cid = m.get("chatId") or m.get("chat_id") or m.get("jid") or m.get("remoteJid") or m.get("from") or m.get("chat")
+        if isinstance(cid, dict): cid = cid.get("_serialized") or cid.get("id")
+        if cid == chat: itens.append(m)
+    for m in itens[-12:]:
+        if not isinstance(m, dict): continue
+        texto = m.get("text") or m.get("message") or m.get("body") or m.get("content") or ""
+        if isinstance(texto, dict): texto = texto.get("text") or texto.get("conversation") or json.dumps(texto)[:80]
+        recentes.append({
+            "ts": m.get("timestamp") or m.get("ts") or m.get("t") or m.get("time"),
+            "de_mim": m.get("fromMe") if "fromMe" in m else m.get("from_me"),
+            "quem": _mask(str(m.get("pushName") or m.get("sender") or m.get("author") or ""))[:30],
+            "tam": len(str(texto)),
+            "inicio": _mask(str(texto))[:70],
+        })
+
+# --- resumo mascarado do recon do agente antigo (o que ainda posta no grupo)
+antigo = []
+try:
+    for l in (pathlib.Path.home() / "relatorio-antigo.txt").read_text(encoding="utf-8", errors="replace").splitlines():
+        if _re.search(r"timer|\.service|docker|container|schtasks|Tarefa|pm2|cron|\.py|\.js|\.ps1|\.bat|sendText|/api/send|@g\.us|=====", l, _re.I):
+            antigo.append(_mask(l)[:150])
+    antigo = antigo[:70]
+except Exception:
+    pass
+
+# --- o handler /send do bridge.js do Hermes: ele altera o texto?
+handler = []
+try:
+    sys.path.insert(0, str(dest))
+    import hermes as _h2
+    bjs = _h2.caminho_bridge_js()
+    if bjs:
+        linhas = bjs.read_text(encoding="utf-8", errors="replace").splitlines()
+        for i, l in enumerate(linhas):
+            if _re.search(r"post\(\s*['\"]/send['\"]", l):
+                handler = [_mask(x)[:140] for x in linhas[i:i+32]]
+                break
+except Exception:
+    pass
 try:
     rabo = [ _mask(l)[:160] for l in (pathlib.Path.home() / "bootstrap-tracknews.log").read_text(encoding="utf-8", errors="replace").splitlines()[-25:] ]
 except Exception:
@@ -110,6 +174,9 @@ except Exception:
 print(json.dumps({
     "diagnostico_descoberta": diag,
     "bootstrap_ultimas_linhas": rabo,
+    "grupo_recentes": recentes,
+    "agente_antigo_recon": antigo,
+    "bridge_send_handler": handler,
     "gerado_em": agora.isoformat(),
     "host": socket.gethostname(),
     "commit_instalado": sh("git", "-C", str(src), "rev-parse", "--short", "HEAD"),
