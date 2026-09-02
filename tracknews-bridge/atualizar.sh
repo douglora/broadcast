@@ -17,6 +17,12 @@ SRC="${TRACKNEWS_BRIDGE_SRC:-$HOME/src/broadcast}"
 DEST="${TRACKNEWS_BRIDGE_HOME:-$HOME/tracknews-bridge}"
 LOG="$DEST/atualizar.log"
 
+# Bridge do Hermes: garante o `raw: true` no /send (patch de duas linhas,
+# idempotente, com backup e restart unico do gateway quando acabou de aplicar).
+# Fica ANTES do "nada novo, sai" abaixo: precisa rodar todo ciclo, porque no
+# ciclo que instala uma versao nova quem esta rodando ainda e o script antigo.
+[ -x "$DEST/hermes-bridge-raw.sh" ] && bash "$DEST/hermes-bridge-raw.sh" || true
+
 [ -d "$SRC/.git" ] || exit 0
 mkdir -p "$DEST"
 
@@ -49,10 +55,6 @@ if bash "$SRC/tracknews-bridge/install.sh" >/dev/null 2>&1; then
 else
   printf '%s  install.sh falhou na versao %s\n' "$(date '+%F %T')" "${depois:0:7}" >> "$LOG"
 fi
-
-# Bridge do Hermes: garante o `raw: true` no /send (patch de duas linhas,
-# idempotente, com backup e restart unico do gateway quando acabou de aplicar).
-[ -x "$DEST/hermes-bridge-raw.sh" ] && bash "$DEST/hermes-bridge-raw.sh" || true
 
 # Units do systemd: se mudaram no branch, copia e recarrega. daemon-reload nao
 # para o timer nem interrompe nada; so faz o systemd reler os arquivos.
