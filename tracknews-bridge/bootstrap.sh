@@ -297,6 +297,30 @@ PY
   fi
 fi
 
+# ------------------ 6b. skill de aprofundamento no Hermes (sem reiniciar)
+# O Hermes entra na camada 2: "mais <id>" no self-chat vira aprofundamento com
+# numeros lastreados. A skill e copiada para a pasta de skills do Hermes -- a
+# que ja contem a briefing-diario -- e NADA e reiniciado: se o Hermes so ler
+# skills ao subir, ela passa a valer no proximo boot dele. Nao muda config.
+SKILL_ORIGEM="$DEST/hermes-skills/aprofundamento-tracknews"
+if [ -d "$HOME/.hermes" ] && [ -d "$SKILL_ORIGEM" ]; then
+  PASTA_SKILLS="$(find "$HOME/.hermes" -maxdepth 4 -type d -name 'briefing-diario' 2>/dev/null \
+                  | grep -v node_modules | head -1 | xargs -r dirname)"
+  if [ -n "$PASTA_SKILLS" ] && [ -d "$PASTA_SKILLS" ]; then
+    if [ -d "$PASTA_SKILLS/aprofundamento-tracknews" ] \
+       && cmp -s "$SKILL_ORIGEM/SKILL.md" "$PASTA_SKILLS/aprofundamento-tracknews/SKILL.md"; then
+      echo "    skill aprofundamento-tracknews ja instalada no Hermes ($PASTA_SKILLS)"
+    else
+      mkdir -p "$PASTA_SKILLS/aprofundamento-tracknews" \
+        && cp "$SKILL_ORIGEM/SKILL.md" "$SKILL_ORIGEM/aprofundar.py" "$PASTA_SKILLS/aprofundamento-tracknews/" \
+        && echo "    skill aprofundamento-tracknews instalada em $PASTA_SKILLS (Hermes nao foi reiniciado)" \
+        || pend "nao consegui copiar a skill aprofundamento-tracknews para $PASTA_SKILLS"
+    fi
+  else
+    pend "pasta de skills do Hermes nao localizada (procurei a briefing-diario sob ~/.hermes); skill de aprofundamento nao instalada"
+  fi
+fi
+
 # ------------------------------ 7. recon (so leitura) + hermes-check
 bash "$DEST/recon-antigo.sh" > "$HOME/relatorio-antigo.txt" 2>&1 \
   && echo "    recon do agente antigo: $HOME/relatorio-antigo.txt (nada foi desligado)" \

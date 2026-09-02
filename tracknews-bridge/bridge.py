@@ -278,8 +278,37 @@ def coleta_aprovados(cfg: dict) -> tuple[list[dict], dict]:
     So a segunda forma, e so com gate.allowed == true, pode virar mensagem.
     """
     estat = {"linhas": 0, "com_alerta": 0, "aprovados": 0, "segurados": 0,
-             "bloqueados": 0, "arquivos": [], "invalidas": 0}
+             "bloqueados": 0, "arquivos": [], "invalidas": 0, "digests": 0}
     por_id: dict[str, dict] = {}
+
+    # Digest matinal (07:00, dias uteis): a nuvem grava em outputs/digest/<dia>.md,
+    # fora do JSONL de revisao. E a "camada do grupo" do formato-mensagens, entao
+    # entra na mesma fila, com o mesmo dedup e os mesmos limites. O arquivo
+    # .longo.md e a camada privada e NUNCA entra aqui.
+    hoje_utc = datetime.now(timezone.utc).date()
+    for i in range(max(1, int(cfg["repo"]["dias_janela"]))):
+        dia = (hoje_utc - timedelta(days=i)).isoformat()
+        caminho = f"outputs/digest/{dia}.md"
+        conteudo = le_arquivo_do_estado(cfg, caminho)
+        if conteudo is None:
+            continue
+        texto = conteudo.rstrip()
+        if not texto or texto.startswith("[SILENT]"):
+            continue
+        estat["arquivos"].append(caminho)
+        estat["digests"] += 1
+        ano, mes, d = (int(p) for p in dia.split("-"))
+        por_id[f"digest-{dia}"] = {
+            "alert_id": f"digest-{dia}",
+            "text": texto,
+            "priority": "DIGEST",
+            "revision_type": "DIGEST",
+            "parent_alert_id": None,
+            "story_id": None,
+            "recorded_at": datetime(ano, mes, d, 7, 0, tzinfo=TZ),
+            "source_url": None,
+            "origem": caminho,
+        }
 
     for caminho in caminhos_da_janela(cfg):
         conteudo = le_arquivo_do_estado(cfg, caminho)

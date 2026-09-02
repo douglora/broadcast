@@ -190,6 +190,36 @@ def teste_parser() -> None:
     checa(estat["segurados"] >= 1, "alerta em hold e contado como segurado, nao enviado")
     checa(estat["invalidas"] >= 2, "linha quebrada e alerta sem texto sao descartados")
 
+    # Digest matinal: vem de outputs/digest/<dia>.md, entra na fila como item
+    # proprio, dedup por dia, e o .longo.md (camada privada) nunca entra.
+    digest = "*Digest 01/09*\n\n*O que mudou*\nlinha 1\n\n"
+    lidos = []
+
+    def falso(c, caminho):
+        lidos.append(caminho)
+        if caminho.endswith(".jsonl"):
+            return conteudo
+        if caminho.endswith(".md") and "digest" in caminho and ".longo" not in caminho:
+            return digest
+        return None
+
+    bridge.le_arquivo_do_estado = falso
+    try:
+        com_digest, estat2 = bridge.coleta_aprovados(cfg)
+    finally:
+        bridge.le_arquivo_do_estado = original
+    digests = [i for i in com_digest if i["revision_type"] == "DIGEST"]
+    checa(len(digests) >= 1 and estat2["digests"] == len(digests),
+          f"digest matinal entra na fila como item proprio ({len(digests)} na janela)")
+    checa(all(i["alert_id"].startswith("digest-") for i in digests),
+          "digest tem id proprio por dia (dedup)")
+    checa(all(i["text"] == digest.rstrip() for i in digests),
+          "texto do digest sai igual ao arquivo, so sem quebras finais")
+    checa(not any(".longo" in c for c in lidos),
+          "o .longo.md (camada privada) nunca e lido para o grupo")
+    checa(all(not i["text"].startswith("[SILENT]") for i in com_digest),
+          "digest [SILENT] nao vira mensagem")
+
 
 def teste_mascara() -> None:
     print("\n[segredos]")
