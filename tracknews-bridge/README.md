@@ -148,7 +148,9 @@ limites.
                     `systemctl --user restart hermes-gateway.service`)
   cutucar-nuvem.py  se o agendador do GitHub pulou o ciclo da nuvem, dispara o
                     workflow com a credencial do git da própria ponte (dia útil,
-                    9h-18h, nunca empilha, no máximo 1 disparo a cada 20 min)
+                    9h-18h, nunca empilha, no máximo 1 disparo a cada 20 min);
+                    pede o digest (7h20) e o fechamento 18h (18h10) se não saíram
+  outputs/fechamento/<dia>.md  Fechamento livro 18h: entra na fila como o digest
   heartbeat.sh      estado sem segredos no branch tracknews-heartbeat do repo privado
   atualizar.log     o que atualizar.sh, o patch e o cutucar fizeram
 ~/.config/tracknews-bridge/.env   600. chave do WAHA, se o seu exigir

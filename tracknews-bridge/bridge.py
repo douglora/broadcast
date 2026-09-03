@@ -278,7 +278,8 @@ def coleta_aprovados(cfg: dict) -> tuple[list[dict], dict]:
     So a segunda forma, e so com gate.allowed == true, pode virar mensagem.
     """
     estat = {"linhas": 0, "com_alerta": 0, "aprovados": 0, "segurados": 0,
-             "bloqueados": 0, "arquivos": [], "invalidas": 0, "digests": 0}
+             "bloqueados": 0, "arquivos": [], "invalidas": 0, "digests": 0,
+             "fechamentos": 0}
     por_id: dict[str, dict] = {}
 
     # Digest matinal (07:00, dias uteis): a nuvem grava em outputs/digest/<dia>.md,
@@ -306,6 +307,33 @@ def coleta_aprovados(cfg: dict) -> tuple[list[dict], dict]:
             "parent_alert_id": None,
             "story_id": None,
             "recorded_at": datetime(ano, mes, d, 7, 0, tzinfo=TZ),
+            "source_url": None,
+            "origem": caminho,
+        }
+
+    # Fechamento livro 18h BRT (dias uteis): a nuvem grava em outputs/fechamento/<dia>.md
+    # (skills/livro-monitorado, secao 6A). Mesma fila, mesmo dedup por dia, mesmos limites;
+    # o texto sai igual ao arquivo, byte a byte.
+    for i in range(max(1, int(cfg["repo"]["dias_janela"]))):
+        dia = (hoje_utc - timedelta(days=i)).isoformat()
+        caminho = f"outputs/fechamento/{dia}.md"
+        conteudo = le_arquivo_do_estado(cfg, caminho)
+        if conteudo is None:
+            continue
+        texto = conteudo.rstrip()
+        if not texto or texto.startswith("[SILENT]"):
+            continue
+        estat["arquivos"].append(caminho)
+        estat["fechamentos"] += 1
+        ano, mes, d = (int(p) for p in dia.split("-"))
+        por_id[f"fechamento-{dia}"] = {
+            "alert_id": f"fechamento-{dia}",
+            "text": texto,
+            "priority": "DIGEST",
+            "revision_type": "FECHAMENTO",
+            "parent_alert_id": None,
+            "story_id": None,
+            "recorded_at": datetime(ano, mes, d, 18, 0, tzinfo=TZ),
             "source_url": None,
             "origem": caminho,
         }
@@ -1081,7 +1109,8 @@ def cmd_armar(cfg: dict, args) -> int:
     except subprocess.CalledProcessError as erro:
         print(f"armar: repo de estado indisponivel: {erro.stderr.strip()[:200]}")
         return 1
-    fila = [i for i in ordena_fila(aprovados) if i["revision_type"] != "DIGEST"]
+    fila = [i for i in ordena_fila(aprovados)
+            if i["revision_type"] not in ("DIGEST", "FECHAMENTO")]
     if not fila:
         print("armar: nenhum alerta aprovado na janela; o teste sai com o primeiro real.")
         return 0

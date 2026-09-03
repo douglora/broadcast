@@ -193,6 +193,7 @@ def teste_parser() -> None:
     # Digest matinal: vem de outputs/digest/<dia>.md, entra na fila como item
     # proprio, dedup por dia, e o .longo.md (camada privada) nunca entra.
     digest = "*Digest 01/09*\n\n*O que mudou*\nlinha 1\n\n"
+    fechamento = "Fechamento livro · 01/09 · 18h BRT | Fonte: Yahoo Finance\n\nUCITS\nVWRA 1 | 1m +1,0%\n"
     lidos = []
 
     def falso(c, caminho):
@@ -201,6 +202,8 @@ def teste_parser() -> None:
             return conteudo
         if caminho.endswith(".md") and "digest" in caminho and ".longo" not in caminho:
             return digest
+        if caminho.endswith(".md") and "fechamento" in caminho:
+            return fechamento
         return None
 
     bridge.le_arquivo_do_estado = falso
@@ -219,6 +222,15 @@ def teste_parser() -> None:
           "o .longo.md (camada privada) nunca e lido para o grupo")
     checa(all(not i["text"].startswith("[SILENT]") for i in com_digest),
           "digest [SILENT] nao vira mensagem")
+    # Fechamento livro 18h: outputs/fechamento/<dia>.md entra como item proprio,
+    # id por dia, texto igual ao arquivo.
+    fechamentos = [i for i in com_digest if i["revision_type"] == "FECHAMENTO"]
+    checa(len(fechamentos) >= 1 and estat2["fechamentos"] == len(fechamentos),
+          f"fechamento 18h entra na fila como item proprio ({len(fechamentos)} na janela)")
+    checa(all(i["alert_id"].startswith("fechamento-") for i in fechamentos),
+          "fechamento tem id proprio por dia (dedup)")
+    checa(all(i["text"] == fechamento.rstrip() for i in fechamentos),
+          "texto do fechamento sai igual ao arquivo, so sem quebras finais")
 
 
 def teste_mascara() -> None:

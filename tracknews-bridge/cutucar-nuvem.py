@@ -189,13 +189,22 @@ def main() -> int:
         if ultimo_state is not None:
             ciclo_falta = (agora - ultimo_state).total_seconds() >= CICLO_VELHO
 
+    hoje = datetime.now(ZoneInfo("America/Sao_Paulo")).date().isoformat()
     digest_falta = False
     if quer_digest_check:
-        hoje = datetime.now(ZoneInfo("America/Sao_Paulo")).date().isoformat()
         status, _ = api(tok, "GET", f"/repos/{REPO}/contents/outputs/digest/{hoje}.md?ref=state")
         digest_falta = status == 404
 
-    if not (ciclo_falta or digest_falta):
+    # Fechamento livro 18h BRT (livro-monitorado §6A): cron da nuvem às 21:05 UTC; se às
+    # 21:10 UTC o arquivo do dia ainda não existe, pede UMA vez com fechamento=true.
+    fechamento_falta = False
+    if hhmm >= 2110:
+        status, _ = api(
+            tok, "GET", f"/repos/{REPO}/contents/outputs/fechamento/{hoje}.md?ref=state"
+        )
+        fechamento_falta = status == 404
+
+    if not (ciclo_falta or digest_falta or fechamento_falta):
         diag_limpa()
         return 0
 
@@ -207,18 +216,22 @@ def main() -> int:
     if any(run.get("status") != "completed" for run in dados.get("workflow_runs", [])):
         return 0
 
+    inputs = {
+        "digest": "true" if digest_falta else "false",
+        "fechamento": "true" if fechamento_falta else "false",
+    }
     status, _ = api(
         tok,
         "POST",
         f"/repos/{REPO}/actions/workflows/{WORKFLOW}/dispatches",
-        {"ref": "main", "inputs": {"digest": "true" if digest_falta else "false"}},
+        {"ref": "main", "inputs": inputs},
     )
     if status == 204:
         MARCA.write_text(f"{int(agora.timestamp())}\n", encoding="utf-8")
         diag_limpa()
         log(
-            f"workflow disparado via {fonte} "
-            f"(ciclo_falta={int(ciclo_falta)} digest={'true' if digest_falta else 'false'})"
+            f"workflow disparado via {fonte} (ciclo_falta={int(ciclo_falta)} "
+            f"digest={inputs['digest']} fechamento={inputs['fechamento']})"
         )
     else:
         diag(f"dispatch respondeu {status} (token sem escopo workflow?)")
