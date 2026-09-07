@@ -1,0 +1,9 @@
+# Dependencias do pacote quant (o terminal em app.py tem as suas em ../requirements.txt)
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14
+requests>=2.31
+bizdays>=1.0
+statsmodels>=0.14
+scipy>=1.11
+pytest>=7

@@ -7,3 +7,10 @@ __pycache__/
 
 # Copia local do Chart.js, baixada na primeira execucao
 vendor/
+
+# quant: dados brutos e banco derivado ficam fora do main (o CI publica no branch dados-quant)
+quant/dados_brutos/
+quant/banco/
+quant/saida/
+quant/universo_atual.txt
+.pytest_cache/
