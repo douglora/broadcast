@@ -18,10 +18,9 @@ Long/short beta-neutro com short em ações foi descartado para esta escala (ver
   t = 4,6, com anos de −32%/−36%). Size e iliquidez têm prêmio zero; valor é cíclico.
 - Qualquer backtest deste sistema com Sharpe > 1,0 após custos é bug até prova em contrário.
 
-O diagnóstico completo, as citações do podcast com Marcello Paixão (Bayes/AZ Quest), os
-custos, a estratégia e os critérios de kill estão no plano da sessão
-(`/root/.claude/plans/minha-ideia-e-fazer-imperative-beacon.md`) — copiar para `docs/` quando
-o repositório ganhar essa pasta.
+O diagnóstico completo — citações do podcast com Marcello Paixão (Bayes/AZ Quest),
+assimetrias reais vs mito, custos e impostos, estratégia recomendada, números esperados,
+riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md`](docs/diagnostico-e-plano.md).
 
 ## Estrutura
 
