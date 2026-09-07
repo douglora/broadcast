@@ -37,7 +37,17 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `dados/cdi.py` | **M6** CDI diário (SGS 12) com fallback NEFIN | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
 | `universo.py` | **M7** universo PIT mensal (uma classe por empresa, ADTV, presença, preço) | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
 | `validacao/replica_nefin.py` | gate da fase 1: réplica WML/HML do NEFIN (corr ≥ 0,90, ±3 p.p.) | pronto; testado com fixtures; **ainda não rodado com COTAHIST real** (precisa de rede) |
-| `sinais.py`, `custos.py`, `carteira.py`, `backtest.py`, `fiscal.py`, `execucao/`, `relatorio.py` | M8–M15 | fase 2+ |
+| `dados/setores.py` | macrossetor por CNPJ (SETOR_ATIV da CVM + `setores_curados.csv`); destrava o teto de 25% e a marcação de financeiras | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `dados/capital_social.py` | ações em circulação (FCA) com reserva por LPA; é o que dá valor de mercado ao sinal de valor | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `dados/painel_fundamentos.py` | painel PIT de TTM e métricas por data de decisão; equivalente a `ttm()` e ~200x mais rápido | pronto; equivalência com `ttm()` provada em teste |
+| `dados/mercado.py` | excesso do mercado, nível do índice e beta móvel para o hedge de WIN | pronto; **nível âncora do Ibovespa a conferir** |
+| `sinais.py` | **M8** os 8 sinais, portões, exclusões e o score 0,50/0,25/0,25 | pronto; teste de look-ahead por sinal |
+| `custos.py` | **M9** emolumentos, meio-spread por faixa de ADTV, impacto, WIN, JCP, aluguel e modo 2× | pronto; parâmetros são ESTIMATIVA (validar no paper trading) |
+| `carteira.py` | **M10** seleção com histerese, pesos 1/vol com cap e piso, hedge e regra incremental | pronto; ver os dois ACHADOS no docstring |
+| `livro.py` | livro de tentativas encadeado por hash, lacre do holdout e Sharpe deflacionado | pronto, testado |
+| `backtest.py` | **M11** laço mensal, atribuição NEFIN, comparações pré-registradas e veredito | pronto; **nunca rodado com dado real** |
+| `validacao/mercado_sintetico.py` | mercado artificial nos esquemas reais, com gabarito e interruptor de look-ahead | pronto, testado |
+| `fiscal.py`, `execucao/`, `relatorio.py` | M12–M15 | fase 3 |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
 
 Dados brutos ficam em `quant/dados_brutos/<fonte>/<data>/` (gzip) e derivados em
@@ -58,7 +68,14 @@ python3 -m quant.dados.identidade                   # FCA + cadastro CVM → ban
 python3 -m quant.dados.eventos                      # proventos B3 + StatusInvest + curadoria → banco/eventos.parquet
 python3 -m quant.dados.cvm_fundamentos --anos 2010-2026   # DFP/ITR → banco/fundamentos_pit/
 python3 -m quant.dados.cdi                          # CDI diário (SGS 12) → dados_brutos/bcb/
+python3 -m quant.dados.setores                      # macrossetor por CNPJ
+python3 -m quant.dados.capital_social --anos 2010-2026     # acoes em circulacao (FCA)
+python3 -m quant.dados.painel_fundamentos --anos 2010-2026 # painel PIT de TTM e metricas
 python3 -m quant.validacao.replica_nefin --ini 2008 --fim 2026   # gate da fase 1 (precisa do COTAHIST)
+python3 -m quant.sinais --ini 2011 --fim 2026       # painel mensal de sinais
+python3 -m quant.backtest --janela treino           # 2011-2015, quantas vezes quiser
+python3 -m quant.backtest --janela holdout --abrir-holdout   # UMA vez; depois lacra
+python3 -m quant.livro --verificar                  # a cadeia do livro de tentativas
 ```
 
 Ordem da primeira carga com rede: `cotahist` → `nefin` → `identidade` → `eventos` →
@@ -89,3 +106,12 @@ fazer em [docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md).
   WML/HML do NEFIN. 111 testes. Só o NEFIN foi validado ao vivo; os demais parsers
   esperam a primeira rodada com rede (ver `docs/validar-com-fonte-real.md`). O gate
   ainda não foi executado com COTAHIST real.
+- 2026-09-07 — Fase 2 completa em código: sinais (M8), custos (M9), carteira (M10),
+  backtest (M11), livro de tentativas com lacre do holdout, painel de fundamentos
+  vetorizado, setor, capital social, mercado e o gerador de mercado sintético.
+  **Os números que este código produz hoje são sintéticos e não são resultado de
+  estratégia**: o banco está vazio e o gate da Fase 1 continua sem rodar. O que está
+  provado é a mecânica — identidade contábil ao centavo, ausência de look-ahead por
+  sinal, e o controle nulo (sem prêmio plantado, o motor não fabrica alfa). Três leituras
+  do plano aprovado tiveram de ser corrigidas para funcionar; estão listadas em
+  `docs/validar-com-fonte-real.md`.

@@ -1,0 +1,12 @@
+{
+  "periodo": [
+    "2016-01-01",
+    "2026-06-30"
+  ],
+  "aberto_em": null,
+  "aberto_por": null,
+  "id_tentativa": null,
+  "hash_config": null,
+  "resultados": null,
+  "nota": "Abrir UMA vez. Reabrir exige editar este arquivo a mao, e o diff fica no git."
+}

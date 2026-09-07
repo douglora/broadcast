@@ -13,4 +13,5 @@ quant/dados_brutos/
 quant/banco/
 quant/saida/
 quant/universo_atual.txt
+quant/banco_sintetico/
 .pytest_cache/

@@ -34,8 +34,8 @@ Armadilhas:
   - classificacao interna (classificar_papel) e uma heuristica por sufixo/ISIN/CODBDI.
     Se identidade.py estiver disponivel, passe `classificar=identidade.classificar_papel`
     ou um dicionario {ticker: tipo} - a assinatura e a mesma;
-  - setor NAO e calculado aqui: setores() e um placeholder documentado (o setor vem do
-    cadastro CVM SETOR_ATIV ou do segmento das carteiras de indice da B3).
+  - setor NAO e derivado de precos: setores() so aplica um mapa {empresa -> setor} montado
+    por quem tem o cadastro (quant/dados/setores.py, chave CNPJ). Sem mapa, a coluna e None.
 
 Saida: universo_pit(data, ticker, isin, empresa, adtv21, presenca, preco, n_pregoes),
 uma linha por (data, ticker) aprovado; contagem_mensal() publica o tamanho por mes.
@@ -267,18 +267,30 @@ def contagem_mensal(universo):
 
 
 def setores(universo, mapa=None):
-    """PLACEHOLDER: acrescenta a coluna `setor` ao universo.
+    """Acrescenta a coluna `setor` ao universo a partir de um `mapa` ja montado.
 
-    O setor NAO e derivado de precos. As fontes sao (a) SETOR_ATIV do cadastro CVM
-    (cad_cia_aberta.csv, chave CNPJ; ver identidade.py) ou (b) o segmento das carteiras de
-    indice da B3 (arquivar_b3.py, chave ticker). Esta funcao so aplica um `mapa`
-    {empresa_ou_ticker: setor} ja montado por quem tem esses dados; sem mapa, setor = None.
-    Nada de rede aqui.
+    O setor NAO e derivado de precos nem baixado aqui (nada de rede): o mapa
+    {empresa -> setor} sai de quant/dados/setores.py (SETOR_ATIV do cadastro CVM mais a
+    curadoria de setores_curados.csv, chave CNPJ) ou do segmento das carteiras de indice da
+    B3 (arquivar_b3.py, chave ticker).
+
+    A busca e pela coluna `empresa` - que e o CNPJ quando universo_pit recebeu a identidade e
+    ticker[:4] quando nao recebeu - e cai no ticker se a empresa nao estiver no mapa (para
+    aceitar mapas com chave de ticker). Chave ausente vira None, que e diferente de 'outros':
+    None e "nao sabemos o setor", 'outros' e "a CVM classificou e a classificacao e inutil".
+    Sem mapa, a coluna inteira e None. Universo vazio devolve o esquema com a coluna.
     """
+    if universo is None or len(universo) == 0:
+        vazio = pd.DataFrame(columns=COLUNAS) if universo is None else universo.copy()
+        vazio["setor"] = None
+        return vazio
     out = universo.copy()
     if mapa is None:
         out["setor"] = None
         return out
-    m = {str(k).upper(): v for k, v in mapa.items()}
-    out["setor"] = [m.get(str(e).upper(), m.get(str(t).upper())) for e, t in zip(out["empresa"], out["ticker"])]
+    m = {str(k).strip().upper(): v for k, v in mapa.items()}
+    empresas = out["empresa"] if "empresa" in out.columns else pd.Series([None] * len(out), index=out.index)
+    tickers = out["ticker"] if "ticker" in out.columns else pd.Series([None] * len(out), index=out.index)
+    out["setor"] = [m.get(str(e).strip().upper(), m.get(str(t).strip().upper()))
+                    for e, t in zip(empresas, tickers)]
     return out

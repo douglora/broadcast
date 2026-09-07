@@ -36,8 +36,10 @@ Armadilhas:
     amostra (senao e um papel morto, com data_fim = ultima cotacao).
 
 Saida: quant/banco/identidade.parquet com as colunas
-  ticker, isin, cnpj, cd_cvm, denominacao, mercado, data_ini, data_fim, fonte
-(data_fim NaT = vigente). Uso: python -m quant.dados.identidade --anos 2010-2026
+  ticker, isin, cnpj, cd_cvm, denominacao, setor, mercado, data_ini, data_fim, fonte
+(data_fim NaT = vigente; `setor` e o SETOR_ATIV cru do cadastro - texto livre e grosseiro
+da CVM, "" quando o CNPJ nao esta no cadastro; a taxonomia fechada sai de
+quant/dados/setores.py). Uso: python -m quant.dados.identidade --anos 2010-2026
 """
 import argparse
 import io
@@ -60,7 +62,7 @@ ARQ_PARQUET = os.path.join(DIR_BANCO, "identidade.parquet")
 DIR_FCA = os.path.join(DIR_BRUTOS, "cvm_fca")
 DIR_CAD = os.path.join(DIR_BRUTOS, "cvm_cad")
 
-COLUNAS = ["ticker", "isin", "cnpj", "cd_cvm", "denominacao", "mercado", "data_ini", "data_fim", "fonte"]
+COLUNAS = ["ticker", "isin", "cnpj", "cd_cvm", "denominacao", "setor", "mercado", "data_ini", "data_fim", "fonte"]
 DIAS_ABERTO = 45          # ultimo trecho do COTAHIST e "vigente" se cotou ha menos de 45 dias do fim da amostra
 FCA_ANO_INICIAL = 2010    # o FCA substituiu o IAN a partir de 2010
 
@@ -362,7 +364,7 @@ def _intersecao(a_ini, a_fim, b_ini, b_fim):
 
 
 def montar_identidade(df_fca, df_cad, df_cotahist=None, overrides=OVERRIDES):
-    """Junta FCA (ticker x cnpj x vigencia), cadastro (cnpj -> cd_cvm/denominacao) e, se
+    """Junta FCA (ticker x cnpj x vigencia), cadastro (cnpj -> cd_cvm/denominacao/setor) e, se
     houver, o COTAHIST (ticker -> ISIN por vigencia). Devolve a tabela `identidade`.
 
     fonte: 'fca+cotahist' (ticker casou nas duas), 'fca' (sem ISIN na amostra de precos),
@@ -405,12 +407,15 @@ def montar_identidade(df_fca, df_cad, df_cotahist=None, overrides=OVERRIDES):
         return _vazia()
     ident = pd.DataFrame(linhas)
     # cadastro
-    cad = df_cad[["cnpj", "cd_cvm", "denominacao"]].drop_duplicates("cnpj") if df_cad is not None and len(df_cad) \
-        else pd.DataFrame(columns=["cnpj", "cd_cvm", "denominacao"])
+    cols_cad = ["cnpj", "cd_cvm", "denominacao", "setor"]
+    # reindex (e nao df_cad[cols]) porque um cadastro antigo pode nao trazer `setor`: coluna ausente vira NaN
+    cad = df_cad.reindex(columns=cols_cad).drop_duplicates("cnpj") if df_cad is not None and len(df_cad) \
+        else pd.DataFrame(columns=cols_cad)
     ident = ident.merge(cad, on="cnpj", how="left")
     ident["cnpj"] = ident["cnpj"].fillna("").astype(str)
     ident["cd_cvm"] = pd.to_numeric(ident["cd_cvm"], errors="coerce").astype("Int64")
     ident["denominacao"] = ident["denominacao"].fillna("").astype(str)
+    ident["setor"] = ident["setor"].fillna("").astype(str)
     ident["data_ini"] = pd.to_datetime(ident["data_ini"])
     ident["data_fim"] = pd.to_datetime(ident["data_fim"])
     ident = aplicar_overrides(ident, overrides)
@@ -454,7 +459,7 @@ def resolver(identidade, ticker, data):
     r = d.iloc[-1]
     out = {}
     for c in COLUNAS:
-        v = r[c]
+        v = r[c] if c in r else None      # parquet gravado por uma versao anterior pode nao ter a coluna
         if c in ("data_ini", "data_fim"):
             out[c] = None if pd.isna(v) else pd.Timestamp(v).date()
         elif c == "cd_cvm":

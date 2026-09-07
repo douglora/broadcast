@@ -110,3 +110,87 @@ Cada item abaixo é uma suposição sobre a fonte real. Rode os comandos indicad
 - HML: precisa de book_equity (PL de dezembro por ticker) vindo de cvm_fundamentos.py (M5) e de acoes em circulacao (FCA/DFP) para o valor de mercado; ainda nao existe integracao - replicar_hml devolve None sem esses dados.
 - universo.setores() e placeholder: ligar ao SETOR_ATIV do cadastro CVM (identidade.py) ou ao segmento das carteiras B3 (arquivar_b3.py) quando M3 estiver pronto; e trocar a chave ticker[:4] por identidade.empresa_de (CNPJ) no uso real.
 - README: atualizar as linhas de cdi.py, universo.py e validacao/replica_nefin.py de 'em construcao' para 'pronto; testado com fixtures; gate pendente de COTAHIST' (nao editei o README por estar fora dos meus arquivos).
+
+---
+
+## Fase 2 — sinais, custos, carteira e backtest (M8–M11)
+
+Escrita inteira sem acesso a B3, CVM, StatusInvest, BCB ou Yahoo. Todo número produzido
+nesta fase saiu do mercado sintético de `validacao/mercado_sintetico.py`, cuja estrutura de
+fatores é o **mesmo modelo** que os sinais assumem: recuperar o que foi plantado prova
+encanamento, não vantagem. **Nenhum número da Fase 2 é resultado de estratégia.**
+
+### Suposições do implementador
+
+- **`capital_social.py` é a suposição maior desta fase.** O nome do CSV dentro do zip do FCA
+  (`fca_cia_aberta_capital_social_{ano}.csv`) e suas colunas foram escritos a partir da
+  documentação, sem ver o arquivo. Se divergirem, o módulo devolve vazio e o sinal de valor
+  se desliga sozinho, o que é o comportamento seguro, mas significa perder 25% do score.
+- O capital usado é o **integralizado**, com subscrito e emitido como alternativas nessa
+  ordem. O autorizado nunca entra (é teto estatutário, não ação emitida).
+- `DIAS_ATRASO = 150` sobre a data de referência é o carimbo point-in-time estimado do FCA.
+  É conservador, mas se for curto demais há look-ahead no sinal de valor.
+- Valor de mercado = quantidade **total** de ações × preço da **única** classe que o
+  universo manteve. Quando ON e PN divergem de preço, isso erra por essa diferença.
+- `setores_curados.csv` tem cinco CNPJs escritos de memória. CNPJ errado falha em silêncio
+  (o override simplesmente nunca casa).
+- O `SETOR_ATIV` do cadastro da CVM **não é point-in-time**: é um retrato de hoje aplicado a
+  todo o histórico. Aceitável para um teto de concentração; proibido se setor entrar no
+  ranking algum dia.
+- `mercado.NIVEL_ANCORA` (fechamento do Ibovespa em 30/12/2021) foi escrito de memória. Ele
+  escala o nocional inteiro do hedge: errar é viés sistemático, não ruído.
+- O nível do índice composto a partir do fator de mercado do NEFIN **não** segue a trajetória
+  do Ibovespa (a carteira teórica é outra). Para o nocional, o certo é usar fechamentos reais
+  do índice.
+- `calendario.vencimento_indice` assume "quarta-feira mais próxima do dia 15 dos meses
+  pares", recuando para o pregão anterior em feriado.
+- As faixas de meio-spread (25/40/80 bps) e o modelo de impacto são **estimativa**, e o
+  custo tem a mesma ordem de grandeza do alfa esperado. O modo 2× é um chute sobre um chute.
+
+### Achados que mudaram o desenho aprovado
+
+1. **A regra de "3× custo" da seção 7 é matematicamente vazia.** O custo é uma fração do
+   valor negociado, então `valor > 3 × custo` equivale a `1 > 3c`, sempre verdadeiro. Ficou
+   implementada como escrita, com teste que prova a vacuidade, e foi acrescentado um piso
+   absoluto de R$500 por ordem — que **não** estava no plano.
+2. **O teto de 12 meses de holding não pode forçar venda.** A leitura literal esvazia a
+   carteira inteira no mês em que vários nomes completam 12 meses e recompra tudo no mês
+   seguinte. Passou a **revogar a histerese**: o nome volta a disputar vaga por rank e, se
+   continua no topo, não há trade nenhum.
+3. **O holdout não pode ser avaliado sem ser aberto**, porque três dos quatro subperíodos
+   estão dentro dele. "Abrir uma vez" virou uma chamada atômica que calcula tudo e lacra.
+4. **O piso de 3% por nome quase anula o peso 1/vol.** Com 22 nomes e exposição de 70%,
+   sobram 4 pontos percentuais para distribuir; `carteira.diagnostico` mede a fração presa
+   no piso para o relatório poder dizer se o sinal de baixo risco faz algo.
+5. **Um controle nulo de duas caudas sobre a série líquida reprova um motor que funciona.**
+   Custo é dreno determinístico: cobrar 2,5% ao ano para negociar ruído produz alfa negativo
+   com t grande, e isso é o resultado certo. O controle nulo passou a ser feito no bruto.
+
+### Riscos que restaram
+
+- Sem número de ações, o componente de valor se auto-desliga e o score vira 2/3 momento e
+  1/3 qualidade. `painel_fundamentos.cobertura` diz em que fração isso aconteceu; esse
+  número tem de aparecer no relatório antes de qualquer veredito.
+- O universo pode não ter 18 nomes depois dos portões em 2011–2013. O motor reporta
+  `n_efetivo` mês a mês; um backtest que segurou 11 nomes em 2012 não é a estratégia que se
+  pretende testar.
+- Aluguel (sinal 6) tem cobertura **zero** no backtest: a B3 guarda 21 pregões e o
+  arquivamento deste repositório começou agora. Não é "não testado", é **não testável**.
+- Insiders (sinal 7) é interface vazia: o VLMO começa em 2017 e o bônus exige free float,
+  que exige número de ações.
+- O provento entra reinvestido no próprio papel, quando na realidade cai no caixa e só é
+  reinvestido no rebalanceamento seguinte.
+- O backtest **nunca rodou com dado real** e o gate da Fase 1 continua sem rodar.
+
+### Pendências
+
+- Baixar o COTAHIST e rodar o gate da Fase 1 **antes** de olhar qualquer número da Fase 2.
+- Conferir o nome e as colunas do CSV de capital social dentro do zip do FCA; medir a
+  cobertura de ações no universo real e decidir se o sinal de valor entra.
+- Conferir a data de entrega real do FCA e calibrar `DIAS_ATRASO`.
+- Trocar `NIVEL_ANCORA` por uma série real de fechamentos do Ibovespa.
+- Conferir o calendário de vencimentos do índice contra a B3.
+- Medir slippage realizado no paper trading e comparar com as faixas de 25/40/80 bps; o
+  critério de pronto do M9 é ficar dentro de 1,5× do modelado.
+- Rodar `python -m quant.dados.setores` contra a identidade real e olhar o tamanho do balde
+  "outros"; cada holding relevante lá dentro é um teto de setor que não existe.
