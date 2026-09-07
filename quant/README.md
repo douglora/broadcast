@@ -31,12 +31,12 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `dados/arquivar_b3.py` | **M0** arquivador diário: aluguel (BDI), negócio a negócio → barras de 1 min, carteiras e prévias de índice, IPE com hora de captura | pronto; parsers testados com fixtures; rede só no CI |
 | `dados/cotahist.py` | **M2** COTAHIST anual/diário → parquet `banco/cotacoes_diarias/ano=AAAA/` | pronto; layout testado com fixture |
 | `dados/nefin.py` | **M6** fatores NEFIN fixados por hash + estatísticas | pronto, testado ao vivo |
-| `dados/identidade.py` | **M3** ticker ↔ ISIN ↔ CD_CVM point-in-time (FCA + cadastro + COTAHIST) | em construção |
-| `dados/eventos.py` | **M4** proventos/eventos (B3 + StatusInvest + curadoria) e retorno total forward | em construção |
-| `dados/cvm_fundamentos.py` | **M5** DFP/ITR point-in-time por `DT_RECEB`, TTM e métricas | em construção |
-| `dados/cdi.py` | **M6** CDI diário (SGS 12) com fallback NEFIN | em construção |
-| `universo.py` | **M7** universo PIT mensal (uma classe por empresa, ADTV, presença, preço) | em construção |
-| `validacao/replica_nefin.py` | gate da fase 1: réplica WML/HML do NEFIN (corr ≥ 0,90, ±3 p.p.) | em construção |
+| `dados/identidade.py` | **M3** ticker ↔ ISIN ↔ CD_CVM point-in-time (FCA + cadastro + COTAHIST) | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `dados/eventos.py` | **M4** proventos/eventos (B3 + StatusInvest + curadoria) e retorno total forward | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `dados/cvm_fundamentos.py` | **M5** DFP/ITR point-in-time por `DT_RECEB`, TTM e métricas (mapa de contas em `dados/contas_cvm.py`) | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `dados/cdi.py` | **M6** CDI diário (SGS 12) com fallback NEFIN | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `universo.py` | **M7** universo PIT mensal (uma classe por empresa, ADTV, presença, preço) | pronto; testado com fixtures; validar formato real ([docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md)) |
+| `validacao/replica_nefin.py` | gate da fase 1: réplica WML/HML do NEFIN (corr ≥ 0,90, ±3 p.p.) | pronto; testado com fixtures; **ainda não rodado com COTAHIST real** (precisa de rede) |
 | `sinais.py`, `custos.py`, `carteira.py`, `backtest.py`, `fiscal.py`, `execucao/`, `relatorio.py` | M8–M15 | fase 2+ |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
 
@@ -54,7 +54,21 @@ python3 -m quant.dados.arquivar_b3                  # arquiva o último pregão 
 python3 -m quant.dados.arquivar_b3 --data 2026-09-04 --fontes bdi,indices
 python3 -m quant.dados.cotahist --anos 2005-2026    # baixa e converte o COTAHIST
 python3 -c "from quant.dados import nefin; nefin.baixar('fatores'); nefin.baixar('aluguel_taxa')"
+python3 -m quant.dados.identidade                   # FCA + cadastro CVM → banco/identidade.parquet
+python3 -m quant.dados.eventos                      # proventos B3 + StatusInvest + curadoria → banco/eventos.parquet
+python3 -m quant.dados.cvm_fundamentos --anos 2010-2026   # DFP/ITR → banco/fundamentos_pit/
+python3 -m quant.dados.cdi                          # CDI diário (SGS 12) → dados_brutos/bcb/
+python3 -m quant.validacao.replica_nefin --ini 2008 --fim 2026   # gate da fase 1 (precisa do COTAHIST)
 ```
+
+Ordem da primeira carga com rede: `cotahist` → `nefin` → `identidade` → `eventos` →
+`cvm_fundamentos` → `cdi` → `replica_nefin`. O gate imprime correlação e diferença
+média anual da réplica WML/HML contra o NEFIN e sai com código 1 se falhar; nada
+da fase 2 deve ser construído sobre dados que não passaram por ele.
+
+Tudo que só pôde ser testado com fixtures (formatos reais da B3, CVM, StatusInvest e
+BCB não eram alcançáveis no ambiente de desenvolvimento) está listado com o teste a
+fazer em [docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md).
 
 ## Regras que o código respeita (e que os testes cobram)
 
@@ -70,3 +84,8 @@ python3 -c "from quant.dados import nefin; nefin.baixar('fatores'); nefin.baixar
 
 - 2026-09-07 — v0.1.0: Fase 0 (calendário, arquivador, workflow de coleta) e início da
   Fase 1 (COTAHIST, NEFIN). Nenhum sinal ou backtest ainda.
+- 2026-09-07 — Fase 1 completa em código: identidade PIT (M3), eventos e retorno total
+  (M4), fundamentos CVM PIT (M5), CDI (M6), universo PIT (M7) e o gate de réplica
+  WML/HML do NEFIN. 111 testes. Só o NEFIN foi validado ao vivo; os demais parsers
+  esperam a primeira rodada com rede (ver `docs/validar-com-fonte-real.md`). O gate
+  ainda não foi executado com COTAHIST real.
