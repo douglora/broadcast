@@ -164,3 +164,34 @@ def test_grava_o_relatorio(tmp_path):
 def test_main_sem_painel_devolve_dois(monkeypatch, tmp_path):
     monkeypatch.setattr(rel, "DIR_SAIDA", str(tmp_path))
     assert rel.main(["--periodo", "mensal"]) == 2
+
+
+# ─────────────────────────────────────────────────────────────
+# Formatacao: nem todo criterio e percentual
+# ─────────────────────────────────────────────────────────────
+def test_formato_por_criterio_evita_universo_virar_percentual():
+    """33 nomes formatados como % viram '3.300%'. Cada criterio carrega o proprio formato."""
+    k = {x["criterio"]: x for x in rel.criterios_kill({"universo": 33, "slippage": 1.8,
+                                                       "drawdown": 0.12, "erros": 1})}
+    assert k["universo"]["formato"] == "num" and k["drawdown"]["formato"] == "pct"
+    assert k["slippage"]["formato"] == "x"
+    assert rel.formatar_kill(k["universo"]["valor"], "num") == "33"
+    assert rel.formatar_kill(k["drawdown"]["valor"], "pct") == "12.0%"
+    assert rel.formatar_kill(k["slippage"]["valor"], "x") == "1.80x"
+
+
+def test_todo_criterio_declara_um_formato_valido():
+    for x in rel.criterios_kill({}):
+        assert x["formato"] in ("pct", "x", "num"), x["criterio"]
+
+
+def test_formatar_kill_trata_ausente_e_nan():
+    assert rel.formatar_kill(None) == "--"
+    assert rel.formatar_kill(float("nan"), "pct") == "--"
+    assert rel.formatar_kill(2.0, "num") == "2"
+
+
+def test_relatorio_mostra_universo_como_contagem():
+    ruim = dict(PAINEL, kill=rel.criterios_kill({"universo": 33}))
+    t = rel.montar(ruim)
+    assert "| 33 | 100 |" in t and "3300" not in t

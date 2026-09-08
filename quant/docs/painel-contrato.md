@@ -99,7 +99,7 @@ Regras que valem para o arquivo inteiro:
 
   "kill": [
     {"criterio": "drawdown", "rotulo": "Drawdown do pico",
-     "valor": 0.031, "gatilho": 0.20, "status": "ok",
+     "valor": 0.031, "gatilho": 0.20, "status": "ok", "formato": "pct",
      "descricao": "20% reduz o gross pela metade; 30% encerra"}
   ]
 }
@@ -113,6 +113,9 @@ Regras que valem para o arquivo inteiro:
   letras, que nenhum número ali é resultado de estratégia.
 - `gate_fase1.passou` false ⇒ faixa de aviso no topo, sempre.
 - `kill[].status` ∈ `"ok"` | `"atencao"` | `"disparado"`. Verde, amarelo, vermelho.
+- `kill[].formato` ∈ `"pct"` | `"x"` | `"num"` diz **como formatar** aquele critério. Não é
+  decoração: sem ele o front formata tudo como porcentagem e um universo de 33 nomes aparece
+  como "3.300%" — foi o que aconteceu na primeira versão do painel.
 - Toda lista pode vir vazia. Todo campo numérico pode vir `null`. O front nunca deve assumir
   presença: o arquivo pode ter sido gerado antes de existir carteira, fill ou histórico.
 

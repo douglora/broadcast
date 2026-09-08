@@ -34,25 +34,33 @@ from quant.comum import DIR_SAIDA, garantir_dir, log
 # `atencao` e onde o relatorio comeca a avisar.
 CRITERIOS = {
     "drawdown": {"rotulo": "Drawdown do pico", "gatilho": 0.30, "atencao": 0.20,
+                 "formato": "pct",
                  "descricao": "20% reduz o gross pela metade e obriga revisao; 30% encerra"},
     "excesso_12m": {"rotulo": "Excesso sobre o CDI em 12 meses", "gatilho": -0.10,
+                    "formato": "pct",
                     "atencao": -0.05, "sentido": "menor",
                     "descricao": "abaixo de -10 p.p. com alfa NEFIN negativo, para"},
     "slippage": {"rotulo": "Slippage contra o modelado", "gatilho": 2.0, "atencao": 1.5,
+                 "formato": "x",
                  "descricao": "acima de 2x por 3 meses seguidos, suspende"},
     "giro": {"rotulo": "Giro mensal", "gatilho": 0.35, "atencao": 0.25,
+             "formato": "pct",
              "descricao": "acima de 35% ao mes por 3 meses seguidos, suspende"},
     "excesso_24m": {"rotulo": "Excesso liquido de IR sobre a Selic em 24 meses",
                     "gatilho": 0.0, "atencao": 0.005, "sentido": "menor",
+                    "formato": "pct",
                     "descricao": "24 meses sem ganhar da Selic liquida encerra; e decisao "
                                  "economica, nao estatistica"},
     "erros": {"rotulo": "Erros de execucao no mes", "gatilho": 2, "atencao": 1,
+              "formato": "num",
               "descricao": "2 ou mais execucoes erradas no mes, ou margem chamada sem "
                            "caixa, suspende"},
     "universo": {"rotulo": "Tamanho do universo", "gatilho": 100, "atencao": 120,
+                 "formato": "num",
                  "sentido": "menor",
                  "descricao": "universo abaixo de 100 nomes tira a premissa da estrategia"},
     "mudancas": {"rotulo": "Mudancas de parametro no ano", "gatilho": 2, "atencao": 2,
+                 "formato": "num",
                  "descricao": "no maximo 2 por ano, cada uma com backtest comparado e 3 "
                               "meses de paper em paralelo"},
 }
@@ -97,8 +105,24 @@ def criterios_kill(medidas):
             v = float(valor)
         saida.append({"criterio": chave, "rotulo": c["rotulo"], "valor": v,
                       "gatilho": float(c["gatilho"]), "status": status,
-                      "descricao": c["descricao"]})
+                      "formato": c.get("formato", "num"), "descricao": c["descricao"]})
     return saida
+
+
+def formatar_kill(valor, formato="num"):
+    """Nem todo criterio e percentual: universo e contagem de nomes, slippage e multiplo.
+
+    Formatar tudo como porcentagem faz um universo de 33 nomes aparecer como "3.300%" -
+    foi exatamente o que aconteceu na primeira versao do painel.
+    """
+    if valor is None or (isinstance(valor, float) and not np.isfinite(valor)):
+        return "--"
+    v = float(valor)
+    if formato == "pct":
+        return f"{100 * v:.1f}%"
+    if formato == "x":
+        return f"{v:.2f}x"
+    return f"{v:.0f}" if abs(v - round(v)) < 1e-9 else f"{v:.4g}"
 
 
 def algum_disparado(kill):
@@ -237,8 +261,8 @@ def montar(painel, periodo="mensal", medidas_kill=None):
           "| criterio | valor | gatilho | status |", "|---|---|---|---|"]
     for k in kill:
         marca = {"ok": "ok", "atencao": "ATENCAO", "disparado": "**DISPARADO**"}[k["status"]]
-        valor = "--" if k["valor"] is None else f"{k['valor']:.4g}"
-        L.append(f"| {k['rotulo']} | {valor} | {k['gatilho']:.4g} | {marca} |")
+        L.append(f"| {k['rotulo']} | {formatar_kill(k['valor'], k.get('formato'))} | "
+                 f"{formatar_kill(k['gatilho'], k.get('formato'))} | {marca} |")
     disparados = algum_disparado(kill)
     if disparados:
         L += ["", f"> **{len(disparados)} criterio(s) disparado(s): {', '.join(disparados)}.** "

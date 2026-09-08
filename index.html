@@ -2326,6 +2326,14 @@ const qpcs=(v,d=2)=>v==null?'--':(v>0?'+':'')+fmt(v*100,d)+'%';
 const qnum=(v,d=0)=>v==null?'--':fmt(v,d);
 function qAgo(iso){try{const t=new Date(iso).getTime();if(!isFinite(t))return '--';const s=(Date.now()-t)/1000;if(s<60)return 'agora';if(s<3600)return Math.round(s/60)+'min';if(s<86400)return Math.round(s/3600)+'h';return Math.round(s/86400)+'d';}catch(e){return '--';}}
 function qData(iso){return iso?String(iso).slice(0,10).split('-').reverse().join('/'):'--';}
+// Nem todo criterio de kill e percentual: universo e contagem, slippage e multiplo.
+// Formatar tudo como % fazia um universo de 33 nomes aparecer como "3.300%".
+function qKill(v,f){
+  if(v==null||!isFinite(v))return '--';
+  if(f==='pct')return (100*v).toFixed(1).replace('.',',')+'%';
+  if(f==='x')return v.toFixed(2).replace('.',',')+'x';
+  return Math.abs(v-Math.round(v))<1e-9?String(Math.round(v)):Number(v).toFixed(2).replace('.',',');
+}
 function qCorKill(s){return s==='disparado'?'var(--red)':s==='atencao'?'var(--yellow)':'var(--green)';}
 function qVazio(txt){return `<div class="empty">${txt}</div>`;}
 
@@ -2575,8 +2583,8 @@ function renderQuantDesempenho(){
     h+=`<table class="sptbl"><tr><th>Criterio</th><th style="text-align:right">Valor</th><th style="text-align:right">Gatilho</th><th>Status</th><th>O que acontece</th></tr>`;
     for(const k of kill){
       h+=`<tr><td style="font-weight:700">${k.rotulo||k.criterio||'--'}</td>`+
-         `<td style="text-align:right;font-weight:700">${qpc(k.valor,1)}</td>`+
-         `<td style="text-align:right" class="qsel">${qpc(k.gatilho,1)}</td>`+
+         `<td style="text-align:right;font-weight:700">${qKill(k.valor,k.formato)}</td>`+
+         `<td style="text-align:right" class="qsel">${qKill(k.gatilho,k.formato)}</td>`+
          `<td style="font-weight:700;color:${qCorKill(k.status)}"><span class="qlight" style="background:${qCorKill(k.status)};margin:0 5px 0 0"></span>${(k.status||'--').toUpperCase()}</td>`+
          `<td class="qsel">${k.descricao||''}</td></tr>`;
     }
