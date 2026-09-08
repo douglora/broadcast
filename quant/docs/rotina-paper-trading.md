@@ -113,6 +113,17 @@ viés tem de ser contra a estratégia.
 
 ---
 
+## Se der vontade de mexer num parâmetro
+
+Não mexa em silêncio. O caminho é `python3 -m quant.versoes --registrar`, e ele recusa a
+terceira mudança do ano, recusa versão sem backtest comparado, e faz a versão nova rodar
+3 meses de paper em paralelo antes de valer — enquanto isso, quem manda é a anterior.
+
+Mexer sem registrar não é bloqueado por ninguém, mas aparece: o painel mostra **MUDANÇA
+NÃO REGISTRADA** com a lista de campos, o relatório mensal repete, e a campanha reprova o
+critério de parâmetros intocados. Se a mudança valia a pena, registre; se não valia,
+desfaça. As duas coisas são aceitáveis — deixar assim não é.
+
 ## O que a Fase 4 não é
 
 Ela **não** testa se a estratégia ganha dinheiro. Isso é a Fase 2 (backtest), e continua

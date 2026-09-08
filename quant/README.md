@@ -54,6 +54,7 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `execucao/campanha.py` | **Fase 4** campanha de paper trading: sessão diária, diário de erros e os 9 critérios de passagem | pronto; só rodou como **ensaio** sobre o mercado sintético |
 | `rodar_diario.py` | **M14** orquestra a rodada e grava `saida/painel.json` | pronto, testado |
 | `relatorio.py` | **M14** relatório periódico e os sete critérios de encerramento | pronto, testado |
+| `versoes.py` | **M14** changelog de versões: 2 mudanças/ano, 3 meses de paper em paralelo, diff calculado e cadeia de hash | pronto, testado; o changelog começa vazio |
 | `docs/painel-contrato.md` | contrato do `painel.json` entre o `rodar_diario` e o terminal | — |
 | `docs/rotina-paper-trading.md` | a rotina de manhã, de fim de dia e de fim de mês da Fase 4 | — |
 | `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |
@@ -96,6 +97,11 @@ python3 -m quant.execucao.campanha --sessao         # registra o pregao de hoje 
 python3 -m quant.execucao.campanha --erro 2026-09-08 ordem_esquecida "esqueci a venda de ABCD3"
 python3 -m quant.execucao.campanha --conferir 2026-09   # assina o mes como conferido
 python3 -m quant.execucao.campanha --status         # placar dos 9 criterios da fase 4
+
+# changelog de versoes (criterio de kill 7: no maximo 2 mudancas por ano)
+python3 -m quant.versoes                            # imprime o changelog
+python3 -m quant.versoes --conferir                 # a config viva bate com a versao vigente?
+python3 -m quant.versoes --registrar "momentum 50->55" "pesquisa X" --backtest '{"sharpe_novo":0.32}'
 ```
 
 O painel do sistema quant fica no terminal, na coluna da direita, e abre em tela cheia com

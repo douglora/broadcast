@@ -61,6 +61,15 @@ def painel_exemplo():
             "criterios": [{"criterio": "execucao", "valor": 1.0, "gatilho": 0.6,
                            "formato": "pct", "status": "ok"}],
         },
+        "versao": {
+            "vigente": "v1", "descricao": "linha de base", "desde": "2026-01-05",
+            "em_paralelo": [{"id": "v2", "descricao": "momentum 50->55",
+                             "vale_a_partir_de": "2026-06-10"}],
+            "mudancas_no_ano": 1, "limite_ano": 2, "pode_mudar": True,
+            "motivo_bloqueio": None, "config_confere": False,
+            "divergencia": ["sinais.pct_momentum"], "aviso": None,
+            "cadeia_ok": True, "cadeia_quebra": None,
+        },
         "fiscal": {
             "mes": "2026-09", "vendas_acoes_mes": 12000.0, "isencao_restante": 8000.0,
             "isento": True, "lucro_comum": 1500.0, "lucro_day_trade": 0.0,
@@ -312,3 +321,12 @@ def test_boleta_carrega_o_placar_do_paper_junto(carregado):
     """A aba Boleta e onde o placar aparece: vai na mesma resposta para nao pedir duas."""
     d = corpo(carregado.get("/api/quant/boleta"))
     assert d["paper"]["origem"] == "ensaio"
+
+
+def test_rota_paper_traz_a_versao_vigente(carregado):
+    """A versao viaja junto do placar: as duas coisas respondem a mesma pergunta —
+    esta rodando o sistema que foi testado, ou outro?"""
+    d = corpo(carregado.get("/api/quant/paper"))
+    assert d["versao"]["vigente"] == "v1"
+    assert d["versao"]["config_confere"] is False
+    assert d["versao"]["em_paralelo"][0]["id"] == "v2"

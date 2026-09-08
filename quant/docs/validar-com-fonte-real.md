@@ -332,3 +332,32 @@ mais nada.
   as ordens são pequenas perto do caixa, mas num rebalanceamento grande a campanha
   compraria mais do que a corretora deixaria — a taxa de execução medida é otimista por
   esse lado. Corrigir exige carregar a fila de liquidação no estado.
+
+
+## Changelog de versões (`versoes.py`)
+
+O critério de kill 7 do plano — "máximo 2 mudanças de parâmetro por ano, cada uma com nova
+versão e 3 meses de paper em paralelo" — deixou de ser uma frase num documento e virou
+código que recusa. Não há nada aqui que dependa de dado real, mas há duas coisas que
+dependem de **você**:
+
+- **O changelog começa vazio, e isso está certo.** A linha de base (v1) só deve ser
+  registrada quando a Fase 2 tiver rodado com dado real e produzido um resultado — sem
+  isso, `--registrar` gravaria uma "aprovação" que nunca aconteceu. Enquanto não houver
+  v1, o painel diz "nenhuma versão registrada" em cinza, não em vermelho.
+- **O módulo não impede ninguém de editar `sinais.py` e rodar.** Nada impede. O que ele faz
+  é comparar o hash da configuração viva com o da versão vigente: divergiu, o painel mostra
+  MUDANÇA NÃO REGISTRADA com a lista de campos, e o relatório mensal repete. A disciplina
+  continua sendo sua; o que muda é que a falta dela deixa de ser invisível.
+
+### Limites conhecidos
+
+- **O hash só enxerga parâmetro nomeado** (o que está em `campanha.config_da_estrategia()`).
+  Mudança na lógica de `sinais.py` que não passe por uma constante não aparece no diff — o
+  changelog não substitui a disciplina de commit.
+- `quant/versoes.jsonl` é versionado no git de propósito: apagar uma versão para reescrever
+  a história deixa um diff. A cadeia de hash acusa linha editada ou removida, mas quem
+  reescrever o arquivo inteiro e recalcular a cadeia passa — o git é a segunda barreira.
+- O orçamento é por **ano-calendário**. Duas mudanças em dezembro e mais duas em janeiro
+  são quatro em dois meses, e a regra não vê isso. É uma folga conhecida; apertar exigiria
+  janela móvel de 12 meses, ao custo de o usuário nunca saber quando a próxima abre.

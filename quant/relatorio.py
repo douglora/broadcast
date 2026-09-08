@@ -272,6 +272,29 @@ def montar(painel, periodo="mensal", medidas_kill=None):
                   "A regra escrita antes do primeiro trade manda agir. Mudar o gatilho agora "
                   "e a forma mais comum de perder muito dinheiro devagar."]
 
+    v = p.get("versao") or {}
+    if v:
+        L += ["", "## Versao do sistema", ""]
+        if v.get("vigente"):
+            L.append(f"- Vigente: **{v['vigente']}** ({v.get('descricao') or 'sem descricao'}), "
+                     f"desde {v.get('desde') or '--'}")
+        else:
+            L.append("- **Nenhuma versao registrada.** Registre a linha de base antes da "
+                     "primeira mudanca: sem ela nao ha contra o que comparar "
+                     "(`python3 -m quant.versoes --registrar`).")
+        for x in v.get("em_paralelo") or []:
+            L.append(f"- Em paralelo: {x.get('id')} ({x.get('descricao')}), "
+                     f"vale a partir de {x.get('vale_a_partir_de')} — ate la quem manda e a anterior")
+        L.append(f"- Mudancas em {date.today().year}: {v.get('mudancas_no_ano', 0)} de "
+                 f"{v.get('limite_ano', 2)} do orcamento anual")
+        if v.get("vigente") and v.get("config_confere") is False:
+            L.append(f"- **MUDANCA NAO REGISTRADA** em {len(v.get('divergencia') or [])} "
+                     f"parametro(s): {', '.join((v.get('divergencia') or [])[:6]) or '--'}. "
+                     "Ou registre a versao, ou desfaca a mudanca — as duas coisas sao "
+                     "aceitaveis; deixar assim nao e.")
+        if v.get("cadeia_ok") is False:
+            L.append(f"- **A cadeia do changelog esta quebrada** na linha {v.get('cadeia_quebra')}.")
+
     L += ["", "## Limites conhecidos", "",
           "- Aluguel (sinal 6): **0 meses de cobertura**. A B3 guarda 21 pregoes e o "
           "arquivamento deste repositorio comecou agora; nao e 'nao testado', e nao testavel.",

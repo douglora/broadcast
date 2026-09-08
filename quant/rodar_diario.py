@@ -263,6 +263,24 @@ def bloco_paper(dados=None):
                 "avisos": [f"falha ao ler a campanha: {type(e).__name__}"]}
 
 
+def bloco_versao():
+    """Bloco `versao`: qual versao do sistema manda hoje e se o codigo bate com ela.
+
+    Sem changelog ainda, devolve o esqueleto dizendo que nao ha linha de base — que e o
+    estado normal de quem nao registrou a v1, e nao um erro.
+    """
+    try:
+        from quant import versoes as vr
+        return vr.resumo()
+    except Exception as e:                                   # o painel nunca cai por isso
+        log(f"changelog de versoes indisponivel ({type(e).__name__}: {e})")
+        return {"vigente": None, "descricao": None, "desde": None, "em_paralelo": [],
+                "mudancas_no_ano": 0, "limite_ano": 2, "pode_mudar": True,
+                "motivo_bloqueio": None, "config_confere": False, "divergencia": [],
+                "aviso": f"changelog indisponivel ({type(e).__name__})",
+                "cadeia_ok": True, "cadeia_quebra": None}
+
+
 def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, seguro):
     """Bloco `boleta`. Com modo seguro ativo nao existe boleta: `emitida=False` e lista vazia."""
     vazio = {"data": str(data), "id": pd.Timestamp(data).strftime("%Y%m%d"), "emitida": False,
@@ -379,6 +397,7 @@ def rodar(modo="paper", capital=CAPITAL_PADRAO, data=None, seed=7, gate_passou=N
         "carteira": bloco_carteira(estado, mes, precos, capital),
         "boleta": bloco_boleta(dados, estado, hoje, capital, fres, gate_passou, seguro),
         "paper": bloco_paper(dados),
+        "versao": bloco_versao(),
         "fiscal": bloco_fiscal(),
         "desempenho": desempenho,
         "kill": kill,

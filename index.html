@@ -2542,11 +2542,32 @@ function qPaperHTML(p){
   return h;
 }
 
+// ── versao do sistema (criterio de kill 7) ───────────────────
+// Mudanca de parametro sem versao registrada e o jeito mais silencioso de quebrar a
+// disciplina: por isso ela aparece em vermelho junto do placar, e nao escondida num log.
+function qVersaoHTML(v){
+  let h=`<div class="qsec">Versao do sistema</div>`;
+  if(!v||(!v.vigente&&!v.mudancas_no_ano))
+    return h+`<div class="qnote">Nenhuma versao registrada. Registre a linha de base antes da primeira mudanca — sem ela nao ha contra o que comparar: <code>python3 -m quant.versoes --registrar</code>.</div>`;
+  h+=`<div class="qnote">Vigente <b>${esc(v.vigente||'--')}</b>${v.descricao?' — '+esc(v.descricao):''}${v.desde?' · desde '+qData(v.desde):''} · ${qnum(v.mudancas_no_ano)} de ${qnum(v.limite_ano)} mudancas do ano.</div>`;
+  for(const x of (v.em_paralelo||[]))
+    h+=`<div class="qnote">Em paralelo: <b>${esc(x.id||'--')}</b> ${esc(x.descricao||'')} — vale a partir de ${qData(x.vale_a_partir_de)}; ate la quem manda e a anterior.</div>`;
+  if(v.vigente&&v.config_confere===false){
+    const campos=(v.divergencia||[]).slice(0,6).map(esc).join(', ');
+    h+=`<div class="qbanner qbanner-alerta" style="margin-top:8px"><b>MUDANCA NAO REGISTRADA</b> em ${(v.divergencia||[]).length} parametro(s)${campos?': '+campos:''}. Registre a versao ou desfaca a mudanca.</div>`;
+  }
+  if(v.cadeia_ok===false)
+    h+=`<div class="qbanner qbanner-alerta" style="margin-top:8px"><b>CADEIA DO CHANGELOG QUEBRADA</b> na linha ${qnum(v.cadeia_quebra)}.</div>`;
+  if(v.pode_mudar===false&&v.motivo_bloqueio)
+    h+=`<div class="qnote">${esc(v.motivo_bloqueio)}</div>`;
+  return h;
+}
+
 // ── aba BOLETA ───────────────────────────────────────────────
 function renderQuantBoleta(){
   const pane=document.getElementById('qpane-boleta');if(!pane)return;
   const d=quantCache.boleta;if(!d){pane.innerHTML=qVazio('Sem boleta carregada.');return;}
-  const placar=qPaperHTML(d.paper);
+  const placar=qPaperHTML(d.paper)+qVersaoHTML(d.versao);
   const bo=d.boleta||{},ordens=bo.ordens||[],seguro=(d.modo_seguro||{}).ativo===true;
   let h=`<div class="qnote">Boleta ${bo.id?'#'+bo.id:''} de ${qData(bo.data)} · custo estimado ${qbrl(bo.custo_total)}.</div>`;
   if(bo.emitida!==true){

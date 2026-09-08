@@ -202,3 +202,40 @@ def test_formato_bool_vira_sim_ou_nao():
     assert rel.formatar_kill(1, "bool") == "sim"
     assert rel.formatar_kill(0, "bool") == "nao"
     assert rel.formatar_kill(None, "bool") == "--"
+
+
+# ─────────────────────────────────────────────────────────────
+# Versao do sistema no relatorio
+# ─────────────────────────────────────────────────────────────
+def test_relatorio_sem_versao_registrada_manda_registrar_a_linha_de_base():
+    p = dict(PAINEL, versao={"vigente": None, "em_paralelo": [], "mudancas_no_ano": 0,
+                             "limite_ano": 2, "config_confere": False, "divergencia": [],
+                             "cadeia_ok": True})
+    t = rel.montar(p)
+    assert "Nenhuma versao registrada" in t and "linha de base" in t
+
+
+def test_relatorio_grita_mudanca_de_parametro_nao_registrada():
+    """Mexer num percentil sem registrar versao e o jeito mais silencioso de quebrar o
+    criterio de kill 7; o relatorio nao deixa passar em silencio."""
+    p = dict(PAINEL, versao={"vigente": "v1", "descricao": "linha de base",
+                             "desde": "2026-01-05", "em_paralelo": [], "mudancas_no_ano": 1,
+                             "limite_ano": 2, "config_confere": False,
+                             "divergencia": ["sinais.pct_momentum", "carteira.n"],
+                             "cadeia_ok": True})
+    t = rel.montar(p)
+    assert "MUDANCA NAO REGISTRADA" in t and "sinais.pct_momentum" in t
+
+
+def test_relatorio_diz_que_a_versao_em_paralelo_ainda_nao_manda():
+    p = dict(PAINEL, versao={"vigente": "v1", "descricao": "linha de base",
+                             "desde": "2026-01-05", "mudancas_no_ano": 1, "limite_ano": 2,
+                             "config_confere": True, "divergencia": [], "cadeia_ok": True,
+                             "em_paralelo": [{"id": "v2", "descricao": "momentum 50->55",
+                                              "vale_a_partir_de": "2026-06-10"}]})
+    t = rel.montar(p)
+    assert "Em paralelo: v2" in t and "quem manda e a anterior" in t
+
+
+def test_relatorio_sem_bloco_de_versao_nao_quebra():
+    assert "Versao do sistema" not in rel.montar(dict(PAINEL))

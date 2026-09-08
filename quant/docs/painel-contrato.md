@@ -89,6 +89,24 @@ Regras que valem para o arquivo inteiro:
     ]
   },
 
+  "versao": {
+    "vigente": "v1",
+    "descricao": "linha de base",
+    "desde": "2026-01-05",
+    "em_paralelo": [
+      {"id": "v2", "descricao": "momentum 50->55", "vale_a_partir_de": "2026-06-10"}
+    ],
+    "mudancas_no_ano": 1,
+    "limite_ano": 2,
+    "pode_mudar": true,
+    "motivo_bloqueio": null,
+    "config_confere": true,
+    "divergencia": [],
+    "aviso": null,
+    "cadeia_ok": true,
+    "cadeia_quebra": null
+  },
+
   "fiscal": {
     "mes": "2026-09",
     "vendas_acoes_mes": 12000.0,
@@ -145,6 +163,11 @@ Regras que valem para o arquivo inteiro:
   quer dizer nada para quem lê a tela).
 - `paper.meses_sem_erro` vem `null` enquanto nenhum mês foi **assinado** como conferido.
   Diário de erros vazio não é prova de mês limpo — pode ser mês em que ninguém anotou.
+- `versao.config_confere` **false com `versao.vigente` preenchido é vermelho**: alguém
+  mexeu num parâmetro sem registrar versão, e `versao.divergencia` diz em quais campos.
+  Com `versao.vigente` null é só ausência de linha de base — cinza, não vermelho.
+- `versao.em_paralelo` lista as versões que ainda estão cumprindo os 3 meses de paper.
+  Enquanto uma está lá, **quem manda é a anterior**, e é isso que `versao.vigente` diz.
 - Toda lista pode vir vazia. Todo campo numérico pode vir `null`. O front nunca deve assumir
   presença: o arquivo pode ter sido gerado antes de existir carteira, fill ou histórico.
 

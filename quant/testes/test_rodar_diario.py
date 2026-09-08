@@ -99,7 +99,8 @@ def painel():
 
 def test_painel_tem_todos_os_blocos_do_contrato(painel):
     esperado = {"gerado_em", "modo", "origem", "capital", "gate_fase1", "frescor",
-                "modo_seguro", "carteira", "boleta", "paper", "fiscal", "desempenho", "kill"}
+                "modo_seguro", "carteira", "boleta", "paper", "versao", "fiscal",
+                "desempenho", "kill"}
     assert set(painel) == esperado
 
 
@@ -235,3 +236,13 @@ def test_bloco_paper_carimba_o_ensaio_como_ensaio(monkeypatch, tmp_path):
     monkeypatch.setattr(cp, "ARQ_CONFIG", str(tmp_path / "config.json"))
     p = rd.bloco_paper({"origem": "sintetico"})
     assert p["sessoes"] == 1 and p["origem"] == "ensaio" and p["passou"] is False
+
+
+def test_bloco_versao_sem_changelog_diz_que_falta_a_linha_de_base(monkeypatch, tmp_path):
+    """Nao ter registrado a v1 e um estado, nao um erro — mas tem de aparecer."""
+    from quant import versoes as vr
+    monkeypatch.setattr(vr, "ARQ_VERSOES", str(tmp_path / "versoes.jsonl"))
+    v = rd.bloco_versao()
+    assert v["vigente"] is None and v["config_confere"] is False
+    assert v["mudancas_no_ano"] == 0 and v["pode_mudar"] is True
+    json.dumps(v)
