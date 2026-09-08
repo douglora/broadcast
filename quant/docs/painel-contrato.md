@@ -68,6 +68,27 @@ Regras que valem para o arquivo inteiro:
     ]
   },
 
+  "paper": {
+    "origem": "ensaio",
+    "sessoes": 110,
+    "primeira": "2026-04-01",
+    "ultima": "2026-09-08",
+    "boletas_emitidas": 110,
+    "taxa_execucao": 1.0,
+    "slippage_bps": -58.4,
+    "slippage_vwap_bps": -55.1,
+    "erros": 0,
+    "meses_sem_erro": null,
+    "rolls": 3,
+    "passou": false,
+    "reprovados": ["meses_sem_erro"],
+    "avisos": ["ENSAIO sobre dado sintetico: isto nao e a fase 4"],
+    "criterios": [
+      {"criterio": "execucao", "valor": 1.0, "gatilho": 0.6,
+       "formato": "pct", "status": "ok"}
+    ]
+  },
+
   "fiscal": {
     "mes": "2026-09",
     "vendas_acoes_mes": 12000.0,
@@ -116,6 +137,14 @@ Regras que valem para o arquivo inteiro:
 - `kill[].formato` ∈ `"pct"` | `"x"` | `"num"` diz **como formatar** aquele critério. Não é
   decoração: sem ele o front formata tudo como porcentagem e um universo de 33 nomes aparece
   como "3.300%" — foi o que aconteceu na primeira versão do painel.
+- `paper.passou` só é `true` quando **todos** os critérios passam **e** `paper.origem` é
+  `"real"`. Um ensaio sobre o mercado sintético nunca "passa" na Fase 4, por construção: o
+  ensaio prova que o laço fecha, e nada além disso.
+- `paper.criterios[].formato` segue a mesma regra de `kill[].formato`, com um valor a mais:
+  `pct` | `x` | `num` | `bool` (`bool` vira "sim"/"não" — "parâmetros intocados: 1" não
+  quer dizer nada para quem lê a tela).
+- `paper.meses_sem_erro` vem `null` enquanto nenhum mês foi **assinado** como conferido.
+  Diário de erros vazio não é prova de mês limpo — pode ser mês em que ninguém anotou.
 - Toda lista pode vir vazia. Todo campo numérico pode vir `null`. O front nunca deve assumir
   presença: o arquivo pode ter sido gerado antes de existir carteira, fill ou histórico.
 

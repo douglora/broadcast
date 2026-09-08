@@ -234,6 +234,35 @@ def bloco_fiscal(mes=None):
     return fs.resumo_mes(fs.apurar(ops), mes)
 
 
+def bloco_paper(dados=None):
+    """Bloco `paper`: o placar da campanha de paper trading (fase 4).
+
+    Le o registro acumulado em `quant/saida/`. Sem campanha aberta devolve o esqueleto com
+    zero sessoes — que e o estado honesto de quem ainda nao comecou, nao um erro.
+    """
+    try:
+        from quant.execucao import campanha as cp
+    except Exception as e:
+        log(f"sem modulo de campanha ({type(e).__name__})")
+        return {"origem": "nenhuma", "sessoes": 0, "passou": False, "criterios": [],
+                "avisos": [f"modulo de campanha indisponivel ({type(e).__name__})"]}
+    try:
+        sessoes, origem = cp.carregar_sessoes(), None
+        if not len(sessoes):
+            # sem campanha real, mostra o ensaio — carimbado como ensaio, que e o que ele e
+            sessoes, origem = cp.carregar_sessoes(cp.ARQ_SESSOES_ENSAIO), "ensaio"
+        erros = cp.carregar_erros()
+        conf = cp.carregar_conferencias()
+        aval = cp.avaliar(sessoes, erros, conferidos=conf, origem=origem,
+                          config_inicial=(cp.estado_campanha() or {}).get("config"),
+                          config_atual=cp.config_da_estrategia() if len(sessoes) else None)
+        return cp.resumo(sessoes, erros, aval)
+    except Exception as e:                                   # o painel nunca cai por isso
+        log(f"campanha falhou ({type(e).__name__}: {e})")
+        return {"origem": "nenhuma", "sessoes": 0, "passou": False, "criterios": [],
+                "avisos": [f"falha ao ler a campanha: {type(e).__name__}"]}
+
+
 def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, seguro):
     """Bloco `boleta`. Com modo seguro ativo nao existe boleta: `emitida=False` e lista vazia."""
     vazio = {"data": str(data), "id": pd.Timestamp(data).strftime("%Y%m%d"), "emitida": False,
@@ -248,7 +277,7 @@ def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, segur
     if mes is None or len(mes) == 0:
         vazio["motivo_bloqueio"] = ["sem sinais calculados para a data"]
         return vazio
-    precos = mes.set_index("ticker")["preco"].to_dict()
+    precos = precos_do_dia(dados, data, mes)
     adtv = mes.set_index("ticker")["adtv21"].to_dict()
     setor = mes.set_index("ticker")["setor"].to_dict()
     alvo = ct.carteira_alvo(mes, estado, precos, adtv=adtv, setor=setor,
@@ -261,6 +290,40 @@ def bloco_boleta(dados, estado, data, capital, frescor_dados, gate_passou, segur
         log(f"boleta falhou ({type(e).__name__}: {e})")
         vazio["motivo_bloqueio"] = [f"falha ao gerar a boleta: {type(e).__name__}"]
         return vazio
+
+
+def precos_do_dia(dados, data, mes_sinais=None, janela=15):
+    """Ultimo fechamento disponivel ate `data`: ticker -> preco.
+
+    ACHADO DA FASE 4. O painel de sinais e MENSAL. Usar o `preco` dele para precificar
+    ordem e posicao congela tudo no ultimo pregao do mes anterior: no dia 20, o limite de
+    compra sai defasado tres semanas. No primeiro ensaio da campanha isso apareceu escrito
+    — ordem de compra com limite 15,76 num papel que negociou o dia inteiro entre 16,43 e
+    16,49, reemitida todo pregao, nunca executada. Ranking, vol, ADTV e setor continuam
+    vindo do painel mensal, que e o certo; PRECO vem da cotacao mais recente.
+
+    `janela` limita a varredura aos ultimos dias corridos para nao reprocessar o historico
+    inteiro a cada pregao da campanha.
+    """
+    precos = {}
+    cot = (dados or {}).get("cotacoes")
+    if cot is not None and len(cot) and {"ticker", "data", "fec"} <= set(cot.columns):
+        d = cot[["ticker", "data", "fec"]].copy()
+        d["data"] = pd.to_datetime(d["data"])
+        fim = pd.Timestamp(data)
+        d = d[(d["data"] <= fim) & (d["data"] >= fim - pd.Timedelta(days=int(janela)))]
+        if len(d):
+            ult = d.sort_values("data").groupby("ticker")["fec"].last()
+            precos = {str(t): float(v) for t, v in ult.items()
+                      if np.isfinite(float(v)) and float(v) > 0}
+    if mes_sinais is not None and len(mes_sinais) and "preco" in mes_sinais:
+        # papel que nao negociou na janela mantem o preco do painel, com o aviso implicito
+        # de que e velho: sem isso ele sumiria da carteira por falta de preco.
+        for t, v in mes_sinais.set_index("ticker")["preco"].items():
+            t = str(t)
+            if t not in precos and np.isfinite(float(v)) and float(v) > 0:
+                precos[t] = float(v)
+    return precos
 
 
 def _mes_sinais(painel_sinais, data):
@@ -298,7 +361,7 @@ def rodar(modo="paper", capital=CAPITAL_PADRAO, data=None, seed=7, gate_passou=N
 
     estado = _estado_atual(capital, dados, hoje)
     mes = _mes_sinais(dados["sinais"], hoje)
-    precos = mes.set_index("ticker")["preco"].to_dict() if mes is not None and len(mes) else {}
+    precos = precos_do_dia(dados, hoje, mes)
 
     from quant import relatorio as rel
     serie = _serie_patrimonio(estado, dados, hoje, capital)
@@ -315,6 +378,7 @@ def rodar(modo="paper", capital=CAPITAL_PADRAO, data=None, seed=7, gate_passou=N
         "modo_seguro": {"ativo": bool(seguro), "motivos": motivos},
         "carteira": bloco_carteira(estado, mes, precos, capital),
         "boleta": bloco_boleta(dados, estado, hoje, capital, fres, gate_passou, seguro),
+        "paper": bloco_paper(dados),
         "fiscal": bloco_fiscal(),
         "desempenho": desempenho,
         "kill": kill,

@@ -1544,6 +1544,16 @@ def api_quant_boleta():
         "origem": d.get("origem"),
         "modo_seguro": _sub(d, "modo_seguro"),
         "boleta": _sub(d, "boleta"),
+        "paper": _sub(d, "paper"),
+    })
+
+
+@app.route("/api/quant/paper")
+def api_quant_paper():
+    """Placar da campanha de paper trading (fase 4)."""
+    return _quant_resposta(lambda d: {
+        "gerado_em": d.get("gerado_em"),
+        "paper": _sub(d, "paper"),
     })
 
 

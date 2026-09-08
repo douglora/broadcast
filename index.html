@@ -387,6 +387,7 @@ body.quant-on #asset-detail.active ~ #view-quant{display:none!important}
 .qbar{height:6px;border-radius:3px;background:var(--bg3);overflow:hidden;margin:5px 0 3px}
 .qbar>i{display:block;height:100%;background:var(--green)}
 .qbar.cheio>i{background:var(--red)}
+.qsec{margin:18px 0 6px;padding-top:12px;border-top:1px solid var(--border);font-size:8.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text2)}
 #quant-chart-wrap{height:280px;position:relative;margin:6px 0 14px}
 </style>
 </head>
@@ -2330,6 +2331,7 @@ function qData(iso){return iso?String(iso).slice(0,10).split('-').reverse().join
 // Formatar tudo como % fazia um universo de 33 nomes aparecer como "3.300%".
 function qKill(v,f){
   if(v==null||!isFinite(v))return '--';
+  if(f==='bool')return v?'sim':'nao';
   if(f==='pct')return (100*v).toFixed(1).replace('.',',')+'%';
   if(f==='x')return v.toFixed(2).replace('.',',')+'x';
   return Math.abs(v-Math.round(v))<1e-9?String(Math.round(v)):Number(v).toFixed(2).replace('.',',');
@@ -2509,10 +2511,42 @@ function renderQuantCarteira(){
   pane.innerHTML=h;
 }
 
+// ── placar da campanha de paper trading (fase 4) ─────────────
+// Mora na aba Boleta porque e onde o usuario esta toda manha. Os rotulos ficam aqui e nao
+// no servidor porque o painel.json carrega dado, nao texto de tela.
+const QPAPER_ROTULO={sessoes:'Pregoes rodados',meses:'Meses de calendario',
+  execucao:'Taxa de execucao',slippage:'Slippage vs modelado',erros:'Erros operacionais',
+  meses_sem_erro:'Meses seguidos sem erro',rolls:'Rolls do mini-indice',
+  rebalances_indice:'Rebalanceamentos de indice',parametros_estaveis:'Parametros intocados'};
+
+function qPaperHTML(p){
+  let h=`<div class="qsec">Campanha de paper trading (fase 4)</div>`;
+  if(!p||!p.sessoes)
+    return h+`<div class="qnote">Campanha nao iniciada. O ensaio sobre o mercado sintetico roda com <code>python3 -m quant.execucao.campanha --ensaio</code>; a campanha de verdade sao 3 a 6 meses de calendario com dado real.</div>`;
+  const ens=(p.origem||'')!=='real';
+  h+=`<div class="qnote">${qnum(p.sessoes)} pregoes de ${qData(p.primeira)} a ${qData(p.ultima)} · ${qnum(p.boletas_emitidas)} boletas emitidas · origem <b>${esc((p.origem||'--').toUpperCase())}</b>.</div>`;
+  if(ens)h+=`<div class="qbanner qbanner-alerta" style="margin-top:8px"><b>ENSAIO</b> — dado sintetico. Prova que o laco fecha, nao que a fase 4 passou.</div>`;
+  const falta=(p.reprovados||[]);
+  h+=`<div class="qbanner ${p.passou?'qbanner-ok':'qbanner-atencao'}" style="margin-top:8px"><b>${p.passou?'FASE 4 APROVADA':'FASE 4 EM ANDAMENTO'}</b>${falta.length?' — falta: '+falta.map(x=>esc(QPAPER_ROTULO[x]||x)).join(', ')+'.':''}</div>`;
+  const cr=p.criterios||[];
+  if(cr.length){
+    h+=`<table class="sptbl"><tr><th>Criterio</th><th style="text-align:right">Agora</th><th style="text-align:right">Gatilho</th><th>Status</th></tr>`;
+    for(const c of cr)
+      h+=`<tr><td>${esc(QPAPER_ROTULO[c.criterio]||c.criterio)}</td>`+
+         `<td style="text-align:right;font-weight:700">${qKill(c.valor,c.formato)}</td>`+
+         `<td style="text-align:right" class="qsel">${qKill(c.gatilho,c.formato)}</td>`+
+         `<td style="font-weight:700;color:${qCorKill(c.status)}">${esc((c.status||'').toUpperCase())}</td></tr>`;
+    h+='</table>';
+  }
+  for(const a of (p.avisos||[]))h+=`<div class="qnote">${esc(a)}</div>`;
+  return h;
+}
+
 // ── aba BOLETA ───────────────────────────────────────────────
 function renderQuantBoleta(){
   const pane=document.getElementById('qpane-boleta');if(!pane)return;
   const d=quantCache.boleta;if(!d){pane.innerHTML=qVazio('Sem boleta carregada.');return;}
+  const placar=qPaperHTML(d.paper);
   const bo=d.boleta||{},ordens=bo.ordens||[],seguro=(d.modo_seguro||{}).ativo===true;
   let h=`<div class="qnote">Boleta ${bo.id?'#'+bo.id:''} de ${qData(bo.data)} · custo estimado ${qbrl(bo.custo_total)}.</div>`;
   if(bo.emitida!==true){
@@ -2521,9 +2555,9 @@ function renderQuantBoleta(){
     h+=mot.length
       ? `<table class="sptbl"><tr><th>Motivo do bloqueio</th></tr>${mot.map(m=>`<tr><td style="color:var(--red);font-weight:700">${m}</td></tr>`).join('')}</table>`
       : qVazio('Sem motivo registrado no painel.');
-    pane.innerHTML=h;return;
+    pane.innerHTML=h+placar;return;
   }
-  if(!ordens.length){pane.innerHTML=h+qVazio('Boleta emitida, mas sem ordem para hoje.');return;}
+  if(!ordens.length){pane.innerHTML=h+qVazio('Boleta emitida, mas sem ordem para hoje.')+placar;return;}
   h+=`<table class="sptbl" style="margin-top:8px"><tr><th>Papel</th><th>Lado</th><th style="text-align:right">Qtd</th><th style="text-align:right">Limite</th><th>Validade</th><th>Fatia</th><th style="text-align:right">Custo</th><th>Motivo</th></tr>`;
   for(const o of ordens){
     const compra=(o.lado||'').toUpperCase()==='C';
@@ -2538,7 +2572,7 @@ function renderQuantBoleta(){
   }
   h+='</table>';
   h+=`<div class="qnote">Fatia = pedaco da ordem enviado hoje, limitado pelo ADTV do papel. Preco limite, validade no dia.</div>`;
-  pane.innerHTML=h;
+  pane.innerHTML=h+placar;
 }
 
 // ── aba FISCAL ───────────────────────────────────────────────

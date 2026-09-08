@@ -195,3 +195,10 @@ def test_relatorio_mostra_universo_como_contagem():
     ruim = dict(PAINEL, kill=rel.criterios_kill({"universo": 33}))
     t = rel.montar(ruim)
     assert "| 33 | 100 |" in t and "3300" not in t
+
+
+def test_formato_bool_vira_sim_ou_nao():
+    """"Parametros intocados: 1" nao quer dizer nada para quem le a tela."""
+    assert rel.formatar_kill(1, "bool") == "sim"
+    assert rel.formatar_kill(0, "bool") == "nao"
+    assert rel.formatar_kill(None, "bool") == "--"

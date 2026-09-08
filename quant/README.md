@@ -51,9 +51,11 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `execucao/livro_ordens.py` | livro de ordens e fills, posição real com preço médio | pronto, testado |
 | `execucao/boleta.py` | **M13** boleta noturna com limite ao mid, fatiamento e modo seguro | pronto; regras de execução nunca exercidas numa corretora |
 | `execucao/paper.py` | fills simulados contra o negócio a negócio e medição de slippage | pronto; o slippage medido é piso, não estimativa |
+| `execucao/campanha.py` | **Fase 4** campanha de paper trading: sessão diária, diário de erros e os 9 critérios de passagem | pronto; só rodou como **ensaio** sobre o mercado sintético |
 | `rodar_diario.py` | **M14** orquestra a rodada e grava `saida/painel.json` | pronto, testado |
 | `relatorio.py` | **M14** relatório periódico e os sete critérios de encerramento | pronto, testado |
 | `docs/painel-contrato.md` | contrato do `painel.json` entre o `rodar_diario` e o terminal | — |
+| `docs/rotina-paper-trading.md` | a rotina de manhã, de fim de dia e de fim de mês da Fase 4 | — |
 | `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
 
@@ -87,10 +89,18 @@ python3 -m quant.rodar_diario --paper               # rodada diaria: boleta do d
 python3 app.py                                      # terminal em http://localhost:5051
 python3 -m quant.fiscal --ano 2026                  # apuracao, DARF e memoria de calculo
 python3 -m quant.relatorio --mes 2026-09            # relatorio e status dos criterios de kill
+
+# fase 4 - campanha de paper trading (ver docs/rotina-paper-trading.md)
+python3 -m quant.execucao.campanha --ensaio         # ensaio sintetico: prova que o laco fecha
+python3 -m quant.execucao.campanha --sessao         # registra o pregao de hoje (APOS o fechamento)
+python3 -m quant.execucao.campanha --erro 2026-09-08 ordem_esquecida "esqueci a venda de ABCD3"
+python3 -m quant.execucao.campanha --conferir 2026-09   # assina o mes como conferido
+python3 -m quant.execucao.campanha --status         # placar dos 9 criterios da fase 4
 ```
 
 O painel do sistema quant fica no terminal, na coluna da direita, e abre em tela cheia com
-as abas Carteira, Boleta, Fiscal e Desempenho. Ele lê apenas `quant/saida/painel.json`: o
+as abas Carteira, Boleta, Fiscal e Desempenho (o placar da campanha de paper trading fica
+no fim da aba Boleta). Ele lê apenas `quant/saida/painel.json`: o
 `app.py` continua sem depender de pandas, e **os dados do painel nunca entram no snapshot
 estático publicado no GitHub Pages** — carteira, resultado e apuração de imposto são
 pessoais e ficam na máquina.

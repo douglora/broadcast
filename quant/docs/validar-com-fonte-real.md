@@ -267,3 +267,68 @@ postura muda — quase tudo bloqueia por padrão em vez de seguir em frente.
 - Rodar 40 pregões de paper e comparar o slippage medido com as faixas de 25/40/80 bps do
   modelo de custos; o critério de pronto do M13 é ficar dentro de 1,5 vez.
 - Conferir a posição do livro contra o extrato da corretora todo mês (`livro_ordens.conferir`).
+
+## Fase 4 — campanha de paper trading (`execucao/campanha.py`)
+
+A rotina do dia a dia está em `quant/docs/rotina-paper-trading.md`. O que segue é o que
+**não** foi validado com dado real, e por quê.
+
+### O que rodou de verdade
+
+Um **ensaio** de 110 pregões (abr–set/2026) sobre o mercado sintético, com 60 empresas.
+O laço fechou de ponta a ponta: boleta → fills → posição → boleta do dia seguinte, com 3
+rolls do mini-índice e 2 rebalanceamentos de índice na janela. Oito dos nove critérios
+ficaram verdes; `meses_sem_erro` ficou vermelho porque nenhum mês foi assinado — que é o
+comportamento correto.
+
+**Isso não é a Fase 4 e não pode ser lido como se fosse.** `avaliar()` só devolve
+`passou=True` com `origem="real"`, por construção. O ensaio prova que a máquina roda, e
+mais nada.
+
+### Dois achados do ensaio (já corrigidos)
+
+1. **A ordem saía com preço do mês anterior.** O painel de sinais é mensal, e a boleta
+   estava sendo precificada pelo `preco` dele. No dia 5 saiu uma compra com limite de
+   R$ 15,76 num papel que negociou o dia inteiro entre R$ 16,43 e R$ 16,49 — reemitida
+   todo pregão, nunca executada. Corrigido com `rodar_diario.precos_do_dia()`, que usa o
+   último fechamento disponível; ranking, vol, ADTV e setor continuam vindo do painel
+   mensal. **Isso afetava também o `rodar_diario` da Fase 3**, não só a campanha.
+2. **O roll se repetia.** O hedge só era gravado no estado quando havia fill de ação, então
+   um roll num dia sem ordem reaparecia no pregão seguinte, e no seguinte: três rolls
+   registrados onde houve um. O hedge passou a ser gravado sempre que a boleta sai, e a
+   contagem passou a ser por bloco contíguo.
+
+### O que precisa de dado real para ser validado
+
+- **O slippage do ensaio é ficção, e sai favorável** (−60 bps contra o VWAP). A fita
+  sintética passeia uniformemente dentro da faixa do dia e o simulador só casa negócio
+  dentro do limite, então o preço obtido tende a ficar melhor que o VWAP. O número real só
+  aparece com o negócio-a-negócio do `arquivar_b3`, e a comparação que importa é contra as
+  faixas de 25/40/80 bps do modelo de custos.
+- **A taxa de execução de 100% do ensaio é irreal** pelo mesmo motivo: no mercado de
+  verdade a ordem limitada disputa fila, e papel ilíquido passa dias sem tocar o limite.
+- **A licença do BDI.** No ensaio, o mercado sintético carimba todas as fontes, inclusive
+  o BDI, que não existe sintético — sem isso a boleta bloquearia todo pregão e o ensaio
+  não provaria nada. Com `origem="real"` a ausência de BDI volta a bloquear, e há teste
+  para isso. Confira no primeiro dia real que o bloqueio acontece mesmo.
+- **`--sessao` nunca rodou contra a fita real**, porque a fita real não existe neste
+  ambiente. Ele recusa e explica quando falta o negócio-a-negócio; o caminho feliz é o que
+  falta ver.
+- **A reconstrução do estado vem do livro de ordens** (`rd._estado_atual`), que ainda não
+  foi conferido contra extrato de corretora nenhum.
+
+### Riscos que restam
+
+- O ensaio carregou 8 posições com 30–60 empresas sintéticas, bem abaixo dos 22 nomes que
+  a estratégia pressupõe. Com universo real (~120–170 nomes) o comportamento de
+  concentração, giro e custo pode ser bem diferente.
+- A contagem de rebalanceamentos de índice usa jan/mai/set como meses de vigência. Se a B3
+  mudar o calendário, a constante `MESES_REBALANCE_INDICE` tem de mudar junto.
+- `abrir_campanha` prova que a configuração não mudou, mas só cobre o que está em
+  `config_da_estrategia()`. Mudança em código que não seja parâmetro nomeado passa
+  despercebida — o hash não é um substituto para o changelog de versões.
+- **O caixa da campanha é creditado no ato da venda, não em D+2.** Uma venda de hoje pode
+  financiar uma compra de hoje, o que a B3 não permite. No ensaio quase não aparece porque
+  as ordens são pequenas perto do caixa, mas num rebalanceamento grande a campanha
+  compraria mais do que a corretora deixaria — a taxa de execução medida é otimista por
+  esse lado. Corrigir exige carregar a fila de liquidação no estado.

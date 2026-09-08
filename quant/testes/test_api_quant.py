@@ -1,4 +1,4 @@
-"""O painel quant dentro do terminal: refresh_quant e as quatro rotas /api/quant/*.
+"""O painel quant dentro do terminal: refresh_quant e as rotas /api/quant/*.
 
 Nao se testa estrategia aqui. Testa-se o contrato de `quant/docs/painel-contrato.md`:
 
@@ -20,8 +20,8 @@ import app as terminal
 
 
 COMANDO = "python3 -m quant.rodar_diario --paper"
-ROTAS = ["/api/quant/painel", "/api/quant/boleta",
-         "/api/quant/fiscal", "/api/quant/desempenho"]
+ROTAS = ["/api/quant/painel", "/api/quant/boleta", "/api/quant/fiscal",
+         "/api/quant/desempenho", "/api/quant/paper"]
 
 
 def painel_exemplo():
@@ -50,6 +50,16 @@ def painel_exemplo():
             "ordens": [{"ticker": "ABCD3", "lado": "C", "qtd": 300, "preco_limite": 20.55,
                         "validade": "dia", "motivo": "entrada", "custo": 12.30,
                         "fatia": "1/2", "adtv": 5200000.0, "fracionario": False}],
+        },
+        "paper": {
+            "origem": "ensaio", "sessoes": 110, "primeira": "2026-04-01",
+            "ultima": "2026-09-08", "boletas_emitidas": 110, "taxa_execucao": 1.0,
+            "slippage_bps": -58.4, "slippage_vwap_bps": -55.1, "erros": 0,
+            "meses_sem_erro": None, "rolls": 3, "passou": False,
+            "reprovados": ["meses_sem_erro"],
+            "avisos": ["ENSAIO sobre dado sintetico: isto nao e a fase 4"],
+            "criterios": [{"criterio": "execucao", "valor": 1.0, "gatilho": 0.6,
+                           "formato": "pct", "status": "ok"}],
         },
         "fiscal": {
             "mes": "2026-09", "vendas_acoes_mes": 12000.0, "isencao_restante": 8000.0,
@@ -290,3 +300,15 @@ def test_painel_fora_do_contrato_devolve_503_e_nunca_500(cliente):
         r = cliente.get(rota)
         assert r.status_code == 503, rota
         assert corpo(r)["comando"] == COMANDO
+
+
+def test_rota_paper_traz_o_placar_da_campanha(carregado):
+    d = corpo(carregado.get("/api/quant/paper"))
+    assert d["paper"]["sessoes"] == 110 and d["paper"]["passou"] is False
+    assert d["paper"]["criterios"][0]["formato"] == "pct"
+
+
+def test_boleta_carrega_o_placar_do_paper_junto(carregado):
+    """A aba Boleta e onde o placar aparece: vai na mesma resposta para nao pedir duas."""
+    d = corpo(carregado.get("/api/quant/boleta"))
+    assert d["paper"]["origem"] == "ensaio"

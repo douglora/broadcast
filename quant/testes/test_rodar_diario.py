@@ -99,7 +99,7 @@ def painel():
 
 def test_painel_tem_todos_os_blocos_do_contrato(painel):
     esperado = {"gerado_em", "modo", "origem", "capital", "gate_fase1", "frescor",
-                "modo_seguro", "carteira", "boleta", "fiscal", "desempenho", "kill"}
+                "modo_seguro", "carteira", "boleta", "paper", "fiscal", "desempenho", "kill"}
     assert set(painel) == esperado
 
 
@@ -163,3 +163,75 @@ def test_estado_sem_livro_comeca_do_zero(painel):
     c = painel["carteira"]
     assert c["patrimonio"] == 100_000.0
     assert c["n_posicoes"] == 0 and c["posicoes"] == []
+
+
+# ─────────────────────────────────────────────────────────────
+# Preco do dia: o achado do primeiro ensaio da fase 4
+# ─────────────────────────────────────────────────────────────
+def _cot():
+    return pd.DataFrame([
+        {"ticker": "AAAA3", "data": pd.Timestamp("2026-02-27"), "fec": 15.76},
+        {"ticker": "AAAA3", "data": pd.Timestamp("2026-03-05"), "fec": 16.46},
+        {"ticker": "BBBB4", "data": pd.Timestamp("2026-03-05"), "fec": 30.10},
+        {"ticker": "CCCC3", "data": pd.Timestamp("2025-11-10"), "fec": 8.00},
+    ])
+
+
+def _painel_mensal():
+    return pd.DataFrame([{"ticker": "AAAA3", "data": pd.Timestamp("2026-02-27"), "preco": 15.76},
+                         {"ticker": "CCCC3", "data": pd.Timestamp("2026-02-27"), "preco": 7.90}])
+
+
+def test_preco_da_ordem_vem_da_cotacao_e_nao_do_painel_mensal():
+    """O painel de sinais e mensal. Precificar a ordem por ele congela o limite no ultimo
+    pregao do mes anterior: no ensaio da fase 4 saiu compra a 15,76 num papel que negociou
+    o dia inteiro entre 16,43 e 16,49, reemitida todo dia e nunca executada."""
+    p = rd.precos_do_dia({"cotacoes": _cot()}, "2026-03-05", _painel_mensal())
+    assert p["AAAA3"] == 16.46 and p["BBBB4"] == 30.10
+
+
+def test_papel_sem_negocio_na_janela_mantem_o_preco_do_painel():
+    p = rd.precos_do_dia({"cotacoes": _cot()}, "2026-03-05", _painel_mensal())
+    assert p["CCCC3"] == 7.90                 # cotacao de novembro esta fora da janela
+
+
+def test_preco_do_dia_nao_enxerga_o_futuro():
+    p = rd.precos_do_dia({"cotacoes": _cot()}, "2026-02-27", _painel_mensal())
+    assert p["AAAA3"] == 15.76 and "BBBB4" not in p
+
+
+def test_preco_do_dia_sem_cotacao_nao_levanta():
+    assert rd.precos_do_dia({}, "2026-03-05") == {}
+    assert rd.precos_do_dia(None, "2026-03-05", _painel_mensal())["AAAA3"] == 15.76
+
+
+def test_bloco_paper_sem_campanha_tem_zero_sessoes(monkeypatch, tmp_path):
+    """Nao ter comecado o paper e um estado, nao um erro: o bloco existe e diz zero.
+
+    Os caminhos vao para tmp_path de proposito: o bloco le arquivos reais de quant/saida/,
+    e um ensaio rodado na maquina faria este teste passar ou falhar por acidente."""
+    from quant.execucao import campanha as cp
+    for atributo in ("ARQ_SESSOES", "ARQ_SESSOES_ENSAIO", "ARQ_ERROS", "ARQ_CONFERENCIAS",
+                     "ARQ_CONFIG"):
+        monkeypatch.setattr(cp, atributo, str(tmp_path / atributo.lower()))
+    p = rd.bloco_paper({"origem": "sintetico"})
+    assert p["sessoes"] == 0 and p["passou"] is False
+    assert isinstance(p["criterios"], list)
+
+
+def test_bloco_paper_carimba_o_ensaio_como_ensaio(monkeypatch, tmp_path):
+    """Com campanha real vazia o painel mostra o ensaio — dizendo que e ensaio."""
+    from quant.execucao import campanha as cp
+    arq = str(tmp_path / "ensaio.csv")
+    linha = {c: None for c in cp.COLUNAS_SESSAO}
+    linha.update({"data": "2026-04-01", "emitida": True, "n_ordens": 2, "qtd_pedida": 100.0,
+                  "qtd_executada": 100.0, "taxa_execucao": 1.0, "financeiro": 3000.0,
+                  "hedge_motivo": "abertura", "origem": "ensaio"})
+    cp.registrar_sessoes(pd.DataFrame([linha], columns=cp.COLUNAS_SESSAO), arq)
+    monkeypatch.setattr(cp, "ARQ_SESSOES", str(tmp_path / "vazio.csv"))
+    monkeypatch.setattr(cp, "ARQ_SESSOES_ENSAIO", arq)
+    monkeypatch.setattr(cp, "ARQ_ERROS", str(tmp_path / "erros.csv"))
+    monkeypatch.setattr(cp, "ARQ_CONFERENCIAS", str(tmp_path / "conf.csv"))
+    monkeypatch.setattr(cp, "ARQ_CONFIG", str(tmp_path / "config.json"))
+    p = rd.bloco_paper({"origem": "sintetico"})
+    assert p["sessoes"] == 1 and p["origem"] == "ensaio" and p["passou"] is False

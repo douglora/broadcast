@@ -113,11 +113,14 @@ def formatar_kill(valor, formato="num"):
     """Nem todo criterio e percentual: universo e contagem de nomes, slippage e multiplo.
 
     Formatar tudo como porcentagem faz um universo de 33 nomes aparecer como "3.300%" -
-    foi exatamente o que aconteceu na primeira versao do painel.
+    foi exatamente o que aconteceu na primeira versao do painel. `bool` existe porque
+    "parametros intocados: 1" nao quer dizer nada para quem le a tela.
     """
     if valor is None or (isinstance(valor, float) and not np.isfinite(valor)):
         return "--"
     v = float(valor)
+    if formato == "bool":
+        return "sim" if v else "nao"
     if formato == "pct":
         return f"{100 * v:.1f}%"
     if formato == "x":
