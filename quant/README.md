@@ -57,6 +57,7 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `versoes.py` | **M14** changelog de versões: 2 mudanças/ano, 3 meses de paper em paralelo, diff calculado e cadeia de hash | pronto, testado; o changelog começa vazio |
 | `docs/painel-contrato.md` | contrato do `painel.json` entre o `rodar_diario` e o terminal | — |
 | `docs/rotina-paper-trading.md` | a rotina de manhã, de fim de dia e de fim de mês da Fase 4 | — |
+| `docs/comecar-a-rodar.md` | **passo a passo do que só o Douglas pode fazer** (corretora Safra, CVM 178, primeira carga, gate) | — |
 | `../quant.html` | a página `/quant`: o painel de operação, fora do terminal de notícias | pronto; nunca entra no site publicado |
 | `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
@@ -92,6 +93,7 @@ python3 app.py                                      # terminal em http://localho
                                                     # painel quant em /quant
 python3 -m quant.fiscal --ano 2026                  # apuracao, DARF e memoria de calculo
 python3 -m quant.relatorio --mes 2026-09            # relatorio e status dos criterios de kill
+python3 -m quant.custos --corretagem 15.00          # a tarifa da corretora cabe no ganho esperado?
 
 # fase 4 - campanha de paper trading (ver docs/rotina-paper-trading.md)
 python3 -m quant.execucao.campanha --ensaio         # ensaio sintetico: prova que o laco fecha

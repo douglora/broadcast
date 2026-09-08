@@ -212,7 +212,7 @@ def test_custo_carteira_com_estresse_preserva_a_taxa_da_b3():
 
 def test_entrada_degenerada_devolve_schema_e_nao_levanta():
     zero = c.custo_ordem(0, 0)
-    assert set(zero) == {"b3", "spread", "fracionario", "impacto", "total", "bps"}
+    assert set(zero) == set(c.CHAVES_ORDEM)
     assert abs(zero["total"] - 0.0) < 1e-12 and abs(zero["bps"] - 0.0) < 1e-12
     lixo = c.custo_ordem("dez mil", "muito liquido", fracionario=float("nan"))
     assert abs(lixo["total"] - 0.0) < 1e-12
@@ -239,3 +239,57 @@ def test_main_imprime_a_tabela_das_tres_faixas(capsys):
     # 2 cabecalhos + 1 linha por faixa de ADTV + 3 rodapes (WIN, JCP, aluguel)
     linhas = capsys.readouterr().out.strip().splitlines()
     assert len(linhas) == 2 + len(c.FAIXAS_SPREAD) + 3
+
+
+# ─────────────────────────────────────────────────────────────
+# Corretagem: o custo FIXO por ordem, e por que ele e perigoso aqui
+# ─────────────────────────────────────────────────────────────
+def test_corretagem_e_por_ordem_e_nao_por_valor():
+    """Custo fixo por ordem pesa mais quanto MENOR a ordem — e o rebalanceamento
+    incremental desta estrategia gera muitas ordens pequenas."""
+    grande = c.custo_ordem(20_000, 50e6, corretagem=15.0)
+    pequena = c.custo_ordem(2_000, 50e6, corretagem=15.0)
+    assert grande["corretagem"] == pequena["corretagem"] == 15.0
+    # em bps a mesma corretagem custa dez vezes mais na ordem dez vezes menor
+    so_corr_grande = 15.0 / 20_000 * c.BPS
+    so_corr_pequena = 15.0 / 2_000 * c.BPS
+    assert abs(so_corr_pequena - 10 * so_corr_grande) < 1e-9
+    assert pequena["bps"] > grande["bps"]
+
+
+def test_corretagem_padrao_e_zero_e_ordem_vazia_nao_paga():
+    assert c.custo_ordem(10_000, 50e6)["corretagem"] == 0.0
+    assert c.custo_ordem(0, 50e6, corretagem=25.0)["corretagem"] == 0.0
+    assert c.custo_ordem(10_000, 50e6, corretagem="nao e numero")["corretagem"] == 0.0
+    assert c.custo_ordem(10_000, 50e6, corretagem=-5)["corretagem"] == 0.0
+
+
+def test_corretagem_nao_e_afetada_por_estresse():
+    """Estresse dobra o que e ESTIMADO. Tabela de corretora e preco publicado."""
+    normal = c.custo_ordem(10_000, 50e6, corretagem=12.0)
+    dobro = c.custo_ordem(10_000, 50e6, corretagem=12.0, estresse=2.0)
+    assert normal["corretagem"] == dobro["corretagem"] == 12.0
+    assert dobro["spread"] > normal["spread"]
+
+
+def test_corretagem_maxima_responde_a_pergunta_da_corretora():
+    """Quanto a corretora pode cobrar por ordem antes de comer o excesso esperado."""
+    r = c.corretagem_maxima(excesso_pp=0.30, capital=100_000, ordens_ano=250)
+    assert abs(r["excesso_reais"] - 300.0) < 1e-9
+    assert abs(r["por_ordem"] - 1.20) < 1e-9
+    assert r["ordens_ano"] == 250
+
+
+def test_corretagem_maxima_com_entrada_degenerada_nao_levanta():
+    assert c.corretagem_maxima(0.3, 100_000, 0)["por_ordem"] is None
+    assert c.corretagem_maxima(0.0, 100_000, 250)["por_ordem"] == 0.0
+    assert c.corretagem_maxima(-1.0, 100_000, 250)["por_ordem"] == 0.0
+
+
+def test_custo_anual_de_uma_tabela_de_corretagem():
+    """A conta que decide a corretora: R$/ano e p.p. ao ano sobre o capital."""
+    r = c.custo_corretagem_ano(por_ordem=25.0, ordens_ano=250, capital=100_000)
+    assert abs(r["reais_ano"] - 6_250.0) < 1e-9
+    assert abs(r["pct_capital"] - 0.0625) < 1e-12
+    assert abs(c.custo_corretagem_ano(0, 250, 100_000)["pct_capital"]) < 1e-12
+    assert c.custo_corretagem_ano(25.0, 250, 0)["pct_capital"] is None

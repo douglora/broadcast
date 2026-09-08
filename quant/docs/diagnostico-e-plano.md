@@ -115,7 +115,19 @@ Sensibilidade: com R$50 mil os fixos dobram e o fracionário sobe (2,5–5% a.a.
 
 **FATO (fontes comunitárias de 2026, confirmar):** MetaTrader 5 em Clear, XP, Genial, Modal/BTG, Nova Futura (Rico/Toro/Inter "a confirmar"); Clear e Genial "não exigem plano" de automação; XP Pro R$0–90/mês e BTG Trader R$0–150/mês "a confirmar"; risco documentado: "conta MT5 da corretora brasileira não permite EA; algumas exigem plano". O pacote Python `MetaTrader5` só roda em Windows. ProfitDLL exige Windows + Profit Pro R$200–380/mês + licença sob consulta (desproporcional para 15–25 ordens/mês). BTG só via terceiros; API comunitária é read-only. Nenhuma fonte documenta venda a descoberto automatizada com BTC automático via API para PF. Horários: pré-abertura 09:45–10:00, contínuo 10:00–16:55, fechamento 16:55–17:00; liquidação D+2 (D+1 em fev/2028); lote 100 / fracionário sufixo F (spread maior; short no fracionário raro).
 
-**Recomendação (ESTIMATIVA):** abrir conta-teste com R$5 mil na **Clear** (MT5 sem plano, corretagem e custódia zero) ou **Genial**, e confirmar por escrito em 2 semanas: (1) EA/ordens via MT5 em conta PF sem plano pago, incluindo roteamento de **ações à vista e fracionário** (só WIN/WDO foi verificado); (2) Tesouro Selic aceito como margem de WIN e com qual haircut; (3) se um dia houver short em ação: BTC automático overnight, taxa/spread (no BTG o doador fica com 70%; "em outras o inverso") e custo mínimo por contrato; (4) recall e prazo de devolução (2–3 pregões). Se (1) falhar, XP ou BTG com plano viram alternativa. **Antes disso: verificar a política da intermediária a que Douglas é vinculado como assessor e a Resolução CVM 178 sobre negociação em conta própria** (fora do corpus; item obrigatório).
+> **DECISÃO TOMADA (set/2026): a corretora será o Safra.** Isso muda a aritmética desta
+> seção e da seção 4, e a mudança é grande o bastante para ser eliminatória. Toda a tabela
+> de custos assume **corretagem zero** (Clear/Genial/Rico/Inter); banco costuma cobrar por
+> ordem, e a estratégia gera ~195 ordens por ano com ordem média de R$ 3,3 mil (medido no
+> ensaio da Fase 4). No cenário base, o excesso de 0,3 p.p. sobre R$ 100 mil dá um teto de
+> **R$ 1,54 por ordem**; uma tabela de R$ 15–25 custa 2,9–4,9% a.a. e come o ganho esperado
+> várias vezes. O Safra também **não estava** na lista de corretoras com MetaTrader 5, o que
+> provavelmente elimina o estágio B (automação) e deixa a operação semi-manual
+> indefinidamente. O passo a passo, com as perguntas a fazer por escrito e a conta para
+> rodar com o número real, está em [`comecar-a-rodar.md`](comecar-a-rodar.md); a conta sai
+> de `python3 -m quant.custos --corretagem <valor>`.
+
+**Recomendação original (ESTIMATIVA), mantida como registro:** abrir conta-teste com R$5 mil na **Clear** (MT5 sem plano, corretagem e custódia zero) ou **Genial**, e confirmar por escrito em 2 semanas: (1) EA/ordens via MT5 em conta PF sem plano pago, incluindo roteamento de **ações à vista e fracionário** (só WIN/WDO foi verificado); (2) Tesouro Selic aceito como margem de WIN e com qual haircut; (3) se um dia houver short em ação: BTC automático overnight, taxa/spread (no BTG o doador fica com 70%; "em outras o inverso") e custo mínimo por contrato; (4) recall e prazo de devolução (2–3 pregões). Se (1) falhar, XP ou BTG com plano viram alternativa. **Antes disso: verificar a política da intermediária a que Douglas é vinculado como assessor e a Resolução CVM 178 sobre negociação em conta própria** (fora do corpus; item obrigatório).
 
 **Modelo de automação:** Estágio A (paper + primeiros 6 meses reais) = **semi-manual**: o sistema gera à noite a "boleta do dia" (CSV + painel no BROADCAST); Douglas executa em 10–15 min pela manhã (na prática 20–40 min em dias de fatiamento ou roll). Estágio B = MT5 via Python em Windows (PC do Douglas ou VPS), lendo as mesmas boletas, só após 6 meses ao vivo. Ordens sempre limitadas ao mid, enviadas ~10:20, reprecificadas em +0,2% a cada 2 h; nomes com ADTV < R$5 mi fatiados em 2–3 dias (≤ 1% do ADTV); nunca ordem a mercado em small cap; leilão de fechamento só para WIN e nomes > R$20 mi/dia; compras só com caixa disponível em D+2. Coleta pública pode rodar no GitHub Actions; **execução nunca** (sem credenciais no CI).
 
@@ -257,7 +269,7 @@ Convenções: Python 3.11, nomes em português como no `app.py`, dependências m
 ## 12. Decisões que só o Douglas pode tomar
 1. **Objetivo:** fonte de retorno (não vale em R$100 mil) **ou** laboratório/infraestrutura/track record para escalar e uso profissional (vale, com kill criteria).
 2. **Capital e cronograma:** R$50 mil real após o paper e escalar, ou esperar R$200 mil para o primeiro trade real.
-3. **Corretora:** Clear vs Genial (vs XP/BTG com plano), condicionada às 4 checagens, e a verificação regulatória como assessor.
+3. **Corretora: decidida — Safra** (set/2026). Falta a tabela de corretagem por escrito e a verificação regulatória como assessor; as duas podem encerrar o projeto antes de começar. Ver seção 5 e `comecar-a-rodar.md`.
 4. **Estágio A semi-manual por quanto tempo:** 20–40 min/dia por 6–9 meses, ou VPS Windows desde o início (1–2% a.a. em R$100 mil).
 5. **Hedge:** 1 WIN grosseiro (recomendado) vs BOVA11 emprestado.
 6. **Isenção de R$20 mil como restrição de desenho** (por CPF, inclui qualquer outra carteira) e parecer de contador.

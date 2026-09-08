@@ -13,8 +13,11 @@ para dentro, e daqui so saem dicionarios e DataFrames.
 O que e FATO (tabela publicada) e o que e ESTIMATIVA (modelo declarado):
   - FATO, B3: emolumentos + liquidacao ~0,030% por lado no swing trade, 0,032% no leilao de
     fechamento e 0,023% no day trade. Corretagem e custodia sao zero nas corretoras
-    consideradas (Clear/Genial) - por isso nao existe constante de corretagem aqui; se a
-    corretora escolhida cobrar, e uma constante nova, nao um ajuste nas de baixo.
+    consideradas (Clear/Genial), e por isso CORRETAGEM tem padrao ZERO. Ela e um valor
+    FIXO POR ORDEM, e num desenho de rebalanceamento incremental — muitas ordens pequenas —
+    esse formato e o mais caro que existe. `corretagem_maxima()` da o teto: com o excesso
+    do cenario base, poucos reais por ordem. Tabela de banco inviabiliza o desenho, e essa
+    conta tem de ser feita ANTES de abrir a conta, nao depois.
   - FATO, WIN: R$ 0,25-0,42 por contrato por lado (usado R$ 0,35) e R$ 0,20 por ponto do
     mini indice. O tick de slippage (5 pontos = R$ 1,00) e ESTIMATIVA conservadora.
   - FATO, IR: JCP tem 15% retidos na fonte. NEFIN e StatusInvest publicam o provento BRUTO,
@@ -67,6 +70,8 @@ import sys
 import numpy as np
 import pandas as pd
 
+CORRETAGEM = 0.0              # R$ por ORDEM. Zero em Clear/Genial/Rico/Inter; NAO em banco
+CUSTODIA_MES = 0.0            # R$ por mes; zero nas corretoras consideradas
 TAXA_B3 = 0.00030             # emolumentos + liquidacao, por lado, swing trade
 TAXA_B3_LEILAO = 0.00032      # leilao de fechamento
 TAXA_B3_DAYTRADE = 0.00023    # day trade (nao usado pela estrategia; aqui para o M12/fiscal)
@@ -82,9 +87,13 @@ ALUGUEL_PISO = 0.005
 ALUGUEL_MARKUP = (1.4, 3.0)   # faixa; usa-se o ponto medio (ver custo_aluguel)
 ALUGUEL_TARIFA = 0.0
 DIAS_UTEIS_ANO = 252
+# Ordens por ano que a estrategia gera, medidas no ensaio sintetico de 110 pregoes da fase 4
+# (85 ordens = 0,77 por pregao x 252). E uma ESTIMATIVA sobre mercado artificial: serve para
+# dimensionar a corretagem antes de abrir conta, e tem de ser refeita com o giro real.
+ORDENS_ANO_ESTIMADAS = 195
 BPS = 10_000.0
 
-CHAVES_ORDEM = ("b3", "spread", "fracionario", "impacto", "total", "bps")
+CHAVES_ORDEM = ("b3", "corretagem", "spread", "fracionario", "impacto", "total", "bps")
 COLUNAS_ORDEM = ["ticker", "valor", "adtv", "fracionario", "leilao"]
 COLUNAS_CUSTO = ["custo_" + k for k in CHAVES_ORDEM]
 COLUNAS_CARTEIRA = COLUNAS_ORDEM + COLUNAS_CUSTO
@@ -204,11 +213,18 @@ def impacto(valor, adtv, bps_em_1pct=IMPACTO_BPS_EM_1PCT, teto=IMPACTO_TETO):
 # ─────────────────────────────────────────────────────────────
 def custo_ordem(valor, adtv, fracionario=False, leilao=False, estresse=1.0,
                 taxa_b3=TAXA_B3, taxa_b3_leilao=TAXA_B3_LEILAO, faixas=FAIXAS_SPREAD,
-                adicional_fracionario=ADICIONAL_FRACIONARIO, bps_em_1pct=IMPACTO_BPS_EM_1PCT):
+                adicional_fracionario=ADICIONAL_FRACIONARIO, bps_em_1pct=IMPACTO_BPS_EM_1PCT,
+                corretagem=CORRETAGEM):
     """Custo de UM LADO de uma ordem de acao, em R$, decomposto.
 
-    Devolve {b3, spread, fracionario, impacto, total, bps}: tudo em R$ menos `bps`, que e
-    total/valor x 10.000 (0.0 quando nao ha valor). Ida e volta = chamar duas vezes.
+    Devolve {b3, corretagem, spread, fracionario, impacto, total, bps}: tudo em R$ menos
+    `bps`, que e total/valor x 10.000 (0.0 quando nao ha valor). Ida e volta = duas chamadas.
+
+    `corretagem` e um valor FIXO POR ORDEM, nao um percentual — e e por isso que ela e
+    perigosa nesta estrategia: o rebalanceamento incremental gera muitas ordens pequenas, e
+    um custo fixo por ordem pesa proporcionalmente mais quanto menor a ordem. Ver
+    `corretagem_maxima()`: com o excesso esperado do cenario base, o teto por ordem fica na
+    casa de POUCOS REAIS. Corretora que cobra tabela de banco inviabiliza o desenho.
 
     `estresse` multiplica SOMENTE spread, fracionario e impacto - os componentes ESTIMADOS.
     A taxa da B3 e publicada: dobra-la nao seria cenario de estresse, seria inventar uma
@@ -222,12 +238,51 @@ def custo_ordem(valor, adtv, fracionario=False, leilao=False, estresse=1.0,
     v = _valor(valor)
     e = _fator(estresse)
     b3 = v * (float(taxa_b3_leilao) if _flag(leilao) else float(taxa_b3))
+    # corretagem so existe se houver ordem: valor zero nao gera cobranca
+    corr = max(_num(corretagem, 0.0), 0.0) if v > 0 else 0.0
+    corr = corr if math.isfinite(corr) else 0.0
     spread = v * meio_spread(adtv, faixas) * e
     frac = v * float(adicional_fracionario) * e if _flag(fracionario) else 0.0
     imp = v * impacto(v, adtv, bps_em_1pct) * e
-    total = b3 + spread + frac + imp
-    return {"b3": b3, "spread": spread, "fracionario": frac, "impacto": imp,
-            "total": total, "bps": (total / v * BPS) if v > 0 else 0.0}
+    total = b3 + corr + spread + frac + imp
+    return {"b3": b3, "corretagem": corr, "spread": spread, "fracionario": frac,
+            "impacto": imp, "total": total, "bps": (total / v * BPS) if v > 0 else 0.0}
+
+
+def corretagem_maxima(excesso_pp, capital, ordens_ano):
+    """Quanto a corretora pode cobrar POR ORDEM antes de comer o excesso esperado.
+
+    A pergunta que decide a corretora, e a resposta costuma assustar: no cenario base do
+    plano o excesso liquido sobre o CDI e de ~0,3 p.p. ao ano. Sobre R$ 100 mil isso e
+    R$ 300 no ano inteiro. Dividido por ~250 ordens, sobra pouco mais de R$ 1 por ordem.
+    Nao e um argumento contra cobrar corretagem: e a constatacao de que uma tabela de
+    banco (R$ 15-25 por ordem) custa 10 a 20 vezes o ganho esperado da estrategia.
+
+    Devolve {excesso_reais, ordens_ano, por_ordem}. `por_ordem` e None quando nao ha
+    ordens (nao da para dividir), e 0.0 quando nao ha excesso a defender.
+    """
+    exc = max(_num(excesso_pp, 0.0), 0.0)
+    exc = exc if math.isfinite(exc) else 0.0
+    cap = max(_valor(capital), 0.0)
+    n = _num(ordens_ano, 0.0)
+    n = int(n) if math.isfinite(n) and n > 0 else 0
+    reais = cap * exc / 100.0
+    return {"excesso_reais": reais, "ordens_ano": n,
+            "por_ordem": (reais / n) if n > 0 else None}
+
+
+def custo_corretagem_ano(por_ordem, ordens_ano, capital):
+    """O outro lado da mesma conta: o que uma tabela custa por ano, em R$ e em % do capital.
+
+    Devolve {reais_ano, pct_capital}. `pct_capital` e None sem capital.
+    """
+    tarifa = max(_num(por_ordem, 0.0), 0.0)
+    tarifa = tarifa if math.isfinite(tarifa) else 0.0
+    n = _num(ordens_ano, 0.0)
+    n = int(n) if math.isfinite(n) and n > 0 else 0
+    cap = max(_valor(capital), 0.0)
+    reais = tarifa * n
+    return {"reais_ano": reais, "pct_capital": (reais / cap) if cap > 0 else None}
 
 
 def custo_win(contratos, estresse=1.0, tarifa_lado=WIN_TARIFA_LADO,
@@ -355,6 +410,48 @@ def _adtv_exemplo(faixas=FAIXAS_SPREAD):
     return out
 
 
+def _veredito_corretora(por_ordem, ordens_ano, capital):
+    """A conta que decide a corretora, impressa para conferencia humana.
+
+    Devolve 0 quando a tarifa cabe no cenario OTIMISTA, 1 quando so cabe no otimista mas
+    nao no base, e 2 quando nao cabe em nenhum — o codigo de saida serve para script.
+    """
+    tab = custo_corretagem_ano(por_ordem, ordens_ano, capital)
+    print(f"corretora: R$ {por_ordem:,.2f} por ordem | {ordens_ano} ordens/ano estimadas | "
+          f"capital R$ {capital:,.2f}")
+    print(f"  custo de corretagem: R$ {tab['reais_ano']:,.2f} por ano"
+          + (f" = {tab['pct_capital']:.2%} a.a. do capital" if tab["pct_capital"] is not None else ""))
+    print()
+    print(f"{'cenario':>28} {'excesso a.a.':>14} {'em R$':>12} {'teto por ordem':>16} {'veredito':>12}")
+    pior = 0
+    for rotulo, exc in (("pessimista (0 p.p.)", 0.0), ("base (+0,3 p.p.)", 0.3),
+                        ("otimista (+4 p.p.)", 4.0)):
+        r = corretagem_maxima(exc, capital, ordens_ano)
+        teto = r["por_ordem"]
+        cabe = teto is not None and por_ordem <= teto
+        if not cabe:
+            pior += 1
+        print(f"{rotulo:>28} {exc:>13.1f}p {r['excesso_reais']:>12,.0f} "
+              f"{('R$ ' + format(teto, ',.2f')) if teto is not None else '--':>16} "
+              f"{('cabe' if cabe else 'NAO CABE'):>12}")
+    print()
+    if pior >= 3:
+        print("VEREDITO: a tarifa come o ganho esperado em TODOS os cenarios, inclusive o")
+        print("otimista. Com este desenho — rebalanceamento incremental, muitas ordens")
+        print("pequenas — a estrategia trabalha para a corretora. Negocie a tabela ou mude")
+        print("de corretora antes de escrever mais uma linha de codigo.")
+    elif pior == 2:
+        print("VEREDITO: so sobra ganho no cenario OTIMISTA, que tem ~25% de probabilidade")
+        print("subjetiva. Isso e apostar na cauda boa para pagar a corretagem.")
+    else:
+        print("VEREDITO: a tarifa cabe no cenario base. Confirme a tabela POR ESCRITO,")
+        print("incluindo fracionario, custodia e a tarifa por contrato de WIN.")
+    print()
+    print("Lembrete: esta conta usa o giro estimado da estrategia, nao o seu giro real.")
+    print(f"Reestime com --ordens-ano depois de 2 meses de paper trading.")
+    return 0 if pior == 0 else (1 if pior < 3 else 2)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(
         description="Custo modelado de ida e volta por faixa de ADTV (M9), para conferencia humana")
@@ -363,7 +460,15 @@ def main(argv=None):
                     help="multiplicador dos componentes estimados (2 = modo '2x custos')")
     ap.add_argument("--fracionario", action="store_true", help="ordem no livro fracionario (+20 bps)")
     ap.add_argument("--contratos", type=float, default=1.0, help="contratos de WIN por lado")
+    ap.add_argument("--corretagem", type=float, default=None, metavar="REAIS",
+                    help="tarifa da corretora por ORDEM: imprime o veredito e sai")
+    ap.add_argument("--ordens-ano", type=int, default=ORDENS_ANO_ESTIMADAS,
+                    help=f"ordens por ano da estrategia (padrao {ORDENS_ANO_ESTIMADAS})")
+    ap.add_argument("--capital", type=float, default=100_000.0)
     args = ap.parse_args(argv)
+
+    if args.corretagem is not None:
+        return _veredito_corretora(args.corretagem, args.ordens_ano, args.capital)
 
     print(f"ordem de R$ {args.valor:,.2f} | estresse {args.estresse:g} | "
           f"fracionario: {'sim' if args.fracionario else 'nao'} | B3 {TAXA_B3 * BPS:.1f} bps por lado")
