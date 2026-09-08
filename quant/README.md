@@ -57,6 +57,7 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `versoes.py` | **M14** changelog de versões: 2 mudanças/ano, 3 meses de paper em paralelo, diff calculado e cadeia de hash | pronto, testado; o changelog começa vazio |
 | `docs/painel-contrato.md` | contrato do `painel.json` entre o `rodar_diario` e o terminal | — |
 | `docs/rotina-paper-trading.md` | a rotina de manhã, de fim de dia e de fim de mês da Fase 4 | — |
+| `../quant.html` | a página `/quant`: o painel de operação, fora do terminal de notícias | pronto; nunca entra no site publicado |
 | `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
 
@@ -88,6 +89,7 @@ python3 -m quant.backtest --janela holdout --abrir-holdout   # UMA vez; depois l
 python3 -m quant.livro --verificar                  # a cadeia do livro de tentativas
 python3 -m quant.rodar_diario --paper               # rodada diaria: boleta do dia e painel.json
 python3 app.py                                      # terminal em http://localhost:5051
+                                                    # painel quant em /quant
 python3 -m quant.fiscal --ano 2026                  # apuracao, DARF e memoria de calculo
 python3 -m quant.relatorio --mes 2026-09            # relatorio e status dos criterios de kill
 
@@ -104,12 +106,18 @@ python3 -m quant.versoes --conferir                 # a config viva bate com a v
 python3 -m quant.versoes --registrar "momentum 50->55" "pesquisa X" --backtest '{"sharpe_novo":0.32}'
 ```
 
-O painel do sistema quant fica no terminal, na coluna da direita, e abre em tela cheia com
-as abas Carteira, Boleta, Fiscal e Desempenho (o placar da campanha de paper trading fica
-no fim da aba Boleta). Ele lê apenas `quant/saida/painel.json`: o
-`app.py` continua sem depender de pandas, e **os dados do painel nunca entram no snapshot
-estático publicado no GitHub Pages** — carteira, resultado e apuração de imposto são
-pessoais e ficam na máquina.
+O painel do sistema quant tem **página própria** em `http://localhost:5051/quant`, com as
+abas Carteira, Boleta, Fiscal e Desempenho (o placar da campanha de paper trading e a
+versão vigente ficam no fim da aba Boleta). No terminal sobra só um card de resumo no fim
+da coluna da direita — frescor dos dados, mês contra o CDI, ordens de hoje e o semáforo dos
+critérios de kill — e ele leva para a página. Um terminal de notícias e um painel de
+operação são coisas diferentes: um fica aberto o dia inteiro, o outro é usado 15 minutos de
+manhã.
+
+A página lê apenas `quant/saida/painel.json`: o `app.py` continua sem depender de pandas, e
+**ela nunca entra no snapshot estático publicado no GitHub Pages** — o `gerar_dados.py`
+copia HTML por nome e o `quant.html` não está lá, o que é verificado por teste. Carteira,
+resultado e apuração de imposto são pessoais e ficam na máquina.
 
 Ordem da primeira carga com rede: `cotahist` → `nefin` → `identidade` → `eventos` →
 `cvm_fundamentos` → `cdi` → `replica_nefin`. O gate imprime correlação e diferença

@@ -1158,6 +1158,20 @@ def index():
     return serve_terminal()
 
 
+# O painel quant tem pagina PROPRIA: carteira, P&L e posicao fiscal nao tem nada a ver
+# com o terminal de noticias, e misturar os dois so atrapalhava os dois. A rota precisa
+# ser explicita por causa do errorhandler(404) mais abaixo, que devolve o terminal para
+# qualquer caminho desconhecido — sem isto, /quant abriria o index.html.
+#
+# O quant.html NAO entra no snapshot estatico: o gerar_dados.py copia HTML por nome, e o
+# nome dele nao esta la. Isso e proposital e tem teste (test_api_quant.py).
+@app.route("/quant")
+@app.route("/quant/")
+@app.route("/quant.html")
+def painel_quant():
+    return send_from_directory(BASE_DIR, "quant.html")
+
+
 VENDOR_DIR = os.path.join(BASE_DIR, "vendor")
 CHARTJS_URL = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"
 CHARTJS_ARQ = "chart.umd.min.js"

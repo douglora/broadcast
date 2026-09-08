@@ -1,7 +1,7 @@
 # Contrato do `painel.json` (Fase 3)
 
-`quant/rodar_diario.py` grava **um** arquivo, `quant/saida/painel.json`, e o terminal só lê esse
-arquivo. Nenhum endpoint do `app.py` importa pandas, e nenhum cálculo acontece dentro de uma
+`quant/rodar_diario.py` grava **um** arquivo, `quant/saida/painel.json`, e a interface só lê
+esse arquivo — a página `/quant` (`quant.html`) e o card de resumo no terminal. Nenhum endpoint do `app.py` importa pandas, e nenhum cálculo acontece dentro de uma
 requisição HTTP. Este documento é o contrato entre os dois lados.
 
 Regras que valem para o arquivo inteiro:

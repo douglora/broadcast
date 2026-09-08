@@ -10,6 +10,7 @@ Nao se testa estrategia aqui. Testa-se o contrato de `quant/docs/painel-contrato
 """
 import datetime as dt
 import json
+import os
 from decimal import Decimal
 
 import pytest
@@ -330,3 +331,59 @@ def test_rota_paper_traz_a_versao_vigente(carregado):
     assert d["versao"]["vigente"] == "v1"
     assert d["versao"]["config_confere"] is False
     assert d["versao"]["em_paralelo"][0]["id"] == "v2"
+
+
+# ─────────────────────────────────────────────────────────────
+# A pagina /quant: separada do terminal, e fora do site publicado
+# ─────────────────────────────────────────────────────────────
+ROTAS_PAGINA = ["/quant", "/quant/", "/quant.html"]
+MARCA_QUANT = "<title>Sistema Quant"
+MARCA_TERMINAL = "The Invest Post"
+
+
+def pagina(resposta):
+    return resposta.get_data(as_text=True)
+
+
+@pytest.mark.parametrize("rota", ROTAS_PAGINA)
+def test_pagina_quant_responde_e_nao_e_o_terminal(cliente, rota):
+    r = cliente.get(rota)
+    assert r.status_code == 200, rota
+    corpo_html = pagina(r)
+    assert MARCA_QUANT in corpo_html, rota
+    assert 'id="view-news"' not in corpo_html      # nada de noticias na pagina de operacao
+
+
+def test_o_terminal_continua_na_raiz(cliente):
+    corpo_html = pagina(cliente.get("/"))
+    assert MARCA_TERMINAL in corpo_html and MARCA_QUANT not in corpo_html
+
+
+def test_caminho_desconhecido_continua_caindo_no_terminal(cliente):
+    """O errorhandler(404) devolve o terminal fora de /api e /vendor. E por causa dele que
+    a rota /quant precisa ser explicita: sem ela, /quant abriria o index.html."""
+    r = cliente.get("/um-caminho-que-nao-existe")
+    assert r.status_code == 200 and MARCA_TERMINAL in pagina(r)
+
+
+def test_a_view_quant_saiu_do_terminal():
+    """A separacao so vale enquanto ninguem reintroduz a tela cheia no index.html.
+    E teste de texto porque o index.html nao tem build nem suite propria."""
+    html = open(os.path.join(terminal.BASE_DIR, "index.html"), encoding="utf-8").read()
+    for marca in ('id="view-quant"', "abrirQuant(", "fecharQuant(", "quant-on"):
+        assert marca not in html, f"{marca} voltou para o index.html"
+    assert 'href="/quant"' in html                 # o card virou link para a pagina nova
+
+
+def test_a_pagina_quant_nao_entra_no_snapshot_publicado():
+    """DECISAO DE PRIVACIDADE, e a mais cara de reverter sem querer: carteira, P&L e
+    posicao fiscal nao vao para o GitHub Pages. O gerar_dados.py copia HTML por nome;
+    se alguem acrescentar o quant.html la, este teste quebra."""
+    fonte = open(os.path.join(terminal.BASE_DIR, "gerar_dados.py"), encoding="utf-8").read()
+    assert "quant.html" not in fonte, (
+        "gerar_dados.py passou a publicar a pagina quant; ela contem carteira, P&L e "
+        "posicao fiscal e nunca deve sair da maquina")
+    assert "/api/quant" not in fonte
+    html = open(os.path.join(terminal.BASE_DIR, "index.html"), encoding="utf-8").read()
+    mapa = html[html.index("const diretos"):html.index("const diretos") + 900]
+    assert "quant" not in mapa, "rota de quant entrou no mapa do retrato estatico"

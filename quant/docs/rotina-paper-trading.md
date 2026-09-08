@@ -38,10 +38,11 @@ python3 -c "from quant.execucao import campanha; print(campanha.abrir_campanha()
 
 ```bash
 python3 -m quant.rodar_diario --paper
-python3 app.py                       # terminal em http://localhost:5051
+python3 app.py                       # painel quant em http://localhost:5051/quant
 ```
 
-Abra o card SISTEMA QUANT (fim da coluna da direita) → aba **Boleta**. Execute as ordens
+Abra `http://localhost:5051/quant` → aba **Boleta** (o terminal de notícias tem um card de
+resumo na coluna da direita que leva para lá). Execute as ordens
 como se fossem reais: mesmo horário, mesmo preço limite, mesma reprecificação. Se a boleta
 não saiu, **não invente ordem**: modo seguro ativo quer dizer que falta dado, e ordem sobre
 dado velho é exatamente o erro que a Fase 4 existe para não deixar acontecer em dinheiro
@@ -92,7 +93,7 @@ sequência na hora — mês com erro nunca é pulado.
 
 ## Os critérios de passagem
 
-O placar sai no `--status` e na aba Boleta do painel. São nove, e a Fase 4 passa quando
+O placar sai no `--status` e na aba Boleta da página `/quant`. São nove, e a Fase 4 passa quando
 todos ficam verdes **com origem real**:
 
 | Critério | Gatilho | Por que existe |
