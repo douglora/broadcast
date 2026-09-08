@@ -74,6 +74,10 @@ def _garantir_dependencias():
     venv_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".venv")
     py_venv = _python_do_venv(venv_dir)
     ja_reexecutado = bool(os.environ.get(_MARCA_REEXEC))
+    # Reexecutar so faz sentido quando app.py E o programa. Importado como
+    # modulo (gerar_dados.py faz isso), um execv trocaria o processo do chamador
+    # pelo servidor — o gerador nunca terminaria.
+    pode_reexecutar = __name__ == "__main__" and not ja_reexecutado
 
     # Se o ambiente proprio do projeto ja existe de uma execucao anterior, va
     # direto para ele, em vez de repetir a instalacao condenada no Python do
@@ -81,7 +85,7 @@ def _garantir_dependencias():
     # O python de um venv e um symlink para o interpretador base, entao comparar
     # executaveis nao diz nada: o que distingue e o prefixo do ambiente ativo.
     dentro_do_venv = os.path.realpath(sys.prefix) == os.path.realpath(venv_dir)
-    if not ja_reexecutado and not dentro_do_venv and os.path.exists(py_venv):
+    if pode_reexecutar and not dentro_do_venv and os.path.exists(py_venv):
         os.environ[_MARCA_REEXEC] = "1"
         os.execv(py_venv, [py_venv, os.path.abspath(__file__)] + sys.argv[1:])
 
@@ -102,7 +106,7 @@ def _garantir_dependencias():
     # que so aceita instalar dentro de um ambiente virtual (PEP 668). Entao
     # criamos um ambiente proprio do projeto e reexecutamos o servidor dentro
     # dele. A marca no ambiente evita reexecutar em circulo.
-    if ja_reexecutado:
+    if not pode_reexecutar:
         print("\nNao consegui instalar: " + ", ".join(faltando))
         print("Rode manualmente e tente de novo:")
         print(f"  {sys.executable} -m pip install " + " ".join(faltando))
