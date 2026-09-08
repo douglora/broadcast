@@ -194,3 +194,76 @@ encanamento, não vantagem. **Nenhum número da Fase 2 é resultado de estratég
   critério de pronto do M9 é ficar dentro de 1,5× do modelado.
 - Rodar `python -m quant.dados.setores` contra a identidade real e olhar o tamanho do balde
   "outros"; cada holding relevante lá dentro é um teto de setor que não existe.
+
+---
+
+## Fase 3 — fiscal, boleta e painel (M12–M14)
+
+A fase que encosta em dinheiro de verdade. Aqui um erro não produz um backtest otimista:
+produz um DARF errado, uma ordem no papel errado ou um painel que mente. Por isso a
+postura muda — quase tudo bloqueia por padrão em vez de seguir em frente.
+
+### Suposições do implementador
+
+- **Toda a tabela tributária veio da seção 4 do plano**, montada em 2026 de fontes
+  comunitárias, sem acesso à Receita nem à B3. Cada alíquota e cada limite é uma constante
+  nomeada no topo de `fiscal.py`, com a fonte no comentário, para poder ser corrigida num
+  lugar só: 15% comum, 20% day trade, teto de R$20 mil, IRRF de 0,005% e 1%, DARF mínimo
+  de R$10, código 6015, 15% sobre JCP na fonte e o IRRF de 10% sobre dividendo acima de
+  R$50 mil por pagador.
+- **O vencimento do DARF usa o último pregão do mês seguinte** como aproximação do último
+  dia útil bancário. Nos meses em que os dois diferem, a data sai deslocada de um dia.
+- **A isenção é calculada só com o que passou por aqui.** Sem `vendas_externas`
+  preenchido, o teto de R$20 mil sai subestimado e o imposto calculado fica **menor** que
+  o devido — que é o erro caro.
+- **Day trade é inferido da movimentação**, casando compra e venda do mesmo papel no mesmo
+  pregão pelos preços médios do dia. É a leitura padrão, mas não foi conferida contra uma
+  nota de corretagem real.
+- **Prejuízo em mês isento**: a Receita já sustentou as duas leituras. O padrão é o
+  conservador (não compensa) e a diferença em reais sai em
+  `apurar(...)["divergencia_prejuizo_isento"]`. Esse número é a pergunta a levar ao
+  contador — não uma dúvida vaga.
+- **O fill simulado é otimista.** Casar contra o negócio a negócio supõe que a ordem teria
+  sido executada sem mover o preço. O slippage medido no paper é piso, não estimativa.
+- **O horário de envio, a reprecificação e o teto de participação** (10:20, 0,2% a cada
+  2 horas, 1% do ADTV por fatia) vieram da seção 5 do plano e nunca foram exercidos numa
+  corretora.
+
+### Decisões que valem a pena conhecer
+
+1. **O terminal não ganhou pandas.** `app.py` continua dependendo só de flask, flask-cors,
+   requests e feedparser; o painel lê um JSON pronto. Foi decisão explícita: o
+   `INICIAR-TERMINAL.bat` tem de continuar funcionando numa instalação limpa.
+2. **O painel nunca sai da máquina.** Nenhuma rota de quant entra no mapa do modo estático
+   e o `gerar_dados.py` não foi tocado. Carteira, resultado e apuração de imposto não
+   chegam ao GitHub Pages.
+3. **Modo seguro bloqueia por padrão.** Sem gate da Fase 1 aprovado, ou com qualquer fonte
+   atrasada, não sai boleta — e `gate_passou=None` (desconhecido) também bloqueia.
+4. **`NaT` é um `datetime`.** A primeira versão do `limpar()` testava `datetime` antes de
+   `NaT` e teria quebrado a geração do painel na primeira data ausente. O teste que pegou
+   isso continua lá.
+
+### Riscos que restaram
+
+- A apuração nunca foi conferida contra uma nota de corretagem nem contra o ReVar. O que
+  existe é uma memória de cálculo linha a linha para ser conferida — use-a.
+- Não há tratamento de aluguel de ações no custo (o MVP-1 não tem ponta vendida) nem de
+  opções.
+- O ajuste diário de futuros entra pela mão: enquanto não houver corretora, ninguém
+  alimenta `ajustes_futuros` automaticamente.
+- O livro de ordens vive em `quant/saida/`, que é ignorado pelo git por ser dado pessoal.
+  **Perder esse arquivo é perder a base de cálculo do imposto.** Faça backup.
+- O `index.html` tem mais de 2.200 linhas e nenhum teste automatizado: a mudança do painel
+  foi conferida a olho.
+
+### Pendências
+
+- Conferir a tabela tributária inteira com contador antes do primeiro DARF, e conferir o
+  vencimento do DARF contra o calendário bancário.
+- Preencher `vendas_externas` com as vendas de ações feitas fora deste sistema, todo mês.
+- Levar ao contador a divergência calculada sobre prejuízo em mês isento.
+- Conferir o formato da nota de corretagem quando a corretora for escolhida, e decidir se
+  vale escrever um importador.
+- Rodar 40 pregões de paper e comparar o slippage medido com as faixas de 25/40/80 bps do
+  modelo de custos; o critério de pronto do M13 é ficar dentro de 1,5 vez.
+- Conferir a posição do livro contra o extrato da corretora todo mês (`livro_ordens.conferir`).

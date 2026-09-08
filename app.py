@@ -1022,6 +1022,93 @@ def refresh_tir():
 
 
 # ─────────────────────────────────────────────────────────────
+# SISTEMA QUANT
+# ─────────────────────────────────────────────────────────────
+# O painel quant e calculado fora do servidor (pandas, numpy, parquet) e chega
+# aqui como um unico JSON em quant/saida/painel.json. O app.py NAO importa
+# quant.carteira nem quant.fiscal: so quant.comum, que depende apenas de
+# requests/json/os. Assim o terminal continua subindo numa instalacao limpa.
+try:
+    from quant.comum import DIR_SAIDA, ler_json as ler_json_quant
+except Exception as e:  # pragma: no cover
+    DIR_SAIDA = None
+    ler_json_quant = None
+    log(f"pacote quant indisponivel: {e}")
+
+PAINEL_QUANT_PATH = os.path.join(DIR_SAIDA or os.path.join(BASE_DIR, "quant", "saida"),
+                                 "painel.json")
+QUANT_COMANDO = "python3 -m quant.rodar_diario --paper"
+_quant_ausente_avisado = False
+
+
+def _quant_limpo(v, prof=0):
+    """Reduz o payload a tipos JSON nativos antes que ele chegue ao jsonify.
+
+    NaN/Infinity viram null (o json.dumps do Flask os escreveria como literais
+    invalidos e o front quebraria no await r.json()) e qualquer outro objeto vira
+    numero ou texto (um TypeError aqui viraria 500, e 500 devolve HTML).
+    """
+    if prof > 25:
+        return None
+    if v is None or isinstance(v, (bool, str)):
+        return v
+    if isinstance(v, float):
+        return v if (v == v and v not in (float("inf"), float("-inf"))) else None
+    if isinstance(v, int):
+        return v
+    if isinstance(v, dict):
+        return {str(k): _quant_limpo(x, prof + 1) for k, x in v.items()}
+    if isinstance(v, (list, tuple, set)):
+        return [_quant_limpo(x, prof + 1) for x in v]
+    if isinstance(v, (bytes, bytearray)):
+        return v.decode("utf-8", "replace")
+    try:
+        if hasattr(v, "__index__"):            # numpy.int64 e afins
+            return int(v)
+        if hasattr(v, "__float__"):            # Decimal, numpy.float32...
+            f = float(v)
+            return f if (f == f and f not in (float("inf"), float("-inf"))) else None
+    except Exception:
+        pass
+    return str(v)                             # date, Timestamp, objeto qualquer
+
+
+def refresh_quant():
+    """Le quant/saida/painel.json para o cache. Nunca levanta.
+
+    Arquivo ausente nao apaga o painel anterior: como todo job daqui, so
+    substitui dado bom por dado bom.
+    """
+    global _quant_ausente_avisado
+    caminho = PAINEL_QUANT_PATH
+    if not caminho or not os.path.exists(caminho):
+        if not _quant_ausente_avisado:
+            log(f"painel quant ainda nao gerado; rode: {QUANT_COMANDO}")
+            _quant_ausente_avisado = True
+        return
+    leitor = ler_json_quant or (lambda p, padrao=None: load_json_file(p, padrao))
+    try:
+        dados = leitor(caminho, None)
+    except Exception as e:
+        log(f"painel quant ilegivel: {type(e).__name__}: {e}")
+        return
+    if not isinstance(dados, dict) or not dados:
+        log("painel quant vazio ou fora do formato — mantendo o anterior")
+        return
+    try:
+        limpo = _quant_limpo(dados)
+        boleta = limpo.get("boleta")
+        ordens = (boleta or {}).get("ordens") if isinstance(boleta, dict) else None
+        n = len(ordens) if isinstance(ordens, list) else 0
+    except Exception as e:
+        log(f"painel quant fora do contrato: {type(e).__name__}: {e}")
+        return
+    CACHE.set("quant", limpo)
+    _quant_ausente_avisado = False
+    log(f"painel quant: {limpo.get('modo', '?')}/{limpo.get('origem', '?')}, {n} ordens")
+
+
+# ─────────────────────────────────────────────────────────────
 # WATCHLIST
 # ─────────────────────────────────────────────────────────────
 WATCHLIST_PATH = os.path.join(DATA_DIR, "watchlist.json")
@@ -1131,7 +1218,8 @@ def health():
         "status": "ok",
         "server_time": utcnow_iso(),
         "caches": {k: round(CACHE.age(k), 1) for k in
-                   ("quotes", "news", "indicators", "cvm", "di", "spreads", "tesouro", "tir_all")
+                   ("quotes", "news", "indicators", "cvm", "di", "spreads", "tesouro",
+                    "tir_all", "quant")
                    if CACHE.age(k) is not None},
     })
 
@@ -1410,6 +1498,73 @@ def api_tir():
 
 
 # ─────────────────────────────────────────────────────────────
+# ROTAS — sistema quant (leitura pura do painel.json; nenhum calculo aqui)
+# ─────────────────────────────────────────────────────────────
+def _quant_painel():
+    d = CACHE.get("quant")
+    return d if isinstance(d, dict) and d else None
+
+
+def _quant_503():
+    return jsonify({"error": "painel nao gerado", "comando": QUANT_COMANDO}), 503
+
+
+def _quant_resposta(monta):
+    """Envelope comum: sem painel -> 503; erro de formato -> 503, nunca 500."""
+    d = _quant_painel()
+    if d is None:
+        return _quant_503()
+    try:
+        return jsonify(_quant_limpo(monta(d)))
+    except Exception as e:
+        log(f"painel quant fora do contrato: {type(e).__name__}: {e}")
+        return _quant_503()
+
+
+def _sub(d, chave):
+    v = d.get(chave)
+    return v if isinstance(v, dict) else {}
+
+
+@app.route("/api/quant/painel")
+def api_quant_painel():
+    # tudo, menos a serie diaria do desempenho (ela so interessa a aba grafico)
+    def monta(d):
+        out = {k: v for k, v in d.items() if k != "desempenho"}
+        out["desempenho"] = {k: v for k, v in _sub(d, "desempenho").items() if k != "serie"}
+        return out
+    return _quant_resposta(monta)
+
+
+@app.route("/api/quant/boleta")
+def api_quant_boleta():
+    return _quant_resposta(lambda d: {
+        "gerado_em": d.get("gerado_em"),
+        "modo": d.get("modo"),
+        "origem": d.get("origem"),
+        "modo_seguro": _sub(d, "modo_seguro"),
+        "boleta": _sub(d, "boleta"),
+    })
+
+
+@app.route("/api/quant/fiscal")
+def api_quant_fiscal():
+    return _quant_resposta(lambda d: {
+        "gerado_em": d.get("gerado_em"),
+        "fiscal": _sub(d, "fiscal"),
+    })
+
+
+@app.route("/api/quant/desempenho")
+def api_quant_desempenho():
+    return _quant_resposta(lambda d: {
+        "gerado_em": d.get("gerado_em"),
+        "desempenho": _sub(d, "desempenho"),     # aqui a serie vai junto
+        "kill": d.get("kill") or [],
+    })
+
+
+# ─────────────────────────────────────────────────────────────
 # ROTAS — fontes externas opcionais (degradam sem quebrar a tela)
 # ─────────────────────────────────────────────────────────────
 SI_LABELS = {
@@ -1488,6 +1643,7 @@ JOBS = [
     (refresh_cvm,        600,   True),
     (refresh_sec,        900,   True),
     (refresh_tir,        300,   True),
+    (refresh_quant,      300,   True),
 ]
 
 
@@ -1516,7 +1672,7 @@ def bootstrap():
         run_job(fn)
 
     # mais lentos, seguem em segundo plano sem segurar o boot
-    for fn in (refresh_cvm, refresh_sec, baixar_chartjs):
+    for fn in (refresh_cvm, refresh_sec, baixar_chartjs, refresh_quant):
         threading.Thread(target=run_job, args=(fn,), daemon=True).start()
 
     log("dados iniciais prontos")

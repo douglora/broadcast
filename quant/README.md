@@ -47,7 +47,14 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `livro.py` | livro de tentativas encadeado por hash, lacre do holdout e Sharpe deflacionado | pronto, testado |
 | `backtest.py` | **M11** laço mensal, atribuição NEFIN, comparações pré-registradas e veredito | pronto; **nunca rodado com dado real** |
 | `validacao/mercado_sintetico.py` | mercado artificial nos esquemas reais, com gabarito e interruptor de look-ahead | pronto, testado |
-| `fiscal.py`, `execucao/`, `relatorio.py` | M12–M15 | fase 3 |
+| `fiscal.py` | **M12** apuração de IR: preço médio, day trade detectado, isenção de R$20 mil, DARF 6015 e memória de cálculo | pronto; **tabela tributária a conferir com contador** |
+| `execucao/livro_ordens.py` | livro de ordens e fills, posição real com preço médio | pronto, testado |
+| `execucao/boleta.py` | **M13** boleta noturna com limite ao mid, fatiamento e modo seguro | pronto; regras de execução nunca exercidas numa corretora |
+| `execucao/paper.py` | fills simulados contra o negócio a negócio e medição de slippage | pronto; o slippage medido é piso, não estimativa |
+| `rodar_diario.py` | **M14** orquestra a rodada e grava `saida/painel.json` | pronto, testado |
+| `relatorio.py` | **M14** relatório periódico e os sete critérios de encerramento | pronto, testado |
+| `docs/painel-contrato.md` | contrato do `painel.json` entre o `rodar_diario` e o terminal | — |
+| `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
 
 Dados brutos ficam em `quant/dados_brutos/<fonte>/<data>/` (gzip) e derivados em
@@ -76,7 +83,17 @@ python3 -m quant.sinais --ini 2011 --fim 2026       # painel mensal de sinais
 python3 -m quant.backtest --janela treino           # 2011-2015, quantas vezes quiser
 python3 -m quant.backtest --janela holdout --abrir-holdout   # UMA vez; depois lacra
 python3 -m quant.livro --verificar                  # a cadeia do livro de tentativas
+python3 -m quant.rodar_diario --paper               # rodada diaria: boleta do dia e painel.json
+python3 app.py                                      # terminal em http://localhost:5051
+python3 -m quant.fiscal --ano 2026                  # apuracao, DARF e memoria de calculo
+python3 -m quant.relatorio --mes 2026-09            # relatorio e status dos criterios de kill
 ```
+
+O painel do sistema quant fica no terminal, na coluna da direita, e abre em tela cheia com
+as abas Carteira, Boleta, Fiscal e Desempenho. Ele lê apenas `quant/saida/painel.json`: o
+`app.py` continua sem depender de pandas, e **os dados do painel nunca entram no snapshot
+estático publicado no GitHub Pages** — carteira, resultado e apuração de imposto são
+pessoais e ficam na máquina.
 
 Ordem da primeira carga com rede: `cotahist` → `nefin` → `identidade` → `eventos` →
 `cvm_fundamentos` → `cdi` → `replica_nefin`. O gate imprime correlação e diferença
@@ -96,6 +113,12 @@ fazer em [docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md).
 - **Proventos como retorno total forward** a partir da data-ex, nunca restatement.
 - **Feriado** → HTTP 400 / ZIP vazio: tudo que baixa por data passa pelo calendário.
 - **Custos** e **IR** são cidadãos de primeira classe no backtest (fase 2).
+- **Modo seguro**: sem COTAHIST do dia, sem BDI, ou com o gate da Fase 1 não aprovado, o
+  sistema **não emite boleta** e diz o que falta. Boleta com dado velho é pior que boleta
+  nenhuma, porque seria executada.
+- **A apuração de imposto é cálculo de apoio.** O módulo produz memória de cálculo linha a
+  linha para ser conferida; conferir com contador antes de recolher qualquer DARF não é
+  opcional.
 
 ## Changelog
 
@@ -115,3 +138,9 @@ fazer em [docs/validar-com-fonte-real.md](docs/validar-com-fonte-real.md).
   sinal, e o controle nulo (sem prêmio plantado, o motor não fabrica alfa). Três leituras
   do plano aprovado tiveram de ser corrigidas para funcionar; estão listadas em
   `docs/validar-com-fonte-real.md`.
+- 2026-09-08 — Fase 3: apuração de IR (M12), livro de ordens, boleta e fills simulados
+  (M13), orquestrador diário e relatório com os sete critérios de encerramento (M14), e o
+  painel dentro do terminal. O terminal **não** ganhou pandas: o cálculo pesado roda em
+  `rodar_diario.py` e o `app.py` só lê `saida/painel.json`. O painel nunca sai da máquina.
+  A tabela tributária inteira ainda precisa de conferência com contador, e o modo seguro
+  bloqueia a boleta enquanto o gate da Fase 1 não passar.
