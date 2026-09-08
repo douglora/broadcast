@@ -50,12 +50,35 @@ python app.py --no-open     # sem abrir o navegador
 ```
 
 Nao precisa instalar nada antes: na primeira execucao o `app.py` instala as
-dependencias que faltarem. Se a porta estiver ocupada por outro programa, ele
+dependencias que faltarem. Se o Python da maquina nao aceitar instalar pacotes
+direto (o caso do Homebrew e do python.org no macOS, que seguem o PEP 668), ele
+cria sozinho um ambiente proprio em `.venv/` e reinicia o servidor la dentro —
+sem pedir nada e sem mexer no Python do sistema. Se a porta estiver ocupada por outro programa, ele
 pega a proxima livre e avisa. Se o BROADCAST ja estiver rodando, so abre o
 navegador em vez de subir um segundo servidor.
 
 O terminal responde em `/terminal`, na raiz e em qualquer outro caminho. So
 os endpoints `/api/*` sao reservados.
+
+### Nao abriu no macOS?
+
+Ao copiar a pasta entre computadores (AirDrop, zip, Drive, pendrive), o macOS
+costuma tirar a permissao de execucao do atalho e marcar o arquivo como
+"baixado da internet" — o duplo clique nao faz nada, ou reclama de
+desenvolvedor nao identificado. Abra o **Terminal** e rode, uma vez:
+
+```bash
+cd ~/Desktop/broadcast          # a pasta onde voce colocou os arquivos
+chmod +x INICIAR-TERMINAL.command
+xattr -d com.apple.quarantine INICIAR-TERMINAL.command 2>/dev/null
+./INICIAR-TERMINAL.command
+```
+
+Depois disso o duplo clique volta a funcionar. Se preferir pular o atalho,
+`python3 app.py` na pasta faz exatamente a mesma coisa.
+
+Se o Mac nao tiver Python, instale com `brew install python` ou baixe em
+https://www.python.org/downloads/.
 
 ### Nao abriu?
 

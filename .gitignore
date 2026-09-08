@@ -7,3 +7,6 @@ __pycache__/
 
 # Copia local do Chart.js, baixada na primeira execucao
 vendor/
+
+# Ambiente virtual criado pelo app.py quando o Python do sistema recusa instalar
+.venv/
