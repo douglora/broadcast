@@ -38,6 +38,9 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
+# Marca no ambiente para nao reexecutar em circulo ao cair no venv proprio.
+_MARCA_REEXEC = "BROADCAST_VENV_REEXEC"
+
 DEPENDENCIAS = (
     ("flask", "flask"),
     ("flask_cors", "flask-cors"),
@@ -46,16 +49,45 @@ DEPENDENCIAS = (
 )
 
 
-def _garantir_dependencias():
-    """Instala o que faltar na primeira execucao, para nao exigir setup manual."""
+def _pacotes_faltando():
     faltando = []
     for modulo, pacote in DEPENDENCIAS:
         try:
             __import__(modulo)
         except ImportError:
             faltando.append(pacote)
+    return faltando
+
+
+def _python_do_venv(venv_dir):
+    sub = "Scripts" if os.name == "nt" else "bin"
+    nome = "python.exe" if os.name == "nt" else "python"
+    return os.path.join(venv_dir, sub, nome)
+
+
+def _garantir_dependencias():
+    """Instala o que faltar na primeira execucao, para nao exigir setup manual."""
+    faltando = _pacotes_faltando()
     if not faltando:
         return
+
+    venv_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".venv")
+    py_venv = _python_do_venv(venv_dir)
+    ja_reexecutado = bool(os.environ.get(_MARCA_REEXEC))
+    # Reexecutar so faz sentido quando app.py E o programa. Importado como
+    # modulo (gerar_dados.py faz isso), um execv trocaria o processo do chamador
+    # pelo servidor — o gerador nunca terminaria.
+    pode_reexecutar = __name__ == "__main__" and not ja_reexecutado
+
+    # Se o ambiente proprio do projeto ja existe de uma execucao anterior, va
+    # direto para ele, em vez de repetir a instalacao condenada no Python do
+    # sistema a cada abertura.
+    # O python de um venv e um symlink para o interpretador base, entao comparar
+    # executaveis nao diz nada: o que distingue e o prefixo do ambiente ativo.
+    dentro_do_venv = os.path.realpath(sys.prefix) == os.path.realpath(venv_dir)
+    if pode_reexecutar and not dentro_do_venv and os.path.exists(py_venv):
+        os.environ[_MARCA_REEXEC] = "1"
+        os.execv(py_venv, [py_venv, os.path.abspath(__file__)] + sys.argv[1:])
 
     print(f"Instalando dependencias que faltam: {', '.join(faltando)}")
     print("(so acontece na primeira vez)")
@@ -64,18 +96,46 @@ def _garantir_dependencias():
         # Em Python de sistema o pip costuma exigir --user
         subprocess.run(base + ["--user"] + faltando)
 
-    ainda_falta = []
-    for modulo, pacote in DEPENDENCIAS:
-        try:
-            __import__(modulo)
-        except ImportError:
-            ainda_falta.append(pacote)
-    if ainda_falta:
-        print("\nNao consegui instalar: " + ", ".join(ainda_falta))
+    faltando = _pacotes_faltando()
+    if not faltando:
+        print("Dependencias prontas.\n")
+        return
+
+    # Chegou aqui: o pip recusou as duas tentativas. O caso comum e o Python
+    # gerenciado pelo sistema (Homebrew e python.org no macOS, distros Linux),
+    # que so aceita instalar dentro de um ambiente virtual (PEP 668). Entao
+    # criamos um ambiente proprio do projeto e reexecutamos o servidor dentro
+    # dele. A marca no ambiente evita reexecutar em circulo.
+    if not pode_reexecutar:
+        print("\nNao consegui instalar: " + ", ".join(faltando))
         print("Rode manualmente e tente de novo:")
-        print(f"  {sys.executable} -m pip install " + " ".join(ainda_falta))
+        print(f"  {sys.executable} -m pip install " + " ".join(faltando))
         sys.exit(1)
-    print("Dependencias prontas.\n")
+
+    py = py_venv
+    print()
+    print("Este Python nao deixa instalar pacotes direto (PEP 668).")
+    print(f"Criando um ambiente proprio do BROADCAST em {venv_dir}")
+
+    if not os.path.exists(py):
+        if subprocess.run([sys.executable, "-m", "venv", venv_dir]).returncode != 0:
+            print("\nNao consegui criar o ambiente virtual.")
+            print("No macOS/Linux instale o modulo venv e tente de novo:")
+            print(f"  {sys.executable} -m pip install --user virtualenv")
+            sys.exit(1)
+
+    # Instala todas as dependencias no ambiente novo, nao so as que faltavam no
+    # Python do sistema: o que estava la nao existe aqui dentro.
+    todas = [pacote for _, pacote in DEPENDENCIAS]
+    if subprocess.run([py, "-m", "pip", "install", "--quiet"] + todas).returncode != 0:
+        print("\nNao consegui instalar as dependencias no ambiente virtual.")
+        print("Rode manualmente e tente de novo:")
+        print(f"  {py} -m pip install " + " ".join(todas))
+        sys.exit(1)
+
+    print("Ambiente pronto. Reiniciando o servidor dentro dele.\n")
+    os.environ[_MARCA_REEXEC] = "1"
+    os.execv(py, [py, os.path.abspath(__file__)] + sys.argv[1:])
 
 
 _garantir_dependencias()
