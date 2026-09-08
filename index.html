@@ -519,7 +519,7 @@ body{background:var(--bg0);color:var(--text0);font-family:'Nunito Sans','Inter',
     </div>
     <div class="rsec">
       <div class="rtitle" style="color:var(--blue)"><a id="quant-link" href="/quant" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">SISTEMA QUANT <span style="font-size:8px;color:var(--accent);margin-left:6px">LOCAL ↗</span></a></div>
-      <div id="quant-card"><div class="qc-msg"><span class="spinner"></span> Carregando...</div></div>
+      <div id="quant-card" onclick="abrirPainelQuant()"><div class="qc-msg"><span class="spinner"></span> Carregando...</div></div>
     </div>
   </div>
 </div>
@@ -2278,6 +2278,14 @@ function agendarAtualizacoes(){
 const QUANT_SO_LOCAL='Disponivel apenas no terminal local (python app.py). Carteira, P&amp;L e posicao fiscal nao saem desta maquina.';
 let quantData=null,quantAviso='';
 
+// O card inteiro e clicavel, como era antes da separacao — so que agora abre a pagina
+// em vez de trocar a tela central. Em modo estatico nao abre nada: /quant nao existe no
+// site publicado.
+function abrirPainelQuant(){
+  if(MODO_ESTATICO)return;
+  window.open('/quant','_blank','noopener');
+}
+
 const qpcs=(v,d=2)=>v==null?'--':(v>0?'+':'')+fmt(v*100,d)+'%';
 function qAgo(iso){try{const t=new Date(iso).getTime();if(!isFinite(t))return '--';const s=(Date.now()-t)/1000;if(s<60)return 'agora';if(s<3600)return Math.round(s/60)+'min';if(s<86400)return Math.round(s/3600)+'h';return Math.round(s/86400)+'d';}catch(e){return '--';}}
 
@@ -2299,8 +2307,11 @@ function renderQuantCard(){
   const d=quantData;
   if(!d){
     el.innerHTML=`<div class="qc-msg">${quantAviso||'Carregando...'}</div>`;
-    // sem painel (ou em modo estatico) o titulo para de ser link: nao ha para onde ir
-    if(link&&MODO_ESTATICO){link.removeAttribute('href');link.style.cursor='default';}
+    // em modo estatico o titulo para de ser link e o card perde o cursor: nao ha para onde ir
+    if(MODO_ESTATICO){
+      if(link){link.removeAttribute('href');link.style.cursor='default';}
+      el.style.cursor='default';
+    }
     return;
   }
   const fr=d.frescor||{},chaves=Object.keys(fr);
@@ -2325,7 +2336,7 @@ function renderQuantCard(){
     if(!gateOk)m.push('GATE DA FASE 1 NAO PASSOU');
     h+=`<div class="qc-alerta">${m.join(' · ')}</div>`;
   }
-  h+=`<div class="qc-msg" style="padding-top:8px">Painel completo em <a href="/quant" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">/quant</a> — carteira, boleta, fiscal e desempenho.</div>`;
+  h+=`<div class="qc-msg" style="padding-top:8px">Painel completo em <a href="/quant" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:var(--blue);font-weight:700">/quant</a> — carteira, boleta, fiscal e desempenho.</div>`;
   el.innerHTML=h;
 }
 </script>
