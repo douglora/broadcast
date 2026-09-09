@@ -37,7 +37,8 @@ python3 -m quant.custos --corretagem 15.00        # troque pelo valor real
 python3 -m quant.custos --corretagem 15.00 --capital 200000
 ```
 
-**O que pedir ao Safra, por escrito** (e-mail do assessor serve; print de tela não):
+**O e-mail está pronto** em [`emails-para-enviar.md`](emails-para-enviar.md) — copie e
+envie. Em resumo, o que pedir ao Safra por escrito (print de tela não serve):
 
 1. Corretagem por ordem em **ações à vista**, lote padrão e **fracionário** — são tabelas
    diferentes em muitas casas.
@@ -62,7 +63,8 @@ para impedir.
 Este passo é independente do passo 0 e igualmente eliminatório. Como profissional vinculado
 a uma intermediária, sua negociação em conta própria não é livre.
 
-**O que verificar, por escrito, com o compliance da intermediária a que você é vinculado:**
+**O e-mail também está pronto** em [`emails-para-enviar.md`](emails-para-enviar.md). O que
+verificar com o compliance da intermediária a que você é vinculado:
 
 1. A **Resolução CVM 178** e o que ela exige de quem atua como assessor de investimentos ao
    negociar em conta própria.
@@ -104,32 +106,36 @@ Só depois dos passos 0 e 1. Abra (ou confirme) a conta no Safra e confirme **po
 
 ## Passo 3 — A primeira carga de dados (com rede)
 
-Aqui volta a ser trabalho de máquina. Rode **nesta ordem** — cada passo depende do anterior:
+Aqui volta a ser trabalho de máquina, e é **um comando**:
 
 ```bash
 pip install -r quant/requirements.txt
-
-python3 -m quant.dados.cotahist --anos 2005-2026            # ~20 anos de preços
-python3 -c "from quant.dados import nefin; nefin.baixar('fatores'); nefin.baixar('aluguel_taxa')"
-python3 -m quant.dados.identidade                            # FCA + cadastro CVM
-python3 -m quant.dados.eventos                               # proventos e desdobramentos
-python3 -m quant.dados.cvm_fundamentos --anos 2010-2026      # DFP/ITR point-in-time
-python3 -m quant.dados.cdi                                   # CDI diário (BCB)
-python3 -m quant.dados.setores                               # macrossetor por CNPJ
-python3 -m quant.dados.capital_social --anos 2010-2026
-python3 -m quant.dados.painel_fundamentos --anos 2010-2026
+python3 -m quant.primeira_carga
 ```
 
-É demorado (algumas horas na primeira vez, a maior parte no COTAHIST e na CVM) e pode falhar
-por rede. Todos os coletores são idempotentes: rodar de novo continua de onde parou.
+Ele roda os nove coletores na ordem certa, repete em falha de rede, e no fim imprime o que
+funcionou, o que faltou e qual é o próximo comando. Se a rede cair no meio, rode
+`python3 -m quant.primeira_carga --continuar`: cada coletor é idempotente e continua de
+onde parou.
 
-**Confira o que chegou** antes de seguir — os valores de referência estão em
-`quant/docs/validar-com-fonte-real.md`, e o principal é: PETR4 a 35,66, SLCE3 a 17,68 e
-JBSS3 a 36,21 no pregão de 27/12/2024, e JBSS3/BRFS3/STBP3 presentes até o último pregão em
-que existiram (se sumiram antes, o parser está perdendo empresa deslistada, e todo o backtest
-fica enviesado para cima).
+É demorado — algumas horas na primeira vez, a maior parte no COTAHIST e na CVM. Deixe
+rodando. Para ver o que será feito sem fazer: `--listar`.
 
----
+**Confira o que chegou** — também um comando, em vez de conferir a olho:
+
+```bash
+python3 -m quant.dados.conferir
+```
+
+Ele checa os fechamentos de referência (PETR4 35,66 / SLCE3 17,68 / JBSS3 36,21 em
+27/12/2024), confirma que as deslistadas (JBSS3, BRFS3, STBP3) estão no banco até o último
+pregão em que existiram, e compara os fatores do NEFIN com o que o plano afirma. Sai com
+código 1 se algo falhar.
+
+A checagem das deslistadas é a que mais importa. Se elas sumiram, o viés de sobrevivência
+entrou: o backtest só vê quem sobreviveu e o resultado sai alto por um motivo que não tem
+nada a ver com a estratégia. É o erro mais caro desta fase porque **não quebra nada** — ele
+só deixa o número bonito.
 
 ## Passo 4 — O gate da Fase 1 (o bloqueio duro)
 
@@ -220,7 +226,7 @@ e a divergência sobre prejuízo em mês isento. O módulo fiscal calcula; quem 
 | 0 | Tabela de corretagem do Safra, por escrito | tudo | dias |
 | 1 | CVM 178 + política da intermediária | tudo | dias a semanas |
 | 2 | As quatro checagens operacionais | Fase 5 | dias |
-| 3 | Primeira carga com rede | Fase 1 | horas de máquina |
+| 3 | Primeira carga com rede (`primeira_carga`) | Fase 1 | horas de máquina |
 | 4 | Rodar o gate WML/HML | Fases 2–5 | minutos |
 | 5 | Abrir o holdout (uma vez) | Fase 3+ | minutos |
 | 6 | A rotina diária, 3 a 6 meses | Fase 5 | **calendário** |

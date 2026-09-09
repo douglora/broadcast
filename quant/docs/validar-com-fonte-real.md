@@ -361,3 +361,43 @@ dependem de **você**:
 - O orçamento é por **ano-calendário**. Duas mudanças em dezembro e mais duas em janeiro
   são quatro em dois meses, e a regra não vê isso. É uma folga conhecida; apertar exigiria
   janela móvel de 12 meses, ao custo de o usuário nunca saber quando a próxima abre.
+
+
+## NEFIN — VALIDADO contra a fonte real (08/09/2026)
+
+Único item desta lista que saiu de "testado com fixture" para **verificado**. O NEFIN é
+servido pelo GitHub, que estava acessível; B3, CVM, BCB e StatusInvest continuam
+bloqueados no ambiente onde o código foi escrito.
+
+Snapshot baixado: `nefin_factors.csv`, 882.144 bytes,
+sha256 `619991c2192c958ae5f508ca4b9eae2d679d0a87b9c19ee4a21325b1981855f2`, cobrindo
+**2001-01-02 a 2026-07-03** (6.321 pregões). O SHA do commit não veio: a API do GitHub
+respondeu 403 no ambiente. O hash do conteúdo é o que garante a reprodutibilidade.
+
+O parser lê a série corretamente e as estatísticas batem com o que o diagnóstico afirma:
+
+| Fator | O plano dizia | Medido na fonte real |
+|---|---|---|
+| WML | 15,4% a.a., vol 16,8%, Sharpe 0,92, t = 4,6 | **15,43% a.a., vol 16,82%, Sharpe 0,918, t = 4,60** |
+| HML | 8,2% a.a., Sharpe 0,56 | **8,16% a.a., Sharpe 0,557, t = 2,79** |
+| SMB | −0,8% a.a. | **−0,83% a.a., t = −0,24** |
+| Rm−Rf | 3,8% a.a. em 25 anos | **3,83% a.a., t = 0,79** |
+
+Duas observações que mudam pouco, mas mudam:
+
+- **O prêmio de mercado dos últimos 5 anos piorou**: o diagnóstico registrava −2,8% a.a.;
+  medido agora sobre 2021-01 a 2026-07 dá **−3,46% a.a.** O adversário (CDI) segue
+  ganhando do mercado, e por uma margem um pouco maior do que o plano supunha.
+- **A série do NEFIN termina em 03/07/2026**, com cerca de dois meses de defasagem. O gate
+  da Fase 1 só pode comparar até aí; a réplica dos fatores não tem contra o que ser
+  conferida nos meses mais recentes.
+
+Como conferir na sua máquina, depois da carga:
+
+```bash
+python3 -m quant.dados.conferir
+```
+
+O CDI também foi exercitado: sem BCB, `cdi.carregar()` cai para o `Risk_Free` do NEFIN e
+devolve 14,74% nos últimos 252 pregões — plausível, e com a origem carimbada em
+`serie.attrs["fonte"]` para o backtest registrar de onde veio.

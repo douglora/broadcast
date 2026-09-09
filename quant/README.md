@@ -58,6 +58,9 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `docs/painel-contrato.md` | contrato do `painel.json` entre o `rodar_diario` e o terminal | — |
 | `docs/rotina-paper-trading.md` | a rotina de manhã, de fim de dia e de fim de mês da Fase 4 | — |
 | `docs/comecar-a-rodar.md` | **passo a passo do que só o Douglas pode fazer** (corretora Safra, CVM 178, primeira carga, gate) | — |
+| `docs/emails-para-enviar.md` | os dois e-mails prontos: tabela do Safra e consulta ao compliance | — |
+| `primeira_carga.py` | a carga inicial inteira em um comando, com repeticao e relatório | pronto, testado |
+| `dados/conferir.py` | conferência automática do banco contra os valores de referência | pronto; NEFIN já validado contra a fonte real |
 | `../quant.html` | a página `/quant`: o painel de operação, fora do terminal de notícias | pronto; nunca entra no site publicado |
 | `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |
 | `testes/` | pytest, sem rede (exceto NEFIN, que pula se não houver acesso) | |
@@ -74,6 +77,10 @@ pip install -r quant/requirements.txt
 python3 -m pytest quant/testes -q                    # testes
 python3 -m quant.dados.arquivar_b3                  # arquiva o último pregão (precisa de rede)
 python3 -m quant.dados.arquivar_b3 --data 2026-09-04 --fontes bdi,indices
+python3 -m quant.primeira_carga                     # A CARGA INTEIRA, em um comando
+python3 -m quant.dados.conferir                     # confere o banco contra os valores de referencia
+
+# ou passo a passo, se preferir controlar cada um:
 python3 -m quant.dados.cotahist --anos 2005-2026    # baixa e converte o COTAHIST
 python3 -c "from quant.dados import nefin; nefin.baixar('fatores'); nefin.baixar('aluguel_taxa')"
 python3 -m quant.dados.identidade                   # FCA + cadastro CVM → banco/identidade.parquet
