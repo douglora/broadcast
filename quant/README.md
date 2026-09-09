@@ -61,6 +61,7 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `docs/emails-para-enviar.md` | os dois e-mails prontos: tabela do Safra e consulta ao compliance | — |
 | `docs/no-mac-do-zero.md` | **como fazer tudo no Mac**, do "abrir o Terminal" até a rotina diária | — |
 | `primeira_carga.py` | a carga inicial inteira em um comando, com repeticao e relatório | pronto, testado |
+| `../CARREGAR-DADOS.command` | a mesma carga em duplo-clique no Mac: não deixa o Mac dormir, retoma sozinho e salva log | pronto |
 | `dados/conferir.py` | conferência automática do banco contra os valores de referência | pronto; NEFIN já validado contra a fonte real |
 | `../quant.html` | a página `/quant`: o painel de operação, fora do terminal de notícias | pronto; nunca entra no site publicado |
 | `execucao/mt5_ponte.py` | M15 (estágio B) | fase 5 |

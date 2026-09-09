@@ -191,40 +191,38 @@ python3 -m quant.custos --corretagem 15.00
 Troque `15.00` pelo valor que vier. O teto no cenário base é **R$ 1,54 por ordem** — o
 comando imprime o veredito nos três cenários e diz se cabe.
 
-### Passo 3 — A carga de dados (quando os dois e-mails voltarem OK)
+### Passo 3 — A carga de dados: um duplo-clique
+
+No **Finder**, dentro da pasta `broadcast`, dê **dois cliques** em
+**`CARREGAR-DADOS.command`**.
+
+Ele faz a carga inteira e, no fim, confere o que chegou. Três coisas que ele resolve
+sozinho:
+
+- **o Mac não adormece** enquanto a janela estiver aberta (usa o `caffeinate` do próprio
+  macOS) — Mac que dorme no meio derruba o download;
+- **se a internet cair**, nada se perde: clique duas vezes de novo e ele continua de onde
+  parou;
+- **tudo fica salvo num log** em `quant/saida/carga_<data>.log`, para você me mandar o
+  arquivo em vez de tirar print.
+
+**Demora horas.** Pode minimizar a janela e ir fazer outra coisa. Para interromper:
+**Control + C** (nada se perde).
+
+Se preferir pelo Terminal, é o mesmo:
 
 ```bash
 cd ~/broadcast
 source .venv/bin/activate
-python3 -m quant.primeira_carga
-```
-
-**Demora horas.** Deixe a janela aberta e o Mac ligado — em **Ajustes do Sistema → Bateria**
-(ou Economia de Energia), desmarque o adormecimento automático enquanto isso roda.
-
-Se a internet cair no meio, não tem problema: rode
-
-```bash
 python3 -m quant.primeira_carga --continuar
-```
-
-que ele retoma de onde parou. Para ver o que ele vai fazer sem fazer nada:
-`python3 -m quant.primeira_carga --listar`.
-
-No fim ele imprime um quadro dizendo o que funcionou, o que faltou e qual é o próximo
-comando.
-
-### Passo 4 — Conferir o que chegou
-
-```bash
 python3 -m quant.dados.conferir
 ```
 
-Tem que sair **sem nenhum `FALHOU`**. Se sair, pare e me mande a tela: banco errado envenena
-tudo que vem depois, e a falha mais cara (empresa deslistada faltando) não quebra nada — só
-deixa o resultado bonito por engano.
+A conferência tem que sair **sem nenhum `FALHOU`**. Se sair, pare e me mande o log: banco
+errado envenena tudo que vem depois, e a falha mais cara (empresa deslistada faltando) não
+quebra nada — só deixa o resultado bonito por engano.
 
-### Passo 5 — O gate da Fase 1
+### Passo 4 — O gate da Fase 1
 
 ```bash
 python3 -m quant.validacao.replica_nefin --ini 2008 --fim 2026
@@ -235,7 +233,7 @@ do NEFIN. Passa com correlação ≥ 0,90 e diferença anual dentro de ±3 p.p.
 
 **Se falhar, pare.** Não é o gate que está apertado — é o banco que está errado.
 
-### Passo 6 — O backtest (Fase 2)
+### Passo 5 — O backtest (Fase 2)
 
 ```bash
 python3 -m quant.backtest --janela treino
@@ -252,7 +250,7 @@ python3 -m quant.backtest --janela holdout --abrir-holdout
 Não rode esse comando antes de estar satisfeito com o treino. É o teste final, e ele só
 vale uma vez.
 
-### Passo 7 — Registrar a linha de base
+### Passo 6 — Registrar a linha de base
 
 ```bash
 python3 -m quant.versoes --registrar "linha de base" "fase 1 e 2 aprovadas" \
@@ -262,7 +260,7 @@ python3 -m quant.versoes --registrar "linha de base" "fase 1 e 2 aprovadas" \
 Troque `0.3` pelo Sharpe que o backtest devolveu. A partir daqui, toda mudança de parâmetro
 entra num orçamento de **duas por ano**.
 
-### Passo 8 — A rotina diária (Fase 4, de 3 a 6 meses)
+### Passo 7 — A rotina diária (Fase 4, de 3 a 6 meses)
 
 **De manhã, antes das 10:20:**
 
