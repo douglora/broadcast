@@ -8,6 +8,11 @@ __pycache__/
 # Copia local do Chart.js, baixada na primeira execucao
 vendor/
 
+# Ambiente Python isolado criado pelo PREPARAR-MAC.command / venv manual.
+# Do macOS Sonoma em diante instalar no Python do sistema da erro; o .venv e a saida.
+.venv/
+venv/
+
 # quant: dados brutos e banco derivado ficam fora do main (o CI publica no branch dados-quant)
 quant/dados_brutos/
 quant/banco/

@@ -7,6 +7,9 @@ regulatória e (c) uma primeira carga de dados com rede.
 Leia os passos 0 e 1 antes de qualquer outra coisa. Os dois podem matar o projeto, e é
 melhor que matem agora do que depois de seis meses de trabalho.
 
+> **No Mac?** [`no-mac-do-zero.md`](no-mac-do-zero.md) tem o mesmo roteiro em detalhe, desde
+> como abrir o Terminal. Este documento aqui é o resumo de decisões; aquele é o passo a passo.
+
 ---
 
 ## Passo 0 — A tabela de corretagem do Safra (antes de tudo)

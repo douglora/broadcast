@@ -59,6 +59,7 @@ riscos, módulos e critérios de kill — está em [`docs/diagnostico-e-plano.md
 | `docs/rotina-paper-trading.md` | a rotina de manhã, de fim de dia e de fim de mês da Fase 4 | — |
 | `docs/comecar-a-rodar.md` | **passo a passo do que só o Douglas pode fazer** (corretora Safra, CVM 178, primeira carga, gate) | — |
 | `docs/emails-para-enviar.md` | os dois e-mails prontos: tabela do Safra e consulta ao compliance | — |
+| `docs/no-mac-do-zero.md` | **como fazer tudo no Mac**, do "abrir o Terminal" até a rotina diária | — |
 | `primeira_carga.py` | a carga inicial inteira em um comando, com repeticao e relatório | pronto, testado |
 | `dados/conferir.py` | conferência automática do banco contra os valores de referência | pronto; NEFIN já validado contra a fonte real |
 | `../quant.html` | a página `/quant`: o painel de operação, fora do terminal de notícias | pronto; nunca entra no site publicado |
@@ -71,6 +72,11 @@ Dados brutos ficam em `quant/dados_brutos/<fonte>/<data>/` (gzip) e derivados em
 no branch `dados-quant`.
 
 ## Como rodar
+
+**No Mac, comece por [`docs/no-mac-do-zero.md`](docs/no-mac-do-zero.md)** — dois cliques em
+`PREPARAR-MAC.command` instalam tudo num ambiente isolado (obrigatório do macOS Sonoma em
+diante) e rodam os testes. Os comandos abaixo supõem o ambiente ativado com
+`source .venv/bin/activate`.
 
 ```bash
 pip install -r quant/requirements.txt
