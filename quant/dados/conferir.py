@@ -21,6 +21,7 @@ porque ele nao quebra nada — ele so faz o numero ficar bonito.
 """
 import argparse
 import json
+import os
 import sys
 
 import numpy as np
@@ -48,6 +49,14 @@ FATORES_ESPERADOS = {
     "SMB": {"media_aa": -0.008, "tol": 0.03, "t_min": None},
     "Rm_minus_Rf": {"media_aa": 0.038, "tol": 0.03, "t_min": None},
 }
+
+# O gate da fase 1 roda `replica_nefin --ini 2008`, e o momentum 12-2 precisa de um ano de
+# historico antes disso. Serie que so comeca depois daqui nao sustenta o proximo passo.
+ANO_MINIMO_GATE = 2008
+
+# Um ano de pregoes na B3 tem ~246 dias uteis. O piso e generoso de proposito: aqui se
+# procura parquet truncado, nao divergencia de calendario.
+MINIMO_PREGOES_NO_ANO = 200
 
 OK, FALHOU, PULADA = "ok", "FALHOU", "pulada"
 
@@ -86,6 +95,67 @@ def checar_precos_de_referencia():
             f"{DATA_REFERENCIA}: esperado {esperado:.2f}, obtido {obtido:.2f}"
             + ("" if bate else "  <- offset do parser ou preco nao dividido por 100"),
             esperado, obtido))
+    return saida
+
+
+def checar_cobertura_de_precos():
+    """Anos inteiros faltando no meio da serie de precos.
+
+    Por que esta checagem existe: o COTAHIST e um parquet por ano e a carga leva horas, com
+    queda de internet no meio. As outras checagens daqui olham um pregao de 2024 e os
+    ultimos tres anos — um banco sem 2011-2015 passa por todas elas e so morre no gate, onde
+    a mensagem culpa "o banco esta errado" sem dizer que faltam anos inteiros. O sintoma
+    aparece a dois passos da causa, e se procura no lugar errado.
+
+    Buraco NO MEIO da serie e assinatura de carga interrompida, nunca de escolha: por isso
+    a checagem olha o intervalo entre o primeiro e o ultimo ano presentes, e nao uma janela
+    fixa. Quem carregou de proposito so 2015-2026 nao e acusado de nada — mas continua sendo
+    avisado se a serie comeca depois do que o gate consome.
+    """
+    from quant.dados import cotahist
+    hoje = pd.Timestamp.today().year
+    presentes, curtos = [], []
+    for ano in range(1986, hoje + 1):
+        caminho = cotahist.caminho_parquet(ano)
+        if not os.path.exists(caminho) or os.path.getsize(caminho) == 0:
+            continue
+        presentes.append(ano)
+        try:
+            d = pd.read_parquet(caminho, columns=["data"])
+        except Exception as e:
+            curtos.append((ano, f"nao abriu ({type(e).__name__})"))
+            continue
+        pregoes = pd.to_datetime(d["data"]).dt.normalize().nunique()
+        if ano < hoje and pregoes < MINIMO_PREGOES_NO_ANO:
+            curtos.append((ano, f"{pregoes} pregoes"))
+    if not presentes:
+        return [_res("cobertura de precos", PULADA, "sem COTAHIST no banco")]
+
+    saida = []
+    ini, fim = presentes[0], presentes[-1]
+    buracos = [a for a in range(ini, fim + 1) if a not in set(presentes)]
+    if buracos:
+        saida.append(_res(
+            "cobertura de precos", FALHOU,
+            f"serie de {ini} a {fim} com {len(buracos)} ano(s) faltando no meio: "
+            f"{', '.join(str(a) for a in buracos)}. Carga interrompida — retome com "
+            "python3 -m quant.primeira_carga --continuar",
+            f"{ini}-{fim} sem buraco", f"faltam {len(buracos)}"))
+    else:
+        saida.append(_res("cobertura de precos", OK,
+                          f"{len(presentes)} anos seguidos, de {ini} a {fim}",
+                          "sem buraco", f"{ini}-{fim}"))
+    if ini > ANO_MINIMO_GATE:
+        saida.append(_res(
+            "inicio da serie", FALHOU,
+            f"a serie comeca em {ini} e o gate da fase 1 roda de {ANO_MINIMO_GATE}: "
+            f"carregue os anos que faltam com --anos {ANO_MINIMO_GATE - 3}-{hoje}",
+            f"<= {ANO_MINIMO_GATE}", ini))
+    for ano, motivo in curtos:
+        saida.append(_res(f"ano {ano}", FALHOU,
+                          f"parquet de {ano} com {motivo}; esperado ~246 pregoes. "
+                          "Apague o ZIP em quant/dados_brutos/cotahist e recarregue o ano",
+                          f">= {MINIMO_PREGOES_NO_ANO} pregoes", motivo))
     return saida
 
 
@@ -200,6 +270,7 @@ def checar_cdi():
 
 CHECAGENS = (
     ("precos de referencia", checar_precos_de_referencia),
+    ("cobertura de precos", checar_cobertura_de_precos),
     ("deslistadas", checar_deslistadas),
     ("fatores NEFIN", checar_fatores_nefin),
     ("identidade", checar_identidade),

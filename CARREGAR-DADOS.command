@@ -7,8 +7,10 @@
 # DEMORA HORAS na primeira vez. Pode deixar rodando e ir fazer outra coisa: enquanto
 # esta janela estiver aberta, o Mac nao adormece (o `caffeinate` cuida disso).
 #
-# Se a internet cair, ou se voce fechar a janela no meio, NAO se perde nada: cada
-# coletor e idempotente. Clique duas vezes de novo e ele continua de onde parou.
+# Se a internet cair, ou se voce fechar a janela no meio, NAO se perde nada: clique duas
+# vezes de novo e ele retoma. Os dois passos maiores (os precos da B3 e a CVM) baixam um
+# arquivo por ano e retomam PELOS ANOS QUE FALTAM, em vez de comecar do zero ou, pior, de
+# se dar por prontos com um buraco no meio.
 #
 # Tudo o que aparece na tela tambem vai para um arquivo de log, para voce poder mandar
 # o resultado sem precisar de print.

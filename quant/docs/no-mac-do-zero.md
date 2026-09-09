@@ -202,7 +202,8 @@ sozinho:
 - **o Mac não adormece** enquanto a janela estiver aberta (usa o `caffeinate` do próprio
   macOS) — Mac que dorme no meio derruba o download;
 - **se a internet cair**, nada se perde: clique duas vezes de novo e ele continua de onde
-  parou;
+  parou — os dois passos maiores (preços da B3 e CVM) retomam **ano a ano**, então uma
+  queda no meio custa o ano que estava baixando, não a carga inteira;
 - **tudo fica salvo num log** em `quant/saida/carga_<data>.log`, para você me mandar o
   arquivo em vez de tirar print.
 
@@ -220,7 +221,9 @@ python3 -m quant.dados.conferir
 
 A conferência tem que sair **sem nenhum `FALHOU`**. Se sair, pare e me mande o log: banco
 errado envenena tudo que vem depois, e a falha mais cara (empresa deslistada faltando) não
-quebra nada — só deixa o resultado bonito por engano.
+quebra nada — só deixa o resultado bonito por engano. Ela também acusa **ano faltando no
+meio da série de preços**, que é o rastro de uma carga interrompida: nesse caso não há o
+que investigar, é só clicar de novo no carregador.
 
 ### Passo 4 — O gate da Fase 1
 

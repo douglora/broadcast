@@ -12,12 +12,14 @@ funcionou, o que faltou e QUAL E O PROXIMO COMANDO. Nao inventa dado: passo que 
 passo que falha, e o relatorio final diz em que estado o banco ficou.
 
   python3 -m quant.primeira_carga                 # a carga inteira
-  python3 -m quant.primeira_carga --continuar     # pula o que ja esta no disco
+  python3 -m quant.primeira_carga --continuar     # retoma: so o que falta
   python3 -m quant.primeira_carga --so cotahist   # so um passo
   python3 -m quant.primeira_carga --listar        # o que sera feito, sem fazer
 
-CADA PASSO E IDEMPOTENTE. Rodar de novo continua de onde parou; nenhum coletor apaga o
-que ja baixou. Se a rede cair no meio, rode outra vez.
+CADA PASSO E IDEMPOTENTE, E OS DOIS MAIORES SAO IDEMPOTENTES POR ANO. Rodar de novo
+continua de onde parou; nenhum coletor apaga o que ja baixou. Se a rede cair no meio, rode
+outra vez: `--continuar` so pula o passo que esta COMPLETO — COTAHIST e CVM interrompidos
+no meio da janela retomam pelos anos que faltam, em vez de serem dados como prontos.
 
 DEMORA. A primeira vez leva horas — a maior parte no COTAHIST (20 anos de arquivos anuais
 da B3) e na CVM (DFP e ITR de 2010 para ca). E normal. Deixe rodando.
@@ -33,10 +35,19 @@ import time
 import traceback
 from datetime import date
 
-from quant.comum import DIR_BANCO, DIR_BRUTOS, log
+# DIR_BANCO de proposito NAO entra aqui: caminho de banco se pergunta a quem escreve
+# (ver o bloco de destinos abaixo). Foi montando o caminho por conta propria que este
+# modulo passou a apontar para uma pasta que o coletor nunca criou.
+from quant.comum import DIR_BRUTOS, log
 
 TENTATIVAS = 3
 ESPERA_INICIAL = 5.0          # segundos; dobra a cada tentativa
+
+# Os arquivos estruturados da CVM (DFP, ITR e FCA) comecam em 2010; antes disso so existe
+# PDF. Uma constante so, usada pelos passos E pelos destinos deles: se as duas contas de
+# "onde comeca" divergirem, `--continuar` passa a esperar um ano que nunca vai existir e o
+# passo nunca fica pronto.
+ANO_INICIAL_CVM = 2010
 
 
 # ─────────────────────────────────────────────────────────────
@@ -69,7 +80,7 @@ def _eventos(anos):
 
 def _cvm(anos):
     from quant.dados import cvm_fundamentos
-    return cvm_fundamentos.main(["--anos", f"{max(anos[0], 2010)}-{anos[1]}"])
+    return cvm_fundamentos.main(["--anos", f"{max(anos[0], ANO_INICIAL_CVM)}-{anos[1]}"])
 
 
 def _cdi(anos):
@@ -88,34 +99,87 @@ def _setores(anos):
 
 def _capital(anos):
     from quant.dados import capital_social
-    return capital_social.main(["--anos", f"{max(anos[0], 2010)}-{anos[1]}"])
+    return capital_social.main(["--anos", f"{max(anos[0], ANO_INICIAL_CVM)}-{anos[1]}"])
 
 
 def _painel(anos):
     from quant.dados import painel_fundamentos
-    return painel_fundamentos.main(["--anos", f"{max(anos[0], 2010)}-{anos[1]}"])
+    return painel_fundamentos.main(["--anos", f"{max(anos[0], ANO_INICIAL_CVM)}-{anos[1]}"])
 
 
-# nome, descricao, funcao, obrigatorio para o gate, arquivo/pasta que prova que rodou
+# ─────────────────────────────────────────────────────────────
+# Onde cada passo guarda o que baixou
+# ─────────────────────────────────────────────────────────────
+# Um destino e uma funcao anos -> [(rotulo, caminho), ...], e nao uma string. Duas razoes,
+# as duas aprendidas errando:
+#
+#   1. O CAMINHO TEM DE VIR DE QUEM ESCREVE. Este modulo ja declarou "banco/cotacoes"
+#      enquanto o coletor gravava em "banco/cotacoes_diarias/ano=AAAA/". O caminho declarado
+#      nunca existia: `--continuar` nunca pulava o passo mais caro e o `--listar` dizia
+#      "pendente" com vinte anos no disco. Perguntando ao proprio coletor, nao ha o que
+#      divergir.
+#   2. A UNIDADE DE RETOMADA E O ANO, NAO O PASSO. COTAHIST e CVM gravam um parquet por ano
+#      e sao idempotentes por ano. Carga interrompida em 2015 deixa 2005-2014 no disco;
+#      tratar "a pasta tem alguma coisa" como passo concluido transformaria o buraco de dez
+#      anos em concluido para sempre — e ai `--continuar` deixaria de ser retomada para
+#      virar omissao, que e o erro caro desta fase: nao quebra nada, so faz o backtest
+#      rodar sobre um banco que nao existe.
+def _dest_nefin(anos):
+    return [("", os.path.join(DIR_BRUTOS, "nefin"))]
+
+
+def _dest_cotahist(anos):
+    from quant.dados import cotahist
+    return [(a, cotahist.caminho_parquet(a)) for a in range(anos[0], anos[1] + 1)]
+
+
+def _dest_identidade(anos):
+    from quant.dados.identidade import ARQ_PARQUET
+    return [("", ARQ_PARQUET)]
+
+
+def _dest_eventos(anos):
+    from quant.dados.eventos import ARQ_PARQUET
+    return [("", ARQ_PARQUET)]
+
+
+def _dest_cvm(anos):
+    from quant.dados import cvm_fundamentos
+    return [(a, cvm_fundamentos.caminho_parquet(a))
+            for a in range(max(anos[0], ANO_INICIAL_CVM), anos[1] + 1)]
+
+
+def _dest_cdi(anos):
+    return [("", os.path.join(DIR_BRUTOS, "bcb"))]
+
+
+def _dest_capital(anos):
+    from quant.dados.capital_social import ARQ_PARQUET
+    return [("", ARQ_PARQUET)]
+
+
+def _dest_painel(anos):
+    from quant.dados.painel_fundamentos import ARQ_PARQUET
+    return [("", ARQ_PARQUET)]
+
+
+# nome, descricao, funcao, obrigatorio para o gate, destino (None = sem artefato: roda sempre)
 PASSOS = [
-    ("nefin", "fatores de referencia do NEFIN (GitHub)", _nefin, True,
-     os.path.join(DIR_BRUTOS, "nefin")),
+    ("nefin", "fatores de referencia do NEFIN (GitHub)", _nefin, True, _dest_nefin),
     ("cotahist", "20 anos de precos da B3 (o passo mais demorado)", _cotahist, True,
-     os.path.join(DIR_BANCO, "cotacoes")),
+     _dest_cotahist),
     ("identidade", "mapa ISIN <-> ticker <-> CD_CVM (FCA + cadastro CVM)", _identidade, True,
-     os.path.join(DIR_BANCO, "identidade.parquet")),
+     _dest_identidade),
     ("eventos", "proventos e desdobramentos (B3 + StatusInvest + curadoria)", _eventos, True,
-     os.path.join(DIR_BANCO, "eventos.parquet")),
-    ("cvm", "fundamentos point-in-time (DFP/ITR de 2010 para ca)", _cvm, False,
-     os.path.join(DIR_BANCO, "fundamentos_pit")),
-    ("cdi", "CDI diario (BCB, com queda para o Risk_Free do NEFIN)", _cdi, True,
-     os.path.join(DIR_BRUTOS, "bcb")),
-    ("setores", "macrossetor por CNPJ", _setores, False,
-     os.path.join(DIR_BANCO, "setores.parquet")),
-    ("capital", "acoes em circulacao (FCA)", _capital, False,
-     os.path.join(DIR_BANCO, "capital_social.parquet")),
-    ("painel", "painel PIT de TTM e metricas", _painel, False,
-     os.path.join(DIR_BANCO, "painel_fundamentos.parquet")),
+     _dest_eventos),
+    ("cvm", f"fundamentos point-in-time (DFP/ITR de {ANO_INICIAL_CVM} para ca)", _cvm, False,
+     _dest_cvm),
+    ("cdi", "CDI diario (BCB, com queda para o Risk_Free do NEFIN)", _cdi, True, _dest_cdi),
+    # setores nao grava artefato: le a identidade e imprime a contagem por macrossetor.
+    # Sem destino, roda sempre — sao segundos, e nao ha o que retomar.
+    ("setores", "macrossetor por CNPJ", _setores, False, None),
+    ("capital", "acoes em circulacao (FCA)", _capital, False, _dest_capital),
+    ("painel", "painel PIT de TTM e metricas", _painel, False, _dest_painel),
 ]
 
 # O gate da fase 1 so precisa de preco, identidade, evento e a referencia do NEFIN. Os
@@ -125,7 +189,7 @@ OBRIGATORIOS_DO_GATE = [p[0] for p in PASSOS if p[3]]
 
 
 def _feito(caminho):
-    """Passo concluido = destino existe E tem conteudo.
+    """Um arquivo/pasta esta la = existe E tem conteudo.
 
     Pasta vazia nao conta: um coletor que criou o diretorio e morreu na primeira
     requisicao deixaria `--continuar` pular o passo para sempre.
@@ -135,6 +199,43 @@ def _feito(caminho):
     if os.path.isdir(caminho):
         return any(os.scandir(caminho))
     return os.path.getsize(caminho) > 0
+
+
+def faltando(destino, anos):
+    """O que falta para o passo estar completo, como lista de rotulos.
+
+    Passo particionado por ano devolve os anos que faltam; passo de arquivo unico devolve
+    [""] quando o arquivo nao esta la. Destino None (passo sem artefato) sempre falta, que
+    e o jeito de dizer "roda sempre".
+    """
+    if destino is None:
+        return [""]
+    pares = list(destino(anos))
+    if not pares:                                  # janela vazia (--anos 2026-2005)
+        return [""]
+    return [rotulo for rotulo, caminho in pares if not _feito(caminho)]
+
+
+def completo(destino, anos):
+    """True so quando NADA falta. E o que `--continuar` pergunta antes de pular um passo."""
+    return not faltando(destino, anos)
+
+
+def _estado(destino, anos, mostrar=8):
+    """(estado, detalhe) para o --listar. Passo por ano diz QUAIS anos faltam: e a tela que
+    responde "ainda falta coisa?" depois de uma carga interrompida."""
+    if destino is None:
+        return ("roda sempre", "")
+    total = len(list(destino(anos)))
+    falta = faltando(destino, anos)
+    if not falta:
+        return ("ja existe", f"{total} anos no disco" if total > 1 else "")
+    if total <= 1:
+        return ("pendente", "")
+    nomes = ", ".join(str(a) for a in falta[:mostrar])
+    if len(falta) > mostrar:
+        nomes += f", ... (+{len(falta) - mostrar})"
+    return ("pendente", f"faltam {len(falta)} de {total}: {nomes}")
 
 
 def rodar_passo(nome, descricao, funcao, anos, tentativas=TENTATIVAS, espera=ESPERA_INICIAL):
@@ -215,19 +316,21 @@ def main(argv=None):
     ap.add_argument("--tentativas", type=int, default=TENTATIVAS)
     args = ap.parse_args(argv)
 
-    if args.listar:
-        for i, (nome, descricao, _f, obrigatorio, caminho) in enumerate(PASSOS, 1):
-            estado = "ja existe" if _feito(caminho) else "pendente"
-            marca = "obrigatorio" if obrigatorio else "opcional  "
-            print(f"{i}. {nome:<12} [{marca}] {estado:<10} {descricao}")
-        return 0
-
     try:
         ini, fim = (int(x) for x in str(args.anos).split("-", 1))
     except Exception:
         print(f"--anos precisa ser AAAA-AAAA (recebi {args.anos!r})")
         return 2
     anos = (ini, fim)
+
+    if args.listar:
+        for i, (nome, descricao, _f, obrigatorio, destino) in enumerate(PASSOS, 1):
+            estado, detalhe = _estado(destino, anos)
+            marca = "obrigatorio" if obrigatorio else "opcional   "
+            print(f"{i}. {nome:<12} [{marca}] {estado:<11} {descricao}")
+            if detalhe:
+                print(f"   {'':<12}  {'':<11} {detalhe}")
+        return 0
 
     escolhidos = set(args.so or [])
     if escolhidos:
@@ -241,13 +344,18 @@ def main(argv=None):
         f"{'so ' + ','.join(sorted(escolhidos)) if escolhidos else 'todos os passos'}")
     log("a primeira vez leva horas. Cada coletor e idempotente: pode interromper e voltar.")
     resultados = {}
-    for numero, (nome, descricao, funcao, obrigatorio, caminho) in enumerate(PASSOS, 1):
+    for numero, (nome, descricao, funcao, obrigatorio, destino) in enumerate(PASSOS, 1):
         if escolhidos and nome not in escolhidos:
             continue
-        if args.continuar and _feito(caminho):
-            log(f"[{numero}/{len(PASSOS)}] {nome}: ja existe, pulando (--continuar)")
+        if args.continuar and completo(destino, anos):
+            log(f"[{numero}/{len(PASSOS)}] {nome}: ja esta completo, pulando (--continuar)")
             resultados[nome] = {"codigo": 0, "erro": ""}
             continue
+        if args.continuar:
+            falta = faltando(destino, anos)
+            if len(falta) > 1 or (falta and falta[0] != ""):
+                log(f"  retomando: falta(m) {', '.join(str(x) for x in falta[:12])}"
+                    + (f" (+{len(falta) - 12})" if len(falta) > 12 else ""))
         log(f"[{numero}/{len(PASSOS)}] {nome}: {descricao}")
         comeco = time.time()
         codigo, erro = rodar_passo(nome, descricao, funcao, anos, tentativas=args.tentativas)
@@ -255,9 +363,9 @@ def main(argv=None):
         log(f"  {nome}: {'ok' if codigo == 0 else 'FALHOU'} em {time.time() - comeco:.0f}s")
 
     print(relatorio(resultados))
-    faltando = [n for n in OBRIGATORIOS_DO_GATE
+    sem_dado = [n for n in OBRIGATORIOS_DO_GATE
                 if resultados.get(n, {}).get("codigo", 1) != 0]
-    return 0 if not faltando else 1
+    return 0 if not sem_dado else 1
 
 
 if __name__ == "__main__":

@@ -10,6 +10,7 @@ FALHAR, com a palavra "sobrevivencia" no texto, porque esse e o erro que nao que
 so faz o backtest ficar bonito.
 """
 import json
+import os
 
 import pandas as pd
 import pytest
@@ -85,6 +86,101 @@ def test_pasta_vazia_nao_conta_como_passo_feito(tmp_path):
     arquivo.write_text("")
     assert pc._feito(str(arquivo)) is False
     assert pc._feito(None) is False and pc._feito(str(tmp_path / "nao_existe")) is False
+
+
+# ─────────────────────────────────────────────────────────────
+# Retomada: a unidade e o ano, nao o passo
+# ─────────────────────────────────────────────────────────────
+def _parquets(pasta, anos, pregoes=246):
+    """Escreve um parquet por ano no layout real e devolve a funcao de caminho."""
+    for ano in anos:
+        alvo = pasta / f"ano={ano}" / "parte.parquet"
+        alvo.parent.mkdir(parents=True, exist_ok=True)
+        pd.DataFrame({"data": pd.date_range(f"{ano}-01-02", periods=pregoes, freq="B")}
+                     ).to_parquet(alvo, index=False)
+    return lambda ano: str(pasta / f"ano={ano}" / "parte.parquet")
+
+
+def test_passo_por_ano_com_buraco_nao_esta_completo(tmp_path, monkeypatch):
+    """A REGRESSAO QUE IMPORTA. Carga interrompida em 2015 deixa 2005-2014 no disco. Se
+    "a pasta tem alguma coisa" contasse como concluido, o clique seguinte pularia o passo e
+    o banco ficaria com dez anos de buraco para sempre — sem nada quebrar."""
+    from quant.dados import cotahist
+    monkeypatch.setattr(cotahist, "caminho_parquet", _parquets(tmp_path, [2005, 2006, 2007]))
+    assert pc.completo(pc._dest_cotahist, (2005, 2010)) is False
+    assert pc.faltando(pc._dest_cotahist, (2005, 2010)) == [2008, 2009, 2010]
+
+
+def test_janela_completa_e_pulada_pelo_continuar(tmp_path, monkeypatch):
+    """O outro lado: carga terminada nao pode ser refeita do zero a cada clique."""
+    from quant.dados import cotahist
+    monkeypatch.setattr(cotahist, "caminho_parquet", _parquets(tmp_path, range(2005, 2011)))
+    assert pc.faltando(pc._dest_cotahist, (2005, 2010)) == []
+    assert pc.completo(pc._dest_cotahist, (2005, 2010)) is True
+
+
+def test_janela_invertida_nao_conta_como_completa(tmp_path, monkeypatch):
+    """--anos 2026-2005 gera zero anos esperados; "nada falta" nao pode virar "esta pronto"."""
+    from quant.dados import cotahist
+    monkeypatch.setattr(cotahist, "caminho_parquet", _parquets(tmp_path, []))
+    assert pc.completo(pc._dest_cotahist, (2026, 2005)) is False
+
+
+def test_o_destino_vem_de_quem_escreve(tmp_path, monkeypatch):
+    """O guarda contra o defeito original: este modulo declarava "banco/cotacoes" enquanto o
+    coletor gravava em "banco/cotacoes_diarias/ano=AAAA/". O caminho declarado nunca existia,
+    e por isso o passo mais caro nunca era pulado nem reportado como pronto."""
+    from quant.dados import cotahist, cvm_fundamentos
+    from quant.dados.eventos import ARQ_PARQUET as ARQ_EVENTOS
+    from quant.dados.identidade import ARQ_PARQUET as ARQ_IDENTIDADE
+    assert pc._dest_cotahist((2020, 2021)) == [(2020, cotahist.caminho_parquet(2020)),
+                                               (2021, cotahist.caminho_parquet(2021))]
+    assert pc._dest_identidade((2020, 2021)) == [("", ARQ_IDENTIDADE)]
+    assert pc._dest_eventos((2020, 2021)) == [("", ARQ_EVENTOS)]
+    # a CVM comeca em 2010 e a conta e UMA SO: se o passo e o destino divergissem,
+    # `--continuar` esperaria para sempre por um ano que nao existe
+    assert pc._dest_cvm((2005, 2011)) == [(2010, cvm_fundamentos.caminho_parquet(2010)),
+                                          (2011, cvm_fundamentos.caminho_parquet(2011))]
+    # e o modulo nao pode voltar a montar caminho de banco por conta propria: sem
+    # DIR_BANCO no namespace, nao ha com o que montar
+    assert not hasattr(pc, "DIR_BANCO")
+
+
+def test_setores_roda_sempre_porque_nao_grava_nada(monkeypatch):
+    """setores.main le a identidade e imprime a contagem; nao ha artefato para retomar."""
+    destino = dict((p[0], p[4]) for p in pc.PASSOS)["setores"]
+    assert destino is None
+    assert pc.completo(destino, (2005, 2026)) is False
+
+
+def test_continuar_roda_o_furado_e_pula_o_completo(tmp_path, monkeypatch, capsys):
+    """O caminho que o duplo-clique percorre, ponta a ponta. Um teste que so olhasse
+    `completo()` nao pegaria erro no `main` — e foi la que apareceu um, escondido atras de
+    um nome local que sombreava a funcao `faltando`."""
+    from quant.dados import cotahist
+    monkeypatch.setattr(cotahist, "caminho_parquet", _parquets(tmp_path, [2005, 2006, 2009]))
+    chamou = []
+    monkeypatch.setattr(pc, "PASSOS", [
+        ("cotahist", "precos", lambda anos: (chamou.append(anos), 0)[1], True, pc._dest_cotahist)])
+    monkeypatch.setattr(pc, "OBRIGATORIOS_DO_GATE", ["cotahist"])
+
+    assert pc.main(["--continuar", "--anos", "2005-2009"]) == 0
+    assert chamou == [(2005, 2009)]                      # rodou: faltavam 2007 e 2008
+    assert "2007, 2008" in capsys.readouterr().out
+
+    _parquets(tmp_path, [2007, 2008])
+    chamou.clear()
+    assert pc.main(["--continuar", "--anos", "2005-2009"]) == 0
+    assert chamou == []                                  # completo: pulou
+    assert "ja esta completo" in capsys.readouterr().out
+
+
+def test_listar_diz_quais_anos_faltam(tmp_path, monkeypatch, capsys):
+    from quant.dados import cotahist
+    monkeypatch.setattr(cotahist, "caminho_parquet", _parquets(tmp_path, [2005, 2007]))
+    pc.main(["--listar", "--anos", "2005-2007"])
+    saida = capsys.readouterr().out
+    assert "faltam 1 de 3: 2006" in saida
 
 
 # ─────────────────────────────────────────────────────────────
@@ -209,3 +305,55 @@ def test_codigo_zero_e_proximo_passo_quando_tudo_passa(monkeypatch, capsys):
     monkeypatch.setattr(cf, "CHECAGENS", (("boa", lambda: [cf._res("boa", cf.OK, "x")]),))
     assert cf.main([]) == 0
     assert "replica_nefin" in capsys.readouterr().out
+
+
+# ─────────────────────────────────────────────────────────────
+# Cobertura: anos inteiros faltando no meio da serie
+# ─────────────────────────────────────────────────────────────
+def _precos(tmp_path, monkeypatch, anos, pregoes=246):
+    from quant.dados import cotahist
+    monkeypatch.setattr(cotahist, "caminho_parquet", _parquets(tmp_path, anos, pregoes))
+
+
+def test_buraco_no_meio_da_serie_falha_e_nomeia_os_anos(tmp_path, monkeypatch):
+    """Sem esta checagem, um banco sem 2012-2013 passa em tudo aqui e morre no gate, onde a
+    mensagem culpa "o banco esta errado" sem dizer que faltam anos."""
+    _precos(tmp_path, monkeypatch, [2008, 2009, 2010, 2011, 2014, 2015])
+    r = cf.checar_cobertura_de_precos()
+    assert r[0]["estado"] == cf.FALHOU
+    assert "2012, 2013" in r[0]["detalhe"] and "--continuar" in r[0]["detalhe"]
+
+
+def test_serie_seguida_passa(tmp_path, monkeypatch):
+    _precos(tmp_path, monkeypatch, range(2008, 2015))
+    r = cf.checar_cobertura_de_precos()
+    assert [x["estado"] for x in r] == [cf.OK]
+    assert "2008 a 2014" in r[0]["detalhe"]
+
+
+def test_banco_sem_precos_e_pulada_e_nao_reprova(tmp_path, monkeypatch):
+    """"Ainda nao carreguei" nao pode virar "banco errado": e a diferenca entre esperar e parar."""
+    _precos(tmp_path, monkeypatch, [])
+    r = cf.checar_cobertura_de_precos()
+    assert [x["estado"] for x in r] == [cf.PULADA]
+
+
+def test_serie_que_comeca_tarde_demais_para_o_gate_reprova(tmp_path, monkeypatch):
+    """Sem buraco, mas comecando em 2015: o gate roda de 2008 e nao teria o que comparar."""
+    _precos(tmp_path, monkeypatch, range(2015, 2020))
+    r = cf.checar_cobertura_de_precos()
+    assert [x["checagem"] for x in r] == ["cobertura de precos", "inicio da serie"]
+    assert r[0]["estado"] == cf.OK and r[1]["estado"] == cf.FALHOU
+    assert "2008" in r[1]["detalhe"]
+
+
+def test_ano_truncado_e_acusado(tmp_path, monkeypatch):
+    """Parquet com 12 pregoes num ano fechado e ano pela metade, nao ano carregado."""
+    from quant.dados import cotahist
+    caminho = _parquets(tmp_path, range(2008, 2013))
+    _parquets(tmp_path, [2011], pregoes=12)
+    monkeypatch.setattr(cotahist, "caminho_parquet", caminho)
+    r = cf.checar_cobertura_de_precos()
+    curto = [x for x in r if x["checagem"] == "ano 2011"]
+    assert len(curto) == 1 and curto[0]["estado"] == cf.FALHOU
+    assert "12 pregoes" in curto[0]["detalhe"]
