@@ -13,7 +13,7 @@ spreads de credito privado e ranking de TIR real.
 | `INICIAR-TERMINAL.bat/.command` | Atalhos de duplo clique                                   |
 | `INSTALAR-PLUGINS-CLAUDE.bat/.command` | Instala os plugins financeiros do Claude no computador |
 | `GUIA-PLUGINS-CLAUDE.md`    | Como ativar e usar os plugins de analise e research           |
-| `.claude/`                  | Plugins do Claude Code declarados para este repositorio       |
+| `.claude/`                  | Plugins do Claude Code deste repositorio e hook que os instala |
 
 ---
 
@@ -162,11 +162,11 @@ terminal usa a mesma origem e nao pede configuracao nenhuma.
 
 O repositorio vem com os plugins de **Financial Services** da Anthropic
 (DCF, comparaveis, notas de resultado, teses) e o **Claude for Financial
-Advisors** declarados em `.claude/settings.json`, que o Claude Code le ao
-abrir esta pasta, na web ou no computador. Para instalar de uma vez e ter os
-comandos em qualquer pasta do computador, clique duas vezes em
-`INSTALAR-PLUGINS-CLAUDE.command` (macOS) ou `INSTALAR-PLUGINS-CLAUDE.bat`
-(Windows).
+Advisors** declarados em `.claude/settings.json`. Ao abrir o Claude Code
+nesta pasta, na web ou no computador, um hook de inicio de sessao instala o
+que faltar. Para ter os comandos em qualquer pasta do computador, clique duas
+vezes em `INSTALAR-PLUGINS-CLAUDE.command` (macOS) ou
+`INSTALAR-PLUGINS-CLAUDE.bat` (Windows).
 
 Comandos, fluxos para empresas da B3 e manutencao: **GUIA-PLUGINS-CLAUDE.md**.
 

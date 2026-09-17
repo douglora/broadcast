@@ -8,8 +8,8 @@
 # Linux: ./INSTALAR-PLUGINS-CLAUDE.command
 #
 # Idempotente: o que ja esta instalado e so conferido. Com --quiet roda sem
-# janela nem pausa e imprime uma linha de resumo (para o Claude na web, por
-# exemplo: "rode bash INSTALAR-PLUGINS-CLAUDE.command --quiet").
+# janela nem pausa e imprime uma linha de resumo: e assim que o hook
+# SessionStart de .claude/settings.json o chama ao abrir uma sessao nesta pasta.
 cd "$(dirname "$0")" || exit 1
 
 QUIET=0

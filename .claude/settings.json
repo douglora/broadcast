@@ -21,5 +21,19 @@
         "repo": "anthropics/claude-for-financial-advisors"
       }
     }
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/INSTALAR-PLUGINS-CLAUDE.command\" --quiet",
+            "timeout": 300
+          }
+        ]
+      }
+    ]
   }
 }

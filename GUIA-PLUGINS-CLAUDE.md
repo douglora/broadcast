@@ -40,14 +40,12 @@ os sete plugins. E o mecanismo que a documentacao do Claude Code indica para
 sessoes na nuvem, e tambem o que faz o Claude Code de qualquer computador
 reconhecer os plugins ao confiar nesta pasta.
 
-Se ao abrir uma sessao os comandos `/financial-analysis:...` nao aparecerem,
-peca ao Claude: "rode `bash INSTALAR-PLUGINS-CLAUDE.command --quiet`". Leva
-uns 30 segundos e imprime um resumo. Plugins instalados com a sessao ja
-aberta passam a valer na sessao seguinte, ou na mesma se voce digitar
-`/reload-plugins`.
-
-Quer que isso aconteca sozinho? Veja "Opcional: instalar sozinho ao abrir a
-sessao", no fim deste guia.
+Alem disso, um hook `SessionStart` roda `INSTALAR-PLUGINS-CLAUDE.command
+--quiet` toda vez que uma sessao abre nesta pasta e instala o que faltar.
+Plugins instalados durante o inicio da sessao carregam na sessao seguinte;
+na web o ambiente guarda esse estado, entao dali em diante os comandos ja
+aparecem ao abrir. Para usar na mesma sessao, digite `/reload-plugins`.
+Detalhes em "Instalacao automatica ao abrir a sessao", no fim deste guia.
 
 ### 2. Claude Code no seu computador (Mac ou Windows)
 
@@ -60,8 +58,8 @@ Clique duas vezes em:
 
 Ele instala no escopo de usuario, entao os plugins valem em **qualquer
 pasta** do computador, nao so nesta. Precisa do Claude Code instalado
-(https://code.claude.com/docs/en/setup). Alternativa: numa sessao do Claude
-Code aberta nesta pasta, peca "rode `bash INSTALAR-PLUGINS-CLAUDE.command --quiet`".
+(https://code.claude.com/docs/en/setup). Alternativa: abrir o Claude Code
+dentro desta pasta; o hook faz a mesma instalacao.
 
 ### 3. Cowork (app do Claude para desktop)
 
@@ -218,14 +216,11 @@ Se quiser que valha tambem na web, inclua o nome em `enabledPlugins` no
 
 ---
 
-## Opcional: instalar sozinho ao abrir a sessao
+## Instalacao automatica ao abrir a sessao
 
-O Claude Code aceita um hook `SessionStart`: um comando que roda toda vez que
-uma sessao abre nesta pasta, na web ou no computador. Com ele, o instalador
-roda em silencio no inicio de cada sessao e instala o que faltar. Por ser um
-comando que executa sozinho em todas as sessoes futuras, ele nao vem ligado;
-a decisao e sua. Para ligar, acrescente este bloco ao `.claude/settings.json`,
-ao lado de `enabledPlugins`:
+Esta ligado. O `.claude/settings.json` registra um hook `SessionStart`, um
+comando que roda toda vez que uma sessao do Claude Code abre nesta pasta, na
+web ou no computador:
 
 ```json
 "hooks": {
@@ -244,9 +239,15 @@ ao lado de `enabledPlugins`:
 }
 ```
 
-Quando ja esta tudo instalado o hook leva menos de um segundo. Quando
-instala algo, os plugins carregam na sessao seguinte, e o resumo que ele
-imprime entra no contexto do Claude, que avisa voce.
+Ele chama o mesmo instalador do duplo clique, em silencio. Quando ja esta
+tudo instalado leva menos de um segundo. Quando instala algo, os plugins
+carregam na sessao seguinte, e o resumo que ele imprime entra no contexto do
+Claude, que avisa voce. O hook so roda depois que voce confia na pasta, e
+nunca impede a sessao de abrir: sem internet ele apenas registra a falha.
+
+Para desligar, apague o bloco `hooks` do `.claude/settings.json`. Os plugins
+declarados em `enabledPlugins` continuam valendo; so a instalacao deixa de
+ser automatica.
 
 ---
 
