@@ -11,6 +11,9 @@ spreads de credito privado e ranking de TIR real.
 | `gerar_dados.py`            | Gera o retrato estatico publicado no GitHub Pages             |
 | `tir_real_servidor.py`      | Modelo DDM da TIR real (LPA, payout, P/L, rating)             |
 | `INICIAR-TERMINAL.bat/.command` | Atalhos de duplo clique                                   |
+| `INSTALAR-PLUGINS-CLAUDE.bat/.command` | Instala os plugins financeiros do Claude no computador |
+| `GUIA-PLUGINS-CLAUDE.md`    | Como ativar e usar os plugins de analise e research           |
+| `.claude/`                  | Plugins do Claude Code deste repositorio e hook que os instala |
 
 ---
 
@@ -152,6 +155,20 @@ cloudflared tunnel --url http://localhost:5051
 Envie a URL gerada aos clientes — eles colam no modal de configuracao.
 Servido pelo proprio `app.py` (local, rede interna ou servidor proprio), o
 terminal usa a mesma origem e nao pede configuracao nenhuma.
+
+---
+
+## Plugins financeiros do Claude
+
+O repositorio vem com os plugins de **Financial Services** da Anthropic
+(DCF, comparaveis, notas de resultado, teses) e o **Claude for Financial
+Advisors** declarados em `.claude/settings.json`. Ao abrir o Claude Code
+nesta pasta, na web ou no computador, um hook de inicio de sessao instala o
+que faltar. Para ter os comandos em qualquer pasta do computador, clique duas
+vezes em `INSTALAR-PLUGINS-CLAUDE.command` (macOS) ou
+`INSTALAR-PLUGINS-CLAUDE.bat` (Windows).
+
+Comandos, fluxos para empresas da B3 e manutencao: **GUIA-PLUGINS-CLAUDE.md**.
 
 ---
 

@@ -10,3 +10,6 @@ vendor/
 
 # Ambiente virtual criado pelo app.py quando o Python do sistema recusa instalar
 .venv/
+
+# Overrides pessoais do Claude Code (o settings.json compartilhado fica versionado)
+.claude/settings.local.json
