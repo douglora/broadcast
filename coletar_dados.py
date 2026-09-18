@@ -386,8 +386,217 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
     outros = [d for d in docs if d["categoria"] != "Fato Relevante"][:limite]
     fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros; casamento {metodo}; "
                      f"empresa: {docs[0]['empresa']})") if docs else "sem documentos casados"
+    codigos = {}
+    for row in linhas:
+        empresa = (row.get("Nome_Companhia") or "").strip()
+        if docs and empresa == docs[0]["empresa"]:
+            codigos[empresa] = (row.get("Codigo_CVM") or "").strip()
+            break
     return {"fatos_relevantes": fatos, "outros_documentos": outros,
-            "empresas_casadas": sorted({d["empresa"] for d in docs})}
+            "empresas_casadas": sorted({d["empresa"] for d in docs}),
+            "codigo_cvm": codigos.get(docs[0]["empresa"]) if docs else None}
+
+
+# ───────────────────────── SEC XBRL (demonstracoes oficiais, EUA) ─────────────────────────
+# Para empresas que reportam a SEC (acoes dos EUA e ADRs de brasileiras), a API
+# companyfacts entrega cada linha das demonstracoes, trimestre a trimestre e
+# ano a ano, direto do XBRL dos 10-Q, 10-K e 20-F. E a fonte oficial.
+SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
+SEC_FACTS_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"
+SEC_HEADERS = {"User-Agent": app.SEC_UA, "Accept-Encoding": "gzip, deflate"}
+
+# ADR nos EUA de empresas da B3 (20-F anual em IFRS)
+ADR_DE_B3 = {
+    "PETR4": "PBR", "PETR3": "PBR", "VALE3": "VALE", "ITUB4": "ITUB", "ITUB3": "ITUB",
+    "BBDC4": "BBD", "BBDC3": "BBDO", "SANB11": "BSBR", "ABEV3": "ABEV", "SUZB3": "SUZ",
+    "GGBR4": "GGB", "SBSP3": "SBS", "CMIG4": "CIG", "CPLE6": "ELP", "BRFS3": "BRFS",
+    "EMBR3": "ERJ", "ELET3": "EBR", "TIMS3": "TIMB", "VIVT3": "VIV", "UGPA3": "UGP",
+    "BRKM5": "BAK", "AZUL4": "AZUL", "CSNA3": "SID", "NTCO3": "NTCO", "PAGS": "PAGS",
+}
+
+# Linhas que interessam, por taxonomia. Chave = nome amigavel; valor = tags candidatas.
+SEC_LINHAS = {
+    "receita": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet", "Revenue"],
+    "custo": ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfSales"],
+    "lucro_bruto": ["GrossProfit"],
+    "despesas_vendas_marketing": ["SellingAndMarketingExpense"],
+    "despesas_gerais_adm": ["GeneralAndAdministrativeExpense"],
+    "pesquisa_desenvolvimento": ["ResearchAndDevelopmentExpense"],
+    "provisao_devedores_duvidosos": ["ProvisionForDoubtfulAccounts", "ProvisionForLoanLossesExpensed"],
+    "ebit": ["OperatingIncomeLoss", "ProfitLossFromOperatingActivities"],
+    "despesa_juros": ["InterestExpense", "InterestExpenseNonoperating", "FinanceCosts"],
+    "lucro_antes_ir": ["IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest", "ProfitLossBeforeTax"],
+    "imposto_renda": ["IncomeTaxExpenseBenefit", "IncomeTaxExpenseContinuingOperations"],
+    "lucro_liquido": ["NetIncomeLoss", "ProfitLoss", "ProfitLossAttributableToOwnersOfParent"],
+    "lpa_diluido": ["EarningsPerShareDiluted", "DilutedEarningsLossPerShare"],
+    "depreciacao_amortizacao": ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization", "DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss"],
+    "ativo_total": ["Assets"],
+    "caixa": ["CashAndCashEquivalentsAtCarryingValue", "CashAndCashEquivalents"],
+    "patrimonio_liquido": ["StockholdersEquity", "Equity", "EquityAttributableToOwnersOfParent"],
+    "divida_curto_prazo": ["DebtCurrent", "LongTermDebtCurrent", "ShorttermBorrowings", "CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings"],
+    "divida_longo_prazo": ["LongTermDebtNoncurrent", "LongTermDebt", "NoncurrentPortionOfNoncurrentBorrowings"],
+    "carteira_credito": ["LoansAndLeasesReceivableNetReportedAmount", "NotesReceivableNet", "LoansAndAdvancesToCustomers"],
+    "caixa_operacional": ["NetCashProvidedByUsedInOperatingActivities", "CashFlowsFromUsedInOperatingActivities"],
+    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"],
+    "acoes_diluidas": ["WeightedAverageNumberOfDilutedSharesOutstanding", "DilutedWeightedAverageNumberOfShares"],
+}
+_SEC_TICKERS = {}
+
+
+def _cik_por_ticker(simbolo):
+    global _SEC_TICKERS
+    if not _SEC_TICKERS:
+        r = app.http_get(SEC_TICKERS_URL, timeout=30, headers=SEC_HEADERS)
+        if r:
+            try:
+                _SEC_TICKERS = {v["ticker"].upper(): int(v["cik_str"]) for v in r.json().values()}
+            except Exception:
+                _SEC_TICKERS = {}
+    return _SEC_TICKERS.get(simbolo.upper())
+
+
+def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
+    cik = _cik_por_ticker(simbolo)
+    if not cik:
+        fontes["sec_xbrl"] = f"sem CIK para {simbolo}"
+        return {}
+    r = app.http_get(SEC_FACTS_URL.format(cik=cik), timeout=90, headers=SEC_HEADERS)
+    if not r:
+        fontes["sec_xbrl"] = "falha: companyfacts indisponivel"
+        return {}
+    try:
+        facts = r.json().get("facts", {})
+    except Exception:
+        fontes["sec_xbrl"] = "falha: JSON ilegivel"
+        return {}
+    taxonomias = [tx for tx in ("us-gaap", "ifrs-full") if tx in facts]
+    out = {"cik": cik, "taxonomias": taxonomias, "trimestral": {}, "anual": {}, "tags_usadas": {}}
+    for nome, candidatos in SEC_LINHAS.items():
+        for tag in candidatos:
+            serie = None
+            for tx in taxonomias:
+                if tag in facts.get(tx, {}):
+                    serie = facts[tx][tag]
+                    break
+            if not serie:
+                continue
+            unidades = serie.get("units", {})
+            valores = unidades.get("USD") or unidades.get("USD/shares") or unidades.get("shares") \
+                or unidades.get("BRL") or next(iter(unidades.values()), [])
+            tri, anu = {}, {}
+            for v in valores:
+                frame = v.get("frame")
+                if not frame:
+                    continue
+                if re.fullmatch(r"CY\d{4}Q[1-4]", frame):
+                    tri[frame] = v.get("val")
+                elif re.fullmatch(r"CY\d{4}", frame):
+                    anu[frame] = v.get("val")
+            if tri or anu:
+                out["trimestral"][nome] = dict(sorted(tri.items())[-max_periodos:])
+                out["anual"][nome] = dict(sorted(anu.items())[-15:])
+                out["tags_usadas"][nome] = tag
+                break
+    n = len(out["tags_usadas"])
+    fontes["sec_xbrl"] = f"ok ({n} linhas; CIK {cik})" if n else "vazio"
+    return out
+
+
+# ───────────────────────── CVM ITR/DFP (demonstracoes oficiais, B3) ─────────────────────────
+# Dados abertos da CVM: um zip por ano com todas as companhias. Filtramos pelo
+# codigo CVM da empresa (obtido no IPE) e guardamos as contas principais das
+# demonstracoes consolidadas: DRE, balanco (ativo e passivo) e fluxo de caixa.
+CVM_DFP_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/dfp_cia_aberta_{ano}.zip"
+CVM_ITR_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/DADOS/itr_cia_aberta_{ano}.zip"
+CVM_CONTAS = {
+    "3.01": "receita_liquida", "3.02": "custos", "3.03": "resultado_bruto",
+    "3.04": "despesas_receitas_operacionais", "3.05": "ebit", "3.06": "resultado_financeiro",
+    "3.07": "resultado_antes_ir", "3.08": "imposto_renda", "3.09": "resultado_operacoes_continuadas",
+    "3.11": "lucro_liquido_consolidado", "3.99.02.01": "lpa_diluido_on",
+    "1": "ativo_total", "1.01": "ativo_circulante", "1.01.01": "caixa_equivalentes",
+    "1.01.02": "aplicacoes_financeiras", "1.01.04": "estoques", "1.02": "ativo_nao_circulante",
+    "2.01": "passivo_circulante", "2.01.04": "emprestimos_curto_prazo", "2.02": "passivo_nao_circulante",
+    "2.02.01": "emprestimos_longo_prazo", "2.03": "patrimonio_liquido_consolidado",
+    "6.01": "caixa_operacional", "6.02": "caixa_investimento", "6.03": "caixa_financiamento",
+}
+_CVM_ZIPS = {}
+
+
+def _csvs_do_zip(url):
+    """{nome_arquivo: linhas(dict)} dos CSVs de um zip da CVM (baixa uma vez por execucao)."""
+    if url in _CVM_ZIPS:
+        return _CVM_ZIPS[url]
+    r = app.http_get(url, timeout=180)
+    arquivos = {}
+    if r:
+        try:
+            import zipfile
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                for nome in z.namelist():
+                    low = nome.lower()
+                    if low.endswith(".csv") and any(k in low for k in ("_dre_con_", "_bpa_con_", "_bpp_con_", "_dfc_mi_con_")):
+                        arquivos[nome] = z.read(nome).decode("latin-1")
+        except Exception as e:
+            print(f"  cvm: zip ilegivel {url[-40:]}: {e}")
+    _CVM_ZIPS[url] = arquivos
+    return arquivos
+
+
+def _demonstracoes_cvm(arquivos, cd_cvm, tipo):
+    """Filtra as contas da empresa (ultima versao de cada periodo). tipo = 'dfp' ou 'itr'."""
+    saida = {}
+    alvo = str(int(cd_cvm))
+    for nome, texto in arquivos.items():
+        for row in csv.DictReader(io.StringIO(texto), delimiter=";"):
+            try:
+                if str(int(row.get("CD_CVM") or 0)) != alvo:
+                    continue
+            except ValueError:
+                continue
+            if (row.get("ORDEM_EXERC") or "").upper() != "ÚLTIMO":
+                continue
+            conta = (row.get("CD_CONTA") or "").strip()
+            chave = CVM_CONTAS.get(conta)
+            if not chave:
+                continue
+            fim = (row.get("DT_FIM_EXERC") or "")[:10]
+            ini = (row.get("DT_INI_EXERC") or "")[:10]
+            try:
+                # A CVM publica a escala como texto ("MIL" ou "UNIDADE"); guardamos em R$ milhoes
+                escala = (row.get("ESCALA_MOEDA") or "").strip().upper()
+                fator = 1000.0 if escala == "MIL" else 1.0
+                valor = float((row.get("VL_CONTA") or "0").replace(",", ".")) * fator / 1e6
+            except ValueError:
+                continue
+            # DRE e DFC do ITR trazem o trimestre (3 meses) e o acumulado no ano:
+            # marcamos o periodo pelo intervalo para nao misturar.
+            periodo = fim if not ini else f"{ini}..{fim}"
+            saida.setdefault(chave, {})[periodo] = round(valor, 3)
+    return saida
+
+
+def coletar_cvm_demonstracoes(cd_cvm, fontes):
+    if not cd_cvm:
+        fontes["cvm_demonstracoes"] = "sem codigo CVM (IPE nao casou a empresa)"
+        return {}
+    ano = datetime.now(timezone.utc).year
+    out = {"cd_cvm": cd_cvm, "unidade": "R$ milhoes", "dfp_anual": {}, "itr_trimestral": {}}
+    for a in (ano - 1, ano - 2, ano - 3):
+        arq = _csvs_do_zip(CVM_DFP_URL.format(ano=a))
+        if arq:
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp").items():
+                out["dfp_anual"].setdefault(k, {}).update(v)
+    for a in (ano, ano - 1):
+        arq = _csvs_do_zip(CVM_ITR_URL.format(ano=a))
+        if arq:
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr").items():
+                out["itr_trimestral"].setdefault(k, {}).update(v)
+    for bloco in ("dfp_anual", "itr_trimestral"):
+        for k in out[bloco]:
+            out[bloco][k] = dict(sorted(out[bloco][k].items()))
+    n_a, n_t = len(out["dfp_anual"]), len(out["itr_trimestral"])
+    fontes["cvm_demonstracoes"] = f"ok (DFP: {n_a} contas, ITR: {n_t} contas)" if (n_a or n_t) else "vazio: zips da CVM sem a empresa"
+    return out
 
 
 # ───────────────────────── Macro e TIR ─────────────────────────
@@ -441,6 +650,24 @@ def coletar_ativo(tk, macro):
             fontes["cvm"] = f"falha geral: {type(e).__name__}: {e}"[:160]
             dados["cvm"] = {}
 
+    # Demonstracoes oficiais
+    if eh_simbolo_us(tk):
+        try:
+            dados["sec_xbrl"] = coletar_sec_xbrl(tk, fontes)
+        except Exception as e:
+            fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+    else:
+        try:
+            dados["cvm_demonstracoes"] = coletar_cvm_demonstracoes((dados.get("cvm") or {}).get("codigo_cvm"), fontes)
+        except Exception as e:
+            fontes["cvm_demonstracoes"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        adr = ADR_DE_B3.get(tk)
+        if adr:
+            try:
+                dados["sec_xbrl_adr"] = {"adr": adr, **coletar_sec_xbrl(adr, fontes)}
+            except Exception as e:
+                fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+
     # BDR: traz tambem a acao-mae nos EUA e a paridade implicita
     if eh_bdr(tk):
         base = tk[:4]
@@ -449,6 +676,10 @@ def coletar_ativo(tk, macro):
             sub = coletar_yahoo(base, fontes_sub, simbolo=base)
             sub_info = sub.get("info") or {}
             dados["subjacente_us"] = {"simbolo": base, "fontes": fontes_sub, "yahoo": sub}
+            try:
+                dados["subjacente_us"]["sec_xbrl"] = coletar_sec_xbrl(base, fontes_sub)
+            except Exception as e:
+                fontes_sub["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
             preco_bdr = info.get("currentPrice") or info.get("regularMarketPrice")
             preco_us = sub_info.get("currentPrice") or sub_info.get("regularMarketPrice")
             dolar = (macro.get("dolar_ptax") or {}).get("value")
