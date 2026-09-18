@@ -1,0 +1,209 @@
+# Calendario do livro: feriados por mercado, horarios de pregao em fuso local
+# (o runner converte para BRT com zoneinfo, imune ao horario de verao dos EUA/UK),
+# calendario macro fixo e datas de resultado. Recarregar a cada trimestre.
+#
+# Confianca: alta = calendario oficial anual publicado; media = fonte secundaria
+# consistente ou padrao do emissor; baixa = estimativa (a rotina narra como
+# "a confirmar").
+
+versao: 1
+atualizado_em: "2026-09-18"
+
+mercados:
+  B3:     {tz: America/Sao_Paulo, abre: "10:00", fecha: "17:00", dias: [0, 1, 2, 3, 4]}
+  NYSE:   {tz: America/New_York,  abre: "09:30", fecha: "16:00", dias: [0, 1, 2, 3, 4]}
+  LSE:    {tz: Europe/London,     abre: "08:00", fecha: "16:30", dias: [0, 1, 2, 3, 4]}
+  AMS:    {tz: Europe/Amsterdam,  abre: "09:00", fecha: "17:30", dias: [0, 1, 2, 3, 4]}
+  KRX:    {tz: Asia/Seoul,        abre: "09:00", fecha: "15:30", dias: [0, 1, 2, 3, 4]}
+  ICE:    {tz: America/New_York,  abre: "20:00", fecha: "17:00", dias: [0, 1, 2, 3, 4], continuo: true}
+  FX:     {tz: America/Sao_Paulo, abre: "00:00", fecha: "18:00", dias: [0, 1, 2, 3, 4], continuo: true}
+  CRIPTO: {tz: UTC,               abre: "00:00", fecha: "00:00", dias: [0, 1, 2, 3, 4, 5, 6], continuo: true}
+
+feriados:
+  B3:
+    - 2026-01-01
+    - 2026-02-16
+    - 2026-02-17
+    - 2026-04-03
+    - 2026-04-21
+    - 2026-05-01
+    - 2026-06-04
+    - 2026-09-07
+    - 2026-10-12
+    - 2026-11-02
+    - 2026-11-20
+    - 2026-12-24
+    - 2026-12-25
+    - 2026-12-31
+    - 2027-01-01
+    - 2027-02-08
+    - 2027-02-09
+    - 2027-03-26
+    - 2027-04-21
+    - 2027-05-01
+    - 2027-05-27
+    - 2027-09-07
+    - 2027-10-12
+    - 2027-11-02
+    - 2027-11-15
+    - 2027-11-20
+    - 2027-12-24
+    - 2027-12-31
+  NYSE:
+    - 2026-01-01
+    - 2026-01-19
+    - 2026-02-16
+    - 2026-04-03
+    - 2026-05-25
+    - 2026-06-19
+    - 2026-07-03
+    - 2026-09-07
+    - 2026-11-26
+    - 2026-12-25
+    - 2027-01-01
+    - 2027-01-18
+    - 2027-02-15
+    - 2027-03-26
+    - 2027-05-31
+    - 2027-06-18
+    - 2027-07-05
+    - 2027-09-06
+    - 2027-11-25
+    - 2027-12-24
+  LSE:
+    - 2026-01-01
+    - 2026-04-03
+    - 2026-04-06
+    - 2026-05-04
+    - 2026-05-25
+    - 2026-08-31
+    - 2026-12-25
+    - 2026-12-28
+    - 2027-01-01
+    - 2027-03-26
+    - 2027-03-29
+    - 2027-05-03
+    - 2027-05-31
+    - 2027-08-30
+    - 2027-12-27
+    - 2027-12-28
+  AMS:
+    - 2026-01-01
+    - 2026-04-03
+    - 2026-04-06
+    - 2026-05-01
+    - 2026-12-25
+    - 2027-01-01
+    - 2027-03-26
+    - 2027-03-29
+  KRX:
+    - 2026-01-01
+    - 2026-02-16
+    - 2026-02-17
+    - 2026-02-18
+    - 2026-03-02
+    - 2026-05-01
+    - 2026-05-05
+    - 2026-05-25
+    - 2026-06-03
+    - 2026-08-17
+    - 2026-09-24
+    - 2026-09-25
+    - 2026-10-05
+    - 2026-10-09
+    - 2026-12-25
+  ICE: []
+  FX: []
+  CRIPTO: []
+
+meio_pregao:
+  NYSE: [2026-11-27, 2026-12-24]
+  LSE: [2026-12-24, 2026-12-31]
+
+eventos_macro:
+  - {data: 2026-09-24, hora_brt: "09:00", evento: "Relatorio de Politica Monetaria 3T26 (BCB)", pais: BR, confianca: media}
+  - {data: 2026-09-25, hora_brt: "09:00", evento: "IPCA-15 de setembro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-10-02, hora_brt: "09:30", evento: "Payroll de setembro (BLS)", pais: EUA, confianca: alta}
+  - {data: 2026-10-04, hora_brt: "", evento: "OPEP+ (grupo dos 8): cotas de novembro", pais: Global, confianca: baixa}
+  - {data: 2026-10-09, hora_brt: "09:00", evento: "IPCA de setembro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-10-14, hora_brt: "09:30", evento: "CPI de setembro (BLS)", pais: EUA, confianca: alta}
+  - {data: 2026-10-14, hora_brt: "", evento: "Vencimento de opcoes sobre indice e futuros de Ibovespa (B3)", pais: BR, confianca: media}
+  - {data: 2026-10-15, hora_brt: "09:30", evento: "PPI de setembro (BLS)", pais: EUA, confianca: alta}
+  - {data: 2026-10-16, hora_brt: "", evento: "Vencimento de opcoes sobre acoes (B3)", pais: BR, confianca: media}
+  - {data: 2026-10-23, hora_brt: "09:00", evento: "IPCA-15 de outubro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-10-28, hora_brt: "15:00", evento: "FOMC: decisao de juros (sem projecoes)", pais: EUA, confianca: alta}
+  - {data: 2026-10-29, hora_brt: "09:30", evento: "PIB dos EUA 3T26, estimativa avancada (BEA)", pais: EUA, confianca: media}
+  - {data: 2026-10-29, hora_brt: "10:15", evento: "BCE: decisao de politica monetaria", pais: EUR, confianca: alta}
+  - {data: 2026-10-30, hora_brt: "09:30", evento: "PCE de setembro (BEA) e Employment Cost Index 3T26 (BLS)", pais: EUA, confianca: baixa}
+  - {data: 2026-10-30, hora_brt: "", evento: "Banco do Japao: decisao e Outlook Report", pais: JP, confianca: alta}
+  - {data: 2026-11-01, hora_brt: "", evento: "OPEP+ (grupo dos 8) e possivel JMMC", pais: Global, confianca: baixa}
+  - {data: 2026-11-01, hora_brt: "", evento: "Fim do horario de verao nos EUA: NY passa a fechar 18h BRT", pais: EUA, confianca: alta}
+  - {data: 2026-11-04, hora_brt: "18:30", evento: "Copom: decisao da Selic", pais: BR, confianca: alta}
+  - {data: 2026-11-06, hora_brt: "10:30", evento: "Payroll de outubro (BLS)", pais: EUA, confianca: media}
+  - {data: 2026-11-10, hora_brt: "08:00", evento: "Ata do Copom", pais: BR, confianca: alta}
+  - {data: 2026-11-12, hora_brt: "09:00", evento: "IPCA de outubro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-11-18, hora_brt: "10:30", evento: "CPI de outubro (BLS)", pais: EUA, confianca: baixa}
+  - {data: 2026-11-18, hora_brt: "", evento: "Vencimento de opcoes sobre indice e futuros de Ibovespa (B3)", pais: BR, confianca: media}
+  - {data: 2026-11-23, hora_brt: "", evento: "Vencimento de opcoes sobre acoes (B3, rolado pelo feriado de 20/11)", pais: BR, confianca: baixa}
+  - {data: 2026-11-25, hora_brt: "10:30", evento: "PIB 3T26 (2a estimativa) e PCE de outubro (BEA)", pais: EUA, confianca: media}
+  - {data: 2026-11-26, hora_brt: "09:00", evento: "IPCA-15 de novembro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-11-26, hora_brt: "", evento: "Thanksgiving: NYSE fechada (27/11 meio pregao)", pais: EUA, confianca: alta}
+  - {data: 2026-12-02, hora_brt: "09:00", evento: "PIB do Brasil 3T26 (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-12-04, hora_brt: "10:30", evento: "Payroll de novembro (BLS)", pais: EUA, confianca: media}
+  - {data: 2026-12-09, hora_brt: "16:00", evento: "FOMC: decisao de juros com projecoes (dot plot)", pais: EUA, confianca: alta}
+  - {data: 2026-12-09, hora_brt: "18:30", evento: "Copom: decisao da Selic (ultima de 2026)", pais: BR, confianca: alta}
+  - {data: 2026-12-10, hora_brt: "10:30", evento: "CPI de novembro (BLS)", pais: EUA, confianca: alta}
+  - {data: 2026-12-11, hora_brt: "09:00", evento: "IPCA de novembro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-12-15, hora_brt: "08:00", evento: "Ata do Copom", pais: BR, confianca: alta}
+  - {data: 2026-12-16, hora_brt: "", evento: "Vencimento de opcoes sobre indice e futuros de Ibovespa (B3)", pais: BR, confianca: media}
+  - {data: 2026-12-17, hora_brt: "09:00", evento: "Relatorio de Politica Monetaria 4T26 (BCB)", pais: BR, confianca: baixa}
+  - {data: 2026-12-17, hora_brt: "10:15", evento: "BCE: decisao com projecoes", pais: EUR, confianca: alta}
+  - {data: 2026-12-18, hora_brt: "", evento: "Banco do Japao: decisao", pais: JP, confianca: alta}
+  - {data: 2026-12-18, hora_brt: "", evento: "Vencimento de opcoes sobre acoes (B3) e quadruple witching (EUA)", pais: BR/EUA, confianca: media}
+  - {data: 2026-12-23, hora_brt: "09:00", evento: "IPCA-15 de dezembro (IBGE)", pais: BR, confianca: media}
+  - {data: 2026-12-23, hora_brt: "10:30", evento: "PCE de novembro e PIB 3T26 (3a estimativa) (BEA)", pais: EUA, confianca: baixa}
+
+recorrentes:
+  - {dia_semana: 0, hora_brt: "08:25", evento: "Relatorio Focus (BCB)", pais: BR}
+  - {dia_semana: 1, hora_brt: "11:00", evento: "Leilao do Tesouro: LTN/NTN-F", pais: BR}
+  - {dia_semana: 3, hora_brt: "11:00", evento: "Leilao do Tesouro: NTN-B", pais: BR}
+
+resultados:
+  - {ticker: MU, data: 2026-09-30, quando: apos_ny, confirmado: true, fonte: "RI Micron 26/08/2026"}
+  - {ticker: JPM, data: 2026-10-13, quando: antes_ny, confirmado: true, fonte: "RI JPMorganChase"}
+  - {ticker: BAC, data: 2026-10-14, quando: antes_ny, confirmado: true, fonte: "RI Bank of America (datas 2026)"}
+  - {ticker: TSM, data: 2026-10-15, quando: madrugada, confirmado: false}
+  - {ticker: NOK, data: 2026-10-22, quando: madrugada, confirmado: false}
+  - {ticker: CVX, data: 2026-10-23, quando: antes_ny, confirmado: false, nota: "agregadores divergem: 23/10 ou 30/10"}
+  - {ticker: KO, data: 2026-10-27, quando: antes_ny, confirmado: false}
+  - {ticker: MMM, data: 2026-10-27, quando: antes_ny, confirmado: false}
+  - {ticker: GOOGL, data: 2026-10-28, quando: apos_ny, confirmado: false}
+  - {ticker: VALE3, data: 2026-10-28, quando: apos_b3, confirmado: false, nota: "relatorio de producao 3T26 ~13-14/10"}
+  - {ticker: KLBN4, data: 2026-10-28, quando: apos_b3, confirmado: false}
+  - {ticker: UGPA3, data: 2026-10-28, quando: apos_b3, confirmado: false}
+  - {ticker: AMZN, data: 2026-10-29, quando: apos_ny, confirmado: false, nota: "um agregador cita 22/10"}
+  - {ticker: BBDC4, data: 2026-10-29, quando: apos_b3, confirmado: false}
+  - {ticker: ITUB4, data: 2026-11-04, quando: apos_b3, confirmado: false}
+  - {ticker: MELI34, data: 2026-11-04, quando: apos_ny, confirmado: false}
+  - {ticker: SBSP3, data: 2026-11-05, quando: apos_b3, confirmado: false}
+  - {ticker: DIRR3, data: 2026-11-09, quando: apos_b3, confirmado: false}
+  - {ticker: PETR4, data: 2026-11-10, quando: apos_b3, confirmado: false}
+  - {ticker: EQTL3, data: 2026-11-11, quando: apos_b3, confirmado: false}
+  - {ticker: ALUP4, data: 2026-11-11, quando: apos_b3, confirmado: false}
+  - {ticker: AXIA3, data: 2026-11-11, quando: apos_b3, confirmado: false}
+  - {ticker: BBAS3, data: 2026-11-12, quando: apos_b3, confirmado: false}
+  - {ticker: SAPR4, data: 2026-11-12, quando: apos_b3, confirmado: false}
+  - {ticker: MRVE3, data: 2026-11-12, quando: apos_b3, confirmado: false}
+  - {ticker: ITSA4, data: 2026-11-13, quando: apos_b3, confirmado: false}
+  - {ticker: NVDA, data: 2026-11-25, quando: apos_ny, confirmado: false}
+  - {ticker: BABA, data: 2026-11-25, quando: antes_ny, confirmado: false}
+
+fontes_recarga:
+  - https://www.bcb.gov.br/controleinflacao/calendarioreunioes
+  - https://www.ibge.gov.br/calendario/
+  - https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  - https://www.bls.gov/schedule/2026/home.htm
+  - https://www.bea.gov/news/schedule
+  - https://www.b3.com.br/pt_br/solucoes/plataformas/puma-trading-system/para-participantes-e-traders/calendario-de-negociacao/
+  - https://www.nyse.com/markets/hours-calendars
+  - https://www.londonstockexchange.com/equities-trading/business-days

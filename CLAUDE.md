@@ -41,6 +41,28 @@ Outros insumos: `tir_real_servidor.py` guarda o modelo de TIR real (LPA
 research-updater-tir. `app.py` e o terminal local (porta 5051) e so roda no
 computador do Douglas.
 
+## Livro monitorado (alertas, fechamento diario e noticias nesta sessao)
+
+O "livro" e a lista de ativos que o Douglas acompanha (config/livro.yaml: UCITS
+com nome por extenso, acoes EUA e BR, DI, Tesouro, UST, cambio, commodities,
+cripto). O workflow `.github/workflows/livro.yml` roda no Actions o pacote
+`livro/` (coleta -> indicadores -> regras de alerta -> render) e grava em
+`livro/` no branch `dados`. Routines disparam turnos NESTA sessao (manha 07h20,
+intradia de hora em hora, fechamento 18h40 BRT); a resposta do turno e o que o
+Douglas ve no PC e no celular.
+
+- Use a skill `livro` (.claude/skills/livro/SKILL.md) em todo turno de rotina e
+  quando ele escrever "livro", "fechamento", "alertas", "tecnica X", "curto".
+- A sessao NUNCA calcula regra, NUNCA inventa numero e NUNCA faz push no branch
+  `dados`. Ela le `git show origin/dados:livro/saida/*.md`, dispara o workflow
+  quando o dado esta velho (`actions_run_trigger`, workflow `livro.yml`, ref
+  `main`, inputs `modo` e `ids_entregues`) e escreve a Leitura da Mesa.
+- Turno sem novidade = uma linha. Lacuna declarada, nunca placeholder.
+- Regras e limiares: config/limiares.yaml. Calendario e feriados:
+  config/calendario.yaml. Nunca "compre/venda" (Resolucao CVM 178).
+- IUAA e o iShares US Aggregate Bond (duration ~6 anos), nao renda fixa
+  ultracurta; IB01 e o caixa em dolar. EWY/MCHI sao hipotese.
+
 ## Ferramentas instaladas
 
 Plugins: financial-analysis (comps, dcf, 3-statement), equity-research

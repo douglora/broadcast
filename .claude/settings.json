@@ -22,6 +22,38 @@
       }
     }
   },
+  "permissions": {
+    "allow": [
+      "Bash(git fetch origin dados:*)",
+      "Bash(git fetch origin dados)",
+      "Bash(git show origin/dados:*)",
+      "Bash(git log:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(curl -sS --max-time 20 https://raw.githubusercontent.com/douglora/broadcast/dados/livro/:*)",
+      "Bash(python3 -c:*)",
+      "Bash(python3 -m pytest:*)",
+      "Bash(python3 -m livro.rodar:*)",
+      "mcp__github__actions_run_trigger",
+      "mcp__github__actions_list",
+      "mcp__github__actions_get",
+      "mcp__github__get_job_logs",
+      "mcp__github__get_file_contents",
+      "PushNotification",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Read",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Bash(git push origin dados:*)",
+      "Bash(git push origin HEAD:dados:*)",
+      "Bash(git push --force:*)"
+    ]
+  },
   "hooks": {
     "SessionStart": [
       {
