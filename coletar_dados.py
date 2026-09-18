@@ -123,9 +123,19 @@ CAMPOS_INFO = [
 ]
 
 
-def coletar_yahoo(tk, fontes):
+def eh_simbolo_us(tk):
+    """Ticker so com letras (ate 5) e um papel dos EUA, ex.: MELI, AAPL."""
+    return tk.isalpha() and 1 <= len(tk) <= 5
+
+
+def eh_bdr(tk):
+    """BDR da B3: 4 letras + 32..39, ex.: MELI34, AAPL34, GOGL35."""
+    return re.fullmatch(r"[A-Z]{4}3[2-9]", tk) is not None
+
+
+def coletar_yahoo(tk, fontes, simbolo=None):
     import yfinance as yf
-    simbolo = f"{tk}.SA"
+    simbolo = simbolo or (tk if eh_simbolo_us(tk) else f"{tk}.SA")
     t = yf.Ticker(simbolo)
     dados = {"simbolo": simbolo}
 
@@ -413,18 +423,44 @@ def coletar_ativo(tk, macro):
     except Exception as e:
         fontes["yahoo"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         dados["yahoo"] = {}
-    try:
-        dados["fundamentus"] = coletar_fundamentus(tk, fontes)
-    except Exception as e:
-        fontes["fundamentus"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-        dados["fundamentus"] = {}
+    if eh_simbolo_us(tk):
+        dados["fundamentus"], dados["cvm"] = {}, {}
+        fontes["fundamentus"] = fontes["cvm"] = "nao se aplica (papel dos EUA)"
+    else:
+        try:
+            dados["fundamentus"] = coletar_fundamentus(tk, fontes)
+        except Exception as e:
+            fontes["fundamentus"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            dados["fundamentus"] = {}
     info = (dados.get("yahoo") or {}).get("info") or {}
-    nomes = [info.get("longName"), info.get("shortName"), dados["fundamentus"].get("Empresa")]
-    try:
-        dados["cvm"] = coletar_cvm(tk, nomes, fontes)
-    except Exception as e:
-        fontes["cvm"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-        dados["cvm"] = {}
+    if not eh_simbolo_us(tk):
+        nomes = [info.get("longName"), info.get("shortName"), dados["fundamentus"].get("Empresa")]
+        try:
+            dados["cvm"] = coletar_cvm(tk, nomes, fontes)
+        except Exception as e:
+            fontes["cvm"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            dados["cvm"] = {}
+
+    # BDR: traz tambem a acao-mae nos EUA e a paridade implicita
+    if eh_bdr(tk):
+        base = tk[:4]
+        fontes_sub = {}
+        try:
+            sub = coletar_yahoo(base, fontes_sub, simbolo=base)
+            sub_info = sub.get("info") or {}
+            dados["subjacente_us"] = {"simbolo": base, "fontes": fontes_sub, "yahoo": sub}
+            preco_bdr = info.get("currentPrice") or info.get("regularMarketPrice")
+            preco_us = sub_info.get("currentPrice") or sub_info.get("regularMarketPrice")
+            dolar = (macro.get("dolar_ptax") or {}).get("value")
+            if preco_bdr and preco_us and dolar:
+                dados["subjacente_us"]["paridade_implicita"] = {
+                    "descricao": "quantas BDRs equivalem a 1 acao nos EUA, pelo preco: preco_us x dolar / preco_bdr",
+                    "bdrs_por_acao": round(preco_us * dolar / preco_bdr, 3),
+                    "preco_bdr": preco_bdr, "preco_us": preco_us, "dolar_ptax": dolar,
+                }
+            fontes["subjacente_us"] = f"ok ({base}; {sum(1 for v in fontes_sub.values() if str(v).startswith('ok'))} fontes ok)"
+        except Exception as e:
+            fontes["subjacente_us"] = f"falha: {type(e).__name__}: {e}"[:160]
     preco = info.get("currentPrice") or info.get("regularMarketPrice") \
         or ((dados.get("yahoo") or {}).get("retornos") or {}).get("ultimo_fechamento", {}).get("preco")
     ipca = (macro.get("ipca_12m") or {}).get("value", 4.5)
