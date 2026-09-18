@@ -1,21 +1,13 @@
 ALERTAS · eventos
 
-[ATENÇÃO] E03 · SBSP3 · Fato Relevante: 16/09/2026
+(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: 16/09/2026
 CVM IPE · entregue 16/09/2026 21:42 · 16/09/2026
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917
 Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre 16/09/2026'
 Fonte: CVM IPE 2026-09-16
-Push: [ATENÇÃO] SBSP3 · Fato Relevante · detalhe na sessão
 ids: E03-SBSP3-1568917-2026-09-16
-
-Info (só linha no Fechamento):
-· E03 ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E03 ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 BBDC4 · Aviso aos Acionistas: Outros avisos
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 
 
 Alertas do dia (todos, com status):

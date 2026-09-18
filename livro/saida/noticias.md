@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 18/09 20h43
+NOTÍCIAS E FATOS · 18/09 20h47
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 138 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 6 novos de 6 (6 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
+Pernas: noticias ok 0 novas (14 consultas; descartadas: 141 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 6 (6 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
