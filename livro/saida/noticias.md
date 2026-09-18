@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 18/09 20h21
+NOTÍCIAS E FATOS · 18/09 20h26
 
-Pernas: noticias ok 13 novas (14 consultas; descartadas: 135 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
+Pernas: noticias ok 3 novas (14 consultas; descartadas: 141 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
 
 ## NOTÍCIAS COM MATERIALIDADE (65)
 
@@ -600,7 +600,7 @@ Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavanca
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 18/09 16h52
-id: E05-NVDA-cbf5faf4e5-2026-09-18 · status: pendente
+id: E05-NVDA-cbf5faf4e5-2026-09-18 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave
 Estadao · 18/09 11h25 · fonte única · licença: manchete
@@ -609,10 +609,10 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: BBDC4 · DI
 Como falar: 'saiu no Estadao: Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave; confirmar o número no texto antes de repassar'
 Fonte: Estadao 18/09 11h25
-id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: pendente
+id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (551)
+## OUTRAS NOTÍCIAS (só manchete) (554)
 
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
@@ -1165,3 +1165,6 @@ id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: pendente
 · JPM Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:8148a0271094b:0-dividend-roundup-microsoft-jpmorgan-chase-mcdonald-s-broadcom-and-more/
 · ITUB4 Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-assai-brava-energia-itau-unibanco-b3-cemig-e-os-principais-destaques-desta-sexta-feira-18
 · BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
+· KO Coca-Cola Bets $10 Billion on U.S. Infrastructure to Drive Growth (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/coca-cola-bets-10-billion-170127971.html
+· BTC Crypto News: Pepeto Announces DeFi Exchange While Bitcoin (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/18/3364887/0/en/crypto-news-pepeto-announces-defi-exchange-while-bitcoin-price-prediction-reaches-200-000-and-whales-pick-the-next-dogecoin.html
+· DI Copom: O que esperar da reunião que vai definir os novos rumos da taxa Selic (Estadao) https://www.estadao.com.br/em-alta/economia/copom-reuniao-novos-rumos-taxa-selic/

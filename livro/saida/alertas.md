@@ -1,43 +1,10 @@
 ALERTAS · eventos
 
-[ATENÇÃO] E05 · NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
-Yahoo Finance · 18/09 16h52 · + Bloomberg · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Spun off from a cryptocurrency mining operation in early 2024, Nscale quickly became one of the most prominent data center newcomers powering the AI boom as a so-called neocloud operator, renting out computing resources…
-  – It was valued in March at about $14.6 billion, in a Series C funding round led by Aker ASA and investment firm 8090 Industries.
-  – Nscale is seeking to raise as much as $3 billion in the IPO, Bloomberg News reported.
-  – It had also been in talks with potential investors to raise as much as $3.5 billion in financing ahead of the listing.
-  – It agreed in April to add more than 30,000 Nvidia chips to an existing rental agreement with Microsoft at its so-called gigafactory in Narvik, Norway.
-  – Anthropic PBC said in August it has agreed to spend $45 billion to rent AI cloud computing power from the company's flagship data center development in West Virginia.
-Link: https://ca.finance.yahoo.com/news/nvidia-backed-data-center-firm-195220456.html
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 18/09 16h52
-Push: eventos: 2 alertas de atenção — E05 NVDA, E05 BBDC4 · detalhe na sessão
-ids: E05-NVDA-cbf5faf4e5-2026-09-18
-
-[ATENÇÃO] E05 · BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave
-Estadao · 18/09 11h25 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ate-onde-a-selic-pode-cair-em-2026-bradesco-revisa-projecao-e-aponta-condicao-chave/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: BBDC4 · DI
-Como falar: 'saiu no Estadao: Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave; confirmar o número no texto antes de repassar'
-Fonte: Estadao 18/09 11h25
-ids: E05-BBDC4-4f86e27bd7-2026-09-18
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 NVDA · Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing
-· E05 USDBRL · Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal
-· E05 UST · Wall Street closes mixed as Treasury yields rebound (SP500:)
-· E05 AXIA3 · XP vê “tempestade antes da calmaria” para Axia Energia e mantém compra
-· E05 PETR4 · Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções
-· E05 MU · Why Micron Stock Is Gaining Today
-· E05 UST · Global shares fall, Treasury yields rise as central banks double down on inflation fight
-· E05 BTC · Bitcoin Reclaims $80K After CFTC’s Crypto Proposals – HYPE, ZEC Hit New Record Highs Amid Rally
-· E05 JPM · Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more
-· E05 ITUB4 · Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18)
-· E05 BRENT · Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe
+· E05 KO · Coca-Cola Bets $10 Billion on U.S. Infrastructure to Drive Growth
+· E05 BTC · Crypto News: Pepeto Announces DeFi Exchange While Bitcoin
+· E05 DI · Copom: O que esperar da reunião que vai definir os novos rumos da taxa Selic
 
 
 Alertas do dia (todos, com status):
@@ -114,8 +81,8 @@ Alertas do dia (todos, com status):
 · linha     E05 UST — UST · Long-Term Treasury Yields Now Beat These Dividend Stalwarts. Is Government
 · linha     E05 TSM — TSM · Taiwan Semiconductor Q2 Earnings: AI Infrastructure Demand Sets the Stage 
 · linha     E05 GOOGL — GOOGL · Google Keeps AdX as Court Orders Behavioral Remedies in Ad-Tech Antitrus
-· pendente  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
-· pendente  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
+· entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
+· entregue  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
@@ -670,3 +637,6 @@ Alertas do dia (todos, com status):
 · linha     E05 JPM — JPM · Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and mor
 · linha     E05 ITUB4 — ITUB4 · Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principa
 · linha     E05 BRENT — BRENT · Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e d
+· linha     E05 KO — KO · Coca-Cola Bets $10 Billion on U.S. Infrastructure to Drive Growth
+· linha     E05 BTC — BTC · Crypto News: Pepeto Announces DeFi Exchange While Bitcoin
+· linha     E05 DI — DI · Copom: O que esperar da reunião que vai definir os novos rumos da taxa Seli
