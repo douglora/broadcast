@@ -5,7 +5,7 @@ VWRA   Mundo  191,66 -0,1 -1,0 -1,3  +12
 CSPX   S&P500 822,76 +0,2 -0,6 -1,2  +11
 CNDX   Nasdaq  1.692 +0,9 -0,1 -0,1  +15
 VHYA   AltDiv 106,84 -0,9 -1,5 -1,8  +15
-WUTI   Utilit  58,28 +0,8 -1,5 -3,2 +3,4 *
+WUTI   Utilit  66,80 -0,6 -2,1 -4,5 +1,0
 RBOT   Robot   21,03 +1,3 +0,1 -2,4  +29
 IUAA   RF EUA   5,64 -0,0 -0,3 -1,4 -1,9
 IB01   T-bill 121,82  0,0 +0,0 +0,2 +2,5
@@ -47,8 +47,8 @@ Macro
 USDBRL USD/BR 5,1421 -0,2 +0,8 -1,4 -6,1
 DXY    DXY    100,21 -0,0 +1,1 +1,4 +2,0
 BRENT  Brent   98,77 -5,8 -5,6 +7,8  +62
-BTC    BTC    81.155 +6,2 +5,2  +17 -7,3
-ETH    ETH     2.621 +7,1 +4,2  +16  -12
+BTC    BTC    81.159 +6,2 +5,2  +17 -7,3
+ETH    ETH     2.622 +7,1 +4,3  +16  -12
 MINERI Mineri  97,42 +0,0 -1,3 +2,2 -9,1 *
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

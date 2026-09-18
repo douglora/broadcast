@@ -1,10 +1,10 @@
 BLOCO A
 ```
 FECHAMENTO DO LIVRO · sex 18/09 · 18h40 BRT
-Relógios: Yahoo 19h39 · DI ajuste D0 · Tesouro base
+Relógios: Yahoo 19h41 · DI ajuste D0 · Tesouro base
   17/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (12 · 2 críticos)
+ALERTAS DO DIA (13 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
@@ -24,7 +24,7 @@ ALERTAS DO DIA (12 · 2 críticos)
           de 52s (US$ 64,81 em 12/08) a US$ 57,73
 [ATENÇÃO] F06 ETH sobe a US$ 2.621 (+7,1% em 24h ·
           cruzou US$ 2.500)
-(+4 em alertas.md)
+(+5 em alertas.md)
 
 ALTAS  ETH +7,1% · BTC +6,2% · BABA +4,3% · MU +3,9%
        · BBAS3 +2,2%
@@ -57,8 +57,7 @@ qui 24/09 09:00 Relatorio de Politica Monetaria 3T26
     (BCB)
 qui 24/09 11:00 Leilao do Tesouro: NTN-B
 
-LACUNAS: WUTI sem barra de 18/09 (última 16/09);
-  MINERIO sem barra de 18/09 (última 17/09).
+LACUNAS: MINERIO sem barra de 18/09 (última 17/09).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -71,7 +70,7 @@ VWRA   Mundo    191,66 -0,1 -1,0 -1,3  +16  +17  +12
 CSPX   S&P500   822,76 +0,2 -0,6 -1,2  +17  +16  +11
 CNDX   Nasdaq    1.692 +0,9 -0,1 -0,1  +22  +20  +15
 VHYA   AltDiv   106,84 -0,9 -1,5 -1,8  +13  +22  +15
-WUTI   Utilit    58,28 +0,8 -1,5 -3,2 -7,8  +10 +3,4 *
+WUTI   Utilit    66,80 -0,6 -2,1 -4,5 -5,1 +7,4 +1,0
 RBOT   Robot     21,03 +1,3 +0,1 -2,4  +36  +32  +29
 IUAA   RF EUA     5,64 -0,0 -0,3 -1,4 -1,0 -0,7 -1,9
 IB01   T-bill   121,82  0,0 +0,0 +0,2 +1,8 +3,6 +2,5
@@ -113,8 +112,8 @@ Macro
 USDBRL USD/BRL  5,1421 -0,2 +0,8 -1,4 -1,5 -3,2 -6,1
 DXY    DXY      100,21 -0,0 +1,1 +1,4 +0,6 +2,9 +2,0
 BRENT  Brent     98,77 -5,8 -5,6 +7,8  -12  +46  +62
-BTC    BTC      81.155 +6,2 +5,2  +17  +15  -31 -7,3
-ETH    ETH       2.621 +7,1 +4,2  +16  +22  -43  -12
+BTC    BTC      81.159 +6,2 +5,2  +17  +15  -31 -7,3
+ETH    ETH       2.622 +7,1 +4,3  +16  +22  -43  -12
 MINERI Minerio   97,42 +0,0 -1,3 +2,2 -7,8 -7,5 -9,1 *
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
