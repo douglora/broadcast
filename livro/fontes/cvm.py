@@ -150,6 +150,107 @@ def parse_ipe(texto: str, alvos: dict, desde: date, categorias: dict | None = No
     return docs, {a: sorted(v) for a, v in casadas.items()}
 
 
+# ---------------------------------------------------------------- RAD (consulta externa, intradiario)
+RAD_URL = "https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx/ListarDocumentos"
+RAD_PAGINA = "https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx"
+_TR = re.compile(r"(?is)<tr[^>]*>(.*?)</tr>")
+_TD = re.compile(r"(?is)<td[^>]*>(.*?)</td>")
+_TAGS = re.compile(r"<[^>]+>")
+
+
+def _limpa(s: str) -> str:
+    import html as _h
+    return re.sub(r"\s+", " ", _h.unescape(_TAGS.sub(" ", s or ""))).strip()
+
+
+def rad_corpo(de: date, ate: date, categoria: str = "TODAS") -> str:
+    import json
+    return json.dumps({
+        "dataDe": de.strftime("%d/%m/%Y"), "dataAte": ate.strftime("%d/%m/%Y"), "empresa": "",
+        "setorAtividade": "-1", "categoriaEmissor": "-1", "situacaoEmissor": "-1", "tipoParticipante": "-1",
+        "dataReferencia": "", "categoria": categoria, "periodo": "2", "horaIni": "", "horaFim": "",
+        "palavraChave": "", "ultimaDtRef": "false", "tipoApresentacao": "-1", "especieDocumento": "-1",
+        "token": "", "versaoCaptcha": "",
+    })
+
+
+def parse_rad_html(html_rows: str) -> list[dict]:
+    """Linhas da tabela da consulta externa: codigo CVM, empresa, categoria, tipo,
+    especie, data de referencia, data de entrega, protocolo (do link do IPE)."""
+    linhas = []
+    for tr in _TR.findall(html_rows or ""):
+        tds = _TD.findall(tr)
+        if len(tds) < 7:
+            continue
+        cel = [_limpa(x) for x in tds]
+        m = re.search(r"NumeroProtocoloEntrega=(\d+)", tr)
+        prot = m.group(1) if m else ""
+        linhas.append({
+            "codigo": cel[0].lstrip("0"), "empresa": cel[1], "categoria": cel[2], "tipo": cel[3], "especie": cel[4],
+            "data_referencia": data_iso(cel[5]), "entregue_em": cel[6], "data": data_iso(cel[6]), "protocolo": prot,
+            "link": f"https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega={prot}" if prot else "",
+        })
+    return linhas
+
+
+def rad_listar(cli: Cliente, de: date, ate: date, categoria: str = "TODAS") -> dict:
+    """POST no WebMethod da consulta externa. Devolve linhas + diagnostico (status e
+    inicio da resposta) para ajustar o parser no primeiro run real."""
+    import json
+    diag: dict = {"url": RAD_URL, "de": de.isoformat(), "ate": ate.isoformat()}
+    try:
+        r = cli.post(RAD_URL, data=rad_corpo(de, ate, categoria),
+                     headers={"Content-Type": "application/json; charset=UTF-8", "X-Requested-With": "XMLHttpRequest",
+                              "Referer": RAD_PAGINA, "Accept": "application/json, text/javascript, */*; q=0.01"}, timeout=60)
+    except HttpError as e:
+        diag["erro"] = str(e)[:120]
+        return {"linhas": [], "diagnostico": diag}
+    diag["status"] = r.status
+    texto = r.text
+    diag["inicio"] = texto[:600]
+    html_rows = ""
+    try:
+        payload = json.loads(texto)
+        d = payload.get("d", payload)
+        if isinstance(d, dict):
+            html_rows = d.get("dados") or d.get("Dados") or ""
+            diag["total_registros"] = d.get("totalRegistros") or d.get("TotalRegistros")
+        elif isinstance(d, str):
+            html_rows = d
+    except ValueError:
+        html_rows = texto if "<tr" in texto else ""
+    linhas = parse_rad_html(html_rows)
+    diag["linhas"] = len(linhas)
+    from collections import Counter
+    diag["categorias"] = dict(Counter(l["categoria"] for l in linhas).most_common(10))
+    return {"linhas": linhas, "diagnostico": diag}
+
+
+def docs_de_linhas(linhas: list[dict], alvos: dict, desde: date, categorias: dict | None = None) -> tuple[list[dict], dict]:
+    """Mesmo casamento do IPE (codigo ou nucleo do nome) sobre as linhas do RAD."""
+    categorias = categorias or CATEGORIAS_PADRAO
+    por_codigo = {str(v.get("codigo")): a for a, v in alvos.items() if v.get("codigo")}
+    por_nome = {nucleo(n): a for a, v in alvos.items() for n in v.get("nomes", [])}
+    docs, casadas = [], {}
+    for l in linhas:
+        if not l["data"] or l["data"] < desde.isoformat() or l["categoria"] not in categorias:
+            continue
+        ativo = por_codigo.get(l["codigo"]) or por_nome.get(nucleo(l["empresa"]))
+        if not ativo:
+            continue
+        casadas.setdefault(ativo, set()).add(l["empresa"])
+        sev = categorias[l["categoria"]]
+        assunto = l.get("tipo") or l["categoria"]
+        if l["categoria"] == "Comunicado ao Mercado" and COMUNICADO_FORTE.search(assunto):
+            sev = "atencao"
+        prot = l["protocolo"] or hashlib.sha1(f"{l['empresa']}|{l['entregue_em']}|{assunto}".encode()).hexdigest()[:8]
+        docs.append({"id": f"CVM-{ativo}-{prot}", "ativo": ativo, "empresa": l["empresa"], "codigo": l["codigo"],
+                     "categoria": l["categoria"], "tipo": l["tipo"], "especie": l["especie"], "assunto": assunto[:300],
+                     "data": l["data"], "entregue_em": l["entregue_em"], "link": l["link"], "protocolo": prot,
+                     "severidade": sev, "versao": "", "origem": "rad"})
+    return docs, {a: sorted(v) for a, v in casadas.items()}
+
+
 def texto_pdf(cli: Cliente, link: str, max_bytes: int = 6_000_000, max_chars: int = 8000) -> str | None:
     """Texto do PDF do IPE (pypdf). Devolve None se nao baixar, nao for PDF ou for
     imagem sem texto."""
@@ -190,6 +291,17 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
     desde = hoje - timedelta(days=dias)
     anos = {hoje.year, desde.year}
     docs, casadas, falhas, diag = [], {}, {}, {}
+    # 1) intradiario: consulta externa (RAD) para a janela
+    try:
+        rad = rad_listar(cli, desde, hoje)
+        diag["rad"] = rad["diagnostico"]
+        d, c = docs_de_linhas(rad["linhas"], alvos, desde, categorias)
+        docs += d
+        for a, nomes in c.items():
+            casadas[a] = sorted(set(casadas.get(a, [])) | set(nomes))
+    except Exception as e:
+        diag["rad"] = {"erro": f"{type(e).__name__}: {str(e)[:100]}"}
+    # 2) base aberta (IPE, atraso de dias): completa o que o RAD nao trouxe
     for ano in sorted(anos):
         texto = baixar_ipe(cli, ano)
         if not texto:
@@ -200,10 +312,12 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
         except Exception as e:
             diag[str(ano)] = {"erro": f"{type(e).__name__}: {str(e)[:80]}"}
         d, c = parse_ipe(texto, alvos, desde, categorias)
-        docs += d
+        ja = {x["id"] for x in docs}
+        docs += [x for x in d if x["id"] not in ja]
         for a, nomes in c.items():
             casadas.setdefault(a, [])
             casadas[a] = sorted(set(casadas[a]) | set(nomes))
+    docs.sort(key=lambda d: (d.get("entregue_em") or "", d["id"]), reverse=True)
     novos = [d for d in docs if d["id"] not in vistos]
     lidos = 0
     for d in novos:

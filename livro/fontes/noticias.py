@@ -188,7 +188,7 @@ DECISAO = re.compile(
     r"suspende|cancela|demite|nomeia|renuncia|processa|multa|conclui|recebe|divulga|registra|"
     r"announces|approves|cuts|raises|lowers|hikes|downgrades?|upgrades?|signs|buys|sells|acquires|pays|files|"
     r"reports|posts|beats|misses|suspends|cancels|names|appoints|resigns|sues|fines|settles|wins|loses|halts|"
-    r"unveils|launches|completes|agrees|plunges|soars|surges|tumbles|despenca|dispara)\b")
+    r"unveils|launches|completes|agrees|plunges|soars|surges|tumbles|despenca|dispara|invests?|investe|bets|aposta)\b")
 
 
 def materialidade(titulo: str, descricao: str, fortes: list[str]) -> tuple[str, list[str]]:

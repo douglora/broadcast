@@ -151,7 +151,8 @@ excluir:
   BABA: ['(?i)\bAlibaba (Cloud|Pictures|Health)\b']
   VALE3: ['(?i)\bVale (do|dos|das|da) \w', '(?i)\bVale (Verde|Encantado)\b']
   MELI34: ['(?i)\b(cupom|desconto|promo[cç][aã]o|Black Friday|ofertas?)\b']
-  BTC: ['(?i)\bBitcoin (ETF|Cash|Gold|Depot|Magazine)\b(?!.*(price|pre[cç]o|inflow|outflow))']
+  BTC: ['(?i)\bBitcoin (ETF|Cash|Gold|Depot|Magazine)\b(?!.*(price|pre[cç]o|inflow|outflow))', '(?i)^Crypto News', '(?i)\b(presale|meme ?coins?|DeFi exchange|airdrop|token launch|100x|pre-?venda)\b']
+  ETH: ['(?i)^Crypto News', '(?i)\b(presale|meme ?coins?|DeFi exchange|airdrop|token launch|100x|pre-?venda)\b']
   DI: ['(?i)\bCopom\b.*\bata\b.*\bassembleia\b']
 # Banco como previsor macro: "Bradesco revisa projecao da Selic" fala da Selic, nao da acao do banco.
 # Se a manchete casa o padrao e o ativo esta na lista, o ativo sai da atribuicao (os macro ficam).
@@ -165,7 +166,7 @@ materialidade_forte:
   - '(?i)\b(resultado|lucro|preju[ií]zo|earnings|profit|loss)\b.*\b(tri|trimestre|quarter|Q[1-4]|[1-4]T\d{2})\b'
   - '(?i)\b(guidance|proje[cç][aã]o|outlook)\b'
   - '(?i)\b(dividendos?|JCP|juros sobre capital|dividend|buyback|recompra)\b'
-  - '(?i)\b(aquisi[cç][aã]o|compra|venda|fus[aã]o|acquisition|acquire|merger|deal|takeover)\b.*\b(R\$|US\$|\$|bilh|milh|billion|million)\b'
+  - '(?i)\b(aquisi[cç][aã]o|compra|venda|fus[aã]o|acquisition|acquire|merger|deal|takeover)\b.*(R\$|US\$|\$|\bbilh|\bmilh|\bbillion|\bmillion)'
   - '(?i)\b(rebaixa|eleva|corta|raises|cuts|downgrade|upgrade)\b.*\b(rating|recomenda[cç][aã]o|pre[cç]o-alvo|price target|nota)\b'
   - '(?i)\b(CEO|presidente|diretor|conselho|chairman|CFO)\b.*\b(ren[uú]ncia|deixa|sai|assume|nomea|steps down|resigns|appoint|named)\b'
   - '(?i)\b(multa|processo|senten[cç]a|CADE|Justi[cç]a|lawsuit|ruling|antitrust|fine|settlement|penalty)\b'
@@ -173,7 +174,8 @@ materialidade_forte:
   - '(?i)\b(oferta|follow-on|IPO|emiss[aã]o|deb[eê]ntures|bond sale|offering)\b'
   - '(?i)\b(Copom|FOMC|Fed)\b.*\b(decide|mant[eé]m|eleva|corta|sobe|reduz|holds|hikes|cuts|raises)\b'
   - '(?i)\b(tarifa|tariff|sanction|san[cç][aã]o|export ban|proibi[cç][aã]o)\b'
-  - '(?i)\b(guidance|capex|investimento)\b.*\b(R\$|US\$|\$)\s?\d'
+  - '(?i)\b(guidance|capex|invest\w*|aposta|bets?)\b.*(R\$|US\$|\$)\s?\d'
+  - '(?i)(R\$|US\$|\$)\s?\d[\d.,]*\s?(bi|bilh|billion|mi|milh|million)\w*\b.*\b(invest\w*|aposta|bets?|capex|plano|plan)\b'
   - '(?i)\bATH\b|\brecorde\b|\brecord high\b|\ball-time high\b'
 
 # "Por que mexe o livro" por gatilho (o texto do analista vem da sessao; isto e o esqueleto).
