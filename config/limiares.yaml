@@ -1,0 +1,139 @@
+# Parametros das regras de alerta do livro (rulebook v1). Fora do codigo para o
+# Douglas aprovar mudancas via PR. Percentuais em fracao (0.005 = 0,5%); bps em
+# pontos-base; janelas em sessoes (barras) salvo indicacao.
+
+versao: 1
+
+geral:
+  quiet_hours_brt: {inicio: "19:00", fim: "07:00"}
+  teto_diario: {total: 6, critico: 2, atencao: 4, por_slot_atencao: 3}
+  push: {critico: true, atencao_agrupado: true, info: false, teto_dia: 5}
+  regime_vol:
+    vix_minimo: 25
+    ativos_minimos: 5        # n de ativos com vol20 >= razao * vol252
+    razao_vol: 1.5
+    acrescimo_sigma: 0.5
+  frescor_max_dias: 1        # dado com mais de 1 sessao de atraso nao entra em regra
+
+T01_MM200:
+  janela: 200
+  banda: 0.005
+  banda_cripto: 0.01
+  atalho_primeiro_dia: 0.02
+  confirmacao_sessoes: 2
+  cooldown_sessoes: 10
+  inclinacao_janela: 20
+
+T03_GOLDEN_DEATH:
+  curta: 50
+  longa: 200
+  spread_minimo: 0.0025
+  confirmacao_sessoes: 2
+  cooldown_sessoes: 60
+
+T04_MAX_MIN:
+  janela: 252
+  progresso_minimo: 0.03
+  banda_recuperacao: 0.02
+  drawdown_para_recuperacao: 0.10
+  cooldown_sessoes: 5
+  rsi_esticado: 75
+
+T05_ZSCORE:
+  janela_sigma: 20
+  z_atencao: 2.5
+  z_critico: 3.5
+  piso_sigma: {acao: 0.006, etf: 0.006, fx: 0.004, indice: 0.004, commodity: 0.01, cripto: 0.02}
+  piso_retorno: {acao: 0.015, etf: 0.015, fx: 0.007, indice: 0.007, commodity: 0.02, cripto: 0.04}
+  retorno_critico: {acao: 0.08, etf: 0.08, fx: 0.03, indice: 0.03, commodity: 0.08, cripto: 0.12}
+  repeticoes_regime: 3
+  janela_regime: 10
+
+T08_DRAWDOWN:
+  janela: 252
+  degraus_padrao: [-10, -20, -30]
+  banda_pp: 0.5
+  rearme_pp: 5
+  cooldown_minimo_sessoes: 30
+
+T13_REGIME:
+  vix_degraus: [20, 25, 30]
+  vix_salto_dia: 0.25
+  score_mudanca: 4
+  score_reforco: 5
+  componentes:
+    vix_nivel: 20
+    vix_var: 0.15
+    dxy_var: 0.005
+    ust10_bps: 8
+    usdbrl_var: 0.01
+    di_f35_bps: 10
+    btc_var: -0.04
+  cooldown_sessoes: 10
+
+C01_DI_MOVIMENTO:
+  bps_atencao: 15
+  bps_critico: 25
+  bps_5d: 40
+  sequencia_min: 4
+  sequencia_bps: 30
+  sequencia_critico_bps: 60
+  ignora_bps: 2
+
+C04_TESOURO_JURO_REAL:
+  grade: [6.0, 6.5, 7.0, 7.5, 8.0]
+  criticos: [7.0, 8.0]
+  banda_bps: 3
+  confirmacao_datas: 2
+  cooldown_datas: 10
+
+C05_TESOURO_VARIACAO_PU:
+  bps_atencao: 15
+  bps_critico: 25
+  drawdown_5d: {IPCA2040: 0.03, IPCA2050: 0.03, PRE2031: 0.02, padrao: 0.03}
+  drawdown_5d_critico: {IPCA2040: 0.05, IPCA2050: 0.05, PRE2031: 0.035, padrao: 0.05}
+  queda_pu_dia_longo: 0.01
+
+C07_UST:
+  bps_atencao: 10
+  bps_critico: 20
+  bps_5d_10y: 25
+  grade: [3.5, 4.0, 4.5, 5.0, 5.5]
+  critico_nivel: 5.0
+  banda_bps: 3
+  sequencia_min: 5
+  sequencia_bps: 25
+  duration_iuaa: 6.0
+
+F01_USDBRL:
+  var_atencao: 0.015
+  var_critico: 0.025
+  var_5d: 0.03
+  passo_nivel: 0.10
+  niveis_psicologicos: [5.0, 5.5, 6.0]
+  banda: 0.003
+  domestico_min_brl: 0.008
+  domestico_min_dxy: 0.003
+  residuo_min: 0.01
+  beta_janela: 60
+  dias_domestico_critico: 3
+
+F03_BRENT:
+  var_atencao: 0.03
+  var_critico: 0.05
+  var_5d: 0.08
+  passo_nivel: 10
+  banda: 0.01
+
+F06_CRIPTO:
+  var_atencao: 0.07
+  var_critico: 0.12
+  var_7d: 0.15
+  fim_de_semana: {BTC: 0.05, ETH: 0.07}
+  passo_nivel: {BTC: 5000, ETH: 250}
+  banda: 0.01
+
+S01_FALHA_DADOS:
+  series_faltando_min: 3
+  workflow_max_min: 6
+  dead_man_brt: "18:55"

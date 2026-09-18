@@ -1,0 +1,156 @@
+name: Livro monitorado
+
+# Coleta, motor de alertas e render do livro monitorado. Roda no GitHub Actions
+# (internet aberta) e grava em livro/ no branch `dados`. O caminho principal e o
+# workflow_dispatch feito pela rotina da sessao do Claude; os crons abaixo sao
+# rede de seguranca para quando a rotina nao disparar.
+#
+# Kill switch: um arquivo PAUSADO na raiz da main desliga tudo.
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "intradia | fechamento | manha | ack | sonda | backfill"
+        required: true
+        default: intradia
+        type: choice
+        options: [intradia, fechamento, manha, ack, sonda, backfill]
+      ids_entregues:
+        description: "ids de alertas ja narrados na sessao, separados por virgula (ack)"
+        required: false
+        default: ""
+        type: string
+      dias_backfill:
+        description: "datas de ajuste do DI a buscar para tras (backfill)"
+        required: false
+        default: "10"
+        type: string
+      simbolos_extra:
+        description: "simbolos Yahoo extras, separados por virgula (sonda)"
+        required: false
+        default: ""
+        type: string
+  schedule:
+    # Intradia: 13h05-21h05 UTC = 10h05-18h05 BRT, hora em hora, dias uteis
+    - cron: "5 13-21 * * 1-5"
+    # Fechamento: 21h28 UTC = 18h28 BRT (a rotina das 21h40 UTC redispara se faltar)
+    - cron: "28 21 * * 1-5"
+    # Manha: 09h50 UTC = 06h50 BRT
+    - cron: "50 9 * * 1-5"
+
+permissions:
+  contents: write
+
+# Grupo proprio: nao disputa a fila com coletar-dados.yml (grupo 'dados').
+concurrency:
+  group: livro
+  cancel-in-progress: false
+
+jobs:
+  livro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TZ: America/Sao_Paulo
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kill switch
+        id: guarda
+        run: |
+          if [ -f PAUSADO ]; then
+            echo "pausado=true" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Livro pausado::arquivo PAUSADO na raiz; nada roda."
+          else
+            echo "pausado=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Abrir o branch de dados
+        if: steps.guarda.outputs.pausado != 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: dados
+          path: dados_branch
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        if: steps.guarda.outputs.pausado != 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-livro.txt
+
+      - name: Instalar dependencias
+        if: steps.guarda.outputs.pausado != 'true'
+        run: pip install -r requirements-livro.txt
+
+      - name: Resolver modo
+        if: steps.guarda.outputs.pausado != 'true'
+        id: modo
+        env:
+          EVENTO: ${{ github.event_name }}
+          AGENDA: ${{ github.event.schedule }}
+          MODO_INPUT: ${{ inputs.modo }}
+        run: |
+          MODO="$MODO_INPUT"
+          if [ "$EVENTO" = "schedule" ]; then
+            case "$AGENDA" in
+              "28 21 * * 1-5") MODO=fechamento ;;
+              "50 9 * * 1-5")  MODO=manha ;;
+              *)               MODO=intradia ;;
+            esac
+          fi
+          echo "modo=${MODO:-intradia}" >> "$GITHUB_OUTPUT"
+          echo "Modo: ${MODO:-intradia}"
+
+      - name: Rodar o livro
+        if: steps.guarda.outputs.pausado != 'true'
+        env:
+          MODO: ${{ steps.modo.outputs.modo }}
+          IDS: ${{ inputs.ids_entregues }}
+          DIAS: ${{ inputs.dias_backfill }}
+          EXTRA: ${{ inputs.simbolos_extra }}
+        run: |
+          python -m livro.rodar --modo "$MODO" --ids-entregues "$IDS" --dias-backfill "${DIAS:-10}" \
+            --simbolos-extra "$EXTRA" --saida dados_branch/livro --run-id "${{ github.run_id }}"
+
+      - name: Publicar no branch dados
+        if: steps.guarda.outputs.pausado != 'true'
+        env:
+          MODO: ${{ steps.modo.outputs.modo }}
+        run: |
+          cd dados_branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A livro
+          if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
+          git commit -q -m "Livro: $MODO ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase -q && sleep 5
+          done
+
+      - name: Resumo
+        if: steps.guarda.outputs.pausado != 'true'
+        run: |
+          echo "### Livro monitorado" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          m = json.load(open("dados_branch/livro/saida/manifest.json"))
+          print(f"- Slot: `{m['slot']}` · gerado {m['gerado_em_brt']} BRT · pregão {m['data_pregao']} · {m.get('duracao_s')} s")
+          for k, v in (m.get("pernas") or {}).items():
+              print(f"- {k}: `{v}`")
+          a = m.get("alertas") or {}
+          if a:
+              print(f"- Alertas: novos {a.get('novos')}, mensagens {a.get('mensagens')}, críticos {a.get('criticos')}, pendentes {a.get('pendentes')}")
+              for i in a.get("ids") or []:
+                  print(f"  - `{i}`")
+          if m.get("falhas"):
+              print("- Falhas:")
+              for k, v in m["falhas"].items():
+                  print(f"  - {k}: {v}")
+          s = m.get("series") or {}
+          if s:
+              print(f"- Séries: {s.get('frescas')}/{s.get('total')} frescas; velhas {s.get('velhas')}; ausentes {s.get('ausentes')}")
+          PY

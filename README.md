@@ -17,6 +17,8 @@ spreads de credito privado e ranking de TIR real.
 | `CLAUDE.md`                 | Regras da mesa de analise para o Claude neste repositorio     |
 | `.claude/skills/analise-ativo/` | Skill: briefing de ativo no padrao de analista senior     |
 | `coletar_dados.py`          | Coleta dados de ativos no GitHub Actions e grava no branch `dados` |
+| `livro/` + `config/livro.yaml` | Livro monitorado: coleta, regras de alerta e fechamento diario (Actions -> branch `dados` -> sessao do Claude) |
+| `.claude/skills/livro/`     | Skill: turnos de rotina do livro (manha, intradia, fechamento) na sessao |
 
 ---
 
@@ -188,6 +190,42 @@ pela aba Actions ou pelo proprio Claude, com qualquer lista de tickers.
 O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`.
 As regras da mesa estao em `CLAUDE.md`; o formato da nota, em
 `.claude/skills/analise-ativo/SKILL.md`. Basta mandar um ticker.
+
+---
+
+## Livro monitorado (alertas e fechamento diario na sessao do Claude)
+
+O livro e a lista de ativos que o Douglas acompanha (`config/livro.yaml`, com
+o nome por extenso de cada UCITS). O sistema tem tres pecas:
+
+1. **Runner** (`.github/workflows/livro.yml` + pacote `livro/`): roda no GitHub
+   Actions, coleta Yahoo (series de 2 anos com fechamento ajustado), ajustes do
+   DI na B3 (Boletim Diario), Tesouro Transparente, Treasury.gov (UST), BCB/Focus
+   e proxies asiaticos (Sina), calcula os indicadores e as regras de alerta
+   (`livro/sinais/`: MM200, golden/death cross, 52 semanas, movimento anormal,
+   drawdown, regime de risco, DI em bps, juro real IPCA+, UST, cambio, Brent,
+   cripto, falha de dados), aplica a politica anti-fadiga (`livro/politica.py`)
+   e grava em `livro/` no branch `dados`: `saida/fechamento.md` (BLOCO A e
+   BLOCO B com dia/1s/1m/6m/1a/YTD), `saida/alertas.md`, `saida/intradia.md`,
+   `saida/manha.md`, `saida/manifest.json`, `estado/alertas.json` (fila com ack).
+2. **Sessao do Claude** (skill `.claude/skills/livro/SKILL.md`): e a interface.
+   Routines disparam turnos na sessao (07h20, de hora em hora 10h20-17h20 e
+   18h40 BRT); o turno dispara o workflow se o dado estiver velho, le o que o
+   runner gravou e escreve a Leitura da Mesa. Push no celular para alerta
+   critico, atencao agrupada e "Fechamento pronto".
+3. **Configs**: `config/livro.yaml` (universo), `config/limiares.yaml` (regras),
+   `config/calendario.yaml` (feriados, horarios, macro, resultados).
+
+Disparo manual: aba Actions > "Livro monitorado" > Run workflow, com `modo`
+(`sonda` mede a cobertura ticker a ticker; `backfill` traz o historico do DI;
+`fechamento` gera o relatorio). Pausar: criar o arquivo `PAUSADO` na raiz.
+Pre-requisitos que so o dono do repositorio faz: mesclar na `main` (o cron e as
+permissoes da sessao so valem la) e criar o secret `SEC_USER_AGENT`
+("Nome contato@email") para a SEC (usado na v1.1).
+
+Testes sem rede: `pip install -r requirements-livro.txt pytest` e
+`python3 -m pytest tests/ -q`; execucao offline com as fixtures:
+`python3 -m livro.rodar --modo fechamento --saida livro_out --offline tests/fixtures`.
 
 ---
 

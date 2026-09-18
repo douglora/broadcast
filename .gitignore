@@ -13,3 +13,7 @@ vendor/
 
 # Overrides pessoais do Claude Code (o settings.json compartilhado fica versionado)
 .claude/settings.local.json
+
+# Saida local do livro (testes e execucao offline)
+livro_out/
+.pytest_cache/
