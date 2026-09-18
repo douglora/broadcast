@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 18/09 20h15
+NOTÍCIAS E FATOS · 18/09 20h21
 
-Pernas: noticias ok 603 novas (14 consultas) · cvm ok 0 novos de 0 (0 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
+Pernas: noticias ok 13 novas (14 consultas; descartadas: 135 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
 
-## NOTÍCIAS COM MATERIALIDADE (63)
+## NOTÍCIAS COM MATERIALIDADE (65)
 
 [ATENÇÃO] E05 · AMZN · Prime Video’s Off Campus TV Show Lands Amazon a Big Lawsuit, Here’s Why
 ComingSoon.net · 18/09 19h08 · + mandatory.com · licença: manchete
@@ -11,7 +11,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: AMZN
 Como falar: 'saiu no ComingSoon.net: Prime Video’s Off Campus TV Show Lands Amazon a Big Lawsuit, Here’s Why; confirmar o número no texto antes de repassar'
 Fonte: ComingSoon.net 18/09 19h08
-id: E05-AMZN-714901f778-2026-09-18 · status: pendente
+id: E05-AMZN-714901f778-2026-09-18 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Novo hotel em São José dos Campos terá investimento de R$ 70 milhões
 Portal Aqui Vale · 18/09 19h00 · fonte única · licença: manchete
@@ -20,7 +20,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: VALE3
 Como falar: 'saiu no Portal Aqui Vale: Novo hotel em São José dos Campos terá investimento de R$ 70 milhões; confirmar o número no texto antes de repassar'
 Fonte: Portal Aqui Vale 18/09 19h00
-id: E05-VALE3-be53a7b78a-2026-09-18 · status: pendente
+id: E05-VALE3-be53a7b78a-2026-09-18 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Fortuna Hedged Bitcoin ETF (HBTC) Dividend Yield 2026, Date & History
 marketbeat.com · 18/09 18h15 · fonte única · licença: manchete
@@ -29,7 +29,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no marketbeat.com: Fortuna Hedged Bitcoin ETF (HBTC) Dividend Yield 2026, Date & History; confirmar o número no texto antes de repassar'
 Fonte: marketbeat.com 18/09 18h15
-id: E05-BTC-b90314f570-2026-09-18 · status: pendente
+id: E05-BTC-b90314f570-2026-09-18 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras acompanha negociações entre empresas contratadas e trabalhadores em greve em Campos
 Notícias Agrícolas · 18/09 17h44 · fonte única · licença: manchete
@@ -586,8 +586,33 @@ Como falar: 'saiu no The National Law Review: Google Keeps AdX as Court Orders B
 Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
+[ATENÇÃO] E05 · NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
+Yahoo Finance · 18/09 16h52 · + Bloomberg · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Spun off from a cryptocurrency mining operation in early 2024, Nscale quickly became one of the most prominent data center newcomers powering the AI boom as a so-called neocloud operator, renting out computing resources…
+  – It was valued in March at about $14.6 billion, in a Series C funding round led by Aker ASA and investment firm 8090 Industries.
+  – Nscale is seeking to raise as much as $3 billion in the IPO, Bloomberg News reported.
+  – It had also been in talks with potential investors to raise as much as $3.5 billion in financing ahead of the listing.
+  – It agreed in April to add more than 30,000 Nvidia chips to an existing rental agreement with Microsoft at its so-called gigafactory in Narvik, Norway.
+  – Anthropic PBC said in August it has agreed to spend $45 billion to rent AI cloud computing power from the company's flagship data center development in West Virginia.
+Link: https://ca.finance.yahoo.com/news/nvidia-backed-data-center-firm-195220456.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 18/09 16h52
+id: E05-NVDA-cbf5faf4e5-2026-09-18 · status: pendente
 
-## OUTRAS NOTÍCIAS (só manchete) (540)
+[ATENÇÃO] E05 · BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave
+Estadao · 18/09 11h25 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ate-onde-a-selic-pode-cair-em-2026-bradesco-revisa-projecao-e-aponta-condicao-chave/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: BBDC4 · DI
+Como falar: 'saiu no Estadao: Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave; confirmar o número no texto antes de repassar'
+Fonte: Estadao 18/09 11h25
+id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: pendente
+
+
+## OUTRAS NOTÍCIAS (só manchete) (551)
 
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
@@ -1129,3 +1154,14 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · GOOGL Oracle Stock Jumps 8.2% On Expanded Google Cloud AI Partnership (JournalArta) https://news.google.com/rss/articles/CBMipAFBVV95cUxNOHVXUTZCU3ZSTXdSSG9VYVd1V25Zei1DSlhnOXhOMjN3V2VLVVVIbVM2RHBGZXRZZ1VXTjFkMFpHZDFrNEJzRUxXY1V3b1VLeEtPcW9FM0tXdVVUY1pOUTRvU3BfWkVBVWxZWkNHcTFQa05ibUxpY3JmbURFaU1NR0F6cGR5aU0yOUMtbUhYVFRqaEtpRnNjcHRFenE3cDVXUWdvSQ?oc=5
 · USDBRL Dólar cai 0,24% e Ibovespa sobe após decisões de juros (campograndenews.com.br) https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNnpyUFBrVDZLVzlHMko4S08wNTZxeDVfVE50VGZqc1dVLWNmWTA0VTFCWUJHVmR5SHRrMFVLbUZ3NWg2SkxXdzNzZTdCVERxWGNPZkVFVTVZTkduTVcwUURqd0R3eElQXzlyQ0xSMmJIV083QjBKLWFldmdWckQtQ2JVcmlUOXFCR0hSdWtGa3pxVnpCd29KWThVQVBCX1NNbjRvU3d3Q2PSAagBQVVfeXFMUDluY3I0MmU2Uzc3dkhqb3p5WXBZRV9FQzBRaFZDYV8wUTVsdzJENUNXdkM2bVMweWNidm1xamZNLXlYaFNYRS1tWjF3Qk9zV3NyeFlNWEltRS1zanpaS3Z0SWxpb3JpbmJOU1RFLWpvTVd0NVhxS0c2VG80Rjg2UlVqemdMcUxDMlpLWHJ6UzdSQUdNUS0ydU92UG4wM3o5QzhTZWZzQlRS?oc=5
 · PETR4 TCU analisa política de preços da Petrobras na próxima 4ª feira (Poder360) https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFVtVHVNekRQYVJrNWxGVlM2S1NVdFlvUG5EYm9TMHlKMkEtWHgwNVFWYmdjM2JLMVRoNXBHaWRzWG5DbVg3VnR2UVVHRV9LNVpmQ2plNEJtWS1mcWY1a3Y5ekNfekZfd2hlX21sbkFwZkZOX2dJMU15cW5ETlVmbks1X0E3dlJQRmxtQVdDVWRLR3ZVX2ZSVkpNQjZacGdDdzlQRGhqVE9JS00?oc=5
+· NVDA Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing (Reuters) https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/
+· USDBRL Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/18/dolar-bolsa-fechamento-hoje-18-de-setembro-de-2026.ghtm
+· UST Wall Street closes mixed as Treasury yields rebound (SP500:) (Seeking Alpha) https://seekingalpha.com/news/4644515-wall-street-closes-mixed-as-treasury-yields-rebound
+· AXIA3 XP vê “tempestade antes da calmaria” para Axia Energia e mantém compra (ADVFN) https://br.advfn.com/jornal/2026/09/xp-ve-tempestade-antes-da-calmaria-para-axia-energia-e-mantem-compra
+· PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
+· MU Why Micron Stock Is Gaining Today (Barron's) https://www.barrons.com/articles/micron-stock-price-rising-7309a557
+· UST Global shares fall, Treasury yields rise as central banks double down on inflation fight (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45A0XA:0-global-shares-fall-treasury-yields-rise-as-central-banks-double-down-on-inflation-fight/
+· BTC Bitcoin Reclaims $80K After CFTC’s Crypto Proposals – HYPE, ZEC Hit New Record Highs Amid Rally (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:df8d4e079094b:0-bitcoin-reclaims-80k-after-cftc-s-crypto-proposals-hype-zec-hit-new-record-highs-amid-rally/
+· JPM Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:8148a0271094b:0-dividend-roundup-microsoft-jpmorgan-chase-mcdonald-s-broadcom-and-more/
+· ITUB4 Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-assai-brava-energia-itau-unibanco-b3-cemig-e-os-principais-destaques-desta-sexta-feira-18
+· BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
