@@ -1,6 +1,63 @@
-NOTÍCIAS E FATOS · 18/09 20h40
+NOTÍCIAS E FATOS · 18/09 20h43
 
-Pernas: noticias ok 2 novas (14 consultas; descartadas: 141 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
+Pernas: noticias ok 0 novas (14 consultas; descartadas: 138 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 6 novos de 6 (6 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: 16/09/2026
+CVM IPE · entregue 16/09/2026 21:42 · 16/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre 16/09/2026'
+Fonte: CVM IPE 2026-09-16
+id: E03-SBSP3-1568917-2026-09-16 · status: pendente
+
+[INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM IPE · entregue 18/09/2026 13:33 · Apresentações a analistas/agentes do mercado / 18/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569440
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ALUP4
+Como falar: 'a Alupar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM IPE 2026-09-18
+id: E03-ALUP4-1569440-2026-09-18 · status: linha
+
+[INFO] E03 · ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM IPE · entregue 17/09/2026 18:23 · Outros Comunicados Não Considerados Fatos Relevantes / 17/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569218
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ITUB4
+Como falar: 'a Itau Unibanco publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM IPE 2026-09-17
+id: E03-ITUB4-1569218-2026-09-17 · status: linha
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM IPE · entregue 17/09/2026 08:34 · Outros Comunicados Não Considerados Fatos Relevantes / 17/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568947
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM IPE 2026-09-17
+id: E03-PETR4-1568947-2026-09-17 · status: linha
+
+[INFO] E03 · BBDC4 · Aviso aos Acionistas: Outros avisos
+CVM IPE · entregue 16/09/2026 19:25 · Outros avisos / 16/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568880
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM IPE 2026-09-16
+id: E03-BBDC4-1568880-2026-09-16 · status: linha
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM IPE · entregue 15/09/2026 18:47 · Outros Comunicados Não Considerados Fatos Relevantes / 15/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568459
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM IPE 2026-09-15
+id: E03-AXIA3-1568459-2026-09-15 · status: linha
+
 
 ## NOTÍCIAS COM MATERIALIDADE (65)
 

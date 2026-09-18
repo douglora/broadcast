@@ -1,9 +1,21 @@
 ALERTAS · eventos
 
-Nenhum alerta novo neste slot.
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: 16/09/2026
+CVM IPE · entregue 16/09/2026 21:42 · 16/09/2026
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre 16/09/2026'
+Fonte: CVM IPE 2026-09-16
+Push: [ATENÇÃO] SBSP3 · Fato Relevante · detalhe na sessão
+ids: E03-SBSP3-1568917-2026-09-16
+
 Info (só linha no Fechamento):
-· E05 USDBRL · Dólar fecha quase estável em sessão sem gatilhos, a R$ 5,14, e sobe 0,4% na semana
-· E05 UST · The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.
+· E03 ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 BBDC4 · Aviso aos Acionistas: Outros avisos
+· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 
 
 Alertas do dia (todos, com status):
@@ -82,6 +94,7 @@ Alertas do dia (todos, com status):
 · linha     E05 GOOGL — GOOGL · Google Keeps AdX as Court Orders Behavioral Remedies in Ad-Tech Antitrus
 · entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
 · entregue  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
+· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: 16/09/2026
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
@@ -645,3 +658,8 @@ Alertas do dia (todos, com status):
 · linha     E05 PETR4 — PETR4 · Mercado está subestimando os dividendos da Petrobras? XP vê distorção na
 · linha     E05 USDBRL — USDBRL · Dólar fecha quase estável em sessão sem gatilhos, a R$ 5,14, e sobe 0,4
 · linha     E05 UST — UST · The 10-year Treasury is having its worst run in over 100 years. Why invest
+· linha     E03 ALUP4 — ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· linha     E03 ITUB4 — ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevan
+· linha     E03 PETR4 — PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevan
+· linha     E03 BBDC4 — BBDC4 · Aviso aos Acionistas: Outros avisos
+· linha     E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevan
