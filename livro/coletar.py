@@ -5,7 +5,8 @@ renderiza as saidas e grava livro/saida/manifest.json.
 Layout no branch dados (raiz = dados_branch/livro):
   series/<SIMBOLO_SAFE>.json   curvas/{di,tesouro,ust}.json   macro/{bcb,focus,proxies,regime}.json
   estado/{regras_estado.json,alertas.json,historico_alertas.jsonl}
-  saida/{manifest.json,fechamento.md,fechamento.json,alertas.md,intradia.md,manha.md}
+  saida/{manifest.json,fechamento.md,fechamento.json,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
+  eventos/{noticias,cvm,sec}.json   noticias/vistos.json   noticias/corpo/<id>.json
   sonda/cobertura.json   universo.json"""
 
 from __future__ import annotations
@@ -18,8 +19,9 @@ from livro import fmt, politica, relogios, render
 from livro import indicadores as ind
 from livro import universo as uni
 from livro.estado import Repositorio
-from livro.fontes import b3_di, bcb, sina, tesouro, ust, yahoo
+from livro.fontes import b3_di, bcb, cvm, noticias, sec, sina, tesouro, ust, yahoo
 from livro.sinais import curvas as r_curvas
+from livro.sinais import eventos as r_ev
 from livro.sinais import fx_commod as r_fx
 from livro.sinais import sistema as r_sis
 from livro.sinais import tecnicas as r_tec
@@ -27,7 +29,8 @@ from livro.sinais.base import Contexto
 from livro.universo import gravar_json, ler_json
 
 SLOT_ROTULO = {"intradia": "intradia", "fechamento": "Fechamento 18h40", "manha": "Manhã 07h20",
-               "fimdesemana": "Domingo", "sonda": "sonda", "backfill": "backfill", "ack": "ack"}
+               "fimdesemana": "Domingo", "sonda": "sonda", "backfill": "backfill", "ack": "ack", "eventos": "eventos"}
+MODOS_COM_EVENTOS = ("intradia", "fechamento", "manha", "eventos")
 
 
 def _log(msg: str) -> None:
@@ -54,8 +57,9 @@ class Coleta:
         self.series_info: dict = {}
         self.curvas: dict = {}
         self.macro: dict = {}
+        self.eventos: dict = {}
         self.inicio = time.time()
-        for sub in ("series", "curvas", "macro", "estado", "saida", "sonda"):
+        for sub in ("series", "curvas", "macro", "estado", "saida", "sonda", "eventos", "noticias/corpo"):
             os.makedirs(os.path.join(saida, sub), exist_ok=True)
         gravar_json(os.path.join(saida, "universo.json"), self.u.para_json())
 
@@ -228,17 +232,100 @@ class Coleta:
     def _offline_json(self, nome: str):
         return ler_json(os.path.join(self.offline, "raw", nome)) if self.offline else None
 
+    # ------------------------------------------------------------ eventos (noticias, CVM, SEC)
+    def coletar_eventos(self) -> None:
+        """Noticias em todo slot; CVM (IPE atualiza uma vez ao dia) na manha, no
+        fechamento, no modo eventos e no intradia das 12h e 15h BRT; SEC em todo slot
+        (leve), declarada indisponivel sem o secret. Cada perna falha sozinha."""
+        cfg = uni.carregar_yaml("fontes_noticias.yaml")
+        self.eventos = {"config": cfg, "noticias": [], "cvm": [], "sec": []}
+        if self.offline:
+            for perna in ("noticias", "cvm", "sec"):
+                d = ler_json(os.path.join(self.offline, "eventos", f"{perna}.json"), {}) or {}
+                self.eventos[perna] = d.get("itens") or d.get("docs") or d.get("filings") or []
+                self.pernas[perna] = f"offline {len(self.eventos[perna])}"
+            return
+        caminho_vistos = os.path.join(self.saida, "noticias", "vistos.json")
+        vistos = ler_json(caminho_vistos, {}) or {}
+        hoje_brt = relogios.brt(self.agora).date()
+        hora_brt = relogios.brt(self.agora).hour
+        lim = self.limiares
+        # noticias
+        try:
+            n = noticias.coletar(cfg, vistos.get("noticias"), agora=self.agora)
+            self.eventos["noticias"] = n["itens"]
+            vistos["noticias"] = n["vistos"]
+            gravar_json(os.path.join(self.saida, "eventos", "noticias.json"),
+                        {k: v for k, v in n.items() if k != "vistos"})
+            self.pernas["noticias"] = f"ok {len(n['itens'])} novas ({n['consultas']} consultas" + (f", {len(n['falhas'])} falhas)" if n["falhas"] else ")")
+            for it in n["itens"]:
+                if it.get("texto"):
+                    gravar_json(os.path.join(self.saida, "noticias", "corpo", f"{it['id']}.json"),
+                                {k: it.get(k) for k in ("id", "titulo", "veiculo", "url", "licenca", "publicado", "ativos", "texto")})
+        except Exception as e:
+            self.falhas["noticias"] = f"{type(e).__name__}: {str(e)[:80]}"
+            self.pernas["noticias"] = "falhou"
+        # CVM
+        c_cfg = lim.get("E03_CVM") or {}
+        roda_cvm = self.modo in (c_cfg.get("slots") or ["manha", "fechamento", "eventos"]) or \
+            (self.modo == "intradia" and hora_brt in (c_cfg.get("horas_intradia_brt") or [12, 15]))
+        if roda_cvm:
+            try:
+                c = cvm.coletar(cfg.get("cvm") or {}, hoje=hoje_brt, dias=int(c_cfg.get("dias", 3)),
+                                categorias=cfg.get("cvm_categorias"), vistos=vistos.get("cvm"),
+                                max_pdf=int(c_cfg.get("max_pdf_por_run", 8)))
+                self.eventos["cvm"] = c["docs"]
+                vistos["cvm"] = c["vistos"]
+                gravar_json(os.path.join(self.saida, "eventos", "cvm.json"), {k: v for k, v in c.items() if k != "vistos"})
+                self.pernas["cvm"] = f"ok {len(c['docs'])} novos de {c['todos']} ({len(c['empresas_casadas'])} cias casadas)" + \
+                    (f"; falhas {list(c['falhas'])}" if c["falhas"] else "")
+                for d in c["docs"]:
+                    if d.get("texto"):
+                        gravar_json(os.path.join(self.saida, "noticias", "corpo", f"{d['id']}.json"),
+                                    {"id": d["id"], "titulo": f"{d['categoria']}: {d['assunto']}", "veiculo": "CVM", "url": d["link"],
+                                     "licenca": "integral", "publicado": d["entregue_em"], "ativos": [d["ativo"]], "texto": d["texto"]})
+            except Exception as e:
+                self.falhas["cvm"] = f"{type(e).__name__}: {str(e)[:80]}"
+                self.pernas["cvm"] = "falhou"
+        else:
+            self.pernas["cvm"] = "fora do slot"
+        # SEC
+        s_cfg = lim.get("E04_SEC") or {}
+        try:
+            s = sec.coletar(cfg.get("sec") or {}, hoje=hoje_brt, dias=int(s_cfg.get("dias", 3)),
+                            formularios=cfg.get("sec_formularios"), vistos=vistos.get("sec"),
+                            max_docs=int(s_cfg.get("max_docs_por_run", 6)))
+            if not s.get("disponivel"):
+                self.pernas["sec"] = f"indisponível ({s.get('motivo')})"
+            else:
+                self.eventos["sec"] = s["filings"]
+                vistos["sec"] = s["vistos"]
+                gravar_json(os.path.join(self.saida, "eventos", "sec.json"), {k: v for k, v in s.items() if k != "vistos"})
+                self.pernas["sec"] = f"ok {len(s['filings'])} novos" + (f"; falhas {list(s['falhas'])}" if s["falhas"] else "")
+                for f in s["filings"]:
+                    if f.get("texto"):
+                        gravar_json(os.path.join(self.saida, "noticias", "corpo", f"{f['id']}.json"),
+                                    {"id": f["id"], "titulo": f"{f['form']}: {', '.join(f.get('itens_rotulo') or [])}", "veiculo": "SEC",
+                                     "url": f["url"], "licenca": "integral", "publicado": f["aceito_em"], "ativos": [f["ativo"]], "texto": f["texto"]})
+        except Exception as e:
+            self.falhas["sec"] = f"{type(e).__name__}: {str(e)[:80]}"
+            self.pernas["sec"] = "falhou"
+        gravar_json(caminho_vistos, vistos)
+
     # ------------------------------------------------------------ sinais
     def rodar_sinais(self, repo: Repositorio) -> tuple[list, Contexto]:
         ctx = Contexto(universo=self.u, limiares=self.limiares, hoje=self.hoje, slot=self.modo,
                        series=self.series, series_info=self.series_info, curvas=self.curvas,
-                       macro=self.macro, falhas=self.falhas, agora_iso=self.agora.strftime("%Y-%m-%dT%H:%M:%SZ"))
+                       macro=self.macro, falhas=self.falhas, agora_iso=self.agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                       eventos=self.eventos)
         ordem = [r_curvas.C01DIMovimento(), r_curvas.C04TesouroJuroReal(), r_curvas.C05TesouroVariacaoPU(), r_curvas.C07UST(),
                  r_tec.T13Regime(), r_tec.T01MM200(), r_tec.T03GoldenDeath(), r_tec.T04MaxMin(), r_tec.T05Zscore(),
-                 r_tec.T08Drawdown(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto(), r_sis.S01FalhaDados()]
+                 r_tec.T08Drawdown(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto()] + r_ev.REGRAS + [r_sis.S01FalhaDados()]
         if self.modo == "intradia":
             # intradia: so o que e seguro sem fechamento consolidado
-            ordem = [r_tec.T13Regime(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto(), r_sis.S01FalhaDados()]
+            ordem = [r_tec.T13Regime(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto()] + r_ev.REGRAS + [r_sis.S01FalhaDados()]
+        elif self.modo == "eventos":
+            ordem = list(r_ev.REGRAS)
         alertas = []
         for regra in ordem:
             try:
@@ -268,7 +355,14 @@ class Coleta:
         with open(os.path.join(saida, "alertas.md"), "w", encoding="utf-8") as f:
             f.write(alertas_txt)
         hora = fmt.data_br(self.agora.astimezone(relogios.BRT).date().isoformat()) + " " + relogios.fmt_brt(self.agora)
-        out = {"alertas": len(resultado["mensagens"]), "criticos": sum(1 for m in resultado["mensagens"] if m["severidade"] == "critico")}
+        with open(os.path.join(saida, "noticias.md"), "w", encoding="utf-8") as f:
+            f.write(render.noticias_md(do_dia, hora, self.pernas))
+        out = {"alertas": len(resultado["mensagens"]), "criticos": sum(1 for m in resultado["mensagens"] if m["severidade"] == "critico"),
+               "noticias": sum(1 for a in do_dia if a.get("familia") in ("noticia", "evento"))}
+        if self.modo == "eventos":
+            with open(os.path.join(saida, "eventos.md"), "w", encoding="utf-8") as f:
+                f.write((alertas_txt if resultado["mensagens"] else f"{relogios.fmt_brt(self.agora)} · sem noticia ou fato novo atribuido ao livro\n") + "\n")
+            return out
         if self.modo == "intradia":
             ucits = [f"{a.id} {fmt.pct(janelas[a.id].get('dia'))}" for a in self.u.ucits()[:4] if a.id in janelas and self.series_info.get(a.id, {}).get("fresco")]
             obs = ("UCITS fecharam: " + ", ".join(ucits)) if ucits and relogios.fechou("LSE", self.agora) else ""
@@ -400,10 +494,14 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
         c.pernas["sonda"] = f"{ok}/{len(cob['simbolos'])} ok"
         return c.manifest({"sonda": {"ok": ok, "total": len(cob["simbolos"]), "cliente": cob["cliente"]}})
     _log(f"modo {modo} · pregão {c.hoje} · ack {n_ack}")
-    c.coletar_series()
-    _log(f"séries: {c.pernas.get('yahoo')}")
-    c.coletar_curvas()
-    _log(f"curvas: DI {c.pernas.get('di')} · TD {c.pernas.get('tesouro')} · UST {c.pernas.get('ust')}")
+    if modo != "eventos":
+        c.coletar_series()
+        _log(f"séries: {c.pernas.get('yahoo')}")
+        c.coletar_curvas()
+        _log(f"curvas: DI {c.pernas.get('di')} · TD {c.pernas.get('tesouro')} · UST {c.pernas.get('ust')}")
+    if modo in MODOS_COM_EVENTOS:
+        c.coletar_eventos()
+        _log(f"eventos: notícias {c.pernas.get('noticias')} · CVM {c.pernas.get('cvm')} · SEC {c.pernas.get('sec')}")
     if modo == "backfill":
         # operacao de dados: nao avalia regra, nao registra alerta, nao renderiza
         return c.manifest({"backfill": {"dias": c.dias_backfill}})

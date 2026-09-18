@@ -33,6 +33,10 @@ Regras que nao se negociam:
 | `saida/fechamento.json` | janelas por ativo, movers, `leitura_insumos` (DI, Tesouro, breakevens, UST, regime), alertas do dia, lacunas, `push_sugerido` |
 | `saida/alertas.md` | mensagens prontas do slot (com `Push:` e `ids:`), linhas de info, suprimidos, alertas do dia com status |
 | `saida/intradia.md` | a linha unica de "sem alerta novo" ou os alertas do slot |
+| `saida/noticias.md` | todas as noticias e fatos do dia com o card completo (CVM, SEC, noticias com materialidade, outras so manchete) |
+| `saida/eventos.md` | saida do modo `eventos` (so noticias/CVM/SEC, sem series): alertas do run ou a linha "sem noticia ou fato novo" |
+| `noticias/corpo/<id>.json` | texto integral (so fonte primaria ou veiculo com licenca `integral`): CVM, SEC, releases, Money Times, Agencia Brasil |
+| `eventos/{noticias,cvm,sec}.json` | itens crus da ultima coleta (noticias atribuidas, documentos do IPE, filings do EDGAR) |
 | `saida/manha.md` | overnight + curvas oficiais (D-1) no formato do Fechamento |
 | `estado/alertas.json` | fila com ack (pendente / entregue / expirado) |
 | `universo.json` | o livro com nomes por extenso (copia de config/livro.yaml) |
@@ -115,6 +119,16 @@ novo ...", a resposta e essa linha, e nada mais. Se traz alertas, cole cada
 mensagem (com `Como falar`) e um paragrafo de 2 linhas, no maximo, ligando os
 alertas entre si. Marque "(parcial, intradia)" o que o runner marcou.
 
+**Noticias e fatos (E03 CVM, E04 SEC, E05 noticia)** chegam como mensagens
+proprias no slot (teto proprio: 3 noticias e 4 fatos por slot; o resto vira linha
+em `noticias.md`). Cole o card como esta (manchete, veiculo, hora, "Do texto"/"Do
+documento", link) e acrescente 1 a 2 linhas suas: o que muda para o cliente e o
+que confirmar. Regras de licenca (decisao do Douglas, 18/09): texto integral so
+de fonte primaria (fato relevante CVM, 8-K/6-K, release de RI) e de veiculo
+`integral` no config; para `resumo` e `manchete`, resumo fiel + link, nunca o
+texto. Nunca invente o que a materia diz: se o card nao tem "Do texto", diga
+"so manchete (paywall/licenca)". "Fato relevante" e sempre mensagem propria.
+
 **Manha (07h20 BRT).** Cole `manha.md` (curvas oficiais de D-1: ajuste B3,
 Tesouro base, UST CMT), os alertas pendentes de ontem a noite, a agenda de hoje
 (hora BRT e "o que esta no preco" quando `leitura_insumos` permitir), e na
@@ -125,13 +139,18 @@ tem slot `fechamento`, abra com "Fechamento de ontem nao saiu (motivo)".
 
 - "livro" / "fechamento agora": rode o procedimento do Fechamento com `modo=fechamento`.
 - "alertas": `git show origin/dados:livro/saida/alertas.md` e cole.
+- "noticias" / "fatos" / "noticias agora": dispare `livro.yml` com `modo=eventos`
+  (so noticias, CVM e SEC; 1 a 2 min), espere com o laco (grep `eventos`) e cole
+  `saida/eventos.md`; para o dia inteiro, cole `saida/noticias.md`.
+- "integra <id>": `git show origin/dados:livro/noticias/corpo/<id>.json` e mostre
+  `titulo`, `veiculo`, `url` e o `texto` inteiro (ele so existe para fonte
+  primaria ou licenca integral; senao, responda com o link e a licenca).
 - "tecnica VALE3": leia `fechamento.json` (janelas do ativo) e a serie
   `livro/series/<SIMBOLO>.json` filtrada com python3 -c (ultimas 260 barras) e
   apresente: preco vs MM20/50/100/200, RSI14, z do dia, vol 20/60/252d, max/min
   52s com datas, drawdown, sequencia. Calcule com pandas a partir das barras do
   runner (sao dados do runner, nao numero inventado) e cite "Yahoo Finance, barra
   de dd/mm".
-- "integra <id>": (v1.1) leia `livro/noticias/corpo/<id>.json`.
 - "curto" / "celular": Fechamento com `fechamento_celular.md`.
 - "pausar o livro": crie o arquivo `PAUSADO` na raiz da main via PR e
   `update_trigger enabled=false` nas 3 Routines; "religar" desfaz.
@@ -168,3 +187,4 @@ tem slot `fechamento`, abra com "Fechamento de ontem nao saiu (motivo)".
 - [ ] Lacunas declaradas; nada de N/D, 0 ou numero velho como se fosse de hoje
 - [ ] Sem compre/venda; "Como falar" descritivo
 - [ ] Ids narrados anotados para o ack do proximo turno
+- [ ] Noticia sem "Do texto" narrada como manchete + link, nunca com conteudo inventado

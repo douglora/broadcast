@@ -5,3 +5,5 @@ pandas>=2.2
 numpy>=1.26
 pyyaml>=6.0
 curl_cffi>=0.7
+trafilatura>=1.9
+pypdf>=4.0

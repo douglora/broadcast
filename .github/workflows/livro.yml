@@ -10,11 +10,11 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "intradia | fechamento | manha | ack | sonda | backfill"
+        description: "intradia | fechamento | manha | eventos | ack | sonda | backfill"
         required: true
         default: intradia
         type: choice
-        options: [intradia, fechamento, manha, ack, sonda, backfill]
+        options: [intradia, fechamento, manha, eventos, ack, sonda, backfill]
       ids_entregues:
         description: "ids de alertas ja narrados na sessao, separados por virgula (ack)"
         required: false

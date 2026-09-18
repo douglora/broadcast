@@ -1,0 +1,182 @@
+# Fontes de noticias e eventos do livro monitorado.
+#
+# Tres pernas:
+#   1. noticias: busca no Google News (descoberta) por grupos de ativos; o item e
+#      atribuido aos ativos pelas palavras-chave em `casar`; o link do Google e
+#      trocado pela URL do veiculo; o TEXTO so e extraido onde a licenca permite.
+#   2. cvm: fatos relevantes, comunicados ao mercado e avisos aos acionistas do
+#      IPE (dados abertos da CVM), com o PDF lido por inteiro (fonte primaria).
+#   3. sec: 8-K/6-K das companhias dos EUA (EDGAR), com o documento lido por
+#      inteiro (fonte primaria). Exige o secret SEC_USER_AGENT.
+#
+# Licenca por veiculo (decisao do Douglas em 18/09):
+#   integral  -> texto completo pode ser guardado e mostrado na sessao (fonte
+#                primaria ou veiculo que permite uso interno)
+#   resumo    -> 4-8 linhas de resumo fiel a partir da descricao do feed + link
+#   manchete  -> so manchete + link (paywall ou termos restritivos)
+
+janela_horas: 36          # item mais velho que isso nao vira alerta
+max_resolver_por_run: 15  # links do Google resolvidos por execucao (2 requisicoes cada)
+max_texto_chars: 6000
+
+veiculos:
+  - {id: cvm, nome: "CVM (fato relevante)", dominios: [rad.cvm.gov.br, cvm.gov.br], licenca: integral, nota: "Fonte primaria; documento publico."}
+  - {id: sec, nome: "SEC EDGAR", dominios: [sec.gov], licenca: integral, nota: "Fonte primaria; documento publico."}
+  - {id: agenciabrasil, nome: "Agencia Brasil", dominios: [agenciabrasil.ebc.com.br], licenca: integral, nota: "Conteudo sob Creative Commons Atribuicao (citar a fonte)."}
+  - {id: moneytimes, nome: "Money Times", dominios: [moneytimes.com.br], licenca: integral, nota: "Feed publico; uso interno do texto verificado em 28/08/2026 (tracknews)."}
+  - {id: valor, nome: "Valor Economico", dominios: [valor.globo.com], licenca: resumo}
+  - {id: bloomberglinea, nome: "Bloomberg Linea", dominios: [bloomberglinea.com.br, bloomberglinea.com], licenca: resumo}
+  - {id: infomoney, nome: "InfoMoney", dominios: [infomoney.com.br], licenca: resumo}
+  - {id: exame, nome: "Exame", dominios: [exame.com], licenca: resumo}
+  - {id: seudinheiro, nome: "Seu Dinheiro", dominios: [seudinheiro.com], licenca: resumo}
+  - {id: braziljournal, nome: "Brazil Journal", dominios: [braziljournal.com], licenca: resumo}
+  - {id: estadao, nome: "Estadao", dominios: [estadao.com.br], licenca: manchete}
+  - {id: folha, nome: "Folha de S.Paulo", dominios: [folha.uol.com.br], licenca: manchete}
+  - {id: g1, nome: "g1", dominios: [g1.globo.com], licenca: resumo}
+  - {id: cnnbrasil, nome: "CNN Brasil", dominios: [cnnbrasil.com.br], licenca: resumo}
+  - {id: poder360, nome: "Poder360", dominios: [poder360.com.br], licenca: resumo}
+  - {id: investing, nome: "Investing.com", dominios: [investing.com], licenca: manchete}
+  - {id: reuters, nome: "Reuters", dominios: [reuters.com], licenca: manchete}
+  - {id: bloomberg, nome: "Bloomberg", dominios: [bloomberg.com], licenca: manchete}
+  - {id: wsj, nome: "The Wall Street Journal", dominios: [wsj.com], licenca: manchete}
+  - {id: ft, nome: "Financial Times", dominios: [ft.com], licenca: manchete}
+  - {id: cnbc, nome: "CNBC", dominios: [cnbc.com], licenca: resumo}
+  - {id: marketwatch, nome: "MarketWatch", dominios: [marketwatch.com], licenca: manchete}
+  - {id: yahoo, nome: "Yahoo Finance", dominios: [finance.yahoo.com], licenca: resumo}
+  - {id: seekingalpha, nome: "Seeking Alpha", dominios: [seekingalpha.com], licenca: manchete}
+  - {id: prnewswire, nome: "PR Newswire", dominios: [prnewswire.com], licenca: integral, nota: "Release de empresa (fonte primaria)."}
+  - {id: businesswire, nome: "Business Wire", dominios: [businesswire.com], licenca: integral, nota: "Release de empresa (fonte primaria)."}
+  - {id: globenewswire, nome: "GlobeNewswire", dominios: [globenewswire.com], licenca: integral, nota: "Release de empresa (fonte primaria)."}
+
+# Consultas ao Google News (uma requisicao cada). `when:1d` limita a busca a 24 h;
+# a janela acima corta o resto. Grupos por tema para caber em ~14 requisicoes.
+consultas:
+  - {id: br_bancos, lang: pt-BR, q: '(Itaú OR Itau OR Bradesco OR "Banco do Brasil" OR Itaúsa OR Itausa) (resultado OR lucro OR dividendos OR JCP OR guidance OR "fato relevante" OR provisão OR inadimplência OR CEO OR aquisição)'}
+  - {id: br_petro_vale, lang: pt-BR, q: '(Petrobras OR Vale OR Ultrapar OR Ipiranga) (resultado OR dividendos OR "fato relevante" OR preço OR produção OR minério OR acordo OR multa OR conselho OR CEO OR investimento)'}
+  - {id: br_utilities, lang: pt-BR, q: '(Equatorial OR Sanepar OR Alupar OR Sabesp OR Axia OR Eletrobras) (resultado OR dividendos OR "fato relevante" OR leilão OR tarifa OR concessão OR aquisição OR Aneel OR Arsesp OR privatização)'}
+  - {id: br_outros, lang: pt-BR, q: '(Klabin OR "Mercado Livre" OR Direcional OR MRV OR "small caps") (resultado OR dividendos OR "fato relevante" OR celulose OR lançamentos OR "Minha Casa" OR guidance OR aquisição)'}
+  - {id: br_macro, lang: pt-BR, q: '(Copom OR Selic OR "Banco Central" OR IPCA OR "Tesouro Direto" OR "curva de juros" OR "risco fiscal") (decisão OR ata OR alta OR corte OR projeção OR leilão OR déficit)'}
+  - {id: br_cambio, lang: pt-BR, q: '(dólar OR câmbio OR "real brasileiro") (fecha OR abre OR sobe OR cai OR "Banco Central" OR leilão OR fluxo)'}
+  - {id: us_semis, lang: en-US, q: '(Micron OR Nvidia OR TSMC OR "Taiwan Semiconductor") (earnings OR guidance OR revenue OR "data center" OR HBM OR export OR tariff OR outlook)'}
+  - {id: us_bigtech, lang: en-US, q: '(Alphabet OR Google OR Amazon OR AWS) (earnings OR antitrust OR DOJ OR capex OR guidance OR cloud OR lawsuit OR ruling)'}
+  - {id: us_bancos, lang: en-US, q: '("JPMorgan" OR "Bank of America") (earnings OR guidance OR "net interest" OR Dimon OR Moynihan OR provision OR buyback OR dividend)'}
+  - {id: us_defensivos, lang: en-US, q: '("Coca-Cola" OR Chevron OR 3M OR Nokia OR Alibaba) (earnings OR guidance OR dividend OR acquisition OR lawsuit OR settlement OR outlook OR Hess)'}
+  - {id: us_macro, lang: en-US, q: '("Federal Reserve" OR Powell OR FOMC OR Treasury yields OR "10-year") (rate OR cut OR hike OR inflation OR payrolls OR CPI OR auction)'}
+  - {id: commod, lang: en-US, q: '(Brent OR OPEC OR "iron ore" OR pulp OR Suzano) (price OR output OR cut OR supply OR demand OR China)'}
+  - {id: cripto, lang: en-US, q: '(Bitcoin OR Ethereum OR "crypto ETF") (price OR SEC OR ETF OR inflow OR outflow OR halving OR hack)'}
+  - {id: asia, lang: en-US, q: '(Kospi OR "South Korea" OR "China stocks" OR Hang Seng OR Alibaba) (stimulus OR tariff OR export OR chip OR rally OR selloff)'}
+
+# Atribuicao: regex aplicadas ao titulo + descricao (sensiveis a maiusculas, salvo (?i)).
+casar:
+  ITUB4: ['(?i)\bIta[uú] ?Unibanco\b', '(?i)\bIta[uú]\b(?! ?Unibanco)', 'ITUB4']
+  BBDC4: ['(?i)\bBradesco\b', 'BBDC4']
+  BBAS3: ['(?i)\bBanco do Brasil\b', 'BBAS3']
+  ITSA4: ['(?i)\bIta[uú]sa\b', 'ITSA4']
+  PETR4: ['(?i)\bPetrobras\b', 'PETR4']
+  VALE3: ['\bVale\b(?! (a|à|de|do|da|pena|tudo|mais|menos|muito|pouco|lembrar|dizer|ressaltar|notar|destacar))', 'VALE3', '(?i)\bVale S\.?A\.?\b']
+  UGPA3: ['(?i)\bUltrapar\b', '(?i)\bIpiranga\b', 'UGPA3']
+  EQTL3: ['(?i)\bEquatorial\b', 'EQTL3']
+  SAPR4: ['(?i)\bSanepar\b', 'SAPR4', 'SAPR11']
+  ALUP4: ['(?i)\bAlupar\b', 'ALUP4', 'ALUP11']
+  SBSP3: ['(?i)\bSabesp\b', 'SBSP3']
+  AXIA3: ['(?i)\bAxia\b', '(?i)\bEletrobras\b', 'AXIA3']
+  KLBN4: ['(?i)\bKlabin\b', 'KLBN4', 'KLBN11']
+  MELI34: ['(?i)\bMercado ?Livre\b', '(?i)\bMercadoLibre\b', 'MELI34', '\bMELI\b']
+  DIRR3: ['(?i)\bDirecional\b', 'DIRR3']
+  MRVE3: ['\bMRV\b', 'MRVE3']
+  SMAL11: ['SMAL11', '(?i)\bsmall caps?\b']
+  MU: ['(?i)\bMicron\b', '\bMU\b(?= (stock|shares))']
+  NVDA: ['(?i)\bNvidia\b', '\bNVDA\b']
+  TSM: ['(?i)\bTSMC\b', '(?i)\bTaiwan Semiconductor\b', '\bTSM\b']
+  GOOGL: ['(?i)\bAlphabet\b', '\bGoogle\b', '\bGOOGL?\b']
+  AMZN: ['(?i)\bAmazon\b', '\bAWS\b', '\bAMZN\b']
+  JPM: ['(?i)\bJPMorgan\b', '(?i)\bJ\.?P\.? ?Morgan\b', '\bJPM\b', '(?i)\bDimon\b']
+  BAC: ['(?i)\bBank of America\b', '\bBofA\b', '\bBAC\b', '(?i)\bMoynihan\b']
+  KO: ['(?i)\bCoca-?Cola\b', '\bKO\b(?= (stock|shares))']
+  CVX: ['(?i)\bChevron\b', '\bCVX\b']
+  MMM: ['\b3M\b', '\bMMM\b']
+  NOK: ['(?i)\bNokia\b', '\bNOK\b(?= (stock|shares))']
+  BABA: ['(?i)\bAlibaba\b', '\bBABA\b']
+  BRENT: ['(?i)\bBrent\b', '(?i)\bOPEC\+?\b', '(?i)\bOpep\b', '(?i)\bpetr[oó]leo\b(?!.*Petrobras)', '(?i)\boil prices?\b']
+  MINERIO: ['(?i)\biron ore\b', '(?i)\bmin[eé]rio de ferro\b']
+  USDBRL: ['(?i)\bd[oó]lar\b', '(?i)\bc[aâ]mbio\b', '(?i)\breal brasileiro\b', '(?i)\bBrazilian real\b']
+  BTC: ['(?i)\bBitcoin\b', '\bBTC\b']
+  ETH: ['(?i)\bEthereum\b', '(?i)\bEther\b', '\bETH\b']
+  EWY: ['(?i)\bKospi\b', '(?i)\bSouth Korea(n)? (stocks|shares|market)\b']
+  MCHI: ['(?i)\bChina stocks\b', '(?i)\bChinese (stocks|shares|equities)\b', '(?i)\bHang Seng\b', '(?i)\bCSI ?300\b']
+  DI: ['(?i)\bCopom\b', '(?i)\bSelic\b', '(?i)\bcurva de juros\b', '(?i)\bjuros futuros\b', '(?i)\bDI futuro\b']
+  TESOURO: ['(?i)\bTesouro Direto\b', '(?i)\bNTN-?B\b', '(?i)\bIPCA\+\b', '(?i)\bleil[aã]o do Tesouro\b']
+  UST: ['(?i)\bTreasur(y|ies)\b', '(?i)\b10-year\b', '(?i)\bFederal Reserve\b', '(?i)\bFOMC\b', '(?i)\bPowell\b']
+
+# Materialidade: com uma destas, a noticia vira ATENCAO (mensagem propria); sem, vira INFO (linha).
+materialidade_forte:
+  - '(?i)\bfato relevante\b'
+  - '(?i)\b(resultado|lucro|preju[ií]zo|earnings|profit|loss)\b.*\b(tri|trimestre|quarter|Q[1-4]|[1-4]T\d{2})\b'
+  - '(?i)\b(guidance|proje[cç][aã]o|outlook)\b'
+  - '(?i)\b(dividendos?|JCP|juros sobre capital|dividend|buyback|recompra)\b'
+  - '(?i)\b(aquisi[cç][aã]o|compra|venda|fus[aã]o|acquisition|acquire|merger|deal|takeover)\b.*\b(R\$|US\$|\$|bilh|milh|billion|million)\b'
+  - '(?i)\b(rebaixa|eleva|corta|raises|cuts|downgrade|upgrade)\b.*\b(rating|recomenda[cç][aã]o|pre[cç]o-alvo|price target|nota)\b'
+  - '(?i)\b(CEO|presidente|diretor|conselho|chairman|CFO)\b.*\b(ren[uú]ncia|deixa|sai|assume|nomea|steps down|resigns|appoint|named)\b'
+  - '(?i)\b(multa|processo|senten[cç]a|CADE|Justi[cç]a|lawsuit|ruling|antitrust|fine|settlement|penalty)\b'
+  - '(?i)\b(greve|acidente|barragem|vazamento|explos[aã]o|strike|accident|spill|outage|recall)\b'
+  - '(?i)\b(oferta|follow-on|IPO|emiss[aã]o|deb[eê]ntures|bond sale|offering)\b'
+  - '(?i)\b(Copom|FOMC|Fed)\b.*\b(decide|mant[eé]m|eleva|corta|sobe|reduz|holds|hikes|cuts|raises)\b'
+  - '(?i)\b(tarifa|tariff|sanction|san[cç][aã]o|export ban|proibi[cç][aã]o)\b'
+  - '(?i)\b(guidance|capex|investimento)\b.*\b(R\$|US\$|\$)\s?\d'
+  - '(?i)\bATH\b|\brecorde\b|\brecord high\b|\ball-time high\b'
+
+# "Por que mexe o livro" por gatilho (o texto do analista vem da sessao; isto e o esqueleto).
+por_que:
+  resultado: "resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar"
+  dividendo: "provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao"
+  ma: "aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento"
+  rating: "mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro"
+  gestao: "troca no comando reabre a discussao de estrategia e de alocacao de capital"
+  juridico: "contingencia muda o risco e pode virar provisao; olhar valor e prazo"
+  operacional: "evento operacional afeta producao e custo no trimestre corrente"
+  oferta: "oferta de acoes ou divida altera a base acionaria ou a alavancagem"
+  macro: "decisao de politica monetaria reprecifica toda a curva e o cambio"
+  tarifa: "tarifa ou sancao muda margem e acesso a mercado"
+  padrao: "noticia material sobre um ativo do livro; ler o texto antes de comentar"
+
+# CVM (IPE): casamento por Codigo_CVM (primario) ou nucleo do nome (fallback).
+# `codigo` a confirmar no primeiro run (o runner grava empresas_casadas).
+cvm:
+  PETR4: {codigo: 9512, nomes: ["PETROLEO BRASILEIRO PETROBRAS", "PETROBRAS"]}
+  VALE3: {codigo: 4170, nomes: ["VALE"]}
+  ITUB4: {codigo: 19348, nomes: ["ITAU UNIBANCO"]}
+  BBDC4: {codigo: 906, nomes: ["BRADESCO"]}
+  BBAS3: {codigo: 1023, nomes: ["BRASIL"]}
+  ITSA4: {codigo: 7617, nomes: ["ITAUSA", "ITAUSA INVESTIMENTOS ITAU"]}
+  KLBN4: {codigo: 12653, nomes: ["KLABIN"]}
+  EQTL3: {codigo: 19924, nomes: ["EQUATORIAL ENERGIA"]}
+  SAPR4: {codigo: 18627, nomes: ["SANEAMENTO PARANA SANEPAR", "SANEPAR"]}
+  ALUP4: {codigo: 21490, nomes: ["ALUPAR INVESTIMENTO"]}
+  UGPA3: {codigo: 18465, nomes: ["ULTRAPAR"]}
+  AXIA3: {codigo: 2437, nomes: ["AXIA ENERGIA", "CENTRAIS ELET BRAS ELETROBRAS", "ELETROBRAS"]}
+  SBSP3: {codigo: 14443, nomes: ["SANEAMENTO BASICO EST SAO PAULO SABESP", "SABESP"]}
+  DIRR3: {codigo: 21350, nomes: ["DIRECIONAL ENGENHARIA"]}
+  MRVE3: {codigo: 20915, nomes: ["MRV ENGENHARIA"]}
+cvm_categorias:
+  "Fato Relevante": atencao
+  "Comunicado ao Mercado": info
+  "Aviso aos Acionistas": info
+cvm_dias: 3
+
+# SEC EDGAR: ticker -> ativo do livro. CIK resolvido pelo company_tickers.json da SEC.
+sec:
+  MU: MU
+  NVDA: NVDA
+  BAC: BAC
+  KO: KO
+  JPM: JPM
+  TSM: TSM
+  CVX: CVX
+  MMM: MMM
+  GOOGL: GOOGL
+  AMZN: AMZN
+  NOK: NOK
+  BABA: BABA
+  MELI34: MELI
+sec_formularios: ["8-K", "8-K/A", "6-K", "10-Q", "10-K"]
+sec_dias: 3

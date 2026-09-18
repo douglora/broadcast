@@ -19,6 +19,7 @@ spreads de credito privado e ranking de TIR real.
 | `coletar_dados.py`          | Coleta dados de ativos no GitHub Actions e grava no branch `dados` |
 | `livro/` + `config/livro.yaml` | Livro monitorado: coleta, regras de alerta e fechamento diario (Actions -> branch `dados` -> sessao do Claude) |
 | `.claude/skills/livro/`     | Skill: turnos de rotina do livro (manha, intradia, fechamento) na sessao |
+| `config/fontes_noticias.yaml` | Veiculos e licencas, consultas do Google News, casamento por ativo, CVM e SEC |
 
 ---
 
@@ -207,7 +208,13 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
    cripto, falha de dados), aplica a politica anti-fadiga (`livro/politica.py`)
    e grava em `livro/` no branch `dados`: `saida/fechamento.md` (BLOCO A e
    BLOCO B com dia/1s/1m/6m/1a/YTD), `saida/alertas.md`, `saida/intradia.md`,
-   `saida/manha.md`, `saida/manifest.json`, `estado/alertas.json` (fila com ack).
+   `saida/manha.md`, `saida/noticias.md`, `saida/manifest.json`,
+   `estado/alertas.json` (fila com ack). Noticias e fatos (`livro/fontes/noticias.py`,
+   `cvm.py`, `sec.py` + regras E03/E04/E05): Google News por grupo de ativos com o
+   link do veiculo resolvido, fatos relevantes e comunicados do IPE da CVM com o
+   PDF lido, 8-K/6-K do EDGAR com o documento lido (exige o secret
+   `SEC_USER_AGENT`). Licenca por veiculo em `config/fontes_noticias.yaml`: texto
+   integral so de fonte primaria ou veiculo `integral`; o resto e resumo + link.
 2. **Sessao do Claude** (skill `.claude/skills/livro/SKILL.md`): e a interface.
    Routines disparam turnos na sessao (07h20, de hora em hora 10h20-17h20 e
    18h40 BRT); o turno dispara o workflow se o dado estiver velho, le o que o
@@ -218,7 +225,8 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
 
 Disparo manual: aba Actions > "Livro monitorado" > Run workflow, com `modo`
 (`sonda` mede a cobertura ticker a ticker; `backfill` traz o historico do DI;
-`fechamento` gera o relatorio). Pausar: criar o arquivo `PAUSADO` na raiz.
+`fechamento` gera o relatorio; `eventos` so noticias, CVM e SEC). Pausar: criar o
+arquivo `PAUSADO` na raiz.
 Pre-requisitos que so o dono do repositorio faz: mesclar na `main` (o cron e as
 permissoes da sessao so valem la) e criar o secret `SEC_USER_AGENT`
 ("Nome contato@email") para a SEC (usado na v1.1).

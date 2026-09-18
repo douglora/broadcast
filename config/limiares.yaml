@@ -6,7 +6,7 @@ versao: 1
 
 geral:
   quiet_hours_brt: {inicio: "19:00", fim: "07:00"}
-  teto_diario: {total: 6, critico: 2, atencao: 4, por_slot_atencao: 3}
+  teto_diario: {total: 6, critico: 2, atencao: 4, por_slot_atencao: 3, noticias_por_slot: 3, noticias_por_dia: 8, eventos_por_slot: 4, eventos_por_dia: 10}
   push: {critico: true, atencao_agrupado: true, info: false, teto_dia: 5}
   regime_vol:
     vix_minimo: 25
@@ -137,3 +137,17 @@ S01_FALHA_DADOS:
   series_faltando_min: 3
   workflow_max_min: 6
   dead_man_brt: "18:55"
+
+E03_CVM:
+  dias: 3                  # documentos entregues nos ultimos N dias (o IPE atualiza uma vez ao dia)
+  max_pdf_por_run: 8
+  slots: [manha, fechamento, eventos]
+  horas_intradia_brt: [12, 15]
+
+E04_SEC:
+  dias: 3
+  max_docs_por_run: 6
+
+E05_NOTICIA:
+  janela_horas: 36
+  max_resumo_linhas: 6
