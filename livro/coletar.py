@@ -257,7 +257,10 @@ class Coleta:
             vistos["noticias"] = n["vistos"]
             gravar_json(os.path.join(self.saida, "eventos", "noticias.json"),
                         {k: v for k, v in n.items() if k != "vistos"})
-            self.pernas["noticias"] = f"ok {len(n['itens'])} novas ({n['consultas']} consultas" + (f", {len(n['falhas'])} falhas)" if n["falhas"] else ")")
+            desc = n.get("descartados") or {}
+            self.pernas["noticias"] = (f"ok {len(n['itens'])} novas ({n['consultas']} consultas; descartadas: "
+                                       f"{desc.get('veiculo_desconhecido', 0)} veículo fora da lista, {desc.get('sem_ativo', 0)} sem ativo, "
+                                       f"{desc.get('teto', 0)} teto)" + (f"; {len(n['falhas'])} falhas" if n["falhas"] else ""))
             for it in n["itens"]:
                 if it.get("texto"):
                     gravar_json(os.path.join(self.saida, "noticias", "corpo", f"{it['id']}.json"),

@@ -124,7 +124,7 @@ def aplicar(novos: list[dict], pendentes: list[dict], limiares: dict, slot: str,
             texto = _texto_grupo(grupo, itens)
             if reap:
                 texto = "(pendente de slot anterior) " + texto
-            push = _push(sev, itens, slot_rotulo) if push_cfg.get("atencao_agrupado", True) else None
+            push = _push(sev, itens, slot_rotulo) if (push_cfg.get("atencao_agrupado", True) and not reap) else None
             mensagens.append({"severidade": sev, "grupo": grupo, "ids": [i["id"] for i in itens], "texto": texto, "push": push,
                               "familia": fam})
             continue
@@ -149,7 +149,9 @@ def aplicar(novos: list[dict], pendentes: list[dict], limiares: dict, slot: str,
         if any(i.get("reapresentacao") for i in itens):
             texto = "(pendente de slot anterior) " + texto
         push = None
-        if sev == "critico" and push_cfg.get("critico", True):
+        if reap:
+            push = None   # ja foi ao celular quando saiu; reapresentacao e so na sessao
+        elif sev == "critico" and push_cfg.get("critico", True):
             push = _push(sev, itens, slot_rotulo)
         elif sev == "atencao" and push_cfg.get("atencao_agrupado", True):
             push = _push(sev, itens, slot_rotulo)

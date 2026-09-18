@@ -82,8 +82,8 @@ class E05Noticia(Regra):
             corpo = [f"{veic} · {_hora_brt(it.get('publicado'))} · {segunda} · licença: {lic}"]
             if it.get("texto"):
                 corpo += _resumo(it.get("resumo") or [], "Do texto")
-            elif lic == "resumo" and it.get("resumo"):
-                corpo += _resumo(it.get("resumo") or [], "Do feed")
+            elif lic == "resumo" and it.get("trechos"):
+                corpo += _resumo(it.get("trechos") or [], "Trechos (licença resumo: reescrever, não colar)")
             url = it.get("url") or it.get("url_google") or ""
             if url:
                 corpo.append(f"Link: {url}")

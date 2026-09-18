@@ -158,21 +158,14 @@ def normalizar(texto: str) -> str:
 
 
 def atribuir(titulo: str, descricao: str, casar: dict) -> list[str]:
-    """Ativos do livro citados no titulo (ou na descricao). Regex do config,
-    sensiveis a maiusculas salvo (?i)."""
-    texto = f"{titulo}\n{descricao or ''}"
+    """Ativos do livro citados na MANCHETE. So o titulo conta: a descricao do Google
+    News repete a manchete e traz o nome do veiculo ("Portal Aqui Vale" nao e a
+    Vale). Regex do config, sensiveis a maiusculas salvo (?i)."""
     achados = []
     for ativo, padroes in (casar or {}).items():
-        for p in padroes:
-            try:
-                if re.search(p, titulo) or re.search(p, texto):
-                    achados.append(ativo)
-                    break
-            except re.error:
-                continue
-    # titulo manda: quem so aparece na descricao vai para o fim
-    no_titulo = [a for a in achados if any(_seguro(p, titulo) for p in casar.get(a, []))]
-    return no_titulo + [a for a in achados if a not in no_titulo]
+        if any(_seguro(p, titulo) for p in padroes):
+            achados.append(ativo)
+    return achados
 
 
 def _seguro(padrao: str, texto: str) -> bool:
@@ -182,13 +175,24 @@ def _seguro(padrao: str, texto: str) -> bool:
         return False
 
 
+DECISAO = re.compile(
+    r"(?i)\b(anuncia|aprova|corta|eleva|rebaixa|reduz|fecha|assina|compra|vende|adquire|paga|distribui|lan[cç]a|"
+    r"suspende|cancela|demite|nomeia|renuncia|processa|multa|conclui|recebe|divulga|registra|"
+    r"announces|approves|cuts|raises|lowers|hikes|downgrades?|upgrades?|signs|buys|sells|acquires|pays|files|"
+    r"reports|posts|beats|misses|suspends|cancels|names|appoints|resigns|sues|fines|settles|wins|loses|halts|"
+    r"unveils|launches|completes|agrees|plunges|soars|surges|tumbles|despenca|dispara)\b")
+
+
 def materialidade(titulo: str, descricao: str, fortes: list[str]) -> tuple[str, list[str]]:
-    texto = f"{titulo} {descricao or ''}"
-    bateu = []
-    for p in fortes or []:
-        if _seguro(p, texto):
-            bateu.append(p)
-    return ("atencao" if bateu else "info"), bateu
+    """ATENCAO exige gatilho forte na manchete E (numero na manchete OU verbo de decisao).
+    'Por que a Coca-Cola desafia a tese de dividendos?' e info; 'Safra corta preco-alvo
+    de Itau' e atencao."""
+    bateu = [p for p in (fortes or []) if _seguro(p, titulo)]
+    if not bateu:
+        return "info", []
+    if re.search(r"\d", titulo) or DECISAO.search(titulo):
+        return "atencao", bateu
+    return "info", bateu
 
 
 def gatilho(titulo: str, descricao: str) -> str:
@@ -271,7 +275,9 @@ def resumo_fiel(descricao: str, texto: str | None, max_linhas: int = 8) -> list[
 
 # ---------------------------------------------------------------- dedup entre veiculos
 def _tokens(titulo: str) -> set[str]:
-    return {t for t in normalizar(titulo).split() if len(t) >= 4}
+    """Palavras com 4+ letras e qualquer token com digito (o numero da manchete e o
+    que mais identifica a mesma noticia entre veiculos)."""
+    return {t for t in normalizar(titulo).split() if len(t) >= 4 or any(ch.isdigit() for ch in t)}
 
 
 def _jaccard(a: set[str], b: set[str]) -> float:
@@ -283,7 +289,7 @@ def _jaccard(a: set[str], b: set[str]) -> float:
 PRIORIDADE_LICENCA = {"integral": 0, "resumo": 1, "manchete": 2}
 
 
-def consolidar(itens: list[dict], limiar: float = 0.5) -> list[dict]:
+def consolidar(itens: list[dict], limiar: float = 0.34) -> list[dict]:
     """Mesma noticia em varios veiculos vira um item com `fontes_extras`; fica o de
     melhor licenca. Item unico ganha `fonte_unica: True`."""
     itens = sorted(itens, key=lambda i: (PRIORIDADE_LICENCA.get(i.get("licenca"), 3), i.get("publicado", "")))
@@ -295,6 +301,8 @@ def consolidar(itens: list[dict], limiar: float = 0.5) -> list[dict]:
             it["fontes_extras"] = []
             saida.append(it)
         else:
+            if it.get("hash"):
+                dono.setdefault("absorvidos", []).append(it["hash"])
             if it.get("veiculo") and it["veiculo"] not in dono["fontes_extras"] and it["veiculo"] != dono.get("veiculo"):
                 dono["fontes_extras"].append(it["veiculo"])
             for a in it["ativos"]:
@@ -327,6 +335,9 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
     falhas: dict[str, str] = {}
     brutos: list[dict] = []
     n_consultas = 0
+    so_conhecidos = bool(cfg.get("so_veiculos_conhecidos", True))
+    max_por_consulta = int(cfg.get("max_por_consulta", 40))
+    descartados = {"veiculo_desconhecido": 0, "sem_ativo": 0, "velho": 0, "visto": 0, "teto": 0}
     for c in cfg.get("consultas") or []:
         n_consultas += 1
         try:
@@ -337,23 +348,29 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
         if r.status != 200:
             falhas[c["id"]] = f"HTTP {r.status}"
             continue
-        for it in parse_rss(r.content):
+        for it in parse_rss(r.content)[:max_por_consulta]:
             if not it["titulo"] or not it["link"]:
                 continue
             if it["publicado"]:
                 try:
                     if datetime.strptime(it["publicado"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) < corte:
+                        descartados["velho"] += 1
                         continue
                 except ValueError:
                     pass
             h = hash_item(it["titulo"], it["link"])
             if h in vistos:
+                descartados["visto"] += 1
+                continue
+            v = veiculo_de(it.get("url_veiculo") or "", veiculos, it.get("veiculo"))
+            if so_conhecidos and v.get("id") == "outro":
+                descartados["veiculo_desconhecido"] += 1
                 continue
             ativos = atribuir(it["titulo"], it["descricao"], casar)
             if not ativos:
+                descartados["sem_ativo"] += 1
                 continue
             sev, palavras = materialidade(it["titulo"], it["descricao"], fortes)
-            v = veiculo_de(it.get("url_veiculo") or "", veiculos, it.get("veiculo"))
             brutos.append({**it, "hash": h, "ativos": ativos, "severidade": sev, "palavras": palavras,
                            "consulta": c["id"], "lang": c.get("lang", "pt-BR"), "licenca": v.get("licenca", "manchete"),
                            "veiculo": v.get("nome") or it.get("veiculo") or "", "veiculo_id": v.get("id", "outro"),
@@ -362,28 +379,45 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
     itens = consolidar(brutos)
     # os de atencao primeiro, mais recentes primeiro dentro do grupo
     itens.sort(key=lambda i: (0 if i["severidade"] == "atencao" else 1, -(_ts(i.get("publicado")))))
+    # tetos por execucao: o que sobra fica so no vistos (nao volta) e na contagem
+    max_at = int(cfg.get("max_atencao_por_run", 12))
+    max_info = int(cfg.get("max_info_por_run", 15))
+    at = [i for i in itens if i["severidade"] == "atencao"]
+    info = [i for i in itens if i["severidade"] != "atencao"]
+    for sobra in at[max_at:] + info[max_info:]:
+        descartados["teto"] += 1
+        for h in [sobra["hash"]] + list(sobra.get("absorvidos") or []):
+            vistos[h] = {"data": (sobra.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": f"N-{sobra['hash']}"}
+    itens = at[:max_at] + info[:max_info]
     max_res = int(cfg.get("max_resolver_por_run", 15))
     max_chars = int(cfg.get("max_texto_chars", 6000))
     for i, it in enumerate(itens):
         it["url_google"] = it.pop("link")
         it["url"] = it["url_google"]
         it["texto"] = None
+        it["trechos"] = []
         if i < max_res:
             it["url"] = resolver_url(it["url_google"], cli)
             v = veiculo_de(it["url"], veiculos, it.get("veiculo"))
             it["licenca"], it["veiculo_id"] = v.get("licenca", "manchete"), v.get("id", "outro")
             if v.get("nome"):
                 it["veiculo"] = v["nome"]
-            if it["licenca"] == "integral" and _externa(it["url"]):
-                it["texto"] = extrair_texto(it["url"], cli, max_chars)
+            if it["licenca"] in ("integral", "resumo") and _externa(it["url"]):
+                txt = extrair_texto(it["url"], cli, max_chars)
+                if txt:
+                    # integral: texto guardado; resumo: so trechos com numero, para a sessao resumir (nao colar)
+                    it["trechos"] = resumo_fiel("", txt)
+                    if it["licenca"] == "integral":
+                        it["texto"] = txt
             dormir(0.5)
-        it["resumo"] = resumo_fiel(it.get("descricao", ""), it.get("texto"))
+        it["resumo"] = it["trechos"] or resumo_fiel(it.get("descricao", ""), None)
         it["id"] = f"N-{it['hash']}"
-        vistos[it["hash"]] = {"data": (it.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": it["id"]}
+        for h in [it["hash"]] + list(it.get("absorvidos") or []):
+            vistos[h] = {"data": (it.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": it["id"]}
     # poda de vistos: 10 dias
     limite = (agora - timedelta(days=10)).strftime("%Y-%m-%d")
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
-    return {"itens": itens, "consultas": n_consultas, "falhas": falhas, "vistos": vistos,
+    return {"itens": itens, "consultas": n_consultas, "falhas": falhas, "vistos": vistos, "descartados": descartados,
             "coletado_em": agora.strftime("%Y-%m-%dT%H:%M:%SZ")}
 
 

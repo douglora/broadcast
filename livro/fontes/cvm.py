@@ -62,6 +62,36 @@ def _campo(row: dict, *nomes: str) -> str:
     return ""
 
 
+def data_iso(valor: str) -> str:
+    """'2026-09-18 19:02:11' | '18/09/2026' | '2026-09-18T19:02' -> '2026-09-18'."""
+    v = (valor or "").strip()
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", v)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    m = re.match(r"(\d{2})/(\d{2})/(\d{4})", v)
+    if m:
+        return f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+    return v[:10]
+
+
+def diagnostico(texto: str, desde: date, amostra: str = "PETROBRAS") -> dict:
+    """O que o arquivo tem: colunas, linhas, categorias na janela e amostra de uma
+    companhia conhecida. Gravado em eventos/cvm.json para conferir o casamento."""
+    from collections import Counter
+    leitor = csv.DictReader(io.StringIO(texto), delimiter=";")
+    cats, n, na_janela, amostras = Counter(), 0, 0, []
+    for row in leitor:
+        n += 1
+        data = data_iso(_campo(row, "Data_Entrega") or _campo(row, "Data_Referencia"))
+        if data >= desde.isoformat():
+            na_janela += 1
+            cats[_campo(row, "Categoria")] += 1
+        if amostra in normalizar(_campo(row, "Nome_Companhia")) and len(amostras) < 3:
+            amostras.append({k: _campo(row, k) for k in ("Nome_Companhia", "Codigo_CVM", "Categoria", "Data_Entrega", "Data_Referencia")})
+    return {"colunas": leitor.fieldnames, "linhas": n, "na_janela": na_janela,
+            "categorias_janela": dict(cats.most_common(12)), "amostra": amostras}
+
+
 def protocolo_de(link: str) -> str:
     q = parse_qs(urlparse(link).query)
     for k, v in q.items():
@@ -82,7 +112,7 @@ def parse_ipe(texto: str, alvos: dict, desde: date, categorias: dict | None = No
     docs, casadas = [], {}
     leitor = csv.DictReader(io.StringIO(texto), delimiter=";")
     for row in leitor:
-        data = _campo(row, "Data_Entrega")[:10]
+        data = data_iso(_campo(row, "Data_Entrega") or _campo(row, "Data_Referencia"))
         if not data or data < desde.isoformat():
             continue
         cat = _campo(row, "Categoria")
@@ -149,12 +179,16 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
     vistos = dict(vistos or {})
     desde = hoje - timedelta(days=dias)
     anos = {hoje.year, desde.year}
-    docs, casadas, falhas = [], {}, {}
+    docs, casadas, falhas, diag = [], {}, {}, {}
     for ano in sorted(anos):
         texto = baixar_ipe(cli, ano)
         if not texto:
             falhas[f"ipe_{ano}"] = "IPE indisponivel"
             continue
+        try:
+            diag[str(ano)] = diagnostico(texto, desde)
+        except Exception as e:
+            diag[str(ano)] = {"erro": f"{type(e).__name__}: {str(e)[:80]}"}
         d, c = parse_ipe(texto, alvos, desde, categorias)
         docs += d
         for a, nomes in c.items():
@@ -171,4 +205,4 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
     limite = (hoje - timedelta(days=15)).isoformat()
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
     return {"docs": novos, "todos": len(docs), "empresas_casadas": casadas, "falhas": falhas, "vistos": vistos,
-            "coletado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+            "diagnostico": diag, "coletado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}

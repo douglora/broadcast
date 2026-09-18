@@ -126,8 +126,11 @@ documento", link) e acrescente 1 a 2 linhas suas: o que muda para o cliente e o
 que confirmar. Regras de licenca (decisao do Douglas, 18/09): texto integral so
 de fonte primaria (fato relevante CVM, 8-K/6-K, release de RI) e de veiculo
 `integral` no config; para `resumo` e `manchete`, resumo fiel + link, nunca o
-texto. Nunca invente o que a materia diz: se o card nao tem "Do texto", diga
-"so manchete (paywall/licenca)". "Fato relevante" e sempre mensagem propria.
+texto. Nunca invente o que a materia diz: se o card nao tem "Do texto" nem "Trechos",
+diga "so manchete (paywall/licenca)". Card com "Trechos (licenca resumo)": os
+trechos sao uso interno; na resposta, REESCREVA em 4 a 8 linhas suas, com os
+numeros, e de o link; nunca cole os trechos. "Fato relevante" e sempre mensagem
+propria.
 
 **Manha (07h20 BRT).** Cole `manha.md` (curvas oficiais de D-1: ajuste B3,
 Tesouro base, UST CMT), os alertas pendentes de ontem a noite, a agenda de hoje
