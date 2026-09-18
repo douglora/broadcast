@@ -127,7 +127,8 @@ class E03CVM(Regra):
                 como_falar=f"a {_nome_curto(ctx, ativo, d.get('empresa'))} publicou {cat.lower()} sobre {_corta(assunto, 70)}",
                 fonte=f"CVM IPE {d.get('data', '')}", ativos_afetados=ativo,
                 dados={"id_item": d.get("id"), "url": d.get("link"), "licenca": "integral", "veiculo": "CVM",
-                       "texto_disponivel": bool(d.get("texto")), "categoria": cat, "manchete": f"{cat}: {assunto}", "ativos": [ativo]},
+                       "texto_disponivel": bool(d.get("texto")), "categoria": cat, "manchete": f"{cat}: {assunto}", "ativos": [ativo],
+                       "atualizado": bool(d.get("atualizado"))},
             ))
         return saida
 

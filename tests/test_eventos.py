@@ -249,3 +249,31 @@ def test_assunto_de_texto_pula_cabecalho():
     a = cvm.assunto_de_texto(txt, "Fato Relevante", "PETRÓLEO BRASILEIRO S.A. - PETROBRAS")
     assert a.startswith("A Petrobras informa que seu Conselho") and "CNPJ" not in a
     assert cvm.assunto_de_texto(None) == ""
+
+
+def test_cvm_retenta_pdf_de_documento_visto():
+    """Primeiro run: PDF nao veio (texto False). Segundo run: PDF vem, doc volta como 'atualizado'."""
+    from livro.http import Resposta
+    html = ("00951-2$&PETROLEO BRASILEIRO S.A. PETROBRAS$&Fato Relevante$& - $& - $&18/09/2026$&18/09/2026 19:02$&Ativo$&1$&AP$&"
+            "<i onclick=OpenPopUpVer('frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=555')> </i>$&Documento Diversos")
+    import json as _json
+
+    class Cli:
+        def __init__(self, pdf_ok):
+            self.pdf_ok = pdf_ok
+
+        def post(self, url, data=None, headers=None, timeout=None):
+            return Resposta(200, _json.dumps({"d": {"dados": html}}).encode(), {}, url)
+
+        def get(self, url, **kw):
+            if "NumeroProtocoloEntrega" in url and self.pdf_ok:
+                return Resposta(200, b"%PDF-1.4 fake", {"content-type": "application/pdf"}, url)
+            return Resposta(200, b"<html>viewer</html>", {"content-type": "text/html"}, url)
+
+    alvos = {"PETR4": {"codigo": 9512, "nomes": ["PETROBRAS"]}}
+    r1 = cvm.coletar(alvos, cli=Cli(False), hoje=date(2026, 9, 18), dias=2, com_ipe=False)
+    assert len(r1["docs"]) == 1 and r1["docs"][0]["texto"] is None and r1["vistos"]["CVM-PETR4-555"]["texto"] is False
+    assert r1["docs"][0]["pdf_diag"]
+    # segundo run: pypdf nao le o PDF falso, mas o caminho de retentativa e exercitado (tentativas sobe)
+    r2 = cvm.coletar(alvos, cli=Cli(True), hoje=date(2026, 9, 18), dias=2, vistos=r1["vistos"], com_ipe=False)
+    assert r2["retentados"] == 1 and r2["vistos"]["CVM-PETR4-555"]["tentativas"] == 2

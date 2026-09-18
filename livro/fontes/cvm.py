@@ -469,19 +469,41 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
             casadas[a] = sorted(set(casadas[a]) | set(nomes))
     docs.sort(key=lambda d: (d.get("entregue_em") or "", d["id"]), reverse=True)
     novos = [d for d in docs if d["id"] not in vistos]
+    # documentos ja vistos cujo PDF ainda nao foi lido: tenta de novo (ate 3 vezes) e devolve como 'atualizado'
+    retentar = [d for d in docs if d["id"] in vistos and vistos[d["id"]].get("texto") is False
+                and vistos[d["id"]].get("tentativas", 0) < 3
+                and (d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao")]
     lidos = 0
+
+    def _ler(d: dict) -> None:
+        d["pdf_diag"] = {}
+        d["texto"] = texto_pdf(cli, d["link"], alternativas=[d.get("download", "")], diag=d["pdf_diag"])
+        if d.get("texto") and (not d.get("assunto") or d["assunto"] == d["categoria"] or d.get("origem") == "rad"):
+            novo = assunto_de_texto(d["texto"], d["categoria"], d.get("empresa", ""))
+            if novo:
+                d["assunto"] = novo
+
     for d in novos:
         d["texto"] = None
-        if lidos < max_pdf and (d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao"):
-            d["pdf_diag"] = {}
-            d["texto"] = texto_pdf(cli, d["link"], alternativas=[d.get("download", "")], diag=d["pdf_diag"])
+        quer_pdf = d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao"
+        if lidos < max_pdf and quer_pdf:
+            _ler(d)
             lidos += 1
-            if d.get("texto") and (not d.get("assunto") or d["assunto"] == d["categoria"] or d.get("origem") == "rad"):
-                novo = assunto_de_texto(d["texto"], d["categoria"], d.get("empresa", ""))
-                if novo:
-                    d["assunto"] = novo
-        vistos[d["id"]] = {"data": d["data"]}
+        vistos[d["id"]] = {"data": d["data"], "texto": (bool(d.get("texto")) if quer_pdf else None), "tentativas": 1 if quer_pdf else 0}
+    atualizados = []
+    for d in retentar:
+        if lidos >= max_pdf:
+            break
+        _ler(d)
+        lidos += 1
+        v = vistos[d["id"]]
+        v["tentativas"] = v.get("tentativas", 0) + 1
+        if d.get("texto"):
+            v["texto"] = True
+            d["atualizado"] = True
+            atualizados.append(d)
     limite = (hoje - timedelta(days=15)).isoformat()
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
-    return {"docs": novos, "todos": len(docs), "empresas_casadas": casadas, "falhas": falhas, "vistos": vistos,
+    return {"docs": novos + atualizados, "todos": len(docs), "empresas_casadas": casadas, "falhas": falhas, "vistos": vistos,
+            "atualizados": len(atualizados), "retentados": len(retentar),
             "diagnostico": diag, "coletado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
