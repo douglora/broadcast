@@ -221,3 +221,19 @@ def test_rad_listar_repoe_parametro_que_falta():
     assert r["linhas"] and r["linhas"][0]["protocolo"] == "77"
     assert r["diagnostico"]["extras"] == {"saoPaulo": "0"} and len(cli.corpos) == 2
     assert cli.corpos[-1]["tipoEmpresa"] == "0" and cli.corpos[-1]["saoPaulo"] == "0"
+
+
+def test_parse_rad_dados_formato_string():
+    dados = ("00951-2$&PETRÓLEO BRASILEIRO S.A. - PETROBRAS$&Fato Relevante$& - $&<spanOrder>20260918</spanOrder>18/09/2026$&"
+             "<spanOrder>202609181902</spanOrder>18/09/2026 19:02$&AC$&1$&AP$&frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1234567$&&&$"
+             "00090-6$&BCO BRADESCO S.A.$&Comunicado ao Mercado$&Esclarecimentos sobre consultas CVM/B3$& - $&17/09/2026$&17/09/2026 08:30$&AC$&1$&AP$&9876543$&&&$"
+             "02205-5$&MARISA LOJAS S.A.$&Assembleia$&AGO$&Edital$&18/09/2026$&18/09/2026 10:00$&AC$&1$&AP$&111$&&&$")
+    linhas, diag = cvm.parse_rad_dados(dados)
+    assert diag["separador"] == "$&&&$" and len(linhas) == 3
+    p = linhas[0]
+    assert p["codigo"] == "9512" and p["categoria"] == "Fato Relevante" and p["data"] == "2026-09-18" and p["entregue_em"] == "18/09/2026 19:02"
+    assert p["protocolo"] == "1234567" and p["data_referencia"] == "2026-09-18"
+    b = linhas[1]
+    assert b["codigo"] == "906" and b["tipo"].startswith("Esclarecimentos") and b["protocolo"] == "9876543"
+    docs, casadas = cvm.docs_de_linhas(linhas, _cfg()["cvm"], date(2026, 9, 16), _cfg()["cvm_categorias"])
+    assert {d["ativo"] for d in docs} == {"PETR4", "BBDC4"} and next(d for d in docs if d["ativo"] == "BBDC4")["severidade"] == "info"
