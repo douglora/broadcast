@@ -266,14 +266,17 @@ def parse_rad_dados(dados: str) -> tuple[list[dict], dict]:
         m = re.search(r"NumeroProtocoloEntrega=(\d+)", reg)
         prot = m.group(1) if m else next((c for c in reversed(campos) if c.isdigit() and len(c) >= 5), "")
         i_fim = entrega[0] if entrega else (ref[0] if ref else len(campos))
-        meio = [c for c in campos[i_cat + 1:i_fim] if c and c != "-" and "<" not in c]
+        meio = [c for c in campos[i_cat + 1:i_fim] if c and c != "-" and "<" not in c and not _DATA_HORA.match(c)]
         codigo = re.sub(r"\D", "", campos[0]).lstrip("0")
+        md = re.search(r"OpenDownloadDocumentos\('(\d+)','(\d+)','(\d+)','(\w+)'\)", reg)
+        download = (f"https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&numSequencia={md.group(1)}"
+                    f"&numVersao={md.group(2)}&numProtocolo={md.group(3)}&descTipo={md.group(4)}&CodigoInstituicao=1") if md else ""
         linhas.append({
             "codigo": codigo, "empresa": campos[1], "categoria": cat, "tipo": meio[0] if meio else "",
             "especie": meio[1] if len(meio) > 1 else "",
             "data_referencia": data_iso(ref[1].group(1)) if ref else "",
             "entregue_em": (entrega[1].group(0) if entrega else ""), "data": data_iso(entrega[1].group(1)) if entrega else "",
-            "protocolo": prot,
+            "protocolo": prot, "download": download,
             "link": f"https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega={prot}" if prot else "",
         })
     diag["registros"] = len(registros)
@@ -348,7 +351,7 @@ def docs_de_linhas(linhas: list[dict], alvos: dict, desde: date, categorias: dic
         docs.append({"id": f"CVM-{ativo}-{prot}", "ativo": ativo, "empresa": l["empresa"], "codigo": l["codigo"],
                      "categoria": l["categoria"], "tipo": l["tipo"], "especie": l["especie"], "assunto": assunto[:300],
                      "data": l["data"], "entregue_em": l["entregue_em"], "link": l["link"], "protocolo": prot,
-                     "severidade": sev, "versao": "", "origem": "rad"})
+                     "download": l.get("download", ""), "severidade": sev, "versao": "", "origem": "rad"})
     return docs, {a: sorted(v) for a, v in casadas.items()}
 
 
@@ -358,31 +361,85 @@ def assunto_de_texto(texto: str | None, categoria: str = "", empresa: str = "") 
     if not texto:
         return ""
     nuc_emp = nucleo(empresa)
-    for bruto in re.split(r"(?<=[.!?:])\s+|\n+", texto):
-        l = re.sub(r"\s+", " ", bruto).strip(" -–•*")
-        if len(l) < 25:
+    # tira o cabecalho: linhas em caixa alta, CNPJ/NIRE, 'Companhia Aberta', titulo do documento
+    linhas_uteis = []
+    for l in texto.split("\n"):
+        s = l.strip()
+        if not s:
+            continue
+        n = normalizar(s)
+        cabecalho = (not re.search(r"[a-zà-ú]", s)) or re.search(r"CNPJ|NIRE|COMPANHIA ABERTA|CAPITAL ABERTO|C[OÓ]DIGO CVM", n) \
+            or n.startswith(("FATO RELEVANTE", "COMUNICADO AO MERCADO", "AVISO AOS ACIONISTAS"))
+        if cabecalho and (not linhas_uteis or len(s) < 60):
+            continue
+        linhas_uteis.append(s)
+    corpo = " ".join(linhas_uteis)
+    # abreviacoes juridicas nao encerram frase: art. 157, nº 6.404, S.A., Ltda., Cia.
+    corpo = re.sub(r"(?i)\b(arts?|n[º°o]|inc|par|res|sr|sra|dr|dra|ltda|cia|s\.a|s/a)\.\s+", lambda m: m.group(0).rstrip() + "\x01", corpo)
+    candidatas = []
+    for bruto in re.split(r"(?<=[.!?:])\s+", corpo):
+        l = re.sub(r"\s+", " ", bruto.replace("\x01", " ")).strip(" -–•*")
+        if len(l) < 25 or not re.search(r"[a-zà-ú]", l) or re.match(r"^\d", l):   # cabecalho ou fragmento numerico nao e assunto
             continue
         n = normalizar(l)
         if re.search(r"CNPJ|NIRE|COMPANHIA ABERTA|CAPITAL ABERTO|C[OÓ]DIGO CVM", n) or n.startswith(("FATO RELEVANTE", "COMUNICADO AO MERCADO", "AVISO AOS ACIONISTAS")):
             continue
         if nuc_emp and n.startswith(nuc_emp) and len(n) < len(nuc_emp) + 15:
             continue
-        return l[:160].rstrip(",;")
-    return ""
+        candidatas.append(l)
+        if len(candidatas) >= 6:
+            break
+    if not candidatas:
+        return ""
+    escolhida = next((c for c in candidatas if re.search(r"(?i)\b(informa|comunica|anuncia|aprov\w*|celebr\w*|conclu\w*|assin\w*|receb\w*|divulg\w*|esclarec\w*|decid\w*|autoriz\w*|vem informar|vêm informar)\b", c)), candidatas[0])
+    # corta o preambulo juridico: fica o que vem depois de 'informar que' / 'comunicar que' / 'que'
+    m = re.search(r"(?i)\b(?:informar|comunicar|informa|comunica|anuncia)\s+(?:aos? seus acionistas e ao mercado em geral\s+)?que\s+(.*)", escolhida)
+    preambulo = escolhida[: m.start()] if m else ""
+    juridico = re.search(r"(?i)em atendimento|nos termos|\bLei\b|\bart\.|Resolu[cç][aã]o|Instru[cç][aã]o", preambulo) is not None
+    if m and len(m.group(1)) >= 20 and (m.start() > 120 or juridico):
+        escolhida = m.group(1)[0].upper() + m.group(1)[1:]
+    return escolhida[:160].rstrip(",;")
 
 
-def texto_pdf(cli: Cliente, link: str, max_bytes: int = 6_000_000, max_chars: int = 8000) -> str | None:
-    """Texto do PDF do IPE (pypdf). Devolve None se nao baixar, nao for PDF ou for
-    imagem sem texto."""
-    if not link:
-        return None
-    try:
-        r = cli.get(link, timeout=60)
-    except HttpError:
-        return None
-    if r.status != 200 or not r.content or len(r.content) > max_bytes:
-        return None
-    return texto_de_pdf_bytes(r.content, max_chars)
+def texto_pdf(cli: Cliente, link: str, max_bytes: int = 6_000_000, max_chars: int = 8000,
+              alternativas: list[str] | None = None, diag: dict | None = None) -> str | None:
+    """Texto do PDF do IPE (pypdf). Tenta o link de exibicao e, se nao vier PDF, as
+    URLs alternativas (download direto). `diag` recebe status, tipo e inicio de
+    cada resposta para ajustar no run real."""
+    for url in [u for u in [link] + list(alternativas or []) if u]:
+        try:
+            r = cli.get(url, timeout=60)
+        except HttpError as e:
+            if diag is not None:
+                diag[url[:80]] = f"erro {str(e)[:60]}"
+            continue
+        tipo = (r.headers or {}).get("content-type", "")
+        if diag is not None:
+            diag[url[:80]] = f"{r.status} {tipo[:40]} {len(r.content)}B {r.content[:60]!r}"
+        if r.status != 200 or not r.content or len(r.content) > max_bytes:
+            continue
+        txt = texto_de_pdf_bytes(r.content, max_chars)
+        if txt:
+            return txt
+        # pagina HTML com o PDF embutido (iframe/object/meta refresh)
+        m = re.search(r"""(?i)(?:src|href|url)=["']?([^"'\s>]+\.pdf[^"'\s>]*)""", r.content[:20000].decode("utf-8", "ignore"))
+        if m:
+            alvo = m.group(1)
+            if alvo.startswith("/"):
+                alvo = "https://www.rad.cvm.gov.br" + alvo
+            elif not alvo.startswith("http"):
+                alvo = "https://www.rad.cvm.gov.br/ENET/" + alvo
+            try:
+                r2 = cli.get(alvo, timeout=60)
+                if diag is not None:
+                    diag[alvo[:80]] = f"{r2.status} {(r2.headers or {}).get('content-type', '')[:40]} {len(r2.content)}B"
+                if r2.status == 200:
+                    txt = texto_de_pdf_bytes(r2.content, max_chars)
+                    if txt:
+                        return txt
+            except HttpError:
+                pass
+    return None
 
 
 def texto_de_pdf_bytes(dados: bytes, max_chars: int = 8000) -> str | None:
@@ -439,18 +496,41 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
             casadas[a] = sorted(set(casadas[a]) | set(nomes))
     docs.sort(key=lambda d: (d.get("entregue_em") or "", d["id"]), reverse=True)
     novos = [d for d in docs if d["id"] not in vistos]
+    # documentos ja vistos cujo PDF ainda nao foi lido: tenta de novo (ate 3 vezes) e devolve como 'atualizado'
+    retentar = [d for d in docs if d["id"] in vistos and vistos[d["id"]].get("texto") is not True
+                and vistos[d["id"]].get("tentativas", 0) < 3
+                and (d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao")]
     lidos = 0
+
+    def _ler(d: dict) -> None:
+        d["pdf_diag"] = {}
+        d["texto"] = texto_pdf(cli, d["link"], alternativas=[d.get("download", "")], diag=d["pdf_diag"])
+        if d.get("texto") and (not d.get("assunto") or d["assunto"] == d["categoria"] or d.get("origem") == "rad"):
+            novo = assunto_de_texto(d["texto"], d["categoria"], d.get("empresa", ""))
+            if novo:
+                d["assunto"] = novo
+
     for d in novos:
         d["texto"] = None
-        if lidos < max_pdf and (d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao"):
-            d["texto"] = texto_pdf(cli, d["link"])
+        quer_pdf = d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao"
+        if lidos < max_pdf and quer_pdf:
+            _ler(d)
             lidos += 1
-            if d.get("texto") and (not d.get("assunto") or d["assunto"] == d["categoria"] or d.get("origem") == "rad"):
-                novo = assunto_de_texto(d["texto"], d["categoria"], d.get("empresa", ""))
-                if novo:
-                    d["assunto"] = novo
-        vistos[d["id"]] = {"data": d["data"]}
+        vistos[d["id"]] = {"data": d["data"], "texto": (bool(d.get("texto")) if quer_pdf else None), "tentativas": 1 if quer_pdf else 0}
+    atualizados = []
+    for d in retentar:
+        if lidos >= max_pdf:
+            break
+        _ler(d)
+        lidos += 1
+        v = vistos[d["id"]]
+        v["tentativas"] = v.get("tentativas", 0) + 1
+        if d.get("texto"):
+            v["texto"] = True
+            d["atualizado"] = True
+            atualizados.append(d)
     limite = (hoje - timedelta(days=15)).isoformat()
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
-    return {"docs": novos, "todos": len(docs), "empresas_casadas": casadas, "falhas": falhas, "vistos": vistos,
+    return {"docs": novos + atualizados, "todos": len(docs), "empresas_casadas": casadas, "falhas": falhas, "vistos": vistos,
+            "atualizados": len(atualizados), "retentados": len(retentar),
             "diagnostico": diag, "coletado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}

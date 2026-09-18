@@ -280,8 +280,9 @@ class Coleta:
                 self.eventos["cvm"] = c["docs"]
                 vistos["cvm"] = c["vistos"]
                 gravar_json(os.path.join(self.saida, "eventos", "cvm.json"), {k: v for k, v in c.items() if k != "vistos"})
-                self.pernas["cvm"] = f"ok {len(c['docs'])} novos de {c['todos']} ({len(c['empresas_casadas'])} cias casadas)" + \
-                    (f"; falhas {list(c['falhas'])}" if c["falhas"] else "")
+                self.pernas["cvm"] = (f"ok {len(c['docs']) - c.get('atualizados', 0)} novos de {c['todos']} ({len(c['empresas_casadas'])} cias casadas)"
+                                      + (f"; {c['atualizados']} PDF lido em nova tentativa" if c.get("atualizados") else "")
+                                      + (f"; falhas {list(c['falhas'])}" if c["falhas"] else ""))
                 for d in c["docs"]:
                     if d.get("texto"):
                         gravar_json(os.path.join(self.saida, "noticias", "corpo", f"{d['id']}.json"),
@@ -511,6 +512,12 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
     alertas, ctx = c.rodar_sinais(repo)
     novos = repo.registrar(alertas, modo)
     ids_novos = {a.id for a in novos}
+    # texto que chegou depois (PDF lido numa nova tentativa): atualiza o alerta ja registrado, sem mudar status
+    for a in alertas:
+        e = repo.fila.get(a.id)
+        if e and a.id not in ids_novos and (a.dados or {}).get("atualizado") and not (e.get("dados") or {}).get("texto_disponivel"):
+            e.update({"titulo": a.titulo, "corpo": a.corpo, "como_falar": a.como_falar, "texto": a.texto(), "dados": a.dados})
+            e["enriquecido_em"] = c.agora.strftime("%Y-%m-%dT%H:%M:%SZ")
     # reapresenta so o que ja saiu como mensagem (o que virou linha nao volta a disputar o teto)
     pendentes = [p for p in repo.pendentes() if p["id"] not in ids_novos and p.get("canal", "mensagem") == "mensagem"]
     for p in pendentes:

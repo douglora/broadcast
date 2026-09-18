@@ -225,7 +225,7 @@ def test_rad_listar_repoe_parametro_que_falta():
 
 def test_parse_rad_dados_formato_string():
     dados = ("00951-2$&PETRÓLEO BRASILEIRO S.A. - PETROBRAS$&Fato Relevante$& - $&<spanOrder>20260918</spanOrder>18/09/2026$&"
-             "<spanOrder>202609181902</spanOrder>18/09/2026 19:02$&Ativo$&1$&AP$&<i onclick=OpenPopUpVer('frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1234567')> </i>$&Documento Diversos$&&*"
+             "<spanOrder>202609181902</spanOrder>18/09/2026 19:02$&Ativo$&1$&AP$&<i onclick=OpenPopUpVer('frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1234567')> </i><i onclick=OpenDownloadDocumentos('1092871','1','1234567','IPE')> </i>$&Documento Diversos$&&*"
              "00090-6$&BCO BRADESCO S.A.$&Comunicado ao Mercado$&Esclarecimentos sobre consultas CVM/B3$&<spanOrder>x</spanOrder> - $&17/09/2026$&17/09/2026 08:30$&Ativo$&1$&AP$&9876543$&Documento Diversos$&&*"
              "02205-5$&MARISA LOJAS S.A.$&Assembleia$&AGO$&Edital$&18/09/2026$&18/09/2026 10:00$&Ativo$&1$&AP$&111$&Documento Diversos")
     linhas, diag = cvm.parse_rad_dados(dados)
@@ -233,10 +233,13 @@ def test_parse_rad_dados_formato_string():
     p = linhas[0]
     assert p["codigo"] == "9512" and p["categoria"] == "Fato Relevante" and p["data"] == "2026-09-18" and p["entregue_em"] == "18/09/2026 19:02"
     assert p["protocolo"] == "1234567" and p["data_referencia"] == "2026-09-18"
+    assert p["tipo"] == "" and p["especie"] == ""   # datas nao viram tipo/assunto
     b = linhas[1]
     assert b["codigo"] == "906" and b["tipo"].startswith("Esclarecimentos") and b["protocolo"] == "9876543"
     docs, casadas = cvm.docs_de_linhas(linhas, _cfg()["cvm"], date(2026, 9, 16), _cfg()["cvm_categorias"])
     assert {d["ativo"] for d in docs} == {"PETR4", "BBDC4"} and next(d for d in docs if d["ativo"] == "BBDC4")["severidade"] == "info"
+    petro = next(d for d in docs if d["ativo"] == "PETR4")
+    assert petro["assunto"] == "Fato Relevante" and "numSequencia=1092871" in petro["download"] and "numProtocolo=1234567" in petro["download"]
 
 
 def test_assunto_de_texto_pula_cabecalho():
@@ -246,3 +249,47 @@ def test_assunto_de_texto_pula_cabecalho():
     a = cvm.assunto_de_texto(txt, "Fato Relevante", "PETRÓLEO BRASILEIRO S.A. - PETROBRAS")
     assert a.startswith("A Petrobras informa que seu Conselho") and "CNPJ" not in a
     assert cvm.assunto_de_texto(None) == ""
+
+
+def test_cvm_retenta_pdf_de_documento_visto():
+    """Primeiro run: PDF nao veio (texto False). Segundo run: PDF vem, doc volta como 'atualizado'."""
+    from livro.http import Resposta
+    html = ("00951-2$&PETROLEO BRASILEIRO S.A. PETROBRAS$&Fato Relevante$& - $& - $&18/09/2026$&18/09/2026 19:02$&Ativo$&1$&AP$&"
+            "<i onclick=OpenPopUpVer('frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=555')> </i>$&Documento Diversos")
+    import json as _json
+
+    class Cli:
+        def __init__(self, pdf_ok):
+            self.pdf_ok = pdf_ok
+
+        def post(self, url, data=None, headers=None, timeout=None):
+            return Resposta(200, _json.dumps({"d": {"dados": html}}).encode(), {}, url)
+
+        def get(self, url, **kw):
+            if "NumeroProtocoloEntrega" in url and self.pdf_ok:
+                return Resposta(200, b"%PDF-1.4 fake", {"content-type": "application/pdf"}, url)
+            return Resposta(200, b"<html>viewer</html>", {"content-type": "text/html"}, url)
+
+    alvos = {"PETR4": {"codigo": 9512, "nomes": ["PETROBRAS"]}}
+    r1 = cvm.coletar(alvos, cli=Cli(False), hoje=date(2026, 9, 18), dias=2, com_ipe=False)
+    assert len(r1["docs"]) == 1 and r1["docs"][0]["texto"] is None and r1["vistos"]["CVM-PETR4-555"]["texto"] is False
+    assert r1["docs"][0]["pdf_diag"]
+    # segundo run: pypdf nao le o PDF falso, mas o caminho de retentativa e exercitado (tentativas sobe)
+    r2 = cvm.coletar(alvos, cli=Cli(True), hoje=date(2026, 9, 18), dias=2, vistos=r1["vistos"], com_ipe=False)
+    assert r2["retentados"] == 1 and r2["vistos"]["CVM-PETR4-555"]["tentativas"] == 2
+    # vistos no formato antigo (so data) tambem entram na retentativa
+    r3 = cvm.coletar(alvos, cli=Cli(True), hoje=date(2026, 9, 18), dias=2, vistos={"CVM-PETR4-555": {"data": "2026-09-18"}}, com_ipe=False)
+    assert r3["retentados"] == 1
+
+
+def test_assunto_e_resumo_de_fato_relevante_real():
+    txt = ("COMPANHIA DE SANEAMENTO BÁSICO\nDO ESTADO DE SÃO PAULO – SABESP\nCompanhia Aberta\nCNPJ/MF nº 43.776.517/0001-80\n\n"
+           "FATO RELEVANTE CONJUNTO\n\nA COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO – SABESP (“Sabesp”) e a EMAE, em atendimento ao art. 157, "
+           "§ 4º, da Lei nº 6.404, vêm informar que o prazo para o exercício do direito de retirada dos acionistas da EMAE termina em 20 de outubro de 2026. "
+           "Nos termos do artigo 137 e 252, § 2º, da Lei das S.A., a Incorporação de Ações enseja o direito de retirada. "
+           "O valor de reembolso é de R$ 12,34 por ação, conforme o balanço de 30 de junho de 2026.")
+    a = cvm.assunto_de_texto(txt, "Fato Relevante", "CIA SANEAMENTO BASICO EST SAO PAULO")
+    assert a.startswith("O prazo para o exercício do direito de retirada"), a
+    r = noticias.resumo_fiel("", txt)
+    assert any("R$ 12,34" in l for l in r) and not any(l.startswith("137 e 252") for l in r)
+    assert r[0].startswith("A COMPANHIA") or r[0].startswith("O valor") or "20 de outubro" in r[0]
