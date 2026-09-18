@@ -70,13 +70,13 @@ ativos:
     apelido: Utilit
     bloco: ucits
     classe: etf
-    yahoo: WUTI.AS
+    yahoo: WUTI.L
     moeda: USD
-    mercado: AMS
+    mercado: LSE
     isin: IE00BYTRRH56
     benchmark: VWRA
     o_que_negocia: "MSCI World Utilities 35/20, 74 concessionarias de energia, agua e gas de mercados desenvolvidos; par global de EQTL3/ALUP4/SAPR4/SBSP3. TER 0,30%."
-    nota: "Linha principal em Amsterdam (WUTI.AS); alternativa WUTI.L. A sonda decide."
+    nota: "Linha de Londres em USD (WUTI.L). A sonda de 18/09 mostrou WUTI.AS cotado em EUR e com barra atrasada (16/09); WUTI.L em USD com barra do dia."
   - id: RBOT
     nome: "iShares Automation & Robotics UCITS ETF USD (Acc)"
     apelido: Robot
