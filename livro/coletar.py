@@ -285,7 +285,7 @@ class Coleta:
         fontes = ["Yahoo Finance", "B3 Boletim Diário", "Tesouro Transparente", "Treasury.gov CMT", "BCB"]
         parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in self.u.por_bloco("eua"))
         a_txt = render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, render.agenda(self.calendario, self.hoje),
-                               lacunas, fontes, parcial=parcial, slot=self.modo)
+                               lacunas, fontes, parcial=parcial, slot=self.modo, hora=relogios.fmt_brt(self.agora))
         legenda = render.legenda_ucits(self.u)
         notas = []
         prox = (self.macro.get("proxies") or {}).get("proxies") or {}
@@ -332,20 +332,39 @@ class Coleta:
         return " · ".join(partes)
 
     def _push_fechamento(self, do_dia: list[dict], mov: dict, ins: dict) -> str:
-        partes = [f"Fechamento {fmt.data_br(self.hoje.isoformat())}:"]
+        """Texto do push (< 200 caracteres): curva, criticos, movers, contagem. Encurta por
+        partes inteiras, nunca no meio de uma palavra."""
+        cab = f"Fechamento {fmt.data_br(self.hoje.isoformat())}:"
+        partes = []
         di = ins.get("di")
         if di:
-            f28 = di["deltas"].get("DI1F28")
-            partes.append(f"curva {di['verbo']}" + (f" (F28 {fmt.bps(f28)} bps)" if f28 is not None else "") + ";")
-        crit = [a for a in do_dia if a.get("severidade") == "critico"]
-        for a in crit[:2]:
-            partes.append(f"{a['ativo']} {a['titulo'].split(':')[0][:40]};")
+            f28, f35 = di["deltas"].get("DI1F28"), di["deltas"].get("DI1F35")
+            det = f" (F28 {fmt.bps(f28)}, F35 {fmt.bps(f35)} bps)" if f28 is not None and f35 is not None else ""
+            partes.append(f"curva {di['verbo']}{det}")
+        for a in [a for a in do_dia if a.get("severidade") == "critico"][:2]:
+            t = str(a.get("titulo", "")).split(":")[0].strip()
+            alnum = lambda s: "".join(ch for ch in s.lower() if ch.isalnum())
+            if not alnum(t).startswith(alnum(str(a.get("ativo", "")))):
+                t = f"{a.get('ativo')} {t}"
+            partes.append(t)
+        extras = []
         if mov.get("altas"):
-            partes.append("alta " + ", ".join(f"{i} {fmt.pct(v)}" for i, v in mov["altas"][:2]) + ";")
+            extras.append("alta " + ", ".join(f"{i} {fmt.pct(v)}" for i, v in mov["altas"][:2]))
         if mov.get("baixas"):
-            partes.append("queda " + ", ".join(f"{i} {fmt.pct(v)}" for i, v in mov["baixas"][:2]) + ".")
-        partes.append(f"{len(do_dia)} alertas. Leitura na sessão.")
-        return " ".join(partes)[:195]
+            extras.append("queda " + ", ".join(f"{i} {fmt.pct(v)}" for i, v in mov["baixas"][:2]))
+        fim = f"{len(do_dia)} alertas. Leitura na sessão."
+
+        def montar(ps: list[str]) -> str:
+            return (cab + " " + "; ".join(ps) + ". " + fim) if ps else (cab + " " + fim)
+
+        txt = montar(partes + extras)
+        if len(txt) > 195:
+            txt = montar(partes)
+        if len(txt) > 195:
+            txt = montar([p if len(p) <= 60 else p[:60].rsplit(" ", 1)[0] for p in partes])
+        if len(txt) > 195:
+            txt = montar(partes[:1])
+        return txt[:195]
 
     # ------------------------------------------------------------ manifest
     def manifest(self, extra: dict) -> dict:
@@ -385,16 +404,41 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
     _log(f"séries: {c.pernas.get('yahoo')}")
     c.coletar_curvas()
     _log(f"curvas: DI {c.pernas.get('di')} · TD {c.pernas.get('tesouro')} · UST {c.pernas.get('ust')}")
+    if modo == "backfill":
+        # operacao de dados: nao avalia regra, nao registra alerta, nao renderiza
+        return c.manifest({"backfill": {"dias": c.dias_backfill}})
     alertas, ctx = c.rodar_sinais(repo)
     novos = repo.registrar(alertas, modo)
-    pendentes = [p for p in repo.pendentes() if p["id"] not in {a.id for a in novos}]
+    ids_novos = {a.id for a in novos}
+    # reapresenta so o que ja saiu como mensagem (o que virou linha nao volta a disputar o teto)
+    pendentes = [p for p in repo.pendentes() if p["id"] not in ids_novos and p.get("canal", "mensagem") == "mensagem"]
     for p in pendentes:
         p["reapresentado"] = p.get("reapresentado", 0) + 1
+    # teto diario conta mensagens ja emitidas hoje (uma por grupo), nao alertas registrados
     ja = {"critico": 0, "atencao": 0}
+    vistas = set()
     for a in repo.do_dia(c.hoje.isoformat()):
-        if a["id"] not in {x.id for x in novos} and a.get("severidade") in ja:
-            ja[a["severidade"]] += 1
+        if a["id"] in ids_novos or a.get("canal") != "mensagem":
+            continue
+        chave = a.get("mensagem") or a["id"]
+        sev = a.get("mensagem_sev") or a.get("severidade")
+        if chave not in vistas and sev in ja:
+            vistas.add(chave)
+            ja[sev] += 1
     resultado = politica.aplicar([a.para_json() for a in novos], pendentes, c.limiares, modo, SLOT_ROTULO.get(modo, modo), ja)
+    for m in resultado["mensagens"]:
+        chave = f"{c.hoje.isoformat()}:{modo}:{m['grupo']}"
+        for i in m["ids"]:
+            if i in repo.fila:
+                e = repo.fila[i]
+                e["canal"] = "mensagem"
+                e.setdefault("mensagem", chave)
+                e.setdefault("mensagem_sev", m["severidade"])
+    for a in resultado["linhas_info"]:
+        e = repo.fila.get(a["id"])
+        if e and e.get("canal") != "mensagem":
+            e["canal"] = "info"
+            e["status"] = "linha"
     repo.expirar()
     repo.podar()
     repo.salvar()

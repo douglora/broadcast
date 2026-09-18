@@ -100,21 +100,24 @@ def aplicar(novos: list[dict], pendentes: list[dict], limiares: dict, slot: str,
     n_atencao_slot = 0
     for grupo, itens in ordenados:
         sev = _sev_max(itens)
+        reap = any(i.get("reapresentacao") for i in itens)  # ja saiu como mensagem: nao disputa o teto de novo
         if sev == "critico":
-            if contagem.get("critico", 0) >= teto.get("critico", 2) and not any(i.get("reapresentacao") for i in itens):
+            if not reap and contagem.get("critico", 0) >= teto.get("critico", 2):
                 for i in itens:
                     suprimidos.append({"id": i["id"], "motivo": "teto diário de críticos"})
                     linhas_info.append(i)
                 continue
-            contagem["critico"] = contagem.get("critico", 0) + 1
+            if not reap:
+                contagem["critico"] = contagem.get("critico", 0) + 1
         elif sev == "atencao":
-            if contagem.get("atencao", 0) >= teto.get("atencao", 4) or n_atencao_slot >= teto.get("por_slot_atencao", 3):
+            if not reap and (contagem.get("atencao", 0) >= teto.get("atencao", 4) or n_atencao_slot >= teto.get("por_slot_atencao", 3)):
                 for i in itens:
                     suprimidos.append({"id": i["id"], "motivo": "teto de atenção"})
                     linhas_info.append(i)
                 continue
-            contagem["atencao"] = contagem.get("atencao", 0) + 1
-            n_atencao_slot += 1
+            if not reap:
+                contagem["atencao"] = contagem.get("atencao", 0) + 1
+                n_atencao_slot += 1
         texto = _texto_grupo(grupo, itens)
         if any(i.get("reapresentacao") for i in itens):
             texto = "(pendente de slot anterior) " + texto

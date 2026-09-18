@@ -26,11 +26,11 @@ def pct(x: float | None, dec: int = 1, sinal: bool = True, sufixo: str = "%") ->
         return "-"
     v = x * 100.0
     d = 0 if abs(round(v, dec)) >= 10 else dec
-    s = num(abs(v), d)
-    pref = ("+" if v > 0 else "-" if v < 0 else "") if sinal else ("-" if v < 0 else "")
-    if not sinal and v < 0:
-        s = num(v, d)
-        pref = ""
+    r = round(v, d)
+    if r == 0:
+        r = 0.0  # evita '-0,0' e '+0,0'
+    s = num(abs(r), d)
+    pref = ("+" if r > 0 else "-" if r < 0 else "") if sinal else ("-" if r < 0 else "")
     return f"{pref}{s}{sufixo}"
 
 

@@ -61,3 +61,34 @@ def test_intradia_sem_novidade_e_uma_linha(fixtures_dir, tmp_path):
     coletar.executar("intradia", saida, offline=fixtures_dir, agora=agora)
     txt = open(os.path.join(saida, "saida", "intradia.md"), encoding="utf-8").read().strip()
     assert txt.startswith("13h20 · sem alerta novo") or txt.startswith("ALERTAS")
+
+
+def test_pct_sem_zero_negativo():
+    assert fmt.pct(-0.0001) == "0,0%" and fmt.pct(0.0002) == "0,0%" and fmt.pct_col(-0.0003) == "  0,0"
+    assert fmt.pct(-0.0006) == "-0,1%"
+
+
+def test_backfill_nao_gera_alerta(fixtures_dir, tmp_path):
+    saida = str(tmp_path / "livro")
+    agora = datetime(2026, 9, 18, 21, 40, tzinfo=timezone.utc)
+    m = coletar.executar("backfill", saida, offline=fixtures_dir, agora=agora, dias_backfill=5)
+    assert m["slot"] == "backfill" and "alertas" not in m
+    assert not os.path.exists(os.path.join(saida, "saida", "alertas.md"))
+    assert not os.path.exists(os.path.join(saida, "estado", "alertas.json"))
+
+
+def test_push_do_fechamento_cabe_e_nao_repete_ativo(fixtures_dir, tmp_path):
+    saida = str(tmp_path / "livro")
+    agora = datetime(2026, 9, 18, 22, 41, tzinfo=timezone.utc)
+    coletar.executar("fechamento", saida, offline=fixtures_dir, agora=agora)
+    fj = json.load(open(os.path.join(saida, "saida", "fechamento.json"), encoding="utf-8"))
+    p = fj["push_sugerido"]
+    assert len(p) <= 195 and p.endswith("Leitura na sessão.") and "MRVE3 MRVE3" not in p and "BRENT Brent" not in p
+    assert "IPCA2032 IPCA+" not in p and "IPCA2035 IPCA+" not in p
+    md = open(os.path.join(saida, "saida", "fechamento.md"), encoding="utf-8").read()
+    assert "· 19h41 BRT" in md.splitlines()[2]
+    # alertas que sairam como mensagem ficam marcados; os que viraram linha nao voltam a disputar o teto
+    fila = json.load(open(os.path.join(saida, "estado", "alertas.json"), encoding="utf-8"))
+    canais = {v.get("canal") for v in fila.values()}
+    assert canais <= {"mensagem", "info"} and "mensagem" in canais
+    assert all(v["status"] == "linha" for v in fila.values() if v.get("canal") == "info")
