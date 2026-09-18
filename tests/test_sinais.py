@@ -116,3 +116,20 @@ def test_politica_agrupa_e_limita(limiares):
     assert set(grupos["T01"]["ids"]) == {"T01-BBDC4-x-2026-09-18", "T01-ITUB4-x-2026-09-18"}
     assert len(r["linhas_info"]) == 1
     assert grupos["curva"]["push"] and "detalhe na sessão" in grupos["curva"]["push"]
+
+
+def test_politica_reapresentado_nao_consome_teto(limiares):
+    def a(regra, ativo, sev, fam="preco", reap=False):
+        d = {"id": f"{regra}-{ativo}-x-2026-09-18", "regra": regra, "ativo": ativo, "severidade": sev, "familia": fam,
+             "titulo": f"{ativo} algo", "corpo": [], "por_que": "pq", "como_falar": "", "fonte": "f", "texto": f"[{sev}] {regra} {ativo}"}
+        return d
+    # 3 pendentes de atencao (ja emitidos antes) + 3 novos de atencao: os novos ainda cabem no slot
+    pend = [a("T04", "IB01", "atencao"), a("T08", "BAC", "atencao"), a("F06", "BTC", "atencao", "cripto")]
+    novos = [a("T05", "MRVE3", "atencao"), a("C05", "TESOURO", "atencao", "curva"), a("T01", "ITUB4", "atencao")]
+    r = politica.aplicar(novos, pend, limiares, "fechamento", "Fechamento 18h40", {"critico": 0, "atencao": 0})
+    ids_msg = {i for m in r["mensagens"] for i in m["ids"]}
+    assert all(p["id"] in ids_msg for p in pend), "pendente reapresentado nao pode ser suprimido"
+    assert all(n["id"] in ids_msg for n in novos), r["suprimidos"]
+    # com 4 mensagens de atencao ja emitidas hoje, um novo vira linha
+    r2 = politica.aplicar([a("T01", "BBDC4", "atencao")], [], limiares, "fechamento", "Fechamento 18h40", {"critico": 0, "atencao": 4})
+    assert not r2["mensagens"] and r2["suprimidos"][0]["motivo"] == "teto de atenção"

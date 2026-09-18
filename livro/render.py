@@ -232,12 +232,12 @@ def linha_sem_novidade(slot_rotulo: str, hora_coleta: str, obs: str, proximo: st
 # ---------------------------------------------------------------- fechamento
 def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[str], movers: dict,
             curvas_l: list[str], agenda_l: list[str], lacunas: list[str], fontes: list[str],
-            parcial: bool = False, exemplo: bool = False, slot: str = "fechamento") -> str:
+            parcial: bool = False, exemplo: bool = False, slot: str = "fechamento", hora: str = "") -> str:
     L = []
     if slot == "manha":
-        L.append(f"MANHÃ DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · 07h20 BRT (curvas de D-1)")
+        L.append(f"MANHÃ DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '07h20'} BRT (curvas de D-1)")
     else:
-        L.append(f"FECHAMENTO DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · 18h40 BRT" + (" · PARCIAL" if parcial else ""))
+        L.append(f"FECHAMENTO DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '18h40'} BRT" + (" · PARCIAL" if parcial else ""))
     L += quebrar("Relógios: " + relogios_txt, indent="  ")
     L.append("")
     crit = sum(1 for a in do_dia if a.get("severidade") == "critico")
