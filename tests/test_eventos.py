@@ -280,3 +280,16 @@ def test_cvm_retenta_pdf_de_documento_visto():
     # vistos no formato antigo (so data) tambem entram na retentativa
     r3 = cvm.coletar(alvos, cli=Cli(True), hoje=date(2026, 9, 18), dias=2, vistos={"CVM-PETR4-555": {"data": "2026-09-18"}}, com_ipe=False)
     assert r3["retentados"] == 1
+
+
+def test_assunto_e_resumo_de_fato_relevante_real():
+    txt = ("COMPANHIA DE SANEAMENTO BÁSICO\nDO ESTADO DE SÃO PAULO – SABESP\nCompanhia Aberta\nCNPJ/MF nº 43.776.517/0001-80\n\n"
+           "FATO RELEVANTE CONJUNTO\n\nA COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO – SABESP (“Sabesp”) e a EMAE, em atendimento ao art. 157, "
+           "§ 4º, da Lei nº 6.404, vêm informar que o prazo para o exercício do direito de retirada dos acionistas da EMAE termina em 20 de outubro de 2026. "
+           "Nos termos do artigo 137 e 252, § 2º, da Lei das S.A., a Incorporação de Ações enseja o direito de retirada. "
+           "O valor de reembolso é de R$ 12,34 por ação, conforme o balanço de 30 de junho de 2026.")
+    a = cvm.assunto_de_texto(txt, "Fato Relevante", "CIA SANEAMENTO BASICO EST SAO PAULO")
+    assert a.startswith("O prazo para o exercício do direito de retirada"), a
+    r = noticias.resumo_fiel("", txt)
+    assert any("R$ 12,34" in l for l in r) and not any(l.startswith("137 e 252") for l in r)
+    assert r[0].startswith("A COMPANHIA") or r[0].startswith("O valor") or "20 de outubro" in r[0]

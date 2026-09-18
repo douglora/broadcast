@@ -51,6 +51,10 @@ def _nome_curto(ctx: Contexto, ativo: str, alternativa: str | None = None) -> st
     return _corta(nome, 40)
 
 
+def _data_br(iso: str) -> str:
+    return f"{iso[8:10]}/{iso[5:7]}" if iso and len(iso) >= 10 else (iso or "")
+
+
 def _corta(s: str, n: int) -> str:
     s = (s or "").strip()
     return s if len(s) <= n else s[: n - 1].rstrip() + "…"
@@ -113,8 +117,10 @@ class E03CVM(Regra):
                 continue
             cat = d.get("categoria", "Documento")
             assunto = _corta(d.get("assunto") or d.get("tipo") or "", MAX_MANCHETE)
-            corpo = [f"CVM IPE · entregue {d.get('entregue_em') or d.get('data')} · {d.get('tipo') or ''}"
-                     + (f" / {d['especie']}" if d.get("especie") else "")]
+            partes = ["CVM", f"entregue {d.get('entregue_em') or d.get('data')}"]
+            if d.get("tipo"):
+                partes.append(d["tipo"] + (f" / {d['especie']}" if d.get("especie") else ""))
+            corpo = [" · ".join(partes)]
             if d.get("texto"):
                 from livro.fontes.noticias import resumo_fiel
                 corpo += _resumo(resumo_fiel("", d["texto"], MAX_RESUMO), "Do documento")
@@ -125,7 +131,7 @@ class E03CVM(Regra):
                 titulo=f"{ctx.rotulo(ativo)} · {cat}: {assunto}", tag=str(d.get("protocolo") or "x"),
                 data=d.get("data", ""), corpo=corpo, por_que=POR_QUE_CVM.get(cat, "documento da companhia na CVM"),
                 como_falar=f"a {_nome_curto(ctx, ativo, d.get('empresa'))} publicou {cat.lower()} sobre {_corta(assunto, 70)}",
-                fonte=f"CVM IPE {d.get('data', '')}", ativos_afetados=ativo,
+                fonte=f"CVM {_data_br(d.get('data', ''))}", ativos_afetados=ativo,
                 dados={"id_item": d.get("id"), "url": d.get("link"), "licenca": "integral", "veiculo": "CVM",
                        "texto_disponivel": bool(d.get("texto")), "categoria": cat, "manchete": f"{cat}: {assunto}", "ativos": [ativo],
                        "atualizado": bool(d.get("atualizado"))},

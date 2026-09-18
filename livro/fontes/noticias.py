@@ -275,10 +275,24 @@ def resumo_fiel(descricao: str, texto: str | None, max_linhas: int = 8) -> list[
             frases[-1] = frases[-1] + " " + f
         else:
             frases.append(f)
-    com_numero = [f.strip() for f in frases if re.search(r"\d|\"|“|”", f) and 30 <= len(f.strip()) <= 260]
-    if not com_numero:
-        com_numero = [f.strip() for f in frases if 30 <= len(f.strip()) <= 260]
-    return com_numero[:max_linhas]
+    def pontos(f: str) -> int:
+        p = 0
+        if re.search(r"R\$|US\$|\$|%|por a[cç][aã]o|bilh|milh|billion|million", f):
+            p += 2
+        elif re.search(r"\d", f):
+            p += 1
+        if re.search(r"\"|“|”", f):
+            p += 1
+        if re.search(r"(?i)\bLei\b|\bart\.|§|Resolu[cç][aã]o CVM|Instru[cç][aã]o CVM", f):
+            p -= 1
+        if re.match(r"^[a-zà-ú]|^\d+ e \d+", f.strip()):   # fragmento comecando em minuscula ou 'art. 137 e 252'
+            p -= 1
+        return p
+    validas = [f.strip() for f in frases if 30 <= len(f.strip()) <= 260]
+    boas = [f for f in validas if pontos(f) >= 1]
+    if not boas:
+        boas = validas
+    return boas[:max_linhas]
 
 
 # ---------------------------------------------------------------- dedup entre veiculos
