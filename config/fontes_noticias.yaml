@@ -18,6 +18,10 @@
 janela_horas: 36          # item mais velho que isso nao vira alerta
 max_resolver_por_run: 15  # links do Google resolvidos por execucao (2 requisicoes cada)
 max_texto_chars: 6000
+so_veiculos_conhecidos: true   # item de veiculo fora da lista abaixo e descartado (1o run real: 603 itens, quase tudo ruido)
+max_por_consulta: 40           # itens lidos por consulta (o RSS devolve ate 100)
+max_atencao_por_run: 12        # alertas de atencao por execucao (os mais recentes)
+max_info_por_run: 15           # linhas de info por execucao; o resto fica so em eventos/noticias.json
 
 veiculos:
   - {id: cvm, nome: "CVM (fato relevante)", dominios: [rad.cvm.gov.br, cvm.gov.br], licenca: integral, nota: "Fonte primaria; documento publico."}
@@ -47,6 +51,36 @@ veiculos:
   - {id: prnewswire, nome: "PR Newswire", dominios: [prnewswire.com], licenca: integral, nota: "Release de empresa (fonte primaria)."}
   - {id: businesswire, nome: "Business Wire", dominios: [businesswire.com], licenca: integral, nota: "Release de empresa (fonte primaria)."}
   - {id: globenewswire, nome: "GlobeNewswire", dominios: [globenewswire.com], licenca: integral, nota: "Release de empresa (fonte primaria)."}
+  - {id: oglobo, nome: "O Globo", dominios: [oglobo.globo.com], licenca: manchete}
+  - {id: uol, nome: "UOL Economia", dominios: [economia.uol.com.br, uol.com.br], licenca: manchete}
+  - {id: neofeed, nome: "NeoFeed", dominios: [neofeed.com.br], licenca: resumo}
+  - {id: suno, nome: "Suno Noticias", dominios: [suno.com.br], licenca: resumo}
+  - {id: advfn, nome: "ADVFN", dominios: [br.advfn.com, advfn.com], licenca: manchete}
+  - {id: tradingview, nome: "TradingView (Reuters)", dominios: [tradingview.com], licenca: manchete}
+  - {id: barrons, nome: "Barron's", dominios: [barrons.com], licenca: manchete}
+  - {id: fortune, nome: "Fortune", dominios: [fortune.com], licenca: manchete}
+  - {id: techcrunch, nome: "TechCrunch", dominios: [techcrunch.com], licenca: manchete}
+  - {id: coindesk, nome: "CoinDesk", dominios: [coindesk.com], licenca: resumo}
+  - {id: cointelegraph, nome: "Cointelegraph", dominios: [cointelegraph.com], licenca: manchete}
+  - {id: theblock, nome: "The Block", dominios: [theblock.co], licenca: manchete}
+  - {id: oilprice, nome: "OilPrice.com", dominios: [oilprice.com], licenca: manchete}
+  - {id: mining, nome: "Mining.com", dominios: [mining.com], licenca: manchete}
+  - {id: nikkei, nome: "Nikkei Asia", dominios: [asia.nikkei.com], licenca: manchete}
+  - {id: scmp, nome: "South China Morning Post", dominios: [scmp.com], licenca: manchete}
+  - {id: yonhap, nome: "Yonhap", dominios: [en.yna.co.kr, yna.co.kr], licenca: manchete}
+  - {id: apnews, nome: "AP News", dominios: [apnews.com], licenca: resumo}
+  - {id: bbc, nome: "BBC", dominios: [bbc.com, bbc.co.uk], licenca: resumo}
+  - {id: eixos, nome: "eixos", dominios: [eixos.com.br], licenca: resumo}
+  - {id: petronoticias, nome: "Petronoticias", dominios: [petronoticias.com.br], licenca: manchete}
+  - {id: canalenergia, nome: "CanalEnergia", dominios: [canalenergia.com.br], licenca: manchete}
+  - {id: megawhat, nome: "MegaWhat", dominios: [megawhat.energy], licenca: manchete}
+  - {id: fitch, nome: "Fitch Ratings", dominios: [fitchratings.com], licenca: resumo}
+  - {id: moodys, nome: "Moody's", dominios: [moodys.com], licenca: manchete}
+  - {id: spglobal, nome: "S&P Global", dominios: [spglobal.com], licenca: manchete}
+  - {id: bcb, nome: "Banco Central do Brasil", dominios: [bcb.gov.br], licenca: integral, nota: "Fonte primaria."}
+  - {id: tesouro, nome: "Tesouro Nacional", dominios: [tesouro.gov.br, tesourotransparente.gov.br], licenca: integral, nota: "Fonte primaria."}
+  - {id: fed, nome: "Federal Reserve", dominios: [federalreserve.gov], licenca: integral, nota: "Fonte primaria."}
+  - {id: ibge, nome: "IBGE", dominios: [ibge.gov.br], licenca: integral, nota: "Fonte primaria."}
 
 # Consultas ao Google News (uma requisicao cada). `when:1d` limita a busca a 24 h;
 # a janela acima corta o resto. Grupos por tema para caber em ~14 requisicoes.

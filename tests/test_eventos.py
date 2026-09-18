@@ -31,6 +31,13 @@ def test_parse_rss_e_atribuicao():
     sev2, _ = noticias.materialidade(itens[4]["titulo"], "", _cfg()["materialidade_forte"])
     assert sev2 == "info"
     assert noticias.gatilho(p["titulo"], "") == "dividendo"
+    # descricao nao atribui ("Portal Aqui Vale" e o veiculo, nao a Vale)
+    assert noticias.atribuir("Novo hotel em Sao Jose dos Campos tera investimento de R$ 70 milhoes", "Portal Aqui Vale", casar) == []
+    # gatilho forte sem numero nem verbo de decisao e info; com verbo e atencao
+    f = _cfg()["materialidade_forte"]
+    assert noticias.materialidade("Why Does Coca-Cola (NYSE:KO) Challenge The Dividend Stocks Story?", "", f)[0] == "info"
+    assert noticias.materialidade("Safra corta preço-alvo de Itaú, Bradesco e Banco do Brasil", "", f)[0] == "atencao"
+    assert noticias.materialidade("Mercado está subestimando os dividendos da Petrobras? XP vê distorção", "", f)[0] == "info"
 
 
 def test_consolidar_junta_veiculos_e_licenca():
@@ -115,3 +122,51 @@ def test_regras_de_evento_geram_alertas(universo, limiares):
     assert all(i["severidade"] == "info" for i in r["linhas_info"]) and any(i["ativo"] == "BBDC4" for i in r["linhas_info"])
     pushes = [m["push"] for m in r["mensagens"] if m.get("push")]
     assert len(pushes) == 1 and "detalhe na sessão" in pushes[0] and "E03 PETR4" in pushes[0] and "evento:" not in pushes[0]
+
+
+class _CliFalso:
+    """Devolve o RSS de amostra para qualquer GET; POST falha (resolvedor cai no link do Google)."""
+    def __init__(self):
+        self.payload = open(os.path.join(RAW, "googlenews_sample.xml"), "rb").read()
+        self.chamadas = 0
+
+    def get(self, url, **kw):
+        from livro.http import Resposta
+        self.chamadas += 1
+        return Resposta(200, self.payload, {}, url)
+
+    def post(self, url, **kw):
+        from livro.http import HttpError
+        raise HttpError(0, "sem rede", url)
+
+
+def test_coletar_noticias_filtra_e_consolida():
+    cfg = dict(_cfg())
+    cfg["consultas"] = [{"id": "teste", "lang": "pt-BR", "q": "x"}]
+    cli = _CliFalso()
+    r = noticias.coletar(cfg, {}, cli=cli, agora=datetime(2026, 9, 18, 22, 0, tzinfo=timezone.utc), dormir=lambda s: None)
+    ativos = {tuple(i["ativos"]) for i in r["itens"]}
+    assert ("PETR4",) in ativos and ("VALE3",) in ativos and ("BBDC4",) in ativos
+    assert not any("KLBN4" in i["ativos"] for i in r["itens"]), "materia velha nao entra"
+    petro = next(i for i in r["itens"] if i["ativos"] == ["PETR4"])
+    assert petro["fontes_extras"] == ["InfoMoney"] and petro["severidade"] == "atencao" and petro["licenca"] == "integral"
+    assert petro["id"].startswith("N-") and petro["hash"] in r["vistos"]
+    assert r["descartados"]["velho"] == 1 and r["consultas"] == 1
+    # segunda rodada com os mesmos vistos nao devolve nada
+    r2 = noticias.coletar(cfg, r["vistos"], cli=cli, agora=datetime(2026, 9, 18, 22, 30, tzinfo=timezone.utc), dormir=lambda s: None)
+    assert r2["itens"] == [] and r2["descartados"]["visto"] >= 3
+
+
+def test_cvm_data_iso_e_diagnostico():
+    assert cvm.data_iso("18/09/2026") == "2026-09-18" and cvm.data_iso("2026-09-18 19:02:11") == "2026-09-18"
+    texto = open(os.path.join(RAW, "ipe_sample.csv"), encoding="utf-8").read()
+    d = cvm.diagnostico(texto, date(2026, 9, 15))
+    assert d["linhas"] == 6 and d["na_janela"] == 5 and d["categorias_janela"]["Fato Relevante"] == 2
+    assert d["amostra"] and d["amostra"][0]["Codigo_CVM"] == "9512"
+
+
+def test_politica_reapresentado_nao_repete_push(limiares):
+    a = {"id": "T04-UGPA3-maxima-2026-09-18", "regra": "T04", "ativo": "UGPA3", "severidade": "atencao", "familia": "preco",
+         "titulo": "UGPA3 algo", "corpo": [], "por_que": "", "como_falar": "", "fonte": "f", "texto": "x"}
+    r = politica.aplicar([], [a], limiares, "intradia", "intradia", {"critico": 0, "atencao": 0})
+    assert len(r["mensagens"]) == 1 and r["mensagens"][0]["push"] is None and r["mensagens"][0]["texto"].startswith("(pendente")
