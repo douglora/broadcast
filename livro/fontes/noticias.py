@@ -301,6 +301,8 @@ def consolidar(itens: list[dict], limiar: float = 0.34) -> list[dict]:
             it["fontes_extras"] = []
             saida.append(it)
         else:
+            if it.get("hash"):
+                dono.setdefault("absorvidos", []).append(it["hash"])
             if it.get("veiculo") and it["veiculo"] not in dono["fontes_extras"] and it["veiculo"] != dono.get("veiculo"):
                 dono["fontes_extras"].append(it["veiculo"])
             for a in it["ativos"]:
@@ -384,7 +386,8 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
     info = [i for i in itens if i["severidade"] != "atencao"]
     for sobra in at[max_at:] + info[max_info:]:
         descartados["teto"] += 1
-        vistos[sobra["hash"]] = {"data": (sobra.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": f"N-{sobra['hash']}"}
+        for h in [sobra["hash"]] + list(sobra.get("absorvidos") or []):
+            vistos[h] = {"data": (sobra.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": f"N-{sobra['hash']}"}
     itens = at[:max_at] + info[:max_info]
     max_res = int(cfg.get("max_resolver_por_run", 15))
     max_chars = int(cfg.get("max_texto_chars", 6000))
@@ -409,7 +412,8 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
             dormir(0.5)
         it["resumo"] = it["trechos"] or resumo_fiel(it.get("descricao", ""), None)
         it["id"] = f"N-{it['hash']}"
-        vistos[it["hash"]] = {"data": (it.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": it["id"]}
+        for h in [it["hash"]] + list(it.get("absorvidos") or []):
+            vistos[h] = {"data": (it.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": it["id"]}
     # poda de vistos: 10 dias
     limite = (agora - timedelta(days=10)).strftime("%Y-%m-%d")
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
