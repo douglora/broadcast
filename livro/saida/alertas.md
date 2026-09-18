@@ -2,9 +2,8 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 KO · Coca-Cola Bets $10 Billion on U.S. Infrastructure to Drive Growth
-· E05 BTC · Crypto News: Pepeto Announces DeFi Exchange While Bitcoin
-· E05 DI · Copom: O que esperar da reunião que vai definir os novos rumos da taxa Selic
+· E05 BTC · CoinShares Says Bitcoin Won't Hit $80,000. Is It Correct?
+· E05 BTC · Current price of Bitcoin for September 18, 2026
 
 
 Alertas do dia (todos, com status):
@@ -640,3 +639,5 @@ Alertas do dia (todos, com status):
 · linha     E05 KO — KO · Coca-Cola Bets $10 Billion on U.S. Infrastructure to Drive Growth
 · linha     E05 BTC — BTC · Crypto News: Pepeto Announces DeFi Exchange While Bitcoin
 · linha     E05 DI — DI · Copom: O que esperar da reunião que vai definir os novos rumos da taxa Seli
+· linha     E05 BTC — BTC · CoinShares Says Bitcoin Won't Hit $80,000. Is It Correct?
+· linha     E05 BTC — BTC · Current price of Bitcoin for September 18, 2026
