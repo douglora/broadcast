@@ -270,13 +270,13 @@ class Coleta:
             self.pernas["noticias"] = "falhou"
         # CVM
         c_cfg = lim.get("E03_CVM") or {}
-        roda_cvm = self.modo in (c_cfg.get("slots") or ["manha", "fechamento", "eventos"]) or \
-            (self.modo == "intradia" and hora_brt in (c_cfg.get("horas_intradia_brt") or [12, 15]))
+        roda_cvm = self.modo in (c_cfg.get("slots") or ["manha", "fechamento", "eventos", "intradia"])
         if roda_cvm:
             try:
                 c = cvm.coletar(cfg.get("cvm") or {}, hoje=hoje_brt, dias=int(c_cfg.get("dias", 3)),
                                 categorias=cfg.get("cvm_categorias"), vistos=vistos.get("cvm"),
-                                max_pdf=int(c_cfg.get("max_pdf_por_run", 8)))
+                                max_pdf=int(c_cfg.get("max_pdf_por_run", 8)),
+                                com_ipe=self.modo in (c_cfg.get("ipe_slots") or ["manha"]))
                 self.eventos["cvm"] = c["docs"]
                 vistos["cvm"] = c["vistos"]
                 gravar_json(os.path.join(self.saida, "eventos", "cvm.json"), {k: v for k, v in c.items() if k != "vistos"})

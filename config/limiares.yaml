@@ -139,10 +139,10 @@ S01_FALHA_DADOS:
   dead_man_brt: "18:55"
 
 E03_CVM:
-  dias: 3                  # documentos entregues nos ultimos N dias (o IPE atualiza uma vez ao dia)
+  dias: 3                  # documentos entregues nos ultimos N dias
   max_pdf_por_run: 8
-  slots: [manha, fechamento, eventos]
-  horas_intradia_brt: [12, 15]
+  slots: [manha, fechamento, eventos, intradia]   # RAD (consulta externa) e leve: todo slot
+  ipe_slots: [manha]       # base aberta do IPE (zip de ~30 MB, atraso de dias): so de manha
 
 E04_SEC:
   dias: 3
