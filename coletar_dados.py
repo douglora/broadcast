@@ -435,8 +435,8 @@ def _eh_documento_resultado(d):
 # CVM (IPE, categoria "Dados Economico-Financeiros / Press-release") e, para
 # quem reporta a SEC, como exhibit 99 de um 8-K (item 2.02) ou 6-K. Lemos
 # essa copia oficial: mesmo PDF, sem depender do layout de cada site de RI.
-RELEASE_MAX_CHARS = 70000
-RELEASE_MAX_PAGINAS = 60
+RELEASE_MAX_CHARS = 150000
+RELEASE_MAX_PAGINAS = 80
 
 
 def _texto_pdf(conteudo, max_paginas=RELEASE_MAX_PAGINAS):
@@ -497,6 +497,13 @@ def _texto_de_download(r):
         return None, f"formato desconhecido ({tipo[:40]})"
 
 
+def _release_reutilizavel(anterior, link):
+    """Mesmo documento ja lido na coleta anterior, sem corte menor que o limite atual."""
+    if not anterior or anterior.get("link") != link or not anterior.get("texto"):
+        return False
+    return (not anterior.get("cortado")) or len(anterior["texto"]) >= RELEASE_MAX_CHARS
+
+
 def _montar_release(texto, detalhe, meta):
     if not texto:
         return None
@@ -506,8 +513,10 @@ def _montar_release(texto, detalhe, meta):
             "texto": texto[:RELEASE_MAX_CHARS]}
 
 
-def coletar_release_cvm(documentos, fontes):
-    """Baixa o press-release de resultados mais recente entregue a CVM (portugues primeiro)."""
+def coletar_release_cvm(documentos, fontes, anterior=None):
+    """Baixa o press-release de resultados mais recente entregue a CVM (portugues primeiro).
+
+    `anterior` e o release ja gravado no branch: se o link for o mesmo, reusa o texto."""
     releases = [d for d in documentos if normalizar(d["tipo"]).startswith("PRESS RELEASE")]
     if not releases:
         fontes["release_ri"] = "sem press-release no IPE do ano"
@@ -516,6 +525,9 @@ def coletar_release_cvm(documentos, fontes):
     do_dia = [d for d in releases if d["data"] == data_max]
     do_dia.sort(key=lambda d: (0 if re.search(r"PORTUGU|PT\b", normalizar(d["assunto"])) else 1))
     for d in do_dia[:2]:
+        if _release_reutilizavel(anterior, d["link"]):
+            fontes["release_ri"] = f"ok ({d['assunto'][:60]}; {d['data']}; reusado da coleta anterior)"
+            return anterior
         r = app.http_get(d["link"], timeout=90)
         if not r:
             continue
@@ -536,8 +548,10 @@ SEC_ARQUIVO_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{nome}"
 _PALAVRAS_RESULTADO = re.compile(r"(?i)(quarter|trimestre|fiscal year|full[- ]year|results|resultados|earnings)")
 
 
-def coletar_release_sec(cik, fontes, max_filings=8):
-    """Exhibit 99 do 8-K (item 2.02) ou 6-K mais recente com resultados trimestrais."""
+def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
+    """Exhibit 99 do 8-K (item 2.02) ou 6-K mais recente com resultados trimestrais.
+
+    `anterior` e o release ja gravado no branch: se o link for o mesmo, reusa o texto."""
     if not cik:
         fontes["release_ri"] = "sem CIK"
         return {}
@@ -573,7 +587,11 @@ def coletar_release_sec(cik, fontes, max_filings=8):
         if form == "6-K" and not candidatos:
             candidatos = [n for n in nomes if n == f.get("primaryDocument")]
         for nome in candidatos[:3]:
-            doc = app.http_get(SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome), timeout=60, headers=SEC_HEADERS)
+            url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
+            if _release_reutilizavel(anterior, url):
+                fontes["release_ri"] = f"ok ({form} de {f.get('filingDate')}; {nome}; reusado da coleta anterior)"
+                return anterior
+            doc = app.http_get(url, timeout=60, headers=SEC_HEADERS)
             if not doc:
                 continue
             texto, detalhe = _texto_de_download(doc)
@@ -617,7 +635,7 @@ SEC_LINHAS = {
     "pesquisa_desenvolvimento": ["ResearchAndDevelopmentExpense"],
     "provisao_devedores_duvidosos": ["ProvisionForDoubtfulAccounts", "ProvisionForLoanLossesExpensed"],
     "ebit": ["OperatingIncomeLoss", "ProfitLossFromOperatingActivities"],
-    "despesa_juros": ["InterestExpense", "InterestExpenseNonoperating", "FinanceCosts"],
+    "despesa_juros": ["InterestExpense", "InterestExpenseNonoperating", "InterestExpenseDebt", "InterestAndDebtExpense", "FinanceCosts"],
     "lucro_antes_ir": ["IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest", "ProfitLossBeforeTax"],
     "imposto_renda": ["IncomeTaxExpenseBenefit", "IncomeTaxExpenseContinuingOperations"],
     "lucro_liquido": ["NetIncomeLoss", "ProfitLoss", "ProfitLossAttributableToOwnersOfParent"],
@@ -642,7 +660,50 @@ SEC_LINHAS = {
 }
 # Linhas por acao ou de contagem: nao derivar o 4T por subtracao
 SEC_SEM_DERIVACAO = {"lpa_diluido", "acoes_diluidas"}
+# Quando nenhuma tag padrao tem dado recente, procura na taxonomia propria da
+# empresa (ex.: meli:...) uma tag com esse padrao. tags_usadas registra qual foi.
+SEC_REGEX_FALLBACK = {
+    "despesa_juros": r"^InterestExpense",
+    "resultado_financeiro_outros": r"^(NonoperatingIncomeExpense|OtherNonoperatingIncomeExpense|FinanceIncomeCost|FinancialResult|InterestAndOtherFinancial)",
+    "divida_curto_prazo": r"^(Debt|Borrowings|LoansPayable|ShortTermBorrowings|LoansAndOtherFinancialLiabilities)\w*Current$",
+    "divida_longo_prazo": r"^(LongTermDebt|Borrowings|LoansPayable|LoansAndOtherFinancialLiabilities)\w*Noncurrent$",
+}
 _SEC_TICKERS = {}
+
+
+def _parse_serie_sec(serie):
+    """Uma tag do companyfacts -> (trimestral, anual, instantanea, unidade), so com frames."""
+    unidades = serie.get("units", {})
+    unidade = next((u for u in ("USD", "USD/shares", "shares", "BRL") if u in unidades), None) \
+        or next(iter(unidades.keys()), None)
+    tri, anu, instantanea = {}, {}, False
+    for v in unidades.get(unidade, []) if unidade else []:
+        frame = v.get("frame")
+        if not frame:
+            continue
+        m = re.fullmatch(r"CY(\d{4})(?:Q([1-4]))?(I?)", frame)
+        if not m:
+            continue
+        ano, tri_n, inst = m.groups()
+        if inst:
+            # Saldo instantaneo (balanco): CY2025Q2I = saldo em 30/06/2025
+            instantanea = True
+            if tri_n:
+                tri[f"CY{ano}Q{tri_n}"] = v.get("val")
+                if tri_n == "4":
+                    anu[f"CY{ano}"] = v.get("val")
+            else:
+                anu[f"CY{ano}"] = v.get("val")
+        elif tri_n:
+            tri[frame] = v.get("val")
+        else:
+            anu[frame] = v.get("val")
+    return tri, anu, instantanea, unidade
+
+
+def _ultimo_ano(tri, anu):
+    anos = [int(k[2:6]) for k in list(tri) + list(anu)]
+    return max(anos) if anos else 0
 
 
 def _cik_por_ticker(simbolo):
@@ -677,61 +738,50 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
            "nota": ("trimestral: frames CYyyyyQn do XBRL (3 meses; balanco = saldo no fim do trimestre). "
                     "O 4T de fluxo e derivado: anual menos 1T+2T+3T (lista em derivados). "
                     "ltm: soma dos ultimos 4 trimestres consecutivos.")}
+    ano_atual = datetime.now(timezone.utc).year
     for nome, candidatos in SEC_LINHAS.items():
+        # Entre as tags candidatas, vale a que tem dado mais recente (empresas trocam de tag
+        # ao longo dos anos: o InterestExpense do MELI parou em 2011) e, no empate, a mais longa.
+        opcoes = []
         for tag in candidatos:
-            serie = None
             for tx in taxonomias:
                 if tag in facts.get(tx, {}):
-                    serie = facts[tx][tag]
+                    tri, anu, inst, unidade = _parse_serie_sec(facts[tx][tag])
+                    if tri or anu:
+                        opcoes.append((_ultimo_ano(tri, anu), len(tri) + len(anu), tag, tri, anu, inst, unidade))
                     break
-            if not serie:
-                continue
-            unidades = serie.get("units", {})
-            unidade = next((u for u in ("USD", "USD/shares", "shares", "BRL") if u in unidades), None) \
-                or next(iter(unidades.keys()), None)
-            valores = unidades.get(unidade, []) if unidade else []
-            tri, anu, instantanea = {}, {}, False
-            for v in valores:
-                frame = v.get("frame")
-                if not frame:
+        if nome in SEC_REGEX_FALLBACK and (not opcoes or max(o[0] for o in opcoes) < ano_atual - 1):
+            rx = re.compile(SEC_REGEX_FALLBACK[nome])
+            for tx, tags in facts.items():
+                if tx == "dei":
                     continue
-                m = re.fullmatch(r"CY(\d{4})(?:Q([1-4]))?(I?)", frame)
-                if not m:
-                    continue
-                ano, tri_n, inst = m.groups()
-                if inst:
-                    # Saldo instantaneo (balanco): CY2025Q2I = saldo em 30/06/2025
-                    instantanea = True
-                    if tri_n:
-                        tri[f"CY{ano}Q{tri_n}"] = v.get("val")
-                        if tri_n == "4":
-                            anu[f"CY{ano}"] = v.get("val")
-                    else:
-                        anu[f"CY{ano}"] = v.get("val")
-                elif tri_n:
-                    tri[frame] = v.get("val")
-                else:
-                    anu[frame] = v.get("val")
-            if tri or anu:
-                # 4T derivado para linhas de fluxo (DRE e caixa), quando ha o anual e os tres trimestres
-                if not instantanea and nome not in SEC_SEM_DERIVACAO:
-                    for chave_ano, total in anu.items():
-                        ano = chave_ano[2:]
-                        q = [tri.get(f"CY{ano}Q{n}") for n in (1, 2, 3)]
-                        if f"CY{ano}Q4" not in tri and total is not None and all(x is not None for x in q):
-                            tri[f"CY{ano}Q4"] = total - sum(q)
-                            out["derivados"].setdefault(nome, []).append(f"CY{ano}Q4")
-                out["trimestral"][nome] = dict(sorted(tri.items())[-max_periodos:])
-                out["anual"][nome] = dict(sorted(anu.items())[-15:])
-                out["tags_usadas"][nome] = tag
-                out["unidades"][nome] = unidade
-                if instantanea:
-                    out["instantaneas"].append(nome)
-                elif nome not in SEC_SEM_DERIVACAO:
-                    ltm = _ltm(out["trimestral"][nome], lambda k: (int(k[2:6]), int(k[7])))
-                    if ltm:
-                        out["ltm"][nome] = ltm
-                break
+                for tag, serie in tags.items():
+                    if rx.search(tag):
+                        tri, anu, inst, unidade = _parse_serie_sec(serie)
+                        if tri or anu:
+                            opcoes.append((_ultimo_ano(tri, anu), len(tri) + len(anu), f"{tx}:{tag}", tri, anu, inst, unidade))
+        if not opcoes:
+            continue
+        opcoes.sort(key=lambda o: (o[0], o[1]), reverse=True)
+        _, _, tag, tri, anu, instantanea, unidade = opcoes[0]
+        # 4T derivado para linhas de fluxo (DRE e caixa), quando ha o anual e os tres trimestres
+        if not instantanea and nome not in SEC_SEM_DERIVACAO:
+            for chave_ano, total in anu.items():
+                ano = chave_ano[2:]
+                q = [tri.get(f"CY{ano}Q{n}") for n in (1, 2, 3)]
+                if f"CY{ano}Q4" not in tri and total is not None and all(x is not None for x in q):
+                    tri[f"CY{ano}Q4"] = total - sum(q)
+                    out["derivados"].setdefault(nome, []).append(f"CY{ano}Q4")
+        out["trimestral"][nome] = dict(sorted(tri.items())[-max_periodos:])
+        out["anual"][nome] = dict(sorted(anu.items())[-15:])
+        out["tags_usadas"][nome] = tag
+        out["unidades"][nome] = unidade
+        if instantanea:
+            out["instantaneas"].append(nome)
+        elif nome not in SEC_SEM_DERIVACAO:
+            ltm = _ltm(out["trimestral"][nome], lambda k: (int(k[2:6]), int(k[7])))
+            if ltm:
+                out["ltm"][nome] = ltm
     n = len(out["tags_usadas"])
     fontes["sec_xbrl"] = f"ok ({n} linhas; CIK {cik}; 4T derivado em {len(out['derivados'])} linhas)" if n else "vazio"
     return out
@@ -847,7 +897,7 @@ def coletar_cvm_demonstracoes(cd_cvm, fontes):
         if arq:
             for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp", out["descricao_contas"]).items():
                 out["dfp_anual"].setdefault(k, {}).update(v)
-    for a in (ano, ano - 1):
+    for a in (ano, ano - 1, ano - 2):
         arq = _csvs_do_zip(CVM_ITR_URL.format(ano=a))
         if arq:
             for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr", out["descricao_contas"]).items():
@@ -984,16 +1034,23 @@ def _oficial(dados):
                "plano_de_contas": cvm.get("plano_de_contas", "geral")}
     elif sec.get("trimestral"):
         st, ltm = sec["trimestral"], sec.get("ltm") or {}
-        rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", "despesa_juros"
+        rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", None
         out = {"fonte": "SEC XBRL (10-Q/10-K/20-F)", "unidade": "USD", "plano_de_contas": "geral",
                "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
     else:
         return {}
     geral = out["plano_de_contas"] == "geral"
     for nome, conta in (("receita_ltm", rec), ("ebit_ltm", ebit), ("lucro_ltm", ll), ("resultado_financeiro_ltm", fin)):
-        if ltm.get(conta):
+        if conta and ltm.get(conta):
             out[nome] = ltm[conta]["valor"]
             out["ltm_ate"] = ltm[conta]["ate"]
+    if fin is None:
+        # SEC: resultado financeiro liquido (positivo = receita) ou, na falta, a despesa de juros com sinal trocado
+        if ltm.get("resultado_financeiro_outros"):
+            out["resultado_financeiro_ltm"] = ltm["resultado_financeiro_outros"]["valor"]
+        elif ltm.get("despesa_juros"):
+            out["resultado_financeiro_ltm"] = -ltm["despesa_juros"]["valor"]
+            out["resultado_financeiro_nota"] = "so a despesa de juros (InterestExpense), sem receitas financeiras"
     receita, ebit_v, lucro = out.get("receita_ltm"), out.get("ebit_ltm"), out.get("lucro_ltm")
     if receita and geral:
         if ebit_v is not None:
@@ -1119,9 +1176,11 @@ def montar_comparativo(grupo, nome, tipo, linhas, pedidos):
 
 
 # ───────────────────────── Orquestracao ─────────────────────────
-def coletar_ativo(tk, macro, releases=True):
+def coletar_ativo(tk, macro, releases=True, anterior=None):
+    """JSON completo de um ativo. `anterior` e o JSON ja gravado no branch (reuso do release)."""
     fontes = {}
     dados = {"ticker": tk, "gerado_em": agora(), "fontes": fontes}
+    anterior = anterior or {}
     grupo = PARES_MOD.grupo_de(tk)
     dados["pares"] = ({"grupo": grupo, "nome": PARES_MOD.PARES[grupo]["nome"], "tipo": PARES_MOD.PARES[grupo]["tipo"],
                        "tickers": PARES_MOD.PARES[grupo]["tickers"], "comparativo": f"comparativos/{grupo}.json"}
@@ -1134,6 +1193,9 @@ def coletar_ativo(tk, macro, releases=True):
     if eh_simbolo_us(tk):
         dados["fundamentus"], dados["cvm"] = {}, {}
         fontes["fundamentus"] = fontes["cvm"] = "nao se aplica (papel dos EUA)"
+    elif eh_bdr(tk):
+        dados["fundamentus"] = {}
+        fontes["fundamentus"] = "nao se aplica (BDR; indicadores vem da acao-mae em subjacente_us)"
     else:
         try:
             dados["fundamentus"] = coletar_fundamentus(tk, fontes)
@@ -1157,7 +1219,7 @@ def coletar_ativo(tk, macro, releases=True):
             fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         if releases:
             try:
-                dados["release_ri"] = coletar_release_sec(_cik_por_ticker(tk), fontes)
+                dados["release_ri"] = coletar_release_sec(_cik_por_ticker(tk), fontes, anterior=anterior.get("release_ri"))
             except Exception as e:
                 fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
     else:
@@ -1167,7 +1229,8 @@ def coletar_ativo(tk, macro, releases=True):
             fontes["cvm_demonstracoes"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         if releases:
             try:
-                dados["release_ri"] = coletar_release_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [], fontes)
+                dados["release_ri"] = coletar_release_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [],
+                                                          fontes, anterior=anterior.get("release_ri"))
             except Exception as e:
                 fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         adr = ADR_DE_B3.get(tk)
@@ -1179,7 +1242,7 @@ def coletar_ativo(tk, macro, releases=True):
             if releases and not dados.get("release_ri"):
                 # Sem release na CVM: tenta o 6-K do ADR (mesmo documento, em ingles)
                 try:
-                    dados["release_ri"] = coletar_release_sec(_cik_por_ticker(adr), fontes)
+                    dados["release_ri"] = coletar_release_sec(_cik_por_ticker(adr), fontes, anterior=anterior.get("release_ri"))
                 except Exception as e:
                     fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
 
@@ -1197,9 +1260,14 @@ def coletar_ativo(tk, macro, releases=True):
                 fontes_sub["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
             if releases:
                 try:
-                    dados["subjacente_us"]["release_ri"] = coletar_release_sec(_cik_por_ticker(base), fontes_sub)
+                    rel_ant = (anterior.get("subjacente_us") or {}).get("release_ri")
+                    dados["subjacente_us"]["release_ri"] = coletar_release_sec(_cik_por_ticker(base), fontes_sub, anterior=rel_ant)
                 except Exception as e:
                     fontes_sub["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+                if not dados.get("release_ri") and dados["subjacente_us"].get("release_ri"):
+                    # O release da acao-mae e o release da empresa: fica tambem no topo do JSON
+                    dados["release_ri"] = dados["subjacente_us"]["release_ri"]
+                    fontes["release_ri"] = f"ok (via acao-mae {base}: {fontes_sub.get('release_ri', '')[:100]})"
             preco_bdr = info.get("currentPrice") or info.get("regularMarketPrice")
             preco_us = sub_info.get("currentPrice") or sub_info.get("regularMarketPrice")
             dolar = (macro.get("dolar_ptax") or {}).get("value")
@@ -1308,7 +1376,14 @@ def main():
     coletados = {}
     for tk in tickers:
         print(f"Coletando {tk}...")
-        dados = coletar_ativo(tk, macro, releases=not args.sem_releases)
+        anterior = None
+        caminho = os.path.join(args.saida, "ativos", f"{tk}.json")
+        if os.path.exists(caminho):
+            try:
+                anterior = json.load(open(caminho, encoding="utf-8"))
+            except Exception:
+                anterior = None
+        dados = coletar_ativo(tk, macro, releases=not args.sem_releases, anterior=anterior)
         gravar_json(os.path.join(args.saida, "ativos", f"{tk}.json"), dados)
         coletados[tk] = dados
         resumo["tickers"][tk] = dados["fontes"]
