@@ -178,3 +178,20 @@ def test_politica_reapresentado_nao_repete_push(limiares):
          "titulo": "UGPA3 algo", "corpo": [], "por_que": "", "como_falar": "", "fonte": "f", "texto": "x"}
     r = politica.aplicar([], [a], limiares, "intradia", "intradia", {"critico": 0, "atencao": 0})
     assert len(r["mensagens"]) == 1 and r["mensagens"][0]["push"] is None and r["mensagens"][0]["texto"].startswith("(pendente")
+
+
+def test_parse_rad_html_e_docs():
+    html = ('<tr><td>009512</td><td>PETRÓLEO BRASILEIRO S.A. - PETROBRAS</td><td>Fato Relevante</td><td>Fato Relevante</td>'
+            '<td>-</td><td>18/09/2026</td><td>18/09/2026 19:02</td><td>AC</td><td>1</td><td>AP</td>'
+            '<td><i onclick="OpenPopUpVer(\'frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1234567\')"></i></td></tr>'
+            '<tr><td>020036</td><td>BRASIL AGRO</td><td>Fato Relevante</td><td>Fato Relevante</td><td>-</td><td>18/09/2026</td>'
+            '<td>18/09/2026 10:00</td><td>AC</td><td>1</td><td>AP</td><td><i onclick="OpenPopUpVer(\'x?NumeroProtocoloEntrega=1\')"></i></td></tr>'
+            '<tr><td>000906</td><td>BCO BRADESCO S.A.</td><td>Assembleia</td><td>AGE</td><td>Edital</td><td>18/09/2026</td>'
+            '<td>18/09/2026 11:00</td><td>AC</td><td>1</td><td>AP</td><td></td></tr>')
+    linhas = cvm.parse_rad_html(html)
+    assert len(linhas) == 3 and linhas[0]["codigo"] == "9512" and linhas[0]["protocolo"] == "1234567" and linhas[0]["data"] == "2026-09-18"
+    docs, casadas = cvm.docs_de_linhas(linhas, _cfg()["cvm"], date(2026, 9, 16), _cfg()["cvm_categorias"])
+    assert [d["id"] for d in docs] == ["CVM-PETR4-1234567"] and docs[0]["origem"] == "rad" and docs[0]["severidade"] == "atencao"
+    assert "PETR4" in casadas
+    corpo = cvm.rad_corpo(date(2026, 9, 16), date(2026, 9, 18))
+    assert '"dataDe": "16/09/2026"' in corpo and '"categoria": "TODAS"' in corpo
