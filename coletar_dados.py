@@ -314,11 +314,10 @@ _IPE_CACHE = {}
 def _linhas_ipe(ano):
     if ano in _IPE_CACHE:
         return _IPE_CACHE[ano]
-    r = app.http_get(app.IPE_URL.format(year=ano), timeout=60)
+    texto = app.baixar_ipe(ano)
     linhas = []
-    if r:
+    if texto:
         try:
-            texto = r.content.decode("latin-1")
             linhas = list(csv.DictReader(io.StringIO(texto), delimiter=";"))
         except Exception:
             linhas = []
