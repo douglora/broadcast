@@ -225,6 +225,38 @@ def alertas_md(resultado: dict, do_dia: list[dict], slot_rotulo: str) -> str:
     return "\n".join(linhas).rstrip() + "\n"
 
 
+def noticias_md(do_dia: list[dict], data_br: str, pernas: dict | None = None) -> str:
+    """Todas as noticias e fatos do dia (cards completos), para 'noticias' na sessao."""
+    fatos = [a for a in do_dia if a.get("familia") in ("noticia", "evento")]
+    L = [f"NOTÍCIAS E FATOS · {data_br}", ""]
+    if pernas:
+        L.append("Pernas: " + " · ".join(f"{k} {v}" for k, v in pernas.items() if k in ("noticias", "cvm", "sec")))
+        L.append("")
+    if not fatos:
+        L.append("Nenhuma noticia ou fato relevante atribuido ao livro hoje.")
+        return "\n".join(L) + "\n"
+    grupos = [("FATOS RELEVANTES E COMUNICADOS (CVM)", lambda a: a["regra"] == "E03"),
+              ("SEC (8-K, 6-K, 10-Q, 10-K)", lambda a: a["regra"] == "E04"),
+              ("NOTÍCIAS COM MATERIALIDADE", lambda a: a["regra"] == "E05" and a.get("severidade") != "info"),
+              ("OUTRAS NOTÍCIAS (só manchete)", lambda a: a["regra"] == "E05" and a.get("severidade") == "info")]
+    for titulo, filtro in grupos:
+        itens = [a for a in fatos if filtro(a)]
+        if not itens:
+            continue
+        L.append(f"## {titulo} ({len(itens)})")
+        L.append("")
+        for a in itens:
+            if titulo.startswith("OUTRAS"):
+                d = a.get("dados") or {}
+                L.append(f"· {a['ativo']} {d.get('manchete') or a['titulo']} ({d.get('veiculo', '')}) {d.get('url', '')}".rstrip())
+            else:
+                L.append(a.get("texto") or a["titulo"])
+                L.append(f"id: {a['id']} · status: {a.get('status', '')}" + (" · íntegra disponível" if (a.get('dados') or {}).get('texto_disponivel') else ""))
+                L.append("")
+        L.append("")
+    return "\n".join(L).rstrip() + "\n"
+
+
 def linha_sem_novidade(slot_rotulo: str, hora_coleta: str, obs: str, proximo: str) -> str:
     return f"{slot_rotulo} · sem alerta novo · coleta {hora_coleta} OK" + (f" ({obs})" if obs else "") + (f" · próximo {proximo}" if proximo else "")
 
@@ -256,6 +288,16 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
     if movers.get("baixas"):
         L += quebrar("BAIXAS " + " · ".join(f"{i} {fmt.pct(v)}" for i, v in movers["baixas"]), indent="       ")
     L.append("")
+    fatos = [a for a in do_dia if a.get("familia") in ("noticia", "evento")]
+    if fatos:
+        L.append(f"NOTÍCIAS E FATOS ({len(fatos)} · detalhe em noticias.md)")
+        for a in fatos[:6]:
+            d = a.get("dados") or {}
+            veic = d.get("veiculo") or ""
+            L += quebrar(f"· {a['ativo']} {d.get('manchete') or a['titulo']}" + (f" ({veic})" if veic else ""), indent="  ")
+        if len(fatos) > 6:
+            L.append(f"  (+{len(fatos) - 6})")
+        L.append("")
     L.append("CURVAS · taxa (Δ bps)")
     L += curvas_l or ["sem dado de curva"]
     L.append("")

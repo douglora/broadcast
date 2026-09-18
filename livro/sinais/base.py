@@ -112,6 +112,7 @@ class Contexto:
     curvas: dict = field(default_factory=dict)      # di, tesouro, ust (dicts crus)
     macro: dict = field(default_factory=dict)       # bcb, focus, proxies
     regime: dict = field(default_factory=dict)      # preenchido por T13
+    eventos: dict = field(default_factory=dict)     # noticias, cvm, sec, config (fontes_noticias.yaml)
     falhas: dict = field(default_factory=dict)      # perna -> motivo
     agora_iso: str = ""
 

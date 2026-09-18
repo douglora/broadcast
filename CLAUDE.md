@@ -60,6 +60,11 @@ Douglas ve no PC e no celular.
 - Turno sem novidade = uma linha. Lacuna declarada, nunca placeholder.
 - Regras e limiares: config/limiares.yaml. Calendario e feriados:
   config/calendario.yaml. Nunca "compre/venda" (Resolucao CVM 178).
+- Noticias e fatos: o runner traz manchete, veiculo, hora, resumo fiel e link
+  (config/fontes_noticias.yaml define a licenca por veiculo). Texto integral so
+  de fonte primaria (CVM, SEC, release) ou veiculo `integral`; a sessao nunca
+  reproduz nem inventa o conteudo de materia com licenca `resumo`/`manchete`.
+  "noticias", "fatos" e "integra <id>" estao na skill `livro`.
 - IUAA e o iShares US Aggregate Bond (duration ~6 anos), nao renda fixa
   ultracurta; IB01 e o caixa em dolar. EWY/MCHI sao hipotese.
 

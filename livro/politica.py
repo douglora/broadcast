@@ -18,6 +18,8 @@ def _sev_max(itens: list[dict]) -> str:
 
 def _grupo(a: dict) -> str:
     fam = a.get("familia")
+    if fam in ("noticia", "evento"):
+        return f"{fam}:{a.get('id')}"   # cada noticia/fato e uma mensagem propria
     if fam == "curva":
         return "curva"
     if fam == "cambio":
@@ -80,7 +82,7 @@ def aplicar(novos: list[dict], pendentes: list[dict], limiares: dict, slot: str,
     suprimidos: [{id, motivo}], pendentes_reapresentados: [ids]}."""
     teto = (limiares.get("geral") or {}).get("teto_diario") or {}
     push_cfg = (limiares.get("geral") or {}).get("push") or {}
-    ja = ja_emitidos_hoje or {"critico": 0, "atencao": 0}
+    ja = {"critico": 0, "atencao": 0, "noticia": 0, "evento": 0, **(ja_emitidos_hoje or {})}
     grupos: dict[str, list[dict]] = defaultdict(list)
     linhas_info, suprimidos = [], []
     reapresentados = []
@@ -98,9 +100,34 @@ def aplicar(novos: list[dict], pendentes: list[dict], limiares: dict, slot: str,
     contagem = dict(ja)
     ordenados = sorted(grupos.items(), key=lambda kv: ORDEM.get(_sev_max(kv[1]), 3))
     n_atencao_slot = 0
+    n_slot_fam = {"noticia": 0, "evento": 0}
     for grupo, itens in ordenados:
         sev = _sev_max(itens)
         reap = any(i.get("reapresentacao") for i in itens)  # ja saiu como mensagem: nao disputa o teto de novo
+        fam = itens[0].get("familia")
+        if fam in ("noticia", "evento") and sev != "critico":
+            # noticias e fatos tem orcamento proprio (nao disputam o teto de atencao tecnico)
+            tslot = teto.get(f"{fam}s_por_slot", 3)
+            tdia = teto.get(f"{fam}s_por_dia", 8)
+            if sev == "atencao" and not reap and (n_slot_fam[fam] >= tslot or contagem.get(fam, 0) >= tdia):
+                for i in itens:
+                    suprimidos.append({"id": i["id"], "motivo": f"teto de {fam}s"})
+                    linhas_info.append(i)
+                continue
+            if sev == "atencao" and not reap:
+                n_slot_fam[fam] += 1
+                contagem[fam] = contagem.get(fam, 0) + 1
+            if sev == "info":
+                for i in itens:
+                    linhas_info.append(i)
+                continue
+            texto = _texto_grupo(grupo, itens)
+            if reap:
+                texto = "(pendente de slot anterior) " + texto
+            push = _push(sev, itens, slot_rotulo) if push_cfg.get("atencao_agrupado", True) else None
+            mensagens.append({"severidade": sev, "grupo": grupo, "ids": [i["id"] for i in itens], "texto": texto, "push": push,
+                              "familia": fam})
+            continue
         if sev == "critico":
             if not reap and contagem.get("critico", 0) >= teto.get("critico", 2):
                 for i in itens:
@@ -126,11 +153,15 @@ def aplicar(novos: list[dict], pendentes: list[dict], limiares: dict, slot: str,
             push = _push(sev, itens, slot_rotulo)
         elif sev == "atencao" and push_cfg.get("atencao_agrupado", True):
             push = _push(sev, itens, slot_rotulo)
-        mensagens.append({"severidade": sev, "grupo": grupo, "ids": [i["id"] for i in itens], "texto": texto, "push": push})
+        mensagens.append({"severidade": sev, "grupo": grupo, "ids": [i["id"] for i in itens], "texto": texto, "push": push,
+                          "familia": fam})
     # push agrupado de atencao: um so por slot
     pushes_at = [m for m in mensagens if m["severidade"] == "atencao" and m["push"]]
     if len(pushes_at) > 1:
-        resumo = f"{slot_rotulo}: {len(pushes_at)} alertas de atenção — " + ", ".join(m["grupo"] + " " + ",".join(sorted({i.split('-')[1] for i in m['ids']})) for m in pushes_at)
+        def _rot(m: dict) -> str:
+            g = m["grupo"] if ":" not in m["grupo"] else m["ids"][0].split("-")[0]
+            return g + " " + ",".join(sorted({i.split("-")[1] for i in m["ids"]}))
+        resumo = f"{slot_rotulo}: {len(pushes_at)} alertas de atenção — " + ", ".join(_rot(m) for m in pushes_at)
         for m in pushes_at:
             m["push"] = None
         pushes_at[0]["push"] = resumo[:170] + " · detalhe na sessão"

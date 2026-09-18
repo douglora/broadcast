@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 
 from livro import coletar
 
-MODOS = ("intradia", "fechamento", "manha", "ack", "sonda", "backfill", "fimdesemana")
+MODOS = ("intradia", "fechamento", "manha", "ack", "sonda", "backfill", "fimdesemana", "eventos")
 
 
 def main(argv=None) -> int:

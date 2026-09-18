@@ -99,6 +99,24 @@ class Cliente:
             pass
         return Resposta(int(r.status_code), bytes(r.content), hdrs, str(getattr(r, "url", url)))
 
+    def post(self, url: str, data: str | bytes | None = None, headers: dict | None = None,
+             timeout: int | None = None) -> Resposta:
+        kw: dict = {"timeout": timeout or self.timeout}
+        if data is not None:
+            kw["data"] = data
+        if headers:
+            kw["headers"] = {**HEADERS, **headers} if self.tipo == "requests" else headers
+        try:
+            r = self._s.post(url, **kw)
+        except Exception as e:
+            raise HttpError(0, f"{type(e).__name__}: {e}", url)
+        hdrs = {}
+        try:
+            hdrs = {k.lower(): v for k, v in dict(r.headers).items()}
+        except Exception:
+            pass
+        return Resposta(int(r.status_code), bytes(r.content), hdrs, str(getattr(r, "url", url)))
+
     def get_ok(self, url: str, **kw) -> Resposta:
         """GET que exige 2xx; levanta HttpError caso contrario."""
         r = self.get(url, **kw)
