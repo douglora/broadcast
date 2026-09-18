@@ -1,10 +1,11 @@
 name: Coletar dados para a mesa de analise
 
-# Coleta dados de ativos da B3 (Yahoo, Fundamentus, CVM, Banco Central e o
-# modelo de TIR) e grava JSONs no branch `dados`. O Claude, em sessoes na
-# nuvem sem acesso as fontes, le esses JSONs por raw.githubusercontent.com.
-# Dispare a mao com a lista de tickers, ou deixe a agenda manter o retrato
-# geral e a lista padrao atualizados.
+# Coleta dados de ativos da B3 e BDRs (demonstracoes oficiais da CVM e da SEC,
+# release de resultados do RI, Yahoo, Fundamentus, Banco Central e o modelo de
+# TIR) e grava JSONs no branch `dados`. Com pares=auto, coleta tambem os pares
+# do grupo e grava o comparativo. O Claude, em sessoes na nuvem sem acesso as
+# fontes, le esses JSONs por raw.githubusercontent.com. Dispare a mao com a
+# lista de tickers, ou deixe a agenda manter o retrato geral e a lista padrao.
 on:
   workflow_dispatch:
     inputs:
@@ -15,6 +16,16 @@ on:
         type: string
       snapshot:
         description: "Tambem gravar o retrato geral do terminal (cotacoes, curvas, CVM, noticias, TIR)"
+        required: false
+        default: false
+        type: boolean
+      pares:
+        description: "auto = coleta tambem os pares do grupo (pares.py) e grava comparativos/<grupo>.json; lista de tickers = pares escolhidos; nao = so os tickers"
+        required: false
+        default: "auto"
+        type: string
+      sem_releases:
+        description: "Pular o download do release de resultados (CVM/SEC); coleta mais rapida"
         required: false
         default: false
         type: boolean
@@ -35,7 +46,7 @@ concurrency:
 jobs:
   coletar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
 
@@ -51,17 +62,22 @@ jobs:
           cache: pip
 
       - name: Instalar dependencias
-        run: pip install -r requirements.txt yfinance pandas lxml
+        run: pip install -r requirements.txt yfinance pandas lxml pypdf
 
       - name: Coletar
         env:
           TICKERS: ${{ inputs.tickers }}
           SNAPSHOT: ${{ inputs.snapshot }}
+          PARES: ${{ inputs.pares }}
+          SEM_RELEASES: ${{ inputs.sem_releases }}
           EVENTO: ${{ github.event_name }}
         run: |
           ARGS=""
           if [ "$EVENTO" = "schedule" ] || [ "$SNAPSHOT" = "true" ]; then ARGS="$ARGS --snapshot"; fi
-          python coletar_dados.py --tickers "$TICKERS" --saida dados_branch $ARGS
+          if [ "$SEM_RELEASES" = "true" ]; then ARGS="$ARGS --sem-releases"; fi
+          # Na agenda nao ha pares: so os tickers do modelo de TIR
+          if [ "$EVENTO" = "schedule" ]; then PARES="nao"; fi
+          python coletar_dados.py --tickers "$TICKERS" --pares "${PARES:-nao}" --saida dados_branch $ARGS
 
       - name: Publicar no branch dados
         env:
@@ -93,4 +109,6 @@ jobs:
               for k, v in fontes.items():
                   if not str(v).startswith("ok"):
                       print(f"  - `{k}`: {v}")
+          for g, c in (r.get("comparativos") or {}).items():
+              print(f"- Comparativo **{g}**: {', '.join(c['tickers'])} -> `{c['arquivo']}`")
           PY
