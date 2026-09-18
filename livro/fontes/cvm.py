@@ -80,15 +80,25 @@ def diagnostico(texto: str, desde: date, amostra: str = "PETROBRAS") -> dict:
     from collections import Counter
     leitor = csv.DictReader(io.StringIO(texto), delimiter=";")
     cats, n, na_janela, amostras = Counter(), 0, 0, []
+    max_entrega, max_ref, ultimos = "", "", []
     for row in leitor:
         n += 1
-        data = data_iso(_campo(row, "Data_Entrega") or _campo(row, "Data_Referencia"))
+        entrega = data_iso(_campo(row, "Data_Entrega"))
+        ref = data_iso(_campo(row, "Data_Referencia"))
+        data = entrega or ref
+        if entrega > max_entrega:
+            max_entrega = entrega
+        if ref > max_ref:
+            max_ref = ref
         if data >= desde.isoformat():
             na_janela += 1
             cats[_campo(row, "Categoria")] += 1
         if amostra in normalizar(_campo(row, "Nome_Companhia")) and len(amostras) < 3:
             amostras.append({k: _campo(row, k) for k in ("Nome_Companhia", "Codigo_CVM", "Categoria", "Data_Entrega", "Data_Referencia")})
-    return {"colunas": leitor.fieldnames, "linhas": n, "na_janela": na_janela,
+        ultimos.append((entrega, _campo(row, "Nome_Companhia")[:40], _campo(row, "Categoria")))
+    ultimos = sorted(ultimos, reverse=True)[:5]
+    return {"colunas": leitor.fieldnames, "linhas": n, "na_janela": na_janela, "max_data_entrega": max_entrega,
+            "max_data_referencia": max_ref, "ultimos_5": ultimos,
             "categorias_janela": dict(cats.most_common(12)), "amostra": amostras}
 
 

@@ -38,6 +38,13 @@ def test_parse_rss_e_atribuicao():
     assert noticias.materialidade("Why Does Coca-Cola (NYSE:KO) Challenge The Dividend Stocks Story?", "", f)[0] == "info"
     assert noticias.materialidade("Safra corta preço-alvo de Itaú, Bradesco e Banco do Brasil", "", f)[0] == "atencao"
     assert noticias.materialidade("Mercado está subestimando os dividendos da Petrobras? XP vê distorção", "", f)[0] == "info"
+    # exclusoes e banco previsor
+    ex, pv = _cfg()["excluir"], _cfg()["previsor_macro"]
+    assert noticias.atribuir("Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO", "", casar, ex, pv) == []
+    assert noticias.atribuir("Nvidia posts record revenue on data center demand", "", casar, ex, pv) == ["NVDA"]
+    assert noticias.atribuir("Prime Video's Off Campus TV Show Lands Amazon a Big Lawsuit", "", casar, ex, pv) == []
+    assert noticias.atribuir("Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave", "", casar, ex, pv) == ["DI"]
+    assert set(noticias.atribuir("Safra corta preço-alvo de Itaú, Bradesco e Banco do Brasil", "", casar, ex, pv)) == {"ITUB4", "BBDC4", "BBAS3"}
 
 
 def test_consolidar_junta_veiculos_e_licenca():
@@ -162,6 +169,7 @@ def test_cvm_data_iso_e_diagnostico():
     texto = open(os.path.join(RAW, "ipe_sample.csv"), encoding="utf-8").read()
     d = cvm.diagnostico(texto, date(2026, 9, 15))
     assert d["linhas"] == 6 and d["na_janela"] == 5 and d["categorias_janela"]["Fato Relevante"] == 2
+    assert d["max_data_entrega"] == "2026-09-18" and d["ultimos_5"][0][0] == "2026-09-18"
     assert d["amostra"] and d["amostra"][0]["Codigo_CVM"] == "9512"
 
 
