@@ -2,8 +2,8 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 USDBRL · Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 185.229 pontos em 18/09/2026
-· E05 PETR4 · Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções
+· E05 USDBRL · Dólar fecha quase estável em sessão sem gatilhos, a R$ 5,14, e sobe 0,4% na semana
+· E05 UST · The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.
 
 
 Alertas do dia (todos, com status):
@@ -643,3 +643,5 @@ Alertas do dia (todos, com status):
 · linha     E05 BTC — BTC · Current price of Bitcoin for September 18, 2026
 · linha     E05 USDBRL — USDBRL · Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 18
 · linha     E05 PETR4 — PETR4 · Mercado está subestimando os dividendos da Petrobras? XP vê distorção na
+· linha     E05 USDBRL — USDBRL · Dólar fecha quase estável em sessão sem gatilhos, a R$ 5,14, e sobe 0,4
+· linha     E05 UST — UST · The 10-year Treasury is having its worst run in over 100 years. Why invest
