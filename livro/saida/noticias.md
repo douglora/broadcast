@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 18/09 20h30
+NOTÍCIAS E FATOS · 18/09 20h37
 
-Pernas: noticias ok 2 novas (14 consultas; descartadas: 137 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas); falhas ['ipe_2026'] · sec indisponível (secret SEC_USER_AGENT ausente)
+Pernas: noticias ok 2 novas (14 consultas; descartadas: 141 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
 
 ## NOTÍCIAS COM MATERIALIDADE (65)
 
@@ -612,7 +612,7 @@ Fonte: Estadao 18/09 11h25
 id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (556)
+## OUTRAS NOTÍCIAS (só manchete) (558)
 
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
@@ -1170,3 +1170,5 @@ id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 · DI Copom: O que esperar da reunião que vai definir os novos rumos da taxa Selic (Estadao) https://www.estadao.com.br/em-alta/economia/copom-reuniao-novos-rumos-taxa-selic/
 · BTC CoinShares Says Bitcoin Won't Hit $80,000. Is It Correct? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/coinshares-says-bitcoin-wont-hit-133051317.html
 · BTC Current price of Bitcoin for September 18, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-18-2026/
+· USDBRL Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 185.229 pontos em 18/09/2026 (UOL Economia) https://www.uol.com.br/flash/?c=8e6829f4ea2b1b72cb7f5d6636c393b520260918
+· PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/

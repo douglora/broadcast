@@ -2,8 +2,8 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 BTC · CoinShares Says Bitcoin Won't Hit $80,000. Is It Correct?
-· E05 BTC · Current price of Bitcoin for September 18, 2026
+· E05 USDBRL · Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 185.229 pontos em 18/09/2026
+· E05 PETR4 · Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções
 
 
 Alertas do dia (todos, com status):
@@ -641,3 +641,5 @@ Alertas do dia (todos, com status):
 · linha     E05 DI — DI · Copom: O que esperar da reunião que vai definir os novos rumos da taxa Seli
 · linha     E05 BTC — BTC · CoinShares Says Bitcoin Won't Hit $80,000. Is It Correct?
 · linha     E05 BTC — BTC · Current price of Bitcoin for September 18, 2026
+· linha     E05 USDBRL — USDBRL · Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 18
+· linha     E05 PETR4 — PETR4 · Mercado está subestimando os dividendos da Petrobras? XP vê distorção na
