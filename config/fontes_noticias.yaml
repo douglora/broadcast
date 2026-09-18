@@ -142,6 +142,23 @@ casar:
   TESOURO: ['(?i)\bTesouro Direto\b', '(?i)\bNTN-?B\b', '(?i)\bIPCA\+\b', '(?i)\bleil[aã]o do Tesouro\b']
   UST: ['(?i)\bTreasur(y|ies)\b', '(?i)\b10-year\b', '(?i)\bFederal Reserve\b', '(?i)\bFOMC\b', '(?i)\bPowell\b']
 
+# Exclusoes: se a manchete casa um destes, o ativo NAO e atribuido mesmo com o nome presente.
+excluir:
+  NVDA: ['(?i)\bNvidia-?backed\b', '(?i)\bbacked by Nvidia\b']
+  AMZN: ['(?i)\bPrime Video\b', '(?i)\bAmazon Prime\b', '(?i)\bAmazon (Music|Fresh|Basics|Alexa)\b', '(?i)\bAmazon (river|rainforest)\b', '(?i)\bAmaz[oô]nia\b']
+  GOOGL: ['(?i)\bGoogle (Maps|Photos|Play|Pixel|Chrome|Doodle|Translate)\b']
+  KO: ['(?i)\bCoca-?Cola (FEMSA|HBC|Europacific|Andina)\b']
+  BABA: ['(?i)\bAlibaba (Cloud|Pictures|Health)\b']
+  VALE3: ['(?i)\bVale (do|dos|das|da) \w', '(?i)\bVale (Verde|Encantado)\b']
+  MELI34: ['(?i)\b(cupom|desconto|promo[cç][aã]o|Black Friday|ofertas?)\b']
+  BTC: ['(?i)\bBitcoin (ETF|Cash|Gold|Depot|Magazine)\b(?!.*(price|pre[cç]o|inflow|outflow))']
+  DI: ['(?i)\bCopom\b.*\bata\b.*\bassembleia\b']
+# Banco como previsor macro: "Bradesco revisa projecao da Selic" fala da Selic, nao da acao do banco.
+# Se a manchete casa o padrao e o ativo esta na lista, o ativo sai da atribuicao (os macro ficam).
+previsor_macro:
+  padrao: '(?i)\b(Ita[uú]|Bradesco|Banco do Brasil|BB|Santander|BTG|XP|Safra|Goldman|JPMorgan|J\.?P\.? ?Morgan|Morgan Stanley|Bank of America|BofA|Citi|UBS|HSBC|Barclays|Genial|Ita[uú] BBA)\b[^:]{0,40}?\b(revisa|projeta|v[eê]|prev[eê]|estima|eleva|reduz|corta|mant[eé]m|piora|melhora|espera|sees|expects|forecasts|projects|raises|cuts|lowers|now sees)\b.{0,60}\b(proje[cç][aã]o|proje[cç][oõ]es|Selic|PIB|IPCA|infla[cç][aã]o|c[aâ]mbio|d[oó]lar|juros|GDP|inflation|rates?|Fed|target|Copom|FOMC)\b'
+  ativos: [ITUB4, BBDC4, BBAS3, ITSA4, JPM, BAC]
+
 # Materialidade: com uma destas, a noticia vira ATENCAO (mensagem propria); sem, vira INFO (linha).
 materialidade_forte:
   - '(?i)\bfato relevante\b'

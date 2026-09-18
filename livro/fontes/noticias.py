@@ -157,14 +157,22 @@ def normalizar(texto: str) -> str:
     return _ESPACOS.sub(" ", re.sub(r"[^a-z0-9 ]+", " ", t)).strip()
 
 
-def atribuir(titulo: str, descricao: str, casar: dict) -> list[str]:
+def atribuir(titulo: str, descricao: str, casar: dict, excluir: dict | None = None,
+             previsor: dict | None = None) -> list[str]:
     """Ativos do livro citados na MANCHETE. So o titulo conta: a descricao do Google
     News repete a manchete e traz o nome do veiculo ("Portal Aqui Vale" nao e a
-    Vale). Regex do config, sensiveis a maiusculas salvo (?i)."""
+    Vale). `excluir` tira o ativo quando a manchete casa um padrao negativo
+    ("Nvidia-backed", "Prime Video"); `previsor` tira o banco quando ele e o
+    previsor macro da manchete ("Bradesco revisa projecao da Selic")."""
     achados = []
     for ativo, padroes in (casar or {}).items():
-        if any(_seguro(p, titulo) for p in padroes):
-            achados.append(ativo)
+        if not any(_seguro(p, titulo) for p in padroes):
+            continue
+        if any(_seguro(p, titulo) for p in (excluir or {}).get(ativo, [])):
+            continue
+        achados.append(ativo)
+    if previsor and previsor.get("padrao") and _seguro(previsor["padrao"], titulo):
+        achados = [a for a in achados if a not in set(previsor.get("ativos") or [])]
     return achados
 
 
@@ -366,7 +374,7 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
             if so_conhecidos and v.get("id") == "outro":
                 descartados["veiculo_desconhecido"] += 1
                 continue
-            ativos = atribuir(it["titulo"], it["descricao"], casar)
+            ativos = atribuir(it["titulo"], it["descricao"], casar, cfg.get("excluir"), cfg.get("previsor_macro"))
             if not ativos:
                 descartados["sem_ativo"] += 1
                 continue
