@@ -1,17 +1,22 @@
-NOTÍCIAS E FATOS · 18/09 20h47
+NOTÍCIAS E FATOS · 18/09 20h49
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 141 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 6 (6 cias casadas) · sec indisponível (secret SEC_USER_AGENT ausente)
+Pernas: noticias ok 1 novas (14 consultas; descartadas: 141 veículo fora da lista, 29 sem ativo, 0 teto) · cvm ok 0 novos de 6 (6 cias casadas); 1 PDF lido em nova tentativa · sec indisponível (secret SEC_USER_AGENT ausente)
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
-[ATENÇÃO] E03 · SBSP3 · Fato Relevante: 16/09/2026
-CVM IPE · entregue 16/09/2026 21:42 · 16/09/2026
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
+CVM IPE · entregue 16/09/2026 21:42 · 
+Do documento:
+  – Nos termos já informados ao  mercado, a Incorporação de Ações foi aprovada pelos acionistas da Sabesp em Assembleia  Geral Extraordinária realizada em 30 de julho de 2026.
+  – 137 e 252, § 2º, da Lei das S.A., a Incorporação de Ações enseja o  direito de retirada exclusivamente aos titulares de ações ordinárias ou preferenciais de  emissão da EMAE (“Direito de Retirada”).
+  – O prazo de 32 (trinta e dois) dias foi concedido aos acionistas tendo em vista que o  prazo legal, de 30 (trinta) dias se encerraria em um sábado.
+  – Nos termos do artigo 137, §4º, da Lei  das S.A., decairá do seu direito de retirada o Acionista Dissidente que não o exercer no prazo  acima fixado.
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917
 Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre 16/09/2026'
+Como falar: 'a Sabesp publicou fato relevante sobre COMPANHIA DE SANEAMENTO BÁSICO'
 Fonte: CVM IPE 2026-09-16
-id: E03-SBSP3-1568917-2026-09-16 · status: pendente
+id: E03-SBSP3-1568917-2026-09-16 · status: expirado · íntegra disponível
 
 [INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM IPE · entregue 18/09/2026 13:33 · Apresentações a analistas/agentes do mercado / 18/09/2026
@@ -669,7 +674,7 @@ Fonte: Estadao 18/09 11h25
 id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (560)
+## OUTRAS NOTÍCIAS (só manchete) (561)
 
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
@@ -1231,3 +1236,4 @@ id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 · PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
 · USDBRL Dólar fecha quase estável em sessão sem gatilhos, a R$ 5,14, e sobe 0,4% na semana (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-18092026/
 · UST The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway. (Yahoo Finance) https://finance.yahoo.com/markets/articles/10-treasury-having-worst-run-115000809.html
+· UST Dow Slides as Treasury Yields Near 5% After Fed Rate Hike (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:70bc6a0ae094b:0-dow-slides-as-treasury-yields-near-5-after-fed-rate-hike/

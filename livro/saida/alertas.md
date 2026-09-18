@@ -1,13 +1,21 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: 16/09/2026
-CVM IPE · entregue 16/09/2026 21:42 · 16/09/2026
+(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
+CVM IPE · entregue 16/09/2026 21:42 · 
+Do documento:
+  – Nos termos já informados ao  mercado, a Incorporação de Ações foi aprovada pelos acionistas da Sabesp em Assembleia  Geral Extraordinária realizada em 30 de julho de 2026.
+  – 137 e 252, § 2º, da Lei das S.A., a Incorporação de Ações enseja o  direito de retirada exclusivamente aos titulares de ações ordinárias ou preferenciais de  emissão da EMAE (“Direito de Retirada”).
+  – O prazo de 32 (trinta e dois) dias foi concedido aos acionistas tendo em vista que o  prazo legal, de 30 (trinta) dias se encerraria em um sábado.
+  – Nos termos do artigo 137, §4º, da Lei  das S.A., decairá do seu direito de retirada o Acionista Dissidente que não o exercer no prazo  acima fixado.
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917
 Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre 16/09/2026'
+Como falar: 'a Sabesp publicou fato relevante sobre COMPANHIA DE SANEAMENTO BÁSICO'
 Fonte: CVM IPE 2026-09-16
 ids: E03-SBSP3-1568917-2026-09-16
+
+Info (só linha no Fechamento):
+· E05 UST · Dow Slides as Treasury Yields Near 5% After Fed Rate Hike
 
 
 Alertas do dia (todos, com status):
@@ -86,7 +94,7 @@ Alertas do dia (todos, com status):
 · linha     E05 GOOGL — GOOGL · Google Keeps AdX as Court Orders Behavioral Remedies in Ad-Tech Antitrus
 · entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
 · entregue  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: 16/09/2026
+· expirado  E03 SBSP3 — SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
@@ -655,3 +663,4 @@ Alertas do dia (todos, com status):
 · linha     E03 PETR4 — PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevan
 · linha     E03 BBDC4 — BBDC4 · Aviso aos Acionistas: Outros avisos
 · linha     E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevan
+· linha     E05 UST — UST · Dow Slides as Treasury Yields Near 5% After Fed Rate Hike
