@@ -277,3 +277,6 @@ def test_cvm_retenta_pdf_de_documento_visto():
     # segundo run: pypdf nao le o PDF falso, mas o caminho de retentativa e exercitado (tentativas sobe)
     r2 = cvm.coletar(alvos, cli=Cli(True), hoje=date(2026, 9, 18), dias=2, vistos=r1["vistos"], com_ipe=False)
     assert r2["retentados"] == 1 and r2["vistos"]["CVM-PETR4-555"]["tentativas"] == 2
+    # vistos no formato antigo (so data) tambem entram na retentativa
+    r3 = cvm.coletar(alvos, cli=Cli(True), hoje=date(2026, 9, 18), dias=2, vistos={"CVM-PETR4-555": {"data": "2026-09-18"}}, com_ipe=False)
+    assert r3["retentados"] == 1

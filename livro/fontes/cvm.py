@@ -470,7 +470,7 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
     docs.sort(key=lambda d: (d.get("entregue_em") or "", d["id"]), reverse=True)
     novos = [d for d in docs if d["id"] not in vistos]
     # documentos ja vistos cujo PDF ainda nao foi lido: tenta de novo (ate 3 vezes) e devolve como 'atualizado'
-    retentar = [d for d in docs if d["id"] in vistos and vistos[d["id"]].get("texto") is False
+    retentar = [d for d in docs if d["id"] in vistos and vistos[d["id"]].get("texto") is not True
                 and vistos[d["id"]].get("tentativas", 0) < 3
                 and (d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao")]
     lidos = 0
