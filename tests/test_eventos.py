@@ -225,11 +225,11 @@ def test_rad_listar_repoe_parametro_que_falta():
 
 def test_parse_rad_dados_formato_string():
     dados = ("00951-2$&PETRÓLEO BRASILEIRO S.A. - PETROBRAS$&Fato Relevante$& - $&<spanOrder>20260918</spanOrder>18/09/2026$&"
-             "<spanOrder>202609181902</spanOrder>18/09/2026 19:02$&AC$&1$&AP$&frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1234567$&&&$"
-             "00090-6$&BCO BRADESCO S.A.$&Comunicado ao Mercado$&Esclarecimentos sobre consultas CVM/B3$& - $&17/09/2026$&17/09/2026 08:30$&AC$&1$&AP$&9876543$&&&$"
-             "02205-5$&MARISA LOJAS S.A.$&Assembleia$&AGO$&Edital$&18/09/2026$&18/09/2026 10:00$&AC$&1$&AP$&111$&&&$")
+             "<spanOrder>202609181902</spanOrder>18/09/2026 19:02$&Ativo$&1$&AP$&<i onclick=OpenPopUpVer('frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1234567')> </i>$&Documento Diversos$&&*"
+             "00090-6$&BCO BRADESCO S.A.$&Comunicado ao Mercado$&Esclarecimentos sobre consultas CVM/B3$&<spanOrder>x</spanOrder> - $&17/09/2026$&17/09/2026 08:30$&Ativo$&1$&AP$&9876543$&Documento Diversos$&&*"
+             "02205-5$&MARISA LOJAS S.A.$&Assembleia$&AGO$&Edital$&18/09/2026$&18/09/2026 10:00$&Ativo$&1$&AP$&111$&Documento Diversos")
     linhas, diag = cvm.parse_rad_dados(dados)
-    assert diag["separador"] == "$&&&$" and len(linhas) == 3
+    assert diag["separador"] == "$&&*" and len(linhas) == 3
     p = linhas[0]
     assert p["codigo"] == "9512" and p["categoria"] == "Fato Relevante" and p["data"] == "2026-09-18" and p["entregue_em"] == "18/09/2026 19:02"
     assert p["protocolo"] == "1234567" and p["data_referencia"] == "2026-09-18"
@@ -237,3 +237,12 @@ def test_parse_rad_dados_formato_string():
     assert b["codigo"] == "906" and b["tipo"].startswith("Esclarecimentos") and b["protocolo"] == "9876543"
     docs, casadas = cvm.docs_de_linhas(linhas, _cfg()["cvm"], date(2026, 9, 16), _cfg()["cvm_categorias"])
     assert {d["ativo"] for d in docs} == {"PETR4", "BBDC4"} and next(d for d in docs if d["ativo"] == "BBDC4")["severidade"] == "info"
+
+
+def test_assunto_de_texto_pula_cabecalho():
+    txt = ("PETRÓLEO BRASILEIRO S.A. – PETROBRAS\nCNPJ/ME 33.000.167/0001-01\nCOMPANHIA ABERTA\nFATO RELEVANTE\n"
+           "A Petrobras informa que seu Conselho de Administração aprovou a distribuição de R$ 8,7 bilhões em dividendos. "
+           "O pagamento ocorrerá em duas parcelas.")
+    a = cvm.assunto_de_texto(txt, "Fato Relevante", "PETRÓLEO BRASILEIRO S.A. - PETROBRAS")
+    assert a.startswith("A Petrobras informa que seu Conselho") and "CNPJ" not in a
+    assert cvm.assunto_de_texto(None) == ""
