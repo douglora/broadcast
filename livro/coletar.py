@@ -285,7 +285,7 @@ class Coleta:
         fontes = ["Yahoo Finance", "B3 Boletim Diário", "Tesouro Transparente", "Treasury.gov CMT", "BCB"]
         parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in self.u.por_bloco("eua"))
         a_txt = render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, render.agenda(self.calendario, self.hoje),
-                               lacunas, fontes, parcial=parcial)
+                               lacunas, fontes, parcial=parcial, slot=self.modo)
         legenda = render.legenda_ucits(self.u)
         notas = []
         prox = (self.macro.get("proxies") or {}).get("proxies") or {}
