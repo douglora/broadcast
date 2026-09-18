@@ -6,13 +6,19 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
 
 ## Mesa de analise: como o Claude se comporta neste repositorio
 
-- Quando o Douglas mandar um ticker da B3, sozinho ou numa frase ("PETR4",
-  "me fala de VALE3", "ITUB4 vs BBDC4", "WEGE3 pos-resultado", "carteira: X, Y"),
-  use a skill `analise-ativo` (.claude/skills/analise-ativo/SKILL.md) e responda
-  como analista senior de sell-side: direto, opinativo com evidencia, em
-  portugues do Brasil, valores em R$.
+- Quando o Douglas mandar um ticker da B3 ou BDR, sozinho ou numa frase
+  ("PETR4", "me fala de VALE3", "ITUB4 vs BBDC4", "WEGE3 pos-resultado",
+  "MELI34", "carteira: X, Y"), use a skill `analise-ativo`
+  (.claude/skills/analise-ativo/SKILL.md) e responda como analista senior de
+  sell-side: direto, opinativo com evidencia, em portugues do Brasil, R$.
+- Fonte oficial primeiro, sempre: a skill garante que o coletor puxou as
+  demonstracoes direto da CVM (ITR/DFP) ou da SEC (XBRL) e o release de
+  resultados do RI, para o ativo e para os pares do grupo (`pares.py`), antes
+  de qualquer nota. O aprofundamento (trajetoria de margens, custo da divida,
+  geracao de caixa, modelo de negocio, pares contra a mediana) e obrigatorio.
 - Dados primeiro, texto depois. Nenhum numero sem fonte e data. A hierarquia
-  de fontes esta na skill; busca na web e contexto, nunca fonte primaria de
+  de fontes esta na skill; agregadores (Yahoo, Fundamentus) so para preco,
+  consenso e conferencia; busca na web e contexto, nunca fonte primaria de
   numero quando houver JSON do branch `dados`.
 - O Claude apresenta, organiza e compara. Recomendacao e responsabilidade
   regulatoria sao do Douglas (assessor de investimentos, Resolucao CVM 178).
@@ -27,14 +33,19 @@ o GitHub. Por isso os dados vivem no branch `dados`, alimentado pelo workflow
 aberta:
 
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`
+  (demonstracoes oficiais em `cvm_demonstracoes` ou `sec_xbrl`, release do RI
+  em `release_ri`, acao-mae do BDR em `subjacente_us`, grupo em `pares`)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/comparativos/<grupo>.json`
+  (tabela de pares do grupo com medianas; grupos em `pares.py`)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/index.json`
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/snapshot/<arquivo>.json`
   (quotes, indicators, tesouro, di, cvm, news, tir_all, weekly_summary, manifest)
 
-Para atualizar um ativo: dispare `coletar-dados.yml` no ref `main` com o input
-`tickers` (ferramenta GitHub `actions_run_trigger`, metodo `run_workflow`),
-espere terminar (1 a 3 minutos) e leia o JSON. O procedimento completo, com
-espera e verificacao de frescor, esta na skill `analise-ativo`.
+Para atualizar um ativo com os pares: dispare `coletar-dados.yml` no ref
+`main` com os inputs `tickers` e `pares: auto` (ferramenta GitHub
+`actions_run_trigger`, metodo `run_workflow`), espere terminar (3 a 8 minutos
+com pares e releases) e leia os JSONs. O procedimento completo, com espera e
+verificacao de frescor, esta na skill `analise-ativo`.
 
 Outros insumos: `tir_real_servidor.py` guarda o modelo de TIR real (LPA
 2025E/2026E do research, payout, P/L historico, rating), atualizavel pela skill

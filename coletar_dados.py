@@ -11,14 +11,26 @@ nuvem sem acesso direto as fontes, le esses JSONs por raw.githubusercontent.com:
 
 Uso:
     python coletar_dados.py --tickers PETR4,VALE3 --saida dados_out
+    python coletar_dados.py --tickers MELI34 --pares auto --saida dados_out   # ticker + pares + comparativo
     python coletar_dados.py --snapshot --saida dados_out        # retrato geral do terminal
     python coletar_dados.py --saida dados_out                    # lista padrao (modelo de TIR)
 
-Fontes por ativo: Yahoo Finance via yfinance (cotacao, historico, demonstracoes,
-dividendos, consenso de analistas), Fundamentus (indicadores no padrao
-brasileiro), CVM dados abertos (fatos relevantes e comunicados), Banco Central
-(Selic, IPCA, dolar) e o modelo de TIR real deste repositorio. Cada fonte falha
-sozinha: o JSON registra o que respondeu e o que nao.
+Fontes por ativo, em ordem de autoridade:
+  1. Demonstracoes oficiais: CVM dados abertos (DFP anual e ITR trimestral,
+     consolidado) para companhias da B3; XBRL da SEC (10-K, 10-Q, 20-F) para
+     papeis dos EUA, ADRs e a acao-mae dos BDRs. Series trimestrais limpas,
+     com o 4T derivado do anual.
+  2. Release de resultados do RI: o mesmo PDF que a empresa publica no site
+     de RI, lido na copia oficial entregue a CVM (IPE, "Press-release") ou a
+     SEC (8-K item 2.02 / 6-K, exhibit 99). Texto integral no JSON, para os
+     KPIs que nao estao nas demonstracoes (GMV, NIMAL, same-store sales,
+     guidance, divida por moeda).
+  3. Yahoo Finance (cotacao, historico, consenso, noticias), Fundamentus
+     (indicadores no padrao brasileiro), CVM IPE (fatos relevantes), Banco
+     Central (Selic, IPCA, dolar) e o modelo de TIR real deste repositorio.
+Com --pares auto, coleta tambem os pares do grupo (pares.py) e grava
+comparativos/<grupo>.json com multiplos, margens e series oficiais lado a lado.
+Cada fonte falha sozinha: o JSON registra o que respondeu e o que nao.
 """
 
 import argparse
@@ -41,6 +53,7 @@ sys.path.insert(0, BASE_DIR)
 import requests  # noqa: E402
 
 import app  # noqa: E402  (reaproveita http_get, IPE_URL, sgs_fetch)
+import pares as PARES_MOD  # noqa: E402  (grupos de pares e acao-mae dos BDRs)
 import tir_real_servidor as TIR  # noqa: E402
 
 UA = app.UA
@@ -124,13 +137,18 @@ CAMPOS_INFO = [
 
 
 def eh_simbolo_us(tk):
-    """Ticker so com letras (ate 5) e um papel dos EUA, ex.: MELI, AAPL."""
-    return tk.isalpha() and 1 <= len(tk) <= 5
+    """Ticker so com letras (ate 5, classe opcional) e um papel dos EUA, ex.: MELI, AAPL, BRK-B."""
+    return re.fullmatch(r"[A-Z]{1,5}(-[A-Z])?", tk) is not None
 
 
 def eh_bdr(tk):
-    """BDR da B3: 4 letras + 32..39, ex.: MELI34, AAPL34, GOGL35."""
-    return re.fullmatch(r"[A-Z]{4}3[2-9]", tk) is not None
+    """BDR da B3: 4 caracteres + 31..39, ex.: MELI34, AAPL34, GOGL35, M1TA34, STOC31."""
+    return re.fullmatch(r"[A-Z][A-Z0-9]{3}3[1-9]", tk) is not None
+
+
+def simbolo_subjacente(tk):
+    """Acao-mae nos EUA de um BDR: excecoes em pares.BDR_SUBJACENTE, senao as 4 letras."""
+    return PARES_MOD.BDR_SUBJACENTE.get(tk, tk[:4])
 
 
 def coletar_yahoo(tk, fontes, simbolo=None):
@@ -305,7 +323,9 @@ def coletar_fundamentus(tk, fontes):
     pares = PAR_FUNDAMENTUS.findall(r.text)
     out = {}
     for rotulo, valor in pares:
-        rot = _limpar(rotulo).lstrip("?").strip()
+        # O rotulo as vezes vem colado ao bloco anterior da tabela ("Dia -2,53% ?P/L"):
+        # fica so a ultima linha, sem o "?" do tooltip.
+        rot = _limpar(rotulo).strip().split("\n")[-1].strip().lstrip("?").strip()
         if not rot or rot in out:
             continue
         out[rot] = _numero_br(valor)
@@ -384,7 +404,10 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
     docs.sort(key=lambda d: d["data"], reverse=True)
     fatos = [d for d in docs if d["categoria"] == "Fato Relevante"][:limite]
     outros = [d for d in docs if d["categoria"] != "Fato Relevante"][:limite]
-    fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros; casamento {metodo}; "
+    # Documentos de resultado: o release (mesmo PDF do site de RI) e a apresentacao
+    resultado = [d for d in docs if _eh_documento_resultado(d)][:12]
+    fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros, "
+                     f"{len(resultado)} de resultado; casamento {metodo}; "
                      f"empresa: {docs[0]['empresa']})") if docs else "sem documentos casados"
     codigos = {}
     for row in linhas:
@@ -392,9 +415,179 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
         if docs and empresa == docs[0]["empresa"]:
             codigos[empresa] = (row.get("Codigo_CVM") or "").strip()
             break
-    return {"fatos_relevantes": fatos, "outros_documentos": outros,
+    return {"fatos_relevantes": fatos, "outros_documentos": outros, "documentos_resultado": resultado,
             "empresas_casadas": sorted({d["empresa"] for d in docs}),
             "codigo_cvm": codigos.get(docs[0]["empresa"]) if docs else None}
+
+
+def _eh_documento_resultado(d):
+    """Press-release de resultados ou apresentacao a analistas, pelo IPE."""
+    cat, tipo, assunto = normalizar(d["categoria"]), normalizar(d["tipo"]), normalizar(d["assunto"])
+    if cat.startswith("DADOS ECONOMICO") and tipo.startswith("PRESS RELEASE"):
+        return True
+    if tipo.startswith("APRESENTACOES A ANALISTAS") and re.search(r"RESULTADO|EARNINGS|RESULTS|[1-4]T\d\d|[1-4]Q\d\d", assunto):
+        return True
+    return False
+
+
+# ───────────────────────── Release de resultados (RI via CVM e SEC) ─────────────────────────
+# O release que a empresa publica no site de RI e entregue, no mesmo dia, a
+# CVM (IPE, categoria "Dados Economico-Financeiros / Press-release") e, para
+# quem reporta a SEC, como exhibit 99 de um 8-K (item 2.02) ou 6-K. Lemos
+# essa copia oficial: mesmo PDF, sem depender do layout de cada site de RI.
+RELEASE_MAX_CHARS = 70000
+RELEASE_MAX_PAGINAS = 60
+
+
+def _texto_pdf(conteudo, max_paginas=RELEASE_MAX_PAGINAS):
+    """Texto de um PDF (pypdf), com marcadores de pagina. None se nao der."""
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None, "pypdf nao instalado"
+    try:
+        leitor = PdfReader(io.BytesIO(conteudo))
+        partes, n = [], len(leitor.pages)
+        for i, pagina in enumerate(leitor.pages[:max_paginas]):
+            try:
+                t = pagina.extract_text() or ""
+            except Exception:
+                t = ""
+            t = re.sub(r"[ \t\xa0]+", " ", t)
+            t = re.sub(r"\n{3,}", "\n\n", t).strip()
+            if t:
+                partes.append(f"[p. {i + 1}]\n{t}")
+        return "\n\n".join(partes), f"{n} paginas"
+    except Exception as e:
+        return None, f"pdf ilegivel: {type(e).__name__}"
+
+
+def _html_para_texto(html):
+    t = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html)
+    t = re.sub(r"(?i)<br\s*/?>|</p>|</div>|</tr>|</h\d>|</li>", "\n", t)
+    t = re.sub(r"(?i)</t[dh]>", " | ", t)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = htmlmod.unescape(t).replace("\xa0", " ")
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r" *\n *", "\n", t)
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+
+def _texto_de_download(r):
+    """Texto de uma resposta HTTP que pode ser PDF, zip com PDF, ou HTML."""
+    conteudo = r.content or b""
+    tipo = (r.headers.get("Content-Type") or "").lower()
+    if conteudo[:4] == b"%PDF":
+        return _texto_pdf(conteudo)
+    if conteudo[:2] == b"PK":
+        try:
+            import zipfile
+            with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+                pdfs = [n for n in z.namelist() if n.lower().endswith(".pdf")]
+                if pdfs:
+                    return _texto_pdf(z.read(pdfs[0]))
+        except Exception as e:
+            return None, f"zip ilegivel: {type(e).__name__}"
+        return None, "zip sem PDF"
+    if "html" in tipo or b"<html" in conteudo[:2000].lower():
+        return _html_para_texto(r.text), "html"
+    try:
+        return r.content.decode("utf-8"), "texto"
+    except Exception:
+        return None, f"formato desconhecido ({tipo[:40]})"
+
+
+def _montar_release(texto, detalhe, meta):
+    if not texto:
+        return None
+    texto = texto.strip()
+    cortado = len(texto) > RELEASE_MAX_CHARS
+    return {**meta, "detalhe": detalhe, "caracteres_total": len(texto), "cortado": cortado,
+            "texto": texto[:RELEASE_MAX_CHARS]}
+
+
+def coletar_release_cvm(documentos, fontes):
+    """Baixa o press-release de resultados mais recente entregue a CVM (portugues primeiro)."""
+    releases = [d for d in documentos if normalizar(d["tipo"]).startswith("PRESS RELEASE")]
+    if not releases:
+        fontes["release_ri"] = "sem press-release no IPE do ano"
+        return {}
+    data_max = releases[0]["data"]
+    do_dia = [d for d in releases if d["data"] == data_max]
+    do_dia.sort(key=lambda d: (0 if re.search(r"PORTUGU|PT\b", normalizar(d["assunto"])) else 1))
+    for d in do_dia[:2]:
+        r = app.http_get(d["link"], timeout=90)
+        if not r:
+            continue
+        texto, detalhe = _texto_de_download(r)
+        rel = _montar_release(texto, detalhe, {
+            "fonte": "CVM IPE (copia oficial do release publicado no RI)", "empresa": d["empresa"],
+            "assunto": d["assunto"], "data": d["data"], "link": d["link"]})
+        if rel:
+            fontes["release_ri"] = f"ok ({d['assunto'][:60]}; {d['data']}; {detalhe}; {rel['caracteres_total']} caracteres)"
+            return rel
+    fontes["release_ri"] = f"falha: nao consegui ler {do_dia[0]['assunto'][:60]} ({do_dia[0]['data']})"
+    return {}
+
+
+SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+SEC_INDEX_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/index.json"
+SEC_ARQUIVO_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{nome}"
+_PALAVRAS_RESULTADO = re.compile(r"(?i)(quarter|trimestre|fiscal year|full[- ]year|results|resultados|earnings)")
+
+
+def coletar_release_sec(cik, fontes, max_filings=8):
+    """Exhibit 99 do 8-K (item 2.02) ou 6-K mais recente com resultados trimestrais."""
+    if not cik:
+        fontes["release_ri"] = "sem CIK"
+        return {}
+    r = app.http_get(SEC_SUBMISSIONS_URL.format(cik=cik), timeout=60, headers=SEC_HEADERS)
+    if not r:
+        fontes["release_ri"] = "falha: submissions da SEC indisponivel"
+        return {}
+    try:
+        rec = r.json().get("filings", {}).get("recent", {})
+        filings = [dict(zip(rec.keys(), vals)) for vals in zip(*rec.values())]
+    except Exception:
+        fontes["release_ri"] = "falha: submissions ilegivel"
+        return {}
+    examinados = 0
+    for f in filings:
+        form = (f.get("form") or "").upper()
+        if form not in ("8-K", "6-K"):
+            continue
+        if form == "8-K" and "2.02" not in (f.get("items") or ""):
+            continue
+        examinados += 1
+        if examinados > max_filings:
+            break
+        acc = (f.get("accessionNumber") or "").replace("-", "")
+        idx = app.http_get(SEC_INDEX_URL.format(cik=cik, acc=acc), timeout=30, headers=SEC_HEADERS)
+        if not idx:
+            continue
+        try:
+            nomes = [it["name"] for it in idx.json()["directory"]["item"]]
+        except Exception:
+            continue
+        candidatos = [n for n in nomes if re.search(r"(?i)ex[-_]?99|99[-_.]?1", n) and n.lower().endswith((".htm", ".html", ".pdf"))]
+        if form == "6-K" and not candidatos:
+            candidatos = [n for n in nomes if n == f.get("primaryDocument")]
+        for nome in candidatos[:3]:
+            doc = app.http_get(SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome), timeout=60, headers=SEC_HEADERS)
+            if not doc:
+                continue
+            texto, detalhe = _texto_de_download(doc)
+            if not texto or len(texto) < 1500 or not _PALAVRAS_RESULTADO.search(texto[:6000]):
+                continue
+            rel = _montar_release(texto, detalhe, {
+                "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
+                "data": f.get("filingDate"), "periodo_reportado": f.get("reportDate"),
+                "link": SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)})
+            if rel:
+                fontes["release_ri"] = f"ok ({form} de {f.get('filingDate')}; {nome}; {rel['caracteres_total']} caracteres)"
+                return rel
+    fontes["release_ri"] = f"sem release de resultados nos ultimos {examinados} 8-K/6-K"
+    return {}
 
 
 # ───────────────────────── SEC XBRL (demonstracoes oficiais, EUA) ─────────────────────────
@@ -439,7 +632,16 @@ SEC_LINHAS = {
     "caixa_operacional": ["NetCashProvidedByUsedInOperatingActivities", "CashFlowsFromUsedInOperatingActivities"],
     "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"],
     "acoes_diluidas": ["WeightedAverageNumberOfDilutedSharesOutstanding", "DilutedWeightedAverageNumberOfShares"],
+    "resultado_financeiro_outros": ["NonoperatingIncomeExpense", "OtherNonoperatingIncomeExpense"],
+    "receita_juros": ["InterestAndDividendIncomeOperating", "InterestIncomeOperating", "InterestRevenueExpenseNet", "InterestIncome"],
+    "dividendos_pagos": ["PaymentsOfDividends", "PaymentsOfDividendsCommonStock", "DividendsPaidClassifiedAsFinancingActivities"],
+    "recompra_acoes": ["PaymentsForRepurchaseOfCommonStock", "PaymentsToAcquireOrRedeemEntitysShares"],
+    "passivo_total": ["Liabilities"],
+    "contas_a_receber": ["AccountsReceivableNetCurrent", "TradeAndOtherCurrentReceivables"],
+    "estoques": ["InventoryNet", "Inventories"],
 }
+# Linhas por acao ou de contagem: nao derivar o 4T por subtracao
+SEC_SEM_DERIVACAO = {"lpa_diluido", "acoes_diluidas"}
 _SEC_TICKERS = {}
 
 
@@ -470,7 +672,11 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
         fontes["sec_xbrl"] = "falha: JSON ilegivel"
         return {}
     taxonomias = [tx for tx in ("us-gaap", "ifrs-full") if tx in facts]
-    out = {"cik": cik, "taxonomias": taxonomias, "trimestral": {}, "anual": {}, "tags_usadas": {}}
+    out = {"cik": cik, "taxonomias": taxonomias, "trimestral": {}, "anual": {}, "tags_usadas": {},
+           "unidades": {}, "instantaneas": [], "derivados": {}, "ltm": {},
+           "nota": ("trimestral: frames CYyyyyQn do XBRL (3 meses; balanco = saldo no fim do trimestre). "
+                    "O 4T de fluxo e derivado: anual menos 1T+2T+3T (lista em derivados). "
+                    "ltm: soma dos ultimos 4 trimestres consecutivos.")}
     for nome, candidatos in SEC_LINHAS.items():
         for tag in candidatos:
             serie = None
@@ -481,25 +687,70 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
             if not serie:
                 continue
             unidades = serie.get("units", {})
-            valores = unidades.get("USD") or unidades.get("USD/shares") or unidades.get("shares") \
-                or unidades.get("BRL") or next(iter(unidades.values()), [])
-            tri, anu = {}, {}
+            unidade = next((u for u in ("USD", "USD/shares", "shares", "BRL") if u in unidades), None) \
+                or next(iter(unidades.keys()), None)
+            valores = unidades.get(unidade, []) if unidade else []
+            tri, anu, instantanea = {}, {}, False
             for v in valores:
                 frame = v.get("frame")
                 if not frame:
                     continue
-                if re.fullmatch(r"CY\d{4}Q[1-4]", frame):
+                m = re.fullmatch(r"CY(\d{4})(?:Q([1-4]))?(I?)", frame)
+                if not m:
+                    continue
+                ano, tri_n, inst = m.groups()
+                if inst:
+                    # Saldo instantaneo (balanco): CY2025Q2I = saldo em 30/06/2025
+                    instantanea = True
+                    if tri_n:
+                        tri[f"CY{ano}Q{tri_n}"] = v.get("val")
+                        if tri_n == "4":
+                            anu[f"CY{ano}"] = v.get("val")
+                    else:
+                        anu[f"CY{ano}"] = v.get("val")
+                elif tri_n:
                     tri[frame] = v.get("val")
-                elif re.fullmatch(r"CY\d{4}", frame):
+                else:
                     anu[frame] = v.get("val")
             if tri or anu:
+                # 4T derivado para linhas de fluxo (DRE e caixa), quando ha o anual e os tres trimestres
+                if not instantanea and nome not in SEC_SEM_DERIVACAO:
+                    for chave_ano, total in anu.items():
+                        ano = chave_ano[2:]
+                        q = [tri.get(f"CY{ano}Q{n}") for n in (1, 2, 3)]
+                        if f"CY{ano}Q4" not in tri and total is not None and all(x is not None for x in q):
+                            tri[f"CY{ano}Q4"] = total - sum(q)
+                            out["derivados"].setdefault(nome, []).append(f"CY{ano}Q4")
                 out["trimestral"][nome] = dict(sorted(tri.items())[-max_periodos:])
                 out["anual"][nome] = dict(sorted(anu.items())[-15:])
                 out["tags_usadas"][nome] = tag
+                out["unidades"][nome] = unidade
+                if instantanea:
+                    out["instantaneas"].append(nome)
+                elif nome not in SEC_SEM_DERIVACAO:
+                    ltm = _ltm(out["trimestral"][nome], lambda k: (int(k[2:6]), int(k[7])))
+                    if ltm:
+                        out["ltm"][nome] = ltm
                 break
     n = len(out["tags_usadas"])
-    fontes["sec_xbrl"] = f"ok ({n} linhas; CIK {cik})" if n else "vazio"
+    fontes["sec_xbrl"] = f"ok ({n} linhas; CIK {cik}; 4T derivado em {len(out['derivados'])} linhas)" if n else "vazio"
     return out
+
+
+def _ltm(serie, chave_ordem):
+    """Soma dos ultimos 4 trimestres consecutivos de {rotulo: valor}. None se houver buraco."""
+    itens = [(k, v) for k, v in serie.items() if v is not None]
+    if len(itens) < 4:
+        return None
+    itens.sort(key=lambda kv: chave_ordem(kv[0]))
+    ultimos = itens[-4:]
+    ordens = [chave_ordem(k) for k, _ in ultimos]
+    for a, b in zip(ordens, ordens[1:]):
+        esperado = (a[0] + 1, 1) if a[1] == 4 else (a[0], a[1] + 1)
+        if b != esperado:
+            return None
+    return {"ate": ultimos[-1][0], "valor": round(sum(v for _, v in ultimos), 6),
+            "trimestres": [k for k, _ in ultimos]}
 
 
 # ───────────────────────── CVM ITR/DFP (demonstracoes oficiais, B3) ─────────────────────────
@@ -542,7 +793,7 @@ def _csvs_do_zip(url):
     return arquivos
 
 
-def _demonstracoes_cvm(arquivos, cd_cvm, tipo):
+def _demonstracoes_cvm(arquivos, cd_cvm, tipo, descricoes=None):
     """Filtra as contas da empresa (ultima versao de cada periodo). tipo = 'dfp' ou 'itr'."""
     saida = {}
     alvo = str(int(cd_cvm))
@@ -553,12 +804,16 @@ def _demonstracoes_cvm(arquivos, cd_cvm, tipo):
                     continue
             except ValueError:
                 continue
-            if (row.get("ORDEM_EXERC") or "").upper() != "ÚLTIMO":
+            if normalizar(row.get("ORDEM_EXERC") or "") != "ULTIMO":
                 continue
             conta = (row.get("CD_CONTA") or "").strip()
             chave = CVM_CONTAS.get(conta)
             if not chave:
                 continue
+            if descricoes is not None and chave not in descricoes:
+                # Nome da conta no plano da empresa: em bancos, 3.01 e "Receitas da
+                # Intermediacao Financeira" e 3.05 nao e EBIT. O leitor precisa saber.
+                descricoes[chave] = f"{conta} {(row.get('DS_CONTA') or '').strip()}"[:90]
             fim = (row.get("DT_FIM_EXERC") or "")[:10]
             ini = (row.get("DT_INI_EXERC") or "")[:10]
             try:
@@ -580,23 +835,95 @@ def coletar_cvm_demonstracoes(cd_cvm, fontes):
         fontes["cvm_demonstracoes"] = "sem codigo CVM (IPE nao casou a empresa)"
         return {}
     ano = datetime.now(timezone.utc).year
-    out = {"cd_cvm": cd_cvm, "unidade": "R$ milhoes", "dfp_anual": {}, "itr_trimestral": {}}
+    out = {"cd_cvm": cd_cvm, "unidade": "R$ milhoes", "descricao_contas": {}, "dfp_anual": {}, "itr_trimestral": {},
+           "serie_trimestral": {}, "serie_anual": {}, "derivados": {}, "ltm": {},
+           "nota": ("dfp_anual e itr_trimestral: contas consolidadas como a CVM publica (periodo 'inicio..fim'; "
+                    "no ITR ha o trimestre de 3 meses e o acumulado no ano). serie_trimestral: cada trimestre "
+                    "com 3 meses (fluxo) ou saldo no fim do trimestre (balanco); o 4T e o anual da DFP menos o "
+                    "acumulado de 9 meses, e trimestres sem linha de 3 meses saem da diferenca dos acumulados "
+                    "(lista em derivados). ltm: soma dos ultimos 4 trimestres consecutivos.")}
     for a in (ano - 1, ano - 2, ano - 3):
         arq = _csvs_do_zip(CVM_DFP_URL.format(ano=a))
         if arq:
-            for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp").items():
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp", out["descricao_contas"]).items():
                 out["dfp_anual"].setdefault(k, {}).update(v)
     for a in (ano, ano - 1):
         arq = _csvs_do_zip(CVM_ITR_URL.format(ano=a))
         if arq:
-            for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr").items():
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr", out["descricao_contas"]).items():
                 out["itr_trimestral"].setdefault(k, {}).update(v)
     for bloco in ("dfp_anual", "itr_trimestral"):
         for k in out[bloco]:
             out[bloco][k] = dict(sorted(out[bloco][k].items()))
+    _series_cvm(out)
+    if re.search(r"INTERMEDIACAO", normalizar(out["descricao_contas"].get("receita_liquida", ""))):
+        out["plano_de_contas"] = "instituicao_financeira"
+    else:
+        out["plano_de_contas"] = "geral"
     n_a, n_t = len(out["dfp_anual"]), len(out["itr_trimestral"])
-    fontes["cvm_demonstracoes"] = f"ok (DFP: {n_a} contas, ITR: {n_t} contas)" if (n_a or n_t) else "vazio: zips da CVM sem a empresa"
+    fontes["cvm_demonstracoes"] = (f"ok (DFP: {n_a} contas, ITR: {n_t} contas; serie trimestral: "
+                                   f"{len(out['serie_trimestral'])} contas)") if (n_a or n_t) else "vazio: zips da CVM sem a empresa"
     return out
+
+
+_FIM_TRIMESTRE = {"03-31": 1, "06-30": 2, "09-30": 3, "12-31": 4}
+
+
+def _series_cvm(out):
+    """Monta serie_trimestral, serie_anual, derivados e ltm a partir de dfp_anual e itr_trimestral."""
+    fluxo, saldo = {}, {}   # fluxo[conta][ano] = {"3m": {fim: v}, "acum": {fim: v}}; saldo[conta][fim] = v
+    for bloco in ("itr_trimestral", "dfp_anual"):
+        for conta, itens in out[bloco].items():
+            for periodo, v in itens.items():
+                if ".." in periodo:
+                    ini, fim = periodo.split("..")
+                    try:
+                        dias = (datetime.strptime(fim, "%Y-%m-%d") - datetime.strptime(ini, "%Y-%m-%d")).days
+                    except ValueError:
+                        continue
+                    ano = fluxo.setdefault(conta, {}).setdefault(fim[:4], {"3m": {}, "acum": {}})
+                    if dias <= 100:
+                        ano["3m"][fim[5:]] = v
+                    if ini[5:] == "01-01":
+                        ano["acum"][fim[5:]] = v
+                else:
+                    saldo.setdefault(conta, {})[periodo] = v
+    for conta, anos in fluxo.items():
+        serie, derivados = {}, []
+        for ano, d in sorted(anos.items()):
+            anterior = None
+            for fim, n in sorted(_FIM_TRIMESTRE.items()):
+                rotulo = f"{ano}T{n}"
+                if fim in d["3m"]:
+                    serie[rotulo] = d["3m"][fim]
+                elif fim in d["acum"] and (n == 1 or anterior is not None):
+                    serie[rotulo] = round(d["acum"][fim] - (anterior or 0.0), 3)
+                    derivados.append(rotulo)
+                if fim in d["acum"]:
+                    anterior = d["acum"][fim]
+                elif rotulo in serie:
+                    anterior = (anterior or 0.0) + serie[rotulo]
+                else:
+                    anterior = None
+            if "12-31" in d["acum"]:
+                out["serie_anual"].setdefault(conta, {})[ano] = d["acum"]["12-31"]
+        if serie:
+            out["serie_trimestral"][conta] = serie
+            if derivados:
+                out["derivados"][conta] = derivados
+            ltm = _ltm(serie, lambda k: (int(k[:4]), int(k[5])))
+            if ltm:
+                out["ltm"][conta] = ltm
+    for conta, itens in saldo.items():
+        serie = {}
+        for fim, v in sorted(itens.items()):
+            n = _FIM_TRIMESTRE.get(fim[5:])
+            if n:
+                serie[f"{fim[:4]}T{n}"] = v
+                if n == 4:
+                    out["serie_anual"].setdefault(conta, {})[fim[:4]] = v
+        if serie:
+            out["serie_trimestral"][conta] = serie
 
 
 # ───────────────────────── Macro e TIR ─────────────────────────
@@ -623,10 +950,182 @@ def tir_modelo(tk, preco, ipca):
                         "analise": TIR.SAFRA_ANALISE.get(tk)}}
 
 
+# ───────────────────────── Comparativo de pares ─────────────────────────
+def _primeiro(*valores):
+    for v in valores:
+        if v is not None:
+            return v
+    return None
+
+
+def _fracao_dy(v):
+    """dividendYield do Yahoo vem em percentual (7,75) ou fracao (0,0775) conforme a versao."""
+    if v is None:
+        return None
+    return round(v / 100, 6) if v > 1 else round(v, 6)
+
+
+def _ultimos(serie, n):
+    """Ultimos n pares (rotulo, valor) de {rotulo: valor}, em ordem cronologica."""
+    itens = sorted((k, v) for k, v in (serie or {}).items() if v is not None)
+    return itens[-n:]
+
+
+def _oficial(dados):
+    """Resumo das demonstracoes oficiais (CVM ou SEC) para a tabela de pares."""
+    cvm = dados.get("cvm_demonstracoes") or {}
+    sec = _primeiro((dados.get("subjacente_us") or {}).get("sec_xbrl"), dados.get("sec_xbrl"),
+                    dados.get("sec_xbrl_adr")) or {}
+    if cvm.get("serie_trimestral"):
+        st, ltm = cvm["serie_trimestral"], cvm.get("ltm") or {}
+        rec, ebit, ll, pl, fin = ("receita_liquida", "ebit", "lucro_liquido_consolidado",
+                                  "patrimonio_liquido_consolidado", "resultado_financeiro")
+        out = {"fonte": "CVM ITR/DFP consolidado", "unidade": "R$ milhoes",
+               "plano_de_contas": cvm.get("plano_de_contas", "geral")}
+    elif sec.get("trimestral"):
+        st, ltm = sec["trimestral"], sec.get("ltm") or {}
+        rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", "despesa_juros"
+        out = {"fonte": "SEC XBRL (10-Q/10-K/20-F)", "unidade": "USD", "plano_de_contas": "geral",
+               "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
+    else:
+        return {}
+    geral = out["plano_de_contas"] == "geral"
+    for nome, conta in (("receita_ltm", rec), ("ebit_ltm", ebit), ("lucro_ltm", ll), ("resultado_financeiro_ltm", fin)):
+        if ltm.get(conta):
+            out[nome] = ltm[conta]["valor"]
+            out["ltm_ate"] = ltm[conta]["ate"]
+    receita, ebit_v, lucro = out.get("receita_ltm"), out.get("ebit_ltm"), out.get("lucro_ltm")
+    if receita and geral:
+        if ebit_v is not None:
+            out["margem_ebit_ltm"] = round(ebit_v / receita, 4)
+        if lucro is not None:
+            out["margem_liquida_ltm"] = round(lucro / receita, 4)
+    if ebit_v and out.get("resultado_financeiro_ltm") is not None and geral:
+        # Quanto do resultado operacional o custo do dinheiro consome (negativo = despesa)
+        out["resultado_financeiro_sobre_ebit"] = round(out["resultado_financeiro_ltm"] / ebit_v, 3)
+    saldos = _ultimos(st.get(pl), 5)
+    if saldos:
+        out["patrimonio_liquido"] = saldos[-1][1]
+        out["patrimonio_liquido_em"] = saldos[-1][0]
+        if lucro is not None and len(saldos) == 5 and saldos[0][1] and saldos[-1][1]:
+            media = (saldos[0][1] + saldos[-1][1]) / 2
+            if media > 0:
+                out["roe_ltm"] = round(lucro / media, 4)
+    rec_tri = _ultimos(st.get(rec), 12)
+    if len(rec_tri) >= 8:
+        atual = sum(v for _, v in rec_tri[-4:])
+        anterior = sum(v for _, v in rec_tri[-8:-4])
+        if anterior:
+            out["cresc_receita_ltm"] = round(atual / anterior - 1, 4)
+    ll_tri = _ultimos(st.get(ll), 12)
+    if len(ll_tri) >= 8:
+        atual = sum(v for _, v in ll_tri[-4:])
+        anterior = sum(v for _, v in ll_tri[-8:-4])
+        if anterior and anterior > 0 and atual is not None:
+            out["cresc_lucro_ltm"] = round(atual / anterior - 1, 4)
+    out["receita_trimestral"] = dict(rec_tri[-10:])
+    out["lucro_trimestral"] = dict(ll_tri[-10:])
+    if geral:
+        ebit_tri = dict(_ultimos(st.get(ebit), 12))
+        margens = {}
+        for k, v in rec_tri[-10:]:
+            if v and ebit_tri.get(k) is not None:
+                margens[k] = round(ebit_tri[k] / v, 4)
+        out["margem_ebit_trimestral"] = margens
+    return out
+
+
+def linha_comparativa(dados):
+    """Uma linha da tabela de pares a partir do JSON do ativo."""
+    y = dados.get("yahoo") or {}
+    sub = dados.get("subjacente_us") or {}
+    base = (sub.get("yahoo") or y) if sub else y   # BDR: multiplos da acao-mae (mesma empresa, mais liquidez)
+    info, calc = base.get("info") or {}, base.get("multiplos_calculados") or {}
+    fn = {normalizar(k): v for k, v in (dados.get("fundamentus") or {}).items() if isinstance(v, (int, float))}
+    ret = y.get("retornos") or {}
+    preco = _primeiro(info.get("currentPrice"), info.get("regularMarketPrice"), calc.get("preco_usado"))
+    alvo = info.get("targetMeanPrice")
+    linha = {
+        "ticker": dados["ticker"], "nome": (dados.get("identificacao") or {}).get("nome"),
+        "gerado_em": dados.get("gerado_em"), "moeda": info.get("currency"),
+        "simbolo_base": base.get("simbolo"),
+        "preco": preco, "valor_mercado": info.get("marketCap"), "ev": info.get("enterpriseValue"),
+        "pl_12m": _primeiro(info.get("trailingPE"), calc.get("pl_12m"), fn.get("P L")),
+        "pl_projetado": _primeiro(info.get("forwardPE"), calc.get("pl_projetado")),
+        "pvp": _primeiro(info.get("priceToBook"), calc.get("pvp"), fn.get("P VP")),
+        "ev_ebitda": _primeiro(info.get("enterpriseToEbitda"), calc.get("ev_ebitda"), fn.get("EV EBITDA")),
+        "dy_12m": _primeiro(calc.get("dy_12m"), _fracao_dy(info.get("dividendYield")), fn.get("DIV YIELD")),
+        "roe": _primeiro(info.get("returnOnEquity"), fn.get("ROE")),
+        "roic": fn.get("ROIC"),
+        "margem_bruta": _primeiro(info.get("grossMargins"), fn.get("MARG BRUTA")),
+        "margem_ebitda": info.get("ebitdaMargins"),
+        "margem_ebit": _primeiro(info.get("operatingMargins"), fn.get("MARG EBIT")),
+        "margem_liquida": _primeiro(info.get("profitMargins"), fn.get("MARG LIQUIDA")),
+        "cresc_receita_yoy": info.get("revenueGrowth"), "cresc_lucro_yoy": info.get("earningsGrowth"),
+        "cresc_receita_5a": fn.get("CRES REC 5A"),
+        "divida_liquida_ebitda": calc.get("divida_liquida_ebitda"),
+        "divida_liquida_pl": _primeiro(fn.get("DIV LIQ PATRIM"),
+                                       round(info["debtToEquity"] / 100, 4) if info.get("debtToEquity") is not None else None),
+        "beta": info.get("beta"),
+        "retorno_12m": ret.get("12m"), "retorno_ytd": ret.get("ytd"),
+        "consenso": {"recomendacao": info.get("recommendationKey"), "n_analistas": info.get("numberOfAnalystOpinions"),
+                     "alvo_medio": alvo, "upside": round(alvo / preco - 1, 4) if (alvo and preco) else None},
+        "tir_real": ((dados.get("tir_modelo") or {}).get("resultado") or {}).get("tir_real"),
+        "oficial": _oficial(dados),
+        "fontes_ok": sum(1 for v in (dados.get("fontes") or {}).values() if str(v).startswith("ok")),
+        "fontes_total": len(dados.get("fontes") or {}),
+    }
+    if sub:
+        linha["preco_bdr_brl"] = (y.get("info") or {}).get("currentPrice")
+        linha["paridade"] = (sub.get("paridade_implicita") or {}).get("bdrs_por_acao")
+    return linha
+
+
+_METRICAS_MEDIANA = ["pl_12m", "pl_projetado", "pvp", "ev_ebitda", "dy_12m", "roe", "roic", "margem_bruta",
+                     "margem_ebitda", "margem_ebit", "margem_liquida", "cresc_receita_yoy", "cresc_lucro_yoy",
+                     "divida_liquida_ebitda", "divida_liquida_pl", "beta", "retorno_12m", "retorno_ytd",
+                     "oficial.margem_ebit_ltm", "oficial.margem_liquida_ltm", "oficial.roe_ltm",
+                     "oficial.cresc_receita_ltm", "oficial.cresc_lucro_ltm", "oficial.resultado_financeiro_sobre_ebit"]
+
+
+def _mediana(valores):
+    v = sorted(x for x in valores if isinstance(x, (int, float)))
+    if not v:
+        return None
+    m = len(v) // 2
+    return round(v[m] if len(v) % 2 else (v[m - 1] + v[m]) / 2, 4)
+
+
+def montar_comparativo(grupo, nome, tipo, linhas, pedidos):
+    """Tabela de pares: linhas por ticker, mediana do grupo e posicao de cada um."""
+    medianas = {}
+    for metrica in _METRICAS_MEDIANA:
+        valores = []
+        for ln in linhas:
+            v = ln.get("oficial", {}).get(metrica[8:]) if metrica.startswith("oficial.") else ln.get(metrica)
+            valores.append(v)
+        med = _mediana(valores)
+        if med is not None:
+            medianas[metrica] = {"mediana": med, "n": sum(1 for x in valores if isinstance(x, (int, float)))}
+    return {
+        "grupo": grupo, "nome": nome, "tipo": tipo, "gerado_em": agora(),
+        "tickers_pedidos": pedidos, "tickers": [ln["ticker"] for ln in linhas],
+        "leitura": ("financeiro: compare P/L, P/VP, ROE, DY e lucro oficial; ignore EV/EBITDA e margens. "
+                    "operacional: EV/EBITDA, margens, alavancagem, crescimento e resultado financeiro sobre EBIT. "
+                    "Multiplos de BDR vem da acao-mae nos EUA (simbolo_base); valores oficiais na unidade indicada em oficial.unidade. "
+                    "gerado_em de cada linha mostra a idade do dado; linhas velhas vieram do branch e nao desta coleta."),
+        "linhas": linhas, "medianas": medianas,
+    }
+
+
 # ───────────────────────── Orquestracao ─────────────────────────
-def coletar_ativo(tk, macro):
+def coletar_ativo(tk, macro, releases=True):
     fontes = {}
     dados = {"ticker": tk, "gerado_em": agora(), "fontes": fontes}
+    grupo = PARES_MOD.grupo_de(tk)
+    dados["pares"] = ({"grupo": grupo, "nome": PARES_MOD.PARES[grupo]["nome"], "tipo": PARES_MOD.PARES[grupo]["tipo"],
+                       "tickers": PARES_MOD.PARES[grupo]["tickers"], "comparativo": f"comparativos/{grupo}.json"}
+                      if grupo else {"grupo": None, "tickers": [], "comparativo": None})
     try:
         dados["yahoo"] = coletar_yahoo(tk, fontes)
     except Exception as e:
@@ -650,27 +1149,43 @@ def coletar_ativo(tk, macro):
             fontes["cvm"] = f"falha geral: {type(e).__name__}: {e}"[:160]
             dados["cvm"] = {}
 
-    # Demonstracoes oficiais
+    # Demonstracoes oficiais e release de resultados (copia oficial do que o RI publica)
     if eh_simbolo_us(tk):
         try:
             dados["sec_xbrl"] = coletar_sec_xbrl(tk, fontes)
         except Exception as e:
             fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        if releases:
+            try:
+                dados["release_ri"] = coletar_release_sec(_cik_por_ticker(tk), fontes)
+            except Exception as e:
+                fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
     else:
         try:
             dados["cvm_demonstracoes"] = coletar_cvm_demonstracoes((dados.get("cvm") or {}).get("codigo_cvm"), fontes)
         except Exception as e:
             fontes["cvm_demonstracoes"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        if releases:
+            try:
+                dados["release_ri"] = coletar_release_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [], fontes)
+            except Exception as e:
+                fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         adr = ADR_DE_B3.get(tk)
         if adr:
             try:
                 dados["sec_xbrl_adr"] = {"adr": adr, **coletar_sec_xbrl(adr, fontes)}
             except Exception as e:
                 fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            if releases and not dados.get("release_ri"):
+                # Sem release na CVM: tenta o 6-K do ADR (mesmo documento, em ingles)
+                try:
+                    dados["release_ri"] = coletar_release_sec(_cik_por_ticker(adr), fontes)
+                except Exception as e:
+                    fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
 
-    # BDR: traz tambem a acao-mae nos EUA e a paridade implicita
+    # BDR: traz tambem a acao-mae nos EUA (demonstracoes, release e paridade implicita)
     if eh_bdr(tk):
-        base = tk[:4]
+        base = simbolo_subjacente(tk)
         fontes_sub = {}
         try:
             sub = coletar_yahoo(base, fontes_sub, simbolo=base)
@@ -680,6 +1195,11 @@ def coletar_ativo(tk, macro):
                 dados["subjacente_us"]["sec_xbrl"] = coletar_sec_xbrl(base, fontes_sub)
             except Exception as e:
                 fontes_sub["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            if releases:
+                try:
+                    dados["subjacente_us"]["release_ri"] = coletar_release_sec(_cik_por_ticker(base), fontes_sub)
+                except Exception as e:
+                    fontes_sub["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
             preco_bdr = info.get("currentPrice") or info.get("regularMarketPrice")
             preco_us = sub_info.get("currentPrice") or sub_info.get("regularMarketPrice")
             dolar = (macro.get("dolar_ptax") or {}).get("value")
@@ -733,14 +1253,44 @@ def main():
     ap.add_argument("--tickers", default="", help="separados por virgula ou espaco; vazio = modelo de TIR")
     ap.add_argument("--saida", default="dados_out")
     ap.add_argument("--snapshot", action="store_true", help="tambem grava o retrato geral do terminal")
+    ap.add_argument("--pares", default="nao",
+                    help="auto = coleta os pares do grupo (pares.py) e grava o comparativo; "
+                         "lista de tickers = pares explicitos; nao = so os tickers pedidos")
+    ap.add_argument("--sem-releases", action="store_true", help="nao baixa o release de resultados (mais rapido)")
     args = ap.parse_args()
 
-    tickers = [t.strip().upper().replace(".SA", "") for t in re.split(r"[,\s;]+", args.tickers) if t.strip()]
+    def lista(texto):
+        return [t.strip().upper().replace(".SA", "") for t in re.split(r"[,\s;]+", texto or "") if t.strip()]
+
+    tickers = lista(args.tickers)
     if not tickers and not args.snapshot:
         tickers = TIR.tickers_cobertos()
     os.makedirs(args.saida, exist_ok=True)
 
-    resumo = {"gerado_em": agora(), "tickers": {}, "snapshot": None}
+    # Pares: expande a lista e define os grupos dos comparativos
+    pedidos = list(tickers)
+    grupos = {}   # chave -> {"nome", "tipo", "tickers"}
+    modo_pares = (args.pares or "").strip().lower()
+    if modo_pares == "auto":
+        for tk in pedidos:
+            g = PARES_MOD.grupo_de(tk)
+            if g and g not in grupos:
+                grupos[g] = {"nome": PARES_MOD.PARES[g]["nome"], "tipo": PARES_MOD.PARES[g]["tipo"],
+                             "tickers": list(PARES_MOD.PARES[g]["tickers"])}
+    elif modo_pares not in ("", "nao", "no", "false", "0"):
+        extra = lista(args.pares)
+        if pedidos and extra:
+            chave = f"pares_de_{pedidos[0]}"
+            g0 = PARES_MOD.grupo_de(pedidos[0])
+            grupos[chave] = {"nome": f"Pares escolhidos para {pedidos[0]}",
+                             "tipo": PARES_MOD.PARES[g0]["tipo"] if g0 else "operacional",
+                             "tickers": pedidos[:1] + [t for t in extra if t != pedidos[0]]}
+    for g in grupos.values():
+        for tk in g["tickers"]:
+            if tk not in tickers:
+                tickers.append(tk)
+
+    resumo = {"gerado_em": agora(), "tickers": {}, "snapshot": None, "pares": modo_pares or "nao", "comparativos": {}}
     if args.snapshot:
         print("Retrato geral do terminal...")
         try:
@@ -755,13 +1305,38 @@ def main():
         macro = coletar_macro(fontes_macro)
         print("Macro:", fontes_macro)
 
+    coletados = {}
     for tk in tickers:
         print(f"Coletando {tk}...")
-        dados = coletar_ativo(tk, macro)
+        dados = coletar_ativo(tk, macro, releases=not args.sem_releases)
         gravar_json(os.path.join(args.saida, "ativos", f"{tk}.json"), dados)
+        coletados[tk] = dados
         resumo["tickers"][tk] = dados["fontes"]
         for k, v in dados["fontes"].items():
             print(f"  {k}: {v}")
+
+    # Comparativos por grupo: linhas desta coleta e, na falta, o JSON ja existente no branch
+    for chave, g in grupos.items():
+        linhas = []
+        for tk in g["tickers"]:
+            dados = coletados.get(tk)
+            if dados is None:
+                caminho = os.path.join(args.saida, "ativos", f"{tk}.json")
+                if os.path.exists(caminho):
+                    try:
+                        dados = json.load(open(caminho, encoding="utf-8"))
+                    except Exception:
+                        dados = None
+            if dados:
+                try:
+                    linhas.append(linha_comparativa(dados))
+                except Exception as e:
+                    print(f"  comparativo {chave}: {tk} sem linha ({type(e).__name__}: {e})")
+        comp = montar_comparativo(chave, g["nome"], g["tipo"], linhas, [t for t in pedidos if t in g["tickers"]])
+        arquivo = f"comparativos/{chave}.json"
+        gravar_json(os.path.join(args.saida, arquivo), comp)
+        resumo["comparativos"][chave] = {"arquivo": arquivo, "tickers": comp["tickers"], "medianas": len(comp["medianas"])}
+        print(f"Comparativo {chave}: {len(linhas)} linhas, {len(comp['medianas'])} medianas -> {arquivo}")
 
     # indice acumulado dos ativos ja coletados no branch
     idx_path = os.path.join(args.saida, "ativos", "index.json")

@@ -17,6 +17,7 @@ spreads de credito privado e ranking de TIR real.
 | `CLAUDE.md`                 | Regras da mesa de analise para o Claude neste repositorio     |
 | `.claude/skills/analise-ativo/` | Skill: briefing de ativo no padrao de analista senior     |
 | `coletar_dados.py`          | Coleta dados de ativos no GitHub Actions e grava no branch `dados` |
+| `pares.py`                  | Grupos de pares por setor e acao-mae dos BDRs (comparativos)  |
 | `livro/` + `config/livro.yaml` | Livro monitorado: coleta, regras de alerta e fechamento diario (Actions -> branch `dados` -> sessao do Claude) |
 | `.claude/skills/livro/`     | Skill: turnos de rotina do livro (manha, intradia, fechamento) na sessao |
 | `config/fontes_noticias.yaml` | Veiculos e licencas, consultas do Google News, casamento por ativo, CVM e SEC |
@@ -180,17 +181,32 @@ Comandos, fluxos para empresas da B3 e manutencao: **GUIA-PLUGINS-CLAUDE.md**.
 
 ## Mesa de analise (branch `dados`)
 
-Sessoes do Claude Code na nuvem nao alcancam Yahoo, CVM ou StatusInvest, mas
-alcancam o GitHub. O workflow `.github/workflows/coletar-dados.yml` roda o
+Sessoes do Claude Code na nuvem nao alcancam Yahoo, CVM, SEC ou StatusInvest,
+mas alcancam o GitHub. O workflow `.github/workflows/coletar-dados.yml` roda o
 `coletar_dados.py` no GitHub Actions, com internet aberta, e grava JSONs por
-ativo (cotacao, historico, demonstracoes, dividendos, consenso, Fundamentus,
-fatos relevantes da CVM, macro e TIR real) no branch `dados`. Roda a cada duas
-horas em dias uteis para a lista do modelo de TIR e pode ser disparado a mao,
-pela aba Actions ou pelo proprio Claude, com qualquer lista de tickers.
+ativo no branch `dados`. Por ativo, em ordem de autoridade:
 
-O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`.
-As regras da mesa estao em `CLAUDE.md`; o formato da nota, em
-`.claude/skills/analise-ativo/SKILL.md`. Basta mandar um ticker.
+1. Demonstracoes oficiais direto da fonte: ITR e DFP consolidados dos dados
+   abertos da CVM (companhias da B3) ou XBRL dos 10-Q, 10-K e 20-F na SEC
+   (papeis dos EUA, ADRs e a acao-mae dos BDRs), com series trimestrais
+   limpas, 4T derivado do anual e LTM.
+2. Release de resultados do RI: a copia oficial do PDF que a empresa publica
+   no site de RI, entregue a CVM (IPE, "Press-release") ou a SEC (8-K item
+   2.02 / 6-K, exhibit 99), com o texto integral no JSON.
+3. Yahoo (cotacao, historico, consenso, noticias), Fundamentus, fatos
+   relevantes da CVM, macro do Banco Central e TIR real do modelo da casa.
+
+Com o input `pares: auto`, o mesmo run coleta os pares do grupo definido em
+`pares.py` e grava `comparativos/<grupo>.json` (multiplos, margens,
+crescimento, alavancagem e series oficiais lado a lado, com medianas). Roda
+a cada duas horas em dias uteis para a lista do modelo de TIR (sem pares) e
+pode ser disparado a mao, pela aba Actions ou pelo proprio Claude.
+
+O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`
+e `.../dados/comparativos/<grupo>.json`. As regras da mesa estao em
+`CLAUDE.md`; o procedimento de coleta, o aprofundamento obrigatorio e o
+formato da nota, em `.claude/skills/analise-ativo/SKILL.md`. Basta mandar um
+ticker.
 
 ---
 
