@@ -361,17 +361,44 @@ def assunto_de_texto(texto: str | None, categoria: str = "", empresa: str = "") 
     if not texto:
         return ""
     nuc_emp = nucleo(empresa)
-    for bruto in re.split(r"(?<=[.!?:])\s+|\n+", texto):
-        l = re.sub(r"\s+", " ", bruto).strip(" -–•*")
-        if len(l) < 25:
+    # tira o cabecalho: linhas em caixa alta, CNPJ/NIRE, 'Companhia Aberta', titulo do documento
+    linhas_uteis = []
+    for l in texto.split("\n"):
+        s = l.strip()
+        if not s:
+            continue
+        n = normalizar(s)
+        cabecalho = (not re.search(r"[a-zà-ú]", s)) or re.search(r"CNPJ|NIRE|COMPANHIA ABERTA|CAPITAL ABERTO|C[OÓ]DIGO CVM", n) \
+            or n.startswith(("FATO RELEVANTE", "COMUNICADO AO MERCADO", "AVISO AOS ACIONISTAS"))
+        if cabecalho and (not linhas_uteis or len(s) < 60):
+            continue
+        linhas_uteis.append(s)
+    corpo = " ".join(linhas_uteis)
+    # abreviacoes juridicas nao encerram frase: art. 157, nº 6.404, S.A., Ltda., Cia.
+    corpo = re.sub(r"(?i)\b(arts?|n[º°o]|inc|par|res|sr|sra|dr|dra|ltda|cia|s\.a|s/a)\.\s+", lambda m: m.group(0).rstrip() + "\x01", corpo)
+    candidatas = []
+    for bruto in re.split(r"(?<=[.!?:])\s+", corpo):
+        l = re.sub(r"\s+", " ", bruto.replace("\x01", " ")).strip(" -–•*")
+        if len(l) < 25 or not re.search(r"[a-zà-ú]", l) or re.match(r"^\d", l):   # cabecalho ou fragmento numerico nao e assunto
             continue
         n = normalizar(l)
         if re.search(r"CNPJ|NIRE|COMPANHIA ABERTA|CAPITAL ABERTO|C[OÓ]DIGO CVM", n) or n.startswith(("FATO RELEVANTE", "COMUNICADO AO MERCADO", "AVISO AOS ACIONISTAS")):
             continue
         if nuc_emp and n.startswith(nuc_emp) and len(n) < len(nuc_emp) + 15:
             continue
-        return l[:160].rstrip(",;")
-    return ""
+        candidatas.append(l)
+        if len(candidatas) >= 6:
+            break
+    if not candidatas:
+        return ""
+    escolhida = next((c for c in candidatas if re.search(r"(?i)\b(informa|comunica|anuncia|aprov\w*|celebr\w*|conclu\w*|assin\w*|receb\w*|divulg\w*|esclarec\w*|decid\w*|autoriz\w*|vem informar|vêm informar)\b", c)), candidatas[0])
+    # corta o preambulo juridico: fica o que vem depois de 'informar que' / 'comunicar que' / 'que'
+    m = re.search(r"(?i)\b(?:informar|comunicar|informa|comunica|anuncia)\s+(?:aos? seus acionistas e ao mercado em geral\s+)?que\s+(.*)", escolhida)
+    preambulo = escolhida[: m.start()] if m else ""
+    juridico = re.search(r"(?i)em atendimento|nos termos|\bLei\b|\bart\.|Resolu[cç][aã]o|Instru[cç][aã]o", preambulo) is not None
+    if m and len(m.group(1)) >= 20 and (m.start() > 120 or juridico):
+        escolhida = m.group(1)[0].upper() + m.group(1)[1:]
+    return escolhida[:160].rstrip(",;")
 
 
 def texto_pdf(cli: Cliente, link: str, max_bytes: int = 6_000_000, max_chars: int = 8000,
