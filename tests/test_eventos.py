@@ -195,3 +195,29 @@ def test_parse_rad_html_e_docs():
     assert "PETR4" in casadas
     corpo = cvm.rad_corpo(date(2026, 9, 16), date(2026, 9, 18))
     assert '"dataDe": "16/09/2026"' in corpo and '"categoria": "TODAS"' in corpo
+
+
+def test_rad_listar_repoe_parametro_que_falta():
+    """Simula o WebMethod: 500 'missing value for parameter' ate receber tipoEmpresa e saoPaulo; depois devolve linhas."""
+    import json as _json
+    from livro.http import Resposta
+    html = ('<tr><td>009512</td><td>PETROBRAS</td><td>Fato Relevante</td><td>Fato Relevante</td><td>-</td><td>18/09/2026</td>'
+            '<td>18/09/2026 19:02</td><td>AC</td><td>1</td><td>AP</td><td><i onclick="x(\'a?NumeroProtocoloEntrega=77\')"></i></td></tr>')
+
+    class Cli:
+        def __init__(self):
+            self.corpos = []
+
+        def post(self, url, data=None, headers=None, timeout=None):
+            self.corpos.append(_json.loads(data))
+            if "saoPaulo" not in self.corpos[-1]:
+                return Resposta(500, b'{"Message":"Invalid web service call, missing value for parameter: \\u0027saoPaulo\\u0027."}', {}, url)
+            if self.corpos[-1]["categoria"] != "TODAS":
+                return Resposta(200, b'{"d":{"dados":"","totalRegistros":0}}', {}, url)
+            return Resposta(200, _json.dumps({"d": {"dados": html, "totalRegistros": 1}}).encode(), {}, url)
+
+    cli = Cli()
+    r = cvm.rad_listar(cli, date(2026, 9, 15), date(2026, 9, 18))
+    assert r["linhas"] and r["linhas"][0]["protocolo"] == "77"
+    assert r["diagnostico"]["extras"] == {"saoPaulo": "0"} and len(cli.corpos) == 2
+    assert cli.corpos[-1]["tipoEmpresa"] == "0" and cli.corpos[-1]["saoPaulo"] == "0"

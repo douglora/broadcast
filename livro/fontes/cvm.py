@@ -163,15 +163,20 @@ def _limpa(s: str) -> str:
     return re.sub(r"\s+", " ", _h.unescape(_TAGS.sub(" ", s or ""))).strip()
 
 
-def rad_corpo(de: date, ate: date, categoria: str = "TODAS") -> str:
+def rad_corpo(de: date, ate: date, categoria: str = "TODAS", periodo: str = "2", extras: dict | None = None) -> str:
     import json
-    return json.dumps({
+    corpo = {
         "dataDe": de.strftime("%d/%m/%Y"), "dataAte": ate.strftime("%d/%m/%Y"), "empresa": "",
         "setorAtividade": "-1", "categoriaEmissor": "-1", "situacaoEmissor": "-1", "tipoParticipante": "-1",
-        "dataReferencia": "", "categoria": categoria, "periodo": "2", "horaIni": "", "horaFim": "",
+        "dataReferencia": "", "categoria": categoria, "periodo": periodo, "horaIni": "", "horaFim": "",
         "palavraChave": "", "ultimaDtRef": "false", "tipoApresentacao": "-1", "especieDocumento": "-1",
-        "token": "", "versaoCaptcha": "",
-    })
+        "token": "", "versaoCaptcha": "", "tipoEmpresa": "0",
+    }
+    corpo.update(extras or {})
+    return json.dumps(corpo)
+
+
+_FALTA_PARAM = re.compile(r"missing value for parameter: \W*([A-Za-z_]+)")
 
 
 def parse_rad_html(html_rows: str) -> list[dict]:
@@ -193,37 +198,74 @@ def parse_rad_html(html_rows: str) -> list[dict]:
     return linhas
 
 
-def rad_listar(cli: Cliente, de: date, ate: date, categoria: str = "TODAS") -> dict:
-    """POST no WebMethod da consulta externa. Devolve linhas + diagnostico (status e
-    inicio da resposta) para ajustar o parser no primeiro run real."""
+def _rad_post(cli: Cliente, corpo: str) -> tuple[int, str]:
+    r = cli.post(RAD_URL, data=corpo,
+                 headers={"Content-Type": "application/json; charset=UTF-8", "X-Requested-With": "XMLHttpRequest",
+                          "Referer": RAD_PAGINA, "Accept": "application/json, text/javascript, */*; q=0.01"}, timeout=60)
+    return r.status, r.text
+
+
+def _rad_parse(texto: str) -> tuple[str, dict]:
+    """Devolve (html das linhas, meta). O WebMethod responde {"d": {"dados": "<tr>..", ...}}
+    ou {"d": "<tr>.."}; em erro, {"Message": "..."}."""
     import json
-    diag: dict = {"url": RAD_URL, "de": de.isoformat(), "ate": ate.isoformat()}
-    try:
-        r = cli.post(RAD_URL, data=rad_corpo(de, ate, categoria),
-                     headers={"Content-Type": "application/json; charset=UTF-8", "X-Requested-With": "XMLHttpRequest",
-                              "Referer": RAD_PAGINA, "Accept": "application/json, text/javascript, */*; q=0.01"}, timeout=60)
-    except HttpError as e:
-        diag["erro"] = str(e)[:120]
-        return {"linhas": [], "diagnostico": diag}
-    diag["status"] = r.status
-    texto = r.text
-    diag["inicio"] = texto[:600]
-    html_rows = ""
+    meta: dict = {}
     try:
         payload = json.loads(texto)
-        d = payload.get("d", payload)
-        if isinstance(d, dict):
-            html_rows = d.get("dados") or d.get("Dados") or ""
-            diag["total_registros"] = d.get("totalRegistros") or d.get("TotalRegistros")
-        elif isinstance(d, str):
-            html_rows = d
     except ValueError:
-        html_rows = texto if "<tr" in texto else ""
-    linhas = parse_rad_html(html_rows)
-    diag["linhas"] = len(linhas)
+        return (texto if "<tr" in texto else ""), meta
+    if isinstance(payload, dict) and "Message" in payload and "d" not in payload:
+        meta["mensagem"] = str(payload.get("Message"))[:200]
+        return "", meta
+    d = payload.get("d", payload) if isinstance(payload, dict) else payload
+    if isinstance(d, dict):
+        meta["total_registros"] = d.get("totalRegistros") or d.get("TotalRegistros")
+        return (d.get("dados") or d.get("Dados") or ""), meta
+    if isinstance(d, str):
+        return d, meta
+    return "", meta
+
+
+def rad_listar(cli: Cliente, de: date, ate: date, max_tentativas: int = 14) -> dict:
+    """POST no WebMethod da consulta externa. O servico exige o conjunto exato de
+    parametros: quando a resposta acusa 'missing value for parameter X', o
+    parametro entra com '0' e a chamada repete; combinacoes de categoria/periodo/
+    tipoEmpresa sao tentadas ate vir linha. Tudo fica em `diagnostico.tentativas`."""
     from collections import Counter
-    diag["categorias"] = dict(Counter(l["categoria"] for l in linhas).most_common(10))
-    return {"linhas": linhas, "diagnostico": diag}
+    diag: dict = {"url": RAD_URL, "de": de.isoformat(), "ate": ate.isoformat(), "tentativas": []}
+    extras: dict = {}
+    combos = [("TODAS", "2", "0"), ("TODAS", "1", "0"), ("TODAS", "2", "1"), ("IPE_-1_-1_-1", "2", "0"),
+              ("IPE_-1_-1_-1", "1", "0"), ("TODAS", "2", "-1"), ("IPE_4_-1_-1", "2", "0")]
+    linhas: list[dict] = []
+    n = 0
+    for categoria, periodo, tipo_emp in combos:
+        repetir = True
+        while repetir and n < max_tentativas:
+            repetir = False
+            n += 1
+            corpo = rad_corpo(de, ate, categoria, periodo, {**extras, "tipoEmpresa": tipo_emp})
+            try:
+                status, texto = _rad_post(cli, corpo)
+            except HttpError as e:
+                diag["tentativas"].append({"categoria": categoria, "periodo": periodo, "tipoEmpresa": tipo_emp, "erro": str(e)[:120]})
+                continue
+            html_rows, meta = _rad_parse(texto)
+            linhas = parse_rad_html(html_rows)
+            t = {"categoria": categoria, "periodo": periodo, "tipoEmpresa": tipo_emp, "status": status,
+                 "linhas": len(linhas), **meta, "inicio": texto[:220]}
+            diag["tentativas"].append(t)
+            falta = _FALTA_PARAM.search(meta.get("mensagem") or texto.replace("\\u0027", "'")) if (status != 200 or "Message" in texto[:60]) else None
+            if falta and falta.group(1) not in extras:
+                extras[falta.group(1)] = "0"
+                repetir = True
+                continue
+            if status == 200 and linhas:
+                diag.update({"status": status, "linhas": len(linhas), "categoria": categoria, "periodo": periodo,
+                             "tipoEmpresa": tipo_emp, "extras": extras,
+                             "categorias": dict(Counter(l["categoria"] for l in linhas).most_common(10))})
+                return {"linhas": linhas, "diagnostico": diag}
+    diag.update({"status": "sem linhas", "linhas": 0, "extras": extras})
+    return {"linhas": [], "diagnostico": diag}
 
 
 def docs_de_linhas(linhas: list[dict], alvos: dict, desde: date, categorias: dict | None = None) -> tuple[list[dict], dict]:
@@ -282,7 +324,7 @@ def texto_de_pdf_bytes(dados: bytes, max_chars: int = 8000) -> str | None:
 
 
 def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, dias: int = 3,
-            categorias: dict | None = None, vistos: dict | None = None, max_pdf: int = 8) -> dict:
+            categorias: dict | None = None, vistos: dict | None = None, max_pdf: int = 8, com_ipe: bool = True) -> dict:
     """Documentos novos (id nao visto) das companhias do livro nos ultimos `dias`,
     com o texto do PDF para fato relevante e comunicado forte."""
     cli = cli or Cliente(impersonate=False)
@@ -302,7 +344,7 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
     except Exception as e:
         diag["rad"] = {"erro": f"{type(e).__name__}: {str(e)[:100]}"}
     # 2) base aberta (IPE, atraso de dias): completa o que o RAD nao trouxe
-    for ano in sorted(anos):
+    for ano in (sorted(anos) if com_ipe else []):
         texto = baixar_ipe(cli, ano)
         if not texto:
             falhas[f"ipe_{ano}"] = "IPE indisponivel"
