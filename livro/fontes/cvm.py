@@ -226,6 +226,62 @@ def _rad_parse(texto: str) -> tuple[str, dict]:
     return "", meta
 
 
+_DATA_HORA = re.compile(r"^(\d{2}/\d{2}/\d{4})(?:\s+(\d{2}:\d{2}))?$")
+_SEPARADORES = ["$&&&$", "$&&$", "\r\n", "\n", "$$$", "$$"]
+CATEGORIAS_RAD = {"Fato Relevante", "Comunicado ao Mercado", "Aviso aos Acionistas", "Assembleia", "Valores Mobiliários Negociados e Detidos",
+                  "Reunião da Administração", "Calendário de Eventos Corporativos", "Política de Negociação", "Dados Econômico-Financeiros",
+                  "Documentos de Oferta de Distribuição Pública", "Comunicado sobre Transações entre Partes Relacionadas", "Outros Comunicados",
+                  "Apresentações a analistas/agentes do mercado", "Estatuto Social", "Escrituras e aditamentos de debêntures", "Informe do Código de Governança"}
+
+
+def parse_rad_dados(dados: str) -> tuple[list[dict], dict]:
+    """O WebMethod devolve `dados` como string com campos separados por '$&'
+    (codigo CVM com DV, empresa, categoria, tipo, especie, datas, ...). O separador
+    de registro e detectado entre os candidatos; a ordem dos campos e inferida:
+    categoria = campo com nome de categoria conhecido, datas = campos dd/mm/aaaa
+    (a segunda, com hora, e a entrega), protocolo = NumeroProtocoloEntrega= ou o
+    ultimo campo so de digitos."""
+    diag: dict = {"tamanho": len(dados or "")}
+    if not dados:
+        return [], diag
+    contagens = {s: dados.count(s) for s in _SEPARADORES}
+    sep = max(contagens, key=contagens.get) if max(contagens.values()) > 0 else None
+    diag["separador"] = sep
+    diag["contagens"] = {k: v for k, v in contagens.items() if v}
+    registros = dados.split(sep) if sep else [dados]
+    linhas = []
+    for reg in registros:
+        if "$&" not in reg:
+            continue
+        campos = [_limpa(re.sub(r"(?is)<spanorder>.*?</spanorder>", "", c)) for c in reg.split("$&")]
+        if len(campos) < 5:
+            continue
+        cat = next((c for c in campos if c in CATEGORIAS_RAD), None)
+        if cat is None:
+            cat = next((c for c in campos[2:5] if c and c != "-"), campos[2] if len(campos) > 2 else "")
+        i_cat = campos.index(cat) if cat in campos else 2
+        datas = [(i, m) for i, c in enumerate(campos) if (m := _DATA_HORA.match(c))]
+        entrega = next(((i, m) for i, m in datas if m.group(2)), datas[-1] if datas else None)
+        ref = next(((i, m) for i, m in datas if entrega is None or i != entrega[0]), None)
+        m = re.search(r"NumeroProtocoloEntrega=(\d+)", reg)
+        prot = m.group(1) if m else next((c for c in reversed(campos) if c.isdigit() and len(c) >= 5), "")
+        i_fim = entrega[0] if entrega else (ref[0] if ref else len(campos))
+        meio = [c for c in campos[i_cat + 1:i_fim] if c and c != "-" and "<" not in c]
+        codigo = re.sub(r"\D", "", campos[0]).lstrip("0")
+        linhas.append({
+            "codigo": codigo, "empresa": campos[1], "categoria": cat, "tipo": meio[0] if meio else "",
+            "especie": meio[1] if len(meio) > 1 else "",
+            "data_referencia": data_iso(ref[1].group(1)) if ref else "",
+            "entregue_em": (entrega[1].group(0) if entrega else ""), "data": data_iso(entrega[1].group(1)) if entrega else "",
+            "protocolo": prot,
+            "link": f"https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega={prot}" if prot else "",
+        })
+    diag["registros"] = len(registros)
+    diag["primeiros"] = [[c[:60] for c in r.split("$&")][:14] for r in registros[:2]]
+    diag["amostra"] = dados[:1500]
+    return linhas, diag
+
+
 def rad_listar(cli: Cliente, de: date, ate: date, max_tentativas: int = 14) -> dict:
     """POST no WebMethod da consulta externa. O servico exige o conjunto exato de
     parametros: quando a resposta acusa 'missing value for parameter X', o
@@ -234,8 +290,7 @@ def rad_listar(cli: Cliente, de: date, ate: date, max_tentativas: int = 14) -> d
     from collections import Counter
     diag: dict = {"url": RAD_URL, "de": de.isoformat(), "ate": ate.isoformat(), "tentativas": []}
     extras: dict = {}
-    combos = [("TODAS", "2", "0"), ("TODAS", "1", "0"), ("TODAS", "2", "1"), ("IPE_-1_-1_-1", "2", "0"),
-              ("IPE_-1_-1_-1", "1", "0"), ("TODAS", "2", "-1"), ("IPE_4_-1_-1", "2", "0")]
+    combos = [("TODAS", "2", "0"), ("IPE_-1_-1_-1", "2", "0"), ("TODAS", "1", "0")]
     linhas: list[dict] = []
     n = 0
     for categoria, periodo, tipo_emp in combos:
@@ -250,7 +305,11 @@ def rad_listar(cli: Cliente, de: date, ate: date, max_tentativas: int = 14) -> d
                 diag["tentativas"].append({"categoria": categoria, "periodo": periodo, "tipoEmpresa": tipo_emp, "erro": str(e)[:120]})
                 continue
             html_rows, meta = _rad_parse(texto)
-            linhas = parse_rad_html(html_rows)
+            if "<tr" in (html_rows or ""):
+                linhas = parse_rad_html(html_rows)
+            else:
+                linhas, dd = parse_rad_dados(html_rows or "")
+                meta = {**meta, "dados": dd}
             t = {"categoria": categoria, "periodo": periodo, "tipoEmpresa": tipo_emp, "status": status,
                  "linhas": len(linhas), **meta, "inicio": texto[:220]}
             diag["tentativas"].append(t)
