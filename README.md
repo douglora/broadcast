@@ -14,6 +14,9 @@ spreads de credito privado e ranking de TIR real.
 | `INSTALAR-PLUGINS-CLAUDE.bat/.command` | Instala os plugins financeiros do Claude no computador |
 | `GUIA-PLUGINS-CLAUDE.md`    | Como ativar e usar os plugins de analise e research           |
 | `.claude/`                  | Plugins do Claude Code deste repositorio e hook que os instala |
+| `CLAUDE.md`                 | Regras da mesa de analise para o Claude neste repositorio     |
+| `.claude/skills/analise-ativo/` | Skill: briefing de ativo no padrao de analista senior     |
+| `coletar_dados.py`          | Coleta dados de ativos no GitHub Actions e grava no branch `dados` |
 
 ---
 
@@ -169,6 +172,22 @@ vezes em `INSTALAR-PLUGINS-CLAUDE.command` (macOS) ou
 `INSTALAR-PLUGINS-CLAUDE.bat` (Windows).
 
 Comandos, fluxos para empresas da B3 e manutencao: **GUIA-PLUGINS-CLAUDE.md**.
+
+---
+
+## Mesa de analise (branch `dados`)
+
+Sessoes do Claude Code na nuvem nao alcancam Yahoo, CVM ou StatusInvest, mas
+alcancam o GitHub. O workflow `.github/workflows/coletar-dados.yml` roda o
+`coletar_dados.py` no GitHub Actions, com internet aberta, e grava JSONs por
+ativo (cotacao, historico, demonstracoes, dividendos, consenso, Fundamentus,
+fatos relevantes da CVM, macro e TIR real) no branch `dados`. Roda a cada duas
+horas em dias uteis para a lista do modelo de TIR e pode ser disparado a mao,
+pela aba Actions ou pelo proprio Claude, com qualquer lista de tickers.
+
+O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`.
+As regras da mesa estao em `CLAUDE.md`; o formato da nota, em
+`.claude/skills/analise-ativo/SKILL.md`. Basta mandar um ticker.
 
 ---
 

@@ -1,0 +1,96 @@
+name: Coletar dados para a mesa de analise
+
+# Coleta dados de ativos da B3 (Yahoo, Fundamentus, CVM, Banco Central e o
+# modelo de TIR) e grava JSONs no branch `dados`. O Claude, em sessoes na
+# nuvem sem acesso as fontes, le esses JSONs por raw.githubusercontent.com.
+# Dispare a mao com a lista de tickers, ou deixe a agenda manter o retrato
+# geral e a lista padrao atualizados.
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "Tickers da B3, separados por virgula ou espaco (ex.: PETR4, VALE3). Vazio = lista do modelo de TIR."
+        required: false
+        default: ""
+        type: string
+      snapshot:
+        description: "Tambem gravar o retrato geral do terminal (cotacoes, curvas, CVM, noticias, TIR)"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # A cada 2 horas em dias uteis, 10h-22h UTC (07h-19h em Brasilia)
+    - cron: "35 10-22/2 * * 1-5"
+    # Uma vez no fim de semana
+    - cron: "35 14 * * 0,6"
+
+permissions:
+  contents: write
+
+# Uma coleta por vez para nao disputar o push no branch dados
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Abrir o branch de dados
+        uses: actions/checkout@v4
+        with:
+          ref: dados
+          path: dados_branch
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt yfinance pandas lxml
+
+      - name: Coletar
+        env:
+          TICKERS: ${{ inputs.tickers }}
+          SNAPSHOT: ${{ inputs.snapshot }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          ARGS=""
+          if [ "$EVENTO" = "schedule" ] || [ "$SNAPSHOT" = "true" ]; then ARGS="$ARGS --snapshot"; fi
+          python coletar_dados.py --tickers "$TICKERS" --saida dados_branch $ARGS
+
+      - name: Publicar no branch dados
+        env:
+          TICKERS: ${{ inputs.tickers }}
+        run: |
+          cd dados_branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
+          git commit -q -m "Dados: ${TICKERS:-lista padrao} ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase -q && sleep 5
+          done
+
+      - name: Resumo
+        run: |
+          echo "### Coleta" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          r = json.load(open("dados_branch/ultima_coleta.json"))
+          print(f"- Gerado em: `{r['gerado_em']}`")
+          if r.get("snapshot") is not None:
+              print(f"- Retrato geral: `{r['snapshot']}`")
+          for tk, fontes in r["tickers"].items():
+              ok = sum(1 for v in fontes.values() if str(v).startswith("ok"))
+              print(f"- **{tk}**: {ok}/{len(fontes)} fontes ok")
+              for k, v in fontes.items():
+                  if not str(v).startswith("ok"):
+                      print(f"  - `{k}`: {v}")
+          PY
