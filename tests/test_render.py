@@ -84,6 +84,7 @@ def test_push_do_fechamento_cabe_e_nao_repete_ativo(fixtures_dir, tmp_path):
     fj = json.load(open(os.path.join(saida, "saida", "fechamento.json"), encoding="utf-8"))
     p = fj["push_sugerido"]
     assert len(p) <= 195 and p.endswith("Leitura na sessão.") and "MRVE3 MRVE3" not in p and "BRENT Brent" not in p
+    assert "IPCA2032 IPCA+" not in p and "IPCA2035 IPCA+" not in p
     md = open(os.path.join(saida, "saida", "fechamento.md"), encoding="utf-8").read()
     assert "· 19h41 BRT" in md.splitlines()[2]
     # alertas que sairam como mensagem ficam marcados; os que viraram linha nao voltam a disputar o teto

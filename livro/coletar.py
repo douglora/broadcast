@@ -343,7 +343,8 @@ class Coleta:
             partes.append(f"curva {di['verbo']}{det}")
         for a in [a for a in do_dia if a.get("severidade") == "critico"][:2]:
             t = str(a.get("titulo", "")).split(":")[0].strip()
-            if not t.lower().startswith(str(a.get("ativo", "")).lower()):
+            alnum = lambda s: "".join(ch for ch in s.lower() if ch.isalnum())
+            if not alnum(t).startswith(alnum(str(a.get("ativo", "")))):
                 t = f"{a.get('ativo')} {t}"
             partes.append(t)
         extras = []
