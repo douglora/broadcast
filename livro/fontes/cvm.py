@@ -227,7 +227,7 @@ def _rad_parse(texto: str) -> tuple[str, dict]:
 
 
 _DATA_HORA = re.compile(r"^(\d{2}/\d{2}/\d{4})(?:\s+(\d{2}:\d{2}))?$")
-_SEPARADORES = ["$&&&$", "$&&$", "\r\n", "\n", "$$$", "$$"]
+_SEPARADORES = ["$&&*", "$&&&$", "$&&$", "\r\n", "\n", "$$$"]   # o RAD real usa '$&&*' entre registros
 CATEGORIAS_RAD = {"Fato Relevante", "Comunicado ao Mercado", "Aviso aos Acionistas", "Assembleia", "Valores Mobiliários Negociados e Detidos",
                   "Reunião da Administração", "Calendário de Eventos Corporativos", "Política de Negociação", "Dados Econômico-Financeiros",
                   "Documentos de Oferta de Distribuição Pública", "Comunicado sobre Transações entre Partes Relacionadas", "Outros Comunicados",
@@ -352,6 +352,25 @@ def docs_de_linhas(linhas: list[dict], alvos: dict, desde: date, categorias: dic
     return docs, {a: sorted(v) for a, v in casadas.items()}
 
 
+def assunto_de_texto(texto: str | None, categoria: str = "", empresa: str = "") -> str:
+    """Primeira frase util do documento (pula cabecalho com CNPJ, nome da companhia e
+    o titulo 'FATO RELEVANTE'), para o RAD que nao traz o campo Assunto."""
+    if not texto:
+        return ""
+    nuc_emp = nucleo(empresa)
+    for bruto in re.split(r"(?<=[.!?:])\s+|\n+", texto):
+        l = re.sub(r"\s+", " ", bruto).strip(" -–•*")
+        if len(l) < 25:
+            continue
+        n = normalizar(l)
+        if re.search(r"CNPJ|NIRE|COMPANHIA ABERTA|CAPITAL ABERTO|C[OÓ]DIGO CVM", n) or n.startswith(("FATO RELEVANTE", "COMUNICADO AO MERCADO", "AVISO AOS ACIONISTAS")):
+            continue
+        if nuc_emp and n.startswith(nuc_emp) and len(n) < len(nuc_emp) + 15:
+            continue
+        return l[:160].rstrip(",;")
+    return ""
+
+
 def texto_pdf(cli: Cliente, link: str, max_bytes: int = 6_000_000, max_chars: int = 8000) -> str | None:
     """Texto do PDF do IPE (pypdf). Devolve None se nao baixar, nao for PDF ou for
     imagem sem texto."""
@@ -426,6 +445,10 @@ def coletar(alvos: dict, cli: Cliente | None = None, hoje: date | None = None, d
         if lidos < max_pdf and (d["categoria"] == "Fato Relevante" or d["severidade"] == "atencao"):
             d["texto"] = texto_pdf(cli, d["link"])
             lidos += 1
+            if d.get("texto") and (not d.get("assunto") or d["assunto"] == d["categoria"] or d.get("origem") == "rad"):
+                novo = assunto_de_texto(d["texto"], d["categoria"], d.get("empresa", ""))
+                if novo:
+                    d["assunto"] = novo
         vistos[d["id"]] = {"data": d["data"]}
     limite = (hoje - timedelta(days=15)).isoformat()
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
