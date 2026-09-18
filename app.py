@@ -33,7 +33,9 @@ import subprocess
 import sys
 import threading
 import time
+import unicodedata
 import webbrowser
+import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -584,40 +586,131 @@ TD_URL = ("https://www.tesourodireto.com.br/json/br/com/b3/tesourodireto/"
           "service/api/treasurybondsinfo.json")
 
 
-def refresh_tesouro():
-    r = http_get(TD_URL, headers={"Accept": "application/json"})
-    if not r:
-        return
+# Base aberta do Tesouro Transparente: taxas e precos diarios de todos os
+# titulos, CSV com o historico completo (pesado). Usada quando o endpoint do
+# site do Tesouro Direto nao responde (ele passou a devolver 410 em 2026).
+TT_URL = ("https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/"
+          "resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/precotaxatesourodireto.csv")
+
+
+def _sem_acento(texto):
+    return unicodedata.normalize("NFKD", str(texto or "")).encode("ascii", "ignore").decode()
+
+
+def _tesouro_transparente(texto_csv):
+    """Ultimo dia da base do Tesouro Transparente -> (ipca, pre) no formato do painel."""
+    leitor = csv.reader(io.StringIO(texto_csv), delimiter=";")
     try:
-        bonds = r.json()["response"]["TrsrBdTradgList"]
-    except Exception as e:
-        log(f"tesouro: resposta inesperada ({e})")
-        return
+        cab = [_sem_acento(c).lower().strip() for c in next(leitor)]
+    except StopIteration:
+        return [], []
+
+    def col(*chaves):
+        for i, c in enumerate(cab):
+            if all(k in c for k in chaves):
+                return i
+        return None
+
+    i_tipo, i_venc, i_base = col("tipo"), col("vencimento"), col("data", "base")
+    i_tc, i_tv = col("taxa", "compra"), col("taxa", "venda")
+    i_pc, i_pv = col("pu", "compra"), col("pu", "venda")
+    if None in (i_tipo, i_venc, i_base, i_tc):
+        log("tesouro transparente: cabecalho inesperado")
+        return [], []
+
+    def num(s):
+        try:
+            return float(str(s).strip().replace(".", "").replace(",", "."))
+        except Exception:
+            return None
+
+    def data_iso(s):
+        try:
+            return datetime.strptime(str(s).strip()[:10], "%d/%m/%Y").strftime("%Y-%m-%d")
+        except Exception:
+            return None
+
+    minimo = max(i for i in (i_tipo, i_venc, i_base, i_tc))
+    linhas = []
+    for row in leitor:
+        if len(row) <= minimo:
+            continue
+        base = data_iso(row[i_base])
+        if base:
+            linhas.append((base, row))
+    if not linhas:
+        return [], []
+    ultimo = max(b for b, _ in linhas)
 
     ipca, pre = [], []
-    for item in bonds:
-        b = item.get("TrsrBd") or {}
-        name = b.get("nm") or ""
-        rate = b.get("anulInvstmtRate")
-        price = b.get("untrRedVal") or b.get("untrInvstmtVal")
-        mat = b.get("mtrtyDt") or ""
-        if rate is None:
+    for base, row in linhas:
+        if base != ultimo:
             continue
-        row = {
-            "name": name,
-            "maturity": mat[:10],
-            "rate": float(rate),
-            "price": float(price) if price else None,
-        }
-        low = name.lower()
+        tipo = row[i_tipo].strip()
+        venc = data_iso(row[i_venc]) or ""
+        taxa = num(row[i_tc]) or (num(row[i_tv]) if i_tv is not None else None)
+        preco = (num(row[i_pc]) if i_pc is not None else None) or \
+                (num(row[i_pv]) if i_pv is not None else None)
+        if not taxa or not venc:
+            continue
+        linha = {"name": f"{tipo} {venc[:4]}", "maturity": venc,
+                 "rate": round(taxa, 2), "price": preco, "data_base": ultimo}
+        low = tipo.lower()
         if "ipca" in low:
-            ipca.append(row)
+            ipca.append(linha)
         elif "prefixado" in low:
-            pre.append(row)
+            pre.append(linha)
+    ipca.sort(key=lambda x: x["maturity"])
+    pre.sort(key=lambda x: x["maturity"])
+    return ipca, pre
+
+
+def refresh_tesouro():
+    bonds = None
+    r = http_get(TD_URL, headers={"Accept": "application/json"})
+    if r:
+        try:
+            bonds = r.json()["response"]["TrsrBdTradgList"]
+        except Exception as e:
+            log(f"tesouro: resposta inesperada ({e})")
+
+    ipca, pre = [], []
+    fonte = "Tesouro Direto"
+    if bonds:
+        for item in bonds:
+            b = item.get("TrsrBd") or {}
+            name = b.get("nm") or ""
+            rate = b.get("anulInvstmtRate")
+            price = b.get("untrRedVal") or b.get("untrInvstmtVal")
+            mat = b.get("mtrtyDt") or ""
+            if rate is None:
+                continue
+            row = {
+                "name": name,
+                "maturity": mat[:10],
+                "rate": float(rate),
+                "price": float(price) if price else None,
+            }
+            low = name.lower()
+            if "ipca" in low:
+                ipca.append(row)
+            elif "prefixado" in low:
+                pre.append(row)
+    else:
+        # O CSV do Tesouro Transparente traz o historico inteiro (dezenas de MB):
+        # so vale baixar de novo se o dado em cache tiver mais de 4 horas.
+        age = CACHE.age("tesouro")
+        if age is not None and age < 4 * 3600:
+            return
+        r = http_get(TT_URL, timeout=120)
+        if not r:
+            return
+        ipca, pre = _tesouro_transparente(r.content.decode("utf-8-sig", errors="replace"))
+        fonte = "Tesouro Transparente"
 
     if ipca or pre:
-        CACHE.set("tesouro", {"ipca": ipca, "pre": pre, "last_update": utcnow_iso()})
-        log(f"tesouro direto: {len(ipca)} IPCA+, {len(pre)} prefixados")
+        CACHE.set("tesouro", {"ipca": ipca, "pre": pre, "fonte": fonte, "last_update": utcnow_iso()})
+        log(f"tesouro ({fonte}): {len(ipca)} IPCA+, {len(pre)} prefixados")
 
 
 # ─────────────────────────────────────────────────────────────
@@ -938,17 +1031,33 @@ def build_weekly_summary(news):
 # CVM — Fatos Relevantes (portal de dados abertos, arquivo IPE)
 # ─────────────────────────────────────────────────────────────
 IPE_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_{year}.csv"
+IPE_ZIP_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_{year}.zip"
+
+
+def baixar_ipe(year):
+    """Texto CSV do IPE (fatos relevantes e comunicados) do ano. A CVM publica o
+    arquivo zipado; o .csv solto fica como fallback para anos antigos."""
+    r = http_get(IPE_ZIP_URL.format(year=year), timeout=90)
+    if r:
+        try:
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                nome = next((n for n in z.namelist() if n.lower().endswith(".csv")), None)
+                if nome:
+                    return z.read(nome).decode("latin-1")
+        except Exception as e:
+            log(f"cvm: zip do IPE ilegivel ({e})")
+    r = http_get(IPE_URL.format(year=year), timeout=25)
+    return r.content.decode("latin-1") if r else None
 ALERT_HIST_PATH = os.path.join(DATA_DIR, "alert_history.json")
 
 
 def refresh_cvm():
     year = datetime.now(timezone.utc).year
-    r = http_get(IPE_URL.format(year=year), timeout=25)
-    if not r:
+    text = baixar_ipe(year)
+    if not text:
         return
 
     try:
-        text = r.content.decode("latin-1")
         rows = list(csv.DictReader(io.StringIO(text), delimiter=";"))
     except Exception as e:
         log(f"cvm: nao consegui ler o CSV ({e})")
