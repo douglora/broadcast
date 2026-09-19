@@ -1,6 +1,6 @@
 import json
 import os
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 from livro import coletar, fmt
 
@@ -92,3 +92,36 @@ def test_push_do_fechamento_cabe_e_nao_repete_ativo(fixtures_dir, tmp_path):
     canais = {v.get("canal") for v in fila.values()}
     assert canais <= {"mensagem", "info"} and "mensagem" in canais
     assert all(v["status"] == "linha" for v in fila.values() if v.get("canal") == "info")
+
+
+def test_bloco_a_nao_conta_manchete_no_digest():
+    from livro import render
+    do_dia = ([{"regra": "T05", "ativo": "MRVE3", "severidade": "critico", "familia": "preco", "titulo": "MRVE3 -8,4%", "status": "pendente"}]
+              + [{"regra": "E03", "ativo": "PETR4", "severidade": "atencao", "familia": "evento", "titulo": "Fato Relevante: x",
+                  "status": "pendente", "dados": {"manchete": "Fato Relevante: x", "veiculo": "CVM"}}]
+              + [{"regra": "E05", "ativo": "KO", "severidade": "info", "familia": "noticia", "titulo": f"manchete {i}",
+                  "status": "linha", "dados": {"manchete": f"manchete {i}", "veiculo": "V"}} for i in range(600)])
+    a = render.bloco_a(date(2026, 9, 18), "Yahoo 18h40", do_dia, [], {}, ["DI"], ["agenda"], [], ["Yahoo"])
+    assert "ALERTAS DO DIA (2 · 1 crítico)" in a
+    assert "NOTÍCIAS E FATOS (1 · +600 manchete · noticias.md)" in a
+    assert "manchete 0" not in a
+    md = render.alertas_md({"mensagens": [], "linhas_info": [], "suprimidos": []}, do_dia, "Fechamento 18h40")
+    assert "(+600 notícias só manchete, em noticias.md)" in md and "manchete 0" not in md
+
+
+def test_fechamento_usa_a_barra_do_pregao_em_mercado_continuo():
+    """Fechamento do pregao de 18/09 nao pode usar a barra de 19/09 do BTC (24/7)."""
+    import pandas as pd
+    from livro import indicadores as ind
+    barras = [[d.date().isoformat(), 100.0, 100.0, 100.0, 100.0, 100.0, 1] for d in pd.bdate_range(end="2026-09-17", periods=300)]
+    barras += [["2026-09-18", 110.0, 110.0, 110.0, 110.0, 110.0, 1], ["2026-09-19", 99999.0, 99999.0, 99999.0, 99999.0, 99999.0, 1]]
+    df = ind.para_df(barras)
+    assert ind.janelas(df)["data"] == "2026-09-19"                      # sem corte, pega o sabado
+    j = ind.janelas(df, ate=date(2026, 9, 18))
+    assert j["data"] == "2026-09-18" and j["ultimo"] == 110.0 and round(j["dia"], 3) == 0.1
+
+
+def test_cabecalho_avisa_coleta_de_outro_dia():
+    from livro import render
+    a = render.bloco_a(date(2026, 9, 18), "Yahoo 15h10", [], [], {}, ["DI"], ["agenda"], [], ["Yahoo"], hora="15h10 de 19/09")
+    assert a.splitlines()[0] == "FECHAMENTO DO LIVRO · sex 18/09 · 15h10 de 19/09 BRT"
