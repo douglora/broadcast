@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 15h20 de 19/09 BRT
-Relógios: Yahoo 15h20 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 15h31 de 19/09 BRT
+Relógios: Yahoo 15h31 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (93 · 2 críticos)
+ALERTAS DO DIA (33 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
@@ -24,28 +24,26 @@ ALERTAS DO DIA (93 · 2 críticos)
           de 52s (US$ 64,81 em 12/08) a US$ 57,73
 [ATENÇÃO] F06 ETH sobe a US$ 2.621 (+7,1% em 24h ·
           cruzou US$ 2.500)
-(+85 em alertas.md)
+(+25 em alertas.md)
 
 ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
        · BBAS3 +2,2%
 BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% ·
        BBDC4 -1,2% · ITSA4 -1,2%
 
-NOTÍCIAS E FATOS (66 · +569 manchete · noticias.md)
+NOTÍCIAS E FATOS (6 · +629 manchete · noticias.md)
 · AMZN Prime Video’s Off Campus TV Show Lands Amazon
   a Big Lawsuit, Here’s Why (ComingSoon.net)
 · VALE3 Novo hotel em São José dos Campos terá
   investimento de R$ 70 milhões (Portal Aqui Vale)
 · BTC Fortuna Hedged Bitcoin ETF (HBTC) Dividend
   Yield 2026, Date & History (marketbeat.com)
-· PETR4 Petrobras acompanha negociações entre
-  empresas contratadas e trabalhadores em greve em
-  Campos (Notícias Agrícolas)
-· KO Why Does Coca-Cola (NYSE:KO) Challenge The
-  Dividend Stocks Story? (Kalkine Media)
-· NVDA Nvidia-backed AI cloud firm Nscale reveals
-  revenue surge in US IPO filing (TradingView)
-  (+60)
+· NVDA Nvidia-Backed Data Center Firm Nscale Files
+  Publicly for US IPO (Yahoo Finance)
+· BBDC4 Até onde a Selic pode cair em 2026? Bradesco
+  revisa projeção e aponta condição-chave (Estadao)
+· SBSP3 Fato Relevante: COMPANHIA DE SANEAMENTO
+  BÁSICO (CVM)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83
@@ -58,7 +56,7 @@ TD (base 18/09) Pre 2029 13,85 (+4) · Pre 2031 14,10
     (+1) · IPCA+ 2050 7,19 (0) · IPCA+ 2029 7,37
     (-6)
     Implícita 2029 6,04% · 2032 6,14% · 2031/32
-    (descasado) 6,06%
+    (descasado) 6,06% vs Focus IPCA 2027 4,30%
 UST (D0) 2y 4,76 (+9) · 10y 5,01 (+7) · 30y 5,34
     (+5) · 2s10s +25 (-2)
 Regime: VIX 14,8 (-4,1%) · score risco 0/6
