@@ -234,7 +234,7 @@ def alertas_md(resultado: dict, do_dia: list[dict], slot_rotulo: str) -> str:
     if resultado["suprimidos"]:
         linhas.append("Suprimidos pelo teto (viram linha do Fechamento): " + ", ".join(f"{s['id']} ({s['motivo']})" for s in resultado["suprimidos"]))
     if do_dia:
-        manchetes = [a for a in do_dia if a.get("familia") in ("noticia", "evento") and a.get("severidade") == "info"]
+        manchetes = [a for a in do_dia if a.get("familia") in ("noticia", "evento") and a.get("canal") != "mensagem"]
         linhas.append("")
         linhas.append("Alertas do dia (todos, com status):")
         for a in do_dia:
@@ -268,6 +268,9 @@ def noticias_md(do_dia: list[dict], data_br: str, pernas: dict | None = None) ->
         L.append("")
         for a in itens:
             if titulo.startswith("OUTRAS"):
+                if itens.index(a) >= 60:
+                    L.append(f"· (+{len(itens) - 60} manchetes; lista completa em eventos/noticias.json)")
+                    break
                 d = a.get("dados") or {}
                 L.append(f"· {a['ativo']} {d.get('manchete') or a['titulo']} ({d.get('veiculo', '')}) {d.get('url', '')}".rstrip())
             else:
@@ -293,8 +296,9 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
         L.append(f"FECHAMENTO DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '18h40'} BRT" + (" · PARCIAL" if parcial else ""))
     L += quebrar("Relógios: " + relogios_txt, indent="  ")
     L.append("")
-    # noticia e fato que ficaram so em manchete (info) vivem em noticias.md, nao no digest
-    so_manchete = [a for a in do_dia if a.get("familia") in ("noticia", "evento") and a.get("severidade") == "info"]
+    # noticia e fato que nao viraram mensagem (info ou cortados pelo teto) vivem em
+    # noticias.md, nao no digest: sem isso o backlog do dia inteiro entra no cabecalho
+    so_manchete = [a for a in do_dia if a.get("familia") in ("noticia", "evento") and a.get("canal") != "mensagem"]
     do_dia = [a for a in do_dia if a not in so_manchete]
     crit = sum(1 for a in do_dia if a.get("severidade") == "critico")
     L.append(f"ALERTAS DO DIA ({len(do_dia)}" + (f" · {crit} crítico{'s' if crit > 1 else ''}" if crit else "") + ")")
