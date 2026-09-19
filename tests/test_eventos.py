@@ -314,8 +314,11 @@ def test_sec_tenta_variantes_de_contato(monkeypatch):
     monkeypatch.setenv("GITHUB_REPOSITORY_OWNER", "douglora")
     monkeypatch.setenv("GITHUB_REPOSITORY", "douglora/broadcast")
     vs = sec.variantes_ua("broadcast-livro/1.0 (+https://github.com/douglora/broadcast)")
-    assert len(vs) == 3 and "@users.noreply.github.com" in vs[1] and "douglaslora" not in " ".join(vs)
-    assert sec.variantes_ua("Fulano fulano@exemplo.com") == ["Fulano fulano@exemplo.com"]
+    assert vs[1] == sec.UA_PADRAO and "@users.noreply.github.com" in vs[2] and "douglaslora" not in " ".join(vs)
+    assert sec.variantes_ua("Fulano fulano@exemplo.com") == ["Fulano fulano@exemplo.com", sec.UA_PADRAO]
+    # cabecalhos iguais aos do coletor que funciona
+    h = sec._cabecalhos("X")
+    assert h["Accept"] == "*/*" and h["Accept-Language"] is None
 
     class Cli:
         def __init__(self):
@@ -330,7 +333,7 @@ def test_sec_tenta_variantes_de_contato(monkeypatch):
 
     cli = Cli()
     ciks, bom, tent = sec.abrir_catalogo(cli, "broadcast-livro/1.0 (+https://github.com/douglora/broadcast)", ["MU"])
-    assert ciks == {"MU": 723125} and "@users.noreply.github.com" in bom
+    assert ciks == {"MU": 723125} and "@" in bom and bom == sec.UA_PADRAO
     assert tent[0]["status"] == 403 and tent[-1]["status"] == 200 and len(cli.uas) == 2
 
 

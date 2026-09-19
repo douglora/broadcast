@@ -39,6 +39,11 @@ ORDEM_SEV = {"info": 0, "atencao": 1, "critico": 2}
 _TAGS = re.compile(r"<[^>]+>")
 
 
+# Mesmo formato de contato que o coletor do terminal ja usa com a SEC: nome do
+# projeto e um contato entre parenteses. Nao carrega dado pessoal.
+UA_PADRAO = "BROADCAST Livro (contato: admin@theinvestpost.local)"
+
+
 def variantes_ua(ua: str) -> list[str]:
     """Contatos a tentar, do declarado para os derivados do proprio GitHub Actions.
 
@@ -46,12 +51,11 @@ def variantes_ua(ua: str) -> list[str]:
     tentar tambem o formato 'nome contato@dominio' que a SEC documenta. O e-mail
     noreply do GitHub e publico por construcao: nao expoe endereco pessoal."""
     fora = [ua]
+    if ua != UA_PADRAO:
+        fora.append(UA_PADRAO)
     dono = (os.environ.get("GITHUB_REPOSITORY_OWNER") or "").strip()
-    repo = (os.environ.get("GITHUB_REPOSITORY") or "").strip()
     if "@" not in ua and dono:
         fora.append(f"{dono} {dono}@users.noreply.github.com")
-        if repo:
-            fora.append(f"{repo.replace('/', '-')} {dono}@users.noreply.github.com")
     vistos, out = set(), []
     for c in fora:
         if c and c not in vistos:
@@ -108,8 +112,11 @@ def user_agent() -> str | None:
     return ua if len(ua) >= 8 and tem_contato else None
 
 
+# Cabecalhos identicos aos de coletar_dados.py, que le a SEC destes mesmos runners
+# com sucesso (8-K da MELI lido em 19/09). Accept-Language: None remove o cabecalho
+# padrao da sessao, que o coletor que funciona nao envia.
 def _cabecalhos(ua: str) -> dict:
-    return {"User-Agent": ua, "Accept-Encoding": "gzip, deflate", "Accept": "application/json, text/html;q=0.9,*/*;q=0.8"}
+    return {"User-Agent": ua, "Accept": "*/*", "Accept-Encoding": "gzip, deflate", "Accept-Language": None}
 
 
 def cik_por_ticker(cli: Cliente, ua: str, tickers: list[str]) -> dict[str, int]:
