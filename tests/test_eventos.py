@@ -378,3 +378,25 @@ def test_sec_primeira_coleta_usa_janela_larga():
     # com vistos: volta para a janela curta e nao repete o que ja viu
     r2 = sec.coletar({"MU": "MU"}, cli=Cli(), hoje=hoje, dias=3, vistos=r["vistos"], ua="X f@x.com", dormir=lambda s: None)
     assert not r2["primeira_coleta"] and r2["janela_dias"] == 3 and r2["filings"] == []
+
+
+def test_sec_le_o_texto_do_6k_de_emissor_estrangeiro():
+    """6-K e o canal do emissor estrangeiro (TSMC, Nokia, Alibaba): precisa vir com texto."""
+    import json as _json
+    from livro.http import Resposta
+    payload = {"cik": "1046179", "filings": {"recent": {
+        "accessionNumber": ["0001046179-26-000050"], "filingDate": ["2026-09-10"], "reportDate": ["2026-09-10"],
+        "acceptanceDateTime": ["2026-09-10T12:00:00.000Z"], "form": ["6-K"], "items": [""],
+        "primaryDocument": ["tsm-20260910.htm"], "primaryDocDescription": ["6-K"]}}}
+
+    class Cli:
+        def get(self, url, **kw):
+            if "company_tickers" in url:
+                return Resposta(200, _json.dumps({"0": {"cik_str": 1046179, "ticker": "TSM", "title": "TSMC"}}).encode(), {}, url)
+            if "submissions" in url:
+                return Resposta(200, _json.dumps(payload).encode(), {}, url)
+            return Resposta(200, b"<html><p>Net revenue for August 2026 was NT$250 billion.</p></html>", {"content-type": "text/html"}, url)
+
+    r = sec.coletar({"TSM": "TSM"}, cli=Cli(), hoje=date(2026, 9, 19), dias=3, ua="X f@x.com", dormir=lambda s: None)
+    f = r["filings"][0]
+    assert f["form"] == "6-K" and f["severidade"] == "info" and "NT$250 billion" in (f["texto"] or "")

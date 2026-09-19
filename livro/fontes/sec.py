@@ -252,7 +252,9 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     lidos = 0
     for f in novos:
         f["texto"] = None
-        if lidos < max_docs and (f["severidade"] != "info" or f["form"].startswith("8-K")):
+        # 8-K e 6-K sao fonte primaria de fato relevante (o 6-K e o 8-K do emissor
+        # estrangeiro: TSMC, Nokia e Alibaba so falam por ele), entao o texto vem sempre
+        if lidos < max_docs and (f["severidade"] != "info" or f["form"].startswith(("8-K", "6-K"))):
             f["texto"] = texto_filing(cli, ua, f["cik"], f)
             lidos += 1
             dormir(0.3)
