@@ -448,6 +448,12 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
             "codigo_cvm": codigos.get(docs[0]["empresa"]) if docs else None}
 
 
+# Documento anual ou societario que as vezes chega com tipo "Press-release": nao e release
+# de trimestre e polui o historico (o "Relatorio da Administracao 2025" do Magalu virou 4T24).
+_RE_NAO_E_RELEASE = re.compile(
+    r"RELATORIO DA ADMINISTRACAO|RELATORIO ANUAL|RELATO INTEGRADO|FORMULARIO DE REFERENCIA|"
+    r"DEMONSTRACOES FINANCEIRAS|RELATORIO DE SUSTENTABILIDADE|RELATORIO DO AUDITOR|"
+    r"POLITICA DE|ESTATUTO|ATA DE|EDITAL|PROSPECTO|CODIGO DE CONDUTA|PARECER")
 _RE_ASSUNTO_RESULTADO = re.compile(
     r"PRESS RELEASE|RELEASE DE RESULTADO|RELEASE RESULTADO|DIVULGACAO DE RESULTADO|DIVULGACAO DOS RESULTADOS|"
     r"EARNINGS RELEASE|EARNINGS|INFORMACOES SOBRE O RESULTADO|RESULTADO DO [1-4]|RESULTADOS DO [1-4]|"
@@ -457,6 +463,8 @@ _RE_ASSUNTO_RESULTADO = re.compile(
 def _classe_documento_resultado(d):
     """'release' (texto de resultados: press-release ou relatorio gerencial), 'apresentacao' ou None."""
     cat, tipo, assunto = normalizar(d["categoria"]), normalizar(d["tipo"]), normalizar(d["assunto"])
+    if _RE_NAO_E_RELEASE.search(assunto):
+        return None
     if cat.startswith("DADOS ECONOMICO") and (tipo.startswith("PRESS RELEASE") or tipo.startswith("RELATORIO DE ANALISE GERENCIAL")):
         return "release"
     if tipo.startswith("APRESENTACOES A ANALISTAS"):
@@ -604,26 +612,61 @@ def _preferencia_release_cvm(d):
     return 2
 
 
+_FIM_DO_TRIMESTRE = {1: "03-31", 2: "06-30", 3: "09-30", 4: "12-31"}
+
+
+def ordem_periodo(periodo):
+    """'2T26' -> (2026, 2), para ordenar; (0, 0) quando nao ha trimestre."""
+    m = re.fullmatch(r"([1-4])T(\d{2})", periodo or "")
+    return (2000 + int(m.group(2)), int(m.group(1))) if m else (0, 0)
+
+
+def _periodo_plausivel(periodo, data, dias=270):
+    """O trimestre precisa ter fechado nos ultimos `dias` antes da entrega do documento.
+
+    Sem isso, um trimestre citado de passagem no meio de um relatorio anual vira o rotulo
+    do documento inteiro."""
+    ano, tri = ordem_periodo(periodo)
+    if not tri or not data:
+        return False
+    try:
+        fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+        entrega = datetime.strptime(str(data)[:10], "%Y-%m-%d")
+    except ValueError:
+        return False
+    return -10 <= (entrega - fim).days <= dias
+
+
+def _ajustar_periodo(item):
+    """Troca o trimestre implausivel pelo que fechou antes da entrega. Devolve o item."""
+    if not _periodo_plausivel(item.get("periodo"), item.get("data")):
+        item["periodo"] = trimestre_anterior(item.get("data"))
+    return item
+
+
+def _melhor_release(novo, atual):
+    """Mesmo trimestre, dois documentos: vale o de melhor origem e, no empate, o mais completo."""
+    if atual is None:
+        return True
+    pn, pa = novo.get("preferencia", 1), atual.get("preferencia", 1)
+    if pn != pa:
+        return pn < pa
+    return (novo.get("caracteres_total") or 0) > (atual.get("caracteres_total") or 0)
+
+
+def _lista_por_periodo(achados, max_releases):
+    """Do trimestre mais novo para o mais antigo."""
+    return sorted(achados.values(),
+                  key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                  reverse=True)[:max_releases]
+
+
 def _grupos_por_periodo(documentos):
     """Agrupa por trimestre citado no assunto; sem trimestre, pela data. Mais novo primeiro."""
     grupos = {}
     for d in documentos:
         grupos.setdefault(periodo_release(d["assunto"]) or d["data"], []).append(d)
     return sorted(grupos.items(), key=lambda kv: max(x["data"] for x in kv[1]), reverse=True)
-
-
-def _dedup_releases(lista, max_releases):
-    """Um release por trimestre, do mais novo para o mais antigo."""
-    vistos, out = set(), []
-    for r in sorted(lista, key=lambda x: x.get("data") or "", reverse=True):
-        chave = r.get("periodo") or r.get("data")
-        if chave in vistos:
-            continue
-        vistos.add(chave)
-        out.append(r)
-        if len(out) >= max_releases:
-            break
-    return out
 
 
 def _resumo_releases(fontes, lista, baixados, reusados, estourou, vazio):
@@ -649,33 +692,45 @@ def coletar_releases_cvm(documentos, fontes, conhecidos=None,
     if not candidatos:
         fontes["release_ri"] = "sem press-release no IPE"
         return []
-    achados, baixados, reusados = [], 0, 0
+    achados, baixados, reusados = {}, 0, 0
     t0, estourou = time.monotonic(), False
     for _, docs in _grupos_por_periodo(candidatos):
         if len(achados) >= max_releases:
             break
         docs = sorted(docs, key=_preferencia_release_cvm)
+        pref = _preferencia_release_cvm(docs[0])
+        # Trimestre ja resolvido por um documento de origem melhor: nem baixa
+        no_assunto = periodo_release(docs[0]["assunto"])
+        if no_assunto and no_assunto in achados and achados[no_assunto].get("preferencia", 1) <= pref:
+            continue
+        item = None
         ja = next((d for d in docs if conhecidos.get(d["link"])), None)
         if ja is not None:
-            achados.append({**conhecidos[ja["link"]], "link": ja["link"]})
+            item = {**conhecidos[ja["link"]], "link": ja["link"]}
             reusados += 1
-            continue
-        if time.monotonic() - t0 > orcamento_s:
+        elif time.monotonic() - t0 > orcamento_s:
             estourou = True
             break
-        for d in docs[:2]:
-            r = app.http_get(d["link"], timeout=90)
-            if not r:
-                continue
-            texto, detalhe = _texto_de_download(r)
-            item = _montar_release(texto, detalhe, {
-                "fonte": "CVM IPE (copia oficial do release publicado no RI)", "empresa": d["empresa"],
-                "assunto": d["assunto"], "data": d["data"], "link": d["link"]})
-            if item:
-                achados.append(item)
-                baixados += 1
-                break
-    return _resumo_releases(fontes, _dedup_releases(achados, max_releases), baixados, reusados, estourou,
+        else:
+            for d in docs[:2]:
+                r = app.http_get(d["link"], timeout=90)
+                if not r:
+                    continue
+                texto, detalhe = _texto_de_download(r)
+                item = _montar_release(texto, detalhe, {
+                    "fonte": "CVM IPE (copia oficial do release publicado no RI)", "empresa": d["empresa"],
+                    "assunto": d["assunto"], "data": d["data"], "link": d["link"],
+                    "preferencia": pref})
+                if item:
+                    baixados += 1
+                    break
+        if not item:
+            continue
+        item.setdefault("preferencia", pref)
+        _ajustar_periodo(item)
+        if _melhor_release(item, achados.get(item["periodo"])):
+            achados[item["periodo"]] = item
+    return _resumo_releases(fontes, _lista_por_periodo(achados, max_releases), baixados, reusados, estourou,
                             "falha: nao consegui ler nenhum press-release do IPE")
 
 
@@ -755,7 +810,7 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
     except Exception:
         fontes["release_ri"] = "falha: submissions ilegivel"
         return []
-    achados, baixados, reusados, examinados = [], 0, 0, 0
+    achados, baixados, reusados, examinados = {}, 0, 0, 0
     t0, estourou = time.monotonic(), False
     for f in filings:
         if len(achados) >= max_releases or examinados >= max_filings:
@@ -780,12 +835,14 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         item, reusado = _documento_release_sec(cik, acc, nomes, f, form, conhecidos, descartados)
         if not item:
             continue
-        achados.append(item)
+        _ajustar_periodo(item)
+        if _melhor_release(item, achados.get(item["periodo"])):
+            achados[item["periodo"]] = item
         if reusado:
             reusados += 1
         else:
             baixados += 1
-    return _resumo_releases(fontes, _dedup_releases(achados, max_releases), baixados, reusados, estourou,
+    return _resumo_releases(fontes, _lista_por_periodo(achados, max_releases), baixados, reusados, estourou,
                             f"sem release de resultados nos ultimos {examinados} 8-K/6-K")
 
 
