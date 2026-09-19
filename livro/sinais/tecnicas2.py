@@ -57,7 +57,10 @@ class T02MM50100(Regra):
             acima200 = close > mm200
             perda = any(g.startswith("perdeu") for g in gat)
             sev = "atencao" if (perda and acima200 and len(gat) == 2) else "info"
-            qual = "ainda acima da MM200 (tendência longa preservada)" if acima200 else "já abaixo da MM200 (confirma tendência de baixa)"
+            if perda:
+                qual = "ainda acima da MM200 (tendência longa preservada)" if acima200 else "já abaixo da MM200 (confirma tendência de baixa)"
+            else:
+                qual = "acima da MM200 (tendência longa preservada)" if acima200 else "ainda abaixo da MM200 (repique dentro da baixa)"
             moeda = ctx.moeda_simbolo(a.id)
             titulo = f"{ctx.rotulo(a.id)} {' e '.join(gat)} pela {conf}ª sessão: {moeda}{fmt.preco(close, a.decimais)}, {qual}"
             corpo = [f"MM{curta} {moeda}{fmt.preco(float(m50.iloc[-1]), a.decimais)} · MM{media} {moeda}{fmt.preco(float(m100.iloc[-1]), a.decimais)} · MM200 {moeda}{fmt.preco(mm200, a.decimais)}",
