@@ -219,9 +219,13 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
    Actions, coleta Yahoo (series de 2 anos com fechamento ajustado), ajustes do
    DI na B3 (Boletim Diario), Tesouro Transparente, Treasury.gov (UST), BCB/Focus
    e proxies asiaticos (Sina), calcula os indicadores e as regras de alerta
-   (`livro/sinais/`: MM200, golden/death cross, 52 semanas, movimento anormal,
-   drawdown, regime de risco, DI em bps, juro real IPCA+, UST, cambio, Brent,
-   cripto, falha de dados), aplica a politica anti-fadiga (`livro/politica.py`)
+   (`livro/sinais/`: MM200, MM50/MM100, golden/death cross, 52 semanas, movimento
+   anormal do dia e da semana, RSI, volume anormal, forca relativa, pares que
+   descolam, sequencias, drawdown, regime de risco, DI em bps, inclinacao da
+   curva, niveis redondos, inflacao implicita vs Focus, UST e 2s10s, cambio,
+   DXY, Brent, minerio, celulose, cripto, resultado D-3/D-1/D0, ex-dividendo,
+   agenda macro, Focus da segunda, falha de dados), aplica a politica
+   anti-fadiga (`livro/politica.py`)
    e grava em `livro/` no branch `dados`: `saida/fechamento.md` (BLOCO A e
    BLOCO B com dia/1s/1m/6m/1a/YTD), `saida/alertas.md`, `saida/intradia.md`,
    `saida/manha.md`, `saida/noticias.md`, `saida/manifest.json`,

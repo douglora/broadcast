@@ -149,7 +149,7 @@ def inclinacao(s: pd.Series, n: int = 20) -> float | None:
 
 
 def forca_relativa(a: pd.Series, b: pd.Series) -> pd.Series:
-    df = pd.concat([a.rename("a"), b.rename("b")], axis=1).dropna()
+    df = pd.concat([a.rename("a"), b.rename("b")], axis=1, sort=True).dropna()
     return df["a"] / df["b"]
 
 

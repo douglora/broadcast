@@ -19,9 +19,12 @@ from livro import fmt, politica, relogios, render
 from livro import indicadores as ind
 from livro import universo as uni
 from livro.estado import Repositorio
+from livro.fontes import agenda as f_agenda
 from livro.fontes import b3_di, bcb, cvm, noticias, sec, sina, tesouro, ust, yahoo
 from livro.sinais import curvas as r_curvas
 from livro.sinais import eventos as r_ev
+from livro.sinais import eventos_macro as r_evm
+from livro.sinais import tecnicas2 as r_tec2
 from livro.sinais import fx_commod as r_fx
 from livro.sinais import sistema as r_sis
 from livro.sinais import tecnicas as r_tec
@@ -219,6 +222,15 @@ class Coleta:
                 p = sina.coletar()
                 antigo_p = ler_json(os.path.join(self.saida, "macro", "proxies.json"), {}) or {}
                 p["bhkp_semanal"] = antigo_p.get("bhkp_semanal")
+                p["bhkp_anterior"] = antigo_p.get("bhkp_anterior")
+                # historico diario dos proxies (um ponto por data), para variacao semanal
+                hist = antigo_p.get("historico") or {}
+                for chave, v in (p.get("proxies") or {}).items():
+                    if v.get("preco") and v.get("data"):
+                        serie = [x for x in (hist.get(chave) or []) if x[0] != v["data"]]
+                        serie.append([v["data"], v["preco"]])
+                        hist[chave] = sorted(serie)[-90:]
+                p["historico"] = hist
                 gravar_json(os.path.join(self.saida, "macro", "proxies.json"), p)
                 self.macro["proxies"] = p
                 self.pernas["proxies"] = f"ok {list((p.get('proxies') or {}).keys())}" + (f"; {p['falhas']}" if p.get("falhas") else "")
@@ -238,16 +250,35 @@ class Coleta:
         fechamento, no modo eventos e no intradia das 12h e 15h BRT; SEC em todo slot
         (leve), declarada indisponivel sem o secret. Cada perna falha sozinha."""
         cfg = uni.carregar_yaml("fontes_noticias.yaml")
-        self.eventos = {"config": cfg, "noticias": [], "cvm": [], "sec": []}
+        self.eventos = {"config": cfg, "noticias": [], "cvm": [], "sec": [], "calendario": self.calendario, "agenda": {}}
+        hoje_brt = relogios.brt(self.agora).date()
         if self.offline:
             for perna in ("noticias", "cvm", "sec"):
                 d = ler_json(os.path.join(self.offline, "eventos", f"{perna}.json"), {}) or {}
                 self.eventos[perna] = d.get("itens") or d.get("docs") or d.get("filings") or []
                 self.pernas[perna] = f"offline {len(self.eventos[perna])}"
+            ag = ler_json(os.path.join(self.offline, "eventos", "agenda_yahoo.json"), {}) or {}
+            self.eventos["agenda"] = f_agenda.consolidar(self.calendario, ag.get("por_ativo") or {}, hoje_brt, self.u)
+            self.pernas["agenda"] = f"offline {len(self.eventos['agenda'].get('resultados', []))} resultados"
             return
+        # agenda corporativa (Yahoo calendarEvents + calendario.yaml): manha e fechamento
+        if self.modo in ("manha", "fechamento"):
+            try:
+                ag = f_agenda.coletar(self.u)
+                gravar_json(os.path.join(self.saida, "eventos", "agenda_yahoo.json"), ag)
+                self.eventos["agenda"] = f_agenda.consolidar(self.calendario, ag.get("por_ativo") or {}, hoje_brt, self.u)
+                gravar_json(os.path.join(self.saida, "eventos", "agenda.json"), self.eventos["agenda"])
+                self.pernas["agenda"] = (f"ok {len(self.eventos['agenda'].get('resultados', []))} resultados, "
+                                         f"{len(self.eventos['agenda'].get('ex_dividendos', []))} ex-dividendos"
+                                         + (f"; {len(ag['falhas'])} ativos sem resposta" if ag.get("falhas") else ""))
+            except Exception as e:
+                self.falhas["agenda"] = f"{type(e).__name__}: {str(e)[:80]}"
+                self.pernas["agenda"] = "falhou"
+                self.eventos["agenda"] = ler_json(os.path.join(self.saida, "eventos", "agenda.json"), {}) or f_agenda.consolidar(self.calendario, {}, hoje_brt, self.u)
+        else:
+            self.eventos["agenda"] = ler_json(os.path.join(self.saida, "eventos", "agenda.json"), {}) or f_agenda.consolidar(self.calendario, {}, hoje_brt, self.u)
         caminho_vistos = os.path.join(self.saida, "noticias", "vistos.json")
         vistos = ler_json(caminho_vistos, {}) or {}
-        hoje_brt = relogios.brt(self.agora).date()
         hora_brt = relogios.brt(self.agora).hour
         lim = self.limiares
         # noticias
@@ -322,12 +353,16 @@ class Coleta:
                        series=self.series, series_info=self.series_info, curvas=self.curvas,
                        macro=self.macro, falhas=self.falhas, agora_iso=self.agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
                        eventos=self.eventos)
-        ordem = [r_curvas.C01DIMovimento(), r_curvas.C04TesouroJuroReal(), r_curvas.C05TesouroVariacaoPU(), r_curvas.C07UST(),
-                 r_tec.T13Regime(), r_tec.T01MM200(), r_tec.T03GoldenDeath(), r_tec.T04MaxMin(), r_tec.T05Zscore(),
-                 r_tec.T08Drawdown(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto()] + r_ev.REGRAS + [r_sis.S01FalhaDados()]
+        ordem = ([r_curvas.C01DIMovimento(), r_curvas.C04TesouroJuroReal(), r_curvas.C05TesouroVariacaoPU(), r_curvas.C07UST()]
+                 + r_curvas.REGRAS_V11
+                 + [r_tec.T13Regime(), r_tec.T01MM200(), r_tec.T03GoldenDeath(), r_tec.T04MaxMin(), r_tec.T05Zscore(), r_tec.T08Drawdown()]
+                 + r_tec2.REGRAS
+                 + [r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto()] + r_fx.REGRAS_V11
+                 + r_evm.REGRAS + r_ev.REGRAS + [r_sis.S01FalhaDados()])
         if self.modo == "intradia":
             # intradia: so o que e seguro sem fechamento consolidado
-            ordem = [r_tec.T13Regime(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto()] + r_ev.REGRAS + [r_sis.S01FalhaDados()]
+            ordem = ([r_tec.T13Regime(), r_fx.F01USDBRL(), r_fx.F03Brent(), r_fx.F06Cripto(), r_fx.F02DXY()]
+                     + r_evm.REGRAS + r_ev.REGRAS + [r_sis.S01FalhaDados()])
         elif self.modo == "eventos":
             ordem = list(r_ev.REGRAS)
         alertas = []
@@ -382,7 +417,8 @@ class Coleta:
         relogios_txt = self._relogios_txt()
         fontes = ["Yahoo Finance", "B3 Boletim Diário", "Tesouro Transparente", "Treasury.gov CMT", "BCB"]
         parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in self.u.por_bloco("eua"))
-        a_txt = render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, render.agenda(self.calendario, self.hoje),
+        agenda_l = render.agenda(self.calendario, self.hoje, extras=render.agenda_extras(self.eventos.get("agenda") or {}, self.calendario))
+        a_txt = render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, agenda_l,
                                lacunas, fontes, parcial=parcial, slot=self.modo, hora=relogios.fmt_brt(self.agora))
         legenda = render.legenda_ucits(self.u)
         notas = []

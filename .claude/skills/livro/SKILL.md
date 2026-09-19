@@ -119,6 +119,12 @@ novo ...", a resposta e essa linha, e nada mais. Se traz alertas, cole cada
 mensagem (com `Como falar`) e um paragrafo de 2 linhas, no maximo, ligando os
 alertas entre si. Marque "(parcial, intradia)" o que o runner marcou.
 
+**Agenda (E01 resultado, E02 ex-dividendo, M01 macro, M03 Focus)**: o runner
+diz quando sai o resultado (D-3 info, D-1 atencao, D0 info) com a vol do papel e
+"consenso nao disponivel" quando nao ha fonte; nunca invente consenso nem
+"esperado pelo mercado". A AGENDA do bloco A ja traz resultados e ex-dividendos
+que so o Yahoo trouxe (rotulados "estimado" / "ultimo provento").
+
 **Noticias e fatos (E03 CVM, E04 SEC, E05 noticia)** chegam como mensagens
 proprias no slot (teto proprio: 3 noticias e 4 fatos por slot; o resto vira linha
 em `noticias.md`). Cole o card como esta (manchete, veiculo, hora, "Do texto"/"Do
