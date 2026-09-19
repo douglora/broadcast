@@ -1,15 +1,20 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 19h07 de 19/09 BRT
-Relógios: Yahoo 19h07 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 20h48 de 19/09 BRT
+Relógios: Yahoo 20h48 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (44 · 2 críticos)
+ALERTAS DO DIA (47 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
 [CRÍTICO] F03 Brent cai a US$ 98,77 (-5,8% no dia ·
           cruzou US$ 100)
+[ATENÇÃO] T03 WUTI (State Street SPDR MSCI World
+          Utilities UCITS ETF (USD)) formou death
+          cross: MM50 US$ 69,95 cruzou abaixo da
+          MM200 US$ 70,15 pela 2ª sessão; preço US$
+          66,80, -4,8% da MM200, +7,4% em 12m
 [ATENÇÃO] E05 UST · The S&P 500 Yields Just 1.1%
           While 10-Year Treasury Yields Have Surged
           to 5%. This Dividend Stock Provides a
@@ -25,10 +30,7 @@ ALERTAS DO DIA (44 · 2 críticos)
 [ATENÇÃO] E03 PETR4 · Fato Relevante:
           www.petrobras.com.br/ri Para mais
           informações:
-[ATENÇÃO] E05 DI · Copom reduz taxa de juros em 0,25
-          ponto pela 5ª vez e Selic cai a 13,75% ao
-          ano
-(+36 em alertas.md)
+(+39 em alertas.md)
 
 ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
        · BBAS3 +2,2%
@@ -74,6 +76,7 @@ LEITURA DA MESA
 
 AGENDA
 seg 21/09 08:25 Relatorio Focus (BCB)
+ter 22/09 08:00 Ata do Copom (reuniao de 15-16/09)
 ter 22/09 11:00 Leilao do Tesouro: LTN/NTN-F
 qui 24/09 09:00 Relatorio de Politica Monetaria 3T26
     (BCB)
@@ -88,14 +91,14 @@ BLOCO B
 ```
 VARIAÇÃO %         últ  dia   1s   1m   6m   1a  YTD
 UCITS (USD)
-VWRA   Mundo    192,42 +0,3 +0,2 -0,4  +16  +18  +13
-CSPX   S&P500   823,11 +0,2 +0,3 -0,8  +16  +17  +11
-CNDX   Nasdaq    1.690 +0,8 +0,7 -0,3  +22  +22  +15
-VHYA   AltDiv   107,60 -0,2 -0,2 -0,6  +13  +22  +16
-WUTI   Utilit    67,42 +0,3 -1,5 -4,2 -5,9 +7,4 +1,9
-RBOT   Robot     20,94 +0,8 +0,6 -2,1  +34  +35  +28
-IUAA   RF EUA     5,66 +0,2 +0,1 -0,6 -1,3 -0,8 -1,7
-IB01   T-bill   121,86  0,0 +0,1 +0,3 +1,8 +3,7 +2,5
+VWRA   Mundo    191,66 -0,4 -1,0 -1,3  +16  +17  +12
+CSPX   S&P500   822,76  0,0 -0,6 -1,2  +17  +16  +11
+CNDX   Nasdaq    1.692 +0,1 -0,1 -0,1  +22  +20  +15
+VHYA   AltDiv   106,84 -0,7 -1,5 -1,8  +13  +22  +15
+WUTI   Utilit    66,80 -0,9 -2,1 -4,5 -5,1 +7,4 +1,0
+RBOT   Robot     21,03 +0,5 +0,1 -2,4  +36  +32  +29
+IUAA   RF EUA     5,64 -0,2 -0,3 -1,4 -1,0 -0,7 -1,9
+IB01   T-bill   121,82  0,0  0,0 +0,2 +1,8 +3,6 +2,5
 EUA (USD)
 MU     Micron    1.016 +3,9 +4,2 +8,4 +140 +502 +256
 NVDA   Nvidia   222,27 +1,3 +1,8 +2,3  +29  +26  +19

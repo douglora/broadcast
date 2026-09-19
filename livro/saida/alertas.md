@@ -1,6 +1,6 @@
 ALERTAS · Fechamento 18h40
 
-[ATENÇÃO] E05 · UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.
+(pendente de slot anterior) [ATENÇÃO] E05 · UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.
 Yahoo Finance · 19/09 17h30 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%.
@@ -14,16 +14,24 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: UST
 Como falar: 'saiu no Yahoo Finance: The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Divide…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/09 17h30
-Push: [ATENÇÃO] UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yi · detalhe na sessão
 ids: E05-UST-00277393fd-2026-09-19
 
 Info (só linha no Fechamento):
-· E05 PETR4 · Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina
+· T02 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sessão: US$ 1.692, acima da MM200 (tendência longa preservada)
+· T02 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) retomou a MM100 pela 2ª sessão: US$ 21,03, acima da MM200 (tendência longa preservada)
+· E05 BTC · Solana ETFs notch 12 consecutive weeks of inflows as Bitcoin posts its quietest week on record
+· E05 NVDA · Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center
+· E05 PETR4 · Conselho da Petrobras aprova adesão à nova subvenção do diesel
+· E05 JPM · US Treasury's Bessent, China's He to meet on Sunday at JPMorgan headquarters
+· E05 JPM · JPMorgan sends stark warning on $100 oil
+· T03 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) formou death cross: MM50 US$ 69,95 cruzou abaixo da MM200 US$ 70,15 pela 2ª sessão; preço US$ 66,80, -4,8% da MM200, +7,4% em 12m
 
+Suprimidos pelo teto (viram linha do Fechamento): T03-WUTI-death-2026-09-18 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
 · entregue  F03 BRENT — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
+· linha     T03 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) formou death cross
 · pendente  E05 UST — UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 
 · expirado  E04 MELI34 — MELI34 · 8-K: 1.01 acordo material assinado, 7.01 Regulation FD
 · expirado  E04 AMZN — AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
@@ -52,6 +60,8 @@ Alertas do dia (todos, com status):
 · entregue  T08 BAC — BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
 · entregue  F06 ETH — ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
 · entregue  S01 SISTEMA — coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINE
+· linha     T02 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sessão: US$
+· linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) retomou a MM100 pela 2ª
 · linha     T02 MU — MU retomou a MM50 pela 2ª sessão: US$ 1.016, acima da MM200 (tendência longa pre
 · linha     T02 NVDA — NVDA retomou a MM50 pela 2ª sessão: US$ 222,27, acima da MM200 (tendência longa 
 · linha     T02 TSM — TSM retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 434,67, acima da MM200 
@@ -66,4 +76,4 @@ Alertas do dia (todos, com status):
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
-· (+672 notícias só manchete, em noticias.md)
+· (+677 notícias só manchete, em noticias.md)

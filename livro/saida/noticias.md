@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/09 19h07
+NOTÍCIAS E FATOS · 19/09 20h48
 
-Pernas: noticias ok 2 novas (14 consultas; descartadas: 399 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (14 consultas; descartadas: 399 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
@@ -828,8 +828,13 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (600)
+## OUTRAS NOTÍCIAS (só manchete) (605)
 
+· BTC Solana ETFs notch 12 consecutive weeks of inflows as Bitcoin posts its quietest week on record (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6f937811094b:0-solana-etfs-notch-12-consecutive-weeks-of-inflows-as-bitcoin-posts-its-quietest-week-on-record/
+· NVDA Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-forms-alliance-build-230932870.html
+· PETR4 Conselho da Petrobras aprova adesão à nova subvenção do diesel (O Globo) https://oglobo.globo.com/economia/negocios/noticia/2026/09/19/conselho-da-petrobras-aprova-adesao-a-nova-subvencao-do-diesel.ghtml
+· JPM US Treasury's Bessent, China's He to meet on Sunday at JPMorgan headquarters (Reuters) https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-meet-sunday-jpmorgan-headquarters-2026-09-19/
+· JPM JPMorgan sends stark warning on $100 oil (Yahoo Finance) https://sg.finance.yahoo.com/news/jpmorgan-sends-stark-warning-100-011700461.html
 · PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
 · UST U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged (The Wall Street Journal) https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e
 · PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
@@ -885,9 +890,4 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · AXIA3 XP vê “tempestade antes da calmaria” para Axia Energia e mantém compra (ADVFN) https://br.advfn.com/jornal/2026/09/xp-ve-tempestade-antes-da-calmaria-para-axia-energia-e-mantem-compra
 · PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
 · MU Why Micron Stock Is Gaining Today (Barron's) https://www.barrons.com/articles/micron-stock-price-rising-7309a557
-· UST Global shares fall, Treasury yields rise as central banks double down on inflation fight (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45A0XA:0-global-shares-fall-treasury-yields-rise-as-central-banks-double-down-on-inflation-fight/
-· BTC Bitcoin Reclaims $80K After CFTC’s Crypto Proposals – HYPE, ZEC Hit New Record Highs Amid Rally (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:df8d4e079094b:0-bitcoin-reclaims-80k-after-cftc-s-crypto-proposals-hype-zec-hit-new-record-highs-amid-rally/
-· JPM Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:8148a0271094b:0-dividend-roundup-microsoft-jpmorgan-chase-mcdonald-s-broadcom-and-more/
-· ITUB4 Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-assai-brava-energia-itau-unibanco-b3-cemig-e-os-principais-destaques-desta-sexta-feira-18
-· BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
-· (+540 manchetes; lista completa em eventos/noticias.json)
+· (+545 manchetes; lista completa em eventos/noticias.json)

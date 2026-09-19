@@ -1,14 +1,14 @@
 ```
 VARIAÇÃO %       últ  dia   1s   1m  YTD
 UCITS (USD)
-VWRA   Mundo  192,42 +0,3 +0,2 -0,4  +13
-CSPX   S&P500 823,11 +0,2 +0,3 -0,8  +11
-CNDX   Nasdaq  1.690 +0,8 +0,7 -0,3  +15
-VHYA   AltDiv 107,60 -0,2 -0,2 -0,6  +16
-WUTI   Utilit  67,42 +0,3 -1,5 -4,2 +1,9
-RBOT   Robot   20,94 +0,8 +0,6 -2,1  +28
-IUAA   RF EUA   5,66 +0,2 +0,1 -0,6 -1,7
-IB01   T-bill 121,86  0,0 +0,1 +0,3 +2,5
+VWRA   Mundo  191,66 -0,4 -1,0 -1,3  +12
+CSPX   S&P500 822,76  0,0 -0,6 -1,2  +11
+CNDX   Nasdaq  1.692 +0,1 -0,1 -0,1  +15
+VHYA   AltDiv 106,84 -0,7 -1,5 -1,8  +15
+WUTI   Utilit  66,80 -0,9 -2,1 -4,5 +1,0
+RBOT   Robot   21,03 +0,5 +0,1 -2,4  +29
+IUAA   RF EUA   5,64 -0,2 -0,3 -1,4 -1,9
+IB01   T-bill 121,82  0,0  0,0 +0,2 +2,5
 EUA (USD)
 MU     Micron  1.016 +3,9 +4,2 +8,4 +256
 NVDA   Nvidia 222,27 +1,3 +1,8 +2,3  +19
