@@ -332,3 +332,20 @@ def test_sec_tenta_variantes_de_contato(monkeypatch):
     ciks, bom, tent = sec.abrir_catalogo(cli, "broadcast-livro/1.0 (+https://github.com/douglora/broadcast)", ["MU"])
     assert ciks == {"MU": 723125} and "@users.noreply.github.com" in bom
     assert tent[0]["status"] == 403 and tent[-1]["status"] == 200 and len(cli.uas) == 2
+
+
+def test_sonda_hosts_monta_a_matriz():
+    from livro.http import HttpError, Resposta
+
+    class Cli:
+        def get(self, url, headers=None, **kw):
+            ua = (headers or {}).get("User-Agent", "")
+            if "data.sec.gov" in url and "@" in ua:
+                return Resposta(404, b"<html><body>Not Found</body></html>", {}, url)
+            raise HttpError(403, "Undeclared Automated Tool", url)
+
+    m = sec.sondar_hosts(Cli(), ["robo/1.0 (+https://x)", "Fulano f@x.com"], dormir=lambda s: None)
+    assert set(m) == set(sec.ALVOS_SONDA)
+    assert m["data/submissions"]["Fulano f@x.com"]["status"] == 404
+    assert m["data/submissions"]["robo/1.0 (+https://x)"]["status"] == 403
+    assert m["www/company_tickers"]["Fulano f@x.com"]["status"] == 403
