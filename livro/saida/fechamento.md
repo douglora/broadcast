@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 15h10 BRT
-Relógios: Yahoo 15h10 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 15h20 de 19/09 BRT
+Relógios: Yahoo 15h20 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (661 · 2 críticos)
+ALERTAS DO DIA (93 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
@@ -24,14 +24,14 @@ ALERTAS DO DIA (661 · 2 críticos)
           de 52s (US$ 64,81 em 12/08) a US$ 57,73
 [ATENÇÃO] F06 ETH sobe a US$ 2.621 (+7,1% em 24h ·
           cruzou US$ 2.500)
-(+653 em alertas.md)
+(+85 em alertas.md)
 
-ALTAS  BABA +4,3% · MU +3,9% · BBAS3 +2,2% · SAPR4
-       +1,7% · NVDA +1,3%
+ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
+       · BBAS3 +2,2%
 BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% ·
        BBDC4 -1,2% · ITSA4 -1,2%
 
-NOTÍCIAS E FATOS (634 · detalhe em noticias.md)
+NOTÍCIAS E FATOS (66 · +569 manchete · noticias.md)
 · AMZN Prime Video’s Off Campus TV Show Lands Amazon
   a Big Lawsuit, Here’s Why (ComingSoon.net)
 · VALE3 Novo hotel em São José dos Campos terá
@@ -45,7 +45,7 @@ NOTÍCIAS E FATOS (634 · detalhe em noticias.md)
   Dividend Stocks Story? (Kalkine Media)
 · NVDA Nvidia-backed AI cloud firm Nscale reveals
   revenue surge in US IPO filing (TradingView)
-  (+628)
+  (+60)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83
@@ -58,7 +58,7 @@ TD (base 18/09) Pre 2029 13,85 (+4) · Pre 2031 14,10
     (+1) · IPCA+ 2050 7,19 (0) · IPCA+ 2029 7,37
     (-6)
     Implícita 2029 6,04% · 2032 6,14% · 2031/32
-    (descasado) 6,06% vs Focus IPCA 2027 4,30%
+    (descasado) 6,06%
 UST (D0) 2y 4,76 (+9) · 10y 5,01 (+7) · 30y 5,34
     (+5) · 2s10s +25 (-2)
 Regime: VIX 14,8 (-4,1%) · score risco 0/6
@@ -128,8 +128,8 @@ Macro
 USDBRL USD/BRL  5,1421 -0,2 +0,8 -1,4 -1,5 -3,2 -6,1
 DXY    DXY      100,22  0,0 +1,1 +1,4 +0,6 +2,9 +2,0
 BRENT  Brent    103,87 -0,9 -0,7  +13 -7,4  +54  +71
-BTC    BTC      81.421 +0,6 +5,4  +11  +18  -30 -7,0
-ETH    ETH       2.642 +1,2 +4,6  +14  +27  -41  -11
+BTC    BTC      80.901 +5,9 +4,8  +17  +15  -31 -7,6
+ETH    ETH       2.611 +6,7 +3,8  +16  +22  -43  -12
 MINERI Minerio   97,57 +0,2 -0,5 +2,5 -7,9 -7,3 -8,9
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
