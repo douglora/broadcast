@@ -648,13 +648,14 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
             docs = [n for n in docs if nota_nome(n) >= 3] or docs[:1]
         for nome in docs[:2]:
             url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
-            if _release_reutilizavel(anterior, url):
-                fontes["release_ri"] = f"ok ({form} de {f.get('filingDate')}; {nome}; reusado da coleta anterior)"
-                return anterior
-            doc = app.http_get(url, timeout=60, headers=SEC_HEADERS)
-            if not doc:
-                continue
-            texto, detalhe = _texto_de_download(doc)
+            reusado = _release_reutilizavel(anterior, url)
+            if reusado:
+                texto, detalhe = anterior["texto"], anterior.get("detalhe")
+            else:
+                doc = app.http_get(url, timeout=60, headers=SEC_HEADERS)
+                if not doc:
+                    continue
+                texto, detalhe = _texto_de_download(doc)
             if not texto or len(texto) < 1500:
                 continue
             cabeca = texto[:8000]
@@ -669,12 +670,13 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
                 continue
             if nota > melhor_nota:
                 melhor_nota = nota
-                melhor = _montar_release(texto, detalhe, {
+                melhor = anterior if reusado else _montar_release(texto, detalhe, {
                     "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
                     "data": f.get("filingDate"), "periodo_reportado": f.get("reportDate"), "arquivo": nome,
                     "link": url})
     if melhor:
-        fontes["release_ri"] = f"ok ({melhor['formulario']} de {melhor['data']}; {melhor['arquivo']}; {melhor['caracteres_total']} caracteres)"
+        fontes["release_ri"] = (f"ok ({melhor.get('formulario')} de {melhor.get('data')}; {melhor.get('arquivo') or melhor.get('link', '')[-40:]}; "
+                                f"{melhor.get('caracteres_total')} caracteres{'; reusado da coleta anterior' if melhor is anterior else ''})")
         return melhor
     fontes["release_ri"] = f"sem release de resultados nos ultimos {examinados} 8-K/6-K"
     return {}
@@ -901,9 +903,10 @@ CVM_ESPERADO = {
     "passivo_circulante": r"^PASSIVO CIRCULANTE", "passivo_nao_circulante": r"^PASSIVO NAO CIRCULANTE",
     "emprestimos_curto_prazo": r"^EMPRESTIMOS E FINANCIAMENTOS", "emprestimos_longo_prazo": r"^EMPRESTIMOS E FINANCIAMENTOS",
     "patrimonio_liquido_consolidado": r"^PATRIMONIO LIQUIDO",
-    "receita_liquida": r"^RECEITA", "custos": r"^(CUSTO|DESPESAS DA? INTERMEDIACAO)",
+    "receita_liquida": r"^RECEITA", "custos": r"^(CUSTO|DESPESAS D[AE] INTERMEDIACAO)",
     "resultado_bruto": r"^RESULTADO BRUTO",
-    "despesas_receitas_operacionais": r"(DESPESAS/RECEITAS OPERACIONAIS|RECEITAS/DESPESAS OPERACIONAIS|RECEITAS \(DESPESAS\) OPERACIONAIS)",
+    # normalizar() troca "/" e parenteses por espaco: "Despesas/Receitas Operacionais" vira "DESPESAS RECEITAS OPERACIONAIS"
+    "despesas_receitas_operacionais": r"(DESPESAS RECEITAS OPERACIONAIS|RECEITAS DESPESAS OPERACIONAIS|DESPESAS E RECEITAS OPERACIONAIS)",
     "ebit": r"^RESULTADO ANTES DO RESULTADO FINANCEIRO", "resultado_financeiro": r"^RESULTADO FINANCEIRO",
     "resultado_antes_ir": r"^RESULTADO ANTES DOS TRIBUTOS", "imposto_renda": r"^IMPOSTO DE RENDA",
     "resultado_operacoes_continuadas": r"^RESULTADO LIQUIDO DAS OPERACOES CONTINUADAS",
@@ -915,7 +918,7 @@ CVM_ESPERADO = {
 # grupo do codigo, profundidade maxima do codigo).
 CVM_SEMANTICAS = {
     "patrimonio_liquido_consolidado": (r"^PATRIMONIO LIQUIDO", "2", 2),
-    "lucro_liquido_consolidado": (r"^(LUCRO/PREJUIZO( LIQUIDO)?( CONSOLIDADO)? DO (PERIODO|EXERCICIO)|"
+    "lucro_liquido_consolidado": (r"^(LUCRO PREJUIZO( LIQUIDO)?( CONSOLIDADO)? DO (PERIODO|EXERCICIO)|"
                                   r"LUCRO OU PREJUIZO( LIQUIDO)?( CONSOLIDADO)?( DO (PERIODO|EXERCICIO))?|"
                                   r"LUCRO LIQUIDO( CONSOLIDADO)?( DO (PERIODO|EXERCICIO))?|"
                                   r"RESULTADO LIQUIDO DO (PERIODO|EXERCICIO))$", "3", 2),
@@ -924,8 +927,8 @@ CVM_SEMANTICAS = {
     "resultado_antes_ir": (r"^RESULTADO ANTES DOS TRIBUTOS", "3", 2),
     "imposto_renda": (r"^IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL", "3", 2),
     "caixa_equivalentes": (r"^CAIXA E EQUIVALENTES", "1", 3),
-    "carteira_credito": (r"^(OPERACOES DE CREDITO|EMPRESTIMOS E ADIANTAMENTOS A CLIENTES|EMPRESTIMOS E RECEBIVEIS|"
-                         r"CARTEIRA DE CREDITO|OPERACOES DE CREDITO E ARRENDAMENTO)", "1", 3),
+    "carteira_credito": (r"^(OPERACOES DE CREDITO|EMPRESTIMOS E ADIANTAMENTOS|EMPRESTIMOS E RECEBIVEIS|"
+                         r"CARTEIRA DE CREDITO|EMPRESTIMOS E FINANCIAMENTOS A CLIENTES|OPERACOES DE CREDITO E ARRENDAMENTO)", "1", 4),
     "depositos": (r"^DEPOSITOS( DE CLIENTES)?$", "2", 3),
 }
 _CVM_ZIPS = {}
@@ -1184,8 +1187,8 @@ def _oficial(dados):
         st, ltm = cvm["serie_trimestral"], cvm.get("ltm") or {}
         rec, ebit, ll, pl, fin = ("receita_liquida", "ebit", "lucro_liquido_consolidado",
                                   "patrimonio_liquido_consolidado", "resultado_financeiro")
-        if ltm.get("lucro_atribuido_controladores"):
-            ll = "lucro_atribuido_controladores"   # o lucro que cabe ao acionista, sem minoritarios
+        if not ltm.get("lucro_liquido_consolidado") and ltm.get("lucro_atribuido_controladores"):
+            ll = "lucro_atribuido_controladores"   # plano IFRS de banco: so a linha dos controladores tem 3 meses
         out = {"fonte": "CVM ITR/DFP consolidado", "unidade": "R$ milhoes",
                "plano_de_contas": cvm.get("plano_de_contas", "geral"), "conta_lucro": ll}
     elif sec.get("trimestral"):
@@ -1263,12 +1266,13 @@ def linha_comparativa(dados):
         "gerado_em": dados.get("gerado_em"), "moeda": info.get("currency"),
         "simbolo_base": base.get("simbolo"),
         "preco": preco, "valor_mercado": info.get("marketCap"), "ev": info.get("enterpriseValue"),
-        "pl_12m": _primeiro(info.get("trailingPE"), calc.get("pl_12m"), fn.get("P L")),
+        # Papel da B3: Fundamentus primeiro (padrao brasileiro, consistente no grupo); BDR e EUA: Yahoo da acao-mae
+        "pl_12m": _primeiro(fn.get("P L"), calc.get("pl_12m"), info.get("trailingPE")),
         "pl_projetado": _primeiro(info.get("forwardPE"), calc.get("pl_projetado")),
-        "pvp": _primeiro(info.get("priceToBook"), calc.get("pvp"), fn.get("P VP")),
-        "ev_ebitda": _primeiro(info.get("enterpriseToEbitda"), calc.get("ev_ebitda"), fn.get("EV EBITDA")),
-        "dy_12m": _primeiro(calc.get("dy_12m"), _fracao_dy(info.get("dividendYield")), fn.get("DIV YIELD")),
-        "roe": _primeiro(info.get("returnOnEquity"), fn.get("ROE")),
+        "pvp": _primeiro(fn.get("P VP"), calc.get("pvp"), info.get("priceToBook")),
+        "ev_ebitda": _primeiro(fn.get("EV EBITDA"), calc.get("ev_ebitda"), info.get("enterpriseToEbitda")),
+        "dy_12m": _primeiro(calc.get("dy_12m"), fn.get("DIV YIELD"), _fracao_dy(info.get("dividendYield"))),
+        "roe": _primeiro(fn.get("ROE"), info.get("returnOnEquity")),
         "roic": fn.get("ROIC"),
         "margem_bruta": _primeiro(info.get("grossMargins"), fn.get("MARG BRUTA")),
         "margem_ebitda": info.get("ebitdaMargins"),
