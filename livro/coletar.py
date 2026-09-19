@@ -352,7 +352,8 @@ class Coleta:
         try:
             s = sec.coletar(cfg.get("sec") or {}, hoje=hoje_brt, dias=int(s_cfg.get("dias", 3)),
                             formularios=cfg.get("sec_formularios"), vistos=vistos.get("sec"),
-                            max_docs=int(s_cfg.get("max_docs_por_run", 6)))
+                            max_docs=int(s_cfg.get("max_docs_por_run", 6)),
+                            dias_primeira_vez=int(s_cfg.get("dias_primeira_vez", 15)))
             if not s.get("disponivel"):
                 self.pernas["sec"] = f"indisponível ({s.get('motivo')})"
             else:
@@ -360,8 +361,8 @@ class Coleta:
                 vistos["sec"] = s["vistos"]
                 gravar_json(os.path.join(self.saida, "eventos", "sec.json"), {k: v for k, v in s.items() if k != "vistos"})
                 contato = str(s.get("ua_usado") or "")
-                self.pernas["sec"] = (f"ok {len(s['filings'])} novos"
-                                      + (f" (contato: {contato[:48]})" if contato else "")
+                self.pernas["sec"] = (f"ok {len(s['filings'])} novos em {s.get('janela_dias', '?')} dias"
+                                      + (" (primeira coleta)" if s.get("primeira_coleta") else "")
                                       + (f"; falhas {list(s['falhas'])}" if s["falhas"] else ""))
                 if s.get("falhas"):
                     self.falhas["sec"] = "; ".join(f"{k}: {v}" for k, v in s["falhas"].items())[:300]

@@ -146,6 +146,7 @@ E03_CVM:
 
 E04_SEC:
   dias: 3
+  dias_primeira_vez: 15    # primeira coleta semeia o estado com janela larga
   max_docs_por_run: 6
 
 E05_NOTICIA:

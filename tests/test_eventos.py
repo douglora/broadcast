@@ -352,3 +352,29 @@ def test_sonda_hosts_monta_a_matriz():
     assert m["data/submissions"]["Fulano f@x.com"]["status"] == 404
     assert m["data/submissions"]["robo/1.0 (+https://x)"]["status"] == 403
     assert m["www/company_tickers"]["Fulano f@x.com"]["status"] == 403
+
+
+def test_sec_primeira_coleta_usa_janela_larga():
+    import json as _json
+    from livro.http import Resposta
+    cat = _json.dumps({"0": {"cik_str": 723125, "ticker": "MU", "title": "MICRON"}}).encode()
+    subm = open(os.path.join(RAW, "sec_submissions_sample.json"), "rb").read()
+
+    class Cli:
+        def get(self, url, **kw):
+            if "company_tickers" in url:
+                return Resposta(200, cat, {}, url)
+            if "submissions" in url:
+                return Resposta(200, subm, {}, url)
+            return Resposta(200, b"<html><p>Revenue was $14.2 billion</p></html>", {"content-type": "text/html"}, url)
+
+    hoje = date(2026, 9, 19)
+    # sem vistos: janela larga alcanca o 10-K de 01/09
+    r = sec.coletar({"MU": "MU"}, cli=Cli(), hoje=hoje, dias=3, vistos=None, ua="X f@x.com", dormir=lambda s: None)
+    assert r["primeira_coleta"] and r["janela_dias"] == 15
+    # janela de 15 dias a partir de 19/09 comeca em 04/09: pega os dois 8-K, nao o 10-K de 01/09
+    assert [f["form"] for f in r["filings"]] == ["8-K", "8-K"] and r["ciks"] == {"MU": 723125}
+    assert {f["data"] for f in r["filings"]} == {"2026-09-18", "2026-09-17"}
+    # com vistos: volta para a janela curta e nao repete o que ja viu
+    r2 = sec.coletar({"MU": "MU"}, cli=Cli(), hoje=hoje, dias=3, vistos=r["vistos"], ua="X f@x.com", dormir=lambda s: None)
+    assert not r2["primeira_coleta"] and r2["janela_dias"] == 3 and r2["filings"] == []
