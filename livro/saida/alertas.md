@@ -1,32 +1,52 @@
 ALERTAS · Fechamento 18h40
 
-[ATENÇÃO] M03 · Focus de 11/09: IPCA: 2026 4,90% (-10 bps) · 2027 4,30% (+1 bps)
-Selic fim de ano: 2026 13,75% (0 bps) · 2027 12,00% (0 bps)
-Câmbio fim de ano: 2026 R$ 5,20 (0,00) · 2027 R$ 5,28 (0,00)
-Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
-Ativos: DI · Tesouro · USD/BRL
-Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
-Fonte: BCB Focus (Olinda) 11/09
-Push: [ATENÇÃO] MACRO Focus de 11/09 · detalhe na sessão
-ids: M03-MACRO-focus-2026-09-11
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: www.petrobras.com.br/ri Para mais informações:
+CVM · entregue 19/09/2026 14:05
+Do documento:
+  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569745
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre www.petrobras.com.br/ri Para mais informações:'
+Fonte: CVM 19/09
+Push: Fechamento 18h40: 2 alertas de atenção — E03 PETR4, E05 DI · detalhe na sessão
+ids: E03-PETR4-1569745-2026-09-19
+
+[ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
+Estadao · 19/09 03h44 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/economia/copom-reduz-taxa-de-juros-em-025-ponto-pela-5-vez-e-selic-cai-a-1375-ao-ano/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Estadao: Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano; confirmar o número no texto antes de repassar'
+Fonte: Estadao 19/09 03h44
+ids: E05-DI-7899381ad6-2026-09-19
 
 Info (só linha no Fechamento):
-· C06 Inflação implícita: implícita 2029 +244 bps acima do Focus · implícita 2032 +258 bps acima do Focus · implícita 2031/32 (descasado) +250 bps acima do Focus
-· C08 UST 2s10s +25 bps: na mínima de 252 pregões (18/09)
-· T02 VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendência de baixa)
-· T02 SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tendência de baixa)
-· F06 BTC sobe a US$ 81.629 (cruzou US$ 80.000)
-· E05 BRENT · Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado
-· E05 ITUB4 · IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em 800 ações com retorno de 23% ao ano sem dor de cabeça
-· T05 BTC +6,8% no dia a US$ 81.629: movimento de 3,3 desvios para uma vol de 20 dias de 32% a.a.
-· T05 ETH +7,3% no dia a US$ 2.626: movimento de 3,3 desvios para uma vol de 20 dias de 34% a.a.
-· T10 BBAS3 no máximo de força relativa em 63 sessões contra IBOV: +29% vs +10% em 20 sessões (+17% relativo)
-· T10 DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20 sessões (-13% relativo)
-· T11 BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessões, 2º dia)
-· F06 ETH sobe a US$ 2.626 (+7,3% em 24h · cruzou US$ 2.500)
-· S01 coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01
+· T02 MU retomou a MM50 pela 2ª sessão: US$ 1.016, acima da MM200 (tendência longa preservada)
+· T02 NVDA retomou a MM50 pela 2ª sessão: US$ 222,27, acima da MM200 (tendência longa preservada)
+· T02 TSM retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 434,67, acima da MM200 (tendência longa preservada)
+· T02 MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa preservada)
+· T02 GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa preservada)
+· T02 NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa preservada)
+· E03 PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 BTC · Bitcoin ETFs eke out positive week with $433 million Friday inflow as ether funds snap four-week inflow streak
+· E05 PETR4 · Conselho da Petrobras aprova adesão a nova subvenção que neutralizará alta no diesel
+· E05 PETR4 · Petrobras batiza primeiro navio a navegar com tripulação 100% feminina
+· E05 BTC · This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know
+· E05 BTC · “Vender Bitcoin não deveria ser um tabu”, diz CEO da OranjeBTC
+· E05 BABA · ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages
+· E05 BTC · Bitcoin ETFs Add $324.6M As Fidelity Dominates Friday Flows
+· E05 BAC · Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside
+· E05 EQTL3 · Entenda onde está e como será explorado o petróleo na Margem Equatorial
+· E05 DI · Tesouro IPCA+ 2032 volta a subir e prefixados ganham prêmio antes de Fed e Copom
+· E05 BTC · Bitcoin is back at $80,000 as rest of crypto joins the rally: Chart of the Day
+· E05 DI · Yduqs (YDUQ3) ganha força com alívio na curva de juros e CSN Mineração (CMIN3) é a pior ação da semana; confira os destaques do Ibovespa
+· E05 DI · Corte da Selic, discussões sobre IA e BDRs no Ibovespa; veja os destaques da semana
+· E05 DI · Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real
+· E05 UST · Stocks Adjust to a ‘New Normal’ for 10-Year Treasury Rates
+· C06 Inflação implícita: implícita 2029 +21 bps na semana · implícita 2029 cruzou 6,00% · implícita 2032 +264 bps acima do Focus
 
-Suprimidos pelo teto (viram linha do Fechamento): T05-BTC-alta-2026-09-19 (teto de atenção), T05-ETH-alta-2026-09-19 (teto de atenção), T10-BBAS3-máximo-2026-09-18 (teto de atenção), T10-DIRR3-mínimo-2026-09-18 (teto de atenção), T11-BBAS3-ITUB4_acima-2026-09-18 (teto de atenção), F06-ETH-alta-2026-09-19 (teto de atenção), S01-SISTEMA-fechamento-2026-09-18 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): C06-TESOURO-implicita-2026-09-18 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
@@ -109,6 +129,7 @@ Alertas do dia (todos, com status):
 · linha     T10 DIRR3 — DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20
 · linha     T11 BBAS3 — BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessõ
 · linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, C
+· linha     C06 TESOURO — Inflação implícita: implícita 2029 +21 bps na semana · implícita 2029 cruzou 6,0
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
@@ -682,4 +703,10 @@ Alertas do dia (todos, com status):
 · linha     T02 VALE3 — VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendê
 · linha     T02 SBSP3 — SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tend
 · linha     E05 BRENT — BRENT · Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cit
-· linha     E05 ITUB4 — ITUB4 · IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em
+· linha     E05 ITUB4 — ITUB4 · IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em 
+· linha     T02 MU — MU retomou a MM50 pela 2ª sessão: US$ 1.016, acima da MM200 (tendência longa pre
+· linha     T02 NVDA — NVDA retomou a MM50 pela 2ª sessão: US$ 222,27, acima da MM200 (tendência longa 
+· linha     T02 TSM — TSM retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 434,67, acima da MM200 
+· linha     T02 MMM — MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa 
+· linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa
+· linha     T02 NOK — NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa pr
