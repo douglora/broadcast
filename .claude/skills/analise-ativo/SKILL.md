@@ -1,6 +1,6 @@
 ---
 name: analise-ativo
-description: Analise aprofundada de um ativo da B3 ou BDR no padrao de analista senior de sell-side, para o Douglas (assessor de investimentos). Dispara quando ele manda um ticker sozinho ("PETR4", "MELI34"), ou frases como "me fala de X", "analise de X", "como esta X", "X vs Y", "X pos-resultado", "X rapido", "X para cliente conservador", "carteira: X, Y, Z". Antes de escrever, garante que o coletor (GitHub Actions) puxou as demonstracoes oficiais direto da fonte (ITR/DFP na CVM, XBRL na SEC) e o release de resultados do RI, para o ativo e para os pares do grupo, e le tudo do branch `dados`. Sempre faz o aprofundamento (trajetoria de margens, custo da divida, geracao de caixa, modelo de negocio, pares contra a mediana) e so entao monta a nota com fonte e data em cada numero. Nao recomenda; apresenta.
+description: Analise aprofundada de um ativo da B3 ou BDR no padrao de analista senior de sell-side, para o Douglas (assessor de investimentos). Dispara quando ele manda um ticker sozinho ("PETR4", "MELI34"), ou frases como "me fala de X", "analise de X", "como esta X", "X vs Y", "X pos-resultado", "X rapido", "X para cliente conservador", "carteira: X, Y, Z". Antes de escrever, garante que o coletor (GitHub Actions) puxou as demonstracoes oficiais direto da fonte (ITR/DFP na CVM, XBRL na SEC) e os 8 ultimos releases de resultado do RI, para o ativo e para os pares do grupo, e le tudo do branch `dados`. Sempre faz o aprofundamento (trajetoria de margens, custo da divida, geracao de caixa, modelo de negocio, pares contra a mediana, discurso da gestao contra entrega) e so entao monta a nota com fonte e data em cada numero. Nao recomenda; apresenta.
 ---
 
 # Analise de ativo (mesa de analise do BROADCAST)
@@ -42,11 +42,14 @@ grava no branch `dados`. Para cada ativo ele puxa, nesta ordem de autoridade:
    dados abertos da CVM, para companhias da B3; XBRL dos 10-Q, 10-K e 20-F na
    SEC, para papeis dos EUA, ADRs e a acao-mae dos BDRs. Series trimestrais
    limpas, com o 4T derivado do anual e LTM pronto.
-2. Release de resultados do RI: a copia oficial do mesmo PDF que a empresa
-   publica no site de RI, entregue a CVM (IPE, "Press-release") ou a SEC
-   (8-K item 2.02 / 6-K, exhibit 99). Texto integral no JSON (`release_ri`).
-   E onde estao GMV, NIMAL, same-store sales, guidance, divida por moeda e
-   custo, vencimentos, numero de clientes: nada disso existe no agregador.
+2. Releases de resultado do RI, os 8 ultimos trimestres: a copia oficial do
+   mesmo PDF que a empresa publica no site de RI, entregue a CVM (IPE,
+   "Press-release" ou "Relatorio de Analise Gerencial") ou a SEC (8-K item
+   2.02 / 6-K, exhibit 99). O mais novo vem inteiro no JSON do ativo
+   (`release_ri`); os 8 ficam em `releases/<TICKER>/` no branch, indexados em
+   `releases_historico`. E onde estao GMV, NIMAL, same-store sales, guidance,
+   divida por moeda e custo, vencimentos, numero de clientes: nada disso
+   existe no agregador. E e o unico jeito de cobrar o que a gestao prometeu.
 3. Yahoo (preco, historico, consenso, noticias), Fundamentus (indicadores no
    padrao brasileiro), CVM IPE (fatos relevantes), BCB (macro), TIR da casa.
 
@@ -86,7 +89,8 @@ Esta pronto para usar quando TODAS as condicoes valem:
   anterior ao `gerado_em` (dado velho sem resultado novo ainda serve para
   demonstracoes; preco e consenso ficam marcados com a data);
 - ha bloco oficial (`cvm_demonstracoes.serie_trimestral` ou `sec_xbrl.ltm`,
-  no BDR dentro de `subjacente_us`) e `release_ri` com texto;
+  no BDR dentro de `subjacente_us`), `release_ri` com texto e
+  `releases_historico` com pelo menos 4 trimestres;
 - o comparativo do grupo existe e as linhas dos pares nao sao mais velhas que
   7 dias.
 
@@ -124,9 +128,16 @@ no arquivo.
 
 ### 2c. Ordem de leitura
 
-1. `release_ri.texto` (no BDR: `subjacente_us.release_ri.texto`): leia
-   inteiro, com `grep -n -i` para "divida|debenture|notes|CDI|dolar|USD|
-   guidance|GMV|margem|clientes|carteira". E o documento do RI.
+1. `release_ri.texto`: leia inteiro, com `grep -n -i` para
+   "divida|debenture|notes|CDI|dolar|USD|guidance|GMV|margem|clientes|
+   carteira". E o documento do RI, e no BDR e o release da acao-mae.
+   Para o historico, `releases_historico` lista os 8 trimestres com
+   `periodo`, `data` e `arquivo`; baixe o que precisar:
+
+   ```bash
+   curl -sS --max-time 20 https://raw.githubusercontent.com/douglora/broadcast/dados/releases/MELI34/index.json
+   curl -sS --max-time 30 https://raw.githubusercontent.com/douglora/broadcast/dados/releases/MELI34/2026-05-06.txt -o /tmp/rel_1T26.txt
+   ```
 2. Series oficiais: `cvm_demonstracoes.serie_trimestral`, `ltm`,
    `descricao_contas`, `plano_de_contas`; ou `sec_xbrl.trimestral`, `ltm`,
    `derivados`, `instantaneas`. Em ADR de brasileira, `sec_xbrl_adr` e a
@@ -153,7 +164,8 @@ no arquivo.
 | `cvm_demonstracoes.dfp_anual` / `itr_trimestral` | contas cruas como a CVM publica (periodo `inicio..fim`)         |
 | `sec_xbrl` / `subjacente_us.sec_xbrl`  | linhas do XBRL (US$): `trimestral` com rotulo `CY2026Q2`, `anual`, `ltm`, `derivados` (4T), `instantaneas` (balanco), `tags_usadas`, `desatualizadas` (tag que a empresa parou de usar; fora do LTM) |
 | divida no `sec_xbrl`                   | `divida_curto_prazo` e `divida_longo_prazo` somam; `divida_total` (tag LongTermDebt) ja e o total e NUNCA se soma a elas. Linhas de fluxo de caixa (capex, caixa operacional) so tem frame no 1T: para os demais trimestres use o release |
-| `release_ri` / `subjacente_us.release_ri` | texto integral do release de resultados (fonte, assunto, data, link, `cortado` se passou de 70 mil caracteres) |
+| `release_ri`                           | texto integral do release mais recente: `periodo` (2T26), `data`, `assunto` ou `formulario`, `fonte`, `link`, `cortado` se passou de 150 mil caracteres. No BDR, e o release da acao-mae |
+| `releases_historico`                   | indice dos 8 ultimos releases, sem texto: `periodo`, `data`, `assunto`, `link`, `arquivo` (caminho no branch) e `caracteres_total`. Buraco na serie significa trimestre que o coletor ainda nao alcancou, nao trimestre sem release |
 | `cvm.documentos_resultado`             | releases e apresentacoes de resultado do ano no IPE, com link          |
 | `pares`                                | grupo, tipo (financeiro ou operacional), tickers e o arquivo do comparativo |
 | `subjacente_us`                        | BDR: acao-mae nos EUA (Yahoo, SEC, release) e `paridade_implicita`       |
@@ -252,7 +264,25 @@ contra o melhor e o pior par. Regras:
 - Cite `gerado_em` da linha quando o par esta com dado mais velho que o
   ativo.
 
-### 4.6 Gargalos e planos de crescimento
+### 4.6 Discurso contra entrega (use o historico de releases)
+
+Com 8 trimestres de release no branch, cobre a gestao pelo que ela mesma
+disse. Abra pelo menos o release de 4 trimestres atras e o do mesmo trimestre
+do ano anterior, e compare com o que saiu:
+
+- Guidance e meta: o que a empresa prometeu (margem, abertura de lojas,
+  carteira, capex, sinergia) e o que entregou. Cite a frase e o numero.
+- Mudanca de metrica: empresa que troca de KPI, muda definicao de ajustado ou
+  passa a destacar outra linha costuma estar escondendo a que piorou.
+- Mudanca de enquadramento: pedir para o mercado olhar o sequencial em vez do
+  anual, ou "ex-efeitos", e sinal de base de comparacao ruim pela frente.
+- Recorrencia do "extraordinario": item nao recorrente que aparece em quatro
+  trimestres seguidos e recorrente.
+- Se a empresa nao da guidance nenhum, diga isso com todas as letras: a tese
+  passa a depender so de execucao observada, e o preco precisa ser julgado
+  pelo que ele exige, nao pelo que a empresa promete.
+
+### 4.7 Gargalos e planos de crescimento
 
 Do release, do guidance e dos fatos relevantes: o que limita o crescimento
 (capital, logistica, regulacao, concorrencia, capacidade, credito) e o que a
@@ -280,7 +310,8 @@ de mercado, ultimo resultado lido (assunto e data do `release_ri`).
 7. **Consenso e debates.** Quantos compram, quantos vendem, preco-alvo medio
    e implicito de alta ou baixa; os dois ou tres debates que dividem o mercado.
 8. **Catalisadores e gargalos.** Datas (proximo resultado, dividendos, eventos
-   da CVM) e o 4.6.
+   da CVM) e o 4.7. Quando o historico de releases mostrar promessa nao
+   cumprida ou mudanca de metrica (4.6), isso entra aqui e nos riscos.
 9. **Riscos.** O que derruba a tese, em ordem de probabilidade x impacto.
 10. **Como eu colocaria para o cliente.** Duas frases em linguagem de
     assessor, perfil conservador e perfil arrojado.
@@ -316,9 +347,13 @@ a lado. Variante resultado: 4.1 e o release viram o corpo; ofereca
 
 - Coleta nao terminou em 10 minutos: escreva com o que existe, marque cada
   bloco ausente e ofereca refazer.
-- `release_ri` vazio (empresa sem press-release no IPE do ano, ou SEC sem
-  8-K/6-K de resultado): use `cvm.documentos_resultado` para o link e diga
-  que o texto nao foi lido; pedir ao Douglas o PDF resolve.
+- `release_ri` vazio (empresa sem press-release no IPE, ou SEC sem 8-K/6-K de
+  resultado): use `cvm.documentos_resultado` para o link e diga que o texto
+  nao foi lido; pedir ao Douglas o PDF resolve.
+- `releases_historico` com menos de 8 trimestres: o coletor tem orcamento de
+  tempo por ativo e completa o historico nas coletas seguintes. Diga quantos
+  trimestres voce leu e rode a coleta de novo se o Douglas quiser a serie
+  cheia. A fonte `release_ri` avisa quando o orcamento estourou.
 - `cvm_demonstracoes` vazio ou de outra empresa: confira `cvm.empresa_escolhida`
   e `cvm.empresas_casadas`; se o coletor casou a companhia errada, diga qual
   e proponha corrigir o casamento no coletor; enquanto isso, use
