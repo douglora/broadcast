@@ -386,6 +386,10 @@ def assunto_de_texto(texto: str | None, categoria: str = "", empresa: str = "") 
             continue
         if nuc_emp and n.startswith(nuc_emp) and len(n) < len(nuc_emp) + 15:
             continue
+        # rodape de PDF do RI (site, e-mail, telefone, 'para mais informacoes') nao e assunto
+        if re.search(r"(?i)(www\.|https?://|\S+@\S+|para mais informa|demais informa[cç][oõ]es|"
+                     r"rela[cç][oõ]es com investidores|\+55\s*\(?\d|tel\.?\s*:?\s*\+?\d)", l):
+            continue
         candidatas.append(l)
         if len(candidatas) >= 6:
             break

@@ -5,7 +5,7 @@ renderiza as saidas e grava livro/saida/manifest.json.
 Layout no branch dados (raiz = dados_branch/livro):
   series/<SIMBOLO_SAFE>.json   curvas/{di,tesouro,ust}.json   macro/{bcb,focus,proxies,regime}.json
   estado/{regras_estado.json,alertas.json,historico_alertas.jsonl}
-  saida/{manifest.json,fechamento.md,fechamento.json,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
+  saida/{manifest.json,fechamento.md,fechamento.json,painel.html,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
   eventos/{noticias,cvm,sec}.json   noticias/vistos.json   noticias/corpo/<id>.json
   sonda/cobertura.json   universo.json"""
 
@@ -15,7 +15,7 @@ import os
 import time
 from datetime import datetime, timezone
 
-from livro import fmt, politica, relogios, render
+from livro import fmt, painel, politica, relogios, render
 from livro import indicadores as ind
 from livro import universo as uni
 from livro.estado import Repositorio
@@ -476,6 +476,12 @@ class Coleta:
             "alertas_do_dia": do_dia, "lacunas": lacunas, "relogios": relogios_txt,
             "push_sugerido": self._push_fechamento(do_dia, mov, ins),
         })
+        # painel HTML: a mesma coleta virada pagina; a sessao so troca o marcador da
+        # leitura e publica como Artifact
+        with open(os.path.join(saida, "painel.html"), "w", encoding="utf-8") as f:
+            f.write(painel.pagina(self.u, self.hoje, self.modo, hora_txt, relogios_txt, janelas,
+                                  self.series_info, do_dia, ins, mov, agenda_l, lacunas, notas,
+                                  fontes, parcial=parcial))
         out.update({"lacunas": len(lacunas), "tamanho_a": len(a_txt), "tamanho_b": len(b_txt)})
         return out
 
@@ -519,7 +525,9 @@ class Coleta:
             extras.append("alta " + ", ".join(f"{i} {fmt.pct(v)}" for i, v in mov["altas"][:2]))
         if mov.get("baixas"):
             extras.append("queda " + ", ".join(f"{i} {fmt.pct(v)}" for i, v in mov["baixas"][:2]))
-        fim = f"{len(do_dia)} alertas. Leitura na sessão."
+        # conta o que o Douglas vai de fato ler, nao a fila inteira do runner
+        lidos = [x for x in do_dia if x.get("canal") == "mensagem"]
+        fim = f"{len(lidos)} alertas. Leitura na sessão."
 
         def montar(ps: list[str]) -> str:
             return (cab + " " + "; ".join(ps) + ". " + fim) if ps else (cab + " " + fim)

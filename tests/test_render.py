@@ -108,7 +108,9 @@ def test_bloco_a_nao_conta_manchete_no_digest():
     a = render.bloco_a(date(2026, 9, 18), "Yahoo 18h40", do_dia, [], {}, ["DI"], ["agenda"], [], ["Yahoo"])
     assert "ALERTAS DO DIA (2 · 1 crítico)" in a
     plano = " ".join(a.split())
-    assert "NOTÍCIAS E FATOS (1 com materialidade · 601 só manchete · noticias.md)" in plano
+    # a contagem de manchetes sem materialidade so existe em noticias.md
+    assert "NOTÍCIAS E FATOS (1 com materialidade · noticias.md)" in plano
+    assert "601 só manchete" not in plano
     assert "manchete 0" not in a and "cortada pelo teto" not in a
     md = render.alertas_md({"mensagens": [], "linhas_info": [], "suprimidos": []}, do_dia, "Fechamento 18h40")
     assert "(+601 notícias só manchete, em noticias.md)" in md and "manchete 0" not in md
