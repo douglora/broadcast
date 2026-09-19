@@ -68,12 +68,20 @@ class Repositorio:
         return sorted([v for v in self.fila.values() if v.get("data") == data_iso or v.get("gerado_em", "")[:10] == data_iso],
                       key=lambda v: ({"critico": 0, "atencao": 1, "info": 2}.get(v.get("severidade"), 3), v.get("gerado_em", "")))
 
-    def podar(self, dias: int = 30) -> None:
+    def podar(self, dias: int = 30, dias_manchete: int = 2) -> None:
+        """Alerta sai da fila apos `dias`; noticia ou fato que nunca virou mensagem sai
+        em `dias_manchete` (senao o backlog de manchetes entope o digest do dia)."""
         corte = agora_iso()[:10]
         ano, mes, dia = map(int, corte.split("-"))
         from datetime import date, timedelta
-        limite = (date(ano, mes, dia) - timedelta(days=dias)).isoformat()
-        self.fila = {k: v for k, v in self.fila.items() if v.get("gerado_em", "")[:10] >= limite}
+        hoje = date(ano, mes, dia)
+        limite, limite_manchete = (hoje - timedelta(days=dias)).isoformat(), (hoje - timedelta(days=dias_manchete)).isoformat()
+        def fica(v: dict) -> bool:
+            gerado = v.get("gerado_em", "")[:10]
+            if v.get("familia") in ("noticia", "evento") and v.get("canal") != "mensagem":
+                return gerado >= limite_manchete
+            return gerado >= limite
+        self.fila = {k: v for k, v in self.fila.items() if fica(v)}
 
     def _historico(self, a: Alerta, slot: str) -> None:
         linha = {"id": a.id, "regra": a.regra, "ativo": a.ativo, "severidade": a.severidade, "data": a.data,

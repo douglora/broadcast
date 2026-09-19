@@ -77,9 +77,10 @@ class Coleta:
             return
         rng = "5d" if self.modo == "intradia" else "2y"
         novas, falhas = yahoo.coletar(simbolos, rng)
-        ok, recuperados = 0, []
+        ok, recuperados, reprecificadas = 0, [], []
         for s in simbolos:
-            # mesclar une por data (intradia com range=5d e fechamento com 2y): nada se perde
+            # mesclar une por data (intradia com range=5d e fechamento com 2y): nada se perde,
+            # salvo quando a serie inteira foi reprecificada (rolagem de futuro, split)
             final = yahoo.mesclar(self._carregar_serie_local(s), novas.get(s))
             if final:
                 gravar_json(os.path.join(self.saida, "series", f"{uni.nome_seguro(s)}.json"), final)
@@ -87,9 +88,16 @@ class Coleta:
                     ok += 1
                 if final.get("barras_recuperadas"):
                     recuperados.append(s)
+                if final.get("reprecificada"):
+                    obj = self.u.por_yahoo(s)
+                    reprecificadas.append(f"{getattr(obj, 'id', s)} {fmt.pct(final['reprecificada'], 1, False)}")
         self.pernas["yahoo"] = (f"ok {ok}/{len(simbolos)}"
                                 + (f"; {len(recuperados)} séries com barra do Yahoo faltando (recuperada do histórico)" if recuperados else "")
+                                + (f"; série reprecificada (rolagem/split): {', '.join(reprecificadas)}" if reprecificadas else "")
                                 + (f"; falhas: {', '.join(f'{k} {v}' for k, v in list(falhas.items())[:6])}" if falhas else ""))
+        if reprecificadas:
+            self.falhas["series_reprecificadas"] = ("histórico refeito pelo Yahoo em " + ", ".join(reprecificadas)
+                                                    + " (rolagem de contrato ou split): comparações com dias anteriores mudam de base")
         if falhas:
             self.falhas["yahoo"] = f"{len(falhas)} símbolos falharam ({', '.join(list(falhas.values())[:3])})"
         self._montar_dataframes(simbolos, falhas)
@@ -199,21 +207,40 @@ class Coleta:
         # BCB, Focus, proxies
         try:
             b = bcb.coletar_sgs()
-            gravar_json(os.path.join(self.saida, "macro", "bcb.json"), b)
-            self.macro["bcb"] = b
-            self.pernas["bcb"] = f"ok {len(b.get('series', {}))} séries"
+            faltando = [k for k in bcb.SERIES if k not in (b.get("series") or {})]
+            if b.get("series"):
+                gravar_json(os.path.join(self.saida, "macro", "bcb.json"), b)
+                self.macro["bcb"] = b
+            else:
+                self.macro["bcb"] = ler_json(os.path.join(self.saida, "macro", "bcb.json"), {}) or {}
+            n, total = len(b.get("series") or {}), len(bcb.SERIES)
+            self.pernas["bcb"] = f"ok {n}/{total} séries" + (f"; faltaram {', '.join(faltando)}" if faltando else "")
+            if faltando:
+                self.falhas["bcb"] = f"BCB devolveu {n} de {total} séries (faltaram {', '.join(faltando)})"
         except Exception as e:
             self.macro["bcb"] = ler_json(os.path.join(self.saida, "macro", "bcb.json"), {}) or {}
             self.pernas["bcb"] = f"falha: {e}"
+            self.falhas["bcb"] = self.pernas["bcb"]
         if self.modo in ("manha", "fechamento", "backfill"):
             try:
                 f = bcb.coletar_focus()
-                gravar_json(os.path.join(self.saida, "macro", "focus.json"), f)
-                self.macro["focus"] = f
-                self.pernas["focus"] = f"ok {list((f.get('expectativas') or {}).keys())}"
+                exp = [k for k, v in (f.get("expectativas") or {}).items() if (v or {}).get("por_ano")]
+                if exp:
+                    gravar_json(os.path.join(self.saida, "macro", "focus.json"), f)
+                    self.macro["focus"] = f
+                    self.pernas["focus"] = f"ok {exp}"
+                else:
+                    # resposta vazia nao sobrescreve a pesquisa boa que ja esta no disco
+                    antigo_f = ler_json(os.path.join(self.saida, "macro", "focus.json"), {}) or {}
+                    self.macro["focus"] = antigo_f
+                    reusa = [k for k, v in (antigo_f.get("expectativas") or {}).items() if (v or {}).get("por_ano")]
+                    self.pernas["focus"] = "vazio" + (f"; reaproveitada a coleta de {str(antigo_f.get('coletado_em'))[:10]}" if reusa else "")
+                    self.falhas["focus"] = ("Focus voltou sem expectativas" + (f"; usada a pesquisa anterior ({str(antigo_f.get('coletado_em'))[:10]})" if reusa
+                                                                               else "; sem pesquisa anterior no disco"))
             except Exception as e:
                 self.macro["focus"] = ler_json(os.path.join(self.saida, "macro", "focus.json"), {}) or {}
                 self.pernas["focus"] = f"falha: {e}"
+                self.falhas["focus"] = self.pernas["focus"]
             try:
                 p = sina.coletar()
                 antigo_p = ler_json(os.path.join(self.saida, "macro", "proxies.json"), {}) or {}

@@ -98,15 +98,50 @@ def test_bloco_a_nao_conta_manchete_no_digest():
     from livro import render
     do_dia = ([{"regra": "T05", "ativo": "MRVE3", "severidade": "critico", "familia": "preco", "titulo": "MRVE3 -8,4%", "status": "pendente"}]
               + [{"regra": "E03", "ativo": "PETR4", "severidade": "atencao", "familia": "evento", "titulo": "Fato Relevante: x",
-                  "status": "pendente", "dados": {"manchete": "Fato Relevante: x", "veiculo": "CVM"}}]
+                  "status": "pendente", "canal": "mensagem", "dados": {"manchete": "Fato Relevante: x", "veiculo": "CVM"}}]
+              # cortada pelo teto: severidade atencao, mas nunca virou mensagem
+              + [{"regra": "E05", "ativo": "VALE3", "severidade": "atencao", "familia": "noticia", "titulo": "cortada pelo teto",
+                  "status": "linha", "canal": "info", "dados": {"manchete": "cortada pelo teto", "veiculo": "V"}}]
+              # backlog antigo, sem canal gravado
               + [{"regra": "E05", "ativo": "KO", "severidade": "info", "familia": "noticia", "titulo": f"manchete {i}",
                   "status": "linha", "dados": {"manchete": f"manchete {i}", "veiculo": "V"}} for i in range(600)])
     a = render.bloco_a(date(2026, 9, 18), "Yahoo 18h40", do_dia, [], {}, ["DI"], ["agenda"], [], ["Yahoo"])
     assert "ALERTAS DO DIA (2 · 1 crítico)" in a
-    assert "NOTÍCIAS E FATOS (1 · +600 manchete · noticias.md)" in a
-    assert "manchete 0" not in a
+    assert "NOTÍCIAS E FATOS (1 · +601 manchete · noticias.md)" in a
+    assert "manchete 0" not in a and "cortada pelo teto" not in a
     md = render.alertas_md({"mensagens": [], "linhas_info": [], "suprimidos": []}, do_dia, "Fechamento 18h40")
-    assert "(+600 notícias só manchete, em noticias.md)" in md and "manchete 0" not in md
+    assert "(+601 notícias só manchete, em noticias.md)" in md and "manchete 0" not in md
+
+
+def test_podar_tira_manchete_antiga_e_guarda_o_que_virou_mensagem():
+    from livro.estado import Repositorio
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        r = Repositorio(d)
+        r.fila = {
+            "velha-manchete": {"familia": "noticia", "canal": "info", "gerado_em": "2026-09-10T12:00:00Z"},
+            "velha-mensagem": {"familia": "noticia", "canal": "mensagem", "gerado_em": "2026-09-10T12:00:00Z"},
+            "tecnica-antiga": {"familia": "preco", "gerado_em": "2026-09-10T12:00:00Z"},
+            "tecnica-velhissima": {"familia": "preco", "gerado_em": "2025-01-10T12:00:00Z"},
+        }
+        r.podar(dias=30, dias_manchete=2)
+        assert set(r.fila) == {"velha-mensagem", "tecnica-antiga"}
+
+
+def test_mesclar_detecta_rolagem_de_contrato_continuo():
+    """BZ=F troca de vencimento e o Yahoo reprecifica a serie: unir misturaria contratos."""
+    import pandas as pd
+    from livro.fontes import yahoo
+    dias = [d.date().isoformat() for d in pd.bdate_range(end="2026-09-18", periods=40)]
+    antiga = {"barras": [[d, 98.0, 98.0, 98.0, 98.0, 98.0, 1] for d in dias]}
+    # mesma serie 5% acima (rolagem): a nova vale sozinha, sem recuperar barra antiga
+    nova = {"meta": {}, "barras": [[d, 103.0, 103.0, 103.0, 103.0, 103.0, 1] for d in dias[:-1]]}
+    m = yahoo.mesclar(antiga, nova)
+    assert m.get("reprecificada") and len(m["barras"]) == 39 and "barras_recuperadas" not in m
+    # variacao normal do dia a dia nao dispara: a barra que falta e recuperada
+    nova2 = {"meta": {}, "barras": [[d, 98.2, 98.2, 98.2, 98.2, 98.2, 1] for d in dias[:-1]]}
+    m2 = yahoo.mesclar(antiga, nova2)
+    assert "reprecificada" not in m2 and m2["barras_recuperadas"] == [dias[-1]]
 
 
 def test_fechamento_usa_a_barra_do_pregao_em_mercado_continuo():

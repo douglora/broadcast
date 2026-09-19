@@ -118,6 +118,23 @@ def coletar(simbolos: list[str], rng: str = "2y", cli: Cliente | None = None,
 
 
 MAX_BARRAS = 800   # ~3,2 anos: cobre 1a e YTD com folga e limita o tamanho do arquivo
+REPRECIFICACAO = 0.005   # mediana da diferenca nas datas comuns que denuncia rolagem/split
+
+
+def _reprecificada(antigas: list[list], novas: list[list], limiar: float = REPRECIFICACAO) -> float | None:
+    """Mediana da diferenca relativa nas datas comuns, se passar do limiar.
+
+    Futuro continuo (BZ=F, TIO=F) troca de vencimento e o Yahoo reprecifica a serie
+    inteira; split faz o mesmo. Nesses casos unir barras antigas com novas misturaria
+    dois contratos: a serie nova tem de valer sozinha."""
+    import statistics
+    nova_por_data = {b[0]: b for b in novas}
+    difs = [abs(b[4] / nova_por_data[b[0]][4] - 1.0) for b in antigas
+            if b[0] in nova_por_data and b[4] and nova_por_data[b[0]][4]]
+    if len(difs) < 5:
+        return None
+    m = statistics.median(difs)
+    return m if m > limiar else None
 
 
 def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS) -> dict | None:
@@ -132,6 +149,9 @@ def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS
         antigas = (antiga or {}).get("barras") or []
         if not antigas:
             return nova
+        dif = _reprecificada(antigas, nova.get("barras") or [])
+        if dif is not None:
+            return {**nova, "reprecificada": round(dif, 4)}
         por_data = {b[0]: b for b in antigas}
         por_data.update({b[0]: b for b in (nova.get("barras") or [])})
         barras = [por_data[k] for k in sorted(por_data)][-max_barras:]
