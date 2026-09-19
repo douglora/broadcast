@@ -2,7 +2,7 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 USDBRL · Japão faz consulta de câmbio e iene salta para ¥156 por dólar
+· E05 PETR4 · Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina
 
 
 Alertas do dia (todos, com status):

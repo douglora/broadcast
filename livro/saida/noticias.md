@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/09 18h15
+NOTÍCIAS E FATOS · 19/09 18h20
 
-Pernas: noticias ok 1 novas (14 consultas; descartadas: 395 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos; falhas ['company_tickers']
+Pernas: noticias ok 1 novas (14 consultas; descartadas: 391 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos (contato: BROADCAST Livro (contato admin@theinvestpost.loc)
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
