@@ -419,7 +419,7 @@ class Coleta:
                 # ate=hoje: mercado continuo (cripto, futuros) nao entra com a barra do
                 # dia seguinte num fechamento do pregao anterior
                 janelas[a.id] = ind.janelas(self.series[a.id], ate=self.hoje)
-        do_dia = repo.do_dia(self.hoje.isoformat())
+        do_dia = repo.do_dia(self.hoje.isoformat(), relogios.brt(self.agora).date().isoformat())
         rot = SLOT_ROTULO.get(self.modo, self.modo)
         alertas_txt = render.alertas_md(resultado, do_dia, rot)
         with open(os.path.join(saida, "alertas.md"), "w", encoding="utf-8") as f:
