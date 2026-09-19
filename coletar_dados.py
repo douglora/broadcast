@@ -431,8 +431,10 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
     recentes = [d for d in docs if d["data"] >= corte]
     fatos = [d for d in recentes if d["categoria"] == "Fato Relevante"][:limite]
     outros = [d for d in recentes if d["categoria"] != "Fato Relevante"][:limite]
-    # Documentos de resultado: o release (mesmo PDF do site de RI) e a apresentacao, 3 anos
-    resultado = [d for d in docs if _eh_documento_resultado(d)][:24]
+    # Documentos de resultado dos 3 anos: o release (mesmo PDF do site de RI) e a apresentacao.
+    # Teto alto de proposito: o Itau publica quatro por trimestre (duas apresentacoes, o press
+    # release e a Analise Gerencial), e um teto baixo cortava o historico em menos de 8 trimestres.
+    resultado = [d for d in docs if _eh_documento_resultado(d)][:60]
     fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros, "
                      f"{len(resultado)} de resultado; casamento {metodo}; "
                      f"empresa: {docs[0]['empresa']})") if docs else "sem documentos casados"
