@@ -29,6 +29,7 @@ Regras que nao se negociam:
 |---|---|
 | `saida/manifest.json` | slot, run_id, gerado_em (UTC e BRT), data_pregao, pernas ok/falhou, alertas (ids, criticos, pendentes), push sugerido |
 | `saida/fechamento.md` | BLOCO A (cabecalho, relogios, alertas do dia, altas/baixas, CURVAS, `<<LEITURA_DA_MESA>>`, AGENDA, LACUNAS) + BLOCO B (tabela dia/1s/1m/6m/1a/YTD) + legenda dos UCITS |
+| `saida/painel.html` | a mesma coleta virada pagina (cards por bloco, curvas, noticias, agenda) com o marcador `[[LEITURA_DA_MESA]]`; e o que a sessao publica como Artifact |
 | `saida/fechamento_celular.md` | BLOCO B compacto (<= 41 colunas: ult, dia, 1s, 1m, YTD) |
 | `saida/fechamento.json` | janelas por ativo, movers, `leitura_insumos` (DI, Tesouro, breakevens, UST, regime), alertas do dia, lacunas, `push_sugerido` |
 | `saida/alertas.md` | mensagens prontas do slot (com `Push:` e `ids:`), linhas de info, suprimidos, alertas do dia com status |
@@ -94,17 +95,47 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
 6. **Ack.** Os ids que voce narrou neste turno entram em `ids_entregues` no
    PROXIMO disparo (passo 2). Nao dispare um run so para o ack.
 
+## Painel (a interface principal, decisao do Douglas em 19/09)
+
+O que ele le e a pagina, nao o texto monoespacado. Todo Fechamento e toda Manha
+republicam o mesmo Artifact, sempre na MESMA url:
+
+**https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7**
+
+```bash
+mkdir -p /tmp/painel && git show origin/dados:livro/saida/painel.html > /tmp/painel/painel.html
+# escrever a leitura em /tmp/painel/leitura.html (paragrafos <p>...</p>, 3 a 5)
+python3 - <<'EOF'
+import io
+h = io.open("/tmp/painel/painel.html", encoding="utf-8").read()
+l = io.open("/tmp/painel/leitura.html", encoding="utf-8").read().strip()
+assert "[[LEITURA_DA_MESA]]" in h, "marcador sumiu: nao publicar"
+io.open("/tmp/painel/painel_pub.html", "w", encoding="utf-8").write(h.replace("[[LEITURA_DA_MESA]]", l))
+EOF
+```
+
+Publicar com a ferramenta `Artifact`, passando `url` (a de cima) e
+`file_path: /tmp/painel/painel_pub.html`; sem `icon` (o Artifact ja tem o dele).
+Antes de publicar, conferir que `[[LEITURA_DA_MESA]]` nao sobrou no arquivo. A
+leitura em HTML usa `<p>`, `<strong>` para os numeros que importam e nada mais;
+nada de `<script>`, nada de estilo inline.
+
+Se o `painel.html` nao existir no branch (run antigo), publique o que houver e
+diga a lacuna; nunca monte a pagina a mao.
+
 ## Formato por slot
 
-**Fechamento (18h40 BRT).** Resposta = BLOCO A (com a Leitura da Mesa no lugar
-do marcador) + BLOCO B + legenda dos UCITS, tudo como esta no fechamento.md.
-Se o Douglas pedir "curto" ou "celular", use `fechamento_celular.md` no lugar
-do BLOCO B e reduza a Leitura a 3 bullets. Sexta: acrescente uma linha
-"SEMANA" com os 3 maiores e menores da semana (coluna 1s) e o que a curva fez
-na semana (Δ sem em bps ja esta em CURVAS).
+**Fechamento (18h40 BRT).** A resposta na sessao e curta: 3 a 5 frases de
+manchete (as mesmas ideias da Leitura da Mesa, em texto corrido), a contagem de
+alertas, e o link do painel. Nada de BLOCO A/BLOCO B por padrao. Feche com a
+linha de comandos: "tabela" (BLOCO B), "alertas" (alertas.md), "noticias",
+"integra <id>". Se ele pedir "tabela", "completo" ou "blocos", ai sim cole
+BLOCO A + BLOCO B + legenda como estao no fechamento.md; "curto"/"celular" usa
+`fechamento_celular.md`. Sexta: acrescente uma linha "SEMANA" com os 3 maiores e
+menores da semana (coluna 1s) e o que a curva fez na semana.
 
-**Leitura da Mesa** (4 a 6 bullets, 1 a 3 linhas cada, quebrados em <= 52
-colunas para caber no bloco): cada bullet liga um numero do dia a um mecanismo
+**Leitura da Mesa** (no painel: 3 a 5 paragrafos de texto corrido; no BLOCO A
+sob demanda: 4 a 6 bullets quebrados em <= 52 colunas): cada bullet liga um numero do dia a um mecanismo
 e ao que muda para o cliente. Fontes: `leitura_insumos` (DI deltas e inclinacao,
 Tesouro taxas e breakevens vs Focus, UST e 2s10s, regime), movers, alertas do
 dia, tabela. Ordem de prioridade: (1) curva (ABRIU/FECHOU, quem puxou, doméstico

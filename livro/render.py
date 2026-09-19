@@ -107,7 +107,9 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
             soma = sum((d[1] or 0) for d in deltas.values())
             verbo = "ABRIU" if soma > 2 else "FECHOU" if soma < -2 else "estável"
             linhas.append(f"    {verbo}; F35-F28 {fmt.bps(incl)} bps" + (f" ({fmt.bps(incl - incl_ant)})" if incl_ant is not None else ""))
-            ins["di"] = {"deltas": {k: v[1] for k, v in deltas.items()}, "inclinacao": incl, "verbo": verbo, "ultimo": ult}
+            ins["di"] = {"deltas": {k: v[1] for k, v in deltas.items()}, "inclinacao": incl, "verbo": verbo, "ultimo": ult,
+                         "taxas": {k: v[0] for k, v in deltas.items()}, "delta5": {k: v[2] for k, v in deltas.items()},
+                         "inclinacao_delta": (incl - incl_ant) if incl_ant is not None else None, "rotulo": rot}
     else:
         lacunas.append("DI sem ajuste B3 (regras de curva DI desligadas)")
     tes = curvas.get("tesouro") or {}
@@ -122,8 +124,10 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
             d1 = ind.bps(h[-1][1], h[-2][1]) if len(h) > 1 else None
             item = f"{t.get('apelido', tid)} {fmt.taxa(h[-1][1])} ({fmt.bps(d1)})"
             (pre if "prefixado" in t.get("tipo", "").lower() else ipca).append(item)
-            ins.setdefault("tesouro", {})[tid] = {"taxa": h[-1][1], "delta": d1, "pu": h[-1][2]}
+            ins.setdefault("tesouro", {})[tid] = {"taxa": h[-1][1], "delta": d1, "pu": h[-1][2],
+                                                  "apelido": t.get("apelido", tid), "tipo": t.get("tipo", "")}
         linhas += quebrar(f"TD (base {fmt.data_br(base)}) " + " · ".join(pre + ipca), indent="    ")
+        ins["tesouro_base"] = base
         # breakevens
         bes = []
         for be in (universo.curvas.get("tesouro", {}).get("breakevens") or []):
@@ -135,6 +139,8 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
         focus = ((macro.get("focus") or {}).get("expectativas") or {}).get("IPCA") or {}
         ano_prox = str(hoje.year + 1)
         f_ipca = (focus.get("por_ano") or {}).get(ano_prox, {}).get("mediana")
+        if f_ipca:
+            ins["focus_ipca"] = {"ano": ano_prox, "mediana": f_ipca}
         if bes:
             linhas += quebrar("    Implícita " + " · ".join(bes) + (f" vs Focus IPCA {ano_prox} {fmt.taxa(f_ipca)}%" if f_ipca else ""), indent="    ")
     else:
@@ -154,7 +160,10 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
         s2s10_ant = ind.bps(ant[idx["10y"]], ant[idx["2y"]]) if ant and ant[idx["10y"]] is not None and ant[idx["2y"]] is not None else None
         rot = "D0" if u[0] == hoje.isoformat() else f"CMT {fmt.data_br(u[0])}"
         linhas += quebrar(f"UST ({rot}) " + " · ".join(partes) + (f" · 2s10s {fmt.bps(s2s10)}" + (f" ({fmt.bps(s2s10 - s2s10_ant)})" if s2s10_ant is not None else "") if s2s10 is not None else ""), indent="    ")
-        ins["ust"] = {"2y": u[idx["2y"]], "10y": u[idx["10y"]], "30y": u[idx["30y"]], "2s10s": s2s10, "data": u[0]}
+        ins["ust"] = {"2y": u[idx["2y"]], "10y": u[idx["10y"]], "30y": u[idx["30y"]], "2s10s": s2s10, "data": u[0],
+                      "rotulo": rot, "d2s10s": (s2s10 - s2s10_ant) if (s2s10 is not None and s2s10_ant is not None) else None,
+                      "deltas": {p: (ind.bps(u[idx[p]], ant[idx[p]]) if ant and u[idx[p]] is not None and ant[idx[p]] is not None else None)
+                                 for p in ("2y", "10y", "30y")}}
     else:
         lacunas.append("UST sem dado")
     if regime:
@@ -318,8 +327,8 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
     L.append("")
     fatos = [a for a in do_dia if a.get("familia") in ("noticia", "evento")]
     if fatos or so_manchete:
-        resto = f" · {len(so_manchete)} só manchete" if so_manchete else ""
-        L += quebrar(f"NOTÍCIAS E FATOS ({len(fatos)} com materialidade{resto} · noticias.md)", indent="  ")
+        # a contagem de manchetes sem materialidade assusta e nao muda decisao: vive em noticias.md
+        L += quebrar(f"NOTÍCIAS E FATOS ({len(fatos)} com materialidade · noticias.md)", indent="  ")
         for a in fatos[:6]:
             d = a.get("dados") or {}
             veic = d.get("veiculo") or ""

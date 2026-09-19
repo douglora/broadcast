@@ -74,6 +74,12 @@ Douglas ve no PC e no celular.
   `dados`. Ela le `git show origin/dados:livro/saida/*.md`, dispara o workflow
   quando o dado esta velho (`actions_run_trigger`, workflow `livro.yml`, ref
   `main`, inputs `modo` e `ids_entregues`) e escreve a Leitura da Mesa.
+- A interface principal e o painel: o runner gera `livro/saida/painel.html`
+  (cards por bloco, curvas, noticias, agenda) e a sessao troca o marcador
+  `[[LEITURA_DA_MESA]]` pela leitura e republica SEMPRE no mesmo Artifact
+  (https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7). A resposta no chat e
+  curta: manchete em 3 a 5 frases + link. BLOCO A/BLOCO B so quando ele pedir
+  "tabela" ou "completo".
 - Turno sem novidade = uma linha. Lacuna declarada, nunca placeholder.
 - Regras e limiares: config/limiares.yaml. Calendario e feriados:
   config/calendario.yaml. Nunca "compre/venda" (Resolucao CVM 178).
