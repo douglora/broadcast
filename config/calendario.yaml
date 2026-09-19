@@ -121,6 +121,10 @@ meio_pregao:
   LSE: [2026-12-24, 2026-12-31]
 
 eventos_macro:
+  # calendario Copom 2026 (BCB): 28/01, 18/03, 29/04, 17/06, 05/08, 16/09, 04/11, 09/12 (2o dia da reuniao);
+  # ata sai na terca seguinte. A de setembro faltava e o corte para 13,75% chegou so por noticia.
+  - {data: 2026-09-16, hora_brt: "18:30", evento: "Copom: decisao da Selic", pais: BR, confianca: alta}
+  - {data: 2026-09-22, hora_brt: "08:00", evento: "Ata do Copom (reuniao de 15-16/09)", pais: BR, confianca: alta}
   - {data: 2026-09-24, hora_brt: "09:00", evento: "Relatorio de Politica Monetaria 3T26 (BCB)", pais: BR, confianca: media}
   - {data: 2026-09-25, hora_brt: "09:00", evento: "IPCA-15 de setembro (IBGE)", pais: BR, confianca: media}
   - {data: 2026-10-02, hora_brt: "09:30", evento: "Payroll de setembro (BLS)", pais: EUA, confianca: alta}
