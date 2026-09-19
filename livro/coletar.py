@@ -77,23 +77,19 @@ class Coleta:
             return
         rng = "5d" if self.modo == "intradia" else "2y"
         novas, falhas = yahoo.coletar(simbolos, rng)
-        ok = 0
+        ok, recuperados = 0, []
         for s in simbolos:
-            antiga = self._carregar_serie_local(s)
-            nova = novas.get(s)
-            if nova and rng == "5d" and antiga and antiga.get("barras"):
-                # intradia: mescla as barras novas no historico de 2 anos
-                por_data = {b[0]: b for b in antiga["barras"]}
-                for b in nova["barras"]:
-                    por_data[b[0]] = b
-                nova = {**antiga, "meta": nova["meta"], "coletado_em": nova["coletado_em"],
-                        "barras": [por_data[k] for k in sorted(por_data)]}
-            final = yahoo.mesclar(antiga, nova)
+            # mesclar une por data (intradia com range=5d e fechamento com 2y): nada se perde
+            final = yahoo.mesclar(self._carregar_serie_local(s), novas.get(s))
             if final:
                 gravar_json(os.path.join(self.saida, "series", f"{uni.nome_seguro(s)}.json"), final)
-                if nova:
+                if novas.get(s):
                     ok += 1
-        self.pernas["yahoo"] = f"ok {ok}/{len(simbolos)}" + (f"; falhas: {', '.join(f'{k} {v}' for k, v in list(falhas.items())[:6])}" if falhas else "")
+                if final.get("barras_recuperadas"):
+                    recuperados.append(s)
+        self.pernas["yahoo"] = (f"ok {ok}/{len(simbolos)}"
+                                + (f"; {len(recuperados)} séries com barra do Yahoo faltando (recuperada do histórico)" if recuperados else "")
+                                + (f"; falhas: {', '.join(f'{k} {v}' for k, v in list(falhas.items())[:6])}" if falhas else ""))
         if falhas:
             self.falhas["yahoo"] = f"{len(falhas)} símbolos falharam ({', '.join(list(falhas.values())[:3])})"
         self._montar_dataframes(simbolos, falhas)
