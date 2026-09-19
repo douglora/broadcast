@@ -1,0 +1,9150 @@
+EX-99.1
+2
+dp229065_ex9901.htm
+EXHIBIT 99.1
+
+XP Inc.
+
+Interim condensed consolidated
+
+financial statements at
+
+March 31, 2025
+
+and report on review
+
+www.pwc.com.br | PricewaterhouseCoopers Auditores Independentes Ltda.
+Avenida Brigadeiro Faria Lima, 3732,
+Edifício B32, 16 o , São Paulo, SP, Brasil, 04538-132
+T: +55 (11) 4004-8000
+|
+
+Report on review of interim condensed
+
+consolidated financial statements
+
+To the Board of Directors and Shareholders
+
+XP Inc.
+
+Introduction
+
+We have reviewed the accompanying interim condensed consolidated balance
+sheet of XP Inc. and its subsidiaries ("Company") as at March 31, 2025 and the related interim condensed consolidated statements
+of income and comprehensive income, changes in equity ad cash flows for the three-month period then ended, and explanatory notes.
+
+Management is responsible for the preparation and presentation of these
+interim condensed consolidated financial statements in accordance with International Accounting Standard (IAS) 34 - "Interim Financial
+Reporting", of the International Accounting Standards Board (IASB). Our responsibility is to express a conclusion on these interim
+condensed financial statements based on our review.
+
+Scope of review
+
+We conducted our review in accordance with Brazilian and International
+Standards on Reviews of Interim Financial Information (NBC TR 2410 - Review of Interim Financial Information Performed by the Independent
+Auditor of the Entity, and ISRE 2410 - Review of Interim Financial Information Performed by the Independent Auditor of the Entity, respectively).
+A review of interim financial information consists of making inquiries, primarily of persons responsible for financial and accounting
+matters, and applying analytical and other review procedures. A review is substantially less in scope than an audit conducted in accordance
+with Brazilian and International Standards on Auditing and consequently did not enable us to obtain assurance that we would become aware
+of all significant matters that might be identified in an audit. Accordingly, we do not express an audit opinion.
+
+Conclusion
+
+Based on our review, nothing has come to our attention that causes
+us to believe that the accompanying interim condensed consolidated financial statements referred to above are not prepared, in all material
+respects, in accordance with IAS 34.
+
+São Paulo, May 20, 2025
+
+PricewaterhouseCoopers
+
+Auditores Independentes Ltda.
+
+CRC 2SP000160/O-5
+
+|
+Marcos Paulo Putini
+
+Contador CRC 1SP212529/O-8
+
+|
+
+www.pwc.com.br | PricewaterhouseCoopers Auditores Independentes Ltda.
+Avenida Brigadeiro Faria Lima, 3732,
+Edifício B32, 16 o , São Paulo, SP, Brasil, 04538-132
+T: +55 (11) 4004-8000
+|
+
+XP
+Inc. Unaudited interim condensed consolidated
+
+financial statements for the three months period ended
+
+March 31, 2025
+
+|
+
+XP Inc. and its subsidiaries
+Unaudited interim condensed consolidated financial statements
+for the three months period ended March 31, 2025
+| |
+
+Table
+of Contents
+
+Unaudited interim condensed consolidated balance sheets |
+3 |
+
+Unaudited interim condensed consolidated statements of income and of comprehensive income |
+5 |
+
+Unaudited interim condensed consolidated statements of changes in equity |
+6 |
+
+Unaudited interim condensed consolidated statements of cash flows |
+7 |
+
+1. Operations |
+8 |
+
+2. Basis of preparation and changes to the Group’s accounting policies |
+9 |
+
+3. Securities purchased (sold) under resale (repurchase) agreements |
+13 |
+
+4. Securities |
+14 |
+
+5. Derivative financial instruments |
+17 |
+
+6. Hedge accounting |
+17 |
+
+7. Loan operations |
+21 |
+
+8. Prepaid expenses |
+21 |
+
+9. Securities trading and intermediation (receivable and payable) |
+22 |
+
+10. Expected Credit Losses on Financial Assets and Reconciliation of carrying amount |
+22 |
+
+11. Investments in associates and joint ventures |
+24 |
+
+12. Property, equipment, goodwill, intangible assets and lease |
+24 |
+
+13. Financing Instruments Payable |
+26 |
+
+14. Borrowings |
+27 |
+
+15. Other financial assets and financial liabilities |
+27 |
+
+16. Other assets and other liabilities |
+28 |
+
+17. Retirement plans and insurance liabilities |
+28 |
+
+18. Income tax |
+29 |
+
+19. Equity |
+31 |
+
+20. Related party transactions |
+32 |
+
+21. Provisions and contingent liabilities |
+32 |
+
+22. Total revenue and income |
+34 |
+
+23. Operating costs |
+36 |
+
+24. Operating expenses by nature |
+36 |
+
+25. Other operating income (expenses), net |
+36 |
+
+26. Share-based plan |
+37 |
+
+27. Earnings per share (basic and diluted) |
+37 |
+
+28. Determination of fair value |
+38 |
+
+29. Management of financial risks and financial instruments |
+40 |
+
+30. Capital Management |
+41 |
+
+31. Cash flow information |
+42 |
+
+32. Subsequent events |
+42 |
+
+XP Inc. and its subsidiaries
+Unaudited interim condensed consolidated balance sheets
+As of March 31, 2025 and December 31, 2024
+In
+thousands of Brazilian Reais
+| |
+
+Assets
+|
+Note |
+March 31, 2025 |
+|
+December 31, 2024 |
+
+|
+|
+|
+|
+|
+
+Cash |
+|
+8,226,290 |
+|
+5,610,548 |
+
+|
+|
+|
+|
+|
+
+Financial assets |
+|
+321,791,203 |
+|
+321,697,974 |
+
+|
+|
+|
+|
+|
+
+Fair value through profit or loss |
+|
+213,088,733 |
+|
+
+196,185,210 |
+
+Securities |
+4 |
+162,094,984 |
+|
+149,985,414 |
+
+Derivative financial instruments |
+5 |
+50,993,749 |
+|
+46,199,796 |
+
+|
+|
+|
+|
+|
+
+Fair value through other comprehensive income |
+|
+51,001,309 |
+|
+50,879,981 |
+
+Securities |
+4 |
+51,001,309 |
+|
+50,879,981 |
+
+|
+|
+|
+|
+|
+
+Evaluated at amortized cost |
+|
+57,701,161 |
+|
+74,632,783 |
+
+Securities |
+4 |
+5,677,031 |
+|
+2,836,146 |
+
+Securities purchased under resale agreements |
+3 |
+7,901,168 |
+|
+22,057,137 |
+
+Securities trading and intermediation |
+9 |
+4,703,093 |
+|
+6,499,097 |
+
+Accounts receivable |
+|
+927,778 |
+|
+778,943 |
+
+Loan operations |
+7 |
+29,966,410 |
+|
+29,228,463 |
+
+Other financial assets |
+15 |
+8,525,681 |
+|
+13,232,997 |
+
+|
+|
+|
+|
+|
+
+Other assets |
+|
+10,614,439 |
+|
+10,657,119 |
+
+Recoverable taxes |
+|
+554,693 |
+|
+452,555 |
+
+Rights-of-use assets |
+12 |
+355,073 |
+|
+313,141 |
+
+Prepaid expenses |
+8 |
+4,360,697 |
+|
+4,363,233 |
+
+Other |
+16 |
+5,343,976 |
+|
+5,528,190 |
+
+|
+|
+|
+|
+|
+
+Deferred tax assets |
+18 |
+2,849,526 |
+|
+2,887,935 |
+
+Investments in associates and joint ventures |
+11 |
+3,515,027 |
+|
+3,518,779 |
+
+Property and equipment |
+12 |
+319,155 |
+|
+449,956 |
+
+Goodwill and intangible assets |
+12 |
+2,650,399 |
+|
+2,634,449 |
+
+|
+|
+|
+|
+|
+
+Total assets |
+|
+349,966,039 |
+|
+347,456,760 |
+
+The accompanying notes are an integral
+part of the unaudited interim condensed consolidated financial statements.
+
+3
+
+XP Inc. and its subsidiaries
+Unaudited interim condensed consolidated balance sheets
+As of March 31, 2025 and December 31, 2024
+In
+thousands of Brazilian Reais
+| |
+
+Liabilities and equity |
+Note |
+March 31, 2025 |
+|
+December 31, 2024 |
+
+|
+|
+|
+|
+|
+
+Financial liabilities |
+|
+258,017,049 |
+|
+257,965,004 |
+
+|
+|
+|
+|
+|
+
+Fair value through profit or loss |
+|
+65,456,520 |
+|
+55,301,063 |
+
+Securities |
+4 |
+18,102,041 |
+|
+15,253,376 |
+
+Derivative financial instruments |
+5 |
+47,354,479 |
+|
+40,047,687 |
+
+|
+|
+|
+|
+|
+
+Evaluated at amortized cost |
+|
+192,560,529 |
+|
+202,663,941 |
+
+Securities sold under repurchase agreements |
+3 |
+54,371,879 |
+|
+71,779,721 |
+
+Securities trading and intermediation |
+9 |
+20,716,838 |
+|
+18,474,978 |
+
+Financing instruments payable |
+13 |
+99,621,575 |
+|
+95,248,482 |
+
+Accounts payables |
+|
+871,320 |
+|
+763,465 |
+
+Borrowings |
+14 |
+3,502,092 |
+|
+1,666,432 |
+
+Other financial liabilities |
+15 |
+13,476,825 |
+|
+14,730,863 |
+
+|
+|
+|
+|
+|
+
+Other liabilities |
+|
+70,612,234 |
+|
+69,179,229 |
+
+Social and statutory obligations |
+|
+619,134 |
+|
+1,310,911 |
+
+Taxes and social security obligations |
+|
+515,924 |
+|
+417,668 |
+
+Retirement plans and insurance liabilities |
+17 |
+68,432,365 |
+|
+66,224,387 |
+
+Provisions and contingent liabilities |
+21 |
+173,058 |
+|
+146,173 |
+
+Other |
+16 |
+871,753 |
+|
+1,080,090 |
+
+|
+|
+|
+|
+|
+
+Deferred tax liabilities |
+18 |
+290,433 |
+|
+265,290 |
+
+|
+|
+|
+|
+|
+
+Total liabilities |
+|
+328,919,716 |
+|
+327,409,523 |
+
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+
+Equity attributable to owners of the Parent company |
+19 |
+21,042,088 |
+|
+20,043,557 |
+
+Issued capital |
+|
+26 |
+|
+26 |
+
+Capital reserve |
+|
+21,075,434 |
+|
+20,939,689 |
+
+Other comprehensive income |
+|
+(548,939) |
+|
+(673,978) |
+
+Treasury shares |
+|
+(719,952) |
+|
+(222,180) |
+
+Retained earnings |
+|
+1,235,519 |
+|
+- |
+
+|
+|
+|
+|
+|
+
+Non-controlling interest |
+|
+4,235 |
+|
+3,680 |
+
+|
+|
+|
+|
+|
+
+Total equity |
+|
+21,046,323 |
+|
+20,047,237 |
+
+|
+|
+|
+|
+|
+
+Total liabilities and equity |
+|
+349,966,039 |
+|
+347,456,760 |
+
+The accompanying notes are an integral
+part of the unaudited interim condensed consolidated financial statements.
+
+4
+
+XP Inc. and its subsidiaries
+Unaudited interim condensed consolidated statements of income and of comprehensive income
+for the three months period ended March 31, 2025 and 2024
+In
+thousands of Brazilian Reais, except earnings per share
+
+| |
+
+|
+|
+Three months period ended March 31, |
+
+|
+Note |
+2025 |
+|
+2024 |
+
+|
+|
+|
+|
+|
+
+Net revenue from services rendered |
+22 |
+1,649,928 |
+|
+1,623,851 |
+
+Net income/(loss) from financial instruments at amortized cost and at fair value through other comprehensive income |
+22 |
+(901,758) |
+|
+227,251 |
+
+Net income/(loss) from financial instruments at fair value through profit or loss |
+22 |
+3,596,353 |
+|
+2,201,754 |
+
+Total revenue and income |
+|
+4,344,523 |
+|
+4,052,856 |
+
+|
+|
+|
+|
+|
+
+Operating costs |
+23 |
+(1,282,940) |
+|
+(1,218,816) |
+
+Selling expenses |
+24 |
+(56,837) |
+|
+(32,054) |
+
+Administrative expenses |
+24 |
+(1,448,498) |
+|
+(1,451,651) |
+
+Other operating income (expenses), net |
+25 |
+22,625 |
+|
+9,221 |
+
+Expected credit losses |
+10 |
+(146,411) |
+|
+(96,870) |
+
+Interest expense on debt |
+|
+(177,193) |
+|
+(181,337) |
+
+Share of profit (loss) in joint ventures and associates |
+11 |
+7,455 |
+|
+7,104 |
+
+|
+|
+|
+|
+|
+
+Income before income tax |
+|
+1,262,724 |
+|
+1,088,453 |
+
+|
+|
+|
+|
+|
+
+Income tax credit (expense) |
+18 |
+(26,659) |
+|
+(58,898) |
+
+|
+|
+|
+|
+|
+
+Net income for the period |
+|
+1,236,065 |
+|
+1,029,555 |
+
+|
+|
+|
+|
+|
+
+Other comprehensive income |
+|
+|
+|
+|
+
+Items that can be subsequently reclassified to income |
+|
+|
+|
+|
+
+Foreign exchange variation of investees located abroad |
+|
+(57,794) |
+|
+14,796 |
+
+Gains (losses) on net investment hedge |
+|
+52,650 |
+|
+(12,561) |
+
+Changes in the fair value of financial assets at fair value through other comprehensive income |
+|
+139,460 |
+|
+(171,480) |
+
+|
+|
+|
+|
+|
+
+Other comprehensive income (loss) for the period, net of tax |
+|
+134,316 |
+|
+(169,245) |
+
+|
+|
+|
+|
+|
+
+Total comprehensive income for the period |
+|
+1,370,381 |
+|
+860,310 |
+
+|
+|
+|
+|
+|
+
+Net income attributable to: |
+|
+|
+|
+|
+
+Owners of the parent company |
+|
+1,235,519 |
+|
+1,030,016 |
+
+Non-controlling interest |
+|
+546 |
+|
+(461) |
+
+|
+|
+|
+|
+|
+
+Total comprehensive income attributable to: |
+|
+|
+|
+|
+
+Owners of the parent company |
+|
+1,369,835 |
+|
+860,771 |
+
+Non-controlling interest |
+|
+546 |
+|
+(461) |
+
+|
+|
+|
+|
+|
+
+Earnings per share from total income attributable to the ordinary equity holders of the company |
+|
+|
+|
+|
+
+Basic earnings per share |
+27 |
+2.3082 |
+|
+1.8781 |
+
+Diluted earnings per share |
+27 |
+2.2900 |
+|
+1.8503 |
+
+The accompanying notes are an integral
+part of the unaudited interim condensed consolidated financial statements.
+
+5
+
+XP Inc. and its subsidiaries
+Unaudited interim condensed consolidated statements of changes inequity
+for the three months period ended March 31, 2025 and 2024
+In thousands of Brazilian Reais
+
+| |
+
+|
+Attributable to owners of the parent
+
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+Capital reserve
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+Notes
+
+|
+|
+
+Issued
+
+Capital
+|
+|
+Additional
+
+paid-in
+
+capital
+|
+|
+Other
+
+Reserves
+|
+|
+Other
+
+comprehensive
+
+income and
+
+Other
+|
+|
+Retained
+
+Earnings
+|
+|
+Treasury Shares
+|
+|
+Total
+|
+|
+Non-
+
+Controlling
+
+interest
+|
+|
+Total
+
+Equity
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Balances as of December 31, 2023 |
+|
+|
+26 |
+|
+6,417,115 |
+|
+12,772,879 |
+|
+376,449 |
+|
+- |
+|
+(117,117) |
+|
+19,449,352 |
+|
+1,492 |
+|
+19,450,844 |
+
+Comprehensive income for the period |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net income for the period |
+|
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+1,030,016 |
+|
+- |
+|
+1,030,016 |
+|
+(461) |
+|
+1,029,555 |
+
+Other comprehensive income, net |
+|
+|
+- |
+|
+- |
+|
+- |
+|
+(169,245) |
+|
+- |
+|
+- |
+|
+(169,245) |
+|
+- |
+|
+(169,245) |
+
+Transactions with shareholders - contributions and distributions |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Share based plan |
+26 |
+|
+- |
+|
+59 |
+|
+142,404 |
+|
+- |
+|
+- |
+|
+- |
+|
+142,463 |
+|
+2,637 |
+|
+145,100 |
+
+Other changes in equity, net |
+|
+|
+- |
+|
+- |
+|
+- |
+|
+(21,033) |
+|
+- |
+|
+- |
+|
+(21,033) |
+|
+- |
+|
+(21,033) |
+
+Treasury shares |
+19c |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+(10,337) |
+|
+(10,337) |
+|
+- |
+|
+(10,337) |
+
+Allocations of the net income for the period |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Dividends distributed |
+19d |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+(111) |
+|
+(111) |
+
+Balances as of March 31, 2024 |
+|
+|
+26 |
+|
+6,417,174 |
+|
+12,915,283 |
+|
+186,171 |
+|
+1,030,016 |
+|
+(127,454) |
+|
+20,421,216 |
+|
+3,557 |
+|
+20,424,773 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Balances as of December 31, 2024 |
+|
+|
+26 |
+|
+5,651,493 |
+|
+15,288,196 |
+|
+(673,978) |
+|
+- |
+|
+(222,180) |
+|
+20,043,557 |
+|
+3,680 |
+|
+20,047,237 |
+
+Comprehensive income for the period |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Net income for the period |
+|
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+1,235,519 |
+|
+- |
+|
+1,235,519 |
+|
+546 |
+|
+1,236,065 |
+
+Other comprehensive income, net |
+|
+|
+- |
+|
+- |
+|
+- |
+|
+134,316 |
+|
+- |
+|
+- |
+|
+134,316 |
+|
+- |
+|
+134,316 |
+
+Transactions with shareholders - contributions and distributions |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Share based plan |
+26 |
+|
+- |
+|
+- |
+|
+135,745 |
+|
+- |
+|
+- |
+|
+- |
+|
+135,745 |
+|
+190 |
+|
+135,935 |
+
+Other changes in equity, net |
+|
+|
+- |
+|
+- |
+|
+- |
+|
+(9,277) |
+|
+- |
+|
+- |
+|
+(9,277) |
+|
+(1) |
+|
+(9,278) |
+
+Acquisition of treasury shares |
+19c |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+(497,772) |
+|
+(497,772) |
+|
+- |
+|
+(497,772) |
+
+Allocations of the net income for the period |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Dividends distributed |
+19d |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+(180) |
+|
+(180) |
+
+Balances as of March 31, 2025 |
+|
+|
+26 |
+|
+5,651,493 |
+|
+15,423,941 |
+|
+(548,939) |
+|
+1,235,519 |
+|
+(719,952) |
+|
+21,042,088 |
+|
+4,235 |
+|
+21,046,323 |
+
+The accompanying notes are an integral part of the unaudited
+interim condensed consolidated financial statements.
+
+6
+
+XP Inc. and its subsidiaries
+Unaudited interim condensed consolidated statements of cash flows
+for the three months period ended March 31, 2025 and 2024
+In
+thousands of Brazilian Reais
+
+| |
+
+|
+|
+
+Three months ended March 31,
+|
+
+|
+Note |
+2025 |
+|
+2024 |
+
+Operating activities |
+|
+|
+|
+|
+
+Income before income tax |
+|
+1,262,724 |
+|
+1,088,453 |
+
+|
+|
+|
+|
+|
+
+Adjustments to reconcile income before income taxes |
+|
+|
+|
+|
+
+Depreciation of property, equipment and right-of-use assets |
+12 |
+36,339 |
+|
+28,918 |
+
+Amortization of intangible assets |
+12 |
+37,787 |
+|
+39,142 |
+
+Loss on write-off of right-of-use assets, property, equipment and intangible assets and lease, net |
+12 |
+5,510 |
+|
+15,813 |
+
+Share of profit or (loss) in joint ventures and associates |
+11 |
+(7,455) |
+|
+(7,104) |
+
+Income from share in the net income of associates measured at fair value |
+11 |
+- |
+|
+15 |
+
+Expected credit losses on financial assets |
+10 |
+146,411 |
+|
+96,870 |
+
+Provision for contingencies, net |
+21 |
+1,074 |
+|
+(11,572) |
+
+Net foreign exchange differences |
+|
+(596,234) |
+|
+159,575 |
+
+Share based plan |
+|
+135,935 |
+|
+145,100 |
+
+Interest accrued, including monetary correction on contingent liabilities |
+|
+173,360 |
+|
+182,512 |
+
+Loss on disposal of property and equipment |
+|
+3,795 |
+|
+- |
+
+|
+|
+|
+|
+|
+
+Changes in assets and liabilities |
+|
+|
+|
+|
+
+Securities (assets and liabilities) |
+|
+(14,854,685) |
+|
+(8,709,462) |
+
+Derivative financial instruments (assets and liabilities) |
+|
+2,565,489 |
+|
+622,005 |
+
+Securities trading and intermediation (assets and liabilities) |
+|
+4,029,108 |
+|
+(135,724) |
+
+Securities purchased (sold) under resale (repurchase) agreements |
+|
+(2,511,060) |
+|
+1,314,890 |
+
+Accounts receivable |
+|
+(160,727) |
+|
+37,352 |
+
+Loan operations |
+|
+(842,660) |
+|
+(1,045,877) |
+
+Prepaid expenses |
+|
+2,536 |
+|
+(58,323) |
+
+Other assets and other financial assets |
+|
+1,880,336 |
+|
+(4,256,116) |
+
+Accounts payable |
+|
+107,855 |
+|
+5,210 |
+
+Financing instruments payable |
+|
+5,985,330 |
+|
+2,450,655 |
+
+Social and statutory obligations |
+|
+(691,777) |
+|
+(520,694) |
+
+Tax and social security obligations |
+|
+8,470 |
+|
+30,481 |
+
+Retirement plans liabilities |
+|
+2,207,978 |
+|
+2,245,287 |
+
+Other liabilities and other financial liabilities |
+|
+(1,315,585) |
+|
+3,214,432 |
+
+|
+|
+|
+|
+|
+
+Cash from (used in) operations |
+|
+(2,390,146) |
+|
+(3,068,162) |
+
+|
+|
+|
+|
+|
+
+Income tax paid |
+|
+(125,450) |
+|
+(268,007) |
+
+Contingencies paid |
+21 |
+(8,689) |
+|
+(12) |
+
+Interest paid |
+31 |
+- |
+|
+(10,064) |
+
+Additional contingent consideration paid |
+|
+(109,628) |
+|
+- |
+
+Net cash flows from (used in) operating activities |
+|
+(2,633,913) |
+|
+(3,346,245) |
+
+|
+|
+|
+|
+|
+
+Investing activities |
+|
+|
+|
+|
+
+Acquisition of property and equipment |
+12 |
+(20,129) |
+|
+(32,965) |
+
+Acquisition of intangible assets |
+12 |
+(52,550) |
+|
+(13,775) |
+
+Dividends received from associates |
+11 |
+31,934 |
+|
+- |
+
+Acquisition of associates |
+31(ii) |
+(113,127) |
+|
+(670,464) |
+
+Net cash flows from (used in) investing activities |
+|
+(153,872) |
+|
+(717,204) |
+
+|
+|
+|
+|
+|
+
+Financing activities |
+|
+|
+|
+|
+
+Acquisition of borrowings |
+31 |
+1,960,887 |
+|
+- |
+
+Acquisition of treasury shares |
+19(c) |
+(497,772) |
+|
+(10,337) |
+
+Payments of borrowings and lease liabilities |
+31 |
+(46,782) |
+|
+(53,441) |
+
+Payment of debt securities in issue |
+31 |
+(1,266,496) |
+|
+- |
+
+Transactions with non-controlling interests |
+|
+(1) |
+|
+- |
+
+Dividends paid to non-controlling interests |
+|
+(180) |
+|
+(111) |
+
+Net cash flows from (used in) financing activities |
+|
+149,656 |
+|
+(63,889) |
+
+|
+|
+|
+|
+|
+
+Net increase/(decrease) in cash and cash equivalents |
+|
+(2,638,129) |
+|
+(4,127,338) |
+
+Cash and cash equivalents at the beginning of the period |
+|
+12,909,616 |
+|
+9,210,482 |
+
+Effects of exchange rate changes on cash and cash equivalents |
+|
+(38,775) |
+|
+9,484 |
+
+Cash and cash equivalents at the end of the period |
+|
+10,232,712 |
+|
+5,092,628 |
+
+Cash |
+|
+8,226,290 |
+|
+3,938,578 |
+
+Securities purchased under resale agreements |
+3 |
+740,464 |
+|
+1,005,478 |
+
+Bank deposit certificates |
+4 |
+64,960 |
+|
+58,572 |
+
+Other deposits at Brazilian Central Bank |
+15 |
+1,200,998 |
+|
+90,000 |
+
+The accompanying notes are an integral part of the unaudited
+interim condensed consolidated financial statements.
+
+7
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 1. | Operations |
+
+XP Inc. (the “Company”) is a Cayman
+Island exempted company with limited liability, incorporated on August 29, 2019. The registered office of the Company is 20, Genesis Close,
+in George Town, Grand Cayman.
+
+XP Inc. is currently the entity which is registered
+with the U.S. Securities and Exchange Commission (“SEC”). The common shares are trading on the Nasdaq Global Select Market
+(“NASDAQ-GS”) under the symbol “XP”.
+
+XP Inc. is a holding company controlled by XP Control
+LLC, which holds 70.72% of voting rights and is controlled by a group of individuals.
+
+XP Inc. and its subsidiaries (collectively, “Group”
+or “XP Group”) is a leading, technology-driven financial services platform and a trusted provider of low-fee financial
+products and services in Brazil, the USA and the UK. XP Group are principally engaged in providing its customers, represented by individuals
+and legal entities in Brazil and abroad, various financial products, services, digital content and financial advisory services, mainly
+acting as broker-dealer, including securities brokerage, private pension plans, commercial and investment banking products such as loan
+operations, transactions in the foreign exchange markets and deposits, through our brands that reach clients directly and through network
+of Independent Financial Advisers (“IFAs”).
+
+These unaudited interim condensed consolidated
+financial statements as of March 31, 2025, were approved by the Board of Director’s meeting on May 19, 2025.
+
+| 1.1 | Share buy-back programs |
+
+On February 20, 2024, the Board of Directors approved
+a new share repurchase program, which aims to neutralize future shareholder dilution due to the vesting of Restricted Stock Units (RSUs)
+from the Company´s long-term incentive plan. The Company proposes to undertake a share repurchase program pursuant to which the
+Board can annually, in each calendar year, approve the repurchase by the Company of a number of Class A common shares equal to the number
+of RSUs that have vested or will vest during the current calendar year.
+
+Under the approved repurchase program for 2024,
+XP may repurchase up to 2,500,000 Class A common shares within the period started on February 28, 2024, and ending on December 27, 2024.
+The repurchase limit was reached on May 23, 2024 and the program has terminated.
+
+On May 23, 2024, the Board of Directors approved
+a new share repurchase program. Under the program, XP may repurchase up to the amount in dollars equivalent to R$1.0 billion of its outstanding
+Class A common shares over a period beginning on May 23, 2024, continuing until the earlier of the completion of the repurchase or December
+31, 2024, depending upon market conditions. The repurchase limit of R$ 1.0 billion was reached on June 4, 2024 and the program has terminated.
+
+On November 19, 2024, the Board of Directors approved
+a new share repurchase program, under which XP may repurchase up to the amount in dollars equivalent to R$1.0 billion of its outstanding
+Class A common shares over a period beginning on November 20, 2024, continuing until the earlier of the completion of the repurchase or
+November 20, 2025, depending on market conditions.
+
+As of March 31, 2025, the Company held in treasury
+7,351,424 Class A shares (equivalent to R$ 603 million or US$ 103 million), acquired under its share buy-back programs, which were acquired
+at an average price of US$ 14.05 per share, with prices ranging from US$ 11.44 to US$ 16.13.
+
+| 1.2 | Corporate reorganization |
+
+In order to improve corporate structure, Group’s
+capital and cash management, XP Inc is conducting entity reorganizations, as follows:
+
+| i) | Inversion of financial institutions in Brazil: On November 13, 2024, the completion of the corporate reorganization
+was approved, where Banco XP became the group's main operational holding company. |
+
+| ii) | Reorganization of international operations. The entities XP Holding International LLC, XP Advisory US
+and XP Holding UK Ltd, which are no longer wholly owned subsidiaries of XP Investimentos S.A., and are now directly owned by XP Inc. The
+transaction was completed on October 20, 2023. |
+
+| iii) | XP Investimentos spin-off: On May 1, 2025, the investment held in XP Controle 5 Participações
+and some commercial notes issued by XP Investimentos was spun off. As a result of this transaction, XP Controle 5 Participações
+became a wholly-owned subsidiary of Banco XP |
+
+The corporate reorganization events described above
+had no material impacts on the Group’s financial position and results of operations.
+
+8
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 2. | Basis of preparation and changes to the Group’s accounting policies |
+
+| a) | Basis of preparation |
+
+The unaudited interim condensed consolidated balance
+sheet as of March 31, 2025, the unaudited interim condensed consolidated statements of income, changes in equity, cash flows and comprehensive
+income for the three months period ended March 31, 2025 and 2024 (the “financial statements”) have been prepared in accordance
+with IAS 34 Interim Financial Reporting as issued by the International Accounting Standards Board (“IASB”).
+
+The unaudited interim condensed consolidated financial
+statements have been prepared on a historical cost basis, except for financial instruments that have been measured at fair value.
+
+The unaudited interim condensed consolidated financial
+statements do not include all the information and disclosures required in the annual financial statements and should be read in conjunction
+with the Group’s annual consolidated financial statements as of December 31, 2024. The list of notes that were not presented in
+this unaudited interim condensed is described below:
+
+Note to financial statements
+of
+
+December 31, 2024
+|
+Description |
+
+3. |
+Summary of significant accounting policies |
+
+4. |
+Significant accounting judgements, estimates and assumptions |
+
+5. |
+Group structure |
+
+11. |
+Accounts receivable |
+
+12. |
+Recoverable taxes |
+
+21. |
+Social and Statutory obligations |
+
+22. |
+Tax and social security obligations |
+
+26. (a) |
+Key-person management compensation |
+
+The accounting policies adopted are consistent
+with those of the previous financial year and corresponding interim reporting period, except for the new accounting policies adopted for
+the current interim reporting period, see Note 2 (b).
+
+The unaudited interim condensed consolidated financial
+statements are presented in Brazilian reais (“R$”), which is the Group’s presentation currency, and all amounts disclosed
+in the financial statements and notes have been rounded off to the nearest thousand currency units unless otherwise stated.
+
+| b) | New standards, interpretations and amendments not yet adopted |
+
+The accounting policies adopted in the preparation
+of the interim condensed consolidated financial statements are consistent with those followed in the preparation of the Group’s
+annual consolidated financial statements for the year ended December 31, 2024.
+
+(a) Amendments to the Classification and Measurement
+of Financial Instruments – Amendments to IFRS 9 and IFRS 7 (effective for annual periods beginning on or after January 1, 2026):
+On May 30, 2024, the IASB issued targeted amendments to IFRS 9 and IFRS 7 to respond to recent questions arising in practice, and to include
+new requirements not only for financial institutions but also for corporate entities. These amendments:
+
+• clarify the date of recognition and derecognition
+of some financial assets and liabilities, with a new exception for some financial liabilities settled through an electronic cash transfer
+system;
+
+• clarify and add further guidance for assessing
+whether a financial asset meets the solely payments of principal and interest (SPPI) criterion;
+
+• add new disclosures for certain instruments
+with contractual terms that can change cash flows (such as some financial instruments with features linked to the achievement of environment,
+social and governance targets); and
+
+• update the disclosures for equity instruments
+designated at fair value through other comprehensive income (FVOCI).
+
+The Group does not expect these amendments to have
+a material impact on its operations or financial statements.
+
+(b) Amendments to new ‘own use’ and
+hedging guidance for contracts referencing nature-dependent electricity – Amendments to IFRS 9 and IFRS 7 (effective for annual
+periods beginning on or after January 1, 2026): The IASB has issued targeted amendments to IFRS 9 ‘Financial Instruments’
+and IFRS 7 ‘Financial Instruments: Disclosures’, to ensure that financial statements faithfully represent the effects of an
+entity’s contracts referencing nature-dependent electricity. The Group does not expect these amendments to have a material impact
+on its operations or financial statements.
+
+(c) IFRS 19 Subsidiaries without Public Accountability:
+Disclosures (effective for annual periods beginning on or after January 1, 2027): Issued in May 2024, IFRS 19 allows for certain eligible
+subsidiaries of parent entities that report under
+
+9
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+IFRS Accounting Standards to apply reduced disclosure
+requirements. The Group does not expect this standard to have an impact on its operations or financial statements.
+
+(d) IFRS 18 Presentation and Disclosure in Financial
+Statements: The standard replaces IAS 1, carrying forward many of the requirements in IAS 1 unchanged and complementing them with new
+requirements. In addition, some IAS 1 paragraphs have been moved to IAS 8 and IFRS 7. Furthermore, the IASB has made minor amendments
+to IAS 7 and IAS 33 - Earnings per Share. IFRS 18 introduces new requirements to:
+
+• present specified categories and defined
+subtotals in the statement of profit or loss
+
+• provide disclosures on management-defined
+performance measures (MPMs) in the notes to the financial statements
+
+• improve aggregation and disaggregation.
+
+An entity is required to apply IFRS 18 for annual
+reporting periods beginning on or after January 1, 2027, with earlier application permitted. The amendments to IAS 7 and IAS 33, as well
+as the revised IAS 8 and IFRS 7, become effective when an entity applies IFRS 18. IFRS 18 requires retrospective application with specific
+transition provisions. The application of these standards may have an impact on the Group's consolidated financial statements in future
+periods.
+
+| c) | Basis of consolidation |
+
+There were no changes since December 31, 2024,
+in the accounting practices adopted for consolidation of the Company’s direct and indirect interests in its subsidiaries for the
+purposes of these unaudited interim condensed consolidated financial statements.
+
+| (i) | Subsidiaries |
+
+Subsidiaries are all entities (including structured
+entities) over which the Group has control. The Group controls an entity when the Group is exposed to, or has rights to, variable returns
+from its involvement with the entity and has the ability to affect those returns through its power to direct the activities of the entity.
+Subsidiaries are fully consolidated from the date on which control is transferred to the Group. They are deconsolidated from the date
+that control ceases.
+
+The acquisition method of accounting is used to
+account for business combinations by the Group.
+
+Intercompany transactions, balances and unrealized
+gains on transactions between Group companies are eliminated. Unrealized losses are also eliminated unless the transaction provides evidence
+of an impairment of the transferred asset. Accounting policies of subsidiaries have been changed where necessary to ensure consistency
+with the policies adopted by the Group.
+
+Non-controlling interests in the results and equity
+of subsidiaries are shown separately in the statement of income and of comprehensive income, statement of changes in equity and balance
+sheet respectively.
+
+| (ii) | Associates |
+
+Associates are companies in which the investor
+has a significant influence but does not hold control. Investments in these companies are initially recognized at cost of acquisition
+and subsequently accounted for using the equity method. Investments in associates include the goodwill identified upon acquisition, net
+of any cumulative impairment loss.
+
+Under the equity method of accounting, the investments
+are initially recognized at cost and adjusted thereafter to recognize the Group’s share of the post-acquisition profits or losses
+of the investee in the Group’s income statement, and the Group’s share of movements in other comprehensive income of the investee
+in the Group’s other comprehensive income. Dividends received or receivable from associates are recognized as a reduction in the
+carrying amount of the investment.
+
+Unrealized gains on transactions between the Group
+and its associates are eliminated to the extent of the Group’s interest in these entities. Unrealized losses are also eliminated
+unless the transaction provides evidence of an impairment of the asset transferred. Accounting policies of equity-accounted investees
+have been changed where necessary to ensure consistency with the policies adopted by the Group.
+
+If its interest in the associates decreases, but
+the Group retains significant influence or joint control, only the proportional amount of the previously recognized amounts in other comprehensive
+income is reclassified in income, when appropriate.
+
+| (iii) | Interests in associates measured at fair value |
+
+The Group has investments in associates measured
+at fair value in accordance with item 18 of IAS 28 – Investments in Associates and Joint Ventures. These investments are held through
+XP FIP Managers and XP FIP Endor, which are venture capital organizations. In determining whether the funds meet the definition of
+venture capital organizations, management considers the investment portfolio features and objectives. The portfolio classified in
+this category has the objective to generate growth in the value of its investments in the medium term and have an exit strategy. Additionally,
+the performance of these portfolios is evaluated and managed considering a fair value basis of each investment.
+
+10
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| d) | Business combinations and other developments |
+
+| (i) | Minority stake acquisitions |
+
+During the year ended December 31, 2023, XP Inc.
+entered in agreements through its subsidiary XP Controle 5 Participações Ltda. to acquire minority stakes in Monte Bravo
+Holding JV S.A. (“Monte Bravo”), Blue3 S.A. (“Blue3”) and Ável Participações Ltda. (“Ável”).
+These companies were part of XP Inc’s IFAs network. The total fair value consideration recorded for those acquisitions is R$ 784,743,
+including the goodwill in a total amount of R$ 487,671. The goodwill recognized is mainly attributable to expected synergies arising from
+the investments. As of March 31, 2025, from the total fair value consideration: (i) R$ 45,000 was paid during 2023, (ii) R$ 669,521 was
+paid during 2024 (including monetary correction on this amount), (iii) R$ 35,518 was paid during 2025 (including monetary correction on
+this amount) and (iv) there is a remaining amount of R$ 39,321 recorded through accounts payable (including monetary correction on this
+amount), which is payable in January 2026.
+
+During the year ended December 31, 2024, XP Inc.
+entered in agreements through its subsidiary XP Controle 5 Participações Ltda. to acquire minority stakes in other three
+IFAs. The total fair value consideration recorded for those acquisitions is R$ 414,503, including the preliminary goodwill in a total
+amount of R$ 326,735. As of March 31, 2025, from the total fair value consideration: (i) R$ 225,766 was paid in cash during 2024, (ii)
+R$ 106,412 was settled through the private issuance of XP Inc Class A shares (see note 19a), (iii) there is an amount equal to R$ 20,000
+recorded through contingent consideration (note 15b), (iv) R$ 27,209 was paid in cash during 2025 (including monetary correction on this
+amount) and (v) there is a remaining amount of R$ 34,895 recorded through accounts payable (including monetary correction on this amount),
+which will be paid during the last quarter of 2025.
+
+During the three months period ended March 31,
+2025, XP Inc. entered in an agreement through its subsidiary XP Controle 5 Participações Ltda. to acquire a minority stake
+in other IFA of its IFAs network. The total fair value consideration recorded for the acquisition is R$ 50,400, including the preliminary
+goodwill in a total amount of R$ 31,010. The goodwill recognized is mainly attributable to expected synergies arising from the investment.
+During the three months period ended March 31, 2025, the total fair value consideration of R$ 50,400 was paid in cash.
+
+| (ii) | Presentation improvements for foreign exchange portfolios |
+
+The Group has changed the presentation of foreign
+exchange transactions, which are accounted for under “Other financial assets and liabilities”, applying the offsetting of
+asset and liability positions that meet the requirements of item 42 of IAS 32.
+
+| (iii) | New business models for managing financial assets |
+
+Management is undertaking an assessment to evaluate
+the possibility of classifying part of its proprietary securities portfolio as amortized cost.
+
+| e) | Segment reporting |
+
+In reviewing the operational performance of the
+Group and allocating resources, the chief operating decision maker of the Group (“CODM”), who is the Group’s Chief Executive
+Officer (“CEO”) and the Board of Directors (“BoD”), represented by statutory directors holders of ordinary shares
+of the immediate parent of the Company, reviews selected items of the statement of income and of comprehensive income.
+
+The CODM considers the whole Group as a single
+operating and reportable segment, monitoring operations, making decisions on fund allocation and evaluating performance based on a single
+operating segment. The CODM reviews relevant financial data on a combined basis for all subsidiaries and joint ventures.
+
+The Group’s revenue, results and assets for
+this one reportable segment can be determined by reference to the unaudited interim condensed consolidated statements of income and of
+comprehensive income and unaudited interim condensed consolidated balance sheet.
+
+See Note 22(c) for a breakdown of total revenue
+and income and selected assets by geographic location.
+
+| f) | Estimates |
+
+The preparation of unaudited interim condensed
+consolidated financial statements of the Group requires management to make judgments and estimates and to adopt assumptions that affect
+the amounts presented referring to revenues, expenses, assets and liabilities at the reporting date. Actual results may differ from these
+estimates.
+
+In preparing these unaudited interim condensed
+consolidated financial statements, the significant judgements and estimates made by management in applying the Group’s accounting
+policies and the key sources of estimation uncertainty were the same as those that are set in the consolidated financial statements for
+the year ended December 31, 2024.
+
+11
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 3. | Securities purchased (sold) under resale (repurchase) agreements |
+
+| a) | Securities purchased under resale agreements |
+
+|
+
+March
+31, 2025
+|
+|
+December 31, 2024 |
+
+Collateral held |
+401,784 |
+|
+3,163,705 |
+
+National Treasury Notes (NTNs) (i) |
+30,949 |
+|
+777,325 |
+
+National Treasury Bills (LTNs) (i) |
+44,665 |
+|
+2,069,688 |
+
+Financial Treasury Bills (LFTs) (i) |
+- |
+|
+173,489 |
+
+Debentures (ii) |
+203,034 |
+|
+27,560 |
+
+Real Estate Receivable Certificates (CRIs) (ii) |
+114,922 |
+|
+11,073 |
+
+Other (ii) |
+8,214 |
+|
+104,570 |
+
+|
+|
+|
+|
+
+Collateral repledge |
+7,418,506 |
+|
+18,895,796 |
+
+National Treasury Bills (LTNs) (i) |
+- |
+|
+3,230,098 |
+
+Financial Treasury Bills (LFTs) (i) |
+- |
+|
+529,180 |
+
+National Treasury Notes (NTNs) (i) |
+- |
+|
+7,538,695 |
+
+Debentures (ii) |
+3,856,413 |
+|
+4,304,132 |
+
+Real Estate Receivable Certificates (CRIs) (ii) |
+2,422,572 |
+|
+1,982,544 |
+
+Agribusiness Receivables Certificates (CRAs) (ii) |
+- |
+|
+120,652 |
+
+Interbank Deposits Certificate (CDIs) (ii) |
+833,188 |
+|
+815,302 |
+
+Other (ii) |
+306,333 |
+|
+375,193 |
+
+|
+|
+|
+|
+
+Collateral sold |
+82,893 |
+|
+- |
+
+National Treasury Bills (LTNs) (i) |
+82,893 |
+|
+- |
+
+|
+|
+|
+|
+
+Expected Credit Loss (iii) |
+(2,015) |
+|
+(2,364) |
+
+|
+|
+|
+|
+
+Total |
+7,901,168 |
+|
+22,057,137 |
+
+(i) Investments in purchase and sale commitments
+collateral-backed by sovereign debt securities refer to transactions involving the purchase of sovereign debt securities with a commitment
+to sale originated mainly in the subsidiaries XP CCTVM, Banco XP and in proprietary funds.
+
+(ii) Refers to fixed-rate fixed-income assets,
+which are low-risk investments collateral-backed.
+
+(iii) The reconciliation of gross carrying amount
+and the expected credit loss segregated by stages are presented in the Note 10.
+
+As of March 31, 2025, securities purchased under
+resale agreements were carried out at average interest rates of 14.23% p.a. (12.3% p.a. as of December 31, 2024).
+
+As of March 31, 2025, the amount of R$ 740,464
+(December 31, 2024 - R$ 2,885,843), from the total amount of collateral held portfolio and interbank deposits certificates, is being presented
+as cash equivalents in the statements of cash flows.
+
+| b) | Securities sold under repurchase agreements |
+
+|
+March 31, 2025
+|
+|
+December 31, 2024
+|
+
+National Treasury Bills (LTNs) |
+8,068,114 |
+|
+13,742,957 |
+
+National Treasury Notes (NTNs) |
+22,039,992 |
+|
+29,235,747 |
+
+Financial Treasury Bills (LFTs) |
+- |
+|
+2,892,362 |
+
+Debentures |
+9,591,885 |
+|
+14,889,816 |
+
+Real Estate Receivable Certificates (CRIs) |
+9,639,477 |
+|
+9,260,382 |
+
+Financial Credit Bills (LFs) |
+3,861,177 |
+|
+1,741,369 |
+
+Agribusiness Receivables Certificates (CRAs) |
+1,171,234 |
+|
+17,088 |
+
+Total |
+54,371,879 |
+|
+71,779,721 |
+
+As of March 31, 2025, securities sold under repurchase
+agreements were agreed with average interest rates of 13.88% p.a. (December 31, 2024 – 11.85% p.a.), with assets pledged as collateral.
+
+12
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 4. | Securities |
+
+| a) | Securities classified at fair value through profit and loss are presented in the following table : |
+
+|
+|
+|
+|
+|
+|
+|
+March
+
+31, 2025
+|
+|
+|
+|
+|
+|
+|
+|
+December
+31, 2024
+|
+
+|
+Gross
+
+carrying
+
+amount
+|
+|
+
+Fair
+
+value
+|
+|
+Group
+
+portfolio |
+|
+Retirement
+plan assets
+
+(i)
+|
+|
+Gross carrying amount |
+|
+
+Fair
+
+value
+|
+|
+Group portfolio |
+|
+Retirement plan assets (i) |
+
+Financial assets |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+At fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Brazilian onshore sovereign bonds |
+54,004,591 |
+|
+53,631,670 |
+|
+50,499,443 |
+|
+3,132,227 |
+|
+48,446,247 |
+|
+46,736,163 |
+|
+43,953,460 |
+|
+2,782,703 |
+
+Investment funds |
+68,822,018 |
+|
+68,822,018 |
+|
+5,808,022 |
+|
+63,013,996 |
+|
+65,094,106 |
+|
+65,094,106 |
+|
+3,683,854 |
+|
+61,410,252 |
+
+Stocks issued by public-held company |
+7,681,761 |
+|
+7,681,761 |
+|
+7,403,758 |
+|
+278,003 |
+|
+6,143,508 |
+|
+6,143,508 |
+|
+5,830,985 |
+|
+312,523 |
+
+Debentures |
+12,118,016 |
+|
+12,005,999 |
+|
+11,405,750 |
+|
+600,249 |
+|
+12,806,632 |
+|
+12,491,790 |
+|
+11,898,230 |
+|
+593,560 |
+
+Structured notes |
+16,472 |
+|
+19,776 |
+|
+19,776 |
+|
+- |
+|
+15,940 |
+|
+20,546 |
+|
+20,546 |
+|
+- |
+
+Bank deposit certificates (ii) |
+519,505 |
+|
+534,702 |
+|
+351,957 |
+|
+182,745 |
+|
+648,781 |
+|
+661,664 |
+|
+481,083 |
+|
+180,581 |
+
+Agribusiness receivable certificates |
+1,086,760 |
+|
+1,076,807 |
+|
+1,068,894 |
+|
+7,913 |
+|
+1,046,979 |
+|
+999,636 |
+|
+990,119 |
+|
+9,517 |
+
+Real estate receivable certificates |
+1,704,665 |
+|
+1,593,021 |
+|
+1,574,728 |
+|
+18,293 |
+|
+1,593,132 |
+|
+1,487,443 |
+|
+1,484,637 |
+|
+2,806 |
+
+Financial credit bills |
+850,861 |
+|
+910,564 |
+|
+62,999 |
+|
+847,565 |
+|
+534,961 |
+|
+583,840 |
+|
+32,865 |
+|
+550,975 |
+
+Real estate credit bill |
+614,227 |
+|
+614,001 |
+|
+614,001 |
+|
+- |
+|
+366,447 |
+|
+366,441 |
+|
+366,441 |
+|
+- |
+
+Agribusiness credit bills |
+343,096 |
+|
+343,105 |
+|
+343,105 |
+|
+- |
+|
+394,385 |
+|
+394,438 |
+|
+394,438 |
+|
+- |
+
+Commercial notes |
+536,588 |
+|
+538,532 |
+|
+532,763 |
+|
+5,769 |
+|
+569,465 |
+|
+520,349 |
+|
+514,409 |
+|
+5,940 |
+
+Foreign private bonds |
+9,344,016 |
+|
+9,227,876 |
+|
+9,227,876 |
+|
+- |
+|
+8,414,822 |
+|
+8,219,727 |
+|
+8,219,727 |
+|
+- |
+
+Development Credit Bill |
+3,100,485 |
+|
+3,099,772 |
+|
+3,099,772 |
+|
+- |
+|
+4,182,406 |
+|
+4,195,225 |
+|
+4,195,225 |
+|
+- |
+
+Others (iii) |
+1,998,862 |
+|
+1,995,380 |
+|
+1,995,380 |
+|
+- |
+|
+2,107,849 |
+|
+2,070,538 |
+|
+1,938,125 |
+|
+132,413 |
+
+Total |
+162,741,923 |
+|
+162,094,984 |
+|
+94,008,224 |
+|
+68,086,760 |
+|
+152,365,660 |
+|
+149,985,414 |
+|
+84,004,144 |
+|
+65,981,270 |
+
+| (i) | Those financial products represent investment contracts that have the legal form of retirement plans,
+which do not transfer substantial insurance risk to the Group. Therefore, contributions received from participants are accounted for as
+liabilities and an asset of the participant in the linked Specially Constituted Investment Fund (“FIE”). Besides assets which
+are presented segregated above, as retirement plan assets, the Group has proprietary assets to guarantee the solvency of our insurance
+and pension plan operations, under the terms of CNSP Resolution No. 432/2021, presented as Group portfolio, within investment funds line.
+As of March 31, 2025, those assets represent R$ 106,906 (December 31, 2024 - R$ 84,334). |
+
+| (ii) | Bank deposit certificates include R$64,960 (December 31, 2023 – R$69,224) presented as cash equivalents
+in the statements of cash flows. |
+
+| (iii) | Mainly related to bonds issued and traded overseas and other securities. |
+
+13
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| b) | Securities at fair value through other comprehensive income are presented in the following table: |
+
+|
+
+March 31, 2025
+|
+|
+
+December 31, 2024
+|
+
+|
+Gross carrying amount |
+|
+
+Fair
+
+value
+|
+|
+Gross carrying amount |
+|
+
+Fair
+
+value
+|
+
+Financial assets |
+|
+|
+|
+|
+|
+|
+|
+
+At fair value through other comprehensive income |
+|
+|
+|
+|
+|
+|
+|
+
+Brazilian onshore sovereign bonds |
+48,313,362 |
+|
+46,546,858 |
+|
+49,357,469 |
+|
+46,981,007 |
+
+Foreign sovereign bonds |
+4,447,239 |
+|
+4,454,451 |
+|
+3,893,441 |
+|
+3,898,974 |
+
+Total |
+52,760,601 |
+|
+51,001,309 |
+|
+53,250,910 |
+|
+50,879,981 |
+
+| c) | Securities evaluated at amortized cost are presented in the following table: |
+
+|
+
+March 31, 2025
+|
+|
+
+December 31, 2024
+|
+
+|
+Gross carrying amount |
+|
+
+Book
+
+Value (i)
+|
+|
+Gross carrying amount |
+|
+
+Book
+
+Value (i)
+|
+
+Financial assets |
+|
+|
+|
+|
+|
+|
+|
+
+At amortized cost |
+|
+|
+|
+|
+|
+|
+|
+
+Brazilian onshore sovereign bonds |
+1,997,789 |
+|
+1,987,856 |
+|
+- |
+|
+- |
+
+Rural product note |
+295,102 |
+|
+272,773 |
+|
+212,102 |
+|
+211,555 |
+
+Commercial notes |
+3,418,848 |
+|
+3,416,402 |
+|
+2,638,006 |
+|
+2,624,591 |
+
+Total |
+5,711,739 |
+|
+5,677,031 |
+|
+2,850,108 |
+|
+2,836,146 |
+
+(i) Includes expected credit losses in the amount of R$ 34,708 (December
+31, 2024 – R$ 13,962). The reconciliation of gross carrying amount and the expected credit loss segregated by stages are presented
+in the Note 10.
+
+| d) | Securities on the financial liabilities classified at fair value through profit or loss are presented
+in the following table: |
+
+|
+
+March 31, 2025
+|
+|
+
+December 31, 2024
+|
+
+|
+Gross carrying amount |
+|
+
+Fair
+
+value
+|
+|
+Gross carrying amount |
+|
+
+Fair
+
+value
+|
+
+Financial liabilities |
+|
+|
+|
+|
+|
+|
+|
+
+At fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+
+Securities (i) |
+17,659,659 |
+|
+17,659,659 |
+|
+14,830,405 |
+|
+14,830,405 |
+
+(i) Related to stock loan operations carried out
+through the Group's proprietary funds.
+
+| e) | Debentures designated at fair value through profit or loss are presented in the following table: |
+
+On May 6, 2021, XP Investimentos, issued non-convertible
+debentures, in the aggregate amount of R$ 500,018, and designated this instrument as fair value through profit or loss in order to align
+it with the Group’s risk management and investment strategy. The principal amount is due on April 10, 2036. The accrued interest
+is payable every month from the issuance date and is calculated based on the IPCA (Brazilian inflation index) plus 5% p.a.
+
+|
+
+March 31, 2025
+|
+|
+
+December 31, 2024
+|
+
+|
+Gross carrying amount |
+|
+
+Fair
+
+value
+|
+|
+Gross carrying amount |
+|
+
+Fair
+
+Value
+|
+
+Financial liabilities |
+|
+|
+|
+|
+|
+|
+|
+
+At fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+
+Debentures |
+636,040 |
+|
+442,382 |
+|
+623,620 |
+|
+422,971 |
+
+14
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+Unrealized gains/(losses) due to own credit risk
+for liabilities for which the fair value option has been elected are recorded in other comprehensive income. Gain/(losses) due to own
+credit risk were not material for the three months period ended March 31, 2025 and 2024.
+
+Determination of own credit risk for items for
+which the fair value option was elected
+
+The debenture’s own credit risk is calculated
+as the difference between its yield and its benchmark rate for similar Brazilian federal securities.
+
+e.1) Difference between aggregate fair value and
+aggregate remaining contractual principal balance outstanding
+
+The following table reflects the difference between
+the aggregate fair value and the aggregate remaining contractual principal balance outstanding as of March 31, 2025, for instruments for
+which the fair value option has been elected.
+
+|
+|
+|
+|
+|
+|
+March 31, 2025 |
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+|
+Contractual principal outstanding |
+|
+Fair value |
+|
+Fair value/(under) contractual principal outstanding |
+
+Long-term debt |
+|
+|
+|
+|
+|
+|
+
+Debentures |
+|
+636,040 |
+|
+442,382 |
+|
+(193,658) |
+
+| f) | Securities classified by maturity: |
+
+|
+|
+|
+Assets |
+|
+|
+|
+Liabilities |
+
+|
+
+March 31, 2025
+|
+|
+
+December 31, 2024
+|
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Financial assets |
+|
+|
+|
+|
+|
+|
+|
+
+At fair value through PL and OCI |
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+116,457,912 |
+|
+100,930,547 |
+|
+17,659,659 |
+|
+14,830,405 |
+
+Non-stated maturity |
+76,685,754 |
+|
+68,336,068 |
+|
+17,659,659 |
+|
+14,830,405 |
+
+Up to 3 months |
+11,418,738 |
+|
+7,800,480 |
+|
+- |
+|
+- |
+
+From 4 to 12 months |
+28,353,420 |
+|
+24,793,999 |
+|
+- |
+|
+- |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Non-current |
+96,638,381 |
+|
+99,934,848 |
+|
+442,382 |
+|
+422,971 |
+
+After one year |
+96,638,381 |
+|
+99,934,848 |
+|
+442,382 |
+|
+422,971 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Evaluated at amortized cost |
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+1,392,475 |
+|
+87,633 |
+|
+- |
+|
+- |
+
+Up to 3 months |
+- |
+|
+9,457 |
+|
+- |
+|
+- |
+
+From 4 to 12 months |
+1,392,475 |
+|
+78,176 |
+|
+- |
+|
+- |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Non-current |
+4,284,556 |
+|
+2,748,513 |
+|
+- |
+|
+- |
+
+After one year |
+4,284,556 |
+|
+2,748,513 |
+|
+- |
+|
+- |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Total |
+218,773,324 |
+|
+203,701,541 |
+|
+18,102,041 |
+|
+15,253,376 |
+
+The reconciliation of expected loss to financial
+assets at amortized cost segregated by stages is demonstrated in Note 10.
+
+15
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 5. | Derivative financial instruments |
+
+The Group trades derivative financial instruments
+with various counterparties to manage its overall exposures (interest rate, foreign currency and fair value of financial instruments)
+and to assist its customers in managing their own exposures.
+
+Below is the composition of the derivative financial
+instruments portfolio (assets and liabilities) by type of instrument, stated fair value and by maturity:
+
+|
+
+March 31, 2025
+|
+
+|
+
+Notiona
+|
+
+Fair
+Value
+|
+
+%
+|
+
+Up to 3
+
+months
+
+|
+
+From 4 to
+
+12 months
+
+|
+
+Above
+
+12 months
+
+|
+
+Assets |
+|
+|
+|
+|
+|
+|
+
+Options |
+2,505,277,673 |
+10,607,858 |
+21 |
+2,108,118 |
+
+4,822,672 |
+3,677,068 |
+
+Swap contracts |
+762,803,000 |
+23,838,058 |
+46 |
+668,775 |
+
+3,854,162 |
+19,315,121 |
+
+Forward contracts |
+32,947,207 |
+7,623,365 |
+15 |
+6,486,922 |
+230,380 |
+906,063 |
+
+Future contracts |
+
+225,641,195
+|
+
+8,924,468
+|
+
+18
+|
+
+969,659
+|
+
+5,296,802
+|
+
+2,658,007
+|
+
+Total |
+
+3,526,669,075
+|
+
+50,993,749
+|
+
+100
+|
+
+10,233,474
+|
+
+14,204,016
+|
+
+26,556,259
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+Liabilities |
+|
+|
+|
+|
+|
+|
+
+Options |
+2,665,838,092 |
+15,435,551 |
+33 |
+1,241,096 |
+
+4,106,476 |
+10,087,979 |
+
+Swap contracts |
+682,087,681 |
+17,042,902 |
+36 |
+1,205,483 |
+
+4,995,099 |
+10,842,320 |
+
+Forward contracts |
+33,033,326 |
+7,236,483 |
+15 |
+6,827,905 |
+286,616 |
+121,962 |
+
+Future contracts |
+
+211,415,324\
+|
+
+7,639,543
+|
+
+16
+|
+
+831,810
+|
+
+5,115,835
+|
+
+1,691,898
+|
+
+Total |
+
+3,592,374,423
+|
+
+47,354,479
+|
+
+100
+|
+
+10,106,294
+|
+
+14,504,026
+|
+
+22,744,159
+|
+
+|
+
+December 31, 2024
+|
+
+|
+
+Notional
+|
+
+Fair
+Value
+|
+
+%
+|
+
+Up to 3
+
+months
+
+|
+
+From 4 to
+
+12 months
+
+|
+
+Above
+
+12 months
+
+|
+
+Assets |
+|
+|
+|
+|
+|
+|
+
+Options |
+2,538,687,746 |
+18,760,746 |
+41 |
+
+5,326,134 |
+12,239,761 |
+1,194,851 |
+
+Swap contracts |
+758,053,043 |
+21,743,021 |
+47 |
+
+2,296,009 |
+606,502 |
+18,840,510 |
+
+Forward contracts |
+24,701,643 |
+2,692,354 |
+6 |
+
+2,058,810 |
+605,517 |
+28,027 |
+
+Future contracts |
+
+22,759,253
+|
+
+3,003,675
+|
+
+6
+|
+
+134,803
+|
+
+1,269,006
+|
+
+1,599,866
+|
+
+Total |
+
+3,344,201,685
+|
+
+46,199,796
+|
+
+100
+|
+
+9,815,756
+|
+
+14,720,786
+|
+
+21,663,254
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+Liabilities |
+|
+|
+|
+|
+|
+|
+
+Options |
+2,441,605,116 |
+22,034,604 |
+55 |
+
+5,905,967 |
+
+8,037,327 |
+8,091,310 |
+
+Swap contracts |
+825,780,642 |
+14,000,255 |
+35 |
+
+2,501,045 |
+
+1,106,887 |
+10,392,323 |
+
+Forward contracts |
+28,290,772 |
+2,083,292 |
+5 |
+
+2,008,234 |
+72,285 |
+2,773 |
+
+Future contracts |
+397,042,853 |
+
+1,929,536
+|
+
+5
+|
+
+97,829
+|
+
+917,878
+|
+
+913,829
+|
+
+Total |
+
+3,692,719,383
+|
+
+40,047,687
+|
+
+100
+|
+
+10,513,075
+|
+
+10,134,377
+|
+
+19,400,235
+|
+
+| 6. | Hedge accounting |
+
+The Group has three types of hedge relationships:
+hedge of net investment in foreign operations; fair value hedge and cash flow hedge. For hedge accounting purposes, the risk factors measured
+by the Group are:
+
+| · | Interest Rate: Risk of volatility in transactions
+subject to interest rate variations; |
+
+| · | Currency: Risk of volatility in transactions subject
+to foreign exchange variations; |
+
+| · | Stock Grant Charges: Risk of volatility in XP
+Inc stock prices, listed on NASDAQ. |
+
+The structure of risk limits is extended to the
+risk factor level, where specific limits aim at improving the monitoring and understanding processes, as well as avoiding concentration
+of these risks.
+
+The structures designed for interest rate and exchange
+rate categories take into account total risk when there are compatible hedging instruments. In certain cases, management may decide to
+hedge a risk for the risk factor term and limit of the hedging instrument.
+
+16
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| a) | Hedge of net investment in foreign operations |
+
+The objective of the Group was to hedge the risk
+generated by the US$ variation from investments in our subsidiaries in the United States, XP Holding International LLC. and XP Advisors
+Inc. The Group has entered into future contracts to protect against changes in future cash flows and exchange rate variation of net investments
+in foreign operations.
+
+The Group undertakes risk management through the economic relationship between hedge instruments and hedged items, in which it is expected
+that these instruments will move in opposite directions, in the same proportions, with the aim of neutralizing the risk factors.
+
+|
+|
+Hedged item |
+|
+Hedge instrument |
+
+|
+|
+Book Value |
+|
+Variation in value recognized in Other comprehensive income |
+|
+Notional value |
+|
+Variation in the
+
+amounts used to
+
+calculate hedge
+
+ineffectiveness |
+
+|
+|
+|
+|
+|
+
+Strategies |
+|
+Assets |
+|
+Liabilities |
+|
+|
+|
+
+March 31, 2025 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange risk |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Hedge of net investment in foreign operations |
+|
+652,933 |
+|
+- |
+|
+(51,817) |
+|
+654,033 |
+|
+52,650 |
+
+Total |
+|
+652,933 |
+|
+- |
+|
+(51,817) |
+|
+654,033 |
+|
+52,650 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+December 31, 2024 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange risk |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Hedge of net investment in foreign operations |
+|
+675,168 |
+|
+- |
+|
+136,598 |
+|
+708,102 |
+|
+(138,777) |
+
+Total |
+|
+675,168 |
+|
+- |
+|
+136,598 |
+|
+708,102 |
+|
+(138,777) |
+
+| b) | Fair value hedge |
+
+The Group’s fair value strategy consists
+of hedging the exposure to variation in fair value on the receipt, payment of interests and exchange variation on assets and liabilities.
+
+The group applies fair value hedges as follows:
+
+| · | Hedging the exposure of fixed-income securities
+carried out through structured notes. The market risk hedge strategy involves avoiding temporary fluctuations in earnings arising from
+changes in the interest rate market in Reais. Once this risk is offset, the Group seeks to index the portfolio to the CDI, through the
+use of derivatives (DI1 Futuro). The hedge is contracted in order to neutralize the total exposure to the market risk of the fixed-income
+funding portfolio, excluding the portion of the fixed-income compensation represented by the credit spread of Banco XP S.A., seeking to
+obtain the closest match deadlines and volumes as possible. |
+
+| · | Hedging to protect the change in the fair value
+of the exchange and interest rate risk of the component of future cash flows arising from the XP Inc bond issued (financial liability)
+by contracting derivatives. |
+
+| · | Hedging the exposure of fixed-income securities
+carried out through sovereign bonds issued by Brazilian government in BRL through the use of derivatives. The strategy involves avoiding
+temporary fluctuations in statements of income arising from changes in the interest rate market. The hedge is contracted in order to neutralize
+the exposure arising from the risk-free portion of the fixed-income securities, excluding the portion of the securities’ remuneration
+represented by the credit spread. |
+
+| · | Hedging the exposure to fixed interest rates in
+BRL arising from the payroll loans portfolio through the use of derivatives. The strategy involves avoiding temporary fluctuations in
+statements of income arising from changes in the interest rate market. |
+
+| · | Hedging the exposure to floating interest rates in BRL arising from loan operations
+indexed to IPCA (Brazilian inflation index) through the use of derivatives. The strategy involves avoiding temporary fluctuations in statements
+of income arising from changes in the interest rate market. |
+
+The effects of hedge accounting on the financial
+position and performance of the Group are presented below:
+
+17
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+|
+|
+Hedged item |
+|
+Hedge instrument |
+
+|
+|
+Book Value |
+|
+Variation in value recognized in income |
+|
+Notional value |
+|
+Variation in the
+
+amounts used to
+
+calculate hedge
+
+ineffectiveness |
+
+|
+|
+|
+|
+|
+
+Strategies |
+|
+Assets |
+|
+Liabilities |
+|
+|
+|
+
+March 31, 2025 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Interest rate and foreign exchange risk |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Structured notes |
+|
+- |
+|
+19,289,889 |
+|
+(324,445) |
+|
+19,763,031 |
+|
+381,268 |
+
+Issued bonds |
+|
+- |
+|
+2,438,720 |
+|
+160,501 |
+|
+2,388,625 |
+|
+(135,892) |
+
+Brazilian sovereign bonds |
+|
+25,683,638 |
+|
+- |
+|
+43,446 |
+|
+25,485,014 |
+|
+(38,877) |
+
+Payroll loans |
+|
+1,276,084 |
+|
+- |
+|
+7,610 |
+|
+1,285,537 |
+|
+(7,054) |
+
+Loan operations |
+|
+2,463,016 |
+|
+- |
+|
+(16,448) |
+|
+2,463,335 |
+|
+18,639 |
+
+Total |
+|
+29,422,738 |
+|
+21,728,609 |
+|
+(129,336) |
+|
+51,385,542 |
+|
+218,084 |
+
+|
+|
+Hedged item |
+|
+Hedge instrument |
+
+|
+|
+Book Value |
+|
+Variation in value recognized in income |
+|
+Notional value |
+|
+Variation in the
+
+amounts used to
+
+calculate hedge
+
+ineffectiveness |
+
+|
+|
+|
+|
+|
+
+Strategies |
+|
+Assets |
+|
+Liabilities |
+|
+|
+|
+
+December 31, 2024 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Interest rate and foreign exchange risk |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Structured notes |
+|
+- |
+|
+17,671,952 |
+|
+2,727,761 |
+|
+18,273,237 |
+|
+(2,817,265) |
+
+Issued bonds |
+|
+- |
+|
+2,612,153 |
+|
+(779,318) |
+|
+2,544,997 |
+|
+861,368 |
+
+Brazilian sovereign bonds |
+|
+24,728,299 |
+|
+- |
+|
+(384,453) |
+|
+24,624,210 |
+|
+372,940 |
+
+Payroll loans |
+|
+842,210 |
+|
+- |
+|
+(31,328) |
+|
+850,579 |
+|
+29,466 |
+
+Loan operations |
+|
+2,381,358 |
+|
+- |
+|
+(17,669) |
+|
+2,377,504 |
+|
+16,600 |
+
+Total |
+|
+27,951,867 |
+|
+20,284,105 |
+|
+1,514,993 |
+|
+48,670,527 |
+|
+(1,536,891) |
+
+| c) | Cash flow hedge |
+
+In March 2022, XP Inc recorded a hedge structure,
+in order to neutralize the impacts of XP share price variation on highly probable labor tax payments related to share-based compensation
+plans using SWAP-TRS contracts. The transaction has been elected for hedge accounting and classified as cash flow hedge in accordance
+with IFRS 9. Labor tax payments are due upon delivery of shares to employees under share-based compensation plans and are directly related
+to share price at that time.
+
+The effects of hedge accounting on the financial
+position and performance of the Group are presented below:
+
+|
+|
+Hedged
+item |
+|
+Hedge
+instrument |
+
+|
+|
+Book
+Value |
+|
+Variation
+in value recognized in Other comprehensive
+
+income
+|
+|
+Notional
+value |
+|
+Variation
+in the
+
+amounts used to
+
+calculate hedge
+
+ineffectiveness |
+
+|
+|
+|
+|
+|
+
+Strategies |
+|
+Assets |
+|
+Liabilities |
+|
+|
+|
+
+March
+31, 2025 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Market
+price risk |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Long
+term incentive plan taxes |
+|
+|
+|
+251,120 |
+|
+15,562 |
+|
+287,482 |
+|
+(15,870) |
+
+Total |
+|
+|
+|
+251,120 |
+|
+15,562 |
+|
+287,482 |
+|
+(15,870) |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+December
+31, 2024 |
+
+Market
+price risk |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Long term incentive plan
+taxes |
+|
+- |
+|
+234,310 |
+|
+205,701 |
+|
+206,068 |
+|
+(198,386) |
+
+Total |
+|
+- |
+|
+234,310 |
+|
+205,701 |
+|
+206,068 |
+|
+(198,386) |
+
+The table below presents, for each strategy, the
+nominal value and the adjustments to the fair value of the hedging instruments and the book value of the hedged object:
+
+18
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+|
+|
+|
+|
+|
+|
+March 31, 2025 |
+
+|
+|
+Notional amount |
+Book value |
+Variation in fair value used to calculate hedge ineffectiveness |
+Hedge ineffectiveness recognized in income |
+
+Hedge Instruments |
+|
+Assets |
+Liabilities |
+
+Interest rate risk |
+|
+|
+|
+|
+|
+|
+
+Futures |
+|
+51,281,625 |
+29,422,738 |
+21,625,822 |
+224,293 |
+88,180 |
+
+Foreign exchange risk |
+|
+|
+|
+|
+|
+|
+
+Futures |
+|
+757,950 |
+652,933 |
+102,787 |
+46,441 |
+1,401 |
+
+Market price risk |
+|
+|
+|
+|
+|
+|
+
+Swaps |
+|
+287,482 |
+- |
+251,120 |
+(15,870) |
+(308) |
+
+|
+|
+|
+|
+|
+|
+December 31, 2024 |
+
+|
+|
+Notional amount |
+Book value |
+Variation in fair value used to calculate hedge ineffectiveness |
+Hedge ineffectiveness recognized in income |
+
+Hedge Instruments |
+|
+Assets |
+Liabilities |
+
+Interest rate risk |
+|
+|
+|
+|
+|
+|
+
+Futures |
+|
+48,535,725 |
+27,951,867 |
+20,150,635 |
+(1,589,844) |
+(20,755) |
+
+Foreign exchange risk |
+|
+|
+|
+|
+|
+|
+
+Futures |
+|
+842,904 |
+675,168 |
+133,470 |
+(85,824) |
+(3,322) |
+
+Market price risk |
+|
+|
+|
+|
+|
+|
+
+Swaps |
+|
+206,068 |
+- |
+234,310 |
+(198,386) |
+7,315 |
+
+The table below presents, for each strategy, the
+notional amount and the fair value adjustments of hedge instruments and the book value of the hedged item:
+
+|
+|
+March 31, 2025 |
+|
+December 31, 2024 |
+
+Strategies |
+|
+Hedge instruments |
+Hedged item |
+|
+Hedge instruments |
+Hedged item |
+
+|
+Notional amount |
+Fair value adjustments |
+Book value |
+|
+Notional amount |
+Fair value adjustments |
+Book value |
+
+Hedge of fair value |
+|
+51,385,542 |
+218,084 |
+(129,336) |
+|
+48,670,527 |
+(1,536,891) |
+1,514,993 |
+
+Hedge of net investment in foreign operations |
+|
+654,033 |
+52,650 |
+(51,817) |
+|
+708,102 |
+(138,777) |
+136,598 |
+
+Hedge of cash flow |
+|
+287,482 |
+(15,870) |
+15,562 |
+|
+206,068 |
+(198,386) |
+205,701 |
+
+Total |
+|
+52,327,057 |
+254,864 |
+(165,591) |
+|
+49,584,697 |
+(1,874,054) |
+1,857,292 |
+
+The table below shows the breakdown notional value
+by maturity of the hedging strategies:
+
+|
+|
+
+March 31, 2025
+|
+
+|
+0-1 year |
+1-2 years |
+2-3 years |
+3-4 years |
+4-5 years |
+5-10 years |
+Over 10 years |
+Total |
+
+Hedge of fair value |
+22,063,967 |
+11,248,650 |
+8,883,139 |
+2,589,891 |
+3,140,032 |
+1,802,114 |
+1,657,749 |
+51,385,542 |
+
+Hedge of net investment in foreign operations |
+654,033 |
+- |
+- |
+- |
+- |
+- |
+- |
+654,033 |
+
+Hedge of cash flow |
+287,482 |
+- |
+- |
+- |
+- |
+- |
+- |
+287,482 |
+
+Total |
+23,005,482 |
+11,248,650 |
+8,883,139 |
+2,589,891 |
+3,140,032 |
+1,802,114 |
+1,657,749 |
+52,327,057 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+|
+
+December 31, 2024
+|
+
+|
+0-1 year |
+1-2 years |
+2-3 years |
+3-4 years |
+4-5 years |
+5-10 years |
+Over 10 years |
+Total |
+
+Hedge of fair value |
+12,547,147 |
+15,169,533 |
+11,423,467 |
+3,203,777 |
+2,556,701 |
+941,397 |
+2,828,505 |
+48,670,527 |
+
+Hedge of net investment in foreign operations |
+708,102 |
+- |
+- |
+- |
+- |
+- |
+- |
+708,102 |
+
+Hedge of cash flow |
+206,068 |
+- |
+- |
+- |
+- |
+- |
+- |
+206,068 |
+
+Total |
+13,461,317 |
+15,169,533 |
+11,423,467 |
+3,203,777 |
+2,556,701 |
+941,397 |
+2,828,505 |
+49,584,697 |
+
+19
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 7. | Loan operations |
+
+Following is the breakdown of the carrying amount
+of loan operations by class, sector of debtor, maturity and concentration:
+
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+Loans by type |
+|
+|
+|
+
+Pledged asset loan |
+23,546,134 |
+|
+23,217,323 |
+
+Retail |
+13,098,960 |
+|
+12,674,565 |
+
+Companies |
+4,602,694 |
+|
+4,516,553 |
+
+Credit card |
+5,844,480 |
+|
+6,026,205 |
+
+Non-pledged loan |
+6,873,741 |
+|
+6,431,221 |
+
+Retail |
+463,347 |
+|
+549,148 |
+
+Companies |
+4,002,027 |
+|
+3,506,397 |
+
+Credit card |
+2,408,367 |
+|
+2,375,676 |
+
+Total loans operations |
+30,419,875 |
+|
+29,648,544 |
+
+Expected Credit Loss (Note 10) |
+(453,465) |
+|
+(420,081) |
+
+Total loans operations, net of Expected Loss |
+29,966,410 |
+|
+29,228,463 |
+
+|
+|
+|
+|
+
+By maturity |
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+Overdue by 1 day or more |
+347,453 |
+|
+304,052 |
+
+Due in 3 months or less |
+5,978,336 |
+|
+6,014,440 |
+
+Due after 3 months through 12 months |
+3,833,532 |
+|
+3,808,000 |
+
+Due after 12 months |
+20,260,554 |
+|
+19,522,052 |
+
+Total loans operations |
+30,419,875 |
+|
+29,648,544 |
+
+By concentration |
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+Largest debtor |
+2,490,902 |
+|
+2,407,808 |
+
+10 largest debtors |
+5,044,742 |
+|
+4,799,033 |
+
+20 largest debtors |
+6,135,962 |
+|
+5,831,608 |
+
+50 largest debtors |
+7,799,460 |
+|
+7,475,742 |
+
+100 largest debtors |
+8,902,370 |
+|
+8,601,442 |
+
+XP Inc offers loan products through Banco XP to
+its customers. The loan products offered are mostly (77% in March 31, 2025 and 78% in December 31, 2024) collateralized by customers’
+investments on XP platform and credit products strictly related to investments in structured notes, in which the borrower is able to operate
+leveraged, retaining the structured note itself as guarantee for the loan.
+
+The reconciliation of gross carrying amount and
+the expected credit losses in loan operations, segregated by stages, according with IFRS 9, is demonstrated in Note 10.
+
+| 8. | Prepaid expenses |
+
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+Commissions and premiums paid in advance (a)(b) |
+3,869,422 |
+|
+3,948,012 |
+
+Marketing expenses |
+37,970 |
+|
+16,791 |
+
+Services paid in advance (c) |
+230,431 |
+|
+213,193 |
+
+Other expenses paid in advance |
+222,874 |
+|
+185,237 |
+
+Total |
+4,360,697 |
+|
+4,363,233 |
+
+|
+|
+|
+|
+
+Current |
+1,068,282 |
+|
+935,046 |
+
+Non-current |
+3,292,415 |
+|
+3,428,187 |
+
+20
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| (a) | Mostly comprised by long term investment programs implemented by XP CCTVM through its network of IFAs.
+These commissions and premiums paid are recognized at the signing date of each contract and are amortized in the Group’s income
+statement, linearly, according to the investment term period. |
+
+| (b) | Include balances with related parties, in connection with the transactions disclosed on Note 2(d)(i). |
+
+| (c) | Mostly related to software’s subscription licenses (software as a service "SaaS"). |
+
+| 9. | Securities trading and intermediation (receivable and payable) |
+
+Represented by operations at B3 on behalf of and
+on account of third parties, with liquidation operating cycle between D+1 and D+3.
+
+|
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+|
+
+Cash and settlement records |
+|
+414,665 |
+|
+1,521,064 |
+|
+
+Debtors pending settlement |
+|
+4,345,730 |
+|
+4,985,532 |
+|
+
+Other |
+|
+88,326 |
+|
+129,373 |
+|
+
+(-) Expected losses on Securities trading and intermediation (a) |
+|
+(145,628) |
+|
+(136,872) |
+|
+
+Total Assets |
+|
+4,703,093 |
+|
+6,499,097 |
+|
+
+|
+|
+|
+|
+|
+|
+
+Cash and settlement records |
+|
+1,921,224 |
+|
+1,499,960 |
+|
+
+Creditors pending settlement |
+|
+4,638,224 |
+|
+3,222,114 |
+|
+
+Customer's cash on investment account |
+|
+14,157,390 |
+|
+13,752,904 |
+|
+
+Total Liabilities |
+|
+20,716,838 |
+|
+18,474,978 |
+|
+
+(a) The reconciliation of gross carrying amount
+and the expected loss segregated by stages according to IFRS 9 were demonstrated in Note 10.
+
+| 10. | Expected Credit Losses on Financial Assets and Reconciliation of carrying amount |
+
+It is presented below the reconciliation of gross
+carrying amount of financial assets through other comprehensive income and financial assets measured at amortized cost – that have
+their ECLs (Expected Credit Losses) measured using the three-stage model, the low credit risk simplification and the simplified approach
+and the ECLs as of March 31, 2025:
+
+|
+|
+|
+March 31, 2025 |
+
+|
+Gross carrying amount |
+Expected Credit Losses |
+Carrying amount, net |
+
+|
+|
+|
+|
+
+Financial assets at fair value through other comprehensive income |
+|
+|
+|
+
+Low credit risk simplification |
+|
+|
+|
+
+Securities (i) (vi) |
+52,760,601 |
+(6,516) |
+52,760,601 |
+
+Financial assets amortized cost |
+|
+|
+|
+
+Low credit risk simplification |
+|
+|
+|
+
+Securities (i) |
+5,711,739 |
+(34,708) |
+5,677,031 |
+
+Securities purchased under agreements to resell (i) |
+7,903,183 |
+(2,015) |
+7,901,168 |
+
+Three stage model |
+|
+|
+|
+
+Loans and credit card operations (ii) (iii) (iv) (vii) |
+30,419,602 |
+(424,792) |
+29,994,810 |
+
+Simplified approach |
+|
+|
+|
+
+Securities trading and intermediation |
+4,848,721 |
+(145,628) |
+4,703,093 |
+
+Accounts receivable |
+1,015,807 |
+(88,029) |
+927,778 |
+
+Other financial assets |
+8,559,380 |
+(33,699) |
+8,525,681 |
+
+|
+|
+|
+|
+
+Total losses for on-balance exposures |
+111,219,033 |
+(735,387) |
+110,490,162 |
+
+|
+|
+|
+|
+
+Off-balance exposures (v) |
+8,116,609 |
+(28,400) |
+8,088,209 |
+
+|
+|
+|
+|
+
+Total exposures |
+119,335,642 |
+(763,787) |
+118,578,371 |
+
+21
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| (i) | Financial assets considered in Stage 1. |
+
+| (ii) | As of March 31, 2025 are presented in Stage 1: Gross amount of R$ 27,341,393 and ECL of R$ 104,843; Stage
+2: Gross amount of R$ 2,595,553 and ECL of R$ 75,506; Stage 3: Gross amount of R$ 482,656 and ECL of R$ 244,402, respectively. |
+
+| (iii) | Gross amount: As of March 31, 2025 there were transfers between Stage 1 to Stage 2 of R$ 277,291; Stage
+1 to Stage 3 of R$ 112,356; Stage 2 to Stage 1 of R$ 355,680; Stage 2 to Stage 3 of R$ 64,767; Stage 3 to Stage 1 of R$ 29 and Stage 3
+to Stage 2 of R$ 2,780. |
+
+| (iv) | Expected credit loss: As of March 31, 2025 there were transfers between Stage 1 to Stage 2 of R$ 9,254;
+Stage 1 to Stage 3 of R$ 28,962; Stage 2 to Stage 1 of R$ 2,528; Stage 2 to Stage 3 of R$ 42,295; Stage 3 to Stage 1 of R$ 9,254 and Stage
+3 to Stage 2 of R$ 524. |
+
+| (v) | Include credit cards limits and letters of guarantee. |
+
+| (vi) | The loss allowance for ECL of R$ 6,516 on securities at fair value through other comprehensive income does
+not reduce the carrying amount, but an amount equal to the allowance is recognized in OCI as an accumulated impairment amount, with corresponding
+impairment gains or losses recognized in the statement of income. |
+
+| (vii) | In the three months period ended March 31, 2025, there was R$
+71,602 of credit write-off. |
+
+|
+|
+|
+|
+December 31, 2024 |
+
+|
+|
+Gross carrying amount |
+Expected Credit Losses |
+Carrying amount, net |
+
+|
+|
+|
+|
+|
+
+Financial assets at fair value through other comprehensive income |
+|
+|
+|
+|
+
+Low credit risk simplification |
+|
+|
+|
+|
+
+Securities (i) (v) |
+|
+53,250,910 |
+(15,622) |
+53,250,910 |
+
+Financial assets amortized cost |
+|
+|
+|
+|
+
+Low credit risk simplification |
+|
+|
+|
+|
+
+Securities (i) |
+|
+2,850,108 |
+(13,962) |
+2,836,146 |
+
+Securities purchased under agreements to resell (i) |
+|
+22,059,501 |
+(2,364) |
+22,057,137 |
+
+Three stage model |
+|
+|
+|
+|
+
+Loans and credit card operations (ii) (iii) (iv) |
+|
+29,648,544 |
+(396,994) |
+29,251,550 |
+
+Simplified approach |
+|
+|
+|
+|
+
+Securities trading and intermediation |
+|
+6,635,969 |
+(136,872) |
+6,499,097 |
+
+Accounts receivable |
+|
+854,828 |
+(75,885) |
+778,943 |
+
+Other financial assets |
+|
+13,257,189 |
+(24,192) |
+13,232,997 |
+
+|
+|
+|
+|
+|
+
+Total losses for on-balance exposures |
+|
+128,557,049 |
+(665,891) |
+127,906,780 |
+
+|
+|
+|
+|
+|
+
+Off-balance exposures (credit card limits) |
+|
+7,873,551 |
+(23,087) |
+7,850,464 |
+
+|
+|
+|
+|
+|
+
+Total exposures |
+|
+136,430,600 |
+(688,978) |
+135,757,244 |
+
+| (i) | Financial assets considered in Stage 1. |
+
+| (ii) | As of December 31, 2024 are presented in Stage 1: Gross amount of R$ 26,337,288 and ECL of R$ 79,029,
+Stage 2: Gross amount of R$ 2,910,045 and ECL of R$ 87,885, Stage 3: Gross amount of R$ 401,211 and ECL of R$ 230,080, respectively. |
+
+| (iii) | Gross amount: As of December 31, 2024 there were transfers between Stage 1 to Stage 2 of R$ 2,108,966,
+Stage 1 to Stage 3 of R$ 309,713, Stage 2 to Stage 1 of R$ 710,801, Stage 2 to Stage 3 of R$ 125,492, Stage 3 to Stage 1 of R$ 2,108,966
+and Stage 3 to Stage 2 of R$ 810. |
+
+| (iv) | Expected credit loss: As of December 31, 2024 there were transfers between Stage 1 to Stage 2 of R$ 57,266,
+Stage 1 to Stage 3 of R$ 148,947, Stage 2 to Stage 1 of R$ 1,173, Stage 2 to Stage 3 of R$ 2,872, Stage 3 to Stage 1 of R$ 130 and Stage
+3 to Stage 2 of R$ 184. |
+
+| (v) | The loss allowance for ECL of R$ 15,622 on securities at fair value through other comprehensive income
+does not reduce the carrying amount, but an amount equal to the allowance is recognized in OCI as an accumulated impairment amount, with
+corresponding impairment gains or losses recognized in the statement of income. |
+
+22
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 11. | Investments in associates and joint ventures |
+
+Set out below are the associates and joint ventures
+of the Group as of March 31, 2025 and 2024.
+
+Entity
+|
+
+December
+31, 2024
+|
+
+Acquisitions
+
+|
+
+Equity
+in earnings
+|
+
+Dividends received
+
+|
+
+Other changes in equity (iv)
+
+|
+
+Goodwill (i)
+
+|
+
+March
+31, 2025
+|
+
+Equity-accounted method |
+|
+|
+|
+|
+|
+|
+|
+
+Associates (ii.a) |
+1,972,501 |
+19,390 |
+7,455 |
+(31,934) |
+(29,673) |
+31,010 |
+1,968,749 |
+
+Measured at fair value |
+|
+|
+|
+|
+|
+|
+|
+
+Associates (iii) |
+1,546,278 |
+- |
+- |
+- |
+- |
+- |
+1,546,278 |
+
+Total |
+3,518,779 |
+19,390 |
+7,455 |
+(31,934) |
+(29,673) |
+31,010 |
+3,515,027 |
+
+Entity |
+December
+31, 2023 |
+|
+Equity in earnings |
+Other changes in equity |
+Goodwill (i) |
+March 31, 2024 |
+
+Equity-accounted method |
+|
+|
+|
+|
+|
+|
+
+Associates (ii.a) |
+1,657,956 |
+|
+7,104 |
+- |
+- |
+1,665,060 |
+
+Measured at fair value |
+|
+|
+|
+|
+|
+|
+
+Associates (iii) |
+1,450,704 |
+|
+(15) |
+(831) |
+- |
+1,449,858 |
+
+Total |
+3,108,660 |
+|
+7,089 |
+(831) |
+- |
+3,114,918 |
+
+(i) Refers to acquisitions of associates and joint
+ventures. The goodwill recognized includes the amount of expected synergies arising from the investments and includes an element of contingent
+consideration.
+
+(ii) As of March 31, 2025 and December 31, 2024,
+includes the interests in the total and voting capital of the following companies:
+
+(a) Associates - Wealth High Governance Holding
+de Participações S.A. (49.9% of the total and voting capital on March 31, 2025 and December 31, 2024) NK112 Empreendimentos
+e Participações S.A. (49.9% of the total and voting capital on March 31, 2025 and December 31, 2024); Ável Participações
+Ltda. (“Ável”) (35% of the total and voting capital on March 31, 2025 and December 31, 2024); Monte Bravo Holding JV
+S.A. (45% of the total and voting capital on March 31, 2025 and December 31, 2024); Blue3 S.A. (42% of the total and voting
+capital on March 31, 2025 and December 31, 2024); FMX Capital S.A (36% of the total and voting capital on March 31, 2025 and December
+31, 2024); SVN S.A (25% of the total and voting capital on March 31, 2025 and December 31, 2024); Manchester Assessores de Investimentos
+Ltda. (16% of the total and voting capital on March 31, 2025 and December 31, 2024) and Nomos Partnership Ltda (35.01% of the total and
+voting capital on March 31, 2025).
+
+(iii) As mentioned in Note 2 (c)(iii), the Group
+values the investments held through some proprietary investment funds at fair value. The fair value of investments is presented in the
+statement of income as Net income/(loss) from financial instruments at fair value through profit or loss. Contingent consideration amounts
+related to the investments at fair value held through proprietary investment funds are presented in Note 15.
+
+(iv) In the three months period ended March 31,
+2025, includes an amount of R$ 6,152 related to amortization of identifiable assets, in connection with the minority stake acquisitions
+disclosed in Note 2(d)(i).
+
+| 12. | Property, equipment, goodwill, intangible assets and lease |
+
+| a) | Changes in the period |
+
+|
+
+Property and
+
+equipment
+
+|
+
+Intangible
+
+assets
+
+|
+
+|
+|
+|
+
+As of January 1, 2024 |
+373,362 |
+2,502,045 |
+
+Additions |
+32,965 |
+13,775 |
+
+Business combination (i) |
+- |
+46,049 |
+
+Write-offs |
+(10) |
+- |
+
+Foreign exchange |
+(222) |
+(4) |
+
+Depreciation / amortization in the period |
+(11,307) |
+(39,142) |
+
+As of March 31, 2024 |
+394,788 |
+2,522,723 |
+
+Cost |
+596,050 |
+2,842,100 |
+
+Accumulated depreciation / amortization |
+(201,262) |
+(319,377) |
+
+23
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+As of January 1, 2025 |
+449,956 |
+2,634,449 |
+
+Additions |
+20,129 |
+52,550 |
+
+Write-offs |
+(576) |
+(4,934) |
+
+Disposals (Note 31(iii)) |
+(135,748) |
+- |
+
+Foreign exchange |
+(510) |
+(31) |
+
+Depreciation / amortization in the period |
+
+(14,096)
+|
+
+(31,635)
+|
+
+As of March 31, 2025 |
+
+319,155
+|
+
+2,650,399
+|
+
+Cost |
+506,497 |
+3,048,503 |
+
+Accumulated depreciation / amortization |
+(187,342) |
+(398,104) |
+
+| b) | Impairment test for goodwill |
+
+Given the interdependency of cash flows and the
+merger of business practices, all Group’s entities are considered a single cash generating unit (“CGU”) and, therefore,
+a goodwill impairment test is performed at the single operating level. Therefore, the carrying amount considered for the impairment test
+represents the Company’s equity.
+
+The Group performs its annual impairment test in
+December and when circumstances indicates that the carrying value may be impaired. The Group’s impairment tests are based on value-in-use
+calculations. The key assumptions used to determine the recoverable amount for the cash generating unit were disclosed in the annual consolidated
+financial statements for the year ended December 31, 2024. As of March 31, 2025, there were no indicators of a potential impairment of
+goodwill.
+
+| c) | Leases |
+
+Set out below are the carrying amounts of the Group’s
+right-of-use assets and lease liabilities and the movements during the period.
+
+|
+
+Right-of-use
+
+assets
+|
+|
+
+Lease
+
+liabilities
+|
+
+As of January 1, 2024 |
+281,804 |
+|
+304,762 |
+
+Depreciation expense |
+(17,611) |
+|
+- |
+
+Write-off |
+(15,803) |
+|
+(16,116) |
+
+Interest expense |
+- |
+|
+4,979 |
+
+Revaluation |
+325 |
+|
+- |
+
+Effects of exchange rate |
+1,996 |
+|
+(1,409) |
+
+Payment of lease liabilities |
+- |
+|
+(26,735) |
+
+As of March 31, 2024 |
+250,711 |
+|
+265,481 |
+
+Current |
+- |
+|
+112,657 |
+
+Non-current |
+250,711 |
+|
+152,824 |
+
+|
+
+Right-of-use
+
+assets
+|
+|
+
+Lease
+
+liabilities
+|
+
+As of January 1, 2025 |
+313,141 |
+|
+311,347 |
+
+Additions (i) |
+74,696 |
+|
+74,696 |
+
+Depreciation expense |
+(22,243) |
+|
+- |
+
+Interest expense |
+- |
+|
+4,232 |
+
+Revaluation |
+326 |
+|
+- |
+
+Cancellation |
+(5,566) |
+|
+- |
+
+Effects of exchange rate |
+(5,281) |
+|
+(6,189) |
+
+Payment of lease liabilities |
+- |
+|
+(37,053) |
+
+As of March 31, 2025 |
+355,073 |
+|
+347,033 |
+
+Current |
+94,231 |
+|
+72,830 |
+
+Non-current |
+260,842 |
+|
+274,203 |
+
+(i) Additions to right-to-use assets in the period
+include prepayments to lessors and accrued liabilities.
+
+The Group did not recognize rent expense from short-term
+leases and low-value assets for the three months period ended March 31, 2025 and 2024. The total rent expense for the three months period
+ended March 31, 2025 of R$ 16,087 (R$ 9,005 – March 31, 2024) includes other expenses related to leased offices such as condominiums.
+
+24
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 13. | Financing Instruments Payable |
+
+|
+
+March 31, 2025
+|
+|
+
+December 31, 2024
+|
+
+Market funding operations (a) |
+94,322,397 |
+|
+88,483,485 |
+
+Deposits |
+57,065,850 |
+|
+53,506,617 |
+
+Demand deposits |
+1,238,737 |
+|
+1,243,221 |
+
+Time deposits |
+55,356,483 |
+|
+51,638,802 |
+
+Interbank deposits |
+470,630 |
+|
+624,594 |
+
+Financial bills |
+14,519,516 |
+|
+14,193,253 |
+
+Structured notes |
+21,939,881 |
+|
+20,104,840 |
+
+Others |
+797,150 |
+|
+678,775 |
+
+Debt securities (b) |
+5,299,178 |
+|
+6,764,997 |
+
+Debentures |
+- |
+|
+1,251,256 |
+
+Bond |
+5,299,178 |
+|
+5,513,741 |
+
+Total |
+99,621,575 |
+|
+95,248,482 |
+
+|
+|
+|
+|
+
+Current |
+55,154,857 |
+|
+52,036,137 |
+
+Non-current |
+44,466,718 |
+|
+43,212,345 |
+
+| (a) | Market funding operations maturity |
+
+March 31, 2025 |
+|
+|
+|
+|
+|
+|
+|
+
+Class |
+Within 30 days |
+From 31 to 60 days |
+From 61 to 90 days |
+From 91 to 180 days |
+From 181 to 360 days |
+After 360 days |
+Total |
+
+Demand deposits |
+1,238,737 |
+- |
+- |
+- |
+- |
+- |
+1,238,737 |
+
+Time deposits |
+2,987,198 |
+6,128,622 |
+8,894,419 |
+21,829,168 |
+5,863,215 |
+9,653,861 |
+55,356,483 |
+
+Interbank deposits |
+- |
+- |
+- |
+381,016 |
+- |
+89,614 |
+470,630 |
+
+Financial bills |
+70,579 |
+208,644 |
+159,552 |
+1,838,074 |
+2,411,114 |
+9,831,553 |
+14,519,516 |
+
+Structured notes |
+120,206 |
+331,393 |
+111,091 |
+601,741 |
+958,543 |
+19,816,907 |
+21,939,881 |
+
+Others |
+- |
+2 |
+- |
+281,756 |
+407,773 |
+107,619 |
+797,150 |
+
+Total |
+4,416,720 |
+6,668,661 |
+9,165,062 |
+24,931,755 |
+9,640,645 |
+39,499,554 |
+94,322,397 |
+
+December 31, 2024
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Class |
+Within 30 days |
+From 31 to 60 days |
+From 61 to 90 days |
+From 91 to 180 days |
+From 181 to 360 days |
+After 360 days |
+Total |
+
+Demand deposits |
+1,243,221 |
+- |
+- |
+- |
+- |
+- |
+1,243,221 |
+
+Time deposits |
+4,337,012 |
+6,202,542 |
+10,256,783 |
+14,656,194 |
+6,371,748 |
+9,814,523 |
+51,638,802 |
+
+Interbank deposits |
+- |
+- |
+- |
+- |
+370,106 |
+254,488 |
+624,594 |
+
+Financial bills |
+385,960 |
+45,916 |
+108,266 |
+432,934 |
+3,779,877 |
+9,440,300 |
+14,193,253 |
+
+Structured notes |
+69,880 |
+82,304 |
+90,546 |
+536,373 |
+881,785 |
+18,443,952 |
+20,104,840 |
+
+Others |
+- |
+- |
+- |
+4 |
+573,886 |
+104,885 |
+678,775 |
+
+Total |
+6,036,073 |
+6,330,762 |
+10,455,595 |
+15,625,505 |
+11,977,402 |
+38,058,148 |
+88,483,485 |
+
+| (b) | Debt securities maturity |
+
+The total balance is comprised of the following
+issuances:
+
+|
+|
+
+March 31, 2025
+|
+|
+
+December 31,2024
+|
+
+|
+Rate type |
+Up to 1 year |
+1-5 years |
+Total |
+|
+Up to 1 year |
+1-5 years |
+Total |
+
+Bonds (i) |
+Fixed rate |
+332,014 |
+4,967,164 |
+5,299,178 |
+|
+359,544 |
+5,154,197 |
+5,513,741 |
+
+Debentures (ii) |
+Floating rate |
+- |
+- |
+- |
+|
+1,251,256 |
+- |
+1,251,256 |
+
+Total |
+|
+332,014 |
+4,967,164 |
+5,299,178 |
+|
+1,610,800 |
+5,154,197 |
+6,764,997 |
+
+Current |
+|
+|
+|
+332,014 |
+|
+|
+|
+1,610,800 |
+
+Non-current |
+|
+|
+|
+4,967,164 |
+|
+|
+|
+5,154,197 |
+
+25
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| (i) | XP Inc Bonds |
+
+On July 1, 2021, XP Inc. concluded the issuance
+of a gross of US$750 million senior unsecured notes with net proceeds of US$739 million (R$ 3,697 million) with maturity on July 1, 2026,
+and bear interest at the rate of 3.250% per year, guaranteed by XP Investimentos S.A. The principal amount will be paid on the maturity
+date and the interest is amortized every six months.
+
+On July 2, 2024, XP Inc concluded an issuance of
+senior unsecured notes in an aggregate principal amount of US$500 million, with an interest rate of 6.75% and maturity date on July 2,
+2029. The notes will be guaranteed by XP Investimentos S.A. The Company used the net proceeds from the offering of the notes to partially
+repurchase an amount equal to US$287 million of the 3.25% outstanding senior unsecured notes mentioned above.
+
+| (ii) | XP Investimentos debentures |
+
+On July 19, 2022, XP Investimentos issued non-convertible
+debentures in the amount of R$1,800,000 (R$900,000 of series 1 and R$900,000 of series 2). The debentures series, added together, has
+a maximum authorized issuance up to R$1,800,000. The principal amount, including the interest, will be paid on the maturity date as follow:
+(i) June 23, 2024 (series 1) and (ii) June 23, 2025 (series 2). The interest rates for series 1 and series 2 debentures are CDI+1.75%
+and CDI+1.90%, respectively. According to the maturity date of the Series 1 debentures, the principal amount was paid on June 23, 2024.
+The Serie 2 debentures were prepaid on January 31, 2025.
+
+| 14. | Borrowings |
+
+|
+Annual interest rate % |
+|
+Maturity |
+|
+March 31, 2025 |
+|
+December 31, 2024 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Banco Citi México |
+Term SOFR(*)+0.60% |
+|
+June 2025 |
+|
+1,578,454 |
+|
+1,666,432 |
+
+Banco Santander |
+Term SOFR(*)+0.79% |
+|
+December 2025 |
+|
+1,041,723 |
+|
+- |
+
+Bank of America |
+4.358% |
+|
+May 2025 |
+|
+364,378 |
+|
+- |
+
+Bank of America |
+4.395% |
+|
+June 2025 |
+|
+204,969 |
+|
+- |
+
+Bank of America |
+4.343% |
+|
+May 2025 |
+|
+156,284 |
+|
+- |
+
+Bank of America |
+4.332% |
+|
+August 2025 |
+|
+156,284 |
+|
+|
+
+Total |
+|
+|
+|
+|
+3,502,092 |
+|
+1,666,432 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+|
+|
+|
+|
+3,502,092 |
+|
+1,666,432 |
+
+Non-current |
+|
+|
+|
+|
+- |
+|
+- |
+
+(*) Security Overnight Financing Rate (SOFR).
+
+| 15. | Other financial assets and financial liabilities |
+
+| a) | Other financial assets |
+
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+Foreign exchange portfolio |
+16,458 |
+|
+2,231,898 |
+
+Compulsory deposits at Brazilian Central Bank |
+7,241,419 |
+|
+
+6,596,467 |
+
+Other deposits at Brazilian Central Bank (i) |
+1,200,998 |
+|
+
+4,343,999 |
+
+Other financial assets |
+100,505 |
+|
+84,825 |
+
+(-) Expected losses on other financial assets (ii) |
+(33,699) |
+|
+(24,192) |
+
+Total |
+8,525,681 |
+|
+13,232,997 |
+
+|
+|
+|
+|
+
+Current |
+7,239,888 |
+|
+11,919,324 |
+
+Non-current |
+1,285,793 |
+|
+1,313,673 |
+
+(i) As
+of March 31, 2025, the amount of R$ 1,200,998 (December 31, 2024 - R$ 4,343,999) is being presented as cash equivalents in the statements
+of cash flows.
+
+(ii) The reconciliation
+of gross carrying amount and the expected loss according to IFRS 9 are presented in Note 10.
+
+26
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| b) | Other financial liabilities |
+
+|
+
+March 31, 2025
+|
+|
+December 31, 2024 |
+
+Foreign exchange portfolio |
+563,832 |
+|
+2,476,659 |
+
+Structured financing (i) |
+4,140,659 |
+|
+3,282,750 |
+
+Credit cards operations |
+7,934,576 |
+|
+8,138,657 |
+
+Contingent consideration (ii) |
+34,556 |
+|
+116,777 |
+
+Lease liabilities |
+347,033 |
+|
+311,347 |
+
+Others |
+456,169 |
+|
+404,673 |
+
+Total |
+13,476,825 |
+|
+14,730,863 |
+
+|
+|
+|
+|
+
+Current |
+13,168,062 |
+|
+14,343,495 |
+
+Non-current |
+308,763 |
+|
+387,368 |
+
+(i) Financing with prime brokers through the Group's
+proprietary fund Multistrategy using some of its own financial assets as collateral.
+
+(ii) Contractual contingent considerations obligations
+are mostly associated with the acquisition of participation in associates. The maturity of total contingent consideration payment is up
+to 4 years and the contractual maximum amount payable is R$ 180,000 (the minimum amount is zero).
+
+| 16. | Other assets and other liabilities |
+
+| a) | Other assets |
+
+|
+March 31, 2025 |
+|
+December 31, 2024 |
+
+Energy contracts (i) |
+4,954,083 |
+|
+5,164,402 |
+
+Other |
+389,893 |
+|
+363,788 |
+
+Total |
+
+5,343,976
+|
+|
+5,528,190 |
+
+| b) | Other liabilities |
+
+|
+March 31, 2025 |
+|
+December 31, 2024 |
+
+Energy contracts (i) |
+804,503 |
+|
+1,012,855 |
+
+Other |
+67,250 |
+|
+67,235 |
+
+Total |
+
+871,753
+|
+|
+1,080,090 |
+
+| (i) | Energy contracts agreed through the subsidiary XP Comercializadora de Energia Ltda. |
+
+| 17. | Retirement plans and insurance liabilities |
+
+As of March 31, 2025, active plans are principally
+accumulation of financial resources through products PGBL and VGBL structured in the form of variable contribution, for the purpose of
+granting participants with returns based on the accumulated capital in the form of monthly withdraws for a certain term or temporary monthly
+withdraws.
+
+In this respect, such financial products represent
+investment contracts that have the legal form of private pension plans, but which do not transfer insurance risk to the Group. Therefore,
+contributions received from participants are accounted for as liabilities and balance consists of the participant’s balance in the
+linked Specially Constituted Investment Fund (“FIE”) on the reporting date (Note 4 (a)(i)).
+
+27
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+Changes in the period:
+
+|
+
+Three
+months period ended March 31,
+|
+
+|
+
+2025
+|
+
+2024
+|
+
+As of January 1, |
+66,224,387 |
+56,409,075 |
+
+Contributions received |
+764,983 |
+1,028,645 |
+
+Transfer with third party plans |
+675,761 |
+867,675 |
+
+Withdraws |
+(1,291,419) |
+(873,880) |
+
+Claims paid |
+- |
+(194) |
+
+Other provisions (Constitution/Reversion) |
+102,676 |
+25,658 |
+
+Monetary correction and interest income |
+1,955,977 |
+
+1,197,383
+|
+
+As of March 31, |
+68,432,365 |
+58,654,362 |
+
+| 18. | Income tax |
+
+| a) | Deferred income tax |
+
+Deferred tax assets (DTA) and deferred tax liabilities
+(DTL) are comprised of the main following components:
+
+|
+Balance sheet |
+|
+
+Net change in the three months
+period ended March 31,
+|
+
+|
+
+March 31, 2025
+|
+December 31, 2024 |
+|
+2025 |
+2024 |
+
+|
+|
+|
+|
+|
+|
+
+Tax losses carryforwards |
+1,520,569 |
+1,051,966 |
+|
+468,603 |
+141,878 |
+
+Goodwill on business combinations (i) |
+57,826 |
+51,319 |
+|
+6,507 |
+(526) |
+
+Provisions for IFAs’ commissions |
+79,396 |
+84,756 |
+|
+(5,360) |
+(747) |
+
+Revaluations of financial assets at fair value |
+(153,854) |
+294,986 |
+|
+(448,840) |
+1,448 |
+
+Expected credit losses (ii) |
+344,639 |
+334,006 |
+|
+10,633 |
+(39,625) |
+
+Profit sharing plan |
+94,313 |
+298,539 |
+|
+(204,226) |
+(167,460) |
+
+Net gain/(loss) on hedge instruments |
+(35,772) |
+(31,854) |
+|
+(3,918) |
+(3,921) |
+
+Share based compensation |
+625,130 |
+558,744 |
+|
+66,386 |
+67,985 |
+
+Other provisions |
+26,846 |
+(19,817) |
+|
+46,663 |
+48,750 |
+
+Total |
+2,559,093 |
+2,622,645 |
+|
+(63,552) |
+47,782 |
+
+Deferred tax assets |
+2,849,526 |
+2,887,935 |
+|
+|
+|
+
+Deferred tax liabilities |
+(290,433) |
+(265,290) |
+|
+|
+|
+
+| (i) | For Brazilian tax purposes, goodwill is amortized at least in 5 years on a straight-line basis when the
+entity acquired is sold or merged into the acquirer company. |
+
+| (ii) | Include expected credit loss on accounts receivable, loan operations and other financial assets. |
+
+The changes in the net deferred tax were recognized as follows:
+
+|
+
+Three
+months period ended March 31,
+|
+
+|
+
+2025
+|
+
+2024
+|
+
+As of January, 1 |
+2,622,645 |
+2,017,771 |
+
+Foreign exchange variations |
+(7,883) |
+(19,850) |
+
+Charges to statement of income |
+78,523 |
+(13,810) |
+
+Tax relating to components of other comprehensive income |
+(149,991) |
+81,442 |
+
+Other deferred taxes |
+15,799 |
+
+-
+|
+
+As of March 31, |
+2,559,093 |
+
+2,065,553
+|
+
+Unrecognized deferred taxes
+
+Deferred tax assets are recognized for tax losses
+to the extent that the realization of the related tax benefit against future taxable profits is probable. The Group did not recognize
+deferred tax assets of R$ 30,603 (December 31, 2024 - R$ 50,661) mainly in respect of losses from subsidiaries overseas and that can be
+carried forward and used against future taxable income.
+
+28
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| b) | Income tax expense reconciliation |
+
+The tax on the Group's pre-tax profit differs from
+the theoretical amount that would arise using the weighted average tax rate applicable to profits of the consolidated entities. The following
+is a reconciliation of income tax expense to profit (loss) for the period, calculated by applying the combined Brazilian statutory rates
+at 34% for the three months period ended March 31:
+
+|
+Three months period |
+
+ended March 31, |
+
+|
+2025 |
+2024 |
+
+|
+|
+|
+
+Income before taxes |
+1,262,724 |
+1,088,453 |
+
+Combined tax rate in Brazil (a) |
+34% |
+34% |
+
+Tax expense at the combined rate |
+429,326 |
+370,074 |
+
+|
+|
+|
+
+Effects from entities taxed at different rates |
+720 |
+39,884 |
+
+Effects from entities taxed at different taxation regimes (b) |
+(313,871) |
+(278,340) |
+
+Intercompany transactions with different taxation |
+(60,465) |
+(46,190) |
+
+Tax incentives and related donation programs |
+(715) |
+(119) |
+
+Non-deductible expenses (non-taxable income), net |
+(28,336) |
+(26,344) |
+
+Others |
+- |
+(67) |
+
+Total |
+26,659 |
+58,898 |
+
+|
+|
+|
+
+Current |
+105,182 |
+55,415 |
+
+Deferred |
+(78,523) |
+3,483 |
+
+Total expense / (credit) |
+26,659 |
+58,898 |
+
+| (a) | Considering that XP Inc. is domiciled in Cayman and there is no income tax in that jurisdiction, the combined
+tax rate of 34% demonstrated above is the current rate applied to XP Controle 3 Participações S.A. which is the holding
+company of mostly of the operating entities of XP Inc. in Brazil. |
+
+| (b) | Certain eligible subsidiaries adopted the PPM tax regime and the effect of the presumed profit of subsidiaries
+represents the difference between the taxation based on this method and the amount that would be due based on the statutory rate applied
+to the taxable profit of the subsidiaries. Additionally, some entities and investment funds adopt different taxation regimes according
+to the applicable rules in their jurisdictions. |
+
+Other comprehensive income
+
+The tax (charge)/credit relating to components
+of other comprehensive income is as follows:
+
+|
+
+Before
+tax
+|
+(Charge)/
+
+Credit
+|
+
+After
+tax
+|
+
+|
+|
+|
+|
+
+Foreign exchange variation of investees located abroad |
+14,796 |
+- |
+14,796 |
+
+Gains (losses) on net investment hedge |
+(12,561) |
+- |
+(12,561) |
+
+Changes in the fair value of financial assets at fair value |
+
+(290,840)
+|
+
+119,360
+|
+
+(171,480)
+|
+
+As of March 31, 2024 |
+
+(288,605)
+|
+
+119,360
+|
+
+(169,245)
+|
+
+|
+|
+|
+|
+
+Foreign exchange variation of investees located abroad |
+(57,794) |
+- |
+(57,794) |
+
+Gains (losses) on net investment hedge |
+52,650 |
+- |
+52,650 |
+
+Changes in the fair value of financial assets at fair value |
+
+289,451
+|
+
+(149,991)
+|
+
+139,460
+|
+
+As of March 31, 2025 |
+
+284,307
+|
+
+(149,991)
+|
+
+134,316
+|
+
+29
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 19. | Equity |
+
+| (a) | Issued capital |
+
+The Company has an authorized share capital of
+US$ 35 thousand, corresponding to 3,500,000,000 authorized shares with a par value of US$ 0,00001 each of which:
+
+| · | 2,000,000,000 shares are designated as Class A
+common shares and issued; and |
+
+| · | 1,000,000,000 shares are designated as Class B
+common shares and issued. |
+
+The remaining 500,000,000 authorized but unissued
+shares are presently undesignated and may be issued by our board of directors as common shares of any class or as shares with preferred,
+deferred or other special rights or restrictions. Therefore, the Company is authorized to increase capital up to this limit, subject to
+approval of the Board of Directors.
+
+On August 15, 2024, XP Inc issued 985,297 Class
+A common shares (R$ 106,412) to acquire 22% of SVN´s shares, in a non-cash equity exchange transaction.
+
+As of March 31, 2025, the Company had R$ 26 of
+issued capital which were represented by 435,374,795 Class A common shares and 104,432,034 Class B common shares.
+
+| (b) | Additional paid-in capital and capital reserve |
+
+Class A and Class B common shares, have the following
+rights:
+
+| · | Each holder of a Class B common share is entitled,
+in respect of such share, to 10 votes per share, whereas the holder of a Class A common share is entitled, in respect of such share, to
+one vote per share. |
+
+| · | Each holder of Class A common shares and Class
+B common shares vote together as a single class on all matters (including the election of directors) submitted to a vote of shareholders,
+except as provided below and as otherwise required by law. |
+
+| · | Class consents from the holders of Class A common
+shares and Class B common shares, as applicable, shall be required for any modifications to the rights attached to their respective class
+of shares. The rights conferred on holders of Class A common shares shall not be deemed to be varied by the creation or issue of further
+Class B common shares and vice versa; and |
+
+| · | the rights attaching to the Class A common shares
+and the Class B common shares shall not be deemed to be varied by the creation or issue of shares with preferred or other rights, including,
+without limitation, shares with enhanced or weighted voting rights. |
+
+The Articles of Association provide that at any
+time when there are Class A common shares in issue, Class B common shares may only be issued pursuant to: (a) a share split, subdivision
+of shares or similar transaction or where a dividend or other distribution is paid by the issue of shares or rights to acquire shares
+or following capitalization of profits; (b) a merger, consolidation, or other business combination involving the issuance of Class B common
+shares as full or partial consideration; or (c) an issuance of Class A common shares, whereby holders of the Class B common shares are
+entitled to purchase a number of Class B common shares that would allow them to maintain their proportional ownership and voting interests
+in XP Inc.
+
+The Board of Directors approved in December 2019
+a share based long-term incentive plan, which the maximum number of shares should not exceed 5% of the issued and outstanding shares.
+As of March 31, 2025, the outstanding number of shares reserved under the plans were 18,031,385 restricted stock units (“RSUs”)
+(December 31, 2024 – 14,426,088) and 579,540 performance stock units (“PSUs”) (December 31, 2024 – 579,540) to
+be issued at the vesting dates.
+
+The additional paid-in capital refers to the difference
+between the purchase price that the shareholders pay for the shares and their par value. Under Cayman Law, the amount in this type of
+account may be applied by the Company to pay distributions or dividends to members, pay up unissued shares to be issued as fully paid,
+for redemptions and repurchases of own shares, for writing off preliminary expenses, recognized expenses, commissions or for other reasons.
+All distributions are subject to the Cayman Solvency Test which addresses the Company’s ability to pay debts as they fall due in
+the natural course of business.
+
+| (c) | Treasury shares |
+
+The Group recognized amounts of treasury shares
+as a result of the share purchase agreement with Itaú Unibanco, signed on June 2022 and the share buy-back programs (Note 1.1).
+The treasury shares are registered as a deduction from equity until the shares are canceled or reissued.
+
+During the three months period ended March 31,
+2025, the Company repurchased 6,024,324 Class A common shares (R$ 497,772).
+
+30
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+As of March 31, 2025, the Group held 7,351,424
+Class A common shares (December 31, 2024 – 1,327,100) and 1,056,308 Class B common shares (December 31, 2024 – 1,056,308)
+in treasury, totaling an amount of R$ 719,952 (December 31, 2024 – R$ 222,180).
+
+| (d) | Dividends distribution |
+
+The Group has not adopted a dividend policy with
+respect to future distributions of dividends. The amount of any distributions will depend on many factors such as the Company's results
+of operations, financial condition, cash requirements, prospects and other factors deemed relevant by XP Inc. board of directors and,
+where applicable, the shareholders.
+
+For the three months period ended March 31, 2025
+and 2024, XP Inc. has not declared and paid dividends to the shareholders.
+
+Non-controlling shareholders of some XP Inc’s
+subsidiaries has received dividends of R$ 180 and 111 during the three months period ended March 31, 2025 and 2024, respectively.
+
+| (e) | Other comprehensive income |
+
+Other comprehensive income consists of changes
+in the fair value of financial assets at fair value through other comprehensive income, while these financial assets are not realized.
+Also includes gains (losses) on net investment hedge and foreign exchange variation of investees located abroad.
+
+| 20. | Related party transactions |
+
+Transactions with related parties includes transactions
+among the Company and its subsidiaries in the course of normal operations include services rendered such as: (i) education, consulting
+and business advisory; (ii) financial advisory and financial consulting in general; (iii) management of resources and portfolio management;
+(iv) information technology and data processing; (v) insurance and (vi) loan operations. The effects of these transactions have been eliminated
+and do not have effects on the consolidated financial statements.
+
+Transactions with related parties also includes
+transactions among the Company and its associates related to commissions and premiums paid in advance, as described in Note 8.
+
+| 21. | Provisions and contingent liabilities |
+
+The Company and its subsidiaries are party to judicial
+and administrative litigations before various courts and government bodies, arising from the ordinary course of operations, involving
+tax, civil and labor matters and other issues. Periodically, Management evaluates the tax, civil and labor risks, based on legal, economic
+and tax supporting data, in order to classify the risks as probable, possible or remote, in accordance with the chances of them occurring
+and being settled, taking into consideration, case by case, the analyses prepared by external and internal legal advisors.
+
+|
+
+March 31, 2025
+|
+|
+December
+31, 2024 |
+
+Tax contingencies |
+1,540 |
+|
+1,540 |
+
+Civil contingencies |
+59,613 |
+|
+58,738 |
+
+Labor contingencies |
+111,905 |
+|
+85,895 |
+
+Total provision |
+173,058 |
+|
+146,173 |
+
+|
+|
+|
+|
+
+Judicial deposits (i) |
+35,569 |
+|
+35,411 |
+
+| (i) | There are circumstances in which the Group is questioning the legitimacy of certain litigations or claims
+filed against it. As a result, either because of a judicial order or based on the strategy adopted by management, the Group might be required
+to secure part or the whole amount in question by means of judicial deposits, without this being characterized as the settlement of the
+liability. These amounts are classified as “Other assets” on the balance sheets and referred above for information. |
+
+31
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+Changes in the provision during the period
+
+|
+Three months period ended March 31, |
+
+|
+2025 |
+2024 |
+
+At the beginning of period |
+146,173 |
+97,678 |
+
+Monetary correction |
+34,500 |
+15,399 |
+
+Provision accrued |
+24,249 |
+11,662 |
+
+Provision reversed |
+(23,175) |
+(23,234) |
+
+Payments |
+(8,689) |
+(12) |
+
+At the end of period |
+173,058 |
+101,493 |
+
+Nature of claims
+
+| a) | Civil |
+
+Most of the civil and administrative claims involve
+matters that are normal and specific to the business and refer to demands for indemnity primarily due to: (i) financial losses in the
+stock market; (ii) portfolio management; and (iii) alleged losses generated from the liquidation of customers assets in portfolio due
+to margin cause and/or negative balance. As of March 31, 2025, there were 725 (December 31, 2024 - 681) civil and administrative claims
+for which the likelihood of loss has been classified as probable, in the amount of R$ 59,613 (December 31, 2024 - R$ 58,738).
+
+| b) | Labor |
+
+Labor claims to which the Group is party primarily
+concern: (i) the existence (or otherwise) of a working relationship between the Group and IFAs; and (ii) severance payment of former employees.
+As of March 31, 2025, the Company and its subsidiaries are defendants in 316 cases (December 31, 2024 - 275) involving labor matters for
+which the likelihood of loss has been classified as probable, in the amount of R$ 111,905 (December 31, 2024 - R$ 85,895).
+
+Contingent liabilities - probability of loss
+classified as possible
+
+In addition to the provisions mentioned above,
+the Company and its subsidiaries are party to several labor, civil and tax contingencies in progress, in which they are the defendants,
+and the likelihood of loss, based on the opinions of the internal and external legal advisors, is considered possible. The contingencies
+amount to approximately R$ 2,476,530 (December 31, 2024 - R$ 2,481,746).
+
+Below these claims are summarized by nature:
+
+|
+
+March 31, 2025
+|
+|
+December
+31, 2024
+|
+
+Tax (i) (ii) (iii) |
+1,376,957 |
+|
+1,338,518 |
+
+Civil (iv) |
+941,436 |
+|
+970,615 |
+
+Labor (v) |
+158,136 |
+|
+172,613 |
+
+Total |
+2,476,529 |
+|
+2,481,746 |
+
+| (i) | Employees Profit Sharing Plans: In 2015, 2019, 2021, 2022 and 2024 tax authorities issued assessments
+against the Group mainly related to allegedly unpaid social security contributions on amounts due and paid to employees as profit sharing
+plans related to calendar years of 2011, 2015, 2017, 2018, 2019 and 2020. According to the tax authorities, the Group profit sharing plans
+did not comply with the provisions of Law 10,101/00. The risk of loss for these claims is classified as possible by the external counsels. |
+
+| a. | Tax assessment related to 2011: The first and the second administrative appeals were denied, and currently
+the Group awaits judgment on the special appeal before the Superior Court of the Administrative Council of Tax Appeals (“CSRF”).
+The amount claimed is R$ 22,290. |
+
+| b. | Tax assessment related to 2015: The first and the second administrative appeals were denied, and currently
+the Group awaits judgment on the special appeal before the CSRF. The amount claimed is R$ 56,316. |
+
+32
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| c. | Tax assessment related to 2017: In this case, in addition to the claim related to the employees’
+profit-sharing plan, tax authorities are also challenging the deductibility of the amounts paid under the plan to the members of the Board
+for the purposes of Corporate Income Tax (IRPJ), for 2016 and 2017. Administrative appeals were filed against both assessments. The appeal
+related to social security contributions is awaiting judgment by the Federal Revenue Service of Brazil (“RFB”), while the
+appeal related to IRPJ was denied by the RFB, and a second level appeal is currently awaiting judgment. The total amount claimed is R$
+129,805. |
+
+| d. | Tax assessment related to 2018: An administrative appeal was filed against the assessment, which awaits
+judgment by the RFB. The total amount claimed is R$ 157,307. |
+
+| e. | In June 2022, the Group was notified by the Public Labor Ministry for alleged unpaid FGTS (Fund for Severance
+Indemnity Payment) on the amounts paid to employees under profit sharing plans related to years 2015 to 2020. According to the tax authorities,
+the Group profit sharing plans did not comply with the provisions of Law 10,101/00. The Group presented its administrative defense which
+awaits judgment. The total amount claimed is R$ 193,106. |
+
+| f. | Tax assessment related to 2019: An administrative appeal was filed against the assessment, which awaits
+judgment by the RFB. The amount claimed is R$ 211,060. |
+
+| g. | Tax assessment related to 2020: An administrative appeal was filed against the assessment, which awaits
+judgement by the RFB. The total amount claimed is R$ 373,001. |
+
+| (ii) | Amortization of goodwill: The Group also received four tax assessments in which the tax authorities challenge
+the deductibility for the purpose of Corporate Income Tax (IRPJ) and Social Contribution of Net Profits (CSLL) of the expenses deriving
+from the amortization of goodwill registered upon the acquisitions made by the Group between 2013 and 2016. According to the tax authorities,
+the goodwill was registered in violation of Laws 9.532/97 and 12.973/14, respectively. Currently, two of the proceedings are pending judgment
+by the RFB and the other two await judgement by the CARF, since the administrative appeals were denied. Also, the Group has filed two
+lawsuits to prevent the issuance of new tax assessments and/or the application of the 150% penalty by the tax authorities in relation
+to expenses of such goodwill incurred in other periods. The risk of loss for these claims is classified as possible by the external counsels.
+The amount claimed is R$ 99,790. |
+
+| (iii) | Banco Modal S.A. - Employees Profit Sharing Plan: In March 2016, tax authorities issued an assessment
+against Banco Modal mainly related to alleged unpaid social security contributions on amounts due and paid to employees as profit sharing
+plan on calendar year 2012. The first administrative appeal was denied, and currently Banco Modal awaits judgment of the second appeal
+by the CARF. The risk of loss for this claim is classified as possible by the external counsels. The total amount claimed is R$ 7,576. |
+
+| (iv) | The Group is defendant in 2,302 (December 31, 2023 – 2,130) civil and administrative claims by customers
+and investment agents, mainly related to portfolio management, risk rating, copyrights and contract termination. The total amount represents
+the collective maximum value to which the Group is exposed based on the claims’ amounts monetarily restated. |
+
+| (v) | The Group is defendant in 240 (December 31, 2023 – 235) labor claims by former employees. The total
+amount represents the collective maximum value to which the Group is exposed based on the claims’ amounts monetarily restated. |
+
+33
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 22. | Total revenue and income |
+
+| a) | Net revenue from services rendered |
+
+Revenue from contracts with customers derives mostly
+from services rendered and fees charged at daily transactions from customers, therefore mostly recognized at a point in time. Disaggregation
+of revenue by major service lines are as follows:
+
+|
+Three months period ended March 31, |
+
+Major service lines |
+2025 |
+2024 |
+
+Brokerage commission |
+473,232 |
+495,364 |
+
+Securities placement |
+477,449 |
+489,528 |
+
+Management fees |
+413,223 |
+410,610 |
+
+Insurance brokerage fee |
+57,653 |
+49,141 |
+
+Commission fees |
+240,501 |
+208,395 |
+
+Other services |
+152,461 |
+127,699 |
+
+Gross revenue from services rendered |
+1,814,519 |
+1,780,737 |
+
+(-) Sales taxes and contributions on services (i) |
+(164,591) |
+(156,886) |
+
+Net revenue from services rendered |
+1,649,928 |
+1,623,851 |
+
+| (i) | Mostly related to taxes on services (ISS) and contributions on revenue (PIS and COFINS). |
+
+| b) | Net income/(loss) from financial instruments |
+
+|
+
+Three months period ended March
+31,
+|
+
+|
+2025 |
+2024 |
+
+Net income/(loss) from financial instruments at fair value through profit or loss |
+3,688,242 |
+2,251,108 |
+
+Net income/(loss) from financial instruments measured at amortized cost and at fair value through other comprehensive income |
+(945,735) |
+238,333 |
+
+Total income from financial instruments |
+2,742,507 |
+2,489,441 |
+
+(-) Taxes and contributions on financial income |
+(47,912) |
+(60,436) |
+
+Net income/(loss) from financial instruments |
+2,694,595 |
+2,429,005 |
+
+| c) | Disaggregation by geographic location |
+
+Breakdown of total net revenue and income and selected
+assets by geographic location:
+
+|
+Three months period ended March 31, |
+
+|
+2025 |
+2024 |
+
+Brazil |
+4,132,239 |
+3,872,525 |
+
+United States |
+189,499 |
+164,860 |
+
+Europe |
+22,785 |
+15,471 |
+
+Revenues |
+4,344,523 |
+4,052,856 |
+
+|
+
+March 31, 2025
+|
+December 31, 2024 |
+
+Brazil |
+16,278,174 |
+16,399,995 |
+
+United States |
+688,343 |
+723,340 |
+
+Europe |
+132,503 |
+136,968 |
+
+Selected assets (i) |
+17,099,020 |
+17,260,303 |
+
+(i) Selected assets are total assets of the Group, less:
+cash, financial assets and deferred tax assets and are presented by geographic location.
+
+None of the clients represented more than 10% of our revenues for the
+periods presented.
+
+34
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 23. | Operating costs |
+
+|
+
+Three months period ended March
+31,
+|
+
+|
+2025 |
+2024 |
+
+Commission and incentive costs |
+830,443 |
+851,598 |
+
+Operating losses |
+45,747 |
+39,346 |
+
+Other costs |
+406,750 |
+327,872 |
+
+Clearing house and proprietary funds fees |
+160,872 |
+135,520 |
+
+Third parties’ services |
+17,906 |
+15,350 |
+
+Credit card cashback |
+105,312 |
+102,683 |
+
+Other |
+122,660 |
+74,319 |
+
+Total |
+1,282,940 |
+1,218,816 |
+
+| 24. | Operating expenses by nature |
+
+|
+|
+
+|
+Three months period ended March 31, |
+
+|
+2025 |
+2024 |
+
+Selling expenses (a) |
+56,837 |
+32,054 |
+
+Administrative expenses |
+1,448,498 |
+1,451,651 |
+
+Personnel expenses |
+969,667 |
+1,006,627 |
+
+Compensation |
+450,856 |
+392,849 |
+
+Employee profit-sharing and bonus |
+366,723 |
+399,771 |
+
+Other personnel expenses (b) |
+152,088 |
+214,007 |
+
+Other taxes expenses |
+12,194 |
+33,624 |
+
+Depreciation of property and equipment and right-of-use assets |
+36,339 |
+28,919 |
+
+Amortization of intangible assets |
+37,787 |
+39,142 |
+
+Data processing |
+246,976 |
+210,782 |
+
+Technical services |
+29,757 |
+33,933 |
+
+Third parties' services |
+37,863 |
+47,930 |
+
+Other administrative expenses (c) |
+77,915 |
+50,694 |
+
+Total |
+1,505,335 |
+1,483,705 |
+
+(a) Selling expenses refer to advertising and publicity.
+
+(b) Other personnel expenses include executives profit-sharing, benefits, social charges and others.
+
+(c) Other administrative expenses include rent, communication and travel expenses, legal and judicial and other expenses.
+
+| 25. | Other operating income (expenses), net |
+
+|
+Three months period ended March 31, |
+
+|
+2025 |
+2024 |
+
+|
+|
+|
+
+Other operating income |
+54,200 |
+44,310 |
+
+Revenue from incentives from Tesouro Direto, B3 and others (a) |
+8,337 |
+9,856 |
+
+Interest received on tax |
+9,594 |
+7,053 |
+
+Recovery of charges and expenses |
+2,072 |
+9,160 |
+
+Reversal of operating provisions |
+12,314 |
+6,999 |
+
+Other |
+21,883 |
+11,242 |
+
+|
+|
+|
+
+Other operating expenses |
+(31,575) |
+(35,089) |
+
+Legal, administrative proceedings and agreement with customers |
+(11,301) |
+(18,455) |
+
+Fines and penalties |
+(881) |
+(1,478) |
+
+Associations and regulatory fees |
+(4,334) |
+(4,970) |
+
+Charity |
+(166) |
+(2,483) |
+
+Other (b) |
+(14,893) |
+(7,703) |
+
+Total |
+22,625 |
+9,221 |
+
+35
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+(a) Includes incentives received from third parties, mainly due to the
+joint development of retail products, and also the association of such entities with the XP ecosystem.
+
+(b) Includes, mostly, losses on write-off of property, equipment, intangible assets and leases.
+
+| 26. | Share-based plan |
+
+Outstanding shares granted and valuation inputs
+
+The maximum number of shares available for issuance
+under the share-based plan shall not exceed 5% of the issued and outstanding shares.
+
+Set out below are summaries of XP Inc's Restricted
+Stock Units (“RSU”) and Performance Stock Units (“PSU”) activity for the three months period ended March 31, 2025.
+
+|
+|
+RSUs |
+|
+PSUs |
+|
+Total |
+
+(In thousands, except weighted-average data, and where otherwise stated) |
+|
+Number of units |
+|
+Number of units |
+|
+Number of units |
+
+|
+|
+|
+|
+|
+|
+|
+
+Outstanding, January 1, 2025 |
+|
+14,426,088 |
+|
+579,540 |
+|
+15,005,628 |
+
+Granted |
+|
+3,800,542 |
+|
+- |
+|
+3,800,542 |
+
+Forfeited |
+|
+(195,245) |
+|
+- |
+|
+(195,245) |
+
+Vested |
+|
+- |
+|
+- |
+|
+- |
+
+Outstanding, March, 2025 |
+|
+18,031,385 |
+|
+579,540 |
+|
+18,610,925 |
+
+For the three months period ended March 31, 2025,
+total compensation expense of both plans was R$ 167,003 (March 31, 2024 - R$ 177,648), including R$ 18,577 of tax provisions (March 31,
+2024 - R$ 36,192) and does not include any tax benefits on total share-based compensation expense once this expense is not deductible
+for tax purposes. The tax benefits will be perceived when the shares are converted into common shares.
+
+Since the inception of the plans in 2019, the original
+grant-date fair value of RSU plans has ranged from US$ 11.16 to US$ 51.03 and of PSU plans has ranged from US$ 31.60 to US$ 64.68.
+
+| 27. | Earnings per share (basic and diluted) |
+
+Basic earnings per share is calculated by dividing
+net income for the period attributed to the owners of the parent by the weighted average number of ordinary shares outstanding during
+the period.
+
+Diluted earnings per share is calculated by dividing
+net income attributable to owners of XP Inc by the weighted average number of shares outstanding during the year plus the weighted average
+number of shares that would be issued on conversion of all dilutive potential shares into shares by applying the treasury stock method.
+The shares in the share-based plan are the only shares with potential dilutive effect.
+
+The following table presents the calculation of
+net income applicable to the owners of the parent and basic and diluted EPS for the three months period ended on March 31:
+
+|
+Three months period ended March 31, |
+
+|
+2025 |
+2024 |
+
+Net income attributable to owners of the Parent |
+1,235,519 |
+1,030,016 |
+
+Basic weighted average number of outstanding shares (i)(iii) |
+535,284 |
+548,429 |
+
+Basic earnings per share - R$ |
+2.3082 |
+1.8781 |
+
+Effect of dilution |
+|
+|
+
+Share-based plan (ii) (iii) |
+4,249 |
+8,246 |
+
+Diluted weighted average number of outstanding shares (iii) |
+539,533 |
+556,675 |
+
+Diluted earnings per share - R$ |
+2.2900 |
+1.8503 |
+
+36
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| (i) | See on Note 19, the number of XP Inc.’s outstanding common shares during the period. |
+
+| (ii) | See on Note 26, the number of shares granted and forfeited during the period regarding XP Inc.’s Share-based plan. |
+
+| (iii) | Thousands of shares. |
+
+| 28. | Determination of fair value |
+
+The Group measures financial instruments such as
+certain financial investments and derivatives at fair value at each balance sheet date.
+
+Level 1: The fair value of financial instruments
+traded in active markets is based on quoted market prices at the end of the reporting period. The financial instruments included in the
+level 1 consist mainly in public financial instruments and financial instruments negotiated on active markets (i.e., stock exchanges).
+
+Level 2: The fair value of financial instruments
+that are not traded in active markets is determined using valuation techniques, which maximize the use of observable market data and rely
+as little as possible on entity-specific estimates. If all significant inputs required to fair value as an instrument are directly or
+indirectly observable, the instrument is included in level 2. The financial instruments classified as level 2 are composed mainly from
+private financial instruments and financial instruments negotiated in a secondary market.
+
+Level 3: If one or more of the significant inputs
+is unobservable, the instrument is included in level 3. This is the case for unlisted equity securities.
+
+Specific valuation techniques used to value financial
+instruments include:
+
+| · | Financial assets (other than derivatives) –
+The fair value of securities is determined by reference to their closing prices on the date of presentation of the consolidated financial
+statements. If there is no market price, fair value is estimated based on the present value of future cash flows discounted using the
+observable rates and market rates on the date of presentation. |
+
+| · | Swap – These operations swap cash flow based
+on the comparison of profitability between two indexers. Thus, the agent assumes both positions – put in one indexer and call on
+another. |
+
+| · | Forward – At the market quotation value,
+and the installments receivable or payable are fixed to a future date, adjusted to present value, based on market rates published at B3. |
+
+| · | Futures – Foreign exchange rates, prices
+of shares and commodities are commitments to buy or sell a financial instrument at a future date, at a contracted price or yield and may
+be settled in cash or through delivery. Daily cash settlements of price movements are made for all instruments. |
+
+| · | Options – Option contracts give the purchaser
+the right to buy or sell the instrument at a fixed price negotiated at a future date. Those who acquire the right must pay a premium to
+the seller. This premium is not the price of the instrument, but only an amount paid to have the option (possibility) to buy or sell the
+instrument at a future date for a previously agreed price. |
+
+| · | Other financial assets and liabilities –
+Fair value, which is determined for disclosure purposes, is calculated based on the present value of the principal and future cash flows,
+discounted using the observable rates and market rates on the date the financial statements are presented. |
+
+| · | Loans operations – Fair value is determined
+through the present value of expected future cash flows discounted using the observable rates and market rates on the date the financial
+statements are presented. |
+
+| · | Contingent consideration – Fair value of
+the contingent consideration liability related to acquisitions is estimated by applying the income approach and discounting the expected
+future payments to selling shareholders under the terms of the purchase and sale agreements. |
+
+Below are the Group financial assets and liabilities
+by level within the fair value hierarchy. The Group assessment of the significance of a particular input to the fair value measurement
+requires judgment and may affect the valuation of fair value assets and liabilities and their placement within the fair value hierarchy
+levels:
+
+37
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+|
+|
+March 31, 2025
+
+|
+
+|
+|
+Level 1 |
+|
+Level 2 |
+|
+Level 3 |
+|
+Fair Value |
+|
+Book Value |
+
+Financial Assets |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Financial assets at Fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+139,173,862 |
+|
+22,549,383 |
+|
+371,739 |
+|
+162,094,984 |
+|
+162,094,984 |
+
+Derivative financial instruments |
+|
+8,924,468 |
+|
+42,069,281 |
+|
+- |
+|
+50,993,749 |
+|
+50,993,749 |
+
+Investments in associates measured at fair value |
+|
+- |
+|
+- |
+|
+1,546,278 |
+|
+1,546,278 |
+|
+1,546,278 |
+
+Fair value through other comprehensive income |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+51,001,309 |
+|
+- |
+|
+- |
+|
+51,001,309 |
+|
+51,001,309 |
+
+Evaluated at amortized cost |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+1,997,790 |
+|
+4,610,846 |
+|
+- |
+|
+6,608,636 |
+|
+5,677,031 |
+
+Securities purchased under agreements to resell |
+|
+- |
+|
+7,926,038 |
+|
+- |
+|
+7,926,038 |
+|
+7,901,168 |
+
+Securities trading and intermediation |
+|
+- |
+|
+4,703,093 |
+|
+- |
+|
+4,703,093 |
+|
+4,703,093 |
+
+Accounts receivable |
+|
+- |
+|
+927,778 |
+|
+- |
+|
+927,778 |
+|
+927,778 |
+
+Loan operations |
+|
+- |
+|
+29,243,743 |
+|
+- |
+|
+29,243,743 |
+|
+29,966,410 |
+
+Other financial assets |
+|
+- |
+|
+8,525,681 |
+|
+
+- |
+|
+8,525,681 |
+|
+8,525,681 |
+
+Financial liabilities |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+17,659,659 |
+|
+442,382 |
+|
+- |
+|
+18,102,041 |
+|
+18,102,041 |
+
+Derivative financial instruments |
+|
+7,639,543 |
+|
+39,714,936 |
+|
+- |
+|
+47,354,479 |
+|
+47,354,479 |
+
+Evaluated at amortized cost |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities sold under repurchase agreements |
+|
+- |
+|
+54,364,458 |
+|
+- |
+|
+54,364,458 |
+|
+54,371,879 |
+
+Securities trading and intermediation |
+|
+- |
+|
+20,716,838 |
+|
+- |
+|
+20,716,838 |
+|
+20,716,838 |
+
+Financing instruments payable |
+|
+- |
+|
+99,123,467 |
+|
+- |
+|
+99,123,467 |
+|
+99,621,575 |
+
+Borrowings |
+|
+- |
+|
+3,502,092 |
+|
+- |
+|
+3,502,092 |
+|
+3,502,092 |
+
+Accounts payables |
+|
+- |
+|
+871,320 |
+|
+- |
+|
+871,320 |
+|
+871,320 |
+
+Other financial liabilities |
+|
+- |
+|
+13,442,269 |
+|
+34,556 |
+|
+13,476,825 |
+|
+13,476,825 |
+
+|
+|
+December 31, 2024
+
+|
+
+|
+|
+Level 1 |
+|
+Level 2 |
+|
+Level 3 |
+|
+Fair Value |
+|
+Book Value |
+
+Financial Assets |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Financial assets at Fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+123,368,069 |
+|
+26,245,585 |
+|
+371,760 |
+|
+149,985,414 |
+|
+149,985,414 |
+
+Derivative financial instruments |
+|
+3,003,675 |
+|
+43,196,121 |
+|
+- |
+|
+46,199,796 |
+|
+46,199,796 |
+
+Investments in associates measured at fair value |
+|
+|
+|
+- |
+|
+1,546,278 |
+|
+1,546,278 |
+|
+1,546,278 |
+
+Fair value through other comprehensive income |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+50,879,981 |
+|
+- |
+|
+- |
+|
+
+50,879,981 |
+|
+50,879,981 |
+
+Evaluated at amortized cost |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+- |
+|
+2,874,382 |
+|
+
+- |
+|
+2,874,382 |
+|
+2,836,146 |
+
+Securities purchased under resale agreements |
+|
+|
+|
+22,010,879 |
+|
+- |
+|
+22,010,879 |
+|
+
+22,057,137 |
+
+Securities trading and intermediation |
+|
+- |
+|
+6,499,097 |
+|
+- |
+|
+6,499,097 |
+|
+6,499,097 |
+
+Accounts receivable |
+|
+- |
+|
+778,943 |
+|
+
+- |
+|
+778,943 |
+|
+
+778,943 |
+
+Loan operations |
+|
+- |
+|
+29,145,291 |
+|
+- |
+|
+29,145,291 |
+|
+
+29,228,463 |
+
+Other financial assets |
+|
+
+- |
+|
+13,232,997 |
+|
+- |
+|
+13,232,997 |
+|
+13,232,997 |
+
+Financial liabilities |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Fair value through profit or loss |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities |
+|
+14,830,405 |
+|
+422,971 |
+|
+- |
+|
+15,253,376 |
+|
+15,253,376 |
+
+Derivative financial instruments |
+|
+1,929,536 |
+|
+38,118,151 |
+|
+- |
+|
+40,047,687 |
+|
+40,047,687 |
+
+Evaluated at amortized cost |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Securities sold under repurchase agreements |
+|
+- |
+|
+71,693,244 |
+|
+- |
+|
+71,693,244 |
+|
+71,779,721 |
+
+Securities trading and intermediation |
+|
+- |
+|
+18,474,978 |
+|
+- |
+|
+18,474,978 |
+|
+18,474,978 |
+
+Financing instruments payable |
+|
+- |
+|
+94,662,035 |
+|
+- |
+|
+94,662,035 |
+|
+95,248,482 |
+
+Borrowings |
+|
+- |
+|
+1,666,432 |
+|
+- |
+|
+1,666,432 |
+|
+1,666,432 |
+
+Accounts payables |
+|
+- |
+|
+763,465 |
+|
+- |
+|
+763,465 |
+|
+763,465 |
+
+Other financial liabilities |
+|
+- |
+|
+14,614,086 |
+|
+116,777 |
+|
+14,730,863 |
+|
+14,730,863 |
+
+As of March 31, 2025, and December 31, 2024, the
+total contingent consideration liability is reported at fair value and is dependent on the profitability of the acquired associate and
+businesses. The total contingent consideration is classified within Level 3 of the fair value hierarchy. The contingent consideration
+liability represents the maximum amount payable under the purchase and sale agreements discounted using an appropriate rate, which includes
+the Brazilian risk-free rate.
+
+38
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+Changes in an average discount rate of 14.84% by
+100 bps would increase/decrease the fair value of contingent consideration liability by R$ 642.
+
+The investments held through our investees which
+are considered to be venture capital investments are classified as Level 3 of the fair value hierarchy. The inputs used by the Group are
+derived for discounted rates for these investments using a capital asset model to calculate a pre-tax rate that reflects current market
+assessments of the time value of money and the risk specific to the asset. Change in the discount rate by 100 bps would increase/decrease
+the fair value by R$ 15,463.
+
+Transfers into and out of fair value hierarchy
+levels are analyzed at the end of each consolidated financial statement. As of March 31, 2025, the Group had no transfers between Level
+2 and Level 3.
+
+| 29. | Management of financial risks and financial instruments |
+
+(a) Overview
+
+The Group’s activities are exposed to a variety
+of financial risks: credit risk, liquidity risk, market risk (including currency risk, interest rate risk and price risk), and operational
+risk. The Group’s overall risk management structure focuses on the unpredictability of financial markets and seeks to minimize potential
+adverse effects on the Group’s financial performance. The Group uses derivative financial instruments to mitigate certain risk exposures.
+It is the Group’s policy that no trading in derivatives for speculative purposes may be undertaken.
+
+(b) Risk management structure
+
+Management has overall responsibility for establishing
+and supervising the risk management structure of the Group. Risk Management is under a separated structure from business areas, reporting
+directly to the CEO and the Risk Committee, to ensure exemption of conflict of interest, and segregation of functions appropriate to good
+corporate governance and market practices.
+
+The risk management policies of the Group are established to
+identify and analyze the risks faced, to set appropriate risk limits and controls, and to monitor risks and adherence to the limits. Risk
+management policies and systems are reviewed regularly to reflect changes in market conditions and in the activities of the Group. Our
+risk appetite is defined in our Risk Appetite Statement (RAS) and reviewed on an annual basis. The Group, through its training and management
+standards and procedures, developed a disciplined and constructive control environment within which all its employees are aware of their
+duties and obligations.
+
+Regarding the subsidiary Banco XP and the other
+subsidiaries components of XP Prudential Conglomerate (Brazilian Central Bank oversight definition), the organizational structure is based
+on the recommendations proposed by the Basel Accord, in which procedures, policies and methodology are formalized consistent with risk
+tolerance and with the business strategy and the various risks inherent to the operations and/or processes, including market, liquidity,
+credit and operating risks. The Group seeks to follow the same risk management practices as those applying to all companies.
+
+Such risk management processes are also related
+to going concern management procedures, mainly in terms of formulating impact analyses, business continuity plans, contingency plans,
+backup plans and crisis management.
+
+The unaudited interim condensed consolidated financial
+statements do not include all financial risk management information and disclosures required in the annual financial statements; they
+should be read in conjunction with the Group’s annual financial statements as of December 31, 2024. There have been no changes in
+the risk management department or in any risk management policies since the year-end.
+
+Sensitivity analysis
+
+According to the market information, the Group
+performed the sensitivity analysis by market risk factors considered relevant. The largest losses, by risk factor, in each of the scenarios
+were presented with an impact on the profit or loss, providing a view of the exposure by risk factor of the Group in exceptional scenarios.
+The following sensitivity analyzes do not consider the functioning dynamics of risk and treasury areas, since once these losses are detected,
+risk mitigation measures are quickly triggered, minimizing the possibility of significant losses.
+
+39
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+|
+|
+|
+|
+
+March 31, 2025
+|
+
+Trading portfolio |
+
+Exposures
+|
+
+Scenarios
+|
+
+Risk factors |
+
+Risk of variation
+in:
+|
+
+I
+|
+
+II
+|
+
+III
+|
+
+Fixed interest rate |
+Fixed interest rate in Reais |
+(65) |
+34,994 |
+52,710 |
+
+Exchange coupons |
+Foreign currencies coupon rate |
+(266) |
+(27,427) |
+(63,342) |
+
+Foreign currencies |
+Exchange rates |
+(1,043) |
+(16,153) |
+(52,184) |
+
+Price indexes |
+Inflation coupon rates |
+(47) |
+(22,767) |
+(48,047) |
+
+Shares |
+Shares prices |
+(127) |
+(43,850) |
+(186,136) |
+
+Commodities |
+Commodities price |
+44 |
+17,187 |
+61,059 |
+
+|
+|
+(1,504) |
+(58,016) |
+(235,940) |
+
+|
+|
+December
+31, 2024
+
+|
+
+Trading portfolio |
+
+Exposures
+|
+
+Scenarios
+|
+
+Risk factors |
+
+Risk of variation
+in:
+|
+
+I
+|
+
+II
+|
+
+III
+|
+
+Fixed interest rate |
+Fixed interest rate in Reais |
+(117) |
+(8,285) |
+50,065 |
+
+Exchange coupons |
+Foreign currencies coupon rate |
+(28) |
+(6,905) |
+(15,497) |
+
+Foreign currencies |
+Exchange rates |
+(124) |
+64,512 |
+148,169 |
+
+Price indexes |
+Inflation coupon rates |
+(68) |
+(11,606) |
+(24,563) |
+
+Shares |
+Shares prices |
+(5,858) |
+(162,112) |
+(458,841) |
+
+Commodities |
+Commodities price |
+
+(320)
+|
+
+(4,471)
+|
+
+17,579
+|
+
+|
+|
+
+(6,515)
+|
+
+(128,867)
+|
+
+(283,088)
+|
+
+Scenario I: Increase of 1 basis point in the rates
+in the fixed interest rate yield, exchange coupons, inflation and 1 percentage point in the prices of shares, commodities and currencies;
+
+Scenario II: Project a variation of 25 percent
+in the rates of the fixed interest yield, exchange coupons, inflation, prices of shares, commodities and currencies, both rise and fall,
+being considered the largest losses resulting by risk factor; and
+
+Scenario III: Project a variation of 50 percent
+in the rates of the fixed interest yield, exchange coupons, inflation, prices of shares, commodities and currencies, both rise and fall,
+being considered the largest losses resulting from the risk factor.
+
+| 30. | Capital Management |
+
+The Group’s objectives when managing capital
+are to safeguard their ability to continue as a going concern, so that they can continue to provide returns for shareholders and benefits
+for other stakeholders, and maintain an optimal capital structure to reduce the cost of capital. In order to maintain or adjust the capital
+structure, the Group may adjust the amount of dividends paid to shareholders, return capital to shareholders, issue new shares or sell
+assets to reduce debt.
+
+The Group also monitors capital based on the net
+debt and the gearing ratio. Net debt is calculated as total debt (including borrowings, lease liabilities, structured financing and debentures
+as shown in the balance sheet) less cash and cash equivalent (including cash, securities purchased under resale agreements and certificate
+deposits as shown in the statement of cash flows). The gearing ratio corresponds to the net debt expressed as a percentage of total capital.
+
+The net debt and corresponding gearing ratios as of March 31, 2025,
+and December 31, 2024, were as follows:
+
+|
+March
+31, 2025
+|
+|
+December
+31, 2024
+|
+
+Group debt (Note 31) (i) |
+9,590,684 |
+|
+9,165,747 |
+
+Structured financing (Note 15 (b)) |
+4,140,659 |
+|
+3,282,750 |
+
+Total debt |
+13,731,343 |
+|
+12,448,497 |
+
+Cash |
+(8,226,290) |
+|
+(5,610,548) |
+
+Securities purchased under resale agreements (Note 3 (a)) |
+(740,464) |
+|
+(2,885,843) |
+
+Bank deposit certificates (Note 4 (a)) |
+(64,960) |
+|
+(69,224) |
+
+Other deposits at Brazilian Central Bank (Note 15 (a)) |
+(1,200,998) |
+|
+(4,343,999) |
+
+Net debt |
+3,498,631 |
+|
+(461,117) |
+
+|
+|
+|
+|
+
+Total Equity attributable to owners of the Parent company |
+21,042,088 |
+|
+20,043,557 |
+
+Total capital |
+24,540,719 |
+|
+19,582,440 |
+
+Gearing ratio % |
+14,26% |
+|
+(2.35%) |
+
+40
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| (i) | Minimum capital requirements |
+
+Although capital is managed considering the consolidated
+position, certain subsidiaries are subject to minimum capital requirement from local regulators.
+
+The subsidiary Banco XP, leader of the Prudential
+Conglomerate (which includes XP CCTVM, XP DTVM, Banco Modal and Modal DTVM), under BACEN regulation regime, is required to maintain a
+minimum capital and follow aspects from the Basel Accord.
+
+The subsidiary XP Vida e Previdência operates
+in retirement plans and insurance business and is oversight by the SUSEP, being required to present Adjusted Shareholders' Equity (PLA)
+equal to or greater than the Minimum Required Capital (“CMR”), CMR is equivalent to the highest value between base capital
+and Venture Capital Liquidity (“CR”).
+
+On March 31, 2025, the subsidiaries Banco XP, XP
+Vida e Previdência were in compliance with all capital requirements.
+
+There is no requirement for compliance with a minimum
+capital for the other Group companies.
+
+| 31. | Cash flow information |
+
+| (i) | Debt reconciliation |
+
+|
+|
+|
+|
+|
+|
+Debt securities (i) |
+|
+|
+
+|
+|
+Borrowings |
+|
+Lease liabilities |
+|
+Debentures
+
+and notes
+|
+|
+Bonds |
+|
+Total |
+
+Total debt as of January 1, 2024 |
+|
+2,199,422 |
+|
+304,762 |
+|
+2,806,774 |
+|
+3,546,567 |
+|
+8,857,525 |
+
+Acquisitions / Issuance |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+|
+- |
+
+Payments/repurchase |
+|
+(26,706) |
+|
+(26,735) |
+|
+- |
+|
+- |
+|
+(53,441) |
+
+Write-offs |
+|
+- |
+|
+(16,116) |
+|
+- |
+|
+- |
+|
+(16,116) |
+
+Net foreign exchange differences |
+|
+52,704 |
+|
+(1,409) |
+|
+- |
+|
+110,050 |
+|
+161,345 |
+
+Interest accrued |
+|
+41,194 |
+|
+4,979 |
+|
+88,030 |
+|
+32,910 |
+|
+167,113 |
+
+Interest paid |
+|
+- |
+|
+- |
+|
+(10,064) |
+|
+- |
+|
+(10,064) |
+
+Total debt as of March 31, 2024 |
+|
+2,266,614 |
+|
+265,481 |
+|
+2,884,740 |
+|
+3,689,527 |
+|
+9,106,362 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Total debt as of January 1, 2025 |
+|
+1,666,432 |
+|
+311,347 |
+|
+1,874,875 |
+|
+5,813,950 |
+|
+9,666,604 |
+
+Acquisitions / Issuance |
+|
+1,960,887 |
+|
+74,696 |
+|
+- |
+|
+- |
+|
+2,035,583 |
+
+Payments |
+|
+(9,729) |
+|
+(37,053) |
+|
+(1,266,496) |
+|
+- |
+|
+(1,313,278) |
+
+Net foreign exchange differences |
+|
+(146,307) |
+|
+(6,189) |
+|
+- |
+|
+(449,560) |
+|
+(602,056) |
+
+Interest accrued |
+|
+30,809 |
+|
+4,232 |
+|
+27,661 |
+|
+76,158 |
+|
+138,860 |
+
+Total debt as of March 31, 2025 |
+|
+3,502,092 |
+|
+347,033 |
+|
+636,040 |
+|
+5,440,548 |
+|
+9,925,713 |
+
+Debt securities include Debentures measured at
+FVPL presented in Note 4(e) and does not include fair value adjustments of (i) Debentures - R$ (193,658) (R$ (200,648) - December 31,
+2024) and (ii) Bonds - R$ (141,370) (R$ (300,209) - December 31, 2024).
+
+| (ii) | Cash reconciliation for investing and financing activities |
+
+During the three months period ended March 31,
+2024, the Group paid R$ 670,464 in connection with the minority stake acquisitions disclosed in note 2(d)(i).
+
+During the three months period ended March 31,
+2025, the Group paid R$ 113,127 in connection with the minority stake acquisitions disclosed in note 2(d)(i).
+
+| (iii) | Non-cash transactions |
+
+During the three months period ended March 31,
+2025, the Group sold property and equipment assets in a total amount of R$ 132,004, which is payable in 10 years.
+
+41
+
+XP Inc. and its subsidiaries
+Notes to unaudited interim condensed consolidated financial statements
+As of March 31, 2025
+In thousands of Brazilian Reais, unless otherwise stated
+| |
+
+| 32. | Subsequent events |
+
+On May 19, 2025, the Board of Directors approved
+a new share buy-back program under which XP may repurchase up to the amount equivalent to R$1.0 billion of its outstanding Class A common
+shares over a period beginning on May 21, 2025, continuing until the earlier of the completion of the repurchase or December 31, 2026,
+depending on market conditions. On the same date, the Board of Directors also approved the cancellation of 12,053,924 Class A shares
+(2.2% of total shares) held by the Company in treasury. Total share count went from 540,052,383 to 527,998,459 after cancellation.
+
+42
+
+|

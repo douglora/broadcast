@@ -1,0 +1,722 @@
+6-K
+1
+a077_pagseguroxerx6k.htm
+6-K
+
+Document
+
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+| | |
+|
+
+FORM 6-K
+REPORT OF FOREIGN PRIVATE ISSUER
+PURSUANT TO RULE 13a-16 OR 15d-16 UNDER
+THE SECURITIES EXCHANGE ACT OF 1934
+For the month of November 2024
+Commission File Number: 001-38353
+| | |
+|
+
+PagSeguro Digital Ltd.
+(Name of Registrant)
+Conyers Trust Company (Cayman) Limited,
+Cricket Square, Hutchins Drive, P.O. Box 2681,
+Grand Cayman, KY1-1111, Cayman Islands
+(Address of Principal Executive Office)
+| | |
+|
+
+Indicate by check mark whether the registrant files or will file annual reports under cover of Form 20-F or Form 40-F.
+Form 20-F ☒ Form 40-F ☐
+Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1):
+Yes ☐ No ☒
+Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7):
+Yes ☐ No ☒
+
+| | |
+
+|
+
+PAGS reports Third Quarter 2024 Results
+Solid Net Income (Non-GAAP) increase, reaching R$ 572 million, +30.0% y/y led by revenue diversification on Payments and Banking growth
+São Paulo, November 13, 2024 – PagSeguro Digital Ltd. (“PagBank”, “we”, “Company”) announced today its third quarter results for the period ended September 30, 2024. The consolidated financial statements are presented in Reais (R$) and prepared in accordance with International Financial Reporting Standards (“IFRS”) as issued by the International Accounting Standards Board (“IASB”).
+
+Q3 2024 Highlights
+Operational Highlights
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Clients (# million) | 32.1 | | 30.2 | | 6.2 | % | 31.6 | | 1.4 | % | 32.1 | | 30.2 | | 6.2 | % |
+Total Payment Volume (TPV) | 136.3 | | 99.8 | | 36.5 | % | 124.4 | | 9.6 | % | 372.4 | | 280.6 | | 32.7 | % |
+Cash-in | 83.9 | | 56.3 | | 49.1 | % | 76.4 | | 9.9 | % | 225.1 | | 150.9 | | 49.2 | % |
+Total Deposits | 34.2 | | 21.6 | | 58.6 | % | 34.2 | | -0.1 | % | 34.2 | | 21.6 | | 58.6 | % |
+Credit Portfolio | 3.2 | | 2.5 | | 29.9 | % | 2.9 | | 10.5 | % | 3.2 | | 2.5 | | 29.9 | % |
+
+Financial Highlights
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Revenue and Income | 4,831 | | 4,026 | | 20.0 | % | 4,557 | | 6.0 | % | 13,695 | | 11,602 | | 18.0 | % |
+Gross Profit | 1,897 | | 1,533 | | 23.8 | % | 1,819 | | 4.2 | % | 5,466 | | 4,448 | | 22.9 | % |
+% Margin | 39.3 | % | 38.1 | % | 1.2 p.p. | 39.9 | % | (0.7) p.p. | 39.9 | % | 38.3 | % | 1.6 p.p. |
+Earnings before Tax (non-GAAP) | 656 | | 557 | | 17.8 | % | 636 | | 3.1 | % | 1,924 | | 1,557 | | 23.5 | % |
+% Margin (non-GAAP) | 13.6 | % | 13.8 | % | (0.3) p.p. | 14.0 | % | (0.4) p.p. | 14.0 | % | 13.4 | % | 0.6 p.p. |
+Net Income (non-GAAP) | 572 | | 440 | | 30.0 | % | 542 | | 5.6 | % | 1,636 | | 1,248 | | 31.1 | % |
+% Margin (non-GAAP) | 11.8 | % | 10.9 | % | 0.9 p.p. | 11.9 | % | (0.1) p.p. | 11.9 | % | 10.8 | % | 1.2 p.p. |
+EPS Diluted (R$) (non-GAAP) | R$ | 1.78 | | R$ | 1.36 | | 31.2 | % | R$ | 1.68 | | 6.4 | % | R$ | 5.09 | | R$ | 3.83 | | 32.8 | % |
+
+Gross Profit: Total Revenue and Income (-) Transaction Costs (-) Financial Expenses (-) Total Losses.
+Non-GAAP Measures: For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” included in this earnings release.
+
+• TPV increase driven by all segments, including MSMB (+26% y/y), larger retail merchants and online, as a result of strategic focus of expanding our presence in new profitable growth avenues. TPV per Merchant reached R$ 21.2 thousand, +42.5% higher vs. Q3 2023
+• Cash-In increased +49% y/y, as a strong indicator of client principality resulting from the evolution of banking platform experience and products portfolio for merchants and consumers
+• Credit Portfolio grew +30% y/y (+11% q/q) surpassing R$ 3.2 billion, led by the increased offer on secured products. During this quarter resumed our gradually advance on unsecured loans
+• Consolidated Revenues increased 20% y/y, amounting to a record-breaking R$ 4.8 billion, driven by higher TPV and increasing contribution from Banking segment
+• Net Income and EPS increased 30% y/y, as a result of stronger operational and financial performance
+• In 3Q24, the Company initiated its second share buyback program , under which it may repurchase up to US$ 200 million in outstanding class A common shares to optimize our capital structure (~20% already executed)
+2
+
+| | |
+
+|
+
+Operational Performance
+PagBank Clients
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+# million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Clients 1
+| 32.1 | | 30.2 | | 6.2 | % | 31.6 | | 1.4 | % | 32.1 | | 30.2 | | 6.2 | % |
+Active Banking Clients 2
+| 17.3 | | 16.7 | | 3.4 | % | 17.2 | | 0.5 | % | 17.3 | | 16.7 | | 3.4 | % |
+Banking only | 11.3 | | 10.6 | | 6.3 | % | 11.2 | | 0.9 | % | 11.3 | | 10.6 | | 6.3 | % |
+Banking + Payments | 6.0 | | 6.1 | | -1.6 | % | 6.0 | | -0.2 | % | 6.0 | | 6.1 | | -1.6 | % |
+Payments only | 0.4 | | 0.5 | | -26.7 | % | 0.4 | | -4.9 | % | 0.4 | | 0.5 | | -26.7 | % |
+Active Merchants³ | 6.4 | | 6.7 | | -3.6 | % | 6.4 | | -0.5 | % | 6.4 | | 6.7 | | -3.6 | % |
+Total Active Clients 4
+| 17.7 | | 17.3 | | -2.5 | % | 17.7 | | -0.2 | % | 17.7 | | 17.3 | | -2.5 | % |
+
+1. Total Clients: number of clients registered at Brazilian Central Bank.
+2. Active Banking Clients: number of banking and banking + payments clients.
+3. Active Merchants: number of clients solely in the payment segment.
+4. Total Active Clients: refer to Active Clients with at least one transaction in the last twelve months in the payments or banking services, and/or Active Clients with a balance in their digital account on the last day of the last month of the periods indicated.
+Total Clients reached 32.1 million , at the end of the quarter, an increase of 6.2% compared to Q3 2023. Active Clients totaled 17.7 million, representing 55% of the Total Clients base, relatively stable quarter-over-quarter. This increase was primarily driven by a sustainable growth in Banking only clients, representing 64% of our Active Clients compared to 62% in Q3 2023.
+Payments
+Total Payment Volume
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Payment Volume | 136.3 | | 99.8 | | 36.5 | % | 124.4 | | 9.6 | % | 372.4 | | 280.6 | | 32.7 | % |
+MSMB | 88.3 | | 70.1 | | 25.9 | % | 83.6 | | 5.7 | % | 249.4 | | 198.3 | | 25.8 | % |
+% Total Payment Volume | 64.8 | % | 70.3 | % | (5.5) p.p. | 67.2 | % | (2.4) p.p. | 67.0 | % | 70.7 | % | (5.9) p.p. |
+LMEC | 48.0 | | 29.7 | | 61.6 | % | 40.8 | | 17.5 | % | 123.0 | | 82.3 | | 49.4 | % |
+% Total Payment Volume | 35.2 | % | 29.7 | % | 5.5 p.p. | 32.8 | % | 1.8 p.p. | 33.0 | % | 29.3 | % | 5.9 p.p. |
+Active Merchants (# million) | 6.4 | | 6.7 | | -3.6 | % | 6.4 | | -0.5 | % | 6.4 | | 6.7 | | -3.6 | % |
+TPV per Merchant (R$ thousand) | 21.2 | | 14.9 | | 42.5 | % | 19.2 | | 10.2 | % | 57.0 | | 40.9 | | 39.3 | % |
+
+MSMB: Refers to Micro-merchants (monthly TPV < R$15,000) and Small/Medium Businesses (monthly TPV from R$15,000 up to R$ 1,000,000).
+LMEC: Refers to Large Merchants (monthly TPV > R$ 1,000,000), e-Commerce and Cross-Border.
+
+Total Payment Volume (TPV) totaled R$ 136.3 billion , +36.5% higher vs. Q3 2023, driven by all merchants’ segments, described below:
+• MSMB TPV increased +25.9% y/y , primarily driven by robust POS sales activity during the quarter, greater adoption of PIX QR Code, enhanced productivity in HUBs, geographic expansion to regions with lower market share, and the attraction of micro-merchants and SMBs.
+• LMEC TPV grew +61.6% y/y mostly due to the successful execution of our strategy, moving up in the pyramid and attracting accretive larger retail merchants as well as an increasing penetration in the online segment, including e-commerce and cross-border. It is important to note that this move comes with an effect on client and product mix.
+Active Merchants , which consists of Banking + Payments Clients and standalone Payments Clientsended the quarter with a total of 6.4 million , representing a decrease of -3.6% vs. Q3 2023. This decline is primarily due to a reduction in the number of nano-merchants (with monthly TPV below R$ 1,000), aligned with our strategic focus. Since 2022, the Company has prioritized clients with stronger unit economics, higher activation ratio, and greater engagement in Banking over mere net additions. We have also enhanced our onboarding and risk assessment procedures to reduce chargebacks and losses, which has positively impacted our gross profit over recent quarters.
+As a result, our TPV per Merchant reached R$ 21.2 thousand in Q3 2024, +42.5% higher vs. Q3 2023.
+3
+
+| | |
+
+|
+
+Banking
+Cash-In
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Cash-In | 83.9 | | 56.3 | | 49.1 | % | 76.4 | | 9.9 | % | 225.1 | | 150.9 | | 49.2 | % |
+Active Banking Clients (# million) | 17.3 | | 16.7 | | 3.4 | % | 17.3 | | -0.1 | % | 17.3 | | 16.7 | | 3.4 | % |
+Cash-In per Active Banking Client (R$ thousand) | 4.9 | | 3.4 | | 44.2 | % | 4.4 | | 10.0 | % | 13.0 | | 9.2 | | 41.2 | % |
+
+Active Banking Clients refer to Banking Clients and Banking + Payments Clients.
+Cash-In amounted to R$ 83.9 billion , up +49.1% y/y , mainly driven by increased client engagement, supported by Banking features that boosts inflows into PagBank accounts such as Collection Platform, Direct Deposits, and cashbacks/reward programs, in addition to an increased volume of PIX P2P. Consequently, Cash-In per Active Banking Client reached R$ 4.9 thousand , up +44.2% y/y , alongside the growth in the number of Active Banking clients.
+Credit Portfolio and Expanded Credit Portfolio
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Credit Portfolio | 3.2 | | 2.5 | | 29.9 | % | 2.9 | | 10.5 | % | 3.2 | | 2.5 | | 29.9 | % |
+Secured Products | 2.7 | | 1.5 | | 84.1 | % | 2.3 | | 16.6 | % | 2.7 | | 1.5 | | 84.1 | % |
+% Credit Portfolio | 84.6 | % | 59.7 | % | 24.9 p.p. | 80.2 | % | 4.4 p.p. | 84.6 | % | 59.7 | % | 24.9 p.p. |
+Unsecured Products | 0.5 | | 1.0 | | -50.4 | % | 0.6 | | -14.1 | % | 0.5 | | 1.0 | | -50.4 | % |
+% Credit Portfolio | 15.4 | % | 40.3 | % | (24.9) p.p. | 19.8 | % | (4.4) p.p. | 15.4 | % | 40.3 | % | (24.9) p.p. |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Credit Portfolio | 3.2 | | 2.5 | | 29.9 | % | 2.9 | | 10.5 | % | 3.2 | | 2.5 | | 29.9 | % |
+Payroll Loans + Others¹ | 2.3 | | 1.2 | | 98.4 | % | 2.0 | | 17.2 | % | 2.3 | | 1.2 | | 98.4 | % |
+Credit Card | 0.7 | | 0.8 | | -13.7 | % | 0.7 | | 0.5 | % | 0.7 | | 0.8 | | -13.7 | % |
+Working Capital Loans | 0.2 | | 0.5 | | -65.7 | % | 0.2 | | -19.9 | % | 0.2 | | 0.5 | | -65.7 | % |
+Provision for Losses | (0.3) | | (0.7) | | -52.8 | % | (0.4) | | -14.9 | % | (0.3) | | (0.7) | | -52.8 | % |
+Payroll Loans + Others¹ | (0.0 | ) | (0.0 | ) | 25.1 | % | (0.1) | | -37.6 | % | (0.0 | ) | (0.0 | ) | 25.1 | % |
+Credit Card | (0.1) | | (0.2) | | -47.2 | % | (0.1) | | -10.2 | % | (0.1) | | (0.2) | | -47.2 | % |
+Working Capital Loans | (0.1) | | (0.4) | | -61.7 | % | (0.2) | | -11.2 | % | (0.1) | | (0.4) | | -61.7 | % |
+Credit Portfolio, net | 2.9 | | 1.8 | | 59.6 | % | 2.5 | | 14.1 | % | 2.9 | | 1.8 | | 59.6 | % |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Credit Portfolio | 3.2 | | 2.5 | | 29.9 | % | 2.9 | | 10.5 | % | 3.2 | | 2.5 | | 29.9 | % |
+Prepayment to Merchants² | 41.0 | | 27.0 | | 51.7 | % | 39.9 | | 2.7 | % | 41.0 | | 27.0 | | 51.7 | % |
+Expanded Credit Portfolio | 44.2 | | 29.5 | | 49.9 | % | 42.8 | | 3.2 | % | 44.2 | | 29.5 | | 49.9 | % |
+
+1. Payroll Loans: Refers to loan portfolios, including advance Brazil's Severance Indemnity Fund (FGTS) withdrawals and payroll loans to public sector employees and retirees.
+2. Prepayment to Merchants is net of Accounts Receivable Securitization
+
+Credit Portfolio reached R$ 3.2 billion in Q3 2024, mainly driven by our focus on expanding secured products, which represented 85% of the portfolio, such as payroll loans and credit cards backed by investments. This strategy has enabled the Company to expand its portfolio while prioritizing asset quality risk management, and capital allocation.
+In 3Q24, we started to gradually resume credit underwriting for unsecured products, including working capital loans for merchants backed by receivables registry, credit card limits and overdraft account as a result of the continued improvement in asset quality, onboarding, risk assessment and collections. It is important to note, however, that current ‘Working Capital Loans’ show mainly the previous operation to micro-merchants which is being runed-off.
+4
+
+| | |
+
+|
+
+Expanded Credit Portfolio , which includes Prepayment to Merchants, reached R$ 44.2 billion in Q3 2024, driven mainly by the TPV expansion in our core segment, MSMB (+26% y/y) and the performance of our ‘Instant Settlement” feature.
+Deposits and Total Funding
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Checking Accounts | 10.5 | | 9.7 | | 8.9 | % | 11.5 | | -8.7 | % | 10.5 | | 9.7 | | 8.9 | % |
+Merchant's Payment Accounts | 1.2 | | 1.7 | | -30.0 | % | 2.0 | | -39.0 | % | 1.2 | | 1.7 | | -30.0 | % |
+High Yield Savings Accounts | 9.3 | | 7.9 | | 17.0 | % | 9.5 | | -2.0 | % | 9.3 | | 7.9 | | 17.0 | % |
+Certificate of Deposits | 17.5 | | 9.6 | | 82.8 | % | 16.7 | | 4.8 | % | 17.5 | | 9.6 | | 82.8 | % |
+Interbank Deposits | 6.2 | | 2.3 | | 164.8 | % | 6.0 | | 2.6 | % | 6.2 | | 2.3 | | 164.8 | % |
+Total Deposits | 34.2 | | 21.6 | | 58.6 | % | 34.2 | | -0.1 | % | 34.2 | | 21.6 | | 58.6 | % |
+Other Fundings | 3.8 | | 0.5 | | 696.9 | % | 3.1 | | 22.2 | % | 8.1 | | 1.7 | | 372.4 | % |
+Total Funding | 38.0 | | 22.0 | | 72.4 | % | 37.4 | | 1.7 | % | 42.3 | | 23.3 | | 81.7 | % |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Deposits | 34.2 | | 21.6 | | 58.6 | % | 34.2 | | -0.1 | % | 34.2 | | 21.6 | | 58.6 | % |
+Average Percentage Yield (APY) 1
+| 92.0 | % | 93.4 | % | (1.5) p.p. | 96.1 | % | (4.1) p.p. | 92.0 | % | 93.4 | % | (1.5) p.p. |
+Checking Accounts | 10.5 | | 9.7 | | 8.9 | % | 11.5 | | -8.7 | % | 10.5 | | 9.7 | | 8.9 | % |
+Average Percentage Yield (APY) 1
+| 47.3 | % | 72.0 | % | (24.7) p.p. | 68.0 | % | (20.7) p.p. | 47.3 | % | 72.0 | % | (24.7) p.p. |
+Banking Issuances | 23.7 | | 11.9 | | 98.8 | % | 22.7 | | 4.2 | % | 23.7 | | 11.9 | | 98.8 | % |
+Average Percentage Yield (APY) 1
+| 108.5 | % | 110.8 | % | (2.3) p.p. | 110.3 | % | (1.7) p.p. | 108.5 | % | 110.8 | % | (2.3) p.p. |
+
+1. As % of CDI (Brazilian Interbank Rate).
+Total Deposits reached R$ 34.2 billion , representing an increase of +58.6% vs. Q3 2023, mainly driven by the +98.8% y/y growth in Banking Issuances , led by Certificate of Deposits issued on, in addition to the increase in Checking Accounts , amounting R$ 10.5 billion , up +8.9% y/y , with Annual Percentage Yield (APY) of 47.3% CDI (Brazilian Interbank Rate). The overall APY reduction in both Checking Accounts and Banking Issuances is a result of initiatives put in place this quarter to reduce the Company’s cost of funding considering the current interest rate scenario.
+When considering other sources of funding, such as Borrowings, Certificate of Deposits with Related Parties and Senior FIDC quotas Total Funding reached R$ 38.0 billion , increasing 72.4% y/y, as a result of not only the increase in Total Deposits but also the Company’s efforts to diversify its funding sources aiming at a more balanced capital structure.
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Deposits | 34.2 | | 21.6 | | 58.6 | % | 34.2 | | -0.1 | % | 34.2 | | 21.6 | | 58.6 | % |
+On-Platform | 28.0 | | 18.3 | | 53.6 | % | 26.0 | | 7.6 | % | 28.0 | | 18.3 | | 53.6 | % |
+% Deposits | 81.9 | % | 84.6 | % | (2.7) p.p. | 76.1 | % | 5.9 p.p. | 81.9 | % | 84.6 | % | (2.7) p.p. |
+Off-Platform | 6.2 | | 3.3 | | 86.1 | % | 8.2 | | -24.7 | % | 6.2 | | 3.3 | | 86.1 | % |
+% Deposits | 18.1 | % | 15.4 | % | 2.7 p.p. | 23.9 | % | (5.9) p.p. | 18.1 | % | 15.4 | % | 2.7 p.p. |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ billion | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Extended Credit Portfolio | 44.2 | | 29.5 | | 49.9 | % | 42.8 | | 3.2 | % | 44.2 | | 29.5 | | 49.9 | % |
+Total Deposits | 34.2 | | 21.6 | | 59.0 | % | 34.2 | | 0.0 | % | 34.2 | | 21.6 | | 59.0 | % |
+Loan-to-deposits (%) | 129.0 | % | 137.0 | % | (7.5) p.p. | 125.0 | % | 4.1 p.p. | 129.0 | % | 137.0 | % | (7.5) p.p. |
+
+The Loan-to-deposit ratio, which considers the extended credit portfolio, declined by 7.5 p.p y/y, reaching 129% in 3Q23. This decrease can be mainly attributed to a larger deposits franchise, combined with the higher TPV in our core segment and the increasing volumes of the instant settlement feature.
+5
+
+| | |
+
+|
+
+Financial Performance
+Total Revenue and Income
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Revenue and Income | 4,831 | | 4,026 | | 20.0 | % | 4,557 | | 6.0 | % | 13,695 | | 11,602 | | 18.0 | % |
+Transaction Activities and Other Services | 2,260 | | 2,269 | | -0.4 | % | 2,312 | | -2.3 | % | 6,941 | | 6,586 | | 5.4 | % |
+Financial Income | 2,445 | | 1,691 | | 44.6 | % | 2,113 | | 15.7 | % | 6,390 | | 4,820 | | 32.6 | % |
+Other Financial Income | 127 | | 66 | | 93.4 | % | 132 | | -3.7 | % | 364 | | 195 | | 86.4 | % |
+| | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Revenue and Income | 4,831 | | 4,026 | | 20.0 | % | 4,557 | | 6.0 | % | 13,695 | | 11,602 | | 18.0 | % |
+Payments¹ | 4,336 | | 3,700 | | 17.2 | % | 4,122 | | 5.2 | % | 12,400 | | 10,573 | | 17.3 | % |
+Payments - % of Total Revenue and Income | 90 | % | 92 | % | (2.2) p.p. | 90 | % | (0.7) p.p. | 91 | % | 91 | % | (0.6) p.p. |
+Banking² | 495 | | 326 | | 52.1 | % | 434 | | 14.1 | % | 1,295 | | 1,029 | | 25.8 | % |
+Banking - % of Total Revenue and Income | 10 | % | 8 | % | 2.2 p.p. | 10 | % | 0.7 p.p. | 9 | % | 9 | % | 0.6 p.p. |
+
+1. Payments: mainly composed by merchant discount rates (MDRs), early prepayment of cards receivables and membership fees from POS device.
+2. Banking: mainly composed by interest income from credit portfolio, interest income from float of PagBank accounts, prepaid cards and escrow account reconciliation, fees (mostly cards interchange and account service fees) and Other Financial Income.
+Total Revenue and Income reached R$ 4,831 million in Q3 2024, representing an increase of +20.0% vs. Q3 2023. This growth was driven by higher revenues in the segments, as described below:
+• Payments: In Q3 2024, payments revenue amounted to R$ 4,336 million , representing an increase of +17.2% y/y , led by higher TPV. Additionally, since Q2 2024 the Company has started to book the spreads of advanced settlements related to the current month under financial income, as opposed to transaction revenues.
+• Banking: In Q3 2024 revenue amounted to R$ 495 million , a 52.1% year-over-year increase, mainly led by gains on financial investments in the period, boosted by increased deposits, interest income from our expanding credit portfolio and account service fees, all of which benefited from higher client engagement and cash-in.
+6
+
+| | |
+
+|
+
+Gross Profit
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Revenue and Income | 4,831 | | 4,026 | | 20.0 | % | 4,557 | | 6.0 | % | 13,695 | | 11,602 | | 18.0 | % |
+Transaction Costs | (1,851) | | (1,508) | | 22.7 | % | (1,761) | | 5.1 | % | (5,238) | | (4,311) | | 21.5 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | 9.3 | % |
+Total Losses | (120) | | (165) | | -27.6 | % | (113) | | 5.9 | % | (335) | | (413) | | -18.9 | % |
+Gross Profit | 1,897 | | 1,533 | | 23.8 | % | 1,819 | | 4.2 | % | 5,466 | | 4,448 | | 22.9 | % |
+% Total Payment Volume | 1.4 | % | 1.5 | % | -14.3 | % | 1.5 | % | (0.1) p.p. | 1.5 | % | 1.6 | % | (0.1) p.p. |
+% Total Revenue and Income | 39.3 | % | 38.1 | % | 1.2 p.p. | 39.9 | % | (0.7) p.p. | 39.9 | % | 38.3 | % | 1.6 p.p. |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Gross Profit | 1,897 | | 1,533 | | 23.8 | % | 1,819 | | 4.2 | % | 5,466 | | 4,448 | | 22.9 | % |
+% Total Revenue and Income | 39.3 | % | 38.1 | % | 1.2 p.p. | 39.9 | % | (0.7) p.p. | 39.9 | % | 38.3 | % | 1.6 p.p. |
+Payments | 1,559 | | 1,366 | | 14.1 | % | 1,559 | | 0.0 | % | 4,410 | | 3,863 | | 14.2 | % |
+Payments Gross Profit Margin % | 36.0 | % | 36.9 | % | (1.0) p.p. | 37.8 | % | (1.9) p.p. | 35.6 | % | 36.5 | % | (1.0) p.p. |
+Payments - % of Total Gross Profit | 82.2 | % | 89.2 | % | (7.0) p.p. | 85.7 | % | (3.5) p.p. | 80.7 | % | 86.8 | % | (6.2) p.p. |
+Banking | 338 | | 166 | | 103.2 | % | 261 | | 29.5 | % | 819 | | 585 | | 40.0 | % |
+Banking Gross Profit Margin % | 68.2 | % | 51.0 | % | 17.1 p.p. | 60.0 | % | 8.1 p.p. | 63.3 | % | 56.9 | % | 6.4 p.p. |
+Banking - % of Total Gross Profit | 17.8 | % | 10.8 | % | 7.0 p.p. | 14.3 | % | 3.5 p.p. | 15.0 | % | 13.2 | % | 1.8 p.p. |
+
+Gross Profit totaled R$ 1,897 million in Q3 2024, representing an increase of +23.8% y/y. As a percentage of Total Revenue and Income, Gross Profit rate increased 1.2 p.p vs. Q3 2023, reaching 39.3% in the quarter, driven by the performance of Payments and Banking segments, in addition to our funding strategy backed by deposits, lowering our average cost of funding, and lower losses, as described below:
+• Payments: In Q3 2024, Gross Profit reached R$ 1,559 million , making a 14.1% year-over-year increase. This growth was primarily driven by TPV expansion in all segments, including new growth avenues namely accretive larger retail merchants and online (e-commerce and cross-border). This growth comes with a change in the client and product mix.
+• Banking: In Q3 2024, Gross Profit totaled R$ 338 million, an increase of +103.2% y/y , mainly driven by a growth in interest income from the expansion of our credit portfolio, larger credit portfolio, along with higher gains on financial investments during the period. In Q3 2024, Banking segment accounted for 17.8% of total Gross Profit.
+7
+
+| | |
+
+|
+
+Total Costs and Expenses
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+Non-GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Costs and Expenses | (4,176) | | (3,469) | | 20.4 | % | (3,921) | | 6.5 | % | (11,771) | | (10,044) | | -19.4 | % |
+Cost of Sales and Services | (2,449) | | (2,028) | | 20.7 | % | (2,326) | | 5.3 | % | (6,939) | | (5,875) | | -18.7 | % |
+Selling Expenses | (485) | | (377) | | 28.8 | % | (466) | | 4.1 | % | (1,387) | | (1,013) | | -6.1 | % |
+Administrative Expenses | (215) | | (166) | | 29.7 | % | (165) | | 29.9 | % | (559) | | (473) | | -19.6 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | -24.7 | % |
+Other Expenses, Net | (63) | | (79) | | -20.6 | % | (100) | | -37.1 | % | (231) | | (255) | | -36.3 | % |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Costs and Expenses | (4,238) | | (3,514) | | 20.6 | % | (3,979) | | 6.5 | % | (11,951) | | (10,168) | | -19.2 | % |
+Cost of Sales and Services | (2,455) | | (2,033) | | 20.8 | % | (2,332) | | 5.3 | % | (6,958) | | (5,889) | | -18.7 | % |
+Selling Expenses | (487) | | (378) | | 28.8 | % | (467) | | 4.2 | % | (1,392) | | (1,017) | | -6.2 | % |
+Administrative Expenses | (269) | | (206) | | 30.2 | % | (216) | | 24.2 | % | (715) | | (581) | | -16.6 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | -24.7 | % |
+Other Expenses, Net | (63) | | (76) | | -17.8 | % | (100) | | -37.2 | % | (231) | | (253) | | -35.6 | % |
+
+Total Costs and Expenses , on a non-GAAP basis, amounted to R$ 4,176 million in Q3 2024, representing an increase of +20.4% y/y vs. Q3 2023, mainly related to:
+• Cost of Sales and Services of R$ 2,449 million in Q3 2024, representing an increase of +20.7% y/y , mainly due to TPV growth, which resulted in higher nominal interchange and card scheme fees.
+
+When excluding non-GAAP figures related to LTIP Expenses (long-term incentive plan), Cost of Sales and Services reached R$ 2,455 million in Q3 2024, representing an increase of +20.8% y/y .
+• Selling Expenses totaled R$ 485 million in Q3 2024, an increase of +28.8% y/y , mainly related to commercial team expenses, due to additional hiring concluded in Q1 2024, along with higher marketing and advertising expenses, partially offset by reduced losses from chargebacks and lower Expected Credit Loss (ECL) provisions.
+
+When excluding non-GAAP figures related to LTIP Expenses (long-term incentive plan), Selling Expenses reached R$ 487 million in Q3 2024, representing an increase of +28.8% compared to Q2 2023.
+• Administrative Expenses reached R$ 215 million in Q3 2024, an increase of +29.7% compared to Q3 2023, mainly driven by higher expenses to supporting the strong operational performance, including tech services as well as increased provisions for personnel expenses compared to last year.
+
+When excluding non-GAAP figures related to LTIP Expenses and Non-Recurring Amortization Expenses, Administrative Expenses reached R$ 269 million in Q3 2024, representing an increase of +30.2% compared to the same period of 2023.
+• Financial Costs totaled R$ 964 million in Q3 2024, an increase of +17.6% vs. Q3 2023, mainly due to a lower average cost of funding resulting from strong growth in deposits franchisee, which became increasingly important in our funding strategy. Additionally, expenses decreased due to the reduction in the average Brazilian Basic Interest Rate (SELIC) decrease in comparison to Q3 2023, partially offset by TPV growth in the period.
+• Other Expenses, net reached R$ 63 million in Q3 2024, representing a decrease of -20.6% compared to Q3 2023, mainly due to lower write-off of POS devices. When excluding non-GAAP figures, Other Expenses decreased -17.8% compared to Q3 2023.
+On a GAAP basis, including LTIP Expenses and Non-Recurring Amortization Expenses of R$ 42 million, Total Costs and Expenses amounted to R$ 4,238 million in Q3 2024, representing an increase of +20.6% in comparison to the amount of R$ 3,514 million presented in Q3 2023.
+8
+
+| | |
+
+|
+
+Total Costs and Expenses by nature
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+Non-GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Costs and Expenses | (4,176) | | (3,469) | | 20.4 | % | (3,921) | | 6.5 | % | (11,771) | | (10,044) | | 17.2 | % |
+Transactions Costs | (1,851) | | (1,508) | | 22.7 | % | (1,761) | | 5.1 | % | (5,238) | | (4,311) | | 21.5 | % |
+% Total Revenue and Income | 38.3 | % | 37.5 | % | 0.8 p.p. | 38.6 | % | (0.3) p.p. | 38.3 | % | 37.2 | % | 1.1 p.p. |
+Interchange and Card Scheme Fee | (1,827) | | (1,450) | | 26.0 | % | (1,728) | | 5.7 | % | (5,147) | | (4,145) | | 24.2 | % |
+Others | (24) | | (58) | | -59.7 | % | (33) | | -27.8 | % | (92) | | (166) | | -44.9 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | 9.3 | % |
+% Total Revenue and Income | 20.0 | % | 20.4 | % | (0.4) p.p. | 18.9 | % | 1.0 p.p. | 19.4 | % | 20.9 | % | (1.5) p.p. |
+Securitization of Receivables | (83) | | (249) | | -66.8 | % | (93) | | -10.8 | % | (337) | | (708) | | -52.3 | % |
+Accrued Interest on Deposits | (756) | | (551) | | 37.2 | % | (721) | | 4.8 | % | (2,108) | | (1,637) | | 28.7 | % |
+Others | (126) | | (20) | | 518.9 | % | (50) | | 153.8 | % | (210) | | (84) | | 150.3 | % |
+Total Losses | (120) | | (165) | | -27.6 | % | (113) | | 5.9 | % | (335) | | (413) | | -18.9 | % |
+% Total Revenue and Income | 2.5 | % | 4.1 | % | (1.6) p.p. | 2.5 | % | (0.0) p.p. | 2.4 | % | 3.6 | % | (1.1) p.p. |
+Chargebacks | (92) | | (136) | | -30.1 | % | (76) | | 21.3 | % | (240) | | (333) | | -28.0 | % |
+Expected Credit Losses (ECL) | (28) | | (29) | | -18.0 | % | (37) | | -25.3 | % | (96) | | (81) | | 18.9 | % |
+Operating Expenses | (812) | | (583) | | 39.2 | % | (773) | | 5.0 | % | (2,293) | | (1,759) | | 30.3 | % |
+% Total Revenue and Income | 16.8 | % | 14.5 | % | 2.3 p.p. | 17.0 | % | (0.2) p.p. | 16.7 | % | 15.2 | % | 1.6 p.p. |
+Personnel Expenses | (331) | | (245) | | 35.5 | % | (313) | | 5.9 | % | (938) | | (744) | | 26.1 | % |
+Marketing and Advertising | (223) | | (140) | | 59.8 | % | (220) | | 1.4 | % | (653) | | (387) | | 68.8 | % |
+Other Expenses (Income), Net | (257) | | (199) | | 29.4 | % | (239) | | 7.4 | % | (702) | | (629) | | 11.7 | % |
+D&A and POS Write-Offs | (429) | | (393) | | 9.3 | % | (411) | | 4.4 | % | (1,249) | | (1,132) | | 10.4 | % |
+% Total Revenue and Income | 8.9 | % | 9.8 | % | (0.9) p.p. | 9.0 | % | (0.1) p.p. | 9.1 | % | 9.8 | % | (0.6) p.p. |
+Depreciation and Amortization | (392) | | (329) | | 19.3 | % | (371) | | 5.6 | % | (1,117) | | (941) | | 18.7 | % |
+POS Write-off | (37) | | (64) | | -42.4 | % | (40) | | -7.5 | % | (133) | | (191) | | -30.5 | % |
+
+For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” included in this earnings release.
+Transaction Costs
+Transaction Costs , on a GAAP and a non-GAAP basis, totaled R$ 1,851 million , representing an increase of +22.7% from R$ 1,761 million in Q3 2023, mainly driven by:
+• Interchange and Card Scheme Fees totaled R$ 1,827 million in Q3 2024, representing an increase of +26.0% y/y , mainly driven by cards TPV growth; partially offset by
+• Other Costs decreased by –59.7% vs. Q2 2023 to R$ 24 million , mainly due to efficiencies on costs related to processing, logistics and telecom.
+As a percentage of the Total Revenue and Income, Transaction Costs increased to 38.3% in Q3 2024 vs. 37.5% in Q3 2023 as a result of client and product mix.
+Financial Costs
+Financial Costs totaled R$ 964 million in Q3 2024, representing an increase of +17.6% vs. Q3 2023. As a percentage of Total Revenue and Income, Financial Costs decreased to 20.0% in Q3 2024 vs. 20.4% in Q3 2023, mainly resulting from strong the growth in deposits in addition to the Brazilian Basic Interest Rate (SELIC) decrease between periods, partially offset by TPV growth.
+On a quarter-on-quarter basis, Financials Costs increased mainly due to TPV performance, and the higher number of working days in the period (accrued more interest), with marginal impact from the SELIC rate increase in late September (+25 bps). During Q3 2024, the Company took initiatives to reposition some of its CDI-linked products aiming to mitigate a possible interest hike in the next quarters.
+On a nominal basis the increase (+17.6% y/y) is due to a higher volumetry of our Payments operation, linked to the strong increase of TPV in the period.
+9
+
+| | |
+
+|
+
+Total Losses
+Total Losses reached R$ 120 million in Q3 2024, representing a decrease of -27.6% vs. Q3 2023. As a percentage of Total Revenues and Income, Total Losses decreased to 2.5% in Q3 2024 vs. 4.1% in Q2 2023.
+This decrease was primarily driven by enhanced asset quality resulting from improvements in our KYC and onboarding procedures, which reduced chargebacks, along with a stronger credit portfolio quality that required lower ECL provisions. The increase on a quarterly basis is mainly related to the higher volume in addition to provision related to disputes of chargebacks from previous periods.
+Operating Expenses
+Operating Expenses , on a Non-GAAP basis, which include Personnel Expenses, Marketing and Advertising and Other Expenses, totaled R$ 812 million , representing an increase +39.2% from R$ 583 million in Q3 2023. As a percentage of Total Revenue and Income, Non-GAAP Operating Expenses represented 16.8% vs. 14.5% in Q3 2023. These trends are mainly due to the following:
+• Personnel Expenses reached R$ 331 million , representing an increase of +35.5% vs. Q3 2023, driven by the increase in our salesforce which started in the last quarter of 2023 and was concluded in Q1 2024. Personnel expenses increased sequentially by 5.9% quarter-over-quarter, driven by higher profit-sharing provisions, increased INSS contributions following payroll tax reform in Brazil. When including LTIP Expenses and Non-Recurring Amortization Expenses amounting to non-GAAP Expenses of R$ 41.7 million, Personnel Expenses, on a GAAP basis, totaled R$ 372.7 million , representing an increase of +36% vs. Q3 2023 due to the higher impact of LTIP given the current share price level.
+• Marketing and Advertising totaled R$ 223 million in Q3 2024, +59.8% vs. Q3 2023, as a result of the ramp-up of our marketing efforts initiated in the second half of 2023, focusing mainly on the Banking segment and its product offering, brand awareness, as well as on attracting new clients with stronger unit economics. Quarter-over-quarter, marketing expenses remained stable growing +1.4% in the period.
+• Other Expenses reached R$ 257 million in Q3 2024, a +29.4% increase from R$ 199 million reported in Q3 2023, mainly related to the renewal of software and cloud services contracts, which are dollar-linked.
+On a GAAP basis, Operating Expenses totaled R$ 853 million , an increase of +39.8% from R$ 610 million in Q3 2023. As a percentage of Total Revenue and Income, Operating Expenses represented 17.7% vs. 15.2% in Q3 2023.
+Depreciation and Amortization and POS Write-Off
+Depreciation and Amortization reached R$ 429 million , representing an increase of +9.3% , from R$ 393 million in Q3 2023, mainly explained by:
+• The depreciation of POS devices; and
+• The amortization of R&D investments, mainly related to product development and data security. These investments allow us to defer our tax liability that generates a benefit through “ Lei do Bem ” (Technological Innovation Law).
+When including LTIP Expenses and Non-Recurring Amortization Expenses amounting to non-GAAP expenses of R$ 21 million, D&A, on a GAAP basis, totaled R$ 413 million , representing an increase of +19.2% vs. Q3 2023 due to amortization of Fair Value adjustment related to acquisitions in the past and amortization of the Long-term Incentive Plan.
+POS Write-offs in Q3 2024 totaled R$ 37 million , representing a decrease of -42.4% year-over-year and -7.5% decrease in comparison to last quarter (Q2 2024). The majority amount comes from 2020 and 2021 POS vintages.
+10
+
+| | |
+
+|
+
+Earnings Before Tax (EBT)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+Non-GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Earnings before Tax (EBT) | 656 | | 557 | | 17.8 | % | 636 | | 3.1 | % | 1,924 | | 1,557 | | 23.5 | % |
+% Total Revenue and Income | 13.6 | % | 13.8 | % | (0.3) p.p. | 14.0 | % | (0.4) p.p. | 14.0 | % | 13.4 | % | 0.6 p.p. |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Earnings before Tax (EBT) | 594 | | 512 | | 15.9 | % | 578 | | 2.7 | % | 1,744 | | 1,433 | | 21.6 | % |
+% Total Revenue and Income | 12.3 | % | 12.7 | % | (0.4) p.p. | 12.7 | % | (0.4) p.p. | 12.7 | % | 12.4 | % | 0.4 p.p. |
+
+For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” Included in this earnings release.
+Earnings before Tax amounted to R$ 656 million in Q3 2024 representing an increase of +17.8% vs. Q3 2023, reflecting the business growth in Payments and Financial Services, lower financial expenses, lower losses, and operational efficiencies partially offset by the increase of Depreciation and Amortization.
+When including LTIP Expenses and Non-Recurring Amortization Expenses amounting to non-GAAP expenses of R$ 62 million, Earnings before Tax, on a GAAP basis, totaled R$ 594 million , representing an increase of +15.9% vs. Q3 2023.
+Income Tax and Social Contribution
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Earnings before Tax (EBT) | 594 | | 512 | | 15.9 | % | 578 | | 2.7 | % | 1,744 | | 1,433 | | 21.6 | % |
+Statutory Rate | 34.0 | % | 34.0 | % | 0.0 p.p. | 34.0 | % | 0.0 p.p. | 34.0 | % | 34.0 | % | 0.0 p.p. |
+Expected Income Tax Expenses | (202) | | (174) | | 15.9 | % | (196) | | 2.7 | % | (593) | | (487) | | 21.6 | % |
+Income Tax effect on: | | | | | | | | |
+R&D and Tech Innovation Benefit¹ | 61 | | 48 | | 26.3 | % | 56 | | 8.4 | % | 171 | | 149 | | 14.3 | % |
+Taxation of Income abroad² | 75 | | 24 | | 214.8 | % | 37 | | 104.6 | % | 152 | | 79 | | 93.0 | % |
+Other | 3 | | 0 | | 620.1 | % | 29 | | -90.1 | % | 44 | | (8) | | n.a. |
+Income Tax Expenses | (62) | | (101) | | -38.4 | % | (74) | | -15.8 | % | (226) | | (268) | | -15.5 | % |
+Effective Tax Rate | 10.5 | % | 19.8 | % | (9.3) p.p. | 12.8 | % | (2.3) p.p. | 13.0 | % | 18.7 | % | (5.7) p.p. |
+Current | (11) | | (17) | | -33.6 | % | (131) | | -91.5 | % | (166) | | (77) | | 115.0 | % |
+Deferred | (51) | | (85) | | -39.4 | % | 57 | | -189.5 | % | (60) | | (191) | | -68.3 | % |
+
+1. Refers to the benefit granted by the Technological Innovation Law (“Lei do Bem”), which reduces the income tax charges, based on the amount invested by the PagSeguro Digital Ltd. On specific intangible assets. Please, see Note 12 in our Form 6-K related to the Financial Statements, published on the date hereof.
+2. Some entities and investment funds adopt different taxation regimes according to the applicable rules in their jurisdictions.
+Income Tax and Social Contribution amounted to an expense of R$ 62 million in Q3 2024, representing a decrease of -38.4% vs. Q3 2023. The Effective Tax Rate (ETR) decreased in comparison to Q2 2024, reaching 10.5%, mainly driven by a legal entity abroad and benefits from “ Lei do Bem ” eligibility. In both periods, the difference between the Effective Income Tax and Social Contribution Rate and the Rate computed by applying the Brazilian federal statutory rate (34%) was mainly related to:
+• Technological Innovation Law (“ Lei do Bem ”), which reduces income tax charges based on investments made in innovation and technology (related to the capitalized amount of intangible assets), such as those made by PagSeguro Brazil, our Brazilian operating subsidiary; and
+• Gains from subsidiaries abroad subject to different statutory tax rates. Certain entities or investment funds adopt different taxation regimes in accordance with the applicable rules in their respective jurisdictions.
+11
+
+| | |
+
+|
+
+Net Income
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+Non-GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Net Income | 572 | | 440 | | 30.0 | % | 542 | | 5.6 | % | 1,636 | | 1,248 | | 31.1 | % |
+% Total Revenue and Income | 11.8 | % | 10.9 | % | 0.9 p.p. | 11.9 | % | (0.1) p.p. | 11.9 | % | 10.8 | % | 1.2 p.p. |
+Outstanding Common Shares¹ | # Million | 317.6 | | 321.8 | | -1.3 | % | 319.1 | | -0.5 | % | 317.9 | | 323.4 | | -1.7 | % |
+Common Shares¹ diluted | # Million | 320.7 | | 323.8 | | -1.0 | % | 323.1 | | -0.8 | % | 321.4 | | 325.6 | | -1.3 | % |
+Basic Earnings per Common Share | R$ | 1.80 | | R$ | 1.37 | | 31.7 | % | R$ | 1.70 | | 6.1 | % | R$ | 5.15 | | R$ | 3.86 | | 33.3 | % |
+Diluted Earnings per Common Share | R$ | 1.78 | | R$ | 1.36 | | 31.2 | % | R$ | 1.68 | | 6.4 | % | R$ | 5.09 | | R$ | 3.83 | | 32.8 | % |
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Net Income | 531 | | 411 | | 29.3 | % | 504 | | 5.4 | % | 1,517 | | 1,166 | | 30.2 | % |
+% Total Revenue and Income | 11.0 | % | 10.2 | % | 0.8 p.p. | 11.1 | % | (0.1) p.p. | 11.1 | % | 10.0 | % | 1.0 p.p. |
+Outstanding Common Shares¹ | # Million | 317.6 | | 321.8 | | -1.3 | % | 319.1 | | -0.5 | % | 317.9 | | 323.4 | | -1.7 | % |
+Common Shares¹ diluted | # Million | 320.7 | | 323.8 | | -1.0 | % | 323.1 | | -0.8 | % | 321.4 | | 325.6 | | -1.3 | % |
+Basic Earnings per Common Share | R$ | 1.67 | | R$ | 1.28 | | 31.1 | % | R$ | 1.58 | | 5.9 | % | R$ | 4.77 | | R$ | 3.60 | | 32.4 | % |
+Diluted Earnings per Common Share | R$ | 1.66 | | R$ | 1.27 | | 30.6 | % | R$ | 1.56 | | 6.2 | % | R$ | 4.72 | | R$ | 3.58 | | 31.9 | % |
+
+1. Weighted average number.
+For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” Included in this earnings release.
+Net Income in Q3 2024 amounted to R$ 572 million , representing an increase of +30.0% , from R$ 440 million reported in Q3 2023, as a result of the stronger operational and financial performance.
+Including Non-GAAP expenses of R$ 41 million, Net Income on GAAP basis totaled R$ 531 million in Q2 2024, up +29.3% when compared to R$ 411 million reported in Q3 2023.
+In 3Q24, diluted EPS increased 31.1% compared to the same period last year, from R$ 1.56 in 3Q23 to R$ 1.66 in 3Q24, primarily due to higher earnings and the impact of our share buyback program, by reducing the total number of outstanding shares through the buyback, we enhanced shareholder value preventing dilution. During this quarter, the Company concluded its First Buyback Program (US$ 250 million, started in 2018) and launched its Second Buyback Program of US$ 200 million. In the last twelve months, the Company bought approximately 11 million shares.
+12
+
+| | |
+
+|
+
+Cash Flow Analysis
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Cash Position at the beginning of the Period | 2,899 | | 1,829 | | 58.5 | % | 4,366 | | -33.6 | % | 2,899 | | 1,829 | | 58.5 | % |
+Net Cash from Operating Activities | (689) | | 972 | | n.a. | (4,555) | | -84.9 | % | (2,815) | | 1,835 | | n.a. |
+Earnings before Taxes (EBT) | 594 | | 512 | | 15.9 | % | 578 | | 2.7 | % | 1,744 | | 1,433 | | 21.6 | % |
+Expenses (Revenues) not affecting Cash | 614 | | 826 | | -25.7 | % | 988 | | -37.9 | % | 2,474 | | 2,134 | | 15.9 | % |
+Changes in Operating Assets/Liabilities | (2,560) | | (1,037) | | 146.9 | % | (6,225) | | -58.9 | % | (8,333) | | (3,404) | | 144.8 | % |
+Income Tax and Social Contribution paid | (90) | | (19) | | 362.0 | % | (24) | | 275.9 | % | (129) | | (79) | | 63.8 | % |
+Interest Income received (paid) | 754 | | 690 | | 9.1 | % | 128 | | 489.6 | % | 1,429 | | 1,751 | | -18.4 | % |
+Net Cash from Investing Activities | 27 | | (503) | | n.a. | 69 | | -61.6 | % | (1,548) | | (1,618) | | -4.3 | % |
+Net Cash from Financing Activities | 8 | | (218) | | n.a. | 1,494 | | -99.5 | % | 2,184 | | (71) | | n.a. |
+Increase (Decrease) in Cash Position | (654) | | 251 | | n.a. | (2,992) | | -78.1 | % | (2,179) | | 146 | | n.a. |
+Cash Position at the end of the Period | 720 | | 1,975 | | -63.5 | % | 1,374 | | -47.6 | % | 720 | | 1,975 | | -63.5 | % |
+
+Cash and Cash Equivalents at the end of Q3 2024 amounted to R$ 720 million , representing a -63.5% y/y decrease from R$ 1,975 million in Q3 2023.
+Net Cash used in Operating Activities in Q3 2024 totaled R$ 689 million , compared to R$ 972 million of Net Cash from Operating Activities in Q3 2023.
+Changes in Operating Assets/Liabilities in Q3 2024 amounted to a cash outflow of R$ 2,560 million , representing an increase of +146.9% from a cash outflow of R$ 1,037 million in Q3 2023, mainly due to higher values recorded of Accounts Receivable (amounting to R$ 2,530 million in the period), given higher amount of funds owed to us as a financial intermediary in transactions with issuing banks. These receivables are shown net of transaction costs and financial expenses incurred when we opt for early payment. These effects were partially offset by the y/y inflow of Deposits (Banking Issuances, Checking Accounts and Payables to Related Parties) which resulted in an increase in funding made during the quarter.
+Net Cash provided in Investing Activities in Q3 2024 totaled R$ 27 million , representing an increase of R$ 530 million vs. Q3 2023, mainly due to the redemption of financial investments to meet mandatory requirements based on deposit levels. In addition, our Capital Expenditures amounted R$637 million , -8% lower when compared to Q2 2024, mainly driven by our strong commercial activities and inventory management, in which directed investments toward the purchase of Property and Equipment (mainly POS terminals) and Intangible Assets. These intangible investments, focused on product development, data security, and client experience, are capitalized for tax efficiency purposes.
+Net Cash from Financing Activities in Q2 2024, totaled R$ 8 million , representing an increase of R$ 226 million in comparison to Q3 2023. This change is mainly related to borrowings agreements totaling R$ 3,000 million aimed at diversifying the Company’s funding structure and protecting the risk from interest rate volatility. These instruments have a short maturity period of three-months counted from the execution date and the payment will occur in a single installment and interest set at 108% of the CDI. This positive impact was partially offset by the repayment of R$ 2,549 million in borrowings and the treasury shares repurchase program initiated in 3Q24, under which the Company may repurchase up to US$ 200 million in outstanding class A common shares.
+13
+
+| | |
+
+|
+
+Appendix
+Income Statement (GAAP)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Transaction Revenues | 2,260 | | 2,269 | | 205.9 | % | 2,312 | | 200.2 | % | 6,941 | | 6,586 | | 5.4 | % |
+Financial Income | 2,445 | | 1,691 | | 44.6 | % | 2,113 | | 15.7 | % | 6,390 | | 4,820 | | 32.6 | % |
+Other Financial Income | 127 | | 66 | | 93.4 | % | 132 | | -3.7 | % | 364 | | 195 | | 86.4 | % |
+Total Revenue and Income | 4,831 | | 4,026 | | 20.0 | % | 4,557 | | 6.0 | % | 13,695 | | 11,602 | | 18.0 | % |
+Cost of Sales and Services | (2,455) | | (2,033) | | 20.8 | % | (2,332) | | 5.3 | % | (6,958) | | (5,889) | | 18.2 | % |
+Selling Expenses | (487) | | (378) | | 28.8 | % | (467) | | 4.2 | % | (1,392) | | (1,018) | | 36.8 | % |
+Administrative Expenses | (269) | | (206) | | 30.2 | % | (216) | | 24.2 | % | (715) | | (581) | | 23.1 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | 9.3 | % |
+Other Expenses | (63) | | (76) | | -17.7 | % | (100) | | -37.1 | % | (231) | | (253) | | -8.6 | % |
+Earnings Before Tax | 594 | | 512 | | 15.9 | % | 578 | | 2.7 | % | 1,744 | | 1,433 | | 21.7 | % |
+Current Income Tax and Social Contribution | (11) | | (17) | | -33.6 | % | (131) | | -91.5 | % | (166) | | (77) | | 114.9 | % |
+Deferred Income Tax and Social Contribution | (51) | | (85) | | -39.4 | % | 57 | | n.a. | (60) | | (191) | | -68.3 | % |
+Income Tax and Social Contribution | (62) | | (101) | | -38.4 | % | (74) | | -15.8 | % | (226) | | (268) | | -15.5 | % |
+Net Income | 531 | | 411 | | 29.3 | % | 504 | | 5.4 | % | 1,517 | | 1,166 | | 30.2 | % |
+
+Income Statement by Costs and Expenses Nature (GAAP)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Transaction Revenues | 2,260 | | 2,269 | | -0.4 | % | 2,312 | | -2.3 | % | 6,941 | | 6,586 | | 5.4 | % |
+Financial Income | 2,445 | | 1,691 | | 44.6 | % | 2,113 | | 15.7 | % | 6,390 | | 4,820 | | 32.6 | % |
+Other Financial Income | 127 | | 66 | | 93.4 | % | 132 | | -3.7 | % | 364 | | 195 | | 86.4 | % |
+Total Revenue and Income | 4,831 | | 4,026 | | 20.0 | % | 4,557 | | 6.0 | % | 13,695 | | 11,602 | | 18.0 | % |
+Transaction Costs | (1,851) | | (1,508) | | 22.7 | % | (1,761) | | 5.1 | % | (5,238) | | (4,311) | | 21.5 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | 9.3 | % |
+Total Losses | (120) | | (165) | | -27.6 | % | (113) | | 5.9 | % | (335) | | (413) | | -18.9 | % |
+Gross Profit | 1,897 | | 1,533 | | 23.8 | % | 1,819 | | 4.2 | % | 5,466 | | 4,448 | | 22.9 | % |
+Operating Expenses (Marketing, Personal and Others) | (853) | | (610) | | 39.8 | % | (811) | | 5.3 | % | (2,236) | | (1,614) | | 38.6 | % |
+D&A + POS Write-Off | (450) | | (410) | | 9.6 | % | (431) | | 4.4 | % | (1,308) | | (1,180) | | 10.9 | % |
+Earnings Before Tax | 594 | | 512 | | 15.9 | % | 578 | | 2.7 | % | 1,744 | | 1,433 | | 21.6 | % |
+Income Tax and Social Contribution | (62) | | (101) | | -38.4 | % | (74) | | -15.8 | % | (226) | | (268) | | -15.5 | % |
+Net Income | 531 | | 411 | | 29.3 | % | 504 | | 5.5 | % | 1,517 | | 1,166 | | 30.2 | % |
+
+14
+
+| | |
+
+|
+
+Total Costs and Expenses by Nature (GAAP)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Costs and Expenses | (4,238) | | (3,514) | | 20.6 | % | (3,979) | | 6.5 | % | (11,951) | | (10,168) | | 17.5 | % |
+Transactions Costs | (1,851) | | (1,508) | | 22.7 | % | (1,761) | | 5.1 | % | (5,238) | | (4,311) | | 21.5 | % |
+% Total Revenue and Income | 38.3 | % | 37.5 | % | 0.8 p.p. | 38.6 | % | (0.3) p.p. | 38.3 | % | 37.2 | % | 1.1 p.p. |
+Interchange and Card Scheme Fee | (1,827) | | (1,450) | | 26.0 | % | (1,728) | | 5.7 | % | (5,147) | | (4,145) | | 24.2 | % |
+Others | (24) | | (58) | | -59.7 | % | (33) | | -27.8 | % | (92) | | (166) | | -44.9 | % |
+Financial Costs | (964) | | (820) | | 17.6 | % | (863) | | 11.7 | % | (2,655) | | (2,429) | | 9.3 | % |
+% Total Revenue and Income | 20.0 | % | 20.4 | % | (0.4) p.p. | 18.9 | % | 1.0 p.p. | 19.4 | % | 20.9 | % | (1.0) p.p. |
+Securitization of Receivables | (83) | | (249) | | -66.8 | % | (93) | | -10.8 | % | (337) | | (708) | | -52.3 | % |
+Accrued Interest on Deposits | (756) | | (551) | | 37.2 | % | (721) | | 4.8 | % | (2,108) | | (1,637) | | 28.7 | % |
+Others | (126) | | (20) | | 518.9 | % | (50) | | 153.8 | % | (210) | | (84) | | 150.3 | % |
+Total Losses | (120) | | (165) | | -27.6 | % | (113) | | 5.9 | % | (335) | | (413) | | -18.9 | % |
+% Total Revenue and Income | 2.5 | % | 4.1 | % | (1.6) p.p. | 2.5 | % | (0.0) p.p. | 2.4 | % | 3.6 | % | (1.1) p.p. |
+Chargebacks | (92) | | (136) | | -30.1 | % | (76) | | 21.3 | % | (240) | | (333) | | -28.0 | % |
+Expected Credit Losses (ECL) | (28) | | (29) | | -18.0 | % | (37) | | -25.3 | % | (96) | | (81) | | 18.9 | % |
+Operating Expenses | (853) | | (610) | | 39.8 | % | (811) | | 5.3 | % | (2,236) | | (1,614) | | 38.6 | % |
+% Total Revenue and Income | 17.7 | % | 15.2 | % | 2.5 p.p. | 17.8 | % | (0.1) p.p. | 16.3 | % | 13.9 | % | 3.8 p.p. |
+Personnel Expenses | (373) | | (274) | | 35.9 | % | (351) | | 6.1 | % | (1,059) | | (822) | | 28.8 | % |
+Marketing and Advertising | (223) | | (140) | | 59.8 | % | (220) | | 1.4 | % | (653) | | (387) | | 68.8 | % |
+Other Expenses (Income), Net | (257) | | (196) | | 31.1 | % | (239) | | 7.5 | % | (525) | | (405) | | 29.5 | % |
+D&A and POS Write-Offs | (450) | | (410) | | 9.6 | % | (431) | | 4.4 | % | (1,308) | | (1,180) | | 10.9 | % |
+% Total Revenue and Income | 9.3 | % | 10.2 | % | (0.9) p.p. | 9.5 | % | (0.1) p.p. | 9.6 | % | 10.2 | % | (0.9) p.p. |
+Depreciation and Amortization | (413) | | (346) | | 19.2 | % | (391) | | 5.6 | % | (1,176) | | (989) | | 18.8 | % |
+POS Write-off | (37) | | (64) | | -42.4 | % | (40) | | -7.5 | % | (133) | | (191) | | -30.5 | % |
+
+Net Income Reconciliation (GAAP to non-GAAP)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Net Income | GAAP | 531 | | 411 | | 29.3 | % | 504 | | 5.4 | % | 1,517 | | 1,166 | | 30.2 | % |
+Long-term Incentive Plan | 41 | | 30 | | 38.6 | % | 38 | | 8.0 | % | 121 | | 78 | | 54.5 | % |
+Amortization of Fair Value Adjustment | 5 | | 5 | | -0.8 | % | 5 | | 0.0 | % | 16 | | 15 | | 10.4 | % |
+Amortization of Capitalized Expenses of Platforms Development | 15 | | 12 | | 25.3 | % | 14 | | 6.3 | % | 43 | | 34 | | 26.8 | % |
+Income Tax and Social Contribution | (21) | | (16) | | 30.4 | % | (20) | | 3.4 | % | (61) | | (43) | | 41.9 | % |
+Net Income | Non-GAAP | 572 | | 442 | | 29.4 | % | 542 | | 5.5 | % | 1,636 | | 1,249 | | 31.0 | % |
+
+15
+
+| | |
+
+|
+
+Balance Sheet (GAAP)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Total Assets | 67,219 | | 47,327 | | 42.0 | % | 66,478 | | 1.1 | % | 67,219 | | 47,327 | | 42.0 | % |
+Current Assets | 59,380 | | 41,165 | | 44.2 | % | 58,983 | | 0.7 | % | 59,380 | | 41,165 | | 44.2 | % |
+Cash and Cash Equivalents | 720 | | 1,975 | | -63.5 | % | 1,374 | | -47.6 | % | 720 | | 1,975 | | -63.5 | % |
+Financial Investments | 4,838 | | 1,078 | | 348.7 | % | 4,844 | | -0.1 | % | 4,838 | | 1,078 | | 348.7 | % |
+Accounts Receivable | 52,976 | | 37,521 | | 41.2 | % | 52,051 | | 1.8 | % | 52,976 | | 37,521 | | 41.2 | % |
+Receivables from Related Parties | 7 | | 4 | | 69.8 | % | 6 | | 30.1 | % | 7 | | 4 | | 69.8 | % |
+Derivative Financial Instruments | 18 | | 0 | | n.a. | 21 | | n.a. | 18 | | 0 | | n.a. |
+Inventories | 30 | | 26 | | 13.5 | % | 30 | | -1.6 | % | 30 | | 26 | | 13.5 | % |
+Taxes Receivable | 594 | | 379 | | 56.7 | % | 466 | | 27.5 | % | 594 | | 379 | | 56.7 | % |
+Other Receivables | 196 | | 181 | | 8.3 | % | 191 | | 2.4 | % | 196 | | 181 | | 8.3 | % |
+Non-current Assets | 7,840 | | 6,162 | | 27.2 | % | 7,495 | | 4.6 | % | 7,840 | | 6,162 | | 27.2 | % |
+Accounts Receivable | 2,012 | | 1,000 | | 101.1 | % | 1,700 | | 18.4 | % | 2,012 | | 1,000 | | 101.1 | % |
+Receivables from related parties | 24 | | 28 | | -12.8 | % | 26 | | -6.9 | % | 24 | | 28 | | -12.8 | % |
+Judicial Deposits | 70 | | 50 | | 40.1 | % | 61 | | 13.3 | % | 70 | | 50 | | 40.1 | % |
+Tax Receivable | 123 | | 0 | | n.a. | 201 | | n.a. | 123 | | 0 | | n.a. |
+Deferred Income Tax | 87 | | 102 | | -14.4 | % | 104 | | -16.7 | % | 87 | | 102 | | -14.4 | % |
+Other receivables | 81 | | 21 | | 289.8 | % | 77 | | 5.0 | % | 81 | | 21 | | 289.8 | % |
+Property and Equipment | 2,616 | | 2,478 | | 5.6 | % | 2,594 | | 0.9 | % | 2,616 | | 2,478 | | 5.6 | % |
+Intangible Assets | 2,827 | | 2,484 | | 13.8 | % | 2,732 | | 3.5 | % | 2,827 | | 2,484 | | 13.8 | % |
+Total Liabilities and Equity | 67,219 | | 47,327 | | 42.0 | % | 66,478 | | 1.1 | % | 67,219 | | 47,327 | | 42.0 | % |
+Current Liabilities | 39,167 | | 28,665 | | 36.6 | % | 39,856 | | -1.7 | % | 39,167 | | 28,665 | | 36.6 | % |
+Payables to Third Parties | 10,820 | | 9,052 | | 19.5 | % | 10,949 | | -1.2 | % | 10,820 | | 9,052 | | 19.5 | % |
+Checking Accounts | 10,512 | | 9,655 | | 8.9 | % | 11,509 | | -8.7 | % | 10,512 | | 9,655 | | 8.9 | % |
+Banking Issuances | 13,296 | | 8,577 | | 55.0 | % | 13,305 | | -0.1 | % | 13,296 | | 8,577 | | 55.0 | % |
+Borrowings | 2,971 | | 193 | | 1441.3 | % | 2,458 | | 20.9 | % | 2,971 | | 193 | | 1441.3 | % |
+Derivative Financial Instruments | 16 | | 28 | | -41.5 | % | 8 | | 108.4 | % | 16 | | 28 | | -41.5 | % |
+Trade Payables | 606 | | 439 | | 38.0 | % | 639 | | -5.1 | % | 606 | | 439 | | 38.0 | % |
+Payables to Related Parties | 85 | | 78 | | 8.6 | % | 119 | | -28.4 | % | 85 | | 78 | | 8.6 | % |
+Salaries and Social Security Charges | 393 | | 334 | | 17.7 | % | 312 | | 25.9 | % | 393 | | 334 | | 17.7 | % |
+Taxes and Contributions | 238 | | 83 | | 186.6 | % | 344 | | -30.8 | % | 238 | | 83 | | 186.6 | % |
+Provision for Contingencies | 41 | | 70 | | -42.0 | % | 44 | | -7.7 | % | 41 | | 70 | | -42.0 | % |
+Deferred Revenue | 134 | | 126 | | 6.2 | % | 135 | | -0.8 | % | 134 | | 126 | | 6.2 | % |
+Other Liabilities | 55 | | 30 | | 82.7 | % | 36 | | 52.0 | % | 55 | | 30 | | 82.7 | % |
+Non-current Liabilities | 13,609 | | 5,793 | | 134.9 | % | 12,304 | | 10.6 | % | 13,609 | | 5,793 | | 134.9 | % |
+Payables to Third Parties | 67 | | 159 | | -58.2 | % | 53 | | 25.5 | % | 67 | | 159 | | -58.2 | % |
+Banking Issuances | 10,393 | | 3,337 | | 211.5 | % | 9,429 | | 10.2 | % | 10,393 | | 3,337 | | 211.5 | % |
+Payables to related parties | 969 | | 284 | | 241.1 | % | 653 | | 48.4 | % | 969 | | 284 | | 241.1 | % |
+Deferred Income Tax and Social Contribution | 1,871 | | 1,755 | | 6.6 | % | 1,849 | | 1.2 | % | 1,871 | | 1,755 | | 6.6 | % |
+Provision for Contingencies | 58 | | 6 | | 815.0 | % | 71 | | n.a. | 58 | | 6 | | 815.0 | % |
+Deferred Revenue | 20 | | 18 | | 8.0 | % | 21 | | -6.3 | % | 20 | | 18 | | 8.0 | % |
+Other Liabilities | 232 | | 233 | | -0.3 | % | 229 | | 1.6 | % | 232 | | 233 | | -0.3 | % |
+Equity | 14,443 | | 12,868 | | 12.2 | % | 14,318 | | 0.9 | % | 14,443 | | 12,868 | | 12.2 | % |
+Share Capital | 0 | | 0 | | 0.0 | % | 0 | | 0.0 | % | 0 | | 0 | | 0.0 | % |
+Treasury Shares | (1,011) | | (610) | | 65.8 | % | (583) | | 73.3 | % | (1,011) | | (610) | | 65.8 | % |
+Capital Reserve | 6,091 | | 6,097 | | -0.1 | % | 6,047 | | 0.7 | % | 6,091 | | 6,097 | | -0.1 | % |
+Retained earnings | 9,408 | | 7,403 | | 27.1 | % | 8,877 | | 6.0 | % | 9,408 | | 7,403 | | 27.1 | % |
+Equity Valuation Adjustments | (22) | | (22) | | 0.0 | % | (22) | | 0.0 | % | (22) | | (22) | | 0.0 | % |
+Other Comprehensive Income | (23) | | (0 | ) | n.a. | (0 | ) | 6255.7 | % | (23) | | (0 | ) | n.a. |
+
+16
+
+| | |
+
+|
+
+Cash Flow (GAAP)
+| | | | | | | | | | | | | | | | | | | | | | | | | | |
+GAAP | R$ million | Q3 2024 | Q3 2023 | Δ% y/y | Q2 2024 | Δ% q/q | 9M 2024 | 9M 2023 | Δ% y/y |
+Earnings before Income Tax | 594 | | 512 | | 15.9 | % | 578 | | 2.7 | % | 1,744 | | 1,433 | | 21.6 | % |
+Expenses (Revenues) not affecting Cash | 614 | | 826 | | -25.7 | % | 988 | | -37.9 | % | 2,474 | | 2,134 | | 15.9 | % |
+Depreciation and Amortization | 413 | | 346 | | 19.2 | % | 391 | | 5.6 | % | 1,176 | | 989 | | 18.8 | % |
+Total losses | 120 | | 165 | | -27.6 | % | 113 | | 5.9 | % | 335 | | 413 | | -18.9 | % |
+Accrual of Provision for Contingencies | (10) | | 10 | | n.a. | 18 | | -156.1 | % | 22 | | 23 | | -6.0 | % |
+Share based Long Term Incentive Plan (LTIP) | 44 | | 36 | | 22.3 | % | 44 | | -0.1 | % | 135 | | 109 | | 23.7 | % |
+Loss on Disposal of Property, Equipment, Intangible and Investment Assets | 39 | | 78 | | -49.4 | % | 52 | | -23.9 | % | 136 | | 208 | | -34.5 | % |
+Derivative financial instruments, net | 14 | | 8 | | 71.5 | % | (9) | | -253.7 | % | (1) | | (2) | | -61.7 | % |
+Interest Accrued | (7) | | 184 | | n.a. | 378 | | -101.9 | % | 668 | | 393 | | 69.9 | % |
+Other Financial Cost, Net | 0 | | (2) | | n.a. | 2 | | -80.9 | % | 2 | | (1) | | -500.6 | % |
+Changes in Operating Assets/Liabilities | (2,560) | | (1,037) | | 146.9 | % | (6,225) | | -58.9 | % | (8,333) | | (3,404) | | 144.8 | % |
+Accounts Receivable | (2,530) | | (5,386) | | n.a. | (10,668) | | -76.3 | % | (15,646) | | (4,944) | | n.a. |
+Financial Investments (Mandatory Guarantee) | (475) | | 16 | | n.a. | (1,037) | | n.a. | (1,418) | | 229 | | -718.1 | % |
+Inventories | 0 | | 7 | | -92.9 | % | (3) | | -117.3 | % | 4 | | (13) | | -131.4 | % |
+Taxes Recoverable | (8) | | 59 | | n.a. | (51) | | n.a. | (56) | | 106 | | -153.3 | % |
+Other Receivables | (16) | | (23) | | n.a. | (66) | | -76.1 | % | (86) | | (8) | | 961.3 | % |
+Deferred Revenue | (2) | | 1 | | n.a. | 5 | | -148.1 | % | 7 | | 0 | | n.a. |
+Other Liabilities | 20 | | (5) | | n.a. | (9) | | -314.2 | % | 19 | | 3 | | 608.1 | % |
+Payables to Third Parties | (117) | | 710 | | n.a. | 944 | | n.a. | 739 | | 23 | | n.a. |
+Checking Accounts | (778) | | 1,372 | | n.a. | 464 | | -267.5 | % | (1,013) | | 745 | | -236.0 | % |
+Trade Payables | (33) | | (27) | | 23.5 | % | 112 | | -129.4 | % | 92 | | (12) | | -854.5 | % |
+Receivables from (Payables to) Related Parties | 257 | | 110 | | 133.8 | % | 367 | | -30.1 | % | 534 | | (297) | | -279.8 | % |
+Banking issuances | 1,084 | | 2,075 | | -47.7 | % | 3,691 | | -70.6 | % | 8,526 | | 760 | | n.a. |
+Salaries and Social Charges | 81 | | 56 | | 43.6 | % | 80 | | 1.7 | % | 48 | | 40 | | 18.9 | % |
+Taxes and Contributions | (38) | | 0 | | n.a. | (42) | | -9.7 | % | (56) | | (24) | | 133.0 | % |
+Provision for Contingencies | (6) | | (2) | | 224.1 | % | (12) | | -52.5 | % | (26) | | (11) | | 130.8 | % |
+Income Tax and Social Contribution paid | (90) | | (19) | | 362.0 | % | (24) | | 275.9 | % | (129) | | (79) | | 63.8 | % |
+Interest Income received (paid) | 754 | | 690 | | 9.1 | % | 128 | | 489.6 | % | 1,429 | | 1,751 | | -18.4 | % |
+Net Cash Provided by Operating Activities | (689) | | 972 | | n.a. | (4,555) | | -84.9 | % | (2,815) | | 1,835 | | -253.4 | % |
+Purchases of Property and Equipment | (276) | | (266) | | 3.7 | % | (345) | | -19.9 | % | (916) | | (692) | | 32.3 | % |
+Purchases and Development of Intangible Assets | (309) | | (262) | | 17.9 | % | (292) | | 6.0 | % | (864) | | (775) | | 11.5 | % |
+Acquisition of Financial Investments | 612 | | 56 | | 988.3 | % | 706 | | -13.3 | % | 233 | | (120) | | -293.9 | % |
+Net Cash Used in Investing Activities | 27 | | (504) | | n.a. | 69 | | -61.6 | % | (1,548) | | (1,618) | | -4.4 | % |
+Borrowings | 3,000 | | 0 | | n.a. | 1,500 | | 100.0 | % | 5,398 | | 300 | | n.a. |
+Payment of Borrowings | (2,500) | | (100) | | 2399.9 | % | (1) | | n.a. | (2,690) | | (100) | | -98.9 | % |
+Payment of Borrowings interest | (56) | | (10) | | 484.3 | % | 0 | | n.a | (62) | | (10) | | -100.0 | % |
+Acquisition of Treasury Shares | (428) | | (105) | | 306.8 | % | 0 | | n.a | (428) | | (249) | | 71.9 | % |
+Payment of Leases | (5) | | (4) | | 22.3 | % | (5) | | -6.5 | % | (14) | | (13) | | 9.5 | % |
+Capital Increase | 0 | | 0 | | n.a. | 0 | | n.a | 0 | | 0 | | n.a |
+Payment of Derivative financial instruments, net | (3) | | 0 | | n.a. | 0 | | n.a | (20) | | 0 | | n.a |
+Net Cash Provided by Financing Activities | 8 | | (218) | | n.a. | 1,494 | | -99.5 | % | 2,184 | | (71) | | -3174.6 | % |
+Increase (Decrease) in Cash and Cash Equivalents | (654) | | 251 | | n.a. | (2,992) | | -78.1 | % | (2,179) | | 146 | | -1597.3 | % |
+Cash and Cash Equivalents at the Beginning of the Period | 2,899 | | 1,829 | | 58.5 | % | 4,366 | | -33.6 | % | 2,899 | | 1,829 | | 58.5 | % |
+Cash and Cash Equivalents at the End of the Period | 720 | | 1,975 | | -63.5 | % | 1,374 | | -47.6 | % | 720 | | 1,975 | | -63.5 | % |
+
+17
+
+| | |
+
+|
+
+Non-GAAP Disclosure
+This earnings release includes certain non-GAAP measures. We present non-GAAP measures when we believe that the additional information is useful and meaningful to investors. These non-GAAP measures are provided to enhance investors' overall understanding of our current financial performance and its prospects for the future. Specifically, we believe the non-GAAP measures provide useful information to both management and investors by excluding certain expenses, gains and losses, as the case may be, that may not be indicative of our core operating results and business outlook.
+These measures may be different from non-GAAP financial measures used by other companies. The presentation of this non-GAAP financial information, which is not prepared under any comprehensive set of accounting rules or principles, is not intended to be considered separately from, or as a substitute for, our financial information prepared and presented in accordance with IFRS as issued by the IASB. Non-GAAP measures have limitations in that they do not reflect all the amounts associated with our results of operations as determined in accordance with IFRS. These measures should only be used to evaluate our results of operations in conjunction with the corresponding GAAP measures.
+Non-GAAP results consist of our GAAP results as adjusted to exclude the following items:
+LTIP Expenses: This consists of expenses for equity awards under our two long-term incentive plans (LTIP and LTIP-Goals). We exclude LTIP expenses from our non-GAAP measures primarily because they are non-cash expenses and the related employer payroll taxes depend on our stock price and the timing and size of exercises and vesting of equity awards, over which management has limited to no control, and as such management does not believe these expenses correlate to the operation of our business.
+Amortization of Fair Value Adjustments: Amortization and write-downs of the fair value of certain acquired assets. We exclude these expenses from our non-GAAP measures primarily because such expenses are non-recurring and do not correlate to the operation of our business.
+Amortization of Capitalized Platforms Development Expenses: Amortization and write-downs of the capitalized expenses related to technology development projects. We exclude these expenses from our non-GAAP measures primarily because such expenses are non-recurring and do not correlate to the operation of our business (together with Amortization of Fair Value Adjustments, the Non-Recurring Amortization Expenses).
+Income Tax and Social Contribution on LTIP Expenses and Non-Recurring Adjustments: This represents the income tax effect related to the LTIP expenses, M&A expenses and non-recurring adjustments including amortization of fair value adjustments and amortization of capitalized platforms development.
+For a reconciliation of these non-GAAP financial measures to the most directly comparable GAAP measures, see the tables included elsewhere in this earnings release.
+18
+
+| | |
+
+|
+
+Earnings Call
+PagSeguro Digital Ltd. (NYSE: PAGS) will host a conference call and earnings webcast on November 13, 2024 , at 5:00 pm ET .
+
+Event Details
+Webcast: https://mzgroup.zoom.us/webinar/register/WN_rNoiFwz-Q3umGw5JqjJkfw#/registration
+
+Contacts:
+| | | | | | | | |
+Investor Relations: | | Media Press: |
+ir@pagbank.com | | pagbank@xcom.net.br |
+investors.pagbank.com | | |
+
+Forward-Looking Statements
+This earnings release includes “forward-looking statements” within the meaning of the U.S. federal securities laws. Statements contained herein that are not clearly historical in nature are forward-looking, and the words “anticipate,” “believe,” “continues,” “expect,” “estimate,” “intend,” “project” and similar expressions and future or conditional verbs such as “will,” “would,” “should,” “could,” “might,” “can,” “may,” or similar expressions are generally intended to identify forward-looking statements. We cannot guarantee that such statements will prove correct. These forward-looking statements speak only as of the date hereof and are based on our current plans, estimates of future events, expectations and trends (including trends related to the global and Brazilian economies and capital markets, as well as the continuing economic, financial, political and public health effects of the coronavirus, or the COVID-19, pandemic.) that affect or may affect our business, financial condition, results of operations, cash flow, liquidity, prospects and the trading price of our Class A common shares, and are subject to several known and unknown uncertainties and risks, many of which are beyond our control. As consequence, current plans, anticipated actions and future financial position and results of operations may differ significantly from those expressed in any forward-looking statements in this earnings release. You are cautioned not to unduly rely on such forward-looking statements when evaluating the information presented. In light of the risks and uncertainties described above, the future events and circumstances discussed in this earnings release might not occur and are not guarantees of future performance. Because of these uncertainties, you should not make any investment decision based upon these estimates and forward-looking statements. To obtain further information on factors that may lead to results different from those forecast by us, please consult the reports we file with the U.S. Securities and Exchange Commission (SEC) and in particular the factors discussed under “Forward-Looking Statements” and “Risk Factors” in our annual report on Form 20-F.
+
+19
+
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+Date: November 13, 2024
+| | | | | | | | |
+| PagSeguro Digital Ltd. |
+| |
+| By: | /s/ Artur Schunck |
+| Name: | Artur Schunck |
+| Title: | Chief Financial Officer,
+Chief Accounting Officer and
+Investor Relations Officer |

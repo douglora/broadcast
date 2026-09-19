@@ -1,0 +1,8820 @@
+EX-99.1
+2
+dp226425_ex9901.htm
+EXHIBIT 99.1
+
+Exhibit 99.1
+
+Consolidated Financial Statements
+
+December 31, 2024 and 2023 and the three
+years ended December 31, 2024, 2023 and 2022
+
+with report of Independent Registered Public Accounting Firm
+
+1
+
+| |
+
+Index to Consolidated Financial
+Statements
+
+Audited Annual Consolidated Financial Statements |
+Page |
+
+Report of Independent Registered Public Accounting Firm |
+3 |
+
+Consolidated Statement of Financial Position as of December 31, 2024 and 2023 |
+5 |
+
+Consolidated Statement of Profit or
+Loss for the years ended December 31, 2024, 2023 and 2022 |
+7 |
+
+Consolidated Statement of Other
+Comprehensive Income (loss) for the years ended December 31, 2024, 2023 and 2022 |
+8 |
+
+Consolidated Statement of Changes in
+Equity for the years ended December 31, 2024, 2023 and 2022 |
+9 |
+
+Consolidated Statement of Cash Flows
+for the years ended December 31, 2024, 2023 and 2022 |
+10 |
+
+Notes to Consolidated Financial Statements |
+12 |
+
+|
+|
+
+|
+|
+
+Auditor Data Elements |
+
+Years ended
+
+December 31, 2024,
+December 31, 2023, and December 31, 2022.
+
+|
+
+Auditor Name |
+Ernst & Young Auditores Independentes S/S Ltda. |
+
+Auditor Location |
+São Paulo, Brazil |
+
+Auditor Firm ID |
+1448 |
+
+2
+
+| |
+
+Report of Independent Registered
+Public Accounting Firm
+
+To the Shareholders and
+the Board of Directors of
+
+StoneCo Ltd.
+
+Opinion on the Financial
+Statements
+
+We
+have audited the accompanying consolidated statement of financial position of StoneCo Ltd. (the “Company”) as of December
+31, 2024 and 2023, the related consolidated statements of profit or loss, other comprehensive income (loss), changes in equity and cash
+flows for each of the three years in the period ended December 31, 2024, and the related notes (collectively referred to as the “consolidated
+financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial
+position of the Company at December 31, 2024 and 2023, and the results of its operations and its cash flows for each of the three years
+in the period ended December 31, 2024, in conformity with IFRS Accounting Standards as issued by the International Accounting Standards
+Board.
+
+Basis for Opinion
+
+These financial statements are the responsibility of the Company’s management. Our responsibility is to express an opinion on the
+Company’s financial statements based on our audits. We are a public accounting firm registered with the PCAOB and are required to
+be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations
+of the Securities and Exchange Commission and the PCAOB.
+
+We
+conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain
+reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits
+included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud,
+and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts
+and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates
+made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable
+basis for our opinion.
+
+Critical Audit Matter
+
+The critical audit matter communicated below is a matter arising from the current period audit of the financial statements that was communicated
+or required to be communicated to the audit committee and that: (1) relates to accounts or disclosures that are material to the financial
+statements and (2) involved our especially challenging, subjective, or complex judgments. The communication of the critical
+audit matter does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating
+the critical audit matter below, providing a separate opinion on the critical audit matter or on the account or disclosure to which it
+relates.
+
+Impairment of Goodwill
+- Software cash generating unit
+
+Description of the
+Matter
+
+As discussed in note 11.4 to the consolidated financial statements, the Company recorded an impairment loss on goodwill related to the
+Software cash generating unit. Goodwill is tested for impairment annually and when events or changes in circumstances indicate that the
+carrying value of a reporting unit exceeds its value in use. If the carrying value of the reporting unit exceeds its value in use, an
+impairment loss is recognized in an amount equal to that excess, limited to the total amount of goodwill allocated to that reporting
+unit. Management concluded that, the value in use of the Software cash generating unit was lower than its carrying amount resulting in
+an impairment loss of R$ 3,558,049 thousand.
+
+3
+
+| |
+
+Auditing
+the Company’s Software cash generating unit impairment test was complex and subjective due to the estimation required in determining
+the value in use of the Software cash generating unit utilizing a discounted cash flows model. The discounted cash flow model uses certain
+key assumptions in determining the value in use of a cash generating unit, including the pre-tax discount rate, the free cash flow to
+equity, the average annual growth rate and the perpetuity growth rate. The average annual growth rate was particularly sensitive to the
+impairment test calculation.
+
+How We Addressed
+the matter in Our Audit
+
+We
+obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the Company’s goodwill impairment
+testing process for the Software cash generating unit. These procedures included, among others, controls over management’s review
+of the key assumptions used in the discounted cash flow model, including the review of the average annual growth rate, as well as the
+controls over the completeness and accuracy of the data used in the value in use determination.
+
+To
+test management’s estimated value in use of the Software cash generating unit, we performed audit procedures that included, among
+others, involving our valuation specialists to assist in the assessment of the valuation methodology used by the Company, as well as
+to support the evaluation and testing of the key assumptions, including the average annual growth rate, the free cash flow to equity,
+perpetuity growth rate, pre-tax discount rate, and to support the testing of the completeness and accuracy of the underlying data used
+by the Company in its goodwill impairment test. With the support of valuation specialists, we also evaluated management’s assumptions
+to determine the average annual growth rate by comparing the current and past performance of the Software cash generating unit and the
+consistency with external market and industry (peer) data.
+
+We also assessed the adequacy of the Company’s related disclosures in note 11.4 to the consolidated financial statements with respect
+to the Software cash generating unit impairment test of goodwill.
+
+/s/
+Ernst & Young Auditores Independentes S/S Ltda.
+
+We have served as the
+Company’s auditor since 2016.
+
+São Paulo, Brazil
+
+March 17, 2025
+
+4
+
+Consolidated
+Statement of Financial Position as of December 31, 2024 and 2023
+
+|
+
+Consolidated
+Statement of Financial Position
+
+As of December 31, 2024 and 2023
+
+(In thousands of Brazilian Reais)
+|
+|
+|
+|
+
+|
+Notes |
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+Assets |
+|
+|
+|
+|
+|
+
+Current assets |
+|
+|
+|
+|
+|
+
+Cash and cash equivalents |
+5.2 |
+|
+5,227,654 |
+|
+2,176,416 |
+
+Short-term investments |
+6.3 |
+|
+517,874 |
+|
+3,481,496 |
+
+Financial assets from banking solutions |
+6.7 |
+|
+8,805,882 |
+|
+6,397,898 |
+
+Accounts receivable from card issuers |
+6.4.1 |
+|
+29,231,820 |
+|
+23,895,512 |
+
+Trade accounts receivable |
+6.5.1 |
+|
+390,575 |
+|
+459,947 |
+
+Credit portfolio |
+6.6 |
+|
+891,718 |
+|
+209,957 |
+
+Recoverable taxes |
+8 |
+|
+372,432 |
+|
+146,339 |
+
+Derivative financial instruments |
+6.9 |
+|
+156,814 |
+|
+4,182 |
+
+Other assets |
+7 |
+|
+370,255 |
+|
+380,854 |
+
+|
+|
+|
+45,965,024 |
+|
+37,152,601 |
+
+Non-current assets |
+|
+|
+|
+|
+|
+
+Long-term investments |
+6.3 |
+|
+32,629 |
+|
+45,702 |
+
+Accounts receivable from card issuers |
+6.4.1 |
+|
+116,245 |
+|
+81,597 |
+
+Trade accounts receivable |
+6.5.1 |
+|
+25,528 |
+|
+28,533 |
+
+Credit portfolio |
+6.6 |
+|
+171,401 |
+|
+40,790 |
+
+Receivables from related parties |
+13.1 |
+|
+613 |
+|
+2,512 |
+
+Deferred tax assets |
+9.4 |
+|
+871,640 |
+|
+664,492 |
+
+Derivative financial instruments |
+6.9 |
+|
+103,374 |
+|
+— |
+
+Other assets |
+7 |
+|
+159,159 |
+|
+137,508 |
+
+Investment in associates |
+|
+|
+75,751 |
+|
+83,010 |
+
+Property and equipment |
+10.3 |
+|
+1,833,997 |
+|
+1,661,897 |
+
+Intangible assets |
+11.3 |
+|
+5,458,102 |
+|
+8,794,919 |
+
+|
+|
+|
+8,848,439 |
+|
+11,540,960 |
+
+|
+|
+|
+|
+|
+|
+
+Total assets |
+|
+|
+54,813,463 |
+|
+48,693,561 |
+
+|
+|
+|
+|
+|
+|
+
+Liabilities and equity |
+|
+|
+|
+|
+|
+
+Current liabilities |
+|
+|
+|
+|
+|
+
+Retail deposits |
+6.8.1 |
+|
+8,704,809 |
+|
+6,119,455 |
+
+Accounts payable to clients |
+6.1.2.3.2 |
+|
+17,756,720 |
+|
+19,163,672 |
+
+Trade accounts payable |
+|
+|
+672,184 |
+|
+513,877 |
+
+Institutional deposits and marketable debt securities |
+6.8.2 |
+|
+3,065,999 |
+|
+475,319 |
+
+Other debt instruments |
+6.8.3 |
+|
+1,903,840 |
+|
+1,404,678 |
+
+Labor and social security liabilities |
+20.5 |
+|
+578,345 |
+|
+515,749 |
+
+Taxes payable |
+12 |
+|
+560,250 |
+|
+514,299 |
+
+Derivative financial instruments |
+6.9 |
+|
+10,593 |
+|
+4,558 |
+
+Other liabilities |
+|
+|
+281,073 |
+|
+119,526 |
+
+|
+|
+|
+33,533,813 |
+|
+28,831,133 |
+
+Non-current liabilities |
+|
+|
+|
+|
+|
+
+Accounts payable to clients |
+6.1.2.3.2 |
+|
+50,674 |
+|
+35,455 |
+
+Institutional deposits and marketable debt securities |
+6.8.2 |
+|
+5,429,963 |
+|
+3,495,759 |
+
+Other debt instruments |
+6.8.3 |
+|
+2,496,139 |
+|
+143,456 |
+
+Derivative financial instruments |
+6.9 |
+|
+281,177 |
+|
+311,613 |
+
+Deferred tax liabilities |
+9.4 |
+|
+680,672 |
+|
+546,514 |
+
+Provision for contingencies |
+14.3 |
+|
+237,406 |
+|
+208,866 |
+
+Labor and social security liabilities |
+20.5 |
+|
+39,515 |
+|
+34,301 |
+
+Other liabilities |
+|
+|
+236,822 |
+|
+410,504 |
+
+|
+|
+|
+9,452,368 |
+|
+5,186,468 |
+
+Total liabilities |
+|
+|
+42,986,181 |
+|
+34,017,601 |
+|
+
+The accompanying notes are an integral part of these consolidated
+financial statements.
+
+F- 5
+
+|
+
+Consolidated
+Statement of Financial Position
+
+As of December 31, 2024 and 2023
+
+(In thousands of Brazilian Reais)
+|
+|
+|
+|
+
+|
+Notes |
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+|
+
+Equity |
+15 |
+|
+|
+|
+|
+|
+
+Issued capital |
+15.1 |
+|
+76 |
+|
+76 |
+|
+
+Capital reserve |
+15.2 |
+|
+14,215,212 |
+|
+14,056,484 |
+|
+
+Treasury shares |
+15.3 |
+|
+(1,805,896 |
+) |
+(282,709 |
+) |
+
+Other comprehensive income |
+15.5 |
+|
+(287,048 |
+) |
+(320,449 |
+) |
+
+Retained earnings (accumulated losses) |
+|
+|
+(346,360 |
+) |
+1,168,862 |
+|
+
+Equity attributable to controlling shareholders |
+|
+|
+11,775,984 |
+|
+14,622,264 |
+|
+
+Non-controlling interests |
+|
+|
+51,298 |
+|
+53,696 |
+|
+
+Total equity |
+|
+|
+11,827,282 |
+|
+14,675,960 |
+|
+
+|
+|
+|
+|
+|
+|
+|
+
+Total liabilities and equity |
+|
+|
+54,813,463 |
+|
+48,693,561 |
+|
+
+|
+|
+|
+|
+|
+(concluded) |
+|
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+F- 6
+
+Consolidated
+Statement as of Profit or Loss for the years ended as of December 31, 2024, 2023 and 2022
+
+|
+
+Consolidated
+Statement of Profit or Loss
+
+For the years ended December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+| |
+Notes | |
+2024 | |
+2023 | |
+2022 |
+
+| |
+| |
+| |
+| |
+|
+
+Net revenue from transaction activities and other services | |
+| 17.3 | | |
+| 3,216,018 | | |
+| 3,309,765 | | |
+| 2,617,407 | |
+
+Net revenue from subscription services and equipment rental | |
+| 17.3 | | |
+| 1,846,931 | | |
+| 1,824,956 | | |
+| 1,760,915 | |
+
+Financial income | |
+| 17.3 | | |
+| 7,676,204 | | |
+| 6,229,303 | | |
+| 4,638,022 | |
+
+Other financial income | |
+| 17.3 | | |
+| 518,301 | | |
+| 690,979 | | |
+| 572,601 | |
+
+Total revenue and income | |
+| | | |
+| 13,257,454 | | |
+| 12,055,003 | | |
+| 9,588,945 | |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Cost of services | |
+| 18 | | |
+| (3,389,127 | ) | |
+| (2,982,758 | ) | |
+| (2,669,752 | ) |
+
+Administrative expenses | |
+| 18 | | |
+| (1,130,499 | ) | |
+| (1,188,869 | ) | |
+| (1,121,357 | ) |
+
+Selling expenses | |
+| 18 | | |
+| (2,105,475 | ) | |
+| (1,698,275 | ) | |
+| (1,511,241 | ) |
+
+Financial expenses, net | |
+| 19 | | |
+| (3,693,606 | ) | |
+| (3,999,465 | ) | |
+| (3,514,739 | ) |
+
+Mark-to-market on equity securities designated at FVPL | |
+| | | |
+| — | | |
+| 30,574 | | |
+| (853,056 | ) |
+
+Software business goodwill impairment loss | |
+| 11.4 | | |
+| (3,558,049 | ) | |
+| — | | |
+| — | |
+
+Other income (expenses), net | |
+| 18 | | |
+| (398,726 | ) | |
+| (241,213 | ) | |
+| (302,501 | ) |
+
+Total expenses | |
+| | | |
+| (14,275,482 | ) | |
+| (10,080,006 | ) | |
+| (9,972,646 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Gain (loss) on investment in associates | |
+| | | |
+| 399 | | |
+| (4,179 | ) | |
+| (3,589 | ) |
+
+Profit (loss) before income taxes | |
+| | | |
+| (1,017,629 | ) | |
+| 1,970,818 | | |
+| (387,290 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Current income tax and social contribution | |
+| 9.3 | | |
+| (527,919 | ) | |
+| (345,813 | ) | |
+| (292,172 | ) |
+
+Deferred income tax and social contribution | |
+| 9.3 | | |
+| 38,498 | | |
+| (24,585 | ) | |
+| 153,066 | |
+
+Net income (loss) for the year | |
+| | | |
+| (1,507,050 | ) | |
+| 1,600,420 | | |
+| (526,396 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Net income (loss) attributable to: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Controlling shareholders | |
+| | | |
+| (1,515,222 | ) | |
+| 1,592,065 | | |
+| (519,417 | ) |
+
+Non-controlling interests | |
+| | | |
+| 8,172 | | |
+| 8,355 | | |
+| (6,979 | ) |
+
+| |
+| | | |
+| (1,507,050 | ) | |
+| 1,600,420 | | |
+| (526,396 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Earnings (loss) per share | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Basic earnings (loss) per share for the year attributable to controlling shareholders (in Brazilian Reais) | |
+| 16 | | |
+| (5.02 | ) | |
+| 5.09 | | |
+| (1.67 | ) |
+
+Diluted earnings (loss) per share for the year attributable to controlling shareholders (in Brazilian Reais) | |
+| 16 | | |
+| (5.02 | ) | |
+| 4.74 | | |
+| (1.67 | ) |
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+F- 7
+
+Consolidated Statement as of Other Comprehensive Income
+(loss) for the years ended as of December 31, 2024, 2023 and 2022
+
+|
+
+Consolidated
+Statement of Other Comprehensive Income (Loss)
+
+For the years ended December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais)
+|
+|
+|
+|
+
+| |
+Notes | |
+2024 | |
+2023 | |
+2022 |
+
+| |
+| |
+| |
+| |
+|
+
+Net income (loss) for the year | |
+| | | |
+| (1,507,050 | ) | |
+| 1,600,420 | | |
+| (526,396 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Other comprehensive income (“OCI”) | |
+| | | |
+| | | |
+| | | |
+| | |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Other comprehensive income (loss) that may be reclassified to profit or loss in subsequent periods: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Changes in the fair value of accounts receivable from card issuers | |
+| 22.1.1 | | |
+| (117,097 | ) | |
+| 98,283 | | |
+| (253,181 | ) |
+
+Tax on changes in the fair value of accounts receivable from card issuers at fair value | |
+| | | |
+| 39,873 | | |
+| (33,414 | ) | |
+| 86,081 | |
+
+Exchange differences on translation of foreign operations | |
+| | | |
+| 1,749 | | |
+| (24,073 | ) | |
+| (30,544 | ) |
+
+Changes in the fair value of cash flow hedge | |
+| | | |
+| 71,657 | | |
+| 64,146 | | |
+| (207,222 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Other comprehensive income (loss) that will not be reclassified to profit or loss in subsequent periods: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Net monetary position in hyperinflationary economies | |
+| | | |
+| (657 | ) | |
+| 4,316 | | |
+| 5,384 | |
+
+Gain on sale of equity instruments designated at fair value through other comprehensive income | |
+| 6.3(b) | | |
+| 35,647 | | |
+| — | | |
+| — | |
+
+Changes in the fair value of equity instruments designated at fair value | |
+| 6.3 (b) / 22.1.1 | | |
+| 1,623 | | |
+| 1,912 | | |
+| (6,971 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Other comprehensive income (loss) that were reclassified to profit or loss in subsequent periods: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Accumulated exchange differences on disposal of foreign operation | |
+| | | |
+| — | | |
+| 257 | | |
+| 5,383 | |
+
+Other comprehensive income (loss) for the year, net of tax | |
+| | | |
+| 32,795 | | |
+| 111,427 | | |
+| (401,070 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Total comprehensive income (loss) for the year, net of tax | |
+| | | |
+| (1,474,255 | ) | |
+| 1,711,847 | | |
+| (927,466 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Total comprehensive income (loss) attributable to: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Controlling shareholders | |
+| | | |
+| (1,481,821 | ) | |
+| 1,704,317 | | |
+| (916,326 | ) |
+
+Non-controlling interests | |
+| | | |
+| 7,566 | | |
+| 7,530 | | |
+| (11,140 | ) |
+
+Total comprehensive income (loss) for the year, net of tax | |
+| | | |
+| (1,474,255 | ) | |
+| 1,711,847 | | |
+| (927,466 | ) |
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+F- 8
+
+Consolidated Statement of Changes in Equity for the years
+ended as of December 31, 2024, 2023 and 2022
+
+tement as of Other Comprehensive Income
+(loss) for the years ended as of December 31, 2024, 2023 and 2022
+
+|
+
+Consolidated
+Statement of Changes in Equity
+
+For the years ended December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais)
+|
+|
+|
+|
+
+|
+|
+|
+Attributable
+to controlling shareholders |
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+Capital
+reserve |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|
+Notes |
+|
+Issued
+capital |
+|
+Additional
+paid-in capital |
+|
+Transactions
+among shareholders |
+|
+Special
+reserve |
+|
+Other
+reserves |
+|
+Total |
+|
+Treasury
+shares |
+|
+Other
+comprehensive income |
+|
+Retained
+
+earnings
+
+(accumulate
+
+d
+losses)
+
+|
+|
+Total |
+|
+Non-controlling
+interest |
+|
+Total |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Balance
+as of December 31, 2021 |
+|
+|
+76 |
+|
+13,825,325 |
+|
+299,701 |
+|
+61,127 |
+|
+354,979 |
+|
+14,541,132 |
+|
+(1,065,184) |
+|
+(35,792) |
+|
+96,214 |
+|
+13,536,446 |
+|
+90,774 |
+|
+13,627,220 |
+
+Loss
+for the year |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(519,417) |
+|
+(519,417) |
+|
+(6,979) |
+|
+(526,396) |
+
+Other
+comprehensive income (loss) for the year |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(396,909) |
+|
+— |
+|
+(396,909) |
+|
+(4,161) |
+|
+(401,070) |
+
+Total
+comprehensive income |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(396,909) |
+|
+(519,417) |
+|
+(916,326) |
+|
+(11,140) |
+|
+(927,466) |
+
+Transaction
+costs from subsidiaries |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(60) |
+|
+(60) |
+
+Equity
+transaction related to put options over non-controlling interest |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(78,289) |
+|
+(78,289) |
+|
+— |
+|
+— |
+|
+— |
+|
+(78,289) |
+|
+3,849 |
+|
+(74,440) |
+
+Share-based
+payments |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+189,003 |
+|
+189,003 |
+|
+— |
+|
+— |
+|
+— |
+|
+189,003 |
+|
+47 |
+|
+189,050 |
+
+Shares
+delivered under share-based payment arrangements |
+|
+|
+— |
+|
+— |
+|
+(34,315) |
+|
+— |
+|
+(88,264) |
+|
+(122,579) |
+|
+122,579 |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+
+Treasury
+shares - Delivered on business combination and sold |
+|
+|
+— |
+|
+— |
+|
+(703,656) |
+|
+— |
+|
+— |
+|
+(703,656) |
+|
+873,520 |
+|
+— |
+|
+— |
+|
+169,864 |
+|
+— |
+|
+169,864 |
+
+Equity
+transaction with non-controlling interests |
+|
+|
+— |
+|
+— |
+|
+(6,792) |
+|
+— |
+|
+— |
+|
+(6,792) |
+|
+— |
+|
+— |
+|
+— |
+|
+(6,792) |
+|
+(23,757) |
+|
+(30,549) |
+
+Dividends
+paid |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(3,601) |
+|
+(3,601) |
+
+Others |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+6 |
+|
+6 |
+
+Balance
+as of December 31, 2022 |
+|
+|
+76 |
+|
+13,825,325 |
+|
+(445,062) |
+|
+61,127 |
+|
+377,429 |
+|
+13,818,819 |
+|
+(69,085) |
+|
+(432,701) |
+|
+(423,203) |
+|
+12,893,906 |
+|
+56,118 |
+|
+12,950,024 |
+
+Net
+income for the year |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+1,592,065 |
+|
+1,592,065 |
+|
+8,355 |
+|
+1,600,420 |
+
+Other
+comprehensive income (loss) for the year |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+112,252 |
+|
+— |
+|
+112,252 |
+|
+(825) |
+|
+111,427 |
+
+Total
+comprehensive income |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+112,252 |
+|
+1,592,065 |
+|
+1,704,317 |
+|
+7,530 |
+|
+1,711,847 |
+
+Equity
+transaction related to put options over non-controlling interest |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+89,475 |
+|
+89,475 |
+|
+— |
+|
+— |
+|
+— |
+|
+89,475 |
+|
+(3,904) |
+|
+85,571 |
+
+Repurchase
+of shares |
+15.3 |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(292,745) |
+|
+— |
+|
+— |
+|
+(292,745) |
+|
+— |
+|
+(292,745) |
+
+Share-based
+payments |
+|
+|
+— |
+|
+— |
+|
+(25,851) |
+|
+— |
+|
+226,713 |
+|
+200,862 |
+|
+25,851 |
+|
+— |
+|
+— |
+|
+226,713 |
+|
+(114) |
+|
+226,599 |
+
+Shares
+delivered under share-based payment arrangements |
+|
+|
+— |
+|
+— |
+|
+(47,591) |
+|
+— |
+|
+(4,873) |
+|
+(52,464) |
+|
+53,270 |
+|
+— |
+|
+— |
+|
+806 |
+|
+— |
+|
+806 |
+
+Equity
+transaction with non-controlling interests |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+49 |
+|
+49 |
+
+Dividends
+paid |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(5,983) |
+|
+(5,983) |
+
+Others |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(208) |
+|
+(208) |
+|
+— |
+|
+— |
+|
+— |
+|
+(208) |
+|
+— |
+|
+(208) |
+
+Balance
+as of December 31, 2023 |
+|
+|
+76 |
+|
+13,825,325 |
+|
+(518,504) |
+|
+61,127 |
+|
+688,536 |
+|
+14,056,484 |
+|
+(282,709) |
+|
+(320,449) |
+|
+1,168,862 |
+|
+14,622,264 |
+|
+53,696 |
+|
+14,675,960 |
+
+Loss
+for the year |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(1,515,222) |
+|
+(1,515,222) |
+|
+8,172 |
+|
+(1,507,050) |
+
+Other
+comprehensive income (loss) for the year |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+|
+|
+33,401 |
+|
+— |
+|
+33,401 |
+|
+(606) |
+|
+32,795 |
+
+Total
+comprehensive income |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+33,401 |
+|
+(1,515,222) |
+|
+(1,481,821) |
+|
+7,566 |
+|
+(1,474,255) |
+
+Repurchase
+of shares |
+15.3 |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(1,587,332) |
+|
+— |
+|
+— |
+|
+(1,587,332) |
+|
+— |
+|
+(1,587,332) |
+
+Equity
+transaction related to put options over non-controlling interest |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+26,911 |
+|
+26,911 |
+|
+— |
+|
+— |
+|
+— |
+|
+26,911 |
+|
+1,028 |
+|
+27,939 |
+
+Share-based
+payments |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+194,729 |
+|
+194,729 |
+|
+— |
+|
+— |
+|
+— |
+|
+194,729 |
+|
+— |
+|
+194,729 |
+
+Shares
+delivered under share-based payment arrangements |
+|
+|
+— |
+|
+— |
+|
+(62,912) |
+|
+— |
+|
+— |
+|
+(62,912) |
+|
+64,145 |
+|
+— |
+|
+— |
+|
+1,233 |
+|
+— |
+|
+1,233 |
+
+Dividends
+paid |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(10,454) |
+|
+(10,454) |
+
+Others |
+|
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+(538) |
+|
+(538) |
+
+Balance
+as of December 31, 2024 |
+|
+|
+76 |
+|
+13,825,325 |
+|
+(581,416) |
+|
+61,127 |
+|
+910,176 |
+|
+14,215,212 |
+|
+(1,805,896) |
+|
+(287,048) |
+|
+(346,360) |
+|
+11,775,984 |
+|
+51,298 |
+|
+11,827,282 |
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+F- 9
+
+Consolidated Statement of Cash Flows for the years ended
+as of December 31, 2024, 2023 and 2022
+
+|
+
+Consolidated
+Statement of Cash Flows
+
+For the years ended December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais)
+|
+|
+|
+|
+
+| |
+Notes | |
+2024 | |
+2023 | |
+2022 |
+
+Operating activities | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Net income (loss) for the year | |
+| | | |
+| (1,507,050 | ) | |
+| 1,600,420 | | |
+| (526,396 | ) |
+
+Adjustments to reconcile net income (loss) for the year to net cash flows: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Depreciation and amortization | |
+| 10.4 | | |
+| 949,394 | | |
+| 878,181 | | |
+| 800,326 | |
+
+Deferred income tax and social contribution | |
+| 9.3 | | |
+| (38,498 | ) | |
+| 24,585 | | |
+| (153,066 | ) |
+
+Loss on investment in associates | |
+| | | |
+| (399 | ) | |
+| 4,179 | | |
+| 3,589 | |
+
+Accrued interest, monetary and exchange variations, net | |
+| | | |
+| 174,079 | | |
+| (195,419 | ) | |
+| (382,707 | ) |
+
+Provision for contingencies | |
+| 14.3 | | |
+| 61,226 | | |
+| 5,825 | | |
+| 18,849 | |
+
+Share-based payments expense | |
+| 20.3 | | |
+| 232,672 | | |
+| 251,239 | | |
+| 213,076 | |
+
+Allowance for expected credit losses | |
+| 6.4.2/ 6.5.2/6.6.4 | | |
+| 143,451 | | |
+| 160,195 | | |
+| 88,572 | |
+
+Loss on disposal of property, equipment and intangible assets | |
+| 22.2.5 | | |
+| 29,365 | | |
+| 66,200 | | |
+| 25,347 | |
+
+Software business goodwill impairment loss | |
+| 11.4 | | |
+| 3,558,049 | | |
+| — | | |
+| — | |
+
+Effect of applying hyperinflation accounting | |
+| | | |
+| (184 | ) | |
+| 3,652 | | |
+| 3,852 | |
+
+Loss on sale of subsidiary | |
+| | | |
+| 58,244 | | |
+| 10,926 | | |
+| 20,308 | |
+
+Fair value adjustment in financial instruments at FVPL | |
+| 22.2.1 | | |
+| (441,478 | ) | |
+| 96,563 | | |
+| 1,179,547 | |
+
+Fair value adjustment in derivatives | |
+| | | |
+| 485,977 | | |
+| 20,320 | | |
+| 90,821 | |
+
+Remeasurement of previously held interest on business combination | |
+| 23.3.3.1 | | |
+| (7,406 | ) | |
+| — | | |
+| — | |
+
+Others | |
+| | | |
+| — | | |
+| 1,168 | | |
+| — | |
+
+Working capital adjustments: | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Accounts receivable from card issuers | |
+| | | |
+| (2,981,844 | ) | |
+| 32,304 | | |
+| 740,190 | |
+
+Receivables from related parties | |
+| | | |
+| 27,974 | | |
+| 20,343 | | |
+| 12,912 | |
+
+Recoverable taxes | |
+| | | |
+| (244 | ) | |
+| 138,987 | | |
+| 261,867 | |
+
+Prepaid expenses | |
+| | | |
+| 54,498 | | |
+| 41,310 | | |
+| 152,966 | |
+
+Trade accounts receivable, banking solutions and other assets | |
+| | | |
+| 810,748 | | |
+| 205,105 | | |
+| 707,521 | |
+
+Credit portfolio | |
+| | | |
+| (670,780 | ) | |
+| (312,808 | ) | |
+| — | |
+
+Accounts payable to clients | |
+| | | |
+| (8,507,343 | ) | |
+| (3,382,075 | ) | |
+| (3,633,937 | ) |
+
+Taxes payable | |
+| | | |
+| (6,259 | ) | |
+| 169,827 | | |
+| 137,825 | |
+
+Labor and social security liabilities | |
+| | | |
+| 29,991 | | |
+| 19,284 | | |
+| 171,293 | |
+
+Payment of contingencies | |
+| 14.3 | | |
+| (58,939 | ) | |
+| (34,012 | ) | |
+| (9,799 | ) |
+
+Trade accounts payable and other liabilities | |
+| | | |
+| 361,680 | | |
+| (80,024 | ) | |
+| 323,619 | |
+
+Interest paid | |
+| | | |
+| (782,437 | ) | |
+| (749,366 | ) | |
+| (430,398 | ) |
+
+Interest income received, net of costs | |
+| 22.2.2 | | |
+| 4,578,276 | | |
+| 2,766,933 | | |
+| 2,058,650 | |
+
+Income tax paid | |
+| | | |
+| (174,145 | ) | |
+| (116,134 | ) | |
+| (191,142 | ) |
+
+Net cash provided by (used in) operating activities | |
+| | | |
+| (3,621,382 | ) | |
+| 1,647,708 | | |
+| 1,683,685 | |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Investing activities | |
+| | | |
+| | | |
+| | | |
+| | |
+
+Purchases and construction of property and equipment | |
+| 22.2.3 | | |
+| (764,482 | ) | |
+| (736,244 | ) | |
+| (417,733 | ) |
+
+Purchases and development of intangible assets | |
+| 22.2.4 | | |
+| (507,278 | ) | |
+| (474,053 | ) | |
+| (305,512 | ) |
+
+Acquisition of subsidiary, net of cash acquired | |
+| | | |
+| (9,054 | ) | |
+| — | | |
+| (69,837 | ) |
+
+Sale of subsidiary, net of cash disposed | |
+| | | |
+| (4,204 | ) | |
+| — | | |
+| (4,325 | ) |
+
+Proceeds from (acquisition of) short-term investments, net | |
+| | | |
+| 2,994,587 | | |
+| 181,611 | | |
+| (1,222,364 | ) |
+
+Acquisition of equity securities | |
+| | | |
+| — | | |
+| — | | |
+| (15,000 | ) |
+
+Proceeds from disposal of long-term investments – equity securities | |
+| | | |
+| 57,540 | | |
+| 220,520 | | |
+| 183,518 | |
+
+Proceeds from the disposal of non-current assets | |
+| 22.2.5 | | |
+| 1,746 | | |
+| 536 | | |
+| 27,008 | |
+
+Payment for interest in subsidiaries acquired | |
+| | | |
+| (181,365 | ) | |
+| (37,806 | ) | |
+| (46,897 | ) |
+
+Net cash provided by (used in) investing activities | |
+| | | |
+| 1,587,490 | | |
+| (845,436 | ) | |
+| (1,871,142 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+The accompanying notes are an integral part of these consolidated
+financial statements
+
+F- 10
+
+|
+
+Consolidated
+Statement of Cash Flows
+
+For the years ended December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais)
+|
+|
+|
+|
+
+|
+Notes |
+|
+2024 |
+|
+2023 |
+|
+2022 |
+
+Financing activities | |
+| |
+| |
+| |
+|
+
+Proceeds from institutional deposits and marketable debt securities | |
+| 6.8.3 | | |
+| 6,585,937 | | |
+| 1,608,162 | | |
+| — | |
+
+Payment of institutional deposits and marketable debt securities | |
+| 6.8.3 | | |
+| (2,713,574 | ) | |
+| (75,004 | ) | |
+| (404,317 | ) |
+
+Proceeds from other debt instruments, except lease | |
+| 6.8.3 | | |
+| 5,997,721 | | |
+| 4,138,209 | | |
+| 3,499,986 | |
+
+Payment to other debt instruments, except lease | |
+| | | |
+| (3,049,824 | ) | |
+| (5,447,180 | ) | |
+| (5,855,452 | ) |
+
+Payment of principal portion of leases liabilities | |
+| 6.8.3 | | |
+| (68,971 | ) | |
+| (72,815 | ) | |
+| (99,829 | ) |
+
+Payment of derivative financial instruments designated for hedge accounting | |
+| | | |
+| (112,771 | ) | |
+| — | | |
+| — | |
+
+Repurchase of own shares | |
+| 15.3 | | |
+| (1,587,332 | ) | |
+| (292,745 | ) | |
+| — | |
+
+Sale of own shares | |
+| | | |
+| — | | |
+| — | | |
+| 53,406 | |
+
+Acquisition of non-controlling interests | |
+| | | |
+| (146 | ) | |
+| (1,440 | ) | |
+| (325 | ) |
+
+Dividends paid to non-controlling interests | |
+| | | |
+| (10,454 | ) | |
+| (5,983 | ) | |
+| (3,601 | ) |
+
+Net cash provided by (used in) financing activities | |
+| | | |
+| 5,040,586 | | |
+| (148,796 | ) | |
+| (2,810,132 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Effect of foreign exchange on cash and cash equivalents | |
+| | | |
+| 44,544 | | |
+| 10,336 | | |
+| 14,548 | |
+
+Change in cash and cash equivalents | |
+| | | |
+| 3,051,238 | | |
+| 663,812 | | |
+| (2,983,041 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| | |
+
+Cash and cash equivalents at beginning of year | |
+| 5.2 | | |
+| 2,176,416 | | |
+| 1,512,604 | | |
+| 4,495,645 | |
+
+Cash and cash equivalents at end of year | |
+| 5.2 | | |
+| 5,227,654 | | |
+| 2,176,416 | | |
+| 1,512,604 | |
+
+Change in cash and cash equivalents | |
+| | | |
+| 3,051,238 | | |
+| 663,812 | | |
+| (2,983,041 | ) |
+
+| |
+| | | |
+| | | |
+| | | |
+| (concluded) | |
+
+The accompanying notes are an integral
+part of these consolidated financial statements.
+
+F- 11
+
+Notes to Consolidated Financial Statements
+
+|
+
+Notes to Consolidated Financial Statements
+
+Years ended December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+| 1. | Operations |
+
+StoneCo Ltd. (“StoneCo”
+or the “Company”), is a Cayman Islands exempted company with limited liability, incorporated on March 11, 2014. The registered
+office of the Company is located at 4th Floor, Harbour Place, 103 South Church Street, P.O. Box 10240, Grand Cayman E9, KY1-1002.
+
+HR Holdings LLC owns 34.12% of
+the Company's voting shares. HR Holding LLC's ultimate parent is the VCK Investment Fund Limited SAC A, an investment fund owned by the
+co-founder of the Company, Mr. Andre Street.
+
+The Company’s shares are
+publicly traded on Nasdaq under the ticker symbol STNE and its Brazilian Depositary Receipts (“BDRs”) representing the underlying
+Company’s shares are traded on the Brazilian stock exchange (B3) under the ticker symbol STOC31. In December 2024, the Company decided
+to discontinue the sponsored BDR program and initiated the procedures to cancel such program. The BDRs under the Sponsored BDR program
+ceased to be traded on the Brazilian stock exchange on March 14, 2025.
+
+The Company and its subsidiaries
+(collectively, the “Group”) provide financial services and software solutions to clients across in-store, mobile and online
+device platforms helping them to better manage their businesses by increasing the productivity of their sales initiatives.
+
+The consolidated financial statements
+of the Group were approved for issue by the Audit Committee on March 17, 2025.
+
+1.1. Reclassification
+of items included on financial liabilities
+
+Considering that the Group is diversifying
+its sources of funding in the different markets (retail, banking, capital markets, institutional and other) in these financial statements
+a revised classification of deposits and debt instruments has been adopted. The comparative balances as of December 31, 2023 have been
+retroactively reclassified following the new criteria.
+
+The table below presents the effects
+of reclassified items on Statement of financial position as of December 31, 2023:
+
+Previous items |
+|
+
+December 31, 2023
+
+(before reclassification)
+
+|
+|
+Reclassification |
+|
+Current items |
+|
+
+December 31, 2023
+
+(after reclassification)
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Liabilities |
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current liabilities |
+|
+|
+|
+|
+|
+|
+|
+|
+
+Borrowing and financing |
+|
+1,374,766 |
+|
+(899,447 |
+) |
+Institutional deposits and marketable debts securities |
+|
+475,319 |
+
+Obligations to FIDC quotas holders |
+|
+505,231 |
+|
+899,447 |
+|
+Other debt instruments |
+|
+1,404,678 |
+
+Total current liabilities |
+|
+1,879,997 |
+|
+— |
+|
+|
+|
+1,879,997 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Non-current liabilities |
+|
+|
+|
+|
+|
+|
+|
+|
+
+Borrowing and financing |
+|
+3,639,215 |
+|
+(143,456) |
+|
+Institutional deposits and marketable debts securities |
+|
+3,495,759 |
+
+Obligations to FIDC quotas holders |
+|
+- |
+|
+143,456 |
+|
+Other debt instruments |
+|
+143,456 |
+
+Total non-current liabilities |
+|
+3,639,215 |
+|
+— |
+|
+|
+|
+3,639,215 |
+
+The tables below presents the effects
+of reclassified items on Statement of cash flows in 2023 and 2022:
+
+F- 12
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Previous items | |
+2023
+
+(before reclassification)
+
+| |
+Reclassification | |
+Current items | |
+2023
+
+(after reclassification)
+
+|
+
+| |
+| |
+| |
+| |
+|
+
+Financing activities | |
+| | | |
+| | | |
+| |
+| | |
+
+Proceeds from borrowings | |
+| 5,181,619 | | |
+| (3,573,457 | ) | |
+Proceeds from institutional deposits and marketable debt securities | |
+| 1,608,162 | |
+
+Payment of borrowings | |
+| (4,489,681 | ) | |
+| 4,414,677 | | |
+Payment of institutional deposits and marketable debt securities | |
+| (75,004 | ) |
+
+Proceeds from FIDC quota holders | |
+| 564,752 | | |
+| 3,573,457 | | |
+Proceeds from other debt instruments, except lease | |
+| 4,138,209 | |
+
+Payment to FIDC quota holders | |
+| (1,032,503 | ) | |
+| (4,414,677 | ) | |
+Payment to other debt instruments, except lease | |
+| (5,447,180 | ) |
+
+| |
+| 224,187 | | |
+| — | | |
+| |
+| 224,187 | |
+
+Previous items | |
+2022
+
+(before reclassification)
+
+| |
+Reclassification | |
+Current items | |
+2022
+(after reclassification)
+|
+
+| |
+| |
+| |
+| |
+|
+
+Financing activities | |
+| | | |
+| | | |
+| |
+| | |
+
+Proceeds from borrowings | |
+| 3,499,986 | | |
+| (3,499,986 | ) | |
+Proceeds from institutional deposits and marketable debt securities | |
+| — | |
+
+Payment of borrowings | |
+| (5,009,769 | ) | |
+| 4,605,452 | | |
+Payment of institutional deposits and marketable debt securities | |
+| (404,317 | ) |
+
+Proceeds from FIDC quota holders | |
+| — | | |
+| 3,499,986 | | |
+Proceeds from other debt instruments, except lease | |
+| 3,499,986 | |
+
+Payment to FIDC quota holders | |
+| (1,250,000 | ) | |
+| (4,605,452 | ) | |
+Payment to other debt instruments, except lease | |
+| (5,855,452 | ) |
+
+| |
+| (2,759,783 | ) | |
+| — | | |
+| |
+| (2,759,783 | ) |
+
+| 2.
+| General accounting policies |
+
+The accounting policies are presented
+in the corresponding notes throughout the financial statements. The general accounting policies, unrelated to specific notes, are presented
+as follows.
+
+2.1. Basis of preparation
+
+The consolidated financial statements
+of the Group have been prepared in accordance with IFRS ® Accounting Standards as issued by the International Accounting
+Standards Board (“IASB”).
+
+The consolidated financial statements
+have been prepared on a historical cost basis, other than some Short and Long-term investments, Accounts receivable from card issuers,
+Derivative financial instruments, Other liabilities related to contingent consideration and, upon initial recognition, Provision for contingencies
+of entities acquired on business combinations. The consolidated financial statements are presented in Brazilian Real/Reais (“R$”),
+and all values are rounded to the nearest thousand (R$ 000), except when otherwise indicated.
+
+F- 13
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+2.2. Foreign currency translation
+
+2.2.1. Financial statements in foreign currencies
+
+The Group’s consolidated
+financial statements are presented in Brazilian Reais, which is the Company’s functional currency.
+
+The Group determines the functional
+currency for each entity within the Group. The Company’s subsidiaries functional currency is the Brazilian Real, except for the
+Napse Group for which the functional currency of the different entities are U.S. Dollar, Argentinian Peso, Chilean Peso, Mexican Peso,
+Nuevo Sol and Uruguayan Peso.
+
+For those entities that use a functional
+currency other than the Brazilian Real, their financial statements are translated into Brazilian Reais using (i) the exchange rates at
+the reporting date for assets and liabilities, (ii) average monthly exchange rates for profit or loss, and (iii) the exchange rate at
+the transaction date for equity transactions. For these entities, exchange gains and losses arising from the translation process are recorded
+in Other comprehensive income (loss) ("OCI") in “Exchange differences on translation of foreign operations”.
+
+2.2.2. Transactions in foreign currencies
+
+Transactions in foreign currencies
+are initially recorded by the Group’s entities in their functional currency at the spot exchange rate at the date the transaction
+first qualifies for recognition.
+
+Monetary assets and liabilities
+denominated in foreign currencies are translated into each functional currency using the exchange rates prevailing at the reporting date.
+Exchange gains and losses arising from the settlement of transactions and from the translation of monetary assets and liabilities denominated
+in foreign currency are recognized in the statement of profit or loss. These mostly arise from transactions carried out by clients with
+credit and debit cards issued by foreign card issuers, from the translation of the Group’s financial instruments denominated in
+foreign currencies and, to a lesser extent, from purchase of products and services denominated in foreign currencies.
+
+2.3. Leases
+
+The determination of whether an
+arrangement is, or contains, a lease is based on the substance of the arrangement at the inception date. In the event that fulfillment
+of the arrangement is dependent on the use of specific assets or the arrangement transfers a right to use the asset, such arrangements
+are defined as leases.
+
+2.3.1. The Group as a lessee
+
+The Group applies a single recognition
+and measurement approach for all leases, except for short-term leases and leases of low-value assets for which the Group opts for recognition
+exemption. The Group recognizes lease liabilities to make lease payments and right-of-use assets representing the right to use the underlying
+assets.
+
+2.3.1.1. Right-of-use assets
+
+The Group recognizes right-of-use
+assets at the commencement date of the lease (i.e., the date the underlying asset is available for use). Right-of-use assets are measured
+at cost, less any accumulated depreciation and impairment losses, and adjusted for any remeasurement of lease liabilities. The cost of
+right-of-use assets includes the amount of lease liabilities recognized, initial direct costs incurred, and lease payments made at or
+before the commencement date less any lease incentives received. Right-of-use assets are depreciated on a straight-line basis over the
+shorter of the lease term and the estimated useful lives of the assets. The estimated useful lives for the right-of-use assets are as
+follows:
+
+F- 14
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In
+thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+|
+Estimated useful lives (years) |
+
+|
+|
+
+Offices |
+1-10 |
+
+Vehicles |
+1-3 |
+
+Equipment |
+1-10 |
+
+Software |
+1-3 |
+
+If ownership of the leased asset
+is transferred to the Group at the end of the lease term or the cost reflects the exercise of a purchase option, depreciation is calculated
+using the estimated useful life of the asset. The right-of-use assets are also subject to impairment.
+
+2.3.1.2. Lease liabilities
+
+At the commencement date of the
+lease, the Group recognizes under “Other debt instruments” lease liabilities measured at the present value of lease payments
+to be made over the lease term. The lease payments include fixed payments (including in-substance fixed payments) less any lease incentives
+receivable and amounts expected to be paid under residual value guarantees. The lease payments also include the exercise price of a purchase
+option reasonably certain to be exercised by the Group and payments of penalties for terminating a lease, if the lease term reflects the
+Group exercising the option to terminate. The variable lease payments are recognized as an expense in the same period the event or condition
+that triggered the payment occurred.
+
+In calculating the present value
+of lease payments, the Group uses the incremental borrowing rate at the lease commencement date if the interest rate implicit in the lease
+is not readily determinable. After the commencement date, the lease liability balance is increased to reflect the accretion of interest
+and reduced when lease payments are made. The carrying amount of lease liabilities is remeasured if there is a modification, a change
+in the lease term, a change in the in-substance fixed lease payments or a change in the assessment to purchase the underlying asset.
+
+2.3.1.3. Short-term leases and leases of
+low-value assets
+
+The Group applies the short-term
+lease recognition exemption to its short-term leases of offices, software, vehicles and other equipment (being contracts with a lease
+term of 12 months or less from the commencement date which do not contain a purchase option). It also applies the low-value assets recognition
+exemption to leases of office equipment that are considered of low value (below five thousand of U.S. Dollar). Lease payments of short-term
+leases and leases of low-value assets are recognized as an expense on a straight-line basis over the lease term.
+
+2.3.2. The Group as a lessor
+
+Leases in which the Group does
+not transfer substantially all the risks and rewards incidental to ownership of an asset are classified as operating leases. Initial direct
+costs incurred in negotiating and arranging an operating lease are added to the carrying amount of the leased asset and recognized over
+the lease term on the same basis as rental income. Contingent rents are recognized as revenue in the period in which they are earned.
+
+The Group has cancellable month-to-month
+lease contracts of Pin Pads & Point of Sale (“POS”) to third parties (clients). The leased assets are included in “Property
+and equipment” in the consolidated statement of financial position and are depreciated over their expected useful lives on a straight-line
+basis. Income from operating leases (net of any incentives given to the lessee) is recognized on a straight-line basis over the lease
+term in “Net revenue from subscription services and equipment rental” in the consolidated statement of profit or loss.
+
+2.4. Current and non-current classification
+
+The Group presents assets and liabilities
+in the statement of financial position based on a current / non-current classification.
+
+F- 15
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+An asset is current when it is:
+
+| • | expected to be realized or intended to be sold or consumed in the normal operating cycle; |
+
+| • | held primarily for the purpose of trading; |
+
+| • | expected to be realized within twelve months after the reporting period; or |
+
+| • | cash or cash equivalent unless restricted from being exchanged or used to settle a liability for at least
+twelve months after the reporting period. |
+
+All other assets are classified
+as non-current.
+
+A liability is current when it
+is:
+
+| • | expected to be settled in the normal operating cycle; |
+
+| • | held primarily for the purpose of trading; |
+
+| • | due to be settled within twelve months after the reporting period; or |
+
+| • | there is no unconditional right to defer the settlement of the liability for at least twelve months after
+the reporting period. |
+
+All other liabilities are classified
+as non-current.
+
+Deferred tax assets and liabilities
+are classified as non-current assets and liabilities.
+
+2.5. Financial reporting in hyperinflationary
+economies
+
+As the accumulated inflation rate
+in Argentina had exceeded 100% over the past three years, the Group adopted IAS 29- Financial Reporting in Hyperinflationary Economies
+for the Argentine subsidiary Napse S.R.L.
+
+Non-monetary assets and liabilities,
+shareholders’ equity and amounts in the statement of profit or loss of entities that operate in hyperinflationary economies are
+adjusted by the change in the general purchasing power of the currency, based on a general price index.
+
+The financial statements of an
+entity whose functional currency is the currency of a hyperinflationary economy, whether based on the historical or current cost approach,
+should be expressed in terms of the current measurement unit at the statement of financial position date.
+
+2.6. Climate related matters
+
+The Group acknowledges the presence
+and importance of climate risk and seeks to integrate it as part of the other managed risks. By the nature of its activities, the Group
+is mainly affected by physical and transition risks indirectly, as a result of the effects of those risks on its customers. Within this
+context, the Group has the objective of developing its capabilities for identifying, assessing, measuring, monitoring, reporting, and
+mitigating the potential effects resulting from social, environmental, and climate risks associated with its prioritized products, services,
+activities, and processes, based on the principles of relevance and proportionality.
+
+The Group's current view is that
+its business model and its main products are not likely to have a significant impact from the transition to a low-carbon economy. Climate-related
+matters however may increase the uncertainty in selected estimates and assumptions underpinning some items in the financial statements.
+Even though climate-related risks might not currently have a significant impact on measurement, the Group is closely monitoring relevant
+changes and developments, such as new climate-related legislation.
+
+F- 16
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Financial assets may be indirectly
+impacted by climate-related matters, principally the credit portfolio. Cash flows from customers whose businesses are affected by transition
+risks and extreme weather events and other physical climate risks may be impacted. However, this risk is mitigated by the diverse and
+broad base of customers operating in across numerous industries and in different geographical regions in Brazil, and the relative short-term
+duration of the loans. Extreme weather events might more significantly affect specific cities or geographical areas.
+
+2.7. New standards and amendments to standards
+and interpretations adopted
+
+The following amendments and interpretations
+were applicable as from January 1, 2024:
+
+| • | Amendments to IAS 1 - Presentation of Financial Statements: The amendments to IAS 1 were made to clarify
+when to consider contractual conditions (covenants) that may affect the unconditional right to defer the settlement of the liabilities
+for at least 12 months after the reporting period and includes disclosure requirements for liabilities with covenants classified as non-current. |
+
+| • | IAS 7 - Statement of Cash Flows and IFRS 7 Financial Instruments: Disclosures: The amendments clarify
+the characteristics of supplier finance arrangements and require additional disclosure of such arrangements. The disclosure requirements
+in the amendments are intended to assist users of financial statements in understanding the effects of supplier finance arrangements on
+an entity’s liabilities, cash flows and exposure to liquidity risk. |
+
+| • | Amendments to IFRS 16 - Leases: The amendments in IFRS 16 specify the requirements that a seller-lessee
+uses in measuring the lease liability arising in a sale and leaseback transaction, to ensure the seller-lessee does not recognize any
+amount of the gain or loss that relates to the right of use it retains. |
+
+These amendments had no significant
+impact on the consolidated financial statements of the Group.
+
+2.8. New standards and amendments to standards
+and interpretations not yet adopted
+
+The new and amended standards and
+interpretations that are issued, but not yet effective as of December 31, 2024 are presented below. The Group intends to adopt these new
+and amended standards and interpretations, if applicable, when they become effective.
+
+2.8.1. Amendments to IAS 21: Lack of exchangeability
+
+On August 15, 2023, the IASB issued
+Lack of Exchangeability which amended IAS 21 - The Effects of Changes in Foreign Exchange Rates (“the amendments”). The amendments
+introduce requirements to assess when a currency is exchangeable into another currency and when it is not. The amendments require the
+entity to estimate the spot exchange rate when it concludes that a currency is not exchangeable into another currency.
+
+The amendments are effective for
+annual reporting periods beginning on or after January 1, 2025. The Group is assessing if the amendments will affect the Group’s
+consolidated financial statements.
+
+2.8.2. IFRS 18 - Presentation and Disclosure
+in Financial Statements
+
+In April 2024, the IASB issued
+IFRS 18, which replaces IAS 1 - Presentation of Financial Statements. IFRS 18 introduces new requirements on presentation within the statement
+of profit or loss, including specified totals and subtotals. Furthermore, entities are required to classify all income and expenses within
+the statement of profit or loss into one of five categories: operating, investing, financing, income taxes and discontinued operations,
+whereof the first three are new.
+
+It also requires disclosure of
+newly defined management-defined performance measures (“MPMs”), certain profit or loss performance measure, and includes new
+requirements for aggregation and disaggregation of financial information based on the identified ‘roles’ of the primary financial
+statements (“PFS”) and the notes.
+
+F- 17
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+In addition, narrow-scope amendments
+have been made to IAS 7 - Statement of Cash Flows, which include changing the starting point for determining cash flows from operations
+under the indirect method, from ‘profit or loss’ to ‘operating profit or loss’ and removing the options around
+classification of cash flows from dividends and interest. In addition, there are consequential amendments to several other standards.
+
+IFRS 18, and the amendments to
+the other standards, are effective for reporting periods beginning on or after 1 January 2027, but earlier application is permitted and
+must be disclosed. IFRS 18 will apply retrospectively.
+
+The Group is currently reviewing
+the standard to identify all impacts the amendments will have on the primary financial statements and notes to the financial statements.
+
+2.8.3. IFRS 19 - Subsidiaries without Public
+Accountability: Disclosures
+
+In May 2024, the IASB issued IFRS
+19, which allows eligible entities to elect to apply its reduced disclosure requirements while still applying the recognition, measurement
+and presentation requirements in other IFRS Accounting Standards. To be eligible, at the end of the reporting period, an entity must be
+a subsidiary as defined in IFRS 10, cannot have public accountability and must have a parent (ultimate or intermediate) that prepares
+consolidated financial statements, available for public use, which comply with IFRS Accounting Standards.
+
+IFRS 19 will become effective for
+reporting periods beginning on or after 1 January 2027, with early application permitted.
+
+The Group is not eligible to apply
+IFRS 19 as it has public accountability.
+
+2.8.4. IFRS 9 - Financial instruments
+
+On 30 May 2024, the International
+Accounting Standards Board (the IASB or the Board) issued Amendments to the Classification and Measurement of Financial Instruments which
+amended IFRS 9 Financial Instruments and IFRS 7 Financial Instruments: Disclosures (the Amendments). The Amendments provide additional
+guidance and clarity on the following specific matters: date of recognition and write-off of financial instruments and significant characteristics
+in the assessment of the cash flows of financial instruments for classification and measurement. In addition, disclosures relating to
+equity instruments designated at fair value are enhanced through other comprehensive income and financial instruments linked to contingent
+events.
+
+These amendments are effective
+for years starting on January 1st, 2026, early adoption being permitted, with retrospective application. The Group is assessing if the
+amendments will affect the Group’s consolidated financial statements.
+
+2.9. Pillar 2 in Brazil
+
+In October 2024, Provisional Measure
+(“MP”) n° 1,262/2024 was published as part of the Brazilian government proposal for a partial adoption of the Pillar 2
+rules. It imposes a corporate tax surcharge (Additional CSLL) intended to function as Brazil’s QDMTT (Qualified Domestic Minimum
+Top-up Tax) starting January 1, 2025.
+
+Under the rule, multinational companies
+with a minimum annual revenue of €750 million must apply a minimum effective tax rate of 15% on adjusted income measured following
+Pillar 2 rules. Based on the analysis of Group’s consolidated financial statements for the last three years, the Group understand
+that it meets such revenue threshold.
+
+Additional CSLL will be applied
+to excess profits computed following Brazilian accounting rules and adjustments consistent with the Pillar 2 global rules. Only profit
+of the Brazilian entities will be considered to determine QDMTT, therefore does not affect entities of the Group in other jurisdictions.
+The Group does not expect any additional tax from this partial adoption of the Pillar 2 rules.
+
+F- 18
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+The text of the MP was included in law bill that was
+subsequently approved by Congress and sanctioned by the President into Law 15,079/2024 adapting Brazilian tax legislation to the Global
+Anti-Base Erosion Rules ("GloBE Rules") of the Organization for Economic Cooperation and Development (“OECD”).
+
+| 3. | Significant judgments, estimates and assumptions |
+
+The preparation of the financial
+statements of the Company and its subsidiaries requires management to make judgments and estimates and to adopt assumptions that affect
+the amounts presented referring to revenues, expenses, assets and liabilities at the financial statement date. Actual results may differ
+from these estimates.
+
+The judgements, estimates and assumptions
+are frequently revised, and any effects are recognized in the revision period and in any future affected periods. The objective of these
+revisions is to mitigate the risk of material differences between estimated and actual results in the future.
+
+Significant assumptions about sources
+of uncertainty in future estimates and other significant sources at the reporting date are presented in each of the notes along the financial
+statements.
+
+| 4. | Group information |
+
+4.1. Subsidiaries
+
+4.1.1. Accounting policy
+
+4.1.1.1. Basis of consolidation
+
+The consolidated financial statements
+comprise the financial statements of the Company and its subsidiaries. Control is achieved when the Group:
+
+| • | has power over the investee (i.e., existing rights that give it the current ability to direct the relevant
+activities of the investee); |
+
+| • | is exposed, or has rights, to variable returns from its involvement with the investee; and |
+
+| • | has the ability to use its power to affect its returns. |
+
+Generally, there is a presumption
+that a majority of voting rights results in control. To support this presumption and when the Group has less than a majority of the voting
+or similar rights of an investee, the Group considers all relevant facts and circumstances in assessing whether it has power over an investee,
+including:
+
+| • | the contractual arrangement(s) with the other vote holders of the investee; |
+
+| • | rights arising from other contractual arrangements; and |
+
+| • | the Group’s voting rights and potential voting rights. |
+
+The Group re-assesses whether it
+controls an investee if facts and circumstances indicate that there are changes to one or more of the three elements of control. Consolidation
+of a subsidiary begins when the Group obtains control over the subsidiary and ceases when the Group loses control of the subsidiary. Assets,
+liabilities, income and expenses of a subsidiary acquired or disposed of during the year are included in the consolidated financial statements
+from the date the Group obtains control until the date the Group ceases to control the subsidiary.
+
+F- 19
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Profit or loss and each component
+of OCI are attributed to the equity holders of the parent of the Group and to the non-controlling interests, even if this results in the
+non-controlling interests having a deficit balance. When necessary, adjustments are made to the financial statements of subsidiaries to
+bring their accounting policies into line with the Group’s accounting policies. All intragroup assets and liabilities, equity, income,
+expenses and cash flows relating to transactions between members of the Group are eliminated in full on consolidation.
+
+A change in the ownership interest
+of a subsidiary, without a loss of control, is accounted for as an equity transaction, in “Transactions among shareholders”
+in equity.
+
+4.1.1.2. Consolidation
+of structured entities
+
+Usually, the control of an investee
+is determined by voting or similar rights of the investor. In some cases, voting or similar rights is not the decisive factor to characterize
+control. An entity that has been designed so that voting or similar rights are not the dominant factor in deciding who controls the entity
+is denominated as a structured entity. Frequently, the relevant activities of structured entities are directed by means of contractual
+arrangements. In such cases, an investor’s consideration of the purpose and design of the investee shall also include consideration
+of the risks to which the investee was designed to be exposed, the risks it was designed to pass on to the parties involved with the investee
+and whether the investor is exposed to some or all of those risks.
+
+Based on the contractual terms,
+the Group identified that certain investments meet the definition of a structured entity under IFRS 12 – Disclosure of Interests
+in Other Entities.
+
+The Group considers the entities
+listed below to be structured entities that are controlled by the Group. The participation of the Group in each of them is stated as follows:
+
+|
+|
+Outstanding quotas as of December 31, 2024 |
+Outstanding quotas as of December 31, 2023 |
+
+|
+|
+|
+|
+
+ACR FAST Fundo de Investimento em Direitos Creditórios ("FIDC ACR FAST") |
+|
+100% of subordinated quotas representing approximately 4% of total (subordinated and senior) quotas |
+100% of subordinated quotas representing approximately 3% of total (subordinated and senior) quotas |
+
+ACR I Fundo de Investimento em Direitos Creditórios ("FIDC ACR I") |
+|
+100% of subordinated quotas representing approximately 7% of total (subordinated and senior) quotas |
+100% of subordinated quotas representing all outstanding quotas |
+
+SOMA III Fundo de Investimentos em Direitos Creditórios Não Padronizados ("FIDC SOMA III") |
+|
+100% of subordinated quotas and 100% of mezzanine quotas representing all outstanding quotas |
+100% of subordinated quotas representing all outstanding quotas |
+
+Stone Fundo de Investimento Multimercado Crédito Privado ("STONE FIM CP") |
+|
+100% of subordinated quotas representing all outstanding quotas |
+— |
+
+StoneCo Exclusivo Fundo de Investimento em Cotas de Fundo de Investimento Multimercado Crédito Privado ("FIC FIM STONECO") |
+|
+100% of subordinated quotas representing all outstanding quotas |
+
+Tapso Fundo de Investimento em Direitos Creditórios ("FIDC TAPSO") |
+|
+100% of subordinated quotas and 100% of mezzanine quotas representing all outstanding quotas |
+100% of subordinated quotas and 100% of mezzanine quotas representing approximately 99% of total (subordinated, mezzanine and senior) quotas |
+
+Tapso II Fundo de Investimento em Direitos Creditórios ("FIDC TAPSO II") (a) |
+|
+— |
+100% of subordinated quotas representing all outstanding quotas |
+
+SOMA I Fundo de Investimentos em Direitos Creditórios Não Padronizados ("FIDC SOMA") (a) |
+|
+— |
+100% of subordinated quotas representing all outstanding quotas |
+
+ACR III Fundo de Investimento em Direitos Creditórios ("FIDC ACR III") (a) |
+|
+— |
+100% of subordinated quotas representing all outstanding quotas |
+
+ACR V Fundo de Investimento em Direitos Creditórios ("FIDC ACR V") (a) |
+|
+— |
+100% of subordinated quotas representing all outstanding quotas |
+
+ACR VI Fundo de Investimento em Direitos Creditórios ("FIDC ACR VI") (a) |
+|
+— |
+100% of subordinated quotas representing all outstanding quotas |
+
+|
+
+| (a) | During 2024, these structured entities were closed. |
+
+F- 20
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+The bylaws of these structured
+entities were established at their inception to grant significant decision-making authority over these entities. As sole holders of the
+subordinated quotas, the Group is entitled to the full residual value of the entities, if any, and thus the Group has the rights to their
+variable returns.
+
+In accordance with IFRS 10, the
+Group concluded it controls all structured entities listed above, therefore, they are consolidated in the Group’s financial statements.
+FIDCs senior and mezzanine quotas held by third parties, when applicable, are accounted for as a financial liability under “Other
+debt instruments and Institutional deposits and marketable debt securities” and the remuneration paid to senior and mezzanine quota
+holders is recorded as an interest expense (Note 6.8).
+
+4.1.2. Subsidiaries of the Group
+
+The consolidated financial statements
+of the Group include the following subsidiaries and structured entities:
+
+|
+|
+|
+|
+% of Group's equity interest |
+
+Entity name |
+|
+Main activities |
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+|
+|
+|
+|
+|
+|
+|
+
+Stone Instituição de Pagamento S.A. (“Stone IP”) |
+|
+Merchant acquiring |
+|
+100.00 |
+|
+100.00 |
+
+MNLT S.A. (“MNLT”) |
+|
+Merchant acquiring |
+|
+100.00 |
+|
+100.00 |
+
+Pagar.me Instituição de Pagamento S.A. (“Pagar.me”) |
+|
+Merchant acquiring |
+|
+100.00 |
+|
+100.00 |
+
+Linx Pay Meios de Pagamento Ltda. (“Linx Pay”) |
+|
+Merchant acquiring |
+|
+100.00 |
+|
+100.00 |
+
+Stone Cartões Instituição de Pagamento S.A. (“Stone Cartões”) |
+|
+Financial services |
+|
+100.00 |
+|
+100.00 |
+
+Stone Sociedade de Crédito, Financiamento e Investimento S.A. ("Stone SCFI") (a) |
+|
+Financial services |
+|
+100.00 |
+|
+— |
+
+Stone Sociedade de Crédito Direto S.A. (“Stone SCD”) |
+|
+Financial services |
+|
+100.00 |
+|
+100.00 |
+
+TAG Tecnologia para o Sistema Financeiro S.A. ("TAG") |
+|
+Financial assets register |
+|
+100.00 |
+|
+100.00 |
+
+MLabs Software S.A. (“MLabs”) |
+|
+Technology services |
+|
+51.50 |
+|
+51.50 |
+
+Questor Sistemas S.A. (“Questor”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+Sponte Educação Ltda. ("Sponte Educação") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+SimplesVet Tecnologia S.A. (“SimplesVet”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+VHSYS Sistema de Gestão S.A. (“VHSYS”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+Trinks Serviços de Internet S.A. (“Trinks”) (b) |
+|
+Technology services |
+|
+100.00 |
+|
+19.90 |
+
+Linx S.A. (“Linx”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Linx Sistemas e Consultoria Ltda. (“Linx Sistemas”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Linx Telecomunicações Ltda. ("Linx Telecom") |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Linx Automotivo Ltda. ("Linx Auto") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+Linx Impulse Ltda. ("Linx Impulse") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+Linx Saúde Ltda. ("Linx Saúde") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+Linx Commerce Ltda. ("Linx Commerce") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+Linx People Ltda. ("Linx People") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+Linx Enterprise Ltda. ("Linx Enterprise") (a) |
+|
+Technology services |
+|
+100.00 |
+|
+— |
+
+Napse S.R.L. (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Napse Uruguay SAS (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Sociedad Ingenería de Sistemas Napse I.T. de Chile Limitada (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Napse IT Peru S.R.L. (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Synthesis Holding LLC (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Synthesis US LLC (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Retail Americas Sociedad de Responsabilidad Limitada de Capital Variable (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+F- 21
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+|
+|
+|
+|
+% of Group's equity interest |
+
+Entity name |
+|
+Main activities |
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+Synthesis IT de México Sociedad de Responsabilidad Limitada de Capital Variable (“Napse Group”) |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Hiper Software S.A. ("Hiper") |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Reclame Aqui LLC (“Reclame Aqui Group”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+Obvio Brasil Software e Serviços S.A. (“Reclame Aqui Group”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+O Mediador Tecnologia da Informação S/S Ltda. (“Reclame Aqui Group”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+Reclame Aqui Marcas e Serviços Ltda. (“Reclame Aqui Group”) |
+|
+Technology services |
+|
+50.00 |
+|
+50.00 |
+
+STEF S.A ("Stef") |
+|
+Technology services |
+|
+100.00 |
+|
+100.00 |
+
+Hubcount Tecnologia S.A. (“Hubcount”) (c) |
+|
+Technology services |
+|
+75.60 |
+|
+75.60 |
+
+Buy4 Processamento de Pagamentos S.A. (“Buy4”) |
+|
+Processing card transactions |
+|
+100.00 |
+|
+100.00 |
+
+Buy4 Sub LLC ("Buy4 LLC") |
+|
+Cloud store card transactions |
+|
+100.00 |
+|
+100.00 |
+
+Vitta Corretora de Seguros Ltda. (“Vitta Group”) |
+|
+Insurance services |
+|
+100.00 |
+|
+100.00 |
+
+Vitta Tecnologia em Saúde S.A. (“Vitta Group”) |
+|
+Health services |
+|
+100.00 |
+|
+100.00 |
+
+Vitta Serviços em Saúde Ltda. (“Vitta Group”) |
+|
+Health services |
+|
+100.00 |
+|
+100.00 |
+
+Vitta Saúde Administradora de Benefícios Ltda. (“Vitta Group”) |
+|
+Health services |
+|
+100.00 |
+|
+100.00 |
+
+StoneCo Pagamentos UK Ltd. ("StoneCo UK") (d) |
+|
+Service provider |
+|
+— |
+|
+100.00 |
+
+Stone Logística Ltda. ("Stone Log") |
+|
+Logistic services |
+|
+100.00 |
+|
+100.00 |
+
+Stone Franchising Ltda. ("Franchising") |
+|
+Franchising management |
+|
+100.00 |
+|
+100.00 |
+
+Ametista Serviços Digitais Ltda. (“PinPag”) (e) |
+|
+Electronic fund transfer |
+|
+— |
+|
+100.00 |
+
+Esmeralda Serviços Digitais Ltda. (“PinPag”) (e) |
+|
+Electronic fund transfer |
+|
+— |
+|
+100.00 |
+
+Diamante Serviços Digitais Ltda. (“PinPag”) (e) |
+|
+Electronic fund transfer |
+|
+— |
+|
+100.00 |
+
+Safira Serviços Digitais Ltda. (“PinPag”) (e) |
+|
+Electronic fund transfer |
+|
+— |
+|
+100.00 |
+
+FIDC TAPSO |
+|
+Investment fund |
+|
+100.00 |
+|
+100.00 |
+
+FIDC TAPSO II (f) |
+|
+Investment fund |
+|
+— |
+|
+100.00 |
+
+FIDC SOMA (g) |
+|
+Investment fund |
+|
+— |
+|
+100.00 |
+
+FIDC SOMA III |
+|
+Investment fund |
+|
+100.00 |
+|
+100.00 |
+
+FIDC ACR I |
+|
+Investment fund |
+|
+100.00 |
+|
+100.00 |
+
+FIDC ACR III (f) |
+|
+Investment fund |
+|
+— |
+|
+100.00 |
+
+FIDC ACR V (f) |
+|
+Investment fund |
+|
+— |
+|
+100.00 |
+
+FIDC ACR VI (g) |
+|
+Investment fund |
+|
+— |
+|
+100.00 |
+
+STONE FIM CP (h) |
+|
+Investment fund |
+|
+100.00 |
+|
+— |
+
+FIC FIM STONECO |
+|
+Investment fund |
+|
+100.00 |
+|
+100.00 |
+
+FIDC ACR FAST |
+|
+Investment fund |
+|
+100.00 |
+|
+100.00 |
+
+MPB Capital LLC ("MPB") |
+|
+Investment company |
+|
+100.00 |
+|
+100.00 |
+
+DLP Capital LLC ("DLP Cap") |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+DLPPar Participações S.A. (“DLPPar”) |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+Reclame Aqui Holding Ltd ("Reclame Aqui Group") |
+|
+Holding company |
+|
+50.00 |
+|
+50.00 |
+
+STNE Participações S.A. ("STNE Par") |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+STNE Participações em Tecnologia S.A. ("STNE ParTec") |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+VittaPar LLC (“Vitta Group”) |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+Stone Holding Instituições S.A. ("Stone Holding") |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+STNE Investimentos S.A. ("STNE Invest") |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+Equals Software S.A. ("Equals Software") |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+Stone Seguros S.A. (“Stone Seguros”) |
+|
+Holding company |
+|
+100.00 |
+|
+100.00 |
+
+|
+
+| (a) | In the first quarter of 2024, the Group incorporated the companies Stone SCFI, Sponte Educação,
+Linx Auto and Linx Impulse, all of which are wholly owned by the Group. In the second quarter of 2024, the Group incorporated the companies
+Linx Saúde, Linx Commerce, Linx People and Linx Enterprise all of which are wholly owned by the Group. |
+
+| (b) | In May 2024, Trinks became a wholly owned subsidiary of STNE Par. |
+
+F- 22
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+| (c) | STNE Par has a 50% equity interest in Questor and, on August 31, 2022, Questor acquired a 75.60% equity
+interest in Hubcount. |
+
+| (d) | Dissolved on July 9, 2024. |
+
+| (e) | On February 7, 2024, the equity interest of Ametista Serviços Digitais Ltda., Esmeralda Serviços
+Digitais Ltda., Diamante Serviços Digitais Ltda., and Safira Serviços Digitais Ltda. (collectively the “Pinpag")
+was sold, thus, the Group ceased to hold equity interest in these entities. |
+
+| (f) | Closed on April 2024. |
+
+| (g) | Closed on May, 2024. |
+
+| (h) | The Group owns 100% of the subordinated quotas in connection with the incorporation of the funds. |
+
+The Group holds call options to
+acquire additional interests in some of its subsidiaries (Notes 6.1.5 and 6.9) and issued put options to non-controlling investors (Note
+6.13.1 (g)).
+
+4.2. Associates
+
+4.2.1. Accounting policy
+
+An associate is an entity over
+which the Group has significant influence. Significant influence is the power to participate in the financial and operating policy decisions
+of the investee, but does not have control, or joint control over those policies.
+
+The considerations made in determining
+significant influence are similar to those necessary to determine control over subsidiaries. The Group’s investments in associates
+are accounted for using the equity method.
+
+Under the equity method, the investment
+in an associate is initially recognized at cost. The carrying amount of the investment is adjusted to recognize changes in the Group’s
+share of net assets of the associate since the acquisition date. Goodwill relating to the associate is included in the carrying amount
+of the investment and is not tested for impairment separately.
+
+The Statement of profit or loss
+reflects the Group’s share of the results of operations of the associate. Any change in OCI of those investees is presented as part
+of the Group’s OCI. In addition, when there has been a change recognized directly in the equity of the associate, the Group recognizes
+its share of any changes, when applicable, in the statement of changes in equity. Unrealized gains and losses resulting from transactions
+between the Group and associates are eliminated to the extent of the interest in the associate.
+
+The aggregate of the Group’s
+share of profit or loss of an associate is shown on the face of the Statement of profit or loss outside operating profit and represents
+profit or loss after tax and non-controlling interests in the subsidiaries of the associate.
+
+The financial statements of the
+associate are prepared for the same reporting period as the Group. When necessary, adjustments are made to bring the accounting policies
+in line with those of the Group.
+
+After application of the equity
+method, the Group determines whether it is necessary to recognize an impairment loss on its investment in its associate. At each reporting
+date, the Group determines whether there is objective evidence that the investment in the associate is impaired. If there is such evidence,
+the Group calculates the amount of impairment as the difference between the recoverable amount of the associate and its carrying value,
+and then recognizes the loss within share of profit of an associate in the statement of profit or loss.
+
+In the event of a loss of significant
+influence over the associate, the Group measures and recognizes any retained investment at its fair value. Any difference between the
+carrying amount of the associate upon loss of significant influence and the fair value of the retained investment and proceeds from disposal
+is recognized in profit or loss.
+
+None of the investments in associates
+presented significant restrictions on transferring resources in the form of cash dividends or repayment of obligations, during the periods
+reported.
+
+F- 23
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+4.2.2. Associates held by the Group
+
+|
+|
+|
+|
+% Group's equity interest |
+
+Entity name |
+|
+Principal activities |
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+|
+|
+|
+|
+|
+|
+|
+
+Alpha-Logo Serviços de Informática S.A. (“Tablet Cloud”) |
+|
+Technology services |
+|
+25.00 |
+|
+25.00 |
+
+Agilize Tecnologia S.A. ("Agilize") (a) |
+|
+Technology services |
+|
+— |
+|
+33.33 |
+
+Neostore Desenvolvimento de Programas de Computador S.A. (“Neomode”) (b) |
+|
+Technology services |
+|
+— |
+|
+40.02 |
+
+Dental Office S.A. (“RH Software”) |
+|
+Technology services |
+|
+20.00 |
+|
+20.00 |
+
+APP Sistemas S.A. (“APP”) (c) |
+|
+Technology services |
+|
+19.80 |
+|
+19.90 |
+
+Delivery Much Tecnologia S.A. (“Delivery Much”) |
+|
+Food delivery marketplace |
+|
+29.49 |
+|
+29.49 |
+
+Agilize Contabilidade Holding Limited ("Agilize Cayman") (a) |
+|
+Holding company |
+|
+28.70 |
+|
+— |
+
+|
+
+| (a) | On August 1, 2023, the Group acquired a 33.33% equity interest in Agilize, a private company based in
+the State of Bahia, Brazil, for R$ 8,523 through the conversion of a credit arising from a convertible loan agreement. Agilize develops
+technology that provides online accounting services. In November 2024, as part of a corporate reorganization, Agilize established an offshore
+structure, leading to the direct ownership of all shareholders in Agilize Cayman and contributions of capital from new investors in which
+StoneCo had no participation. Subsequently, STNE Invest, which previously held a stake in Agilize, fully transferred its equity interest
+to StoneCo and reduced its equity interest from 33.33% to 28.70%. |
+
+| (b) | Linx Sistemas has sold all of its shares in Neomode. |
+
+| (c) | In March 2024, the share capital of APP was increased through the subscription and payment of new shares,
+resulting in the proportional dilution of STNE Par ownership interest. |
+
+The Group holds call options to
+acquire additional interests in some of its associates (Notes 6.1.5 and 6.9).
+
+| 5. | Cash and cash equivalents |
+
+5.1. Accounting policy
+
+Cash and cash equivalents in the
+statement of financial position comprise cash at banks and short-term deposits with a maturity of three months or less from the date of
+acquisition, which are subject to an insignificant risk of changes in value, and readily convertible into cash.
+
+5.2. Currency denomination
+
+|
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+|
+|
+|
+|
+|
+
+Denominated in R$ |
+|
+5,157,035 |
+|
+2,128,425 |
+
+Denominated in US$ |
+|
+70,619 |
+|
+47,991 |
+
+|
+|
+5,227,654 |
+|
+2,176,416 |
+
+| 6. | Financial instruments |
+
+6.1. Accounting policy
+
+6.1.1. Financial assets
+
+6.1.1.1. Description
+of the different financial assets
+
+The Group holds financial assets
+for all its businesses due to the nature of its activities. In order to facilitate the understanding of the financial statements and the
+underlying businesses, the financial asset line items presented in the statement of financial position are shown by business activity
+that generated the assets, how these are measured, and where in the statement of profit or loss the results generated by such assets are
+classified.
+
+F- 24
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Line item presented in the statement of financial position |
+Description of the related business activity |
+Basis of measurement |
+Line item of the statement of profit (loss) or statement of other comprehensive income (loss) where results generated are presented |
+
+|
+|
+|
+|
+
+Cash and cash equivalents and Short-term investments |
+Managing of liquidity of the business |
+
+Cash
+and cash equivalents – Amortized cost
+
+Short-term
+investiment – FVPL (a)
+
+|
+
+Interest
+income - Other financial income
+
+Fair value
+gain or losses - Other financial income
+
+Foreign
+exchange gain or losses - Financial expenses, net
+|
+
+Financial assets from banking solutions |
+Corresponds to regulatorily required amounts to be maintained in certain specified assets as reserve requirements for deposits of banking customers |
+
+Deposits
+at Brazilian Central Bank ("BACEN") – Amortized cost
+
+Government
+securities – FVPL
+|
+
+Interest
+income - Financial income
+
+Fair value
+gain or losses - Financial income
+
+|
+
+Accounts receivable from card issuers |
+Corresponds to amounts receivable from card issuers for transactions that acquiring business processes. The balances do not bear interest. Receivables are regularly sold before their maturity as part of the funding strategy |
+FVOCI (b) |
+
+Fair value
+gain or losses - Other comprehensive income
+
+Cost of
+funding on sale of receivables - Financial expenses, net
+
+Foreign
+exchange gain or losses on balances of transactions in foreign currency - Financial expenses, net
+
+|
+
+Trade accounts receivable |
+Corresponds to amounts due by customers of the acquiring business for subscription services and equipment rental and of the software business for services provided. |
+Amortized cost |
+
+Allowance
+for expected credit losses - Cost of services
+
+Interest
+and penalties for late payment - Other financial income
+
+|
+
+Credit portfolio |
+Corresponds to credit (merchant portfolio loans and balances due by credit card) granted to customers |
+Amortized cost |
+
+Interest
+income - Financial income
+
+Allowance
+for expected credit losses - Cost of services
+
+Foreign
+exchange gains or losses on balance of credit card in foreign currency – Financial expenses, net
+|
+
+Derivative financial instruments assets |
+Corresponds to derivatives entered into to manage the financial risks (mainly interest rate and foreign exchange) inherent to acquiring businesses and related to the funding structure |
+FVPL |
+
+Fair value
+gain or losses - Financial expenses, net, except for those designated in a cash flow hedge relationship:
+
+Ineffective
+portion of change in fair value - Financial expenses, net
+
+Effective
+portion of change in fair value once reclassified from OCI - Financial expenses, net
+|
+
+Long-term investments |
+Corresponds to investments in equity interests with no significant influence. |
+FVPL or FVOCI |
+
+FVPL -
+Other financial income / Mark-to-market on equity securities designated at FVPL
+
+FVOCI
+- Other comprehensive income
+
+|
+
+|
+
+| (a) | Fair Value through Profit or Loss (“FVPL”). |
+
+| (b) | Fair Value through Other Comprehensive Income (“FVOCI”). |
+
+6.1.1.2. Initial
+recognition and measurement
+
+Financial assets are initially
+recognized at fair value plus costs (except assets at FVPL) on the trading date, and subsequently measured at amortized cost, FVOCI, or
+FVPL .
+
+F- 25
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+The classification of financial
+assets at initial recognition depends on the financial asset’s contractual cash flow characteristics and the Group’s business
+model for managing them according to IFRS 9. The Group’s business model for managing financial assets refers to how it manages its
+financial assets in order to generate cash flows. The business model is based on whether cash flows will result from collecting contractual
+cash flows, selling the financial assets, or both. Financial assets classified and measured at amortized cost are held within this business
+model with the objective to hold financial assets in order to collect contractual cash flows while financial assets classified and measured
+at FVOCI are held within a business model with the objective of holding to collect contractual cash flows and selling.
+
+Trade receivables that do not contain
+a significant financing component or for which the Group has applied the practical expedient are measured at the transaction price determined
+under IFRS 15 – Revenue from Contracts with Customers.
+
+To be classified and measured at
+amortized cost or FVOCI, a financial asset needs to give rise to cash flows that are solely payments of principal and interest (“SPPI”)
+on the principal amount outstanding. This assessment is referred to as the SPPI test and is performed at an instrument level. Financial
+assets with cash flows that are not SPPI are classified and measured at FVPL, irrespective of the business model.
+
+Financial assets at FVPL include
+financial assets held for trading, financial assets designated upon initial recognition at FVPL, or financial assets mandatorily required
+to be measured at fair value. Financial assets are considered as held for trading if they are acquired for the purpose of selling or repurchasing
+in the near term. Derivatives, including separated derivatives, are also considered as held for trading unless they are designated as
+hedge accounting instrument. Notwithstanding the criteria for financial assets to be classified at amortized cost or at FVOCI, as described
+above, financial instruments may be designated at FVPL on initial recognition if doing so eliminates, or significantly reduces, an accounting
+mismatch.
+
+Purchases or sales of financial
+assets that require delivery of assets within a time frame set by regulation or market practice (regular way trades) are recognized on
+the trade date, i.e., the date that the Group commits to purchase or sell the asset.
+
+6.1.1.3. Subsequent measurement
+
+For purposes of subsequent measurement,
+financial assets are classified in four categories, as described as follows:
+
+6.1.1.3.1. Financial assets at amortized cost
+(debt instruments)
+
+Financial assets at amortized cost
+are subsequently measured using the effective interest rate (“EIR”) method and are subject to impairment. Gains and losses
+are recognized in profit or loss when the asset is derecognized, modified or impaired.
+
+The Group’s financial assets
+at amortized cost include Trade accounts receivable, Credit portfolio originated from March 1, 2023, Receivables from related parties
+and Other assets, since they are held to collect payments of principal and interest and meet the SPPI test.
+
+6.1.1.3.2. Financial assets at FVOCI with recycling
+of cumulative gains and losses (debt instruments)
+
+For debt instruments at FVOCI,
+interest income, foreign exchange revaluation and impairment losses or reversals are recognized in the statement of profit or loss similarly
+to financial assets measured at amortized cost. The remaining fair value changes are recognized in OCI. Upon derecognition, the cumulative
+fair value change recognized in OCI is recycled to profit or loss. This category is the most relevant to the Group and it corresponds
+solely to Accounts receivable from card issuers.
+
+F- 26
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.1.1.3.3. Financial assets
+at FVOCI with no recycling of cumulative gains and losses upon derecognition (equity instruments)
+
+Upon initial recognition, the Group
+can irrevocably elect to designate its equity investments as FVOCI when they meet the definition of equity under IAS 32 – Financial
+Instruments: Presentation, and are not held for trading. The classification is determined on an instrument-by-instrument basis.
+
+Gains and losses on these financial
+assets are never recycled to profit or loss, even if the asset is sold or impaired. Dividends are recognized as other financial income
+in the statement of profit or loss when the right to payment has been established, except when the Group benefits from such proceeds as
+a recovery of part of the cost of the financial asset, in which case, such gains are recorded in OCI. Equity instruments designated at
+FVOCI are not subject to impairment assessment.
+
+The Group elected to irrevocably
+classify some of the equity investments under this category, included in Long-term investments.
+
+6.1.1.3.4. Financial assets at FVPL
+
+Financial assets at FVPL are carried
+in the statement of financial position at fair value with net changes in fair value recognized in the statement of profit or loss.
+
+This category includes financial
+assets which the contractual cash flows do not meet the SPPI condition, such as (i) bonds and investment funds under short-term investment
+(ii) financial assets from banking solutions, (iii) some equity investments and (iv) derivative financial instruments.
+
+6.1.1.4. Derecognition
+
+A financial asset (or, where applicable,
+a part of a financial asset or part of a group of similar financial assets) is derecognized of the consolidated statement of financial
+position when:
+
+| • | The contractual rights to receive cash flows from the asset have expired; or |
+
+| • | The Group has transferred its contractual rights to receive cash flows from the asset or has assumed a
+contractual obligation to pay the received cash flows in full without material delay to a third party under a ‘pass-through’
+arrangement; and either (i) the Group has transferred substantially all the risks and rewards of the asset, or (ii) the Group has neither
+transferred nor retained substantially all the risks and rewards of the asset, but has transferred control of the asset where ‘control’
+is evaluated by looking to whether the transferee has the practical ability to transfer the asset. |
+
+When the Group has transferred
+its contractual rights to receive cash flows from an asset or has entered into a pass-through arrangement, it evaluates if, and to what
+extent, it has retained the risks and rewards of ownership. When it has neither transferred nor retained substantially all the risks and
+rewards of the asset, nor transferred control of the asset, the Group continues to recognize the transferred asset to the extent of its
+continuing involvement. In that case, the Group also recognizes an associated liability. The transferred asset and the associated liability
+are measured on a basis that reflects the rights and obligations that the Group has retained.
+
+Continuing involvement that takes
+the form of a guarantee over the transferred asset is measured at the lower of the original carrying amount of the asset and the maximum
+amount of consideration that the Group could be required to repay.
+
+F- 27
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+The derecognition of a financial
+asset by the Group occurs mainly in the definitive assignment of Accounts receivable from card issuers to third parties without substantial
+retention of risks and benefits of the assigned financial asset and without continuing involvement. The difference between the consideration
+received by the Group for the financial asset and its carrying amount is recognized under Financial expenses, net.
+
+6.1.1.5. Impairment
+of financial assets
+
+The Group recognizes an allowance
+for expected credit losses (“ECLs”) for all financial instruments measured at amortized cost or FVOCI. ECLs are based on the
+difference between the contractual cash flows due in accordance with the contract and all the cash flows that the Group expects to receive,
+discounted at an approximation of the original EIR. The expected cash flows will include cash flows from the sale of collateral held or
+other credit enhancements that are integral to the contractual terms.
+
+For the credit portfolio, the Group
+applies general approach in calculating ECLs, considering delinquency information, internal risk classification and risk parameters (“PD”
+– probability of default, “LGD” – loss given default and “EAD” – exposure at default), resulting
+in three-stage levels.
+
+For all other financial assets
+subject to ECL, the Group applies a simplified approach in calculating ECLs. Therefore, the Group does not track changes in credit risk,
+but instead recognizes a loss allowance based on lifetime ECLs, provision matrix and days past due at each reporting date.
+
+See details about ECL estimation
+procedures in Note 6.2.1.
+
+6.1.2. Financial liabilities
+
+6.1.2.1. Description
+of the funding strategy including different financial liabilities of the Financial services segment
+
+The Group’s different businesses
+require funding, in particular the financial services acquiring business, to be able to provide liquidity to customers mainly through
+the prepayment of the transactions processed by the Group (accounts payable to clients) and other credit facilities. Different forms of
+funding are sought, some of which comprise indebtedness presented as financial liabilities in the statement of financial position. The
+Group also fund its activities by selling accounts receivables on a fully non-recourse basis and passing to the counterparts all the risks
+and benefits of such assets (Note 6.2.1.2 - Accounts receivable from card issuers). In order to facilitate an understanding of the financial
+statements and how they relate to the underlying business the financial liabilities line items presented in the statement of financial
+position are summarized by the business activity that generates such liabilities, showing how they are measured and where their results
+are classified in the statement of profit or loss.
+
+Line item presented in the statement of financial position |
+Description of the related business activity |
+Basis of measurement |
+Line item of the statement of profit (loss) or statement of other comprehensive income (loss) where results generated are presented |
+
+|
+|
+|
+|
+
+Retail deposits |
+Amounts held by banking customers on their payment accounts and time deposits to retail clients. The amounts held by banking customers generally do not result in the recognition of gain or losses. |
+Amortized cost |
+Interest expense - Financial expenses, net |
+
+F- 28
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Line item presented in the statement of financial position |
+Description of the related business activity |
+Basis of measurement |
+Line item of the statement of profit (loss) or statement of other comprehensive income (loss) where results generated are presented |
+
+Accounts payable to clients |
+Amounts payable to merchants for transactions for acquiring business processes. The balances do not carry interest. Amounts may be early redeemed of the contractual due date at a discount |
+Amortized cost |
+Gain from the prepayment of payables at a discount - Financial income |
+
+Trade accounts payable |
+Corresponds to payments for payment scheme networks and suppliers. |
+Amortized cost |
+
+Cost of
+services
+
+Administrative
+expenses
+
+Selling
+expenses
+|
+
+Institutional deposits and marketable debt securities |
+Financing obtained, time deposits and debt securities, including FIDC shares, when consolidated entities. |
+Amortized cost |
+
+Interest
+expense - Financial expenses, net
+
+Foreign
+exchange gain or losses - Financial expenses, net
+|
+
+Other debt instruments |
+Financing obtained from third parties, leasing and other debt instruments. |
+Amortized cost |
+
+Interest
+expense - Financial expenses, net
+
+Foreign
+exchange gain or losses - Financial expenses, net
+|
+
+Derivative financial instruments liabilities |
+Corresponds to derivative entered into to manage the financial risks (mainly interest rate and foreign exchange) inherent to the acquiring business and related to the funding structure |
+FVPL |
+
+Fair value
+gain or losses - Financial expenses, net, except for those designated as hedge accounting
+
+Ineffective
+portion of change in fair value - Financial expenses, net
+
+Effective
+portion of change in fair value once reclassified from OCI - Financial expenses, net
+
+|
+
+Other liabilities - contingent consideration |
+Corresponds to contingent payments from business combinations |
+FVPL |
+
+Interest
+expenses - Financial expenses, net
+
+Fair value
+gain or losses - Other income (expenses), net
+
+|
+
+6.1.2.2. Initial
+recognition and measurement
+
+Financial liabilities are initially
+recognized at fair value plus costs (except liability at fair value through profit or loss) on the trading date and classified as amortized
+cost or FVPL.
+
+6.1.2.3. Subsequent
+measurement
+
+The measurement of financial liabilities
+depends on their classification, as described as follows.
+
+6.1.2.3.1. Financial liabilities at FVPL
+
+Financial liabilities at FVPL include
+financial liabilities held for trading and financial liabilities designated upon initial recognition as at FVPL.
+
+F- 29
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Financial liabilities are considered
+as held for trading if they are incurred for the purpose of repurchasing in the near term. This category also includes derivative financial
+instruments entered by the Group that are not designated as hedging instruments in hedge relationships as defined by IFRS 9 – Financial
+Instruments. Separated embedded derivatives are also classified as FVPL unless they are designated and qualify as hedge accounting.
+
+Gains or losses on liabilities
+held for trading are recognized in the statement of profit or loss.
+
+Financial liabilities designated
+upon initial recognition at FVPL only if the criteria in IFRS 9 are satisfied.
+
+This category includes derivative
+financial instruments and contingent consideration included in other liabilities.
+
+6.1.2.3.2. Financial liabilities at amortized cost
+
+Financial liabilities at amortized
+cost are subsequently measured using the EIR method. Gains and losses are recognized in profit or loss when the liabilities are derecognized
+as well as through the EIR amortization process.
+
+Amortized cost is calculated by
+considering any discount or premium on acquisition and fees or costs that are an integral part of the EIR. The EIR amortization is classified
+as Financial expenses, net in the statement of profit or loss.
+
+This category includes Accounts
+payable to clients and all other financial liabilities, except derivative financial instruments and contingent consideration included
+in other liabilities. This category is the most significant to the Group.
+
+Accounts payable to clients represent
+amounts due to accredited clients related to credit and debit card transactions, net of interchange fees retained by card issuers and
+assessment fees disbursed to payment scheme networks as well as the Group’s net merchant discount rate fees which are collected
+by the Group as an agent.
+
+6.1.2.4. Derecognition
+
+A financial liability is derecognized
+when the obligation under the liability is discharged, cancelled or expires. When an existing financial liability is replaced by another
+from the same lender on substantially different terms, or the terms of an existing liability are substantially modified, such an exchange
+or modification is treated as the derecognition of the original liability and the recognition of a new liability. The difference in the
+respective carrying amounts is recognized in the statement of profit or loss.
+
+6.1.3. Fair value of financial instruments
+
+The Group measures financial instruments
+at fair value at each statement of financial position date.
+
+Fair value is the price that would
+be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement
+date. The fair value measurement is based on the presumption that the transaction to sell the asset or transfer the liability takes place
+either:
+
+| • | In the principal market for the asset or liability; or |
+
+| • | In the absence of a principal market, in the most advantageous market for
+the asset or liability. |
+
+The principal or the most advantageous
+market must be accessible by the Group.
+
+The fair value of an asset or a
+liability is measured using the assumptions that market participants would use when pricing the asset or liability, assuming that market
+participants act in their economic best interest.
+
+The Group uses valuation techniques
+that are appropriate in the circumstances and for which sufficient data are available to measure fair value, maximizing the use of relevant
+observable inputs and minimizing the use of unobservable inputs.
+
+F- 30
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+All assets and liabilities for
+which fair value is measured or disclosed in the financial statements are categorized within the fair value hierarchy, described as follows,
+based on the lowest level input that is significant to the fair value measurement as a whole:
+
+The Group uses the following hierarchy
+to determine and disclose the fair value of financial instruments through measurement technique:
+
+| • | Level I: quoted prices in active markets for identical assets or liabilities; |
+
+| • | Level II: other techniques for which all inputs that have a significant effect on the recorded fair value
+are observable, either directly or indirectly; and |
+
+| • | Level III: techniques using inputs that have a significant effect on the recorded fair value that are
+not based on observable market data. |
+
+For assets and liabilities that
+are recognized in the financial statements at fair value on a recurring basis, the Group determines whether transfers have occurred between
+levels in the hierarchy by re-assessing categorization (based on the lowest level input that is significant to the fair value measurement
+as a whole) at the end of each reporting period.
+
+6.1.4. Offsetting of financial instruments
+
+Financial assets and financial
+liabilities are offset, and the net amount is reported in the consolidated statement of financial position, only if there is a currently
+enforceable legal right to offset the recognized amounts and there is an intention to settle on a net basis, to realize the assets and
+settle the liabilities simultaneously.
+
+As of December 31, 2024, and 2023,
+the Group has no financial instruments that meet the conditions for recognition on a net basis.
+
+6.1.5. Derivative financial instruments
+
+From time to time, the Group uses
+derivative financial instruments as part of its risk management strategy, as defined in the Market Risk Management Policy. It aims to
+hedge against exposure to fluctuations in exchange rates, interest rates, and other risk factors that may impact its financial operations.
+These instruments mitigate the effects of adverse market fluctuations and preserve the Group’s financial stability. The derivatives
+are continuously monitored to ensure compliance with the Group’s internal risk policies and applicable regulatory requirements.
+
+Depending
+on the instrument and the risk being hedged, derivative strategies may be accounted for as economic hedges or designated for hedge accounting
+under the categories of fair value hedge accounting or cash flow hedge accounting.
+
+Derivative financial instruments
+are initially recognized at fair value on the date on which a derivative contract is entered and are subsequently remeasured at FVPL.
+Derivatives are carried as financial assets when the fair value is positive and as financial liabilities when the fair value is negative.
+
+Certain agreements
+entered into by the Group for the acquisition of subsidiaries and associates include call options to acquire additional interests in
+the investees, which are classified as embedded derivatives. Each of the options is measured at FVPL in accordance with pre-determined
+formulas and recorded in the consolidated statement of financial position as an asset under Derivative financial instruments (Note 6.9 ).
+
+6.1.5.1. Cash flow hedge
+
+The Group uses hedge accounting
+to protect against future cash flow fluctuations arising from exposure to specific risks, such as changes in foreign exchange rates or
+interest rates.
+
+F- 31
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Cash flow hedge accounting is applied
+when the hedging relationship meets the required criteria under hedge accounting standards, including proper documentation at the time
+the hedge is entered into, and provided that the hedge is considered highly effective over time in mitigating the risk of cash flow fluctuations.
+
+The Group regularly reviews hedge
+effectiveness to ensure that gains or losses on the hedging instruments are appropriately accounted for. Any hedge ineffectiveness identified
+is immediately recognized in profit or loss for the year.
+
+Depending on the instrument and
+the risk being hedged, some of the Group’s derivative financial instruments are used as cash flow hedge accounting instruments.
+The effective portion of gains or losses arising from changes in the fair value of these derivatives are usually recognized in equity,
+in “Other comprehensive income.” The ineffective portion is recognized in the statement of profit or loss, in “Financial
+expenses, net.” For the hedged item classified as a financial instrument measured at amortized cost using the EIR method, the amount
+accumulated in the cash flow hedge reserve is reclassified to profit or loss when the hedged cash flows impact the statement of profit
+or loss. The method applied by the Group to reclassify the amounts is as follows: (i) the accrual interest portion of the derivative is
+also measured by the EIR method and recognized in the statement of profit or loss, in “Financial expenses, net”, following
+the hedged item accrual; and (ii) the remaining amounts related to fair value of hedging instrument is a temporal effect recognized in
+OCI at each reporting date, ultimately being recognized in profit or loss upon the liquidation of the hedging instrument (Note 6.9.1).
+
+6.1.5.2. Fair value hedge
+
+The Group applies fair value hedge
+accounting to protect against changes in the fair value of assets or liabilities arising from exposure to specific risks, such as changes
+in foreign exchange rates or interest rates. In accordance with IFRS, changes in the fair value of both the hedging instrument and the
+hedged item are recognized directly in profit or loss for the period. This allows gains or losses on the hedging instrument to offset,
+in whole or in part, the losses or gains on the hedged item.
+
+For a fair value hedge to be accounted
+for in this manner, the hedging relationship must meet specific criteria, such as formal documentation of the hedging objective and evidence
+that the hedge is highly effective in offsetting changes in the hedged item's fair value over time.
+
+The Group conducts regular effectiveness
+tests to ensure the hedging relationship remains effective. Any hedge ineffectiveness is immediately recognized in profit or loss for
+the year.
+
+6.1.5.3. Economic hedge
+
+The Group also uses derivative
+financial instruments as an economic hedge. These instruments are measured at FVPL and recorded as an asset or liability under Derivative
+financial instruments (Note 6.9.2).
+
+6.2. Significant judgments, estimates and assumptions
+
+6.2.1. Measurement of loss allowance for expected
+credit losses
+
+6.2.1.1 Credit portfolio
+
+The Group calculates an expected
+credit loss (“ECL") allowance for its loans based on statistical models that consider both internal and external historical
+data, negative credit information and guarantees, among other information addressing the behavior of each debtor. The Group calculates
+its credit portfolio in three stages:
+
+F- 32
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+| (i) | Stage 1: corresponds to loans that do not present significant increase in credit risk since origination
+and ECL are determined considering probability of default events within 12 months window; |
+
+| (ii) | Stage 2: corresponds to loans that presented significant increase in credit risk subsequent to origination
+and ECL are estimated considering probability of default events within the life of the financial instrument; |
+
+The Group determines
+Stage 2 based on following criteria:
+
+| (a) | absolute criteria: financial asset overdue more than 30 days, or; |
+
+| (b) | relative criteria: in addition to the absolute criteria, the Group analyzes the evolution of the risk
+of each financial instrument on a monthly basis, comparing the current behavior score attributed to each client with that attributed at
+the time of recognition of the financial asset. Behavioral scoring considers credit behavior variables, such as default on other products
+and market data about the customer. When the credit risk increases significatively since origination, the Stage 1 operations is moved
+to Stage 2. |
+
+For Stage 2, a cure
+criterion is applied when the financial asset no longer meets the criteria for a significant increase in credit risk, as mentioned above,
+and the loan is moved to Stage 1.
+
+| (iii) | Stage 3: corresponds to impaired loans. |
+
+The Group determine
+Stage 3 based on following criteria:
+
+| (a) | absolute criteria: financial asset overdue more than 90 days, or; |
+
+| (b) | relative criteria: indicators that the financial asset will not be paid in full without activating a guarantee
+or financial guarantee. |
+
+The indication that
+an obligation will not be paid in full includes the tolerance of financial instruments that imply the granting of advantages to the counterparty
+following the deterioration of the counterparty's credit quality.
+
+The Group also assumes
+a cure criterion for Stage 3, with respect to the counterparty's repayment capacity, such as the percentage of total debt paid or the
+time limit to liquidate current debt obligations.
+
+Management regularly seeks forward
+looking perspectives for future market developments including macroeconomic scenarios as well as its portfolio risk profile. Management
+may adjust the ECL resulting from the models above in order to better reflect this forward looking perspective.
+
+The information about the ECLs
+on the Group’s Credit portfolio to clients are disclosed in Note 6.6.
+
+6.2.1.2. Accounts
+receivable from card issuers
+
+The macroeconomic environment where
+Group operates is volatile and card issuers might be negatively impacted. Continuous monitoring this environment is crucial for the decisions
+on the provision and how the Group estimates its ECLs. The Group estimates ECLs based on available external and internal information that
+consider the expected nature and level of risk associated with receivables and the information about the different issuers (including
+when available, ratings from major agencies). The Group monitors credit risk of issuers.
+
+The information about the ECLs
+amount on the Group’s Accounts receivable from card issuers are disclosed in Note 6.4.2.
+
+6.2.1.3. Trade
+accounts receivable
+
+The provision rates are based on
+days past due for groupings of various client segments that have similar loss patterns (e.g., by product type, customer type and rating).
+
+The provision is initially based
+on the Group’s historical observed default rates. The Group calibrates to adjust the historical credit loss experience with forward-looking
+information every year.
+
+The information about the ECLs
+on the Group’s Trade accounts receivable are disclosed in Note 6.5.2.
+
+F- 33
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.2.2. Fair value measurement of financial instruments
+
+When the fair values of financial
+assets and financial liabilities recorded in the statement of financial position cannot be measured based on quoted prices in active markets,
+their fair value is measured using valuation techniques including the discounted cash flow (“DCF”) model. The inputs to these
+models are taken from observable markets where possible, but where this is not feasible, a degree of judgement is required in establishing
+fair values. Judgements include considerations of inputs such as liquidity risk, credit risk and volatility. Changes in assumptions relating
+to these factors could affect the reported fair value of financial instruments.
+
+6.3. Short
+and Long-term investments
+
+|
+|
+Short-term |
+|
+Long-term |
+|
+December 31, 2024 |
+
+Bonds (a) |
+|
+|
+|
+|
+|
+|
+
+Brazilian sovereign bonds |
+|
+46,426 |
+|
+— |
+|
+46,426 |
+
+Structured notes linked to Brazilian sovereign bonds |
+|
+418,120 |
+|
+— |
+|
+418,120 |
+
+Time deposits |
+|
+51,711 |
+|
+— |
+|
+51,711 |
+
+Equity securities (b) |
+|
+— |
+|
+32,629 |
+|
+32,629 |
+
+Investment funds (c) |
+|
+1,617 |
+|
+— |
+|
+1,617 |
+
+|
+|
+517,874 |
+|
+32,629 |
+|
+550,503 |
+
+|
+|
+|
+|
+|
+|
+|
+
+|
+|
+Short-term |
+|
+Long-term |
+|
+December 31, 2023 |
+
+Bonds (a) |
+|
+|
+|
+|
+|
+|
+
+Brazilian sovereign bonds |
+|
+2,954,236 |
+|
+— |
+|
+2,954,236 |
+
+Structured notes linked to Brazilian sovereign bonds |
+|
+473,259 |
+|
+— |
+|
+473,259 |
+
+Time deposits |
+|
+51,933 |
+|
+— |
+|
+51,933 |
+
+Equity securities (b) |
+|
+— |
+|
+45,702 |
+|
+45,702 |
+
+Investment funds (c) |
+|
+2,068 |
+|
+— |
+|
+2,068 |
+
+|
+|
+3,481,496 |
+|
+45,702 |
+|
+3,527,198 |
+
+| (a) | As of December 31, 2024, bonds are mainly linked to the CDI
+and SELIC benchmark interest rates. |
+
+| (b) | Comprised of common shares of unlisted entities that are not
+traded in an active market. As of December 31, 2024, all assets are recognized at FVPL, while on December 31, 2023, some assets were
+recognized at FVOCI. The fair value of unlisted equity instruments was determined based on negotiations of the securities. The change
+in the fair value of equity securities at FVPL was a gain of R$ 4,131 on December 31, 2024 (2023 - gain of R$ 30,574), which was recognized
+in the statement of profit or loss. The change in fair value of equity securities at FVOCI was a gain of R$ 37,270 on December 31, 2024
+(2023 - gain of R$ 1,912), which was recognized in the statement of other comprehensive income (loss). |
+
+| (c) | Comprised of foreign investment fund shares. |
+
+Short-term investments are denominated
+in Brazilian Reais and U.S. Dollars.
+
+6.4. Accounts receivable from card issuers
+
+6.4.1. Composition of accounts receivable from
+card issuers
+
+Accounts receivable are amounts
+due from card issuers and acquirers for the transactions of clients with card holders, performed in the ordinary course of business.
+
+|
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+Accounts receivable from card issuers (a) |
+|
+28,833,909 |
+|
+23,364,806 |
+
+F- 34
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Accounts receivable from other acquirers (b) |
+|
+575,044 |
+|
+667,922 |
+
+Allowance for expected credit losses |
+|
+(60,888) |
+|
+(55,619) |
+
+|
+|
+29,348,065 |
+|
+23,977,109 |
+
+|
+|
+|
+|
+|
+
+Current |
+|
+29,231,820 |
+|
+23,895,512 |
+
+Non-current |
+|
+116,245 |
+|
+81,597 |
+
+| (a) | Accounts receivable from card issuers, net of interchange fees,
+as a result of processing transactions with clients. |
+
+| (b) | Accounts receivable from other acquirers related to PSP (Payment
+Service Provider) transactions. |
+
+Part of the Group’s cash
+requirement is to make prepayments to acquiring customers. The Group finances those requirements through different sources of funding
+including the sale of receivables to third parties. When such sales of receivables are carried out to entities in which the Group has
+subordinated shares or quotas, the receivables sold remain in the statement of financial position, as these entities are consolidated
+in the financial statements. As of December 31, 2024 a total of R$ 419,099 (December 31, 2023 - R$ 467,622) were consolidated through
+FIDC ACR FAST and R$ 2,561,139 (December 31, 2023 - R$ null) through FIDC ACR I, of which the Group has subordinated shares. When the
+sale of receivables is carried out to non-controlled entities and for transactions where continuous involvement is not present, the amounts
+transferred are derecognized from the accounts receivable from card issuers. As of and for the year ended December 31, 2024, the sale
+of receivables that were derecognized from accounts receivables from card issuers in the statement of financial position represented the
+main form of funding used for the prepayment business.
+
+Accounts receivable held by FIDCs
+guarantee the Institutional deposits and marketable securities and Other Debt Instruments.
+
+6.4.2. Allowance for expected credit losses
+of accounts receivable from card issuers
+
+|
+|
+2024 |
+|
+2023 |
+
+At January 1 |
+|
+55,619 |
+|
+22,763 |
+
+Addition |
+|
+60,830 |
+|
+53,090 |
+
+Reversal |
+|
+(55,561) |
+|
+(20,234) |
+
+At December 31 |
+|
+60,888 |
+|
+55,619 |
+
+6.5. Trade accounts receivable
+
+6.5.1. Composition of trade accounts receivable
+
+| |
+December 31, 2024 | |
+December 31, 2023 |
+
+Accounts receivable from subscription services | |
+| 248,322 | | |
+| 293,304 | |
+
+Accounts receivable from equipment rental | |
+| 111,535 | | |
+| 114,252 | |
+
+Chargeback | |
+| 93,829 | | |
+| 72,401 | |
+
+Services rendered | |
+| 46,991 | | |
+| 51,456 | |
+
+Cash in transit | |
+| 12,620 | | |
+| 24,172 | |
+
+Receivables from registry operation | |
+| 13,643 | | |
+| 22,347 | |
+
+Allowance for expected credit losses | |
+| (131,260 | ) | |
+| (117,553 | ) |
+
+Others | |
+| 20,423 | | |
+| 28,101 | |
+
+| |
+| 416,103 | | |
+| 488,480 | |
+
+| |
+| | | |
+| | |
+
+Current | |
+| 390,575 | | |
+| 459,947 | |
+
+Non-current |
+|
+|
+25,528 |
+|
+|
+|
+28,533 |
+|
+
+F- 35
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.5.2. Allowance for expected credit losses
+of trade accounts receivable
+
+| |
+2024 | |
+2023 |
+
+| |
+| |
+|
+
+At January 1 | |
+| 117,553 | | |
+| 108,434 | |
+
+Addition | |
+| 89,882 | | |
+| 82,946 | |
+
+Reversal | |
+| (34,151 | ) | |
+| (17,668 | ) |
+
+Write-off | |
+| (42,024 | ) | |
+| (56,159 | ) |
+
+At December 31 | |
+| 131,260 | | |
+| 117,553 | |
+
+6.6. Credit portfolio
+
+Portfolio balances by product and
+maturity:
+
+| |
+December 31, 2024 | |
+December 31, 2023 |
+
+Merchant portfolio | |
+| 1,093,475 | | |
+| 309,677 | |
+
+Credit card | |
+| 114,156 | | |
+| 3,131 | |
+
+Credit portfolio, gross | |
+| 1,207,631 | | |
+| 312,808 | |
+
+| |
+| | | |
+| | |
+
+Allowance for expected credit losses | |
+| (144,512 | ) | |
+| (62,061 | ) |
+
+Credit portfolio, net of allowance for expected credit losses | |
+| 1,063,119 | | |
+| 250,747 | |
+
+| |
+| | | |
+| | |
+
+Current | |
+| 891,718 | | |
+| 209,957 | |
+
+Non-current | |
+| 171,401 | | |
+| 40,790 | |
+
+6.6.1. Non-performing loans ("NPL")
+
+Total outstanding of the contract
+whenever the clients default on an installment:
+
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+|
+Merchant portfolio |
+|
+Credit card |
+|
+Total |
+|
+Merchant portfolio |
+|
+Credit card |
+|
+Total |
+
+Balances not overdue |
+1,006,335 |
+|
+108,930 |
+|
+1,115,265 |
+|
+298,460 |
+|
+3,130 |
+|
+301,590 |
+
+Balances overdue by |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+≤ 15 days |
+17,462 |
+|
+1,390 |
+|
+18,852 |
+|
+4,350 |
+|
+1 |
+|
+4,351 |
+
+15 < 30 days |
+7,054 |
+|
+676 |
+|
+7,730 |
+|
+1,389 |
+|
+— |
+|
+1,389 |
+
+31 < 60 days |
+13,521 |
+|
+865 |
+|
+14,386 |
+|
+2,045 |
+|
+— |
+|
+2,045 |
+
+61 < 90 days |
+7,121 |
+|
+647 |
+|
+7,768 |
+|
+2,582 |
+|
+— |
+|
+2,582 |
+
+91 < 180 days |
+17,637 |
+|
+1,078 |
+|
+18,715 |
+|
+824 |
+|
+— |
+|
+824 |
+
+181 < 360 days |
+24,345 |
+|
+570 |
+|
+24,915 |
+|
+27 |
+|
+— |
+|
+27 |
+
+|
+87,140 |
+|
+5,226 |
+|
+92,366 |
+|
+11,217 |
+|
+1 |
+|
+11,218 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Credit portfolio, gross |
+1,093,475 |
+|
+114,156 |
+|
+1,207,631 |
+|
+309,677 |
+|
+3,131 |
+|
+312,808 |
+
+F- 36
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.6.2. Aging by maturity
+
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+|
+Merchant portfolio |
+|
+Credit card |
+|
+Total |
+|
+Merchant portfolio |
+|
+Credit card |
+|
+Total |
+
+Installments not overdue |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+≤ 15 days |
+23,083 |
+|
+30,638 |
+|
+53,721 |
+|
+1,666 |
+|
+615 |
+|
+2,281 |
+
+15 < 30 days |
+36,917 |
+|
+20,075 |
+|
+56,992 |
+|
+11,244 |
+|
+851 |
+|
+12,095 |
+
+31 < 60 days |
+99,015 |
+|
+19,492 |
+|
+118,507 |
+|
+30,213 |
+|
+457 |
+|
+30,670 |
+
+61 < 90 days |
+107,068 |
+|
+12,334 |
+|
+119,402 |
+|
+27,696 |
+|
+321 |
+|
+28,017 |
+
+91 < 180 days |
+268,770 |
+|
+19,019 |
+|
+287,789 |
+|
+82,415 |
+|
+525 |
+|
+82,940 |
+
+181 < 360 days |
+354,807 |
+|
+10,043 |
+|
+364,850 |
+|
+113,005 |
+|
+318 |
+|
+113,323 |
+
+361 < 720 days |
+148,084 |
+|
+6 |
+|
+148,090 |
+|
+41,572 |
+|
+1 |
+|
+41,573 |
+
+> 720 days |
+25,237 |
+|
+— |
+|
+25,237 |
+|
+61 |
+|
+— |
+|
+61 |
+
+|
+1,062,981 |
+|
+111,607 |
+|
+1,174,588 |
+|
+307,872 |
+|
+3,088 |
+|
+310,960 |
+
+Installments overdue by |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+≤ 15 days |
+2,561 |
+|
+514 |
+|
+3,075 |
+|
+247 |
+|
+2 |
+|
+249 |
+
+15 < 30 days |
+4,170 |
+|
+211 |
+|
+4,381 |
+|
+657 |
+|
+41 |
+|
+698 |
+
+31 < 60 days |
+4,614 |
+|
+512 |
+|
+5,126 |
+|
+799 |
+|
+— |
+|
+799 |
+
+61 < 90 days |
+3,865 |
+|
+344 |
+|
+4,209 |
+|
+99 |
+|
+— |
+|
+99 |
+
+91 < 180 days |
+9,091 |
+|
+706 |
+|
+9,797 |
+|
+3 |
+|
+— |
+|
+3 |
+
+181 < 360 days |
+6,193 |
+|
+262 |
+|
+6,455 |
+|
+— |
+|
+— |
+|
+— |
+
+|
+30,494 |
+|
+2,549 |
+|
+33,043 |
+|
+1,805 |
+|
+43 |
+|
+1,848 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Credit portfolio, gross |
+1,093,475 |
+|
+114,156 |
+|
+1,207,631 |
+|
+309,677 |
+|
+3,131 |
+|
+312,808 |
+
+6.6.3. Movement between stages - Gross carrying
+amount
+
+Reconciliation of gross portfolio
+of loans operations, segregated by stages:
+
+Stage 1 |
+|
+December 31, 2023 |
+|
+Acquisition / (Settlement) |
+|
+Transfer to stage 2 |
+|
+Transfer to stage 3 |
+|
+Cure from stage 2 |
+|
+Cure from stage 3 |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+296,282 |
+|
+791,295 |
+|
+(125,424) |
+|
+(7,276) |
+|
+37,116 |
+|
+1,726 |
+|
+— |
+|
+993,719 |
+
+Credit card |
+|
+3,131 |
+|
+110,119 |
+|
+(11,679) |
+|
+(472) |
+|
+1,960 |
+|
+242 |
+|
+— |
+|
+103,301 |
+
+|
+|
+299,413 |
+|
+901,414 |
+|
+(137,103) |
+|
+(7,748) |
+|
+39,076 |
+|
+1,968 |
+|
+— |
+|
+1,097,020 |
+
+Stage 2 |
+|
+December 31, 2023 |
+|
+Acquisition / (Settlement) |
+|
+Cure to stage 1 |
+|
+Transfer to stage 3 |
+|
+Transfer from stage 1 |
+|
+Cure from stage 3 |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+12,195 |
+|
+940 |
+|
+(37,116) |
+|
+(59,832) |
+|
+125,424 |
+|
+860 |
+|
+— |
+|
+42,471 |
+
+Credit card |
+|
+— |
+|
+703 |
+|
+(1,960) |
+|
+(1,768) |
+|
+11,679 |
+|
+55 |
+|
+— |
+|
+8,709 |
+
+|
+|
+12,195 |
+|
+1,643 |
+|
+(39,076) |
+|
+(61,600) |
+|
+137,103 |
+|
+915 |
+|
+— |
+|
+51,180 |
+
+Stage 3 |
+|
+December 31, 2023 |
+|
+Acquisition / (Settlement) |
+|
+Cure to stage 1 |
+|
+Cure to stage 2 |
+|
+Transfer from stage 1 |
+|
+Transfer from stage 2 |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+1,200 |
+|
+(1,111) |
+|
+(1,726) |
+|
+(860) |
+|
+7,276 |
+|
+59,832 |
+|
+(7,326) |
+|
+57,285 |
+
+Credit card |
+|
+— |
+|
+203 |
+|
+(242) |
+|
+(55) |
+|
+472 |
+|
+1,768 |
+|
+— |
+|
+2,146 |
+
+|
+|
+1,200 |
+|
+(908) |
+|
+(1,968) |
+|
+(915) |
+|
+7,748 |
+|
+61,600 |
+|
+(7,326) |
+|
+59,431 |
+
+F- 37
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+Consolidated 3 stages |
+|
+December 31, 2023 |
+|
+Write-off |
+|
+Acquisition / (Settlement) |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+309,677 |
+|
+(7,326) |
+|
+791,124 |
+|
+1,093,475 |
+
+Credit card |
+|
+3,131 |
+|
+— |
+|
+111,025 |
+|
+114,156 |
+
+|
+|
+312,808 |
+|
+(7,326) |
+|
+902,149 |
+|
+1,207,631 |
+
+6.6.4. Movement between stages - Allowance for
+expected credit losses of loans operations
+
+Stage 1 |
+|
+December 31, 2023 |
+|
+(Acquisition) / Settlement |
+|
+Transfer to stage 2 |
+|
+Transfer to stage 3 |
+|
+Cure from stage 2 |
+|
+Cure from stage 3 |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+(57,576) |
+|
+(55,539) |
+|
+43,623 |
+|
+5,097 |
+|
+(4,389) |
+|
+(165) |
+|
+— |
+|
+(68,949) |
+
+Credit card |
+|
+(200) |
+|
+(12,765) |
+|
+5,156 |
+|
+403 |
+|
+(372) |
+|
+(27) |
+|
+— |
+|
+(7,805) |
+
+|
+|
+(57,776) |
+|
+(68,304) |
+|
+48,779 |
+|
+5,500 |
+|
+(4,761) |
+|
+(192) |
+|
+— |
+|
+(76,754) |
+
+Stage 2 |
+|
+December 31, 2023 |
+|
+(Acquisition) / Settlement |
+|
+Cure to stage 1 |
+|
+Transfer to stage 3 |
+|
+Transfer from stage 1 |
+|
+Cure from stage 3 |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+(3,445) |
+|
+(18,465) |
+|
+4,389 |
+|
+41,884 |
+|
+(43,623) |
+|
+(327) |
+|
+— |
+|
+(19,587) |
+
+Credit card |
+|
+— |
+|
+(372) |
+|
+372 |
+|
+1,311 |
+|
+(5,156) |
+|
+(25) |
+|
+— |
+|
+(3,870) |
+
+|
+|
+(3,445) |
+|
+(18,837) |
+|
+4,761 |
+|
+43,195 |
+|
+(48,779) |
+|
+(352) |
+|
+— |
+|
+(23,457) |
+
+Stage 3 |
+|
+December 31, 2023 |
+|
+(Acquisition) / Settlement |
+|
+Cure to stage 1 |
+|
+Cure to stage 2 |
+|
+Transfer from stage 1 |
+|
+Transfer from stage 2 |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+(840) |
+|
+(2,714) |
+0 |
+165 |
+|
+327 |
+|
+(5,097) |
+|
+(41,884) |
+|
+7,326 |
+|
+(42,717) |
+
+Credit card |
+|
+— |
+|
+78 |
+|
+27 |
+|
+25 |
+|
+(403) |
+|
+(1,311) |
+|
+— |
+|
+(1,584) |
+
+|
+|
+(840) |
+|
+(2,636) |
+|
+192 |
+|
+352 |
+|
+(5,500) |
+|
+(43,195) |
+|
+7,326 |
+|
+(44,301) |
+
+Consolidated 3 stages |
+|
+December 31, 2023 |
+|
+(Acquisition) / Settlement |
+|
+Write-off |
+|
+December 31, 2024 |
+
+Merchant portfolio |
+|
+(61,861) |
+|
+(76,718) |
+|
+7,326 |
+|
+(131,253) |
+
+Credit card |
+|
+(200) |
+|
+(13,059) |
+|
+— |
+|
+(13,259) |
+
+|
+|
+(62,061) |
+|
+(89,777) |
+|
+7,326 |
+|
+(144,512) |
+
+6.7. Financial assets from banking solutions
+
+As required by Brazilian Central
+Bank (“BACEN”) regulation, client’s proceeds deposited in payment accounts (“Deposits from retail clients”
+- Note 6.8.1) must be fully collateralized by government securities, and/or deposits at BACEN (“CCME”).
+
+As of December 31, 2024, the amount
+of financial assets from banking solutions was R$ 8,805,882 (December 31, 2023 - R$ 6,397,898), fully collateralized by CCME.
+
+6.8. Financial liabilities
+
+6.8.1. Retail deposits
+
+|
+December 31, 2024 |
+|
+December 31, 2023 |
+
+Deposits from retail clients |
+8,274,868 |
+|
+6,119,455 |
+
+Time deposits from retail clients (a) |
+429,941 |
+|
+— |
+
+|
+8,704,809 |
+|
+6,119,455 |
+
+F- 38
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+| (a) | Deposit interest rates yield up to 100% of the CDI and are applied every 30 days from the deposit date,
+following a FIFO (First In, First Out) logic. |
+
+6.8.2. Composition of financial liabilities
+
+The table below presents the composition
+of financial liabilities other than Retail deposits:
+
+|
+|
+Average annual interest rate % |
+|
+Original date of issuance |
+|
+Original maturity |
+|
+Current portion |
+|
+Non-current portion |
+|
+December 31, 2024 |
+
+Bonds (6.8.4.1) |
+|
+3.95% USD |
+|
+Jun/21 |
+|
+Jun/28 |
+|
+2,299 |
+|
+1,255,963 |
+|
+1,258,262 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Debentures (6.8.4.2) |
+|
+CDI (a) + 1.75% |
+|
+Nov/23 |
+|
+Oct/26 |
+|
+23,657 |
+|
+999,538 |
+|
+1,023,195 |
+
+Financial bills (6.8.4.3) |
+|
+CDI + 0.68% to CDI + 0.90% |
+|
+Jun/24 |
+|
+Jun/26 up to Nov/28 |
+|
+— |
+|
+2,954,374 |
+|
+2,954,374 |
+
+Receivables backed securities (6.8.4.4) |
+|
+CDI +1.30% |
+|
+Sep/23 |
+|
+Sep/26 |
+|
+2,250 |
+|
+99,447 |
+|
+101,697 |
+
+Total debentures, financial bills and commercial papers |
+|
+|
+|
+|
+|
+|
+|
+25,907 |
+|
+4,053,359 |
+|
+4,079,266 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Obligations to open-end FIDC quota holders (6.8.4.5) |
+|
+CDI + 0.40% |
+|
+Jul/23 |
+|
+Not applicable |
+|
+418,324 |
+|
+— |
+|
+418,324 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Time deposits (6.8.4.6) |
+|
+CDI + 0.25% to 110% of CDI |
+|
+May/24 |
+|
+Jan/25 up to Jun/26 |
+|
+2,619,469 |
+|
+120,641 |
+|
+2,740,110 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Total institutional deposits and marketable debt securities |
+|
+|
+|
+|
+|
+|
+|
+3,065,999 |
+|
+5,429,963 |
+|
+8,495,962 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Obligations to closed-end FIDC quota holders (6.8.4.8) |
+|
+12.75% |
+|
+Jan/24 |
+|
+Jan/31 |
+|
+— |
+|
+1,988,645 |
+|
+1,988,645 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Bank borrowings and working capital facilities (6.8.4.9) |
+|
+CDI + 0.75% to CDI + 1.74% |
+|
+Jan/24 |
+|
+Jan/25 up to Dec/27 |
+|
+1,853,944 |
+|
+310,386 |
+|
+2,164,330 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Leases (6.8.4.10) |
+|
+105.1% to 151.8% of CDI |
+|
+Not applicable |
+|
+Jan/25 up to Jun/29 |
+|
+49,896 |
+|
+197,108 |
+|
+247,004 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Total other debt instruments |
+|
+|
+|
+|
+|
+|
+|
+1,903,840 |
+|
+2,496,139 |
+|
+4,399,979 |
+
+|
+|
+Average annual interest rate % |
+|
+Original date of issuance |
+|
+Original maturity |
+|
+Current portion |
+|
+Non-current portion |
+|
+December 31, 2023 |
+
+Bonds (6.8.4.1) |
+|
+3.95% USD |
+|
+Jun/21 |
+|
+Jun/28 |
+|
+2,922 |
+|
+2,399,776 |
+|
+2,402,698 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Debentures (6.8.4.2) |
+|
+CDI (a) + 1.75% |
+|
+Nov/23 |
+|
+Oct/26 |
+|
+16,953 |
+|
+997,281 |
+|
+1,014,234 |
+
+Receivables backed securities (6.8.4.3) |
+|
+CDI + 1.30% |
+|
+Sep/23 |
+|
+Sep/26 |
+|
+3,316 |
+|
+98,702 |
+|
+102,018 |
+
+Total debentures, financial bills and commercial papers |
+|
+|
+|
+|
+|
+|
+|
+20,269 |
+|
+1,095,983 |
+|
+1,116,252 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Obligations to open-end FIDC quota holders (6.8.4.5) |
+|
+CDI + 1.12% |
+|
+Jul/23 |
+|
+Not applicable |
+|
+452,128 |
+|
+— |
+|
+452,128 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Total institutional deposits and marketable debt securities |
+|
+|
+|
+|
+|
+|
+|
+475,319 |
+|
+3,495,759 |
+|
+3,971,078 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Obligations to FIDC TAPSO quota holders (6.8.4.7) |
+|
+CDI + 1.85% |
+|
+Jul/23 |
+|
+Jul/24 |
+|
+53,103 |
+|
+— |
+|
+53,103 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Bank borrowings and working capital facilities (6.8.4.9) |
+|
+CDI + 1.30% to CDI + 1.94% |
+|
+(Several) |
+|
+Up to six months |
+|
+1,321,348 |
+|
+— |
+|
+1,321,348 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Leases (6.8.4.10) |
+|
+105.1% to 151.8% of CDI |
+|
+Not applicable |
+|
+Jan/23 to Jun/29 |
+|
+30,227 |
+|
+143,456 |
+|
+173,683 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Total other debt instruments |
+|
+|
+|
+|
+|
+|
+|
+1,404,678 |
+|
+143,456 |
+|
+1,548,134 |
+
+| (a) | “CDI” Rate (Brazilian Certificado de Depósito
+Interbancário), which is an average of interbank overnight rates in Brazil. The average rate of December 31, 2024 was 10.83% (2023
+– 13.04%). |
+
+F- 39
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.8.3. Changes in financial liabilities
+
+The table below presents the movement
+of financial liabilities other than Retail deposits:
+
+|
+December 31, 2023 |
+|
+Additions |
+|
+Disposals |
+|
+Payment of principal |
+|
+Payment of interest |
+|
+Changes in exchange rates |
+|
+Fair value adjustment |
+|
+Interest |
+|
+December 31, 2024 |
+
+Bonds |
+2,402,698 |
+|
+— |
+|
+— |
+|
+(1,610,349) |
+|
+(141,298) |
+|
+520,419 |
+|
+— |
+|
+86,792 |
+|
+1,258,262 |
+
+Debentures, financial bills and commercial papers (a) |
+1,116,252 |
+|
+2,884,768 |
+|
+— |
+|
+— |
+|
+(172,598) |
+|
+— |
+|
+— |
+|
+250,844 |
+|
+4,079,266 |
+
+Time deposits (b) |
+— |
+|
+3,564,387 |
+|
+— |
+|
+(889,077) |
+|
+(22,876) |
+|
+— |
+|
+— |
+|
+87,676 |
+|
+2,740,110 |
+
+Obligations to open-end FIDC quota holders |
+452,128 |
+|
+136,782 |
+|
+— |
+|
+(214,148) |
+|
+(12,229) |
+|
+— |
+|
+— |
+|
+55,791 |
+|
+418,324 |
+
+Institutional deposits and marketable debt securities |
+3,971,078 |
+|
+6,585,937 |
+|
+— |
+|
+(2,713,574) |
+|
+(349,001) |
+|
+520,419 |
+|
+— |
+|
+481,103 |
+|
+8,495,962 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+475,319 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+3,065,999 |
+
+Non-current |
+3,495,759 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+5,429,963 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Obligations to closed-end FIDC quota holders |
+53,103 |
+|
+2,325,984 |
+|
+— |
+|
+(50,000) |
+|
+(149,468) |
+|
+— |
+|
+(437,347) |
+|
+246,373 |
+|
+1,988,645 |
+
+Bank borrowings and working capital facilities |
+1,321,348 |
+|
+3,671,737 |
+|
+— |
+|
+(2,999,824) |
+|
+(124,490) |
+|
+157,832 |
+|
+— |
+|
+137,727 |
+|
+2,164,330 |
+
+Leases |
+173,683 |
+|
+140,784 |
+|
+(4,623) |
+|
+(68,971) |
+|
+(14,292) |
+|
+6,132 |
+|
+— |
+|
+14,291 |
+|
+247,004 |
+
+Other debt instruments |
+1,548,134 |
+|
+6,138,505 |
+|
+(4,623) |
+|
+(3,118,795) |
+|
+(288,250) |
+|
+163,964 |
+|
+(437,347) |
+|
+398,391 |
+|
+4,399,979 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+1,404,678 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+1,903,840 |
+
+Non-current |
+143,456 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+2,496,139 |
+
+| (a) | The subsidiary Stone SCFI issues financial bills in the ordinary
+course of the business. The principal and interest of all issuances are mainly paid at the maturity indexed to CDI rate. |
+
+| (b) | Following the authorization granted by the Brazilian central
+bank (“BACEN”) to start operations earlier this year, the Group issues time deposits in the ordinary course of the business.
+Time deposits were the first interest bearing deposits issued by the Group. The certificates are held by multiple counterparties and
+maturities up to 24 months. The principal and interest of this type of issuance are mainly paid at the maturity indexed to CDI rate. |
+
+|
+December
+31, 2022 |
+|
+Additions |
+|
+Disposals |
+|
+Payment
+of principal |
+|
+Payment
+of interest |
+|
+Changes
+in exchange rates |
+|
+Fair
+value adjustment |
+|
+Interest |
+|
+December
+31, 2023 |
+
+Bonds |
+2,587,303 |
+|
+— |
+|
+— |
+|
+— |
+|
+(96,157 |
+) |
+(188,440 |
+) |
+— |
+|
+99,992 |
+|
+2,402,698 |
+
+Debentures,
+financial bills and commercial papers |
+— |
+|
+1,093,410 |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+— |
+|
+22,842 |
+|
+1,116,252 |
+
+Obligations
+to open-end FIDC quota holders |
+— |
+|
+514,752 |
+|
+— |
+|
+(75,004 |
+) |
+(2,413 |
+) |
+— |
+|
+— |
+|
+14,793 |
+|
+452,128 |
+
+Institutional
+deposits and marketable debt securities |
+2,587,303 |
+|
+1,608,162 |
+|
+— |
+|
+(75,004 |
+) |
+(98,570 |
+) |
+(188,440 |
+) |
+— |
+|
+137,627 |
+|
+3,971,078 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+— |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+475,319 |
+
+Non-current |
+2,587,303 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+3,495,759 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Obligations
+to closed-end FIDC quota holders |
+975,248 |
+|
+50,000 |
+|
+— |
+|
+(957,499 |
+) |
+(70,996 |
+) |
+— |
+|
+— |
+|
+56,350 |
+|
+53,103 |
+
+Bank
+borrowings and working capital facilities |
+1,788,426 |
+|
+4,088,209 |
+|
+— |
+|
+(4,489,681 |
+) |
+(246,738 |
+) |
+(4,326 |
+) |
+— |
+|
+185,458 |
+|
+1,321,348 |
+
+Leases |
+200,148 |
+|
+67,416 |
+|
+(21,225) |
+|
+(72,815 |
+) |
+(13,764 |
+) |
+156 |
+|
+— |
+|
+13,767 |
+|
+173,683 |
+
+Other
+debt instruments |
+2,963,822 |
+|
+4,205,625 |
+|
+(21,225) |
+|
+(5,519,995 |
+) |
+(331,498) |
+|
+(4,170 |
+) |
+— |
+|
+255,575 |
+|
+1,548,134 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Current |
+2,822,655 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+1,404,678 |
+
+Non-current |
+141,167 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+143,456 |
+
+F- 40
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.8.4. Description of financial liabilities
+
+In the ordinary course of the business,
+the Group funds its operations through a mix of own cash, debt and sale of receivables to third parties.
+
+6.8.4.1. Bonds
+
+The Company issued bonds in 2021,
+raising USD 500 million in seven-year notes with a final yield of 3.95%. The total issuance was R$ 2,510,350 (R$ 2,477,408 net of
+the offering transaction costs, which will be amortized over the tenure of the debt). The Group has entered into a hedge to protect its
+currency risk (Note 6.9.1).
+
+During 2024, a tender offer was
+executed, repurchasing approximately 60% of the outstanding bonds.
+
+6.8.4.2. Debentures
+
+On November 8, 2023 the subsidiary
+MNLT concluded its first issuance of debentures placing R$ 1,000,000 with a three- year maturity at CDI + 1.75% p.a. The debentures are
+guaranteed by both Stone IP and by the Company being the first corporate issuance by the Group in the Brazilian capital markets.
+
+6.8.4.3. Financial
+bills
+
+The Group issued financial bills
+through public offerings and private placements, with multiple counterparties and maturities. The principal and the interest are mainly
+paid at the date of maturity.
+
+6.8.4.4. Receivables backed securities
+
+On September 6, 2023, a Certificate
+of Real Estate Receivables ("CRI") was issued by Opea Securitizadora S.A., raising R$ 100,000 in a three-year note bearing interest
+at CDI + 1.30% p.a. The CRI security is backed by commercial notes issued by Stone IP as well as STNE Par. This was the first funding
+structure of the Group to access retail and with institutional investors.
+
+6.8.4.5. Obligations to open-end FIDC quota holders
+
+The FIDC ACR FAST was issued with
+the Group as a sponsor as well as a quota holder. This was the first open-end fund with third parties, in which the Group holds subordinated
+quotas, resulting in the consolidation of the whole structure. The main goal of this structure is to access the money market funds sector.
+Being an open-end fund, redemptions are settled 30 days after requested by quota holders.
+
+6.8.4.6. Time deposits
+
+The Group issues time deposits
+to fund its operations. The issuances have occurred with multiple counterparties and also through third-party brokers and/or platforms.
+The principal and the interest are mainly paid at the date of maturity.
+
+Time deposits distributed directly
+through own platform can have automatic redemption at any time for the Group’s clients and are recognized under Retail deposits.
+
+6.8.4.7. Obligations to FIDC TAPSO quota holders
+
+In February 2022, the Group negotiated
+an amendment of the contract to postpone the payment date of the principal to March 2023. The mezzanine quotas were settled on March 2,
+2023. Upon maturity of the mezzanine quotas, in July 2023 the Group negotiated new issuance of FIDC TAPSO senior shares.
+
+In July 2024, there was a full
+redemption of FIDC TAPSO senior quotas.
+
+F- 41
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.8.4.8. Obligations to closed-end FIDC quota holders
+
+FIDC ACR I issued quotas in exchange
+for a contribution of R$ 2,325,984. The contribution was made by a special purpose vehicle funded by a revolving facility in which United
+States International Development Finance Corporation (“DFC”) has invested US$ 467.5 million, funding the Groups’s prepayment
+business through this FIDC. The special purpose vehicle entered into foreign currency derivatives with financial institutions to convert
+the receivable denominated in R$ it holds from FIDC ACR I into US$. StoneCo has to provide guarantees to the vehicles in the event of
+certain defined default events on the derivatives by such financial institutions. Considering the current risk rating of the institutions,
+the fair value of the guarantee is estimated to be immaterial.
+
+FIDC ACR I has a final maturity
+of seven years and pays a semi-annual coupon at a fixed rate of 12.75% in R$.
+
+6.8.4.9. Bank borrowings
+
+The Group issues bilateral unsecured
+term loans, with multiple counterparties and maturities. The principal and the interest of this type of loan are mainly paid at the date
+of maturity. The proceeds of these loans were used mainly for prepayments to acquiring customers.
+
+6.8.4.10. Leases
+
+The Group has lease contracts for
+various items of offices, vehicles and software in its operations. The Group’s obligations under its leases are secured by the lessor’s
+title to the leased assets. Generally, the Group is restricted from assigning and subleasing the leased assets.
+
+6.9. Derivative financial instruments
+
+The Group executes exchange-traded
+and Over-the-counter (“OTC”) instruments to hedge its foreign currency and interest rate exposure. All counterparties are
+previously approved for OTC transactions following a counterparty policy, and internal committees monitor and control the counterparty
+risk associated with those transactions.
+
+|
+December 31, 2024 |
+
+|
+Notional amount |
+|
+
+Asset
+
+(fair value)
+
+|
+|
+
+Liabilities
+
+(fair value)
+|
+|
+Net |
+
+Cash flow hedge |
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange rate swap |
+3,994,559 |
+|
+214,169 |
+|
+— |
+|
+214,169 |
+
+Fair value hedge |
+|
+|
+|
+|
+|
+|
+|
+
+Interest rate swap |
+2,837,758 |
+|
+5,373 |
+|
+(281,177) |
+|
+(275,804) |
+
+Economic hedge |
+|
+|
+|
+|
+|
+|
+|
+
+NDF |
+15,359 |
+|
+1,784 |
+|
+(9,578) |
+|
+(7,794) |
+
+Interest rate swap |
+8,008,992 |
+|
+36,249 |
+|
+(1,015) |
+|
+35,234 |
+
+M&A derivatives |
+|
+|
+|
+|
+|
+|
+|
+
+Call options |
+n/a |
+|
+2,613 |
+|
+— |
+|
+2,613 |
+
+Total |
+14,856,668 |
+|
+260,188 |
+|
+(291,770) |
+|
+(31,582) |
+
+F- 42
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+|
+December 31, 2023 |
+
+|
+Notional amount |
+|
+
+Asset
+
+(fair value)
+
+|
+|
+
+Liabilities
+
+(fair value)
+|
+|
+Net |
+
+Cash flow hedge |
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange rate swap |
+2,526,603 |
+|
+— |
+|
+(311,445) |
+|
+(311,445) |
+
+Economic hedge |
+|
+|
+|
+|
+|
+|
+|
+
+NDF |
+7,030 |
+|
+629 |
+|
+(302) |
+|
+327 |
+
+Interest rate swap |
+6,079,500 |
+|
+|
+|
+(4,424) |
+|
+(4,424) |
+
+M&A derivatives |
+|
+|
+|
+|
+|
+|
+|
+
+Call options |
+n/a |
+|
+3,553 |
+|
+— |
+|
+3,553 |
+
+Total |
+8,613,133 |
+|
+4,182 |
+|
+(316,171) |
+|
+(311,989) |
+
+6.9.1. Hedge accounting
+
+6.9.1.1. Breakdown
+by maturity
+
+The table below shows the breakdown
+by maturity of the notional amounts and fair values of derivative financial instruments used for hedging purposes:
+
+|
+December 31, 2024 |
+
+|
+Less than 3 months |
+|
+3 to 12 months |
+|
+More than 12 months |
+|
+Total |
+
+Notional |
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange rate swap |
+— |
+|
+1,510,788 |
+|
+2,483,771 |
+|
+3,994,559 |
+
+Interest rate swap |
+2,129,636 |
+|
+6,127,456 |
+|
+2,589,658 |
+|
+10,846,750 |
+
+NDF |
+15,359 |
+|
+— |
+|
+— |
+|
+15,359 |
+
+Total |
+2,144,995 |
+|
+7,638,244 |
+|
+5,073,429 |
+|
+14,856,668 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Asset (fair value) |
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange rate swap |
+— |
+|
+115,368 |
+|
+98,801 |
+|
+214,169 |
+
+Interest rate swap |
+8,037 |
+|
+29,012 |
+|
+4,573 |
+|
+41,622 |
+
+NDF |
+1,784 |
+|
+— |
+|
+— |
+|
+1,784 |
+
+Liability (fair value) |
+|
+|
+|
+|
+|
+|
+|
+
+Interest rate swap |
+— |
+|
+(1,015) |
+|
+(281,177) |
+|
+(282,192) |
+
+NDF |
+(9,578) |
+|
+— |
+|
+— |
+|
+(9,578) |
+
+Net |
+243 |
+|
+143,365 |
+|
+(177,803) |
+|
+(34,195) |
+
+F- 43
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+|
+December 31, 2023 |
+
+|
+Less than 3 months |
+|
+3 to 12 months |
+|
+More than 12 months |
+|
+Total |
+
+Notional |
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange rate swap |
+— |
+|
+— |
+|
+2,526,603 |
+|
+2,526,603 |
+
+NDF |
+7,030 |
+|
+— |
+|
+— |
+|
+7,030 |
+
+Interest rate swap |
+2,692,500 |
+|
+3,354,400 |
+|
+32,600 |
+|
+6,079,500 |
+
+Total |
+2,699,530 |
+|
+3,354,400 |
+|
+2,559,203 |
+|
+8,613,133 |
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+Asset (fair value) |
+|
+|
+|
+|
+|
+|
+|
+
+NDF |
+629 |
+|
+— |
+|
+— |
+|
+629 |
+
+Liability (fair value) |
+|
+|
+|
+|
+|
+|
+|
+
+Foreign exchange rate swap |
+— |
+|
+— |
+|
+(311,445) |
+|
+(311,445) |
+
+Interest rate swap |
+(2,076) |
+|
+(2,180) |
+|
+(168) |
+|
+(4,424) |
+
+NDF |
+(302) |
+|
+— |
+|
+— |
+|
+(302) |
+
+Net |
+(1,749) |
+|
+(2,180) |
+|
+(311,613) |
+|
+(315,542) |
+
+6.9.2. Economic hedge
+
+The Group engages in certain hedging
+transactions to mitigate specific financial risks, such as fluctuations in foreign currencies and interest rates. Some of these transactions
+are not formally designated for hedge accounting.
+
+Although these derivatives are
+used to manage economic risks, changes in their fair value are recognized directly in profit or loss for the period without the application
+of the specific accounting treatments of hedge accounting. This means that the gains and losses generated by these instruments are fully
+accounted for in profit or loss as they occur, reflecting changes in the fair value of the derivatives.
+
+The decision not to apply hedge
+accounting to these transactions may be due to considerations such as the administrative cost of the formal documentation required by
+hedge accounting standards, the nature of the instruments, or the desired operational flexibility. Nevertheless, the Group continues monitoring
+these instruments to ensure their use aligns with the overall risk management strategy.
+
+6.10. Financial risk management
+
+The Group’s activities expose
+it to market, liquidity and credit risks.
+
+The Risk Management Area carries
+the Group’s financial risk management.
+
+The Board of Directors has approved
+policies, and limits for its financial risk management. The Group uses financial derivatives only to mitigate market risk exposures. The
+Group’s policy is not to engage in derivatives for speculative purposes. Different levels of managerial approval are required for
+entering into financial instruments depending on their nature and the type of risk associated.
+
+F- 44
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.10.1. Credit risk
+
+Credit risk is defined as the risk
+that a counterparty will not meet its obligations under a financial instrument or customer contract, leading to a financial loss. The
+Group’s counterparties include those in financial contracts (cash and cash equivalents, derivative financial instruments, credit
+portfolio, and deposits with banks and other financial institutions) and in operating activities (accounts receivable from card issuers,
+including outstanding receivables and commitments, advances to suppliers, and financial guarantees granted to third parties).
+
+6.10.1.1. Financial instruments and cash deposits
+
+Credit risk from balances with
+banks and financial institutions is managed in accordance with the Group’s internal policies. Investments of surplus funds and the
+use of derivative instruments are only conducted with carefully selected financial institutions.
+
+6.10.1.2. Accounts receivable from card issuers
+
+Card issuers, once accepted by
+the networks, issue cards that when transacted are processed by acquirers. Card issuers have different risk profiles.
+
+The Group, with frequency associated
+with the availability of new information or new financial indicators of card issuers, carries out assessments of these companies, aiming
+to identify potential risks. Payment scheme networks have credit risk mitigation mechanisms that vary by network that are available to
+acquirers like the Group. To date, the Group has not incurred any significant loss from card issuer receivables.
+
+6.10.1.3 Credit portfolio
+
+Merchant portfolio and credit cards
+are available solely to individuals and businesses that are existing customers of the Group through acquiring or banking.
+
+Merchant portfolio loans rely on
+the main repayment source and collateral future receivables of customers while credit card line limits may be unsecured; the line is generally
+a portion of the total credit line available to a particular customer based on credit appetite and risk rating.
+
+6.10.2. Market risk
+
+Market risk is the risk of financial
+loss resulting from changes in the fair value or future cash flows of financial instruments due to changes in market conditions.
+
+In the ordinary course of business,
+the Group executes financial transactions that are subject to market variables and, therefore, exposed to market risk.
+
+Market risk comprises mainly: foreign
+exchange risk, interest rate risk and equity price risk.
+
+6.10.2.1. Interest rate risk
+
+The Group’s interest rate
+risk arises from mismatches among certain assets (mainly cash and equivalents, short-term investments, accounts receivables, credit portfolio)
+and liabilities (institutional deposits and marketable debt securities, and other debt instruments) with different benchmarks (fixed or
+linked to CDI) and maturity dates. The Group may mitigate its exposure by executing derivative transactions to match those benchmarks
+and duration gaps.
+
+F- 45
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+6.10.2.2. Foreign currency risk
+
+The Group has assets and liabilities
+in foreign currencies. The foreign currency risk is generated by fluctuations in exchange rates among Brazilian reais and other currencies.
+Operations include cash and short-term investments in multiple countries and total payment volume (“TPV”) processed in foreign
+exchange. Significant capital expenditures (Pin Pads & POS, and data center equipment) and regular expenses (cloud and software fees)
+are incurred in US Dollars and Euros. The total foreign currency results on the year ended December 31, 2024 was loss of R$ 19,811 (2023
+- loss of R$ 13,580).
+
+The Group uses derivatives elected
+for cash flow or fair value hedge accounting, to hedge the risk of foreign exchange fluctuation of debt in foreign currencies. All critical
+terms of the hedged item are matched with the hedging instrument.
+
+The residual Group’s exposure
+to foreign currency changes for all other currencies considering the hedge instruments entered into is not material.
+
+6.10.2.3. Risk Assessment: Value-at-Risk and
+Scenario Analysis
+
+Market risk is managed and monitored,
+by risk factor, using the value-at-risk (“VaR”) methodology.
+
+The Group conducts a study on how
+market variables would impact the Group’s financial statements based on Historical Value at Risk models.
+
+Risk Factor |
+|
+Asset/ Liability |
+|
+
+VaR
+
+1 day (thousands)
+|
+|
+
+VaR
+
+10 days
+
+(thousands)
+|
+|
+
+VaR
+
+60 days
+
+(thousands)
+|
+
+Interest rates |
+|
+Accounts receivables from card issuers, Credit portfolio, Accounts payables to clients and interest rate swaps |
+|
+811 |
+|
+2,564 |
+|
+6,280 |
+
+Foreign currency exchange |
+|
+USD denominated asset/liabilities/derivatives |
+|
+233 |
+|
+737 |
+|
+1,805 |
+
+6.10.2.4 Equity price risk
+
+Equity price risk is the risk that
+the fair values of equities decrease as the result of changes in the level of equity and individual stocks. The Group is exposed to equity
+price risk as it holds, as of December 31, 2024, R$ 32,629 (2023 - R$ 45,702) in equity securities (Note 6.3).
+
+6.10.3. Liquidity risk
+
+Cash flow forecasting is performed
+for the operating entities of the Group and then aggregated. Rolling forecasts of liquidity requirements are monitored to ensure the Group
+has sufficient cash to meet operational needs while maintaining sufficient headroom on its undrawn borrowing facilities so that the Group
+does not breach borrowing limits on any of its borrowing facilities. Such forecasting takes into consideration the Group’s debt
+financing plans, compliance with internal target liquidity and leverage ratios targets and, if applicable, external regulatory or legal
+requirements. The Group’s main liquidity risk is its potential inability to raise financing to continue its prepayment and credit
+business. Although the prepayment and credit activities is not an obligation for the Group it is a significant component of its revenues.
+
+Surplus cash held by the operating
+entities is invested in interest-earning bank accounts, time deposits, money market deposits and marketable securities, choosing instruments
+with appropriate maturities or sufficient liquidity to provide adequate margin as determined by the above-mentioned forecasts. As of December
+31, 2024, the Group held short-term investments of R$ 517,874 (2023 - R$ 3,481,496) that are expected to be readily convertible into cash
+for managing liquidity.
+
+F- 46
+
+|
+
+Notes to Consolidated Financial Statements
+
+December 31, 2024, 2023 and 2022
+
+(In thousands of Brazilian Reais, unless otherwise stated)
+|
+|
+|
+|
+
+The table below analyzes the Group’s
+non-derivative financial liabilities to maturity. Derivative financial liabilities are not included in the analysis as their contractual
+maturities are not essential for an understanding of the timing of the cash flows. The amounts disclosed in the table are the contractual
+undiscounted cash flows.
+
+|
+|
+Less than one year |
+|
+Between 1 and 2 years |
+|
+Between 2 and 5 years |
+|
+Over 5 years |
+
+December 31, 2024 |
+|
+|
+|
+|
+|
+|
+|
+|
+
+Retail deposits |
+|
+8,704,809 |
+|
+— |
+|
+— |
+|
+— |
+
+Accounts payable to clients |
+|
+17,756,720 |
+|
+50,674 |
+|
+— |
+|
+— |
+
+Trade accounts payable |
+|
+672,184 |
+|
+— |
+|
+— |
+|
+— |
+
+Institutional deposits and marketable debt securities |
+|
+3,068,186 |
+|
+4,680,530 |
+|
+1,366,089 |
+|
+— |
+
+Other debt instruments |
+|
+1,939,982 |
+|
+626,789 |
+|
+954,211 |
+|
+2,774,095 |
+
+Other liabilities |
+|
+281

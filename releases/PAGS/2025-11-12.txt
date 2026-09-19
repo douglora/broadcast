@@ -1,0 +1,3653 @@
+6-K
+1
+MainDocument.htm
+6-K
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+|
+
+FORM 6-K
+
+REPORT OF FOREIGN PRIVATE ISSUER
+PURSUANT TO RULE 13a-16 OR 15d-16 UNDER
+THE SECURITIES EXCHANGE ACT OF 1934
+
+For the month of November 2025
+
+Commission File Number: 001-38353
+
+|
+
+PagSeguro Digital Ltd.
+(Name of Registrant)
+
+Conyers Trust Company (Cayman) Limited,
+Cricket Square, Hutchins Drive, P.O. Box 2681,
+Grand Cayman, KY1-1111, Cayman Islands
+(Address of Principal Executive Office)
+
+|
+
+Indicate by check mark whether the registrant files or will file annual reports under cover of Form 20-F or Form 40-F.
+Form 20-F ☒ Form 40-F ☐
+
+Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(1):
+Yes ☐ No ☒
+
+Indicate by check mark if the registrant is submitting the Form 6-K in paper as permitted by Regulation S-T Rule 101(b)(7):
+Yes ☐ No ☒
+
+PAGS Reports Third Quarter 2025 Results
+
+Focus on shareholder value with diluted GAAP Earnings per Share (EPS) +14.0% YoY
+driven by banking and operating leverage
+
+São Paulo, November 12, 2025 – PagSeguro Digital Ltd. (“PagBank”, “we”, “Company”) has announced today its third quarter results for the period ended September 30, 2025. The consolidated financial statements are presented in Reais (R$) and prepared in accordance with the International Financial Reporting Standards (“IFRS”) as issued by the International Accounting Standards Board (“IASB”).
+
+A message from our CEO
+
+Our performance this quarter reflects both resilience and progress. During this quarter, we remained disciplined in executing our strategy, expanding our business while preserving profitability in a still challenging macroeconomic environment. Rising interest rates and subdued economic activity continue to weigh on the market, but our focus on financial discipline and operational efficiency has enabled us to protect the bottom line and deliver shareholder value.
+
+Higher cash-in volumes and strong customer engagement drove another quarter of robust Banking performance, reinforcing the strategic importance of this vertical within our ecosystem. Banking continues to gain relevance as a growth engine, supported by credit acceleration in the short term focused on working capital loans for merchants. I also highlighted all the efforts to expand our deposit franchise; at the same time, we are focusing on funding cost efficiency. Credit expanded 30%, with non-performing loan ratios remaining below industry levels. These results highlight the strength of our platform and our ability to scale complementary products in a prudent and sustainable way.
+
+Consolidated revenues increased 14% y/y, as a result of the repricing strategy on acquiring and increased contribution from our banking business. Total payment volume (“ TPV ”) remained stable, reflecting margin discipline in a tougher rate environment. As highlighted last quarter, the combination of tightened monetary policies in Brazil and lower economic activity has created challenges throughout the year. In response, we have taken steps to mitigate financial costs, adjust pricing, and maintain strict expense discipline. This approach has proven effective, as demonstrated by our ability to protect profitability while enhancing client engagement and monetization.
+
+In September, we announced our long-term goals, which build directly on the strong momentum of our Banking segment. By 2029, we are targeting a credit portfolio of R$25 billion, supported by a balanced mix of secured and unsecured products and a stronger focus on higher-value clients. The solid growth we are already delivering in deposits and credit demonstrates that we are on the right path to achieving this ambition. The expansion of merchant credit lines, particularly working capital, alongside AI-powered solutions such as private payroll and PIX finance, will further strengthen both risk management and customer experience. On profitability, we expect growth to be driven by a higher contribution from Banking, incremental margins from cross-selling, and efficiency gains from fixed cost dilution and AI-driven improvements. In the long term, this strategy should translate into a gross profit CAGR above 10% and an earnings per share (“ EPS ”) CAGR above 16%, reinforcing our commitment to consistent value creation for shareholders.
+
+Alongside our operational progress, we remain firmly committed to delivering value to our shareholders. By the end of 2026, we will have returned more than R$5.5 billion, including an estimated R$3.8 billion in distributions between 2025 and next year. We also have defined a target Basel Index (“ BIS ”) capital ratio of 18% to 22%, a framework that ensures a solid capital base, supports disciplined growth, and provides flexibility to reinvest while continuing to reward shareholders. In line with this commitment, we are accelerating our dividend payout in 2026, with a payout of an extraordinary R$1.4 billion over the coming quarters.
+
+Looking ahead, we remain committed to executing our strategy with the same discipline that has guided us so far. We continue to make gradual progress in expanding our credit offering with a focus on quality, highlighting the consistent performance of collateralized products and the progressive acceleration of clean credit lines. This strategy reinforces our commitment to sustainable growth, preserving the Company’s financial health and the trust of our stakeholders.
+Alexandre Magnani – CEO
+2
+
+Q3 2025 Highlights
+
+Financial Highlights
+
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Revenue and Income (ex-ITC)¹
+| 3,411
+| 2,981
+| 14.4%
+| 3,322
+| 2.7%
+| 9,868
+| 8,457
+| 16.7%
+|
+Gross Profit 2
+| 1,927
+| 1,897
+| 1.6%
+| 1,945
+| -0.9%
+| 5,746
+| 5,467
+| 5.1%
+|
+% Margin (ex-ITC)
+| 56.5%
+| 63.6%
+| (7.1) p.p.
+| 58.5%
+| (2.0) p.p.
+| 58.2%
+| 64.6%
+| (6.4) p.p.
+|
+Earnings before Tax (non-GAAP) 3
+| 662
+| 656
+| 0.9%
+| 659
+| 0.5%
+| 1,945
+| 1,924
+| 1.1%
+|
+% Margin (non-GAAP; ex-ITC) 3
+| 19.4%
+| 22.0%
+| (2.6) p.p.
+| 19.8%
+| (0.4) p.p.
+| 19.7%
+| 22.8%
+| (3.0) p.p.
+|
+Net Income (GAAP)
+| 554
+| 531
+| 4.6%
+| 537
+| 3.3%
+| 1,616
+| 1,517
+| 6.5%
+|
+% Margin (GAAP; ex-ITC)
+| 16.3%
+| 17.8%
+| (1.5) p.p.
+| 16.1%
+| 0.1 p.p.
+| 16.4%
+| 17.9%
+| (1.6) p.p.
+|
+Net Income (non-GAAP) 3
+| 571
+| 572
+| 0.0%
+| 565
+| 1.1%
+| 1,691
+| 1,636
+| 3.3%
+|
+% Margin (non-GAAP; ex-ITC) 3
+| 16.8%
+| 19.2%
+| (2.4) p.p.
+| 17.0%
+| (0.3) p.p.
+| 17.1%
+| 19.3%
+| (2.2) p.p.
+|
+Return on Average Equity (ROAE)
+| 15.1%
+| 14.8%
+| 0.3 p.p.
+| 14.5%
+| 0.5 p.p.
+| 15.1%
+| 14.8%
+| 0.3 p.p.
+|
+EPS Diluted (R$) (GAAP)
+| 1.88
+| 1.65
+| 13.7%
+| 1.78
+| 5.5%
+| 5.38
+| 4.72
+| 14.0%
+|
+EPS Diluted (R$) (non-GAAP) 3
+| 1.94
+| 1.78
+| 8.7%
+| 1.88
+| 3.1%
+| 5.63
+| 5.09
+| 10.6%
+|
+1. Total Revenue and Income (ex-ITC) : total Revenue and income excluding Interchange Fees, Card Scheme Fees, and other Processing/Transaction Costs related.
+2. Gross Profit: Total Revenue and Income (-) Transaction Costs (-) Financial Expenses (-) Total Losses.
+3. Non-GAAP Measures: For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” included in this earnings release.
+
+Operational Highlights
+
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Clients (# million)
+| 33.7
+| 32.1
+| 5.1%
+| 33.1
+| 2.0%
+| 33.7
+| 32.1
+| 5.1%
+|
+Total Payment Volume (TPV)
+| 129.8
+| 136.3
+| -4.7%
+| 129.6
+| 0.2%
+| 388.1
+| 372.4
+| 4.2%
+|
+Cash-in
+| 95.4
+| 83.9
+| 13.7%
+| 90.6
+| 5.3%
+| 268.8
+| 225.1
+| 19.4%
+|
+Total Deposits
+| 39.4
+| 34.2
+| 15.3%
+| 37.2
+| 6.1%
+| 39.4
+| 34.2
+| 15.3%
+|
+Credit Portfolio
+| 4.2
+| 3.2
+| 29.9%
+| 3.9
+| 7.2%
+| 4.2
+| 3.2
+| 29.9%
+|
+
+ Consolidated revenues excluding interchange fees increased +14% y/y, driven by the Company’s disciplined repricing strategy on acquiring and increased contribution from our banking business.
+ Gross profit grew +1.6% y/y, totaling R$1.9 billion, partially offset by higher financial costs as a result of increased interest rates and financials costs related to dividend distribution and our buyback program.
+ Non-GAAP diluted EPS increased by +8.7% y/y, due to higher operating leverage and tax efficiencies.
+ ROAE reached 15.1% in the quarter, 0.3 p.p higher than Q3 2024, and the LTM ROAE increased 0.4 p.p y/y, reaching 15.1%, demonstrating the Company’s commitment to increase shareholder value.
+ Cash-in (inflows not related to acquiring) increased +13.7% y/y, reflecting stronger client principality driven by continued improvements in the banking platform and customer experience and the expansion of our product offering for both merchants and consumers.
+ Credit portfolio grew +29.9% y/y (+7.2% q/q), reaching R$4.2 billion, driven by the acceleration of unsecured product offering, especially working capital lines (+116% q/q).
+3
+
+ Expanded portfolio , including merchant prepayments, reached R$49.4 billion, +11.8% y/y (2.8% q/q), primarily driven by our core micro-merchants and small/medium businesses (“ MSMB ”) segment.
+ Looking ahead, we have set long-term financial goals to be achieved by the end of 2029, including reaching a credit portfolio of R$25 billion, delivering gross profit growth above 10% CAGR from 2025 to 2029, and expanding EPS at a CAGR above 16% over the same period.
+ TPV reached R$129.8 billion, decreasing -4.7% y/y, due to lower economic activity during the quarter.
+Capital Optimization
+ In Q3 2025, we announced our capital optimization targets, including a BIS target level between 18% and 22%, which is expected to generate an excess of capital between R$2 billion and R$3 billion. As of September 30, 2025, the BIS ratio was 28.6%.
+ Buyback execution: From January 1, 2025, until the date hereof, we have repurchased over 18.5 million shares, or R$880 million. Approximately 25% of the current US$ 200 million buyback program has been executed.
+ Dividends: in addition to the R$617 million in cash dividends already declared in 2025, we announced in September a R$1.4 billion dividend distribution for 2026, to be paid in four installments, further reinforcing our commitment to enhanced shareholder value.
+Operational Performance
+
+PagBank Clients
+# million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Clients 1
+| 33.7
+| 32.1
+| 5.1%
+| 33.1
+| 2.0%
+| 33.7
+| 32.1
+| 5.1%
+|
+Banking Only
+| 11.5
+| 11.3
+| 2.0%
+| 11.5
+| 0.4%
+| 11.5
+| 11.3
+| 2.0%
+|
+Banking + Payments
+| 6.0
+| 6.0
+| -0.8%
+| 5.9
+| 0.9%
+| 6.0
+| 6.0
+| -0.8%
+|
+Payments only
+| 0.3
+| 0.4
+| -26.9%
+| 0.3
+| -6.3%
+| 0.3
+| 0.4
+| -26.9%
+|
+Active Merchants²
+| 6.3
+| 6.4
+| -2.4%
+| 6.2
+| 0.6%
+| 6.3
+| 6.4
+| -2.4%
+|
+Active Banking Clients³
+| 17.5
+| 17.3
+| 1.0%
+| 17.4
+| 0.6%
+| 17.5
+| 17.3
+| 1.0%
+|
+Total Active Clients 4
+| 17.8
+| 17.7
+| 0.4%
+| 17.7
+| 0.5%
+| 17.8
+| 17.7
+| 0.4%
+|
+1. Total Clients : number of clients registered at Brazilian Central Bank.
+2. Active Merchants: number of active clients in the Payment business, including those with no relationship to Banking (Payments Only).
+3. Active Banking Clients : number of active clients in the Banking business, including those with no relationship to Payments (Banking Only).
+4. Total Active Clients: refer to active clients with at least one transaction in the last twelve months in the payments or banking services, and/or Active Clients with a balance in their digital account on the last day of the last month of the periods indicated.
+Total clients reached 33.7 million , at the end of the quarter, an increase of 5.1% compared to Q3 2024.
+Total active clients reached 17.8 million, representing 53% of the total client base and remained stable both y/y and q/q. Banking Only clients continued to show sustainable growth, accounting for 66% of total active clients.
+We ended the quarter with a total of 6.3 million active merchants , representing a -2.4% decrease compared to Q3 2024, while remaining stable q/q. This performance primarily reflects the reduction in Payment’s clients outside our banking ecosystem, consistent with our strategy to focus on merchants with greater cross-selling potential and deeper ecosystem engagement.
+
+4
+
+Active banking clients grew +1.0% y/y, supported by the expansion of the Banking Only customer base, which increased +2.0% y/y. This performance reflects our strategy to drive higher engagement within Banking and advance toward a more profitable client mix.
+
+Banking
+
+Cash-in (inflows not related to acquiring)
+
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Cash-in
+| 95.4
+| 83.9
+| 13.7%
+| 90.6
+| 5.3%
+| 268.8
+| 225.1
+| 19.4%
+|
+Active Banking Clients (# million)
+| 17.5
+| 17.3
+| 1.0%
+| 17.4
+| 0.6%
+| 17.5
+| 17.3
+| 1.0%
+|
+Cash-In per Active Banking Client 1 (R$ thousand)
+| 5.5
+| 4.9
+| 11.4%
+| 5.2
+| 4.7%
+| 15.4
+| 13.0
+| 18.3%
+|
+1. Active Banking Clients refer to Banking Clients and Banking + Payments Clients.
+
+Cash-in amounted to R$95.4 billion , up +13.7% y/y , driven by transaction volumes, continued improvements in client engagement, and the increase in our Banking Only client base. Performance was further supported by the sustained high penetration of investment and insurance products, reflected in the expansion of our deposits franchise during the period. On a per-client basis, cash-in rose +11.4% y/y to R$5.5 thousand, supported by the ongoing growth of our active client base.
+Credit Portfolio and Expanded Portfolio
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Credit Portfolio
+| 4.2
+| 3.2
+| 29.9%
+| 3.9
+| 7.2%
+| 4.2
+| 3.2
+| 29.9%
+|
+Secured Products
+| 3.5
+| 2.7
+| 29.2%
+| 3.4
+| 3.7%
+| 3.5
+| 2.7
+| 29.2%
+|
+% Credit Portfolio
+| 84.0%
+| 84.6%
+| (0.6) p.p.
+| 86.9%
+| (2.9) p.p.
+| 84.0%
+| 84.6%
+| (0.6) p.p.
+|
+Unsecured Products
+| 0.7
+| 0.5
+| 32.7%
+| 0.5
+| 30.7%
+| 0.7
+| 0.5
+| 32.7%
+|
+% Credit Portfolio
+| 16.0%
+| 15.4%
+| 0.6 p.p.
+| 13.1%
+| 2.9 p.p.
+| 16.0%
+| 15.4%
+| 0.6 p.p.
+|
+NPL 90+ | Total Credit Portfolio
+| 2.6%
+| 2.5%
+| 0.1 p.p.
+| 2.5%
+| 0.1 p.p.
+| 2.6%
+| 2.5%
+| 0.1 p.p.
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Credit Portfolio
+| 4.2
+| 3.2
+| 29.9%
+| 3.9
+| 7.2%
+| 4.2
+| 3.2
+| 29.9%
+|
+Payroll Loans + Others¹
+| 3.0
+| 2.3
+| 27.5%
+| 2.9
+| 3.4%
+| 3.0
+| 2.3
+| 27.5%
+|
+Credit Card
+| 0.8
+| 0.7
+| 17.7%
+| 0.8
+| 4.3%
+| 0.8
+| 0.7
+| 17.7%
+|
+Working Capital Loans
+| 0.4
+| 0.2
+| 116.4%
+| 0.2
+| 53.4%
+| 0.4
+| 0.2
+| 116.4%
+|
+Provision for Losses
+| (0.3)
+| (0.3)
+| 2.3%
+| (0.3)
+| 10.9%
+| (0.3)
+| (0.3)
+| 4.9%
+|
+Payroll Loans + Others¹
+| (0.1)
+| (0.0)
+| 59.1%
+| (0.1)
+| 6.2%
+| (0.1)
+| (0.0)
+| 59.1%
+|
+Credit Card
+| (0.1)
+| (0.1)
+| 2.2%
+| (0.1)
+| 5.0%
+| (0.1)
+| (0.1)
+| 2.2%
+|
+Working Capital Loans
+| (0.1)
+| (0.1)
+| -10.8%
+| (0.1)
+| 9.1%
+| (0.1)
+| (0.1)
+| -10.8%
+|
+Credit Portfolio, net
+| 3.8
+| 2.9
+| 32.8%
+| 3.6
+| 6.6%
+| 3.8
+| 2.9
+| 32.4%
+|
+1. Payroll Loans: Refers to loan portfolios, including advance Brazil’s Severance Indemnity Fund (FGTS) withdrawals and payroll loans to public sector employees and retirees.
+
+Credit portfolio reached R$4.2 billion in Q3 2025, +29.9% higher than Q3 2024, due to credit acceleration in line with long term guidance. This growth was supported by disciplined risk and capital management, alongside continued improvements in asset quality, onboarding processes, risk assessment, and collections. While the majority of our portfolio remains composed of secured products ( 84% of our total credit portfolio), we also see consistent growth in unsecured offerings (16% of our total credit portfolio).
+5
+
+Working capital loans grew + 116% y/y, reflecting our strategy to expand higher-engagement products tailored for each merchant’s day-to-day needs. Origination for this product reached R$147 million in the quarter, 157% higher than the previous quarter (Q2 2025). Since resuming the origination of unsecured products in H2 2024, we have seen consistent momentum across working capital loans and overdraft accounts, reinforcing the diversification of our portfolio.
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Credit Portfolio
+| 4.2
+| 3.2
+| 29.9%
+| 3.9
+| 7.2%
+| 4.2
+| 3.2
+| 29.9%
+|
+Prepayment to Merchants¹
+| 45.3
+| 41.0
+| 10.4%
+| 44.2
+| 2.5%
+| 45.3
+| 41.0
+| 10.4%
+|
+Expanded Portfolio
+| 49.4
+| 44.2
+| 11.8%
+| 48.1
+| 2.8%
+| 49.4
+| 44.2
+| 11.8%
+|
+1. Prepayment to Merchants is net of Accounts Receivable Securitization.
+
+Expanded portfolio , which includes prepayment to merchants, reached R$49.4 billion in Q3 2025, primarily driven by an 11.8% y/y increase in prepayment volumes. This growth reflects merchants’ greater adoption of this embedded credit solution, particularly in the context of a higher interest rate environment.
+Deposits and Total Funding
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Checking Accounts
+| 10.5
+| 10.5
+| -0.3%
+| 10.5
+| -0.5%
+| 10.5
+| 10.5
+| -0.3%
+|
+Average Percentage Yield (APY) 1
+| 42.0%
+| 47.3%
+| (5.3) p.p.
+| 47.5%
+| (5.5) p.p.
+| 42.0%
+| 47.3%
+| (5.3) p.p.
+|
+Merchant’s Payment Accounts
+| 0.8
+| 1.2
+| -37.5%
+| 0.8
+| -9.2%
+| 0.8
+| 1.2
+| -37.5%
+|
+High Yield Savings Accounts
+| 9.7
+| 9.3
+| 4.6%
+| 9.7
+| 0.3%
+| 9.7
+| 9.3
+| 4.6%
+|
+Banking Issuances
+| 29.0
+| 23.7
+| 22.3%
+| 26.6
+| 8.7%
+| 29.0
+| 23.7
+| 22.3%
+|
+Average Percentage Yield (APY) 1
+| 102.2%
+| 108.5%
+| (6.3) p.p.
+| 103.5%
+| (1.3) p.p.
+| 103.5%
+| 108.5%
+| (6.3) p.p.
+|
+Certificate of Deposits
+| 17.7
+| 17.5
+| 1.1%
+| 17.2
+| 3.0%
+| 17.7
+| 17.5
+| 1.1%
+|
+Interbank Deposits
+| 11.3
+| 6.2
+| 82.5%
+| 9.5
+| 19.1%
+| 11.3
+| 6.2
+| 82.5%
+|
+Total Deposits
+| 39.4
+| 34.2
+| 15.3%
+| 37.2
+| 6.1%
+| 39.4
+| 34.2
+| 15.3%
+|
+Average Percentage Yield (APY) 1
+| 88.3%
+| 92.0%
+| (3.7) p.p.
+| 89.2%
+| (0.9) p.p.
+| 88.3%
+| 92.0%
+| (3.7) p.p.
+|
+Other Fundings
+| 4.3
+| 3.8
+| 12.7%
+| 5.7
+| -25.2%
+| 4.3
+| 3.8
+| 12.7%
+|
+Total Funding
+| 43.7
+| 38.0
+| 15.1%
+| 42.9
+| 2.0%
+| 43.7
+| 38.0
+| 15.1%
+|
+1. As % of CDI (Brazilian Interbank Rate).
+
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Deposits
+| 39.4
+| 34.2
+| 15.4%
+| 37.2
+| 6.1%
+| 39.4
+| 34.2
+| 15.4%
+|
+On-Platform
+| 34.2
+| 28.0
+| 22.3%
+| 31.7
+| 8.1%
+| 34.2
+| 28.0
+| 22.3%
+|
+% Deposits
+| 86.8%
+| 81.9%
+| 4.9 p.p.
+| 85.2%
+| 1.6 p.p.
+| 86.8%
+| 81.9%
+| 4.9 p.p.
+|
+Off-Platform
+| 5.2
+| 6.2
+| -16.1%
+| 5.5
+| -5.4%
+| 5.2
+| 6.2
+| -16.1%
+|
+% Deposits
+| 13.2%
+| 18.1%
+| (4.9) p.p.
+| 14.8%
+| (1.6) p.p.
+| 13.2%
+| 18.1%
+| (4.9) p.p.
+|
+
+Total deposits reached R$39.4 billion , representing an increase of +15.3% vs. Q3 2024, mainly driven by the +22.3% y/y growth in banking issuances. Growth was supported by higher interbank deposits (+82.5% y/y), reflecting initiatives to diversify funding and strengthen relationships with financial institutions, as well as a +1.1% y/y increase in certificate of deposits. Checking accounts remained stable, amounting R$10.5 billion , consistent with a lower annual percentage yield (“APY”) of 42.0% of the Brazilian interbank deposit certificate (“CDI”) , compared to 47.3% in Q3 2024.
+Overall, the p ortfolio’s APY reached 88.3% of de CDI , down -3.7 p.p y/y primarily due to lower checking account remuneration, reduced yields on certificates of deposit, and funding cost optimization initiatives implemented in response to the current interest rate environment.
+6
+
+When considering other fundings , which includes sources such as borrowings, certificate of deposits with related parties and Senior FIDC quotas, total funding reached R$43.7 billion, increasing +15.0% y/y, led by the increase in total deposits and the Company’s ongoing efforts to diversify its funding sources for a more balanced capital structure. Overall, other fundings reached an APY of 106% of CDI, stable in comparison to Q2 2024.
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Expanded Portfolio
+| 49.4
+| 44.2
+| 11.8%
+| 48.1
+| 2.8%
+| 49.4
+| 44.2
+| 11.8%
+|
+Total Funding
+| 43.7
+| 38.0
+| 15%
+| 42.9
+| 6%
+| 43.7
+| 42.3
+| 15%
+|
+Loan-to-Funding (%)
+| 113%
+| 129%
+| (15.9) p.p.
+| 112%
+| (0.6) p.p.
+| 113%
+| 129%
+| (15.9) p.p.
+|
+
+The loan-to-funding ratio in Q3 2025 was 113%, a 15.9 p.p decrease compared to the same period of last year. This reduction reflects the solid growth in funding, which continues to support credit expansion while strengthening the Company’s liquidity position.
+
+Payments
+Total Payment Volume
+R$ billion
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Payment Volume
+| 129.8
+| 136.3
+| -4.7%
+| 129.6
+| 0.2%
+| 388.1
+| 372.4
+| 4.2%
+|
+Active Merchants (# million)
+| 6.3
+| 6.4
+| -2.4%
+| 6.2
+| 0.6%
+| 6.3
+| 6.4
+| -2.4%
+|
+TPV per Merchant (R$ thousand)
+| 20.7
+| 21.2
+| -2.0%
+| 20.7
+| 0.2%
+| 61.1
+| 57.0
+| 7.1%
+|
+
+MSMB : Refers to Micro-merchants (monthly TPV < R$15,000) and Small/Medium Businesses (monthly TPV from R$15,000 up to R$3,000,000).
+Large Retail and Online : the former LMEC segment refers to larger merchants (monthly TPV > R$3,000,000), plus Online merchants (e-Commerce and Cross-Border).
+TPV totaled R$129.8 billion , sequentially stable (+0.2%) versus previous quarter and -4.7% lower compared to Q3 2024, reflecting a more challenging macroeconomic environment and the Company’s strategic repricing initiatives prioritizing profitability over volume growth. Since Q4 2024, we have been executing repricing initiatives designed to prioritize profitability over net additions, implemented to offset rising financial costs. This strategy has proven effective, as demonstrated by the repositioning of our rates and acquiring revenue.
+7
+
+Financial Performance
+
+Total Revenue and Income
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Revenue and Income (ex-ITC)¹
+| 3,411
+| 2,981
+| 14.4%
+| 3,322
+| 2.7%
+| 9,868
+| 8,457
+| 16.7%
+|
+Transaction Activities and Other Services
+| 1,993
+| 2,260
+| -11.8%
+| 1,989
+| 0.2%
+| 5,995
+| 6,941
+| -13.6%
+|
+Financial Income
+| 2,923
+| 2,445
+| 19.6%
+| 2,902
+| 0.7%
+| 8,523
+| 6,390
+| 33.4%
+|
+Other Financial Income
+| 190
+| 127
+| 49.5%
+| 167
+| 13.5%
+| 496
+| 364
+| 36.4%
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Revenue and Income (ex-ITC)¹
+| 3,411
+| 2,981
+| 14.4%
+| 3,322
+| 2.7%
+| 9,868
+| 8,457
+| 16.7%
+|
+Payments²
+| 2,667
+| 2,486
+| 7.3%
+| 2,623
+| 1.7%
+| 7,842
+| 7,162
+| 9.5%
+|
+Payments - % of Total Revenue and Income
+| 52%
+| 90%
+| (37.8) p.p.
+| 52%
+| 0.4 p.p.
+| 52%
+| 91%
+| (38.8) p.p.
+|
+Banking³
+| 744
+| 495
+| 50.2%
+| 699
+| 6.4%
+| 2,205
+| 1,295
+| 56.4%
+|
+Banking - % of Total Revenue and Income
+| 15%
+| 10%
+| 4.6 p.p.
+| 14%
+| 0.7 p.p.
+| 13%
+| 9%
+| 4.5 p.p.
+|
+1. Total Revenue and Income (ex-ITC): excluding Interchange Fees, Card Scheme Fees, and other Processing/Transaction Costs related.
+2. Payments: mainly composed by merchant discount rates (MDRs), early prepayment of cards receivables and membership fees from POS device.
+3. Banking: mainly composed by interest income from credit portfolio, interest income from float of PagBank accounts, prepaid cards and escrow account reconciliation, fees (mostly cards interchange and account service fees) and Other Financial Income.
+
+Total revenue and income net of interchange reached R$3,411 million in Q3 2025, a +14.4% increase vs. Q3 2024, and +2.7% vs. Q2 2025, respectively, effectively demonstrating our ability to reposition our margins and protect performance despite economic cycle, reflecting the positive impact of repricing strategies implemented since Q4 2024, both on the acquiring and banking business. These initiatives were designed to offset rising financial costs and support sustainable revenue generation amidst a more selective growth environment.
+
+Our total revenue and income reached R$5,105 million in Q3 2025, representing an increase of +5.7% vs. Q3 2024. The total revenue and income expansion, outpacing TPV, also highlights the effectiveness of this repricing process in improving unit economics.
+ Payments : In Q3 2025, payments revenue amounted to R$2,667 million , 7.3% higher than Q3 2024, in line with repricing effects, as aforementioned.
+ Banking: In Q3 2025, revenue amounted to R$744 million, a 50.2% y/y increase, driven by credit growth, together with higher fee generation from account services and card usage, due to stronger customer engagement, and increased interest income from deposits.
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Revenue and Income (ex-ITC)¹
+| 3,411
+| 2,981
+| 14.4%
+| 3,322
+| 2.7%
+| 9,868
+| 8,457
+| 16.7%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.6%
+| (1,280)
+| 9.0%
+| (3,852)
+| (2,655)
+| 45.1%
+|
+Total Losses
+| (88)
+| (120)
+| -26.2%
+| (98)
+| -9.5%
+| (269)
+| (335)
+| -19.6%
+|
+Gross Profit
+| 1,927
+| 1,897
+| 1.6%
+| 1,945
+| -0.9%
+| 5,746
+| 5,467
+| 5.1%
+|
+% Total Payment Volume
+| 1.5%
+| 1.4%
+| 0.1 p.p.
+| 1.5%
+| (0.0) p.p.
+| 1.5%
+| 1.5%
+| (0.0) p.p.
+|
+% Total Revenue and Income
+| 56.5%
+| 63.6%
+| (7.1) p.p.
+| 38.5%
+| 18.0 p.p.
+| 58.2%
+| 64.6%
+| (6.4) p.p.
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Gross Profit
+| 1,927
+| 1,897
+| 1.6%
+| 1,945
+| -0.9%
+| 5,746
+| 5,467
+| 5.1%
+|
+% Total Revenue and Income (ex-ITC)
+| 56.5%
+| 63.6%
+| (7.1) p.p.
+| 58.5%
+| (2.0) p.p.
+| 58.2%
+| 64.6%
+| (6.4) p.p.
+|
+Payments
+| 1,391
+| 1,559
+| -10.8%
+| 1,431
+| -2.8%
+| 4,287
+| 4,648
+| -7.8%
+|
+Payments - % of Total Gross Profit
+| 72.2%
+| 82.2%
+| (10.0) p.p.
+| 73.6%
+| (1.4) p.p.
+| 74.6%
+| 80.7%
+| (6.1) p.p.
+|
+Banking
+| 536
+| 338
+| 58.7%
+| 514
+| 4.3%
+| 1,459
+| 819
+| 78.2%
+|
+Banking - % of Total Gross Profit
+| 27.8%
+| 17.8%
+| 10.0 p.p.
+| 26.4%
+| 1.4 p.p.
+| 25.4%
+| 15.0%
+| 10.4 p.p.
+|
+1. Total Revenue and Income (ex-ITC): excluding Interchange Fees, Card Scheme Fees, and other Processing/Transaction Costs related.
+8
+
+Gross profit totaled R$1,927 million in Q3 2025, representing an increase of +1.6% y/y. As a percentage of total revenue and income excluding interchange fees, gross profit margin decreased 7.1 p.p. compared to Q3 2024, reaching 56.5% in the quarter, primarily impacted by the increase in financial costs due to the higher Brazilian Basic Interest Rate (“SELIC”) rate. Financial cost totaled R$1,395 million in Q3 2025 , representing an increase of +44.6% y/y.
+ Payments: In Q3 2025, gross profit reached R$1,391 million , a decrease of -10.8% y/y compared to Q3 2024. The decline was primarily driven by higher funding costs and lower volumes, compared to the prior year. These effects were partially offset by the successful execution of our repricing strategy in acquiring, alongside other monetization levers, underscoring the importance of disciplined pricing management in a high-interest rate environment.
+ Banking: gross profit reached R$536 million in Q3 2025 , increasing +58.7% y/y , supported by the expansion of our credit portfolio, greater cash inflows, and higher returns on financial investments. As a result, Banking represented 27.8% of total gross profit in the quarter, compared to 17.8% one year earlier, with a gross margin of 72.0%.
+It is important to note that capital structure initiatives implemented in the period, such as dividends and buyback, created an additional financial cost impact on reported gross profit, which totaled R$64 million in Q3 2025. Excluding this effect, gross profit net of dividends and buybacks would have increased +5.0% y/y.
+Total Costs and Expenses
+Non-GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Costs and Expenses
+| (4,443)
+| (4,176)
+| 6.4%
+| (4,399)
+| 1.0%
+| (13,072)
+| (11,771)
+| 11.1%
+|
+Cost of Sales and Services
+| (2,395)
+| (2,449)
+| -2.2%
+| (2,399)
+| -0.2%
+| (7,146)
+| (6,939)
+| 3.0%
+|
+Selling Expenses
+| (444)
+| (485)
+| -8.5%
+| (456)
+| -2.6%
+| (1,319)
+| (1,387)
+| -4.9%
+|
+Administrative Expenses
+| (165)
+| (215)
+| -23.1%
+| (193)
+| -14.2%
+| (569)
+| (559)
+| 1.9%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.7%
+| (1,280)
+| 9.0%
+| (3,854)
+| (2,655)
+| 45.2%
+|
+Other Expenses, Net
+| (45)
+| (63)
+| -29.3%
+| (73)
+| -38.6%
+| (183)
+| (231)
+| -20.6%
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Costs and Expenses
+| (4,469)
+| (4,238)
+| 5.5%
+| (4,442)
+| 0.6%
+| (13,181)
+| (11,951)
+| 10.3%
+|
+Cost of Sales and Services
+| (2,396)
+| (2,455)
+| -2.4%
+| (2,411)
+| -0.6%
+| (7,167)
+| (6,958)
+| 3.0%
+|
+Selling Expenses
+| (444)
+| (487)
+| -8.9%
+| (452)
+| -1.8%
+| (1,319)
+| (1,392)
+| -5.2%
+|
+Administrative Expenses
+| (190)
+| (268)
+| -29.2%
+| (227)
+| -16.3%
+| (660)
+| (715)
+| -7.8%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.7%
+| (1,280)
+| 9.0%
+| (3,852)
+| (2,655)
+| 45.1%
+|
+Other Expenses, Net
+| (45)
+| (63)
+| -29.0%
+| (73)
+| -39.0%
+| (183)
+| (231)
+| -20.6%
+|
+
+Total costs and expenses , on a non-GAAP basis, amounted to R$4,443 million in Q3 2025, representing an increase of +6.4% y/y vs. Q3 2024, mainly related to:
+ Financial costs totaled R$1,395 million in Q3 2025, an increase of +44.7% vs. Q3 2024, mainly due to an increase in the average SELIC, which increased 4.5 percentage points, from 10.5% to 15.0% per year, between Q3 2024 and Q3 2025, reaching the highest level since 2006, and additional 5 business days of accrued interest when compared to the previous quarter.
+ Cost of sales and services of R$2,395 million in Q3 2025, representing a decrease of 2.2% y/y , primarily driven lower transaction costs due to payments volumes and product mix, partially offset by higher depreciation and amortization.
+When excluding non-GAAP figures related to LTIP Expenses (long-term incentive plan), cost of sales and services reached R$2,396 million in Q3 2025, representing a decrease of 2.4% y/y .
+9
+
+ Selling expenses totaled R$444 million in Q3 2025 , a decrease of - 8.5% y/y , mainly reflecting lower chargebacks and commissions. When excluding non-GAAP figures related to LTIP Expenses (long-term incentive plan), selling expenses reached R$444 million in Q3 2025, representing a decrease of -8.9% compared to Q3 2024.
+
+ Administrative expenses totaled R$165 million in Q3 2025, decreasing 23.1% y/y, primarily driven by lower personnel expenses. When excluding non-GAAP figures related to LTIP Expenses and Non-Recurring Amortization Expenses , Administrative Expenses reached R$ 190 million in Q3 2025, representing a decrease 29.5 % compared to Q3 2024.
+
+ Other expenses reached R$45 million in Q3 2025, representing a decrease of -29.0 % compared to Q3 2024.
+On a GAAP basis, including LTIP expenses and non-recurring amortization expenses of R$42.9 million, t otal costs and expenses amounted to R$4,469 million in Q3 2025, representing an increase of + 5.5% in comparison to the amount of R$4,238 million presented in Q3 2024.
+Total Costs and Expenses by nature
+Non-GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Costs and Expenses
+| (4,443)
+| (4,176)
+| 6.4%
+| (4,400)
+| 1.0%
+| (13,069)
+| (11,771)
+| 11.0%
+|
+Transactions Costs
+| (1,695)
+| (1,851)
+| -8.4%
+| (1,736)
+| -2.4%
+| (5,146)
+| (5,238)
+| -1.8%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.7%
+| (1,280)
+| 9.0%
+| (3,852)
+| (2,655)
+| 45.1%
+|
+Securitization of Receivables
+| (58)
+| (83)
+| -29.8%
+| (149)
+| -60.9%
+| (365)
+| (337)
+| 8.3%
+|
+Accrued Interest on Deposits
+| (1,176)
+| (756)
+| 55.6%
+| (938)
+| 25.4%
+| (2,962)
+| (2,108)
+| 40.5%
+|
+Others
+| (160)
+| (126)
+| 27.1%
+| (193)
+| -17.0%
+| (525)
+| (210)
+| >100%
+|
+Total Losses
+| (88)
+| (120)
+| -26.4%
+| (98)
+| -9.9%
+| (269)
+| (335)
+| -19.6%
+|
+Chargebacks
+| (53)
+| (92)
+| -42.7%
+| (70)
+| -24.7%
+| (185)
+| (240)
+| -23.1%
+|
+Expected Credit Losses (ECL)
+| (36)
+| (28)
+| 27.2%
+| (28)
+| 27.2%
+| (85)
+| (96)
+| -11.8%
+|
+Operating Expenses
+| (792)
+| (812)
+| -2.5%
+| (820)
+| -3.5%
+| (2,406)
+| (2,293)
+| 4.9%
+|
+Personnel Expenses
+| (307)
+| (331)
+| -7.2%
+| (327)
+| -6.0%
+| (959)
+| (938)
+| 2.2%
+|
+Marketing and Advertising
+| (219)
+| (223)
+| -1.9%
+| (226)
+| -3.0%
+| (654)
+| (653)
+| 0.2%
+|
+Other Expenses (Income), Net
+| (266)
+| (257)
+| 3.4%
+| (268)
+| -0.9%
+| (793)
+| (702)
+| 12.9%
+|
+D&A and POS Write-Offs
+| (473)
+| (429)
+| 10.4%
+| (466)
+| 1.7%
+| (1,395)
+| (1,249)
+| 11.7%
+|
+Depreciation and Amortization
+| (435)
+| (329)
+| 32.2%
+| (430)
+| 1.3%
+| (1,283)
+| (1,117)
+| 14.8%
+|
+POS Write-off
+| (39)
+| (37)
+| 4.1%
+| (36)
+| 6.9%
+| (112)
+| (133)
+| -15.4%
+|
+For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” included in this earnings release.
+Transaction Costs
+
+Transaction costs , on a GAAP and a non-GAAP basis, totaled R$1,695 million , representing a decrease of -8.4% from R$1,851 million in Q3 2024, driven by the decrease in interchange and card scheme fees, reflecting a shift in client and product mix, mainly due to a higher penetration of PIX transactions.
+
+10
+
+Financial Costs
+Financial costs totaled R$1,395 million in Q3 2025, representing an increase of +44.7% vs. Q3 2024.
+As a percentage of total revenue and income ex-ITC, financial costs increased to 40.9% in Q3 2025 vs. 38.5% in Q3 2024. As aforementioned, the increase in financial costs resulted mainly from the increase in the SELIC compared to the same period of 2024. When compared to Q2 2025, financial costs increased 9.0%, mainly due to the SELIC rate hike.
+Total Losses
+Total losses reached R$88 million in Q3 2025, representing a decrease of -26.4% vs. Q3 2024. As a percentage of total revenues and income ex-ITC, total losses decreased to 2.6% in Q3 2025 from 2.9% in Q3 2024.
+The reduction was primarily driven by a notable decline in chargebacks, related to improved risk assessment process and the overall acquiring performance. This was partially offset by an increase in expected credit loss (ECL) provisions related to the acceleration of our credit portfolio, mitigated by strengthened KYC and onboarding processes powered by artificial intelligence. These improvements translate into a healthier and more resilient credit portfolio compared to Q3 2024, underscoring the effectiveness of our risk management strategies and the continued optimization of our credit operations.
+Operating Expenses
+Operating expenses , on a Non-GAAP basis, which include personnel expenses, marketing and advertising and other expenses, totaled R$792 million , representing a decrease of -2.5% from R$812 million in Q3 2024. As a percentage of total revenue and income ex-ITC, non-GAAP operating expenses represented 23.2% vs. 24.7% in Q3 2024. These trends are mainly due to the following:
+ Pe rsonnel expenses decreased to R$307 million, or -7.2 % vs. Q3 2024, reflecting a disciplined approach to cost control amid ongoing macro volatility. In addition, personnel expenses decreased -6.0%. Including LTIP expenses and non-recurring amortization expenses amounting to R$3 million, personnel expenses, GAAP personnel expenses reached R$310 million , down -16.9% y/y. This reduction was primarily driven by lower LTIP expenses, resulting from a lower share price in the period, and a leaner organization structure following our headcount optimization efforts implemented throughout the year.
+ Marketing and advertising totaled R$219 million in Q3 2025, a -1.9% decrease y/y, aligned with our disciplined approach to managing operating expenses. Marketing and advertising expenses were primarily directed toward banking customer acquisition campaigns and brand awareness initiatives, reinforcing our commitment to sustainable growth and deepening client engagement across core segments.
+ Other expenses reached R$266 million in Q3 2025, a +3.4 % increase from R$257 million reported in Q3 2024, mainly related to a higher consumption of software, cloud and technologies regarding customer experience functionalities, as well as hiring of consulting services.
+On a GAAP basis, operating expenses totaled R$794 million , a decrease of -6.9% from R$853 million in Q3 2024. As a percentage of total revenue and income ex-ITC, operating expenses represented 23.3%, compared to 25.3% in Q3 2024, showcasing our compromise to deliver operating leverage.
+11
+
+Depreciation and Amortization and POS Write-Off
+Depreciation and amortization reached R$435 million, representing an increase of +32.2% , from R$329 million in Q3 2024. This was primarily driven by higher depreciation of POS devices and increased amortization of research and development (“R&D”) investments, particularly those related to product development and data security. These investments qualify for tax benefits under the Lei do Bem (Technological Innovation Law), enabling the deferral of certain tax liabilities. Depreciation and amortization (“D&A”) is directly related to growth in TPV and investments deployed, which decreased -12.4% y/y and -3.1% q/q, totaling R$513 million.
+When including LTIP expenses and non-recurring amortization expenses amounting to non-GAAP expenses of R$15 million, D&A, on a GAAP basis, totaled R$458 million , representing an increase of +10.9% vs. Q3 2024 due to amortization of fair value adjustment related to acquisitions in the past and amortization of the long-term incentive plan.
+The increase in D&A expenses was partially offset by higher PIS and COFINS credits, related to a tax benefit that allows PagSeguro Brazil to reduce the depreciation and amortization over some operational expenses when incurred.
+POS write-offs in Q2 2025 totaled R$39 million , representing an increase 4.1 % y/y and 6.9% q/q. The majority amount stems from 2023 POS vintages.
+Earnings Before Tax (EBT)
+Non-GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Earnings before Tax (EBT)
+| 662
+| 656
+| 0.9%
+| 659
+| 0.5%
+| 1,945
+| 1,924
+| 1.1%
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Earnings before Tax (EBT)
+| 636
+| 594
+| 7.2%
+| 615
+| 3.5%
+| 1,833
+| 1,744
+| 5.1%
+|
+For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” Included in this earnings release.
+Non-GAAP earnings before tax amounted to R$662 million in Q3 2025 representing an increase of +0.9% vs. Q3 2024, supported by our successful repricing strategy, continued operational leverage, and disciplined cost management. These gains were partially offset by higher financial costs and D&A expenses.
+When including LTIP expenses and non-recurring amortization expenses amounting to non-GAAP expenses of R$23 million, Earnings before Tax, on a GAAP basis, totaled R$636 million , representing an increase of +7.2% vs. Q3 2024.
+
+12
+
+Income Tax and Social Contribution
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Earnings before Tax (EBT)
+| 636
+| 594
+| 7.2%
+| 615
+| 3.3%
+| 1,833
+| 1,433
+| 27.9%
+|
+Statutory Rate
+| 34.0%
+| 34.0%
+| 0.0 p.p.
+| 34.0%
+| 0.0 p.p.
+| 34.0%
+| 34.0%
+| 0.0 p.p.
+|
+Expected Income Tax Expenses
+| (216)
+| (202)
+| 7.2%
+| (210)
+| 3.0%
+| (623)
+| (487)
+| 27.9%
+|
+Income Tax effect on:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+R&D and Tech Innovation Benefit¹
+| 71
+| 61
+| 16.3%
+| 77
+| -7.4%
+| 227
+| 149
+| 52.3%
+|
+Taxation of Income abroad²
+| 60
+| 75
+| -21.0%
+| 49
+| n.a.
+| 161
+| 79
+| >100%
+|
+Other
+| 4
+| 3
+| -16.5%
+| 4
+| n.a.
+| 18
+| (8)
+| n.a%
+|
+Income Tax Expenses
+| (82)
+| (62)
+| 31.3%
+| (79)
+| 3.7%
+| (216)
+| (268)
+| -4.3%
+|
+Effective Tax Rate
+| 12.9%
+| 10.5%
+| 2.4 p.p.
+| 12.9%
+| (0.0) p.p.
+| 11.8%
+| 18.7%
+| (6.9) p.p.
+|
+Current
+| (47)
+| (11)
+| >100%
+| (125)
+| -62.6%
+| (307)
+| (77)
+| >100%
+|
+Deferred
+| (35)
+| (51)
+| -31.3%
+| 46
+| n.a.
+| 91
+| (191)
+| n.a.
+|
+1. Refers to the benefit granted by the Lei do Bem (Technological Innovation Law), which reduces the income tax charges, based on the amount invested by the PagSeguro Digital Ltd. On specific intangible assets. Please, see note 21 to our financial statements published in Form 6-K on the date hereof.
+2. Some entities and investment funds adopt different taxation regimes according to the applicable rules in their jurisdictions.
+
+Income tax and social contribution amounted to an expense of R$82 million in Q3 2025, representing an increase of +31.3% versus Q3 2024. The effective tax rate increased 2.4 p.p, totaling 12.9 % in Q3 2025, as a consequence of higher banking contribution, partially offset by tax efficiencies by legal entities abroad and benefits from “ Lei do Bem ” eligibility.
+In both periods, the difference between the effective income tax and social contribution rate and the rate computed by applying the Brazilian federal statutory rate (34%) was mainly related to:
+ Technological Innovation Law ( “Lei do Bem” ), which reduces income tax charges based on investments made in innovation and technology (related to the capitalized amount of intangible assets), such as those made by PagSeguro Brazil, our Brazilian operating subsidiary, in intangible assets; and
+ Gains from foreign entities and investment funds are subject to statutory tax rates that differ from Brazil’s 34% rate, as they follow the tax regimes applicable in their respective jurisdictions.
+Net Income
+Net income in Q3 2025 amounted to R$571 million, remaining stable y/y , mainly as a result of the effectiveness of our repricing initiatives to mitigate high interest rates impacts, alongside disciplined cost management and tax efficiency efforts, as aforementioned.
+Including non-GAAP expenses of R$17 million, net income on GAAP basis totaled R$554 million in Q3 2025, up +4.4% when compared to R$531 million reported in Q3 2024.
+13
+
+Non-GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Net Income
+| 571
+| 572
+| 0.0%
+| 565
+| 1.1%
+| 1,691
+| 1,636
+| 3.3%
+|
+Outstanding Common Shares¹ | # Million
+| 291.9
+| 317.6
+| -8.1%
+| 297.7
+| -2.0%
+| 297.7
+| 317.9
+| -6.3%
+|
+Common Shares¹ diluted | # Million
+| 294.9
+| 320.7
+| -8.0%
+| 300.7
+| -1.9%
+| 300.3
+| 321.4
+| -6.5%
+|
+Basic Earnings per Common Share
+| R$ 1.96
+| R$ 1.80
+| 8.8%
+| R$ 1.90
+| 3.1%
+| R$ 5.68
+| R$ 5.15
+| 10.3%
+|
+Diluted Earnings per Common Share
+| R$ 1.94
+| R$ 1.78
+| 8.7%
+| R$ 1.88
+| 3.1%
+| R$ 5.63
+| R$ 5.09
+| 10.6%
+|
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Net Income
+| 554
+| 531
+| 4.4%
+| 537
+| 3.3%
+| 1,616
+| 1,517
+| 6.5%
+|
+Outstanding Common Shares¹ | # Million
+| 291.9
+| 317.6
+| -8.1%
+| 297.7
+| -2.0%
+| 297.7
+| 317.9
+| -6.3%
+|
+Common Shares¹ diluted | # Million
+| 294.9
+| 320.7
+| -8.0%
+| 300.7
+| -1.9%
+| 300.3
+| 321.4
+| -6.5%
+|
+Basic Earnings per Common Share
+| R$ 1.90
+| R$ 1.67
+| 13.6%
+| R$ 1.80
+| 5.3%
+| R$ 5.43
+| R$ 4.77
+| 13.7%
+|
+Diluted Earnings per Common Share
+| R$ 1.88
+| R$ 1.66
+| 13.5%
+| R$ 1.78
+| 5.3%
+| R$ 5.38
+| R$ 4.72
+| 14.0%
+|
+1. Weighted average number.
+2. For further information regarding the reconciliation and explanation of non-GAAP financial measures, including the presentation of the closest comparable GAAP financial measure, please see “Appendix” and “Non-GAAP Disclosure” Included in this earnings release.
+
+In Q3 2025, diluted EPS increased +8.7% compared to the same period last year , from R$1.78 in Q3 2024 to R$1.94 in Q3 2025, primarily due to the impact of our share repurchase program, which reduced the total number of shares outstanding.
+Capital Structure
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Equity
+| 14,888
+| 14,443
+| 3.1%
+| 14,584
+| 2.1%
+| 14,888
+| 14,443
+| 3.1%
+|
+Capital Reserve
+| 4,826
+| 6,091
+| -20.8%
+| 4,822
+| 0.1%
+| 4,826
+| 6,091
+| -20.8%
+|
+Retained Earnings
+| 11,007
+| 9,408
+| 17.0%
+| 10,642
+| 3.4%
+| 11,007
+| 9,408
+| 17.0%
+|
+Treasury Shares
+| (743)
+| (1,011)
+| -26.5%
+| (695)
+| 6.9%
+| (743)
+| (1,011)
+| -26.5%
+|
+Others
+| (202)
+| (45)
+| >100%
+| (185)
+| 9.2%
+| (202)
+| (45)
+| >100%
+|
+ROAE (%)
+| 15.1%
+| 14.8%
+| 0.3 p.p.
+| 14.5%
+| 0.5 p.p.
+| 15.1%
+| 14.8%
+| 0.3 p.p.
+|
+ROAE (LTM)(%)
+| 15.1%
+| 14.7%
+| 0.4 p.p.
+| 15.2%
+| (0.06) p.p.
+| 15.1%
+| 14.0%
+| 0.4 p.p.
+|
+BIS Ratio (%)
+| 28.6%
+| 33.2%
+| (4.6) p.p.
+| 27.4%
+| 1.20 p.p.
+| 28.6%
+| 33.2%
+| (4.6) p.p.
+|
+
+ROAE in Q3 2025 reached 15.1%, 0.3 p.p higher than Q3 2024, given the initiatives to promote financial cost efficiency and preserved profitability amid challenging macroeconomic environment. In the LTM, ROAE also reached 15.1% in comparison to 14.7% in Q3 2024.
+
+In Q3 2025, the Company repurchased 890,000 outstanding Class A common shares under its third repurchase program, which authorizes up to US$200 million in total buybacks. From January 1, 2025, until September 30, 2025, repurchases totaled 15,911,012 shares, amounting to R$744 million. In October 2025, we repurchased 2,630,927 shares, amounting to R$880 million in shares repurchased in 2025. These initiatives effectively demonstrate the Company’s ability to deliver consistent returns and generate sustainable shareholder value over time, despite maintaining a conservative capital structure.
+
+On August 15, 2025, the Company paid a special cash dividend of US$0.12 per common share, followed by an additional US$0.12 per share on November 6. Looking ahead, and as announced during the quarter, the Company plans to distribute R$1.4 billion in dividends for 2026, in addition to the R$617 million in cash dividends already declared in 2025.
+
+The Company is committed to improving its capital structure as observed by the current BIS ratio trajectory. In Q3 2025, the BIS ratio was 28.6% versus 33.2% in the same period last year. In Q3 2025, we announced our capital optimization targets, including a BIS target level between 18% and 22%, which is expected to generate an excess of capital between R$2 billion and R$3 billion.
+
+14
+
+Appendix
+
+Income Statement (GAAP)
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Transaction Revenues
+| 1,993
+| 2,260
+| -11.8%
+| 1,989
+| 0.2%
+| 5,995
+| 6,941
+| -13.6%
+|
+Financial Income
+| 2,923
+| 2,445
+| 19.6%
+| 2,902
+| 0.7%
+| 8,523
+| 6,390
+| 33.4%
+|
+Other Financial Income
+| 190
+| 127
+| 49.5%
+| 167
+| 13.5%
+| 496
+| 364
+| 36.4%
+|
+Total Revenue and Income
+| 5,105
+| 4,831
+| 5.7%
+| 5,058
+| 0.9%
+| 15,014
+| 13,695
+| 9.6%
+|
+Total Revenue and Income ex-ITC
+| 3,411
+| 2,981
+| 14.4%
+| 3,322
+| 2.7%
+| 9,868
+| 8,457
+| 16.7%
+|
+Cost of Sales and Services
+| (2,396)
+| (2,455)
+| -2.4%
+| (2,411)
+| -0.6%
+| (7,167)
+| (6,958)
+| 3.0%
+|
+Selling Expenses
+| (444)
+| (487)
+| -8.9%
+| (452)
+| -1.8%
+| (1,319)
+| (1,392)
+| -5.2%
+|
+Administrative Expenses
+| (190)
+| (268)
+| -29.5%
+| (227)
+| -16.3%
+| (660)
+| (715)
+| -7.8%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.7%
+| (1,280)
+| 9.0%
+| (3,852)
+| (2,655)
+| 45.1%
+|
+Other Expenses
+| (45)
+| (63)
+| -29.0%
+| (73)
+| -39.0%
+| (183)
+| (231)
+| -20.6%
+|
+Earnings Before Tax
+| 636
+| 594
+| 7.2%
+| 615
+| 3.5%
+| 1,833
+| 1,744
+| 5.1%
+|
+Current Income Tax and Social Contribution
+| (47)
+| (11)
+| >100%
+| (125)
+| -62.6%
+| (307)
+| (166)
+| 85.1%
+|
+Deferred Income Tax and Social Contribution
+| (35)
+| (51)
+| -31.3%
+| 46
+| n.a.
+| 91
+| (60)
+| n.a.
+|
+Income Tax and Social Contribution
+| (82)
+| (62)
+| 31.3%
+| (79)
+| 3.7%
+| (216)
+| (226)
+| -4.4%
+|
+Net Income
+| 554
+| 531
+| 4.6%
+| 537
+| 3.3%
+| 1,616
+| 1,517
+| 6.5%
+|
+1. Total Revenue and Income (ex-ITC) : total Revenue and income excluding Interchange Fees, Card Scheme Fees, and other Processing/Transaction Costs related.
+
+Income Statement by Costs and Expenses Nature (GAAP)
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Transaction Revenues
+| 1,993
+| 2,260
+| -11.8%
+| 1,989
+| 0.2%
+| 5,995
+| 6,941
+| -13.6%
+|
+Financial Income
+| 2,923
+| 2,445
+| 19.6%
+| 2,902
+| 0.7%
+| 8,523
+| 6,390
+| 33.4%
+|
+Other Financial Income
+| 190
+| 127
+| 49.5%
+| 167
+| 13.5%
+| 496
+| 364
+| 36.4%
+|
+Total Revenue and Income
+| 5,105
+| 4,831
+| 5.7%
+| 5,058
+| 0.9%
+| 15,014
+| 13,695
+| 9.6%
+|
+Transaction Costs
+| (1,695)
+| (1,851)
+| -8.4%
+| (1,736)
+| -2.4%
+| (5,146)
+| (5,238)
+| -1.8%
+|
+Total Revenue and Income ex-ITC
+| 3,411
+| 2,981
+| 14.4%
+| 3,322
+| 2.7%
+| 9,868
+| 8,457
+| 16.7%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.6%
+| (1,280)
+| 9.0%
+| (3,852)
+| (2,655)
+| 45.1%
+|
+Total Losses
+| (88)
+| (120)
+| -26.2%
+| (98)
+| -9.5%
+| (269)
+| (335)
+| -19.6%
+|
+Gross Profit
+| 1,927
+| 1,897
+| 1.6%
+| 1,945
+| -0.9%
+| 5,746
+| 5,467
+| 5.1%
+|
+Operating Expenses (Marketing, Personal and Others)
+| (794)
+| (853)
+| -6.9%
+| (841)
+| -5.6%
+| (2,452)
+| (2,293)
+| 6.9%
+|
+D&A + POS Write-Off
+| (496)
+| (450)
+| 10.3%
+| (488)
+| 1.8%
+| (1,461)
+| (1,308)
+| 11.7%
+|
+Earnings Before Tax
+| 636
+| 594
+| 7.2%
+| 616
+| 3.3%
+| 1,833
+| 1,866
+| -1.8%
+|
+Income Tax and Social Contribution
+| (82)
+| (62)
+| 31.3%
+| (79)
+| 3.7%
+| (216)
+| (226)
+| -4.4%
+|
+Net Income
+| 554
+| 531
+| 4.4%
+| 537
+| 3.3%
+| 1,616
+| 1,639
+| -1.4%
+|
+1. Total Revenue and Income (ex-ITC) : total Revenue and income excluding Interchange Fees, Card Scheme Fees, and other Processing/Transaction Costs related.
+
+15
+
+Total Costs and Expenses by nature (GAAP)
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Costs and Expenses
+| (4,469)
+| (4,238)
+| 5.5%
+| (4,443)
+| 0.6%
+| (13,181)
+| (11,951)
+| 10.3%
+|
+Transactions Costs
+| (1,695)
+| (1,851)
+| -8.4%
+| (1,736)
+| -2.4%
+| (5,146)
+| (5,238)
+| -1.8%
+|
+Financial Costs
+| (1,395)
+| (964)
+| 44.7%
+| (1,280)
+| 9.0%
+| (3,852)
+| (2,655)
+| 45.1%
+|
+Securitization of Receivables
+| (58)
+| (83)
+| -29.8%
+| (149)
+| -60.9%
+| (365)
+| (337)
+| 8.3%
+|
+Accrued Interest on Deposits
+| (1,176)
+| (756)
+| 55.6%
+| (938)
+| 25.4%
+| (2,962)
+| (2,108)
+| 40.5%
+|
+Others
+| (160)
+| (126)
+| 27.1%
+| (193)
+| -17.0%
+| (525)
+| (210)
+| >100%
+|
+Total Losses
+| (88)
+| (120)
+| -26.4%
+| (98)
+| -9.9%
+| (269)
+| (335)
+| -19.6%
+|
+Chargebacks
+| (53)
+| (92)
+| -42.7%
+| (70)
+| -24.7%
+| (185)
+| (240)
+| -23.1%
+|
+Expected Credit Losses (ECL)
+| (36)
+| (28)
+| 27.2%
+| (28)
+| 27.2%
+| (85)
+| (96)
+| -11.8%
+|
+Operating Expenses
+| (794)
+| (853)
+| -6.9%
+| (841)
+| -5.5%
+| (2,452)
+| (2,293)
+| 6.9%
+|
+Personnel Expenses
+| (310)
+| (373)
+| -16.9%
+| (347)
+| -10.8%
+| (1,005)
+| (1,059)
+| -5.1%
+|
+Marketing and Advertising
+| (219)
+| (223)
+| -1.9%
+| (226)
+| -3.0%
+| (654)
+| (653)
+| 0.2%
+|
+Other Expenses (Income), Net
+| (266)
+| (257)
+| 3.4%
+| (268)
+| -0.9%
+| (792)
+| (702)
+| 12.8%
+|
+D&A and POS Write-Offs
+| (496)
+| (450)
+| 10.3%
+| (488)
+| 1.8%
+| (1,461)
+| (1,308)
+| 11.7%
+|
+Depreciation and Amortization
+| (458)
+| (413)
+| 10.9%
+| (452)
+| 1.3%
+| (1,349)
+| (1,176)
+| 14.7%
+|
+POS Write-off
+| (39)
+| (37)
+| 4.1%
+| (36)
+| 6.9%
+| (112)
+| (133)
+| -15.4%
+|
+
+Net Income Reconciliation (GAAP to non-GAAP)
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Net Income | GAAP
+| 554
+| 531
+| 4.4%
+| 537
+| 3.3%
+| 1,616
+| 1,517
+| 6.6%
+|
+Long-term Incentive Plan
+| 3
+| 41
+| -93.2%
+| 21
+| -86.5%
+| 46
+| 121
+| -62.0%
+|
+Amortization of Fair Value Adjustment
+| 5
+| 5
+| -0.8%
+| 5
+| 0.0%
+| 16
+| 16
+| 0.0%
+|
+Amortization of Capitalized Expenses of Platforms Development
+| 18
+| 15
+| 16.9%
+| 17
+| 4.1%
+| 50
+| 43
+| 16.5%
+|
+Income Tax and Social Contribution
+| (9)
+| (21)
+| -58.4%
+| (15)
+| -40.0%
+| (38)
+| (61)
+| -37.7%
+|
+Net Income | Non-GAAP
+| 571
+| 572
+| 0.0%
+| 565
+| 1.2%
+| 1,691
+| 1,636
+| 3.3%
+|
+
+16
+
+Balance Sheet (GAAP)
+R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Total Assets
+| 72,285
+| 67,219
+| 7.5%
+| 71,193
+| 1.5%
+| 72,285
+| 67,219
+| 7.5%
+|
+Current Assets
+| 63,192
+| 59,380
+| 6.4%
+| 62,215
+| 1.6%
+| 63,192
+| 59,379
+| 6.4%
+|
+Cash and cash equivalents
+| 1,427
+| 720
+| 98.2%
+| 1,128
+| 26.5%
+| 1,427
+| 720
+| 98.2%
+|
+Financial investments
+| 459
+| 664
+| -30.9%
+| 448
+| 2.5%
+| 459
+| 664
+| -30.9%
+|
+Compulsory reserve
+| 4,088
+| 4,174
+| -2.1%
+| 4,426
+| -7.6%
+| 4,088
+| 4,174
+| -2.1%
+|
+Accounts receivable
+| 56,625
+| 52,976
+| 6.9%
+| 55,644
+| 1.8%
+| 56,625
+| 52,976
+| 6.9%
+|
+Receivables from related parties
+| 10
+| 7
+| 38.6%
+| 11
+| -2.3%
+| 10
+| 7
+| 38.6%
+|
+Derivative Financial Instruments
+| 0
+| 18
+| n.a.
+| 0
+| n.a.
+| 0
+| 18
+| n.a.
+|
+Inventories
+| 1
+| 30
+| -96.6%
+| 1
+| 4.7%
+| 1
+| 30
+| -96.6%
+|
+Recoverable Taxes
+| 366
+| 594
+| -38.4%
+| 365
+| 0.3%
+| 366
+| 594
+| -38.4%
+|
+Other receivables
+| 216
+| 196
+| 10.2%
+| 192
+| 12.1%
+| 216
+| 196
+| 10.2%
+|
+Non-current Assets
+| 9,093
+| 7,840
+| 16.0%
+| 8,979
+| 1.3%
+| 9,093
+| 7,840
+| 16.0%
+|
+Accounts receivable
+| 2,431
+| 2,012
+| 20.8%
+| 2,351
+| 3.4%
+| 2,431
+| 2,012
+| 20.8%
+|
+Receivables from related parties
+| 17
+| 24
+| -28.5%
+| 19
+| -9.4%
+| 17
+| 24
+| -28.5%
+|
+Recoverable Taxes
+| 695
+| 123
+| >100%
+| 679
+| 2.4%
+| 695
+| 123
+| >100%
+|
+Judicial deposits
+| 112
+| 70
+| 61.1%
+| 90
+| 24.1%
+| 112
+| 70
+| 61.1%
+|
+Deferred income tax and social contribution
+| 75
+| 87
+| -13.6%
+| 80
+| -6.5%
+| 75
+| 87
+| -13.6%
+|
+Other receivables
+| 103
+| 81
+| 26.9%
+| 90
+| 14.8%
+| 103
+| 81
+| 26.9%
+|
+Property and equipment
+| 2,589
+| 2,616
+| -1.0%
+| 2,617
+| -1.1%
+| 2,589
+| 2,616
+| -1.0%
+|
+Intangible assets
+| 3,071
+| 2,827
+| 8.6%
+| 3,052
+| 0.6%
+| 3,071
+| 2,827
+| 8.6%
+|
+Total Liabilities and Equity
+| 72,285
+| 67,219
+| 7.5%
+| 71,193
+| 1.5%
+| 72,285
+| 67,219
+| 7.5%
+|
+Current Liabilities
+| 44,501
+| 39,167
+| 13.6%
+| 43,717
+| 1.8%
+| 44,501
+| 39,167
+| 13.6%
+|
+Payables to third parties
+| 9,907
+| 10,820
+| -8.4%
+| 10,133
+| -2.2%
+| 9,907
+| 10,820
+| -8.4%
+|
+Checking Accounts
+| 10,480
+| 10,512
+| -0.3%
+| 10,530
+| -0.5%
+| 10,480
+| 10,512
+| -0.3%
+|
+Obligations to FIDC quota holders
+| 0
+| 0
+| n.a.
+| 144
+| n.a.
+| 0
+| 0
+| n.a.
+|
+Banking Issuances
+| 19,767
+| 13,296
+| 48.7%
+| 17,682
+| 11.8%
+| 19,767
+| 13,296
+| 48.7%
+|
+Borrowings
+| 2,398
+| 2,971
+| -19.3%
+| 3,449
+| -30.5%
+| 2,398
+| 2,971
+| -19.3%
+|
+Derivative Financial Instruments
+| 150
+| 16
+| >100%
+| 61
+| >100%
+| 150
+| 16
+| >100%
+|
+Trade payables
+| 549
+| 606
+| -9.4%
+| 536
+| 2.4%
+| 549
+| 606
+| -9.4%
+|
+Dividends payables
+| 186
+| 0
+| n.a.
+| 191
+| -2.8%
+| 186
+| 0
+| n.a.
+|
+Payables to related parties
+| 184
+| 85
+| >100%
+| 94
+| 96.5%
+| 184
+| 85
+| >100%
+|
+Salaries and social security charges
+| 360
+| 393
+| -8.3%
+| 337
+| 6.8%
+| 360
+| 393
+| -8.3%
+|
+Taxes and contributions
+| 259
+| 238
+| 9.1%
+| 252
+| 2.8%
+| 259
+| 238
+| 9.1%
+|
+Provision for contingencies
+| 91
+| 41
+| >100%
+| 80
+| 13.8%
+| 91
+| 41
+| >100%
+|
+Deferred revenue
+| 101
+| 134
+| -24.5%
+| 113
+| -10.6%
+| 101
+| 134
+| -24.5%
+|
+Other liabilities
+| 67
+| 55
+| 22%
+| 114
+| -41.4%
+| 67
+| 55
+| 22%
+|
+Non-current Liabilities
+| 12,896
+| 13,609
+| -5.2%
+| 12,893
+| 0.0%
+| 12,896
+| 13,609
+| -5.2%
+|
+Payables to third parties
+| 47
+| 67
+| -29.8%
+| 83
+| -43.4%
+| 47
+| 67
+| -29.8%
+|
+Obligations to FIDC quota holders
+| 1,129
+| 130
+| >100%
+| 1,086
+| 3.9%
+| 1,129
+| 130
+| >100%
+|
+Banking Issuances
+| 9,202
+| 10,393
+| -11.5%
+| 8,964
+| 2.7%
+| 9,202
+| 10,393
+| -11.5%
+|
+Payables to related parties
+| 723
+| 969
+| -25.4%
+| 1,002
+| -27.8%
+| 723
+| 969
+| -25.4%
+|
+Deferred income tax and social contribution
+| 1,629
+| 1,871
+| -12.9%
+| 1,607
+| 1.3%
+| 1,629
+| 1,871
+| -12.9%
+|
+Provision for contingencies
+| 87
+| 58
+| 51.1%
+| 70
+| 24.3%
+| 87
+| 58
+| 51.1%
+|
+Deferred revenue
+| 13
+| 20
+| -33.1%
+| 10
+| 29.1%
+| 13
+| 20
+| -33.1%
+|
+Other liabilities
+| 66
+| 102
+| -35.3%
+| 70
+| -6.1%
+| 66
+| 102
+| -35.3%
+|
+Equity
+| 14,888
+| 14,443
+| 3.1%
+| 14,584
+| 2.1%
+| 14,888
+| 14,443
+| 3.1%
+|
+Share Capital
+| 0
+| 0
+| -0.4%
+| 0
+| -0.4%
+| 0
+| 0
+| -0.4%
+|
+Treasury Shares
+| (743)
+| (1,011)
+| -26.5%
+| (695)
+| 6.9%
+| (743)
+| (1,011)
+| -26.5%
+|
+Capital Reserve
+| 4,826
+| 6,091
+| -20.8%
+| 4,822
+| 0.1%
+| 4,826
+| 6,091
+| -20.8%
+|
+Retained earnings
+| 11,007
+| 9,408
+| 17.0%
+| 10,642
+| 3.4%
+| 11,007
+| 9,408
+| 17.0%
+|
+Equity Valuation Adjustments
+| (22)
+| (22)
+| 0.0%
+| (22)
+| 0.0%
+| (22)
+| (22)
+| 0.0%
+|
+Other Comprehensive Income
+| (180)
+| (23)
+| >100%
+| (163)
+| 10.4%
+| (180)
+| (23)
+| >100%
+|
+
+17
+
+Cash Flow (GAAP)
+GAAP | R$ million
+| Q3 2025
+| Q3 2024
+| Δ% y/y
+| Q2 2025
+| Δ% q/q
+| 9M2025
+| 9M2024
+| Δ% y/y
+|
+Earnings before Income Tax
+| 636
+| 594
+| 7.2%
+| 616
+| 3.3%
+| 1,833
+| 1,744
+| 5.1%
+|
+Expenses (Revenues) not affecting Cash
+| 1,488
+| 614
+| 142.3%
+| 1,144
+| 30.0%
+| 3,622
+| 2,474
+| 46.4%
+|
+Depreciation and Amortization
+| 458
+| 413
+| 10.9%
+| 452
+| 1.3%
+| 1,349
+| 1,176
+| 14.7%
+|
+Total losses
+| 88
+| 120
+| -26.4%
+| 98
+| -9.5%
+| 269
+| 335
+| -19.7%
+|
+Accrual of Provision for Contingencies
+| 42
+| (10)
+| n.a.
+| 29
+| 46.5%
+| 92
+| 22
+| >100%
+|
+Share based Long Term Incentive Plan (LTIP)
+| 5
+| 44
+| -88.4%
+| 28
+| -81.8%
+| 63
+| 135
+| -53.5%
+|
+Loss on Disposal of Property, Equipment, Intangible and Investment Assets
+| 42
+| 39
+| 8.4%
+| 44
+| -4.9%
+| 126
+| 136
+| -7.7%
+|
+Derivative financial instruments, net
+| (5)
+| 14
+| n.a.
+| (44)
+| -88.4%
+| (14)
+| (1)
+| >100%
+|
+Interest Accrued
+| 857
+| (7)
+| n.a.
+| 538
+| 59.4%
+| 1,738
+| 668
+| >100%
+|
+Other Financial Cost, Net
+| 0
+| 0
+| n.a.
+| (0)
+| n.a.
+| (1)
+| 2
+| n.a.
+|
+Changes in Operating Assets/Liabilities
+| (813)
+| (2,560)
+| -68.3%
+| (411)
+| 97.8%
+| (2,209)
+| (8,337)
+| -73.5%
+|
+Accounts Receivable
+| (2,483)
+| (2,530)
+| -1.8%
+| (3,118)
+| -20.4%
+| (3,432)
+| (15,646)
+| -78.1%
+|
+Financial Investments (Mandatory Guarantee)
+| 497
+| (475)
+| n.a.
+| (264)
+| n.a.
+| 1,095
+| (1,418)
+| n.a.
+|
+Inventories
+| 0
+| 0
+| n.a.
+| 0
+| n.a.
+| 0
+| 0
+| n.a.
+|
+Taxes Recoverable
+| (6)
+| (8)
+| -30.6%
+| 16
+| n.a.
+| (75)
+| (56)
+| 33.2%
+|
+Other Receivables
+| (62)
+| (16)
+| >100%
+| 17
+| n.a.
+| (64)
+| (86)
+| -25.4%
+|
+Deferred Revenue
+| (9)
+| (2)
+| >100%
+| (10)
+| -12.6%
+| (31)
+| 7
+| n.a.
+|
+Other Liabilities
+| (49)
+| 20
+| n.a.
+| (13)
+| >100%
+| (64)
+| 19
+| n.a.
+|
+Payables to Third Parties
+| (260)
+| (117)
+| >100%
+| (88)
+| >100%
+| (1,658)
+| 739
+| n.a.
+|
+Checking Accounts
+| (258)
+| (778)
+| -66.9%
+| (21)
+| >100%
+| (2,202)
+| (1,013)
+| >100%
+|
+Obligation to FIDC quota holders
+| (149)
+| 0
+| n.a.
+| 0
+| n.a.
+| (149)
+| 0
+| n.a.
+|
+Trade Payables
+| 14
+| (33)
+| n.a.
+| (23)
+| n.a.
+| (112)
+| 92
+| n.a.
+|
+Receivables from (Payables to) Related Parties
+| (223)
+| 257
+| n.a.
+| 5
+| n.a.
+| (321)
+| 534
+| n.a.
+|
+Banking issuances
+| 2,160
+| 1,084
+| 99.3%
+| 3,122
+| -34.1%
+| 5,078
+| 8,526
+| -40.4%
+|
+Salaries and Social Charges
+| 23
+| 81
+| -71.5%
+| 75
+| -69.4%
+| (42)
+| 48
+| n.a.
+|
+Taxes and Contributions
+| 6
+| (38)
+| n.a.
+| (95)
+| n.a.
+| (191)
+| (56)
+| >100%
+|
+Provision for Contingencies
+| (17)
+| (6)
+| >100%
+| (13)
+| 26.6%
+| (38)
+| (26)
+| 45.0%
+|
+Income Tax and Social Contribution paid
+| (32)
+| (90)
+| -64.7%
+| (43)
+| -25.5%
+| (144)
+| (129)
+| 11.6%
+|
+Interest Income received (paid)
+| 903
+| 754
+| 19.8%
+| 929
+| -2.8%
+| 2,532
+| 1,429
+| 77.2%
+|
+Net Cash Provided by Operating Activities
+| 2,183
+| (689)
+| n.a.
+| 2,236
+| -2.4%
+| 5,635
+| (2,815)
+| n.a.
+|
+Amount paid on acquisitions, net of cash acquired
+| 0
+| 0
+| n.a.
+| 0
+| n.a.
+| 0
+| 0
+| n.a.
+|
+Purchases of Property and Equipment
+| (241)
+| (276)
+| -12.6%
+| (230)
+| 4.9%
+| (813)
+| (916)
+| -11.2%
+|
+Purchases and Development of Intangible Assets
+| (271)
+| (309)
+| -12.1%
+| (299)
+| -9.2%
+| (877)
+| (864)
+| 1.4%
+|
+Acquisition of Financial Investments
+| 15
+| 612
+| -97.5%
+| 229
+| -93.4%
+| 91
+| 233
+| -60.9%
+|
+Net Cash Used in Investing Activities
+| (498)
+| 27
+| n.a.
+| (300)
+| 65.8%
+| (1,599)
+| (1,548)
+| 3.3%
+|
+Borrowings
+| 28
+| 3,000
+| -99.1%
+| 1,000
+| -97.2%
+| 4,748
+| 5,398
+| -12.0%
+|
+Payment of Borrowings and Interest
+| (1,138)
+| (2,556)
+| -55.5%
+| (2,052)
+| -44.6%
+| (7,065)
+| (2,690)
+| >100%
+|
+Acquisition of Treasury Shares
+| (48)
+| (428)
+| -88.8%
+| (468)
+| -89.8%
+| (744)
+| (428)
+| 74.0%
+|
+Payment of Leases
+| (5)
+| (5)
+| -0.4%
+| (5)
+| 0.0%
+| (15)
+| (14)
+| 7.9%
+|
+Payment of Derivative financial instruments, net
+| (28)
+| (3)
+| >100%
+| 0
+| n.a.
+| (28)
+| (20)
+| 43.5%
+|
+Distribution of Dividends
+| (195)
+| 0
+| n.a.
+| (236)
+| -17%
+| (431)
+| 0
+| n.a.
+|
+Net Cash Provided by Financing Activities
+| (1,386)
+| 8
+| n.a.
+| (1,761)
+| -21.3%
+| (3,536)
+| 2.184
+| n.a.
+|
+Increase (Decrease) in Cash and Cash Equivalents
+| 299
+| (654)
+| n.a.
+| 174
+| 71.8%
+| 500
+| (2,179)
+| n.a.
+|
+Cash and Cash Equivalents at the Beginning of the Period
+| 1,128
+| 2,899
+| -61.1%
+| 954
+| 18.2%
+| 928
+| 2,899
+| -68.0%
+|
+Cash and Cash Equivalents at the End of the Period
+| 1,427
+| (720)
+| n.a.
+| 1,128
+| 26.5%
+| 1,427
+| 720
+| 98.2%
+|
+
+18
+
+Non-GAAP Disclosure
+
+This earnings release includes certain non-GAAP measures. We present non-GAAP measures when we believe that the additional information is useful and meaningful to investors. These non-GAAP measures are provided to enhance investors’ overall understanding of our current financial performance and its prospects for the future. Specifically, we believe the non-GAAP measures provide useful information to both management and investors by excluding certain expenses, gains and losses, as the case may be, that may not be indicative of our core operating results and business outlook.
+
+These measures may be different from non-GAAP financial measures used by other companies. The presentation of this non-GAAP financial information, which is not prepared under any comprehensive set of accounting rules or principles, is not intended to be considered separately from, or as a substitute for, our financial information prepared and presented in accordance with IFRS as issued by the IASB. Non-GAAP measures have limitations in that they do not reflect all the amounts associated with our results of operations as determined in accordance with IFRS. These measures should only be used to evaluate our results of operations in conjunction with the corresponding GAAP measures.
+
+Non-GAAP results consist of our GAAP results as adjusted to exclude the following items:
+
+LTIP expenses: this consists of expenses for equity awards under our two long-term incentive plans (LTIP and LTIP-Goals). We exclude LTIP expenses from our non-GAAP measures primarily because they are non-cash expenses and the related employer payroll taxes depend on our stock price and the timing and size of exercises and vesting of equity awards, over which management has limited to no control, and as such management does not believe these expenses correlate to the operation of our business.
+
+Amortization of fair value adjustments: amortization and write-downs of the fair value of certain acquired assets. We exclude these expenses from our non-GAAP measures primarily because such expenses are non-recurring and do not correlate to the operation of our business.
+
+Amortization of capitalized platforms development expenses: amortization and write-downs of the capitalized expenses related to technology development projects. We exclude these expenses from our non-GAAP measures primarily because such expenses are non-recurring and do not correlate to the operation of our business (together with amortization of fair value adjustments, the non-recurring amortization expenses).
+
+Income tax and social contribution on LTIP expenses and non-recurring adjustments : this represents the income tax effect related to the LTIP expenses, M&A expenses and non-recurring adjustments including amortization of fair value adjustments and amortization of capitalized platforms development.
+
+For a reconciliation of these non-GAAP financial measures to the most directly comparable GAAP measures, see the tables included elsewhere in this earnings release.
+
+19
+
+Earnings Call
+
+PagSeguro Digital Ltd. (NYSE: PAGS) will host a conference call and earnings webcast on November 12, 2025, at 5:00 pm ET .
+
+Event Details
+
+Webcast: https://mzgroup.zoom.us/webinar/register/WN_6V0XUXMqQ1OgSPEaGEcULQ
+
+Contacts:
+
+Investor Relations:
+ir@pagbank.com
+investors.pagbank.com
+| Media Press:
+pagbank@xcom.net.br
+|
+
+Forward-Looking Statements
+
+This earnings release includes “forward-looking statements” within the meaning of the U.S. federal securities laws. Statements contained herein that are not clearly historical in nature are forward-looking, and the words “anticipate,” “believe,” “continues,” “expect,” “estimate,” “intend,” “project” and similar expressions and future or conditional verbs such as “will,” “would,” “should,” “could,” “might,” “can,” “may,” or similar expressions are generally intended to identify forward-looking statements. We cannot guarantee that such statements will prove correct. These forward-looking statements speak only as of the date hereof and are based on our current plans, estimates of future events, expectations and trends (including trends related to the global and Brazilian economies and capital markets, as well as the continuing economic, financial, political and public health effects) that affect or may affect our business, financial condition, results of operations, cash flow, liquidity, prospects and the trading price of our Class A common shares, and are subject to several known and unknown uncertainties and risks, many of which are beyond our control. As consequence, current plans, anticipated actions and future financial position and results of operations may differ significantly from those expressed in any forward-looking statements in this earnings release. You are warned not to unduly rely on such forward-looking statements when evaluating the information presented. In light of the risks and uncertainties described above, the future events and circumstances discussed in this earnings release might not occur and are not guarantees of future performance. Because of these uncertainties, you should not make any investment decision based upon these estimates and forward-looking statements. To obtain further information on factors that may lead to results different from those forecast by us, please consult the reports we file with the U.S. Securities and Exchange Commission (SEC) and in particular the factors discussed under “Forward-Looking Statements” and “Risk Factors” in our annual report on Form 20-F.
+
+20
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+Date: November 12, 2025
+
+| PagSeguro Digital Ltd.
+|
+
+|
+|
+
+| By:
+| /s/ Artur Schunck
+|
+
+| Name:
+| Artur Schunck
+|
+
+| Title:
+| Chief Financial Officer,
+Chief Accounting Officer and
+Investor Relations Officer
+|
