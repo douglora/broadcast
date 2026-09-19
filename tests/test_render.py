@@ -160,3 +160,20 @@ def test_cabecalho_avisa_coleta_de_outro_dia():
     from livro import render
     a = render.bloco_a(date(2026, 9, 18), "Yahoo 15h10", [], [], {}, ["DI"], ["agenda"], [], ["Yahoo"], hora="15h10 de 19/09")
     assert a.splitlines()[0] == "FECHAMENTO DO LIVRO · sex 18/09 · 15h10 de 19/09 BRT"
+
+
+def test_do_dia_inclui_o_que_foi_descoberto_hoje_sobre_documento_antigo():
+    from livro.estado import Repositorio
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        r = Repositorio(d)
+        r.fila = {
+            "E04-AMZN-x-2026-09-09": {"data": "2026-09-09", "gerado_em": "2026-09-19T18:22:00Z", "severidade": "atencao"},
+            "T05-MRVE3-x-2026-09-18": {"data": "2026-09-18", "gerado_em": "2026-09-18T21:40:00Z", "severidade": "critico"},
+            "E05-KO-x-2026-09-05": {"data": "2026-09-05", "gerado_em": "2026-09-05T12:00:00Z", "severidade": "info"},
+        }
+        # so o pregao: o 8-K achado hoje fica de fora
+        assert {a["data"] for a in r.do_dia("2026-09-18")} == {"2026-09-18"}
+        # pregao + data da coleta: entra, e o antigo de verdade continua fora
+        ids = {a["data"] for a in r.do_dia("2026-09-18", "2026-09-19")}
+        assert ids == {"2026-09-18", "2026-09-09"}

@@ -64,8 +64,14 @@ class Repositorio:
                 n += 1
         return n
 
-    def do_dia(self, data_iso: str) -> list[dict]:
-        return sorted([v for v in self.fila.values() if v.get("data") == data_iso or v.get("gerado_em", "")[:10] == data_iso],
+    def do_dia(self, *datas: str) -> list[dict]:
+        """Alertas do pregao e, quando informada, tambem da data da coleta.
+
+        Fato relevante e filing carregam a data do documento, que pode ser anterior
+        ao pregao (um 8-K de 09/09 achado em 19/09). Sem a data da coleta, o que foi
+        descoberto hoje sobre um documento antigo ficava de fora do digest."""
+        alvos = {d for d in datas if d}
+        return sorted([v for v in self.fila.values() if v.get("data") in alvos or v.get("gerado_em", "")[:10] in alvos],
                       key=lambda v: ({"critico": 0, "atencao": 1, "info": 2}.get(v.get("severidade"), 3), v.get("gerado_em", "")))
 
     def podar(self, dias: int = 30, dias_manchete: int = 2) -> None:
