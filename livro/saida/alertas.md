@@ -1,22 +1,32 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h40
 
-(pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
-CVM IPE · entregue 16/09/2026 21:42 · 
-Do documento:
-  – Nos termos já informados ao  mercado, a Incorporação de Ações foi aprovada pelos acionistas da Sabesp em Assembleia  Geral Extraordinária realizada em 30 de julho de 2026.
-  – 137 e 252, § 2º, da Lei das S.A., a Incorporação de Ações enseja o  direito de retirada exclusivamente aos titulares de ações ordinárias ou preferenciais de  emissão da EMAE (“Direito de Retirada”).
-  – O prazo de 32 (trinta e dois) dias foi concedido aos acionistas tendo em vista que o  prazo legal, de 30 (trinta) dias se encerraria em um sábado.
-  – Nos termos do artigo 137, §4º, da Lei  das S.A., decairá do seu direito de retirada o Acionista Dissidente que não o exercer no prazo  acima fixado.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: SBSP3
-Como falar: 'a Sabesp publicou fato relevante sobre COMPANHIA DE SANEAMENTO BÁSICO'
-Fonte: CVM IPE 2026-09-16
-ids: E03-SBSP3-1568917-2026-09-16
+[ATENÇÃO] M03 · Focus de 11/09: IPCA: 2026 4,90% (-10 bps) · 2027 4,30% (+1 bps)
+Selic fim de ano: 2026 13,75% (0 bps) · 2027 12,00% (0 bps)
+Câmbio fim de ano: 2026 R$ 5,20 (0,00) · 2027 R$ 5,28 (0,00)
+Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
+Fonte: BCB Focus (Olinda) 11/09
+Push: [ATENÇÃO] MACRO Focus de 11/09 · detalhe na sessão
+ids: M03-MACRO-focus-2026-09-11
 
 Info (só linha no Fechamento):
-· E05 UST · Dow Slides as Treasury Yields Near 5% After Fed Rate Hike
+· C06 Inflação implícita: implícita 2029 +244 bps acima do Focus · implícita 2032 +258 bps acima do Focus · implícita 2031/32 (descasado) +250 bps acima do Focus
+· C08 UST 2s10s +25 bps: na mínima de 252 pregões (18/09)
+· T02 VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendência de baixa)
+· T02 SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tendência de baixa)
+· F06 BTC sobe a US$ 81.629 (cruzou US$ 80.000)
+· E05 BRENT · Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado
+· E05 ITUB4 · IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em 800 ações com retorno de 23% ao ano sem dor de cabeça
+· T05 BTC +6,8% no dia a US$ 81.629: movimento de 3,3 desvios para uma vol de 20 dias de 32% a.a.
+· T05 ETH +7,3% no dia a US$ 2.626: movimento de 3,3 desvios para uma vol de 20 dias de 34% a.a.
+· T10 BBAS3 no máximo de força relativa em 63 sessões contra IBOV: +29% vs +10% em 20 sessões (+17% relativo)
+· T10 DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20 sessões (-13% relativo)
+· T11 BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessões, 2º dia)
+· F06 ETH sobe a US$ 2.626 (+7,3% em 24h · cruzou US$ 2.500)
+· S01 coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01
 
+Suprimidos pelo teto (viram linha do Fechamento): T05-BTC-alta-2026-09-19 (teto de atenção), T05-ETH-alta-2026-09-19 (teto de atenção), T10-BBAS3-máximo-2026-09-18 (teto de atenção), T10-DIRR3-mínimo-2026-09-18 (teto de atenção), T11-BBAS3-ITUB4_acima-2026-09-18 (teto de atenção), F06-ETH-alta-2026-09-19 (teto de atenção), S01-SISTEMA-fechamento-2026-09-18 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
@@ -95,6 +105,10 @@ Alertas do dia (todos, com status):
 · entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
 · entregue  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
 · expirado  E03 SBSP3 — SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
+· linha     T10 BBAS3 — BBAS3 no máximo de força relativa em 63 sessões contra IBOV: +29% vs +10% em 20 
+· linha     T10 DIRR3 — DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20
+· linha     T11 BBAS3 — BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessõ
+· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, C
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
@@ -664,3 +678,8 @@ Alertas do dia (todos, com status):
 · linha     E03 BBDC4 — BBDC4 · Aviso aos Acionistas: Outros avisos
 · linha     E03 AXIA3 — AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevan
 · linha     E05 UST — UST · Dow Slides as Treasury Yields Near 5% After Fed Rate Hike
+· linha     C08 UST — UST 2s10s +25 bps: na mínima de 252 pregões (18/09)
+· linha     T02 VALE3 — VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendê
+· linha     T02 SBSP3 — SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tend
+· linha     E05 BRENT — BRENT · Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cit
+· linha     E05 ITUB4 — ITUB4 · IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em

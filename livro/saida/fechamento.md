@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 18h40 BRT
-Relógios: Yahoo 19h41 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 21h59 BRT · PARCIAL
+Relógios: Yahoo 21h59 · DI ajuste D0 · Tesouro base
   17/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (13 · 2 críticos)
+ALERTAS DO DIA (654 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
@@ -24,12 +24,28 @@ ALERTAS DO DIA (13 · 2 críticos)
           de 52s (US$ 64,81 em 12/08) a US$ 57,73
 [ATENÇÃO] F06 ETH sobe a US$ 2.621 (+7,1% em 24h ·
           cruzou US$ 2.500)
-(+5 em alertas.md)
+(+646 em alertas.md)
 
-ALTAS  ETH +7,1% · BTC +6,2% · BABA +4,3% · MU +3,9%
-       · BBAS3 +2,2%
+ALTAS  ETH +7,3% · BTC +6,8% · MU +5,5% · NOK +4,5%
+       · EWY +3,9%
 BAIXAS MRVE3 -8,4% · BRENT -5,8% · AXIA3 -2,6% ·
        MELI34 -2,4% · BBDC4 -1,2%
+
+NOTÍCIAS E FATOS (634 · detalhe em noticias.md)
+· AMZN Prime Video’s Off Campus TV Show Lands Amazon
+  a Big Lawsuit, Here’s Why (ComingSoon.net)
+· VALE3 Novo hotel em São José dos Campos terá
+  investimento de R$ 70 milhões (Portal Aqui Vale)
+· BTC Fortuna Hedged Bitcoin ETF (HBTC) Dividend
+  Yield 2026, Date & History (marketbeat.com)
+· PETR4 Petrobras acompanha negociações entre
+  empresas contratadas e trabalhadores em greve em
+  Campos (Notícias Agrícolas)
+· KO Why Does Coca-Cola (NYSE:KO) Challenge The
+  Dividend Stocks Story? (Kalkine Media)
+· NVDA Nvidia-backed AI cloud firm Nscale reveals
+  revenue surge in US IPO filing (TradingView)
+  (+628)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83
@@ -57,7 +73,26 @@ qui 24/09 09:00 Relatorio de Politica Monetaria 3T26
     (BCB)
 qui 24/09 11:00 Leilao do Tesouro: NTN-B
 
-LACUNAS: MINERIO sem barra de 18/09 (última 17/09).
+LACUNAS: VWRA sem barra de 18/09 (última 17/09);
+  CSPX sem barra de 18/09 (última 17/09); CNDX sem
+  barra de 18/09 (última 17/09); VHYA sem barra de
+  18/09 (última 17/09); WUTI sem barra de 18/09
+  (última 17/09); RBOT sem barra de 18/09 (última
+  17/09); IUAA sem barra de 18/09 (última 17/09);
+  IB01 sem barra de 18/09 (última 17/09); MU sem
+  barra de 18/09 (última 17/09); NVDA sem barra de
+  18/09 (última 17/09); BAC sem barra de 18/09
+  (última 17/09); KO sem barra de 18/09 (última
+  17/09); JPM sem barra de 18/09 (última 17/09); TSM
+  sem barra de 18/09 (última 17/09); CVX sem barra
+  de 18/09 (última 17/09); MMM sem barra de 18/09
+  (última 17/09); GOOGL sem barra de 18/09 (última
+  17/09); AMZN sem barra de 18/09 (última 17/09);
+  NOK sem barra de 18/09 (última 17/09); BABA sem
+  barra de 18/09 (última 17/09); EWY sem barra de
+  18/09 (última 17/09); MCHI sem barra de 18/09
+  (última 17/09); MINERIO sem barra de 18/09 (última
+  17/09).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -66,32 +101,32 @@ BLOCO B
 ```
 VARIAÇÃO %         últ  dia   1s   1m   6m   1a  YTD
 UCITS (USD)
-VWRA   Mundo    191,66 -0,1 -1,0 -1,3  +16  +17  +12
-CSPX   S&P500   822,76 +0,2 -0,6 -1,2  +17  +16  +11
-CNDX   Nasdaq    1.692 +0,9 -0,1 -0,1  +22  +20  +15
-VHYA   AltDiv   106,84 -0,9 -1,5 -1,8  +13  +22  +15
-WUTI   Utilit    66,80 -0,6 -2,1 -4,5 -5,1 +7,4 +1,0
-RBOT   Robot     21,03 +1,3 +0,1 -2,4  +36  +32  +29
-IUAA   RF EUA     5,64 -0,0 -0,3 -1,4 -1,0 -0,7 -1,9
-IB01   T-bill   121,82  0,0 +0,0 +0,2 +1,8 +3,6 +2,5
+VWRA   Mundo    192,42 +0,3 +0,2 -0,4  +16  +18  +13 *
+CSPX   S&P500   823,11 +0,2 +0,3 -0,8  +16  +17  +11 *
+CNDX   Nasdaq    1.690 +0,8 +0,7 -0,3  +22  +22  +15 *
+VHYA   AltDiv   107,60 -0,2 -0,2 -0,6  +13  +22  +16 *
+WUTI   Utilit    67,42 +0,3 -1,5 -4,2 -5,9 +7,4 +1,9 *
+RBOT   Robot     20,94 +0,8 +0,6 -2,1  +34  +35  +28 *
+IUAA   RF EUA     5,66 +0,2 +0,1 -0,6 -1,3 -0,8 -1,7 *
+IB01   T-bill   121,86  0,0 +0,1 +0,3 +1,8 +3,7 +2,5 *
 EUA (USD)
-MU     Micron    1.016 +3,9 +4,2 +8,4 +140 +502 +256
-NVDA   Nvidia   222,27 +1,3 +1,8 +2,3  +29  +26  +19
-BAC    BofA      57,73 -0,8 -7,9 -8,1  +24  +13 +6,6
-KO     Coca      88,25 +0,2 +0,6 -1,7  +20  +36  +29
-JPM    JPM      349,67 +0,1 -1,8 -2,1  +23  +14  +10
-TSM    TSMC     434,67 +1,0 +0,6 +5,8  +33  +64  +44
-CVX    Chevron  209,51 -1,0 -2,1 +1,8 +5,7  +37  +41
-MMM    3M       165,89 +0,7 +0,6 -7,8  +19 +8,7 +5,1
-GOOGL  Google   349,54 +0,6 +3,3 +1,5  +16  +39  +12
-AMZN   Amazon   253,71 +1,0 -1,2 -4,6  +24 +9,7 +9,9
-NOK    Nokia     10,68 +0,8 -4,0 +5,4  +34 +124  +65
-BABA   Alibaba  113,24 +4,3 +3,6  -12 -6,6  -30  -22
+MU     Micron   977,50 +5,5  0,0 +3,9 +120 +512 +243 *
+NVDA   Nvidia   219,34 +2,5 +0,4 -0,1  +23  +29  +18 *
+BAC    BofA      58,18 +0,5 -7,0 -9,0  +25  +16 +7,5 *
+KO     Coca      88,06 +0,2 +0,9 -0,3  +18  +35  +28 *
+JPM    JPM      349,31 +0,1 -1,2 -3,8  +22  +14 +9,9 *
+TSM    TSMC     430,26 +3,0 +0,8 +4,4  +28  +65  +43 *
+CVX    Chevron  211,57  0,0 -0,6 +3,7 +6,9  +37  +43 *
+MMM    3M       164,71 +1,3 +1,1 -8,6  +17 +8,1 +4,3 *
+GOOGL  Google   347,33 +1,3 +4,4 +1,0  +13  +40  +11 *
+AMZN   Amazon   251,19 +2,1 -0,3 -3,2  +20 +8,4 +8,8 *
+NOK    Nokia     10,60 +4,5 -0,2 +2,0  +28 +126  +64 *
+BABA   Alibaba  108,54 +1,2  0,0  -15  -12  -34  -25 *
 Hipotese (ETF pais, a confirmar)
-EWY    Coreia   181,31 -0,6 -3,9 +3,9  +44 +130  +86
-MCHI   China     53,07 +0,8 +0,2 -4,2 -3,2  -16  -11
+EWY    Coreia   182,39 +3,9 -0,2 +7,3  +35 +134  +88 *
+MCHI   China     52,67 +0,7 -0,2 -4,1 -6,7  -18  -12 *
 BR (R$)
-EQTL3  Equatr    39,57 +0,0 -0,2  +14 -1,0  +13 +2,8
+EQTL3  Equatr    39,57  0,0 -0,2  +14 -1,0  +13 +2,8
 SAPR4  Sanepar    6,75 +1,7 -0,4 +8,2  -17 -5,3  -13
 KLBN4  Klabin     3,86 +1,0 +0,3 +9,3 +4,3  +14 +2,7
 ALUP4  Alupar    10,90 +0,9 -0,5 +5,8 +5,9  +16 +9,4
@@ -105,16 +140,16 @@ AXIA3  Axia      53,80 -2,6 -1,8 +5,9 -3,3  +13 +6,3
 ITSA4  Itausa    14,03 -1,2 -1,1  +14 +8,7  +38  +23
 BBAS3  BB        23,20 +2,2 +3,2  +29 +0,9 +8,0 +8,3
 SBSP3  Sabesp    27,31 +0,8 +1,0  +14 -8,0  +12 +3,1
-SMAL11 SmallC   109,69 -0,6 -1,0 +9,8 -1,6 -2,4 -2,5
+SMAL11 SmallC   109,69  0,0 -1,0 +9,8 -1,6 -2,4 -2,5
 DIRR3  Direc     10,05 -0,3 -4,0 -4,4  -25  -28  -29
 MRVE3  MRV        5,23 -8,4 -8,9 +7,2  -27  -32  -33
 Macro
 USDBRL USD/BRL  5,1421 -0,2 +0,8 -1,4 -1,5 -3,2 -6,1
-DXY    DXY      100,21 -0,0 +1,1 +1,4 +0,6 +2,9 +2,0
+DXY    DXY      100,21  0,0 +1,1 +1,4 +0,6 +2,9 +2,0
 BRENT  Brent     98,77 -5,8 -5,6 +7,8  -12  +46  +62
-BTC    BTC      81.159 +6,2 +5,2  +17  +15  -31 -7,3
-ETH    ETH       2.622 +7,1 +4,3  +16  +22  -43  -12
-MINERI Minerio   97,42 +0,0 -1,3 +2,2 -7,8 -7,5 -9,1 *
+BTC    BTC      81.629 +6,8 +5,6  +12  +19  -29 -6,7
+ETH    ETH       2.626 +7,3 +4,0  +13  +26  -41  -11
+MINERI Minerio   97,42  0,0 -1,3 +2,2 -7,8 -7,5 -9,1 *
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
 UCITS ETF USD Accumulating · CSPX iShares Core S&P
