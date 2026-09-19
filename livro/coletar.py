@@ -359,7 +359,12 @@ class Coleta:
                 self.eventos["sec"] = s["filings"]
                 vistos["sec"] = s["vistos"]
                 gravar_json(os.path.join(self.saida, "eventos", "sec.json"), {k: v for k, v in s.items() if k != "vistos"})
-                self.pernas["sec"] = f"ok {len(s['filings'])} novos" + (f"; falhas {list(s['falhas'])}" if s["falhas"] else "")
+                contato = str(s.get("ua_usado") or "")
+                self.pernas["sec"] = (f"ok {len(s['filings'])} novos"
+                                      + (f" (contato: {contato[:48]})" if contato else "")
+                                      + (f"; falhas {list(s['falhas'])}" if s["falhas"] else ""))
+                if s.get("falhas"):
+                    self.falhas["sec"] = "; ".join(f"{k}: {v}" for k, v in s["falhas"].items())[:300]
                 for f in s["filings"]:
                     if f.get("texto"):
                         gravar_json(os.path.join(self.saida, "noticias", "corpo", f"{f['id']}.json"),

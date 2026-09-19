@@ -39,6 +39,38 @@ ORDEM_SEV = {"info": 0, "atencao": 1, "critico": 2}
 _TAGS = re.compile(r"<[^>]+>")
 
 
+def variantes_ua(ua: str) -> list[str]:
+    """Contatos a tentar, do declarado para os derivados do proprio GitHub Actions.
+
+    O EDGAR devolveu 403 para User-Agent so com URL (run de 19/09), entao vale
+    tentar tambem o formato 'nome contato@dominio' que a SEC documenta. O e-mail
+    noreply do GitHub e publico por construcao: nao expoe endereco pessoal."""
+    fora = [ua]
+    dono = (os.environ.get("GITHUB_REPOSITORY_OWNER") or "").strip()
+    repo = (os.environ.get("GITHUB_REPOSITORY") or "").strip()
+    if "@" not in ua and dono:
+        fora.append(f"{dono} {dono}@users.noreply.github.com")
+        if repo:
+            fora.append(f"{repo.replace('/', '-')} {dono}@users.noreply.github.com")
+    vistos, out = set(), []
+    for c in fora:
+        if c and c not in vistos:
+            vistos.add(c)
+            out.append(c)
+    return out
+
+
+def abrir_catalogo(cli: Cliente, ua: str, tickers: list[str]) -> tuple[dict, str | None, list[dict]]:
+    """Tenta cada variante de contato ate o EDGAR responder. Devolve (ciks, ua_bom, tentativas)."""
+    tentativas = []
+    for cand in variantes_ua(ua):
+        try:
+            return cik_por_ticker(cli, cand, tickers), cand, tentativas + [{"ua": cand, "status": 200}]
+        except HttpError as e:
+            tentativas.append({"ua": cand, "status": e.status or 0, "detalhe": str(e.body or "")[:80]})
+    return {}, None, tentativas
+
+
 def user_agent() -> str | None:
     """Contato declarado: e-mail ou URL publica. Sem um dos dois, devolve None."""
     ua = (os.environ.get("SEC_USER_AGENT") or "").strip()
@@ -144,10 +176,12 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     vistos = dict(vistos or {})
     desde = hoje - timedelta(days=dias)
     falhas: dict[str, str] = {}
-    try:
-        ciks = cik_por_ticker(cli, ua, list(mapa.values()))
-    except HttpError as e:
-        return {"disponivel": True, "filings": [], "falhas": {"company_tickers": str(e)[:100]}, "vistos": vistos, "ciks": {}}
+    ciks, ua_bom, tentativas = abrir_catalogo(cli, ua, list(mapa.values()))
+    if not ciks:
+        motivo = "; ".join(f"{t['ua'][:40]} -> HTTP {t['status']}" for t in tentativas)
+        return {"disponivel": True, "filings": [], "falhas": {"company_tickers": motivo[:300]},
+                "vistos": vistos, "ciks": {}, "ua_tentativas": tentativas}
+    ua = ua_bom or ua
     novos = []
     for ativo, ticker in mapa.items():
         cik = ciks.get(ticker.upper())
@@ -183,4 +217,5 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     limite = (hoje - timedelta(days=15)).isoformat()
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
     return {"disponivel": True, "filings": novos, "falhas": falhas, "vistos": vistos, "ciks": ciks,
+            "ua_usado": ua, "ua_tentativas": tentativas,
             "coletado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}

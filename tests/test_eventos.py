@@ -306,3 +306,29 @@ def test_sec_user_agent_aceita_email_ou_url(monkeypatch):
         assert sec.user_agent() is None
     monkeypatch.delenv("SEC_USER_AGENT")
     assert sec.user_agent() is None and sec.coletar({"MU": "MU"})["disponivel"] is False
+
+
+def test_sec_tenta_variantes_de_contato(monkeypatch):
+    """403 no contato por URL nao pode parar a perna: tenta o formato de e-mail publico."""
+    from livro.http import HttpError, Resposta
+    monkeypatch.setenv("GITHUB_REPOSITORY_OWNER", "douglora")
+    monkeypatch.setenv("GITHUB_REPOSITORY", "douglora/broadcast")
+    vs = sec.variantes_ua("broadcast-livro/1.0 (+https://github.com/douglora/broadcast)")
+    assert len(vs) == 3 and "@users.noreply.github.com" in vs[1] and "douglaslora" not in " ".join(vs)
+    assert sec.variantes_ua("Fulano fulano@exemplo.com") == ["Fulano fulano@exemplo.com"]
+
+    class Cli:
+        def __init__(self):
+            self.uas = []
+
+        def get(self, url, headers=None, **kw):
+            ua = (headers or {}).get("User-Agent", "")
+            self.uas.append(ua)
+            if "@" not in ua:
+                raise HttpError(403, "Your Request Originates from an Undeclared Automated Tool", url)
+            return Resposta(200, b'{"0":{"cik_str":723125,"ticker":"MU","title":"MICRON"}}', {}, url)
+
+    cli = Cli()
+    ciks, bom, tent = sec.abrir_catalogo(cli, "broadcast-livro/1.0 (+https://github.com/douglora/broadcast)", ["MU"])
+    assert ciks == {"MU": 723125} and "@users.noreply.github.com" in bom
+    assert tent[0]["status"] == 403 and tent[-1]["status"] == 200 and len(cli.uas) == 2
