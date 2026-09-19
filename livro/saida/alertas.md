@@ -2,9 +2,7 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 PETR4 · Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta
-· E05 DI · Com queda da Selic, FIDCs podem chegar a 160% do CDI
-· E05 BTC · This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know
+· E05 PETR4 · Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos
 
 
 Alertas do dia (todos, com status):
@@ -41,4 +39,4 @@ Alertas do dia (todos, com status):
 · linha     T02 MMM — MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa 
 · linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa
 · linha     T02 NOK — NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa pr
-· (+630 notícias só manchete, em noticias.md)
+· (+631 notícias só manchete, em noticias.md)

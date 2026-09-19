@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/09 18h10
+NOTÍCIAS E FATOS · 19/09 18h13
 
-Pernas: noticias ok 3 novas (14 consultas; descartadas: 392 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos; falhas ['company_tickers']
+Pernas: noticias ok 1 novas (14 consultas; descartadas: 389 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos; falhas ['company_tickers']
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -674,7 +674,7 @@ Fonte: Estadao 18/09 11h25
 id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (565)
+## OUTRAS NOTÍCIAS (só manchete) (566)
 
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
@@ -736,4 +736,4 @@ id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 · MRVE3 Geração Z já representa 51% dos compradores de imóveis no DF em 2026, diz MRV (Rádio Itatiaia) https://news.google.com/rss/articles/CBMiswFBVV95cUxQemlOMFN6UTNRUTQ4LXc2WFc5LTJpaU9ORC1BSGM1MFc4UlR6V2k2b2Vuc2lkZU0wYVk2SGI3SkdLQUxCZXlldjlVZGc3MGprM1dsOWZ1X0wyRGNzM3JLLXN0S3RiS05yU0RVSTJaN0ZGWnMyZHQ3YjNDd3RNa1pOV2I4MEtnTlhIbUp6NXd3V21GT3RuZHlEQmRHOXF6OFNtYW1qc0JuY0VBS3RQQnRuQ0hzbw?oc=5
 · NVDA EXCLUSIVE: Nvidia's AI Token Trade Has a Catch: 'Attention Correlates. Returns Don't' (TradingView) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNi1ZN1Z2SU1haDJRdy1hMHJiM2pLOWQ2S2FIT2hRdTlfODJqdHVDMTIzQTZvYVFEamhjQ1JNQlFTbWhOMXVRZ3N2a2pZSHJaX1gyMjZCRHRVNmdkTTQ2NFk4b3dFb3FuNWJhd0haUXk2eExhYTBJOVE5aVA0SnhhVlp5ZGpmZ3FxWUdMVmhuWWVseHFmRkxoakFhZk9xalRRdkhHZXhNd1FPMUlvMmNJUWc3dWI2TVlBRUUzVlE4ak1EMXc3WFJvT2ZoUnl1dkxYbG5qbGV3?oc=5
 · USDBRL Dólar tem leve alta e fecha a R$ 5,14 com cenário eleitoral e apostas sobre juros dos EUA (Money Times) https://news.google.com/rss/articles/CBMiXkFVX3lxTE44WTRqb29WcEV5QWpLOV9yOEhpcWxEbXhlVjhYLW4zYkUwM1hzT1ctakpDQzY3RnhySzNacTlBLVF3anBxTUlpWno2MEdqaVFybjF6ekMxajJwM0pLNGc?oc=5
-· (+505 manchetes; lista completa em eventos/noticias.json)
+· (+506 manchetes; lista completa em eventos/noticias.json)
