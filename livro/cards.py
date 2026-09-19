@@ -25,9 +25,11 @@ def _esc(texto) -> str:
 
 def nome_curto(a) -> str:
     """'Vanguard FTSE All-World UCITS ETF USD Accumulating' -> 'Vanguard FTSE
-    All-World'. Corta so o jargao do inv0lucro; nada e inventado."""
+    All-World'; 'Petroleo Brent (ICE, 1o vencimento)' -> 'Petroleo Brent'.
+    Corta o jargao do involucro e o parentese, que sao o que alarga a coluna no
+    celular; nada e abreviado nem inventado, e o nome inteiro segue no rodape."""
     n = a.nome or a.apelido or a.id
-    return n.split(" UCITS")[0].strip()
+    return n.split(" UCITS")[0].split(" (")[0].strip()
 
 
 def _v(x) -> str:
@@ -174,7 +176,8 @@ def _card_noticias(do_dia: list[dict]) -> str:
         if a.get("por_que"):
             L.append(f"  *Por que importa:* {_esc(a['por_que'])}")
     if so_manchete:
-        L += ["", f"*Outras {len(so_manchete)} manchetes citaram o livro sem número ou decisão nova; em `noticias.md`.*"]
+        # sem a contagem: o numero de manchetes descartadas assusta e nao muda decisao
+        L += ["", "*As manchetes que citaram o livro sem número ou decisão nova estão em `noticias.md`.*"]
     return "\n".join(L)
 
 

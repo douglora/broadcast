@@ -72,6 +72,7 @@ def test_ucits_com_nome_por_extenso_abaixo_da_tabela(universo):
         assert a.nome in t, a.id
         assert cards.nome_curto(a) in t
     assert "UCITS" not in cards.nome_curto(universo.por_id("CSPX"))
+    assert cards.nome_curto(universo.por_id("BRENT")) == "Petroleo Brent"
 
 
 def test_barra_em_nome_nao_quebra_a_tabela(universo):
@@ -94,7 +95,7 @@ def test_alertas_por_severidade_e_noticia_em_card_proprio(universo):
     assert "### Notícias e fatos · 1" in t
     assert "[abrir a fonte](https://sec.gov/a)" in t
     assert "Mais 1 sinais de baixa prioridade" in t
-    assert "Outras 1 manchetes" in t
+    assert "estão em `noticias.md`" in t and "Outras 1" not in t
 
 
 def test_curvas_e_rodape(universo):
