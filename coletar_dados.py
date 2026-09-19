@@ -824,13 +824,16 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
     for nome, candidatos in SEC_LINHAS.items():
         # Entre as tags candidatas, vale a que tem dado mais recente (empresas trocam de tag
         # ao longo dos anos: o InterestExpense do MELI parou em 2011) e, no empate, a mais longa.
+        # Ordem de desempate: a posicao na lista de candidatas (Revenues antes de
+        # RevenueFromContractWithCustomer, que no MELI exclui a receita de juros do credito);
+        # as tags achadas por regex vem depois de todas, e entre elas vale a mais longa.
         opcoes = []
-        for tag in candidatos:
+        for ordem, tag in enumerate(candidatos):
             for tx in taxonomias:
                 if tag in facts.get(tx, {}):
                     tri, anu, inst, unidade = _parse_serie_sec(facts[tx][tag])
                     if tri or anu:
-                        opcoes.append((_ultimo_ano(tri, anu), len(tri) + len(anu), tag, tri, anu, inst, unidade))
+                        opcoes.append((_ultimo_ano(tri, anu), -ordem, tag, tri, anu, inst, unidade))
                     break
         if nome in SEC_REGEX_FALLBACK and (not opcoes or max(o[0] for o in opcoes) < ano_atual - 1):
             rx = re.compile(SEC_REGEX_FALLBACK[nome])
@@ -841,7 +844,7 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
                     if rx.search(tag):
                         tri, anu, inst, unidade = _parse_serie_sec(serie)
                         if tri or anu:
-                            opcoes.append((_ultimo_ano(tri, anu), len(tri) + len(anu), f"{tx}:{tag}", tri, anu, inst, unidade))
+                            opcoes.append((_ultimo_ano(tri, anu), -10000 + len(tri) + len(anu), f"{tx}:{tag}", tri, anu, inst, unidade))
         if not opcoes:
             continue
         opcoes.sort(key=lambda o: (o[0], o[1]), reverse=True)
