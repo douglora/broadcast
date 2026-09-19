@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/09 18h31
+NOTÍCIAS E FATOS · 19/09 19h07
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 401 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (14 consultas; descartadas: 399 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
@@ -193,7 +193,23 @@ Fonte: SEC EDGAR 2026-09-04
 id: E04-BABA-26105208-2026-09-04 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (66)
+## NOTÍCIAS COM MATERIALIDADE (67)
+
+[ATENÇÃO] E05 · UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.
+Yahoo Finance · 19/09 17h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%.
+  – While the average dividend yield on the S&P 500 is hovering around 1.1%, it hit an all-time low of 1.04% last month.
+  – Conversely, yields on 10-year Treasuries briefly nudged above 5% this month before retreating modestly.
+  – As of Friday midday, they were at almost precisely 5%.
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+Link: https://finance.yahoo.com/markets/stocks/articles/p-500-yields-just-1-203000717.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: UST
+Como falar: 'saiu no Yahoo Finance: The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Divide…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 19/09 17h30
+id: E05-UST-00277393fd-2026-09-19 · status: pendente
 
 [ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
 Estadao · 19/09 03h44 · fonte única · licença: manchete
@@ -812,8 +828,9 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (599)
+## OUTRAS NOTÍCIAS (só manchete) (600)
 
+· PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
 · UST U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged (The Wall Street Journal) https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e
 · PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
 · USDBRL Japão faz consulta de câmbio e iene salta para ¥156 por dólar (ADVFN) https://br.advfn.com/jornal/2026/09/japao-consulta-cambio-iene-salta-156-dolar
@@ -873,5 +890,4 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · JPM Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:8148a0271094b:0-dividend-roundup-microsoft-jpmorgan-chase-mcdonald-s-broadcom-and-more/
 · ITUB4 Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-assai-brava-energia-itau-unibanco-b3-cemig-e-os-principais-destaques-desta-sexta-feira-18
 · BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
-· BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
-· (+539 manchetes; lista completa em eventos/noticias.json)
+· (+540 manchetes; lista completa em eventos/noticias.json)

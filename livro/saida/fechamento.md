@@ -1,15 +1,19 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 18h31 de 19/09 BRT
-Relógios: Yahoo 18h31 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 19h07 de 19/09 BRT
+Relógios: Yahoo 19h07 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (43 · 2 críticos)
+ALERTAS DO DIA (44 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
 [CRÍTICO] F03 Brent cai a US$ 98,77 (-5,8% no dia ·
           cruzou US$ 100)
+[ATENÇÃO] E05 UST · The S&P 500 Yields Just 1.1%
+          While 10-Year Treasury Yields Have Surged
+          to 5%. This Dividend Stock Provides a
+          Middle Ground for Long-Term Investors.
 [ATENÇÃO] E04 MELI34 · 8-K: 1.01 acordo material
           assinado, 7.01 Regulation FD
 [ATENÇÃO] E04 AMZN · 8-K: 5.02 entrada ou saida de
@@ -24,18 +28,19 @@ ALERTAS DO DIA (43 · 2 críticos)
 [ATENÇÃO] E05 DI · Copom reduz taxa de juros em 0,25
           ponto pela 5ª vez e Selic cai a 13,75% ao
           ano
-[ATENÇÃO] T05 BTC +6,8% no dia a US$ 81.629:
-          movimento de 3,3 desvios para uma vol de
-          20 dias de 32% a.a.
-(+35 em alertas.md)
+(+36 em alertas.md)
 
 ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
        · BBAS3 +2,2%
 BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% ·
        BBDC4 -1,2% · ITSA4 -1,2%
 
-NOTÍCIAS E FATOS (11 com materialidade · 671 só
-  manchete · noticias.md)
+NOTÍCIAS E FATOS (12 com materialidade ·
+  noticias.md)
+· UST The S&P 500 Yields Just 1.1% While 10-Year
+  Treasury Yields Have Surged to 5%. This Dividend
+  Stock Provides a Middle Ground for Long-Term
+  Investors. (Yahoo Finance)
 · MELI34 8-K: 1.01 acordo material assinado, 7.01
   Regulation FD (SEC)
 · AMZN 8-K: 5.02 entrada ou saida de diretor ou
@@ -46,9 +51,7 @@ NOTÍCIAS E FATOS (11 com materialidade · 671 só
   vez e Selic cai a 13,75% ao ano (Estadao)
 · MACRO Focus de 11/09: IPCA: 2026 4,90% (-10 bps) ·
   2027 4,30% (+1 bps) (Focus)
-· SBSP3 Fato Relevante: COMPANHIA DE SANEAMENTO
-  BÁSICO (CVM)
-  (+5)
+  (+6)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83
