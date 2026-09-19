@@ -1176,8 +1176,13 @@ CVM_SEMANTICAS = {
     "resultado_antes_ir": (r"^RESULTADO ANTES DOS TRIBUTOS", "3", 2),
     "imposto_renda": (r"^IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL", "3", 2),
     "caixa_equivalentes": (r"^CAIXA E EQUIVALENTES", "1", 3),
-    "carteira_credito": (r"^(OPERACOES DE CREDITO|EMPRESTIMOS E ADIANTAMENTOS|EMPRESTIMOS E RECEBIVEIS|"
-                         r"CARTEIRA DE CREDITO|EMPRESTIMOS E FINANCIAMENTOS A CLIENTES|OPERACOES DE CREDITO E ARRENDAMENTO)", "1", 4),
+    # "Emprestimos e Adiantamentos em Instituicoes Financeiras" e interbancario, nao carteira de
+    # credito: no Inter, a conta 1.02.03.01 com esse nome entrava como carteira e subestimava em
+    # dez vezes. So conta a carteira a clientes.
+    "carteira_credito": (r"^(OPERACOES DE CREDITO(?! E ARRENDAMENTO A INSTITUICOES)|"
+                         r"EMPRESTIMOS E ADIANTAMENTOS (A|AOS) (CLIENTES|COSTUMERS|CUSTOMERS)|"
+                         r"EMPRESTIMOS E RECEBIVEIS(?!.*INSTITUICOES)|CARTEIRA DE CREDITO|"
+                         r"EMPRESTIMOS E FINANCIAMENTOS A CLIENTES|OPERACOES DE CREDITO E ARRENDAMENTO MERCANTIL)", "1", 4),
     "depositos": (r"^DEPOSITOS( DE CLIENTES)?$", "2", 3),
 }
 _CVM_ZIPS = {}
