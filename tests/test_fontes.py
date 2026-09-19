@@ -68,7 +68,8 @@ def test_yahoo_parse_chart():
 def test_yahoo_mesclar_preserva_antiga():
     antiga = {"simbolo": "X", "barras": [["2026-09-17", 1, 1, 1, 1, 1, 0]]}
     assert yahoo.mesclar(antiga, None)["reaproveitada"] is True
-    assert yahoo.mesclar(antiga, {"simbolo": "X", "barras": []})["barras"] == []
+    # coleta que volta sem barra nao apaga o historico ja guardado
+    assert yahoo.mesclar(antiga, {"simbolo": "X", "barras": []})["barras"] == antiga["barras"]
 
 
 def test_bcb_parse():
@@ -77,3 +78,34 @@ def test_bcb_parse():
     f = bcb.parse_focus([{"DataReferencia": 2027, "Mediana": "4.30", "Data": "2026-09-11"},
                          {"DataReferencia": 2027, "Mediana": "4.25", "Data": "2026-09-04"}], "IPCA")
     assert f["por_ano"]["2027"]["mediana"] == 4.30
+
+
+def test_mesclar_nao_perde_a_barra_do_ultimo_pregao():
+    """O Yahoo as vezes devolve o chart sem a barra do dia (visto em 18/09 com MU)."""
+    from livro.fontes import yahoo
+    def barra(d, p):
+        return [d, p, p, p, p, p, 100]
+    antiga = {"simbolo": "MU", "barras": [barra("2026-09-16", 900.0), barra("2026-09-17", 977.5), barra("2026-09-18", 1015.8)]}
+    nova = {"simbolo": "MU", "meta": {"regularMarketPrice": 1015.8}, "coletado_em": "x",
+            "barras": [barra("2026-09-16", 900.0), barra("2026-09-17", 977.5)]}
+    m = yahoo.mesclar(antiga, nova)
+    assert [b[0] for b in m["barras"]] == ["2026-09-16", "2026-09-17", "2026-09-18"]
+    assert m["barras"][-1][4] == 1015.8 and m["barras_recuperadas"] == ["2026-09-18"]
+    assert m["meta"]["regularMarketPrice"] == 1015.8   # metadados sao os da coleta nova
+    # coleta nova com a barra do dia corrigida vence a guardada
+    nova2 = {"simbolo": "MU", "meta": {}, "barras": [barra("2026-09-16", 900.0), barra("2026-09-17", 977.5), barra("2026-09-18", 1016.4)]}
+    m2 = yahoo.mesclar(m, nova2)
+    assert m2["barras"][-1][4] == 1016.4 and "barras_recuperadas" not in m2
+    # intradia (range=5d) tambem preserva os 2 anos
+    import pandas as pd
+    dias = [d.date().isoformat() for d in pd.bdate_range(end="2026-09-17", periods=900)]
+    m3 = yahoo.mesclar({"barras": [barra(d, 10.0) for d in dias[-200:]]},
+                       {"meta": {}, "barras": [barra("2026-09-18", 12.0)]})
+    assert len(m3["barras"]) == 201 and m3["barras"][-1][4] == 12.0
+    # sem coleta nova, a antiga fica marcada
+    assert yahoo.mesclar(antiga, None)["reaproveitada"] is True
+    assert yahoo.mesclar(None, None) is None
+    # teto de barras: fica com as mais recentes
+    longa = {"barras": [barra(d, float(i)) for i, d in enumerate(dias)]}
+    m4 = yahoo.mesclar(longa, {"meta": {}, "barras": [barra("2026-09-18", 1.0)]}, max_barras=800)
+    assert len(m4["barras"]) == 800 and m4["barras"][-1][0] == "2026-09-18" and m4["barras"][0][0] == dias[101]

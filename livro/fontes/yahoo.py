@@ -117,10 +117,29 @@ def coletar(simbolos: list[str], rng: str = "2y", cli: Cliente | None = None,
     return com_rodadas(lambda s: baixar_serie(cli, s, rng, crumb), simbolos, espaco=0.4, **kw)
 
 
-def mesclar(antiga: dict | None, nova: dict | None) -> dict | None:
-    """Serie nova substitui a antiga; se a nova falhou, a antiga fica (com marca de idade)."""
-    if nova:
-        return nova
+MAX_BARRAS = 800   # ~3,2 anos: cobre 1a e YTD com folga e limita o tamanho do arquivo
+
+
+def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS) -> dict | None:
+    """Une as barras por data: a coleta nova vence na mesma data, mas NENHUMA barra ja
+    guardada e descartada.
+
+    O Yahoo as vezes devolve a serie sem a barra do ultimo pregao (visto em 18/09:
+    o chart de MU terminava em 17/09 com o fechamento de 18/09 em meta.regularMarketPrice).
+    Substituir a serie inteira fazia a tabela do Fechamento voltar um dia.
+    Se a coleta falhou, a antiga fica com marca de idade."""
+    if nova is not None:
+        antigas = (antiga or {}).get("barras") or []
+        if not antigas:
+            return nova
+        por_data = {b[0]: b for b in antigas}
+        por_data.update({b[0]: b for b in (nova.get("barras") or [])})
+        barras = [por_data[k] for k in sorted(por_data)][-max_barras:]
+        recuperadas = [b[0] for b in barras if b[0] not in {x[0] for x in (nova.get("barras") or [])}]
+        out = {**nova, "barras": barras}
+        if recuperadas:
+            out["barras_recuperadas"] = recuperadas[-5:]
+        return out
     if antiga:
         antiga = dict(antiga)
         antiga["reaproveitada"] = True
