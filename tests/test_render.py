@@ -107,7 +107,8 @@ def test_bloco_a_nao_conta_manchete_no_digest():
                   "status": "linha", "dados": {"manchete": f"manchete {i}", "veiculo": "V"}} for i in range(600)])
     a = render.bloco_a(date(2026, 9, 18), "Yahoo 18h40", do_dia, [], {}, ["DI"], ["agenda"], [], ["Yahoo"])
     assert "ALERTAS DO DIA (2 · 1 crítico)" in a
-    assert "NOTÍCIAS E FATOS (1 · +601 manchete · noticias.md)" in a
+    plano = " ".join(a.split())
+    assert "NOTÍCIAS E FATOS (1 com materialidade · 601 só manchete · noticias.md)" in plano
     assert "manchete 0" not in a and "cortada pelo teto" not in a
     md = render.alertas_md({"mensagens": [], "linhas_info": [], "suprimidos": []}, do_dia, "Fechamento 18h40")
     assert "(+601 notícias só manchete, em noticias.md)" in md and "manchete 0" not in md
@@ -175,5 +176,9 @@ def test_do_dia_inclui_o_que_foi_descoberto_hoje_sobre_documento_antigo():
         # so o pregao: o 8-K achado hoje fica de fora
         assert {a["data"] for a in r.do_dia("2026-09-18")} == {"2026-09-18"}
         # pregao + data da coleta: entra, e o antigo de verdade continua fora
-        ids = {a["data"] for a in r.do_dia("2026-09-18", "2026-09-19")}
-        assert ids == {"2026-09-18", "2026-09-09"}
+        ordem = r.do_dia("2026-09-18", "2026-09-19")
+        assert {a["data"] for a in ordem} == {"2026-09-18", "2026-09-09"}
+        # critico primeiro; dentro da severidade, o mais recente na frente
+        r.fila["E03-PETR4-y-2026-09-18"] = {"data": "2026-09-18", "gerado_em": "2026-09-18T09:00:00Z", "severidade": "atencao"}
+        at = [a["gerado_em"] for a in r.do_dia("2026-09-18", "2026-09-19") if a["severidade"] == "atencao"]
+        assert at == sorted(at, reverse=True)

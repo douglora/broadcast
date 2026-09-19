@@ -16,6 +16,11 @@ def agora_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _inverso(s: str) -> tuple:
+    """Chave que ordena strings ao contrario (mais recente primeiro)."""
+    return tuple(-ord(c) for c in s)
+
+
 class Repositorio:
     def __init__(self, raiz: str):
         self.raiz = raiz
@@ -71,8 +76,11 @@ class Repositorio:
         ao pregao (um 8-K de 09/09 achado em 19/09). Sem a data da coleta, o que foi
         descoberto hoje sobre um documento antigo ficava de fora do digest."""
         alvos = {d for d in datas if d}
+        # severidade primeiro e, dentro dela, o mais recente na frente: num digest o
+        # que acabou de aparecer e o que interessa, nao o que entrou na fila de manha
         return sorted([v for v in self.fila.values() if v.get("data") in alvos or v.get("gerado_em", "")[:10] in alvos],
-                      key=lambda v: ({"critico": 0, "atencao": 1, "info": 2}.get(v.get("severidade"), 3), v.get("gerado_em", "")))
+                      key=lambda v: ({"critico": 0, "atencao": 1, "info": 2}.get(v.get("severidade"), 3),
+                                     _inverso(v.get("gerado_em", ""))))
 
     def podar(self, dias: int = 30, dias_manchete: int = 2) -> None:
         """Alerta sai da fila apos `dias`; noticia ou fato que nunca virou mensagem sai

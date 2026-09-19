@@ -318,8 +318,8 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
     L.append("")
     fatos = [a for a in do_dia if a.get("familia") in ("noticia", "evento")]
     if fatos or so_manchete:
-        resto = f" · +{len(so_manchete)} manchete" if so_manchete else ""
-        L += quebrar(f"NOTÍCIAS E FATOS ({len(fatos)}{resto} · noticias.md)", indent="  ")
+        resto = f" · {len(so_manchete)} só manchete" if so_manchete else ""
+        L += quebrar(f"NOTÍCIAS E FATOS ({len(fatos)} com materialidade{resto} · noticias.md)", indent="  ")
         for a in fatos[:6]:
             d = a.get("dados") or {}
             veic = d.get("veiculo") or ""
