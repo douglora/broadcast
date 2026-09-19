@@ -569,7 +569,9 @@ def coletar_release_cvm(documentos, fontes, anterior=None):
         if tipo.startswith("RELATORIO DE ANALISE GERENCIAL"):
             return 0
         if tipo.startswith("PRESS RELEASE"):
-            return 1 if re.search(r"INGL|ENGL|\bEN\b|EARNINGS", assunto) else 0.5
+            if re.search(r"PORTUGU|\bPT\b|\bPOR\b", assunto):
+                return 0.5
+            return 1 if re.search(r"INGL|ENGL|\bEN\b|ENGLISH", assunto) else 0.7
         return 2
     do_dia.sort(key=lambda d: (preferencia(d), d["data"] < data_max))
     for d in do_dia[:3]:
@@ -596,7 +598,7 @@ SEC_ARQUIVO_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{nome}"
 _PALAVRAS_RESULTADO = re.compile(r"(?i)(quarter|trimestre|fiscal year|full[- ]year|results|resultados|earnings)")
 
 
-def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
+def coletar_release_sec(cik, fontes, max_filings=20, anterior=None):
     """Exhibit 99 do 8-K (item 2.02) ou 6-K mais recente com resultados trimestrais.
 
     `anterior` e o release ja gravado no branch: se o link for o mesmo, reusa o texto."""
@@ -646,7 +648,10 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
         docs.sort(key=nota_nome, reverse=True)
         if form == "8-K":
             docs = [n for n in docs if nota_nome(n) >= 3] or docs[:1]
-        for nome in docs[:2]:
+        else:
+            # 6-K: baixa so o exhibit com cara de release; o documento principal apenas quando nao ha exhibit
+            docs = [n for n in docs if nota_nome(n) >= 3][:2] or docs[:1]
+        for nome in docs:
             url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
             reusado = _release_reutilizavel(anterior, url)
             if reusado:
@@ -660,13 +665,15 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
                 continue
             cabeca = texto[:8000]
             nota = nota_nome(nome)
-            if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)|quarterly results|financial results for", cabeca):
+            if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)|quarterly results|financial results for|results for the (first|second|third|fourth)", cabeca):
                 nota += 2
-            if _PALAVRAS_RESULTADO.search(cabeca):
+            if re.search(r"(?i)(quarter|trimestre|fiscal year|full[- ]year)", cabeca) and re.search(r"(?i)(results|earnings|resultados)", cabeca):
                 nota += 1
             if re.search(r"(?i)interim (condensed )?(consolidated )?financial statements|notes to the (interim|consolidated) financial", cabeca):
                 nota -= 1
-            if nota <= 0:
+            if re.search(r"(?i)annual general meeting|extraordinary general meeting|shareholders.? meeting|notice of (meeting|annual)|appointment of|dividend declaration|share repurchase program", cabeca[:3000]):
+                nota -= 2
+            if nota < 2:
                 continue
             if nota > melhor_nota:
                 melhor_nota = nota
@@ -737,8 +744,9 @@ SEC_SEM_DERIVACAO = {"lpa_diluido", "acoes_diluidas"}
 # Quando nenhuma tag padrao tem dado recente, procura na taxonomia propria da
 # empresa (ex.: meli:...) uma tag com esse padrao. tags_usadas registra qual foi.
 SEC_REGEX_FALLBACK = {
-    "despesa_juros": r"^InterestExpense",
-    "resultado_financeiro_outros": r"^(NonoperatingIncomeExpense|OtherNonoperatingIncomeExpense|FinanceIncomeCost|FinancialResult|InterestAndOtherFinancial)",
+    "despesa_juros": r"^(Interest\w*Expense|InterestAndOtherFinancial|Financial\w*(Expense|Charges|Losses|Costs)|Finance(Cost|Expense))",
+    "resultado_financeiro_outros": r"^(NonoperatingIncomeExpense|OtherNonoperatingIncomeExpense|FinanceIncomeCost|FinancialResult|"
+                                   r"NetFinancial|OtherIncomeExpense|InterestAndOtherFinancial\w*Net)",
     "divida_curto_prazo": r"^(Debt|Borrowings|LoansPayable|ShortTermBorrowings|LoansAndOtherFinancialLiabilities)\w*Current$",
     "divida_longo_prazo": r"^(LongTermDebt|Borrowings|LoansPayable|LoansAndOtherFinancialLiabilities)\w*Noncurrent$",
 }
@@ -808,7 +816,7 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
         return {}
     taxonomias = [tx for tx in ("us-gaap", "ifrs-full") if tx in facts]
     out = {"cik": cik, "taxonomias": taxonomias, "trimestral": {}, "anual": {}, "tags_usadas": {},
-           "unidades": {}, "instantaneas": [], "derivados": {}, "ltm": {},
+           "unidades": {}, "instantaneas": [], "derivados": {}, "ltm": {}, "desatualizadas": [],
            "nota": ("trimestral: frames CYyyyyQn do XBRL (3 meses; balanco = saldo no fim do trimestre). "
                     "O 4T de fluxo e derivado: anual menos 1T+2T+3T (lista em derivados). "
                     "ltm: soma dos ultimos 4 trimestres consecutivos.")}
@@ -837,7 +845,11 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
         if not opcoes:
             continue
         opcoes.sort(key=lambda o: (o[0], o[1]), reverse=True)
-        _, _, tag, tri, anu, instantanea, unidade = opcoes[0]
+        ultimo_ano, _, tag, tri, anu, instantanea, unidade = opcoes[0]
+        if ultimo_ano < ano_atual - 1:
+            # A empresa parou de usar a tag (o InterestExpenseDebt do MELI acaba em 2018):
+            # fica registrado, mas nao entra no LTM nem nas comparacoes.
+            out["desatualizadas"].append(nome)
         # 4T derivado para linhas de fluxo (DRE e caixa), quando ha o anual e os tres trimestres
         if not instantanea and nome not in SEC_SEM_DERIVACAO:
             for chave_ano, total in anu.items():
@@ -852,7 +864,7 @@ def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
         out["unidades"][nome] = unidade
         if instantanea:
             out["instantaneas"].append(nome)
-        elif nome not in SEC_SEM_DERIVACAO:
+        elif nome not in SEC_SEM_DERIVACAO and ultimo_ano >= ano_atual - 1:
             ltm = _ltm(out["trimestral"][nome], lambda k: (int(k[2:6]), int(k[7])))
             if ltm:
                 out["ltm"][nome] = ltm
@@ -1199,17 +1211,28 @@ def _oficial(dados):
     else:
         return {}
     geral = out["plano_de_contas"] == "geral"
+    periodo = (ltm.get(rec) or ltm.get(ll) or {}).get("ate") \
+        or max((v.get("ate") for v in ltm.values() if v and v.get("ate")), default=None)
+    out["ltm_ate"] = periodo
+
+    def valor_ltm(conta):
+        # So entra o LTM que termina no mesmo trimestre da receita: linha parada no tempo fica de fora
+        item = ltm.get(conta)
+        return item["valor"] if item and item.get("ate") == periodo else None
     for nome, conta in (("receita_ltm", rec), ("ebit_ltm", ebit), ("lucro_ltm", ll), ("resultado_financeiro_ltm", fin)):
-        if conta and ltm.get(conta):
-            out[nome] = ltm[conta]["valor"]
-            out["ltm_ate"] = ltm[conta]["ate"]
+        if conta and valor_ltm(conta) is not None:
+            out[nome] = valor_ltm(conta)
     if fin is None:
-        # SEC: resultado financeiro liquido (positivo = receita) ou, na falta, a despesa de juros com sinal trocado
-        if ltm.get("resultado_financeiro_outros"):
-            out["resultado_financeiro_ltm"] = ltm["resultado_financeiro_outros"]["valor"]
-        elif ltm.get("despesa_juros"):
-            out["resultado_financeiro_ltm"] = -ltm["despesa_juros"]["valor"]
-            out["resultado_financeiro_nota"] = "so a despesa de juros (InterestExpense), sem receitas financeiras"
+        # SEC: resultado financeiro = outras receitas/despesas nao operacionais menos a despesa de juros
+        # (positivo = receita, como na CVM). Registra a composicao para o leitor.
+        outros, juros = valor_ltm("resultado_financeiro_outros"), valor_ltm("despesa_juros")
+        if outros is not None or juros is not None:
+            out["resultado_financeiro_ltm"] = round((outros or 0.0) - (juros or 0.0), 6)
+            out["resultado_financeiro_nota"] = ("outros nao operacionais" if outros is not None else "") + \
+                (" menos " if outros is not None and juros is not None else "") + \
+                ("despesa de juros" if juros is not None else "")
+            if juros is not None:
+                out["despesa_juros_ltm"] = juros
     receita, ebit_v, lucro = out.get("receita_ltm"), out.get("ebit_ltm"), out.get("lucro_ltm")
     if receita and geral:
         if ebit_v is not None:
