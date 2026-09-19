@@ -231,8 +231,8 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
    anti-fadiga (`livro/politica.py`)
    e grava em `livro/` no branch `dados`: `saida/fechamento.md` (BLOCO A e
    BLOCO B com dia/1s/1m/6m/1a/YTD), `saida/alertas.md`, `saida/intradia.md`,
-   `saida/manha.md`, `saida/noticias.md`, `saida/painel.html` (a pagina que a
-   sessao publica), `saida/manifest.json`,
+   `saida/manha.md`, `saida/noticias.md`, `saida/fechamento_cards.md` (os cards que a
+   sessao cola), `saida/painel.html`, `saida/manifest.json`,
    `estado/alertas.json` (fila com ack). Noticias e fatos (`livro/fontes/noticias.py`,
    `cvm.py`, `sec.py` + regras E03/E04/E05): Google News por grupo de ativos com o
    link do veiculo resolvido, fatos relevantes e comunicados do IPE da CVM com o
@@ -242,10 +242,12 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
 2. **Sessao do Claude** (skill `.claude/skills/livro/SKILL.md`): e a interface.
    Routines disparam turnos na sessao (07h20, de hora em hora 10h20-17h20 e
    18h40 BRT); o turno dispara o workflow se o dado estiver velho, le o que o
-   runner gravou e escreve a Leitura da Mesa. A entrega principal e o painel:
-   a sessao troca o marcador `[[LEITURA_DA_MESA]]` em `saida/painel.html` pela
-   leitura e republica sempre o mesmo Artifact, respondendo no chat so a
-   manchete e o link; BLOCO A/BLOCO B saem sob demanda ("tabela", "completo").
+   runner gravou e escreve a Leitura da Mesa. A entrega e na propria sessao, em
+   cards de markdown: a sessao troca `[[LEITURA_DA_MESA]]` em
+   `saida/fechamento_cards.md` pela manchete e cola os cards (um por bloco do
+   livro, alertas, curvas, noticias, agenda). BLOCO A/BLOCO B saem sob demanda
+   ("tabela", "completo") e `saida/painel.html` vira uma pagina publicada
+   quando ele pedir "painel".
    Push no celular para alerta critico, atencao agrupada e "Fechamento pronto".
 3. **Configs**: `config/livro.yaml` (universo), `config/limiares.yaml` (regras),
    `config/calendario.yaml` (feriados, horarios, macro, resultados).
