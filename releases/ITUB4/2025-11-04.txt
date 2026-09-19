@@ -1,0 +1,2018 @@
+[p. 1]
+Análise Gerencial da Operação e Demonstrações Contábeis Condensadas 
+Análise Gerencial 
+da Operação 
+3o trimestre de 2025
+
+[p. 2]
+Sumário Executivo 
+(Esta página foi deixada em branco intencionalmente) 
+4
+
+[p. 3]
+Sumário Executivo 
+Análise Gerencial da Operação > Sumário Executivo 
+Sumário do Resultado Gerencial 
+A partir de janeiro de 2025, considera a adoção da Resolução 4.966 de forma prospectiva. A seguir, apresentamos os indicadores financeiros 
+do Itaú Unibanco, apurados no final do período. 
+Obs.: (1) O Produto Bancário é a soma da Margem Financeira Gerencial, das Receitas de Prestação de Serviços e das Receitas de Segur os, Previdência e Capitalização antes das Despesas de 
+Sinistros e de Comercialização; (2) Detalhada na seção Margem Financeira Gerencial; (3) O cálculo do retorno foi efetuado div idindo-se o Resultado Recorrente Gerencial pelo Patrimônio Líquido 
+Médio. O quociente dessa divisão foi multiplicado pelo número de períodos no ano para se obter o índice anual; (4) O cálculo foi efetuado dividindo-se o Resultado Recorrente Gerencial pelo 
+Ativo Médio; (5) Inclui títulos e valores mobiliários; (6) Mais detalhes da metodologia de cálculo do Índice de Eficiência vi de seção Glossário; (7) Calculado com base na média ponderada da quan-
+tidade de ações em circulação no período; (8) Ações representativas do capital social líquidas das ações em tesouraria. O núm ero de ações em circulação de setembro/24 foi ajustado para refletir 
+a bonificação de ações de 10% ocorrida em 20 de março de 2025; (9) JCP – Juros sobre Capital Próprio. Valores pagos/provisionados, declarados e destacados no patrimônio líquido; (10) Fonte: 
+Bloomberg; (11) Conforme detalhado na seção Balanço Patrimonial; (12) O índice de Basileia segue as instruções do Banco Centr al do Brasil e a soma do AT1 com o nível II está limitada ao per-
+centual de 3,5% pela Res. CMN Nº 4.958. Caso não fosse limitado, o índice de Basileia seria de 17,4% em set/24; (13) Consider ando o limite de 1,5% do AT1, conforme Res. CMN Nº 4.958. Não 
+fosse esse limite, o Índice de Capital Nível 1 ficaria em 15,0% e 15,3% em jun/25 e set/24, respectivamente; (14) A partir de setembro de 2024, passamos a divulgar nossa estrutura física de 
+atendimento desconsiderando agências e postos de atendimento bancário que, ao longo do tempo, se tornaram virtuais. A série h istórica a partir de setembro de 2023 foi refeita e já contempla 
+essa alteração; (15) Inclui PAEs, pontos em estabelecimentos de terceiros e Banco24horas. 
+5 
+Em R$ milhões (exceto onde indicado) 3T25 2T25 3T24 9M25 9M24
+Resultado Recorrente Gerencial 11.876 11.508 10.675 34.513 30.518 
+Produto Bancário (1) 46.567 45.728 42.694 136.832 124.858 
+Margem Financeira Gerencial (2) 31.382 31.177 28.512 92.881 83.057 
+Retorno Recorrente Gerencial sobre o Patrimônio Líquido Médio anualizado - Consolidado (3) 23,3% 23,3% 22,7% 22,9% 22,2% 
+Retorno Recorrente Gerencial sobre o Patrimônio Líquido Médio anualizado- Brasil (3) 24,2% 24,4% 23,8% 23,9% 23,3% 
+Retorno Recorrente Gerencial sobre o Ativo Médio anualizado (4) 1,6% 1,6% 1,4% 1,6% 1,4% 
+Índice de Inadimplência (90 dias) - Total (5) 1,9% 1,9% - 1,9% -
+Índice de Eficiência (IE) (6) 39,5% 38,8% 40,2% 38,8% 39,1% 
+Resultado Recorrente Gerencial por Ação (R$) (7) (8) 1,10 1,07 0,99 
+Lucro Líquido por Ação (R$) (7) (8) 1,07 1,05 0,95 
+Número total de ações no final do período - em milhões (8) 10.736 10.784 10.773 
+Valor Patrimonial por Ação (R$) (8) 19,30 18,62 17,85 
+Dividendos e JCP Líquidos (9) 758 4.737 2.713 
+Valor de Mercado (10) 397.245 376.891 330.823 
+Valor de Mercado (10) (US$ milhões) 74.702 69.334 60.793 
+Ativos Totais 2.996.463 2.898.050 3.008.534 
+Total de Operações de Crédito com Garantias Financeiras Prestadas e Títulos Privados 1.402.039 1.389.076 1.318.082 
+Depósitos + Letras + Obrigações por TVM + Empréstimos e Repasses (11) 1.527.579 1.493.602 1.441.083 
+Índice Operações de Crédito/Captações (11) 83,7% 84,9% 83,4% 
+Patrimônio Líquido 207.164 200.815 192.248 
+Índice de Basileia Consolidado Prudencial (12) 16,4% 16,5% 17,2% 
+Índice de Capital Nível I - Basileia III (13) 14,8% 14,6% 15,2% 
+Índice de Capital Principal (Common Equity Tier I ) - Basileia III 13,5% 13,1% 13,7% 
+Índice de Liquidez de Curto Prazo (LCR) 218,7% 213,8% 224,9% 
+Índice de Liquidez de Longo Prazo (NSFR) 123,3% 121,1% 124,2% 
+Fundos de investimentos e carteiras administradas 2.184.008 2.117.968 1.984.751 
+Colaboradores do Conglomerado (indivíduos) 93.554 95.714 96.779 
+ Brasil 83.609 85.775 86.863 
+ Exterior 9.945 9.939 9.916 
+Agências e PABs (14) 2.617 2.738 2.959 
+Caixas Eletrônicos (15)
+39.588 38.909 39.727 
+DREDesempenhoAçõesOutros Balanço
+
+[p. 4]
+Conciliação entre o resultado contábil e gerencial | 3º trimestre de 2025 
+Itens Extraordinários Líquidos do Efeitos Fiscais 
+Sumário Executivo 
+Análise Gerencial da Operação > Sumário Executivo 
+Em R$ milhões Efeitos fiscais Reclassificações
+Produto Bancário 45.835 (27) 1.451 (692) 46.567 
+Margem Financeira Gerencial 28.125 (14) 1.451 1.819 31.382 
+Margem Financeira com Clientes - - - 30.479 30.479 
+Margem Financeira com o Mercado - - - 902 902 
+Receitas de Prestação de Serviços 12.187 - - (432) 11.755 
+Receitas de Operações com Seg., Prev. e Cap. antes das 
+despesas com Sinistros e das Despesas de Comercialização 2.224 - - 1.206 3.430 
+Outras Receitas Operacionais 2.823 (13) - (2.810) - 
+Resultado de Participações em Coligadas 377 - - (377) - 
+Resultado não Operacional 98 - - (98) - 
+Custo do Crédito (8.253) - - (892) (9.145) 
+Despesa de Perda Esperada (9.540) - - (240) (9.780) 
+Descontos Concedidos - - - (714) (714) 
+Recuperação de Créditos Baixados como Prejuízo 1.287 - - 61 1.348 
+Despesas com Sinistros (449) - - - (449) 
+Outras Despesas Operacionais (22.219) 477 (43) 1.927 (19.858) 
+Despesas não Decorrentes de Juros (19.608) 477 - 1.981 (17.150) 
+Despesas Tributárias de ISS, PIS, Cofins e Outras (2.607) - (43) (53) (2.703) 
+Despesas de Comercialização de Seguros (5) - - - (5) 
+Resultado antes da Tributação e Participações 14.914 450 1.408 344 17.116 
+Imposto de Renda e Contribuição Social (3.074) (95) (1.408) (362) (4.940) 
+Participações no Lucro (49) - - 49 - 
+Participações Minoritárias nas Subsidiárias (229) (40) - (31) (300) 
+Lucro Líquido 11.561 315 - - 11.876 
+Gerencial Contábil Itens 
+Extraordinários
+Ajustes gerenciais
+Resultado Gerencial 
+6 
+Em R$ milhões 3T25 2T25 3T24 9M25 9M24
+Lucro Líquido 11.561 11.278 10.194 33.733 29.672 
+(-) Itens Extraordinários (315) (230) (481) (779) (846) 
+Amortização de Ágio (178) (180) (223) (553) (580) 
+Provisões tributárias - 507 - 507 - 
+Provisão para reestruturação (55) (556) - (611) - 
+Resultado da alienação parcial de participação na XP Inc. - - (266) - (261) 
+Outros (83) (0) 8 (122) (5) 
+Resultado Recorrente Gerencial 11.876 11.508 10.675 34.513 30.518
+
+[p. 5]
+Sumário Executivo 
+Análise Gerencial da Operação > Sumário Executivo 
+Demonstração de Resultado do 3º trimestre de 2025 
+Carteira de Crédito com Garantias Financeiras Prestadas e Títulos Privados 
+(1) Inclui Crédito Rural Pessoas Físicas. (2) Inclui títulos privados: Debêntures, CRI, Commercial Paper, Cédula do Produtor Rural, Letras Financeiras, cotas de fundos de investimento, Eurobonds, Fundos de 
+Direitos Creditórios, Exposição à instituições financeiras, operações de trading do Agronegócio. (3) Calculado com base na conversão da carteira em moeda estrangeira (dólar e moedas dos países da América 
+Latina). Obs.: as carteiras de crédito imobiliário e crédito rural do segmento pessoa jurídica encontram-se alocadas de acordo com o porte do cliente. 
+(1) Receitas de Seguros incluem as Receitas de Seguros, Previdência e Capitalização, antes das Despesas com Sinistros e Comercialização. 
+7 
+Em R$ bilhões, ao final do período 3T25 2T25 D' 3T24 D'
+Pessoas Físicas 456,4 451,9 1,0% 428,7 6,5% 
+Cartão de Crédito 142,2 141,1 0,8% 133,2 6,7% 
+Crédito Pessoal 68,4 67,4 1,4% 65,9 3,8% 
+Crédito Consignado 72,4 72,8 -0,5% 74,7 -3,1% 
+Veículos 36,3 36,2 0,2% 35,9 1,2% 
+Crédito Imobiliário 137,1 134,4 2,0% 119,0 15,2% 
+Micro, Pequenas e Médias Empresas ¹ ² 278,4 275,4 1,1% 258,9 7,5% 
+Grandes Empresas² 437,7 431,4 1,5% 400,2 9,4% 
+Total Brasil com Garantias Financeiras Prestadas e Títulos 
+Privados 1.172,5 1.158,7 1,2% 1.087,9 7,8% 
+América Latina ² 229,5 230,4 -0,4% 230,2 -0,3% 
+Total com Garantias Financeiras Prestadas e Títulos Privados 1.402,0 1.389,1 0,9% 1.318,1 6,4% 
+Total com Garantias Financeiras Prestadas e Títulos Privados 
+(ex-variação cambial) ³ 1.402,0 1.379,1 1,7% 1.304,6 7,5% 
+Em R $ milhõ es 3T25 2T25 3T24 9M25 9M24 
+Produto Bancário 46.567 45.728 1,8% 42.694 9,1% 136.832 124.858 9,6% 
+Margem Financeira Gerencial 31.382 31.177 0,7% 28.512 10,1% 92.881 83.057 11,8% 
+Margem Financeira com Clientes 30.479 30.320 0,5% 27.455 11,0% 90.198 79.540 13,4% 
+Margem Financeira com o Mercado 902 858 5,2% 1.056 -14,6% 2.683 3.517 -23,7% 
+Receitas de Prestação de Serviços 11.755 11.343 3,6% 11.228 4,7% 34.331 33.414 2,7% 
+Receitas de Operações de Seguros¹ 3.430 3.207 6,9% 2.954 16,1% 9.620 8.387 14,7% 
+Custo do Crédito (9.145) (9.093) 0,6% (8.245) 10,9% (27.213) (25.850) 5,3% 
+Despesa de Perda Esperada (9.780) (9.664) 1,2% (8.928) 9,5% (28.938) (27.650) 4,7% 
+Descontos Concedidos (714) (708) 0,8% (590) 20,9% (2.136) (1.833) 16,5% 
+Recuperação de Créditos Baixados como Prejuízo 1.348 1.280 5,3% 1.273 5,9% 3.860 3.633 6,3% 
+Despesas com Sinistros (449) (386) 16,4% (423) 6,1% (1.223) (1.215) 0,7% 
+Outras Despesas Operacionais (19.858) (19.284) 3,0% (18.554) 7,0% (57.608) (52.973) 8,7% 
+Despesas não Decorrentes de Juros (17.150) (16.492) 4,0% (15.945) 7,6% (49.438) (45.401) 8,9% 
+Despesas Tributárias de ISS, PIS, Cofins e Outras (2.703) (2.785) -3,0% (2.604) 3,8% (8.152) (7.555) 7,9% 
+Despesas de Comercialização de Seguros (5) (6) -23,4% (5) 0,3% (17) (16) 4,8% 
+Resultado antes da Tributação e Part. Minoritárias 17.116 16.966 0,9% 15.472 10,6% 50.788 44.821 13,3% 
+Imposto de Renda e Contribuição Social (4.940) (5.151) -4,1% (4.489) 10,0% (15.350) (13.388) 14,6% 
+Participações Minoritárias nas Subsidiárias (300) (307) -2,3% (307) -2,4% (926) (914) 1,3% 
+Resultado Recorrente Gerencial 11.876 11.508 3,2% 10.675 11,3% 34.513 30.518 13,1% 
+D' D' D'
+
+[p. 6]
+Comentários da Administração 
+Sumário Executivo 
+Análise Gerencial da Operação > Sumário Executivo 
+No terceiro trimestre de 2025, o resultado 
+recorrente gerencial alcançou R$ 11,9 bi-
+lhões, com aumento trimestral de 3,2%. O 
+retorno recorrente gerencial sobre o patri-
+mônio líquido foi de 23,3% no consolidado e 
+de 24,2% nas operações no Brasil. 
+• A carteira de crédito aumentou 0,9% no 
+consolidado e 1,2% no Brasil no trimestre, 
+enquanto os crescimentos anuais foram de 
+6,4% e de 7,8%, respectivamente. Excluindo 
+o efeito da variação cambial das carteiras 
+de Médias, Grandes Empresas e de América 
+Latina, a carteira consolidada avançou 1,7% 
+no trimestre. 
+• A carteira de pessoas físicas cresceu 1,0%, 
+com aumento de 2,0% em crédito imobiliá-
+rio e 0,8% em cartão de crédito. No trimes-
+tre, a carteira de crédito consignado recou 
+0,5%, contudo houve crescimento de 9,5% 
+no consignado privado. 
+• A carteira de micro, pequenas e médias 
+empresas avançou 1,1% no trimestre, com 
+destaque para o crescimento de 10,9% da 
+carteira de programas governamentais. 
+• Na comparação trimestral, a margem fi-
+nanceira com clientes cresceu 0,5%. Os 
+efeitos positivos da maior quantidade de 
+dias, do maior volume médio de ativos, 
+além da maior margem de capital de giro 
+próprio, foram compensados principalmen-
+te por menores margens em razão dos 
+spreads e das operações estruturadas do 
+Atacado. 
+• O índice de inadimplência entre 15 e 90 
+dias, incluindo títulos e valores mobiliários, 
+aumentou 0,3 p.p. e fechou o trimestre em 
+2,0%. No segmento de grandes empresas 
+no Brasil, o aumento foi de 0,9 p.p. com o 
+indicador de curto prazo encerrando o tri-
+mestre em 1,0%. Os aumentos, tanto no 
+consolidado quanto em grandes empresas, 
+ocorreram por conta de um cliente específi-
+co que já estava adequadamente provisio-
+nado e já estava classificado em estágio 3. 
+Excluindo esse efeito, os indicadores teriam 
+permanecido nos mesmos patamares do 
+trimestre anterior, ou seja, 1,7% no consoli-
+dado e 0,1% no segmento de grandes em-
+presas no Brasil. 
+• O índice de inadimplência acima de 90 dias 
+consolidado, incluindo títulos e valores mo-
+biliários, permaneceu estável, assim como o 
+indicador das operações no Brasil, que se 
+mantiveram em 1,9% e 2,0%, respectiva-
+mente. 
+• O custo do crédito apresentou um aumen-
+to de 0,6% na comparação trimestral e fi-
+cou em R$ 9,1 bilhões. O indicador de custo 
+do crédito sobre a carteira média permane-
+O resultado recorrente gerencial apre-
+sentou crescimento de 13,1%, atingindo 
+R$ 34,5 bilhões nos primeiros nove me-
+ses de 2025. O retorno recorrente geren-
+cial foi de 22,9% no consolidado e de 
+23,9% no Brasil, evoluções positivas de 
+0,7 p.p. em ambos os casos. 
+• A margem financeira com clientes cres-
+ceu 13,4% na comparação anual, por 
+conta do crescimento da carteira, da 
+maior margem com passivos e da maior 
+remuneração do capital de giro próprio. 
+• A margem com o mercado recuou 
+23,7% principalmente em função do 
+aumento do custo do hedge do índice de 
+capital. 
+• O custo do crédito avançou 5,3% em 
+função do crescimento da carteira de 
+crédito. 
+• As receitas com prestação de serviços e 
+seguros aumentaram 5,3%. Houve au-
+mento do faturamento na atividade de 
+emissão de cartões, maiores receitas 
+com administração de recursos e com 
+pagamentos e recebimentos, além do 
+crescimento no resultado de seguros, 
+por conta do crescimento de prêmios 
+ganhos. 
+• As despesas não decorrentes de juros 
+cresceram 8,9%, enquanto o índice de 
+eficiência ficou em 38,8% no consolida-
+do e em 36,9% no Brasil, reduções de 0,3 
+p.p. e de 0,7 p.p., respectivamente. 
+Grandes 
+números 
+Resultado recorrente gerencial 
+R$ 11,9 bi +3,2% 
+3T25 3T25 x 2T25 
+R$ 1.402,0 bi +0,9% 
+Carteira de crédito 
+3T25 3T25 x 2T25 
+R$ 30,5 bi +0,5% 
+Margem com clientes 
+3T25 3T25 x 2T25 
+R$ 0,9 bi +5,2% 
+Margem com o mercado 
+3T25 3T25 x 2T25 
+R$ 9,1 bi 
+Custo do crédito 
+3T25 3T25 x 2T25 
+R$ 14,7 bi +4,0% 
+Serviços e seguros 
+3T25 3T25 x 2T25 
+R$ 17,2 bi 
+Despesas não decorrentes de juros 
+3T25 3T25 x 2T25 
+23,3% 0,0 p.p. 
+Retorno recorrente gerencial 
+anualizado sobre o patrimônio líquido 
+3T25 3T25 x 2T25 
++0,6% 
++4,0% 
+8 
+Em relação aos primeiros nove 
+meses de 2024 
+ceu no mesmo patamar do trimestre 
+anterior, 2,6%. 
+• As receitas de serviços e seguros avan-
+çaram 4,0%. Houve aumento de 33,7% das 
+receitas com banco de investimento por 
+conta da emissão e distribuição de títulos 
+de renda fixa. Também tivemos incremen-
+to do resultado de pagamentos e recebi-
+mentos relacionado com o maior volume 
+transacionado em adquirência. O resulta-
+do de seguros avançou 5,7% no trimestre 
+decorrente da maior remuneração dos 
+nossos ativos. 
+• As despesas não decorrentes de juros 
+cresceram 4,0% no trimestre, devido aos 
+efeitos da negociação do acordo coletivo 
+de trabalho, que inclui reajuste de 5,68% 
+sobre salários e benefícios a partir do mês 
+de setembro de 2025. Com essa dinâmica 
+de resultado, nosso índice de eficiência 
+fechou o terceiro trimestre em 39,5% no 
+consolidado e em 37,7% no Brasil. 
+CET 1 @ 11,5% —>ROE consolidado de 25,4%
+
+[p. 7]
+Sumário Executivo 
+Análise Gerencial da Operação > Sumário Executivo 
+Projeção 2025 
+(1) Inclui garantias financeiras prestadas e títulos privados; (2) Composto pela Despesa de Perda Esperada, Descontos Concedidos e Recuperação de Créditos Baixados como Prejuízo; (3) Receitas 
+de Prestação de Serviços (+) Resultado de Operações de Seguros, Previdência e Capitalização (-) Despesas com Sinistros (-) Despesas de Comercialização de Seguros, Previdência e Capitalização. 
+9
+
+[p. 8]
+Sumário Executivo 
+10 
+(Esta página foi deixada em branco intencionalmente)
+
+[p. 9]
+Análise do Resultado 
+e Balanço Patrimonial 
+Análise Gerencial da Operação e Demonstrações Contábeis Condensadas
+
+[p. 10]
+Em R$ milhões 3T25 2T25  3T24  9M25 9M24  
+Margem Financeira com Clientes 30.479 30.320 0,5% 27.455 11,0% 90.198 79.540 13,4%
+Margem Financeira com o Mercado 902 858 5,2% 1.056 -14,6% 2.683 3.517 -23,7%
+Total 31.382 31.177 0,7% 28.512 10,1% 92.881 83.057 11,8%
+30,3 26,5 26,6 30,5 
+-3,8 -0,01 -0,2 -0,3
+0, 1 0,4 3,9
+2T25 Capital de Giro
+Próprio e outros
+2T25
+ Operações
+Sensíveis a Spreads
+2T25
+ Volume médio Mix de
+ produtos
+ Spreads e margem
+de passivos
+ Efeito calendário América Latina e
+outros
+ Operações
+Sensíveis a Spreads
+3T25
+ Capital de Giro
+Próprio e outros
+3T25
+3T25
+Margem Financeira Gerencial 
+Análise Gerencial da Operação > Margem Financeira Gerencial 
+Principais Efeitos na Variação da Margem Financeira com Clientes 
+Taxas Médias anualizadas da Margem Financeira com Clientes 
+(1) (1) 
+(2) 
+Em R$ milhões, ao final do período Saldo 
+Médio
+Margem 
+Financeira
+Taxa Média 
+(a.a.)
+Saldo 
+Médio
+Margem 
+Financeira
+Taxa Média 
+(a.a.)
+Margem Financeira com Clientes 1.385.363 30.479 9,0% 1.368.000 30.320 9,2%
+Operações Sensíveis a Spreads 1.236.781 26.629 8,8% 1.226.783 26.540 8,9%
+Capital de Giro Próprio e Outros 148.582 3.850 10,7% 141.217 3.780 11,2%
+Custo do Crédito (9.145) (9.093)
+Margem Financeira com Clientes ajustada ao Risco 1.385.363 21.334 6,2% 1.368.000 21.227 6,3%
+3T25 2T25
+8,7% 8,6% 9,0% 9,2% 9,0%
+6,0% 5,9% 6, 1% 6,3% 6,2%
+3T24 4T24 1T25 2T25 3T25
+9,5% 9,3% 9,8% 10,0% 9,8%
+6,5% 6,3% 6,6% 6,9% 6,7%
+3T24 4T24 1T25 2T25 3T25
+Consolidado Brasil 
+Margem Financeira com Clientes Margem Financeira com Clientes Ajustada ao Risco 
+12 
+(1) Média dos saldos diários. 
+(1) (1) 
+Em R$ bilhões 
+(1) Inclui o capital alocado às áreas de negócio (exceto tesouraria), além do capital de giro da corporação. (2) Inclui a margem com clientes da América Latina, operações estruturadas do atacado e a margem financeira de adquirência. 
+ + 0,5% 
+A margem financeira com clientes cresceu 0,5% no trimestre. Abaixo estão os principais movi-
+mentos ocorridos, na comparação com o trimestre anterior: 
+• Capital de giro próprio e outros (+ R$ 0,1 bilhão): principalmente em função do efeito 
+positivo do lucro líquido do período no saldo do capital de giro próprio. 
+• Volume médio (+ R$ 0,1 bilhão): impacto positivo em função do aumento da carteira 
+rentável média, com destaques para os crescimentos das carteiras de crédito imobiliário e 
+de programas governamentais para pequenas empresas. 
+• Mix de produtos (- R$ 0,1 bilhão): redução em função da menor representatividade de 
+produtos mais rentáveis, como crédito rotativo, parcialmente compensado pelo maior 
+crescimento relativo da carteira de programas governamentais para pequenas empresas. 
+• Spreads e margem de passivos (- R$ 0,2 bilhão): principalmente em função do impacto 
+negativo dos menores spreads de ativos, decorrente da compressão de spreads nos pro-
+dutos que possuem taxas reguladas, como crédito rotativo e consignado, parcialmente 
+compensado pelo efeito positivo da maior taxa de remuneração média e do maior volume 
+médio de passivos. 
+Na comparação com os nove meses do ano anterior, a margem financeira com clientes subiu 
+13,4%, e esse crescimento está relacionado com o maior volume de crédito, maior margem 
+de passivos (tanto por volume quanto por taxa de remuneração) além da maior margem 
+com capital de giro próprio. 
+A margem financeira com o mercado avançou 5,2% no trimestre, principalmente em função 
+dos maiores ganhos com a gestão de ativos e passivos no Brasil. Na comparação com os primeiros nove meses do ano anterior, a redução 
+de 23,7% está relacionada com o maior custo do hedge do índice de capital. 
+Margem com Clientes 
+R$ 30,5 bi 
++0,5% 
++11,0% 
+3T25 x 2T25 
+3T25 x 3T24 
+Margem com o Mercado 
+R$ 0,9 bi 
++5,2% 
+-14,6% 
+3T25 x 2T25 
+3T25 x 3T24
+
+[p. 11]
+13 
+59, 1% 58,6% 57 ,9% 58,2%
+22,8% 24,0% 24,5% 24, 1%
+18, 1% 17 ,3% 17 ,5% 17 ,7%
+58, 1 58,2 57 ,4 57 ,3
+dez/24 mar/25 jun/25 set/25
+Estágio 1 Estágio 2 Estágio 3
+7.265 7.388 8. 157 7.709 8.013
+70 694 115 692 604910 561 704 691 528
+8.245 8.643 8.976 9.093 9. 145
+2,5 2,5 2,6 2,6 2,6
+3T24 4T24 1T25 2T25 3T25
+América Latina ex-Brasil
+Atacado - Brasil
+Varejo - Brasil
+Custo do crédito / Carteira de crédito (*) - Anualizado (%)
+Custo do crédito 
+Análise Gerencial da Operação > Custo do Crédito 
+Em R$ milhões 3T25 2T25 D 3T24 D 9M25 9M24 D 
+Despesa de Perda Esperada (9.780) (9.664) 1,2% (8.928) 9,5% (28.938) (27.650) 4,7%
+Recuperação de Créditos Baixados como Prejuízo 1.348 1.280 5,3% 1.273 5,9% 3.860 3.633 6,3%
+Descontos Concedidos (714) (708) 0,8% (590) 20,9% (2.136) (1.833) 16,5%
+Custo do Crédito (9.145) (9.093) 0,6% (8.245) 10,9% (27.213) (25.850) 5,3%
+Custo do Crédito / Carteira de Crédito (*) - Anualizado (%) 2,6 2,6 0,0 p.p. 2,5 0,1 p.p. 2,6 2,7 -0,1 p.p.
+O custo do crédito fechou o terceiro trimestre de 2025 em R$ 9,1 bilhões, e cresceu 0,6% 
+em relação ao trimestre anterior. 
+Houve maior custo do crédito nos Negócios de Varejo no Brasil, em linha com o crescimen-
+to da carteira de crédito. Esse aumento foi parcialmente compensado por um menor custo 
+do crédito tanto nos Negócios de Atacado no Brasil quanto na América Latina. Na América 
+Latina, a redução ocorreu em função da melhora de rating de clientes específicos. 
+Em relação aos primeiros nove meses de 2024, o custo do crédito aumentou R$ 1,4 bilhão. 
+Essa variação ocorreu devido ao crescimento da carteira, enquanto o indicador de custo do 
+crédito sobre a carteira reduziu 0,1 p.p. na comparação anual. Os aumentos tanto nos Ne-
+gócios de Varejo no Brasil de R$ 1,5 bilhão, quanto nos Negócios de Atacado no Brasil de R$ 
+0,6 bilhão, foram parcialmente compensados pela redução de R$ 0,7 bilhão no custo do crédito na América Latina. 
+ 
+Recuperação de Crédito e Venda de Ativos Financeiros 
+A recuperação de créditos aumentou em relação ao trimestre anterior, tanto nos Negócios de Varejo quanto de Atacado no Brasil. No ter-
+ceiro trimestre de 2025, houve venda de carteiras que se encontravam em prejuízo, no montante de R$ 1,1 bilhão, com impacto positivo de 
+R$ 35 milhões na recuperação de crédito e de R$ 19 milhões no resultado recorrente gerencial. Essas vendas não impactam os indicadores 
+de qualidade de crédito. 
+No trimestre, vendemos carteiras ativas sem retenção de riscos para empresas não ligadas. Dessa venda, R$ 122 milhões referem-se a cré-
+ditos ativos dos Negócios de Atacado no Brasil, que estavam com atraso superior a 90 dias, dos quais R$ 71 milhões ainda estariam ativos 
+ao final de setembro de 2025 não fosse a venda. Adicionalmente, vendemos R$ 90 milhões (R$ 42 milhões de grandes empresas, R$ 42 mi-
+lhões da América Latina e R$ 6 milhões de pessoas físicas) referentes a carteiras ativas em dia. Essas vendas de carteiras ativas trouxeram 
+impacto negativo de R$ 15 milhões no produto bancário, negativo de R$ 27 milhões no custo do crédito e negativo de R$ 23 milhões no 
+resultado recorrente gerencial e não trouxeram impacto material nos indicadores de qualidade de crédito. 
+ 
+Custo do crédito 
++0,6% 
++10,9% 
+3T25 x 2T25 
+R$ 9,1 bi 
+3T25 x 3T24 
+Custo do crédito por segmento Saldo da Provisão para Perda 
+Esperada por estágio 
+(*) Saldo médio da carteira de crédito (incluindo títulos e valores mobiliários) e garantias financeiras prestadas . 
+Nota: A despesa com impairment apresentada anteriormente dentro de custo do crédito foi somada à linha de despesa de perda es perada para os períodos anteriores ao 1T25. Com a 
+adoção da Resolução CMN N° 4.966/21, a despesa com perda esperada passou a contemplar também a carteira de títulos e valores mobiliários com a característica de concessão de 
+crédito. 
+R$ milhões R$ bilhões 
+(*) Saldo médio da carteira de crédito (incluindo títulos e valores mobiliários) e 
+garantias financeiras prestadas. Nota: A informação de dezembro de 2024 refere -se à situação em 1° de janeiro de 2025, 
+conforme adoção das novas políticas contábeis.
+
+[p. 12]
+14 
+Qualidade do crédito 
+Análise Gerencial da Operação > Qualidade do Crédito 
+O índice de inadimplência acima de 90 dias (NPL 90) ficou estável por mais um trimestre 
+consecutivo. 
+No Brasil, o indicador de pessoas físicas também ficou estável em 3,6%, o melhor patamar 
+da série histórica. Conforme esperado, houve aumento de 0,1 p.p. no indicador de micro, 
+pequenas e médias Empresas no Brasil, por conta da normalização do indicador em função 
+do fim das carências dos programas governamentais. Na América Latina, o índice recuou 
+0,1 p.p., com redução da carteira em atraso da carteira de pessoas físicas no Chile e de pes-
+soas jurídicas na Colômbia. 
+O índice de inadimplência entre 15 e 90 dias (NPL 15-90) total aumentou 0,3 p.p. e fechou o 
+trimestre em 2,0%. No segmento de grandes empresas no Brasil, o aumento foi de 0,9 p.p. 
+e o indicador encerrou o trimestre em 1,0%. Os aumentos, tanto no consolidado quanto em 
+grandes empresas, estão relacionados a um cliente especifico do segmento, que estava 
+adequadamente provisionado e já classificado em estágio 3. Excluindo esse efeito, os indi-
+cadores teriam permanecido nos mesmos patamares do trimestre anterior, ou seja, 1,7% no consolidado e 0,1% no segmento de grandes 
+empresas no Brasil. Em micro, pequenas e médias empresas houve incremento de 0,1 p.p. no índice, por conta do fim das carências dos 
+programas governamentais. Ainda na inadimplência de curto prazo, merece destaque a estabilidade na carteira de pessoas físicas no Bra-
+sil, que por mais um trimestre permaneceu em 3,0%. Na América Latina, o índice reduziu devido à menor inadimplência em pessoas jurídi-
+cas no Chile, na Colômbia e no Paraguai. 
+1,9% 
+Índice de Inadimplência 
+acima de 90 dias com TVM 
+estável set/25 x jun/25 
+-0,1 p.p. set/25 x dez/24 
+Índice de Inadimplência (%) | Acima de 90 dias Índice de Inadimplência (%) | 15 a 90 dias 
+Brasil Brasil 
+¹ Inclui unidades externas ex-América Latina. ² Exclui Brasil. 
+2,0 1,9 1,9 1,9
+2, 1 2,0 2,0 2,0
+1,3 1,4 1,4 1,3
+dez/24 mar/25 jun/25 set/25
+Total Brasil¹ América Latina²
+3,8 3,6 3,6 3,6
+1,7 1,6 1,6 1,7
+0, 13 0, 10 0,08 0, 11
+dez/24 mar/25 jun/25 set/25
+Pessoas Físicas - Brasil
+Micro, Pequenas e Médias Empresas - Brasil
+Grandes Empresas - Brasil
+2,8 3, 1 3,0 3,0
+1,2 1,2 1,2 1,3
+0,02 0,09 0, 1 1,0
+0, 1
+dez/24 mar/25 jun/25 set/25
+Pessoas Físicas - Brasil
+Micro, Pequenas e Médias Empresas - Brasil
+Grandes Empresas - Brasil
+A partir do 3º trimestre de 2025, passamos a divulgar somente os indicadores de qualidade de crédito que incluem a carteira de 
+títulos e valores mobiliários. 
+1,6
+1,8 1,7
+2,0
+1,5
+1,7 1,6
+1,9
+2,3 2,2
+2,3
+2,2
+1,7
+1,6
+dez/24 mar/25 jun/25 set/25
+Total Brasl¹ América Latina²
+ex– impacto de cliente 
+corporativo específico 
+ex– impacto de cliente 
+corporativo específico
+
+[p. 13]
+15 
+Qualidade do crédito 
+Análise Gerencial da Operação > Qualidade do Crédito 
+A partir do primeiro trimestre, passamos a divulgar a carteira de crédito reestruturada de 
+acordo com os requerimentos da Resolução CMN N° 4.966/21. Esta carteira é composta por 
+operações de crédito e títulos em que houve alteração significativa nas condições originais 
+do contrato, em decorrência da deterioração da sua qualidade creditícia e apresentou uma 
+queda de 2,8% comparado a junho de 2025. Já a carteira renegociada de crédito e TVM 
+apresentou uma queda de 1,1% no mesmo período. 
+O NPL Creation permaneceu praticamente estável na comparação trimestral e encerrou o 
+terceiro trimestre em R$ 9.485 milhões. O indicador de NPL Creation sobre carteira de cré-
+dito manteve-se em 0,7%, em um patamar historicamente baixo. O indicador da carteira do 
+Varejo no Brasil permaneceu em 1,5%, enquanto o indicador da América Latina se encontra 
+nas mínimas históricas. 
+A baixa de créditos da carteira (write-off) aumentou 3,2% em relação ao trimestre anterior. Esse aumento é natural e está relacionado ao 
+crescimento da carteira, pois a relação entre as operações levadas a write-off e o saldo médio da carteira de crédito permaneceu estável 
+em 0,7% no trimestre. 
+A baixa de créditos da carteira não foi impactada pela adoção da Resolução CMN N° 4.966/21. 
+NPL Creation NPL Creation sobre a Carteira1 
+Crédito Renegociado Write-Off 
+1 Carteira de crédito do trimestre anterior sem garantias financeiras prestadas. A 
+partir do 1T25, o NPL Creation e a carteira de crédito incluem TVM. 
+ 
+9.335 9.074 8.785 9.217 9.512
+1,0% 0,9% 0,7% 0,7% 0,7%
+3T24 4T24 1T25 2T25 3T25
+Write-Off Write-Off / Carteira de Crédito (*)
+' ' Incluindo TVM* 
+R$ milhões 
+R$ milhões 
+1, 1% 0,9% 0,9%
+0,6% 0,7% 0,7%
+1,7% 1,5% 1,4% 1,3%
+1,5% 1,5%
+0, 1% 0,0% 0,0% 0,0% 0,04% 0,06%
+0,7%
+0,5% 0,4%
+0,4%
+0,4% 0,3%
+2T24 3T24 4T24 1T25 2T25 3T25
+Total Varejo - Brasil Atacado - Brasil América Latina ex-Brasil
+ 
+10. 177
+8.976 8. 196 7.749
+9.441 9.485
+8.565 7.927 7.241 6.847
+8.409 8.502
+254 91 92 -32 180 353
+1.359 957 862 933 852 630
+2T24 3T24 4T24 1T25 2T25 3T25
+Total Varejo - Brasil Atacado - Brasil América Latina ex-Brasil 
+0,7% 
+NPL Creation sobre a 
+Carteira 
+estável 
+- 0,2 p.p. 
+3T25 x 2T25 
+3T25 x 3T24 
+R$ bilhões 
+(*) Saldo médio da carteira de crédito considerando os dois últimos trimestres. A 
+partir do 1T25, o write-off e a carteira de crédito incluem TVM. 
+Nota: O NPL Creation do 3T25 foi calculado com a inclusão das carteiras de crédito 
+ativas de R$ 122 milhões dos Negócios de Atacado, vendidas para empresas não liga-
+das, e o NPL Creation de TVM. 
+Incluindo TVM* 
+Incluindo TVM* Incluindo TVM* 
+* Inclui títulos e valores mobiliários além de Fundos de Direitos Creditórios, exposições a instituições financeiras e as ope rações de nossa trading de agronegócio. 
+Somente crédito 
+35,8 34,6 34,2 33, 1 32,8
+40, 1 38,8 38,4
+18,3 17 ,4 16,8 23,7 22,6 22,0
+set/24 dez/24 mar/25 jun/25 set/25 mar/25 jun/25 set/25
+Renegociada Reestruturada
+
+[p. 14]
+16 
+Qualidade do crédito 
+Análise Gerencial da Operação > Qualidade do Crédito 
+Novos indicadores de Qualidade do Crédito Res. CMN N° 4.966/21 
+ 
+A seguir apresentamos os indicadores de qualidade de crédito introduzidos pela Resolução CMN N° 4.966/21, que classifica os instrumentos 
+financeiros em três estágios: 
+Estágio 1: Aplicável aos instrumentos financeiros sem aumento significativo do risco de crédito. 
+Estágio 2: Aplicável aos instrumentos financeiros com aumento significativo no risco de crédito desde sua origem. 
+• Não ser ativo problemático 
+• Atraso entre 30 e 90 dias 
+Estágio 3: Aplicável aos ativos com problemas de recuperação de crédito (ativos problemáticos), evidenciados pelo atraso superior a 90 
+dias no pagamento de principal ou de encargos ou pelo indicativo de que a respectiva obrigação não será integralmente honrada. Nesse 
+estágio, o reconhecimento de juros é por regime de caixa. 
+• Atraso acima de 90 dias 
+• Reestruturação: renegociação com alteração significativa com relação às condições originais em função de uma deterioração impor-
+tante 
+• Indício de não cumprimento das obrigações 
+Para maiores detalhes vide nota explicativa 2 b) das Demonstrações Financeiras. 
+Carteira de Crédito Estágio 2 
+(% sobre a Carteira Total) 
+Carteira de Crédito Estágio 3 
+(% sobre a Carteira Total) 
+Cobertura do Estágio 2 (%) 
+(Provisão Estágio 2 sobre a Carteira Estágio 2) 
+Cobertura do Estágio 3 (%) 
+(Provisão Estágio 3 sobre a Carteira Estágio 3) 
+4,4 4,4 4,3 4,2
+6,0 5,8 5,9 5,8
+3,5 3,5 3,3 3,3
+4,2 4,3 4,2 4,0
+dez/24 mar/25 jun/25 set/25
+Total Pessoas Físicas - Brasil
+Pessoas Jurídicas - Brasil América Latina
+4, 1 4,3 4,2 4, 1
+7 ,7 8,0 7 ,8 7 ,6
+1,7 1,8 1,8 1,9
+4,6 4,6 4,6 4,4
+dez/24 mar/25 jun/25 set/25
+Total Pessoas Físicas - Brasil
+Pessoas Jurídicas - Brasil América Latina
+As carteiras de crédito classificadas como estágio 2 e como estágio 3 permaneceram em patamares similares aos verificados no trimestre 
+anterior, sem alterações significativas. Cabe o destaque de que, o caso de cliente específico que impactou o indicador de atraso entre 15 e 
+90 dias, ocorrido na carteira de grandes empresas, já estava adequadamente provisionado e já classificado como estágio 3. 
+As reduções das coberturas das carteiras em estágio 2 e em estágio 3 na América Latina, estão relacionadas com a melhora de rating de 
+clientes corporativos específicos. 
+22,9
+23,7 24, 1
+23,9
+24,5
+26, 1 26,5 26,5
+23,9 22,9 23,6
+24,2
+16,9 16,6 16,7
+14,5
+dez/24 mar/25 jun/25 set/25
+Total Pessoas Físicas - Brasil
+Pessoas Jurídicas - Brasil América Latina
+55,0
+56, 1
+55,8 55,9
+59,8 61,4 59,2 59,6
+55,3
+55,9 57 , 1 57 ,8
+42,4 43, 1 43,4
+40,2
+dez/24 mar/25 jun/25 set/25
+Total Pessoas Físicas - Brasil
+Pessoas Jurídicas - Brasil América Latina
+
+[p. 15]
+17 
+176.790 186.663 191.669
+40.887 39.788 38.877
+217.677 226.450 230.546
+37,4 37,6 37,6
+36,9 38,3 38,7
+3T24 2T25 3T25
+Valor Transacionado - Cartões de Débito
+Valor Transacionado - Cartões de Crédito
+Contas de Cartões de Crédito - não considera cartões adicionais (milhões)
+Contas de Cartões de Débito - não considera cartões adicionais (milhões)
+Serviços e Seguros 
+Análise Gerencial da Operação > Serviços e Seguros 
+ 
+Na comparação com o trimestre anterior, as receitas de prestação de serviços e resultado de 
+seguros cresceram 4,0%, principalmente em função do crescimento de 33,7% nas receitas de 
+assessoria econômico-financeira e corretagem, relacionado com os maiores ganhos com emis-
+são de títulos de renda fixa, e do crescimento do resultado de seguros. Também merece desta-
+que os maiores ganhos com emissão de cartões, além do aumento nas receitas de pagamentos e 
+recebimentos, relacionado com maiores receitas em adquirência. 
+ 
+Em relação aos primeiros nove meses de 2024, as receitas de prestação de serviços e resultado 
+de seguros tiveram um aumento de 5,3%, não fosse os efeitos da adoção da Resolução CMN N° 
+4.966/21 a partir de janeiro de 2025, o aumento seria de 6,0%. Esse crescimento se deu por con-
+ta do (i) aumento das receitas com emissão de cartões, devido ao maior faturamento em crédito; 
+(ii) crescimento em pagamentos e recebimentos por conta de maiores receitas em adquirência, e com pacotes de conta corrente de pessoas 
+jurídicas; (iii) crescimentos nos ganhos com administração de recursos, tanto em fundos quando em consórcios; (iv) maior resultado de segu-
+ros, relacionado com os maiores prêmios ganhos. 
+Serviços e Seguros 
+R$ 14,7 bi 
++4,0% 
++7,1% 
+3T25 x 2T25 
+3T25 x 3T24 
+Cartões - Emissor 
+Valor transacionado R$ milhões 
+3T25 
+R$ 230,5 bilhões 
++1,8% vs 2T25 
+ +5,9% vs 3T24 
+Crédito +2,7% vs 2T25 
++8,4% vs 3T24 
+Débito -2,3% vs 2T25 
+-4,9% vs 3T24 
+Pagamentos e Recebimentos 
+Valor transacionado em adquirência 
+3T25 
+R$ 257,7 bilhões 
++6,6% vs 2T25 
+ +12,8% vs 3T24 
+Crédito +7,9% vs 2T25 
++18,2% vs 3T24 
+Débito +3,5% vs 2T25 
++1,4% vs 3T24 
+Nota: a partir do primeiro trimestre de 2025, as receitas com adquirência, além das tarifas com pacotes de conta corrente de pessoas jurídicas, e receitas com PIX passaram a ser alocadas na linha de Pagamentos e Recebimentos (anteriormente Serviços de 
+Recebimento). Para fins de comparabilidade, os períodos anteriores foram reclassificados. (1) Receitas de Seguros, Previdênci a e Capitalização líquidas das despesas com sinistros e de comercialização. 
+A partir do 1º trimestre de 2025, a linha de 
+pagamentos e recebimentos passou a conso-
+lidar as receitas de todos os produtos de re-
+cebimentos, incluindo adquirência, e tarifas 
+de pacotes de conta corrente de pessoas 
+jurídicas, refletindo a estratégia de integra-
+ção da Rede com o Itaú. A evolução positiva 
+está relacionada ao aumento de engajamen-
+to dos clientes com o Itaú, resultante da evo-
+lução na agenda operacional e da proposta 
+de valor completa e com jornadas integradas 
+de banking, adquirência e crédito. 
+O crescimento de 3,7% em comparação ao 
+trimestre anterior e de 6,1% em relação aos 
+primeiros nove meses de 2024, se deu prin-
+cipalmente por maiores ganhos com o pro-
+duto de antecipação automática em adqui-
+rência, com o maior faturamento, além das 
+maiores receitas com pacotes de conta cor-
+rente de pessoas jurídicas no acumulado. 
+As receitas de emissão de cartões aumenta-
+ram 2,1%, quando comparamos com o tri-
+mestre anterior, movimento causado em 
+função dos maiores ganhos com taxas de 
+intercâmbio, devido ao maior faturamento 
+de crédito. As receitas aumentaram 5,1% em 
+relação aos primeiros nove meses de 2024, 
+principalmente por maiores ganhos com taxa 
+de intercâmbio, por conta do maior fatura-
+mento de crédito, parcialmente compensado 
+por maiores despesas com programas de 
+recompensas e pela queda nas receitas de 
+anuidades, reflexo da estratégia de oferecer 
+mais benefícios aos clientes conforme o au-
+mento do engajamento com o banco. 
+Em R$ milhões 3 T 2 5 2T25 D 3 T 2 4 D 9M 2 5 9M 2 4 D 
+Cartões Emissor 3.344 3.275 2,1% 3.151 6,1% 9.879 9.399 5,1%
+Conta Corrente Pessoa Física 710 766 -7,2% 891 -20,3% 2.304 2.738 -15,9%
+Operações de Crédito e Garantias Prestadas 626 622 0,7% 707 -11,4% 1.883 2.066 -8,9%
+Pagamentos e Recebimentos 2.502 2.413 3,7% 2.316 8,0% 7.262 6.848 6,1%
+Administração de Recursos 1.879 1.909 -1,6% 1.710 9,9% 5.470 4.840 13,0%
+Administração de Fundos 1.391 1.457 -4,5% 1.322 5,3% 4.089 3.794 7,8%
+Administração de Consórcios 488 452 7,9% 388 25,8% 1.380 1.046 32,0%
+Assessoria Econ. Financeira e Corretagem 1.227 918 33,7% 1.118 9,8% 3.197 3.745 -14,6%
+Outros Brasil 480 427 12,3% 372 28,8% 1.325 1.107 19,7%
+América Latina (ex-Brasil) 987 1.014 -2,7% 962 2,5% 3.012 2.670 12,8%
+Receitas de Prestação de Serviços 11.755 11.343 3,6% 11.228 4,7% 34.331 33.414 2,7%
+Resultado de Seguros
+1
+2.977 2.816 5,7% 2.526 17,8% 8.380 7.156 17,1%
+Se r viç o s e Se g u r o s 14 .7 32 14 .159 4 ,0 % 13.7 55 7 ,1% 4 2.7 11 4 0 .57 0 5,3%
+
+[p. 16]
+18 
+Na comparação com os primeiros nove 
+meses de 2024, o crescimento de 17,1% 
+do resultado de seguros, previdência e 
+capitalização ocorreu principalmente de-
+vido ao aumento dos prêmios ganhos em 
+vida, prestamista, cartão protegido e ha-
+bitacional, além do crescimento das recei-
+tas de prestação de serviços, concentrado 
+em previdência e em comissões de segu-
+ros de terceiros. 
+O resultado de seguros, previdência e capi-
+talização teve alta de 5,7% em relação ao 
+trimestre anterior. O movimento foi causa-
+do especialmente em função do crescimen-
+to da margem financeira gerencial, decor-
+rente da maior remuneração dos nossos 
+ativos, além do maior resultado de equiva-
+lência patrimonial. Em contrapartida, hou-
+ve aumento das despesas com sinistros, 
+concentrado em vida e prestamista. 
+ 
+ 
+ 
+ 
+Serviços e Seguros 
+Análise Gerencial da Operação > Serviços e Seguros 
+As receitas de serviços de conta corrente pessoa física diminuíram 
+7,2% em relação ao trimestre anterior. 
+Na comparação com os primeiros nove meses de 2024, as receitas de 
+serviços de conta corrente pessoa física reduziram 15,9%. 
+ 
+Nas duas comparações, as reduções ocorreram em função da nossa 
+agenda proativa de oferecer cada vez melhores condições para os 
+clientes, à medida em que aumentam seu relacionamento com o 
+banco. 
+Assessoria Econômico-Financeira e Corretagem 
+As receitas com assessoria econômico-financeira e corretagem 
+apresentaram alta de 33,7% em relação ao trimestre anterior, movi-
+mento causado por conta de maiores volumes em renda fixa. 
+ 
+Na comparação com os primeiros nove meses de 2024, tivemos uma 
+diminuição de 14,6%. 
+ 
+Renda Fixa: No 3T25, em Renda Fixa Local, estamos em 1º lugar no 
+Ranking ANBIMA de Originação, totalizando R$ 36,9 bilhões de volu-
+me originado com Market Share de 26,7% e em 2º lugar 
+em Distribuição, totalizando R$ 17,0 bilhões de volume distribuído 
+com Market Share de 20,0%. 
+Resultado de Seguros, Previdência e Capitalização 
+Conta Corrente Pessoa Física 
+Administração de Fundos 
+As receitas de administração de fundos diminuíram 4,5% na 
+comparação com o trimestre anterior, movimento causado por 
+conta de menores ganhos com performance fee, devido à con-
+centração do reconhecimento dessas receitas no segundo e no 
+quarto trimestre do ano, parcialmente compensado pela maior 
+quantidade de dias úteis no terceiro trimestre. 
+Na comparação com os primeiros nove meses do ano anterior, as 
+receitas de administração de fundos cresceram 7,8%, principal-
+mente em função do aumento de saldo e dos ganhos com per-
+formance fee, parcialmente compensados pela menor quantida-
+de de dias úteis no período (188 x 190 dias úteis). 
++10,1% 
+R$ milhões 
++3,2% 
+Renda Variável: No 3T25, participamos de 3 transações, totalizando 
+R$ 497,7 milhões de volume (Market Share de 7,5%), ocupando o 2º 
+lugar em quantidade e o 3º lugar em volume de transações no Ran-
+king da Dealogic. 
+ 
+Fusões e Aquisições: No 3T25, assessoramos 7 transações no Brasil 
+totalizando R$ 6,0 bilhões (Market Share de 15,8%), ocupando o 4º 
+lugar em quantidade e o 5º lugar por volume de transações no Ran-
+king da Dealogic. Quando tiramos as operações proprietá-
+rias, assessoramos 7 transações no Brasil totalizando R$ 6,0 bilhões 
+(Market Share de 17,8%), ocupando o 2º lugar por quantidade e o 4º 
+lugar por volume de transações no Ranking da Dealogic. 
++5,7% 
++17,8% 
+3T25 x 2T25 
+R$ 3,0 bi 
+3T25 x 3T24 
+Carteiras Administradas e Fundos de Investimentos 
+Resultado de Seguros, 
+Previdência e Capitalização 
+1.938 1.909 1.961 2.068 2.134
+set/24 dez/24 mar/25 jun/25 set/25
+
+[p. 17]
+19 
+Despesas Não Decorrentes de Juros 
+Análise Gerencial da Operação > Despesas Não Decorrentes de Juros 
+As despesas não decorrentes de juros aumentaram 4,0% comparadas ao trimestre anteri-
+or. Este aumento está principalmente relacionado aos efeitos da negociação do acordo 
+coletivo de trabalho, com reajuste de 5,68% sobre salários a partir de setembro de 2025, 
+reajuste que também gera impacto nas provisões de férias e de décimo terceiro salário. O 
+acordo coletivo de trabalho impacta as linhas das despesas Comercial e Administrativa, 
+Transacionais e Tecnologia. 
+Além do efeito mencionado acima, nas despesas transacionais, houve maior despesa com 
+bandeiras, efeito que foi parcialmente compensado pela redução de despesas com espa-
+ços físicos, relacionada aos menores gastos com aluguéis, por conta da otimização da rede 
+de agências físicas, que apresentou redução anual de 12,6%. As despesas com tecnologia 
+também foram maiores, em função dos maiores gastos com desenvolvimentos de siste-
+mas. Nosso índice de eficiência trimestral atingiu 37,7% no Brasil, com redução de 0,9 p.p. 
+em relação ao mesmo período do ano anterior, atingindo o menor patamar da série históri-
+ca para um terceiro trimestre. Na América Latina, as despesas não decorrentes de juros cresceram 0,6% em relação ao trimestre anterior. 
+Em relação aos primeiros nove meses de 2024, as despesas não decorrentes de juros aumentaram 8,9%. Os investimentos estratégicos em 
+tecnologia impulsionaram o crescimento das despesas, com aumento de 20,4% nessas frentes. O aumento das despesas de pessoal, que 
+impacta as despesas Comercial e Administrativa, Transacionais e Tecnologia, ocorreu devido aos efeitos da negociação do acordo coletivo 
+de trabalho. Na América Latina, o aumento ocorreu principalmente devido à variação cambial, além de maiores gastos com pessoas e tec-
+nologia no Chile. 
+R$ 17,2 bi 
+Despesas Não 
+Decorrentes de Juros 
++4,0% 
++7,6% 
+3T25 x 2T25 
+3T25 x 3T24 
+Colaboradores - em milhares 
+17 ,4 17 ,5 17 ,3 17 ,6 17 ,0
+69,4 68,7 69,0 68,2 66,6
+0,6 0,6 0,6 0,6 0,6
+9,4 9,4 9,5 9,4 9,4
+96,8 96,2 96,3 95,7 93,6
+set/24 dez/24 mar/25 jun/25 set/25
+Tecnologia e ZUP Brasil (ex-Tecnologia) Exterior (ex-América Latina) América Latina
+Obs: Considera o total de colaboradores de empresas sob o controle do Banco. No 
+terceiro trimestre de 2024, 380 colaboradores da Rede foram migrados para a área de 
+tecnologia. 
+45,7 45,6 41,6 40,2 39,4 39,343,8 43,6 39,4 38, 1 37,7 37 ,2
+48,0
+44,0 41, 1 40,0 40,2 39,5
+45,4 42, 1 38,9 37 ,9 38,6 37 ,7 
+3T20 3T21 3T22 3T23 3T24 3T25
+ Índice de Eficiência - Acumulado 12 meses (%) Índice de Eficiência do Brasil - Acumulado 12 meses (%)
+ Índice de Eficiência - Trimestre (%) Índice de Eficiência do Brasil - Trimestre (%)
+Índice de Eficiência 
+Agências e Postos de Atendimento 
+271 260 259 252 251
+403 396 359 372 368
+2.285 2.272 2.177 2.114 1.998
+2.959 2.928 2.795 2.738 2.617
+set/24 dez/24 mar/25 jun/25 set/25
+América Latina e IBBA PABs - Brasil Agências Físicas - Brasil
+ A partir do 1º trimestre de 2025, passamos a reportar as despesas não decorrentes de juros com base em uma nova estrutura alinhada com 
+a gestão do banco. As despesas de pessoal da área comercial e administrativa; as despesas transacionais consideram os gastos operacio-
+nais e de atendimento, incluindo a folha de pagamento; e as despesas com tecnologia incluem todos os investimentos e gastos relaciona-
+dos à área, inclusive a respectiva folha de pagamento. 
+Nota: A partir de setembro de 2024, passamos a divulgar nossa estrutura física de 
+atendimento desconsiderando agências e postos de atendimento bancário que, ao longo 
+do tempo, se tornaram virtuais. A série histórica a partir de setembro de 2023 foi refeita 
+e já contempla essa alteração. 
+Em R$ milhões 3T25 2T25 D 3T24 D 9M25 9M24 D 
+Comercial e Administrativa (pessoal) (6.331) (6.112) 3,6% (6.072) 4,3% (18.247) (17.382) 5,0%
+Transacionais (pessoal, operações e atendimento) (4.471) (4.261) 4,9% (4.069) 9,9% (12.823) (11.941) 7,4%
+Tecnologia (pessoal e infraestrutura) (3.110) (2.896) 7,4% (2.651) 17,3% (8.718) (7.243) 20,4%
+Outras Despesas (999) (998) 0,1% (1.013) -1,3% (2.899) (2.784) 4,1%
+Total - Brasil (14.911) (14.267) 4,5% (13.805) 8,0% (42.686) (39.350) 8,5%
+América Latina (ex-Brasil) (2.239) (2.225) 0,6% (2.140) 4,6% (6.752) (6.051) 11,6%
+Total (17.150) (16.492) 4,0% (15.945) 7,6% (49.438) (45.401) 8,9%
+
+[p. 18]
+20 
+Balanço Patrimonial 
+Análise Gerencial da Operação > Balanço Patrimonial 
+Os ativos totais aumentaram 3,4% no trimestre, devido aos cresci-
+mentos de: (i) R$ 56,4 bilhões em aplicações interfinanceiras de 
+liquidez, em função do aumento das aplicações no mercado aberto; 
+e de (ii) R$ 19,3 bilhões em títulos e valores mobiliários, especial-
+mente em títulos públicos. Esses movimentos estão relacionados 
+com os crescimentos de captações no mercado aberto, depósitos à 
+prazo e recursos de previdência. Além disso, as operações de crédi-
+to aumentaram R$ 11,8 bilhões, com crescimento em todos os seg-
+mentos da carteira brasileira. A elevação de 3,8% em relação a 01 
+de janeiro de 2025* ocorreu principalmente pelo aumento de 
+R$ 71,2 bilhões em títulos e valores mobiliários, concentrado em 
+títulos públicos, além do crescimento de R$ 32,2 bilhões em aplica-
+ções interfinanceiras de liquidez. 
+A elevação trimestral do passivo ocorreu especialmente pelos au-
+mentos de: (i) R$ 47,9 bilhões em captações no mercado aberto; (ii) 
+R$ 19,8 bilhões em depósitos, decorrente do aumento de depósitos 
+à prazo; (iii) R$ 12,7 bilhões em outros passivos, em função do au-
+mento das obrigações por transação de pagamentos; e (iv) R$ 11,7 
+bilhões em provisões técnicas de seguros, previdência e capitaliza-
+ção, em função da maior captação líquida de recursos e da maior 
+remuneração das provisões de previdência. O crescimento de 3,8% 
+do passivo, em relação a 01 de janeiro de 2025*, ocorreu devido ao 
+aumento de R$ 71,1 bilhões em captações no mercado aberto, além 
+da elevação de R$ 36,2 em provisões técnicas de seguros, previdên-
+cia e capitalização, decorrente especialmente da captação líquida 
+de recursos e do aumento da remuneração das provisões de previ-
+dência. 
+O patrimônio líquido cresceu R$ 6,3 bilhões no trimestre. Esse mo-
+vimento ocorreu especialmente em função do lucro líquido do perí-
+odo, parcialmente compensado pelo pagamento de dividendos e 
+juros sobre o capital próprio, além da recompra de ações. O aumen-
+to de R$ 4,5 bilhões, na comparação com 01 de janeiro de 2025*, 
+está relacionado ao lucro líquido de 2025, líquido de dividendos e 
+juros sobre capital próprio. 
+*O saldo de 01/01/25 reflete as alterações aplicáveis de acordo com a Resolução CMN 4.966/21. 
+Ativo (em R$ milhões, ao final do período) 3 0 /0 9/2 0 2 5 3 0 /0 6/2 0 2 5 D' 0 1 /0 1 /2 0 2 5 * D'
+Cir cu la nte e Re a lizá ve l a L ongo Pr a zo 2.9 6 1.6 27 2.8 6 3.26 8 3,4 % 2.8 51.314 3,9 %
+Disponibilidades 34.369 32.177 6,8% 36.127 -4,9%
+Aplicações Interfinanceiras de Liquidez 334.802 278.452 20,2% 302.560 10,7%
+Títulos e Valores Mobiliários e Derivativos 1.003.377 984.058 2,0% 932.202 7,6%
+Operações com Característica de Concessão de Crédito 1.159.187 1.147.354 1,0% 1.157.247 0,2%
+Operações de Crédito, Arrendamentos e Outros Créditos 1.022.135 1.011.835 1,0% 1.022.078 0,0%
+Títulos e Valores Mobiliários 189.930 188.268 0,9% 188.540 0,7%
+(Provisão para Perda de Crédito Esperada) (52.878) (52.749) 0,2% (53.371) -0,9%
+Relações Interfinanceiras e Interdependências 259.431 255.829 1,4% 246.261 5,3%
+Ativos Fiscais - Correntes e Diferidos 90.811 87.955 3,2% 85.470 6,2%
+Outros Ativos 79.650 77.443 2,8% 91.447 -12,9%
+Pe r ma ne nte 34 .8 36 34.782 0,2% 34.793 0,1%
+Tota l do Ativo 2.9 9 6 .4 6 3 2.8 9 8 .050 3,4 % 2.8 8 6 .107 3,8 %
+P assivo (em R$ milhões, ao final do período) 3 0 /0 9/2 0 2 5 3 0 /0 6/2 0 2 5 D' 0 1 /0 1 /2 0 2 5 * D'
+Cir c u la nte e E xigíve l a L o ngo Pr a zo 2.78 0.6 9 7 2.6 8 8 .4 9 8 3,4 % 2.6 74 .4 58 4 ,0%
+Depósitos 1.039.562 1.019.760 1,9% 1.054.741 -1,4%
+Captações no Mercado Aberto 480.801 432.862 11,1% 409.656 17,4%
+Instrumentos de Dívida 393.590 402.470 -2,2% 377.344 4,3%
+Obrigações por Empréstimos e Repasses 130.082 119.493 8,9% 135.113 -3,7%
+Derivativos 77.597 74.149 4,7% 96.611 -19,7%
+Relações Interfinanceiras e Interdependências 109.909 118.199 -7,0% 103.820 5,9%
+Provisões para Garantias Financeiras, Compromissos de Crédito e Créditos a Liberar 1.591 1.514 5,1% 1.153 38,0%
+Provisões Técnicas de Seguros, Previdência e Capitalização 348.056 336.372 3,5% 311.812 11,6%
+Demais Provisões 15.979 16.059 -0,5% 16.628 -3,9%
+Obrigações Fiscais Correntes e Diferidas 23.904 20.720 15,4% 22.988 4,0%
+Outros Passivos 159.626 146.900 8,7% 144.592 10,4%
+Pa tr imô nio L íqu ido 207.16 4 200.815 3,2% 202.705 2,2%
+Pa r tic ipa ç ã o de Ac io nis ta s Nã o Co ntr o la do r e s 8 .6 02 8.737 -1,5% 8.944 -3,8 %
+To ta l do Pa s s ivo 2.9 9 6 .4 6 3 2.8 9 8 .050 3,4 % 2.8 8 6 .107 3,8 %
+
+[p. 19]
+21 
+Carteira de crédito 
+Análise Gerencial da Operação > Carteira de Crédito 
+Carteira de crédito com garantias financeiras prestadas e títulos privados (pessoa física e jurídica) - Brasil 
+Consignado 
+R$ 72,4 bi Em 30/09/25 
+-0,5% vs jun/25 
+ -3,1% vs set/24 
+Cartão de crédito 
+R$ 142,2 bi Em 30/09/25 
++0,8% vs jun/25 
+ +6,7% vs set/24 
+86,0% 85,8% 86,4%
+5,5% 5,8% 5,8%
+8,5% 8,4% 7,8%
+set/24 jun/25 set/25
+48,7
+10,9
+12,8
+71%
+29%
+À vista² 
+ Parcelado com juros 
+ Rotativo + créditos vencidos¹ Carteira por originação (%) 
+Na comparação com o final de junho de 
+2025, a carteira de crédito consignado no 
+setor privado cresceu 9,5%,devido ao au-
+mento das ofertas do novo crédito do tra-
+balhador. Já no setor público e na carteira 
+do setor de INSS, houve redução de 1,1% 
+e 2,8%, respectivamente, ambos relacio-
+nados ao crescimento nos canais próprios 
+e desaceleração no canal externo. 
+3º Trimestre de 2025 
+Rede de agências 
+Itaú Consignado S.A. 
+ 
+Carteira por setor (R$ bilhões) 
+3º Trimestre de 2025 
+INSS 
+Setor privado 
+Setor público 
+ 
+ 
+ 
+Imobiliário (PF) 
+R$ 137,1 bi Em 30/09/25 
++2,0% vs jun/25 
+91,0% 
+de pessoas físicas na carteira 
+de crédito imobiliário 
+Contratações | 3º Trimestre de 2025 
+R$ 11,3 bi 
+ -4,7% vs set/24 
+61,1% 
+Das contratações 
+feitas por mutuários 
+Loan-to-value (PF) 
+Relação entre o valor do financiamento e a 
+garantia subjacente 
+53,0% 37,7% 
+Safra (média trimestral) 
+R$ 36,3 bi Em 30/09/25 
+ +0,2% vs jun/25 
+ +1,2% vs set/24 
+(1) Inclui carteira em atraso acima de 1 dia; 
+(2) Inclui parcelado sem juros. 
+Contratações | 3º Trimestre de 2025 
+R$ 5,2 bi 
+-13,3% vs set/24 
+45 meses 
+30% 
+Valor médio financiado 
+R$ 53,9 mil 
+Prazo médio 
+% de entrada 
+Loan-to-value (PF) 
+Safra (média trimestral) 
++15,2% vs set/24 
+Carteira 
+Grandes empresas 
+R$ 437,7 bi Em 30/09/25 
+A carteira de grandes empresas cresceu 
+tanto na comparação com o trimestre an-
+terior quanto em relação ao mesmo período 
+de 2024. O movimento ocorreu principal-
+mente em função do aumento da produção 
+nos segmentos das empresas com fatura-
+mento acima de R$ 500 milhões até R$ 4 
+bilhões. 
+ 
+ +1,5% vs jun/25 
+Micro, peq. e 
+médias empresas 
+R$ 278,4 bi Em 30/09/25 
+A carteira de micro, pequenas e médias 
+empresas aumentou em relação ao segun-
+do trimestre de 2025 e na comparação com 
+o mesmo período do ano anterior, decor-
+rente da maior produção na carteira de 
+programas governamentais. 
+ +1,1% vs jun/25 
+Em R$ bilhões 
+t = <-5 t - 4 t - 3 t - 2 t - 1 Trimestre atual (t) 
+1.022 
+1.012 
+962 
+3T25 
+2T25 
+3T24 
++9,4% vs set/24 
++7,5% vs set/24 
+65,7% 
+35,0%
+34,0%
+34,7%
+10,4%
+9,2%
+10,4%
+7,5%
+8,9%
+6,6%
+6,2%
+6,9%
+7,6%
+4,5%
+4,9%
+5,0%
+36,4%
+36,1%
+35,7%
+Carteira de crédito sem garantias financeiras prestadas e títulos privados por período de contratação 
+Veículos (PF)
+
+[p. 20]
+22 
+1.441 1.516 1.478 1.494 1.528
+1.247 1.313 1.267 1.287 1.320
+1.202 1.282 1.261 1.268 1.278
+set/24 dez/24 mar/25 jun/25 set/25
+Captações 
+Análise Gerencial da Operação > Captações 
+O funding de clientes teve alta de 2,3% no trimestre, devido ao 
+aumento de: (i) R$ 20,2 bilhões em depósitos à prazo no Brasil, 
+em função do crescimento da demanda por produtos de renda 
+fixa, decorrente da elevação das taxas de juros; e (ii) de R$ 8,8 
+bilhões dos recursos de letras, certificados de operações estru-
+turadas (COE) e compromissadas, especialmente em letras imo-
+biliárias e do agronegócio. Nos últimos 12 meses, o aumento de 
+5,9% ocorreu em função do crescimento de R$ 47,6 bilhões dos 
+recursos de letras, COE e compromissadas, também concentra-
+do em letras de crédito imobiliárias e do agronegócio, além do 
+aumento de R$ 28,8 bilhões em depósitos à prazo no Brasil, em fun-
+ção do crescimento da carteira, devido ao aumento das taxas de 
+juros. 
+Os ativos sob gestão e administração cresceram 3,1% no trimestre. 
+Nos últimos 12 meses, houve alta de 10,4%, em função do cresci-
+mento de 11,4% em produtos próprios, além de 13,2% na plataforma 
+aberta, em função do crescimento em fundos de previdência, certifi-
+cados de depósito bancário (CDB) e letra de crédito imobiliário (LCI). 
+Carteira de crédito¹ e captações 
+96,4% 97,7% 99,6% 98,6% 96,8%
+83,4% 84,6% 85,3% 84,9% 83,7%
+Em R$ bilhões 
+ Carteira¹ / Funding de clientes e demais captações 
+Carteira de crédito¹ 
+ 
+Funding de clientes e demais captações 
+ 
+ 
+Carteira de crédito¹ 
+ 
+Funding de clientes e demais captações líquidos de compulsório e disponibilidades 
+ 
+ 
+Carteira¹ / Funding de clientes e demais captações líquidos de 
+compulsório e disponibilidades 
+(1) Os recursos de letras incluem: Letras Imobiliárias, Hipotecárias, Financeiras, de Crédito e Similares. As debêntures próp rias são vinculadas a Operações Compromissadas. (2) Representadas por parcelas das 
+dívidas subordinadas que não compõem o nível II do Patrimônio de Referência. (3) Saldo relativo a clientes institucionais e Corporate. 
+A relação entre a carteira de crédito¹ e os recursos captados líquidos de recolhimentos compulsórios e de disponibilidades atingiu 96,8% 
+no terceiro trimestre de 2025. 
+(1) Considera títulos privados e outros créditos. 
+Em R$ milhões, ao final do período 3T25 2T25 D' 3T24 D'
+Funding de Clientes (A) 1.319.453 1.289.979 2,3% 1.245.884 5,9%
+Depósitos à Vista 127.801 123.475 3,5% 123.132 3,8%
+Depósitos de Poupança 169.374 173.230 -2,2% 176.843 -4,2%
+Depósitos à Prazo 735.916 715.703 2,8% 707.126 4,1%
+Recursos de Letras e Certificados de Operações Estruturadas¹ 286.362 277.571 3,2% 238.783 19,9%
+Demais Captações (B) 208.126 203.623 2,2% 195.199 6,6%
+Obrigações por Repasses 24.385 18.705 30,4% 16.615 46,8%
+Obrigações por Empréstimos 105.697 100.788 4,9% 101.722 3,9%
+Obrigação por TVM no Exterior 71.297 76.876 -7,3% 69.454 2,7%
+Demais Obrigações² 6.747 7.254 -7,0% 7.408 -8,9%
+Fundos de Investimentos e Carteiras Administradas (C) 2.184.008 2.117.968 3,1% 1.984.751 10,0%
+Total (A) + (B) + (C) 3.711.587 3.611.569 2,8% 3.425.835 8,3%
+Produtos Próprios 2.691.719 2.617.123 2,9% 2.415.894 11,4%
+Plataforma Aberta 401.653 395.253 1,6% 354.896 13,2%
+Ativos sob Gestão 3.093.371 3.012.376 2,7% 2.770.790 11,6%
+ Administração Fiduciária e Custódia³ 505.157 478.555 5,6% 489.785 3,1%
+Ativos sob Gestão e Administração 3.598.528 3.490.931 3,1% 3.260.575 10,4%
+
+[p. 21]
+23 
+13,1% 13,5%
+1,5%¹
+0,8% -0,4% -0,2% 0,1% 1,3%3
+14,6% 14,8%
+Índice de Capital
+Nível I Jun/25
+Lucro Líquido do trimestre Dividendos, Juros sobre o
+Capital Próprio e Recompra de
+Ações
+Ativos Ponderados pelo Risco² Ajustes Prudenciais e
+Patrimoniais
+Índice de Capital
+Nível I Set/25Indicadores de Capital, Liquidez e Mercado 
+O Itaú Unibanco avalia a suficiência de capital para fazer frente aos seus riscos, representados pelo capital regulatório de risco de crédito, 
+mercado e operacional e pelo capital necessário para cobertura dos demais riscos, seguindo o conjunto de normas divulgadas pe lo BACEN 
+que implantam no Brasil os requerimentos de capital de Basileia III. 
+R$ milhões 
+R$217, 7 bilhões 
+Índice de Capital Nível I 
+ 
+Capital Principal (CET I) Capital Complementar Nível I (AT1) 
+(1) Considerando Capital Complementar Nível 1 (AT1) limitado a 1,5%, conforme Res. CMN Nº 4.958. Não fosse esse limite, o índice de Capital Nível 1 de jun/25 seria 15,0%. (2) Excluindo a variação cambial do período, que foi considerada na coluna de ajustes 
+prudenciais e patrimoniais junto com o hedge do índice de capital. (3) A emissão das Letras Financeiras Subordinadas Perpétuas descritas no Comunicado ao Mercado de 08/10/2025 levará o AT1 a 1,5%, considerando o limite da Res. CMN Nº 4.958. Não 
+fosse esse limite, o AT1 seria 1,6%. 
+Índices de Capital 
+Principais variações no trimestre 
+Em R$ milhões, ao final do período 3T25 2T25
+Capital Principal 195.917 188.389 
+Nível I (Capital Principal + Complementar) 215.466 215.381 
+Patrimônio de Referência (Nível I e Nível II) 238.430 237.454 
+Exposição Total Ponderada pelo Risco (RWA) 1.454.242 1.436.344 
+Risco de Crédito 1.249.471 1.236.495 
+Risco Operacional 143.006 141.782 
+Risco de Mercado 61.765 58.067 
+Índice de Capital Principal 13,5% 13,1%
+Índice de Capital Nível I¹ 14,8% 14,6%
+Índice de Basileia (PR/RWA) 16,4% 16,5%
+(1) Considerando Capital complementar Nível 1 (AT1) limitado a 1,5%, conforme Res. CMN Nº4.958. Não fosse esse 
+limite, o Índice de Capital Nível 1 de jun/25 ficaria em 15,0%. 
+Obs.: Indicadores apurados com base no Consolidado Prudencial, que abrange instituições financeiras, a dministrado-
+ras de consórcio, instituições de pagamento, sociedades que realizam aquisição de operações ou assumam direta ou 
+indiretamente risco de crédito e fundos de investimento nos quais o conglomerado retenha substancialmente riscos 
+e benefícios. 
+Patrimônio de Referência: aumento de 0,4% devido ao lucro do período, 
+atenuado pela recompra de AT1 em setembro de 2025. 
+RWA: alta de R$ 17,9 bilhões relacionada principalmente ao aumento na 
+parcela de risco de crédito (RWACPAD). 
+Índice de Basileia: queda de 0,1 p.p. em relação a junho/25, em função da 
+recompra de AT1 e crescimento do RWA, apesar do resultado positivo do 
+período. O índice de setembro/25 está 4,8 p.p. acima do mínimo regula-
+tório com os adicionais de capital principal. 
+Indicadores de Liquidez 
+Esses indicadores são calculados com base na metodologia definida pela 
+regulamentação do BACEN, em linha com as diretrizes de Basileia III. 
+Indicador de Liquidez de Curto Prazo (LCR - Liquidity Coverage Ratio) 
+O LCR na média do trimestre atingiu 218,7%, acima do limite de 100%, o que signifi-
+ca que possuímos recursos estáveis disponíveis suficientes para suportar as perdas 
+em cenários de estresse. 
+Indicador de Liquidez de Longo Prazo (NSFR - Net Stable Funding Ratio) 
+O NSFR foi de 123,3% no fechamento do trimestre, acima do limite de 100%, o que 
+significa que temos recursos estáveis disponíveis para suportar os recursos estáveis 
+requeridos no longo prazo. 
+Para 2025, o índice mínimo dos indicadores de liquidez de curto e longo prazo exigidos pelo Banco Central é 
+de 100%. 
+Em R$ milhões, ao final do período 3T25 2T25
+VaR por Grupo de Fatores de Risco
+Taxas de Juros 1.310 1.281 
+Moedas 42 46 
+Ações 40 40 
+Commodities 52 18 
+Efeito de Diversificação (380) (297)
+VaR Total 1.064 1.088 
+VaR Total Máximo no Trimestre 1.161 1.217 
+VaR Total Médio no Trimestre 1.062 1.077 
+VaR Total Mínimo no Trimestre 948 942 
+Valor em Risco - VaR (Value at Risk) 1 
+É um dos principais indicadores de risco de mercado e uma 
+medida estatística que quantifica a perda econômica poten-
+cial esperada em condições normais de mercado. 
+(1) Valores reportados consideram 1 dia como horizonte de tempo e 99% de nível de confiança. 
+Mais informações sobre o gerenciamento de riscos e capital 
+podem ser encontradas em nosso site de Relações com In-
+vestidores (www.itau.com.br/relacoes-com-investidores), na 
+seção Resultados e Relatórios - Documentos Regulatórios - 
+Pilar 3. 
+Análise Gerencial da Operação > Capital e Riscos 
+Em R$ milhões set/25 jun/25 set/24
+Ativos de Alta Liquidez 367.777 346.084 365.612 
+Saídas Potenciais de Caixa 168.176 161.856 162.529 
+LCR (%) 218,7% 213,8% 224,9%
+Em R$ milhões set/25 jun/25 set/24
+Recursos Estáveis Disponíveis 1.408.603 1.393.627 1.314.703 
+Recursos Estáveis Requeridos 1.142.829 1.150.712 1.058.433 
+NSFR (%) 123,3% 121,1% 124,2%
+
+[p. 22]
+24 
+Resultados por Segmentos de Negócios 
+Análise Gerencial da Operação > Resultados por Segmentos de Negócios 
+O resultado recorrente gerencial reduziu 4,6% na comparação com o trimestre anterior, 
+principalmente em função do maior custo do crédito, decorrente do aumento da despesa 
+de perda esperada, além da elevação das despesas não decorrentes de juros, devido aos 
+efeitos da negociação do acordo coletivo de trabalho. Em contrapartida, houve crescimen-
+to da margem financeira com clientes, relacionado ao maior volume médio de crédito, es-
+pecialmente em função de programas governamentais para pequenas empresas. Também 
+merece destaque o crescimento das receitas de seguros. 
+Na comparação com o mesmo período do ano anterior, o resultado recorrente gerencial 
+cresceu 25,4%, decorrente do aumento da margem financeira com clientes, devido ao me-
+lhor mix de produtos e ao crescimento do volume médio de crédito, além das maiores re-
+ceitas de seguros, por aumento dos prêmios ganhos. Em contrapartida, o custo do crédito 
+cresceu em razão da maior despesa de perda esperada e do aumento dos descontos con-
+cedidos. 
+Varejo - Resultado 
+Recorrente Gerencial 
+R$ 4,7 bi 
+-4,6% 
++25,4% 
+3T25 x 2T25 
+3T25 x 3T24 
+Carteira de Crédito 
+Em R$ bilhões 
+3T25 
+R$ 565,3 bilhões 
++1,3% vs jun/25 
+ +8,9% vs set/24 
+Apresentamos a seguir as demonstrações financeiras Pro Forma dos negócios de Varejo, negócios de Atacado e das Atividades com Mercado + 
+Corporação, valendo-nos de informações gerenciais geradas por modelos internos, no intuito de refletir mais precisamente a atuação das unidades de 
+negócio. 
+Negócios de Varejo 
+Os negócios de varejo oferecem produtos e serviços a clientes correntistas e não correntistas que incluem: crédito pessoal, c rédito imobiliário, empréstimos 
+consignados, cartões de crédito, serviços de adquirência, financiamento de veículos, investimentos, seguros, previdência e ca pitalização, entre outros. Os 
+clientes correntistas são segmentados em: (i) Varejo; (ii) Uniclass; (iii) Personnalité; e (iv) Micro e pequenas empresas. 
+519,1 542,3 550,5 558,2 565,3
+set/24 dez/24 mar/25 jun/25 set/25
+Nota: No terceiro trimestre de 2024, houve revisão da segmentação de parte da carteira anteriormente classificada em Micro e Pequenas Empresas (Varejo) que passou a ser classificada em Médias Empresas (Atacado). 
+Em R$ milhões 3 T 2 5 2T25 D 3 T 2 4 D
+P r o d u t o Ba n c á r io 28 .34 9 28 .0 6 3 1,0 % 25.37 5 11,7 %
+Margem Financeira Gerencial 17.846 17.759 0,5% 15.549 14,8%
+Receitas de Prestação de Serviços 7.393 7.360 0,4% 7.155 3,3%
+Receitas de Operações de Seg., Prev. e Cap. antes das Despesas com Sinistros 
+e das Despesas de Comercialização 3.110 2.944 5,6% 2.672 16,4%
+Cu s t o d o Cr é d it o (8 .0 13) (7 .7 0 9 ) 3,9 % (7 .26 5) 10 ,3%
+D e s p e s a s c o m Sin is t r o s (4 4 0 ) (38 0 ) 15,6 % (4 18 ) 5,2%
+Ou t r a s D e s p e s a s Op e r a c io n a is (13.24 7 ) (12.7 9 4 ) 3,5% (12.4 9 7 ) 6 ,0 %
+Re s u lt a d o a n t e s d a Tr ib u t a ç ã o e P a r t ic ip a ç õ e s M in o r it á r ia s 6 .6 4 9 7.179 - 7 ,4 % 5.195 28 ,0 %
+I m p o s t o d e Re n d a e Co n t r ib u iç ã o So c ia l (1.8 4 3) (2.10 4 ) - 12,4 % (1.322) 39 ,4 %
+P a r t ic ip a ç õ e s M in o r it á r ia s n a s Su b s id iá r ia s (9 0 ) (134 ) - 33,1% (113) - 20 ,7 %
+Re s u lt a d o Re c o r r e n t e G e r e n c ia l 4 .7 16 4.941 - 4 ,6 % 3.760 25,4 %
+Re t o r n o s o b r e o Ca p it a l A lo c a d o 26 ,1% 28 ,0 % - 1,9 p .p . 23,6 % 2,5 p .p .
+Í n d ic e d e E f ic iê n c ia (I E ) 4 3,9 % 4 2,4 % 1,5 p .p . 4 6 ,5% - 2,6 p .p .
+
+[p. 23]
+25 
+Resultados por Segmentos de Negócios 
+Análise Gerencial da Operação > Resultados por Segmentos de Negócios 
+O crescimento de 10,4% do resultado recorrente gerencial no trimestre está relacionado: 
+(i) ao aumento das receitas de serviços, em função dos maiores ganhos com bancos de inves-
+timento, na emissão e distribuição de renda fixa; (ii) à maior margem financeira com clientes, 
+em função do maior volume médio de crédito; e (iii) à redução do custo do crédito, em função 
+da diminuição da despesa de perda esperada tanto na América Latina, quanto no Atacado no 
+Brasil. 
+Em relação ao terceiro trimestre de 2024, o resultado recorrente gerencial aumentou 7,4%. 
+Esse movimento ocorreu especialmente em função da maior margem financeira com clien-
+tes, devido ao crescimento do volume médio de crédito e da maior margem com passivos, 
+além do aumento das receitas de serviços, em função dos maiores ganhos com administra-
+ção de fundos e com banco de investimento. Entretanto, houve aumento das despesas não 
+decorrentes de juros, em função da elevação das despesas com pessoal. 
+Atacado - Resultado 
+Recorrente Gerencial 
+R$ 6,0 bi 
++10,4% 
++7,4% 
+3T25 x 2T25 
+3T25 x 3T24 
+Carteira de Crédito 
+Em R$ bilhões 
+3T25 
+R$ 712,6 bilhões 
++0,3% vs jun/25 
+ +10,8% vs set/24 
+Negócios de Atacado 
+Nota: (1) No terceiro trimestre de 2024, houve revisão da segmentação de parte da carteira anteriormente classificada em Micr o e Pequenas Empresas (Varejo) que passou a ser classificada em Médias Empresas (Atacado). (2) A partir de Março/25, passamos 
+a considerar na carteira do Atacado os seguintes produtos: Fundos de Direitos Creditórios, Certificados de Depósitos Interfin anceiros, Títulos de outros países com risco privado e operações de trading do Agronegócio. O passado não foi reclassificado. 
+Os negócios de atacado abrangem: i) as atividades do Itaú BBA, unidade responsável pelas operações comerciais com grandes emp resas e pela atuação como 
+banco de investimento; ii) nossas atividades no exterior; iii) os produtos e serviços oferecidos aos clientes com elevado pat rimônio financeiro (Private Banking), 
+além das médias empresas e clientes institucionais. 
+643,0 692,9 711,0 710,2 712,6
+set/24 dez/24 mar/25 jun/25 set/25
+Atividades com Mercado + Corporação 
+Inclui: (i) resultados do excesso de capital, do excesso de dívida subordinada e do carregamento dos créditos e passivos trib utários; (ii) margem financeira com o 
+mercado; (iii) custo da Tesouraria e (iv) resultado de equivalência patrimonial das empresas que não estão no Varejo ou Ataca do. 
+Em R$ milhões 3 T 2 5 2T25 D 3 T 2 4 D
+P r o d u t o Ba n c á r io 15.8 7 9 15.334 3,6 % 14 .7 6 5 7 ,6 %
+Margem Financeira Gerencial 11.425 11.276 1,3% 10.598 7,8%
+Receitas de Prestação de Serviços 4.257 3.876 9,8% 4.000 6,4%
+Receitas de Operações de Seg., Prev. e Cap. antes das Despesas com Sinistros e 
+das Despesas de Comercialização 197 182 8,3% 167 18,4%
+Cu s t o d o Cr é d it o (1.132) (1.38 3) - 18 ,2% (9 8 0 ) 15,5%
+D e s p e s a s c o m Sin is t r o s (9 ) (5) 6 7 ,8 % (5) 9 7 ,0 %
+Ou t r a s D e s p e s a s Op e r a c io n a is (5.9 0 6 ) (5.7 7 0 ) 2,4 % (5.38 2) 9 ,7 %
+Re s u lt a d o a n t e s d a Tr ib u t a ç ã o e P a r t ic ip a ç õ e s M in o r it á r ia s 8 .8 33 8.176 8 ,0 % 8.397 5,2%
+I m p o s t o d e Re n d a e Co n t r ib u iç ã o So c ia l (2.6 8 1) (2.6 21) 2,3% (2.6 6 0 ) 0 ,8 %
+P a r t ic ip a ç õ e s M in o r it á r ia s n a s Su b s id iá r ia s (20 0 ) (16 3) 22,4 % (19 5) 2,6 %
+Re s u lt a d o Re c o r r e n t e G e r e n c ia l 5.9 52 5.392 10 ,4 % 5.542 7 ,4 %
+Re t o r n o s o b r e o Ca p it a l A lo c a d o 29 ,7 % 26 ,7 % 3,0 p .p . 30 ,6 % - 0 ,9 p .p .
+Í n d ic e d e E f ic iê n c ia (I E ) 34 ,0 % 34 ,4 % - 0 ,4 p .p . 33,2% 0 ,8 p .p .
+Em R$ milhões 3 T 2 5 2 T 2 5 D 3 T 2 4 D
+P r o du t o Ba n c á r io 2.339 2.331 0 ,3% 2.554 -8 ,4 %
+Margem Financeira Gerencial 2.111 2.142 -1,5% 2.365 -10,8%
+Receitas de Prestação de Serviços 105 107 -2,1% 74 43,1%
+Receitas de Operações de Seg., Prev. e Cap. antes das Despesas com Sinistros 
+e das Despesas de Comercialização 123 81 51,1% 115 6,4%
+Ou t r a s D e s pe s a s Ope r a c io n a is (7 0 5) (7 19 ) -2,0 % (6 7 5) 4 ,4 %
+Re s u lt a do a n t e s da Tr ibu t a ç ã o e P a r t ic ipa ç õ e s M in o r it á r ia s 1.6 34 1.611 1,4 % 1.879 -13,1%
+I m po s t o de Re n da e Co n t r ibu iç ã o So c ia l (4 15) (4 26 ) -2,7 % (50 7 ) -18 ,2%
+P a r t ic ipa ç õ e s M in o r it á r ia s n a s Su bs idiá r ia s (10 ) (9 ) 8 ,0 % 1 -
+Re s u lt a do Re c o r r e n t e G e r e n c ia l 1.20 9 1.175 2,9 % 1.373 -12,0 %-
+Re t o r n o s o br e o Ca pit a l A lo c a do 9 ,3% 10 ,2% -0 ,9 p.p. 10 ,6 % -1,3 p.p.
+Í n dic e de E f ic iê n c ia (I E ) 24 ,6 % 24 ,5% 0 ,1 p.p. 19 ,7 % 4 ,9 p.p.
+
+[p. 24]
+26 
+3T25 2T25 D 3T24 D 9M25 9M24 D
+Produto Bancário 3.872 3.899 -0,7% 3.944 -1,8% 11.768 11.358 3,6%
+Margem Financeira Gerencial 2.831 2.851 -0,7% 2.952 -4,1% 8.635 8.606 0,3%
+Margem Financeira com Clientes 2.920 3.000 -2,7% 3.070 -4,9% 8.970 8.697 3,1%
+Margem Financeira com o Mercado (89) (149) -40,5% (117) -24,2% (336) (92) 266,0%
+Receitas de Prestação de Serviços 987 1.014 -2,7% 962 2,5% 3.012 2.670 12,8%
+Receitas de Seguros 2 54 34 58,9% 30 81,5% 122 82 49,5%
+Custo do Crédito (528) (691) -23,7% (910) -42,0% (1.923) (2.621) -26,6%
+Despesas de Perda Esperada (613) (807) -24,1% (1.012) -39,4% (2.164) (2.910) -25,6%
+Descontos Concedidos (54) (41) 33,5% (21) 155,0% (152) (84) 80,5%
+Recuperação de Créditos Baixados como Prejuízo 139 157 -10,9% 122 13,9% 393 373 5,4%
+Despesas com Sinistros (6) (3) 135,2% (4) 61,5% (11) (9) 25,4%
+Outras Despesas Operacionais (2.276) (2.266) 0,5% (2.184) 4,2% (6.880) (6.194) 11,1%
+Despesas não Decorrentes de Juros (2.239) (2.225) 0,6% (2.140) 4,6% (6.752) (6.051) 11,6%
+Despesas Tributárias e Outras 3 (37) (41) -8,6% (44) -15,0% (128) (143) -10,5%
+Resultado antes da Tributação e Part. Minoritárias 1.061 939 13,1% 846 25,5% 2.954 2.534 16,6%
+Imposto de Renda e Contribuição Social (77) (51) 51,9% (47) 64,5% (215) (211) 2,0%
+Participações Minoritárias nas Subsidiárias (187) (156) 20,1% (174) 7,8% (533) (531) 0,4%
+Resultado Recorrente Gerencial 797 732 8,9% 626 27,5% 2.206 1.792 23,1%
+Representatividade 6,7% 6,4% 0,4 p.p. 5,9% 0,9 p.p. 6,4% 5,9% 0,5 p.p.
+Retorno sobre o Capital Alocado 4 15,5% 14,2% 1,3 p.p. 12,9% 2,6 p.p. 14,2% 12,9% 1,4 p.p.
+3T25 2T25 D 3T24 D 9M25 9M24 D
+Produto Bancário 42.695 41.830 2,1% 38.750 10,2% 125.064 113.500 10,2%
+Margem Financeira Gerencial 28.550 28.327 0,8% 25.559 11,7% 84.247 74.451 13,2%
+Margem Financeira com Clientes 27.559 27.320 0,9% 24.386 13,0% 81.227 70.842 14,7%
+Margem Financeira com o Mercado 991 1.007 -1,6% 1.174 -15,5% 3.019 3.609 -16,3%
+Receitas de Prestação de Serviços 10.768 10.329 4,2% 10.266 4,9% 31.319 30.743 1,9%
+Receitas de Seguros 2 3.376 3.173 6,4% 2.924 15,5% 9.498 8.306 14,4%
+Custo do Crédito (8.617) (8.401) 2,6% (7.335) 17,5% (25.290) (23.229) 8,9%
+Despesas de Perda Esperada (9.166) (8.857) 3,5% (7.917) 15,8% (26.774) (24.740) 8,2%
+Descontos Concedidos (659) (668) -1,2% (569) 15,9% (1.983) (1.749) 13,4%
+Recuperação de Créditos Baixados como Prejuízo 1.209 1.123 7,6% 1.151 5,0% 3.467 3.260 6,4%
+Despesas com Sinistros (442) (383) 15,5% (419) 5,6% (1.212) (1.206) 0,5%
+Outras Despesas Operacionais (17.581) (17.018) 3,3% (16.370) 7,4% (50.728) (46.779) 8,4%
+Despesas não Decorrentes de Juros (14.911) (14.267) 4,5% (13.805) 8,0% (42.686) (39.350) 8,5%
+Despesas Tributárias e Outras 3 (2.670) (2.751) -2,9% (2.565) 4,1% (8.042) (7.429) 8,2%
+Resultado antes da Tributação e Part. Minoritárias 16.054 16.028 0,2% 14.626 9,8% 47.834 42.287 13,1%
+Imposto de Renda e Contribuição Social (4.863) (5.101) -4,7% (4.443) 9,5% (15.134) (13.176) 14,9%
+Participações Minoritárias nas Subsidiárias (113) (151) -25,4% (134) -15,7% (393) (383) 2,6%
+Resultado Recorrente Gerencial 11.079 10.776 2,8% 10.050 10,2% 32.307 28.728 12,5%
+Representatividade 93,3% 93,6% -0,4 p.p. 94,1% -0,9 p.p. 93,6% 94,1% -0,5 p.p.
+Retorno sobre o Capital Alocado 4 24,2% 24,4% -0,2 p.p. 23,8% 0,3 p.p. 23,9% 23,3% 0,7 p.p.
+Demonstração de Resultados por localidade 
+Apresentamos a demonstração do resultado segregado entre nossas operações no Brasil, que incluem unidades externas com exce-
+ção da América Latina e, na América Latina, excluindo o Brasil. 
+• As operações no Brasil¹ representam 93,3% do resultado recorrente gerencial no trimestre. 
+• Nas operações da América Latina, atingimos um ROE de 15,5%. 
+Brasil¹ (em R$ milhões, ao final do período) 
+América Latina (em R$ milhões, ao final do período) 
+Principais variações cambiais em relação ao real brasileiro - Setembro/25 
+Real vs. Dólar 
+R$ 5,319 
+- 2,5% 
+- 2,4% 
+vs. jun/25 
+vs. set/24 
+Peso colombiano 
+739,10 
+vs. jun/25 - 1,0% 
+vs. set/24 - 3,5% 
+Peso uruguaio 
+vs. Real 
+7,49 
+vs. jun/25 + 2,3% 
+vs. set/24 - 1,8% 
+Peso chileno 
+vs. Real 
+180,77 
+vs. jun/25 + 5,9% 
+vs. set/24 + 9,7% 
+Guarani paraguaio 
+vs. Real 
+1.323 
+vs. jun/25 - 9,1% 
+vs. set/24 - 7,5% 
+(1) Inclui unidades externas ex-América Latina. (2) Receitas de Seguros incluem as Receitas de Seguros, Previdência e Capitalização, antes das Despesas com Sinistros e de Comercialização. (3) Inclui Despesas Tributárias (ISS, PIS, COFINS e outras) e 
+Despesas de Comercialização de Seguros. (4) O cálculo do retorno foi efetuado dividindo-se o Resultado Recorrente Gerencial pelo Patrimônio Líquido Médio. O quociente dessa divisão foi multiplicado pelo número de períodos no ano para se obter o 
+índice anual. Nota: As informações de América Latina são apresentadas em moeda nominal. 
+Americano vs. Real 
+Análise Gerencial da Operação > Negócios no Exterior
+
+[p. 25]
+27 
+ Atuação internacional 
+Apresentamos os países, as atividades* e o total de colaboradores do Itaú Unibanco. 
+Nossas operações 
+no exterior focam 
+nas atividades: 
+Corporate & 
+Investment Banking 1 
+Asset Management 
+Private Banking 
+Varejo 
+ 2 
+ 
+3 
+ 4 
+*Representa a totalidade de nossas operações no exterior. (1) Continuaremos atendendo (i) os clientes corporativos locais e regionais, por meio de nosso escritório de representação do Itaú Unibanco S.A. na 
+Argentina e (ii) as pessoas físicas argentinas dos segmentos de Wealth e Private Banking exclusivamente através de nossas unidades internacionais fora da Argentina. 
+Principais países 
+Colaboradores 
+Agências e PABs 
+Caixas eletrônicos 
+Uruguai1 
+1.263 
+21 
+65 
+Chile 
+4.736 
+130 
+135 
+Paraguai 
+1.338 
+28 
+271 
+Colômbia2 
+2.006 
+60 
+118 
+América Latina3 
+9.343 
+239 
+589 
+Outros países 
+602 
+- 
+- 
+ Total 
+93.554 
+2.617 
+39.588 
+Observação: Não contemplamos no mapa de atuação internacional as localidades e regiões com operações em run-off ou em fase de encerramento; (1) Não considera os 30 pontos de atendimento da 
+OCA; (2) Inclui os colaboradores no Panamá; (3) América Latina ex-Brasil e Argentina (Chile, Colômbia, Panamá, Paraguai e Uruguai). 
+Destaques da América Latina em moeda constante, eliminando os efeitos de variação cambial e utilizando o conceito gerencial. 
+(1) As participações minoritárias são calculadas com base no resultado contábil da operação em BRGAAP. 
+Itaú Uruguai 
+ 
+• Menor resultado na margem com mercado relacionado 
+com derivativos cambiais; 
+• Maiores receitas de serviços, devido principalmente ao 
+maior volume de comissões de cartão de crédito; 
+• Redução do custo do crédito em função da menor 
+necessidade de provisão no terceiro trimestre. 
+• Maiores despesas com pessoal e gastos com cartões 
+de crédito. 
+Itaú Paraguai 
+ 
+• Melhor margem com mercado por operações de derivati-
+vos cambiais; 
+• Redução na receita de serviços, relacionada com progra-
+mas de recompensas em cartão de crédito; 
+• Maiores receitas de seguros, devido a maior remunera-
+ção das provisões técnicas de seguros; 
+• Maior custo do crédito, devido a provisão de cliente es-
+pecífico do segmento Coporate. 
+• Aumento de despesas administrativas, por maiores gas-
+tos com marketing, além de reembolso de exposição de 
+marca da operação de cartões ocorrido no 2T25. 
+Itaú Chile 
+ 
+• Melhor margem com mercado por maiores 
+ganhos, tanto na mesa trading quanto na mesa 
+banking; 
+• Redução na receita de serviços em função de 
+menores receitas de banco de investimento; 
+• Redução no custo do crédito em função de 
+menores provisões para clientes pessoa jurídica. 
+Em R$ milhões (em moeda constante) 3T25 2T25 D 3T25 2T25 D 3T25 2T25 D
+Produto Bancário 2.434 2.331 4,4% 554 535 3,6% 1.192 1.194 -0,2%
+Margem Financeira Gerencial 2.037 1.867 9,1% 412 382 7,9% 775 795 -2,5%
+Margem Financeira com Clientes 1.876 1.877 0,0% 307 317 -3,1% 677 682 -0,7%
+Margem Financeira com o Mercado 160 (10) - 105 64 62,3% 98 114 -13,7%
+Receita de Prestação de Serviços 397 465 -14,5% 86 116 -25,7% 417 398 4,5%
+Resultado de Operações com Seg., Prev. e Cap. - - - 55 36 52,4% - - -
+Custo do Crédito (452) (549) -17,7% (71) (39) 85,4% (78) (132) -40,8%
+Despesas de Perda Esperada (558) (667) -16,3% (74) (51) 45,3% (52) (110) -52,3%
+Descontos Concedidos (18) (14) 33,0% - - - (36) (27) 33,5%
+Recuperação de Créditos Baixados como Prejuízo 125 131 -5,2% 3 12 -78,4% 10 5 115,6%
+Despesas com Sinistros - - - (6) (3) 124,1% - - -
+Outras Despesas Operacionais (1.315) (1.311) 0,3% (247) (223) 10,8% (609) (588) 3,6%
+Despesas não Decorrentes de Juros (1.280) (1.274) 0,4% (237) (214) 10,8% (608) (586) 3,7%
+Despesas Tributárias de ISS, PIS, Cofins e Outras (35) (37) -3,6% (9) (8) 10,8% (1) (1) -11,1%
+Resultado antes da Tributação e Part. Minoritárias 667 472 41,5% 229 271 -15,2% 505 474 6,4%
+Imposto de Renda e Contribuição Social (50) 6 - (53) (67) -20,5% (138) (124) 11,1%
+Participações Minoritárias nas Subsidiárias ¹ (205) (153) 33,7% - - - - - -
+Resultado Recorrente Gerencial 412 325 26,9% 176 204 -13,5% 366 350 4,7%
+Retorno Recorrente Gerencial sobre o Patrimônio Líquido 
+Médio (% a.a.) 12,5% 9,9% 2,6 p.p. 24,0% 28,1% -4,1 p.p. 40,5% 39,6% 1,0 p.p.
+Índice de Eficiência 53,3% 55,5% -2,2 p.p. 44,1% 40,9% 3,2 p.p. 51,1% 49,2% 1,9 p.p.
+Itaú Chile Itaú Paraguai Itaú Uruguai
+1
+
+[p. 26]
+1 
+Análise Gerencial da Operação e Demonstrações Contábeis Condensadas
+Informações 
+Adicionais
+
+[p. 27]
+29 
+Comparativo BRGAAP¹ e IFRS 
+Análise Gerencial da Operação > Comparativo BRGAAP e IFRS 
+Apresentamos abaixo as diferenças entre nossas demonstrações contábeis em BRGAAP e no padrão contábil internacional – IFRS. 
+As demonstrações contábeis condensadas em IFRS, referentes ao terceiro trimestre de 2025, estão disponíveis em nossa página na inter-
+net: www.itau.com.br/relacoes-com-investidores. 
+(1) O BRGAAP representa as práticas contábeis vigentes no Brasil para as instituições financeiras, conforme regulamentação do BACEN; 
+(2) Decorrentes de reclassificações de ativos e passivos e demais efeitos da adoção das normas do IFRS; 
+(3) Decorrente da eliminação de operações entre a controladora e os fundos exclusivos (principalmente fundos PGBL e VGBL), que são consolidados com base nas normas do IFRS; 
+(4) Referem-se às reclassificações de ativos financeiros entre categorias de mensuração ao valor justo e ao custo amortizado; 
+(5) Diferença na contabilização, principalmente dos impostos diferidos, que passaram a ser contabilizados pelo efeito líquido entre Ativos e Passivos em cada uma das empresas consolidadas; 
+(6) Conciliação do Patrimônio Líquido dos Acionistas Controladores demonstrada na próxima tabela. 
+ 
+ 
+ 
+ 
+Divulgação dos resultados do terceiro trimestre de 2025, de acordo com o padrão contábil internacional – IFRS 
+R$ milhões 
+BRGAAP
+Ajustes e
+Reclassificações IFRS BRGAAP
+Ajustes e
+Reclassificações IFRS
+30/set/25 31/dez/24
+Ativos Totais 2.996.463 (27.112) 2.969.351 3.048.537 (194.062) 2.854.475
+Disponibilidades, Compulsórios e Ativos Financeiros ao Custo Amortizado 3 4 2.022.833 (2.745) 2.020.088 2.014.924 (18.235) 1.996.689
+(-) Perda Esperada ao Custo Amortizado (53.162) 2.467 (50.696) (48.875) 1.117 (47.758)
+Ativos Financeiros ao Valor Justo por meio de Outros Resultados Abrangentes 4 157.538 (26.967) 130.571 306.664 (200.104) 106.560
+(-) Perda Esperada ao Valor Justo por meio de Outros Resultados Abrangentes (466) - (466) (1.972) 1.715 (257)
+Ativos Financeiros ao Valor Justo por Meio do Resultado 4 722.315 (1.710) 720.605 632.086 22.108 654.194
+Contratos de Seguro - 157 157 - 66 66
+Ativos Fiscais 5 90.603 (11.338) 79.265 88.144 (15.491) 72.653
+Investimentos em Associadas e Entidades Controladas em Conjunto, Ágio, 
+Imobilizado, Ativos Intangíveis, Bens Destinados a Venda e Outros Ativos 56.802 13.024 69.826 57.566 14.762 72.328
+Passivos Totais 2.780.697 (36.053) 2.744.644 2.838.080 (204.889) 2.633.191
+Passivos Financeiros ao Custo Amortizado 3 2.263.850 (27.012) 2.236.838 2.340.560 (191.784) 2.148.776
+Passivos Financeiros ao Valor Justo por Meio do Resultado 4 77.928 1.408 79.336 88.086 (1.811) 86.275
+Perda Esperada (Compromissos de Empréstimos e Garantias Financeiras) 1.591 (3) 1.588 4.276 652 4.928
+Contratos de Seguro e Previdência Privada 343.344 (2.321) 341.023 307.813 (914) 306.899
+Provisões 18.610 - 18.610 19.209 - 19.209
+Obrigações Fiscais 5 21.273 (8.097) 13.176 21.784 (10.439) 11.345
+Outros Passivos 54.101 (28) 54.073 56.352 (593) 55.759
+Total do Patrimônio Líquido 215.766 8.941 224.707 210.457 10.827 221.284
+Participação dos Acionistas não Controladores 8.602 1.187 9.789 9.402 792 10.194
+Total do Patrimônio Líquido dos Acionistas Controladores 6 207.164 7.754 214.918 201.055 10.035 211.090
+Ajustes e
+Reclassificações²
+Ajustes e
+Reclassificações² IFRS IFRSBRGAAPBRGAAP
+
+[p. 28]
+30 
+Comparativo BRGAAP¹ e IFRS 
+Análise Gerencial da Operação > Comparativo BRGAAP e IFRS 
+Seguem abaixo os quadros com a conciliação do Resultado e do Patrimônio Líquido, com a descrição conceitual dos principais ajustes. 
+R$ milhões 
+Diferenças entre as Demonstrações Contábeis em IFRS e BRGAAP 
+(a) Diferenças normativas no BRGAAP para apuração da perda de crédito esperada, como pisos mínimos para operações inadimplentes há 
+mais de 90 dias e para renegociações de créditos que estavam baixadas.7 
+(b) Diferença na classificação de ativos financeiros entre BRGAAP e IFRS, que trazem impactos na mensuração destes instrumentos quando 
+reconhecidos ao valor justo. 
+(c) A partir de 2025, houve a equalização na estimativa de baixa de ativos financeiros, gerando efeito no resultado do IFRS. 
+(d) Reversão das amortizações dos ágios no BRGAAP. 
+(e) Diferenças normativas na designação de estruturas de hedge contábil entre o BRGAAP e IFRS. 
+(7) Mais detalhes nas Demonstrações Contábeis de Janeiro a Setembro de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Patrimônio Líquido*
+30/set/25 3T25 2T25 3T24 9M25 9M24
+BRGAAP - valores atribuíveis aos acionistas controladores 207.164 11.561 11.278 10.194 33.733 29.672
+(a) Perda de Crédito Esperada - Operação de Crédito e Arrendamento e Demais Ativos Financeiros 2.495 166 227 (292) 546 (1.107)
+(b) Classificação de Ativos Financeiros (3.487) (103) 410 742 1.075 89
+(c) Baixa de Ativos Financeiros - - (390) (16) (1.453) 165
+(d) Estorno de Amortização de Ágios 5.125 163 165 204 512 538
+(e) Derivativos utilizados como Instrumentos de Hedge Contábil 1.190 (198) (546) (498) (1.120) 606
+ Outros 2.431 (283) (8) 32 (344) 287
+IFRS - valores atribuíveis aos acionistas controladores 214.918 11.306 11.137 10.366 32.950 30.250
+IFRS - participação dos acionistas não controladores 9.789 294 261 229 755 755
+IFRS - valores atribuíveis aos acionistas controladores e não controladores 224.707 11.600 11.398 10.595 33.705 31.005
+* Eventos líquidos dos efeitos tributários
+Resultado Líquido*Resultado Líquido*Patrimônio Líquido*
+
+[p. 29]
+31 
+Glossário 
+Análise Gerencial da Operação > Glossário 
+Produto Bancário 
+É a soma da Margem Financeira Gerencial, 
+das Receitas de Prestação de Serviços e 
+das Receitas de Seguros, Previdência e 
+Capitalização antes das Despesas de Si-
+nistros e de Comercialização. 
+Margem Financeira Gerencial 
+É a soma da Margem Financeira com Cli-
+entes e da Margem Financeira com o Mer-
+cado. 
+Retorno Recorrente Gerencial sobre o 
+Patrimônio Líquido Médio anualizado 
+É obtido por meio da divisão do Resultado 
+Recorrente Gerencial pelo Patrimônio Lí-
+quido Médio. O quociente dessa divisão é 
+multiplicado pelo número de períodos no 
+ano para se obter o índice anual. As bases 
+de cálculo dos retornos foram ajustadas 
+pelos valores dos dividendos propostos 
+após as datas de fechamento dos balan-
+ços ainda não aprovados em assembleias 
+gerais ordinárias ou em reuniões do con-
+selho de administração. 
+Retorno Recorrente Gerencial sobre o 
+Ativo Médio anualizado 
+É obtido por meio da divisão do Lucro Lí-
+quido Recorrente pelo Ativo Médio. 
+Cobertura por estágio 
+É obtido por meio da divisão do saldo de 
+provisão de perda esperada do estágio 
+pelo saldo das operações do respectivo 
+estágio. 
+Índice de Eficiência 
+É obtido por meio da divisão das Despesas 
+não decorrentes de juros pela soma da 
+Margem Financeira Gerencial, das Recei-
+tas de Prestação de Serviços, do Resulta-
+do de Operações com Seguros, Previdên-
+cia e Capitalização e das Despesas Tribu-
+tárias (ISS, PIS, COFINS e Outras). 
+Resultado Recorrente Gerencial por Ação 
+É calculado com base na média ponderada 
+da quantidade de ações em circulação no 
+período e considera os desdobramentos 
+de ações, caso tenham ocorrido. 
+Dividendos e JCP Líquidos 
+Corresponde à distribuição de parte dos 
+lucros aos acionistas, pagos ou provisio-
+nados, declarados e destacados 
+no Patrimônio Líquido. 
+ 
+Valor de mercado 
+É obtido por meio da multiplicação do 
+total de ações em circulação (ON e PN) 
+pela cotação média da ação preferencial 
+no último dia de negociação do período. 
+Índice de Capital Nível I 
+Composto pela somatória do Capital 
+Principal e do Capital Complementar, 
+dividida pelo montante de RWA Total 
+(Ativos Ponderados pelo Risco). 
+Custo do Crédito 
+Composto por despesa de perda espe-
+rada, Descontos Concedidos e Recupe-
+ração de Créditos baixados como Prejuí-
+zo. 
+Spreads de ativos 
+Variação dos spreads de ativos com risco 
+de crédito entre os períodos. 
+ 
+Taxas Médias anualizadas da Margem 
+Financeira com Clientes 
+É obtido por meio da divisão da Margem 
+Financeira com Clientes pela média dos 
+saldos diários de Operações Sensíveis à 
+Spreads, Capital de Giro e Outros. O quo-
+ciente dessa divisão é dividido pelo nú-
+mero de dias corridos no trimestre e anu-
+alizado (elevando-se a 360) para se obter 
+o índice anual. 
+Sumário Executivo 
+Margem Financeira Gerencial 
+Margem Financeira com Clientes 
+Engloba as operações sensíveis a spre-
+ads, o capital de giro próprio e outros. 
+As operações sensíveis a spreads são: (i) 
+a margem com ativos que é a diferença 
+entre o valor recebido nas operações de 
+crédito e títulos corporativos e o custo 
+do dinheiro cobrado pela tesouraria 
+banking e (ii) a margem com passivos 
+que é a diferença entre o custo da cap-
+tação de recursos e o valor recebido da 
+tesouraria banking. A margem de capi-
+tal de giro próprio é a remuneração do 
+capital de giro próprio por taxa pré-
+fixada de juros. 
+Margem Financeira com o Mercado 
+Inclui a tesouraria banking, que geren-
+cia os descasamentos entre ativos e 
+passivos (ALM - Asset and Liability Ma-
+nagement) de prazos, taxas de juros, 
+câmbio e outros e a tesouraria trading, 
+a qual faz gestão de carteiras proprietá-
+rias e pode assumir posições direcio-
+nais, respeitando os limites estabeleci-
+dos pelo nosso apetite de risco. 
+Mix de Produtos de Crédito 
+Mudança da composição dos ativos com 
+risco de crédito entre períodos. 
+Volume médio de ativos 
+Volume médio composto pela carteira 
+de crédito e títulos corporativos líquido 
+da carteira em atraso acima de 60 dias, 
+o efeito da variação cambial média no 
+período é desconsiderado nos saldos. 
+Qualidade do Crédito 
+Índice de Inadimplência (90 dias) 
+É calculado através do saldo da Carteira 
+Vencida a mais de 90 dias dividido pelo 
+total da Carteira de Crédito. A Carteira 
+vencida a mais de 90 dias considera o 
+saldo total das operações que tenham ao 
+menos uma parcela com atraso superior a 
+90 dias. 
+NPL Creation 
+Consiste no saldo das operações de cré-
+dito que passaram a ser inadimplentes 
+acima de 90 dias no trimestre. 
+Custo do Crédito sobre a 
+Carteira de Crédito 
+É calculado por meio da divisão do Custo 
+do Crédito pela média dos dois últimos 
+trimestres da Carteira de Crédito. 
+Serviços e Seguros 
+Margem de Underwriting 
+É a soma dos prêmios ganhos, sinistros 
+retidos e despesas de comercialização. 
+Combined Ratio 
+É a soma dos sinistros retidos, despesas 
+de comercialização, despesas administra-
+tivas, outras receitas e despesas operaci-
+onais e despesas tributárias de ISS, PIS e 
+COFINS e outras dividida pelos prêmios 
+ganhos.
+
+[p. 30]
+32 
+Glossário 
+Análise Gerencial da Operação > Glossário 
+Loan-to-Value 
+É a relação entre o valor do financiamento 
+e a garantia subjacente. 
+Carteira de Crédito 
+Captações 
+Carteira de Crédito sobre 
+Recursos Captados Brutos 
+É obtido por meio da divisão da Carteira 
+de Crédito pelos Recursos Captados Bru-
+tos (Funding de clientes, Obrigações por 
+TVM no exterior, Obrigações por emprés-
+timos e outras obrigações) ao final do 
+período. 
+Numerário 
+Inclui Caixa, Depósitos bancários de Insti-
+tuições sem conta reserva, Depósitos em 
+moeda estrangeira no País, Depósitos no 
+exterior em moeda estrangeira e disponi-
+bilidades em moedas estrangeiras. 
+Indicadores de Capital, 
+Liquidez e Mercado 
+Valor em Risco (VaR) 
+É uma medida estatística que quantifica a 
+perda econômica potencial esperada em 
+condições normais de mercado. O VaR 
+Consolidado do Itaú Unibanco é calculado 
+por Simulação Histórica da posição total 
+do banco com risco de mercado, com um 
+intervalo de confiança de 99%, período 
+histórico de 4 anos (1000 dias úteis) e um 
+horizonte de manutenção (holding peri-
+od) de um dia. Ainda em uma abordagem 
+conservadora, o VaR é calculado diaria-
+mente com e sem ponderação pela volati-
+lidade, sendo o VaR final o valor mais res-
+tritivo dentre as duas metodologias. 
+Capital Principal 
+É a soma do capital social, reservas e lu-
+cros acumulados, menos deduções e ajus-
+tes prudenciais. 
+Capital Complementar 
+Composto por instrumentos de caráter 
+perpétuo, que atendam a requisitos de 
+elegibilidade. 
+Capital Nível I 
+É a soma do Capital principal e Capital 
+complementar. 
+Capital Nível II 
+Composto por instrumentos de dívida 
+subordinada de vencimento definido que 
+atendam a requisitos de elegibilidade. 
+Capital Total 
+É a soma do Capital Nível I e Capital Nível 
+II. 
+RWA Total 
+Ativos ponderados pelo risco, composto 
+pela somatória das parcelas relativas às 
+exposições ao risco de crédito (RWA 
+CPAD), ao capital requerido para risco de 
+mercado (RWA MINT) e ao capital requeri-
+do para o risco operacional (RWA OPAD). 
+Resultados por Segmentos 
+de Negócios 
+Negócios de Varejo 
+Abrange produtos e serviços bancários a 
+clientes correntistas e não correntistas. 
+Os produtos e serviços ofertados incluem: 
+crédito pessoal, cartões de crédito, em-
+préstimos consignados, financiamento de 
+veículos, crédito imobiliário, produtos de 
+seguros, previdência e capitalização, ser-
+viços de adquirência, entre outros. 
+Negócios de Atacado 
+Abrange as atividades do Itaú BBA, uni-
+dade responsável pelas operações comer-
+ciais com grandes empresas e pela atua-
+ção como banco de investimento; as nos-
+sas atividades no exterior; e os produtos 
+e serviços oferecidos aos clientes com 
+elevado patrimônio financeiro (Private 
+Banking), às médias empresas e clientes 
+institucionais. 
+Atividades com Mercado e Corporação 
+Apresenta o resultado decorrente do ex-
+cesso de capital, do excesso de dívida 
+subordinada e do carregamento do saldo 
+líquido dos créditos e passivos tributá-
+rios. Evidencia, ainda, a margem financei-
+ra com o mercado, o custo da operação 
+da Tesouraria, o resultado de equivalên-
+cia patrimonial das empresas que não 
+estão associadas a cada um dos segmen-
+tos e a nossa participação na Porto Segu-
+ro. 
+Ações Itaú Unibanco 
+Valor patrimonial por ação 
+É calculado por meio da divisão do Patri-
+mônio Líquido na última data do período 
+pelo número de ações em circulação.
+
+[p. 31]
+Itaú Unibanco Holding S.A.
