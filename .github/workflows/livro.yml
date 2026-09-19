@@ -56,7 +56,7 @@ jobs:
       # Padrao sem dado pessoal: nome do robo + URL publica do projeto (issues do
       # repositorio sao o canal). O secret SEC_USER_AGENT, se existir, tem prioridade
       # e e onde entra um e-mail, que nunca deve ficar em arquivo de repositorio publico.
-      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || 'BROADCAST Livro (contato: admin@theinvestpost.local)' }}
+      SEC_USER_AGENT: "${{ secrets.SEC_USER_AGENT || 'BROADCAST Livro (contato admin@theinvestpost.local)' }}"
     steps:
       - uses: actions/checkout@v4
 
