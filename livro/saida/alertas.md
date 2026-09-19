@@ -1,8 +1,46 @@
 ALERTAS · eventos
 
-Nenhum alerta novo neste slot.
+[ATENÇÃO] E04 · MELI34 · 8-K: 1.01 acordo material assinado, 7.01 Regulation FD
+SEC EDGAR · aceito 10/09 11h19 · 8-K
+Do documento:
+  – Employer Identification Number)  WTC Free Zone  Dr. Luis Bonavita 1294, Of.
+  – On September 9, 2026, MercadoLibre, Inc. (the “Company”) and its subsidiaries MercadoLibre S.R.L., Mercado Livre Brasil Ltda.,  DeRemate.com de México, S.
+  – The foregoing description of certain terms of the Underwriting Agreement is not complete and is qualified in its entirety by the  Underwriting Agreement, which is attached as Exhibit 1.1 to this Current Report on Form 8…
+  – Item 7.01   Regulation FD Disclosure.
+  – On September 9, 2026, the Company issued a press release announcing the pricing of the Notes in a public offering.
+  – A copy of the press release is attached hereto as Exhibit 99.1 and is incorporated into this Item 7.01 by reference.
+Link: https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm
+Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar contraparte e valor
+Ativos: MELI34
+Como falar: 'a MELI protocolou 8-K na SEC (1.01 acordo material assinado, 7.01 Regulation FD)'
+Fonte: SEC EDGAR 2026-09-10
+Push: eventos: 2 alertas de atenção — E04 MELI34, E04 AMZN · detalhe na sessão
+ids: E04-MELI34-26036136-2026-09-10
+
+[ATENÇÃO] E04 · AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+SEC EDGAR · aceito 09/09 17h28 · 8-K
+Do documento:
+  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 5.02.
+  – 3   SIGNATURES   4   Table of Contents   ITEM 5.02.
+  – On September 8, 2026, the Board of Directors of Amazon.com, Inc. (the “Company”) elected Kevin R.
+  – Mandia has served as Chief Executive Officer of Armadin, Inc., a cybersecurity company he founded, since September 2025.
+  – Mandia has also served as General Partner of Ballistic Ventures, a venture capital firm he co-founded, since June 2024 and previously served as Strategic Partner from December 2021 to June 2024.
+  – He served as Chief Executive Officer of Mandiant, Inc., a cybersecurity firm acquired by Google LLC in September 2022, from June 2016 to July 2024 and as a director from February 2016 to September 2022.
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm
+Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
+Ativos: AMZN
+Como falar: 'a AMZN protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
+Fonte: SEC EDGAR 2026-09-09
+ids: E04-AMZN-26000036-2026-09-09
+
 Info (só linha no Fechamento):
-· E05 PETR4 · Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina
+· E04 AMZN · 8-K: 8.01 outros eventos
+· E04 MELI34 · 8-K: 8.01 outros eventos
+· E04 MMM · 8-K: 8.01 outros eventos
+· E04 TSM · 6-K: 6-K
+· E04 NOK · 6-K: 6-K
+· E04 BABA · 6-K: 6-K
+· E05 UST · U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged
 
 
 Alertas do dia (todos, com status):
