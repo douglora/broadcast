@@ -12,10 +12,11 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   (.claude/skills/analise-ativo/SKILL.md) e responda como analista senior de
   sell-side: direto, opinativo com evidencia, em portugues do Brasil, R$.
 - Fonte oficial primeiro, sempre: a skill garante que o coletor puxou as
-  demonstracoes direto da CVM (ITR/DFP) ou da SEC (XBRL) e o release de
-  resultados do RI, para o ativo e para os pares do grupo (`pares.py`), antes
-  de qualquer nota. O aprofundamento (trajetoria de margens, custo da divida,
-  geracao de caixa, modelo de negocio, pares contra a mediana) e obrigatorio.
+  demonstracoes direto da CVM (ITR/DFP) ou da SEC (XBRL) e os 8 ultimos
+  releases de resultado do RI, para o ativo e para os pares do grupo
+  (`pares.py`), antes de qualquer nota. O aprofundamento (trajetoria de
+  margens, custo da divida, geracao de caixa, modelo de negocio, pares contra
+  a mediana, discurso da gestao contra entrega) e obrigatorio.
 - Dados primeiro, texto depois. Nenhum numero sem fonte e data. A hierarquia
   de fontes esta na skill; agregadores (Yahoo, Fundamentus) so para preco,
   consenso e conferencia; busca na web e contexto, nunca fonte primaria de
@@ -33,8 +34,13 @@ o GitHub. Por isso os dados vivem no branch `dados`, alimentado pelo workflow
 aberta:
 
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`
-  (demonstracoes oficiais em `cvm_demonstracoes` ou `sec_xbrl`, release do RI
-  em `release_ri`, acao-mae do BDR em `subjacente_us`, grupo em `pares`)
+  (demonstracoes oficiais em `cvm_demonstracoes` ou `sec_xbrl`, release mais
+  recente do RI em `release_ri`, indice dos 8 em `releases_historico`,
+  acao-mae do BDR em `subjacente_us`, grupo em `pares`)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/releases/<TICKER>/index.json`
+  e `.../releases/<TICKER>/<AAAA-MM-DD>.txt` (os 8 ultimos releases de
+  resultado, um por trimestre, texto integral: e com eles que se cobra o que
+  a gestao prometeu)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/comparativos/<grupo>.json`
   (tabela de pares do grupo com medianas; grupos em `pares.py`)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/index.json`

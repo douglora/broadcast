@@ -1,8 +1,8 @@
 name: Coletar dados para a mesa de analise
 
 # Coleta dados de ativos da B3 e BDRs (demonstracoes oficiais da CVM e da SEC,
-# release de resultados do RI, Yahoo, Fundamentus, Banco Central e o modelo de
-# TIR) e grava JSONs no branch `dados`. Com pares=auto, coleta tambem os pares
+# os 8 ultimos releases de resultado do RI, Yahoo, Fundamentus, Banco Central e
+# o modelo de TIR) e grava JSONs no branch `dados`. Com pares=auto, coleta tambem os pares
 # do grupo e grava o comparativo. O Claude, em sessoes na nuvem sem acesso as
 # fontes, le esses JSONs por raw.githubusercontent.com. Dispare a mao com a
 # lista de tickers, ou deixe a agenda manter o retrato geral e a lista padrao.
@@ -25,7 +25,7 @@ on:
         default: "auto"
         type: string
       sem_releases:
-        description: "Pular o download do release de resultados (CVM/SEC); coleta mais rapida"
+        description: "Pular o download dos releases de resultado (CVM/SEC); coleta mais rapida"
         required: false
         default: false
         type: boolean
@@ -46,7 +46,7 @@ concurrency:
 jobs:
   coletar:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 

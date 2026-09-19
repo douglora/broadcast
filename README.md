@@ -190,9 +190,12 @@ ativo no branch `dados`. Por ativo, em ordem de autoridade:
    abertos da CVM (companhias da B3) ou XBRL dos 10-Q, 10-K e 20-F na SEC
    (papeis dos EUA, ADRs e a acao-mae dos BDRs), com series trimestrais
    limpas, 4T derivado do anual e LTM.
-2. Release de resultados do RI: a copia oficial do PDF que a empresa publica
-   no site de RI, entregue a CVM (IPE, "Press-release") ou a SEC (8-K item
-   2.02 / 6-K, exhibit 99), com o texto integral no JSON.
+2. Releases de resultado do RI, os 8 ultimos trimestres: a copia oficial do
+   PDF que a empresa publica no site de RI, entregue a CVM (IPE,
+   "Press-release" ou "Relatorio de Analise Gerencial") ou a SEC (8-K item
+   2.02 / 6-K, exhibit 99). O mais novo vai inteiro no JSON do ativo; os oito
+   ficam em `releases/<TICKER>/` no branch, um `.txt` por trimestre mais um
+   `index.json`. Cada coleta baixa so o que ainda nao esta la.
 3. Yahoo (cotacao, historico, consenso, noticias), Fundamentus, fatos
    relevantes da CVM, macro do Banco Central e TIR real do modelo da casa.
 
@@ -202,8 +205,8 @@ crescimento, alavancagem e series oficiais lado a lado, com medianas). Roda
 a cada duas horas em dias uteis para a lista do modelo de TIR (sem pares) e
 pode ser disparado a mao, pela aba Actions ou pelo proprio Claude.
 
-O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`
-e `.../dados/comparativos/<grupo>.json`. As regras da mesa estao em
+O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`,
+`.../dados/comparativos/<grupo>.json` e `.../dados/releases/<TICKER>/index.json`. As regras da mesa estao em
 `CLAUDE.md`; o procedimento de coleta, o aprofundamento obrigatorio e o
 formato da nota, em `.claude/skills/analise-ativo/SKILL.md`. Basta mandar um
 ticker.

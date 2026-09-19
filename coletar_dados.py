@@ -44,6 +44,7 @@ import re
 import shutil
 import sys
 import tempfile
+import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
 
@@ -362,8 +363,13 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
     if not nucleos:
         fontes["cvm"] = "sem nome de companhia para casar"
         return {}
-    ano = datetime.now(timezone.utc).year
-    linhas = _linhas_ipe(ano) + (_linhas_ipe(ano - 1) if datetime.now(timezone.utc).month <= 2 else [])
+    hoje = datetime.now(timezone.utc)
+    ano = hoje.year
+    # Tres anos de IPE: fatos relevantes usam so a janela recente, mas o historico de releases
+    # precisa de 8 trimestres para tras. Os zips ficam em cache por execucao.
+    linhas = []
+    for a in (ano, ano - 1, ano - 2):
+        linhas += _linhas_ipe(a)
     if not linhas:
         fontes["cvm"] = "falha: IPE indisponivel"
         return {}
@@ -421,10 +427,12 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
             metodo = tentativa.__name__
             break
     docs.sort(key=lambda d: d["data"], reverse=True)
-    fatos = [d for d in docs if d["categoria"] == "Fato Relevante"][:limite]
-    outros = [d for d in docs if d["categoria"] != "Fato Relevante"][:limite]
-    # Documentos de resultado: o release (mesmo PDF do site de RI) e a apresentacao
-    resultado = [d for d in docs if _eh_documento_resultado(d)][:12]
+    corte = (hoje - timedelta(days=365)).strftime("%Y-%m-%d")
+    recentes = [d for d in docs if d["data"] >= corte]
+    fatos = [d for d in recentes if d["categoria"] == "Fato Relevante"][:limite]
+    outros = [d for d in recentes if d["categoria"] != "Fato Relevante"][:limite]
+    # Documentos de resultado: o release (mesmo PDF do site de RI) e a apresentacao, 3 anos
+    resultado = [d for d in docs if _eh_documento_resultado(d)][:24]
     fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros, "
                      f"{len(resultado)} de resultado; casamento {metodo}; "
                      f"empresa: {docs[0]['empresa']})") if docs else "sem documentos casados"
@@ -470,6 +478,42 @@ def _eh_documento_resultado(d):
 # essa copia oficial: mesmo PDF, sem depender do layout de cada site de RI.
 RELEASE_MAX_CHARS = 150000
 RELEASE_MAX_PAGINAS = 80
+# Quantos releases guardar por ativo (8 trimestres = 2 anos de discurso da gestao)
+RELEASES_POR_ATIVO = 8
+# Teto de tempo, por ativo, gasto baixando releases que ainda nao estao no branch.
+# Estourou, para e completa o historico na proxima coleta.
+RELEASE_ORCAMENTO_S = 150
+
+_RE_TRI_CURTO = re.compile(r"\b([1-4])\s*[TQ]\s*(\d{2})\b")
+_RE_TRI_LONGO = re.compile(r"\b([1-4])\s*O?\s*(?:TRIMESTRE|QUARTER)\s*(?:DE|OF)?\s*(\d{4})\b")
+_RE_TRI_EN = re.compile(r"\b(FIRST|SECOND|THIRD|FOURTH)\s+QUARTER\b.{0,45}?\b(20\d{2})\b")
+_ORDINAL_EN = {"FIRST": 1, "SECOND": 2, "THIRD": 3, "FOURTH": 4}
+
+
+def periodo_release(*textos):
+    """'Release de Resultados 2T26' ou 'second quarter 2026' -> '2T26'. None se nao achar."""
+    for texto in textos:
+        t = normalizar(texto)[:4000]
+        for rx, conv in ((_RE_TRI_CURTO, lambda a, b: (int(a), int(b))),
+                         (_RE_TRI_LONGO, lambda a, b: (int(a), int(b) % 100)),
+                         (_RE_TRI_EN, lambda a, b: (_ORDINAL_EN[a], int(b) % 100))):
+            m = rx.search(t)
+            if m:
+                tri, ano = conv(m.group(1), m.group(2))
+                return f"{tri}T{ano:02d}"
+    return None
+
+
+def trimestre_anterior(data):
+    """'2026-08-05' -> '2T26': o trimestre que fechou antes dessa data."""
+    try:
+        d = datetime.strptime(data[:10], "%Y-%m-%d")
+    except (ValueError, TypeError):
+        return None
+    tri, ano = (d.month - 1) // 3, d.year
+    if tri == 0:
+        tri, ano = 4, ano - 1
+    return f"{tri}T{ano % 100:02d}"
 
 
 def _texto_pdf(conteudo, max_paginas=RELEASE_MAX_PAGINAS):
@@ -530,103 +574,200 @@ def _texto_de_download(r):
         return None, f"formato desconhecido ({tipo[:40]})"
 
 
-def _release_reutilizavel(anterior, link):
-    """Mesmo documento ja lido na coleta anterior, sem corte menor que o limite atual."""
-    if not anterior or anterior.get("link") != link or not anterior.get("texto"):
-        return False
-    return (not anterior.get("cortado")) or len(anterior["texto"]) >= RELEASE_MAX_CHARS
-
-
-def _montar_release(texto, detalhe, meta):
-    if not texto:
-        return None
-    texto = texto.strip()
-    cortado = len(texto) > RELEASE_MAX_CHARS
-    return {**meta, "detalhe": detalhe, "caracteres_total": len(texto), "cortado": cortado,
-            "texto": texto[:RELEASE_MAX_CHARS]}
-
-
-def coletar_release_cvm(documentos, fontes, anterior=None):
-    """Baixa o press-release de resultados mais recente entregue a CVM (portugues primeiro).
-
-    `anterior` e o release ja gravado no branch: se o link for o mesmo, reusa o texto."""
-    releases = [d for d in documentos if _classe_documento_resultado(d) == "release"]
-    if not releases:
-        fontes["release_ri"] = "sem press-release no IPE do ano"
-        return {}
-    # Documentos dos ultimos 20 dias a partir do mais recente (o release e o relatorio gerencial
-    # saem juntos ou com dias de diferenca), em ordem de preferencia: relatorio gerencial de banco
-    # (mais completo), press-release em portugues, press-release em ingles, comunicado.
-    data_max = releases[0]["data"]
-    try:
-        corte = (datetime.strptime(data_max, "%Y-%m-%d") - timedelta(days=20)).strftime("%Y-%m-%d")
-    except ValueError:
-        corte = data_max
-    do_dia = [d for d in releases if d["data"] >= corte]
-
-    def preferencia(d):
-        tipo, assunto = normalizar(d["tipo"]), normalizar(d["assunto"])
-        if tipo.startswith("RELATORIO DE ANALISE GERENCIAL"):
-            return 0
-        if tipo.startswith("PRESS RELEASE"):
-            if re.search(r"PORTUGU|\bPT\b|\bPOR\b", assunto):
-                return 0.5
-            return 1 if re.search(r"INGL|ENGL|\bEN\b|ENGLISH", assunto) else 0.7
-        return 2
-    do_dia.sort(key=lambda d: (preferencia(d), d["data"] < data_max))
-    for d in do_dia[:3]:
-        if _release_reutilizavel(anterior, d["link"]):
-            fontes["release_ri"] = f"ok ({d['assunto'][:60]}; {d['data']}; reusado da coleta anterior)"
-            return anterior
-        r = app.http_get(d["link"], timeout=90)
-        if not r:
-            continue
-        texto, detalhe = _texto_de_download(r)
-        rel = _montar_release(texto, detalhe, {
-            "fonte": "CVM IPE (copia oficial do release publicado no RI)", "empresa": d["empresa"],
-            "assunto": d["assunto"], "data": d["data"], "link": d["link"]})
-        if rel:
-            fontes["release_ri"] = f"ok ({d['assunto'][:60]}; {d['data']}; {detalhe}; {rel['caracteres_total']} caracteres)"
-            return rel
-    fontes["release_ri"] = f"falha: nao consegui ler {do_dia[0]['assunto'][:60]} ({do_dia[0]['data']})"
-    return {}
-
-
 SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
 SEC_INDEX_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/index.json"
 SEC_ARQUIVO_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{nome}"
 _PALAVRAS_RESULTADO = re.compile(r"(?i)(quarter|trimestre|fiscal year|full[- ]year|results|resultados|earnings)")
 
 
-def coletar_release_sec(cik, fontes, max_filings=20, anterior=None):
-    """Exhibit 99 do 8-K (item 2.02) ou 6-K mais recente com resultados trimestrais.
+def _montar_release(texto, detalhe, meta):
+    """Objeto de release: metadados, trimestre e o texto (cortado em RELEASE_MAX_CHARS)."""
+    if not texto:
+        return None
+    texto = texto.strip()
+    cortado = len(texto) > RELEASE_MAX_CHARS
+    periodo = meta.get("periodo") or periodo_release(meta.get("assunto") or "", texto[:4000]) \
+        or trimestre_anterior(meta.get("data"))
+    return {**meta, "periodo": periodo, "detalhe": detalhe, "caracteres_total": len(texto),
+            "cortado": cortado, "texto": texto[:RELEASE_MAX_CHARS]}
 
-    `anterior` e o release ja gravado no branch: se o link for o mesmo, reusa o texto."""
+
+def _preferencia_release_cvm(d):
+    """Ordem dentro do trimestre: relatorio gerencial, press-release em portugues, sem idioma, ingles, comunicado."""
+    tipo, assunto = normalizar(d["tipo"]), normalizar(d["assunto"])
+    if tipo.startswith("RELATORIO DE ANALISE GERENCIAL"):
+        return 0
+    if tipo.startswith("PRESS RELEASE"):
+        if re.search(r"PORTUGU|\bPT\b|\bPOR\b", assunto):
+            return 0.5
+        return 1 if re.search(r"INGL|ENGL|\bEN\b|ENGLISH", assunto) else 0.7
+    return 2
+
+
+def _grupos_por_periodo(documentos):
+    """Agrupa por trimestre citado no assunto; sem trimestre, pela data. Mais novo primeiro."""
+    grupos = {}
+    for d in documentos:
+        grupos.setdefault(periodo_release(d["assunto"]) or d["data"], []).append(d)
+    return sorted(grupos.items(), key=lambda kv: max(x["data"] for x in kv[1]), reverse=True)
+
+
+def _dedup_releases(lista, max_releases):
+    """Um release por trimestre, do mais novo para o mais antigo."""
+    vistos, out = set(), []
+    for r in sorted(lista, key=lambda x: x.get("data") or "", reverse=True):
+        chave = r.get("periodo") or r.get("data")
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        out.append(r)
+        if len(out) >= max_releases:
+            break
+    return out
+
+
+def _resumo_releases(fontes, lista, baixados, reusados, estourou, vazio):
+    if not lista:
+        fontes["release_ri"] = f"{vazio}; orcamento de tempo estourou antes de baixar" if estourou else vazio
+        return lista
+    n = lista[0]
+    rotulo = n.get("assunto") or n.get("formulario") or ""
+    fontes["release_ri"] = (f"ok ({rotulo[:50]}; {n.get('periodo')}; {n.get('data')}; "
+                            f"{n.get('caracteres_total')} caracteres); historico de {len(lista)} releases "
+                            f"({baixados} baixados, {reusados} reusados"
+                            f"{'; orcamento de tempo estourou, completa na proxima coleta' if estourou else ''})")
+    return lista
+
+
+def coletar_releases_cvm(documentos, fontes, conhecidos=None,
+                         max_releases=RELEASES_POR_ATIVO, orcamento_s=RELEASE_ORCAMENTO_S):
+    """Ate `max_releases` releases de resultado entregues a CVM, um por trimestre, mais novo primeiro.
+
+    `conhecidos` mapeia link -> release ja gravado no branch; esse nao e baixado de novo."""
+    conhecidos = conhecidos or {}
+    candidatos = [d for d in documentos if _classe_documento_resultado(d) == "release"]
+    if not candidatos:
+        fontes["release_ri"] = "sem press-release no IPE"
+        return []
+    achados, baixados, reusados = [], 0, 0
+    t0, estourou = time.monotonic(), False
+    for _, docs in _grupos_por_periodo(candidatos):
+        if len(achados) >= max_releases:
+            break
+        docs = sorted(docs, key=_preferencia_release_cvm)
+        ja = next((d for d in docs if conhecidos.get(d["link"])), None)
+        if ja is not None:
+            achados.append({**conhecidos[ja["link"]], "link": ja["link"]})
+            reusados += 1
+            continue
+        if time.monotonic() - t0 > orcamento_s:
+            estourou = True
+            break
+        for d in docs[:2]:
+            r = app.http_get(d["link"], timeout=90)
+            if not r:
+                continue
+            texto, detalhe = _texto_de_download(r)
+            item = _montar_release(texto, detalhe, {
+                "fonte": "CVM IPE (copia oficial do release publicado no RI)", "empresa": d["empresa"],
+                "assunto": d["assunto"], "data": d["data"], "link": d["link"]})
+            if item:
+                achados.append(item)
+                baixados += 1
+                break
+    return _resumo_releases(fontes, _dedup_releases(achados, max_releases), baixados, reusados, estourou,
+                            "falha: nao consegui ler nenhum press-release do IPE")
+
+
+def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartados):
+    """Dentro de um 8-K/6-K, o documento que e o release de resultados. (item, reusado).
+
+    `descartados` recebe os links que nao sao release, para nao baixa-los de novo na proxima coleta."""
+    primario = filing.get("primaryDocument")
+
+    def nota_nome(n):
+        if re.search(r"(?i)ex[-_]?99|99[-_.]?1", n) or re.search(r"(?i)release|earnings|results|press|\bpr\d", n):
+            return 3
+        return 0 if n == primario else 1
+
+    docs = [n for n in nomes if n.lower().endswith((".htm", ".html", ".pdf"))
+            and not re.search(r"(?i)^r\d+\.htm|-index|xbrl|_lab|_pre|_cal|_def", n)]
+    docs.sort(key=nota_nome, reverse=True)
+    if form == "8-K":
+        docs = [n for n in docs if nota_nome(n) >= 3] or docs[:1]
+    else:
+        # 6-K: so o exhibit com cara de release; o documento principal apenas quando nao ha exhibit
+        docs = [n for n in docs if nota_nome(n) >= 3][:2] or docs[:1]
+    melhor, melhor_nota = None, 1
+    for nome in docs:
+        url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
+        if url in conhecidos:
+            if conhecidos[url] is None:
+                continue                      # ja conferido antes: nao e release
+            return {**conhecidos[url], "link": url}, True
+        doc = app.http_get(url, timeout=60, headers=SEC_HEADERS)
+        if not doc:
+            continue
+        texto, detalhe = _texto_de_download(doc)
+        if not texto or len(texto) < 1500:
+            descartados.append(url)
+            continue
+        cabeca = texto[:8000]
+        nota = nota_nome(nome)
+        if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)"
+                     r"|quarterly results|financial results for|results for the (first|second|third|fourth)", cabeca):
+            nota += 2
+        if re.search(r"(?i)(quarter|trimestre|fiscal year|full[- ]year)", cabeca) and re.search(r"(?i)(results|earnings|resultados)", cabeca):
+            nota += 1
+        if re.search(r"(?i)interim (condensed )?(consolidated )?financial statements|notes to the (interim|consolidated) financial", cabeca):
+            nota -= 1
+        if re.search(r"(?i)annual general meeting|extraordinary general meeting|shareholders.? meeting|notice of (meeting|annual)"
+                     r"|appointment of|dividend declaration|share repurchase program", cabeca[:3000]):
+            nota -= 2
+        if nota < 2:
+            descartados.append(url)
+            continue
+        if nota <= melhor_nota:
+            continue
+        melhor_nota = nota
+        melhor = _montar_release(texto, detalhe, {
+            "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
+            "data": filing.get("filingDate"), "periodo_reportado": filing.get("reportDate"),
+            "arquivo_sec": nome, "link": url})
+    return melhor, False
+
+
+def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
+                         max_releases=RELEASES_POR_ATIVO, max_filings=60, orcamento_s=RELEASE_ORCAMENTO_S):
+    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre."""
+    conhecidos = conhecidos or {}
+    descartados = descartados if descartados is not None else []
     if not cik:
         fontes["release_ri"] = "sem CIK"
-        return {}
+        return []
     r = app.http_get(SEC_SUBMISSIONS_URL.format(cik=cik), timeout=60, headers=SEC_HEADERS)
     if not r:
         fontes["release_ri"] = "falha: submissions da SEC indisponivel"
-        return {}
+        return []
     try:
         rec = r.json().get("filings", {}).get("recent", {})
         filings = [dict(zip(rec.keys(), vals)) for vals in zip(*rec.values())]
     except Exception:
         fontes["release_ri"] = "falha: submissions ilegivel"
-        return {}
-    # Pontua os documentos dos ultimos 8-K/6-K e fica com o melhor: um 6-K pode ser a
-    # demonstracao financeira, outro o press-release; o nome do arquivo e o inicio do
-    # texto dizem qual e qual.
-    examinados, melhor, melhor_nota = 0, None, -1
+        return []
+    achados, baixados, reusados, examinados = [], 0, 0, 0
+    t0, estourou = time.monotonic(), False
     for f in filings:
+        if len(achados) >= max_releases or examinados >= max_filings:
+            break
         form = (f.get("form") or "").upper()
         if form not in ("8-K", "6-K"):
             continue
         if form == "8-K" and "2.02" not in (f.get("items") or ""):
             continue
         examinados += 1
-        if examinados > max_filings or melhor_nota >= 5:
+        if time.monotonic() - t0 > orcamento_s:
+            estourou = True
             break
         acc = (f.get("accessionNumber") or "").replace("-", "")
         idx = app.http_get(SEC_INDEX_URL.format(cik=cik, acc=acc), timeout=30, headers=SEC_HEADERS)
@@ -636,57 +777,85 @@ def coletar_release_sec(cik, fontes, max_filings=20, anterior=None):
             nomes = [it["name"] for it in idx.json()["directory"]["item"]]
         except Exception:
             continue
-        docs = [n for n in nomes if n.lower().endswith((".htm", ".html", ".pdf")) and not re.search(r"(?i)^r\d+\.htm|-index|xbrl|_lab|_pre|_cal|_def", n)]
-        primario = f.get("primaryDocument")
-
-        def nota_nome(n):
-            if re.search(r"(?i)ex[-_]?99|99[-_.]?1", n):
-                return 3
-            if re.search(r"(?i)release|earnings|results|press|\bpr\d", n):
-                return 3
-            return 0 if n == primario else 1
-        docs.sort(key=nota_nome, reverse=True)
-        if form == "8-K":
-            docs = [n for n in docs if nota_nome(n) >= 3] or docs[:1]
+        item, reusado = _documento_release_sec(cik, acc, nomes, f, form, conhecidos, descartados)
+        if not item:
+            continue
+        achados.append(item)
+        if reusado:
+            reusados += 1
         else:
-            # 6-K: baixa so o exhibit com cara de release; o documento principal apenas quando nao ha exhibit
-            docs = [n for n in docs if nota_nome(n) >= 3][:2] or docs[:1]
-        for nome in docs:
-            url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
-            reusado = _release_reutilizavel(anterior, url)
-            if reusado:
-                texto, detalhe = anterior["texto"], anterior.get("detalhe")
-            else:
-                doc = app.http_get(url, timeout=60, headers=SEC_HEADERS)
-                if not doc:
-                    continue
-                texto, detalhe = _texto_de_download(doc)
-            if not texto or len(texto) < 1500:
-                continue
-            cabeca = texto[:8000]
-            nota = nota_nome(nome)
-            if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)|quarterly results|financial results for|results for the (first|second|third|fourth)", cabeca):
-                nota += 2
-            if re.search(r"(?i)(quarter|trimestre|fiscal year|full[- ]year)", cabeca) and re.search(r"(?i)(results|earnings|resultados)", cabeca):
-                nota += 1
-            if re.search(r"(?i)interim (condensed )?(consolidated )?financial statements|notes to the (interim|consolidated) financial", cabeca):
-                nota -= 1
-            if re.search(r"(?i)annual general meeting|extraordinary general meeting|shareholders.? meeting|notice of (meeting|annual)|appointment of|dividend declaration|share repurchase program", cabeca[:3000]):
-                nota -= 2
-            if nota < 2:
-                continue
-            if nota > melhor_nota:
-                melhor_nota = nota
-                melhor = anterior if reusado else _montar_release(texto, detalhe, {
-                    "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
-                    "data": f.get("filingDate"), "periodo_reportado": f.get("reportDate"), "arquivo": nome,
-                    "link": url})
-    if melhor:
-        fontes["release_ri"] = (f"ok ({melhor.get('formulario')} de {melhor.get('data')}; {melhor.get('arquivo') or melhor.get('link', '')[-40:]}; "
-                                f"{melhor.get('caracteres_total')} caracteres{'; reusado da coleta anterior' if melhor is anterior else ''})")
-        return melhor
-    fontes["release_ri"] = f"sem release de resultados nos ultimos {examinados} 8-K/6-K"
-    return {}
+            baixados += 1
+    return _resumo_releases(fontes, _dedup_releases(achados, max_releases), baixados, reusados, estourou,
+                            f"sem release de resultados nos ultimos {examinados} 8-K/6-K")
+
+
+# ───────────────── Historico de releases no branch (releases/<TICKER>/) ─────────────────
+def carregar_indice_releases(saida, tk):
+    """{link: entrada} dos releases ja gravados, para nao baixar o mesmo documento de novo."""
+    if not saida:
+        return {}
+    caminho = os.path.join(saida, "releases", tk, "index.json")
+    if not os.path.exists(caminho):
+        return {}
+    try:
+        idx = json.load(open(caminho, encoding="utf-8"))
+    except Exception:
+        return {}
+    conhecidos = {}
+    for e in idx.get("releases", []):
+        if e.get("link") and e.get("arquivo") and os.path.exists(os.path.join(saida, e["arquivo"])):
+            conhecidos[e["link"]] = {k: v for k, v in e.items() if k != "texto"}
+    for link in idx.get("descartados", []):
+        conhecidos.setdefault(link, None)   # ja conferido antes: nao e release
+    return conhecidos
+
+
+def texto_do_release(saida, entrada):
+    """Texto de um release: do proprio objeto quando acabou de ser baixado, senao do arquivo no branch."""
+    if entrada.get("texto"):
+        return entrada["texto"]
+    arq = os.path.join(saida or "", entrada.get("arquivo") or "")
+    if entrada.get("arquivo") and os.path.exists(arq):
+        try:
+            return open(arq, encoding="utf-8").read()
+        except OSError:
+            return None
+    return None
+
+
+def gravar_releases(saida, tk, lista, descartados=None):
+    """Grava um .txt por release em releases/<TK>/ mais o index.json. Devolve o indice sem texto."""
+    if not saida or not lista:
+        return []
+    pasta = os.path.join(saida, "releases", tk)
+    os.makedirs(pasta, exist_ok=True)
+    indice, usados = [], set()
+    for r in lista:
+        base = r.get("data") or r.get("periodo") or "sem-data"
+        nome, n = f"{base}.txt", 2
+        while nome in usados:
+            nome, n = f"{base}-{n}.txt", n + 1
+        usados.add(nome)
+        rel = os.path.join("releases", tk, nome)
+        if r.get("texto"):
+            with open(os.path.join(saida, rel), "w", encoding="utf-8") as fh:
+                fh.write(r["texto"])
+        elif r.get("arquivo") and r["arquivo"] != rel and os.path.exists(os.path.join(saida, r["arquivo"])):
+            os.replace(os.path.join(saida, r["arquivo"]), os.path.join(saida, rel))
+        indice.append({**{k: v for k, v in r.items() if k != "texto"}, "arquivo": rel})
+    for antigo in os.listdir(pasta):   # fora da janela dos ultimos N
+        if antigo.endswith(".txt") and antigo not in usados:
+            try:
+                os.remove(os.path.join(pasta, antigo))
+            except OSError:
+                pass
+    gravar_json(os.path.join(pasta, "index.json"),
+                {"ticker": tk, "atualizado_em": agora(),
+                 "nota": ("um release por trimestre, do mais novo para o mais antigo; o texto integral "
+                          "esta no .txt indicado em `arquivo`, relativo a raiz do branch `dados`"),
+                 "releases": indice,
+                 "descartados": list(dict.fromkeys(descartados or []))[-80:]})
+    return indice
 
 
 # ───────────────────────── SEC XBRL (demonstracoes oficiais, EUA) ─────────────────────────
@@ -1380,11 +1549,10 @@ def montar_comparativo(grupo, nome, tipo, linhas, pedidos):
 
 
 # ───────────────────────── Orquestracao ─────────────────────────
-def coletar_ativo(tk, macro, releases=True, anterior=None):
-    """JSON completo de um ativo. `anterior` e o JSON ja gravado no branch (reuso do release)."""
+def coletar_ativo(tk, macro, releases=True, saida=None):
+    """JSON completo de um ativo. `saida` e a raiz do branch `dados`, onde fica o historico de releases."""
     fontes = {}
     dados = {"ticker": tk, "gerado_em": agora(), "fontes": fontes}
-    anterior = anterior or {}
     grupo = PARES_MOD.grupo_de(tk)
     dados["pares"] = ({"grupo": grupo, "nome": PARES_MOD.PARES[grupo]["nome"], "tipo": PARES_MOD.PARES[grupo]["tipo"],
                        "tickers": PARES_MOD.PARES[grupo]["tickers"], "comparativo": f"comparativos/{grupo}.json"}
@@ -1415,40 +1583,51 @@ def coletar_ativo(tk, macro, releases=True, anterior=None):
             fontes["cvm"] = f"falha geral: {type(e).__name__}: {e}"[:160]
             dados["cvm"] = {}
 
-    # Demonstracoes oficiais e release de resultados (copia oficial do que o RI publica)
+    # Demonstracoes oficiais
     if eh_simbolo_us(tk):
         try:
             dados["sec_xbrl"] = coletar_sec_xbrl(tk, fontes)
         except Exception as e:
             fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-        if releases:
-            try:
-                dados["release_ri"] = coletar_release_sec(_cik_por_ticker(tk), fontes, anterior=anterior.get("release_ri"))
-            except Exception as e:
-                fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
     else:
         try:
             dados["cvm_demonstracoes"] = coletar_cvm_demonstracoes((dados.get("cvm") or {}).get("codigo_cvm"), fontes)
         except Exception as e:
             fontes["cvm_demonstracoes"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-        if releases:
-            try:
-                dados["release_ri"] = coletar_release_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [],
-                                                          fontes, anterior=anterior.get("release_ri"))
-            except Exception as e:
-                fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
         adr = ADR_DE_B3.get(tk)
         if adr:
             try:
                 dados["sec_xbrl_adr"] = {"adr": adr, **coletar_sec_xbrl(adr, fontes)}
             except Exception as e:
                 fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-            if releases and not dados.get("release_ri"):
-                # Sem release na CVM: tenta o 6-K do ADR (mesmo documento, em ingles)
-                try:
-                    dados["release_ri"] = coletar_release_sec(_cik_por_ticker(adr), fontes, anterior=anterior.get("release_ri"))
-                except Exception as e:
-                    fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+
+    # Releases de resultado do RI: os ultimos 8 trimestres. O mais novo entra inteiro no JSON
+    # (`release_ri`); todos ficam em releases/<TICKER>/ no branch, indexados em `releases_historico`.
+    if releases:
+        historico, descartados = [], []
+        try:
+            conhecidos = carregar_indice_releases(saida, tk)
+            if eh_simbolo_us(tk):
+                historico = coletar_releases_sec(_cik_por_ticker(tk), fontes, conhecidos, descartados)
+            elif eh_bdr(tk):
+                # O release da acao-mae e o release da empresa
+                historico = coletar_releases_sec(_cik_por_ticker(simbolo_subjacente(tk)), fontes, conhecidos, descartados)
+            else:
+                historico = coletar_releases_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [],
+                                                 fontes, conhecidos)
+                if not historico and ADR_DE_B3.get(tk):
+                    # Sem release na CVM: tenta os 6-K do ADR (mesmo documento, em ingles)
+                    historico = coletar_releases_sec(_cik_por_ticker(ADR_DE_B3[tk]), fontes, conhecidos, descartados)
+            descartados = [k for k, v in conhecidos.items() if v is None] + descartados
+        except Exception as e:
+            fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        try:
+            dados["releases_historico"] = gravar_releases(saida, tk, historico, descartados) if saida else \
+                [{k: v for k, v in r.items() if k != "texto"} for r in historico]
+            if historico:
+                dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
+        except Exception as e:
+            fontes["release_ri"] = f"{fontes.get('release_ri', '')} | falha ao gravar: {type(e).__name__}"[:180]
 
     # BDR: traz tambem a acao-mae nos EUA (demonstracoes, release e paridade implicita)
     if eh_bdr(tk):
@@ -1462,16 +1641,6 @@ def coletar_ativo(tk, macro, releases=True, anterior=None):
                 dados["subjacente_us"]["sec_xbrl"] = coletar_sec_xbrl(base, fontes_sub)
             except Exception as e:
                 fontes_sub["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-            if releases:
-                try:
-                    rel_ant = (anterior.get("subjacente_us") or {}).get("release_ri")
-                    dados["subjacente_us"]["release_ri"] = coletar_release_sec(_cik_por_ticker(base), fontes_sub, anterior=rel_ant)
-                except Exception as e:
-                    fontes_sub["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
-                if not dados.get("release_ri") and dados["subjacente_us"].get("release_ri"):
-                    # O release da acao-mae e o release da empresa: fica tambem no topo do JSON
-                    dados["release_ri"] = dados["subjacente_us"]["release_ri"]
-                    fontes["release_ri"] = f"ok (via acao-mae {base}: {fontes_sub.get('release_ri', '')[:100]})"
             preco_bdr = info.get("currentPrice") or info.get("regularMarketPrice")
             preco_us = sub_info.get("currentPrice") or sub_info.get("regularMarketPrice")
             dolar = (macro.get("dolar_ptax") or {}).get("value")
@@ -1580,14 +1749,7 @@ def main():
     coletados = {}
     for tk in tickers:
         print(f"Coletando {tk}...")
-        anterior = None
-        caminho = os.path.join(args.saida, "ativos", f"{tk}.json")
-        if os.path.exists(caminho):
-            try:
-                anterior = json.load(open(caminho, encoding="utf-8"))
-            except Exception:
-                anterior = None
-        dados = coletar_ativo(tk, macro, releases=not args.sem_releases, anterior=anterior)
+        dados = coletar_ativo(tk, macro, releases=not args.sem_releases, saida=args.saida)
         gravar_json(os.path.join(args.saida, "ativos", f"{tk}.json"), dados)
         coletados[tk] = dados
         resumo["tickers"][tk] = dados["fontes"]
