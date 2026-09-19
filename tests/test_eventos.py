@@ -293,3 +293,16 @@ def test_assunto_e_resumo_de_fato_relevante_real():
     r = noticias.resumo_fiel("", txt)
     assert any("R$ 12,34" in l for l in r) and not any(l.startswith("137 e 252") for l in r)
     assert r[0].startswith("A COMPANHIA") or r[0].startswith("O valor") or "20 de outubro" in r[0]
+
+
+def test_sec_user_agent_aceita_email_ou_url(monkeypatch):
+    """A SEC exige contato declarado; vale e-mail ou URL publica, nunca UA generico."""
+    monkeypatch.setenv("SEC_USER_AGENT", "broadcast-livro/1.0 (+https://github.com/douglora/broadcast)")
+    assert sec.user_agent().startswith("broadcast-livro/1.0")
+    monkeypatch.setenv("SEC_USER_AGENT", "Fulano fulano@exemplo.com")
+    assert sec.user_agent() == "Fulano fulano@exemplo.com"
+    for ruim in ("", "   ", "python-requests/2.31", "bot"):
+        monkeypatch.setenv("SEC_USER_AGENT", ruim)
+        assert sec.user_agent() is None
+    monkeypatch.delenv("SEC_USER_AGENT")
+    assert sec.user_agent() is None and sec.coletar({"MU": "MU"})["disponivel"] is False

@@ -247,9 +247,11 @@ Disparo manual: aba Actions > "Livro monitorado" > Run workflow, com `modo`
 (`sonda` mede a cobertura ticker a ticker; `backfill` traz o historico do DI;
 `fechamento` gera o relatorio; `eventos` so noticias, CVM e SEC). Pausar: criar o
 arquivo `PAUSADO` na raiz.
-Pre-requisitos que so o dono do repositorio faz: mesclar na `main` (o cron e as
-permissoes da sessao so valem la) e criar o secret `SEC_USER_AGENT`
-("Nome contato@email") para a SEC (usado na v1.1).
+Pre-requisito que so o dono do repositorio faz: mesclar na `main` (o cron e as
+permissoes da sessao so valem la). O contato que a SEC exige no User-Agent tem
+padrao no proprio `livro.yml`, por URL publica do projeto, sem dado pessoal;
+criar o secret `SEC_USER_AGENT` ("Nome contato@email") troca por um e-mail sem
+po-lo em arquivo de repositorio publico.
 
 Testes sem rede: `pip install -r requirements-livro.txt pytest` e
 `python3 -m pytest tests/ -q`; execucao offline com as fixtures:

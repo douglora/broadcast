@@ -1,9 +1,12 @@
 """8-K, 6-K, 10-Q e 10-K das companhias dos EUA do livro, pelo EDGAR (SEC).
 Fonte primaria: o documento principal e lido por inteiro (texto do HTML).
 
-Exige o secret SEC_USER_AGENT ("Nome contato@email"): a SEC recusa requisicao sem
-identificacao. Sem o secret a perna e declarada indisponivel (lacuna), nunca
-inventa um contato."""
+Exige SEC_USER_AGENT com forma de contato: a SEC recusa requisicao sem
+identificacao. Vale e-mail ("Nome contato@email") ou URL publica
+("robo/1.0 (+https://github.com/dono/repo)"). O workflow define o padrao por URL,
+que nao carrega dado pessoal, e o secret SEC_USER_AGENT tem prioridade quando o
+contato precisa ser um e-mail. Sem contato algum a perna e declarada indisponivel
+(lacuna), nunca inventa um."""
 
 from __future__ import annotations
 
@@ -37,8 +40,10 @@ _TAGS = re.compile(r"<[^>]+>")
 
 
 def user_agent() -> str | None:
+    """Contato declarado: e-mail ou URL publica. Sem um dos dois, devolve None."""
     ua = (os.environ.get("SEC_USER_AGENT") or "").strip()
-    return ua if len(ua) >= 8 and "@" in ua else None
+    tem_contato = "@" in ua or "http://" in ua or "https://" in ua
+    return ua if len(ua) >= 8 and tem_contato else None
 
 
 def _cabecalhos(ua: str) -> dict:
@@ -132,7 +137,8 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     dormir = dormir or time.sleep
     ua = ua or user_agent()
     if not ua:
-        return {"disponivel": False, "motivo": "secret SEC_USER_AGENT ausente", "filings": [], "falhas": {}, "vistos": vistos or {}}
+        return {"disponivel": False, "motivo": "SEC_USER_AGENT ausente ou sem contato (e-mail ou URL)",
+                "filings": [], "falhas": {}, "vistos": vistos or {}}
     cli = cli or Cliente(impersonate=False)
     hoje = hoje or datetime.now(timezone.utc).date()
     vistos = dict(vistos or {})

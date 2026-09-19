@@ -52,7 +52,11 @@ jobs:
     timeout-minutes: 25
     env:
       TZ: America/Sao_Paulo
-      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      # A SEC exige User-Agent declarado com forma de contato; nao e credencial.
+      # Padrao sem dado pessoal: nome do robo + URL publica do projeto (issues do
+      # repositorio sao o canal). O secret SEC_USER_AGENT, se existir, tem prioridade
+      # e e onde entra um e-mail, que nunca deve ficar em arquivo de repositorio publico.
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || format('broadcast-livro/1.0 (+https://github.com/{0})', github.repository) }}
     steps:
       - uses: actions/checkout@v4
 
