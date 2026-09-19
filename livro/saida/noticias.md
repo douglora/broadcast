@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 19/09 18h22
+NOTÍCIAS E FATOS · 19/09 18h28
 
-Pernas: noticias ok 1 novas (14 consultas; descartadas: 399 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 8 novos em 15 dias (primeira coleta)
+Pernas: noticias ok 0 novas (14 consultas; descartadas: 399 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
 [ATENÇÃO] E03 · SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
 CVM IPE · entregue 16/09/2026 21:42 · 
@@ -17,6 +17,17 @@ Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre COMPANHIA DE SANEAMENTO BÁSICO'
 Fonte: CVM IPE 2026-09-16
 id: E03-SBSP3-1568917-2026-09-16 · status: expirado · íntegra disponível
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: www.petrobras.com.br/ri Para mais informações:
+CVM · entregue 19/09/2026 14:05
+Do documento:
+  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569745
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre www.petrobras.com.br/ri Para mais informações:'
+Fonte: CVM 19/09
+id: E03-PETR4-1569745-2026-09-19 · status: entregue · íntegra disponível
 
 [INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM IPE · entregue 18/09/2026 13:33 · Apresentações a analistas/agentes do mercado / 18/09/2026
@@ -63,8 +74,126 @@ Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunica
 Fonte: CVM IPE 2026-09-15
 id: E03-AXIA3-1568459-2026-09-15 · status: linha
 
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 19/09/2026 14:23 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569746
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 19/09
+id: E03-PETR4-1569746-2026-09-19 · status: linha
 
-## NOTÍCIAS COM MATERIALIDADE (65)
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (8)
+
+[ATENÇÃO] E04 · MELI34 · 8-K: 1.01 acordo material assinado, 7.01 Regulation FD
+SEC EDGAR · aceito 10/09 11h19 · 8-K
+Do documento:
+  – Employer Identification Number)  WTC Free Zone  Dr. Luis Bonavita 1294, Of.
+  – On September 9, 2026, MercadoLibre, Inc. (the “Company”) and its subsidiaries MercadoLibre S.R.L., Mercado Livre Brasil Ltda.,  DeRemate.com de México, S.
+  – The foregoing description of certain terms of the Underwriting Agreement is not complete and is qualified in its entirety by the  Underwriting Agreement, which is attached as Exhibit 1.1 to this Current Report on Form 8…
+  – Item 7.01   Regulation FD Disclosure.
+  – On September 9, 2026, the Company issued a press release announcing the pricing of the Notes in a public offering.
+  – A copy of the press release is attached hereto as Exhibit 99.1 and is incorporated into this Item 7.01 by reference.
+Link: https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm
+Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar contraparte e valor
+Ativos: MELI34
+Como falar: 'a MELI protocolou 8-K na SEC (1.01 acordo material assinado, 7.01 Regulation FD)'
+Fonte: SEC EDGAR 2026-09-10
+id: E04-MELI34-26036136-2026-09-10 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E04 · AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+SEC EDGAR · aceito 09/09 17h28 · 8-K
+Do documento:
+  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 5.02.
+  – 3   SIGNATURES   4   Table of Contents   ITEM 5.02.
+  – On September 8, 2026, the Board of Directors of Amazon.com, Inc. (the “Company”) elected Kevin R.
+  – Mandia has served as Chief Executive Officer of Armadin, Inc., a cybersecurity company he founded, since September 2025.
+  – Mandia has also served as General Partner of Ballistic Ventures, a venture capital firm he co-founded, since June 2024 and previously served as Strategic Partner from December 2021 to June 2024.
+  – He served as Chief Executive Officer of Mandiant, Inc., a cybersecurity firm acquired by Google LLC in September 2022, from June 2016 to July 2024 and as a director from February 2016 to September 2022.
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm
+Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
+Ativos: AMZN
+Como falar: 'a AMZN protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
+Fonte: SEC EDGAR 2026-09-09
+id: E04-AMZN-26000036-2026-09-09 · status: pendente · íntegra disponível
+
+[INFO] E04 · AMZN · 8-K: 8.01 outros eventos
+SEC EDGAR · aceito 14/09 17h45 · FORM 8-K
+Do documento:
+  – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of the   Securities Exchange Act of 1934   September 14, 2026   Date of Report   (Date of earliest event reported)   AMAZON.COM, INC.
+  – ¨   Table of Contents   TABLE OF CONTENTS   ITEM 8.01.
+  – 4   SIGNATURES   5   EXHIBIT 1.1   EXHIBIT 4.1   EXHIBIT 4.2   EXHIBIT 4.3   EXHIBIT 4.4   EXHIBIT 4.5   EXHIBIT 5.1   EXHIBIT 23.1   2   Table of Contents   ITEM 8.01.
+  – The sale of the Notes was registered under the Company’s registration statement on Form S-3 filed on February 6, 2026 (File No. 333-293246).
+  – The foregoing descriptions of the Underwriting Agreement and the Officers’ Certificate are qualified in their entirety by the terms of such documents, which are filed as Exhibit 1.1 and Exhibit 4.1, respectively, and in…
+  – 3   Table of Contents   ITEM 9.01.
+Link: https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm
+Por que importa: documento da companhia na SEC
+Ativos: AMZN
+Como falar: 'a AMZN protocolou 8-K na SEC (8.01 outros eventos)'
+Fonte: SEC EDGAR 2026-09-14
+id: E04-AMZN-26107526-2026-09-14 · status: linha · íntegra disponível
+
+[INFO] E04 · MELI34 · 8-K: 8.01 outros eventos
+SEC EDGAR · aceito 14/09 17h30 · 8-K
+Do documento:
+  – Employer Identification Number)  WTC Free Zone  Dr. Luis Bonavita 1294, Of.
+  – The foregoing description of the Indenture and Fifth Supplemental Indenture is qualified in its entirety by the terms of such agreements, which are  filed hereto as Exhibits 4.1 and 4.2, respectively, and incorporated h…
+  – The foregoing description of the Notes is qualified in its entirety by reference to the full text of the respective form of Notes filed hereto as Exhibit 4.3,  incorporated herein by reference.
+  – In connection with the offering, the legal opinions as to the validity of the Notes are attached hereto as Exhibits 5.1, 5.2, 5.3, 5.4, 5.5 and 5.6 and  are incorporated herein by reference.
+  – This report on Form 8-K shall be deemed to be incorporated by reference in the registration statement on Form S-3 (Registration Nos.
+  – Item 9.01   Financial Statements and Exhibits.
+Link: https://www.sec.gov/Archives/edgar/data/1099590/000114036126036495/ef20081942_8k.htm
+Por que importa: documento da companhia na SEC
+Ativos: MELI34
+Como falar: 'a MELI protocolou 8-K na SEC (8.01 outros eventos)'
+Fonte: SEC EDGAR 2026-09-14
+id: E04-MELI34-26036495-2026-09-14 · status: linha · íntegra disponível
+
+[INFO] E04 · MMM · 8-K: 8.01 outros eventos
+SEC EDGAR · aceito 10/09 17h10 · FORM 8-K
+Do documento:
+  – Other Events   On September 3, 2026, 3M Company (the “Company”) entered into an Underwriting Agreement with Deutsche Bank AG, London Branch, Merrill Lynch International, Citigroup Global Markets Limited and J.P.
+  – The closing of the offering of Notes occurred on September 10, 2026.
+  – The Notes were offered pursuant to the Company’s Registration Statement on Form S-3 (file no.
+  – The foregoing summary of the Underwriting Agreement does not purport to be complete and is qualified in its entirety by reference to the text of the Underwriting Agreement, which is filed as Exhibit 1.1 hereto and incor…
+  – A copy of the opinion of Freshfields US LLP, relating to the validity of the Notes, is incorporated by reference into the Registration Statement and is filed as Exhibit 5.1 hereto.
+Link: https://www.sec.gov/Archives/edgar/data/66740/000110465926106710/tm2624999d1_8k.htm
+Por que importa: documento da companhia na SEC
+Ativos: MMM
+Como falar: 'a MMM protocolou 8-K na SEC (8.01 outros eventos)'
+Fonte: SEC EDGAR 2026-09-10
+id: E04-MMM-26106710-2026-09-10 · status: linha · íntegra disponível
+
+[INFO] E04 · TSM · 6-K: 6-K
+SEC EDGAR · aceito 10/09 07h15 · 6-K
+Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000658/tsm-revenue20260910.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: TSM
+Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-09-10
+id: E04-TSM-26000658-2026-09-10 · status: linha
+
+[INFO] E04 · NOK · 6-K: 6-K
+SEC EDGAR · aceito 08/09 12h06 · FORM 6-K
+Link: https://www.sec.gov/Archives/edgar/data/924613/000110465926105772/tm2624968d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: NOK
+Como falar: 'a NOK protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-09-08
+id: E04-NOK-26105772-2026-09-08 · status: linha
+
+[INFO] E04 · BABA · 6-K: 6-K
+SEC EDGAR · aceito 04/09 07h35 · FORM 6-K
+Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926105208/tm2624818d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: BABA
+Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-09-04
+id: E04-BABA-26105208-2026-09-04 · status: linha
+
+
+## NOTÍCIAS COM MATERIALIDADE (66)
 
 [ATENÇÃO] E05 · AMZN · Prime Video’s Off Campus TV Show Lands Amazon a Big Lawsuit, Here’s Why
 ComingSoon.net · 18/09 19h08 · + mandatory.com · licença: manchete
@@ -673,8 +802,17 @@ Como falar: 'saiu no Estadao: Até onde a Selic pode cair em 2026? Bradesco revi
 Fonte: Estadao 18/09 11h25
 id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 
+[ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
+Estadao · 19/09 03h44 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/economia/copom-reduz-taxa-de-juros-em-025-ponto-pela-5-vez-e-selic-cai-a-1375-ao-ano/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Estadao: Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano; confirmar o número no texto antes de repassar'
+Fonte: Estadao 19/09 03h44
+id: E05-DI-7899381ad6-2026-09-19 · status: entregue
 
-## OUTRAS NOTÍCIAS (só manchete) (567)
+
+## OUTRAS NOTÍCIAS (só manchete) (599)
 
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
@@ -736,4 +874,4 @@ id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 · MRVE3 Geração Z já representa 51% dos compradores de imóveis no DF em 2026, diz MRV (Rádio Itatiaia) https://news.google.com/rss/articles/CBMiswFBVV95cUxQemlOMFN6UTNRUTQ4LXc2WFc5LTJpaU9ORC1BSGM1MFc4UlR6V2k2b2Vuc2lkZU0wYVk2SGI3SkdLQUxCZXlldjlVZGc3MGprM1dsOWZ1X0wyRGNzM3JLLXN0S3RiS05yU0RVSTJaN0ZGWnMyZHQ3YjNDd3RNa1pOV2I4MEtnTlhIbUp6NXd3V21GT3RuZHlEQmRHOXF6OFNtYW1qc0JuY0VBS3RQQnRuQ0hzbw?oc=5
 · NVDA EXCLUSIVE: Nvidia's AI Token Trade Has a Catch: 'Attention Correlates. Returns Don't' (TradingView) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNi1ZN1Z2SU1haDJRdy1hMHJiM2pLOWQ2S2FIT2hRdTlfODJqdHVDMTIzQTZvYVFEamhjQ1JNQlFTbWhOMXVRZ3N2a2pZSHJaX1gyMjZCRHRVNmdkTTQ2NFk4b3dFb3FuNWJhd0haUXk2eExhYTBJOVE5aVA0SnhhVlp5ZGpmZ3FxWUdMVmhuWWVseHFmRkxoakFhZk9xalRRdkhHZXhNd1FPMUlvMmNJUWc3dWI2TVlBRUUzVlE4ak1EMXc3WFJvT2ZoUnl1dkxYbG5qbGV3?oc=5
 · USDBRL Dólar tem leve alta e fecha a R$ 5,14 com cenário eleitoral e apostas sobre juros dos EUA (Money Times) https://news.google.com/rss/articles/CBMiXkFVX3lxTE44WTRqb29WcEV5QWpLOV9yOEhpcWxEbXhlVjhYLW4zYkUwM1hzT1ctakpDQzY3RnhySzNacTlBLVF3anBxTUlpWno2MEdqaVFybjF6ekMxajJwM0pLNGc?oc=5
-· (+507 manchetes; lista completa em eventos/noticias.json)
+· (+539 manchetes; lista completa em eventos/noticias.json)

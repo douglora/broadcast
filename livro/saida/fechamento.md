@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 15h31 de 19/09 BRT
-Relógios: Yahoo 15h31 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 18h28 de 19/09 BRT
+Relógios: Yahoo 18h28 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (33 · 2 críticos)
+ALERTAS DO DIA (43 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
@@ -24,14 +24,14 @@ ALERTAS DO DIA (33 · 2 críticos)
           de 52s (US$ 64,81 em 12/08) a US$ 57,73
 [ATENÇÃO] F06 ETH sobe a US$ 2.621 (+7,1% em 24h ·
           cruzou US$ 2.500)
-(+25 em alertas.md)
+(+35 em alertas.md)
 
 ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
        · BBAS3 +2,2%
 BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% ·
        BBDC4 -1,2% · ITSA4 -1,2%
 
-NOTÍCIAS E FATOS (6 · +629 manchete · noticias.md)
+NOTÍCIAS E FATOS (11 · +671 manchete · noticias.md)
 · AMZN Prime Video’s Off Campus TV Show Lands Amazon
   a Big Lawsuit, Here’s Why (ComingSoon.net)
 · VALE3 Novo hotel em São José dos Campos terá
@@ -44,6 +44,7 @@ NOTÍCIAS E FATOS (6 · +629 manchete · noticias.md)
   revisa projeção e aponta condição-chave (Estadao)
 · SBSP3 Fato Relevante: COMPANHIA DE SANEAMENTO
   BÁSICO (CVM)
+  (+5)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83
