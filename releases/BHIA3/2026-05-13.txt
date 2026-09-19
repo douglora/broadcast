@@ -1,0 +1,2277 @@
+[p. 1]
+1 
+ 
+No primeiro trimestre de 2026, o Grupo Casas Bahia combinou crescimento de receita e disciplina 
+operacional com evolução na geração de caixa (+R$ 852 milhões), reduzindo a dívida líquida em 
+R$ 2,7 bilhões ( -68%) e alcançando alavancagem de 0,5x. O GMV somou R$ 11,2 bilhões (+5,0%), 
+impulsionado pelo e -commerce (+14,6%), com destaque para o 1P online (+27,4%), enquanto a 
+rentabilidade se manteve saudável, com EBITDA ajustado de R$ 597 milhões (margem de 8,1%) e 
+margem bruta de 30,3%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.013)
+544 
+1.116 831 
+3.324 
+1T22 1T23 1T24 1T25 1T26
+3,91
+4,95 4,48
+1,13 1,25
+1,8x
+2,2x
+1,9x
+0,4x 0,5x
+1T25 2T25 3T25 4T25 1T26
+Dívida Líquida Dívida Líquida / EBITDA Ajustado
+Destaques dos Resultados do 1T26 
+Crescimento de GMV & Market Share: 
+• Crescimento de R$ 538 milhões no GMV consolidado, +5,0% vs. 1T25, atingindo R$ 11,2 bilhões, 100% focado nas categorias core 
+• GMV de lojas físicas e SSS (same store sales) ficou estável (1,6%) vs. 17,7% no 1T25, mesmo com 26 lojas fechadas nos últimos 12 meses 
+• Crescimento do GMV de e-commerce de 14,6% vs. 1T25, 6° trimestre consecutivo de crescimento, focado nas categorias core 
+• Ganho de 1,7p.p. de market share no ecommerce no 1T26 vs. 1T25, atingindo 15,5% nas categorias core 
+• GMV 1P online cresceu 27,4%, atingindo o maior crescimento dos últimos 19 trimestres e consolidando protagonismo no 1P 
+• GMV 3P reduziu-se em (3,0%) vs. 1T25, mas com a receita estável e maior rentabilidade - take rate de 13,0% vs. 12,7% no 1T25 
+ 
+Receita e Rentabilidade: 
+• Crescimento de Receita Líquida de +6,1% vs. 1T25, atingindo R$ 7,4 bilhões 
+• Margem bruta de 30,3% vs. 30,2% (1T25), aumento de 0,1p. p 
+• SG&A com redução de 0,1p.p. em relação a receita líquida no 1T26 vs. 1T25, atingindo 23,0%. 
+• Margem EBITDA aj. de 8,1% no 1T26, estável em relação ao 1T25, atingindo R$ 597 milhões com crescimento de 5% 
+ 
+Caixa & Liquidez: 
+• Saldo de liquidez, incluindo recebíveis, totalizou R$ 3,2 bilhões no 1T26 
+• Fluxo de Caixa Livre da Firma de +R$ 852 milhões no 1T26, vs. consumo de caixa de R$ (322) milhões no 1T25 
+• Pagamento de juros menor em R$ 234 milhões vs. 4T25, começando a refletir iniciativas da nova estrutura de capital 
+• Alavancagem: dívida líquida melhora R$ 2,7 bilhões vs. 1T25, atingindo 0,5x vs. 1,8x em relação ao EBITDA aj. 
+ 
+Soluções Financeiras: 
+• Receita de soluções financeiras cresce 8,7% vs. 1T25 
+• Carteira do crediário de R$ 6,3 Bi, +3% a/a, com over 90 dias e perda líquida de 8,8% e 4,7%, respectivamente 
+• Produção do crediário digital cresce 18% vs. 1T25 e carteira atinge R$ 874 milhões superando o crescimento do e-commerce 
+• banQi atinge 9 milhões de contas 
+DRE 1T26 vs. 1T25 
+ 
+ 
+Alavancagem e Fluxo de Caixa (12 meses) 
+1T26 
+ 
+ 
+(R$ Milhões) 1T26 1T25 Var.
+Receita Bruta 8.830 8.299 6,4%
+Receita Líquida 7.416 6.991 6,1%
+Lucro Bruto 2.247 2.109 6,5%
+Margem Bruta 30,3% 30,2% 0,1p.p.
+SG&A (1.704) (1.616) 5,4%
+EBITDA Ajustado 597 570 4,7%
+Margem EBITDA Ajustada 8,1% 8,2% (0,1p.p.)
+Outras Despesas (88) (18) 388,9%
+EBIT / LAJIR 250 287 -12,9%
+Resultado financeiro (1.171) (922) 27,0%
+LAIR (921) (635) 45,0%
+IR/CS (143) 227 n/a
+Resultado Líquido (1.064) (408) n/a
+
+[p. 2]
+2 
+ 
+Omnicanalidade 
+ 
+A estratégia omnicanal segue sendo um diferencial competitivo, sustentando crescimento do GMV, ganho de participação de 
+mercado e expansão de margens por meio de tráfego qualificado e foco em categorias core. 
+O GMV total do 1T26 em relação ao 1T25 apresentou crescimento de 5,0%. O GMV omnicanal do 1P foi m aior em 6,7%, 
+composto por estabilidade nas lojas físicas e crescimento de 27,4% no online. Por outro lado, o GMV do 3P decresceu 3,0% no 
+período. Logo, o e-commerce, 1P online + 3P , totalizou R$ 5,0 bilhões, superior em 14,6% vs. 1T25 e segue focado nas categorias 
+core (+96% do GMV do 3P é core). 
+ 
+Desempenho de Receita Bruta por Canal 
+ 
+No 1T26, a receita bruta consolidada registrou crescimento de 6,4% frente a 1T25, para R$ 8,8 bilhões. O aumento é explicado 
+principalmente pelo crescimento da receita de e-commerce, da qual destacamos a performance do 1P de +26,4%. A 
+performance do 3P (marketplace) e das lojas físicas apresentaram estabilidade, (0,6%) e de (1,8%), respectivamente. 
+Lojas Físicas – GMV e Receita Bruta 
+O GMV bruto de lojas físicas foi de R$ 6,2 bilhões, estável e ainda afetado pelo fechamento líquido de 26 lojas nos últimos 12 
+meses e forte base do 1T25 (crescimento de 16,2%). Nos últimos 2 anos o crescimento do GMV de lojas físicas foi de 14,4%. A 
+receita bruta foi de R$ 5,6 bi, menor em 1,8% vs. 1T25. O desempenho do GMV no conceito mesmas lojas (SSS) foi de (1,6%) no 
+1T26. Especificamente no 1T26 houve fechamento de 3 lojas, totalizando 1.039 lojas. 
+ 
+1P ONLINE – GMV e Receita Bruta 
+O GMV 1P online apresentou crescimento de 27,4% em comparação com 1T25, atingindo R$ 3,2 bilhões e a receita online 1P 
+cresceu 26,4%, fruto do: (i) ganho de mercado de categorias estratégicas como linha branca, tecnologia, portáteis e sazonais; 
+(ii) crescimento do tráfego qualificado em nossos canais próprios e; (iii) abertura de novos canais de vendas através de parcerias 
+estratégicas. Mantivemos nossa força nas categorias core, em linha com o posicionamento estratégico , e adicionamos R$ 695 
+milhões de GMV no 1T26, reforçando a nossa estratégia como o grande 1P do Brasil. 
+3P ONLINE – GMV e Receita Bruta 
+O GMV do 3P apresentou leve decrescimento no 1T26 (R$ 1,8 bilhão), mas com estabilidade de receita, totalizando R$ 2 31 
+milhões — resultado da busca pela melhor experiência para clientes e sellers, por meio da ampliação dos serviços oferecidos 
+em nossas plataformas, como logística, crédito, Ads e sortimento core complementar ao 1P, uma vez que a força da estratégia 
+no 1P tem gerado tráfego qualificado, impulsionando a venda de itens complementares ao core e de categorias não atendidas 
+diretamente pelo próprio 1P , mas que são contempladas pelo 3P . Encerramos o trimestre com take rate de 13,0% vs. 12,7% no 
+1T25, ganho de 0,3p.p. 
+ 
+ 
+R$ milhões 1T26 1T25 %
+GMV Total Bruto 11.208 10.670 5,0%
+GMV 1P 9.428 8.835 6,7%
+GMV Lojas Físicas 6.193 6.295 (1,6%)
+GMV 1P Online 3.236 2.540 27,4%
+GMV 3P 1.780 1.836 (3,0%)
+Total da Venda Online (1P + 3P) 5.016 4.376 14,6%
+R$ milhões 1T26 1T25 %
+Lojas Físicas 5.573 5.673 (1,8%)
+Online 3.256 2.626 24,0%
+1P 3.025 2.394 26,4%
+3P 231 232 (0,6%)
+Receita Bruta 8.830 8.299 6,4%
+
+[p. 3]
+3 
+ 
+Abertura da Receita Bruta 
+ 
+ 
+ 
+ 
+ 
+O crescimento da receita reflete não apenas maior volume de mercadoria, mas também um mix mais rentável, com 
+avanço de soluções financeiras e serviços, além de maior penetração de pagamentos à vista. 
+ 
+Lucro Bruto 
+ 
+ 
+A margem bruta se manteve resiliente em patamar elevado, mesmo com dinâmicas distintas entre canais, evidenciando 
+disciplina comercial, eficiência logística e foco em categorias de maior retorno. No 1T26, o lucro bruto foi de R$ 2,2 
+bilhões, aumento de 6,5%, com margem bruta de 30,3% e aumento de 0,1p.p. em relação ao 1T25. 
+ 
+ 
+Despesas com Vendas, Gerais e Administrativas 
+ 
+ 
+ 
+As despesas com vendas, gerais e administrativas no 1T26 variaram de 5,4%, mesmo diante do crescimento da receita e 
+inflação no período, com melhora de 0,1p.p. em relação à receita líquida (23,0%). No trimestre, a variação é explicada 
+principalmente pela redução nas despesas de pessoal e trabalhistas, refletindo ganhos estruturais de eficiência e diluição 
+no SG&A. 
+ 
+EBITDA Ajustado 
+ 
+ 
+ 
+O EBITDA ajustado permanece em patamar saudável, sustentando geração de caixa operacional recorrente e capacidade 
+de investir seletivamente no crescimento . No período, o EBITDA ajustado atingiu R$ 597 milhões, com crescimento de 
+4,7% no 1T26 e margem de 8,1%, estável vs. 1T25. 
+ 
+ 
+R$ milhões 1T26 1T25 %
+Mercadoria 7.466 7.010 6,5%
+Serviços 524 516 1,6%
+Crediário/Cartões 840 773 8,7%
+Receita Bruta 8.830 8.299 6,4%
+Composição Consolidada das Vendas 1T26 1T25 %
+À vista 43,8% 36,6% 7,2 p.p.
+Carnê 13,7% 15,9% (2,2 p.p.)
+Cartão de Crédito - Co-branded 7,2% 7,8% (0,6 p.p.)
+Cartão de Crédito - Outros 35,3% 39,7% (4,4 p.p.)
+R$ milhões 1T26 1T25 %
+Lucro Bruto 2.247 2.109 6,5%
+% Margem Bruta 30,3% 30,2% 0,1p.p.
+R$ milhões 1T26 1T25 %
+Despesas de Vendas, Gerais e Adm. (1.704) (1.616) 5,4%
+% Receita Líquida (23,0%) (23,1%) 0,1p.p.
+R$ milhões 1T26 1T25 %
+EBITDA Ajustado 597 570 4,7%
+% Margem EBITDA Ajustada 8,1% 8,2% (0,1p.p.)
+
+[p. 4]
+4 
+ 
+Análise do Resultado Financeiro 1T26 vs. 4T25 
+ 
+ 
+ 
+Apesar da execução operacional consistente, o resultado financeiro líquido segue impactado pelo elevado custo de capital 
+no Brasil. Ainda assim, a reestruturação do passivo já começa a produzir efeitos relevantes estruturais, apesar de ainda 
+progressivos, na redução sequencial das despesas financeiras . A melhor forma de observar a evolução do resultado 
+financeiro após a transformação da estrutura de capital é olhar as principais despesas recorrentes da operação versus o 
+trimestre anterior, que já passam a ser visíveis: 
+ 
+Ao excluirmos a modificação da dívida e o haircut, a redução sequencial seria de (9,1%), ou seja, R$ 117 milhões. 
+ 
+Destacamos melhora de: (i) (59,7%) nas despesas com dívidas financeiras; (ii) (58,5%) nos juros de fornecedor convênio; 
+(iii) (15,9%) nas despesas de desconto de cartões de crédito, (iv) (13,3%) no arrendamento e; (v) (8,3%) nas despesas 
+de funding do crediário. 
+ 
+Resultado Financeiro 1T26 vs. 1T25 
+ 
+No 1T26, o resultado financeiro líquido foi de R$ (1, 2) bilhão, 27,0% maior em relação ao período anterior. O CDI médio 
+do 1T25 para o 1T26 saiu de 12,94% para 14,86%, um aumento de 1,9p.p., sendo um relevante ofensor da variação da 
+despesa financeira no período. 
+ 
+Lucro Líquido (Prejuízo) 
+ 
+O LAIR foi de R$ 921 milhões no trimestre, variando 45,0% em relação ao 1T25, mesmo com o crescimento de receita e a 
+manutenção da rentabilidade da Companhia. A alta taxa de juros — refletida no aumento do CDI médio de 1 2,94% no 
+1T25 para 14,86% no 1T26 — pressionou o resultado financeiro, sendo o Prejuízo Líquido de R$ (1, 1) bilhão vs. R$ (0,4) 
+bilhão, lembrando que no trimestre não houve constituição de IR diferido ativo em decorrência do cenário 
+macroeconômico desafiador observado no período, caracterizado, entre outros fatores, por níveis elevados de taxas d e 
+juros, pressões inflacionárias e instabilidades geopolíticas. 
+ 
+R$ milhões 1T26 4T25 t/t % 1T25 a/a %
+Receitas financeiras 74 66 12,1% 44 68,2%
+Despesas financeiras (1.059) (563) 88,1% (976) 8,5%
+Despesas Financeiras Dívidas (83) (206) (59,7%) (108) (23,1%)
+Modificação da Dívida (6) 115 n/a (104) (94,2%)
+Desconto (Haircut) - 610 (100,0%) - n/a
+Despesas Financeiras CDCI (265) (289) (8,3%) (249) 6,4%
+Juros com fornecedores convênio (114) (275) (58,5%) (91) 25,3%
+Juros de Passivo de arrendamento (104) (120) (13,3%) (113) (8,0%)
+Despesas com Desconto de Recebíveis (232) (276) (15,9%) (246) (5,7%)
+FIDC's (cotas sêniores) (152) (137) 10,9% (33) n/a
+Outras Despesas Financeiras (103) 15 n/a (32) n/a
+Resultado financeiro antes de atualizações (985) (497) 98,2% (932) 5,7%
+% Receita Líquida (13,3%) (5,9%) (7,4p.p.) (13,3%) 0,0p.p.
+Atualizações Monetárias (186) (60) n/a 10 n/a
+Resultado financeiro líquido (1.171) (557) n/a (922) 27,0%
+% Receita Líquida (15,8%) (6,6%) (9,2p.p.) (13,2%) (2,6p.p.)
+Resultado financeiro líquido sem Modificação da dívida e Haircut (1.165) (1.282) (9,1%) (818) 42,4%
+% Receita Líquida (15,7%) (15,1%) (0,6p.p.) (11,7%) (4,0p.p.)
+R$ milhões 1T26 1T25 %
+LAIR (921) (635) 45,0%
+% Receita Líquida (12,4%) (9,1%) (3,3p.p.)
+IR/CS (143) 227 n/a
+Lucro Líquido (Prejuízo) (1.064) (408) n/a
+% Margem Líquida (14,3%) (5,8%) (8,5p.p.)
+
+[p. 5]
+5 
+ 
+Ciclo Financeiro 
+O aumento de estoques reflete preparação estratégica para capturar oportunidades comerciais relevantes no 2T26, 
+preservando disciplina de capital de giro. Encerramos o estoque no 1T26 com aumento de R$ 363 milhões em relação ao 
+4T25, com intuito de capturar maiores vendas da Copa do Mundo de Futebol . Adicionalmente, os dias de fornecedores 
+aumentaram 14 dias vs. 1T25 e 18 dias vs. 4T25. 
+ 
+ 
+ 
+Estrutura de Capital 
+A expressiva redução da alavancagem reafirma a efetividade do plano de transformação, reposicionando a Companhia 
+para um novo ciclo de crescimento com menor risco financeiro. 
+ 
+ 
+ 
+O endividamento bruto foi de R$ 2,4 bilhões (excl. CDCI, fornecedor convênio e FIDC). Na estrutura de capital, o passivo 
+de CDCI possui um ativo correspondente no contas a receber de CDCI, apresentados na tabela acima e nas Demonstrações 
+Financeiras nas notas explicativas 7 e 16. 
+ 
+Adicionalmente, em linha com a estratégia do Plano de Transformação, a Companhia entre 2024 e 2025 passou a investir 
+e captar recursos via FIDC’s de diversas naturezas (Crediário, Risco Sacado entre outros), inclusive à mercado , com o 
+objetivo de diversificar suas fontes de financiamento e reduzir o custo de captação do grupo. Os valores das cotas de 
+terceiros dos FIDCs encontram-se na nossa estrutura de capital. 
+ 
+No 1T26, o caixa incluindo recebíveis não descontados totalizou R$ 3,2 bilhões. O indicador de alavancagem financeira, 
+medido pela dívida líquida/EBITDA ajustado dos últimos 12 meses, considerando o saldo de fornecedor convênio, o saldo 
+de CDCI e agora as cotas de terceiros do FIDC, ficou em 0,5x vs. 1,8x no 1T25, com redução da dívida líquida de cerca de 
+R$ 2,7 bilhões vs. 1T25, ou seja, redução de 68,1%. 
+ 
+ 
+R$ milhões 1T26 4T25 3T25 2T25 1T25 vs. 1T25
+Estoques 5.399 5.036 5.029 4.924 5.034 365 
+Dias Estoques1 95 90 91 92 95 0 
+Fornecedores sem convênio e não revenda 8.445 7.317 6.186 6.575 7.142 1.303 
+Convênio 941 2.430 2.370 2.281 1.730 (789) 
+Não revenda 1.122 1.103 1.020 911 669 453 
+Dias Fornecedores Total1 149 131 113 122 135 14 
+Variação Ciclo Financeiro 54 41 21 31 40 14 
+¹Dias de CMV
+R$ milhões 1T26 4T25 3T25 2T25 1T25 vs. 1T25
+(+) Carnês - CDCI - Total Ativo 6.266 6.459 6.142 6.202 6.120 146 
+(-) Carnês - CDCI - Total Passivo (5.435) (5.794) (5.791) (6.074) (5.871) 436 
+(=) Saldo líquido Carnês - CDCI 831 665 350 128 249 582 
+(-) Empréstimos e Financiamentos circulante (762) (735) (1.218) (704) (447) (315) 
+(-) Empréstimos e Financiamentos não circulante (1.600) (271) (2.695) (4.162) (3.912) 2.312 
+(=) Endividamento Bruto (2.362) (1.006) (3.913) (4.866) (4.359) 1.997 
+Fornecedor Convênio (941) (2.430) (2.370) (2.281) (1.730) 789 
+Cotas de Terceiros FIDC (1.937) (1.742) (1.578) (903) (538) (1.399) 
+(=) Endividamento Bruto + Fornecedor Convênio + Saldo CDCI + FIDC (4.409) (4.514) (7.512) (7.922) (6.377) 1.968 
+(+) Caixa e aplicações financeiras 1.484 1.539 2.114 1.883 1.201 283 
+(+) Cartões de Crédito 308 391 276 295 371 (63) 
+(+) Outros contas a receber 1.369 1.455 639 791 895 474 
+(=) Caixa, Aplicações, Cartões de Crédito e Outros Contas a Receber 3.161 3.385 3.029 2.968 2.466 695 
+(=) Dívida Líquida Ajustada + Fornecedor Convênio, Saldo CDCI e FIDC (1.248) (1.129) (4.483) (4.954) (3.911) 2.663 
+EBITDA Ajustado (Últimos 12 Meses) 2.583 2.555 2.369 2.273 2.153 
+Dívida Líquida / EBITDA Ajustado - com Fornecedor Convênio, CDCI e FIDC 0,5x 0,4x 1,9x 2,2x 1,8x
+Patrimônio Líquido 1.778 2.774 2.635 1.539 2.088
+
+[p. 6]
+6 
+ 
+Fluxo de Caixa Gerencial – Trimestral e últimos 12 meses 
+Observamos no 1T26 tanto o desempenho trimestral quanto acumulado em 12 meses, conforme tabela abaixo: 
+ 
+ 
+ 
+1T26 - trimestre: Fluxo de caixa livre da firma de +R$ 852 milhões. 
+ 
+A variação de capita l giro, composta por fornecedores e estoques, teve variação no 1T26 de R$ 772 milhões, impacto 
+devido à sazonalidade de formação de estoques para Copa do Mundo de Futebol e dia das mães, além de maiores prazos 
+com fornecedores. 
+ 
+Dentro de demandas judiciais, se olharmos somente o trabalhista a economia foi de 34%, R$ 44 milhões menor. 
+ 
+Outro destaque foram os R$ 234 milhões a menos de juros pagos em relação ao 4T25, começando a refletir iniciativas da 
+nova estrutura de capital. 
+ 
+Finalizamos o 1T26 com geração no fluxo de caixa livre para a firma de R$ 852 milhões. A variação final de caixa foi um 
+consumo de R$ (224) milhões, devido ainda ao pagamento de juros e captações , apesar da melhora da rentabilidade e 
+eficiência da operação. Em relação ao período anterior, a evolução foi de R$ (224) milhões vs. R$ (1,5) bilhão. 
+ 
+6MTD (últimos 6 meses): Fluxo de caixa livre da firma de +R$ 2,7 bilhões vs. R$ 917 milhões 
+ 
+12MTD (últimos 12 meses): Fluxo de caixa livre da firma de +R$ 3,3 bilhões. 
+ 
+Finalizamos os últimos 12 meses do 1T 26 com geração do fluxo de caixa livre para a firma de R$ 3,3 bilhões vs. R$ 831 
+milhões (1T25 12MTD), reflexo principalmente da retomada das vendas, rentabilidade, das melhorias operacionais de 
+perdas, demandas trabalhistas e monetização de impostos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Análise Trimestral * Análise últimos 12 meses*
+1T26 4T25 3T25 2T25 1T25 4T24 3T24 2T24 1T24 * 1T26 1T25 1T24 1T23 1T22
+Lucro (prejuízo) do periodo (1.064) (1.529) (496) (555) (408) (452) (369) 37 (261) (3.644) (1.192) (2.589) (657) (459) 
+Lucro caixa pós ajustes 485 1.146 1.073 402 675 850 801 724 689 3.106 3.050 2.806 3.986 3.994 
+Variação capital de giro 772 1.087 (413) (200) (603) 683 (45) 148 (237) 1.246 183 741 1.776 96 
+Estoques (367) (97) (113) 128 (312) 39 (367) (22) (31) (449) (662) 1.988 389 965 
+Fornecedores 1.139 1.184 (300) (328) (291) 644 322 170 (206) 1.695 845 (1.247) 1.387 (869) 
+Perdas (268) (283) (273) (268) (229) (261) (280) (251) (212) (1.092) (1.021) (1.107) (1.153) (904) 
+Demandas judiciais (108) (126) (77) (145) (137) (210) (212) (219) (216) (456) (778) (1.184) (1.097) (1.740) 
+Repasse a terceiros (100) 276 207 98 (58) 251 (81) (5) (38) 481 107 (199) 132 (43) 
+Tributos a recuperar/pagar 269 173 163 391 308 113 206 357 203 996 984 1.512 49 (628) 
+Outros Ativos e Passivos 114 (131) 119 192 49 145 (268) (328) (65) 294 (403) (108) 458 (465) 
+Caixa Líquido gerado (aplicado) nas atividades operacionais 1.164 2.142 799 470 5 1.571 121 426 124 4.575 2.123 2.461 4.151 310 
+Caixa Líquido gerado (aplicado) nas atividades de arrendamento (259) (289) (227) (225) (271) (279) (255) (255) (252) (1.000) (1.060) (1.043) (1.131) (1.096) 
+Caixa Líquido gerado (aplicado) nas atividades de investimento (53) (42) (84) (72) (56) (53) (46) (77) (48) (251) (232) (302) (726) (1.227) 
+Fluxo de Caixa Livre 852 1.811 488 173 (322) 1.239 (180) 94 (176) 3.324 831 1.116 2.294 (2.013) 
+Captações Líquidas (414) (559) 309 923 (649) 184 883 338 23 259 756 208 (1.593) 1.198 
+Pagamento de Juros (662) (896) (737) (596) (554) (542) (471) (451) (525) (2.891) (2.018) (2.574) (2.316) (1.042) 
+Follow-on, líquido dos custos de captação - - - - - 1 (1) - - - - 602 (35) (33) 
+Caixa Líquido gerado (aplicado) nas atividades de financiamento (1.076) (1.455) (428) 328 (1.203) (357) 411 (113) (502) (2.631) (1.262) (1.764) (3.944) 123 
+Saldo Inicial de Caixa e Equivalentes de Caixa 3.385 3.029 2.969 2.468 3.993 3.111 2.879 2.900 3.578 2.468 2.900 3.548 5.198 7.088 
+Saldo final de Caixa e Equivalentes de Caixa 3.161 3.385 3.029 2.968 2.468 3.993 3.111 2.879 2.900 3.161 2.468 2.900 3.548 5.198 
+Variação Saldo Inicial - Saldo Final (224) 356 60 500 (1.525) 882 232 (21) (678) 693 (432) (648) (1.650) (1.890) 
+(442)
+906 
+545 
+917 
+2.663 
+1T22 1T23 1T24 1T25 1T26
+Obs: Excluindo deal da Bradescard no 4T22 de R$ 1,75 bi 
+Fluxo de Caixa Livre da Firma últimos 12 meses 
+(R$ milhões) 
+Fluxo de Caixa Livre da Firma últimos 6 meses 
+(R$ milhões) 
+(2.013)
+544 
+1.116 831 
+3.324 
+1T22 1T23 1T24 1T25 1T26
+
+[p. 7]
+7 
+ 
+CAPEX 
+ 
+Os investimentos seguem direcionados a projetos com retorno claro, especialmente em tecnologia e logística, 
+sustentando a digitalização e a melhora da experiência do cliente. No 1T26, os investimentos totalizaram R$ 61 milhões, 
+sendo +70% do total direcionado para projetos relacionados à tecnologia e logística. No período, o Capex foi 13% menor 
+vs. 1T25. 
+ 
+ 
+ 
+ 
+Movimentação de Lojas por Formato e Bandeira 
+ 
+A otimização das lojas e CDs prioriza rentabilidade e produtividade, reforçando a complementaridade com o digital. Nos 
+últimos 12 meses (1T26), entre aberturas e fechamentos, foram fechadas 26 lojas, sendo 12 no formato Casas Bahia e 14 
+no formato Pontofrio. No 1T26 vs. 4T25 foram encerradas 3 lojas, totalizando 1.039 lojas ao final do período . Seguimos 
+rigorosos no acompanhamento da performance de cada loja e CD’s, direcionando ações corretivas e, se necessário, 
+encerrando operações que não geram valor. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões 1T26 1T25 %
+Logística 8 6 42%
+Novas Lojas 0 5 (99%)
+Reforma de Lojas 12 3 n/a
+Tecnologia 41 51 (20%)
+Outros 0 5 (95%)
+Total 61 70 (13%)
+Casas Bahia 1T25 4T25 Abertas Otimização
+m2 Fechadas 1T26
+Rua 756 755 - 1 754 
+Shopping 177 168 - - 1 167 
+Consolidado (total) 933 923 - - 2 921 
+Área de Vendas (mil m²) 868 860 0 2 859 
+Área Total (mil m²) 1.378 1.369 (0) 3 1.366 
+Pontofrio 1T25 4T25 Abertas Otimização
+m2 Fechadas 1T26
+Rua 84 82 - 1 81 
+Shopping 48 37 - - 37 
+Consolidado (total) 132 119 - - 1 118 
+Área de Vendas (mil m²) 74 66 0 1 65 
+Área Total (mil m²) 120 108 (0) 1 107 
+Consolidado 1T25 4T25 Abertas Otimização
+m2 Fechadas 1T26
+Rua 840 837 - - 2 835 
+Shopping 225 205 - - 1 204 
+Consolidado (total) 1.065 1.042 - - 3 1.039 
+Área de Vendas (mil m²) 941 926 - 1 3 924 
+Área Total (mil m²) 1.498 1.477 - (1) 3 1.473 
+Centros de Distribuição 1T25 4T25 Abertos Otimização
+m2 Fechados 1T26
+CDs 25 24 - - 24 
+Área Total (mil m²) 1.112 1.107 - 2 1.109 
+Consolidado Total 1T25 4T25 Abertas Otimização
+m2 Fechadas 1T26
+Área Total (mil m²) 2.611 2.585 - 1 3 2.582
+
+[p. 8]
+8 
+ 
+Soluções financeiras 
+As soluções financeiras ampliam a proposta de valor do ecossistema Casas Bahia, fortalecendo fidelização, recorrência e 
+monetização ao longo do ciclo de vida do cliente. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Crediário – Buy Now, Pay Later 
+O crediário é um serviço rentável no canal físico e online (1P e 3P) e de oportunidade de compras para a população que 
+possui pouco ou não tem acesso a crédito. No 1T26 a carteira do crediário cresceu 3% a/a e atingiu R$ 6,3 bilhões. Nas 
+lojas, a penetração foi de 2 4,3% seguindo sazonalidade . No 1P online a participação do crediário digital foi de 9,9%, 
+enquanto no 3P foi de 9,6% das vendas e está habilitado para +4.900 sellers (sendo que +87% deles já realizaram vendas). 
+ 
+O crediário segue como motor de crescimento rentável e diferencial competitivo do Grupo, aumentando capilaridade no 
+digital e já alcançando mais de 4. 700 municípios sem presença física (+94% dos municípios brasileiros). Essa fortaleza, 
+aliada à disciplina de concessão e modelos de cobrança, sustenta a qualidade da carteira e amplia oportunidades de 
+monetização. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grandes Números 1T26 
+TPV 
+(R$ milhões) 
+TPV Cartão: On e Off us 
+ 
+• R$ 12,5 bilhões de TPV total, +4,2% vs. 1T25 
+• Carteira do crediário fecha em R$ 6,3 bilhões, +3% a/a 
+• Over 90 em 8,8% e perda sobre carteira de 4,7% 
+• TPV cartões Co-branded atingiu R$ 5,4 bilhões, com 5,9 
+milhões de clientes 
+• banQi atinge +9 milhões de contas abertas, +11% vs. 1T25 
+Produção Crediário - Total 
+(R$ bilhões) Produção Crediário Digital 
+(R$ milhões) 
+Participação do CDC Digital e Físico (%) 
+ 
+ 
+5.300 6.118 6.281
+4.880
+5.204 5.444
+822
+711 80911.002
+12.033 12.534
+1T24 1T25 1T26
+CDC Cartão banQi + banQi Pagamentos
+1,8 2,1 2,0 2,4 2,0
+2,4 2,5
+2,9
+2,2
+0
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+5,3
+7,4 8,9 9,2 8,8 9,7
+9,0 9,1
+9,6
+6,3 7,9 9,0 9,7 9,0 8,6
+7,7 9,0
+9,9
+25,5 27,2 26,5
+23,8 23,7 25,5 27,3
+23,0 24,3
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+3P Online 1P Online CDC Loja
+72 86 114 165 143 149 155 207 172 
+184 212 220 
+270 
+212 210 209 
+275 246 257 298 333 
+434 
+355 358 358
+364
+481
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+3P 1P
+
+[p. 9]
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+A taxa over 90 dias foi de 8,8%, estável sequencialmente e com aumento de 0,3p.p. vs. 1T25, refletindo consistência na 
+qualidade da carteira e um ambiente de crédito ainda desafiador . O nível de perda sobre a carteira ativa foi de 4,7%, 
+estável a/a, corroborando os demais indicadores no crediário. Seguimos monitorando o cenário econômico de forma 
+cautelosa e mantendo uma abordagem conservadora, garantindo a solidez e a sustentabilidade da carteira. 
+ 
+banQi 
+ 
+Hoje o foco do banQi é gerar valor para a Cia, utilizando -se do ecossistema existente. Os downloads do App acumulam 
+25,7 milhões com 9 milhões de contas. O app está cada vez mais inserido no dia a dia dos clientes, e destacamos: (i) 
+R$ 33,2 bilhões em transações acumuladas; (ii) TPV acumulado atingindo R$ 16,4 bilhões; e (iii) a frequência de utilização 
+de +60x nos últimos 360 dias. 
+ 
+*Pode conter diferenças de contas transitórias, impostos e apuração de juros com saldo de 
+contas a receber – visão gerencial 
+Aging Crediário – Carteira Gerencial* 
+(R$ milhões) 
+Evolução da Carteira Gerencial* 
+(R$ bilhões) 
+ 
+ 
+PDD 
+(R$ milhões) 
+Perda sobre Carteira 
+(R$ milhões) 
+5,3 5,5 5,7 6,2 6,1 6,1 6,2 6,6 6,3
+9,0% 8,5% 8,4% 8,0% 8,5% 8,4% 8,4% 8,6% 8,8%
+0,0 %
+5,0 %
+10, 0%
+15, 0%
+20, 0%
+25, 0%
+30, 0%
+35, 0%
+40, 0%
+45, 0%
+50, 0%
+0,0 0
+4,0 0
+8,0 0
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Carteira Ativa Taxa Over 90
+191
+263 273 281 259 247
+276
+301 293
+3,6% 4,8% 4,8% 4,6% 4,2% 4,0% 4,5% 4,6% 4,7%
+-3,0%
+2,0 %
+7,0 %
+12, 0%
+17, 0%
+22, 0%
+27, 0%
+32, 0%
+50
+100
+150
+200
+250
+300
+350
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Perda Perda/Carteira Ativa
+587 586 592 626 661 642 658 697 671
+11,1% 10,6% 10,5% 10,2% 10,8% 10,4% 10,6% 10,6% 10,7%
+0,0 %
+5,0 %
+10, 0%
+15, 0%
+20, 0%
+25, 0%
+30, 0%
+35, 0%
+40, 0%
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+100 0
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Saldo PDD Saldo PDD/Carteira Ativa
+Downloads app (# mil)
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Downloads 816 793 819 703 650 576 578 660 785 728 657 1.410 889 
+Acum. 16.548 17.341 18.160 18.863 19.513 20.089 20.667 21.327 22.112 22.840 23.497 24.907 25.796 116%
+Abertura de Contas (# mil)
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Contas 263 222 181 152 144 108 111 153 258 236 203 243 210 
+Acum. 6.832 7.054 7.235 7.387 7.531 7.639 7.750 7.903 8.161 8.397 8.600 8.843 9.053 110%
+Transações R$ Milhões
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Transações 1.839 1.876 1.868 1.834 1.662 1.668 1.620 1.606 1.456 1.513 1.558 1.680 1.568 
+Acum. 13.315 15.191 17.059 18.893 20.555 22.223 23.843 25.449 26.905 28.418 29.976 31.656 33.224 136%
+TPV
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+TPV 909 923 919 903 822 826 799 782 711 752 776 855 809 
+Acum. 6.547 7.470 8.389 9.292 10.113 10.935 11.738 12.520 13.231 13.983 14.759 15.614 16.423 136%
+Transações em lojas R$ Milhões
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Transações em lojas 138 136 130 122 104 107 99 99 82 88 89 95 79 
+Acum. 1.538 1.674 1.804 1.926 2.030 2.137 2.236 2.335 2.425 2.513 2.602 2.697 2.776 122%
+Frequência média de uso do app banQi (recorrência 360 dias)
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26
+Frequência 25 29 33 42 48 54 59 61 62 61 61 60 60 133%
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CDCI (R$ Milhões) 1T25 % total 1T26 % total Var(%)
+Em dia 4.484 73,3% 4.454 70,9% -0,7%
+Vencidos
+Vencidos de 06 a 30 dias 582 9,5% 610 9,7% 4,7%
+Vencidos de 31 a 60 dias 332 5,4% 376 6,0% 13,3%
+Vencidos de 61 a 90 dias 202 3,3% 286 4,6% 41,2%
+Vencidos de 91 a 120 dias 189 3,1% 168 2,7% -10,9%
+Vencidos de 121 a 150 dias 169 2,8% 201 3,2% 18,8%
+Vencidos de 151 a 180 dias 160 2,6% 187 3,0% 16,5%- - 
+Total 6.118 100,0% 6.281 100,0% 2,7%
+
+[p. 10]
+10 
+ 
+Social - Diversidade 
+Destaques ESG 
+A agenda ESG está integrada à estratégia operacional, contribuindo para eficiência, engajamento de pessoas e mitigação 
+de riscos de longo prazo. Seguem os destaques do 1° trimestre de 2026. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Energia Renovável: Fechamos o 1º trimestre de 2026 com 90% de energia renovável que abastece as operações de nossas lojas, CDs, Fábrica Bartira e 
+escritórios, em linha com a nossa estratégia de migração para o Mercado Livre e expansão das usinas de geração distribuída ambas de fontes renováveis. 
+Atualmente, temos 22 usinas de geração distribuída que integram o programa de Eficiência Energética do Grupo, distribuídas em 16 estados do País. 
+Neste ciclo, não foram considerados os 10% relacionados as aquisições de certificados de origem de energia (I-RECs), que foram adquiridos em dezembro 
+de 2025. 
+Programa de Reciclagem REVIVA: Destinou cerca de 595,5 toneladas de resíduos para reciclagem e reaproveitamento, beneficiando 9 cooperativas 
+parceiras. Além disso, foi coletada 560 kg de resíduos eletroeletrônicos para descarte adequado e reciclagem, a partir dos 747 coletores de 
+eletroeletrônicos instalados nas lojas físicas e operações do Grupo, sistema de logística reversa em parceria com a GreenEletron. 
+Economia Circular: Ao longo do 1 trimestre de 2026 o nosso Departamento de Assistência Técnica (DAT) conseguiu recuperar mais de 99 % das 
+mercadorias devolvidas entre eletroeletrônicos, linha branca e móveis. O que representa 4.131 ton de mercadorias que passaram por avaliação, 
+manutenção e testes de qualidade sendo comercializadas em nossas lojas de saldo e/ou através da revenda a par ceiros homologados para 
+reaproveitamento de componentes, aumentando o tempo de vida útil dos itens, diminuindo a geração de r esíduos e por consequência a extração de 
+materiais para a produção de novos produtos. 
+Ambientais 
+TEMAS PRIORITARIOS DEFINIDOS PARA 2026: 
+ 
+EQUIDADE DE GÊNERO: O programa Dona de Si impactou 952 mulheres, e os Diálogos de Empoderamento Feminino, realizados na Fábrica e na Logística, 
+alcançaram mais de 1.350 colaboradoras. As mulheres representam 43% do quadro total de colaboradores da companhia. Em 2025, a participação 
+feminina na liderança gerencial e acima atingiu 35,8%, superando a meta estabelecida de 35% e registrando crescimento de 2,8 pontos percentuais em 
+relação a 2024. Estabelecemos a meta de 36% de mulheres na liderança (gerência acima) até dezembro/2026. Atualmente estamos com 35,7% Dona de 
+Si 2026: programa de desenvolvimento feminino, com foco em dois pilares: Dona de Si Essência (formação exclusiva para mulheres), impacto de +300 
+mulheres e Dona de Si Encontros (agendas abertas para ampliar o conheci mento para todos). Campanha de Equidade de Gênero: Somos Donas das 
+Nossas Histórias, contou com 16 histórias de mulheres colaboradoras. 
+Equidade Racial: estabelecemos a meta de 40% de negros na liderança (gerência acima) até dezembro/2026. Atualmente estamos com 39,9% Inclusão 
+da Pessoa com Deficiência: atualmente estamos com 1361 colaboradores PcDs. Programa Jornada Sem Barreiras: programa de empreg abilidade, 
+formação e capacitação da liderança. Pesquisa colaborativa contou com 164 colaboradores PcD, para construção dos módulos e 100 líderes contribuíram 
+com a construção dos temas de capacitação da liderança. O Programa começa sua formação em junho 2025. 
+Dedicação Também é Respeitar: programa de combate ao assédio e discriminação começa o ano com o andamento dos Diálogos de Respeito (Ação de 
+sensibilização dos gestores de loja), ao todo já foram mais de 300 líderes impactados. Também começamos a ação “Apague seu Pr econceito”, como a 
+entrega de um lápis com a mensagem para todas as lideranças sênior no Encontro de Líderes em abril. 
+Protagonismo Jovem: iniciamos o ano com mais de 11.600 inscritos no PROA e 2.348 aprovados para as turmas do primeiro trimestre de 2026. 
+Fomento ao Empreendedorismo: o primeiro trimestre marcou o início da divulgação do projeto Dona de Si 2026. Nesta primeira etapa, temos inscritas:146 
+empreendedoras em São Paulo, 427 no Rio de Janeiro, 204 no Rio Grande do Sul, 131 na Bahia e 92 no Distrito Federal, e seguimos na seleção com inscrições 
+abertas para preenchermos as 1.500 vagas de 2026. 
+Educação Financeira: reafirmamos para 2026 o nosso compromisso em apoiar os parceiros da frente Social, PROA e Instituto Dona de Si, no fomento e 
+aplicação de cursos sobre Educação Financeira, tanto para sua vida pessoal quanto negócios. 
+ 
+Governança Corporativa 
+ 
+Social - Fundação Casas Bahia 
+ Robustas práticas de Governança Corporativa: 
+• Listagem no Novo Mercado; 
+• Conselheiros independentes em seus colegiados; 
+• Diferentes executivos como CEO e Presidente do Conselho de Administração; 
+• Comitê Estatutário de Auditoria, Riscos e Compliance; 
+Eleição da Diretoria: Reeleição da diretoria estatutária, conforme reunião do conselho de administração de 30/04 
+Programa de Integridade: fortalecemos a manutenção das pautas de comunicação, treinamento e cultura de Auditoria, Riscos e Compliance. Demos 
+tração e publicidade ao nosso programa de embaixadores de integridade (Ecos de Integridade) e a nossa agente de inteligência artificial para 
+disseminação de conhecimento em GRC (SofIA). 
+Matriz de Riscos Corporativos: a Companhia iniciou a revisão de sua matriz de riscos corporativos, abrangendo entrevistas com executivos, consolidação 
+das fichas dos riscos e a partir de abril de 2026 a calibragem com o C-Level e apresentação final ao Conselho e Comitê de Auditoria, Riscos e Compliance, 
+sendo esta revisão de responsabilidade da Diretoria de Auditoria, Riscos e Compliance. 
+Índices ESG: elo 4° ano consecutivo integramos a carteira do Índice de Carbono Eficiente (ICO2), reforçando a nossa atuação resiliente e eficiente das 
+emissões de gases do efeito estufa. 
+Capitalismo Consciente: adotamos os princípios do Capitalismo Consciente como um direcionador da nossa jornada de transformação, reforçando nosso 
+compromisso de ir além da geração de lucro. Atuamos orientados por um propósito maior, promovendo a criação de valor sustentá vel para todos os 
+nossos stakeholders e impulsionando um crescimento consistente e de longo prazo, pautado em uma atuação ética, humana e responsável.
+
+[p. 11]
+11 
+ 
+DRE 
+ 
+ 
+ 
+ 
+ 
+ 
+Demonstração do Resultado Consolidado
+R$ milhões 1T26 1T25 ∆
+Receita Bruta 8.830 8.299 6,4%
+Receita Líquida 7.416 6.991 6,1%
+Custo das Mercadorias Vendidas (5.115) (4.829) 5,9%
+Depreciação (Logística) (54) (53) 1,9%
+Lucro Bruto 2.247 2.109 6,5%
+Despesas com Vendas (1.442) (1.351) 6,7%
+Despesas Gerais e Administrativas (262) (265) (1,1%)
+Resultado da Equivalência Patrimonial 0 24 (100,0%)
+Outras Despesas e Receitas Operacionais (88) (18) n/a
+Total das Despesas Operacionais (1.792) (1.610) 11,3%
+Depreciação e Amortização (205) (212) (3,3%)
+EBIT - Lucro Operacional antes Impostos e Receita 
+(Despesa) Financeiras 250 287 (12,9%)
+Receitas Financeiras 101 110 (8,2%)
+Despesas Financeiras (1.272) (1.032) 23,3%
+Resultado Financeiro Líquido (1.171) (922) 27,0%
+Lucro Operacional antes do I.R. (921) (635) 45,0%
+IR/CS (143) 227 n/a
+Lucro Líquido (Prejuízo) (1.064) (408) n/a
+EBIT - Lucro Operacional antes Impostos e Receita 
+(Despesa) Financeiras 250 287 (12,9%)
+Depreciação (Logística) 54 53 1,9%
+Depreciação e Amortização 205 212 (3,3%)
+EBITDA - Lucro Operacional antes da Depreciação e 
+Receita (Despesa) Financeiras 509 552 (7,8%)
+Outras Despesas e Receitas Operacionais 88 18 n/a
+EBITDA Ajustado 597 570 4,7%
+% sobre Receita Líquida de Vendas 1T26 1T25 ∆
+Lucro Bruto 30,3% 30,2% 0,1 p.p.
+Despesas com Vendas (19,4%) (19,3%) (0,1 p.p.)
+Despesas Gerais e Administrativas (3,5%) (3,8%) 0,3 p.p.
+Resultado da Equivalência Patrimonial 0,0% 0,3% (0,3 p.p.)
+Outras Despesas e Receitas Operacionais (1,2%) (0,3%) (0,9 p.p.)
+Total das Despesas Operacionais (24,2%) (23,0%) (1,2 p.p.)
+Depreciação e Amortização (2,8%) (3,0%) 0,2 p.p.
+EBIT - Lucro Operacional antes Impostos e Receita 
+(Despesa) Financeiras 3,4% 4,1% (0,7 p.p.)
+Resultado Financeiro Líquido (15,8%) (13,2%) (2,6 p.p.)
+Lucro Operacional antes do I.R. (12,4%) (9,1%) (3,3 p.p.)
+IR&CS (1,9%) 3,2% (5,1 p.p.)
+Lucro Líquido (Prejuízo) (14,3%) (5,8%) (8,5 p.p.)
+EBITDA 6,9% 7,9% (1,0 p.p.)
+EBITDA Ajustado 8,1% 8,2% (0,1 p.p.)
+
+[p. 12]
+12 
+ 
+Balanço Patrimonial 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Balanço Patrimonial Gerencial
+Ativo
+R$ milhões 31.03.2026 31.03.2025
+Ativo Circulante 15.317 13.565 
+Caixas e Aplicações Financeiras 1.206 935 
+Títulos e valores mobiliarios 326 266 
+Contas a Receber 4.741 4.332 
+Cartões de Créditos 299 342 
+Carnês - Financiamento ao consumidor 5.651 5.532 
+Carnês - Juros a incorrer (1.641) (1.732) 
+Outros 622 605 
+Contas a receber B2B 747 289 
+Provisão para Devedores Duvidosos (937) (704) 
+Estoques 5.399 5.034 
+Tributos a Recuperar 1.905 1.834 
+Partes Relacionadas 281 291 
+Ativos mantidos para venda 291 - 
+Despesas Antecipadas 430 294 
+Outros Ativos 738 579 
+Ativo Não Circulante 18.013 19.251 
+Realizável a Longo Prazo 12.053 12.710 
+Títulos e valores mobiliários - 16 
+Contas a Receber 362 372 
+Cartões de Crédito 9 29 
+Carnês - Financiamento ao Consumidor 613 588 
+Carnês - Juros a incorrer (194) (182) 
+Contas a Receber "B2B" - - 
+Provisão para Devedores Duvidosos (66) (63) 
+Tributos a Recuperar 4.481 3.975 
+Instrumentos financeiros 11 11 
+IR e CSLL Diferidos 5.037 5.996 
+Crédito com Partes Relacionadas 104 109 
+Depósitos para Recursos Judiciais 1.892 1.760 
+Despesas Antecipadas e Outros Ativos 166 471 
+Ativo de Direito de Uso 2.090 2.352 
+Investimentos 16 267 
+Imobilizado 1.196 1.252 
+Intangível 2.658 2.670 
+TOTAL DO ATIVO 33.330 32.816 
+Passivo e Patrimônio Líquido
+R$ milhões 31.03.2026 31.03.2025
+Passivo Circulante 21.348 18.443 
+Obrigações Sociais e Trabalhistas 620 589 
+Fornecedores 9.497 7.810 
+Risco sacado (portal) 70 - 
+Risco sacado (convênio) 941 1.730 
+Empréstimos e Financiamentos 762 446 
+Carnês - Financiamento ao Consumidor (CDCI) 5.049 5.357 
+Carnês - Financiamento ao Consumidor (CDCI) - Juros a apropriar (401) (462) 
+Impostos, Taxas e Contribuições 1.687 660 
+Partes Relacionadas 9 1 
+Receitas Diferidas 188 195 
+Repasse de Terceiros 1.187 706 
+Passivo de arrendamento 796 588 
+Outros 943 823 
+Passivo Não Circulante 10.204 12.284 
+Empréstimos e Financiamentos 1.600 3.913 
+Carnês - Financiamento ao Consumidor (CDCI) 386 514 
+Carnês - Financiamento ao Consumidor (CDCI) - Juros a apropriar (19) (27) 
+IR e CSLL Diferidos 19 20 
+Tributos a Pagar 465 26 
+Provisão para Demandas Judiciais 1.585 2.386 
+Passivo de arrendamento 2.289 2.689 
+Receitas Diferidas 1.190 1.547 
+FIDC's (cotas seniores) 1.937 - 
+Outros 752 1.216 
+Patrimônio Líquido 1.778 2.089 
+TOTAL DO PASSIVO E PATRIMÔNIO LÍQUIDO 33.330 32.816
+
+[p. 13]
+13 
+ 
+Fluxo de Caixa 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fluxo de Caixa (R$ milhões)
+31.03.2026 31.03.2025
+Lucro Líquido (Prejuízo) do exercício (1.064) (408) 
+Ajustes em:
+Depreciações e Amortizações 259 264 
+Equivalência Patrimonial - (24) 
+Imposto de Renda e Contribuição Social Diferidos 133 (236) 
+Juros e Variações Monetárias, não realizadas 653 498 
+Modificação da Dívida - - 
+Provisões para demandas judiciais, líquidas de reversões (118) 57 
+Provisão para demandas judiciais trabalhistas, líquidas de reversões (138) 73 
+Provisões para demandas judiciais outras, líquidas de reversões 20 (16) 
+Perda estimada com créditos de Liquidação Duvidosa 319 277 
+Perda com alienação de ativo imobilizado e intangível 1 8 
+Perda estimada do valor recuperável líquido dos estoques 4 (27) 
+Receita diferida reconhecida no resultado (48) (57) 
+Baixa de direito de uso e passivo de arrendamento - (7) 
+Remuneração Baseada em Ações - 4 
+Outros (1) (1) 
+138 348 
+(Aumento) Redução de Ativos
+Contas a Receber 32 (42) 
+Títulos e valores mobiliários - - 
+Estoques (367) (312) 
+Tributos a Recuperar 13 204 
+Partes relacionadas 19 3 
+Depósitos judiciais 380 (88) 
+Despesas Antecipadas (61) (21) 
+Outros ativos (273) (66) 
+(257) (322) 
+Aumento (Redução) de Passivos
+Fornecedores 4.031 2.023 
+Risco sacado (portal) - (47) 
+Tributos a Pagar 256 104 
+Obrigações sociais e trabalhistas 59 14 
+Repasse de Terceiros (100) (58) 
+Receita diferida (44) (30) 
+Demandas judiciais (108) (137) 
+Demandas judiciais - Trabalhistas (85) (129) 
+Demandas judiciais - Outras (23) (8) 
+Outros passivos (145) 230 
+3.949 2.099 
+(Aumento) Redução de Ativo e Passivo - Outros
+Dividendos recebidos de investidas - 20 
+Imposto de renda e contribuição social pagos (5) (1) 
+(5) 19 
+Caixa Líquido gerado nas atividades operacionais 3.825 2.144 
+Fluxo de Caixa das Atividades de Investimento
+Aquisição de bens do ativo imobilizado e intangível (55) (57) 
+Alienação de bens do ativo imobilizado e intangível 2 1 
+Títulos e valores mobiliários - - 
+Caixa Líquido das Atividades de Investimento (53) (56) 
+Fluxo de Caixa das Atividades de Financiamento
+Captações 3.822 2.521 
+Pagamento de principal (2.747) (2.454) 
+Pagamento de juros (315) (227) 
+Pagamentos de Principal - Arrendamento Mercantil (155) (158) 
+Pagamentos de Juros - Arrendamento Mercantil (104) (113) 
+Risco sacado (convênio) (4.381) (2.983) 
+Títulos e valores mobiliários - Não controladores 42 130 
+Caixa Líquido das Atividades de Financiamento (3.838) (3.284) 
+Saldo inicial de caixa e equivalentes de caixa 1.225 2.131 
+Saldo final de caixa e equivalentes de caixa 1.159 935 
+Variação no Caixa e Equivalentes (66) (1.196)
+
+[p. 14]
+14 
+ 
+BHIA3 
+As ações d o Grupo Casas Bahia estão registradas para negociação na B3 sob o código “ BHIA3”, admitidas à 
+negociação no Novo Mercado. Desta forma, as ações ordinárias do Grupo Casas Bahia são negociadas em Reais 
+(R$) no segmento do Novo Mercado da B3 S.A. – Brasil, Bolsa, Balcão, sob o código de negociação BHIA3. 
+ 
+Videoconferência de Resultados 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vídeoconferência 
+Português/Inglês: 
+Clique aqui 
+Elcio Ito 
+CFO & IRO 
+Gabriel Succar 
+Diretor de RI 
+Daniel Morais 
+Especialista de RI 
+13 de maio de 2026 
+(após fechamento do mercado) 
+Simultaneamente, será disponibilizado o vídeo com a apresentação de resultados, com o objetivo de 
+dedicar o tempo da teleconferência no dia seguinte somente para perguntas e respostas. 
+ 
+Videoconferência 
+(Somente Perguntas e Respostas)
+ 14 de março de 2026 
+14h00 (horário de Brasília) 
+13h00 (horário de Nova York) 
+Português/Inglês (tradução simultânea) 
+Caio Gandolfi 
+Analista de RI
+
+[p. 15]
+1 
+ 
+In the first quarter of 2026, Grupo Casas Bahia combined revenue growth and disciplined execution 
+with an improvement in cash generation (+R$ 852 million), reducing net debt by R$ 2.7 billion (-68%) 
+and reaching leverage of 0.5x. GMV totaled R$ 11.2 billion (+5.0%), driven by e-commerce (+14.6%), 
+with 1P online standing out (+27.4%), while profitability remained healthy, with adjusted EBITDA of 
+R$ 597 million (8.1% margin) and a gross margin of 30.3%. 
+ 
+ 
+3,91
+4,95 4,48
+1,13 1,25
+1,8x
+2,2x
+1,9x
+0,4x 0,5x
+Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Net Debt Net Debt/Adjusted EBITDA
+(2.013)
+544 
+1.116 831 
+3.324 
+1Q'22 1Q'23 1Q'24 1Q'25 1Q'26
+Highlights of 1Q’26 Results 
+Income Statement 1Q‘26 vs. 1Q‘25 
+ 
+ 
+Leverage and Cash Flow (12 Months) 1Q’26 
+ 
+ 
+(R$ Million) Q1'26 Q1'25 Var.
+Gross Revenue 8.830 8.299 6,4%
+Net Revenue 7.416 6.991 6,1%
+Gross Profit 2.247 2.109 6,5%
+Gross Margin 30,3% 30,2% 60 bps
+SG&A (1.704) (1.616) 5,4%
+Adjusted EBITDA 597 570 4,7%
+Adjusted EBITDA Margin 8,1% 8,2% 130 bps
+Other Expenses (88) (18) 388,9%
+EBIT 250 287 -12,9%
+Financial Results (1.171) (922) 27,0%
+EBT (921) (635) 45,0%
+Income Tax & Social Contribution (143) 227 n/a
+Net Income (Loss) (1.064) (408) n/a
+Growth & Market Share: 
+• Consolidated GMV increased by R$ 538 million, up 5.0% vs. 1Q'25, reaching R$ 11.2 billion, 100% focused on core categories 
+• Physical Stores GMV and SSS remained stable (1.6%) vs. 17.7% in 1Q'25, despite the net closure of 26 stores over the last 12 months 
+• E-commerce GMV grew 14.6% vs. 1Q'25, marking the 6th consecutive quarter of growth, focused on core categories 
+• Market share in e-commerce increased by 170 Bps in 1Q'26 vs. 1Q'25, reaching 15.5% in core categories 
+• Online 1P GMV grew 27.4%, delivering the strongest growth of the last 19 quarters and reinforcing 1P leadership 
+• 3P GMV declined by (3.0%) vs. 1Q'25, with stable revenue and higher profitability, supported by a 13.0% take rate vs 12,7% in 1Q’25 
+ 
+ Revenue & Profitability: 
+• Net Revenue growth of +6.1% vs. 1Q'25, reaching R$ 7.4 billion 
+• Gross margin of 30.3% vs. 30.2% in 1Q'25, an increase of 10 Bps 
+• SG&A decreased by 10 Bps as a percentage of net revenue in 1Q'26 vs. 1Q'25, reaching 23.0% 
+• Adjusted EBITDA margin of 8.1% in 1Q'26, stable vs. 1Q'25, reaching R$ 597 million, with 5% growth. 
+ 
+ Cash & Liquidity: 
+• Liquidity balance, including receivables, totaled R$ 3.2 billion in 1Q'26 
+• Free Cash Flow to the Firm of +R$ 852 million in 1Q'26 vs. cash consumption of R$ (322) million in 1Q'25 
+• Interest payments decreased by R$ 234 million vs. 4Q'25, beginning to reflect initiatives from the new capital structure 
+• Leverage: net debt improved by R$ 2.7 billion vs. 1Q'25, reaching 0.5x vs. 1.8x adjusted EBITDA 
+ 
+Financial Solutions: 
+• Financial solutions revenue grows 8.7% vs. 1Q'25 
+• Credit portfolio of R$ 6.3 billion, up 3% YoY, with over-90-day delinquency and net loss ratios of 8.8% and 4.7%, respectively 
+• Digital BNPL origination grows 18% vs. 1Q'25, with the portfolio reaching R$ 874 million, outperforming e-commerce growth 
+• BanQi reaches 9 million accounts
+
+[p. 16]
+2 
+ 
+Omnichannel 
+ 
+The omnichannel strategy continues to be a competitive advantage, supporting GMV growth, market share gains, and margin 
+expansion through qualified traffic and a focus on core categories. 
+Total GMV in 1Q'26 grew 5.0% year over year. 1P omnichannel GMV increased 6.7%, driven by stable physical stores and 
+27.4% growth online. In contrast, 3P GMV declined 3.0% over the period. As a result, e-commerce GMV (1P online + 3P) 
+totaled R$5.0 billion, up 14.6% vs. 1Q'25, with a continued focus on core categories (over 96% of 3P GMV). 
+ 
+Gross Revenue Performance by Channel 
+ 
+ 
+In 1Q'26, consolidated gross revenue grew 6.4% compared to 1Q'25, reaching BRL 8.8 billion. This increase was mainly driven 
+by e -commerce revenue growth, with particular emphasis on 1P performance (+26.4%). Meanwhile, 3P (marketplace) and 
+physical stores revenues remained broadly stable, at (0.6%) and (1.8%), respectively. 
+ 
+Physical Stores – GMV and Gross Revenue 
+ 
+Gross GMV from physical stores totaled R$ 6.2 billion, remaining stable and still impacted by the net closure of 26 stores ov er 
+the last 12 months, as well as a strong comparison base in 1Q'25 (16.2% growth). Over the last two years, physical stores’ GMV 
+grew 14.4%. Gross revenue reached R$ 5.6 billion, down 1.8% vs. 1Q'25. Same -store sales (SSS) declined by (1.6%) to 1Q'26. 
+Specifically, in 1Q'26, three stores were closed, totaling 1,039 stores. 
+ 
+1P Online – GMV and Gross Revenue 
+ 
+In 1Q'26, online 1P GMV grew 27.4% compared to 1Q'25, reaching BRL 3.2 billion, while online 1P revenue increased 26.4%, 
+driven by: (i) market share gains in strategic categories such as home appliances, technology, portable devices, and seasonal 
+products; (ii) growth in qualified traffic across our owned channels; and (iii) the launch of new sales channels through strategic 
+partnerships. We maintained our strength in core categories, in line with our strategic positioning, and added BRL 695 millio n 
+in GMV in 1Q'26, reinforcing our strategy as Brazil’s leading 1P player. 
+ 
+3P Online – GMV and Gross Revenue 
+ 
+In 1Q'26, 3P GMV posted a slight decline, totaling BRL 1.8 billion, while revenue remained stable at BRL 231 million. This 
+performance reflects our focus on improving the experience for both customers and sellers by expanding the range of 
+services offered on our platforms, such as logistics, credit, Ads, and a core assortment that complement 1P . The strength 
+of the 1P strategy has generated qualified traffic, boosting the sale of items complementary to core categories and of 
+categories not directly addressed by 1P but covered by 3P . We ended the quarter with a take rate of 13,0% vs. 12,7%, 
+increase of 30 bps. 
+R$ million Q1'26 Q1'25 %
+Total GMV 11.208 10.670 5,0%
+GMV 1P 9.428 8.835 6,7%
+GVM Physical Stores 6.193 6.295 (1,6%)
+GMV 1P Online 3.236 2.540 27,4%
+GMV 3P 1.780 1.836 (3,0%)
+Total e-commerce (1P + 3P) 5.016 4.376 14,6%
+R$ million Q1'26 Q1'25 %
+Physical Stores 5.573 5.673 (1,8%)
+Online 3.256 2.626 24,0%
+1P 3.025 2.394 26,4%
+3P 231 232 (0,6%)
+Total Gross Revenue 8.830 8.299 6,4%
+
+[p. 17]
+3 
+ 
+Gross Revenue Breakdown
+ 
+ 
+ 
+The revenue growth reflects not only higher merchandise volumes, but also a more profitable mix, driven by the 
+expansion of financial solutions and services, as well as higher penetration of cash payments. 
+Gross Profit 
+ 
+The gross margin remained resilient at an elevated level, despite distinct dynamics across channels, reflecting commercial 
+discipline, logistics efficiency, and a focus on higher -return categories. In 1Q'26, gross profit totaled R$2.2 billion, an 
+increase of 6.5%, with a gross margin of 30.3%, up 10 Bps compared to 1Q'25. 
+ 
+Selling, General, and Administrative Expenses 
+ 
+ 
+Selling, general and administrative expenses in 1Q'26 increased by 5.4%, despite revenue growth and inflation during 
+the period, with an improvement of 10 Bps as a percentage of net revenue (23.0%). In the quarter, the variation was 
+mainly driven by a reduction in personnel and labor expenses, reflecting structural efficiency gains and SG&A dilution. 
+ 
+Adjusted EBITDA 
+ 
+Adjusted EBITDA remains at a healthy level, supporting recurring operating cash flow generation and the ability to invest 
+selectively in growth. In the period, adjusted EBITDA reached R$597 million, growing 4.7% in 1Q'26, with an 8.1% 
+margin, stable compared to 1Q'25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ million Q1'26 Q1'25 %
+Merchandise 7.466 7.010 6,5%
+Services 524 516 1,6%
+CDC/Credit Cards 840 773 8,7%
+Gross Revenue 8.830 8.299 6,4%
+Consolidated Sales by means of payment Q1'26 Q1'25 %
+Cash/ Debit Card/ PIX 43,8% 36,6% 720bps
+CDC (Payment Book) 13,7% 15,9% (220bps)
+Co-branded Credit Card 7,2% 7,8% (60bps)
+Third-party Credit Card 35,3% 39,7% (440bps)
+R$ million Q1'26 Q1'25 %
+Gross Profit 2.247 2.109 6,5%
+% Gross Margin 30,3% 30,2% 10bps
+R$ million Q1'26 Q1'25 %
+SG&A (1.704) (1.616) 5,4%
+% Net Revenue (23,0%) (23,1%) 10bps
+R$ million Q1'26 Q1'25 %
+Adjusted EBITDA 597 570 4,7%
+% Adjusted Margin EBITDA 8,1% 8,2% (10bps)
+
+[p. 18]
+4 
+ 
+Financial Result 1Q'26 vs. 4Q’25 
+ 
+Despite consistent operational execution, the net financial result remains impacted by the high cost of capital in Brazil. 
+Nevertheless, the liability restructuring has already begun to generate relevant structural effects , although still 
+progressive, on the sequential reduction of financial expenses. The best way to assess the evolution of the financial results 
+following the transformation of the capital structure is to review the main recurring operating expenses versus the 
+previous quarter, which are now becoming visible: 
+ 
+Excluding debt modification and haircut effects, the sequential reduction would be (9.1%), or R$ 117 million. 
+ 
+We highlight improvements in: (i) supplier financing interest (59.7%); (ii) financial debt expenses (58.5%); (iii) credit 
+card discount expenses (15.9%); (iv) lease expenses (13.3%); and (v) private-label funding expenses (8.3%). 
+ 
+ 
+ 
+ 
+Financial Result 1Q'26 vs. 1Q'25 
+ 
+In 1Q'26, net financial result totaled R$ (1.2) billion, a 27,0% increase compared to the prior period. Average CDI increased 
+from 12.94% in 1Q'25 to 14.86% in 1Q'26, a rise of 190 Bps, representing a key driver of the increase in financial expenses 
+during the period. 
+ 
+ 
+ 
+Net Income (Loss) 
+ 
+EBT amounted to BRL (921) million in the quarter, representing a 45% change compared to 1Q'25, despite revenue growth and 
+the maintenance of the Company’s profitability. The high-interest rate environment — reflected in the increase in the average 
+CDI from 12.94% in 1Q'25 to 14.86% in 1Q'26 — pressured financial results, leading to a net loss of BRL (1. 1) billion versus BRL 
+(0.4) billion. It is worth noting that no deferred tax asset was recognized in the quarter due to the challenging macroeconom ic 
+scenario observed during the period, characterized, among other factors, by elevated interest rates, inflationary pressures, and 
+geopolitical instabilities. 
+ 
+ 
+ 
+ 
+R$ million Q1'26 Q4'25 QoQ % Q1'25 y/y %
+Financial Revenue 74 66 12,1% 44 68,2%
+Financial Expenses (1.059) (563) 88,1% (976) 8,5%
+Debt Financial Expenses (83) (206) (59,7%) (108) (23,1%)
+Debt Modification (6) 115 n/a (104) (94,2%)
+Haircut - 610 (100,0%) - n/a
+CDC Financial Expenses (265) (289) (8,3%) (249) 6,4%
+Interest on trade accounts payable - agreement (114) (275) (58,5%) (91) 25,3%
+Interest on Lease Liabilities (104) (120) (13,3%) (113) (8,0%)
+Expenses of Discounted Receivables (232) (276) (15,9%) (246) (5,7%)
+Receivables Investment Fund ( "FIDC" senior shares) (152) (137) 10,9% (33) n/a
+Other Financial Expenses (103) 15 n/a (32) n/a
+Financial Results pre monetary update (985) (497) 98,2% (932) 5,7%
+% Net Revenue (13,3%) (5,9%) (740bps) (13,3%) 0bps
+Monetary Restatements (186) (60) n/a 10 n/a
+Net Financial Results (1.171) (557) n/a (922) 27,0%
+% Net Revenue (15,8%) (6,6%) (920bps) (13,2%) (260bps)
+Net financial result excluding debt modification and haircut (1.165) (1.282) (9,1%) (818) 42,4%
+% Net Revenue (15,7%) (15,1%) 60bps (11,7%) (401bps)
+R$ million Q1'26 Q1'25 %
+EBT (921) (635) 45,0%
+% Net Revenue (12,4%) (9,1%) (330bps)
+Income Tax & Social Contribution (143) 227 n/a
+Net Income (Loss) (1.064) (408) n/a
+% Net Margin (14,3%) (5,8%) (850bps)
+
+[p. 19]
+5 
+ 
+Cash Conversion Cycle 
+ 
+The increase in inventories reflects strategic preparation to capture relevant commercial opportunities in 2Q'26, while 
+preserving working capital discipline. Inventories ended at 1Q'26 up R$363 million compared to 4Q'25, aiming to capture 
+higher sales related to the FIFA World Cup. Additionally, the outstanding days payable increased by 14 days versus 1Q'25 
+and by 18 days versus 4Q'25. 
+ 
+ 
+ 
+Capital Structure 
+The significant reduction in leverage reaffirms the effectiveness of the transformation plan, repositioning the Company 
+to a new growth cycle with lower financial risk. 
+ 
+ 
+. 
+Gross debt amounted to BRL 2. 4 billion (excluding CDCI, supplier agreements, and FIDC). Within the capital structure, 
+CDCI liabilities have a corresponding asset recorded under CDCI accounts receivable, as presented in the table above and 
+in the Financial Statements, notes 7 and 16. 
+ 
+Additionally, in line with the Transformation Plan strategy, between 2024 and 2025 the Company began investing in and 
+raising funds through FIDCs of different types (Private -label credit, reverse factoring, among others), including market 
+transactions, with the objective of diversifying funding sources and reducing the Group’s cost of funding. The amounts 
+related to third-party FIDC quotas are included in the Company’s capital structure. 
+ 
+In 1Q'26, cash including undiscounted receivables totaled BRL 3. 2 billion. Financial leverage, measured by net debt to 
+adjusted LTM EBITDA and considering supplier agreement balances, CDCI balances, and third-party FIDC quotas, stood at 
+0.5x versus 1.8x in 1Q'25, reflecting a net debt reduction of approximately BRL 2.7 billion versus 1Q'25, or a 6 8,1% 
+decrease. 
+ 
+ 
+ 
+ R$ million 1Q'26 4Q'25 3Q'25 2Q'25 1Q'25 4Q'24 vs.1Q'25
+Inventory 5.399 5.036 5.029 4.924 5.034 4.695 365 
+Days of Inventory¹ 95 90 91 92 95 91 0 dias
+Suppliers w/o agreement and others 8.445 7.317 6.186 6.575 7.142 7.452 1.303 
+Trade accounts payable – agreement 941 2.430 2.370 2.281 1.730 2.446 (789) 
+Others 1.122 1.103 1.020 911 669 637 453 
+Total Days of Suppliers¹ 149 131 113 122 135 144 14 dias
+Change in Financial Cycle 54 41 21 31 40 53 14 
+¹COGS days
+R$ million 1Q'26 4Q'25 3Q'25 2Q'25 1Q'25 vs. 1Q'26
+(+) BNPL (CDCI) - Assets 6.266 6.459 6.142 6.202 6.120 146 
+(-) BNPL (CDCI) - Liabilities (5.435) (5.794) (5.791) (6.074) (5.871) 436 
+(=) Net Payment Book (CDCI) 831 665 350 128 249 582 
+(-) Current Loans and Financing (762) (735) (1.218) (704) (447) (315) 
+(-) Noncurrent Loans and Financing (1.600) (271) (2.695) (4.162) (3.912) 2.312 
+(=) Gross Debt (2.362) (1.006) (3.913) (4.866) (4.359) 1.997 
+Suppliers Financing (941) (2.430) (2.370) (2.281) (1.730) 789 
+Receivables Investment Fund - FIDC (Third-Party Quotas) (1.937) (1.742) (1.578) (903) (538) (1.399) 
+(=) Gross Debt + Suppliers Financing + Net CDCI + FIDC (4.409) (4.514) (7.512) (7.922) (6.377) 1.968 
+(+) Cash and financial investments 1.484 1.539 2.114 1.883 1.201 283 
+(+) Accounts Receivable - Credit Cards 308 391 276 295 371 (63) 
+(+) Other Accounts Receivable 1.369 1.455 639 791 895 474 
+Cash, Investments, Credit Cards, Advances and Others 3.161 3.385 3.029 2.968 2.466 695 
+(=) Net Debt + Suppliers Financing + Net CDCI+ FIDC (1.248) (1.129) (4.483) (4.954) (3.911) 2.663 
+Reported Adjusted EBITDA (LTM) 2.583 2.555 2.369 2.273 2.153 
+Net Debt/Adjusted EBITDA + Suppliers Financing + Net CDCI + FIDC 0,5x 0,4x 1,9x 2,2x 1,8x
+Shareholders' Equity 1.778 2.774 2.635 1.539 2.088
+
+[p. 20]
+6 
+ 
+Managerial Cash Flow – Quarterly and Last 12 Months 
+In 1Q'26, we observed both quarterly performance and the last twelve months results, as shown in the table below: 
+ 
+ 
+ 
+1Q’26 – Quarter: Free Cash Flow of +R$ 852 million. 
+ 
+The change in working capital, composed of payables and inventories, totaled R$ 772 million in 1Q'26, mainly reflecting 
+the seasonal build-up of inventories ahead of the FIFA World Cup and Mother’s Day, as well as extended payment terms 
+with suppliers. 
+ 
+Within legal claims, considering labor-related cases only, savings reached 34%, representing a reduction of R$ 44 million. 
+ 
+Another highlight was the R$ 234 million decreases in interest paid vs. 4Q25, already reflecting initiatives from the new 
+capital structure 
+ 
+We ended 1Q'26 with Free Cash Flow to the Firm generation of R$ 852 million. The net cash variation was a use of R$ 
+(224) million, still reflecting interest payments and fundraising, despite improvements in profitability and operating 
+efficiency. Compared to the prior period, cash consumption improved to R$ (224) million vs. R$ (1.5) billion. 
+ 
+6MTD (Last six months): free cash flow to the firm of +BRL 2.7 billion, compared to BRL 917 million. 
+ 
+12MTD (Last twelve months): free cash flow to the firm of +BRL 3.3 billion. We closed the last twelve months as of 1Q'26 
+with free cash flow to the firm generation of BRL 3.3 billion versus BRL 831 million (1Q'25 12MTD), mainly reflecting the 
+recovery in sales, improved profitability, operational loss reductions, lower labor-related claims and tax monetization. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quarterly analysis * Last 12 Months Analysis
+*
+1Q26 4Q25 3Q25 2Q25 1Q25 4Q24 3Q24 2Q24 1Q24 * 1Q26 1Q25 1Q24 1Q23 1Q22
+Profit (loss) for the period (1.064) (1.529) (496) (555) (408) (452) (369) 37 (261) (3.644) (1.192) (2.589) (657) (459) 
+Cash profit after adjustments 485 1.146 1.073 402 675 850 801 724 689 3.106 3.050 2.806 3.986 3.994 
+Change in working capital 772 1.087 (413) (200) (603) 683 (45) 148 (237) 1.246 183 741 1.776 96 
+Inventories (367) (97) (113) 128 (312) 39 (367) (22) (31) (449) (662) 1.988 389 965 
+Suppliers 1.139 1.184 (300) (328) (291) 644 322 170 (206) 1.695 845 (1.247) 1.387 (869) 
+Losses (268) (283) (273) (268) (229) (261) (280) (251) (212) (1.092) (1.021) (1.107) (1.153) (904) 
+Legal claims (108) (126) (77) (145) (137) (210) (212) (219) (216) (456) (778) (1.184) (1.097) (1.740) 
+Labor (85) (71) (55) (128) (129) (196) (194) (198) (197) (339) (717) (1.113) (1.016) (1.620) 
+Civil and others (23) (55) (22) (17) (8) (14) (18) (21) (19) (117) (61) (71) (81) (120) 
+Pass-through to third parties (100) 276 207 98 (58) 251 (81) (5) (38) 481 107 (199) 132 (43) 
+Taxes to be recovered/paid 269 173 163 391 308 113 206 357 203 996 984 1.512 49 (628) 
+Other Assets and Liabilities 114 (131) 119 192 49 145 (268) (328) (65) 294 (403) (108) 458 (465) 
+Net cash generated (applied) in operating activities 1.164 2.142 799 470 5 1.571 121 426 124 4.575 2.123 2.461 4.151 310 
+Net cash generated (applied) in leasing activities (259) (289) (227) (225) (271) (279) (255) (255) (252) (1.000) (1.060) (1.043) (1.131) (1.096) 
+Net cash generated (applied) in investing activities (53) (42) (84) (72) (56) (53) (46) (77) (48) (251) (232) (302) (726) (1.227) 
+Free cash flow 852 1.811 488 173 (322) 1.239 (180) 94 (176) 3.324 831 1.116 2.294 (2.013) 
+Net borrowings (414) (559) 309 923 (649) 184 883 338 23 259 756 208 (1.593) 1.198 
+Interest payments (662) (896) (737) (596) (554) (542) (471) (451) (525) (2.891) (2.018) (2.574) (2.316) (1.042) 
+Follow-on, net of borrowing costs - - - - - 1 (1) - - - - 602 (35) (33) 
+Others
+Net cash generated (applied) in financing activities (1.076) (1.455) (428) 328 (1.203) (357) 411 (113) (502) (2.631) (1.262) (1.764) (3.944) 123 
+Beginning balance of cash and cash equivalents 3.385 3.029 2.969 2.468 3.993 3.111 2.879 2.900 3.578 2.468 2.900 3.548 5.198 7.088 
+Final balance of cash and cash equivalents 3.161 3.385 3.029 2.968 2.468 3.993 3.111 2.879 2.900 3.161 2.468 2.900 3.548 5.198 
+Cash change (224) 356 60 500 (1.525) 882 232 (21) (678) 693 (432) (648) (1.650) (1.890) 
+*Excluding the Bradescard deal in 4Q22 of R$ 1.75 billion. 
+(442)
+906 
+545 
+917 
+2.663 
+1Q'22 1Q'23 1Q'24 1Q'25 1Q'26
+ 
+Quarterly Free Cash Flow – Last 12 Months 
+(R$ million) 
+Free Cash Flow to the Firm – last six months 
+(R$ million) 
+(2.013)
+544 
+1.116 831 
+3.324 
+1Q'22 1Q'23 1Q'24 1Q'25 1Q'26
+
+[p. 21]
+7 
+ 
+CAPEX 
+ 
+Investments remain directed toward projects with clear returns, especially in technology and logistics, supporting 
+digitalization and the improvement of customer experience. In 1Q ’26, investments totaled R$ 61 million, with over 70% 
+of the total allocated to technology and logistics-related projects. In the period, Capex was 13% lower vs. 1Q’25. 
+ 
+ 
+ 
+Store Movements by Format and Brand 
+Store and distribution center optimization prioritizes profitability and productivity, reinforcing complementarity with 
+digital channels. Over the last 12 months, considering openings and closures, 26 stores were closed—12 under the Casas 
+Bahia format and 14 under the Pontofrio format—totaling 1,039 stores at the end of the period. We remain rigorous in 
+monitoring the performance of each store and distribution center, implementing corrective actions and, when necessary, 
+closing operations that do not generate value. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ million Q1'26 Q1'25 %
+Logistics 8 6 42%
+New Stores 0 5 (99%)
+Stores Renovation 12 3 n/a
+Technology 41 51 (20%)
+Others 0 5 (95%)
+Total 61 70 (13%)
+Casas Bahia Q1'25 Q4'25 Opening Square meter
+optimization Closure Q1'26
+Street 756 755 - - 1 754 
+Shopping Malls 177 168 - - 1 167 
+Consolidated (total) 933 923 - - 2 921 
+Sales Area ('000 m2) 868 860 - 0 2 859 
+Total Area ('000 m2) 1.378 1.369 - (0) 3 1.366 
+Pontofrio Q1'25 Q4'25 Opening Square meter
+optimization Closure Q1'26
+Street 84 82 - - 1 81 
+Shopping Malls 48 37 - - - 37 
+Consolidated (total) 132 119 - - 1 118 
+Sales Area ('000 m2) 74 66 - 0 1 65 
+Total Area ('000 m2) 120 108 - (0) 1 107 
+Consolidated Q1'25 Q4'25 Opening Square meter
+optimization Closure Q1'26
+Street 840 837 - - 2 835 
+Shopping Malls 225 205 - - 1 204 
+Consolidated (total) 1.065 1.042 - - 3 1.039 
+Sales Area ('000 m2) 941 926 - 1 3 924 
+Total Area ('000 m2) 1.498 1.477 - (1) 3 1.473 
+Distribution Centers Q1'25 Q4'25 Opening Square meter
+optimization Closure Q1'26
+DCs 25 24 - - - 24 
+Total Area ('000 m2) 1.112 1.107 - 2 - 1.109 
+Consolidated (Total) Q1'25 Q4'25 Opening Square meter
+optimization Closure Q1'26
+Total Area ('000 m2) 2.611 2.585 - 1 3 2.582
+
+[p. 22]
+8 
+ 
+Financial Solutions 
+Financial solutions enhance the value proposition of the Casas Bahia ecosystem, strengthening customer loyalty, 
+recurrence, and monetization throughout the customer lifecycle. 
+ 
+ 
+ 
+Credit – Buy Now, Pay Later 
+The in-house credit program is a profitable service across both physical and online channels (1P and 3P) and provides 
+purchase opportunities for customers who have limited or no access to credit. In 1Q’26, the credit portfolio grew 3% y/y 
+and reached R$ 6. 3 billion. In physical stores, penetration was 2 4,3%, following seasonality. In 1P online, digital credit 
+penetration reached 9.9%, while in 3P it represented 9.6% of sales and is enabled for more than +4,900 sellers (over 87% 
+of whom have already made sales). 
+ 
+The credit program remains a driver of profitable growth and a competitive advantage for the Group, expanding digital 
+reach and already covering more than 4,700 municipalities without physical presence (over 94% of Brazilian 
+municipalities). This strength, combined with disciplined underwriting and collection models, sustains portfolio quality 
+and expands monetization opportunities. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Figures 1Q’26 
+ 
+TPV 
+(R$ million) 
+Card TPV: On and Off Us 
+• Total TPV reached R$ 12.5 billion, +4,2% vs. 1Q’25. 
+• Credit portfolio reached R$ 6.3 billion, up 3.0% y/y 
+• Over 90 at 8.8% and loss over portfolio at 4.7%. 
+• Co-branded card TPV reached R$ 5.4 billion, with a total of 5.9 
+million customers. 
+• banQi reached over +9 million opened accounts, up 11% vs. 
+1Q’25. 
+Credit Production – Total 
+(R$ billion) 
+Digital Credit Production 
+(R$ million) 
+Participation of Digital and Physical BNPL (%) 
+ 
+ 
+6,3
+7,9 9,0 9,7 9,0 8,6 7,7 9,0 9,9
+5,3
+7,4 8,9 9,2
+8,8
+9,7 9,0 9,1 9,6
+25,5 
+27,2 26,5 
+23,8 23,7 
+25,5 25,5
+23,0 24,3
+Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+1P Online 3P Online Série3
+72 86 114 165 143 149 155 207 172 
+184 212 220 
+270 
+212 210 209 
+275 
+246 257 298 333
+434
+355 358 364
+481
+419
+Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+3P 1P
+1,8
+2,1 2,0
+2,4
+2,0
+2,4 2,5
+2,9
+2,2
+ -
+Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+5.300 6.118 6.281
+4.880
+5.204 5.444
+822
+711 80911.002 12.033 12.534
+Q1'24 Q1'25 Q1'26
+BNPL Cards banQi + banQi Payments
+
+[p. 23]
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The over-90-day delinquency rate was 8.8%, stable sequentially and up 30 bps vs. 1Q’25, reflecting consistency in portfolio 
+quality within a still -challenging credit environment. Net loss over the active portfolio was 4. 7%, stable y/y, reinforcing 
+the positive trends in the credit portfolio indicators. We continue to monitor the economic environment cautiously and 
+maintain a conservative approach, ensuring the portfolio’s solidity and sustainability. 
+banQi 
+ 
+Today, banQi’s focus is to generate value for the Company by leveraging the existing ecosystem. The app has reached 25.7 
+million downloads and 9 million accounts. The app is increasingly embedded in customers’ daily routines, and we 
+highlight: (i) R$ 3 3.2 billion in accumulated transactions; (ii) accumulated TPV reaching R$ 1 6.4 billion; and (iii) usage 
+frequency of more than 60 times over the last 360 days. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Aging of the Credit Portfolio 
+(R$ million) Portfolio Evolution 
+(R$ billion) 
+ 
+ 
+ADA 
+(R$ million) 
+Loss over Portfolio 
+(R$ million) 
+* May include differences from transitory accounts and taxes with accounts receivable balances – 
+management view 
+Apps Downloads
+Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Quarter 816 793 819 703 650 576 578 660 785 728 657 1.410 889 
+Accumulated 16.548 17.341 18.160 18.863 19.513 20.089 20.667 21.327 22.112 22.840 23.497 24.907 25.796 116%
+New Accounts
+Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Quarter 263 222 181 152 144 108 111 153 258 236 203 243 210 
+Accumulated 6.832 7.054 7.235 7.387 7.531 7.639 7.750 7.903 8.161 8.397 8.600 8.843 9.053 110%
+Total Transactions 
+Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Quarter 1.839 1.876 1.868 1.834 1.662 1.668 1.620 1.606 1.456 1.513 1.558 1.680 1.568 
+Accumulated 13.315 15.191 17.059 18.893 20.555 22.223 23.843 25.449 26.905 28.418 29.976 31.656 33.224 136%
+Total TPV
+Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Quarter 909 923 919 903 822 826 799 782 711 752 776 855 809 
+Accumulated 6.547 7.470 8.389 9.292 10.113 10.935 11.738 12.520 13.231 13.983 14.759 15.614 16.423 136%
+Store Transactions
+Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Quarter 138 136 130 122 104 107 99 99 82 88 89 95 79 
+Accumulated 1.538 1.674 1.804 1.926 2.030 2.137 2.236 2.335 2.425 2.513 2.602 2.697 2.776 122%
+Average frequency use of the banQi app (# of times over 360 days)
+Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Average frequency 25 29 33 42 48 54 59 61 62 61 61 60 60 133%
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+CAGR 2023-2026
+587 586 592 626 661 642 658 697 671
+11,1% 10,6% 10,5% 10,2% 10,8% 10,4% 10,6% 10,6% 10,7%
+0,0 %
+5,0 %
+10, 0%
+15, 0%
+20, 0%
+25, 0%
+30, 0%
+35, 0%
+40, 0%
+0
+100
+200
+300
+400
+500
+600
+700
+800
+900
+100 0
+Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+ADA Balance ADA Balance/Active Portfolio
+5,3 5,5 5,7 6,2 6,1 6,1 6,2 6,6 6,3
+9,0% 8,5% 8,4% 8,0% 8,5% 8,4% 8,4% 8,6% 8,8%
+0,0 %
+5,0 %
+10, 0%
+15, 0%
+20, 0%
+25, 0%
+30, 0%
+35, 0%
+40, 0%
+45, 0%
+50, 0%
+0,0 0
+4,0 0
+8,0 0
+Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Active portfolio* 90+ overdue
+191
+263 273 281
+259 247
+276
+301 293
+3,6% 4,8% 4,8% 4,6% 4,2% 4,0% 4,5% 4,6% 4,7%
+-3,0%
+2,0 %
+7,0 %
+12, 0%
+17, 0%
+22, 0%
+27, 0%
+32, 0%
+50
+100
+150
+200
+250
+300
+350
+Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q1'26
+Loss Loss/Active Portfolio
+BNPL Q1'25 % total Q1'26 % total Var(%)
+Not Yet Due 4.484 73,3% 4.454 70,9% -0,7%
+Past due
+Past due from 6 to 30 days 582 9,5% 610 9,7% 4,7%
+Past due from 31 to 60 days 332 5,4% 376 6,0% 13,3%
+Past due from 61 to 90 days 202 3,3% 286 4,6% 41,2%
+Past due from 91 to 120 days 189 3,1% 168 2,7% -10,9%
+Past due from 121 to 150 days 169 2,8% 201 3,2% 18,8%
+Past due from 151 to 180 days 160 2,6% 187 3,0% 16,5%
+Total 6.118 100,0% 6.281 100,0% 2,7%
+
+[p. 24]
+10 
+ 
+Social - Diversity 
+ 
+Highlights ESG 
+The ESG agenda is integrated into the operational strategy, contributing to efficiency, people engagement, and long-
+term risk mitigation. Below are the highlights for the first quarter of 2026. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Renewable Energy: We closed the first quarter of 2026 with 90% renewable energy supplying the operations of our stores, distribution centers, Bartira 
+Factory, and offices, in line with our strategy to migrate to the Free Energy Market and expand distributed generation plants, both based on renewable 
+sources. Currently, we operate 22 distributed generation plants under the Group’s Energy Efficiency Program, spread across 16 states in Brazil. In this cycle, 
+the remaining 10% related to energy attribute certificate purchases (I-RECs) was not considered, as these certificates were acquired in December 2025. 
+REVIVA Recycling Program: Approximately 595.5 tons of waste were sent for recycling and reuse, benefiting nine partner cooperatives. In addition, 560 kg 
+of electronic waste were collected for proper disposal and recycling through the Group’s reverse logistics system, supported by 747 e-waste collection 
+points installed across Grupo Casas Bahia’s physical stores and operations, in partnership with GreenEletron. 
+Circular Economy: Throughout 1Q'26, our Technical Assistance Department (DAT) recovered more than 99% of returned merchandise, including consumer 
+electronics, home appliances, and furniture. This represents 4,131 tons of products that underwent assessment, maintenance, and quality testing and 
+were subsequently sold through our outlet stores and/or resold to certified partners for component reuse—extending product lifecycles, reducing waste 
+generation, and consequently decreasing the extraction of raw materials for the production of new goods. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Environmental 
+ 
+PRIORITY THEMES DEFINED FOR 2026: 
+ 
+Gender Equity: The Dona de Si program impacted 952 women, and the Female Empowerment Dialogues, held in Manufacturing and Logistics, reached 
+more than 1,350 female employees. Women represent 43% of the company’s total workforce. In 2025, female representation in managerial leadership and 
+above reached 35.8%, exceeding the established target of 35% and increasing by 2.8 p.p. vs. 2024. We have set a target of 36% women in leadership 
+(manager level and above) by December 2026. Currently, we are at 35.7%. Dona de Si 2026: a female development program focused on two pillars: Dona 
+de Si Essência (exclusive training for women), impacting over 300 women, and Dona de Si Encontros (open sessions to expand knowledge for everyone). 
+Gender Equity Campaign: We Are Owners of Our Stories featured 16 stories of female employees. 
+Racial Equity: We established a target of 40% Black professionals in leadership (manager level and above) by December 2026, and we are curre ntly at 
+39.9%. Regarding Inclusion of People with Disabilities, we currently have 1,361 employees with disabilities (PwDs). The Jornada Sem Barreiras Program is 
+an employability, training, and leadership development initiative, supported by a collaborative survey that included 164 PwD employees for the 
+development of the program modules, while 100 leaders contributed to defining the leadership training topics. The program begins its training phase in 
+June 2025. 
+Dedication Also Means Respect: an anti-harassment and anti-discrimination program that starts the year with the continuation of the Respect Dialogues 
+(an awareness initiative for store managers), impacting more than 300 leaders to date. We also launched the Erase Your Prejudice initiative, including the 
+distribution of a pencil with the campaign message to all senior leaders during the Leaders Meeting in April. 
+ 
+Youth Leadership: We began the year with more than 11,600 applicants enrolled in PROA, with 2,348 approved for the classes of 1Q'26. 
+Encouraging Entrepreneurship: The first quarter marked the launch of communications for the Dona de Si 2026 project. In this initial phase, we have 
+registered 146 women entrepreneurs in São Paulo, 427 in Rio de Janeiro, 204 in Rio Grande do Sul, 131 in Bahia, and 92 in the Federal District. The selection 
+process is ongoing, with applications still open to fill the 1,500 slots available for 2026. 
+Diverse Leadership: For 2026, we reaffirm our commitment to supporting our social pillar partners —PROA and Instituto Dona de Si —by promoting and 
+delivering Financial Education courses, aimed at both personal finance and business management. 
+ 
+ 
+ Corporate Governance 
+ 
+ 
+Social - Foundation Casas Bahia 
+ 
+Robust Corporate Governance practices: 
+• Listing on the Novo Mercado. 
+• Independent board members. 
+• Separate executives serving as CEO and Chairman of the Board. 
+• Statutory Audit, Risk, and Compliance Committee. 
+Election of the Board of Officers: Re-election of the statutory board, as approved in the Board of Directors’ meeting held on April 30. 
+Integrity Program: We strengthened the ongoing maintenance of communication, training, and culture initiatives related to Audit, Risk, and Compliance. 
+We also accelerated and increased the visibility of our integrity ambassadors’ program (Ecos de Integridade) and our artificial intelligence agent designed 
+to disseminate GRC knowledge (SofIA). 
+Corporate Risk Matrix: The Company initiated a review of its corporate risk matrix, including interviews with executives and the consolidation of ri sk 
+profiles. As of April 2026, the process moved into the calibration phase with C-level executives, followed by final presentation to the Board of Directors 
+and the Audit, Risk, and Compliance Committee. This review is under the responsibility of the Audit, Risk, and Compliance Executive Office. 
+ESG Indices: For the fourth consecutive year, we were included in the Efficient Carbon Index (ICO2) portfolio, reinforcing our resilient a nd efficient 
+approach to managing greenhouse gas emissions. 
+Conscious Capitalism : We adopted the principles of Conscious Capitalism as a guiding framework for our transformation journey, reinforcing our 
+commitment to go beyond profit generation. We operate driven by a higher purpose, promoting the creation of sustainable value for all our stakeholders 
+and fostering consistent, long-term growth based on ethical, human-centered, and responsible practices. 
+.
+
+[p. 25]
+11 
+ 
+ Income Statement 
+ 
+Consolidated Income Statement
+R$ million Q1'26 Q1'25 ∆
+Gross Revenues 8.830 8.299 6,4%
+Net Revenue 7.416 6.991 6,1%
+Cost of Goods Sold (5.115) (4.829) 5,9%
+Depreciation (Logistic) (54) (53) 1,9%
+Gross Profit 2.247 2.109 6,5%
+Selling Expenses (1.442) (1.351) 6,7%
+General and Administrative Expenses (262) (265) (1,1%)
+Equity Income 0 24 (100,0%)
+Other Operating Income (Expenses) (88) (18) n/a
+Total Operating Expenses (1.792) (1.610) 11,3%
+Depreciation and Amortization (205) (212) (3,3%)
+EBIT 250 287 (12,9%)
+Financial Income 101 110 (8,2%)
+Expense Income (1.272) (1.032) 23,3%
+Net Financial Income (Expense) (1.171) (922) 27,0%
+Earnings before Income Tax (921) (635) 45,0%
+Income Tax & Social Contribution (143) 227 n/a
+Net Income (Loss) (1.064) (408) n/a
+EBIT 250 287 (12,9%)
+Depreciation (Logistic) 54 53 1,9%
+Depreciation and Amortization 205 212 (3,3%)
+EBITDA 509 552 (7,8%)
+Other Operational Expenses and Revenues 88 18 n/a
+Adjusted EBITDA 597 570 4,7%
+% on Net Sales Revenue Q1'26 Q1'25 ∆
+Gross Profit 30,3% 30,2% 10bps
+Selling Expenses (19,4%) (19,3%) (10bps)
+General and Administrative Expenses (3,5%) (3,8%) 30bps
+Equity Income 0,0% 0,3% (30bps)
+Other Operating Income (Expenses) (1,2%) (0,3%) (90bps)
+Total Operating Expense (24,2%) (23,0%) (120bps)
+Depreciation and Amortization (2,8%) (3,0%) 20bps
+EBIT 3,4% 4,1% (70bps)
+Net Financial Income (Expense) (15,8%) (13,2%) (260bps)
+Earnings before Income Tax (12,4%) (9,1%) (330bps)
+Income Tax & Social Contribution (1,9%) 3,2% (510bps)
+Net Income (Loss) (14,3%) (5,8%) (850bps)
+EBITDA 6,9% 7,9% (100bps)
+Adjusted EBITDA 8,1% 8,2% (10bps)
+
+[p. 26]
+12 
+ 
+Balance Sheet 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Balance Sheet
+Assets
+R$ million 03.31.2026 03.31.2025
+Current Assets 15.317 13.565 
+Cash and Cash Equivalents 1.206 935 
+Securities and financial instruments 326 266 
+Accounts Receivables 4.741 4.332 
+Credit Card 299 342 
+Payment Book 5.651 5.532 
+Payment Book - Interest to be incurred (1.641) (1.732) 
+Others 622 605 
+Accounts Receivables B2B 747 289 
+Allowance for doubtful accounts (937) (704) 
+Inventories 5.399 5.034 
+Recoverable Taxes 1.905 1.834 
+Related Parties 281 291 
+Assets for sale 291 - 
+Expenses in Advance 430 294 
+Other Assets 738 579 
+- - 
+Noncurrent Assets 18.013 19.251 
+Long-Term Assets 12.053 12.710 
+Financial Instruments - 16 
+Accounts Receivables 362 372 
+Credit Card 9 29 
+Payment Book 613 588 
+Payment Book - Interest to be incurred (194) (182) 
+Allowance for doubtful accounts (66) (63) 
+Recoverable Taxes 4.481 3.975 
+Financial Instruments 11 11 
+Deferred income tax and social contribution 5.037 5.996 
+Related Parties 104 109 
+Judicial Deposits 1.892 1.760 
+Prepaid Expenses and Other Assets 166 471 
+Right of Use Asset 2.090 2.352 
+Investments 16 267 
+Fixed Assets 1.196 1.252 
+Intangible Assets 2.658 2.670 
+TOTAL ASSETS 33.330 32.816 
+Liabilities and Shareholders' Equity
+R$ million 03.31.2026 03.31.2025
+Current Liabilities 21.348 18.443 
+Taxes and Social Contribution Payable 620 589 
+Trade accounts payable 9.497 7.810 
+Suppliers ('Portal') 70 - 
+Trade accounts payable – agreement 941 1.730 
+Loans and Financing 762 446 
+Payment Book (CDCI) 5.049 5.357 
+Payment Book (CDCI) - Interest to be appropriated (401) (462) 
+Fiscal Obligations 1.687 660 
+Related Parties 9 1 
+Defered revenues 188 195 
+Onlending of third parties 1.187 706 
+Leasing debts 796 588 
+Others 943 823 
+- 
+Long-Term Liabilities 10.204 12.284 
+Loans and Financing 1.600 3.913 
+Payment Book (CDCI) 386 514 
+Payment Book (CDCI) - Interest to be appropriated (19) (27) 
+Deferred Income Tax 19 20 
+Tax Obligations 465 26 
+Provision for lawsuits 1.585 2.386 
+Leasing debts 2.289 2.689 
+Defered Revenue 1.190 1.547 
+FIDC's (seniores quota) 1.937 - 
+Others 752 1.216 
+Shareholders' Equity 1.778 2.089 
+LIABILITIES AND SHAREHOLDERS' EQUITY 33.330 32.816
+
+[p. 27]
+13 
+ 
+Cash Flow 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cash Flow (R$ million) 
+03.31.2026 03.31.2025
+Net Income (loss) (1.064) (408) 
+Adjustment: 
+Depreciation and Amortization 259 264 
+Equity Income - (24) 
+Deferred Income Tax and Social Contribution 133 (236) 
+Interest and Exchange Variation 653 498 
+Debt Modification - - 
+Provisions for lawsuits, net of reversals (118) 57 
+Provisions for labor lawsuits, net of reversals (138) 73 
+Provisions for other lawsuits, net of reversals 20 (16) 
+Allowance for doubtful accounts 319 277 
+Gain (loss) with fixed and intangible assets 1 8 
+Estimated loss of net recoverable value of inventories 4 (27) 
+Deferred Revenue (48) (57) 
+Write-off of right of use and lease liability - (7) 
+Share-based Payments - 4 
+Others (1) (1) 
+138 348 
+Asset (Increase) Decreases
+Accounts Receivable 32 (42) 
+Securities - - 
+Inventories (367) (312) 
+Taxes to Recover 13 204 
+Related Parties 19 3 
+Judicial Deposits 380 (88) 
+Expenses in Advance (61) (21) 
+Other Assets (273) (66) 
+(257) (322) 
+Liabilities Increase (Decreases)
+Suppliers 4.031 2.023 
+Portal Suppliers - (47) 
+Fiscal Obligations 256 104 
+Social and labor obligations 59 14 
+Onlending of third parties (100) (58) 
+Deferred Revenue (44) (30) 
+Lawsuits (108) (137) 
+Lawsuits - Labor (85) (129) 
+Lawsuits - Others (23) (8) 
+Other debts (145) 230 
+3.949 2.099 
+Asset and Liabilities - Others (Increase) Decreases
+Dividends Received from investees - 20 
+Income Tax Paid (5) (1) 
+(5) 19 
+Net Cash (used) in Operating Activities 3.825 2.144 
+Cash Flow from Investment Activities
+Acquisition of fixed and intangible assets (55) (57) 
+Disposal of property, plant and equipment and intangible assets 2 1 
+Net Cash (used) in Operating Activities (53) (56) 
+Cash Flow from Financing Activities
+Proceeds from borrowings 3.822 2.521 
+Payments of Principal (2.747) (2.454) 
+Payments of Interest (315) (227) 
+Payments of Dividend - Lease (155) (158) 
+Payments of Interest - Lease (104) (113) 
+Trade accounts payable – agreement (4.381) (2.983) 
+Capital Increase 42 130 
+Net Cash (used in) Financing Activities (3.838) (3.284) 
+Cash and cash equivalents of the opening balance 1.225 2.131 
+Cash and Cash equivalents at the End of the Period 1.159 935 
+Change in Cash and Cash Equivalents (66) (1.196)
+
+[p. 28]
+14 
+ 
+BHIA3 
+The shares of Grupo Casas Bahia are listed for trading on B3 under the ticker “BHIA3” and are admitted to 
+trading on the Novo Mercado segment. Accordingly, the common shares of Grupo Casas Bahia are traded in 
+Brazilian Reais (R$) on the Novo Mercado segment of B3 S.A. – Brasil, Bolsa, Balcão, under the ticker BHIA3. 
+ 
+Earnings Conference Call 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Videoconference 
+Portuguese/English: 
+Clique aqui 
+Elcio Ito 
+CFO & IRO 
+Gabriel Succar 
+RI Director 
+Daniel Morais 
+RI Specialist 
+May 13, 2026 
+(after market close) 
+Simultaneously, the results presentation video will be made available to allow the 
+next day’s conference call to be dedicated exclusively to questions and answers. 
+ 
+Videoconference 
+(Questions and Answers Only)
+ May 14, 2026 
+14:00 PM (Brasília time) 
+13:00 PM (Nova York time) 
+Portuguese/English (simultaneous translation) 
+Caio Gandolfi 
+RI Analyst
