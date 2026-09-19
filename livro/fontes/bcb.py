@@ -46,15 +46,19 @@ def coletar_sgs(cli: Cliente | None = None, n: int = 10) -> dict:
 
 
 def parse_focus(rows: list, indicador: str) -> dict:
-    """Mediana mais recente por ano de referencia: {ano: {mediana, data}}."""
+    """Mediana mais recente por ano de referencia: {ano: {mediana, data, anterior:
+    {mediana, data}}}. 'anterior' e a pesquisa anterior (data distinta) do mesmo ano."""
     out = {}
     for row in rows or []:
         try:
             ano = str(row.get("DataReferencia"))
-            if ano in out:
-                continue
-            out[ano] = {"mediana": float(row.get("Mediana")), "media": row.get("Media"),
-                        "data": row.get("Data"), "respondentes": row.get("numeroRespondentes")}
+            med = float(row.get("Mediana"))
+            data = row.get("Data")
+            if ano not in out:
+                out[ano] = {"mediana": med, "media": row.get("Media"), "data": data,
+                            "respondentes": row.get("numeroRespondentes"), "anterior": None}
+            elif out[ano]["anterior"] is None and data != out[ano]["data"]:
+                out[ano]["anterior"] = {"mediana": med, "data": data}
         except Exception:
             continue
     return {"indicador": indicador, "por_ano": out}

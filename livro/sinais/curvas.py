@@ -7,6 +7,8 @@ de NY). Nunca misturar os tres na mesma comparacao."""
 
 from __future__ import annotations
 
+import re
+
 from livro import fmt
 from livro import indicadores as ind
 from livro.sinais.base import Alerta, Contexto, Estado, Regra
@@ -289,4 +291,233 @@ class C07UST(Regra):
                        dados={"deltas": deltas, "2s10s": s2s10})]
 
 
+# ---------------------------------------------------------------- v1.1
+def _serie_alinhada(hist_a: list[list], hist_b: list[list], idx: int = 1) -> list[tuple[str, float]]:
+    """[(data, a - b)] nas datas comuns (taxas em %)."""
+    b = {h[0]: h[idx] for h in hist_b if h[idx] is not None}
+    return [(h[0], h[idx] - b[h[0]]) for h in hist_a if h[idx] is not None and h[0] in b]
+
+
+def _extremo(vals: list[float], janela: int) -> str | None:
+    sub = vals[-janela:]
+    if len(sub) < 20:
+        return None
+    if vals[-1] >= max(sub):
+        return "máxima"
+    if vals[-1] <= min(sub):
+        return "mínima"
+    return None
+
+
+def _niveis_pp(a: float, b: float, passo: float, banda: float) -> list[float]:
+    """Multiplos de `passo` cruzados entre b (anterior) e a (atual), com banda em pp."""
+    lo, hi = min(a, b), max(a, b)
+    k = int(lo // passo) * passo
+    out = []
+    while k <= hi + passo:
+        if b < k <= a - banda or b > k >= a + banda:
+            out.append(round(k, 2))
+        k += passo
+    return out
+
+
+class C02Inclinacao(Regra):
+    id = "C02"
+    familia = "curva"
+
+    def avaliar(self, ctx, estado):
+        L = ctx.limiares.get("C02_INCLINACAO") or {}
+        di = ctx.curvas.get("di") or {}
+        ultimo = di.get("ultimo_pregao")
+        if not di.get("historico") or not ultimo or ultimo < ctx.hoje.isoformat():
+            return []
+        if estado.ultima_data("C02") == ultimo:
+            return []
+        out, linhas, gatilhos, sev = [], [], [], "info"
+        for longo, curto in (L.get("pares") or [["DI1F35", "DI1F28"], ["DI1F30", "DI1F28"]]):
+            s = _serie_alinhada(_serie_di(ctx, longo), _serie_di(ctx, curto))
+            if len(s) < 7:
+                continue
+            vals = [v * 100.0 for _, v in s]   # bps
+            hoje_v, ont, v5 = vals[-1], vals[-2], vals[-6]
+            d1, d5 = hoje_v - ont, hoje_v - v5
+            rot = f"{longo[3:]}-{curto[3:]}"
+            dl = _delta(_serie_di(ctx, longo)) or 0.0
+            dc = _delta(_serie_di(ctx, curto)) or 0.0
+            forma = ("bear steepening (longo abriu mais)" if d1 > 0 and dl > 0 else "bull steepening (curto fechou mais)" if d1 > 0
+                     else "bull flattening (longo fechou mais)" if d1 < 0 and dl < 0 else "bear flattening (curto abriu mais)")
+            linhas.append(f"{rot} {fmt.bps(hoje_v)} bps ({fmt.bps(d1)} dia · {fmt.bps(d5)} 5 pregões)")
+            if abs(d1) >= L.get("bps_dia", 10):
+                sev = "atencao"
+                gatilhos.append(f"{rot} {fmt.bps(d1)} bps no dia: {forma}")
+            elif abs(d5) >= L.get("bps_5d", 20):
+                sev = "atencao"
+                gatilhos.append(f"{rot} {fmt.bps(d5)} bps em 5 pregões")
+            banda = float(L.get("banda_zero_bps", 2))
+            if (ont > banda and hoje_v <= -banda) or (ont < -banda and hoje_v >= banda):
+                sev = "atencao"
+                gatilhos.append(f"{rot} {'inverteu' if hoje_v < 0 else 'desinverteu'} (cruzou zero)")
+            ext = _extremo(vals, int(L.get("extremo_sessoes", 252)))
+            if ext:
+                gatilhos.append(f"{rot} na {ext} de {min(len(vals), int(L.get('extremo_sessoes', 252)))} pregões")
+        if not gatilhos:
+            return []
+        estado.marcar("C02", ultimo)
+        titulo = "Inclinação da curva DI: " + " · ".join(gatilhos[:3])
+        por_que = "a inclinação separa o que é Copom (curto) do que é prêmio fiscal (longo); steepening com o curto parado é prêmio de risco, não juro"
+        falar = "a curva mudou de forma, não só de nível: o prazo longo está pagando mais (ou menos) prêmio em relação ao curto"
+        return [Alerta(self.id, "DI", sev, "curva", titulo, tag="inclinacao", data=ultimo, corpo=linhas, por_que=por_que,
+                       como_falar=falar, fonte=f"B3 ajuste {fmt.data_br(ultimo)}", ativos_afetados="Tesouro Pré · IPCA+ longos · bancos",
+                       dados={"gatilhos": gatilhos})]
+
+
+class C03NiveisJuro(Regra):
+    id = "C03"
+    familia = "curva"
+
+    def avaliar(self, ctx, estado):
+        L = ctx.limiares.get("C03_NIVEIS_JURO") or {}
+        passo, banda = float(L.get("passo_pp", 0.5)), float(L.get("banda_bps", 3)) / 100.0
+        ext_n = int(L.get("extremo_sessoes", 252))
+        out = []
+        di = ctx.curvas.get("di") or {}
+        ultimo = di.get("ultimo_pregao")
+        if di.get("historico") and ultimo and ultimo >= ctx.hoje.isoformat() and estado.ultima_data("C03:DI") != ultimo:
+            gat, sev = [], "info"
+            for v in (ctx.universo.curvas.get("di", {}).get("vertices") or []):
+                h = _serie_di(ctx, v["codigo"])
+                if len(h) < 2 or h[-1][1] is None or h[-2][1] is None:
+                    continue
+                for n in _niveis_pp(h[-1][1], h[-2][1], passo, banda):
+                    sev = "atencao"
+                    gat.append(f"{v['codigo'][3:]} cruzou {fmt.taxa(n)}% ({'para cima' if h[-1][1] > h[-2][1] else 'para baixo'}, agora {fmt.taxa(h[-1][1])}%)")
+                ext = _extremo([x[1] for x in h if x[1] is not None], ext_n)
+                if ext:
+                    gat.append(f"{v['codigo'][3:]} na {ext} de {min(len(h), ext_n)} pregões: {fmt.taxa(h[-1][1])}%")
+            if gat:
+                estado.marcar("C03:DI", ultimo)
+                out.append(Alerta(self.id, "DI", sev, "curva", "DI em nível: " + " · ".join(gat[:3]), tag="di", data=ultimo,
+                                  corpo=gat[3:6], por_que="números redondos e extremos de um ano são onde o mercado revisa alocação; o DI de 2035 em nova máxima é o mercado cobrando prêmio fiscal",
+                                  como_falar="a taxa cruzou um nível que o mercado observa; vale dizer o que mudou no cenário para justificar",
+                                  fonte=f"B3 ajuste {fmt.data_br(ultimo)}", dados={"gatilhos": gat}))
+        tes = (ctx.curvas.get("tesouro") or {})
+        titulos = tes.get("titulos") or {}
+        base = tes.get("data_base")
+        if base and titulos and estado.ultima_data("C03:TD") != base:
+            gat, sev = [], "info"
+            for tid in (L.get("titulos_pre") or ["PRE2029", "PRE2031", "PRE2032"]):
+                h = (titulos.get(tid) or {}).get("historico") or []
+                if len(h) < 2 or h[-1][1] is None or h[-2][1] is None:
+                    continue
+                apelido = (titulos.get(tid) or {}).get("apelido", tid)
+                for n in _niveis_pp(h[-1][1], h[-2][1], passo, banda):
+                    sev = "atencao"
+                    gat.append(f"{apelido} cruzou {fmt.taxa(n)}% (agora {fmt.taxa(h[-1][1])}%)")
+                ext = _extremo([x[1] for x in h if x[1] is not None], ext_n)
+                if ext:
+                    gat.append(f"{apelido} na {ext} de {min(len(h), ext_n)} bases: {fmt.taxa(h[-1][1])}%")
+            if gat:
+                estado.marcar("C03:TD", base)
+                out.append(Alerta(self.id, "TESOURO", sev, "curva", "Prefixado em nível: " + " · ".join(gat[:3]), tag="td", data=base,
+                                  corpo=gat[3:6], por_que="o prefixado em número redondo é a taxa que o cliente memoriza; extremos de um ano mudam a conversa de alongamento",
+                                  como_falar="o prefixado cruzou um nível referência; é o momento de rever se o prazo compensa o risco",
+                                  fonte=f"Tesouro Transparente, base {fmt.data_br(base)}", dados={"gatilhos": gat}))
+        return out
+
+
+class C06Implicita(Regra):
+    id = "C06"
+    familia = "curva"
+
+    def avaliar(self, ctx, estado):
+        L = ctx.limiares.get("C06_IMPLICITA") or {}
+        tes = ctx.curvas.get("tesouro") or {}
+        titulos, base = tes.get("titulos") or {}, tes.get("data_base")
+        if not titulos or not base or estado.ultima_data("C06") == base:
+            return []
+        focus = (((ctx.macro.get("focus") or {}).get("expectativas") or {}).get("IPCA") or {}).get("por_ano") or {}
+        linhas, gatilhos, sev = [], [], "info"
+        passo, banda = float(L.get("passo_pp", 0.5)), float(L.get("banda_bps", 3)) / 100.0
+        for be in (ctx.universo.curvas.get("tesouro", {}).get("breakevens") or []):
+            hp = (titulos.get(be["pre"]) or {}).get("historico") or []
+            hi = (titulos.get(be["ipca"]) or {}).get("historico") or []
+            ipca_por_data = {h[0]: h[1] for h in hi if h[1] is not None}
+            serie = [(h[0], ind.breakeven(h[1], ipca_por_data[h[0]])) for h in hp if h[1] is not None and h[0] in ipca_por_data]
+            if len(serie) < 6:
+                continue
+            vals = [v for _, v in serie]
+            hoje_v, ont, sem = vals[-1], vals[-2], vals[-6]
+            d_sem = ind.bps(hoje_v, sem)
+            rot = be.get("rotulo", "")
+            ano = re.search(r"20\d\d", rot)
+            ano_f = ano.group(0) if ano and ano.group(0) in focus else (max(focus) if focus else None)
+            foc_txt, gap = "", None
+            if ano_f:
+                gap = ind.bps(hoje_v, focus[ano_f]["mediana"])
+                foc_txt = f" vs Focus IPCA {ano_f} {fmt.taxa(focus[ano_f]['mediana'])}% ({fmt.bps(gap)} bps)"
+            linhas.append(f"Implícita {rot}: {fmt.taxa(hoje_v)}% ({fmt.bps(d_sem)} bps na semana){foc_txt}")
+            if d_sem is not None and abs(d_sem) >= L.get("bps_semana", 20):
+                sev = "atencao"
+                gatilhos.append(f"implícita {rot} {fmt.bps(d_sem)} bps na semana")
+            for n in _niveis_pp(hoje_v, ont, passo, banda):
+                sev = "atencao"
+                gatilhos.append(f"implícita {rot} cruzou {fmt.taxa(n)}%")
+            if gap is not None and abs(gap) >= L.get("bps_vs_focus_atencao", 150) and not any(rot in g for g in gatilhos):
+                gatilhos.append(f"implícita {rot} {fmt.bps(gap)} bps acima do Focus" if gap > 0 else f"implícita {rot} {fmt.bps(gap)} bps abaixo do Focus")
+        if not gatilhos:
+            return []
+        estado.marcar("C06", base)
+        titulo = "Inflação implícita: " + " · ".join(gatilhos[:3])
+        return [Alerta(self.id, "TESOURO", sev, "curva", titulo, tag="implicita", data=base, corpo=linhas,
+                       por_que="a implícita é o IPCA que o mercado cobra para trocar IPCA+ por prefixado; acima do Focus, o prefixado paga prêmio; abaixo, o IPCA+ é o seguro barato",
+                       como_falar="o prefixado embute uma inflação de X%; se o cliente acredita em menos que isso, o pré ganha; se acredita em mais, o IPCA+",
+                       fonte=f"Tesouro Transparente base {fmt.data_br(base)}; BCB Focus", ativos_afetados="Tesouro Pré ↔ IPCA+",
+                       dados={"gatilhos": gatilhos})]
+
+
+class C082s10s(Regra):
+    id = "C08"
+    familia = "curva"
+
+    def avaliar(self, ctx, estado):
+        L = ctx.limiares.get("C08_2S10S") or {}
+        ust = ctx.curvas.get("ust") or {}
+        h = ust.get("historico") or []
+        if len(h) < 7:
+            return []
+        prazos = ust.get("prazos") or ["2y", "5y", "10y", "30y"]
+        i2, i10 = prazos.index("2y") + 1, prazos.index("10y") + 1
+        s = [(x[0], (x[i10] - x[i2]) * 100.0) for x in h if x[i2] is not None and x[i10] is not None]
+        if len(s) < 7 or estado.ultima_data("C08") == s[-1][0]:
+            return []
+        vals = [v for _, v in s]
+        hoje_v, ont, v5 = vals[-1], vals[-2], vals[-6]
+        d1, d5 = hoje_v - ont, hoje_v - v5
+        gat, sev = [], "info"
+        if abs(d1) >= L.get("bps_dia", 10):
+            sev = "atencao"
+            gat.append(f"{fmt.bps(d1)} bps no dia")
+        elif abs(d5) >= L.get("bps_5d", 20):
+            sev = "atencao"
+            gat.append(f"{fmt.bps(d5)} bps em 5 pregões")
+        banda = float(L.get("banda_zero_bps", 2))
+        if (ont > banda and hoje_v <= -banda) or (ont < -banda and hoje_v >= banda):
+            sev = "atencao"
+            gat.append("inverteu (cruzou zero)" if hoje_v < 0 else "desinverteu (voltou a positivo)")
+        ext = _extremo(vals, int(L.get("extremo_sessoes", 252)))
+        if ext:
+            gat.append(f"na {ext} de {min(len(vals), int(L.get('extremo_sessoes', 252)))} pregões")
+        if not gat:
+            return []
+        estado.marcar("C08", s[-1][0])
+        titulo = f"UST 2s10s {fmt.bps(hoje_v)} bps: " + " · ".join(gat[:3]) + f" ({fmt.data_br(s[-1][0])})"
+        return [Alerta(self.id, "UST", sev, "curva", titulo, tag="2s10s", data=s[-1][0],
+                       corpo=[f"2y {fmt.taxa(h[-1][i2])} · 10y {fmt.taxa(h[-1][i10])}"],
+                       por_que="a inclinação americana é o termômetro de ciclo: steepening com o 2y caindo é o mercado pedindo cortes; inversão prolongada precede desaceleração",
+                       como_falar="a curva americana mudou de forma; o mercado está reprecificando o ritmo do Fed, e isso chega ao dólar e aos UCITS",
+                       fonte=f"Treasury.gov CMT {fmt.data_br(s[-1][0])}", ativos_afetados="IUAA · IB01 · DXY · CNDX",
+                       dados={"2s10s": hoje_v, "d1": d1, "d5": d5})]
+
+
 REGRAS = [C01DIMovimento(), C04TesouroJuroReal(), C05TesouroVariacaoPU(), C07UST()]
+REGRAS_V11 = [C02Inclinacao(), C03NiveisJuro(), C06Implicita(), C082s10s()]

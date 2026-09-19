@@ -151,3 +151,111 @@ E04_SEC:
 E05_NOTICIA:
   janela_horas: 36
   max_resumo_linhas: 6
+
+# ---------------------------------------------------------------- v1.1
+T02_MM50_100:
+  curta: 50
+  media: 100
+  banda: 0.005
+  confirmacao_sessoes: 2
+  cooldown_sessoes: 10
+
+T06_ACUMULADO_5D:
+  sessoes: 5
+  janela_sigma: 20
+  z_atencao: 2.5
+  z_critico: 3.5
+  cooldown_sessoes: 5
+
+T07_RSI:
+  janela: 14
+  sobrecomprado: 75
+  sobrevendido: 25
+  cooldown_sessoes: 10
+
+T09_VOLUME:
+  mediana_sessoes: 20
+  multiplo: 2.5
+  retorno_minimo: 0.01
+  retorno_atencao: 0.03
+  classes: [acao, etf]
+  blocos_excluidos: [ucits]
+  cooldown_sessoes: 3
+
+T10_FORCA_RELATIVA:
+  janela: 20
+  extremo_sessoes: 63
+  variacao_info: 0.08
+  variacao_atencao: 0.12
+  cooldown_sessoes: 10
+
+T11_PARES:
+  janela: 20
+  historico: 252
+  z_minimo: 2.0
+  z_atencao: 3.0
+  confirmacao_sessoes: 2
+  cooldown_sessoes: 10
+
+T12_SEQUENCIA:
+  degraus: [6, 8, 10]
+  tolerancia: 0.0005
+  cooldown_sessoes: 3
+
+C02_INCLINACAO:
+  pares: [[DI1F35, DI1F28], [DI1F30, DI1F28]]
+  bps_dia: 10
+  bps_5d: 20
+  extremo_sessoes: 252
+  banda_zero_bps: 2
+
+C03_NIVEIS_JURO:
+  passo_pp: 0.5
+  banda_bps: 3
+  extremo_sessoes: 252
+  titulos_pre: [PRE2029, PRE2031, PRE2032]
+
+C06_IMPLICITA:
+  bps_semana: 20
+  passo_pp: 0.5
+  banda_bps: 3
+  bps_vs_focus_atencao: 150
+
+C08_2S10S:
+  bps_dia: 10
+  bps_5d: 20
+  banda_zero_bps: 2
+  extremo_sessoes: 252
+
+F02_DXY:
+  var_atencao: 0.008
+  var_5d: 0.02
+  grade: [95, 100, 105, 110]
+  banda: 0.002
+  mm_longa: 200
+
+F04_MINERIO:
+  var_atencao: 0.03
+  var_critico: 0.05
+  var_5d: 0.06
+  passo_nivel: 10
+  banda: 0.01
+
+F05_BHKP:
+  proxy_semana: 0.03
+  delta_usd_t: 20
+
+E01_RESULTADO:
+  antecedencia: [3, 1, 0]      # sessoes antes: D-3 (info), D-1 (atencao), D0 (info)
+  vol_sessoes: 20
+
+E02_EX_DIVIDENDO:
+  antecedencia: 1
+
+M01_AGENDA_MACRO:
+  alta_relevancia: [Copom, FOMC, IPCA, CPI, Payroll, PCE, PIB, Selic]
+
+M03_FOCUS:
+  bps_ipca_atencao: 10
+  bps_selic_atencao: 25
+  cambio_atencao: 0.05

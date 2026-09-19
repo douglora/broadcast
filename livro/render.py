@@ -170,9 +170,25 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
 
 
 # ---------------------------------------------------------------- agenda
-def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("alta", "media")) -> list[str]:
+def agenda_extras(agenda_json: dict, calendario: dict) -> list[tuple]:
+    """(data, texto) para resultados que so o Yahoo trouxe e para ex-dividendos."""
+    ja = {(r["ticker"], str(r["data"])[:10]) for r in (calendario.get("resultados") or [])}
+    out = []
+    for r in (agenda_json or {}).get("resultados") or []:
+        if (r["ticker"], r["data"]) in ja:
+            continue
+        d = relogios._d(r["data"])
+        out.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())} resultado {r['ticker']} ({r.get('fonte', 'Yahoo')}, {'confirmado' if r.get('confirmado') else 'estimado'})"))
+    for e in (agenda_json or {}).get("ex_dividendos") or []:
+        d = relogios._d(e["data"])
+        v = f" {e.get('moeda', '')} {fmt.num(e['valor'], 2)}".rstrip() if e.get("valor") else ""
+        out.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())} ex-dividendo {e['ticker']}{v} (último provento, Yahoo)"))
+    return out
+
+
+def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("alta", "media"), extras: list | None = None) -> list[str]:
     fim = hoje + timedelta(days=dias)
-    itens = []
+    itens = [(d, t) for d, t in (extras or []) if hoje < d <= fim]
     for e in calendario.get("eventos_macro") or []:
         d = relogios._d(e["data"])
         if hoje < d <= fim:
