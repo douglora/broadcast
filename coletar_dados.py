@@ -726,7 +726,12 @@ SEC_LINHAS = {
     "caixa": ["CashAndCashEquivalentsAtCarryingValue", "CashAndCashEquivalents"],
     "patrimonio_liquido": ["StockholdersEquity", "Equity", "EquityAttributableToOwnersOfParent"],
     "divida_curto_prazo": ["DebtCurrent", "LongTermDebtCurrent", "ShorttermBorrowings", "CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings"],
-    "divida_longo_prazo": ["LongTermDebtNoncurrent", "LongTermDebt", "NoncurrentPortionOfNoncurrentBorrowings"],
+    "divida_longo_prazo": ["LongTermDebtNoncurrent", "NoncurrentPortionOfNoncurrentBorrowings"],
+    # LongTermDebt e o total (circulante + nao circulante) em boa parte dos emissores:
+    # fica em linha propria para ninguem somar com divida_curto_prazo. No MELI, o
+    # balanco de 30/06/2026 traz 6.482 circulante + 4.144 nao circulante = 10.626,
+    # que e exatamente o LongTermDebt.
+    "divida_total": ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount", "Borrowings"],
     "carteira_credito": ["LoansAndLeasesReceivableNetReportedAmount", "NotesReceivableNet", "LoansAndAdvancesToCustomers"],
     "caixa_operacional": ["NetCashProvidedByUsedInOperatingActivities", "CashFlowsFromUsedInOperatingActivities"],
     "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"],
@@ -749,6 +754,7 @@ SEC_REGEX_FALLBACK = {
                                    r"NetFinancial|OtherIncomeExpense|InterestAndOtherFinancial\w*Net)",
     "divida_curto_prazo": r"^(Debt|Borrowings|LoansPayable|ShortTermBorrowings|LoansAndOtherFinancialLiabilities)\w*Current$",
     "divida_longo_prazo": r"^(LongTermDebt|Borrowings|LoansPayable|LoansAndOtherFinancialLiabilities)\w*Noncurrent$",
+    "divida_total": r"^(LongTermDebt|Borrowings|LoansPayableAndOtherFinancialLiabilities)$",
 }
 _SEC_TICKERS = {}
 
