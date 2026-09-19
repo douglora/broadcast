@@ -41,7 +41,7 @@ _TAGS = re.compile(r"<[^>]+>")
 
 # Mesmo formato de contato que o coletor do terminal ja usa com a SEC: nome do
 # projeto e um contato entre parenteses. Nao carrega dado pessoal.
-UA_PADRAO = "BROADCAST Livro (contato: admin@theinvestpost.local)"
+UA_PADRAO = "BROADCAST Livro (contato admin@theinvestpost.local)"
 
 
 def variantes_ua(ua: str) -> list[str]:
