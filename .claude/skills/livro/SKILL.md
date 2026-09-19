@@ -29,6 +29,7 @@ Regras que nao se negociam:
 |---|---|
 | `saida/manifest.json` | slot, run_id, gerado_em (UTC e BRT), data_pregao, pernas ok/falhou, alertas (ids, criticos, pendentes), push sugerido |
 | `saida/fechamento.md` | BLOCO A (cabecalho, relogios, alertas do dia, altas/baixas, CURVAS, `<<LEITURA_DA_MESA>>`, AGENDA, LACUNAS) + BLOCO B (tabela dia/1s/1m/6m/1a/YTD) + legenda dos UCITS |
+| `saida/fechamento_cards.md` | **o que a sessao cola as 18h40**: cards em markdown (um por bloco, alertas, curvas, noticias, agenda) com o marcador `[[LEITURA_DA_MESA]]` |
 | `saida/painel.html` | a mesma coleta virada pagina (cards por bloco, curvas, noticias, agenda) com o marcador `[[LEITURA_DA_MESA]]`; e o que a sessao publica como Artifact |
 | `saida/fechamento_celular.md` | BLOCO B compacto (<= 41 colunas: ult, dia, 1s, 1m, YTD) |
 | `saida/fechamento.json` | janelas por ativo, movers, `leitura_insumos` (DI, Tesouro, breakevens, UST, regime), alertas do dia, lacunas, `push_sugerido` |
@@ -95,10 +96,11 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
 6. **Ack.** Os ids que voce narrou neste turno entram em `ids_entregues` no
    PROXIMO disparo (passo 2). Nao dispare um run so para o ack.
 
-## Painel (a interface principal, decisao do Douglas em 19/09)
+## Painel (so quando ele pedir "painel")
 
-O que ele le e a pagina, nao o texto monoespacado. Todo Fechamento e toda Manha
-republicam o mesmo Artifact, sempre na MESMA url:
+Em 19/09 ele decidiu ler na propria sessao, em cards; a pagina continua sendo
+gerada pelo runner e serve quando ele quiser a versao de tela cheia. Republica
+sempre no MESMO Artifact:
 
 **https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7**
 
@@ -125,17 +127,24 @@ diga a lacuna; nunca monte a pagina a mao.
 
 ## Formato por slot
 
-**Fechamento (18h40 BRT).** A resposta na sessao e curta: 3 a 5 frases de
-manchete (as mesmas ideias da Leitura da Mesa, em texto corrido), a contagem de
-alertas, e o link do painel. Nada de BLOCO A/BLOCO B por padrao. Feche com a
-linha de comandos: "tabela" (BLOCO B), "alertas" (alertas.md), "noticias",
-"integra <id>". Se ele pedir "tabela", "completo" ou "blocos", ai sim cole
-BLOCO A + BLOCO B + legenda como estao no fechamento.md; "curto"/"celular" usa
-`fechamento_celular.md`. Sexta: acrescente uma linha "SEMANA" com os 3 maiores e
-menores da semana (coluna 1s) e o que a curva fez na semana.
+**Fechamento (18h40 BRT).** A resposta e o `fechamento_cards.md` inteiro, com o
+marcador `[[LEITURA_DA_MESA]]` trocado pela manchete (3 a 5 frases em texto
+corrido, paragrafos markdown, negrito so nos numeros que decidem). Nada de
+monoespacado: os cards ja sao markdown, colados como estao.
 
-**Leitura da Mesa** (no painel: 3 a 5 paragrafos de texto corrido; no BLOCO A
-sob demanda: 4 a 6 bullets quebrados em <= 52 colunas): cada bullet liga um numero do dia a um mecanismo
+```bash
+git show origin/dados:livro/saida/fechamento_cards.md
+```
+
+Confira que o marcador nao sobrou no texto antes de enviar. Feche com a linha de
+comandos: "tabela" (BLOCO A/B monoespacado), "alertas", "noticias", "painel",
+"integra <id>". Se ele pedir "tabela" ou "completo", ai sim cole BLOCO A +
+BLOCO B + legenda do `fechamento.md`; "curto"/"celular" usa
+`fechamento_celular.md`. Sexta: acrescente uma linha "SEMANA" com os 3 maiores e
+menores da semana (coluna 1 sem) e o que a curva fez na semana.
+
+**Leitura da Mesa** (nos cards e no painel: 3 a 5 paragrafos de texto corrido;
+no BLOCO A sob demanda: 4 a 6 bullets quebrados em <= 52 colunas): cada bullet liga um numero do dia a um mecanismo
 e ao que muda para o cliente. Fontes: `leitura_insumos` (DI deltas e inclinacao,
 Tesouro taxas e breakevens vs Focus, UST e 2s10s, regime), movers, alertas do
 dia, tabela. Ordem de prioridade: (1) curva (ABRIU/FECHOU, quem puxou, doméstico

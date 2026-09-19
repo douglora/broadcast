@@ -5,7 +5,7 @@ renderiza as saidas e grava livro/saida/manifest.json.
 Layout no branch dados (raiz = dados_branch/livro):
   series/<SIMBOLO_SAFE>.json   curvas/{di,tesouro,ust}.json   macro/{bcb,focus,proxies,regime}.json
   estado/{regras_estado.json,alertas.json,historico_alertas.jsonl}
-  saida/{manifest.json,fechamento.md,fechamento.json,painel.html,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
+  saida/{manifest.json,fechamento.md,fechamento.json,fechamento_cards.md,painel.html,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
   eventos/{noticias,cvm,sec}.json   noticias/vistos.json   noticias/corpo/<id>.json
   sonda/cobertura.json   universo.json"""
 
@@ -15,7 +15,7 @@ import os
 import time
 from datetime import datetime, timezone
 
-from livro import fmt, painel, politica, relogios, render
+from livro import cards, fmt, painel, politica, relogios, render
 from livro import indicadores as ind
 from livro import universo as uni
 from livro.estado import Repositorio
@@ -476,6 +476,11 @@ class Coleta:
             "alertas_do_dia": do_dia, "lacunas": lacunas, "relogios": relogios_txt,
             "push_sugerido": self._push_fechamento(do_dia, mov, ins),
         })
+        # cards em markdown: o que a sessao cola no chat as 18h40 (escolha do Douglas)
+        with open(os.path.join(saida, "fechamento_cards.md"), "w", encoding="utf-8") as f:
+            f.write(cards.cards_md(self.u, self.hoje, self.modo, hora_txt, relogios_txt, janelas,
+                                   self.series_info, do_dia, ins, mov, agenda_l, lacunas, notas,
+                                   fontes, parcial=parcial))
         # painel HTML: a mesma coleta virada pagina; a sessao so troca o marcador da
         # leitura e publica como Artifact
         with open(os.path.join(saida, "painel.html"), "w", encoding="utf-8") as f:
