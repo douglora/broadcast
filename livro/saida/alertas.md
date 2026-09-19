@@ -2,15 +2,9 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 PETR4 · Conselho da Petrobras aprova adesão a programa de subvenção ao diesel
-· E05 BTC · REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive
-· E05 PETR4 · Petrobras adere a novo subsídio de R$ 1 por litro de diesel; programas já somam R$ 9,9 bi
-· E05 DI · O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas
-· E05 ETH · Ethereum ETFs Add $29.4M Friday As Fidelity Leads Reported Flows
-· E05 DI · Boletim Focus: mercado reduz inflação de 2026 pela 3ª semana, mas mantém Selic em 13,75%
-· E05 UST · Stocks Decline as 10-Year Treasury Yield Hovers Near 5%
-· E05 UST · Stocks end wild week in uneasy calm as Treasury yields top 5%
-· E05 PETR4 · Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos
+· E05 PETR4 · Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta
+· E05 DI · Com queda da Selic, FIDCs podem chegar a 160% do CDI
+· E05 BTC · This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know
 
 
 Alertas do dia (todos, com status):
