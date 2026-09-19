@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 18h28 de 19/09 BRT
-Relógios: Yahoo 18h28 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 18h31 de 19/09 BRT
+Relógios: Yahoo 18h31 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
 ALERTAS DO DIA (43 · 2 críticos)
@@ -10,20 +10,23 @@ ALERTAS DO DIA (43 · 2 críticos)
           20 dias de 46% a.a.
 [CRÍTICO] F03 Brent cai a US$ 98,77 (-5,8% no dia ·
           cruzou US$ 100)
-[ATENÇÃO] C05 Pre 2032 FECHA 15 bps (PU +0,7%) (base
-          17/09)
-[ATENÇÃO] T04 DIRR3 fechou na mínima de 52 semanas:
-          R$ 10,05, -4,4% em 1m e -28% em 12m
-[ATENÇÃO] T05 BTC +6,2% no dia a US$ 81.155:
-          movimento de 3,0 desvios para uma vol de
+[ATENÇÃO] E04 MELI34 · 8-K: 1.01 acordo material
+          assinado, 7.01 Regulation FD
+[ATENÇÃO] E04 AMZN · 8-K: 5.02 entrada ou saida de
+          diretor ou conselheiro
+[ATENÇÃO] C06 Inflação implícita: implícita 2029 +21
+          bps na semana · implícita 2029 cruzou
+          6,00% · implícita 2032 +264 bps acima do
+          Focus
+[ATENÇÃO] E03 PETR4 · Fato Relevante:
+          www.petrobras.com.br/ri Para mais
+          informações:
+[ATENÇÃO] E05 DI · Copom reduz taxa de juros em 0,25
+          ponto pela 5ª vez e Selic cai a 13,75% ao
+          ano
+[ATENÇÃO] T05 BTC +6,8% no dia a US$ 81.629:
+          movimento de 3,3 desvios para uma vol de
           20 dias de 32% a.a.
-[ATENÇÃO] T05 ETH +7,1% no dia a US$ 2.621:
-          movimento de 3,2 desvios para uma vol de
-          20 dias de 34% a.a.
-[ATENÇÃO] T08 BAC entrou em correção: -11% do pico
-          de 52s (US$ 64,81 em 12/08) a US$ 57,73
-[ATENÇÃO] F06 ETH sobe a US$ 2.621 (+7,1% em 24h ·
-          cruzou US$ 2.500)
 (+35 em alertas.md)
 
 ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
@@ -31,17 +34,18 @@ ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
 BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% ·
        BBDC4 -1,2% · ITSA4 -1,2%
 
-NOTÍCIAS E FATOS (11 · +671 manchete · noticias.md)
-· AMZN Prime Video’s Off Campus TV Show Lands Amazon
-  a Big Lawsuit, Here’s Why (ComingSoon.net)
-· VALE3 Novo hotel em São José dos Campos terá
-  investimento de R$ 70 milhões (Portal Aqui Vale)
-· BTC Fortuna Hedged Bitcoin ETF (HBTC) Dividend
-  Yield 2026, Date & History (marketbeat.com)
-· NVDA Nvidia-Backed Data Center Firm Nscale Files
-  Publicly for US IPO (Yahoo Finance)
-· BBDC4 Até onde a Selic pode cair em 2026? Bradesco
-  revisa projeção e aponta condição-chave (Estadao)
+NOTÍCIAS E FATOS (11 com materialidade · 671 só
+  manchete · noticias.md)
+· MELI34 8-K: 1.01 acordo material assinado, 7.01
+  Regulation FD (SEC)
+· AMZN 8-K: 5.02 entrada ou saida de diretor ou
+  conselheiro (SEC)
+· PETR4 Fato Relevante: www.petrobras.com.br/ri Para
+  mais informações: (CVM)
+· DI Copom reduz taxa de juros em 0,25 ponto pela 5ª
+  vez e Selic cai a 13,75% ao ano (Estadao)
+· MACRO Focus de 11/09: IPCA: 2026 4,90% (-10 bps) ·
+  2027 4,30% (+1 bps) (Focus)
 · SBSP3 Fato Relevante: COMPANHIA DE SANEAMENTO
   BÁSICO (CVM)
   (+5)

@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 19/09 18h28
+NOTÍCIAS E FATOS · 19/09 18h31
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 399 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 0 novas (14 consultas; descartadas: 401 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
+
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: www.petrobras.com.br/ri Para mais informações:
+CVM · entregue 19/09/2026 14:05
+Do documento:
+  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569745
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre www.petrobras.com.br/ri Para mais informações:'
+Fonte: CVM 19/09
+id: E03-PETR4-1569745-2026-09-19 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E03 · SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
 CVM IPE · entregue 16/09/2026 21:42 · 
@@ -18,16 +29,14 @@ Como falar: 'a Sabesp publicou fato relevante sobre COMPANHIA DE SANEAMENTO BÁS
 Fonte: CVM IPE 2026-09-16
 id: E03-SBSP3-1568917-2026-09-16 · status: expirado · íntegra disponível
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: www.petrobras.com.br/ri Para mais informações:
-CVM · entregue 19/09/2026 14:05
-Do documento:
-  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569745
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 19/09/2026 14:23 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569746
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
 Ativos: PETR4
-Como falar: 'a Petrobras publicou fato relevante sobre www.petrobras.com.br/ri Para mais informações:'
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 19/09
-id: E03-PETR4-1569745-2026-09-19 · status: entregue · íntegra disponível
+id: E03-PETR4-1569746-2026-09-19 · status: linha
 
 [INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM IPE · entregue 18/09/2026 13:33 · Apresentações a analistas/agentes do mercado / 18/09/2026
@@ -74,15 +83,6 @@ Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunica
 Fonte: CVM IPE 2026-09-15
 id: E03-AXIA3-1568459-2026-09-15 · status: linha
 
-[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 19/09/2026 14:23 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569746
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: PETR4
-Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 19/09
-id: E03-PETR4-1569746-2026-09-19 · status: linha
-
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (8)
 
@@ -100,7 +100,7 @@ Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar 
 Ativos: MELI34
 Como falar: 'a MELI protocolou 8-K na SEC (1.01 acordo material assinado, 7.01 Regulation FD)'
 Fonte: SEC EDGAR 2026-09-10
-id: E04-MELI34-26036136-2026-09-10 · status: pendente · íntegra disponível
+id: E04-MELI34-26036136-2026-09-10 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E04 · AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 SEC EDGAR · aceito 09/09 17h28 · 8-K
@@ -116,7 +116,7 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: AMZN
 Como falar: 'a AMZN protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-09-09
-id: E04-AMZN-26000036-2026-09-09 · status: pendente · íntegra disponível
+id: E04-AMZN-26000036-2026-09-09 · status: expirado · íntegra disponível
 
 [INFO] E04 · AMZN · 8-K: 8.01 outros eventos
 SEC EDGAR · aceito 14/09 17h45 · FORM 8-K
@@ -194,6 +194,40 @@ id: E04-BABA-26105208-2026-09-04 · status: linha
 
 
 ## NOTÍCIAS COM MATERIALIDADE (66)
+
+[ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
+Estadao · 19/09 03h44 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/economia/copom-reduz-taxa-de-juros-em-025-ponto-pela-5-vez-e-selic-cai-a-1375-ao-ano/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Estadao: Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano; confirmar o número no texto antes de repassar'
+Fonte: Estadao 19/09 03h44
+id: E05-DI-7899381ad6-2026-09-19 · status: entregue
+
+[ATENÇÃO] E05 · NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
+Yahoo Finance · 18/09 16h52 · + Bloomberg · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Spun off from a cryptocurrency mining operation in early 2024, Nscale quickly became one of the most prominent data center newcomers powering the AI boom as a so-called neocloud operator, renting out computing resources…
+  – It was valued in March at about $14.6 billion, in a Series C funding round led by Aker ASA and investment firm 8090 Industries.
+  – Nscale is seeking to raise as much as $3 billion in the IPO, Bloomberg News reported.
+  – It had also been in talks with potential investors to raise as much as $3.5 billion in financing ahead of the listing.
+  – It agreed in April to add more than 30,000 Nvidia chips to an existing rental agreement with Microsoft at its so-called gigafactory in Narvik, Norway.
+  – Anthropic PBC said in August it has agreed to spend $45 billion to rent AI cloud computing power from the company's flagship data center development in West Virginia.
+Link: https://ca.finance.yahoo.com/news/nvidia-backed-data-center-firm-195220456.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 18/09 16h52
+id: E05-NVDA-cbf5faf4e5-2026-09-18 · status: entregue
+
+[ATENÇÃO] E05 · BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave
+Estadao · 18/09 11h25 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ate-onde-a-selic-pode-cair-em-2026-bradesco-revisa-projecao-e-aponta-condicao-chave/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: BBDC4 · DI
+Como falar: 'saiu no Estadao: Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave; confirmar o número no texto antes de repassar'
+Fonte: Estadao 18/09 11h25
+id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Prime Video’s Off Campus TV Show Lands Amazon a Big Lawsuit, Here’s Why
 ComingSoon.net · 18/09 19h08 · + mandatory.com · licença: manchete
@@ -777,101 +811,67 @@ Como falar: 'saiu no The National Law Review: Google Keeps AdX as Court Orders B
 Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
-[ATENÇÃO] E05 · NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
-Yahoo Finance · 18/09 16h52 · + Bloomberg · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Spun off from a cryptocurrency mining operation in early 2024, Nscale quickly became one of the most prominent data center newcomers powering the AI boom as a so-called neocloud operator, renting out computing resources…
-  – It was valued in March at about $14.6 billion, in a Series C funding round led by Aker ASA and investment firm 8090 Industries.
-  – Nscale is seeking to raise as much as $3 billion in the IPO, Bloomberg News reported.
-  – It had also been in talks with potential investors to raise as much as $3.5 billion in financing ahead of the listing.
-  – It agreed in April to add more than 30,000 Nvidia chips to an existing rental agreement with Microsoft at its so-called gigafactory in Narvik, Norway.
-  – Anthropic PBC said in August it has agreed to spend $45 billion to rent AI cloud computing power from the company's flagship data center development in West Virginia.
-Link: https://ca.finance.yahoo.com/news/nvidia-backed-data-center-firm-195220456.html
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 18/09 16h52
-id: E05-NVDA-cbf5faf4e5-2026-09-18 · status: entregue
-
-[ATENÇÃO] E05 · BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave
-Estadao · 18/09 11h25 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ate-onde-a-selic-pode-cair-em-2026-bradesco-revisa-projecao-e-aponta-condicao-chave/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: BBDC4 · DI
-Como falar: 'saiu no Estadao: Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave; confirmar o número no texto antes de repassar'
-Fonte: Estadao 18/09 11h25
-id: E05-BBDC4-4f86e27bd7-2026-09-18 · status: entregue
-
-[ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
-Estadao · 19/09 03h44 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/economia/copom-reduz-taxa-de-juros-em-025-ponto-pela-5-vez-e-selic-cai-a-1375-ao-ano/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no Estadao: Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano; confirmar o número no texto antes de repassar'
-Fonte: Estadao 19/09 03h44
-id: E05-DI-7899381ad6-2026-09-19 · status: entregue
-
 
 ## OUTRAS NOTÍCIAS (só manchete) (599)
 
+· UST U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged (The Wall Street Journal) https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e
+· PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
+· USDBRL Japão faz consulta de câmbio e iene salta para ¥156 por dólar (ADVFN) https://br.advfn.com/jornal/2026/09/japao-consulta-cambio-iene-salta-156-dolar
+· PETR4 Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-cai-vale-vale3-petrobras-petr4-fechamento-mt/
+· PETR4 Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ibovespa-hoje-datafolha-e-petroleo-entram-no-radar-apos-decisoes-de-juros/
+· DI Com queda da Selic, FIDCs podem chegar a 160% do CDI (Estadao) https://www.estadao.com.br/em-alta/einvestidor/fabrizio-gueratto/com-queda-da-selic-fidcs-podem-chegar-a-160-do-cdi/
+· BTC This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:4a952df48094b:0-this-bitcoin-signal-has-flashed-just-4-times-in-history-and-the-prior-3-coincided-with-bear-market-bottoms-here-s-what-to-know/
+· PETR4 Conselho da Petrobras aprova adesão a programa de subvenção ao diesel (InfoMoney) https://www.infomoney.com.br/mercados/conselho-da-petrobras-aprova-adesao-a-programa-de-subvencao-ao-diesel/
+· BTC REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:34045f786094b:0-rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive/
+· PETR4 Petrobras adere a novo subsídio de R$ 1 por litro de diesel; programas já somam R$ 9,9 bi (g1) https://g1.globo.com/google/amp/economia/noticia/2026/09/19/petrobras-adere-a-novo-subsidio-de-r-1-por-litro-de-diesel-programas-ja-somam-r-99-bi.ghtml
+· DI O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas (Estadao) https://www.estadao.com.br/em-alta/economia/fabio-alves/o-copom-e-a-eleicao-como-a-inflacao-e-os-juros-tendem-a-se-comportar-na-visao-de-analistas/
+· ETH Ethereum ETFs Add $29.4M Friday As Fidelity Leads Reported Flows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:38279b513094b:0-ethereum-etfs-add-29-4m-friday-as-fidelity-leads-reported-flows/
+· DI Boletim Focus: mercado reduz inflação de 2026 pela 3ª semana, mas mantém Selic em 13,75% (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/boletim-focus-mercado-ve-inflacao-menor-em-2026-mas-ipca-ainda-escapa-do-limite-da-meta/
+· UST Stocks Decline as 10-Year Treasury Yield Hovers Near 5% (The Wall Street Journal) https://www.wsj.com/finance/stocks/stock-futures-retreat-10-year-treasury-yield-holds-above-5-as-investors-await-fed-decision-1cde847e
+· UST Stocks end wild week in uneasy calm as Treasury yields top 5% (Reuters) https://www.reuters.com/video/watch/idRW380518092026RP1/
+· PETR4 Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-cai-vale-vale3-petrobras-petr4-fechamento-mt/amp/
+· GOOGL Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown (AP News) https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b
+· PETR4 Conselho da Petrobras aprova adesão a nova subvenção que neutralizará alta no diesel (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/19/conselho-da-petrobras-aprova-adeso-a-nova-subveno-que-neutralizar-alta-no-diesel.ghtml
+· MU Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market (Yahoo Finance) https://finance.yahoo.com/technology/articles/micron-mu-unveils-breakthrough-memory-171152232.html
+· BABA ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/19/3365018/673/en/alibaba-deadline-rosen-the-first-filing-firm-encourages-alibaba-group-holding-limited-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-b.html
+· DI Selic: o que essa taxa tem a ver com o seu dinheiro? (g1) https://g1.globo.com/especial-publicitario/nubank/noticia/2026/09/18/selic-o-que-essa-taxa-tem-a-ver-com-o-seu-dinheiro.ghtml
+· BTC Bitcoin ETFs eke out positive week with $433 million Friday inflow as ether funds snap four-week inflow streak (The Block) https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871
+· PETR4 Conselho da Petrobras aprova adesão a nova subvenção que neutralizará alta no diesel (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/19/conselho-da-petrobras-aprova-adeso-a-nova-subveno-que-neutralizar-alta-no-diesel.ghtml
+· PETR4 Petrobras batiza primeiro navio a navegar com tripulação 100% feminina (UOL Economia) https://jc.uol.com.br/economia/2026/09/19/petrobras-batiza-primeiro-navio-a-navegar-com-tripulacao-100-feminina.html
+· BTC This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4a952df48094b:0-this-bitcoin-signal-has-flashed-just-4-times-in-history-and-the-prior-3-coincided-with-bear-market-bottoms-here-s-what-to-know/
+· BTC “Vender Bitcoin não deveria ser um tabu”, diz CEO da OranjeBTC (UOL Economia) https://portaldobitcoin.uol.com.br/vender-bitcoin-nao-deveria-ser-um-tabu-diz-ceo-da-oranjebtc/
+· BABA ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/19/3365018/0/en/alibaba-deadline-rosen-the-first-filing-firm-encourages-alibaba-group-holding-limited-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-b.html
+· BTC Bitcoin ETFs Add $324.6M As Fidelity Dominates Friday Flows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:50076e8b0094b:0-bitcoin-etfs-add-324-6m-as-fidelity-dominates-friday-flows/
+· BAC Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-sets-12-month-134200044.html
+· EQTL3 Entenda onde está e como será explorado o petróleo na Margem Equatorial (Poder360) https://www.poder360.com.br/poder-energia/entenda-onde-esta-e-como-sera-explorado-o-petroleo-na-margem-equatorial/
+· DI Tesouro IPCA+ 2032 volta a subir e prefixados ganham prêmio antes de Fed e Copom (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/tesouro-ipca-2032-volta-a-subir-e-prefixados-ganham-premio-antes-de-fed-e-copom/
+· BTC Bitcoin is back at $80,000 as rest of crypto joins the rally: Chart of the Day (Yahoo Finance) https://finance.yahoo.com/markets/article/bitcoin-is-back-at-80000-as-rest-of-crypto-joins-the-rally-chart-of-the-day-115955499.html
+· DI Yduqs (YDUQ3) ganha força com alívio na curva de juros e CSN Mineração (CMIN3) é a pior ação da semana; confira os destaques do Ibovespa (Money Times) https://www.moneytimes.com.br/ibovespa-destaques-da-semana-38-lils/
+· DI Corte da Selic, discussões sobre IA e BDRs no Ibovespa; veja os destaques da semana (InfoMoney) https://www.infomoney.com.br/mercados/corte-da-selic-discussoes-sobre-ia-e-bdrs-no-ibovespa-veja-os-destaques-da-semana/
+· DI Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cripto/selic-cai-fed-sobe-mas-juros-do-brasil-ainda-atraem-estrangeiros-para-stablecoins-em-real/
+· UST Stocks Adjust to a ‘New Normal’ for 10-Year Treasury Rates (Investing.com) https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkNwbTJYTXR0NnpIRkxWQmcwNFBFQ2tVX003ZGItbHRjOHpUQTBIUGJ4Y3g5TktXcGZ2dC1laEpRMlZqNmxGblJWa2Z5UUdpOG43a1BPOVZNT0JGbkZSc05DS19ibmwtSG55U1hhcmZqaDJrZ00xNk9Gem9LQXJvRFFlMnFCNHpPODNVMkxUazRhVVM5emc0RjNWRlVackhnNlE?oc=5
+· BRENT Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado (g1) https://g1.globo.com/google/amp/rj/norte-fluminense/noticia/2026/09/18/greve-no-setor-de-petroleo-atinge-macae-e-bacia-de-campos-sindicato-cita-paralisacao-por-tempo-indeterminado.ghtml
+· ITUB4 IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em 800 ações com retorno de 23% ao ano sem dor de cabeça (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ia-ibovespa-e-ate-farmaceuticas-gringas-itau-bba-recomenda-11-ativos-para-investir-em-800-acoes-com-retorno-de-23-ao-ano-giov/
+· UST Dow Slides as Treasury Yields Near 5% After Fed Rate Hike (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:70bc6a0ae094b:0-dow-slides-as-treasury-yields-near-5-after-fed-rate-hike/
+· USDBRL Dólar fecha quase estável em sessão sem gatilhos, a R$ 5,14, e sobe 0,4% na semana (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-18092026/
+· UST The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway. (Yahoo Finance) https://finance.yahoo.com/markets/articles/10-treasury-having-worst-run-115000809.html
+· USDBRL Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 185.229 pontos em 18/09/2026 (UOL Economia) https://www.uol.com.br/flash/?c=8e6829f4ea2b1b72cb7f5d6636c393b520260918
+· PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
+· BTC CoinShares Says Bitcoin Won't Hit $80,000. Is It Correct? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/coinshares-says-bitcoin-wont-hit-133051317.html
+· BTC Current price of Bitcoin for September 18, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-18-2026/
+· KO Coca-Cola Bets $10 Billion on U.S. Infrastructure to Drive Growth (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/coca-cola-bets-10-billion-170127971.html
+· BTC Crypto News: Pepeto Announces DeFi Exchange While Bitcoin (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/18/3364887/0/en/crypto-news-pepeto-announces-defi-exchange-while-bitcoin-price-prediction-reaches-200-000-and-whales-pick-the-next-dogecoin.html
+· DI Copom: O que esperar da reunião que vai definir os novos rumos da taxa Selic (Estadao) https://www.estadao.com.br/em-alta/economia/copom-reuniao-novos-rumos-taxa-selic/
+· NVDA Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing (Reuters) https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/
+· USDBRL Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/18/dolar-bolsa-fechamento-hoje-18-de-setembro-de-2026.ghtm
+· UST Wall Street closes mixed as Treasury yields rebound (SP500:) (Seeking Alpha) https://seekingalpha.com/news/4644515-wall-street-closes-mixed-as-treasury-yields-rebound
+· AXIA3 XP vê “tempestade antes da calmaria” para Axia Energia e mantém compra (ADVFN) https://br.advfn.com/jornal/2026/09/xp-ve-tempestade-antes-da-calmaria-para-axia-energia-e-mantem-compra
+· PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
+· MU Why Micron Stock Is Gaining Today (Barron's) https://www.barrons.com/articles/micron-stock-price-rising-7309a557
+· UST Global shares fall, Treasury yields rise as central banks double down on inflation fight (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45A0XA:0-global-shares-fall-treasury-yields-rise-as-central-banks-double-down-on-inflation-fight/
+· BTC Bitcoin Reclaims $80K After CFTC’s Crypto Proposals – HYPE, ZEC Hit New Record Highs Amid Rally (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:df8d4e079094b:0-bitcoin-reclaims-80k-after-cftc-s-crypto-proposals-hype-zec-hit-new-record-highs-amid-rally/
+· JPM Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:8148a0271094b:0-dividend-roundup-microsoft-jpmorgan-chase-mcdonald-s-broadcom-and-more/
+· ITUB4 Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-assai-brava-energia-itau-unibanco-b3-cemig-e-os-principais-destaques-desta-sexta-feira-18
+· BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
-· EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
-· USDBRL Dólar sobe a R$ 5,14 (Drops de Jogos) https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSlBhYVI1TlBDaV9PMnV6ZjVNTEc2YjBTQ1hEZTVHUVVQa014MEJBMl93X01yd1FVQXdBdklIdmRWSVJ3dlJoWUFqNkpZVXFUNldQMzJ3bXNjUGs3ZVEzNUFnVUc4d1lzYl9rTA?oc=5
-· VALE3 Ibovespa fecha em queda com pressão da Vale e cenário eleitoral; dólar sobe a R$ 5,14 (Bloomberg Linea) https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUFQREhtMVQ4STNxSlM0TjBySVB4N2Jxd1hDMDRYVDJ4dEI2Ry0tZUFtMW1iTUhrcm91NFlPRHlQWVlMRE5vNkhTbW41ZlRjX1ZMV0NTZ2EtU1liRXJrU1hyTFd5dS1PVy00Y1RxRkhwdmRTMVh1eDRBMkVkR2gyZ2IySmQtZkRmWVJIdTVGVlNST2NBaTl3QkllWWlaWTh0YlpxRDJrRExINk5iZ2ZyaS1NaDFvSVliakNScDF4WlFXWEpM0gHYAUFVX3lxTFB6QTh5WUNEbVlQQVJuMzJ3MTVwdFNPcS1uR0pTNlgxdnEwRmhGbVVMQ2RTUkxJYlZxb3p0YWViblh0VU5RaTVVZHZGTWE5UTJzLVF3enAzVUxiZS12ZzdDQVd1TkNUQ2FqaHFDelBtVnlQQm50RmtYeTc1cEFlMnhXYnZIUWNYcWE0U3dpblJteEIyRThld3FIcGlUcXNPRDhlcDZkaUNzVzlDZ1V3cFIyYXM2amhHbWpjbTU0Ym9KMEFDQ0tGRjdyU1RVZGFZNU1EMmUtcThvbQ?oc=5
-· JPM JPMorgan sends stark warning on $100 oil (Bradenton Herald) https://news.google.com/rss/articles/CBMibkFVX3lxTE4ybXFlMFR1ZVRIYUZPZHRweGVDNmlPVTFoSm9vUzdjQjg1cWVWNXdxV2JtUWlxZkl5TE9RZkU0UmpjamhnLV85am5NZ2JscGZWV0RaWXhEY1hQN284RXFDaUxqblR6czZ3ZGFfeVVn?oc=5
-· MMM 3M (MMM) Stock Fair Value Edges Higher After Q2 Drives Mixed Analyst Revisions (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxNREdFNmNmX25OdEt6bkxVWm1SS21PYW1PZXdITDBMNU40TkppdHJpalpaVlNGX1ZYbHNvMWdrNVBKak5ib2xfY0t0VUtRdlhfckVwQXRsNDRYQzJDTlFLUW9ubW4zNnpacnV5TmNzTFhOdDR5Y1pWNmRoajBPT3RyZW44RzQ0eEt3c2pmUW5MX0NtUQ?oc=5
-· BTC Bitcoin ETF Inflows Return as BlackRock IBIT Leads $159M Rebound (CryptoRank) https://news.google.com/rss/articles/CBMiowFBVV95cUxPeFpfc2pLVmx0WXlMVmd0NE1oMlhaVmJHVVg2X2VPcC0yWHFfMm9YY2RFNmF3WHVGcnRjVTZuVmxBdHFWR2NKNEJfdTBJdHVSN1hoVGhsU2VuT0RjUFdOUHE1MmU5dVZkeE1Ldk5XQjJjOFlvaU81NXBUOS1HRWlSVll2RHZVbURNMFBMdF9GaldKQ3BSb002eW05eUlfZTNMV2NZ?oc=5
-· BTC Weekly Wrap: Bitcoin Climbs Back Above $80,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTctd0dHaWRvVldNejZuV0d2Xy13Q3VRaTBOdjdzVldjYWxVOEFWZWJiakM2bWtJLU9NOVh6LWlYS0ZuV3dsMzFQOHFvXzBKaHlDSVhxb3lack9fcHUwQWwwUjhoSDVMLTZNbjZPbEMwMklzeU93T2xBWTltbmFOa3YzNXRZZlEzcXYyUzZSVVlrQnRGTHhuTUZ0Z0U?oc=5
-· DI Corte da Selic sinaliza trajetória de queda, mas crédito ainda segue restrito (O Norte) https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFRqcjJXNFZET08tcFdQdmUxOTZVQWFwa3BjdWtDcWFtSWNQZzRDTDBFTU1rU2VFUFlsME9DbTNuanVjWVJsVUhvdC1LUHhURVh0S2RqYVNKYnRhNllLTVMxRmF5a3ZJcDFIS3NyZDhObFU1cElUR2VTRHFnZjFzWWoxNzV4OVJLRmdMVk5UNmhvTnhCa0c0VHhDMldUZGp2MllmaVcxdDh5WUQwRmdqWGpoTUM?oc=5
-· MU Micron Turned $10,000 Into About $130,000 in 5 Years. Most of It Came in the Past 12 Months. (The Motley Fool) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc09ObHhyaU1zTFNMNllIWTB2Ul9wcDBqdGg2XzFnanVVYUhIaGs4TXVLdUJvb1FGMk9MZWVEUXc2c0NTNnhqX0JheEg2Rm1VcjgtMlVmclIwVTJ5c2lRZTlhcXcxQWl5OEdkTlZnZTlub1pBMk8zNUhRaWZFNENzTnpkZkdZQUdoek9zV00zYXZYYzl1Z0hTM2xSVEJWQUZjTFc4X2lRcXBaaGppd2QwOGtRenVFV2l6aHRJOEhFbTd4THROc1ZLNDZqWDBaV3IybDdn?oc=5
-· USDBRL Dólar fecha em alta de 0,11% e Ibovespa cai 0,41% (Poder360) https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXA5enh4d3JZSU5rU0JHa0EwSDFhZGRBOXlMd3QtWkJQSm5mdm04WDNOcy0tbG10Q2F5NGVRVEFTYTYyc2RFX1VaSWVCbGxUdkRaYnNMd3F5UlUwOWVZaFlRRmVxcC1iOHhhczJ4Y05abXNVSDJfRWEtdWE0RjVkdTgxQXhUNDZZazNsZWpkLVFuTjg?oc=5
-· SBSP3 Mês do Cliente: Sabesp segue com agenda de atendimento itinerante e realiza mais uma etapa na capital e Região Metropolitana (Jornal Digital da Região Oeste) https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUWp6UDVqVEpGMjA5VWpUMThkQURCbmdtbHJIc2lGSmk1VjY4VzljY0xLX3V2ZkFYakFuR09kS0QtTzZIRWxmVFR0ckFUZVNsN1BsQjZxMkNLYWpJYkU1WUhoYk1zYXVibkpENGp4REJGZ25wZ2dzS1I1QUE0d0c2Ykk2bVVlaTNGdkVOYld0YlotOXRYeElWMVJob0tOY3pydDhnOHd0NE1HMVBteFlGUC1RcnJXRkIxREJpZzBDZHJXQlNidXlta1NQSXV4Y1gwV0xCUzg5ekdsa044TzJ4TFU0WmZSTEJucUtJUDJMWlp6OFFDREU5Uk5n?oc=5
-· BRENT Gold and silver prices rise as lower oil prices ease inflation concerns despite higher Treasury yields. (Pluang) https://news.google.com/rss/articles/CBMisgFBVV95cUxNclBGd1VaNVloS3lWeXlOLXU0SGVVUzlCcnVJcXVSeHNCU0dDYmk4cnFuYU5TZnNqdGkwZnZfU1djNjEwLUNIZHlUN1BwVFVwcmNBMkpDdWpUdHF0bk92NDZuMVNGZHlsYldQd05MM3JNY2JzSG5adjRmdXJES1d5QkRlLTBCdUlSMVJuUFB4akJ3Tml1OHU4LW1hVmFyQ0llX0dKYTA4Q0xieG04WWh3YkZn?oc=5
-· USDBRL Dólar encerra a semana cotado a R$ 5,1442 com leve alta de 0,10% (boca.com.br) https://news.google.com/rss/articles/CBMihwFBVV95cUxNR2pHaDQxejBJRHdhR2pJSXRmR1pCWTluVUtSUnhycTRFNzRxZlJtVU5DNFM0YjdKdnBSXzN6SDJUcnFLY1YyUkFqcWZ2TzR0R0M1dlBHb0hfRTRRSGVzdHBlUjg5endRSXlpNHRBdVN2TlZDaTRUZi0yWC0wYjZRckYzdU5ET1k?oc=5
-· DI Selic cai a 13,75%: onde investir agora com a queda dos juros (Estadao) https://news.google.com/rss/articles/CBMivAFBVV95cUxNcU1QdDA3WER4UmVwWWxaUk5XVkZNRGpqdWNTelVQcm9CeXhSSnpEVnczek15aU9Oc01DaEFpN2JkSDRnRHZTMlh5SnZxRm51YnBZd1hlSmlSUFdSZG85Z1pEZ2dFNlhickVzbFplRHNOQXhXWkpnbmZPc2pYTE9JNzZRX2hFWmVqYU5ydjdncmpqUEtkRUNBZE5YS3g5ejlNLUxBMktvX0VEbUJYdXdneHczbTNVSExXUVhCbg?oc=5
-· PETR4 Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta (Estadao) https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0hGUmd5U3Z1S1hRVldGOE0tQ3VRM2R0dS1RVGFMSTdOS0dXNGpnekVGTXdfc0FWU0R4Vk12VlEwYURKUTdhZkZqeEtUYWhlM2JIU3ZXeGgxZUswVUlSZ25PMnFCNWp3emZaanJTY29penNwVGEwdVpWbllpaTRleWVpclZSMnltMGp0Rk5FenRmRkJZNUNqTmlGWG8xd2tFbjludUxBdVZHOVZ2TlVsSmVINDl3U0NUMmdrNzIwZGIyMFZoUksyMWc3YUXSAdIBQVVfeXFMTUVsREs4ZUZxTDA4cWtqYmdxZkhSZkdqbFhhcGtVSnB2SW1oQnRuYmQ2YVBVV2M5eHhRbVFINE5SdklwVWZTN25pYUpxLV9WVUpjTkZMNGc0YmZFQ2VCNFZNcVpIZFhyNXA4eG1DTmdmSDduVDVLOHhfMGZyZHFUZjVQcC03SDkwbzRhUmdKWGxlTml5VzlJR2E3MHpRd2NtbF9IRmo4Vk8wYmlZRnViTldPWURwX2lYeFpOVzhhVzV6alc0a29oV3JZbXpLWFR4aFFB?oc=5
-· SBSP3 Sabesp conclui reparo em adutora no Saboó após ‘caos’ no trânsito (Jornal da Orla) https://news.google.com/rss/articles/CBMiowFBVV95cUxNcVpzcDZEVkNwSnk0M2MwemlkMnpvVWdGc2syalhoalVfU2tzNG8xeXl6cnVGQVhBNUFfeXFVelFwT3hic0M0VFVwbW9KMDlJM2w3Ukx1MFVIWm9nV29kdmN5Ymp2RXhDRUpVX3BWem1nUGJYaTNnUEJSYzVaQWQ5Y25HdldtQ1ExbWl0c1dIVEk1U2RURlpKWWM0UktWVExhUG5J?oc=5
-· BTC Bitcoin Surpasses $80,000 Amid Regulatory and ETF Developments (KuCoin) https://news.google.com/rss/articles/CBMimwFBVV95cUxPWWQybXdKTGRxQnBGSG9QSmJlWThKMkFxR3JzTU1ab0psekhCcHZfZU00ZWVBdTVOM2txLUMyLW95anV4TF9YYk1QdkplVW91Z1UxcElYUnRQSC1CU2tHak9DR2JvMzdwTThMVG9lNnI2MW1jRWRJYjVMeWZwejByaHVJc0JCUThELU1zcVJDWEplQjZ1ZUVUU2JLMA?oc=5
-· USDBRL Iene recua apesar de alta do BoJ e dólar fica sem direção (SpaceMoney) https://news.google.com/rss/articles/CBMimgFBVV95cUxNUHRIY0E3bnhTUE4yOHV3cGhvLXZPeUZuZDloVTBfb2o1bF9KdFY1Wm1sTTY1ZENVN3d4WXpmei1pbl9BTWtLN1o3Tnp5TExieEJFSzZ0YUtoWmFWX0hrY2ZLX2dCb1NiTDBYUC12RTdvRm1ISjkwaGp5ckJUa1gzMVZTWUZmMnZiaWUwc3QxYjcyQTNfT0pIVVZR?oc=5
-· USDBRL Ibovespa cai 0,41% com commodities no radar; dólar sobe a R$ 5,14 com cenário eleitoral indefinido (timesbrasil.com.br) https://news.google.com/rss/articles/CBMixwFBVV95cUxORnNaUVR6Y050bks4UWczZFhVTFJmdElOUFRZVzE2NGpzWFprQWpOal91b2NuVlhSTlFCTU1ueTd4ZDdhV3h6T1BsOUJGcFFRdFgxZUNiWkhxOEl4TngyZ1BVekVHVUtTZTdjQ3cyNTlPT3dsSXpCM0JxYVRrdXVFdW43dE9Hamhrd3pNY2lNVzk5MEhURHE3V0ppUlY2bFMzNWJRa3hqd0ViaVRIWEw4VC1KQ19ETnJPN0xLMGJEdG8xZjJtb0xF?oc=5
-· BTC Bitcoin Back Above $80,000: Buy More, Hold or Take Profits? What to Check Now (CryptoTicker) https://news.google.com/rss/articles/CBMigwFBVV95cUxOWGRZd1VBTzEtR2wtLXlJbU9RS2JYMW9RVVczRngzSDN4eHl6ejRNSTNobVJWdGUyWUJ6SjB5Ynk3b0ZnR2RzdDhMQXh0bld2Z21CZi1UemNIaGRXU3lxelFlRnNwOEI2THd0WFotY1BtdTFJMnZ6M0NjUXNkcDhMVF8xdw?oc=5
-· USDBRL Dólar fecha em alta de 0,10% e acumula ganho de 0,37% na semana (Canal Rural) https://news.google.com/rss/articles/CBMioAFBVV95cUxNOHdfaW9oM2hDM250T2plUFd6VmpwTF9FY0EtSXpmOW5qTE9xNnpmaXFzbWdiMWVmNTBwaVNoNTVHNWRySU1hM0FpaGhkZTVyNzNjc0hlNkhaR1ZGUHFmam94RVhJYy1oZlE1bFhZWE1uaE1rUklVSWRRdDBtRDZ6TTdUN2VoNHMxZVJSXzJXWGM5eUdfbTZnWU5KelFVNkRH?oc=5
-· USDBRL Ibovespa B3 cede 0,41% e fecha semana em baixa depois de um mês; dólar vai a R$ 5,14 (Bora Investir) https://news.google.com/rss/articles/CBMixwFBVV95cUxQNUJkNVFYejBzUWJKR0JXQnpURElpVkpfNGxlZWVGNmZfZ1d6SWxxR1gyajRLYUMtVVFBc0poU2VLYWZsMEdaU3RTMXR3bW5LcUpmYUoyaGtpa3RtS2hacl9reUlSbjVEZjg4RG1xWE5oaWVBOGRJSzlJUHJJUzRiUFZ4TjlmQ2lwT1RIMzgyQzVPY2FwR1B3RUVsa1VJaFNJSTJ6ek13X2VEc0hGOGFDeEYwOThJWjNFLUozNndTM0pkUkttUnpj?oc=5
-· USDBRL Dólar fecha em leve alta após semana com ajustes nos juros nos EUA (Tribuna do Agreste) https://news.google.com/rss/articles/CBMixAFBVV95cUxPY2JxNm1LNFAxOWxTTFhBSmR1NFBhQkV5em03eDRPUzNBeGlzaHBsTXdMMzRiNVlKV0pwUmJGNU1xSHpGZlp2TXQyY0cxWEhNUzVYNHc5WkFTVzNFTDk5OWRoV0puNUlTUEVXXy1SbFJWb3c5ODZiZ1ZyQnlwMzNFdnZxVW5SRWxKcUs2eGJtR0VaM2Zmb1RfN1hKbkhSM0VwRDVDazJ3cGNheHpyRUZ2OGs4SlZjc1BEV1VrLTlKaWYtRlJU?oc=5
-· USDBRL Dólar fecha a R$ 5,14 e Bolsa cai 0,41%, aos 185.229 pontos (Jornal O Sul) https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ei0zRHJtMm54WllDUjZpMlotejVFajJYTms2LV9KLVl6MFd0NFlQTHlBZlZqX3BXc2JfNDRBRGk4VkZFaVctS01NOVhfSknSAVRBVV95cUxQNXhyMmFHQ3pna1RsYUpMNHJQbUFhajBlbzJKQW5YQUdZUThrU3dNUTJvdTRxQ293VEw3bEtoZ0FKRmczQjE5R01XaXBtbjIzS2lMcG4?oc=5
-· BRENT Brent Slips as Saudi Supply Risks Ease (TradingView) https://news.google.com/rss/articles/CBMikwFBVV95cUxOZEZCUGFzYmI1X0czYWg1UEJITlRzRzVrVTRDR3JsRUQ5Z2ZyaUd3R29UUERfamxyZnA1M0dHNGkzdVIxOXhlTTh6YjJVVzU1T2JOdWxZWlRfak9raURyVC1EeHo2OTBndW5QT2hROUliTTd6c3U5MU1jb25MU0lQT2czcVVCQnlzSjFkdzFTSWs1X0E?oc=5
-· BAC Bank of America declares regular dividends on m... (Pluang) https://news.google.com/rss/articles/CBMipAFBVV95cUxPN09CalQ2eUg0MExHZ2hkS3JjYzJRZGo4b0FDTEVsN0Q0OUV4WlNjVEEwVVBYVmFWNkM3OVpyOWdMelZnbkhFYmFnYjNCbmozeWlIUDdUWTVxMlljUVRfRmNxaktWdko2bG5rZDBaVzNQSWZYTjgzRFNzeUVPSmRXbjd4ajU2TDh2NjBJLVAwcHF2VkZDMzlVTF9IdkpiZU9pd0FhYQ?oc=5
-· USDBRL Dólar opera sem sinal único e iene se desvaloriza após elevação de juros do BoJ (InfoMoney) https://news.google.com/rss/articles/CBMiugFBVV95cUxNRDRpaHp6VjlUYWFvaDJZWVROa1kxa3RPcjE0QTJxQl9HREx0dmZnNDBITmFFS1p3MVpwekRmT3F4bUVpQTg3MzhRRU5zbUF4eTMya1BuOVg0YjBFMnBZdHBxSXJsNDQ2VTBBdjUxSERuWE1FUzJVakxwYlRqSU4teWl4RU5EWV8teUFMMkNGN0NPMWdmWGZmQjhUX0ZJNkdrcUcxTDc5dmtPWVpVbzRORkhHNUpTM3FKSUHSAb8BQVVfeXFMTktyMlYxWEVOUFViUjZ6ck5tWGRXdjhjbHc1djJ3VjhLdHk3elczd0xfTEU1em84cEpaaHN4bEc0QnNoQ0dLSV9hWlJmMmwtbXpLZmJiYzdsaEJzUkRuZFpLQ3c1WGtIQzN0cWFQLUZTVS1wamZValdBOXc2SXNiN2FoOEdtblFqdnhiSUF2QzUwQmczbldBUW1YWk10bVNWZi00SzdyOExzcVdmQnhfSVlCYWlXXzlzZ1lBdnFtYVE?oc=5
-· USDBRL Câmbio: Dólar sobe, mas perde força com alívio externo (Monitor do Mercado) https://news.google.com/rss/articles/CBMiowFBVV95cUxQeC03ei0zZzJyNl9KalVRUzFTQnh1M0wxbW5CTTdleHhYMWN1LWNMRURta1Q0RWNkUmN5LWFIWWlFVFdfNWRidEhsa3U0d2FLQWlSVF9taUVFRlV3X1lKMElxS2V5bVBRTHRiV3pON2JBeWVPUXM2N3ZTUXUwQzh1MWtqWnhpNVpVM0ViVm9Xc2V2dWc1NTZfZ3A5WWNRWEloZUNF?oc=5
-· BTC Bitcoin Price Prediction: BTC Rebounds Toward $78K as Remittix Moves Closer to Its Launch Threshold (StreetInsider) https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRHkySElNT3FmbXRWbVUxY1lCMWZsMFZTeWtSNkNnLTA2Wlgxc3lsbGdWVWV4a0g2Q2RHWDdqcEVybFYwWFYtZ1JobmFhTDk4Rjh4c2pUUExhY1ZOVVhka2NlY1YzZjhDZV9oU0x2N1JGWWdZd1dOLUVtejVUMmJySDFpR3lubFpxM2d4SmZNMjIxT3o5Yk9UQ01HaXFxS3FaOTk0NUQtZTcyZXFkLWdEX3UwdnpjVkMyUy1KS2h1TmhKMXlaNXI3RWtzZzFwVGlPWWI4WnBWZFRLM1hsT0FFRTFnZEFLclBzNDR6SjdXTGJDNEJWdEE?oc=5
-· ETH Ethereum Breaks Above $2,630, Hits Highest Since January (bloomingbit) https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Jc2JNbENLNlc4S0I1TXVMcUtLZzFlang3UDlyV2UzU2Y2RmhLbHBIendYZVVXUnc1ZEhrYUpLNDNYZHU2TjVNUDc5eDBUZ0VjdlNtZQ?oc=5
-· BTC Heavy Bitcoin ETF Hedging Could Fuel Bigger Rally Than Gold: Walter Bloomberg (CryptoRank) https://news.google.com/rss/articles/CBMitAFBVV95cUxORXNsNENjeUctWlE4V0RVY2pvWHA2b3ZpdVpFSXltanpvUHhBQUhzcWJYLVhsNUx4STNWNmo3RE9WU19JMFZlRnRITjlFZGlrZjhONXhEYXZuaDRkeGNYcUtIOXFSV2NJNS1VYklEVURLSW5kbThOMTBsZW1UMHJqR18xc3RqaWttSldzMTJmZmx2Unc5dmQwVFVHRUlLWl9DU1Q5MmtpYXFiUUJqSVJMdmdQcmk?oc=5
-· USDBRL B3 cai 0,41% com opções; dólar termina a R$ 5,14 (SpaceMoney) https://news.google.com/rss/articles/CBMiogFBVV95cUxOcHZJdFlBWVNNNWNBSTBxZjg1cl9kNXNzMzRyUVRFYnZqM3pvWHY5MmR5V0xSWXFITlNpNFI0UVJmUGxyNWw0SkRQVlhtMEpFeGVwS0pNNThQLUtwLW12V041TUNlUkVTNVd5REE3TmlOYTVRVjhzb3NSWVJ0ekFfZS14cnUxQksxVTdMeFlqUW40ZWZiTnZnU0Y5VElkUGpPV0E?oc=5
-· MRVE3 Atlético recebe a Chapecoense pela primeira vez na Arena MRV; veja o retrospecto (Hoje em Dia) https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3h0djl3UEN4Y0NwTktfOWtRRUJFVm5lTWNtQ3RaYlJfWWFjMkZnQXVNb2tscmhsQ3loUEY0RHpWaExuYmEtSTBkUXhkRWlPcTZ2QUxPSDBNbS11MFU5RkhaUmtvaUlnREVTeHlRVWoxVzAxbnV4cWgxd0dOeDRMWkpQbGJ5eVNuTkFjN1pWcFMwTDlRUFBWQkF0aHRHX1EtenY0ZFZoUlpKR1l6b0Z1R1lKQU5kZVNINzVDdk8xZTdNc2swWXJ3UXFQR1ZjdG9NM0E?oc=5
-· VALE3 Santos x Remo: saiba onde assistir ao jogo pelo Campeonato Brasileiro (Mix Vale) https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMUY0eVBENmlORm1RQjlCdjFMSGJ6QnRreEFzUzJHbjM0UE5PU2ZETjljYzlnYlRLSjN6dTlFUTBKWEtDV1ZFLWFVdmNaeFVkRUhGdEJvbzZaRnN4b0xCa3dqOTlrcWozMEZHNkxETzVVempMX3NKY21DZVRUWUsyaUV6LUp6emp5UFVWdlpmYTd1QmxreFc2T0J5U3diajFmTTdtV1lNZ0Y0b1XSAasBQVVfeXFMTjFGNHlQRDZpTkZtUUI5QnYxTEhiekJ0a3hBc1MyR24zNFBOT1NmRE45Y2M5Z2JUS0ozenU5RVEwSlhLQ1dWRS1hVXZjWnhVZEVIRnRCb282WkZzeG9MQmt3ajk5a3FqMzBGRzZMRE81VXpqTF9zSmNtQ2VUVFlLMmlFei1KenpqeVBVVnZaZmE3dUJsa3hXNk9CeVN3YmoxZk03bVdZTWdGNG9V?oc=5
-· USDBRL Ibovespa fecha em queda com mau humor externo e eleições no radar; dólar sobe a R$ 5,14 (Money Times) https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGRjloeC1IU3FRRmRQODM1RUF5S3c3dlBaU01DYlh3UWRnYzUtdTEwX0ZSQW1DQ1EtLURtZVVBZXRzU2ZoZnk4VkJPcVBKQnE3TUpCN05hLWFwV2hWYzd1VGJB?oc=5
-· ITUB4 Kepler Weber (KEPL3): curto prazo segue fraco, mas déficit de armazenagem sustenta longo prazo, diz Itaú BBA (Money Times) https://news.google.com/rss/articles/CBMi6gFBVV95cUxNd2t6QjhEOUk0NzNyNzRTSWd4RVVyOWpOWVNPRXdycDRoQnNkZGktZ2cxVEViVlB0eUJTVkhSUEliWFNJTUNPdFRrVENaZHhweWtCNkdwaGxFUUFNWHhMY1hwdmtjeWI1RFBVbC1jdnZiS2F4RE9uU2FCMm5yRW1NOHRlS2pCdC1BSmVscmhrdTUtTV94R3RiY2pLMTNCc09ZZXVYYWprcEVVMW8xS2dWUllQNEdTcnNXTjBSSDViWlNaTC15Q2RxTy00N3RzTkgxNDQ2ZHdMSXBDRHRSTEVmZWxZR21BUzZLclE?oc=5
-· USDBRL Dólar valoriza 0,11% e vai a R$ 5,144; Bovespa cai 0,41% e fecha com 185.229 pontos em 18/09/2026 (UOL) https://news.google.com/rss/articles/CBMizwFBVV95cUxNN25KdG8zZnBESlMwcWgxRm1xd0c0WFhoNVgzT0hNN1NsYkNYWjdPdDNMUzRqcGF6UEUwMGFJLXhFRE5pTldSWTBhVmQxb3hELTF1VEV1bVdDamx5S1pkTTNyTm9zUFpwX3k0TmxXNnlReTd1NFdpOWFtbmo2UGhkUGI2dFFWaTBBU0M0RHphTFdxTG5GWGEwM29TdUxLbVhoWjR5V19sS1NnZmZtVGNkM2Q0aU1lVnItYkFDSGozNktMYzBNV3M2UWFweThRV3c?oc=5
-· AMZN AWS Launches Grid AI Agents as Queue Hits 438 GW [2026] (shattered.io) https://news.google.com/rss/articles/CBMickFVX3lxTE9tTkJwbDlwMUF1S1VodUdmX0N4eFhaZFFUaXZiY3JwRnlraHhOcXV0N2N0WDdtQzJEZEVPdDhhS3duT21zV09EWkNFN0FwMm1vS1lzTkdNelp0SmlsTDV5d01wSUxRcVJ4eGlvd1VuLW5GUQ?oc=5
-· BTC Strive acquires 469 Bitcoin worth $36.6M through preferred stock trades, pushing holdings to 25,000 BTC (TradingView) https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOGdQQ0k4UTRxd2tiLVdvUWRuSWd2NTNDSXN4Y3ZUTXcteTZvakgzLWlicjF4Wm1OcmQ1eVRyWm9Vd1lLdWZDamlhQzl5RzlPMVdnVXhGTk54N1U2VHhIQzRDUG5xUlRmdlJ0YnlrbXJfa284MnJvc1drendZM3g0X1ZYX3FIQmtYVUNiSlpuQmNpa0MxdjgxQms1RlZzUURGVnZabWJSRFdrU0tYZ05zYUVqN2xPRUZOb0pKanluTHdmUHVITkpwMVRBaHYtX1VUczQ4Zk5aTDd2eVFIalV4YUdtaFpmRDROY3kzQXE0bXRjSHJNd002QVVn?oc=5
-· NVDA Nvidia's Doubling Promise Has Two Bottlenecks: Memory Chips and Substations (AD HOC NEWS) https://news.google.com/rss/articles/CBMizwFBVV95cUxOdm9kVGtBcmNtZngzWmxxQVhIakFKUHJHUGRpc29LejI4akFDWk5YYXZJTEZZWUhacF90SkwxSU1va2p3RlFwU1poMHdzb2FqZGJhOS1WbUVkOFpqZUxCSU9KZWcxZmtiVFJuQm9iM2NOZEFFTnZsYkxBOVd1RElXVWRlekt3WTFwYTkxcTJtWm02eDlRNjhWRDV3QWRzUWxMZmRndXYycDA5YklRakI1RE9tSFdpY3ZyaFg2eWExZTdKUWFSR0x5TGllX3hmOG8?oc=5
-· VALE3 UVA/CEPEA: No Vale, BRS vitória avança e se aproxima do preço das brancas sem semente (HF Brasil) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNk5PclA4WFVjZ3JQUkF2dFhPcmtibDl6SEU2eS1QU2dyZ2lFdzVkMThFbVZzUlc0T3hreHI4RER0M3B5aTZqT2cydjNlSjJUN3c4aHFqX1JCM050c0hBaXF5QURrUks0WXlWRUQ0UVlVdmJGekxvMVhPaXc3aDRPSzd0SGJ3eTZta05xUUMzbkVtUHlvc2JSMTZpa3I4MmFlZXZVeEpxbTRBWm1VeW5venBzcUtudkZXMzJN?oc=5
-· ETH Ethereum price jumps above $2,600 driven by a s... (Pluang) https://news.google.com/rss/articles/CBMieEFVX3lxTE0xcldJTVBYSU94TG80NEVjWWNkRTR6cVExUTVfV0F2TGRlTW9fSF9QY09pUGZ6c2FyVENkRk44R2tQYkh0dGlLRTNKa291aW83bzVhYXA3ZjBwdEdUZl9GdUhtNXNCY2NOYjVNeG1lZ2RBQVNLdVhyYw?oc=5
-· BBAS3 RIO DOCE | Banco do Brasil divulga 751 propostas de edital participativo e comunitário (Brasil Mineral) https://news.google.com/rss/articles/CBMiswFBVV95cUxPNm1pWks5TkpVZ0RyWVF3cVNKZkNkZWIzM3dEYWhmaXlXanRjQk9oWWY3Mk1aQllPZUFxRlA2RXF1ZkJ2LV9vLUdMeVpTUEZuVjd4WDFUR3NLbWNKLUQ5XzdSdko4NVNVOUc1aE8zU3BDc25Ic1BUQnZaSUdIOTZHT0xxeFFIcVZPVGRrdFFnczVsTVBLcnMxVk5nZ0JRbEEtclVCQ3lBX1Z6NGttbE9LQUY1NA?oc=5
-· USDBRL Dólar sobe levemente e Bolsa cai sob pressão de juros globais e incerteza política (Portal VV8) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR1hNYS1kLUJIZEdpWkZsNHJXWEdOMEVZSmF5NzRLcktiazZQaC0zMmRSenVpOUpuN2F1em0wNnk3YjZ3TzdmM1BIdFl5dU1CTDZ4bDdiNkdnSGliNThoTTkycnVsQUE0Tk5oSVJxclR6SkZCLWNlRVlJOWk4Zmg5MXc4S0dzRUhDbm01VVVoSXRZbGwtekx5d1RreDBWVXdlNWREOFczd094NTQ5czlzUnNTb2d4eUNxdHFabGlMdU5QRzg?oc=5
-· BRENT Wall Street drifts lower as bond yields rise and oil prices swing (BNN Bloomberg) https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0s4MVJTU3MwNXcwMlJPM1ExMlRrZEk0eWZMSC1PbjNPX1pSWmFPd0hlbDBob1MyWUJVQVo5aFJwZmNKZHA3T0tYT3EyazhiTG5YNEJSeFY0cU9JZmYyMzJiTHl3Nk5sN3F6eFRkZTIwOHpmQWdTQTdqLU9Ua3ZNQkVxQ3lSTE15NzQwa0RFalVEQXdGN3lRaWlQVzlWUWFMSU5VTjdDeG40cG8?oc=5
-· BTC How high will Bitcoin go in September? BTC price surges above $80,000. (Kalshi News) https://news.google.com/rss/articles/CBMilwFBVV95cUxPQUVqLV9fU052c0FRUWNCc0lMZDRCRHBwcHJnbXhEOWxidldLWE1WZXF1S1l4bVI4S0NfWHdSenZ4bU13emR5N3JCanhpbEhjX0dpWUM1Mmg4d01wOGtVN19SSEZkeThCOEQ0UmMzZDh5RXRCc0MwRFJlVTFMQ0MzU1BOeU85OXNWRFFiaE9hVUVNNm5PUjJB?oc=5
-· ETH Ethereum Surpasses $2,600 Amid Short Squeeze and Market Volatility (KuCoin) https://news.google.com/rss/articles/CBMioAFBVV95cUxPa05JTlJEQy1YalNlSUdtcDZycVl5WEJpMkp6NjAtMFVIQnJVWnBfaURuVEMzbURuRG5OTi14bFotQ0E1U2YyTE11S0F0UFZ0UzFaZXh1Wkt6aGNMUGRvbXRwaHZsNTUyQzNUN1l1T2NoRG9rVFhCODJtcG5xTXVVR2xvTlQzSkN5S2pKR016WmxieFFlb0R4dFlEbVVxbllP?oc=5
-· BRENT Tempo real: Ibovespa cai com eleições em foco e recuo do petróleo, mas sustenta 185 mil pontos; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE1OYVF6eWVXMmFNQ0J4VzFQUG9KQXVCRTg1ZmdrTXFQMm00ZmdhVkNXaXVvTWx6ZU9kQWctWHlBOHZTeDROcXZyOTRFWHlIdWV1V3E5Ry1PSllrczljUjlMR3doMVhZcmkyQURz?oc=5
-· GOOGL 2 Stocks to Buy as Google Starts Selling Its AI Chips (The Motley Fool) https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1JKWGZJcXZpcHpXUE1QWU9qcFlkVGlWbDNEYkQ5SGZSLXRTaTRLbXpKOXpwNW1ZR2RyZU9nZl9VdmRFYXZTdFVmeTM0alprMDJ5b2tIeV80SWk0UElDb0w5TGdDcVB2dzFscVNDSmx1ZGR6ckRHWm5iNi1iMGtXZG0wR1ZZZkVDV29Zd1ZpN25fc2ZibHBzbXRtdUg?oc=5
-· BRENT Oil Prices Settle Slightly Higher as Optimism Around US Inflation Data Outweighs OPEC Supply Concerns (EnergyNow.com) https://news.google.com/rss/articles/CBMizAFBVV95cUxOaU5kZ1JwUVprenZfUUdIeHRMMlVXM3I3LUFFWl93cEZTVGI4OVg4MUVqVTRBSmpaT1U3SGdsMFA2RGdmclZNTDJMSVhyenJYX1J6VTFzMEhMbkFFMGhENFlEQ1NqWUZlVDdjbEt3Mmd2MThHTUdMRHhKWWU0RU9sR1N5U1k2Q3J3SklVNU1SM3RtekpPa19kMFRWbEZVU0p3STFQbklDeGJscTh2TnotazdJY0NEbjlhNURLZU5OZ2syZy1fS1dNd3BXYzg?oc=5
-· CVX Exxon, Chevron Warn of Continued High Fuel Prices From Iran War (EnergyNow.com) https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWRkNGNYcEtjRnBjUHJIcVRvSVVpcGw4enJlYXNSVUtOOGdRejJyRko4YTlxYmdfcFExcC1WUmJnOTk3SW10VUlncUl6dmRNbmRTc0xRbWVzY1M3aV9yd3FNLXA0eW9JdTBsODJxbmx5SDh6N19aOWVPRmU3eTZVVmFJdEhBMHdjQlVvWlFLQkI0aFI0MGJyTQ?oc=5
-· USDBRL Dólar permanece estável e Bolsa cai com juros nos EUA e eleição no Brasil (Metrópoles) https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0FwTnFFUFpjaUpweGg1SGYwRi1ablpXbEZDUG5iSV9NVDBVMEt0LXduWjRXMHBBbWxHRi1ueW5IaE5xc2p0Z08yZG5zOS1FR05jYVprTmxIMmNOSmR5TXd6VXI5ZUlpdnFjZ0IwLXhxaDd3UFg5NWgtRGFTdTRJQw?oc=5
-· EQTL3 Portaria Normativa MME nº 137/2026 – Irrigação e Aquicultura (Equatorial Energia) https://news.google.com/rss/articles/CBMimwFBVV95cUxNVU8yNS0tU21sME0wazlUYkw3VTZBV0JadkpJMGFJZG41c3laNTRhbm16U3NDeUI0UGd4WFo5c240Q2JQZDQxc0xHSGZIQ1dPNEt2WC10eXVBWGFtRV9mR0hDd0dEYjFVNzRtLV8tWVRPUWtUNHQtT3htekl1d0FKeW9QdHBwdmhOQjVpbVo2dTllUE1RcHk3enZEUQ?oc=5
-· ETH Ethereum Breaks Through the $2,600 Mark: What Is Behind the Short Squeeze and What to Check Now (CryptoTicker) https://news.google.com/rss/articles/CBMiekFVX3lxTE4zUW1UR25sSFRIbElaR2x6b2RsT0g5Qk16QklVSVBQUF9kNk1DLUg5MmM1R1JObmlxUC1kc3pIaXh4Z3lrYWgzZTN1Y3gzRmZFdlNnVkwwVmVxVkxKa01fdDllMWdaRENkdUR6ZGUtUG5uc2xHS3NhUzZB?oc=5
-· UST Wall Street closes mixed as Treasury yields rebound (TradingView) https://news.google.com/rss/articles/CBMitAFBVV95cUxNbEFvWE5tVUhYUXBjN2NQT00tWUlJeExpcnhnc28zS0tRSXlxaVNHam05S0NFM3NNbWI5aUNwcGlnT3hnYXQ3eVpETUUzN0RqY25LeW5qYWtWTDhscVJNLXU0MUJhVVA5Y1FUeHVTdEkwMXRnNmlFS2JoYy0xX0tuSWRoSGFHaWNqZjkxaGxwM2NNQkx4WWNoX0lxNy1CU2dxRkM1NDNfc1M4Qm5jcDNfcDdTRkw?oc=5
-· USDBRL Dólar fecha sessão sem gatilhos perto da estabilidade Por Reuters (Investing.com) https://news.google.com/rss/articles/CBMipAFBVV95cUxORFFmY1NBa214RFpXZGtZM0NxWHYyWlRBN2Y5N3Iyb2JLVllSOWs5cEJfdFdCWUJvRVRaeVlvMHNqcDh1ZDlJUXp3LVJrMDBkVk1DaHpYMHhVLXE0V1p0RmxqYVZqWkVfcFFGOVZRMTVCMG50LWV4bEVJeEdtR2F6eENwZEtiOUJLOTlwUDg3MVFNZnV5VXA4QlRGRlVqWE0zY0FScA?oc=5
-· MRVE3 Geração Z já representa 51% dos compradores de imóveis no DF em 2026, diz MRV (Rádio Itatiaia) https://news.google.com/rss/articles/CBMiswFBVV95cUxQemlOMFN6UTNRUTQ4LXc2WFc5LTJpaU9ORC1BSGM1MFc4UlR6V2k2b2Vuc2lkZU0wYVk2SGI3SkdLQUxCZXlldjlVZGc3MGprM1dsOWZ1X0wyRGNzM3JLLXN0S3RiS05yU0RVSTJaN0ZGWnMyZHQ3YjNDd3RNa1pOV2I4MEtnTlhIbUp6NXd3V21GT3RuZHlEQmRHOXF6OFNtYW1qc0JuY0VBS3RQQnRuQ0hzbw?oc=5
-· NVDA EXCLUSIVE: Nvidia's AI Token Trade Has a Catch: 'Attention Correlates. Returns Don't' (TradingView) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNi1ZN1Z2SU1haDJRdy1hMHJiM2pLOWQ2S2FIT2hRdTlfODJqdHVDMTIzQTZvYVFEamhjQ1JNQlFTbWhOMXVRZ3N2a2pZSHJaX1gyMjZCRHRVNmdkTTQ2NFk4b3dFb3FuNWJhd0haUXk2eExhYTBJOVE5aVA0SnhhVlp5ZGpmZ3FxWUdMVmhuWWVseHFmRkxoakFhZk9xalRRdkhHZXhNd1FPMUlvMmNJUWc3dWI2TVlBRUUzVlE4ak1EMXc3WFJvT2ZoUnl1dkxYbG5qbGV3?oc=5
-· USDBRL Dólar tem leve alta e fecha a R$ 5,14 com cenário eleitoral e apostas sobre juros dos EUA (Money Times) https://news.google.com/rss/articles/CBMiXkFVX3lxTE44WTRqb29WcEV5QWpLOV9yOEhpcWxEbXhlVjhYLW4zYkUwM1hzT1ctakpDQzY3RnhySzNacTlBLVF3anBxTUlpWno2MEdqaVFybjF6ekMxajJwM0pLNGc?oc=5
 · (+539 manchetes; lista completa em eventos/noticias.json)
