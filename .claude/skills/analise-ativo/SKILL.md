@@ -109,8 +109,13 @@ sao baixados uma vez por run; cada release e um PDF). Entre checagens use
 `python3 -c "import time; time.sleep(45)"` (o comando `sleep` e bloqueado
 nesta sessao). Confirme por `mcp__github__actions_list` (`list_workflow_runs`,
 `resource_id: coletar-dados.yml`; status `completed`, conclusion `success`)
-e releia o JSON conferindo o `gerado_em`. Se em 10 minutos nao concluiu, siga
-com o que houver, diga o que ficou faltando e ofereca repetir depois.
+e releia o JSON conferindo o `gerado_em`. O raw.githubusercontent.com guarda
+cache por ate 5 minutos: logo depois de um run, releia com um parametro novo
+na URL e sem cache, por exemplo
+`curl -sS -H "Cache-Control: no-cache" ".../ativos/MELI34.json?v=$(date +%s)"`;
+se o `gerado_em` ainda for o antigo, espere 60 segundos e repita. Se em 10
+minutos o run nao concluiu, siga com o que houver, diga o que ficou faltando
+e ofereca repetir depois.
 
 Se o ticker nao tem grupo em `pares.py` (`python3 pares.py TICKER` no
 repositorio), colete so o ativo, monte os pares a mao com
