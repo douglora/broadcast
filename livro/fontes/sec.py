@@ -71,18 +71,33 @@ def abrir_catalogo(cli: Cliente, ua: str, tickers: list[str]) -> tuple[dict, str
     return {}, None, tentativas
 
 
-def sondar_hosts(cli: Cliente, ua: str) -> dict:
-    """Status de cada host da SEC sem precisar de CIK. 403 nos dois = bloqueio por IP
-    do runner; 404 em data.sec.gov = host alcancavel e o problema e so o catalogo."""
-    alvos = {"www.sec.gov/files/company_tickers.json": TICKERS_URL,
-             "data.sec.gov/submissions/": "https://data.sec.gov/submissions/"}
-    out = {}
-    for nome, url in alvos.items():
-        try:
-            r = cli.get(url, headers=_cabecalhos(ua), timeout=20)
-            out[nome] = {"status": r.status, "texto": " ".join(texto_de_html(r.content, 300).split())[:200]}
-        except HttpError as e:
-            out[nome] = {"status": e.status or 0, "texto": " ".join(str(e.body or "").split())[:200]}
+ALVOS_SONDA = {
+    "www/company_tickers": TICKERS_URL,
+    "data/submissions": "https://data.sec.gov/submissions/",
+    "www/Archives": "https://www.sec.gov/Archives/edgar/data/",
+    "www/browse-edgar": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MU&type=8-K&count=5&output=atom",
+}
+
+
+def sondar_hosts(cli: Cliente, uas: list[str] | str, dormir=None) -> dict:
+    """Matriz contato x endpoint: diz de uma vez se o 403 e de User-Agent (muda com o
+    contato) ou de faixa de IP do runner (nao muda com nada). Sem CIK: 404 tambem
+    conta como alcancavel."""
+    import time
+    dormir = dormir or time.sleep
+    if isinstance(uas, str):
+        uas = [uas]
+    out: dict = {}
+    for nome, url in ALVOS_SONDA.items():
+        por_ua = {}
+        for cand in uas:
+            try:
+                r = cli.get(url, headers=_cabecalhos(cand), timeout=20)
+                por_ua[cand[:44]] = {"status": r.status, "texto": " ".join(texto_de_html(r.content, 200).split())[:120]}
+            except HttpError as e:
+                por_ua[cand[:44]] = {"status": e.status or 0, "texto": " ".join(str(e.body or "").split())[:120]}
+            dormir(0.4)
+        out[nome] = por_ua
     return out
 
 
@@ -196,7 +211,7 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
         motivo = "; ".join(f"{t['ua'][:40]} -> HTTP {t['status']}" for t in tentativas)
         return {"disponivel": True, "filings": [], "falhas": {"company_tickers": motivo[:300]},
                 "vistos": vistos, "ciks": {}, "ua_tentativas": tentativas,
-                "sonda_hosts": sondar_hosts(cli, ua)}
+                "sonda_hosts": sondar_hosts(cli, variantes_ua(ua))}
     ua = ua_bom or ua
     novos = []
     for ativo, ticker in mapa.items():
