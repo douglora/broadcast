@@ -2,7 +2,7 @@ ALERTAS · eventos
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 PETR4 · Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos
+· E05 USDBRL · Japão faz consulta de câmbio e iene salta para ¥156 por dólar
 
 
 Alertas do dia (todos, com status):
@@ -39,4 +39,4 @@ Alertas do dia (todos, com status):
 · linha     T02 MMM — MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa 
 · linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa
 · linha     T02 NOK — NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa pr
-· (+631 notícias só manchete, em noticias.md)
+· (+632 notícias só manchete, em noticias.md)
