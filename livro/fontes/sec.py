@@ -200,8 +200,11 @@ def texto_filing(cli: Cliente, ua: str, cik: int, f: dict, max_chars: int = 6000
 
 def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, dias: int = 3,
             formularios: list[str] | None = None, vistos: dict | None = None, max_docs: int = 6,
-            ua: str | None = None, dormir=None) -> dict:
-    """mapa: {ativo_do_livro: ticker_sec}. Devolve filings novos com texto (ate max_docs)."""
+            ua: str | None = None, dormir=None, dias_primeira_vez: int = 15) -> dict:
+    """mapa: {ativo_do_livro: ticker_sec}. Devolve filings novos com texto (ate max_docs).
+
+    Na primeira coleta (sem historico de vistos) a janela e larga, para semear o
+    estado; depois volta para `dias`, que basta num monitor diario."""
     import time
     dormir = dormir or time.sleep
     ua = ua or user_agent()
@@ -211,7 +214,9 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     cli = cli or Cliente(impersonate=False)
     hoje = hoje or datetime.now(timezone.utc).date()
     vistos = dict(vistos or {})
-    desde = hoje - timedelta(days=dias)
+    primeira = not vistos
+    janela = max(dias, dias_primeira_vez) if primeira else dias
+    desde = hoje - timedelta(days=janela)
     falhas: dict[str, str] = {}
     ciks, ua_bom, tentativas = abrir_catalogo(cli, ua, list(mapa.values()))
     if not ciks:
@@ -255,5 +260,5 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     limite = (hoje - timedelta(days=15)).isoformat()
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
     return {"disponivel": True, "filings": novos, "falhas": falhas, "vistos": vistos, "ciks": ciks,
-            "ua_usado": ua, "ua_tentativas": tentativas,
+            "ua_usado": ua, "ua_tentativas": tentativas, "janela_dias": janela, "primeira_coleta": primeira,
             "coletado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
