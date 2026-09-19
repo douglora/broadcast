@@ -67,8 +67,23 @@ def abrir_catalogo(cli: Cliente, ua: str, tickers: list[str]) -> tuple[dict, str
         try:
             return cik_por_ticker(cli, cand, tickers), cand, tentativas + [{"ua": cand, "status": 200}]
         except HttpError as e:
-            tentativas.append({"ua": cand, "status": e.status or 0, "detalhe": str(e.body or "")[:80]})
+            tentativas.append({"ua": cand, "status": e.status or 0, "detalhe": " ".join(str(e.body or "").split())[:300]})
     return {}, None, tentativas
+
+
+def sondar_hosts(cli: Cliente, ua: str) -> dict:
+    """Status de cada host da SEC sem precisar de CIK. 403 nos dois = bloqueio por IP
+    do runner; 404 em data.sec.gov = host alcancavel e o problema e so o catalogo."""
+    alvos = {"www.sec.gov/files/company_tickers.json": TICKERS_URL,
+             "data.sec.gov/submissions/": "https://data.sec.gov/submissions/"}
+    out = {}
+    for nome, url in alvos.items():
+        try:
+            r = cli.get(url, headers=_cabecalhos(ua), timeout=20)
+            out[nome] = {"status": r.status, "texto": " ".join(texto_de_html(r.content, 300).split())[:200]}
+        except HttpError as e:
+            out[nome] = {"status": e.status or 0, "texto": " ".join(str(e.body or "").split())[:200]}
+    return out
 
 
 def user_agent() -> str | None:
@@ -85,7 +100,7 @@ def _cabecalhos(ua: str) -> dict:
 def cik_por_ticker(cli: Cliente, ua: str, tickers: list[str]) -> dict[str, int]:
     r = cli.get(TICKERS_URL, headers=_cabecalhos(ua), timeout=30)
     if r.status != 200:
-        raise HttpError(r.status, r.text[:100], TICKERS_URL)
+        raise HttpError(r.status, texto_de_html(r.content, 400) or r.text[:200], TICKERS_URL)
     dados = r.json()
     alvo = {t.upper() for t in tickers}
     saida = {}
@@ -180,7 +195,8 @@ def coletar(mapa: dict, cli: Cliente | None = None, hoje: date | None = None, di
     if not ciks:
         motivo = "; ".join(f"{t['ua'][:40]} -> HTTP {t['status']}" for t in tentativas)
         return {"disponivel": True, "filings": [], "falhas": {"company_tickers": motivo[:300]},
-                "vistos": vistos, "ciks": {}, "ua_tentativas": tentativas}
+                "vistos": vistos, "ciks": {}, "ua_tentativas": tentativas,
+                "sonda_hosts": sondar_hosts(cli, ua)}
     ua = ua_bom or ua
     novos = []
     for ativo, ticker in mapa.items():
