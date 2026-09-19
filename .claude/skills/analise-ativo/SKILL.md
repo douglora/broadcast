@@ -144,7 +144,7 @@ no arquivo.
 | `cvm_demonstracoes.serie_trimestral`   | contas consolidadas por trimestre (R$ mi): DRE e caixa com 3 meses cada, balanco no fim do trimestre; rotulo `2026T2` |
 | `cvm_demonstracoes.ltm`                | soma dos ultimos 4 trimestres consecutivos por conta, com `ate`           |
 | `cvm_demonstracoes.derivados`          | trimestres calculados por diferenca (4T = DFP menos 9M; DFC por acumulado): cite como "derivado do anual" |
-| `cvm_demonstracoes.descricao_contas`   | nome da conta no plano da empresa; em banco, 3.01 e "Receitas da Intermediacao Financeira" e `plano_de_contas` vale `instituicao_financeira` |
+| `cvm_demonstracoes.descricao_contas`   | codigo e nome da conta usada em cada chave; em banco, 3.01 e "Receitas da Intermediacao Financeira" e `plano_de_contas` vale `instituicao_financeira`. Bancos trazem `lucro_atribuido_controladores`, `carteira_credito`, `depositos`, `resultado_antes_ir`; `descartadas` lista as contas cujo codigo apontava para outra coisa e ficaram de fora (nao invente EBIT de banco) |
 | `cvm_demonstracoes.dfp_anual` / `itr_trimestral` | contas cruas como a CVM publica (periodo `inicio..fim`)         |
 | `sec_xbrl` / `subjacente_us.sec_xbrl`  | linhas do XBRL (US$): `trimestral` com rotulo `CY2026Q2`, `anual`, `ltm`, `derivados` (4T), `instantaneas` (balanco), `tags_usadas` |
 | `release_ri` / `subjacente_us.release_ri` | texto integral do release de resultados (fonte, assunto, data, link, `cortado` se passou de 70 mil caracteres) |
@@ -313,9 +313,10 @@ a lado. Variante resultado: 4.1 e o release viram o corpo; ofereca
 - `release_ri` vazio (empresa sem press-release no IPE do ano, ou SEC sem
   8-K/6-K de resultado): use `cvm.documentos_resultado` para o link e diga
   que o texto nao foi lido; pedir ao Douglas o PDF resolve.
-- `cvm_demonstracoes` vazio (IPE nao casou a empresa): cite o nome que o
-  coletor tentou (`cvm.empresas_casadas`) e proponha corrigir o casamento no
-  coletor; enquanto isso, use `yahoo.demonstracoes` marcado como agregador.
+- `cvm_demonstracoes` vazio ou de outra empresa: confira `cvm.empresa_escolhida`
+  e `cvm.empresas_casadas`; se o coletor casou a companhia errada, diga qual
+  e proponha corrigir o casamento no coletor; enquanto isso, use
+  `yahoo.demonstracoes` marcado como agregador.
 - Ticker fora de `pares.py`: siga 2b com pares a mao e proponha o grupo.
 - Yahoo 404 (ticker trocado, ex.: empresa renomeada): diga qual simbolo
   falhou e use o oficial e o Fundamentus.

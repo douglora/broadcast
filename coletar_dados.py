@@ -369,29 +369,38 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
         return {}
 
     def casa(nome_cvm):
+        """2 = nucleo igual (BANCO DO BRASIL S.A. -> BRASIL); 1 = um e prefixo do outro (BRASIL TECNOLOGIA)."""
         n = nucleo_nome(nome_cvm)
+        melhor = 0
         for alvo in nucleos:
-            if n == alvo or n.startswith(alvo + " ") or alvo.startswith(n + " "):
-                return "exato"
-        return None
+            if n == alvo:
+                return 2
+            if n.startswith(alvo + " ") or alvo.startswith(n + " "):
+                melhor = max(melhor, 1)
+        return melhor
 
     def casa_fraco(nome_cvm):
         n = set(nucleo_nome(nome_cvm).split())
         for alvo in nucleos:
             palavras = [p for p in alvo.split() if len(p) >= 5]
             if palavras and all(p in n for p in palavras):
-                return "parcial"
-        return None
+                return 1
+        return 0
 
     docs, metodo = [], None
     for tentativa in (casa, casa_fraco):
-        docs = []
+        docs, pontuacao = [], {}
         for row in linhas:
             empresa = (row.get("Nome_Companhia") or "").strip()
-            if not empresa or not tentativa(empresa):
+            if not empresa:
+                continue
+            nota = pontuacao.get(empresa)
+            if nota is None:
+                nota = pontuacao[empresa] = tentativa(empresa)
+            if not nota:
                 continue
             docs.append({
-                "empresa": empresa,
+                "empresa": empresa, "_nota": nota,
                 "categoria": (row.get("Categoria") or "").strip(),
                 "tipo": (row.get("Tipo") or "").strip(),
                 "assunto": (row.get("Assunto") or "").strip()[:240],
@@ -399,6 +408,16 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
                 "link": (row.get("Link_Download") or "").strip(),
             })
         if docs:
+            # Fica a empresa com o melhor casamento; no empate, a que tem mais documentos.
+            # Evita trocar o Banco do Brasil pela Brasil Tecnologia ou o BTG pela BTG Commodities.
+            melhor_nota = max(d["_nota"] for d in docs)
+            contagem = {}
+            for d in docs:
+                if d["_nota"] == melhor_nota:
+                    contagem[d["empresa"]] = contagem.get(d["empresa"], 0) + 1
+            escolhida = max(contagem, key=contagem.get)
+            outras = sorted({d["empresa"] for d in docs if d["empresa"] != escolhida})
+            docs = [{k: v for k, v in d.items() if k != "_nota"} for d in docs if d["empresa"] == escolhida]
             metodo = tentativa.__name__
             break
     docs.sort(key=lambda d: d["data"], reverse=True)
@@ -416,18 +435,32 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
             codigos[empresa] = (row.get("Codigo_CVM") or "").strip()
             break
     return {"fatos_relevantes": fatos, "outros_documentos": outros, "documentos_resultado": resultado,
-            "empresas_casadas": sorted({d["empresa"] for d in docs}),
+            "empresa_escolhida": docs[0]["empresa"] if docs else None,
+            "empresas_casadas": ([docs[0]["empresa"]] + outras) if docs else [],
             "codigo_cvm": codigos.get(docs[0]["empresa"]) if docs else None}
 
 
-def _eh_documento_resultado(d):
-    """Press-release de resultados ou apresentacao a analistas, pelo IPE."""
+_RE_ASSUNTO_RESULTADO = re.compile(
+    r"PRESS RELEASE|RELEASE DE RESULTADO|RELEASE RESULTADO|DIVULGACAO DE RESULTADO|DIVULGACAO DOS RESULTADOS|"
+    r"EARNINGS RELEASE|EARNINGS|INFORMACOES SOBRE O RESULTADO|RESULTADO DO [1-4]|RESULTADOS DO [1-4]|"
+    r"ANALISE GERENCIAL|ANALISE DO DESEMPENHO|COMENTARIO DE DESEMPENHO|RESULTADO [1-4]T|RESULTADOS [1-4]T")
+
+
+def _classe_documento_resultado(d):
+    """'release' (texto de resultados: press-release ou relatorio gerencial), 'apresentacao' ou None."""
     cat, tipo, assunto = normalizar(d["categoria"]), normalizar(d["tipo"]), normalizar(d["assunto"])
-    if cat.startswith("DADOS ECONOMICO") and tipo.startswith("PRESS RELEASE"):
-        return True
-    if tipo.startswith("APRESENTACOES A ANALISTAS") and re.search(r"RESULTADO|EARNINGS|RESULTS|[1-4]T\d\d|[1-4]Q\d\d", assunto):
-        return True
-    return False
+    if cat.startswith("DADOS ECONOMICO") and (tipo.startswith("PRESS RELEASE") or tipo.startswith("RELATORIO DE ANALISE GERENCIAL")):
+        return "release"
+    if tipo.startswith("APRESENTACOES A ANALISTAS"):
+        return "apresentacao" if re.search(r"RESULTADO|EARNINGS|RESULTS|[1-4]T\d\d|[1-4]Q\d\d", assunto) else None
+    if cat.startswith("COMUNICADO AO MERCADO") and _RE_ASSUNTO_RESULTADO.search(assunto) \
+            and not re.search(r"\bCALL\b|TELECONFERENCIA|WEBCAST|CONVITE|PERIODO DE SILENCIO|CALENDARIO", assunto):
+        return "release"
+    return None
+
+
+def _eh_documento_resultado(d):
+    return _classe_documento_resultado(d) is not None
 
 
 # ───────────────────────── Release de resultados (RI via CVM e SEC) ─────────────────────────
@@ -517,14 +550,29 @@ def coletar_release_cvm(documentos, fontes, anterior=None):
     """Baixa o press-release de resultados mais recente entregue a CVM (portugues primeiro).
 
     `anterior` e o release ja gravado no branch: se o link for o mesmo, reusa o texto."""
-    releases = [d for d in documentos if normalizar(d["tipo"]).startswith("PRESS RELEASE")]
+    releases = [d for d in documentos if _classe_documento_resultado(d) == "release"]
     if not releases:
         fontes["release_ri"] = "sem press-release no IPE do ano"
         return {}
+    # Documentos dos ultimos 20 dias a partir do mais recente (o release e o relatorio gerencial
+    # saem juntos ou com dias de diferenca), em ordem de preferencia: relatorio gerencial de banco
+    # (mais completo), press-release em portugues, press-release em ingles, comunicado.
     data_max = releases[0]["data"]
-    do_dia = [d for d in releases if d["data"] == data_max]
-    do_dia.sort(key=lambda d: (0 if re.search(r"PORTUGU|PT\b", normalizar(d["assunto"])) else 1))
-    for d in do_dia[:2]:
+    try:
+        corte = (datetime.strptime(data_max, "%Y-%m-%d") - timedelta(days=20)).strftime("%Y-%m-%d")
+    except ValueError:
+        corte = data_max
+    do_dia = [d for d in releases if d["data"] >= corte]
+
+    def preferencia(d):
+        tipo, assunto = normalizar(d["tipo"]), normalizar(d["assunto"])
+        if tipo.startswith("RELATORIO DE ANALISE GERENCIAL"):
+            return 0
+        if tipo.startswith("PRESS RELEASE"):
+            return 1 if re.search(r"INGL|ENGL|\bEN\b|EARNINGS", assunto) else 0.5
+        return 2
+    do_dia.sort(key=lambda d: (preferencia(d), d["data"] < data_max))
+    for d in do_dia[:3]:
         if _release_reutilizavel(anterior, d["link"]):
             fontes["release_ri"] = f"ok ({d['assunto'][:60]}; {d['data']}; reusado da coleta anterior)"
             return anterior
@@ -565,7 +613,10 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
     except Exception:
         fontes["release_ri"] = "falha: submissions ilegivel"
         return {}
-    examinados = 0
+    # Pontua os documentos dos ultimos 8-K/6-K e fica com o melhor: um 6-K pode ser a
+    # demonstracao financeira, outro o press-release; o nome do arquivo e o inicio do
+    # texto dizem qual e qual.
+    examinados, melhor, melhor_nota = 0, None, -1
     for f in filings:
         form = (f.get("form") or "").upper()
         if form not in ("8-K", "6-K"):
@@ -573,7 +624,7 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
         if form == "8-K" and "2.02" not in (f.get("items") or ""):
             continue
         examinados += 1
-        if examinados > max_filings:
+        if examinados > max_filings or melhor_nota >= 5:
             break
         acc = (f.get("accessionNumber") or "").replace("-", "")
         idx = app.http_get(SEC_INDEX_URL.format(cik=cik, acc=acc), timeout=30, headers=SEC_HEADERS)
@@ -583,10 +634,19 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
             nomes = [it["name"] for it in idx.json()["directory"]["item"]]
         except Exception:
             continue
-        candidatos = [n for n in nomes if re.search(r"(?i)ex[-_]?99|99[-_.]?1", n) and n.lower().endswith((".htm", ".html", ".pdf"))]
-        if form == "6-K" and not candidatos:
-            candidatos = [n for n in nomes if n == f.get("primaryDocument")]
-        for nome in candidatos[:3]:
+        docs = [n for n in nomes if n.lower().endswith((".htm", ".html", ".pdf")) and not re.search(r"(?i)^r\d+\.htm|-index|xbrl|_lab|_pre|_cal|_def", n)]
+        primario = f.get("primaryDocument")
+
+        def nota_nome(n):
+            if re.search(r"(?i)ex[-_]?99|99[-_.]?1", n):
+                return 3
+            if re.search(r"(?i)release|earnings|results|press|\bpr\d", n):
+                return 3
+            return 0 if n == primario else 1
+        docs.sort(key=nota_nome, reverse=True)
+        if form == "8-K":
+            docs = [n for n in docs if nota_nome(n) >= 3] or docs[:1]
+        for nome in docs[:2]:
             url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
             if _release_reutilizavel(anterior, url):
                 fontes["release_ri"] = f"ok ({form} de {f.get('filingDate')}; {nome}; reusado da coleta anterior)"
@@ -595,15 +655,27 @@ def coletar_release_sec(cik, fontes, max_filings=8, anterior=None):
             if not doc:
                 continue
             texto, detalhe = _texto_de_download(doc)
-            if not texto or len(texto) < 1500 or not _PALAVRAS_RESULTADO.search(texto[:6000]):
+            if not texto or len(texto) < 1500:
                 continue
-            rel = _montar_release(texto, detalhe, {
-                "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
-                "data": f.get("filingDate"), "periodo_reportado": f.get("reportDate"),
-                "link": SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)})
-            if rel:
-                fontes["release_ri"] = f"ok ({form} de {f.get('filingDate')}; {nome}; {rel['caracteres_total']} caracteres)"
-                return rel
+            cabeca = texto[:8000]
+            nota = nota_nome(nome)
+            if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)|quarterly results|financial results for", cabeca):
+                nota += 2
+            if _PALAVRAS_RESULTADO.search(cabeca):
+                nota += 1
+            if re.search(r"(?i)interim (condensed )?(consolidated )?financial statements|notes to the (interim|consolidated) financial", cabeca):
+                nota -= 1
+            if nota <= 0:
+                continue
+            if nota > melhor_nota:
+                melhor_nota = nota
+                melhor = _montar_release(texto, detalhe, {
+                    "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
+                    "data": f.get("filingDate"), "periodo_reportado": f.get("reportDate"), "arquivo": nome,
+                    "link": url})
+    if melhor:
+        fontes["release_ri"] = f"ok ({melhor['formulario']} de {melhor['data']}; {melhor['arquivo']}; {melhor['caracteres_total']} caracteres)"
+        return melhor
     fontes["release_ri"] = f"sem release de resultados nos ultimos {examinados} 8-K/6-K"
     return {}
 
@@ -820,7 +892,47 @@ CVM_CONTAS = {
     "2.02.01": "emprestimos_longo_prazo", "2.03": "patrimonio_liquido_consolidado",
     "6.01": "caixa_operacional", "6.02": "caixa_investimento", "6.03": "caixa_financiamento",
 }
+# Descricao esperada de cada conta mapeada por codigo. Em banco e seguradora o codigo
+# aponta para outra coisa (2.03 e "Provisoes" no Bradesco, "Passivos ao custo amortizado"
+# no Itau): se a descricao nao bate, o valor e descartado em vez de enganar o leitor.
+CVM_ESPERADO = {
+    "ativo_circulante": r"^ATIVO CIRCULANTE", "ativo_nao_circulante": r"^ATIVO NAO CIRCULANTE",
+    "caixa_equivalentes": r"^CAIXA", "aplicacoes_financeiras": r"^APLICACOES FINANCEIRAS", "estoques": r"^ESTOQUES",
+    "passivo_circulante": r"^PASSIVO CIRCULANTE", "passivo_nao_circulante": r"^PASSIVO NAO CIRCULANTE",
+    "emprestimos_curto_prazo": r"^EMPRESTIMOS E FINANCIAMENTOS", "emprestimos_longo_prazo": r"^EMPRESTIMOS E FINANCIAMENTOS",
+    "patrimonio_liquido_consolidado": r"^PATRIMONIO LIQUIDO",
+    "receita_liquida": r"^RECEITA", "custos": r"^(CUSTO|DESPESAS DA? INTERMEDIACAO)",
+    "resultado_bruto": r"^RESULTADO BRUTO",
+    "despesas_receitas_operacionais": r"(DESPESAS/RECEITAS OPERACIONAIS|RECEITAS/DESPESAS OPERACIONAIS|RECEITAS \(DESPESAS\) OPERACIONAIS)",
+    "ebit": r"^RESULTADO ANTES DO RESULTADO FINANCEIRO", "resultado_financeiro": r"^RESULTADO FINANCEIRO",
+    "resultado_antes_ir": r"^RESULTADO ANTES DOS TRIBUTOS", "imposto_renda": r"^IMPOSTO DE RENDA",
+    "resultado_operacoes_continuadas": r"^RESULTADO LIQUIDO DAS OPERACOES CONTINUADAS",
+    "lucro_liquido_consolidado": r"^(LUCRO|RESULTADO LIQUIDO)",
+    "caixa_operacional": r"^CAIXA LIQUIDO", "caixa_investimento": r"^CAIXA LIQUIDO", "caixa_financiamento": r"^CAIXA LIQUIDO",
+}
+# Contas reconhecidas pela descricao, para quando o codigo nao serve (plano de instituicao
+# financeira) ou a conta nao tem codigo fixo: chave -> (regex na descricao normalizada,
+# grupo do codigo, profundidade maxima do codigo).
+CVM_SEMANTICAS = {
+    "patrimonio_liquido_consolidado": (r"^PATRIMONIO LIQUIDO", "2", 2),
+    "lucro_liquido_consolidado": (r"^(LUCRO/PREJUIZO( LIQUIDO)?( CONSOLIDADO)? DO (PERIODO|EXERCICIO)|"
+                                  r"LUCRO OU PREJUIZO( LIQUIDO)?( CONSOLIDADO)?( DO (PERIODO|EXERCICIO))?|"
+                                  r"LUCRO LIQUIDO( CONSOLIDADO)?( DO (PERIODO|EXERCICIO))?|"
+                                  r"RESULTADO LIQUIDO DO (PERIODO|EXERCICIO))$", "3", 2),
+    "lucro_atribuido_controladores": (r"ATRIBUID[OA] AO?S? (SOCIOS|ACIONISTAS)( D[AEO])?( EMPRESA)? CONTROLADOR(A|ES)|"
+                                      r"ATRIBUIVEL AOS (SOCIOS|ACIONISTAS) CONTROLADOR(A|ES)|^ACIONISTAS CONTROLADORES$", "3", 3),
+    "resultado_antes_ir": (r"^RESULTADO ANTES DOS TRIBUTOS", "3", 2),
+    "imposto_renda": (r"^IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL", "3", 2),
+    "caixa_equivalentes": (r"^CAIXA E EQUIVALENTES", "1", 3),
+    "carteira_credito": (r"^(OPERACOES DE CREDITO|EMPRESTIMOS E ADIANTAMENTOS A CLIENTES|EMPRESTIMOS E RECEBIVEIS|"
+                         r"CARTEIRA DE CREDITO|OPERACOES DE CREDITO E ARRENDAMENTO)", "1", 3),
+    "depositos": (r"^DEPOSITOS( DE CLIENTES)?$", "2", 3),
+}
 _CVM_ZIPS = {}
+
+
+def _profundidade(conta):
+    return conta.count(".") + 1
 
 
 def _csvs_do_zip(url):
@@ -843,10 +955,16 @@ def _csvs_do_zip(url):
     return arquivos
 
 
-def _demonstracoes_cvm(arquivos, cd_cvm, tipo, descricoes=None):
-    """Filtra as contas da empresa (ultima versao de cada periodo). tipo = 'dfp' ou 'itr'."""
-    saida = {}
+def _demonstracoes_cvm(arquivos, cd_cvm, tipo, descricoes=None, descartadas=None):
+    """Filtra as contas da empresa (ultima versao de cada periodo). tipo = 'dfp' ou 'itr'.
+
+    Cada chave sai de uma conta: a do codigo fixo (CVM_CONTAS) quando a descricao bate com
+    CVM_ESPERADO, senao a conta reconhecida pela descricao (CVM_SEMANTICAS). descricoes recebe
+    "codigo descricao" da conta usada; descartadas, as contas cujo codigo apontava para outra coisa."""
+    candidatos = {}   # (chave, conta) -> {periodo: valor}
+    nomes_conta = {}  # conta -> descricao
     alvo = str(int(cd_cvm))
+    semanticas = [(chave, re.compile(rx), grupo, prof) for chave, (rx, grupo, prof) in CVM_SEMANTICAS.items()]
     for nome, texto in arquivos.items():
         for row in csv.DictReader(io.StringIO(texto), delimiter=";"):
             try:
@@ -857,13 +975,19 @@ def _demonstracoes_cvm(arquivos, cd_cvm, tipo, descricoes=None):
             if normalizar(row.get("ORDEM_EXERC") or "") != "ULTIMO":
                 continue
             conta = (row.get("CD_CONTA") or "").strip()
-            chave = CVM_CONTAS.get(conta)
-            if not chave:
+            ds = (row.get("DS_CONTA") or "").strip()
+            ds_norm = normalizar(ds)
+            chaves = []
+            if conta in CVM_CONTAS:
+                chaves.append(CVM_CONTAS[conta])
+            prof = _profundidade(conta)
+            for chave, rx, grupo, prof_max in semanticas:
+                if prof <= prof_max and (conta == grupo or conta.startswith(grupo + ".")) and rx.search(ds_norm):
+                    if chave not in chaves:
+                        chaves.append(chave)
+            if not chaves:
                 continue
-            if descricoes is not None and chave not in descricoes:
-                # Nome da conta no plano da empresa: em bancos, 3.01 e "Receitas da
-                # Intermediacao Financeira" e 3.05 nao e EBIT. O leitor precisa saber.
-                descricoes[chave] = f"{conta} {(row.get('DS_CONTA') or '').strip()}"[:90]
+            nomes_conta[conta] = ds
             fim = (row.get("DT_FIM_EXERC") or "")[:10]
             ini = (row.get("DT_INI_EXERC") or "")[:10]
             try:
@@ -876,7 +1000,34 @@ def _demonstracoes_cvm(arquivos, cd_cvm, tipo, descricoes=None):
             # DRE e DFC do ITR trazem o trimestre (3 meses) e o acumulado no ano:
             # marcamos o periodo pelo intervalo para nao misturar.
             periodo = fim if not ini else f"{ini}..{fim}"
-            saida.setdefault(chave, {})[periodo] = round(valor, 3)
+            for chave in chaves:
+                candidatos.setdefault((chave, conta), {})[periodo] = round(valor, 3)
+
+    saida = {}
+    por_chave = {}
+    for (chave, conta), valores in candidatos.items():
+        por_chave.setdefault(chave, []).append((conta, valores))
+    for chave, opcoes in por_chave.items():
+        escolhida = None
+        codigo_fixo = next((c for c, _ in opcoes if CVM_CONTAS.get(c) == chave), None)
+        if codigo_fixo is not None:
+            esperado = CVM_ESPERADO.get(chave)
+            if not esperado or re.search(esperado, normalizar(nomes_conta.get(codigo_fixo, ""))):
+                escolhida = codigo_fixo
+        if escolhida is None:
+            outras = [c for c, _ in opcoes if c != codigo_fixo]
+            if outras:
+                # Conta reconhecida pela descricao: a mais alta na hierarquia, depois a de menor codigo
+                escolhida = sorted(outras, key=lambda c: (_profundidade(c), [int(p) for p in c.split(".")]))[0]
+        if escolhida is None:
+            if descartadas is not None and codigo_fixo is not None and chave not in descartadas:
+                descartadas[chave] = f"{codigo_fixo} {nomes_conta.get(codigo_fixo, '')}"[:90]
+            continue
+        saida[chave] = dict(next(v for c, v in opcoes if c == escolhida))
+        if descricoes is not None and chave not in descricoes:
+            # Nome da conta no plano da empresa: em bancos, 3.01 e "Receitas da
+            # Intermediacao Financeira". O leitor precisa saber de onde veio o numero.
+            descricoes[chave] = f"{escolhida} {nomes_conta.get(escolhida, '')}"[:90]
     return saida
 
 
@@ -885,22 +1036,25 @@ def coletar_cvm_demonstracoes(cd_cvm, fontes):
         fontes["cvm_demonstracoes"] = "sem codigo CVM (IPE nao casou a empresa)"
         return {}
     ano = datetime.now(timezone.utc).year
-    out = {"cd_cvm": cd_cvm, "unidade": "R$ milhoes", "descricao_contas": {}, "dfp_anual": {}, "itr_trimestral": {},
+    out = {"cd_cvm": cd_cvm, "unidade": "R$ milhoes", "descricao_contas": {}, "descartadas": {},
+           "dfp_anual": {}, "itr_trimestral": {},
            "serie_trimestral": {}, "serie_anual": {}, "derivados": {}, "ltm": {},
            "nota": ("dfp_anual e itr_trimestral: contas consolidadas como a CVM publica (periodo 'inicio..fim'; "
                     "no ITR ha o trimestre de 3 meses e o acumulado no ano). serie_trimestral: cada trimestre "
                     "com 3 meses (fluxo) ou saldo no fim do trimestre (balanco); o 4T e o anual da DFP menos o "
                     "acumulado de 9 meses, e trimestres sem linha de 3 meses saem da diferenca dos acumulados "
-                    "(lista em derivados). ltm: soma dos ultimos 4 trimestres consecutivos.")}
+                    "(lista em derivados). ltm: soma dos ultimos 4 trimestres consecutivos. descricao_contas: "
+                    "codigo e nome da conta usada em cada chave; descartadas: contas cujo codigo fixo apontava "
+                    "para outra coisa no plano da empresa (bancos) e por isso ficaram de fora.")}
     for a in (ano - 1, ano - 2, ano - 3):
         arq = _csvs_do_zip(CVM_DFP_URL.format(ano=a))
         if arq:
-            for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp", out["descricao_contas"]).items():
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp", out["descricao_contas"], out["descartadas"]).items():
                 out["dfp_anual"].setdefault(k, {}).update(v)
     for a in (ano, ano - 1, ano - 2):
         arq = _csvs_do_zip(CVM_ITR_URL.format(ano=a))
         if arq:
-            for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr", out["descricao_contas"]).items():
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr", out["descricao_contas"], out["descartadas"]).items():
                 out["itr_trimestral"].setdefault(k, {}).update(v)
     for bloco in ("dfp_anual", "itr_trimestral"):
         for k in out[bloco]:
@@ -1030,8 +1184,10 @@ def _oficial(dados):
         st, ltm = cvm["serie_trimestral"], cvm.get("ltm") or {}
         rec, ebit, ll, pl, fin = ("receita_liquida", "ebit", "lucro_liquido_consolidado",
                                   "patrimonio_liquido_consolidado", "resultado_financeiro")
+        if ltm.get("lucro_atribuido_controladores"):
+            ll = "lucro_atribuido_controladores"   # o lucro que cabe ao acionista, sem minoritarios
         out = {"fonte": "CVM ITR/DFP consolidado", "unidade": "R$ milhoes",
-               "plano_de_contas": cvm.get("plano_de_contas", "geral")}
+               "plano_de_contas": cvm.get("plano_de_contas", "geral"), "conta_lucro": ll}
     elif sec.get("trimestral"):
         st, ltm = sec["trimestral"], sec.get("ltm") or {}
         rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", None
@@ -1135,7 +1291,15 @@ def linha_comparativa(dados):
     if sub:
         linha["preco_bdr_brl"] = (y.get("info") or {}).get("currentPrice")
         linha["paridade"] = (sub.get("paridade_implicita") or {}).get("bdrs_por_acao")
+    if (dados.get("pares") or {}).get("tipo") == "financeiro":
+        # Banco e seguradora: EV/EBITDA, margens operacionais e divida liquida nao descrevem o negocio
+        for k in _METRICAS_NAO_FINANCEIRAS:
+            linha[k] = None
     return linha
+
+
+_METRICAS_NAO_FINANCEIRAS = ["ev_ebitda", "margem_bruta", "margem_ebitda", "margem_ebit", "margem_liquida",
+                             "divida_liquida_ebitda", "divida_liquida_pl"]
 
 
 _METRICAS_MEDIANA = ["pl_12m", "pl_projetado", "pvp", "ev_ebitda", "dy_12m", "roe", "roic", "margem_bruta",
@@ -1156,7 +1320,11 @@ def _mediana(valores):
 def montar_comparativo(grupo, nome, tipo, linhas, pedidos):
     """Tabela de pares: linhas por ticker, mediana do grupo e posicao de cada um."""
     medianas = {}
+    ignorar = set(_METRICAS_NAO_FINANCEIRAS + ["oficial.margem_ebit_ltm", "oficial.margem_liquida_ltm",
+                                                "oficial.resultado_financeiro_sobre_ebit"]) if tipo == "financeiro" else set()
     for metrica in _METRICAS_MEDIANA:
+        if metrica in ignorar:
+            continue
         valores = []
         for ln in linhas:
             v = ln.get("oficial", {}).get(metrica[8:]) if metrica.startswith("oficial.") else ln.get(metrica)
