@@ -234,10 +234,15 @@ def alertas_md(resultado: dict, do_dia: list[dict], slot_rotulo: str) -> str:
     if resultado["suprimidos"]:
         linhas.append("Suprimidos pelo teto (viram linha do Fechamento): " + ", ".join(f"{s['id']} ({s['motivo']})" for s in resultado["suprimidos"]))
     if do_dia:
+        manchetes = [a for a in do_dia if a.get("familia") in ("noticia", "evento") and a.get("severidade") == "info"]
         linhas.append("")
         linhas.append("Alertas do dia (todos, com status):")
         for a in do_dia:
+            if a in manchetes:
+                continue
             linhas.append(f"· {a['status']:<9} {a['rotulo'] if 'rotulo' in a else ''}{a['regra']} {a['ativo']} — {a['titulo'][:80]}")
+        if manchetes:
+            linhas.append(f"· (+{len(manchetes)} notícias só manchete, em noticias.md)")
     return "\n".join(linhas).rstrip() + "\n"
 
 
@@ -288,6 +293,9 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
         L.append(f"FECHAMENTO DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '18h40'} BRT" + (" · PARCIAL" if parcial else ""))
     L += quebrar("Relógios: " + relogios_txt, indent="  ")
     L.append("")
+    # noticia e fato que ficaram so em manchete (info) vivem em noticias.md, nao no digest
+    so_manchete = [a for a in do_dia if a.get("familia") in ("noticia", "evento") and a.get("severidade") == "info"]
+    do_dia = [a for a in do_dia if a not in so_manchete]
     crit = sum(1 for a in do_dia if a.get("severidade") == "critico")
     L.append(f"ALERTAS DO DIA ({len(do_dia)}" + (f" · {crit} crítico{'s' if crit > 1 else ''}" if crit else "") + ")")
     if not do_dia:
@@ -305,8 +313,9 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
         L += quebrar("BAIXAS " + " · ".join(f"{i} {fmt.pct(v)}" for i, v in movers["baixas"]), indent="       ")
     L.append("")
     fatos = [a for a in do_dia if a.get("familia") in ("noticia", "evento")]
-    if fatos:
-        L.append(f"NOTÍCIAS E FATOS ({len(fatos)} · detalhe em noticias.md)")
+    if fatos or so_manchete:
+        resto = f" · +{len(so_manchete)} manchete" if so_manchete else ""
+        L += quebrar(f"NOTÍCIAS E FATOS ({len(fatos)}{resto} · noticias.md)", indent="  ")
         for a in fatos[:6]:
             d = a.get("dados") or {}
             veic = d.get("veiculo") or ""

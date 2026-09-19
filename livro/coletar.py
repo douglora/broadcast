@@ -383,7 +383,9 @@ class Coleta:
         janelas = {}
         for a in self.u.ativos:
             if a.id in self.series:
-                janelas[a.id] = ind.janelas(self.series[a.id])
+                # ate=hoje: mercado continuo (cripto, futuros) nao entra com a barra do
+                # dia seguinte num fechamento do pregao anterior
+                janelas[a.id] = ind.janelas(self.series[a.id], ate=self.hoje)
         do_dia = repo.do_dia(self.hoje.isoformat())
         rot = SLOT_ROTULO.get(self.modo, self.modo)
         alertas_txt = render.alertas_md(resultado, do_dia, rot)
@@ -413,9 +415,11 @@ class Coleta:
         relogios_txt = self._relogios_txt()
         fontes = ["Yahoo Finance", "B3 Boletim Diário", "Tesouro Transparente", "Treasury.gov CMT", "BCB"]
         parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in self.u.por_bloco("eua"))
+        coleta_dia = relogios.brt(self.agora).date()
+        hora_txt = relogios.fmt_brt(self.agora) + ("" if coleta_dia == self.hoje else f" de {fmt.data_br(coleta_dia.isoformat())}")
         agenda_l = render.agenda(self.calendario, self.hoje, extras=render.agenda_extras(self.eventos.get("agenda") or {}, self.calendario))
         a_txt = render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, agenda_l,
-                               lacunas, fontes, parcial=parcial, slot=self.modo, hora=relogios.fmt_brt(self.agora))
+                               lacunas, fontes, parcial=parcial, slot=self.modo, hora=hora_txt)
         legenda = render.legenda_ucits(self.u)
         notas = []
         prox = (self.macro.get("proxies") or {}).get("proxies") or {}
