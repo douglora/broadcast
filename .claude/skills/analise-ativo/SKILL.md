@@ -151,7 +151,8 @@ no arquivo.
 | `cvm_demonstracoes.derivados`          | trimestres calculados por diferenca (4T = DFP menos 9M; DFC por acumulado): cite como "derivado do anual" |
 | `cvm_demonstracoes.descricao_contas`   | codigo e nome da conta usada em cada chave; em banco, 3.01 e "Receitas da Intermediacao Financeira" e `plano_de_contas` vale `instituicao_financeira`. Bancos trazem `lucro_atribuido_controladores`, `carteira_credito`, `depositos`, `resultado_antes_ir`; `descartadas` lista as contas cujo codigo apontava para outra coisa e ficaram de fora (nao invente EBIT de banco) |
 | `cvm_demonstracoes.dfp_anual` / `itr_trimestral` | contas cruas como a CVM publica (periodo `inicio..fim`)         |
-| `sec_xbrl` / `subjacente_us.sec_xbrl`  | linhas do XBRL (US$): `trimestral` com rotulo `CY2026Q2`, `anual`, `ltm`, `derivados` (4T), `instantaneas` (balanco), `tags_usadas` |
+| `sec_xbrl` / `subjacente_us.sec_xbrl`  | linhas do XBRL (US$): `trimestral` com rotulo `CY2026Q2`, `anual`, `ltm`, `derivados` (4T), `instantaneas` (balanco), `tags_usadas`, `desatualizadas` (tag que a empresa parou de usar; fora do LTM) |
+| divida no `sec_xbrl`                   | `divida_curto_prazo` e `divida_longo_prazo` somam; `divida_total` (tag LongTermDebt) ja e o total e NUNCA se soma a elas. Linhas de fluxo de caixa (capex, caixa operacional) so tem frame no 1T: para os demais trimestres use o release |
 | `release_ri` / `subjacente_us.release_ri` | texto integral do release de resultados (fonte, assunto, data, link, `cortado` se passou de 70 mil caracteres) |
 | `cvm.documentos_resultado`             | releases e apresentacoes de resultado do ano no IPE, com link          |
 | `pares`                                | grupo, tipo (financeiro ou operacional), tickers e o arquivo do comparativo |
