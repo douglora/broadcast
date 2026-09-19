@@ -16,6 +16,45 @@
 
 cd "$(dirname "$0")" || exit 1
 
+# ── Pegar a versao mais recente do codigo ────────────────────
+# Por que isto esta aqui: ate agora, atualizar exigia abrir o Terminal e digitar
+# `git pull`. O Terminal e onde este projeto trava (colar no Mac e Command+V, e nao
+# Ctrl+V; quem nao sabe ve a janela nao responder e conclui que o programa quebrou).
+# Com este bloco, atualizar e carregar viram o mesmo duplo-clique.
+#
+# Tres cuidados, todos sobre nao piorar o que ja funciona:
+#
+#   - FALHA AQUI NAO IMPEDE O QUE VEM DEPOIS. Atualizar e conveniencia; preparar o Mac
+#     e baixar os dados e que sao o trabalho. Sem internet, sem git, ou com alteracao
+#     local, o bloco avisa e segue com o codigo que ja esta no disco.
+#   - GIT_TERMINAL_PROMPT=0. Janela de duplo-clique nao tem ninguem olhando: se o git
+#     resolver pedir usuario e senha, ela congela para sempre sem dizer por que. Assim
+#     ele falha na hora, e o limite de velocidade minima aborta download travado em 20s.
+#   - --ff-only. Havendo alteracao local, um `git pull` comum abriria um merge — talvez
+#     um editor de texto dentro desta janela, que e o pior lugar possivel para descobrir
+#     o que e um conflito. Recusar e seguir e melhor.
+#
+# E o `exec`: o bash le o arquivo do script conforme executa. Se o `git pull` trocasse
+# ESTE arquivo no meio da execucao, o resto sairia embaralhado. Por isso a atualizacao e
+# a primeira coisa que acontece e o script se reinicia em seguida, ja com o codigo novo.
+ESTE="$(pwd)/$(basename "$0")"
+if [ -z "$JA_ATUALIZOU" ] && [ -d ".git" ] && command -v git >/dev/null 2>&1; then
+  echo "Buscando a versao mais recente do codigo..."
+  if GIT_TERMINAL_PROMPT=0 git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=20 \
+       pull --ff-only --quiet 2>/dev/null; then
+    echo "  atualizado."
+  else
+    echo "  nao deu para atualizar (sem internet, ou ha alteracao local nesta pasta)."
+    echo "  Seguindo com a versao que ja esta no disco."
+  fi
+  echo
+  JA_ATUALIZOU=1 exec "$ESTE"
+fi
+
+RAMO=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
+VERSAO=$(git log -1 --format='%h %s' 2>/dev/null || echo "?")
+
+
 echo "============================================================"
 echo "  BROADCAST + sistema quant — preparando este Mac"
 echo "============================================================"
@@ -26,6 +65,9 @@ fim() {
   read -r -p "Pressione Enter para fechar esta janela."
   exit "${1:-0}"
 }
+
+echo "Versao do codigo: $VERSAO (ramo $RAMO)"
+echo
 
 # ── 1. Python ────────────────────────────────────────────────
 PY=""

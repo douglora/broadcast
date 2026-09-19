@@ -34,10 +34,18 @@ douglas@MacBook-Pro ~ %
 Isso se chama *prompt*. Ele mostra seu usuário, o nome do computador, e onde você está
 (`~` quer dizer "minha pasta pessoal"). O `%` é onde você digita.
 
-**Três coisas que ajudam desde já:**
+> ### ⚠️ Colar é ⌘ Command + V
+>
+> Não é Ctrl+V. Com Ctrl+V **nada acontece** — o texto não entra na janela, nenhum erro
+> aparece, e parece que o Terminal travou. É o tropeço mais comum de quem vem do Windows,
+> e ele não se anuncia.
+>
+> Se preferir, dá para **clicar com o botão direito** dentro da janela e escolher *Colar*.
 
-- **Colar** é **⌘ Command + V**, como em qualquer programa do Mac. Não é Ctrl+V.
-- Depois de digitar um comando, você precisa apertar **Enter** para ele rodar.
+**Mais duas coisas que ajudam desde já:**
+
+- Depois de colar um comando, você precisa apertar **Enter** para ele rodar. Antes disso
+  ele fica escrito na linha, parado.
 - Se um comando estiver demorando e você quiser cancelar, aperte **Control + C**.
 
 **Truque que economiza muita digitação:** você pode arrastar uma pasta do Finder para dentro
@@ -196,9 +204,13 @@ comando imprime o veredito nos três cenários e diz se cabe.
 No **Finder**, dentro da pasta `broadcast`, dê **dois cliques** em
 **`CARREGAR-DADOS.command`**.
 
-Ele faz a carga inteira e, no fim, confere o que chegou. Três coisas que ele resolve
+Ele faz a carga inteira e, no fim, confere o que chegou. Quatro coisas que ele resolve
 sozinho:
 
+- **ele busca a versão mais recente do código** antes de começar, e escreve no log em que
+  versão a carga rodou — você não precisa rodar `git pull` no Terminal. Se não conseguir
+  (sem internet, por exemplo), ele avisa e segue com o que já está no disco: atualizar é
+  conveniência, baixar os dados é o trabalho;
 - **o Mac não adormece** enquanto a janela estiver aberta (usa o `caffeinate` do próprio
   macOS) — Mac que dorme no meio derruba o download;
 - **se a internet cair**, nada se perde: clique duas vezes de novo e ele continua de onde

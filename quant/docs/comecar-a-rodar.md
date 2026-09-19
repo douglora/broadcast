@@ -109,11 +109,14 @@ Só depois dos passos 0 e 1. Abra (ou confirme) a conta no Safra e confirme **po
 
 ## Passo 3 — A primeira carga de dados (com rede)
 
-Aqui volta a ser trabalho de máquina, e é **um comando**:
+Aqui volta a ser trabalho de máquina, e no Mac é **um duplo-clique**: abra a pasta
+`broadcast` no Finder e clique duas vezes em **`CARREGAR-DADOS.command`**. Ele se atualiza,
+roda a carga, confere o que chegou e guarda tudo num log — sem passar pelo Terminal.
+
+Pela linha de comando, o equivalente é:
 
 ```bash
-pip install -r quant/requirements.txt
-python3 -m quant.primeira_carga
+python3 -m quant.primeira_carga --continuar
 ```
 
 Ele roda os nove coletores na ordem certa, repete em falha de rede, e no fim imprime o que
