@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 11h34 de 20/09 BRT
+## Fechamento do livro · sex 18/09 · 11h39 de 20/09 BRT
 
 ---
 
@@ -24,7 +24,7 @@
 - **T05 · BTC** BTC +6,2% no dia a US$ 81.155: movimento de 3,0 desvios para uma vol de 20 dias de 32% a.a.
 - **T05 · ETH** ETH +7,1% no dia a US$ 2.621: movimento de 3,2 desvios para uma vol de 20 dias de 34% a.a.
 - **T08 · BAC** BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
-- **F06 · ETH** ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
+- **F06 · ETH** ETH sobe a US$ 2.611 (cruzou US$ 2.500)
 - **S01 · SISTEMA** coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINERIO, KOSPI
 
 *Mais 21 sinais de baixa prioridade em `alertas.md`.*
@@ -272,7 +272,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 11h34 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 11h39 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

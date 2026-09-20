@@ -38,18 +38,14 @@ Como falar: 'saiu no Yahoo Finance: TSMC Stock And 2 Manufacturers Building Arou
 Fonte: Yahoo Finance 20/09 01h20
 ids: E05-TSM-7f4f288908-2026-09-20
 
-Info (só linha no Fechamento):
-· E05 MU · Micron: Likely Dead Money From Here (NASDAQ:MU)
-· E05 BTC · Brian Armstrong Predicts $400,000 Bitcoin Price by 2030. The Forecast Requires 51% Growth Annually: Can It Hold?
-
 
 Alertas do dia (todos, com status):
 · linha     T08 WQTM — WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,8
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
 · entregue  F03 BRENT — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
-· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja
-· pendente  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
-· pendente  E05 TSM — TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
+· expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja
+· expirado  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
+· expirado  E05 TSM — TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
 · linha     T08 IGV — IGV entrou em correção: -11% do pico de 52s (US$ 117,79 em 22/09) a US$ 104,35
 · linha     T03 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) formou death cross
 · linha     C06 TESOURO — Inflação implícita: implícita 2029 +21 bps na semana · implícita 2029 cruzou 6,0
@@ -69,7 +65,7 @@ Alertas do dia (todos, com status):
 · entregue  T05 BTC — BTC +6,2% no dia a US$ 81.155: movimento de 3,0 desvios para uma vol de 20 dias 
 · entregue  T05 ETH — ETH +7,1% no dia a US$ 2.621: movimento de 3,2 desvios para uma vol de 20 dias d
 · entregue  T08 BAC — BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
-· entregue  F06 ETH — ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
+· entregue  F06 ETH — ETH sobe a US$ 2.611 (cruzou US$ 2.500)
 · entregue  S01 SISTEMA — coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINE
 · linha     T02 QQQ — QQQ retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 721,45, acima da MM200 
 · linha     T02 INTC — INTC retomou a MM100 pela 2ª sessão: US$ 108,60, acima da MM200 (tendência longa
@@ -86,5 +82,5 @@ Alertas do dia (todos, com status):
 · linha     T02 SBSP3 — SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tend
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
-· entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
+· entregue  F06 BTC — BTC sobe a US$ 80.901 (cruzou US$ 80.000)
 · (+657 notícias só manchete, em noticias.md)

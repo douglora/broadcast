@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/09 11h34
+NOTÍCIAS E FATOS · 20/09 11h39
 
-Pernas: noticias ok 2 novas (14 consultas; descartadas: 338 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 0 novas (14 consultas; descartadas: 347 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -77,7 +77,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Money Times: Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário; confirmar o número no texto antes de repassar'
 Fonte: Money Times 20/09 08h05
-id: E05-PETR4-3b165219be-2026-09-20 · status: pendente · íntegra disponível
+id: E05-PETR4-3b165219be-2026-09-20 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
 Estadao · 20/09 07h00 · fonte única · licença: manchete
@@ -86,7 +86,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
 Fonte: Estadao 20/09 07h00
-id: E05-PETR4-121ac17da6-2026-09-20 · status: pendente
+id: E05-PETR4-121ac17da6-2026-09-20 · status: expirado
 
 [ATENÇÃO] E05 · TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
 Yahoo Finance · 20/09 01h20 · fonte única · licença: resumo
@@ -102,7 +102,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: TSM
 Como falar: 'saiu no Yahoo Finance: TSMC Stock And 2 Manufacturers Building Around Tariff Shifts; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 20/09 01h20
-id: E05-TSM-7f4f288908-2026-09-20 · status: pendente
+id: E05-TSM-7f4f288908-2026-09-20 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
 Yahoo Finance · 18/09 16h52 · + Bloomberg · licença: resumo
