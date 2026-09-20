@@ -410,6 +410,11 @@ Se a nota nao responde uma delas com numero e fonte, nao esta pronta.
 ### 6d. Evidencia
 
 - Todo numero com fonte e data; falha de fonte vira lacuna declarada.
+- Data de release marcada `(estimada)` pelo `mesa.py` (ficha, releases,
+  release, linha, frescor; campo `data_estimada`/`release_data_estimada` no
+  JSON) e inferencia do coletor (fim do trimestre + 40 dias), nao data de
+  divulgacao: nunca entra na nota como data; cite so o trimestre ("release
+  do 2T26"), nunca "divulgado em DD/MM".
 - Oficial vence agregador. Se Yahoo e CVM divergem, cite a CVM e diga que o
   agregador diverge.
 - Compare sempre: contra pares, contra a historia, contra o custo de capital
