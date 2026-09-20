@@ -11,10 +11,16 @@
 versao: 1
 atualizado_em: "2026-09-18"
 
+# A ordem aqui e a ordem dos cards na entrega. O campo `titulo` e texto de tela,
+# entao leva acento; ids, comentarios e o resto do arquivo seguem sem acento.
 blocos:
   - {id: ucits, titulo: "UCITS (USD)", moeda: USD}
-  - {id: eua, titulo: "EUA (USD)", moeda: USD}
-  - {id: hipotese, titulo: "Hipotese (ETF pais, a confirmar)", moeda: USD}
+  - {id: etf_eua, titulo: "ETFs EUA (USD)", moeda: USD}
+  - {id: eua_semis, titulo: "EUA · Semicondutores e óptica", moeda: USD}
+  - {id: eua_tech, titulo: "EUA · Tecnologia e plataformas", moeda: USD}
+  - {id: eua_banco, titulo: "EUA · Bancos", moeda: USD}
+  - {id: eua_outros, titulo: "EUA · Consumo, energia e indústria", moeda: USD}
+  - {id: hipotese, titulo: "Hipótese (ETF país, a confirmar)", moeda: USD}
   - {id: br, titulo: "BR (R$)", moeda: BRL}
   - {id: macro, titulo: "Macro", moeda: null}
 
@@ -120,19 +126,46 @@ ativos:
     o_que_negocia: "Treasuries americanos de 0 a 1 ano: caixa em dolar sem risco de credito privado e sem duration. Acumulacao. TER 0,07%."
     nota: "Adicionado em 18/09/2026 como o 'RF USD ultracurta' que o livro descrevia."
 
-  # ---------------- Acoes EUA ----------------
-  - {id: MU, nome: "Micron Technology", apelido: Micron, bloco: eua, classe: acao, yahoo: MU, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], nota: "Retorno 12m via adjclose (split); memoria/HBM, ciclo de semis."}
-  - {id: NVDA, nome: "NVIDIA", apelido: Nvidia, bloco: eua, classe: acao, yahoo: NVDA, moeda: USD, mercado: NYSE, benchmark: SOX, degraus_drawdown: [-15, -25, -40]}
-  - {id: BAC, nome: "Bank of America", apelido: BofA, bloco: eua, classe: acao, yahoo: BAC, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: KO, nome: "Coca-Cola", apelido: Coca, bloco: eua, classe: acao, yahoo: KO, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: JPM, nome: "JPMorgan Chase", apelido: JPM, bloco: eua, classe: acao, yahoo: JPM, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: TSM, nome: "Taiwan Semiconductor Manufacturing (ADR)", apelido: TSMC, bloco: eua, classe: acao, yahoo: TSM, moeda: USD, mercado: NYSE, benchmark: SOX, degraus_drawdown: [-15, -25, -40]}
-  - {id: CVX, nome: "Chevron", apelido: Chevron, bloco: eua, classe: acao, yahoo: CVX, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: MMM, nome: "3M", apelido: 3M, bloco: eua, classe: acao, yahoo: MMM, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: GOOGL, nome: "Alphabet (Google)", apelido: Google, bloco: eua, classe: acao, yahoo: GOOGL, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: AMZN, nome: "Amazon", apelido: Amazon, bloco: eua, classe: acao, yahoo: AMZN, moeda: USD, mercado: NYSE, benchmark: SPX}
-  - {id: NOK, nome: "Nokia (ADR)", apelido: Nokia, bloco: eua, classe: acao, yahoo: NOK, moeda: USD, mercado: NYSE, benchmark: SPX, degraus_drawdown: [-15, -25, -40]}
-  - {id: BABA, nome: "Alibaba Group (ADR)", apelido: Alibaba, bloco: eua, classe: acao, yahoo: BABA, moeda: USD, mercado: NYSE, benchmark: FXI}
+  # ---------------- ETFs EUA (indice e tech) ----------------
+  - {id: SPY, nome: "SPDR S&P 500 ETF Trust", apelido: "S&P 500", bloco: etf_eua, classe: etf, yahoo: SPY, moeda: USD, mercado: NYSE, benchmark: SPX, o_que_negocia: "S&P 500; o ETF mais liquido do mundo. TER 0,09%."}
+  - {id: QQQ, nome: "Invesco QQQ Trust (Nasdaq-100)", apelido: Nasdaq, bloco: etf_eua, classe: etf, yahoo: QQQ, moeda: USD, mercado: NYSE, benchmark: SPX, o_que_negocia: "Nasdaq-100: as 100 maiores nao financeiras da Nasdaq. TER 0,20%."}
+  - {id: SMH, nome: "VanEck Semiconductor ETF", apelido: Semis, bloco: etf_eua, classe: etf, yahoo: SMH, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], o_que_negocia: "25 maiores de semicondutores, concentrado (NVDA e TSM pesam ~20%). TER 0,35%."}
+  - {id: SOXX, nome: "iShares Semiconductor ETF", apelido: SOXX, bloco: etf_eua, classe: etf, yahoo: SOXX, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], o_que_negocia: "30 semis americanos (NYSE Semiconductor); menos concentrado que o SMH. TER 0,35%."}
+  - {id: XLK, nome: "Technology Select Sector SPDR Fund", apelido: Tech SPDR, bloco: etf_eua, classe: etf, yahoo: XLK, moeda: USD, mercado: NYSE, benchmark: SPX, o_que_negocia: "Setor de tecnologia do S&P 500, so large caps do indice. TER 0,08%."}
+  - {id: VGT, nome: "Vanguard Information Technology ETF", apelido: Tech VG, bloco: etf_eua, classe: etf, yahoo: VGT, moeda: USD, mercado: NYSE, benchmark: SPX, o_que_negocia: "Tecnologia americana em todas as capitalizacoes (~310 nomes). TER 0,09%."}
+  - {id: IGV, nome: "iShares Expanded Tech-Software Sector ETF", apelido: Software, bloco: etf_eua, classe: etf, yahoo: IGV, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.01, o_que_negocia: "Software americano; contra o XLK separa software de semis. TER 0,41%."}
+  - {id: BOTZ, nome: "Global X Robotics & Artificial Intelligence ETF", apelido: Robotica, bloco: etf_eua, classe: etf, yahoo: BOTZ, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], o_que_negocia: "Robotica e IA global; par americano do RBOT (UCITS). TER 0,68%."}
+
+  # ---------------- Acoes EUA: semicondutores e optica ----------------
+  # ordem: logica da cadeia (projeto -> fundicao -> memoria -> conectividade)
+  - {id: NVDA, nome: "NVIDIA", apelido: Nvidia, bloco: eua_semis, classe: acao, yahoo: NVDA, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
+  - {id: AMD, nome: "Advanced Micro Devices", apelido: AMD, bloco: eua_semis, classe: acao, yahoo: AMD, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
+  - {id: AVGO, nome: "Broadcom", apelido: Broadcom, bloco: eua_semis, classe: acao, yahoo: AVGO, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
+  - {id: MRVL, nome: "Marvell Technology", apelido: Marvell, bloco: eua_semis, classe: acao, yahoo: MRVL, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
+  - {id: INTC, nome: "Intel", apelido: Intel, bloco: eua_semis, classe: acao, yahoo: INTC, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
+  - {id: MU, nome: "Micron Technology", apelido: Micron, bloco: eua_semis, classe: acao, yahoo: MU, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], nota: "Retorno 12m via adjclose (split); memoria/HBM, ciclo de semis."}
+  - {id: TSM, nome: "Taiwan Semiconductor Manufacturing (ADR)", apelido: TSMC, bloco: eua_semis, classe: acao, yahoo: TSM, moeda: USD, mercado: NYSE, benchmark: SOX, degraus_drawdown: [-15, -25, -40]}
+  - {id: GFS, nome: "GlobalFoundries", apelido: GlobalF, bloco: eua_semis, classe: acao, yahoo: GFS, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], o_que_negocia: "Fundicao de nos maduros (automotivo, IoT, RF); nao compete em nos de ponta com a TSMC."}
+  - {id: LITE, nome: "Lumentum Holdings", apelido: Lumentum, bloco: eua_semis, classe: acao, yahoo: LITE, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.015, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Optica para datacenter e telecom (lasers, transceivers); demanda puxada por IA."}
+  - {id: COHR, nome: "Coherent Corp", apelido: Coherent, bloco: eua_semis, classe: acao, yahoo: COHR, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.015, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Componentes opticos e lasers industriais; par direto da Lumentum."}
+  - {id: NOK, nome: "Nokia (ADR)", apelido: Nokia, bloco: eua_semis, classe: acao, yahoo: NOK, moeda: USD, mercado: NYSE, benchmark: SPX, degraus_drawdown: [-15, -25, -40]}
+
+  # ---------------- Acoes EUA: tecnologia e plataformas ----------------
+  - {id: META, nome: "Meta Platforms", apelido: Meta, bloco: eua_tech, classe: acao, yahoo: META, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
+  - {id: GOOGL, nome: "Alphabet (Google)", apelido: Google, bloco: eua_tech, classe: acao, yahoo: GOOGL, moeda: USD, mercado: NYSE, benchmark: SPX}
+  - {id: AMZN, nome: "Amazon", apelido: Amazon, bloco: eua_tech, classe: acao, yahoo: AMZN, moeda: USD, mercado: NYSE, benchmark: SPX}
+  - {id: PLTR, nome: "Palantir Technologies", apelido: Palantir, bloco: eua_tech, classe: acao, yahoo: PLTR, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Software de dados para governo e industria; multiplo alto, movimento tipico grande."}
+  - {id: TSLA, nome: "Tesla", apelido: Tesla, bloco: eua_tech, classe: acao, yahoo: TSLA, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45]}
+  - {id: BABA, nome: "Alibaba Group (ADR)", apelido: Alibaba, bloco: eua_tech, classe: acao, yahoo: BABA, moeda: USD, mercado: NYSE, benchmark: FXI}
+
+  # ---------------- Acoes EUA: bancos ----------------
+  - {id: JPM, nome: "JPMorgan Chase", apelido: JPM, bloco: eua_banco, classe: acao, yahoo: JPM, moeda: USD, mercado: NYSE, benchmark: SPX}
+  - {id: BAC, nome: "Bank of America", apelido: BofA, bloco: eua_banco, classe: acao, yahoo: BAC, moeda: USD, mercado: NYSE, benchmark: SPX}
+
+  # ---------------- Acoes EUA: consumo, energia e industria ----------------
+  - {id: KO, nome: "Coca-Cola", apelido: Coca, bloco: eua_outros, classe: acao, yahoo: KO, moeda: USD, mercado: NYSE, benchmark: SPX}
+  - {id: CVX, nome: "Chevron", apelido: Chevron, bloco: eua_outros, classe: acao, yahoo: CVX, moeda: USD, mercado: NYSE, benchmark: SPX}
+  - {id: MMM, nome: "3M", apelido: 3M, bloco: eua_outros, classe: acao, yahoo: MMM, moeda: USD, mercado: NYSE, benchmark: SPX}
 
   # ---------------- Hipotese (ETF pais domiciliado nos EUA) ----------------
   - {id: EWY, nome: "iShares MSCI South Korea ETF", apelido: Coreia, bloco: hipotese, classe: etf, yahoo: EWY, moeda: USD, mercado: NYSE, benchmark: KOSPI, degraus_drawdown: [-15, -25, -40], nota: "Hipotese ate o Douglas cravar. Alternativa UCITS irlandesa: IKOR/CSKR (sem estate tax dos EUA)."}
