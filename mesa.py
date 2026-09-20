@@ -11,6 +11,8 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py releases INBR32              # os 8 releases guardados
     python3 mesa.py release INBR32 2T25          # texto integral de um release
     python3 mesa.py release INBR32 2T25 --grep "guidance|ROE|meta"   # so as frases que casam
+    python3 mesa.py linha INBR32 "ROE|meta|guidance"  # a mesma busca nos 8 releases, em ordem: o que a gestao disse trimestre a trimestre
+    python3 mesa.py decompor INBR32              # cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao
     python3 mesa.py pares INBR32                 # comparativo do grupo com medianas
     python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
 
@@ -257,6 +259,136 @@ def release(tk, periodo, grep=None, contexto=260):
         print("nenhum trecho casou")
 
 
+def _trechos(texto, rx, contexto=200, max_por_release=4, largura=420):
+    """Frases que casam com rx, sem repetir, ja normalizadas em uma linha."""
+    plano = re.sub(r"\s+", " ", texto)
+    saida, vistos = [], set()
+    for m in rx.finditer(plano):
+        ini = max(0, plano.rfind(". ", 0, max(0, m.start() - contexto)) + 2)
+        fim = plano.find(". ", m.end() + contexto)
+        trecho = plano[ini:(fim + 1 if fim > 0 else m.end() + contexto)].strip()
+        chave = re.sub(r"[^a-z0-9]+", "", trecho.lower())[:70]
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        saida.append(trecho[:largura])
+        if len(saida) >= max_por_release:
+            break
+    return saida
+
+
+def linha(tk, padrao, max_por_release=4):
+    """A mesma busca nos 8 releases, do mais antigo ao mais novo: discurso contra entrega em um comando."""
+    idx = baixar(f"releases/{tk}/index.json")
+    if not idx:
+        print(f"{tk}: nenhum release guardado. Dispare a coleta.")
+        return
+    rels = sorted(idx.get("releases", []), key=lambda r: ordem_periodo(r.get("periodo")))
+    rx = re.compile(padrao, re.I)
+    print(f"== {tk}: \"{padrao}\" em {len(rels)} releases, do mais antigo ao mais novo")
+    achou_algum = False
+    for r in rels:
+        texto = baixar(r["arquivo"], texto=True)
+        cab = f"\n-- {r.get('periodo') or '?'} ({r.get('data')}) {str(r.get('assunto') or r.get('arquivo_sec') or '')[:58]}"
+        if texto is None:
+            print(cab + "\n   (texto indisponivel)")
+            continue
+        achados = _trechos(texto, rx, max_por_release=max_por_release)
+        print(cab)
+        if not achados:
+            print("   (nao fala nisso)")
+            continue
+        achou_algum = True
+        for t in achados:
+            print(f"   . {t}")
+    if not achou_algum:
+        print("\nnenhum release fala nisso. Ou o termo esta errado, ou a gestao nunca tocou no assunto: "
+              "as duas leituras valem, diga qual e.")
+    print(f"\n(ate {max_por_release} trechos por release; `mesa.py release {tk} <periodo>` traz o texto inteiro)")
+
+
+ORDEM_DRE = ["receita_liquida", "receita", "custo", "custo_produtos_vendidos", "lucro_bruto", "resultado_bruto",
+             "despesas_operacionais", "despesas_vendas", "despesas_administrativas", "despesas_gerais_administrativas",
+             "despesa_pdd", "provisao_credito", "pesquisa_desenvolvimento", "ebit", "resultado_financeiro",
+             "receita_financeira", "despesa_financeira", "receita_juros", "resultado_financeiro_outros",
+             "resultado_antes_ir", "imposto_renda", "lucro_liquido_consolidado", "lucro_liquido",
+             "lucro_atribuido_controladores"]
+NAO_E_DRE = {"patrimonio_liquido", "patrimonio_liquido_consolidado", "ativo_total", "passivo_total", "caixa",
+             "caixa_equivalentes", "aplicacoes_financeiras", "ativo_circulante", "ativo_nao_circulante",
+             "passivo_circulante", "passivo_nao_circulante", "caixa_operacional", "caixa_investimento",
+             "caixa_financiamento", "capex", "estoques", "contas_a_receber", "divida_total",
+             "divida_curto_prazo", "divida_longo_prazo", "emprestimos_curto_prazo", "emprestimos_longo_prazo",
+             "carteira_credito", "depositos", "dividendos_pagos", "recompra_acoes", "lpa_basico_on",
+             "lpa_diluido_on", "lpa_basico", "lpa_diluido", "acoes_em_circulacao"}
+
+
+def _e_conta_de_resultado(chave, descr):
+    """Na CVM o codigo decide: grupo 3 e a DRE, 3.99 e lucro por acao, 1 e 2 sao balanco."""
+    codigo = str((descr or {}).get(chave) or "").strip()
+    if codigo[:1].isdigit():
+        return codigo.startswith("3.") and not codigo.startswith("3.99")
+    return chave not in NAO_E_DRE
+
+
+def decompor(tk, n=8):
+    """Cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao da margem."""
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        print(f"{tk}: nao esta no branch dados.")
+        return
+    fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
+    if not fonte:
+        print("  demonstracao oficial: AUSENTE; sem decomposicao possivel")
+        return
+    base = "receita_liquida" if "receita_liquida" in tri else ("receita" if "receita" in tri else None)
+    if not base:
+        print("  sem linha de receita na serie oficial; use o release")
+        return
+    elegivel = [k for k in tri if k != base and _e_conta_de_resultado(k, descr)]
+    chaves = [k for k in ORDEM_DRE if k in elegivel] + [k for k in sorted(elegivel) if k not in ORDEM_DRE]
+    periodos = sorted([q for q in tri[base] if tri[base].get(q)], key=ordem_periodo)[-n:]
+    if len(periodos) < 2:
+        print("  menos de 2 trimestres com receita; sem decomposicao")
+        return
+    rotulo = "receitas da intermediacao" if plano == "instituicao_financeira" else "receita"
+    print(f"== {tk}: DRE como % da {rotulo} | fonte {fonte} | {unidade} | D = trimestre derivado do anual")
+    if plano == "instituicao_financeira":
+        print("   (banco: a base e a receita da intermediacao financeira, nao ha margem EBIT)")
+    print("   " + f"{'trimestre':11}" + f"{rotulo[:13]:>15}" + "".join(f"{k.replace('_', ' ')[:13]:>15}" for k in chaves))
+    pcts = {}
+    for q in periodos:
+        rec = tri[base][q]
+        marca = "D" if any(q in der.get(k, []) for k in [base] + chaves) else " "
+        cels = []
+        for k in chaves:
+            v = tri[k].get(q)
+            pct = None if v is None or not rec else v / rec
+            pcts.setdefault(k, {})[q] = pct
+            cels.append(fmt(pct, 1, pct=True) if pct is not None else "-")
+        print("   " + f"{q:10}{marca}" + f"{fmt(rec, 0):>15}" + "".join(f"{c:>15}" for c in cels))
+    ini, fim = periodos[0], periodos[-1]
+    print(f"\n-- variacao de {ini} para {fim}, em pontos percentuais da {rotulo}")
+    deltas = []
+    for k in chaves:
+        a, b = pcts[k].get(ini), pcts[k].get(fim)
+        if a is None or b is None:
+            continue
+        deltas.append((abs(b - a), b - a, k, a, b))
+    if not deltas:
+        print("   serie incompleta nas pontas; compare os trimestres que existem na tabela acima")
+    for _, delta, k, a, b in sorted(deltas, reverse=True):
+        sinal = "+" if delta >= 0 else ""
+        print(f"   {k.replace('_', ' ')[:30]:32} {fmt(a, 1, pct=True):>8} -> {fmt(b, 1, pct=True):>8}   {sinal}{fmt(100 * delta, 1)} pp")
+    d_rec = tri[base][fim] / tri[base][ini] - 1
+    print(f"   {'(a receita variou)':32} {' ':>8}    {' ':>8}   {'+' if d_rec >= 0 else ''}{fmt(100 * d_rec, 1)}% em {len(periodos) - 1} trimestres")
+    if descr:
+        usadas = {k: v for k, v in descr.items() if k in chaves or k == base}
+        if usadas:
+            print("\n-- conta oficial por linha: " + "; ".join(f"{k}={v}" for k, v in list(usadas.items())[:14]))
+    print("\nLeia assim: a linha com mais pp de variacao e a que explica a margem. Depois pergunte ao release por que,\n"
+          f"com `mesa.py linha {tk} \"<termo da linha>\"`.")
+
+
 def pares(tk):
     d = baixar(f"ativos/{tk}.json")
     if not d:
@@ -320,6 +452,10 @@ def main(argv):
     elif cmd == "release" and len(args) >= 2:
         grep = args[args.index("--grep") + 1] if "--grep" in args and args.index("--grep") + 1 < len(args) else None
         release(args[0].upper(), args[1], grep)
+    elif cmd == "linha" and len(args) >= 2:
+        linha(args[0].upper(), args[1])
+    elif cmd == "decompor" and args:
+        decompor(args[0].upper())
     elif cmd == "pares" and args:
         pares(args[0].upper())
     elif cmd == "termos":
