@@ -14,6 +14,11 @@ Regra de ouro: demonstracao oficial primeiro, release do RI segundo, agregador
 (Yahoo, Fundamentus) so para preco, consenso e conferencia. Um numero que
 existe na fonte oficial nunca e citado pelo agregador.
 
+Quem le: o Douglas, no celular, entre um cliente e outro. Ele domina o mercado
+mas nao decora sigla de research. Toda nota obedece a secao 6 (texto para
+celular e termos): frases curtas, tabelas estreitas, e cada sigla explicada em
+portugues na primeira vez que aparece, com o glossario em GLOSSARIO.md.
+
 ## 1. Entenda o pedido
 
 Extraia os tickers (B3: 4 letras + numero, BDR: 4 caracteres + 31..39, EUA:
@@ -21,8 +26,9 @@ so letras). Normalize para maiusculas, sem ".SA". Identifique a variante:
 
 | Pedido                          | Variante        | Tamanho alvo                                  |
 |---------------------------------|-----------------|-----------------------------------------------|
-| so o ticker, "me fala de"       | completo        | 900 a 1.400 palavras, com o aprofundamento    |
-| "rapido", "resumo"              | rapido          | ate 300 palavras; aprofundamento vira 5 linhas|
+| so o ticker, "me fala de"       | completo        | 600 a 900 palavras + menu "quer aprofundar?"   |
+| "rapido", "resumo"              | rapido          | ate 250 palavras; aprofundamento vira 5 linhas|
+| "aprofunda X", "explica X"      | aprofundamento  | um tema so, com a conta aberta e o termo explicado |
 | "X vs Y"                        | comparativo     | tabela lado a lado + 5 pontos, oficial vs oficial |
 | "pos-resultado", "resultado"    | resultado       | foco no trimestre: release + serie trimestral |
 | "para cliente ..."              | cliente         | linguagem de assessor, sem jargao             |
@@ -57,30 +63,24 @@ Com `pares: auto`, o mesmo run coleta os pares do grupo (`pares.py`) e grava
 `comparativos/<grupo>.json` com multiplos, margens, crescimento, alavancagem
 e as series oficiais lado a lado, mais a mediana de cada metrica.
 
-### 2a. Leia o que ja existe no branch `dados`
+### 2a. Leia o que ja existe no branch `dados`, sempre pelo `mesa.py`
+
+O repositorio tem um leitor padronizado. Use-o em vez de escrever script a cada
+analise: e mais rapido, nao erra chave de JSON e ja cuida do cache do CDN.
 
 ```bash
-T=MELI34
-curl -sS --max-time 20 https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/$T.json -o /tmp/$T.json
-python3 - <<'PY'
-import json, sys, datetime
-d = json.load(open('/tmp/MELI34.json'))
-print('gerado_em:', d['gerado_em'])
-print('fontes:', json.dumps(d['fontes'], ensure_ascii=False, indent=1))
-print('pares:', d.get('pares'))
-sub = d.get('subjacente_us') or {}
-print('oficial:', 'cvm_demonstracoes' if (d.get('cvm_demonstracoes') or {}).get('serie_trimestral') else
-      'sec_xbrl' if (d.get('sec_xbrl') or sub.get('sec_xbrl') or {}).get('ltm') else 'AUSENTE')
-rel = d.get('release_ri') or sub.get('release_ri') or {}
-print('release_ri:', rel.get('assunto') or rel.get('formulario'), rel.get('data'), rel.get('caracteres_total'))
-PY
+python3 mesa.py ficha INBR32      # cabecalho, multiplos, series oficiais, releases, macro, fontes com problema
+python3 mesa.py pares INBR32      # comparativo do grupo, com medianas e a origem de cada linha
+python3 mesa.py releases INBR32   # os 8 releases guardados, com trimestre, data e tamanho
+python3 mesa.py release INBR32 2T25 --grep "guidance|meta|ROE|margem"   # trechos de um release antigo
+python3 mesa.py release INBR32 2T26   # texto integral do release
+python3 mesa.py serie INBR32      # 12 trimestres das demonstracoes oficiais
+python3 mesa.py termos ROE NIM    # glossario em portugues claro
 ```
 
-Depois o comparativo do grupo (nome em `pares.comparativo` do JSON):
-
-```bash
-curl -sS --max-time 20 https://raw.githubusercontent.com/douglora/broadcast/dados/comparativos/ecommerce.json -o /tmp/comp.json
-```
+A ficha ja diz se ha demonstracao oficial, quantos releases existem e quais
+fontes falharam. Se a ficha imprimir "nao esta no branch", "demonstracao
+oficial: AUSENTE" ou menos de 4 releases, dispare a coleta (2b).
 
 Esta pronto para usar quando TODAS as condicoes valem:
 
@@ -131,13 +131,10 @@ no arquivo.
 1. `release_ri.texto`: leia inteiro, com `grep -n -i` para
    "divida|debenture|notes|CDI|dolar|USD|guidance|GMV|margem|clientes|
    carteira". E o documento do RI, e no BDR e o release da acao-mae.
-   Para o historico, `releases_historico` lista os 8 trimestres com
-   `periodo`, `data` e `arquivo`; baixe o que precisar:
-
-   ```bash
-   curl -sS --max-time 20 https://raw.githubusercontent.com/douglora/broadcast/dados/releases/MELI34/index.json
-   curl -sS --max-time 30 https://raw.githubusercontent.com/douglora/broadcast/dados/releases/MELI34/2026-05-06.txt -o /tmp/rel_1T26.txt
-   ```
+   Para o historico, `python3 mesa.py releases TICKER` lista os 8 trimestres
+   e `python3 mesa.py release TICKER 2T25 --grep "..."` traz so os trechos que
+   interessam. Nunca leia 8 releases inteiros: grep primeiro, texto integral
+   so do mais novo.
 2. Series oficiais: `cvm_demonstracoes.serie_trimestral`, `ltm`,
    `descricao_contas`, `plano_de_contas`; ou `sec_xbrl.trimestral`, `ltm`,
    `derivados`, `instantaneas`. Em ADR de brasileira, `sec_xbrl_adr` e a
@@ -329,14 +326,62 @@ Variante comparativa: 4.5 vira o corpo, com as series oficiais dos dois lado
 a lado. Variante resultado: 4.1 e o release viram o corpo; ofereca
 `/equity-research:earnings`.
 
-## 6. Regras de estilo
+## 6. Texto para celular e termos (obrigatorio)
+
+### 6a. As cinco perguntas que toda nota responde, nesta ordem
+
+1. Como a empresa ganha dinheiro e o que protege essa margem?
+2. O que o preco de hoje exige que aconteca? (conta reversa: que lucro, que
+   margem, que crescimento justificam o multiplo)
+3. O que a gestao prometeu e o que entregou? (historico de releases, 4.6)
+4. Onde esta o risco que quebra a tese: divida, credito, capital, cambio?
+5. O que vigiar, com data, para saber se esta dando certo?
+
+Se a nota nao responde uma delas com numero e fonte, nao esta pronta.
+
+### 6b. Forma, pensando em quem le no celular
+
+- Comece com **Em uma frase:** e a resposta inteira em ate 30 palavras. Quem
+  parar de ler ali ja sabe a conclusao.
+- Tabela com no maximo 4 colunas. Serie de 8 trimestres vai em duas colunas
+  (trimestre, valor) ou em prosa: "de 14,3% no 2T24 para 6,7% no 2T26, caindo
+  em seis dos oito trimestres". Nunca uma tabela com um trimestre por coluna.
+- Paragrafo de ate tres frases. Um numero por frase quando possivel.
+- Negrito so no que muda a decisao: o achado, a virada, o risco principal.
+- Variante completa: 600 a 900 palavras. Feche com **Quer aprofundar?** e
+  quatro a seis linhas, cada uma um tema que da uma resposta propria
+  ("a ponte de ROE do plano", "os oito trimestres de margem", "Inter contra
+  Nubank linha a linha", "o que a alavancagem de 11x significa para o
+  capital"). O Douglas escolhe; voce nao entrega tudo de uma vez.
+- Titulos curtos, em portugues, sem numeracao de secao.
+
+### 6c. Termos e siglas
+
+- Toda sigla ou termo de research aparece pela primeira vez com o nome em
+  portugues e a explicacao de GLOSSARIO.md em ate 12 palavras. Exemplo: "o
+  ROE, retorno sobre o patrimonio, que mede quanto o banco rende sobre o
+  dinheiro dos acionistas, foi de 16,2%".
+- Prefira a palavra em portugues no resto do texto: retorno sobre patrimonio,
+  margem financeira, inadimplencia, capital principal, ultimos 12 meses, sobre
+  um ano antes, meta divulgada. A sigla em ingles vai uma vez entre parenteses,
+  para o Douglas reconhecer no release.
+- Sempre traduza a escala: "5,9% de custo de risco" vira "o banco reserva
+  R$ 5,90 a cada R$ 100 emprestados para calote esperado".
+- Feche a nota com **Termos desta nota**, so os que foram usados, uma linha
+  cada, tirados de GLOSSARIO.md. `python3 mesa.py termos ROE NIM` imprime as
+  linhas prontas. Termo que nao esta no glossario: explique em uma frase e
+  proponha incluir.
+- Nunca: LTM, YoY, QoQ, bps, FX-neutral, guidance, capex, cohort, NPL, CET1
+  sem a versao em portugues ao lado na primeira vez.
+
+### 6d. Evidencia
 
 - Todo numero com fonte e data; falha de fonte vira lacuna declarada.
 - Oficial vence agregador. Se Yahoo e CVM divergem, cite a CVM e diga que o
   agregador diverge.
 - Compare sempre: contra pares, contra a historia, contra o custo de capital
   (NTN-B real + premio; CDI para o custo da divida). Numero sem comparacao e
-  ruido.
+  ruido. Em banco, ROE contra o CDI e a primeira comparacao.
 - Frases curtas, sem hedging vazio. Diga o que importa e o que voce nao sabe.
 - Nada de "consulte um profissional": o leitor e o profissional.
 - Depois da nota, ofereca em uma linha: comps formal em Excel
