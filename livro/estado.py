@@ -29,18 +29,45 @@ class Repositorio:
         self.regras = Estado(ler_json(os.path.join(self.dir, "regras_estado.json"), {}) or {})
         self.fila: dict = ler_json(os.path.join(self.dir, "alertas.json"), {}) or {}
 
+    # conteudo e refeito quando o mesmo alerta e reavaliado; o resto e estado de
+    # entrega e nao pode ser mexido
+    CAMPOS_CONTEUDO = ("titulo", "corpo", "dados", "fonte", "por_que", "como_falar",
+                       "anula", "texto", "ativos_afetados")
+
     # ---- fila de alertas ----
     def registrar(self, alertas: list[Alerta], slot: str) -> list[Alerta]:
-        """Entra na fila so quem nao existe (id deterministico). Devolve os novos."""
+        """Entra na fila so quem nao existe (id deterministico). Devolve os novos.
+        Quem ja estava tem o conteudo atualizado com os numeros da coleta atual."""
         novos = []
         for a in alertas:
             if a.id in self.fila:
+                self._atualizar(a)
                 continue
             self.fila[a.id] = {**a.para_json(), "status": "pendente", "slot": slot, "gerado_em": agora_iso(),
                                "entregue_em": None, "reapresentado": 0}
             novos.append(a)
             self._historico(a, slot)
         return novos
+
+    def _atualizar(self, a: Alerta) -> None:
+        """Mesmo alerta, numero novo.
+
+        O Yahoo reprecifica a serie no meio do dia (o Brent saiu a US$ 98,77 no alerta
+        e fechou a US$ 99,29 na tabela). O texto congelado na hora do disparo passa a
+        mentir, e quem le compara alerta com tabela e desconfia dos dois. Aqui o
+        conteudo e refeito com a coleta atual; severidade e estado de entrega ficam
+        como estavam, e o titulo que saiu primeiro fica guardado para o card dizer
+        que o numero foi revisto."""
+        atual = self.fila[a.id]
+        novo = a.para_json()
+        mudou = [c for c in self.CAMPOS_CONTEUDO if c in novo and novo.get(c) != atual.get(c)]
+        if not mudou:
+            return
+        if "titulo" in mudou:
+            atual.setdefault("titulo_inicial", atual.get("titulo"))
+        for c in mudou:
+            atual[c] = novo[c]
+        atual["atualizado_em"] = agora_iso()
 
     def marcar_entregues(self, ids: list[str]) -> int:
         n = 0

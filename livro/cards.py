@@ -77,6 +77,8 @@ def _card_alertas(do_dia: list[dict]) -> str:
         L.append(f"> **CRÍTICO · {_esc(a.get('regra'))} · {_esc(a.get('ativo'))}** — {_esc(a.get('titulo'))}")
         for l in [x for x in (a.get("corpo") or []) if x and not x.startswith("Link:")][:3]:
             L.append(f"> {_esc(l.lstrip(' –'))}")
+        if a.get("titulo_inicial"):
+            L.append(f"> *Número revisto depois do disparo; o alerta saiu como:* {_esc(a['titulo_inicial'])}")
         if a.get("por_que"):
             L.append(f"> *Por que importa:* {_esc(a['por_que'])}")
         L.append("")
