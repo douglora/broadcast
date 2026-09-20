@@ -152,3 +152,33 @@ def test_s01_nao_acusa_falha_em_ativo_que_nao_negocia_todo_dia(universo, limiare
     out = S01FalhaDados().avaliar(ctx, Estado())
     assert len(out) == 1 and "3 séries sem cotação" in out[0].titulo
     assert "RARA11" not in out[0].titulo
+
+
+def test_f03_recalcula_quando_a_serie_e_reprecificada_no_mesmo_dia(universo, limiares):
+    """Guarda de dia existe para nao repetir a mensagem, nao para congelar o numero."""
+    import tempfile
+    from livro.sinais import fx_commod
+    from livro.estado import Repositorio
+    from livro.sinais.base import Estado
+
+    def ctx_com(preco):
+        vals = [110.0] * 28 + [104.8, preco]
+        return contexto(universo, limiares, {"BRENT": serie(vals), "USDBRL": serie([5.14] * 30)})
+
+    est = Estado()
+    primeiro = fx_commod.F03Brent().avaliar(ctx_com(98.77), est)
+    assert primeiro and "98,77" in primeiro[0].titulo
+    # mesmo preco de novo: cala, para nao repetir mensagem
+    assert fx_commod.F03Brent().avaliar(ctx_com(98.77), est) == []
+    # serie reprecificada: recalcula com o numero final
+    segundo = fx_commod.F03Brent().avaliar(ctx_com(99.29), est)
+    assert segundo and "99,29" in segundo[0].titulo
+    assert segundo[0].id == primeiro[0].id          # mesmo alerta, nao um novo
+
+    with tempfile.TemporaryDirectory() as d:
+        repo = Repositorio(d)
+        assert len(repo.registrar(primeiro, "intradia")) == 1
+        # o recalculo atualiza a fila e NAO vira mensagem nova
+        assert repo.registrar(segundo, "fechamento") == []
+        assert "99,29" in repo.fila[primeiro[0].id]["titulo"]
+        assert "98,77" in repo.fila[primeiro[0].id]["titulo_inicial"]

@@ -39,7 +39,7 @@ class F01USDBRL(Regra):
         if df is None or len(df) < 70 or not ctx.fresco("USDBRL"):
             return []
         hoje = df.index[-1].date().isoformat()
-        if estado.ultima_data("F01") == hoje:
+        if estado.repetido_hoje("F01", hoje, float(df["close"].iloc[-1])):
             return []
         r = _var(df)
         r5 = _var(df, 5)
@@ -99,7 +99,7 @@ class F01USDBRL(Regra):
                    else "separar dólar global de risco Brasil é a primeira resposta ao cliente quando o câmbio mexe")
         falar = ("o dólar subiu por Brasil, não pelo mundo: é prêmio de risco doméstico" if dom and "doméstico" in dom and r and r > 0
                  else "o câmbio acompanhou o dólar no mundo; não é notícia brasileira")
-        estado.marcar("F01", hoje)
+        estado.marcar("F01", hoje, valor=close)
         return [Alerta(self.id, "USDBRL", sev, "cambio", titulo, tag="alta" if r and r > 0 else "queda", data=hoje, corpo=corpo,
                        por_que=por_que, como_falar=falar, fonte=f"Yahoo Finance {fmt.data_br(hoje)}; BCB PTAX",
                        ativos_afetados="UCITS em R$ " + ("↑" if r and r > 0 else "↓") + " · exportadoras (VALE3, KLBN4) " + ("↑" if r and r > 0 else "↓"),
@@ -116,7 +116,7 @@ class F03Brent(Regra):
         if df is None or len(df) < 30 or not ctx.fresco("BRENT"):
             return []
         hoje = df.index[-1].date().isoformat()
-        if estado.ultima_data("F03") == hoje:
+        if estado.repetido_hoje("F03", hoje, float(df["close"].iloc[-1])):
             return []
         r, r5 = _var(df), _var(df, 5)
         close, ant = float(df["close"].iloc[-1]), float(df["close"].iloc[-2])
@@ -151,7 +151,7 @@ class F03Brent(Regra):
                    else "barril mais caro amplia receita em dólar das produtoras e pressiona o IPCA via combustíveis")
         falar = ("o petróleo caiu forte; para a Petrobras o efeito é diluído pela política de preços" if r and r < 0
                  else "o petróleo subiu: bom para Petrobras e Chevron, ruim para inflação e para a Ultrapar")
-        estado.marcar("F03", hoje)
+        estado.marcar("F03", hoje, valor=close)
         seta = "↑" if r and r > 0 else "↓"
         return [Alerta(self.id, "BRENT", sev, "commodity", titulo, tag="alta" if r and r > 0 else "queda", data=hoje, corpo=corpo,
                        por_que=por_que, como_falar=falar, fonte=f"ICE via Yahoo {fmt.data_br(hoje)}",
@@ -171,7 +171,7 @@ class F06Cripto(Regra):
             if df is None or len(df) < 30:
                 continue
             hoje = df.index[-1].date().isoformat()
-            if estado.ultima_data(f"F06:{cid}") == hoje:
+            if estado.repetido_hoje(f"F06:{cid}", hoje, float(df["close"].iloc[-1])):
                 continue
             r, r7 = _var(df), _var(df, 7)
             close, ant = float(df["close"].iloc[-1]), float(df["close"].iloc[-2])
@@ -212,7 +212,7 @@ class F06Cripto(Regra):
             out.append(Alerta(self.id, cid, sev, "cripto", titulo, tag="alta" if r and r > 0 else "queda", data=hoje, corpo=corpo,
                               por_que=por_que, como_falar=falar, fonte=f"Yahoo Finance (fechamento UTC) {fmt.data_br(hoje)}",
                               dados={"close": close, "var": r, "var_7d": r7}))
-            estado.marcar(f"F06:{cid}", hoje)
+            estado.marcar(f"F06:{cid}", hoje, valor=close)
         return out
 
 
@@ -227,7 +227,7 @@ class F02DXY(Regra):
         if df is None or len(df) < 210 or not ctx.fresco("DXY"):
             return []
         hoje = df.index[-1].date().isoformat()
-        if estado.ultima_data("F02") == hoje:
+        if estado.repetido_hoje("F02", hoje, float(df["close"].iloc[-1])):
             return []
         r, r5 = _var(df), _var(df, 5)
         close, ant = float(df["close"].iloc[-1]), float(df["close"].iloc[-2])
@@ -249,7 +249,7 @@ class F02DXY(Regra):
             gat.append(f"{'perdeu' if cruz == 'baixo' else 'retomou'} a MM200 ({fmt.num(float(m.iloc[-1]), 1)})")
         if not gat:
             return []
-        estado.marcar("F02", hoje)
+        estado.marcar("F02", hoje, valor=close)
         sobe = bool(r and r > 0)
         titulo = f"DXY {'sobe' if sobe else 'cai'} a {fmt.num(close, 2)} ({' · '.join(gat[:3])})"
         brl = ctx.series.get("USDBRL")
@@ -274,7 +274,7 @@ class F04Minerio(Regra):
             return []
         hoje = df.index[-1].date().isoformat()
         info = ctx.series_info.get("MINERIO") or {}
-        if estado.ultima_data("F04") == hoje:
+        if estado.repetido_hoje("F04", hoje, float(df["close"].iloc[-1])):
             return []
         r, r5 = _var(df), _var(df, 5)
         close, ant = float(df["close"].iloc[-1]), float(df["close"].iloc[-2])
@@ -293,7 +293,7 @@ class F04Minerio(Regra):
             gat.append(f"cruzou US$ {fmt.num(n, 0)}")
         if not gat:
             return []
-        estado.marcar("F04", hoje)
+        estado.marcar("F04", hoje, valor=close)
         sobe = bool(r and r > 0)
         titulo = f"Minério de ferro {'sobe' if sobe else 'cai'} a US$ {fmt.num(close)}/t ({' · '.join(gat[:3])}; barra de {fmt.data_br(hoje)})"
         corpo = ["Série: futuro CME liquidado no índice 62% Fe (TIO=F via Yahoo), não o físico Platts"]

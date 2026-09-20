@@ -383,8 +383,16 @@ class Coleta:
 
     # ------------------------------------------------------------ sinais
     def rodar_sinais(self, repo: Repositorio) -> tuple[list, Contexto]:
+        # No fechamento e na manha a regra tem de enxergar o MESMO pregao que a tabela.
+        # Sem isso, um ativo de mercado continuo (cripto) dispara com a barra do dia
+        # ainda se formando e o alerta fica com o numero intradiario para sempre,
+        # enquanto a tabela mostra o fechamento.
+        series_ctx = self.series
+        if self.modo in ("fechamento", "manha"):
+            corte = ind.pd.Timestamp(self.hoje)
+            series_ctx = {k: df.loc[:corte] for k, df in self.series.items() if len(df.loc[:corte])}
         ctx = Contexto(universo=self.u, limiares=self.limiares, hoje=self.hoje, slot=self.modo,
-                       series=self.series, series_info=self.series_info, curvas=self.curvas,
+                       series=series_ctx, series_info=self.series_info, curvas=self.curvas,
                        macro=self.macro, falhas=self.falhas, agora_iso=self.agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
                        eventos=self.eventos)
         ordem = ([r_curvas.C01DIMovimento(), r_curvas.C04TesouroJuroReal(), r_curvas.C05TesouroVariacaoPU(), r_curvas.C07UST()]
