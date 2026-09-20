@@ -182,3 +182,27 @@ def test_f03_recalcula_quando_a_serie_e_reprecificada_no_mesmo_dia(universo, lim
         assert repo.registrar(segundo, "fechamento") == []
         assert "99,29" in repo.fila[primeiro[0].id]["titulo"]
         assert "98,77" in repo.fila[primeiro[0].id]["titulo_inicial"]
+
+
+def test_t05_nao_liga_regime_de_vol_por_reprocessar_o_mesmo_pregao(universo, limiares):
+    """Regime de vol e '3 dias diferentes em 10'. Rodar o fechamento 3x no mesmo dia
+    nao pode calar o alerta (foi o que congelou BTC e ETH em 18/09)."""
+    from livro.sinais import tecnicas
+    from livro.sinais.base import Estado
+    vals = [100.0 + (i % 5) * 0.05 for i in range(40)] + [106.0]
+    est = Estado()
+    for _ in range(4):
+        ctx = contexto(universo, limiares, {"BTC": serie(vals)})
+        out = tecnicas.T05Zscore().avaliar(ctx, est)
+        assert out, "a regra calou ao reprocessar o mesmo pregao"
+    assert est.get("T05:BTC")["datas"] == sorted(set(est.get("T05:BTC")["datas"]))
+    assert not est.get("T05:BTC").get("regime")
+
+
+def test_repetido_hoje_migra_marca_antiga_sem_valor():
+    from livro.sinais.base import Estado
+    est = Estado({"F03": {"data": "2026-09-18"}})            # gravada antes da mudanca
+    assert est.repetido_hoje("F03", "2026-09-18", 99.29) is False
+    est.marcar("F03", "2026-09-18", valor=99.29)
+    assert est.repetido_hoje("F03", "2026-09-18", 99.29) is True
+    assert est.repetido_hoje("F03", "2026-09-18", 98.77) is False
