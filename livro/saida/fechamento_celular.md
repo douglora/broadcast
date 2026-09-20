@@ -9,20 +9,42 @@ WUTI   Utilit  66,80 -0,9 -2,1 -4,5 +1,0
 RBOT   Robot   21,03 +0,5 +0,1 -2,4  +29
 IUAA   RF EUA   5,64 -0,2 -0,3 -1,4 -1,9
 IB01   T-bill 121,82  0,0  0,0 +0,2 +2,5
-EUA (USD)
-MU     Micron  1.016 +3,9 +4,2 +8,4 +256
+ETFs EUA (USD)
+SPY    S&P 50 761,69 +0,1 -0,1 -0,7  +13
+QQQ    Nasdaq 721,45 +0,6 +0,9 +0,7  +18
+SMH    Semis  573,00 +2,2 +0,8 +2,2  +59
+SOXX   SOXX   533,07 +2,7 +1,2 +2,6  +77
+XLK    Tech S 189,60 +0,8 +1,0 +3,2  +32
+VGT    Tech V 122,31 +0,7 +1,0 +3,0  +30
+IGV    Softwa 104,35 -1,4 +2,8 +1,5 -1,2
+BOTZ   Roboti  35,11  0,0 -0,5 -3,5 -3,0
+EUA · Semicondutores e óptica
 NVDA   Nvidia 222,27 +1,3 +1,8 +2,3  +19
-BAC    BofA    57,73 -0,8 -7,9 -8,1 +6,6
-KO     Coca    88,25 +0,2 +0,6 -1,7  +29
-JPM    JPM    349,67 +0,1 -1,8 -2,1  +10
+AMD    AMD    559,82 +2,7 +8,5  +20 +161
+AVGO   Broadc 357,61 +3,0 -1,2 -1,3 +3,7
+MRVL   Marvel 244,25 +1,4 +3,5 +2,9 +188
+INTC   Intel  108,60 -0,2 +5,5  +17 +194
+MU     Micron  1.016 +3,9 +4,2 +8,4 +256
 TSM    TSMC   434,67 +1,0 +0,6 +5,8  +44
-CVX    Chevro 209,51 -1,0 -2,1 +1,8  +41
-MMM    3M     165,89 +0,7 +0,6 -7,8 +5,1
+GFS    Global  47,82 +4,3 +1,9 -1,6  +37
+LITE   Lument 930,91 +4,2 +0,4  +12 +153
+COHR   Cohere 317,36 +7,2 +3,9  +10  +72
+NOK    Nokia   10,68 +0,8 -4,0 +5,4  +65
+EUA · Tecnologia e plataformas
+META   Meta   665,75 -2,4 +2,7  +22 +1,0
 GOOGL  Google 349,54 +0,6 +3,3 +1,5  +12
 AMZN   Amazon 253,71 +1,0 -1,2 -4,6 +9,9
-NOK    Nokia   10,68 +0,8 -4,0 +5,4  +65
+PLTR   Palant 177,64 +0,8 +6,2 +1,4 -0,1
+TSLA   Tesla  364,27 -0,5 -0,3 +3,7  -19
 BABA   Alibab 113,24 +4,3 +3,6  -12  -22
-Hipotese (ETF pais, a confirmar)
+EUA · Bancos
+JPM    JPM    349,67 +0,1 -1,8 -2,1  +10
+BAC    BofA    57,73 -0,8 -7,9 -8,1 +6,6
+EUA · Consumo, energia e indústria
+KO     Coca    88,25 +0,2 +0,6 -1,7  +29
+CVX    Chevro 209,51 -1,0 -2,1 +1,8  +41
+MMM    3M     165,89 +0,7 +0,6 -7,8 +5,1
+Hipótese (ETF país, a confirmar)
 EWY    Coreia 181,31 -0,6 -3,9 +3,9  +86
 MCHI   China   53,07 +0,8 +0,2 -4,2  -11
 BR (R$)

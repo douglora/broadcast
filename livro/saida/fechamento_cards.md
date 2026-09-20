@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 20h48 de 19/09 BRT
+## Fechamento do livro · sex 18/09 · 22h52 de 19/09 BRT
 
 ---
 
@@ -27,14 +27,14 @@
 - **F06 · ETH** ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
 - **S01 · SISTEMA** coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINERIO, KOSPI
 
-*Mais 22 sinais de baixa prioridade em `alertas.md`.*
+*Mais 25 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
-**Altas** ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9% · BBAS3 +2,2%
-**Baixas** MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% · BBDC4 -1,2% · ITSA4 -1,2%
+**Altas** COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA +4,3% · GFS +4,3%
+**Baixas** MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% · MELI34 -2,4% · IGV -1,4%
 
 ---
 
@@ -55,26 +55,72 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 ---
 
-### EUA (USD) · variação em %
+### ETFs EUA (USD) · variação em %
 
 | Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **MU** Micron Technology | 1.016 | **+3,9** | +4,2 | +8,4 | +140 | +502 | +256 |
-| **NVDA** NVIDIA | 222,27 | **+1,3** | +1,8 | +2,3 | +29 | +26 | +19 |
-| **BAC** Bank of America | 57,73 | **-0,8** | -7,9 | -8,1 | +24 | +13 | +6,6 |
-| **KO** Coca-Cola | 88,25 | **+0,2** | +0,6 | -1,7 | +20 | +36 | +29 |
-| **JPM** JPMorgan Chase | 349,67 | **+0,1** | -1,8 | -2,1 | +23 | +14 | +10 |
-| **TSM** Taiwan Semiconductor Manufacturing (ADR) | 434,67 | **+1,0** | +0,6 | +5,8 | +33 | +64 | +44 |
-| **CVX** Chevron | 209,51 | **-1,0** | -2,1 | +1,8 | +5,7 | +37 | +41 |
-| **MMM** 3M | 165,89 | **+0,7** | +0,6 | -7,8 | +19 | +8,7 | +5,1 |
-| **GOOGL** Alphabet (Google) | 349,54 | **+0,6** | +3,3 | +1,5 | +16 | +39 | +12 |
-| **AMZN** Amazon | 253,71 | **+1,0** | -1,2 | -4,6 | +24 | +9,7 | +9,9 |
-| **NOK** Nokia (ADR) | 10,68 | **+0,8** | -4,0 | +5,4 | +34 | +124 | +65 |
-| **BABA** Alibaba Group (ADR) | 113,24 | **+4,3** | +3,6 | -12 | -6,6 | -30 | -22 |
+| **SPY** SPDR S&P 500 ETF Trust | 761,69 | **+0,1** | -0,1 | -0,7 | +18 | +17 | +13 |
+| **QQQ** Invesco QQQ Trust | 721,45 | **+0,6** | +0,9 | +0,7 | +24 | +22 | +18 |
+| **SMH** VanEck Semiconductor ETF | 573,00 | **+2,2** | +0,8 | +2,2 | +49 | +81 | +59 |
+| **SOXX** iShares Semiconductor ETF | 533,07 | **+2,7** | +1,2 | +2,6 | +60 | +100 | +77 |
+| **XLK** Technology Select Sector SPDR Fund | 189,60 | **+0,8** | +1,0 | +3,2 | +40 | +38 | +32 |
+| **VGT** Vanguard Information Technology ETF | 122,31 | **+0,7** | +1,0 | +3,0 | +39 | +34 | +30 |
+| **IGV** iShares Expanded Tech-Software Sector ETF | 104,35 | **-1,4** | +2,8 | +1,5 | +26 | -9,5 | -1,2 |
+| **BOTZ** Global X Robotics & Artificial Intelligence ETF | 35,11 | **0,0** | -0,5 | -3,5 | +4,5 | +0,7 | -3,0 |
 
 ---
 
-### Hipotese (ETF pais, a confirmar) · variação em %
+### EUA · Semicondutores e óptica · variação em %
+
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| **NVDA** NVIDIA | 222,27 | **+1,3** | +1,8 | +2,3 | +29 | +26 | +19 |
+| **AMD** Advanced Micro Devices | 559,82 | **+2,7** | +8,5 | +20 | +178 | +254 | +161 |
+| **AVGO** Broadcom | 357,61 | **+3,0** | -1,2 | -1,3 | +16 | +4,3 | +3,7 |
+| **MRVL** Marvell Technology | 244,25 | **+1,4** | +3,5 | +2,9 | +178 | +230 | +188 |
+| **INTC** Intel | 108,60 | **-0,2** | +5,5 | +17 | +148 | +255 | +194 |
+| **MU** Micron Technology | 1.016 | **+3,9** | +4,2 | +8,4 | +140 | +502 | +256 |
+| **TSM** Taiwan Semiconductor Manufacturing | 434,67 | **+1,0** | +0,6 | +5,8 | +33 | +64 | +44 |
+| **GFS** GlobalFoundries | 47,82 | **+4,3** | +1,9 | -1,6 | +11 | +44 | +37 |
+| **LITE** Lumentum Holdings | 930,91 | **+4,2** | +0,4 | +12 | +32 | +443 | +153 |
+| **COHR** Coherent Corp | 317,36 | **+7,2** | +3,9 | +10 | +25 | +194 | +72 |
+| **NOK** Nokia | 10,68 | **+0,8** | -4,0 | +5,4 | +34 | +124 | +65 |
+
+---
+
+### EUA · Tecnologia e plataformas · variação em %
+
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| **META** Meta Platforms | 665,75 | **-2,4** | +2,7 | +22 | +12 | -14 | +1,0 |
+| **GOOGL** Alphabet | 349,54 | **+0,6** | +3,3 | +1,5 | +16 | +39 | +12 |
+| **AMZN** Amazon | 253,71 | **+1,0** | -1,2 | -4,6 | +24 | +9,7 | +9,9 |
+| **PLTR** Palantir Technologies | 177,64 | **+0,8** | +6,2 | +1,4 | +18 | +0,4 | -0,1 |
+| **TSLA** Tesla | 364,27 | **-0,5** | -0,3 | +3,7 | -1,0 | -13 | -19 |
+| **BABA** Alibaba Group | 113,24 | **+4,3** | +3,6 | -12 | -6,6 | -30 | -22 |
+
+---
+
+### EUA · Bancos · variação em %
+
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| **JPM** JPMorgan Chase | 349,67 | **+0,1** | -1,8 | -2,1 | +23 | +14 | +10 |
+| **BAC** Bank of America | 57,73 | **-0,8** | -7,9 | -8,1 | +24 | +13 | +6,6 |
+
+---
+
+### EUA · Consumo, energia e indústria · variação em %
+
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| **KO** Coca-Cola | 88,25 | **+0,2** | +0,6 | -1,7 | +20 | +36 | +29 |
+| **CVX** Chevron | 209,51 | **-1,0** | -2,1 | +1,8 | +5,7 | +37 | +41 |
+| **MMM** 3M | 165,89 | **+0,7** | +0,6 | -7,8 | +19 | +8,7 | +5,1 |
+
+---
+
+### Hipótese (ETF país, a confirmar) · variação em %
 
 | Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -95,13 +141,13 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 | **BBDC4** Bradesco PN | 17,99 | **-1,2** | -3,2 | +12 | +2,2 | +13 | +3,3 |
 | **PETR4** Petrobras PN | 48,50 | **-0,3** | -1,0 | +16 | +13 | +69 | +67 |
 | **VALE3** Vale ON | 73,37 | **+0,5** | -6,2 | +1,7 | -0,2 | +38 | +4,8 |
-| **MELI34** Mercado Livre BDR (MELI) | 77,42 | **-2,4** | -4,5 | -5,4 | +7,1 | -30 | -16 |
+| **MELI34** Mercado Livre BDR | 77,42 | **-2,4** | -4,5 | -5,4 | +7,1 | -30 | -16 |
 | **UGPA3** Ultrapar ON | 39,13 | **+0,5** | +2,9 | +19 | +54 | +99 | +93 |
-| **AXIA3** Axia Energia ON (ex-Eletrobras) | 53,80 | **-2,6** | -1,8 | +5,9 | -3,3 | +13 | +6,3 |
+| **AXIA3** Axia Energia ON | 53,80 | **-2,6** | -1,8 | +5,9 | -3,3 | +13 | +6,3 |
 | **ITSA4** Itausa PN | 14,03 | **-1,2** | -1,1 | +14 | +8,7 | +38 | +23 |
 | **BBAS3** Banco do Brasil ON | 23,20 | **+2,2** | +3,2 | +29 | +0,9 | +8,0 | +8,3 |
 | **SBSP3** Sabesp ON | 27,31 | **+0,8** | +1,0 | +14 | -8,0 | +12 | +3,1 |
-| **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice (SMAL11) | 109,69 | **0,0** | -1,0 | +9,8 | -1,6 | -2,4 | -2,5 |
+| **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 109,69 | **0,0** | -1,0 | +9,8 | -1,6 | -2,4 | -2,5 |
 | **DIRR3** Direcional Engenharia ON | 10,05 | **-0,3** | -4,0 | -4,4 | -25 | -28 | -29 |
 | **MRVE3** MRV ON | 5,23 | **-8,4** | -8,9 | +7,2 | -27 | -32 | -33 |
 
@@ -111,12 +157,25 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 | Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **USDBRL** Dolar/Real (spot) | 5,1421 | **-0,2** | +0,8 | -1,4 | -1,5 | -3,2 | -6,1 |
+| **USDBRL** Dolar/Real | 5,1421 | **-0,2** | +0,8 | -1,4 | -1,5 | -3,2 | -6,1 |
 | **DXY** Indice Dolar DXY | 100,22 | **0,0** | +1,1 | +1,4 | +0,6 | +2,9 | +2,0 |
-| **BRENT** Petroleo Brent (ICE, 1o vencimento) | 103,87 | **-0,9** | -0,7 | +13 | -7,4 | +54 | +71 |
+| **BRENT** Petroleo Brent | 103,87 | **-0,9** | -0,7 | +13 | -7,4 | +54 | +71 |
 | **BTC** Bitcoin | 80.901 | **+5,9** | +4,8 | +17 | +15 | -31 | -7,6 |
 | **ETH** Ethereum | 2.611 | **+6,7** | +3,8 | +16 | +22 | -43 | -12 |
-| **MINERIO** Minerio de ferro 62% Fe CFR China (futuro CME liquidado no indice) | 97,57 | **+0,2** | -0,5 | +2,5 | -7,9 | -7,3 | -8,9 |
+| **MINERIO** Minerio de ferro 62% Fe CFR China | 97,57 | **+0,2** | -0,5 | +2,5 | -7,9 | -7,3 | -8,9 |
+
+---
+
+### Commodities em dólar · US$/t
+
+| Referência | US$/t | dia | 1 sem | 1 mês | leitura |
+|---|---:|---:|---:|---:|---|
+| **Celulose fibra longa** | 735 | - | - | - | 18/09 |
+| **Minerio de ferro Dalian** | 107 | - | - | - | 18/09 |
+
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t convertido; nao e preco de lista NBSK · CNY/t 4.928 a USD/CNY 6,71
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t convertido; o CFR 62% em US$ e a linha MINERIO · CNY/t 715 a USD/CNY 6,71
+- Histórico próprio destes proxies começou em 18/09/2026: as janelas de dia, semana e mês vão preenchendo conforme os pregões passam — Celulose fibra longa, Minerio de ferro Dalian ainda sem base de comparação.
 
 ---
 
@@ -184,15 +243,18 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 - **BTC** Fortuna Hedged Bitcoin ETF (HBTC) Dividend Yield 2026, Date & History (marketbeat.com · 18/09) [abrir a fonte](https://www.marketbeat.com/stocks/BATS/HBTC/dividend/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 
-*Outras 677 manchetes citaram o livro sem número ou decisão nova; em `noticias.md`.*
+*As manchetes que citaram o livro sem número ou decisão nova estão em `noticias.md`.*
 
 ---
 
 ### Agenda
 
+- **seg 21/09** — ex-dividendo AVGO US$ 0,65 (último provento, Yahoo)
+- **seg 21/09** — ex-dividendo META US$ 0,53 (último provento, Yahoo)
 - **seg 21/09** 08:25 — Relatorio Focus (BCB)
 - **ter 22/09** 08:00 — Ata do Copom (reuniao de 15-16/09)
 - **ter 22/09** 11:00 — Leilao do Tesouro: LTN/NTN-F
+- **qua 23/09** — ex-dividendo GFS US$ 0,12 (último provento, Yahoo)
 - **qui 24/09** 09:00 — Relatorio de Politica Monetaria 3T26 (BCB)
 - **qui 24/09** 11:00 — Leilao do Tesouro: NTN-B
 
@@ -200,7 +262,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 20h48 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 22h52 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

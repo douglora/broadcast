@@ -1,15 +1,17 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 20h48 de 19/09 BRT
-Relógios: Yahoo 20h48 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 22h52 de 19/09 BRT
+Relógios: Yahoo 22h52 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (47 · 2 críticos)
+ALERTAS DO DIA (50 · 2 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
 [CRÍTICO] F03 Brent cai a US$ 98,77 (-5,8% no dia ·
           cruzou US$ 100)
+[ATENÇÃO] T08 IGV entrou em correção: -11% do pico
+          de 52s (US$ 117,79 em 22/09) a US$ 104,35
 [ATENÇÃO] T03 WUTI (State Street SPDR MSCI World
           Utilities UCITS ETF (USD)) formou death
           cross: MM50 US$ 69,95 cruzou abaixo da
@@ -27,15 +29,12 @@ ALERTAS DO DIA (47 · 2 críticos)
           bps na semana · implícita 2029 cruzou
           6,00% · implícita 2032 +264 bps acima do
           Focus
-[ATENÇÃO] E03 PETR4 · Fato Relevante:
-          www.petrobras.com.br/ri Para mais
-          informações:
-(+39 em alertas.md)
+(+42 em alertas.md)
 
-ALTAS  ETH +6,7% · BTC +5,9% · BABA +4,3% · MU +3,9%
-       · BBAS3 +2,2%
-BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · MELI34 -2,4% ·
-       BBDC4 -1,2% · ITSA4 -1,2%
+ALTAS  COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA
+       +4,3% · GFS +4,3%
+BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% ·
+       MELI34 -2,4% · IGV -1,4%
 
 NOTÍCIAS E FATOS (12 com materialidade ·
   noticias.md)
@@ -75,9 +74,15 @@ LEITURA DA MESA
 <<LEITURA_DA_MESA>>
 
 AGENDA
+seg 21/09 ex-dividendo AVGO US$ 0,65 (último
+    provento, Yahoo)
+seg 21/09 ex-dividendo META US$ 0,53 (último
+    provento, Yahoo)
 seg 21/09 08:25 Relatorio Focus (BCB)
 ter 22/09 08:00 Ata do Copom (reuniao de 15-16/09)
 ter 22/09 11:00 Leilao do Tesouro: LTN/NTN-F
+qua 23/09 ex-dividendo GFS US$ 0,12 (último
+    provento, Yahoo)
 qui 24/09 09:00 Relatorio de Politica Monetaria 3T26
     (BCB)
 qui 24/09 11:00 Leilao do Tesouro: NTN-B
@@ -99,20 +104,42 @@ WUTI   Utilit    66,80 -0,9 -2,1 -4,5 -5,1 +7,4 +1,0
 RBOT   Robot     21,03 +0,5 +0,1 -2,4  +36  +32  +29
 IUAA   RF EUA     5,64 -0,2 -0,3 -1,4 -1,0 -0,7 -1,9
 IB01   T-bill   121,82  0,0  0,0 +0,2 +1,8 +3,6 +2,5
-EUA (USD)
-MU     Micron    1.016 +3,9 +4,2 +8,4 +140 +502 +256
+ETFs EUA (USD)
+SPY    S&P 500  761,69 +0,1 -0,1 -0,7  +18  +17  +13
+QQQ    Nasdaq   721,45 +0,6 +0,9 +0,7  +24  +22  +18
+SMH    Semis    573,00 +2,2 +0,8 +2,2  +49  +81  +59
+SOXX   SOXX     533,07 +2,7 +1,2 +2,6  +60 +100  +77
+XLK    Tech SP  189,60 +0,8 +1,0 +3,2  +40  +38  +32
+VGT    Tech VG  122,31 +0,7 +1,0 +3,0  +39  +34  +30
+IGV    Softwar  104,35 -1,4 +2,8 +1,5  +26 -9,5 -1,2
+BOTZ   Robotic   35,11  0,0 -0,5 -3,5 +4,5 +0,7 -3,0
+EUA · Semicondutores e óptica
 NVDA   Nvidia   222,27 +1,3 +1,8 +2,3  +29  +26  +19
-BAC    BofA      57,73 -0,8 -7,9 -8,1  +24  +13 +6,6
-KO     Coca      88,25 +0,2 +0,6 -1,7  +20  +36  +29
-JPM    JPM      349,67 +0,1 -1,8 -2,1  +23  +14  +10
+AMD    AMD      559,82 +2,7 +8,5  +20 +178 +254 +161
+AVGO   Broadco  357,61 +3,0 -1,2 -1,3  +16 +4,3 +3,7
+MRVL   Marvell  244,25 +1,4 +3,5 +2,9 +178 +230 +188
+INTC   Intel    108,60 -0,2 +5,5  +17 +148 +255 +194
+MU     Micron    1.016 +3,9 +4,2 +8,4 +140 +502 +256
 TSM    TSMC     434,67 +1,0 +0,6 +5,8  +33  +64  +44
-CVX    Chevron  209,51 -1,0 -2,1 +1,8 +5,7  +37  +41
-MMM    3M       165,89 +0,7 +0,6 -7,8  +19 +8,7 +5,1
+GFS    GlobalF   47,82 +4,3 +1,9 -1,6  +11  +44  +37
+LITE   Lumentu  930,91 +4,2 +0,4  +12  +32 +443 +153
+COHR   Coheren  317,36 +7,2 +3,9  +10  +25 +194  +72
+NOK    Nokia     10,68 +0,8 -4,0 +5,4  +34 +124  +65
+EUA · Tecnologia e plataformas
+META   Meta     665,75 -2,4 +2,7  +22  +12  -14 +1,0
 GOOGL  Google   349,54 +0,6 +3,3 +1,5  +16  +39  +12
 AMZN   Amazon   253,71 +1,0 -1,2 -4,6  +24 +9,7 +9,9
-NOK    Nokia     10,68 +0,8 -4,0 +5,4  +34 +124  +65
+PLTR   Palanti  177,64 +0,8 +6,2 +1,4  +18 +0,4 -0,1
+TSLA   Tesla    364,27 -0,5 -0,3 +3,7 -1,0  -13  -19
 BABA   Alibaba  113,24 +4,3 +3,6  -12 -6,6  -30  -22
-Hipotese (ETF pais, a confirmar)
+EUA · Bancos
+JPM    JPM      349,67 +0,1 -1,8 -2,1  +23  +14  +10
+BAC    BofA      57,73 -0,8 -7,9 -8,1  +24  +13 +6,6
+EUA · Consumo, energia e indústria
+KO     Coca      88,25 +0,2 +0,6 -1,7  +20  +36  +29
+CVX    Chevron  209,51 -1,0 -2,1 +1,8 +5,7  +37  +41
+MMM    3M       165,89 +0,7 +0,6 -7,8  +19 +8,7 +5,1
+Hipótese (ETF país, a confirmar)
 EWY    Coreia   181,31 -0,6 -3,9 +3,9  +44 +130  +86
 MCHI   China     53,07 +0,8 +0,2 -4,2 -3,2  -16  -11
 BR (R$)

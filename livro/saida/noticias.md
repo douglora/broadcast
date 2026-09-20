@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 19/09 20h48
+NOTÍCIAS E FATOS · 19/09 22h52
 
-Pernas: noticias ok 5 novas (14 consultas; descartadas: 399 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (14 consultas; descartadas: 384 veículo fora da lista, 32 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
@@ -100,7 +100,7 @@ Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar 
 Ativos: MELI34
 Como falar: 'a MELI protocolou 8-K na SEC (1.01 acordo material assinado, 7.01 Regulation FD)'
 Fonte: SEC EDGAR 2026-09-10
-id: E04-MELI34-26036136-2026-09-10 · status: expirado · íntegra disponível
+id: E04-MELI34-26036136-2026-09-10 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E04 · AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 SEC EDGAR · aceito 09/09 17h28 · 8-K
@@ -209,7 +209,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: UST
 Como falar: 'saiu no Yahoo Finance: The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Divide…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 19/09 17h30
-id: E05-UST-00277393fd-2026-09-19 · status: pendente
+id: E05-UST-00277393fd-2026-09-19 · status: expirado
 
 [ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
 Estadao · 19/09 03h44 · fonte única · licença: manchete
@@ -828,8 +828,11 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (605)
+## OUTRAS NOTÍCIAS (só manchete) (608)
 
+· BTC Bitcoin ETFs Now Own 6.29% of Every Bitcoin. What Happens When They Hit 10%? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-now-own-6-233516113.html
+· BTC Solana ETFs Experience 12 Consecutive Weeks of Inflows, While Bitcoin Has Its Quietest Week on Record (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/solana-etfs-experience-12-consecutive-230449467.html
+· UST Treasury yields are blowing up CBO forecasts, and experts who downplayed US debt fears are worried (Fortune) https://fortune.com/2026/09/19/treasury-yields-cbo-forecasts-us-debt-interest-costs-deficits/
 · BTC Solana ETFs notch 12 consecutive weeks of inflows as Bitcoin posts its quietest week on record (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6f937811094b:0-solana-etfs-notch-12-consecutive-weeks-of-inflows-as-bitcoin-posts-its-quietest-week-on-record/
 · NVDA Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-forms-alliance-build-230932870.html
 · PETR4 Conselho da Petrobras aprova adesão à nova subvenção do diesel (O Globo) https://oglobo.globo.com/economia/negocios/noticia/2026/09/19/conselho-da-petrobras-aprova-adesao-a-nova-subvencao-do-diesel.ghtml
@@ -887,7 +890,4 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · NVDA Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing (Reuters) https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/
 · USDBRL Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/18/dolar-bolsa-fechamento-hoje-18-de-setembro-de-2026.ghtm
 · UST Wall Street closes mixed as Treasury yields rebound (SP500:) (Seeking Alpha) https://seekingalpha.com/news/4644515-wall-street-closes-mixed-as-treasury-yields-rebound
-· AXIA3 XP vê “tempestade antes da calmaria” para Axia Energia e mantém compra (ADVFN) https://br.advfn.com/jornal/2026/09/xp-ve-tempestade-antes-da-calmaria-para-axia-energia-e-mantem-compra
-· PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
-· MU Why Micron Stock Is Gaining Today (Barron's) https://www.barrons.com/articles/micron-stock-price-rising-7309a557
-· (+545 manchetes; lista completa em eventos/noticias.json)
+· (+548 manchetes; lista completa em eventos/noticias.json)
