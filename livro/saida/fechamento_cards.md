@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 23h39 de 19/09 BRT
+## Fechamento do livro · sex 18/09 · 10h32 de 20/09 BRT
 
 ---
 
@@ -27,20 +27,20 @@
 - **F06 · ETH** ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
 - **S01 · SISTEMA** coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINERIO, KOSPI
 
-*Mais 26 sinais de baixa prioridade em `alertas.md`.*
+*Mais 21 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
 **Altas** COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA +4,3% · GFS +4,3%
-**Baixas** MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% · MELI34 -2,4% · QNTM -2,0%
+**Baixas** MRVE3 -8,4% · BRENT -5,3% · AXIA3 -2,6% · META -2,4% · MELI34 -2,4%
 
 ---
 
 ### UCITS (USD) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **VWRA** Vanguard FTSE All-World | 191,66 | **-0,4** | -1,0 | -1,3 | +16 | +17 | +12 |
 | **CSPX** iShares Core S&P 500 | 822,76 | **0,0** | -0,6 | -1,2 | +17 | +16 | +11 |
@@ -57,7 +57,7 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 ### ETFs EUA (USD) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **SPY** SPDR S&P 500 ETF Trust | 761,69 | **+0,1** | -0,1 | -0,7 | +18 | +17 | +13 |
 | **QQQ** Invesco QQQ Trust | 721,45 | **+0,6** | +0,9 | +0,7 | +24 | +22 | +18 |
@@ -72,7 +72,7 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 ### Temáticos: quântica e metais (USD) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **QNTM** VanEck Quantum Computing | 28,62 | **-2,0** | -1,8 | -2,6 | +25 | +15 | +14 |
 | **QANT** iShares Quantum Computing | 6,04 | **-1,5** | -0,6 | -2,0 | +33 | - | +20 |
@@ -87,7 +87,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### EUA · Semicondutores e óptica · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **NVDA** NVIDIA | 222,27 | **+1,3** | +1,8 | +2,3 | +29 | +26 | +19 |
 | **AMD** Advanced Micro Devices | 559,82 | **+2,7** | +8,5 | +20 | +178 | +254 | +161 |
@@ -105,7 +105,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### EUA · Tecnologia e plataformas · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **META** Meta Platforms | 665,75 | **-2,4** | +2,7 | +22 | +12 | -14 | +1,0 |
 | **GOOGL** Alphabet | 349,54 | **+0,6** | +3,3 | +1,5 | +16 | +39 | +12 |
@@ -118,7 +118,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### EUA · Bancos · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **JPM** JPMorgan Chase | 349,67 | **+0,1** | -1,8 | -2,1 | +23 | +14 | +10 |
 | **BAC** Bank of America | 57,73 | **-0,8** | -7,9 | -8,1 | +24 | +13 | +6,6 |
@@ -127,7 +127,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### EUA · Consumo, energia e indústria · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **KO** Coca-Cola | 88,25 | **+0,2** | +0,6 | -1,7 | +20 | +36 | +29 |
 | **CVX** Chevron | 209,51 | **-1,0** | -2,1 | +1,8 | +5,7 | +37 | +41 |
@@ -137,7 +137,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### Hipótese (ETF país, a confirmar) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **EWY** iShares MSCI South Korea ETF | 181,31 | **-0,6** | -3,9 | +3,9 | +44 | +130 | +86 |
 | **MCHI** iShares MSCI China ETF | 53,07 | **+0,8** | +0,2 | -4,2 | -3,2 | -16 | -11 |
@@ -146,7 +146,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### BR (R$) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **EQTL3** Equatorial Energia ON | 39,57 | **0,0** | -0,2 | +14 | -1,0 | +13 | +2,8 |
 | **SAPR4** Sanepar PN | 6,75 | **+1,7** | -0,4 | +8,2 | -17 | -5,3 | -13 |
@@ -171,11 +171,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### Macro · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,1421 | **-0,2** | +0,8 | -1,4 | -1,5 | -3,2 | -6,1 |
 | **DXY** Indice Dolar DXY | 100,22 | **0,0** | +1,1 | +1,4 | +0,6 | +2,9 | +2,0 |
-| **BRENT** Petroleo Brent | 103,87 | **-0,9** | -0,7 | +13 | -7,4 | +54 | +71 |
+| **BRENT** Petroleo Brent | 99,29 | **-5,3** | -5,1 | +8,4 | -11 | +47 | +63 |
 | **BTC** Bitcoin | 80.901 | **+5,9** | +4,8 | +17 | +15 | -31 | -7,6 |
 | **ETH** Ethereum | 2.611 | **+6,7** | +3,8 | +16 | +22 | -43 | -12 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China | 97,57 | **+0,2** | -0,5 | +2,5 | -7,9 | -7,3 | -8,9 |
@@ -232,20 +232,14 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ---
 
-### Notícias e fatos · 12
+### Notícias e fatos · 9
 
-- **UST** The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors. (Yahoo Finance · 19/09) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/p-500-yields-just-1-203000717.html)
+- **PETR4** Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário (Money Times · 20/09) [abrir a fonte](https://www.moneytimes.com.br/dividendos-da-semana-18-9-26-apsa/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-- **MELI34** 8-K: 1.01 acordo material assinado, 7.01 Regulation FD (SEC · 10/09) [abrir a fonte](https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm)
-  *Por que importa:* acordo material muda receita, alavancagem ou estrategia; olhar contraparte e valor
-- **AMZN** 8-K: 5.02 entrada ou saida de diretor ou conselheiro (SEC · 09/09) [abrir a fonte](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm)
-  *Por que importa:* troca de diretor ou conselheiro reabre a discussao de estrategia
-- **PETR4** Fato Relevante: www.petrobras.com.br/ri Para mais informações: (CVM · 19/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569745)
-  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-- **DI** Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano (Estadao · 19/09) [abrir a fonte](https://www.estadao.com.br/em-alta/economia/copom-reduz-taxa-de-juros-em-025-ponto-pela-5-vez-e-selic-cai-a-1375-ao-ano/)
-  *Por que importa:* decisao de politica monetaria reprecifica toda a curva e o cambio
-- **MACRO** Focus de 11/09: IPCA: 2026 4,90% (-10 bps) · 2027 4,30% (+1 bps) (Focus · 11/09)
-  *Por que importa:* a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
+- **PETR4** Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação (Estadao · 20/09) [abrir a fonte](https://www.estadao.com.br/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **TSM** TSMC Stock And 2 Manufacturers Building Around Tariff Shifts (Yahoo Finance · 20/09) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html)
+  *Por que importa:* tarifa ou sancao muda margem e acesso a mercado
 - **SBSP3** Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO (CVM · 16/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1568917)
   *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
 - **NVDA** Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO (Yahoo Finance · 18/09) [abrir a fonte](https://ca.finance.yahoo.com/news/nvidia-backed-data-center-firm-195220456.html)
@@ -278,7 +272,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 23h39 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 10h32 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

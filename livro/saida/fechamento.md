@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 23h39 de 19/09 BRT
-Relógios: Yahoo 23h39 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 10h32 de 20/09 BRT
+Relógios: Yahoo 10h32 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (51 · 3 críticos)
+ALERTAS DO DIA (43 · 3 críticos)
 [CRÍTICO] T08 WQTM entrou em bear técnico: -22% do
           pico de 52s (US$ 47,10 em 02/06) a US$
           36,82
@@ -13,6 +13,14 @@ ALERTAS DO DIA (51 · 3 críticos)
           20 dias de 46% a.a.
 [CRÍTICO] F03 Brent cai a US$ 98,77 (-5,8% no dia ·
           cruzou US$ 100)
+[ATENÇÃO] E05 PETR4 · Petrobras (PETR4) e mais uma
+          empresa pagam dividendos nesta semana;
+          veja o calendário
+[ATENÇÃO] E05 PETR4 · Dividendos da semana:
+          Petrobras paga R$ 4,5 bilhões e CPFL
+          lidera valor por ação
+[ATENÇÃO] E05 TSM · TSMC Stock And 2 Manufacturers
+          Building Around Tariff Shifts
 [ATENÇÃO] T08 IGV entrou em correção: -11% do pico
           de 52s (US$ 117,79 em 22/09) a US$ 104,35
 [ATENÇÃO] T03 WUTI (State Street SPDR MSCI World
@@ -20,38 +28,28 @@ ALERTAS DO DIA (51 · 3 críticos)
           cross: MM50 US$ 69,95 cruzou abaixo da
           MM200 US$ 70,15 pela 2ª sessão; preço US$
           66,80, -4,8% da MM200, +7,4% em 12m
-[ATENÇÃO] E05 UST · The S&P 500 Yields Just 1.1%
-          While 10-Year Treasury Yields Have Surged
-          to 5%. This Dividend Stock Provides a
-          Middle Ground for Long-Term Investors.
-[ATENÇÃO] E04 MELI34 · 8-K: 1.01 acordo material
-          assinado, 7.01 Regulation FD
-[ATENÇÃO] E04 AMZN · 8-K: 5.02 entrada ou saida de
-          diretor ou conselheiro
-(+43 em alertas.md)
+(+35 em alertas.md)
 
 ALTAS  COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA
        +4,3% · GFS +4,3%
-BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% ·
-       MELI34 -2,4% · QNTM -2,0%
+BAIXAS MRVE3 -8,4% · BRENT -5,3% · AXIA3 -2,6% ·
+       META -2,4% · MELI34 -2,4%
 
-NOTÍCIAS E FATOS (12 com materialidade ·
-  noticias.md)
-· UST The S&P 500 Yields Just 1.1% While 10-Year
-  Treasury Yields Have Surged to 5%. This Dividend
-  Stock Provides a Middle Ground for Long-Term
-  Investors. (Yahoo Finance)
-· MELI34 8-K: 1.01 acordo material assinado, 7.01
-  Regulation FD (SEC)
-· AMZN 8-K: 5.02 entrada ou saida de diretor ou
-  conselheiro (SEC)
-· PETR4 Fato Relevante: www.petrobras.com.br/ri Para
-  mais informações: (CVM)
-· DI Copom reduz taxa de juros em 0,25 ponto pela 5ª
-  vez e Selic cai a 13,75% ao ano (Estadao)
-· MACRO Focus de 11/09: IPCA: 2026 4,90% (-10 bps) ·
-  2027 4,30% (+1 bps) (Focus)
-  (+6)
+NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
+· PETR4 Petrobras (PETR4) e mais uma empresa pagam
+  dividendos nesta semana; veja o calendário (Money
+  Times)
+· PETR4 Dividendos da semana: Petrobras paga R$ 4,5
+  bilhões e CPFL lidera valor por ação (Estadao)
+· TSM TSMC Stock And 2 Manufacturers Building Around
+  Tariff Shifts (Yahoo Finance)
+· SBSP3 Fato Relevante: COMPANHIA DE SANEAMENTO
+  BÁSICO (CVM)
+· NVDA Nvidia-Backed Data Center Firm Nscale Files
+  Publicly for US IPO (Yahoo Finance)
+· BBDC4 Até onde a Selic pode cair em 2026? Bradesco
+  revisa projeção e aponta condição-chave (Estadao)
+  (+3)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83
@@ -170,7 +168,7 @@ MRVE3  MRV        5,23 -8,4 -8,9 +7,2  -27  -32  -33
 Macro
 USDBRL USD/BRL  5,1421 -0,2 +0,8 -1,4 -1,5 -3,2 -6,1
 DXY    DXY      100,22  0,0 +1,1 +1,4 +0,6 +2,9 +2,0
-BRENT  Brent    103,87 -0,9 -0,7  +13 -7,4  +54  +71
+BRENT  Brent     99,29 -5,3 -5,1 +8,4  -11  +47  +63
 BTC    BTC      80.901 +5,9 +4,8  +17  +15  -31 -7,6
 ETH    ETH       2.611 +6,7 +3,8  +16  +22  -43  -12
 MINERI Minerio   97,57 +0,2 -0,5 +2,5 -7,9 -7,3 -8,9

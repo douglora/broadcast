@@ -1,19 +1,8 @@
-NOTÍCIAS E FATOS · 19/09 23h39
+NOTÍCIAS E FATOS · 20/09 10h32
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 381 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 7 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (14 consultas; descartadas: 347 veículo fora da lista, 33 sem ativo, 6 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
-
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: www.petrobras.com.br/ri Para mais informações:
-CVM · entregue 19/09/2026 14:05
-Do documento:
-  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569745
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: PETR4
-Como falar: 'a Petrobras publicou fato relevante sobre www.petrobras.com.br/ri Para mais informações:'
-Fonte: CVM 19/09
-id: E03-PETR4-1569745-2026-09-19 · status: entregue · íntegra disponível
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
 [ATENÇÃO] E03 · SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
 CVM IPE · entregue 16/09/2026 21:42 · 
@@ -28,15 +17,6 @@ Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre COMPANHIA DE SANEAMENTO BÁSICO'
 Fonte: CVM IPE 2026-09-16
 id: E03-SBSP3-1568917-2026-09-16 · status: expirado · íntegra disponível
-
-[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 19/09/2026 14:23 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1569746
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: PETR4
-Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 19/09
-id: E03-PETR4-1569746-2026-09-19 · status: linha
 
 [INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM IPE · entregue 18/09/2026 13:33 · Apresentações a analistas/agentes do mercado / 18/09/2026
@@ -84,141 +64,45 @@ Fonte: CVM IPE 2026-09-15
 id: E03-AXIA3-1568459-2026-09-15 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (8)
+## NOTÍCIAS COM MATERIALIDADE (68)
 
-[ATENÇÃO] E04 · MELI34 · 8-K: 1.01 acordo material assinado, 7.01 Regulation FD
-SEC EDGAR · aceito 10/09 11h19 · 8-K
-Do documento:
-  – Employer Identification Number)  WTC Free Zone  Dr. Luis Bonavita 1294, Of.
-  – On September 9, 2026, MercadoLibre, Inc. (the “Company”) and its subsidiaries MercadoLibre S.R.L., Mercado Livre Brasil Ltda.,  DeRemate.com de México, S.
-  – The foregoing description of certain terms of the Underwriting Agreement is not complete and is qualified in its entirety by the  Underwriting Agreement, which is attached as Exhibit 1.1 to this Current Report on Form 8…
-  – Item 7.01   Regulation FD Disclosure.
-  – On September 9, 2026, the Company issued a press release announcing the pricing of the Notes in a public offering.
-  – A copy of the press release is attached hereto as Exhibit 99.1 and is incorporated into this Item 7.01 by reference.
-Link: https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm
-Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar contraparte e valor
-Ativos: MELI34
-Como falar: 'a MELI protocolou 8-K na SEC (1.01 acordo material assinado, 7.01 Regulation FD)'
-Fonte: SEC EDGAR 2026-09-10
-id: E04-MELI34-26036136-2026-09-10 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E04 · AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 09/09 17h28 · 8-K
-Do documento:
-  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 5.02.
-  – 3   SIGNATURES   4   Table of Contents   ITEM 5.02.
-  – On September 8, 2026, the Board of Directors of Amazon.com, Inc. (the “Company”) elected Kevin R.
-  – Mandia has served as Chief Executive Officer of Armadin, Inc., a cybersecurity company he founded, since September 2025.
-  – Mandia has also served as General Partner of Ballistic Ventures, a venture capital firm he co-founded, since June 2024 and previously served as Strategic Partner from December 2021 to June 2024.
-  – He served as Chief Executive Officer of Mandiant, Inc., a cybersecurity firm acquired by Google LLC in September 2022, from June 2016 to July 2024 and as a director from February 2016 to September 2022.
-Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: AMZN
-Como falar: 'a AMZN protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-09-09
-id: E04-AMZN-26000036-2026-09-09 · status: expirado · íntegra disponível
-
-[INFO] E04 · AMZN · 8-K: 8.01 outros eventos
-SEC EDGAR · aceito 14/09 17h45 · FORM 8-K
-Do documento:
-  – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of the   Securities Exchange Act of 1934   September 14, 2026   Date of Report   (Date of earliest event reported)   AMAZON.COM, INC.
-  – ¨   Table of Contents   TABLE OF CONTENTS   ITEM 8.01.
-  – 4   SIGNATURES   5   EXHIBIT 1.1   EXHIBIT 4.1   EXHIBIT 4.2   EXHIBIT 4.3   EXHIBIT 4.4   EXHIBIT 4.5   EXHIBIT 5.1   EXHIBIT 23.1   2   Table of Contents   ITEM 8.01.
-  – The sale of the Notes was registered under the Company’s registration statement on Form S-3 filed on February 6, 2026 (File No. 333-293246).
-  – The foregoing descriptions of the Underwriting Agreement and the Officers’ Certificate are qualified in their entirety by the terms of such documents, which are filed as Exhibit 1.1 and Exhibit 4.1, respectively, and in…
-  – 3   Table of Contents   ITEM 9.01.
-Link: https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm
-Por que importa: documento da companhia na SEC
-Ativos: AMZN
-Como falar: 'a AMZN protocolou 8-K na SEC (8.01 outros eventos)'
-Fonte: SEC EDGAR 2026-09-14
-id: E04-AMZN-26107526-2026-09-14 · status: linha · íntegra disponível
-
-[INFO] E04 · MELI34 · 8-K: 8.01 outros eventos
-SEC EDGAR · aceito 14/09 17h30 · 8-K
-Do documento:
-  – Employer Identification Number)  WTC Free Zone  Dr. Luis Bonavita 1294, Of.
-  – The foregoing description of the Indenture and Fifth Supplemental Indenture is qualified in its entirety by the terms of such agreements, which are  filed hereto as Exhibits 4.1 and 4.2, respectively, and incorporated h…
-  – The foregoing description of the Notes is qualified in its entirety by reference to the full text of the respective form of Notes filed hereto as Exhibit 4.3,  incorporated herein by reference.
-  – In connection with the offering, the legal opinions as to the validity of the Notes are attached hereto as Exhibits 5.1, 5.2, 5.3, 5.4, 5.5 and 5.6 and  are incorporated herein by reference.
-  – This report on Form 8-K shall be deemed to be incorporated by reference in the registration statement on Form S-3 (Registration Nos.
-  – Item 9.01   Financial Statements and Exhibits.
-Link: https://www.sec.gov/Archives/edgar/data/1099590/000114036126036495/ef20081942_8k.htm
-Por que importa: documento da companhia na SEC
-Ativos: MELI34
-Como falar: 'a MELI protocolou 8-K na SEC (8.01 outros eventos)'
-Fonte: SEC EDGAR 2026-09-14
-id: E04-MELI34-26036495-2026-09-14 · status: linha · íntegra disponível
-
-[INFO] E04 · MMM · 8-K: 8.01 outros eventos
-SEC EDGAR · aceito 10/09 17h10 · FORM 8-K
-Do documento:
-  – Other Events   On September 3, 2026, 3M Company (the “Company”) entered into an Underwriting Agreement with Deutsche Bank AG, London Branch, Merrill Lynch International, Citigroup Global Markets Limited and J.P.
-  – The closing of the offering of Notes occurred on September 10, 2026.
-  – The Notes were offered pursuant to the Company’s Registration Statement on Form S-3 (file no.
-  – The foregoing summary of the Underwriting Agreement does not purport to be complete and is qualified in its entirety by reference to the text of the Underwriting Agreement, which is filed as Exhibit 1.1 hereto and incor…
-  – A copy of the opinion of Freshfields US LLP, relating to the validity of the Notes, is incorporated by reference into the Registration Statement and is filed as Exhibit 5.1 hereto.
-Link: https://www.sec.gov/Archives/edgar/data/66740/000110465926106710/tm2624999d1_8k.htm
-Por que importa: documento da companhia na SEC
-Ativos: MMM
-Como falar: 'a MMM protocolou 8-K na SEC (8.01 outros eventos)'
-Fonte: SEC EDGAR 2026-09-10
-id: E04-MMM-26106710-2026-09-10 · status: linha · íntegra disponível
-
-[INFO] E04 · TSM · 6-K: 6-K
-SEC EDGAR · aceito 10/09 07h15 · 6-K
-Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000658/tsm-revenue20260910.htm
-Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
-Ativos: TSM
-Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
-Fonte: SEC EDGAR 2026-09-10
-id: E04-TSM-26000658-2026-09-10 · status: linha
-
-[INFO] E04 · NOK · 6-K: 6-K
-SEC EDGAR · aceito 08/09 12h06 · FORM 6-K
-Link: https://www.sec.gov/Archives/edgar/data/924613/000110465926105772/tm2624968d1_6k.htm
-Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
-Ativos: NOK
-Como falar: 'a NOK protocolou 6-K na SEC (6-K)'
-Fonte: SEC EDGAR 2026-09-08
-id: E04-NOK-26105772-2026-09-08 · status: linha
-
-[INFO] E04 · BABA · 6-K: 6-K
-SEC EDGAR · aceito 04/09 07h35 · FORM 6-K
-Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926105208/tm2624818d1_6k.htm
-Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
-Ativos: BABA
-Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
-Fonte: SEC EDGAR 2026-09-04
-id: E04-BABA-26105208-2026-09-04 · status: linha
-
-
-## NOTÍCIAS COM MATERIALIDADE (67)
-
-[ATENÇÃO] E05 · UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.
-Yahoo Finance · 19/09 17h30 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%.
-  – While the average dividend yield on the S&P 500 is hovering around 1.1%, it hit an all-time low of 1.04% last month.
-  – Conversely, yields on 10-year Treasuries briefly nudged above 5% this month before retreating modestly.
-  – As of Friday midday, they were at almost precisely 5%.
-  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
-  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
-Link: https://finance.yahoo.com/markets/stocks/articles/p-500-yields-just-1-203000717.html
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário
+Money Times · 20/09 08h05 · fonte única · licença: integral
+Do texto:
+  – Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário Na semana de 21 a 25 de setembro, duas companhias da bolsa brasileira pagam dividendos e juros sobre capital próprio (JCP) aos seus a…
+  – Na segunda-feira (21), a Petrobras (PETR3;PETR4) realiza pagamento de JCP no valor de R$ 0,3505 tanto para a ação preferencial quanto ordinária, para os acionistas posicionados em 1º de junho de 2026.
+  – Já na sexta-feira (25), o Ser Educacional (SEER3) realiza pagamento de dividendos no valor de R$ 0,2028, com data de corte de 31 de agosto de 2026.
+Link: https://www.moneytimes.com.br/dividendos-da-semana-18-9-26-apsa/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UST
-Como falar: 'saiu no Yahoo Finance: The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Divide…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/09 17h30
-id: E05-UST-00277393fd-2026-09-19 · status: expirado
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário; confirmar o número no texto antes de repassar'
+Fonte: Money Times 20/09 08h05
+id: E05-PETR4-3b165219be-2026-09-20 · status: pendente · íntegra disponível
 
-[ATENÇÃO] E05 · DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano
-Estadao · 19/09 03h44 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/economia/copom-reduz-taxa-de-juros-em-025-ponto-pela-5-vez-e-selic-cai-a-1375-ao-ano/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no Estadao: Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao ano; confirmar o número no texto antes de repassar'
-Fonte: Estadao 19/09 03h44
-id: E05-DI-7899381ad6-2026-09-19 · status: entregue
+[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+Estadao · 20/09 07h00 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 20/09 07h00
+id: E05-PETR4-121ac17da6-2026-09-20 · status: pendente
+
+[ATENÇÃO] E05 · TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
+Yahoo Finance · 20/09 01h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The three stocks highlighted below are just a small sample of the idea, and the wider screen surfaced 54 more multinational manufacturers with equally compelling risk and reward stories that are not covered here.
+  – Operations: TSMC generates about NT$4,440.5b from its foundry business, with NT$3,326.7b from the United States and NT$340.5b from China.
+  – Market Cap: NT$63,793.6b TSMC matters for this screener because its chip factories and customer base are spread across the US, Europe and Asia, which gives the business more room to adjust as tariffs reshape where elect…
+  – "Geopolitical concentration: Self-explanatory.
+  – TSMC might not exist, at least in its current form, if a certain regional bully gets its way." What happens to TSMC's margins and cash returns depends heavily on how one unseen pricing pressure within that global build…
+  – Operations: Celestica generates about US$3.3b from Advanced Technology Solutions and roughly US$12.3b from Connectivity & Cloud Solutions, highlighting a CCS-heavy revenue mix.
+Link: https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: TSM
+Como falar: 'saiu no Yahoo Finance: TSMC Stock And 2 Manufacturers Building Around Tariff Shifts; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/09 01h20
+id: E05-TSM-7f4f288908-2026-09-20 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
 Yahoo Finance · 18/09 16h52 · + Bloomberg · licença: resumo
@@ -828,53 +712,33 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (608)
+## OUTRAS NOTÍCIAS (só manchete) (588)
 
+· ITUB4 6 ações para ficar de olho com a queda dos juros em 2027, segundo o Itaú BBA (Money Times) https://www.moneytimes.com.br/6-acoes-para-ficar-de-olho-com-a-queda-dos-juros-em-2027-segundo-o-itau-bba-ceci/
+· BTC Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:631d446ac094b:0-jordi-visser-s-20-year-bombshell-prediction-includes-religion-gold-and-now-bitcoin/
+· CVX Chevron plans drilling spree as it overhauls oil and gas search (Financial Times) https://www.ft.com/content/bbf1d846-7d89-45f6-8c0f-1fba1e334b4b?syn-25a6b1a6=1
+· PETR4 Petrobras (PETR4) recebe parcela de R$ 448 milhões referente à subvenção à gasolina e adere a programa do diesel (Money Times) https://www.moneytimes.com.br/petrobras-petr4-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina-e-adere-a-programa-de-subvencao-do-diesel-lmrs/
+· KO Coca-Cola’s $10B Buildout Fuels Industrial Demand (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/coca-cola-10b-buildout-fuels-115042368.html
+· DI IPCA-15, ata do Copom e Lula na ONU movimentam a semana a 15 dias do 1º turno (Valor Economico) https://valor.globo.com/brasil/noticia/2026/09/20/lula-na-onu-e-ata-do-copom-movimentam-a-semana-a-15-dias-do-1o-turno.ghtml
+· MCHI Is CGN Mining (SEHK:1164) Expensive After Joining The Hang Seng China Affiliated Corporations Index? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/cgn-mining-sehk-1164-expensive-111210732.html
+· BTC Peter Brandt Sees Possible 10X, 20X Altcoin Gains — So Why Is He Sticking With Bitcoin? (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:079b54488094b:0-peter-brandt-sees-possible-10x-20x-altcoin-gains-so-why-is-he-sticking-with-bitcoin/
+· DI Agenda de mercados: ata do Copom e IPCA-15 são destaque na semana (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/20/agenda-de-mercados-ata-do-copom-e-ipca-15-sao-destaque-na-semana.ghtml
+· ETH Ethereum Price Analysis: Can ETH Hit $3,000 as it Hovers Below Key Level (TradingView (Reuters)) https://www.tradingview.com/news/99Bitcoins:8436dcd2f094b:0-ethereum-price-analysis-can-eth-hit-3-000-as-it-hovers-below-key-level/
+· DI Calendário Econômico: ata do Copom e IPCA-15 dão novas pistas sobre os juros (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/calendario-economico-ata-do-copom-e-ipca-15-dao-novas-pistas-sobre-os-juros/
+· MU Should You Buy Micron Stock Before Its Next Earnings Report? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-micron-stock-next-earnings-095000511.html
+· UST The 10-Year Treasury Yield Just Topped 5% for the Second Time in Almost 20 Years. Is This Turning Point a Warning for Your Portfolio? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxOT1hnNDlEQndoTlFQclQxRjJSVUVRdjdtcXhUZE9WcTRyaXdHMHRiZndHaTdkOHB4OWlHbTJURFVtTXNReld6Z2JFaGtKUFEzcHZSOU1WZzdadXAtU3RNMHZOWjdQcEpYYWpKVF9RdHB3c2xHTVh3MUNjUHZycVQxSFptQTJ4Sk96NnFYNWs5MTRtZXV2TWhtTnlB?oc=5
+· BTC Bitcoin: Boom or Bust (CNBC) https://news.google.com/rss/articles/CBMiVEFVX3lxTE4ydGtxaEdsV2RRYUdSVlBGWWs4ZVlJdkxDNE5OenNrRnFsa3FZWmhvbUtZZUFBWURNRFVVckJyU2d2dEE2TUI2dzZTYVVpaVlnc2ZXeQ?oc=5
+· BRENT América Latina desponta como novo polo global de exportação de petróleo (O Globo) https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV042UGtoUTdQd3NwWE9qWmZ0RTJKRU5GaXExbHlOcGwzaTNzeGhtUTV5b2tqajIycmwwZW1xanlKck5QejRHb1VTMG5LRXF5VFlIb1dnMTRPX0lHck1Zc29kdF91SmM0YmdSbDhveGhaTGZXLU1qRXRRVVpjdENrZVNnTlJsNmFvNkdLSXhudWwtTkZfMFdYMXlpNjF1MHN4b0dmeUJWY1QyTllwTGdIcEhBVnJJSHVTS1R4d2JfN3k2MDU1cmFmajRGRV9uY1dETF9wWVlUSEfSAdgBQVVfeXFMUFdONlBraFE3UHdzcFhPalpmdEUySkVORmlxMWx5TnBsM2kzc3hobVE1eW9ramoyMnJsMGVtcWp5SnJOUHo0R29VUzBuS0VxeVRZSG9XZzE0T19JR3JNWXNvZHRfdUpjNGJnUmw4b3hoWkxmVy1NakV0UVVaY3RDa2VTZ05SbDZhbzZHS0l4bnVsLU5GXzBXWDF5aTYxdTBzeG9HZnlCVmNUMk5ZcExnSHBIQVZySUh1U0tUeHdiXzd5NjA1NXJhZmo0RkVfbmNXRExfcFlZVEhH?oc=5
+· BTC Spot Bitcoin ETFs pull in $313M net inflow through first 18 days of September (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:974dd4da4094b:0-spot-bitcoin-etfs-pull-in-313m-net-inflow-through-first-18-days-of-september/
+· ETH Can Ethereum Close the Week Above $2,672? This Level Opens the Door to $3,000 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-close-week-above-2-012650340.html
+· BTC Bitcoin Is 11 Days From Its First Winning Quarter in a Year. What Needs to Hold Until September 30? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-11-days-first-winning-004233010.html
 · BTC Bitcoin ETFs Now Own 6.29% of Every Bitcoin. What Happens When They Hit 10%? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-now-own-6-233516113.html
 · BTC Solana ETFs Experience 12 Consecutive Weeks of Inflows, While Bitcoin Has Its Quietest Week on Record (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/solana-etfs-experience-12-consecutive-230449467.html
 · UST Treasury yields are blowing up CBO forecasts, and experts who downplayed US debt fears are worried (Fortune) https://fortune.com/2026/09/19/treasury-yields-cbo-forecasts-us-debt-interest-costs-deficits/
-· BTC Solana ETFs notch 12 consecutive weeks of inflows as Bitcoin posts its quietest week on record (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:a6f937811094b:0-solana-etfs-notch-12-consecutive-weeks-of-inflows-as-bitcoin-posts-its-quietest-week-on-record/
-· NVDA Nvidia (NVDA) Forms Alliance To Build A Power Flexible AI Data Center (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-forms-alliance-build-230932870.html
-· PETR4 Conselho da Petrobras aprova adesão à nova subvenção do diesel (O Globo) https://oglobo.globo.com/economia/negocios/noticia/2026/09/19/conselho-da-petrobras-aprova-adesao-a-nova-subvencao-do-diesel.ghtml
-· JPM US Treasury's Bessent, China's He to meet on Sunday at JPMorgan headquarters (Reuters) https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-meet-sunday-jpmorgan-headquarters-2026-09-19/
-· JPM JPMorgan sends stark warning on $100 oil (Yahoo Finance) https://sg.finance.yahoo.com/news/jpmorgan-sends-stark-warning-100-011700461.html
-· PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
-· UST U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged (The Wall Street Journal) https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-as-market-regains-trust-in-feds-inflation-resolve-62beaf8e
-· PETR4 Petrobras recebe parcela de R$ 448 milhões, referente à subvenção à gasolina (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-recebe-parcela-de-r-448-milhoes-referente-a-subvencao-a-gasolina/
 · USDBRL Japão faz consulta de câmbio e iene salta para ¥156 por dólar (ADVFN) https://br.advfn.com/jornal/2026/09/japao-consulta-cambio-iene-salta-156-dolar
 · PETR4 Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-cai-vale-vale3-petrobras-petr4-fechamento-mt/
-· PETR4 Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ibovespa-hoje-datafolha-e-petroleo-entram-no-radar-apos-decisoes-de-juros/
-· DI Com queda da Selic, FIDCs podem chegar a 160% do CDI (Estadao) https://www.estadao.com.br/em-alta/einvestidor/fabrizio-gueratto/com-queda-da-selic-fidcs-podem-chegar-a-160-do-cdi/
-· BTC This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:4a952df48094b:0-this-bitcoin-signal-has-flashed-just-4-times-in-history-and-the-prior-3-coincided-with-bear-market-bottoms-here-s-what-to-know/
-· PETR4 Conselho da Petrobras aprova adesão a programa de subvenção ao diesel (InfoMoney) https://www.infomoney.com.br/mercados/conselho-da-petrobras-aprova-adesao-a-programa-de-subvencao-ao-diesel/
-· BTC REX launches 2x leveraged ETF tied to Bitcoin treasury firm Strive (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:34045f786094b:0-rex-launches-2x-leveraged-etf-tied-to-bitcoin-treasury-firm-strive/
-· PETR4 Petrobras adere a novo subsídio de R$ 1 por litro de diesel; programas já somam R$ 9,9 bi (g1) https://g1.globo.com/google/amp/economia/noticia/2026/09/19/petrobras-adere-a-novo-subsidio-de-r-1-por-litro-de-diesel-programas-ja-somam-r-99-bi.ghtml
-· DI O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas (Estadao) https://www.estadao.com.br/em-alta/economia/fabio-alves/o-copom-e-a-eleicao-como-a-inflacao-e-os-juros-tendem-a-se-comportar-na-visao-de-analistas/
-· ETH Ethereum ETFs Add $29.4M Friday As Fidelity Leads Reported Flows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:38279b513094b:0-ethereum-etfs-add-29-4m-friday-as-fidelity-leads-reported-flows/
-· DI Boletim Focus: mercado reduz inflação de 2026 pela 3ª semana, mas mantém Selic em 13,75% (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/boletim-focus-mercado-ve-inflacao-menor-em-2026-mas-ipca-ainda-escapa-do-limite-da-meta/
-· UST Stocks Decline as 10-Year Treasury Yield Hovers Near 5% (The Wall Street Journal) https://www.wsj.com/finance/stocks/stock-futures-retreat-10-year-treasury-yield-holds-above-5-as-investors-await-fed-decision-1cde847e
-· UST Stocks end wild week in uneasy calm as Treasury yields top 5% (Reuters) https://www.reuters.com/video/watch/idRW380518092026RP1/
 · PETR4 Ibovespa cai com Vale (VALE3) e Petrobras (PETR4) e interrompe sequência de ganhos (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-cai-vale-vale3-petrobras-petr4-fechamento-mt/amp/
-· GOOGL Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown (AP News) https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b
-· PETR4 Conselho da Petrobras aprova adesão a nova subvenção que neutralizará alta no diesel (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/19/conselho-da-petrobras-aprova-adeso-a-nova-subveno-que-neutralizar-alta-no-diesel.ghtml
-· MU Micron (MU) Unveils Breakthrough Memory Product. It Says Much About the Memory Market (Yahoo Finance) https://finance.yahoo.com/technology/articles/micron-mu-unveils-breakthrough-memory-171152232.html
-· BABA ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/19/3365018/673/en/alibaba-deadline-rosen-the-first-filing-firm-encourages-alibaba-group-holding-limited-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-b.html
 · DI Selic: o que essa taxa tem a ver com o seu dinheiro? (g1) https://g1.globo.com/especial-publicitario/nubank/noticia/2026/09/18/selic-o-que-essa-taxa-tem-a-ver-com-o-seu-dinheiro.ghtml
-· BTC Bitcoin ETFs eke out positive week with $433 million Friday inflow as ether funds snap four-week inflow streak (The Block) https://www.theblock.co/news/markets/2026-09-19-bitcoin-etfs-eke-out-positive-week-with-433-million-friday-inflow-as-ether-funds-snap-four-week-inflow-streak-415871
-· PETR4 Conselho da Petrobras aprova adesão a nova subvenção que neutralizará alta no diesel (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/19/conselho-da-petrobras-aprova-adeso-a-nova-subveno-que-neutralizar-alta-no-diesel.ghtml
-· PETR4 Petrobras batiza primeiro navio a navegar com tripulação 100% feminina (UOL Economia) https://jc.uol.com.br/economia/2026/09/19/petrobras-batiza-primeiro-navio-a-navegar-com-tripulacao-100-feminina.html
-· BTC This Bitcoin Signal Has Flashed Just 4 Times In History, And The Prior 3 Coincided With Bear-Market Bottoms — Here’s What To Know (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4a952df48094b:0-this-bitcoin-signal-has-flashed-just-4-times-in-history-and-the-prior-3-coincided-with-bear-market-bottoms-here-s-what-to-know/
-· BTC “Vender Bitcoin não deveria ser um tabu”, diz CEO da OranjeBTC (UOL Economia) https://portaldobitcoin.uol.com.br/vender-bitcoin-nao-deveria-ser-um-tabu-diz-ceo-da-oranjebtc/
-· BABA ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/19/3365018/0/en/alibaba-deadline-rosen-the-first-filing-firm-encourages-alibaba-group-holding-limited-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-first-filed-b.html
-· BTC Bitcoin ETFs Add $324.6M As Fidelity Dominates Friday Flows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:50076e8b0094b:0-bitcoin-etfs-add-324-6m-as-fidelity-dominates-friday-flows/
-· BAC Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-sets-12-month-134200044.html
-· EQTL3 Entenda onde está e como será explorado o petróleo na Margem Equatorial (Poder360) https://www.poder360.com.br/poder-energia/entenda-onde-esta-e-como-sera-explorado-o-petroleo-na-margem-equatorial/
-· DI Tesouro IPCA+ 2032 volta a subir e prefixados ganham prêmio antes de Fed e Copom (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/tesouro-ipca-2032-volta-a-subir-e-prefixados-ganham-premio-antes-de-fed-e-copom/
-· BTC Bitcoin is back at $80,000 as rest of crypto joins the rally: Chart of the Day (Yahoo Finance) https://finance.yahoo.com/markets/article/bitcoin-is-back-at-80000-as-rest-of-crypto-joins-the-rally-chart-of-the-day-115955499.html
-· DI Yduqs (YDUQ3) ganha força com alívio na curva de juros e CSN Mineração (CMIN3) é a pior ação da semana; confira os destaques do Ibovespa (Money Times) https://www.moneytimes.com.br/ibovespa-destaques-da-semana-38-lils/
-· DI Corte da Selic, discussões sobre IA e BDRs no Ibovespa; veja os destaques da semana (InfoMoney) https://www.infomoney.com.br/mercados/corte-da-selic-discussoes-sobre-ia-e-bdrs-no-ibovespa-veja-os-destaques-da-semana/
-· DI Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cripto/selic-cai-fed-sobe-mas-juros-do-brasil-ainda-atraem-estrangeiros-para-stablecoins-em-real/
-· UST Stocks Adjust to a ‘New Normal’ for 10-Year Treasury Rates (Investing.com) https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkNwbTJYTXR0NnpIRkxWQmcwNFBFQ2tVX003ZGItbHRjOHpUQTBIUGJ4Y3g5TktXcGZ2dC1laEpRMlZqNmxGblJWa2Z5UUdpOG43a1BPOVZNT0JGbkZSc05DS19ibmwtSG55U1hhcmZqaDJrZ00xNk9Gem9LQXJvRFFlMnFCNHpPODNVMkxUazRhVVM5emc0RjNWRlVackhnNlE?oc=5
 · BRENT Greve no setor de petróleo atinge Macaé e Bacia de Campos; sindicato cita paralisação por tempo indeterminado (g1) https://g1.globo.com/google/amp/rj/norte-fluminense/noticia/2026/09/18/greve-no-setor-de-petroleo-atinge-macae-e-bacia-de-campos-sindicato-cita-paralisacao-por-tempo-indeterminado.ghtml
 · ITUB4 IA, Ibovespa e até farmacêuticas gringas: Itaú BBA diz como investir em 800 ações com retorno de 23% ao ano sem dor de cabeça (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ia-ibovespa-e-ate-farmaceuticas-gringas-itau-bba-recomenda-11-ativos-para-investir-em-800-acoes-com-retorno-de-23-ao-ano-giov/
 · UST Dow Slides as Treasury Yields Near 5% After Fed Rate Hike (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:70bc6a0ae094b:0-dow-slides-as-treasury-yields-near-5-after-fed-rate-hike/
@@ -890,4 +754,24 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · NVDA Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing (Reuters) https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/
 · USDBRL Dólar sobe a R$ 5,14 e Bolsa cai, com ajustes a juros e à política fiscal (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/18/dolar-bolsa-fechamento-hoje-18-de-setembro-de-2026.ghtm
 · UST Wall Street closes mixed as Treasury yields rebound (SP500:) (Seeking Alpha) https://seekingalpha.com/news/4644515-wall-street-closes-mixed-as-treasury-yields-rebound
-· (+548 manchetes; lista completa em eventos/noticias.json)
+· AXIA3 XP vê “tempestade antes da calmaria” para Axia Energia e mantém compra (ADVFN) https://br.advfn.com/jornal/2026/09/xp-ve-tempestade-antes-da-calmaria-para-axia-energia-e-mantem-compra
+· PETR4 Mercado está subestimando os dividendos da Petrobras? XP vê distorção nas opções (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/mercado-esta-subestimando-os-dividendos-da-petrobras-xp-ve-distorcao-nas-opcoes/
+· MU Why Micron Stock Is Gaining Today (Barron's) https://www.barrons.com/articles/micron-stock-price-rising-7309a557
+· UST Global shares fall, Treasury yields rise as central banks double down on inflation fight (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45A0XA:0-global-shares-fall-treasury-yields-rise-as-central-banks-double-down-on-inflation-fight/
+· BTC Bitcoin Reclaims $80K After CFTC’s Crypto Proposals – HYPE, ZEC Hit New Record Highs Amid Rally (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:df8d4e079094b:0-bitcoin-reclaims-80k-after-cftc-s-crypto-proposals-hype-zec-hit-new-record-highs-amid-rally/
+· JPM Dividend Roundup: Microsoft, JPMorgan Chase, McDonald's, Broadcom, and more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:8148a0271094b:0-dividend-roundup-microsoft-jpmorgan-chase-mcdonald-s-broadcom-and-more/
+· ITUB4 Momento B3: Assaí, Brava Energia, Itaú Unibanco, B3, Cemig e os principais destaques desta sexta-feira (18) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-assai-brava-energia-itau-unibanco-b3-cemig-e-os-principais-destaques-desta-sexta-feira-18
+· BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
+· BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
+· EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
+· USDBRL Dólar sobe a R$ 5,14 (Drops de Jogos) https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSlBhYVI1TlBDaV9PMnV6ZjVNTEc2YjBTQ1hEZTVHUVVQa014MEJBMl93X01yd1FVQXdBdklIdmRWSVJ3dlJoWUFqNkpZVXFUNldQMzJ3bXNjUGs3ZVEzNUFnVUc4d1lzYl9rTA?oc=5
+· VALE3 Ibovespa fecha em queda com pressão da Vale e cenário eleitoral; dólar sobe a R$ 5,14 (Bloomberg Linea) https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUFQREhtMVQ4STNxSlM0TjBySVB4N2Jxd1hDMDRYVDJ4dEI2Ry0tZUFtMW1iTUhrcm91NFlPRHlQWVlMRE5vNkhTbW41ZlRjX1ZMV0NTZ2EtU1liRXJrU1hyTFd5dS1PVy00Y1RxRkhwdmRTMVh1eDRBMkVkR2gyZ2IySmQtZkRmWVJIdTVGVlNST2NBaTl3QkllWWlaWTh0YlpxRDJrRExINk5iZ2ZyaS1NaDFvSVliakNScDF4WlFXWEpM0gHYAUFVX3lxTFB6QTh5WUNEbVlQQVJuMzJ3MTVwdFNPcS1uR0pTNlgxdnEwRmhGbVVMQ2RTUkxJYlZxb3p0YWViblh0VU5RaTVVZHZGTWE5UTJzLVF3enAzVUxiZS12ZzdDQVd1TkNUQ2FqaHFDelBtVnlQQm50RmtYeTc1cEFlMnhXYnZIUWNYcWE0U3dpblJteEIyRThld3FIcGlUcXNPRDhlcDZkaUNzVzlDZ1V3cFIyYXM2amhHbWpjbTU0Ym9KMEFDQ0tGRjdyU1RVZGFZNU1EMmUtcThvbQ?oc=5
+· JPM JPMorgan sends stark warning on $100 oil (Bradenton Herald) https://news.google.com/rss/articles/CBMibkFVX3lxTE4ybXFlMFR1ZVRIYUZPZHRweGVDNmlPVTFoSm9vUzdjQjg1cWVWNXdxV2JtUWlxZkl5TE9RZkU0UmpjamhnLV85am5NZ2JscGZWV0RaWXhEY1hQN284RXFDaUxqblR6czZ3ZGFfeVVn?oc=5
+· MMM 3M (MMM) Stock Fair Value Edges Higher After Q2 Drives Mixed Analyst Revisions (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxNREdFNmNmX25OdEt6bkxVWm1SS21PYW1PZXdITDBMNU40TkppdHJpalpaVlNGX1ZYbHNvMWdrNVBKak5ib2xfY0t0VUtRdlhfckVwQXRsNDRYQzJDTlFLUW9ubW4zNnpacnV5TmNzTFhOdDR5Y1pWNmRoajBPT3RyZW44RzQ0eEt3c2pmUW5MX0NtUQ?oc=5
+· BTC Bitcoin ETF Inflows Return as BlackRock IBIT Leads $159M Rebound (CryptoRank) https://news.google.com/rss/articles/CBMiowFBVV95cUxPeFpfc2pLVmx0WXlMVmd0NE1oMlhaVmJHVVg2X2VPcC0yWHFfMm9YY2RFNmF3WHVGcnRjVTZuVmxBdHFWR2NKNEJfdTBJdHVSN1hoVGhsU2VuT0RjUFdOUHE1MmU5dVZkeE1Ldk5XQjJjOFlvaU81NXBUOS1HRWlSVll2RHZVbURNMFBMdF9GaldKQ3BSb002eW05eUlfZTNMV2NZ?oc=5
+· BTC Weekly Wrap: Bitcoin Climbs Back Above $80,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTctd0dHaWRvVldNejZuV0d2Xy13Q3VRaTBOdjdzVldjYWxVOEFWZWJiakM2bWtJLU9NOVh6LWlYS0ZuV3dsMzFQOHFvXzBKaHlDSVhxb3lack9fcHUwQWwwUjhoSDVMLTZNbjZPbEMwMklzeU93T2xBWTltbmFOa3YzNXRZZlEzcXYyUzZSVVlrQnRGTHhuTUZ0Z0U?oc=5
+· DI Corte da Selic sinaliza trajetória de queda, mas crédito ainda segue restrito (O Norte) https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFRqcjJXNFZET08tcFdQdmUxOTZVQWFwa3BjdWtDcWFtSWNQZzRDTDBFTU1rU2VFUFlsME9DbTNuanVjWVJsVUhvdC1LUHhURVh0S2RqYVNKYnRhNllLTVMxRmF5a3ZJcDFIS3NyZDhObFU1cElUR2VTRHFnZjFzWWoxNzV4OVJLRmdMVk5UNmhvTnhCa0c0VHhDMldUZGp2MllmaVcxdDh5WUQwRmdqWGpoTUM?oc=5
+· MU Micron Turned $10,000 Into About $130,000 in 5 Years. Most of It Came in the Past 12 Months. (The Motley Fool) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc09ObHhyaU1zTFNMNllIWTB2Ul9wcDBqdGg2XzFnanVVYUhIaGs4TXVLdUJvb1FGMk9MZWVEUXc2c0NTNnhqX0JheEg2Rm1VcjgtMlVmclIwVTJ5c2lRZTlhcXcxQWl5OEdkTlZnZTlub1pBMk8zNUhRaWZFNENzTnpkZkdZQUdoek9zV00zYXZYYzl1Z0hTM2xSVEJWQUZjTFc4X2lRcXBaaGppd2QwOGtRenVFV2l6aHRJOEhFbTd4THROc1ZLNDZqWDBaV3IybDdn?oc=5
+· USDBRL Dólar fecha em alta de 0,11% e Ibovespa cai 0,41% (Poder360) https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXA5enh4d3JZSU5rU0JHa0EwSDFhZGRBOXlMd3QtWkJQSm5mdm04WDNOcy0tbG10Q2F5NGVRVEFTYTYyc2RFX1VaSWVCbGxUdkRaYnNMd3F5UlUwOWVZaFlRRmVxcC1iOHhhczJ4Y05abXNVSDJfRWEtdWE0RjVkdTgxQXhUNDZZazNsZWpkLVFuTjg?oc=5
+· SBSP3 Mês do Cliente: Sabesp segue com agenda de atendimento itinerante e realiza mais uma etapa na capital e Região Metropolitana (Jornal Digital da Região Oeste) https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUWp6UDVqVEpGMjA5VWpUMThkQURCbmdtbHJIc2lGSmk1VjY4VzljY0xLX3V2ZkFYakFuR09kS0QtTzZIRWxmVFR0ckFUZVNsN1BsQjZxMkNLYWpJYkU1WUhoYk1zYXVibkpENGp4REJGZ25wZ2dzS1I1QUE0d0c2Ykk2bVVlaTNGdkVOYld0YlotOXRYeElWMVJob0tOY3pydDhnOHd0NE1HMVBteFlGUC1RcnJXRkIxREJpZzBDZHJXQlNidXlta1NQSXV4Y1gwV0xCUzg5ekdsa044TzJ4TFU0WmZSTEJucUtJUDJMWlp6OFFDREU5Uk5n?oc=5
+· (+528 manchetes; lista completa em eventos/noticias.json)

@@ -1,30 +1,75 @@
 ALERTAS · Fechamento 18h40
 
-Nenhum alerta novo neste slot.
-Info (só linha no Fechamento):
-· T08 WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,82
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário
+Money Times · 20/09 08h05 · fonte única · licença: integral
+Do texto:
+  – Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário Na semana de 21 a 25 de setembro, duas companhias da bolsa brasileira pagam dividendos e juros sobre capital próprio (JCP) aos seus a…
+  – Na segunda-feira (21), a Petrobras (PETR3;PETR4) realiza pagamento de JCP no valor de R$ 0,3505 tanto para a ação preferencial quanto ordinária, para os acionistas posicionados em 1º de junho de 2026.
+  – Já na sexta-feira (25), o Ser Educacional (SEER3) realiza pagamento de dividendos no valor de R$ 0,2028, com data de corte de 31 de agosto de 2026.
+Link: https://www.moneytimes.com.br/dividendos-da-semana-18-9-26-apsa/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário; confirmar o número no texto antes de repassar'
+Fonte: Money Times 20/09 08h05
+Push: Fechamento 18h40: 3 alertas de atenção — E05 PETR4, E05 PETR4, E05 TSM · detalhe na sessão
+ids: E05-PETR4-3b165219be-2026-09-20
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-WQTM--20-2026-09-18 (teto diário de críticos)
+[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+Estadao · 20/09 07h00 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 20/09 07h00
+ids: E05-PETR4-121ac17da6-2026-09-20
+
+[ATENÇÃO] E05 · TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
+Yahoo Finance · 20/09 01h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The three stocks highlighted below are just a small sample of the idea, and the wider screen surfaced 54 more multinational manufacturers with equally compelling risk and reward stories that are not covered here.
+  – Operations: TSMC generates about NT$4,440.5b from its foundry business, with NT$3,326.7b from the United States and NT$340.5b from China.
+  – Market Cap: NT$63,793.6b TSMC matters for this screener because its chip factories and customer base are spread across the US, Europe and Asia, which gives the business more room to adjust as tariffs reshape where elect…
+  – "Geopolitical concentration: Self-explanatory.
+  – TSMC might not exist, at least in its current form, if a certain regional bully gets its way." What happens to TSMC's margins and cash returns depends heavily on how one unseen pricing pressure within that global build…
+  – Operations: Celestica generates about US$3.3b from Advanced Technology Solutions and roughly US$12.3b from Connectivity & Cloud Solutions, highlighting a CCS-heavy revenue mix.
+Link: https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: TSM
+Como falar: 'saiu no Yahoo Finance: TSMC Stock And 2 Manufacturers Building Around Tariff Shifts; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 20/09 01h20
+ids: E05-TSM-7f4f288908-2026-09-20
+
+Info (só linha no Fechamento):
+· E05 ITUB4 · 6 ações para ficar de olho com a queda dos juros em 2027, segundo o Itaú BBA
+· E05 BTC · Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’
+· E05 CVX · Chevron plans drilling spree as it overhauls oil and gas search
+· E05 PETR4 · Petrobras (PETR4) recebe parcela de R$ 448 milhões referente à subvenção à gasolina e adere a programa do diesel
+· E05 KO · Coca-Cola’s $10B Buildout Fuels Industrial Demand
+· E05 DI · IPCA-15, ata do Copom e Lula na ONU movimentam a semana a 15 dias do 1º turno
+· E05 MCHI · Is CGN Mining (SEHK:1164) Expensive After Joining The Hang Seng China Affiliated Corporations Index?
+· E05 BTC · Peter Brandt Sees Possible 10X, 20X Altcoin Gains — So Why Is He Sticking With Bitcoin?
+· E05 DI · Agenda de mercados: ata do Copom e IPCA-15 são destaque na semana
+· E05 ETH · Ethereum Price Analysis: Can ETH Hit $3,000 as it Hovers Below Key Level
+· E05 DI · Calendário Econômico: ata do Copom e IPCA-15 dão novas pistas sobre os juros
+· E05 MU · Should You Buy Micron Stock Before Its Next Earnings Report?
+· E05 UST · The 10-Year Treasury Yield Just Topped 5% for the Second Time in Almost 20 Years. Is This Turning Point a Warning for Your Portfolio?
+· E05 BTC · Bitcoin: Boom or Bust
+· E05 BRENT · América Latina desponta como novo polo global de exportação de petróleo
+
 
 Alertas do dia (todos, com status):
 · linha     T08 WQTM — WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,8
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
 · entregue  F03 BRENT — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja
+· pendente  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
+· pendente  E05 TSM — TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
 · linha     T08 IGV — IGV entrou em correção: -11% do pico de 52s (US$ 117,79 em 22/09) a US$ 104,35
 · linha     T03 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) formou death cross
-· expirado  E05 UST — UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 
-· entregue  E04 MELI34 — MELI34 · 8-K: 1.01 acordo material assinado, 7.01 Regulation FD
-· expirado  E04 AMZN — AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
 · linha     C06 TESOURO — Inflação implícita: implícita 2029 +21 bps na semana · implícita 2029 cruzou 6,0
-· entregue  E03 PETR4 — PETR4 · Fato Relevante: www.petrobras.com.br/ri Para mais informações:
-· entregue  E05 DI — DI · Copom reduz taxa de juros em 0,25 ponto pela 5ª vez e Selic cai a 13,75% ao
-· linha     T05 BTC — BTC +6,8% no dia a US$ 81.629: movimento de 3,3 desvios para uma vol de 20 dias 
-· linha     T05 ETH — ETH +7,3% no dia a US$ 2.626: movimento de 3,3 desvios para uma vol de 20 dias d
 · linha     T10 BBAS3 — BBAS3 no máximo de força relativa em 63 sessões contra IBOV: +29% vs +10% em 20 
 · linha     T10 DIRR3 — DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20
 · linha     T11 BBAS3 — BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessõ
-· linha     F06 ETH — ETH sobe a US$ 2.626 (+7,3% em 24h · cruzou US$ 2.500)
-· entregue  M03 MACRO — Focus de 11/09: IPCA: 2026 4,90% (-10 bps) · 2027 4,30% (+1 bps)
 · linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, C
 · expirado  E03 SBSP3 — SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
 · entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
@@ -50,12 +95,10 @@ Alertas do dia (todos, com status):
 · linha     T02 MMM — MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa 
 · linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa
 · linha     T02 NOK — NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa pr
-· linha     C06 TESOURO — Inflação implícita: implícita 2029 +244 bps acima do Focus · implícita 2032 +258
 · linha     C08 UST — UST 2s10s +25 bps: na mínima de 252 pregões (18/09)
 · linha     T02 VALE3 — VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendê
 · linha     T02 SBSP3 — SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tend
-· linha     F06 BTC — BTC sobe a US$ 81.629 (cruzou US$ 80.000)
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
-· (+682 notícias só manchete, em noticias.md)
+· (+655 notícias só manchete, em noticias.md)
