@@ -83,6 +83,23 @@ class Estado:
         v = self.d.get(chave)
         return v.get("data") if isinstance(v, dict) else None
 
+    def repetido_hoje(self, chave: str, hoje: str, valor: float | None = None, tol: float = 1e-6) -> bool:
+        """Ja disparou hoje E o numero continua o mesmo.
+
+        A guarda de dia existe para nao mandar a mesma mensagem duas vezes; ela nao
+        pode impedir a regra de recalcular quando o Yahoo reprecifica a serie no meio
+        do pregao. Recalculando, o Repositorio atualiza o texto na fila sem gerar
+        mensagem nova (registrar so devolve id inedito)."""
+        v = self.d.get(chave)
+        if not isinstance(v, dict) or v.get("data") != hoje:
+            return False
+        if valor is None:
+            return True
+        ant = v.get("valor")
+        if ant is None:
+            return True
+        return abs(float(ant) - float(valor)) <= tol * max(1.0, abs(float(valor)))
+
     def em_cooldown(self, chave: str, datas: list[str], sessoes: int) -> bool:
         """True se o ultimo disparo (por data) esta a menos de `sessoes` barras da ultima barra."""
         ult = self.ultima_data(chave)
