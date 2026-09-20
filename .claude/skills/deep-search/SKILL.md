@@ -42,6 +42,7 @@ Escreva a pergunta fixada na primeira linha do rascunho. Ela e o criterio de
 ```bash
 python3 mesa.py skills     # as skills da mesa estao instaladas e validas?
 python3 mesa.py ficha TICKER
+python3 mesa.py frescor TICKER   # TRAVA DE FRESCOR: so se escreve com VEREDITO ATUAL
 ```
 
 A resposta abre confirmando o que operou: quais skills e quais comandos. O
@@ -50,9 +51,40 @@ Douglas pediu essa confirmacao em toda pesquisa.
 A ficha diz em uma tela se ha demonstracao oficial, quantos releases estao
 guardados, qual o grupo de pares e quais fontes falharam.
 
-Dispare a coleta quando a ficha imprimir "nao esta no branch",
-"demonstracao oficial: AUSENTE", menos de 4 releases, ou `gerado_em` com mais
-de 6 horas em dia util. Ferramenta `mcp__github__actions_run_trigger`,
+### Trava de frescor (obrigatoria, logo depois da ficha)
+
+`python3 mesa.py frescor TICKER` e o criterio, nao a intuicao. Ele imprime o
+trimestre do ITR mais novo, o trimestre do release mais novo, a defasagem
+entre os dois e a idade da coleta, e fecha com um VEREDITO: `ATUAL` (saida 0)
+ou `RELEASE VELHO (N trimestres atras do ITR)` / `COLETA VELHA (Nh)` (saida
+1). Release mais novo que o ITR e normal logo apos a divulgacao e conta como
+ATUAL.
+
+- `RELEASE VELHO` ou `COLETA VELHA`: dispare a coleta (abaixo; o coletor
+  agora busca o release tambem no site de RI da companhia, `ri_fontes.py`,
+  quando a CVM nao tem o trimestre do ITR), espere o run terminar e repita
+  `python3 mesa.py frescor TICKER`. So siga para o passo 2 com ATUAL.
+- Se depois da coleta continuar `RELEASE VELHO`:
+  (a) a resposta ABRE com a lacuna em uma frase, com o trimestre do ITR e o
+      do release lado a lado ("Numeros oficiais ate o 2T26; ultimo release
+      lido e do 3T25, tres trimestres atras"), antes do "Em uma frase";
+  (b) tudo que vier de release carrega o trimestre entre parenteses:
+      "margem bruta de 36,1% (release 3T25)";
+  (c) o passo 3 (discurso contra entrega) declara que a fala da gestao esta
+      N trimestres atras dos numeros e cobra o que der com essa ressalva;
+  (d) a mesa procura o release do trimestre que falta pelo buscador web
+      (WebSearch: "<empresa> resultado 2T26 release") para ao menos citar
+      manchete, data e os numeros divulgados, sempre marcados como "busca
+      web, nao e fonte primaria";
+  (e) nunca apresentar KPI de release velho como se fosse do trimestre
+      atual: sem o trimestre ao lado, o numero nao entra.
+
+**Dado velho nao e motivo para nao responder; e motivo para dizer a idade do
+dado na primeira linha.**
+
+Dispare a coleta tambem quando a ficha imprimir "nao esta no branch",
+"demonstracao oficial: AUSENTE" ou menos de 4 releases (o `frescor` ja cobre
+`gerado_em` velho). Ferramenta `mcp__github__actions_run_trigger`,
 `method: run_workflow`, `owner: douglora`, `repo: broadcast`,
 `workflow_id: coletar-dados.yml`, `ref: main`,
 `inputs: {"tickers": "TICKER", "pares": "auto"}`. Leva de 3 a 8 minutos;
@@ -217,6 +249,12 @@ resposta desta skill e lida no celular:
 
 ## Como nao se enganar
 
+- **Licao de 20/09/2026: o frescor e verificado por comando, nao suposto.**
+  A CVM sumiu com o indice IPE de 2026 (HTTP 404), o coletor so achava
+  release por esse indice, e a mesa entregou nota de DIRR3 com release do
+  3T25 contra ITR do 2T26, tres trimestres atras, sem dizer isso na primeira
+  linha; o Douglas apontou. Desde entao `mesa.py frescor` roda antes de
+  qualquer texto e a defasagem, quando existe, abre a resposta.
 - **Nao confunda a conta da empresa com a da gestao.** O release apresenta
   "ajustado"; a DRE oficial nao ajusta nada. Quando divergem, a oficial e o
   numero e a diferenca e o assunto.
