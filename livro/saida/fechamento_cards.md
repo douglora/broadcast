@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 11h52 de 20/09 BRT
+## Fechamento do livro · sex 18/09 · 15h01 de 20/09 BRT
 
 ---
 
@@ -41,16 +41,16 @@
 
 ### UCITS (USD) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **VWRA** Vanguard FTSE All-World | 191,66 | **-0,4** | -1,0 | -1,3 | +16 | +17 | +12 |
-| **CSPX** iShares Core S&P 500 | 822,76 | **0,0** | -0,6 | -1,2 | +17 | +16 | +11 |
-| **CNDX** iShares NASDAQ 100 | 1.692 | **+0,1** | -0,1 | -0,1 | +22 | +20 | +15 |
-| **VHYA** Vanguard FTSE All-World High Dividend Yield | 106,84 | **-0,7** | -1,5 | -1,8 | +13 | +22 | +15 |
-| **WUTI** State Street SPDR MSCI World Utilities | 66,80 | **-0,9** | -2,1 | -4,5 | -5,1 | +7,4 | +1,0 |
-| **RBOT** iShares Automation & Robotics | 21,03 | **+0,5** | +0,1 | -2,4 | +36 | +32 | +29 |
-| **IUAA** iShares US Aggregate Bond | 5,64 | **-0,2** | -0,3 | -1,4 | -1,0 | -0,7 | -1,9 |
-| **IB01** iShares $ Treasury Bond 0-1yr | 121,82 | **0,0** | 0,0 | +0,2 | +1,8 | +3,6 | +2,5 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **VWRA** Vanguard FTSE All-World | 191,66 | **-0,4** | -1,0 | -1,3 | +1,0 | +16 | +17 | +12 | +68 |
+| **CSPX** iShares Core S&P 500 | 822,76 | **0,0** | -0,6 | -1,2 | +2,0 | +17 | +16 | +11 | +82 |
+| **CNDX** iShares NASDAQ 100 | 1.692 | **+0,1** | -0,1 | -0,1 | -2,9 | +22 | +20 | +15 | +96 |
+| **VHYA** Vanguard FTSE All-World High Dividend Yield | 106,84 | **-0,7** | -1,5 | -1,8 | +3,4 | +13 | +22 | +15 | +76 |
+| **WUTI** State Street SPDR MSCI World Utilities | 66,80 | **-0,9** | -2,1 | -4,5 | -5,0 | -5,1 | +7,4 | +1,0 | +47 |
+| **RBOT** iShares Automation & Robotics | 21,03 | **+0,5** | +0,1 | -2,4 | -3,0 | +36 | +32 | +29 | +52 |
+| **IUAA** iShares US Aggregate Bond | 5,64 | **-0,2** | -0,3 | -1,4 | -1,8 | -1,0 | -0,7 | -1,9 | -3,4 |
+| **IB01** iShares $ Treasury Bond 0-1yr | 121,82 | **0,0** | 0,0 | +0,2 | +0,9 | +1,8 | +3,6 | +2,5 | +19 |
 
 Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · **CSPX** iShares Core S&P 500 UCITS ETF USD (Acc) · **CNDX** iShares NASDAQ 100 UCITS ETF USD (Acc) · **VHYA** Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating · **WUTI** State Street SPDR MSCI World Utilities UCITS ETF (USD) · **RBOT** iShares Automation & Robotics UCITS ETF USD (Acc) · **IUAA** iShares US Aggregate Bond UCITS ETF USD (Acc) · **IB01** iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc).
 
@@ -58,29 +58,29 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 ### ETFs EUA (USD) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **SPY** SPDR S&P 500 ETF Trust | 761,69 | **+0,1** | -0,1 | -0,7 | +18 | +17 | +13 |
-| **QQQ** Invesco QQQ Trust | 721,45 | **+0,6** | +0,9 | +0,7 | +24 | +22 | +18 |
-| **SMH** VanEck Semiconductor ETF | 573,00 | **+2,2** | +0,8 | +2,2 | +49 | +81 | +59 |
-| **SOXX** iShares Semiconductor ETF | 533,07 | **+2,7** | +1,2 | +2,6 | +60 | +100 | +77 |
-| **XLK** Technology Select Sector SPDR Fund | 189,60 | **+0,8** | +1,0 | +3,2 | +40 | +38 | +32 |
-| **VGT** Vanguard Information Technology ETF | 122,31 | **+0,7** | +1,0 | +3,0 | +39 | +34 | +30 |
-| **IGV** iShares Expanded Tech-Software Sector ETF | 104,35 | **-1,4** | +2,8 | +1,5 | +26 | -9,5 | -1,2 |
-| **BOTZ** Global X Robotics & Artificial Intelligence ETF | 35,11 | **0,0** | -0,5 | -3,5 | +4,5 | +0,7 | -3,0 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **SPY** SPDR S&P 500 ETF Trust | 761,69 | **+0,1** | -0,1 | -0,7 | +2,3 | +18 | +17 | +13 | +84 |
+| **QQQ** Invesco QQQ Trust | 721,45 | **+0,6** | +0,9 | +0,7 | -2,5 | +24 | +22 | +18 | +99 |
+| **SMH** VanEck Semiconductor ETF | 573,00 | **+2,2** | +0,8 | +2,2 | -13 | +49 | +81 | +59 | +336 |
+| **SOXX** iShares Semiconductor ETF | 533,07 | **+2,7** | +1,2 | +2,6 | -17 | +60 | +100 | +77 | +255 |
+| **XLK** Technology Select Sector SPDR Fund | 189,60 | **+0,8** | +1,0 | +3,2 | -0,8 | +40 | +38 | +32 | +153 |
+| **VGT** Vanguard Information Technology ETF | 122,31 | **+0,7** | +1,0 | +3,0 | +2,0 | +39 | +34 | +30 | +141 |
+| **IGV** iShares Expanded Tech-Software Sector ETF | 104,35 | **-1,4** | +2,8 | +1,5 | +17 | +26 | -9,5 | -1,2 | +25 |
+| **BOTZ** Global X Robotics & Artificial Intelligence ETF | 35,11 | **0,0** | -0,5 | -3,5 | -8,5 | +4,5 | +0,7 | -3,0 | -8,8 |
 
 ---
 
 ### Temáticos: quântica e metais (USD) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **QNTM** VanEck Quantum Computing | 28,62 | **-2,0** | -1,8 | -2,6 | +25 | +15 | +14 |
-| **QANT** iShares Quantum Computing | 6,04 | **-1,5** | -0,6 | -2,0 | +33 | - | +20 |
-| **WQTM** WisdomTree Quantum Computing | 36,82 | **-1,7** | -1,9 | -3,8 | +28 | +24 | +23 |
-| **WQTMUS** WisdomTree Quantum Computing Fund | 31,85 | **-0,9** | -0,3 | -4,1 | +28 | - | +23 |
-| **QTUM** Defiance Quantum ETF | 147,79 | **+0,7** | +0,3 | -1,6 | +37 | +43 | +35 |
-| **REMX** VanEck Rare Earth & Strategic Metals ETF | 69,06 | **-0,1** | -2,1 | -9,1 | -13 | +15 | -6,6 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **QNTM** VanEck Quantum Computing | 28,62 | **-2,0** | -1,8 | -2,6 | -8,3 | +25 | +15 | +14 | - |
+| **QANT** iShares Quantum Computing | 6,04 | **-1,5** | -0,6 | -2,0 | -8,2 | +33 | - | +20 | - |
+| **WQTM** WisdomTree Quantum Computing | 36,82 | **-1,7** | -1,9 | -3,8 | -14 | +28 | +24 | +23 | - |
+| **WQTMUS** WisdomTree Quantum Computing Fund | 31,85 | **-0,9** | -0,3 | -4,1 | -16 | +28 | - | +23 | - |
+| **QTUM** Defiance Quantum ETF | 147,79 | **+0,7** | +0,3 | -1,6 | -12 | +37 | +43 | +35 | +198 |
+| **REMX** VanEck Rare Earth & Strategic Metals ETF | 69,06 | **-0,1** | -2,1 | -9,1 | -28 | -13 | +15 | -6,6 | -31 |
 
 Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT** iShares Quantum Computing UCITS ETF USD (Acc) · **WQTM** WisdomTree Quantum Computing UCITS ETF USD (Acc).
 
@@ -88,98 +88,98 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 ### EUA · Semicondutores e óptica · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **NVDA** NVIDIA | 222,27 | **+1,3** | +1,8 | +2,3 | +29 | +26 | +19 |
-| **AMD** Advanced Micro Devices | 559,82 | **+2,7** | +8,5 | +20 | +178 | +254 | +161 |
-| **AVGO** Broadcom | 357,61 | **+3,0** | -1,2 | -1,3 | +16 | +4,3 | +3,7 |
-| **MRVL** Marvell Technology | 244,25 | **+1,4** | +3,5 | +2,9 | +178 | +230 | +188 |
-| **INTC** Intel | 108,60 | **-0,2** | +5,5 | +17 | +148 | +255 | +194 |
-| **MU** Micron Technology | 1.016 | **+3,9** | +4,2 | +8,4 | +140 | +502 | +256 |
-| **TSM** Taiwan Semiconductor Manufacturing | 434,67 | **+1,0** | +0,6 | +5,8 | +33 | +64 | +44 |
-| **GFS** GlobalFoundries | 47,82 | **+4,3** | +1,9 | -1,6 | +11 | +44 | +37 |
-| **LITE** Lumentum Holdings | 930,91 | **+4,2** | +0,4 | +12 | +32 | +443 | +153 |
-| **COHR** Coherent Corp | 317,36 | **+7,2** | +3,9 | +10 | +25 | +194 | +72 |
-| **NOK** Nokia | 10,68 | **+0,8** | -4,0 | +5,4 | +34 | +124 | +65 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **NVDA** NVIDIA | 222,27 | **+1,3** | +1,8 | +2,3 | +5,6 | +29 | +26 | +19 | +919 |
+| **AMD** Advanced Micro Devices | 559,82 | **+2,7** | +8,5 | +20 | +4,2 | +178 | +254 | +161 | +439 |
+| **AVGO** Broadcom | 357,61 | **+3,0** | -1,2 | -1,3 | -13 | +16 | +4,3 | +3,7 | +676 |
+| **MRVL** Marvell Technology | 244,25 | **+1,4** | +3,5 | +2,9 | -21 | +178 | +230 | +188 | +301 |
+| **INTC** Intel | 108,60 | **-0,2** | +5,5 | +17 | -19 | +148 | +255 | +194 | +117 |
+| **MU** Micron Technology | 1.016 | **+3,9** | +4,2 | +8,4 | -10 | +140 | +502 | +256 | +1.302 |
+| **TSM** Taiwan Semiconductor Manufacturing | 434,67 | **+1,0** | +0,6 | +5,8 | -5,7 | +33 | +64 | +44 | +300 |
+| **GFS** GlobalFoundries | 47,82 | **+4,3** | +1,9 | -1,6 | -44 | +11 | +44 | +37 | - |
+| **LITE** Lumentum Holdings | 930,91 | **+4,2** | +0,4 | +12 | +9,5 | +32 | +443 | +153 | +990 |
+| **COHR** Coherent Corp | 317,36 | **+7,2** | +3,9 | +10 | -19 | +25 | +194 | +72 | +425 |
+| **NOK** Nokia | 10,68 | **+0,8** | -4,0 | +5,4 | -21 | +34 | +124 | +65 | +116 |
 
 ---
 
 ### EUA · Tecnologia e plataformas · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **META** Meta Platforms | 665,75 | **-2,4** | +2,7 | +22 | +12 | -14 | +1,0 |
-| **GOOGL** Alphabet | 349,54 | **+0,6** | +3,3 | +1,5 | +16 | +39 | +12 |
-| **AMZN** Amazon | 253,71 | **+1,0** | -1,2 | -4,6 | +24 | +9,7 | +9,9 |
-| **PLTR** Palantir Technologies | 177,64 | **+0,8** | +6,2 | +1,4 | +18 | +0,4 | -0,1 |
-| **TSLA** Tesla | 364,27 | **-0,5** | -0,3 | +3,7 | -1,0 | -13 | -19 |
-| **BABA** Alibaba Group | 113,24 | **+4,3** | +3,6 | -12 | -6,6 | -30 | -22 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **META** Meta Platforms | 665,75 | **-2,4** | +2,7 | +22 | +15 | +12 | -14 | +1,0 | +84 |
+| **GOOGL** Alphabet | 349,54 | **+0,6** | +3,3 | +1,5 | -5,0 | +16 | +39 | +12 | +151 |
+| **AMZN** Amazon | 253,71 | **+1,0** | -1,2 | -4,6 | +3,8 | +24 | +9,7 | +9,9 | +47 |
+| **PLTR** Palantir Technologies | 177,64 | **+0,8** | +6,2 | +1,4 | +38 | +18 | +0,4 | -0,1 | +519 |
+| **TSLA** Tesla | 364,27 | **-0,5** | -0,3 | +3,7 | -9,0 | -1,0 | -13 | -19 | +44 |
+| **BABA** Alibaba Group | 113,24 | **+4,3** | +3,6 | -12 | +5,7 | -6,6 | -30 | -22 | -25 |
 
 ---
 
 ### EUA · Bancos · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **JPM** JPMorgan Chase | 349,67 | **+0,1** | -1,8 | -2,1 | +23 | +14 | +10 |
-| **BAC** Bank of America | 57,73 | **-0,8** | -7,9 | -8,1 | +24 | +13 | +6,6 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **JPM** JPMorgan Chase | 349,67 | **+0,1** | -1,8 | -2,1 | +8,0 | +23 | +14 | +10 | +151 |
+| **BAC** Bank of America | 57,73 | **-0,8** | -7,9 | -8,1 | +3,2 | +24 | +13 | +6,6 | +61 |
 
 ---
 
 ### EUA · Consumo, energia e indústria · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **KO** Coca-Cola | 88,25 | **+0,2** | +0,6 | -1,7 | +20 | +36 | +29 |
-| **CVX** Chevron | 209,51 | **-1,0** | -2,1 | +1,8 | +5,7 | +37 | +41 |
-| **MMM** 3M | 165,89 | **+0,7** | +0,6 | -7,8 | +19 | +8,7 | +5,1 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **KO** Coca-Cola | 88,25 | **+0,2** | +0,6 | -1,7 | +12 | +20 | +36 | +29 | +88 |
+| **CVX** Chevron | 209,51 | **-1,0** | -2,1 | +1,8 | +22 | +5,7 | +37 | +41 | +165 |
+| **MMM** 3M | 165,89 | **+0,7** | +0,6 | -7,8 | +3,7 | +19 | +8,7 | +5,1 | +30 |
 
 ---
 
 ### Hipótese (ETF país, a confirmar) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **EWY** iShares MSCI South Korea ETF | 181,31 | **-0,6** | -3,9 | +3,9 | +44 | +130 | +86 |
-| **MCHI** iShares MSCI China ETF | 53,07 | **+0,8** | +0,2 | -4,2 | -3,2 | -16 | -11 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **EWY** iShares MSCI South Korea ETF | 181,31 | **-0,6** | -3,9 | +3,9 | -17 | +44 | +130 | +86 | +142 |
+| **MCHI** iShares MSCI China ETF | 53,07 | **+0,8** | +0,2 | -4,2 | +0,6 | -3,2 | -16 | -11 | -14 |
 
 ---
 
 ### BR (R$) · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **EQTL3** Equatorial Energia ON | 39,57 | **0,0** | -0,2 | +14 | -1,0 | +13 | +2,8 |
-| **SAPR4** Sanepar PN | 6,75 | **+1,7** | -0,4 | +8,2 | -17 | -5,3 | -13 |
-| **KLBN4** Klabin PN | 3,86 | **+1,0** | +0,3 | +9,3 | +4,3 | +14 | +2,7 |
-| **ALUP4** Alupar PN | 10,90 | **+0,9** | -0,5 | +5,8 | +5,9 | +16 | +9,4 |
-| **ITUB4** Itau Unibanco PN | 42,33 | **-0,7** | -0,9 | +10 | +3,1 | +22 | +10 |
-| **BBDC4** Bradesco PN | 17,99 | **-1,2** | -3,2 | +12 | +2,2 | +13 | +3,3 |
-| **PETR4** Petrobras PN | 48,50 | **-0,3** | -1,0 | +16 | +13 | +69 | +67 |
-| **VALE3** Vale ON | 73,37 | **+0,5** | -6,2 | +1,7 | -0,2 | +38 | +4,8 |
-| **MELI34** Mercado Livre BDR | 77,42 | **-2,4** | -4,5 | -5,4 | +7,1 | -30 | -16 |
-| **UGPA3** Ultrapar ON | 39,13 | **+0,5** | +2,9 | +19 | +54 | +99 | +93 |
-| **AXIA3** Axia Energia ON | 53,80 | **-2,6** | -1,8 | +5,9 | -3,3 | +13 | +6,3 |
-| **ITSA4** Itausa PN | 14,03 | **-1,2** | -1,1 | +14 | +8,7 | +38 | +23 |
-| **BBAS3** Banco do Brasil ON | 23,20 | **+2,2** | +3,2 | +29 | +0,9 | +8,0 | +8,3 |
-| **SBSP3** Sabesp ON | 27,31 | **+0,8** | +1,0 | +14 | -8,0 | +12 | +3,1 |
-| **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 109,69 | **0,0** | -1,0 | +9,8 | -1,6 | -2,4 | -2,5 |
-| **RARA11** Investo Terras Raras e Metais Estrategicos | 15,88 | **+0,1** | -1,9 | -9,7 | - | - | - |
-| **DIRR3** Direcional Engenharia ON | 10,05 | **-0,3** | -4,0 | -4,4 | -25 | -28 | -29 |
-| **MRVE3** MRV ON | 5,23 | **-8,4** | -8,9 | +7,2 | -27 | -32 | -33 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **EQTL3** Equatorial Energia ON | 39,57 | **0,0** | -0,2 | +14 | +6,8 | -1,0 | +13 | +2,8 | +73 |
+| **SAPR4** Sanepar PN | 6,75 | **+1,7** | -0,4 | +8,2 | -7,2 | -17 | -5,3 | -13 | +141 |
+| **KLBN4** Klabin PN | 3,86 | **+1,0** | +0,3 | +9,3 | +9,3 | +4,3 | +14 | +2,7 | +32 |
+| **ALUP4** Alupar PN | 10,90 | **+0,9** | -0,5 | +5,8 | +8,7 | +5,9 | +16 | +9,4 | +82 |
+| **ITUB4** Itau Unibanco PN | 42,33 | **-0,7** | -0,9 | +10 | +6,3 | +3,1 | +22 | +10 | +137 |
+| **BBDC4** Bradesco PN | 17,99 | **-1,2** | -3,2 | +12 | +5,3 | +2,2 | +13 | +3,3 | +42 |
+| **PETR4** Petrobras PN | 48,50 | **-0,3** | -1,0 | +16 | +29 | +13 | +69 | +67 | +558 |
+| **VALE3** Vale ON | 73,37 | **+0,5** | -6,2 | +1,7 | -6,6 | -0,2 | +38 | +4,8 | +42 |
+| **MELI34** Mercado Livre BDR | 77,42 | **-2,4** | -4,5 | -5,4 | +11 | +7,1 | -30 | -16 | -6,5 |
+| **UGPA3** Ultrapar ON | 39,13 | **+0,5** | +2,9 | +19 | +61 | +54 | +99 | +93 | +247 |
+| **AXIA3** Axia Energia ON | 53,80 | **-2,6** | -1,8 | +5,9 | +3,8 | -3,3 | +13 | +6,3 | +66 |
+| **ITSA4** Itausa PN | 14,03 | **-1,2** | -1,1 | +14 | +9,9 | +8,7 | +38 | +23 | +153 |
+| **BBAS3** Banco do Brasil ON | 23,20 | **+2,2** | +3,2 | +29 | +20 | +0,9 | +8,0 | +8,3 | +132 |
+| **SBSP3** Sabesp ON | 27,31 | **+0,8** | +1,0 | +14 | +1,3 | -8,0 | +12 | +3,1 | +352 |
+| **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 109,69 | **0,0** | -1,0 | +9,8 | +5,5 | -1,6 | -2,4 | -2,5 | -16 |
+| **RARA11** Investo Terras Raras e Metais Estrategicos | 15,88 | **+0,1** | -1,9 | -9,7 | - | - | - | - | - |
+| **DIRR3** Direcional Engenharia ON | 10,05 | **-0,3** | -4,0 | -4,4 | -26 | -25 | -28 | -29 | +266 |
+| **MRVE3** MRV ON | 5,23 | **-8,4** | -8,9 | +7,2 | +6,3 | -27 | -32 | -33 | -60 |
 
 ---
 
 ### Macro · variação em %
 
-| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| **USDBRL** Dolar/Real | 5,1241 | **-0,5** | +0,4 | -1,7 | -1,8 | -3,5 | -6,4 |
-| **DXY** Indice Dolar DXY | 100,22 | **0,0** | +1,1 | +1,4 | +0,6 | +2,9 | +2,0 |
-| **BRENT** Petroleo Brent | 99,29 | **-5,3** | -5,1 | +8,4 | -11 | +47 | +63 |
-| **BTC** Bitcoin | 80.901 | **+5,9** | +4,8 | +17 | +15 | -31 | -7,6 |
-| **ETH** Ethereum | 2.611 | **+6,7** | +3,8 | +16 | +22 | -43 | -12 |
-| **MINERIO** Minerio de ferro 62% Fe CFR China | 97,57 | **+0,2** | -0,5 | +2,5 | -7,9 | -7,3 | -8,9 |
+| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **USDBRL** Dolar/Real | 5,1241 | **-0,5** | +0,4 | -1,7 | -1,1 | -1,8 | -3,5 | -6,4 | -3,1 |
+| **DXY** Indice Dolar DXY | 100,22 | **0,0** | +1,1 | +1,4 | -0,6 | +0,6 | +2,9 | +2,0 | +7,5 |
+| **BRENT** Petroleo Brent | 99,29 | **-5,3** | -5,1 | +8,4 | +24 | -11 | +47 | +63 | +32 |
+| **BTC** Bitcoin | 80.901 | **+5,9** | +4,8 | +17 | +27 | +15 | -31 | -7,6 | +72 |
+| **ETH** Ethereum | 2.611 | **+6,7** | +3,8 | +16 | +53 | +22 | -43 | -12 | -21 |
+| **MINERIO** Minerio de ferro 62% Fe CFR China | 97,57 | **+0,2** | -0,5 | +2,5 | -3,5 | -7,9 | -7,3 | -8,9 | -21 |
 
 ---
 
@@ -233,8 +233,10 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ---
 
-### Notícias e fatos · 9
+### Notícias e fatos · 10
 
+- **PETR4** Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação (Estadao · 20/09) [abrir a fonte](https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **PETR4** Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário (Money Times · 20/09) [abrir a fonte](https://www.moneytimes.com.br/dividendos-da-semana-18-9-26-apsa/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **PETR4** Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação (Estadao · 20/09) [abrir a fonte](https://www.estadao.com.br/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/)
@@ -273,7 +275,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 11h52 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 15h01 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

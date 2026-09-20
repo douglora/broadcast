@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 11h52 de 20/09 BRT
-Relógios: Yahoo 11h52 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 15h01 de 20/09 BRT
+Relógios: Yahoo 15h01 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (43 · 3 críticos)
+ALERTAS DO DIA (44 · 3 críticos)
 [CRÍTICO] T08 WQTM entrou em bear técnico: -22% do
           pico de 52s (US$ 47,10 em 02/06) a US$
           36,82
@@ -12,6 +12,9 @@ ALERTAS DO DIA (43 · 3 críticos)
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
 [CRÍTICO] F03 Brent cai a US$ 99,29 (-5,3% no dia)
+[ATENÇÃO] E05 PETR4 · Dividendos da semana:
+          Petrobras paga R$ 4,5 bilhões e CPFL
+          lidera valor por ação
 [ATENÇÃO] E05 PETR4 · Petrobras (PETR4) e mais uma
           empresa pagam dividendos nesta semana;
           veja o calendário
@@ -22,19 +25,17 @@ ALERTAS DO DIA (43 · 3 críticos)
           Building Around Tariff Shifts
 [ATENÇÃO] T08 IGV entrou em correção: -11% do pico
           de 52s (US$ 117,79 em 22/09) a US$ 104,35
-[ATENÇÃO] T03 WUTI (State Street SPDR MSCI World
-          Utilities UCITS ETF (USD)) formou death
-          cross: MM50 US$ 69,95 cruzou abaixo da
-          MM200 US$ 70,15 pela 2ª sessão; preço US$
-          66,80, -4,8% da MM200, +7,4% em 12m
-(+35 em alertas.md)
+(+36 em alertas.md)
 
 ALTAS  COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA
        +4,3% · GFS +4,3%
 BAIXAS MRVE3 -8,4% · BRENT -5,3% · AXIA3 -2,6% ·
        META -2,4% · MELI34 -2,4%
 
-NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
+NOTÍCIAS E FATOS (10 com materialidade ·
+  noticias.md)
+· PETR4 Dividendos da semana: Petrobras paga R$ 4,5
+  bilhões e CPFL lidera valor por ação (Estadao)
 · PETR4 Petrobras (PETR4) e mais uma empresa pagam
   dividendos nesta semana; veja o calendário (Money
   Times)
@@ -46,9 +47,7 @@ NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
   BÁSICO (CVM)
 · NVDA Nvidia-Backed Data Center Firm Nscale Files
   Publicly for US IPO (Yahoo Finance)
-· BBDC4 Até onde a Selic pode cair em 2026? Bradesco
-  revisa projeção e aponta condição-chave (Estadao)
-  (+3)
+  (+4)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,62 (+1·-0) F29 13,83

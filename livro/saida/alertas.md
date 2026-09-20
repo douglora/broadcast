@@ -1,14 +1,30 @@
 ALERTAS · Fechamento 18h40
 
-Nenhum alerta novo neste slot.
+[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+Estadao · 20/09 07h03 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 20/09 07h03
+Push: [ATENÇÃO] PETR4 · Dividendos da semana · detalhe na sessão
+ids: E05-PETR4-a0dbc663de-2026-09-20
+
 Info (só linha no Fechamento):
-· E05 DI · Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores
+· E05 NOK · Nokia: Back To The Buy Zone (Rating Upgrade) (NYSE:NOK)
+· E05 ITUB4 · Vale (VALE3) no olho do furacão? CEO da mineradora abre o jogo; Citi e Itaú BBA dizem o que você deve fazer com a ação
+· E05 BABA · Bronstein, Gewirtz & Grossman LLC Urges Alibaba Group
+· E05 DI · Ata do Copom e diplomacia entre EUA e China comandam as atenções do mercado na semana — mas não é só isso
+· E05 BTC · Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’
+· E05 NVDA · Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate
+· E05 GOOGL · Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google illegally agreed to coordinate AI slowdown
 
 
 Alertas do dia (todos, com status):
 · linha     T08 WQTM — WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,8
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
 · entregue  F03 BRENT — Brent cai a US$ 99,29 (-5,3% no dia)
+· pendente  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
 · expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja
 · expirado  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
 · expirado  E05 TSM — TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
@@ -49,4 +65,4 @@ Alertas do dia (todos, com status):
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 80.901 (cruzou US$ 80.000)
-· (+658 notícias só manchete, em noticias.md)
+· (+665 notícias só manchete, em noticias.md)

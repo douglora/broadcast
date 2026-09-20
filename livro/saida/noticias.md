@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/09 11h52
+NOTÍCIAS E FATOS · 20/09 15h01
 
-Pernas: noticias ok 1 novas (14 consultas; descartadas: 343 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (14 consultas; descartadas: 349 veículo fora da lista, 33 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -64,7 +64,16 @@ Fonte: CVM IPE 2026-09-15
 id: E03-AXIA3-1568459-2026-09-15 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (68)
+## NOTÍCIAS COM MATERIALIDADE (69)
+
+[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+Estadao · 20/09 07h03 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 20/09 07h03
+id: E05-PETR4-a0dbc663de-2026-09-20 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário
 Money Times · 20/09 08h05 · fonte única · licença: integral
@@ -712,8 +721,15 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (591)
+## OUTRAS NOTÍCIAS (só manchete) (598)
 
+· NOK Nokia: Back To The Buy Zone (Rating Upgrade) (NYSE:NOK) (Seeking Alpha) https://seekingalpha.com/article/4948058-nokia-back-to-buy-zone-rating-upgrade
+· ITUB4 Vale (VALE3) no olho do furacão? CEO da mineradora abre o jogo; Citi e Itaú BBA dizem o que você deve fazer com a ação (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/vale-vale3-no-olho-do-furacao-ceo-da-mineradora-abre-o-jogo-citi-e-itau-bba-dizem-o-que-voce-deve-fazer-com-a-acao-ccgg/
+· BABA Bronstein, Gewirtz & Grossman LLC Urges Alibaba Group (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/20/3365088/9788/en/bronstein-gewirtz-grossman-llc-urges-alibaba-group-holding-limited-investors-to-act-class-action-filed-alleging-investor-harm.html
+· DI Ata do Copom e diplomacia entre EUA e China comandam as atenções do mercado na semana — mas não é só isso (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/ata-do-copom-e-diplomacia-entre-eua-e-china-comandam-as-atencoes-do-mercado-na-semana-mas-nao-e-so-isso-ccgg/
+· BTC Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’ (TradingView (Reuters)) https://es.tradingview.com/news/stocktwits:631d446ac094b:0-jordi-visser-s-20-year-bombshell-prediction-includes-religion-gold-and-now-bitcoin/
+· NVDA Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate (CNBC) https://www.cnbc.com/2026/09/20/nvidia-ceo-jensen-huang-emerges-as-trumps-top-ally-in-ai-debate.html
+· GOOGL Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google illegally agreed to coordinate AI slowdown (Fortune) https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/
 · DI Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores (Money Times) https://www.moneytimes.com.br/agenda-ata-do-copom-e-ipca-15-movimentam-os-mercados-nesta-semana-confira-os-indicadores-jcav/
 · MU Micron: Likely Dead Money From Here (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948120-micron-likely-dead-money-from-here
 · BTC Brian Armstrong Predicts $400,000 Bitcoin Price by 2030. The Forecast Requires 51% Growth Annually: Can It Hold? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/brian-armstrong-predicts-400-000-000214936.html
@@ -767,11 +783,4 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · BRENT Dow Jones fecha em queda em semana de alta nos juros; petróleo recua e dólar sobe (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-espaco-para-mais-ganhos-em-wall-street/
 · BTC Bitcoin’s Production Cost Is $78,000. What Happens When Miners Lose Money? (24/7 Wall St.) https://news.google.com/rss/articles/CBMixwFBVV95cUxQM1B1YVQ3RFhhVzVTbklIS1dFbDJsUWpDaHNjblh1a0JUWEk2RFc0cGtzTkEwY2lKOTRDRVg3Rm4wQXU1SjNsYXRwUzBsWFAycDhUNnYzejJGNTZZczB1aFVMMmhvUGNXT2h3bUNnU2pSR1J4UmQ4ZGo5TF9GQjNmWnNmOGsyTmswYS1sVW1EV1RrbG94V0MxSm10SFpIT0ItYmI4WEhUZ3gyUDN4RG1vYVdZQVVNcVBKUDZiaVZOaWQ2M1h2eTBZ?oc=5
 · EQTL3 Comissão aprova audiência proposta por Júlio Arcoverde para discutir serviços da Equatorial no Piauí (OitoMeia) https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQzZfR2hleFNucTBieldCV1VMajhqOHVUSW42bUs4NG5MSExWal9Yb0xWbEE4R3RUVTlubGNWaXh6MC01VElMaHR3T3BkU0lUUUtWd1VKV1hnSEVKNnpHd29rN3cyNWxaTzgtMEVTNjUtemh1cUVvT0VwUTFrblhEbFo3OERiblpVZXdOS0RaYUdHU2ZXR3g2OS1ReDdhV0dhcXdXNHVUM0E4V2VKMVJRR285NVM1WFZXZjhFSTFvX0kzbTBJeW55bFN2S09xcHRlVjVVNHZB?oc=5
-· USDBRL Dólar sobe a R$ 5,14 (Drops de Jogos) https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSlBhYVI1TlBDaV9PMnV6ZjVNTEc2YjBTQ1hEZTVHUVVQa014MEJBMl93X01yd1FVQXdBdklIdmRWSVJ3dlJoWUFqNkpZVXFUNldQMzJ3bXNjUGs3ZVEzNUFnVUc4d1lzYl9rTA?oc=5
-· VALE3 Ibovespa fecha em queda com pressão da Vale e cenário eleitoral; dólar sobe a R$ 5,14 (Bloomberg Linea) https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUFQREhtMVQ4STNxSlM0TjBySVB4N2Jxd1hDMDRYVDJ4dEI2Ry0tZUFtMW1iTUhrcm91NFlPRHlQWVlMRE5vNkhTbW41ZlRjX1ZMV0NTZ2EtU1liRXJrU1hyTFd5dS1PVy00Y1RxRkhwdmRTMVh1eDRBMkVkR2gyZ2IySmQtZkRmWVJIdTVGVlNST2NBaTl3QkllWWlaWTh0YlpxRDJrRExINk5iZ2ZyaS1NaDFvSVliakNScDF4WlFXWEpM0gHYAUFVX3lxTFB6QTh5WUNEbVlQQVJuMzJ3MTVwdFNPcS1uR0pTNlgxdnEwRmhGbVVMQ2RTUkxJYlZxb3p0YWViblh0VU5RaTVVZHZGTWE5UTJzLVF3enAzVUxiZS12ZzdDQVd1TkNUQ2FqaHFDelBtVnlQQm50RmtYeTc1cEFlMnhXYnZIUWNYcWE0U3dpblJteEIyRThld3FIcGlUcXNPRDhlcDZkaUNzVzlDZ1V3cFIyYXM2amhHbWpjbTU0Ym9KMEFDQ0tGRjdyU1RVZGFZNU1EMmUtcThvbQ?oc=5
-· JPM JPMorgan sends stark warning on $100 oil (Bradenton Herald) https://news.google.com/rss/articles/CBMibkFVX3lxTE4ybXFlMFR1ZVRIYUZPZHRweGVDNmlPVTFoSm9vUzdjQjg1cWVWNXdxV2JtUWlxZkl5TE9RZkU0UmpjamhnLV85am5NZ2JscGZWV0RaWXhEY1hQN284RXFDaUxqblR6czZ3ZGFfeVVn?oc=5
-· MMM 3M (MMM) Stock Fair Value Edges Higher After Q2 Drives Mixed Analyst Revisions (Yahoo Finance) https://news.google.com/rss/articles/CBMikgFBVV95cUxNREdFNmNmX25OdEt6bkxVWm1SS21PYW1PZXdITDBMNU40TkppdHJpalpaVlNGX1ZYbHNvMWdrNVBKak5ib2xfY0t0VUtRdlhfckVwQXRsNDRYQzJDTlFLUW9ubW4zNnpacnV5TmNzTFhOdDR5Y1pWNmRoajBPT3RyZW44RzQ0eEt3c2pmUW5MX0NtUQ?oc=5
-· BTC Bitcoin ETF Inflows Return as BlackRock IBIT Leads $159M Rebound (CryptoRank) https://news.google.com/rss/articles/CBMiowFBVV95cUxPeFpfc2pLVmx0WXlMVmd0NE1oMlhaVmJHVVg2X2VPcC0yWHFfMm9YY2RFNmF3WHVGcnRjVTZuVmxBdHFWR2NKNEJfdTBJdHVSN1hoVGhsU2VuT0RjUFdOUHE1MmU5dVZkeE1Ldk5XQjJjOFlvaU81NXBUOS1HRWlSVll2RHZVbURNMFBMdF9GaldKQ3BSb002eW05eUlfZTNMV2NZ?oc=5
-· BTC Weekly Wrap: Bitcoin Climbs Back Above $80,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTctd0dHaWRvVldNejZuV0d2Xy13Q3VRaTBOdjdzVldjYWxVOEFWZWJiakM2bWtJLU9NOVh6LWlYS0ZuV3dsMzFQOHFvXzBKaHlDSVhxb3lack9fcHUwQWwwUjhoSDVMLTZNbjZPbEMwMklzeU93T2xBWTltbmFOa3YzNXRZZlEzcXYyUzZSVVlrQnRGTHhuTUZ0Z0U?oc=5
-· DI Corte da Selic sinaliza trajetória de queda, mas crédito ainda segue restrito (O Norte) https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFRqcjJXNFZET08tcFdQdmUxOTZVQWFwa3BjdWtDcWFtSWNQZzRDTDBFTU1rU2VFUFlsME9DbTNuanVjWVJsVUhvdC1LUHhURVh0S2RqYVNKYnRhNllLTVMxRmF5a3ZJcDFIS3NyZDhObFU1cElUR2VTRHFnZjFzWWoxNzV4OVJLRmdMVk5UNmhvTnhCa0c0VHhDMldUZGp2MllmaVcxdDh5WUQwRmdqWGpoTUM?oc=5
-· (+531 manchetes; lista completa em eventos/noticias.json)
+· (+538 manchetes; lista completa em eventos/noticias.json)
