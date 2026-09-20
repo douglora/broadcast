@@ -173,7 +173,10 @@ td.dia .v{position:relative;}
 
 @media (max-width:620px){
   body{padding-inline:14px;padding-block:18px 36px;}
-  .op{display:none;}
+  /* nada de esconder coluna: o Douglas le no painel estreito e quer 6 m, 1 ano e
+     5 anos na tela. A tabela rola dentro do cartao; a pagina nao rola de lado. */
+  td.n,thead th{padding-left:8px;}
+  table{font-size:12.5px;}
   .nm{max-width:20ch;}
   .cartao{padding:15px 16px;}
   .leitura{padding:18px 17px;}
@@ -249,8 +252,9 @@ def _cartao_bloco(universo, bloco: dict, janelas: dict, series_info: dict) -> st
         f'<h2>{_e(bloco["titulo"])}{resumo}</h2>'
         f'<div class="rolagem"><table>'
         '<thead><tr><th scope="col">Ativo</th><th scope="col">últ</th><th scope="col">dia</th>'
-        '<th scope="col">1 sem</th><th scope="col">1 mês</th><th scope="col" class="op">6 m</th>'
-        '<th scope="col" class="op">1 ano</th><th scope="col">YTD</th></tr></thead>'
+        '<th scope="col">1 sem</th><th scope="col">1 mês</th><th scope="col">3 m</th>'
+        '<th scope="col">6 m</th><th scope="col">1 ano</th><th scope="col">YTD</th>'
+        '<th scope="col">5 anos</th></tr></thead>'
         f"<tbody>{linhas}</tbody></table></div></section>"
     )
 

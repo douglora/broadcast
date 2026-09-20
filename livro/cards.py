@@ -14,10 +14,10 @@ from datetime import date
 from livro import fmt
 
 MARCADOR_LEITURA = "[[LEITURA_DA_MESA]]"
-COLUNAS = ("dia", "1s", "1m", "6m", "1a", "ytd")
+COLUNAS = ("dia", "1s", "1m", "3m", "6m", "1a", "ytd", "5a")
 # a ultima coluna e o YTD (do ultimo fechamento de 31/12 ate hoje). Chamava-se
 # "ano" e o Douglas leu como se nao existisse: o rotulo tem de dizer o nome.
-TITULOS_COL = ("dia", "1 sem", "1 mês", "6 m", "1 ano", "YTD")
+TITULOS_COL = ("dia", "1 sem", "1 mês", "3 m", "6 m", "1 ano", "YTD", "5 anos")
 
 
 def _esc(texto) -> str:

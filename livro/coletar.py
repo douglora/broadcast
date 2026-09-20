@@ -15,7 +15,7 @@ import os
 import time
 from datetime import datetime, timezone
 
-from livro import cards, fmt, painel, politica, relogios, render
+from livro import cards, fmt, insumos, painel, politica, relogios, render
 from livro import indicadores as ind
 from livro import universo as uni
 from livro.estado import Repositorio
@@ -57,12 +57,13 @@ class Coleta:
         self.pernas: dict = {}
         self.falhas: dict = {}
         self.series: dict = {}
+        self.series_longo: dict = {}   # semanal de 6 anos, so para a janela de 5 anos
         self.series_info: dict = {}
         self.curvas: dict = {}
         self.macro: dict = {}
         self.eventos: dict = {}
         self.inicio = time.time()
-        for sub in ("series", "curvas", "macro", "estado", "saida", "sonda", "eventos", "noticias/corpo"):
+        for sub in ("series", "series_longo", "curvas", "macro", "estado", "saida", "sonda", "eventos", "noticias/corpo"):
             os.makedirs(os.path.join(saida, sub), exist_ok=True)
         gravar_json(os.path.join(saida, "universo.json"), self.u.para_json())
 
@@ -101,6 +102,35 @@ class Coleta:
         if falhas:
             self.falhas["yahoo"] = f"{len(falhas)} símbolos falharam ({', '.join(list(falhas.values())[:3])})"
         self._montar_dataframes(simbolos, falhas)
+        self.coletar_series_longas(simbolos)
+
+    def coletar_series_longas(self, simbolos: list[str]) -> None:
+        """Serie SEMANAL de 6 anos, so para a janela de 5 anos.
+
+        A serie diaria e de 2 anos de proposito (arquivo pequeno, commit leve). Para
+        5 anos basta o fechamento semanal: ~310 pontos por simbolo em vez de ~1.260.
+        Roda uma vez por dia, no fechamento e na manha; no intradia nao muda nada."""
+        if self.modo not in ("fechamento", "manha") or self.offline:
+            return
+        try:
+            novas, falhas = yahoo.coletar(simbolos, "6y", intervalo="1wk")
+        except Exception as e:
+            self.pernas["yahoo_longo"] = f"falha: {type(e).__name__}: {str(e)[:60]}"
+            return
+        ok = 0
+        for simbolo in simbolos:
+            d = novas.get(simbolo)
+            if not d or not d.get("barras"):
+                continue
+            gravar_json(os.path.join(self.saida, "series_longo", f"{uni.nome_seguro(simbolo)}.json"), d)
+            obj = self.u.por_yahoo(simbolo)
+            if obj is not None:
+                df = ind.para_df(d["barras"])
+                if len(df):
+                    self.series_longo[obj.id] = df
+                    ok += 1
+        self.pernas["yahoo_longo"] = f"ok {ok}/{len(simbolos)} (semanal 6 anos)" + (
+            f"; falhas: {len(falhas)}" if falhas else "")
 
     def _series_offline(self, simbolos: list[str]) -> None:
         import glob
@@ -432,6 +462,7 @@ class Coleta:
                 # ate=hoje: mercado continuo (cripto, futuros) nao entra com a barra do
                 # dia seguinte num fechamento do pregao anterior
                 janelas[a.id] = ind.janelas(self.series[a.id], ate=self.hoje)
+                janelas[a.id]["5a"] = ind.retorno_em(self.series_longo.get(a.id), 1826, ate=self.hoje)
         do_dia = repo.do_dia(self.hoje.isoformat(), relogios.brt(self.agora).date().isoformat())
         rot = SLOT_ROTULO.get(self.modo, self.modo)
         alertas_txt = render.alertas_md(resultado, do_dia, rot)
@@ -454,6 +485,12 @@ class Coleta:
                 f.write(txt + "\n")
             return out
         curvas_l, lacunas_c, ins = render.curvas_linhas(self.curvas, self.u, self.macro, ctx.regime, self.hoje)
+        # material de analise para a Leitura da Mesa: amplitude, extremos, pares
+        # descolados, drawdowns e vol abrindo. A sessao narra; quem calcula e o runner.
+        try:
+            ins["mesa"] = insumos.montar(self.u, self.series, janelas, self.hoje)
+        except Exception as e:
+            self.falhas["insumos_mesa"] = f"{type(e).__name__}: {str(e)[:80]}"
         b_txt, lacunas_b = render.bloco_b(self.u, janelas, self.series_info, "completo")
         b_cel, _ = render.bloco_b(self.u, janelas, self.series_info, "celular")
         lacunas = lacunas_c + lacunas_b + [f"{k}: {v}" for k, v in self.falhas.items() if not k.startswith("regra_")]

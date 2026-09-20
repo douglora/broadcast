@@ -109,12 +109,13 @@ def baixar_serie(cli: Cliente, simbolo: str, rng: str = "2y", crumb: str | None 
 
 
 def coletar(simbolos: list[str], rng: str = "2y", cli: Cliente | None = None,
-            dormir=None) -> tuple[dict, dict]:
+            dormir=None, intervalo: str = "1d") -> tuple[dict, dict]:
     """Baixa todas as series com rodadas de retry. Devolve ({simbolo: dados}, {simbolo: erro})."""
     cli = cli or Cliente()
     crumb = preparar_sessao(cli)
     kw = {"dormir": dormir} if dormir else {}
-    return com_rodadas(lambda s: baixar_serie(cli, s, rng, crumb), simbolos, espaco=0.4, **kw)
+    return com_rodadas(lambda s: baixar_serie(cli, s, rng, crumb, intervalo=intervalo),
+                       simbolos, espaco=0.4, **kw)
 
 
 MAX_BARRAS = 800   # ~3,2 anos: cobre 1a e YTD com folga e limita o tamanho do arquivo

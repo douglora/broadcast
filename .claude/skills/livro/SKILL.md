@@ -144,14 +144,33 @@ BLOCO B + legenda do `fechamento.md`; "curto"/"celular" usa
 `fechamento_celular.md`. Sexta: acrescente uma linha "SEMANA" com os 3 maiores e
 menores da semana (coluna 1 sem) e o que a curva fez na semana.
 
-**Leitura da Mesa** (nos cards e no painel: 3 a 5 paragrafos de texto corrido;
-no BLOCO A sob demanda: 4 a 6 bullets quebrados em <= 52 colunas): cada bullet liga um numero do dia a um mecanismo
-e ao que muda para o cliente. Fontes: `leitura_insumos` (DI deltas e inclinacao,
-Tesouro taxas e breakevens vs Focus, UST e 2s10s, regime), movers, alertas do
-dia, tabela. Ordem de prioridade: (1) curva (ABRIU/FECHOU, quem puxou, doméstico
-ou importado), (2) o maior alerta do dia, (3) cambio e o efeito nos UCITS em
-reais, (4) pares que descolaram (PETR4 x Brent, VALE3 x minério, bancos),
-(5) regime de risco, (6) o que a agenda de amanha pode mexer. Proibido:
+**Leitura da Mesa** (nos cards e no painel: 4 a 6 paragrafos de texto corrido;
+no BLOCO A sob demanda: 4 a 6 bullets quebrados em <= 52 colunas).
+
+O material vem de `leitura_insumos.mesa` no `fechamento.json`, calculado pelo
+runner - use esses numeros, nunca calcule:
+
+| chave | o que e | como entra na leitura |
+|---|---|---|
+| `amplitude` | quantos ativos do livro estao acima da MM200, e quem esta a menos de 2% de cruzar | separa "o indice subiu" de "o livro subiu"; nomear quem esta na beira antecipa o alerta T01 |
+| `extremos` | 3 melhores e 3 piores em 1m, 3m, YTD e 1 ano | da nome e numero a dispersao, em vez de adjetivo |
+| `blocos` | mediana de cada bloco em dia, 1m, 3m e YTD | compara grupo com grupo (semis contra software, bancos contra utilities) |
+| `drawdowns` | distancia do topo de 52 semanas, 5 piores, com pico e data | onde o estrago ja aconteceu; util para conversa sobre entrada |
+| `vol_abrindo` | vol de 20 dias contra a de 60, quando a razao passa de 1,4 | onde o mercado passou a pagar mais para carregar risco |
+| `pares_descolados` | z do spread de 20 sessoes dos pares do config | quem esta contando outra historia sobre o mesmo ciclo |
+
+Cada paragrafo liga um numero a um mecanismo e ao que muda para o cliente. Cite
+o ativo pelo ticker e o numero com a janela ("MU +256% no ano"). Prefira
+comparar (bloco contra bloco, ativo contra par, hoje contra a mediana) a
+descrever.
+
+Ordem de prioridade: (1) a dispersao do livro (amplitude, extremos, bloco contra
+bloco) - e o que o Douglas nao ve na tabela; (2) a curva (ABRIU/FECHOU, quem
+puxou, domestico ou importado); (3) o maior alerta do dia; (4) cambio e o efeito
+nos UCITS em reais; (5) pares descolados; (6) regime de risco e vol abrindo;
+(7) o que a agenda de amanha pode mexer. As outras fontes seguem valendo:
+`leitura_insumos` (DI, Tesouro e breakevens vs Focus, UST e 2s10s, regime),
+movers, alertas do dia e a tabela. Proibido:
 "compre", "venda", "aproveite", promessa de retorno, numero sem fonte. Permitido:
 "ficou atraente para quem busca prazo", "a assimetria esta em...".
 
