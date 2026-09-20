@@ -249,9 +249,12 @@ class T05Zscore(Regra):
             hoje = _datas(df)[-1]
             chave = f"T05:{a.id}"
             hist = estado.get(chave) or {}
-            recentes = [d for d in hist.get("datas", []) if ind.pd.Timestamp(d) >= df.index[-jan_rep]]
-            if len(recentes) >= rep:
-                estado.set(chave, {"datas": (recentes + [hoje])[-10:], "regime": True})
+            # datas DISTINTAS: o regime de vol e "3 dias diferentes em 10", nao "a
+            # regra rodou 3 vezes". Sem o set, reprocessar o mesmo pregao ligava o
+            # regime sozinho e calava o alerta.
+            recentes = sorted({d for d in hist.get("datas", []) if ind.pd.Timestamp(d) >= df.index[-jan_rep]})
+            if len(recentes) >= rep and hoje not in recentes:
+                estado.set(chave, {"datas": sorted(set(recentes + [hoje]))[-10:], "regime": True})
                 continue  # em regime de vol: vira linha, nao alerta
             sev = "critico" if (abs(z) >= z_cr + extra or abs(r) >= r_cr) else "atencao"
             vol = sig * math.sqrt(252)
@@ -268,7 +271,7 @@ class T05Zscore(Regra):
                               corpo=[_ctx_janelas(df)], por_que=por_que, como_falar=falar,
                               fonte=f"Yahoo Finance fech. {fmt.data_br(hoje)}",
                               dados={"retorno": ret, "z": z, "vol20": vol, "close": close}))
-            estado.set(chave, {"datas": (hist.get("datas", []) + [hoje])[-10:], "data": hoje})
+            estado.set(chave, {"datas": sorted(set(hist.get("datas", []) + [hoje]))[-10:], "data": hoje})
         return out
 
 

@@ -97,7 +97,7 @@ class Estado:
             return True
         ant = v.get("valor")
         if ant is None:
-            return True
+            return False  # marca antiga, sem valor: recalcula uma vez e passa a guardar
         return abs(float(ant) - float(valor)) <= tol * max(1.0, abs(float(valor)))
 
     def em_cooldown(self, chave: str, datas: list[str], sessoes: int) -> bool:
