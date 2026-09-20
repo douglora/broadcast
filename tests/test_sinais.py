@@ -133,3 +133,22 @@ def test_politica_reapresentado_nao_consome_teto(limiares):
     # com 4 mensagens de atencao ja emitidas hoje, um novo vira linha
     r2 = politica.aplicar([a("T01", "BBDC4", "atencao")], [], limiares, "fechamento", "Fechamento 18h40", {"critico": 0, "atencao": 4})
     assert not r2["mensagens"] and r2["suprimidos"][0]["motivo"] == "teto de atenção"
+
+
+def test_s01_nao_acusa_falha_em_ativo_que_nao_negocia_todo_dia(universo, limiares):
+    """ETF pouco liquido (RARA11) sem barra do dia e normal, nao e falha de coleta."""
+    from livro.sinais.sistema import S01FalhaDados
+    ctx = contexto(universo, limiares, {})
+    ctx.series_info = {
+        "RARA11": {"esperado_hoje": True, "fresco": False, "tolera_falta": True},
+        "ILIQ2": {"esperado_hoje": True, "fresco": False, "tolera_falta": True},
+        "ILIQ3": {"esperado_hoje": True, "fresco": False, "tolera_falta": True},
+    }
+    ctx.falhas = {}
+    assert S01FalhaDados().avaliar(ctx, Estado()) == []
+    ctx.series_info["VALE3"] = {"esperado_hoje": True, "fresco": False}
+    ctx.series_info["PETR4"] = {"esperado_hoje": True, "fresco": False}
+    ctx.series_info["ITUB4"] = {"ausente": True}
+    out = S01FalhaDados().avaliar(ctx, Estado())
+    assert len(out) == 1 and "3 séries sem cotação" in out[0].titulo
+    assert "RARA11" not in out[0].titulo

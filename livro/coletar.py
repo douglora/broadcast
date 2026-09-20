@@ -143,6 +143,9 @@ class Coleta:
                 "esperado_hoje": esperado == self.agora.astimezone(relogios.BRT).date(),
                 "fresco": ultima >= esperado, "reaproveitada": bool(d.get("reaproveitada")),
                 "falha": falhas.get(s), "barras": int(len(df)), "moeda": d.get("moeda"),
+                # ativo que nao negocia todo pregao (ETF pouco liquido): dia sem barra
+                # e normal e nao pode contar como falha de coleta
+                "tolera_falta": bool(getattr(obj, "param", lambda *a: False)("sem_pregao_diario", False)),
             }
 
     # ------------------------------------------------------------ curvas e macro

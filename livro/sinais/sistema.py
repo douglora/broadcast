@@ -14,7 +14,8 @@ class S01FalhaDados(Regra):
     def avaliar(self, ctx, estado):
         L = ctx.limiares.get("S01_FALHA_DADOS") or {}
         minimo = int(L.get("series_faltando_min", 3))
-        velhas = [i for i, info in ctx.series_info.items() if info.get("esperado_hoje") and not info.get("fresco", True)]
+        velhas = [i for i, info in ctx.series_info.items()
+                  if info.get("esperado_hoje") and not info.get("fresco", True) and not info.get("tolera_falta")]
         faltando = [i for i, info in ctx.series_info.items() if info.get("ausente")]
         pernas = {k: v for k, v in ctx.falhas.items() if k in ("di", "tesouro", "ust", "yahoo", "bcb")}
         problemas = []
