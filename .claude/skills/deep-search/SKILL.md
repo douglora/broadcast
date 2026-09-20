@@ -42,7 +42,7 @@ Escreva a pergunta fixada na primeira linha do rascunho. Ela e o criterio de
 ```bash
 python3 mesa.py skills     # as skills da mesa estao instaladas e validas?
 python3 mesa.py ficha TICKER
-python3 mesa.py frescor TICKER   # TRAVA DE FRESCOR: so se escreve com VEREDITO ATUAL
+python3 mesa.py frescor TICKER   # TRAVA DE FRESCOR: veredito antes de qualquer texto
 ```
 
 A resposta abre confirmando o que operou: quais skills e quais comandos. O
@@ -63,7 +63,8 @@ ATUAL.
 - `RELEASE VELHO` ou `COLETA VELHA`: dispare a coleta (abaixo; o coletor
   agora busca o release tambem no site de RI da companhia, `ri_fontes.py`,
   quando a CVM nao tem o trimestre do ITR), espere o run terminar e repita
-  `python3 mesa.py frescor TICKER`. So siga para o passo 2 com ATUAL.
+  `python3 mesa.py frescor TICKER`. Com ATUAL, siga ao passo 2; se continuar
+  RELEASE VELHO, siga ao passo 2 com as regras (a)-(e) abaixo.
 - Se depois da coleta continuar `RELEASE VELHO`:
   (a) a resposta ABRE com a lacuna em uma frase, com o trimestre do ITR e o
       do release lado a lado ("Numeros oficiais ate o 2T26; ultimo release
@@ -240,6 +241,10 @@ resposta desta skill e lida no celular:
 - Tabela com no maximo 4 colunas. Serie de 8 trimestres vai em duas colunas
   ou em prosa ("de 57,6% no 3T24 para 53,0% no 2T26, caindo em cinco dos oito").
 - Um numero por frase, com fonte e data. Negrito so no achado e no risco.
+- Data de release marcada `(estimada)` pelo `mesa.py` (campo `data_estimada`
+  no JSON; `release_data_estimada` no bloco frescor) e inferencia do coletor
+  (fim do trimestre + 40 dias), nao data de divulgacao: nunca entra na
+  resposta como data; cite so o trimestre ("release do 2T26").
 - Toda sigla explicada em portugues na primeira vez, em ate 12 palavras
   (`python3 mesa.py termos ROE NIM` imprime a linha pronta de GLOSSARIO.md).
 - Feche com **Termos desta nota** e **Quer aprofundar?** com 3 a 5 opcoes,
