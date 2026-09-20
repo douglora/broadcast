@@ -277,7 +277,8 @@ def pares(tk):
         o = ln.get("oficial") or {}
         # CVM ja vem em R$ milhoes; SEC vem em dolares inteiros
         escala = 1e6 if "SEC" in (o.get("fonte") or "") else 1.0
-        lucro = f"{fmt((o.get('lucro_ltm') or 0) / escala, 0)} {'US$' if escala > 1 else 'R$'}mi" if o.get("lucro_ltm") is not None else "-"
+        moeda = {"USD": "US$", "BRL": "R$", "R$ milhoes": "R$"}.get(o.get("unidade") or "", o.get("unidade") or "")
+        lucro = f"{fmt((o.get('lucro_ltm') or 0) / escala, 0)} {moeda}mi" if o.get("lucro_ltm") is not None else "-"
         base = [ln["ticker"], fmt(ln.get("pl_12m"), 1), fmt(ln.get("pl_projetado"), 1), fmt(ln.get("pvp"), 2),
                 fmt(ln.get("roe"), 1, pct=True), fmt(ln.get("dy_12m"), 1, pct=True), fmt(ln.get("retorno_12m"), 1, pct=True)]
         extra = ([lucro, fmt(o.get("roe_ltm"), 1, pct=True), fmt(o.get("cresc_receita_ltm"), 1, pct=True)] if fin

@@ -1475,7 +1475,7 @@ def _oficial(dados):
     elif sec.get("ltm"):
         st, ltm = sec["trimestral"], sec.get("ltm") or {}
         rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", None
-        out = {"fonte": "SEC XBRL (10-Q/10-K/20-F)", "unidade": "USD", "plano_de_contas": "geral",
+        out = {"fonte": "SEC XBRL (10-Q/10-K/20-F)", "unidade": _moeda_sec(sec), "plano_de_contas": "geral",
                "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
     elif (sec.get("anual") or {}).get("receita") or (sec.get("anual") or {}).get("lucro_liquido"):
         # Emissor estrangeiro (20-F): o XBRL so tem o ano fiscal. Vale o ultimo ano, dito com todas as letras.
@@ -1546,6 +1546,12 @@ def _oficial(dados):
     return out
 
 
+def _moeda_sec(sec):
+    """Moeda das demonstracoes no XBRL: XP, Stone e PagBank reportam a SEC em reais, nao em dolar."""
+    un = sec.get("unidades") or {}
+    return un.get("receita") or un.get("lucro_liquido") or un.get("patrimonio_liquido") or "USD"
+
+
 def _oficial_anual_sec(sec, dados):
     """Resumo oficial de quem reporta a SEC so anualmente (20-F): ultimo ano fiscal."""
     an = sec.get("anual") or {}
@@ -1553,7 +1559,7 @@ def _oficial_anual_sec(sec, dados):
     if not anos:
         return {}
     ano, ant = anos[-1], (anos[-2] if len(anos) > 1 else None)
-    out = {"fonte": "SEC XBRL anual (20-F): ultimo ano fiscal, nao 12 meses correntes", "unidade": "USD",
+    out = {"fonte": "SEC XBRL anual (20-F): ultimo ano fiscal, nao 12 meses correntes", "unidade": _moeda_sec(sec),
            "plano_de_contas": "geral", "periodicidade": "anual", "ltm_ate": ano,
            "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
     rec, ebit, luc = an.get("receita", {}).get(ano), an.get("ebit", {}).get(ano), an.get("lucro_liquido", {}).get(ano)
