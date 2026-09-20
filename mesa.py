@@ -14,6 +14,7 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py linha INBR32 "ROE|meta|guidance"  # a mesma busca nos 8 releases, em ordem: o que a gestao disse trimestre a trimestre
     python3 mesa.py decompor INBR32              # cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao
     python3 mesa.py pares INBR32                 # comparativo do grupo com medianas
+    python3 mesa.py balanco DIRR3                # alavancagem e caixa do grupo, pelo balanco oficial da CVM
     python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
@@ -439,7 +440,89 @@ def termos(chaves):
         print("\n".join(achou) if achou else f"- {chave}: nao esta no glossario; explique em uma frase e proponha incluir")
 
 
-COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "termos", "skills")
+def _linha_balanco(tk):
+    """Divida, caixa, patrimonio e geracao de caixa de um ticker, direto da demonstracao oficial."""
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        return None
+    fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
+    if not fonte:
+        return {"ticker": tk, "erro": "sem demonstracao oficial"}
+    def ult(chave):
+        s = tri.get(chave) or {}
+        qs = sorted([q for q in s if s[q] is not None], key=ordem_periodo)
+        return (s[qs[-1]], qs[-1]) if qs else (None, None)
+    def soma_ltm(chave):
+        s = tri.get(chave) or {}
+        qs = sorted([q for q in s if s[q] is not None], key=ordem_periodo)[-4:]
+        return sum(s[q] for q in qs) if len(qs) == 4 else None
+    cp, q = ult("emprestimos_curto_prazo" if "emprestimos_curto_prazo" in tri else "divida_curto_prazo")
+    lp, _ = ult("emprestimos_longo_prazo" if "emprestimos_longo_prazo" in tri else "divida_longo_prazo")
+    cx, _ = ult("caixa_equivalentes" if "caixa_equivalentes" in tri else "caixa")
+    ap, _ = ult("aplicacoes_financeiras")
+    pl, _ = ult("patrimonio_liquido_consolidado" if "patrimonio_liquido_consolidado" in tri else "patrimonio_liquido")
+    est, _ = ult("estoques")
+    at, _ = ult("ativo_total")
+    bruta = (cp or 0) + (lp or 0) if (cp is not None or lp is not None) else None
+    liquida = None if bruta is None else bruta - (cx or 0) - (ap or 0)
+    return {"ticker": tk, "periodo": q, "fonte": fonte, "unidade": unidade, "plano": plano, "gerado_em": (d.get("gerado_em") or "")[:10],
+            "divida_bruta": bruta, "caixa": (cx or 0) + (ap or 0), "divida_liquida": liquida,
+            "patrimonio": pl, "estoques": est, "ativo_total": at,
+            "dl_pl": None if not pl or liquida is None else liquida / pl,
+            "ebit_ltm": soma_ltm("ebit"), "lucro_ltm": soma_ltm("lucro_liquido_consolidado") or soma_ltm("lucro_liquido"),
+            "receita_ltm": soma_ltm("receita_liquida") or soma_ltm("receita"),
+            "caixa_op_ltm": soma_ltm("caixa_operacional"),
+            "roe": None if not pl else ((soma_ltm("lucro_liquido_consolidado") or soma_ltm("lucro_liquido") or 0) / pl) or None}
+
+
+def balanco(tk):
+    """Alavancagem do grupo inteiro pelo balanco oficial: o que o multiplo do agregador nao mostra."""
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        print(f"{tk}: nao esta no branch dados.")
+        return
+    grupo = (d.get("pares") or {})
+    tickers = grupo.get("tickers") or [tk]
+    print(f"== {grupo.get('nome') or tk}: alavancagem pelo balanco oficial (nao pelo agregador)")
+    print("   Divida liquida = emprestimos de curto + longo prazo, menos caixa e aplicacoes financeiras.")
+    print("   " + f"{'ticker':8}{'periodo':9}" + "".join(f"{h:>15}" for h in
+          ("div. bruta", "caixa", "div. liquida", "patrimonio", "DL/PL", "EBIT 12m", "caixa op 12m", "ROE 12m")))
+    linhas = []
+    for t in tickers:
+        ln = _linha_balanco(t)
+        if not ln:
+            print(f"   {t:8} nao esta no branch")
+            continue
+        if ln.get("erro"):
+            print(f"   {t:8} {ln['erro']}")
+            continue
+        linhas.append(ln)
+        if ln.get("plano") == "instituicao_financeira":
+            print(f"   {t:8} banco: capta por deposito, nao por emprestimo. Alavancagem aqui e ativo/patrimonio"
+                  f" ({fmt((ln['ativo_total'] or 0) / ln['patrimonio'], 1)}x) e capital principal, nao DL/PL.")
+            continue
+        print("   " + f"{t:8}{(ln['periodo'] or '-'):9}" +
+              "".join(f"{v:>15}" for v in (fmt(ln["divida_bruta"], 0), fmt(ln["caixa"], 0), fmt(ln["divida_liquida"], 0),
+                                           fmt(ln["patrimonio"], 0), fmt(ln["dl_pl"], 1, pct=True), fmt(ln["ebit_ltm"], 0),
+                                           fmt(ln["caixa_op_ltm"], 0), fmt(ln["roe"], 1, pct=True))))
+    linhas = [l for l in linhas if l.get("plano") != "instituicao_financeira"]
+    if linhas:
+        us = sorted({l["unidade"] for l in linhas})
+        print(f"   valores em {' e '.join(us)}; DL/PL negativo = caixa liquido (mais caixa que divida)")
+        if len(us) > 1:
+            print("   ATENCAO: moedas diferentes na tabela; so DL/PL e ROE se comparam direto")
+        dls = sorted([l for l in linhas if l["dl_pl"] is not None], key=lambda l: l["dl_pl"])
+        if dls:
+            print(f"   menos alavancada: {dls[0]['ticker']} ({fmt(dls[0]['dl_pl'], 1, pct=True)})"
+                  f" | mais alavancada: {dls[-1]['ticker']} ({fmt(dls[-1]['dl_pl'], 1, pct=True)})")
+        cxs = [l for l in linhas if l["caixa_op_ltm"] is not None]
+        if cxs:
+            queima = [l["ticker"] for l in cxs if l["caixa_op_ltm"] < 0]
+            print(f"   queima caixa nos 12 meses: {', '.join(queima) if queima else 'nenhuma'}")
+    print("   Divida de projeto (SFH) e divida corporativa somam aqui: o release separa as duas, o balanco nao.")
+
+
+COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "termos", "skills")
 
 
 def skills():
@@ -514,6 +597,8 @@ def main(argv):
         decompor(args[0].upper())
     elif cmd == "pares" and args:
         pares(args[0].upper())
+    elif cmd == "balanco" and args:
+        balanco(args[0].upper())
     elif cmd == "termos":
         termos(args)
     elif cmd == "skills":
