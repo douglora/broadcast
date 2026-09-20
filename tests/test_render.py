@@ -184,3 +184,47 @@ def test_do_dia_inclui_o_que_foi_descoberto_hoje_sobre_documento_antigo():
         r.fila["E03-PETR4-y-2026-09-18"] = {"data": "2026-09-18", "gerado_em": "2026-09-18T09:00:00Z", "severidade": "atencao"}
         at = [a["gerado_em"] for a in r.do_dia("2026-09-18", "2026-09-19") if a["severidade"] == "atencao"]
         assert at == sorted(at, reverse=True)
+
+
+def test_alerta_reavaliado_sai_com_o_numero_final():
+    """Yahoo reprecifica a serie no meio do dia: o texto na fila tem de acompanhar,
+    senao o alerta diz 98,77 e a tabela diz 99,29 no mesmo fechamento."""
+    import tempfile
+    from livro.estado import Repositorio
+    from livro.sinais.base import Alerta
+
+    def brent(preco, ret):
+        return Alerta("F03", "BRENT", "critico", "commodity",
+                      f"Brent cai a US$ {preco} ({ret}% no dia · cruzou US$ 100)",
+                      tag="queda", data="2026-09-18", corpo=[f"Em reais: R$ {preco}/barril"],
+                      por_que="queda do barril reduz receita", fonte="ICE via Yahoo 18/09",
+                      dados={"close": preco})
+
+    with tempfile.TemporaryDirectory() as d:
+        repo = Repositorio(d)
+        assert len(repo.registrar([brent("98,77", "-5,8")], "intradia")) == 1
+        repo.marcar_entregues([brent("98,77", "-5,8").id])
+        # mesma regra, mesmo id, numero final no fechamento
+        assert repo.registrar([brent("99,29", "-5,3")], "fechamento") == []
+        v = repo.fila[brent("99,29", "-5,3").id]
+        assert "99,29" in v["titulo"] and "-5,3" in v["titulo"]
+        assert "Em reais: R$ 99,29/barril" in v["corpo"]
+        assert v["dados"]["close"] == "99,29"
+        assert v["titulo_inicial"].startswith("Brent cai a US$ 98,77")   # trilha de auditoria
+        assert v["atualizado_em"]
+        # o que e estado de entrega nao pode ter sido mexido
+        assert v["status"] == "entregue" and v["entregue_em"] and v["slot"] == "intradia"
+        assert v["severidade"] == "critico"
+
+
+def test_alerta_sem_mudanca_nao_marca_atualizacao():
+    import tempfile
+    from livro.estado import Repositorio
+    from livro.sinais.base import Alerta
+    a = Alerta("T05", "MRVE3", "critico", "preco", "MRVE3 -8,4%", tag="queda", data="2026-09-18")
+    with tempfile.TemporaryDirectory() as d:
+        repo = Repositorio(d)
+        repo.registrar([a], "fechamento")
+        repo.registrar([a], "fechamento")
+        assert "atualizado_em" not in repo.fila[a.id]
+        assert "titulo_inicial" not in repo.fila[a.id]

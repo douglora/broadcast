@@ -167,3 +167,13 @@ def test_blocos_novos_em_ordem(universo):
         assert f"**{tk}**" in t, tk
     for tk in ("QNTM", "QANT", "WQTM", "WQTMUS", "QTUM", "REMX", "RARA11"):
         assert f"**{tk}**" in t, tk
+
+
+def test_card_avisa_que_o_numero_foi_revisto(universo):
+    do_dia = [{"regra": "F03", "ativo": "BRENT", "severidade": "critico", "familia": "commodity",
+               "canal": "mensagem", "titulo": "Brent cai a US$ 99,29 (-5,3% no dia)",
+               "titulo_inicial": "Brent cai a US$ 98,77 (-5,8% no dia)",
+               "por_que": "queda do barril reduz receita"}]
+    t = md(universo, do_dia=do_dia)
+    assert "Brent cai a US$ 99,29" in t
+    assert "Número revisto depois do disparo" in t and "98,77" in t
