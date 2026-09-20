@@ -147,6 +147,14 @@ def imprimir_serie(d, n=8):
         print("  contas usadas: " + "; ".join(f"{k}={v}" for k, v in descr.items() if k in dict(linhas))[:400])
 
 
+def data_release(r):
+    """Data do release como o coletor gravou; sufixo ' (estimada)' quando ele so inferiu
+    (fim do trimestre + 40 dias, campo data_estimada). Data estimada nunca entra na nota como data de divulgacao."""
+    r = r or {}
+    d = r.get("data")
+    return f"{d} (estimada)" if d and r.get("data_estimada") else d
+
+
 def ficha(tk):
     d = baixar(f"ativos/{tk}.json")
     if not d:
@@ -181,9 +189,9 @@ def ficha(tk):
     imprimir_serie(d, 8)
     print("\n-- releases guardados (releases/%s/)" % tk)
     for r in d.get("releases_historico") or []:
-        print(f"  {r.get('periodo') or '?':5} {r.get('data')}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:50]:52} {r.get('caracteres_total') or 0:>7} chars")
+        print(f"  {r.get('periodo') or '?':5} {data_release(r)}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:50]:52} {r.get('caracteres_total') or 0:>7} chars")
     rel = d.get("release_ri") or {}
-    print(f"  mais novo: {rel.get('periodo')} de {rel.get('data')} | {rel.get('fonte')}")
+    print(f"  mais novo: {rel.get('periodo')} de {data_release(rel)} | {rel.get('fonte')}")
     mac = d.get("macro") or {}
     print("\n-- macro (BCB): " + " | ".join(f"{k} {v.get('value')}{'' if v.get('unidade','').startswith('R$') else '%'} ({v.get('date')})"
                                           for k, v in mac.items() if isinstance(v, dict)))
@@ -225,7 +233,7 @@ def releases(tk):
         return
     print(f"{tk}: {len(idx.get('releases', []))} releases, atualizado em {idx.get('atualizado_em')}")
     for r in idx.get("releases", []):
-        print(f"  {r.get('periodo') or '?':5} {r.get('data')}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:60]:62} {r.get('caracteres_total') or 0:>7} chars  {r.get('arquivo')}")
+        print(f"  {r.get('periodo') or '?':5} {data_release(r)}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:60]:62} {r.get('caracteres_total') or 0:>7} chars  {r.get('arquivo')}")
 
 
 def release(tk, periodo, grep=None, contexto=260):
@@ -239,7 +247,7 @@ def release(tk, periodo, grep=None, contexto=260):
     texto = baixar(alvo["arquivo"], texto=True)
     if texto is None:
         return
-    print(f"== {tk} {alvo.get('periodo')} | {alvo.get('data')} | {alvo.get('assunto') or alvo.get('arquivo_sec')} | {alvo.get('link')}")
+    print(f"== {tk} {alvo.get('periodo')} | {data_release(alvo)} | {alvo.get('assunto') or alvo.get('arquivo_sec')} | {alvo.get('link')}")
     if not grep:
         print(texto)
         return
@@ -293,7 +301,7 @@ def linha(tk, padrao, max_por_release=4):
     achou_algum = False
     for r in rels:
         texto = baixar(r["arquivo"], texto=True)
-        cab = f"\n-- {r.get('periodo') or '?'} ({r.get('data')}) {str(r.get('assunto') or r.get('arquivo_sec') or '')[:58]}"
+        cab = f"\n-- {r.get('periodo') or '?'} ({data_release(r)}) {str(r.get('assunto') or r.get('arquivo_sec') or '')[:58]}"
         if texto is None:
             print(cab + "\n   (texto indisponivel)")
             continue
@@ -573,7 +581,7 @@ def frescor(tk):
     hist = d.get("releases_historico") or []
     primeiro = hist[0] if hist else {}
     rel_periodo = rel.get("periodo") or primeiro.get("periodo")
-    rel_data = rel.get("data") or primeiro.get("data")
+    rel_data = data_release(rel if rel.get("data") else primeiro)
     rel_fonte = rel.get("fonte") or primeiro.get("fonte")
     rel_ord = ordem_periodo(rel_periodo)
     defasagem = None
