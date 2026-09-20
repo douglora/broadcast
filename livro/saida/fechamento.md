@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 10h32 de 20/09 BRT
-Relógios: Yahoo 10h32 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 11h34 de 20/09 BRT
+Relógios: Yahoo 11h34 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
 ALERTAS DO DIA (43 · 3 críticos)
@@ -166,7 +166,7 @@ RARA11 TerrasR   15,88 +0,1 -1,9 -9,7    -    -    -
 DIRR3  Direc     10,05 -0,3 -4,0 -4,4  -25  -28  -29
 MRVE3  MRV        5,23 -8,4 -8,9 +7,2  -27  -32  -33
 Macro
-USDBRL USD/BRL  5,1421 -0,2 +0,8 -1,4 -1,5 -3,2 -6,1
+USDBRL USD/BRL  5,1241 -0,5 +0,4 -1,7 -1,8 -3,5 -6,4
 DXY    DXY      100,22  0,0 +1,1 +1,4 +0,6 +2,9 +2,0
 BRENT  Brent     99,29 -5,3 -5,1 +8,4  -11  +47  +63
 BTC    BTC      80.901 +5,9 +4,8  +17  +15  -31 -7,6

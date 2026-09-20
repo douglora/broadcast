@@ -1,6 +1,6 @@
 ALERTAS · Fechamento 18h40
 
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário
 Money Times · 20/09 08h05 · fonte única · licença: integral
 Do texto:
   – Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário Na semana de 21 a 25 de setembro, duas companhias da bolsa brasileira pagam dividendos e juros sobre capital próprio (JCP) aos seus a…
@@ -11,10 +11,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Money Times: Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário; confirmar o número no texto antes de repassar'
 Fonte: Money Times 20/09 08h05
-Push: Fechamento 18h40: 3 alertas de atenção — E05 PETR4, E05 PETR4, E05 TSM · detalhe na sessão
 ids: E05-PETR4-3b165219be-2026-09-20
 
-[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
 Estadao · 20/09 07h00 · fonte única · licença: manchete
 Link: https://www.estadao.com.br/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
@@ -23,7 +22,7 @@ Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhõ
 Fonte: Estadao 20/09 07h00
 ids: E05-PETR4-121ac17da6-2026-09-20
 
-[ATENÇÃO] E05 · TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
+(pendente de slot anterior) [ATENÇÃO] E05 · TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
 Yahoo Finance · 20/09 01h20 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – The three stocks highlighted below are just a small sample of the idea, and the wider screen surfaced 54 more multinational manufacturers with equally compelling risk and reward stories that are not covered here.
@@ -40,21 +39,8 @@ Fonte: Yahoo Finance 20/09 01h20
 ids: E05-TSM-7f4f288908-2026-09-20
 
 Info (só linha no Fechamento):
-· E05 ITUB4 · 6 ações para ficar de olho com a queda dos juros em 2027, segundo o Itaú BBA
-· E05 BTC · Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’
-· E05 CVX · Chevron plans drilling spree as it overhauls oil and gas search
-· E05 PETR4 · Petrobras (PETR4) recebe parcela de R$ 448 milhões referente à subvenção à gasolina e adere a programa do diesel
-· E05 KO · Coca-Cola’s $10B Buildout Fuels Industrial Demand
-· E05 DI · IPCA-15, ata do Copom e Lula na ONU movimentam a semana a 15 dias do 1º turno
-· E05 MCHI · Is CGN Mining (SEHK:1164) Expensive After Joining The Hang Seng China Affiliated Corporations Index?
-· E05 BTC · Peter Brandt Sees Possible 10X, 20X Altcoin Gains — So Why Is He Sticking With Bitcoin?
-· E05 DI · Agenda de mercados: ata do Copom e IPCA-15 são destaque na semana
-· E05 ETH · Ethereum Price Analysis: Can ETH Hit $3,000 as it Hovers Below Key Level
-· E05 DI · Calendário Econômico: ata do Copom e IPCA-15 dão novas pistas sobre os juros
-· E05 MU · Should You Buy Micron Stock Before Its Next Earnings Report?
-· E05 UST · The 10-Year Treasury Yield Just Topped 5% for the Second Time in Almost 20 Years. Is This Turning Point a Warning for Your Portfolio?
-· E05 BTC · Bitcoin: Boom or Bust
-· E05 BRENT · América Latina desponta como novo polo global de exportação de petróleo
+· E05 MU · Micron: Likely Dead Money From Here (NASDAQ:MU)
+· E05 BTC · Brian Armstrong Predicts $400,000 Bitcoin Price by 2030. The Forecast Requires 51% Growth Annually: Can It Hold?
 
 
 Alertas do dia (todos, com status):
@@ -101,4 +87,4 @@ Alertas do dia (todos, com status):
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
-· (+655 notícias só manchete, em noticias.md)
+· (+657 notícias só manchete, em noticias.md)

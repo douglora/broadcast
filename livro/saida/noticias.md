@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/09 10h32
+NOTÍCIAS E FATOS · 20/09 11h34
 
-Pernas: noticias ok 18 novas (14 consultas; descartadas: 347 veículo fora da lista, 33 sem ativo, 6 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (14 consultas; descartadas: 338 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -712,8 +712,10 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (588)
+## OUTRAS NOTÍCIAS (só manchete) (590)
 
+· MU Micron: Likely Dead Money From Here (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948120-micron-likely-dead-money-from-here
+· BTC Brian Armstrong Predicts $400,000 Bitcoin Price by 2030. The Forecast Requires 51% Growth Annually: Can It Hold? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/brian-armstrong-predicts-400-000-000214936.html
 · ITUB4 6 ações para ficar de olho com a queda dos juros em 2027, segundo o Itaú BBA (Money Times) https://www.moneytimes.com.br/6-acoes-para-ficar-de-olho-com-a-queda-dos-juros-em-2027-segundo-o-itau-bba-ceci/
 · BTC Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’ (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:631d446ac094b:0-jordi-visser-s-20-year-bombshell-prediction-includes-religion-gold-and-now-bitcoin/
 · CVX Chevron plans drilling spree as it overhauls oil and gas search (Financial Times) https://www.ft.com/content/bbf1d846-7d89-45f6-8c0f-1fba1e334b4b?syn-25a6b1a6=1
@@ -772,6 +774,4 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · BTC Weekly Wrap: Bitcoin Climbs Back Above $80,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTctd0dHaWRvVldNejZuV0d2Xy13Q3VRaTBOdjdzVldjYWxVOEFWZWJiakM2bWtJLU9NOVh6LWlYS0ZuV3dsMzFQOHFvXzBKaHlDSVhxb3lack9fcHUwQWwwUjhoSDVMLTZNbjZPbEMwMklzeU93T2xBWTltbmFOa3YzNXRZZlEzcXYyUzZSVVlrQnRGTHhuTUZ0Z0U?oc=5
 · DI Corte da Selic sinaliza trajetória de queda, mas crédito ainda segue restrito (O Norte) https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFRqcjJXNFZET08tcFdQdmUxOTZVQWFwa3BjdWtDcWFtSWNQZzRDTDBFTU1rU2VFUFlsME9DbTNuanVjWVJsVUhvdC1LUHhURVh0S2RqYVNKYnRhNllLTVMxRmF5a3ZJcDFIS3NyZDhObFU1cElUR2VTRHFnZjFzWWoxNzV4OVJLRmdMVk5UNmhvTnhCa0c0VHhDMldUZGp2MllmaVcxdDh5WUQwRmdqWGpoTUM?oc=5
 · MU Micron Turned $10,000 Into About $130,000 in 5 Years. Most of It Came in the Past 12 Months. (The Motley Fool) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc09ObHhyaU1zTFNMNllIWTB2Ul9wcDBqdGg2XzFnanVVYUhIaGs4TXVLdUJvb1FGMk9MZWVEUXc2c0NTNnhqX0JheEg2Rm1VcjgtMlVmclIwVTJ5c2lRZTlhcXcxQWl5OEdkTlZnZTlub1pBMk8zNUhRaWZFNENzTnpkZkdZQUdoek9zV00zYXZYYzl1Z0hTM2xSVEJWQUZjTFc4X2lRcXBaaGppd2QwOGtRenVFV2l6aHRJOEhFbTd4THROc1ZLNDZqWDBaV3IybDdn?oc=5
-· USDBRL Dólar fecha em alta de 0,11% e Ibovespa cai 0,41% (Poder360) https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXA5enh4d3JZSU5rU0JHa0EwSDFhZGRBOXlMd3QtWkJQSm5mdm04WDNOcy0tbG10Q2F5NGVRVEFTYTYyc2RFX1VaSWVCbGxUdkRaYnNMd3F5UlUwOWVZaFlRRmVxcC1iOHhhczJ4Y05abXNVSDJfRWEtdWE0RjVkdTgxQXhUNDZZazNsZWpkLVFuTjg?oc=5
-· SBSP3 Mês do Cliente: Sabesp segue com agenda de atendimento itinerante e realiza mais uma etapa na capital e Região Metropolitana (Jornal Digital da Região Oeste) https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUWp6UDVqVEpGMjA5VWpUMThkQURCbmdtbHJIc2lGSmk1VjY4VzljY0xLX3V2ZkFYakFuR09kS0QtTzZIRWxmVFR0ckFUZVNsN1BsQjZxMkNLYWpJYkU1WUhoYk1zYXVibkpENGp4REJGZ25wZ2dzS1I1QUE0d0c2Ykk2bVVlaTNGdkVOYld0YlotOXRYeElWMVJob0tOY3pydDhnOHd0NE1HMVBteFlGUC1RcnJXRkIxREJpZzBDZHJXQlNidXlta1NQSXV4Y1gwV0xCUzg5ekdsa044TzJ4TFU0WmZSTEJucUtJUDJMWlp6OFFDREU5Uk5n?oc=5
-· (+528 manchetes; lista completa em eventos/noticias.json)
+· (+530 manchetes; lista completa em eventos/noticias.json)

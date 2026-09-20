@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 10h32 de 20/09 BRT
+## Fechamento do livro · sex 18/09 · 11h34 de 20/09 BRT
 
 ---
 
@@ -173,7 +173,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| **USDBRL** Dolar/Real | 5,1421 | **-0,2** | +0,8 | -1,4 | -1,5 | -3,2 | -6,1 |
+| **USDBRL** Dolar/Real | 5,1241 | **-0,5** | +0,4 | -1,7 | -1,8 | -3,5 | -6,4 |
 | **DXY** Indice Dolar DXY | 100,22 | **0,0** | +1,1 | +1,4 | +0,6 | +2,9 | +2,0 |
 | **BRENT** Petroleo Brent | 99,29 | **-5,3** | -5,1 | +8,4 | -11 | +47 | +63 |
 | **BTC** Bitcoin | 80.901 | **+5,9** | +4,8 | +17 | +15 | -31 | -7,6 |
@@ -272,7 +272,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 10h32 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 11h34 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
