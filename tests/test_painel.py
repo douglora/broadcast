@@ -62,6 +62,11 @@ def test_marcador_da_leitura_sobrevive_e_nao_vira_tag(universo):
     assert "<" not in painel.MARCADOR_LEITURA  # senao o navegador come o marcador
 
 
+def test_bloco_traz_a_mediana_do_dia(universo):
+    h = pagina(universo)
+    assert "mediana do dia" in h and "ativos ·" in h
+
+
 def test_estrutura_minima(universo):
     h = pagina(universo)
     assert h.startswith("<title>")
@@ -116,5 +121,5 @@ def test_escapa_conteudo_de_terceiros(universo):
 def test_celular_nao_rola_de_lado(universo):
     h = pagina(universo)
     assert "overflow-x:auto" in h              # tabela larga rola dentro do cartao
-    assert "@media (max-width:560px)" in h
+    assert "@media (max-width:620px)" in h    # painel estreito ao lado do chat
     assert not re.search(r"min-width:\s*(\d{3,})px", h.replace("minmax(330px", ""))
