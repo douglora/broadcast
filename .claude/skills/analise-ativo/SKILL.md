@@ -51,7 +51,9 @@ grava no branch `dados`. Para cada ativo ele puxa, nesta ordem de autoridade:
 2. Releases de resultado do RI, os 8 ultimos trimestres: a copia oficial do
    mesmo PDF que a empresa publica no site de RI, entregue a CVM (IPE,
    "Press-release" ou "Relatorio de Analise Gerencial") ou a SEC (8-K item
-   2.02 / 6-K, exhibit 99). O mais novo vem inteiro no JSON do ativo
+   2.02 / 6-K, exhibit 99); quando a CVM nao tem o trimestre do ITR (indice
+   IPE do ano fora do ar), o coletor baixa o PDF direto da central de
+   resultados do RI (`ri_fontes.py`). O mais novo vem inteiro no JSON do ativo
    (`release_ri`); os 8 ficam em `releases/<TICKER>/` no branch, indexados em
    `releases_historico`. E onde estao GMV, NIMAL, same-store sales, guidance,
    divida por moeda e custo, vencimentos, numero de clientes: nada disso
@@ -70,6 +72,7 @@ analise: e mais rapido, nao erra chave de JSON e ja cuida do cache do CDN.
 
 ```bash
 python3 mesa.py ficha INBR32      # cabecalho, multiplos, series oficiais, releases, macro, fontes com problema
+python3 mesa.py frescor INBR32    # TRAVA: idade da coleta e defasagem ITR x release; VEREDITO ATUAL ou velho
 python3 mesa.py pares INBR32      # comparativo do grupo, com medianas e a origem de cada linha
 python3 mesa.py releases INBR32   # os 8 releases guardados, com trimestre, data e tamanho
 python3 mesa.py release INBR32 2T25 --grep "guidance|meta|ROE|margem"   # trechos de um release antigo
@@ -84,21 +87,38 @@ A ficha ja diz se ha demonstracao oficial, quantos releases existem e quais
 fontes falharam. Se a ficha imprimir "nao esta no branch", "demonstracao
 oficial: AUSENTE" ou menos de 4 releases, dispare a coleta (2b).
 
+Trava de frescor: `python3 mesa.py frescor TICKER` e o criterio, nao a
+intuicao. Ele compara o trimestre do ITR mais novo com o do release mais
+novo, mede a idade da coleta e fecha com VEREDITO `ATUAL` (saida 0) ou
+`RELEASE VELHO (N trimestres atras do ITR)` / `COLETA VELHA (Nh)` (saida 1).
+Release mais novo que o ITR e normal logo apos a divulgacao e conta como
+ATUAL.
+
 Esta pronto para usar quando TODAS as condicoes valem:
 
-- `gerado_em` tem menos de 6 horas em dia util (24 horas no fim de semana),
-  ou o Douglas nao pediu "atualizado" e o ultimo resultado da empresa e
-  anterior ao `gerado_em` (dado velho sem resultado novo ainda serve para
-  demonstracoes; preco e consenso ficam marcados com a data);
+- `python3 mesa.py frescor TICKER` imprime `VEREDITO: ATUAL` (release no
+  mesmo trimestre do ITR ou mais novo, e coleta com menos de 6 horas em dia
+  util, 24 horas no fim de semana);
 - ha bloco oficial (`cvm_demonstracoes.serie_trimestral` ou `sec_xbrl.ltm`,
   no BDR dentro de `subjacente_us`), `release_ri` com texto e
   `releases_historico` com pelo menos 4 trimestres;
 - o comparativo do grupo existe e as linhas dos pares nao sao mais velhas que
   7 dias.
 
-Se qualquer condicao falha (HTTP 404, JSON antigo do esquema sem
-`serie_trimestral`, sem release, sem comparativo), dispare a coleta (2b). Nao
-escreva a nota com dado incompleto sem dizer o que falta e por que.
+Se qualquer condicao falha (`RELEASE VELHO`, `COLETA VELHA`, HTTP 404, JSON
+antigo do esquema sem `serie_trimestral`, sem release, sem comparativo),
+dispare a coleta (2b), espere e repita o `frescor`. O coletor busca o release
+na CVM e, quando a CVM nao tem o trimestre do ITR, na central de resultados
+do site de RI da companhia (`ri_fontes.py`). Se depois da coleta o veredito
+continuar `RELEASE VELHO`: a nota ABRE com a lacuna em uma frase, com o
+trimestre do ITR e o do release lado a lado, antes do "Em uma frase"; todo
+numero de release leva o trimestre entre parenteses; a secao 4.6 declara que
+a fala da gestao esta N trimestres atras dos numeros; e a mesa procura o
+release que falta na web (WebSearch) para citar manchete, data e numeros
+divulgados, marcados "busca web, nao e fonte primaria". Nunca apresente KPI
+de release velho como se fosse do trimestre atual. Nao escreva a nota com
+dado incompleto sem dizer o que falta e por que. **Dado velho nao e motivo
+para nao responder; e motivo para dizer a idade do dado na primeira linha.**
 
 ### 2b. Dispare a coleta com pares
 
@@ -408,6 +428,12 @@ Se a nota nao responde uma delas com numero e fonte, nao esta pronta.
 - `release_ri` vazio (empresa sem press-release no IPE, ou SEC sem 8-K/6-K de
   resultado): use `cvm.documentos_resultado` para o link e diga que o texto
   nao foi lido; pedir ao Douglas o PDF resolve.
+- CVM sem o indice do ano (IPE 404, como em 20/09/2026): o coletor busca o
+  release na central de resultados do site de RI (`ri_fontes.py`: MZ, RiWeb
+  ou site proprio); se ainda faltar o trimestre do ITR, `mesa.py frescor`
+  segue em `RELEASE VELHO` e a mesa usa WebSearch para manchete e numeros
+  divulgados, marcados como busca web, com a lacuna na primeira frase da
+  nota.
 - `releases_historico` com menos de 8 trimestres: o coletor tem orcamento de
   tempo por ativo e completa o historico nas coletas seguintes. Diga quantos
   trimestres voce leu e rode a coleta de novo se o Douglas quiser a serie

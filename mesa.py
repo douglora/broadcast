@@ -15,6 +15,7 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py decompor INBR32              # cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao
     python3 mesa.py pares INBR32                 # comparativo do grupo com medianas
     python3 mesa.py balanco DIRR3                # alavancagem e caixa do grupo, pelo balanco oficial da CVM
+    python3 mesa.py frescor DIRR3                # idade da coleta e defasagem ITR x release; VEREDITO ATUAL (saida 0) ou velho (saida 1): a trava das skills
     python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
@@ -22,6 +23,7 @@ Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
 JSON aparecem como "-", nunca preenchidos.
 """
 
+import datetime
 import json
 import os
 import re
@@ -522,7 +524,96 @@ def balanco(tk):
     print("   Divida de projeto (SFH) e divida corporativa somam aqui: o release separa as duas, o balanco nao.")
 
 
-COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "termos", "skills")
+def _horas_desde(iso):
+    """Horas entre um carimbo ISO em UTC (como o coletor grava gerado_em) e agora; None se ilegivel."""
+    if not iso:
+        return None
+    try:
+        t = datetime.datetime.strptime(str(iso)[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=datetime.timezone.utc)
+    except ValueError:
+        return None
+    return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() / 3600
+
+
+def _rotulo_curto(par):
+    """(2026, 2) -> '2T26', o formato dos releases."""
+    ano, t = par
+    return f"{t}T{str(ano)[-2:]}" if ano else "?"
+
+
+def _itr_mais_novo(tri):
+    """Trimestre mais recente com receita na serie oficial (CVM ou SEC): (rotulo original, (ano, tri))."""
+    for chave in ("receita_liquida", "receita"):
+        s = tri.get(chave) or {}
+        qs = sorted([q for q in s if s[q] is not None], key=ordem_periodo)
+        if qs:
+            return qs[-1], ordem_periodo(qs[-1])
+    return None, (0, 0)
+
+
+def frescor(tk):
+    """Idade da coleta e defasagem entre ITR e release em um VEREDITO. E a trava das skills antes de escrever.
+
+    Saida 0 = ATUAL (release no trimestre do ITR ou mais novo, e coleta dentro do teto de horas).
+    Saida 1 = RELEASE VELHO, COLETA VELHA ou SEM DADO: a skill dispara a coleta e repete o comando.
+    """
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto).")
+        print("VEREDITO: SEM DADO (ativo fora do branch)")
+        return 1
+    gerado = d.get("gerado_em")
+    idade = _horas_desde(gerado)
+    agora_brt = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=3)
+    dia_util = agora_brt.weekday() < 5
+    teto = 6 if dia_util else 24
+    fonte, _, tri, _, _, _, _ = serie_oficial(d)
+    itr_rotulo, itr = _itr_mais_novo(tri)
+    rel = d.get("release_ri") or {}
+    hist = d.get("releases_historico") or []
+    primeiro = hist[0] if hist else {}
+    rel_periodo = rel.get("periodo") or primeiro.get("periodo")
+    rel_data = rel.get("data") or primeiro.get("data")
+    rel_fonte = rel.get("fonte") or primeiro.get("fonte")
+    rel_ord = ordem_periodo(rel_periodo)
+    defasagem = None
+    if itr != (0, 0) and rel_ord != (0, 0):
+        defasagem = (itr[0] * 4 + itr[1]) - (rel_ord[0] * 4 + rel_ord[1])
+    print(f"== {tk}: frescor do dado no branch dados")
+    print(f"  coletado em {gerado or '-'} | idade {fmt(idade, 1) if idade is not None else '-'} h"
+          f" | teto {teto} h ({'dia util' if dia_util else 'fim de semana'}, horario de Brasilia)")
+    if itr_rotulo:
+        print(f"  ITR mais novo: {itr_rotulo} ({_rotulo_curto(itr)}) | {fonte}")
+    else:
+        print("  ITR mais novo: AUSENTE | sem demonstracao oficial no JSON")
+    print(f"  release mais novo: {rel_periodo or 'AUSENTE'} | {rel_data or '-'} | {rel_fonte or '-'}")
+    if defasagem is None:
+        print("  defasagem: nao da para medir (falta ITR ou release)")
+    elif defasagem == 0:
+        print("  defasagem: 0 trimestre | release e ITR no mesmo trimestre")
+    elif defasagem > 0:
+        print(f"  defasagem: {defasagem} trimestre(s) | release ATRAS do ITR: a fala da gestao e mais velha que os numeros")
+    else:
+        print(f"  defasagem: {defasagem} trimestre(s) | release a frente do ITR (normal logo apos a divulgacao)")
+    bloco = d.get("frescor")
+    if isinstance(bloco, dict) and bloco:
+        print("  bloco frescor do coletor: " + " | ".join(f"{k} {json.dumps(v, ensure_ascii=False)}" for k, v in bloco.items()))
+    else:
+        print("  bloco frescor do coletor: ausente (JSON gravado antes de o coletor medir frescor)")
+    motivos = []
+    if defasagem is None:
+        motivos.append("SEM DADO (falta ITR ou release)")
+    elif defasagem > 0:
+        motivos.append(f"RELEASE VELHO ({defasagem} trimestre{'s' if defasagem > 1 else ''} atras do ITR)")
+    if idade is None:
+        motivos.append("COLETA VELHA (gerado_em ilegivel)")
+    elif idade > teto:
+        motivos.append(f"COLETA VELHA ({idade:.0f}h)")
+    print("VEREDITO: " + (" | ".join(motivos) if motivos else "ATUAL"))
+    return 1 if motivos else 0
+
+
+COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor", "termos", "skills")
 
 
 def skills():
@@ -599,6 +690,8 @@ def main(argv):
         pares(args[0].upper())
     elif cmd == "balanco" and args:
         balanco(args[0].upper())
+    elif cmd == "frescor" and args:
+        return frescor(args[0].upper())
     elif cmd == "termos":
         termos(args)
     elif cmd == "skills":
