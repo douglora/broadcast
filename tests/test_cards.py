@@ -142,9 +142,20 @@ def test_sem_proxy_em_dolar_o_card_nao_aparece(universo):
     assert "Commodities em dólar" not in md(universo)
 
 
+def test_ucits_de_outro_bloco_tambem_saem_por_extenso(universo):
+    t = md(universo)
+    for tk in ("QNTM", "QANT", "WQTM"):
+        a = universo.por_id(tk)
+        assert a.nome in t, tk                 # nome completo na legenda do card tematico
+        assert "UCITS" not in cards.nome_curto(a)
+    # o fundo americano homonimo nao pode virar UCITS na legenda
+    assert "UCITS" not in universo.por_id("WQTMUS").nome
+
+
 def test_blocos_novos_em_ordem(universo):
     t = md(universo)
-    ordem = ["UCITS (USD)", "ETFs EUA (USD)", "EUA · Semicondutores e óptica",
+    ordem = ["UCITS (USD)", "ETFs EUA (USD)",
+             "Temáticos: quântica e metais (USD)", "EUA · Semicondutores e óptica",
              "EUA · Tecnologia e plataformas", "EUA · Bancos",
              "EUA · Consumo, energia e indústria", "BR (R$)", "Macro"]
     pos = [t.index(f"### {x} · variação em %") for x in ordem]
@@ -152,4 +163,6 @@ def test_blocos_novos_em_ordem(universo):
     for tk in ("SMH", "SOXX", "QQQ", "SPY", "XLK", "VGT", "IGV", "BOTZ"):
         assert f"**{tk}**" in t, tk
     for tk in ("META", "INTC", "AMD", "PLTR", "MRVL", "AVGO", "LITE", "COHR", "GFS", "TSLA"):
+        assert f"**{tk}**" in t, tk
+    for tk in ("QNTM", "QANT", "WQTM", "WQTMUS", "QTUM", "REMX", "RARA11"):
         assert f"**{tk}**" in t, tk

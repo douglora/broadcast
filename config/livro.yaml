@@ -16,6 +16,7 @@ atualizado_em: "2026-09-18"
 blocos:
   - {id: ucits, titulo: "UCITS (USD)", moeda: USD}
   - {id: etf_eua, titulo: "ETFs EUA (USD)", moeda: USD}
+  - {id: tematico, titulo: "Temáticos: quântica e metais (USD)", moeda: USD}
   - {id: eua_semis, titulo: "EUA · Semicondutores e óptica", moeda: USD}
   - {id: eua_tech, titulo: "EUA · Tecnologia e plataformas", moeda: USD}
   - {id: eua_banco, titulo: "EUA · Bancos", moeda: USD}
@@ -136,6 +137,16 @@ ativos:
   - {id: IGV, nome: "iShares Expanded Tech-Software Sector ETF", apelido: Software, bloco: etf_eua, classe: etf, yahoo: IGV, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.01, o_que_negocia: "Software americano; contra o XLK separa software de semis. TER 0,41%."}
   - {id: BOTZ, nome: "Global X Robotics & Artificial Intelligence ETF", apelido: Robotica, bloco: etf_eua, classe: etf, yahoo: BOTZ, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40], o_que_negocia: "Robotica e IA global; par americano do RBOT (UCITS). TER 0,68%."}
 
+  # ---------------- Tematicos: computacao quantica e metais estrategicos ----------------
+  # Pedido do Douglas em 20/09. Fundos novos (o mais antigo e de out/2025), entao
+  # 1 ano e no ano saem vazios por falta de historico, nao por falha de coleta.
+  - {id: QNTM, nome: "VanEck Quantum Computing UCITS ETF USD (Acc)", apelido: Quantum VE, bloco: tematico, classe: etf, yahoo: QNTM.L, moeda: USD, mercado: LSE, isin: IE0007Y8Y157, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Primeiro UCITS de computacao quantica da Europa. TER 0,55%.", nota: "Lancado em 2025: janelas longas so ficam completas ao longo de 2026."}
+  - {id: QANT, nome: "iShares Quantum Computing UCITS ETF USD (Acc)", apelido: Quantum iS, bloco: tematico, classe: etf, yahoo: QANT.L, moeda: USD, mercado: LSE, isin: IE000C6ITGC8, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Segue o STOXX Global Quantum Computing. TER 0,50%.", nota: "MESMO fundo que QOMP (linha de Xetra, QOMP.DE): monitorar os dois e monitorar duas vezes a mesma coisa. Lancado em 03/12/2025."}
+  - {id: WQTM, nome: "WisdomTree Quantum Computing UCITS ETF USD (Acc)", apelido: Quantum WT, bloco: tematico, classe: etf, yahoo: WQTM.L, moeda: USD, mercado: LSE, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Versao UCITS (irlandesa) da estrategia de quantica da WisdomTree.", nota: "MESMO ticker do fundo americano WQTM, mas NAO e o mesmo fundo: este e irlandes (UCITS), o outro e domiciliado nos EUA."}
+  - {id: WQTMUS, nome: "WisdomTree Quantum Computing Fund (EUA)", apelido: Quantum WT US, bloco: tematico, classe: etf, yahoo: WQTM, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "Versao americana da mesma estrategia; domiciliada nos EUA (estate tax acima de US$ 60 mil).", nota: "Lancado em 09/10/2025. Comparar com WQTM (UCITS) mede o custo do domicilio, nao da estrategia."}
+  - {id: QTUM, nome: "Defiance Quantum ETF", apelido: Quantum DF, bloco: tematico, classe: etf, yahoo: QTUM, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "O mais antigo dos ETFs de quantica listados nos EUA; historico maior que o dos UCITS."}
+  - {id: REMX, nome: "VanEck Rare Earth & Strategic Metals ETF", apelido: TerrasRaras, bloco: tematico, classe: etf, yahoo: REMX, moeda: USD, mercado: NYSE, benchmark: SPX, banda_mm: 0.015, piso_retorno: 0.03, degraus_drawdown: [-20, -30, -45], o_que_negocia: "30+ empresas de terras raras e metais estrategicos (China, Australia, EUA, Canada, Brasil).", nota: "E o fundo que o RARA11 da B3 replica: RARA11 = REMX x cambio."}
+
   # ---------------- Acoes EUA: semicondutores e optica ----------------
   # ordem: logica da cadeia (projeto -> fundicao -> memoria -> conectividade)
   - {id: NVDA, nome: "NVIDIA", apelido: Nvidia, bloco: eua_semis, classe: acao, yahoo: NVDA, moeda: USD, mercado: NYSE, benchmark: SOX, banda_mm: 0.01, degraus_drawdown: [-15, -25, -40]}
@@ -187,6 +198,7 @@ ativos:
   - {id: BBAS3, nome: "Banco do Brasil ON", apelido: BB, bloco: br, classe: acao, yahoo: BBAS3.SA, moeda: BRL, mercado: B3, benchmark: IBOV}
   - {id: SBSP3, nome: "Sabesp ON", apelido: Sabesp, bloco: br, classe: acao, yahoo: SBSP3.SA, moeda: BRL, mercado: B3, benchmark: IBOV}
   - {id: SMAL11, nome: "iShares BM&FBOVESPA Small Cap Fundo de Indice (SMAL11)", apelido: SmallC, bloco: br, classe: etf, yahoo: SMAL11.SA, moeda: BRL, mercado: B3, benchmark: IBOV, nota: "O livro diz 'SML11'; o ETF de small caps da B3 e SMAL11. Confirmar com o Douglas."}
+  - {id: RARA11, nome: "Investo Terras Raras e Metais Estrategicos (feeder do REMX)", apelido: TerrasRaras, bloco: br, classe: etf, yahoo: RARA11.SA, moeda: BRL, mercado: B3, benchmark: IBOV, banda_mm: 0.015, piso_retorno: 0.03, o_que_negocia: "Primeiro ETF de terras raras da B3 (Investo); replica o REMX, taxa 0,5% a.a.", nota: "Estreou em 26/06/2026: janelas de 6 meses, 1 ano e no ano ficam vazias ate completar historico. RARA11 = REMX x USD/BRL."}
   - {id: DIRR3, nome: "Direcional Engenharia ON", apelido: Direc, bloco: br, classe: acao, yahoo: DIRR3.SA, moeda: BRL, mercado: B3, benchmark: IBOV}
   - {id: MRVE3, nome: "MRV ON", apelido: MRV, bloco: br, classe: acao, yahoo: MRVE3.SA, moeda: BRL, mercado: B3, benchmark: IBOV}
 
@@ -240,6 +252,10 @@ pares:
   - {a: IGV, b: XLK, tipo: etf_etf}
   - {a: BOTZ, b: SOX, tipo: etf_indice}
   - {a: META, b: GOOGL, tipo: pares_setor}
+  - {a: RARA11, b: REMX, tipo: feeder_fundo}
+  - {a: RARA11, b: USDBRL, tipo: feeder_cambio}
+  - {a: WQTM, b: WQTMUS, tipo: ucits_vs_eua}
+  - {a: QNTM, b: QTUM, tipo: etf_etf}
 
 curvas:
   di:
