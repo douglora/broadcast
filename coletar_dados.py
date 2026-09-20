@@ -24,7 +24,10 @@ Fontes por ativo, em ordem de autoridade:
      de RI, lido na copia oficial entregue a CVM (IPE, "Press-release") ou a
      SEC (8-K item 2.02 / 6-K, exhibit 99). Texto integral no JSON, para os
      KPIs que nao estao nas demonstracoes (GMV, NIMAL, same-store sales,
-     guidance, divida por moeda).
+     guidance, divida por moeda). Quando a copia da CVM esta atras do ITR
+     mais novo (o IPE do ano corrente ja saiu do ar), a central de resultados
+     do site de RI (ri_fontes.py) completa os trimestres que faltam; o bloco
+     `frescor` do JSON mede essa defasagem.
   3. Yahoo Finance (cotacao, historico, consenso, noticias), Fundamentus
      (indicadores no padrao brasileiro), CVM IPE (fatos relevantes), Banco
      Central (Selic, IPCA, dolar) e o modelo de TIR real deste repositorio.
@@ -47,6 +50,7 @@ import tempfile
 import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
@@ -629,6 +633,34 @@ def ordem_periodo(periodo):
     return (2000 + int(m.group(2)), int(m.group(1))) if m else (0, 0)
 
 
+def _ano_trimestre(rotulo):
+    """'2T26', '2026T2' ou 'CY2026Q2' -> (ano, trimestre). None quando nao e um trimestre.
+
+    Os tres formatos convivem no branch: releases ('2T26'), series da CVM ('2026T2') e da SEC
+    ('CY2026Q2'). Comparar frescor exige le-los todos."""
+    p = str(rotulo or "").strip().upper()
+    m = re.fullmatch(r"([1-4])[TQ](\d{2}|\d{4})", p)
+    if m:
+        ano = int(m.group(2))
+        return (ano if ano > 99 else 2000 + ano, int(m.group(1)))
+    m = re.fullmatch(r"(?:CY)?(\d{4})[TQ]([1-4])", p)
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def defasagem_release(periodo_release, periodo_itr):
+    """Quantos trimestres o release mais novo esta ATRAS do ITR/XBRL mais novo.
+
+    defasagem_release('3T25', '2026T2') == 3; ('2T26', '2026T2') == 0; sem release == 99.
+    Sem ITR legivel nao ha como medir: devolve 0 (quem chama escolhe outra referencia)."""
+    rel = _ano_trimestre(periodo_release)
+    if rel is None:
+        return 99
+    itr = _ano_trimestre(periodo_itr)
+    if itr is None:
+        return 0
+    return max(0, (itr[0] * 4 + itr[1]) - (rel[0] * 4 + rel[1]))
+
+
 def _periodo_plausivel(periodo, data, dias=120):
     """O trimestre precisa ter fechado nos ultimos `dias` antes da entrega do documento.
 
@@ -866,6 +898,353 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
             baixados += 1
     return _resumo_releases(fontes, _lista_por_periodo(achados, max_releases), baixados, reusados, estourou,
                             f"sem release de resultados nos ultimos {examinados} 8-K/6-K")
+
+
+# ───────────────── Release de resultados direto no site de RI ─────────────────
+# O IPE da CVM e a copia oficial, mas o indice do ano corrente ja saiu do ar
+# (ipe_cia_aberta_2026 respondeu 404 em 20/09/2026) e o historico parou no 3T25
+# enquanto o ITR ja ia no 2T26. O site de RI da companhia e o caminho
+# complementar: quando o release mais novo esta atras do ITR mais novo, a central
+# de resultados (mapa em ri_fontes.py) e varrida atras dos trimestres que faltam.
+# Tudo aqui roda so no Actions; por isso cada passo deixa uma linha no log.
+RI_MIN_CARACTERES = 2000          # menos que isso nao e release: e pagina de erro ou capa
+RI_MAX_SEM_PERIODO = 4            # links de arquivo sem trimestre no rotulo: poucos, para nao gastar o orcamento
+_RE_RI_CANDIDATO = re.compile(r"RELEASE|RESULTADO|RESULTS|EARNINGS|DIVULGA|\bPRESS")
+_RE_RI_DESCARTE = re.compile(
+    r"APRESENTA|PRESENTATION|WEBCAST|VIDEO|TRANSCRI|TELECONF|\bCALL\b|AUDIO|PLANILHA|SPREADSHEET|"
+    r"\bXLS|\bZIP\b|INSTITUCIONAL|INSTITUTIONAL")
+_RE_RI_ARQUIVO = re.compile(r"(?i)api\.mziq\.com/mzfilemanager|filemanager-cdn\.mziq\.com|\.pdf(?:[?#]|$)")
+_RE_RI_EN = re.compile(r"\bEN\b|ENGLISH|INGL|EARNINGS|\bRESULTS\b")
+_RE_RI_PT = re.compile(r"RELEASE|DIVULGA|\bPT\b|PT BR|PORTUGU")
+_RE_RI_CORPO = re.compile(r"(?i)receita|revenue|ebitda|lucro|net income|destaques|highlights|margem|margin")
+# 'Q2 2026', 'Q2/26', '2T2026': formas que periodo_release nao le e aparecem em rotulo de site
+_RE_TRI_SITE = re.compile(r"\b[TQ]([1-4])\s*(?:FY)?\s*(?:20)?(\d{2})\b|\b([1-4])[TQ]20(\d{2})\b")
+_RE_ANCORA = re.compile(r"(?is)<a\b([^>]*)>(.*?)</a>")
+_RE_HREF = re.compile(r"""(?i)\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))""")
+_RE_TITLE = re.compile(r"""(?i)\btitle\s*=\s*(?:"([^"]*)"|'([^']*)')""")
+_RE_DATA_NUM = re.compile(r"\b(\d{1,2})[/.-](\d{1,2})[/.-](20\d{2})\b")
+_RE_DATA_ISO = re.compile(r"\b(20\d{2})-(\d{2})-(\d{2})\b")
+_RE_DATA_EXT = re.compile(r"(?i)\b(\d{1,2})\s+(?:de\s+)?([a-z]{3})[a-z]*\.?,?\s+(?:de\s+)?(20\d{2})\b")
+_RE_DATA_EN = re.compile(r"(?i)\b([a-z]{3})[a-z]*\.?\s+(\d{1,2}),?\s+(20\d{2})\b")
+_MESES = {"JAN": 1, "FEV": 2, "FEB": 2, "MAR": 3, "ABR": 4, "APR": 4, "MAI": 5, "MAY": 5, "JUN": 6,
+          "JUL": 7, "AGO": 8, "AUG": 8, "SET": 9, "SEP": 9, "OUT": 10, "OCT": 10, "NOV": 11, "DEZ": 12, "DEC": 12}
+
+
+def _mapa_ri():
+    """RI_FONTES de ri_fontes.py: {ticker: {'central': url, 'alternativas': [urls], 'plataforma': 'MZ'}}.
+
+    O valor tambem pode ser so a url da central. Arquivo ausente ou quebrado nao derruba a coleta:
+    vira mapa vazio, com uma linha no log."""
+    try:
+        import ri_fontes
+    except ImportError:
+        return {}
+    except Exception as e:
+        app.log(f"ri_fontes.py ilegivel ({type(e).__name__}: {e}); site de RI desligado nesta coleta")
+        return {}
+    mapa = getattr(ri_fontes, "RI_FONTES", None)
+    return mapa if isinstance(mapa, dict) else {}
+
+
+def _html_da_resposta(r):
+    """HTML como texto. Tenta UTF-8 antes do palpite do requests: sem charset no cabecalho ele assume
+    latin-1 e 'Apresentacao' vira lixo, o que furaria o filtro de descarte."""
+    try:
+        return (r.content or b"").decode("utf-8")
+    except UnicodeDecodeError:
+        return r.text or ""
+
+
+def _texto_em_volta(html, ini, fim, largura=200):
+    """Texto legivel de ate `largura` caracteres antes de [ini] e depois de [fim] no HTML."""
+    antes = html[max(0, ini - 4 * largura):ini]
+    if "<" not in antes.partition(">")[0] and ">" in antes:
+        antes = antes.partition(">")[2]      # o corte caiu no meio de uma tag: joga fora o pedaco
+    depois = html[fim:fim + 4 * largura]
+    return _html_para_texto(antes)[-largura:], _html_para_texto(depois)[:largura]
+
+
+def _links_da_pagina(html, url_base):
+    """[(url absoluta, texto do ancora, texto antes, texto depois)] de cada <a href> da pagina."""
+    links = []
+    for m in _RE_ANCORA.finditer(html):
+        atributos, corpo = m.group(1), m.group(2)
+        h = _RE_HREF.search(atributos)
+        if not h:
+            continue
+        href = htmlmod.unescape(next(g for g in h.groups() if g is not None)).strip()
+        if not href or href.lower().startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        t = _RE_TITLE.search(atributos)
+        titulo = htmlmod.unescape((t.group(1) or t.group(2) or "")) if t else ""
+        texto = " ".join(x for x in (_html_para_texto(corpo), titulo) if x).strip()
+        antes, depois = _texto_em_volta(html, m.start(), m.end())
+        links.append((urljoin(url_base, href), texto[:200], antes, depois))
+    return links
+
+
+def _periodo_no_site(texto, url):
+    """Trimestre no rotulo ou na url do link, nas formas da CVM/SEC e nas de site ('Q2 2026')."""
+    p = periodo_release(texto, url)
+    if p:
+        return p
+    for alvo in (texto, url):
+        m = _RE_TRI_SITE.search(normalizar(alvo))
+        if m:
+            tri, ano = (m.group(1), m.group(2)) if m.group(1) else (m.group(3), m.group(4))
+            return f"{int(tri)}T{int(ano):02d}"
+    return None
+
+
+def _periodo_no_contexto(antes, depois):
+    """Trimestre citado perto do link: o ULTIMO antes dele (a linha ou o acordeao em que o link
+    esta), senao o primeiro depois. O primeiro antes seria o da linha de cima."""
+    achados = list(_RE_TRI_CURTO.finditer(normalizar(antes))) + list(_RE_TRI_SITE.finditer(normalizar(antes)))
+    if achados:
+        m = max(achados, key=lambda x: x.start())
+        g = [x for x in m.groups() if x is not None]
+        return f"{int(g[0])}T{int(g[1]):02d}"
+    return _periodo_no_site(antes, "") or _periodo_no_site(depois, "")
+
+
+def _data_no_texto(*textos):
+    """Primeira data legivel ('12/08/2026', '2026-08-12', '12 de agosto de 2026', 'August 12, 2026')."""
+    for t in textos:
+        t = str(t or "")
+        for rx, ordem in ((_RE_DATA_ISO, "amd"), (_RE_DATA_NUM, "dma"), (_RE_DATA_EXT, "dMa"), (_RE_DATA_EN, "Mda")):
+            for m in rx.finditer(t):
+                g = m.groups()
+                try:
+                    if ordem == "amd":
+                        ano, mes, dia = int(g[0]), int(g[1]), int(g[2])
+                    elif ordem == "dma":
+                        dia, mes, ano = int(g[0]), int(g[1]), int(g[2])
+                    elif ordem == "dMa":
+                        dia, mes, ano = int(g[0]), _MESES.get(normalizar(g[1])[:3], 0), int(g[2])
+                    else:
+                        mes, dia, ano = _MESES.get(normalizar(g[0])[:3], 0), int(g[1]), int(g[2])
+                    return datetime(ano, mes, dia).strftime("%Y-%m-%d")
+                except ValueError:
+                    continue
+    return None
+
+
+def _data_estimada_release(periodo):
+    """Fim do trimestre + 40 dias: quando o site nao diz a data, e a janela tipica de divulgacao."""
+    ano, tri = ordem_periodo(periodo)
+    if not tri:
+        return None
+    fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+    return (fim + timedelta(days=40)).strftime("%Y-%m-%d")
+
+
+def _preferencia_release_site(texto, url):
+    """Mesma convencao de _preferencia_release_cvm: portugues 0.5, sem idioma 0.7, ingles 1."""
+    alvo = f"{normalizar(texto)} {normalizar(url)}"
+    if _RE_RI_EN.search(alvo):
+        return 1
+    return 0.5 if _RE_RI_PT.search(alvo) else 0.7
+
+
+_ROTULO_PLATAFORMA = {"mz": "MZ", "riweb": "RiWeb", "proprio": "site proprio"}
+_RE_MZ_ID = re.compile(r"(?i)mzfilemanager/v2/d/([0-9a-f-]{36})|mziq\.com/published/([0-9a-f-]{36})")
+
+
+def _plataforma_ri(mapa, url):
+    """Rotulo da plataforma para o campo `fonte`: do mapa, senao inferido da url do documento."""
+    p = str(mapa.get("plataforma") or "").lower()
+    if p in _ROTULO_PLATAFORMA:
+        return _ROTULO_PLATAFORMA[p]
+    u = (url or "").lower()
+    if "mziq.com" in u:
+        return "MZ"
+    if "riweb" in u:
+        return "RiWeb"
+    m = re.match(r"https?://([^/]+)", u)
+    return m.group(1) if m else "site"
+
+
+def _sem_fragmento(url):
+    return re.split(r"[?#]", url or "", 1)[0].rstrip("/")
+
+
+def _candidatos_ri(links, pagina=None):
+    """Links da central que parecem release de resultado, com trimestre, data e preferencia.
+
+    Candidato: rotulo ou url com release/resultado/results/earnings/divulga/press, ou arquivo (MZ, PDF).
+    Descarte: apresentacao, webcast, video, transcricao, teleconferencia, planilha, zip, institucional
+    (mas 'release e apresentacao' num so PDF fica). Trimestre: rotulo/url, senao o texto em volta.
+    Link de pagina (nao arquivo) so entra com o trimestre no proprio rotulo: o menu 'Central de
+    Resultados' herdaria o trimestre do acordeao vizinho e viraria um falso release."""
+    por_url, descartados_rotulo = {}, 0
+    propria = _sem_fragmento(pagina)
+    for url, texto, antes, depois in links:
+        if propria and _sem_fragmento(url) == propria:
+            continue
+        alvo = f"{normalizar(texto)} {normalizar(url)}"
+        eh_arquivo = _RE_RI_ARQUIVO.search(url) is not None
+        if not (_RE_RI_CANDIDATO.search(alvo) or eh_arquivo):
+            continue
+        if _RE_RI_DESCARTE.search(alvo) and not ("RELEASE" in alvo and "APRESENTA" in alvo):
+            descartados_rotulo += 1
+            continue
+        periodo, origem = _periodo_no_site(texto, url), "rotulo"
+        if not periodo:
+            if not eh_arquivo:
+                continue
+            periodo, origem = _periodo_no_contexto(antes, depois), "contexto"
+        data = _data_no_texto(texto, antes, depois)
+        if periodo and data and not _periodo_plausivel(periodo, data):
+            data = None      # data de outra linha da tabela: melhor estimar do que rotular errado
+        c = {"url": url, "texto": texto, "periodo": periodo, "origem_periodo": origem if periodo else None,
+             "data": data, "arquivo": eh_arquivo, "preferencia": _preferencia_release_site(texto, url)}
+        atual = por_url.get(url)
+        if atual is None or (not atual["periodo"] and periodo) or \
+                (bool(periodo) == bool(atual["periodo"]) and c["preferencia"] < atual["preferencia"]):
+            por_url[url] = c
+    return list(por_url.values()), descartados_rotulo
+
+
+def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_releases=RELEASES_POR_ATIVO,
+                        orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None):
+    """Releases de resultado lidos direto da central de resultados do site de RI (ri_fontes.py).
+
+    Complementa o IPE da CVM: com `ate_periodo` (o release mais novo que ja existe, ex.: '3T25')
+    so trimestres MAIS NOVOS sao baixados. `conhecidos` (link -> release ja no branch) e reusado;
+    `descartados` recebe os links que nao sao release. Devolve a lista mais novo primeiro."""
+    conhecidos = conhecidos or {}
+    descartados = descartados if descartados is not None else []
+    rotulo = f"{tk}: site de RI"
+    mapa = _mapa_ri().get(tk)
+    if not mapa:
+        fontes["release_ri_site"] = "sem mapa de RI"
+        app.log(f"{rotulo}: sem entrada em ri_fontes.py; fica so o IPE da CVM")
+        return []
+    if isinstance(mapa, str):
+        mapa = {"central": mapa}
+    paginas = [p for p in dict.fromkeys([mapa.get("central")] + list(mapa.get("alternativas") or [])) if p]
+    if not paginas:
+        fontes["release_ri_site"] = "falha: mapa de RI sem url"
+        return []
+    t0, estourou = time.monotonic(), False
+    candidatos, pagina, motivo, fora_rotulo = [], None, "sem pagina", 0
+    for url in paginas:
+        if time.monotonic() - t0 > orcamento_s:
+            estourou, motivo = True, "orcamento de tempo estourou antes de ler a pagina"
+            break
+        r = app.http_get(url, timeout=60)
+        if not r:
+            motivo = f"pagina indisponivel ({url})"
+            app.log(f"{rotulo}: {url} nao respondeu 200 (status na linha HTTP acima)")
+            continue
+        html = _html_da_resposta(r)
+        links = _links_da_pagina(html, url)
+        cands, fora_rotulo = _candidatos_ri(links, url)
+        app.log(f"{rotulo}: {url} ok ({len(html)} caracteres, {len(links)} links, {len(cands)} candidatos, "
+                f"{fora_rotulo} descartados pelo rotulo)")
+        if cands:
+            candidatos, pagina = cands, url
+            break
+        motivo = f"pagina sem link de release ({url}; {len(links)} links; se forem 0, a pagina e montada por JavaScript)"
+        app.log(f"{rotulo}: {motivo}")
+    if not candidatos:
+        fontes["release_ri_site"] = (f"falha: {motivo}")[:220]
+        return []
+    plataforma = _plataforma_ri(mapa, next((c["url"] for c in candidatos if c["arquivo"]), pagina))
+    # mz_id do mapa e so conferencia (foi inferido por busca): link de outra conta MZ vai para o log,
+    # nao e rejeitado, para um id errado no mapa nao apagar a fonte inteira
+    mz_id = str(mapa.get("mz_id") or "").lower()
+    if mz_id:
+        outros = {next(g for g in m.groups() if g) for c in candidatos
+                  for m in [_RE_MZ_ID.search(c["url"])] if m and next(g for g in m.groups() if g).lower() != mz_id}
+        if outros:
+            app.log(f"{rotulo}: ATENCAO: links MZ de outra conta que nao o mz_id do mapa ({mz_id[:8]}...): "
+                    f"{', '.join(sorted(o[:8] + '...' for o in outros))}; confira ri_fontes.py se o release vier errado")
+    com = [c for c in candidatos if c["periodo"]]
+    sem = [c for c in candidatos if not c["periodo"] and c["arquivo"]]
+    app.log(f"{rotulo}: trimestres na pagina: "
+            f"{', '.join(sorted({c['periodo'] for c in com}, key=ordem_periodo, reverse=True)) or 'nenhum'}"
+            f"; {len(sem)} arquivos sem trimestre no rotulo; plataforma {plataforma}")
+    if ate_periodo:
+        corte = ordem_periodo(ate_periodo)
+        ja_cobertos = sorted({c["periodo"] for c in com if ordem_periodo(c["periodo"]) <= corte},
+                             key=ordem_periodo, reverse=True)
+        com = [c for c in com if ordem_periodo(c["periodo"]) > corte]
+        app.log(f"{rotulo}: ate {ate_periodo} ja existe ({len(ja_cobertos)} trimestres pulados); "
+                f"faltam {', '.join(sorted({c['periodo'] for c in com}, key=ordem_periodo, reverse=True)) or 'nenhum'}")
+    # Mais novo primeiro; dentro do trimestre, portugues antes do ingles
+    com.sort(key=lambda c: (ordem_periodo(c["periodo"]), -c["preferencia"]), reverse=True)
+    achados, baixados, reusados, novos_descartes = {}, 0, 0, []
+    for c in com + sem[:RI_MAX_SEM_PERIODO]:
+        if len(achados) >= max_releases:
+            break
+        p, url = c["periodo"], c["url"]
+        if p and p in achados and achados[p].get("preferencia", 1) <= c["preferencia"]:
+            continue                      # trimestre ja resolvido por documento igual ou melhor: nem baixa
+        if url in conhecidos:
+            if conhecidos[url] is None:
+                continue                  # ja conferido antes: nao e release
+            item = {**conhecidos[url], "link": url}
+            reusados += 1
+        else:
+            if time.monotonic() - t0 > orcamento_s:
+                estourou = True
+                break
+            r = app.http_get(url, timeout=90)
+            if not r:
+                app.log(f"{rotulo}: {p or 'sem trimestre'} nao baixou ({url[:90]}); tenta na proxima coleta")
+                continue                  # falha transitoria: nao vai para descartados
+            texto, detalhe = _texto_de_download(r)
+            if not texto or len(texto) < RI_MIN_CARACTERES:
+                novos_descartes.append((url, f"sem texto util ({detalhe}; {len(texto or '')} caracteres)"))
+                continue
+            if detalhe == "html" and not _RE_RI_CORPO.search(texto[:20000]):
+                novos_descartes.append((url, "pagina HTML sem cara de release"))
+                continue
+            # Trimestre do rotulo vale como o assunto do IPE; o do contexto (linha vizinha) so entra
+            # se o proprio documento nao disser qual trimestre e
+            item = _montar_release(texto, detalhe, {
+                "fonte": f"site de RI ({plataforma})", "tipo": "release site RI", "assunto": c["texto"],
+                "data": c["data"], "link": url, "periodo": p if c["origem_periodo"] == "rotulo" else None,
+                "preferencia": c["preferencia"], "pagina_ri": pagina})
+            if item and not item.get("periodo"):
+                item["periodo"] = p
+            if not item or not item.get("periodo"):
+                novos_descartes.append((url, "sem trimestre plausivel"))
+                continue
+            if p and item["periodo"] != p:
+                app.log(f"{rotulo}: contexto dizia {p}, o documento diz {item['periodo']}; fica o documento")
+            if not item.get("data"):
+                item["data"], item["data_estimada"] = _data_estimada_release(item["periodo"]), True
+            elif not _periodo_plausivel(item["periodo"], item["data"]):
+                item["data"], item["data_estimada"] = _data_estimada_release(item["periodo"]), True
+            baixados += 1
+            app.log(f"{rotulo}: baixou {item['periodo']} ({detalhe}; {item['caracteres_total']} caracteres; "
+                    f"data {item['data']}{' estimada' if item.get('data_estimada') else ''}; {url[:90]})")
+        item.setdefault("preferencia", c["preferencia"])
+        _ajustar_periodo(item)
+        if ate_periodo and ordem_periodo(item["periodo"]) <= ordem_periodo(ate_periodo):
+            # Este caminho so completa o que falta: um arquivo sem rotulo que se revelou antigo nao
+            # disputa com a copia oficial da CVM (trocaria o arquivo no branch a cada coleta)
+            if url not in conhecidos:
+                novos_descartes.append((url, f"release antigo ({item['periodo']}), ja coberto ate {ate_periodo}"))
+            continue
+        if _melhor_release(item, achados.get(item["periodo"])):
+            achados[item["periodo"]] = item
+    for url, porque in novos_descartes:
+        descartados.append(url)
+        app.log(f"{rotulo}: descartou {url[:90]}: {porque}")
+    lista = _lista_por_periodo(achados, max_releases)
+    periodos = ", ".join(r["periodo"] for r in lista)
+    extra = "; orcamento de tempo estourou, completa na proxima coleta" if estourou else ""
+    if lista:
+        fontes["release_ri_site"] = f"ok: {periodos} ({baixados} baixados, {reusados} reusados; {plataforma}{extra})"
+    else:
+        fontes["release_ri_site"] = (f"sem release novo ({len(candidatos)} candidatos na pagina, "
+                                     f"{len(com)} mais novos que {ate_periodo or 'nada'}, "
+                                     f"{len(novos_descartes)} descartados{extra})")
+    app.log(f"{rotulo}: {fontes['release_ri_site']}")
+    return lista
 
 
 # ───────────────── Historico de releases no branch (releases/<TICKER>/) ─────────────────
@@ -1693,6 +2072,69 @@ def montar_comparativo(grupo, nome, tipo, linhas, pedidos):
 
 
 # ───────────────────────── Orquestracao ─────────────────────────
+def _itr_mais_novo(dados):
+    """Rotulo do trimestre mais novo nas demonstracoes oficiais: '2026T2' (CVM) ou 'CY2026Q2' (SEC).
+
+    Olha a receita liquida; sem ela, qualquer conta. E a referencia de frescor do release."""
+    blocos = [(dados.get("cvm_demonstracoes") or {}).get("serie_trimestral"),
+              (dados.get("sec_xbrl") or {}).get("trimestral"),
+              ((dados.get("subjacente_us") or {}).get("sec_xbrl") or {}).get("trimestral"),
+              (dados.get("sec_xbrl_adr") or {}).get("trimestral")]
+    for series in blocos:
+        if not series:
+            continue
+        contas = [series["receita_liquida"]] if series.get("receita_liquida") else list(series.values())
+        rotulos = [k for s in contas for k, v in s.items() if v is not None and _ano_trimestre(k)]
+        if rotulos:
+            return max(rotulos, key=_ano_trimestre)
+    return None
+
+
+def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados):
+    """Quando o release mais novo esta atras do ITR mais novo (ou nao ha release), busca no site de RI
+    os trimestres que faltam e mescla com o que a CVM trouxe, um por trimestre."""
+    itr = _itr_mais_novo(dados)
+    mais_novo = historico[0].get("periodo") if historico else None
+    if itr:
+        referencia = itr
+    else:
+        # Sem demonstracao oficial nao da para medir: usa o ultimo trimestre fechado no calendario
+        ano, tri = ordem_periodo(trimestre_anterior(agora()))
+        referencia = f"{ano}T{tri}" if tri else None
+    atraso = defasagem_release(mais_novo, referencia)
+    if historico and atraso <= 0:
+        app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia}; site de RI nao consultado")
+        return historico
+    app.log(f"{tk}: release mais novo {mais_novo or 'nenhum'} esta {atraso} trimestre(s) atras de "
+            f"{referencia} ({'ITR' if itr else 'calendario'}); consultando o site de RI")
+    do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo)
+    if not do_site:
+        return historico
+    achados = {}
+    for item in list(historico) + list(do_site):
+        if _melhor_release(item, achados.get(item.get("periodo"))):
+            achados[item.get("periodo")] = item
+    lista = _lista_por_periodo(achados, RELEASES_POR_ATIVO)
+    novos = [r["periodo"] for r in lista if any(r is s for s in do_site)]
+    if novos:
+        fontes["release_ri"] = (f"{fontes.get('release_ri', '')}; site de RI trouxe {', '.join(novos)}; "
+                                f"mais novo agora: {lista[0].get('periodo')} ({lista[0].get('data')})")[:400]
+    return lista
+
+
+def _frescor(dados, historico, fontes, releases=True):
+    """Bloco `frescor` do JSON: o ITR mais novo, o release mais novo e a distancia entre eles."""
+    itr = _itr_mais_novo(dados)
+    mais_novo = historico[0].get("periodo") if historico else None
+    return {"itr_mais_novo": itr, "release_mais_novo": mais_novo,
+            "release_data": historico[0].get("data") if historico else None,
+            "defasagem_trimestres": defasagem_release(mais_novo, itr) if releases else None,
+            "fontes_release": sorted({r.get("fonte") for r in historico if r.get("fonte")}),
+            "site_ri": fontes.get("release_ri_site", "nao consultado"),
+            "nota": ("defasagem_trimestres: quantos trimestres o release mais novo esta atras do ITR/XBRL "
+                     "mais novo (0 = em dia; 99 = sem release; null = coleta sem releases)")}
+
+
 def coletar_ativo(tk, macro, releases=True, saida=None):
     """JSON completo de um ativo. `saida` e a raiz do branch `dados`, onde fica o historico de releases."""
     fontes = {}
@@ -1747,8 +2189,9 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
 
     # Releases de resultado do RI: os ultimos 8 trimestres. O mais novo entra inteiro no JSON
     # (`release_ri`); todos ficam em releases/<TICKER>/ no branch, indexados em `releases_historico`.
+    historico = []
     if releases:
-        historico, descartados = [], []
+        descartados = []
         try:
             conhecidos = carregar_indice_releases(saida, tk)
             if eh_simbolo_us(tk):
@@ -1762,6 +2205,8 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
                 if not historico and ADR_DE_B3.get(tk):
                     # Sem release na CVM: tenta os 6-K do ADR (mesmo documento, em ingles)
                     historico = coletar_releases_sec(_cik_por_ticker(ADR_DE_B3[tk]), fontes, conhecidos, descartados)
+                # Release atras do ITR (IPE do ano corrente fora do ar): completa pelo site de RI
+                historico = _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados)
             descartados = [k for k, v in conhecidos.items() if v is None] + descartados
         except Exception as e:
             fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
@@ -1797,6 +2242,12 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
             fontes["subjacente_us"] = f"ok ({base}; {sum(1 for v in fontes_sub.values() if str(v).startswith('ok'))} fontes ok)"
         except Exception as e:
             fontes["subjacente_us"] = f"falha: {type(e).__name__}: {e}"[:160]
+    # Frescor: o release mais novo contra o ITR/XBRL mais novo. E o que o deep search confere
+    # antes de escrever; defasagem > 0 e o sinal de que o site de RI precisa entrar (ou de que falhou).
+    try:
+        dados["frescor"] = _frescor(dados, historico, fontes, releases)
+    except Exception as e:
+        dados["frescor"] = {"erro": f"{type(e).__name__}: {e}"[:160]}
     preco = info.get("currentPrice") or info.get("regularMarketPrice") \
         or ((dados.get("yahoo") or {}).get("retornos") or {}).get("ultimo_fechamento", {}).get("preco")
     ipca = (macro.get("ipca_12m") or {}).get("value", 4.5)
