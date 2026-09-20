@@ -1,0 +1,4687 @@
+[p. 1]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+1 
+ 
+CYRE3 
+(20/03/2025) 
+ 
+Nº. de Ações (ex 
+tesouraria): 
+366.310.939 
+ 
+Valor de 
+mercado: 
+R$ 8.736,5 milhões 
+US$ 1.540,8 milhões 
+ 
+Teleconferências sobre os 
+Resultados do 4T24 
+Português 
+(Com tradução simultânea) 
+21 de março de 2025 
+ 11h00 (horário de Brasília) 
+10h00 (US EST) 
+ 
+ZOOM: clique aqui 
+Contatos de RI: 
+ri@cyrela.com.br 
+Visite o website de RI: 
+http://ri.cyrela.com.br/ 
+Cyrela atinge Lucro Líquido de R$ 497 milhões no trimestre 
+e R$ 1.649 milhões no acumulado de 2024 
+ 
+ 
+ 
+VENDAS 
+No trimestre: 
+R$ 4.905 milhões, 89% superior vs. 
+4T23 e 53% acima do 3T24 
+No ano: 
+R$ 12.624 milhões, 42% superior 
+vs. 2023 
+ 
+ 
+ 
+GERAÇÃO DE CAIXA 
+No trimestre: 
+Geração de caixa de R$ 61 milhões, 
+vs. consumo de R$94 milhões no 4T23 
+e geração de R$ 129 milhões no 3T24 
+No ano: 
+Geração de R$ 259 milhões, vs 
+consumo de R$101 milhões em 2023 
+ 
+ 
+ROE – RETURN ON EQUITY 
+ 
+de 20,9% 
+ 
+(Lucro líquido dos últimos 12 meses 
+sobre o patrimônio líquido médio do 
+período, excluindo participações 
+minoritárias) 
+ 
+ 
+ 
+ 
+LANÇAMENTOS 
+No trimestre: 
+R$ 6.737 milhões, 146% superior 
+vs. 4T23 e 116% acima do 3T24 
+No ano: 
+R$ 13.021 milhões, 33% superior 
+vs. 2023 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+São Paulo, 20 de março de 202 5 - A Cyrela Brazil Realty S.A. Empreendimentos e Participações (“CBR” ou 
+“Companhia” ou “Cyrela”) (B3: CYRE3; OTCQPink: CYRBY), uma das maiores empresas do mercado imobiliário 
+brasileiro na incorporação de empreendimentos residenciais, apresenta seus resultados referentes ao quarto trimestre 
+(4T24). As informações financeiras e operacionais a seguir, exceto onde indicado o contrário, estão apresentadas 
+em Reais (R$), seguem as normas contábeis internacionais (IFRS) que consideram as orientações técnicas OCPC 04 e 
+interpretação técnica ICPC 02 e os princípios brasileiros de contabilidade e normas para preparação de relatório 
+financeiro aplicáveis às entidades de incorporação imobiliárias brasileiras e regulamentações pertinentes. As 
+comparações referem-se aos mesmo período de 2023 (4T23) e, eventualmente, ao terceiro trimestre de 2024 (3T24). 
+ 
+ 
+MARGEM BRUTA 
+ 
+No trimestre: 
+31,9%, 1,8 p.p. abaixo do 4T23 e 
+1,4 p.p. inferior ao 3T24 
+No ano: 
+32,4%, 0,3 p.p. inferior vs. 2023 
+ 
+LUCRO LÍQUIDO 
+No trimestre: 
+R$ 497 milhões, vs. R$ 248 milhões 
+no 4T23 e R$ e R$ 473 milhões no 
+3T24 
+No ano: 
+R$ 1.649 milhões, vs. R$ 942 
+milhões no 2023
+
+[p. 2]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+Sumário 
+MENSAGEM DA ADMINISTRAÇÃO ............................................................. 3 
+PRINCIPAIS INDICADORES ...................................................................... 4 
+DESEMPENHO OPERACIONAL ................................................................... 5 
+LANÇAMENTOS ............................................................................................................................... 5 
+VENDAS .......................................................................................................................................... 8 
+VELOCIDADE DE VENDAS (VSO) .................................................................................................. 12 
+ESTOQUES .................................................................................................................................... 13 
+TERRENOS .................................................................................................................................... 15 
+ENTREGAS .................................................................................................................................... 16 
+OBRAS .......................................................................................................................................... 18 
+DESEMPENHO ECONÔMICO – FINANCEIRO ........................................... 19 
+RECEITA ....................................................................................................................................... 19 
+MARGEM BRUTA ........................................................................................................................... 20 
+VENDAS A RECONHECER ............................................................................................................. 21 
+DESPESAS COMERCIAIS .............................................................................................................. 22 
+DESPESAS GERAIS E ADMINISTRATIVAS ................................................................................... 23 
+INDENIZAÇÕES ............................................................................................................................ 24 
+RESULTADO FINANCEIRO ........................................................................................................... 25 
+LUCRO LÍQUIDO E MARGEM LÍQUIDA ........................................................................................ 26 
+Destaques das Demonstrações Financeiras ................................................................................ 27 
+CONTAS A RECEBER ..................................................................................................................... 27 
+IMÓVEIS A COMERCIALIZAR ....................................................................................................... 28 
+ENDIVIDAMENTO ......................................................................................................................... 29 
+GERAÇÃO DE CAIXA ..................................................................................................................... 33 
+ANEXO I – BALANÇO PATRIMONIAL ....................................................... 34 
+ANEXO II – DEMONSTRAÇÃO DE RESULTADO ........................................ 36 
+ANEXO III – RECONHECIMENTO DE RECEITA ........................................ 37 
+ANEXO IV – LANÇAMENTOS .................................................................... 38 
+ANEXO V – VENDAS ................................................................................. 40 
+ANEXO VI – TERRENOS ........................................................................... 41 
+ANEXO VII – EMPREENDIMENTOS ENTREGUES ..................................... 42 
+Glossário .................................................................................................. 43
+
+[p. 3]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+MENSAGEM DA ADMINISTRAÇÃO 
+ 
+Concluímos o ano de 2024 com resultados operacionais e financeiros que superaram marcas 
+históricas no ciclo da Cyrela, fruto de uma execução de excelência. Apesar de um cenário macroeconômico 
+desfavorável para o setor, marcado por deteriorações nas expectativas e nos preços dos ativos no segundo 
+semestre, a Companhia apresentou crescimento nos lançamentos, resiliência nas vendas e nas margens, 
+além de geração de caixa positiva. 
+ 
+Finalizamos o ano com lançamentos de R$ 9,6 bilhões e vendas de R$ 9,3 bilhões, o que representa 
+uma evolução de 45% e 44%, respectivamente, em comparação ao ano anterior. A velocidade de vendas 
+dos últimos 12 meses teve um aumento de 8 pontos percentuais em relação a 2023, encerrando o ano em 
+55%. Destacamos o desempenho dos lançamentos do quarto trimestre, 57% vendidos até o final de 
+dezembro, mesmo em um contexto de volume recorde lançado. 
+ 
+O desempenho financeiro da Cyrela acompanhou o crescimento operacional. Finalizamos o ano com 
+receita líquida de R$ 8,0 bilhões, 27% acima de 2023, e margem bruta de 32,4%. Apesar do crescimento 
+dos indicadores operacionais e financeiros, as despesas comerciais, gerais e administrativas foram mantidas 
+sob controle, resultando em um lucro líquido de R$ 1,6 bilhão, patamar recorde para a Companhia, com 
+margem líquida de 20,7%. Além disso, atingimos um patamar de ROE satisfatório de 20,9%, o que nos dá 
+muita motivação para continuar essa trajetória. 
+ 
+Mesmo diante desse contexto de expansão das operações, foi possível entregar geração de caixa 
+de R$ 259 milhões no ano e devolver R$ 376 milhões aos acionistas, por meio de dividendos e recompra de 
+ações. Além disso, a Companhia também aprovou um novo Programa de Recompra de Ações de 9 milhões 
+de ações, com término programado para 20 de dezembro de 2025. 
+ 
+Acreditamos que a Cyrela se manteve bem posicionada no mercado graças à sua gestão qualificada, 
+que abrange toda a jornada do cliente. Estamos satisfeitos com os resultados alc ançados em 2024, mas 
+sabemos que o mercado pode mudar rapidamente. Por isso, reafirmamos nossa estratégia de focar em 
+lançamentos de produtos diferenciados, tomando decisões com base no desempenho de cada 
+empreendimento. Agradecemos a todos os nossos colab oradores, clientes, acionistas e stakeholders pelo 
+apoio ao longo do ano e esperamos que 2025 seja mais um ano de bons resultados para a Companhia.
+
+[p. 4]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+ PRINCIPAIS INDICADORES 
+ 
+ 
+ (1) incluindo as unidades permutadas 
+(2) líquido de distratos e com permuta 
+(3) o Lucro por Ação é calculado excluindo-se as ações em tesouraria 
+(4) Dívida Líquida e Patrimônio Líquido Consolidado excluindo AVJORA CashMe 
+ 
+ 
+ 
+Lançamentos (1)
+Número de Lançamentos 21 13 8 15 6 54 51 3
+VGV Lançado - R$ milhões (100%) 6.737 2.744 146% 3.123 116% 13.021 9.767 33%
+Participação CBR 74% 64% 10,1 p.p. 82% -7,7 p.p. 76% 71% 4,9 p.p.
+VGV Permutado - R$ milhões (100%) 126 75 67% 98 28% 454 495 -8%
+VGV Lançado ex-permuta - R$ milhões (%CBR) 4.875 1.716 184% 2.479 97% 9.586 6.626 45%
+Vendas (2)
+Vendas Totais Contratadas - R$ milhões (100%) 4.905 2.593 89% 3.201 53% 12.624 8.892 42%
+Participação CBR 74% 72% 2,4 p.p. 79% -4,9 p.p. 76% 76% 0,0 p.p.
+Vendas ex-permuta - R$ milhões (%CBR) 3.530 1.825 93% 2.457 44% 9.277 6.439 44%
+Velocidade de Vendas (VSO) 12 Meses
+VSO 12 Meses 55,0% 47,2% 7,8 p.p. 54,9% 0,1 p.p. 55,0% 47,2% 7,8 p.p.
+Estoques
+VGV Estoque a Valor de Mercado - R$ Milhões (100%) 10.554 9.934 6% 8.693 21% 10.554 9.934 6%
+VGV Estoque a Valor de Mercado - R$ Milhões (%CBR) 8.021 7.505 7% 6.616 21% 8.021 7.505 7%
+VGV Estoque Pronto a Valor de Mercado - R$ Milhões (100%) 1.515 1.586 -5% 1.316 15% 1.515 1.586 -5%
+VGV Estoque Pronto a Valor de Mercado - R$ Milhões (%CBR) 1.290 1.322 -2% 1.103 17% 1.290 1.322 -2%
+Banco de Terrenos
+VGV potencial com permuta - R$ milhões (100%) 20.409 25.975 -21% 15.143 35% 20.409 25.975 -21%
+% Permuta sobre valor do terreno 55% 71% -15,5 p.p. 43% 11,9 p.p. 55% 71% -15,5 p.p.
+% CBR 90% 93% -2,8 p.p. 90% -0,2 p.p. 90% 93% -2,8 p.p.
+Entregas
+Número de Entregas 16 18 -2 9 7 41 58 -17
+VGV Entregue - R$ milhões (100%) 2.340 2.093 12% 1.123 108% 5.271 5.995 -12%
+Unidades Entregues 3.875 4.942 -22% 1.805 115% 9.987 15.521 -36%
+2024 x 20234T23 2024 20234T24 3T244T24 x 4T23 4T24 x 3T24
+Indicadores Financeiros
+Receita Líquida (R$ milhões) 2.506 1.710 47% 2.030 23% 7.966 6.253 27%
+Lucro Bruto (R$ milhões) 800 577 39% 676 18% 2.580 2.044 26%
+Margem Bruta 31,9% 33,7% -1,8 p.p. 33,3% -1,4 p.p. 32,4% 32,7% -0,3 p.p.
+Margem Bruta Ajustada 33,4% 35,4% -2,1 p.p. 35,1% -1,7 p.p. 34,1% 34,5% -0,4 p.p.
+Despesas Comerciais (R$ milhões) 188 176 7% 170 10% 659 629 5%
+Despesas Gerais e Administrativas - Pro forma (R$ milhões) 120 98 23% 125 -4% 462 414 12%
+Lucro Líquido (R$ milhões) 497 248 100% 473 5% 1.649 942 75%
+Margem Líquida 19,8% 14,5% 5,3 p.p. 23,3% -3,5 p.p. 20,7% 15,1% 5,6 p.p.
+ROE LTM 20,9% 13,5% 7,5 p.p. 17,6% 3,3 p.p. 20,9% 13,5% 7,5 p.p.
+Dívida Líquida Ajustada / Patrimônio Líquido Ajustado (4) 10,3% 10,7% -0,4 p.p. 7,1% 3,2 p.p. 10,3% 10,7% -0,4 p.p.
+Geração / Queima de Caixa (R$ milhões) 61 (94) n.a. 129 -53% 259 (101) n.a.
+97 -259 101
+Backlog 31/12/2024 31/12/2023 30/09/2024
+Receitas Líquida a Apropriar (R$ milhões) 8.790 6.634 33% 7.789 13%
+Margem a Apropriar 36,4% 35,9% 0,5 p.p. 36,4% 0,0 p.p.
+
+[p. 5]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+DESEMPENHO OPERACIONAL 
+LANÇAMENTOS 
+Nota: informações detalhadas referentes a lançamentos estão ao final do relatório, em tabelas anexas. 
+ 
+ 
+A Companhia lançou 21 empreendimentos no trimestre totalizando um volume de R$ 6.737 milhões, 
+146% superior ao realizado no 4T23 (R$ 2.744 milhões) e 116% acima do 3T24 (R$ 3.123 milhões). As 
+permutas nos lançamentos foram R$ 126 milhões no 4T24 vs. R$ 75 milhões no 4T23 e R$ 98 milhões no 
+3T24. A participação da Companhia nos lançamentos do trimestre atingiu 74%, acima do 4T23 (64%) e 
+inferior ao 3T24 (82%). Do VGV lançado no trimestre, 73% serão reconhecidos via consolidação e 27% via 
+método de equivalência patrimonial. No ano, o VGV de lançamentos atingiu R$ 13.021 milhões, sendo 33% 
+maior que 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+1.419 1.485
+3.044
+901
+884
+934
+2.880
+2.313
+1.491
+4.434
+1.482
+5.076
+7.663
+4T23 4T24 3T24
+327
+2023 2024
+2.744
+6.737
+3.123
+9.767
+13.021
+352 707
++146% +116%
++33%
+VGV Lançado
+(em R$ milhões – 100%)
+Alto Padrão Médio Vivaz Prime MCMV 2 e 3
+64% 74% 82% 71% 76%
+
+[p. 6]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+ 
+Ao se excluir as permutas, e tomando como base apenas o %CBR, o volume lançado no 4T24 foi 
+de R$ 4.875 milhões, 184% superior ao mesmo período do ano anterior (R$ 1.716 milhões no 4T23) e 97% 
+acima do 3T24 (R$ 2.479 milhões). No ano, os lançamentos foram de R$ 9.586 milhões comparados a R$ 
+6.626 milhões em 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.716
+4.875
+2.479
+6.626
+9.586
+4T23 4T24 3T24 2023 2024
++184% +97%
++45%
+VGV Lançado
+Ex-Permuta
+(em R$ milhões – %CBR)
+
+[p. 7]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+7 
+ 
+ 
+A distribuição dos lançamentos em 2024 por geografia e segmento pode ser vista 
+abaixo: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lançamentos por região – 2024
+100%
+Lançamentos por produto – 2024
+100% 
+68%
+22%
+São Paulo
+Rio de Janeiro
+Sul Outros
+5%5%
+59%
+18%
+23%
+Alto Padrão
+Médio
+MCMV 2 e 3
+Lançamentos por região – 2024
+%CBR
+Lançamentos por produto – 2024
+%CBR 
+69%
+22%
+6%
+São Paulo
+Rio de Janeiro
+Sul Outros
+3%
+55%
+20%
+24%
+Alto Padrão
+Médio
+MCMV 2 e 3
+
+[p. 8]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+8 
+ 
+VENDAS 
+Nota: informações detalhadas referentes a vendas contratadas estão ao final do relatório, em tabelas anexas. 
+ 
+As vendas líquidas contratadas neste trimestre somara m R$ 4.905 milhões, 89% acima do valor 
+registrado no 4T23 (R$ 2.593 milhões) e 53% acima do 3T24 (R$ 3.201 milhões). A participação da 
+Companhia nas vendas contratadas foi de 74% no 4T24, superior aos 72% do mesmo trim estre do ano 
+anterior e abaixo do 3T24 (79%). As vendas líquidas do trimestre serão 73% reconhecidas via consolidação 
+e 27% via método de equivalência patrimonial. No ano, as vendas contratadas atingiram R$ 12.624 milhões, 
+sendo 42% superiores ao mesmo período de 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+1.676 2.549838 855 860
+2.372
+2.815
+1.255
+2.997
+1.622
+4.303
+6.915
+105395
+4T23 4T24
+61
+3T24
+541
+2023
+346
+2024
+2.593
+4.905
+3.201
+8.892
+12.624
+391.015 657
++89% +53%
++42%
+Vendas Contratadas
+(em R$ milhões – 100%)
+Alto Padrão Médio Vivaz Prime MCMV 2 e 3
+72% 74% 79% 76% 76%
+
+[p. 9]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+9 
+ 
+ 
+Das vendas líquidas realizadas no trimestre, R$ 216 milhões se referem à venda de estoque pronto 
+(4%), R$ 869 milhões à venda de estoque em construção (18%) e R$ 3.821 milhões à venda de lançamentos 
+(78%). Dessa forma, a Cyrela atingi u uma velocidade de vendas (“VSO”) de lançamentos de 57% no 
+trimestre. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vendas Contratadas
+(em R$ milhões – 100%)
+884869
+4.180 4.339
+1.273
+3.821
+1.936
+4.138
+7.402
+4T23
+216
+4T24 3T24
+575
+2023 2024
+2.593
+4.905
+3.201
+8.892
+12.624
+167
+1.153
+248
+1.016
++89% +53%
++42%
+Lançamentos Estoque em Construção Estoque Pronto
+
+[p. 10]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+10 
+ 
+ 
+Ao se excluir as permutas e tomando como base apenas o %CBR, o volume vendido atingiu R$ 
+3.530 milhões no 4T24, 93% superior ao mesmo período do ano anterior (R$ 1. 825 milhões no 4T23) e 
+44% acima do 3T24 (R$ 2.457 milhões). No acumulado do ano, as vendas alcançaram R$ 9.277 milhões, 
+em comparação aos R$ 6.439 milhões em 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.825
+3.530
+2.457
+6.439
+9.277
+4T23 4T24 3T24 2023 2024
++93% +44%
++44%
+Vendas 
+Ex-Permuta
+(em R$ milhões – %CBR)
+
+[p. 11]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+11 
+ 
+ 
+A cidade de São Paulo representou 65% do total vendido no ano, seguido pelo Rio 
+de Janeiro com 23%. A distribuição das vendas no ano por geografia e segmento pode ser 
+vista abaixo: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+65%
+23%
+5%
+8%
+São PauloRio de Janeiro
+Sul
+Outros
+Vendas por região – 2024
+100% 
+Vendas por produto – 2024
+100%
+55%
+22%
+20%
+Alto Padrão
+Médio
+Vivaz Prime
+MCMV 2 e 3
+3%
+66%
+23%
+6%
+6%
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+Vendas por região – 2024
+%CBR 
+Vendas por produto – 2024
+%CBR
+52%
+24%
+21%
+Alto Padrão
+Médio
+Vivaz Prime
+MCMV 2 e 3
+3%
+
+[p. 12]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+12 
+ 
+VELOCIDADE DE VENDAS (VSO) 
+ 
+ 
+Os dados operacionais resultaram em um indicador de Vendas sobre Oferta (VSO) de 12 meses de 
+55,0%, ficando acima do VSO 12 meses apresentado no mesmo trimestre do ano anterior (47,2%) e sendo 
+superior ao VSO apresentado no 3T24 (54,9%). 
+ 
+ 
+Observando a velocidade de vendas por safra de lançamentos, a safra lançada no 4T24 foi 57% 
+vendida. 
+ 
+* 
+ 
+Vendas por Safra de Lançamento – 100% 
+VSO (12 meses) – 100% 
+4T23 1T24 2T24 3T24 4T24
+47,2%
+50,5% 52,6% 54,9% 55,0%
+57%
+10%
+3%
+2%8%5%
+10%
+4%
+0%6%
+15%
+2%
+46%
+3%
+53%1T24
+3T23
+2%
+8%
+6%
+6% 4%
+1T23
+14%
+36%
+4%
+2%
+51%2T24
+2T23
+6%
+21%
+8%
+14%40%
+11%
+62%3T24
+7%
+6%
+46%
+4T24
+84%
+71%
+81%
+77%
+83%
+71%
+70%
+4T23
+16%
+Em 3 meses
+Em 6 meses
+Em 9 meses
+Em 12 meses
+Em 15 meses
+Em 18 meses
+Em 21 meses
+Em 24 meses
+
+[p. 13]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+13 
+ 
+ESTOQUES 
+ 
+Ao final do 4T24, o estoque a valor de mercado somava R$ 10.554 milhões (100%) 
+e R$ 8.021 milhões (% CBR), e apresentou aumento de 21% quando comparado ao 
+trimestre anterior. 
+ 
+Do estoque t otal de R$ 10.554 milhões, a parcela correspondente que será 
+reconhecida de forma co nsolidada na re ceita é de R$ 8.071 milhões (% CBR R $ 6.997 
+milhões), enquanto R$ 2.483 milhões (%CBR R$ 1.024 milhões) serão reconhecidos na linha 
+de equivalência patrimonial. 
+ 
+ 
+ 
+ 
+ 
+ 
+Estoque por Safra de Entrega (R$ MM) VGV Estoque a Valor de Mercado (R$ MM) 
+Variação do Estoque (R$ milhões) Breakdown Estoque Total 4T24 
+7.505 7.095 6.498 6.616
+8.021
+2.429 2.383
+2.171 2.077
+2.533
+4T23 1T24 2T24 3T24 4T24
+% CBR
+9.934 9.478
+8.670 8.693
+10.554
+Safra de Entrega Total Consolidação Equivalência
+Pronto 1.515 1.289 226 
+12 Meses 2.271 1.601 670 
+24 Meses 2.552 1.784 767 
+36 Meses 2.066 1.656 410 
++36 meses 2.151 1.741 410 
+Total 10.554 8.071 2.483 
+Estoque 
+Total 3T24
+-869-216
+Vendas 
+Estoque 4T24
+6.737
+Lançamentos 
+4T24
+-3.821
+Vendas 
+Lançamentos 
+4T24
+29
+Var. Preço/ 
+Ajustes
+Estoque 
+Total 4T24
+8.693
+-1.084
+10.554
++21%
+Estoque em Construção Estoque Pronto
+59%
+17%
+11%
+13%
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+
+[p. 14]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+14 
+ 
+ 
+No 4T24, a Companhia vendeu 16% do seu estoque pronto do início do período. 
+Agregando-se as entregas, o estoque pronto da Companhia aumentou de R$ 1.316 milhões 
+(100%) (%CBR R$ 1.103 milhões) no 3T24 para R$ 1.515 milhões (100%) (%CBR R$ 1.290 
+milhões) no 4T24. 
+ 
+A parcela do estoque pronto que será reconhecida de forma consolidada na receita 
+é de R$ 1.289 milhões (%CBR R$ 1.172 milhões), enquanto R$ 226 milhões (%CBR R$ 118 
+milhões) serão reconhecidos na linha de equivalência patrimonial. 
+ 
+ 
+Variação do Estoque Pronto (R$ milhões) Breakdown Estoque Pronto 4T24 
+Estoque Pronto por Ano Entregue (R$ MM) VGV Estoque a Valor de Mercado (R$ MM) 
+1.322 1.171 1.073 1.103
+1.290
+265
+246
+241 212
+225
+4T23 1T24 2T24 3T24 4T24
+% CBR
+1.586
+1.417
+1.314 1.316
+1.515
+Período Entregue Total Consolidação Equivalência
+2020 e anterior 304 223 80 
+2021 49 49 0 
+2022 118 64 54 
+2023 376 306 71 
+2024 668 647 21 
+Total 1.515 1.289 226 
+Estoque 
+Pronto 3T24
+-216
+Vendas Estoque 
+Pronto 4T24
+404
+VGV Entregue 4T24
+10
+Var. Preço/ Ajustes Estoque 
+Pronto 4T24
+1.316
+1.515
++15%
+25%
+33%
+23%
+19%
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+
+[p. 15]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+15 
+ 
+TERRENOS 
+Nota: informações detalhadas referentes a terrenos estão ao final do relatório, em tabelas anexas. 
+ 
+A partir do primeiro trimestre de 2024, optamos por alterar o formato de divulgação 
+da abertura da seção de Terrenos. Dessa forma, fazem parte do Banco de Terrenos da 
+Companhia apenas aque les imóveis devidamente escriturados no Cartório de Notas e 
+registrados no Cartório de Registro de Imóveis competente. Tais atos formalizam a 
+transferência da propriedade e posse do terreno para a Cyrela. Destaca-se também que 
+nosso Banco de Terrenos inclui apenas projetos orgânicos, não sendo incluídos os terrenos 
+de nossas JVs. 
+ 
+Assim, ao final do 4T24 o estoque de terrenos da Cyrela somava potencial de vendas 
+total de R$ 20,4 bilhões. A participação da Companhia no estoque de terrenos é de 90%, 
+ou o equ ivalente a R$ 18,4 bilhões. Durante o trimestre, a Cyrela escriturou 15 novos 
+terrenos, sendo 12 na cidade de São Paulo e 3 no Rio de Janeiro, com VGV potencial de 
+R$ 7,2 bilhões (90% participação Companhia). 
+ 
+ 
+Distribuição por Segmento (VGV em R$ bi) Forma de Aquisição (em %) 
+Distribuição por Região (VGV em R$ bi) 
+Banco de Terrenos em 31/12/2024* 
+ 
+*O VGV em landbank é baseado 
+na última viabilidade de avaliação 
+do terreno corrigida a INCC até a 
+data de hoje. 
+15,5
+Alto padrão
+1,8
+Médio
+3,1
+MCMV 2 e 3
+7,6
+Rio de Janeiro
+10,3São Paulo
+1,7
+Sul
+0,8
+Outros
+55%
+45%
+Permuta
+Caixa
+
+[p. 16]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+16 
+ 
+ENTREGAS 
+Nota: informações detalhadas referentes a unidades entregues estão ao final do relatório, em tabelas anexas. 
+ 
+ A Cyrela entregou 16 projetos no trimestre, com 3.875 unidades que representavam 
+R$ 2.340 milhões de VGV (100%) na data dos respectivos lançamentos. No acumulado do 
+ano, foram entregues 9.987 unidades com VGV (100%) de R$ 5.271 milhões, em um total 
+de 41 empreendimentos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+638 643287
+568 287
+311
+980
+454
+1.382 1.805
+1.472
+965
+506
+3.408
+2.536
+62
+4T23 4T24 3T24 2023 2024
+2.093
+2.340
+1.123
+5.995
+5.271
+248 163108
++12% +108%
+-12%
+VGV Entregue – 100% (R$ milhões)
+Por Região
+São Paulo Rio de Janeiro Sul Outros
+
+[p. 17]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+17 
+ 
+ 
+O segmento Alto Padrão representou 58% das entregas do trimestre, seguido pelo 
+segmento MCMV 2 e 3 com 21%, pelo segmento Médio com 11% e pelo segmento Vivaz 
+Prime com 10%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+657 484
+1.940
+1.401401
+1.307
+860
+1.035 1.369
+787
+2.748
+2.778
+4T23
+255
+4T24 3T24 2023 2024
+2.093
+2.340
+1.123
+5.995
+5.271
+125211
+232
+232
++12% +108%
+-12%
+Alto Padrão Médio MCMV 2 e 3Vivaz Prime
+VGV Entregue – 100% (R$ milhões)
+Por Segmento
+
+[p. 18]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+18 
+ 
+OBRAS 
+ 
+Ao final d o 4T24, seguindo o critério de canteiros ativos, havia 109 obras em 
+andamento, distribuídas conforme o gráfico abaixo nas visões de segmentos, execução e 
+também de acordo com a distribuição geográfica. 
+ 
+ 
+Em linha com o seu direcionamento estratégico, a Cyrela mantém alto percentual na 
+gestão dos canteiros de obra de forma a garantir o controle de execução das mesmas. No 
+fechamento do trimestre, 88% do VGV em construção (R$ 24,6 bilhões na data dos 
+respectivos lançamentos) estavam sendo gerido s por equ ipes próprias ou de JVs . Isso 
+reforça o seu compromisso com a gestão de custos e a qualidade dos produtos ofertados. 
+ 
+ 
+25
+9
+36
+39
+4T24
+Alto Padrão
+Médio
+Vivaz Prime
+MCMV
+109
+78
+8
+23
+4T24
+Terceiros
+JV’s
+Próprias
+109
+25
+9
+12
+63
+4T24
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+109
+12%
+27%
+55%
+4T24
+Alto Padrão
+Médio
+Vivaz Prime
+MCMV
+100%
+6%
+82%
+12%
+6%
+4T24
+Terceiros
+JV’s
+Próprias
+100%
+14%
+7%
+12%
+66%
+4T24
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+100%
+Obras em andamento (% do VGV) 
+Número de Canteiros em Andamento
+
+[p. 19]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+19 
+ 
+DESEMPENHO ECONÔMICO – FINANCEIRO 
+RECEITA 
+ 
+ 
+A receita líquida total da Companhia somou R$ 2.506 milhões no 4T24, montante 47% 
+superior aos R$ 1.710 milhões no 4T23 e 23% acima dos R$ 2.030 milhões registrados no 
+3T24. No acumulado do ano , a receita líquida somou R$ 7.966 milhões vs. R$ 6.253 
+milhões no 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.710
+2.506
+2.030
+6.253
+7.966
+4T23 4T24 3T24 2023 2024
++47% +23%
++27%
+Receita Líquida
+(R$ milhões)
+
+[p. 20]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+20 
+ 
+MARGEM BRUTA 
+ 
+A margem bruta total reportada pela Companhia no 4T24 foi de 31,9%, 1,8 p.p. abaixo 
+da margem bruta reportada no 4T23 (33,7%) e 1,4 p.p. inferior à margem de 33,3% do 
+3T24. No acumulado do ano, a margem bruta atingiu 32, 4%, sendo 0,3 p.p. menor que 
+2023 (32,7%). 
+ 
+A margem bruta ajustada do 4T24 foi de 33,4%, 2,1 p.p. abaixo da margem de 35,4% 
+do 4T23 e 1,7 p.p. inferior à margem de 35,1% do 3T24. No acumulado do ano, a margem 
+bruta ajustada atingiu 34,1%, sendo 0,4 p.p. menor que 2023 (34,5%). 
+ 
+A redução na margem bruta do 4T24 pode ser explicada, principalmente, pela menor 
+margem dos projetos reconhecidos no trimestre. Destaca -se também o efeito maior do 
+que o normal do Ajuste a Valor Presente (AVP), que neste trimestre impactou 
+negativamente a margem bruta do período em aproximad amente 2,0 p.p., sendo que o 
+impacto médio nos últimos 7 trimestres transcorridos até o 3T24 foi de aproximadamente 
+0,4 p.p. 
+Lucro Bruto 4T24: R$ 800 milhões 
+ 
+Margem Bruta 4T24: 31,9% 
+ 
+Lucro Bruto 2024: R$ 2.580 milhões. 
+ 
+Margem Bruta 2024: 32,4% 
+ 
+Evolução da Margem Bruta 
+32,7% 32,4%
+4T23 4T24 3T24 2023 2024
+33,7%
+31,9% 33,3%
+-1,8 p.p. -1,4 p.p. -0,3 p.p.
+4T24 3T24 4T23 2024 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Receita Líquida 2.506 2.030 23% 1.710 47% 7.966 6.253 27%
+Lucro Bruto 800 676 18% 577 39% 2.580 2.044 26%
+Margem Bruta 31,9% 33,3% -1,4 p.p. 33,7% -1,8 p.p. 32,4% 32,7% -0,3 p.p.
+Juros Apropriados no Custo 36 36 0% 30 21% 134 115 17%
+Margem Bruta Ajustada 33,4% 35,1% -1,7 p.p. 35,4% -2,1 p.p. 34,1% 34,5% -0,4 p.p.
+Margem Bruta 4T24 x 3T24 4T24 x 4T23 2024 x 2023
+
+[p. 21]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+21 
+ 
+VENDAS A RECONHECER 
+ 
+Ao final do 4T24, a receita líquida de vendas a apropriar somava R$ 8.790 milhões. A 
+margem bruta dessa receita a apropriar foi de 36,4%, 0,5 p.p. superior ao 4T23 (35,9%) 
+e em linha com o 3T24 (36,4%). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Margem a apropriar: 36,4% 
+ 
+Evolução da Margem Bruta a Apropriar 
+4T23 4T24 3T24
+35,9 % 36,4 % 36,4 %
++0,5 p.p. 0,0 p.p.
+Vendas a Reconhecer (R$ MM)
+Receitas de Vendas a Apropriar 8.969 7.948 13% 6.764 33%
+Impostos a apropriar (179) (158) 13% (131) 37%
+Receita Líquida a Apropriar 8.790 7.789 13% 6.634 33%
+Custo Orçado das Unidades Vendidas a Apropriar (5.593) (4.956) 13% (4.251) 32%
+Lucro Bruto a Apropriar 3.198 2.834 13% 2.383 34%
+Margem Bruta a Apropriar 36,4% 36,4% 0,0 p.p. 35,9% 0,5 p.p.
+4T24 x 3T24 4T24 x 4T234T24 3T24 4T23
+
+[p. 22]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+22 
+ 
+DESPESAS COMERCIAIS 
+ 
+ As despesas comerciais do trimestre totalizaram R$ 188 milhões, acima dos valores 
+apresentados no 4T23 (R$ 176 milhões) e superiores ao 3T24 (R$ 170 milhões). No ano, 
+as despesas comerciais somaram R$ 659 milhões, sendo R$ 30 milhões superiores a 2023 
+(R$ 629 milhões). 
+ 
+ 
+ 
+O maior montante da rubrica de Mídia em comparação aos demais períodos está 
+relacionado principalmente ao aumento no volume de vendas da Companhia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4T24 3T24 4T23 2024 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Estande de Vendas 36 45 -19% 50 -28% 156 164 -5%
+Mídia 42 31 35% 29 46% 122 96 28%
+Serviços de Terceiros 53 38 38% 43 23% 166 169 -1%
+Manutenção Estoque Pronto 12 10 19% 12 0% 43 41 7%
+Outros 25 29 -11% 24 5% 99 87 13%
+CashMe 19 17 9% 18 6% 73 72 2%
+Total 188 170 10% 176 7% 659 629 5%
+Despesas Comerciais 4T24 x 4T23 2024 x 20234T24 x 3T24
+
+[p. 23]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+23 
+ 
+DESPESAS GERAIS E ADMINISTRATIVAS 
+ 
+Em linha com as melhores práticas de transparência e governança, a partir do primeiro 
+trimestre de 2024, optamos por alterar o formato de divulgação da abertura da seção de 
+Despesas Gerais e Administrativas. A partir do 1T24, a linha de Indenizações passa a ser 
+reconhecida na rubrica de Outras Despesas/Receitas operacionais, e seu impacto é 
+detalhado em nova seção do release a seguir. Para manter a comparabilidade dos períodos, 
+todos os números de períodos anteriores da seção de Despesas Gerais e Administrativas 
+serão apresentados de modo “Pro Forma”. 
+ 
+As despesas gerais e administrativas do trimestre atingiram R$ 1 20 milhões, R$ 23 
+milhões a cima dos R$ 98 milhões apresentados no 4T23 (Pro Forma) e R$ 5 milhões 
+inferiores aos R$ 125 milhões do 3T24. Em 2024, as despesas somaram R$ 462 milhões, 
+valor R$ 48 milhões acima de 2023 (Pro Forma). 
+ 
+ 
+Na comparação entre os períodos acumulados, o aumento das despesas gerais e 
+administrativas pode ser explicado principalmente pelos itens (i) Salários e En cargos 
+Sociais, (ii) Participação dos Empregados e (iii) Serviços de Terceiros, em linha com o 
+crescimento das operações da Companhia. 
+ 
+O G&A da CashMe totalizou R$ 16 milhões no trimestre, comparado a R$ 13 milhões 
+no 4T23 e R$ 14 milhões no 3T24. No ano, as despesas gerais e administrativas da CashMe 
+somaram R$ 55 milhões, acima do mesmo período do ano anterior (R$ 54 milhões). 
+ 
+Despesas Gerais e Administrativas 4T24 3T24 4T24 x 3T24 4T23 4T24 x 4T23 2024 2023 2024 x 2023
+(Pro Forma) (Pro Forma)
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Salários e Encargos Sociais 51 49 5% 41 24% 188 172 9%
+Honorários da Administração 2 2 3% 2 3% 7 7 -3%
+Participação dos Empregados 27 18 50% 18 57% 81 71 14%
+Serviços de Terceiros 30 43 -29% 24 24% 142 115 23%
+Aluguel, viagens e representações 3 5 -37% 4 -28% 17 24 -27%
+Outros 7 8 -19% 8 -22% 26 25 6%
+Total 120 125 -4% 98 23% 462 414 12%
+
+[p. 24]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+24 
+ 
+INDENIZAÇÕES 
+ 
+Conforme descrito na seção anterior, detalhamos abaixo a composição das 
+indenizações reconhecidas na Demonstraçã o de Resultados do trimestre , na rubrica de 
+Outras Despesas/Receitas operacionais. 
+ 
+Indenizações 4T24 3T24 4T24 x 3T24 4T23 4T24 x 4T23 2024 2023 2024 x 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Delta Provisão 39 (7) n.a 19 106% 16 22 -28%
+Gastos com Indenizações (Caixa) (43) (33) 31% (37) 15% (123) (103) 19%
+Comprometimento com Indenizações (6) 13 n.a (7) -8% (1) (13) -94%
+Total Impacto DRE (Outras Despesas/Receitas Operacionais) (10) (26) -64% (25) -61% (108) (94) 15%
+
+[p. 25]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+25 
+ 
+RESULTADO FINANCEIRO 
+ 
+O resultado financeiro d o trimestre foi positivo em R$ 17 milhões, abaixo dos R$ 
+34 milhões positivos registrados no 4T23 e inferior aos R$ 39 milhões registrado no 3T24. 
+Em 2024, o resultado foi positivo em R$ 114 milhões, sendo menor que os R$ 137 milhões 
+de 2023. 
+ 
+ 
+A contribuição da CashMe no resultado financeiro líquido do ano totalizou R$ 1 80 
+milhões, comparado a R$ 185 milhões em 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Despesas Financeiras
+Juros SFH (51) (46) 11% (41) 24% (178) (155) 15%
+Juros Empréstimos Nacionais e Estrangeiros (101) (106) -5% (89) 14% (399) (418) -5%
+Juros Capitalizados 36 34 7% 28 30% 119 118 1%
+Sub Total (115) (119) -3% (102) 14% (458) (455) 1%
+Variações Monetárias sobre Financiamentos (0) (0) -61% (1) -70% (1) (2) -53%
+Despesas bancárias (2) (2) 32% (2) 20% (9) (11) -24%
+Outras Despesas Financeiras (40) (10) 312% (32) 25% (102) (89) 14%
+Total de Despesas Financeiras (158) (130) 21% (136) 16% (570) (558) 2%
+Receitas Financeiras
+Rendimento de Aplicações 154 157 -2% 142 8% 623 588 6%
+Variações monetárias 4 3 19% 2 54% 15 12 18%
+Outras Receitas Financeiras 17 10 75% 26 -34% 46 94 -51%
+Total de Receitas Financeiras 174 170 3% 170 3% 683 695 -2%
+Resultado Financeiro 17 39 -58% 34 -51% 114 137 -17%
+Resultado Financeiro 4T24 x 3T24 4T24 x 4T23 2024 x 2023
+4T24 3T24 4T23 2024 2023
+
+[p. 26]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+26 
+ 
+LUCRO LÍQUIDO E MARGEM LÍQUIDA 
+ 
+A Companhia registrou lucro líquido no trimestre de R$ 497 milhões, comparado ao 
+lucro líquido de R$ 248 milhões no 4T23 e ao lucro líquido de R$ 473 milhões no 3T24. 
+Esse resultado gerou um ROE ajustado (últimos doze meses) de 20,9%. No acumulado de 
+2024, o lucro líquido totalizou R$ 1.649 milhões, aumento de 75% em relação ao mesmo 
+período do ano passado (R$ 942 milhões). 
+ 
+ No trimestre, o lucro por ação da Companh ia atingiu o montante de R$ 1,35. Esse 
+valor se compara ao valor de R$ 0,66 no mesmo período de 2023 e de R$ 1,26 no trimestre 
+passado. 
+13,5%
+14,5%
+15,5%
+17,6%
+20,9%
+4T23 1T24 2T24 3T24 4T24
+ROE LTM
+Lucro Líquido
+(R$ milhões)
+14,5%Margem 
+Líquida 23,3%
+248
+497 473
+942
+1.649
+4T23 4T24 3T24 2023 2024
++100% +5%
++75%
+19,8% 15,1% 20,7%
+
+[p. 27]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+27 
+ 
+Destaques das Demonstrações Financeiras 
+CONTAS A RECEBER 
+ 
+ Considerando a totalidade dos contratos de 
+venda assinados, a linha de Co ntas a Receber 
+totalizou R$ 13,5 bilhões em 31 de dezembro de 
+2024, sendo 13% maior que o montante registrado 
+em 30 de setembro de 202 4. No Balanço 
+Patrimonial, esse valor representa R$ 4,8 bilhões, 
+sendo apropriado conforme o andamento de obra 
+de cada projeto. 
+ 
+Desse total, 9% refere -se a unidades 
+entregues, e 91% a unidades em construção ou em 
+processo de entrega. O prazo médio ponderado de 
+realização do Contas a Receber é de cerca de 2,2 
+anos (25,9 meses). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.724
+1.816
+761
+292
+12 Meses
+24 Meses
+36 Meses
+Após 36 Meses
+Cronograma do Custo a Incorrer
+(ref, unidades vendidas– R$ milhões)
+867
+578
+242
+93
+12 Meses
+24 Meses
+36 Meses
+Após 36 Meses
+Cronograma do Custo a Incorrer
+(ref, unidades em estoque – R$ milhões)
+Cronograma de Recebíveis 
+(em R$ milhões)
+5.357
+3.268
+2.827
+2.071
+12 Meses
+24 Meses
+36 Meses
+Após 36 Meses
+R$ MM R$ MM
+Unidades em construção 12.333 11.057 12%
+Unidades construídas 1.191 932 28%
+Total dos Recebíveis 13.524 11.989 13%
+Compromisso com custos orçados e ainda não
+incorridos, referente a unidades vendidas (5.593) (4.956) 13%
+Compromisso com custos orçados e ainda não
+incorridos, referente a unidades em estoque
+ (1.780) (1.276) 39%
+Contas a Receber Líquido 6.151 5.757 7%
+Contas a receber 4T24 x 3T24
+4T24 3T24
+
+[p. 28]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+28 
+ 
+IMÓVEIS A COMERCIALIZAR 
+ 
+ O principal item na linha Imóveis a Comercializar/Estoques reportad o no Balanço 
+Patrimonial da Companhia se refere a terrenos destinados à incorporação futura que, em 
+31 de dezembro de 2024, totalizava R$ 3.152 milhões e representava 49% do total. 
+ 
+Além dos efetivos adiantamentos de client es, a rubrica “Adiantamento de Clientes” 
+representa compromissos originados pelas permutas físicas na compra de terrenos 
+(contrapartidas das permutas), avaliadas ao preço de custo. Essa linha contém R$ 395 
+milhões referentes aos terrenos para futura incorporação e R$ 501 milhões referente aos 
+imóveis já in corporados, totalizando R$ 896 milhões relativo ao preço de custo das 
+unidades permutadas. Tais compromissos serão amortizados com o mesmo procedimento 
+do reconhecimento dos custos de venda, não existindo desembolsos efetivos de caixa. 
+ 
+A rubrica “Contas a Pagar por Aquisição de Imóveis” de curto e longo prazo totaliza 
+R$ 2.005 milhões, sendo R$ 1.474 milhões relativos a imóveis já incorporados. 
+Adiantamento de Clientes
+R$ MM R$ MM
+Por recebimento de venda de imóveis 66 131 -50%
+Permuta física - Terrenos para futura incorporação 395 256 54%
+Permuta física - Imóveis incorporados 501 509 -2%
+Total 962 896 7%
+4T24 3T24
+4T24 x 3T24
+Contas a Pagar por Aquisição de Imóveis
+R$ MM R$ MM
+Já incorporado 1.474 833 77%
+Outros 531 418 27%
+Total 2.005 1.251 60%
+4T24
+4T24 x 3T24
+3T24
+Imóveis a Comercializar
+R$ MM R$ MM
+Imóveis em Construção 2.010 1.833 10%
+Imóveis Concluídos 727 648 12%
+Terrenos 3.152 2.545 24%
+Adiantamento a Fornecedores 154 172 -11%
+Encargos Capitalizados ao Estoque 124 118 5%
+Provisão para Distratos 313 273 15%
+Total 6.480 5.590 16%
+4T24 3T24
+4T24 x 3T24
+
+[p. 29]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+29 
+ 
+ENDIVIDAMENTO 
+ 
+ Em 31 de dezembro de 2024, a dívida bruta com juros 
+a pagar somava R$ 5.975 milhões, 9% maior do que o s 
+R$ 5.466 milhões registrados em 30 de setembro de 2024. 
+ 
+O saldo de fi nanciamentos em moeda nacional 
+representava 38% do total da dívida (sem juros a pagar) e 
+registrou aumento de 17% no trimestre. 
+ 
+ 
+4T23 4T24 x 4T23
+Financiamentos 2.256 1.921 17% 1.749 29%
+Dívida Corporativa - Cyrela 1.569 1.570 0% 1.897 -17%
+Dívida Corporativa - CashMe 2.057 1.872 10% 1.428 44%
+Subtotal 5.882 5.363 10% 5.073 16%
+Juros e Custos 93 103 -10% 84 10%
+Total 5.975 5.466 9% 5.158 16%
+4T24 x 3T244T24Modalidade (em R$ milhões) 3T24
+436
+3.005
+3T24
+521
+3.105
+4T24
+3.442 3.626
++5%
+Dívida Corporativa 
+(R$ milhões)
+Curto Prazo Longo Prazo
+521
+644
+932
+471
+320
+371
+873
+619
+290
+103
+12 Meses 24 Meses 36 Meses 48 Meses 60 Meses > 60 Meses
+892
+1.517 1.551
+761
+423
+737
+Financiamento Dívida Corporativa
+R$ (Milhões)
+Cronograma de Amortização da Dívida
+
+[p. 30]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+30 
+ 
+ 
+Dessa forma, o saldo de empréstimo s (dívida corporativa) em moeda nacional, que 
+representa 62% do total da dívida (sem considerar juros a pagar), refere-se a: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em R$ milhões Emissão Vencimento Custo a.a. Saldo
+Dívida Corporativa Cyrela
+283ª e 285ª Séries da 1ª emissão de CRI - Opea Capital 2020 abr-25 IPCA + 3,91% (swap p/ CDI + 1,15%) 89
+489ª Série da 1ª emissão de CRI - Opea Capital 2022 jun-27 CDI + 0,40% 121
+490ª Série da 1ª emissão de CRI - Opea Capital 2022 jun-27 IPCA + 5,9068% (swap p/ CDI + 0,47%) 259
+491ª Série da 1ª emissão de CRI - Opea Capital 2022 jun-29 IPCA + 6,1280% (swap p/ CDI + 0,79%) 100
+1ª Série da 57ª emissão de CRI - Província Sec 2024 abr-28 98% CDI 634
+2ª Série da 57ª emissão de CRI - Província Sec 2024 abr-29 99% CDI 67
+3ª Série da 57ª emissão de CRI - Província Sec 2024 abr-31 101% CDI 300
+Subtotal 1.569 
+Em R$ milhões Emissão Vencimento Custo a.a. Saldo
+Dívidas CashMe
+1ª, 2ª e 3ª Séries da 24ª emissão de CRI - True Sec 2022 2029 CDI + 1,375% / IPCA + 7,8049% 182
+1ª Série da 30ª emissão de CRI - Província Sec 2023 2030 IPCA + 8,0% 133
+1ª e 2ª Séries da 155ª emissão de CRI - True Sec 2023 2028 CDI + 1,95% / IPCA + 7,8529% 92
+1ª, 2ª e 3ª Séries da 113ª emissão de CRI - Vert Sec 2023 2027 CDI + 3,0% / CDI + 4,0% 54
+1ª e 2ª Séries da 31ª emissão de CRI - Província Sec 2023 2030 IPCA + 9,0% / IPCA + 10,0% 96
+1ª, 2ª e 3ª Séries da 39ª emissão de CRI - Província Sec 2023 2030 IPCA + 6,0% / IPCA + 10,0% / IPCA + 11,0% 237
+1ª e 2ª Séries da 40ª emissão de CRI - Província Sec 2024 2032 IPCA + 7,0% / IPCA + 10,0% 85
+1ª e 2ª Séries da 48ª emissão de CRI - Província Sec 2024 2031 CDI + 1,4% / IPCA + 7,4% 239
+1ª e 2ª Séries da 139ª emissão de CRI - Vert Sec 2024 2032 IPCA + 7,4632% / IPCA + 9,75% 363
+1ª, 2ª e 3ª Séries da 1ª emissão de CR - Província Sec 2024 2032 CDI + 1,15% / IPCA + 9,1146% / IPCA + 9,1146% 306
+CashMe I Fundo de Investimento em Direitos Creditórios 2024 n.a. CDI + 3,5% 70
+1ª Emissão de Debentures - 2ª Série 2022 2027 CDI + 1,75% 200
+Subtotal 2.057 
+TOTAL DÍVIDA CORPORATIVA 3.626
+
+[p. 31]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+31 
+ 
+ 
+A partir do 4T22, a CashMe realiza a avaliação a valor justo de suas carteiras 
+(securitizáveis e já securitizadas), em função da existência de spread da taxa de originação 
+dessas carteiras versus o custo de securitização. Essa avaliação de valor justo é alocada 
+no Balanço Patrimonial Ativo da Companhia dentro da rubrica de Títulos e V alores 
+Mobiliários e alocada no P atrimônio Líquido através da linha de Outros Resultados 
+Abrangentes (AVJORA). Os dados de endividamento líquido e alavancagem apresentados 
+a seguir excluem essa avaliação a valor justo. 
+ 
+ 
+A alavancagem da Companhia, medida por meio do indicador Dívida Líquida Ajustada/ 
+Patrimônio Líquido Ajustado, atingiu 10,3% no trimestre, ratificando a solidez financeira e 
+reforçando o compromisso da Cyrela em manter esse índice em níveis saudáveis. Esse 
+endividamento líquido inclui R$ 2.057 milhões de dívida bruta e R$ 2.447 milhões de 
+Títulos e Valores Mobiliários das carteiras da CashMe. Excluindo-se os ativos e passivos da 
+CashMe, a Dívida Líquida seria de R$ 1.375 milhões. 
+ 
+ 
+ 
+* Dívida Líquida e Patrimônio Líquido Consolidado excluindo AVJORA CashMe 
+Dívida LP 4.989 4.617 8% 3.762 33%
+Dívida CP 892 746 20% 1.312 -32%
+Total da Dívida 5.882 5.363 10% 5.073 16%
+Caixa, Equivalentes e Títulos de Val. Mob. 3.053 3.042 0% 2.704 13%
+Títulos e Valores Mobiliários LP 2.256 2.065 9% 1.899 19%
+Total de Disponibilidades 5.309 5.107 4% 4.603 15%
+Dívida Líquida Contábil 573 256 124% 471 22%
+AVJORA CashMe 413 414 0% 398 4%
+Dívida Líquida Ajustada 985 670 47% 868 13%
+4T23 4T24 x 4T23Em R$ milhões 4T24 x 3T244T24 3T24
+Dívida Líquida Ajustada 985 670 47% 868 13%
+Patrimônio Líquido Ajustado 9.537 9.437 1% 8.102 18%
+Financiamento à Construção 2.256 1.921 17% 1.749 29%
+Dívida Líquida Ajustada / Patrimônio Líquido Ajustado 10,3% 7,1% 3,2 p.p. 10,7% -0,4 p.p.
+Dívida Líquida Ajust. (ex Fin) / Patrimônio Líquido Ajust. -13,3% -13,3% -0,1 p.p. -10,9% -2,5 p.p.
+4T23 4T24 x 4T23Em R$ milhões 4T24 4T24 x 3T243T24
+
+[p. 32]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Endividamento 
+1.749 1.921 2.256
+4.989
+573
+3.325 3.442
+3.626
+892
+413 413
+4.896
+Dívida 
+Bruta 4T23
+Dívida 
+Bruta 3T24
+Dívida 
+Bruta 4T24
+Prazo 4T24 Caixa e 
+Disponib. 
+4T24
+Dívida 
+Liquída 
+4T24
+5.073
+5.363
+5.882 5.882 5.309
+985
+Div Liq / PL
+Corp.
+Corp.
+Longo
+Curto
+10,7% 7,1%
+(R$ Milhões)
+Financ.
+Indicadores Dívida
+Total
+Dívida 
+Corporativa
+Dívida Líquida/ 
+Patrimônio Líq. 10,3%
+Prazo Médio 3,1 anos 3,5 anos
+Curto Prazo 15% 14%
+Longo Prazo 85% 86%
+Custo Médio de 
+Financiamentos
+Poupança + 
+2,73% 73,2%
+TR + 9,02% 26,8%
+TOTAL 100,0%
+Taxa Mínima TR + 7,99%
+Taxa Máxima TR + 10,10%
+* Exclui dívidas da CashMe (R$ 2.057 MM)
+Custo Médio de Dívida 
+Corp.*
+99,0% do CDI 63,7%
+CDI + 0,62% 36,3%
+TOTAL 100,0%
+10,3%
+Corp.
+Financ. Financ.
+AVJORA CashMe
+
+[p. 33]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+33 
+ 
+GERAÇÃO DE CAIXA 
+ 
+No 4T24, a Companhia apresentou geração de caixa de R$ 61 milhões, comparável a 
+queima de caixa de R$ 94 milhões no 4T23 e geração de caixa de R$ 129 milhões no 3T24. 
+No acumulado do ano, a Cyrela apresentou geração de caixa de R$ 259 milhões, 
+comparável a queima de caixa de R$ 101 milhões no mesmo período do ano anterior. Além 
+disso, o cálculo da geração de caixa exclui o efeito do AVJORA da CashMe, no montante 
+de R$ 413 milhões. 
+ 
+ 
+ 
+Geração / Consumo de Caixa 
+83
+53
+115
+-184
+206
+4T23 4T24
+14
+3T24 2023 2024
+-94
+61
+129
+-101
+259
+-53%
+(R$ milhões) 
+Não Recorrentes
+4T24 3T24 4T23 2024 2023 Var %
+R$ MM R$ MM R$ MM R$ MM R$ MM 2024 x 2023
+Dívida Total (Dívida Bruta s/ Juros a Pagar) 5.882 5.363 10% 5.073 16% 5.882 5.073 16%
+Caixa Total 5.309 5.107 4% 4.603 15% 5.309 4.603 15%
+Dívida Líquida Contábil 573 256 124% 471 22% 573 471 22%
+(+) AVJORA CashMe 413 414 0% 398 4% 413 398 4%
+Dívida Líquida Ajustada 985 670 47% 868 13% 985 868 13%
+∆ Dívida Líquida Ajustada (315) 129 n.a. (219) 44% (117) (296) -60%
+(+) Programa Recompra 152 - n.a. - n.a. 152 11 1330%
+(+) Dividendos 224 - n.a. 125 79% 224 317 -29%
+(+) Efeito Desconsolidação SKR - - n.a. - n.a. - (132) -100%
+Geração/Consumo de Caixa 61 129 -53% (94) n.a. 259 (101) n.a.
+(+) Aquisição/Venda de Participação Societária - (115) -100% - n.a. (206) (83) 148%
+Geração/Consumo de Caixa Operacional 61 14 342% (94) n.a. 53 (184) n.a.
+Var % Var %Geração/Consumo de Caixa (R$ milhões)
+
+[p. 34]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+34 
+ 
+ANEXO I – BALANÇO PATRIMONIAL 
+ 
+ 
+ 
+ 
+CYRELA BRAZIL REALTY S.A. EMPREENDIMENTOS E PARTICIPAÇÕES 
+ 
+ Balanço Patrimonial Consolidado 
+ R$ milhões 
+ 
+ 31 de Dezembro, 2024 31 de Dezembro, 2023 
+ ATIVO 
+ 
+ Circulante 12.115 9.768 
+ Caixa e Equivalentes de Caixa 532 242 
+ Títulos e Valores Mobiliários 2.521 2.462 
+ Contas a Receber 3.701 2.858 
+ Imóveis a Comercializar 4.763 3.701 
+ Impostos e Contribuições a Compensar 11 10 
+ Imposto e Contribuições de Recolhimentos Diferidos 1 4 
+ Despesas com Vendas a Apropriar 137 107 
+ Despesas Antecipadas 74 31 
+ Instrumentos Financeiros e Derivativos 34 35 
+ Demais Contas a Receber 342 319 
+ 
+ Não Circulante 9.126 7.603 
+ 
+ Realizável a Longo Prazo 5.692 4.829 
+ Contas a Receber 1.076 597 
+ Títulos e Valores Mobiliários 2.256 1.899 
+ Contas-Corrente com Parceiros nos Empreendimentos 9 9 
+ Partes Relacionadas 230 436 
+ Impostos e Contribuições a Compensar 194 178 
+ Imposto e Contribuições de Recolhimentos Diferidos 1 3 
+ Imóveis a Comercializar 1.717 1.655 
+ Demais Contas a receber 208 52 
+ 
+ Ativo Permanente 3.434 2.773 
+ Investimentos em Controladas e Coligadas 3.126 2.439 
+ Imobilizado 160 146 
+ Intangível 148 188 
+ 
+ 
+ Total do Ativo 21.241 17.371
+
+[p. 35]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+35 
+ 
+ 
+ 
+ 
+ 
+ 31 de Dezembro, 2024 31 de Dezembro, 2023 
+ 
+ 
+ 
+PASSIVO E PATRIMÔNIO LÍQUIDO 
+ 
+ 
+ 
+Circulante 3.702 3.454 
+ 
+Empréstimos e Financiamentos 388 477 
+ 
+Debêntures 72 17 
+ 
+Certificados de recebíveis imobiliários - CRI 544 912 
+ 
+Instrumentos Financeiros e Derivativos - 1 
+ 
+Fornecedores 249 319 
+ 
+Provisões para Garantias 81 58 
+ 
+Impostos e Contribuições a Recolher 72 51 
+ 
+Impostos e Contribuições Diferidos 80 63 
+ 
+Salários, encargos sociais e participações 225 183 
+ 
+Contas a Pagar por Aquisição de Imóveis 802 367 
+ 
+Dividendos a Pagar 392 224 
+ 
+Partes Relacionadas 129 56 
+ 
+Contas-Corrente com Parceiros nos Empreendimentos 50 49 
+ 
+Adiantamentos de Clientes 129 293 
+ 
+Provisões para Riscos Fiscais, Trabalhistas e Cíveis 105 117 
+ 
+Demais Contas a Pagar 384 268 
+ 
+ 
+ 
+Exigível a Longo Prazo 7.589 5.417 
+ 
+Empréstimos e Financiamentos 1.955 1.518 
+ 
+Debêntures 133 949 
+ 
+Certificados de recebíveis imobiliários - CRI 2.882 1.285 
+ 
+Fornecedores 1 0 
+ 
+Provisões para Garantias 124 89 
+ 
+Contas a Pagar por Aquisição de Imóveis 1.202 487 
+ 
+Provisões para Riscos Fiscais, Trabalhistas e Cíveis 94 98 
+ 
+Impostos e Contribuições Diferidos 367 333 
+ 
+Adiantamento de Clientes 832 659 
+ 
+ 
+ 
+Patrimônio Líquido Consolidado 9.949 8.500 
+ 
+ 
+ 
+Participações Minoritárias 1.055 809 
+ 
+ 
+ 
+Patrimônio Líquido 8.895 7.690 
+ 
+Capital Social 3.685 3.396 
+ 
+ Reservas de Capital 19 (73) 
+ 
+Reserva Legal 616 533 
+ 
+Reserva de Retenção de Lucros 4.437 3.747 
+ 
+Ações em Tesouraria (265) (309) 
+ 
+Lucros/Prejuízos Acumulados - - 
+ 
+Outros Resultados Abrangentes 403 395 
+ 
+ 
+ Total do Passivo e do Patrimônio Líquido 
+ 
+ 
+ 
+ 
+21.241 
+ 
+17.371
+
+[p. 36]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+36 
+ 
+ANEXO II – DEMONSTRAÇÃO DE RESULTADO 
+ 
+ 
+Demonstração de Resultados 
+Consolidados 
+ R$ milhões 
+ 
+ 4T24 3T24 % 
+Variação 
+ 2024 2023 % 
+ Variação 
+ 
+ 
+ 
+ 
+ Receita Bruta de Vendas e/ou Serviços 
+ Incorporação e Revenda de Imóveis 2.616 2.075 26% 8.202 6.373 29% 
+ Loteamentos 1 (1) n.a 4 4 0% 
+ Prestação de Serviços e Outras 27 25 6% 96 86 11% 
+ Provisão Para Distrato (64) (16) 296% (109) (30) 263% 
+ Provisão Para Distrato - PCLD (6) 3 n.a (6) (4) 68% 
+ Deduções da Receita Bruta (69) (57) 20% (220) (177) 24% 
+ Receita Líquida Operacional 2.506 2.030 23% 7.966 6.253 27% 
+ 
+ 
+ Dos Imóveis Vendidos e Revendidos (1.739) (1.354) 28% (5.419) (4.194) 29% 
+ Loteamentos 0 0 -41% (0) (1) -79% 
+ Da Prestação de Serviços e Outras (7) (9) -16% (36) (28) 29% 
+ Provisão Para Distrato 40 9 352% 69 14 392% 
+ Custo das Vendas e Serviços Realizados (1.706) (1.353) 26% (5.386) (4.209) 28% 
+ 
+ 
+ Lucro (Prejuízo) Bruto Operacional 800 676 18% 2.580 2.044 26% 
+ 
+ Receitas (Despesas) Operacionais 
+ Com Vendas (188) (170) 10% (659) (629) 5% 
+ Gerais e Administrativas (119) (123) -4% (455) (510) -11% 
+ Honorários de Administração (2) (2) 3% (7) (7) -3% 
+ Equivalência Patrimonial 148 136 9% 501 262 91% 
+ Outros Resultados nos Investimentos 4 72 -95% 177 15 1108% 
+ Outras Despesas/Receitas Operacionais (18) (35) -50% (144) (49) 195% 
+ (174) (123) 42% (587) (918) -36% 
+ 
+ 
+ 
+Lucro (Prejuízo) antes do Resultado 
+Financeiro 626 553 13% 1.993 1.125 77% 
+ 
+ 
+ Despesas Financeiras (158) (130) 21% (570) (558) 2% 
+ Receitas Financeiras 174 170 3% 683 695 -2% 
+ 
+ 
+ 
+Lucro Antes dos Impostos Sobre o Lucro, e 
+de Acionistas não Controladores 643 593 8% 2.106 1.262 67% 
+ 
+ 
+ Diferido (10) (7) 32% (27) (13) 115% 
+ Corrente (46) (44) 3% (158) (144) 10% 
+ Imposto de Renda e Contribuição Social (55) (52) 7% (185) (157) 18% 
+ 
+ 
+ 
+Lucro Antes da Part. dos Acionistas não 
+Controladores 587 541 9% 1.921 1.106 74% 
+ 
+ 
+ 
+Parcela de Lucro atribuída aos acionistas não 
+controladores (91) (68) 34% (272) (164) 66% 
+ 
+ 
+ Lucro (Prejuízo) Líquido 497 473 5% 1.649 942 75%
+
+[p. 37]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+37 
+ 
+ANEXO III – RECONHECIMENTO DE RECEITA 
+*Inclui apenas receitas decorrentes das atividades de Incorporação Imobiliária Residencial e Loteamentos 
+ 
+ 
+ 
+EMPREENDIMENTO SEGMENTO DATA 
+RECONHECIMENTO
+ 4T24 4T23 4T24 4T23 
+Eden Park By Dror Alto Padrão mar-23 8% 4% 111 67 
+Casa Ibirapuera Alto Padrão jul-22 6% 2% 50 18 
+Jardim Europa By Cyrela Alto Padrão dez-21 4% 5% 42 34 
+Iconyc By Yoo Alto Padrão set-23 10% 4% 40 17 
+Vivaz Prime Vila Nova Cachoeirinha Vivaz Prime jun-22 7% 7% 34 21 
+Cyrela Moema By Yoo Alto Padrão set-21 6% 6% 33 17 
+On The Sky Cyrela By Yoo Alto Padrão jun-23 4% 1% 29 29 
+Living Infinity Nova Klabin Médio abr-22 7% 3% 27 12 
+Easy Botafogo Alto Padrão mar-22 2% 7% 26 31 
+Maison Cyrela Perdizes Alto Padrão mar-22 6% 4% 26 17 
+Living Full Vila Nova Conceição Médio ago-22 7% 5% 25 15 
+Vivaz Penha MCMV 2 e 3 dez-21 6% 7% 23 35 
+Living Wellness Aclimação Médio mar-23 6% 4% 22 11 
+Le Jardin Alto Padrão nov-21 6% 8% 20 15
+Living Duett Mooca Médio nov-22 7% 6% 19 18 
+Vivaz Prime Rio Bonito Vivaz Prime mar-22 5% 10% 19 40 
+N.A.U Klabin Alto Padrão mar-23 7% 3% 18 5 
+Vivaz Irajá MCMV 2 e 3 mai-23 14% 4% 18 4 
+Orygem Acqua Home Alto Padrão dez-21 2% 6% 17 22 
+Vivaz Prime Belém Vivaz Prime mai-22 7% 5% 17 16 
+Vivaz Prime Voluntários Da Patria Vivaz Prime abr-23 8% 2% 17 6 
+Legacy Paineiras Alto Padrão fev-23 10% 5% 16 9 
+On The Sea Arpoador Alto Padrão dez-21 7% 4% 16 7 
+Oscar Freire 1.560 Alto Padrão out-22 7% 4% 16 9 
+Vivaz Prime Vila Prudente Vivaz Prime nov-22 9% 6% 16 10 
+Demais empreendimentos 672 1.291 
+Sub-Total 1.369 1.776 
+Obras Reconhecidas após Dezembro 2023
+Vista Venezia Alto Padrão dez-24 51% 0% 397 - 
+On The Sky – Wanders & Yoo Alto Padrão dez-24 37% 0% 125 - 
+Gate By Yoo Alto Padrão out-24 37% 0% 95 - 
+Aura Pacaembu By Cyrela Alto Padrão nov-24 34% 0% 78 - 
+Living Full Vila Olimpia Médio dez-24 37% 0% 77 - 
+Vivaz Connection Paulista MCMV 2 e 3 out-24 39% 0% 63 - 
+25H By Living Médio dez-24 37% 0% 55 - 
+High Line By Living Médio dez-24 41% 0% 43 - 
+Home Boutique By Living Ipiranga Médio out-24 38% 0% 42 - 
+Home Boutique By Living Anália Franco Médio out-24 29% 0% 30 - 
+Eredita Moinhos Alto Padrão dez-24 37% 0% 30 - 
+Vivaz Parque Prime Freguesia Do Ó MCMV 2 e 3 out-24 25% 0% 29 - 
+Vivaz Belenzinho MCMV 2 e 3 dez-24 29% 0% 27 - 
+Woods Park Design By Edsa Alto Padrão set-24 0% 0% 15 - 
+Living Grand Wish Jardim Médio fev-24 5% 0% 14 - 
+Demais empreendimentos 129 - 
+Sub-Total 1.249 - 
+Total 2.618 1.776 
+% EVOLUÇÃO FINANCEIRA RECEITA APROPRIADA NOS 
+PERÍODOS (R$ mi)
+
+[p. 38]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+38 
+ 
+ANEXO IV – LANÇAMENTOS 
+ 
+ 
+ 
+ 
+Empreendimento Trimestre Mês Região VGV 
+(R$ MM) Unidades Produto % CBR
+1 Only By Living - F3 Australia 1T24 jan-24 RJ 92 180 Médio 60%
+2 OLIIE 117 1T24 jan-24 SP 206 181 Alto Padrão 15%
+3 The Edition by Living | Vila Mariana 1T24 fev-24 SP 136 90 Médio 100%
+4 Vivaz Vila Prudente 1T24 fev-24 SP 111 460 MCMV 2 e 3 100%
+5 Vista - Menino Deus 1T24 fev-24 Sul 117 323 Alto Padrão 80%
+6 Quattri Cyrela Vila Mariana 1T24 mar-24 SP 197 183 Alto Padrão 100%
+7 Vivaz Cantareira 3 1T24 mar-24 SP 188 876 MCMV 2 e 3 100%
+8 La Isla Residence Club 1T24 mar-24 RJ 501 474 Alto Padrão 90%
+9 Residencial Porto Maravilha 1T24 mar-24 RJ 153 499 MCMV 2 e 3 40%
+10 Living Full Pinheiros 2T24 abr-24 SP 187 620 Médio 100%
+11 RJZ Cyrela Like Residencial Club - F3 2T24 abr-24 RJ 108 179 Alto Padrão 100%
+12 Secret Garden Vila Mariana 2T24 mai-24 SP 247 216 Alto Padrão 75%
+13 Vivaz Estação Sacomã 2T24 mai-24 SP 108 445 MCMV 2 e 3 100%
+14 Vivaz Parque Prime Freguesia do Ó 2T24 mai-24 SP 202 602 MCMV 2 e 3 100%
+15 Wide Nova Campinas 2T24 jun-24 SP INT 55 44 Alto Padrão 50%
+16 Wish Bueno Six 2T24 jun-24 CO 80 120 Médio 50%
+17 Escape Eden 2T24 jun-24 SP 316 259 Alto Padrão 45%
+18 Pitangueira Reserva Urbana 2T24 jun-24 CO 158 480 MCMV 2 e 3 50%
+19 Nova Norte Residencial - Ginga 3T24 jul-24 RJ 140 500 MCMV 2 e 3 40%
+20 Casa Gabriele By Cyrela 3T24 jul-24 SP 323 48 Alto Padrão 100%
+21 Living Full Berrini 3T24 jul-24 SP 184 568 Médio 100%
+22 Vivaz Santa Marina 3T24 jul-24 SP 204 795 MCMV 2 e 3 100%
+23 Living Vista Parque 3T24 jul-24 RJ 184 498 Médio 100%
+24 Vivaz Ermelino Matarazzo 3T24 ago-24 SP 159 776 MCMV 2 e 3 100%
+25 Palazzo Mooca by Living 3T24 ago-24 SP 177 172 Médio 75%
+26 Eredità Moinhos 3T24 ago-24 Sul 284 27 Alto Padrão 80%
+27 Vista Praia De Belas 3T24 ago-24 Sul 136 421 Alto Padrão 80%
+28 Home Boutique By Living Ipiranga 3T24 set-24 SP 179 125 Médio 100%
+29 Vivaz Parque Freguesia do Ó 2 3T24 set-24 SP 156 667 MCMV 2 e 3 100%
+30 Woods Park Design By Edsa 3T24 set-24 RJ 362 196 Alto Padrão 70%
+31 Ox Park Design By Edsa 3T24 set-24 RJ 378 152 Alto Padrão 70%
+32 Smart 36 3T24 set-24 CO 211 413 Médio 46%
+33 Now Milão - F2 3T24 set-24 CO 48 142 MCMV 2 e 3 50%
+34 Vista Nova Carlos Gomes 4T24 out-24 Sul 142 337 Alto Padrão 90%
+35 Aura Pacaembu by Cyrela 4T24 out-24 SP 322 66 Alto Padrão 65%
+36 Home Boutique By Living Anália Franco 4T24 out-24 SP 155 110 Médio 100%
+37 Vista Venezia 4T24 out-24 SP 1.786 94 Alto Padrão 82%
+38 Vivaz Belenzinho 4T24 out-24 SP 187 799 MCMV 2 e 3 100%
+39 Vivaz Connection Paulista 4T24 out-24 SP 172 569 MCMV 2 e 3 100%
+40 Gate By Yoo 4T24 out-24 RJ 257 579 Alto Padrão 100%
+41 Heaven 4T24 out-24 SP 1.206 890 Alto Padrão 40%
+42 25H By Living 4T24 nov-24 SP 196 594 Médio 100%
+43 High Line By Living 4T24 nov-24 SP 254 243 Médio 100%
+44 Vivaz Metropolitano - Parque 4T24 nov-24 RJ 82 334 MCMV 2 e 3 100%
+45 Majestic 4T24 nov-24 RJ 121 70 Alto Padrão 100%
+46 Vivaz Geremário Prime 4T24 nov-24 RJ 96 315 MCMV 2 e 3 100%
+47 Vivaz Ermelino Matarazzo 2 4T24 dez-24 SP 166 775 MCMV 2 e 3 100%
+48 On The Sky Bela Cintra 4T24 dez-24 SP 600 307 Alto Padrão 70%
+49 Living Full Vila Olímpia 4T24 dez-24 SP 278 574 Médio 75%
+50 Vivaz Parque Freguesia do Ó 3 4T24 dez-24 SP 73 315 MCMV 2 e 3 100%
+51 Now Alameda Das Águas 4T24 dez-24 CO 116 336 MCMV 2 e 3 50%
+52 Orla Maua 4T24 dez-24 RJ 338 809 MCMV 2 e 3 50%
+53 Cidade Villa Lobos - Sonata 4T24 dez-24 SP 81 318 MCMV 2 e 3 40%
+54 Cidade Villa Lobos - Soprano 4T24 dez-24 SP 108 417 MCMV 2 e 3 40%
+Total 13.021 20.582
+
+[p. 39]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+39 
+ 
+4T24 
+ 
+2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4T24 4T23 Var% 4T24 4T23 Var% 4T24 4T23 Var p.p. 4T24 4T23 Var% 4T24 4T23 Var% 4T24 4T23 Var%
+São Paulo 5.585 1.932 189% 4.071 1.309 211% 73% 68% 5,1 p.p 6.071 1.655 267% 16.883 13.176 28% 126 27 358%
+Rio de Janeiro 894 359 149% 725 215 237% 81% 60% 21,1 p.p 2.107 603 249% 10.435 7.886 32% 0 11 -100%
+Sul 142 0 n.a. 128 0 n.a. 90% 0% 90,0 p.p 337 0 n.a. 15.053 0 n.a. 0 0 n.a.
+Outros 116 453 -74% 58 226 -74% 50% 50% 0,0 p.p 336 998 -66% 6.333 7.136 -11% 0 37 -100%
+Total 6.737 2.744 146% 4.982 1.751 185% 74% 64% 10,1 p.p 8.851 3.256 172% 15.165 10.734 41% 126 75 67%
+4T24 4T23 Var% 4T24 4T23 Var% 4T24 4T23 Var p.p. 4T24 4T23 Var% 4T24 4T23 Var% 4T24 4T23 Var%
+Alto padrão 4.434 1.491 197% 3.089 884 250% 70% 59% 10,4 p.p 2.343 667 251% 22.020 14.884 48% 4 37 -89%
+Médio 884 901 -2% 814 614 33% 92% 68% 24,0 p.p 1.521 1.268 20% 13.182 8.834 49% 98 32 207%
+Vivaz Prime 0 0 n.a. 0 0 n.a. 0% 0% 0,0 p.p 0 0 n.a. 0 0 n.a. 0 0 n.a
+MCMV 2 e 3 1.419 352 303% 1.079 253 326% 76% 72% 4,0 p.p 4.987 1.321 278% 8.070 6.584 23% 24 6 307%
+Total 6.737 2.744 146% 4.982 1.751 185% 74% 64% 10,1 p.p 8.851 3.256 172% 15.165 10.734 41% 126 75 67%
+VGV Permutado (R$ MM)
+Por Produto VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR Unidades Preço Médio (m²) VGV Permutado (R$ MM)
+Por Região VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR Unidades Preço Médio (m²)
+2024 2023 Var% 2024 2023 Var% 2024 2023 Var p.p. 2024 2023 Var% 2024 2023 Var% 2024 2023 Var%
+São Paulo 8.862 6.377 39% 6.894 4.797 44% 78% 75% 2,6 p.p 13.154 6.926 90% 14.066 12.468 13% 252 269 -6%
+Rio de Janeiro 2.812 1.463 92% 2.158 959 125% 77% 66% 11,2 p.p 4.785 2.822 70% 10.345 8.852 17% 92 41 123%
+Sul 678 415 63% 557 317 76% 82% 76% 5,8 p.p 1.108 1.274 -13% 18.706 14.574 28% 49 55 -11%
+Outros 669 1.512 -56% 326 896 -64% 49% 59% -10,5 p.p 1.535 2.956 -48% 7.848 7.784 1% 61 129 -53%
+Total 13.021 9.767 33% 9.934 6.969 43% 76% 71% 4,9 p.p 20.582 13.978 47% 12.724 10.859 17% 454 495 -8%
+2024 2023 Var% 2024 2023 Var% 2024 2023 Var p.p. 2024 2023 Var% 2024 2023 Var% 2024 2023 Var%
+Alto padrão 7.663 5.076 51% 5.501 3.415 61% 72% 67% 4,5 p.p 5.046 3.922 29% 18.331 15.899 15% 232 298 -22%
+Médio 2.313 2.880 -20% 2.009 2.176 -8% 87% 76% 11,3 p.p 4.307 3.832 12% 11.391 9.441 21% 175 150 16%
+Vivaz Prime 0 327 -100% 0 327 -100% 0% 100% -100,0 p.p 0 918 -100% 0 7.606 -100% 0 28 -100%
+CVA 2 e 3 3.044 1.485 105% 2.425 1.051 131% 80% 71% 8,9 p.p 11.229 5.306 112% 7.569 6.393 18% 47 18 156%
+Total 13.021 9.767 33% 9.934 6.969 43% 76% 71% 4,9 p.p 20.582 13.978 47% 12.724 10.859 17% 454 495 -8%
+VGV Permutado (R$ MM)
+Por Produto VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR Unidades Preço Médio (m²) VGV Permutado (R$ MM)
+Por Região VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR Unidades Preço Médio (m²)
+
+[p. 40]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+40 
+ 
+ANEXO V – VENDAS 
+ 
+ 4T24 
+ 
+ 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2024 2023 Var % 2024 2023 Var % 2024 2023 Var p.p. 2024 2023 Var % 2024 2023 Var %
+São Paulo 8.162 5.518 48% 6.344 4.463 42% 78% 81% -3,2 p.p 12.591 8.904 41% 13.047 11.142 17%
+Rio de Janeiro 2.841 1.410 102% 2.186 1.106 98% 77% 78% -1,5 p.p 4.718 2.937 61% 10.666 9.092 17%
+Sul 653 536 22% 538 426 26% 82% 80% 2,9 p.p 1.296 1.084 20% 15.040 14.823 1%
+Outros 968 1.428 -32% 557 780 -29% 58% 55% 2,9 p.p 2.088 2.771 -25% 8.537 8.106 5%
+Total 12.624 8.892 42% 9.625 6.776 42% 76% 76% 0,0 p.p 20.693 15.696 32% 11.957 10.294 16%
+2024 2023 Var % 2024 2023 Var % 2024 2023 Var p.p. 2024 2023 Var % 2024 2023 Var %
+Alto padrão 6.915 4.303 61% 4.969 3.070 62% 72% 71% 0,5 p.p 5.627 3.656 54% 16.679 15.514 8%
+Médio 2.815 2.372 19% 2.336 1.837 27% 83% 77% 5,6 p.p 4.972 3.736 33% 11.132 9.847 13%
+Vivaz Prime 346 541 -36% 318 531 -40% 92% 98% -6,1 p.p 1.002 1.691 -41% 8.218 7.534 9%
+MCMV 2 e 3 2.549 1.676 52% 2.002 1.339 50% 79% 80% -1,3 p.p 9.092 6.613 37% 7.570 6.460 17%
+Total 12.624 8.892 42% 9.625 6.776 42% 76% 76% 0,0 p.p 20.693 15.696 32% 11.957 10.294 16%
+% CBR
+Por Região
+VGV Vendido (R$ MM) Unidades Preço Médio (R$/m²)% CBR
+Por Produto
+VGV Vendido (R$ MM) Unidades Preço Médio (R$ mil/m²)
+VGV Vendido CBR (R$ MM)
+VGV Vendido CBR (R$ MM)
+4T24 4T23 Var % 4T24 4T23 Var % 4T24 4T23 Var p.p. 4T24 4T23 Var % 4T24 4T23 Var %
+São Paulo 3.719 1.668 123% 2.732 1.234 121% 73% 74% -0,5 p.p 4.837 2.273 113% 15.149 11.752 29%
+Rio de Janeiro 811 467 74% 634 327 94% 78% 70% 8,2 p.p 1.746 927 88% 10.856 8.463 28%
+Sul 191 135 41% 162 109 49% 85% 81% 4,6 p.p 306 268 14% 14.434 14.036 3%
+Outros 184 323 -43% 108 191 -43% 59% 59% -0,3 p.p 341 593 -42% 8.266 7.809 6%
+Total 4.905 2.593 89% 3.636 1.860 95% 74% 72% 2,4 p.p 7.230 4.061 78% 13.662 10.342 32%
+4T24 4T23 Var % 4T24 4T23 Var % 4T24 4T23 Var p.p. 4T24 4T23 Var % 4T24 4T23 Var %
+Alto padrão 2.997 1.255 139% 2.075 828 151% 69% 66% 3,3 p.p 2.244 880 155% 18.351 15.567 18%
+Médio 855 838 2% 747 602 24% 87% 72% 15,6 p.p 1.458 1.285 13% 13.173 9.212 43%
+Vivaz Prime 39 105 -63% 36 102 -65% 94% 97% -3,2 p.p 96 358 -73% 8.715 7.442 17%
+MCMV 2 e 3 1.015 395 157% 778 328 137% 77% 83% -6,4 p.p 3.432 1.538 123% 8.256 6.630 25%
+Total 4.905 2.593 89% 3.636 1.860 95% 74% 72% 2,4 p.p 7.230 4.061 78% 13.662 10.342 32%
+% CBR
+Por Região VGV Vendido (R$ MM) Unidades Preço Médio (R$/m²)% CBR
+Por Produto VGV Vendido (R$ MM) Unidades Preço Médio (R$/m²)
+VGV Vendido CBR (R$ MM)
+VGV Vendido CBR (R$ MM)
+
+[p. 41]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+41 
+ 
+ANEXO VI – TERRENOS 
+ 
+Estoque de Terrenos 
+ 
+ 
+Aquisição de Terrenos 
+ 
+ 
+ 
+Por Região
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+ (R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do 
+terreno
+% CBR
+São Paulo 10.314 9.028 27 13.898 54% 87%
+Rio de Janeiro 7.611 6.801 20 9.126 61% 99%
+Sul 1.686 1.373 3 1.536 61% 80%
+Outros 798 686 20 5.467 41% 64%
+Total 20.409 17.888 70 30.027 55% 90%
+,
+Por Produto
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+(R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do
+ terreno
+% CBR
+Alto padrão 15.495 13.393 42 12.061 56% 90%
+Médio 1.796 1.573 14 5.359 54% 88%
+MCMV 2 e 3 3.119 2.922 14 12.607 66% 93%
+Total 20.409 17.888 70 30.027 55% 90%
+Por Região
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+ (R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do 
+terreno
+% CBR
+São Paulo 5.954 4.960 13 6.657 72% 88%
+Rio de Janeiro 1.263 1.010 6 2.637 97% 100%
+Sul 0 0 0 0 0% 0%
+Outros 0 0 0 0 0% 0%
+Total 7.216 5.969 19 9.294 76% 90%
+Por Produto
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+(R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do
+ terreno
+% CBR
+Alto padrão 4.794 3.756 7 1.317 78% 87%
+Médio 760 677 4 1.341 60% 97%
+MCMV 2 e 3 1.663 1.537 8 6.636 77% 96%
+Total 7.216 5.969 19 9.294 76% 90%
+
+[p. 42]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+42 
+ 
+ANEXO VII – EMPREENDIMENTOS ENTREGUES 
+ 
+ 
+ 
+Empreendimentos Entregues Lançamento Entrega Região
+VGV 
+Lançamento
+(R$ MM)
+Unidades 
+Entregues Produto % CBR
+1 On The Parc ago-20 jan-24 SP 339 97 Alto Padrão 100%
+2 Vivaz Magarça ago-21 fev-24 RJ 88 500 MCMV 2 e 3 100%
+3 Living Unique out-20 fev-24 SP 91 136 Médio 75%
+4 Vida Mar - F2 jan-23 fev-24 CO 34 134 MCMV 2 e 3 50%
+5 Vivaz Estação Belém 2 set-21 mar-24 SP 108 501 MCMV 2 e 3 100%
+6 Ville Estrela abr-21 mar-24 MG 16 84 MCMV 2 e 3 30%
+7 Ville Hong Kong abr-21 abr-24 MG 22 116 MCMV 2 e 3 40%
+8 Vivaz Penha - F1 set-21 mai-24 SP 131 584 MCMV 2 e 3 75%
+9 Vida Milão - F3 jun-23 mai-24 CO 36 136 MCMV 2 e 3 50%
+10 Wish Aeroporto jun-21 jun-24 CO 52 160 Médio 50%
+11 Living Alto Do Ipiranga nov-20 jun-24 SP 162 225 Médio 100%
+12 Living Grand Wish Nova Campinas dez-20 jun-24 SP INT 175 200 Médio 100%
+13 Vivaz Estacao Santa Marina jun-21 jun-24 SP 109 501 MCMV 2 e 3 100%
+14 Vivaz Prime Laguna nov-21 jun-24 SP 126 439 MCMV 2 e 3 100%
+15 Atmosfera Condominium Park set-21 jun-24 RJ 283 264 Alto Padrão 70%
+16 Ville Violeta dez-20 jun-24 MG 36 230 MCMV 2 e 3 30%
+17 Vivaz Prime Bandeirantes - F1 dez-21 jul-24 RJ 131 477 MCMV 2 e 3 100%
+18 Vivaz Prime Bandeirantes - F2 jul-22 jul-24 RJ 45 159 MCMV 2 e 3 100%
+19 Orygem Aqua Home - F1 ago-21 jul-24 RJ 173 76 Alto Padrão 100%
+20 Orygem Aqua Home - F2 abr-22 jul-24 RJ 105 64 Alto Padrão 100%
+21 Cyrela Legacy Campo Belo dez-20 jul-24 SP 156 177 Alto Padrão 70%
+22 Living One mai-21 jul-24 SP 125 128 Médio 80%
+23 Ville Honduras fev-20 set-24 MG 36 190 MCMV 2 e 3 40%
+24 Atmosfera 360° nov-20 set-24 SP 225 331 Alto Padrão 100%
+25 Medplex Vera Cruz mai-21 set-24 SP INT 127 203 Alto Padrão 100%
+26 Cyrela Bothanic Campo Belo jun-21 out-24 SP 285 319 Alto Padrão 100%
+27 Vivaz Prime João de Luca dez-21 out-24 SP 108 279 Vivaz Prime 100%
+28 Vivaz Estação Vila Prudente 2 dez-21 out-24 SP 96 352 MCMV 2 e 3 100%
+29 Vivaz Rua Honório fev-22 out-24 RJ 65 276 MCMV 2 e 3 100%
+30 Vivaz Zona Norte jun-22 out-24 RJ 78 320 MCMV 2 e 3 100%
+31 Vivaz Zona Norte - F2 jun-23 out-24 RJ 40 154 MCMV 2 e 3 100%
+32 Wish Bella Vista dez-21 out-24 CO 65 164 MCMV 2 e 3 50%
+33 Now Parque Amazônia - F1 jun-22 out-24 CO 43 166 MCMV 2 e 3 50%
+34 Wave By Yoo fev-22 nov-24 RJ 483 166 Alto Padrão 100%
+35 Cyrela By Pininfarina abr-21 nov-24 Sul 182 25 Alto Padrão 68%
+36 Skyline Parque Moinhos jun-21 nov-24 Sul 105 314 Alto Padrão 68%
+37 Vivaz Prime Rio Bonito - F1 nov-21 nov-24 SP 123 415 Vivaz Prime 100%
+38 Grand Living Nova Klabin ago-21 dez-24 SP 164 257 Médio 100%
+39 Villággio Tatuapé - Condomínio Pienza out-21 dez-24 SP 91 76 Médio 75%
+40 Vivaz Penha - F2 mai-22 dez-24 SP 97 440 MCMV 2 e 3 75%
+41 Easy Botafogo nov-21 dez-24 RJ 314 152 Alto Padrão 100%
+Total 5.271 9.987
+
+[p. 43]
+Release de Resultados – 4T24 | 2024 
+ 
+ 
+ 
+ 
+ 
+43 
+ 
+Glossário 
+ 
+VGV: Valor Geral de Vendas, que é o montante em R$ que pode ser obtido ao vender 
+cada unidade imobiliária 
+%CBR: participação da Companhia obtida pela somatória da participação direta e 
+indireta nos projetos. 
+Vendas contratadas : somatória dos valores das unidades vendidas qu e tenham 
+contratos assinados. 
+Percentage of Completion ("PoC") : custo incorrido dividido pelo custo total da 
+obra. A receita é reconhecida até o limite da relação "custo incorrido / custo total". 
+Resultado a apropriar: devido ao método contábil "PoC" , o resultado das unidades 
+vendidas é apropriado conforme a evolução financeira das obras. Portanto é o resultado que 
+será reconhecido à medida que o custo incorrido evoluir. 
+Geração (Consumo) de caixa: variação da dívida líquida entre dois períodos. 
+Dívida líquida: endividamento total adicionado aos gastos de emissão de debêntures 
+e CRI's e líquido de juros acruados deduzido da posição de caixa (disponibilidades + títulos e 
+valores mobiliários de curto e longo prazos). 
+Usinagem: andamento de obras de unidades já comercializadas (de acordo com o 
+método contábil POC). 
+CRI: Certificado de Recebível Imobiliário 
+Lucro por ação: lucro líquido do período dividido pela quantidade de ações (no último 
+dia do trimestre) emitidas sem considerar aquelas mantidas em tesouraria. 
+Landbank: estoque de terrenos disponíveis para lançamentos futuros. 
+Permuta: alternativa para a compra de terreno que consiste em pagar o proprietário 
+do terreno com unidades (no caso da permuta física) ou com o fluxo de caixa de vendas de 
+unidades (no caso de permuta financeira). 
+SFH: Sistema Financeiro da Habitação.
+
+[p. 44]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+1 
+ 
+Cyrela Reports Net Income of R$497 million in the quarter 
+and R$1,649 million in 2024 
+ 
+ 
+ 
+ 
+Conference Call on 
+the 4Q24 Results 
+Portuguese 
+(with simultaneous interpretation) 
+March 21, 2024 
+11:00 a.m. (BRT) 
+10:00 a.m. (US EST) 
+ 
+ 
+ZOOM: click here 
+ 
+IR Contacts: 
+ri@cyrela.com.br 
+Visit our IR Website at: 
+http://ri.cyrela.com.br/en/ 
+ 
+SALES 
+ 
+In 4Q24: 
+R$4,905 million, 89% up from 
+4Q23 and 53% higher than 3Q24 
+ 
+In 2024: 
+R$12,624 million, 42% up from 
+2023 
+ 
+ 
+ 
+ 
+ 
+NET INCOME 
+ 
+In 4Q24: 
+R$497 million net profit, vs. 
+ R$248 million in 4Q23 and R$473 
+million in 3Q24 
+ 
+In 2024: 
+R$1,649 million net profit, vs. 
+ R$942 million in 2023 
+ 
+ 
+São Paulo, March 20, 2025 - Cyrela Brazil Realty S.A. Empreendimentos e Participações (“CBR” or “Company” or 
+“Cyrela”) (B3: CYRE3; OTCQPink: CYRBY), one of the largest residential real estate developers in Brazil, announces its 
+earnings results for the fourth quarter of 2024 (4Q24). The financial and operational information contained herein, except 
+where otherwise indicated, is presented in B razilian Reais (R$) and follows the International Financial Reporting 
+Standards (IFRS), which are in line with technical guideline OCPC 04 and technical interpretation ICPC 02, the Brazilian 
+accounting principles, the financial reporting standards applicable to the Brazilian real estate developers and the relevant 
+regulation. The comparisons herein refer to the same period of 2023 (4Q23) and, as stated otherwise, to the third 
+quarter of 2024 (3Q24). 
+ 
+ROE – RETURN ON EQUITY 
+ 
+of 20.9% 
+ 
+ (Net income for the past 12 
+months over the period’s average 
+shareholders' equity, excluding 
+minority interests) 
+ 
+ 
+LAUNCHES 
+ 
+In 4Q24: 
+R$6,737 million, 146% higher than 
+4Q23 and 116% up from 3Q24 
+ 
+In 2024: 
+R$13,021 million, 33% higher than 
+2023 
+ 
+CASH GENERATION 
+ 
+In 4Q24: 
+Cash generation of R$61 million vs. 
+cash burn of R$94 million in 4Q23 
+and cash generation of R$129 
+million in 3Q24 
+In 2024: 
+Cash generation of R$259 million 
+vs. cash burn of R$101 million in 
+2023 
+ 
+ 
+GROSS MARGIN 
+ 
+In 4Q24: 
+31.9%, 1.8 p.p. down from 4Q23 
+and 1.4 p.p. lower than 3Q24 
+ 
+In 2024: 
+32.4%, 0.3 p.p. down from 2023 
+ 
+CYRE3 
+(03.20.2024) 
+ 
+# of Shares (ex 
+Treasury): 
+366,310,939 
+ 
+Market Cap: 
+R$8,736.5 million 
+US$1,540.8 million
+
+[p. 45]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+2 
+ 
+MESSAGE FROM MANAGEMENT ................................................................ 3 
+MAIN INDICATORS ................................................................................... 4 
+OPERATIONAL PERFORMANCE ...................................................................................................... 5 
+LAUNCHES ...................................................................................................................................... 5 
+PRE-SALES...................................................................................................................................... 8 
+SALES SPEED (SOS) ..................................................................................................................... 12 
+INVENTORIES .............................................................................................................................. 13 
+LANDBANK ................................................................................................................................... 15 
+DELIVERIES .................................................................................................................................. 16 
+CONSTRUCTION SITES ................................................................................................................ 18 
+ECONOMIC AND FINANCIAL PERFORMANCE ......................................... 19 
+REVENUE ...................................................................................................................................... 19 
+GROSS MARGIN ........................................................................................................................... 20 
+SALES TO BE RECOGNIZED .......................................................................................................... 21 
+SELLING EXPENSES ..................................................................................................................... 22 
+GENERAL & ADMINISTRATIVE EXPENSES .................................................................................. 23 
+INDEMNITIES .............................................................................................................................. 24 
+FINANCIAL RESULT ..................................................................................................................... 25 
+NET INCOME AND NET MARGIN .................................................................................................. 26 
+Financial Statements Highlights.................................................................................................. 27 
+ACCOUNTS RECEIVABLE .............................................................................................................. 27 
+MARKETABLE REAL ESTATE ......................................................................................................... 28 
+DEBT ............................................................................................................................................. 29 
+CASH GENERATION ...................................................................................................................... 33 
+ANNEX I – BALANCE SHEET .................................................................... 34 
+ANNEX II – INCOME STATEMENT ........................................................... 36 
+ANNEX III – REVENUE RECOGNITION.................................................... 37 
+ANNEX IV – LAUNCHES ........................................................................... 38 
+ANNEX V – SALES .................................................................................... 40 
+ANNEX VI – LANDBANK........................................................................... 41 
+ANNEX VII – PROJECTS DELIVERED ....................................................... 42 
+Glossary ................................................................................................... 43
+
+[p. 46]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+3 
+ 
+MESSAGE FROM MANAGEMENT 
+ 
+We finished 2024 with operating and financial results that surpassed historical landmarks in Cyrela's 
+cycle, results of an excellent execution. Despite an unfavorable macroeconomic scenario for the sector, 
+shaped by deteriorations in expectations and asset prices in the second half of the year, the Company 
+presented growth in launches, resilience in sales and margins, in addition to positive cash generation. 
+ 
+We ended the year with launches of R$9.6 billion and sales of R$ 9.3 billion, which represents an 
+increase of 45% and 44%, respectively, compared to the previous year. The LTM sales speed increased by 
+8 percentage points compared to 2023, ending the year at 55%. We highlight the performance of fourth -
+quarter launches, 57% sold by the end of December, even in a context of record launches volume. 
+ 
+Cyrela's financial performance followed operational growth. We concluded the year with net revenue 
+of R$ 8.0 billion, 27% above 2023, and gross margin of 32.4%. Despite the growth in operational and 
+financial indicators, commercial, general and administrative expenses were kept under control, resulting in 
+net income of R$ 1.6 billion, a record level for the Company, with a net margin of 20.7%. In addition, we 
+reached a satisfactory ROE level of 20.9%, which gives us motivation to continue this trajectory. 
+ 
+Even in this context of expansion of operations, it was possible to deliver cash generation of R$259 
+million in the year and return R$376 million to our shareholders, through dividends and share buybacks. 
+Additionally, the Company also approved a new Buyback Program of 9 million shares, scheduled to end on 
+December 20, 2025. 
+ 
+We believe that Cyrela remains well positioned in the market thanks to its qualified management, 
+which covers the entire customer journey. We are pleased with the results achieved in 2024, but we know 
+that the market can change quickly. Therefore, we reaffirm our strategy of focusing on differentiated product 
+launches, making decisions based on the performance of each project. We thank all our employees, 
+customers, shareholders and stakeholders for their support throughout the year and we hope that 2025 will 
+be another year of good results for the Company.
+
+[p. 47]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+4 
+ 
+MAIN INDICATORS 
+ 
+ 
+(1) Including swapped units 
+(2) Net of cancellations, including swaps 
+(3) Earnings per share are net of shares held in the Company's Treasury 
+(4) Net debt and Shareholders Equity excluding CashMe’s FVTOCI 
+ 
+ 
+ 
+Financial Indicators
+Net Revenue (R$ Million) 2,506 1,710 47% 2,030 23% 7,966 6,253 27%
+Gross Profit (R$ Million) 800 577 39% 676 18% 2,580 2,044 26%
+Gross Margin 31.9% 33.7% -1.8 p.p. 33.3% -1.4 p.p. 32.4% 32.7% -0.3 p.p.
+Adjusted Gross Margin 33.4% 35.4% -2.1 p.p. 35.1% -1.7 p.p. 34.1% 34.5% -0.4 p.p.
+Sales Expenses (R$ Million) 188 176 7% 170 10% 659 629 5%
+G&A Expenses - Pro forma (R$ Million) 120 98 23% 125 -4% 462 414 12%
+Net Income (R$ Million) 497 248 100% 473 5% 1,649 942 75%
+Net Margin 19.8% 14.5% 5.3 p.p. 23.3% -3.5 p.p. 20.7% 15.1% 5.6 p.p.
+LTM ROE 20.9% 13.5% 7.5 p.p. 17.6% 3.3 p.p. 20.9% 13.5% 7.5 p.p.
+Adjusted Net Debt / Adjusted Shareholders Equity (4) 10.3% 10.7% -0.4 p.p. 7.1% 3.2 p.p. 10.3% 10.7% -0.4 p.p.
+Cash Generation / Burn (R$ Million) 61 (94) n.a. 129 -53% 259 (101) n.a.
+Backlog 12/31/2024 12/31/2023 09/30/2024 Chg.
+Revenues to be Recognized (R$ Million) 8,790 6,634 33% 7,789 13%
+Margin to be Recognized 36.4% 35.9% 0.5 p.p. 36.4% 0.0 p.p.
+Launches (1)
+Number of Launches 21 13 8 15 6 54 51 3
+Launched PSV - R$ Million (100%) 6,737 2,744 146% 3,123 116% 13,021 9,767 33%
+Cyrela's Share 74% 64% 10.1 p.p. 82% -7.7 p.p. 76% 71% 4.9 p.p.
+Swapped PSV - R$ Million (100%) 126 75 67% 98 28% 454 495 -8%
+Launched PSV ex-swaps - R$ Million (%CBR) 4,875 1,716 184% 2,479 97% 9,586 6,626 45%
+Sales (2)
+Pre-Sales Contracts - R$ Million (100%) 4,905 2,593 89% 3,201 53% 12,624 8,892 42%
+Cyrela's Share 74% 72% 2.4 p.p. 79% -4.9 p.p. 76% 76% 0.0 p.p.
+Pre-Sales ex-swaps - R$ Million (%CBR) 3,530 1,825 93% 2,457 44% 9,277 6,439 44%
+Sales Speed (SoS) LTM
+SoS LTM 55.0% 47.2% 7.8 p.p. 54.9% 0.1 p.p. 55.0% 47.2% 7.8 p.p.
+Inventories
+PSV Inventory at Market Value - R$ Million (100%) 10,554 9,934 6% 8,693 21% 10,554 9,934 6%
+PSV Inventory at Market Value - R$ Million (%CBR) 8,021 7,505 7% 6,616 21% 8,021 7,505 7%
+PSV Finished Inventory at Market Value - R$ Million (100%) 1,515 1,586 -5% 1,316 15% 1,515 1,586 -5%
+PSV Finished Inventory at Market Value - R$ Million (%CBR) 1,290 1,322 -2% 1,103 17% 1,290 1,322 -2%
+Landbank
+PSV with exchange - R$ Million (100%) 20,409 25,975 -21% 15,143 35% 20,409 25,975 -21%
+% Swap over land value 55% 71% -15.5 p.p. 43% 11.9 p.p. 55% 71% -15.5 p.p.
+% CBR 90% 93% -2.8 p.p. 90% -0.2 p.p. 90% 93% -2.8 p.p.
+Deliveries
+# of Projects Delivered 16 18 -2 9 7 41 58 -17
+Delivered PSV (100%) 2,340 2,093 12% 1,123 108% 5,271 5,995 -12%
+Delivered Units 3,875 4,942 -22% 1,805 115% 9,987 15,521 -36%
+4Q24 3Q24 4Q24 x 
+3Q24
+4Q24 x 
+4Q23 2024 x 20232024 20234Q23
+
+[p. 48]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+5 
+ 
+OPERATIONAL PERFORMANCE 
+LAUNCHES 
+ 
+Cyrela launched 21 projects in the quarter, reaching a volume of R$6,737 million, 146% higher than 
+the presented in 4Q23 (R$2,744 million) and 116% up from 3Q24 (R$3,123 million). Swaps accounted R$126 
+million in the launches of the quarter vs. R$75 million in 4Q23 and R$98 million in 3Q24. Cyrela’s stake in 
+4Q24 launches reached 74%, up from the stake presented in 4Q23 (64%) and lower than 3Q24 (82%). Of 
+the total PSV launched in 4Q24, 73% will be recognized through full consolidation and 27% through the 
+equity method. In 2024, the PSV launched accounted for R$13,021 million, 33% up from 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+901
+884
+934
+2,880
+327
+1,485
+2023
+7,663
+2,313
+3,044
+2024
+1,491
+4Q23
+4,434
+4Q24 3Q24
+5,076
+2,744
+6,737
+3,123
+9,767
+13,021
+352 1,419
+1,482
+707
+146% 116%
++33%
+82% 71%
+Launched PSV
+(in R$ million – 100%)
+64% 74%
+High end Middle Vivaz Prime MCMV 2 and 3
+76%
+
+[p. 49]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+6 
+ 
+ 
+Excluding swaps and considering only the %CBR, the volume launched in the 4Q24 was R$4,875 
+million, 184% higher than the launches of the same quarter of the previous year (R$1,716 million in 4Q23) 
+and 97% up from 3Q24 (R$2,479 million). In the year, launches reached R$9,586 million, compared to 
+R$6,626 million in 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4Q23 4Q24 3Q24 2023 2024
+1,716
+4,875
+2,479
+6,626
+9,586
++184% +97%
++45%
+Launched PSV 
+Ex-Swap (in R$ million - %CBR)
+
+[p. 50]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+7 
+ 
+ 
+The breakdown of launches by geographical region and segment is disclosed below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Launches per Region – 2024
+100% 
+Launches per Product – 2024
+100%
+59%
+18%
+23%
+High end
+Middle
+MCMV 2 and 3
+68%
+22%
+5% 5%
+São Paulo
+Rio de Janeiro
+South Other
+Launches per Region – 2024
+%CBR 
+Launches per Product – 2024
+%CBR
+55%
+20%
+24%
+High end
+Middle
+MCMV 2 and 3
+69%
+22%
+6%
+São Paulo
+Rio de Janeiro
+South Other
+3%
+
+[p. 51]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+8 
+ 
+PRE-SALES 
+Note: detailed information on pre-sales can be found at the end of this report in the appendix tables. 
+ 
+Net pre-sales volume totaled R$4,905 million in the quarter, 89% up from 4Q23 (R$2,593 million) 
+and 53% higher than the presented in 3Q24 (R$3,201 million). Cyrela’s stake in t he volume sold in the 
+quarter was 74%, higher than the 72% presented in the same quarter of 2023 and down from 3Q24 (79%). 
+Of the total sales of the quarter, 73% will be recognized through full consolidation and 27% through the 
+equity method. In 2024, net presales accounted for R$12,624 million, 42% higher than the previous year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+395 65739838 855 860
+2,372
+541
+1,676
+2023
+6,915
+2,815
+346
+2,549
+2024
+1,255
+105
+4Q23
+2,997
+4Q24
+1,622
+2,593
+4,905
+3,201
+8,892
+12,624
+1,015 61
+3Q24
+4,303+89% +53%
++42%
+Pre Sales
+(in R$ million – 100%)
+High end Middle Vivaz Prime MCMV 2 and 3
+%CBR 79% 76%72% 74% 76%
+
+[p. 52]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+9 
+ 
+ 
+In the quarter, R$216 million of total net pre -sales refer to finished inventory sales ( 4%), R$869 
+million refer to under construction inventory sales ( 18%) and R$3,821 million refer to sales of launches 
+(78%). The speed of sales of projects launched in the quarter reached 57%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pre Sales
+(in R$ million – 100%)
+167 248 884869
+4Q23
+3,821
+216
+4Q24
+1,016
+3Q24
+4,138
+4,180
+2023
+7,402
+4,339
+2024
+2,593
+4,905
+3,201
+8,892
+12,624
+1,273 1,936
+5751,153
++89% +53%
++42%
+Launches Under Construction Inventory Finished Inventory
+
+[p. 53]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+10 
+ 
+ 
+Excluding swaps and considering only %CBR, sales volume reached R$3,530 million in 4Q24, 93% 
+higher than the same period of 2023 (R$1,825 million in 4Q23) and 44% up from 3Q24 (R$2,457 million). 
+In the year, sales reached R$9,277 million, compared to R$6,439 million in 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4Q23 4Q24 3Q24 2023 2024
+1,825
+3,530
+2,457
+6,439
+9,277
++93% +44%
++44%
+Sales
+Ex-Swap
+(in R$ million – %CBR)
+
+[p. 54]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+11 
+ 
+ 
+São Paulo city accounted for 65% of total sales, followed by Rio de Janeiro at 23%. 
+The breakdown of sales by geographical region and segment can be seen below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+65%
+23%
+5%
+8%
+São Paulo
+Rio de Janeiro
+South
+Other
+Sales per Region – 2024
+100%
+Sales per Product –2024
+100% 
+55%
+22%
+20%
+High end
+Middle
+Vivaz Prime
+MCMV 2 and 3
+3%
+66%
+23%
+6%
+6%
+São Paulo
+Rio de Janeiro
+South
+Other
+Sales per Region – 2024
+%CBR
+Sales per Product – 2024
+%CBR 
+52%
+24%
+21%
+High end
+Middle
+Vivaz Prime
+MCMV 2 and 3
+3%
+
+[p. 55]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+12 
+ 
+SALES SPEED (SOS) 
+ 
+The performance reported resulted in a sales’ speed LTM (Sales over Supply ratio) of 55.0%, higher 
+than the sales’ speed LTM presented in the same quarter of 2023 (47.2%) and up from 3Q24 (54.9%). 
+ 
+Regarding sales speed by launch vintage, 57% of the 4Q24 vintage has been sold. 
+ 
+ 
+ 
+ 
+ 
+Sales by Launch Vintage – 100% 
+SOS (12 months) – 100% 
+4Q23 1Q24 2Q24 3Q24 4Q24
+47.2%
+50.5% 52.6% 54.9% 55.0%
+57%
+10%
+3%
+2%8%5%
+10%
+4%
+0%6%
+15%
+2%
+46%
+3%
+53%1Q24
+3Q23
+2%
+8%
+6%
+6% 4%
+1Q23
+14%
+36%
+4%
+2%
+51%2Q24
+2Q23
+6%
+21%
+8%
+14%40%
+11%
+62%3Q24
+7%
+6%
+46%
+4Q24
+84%
+71%
+81%
+77%
+83%
+71%
+70%
+4Q23
+16%
+In 3 months
+In 6 months
+In 9 months
+In 12 months
+In 15 months
+In 18 months
+In 21 months
+In 24 months
+
+[p. 56]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+13 
+ 
+INVENTORIES 
+ 
+At the end of 4Q24, the inventory at market value amounted to R$10,554 million 
+(100%) and R$8,021 million (%CBR). There was a quarter-over-quarter increase of 21% in 
+the total inventory at market value. 
+From the total inventor y in the amount of R$10,554 million, the share to be 
+consolidated into the Company’s revenue s is R$8,071 million (%CBR R$6,997 million), 
+whereas the amount of R$2,483 million (%CBR R$1,024 million) will be accounted for under 
+the “Equity Income” line. 
+ 
+ 
+ 
+ 
+ 
+PSV Inventory at Market Value (R$ MM) Inventory by Delivery Schedule (R$ MM) 
+Change in Inventory (R$ million) Total Inventory Breakdown 4Q24 
+2,429
+7,505
+4Q23
+2,383
+7,095
+1Q24
+2,171
+6,498
+2Q24
+2,077
+6,616
+3Q24
+2,533
+8,021
+4Q24
+% CBR
+9,934 9,478
+8,670 8,693
+10,554
+Delivery Schedule Total Consolidation Equity
+Finished 1,515 1,289 226 
+12 Months 2,271 1,601 670 
+24 Months 2,552 1,784 767 
+36 Months 2,066 1,656 410 
++36 Months 2,151 1,741 410 
+Total 10,554 8,071 2,483 
+Inventory 3Q24
+-869 -216
+Sales of 
+inventories 
+4Q24
+6,737
+Launches 4Q24
+-3,821
+Sales of 
+launches 4Q24
+29
+Price 
+change/adj
+10,554
+Inventory 
+4Q24
+8,693
+-1,084
++21%
+Inventory Under Construction Finished Inventory
+59%
+17%
+11%
+13%
+São Paulo
+Rio de Janeiro
+South
+Other
+
+[p. 57]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+14 
+ 
+ 
+In 4Q24, the Company sold 16% of its finished inventory from the beginning of the 
+quarter. Considering all deliveries, the Company’s inventory of finished units increased from 
+R$1,316 million (100%) (%CBR R$1,103 million) in 3Q24 to R$1,515 million (%100) (%CBR 
+R$1,290 million) in 4Q24. 
+ 
+The share of the finished inventory to be consolidated into the Company’s revenues 
+is R$1,289 million (%CBR R$1,172 million), whereas R$226 million (%CBR R$118 million) 
+will be accounted for under the “Equity Income” line. 
+ 
+ 
+Change in Finished Inventory (R$MM) Finished Inventory Breakdown in 4Q24 
+PSV Finished Inventory at Market Value (R$MM) Finished Inventory by Delivery Period (R$MM) 
+265
+246
+241 212
+225
+1,322
+4Q23
+1,171
+1Q24
+1,073
+2Q24
+1,103
+3Q24
+1,290
+4Q24
+% CBR
+1,586
+1,417
+1,314 1,316
+1,515
+Delivery Period Total Consolidation Equity
+2020 and before 304 223 80 
+2021 49 49 0 
+2022 118 64 54 
+2023 376 306 71 
+2024 668 647 21 
+Total 1,515 1,289 226 
+Finished Units 3Q24
+-216
+Sales of finished 
+units 4Q24
+404
+PSV Delivered 4Q24
+10
+Price change/adj
+1,515
+Finished Units 4Q24
+1,316
++15%
+25%
+33%
+23%
+19% São Paulo
+Rio de Janeiro
+South
+Other
+
+[p. 58]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+15 
+ 
+LANDBANK 
+Note: detailed information on landbank can be found at the end of this report in the appendix tables. 
+ 
+Since the first quarter of 2024, we have chosen to change the disclosure format for 
+the opening of the Land section. Thus, to be part of Company’s landbank, the land must 
+have been written at the “Cartório de Notas” (“Notary Office”) and registered at the 
+competent “Cartório de Registro de Imóveis” (“Property Registry Office”) . Such acts 
+formalize the transfer of ownership and possession of the land to Cyrela. It is also noted 
+that our landbank includes only organic projects, not including the lands of our JVs. 
+ 
+At the close of 4Q24, the Company’s landbank amounted potential sales of R$20.4 
+billion. Cyrela’s share in the landbank is 90%, equivalent to R$18.4 billion. During the 
+quarter, Cyrela registered 15 land plots, with 12 in the city of Sao Paulo and 3 in Rio de 
+Janeiro, with potential PSV of R$7.2 billion (Cyrela’s stake of 90%). 
+ 
+ 
+Breakdown by Segment (PSV in R$ billion) Method of Acquisition (in %) 
+ 
+ 
+*The Landbank PSV is based on 
+the latest feasibility assessment of 
+the land plot, adjusted by the 
+INCC year-to-date. 
+Landbank on 12.31.2024* 
+Breakdown by Region (PSV in R$ billion) 
+ 
+15.5
+High end
+1.8
+Middle
+3.1
+MCMV 2 and 3
+55%
+45%
+Swaps
+Cash
+7.6
+Rio de Janeiro
+10.3São Paulo
+1.7
+South
+0.8
+Other
+
+[p. 59]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+16 
+ 
+DELIVERIES 
+Note: detailed information on delivered units can be found in the appendix tables at the end of this report. 
+ 
+Cyrela delivered 16 projects in the quarter, with 3,875 units totaling a PSV (100%) of 
+R$2,340 million on the dates of their respective launches. In 2024, the Company delivered 
+9,987 units with PSV (100%) of R$5,271 million, in 41 projects. 
+ 
+ 
+ 
+ 
+ 
+ 
+PSV Delivered (in R$ million – 100%)
+By Region
+248
+638 643287
+568 287
+311
+980
+454
+965
+506
+4Q23 4Q24 3Q24
+3,408
+1,382
+2023
+2,536
+2024
+2,093
+2,340
+1,123
+5,995
+5,271
+1,472
+62
+108 163
+1,805
++12% +108%
+-12%
+São Paulo Rio de Janeiro South Other
+
+[p. 60]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+17 
+ 
+ 
+The high-end segment represented 58% of deliveries in the quarter, followed by MCMV 
+2 and 3 segment with 21%, by the middle segment with 11% and Vivaz Prime segment 
+with 10%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+657 484
+232
+232
+401 255
+860
+787
+4Q23 4Q24 3Q24
+2,748
+1,940
+2023
+2,778
+2024
+2,093
+2,340
+1,123
+5,995
+5,271
+1,035 1,369
+125211
+1,307
+1,401
++12% +108%
+-12%
+PSV Delivered (in R$ million – 100%)
+By Segment
+High End Middle MCMV 2 and 3Vivaz Prime
+
+[p. 61]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+18 
+ 
+CONSTRUCTION SITES 
+ 
+ At the close of 4Q24, there were 109 projects in progress, broken down as follows, 
+by segment, execution and geographic location , and according to the active construction 
+site criteria. 
+ 
+ In line with its strategic guidelines, the Company manages a large share o f the 
+construction sites, to ensure the execution monitoring of them. At the close of the quarter, 
+88% of the total PSV in construction (R$24.6 billion on the date s of their respective 
+launches) were managed by the Company's own team or by JV’s teams. This corroborates 
+Cyrela’s commitment to cost management and product quality. 
+ 
+Projects in Progress (number of sites) 
+Projects in Progress (% of PSV) 
+25
+9
+36
+39
+4Q24
+High End
+Middle
+Vivaz Prime
+MCMV
+109
+78
+8
+23
+4Q24
+Partners
+JV’s
+Cyrela
+109
+25
+9
+12
+63
+4Q24
+São Paulo
+RJ
+South
+Other
+109
+12%
+27%
+55%
+4Q24
+High End
+Middle
+Vivaz Prime
+MCMV
+100%
+6%
+82%
+12%
+6%
+4Q24
+Partners
+JV’s
+Cyrela
+100%
+14%
+7%
+12%
+66%
+4Q24
+São Paulo
+RJ
+South
+Other
+100%
+
+[p. 62]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+19 
+ 
+ECONOMIC AND FINANCIAL PERFORMANCE 
+REVENUE 
+ 
+The Company’s total net revenues accounted for R$2,506 million in 4Q24, 47% higher 
+than the R$1,710 million in 4Q23, and 23% up from the R$2,030 million registered in the 
+3Q24. In 2024, revenues were R$7,966 million vs. R$6,253 million in 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4Q23 4Q24 3Q24 2023 2024
+1,710
+2,506
+2,030
+6,253
+7,966
++47% +23%
++27%
+Net Revenue
+(R$ Million)
+
+[p. 63]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+20 
+ 
+GROSS MARGIN 
+ 
+The Company's gross margin was 31.9% in 4Q24, 1.8 p.p. down from the margin 
+presented in 4Q23 (33.7%) and 1.4 p.p. lower than the margin of 3 3.3% presented in 
+3Q24. In 2024, gross margin achieved 32.4%, 0.3 p.p. lower than 2023 (32.7%). 
+ 
+Adjusted gross margin was 33.4% in the quarter, 2.1 p.p. lower than the adj. gross 
+margin recorded in 4Q23 (35.4%) and 1.7 p.p. down from the adj. gross margin of 3Q24 
+(35.1%). In 2024, adj. gross margin achieved 34.1%, 0.4 p.p. lower than 2023 (34.5%). 
+ 
+ 
+ The reduction in the g ross margin in 4Q24 can be mainly explained by the lower 
+margin of projects recognized in the quarter. It is also worth noting the greater-than-usual 
+effect of the Adjustment to Present Value (APV), which negatively affected the gross 
+margin in the period by approximately 2.0 p.p., whereas the average impact over the last 
+7 quarters up to 3Q24 was approximately 0.4 p.p. 
+ 
+Gross Profit 4Q24: R$800 million. 
+Gross Margin 4Q24: 31.9% 
+Gross Profit 2024: R$2,580 million. 
+Gross Margin 2024: 32.4% 
+ 
+Gross Margin Evolution 
+4Q24 3Q24 4Q23 2024 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Net Revenue 2,506 2,030 23% 1,710 47% 7,966 6,253 27%
+Gross Profit 800 676 18% 577 39% 2,580 2,044 26%
+Gross Margin 31.9% 33.3% -1.4 p.p. 33.7% -1.8 p.p. 32.4% 32.7% -0.3 p.p.
+Capitalized Interest from COGS 36 36 0% 30 21% 134 115 17%
+Adjusted Gross Margin 33.4% 35.1% -1.7 p.p. 35.4% -2.1 p.p. 34.1% 34.5% -0.4 p.p.
+2024 x 2023Gross Margin 4Q24 x 3Q24 4Q24 x 4Q23
+4Q23 4Q24 3Q24 2023 2024
+33.7%
+31.9% 33.3% 32.7% 32.4%
+-1.8 p.p. -1.4 p.p. -0.3 p.p.
+
+[p. 64]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+21 
+ 
+SALES TO BE RECOGNIZED 
+ 
+At the close of 4Q24, net revenue s from sales to be recognized totaled R$8,790 
+million. Gross margin from revenue s to be recognized stood at 36.4%, 0.5 p.p. up from 
+4Q23 (35.9%) and in line with 3Q24 (36.4%). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Margin to be Recognized: 36.4% 
+ 
+Backlog Margin Evolution 
+4Q23 4Q24 3Q24
+35.9% 36.4% 36.4%
++0.5 p.p. 0.0 p.p.
+Sales to be Recognized (R$ MM) 4Q24 3Q24 4Q23
+Sales to be Recognized 8,969 7,948 13% 6,764 33%
+Taxes to be Recognized (179) (158) 13% (131) 37%
+Net Revenues to be Recognized 8,790 7,789 13% 6,634 33%
+Costs of Units Sold to be Recognized (5,593) (4,956) 13% (4,251) 32%
+Gross Profit to be Recognized 3,198 2,834 13% 2,383 34%
+Gross Margin to be Recognized 36.4% 36.4% 0.0 p.p. 35.9% 0.5 p.p.
+4Q24 x 3Q24 4Q24 x 4Q23
+
+[p. 65]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+22 
+ 
+SELLING EXPENSES 
+ 
+Selling expenses for the quarter were R$188 million, higher than 4Q23 (R$176 million) 
+and up from 3Q24 (R$170 million). In 2024, sales expenses were R$659 million, an 
+increase of R$30 million vs. 2023 (R$629 million). 
+ 
+ 
+The higher amount of the Media item compared to other periods is mainly related to 
+the increase in the Company’s pre-sales volume. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4Q24 3Q24 4Q23 2024 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Show-rooms 36 45 -19% 50 -28% 156 164 -5%
+Media 42 31 35% 29 46% 122 96 28%
+Third-party Services 53 38 38% 43 23% 166 169 -1%
+Finished Inventory Maintenance 12 10 19% 12 0% 43 41 7%
+Others 25 29 -11% 24 5% 99 87 13%
+CashMe 19 17 9% 18 6% 73 72 2%
+Total 188 170 10% 176 7% 659 629 5%
+4Q24 x 4Q234Q24 x 3Q24 2024 x 2023Sales Expenses
+
+[p. 66]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+23 
+ 
+GENERAL & ADMINISTRATIVE EXPENSES 
+ 
+In line with the best practices of transparency and governance, since the first quarter 
+of 2024, we chose to change the disclosure format of the General & Administrative 
+Expenses section. Starting in the 1Q24, the Indemnities line will be recognized under the 
+heading Other Operating Expenses/Revenues and its impact is detailed in the next section 
+of the earnings release . To maintain period comparability, all prior period figures in the 
+General & Administrative Expenses section will be presented on a “pro forma” basis. 
+ 
+General and administrative expenses totaled R$120 million in 4Q24, R$23 million 
+higher than 4Q23 (R$98 million – pro forma) and R$5 million down from 3Q24 (R$125 
+million). In 2024, G&A expenses amounted R$ 462 million, R$48 million higher vs. 2023 
+(pro forma). 
+ 
+ 
+When comparing the accumulated periods, the increment in G&A expenses can be 
+mainly explained by an increase in (i) Salaries and Social Charges, (ii) Employees’ and (iii) 
+Third-Party Services items, in line with the growth of the Company’s operations. 
+ 
+CashMe's G&A totaled R$16 million in the quarter, compared to R$13 million in 4Q23 
+and R$14 million in 3Q24. In 2024, CashMe's G&A expenses were R$ 55 million, up from 
+2023 (R$54 million). 
+ 
+ 
+ 
+General & Administrative Expenses 4Q24 3Q24 4Q24 x 3Q24 4Q23 4Q24 x 4Q23 2024 2023 2024 x 2023
+(Pro Forma) (pro forma)
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Salaries and Social Charges 51 49 5% 41 24% 188 172 9%
+Board Members/Management Remuneration 2 2 3% 2 3% 7 7 -3%
+Employees' 27 18 50% 18 57% 81 71 14%
+Third-Party Services 30 43 -29% 24 24% 142 115 23%
+Rent, travelling and representation 3 5 -37% 4 -28% 17 24 -27%
+Others 7 8 -19% 8 -22% 26 25 6%
+Total 120 125 -4% 98 23% 462 414 12%
+
+[p. 67]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+24 
+ 
+INDEMNITIES 
+ 
+As described i n the previous secti on, we detail below the composition of the 
+indemnities recognized in the Income Statement for the quarter, under the heading Other 
+Operating Expenses/Revenues. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Indemnities 4Q24 3Q24 4Q24 x 3Q24 4Q23 4Q24 x 4Q23 2024 2023 2024 x 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Change in Provision 39 (7) n.a 19 106% 16 22 -28%
+Indemnity Expenses (Cash) (43) (33) 31% (37) 15% (123) (103) 19%
+Commitment to Indemnities (6) 13 n.a (7) -8% (1) (13) -94%
+Total Impact Income Statement (Other Op. Expenses/Revenues) (10) (26) -64% (25) -61% (108) (94) 15%
+
+[p. 68]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+25 
+ 
+FINANCIAL RESULT 
+ 
+The Company recorded positive net financial result of R$17 million in 4Q24, down from 
+R$34 million net positive result registered in 4Q23 and lower than the positive R$39 million 
+from the 3Q24. In 2024, the financial result was positive R$ 114 million, lower than the 
+R$137 million of 2023. 
+ 
+CashMe’s participati on in Net Financial Results totaled R$180 million in 2024 , 
+compared to R$185 million in 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4Q24 3Q24 4Q23 2024 2023
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Financial Expenses
+SFH Interest (51) (46) 11% (41) 24% (178) (155) 15%
+Interest on Corporate Loans (101) (106) -5% (89) 14% (399) (418) -5%
+Capitalized Interest 36 34 7% 28 30% 119 118 1%
+Sub Total (115) (119) -3% (102) 14% (458) (455) 1%
+Monetary Adjustment on Loans (0) (0) -61% (1) -70% (1) (2) -53%
+Bank Expenses (2) (2) 32% (2) 20% (9) (11) -24%
+Other financial expenses (40) (10) 312% (32) 25% (102) (89) 14%
+Total Financial Expenses (158) (130) 21% (136) 16% (570) (558) 2%
+Financial Revenues
+Income on Investments 154 157 -2% 142 8% 623 588 6%
+Monetary Adjustment 4 3 19% 2 54% 15 12 18%
+Other financial income 17 10 75% 26 -34% 46 94 -51%
+Total Financial Revenues 174 170 3% 170 3% 683 695 -2%
+Financial Result 17 39 -58% 34 -51% 114 137 -17%
+Financial Result 4Q24 x 3Q24 4Q24 x 4Q23 2024 x 2023
+
+[p. 69]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+26 
+ 
+NET INCOME AND NET MARGIN 
+ 
+The Company recorded net income of R$497 million in 4Q24, versus net income of 
+R$248 million in 4Q23 and R$473 million net income in 3Q24. This result led to a LTM ROE 
+of 20.9%. In 2024, net income totaled R$ 1,649 million, an increase of 75% compared to 
+2023 (R$942 million). 
+ 
+ In the quarter, the Company’s earnings per share (EPS) was R$ 1.35, compared 
+to R$0.66 in 4Q23 and R$1.26 in 3Q24. 
+248
+497 473
+942
+4Q23 4Q24 3Q24 2023 2024
+1,649
++100% +5%
++75%
+Net Profit
+(R$ million)
+14.5%Net
+Margin 19.8% 23.3% 15.1% 20.7%
+4Q23 1Q24 2Q24 3Q24 4Q24
+13.5%
+14.5%
+15.5%
+17.6%
+20.9%
+ROE LTM
+
+[p. 70]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+27 
+ 
+Financial Statements Highlights 
+ACCOUNTS RECEIVABLE 
+ 
+Considering all pre -sales contracts signed, 
+Accounts Receivable totaled R$13.5 billion on 
+December 31, 202 4, repr esenting a n 13% increase 
+from September 30, 2024. In the Company’s Balance 
+Sheet, this amount accounts for R$4.8 billion, which 
+is recognized through the construction progress of 
+each project. 
+ 
+Delivered units accounts for 9% and units under 
+construction or in the delivery process for 91% of the 
+total amount. The average A ccounts Receivable 
+turnover is about 2.2 years (25.9 months). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cost to be incurred
+(ref, sold units – R$ million)
+761
+292
+12 Months
+24 Months
+36 Months
+After 36 Months
+2,724
+1,816
+Cost to be incurred
+(ref, inventory units – R$ million)
+867
+578
+242
+93
+12 Months
+24 Months
+36 Months
+After 36 Months
+Receivables Schedule 
+(in R$ million)
+12 Months
+24 Months
+36 Months
+After 36 Months
+5,357
+3,268
+2,827
+2,071
+ R$ MM R$ MM
+Units under construction 12,333 11,057 12%
+Finished Units 1,191 932 28%
+Total Accounts Receivable 13,524 11,989 13%
+Construction Cost to be Realized
+from sold units (5,593) (4,956) 13%
+Construction Cost to be Realized
+from inventory units (1,780) (1,276) 39%
+Net Accounts Receivable 6,151 5,757 7%
+Accounts Receivable 4Q24 x 3Q24
+4Q24 3Q24
+
+[p. 71]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+28 
+ 
+ MARKETABLE REAL ESTATE 
+ 
+ The main item under the Marketable Real Estate account reported in the Company’s 
+Balance Sheet refers to land earmarked for future d evelopment, which totaled R$3,152 
+million on December 31, 2024 and represented 49% of the total. 
+ 
+ 
+In addition to the actual advance payments from customers, the “Advances from 
+Customers” account comprises liabilities, which stem from physical swaps in land 
+purchases (counterpart entries to land swaps), value d at cost price. Under this account, 
+land for future real estate incorporation amounts to R$395 million and incorporated real 
+estate projects to R$501 million, totaling R$896 million, corresponding to the book value 
+of swapped units. Such obligations shall be written off by following the same procedure as 
+that used for sales revenue recognition, with no actual cash outflows. 
+ 
+ 
+ The short- and long-term “Accounts Payable for Real Estate Acquisition” lines amount 
+to R$2,005 million, R$1,474 million of which are related to developed projects. 
+Marketable Real Estate
+R$ MM R$ MM
+Units under construction 2,010 1,833 10%
+Finished units 727 648 12%
+Landbank 3,152 2,545 24%
+Suppliers 154 172 -11%
+Interest capitalized in inventories 124 118 5%
+Provision for Cancellations 313 273 15%
+Total 6,480 5,590 16%
+4Q24 3Q24
+4Q24 x 3Q24
+Advances from Customers
+R$ MM R$ MM
+Receiving of real estate sales 66 131 -50%
+Land for future incorporation 395 256 54%
+Incorpotared real estate units 501 509 -2%
+Total 962 896 7%
+4Q24
+4Q24 x 3Q24
+3Q24
+Accounts Payable - Real estate acquisition
+R$ MM R$ MM
+Incorporated 1,474 833 77%
+Others 531 418 27%
+Total 2,005 1,251 60%
+4Q24
+4Q24 x 3Q24
+3Q24
+
+[p. 72]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+29 
+ 
+DEBT 
+ 
+On December 31, 2024 , gross debt including accrued 
+interest accounted R$5,975 million, 9% higher than the 
+amount of R$5,466 million reported on September 30, 2024. 
+ 
+The balance of debt denominated in local currency and 
+totally connected with the construction financing accounted 
+for 38% of the total debt (without accrued interest) and 
+increased by 17% in the quarter. 
+ 
+ 
+Debt Amortization Schedule 
+436
+3,005
+3Q24
+521
+3,105
+4Q24
+3,442 3,626
++5%
+Corporate Debt
+(R$ million)
+Short term Long term
+4Q23 4Q24 x 4Q23
+Construction financing 2,256 1,921 17% 1,749 29%
+Corporate Debt - Cyrela 1,569 1,570 0% 1,897 -17%
+Corporate Debt - CashMe 2,057 1,872 10% 1,428 44%
+Sub total 5,882 5,363 10% 5,073 16%
+Interest and costs 93 103 -10% 84 10%
+Total 5,975 5,466 9% 5,158 16%
+4Q24 x 3Q244Q24Debt (R$ million) 3Q24
+521
+644
+932
+471
+320
+371
+873
+619
+290
+103
+12 Months 24 Months 36 Months 48 Months 60 Months > 60 Months
+892
+1,517 1,551
+761
+423
+737
+Financing Corporate Debt
+(R$MM)
+
+[p. 73]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+30 
+ 
+ 
+As a result, the balance of loans (corporate debt) denominated in local currency, 
+comprising 62% of the total debt (without accrued interest), corresponds to: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milion Issued In Matures In Cost p.y. Balance
+Cyrela Corporate Debt
+283th and 285th series of the 1st Issue of CRER - Opea 2020 Apr-25 IPCA + 3.91% (swap to CDI + 1.15%) 89
+489th serie of the 1st Issue of CRER - Opea 2022 Jun-27 CDI + 0.40% 121
+490th serie of the 1st Issue of CRER - Opea 2022 Jun-27 IPCA + 5.9068% (swap to CDI + 0.47%) 259
+491st serie of the 1st Issue of CRER - Opea 2022 Jun-29 IPCA + 6.1280% (swap to CDI + 0.79%) 100
+1st serie of the 57th Issue of CRER - Província Sec 2024 Apr-28 98% CDI 634
+2nd serie of the 57th Issue of CRER - Província Sec 2024 Apr-29 99% CDI 67
+3rd serie of the 57th Issue of CRER - Província Sec 2024 Apr-31 101% CDI 300
+Subtotal 1,569 
+R$ milion Issued In Matures In Cost p.y. Balance
+CashMe Debt
+1st, 2nd and 3rd series of the 24th issue of CRER - True Sec 2022 2029 CDI + 1.375% / IPCA + 7.8049% 182
+1st serie of the 30th issue of CRER - Província Sec 2023 2030 IPCA + 8.0% 133
+1st and 2nd series of the 155th issue of CRER - True Sec 2023 2028 CDI + 1.95% / IPCA + 7.8529% 92
+1st, 2nd and 3rd series of the 113th issue of CRER - Vert Sec 2023 2027 CDI + 3.0% / CDI + 4.0% 54
+1st and 2nd series of the 31st issue of CRER - Província Sec 2023 2030 IPCA + 9.0% / IPCA + 10.0% 96
+1st, 2nd and 3rd series of the 39th issue of CRER - Província Sec 2023 2030 IPCA + 6.0% / IPCA + 10.0% / IPCA + 11.0% 237
+1st and 2nd series of the 40th issue of CRER - Província Sec 2024 2032 IPCA + 7.0% / IPCA + 10.0% 85
+1st and 2nd series of the 48th issue of CRER - Província Sec 2024 2031 CDI + 1.4% / IPCA + 7.4% 239
+1st and 2nd series of the 139th issue of CRER - Vert Sec 2024 2032 IPCA + 7.4632% / IPCA + 9.75% 363
+1st, 2nd and 3rd series of the 1st issue of CR - Província Sec 2024 2032 CDI + 1.15% / IPCA + 9.1146% / IPCA + 9.1146% 306
+CashMe I Credit Rights Investment Fund 2024 n.a. CDI + 3.5% 70
+1st Debenture Issue - 2nd Serie 2022 2027 CDI + 1.75% 200
+Subtotal 2,057 
+TOTAL CORPORATE DEBT 3,626
+
+[p. 74]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+31 
+ 
+ 
+As of 4Q22, CashMe realizes the fair value valuation of its portfolios (securitizable and 
+already securitized), due to the ex istence of spread of the origination rate of these 
+portfolios versus the cost of securitization. This fair value valuation is listed in the 
+Company's Balance Sheet Assets within the Marketable Securities item and is listed in 
+Shareholders' Equity through t he Other Comprehensive Income (FVTOCI) line. The net 
+indebtedness and leverage data presented below exclude this fair value assessment. 
+ 
+ 
+The Company’s leverage, as measured by means of the Adj. Net Debt / Adj. Total 
+Equity ratio, reached 10.3% by the end of the quarter, reinforcing Cyrela’s commitment to 
+maintain this index in healthy levels and ratifying the financial strength of the Company. 
+The net indebtedness includes R$2,057 million of gross debt and R$2,447 million of 
+Marketable Securities of CashMe’s operation. Excluding CashMe’s assets and liabilities, the 
+Net Debt would be R$1,375 million. 
+ 
+ 
+ 
+* Net debt and Shareholders Equity excluding CashMe’s FVTOCI 
+Long-Term Debt 4,989 4,617 8% 3,762 33%
+Short-Term Debt 892 746 20% 1,312 -32%
+Total Debt 5,882 5,363 10% 5,073 16%
+Cash and Cash Equivalents 3,053 3,042 0% 2,704 13%
+Long-Term Financial Investments 2,256 2,065 9% 1,899 19%
+Total Cash and Equivalents 5,309 5,107 4% 4,603 15%
+Accountant Net Debt 573 256 124% 471 22%
+FVTOCI CashMe 413 414 0% 398 4%
+Adjusted Net Debt 985 670 47% 868 13%
+3Q24 4Q24 x 3Q24In R$ million 4Q24 4Q24 x 3Q243Q24
+Adjusted Net Debt 985 670 47% 868 13%
+Adjusted Shareholders' Equity 9,537 9,437 1% 8,102 18%
+Construction Financing 2,256 1,921 17% 1,749 29%
+Adj. Net Debt / Adj. Shareholders' Equity 10.3% 7.1% 3.2 p.p. 10.7% -0.4 p.p.
+Adj. Net Debt (ex Financing) / Adj. Shareholders' Equity -13.3% -13.3% -0.1 p.p. -10.9% -2.5 p.p.
+3Q24 % ChgIn R$ million 4Q24 % Chg3Q24
+
+[p. 75]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Debt Overview 
+573
+892
+413 413
+3,325
+1,749
+Gross 
+Debt 4Q23
+3,442
+1,921
+Gross Debt 
+3’Q24
+3,626
+2,256
+Gross 
+Debt 4Q24
+4,989
+Term 4Q24
+4,896
+Cash 
+Position 
+4Q24
+Net Debt 
+4Q24
+5,073
+5,363
+5,882 5,882 5,309
+985
+Corp.
+Corp.
+Long
+Financ.
+Short
+(R$ Million)
+Financ.
+Corp.
+Financ.
+Net Debt / Equity
+10.7% 7.1%
+Indicators Total Debt Corporate Debt
+Net Debt / Equit 10.3%
+Average Term 3.1 years 3.5 years
+Short Term 15% 14%
+Long Term 85% 86%
+Average Cost of Financing
+Savings Acc. + 
+2.73% 73.2%
+TR + 9.02% 26.8%
+TOTAL 100.0%
+Minimum Rate TR + 7.99%
+Maximum Rate TR +10.10%
+* Excludes debt from CashMe (R$2,057 MM)
+Avarege Cost of Corporate 
+Debt*
+99.0% of CDI 63.7%
+CDI + 0.62% 36.3%
+TOTAL 100.0%
+10.3%
+CashMe’s FVTOCI
+
+[p. 76]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+33 
+ 
+CASH GENERATION 
+ 
+In 4Q24, the Company recorded cash generation of R$61 million, versus cash burn of 
+R$94 million in 4Q23 and cash generation of R$129 million in 3Q24. In 2024, the Company 
+recorded cash generation of R$ 259 million, vs. cash burn of R$101 million in 2023. In 
+addition, the calculation of cash generation excludes the effect of CashMe ’s FVTOCI, for 
+R$413 million. 
+ 
+ 
+ 
+ 
+ 
+Cash Generation/Consumption 
+4Q24 3Q24 4Q23 2024 2023 Chg %
+R$ MM R$ MM R$ MM R$ MM R$ MM 2024 x 2023
+Total Debt (Gross Debt without Interest payable) 5,882 5,363 10% 5,073 16% 5,882 5,073 16%
+Cash & Marketable Securities 5,309 5,107 4% 4,603 15% 5,309 4,603 15%
+Accountant Net Debt 573 256 124% 471 22% 573 471 22%
+(+) FVTOCI CashMe 413 414 0% 398 4% 413 398 4%
+Adjusted Net Debt 985 670 47% 868 13% 985 868 13%
+∆ Accountant Debt Change (315) 129 n.a. (219) 44% (117) (296) -60%
+(+) Buyback Program 152 - n.a. - n.a. 152 11 1330%
+(+) Dividends 224 - n.a. 125 79% 224 317 -29%
+(+) SKR Deconsolidation Effect - - n.a. - n.a. - (132) -100%
+Cash Generation/Burn 61 129 -53% (94) n.a. 259 (101) n.a.
+(+) Acquisition of Equity Interest - (115) -100% - n.a. (206) (83) 148%
+Operational Cash Generation/Burn 61 14 342% (94) n.a. 53 (184) n.a.
+Chg %Chg %Cash Burn/Generation (R$ MM)
+83
+53
+115
+-184
+206
+4Q23 4Q24 3Q24 2023 2024
+-94
+61
+129
+-101
+259
+14
+-53%
+(R$ Million)
+Non Recurring
+
+[p. 77]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+34 
+ 
+ANNEX I – BALANCE SHEET 
+ 
+ 
+ 
+ 
+CYRELA BRAZIL REALTY S.A. EMPREENDIMENTOS E PARTICIPAÇÕES 
+ 
+ Consolidated Balance Sheet 
+ R$ million 
+ 
+ December 31, 2024 December 31, 2023 
+ ASSETS 
+ 
+ Current Assets 12,115 9,768 
+ Cash and Cash Equivalents 532 242 
+ Marketable Securities 2,521 2,462 
+ Accounts Receivable 3,701 2,858 
+ Marketable Real Estate 4,763 3,701 
+ Recoverable Taxes and Contributions 11 10 
+ Deferred Taxes and Contributions 1 4 
+ Selling Expenses to Be Recognized 137 107 
+ Anticipated Expenses 74 31 
+ Derivative financial instruments 34 35 
+ Other Receivables 342 319 
+ 
+ Non-Current Assets 9,126 7,603 
+ 
+ Long Term 5,692 4,829 
+ Accounts Receivable 1,076 597 
+ Marketable Securities 2,256 1,899 
+ Checking Accounts with Partners in Projects 9 9 
+ Related Parties 230 436 
+ Recoverable Taxes and Contributions 194 178 
+ Deferred Income Tax and Social Contribution 1 3 
+ Marketable Real Estate 1,717 1,655 
+ Other Receivables 208 52 
+ 
+ Permanent 3,434 2,773 
+ Investment in Controlled Companies 3,126 2,439 
+ Fixed Assets 160 146 
+ Intangible 148 188 
+ 
+ 
+ Total Assets 21,241 17,371
+
+[p. 78]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+35 
+ 
+ 
+ 
+ 
+ December 31, 2024 December 31, 2023 
+ 
+ 
+ 
+LIABILITIES AND SHAREHOLDERS' EQUITY 
+ 
+ 
+ 
+Current Liabilities 3,702 3,454 
+ 
+Loans and Financing 388 477 
+ 
+Debentures 72 17 
+ 
+Real Estate Certificates - CRER 544 912 
+ 
+Financial Instruments and Derivatives - 1 
+ 
+Suppliers 249 319 
+ 
+Provision for Guarantees 81 58 
+ 
+Taxes and Contributions Payable 72 51 
+ 
+Deferred Taxes and Contributions 80 63 
+ 
+Payroll, social charges and profit sharing 225 183 
+ 
+Real Estate Acquisition Payable 802 367 
+ 
+Dividends Payable 392 224 
+ 
+Related Parties 129 56 
+ 
+Checking Accounts with Partners in Projects 50 49 
+ 
+Advances from Customers 129 293 
+ 
+Provisions for labour, civil and fiscal risks 105 117 
+ 
+Other Payables 384 268 
+ 
+ 
+Long Term 7,589 5,417 
+ 
+Loans and Financing 1,955 1,518 
+ 
+Debentures 133 949 
+ 
+Real Estate Certificates - CRER 2,882 1,285 
+ 
+Suppliers 1 0 
+ 
+Provision for Guarantee 124 89 
+ 
+Real Estate Acquisition Payable 1,202 487 
+ 
+Provisions for labour, civil and fiscal risks 94 98 
+ 
+Deferred Income Tax and Social Contribution 367 333 
+ 
+Advances from Customers 832 659 
+ 
+ 
+TOTAL SHAREHOLDERS' EQUITY 9,949 8,500 
+ 
+ 
+Minority Equity 1,055 809 
+ 
+ 
+Shareholders' Equity 8,895 7,690 
+ 
+Capital Stock 3,685 3,396 
+ 
+Capital Reserve 19 (73) 
+ 
+Legal Reserve 616 533 
+ 
+Surplus Reserve 4,437 3,747 
+ 
+Treasury Shares (265) (309) 
+ 
+Profit / Losses - 0 
+ 
+Other Comprehensive Income 403 395 
+ 
+ Total Liabilities and Shareholders’ Equity 
+ 
+ 
+ 
+ 
+21,241 
+ 
+17,371
+
+[p. 79]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+36 
+ 
+ 
+ANNEX II – INCOME STATEMENT 
+ 
+ 
+ Consolidated Income Statement 
+ R$ million 
+ 
+ 4Q24 3Q24 % 
+Change 
+ 2024 2023 % 
+Change 
+ 
+ 
+ 
+ 
+ Gross Revenue of Sales and/or Services 
+ Real Estate Development and Resales 2,616 2,075 26% 8,202 6,373 29% 
+ Lots for Development 1 (1) n.a 4 4 0% 
+ Services Rendered 27 25 6% 96 86 11% 
+ Cancellations Provision (64) (16) 296% (109) (30) 263% 
+ Provision for Doubtful Receivables (6) 3 n.a (6) (4) 68% 
+ Deductions from Gross Revenue (69) (57) 20% (220) (177) 24% 
+ Total Net Revenue 2,506 2,030 23% 7,966 6,253 27% 
+ 
+ 
+ Real Estate Sales and Resales (1,739) (1,354) 28% (5,419) (4,194) 29% 
+ Lots for Development 0 0 -41% (0) (1) -79% 
+ Services Rendered and Others (7) (9) -16% (36) (28) 29% 
+ Cancellations Provision 40 9 352% 69 14 392% 
+ Cost of Goods and/or Services Sold (1,706) (1,353) 26% (5,386) (4,209) 28% 
+ 
+ 
+ Gross Profit (Loss) 800 676 18% 2,580 2,044 26% 
+ 
+ Operating (Expenses) Revenues 
+ Selling Expenses (188) (170) 10% (659) (629) 5% 
+ General and Administrative Expenses (119) (123) -4% (455) (510) -11% 
+ Management Fees (2) (2) 3% (7) (7) -3% 
+ Equity Result and Other Appreciations 148 136 9% 501 262 91% 
+ Other Results in Investments 4 72 -95% 177 15 1108% 
+ Other Operating Expenses/Revenues (18) (35) -50% (144) (49) 195% 
+ (174) (123) 42% (587) (918) -36% 
+ 0% 
+ 
+ Profit (Loss) Before Financial Result 626 553 13% 1,993 1,125 77% 
+ 
+ 
+ Financial Expenses (158) (130) 21% (570) (558) 2% 
+ Financial Revenues 174 170 3% 683 695 -2% 
+ 
+ 
+ 
+Earnings Before Income Taxes on Profit 
+and Shareholders 643 593 8% 2,106 1,262 67% 
+ 
+ 
+ 
+ 
+ Deferred (10) (7) 32% (27) (13) 115% 
+ Current (46) (44) 3% (158) (144) 10% 
+ Income Tax and Social Contribution (55) (52) 7% (185) (157) 18% 
+ 
+ 
+ Income (Loss) Before Minority Interest 587 541 9% 1,921 1,106 74% 
+ 
+ 
+ Minority Interest (91) (68) 34% (272) (164) 66% 
+ 
+ 
+ Net Income (Loss) 497 473 5% 1,649 942 75%
+
+[p. 80]
+Earnings Release – 4Q24 | 2024 
+ 
+ 
+ 
+ 
+37 
+ 
+ANNEX III – REVENUE RECOGNITION 
+*Considers only revenues from Residential Real Estate Development activities 
+ 
+ 
+ 
+PROJECT SEGMENT RECOGNITION DATE
+ 4Q24 4Q23 4Q24 4Q23 
+Eden Park By Dror High-End Mar-23 8% 4% 111 67 
+Casa Ibirapuera High-End Jul-22 6% 2% 50 18 
+Jardim Europa By Cyrela High-End Dec-21 4% 5% 42 34 
+Iconyc By Yoo High-End Sep-23 10% 4% 40 17 
+Vivaz Prime Vila Nova Cachoeirinha Vivaz Prime Jun-22 7% 7% 34 21 
+Cyrela Moema By Yoo High-End Sep-21 6% 6% 33 17 
+On The Sky Cyrela By Yoo High-End Jun-23 4% 1% 29 29 
+Living Infinity Nova Klabin Middle Apr-22 7% 3% 27 12 
+Easy Botafogo High-End Mar-22 2% 7% 26 31 
+Maison Cyrela Perdizes High-End Mar-22 6% 4% 26 17 
+Living Full Vila Nova Conceição Middle Aug-22 7% 5% 25 15 
+Vivaz Penha MCMV 2 & 3 Dec-21 6% 7% 23 35 
+Living Wellness Aclimação Middle Mar-23 6% 4% 22 11 
+Le Jardin High-End Nov-21 6% 8% 20 15
+Living Duett Mooca Middle Nov-22 7% 6% 19 18 
+Vivaz Prime Rio Bonito Vivaz Prime Mar-22 5% 10% 19 40 
+N.A.U Klabin High-End Mar-23 7% 3% 18 5 
+Vivaz Irajá MCMV 2 & 3 May-23 14% 4% 18 4 
+Orygem Acqua Home High-End Dec-21 2% 6% 17 22 
+Vivaz Prime Belém Vivaz Prime May-22 7% 5% 17 16 
+Vivaz Prime Voluntários Da Patria Vivaz Prime Apr-23 8% 2% 17 6 
+Legacy Paineiras High-End Feb-23 10% 5% 16 9 
+On The Sea Arpoador High-End Dec-21 7% 4% 16 7 
+Oscar Freire 1.560 High-End Oct-22 7% 4% 16 9 
+Vivaz Prime Vila Prudente Vivaz Prime Nov-22 9% 6% 16 10 
+Other Projects 672 1,291 
+Sub-Total 1,369 1,776 
+Projects begun after December, 2023
+Vista Venezia High-End Dec-24 51% 0% 397 - 
+On The Sky – Wanders & Yoo High-End Dec-24 37% 0% 125 - 
+Gate By Yoo High-End Oct-24 37% 0% 95 - 
+Aura Pacaembu By Cyrela High-End Nov-24 34% 0% 78 - 
+Living Full Vila Olimpia Middle Dec-24 37% 0% 77 - 
+Vivaz Connection Paulista MCMV 2 & 3 Oct-24 39% 0% 63 - 
+25H By Living Middle Dec-24 37% 0% 55 - 
+High Line By Living Middle Dec-24 41% 0% 43 - 
+Home Boutique By Living Ipiranga Middle Oct-24 38% 0% 42 - 
+Home Boutique By Living Anália Franco Middle Oct-24 29% 0% 30 - 
+Eredita Moinhos High-End Dec-24 37% 0% 30 - 
+Vivaz Parque Prime Freguesia Do Ó MCMV 2 & 3 Oct-24 25% 0% 29 - 
+Vivaz Belenzinho MCMV 2 & 3 Dec-24 29% 0% 27 - 
+Woods Park Design By Edsa High-End Sep-24 0% 0% 15 - 
+Living Grand Wish Jardim Middle Feb-24 5% 0% 14 - 
+Other Projects 129 - 
+Sub-Total 1,249 - 
+Total 2,618 1,776 
+% ACCRUED FINANCIAL 
+EVOLUTION
+ACCRUED REVENUE
+(R$ MM)
