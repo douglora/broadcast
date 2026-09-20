@@ -119,6 +119,7 @@ td.dia .v{position:relative;}
 .corpo{margin:7px 0 0;padding-left:16px;font-size:13px;color:var(--fraco);}
 .corpo li{margin-bottom:2px;}
 .porque{font-size:13px;color:var(--fraco);margin-top:7px;max-width:70ch;}
+.revisto{font-size:12.5px;color:var(--atencao);margin-top:7px;max-width:70ch;font-style:italic;}
 .porque::before{content:"Por que importa: ";color:var(--mesa);font-weight:600;}
 .fonte{font-family:var(--mono);font-size:11px;color:var(--fraco);margin-top:6px;}
 .lista-alertas{list-style:none;margin:0;padding:0;}
@@ -337,6 +338,8 @@ def _cartao_alertas(do_dia: list[dict]) -> str:
             f'<article class="alerta critico"><p class="cab"><span class="sev">crítico</span>'
             f'<span class="regra">{_e(a.get("regra"))}</span><span class="ativo">{_e(a.get("ativo"))}</span></p>'
             f'<p class="tit">{_e(a.get("titulo"))}</p>{_corpo_alerta(a)}'
+            + (f'<p class="revisto">Número revisto depois do disparo; o alerta saiu como: '
+               f'{_e(a["titulo_inicial"])}</p>' if a.get("titulo_inicial") else "")
             + (f'<p class="porque">{_e(a.get("por_que"))}</p>' if a.get("por_que") else "")
             + (f'<p class="fonte">{_e(a.get("fonte"))}</p>' if a.get("fonte") else "")
             + "</article>")
