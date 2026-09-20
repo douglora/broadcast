@@ -46,11 +46,16 @@ def coletar(cli: Cliente | None = None) -> dict:
 # O Douglas pediu celulose e minerio em dolar. O que existe de graca e diario sao
 # os futuros asiaticos em CNY: converte-se pelo USD/CNY (CNY=X) do MESMO dia, e o
 # rotulo de proxy anda junto com o numero.
+# Futuro de commodity na China e cotado COM o IVA de 13% embutido. Sem tirar, o
+# numero fica ~13% acima de qualquer referencia internacional em dolar (e o minerio
+# de Dalian aparece acima do CFR 62% sem motivo economico). O que vai para a tela e
+# o valor sem IVA, que e o comparavel; o bruto fica na nota.
+IVA_CHINA = 0.13
 ITENS_USD = {
-    "CELULOSE_LONGA": {"proxy": "SHFE_SP", "nome": "Celulose fibra longa",
-                       "rotulo": "futuro SP da SHFE (fibra longa) em CNY/t convertido; nao e preco de lista NBSK"},
-    "MINERIO_DALIAN": {"proxy": "DCE_I0", "nome": "Minerio de ferro Dalian",
-                       "rotulo": "futuro da DCE em CNY/t convertido; o CFR 62% em US$ e a linha MINERIO"},
+    "CELULOSE_LONGA": {"proxy": "SHFE_SP", "nome": "Celulose fibra longa", "iva": IVA_CHINA,
+                       "rotulo": "futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK"},
+    "MINERIO_DALIAN": {"proxy": "DCE_I0", "nome": "Minerio de ferro Dalian", "iva": IVA_CHINA,
+                       "rotulo": "futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO"},
 }
 
 
@@ -78,16 +83,18 @@ def em_dolar(proxies: dict, fx_df=None, hoje=None) -> dict:
     hist = proxies.get("historico") or {}
     atuais = proxies.get("proxies") or {}
     for pid, cfg in ITENS_USD.items():
+        iva = 1.0 + float(cfg.get("iva") or 0.0)
         pontos = []
         for data, cny in (hist.get(cfg["proxy"]) or []):
             taxa = _taxa_em(fx_df, data)
             if taxa and cny:
-                pontos.append((data, float(cny) / taxa))
+                pontos.append((data, float(cny) / taxa / iva))
         atual = atuais.get(cfg["proxy"]) or {}
         if not pontos and not atual.get("preco"):
             continue
         item = {"nome": cfg["nome"], "rotulo": cfg["rotulo"], "unidade": "US$/t",
-                "cny": atual.get("preco"), "data": atual.get("data"), "pontos": len(pontos)}
+                "cny": atual.get("preco"), "data": atual.get("data"), "pontos": len(pontos),
+                "iva": cfg.get("iva")}
         if atual.get("data"):
             item["fx"] = _taxa_em(fx_df, atual["data"])
         if pontos:
@@ -97,7 +104,9 @@ def em_dolar(proxies: dict, fx_df=None, hoje=None) -> dict:
                 df = ind.de_precos([d for d, _ in pontos], [v for _, v in pontos])
                 item["janelas"] = ind.janelas(df, ate=hoje)
         elif item.get("fx") and atual.get("preco"):
-            item["usd"] = float(atual["preco"]) / item["fx"]
+            item["usd"] = float(atual["preco"]) / item["fx"] / iva
+        if item.get("usd") and cfg.get("iva"):
+            item["usd_com_iva"] = item["usd"] * iva
         out[pid] = item
     bhkp, ant = proxies.get("bhkp_semanal"), proxies.get("bhkp_anterior")
     if bhkp and bhkp.get("valor"):

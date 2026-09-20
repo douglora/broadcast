@@ -109,3 +109,33 @@ def test_mesclar_nao_perde_a_barra_do_ultimo_pregao():
     longa = {"barras": [barra(d, float(i)) for i, d in enumerate(dias)]}
     m4 = yahoo.mesclar(longa, {"meta": {}, "barras": [barra("2026-09-18", 1.0)]}, max_barras=800)
     assert len(m4["barras"]) == 800 and m4["barras"][-1][0] == "2026-09-18" and m4["barras"][0][0] == dias[101]
+
+
+def test_sina_em_dolar_tira_o_iva_chines_e_bate_com_o_cfr():
+    """Futuro chines vem com IVA de 13% embutido: sem tirar, o minerio de Dalian
+    aparece acima do CFR 62% sem motivo economico."""
+    from livro.fontes import sina
+    from livro import indicadores as ind
+    p = {"proxies": {"SHFE_SP": {"preco": 4928.0, "data": "2026-09-18"},
+                     "DCE_I0": {"preco": 715.0, "data": "2026-09-18"}},
+         "historico": {"SHFE_SP": [["2026-09-17", 4900.0], ["2026-09-18", 4928.0]],
+                       "DCE_I0": [["2026-09-18", 715.0]]}}
+    fx = ind.de_precos(["2026-09-17", "2026-09-18"], [6.70, 6.71])
+    d = sina.em_dolar(p, fx)
+    minerio = d["MINERIO_DALIAN"]
+    assert round(minerio["usd"]) == 94                    # 715 / 6,71 / 1,13
+    assert round(minerio["usd_com_iva"]) == 107
+    assert "sem o IVA de 13%" in minerio["rotulo"]
+    # o que vai para a tela tem de ficar perto do CFR 62% (97,57 em 18/09)
+    assert abs(minerio["usd"] / 97.57 - 1) < 0.06
+    longa = d["CELULOSE_LONGA"]
+    assert round(longa["usd"]) == 650
+    assert longa["pontos"] == 2 and longa["janelas"]["dia"] is not None
+
+
+def test_sina_em_dolar_sem_cambio_do_dia_nao_inventa_taxa():
+    from livro.fontes import sina
+    p = {"proxies": {"DCE_I0": {"preco": 715.0, "data": "2026-09-18"}}, "historico": {}}
+    d = sina.em_dolar(p, None)
+    assert d["MINERIO_DALIAN"].get("usd") is None         # declara a lacuna, nao converte no chute
+    assert d["MINERIO_DALIAN"]["cny"] == 715.0
