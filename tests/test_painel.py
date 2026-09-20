@@ -123,3 +123,24 @@ def test_celular_nao_rola_de_lado(universo):
     assert "overflow-x:auto" in h              # tabela larga rola dentro do cartao
     assert "@media (max-width:620px)" in h    # painel estreito ao lado do chat
     assert not re.search(r"min-width:\s*(\d{3,})px", h.replace("minmax(330px", ""))
+
+
+def test_cabecalho_e_linha_tem_o_mesmo_numero_de_colunas(universo):
+    """Cabecalho com 10 colunas e linha com 8 desloca tudo: o 6 m aparece sob 3 m e
+    YTD e 5 anos ficam vazios. Foi o que aconteceu ao acrescentar as janelas novas."""
+    import re
+    h = pagina(universo)
+    tabela = h.split('<section class="cartao bloco">')[1]
+    cabecalho = re.search(r"<thead>(.*?)</thead>", tabela, re.S).group(1)
+    linha = re.search(r"<tbody>(.*?)</tr>", tabela, re.S).group(1)
+    assert len(re.findall(r"<th ", cabecalho)) == 10
+    assert len(re.findall(r"<t[hd][ >]", linha)) == 10
+
+
+def test_todas_as_janelas_aparecem_na_linha(universo):
+    janelas = {a.id: {"ultimo": 100.0, "dia": 0.012, "1s": -0.004, "1m": 0.03, "3m": 0.077,
+                      "6m": 0.1, "1a": 0.2, "ytd": 0.05, "5a": 1.234, "data": "2026-09-18"}
+               for a in universo.ativos}
+    h = pagina(universo, janelas=janelas)
+    for v in ("+7,7%", "+123%"):      # 3 meses e 5 anos nao podem sumir
+        assert v in h, v
