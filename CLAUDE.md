@@ -21,9 +21,20 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   de fontes esta na skill; agregadores (Yahoo, Fundamentus) so para preco,
   consenso e conferencia; busca na web e contexto, nunca fonte primaria de
   numero quando houver JSON do branch `dados`.
+- Quando ele perguntar por que, como, de onde vem, o que o preco exige ou se
+  a gestao entregou o que prometeu, use a skill `deep-search`
+  (.claude/skills/deep-search/SKILL.md): uma pergunta so, ate o fundo, em sete
+  passos (fixa a pergunta, inventaria, decompoe a DRE, varre os 8 releases,
+  faz a conta reversa do preco, testa nos pares, fecha com o que mudaria de
+  ideia). `analise-ativo` cobre o ativo em largura; `deep-search` cava fundo.
+- Toda pesquisa comeca por `python3 mesa.py skills` e abre a resposta com uma
+  linha dizendo quais skills operaram e quais comandos do `mesa.py` foram
+  usados. O Douglas pediu essa confirmacao em toda pesquisa (20/09). Skill
+  faltando ou invalida vira a primeira linha da resposta, nunca silencio.
 - Leia o branch pelo `mesa.py` (`python3 mesa.py ficha TICKER`, `pares`,
-  `releases`, `release TICKER 2T25 --grep ...`, `termos`), nao por script
-  avulso: e a leitura padronizada da mesa.
+  `releases`, `release TICKER 2T25 --grep ...`, `linha TICKER "meta|guidance"`,
+  `decompor TICKER`, `termos`), nao por script avulso: e a leitura
+  padronizada da mesa.
 - O Douglas le no celular e nao decora sigla: comece com "Em uma frase",
   tabelas de ate 4 colunas, toda sigla explicada em portugues na primeira
   vez (glossario em .claude/skills/analise-ativo/GLOSSARIO.md) e a nota fecha

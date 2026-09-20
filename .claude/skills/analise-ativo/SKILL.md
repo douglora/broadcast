@@ -74,6 +74,8 @@ python3 mesa.py pares INBR32      # comparativo do grupo, com medianas e a orige
 python3 mesa.py releases INBR32   # os 8 releases guardados, com trimestre, data e tamanho
 python3 mesa.py release INBR32 2T25 --grep "guidance|meta|ROE|margem"   # trechos de um release antigo
 python3 mesa.py release INBR32 2T26   # texto integral do release
+python3 mesa.py linha INBR32 "meta|guidance|ROE de"   # a mesma busca nos 8 releases, em ordem: o que a gestao disse trimestre a trimestre
+python3 mesa.py decompor INBR32       # cada linha da DRE como % da receita e quem explica a variacao da margem
 python3 mesa.py serie INBR32      # 12 trimestres das demonstracoes oficiais
 python3 mesa.py termos ROE NIM    # glossario em portugues claro
 ```
@@ -197,10 +199,19 @@ Este e o trabalho que diferencia a mesa: sempre feito, sempre com a fonte
 oficial, mesmo na variante rapida (em cinco linhas). Cada item cita o bloco
 e o periodo de onde saiu o numero.
 
+O metodo esta na skill `deep-search` (.claude/skills/deep-search/SKILL.md):
+fixa a pergunta, decompoe a DRE (`mesa.py decompor`), varre os 8 releases
+(`mesa.py linha`), faz a conta reversa do preco e testa contra os pares. Use
+`deep-search` sempre que o Douglas perguntar por que, como, de onde vem ou o
+que o preco exige; use esta secao quando o pedido for a nota completa.
+
 ### 4.1 Trajetoria de margens (8 a 10 trimestres)
 
-Tabela com receita, EBIT, margem EBIT, lucro liquido e margem liquida por
-trimestre, a partir de `serie_trimestral` (CVM) ou `trimestral` (SEC).
+`python3 mesa.py decompor TICKER` imprime cada conta de resultado como % da
+receita, trimestre a trimestre, e ordena as linhas pela variacao em pontos
+percentuais entre a ponta antiga e a nova: a linha do topo e a que explica a
+margem. Complete com receita, EBIT, lucro e margem liquida em valor
+(`mesa.py serie`), a partir de `serie_trimestral` (CVM) ou `trimestral` (SEC).
 Marque os trimestres em `derivados`. Depois diga: onde a margem virou, se a
 queda veio de receita (preco, volume, mix) ou de custo (linhas de despesa,
 provisao, D&A), e se o release confirma ou explica (cite a pagina). Em
@@ -264,8 +275,10 @@ contra o melhor e o pior par. Regras:
 ### 4.6 Discurso contra entrega (use o historico de releases)
 
 Com 8 trimestres de release no branch, cobre a gestao pelo que ela mesma
-disse. Abra pelo menos o release de 4 trimestres atras e o do mesmo trimestre
-do ano anterior, e compare com o que saiu:
+disse. `python3 mesa.py linha TICKER "meta|guidance|ROE de|margem|plano"`
+busca o mesmo termo nos 8, do mais antigo ao mais novo, e mostra em que
+trimestre o assunto entrou e em qual ele sumiu. Depois abra o release do
+trimestre que interessa inteiro, para citar a frase no contexto:
 
 - Guidance e meta: o que a empresa prometeu (margem, abertura de lojas,
   carteira, capex, sinergia) e o que entregou. Cite a frase e o numero.
