@@ -50,7 +50,8 @@ def bloco_b(universo, janelas: dict, series_info: dict, modo: str = "completo") 
         ativos = universo.por_bloco(bloco["id"])
         if not ativos:
             continue
-        linhas.append(bloco["titulo"])
+        largura = 41 if modo == "celular" else LARGURA
+        linhas.append(bloco["titulo"][:largura])
         for a in ativos:
             j = janelas.get(a.id)
             info = series_info.get(a.id) or {}

@@ -53,9 +53,12 @@ def _card_bloco(universo, bloco: dict, janelas: dict, series_info: dict) -> str:
     sep = "|---|" + "---:|" * (len(TITULOS_COL) + 1)
     linhas = [_linha(a, janelas[a.id], series_info.get(a.id) or {}) for a in ativos]
     out = "\n".join([f"### {_esc(bloco['titulo'])} · variação em %", "", cab, sep, *linhas])
-    if bloco["id"] == "ucits":
+    # regra do Douglas: UCITS sempre por extenso. Vale em qualquer bloco que tenha
+    # um, nao so no bloco UCITS (os fundos de quantica tambem sao irlandeses).
+    ucits = [a for a in ativos if "UCITS" in (a.nome or "")]
+    if ucits:
         out += "\n\n" + "Nomes completos: " + " · ".join(
-            f"**{_esc(a.id)}** {_esc(a.nome)}" for a in ativos) + "."
+            f"**{_esc(a.id)}** {_esc(a.nome)}" for a in ucits) + "."
     return out
 
 
