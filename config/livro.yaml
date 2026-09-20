@@ -229,6 +229,17 @@ pares:
   - {a: CNDX, b: CSPX, tipo: etf_etf}
   - {a: VHYA, b: VWRA, tipo: etf_etf}
   - {a: BTC, b: ETH, tipo: cripto}
+  # pares dos nomes novos (20/09): quando o spread abre, um dos dois esta contando
+  # outra historia sobre o mesmo ciclo
+  - {a: AMD, b: NVDA, tipo: pares_setor}
+  - {a: LITE, b: COHR, tipo: pares_setor}
+  - {a: MRVL, b: AVGO, tipo: pares_setor}
+  - {a: INTC, b: GFS, tipo: pares_setor}
+  - {a: SMH, b: SOXX, tipo: etf_etf}
+  - {a: QQQ, b: SPY, tipo: etf_etf}
+  - {a: IGV, b: XLK, tipo: etf_etf}
+  - {a: BOTZ, b: SOX, tipo: etf_indice}
+  - {a: META, b: GOOGL, tipo: pares_setor}
 
 curvas:
   di:
