@@ -15,6 +15,7 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py decompor INBR32              # cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao
     python3 mesa.py pares INBR32                 # comparativo do grupo com medianas
     python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
+    python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
 Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
 JSON aparecem como "-", nunca preenchidos.
@@ -438,6 +439,61 @@ def termos(chaves):
         print("\n".join(achou) if achou else f"- {chave}: nao esta no glossario; explique em uma frase e proponha incluir")
 
 
+COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "termos", "skills")
+
+
+def skills():
+    """Confere se as skills da mesa estao no lugar e validas. Roda antes de toda pesquisa."""
+    base = os.path.join(AQUI, ".claude", "skills")
+    esperadas = {
+        "analise-ativo": ["SKILL.md", "GLOSSARIO.md"],
+        "deep-search": ["SKILL.md"],
+        "livro": ["SKILL.md"],
+    }
+    ok = True
+    print("== skills da mesa em .claude/skills/")
+    for nome, arquivos in esperadas.items():
+        for arq in arquivos:
+            caminho = os.path.join(base, nome, arq)
+            if not os.path.exists(caminho):
+                print(f"  FALTA   {nome}/{arq}")
+                ok = False
+                continue
+            texto = open(caminho, encoding="utf-8").read()
+            if arq != "SKILL.md":
+                n = sum(1 for l in texto.split("\n") if l.startswith("- **"))
+                print(f"  ok      {nome}/{arq}  {n} termos")
+                continue
+            m = re.match(r"---\n(.*?)\n---\n", texto, re.S)
+            if not m:
+                print(f"  INVALIDA {nome}/{arq}: sem frontmatter")
+                ok = False
+                continue
+            fm = m.group(1)
+            tem_nome = re.search(r"^name:\s*(\S+)", fm, re.M)
+            tem_desc = re.search(r"^description:\s*\S", fm, re.M)
+            if not tem_nome or not tem_desc:
+                print(f"  INVALIDA {nome}/{arq}: falta name ou description")
+                ok = False
+                continue
+            if tem_nome.group(1) != nome:
+                print(f"  INVALIDA {nome}/{arq}: name '{tem_nome.group(1)}' nao bate com a pasta")
+                ok = False
+                continue
+            print(f"  ok      {nome}/{arq}  {len(texto.split(chr(10)))} linhas, {len(fm)} chars de gatilho")
+    faltando = [c for c in COMANDOS if f'cmd == "{c}"' not in open(os.path.join(AQUI, "mesa.py"), encoding="utf-8").read()]
+    print(f"  ok      mesa.py: {len(COMANDOS)} comandos" if not faltando else f"  FALTA   mesa.py: {faltando}")
+    ok = ok and not faltando
+    try:
+        import pares as _p
+        print(f"  ok      pares.py: {len(_p.PARES)} grupos, {len(_p.BDR_SUBJACENTE)} BDRs mapeados")
+    except Exception as e:
+        print(f"  FALTA   pares.py: {e}")
+        ok = False
+    print("\n" + ("TUDO OPERANDO" if ok else "HA PENDENCIA ACIMA"))
+    return 0 if ok else 1
+
+
 def main(argv):
     if len(argv) < 2:
         print(__doc__)
@@ -460,6 +516,8 @@ def main(argv):
         pares(args[0].upper())
     elif cmd == "termos":
         termos(args)
+    elif cmd == "skills":
+        return skills()
     else:
         print(__doc__)
         return 1

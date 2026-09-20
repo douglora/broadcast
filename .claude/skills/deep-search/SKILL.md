@@ -40,8 +40,12 @@ Escreva a pergunta fixada na primeira linha do rascunho. Ela e o criterio de
 ## Passo 1. Inventario: o que existe, o que falta
 
 ```bash
+python3 mesa.py skills     # as skills da mesa estao instaladas e validas?
 python3 mesa.py ficha TICKER
 ```
+
+A resposta abre confirmando o que operou: quais skills e quais comandos. O
+Douglas pediu essa confirmacao em toda pesquisa.
 
 A ficha diz em uma tela se ha demonstracao oficial, quantos releases estao
 guardados, qual o grupo de pares e quais fontes falharam.
