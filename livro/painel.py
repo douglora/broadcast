@@ -224,6 +224,29 @@ def _chip_taxa(rotulo: str, taxa, delta, sufixo: str = "") -> str:
     )
 
 
+def _cartao_commodities(em_dolar: dict | None) -> str:
+    if not em_dolar:
+        return ""
+    ordem = ("CELULOSE_CURTA", "CELULOSE_LONGA", "MINERIO_DALIAN")
+    itens = [(k, em_dolar[k]) for k in ordem if k in em_dolar]
+    if not itens:
+        return ""
+    linhas = []
+    for _, v in itens:
+        j = v.get("janelas") or {}
+        var = v.get("variacao") if v.get("semanal") else j.get("dia")
+        linhas.append(
+            f'<tr><th scope="row"><span class="tk">{_e(v.get("nome"))}</span>'
+            f'<span class="nm">{_e(v.get("rotulo"))}</span></th>'
+            f'<td class="n ult">{_e(fmt.num(v.get("usd"), 0))}</td>'
+            f'<td class="n {_sinal(var)}">{_e(fmt.pct(var))}</td>'
+            f'<td class="n">{_e(fmt.data_br(v.get("data")) if v.get("data") else "-")}</td></tr>')
+    return (f'<section class="cartao largo"><h2>Commodities em dólar<span class="conta">US$/t</span></h2>'
+            f'<div class="rolagem"><table><thead><tr><th scope="col">Referência</th>'
+            f'<th scope="col">US$/t</th><th scope="col">variação</th><th scope="col">data</th>'
+            f'</tr></thead><tbody>{"".join(linhas)}</tbody></table></div></section>')
+
+
 def _cartao_curvas(ins: dict) -> str:
     if not ins:
         return ""
@@ -415,7 +438,8 @@ def _rodape(universo, relogios_txt: str, lacunas: list[str], notas: list[str], f
 
 def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, janelas: dict,
            series_info: dict, do_dia: list[dict], ins: dict, movers: dict, agenda_l: list[str],
-           lacunas: list[str], notas: list[str], fontes: list[str], parcial: bool = False) -> str:
+           lacunas: list[str], notas: list[str], fontes: list[str], parcial: bool = False,
+           em_dolar: dict | None = None) -> str:
     """HTML completo do painel. O marcador da Leitura da Mesa fica para a sessao."""
     rotulo = "Manhã do livro" if slot == "manha" else "Fechamento do livro"
     cartoes = "".join(_cartao_bloco(universo, b, janelas, series_info) for b in universo.blocos)
@@ -431,6 +455,7 @@ def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, ja
         + _cartao_movers(movers)
         + _cartao_alertas(do_dia)
         + f'<div class="grade">{cartoes}</div>'
+        + _cartao_commodities(em_dolar)
         + _cartao_curvas(ins)
         + _cartao_noticias(do_dia)
         + _cartao_agenda(agenda_l)

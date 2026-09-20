@@ -5,7 +5,7 @@ renderiza as saidas e grava livro/saida/manifest.json.
 Layout no branch dados (raiz = dados_branch/livro):
   series/<SIMBOLO_SAFE>.json   curvas/{di,tesouro,ust}.json   macro/{bcb,focus,proxies,regime}.json
   estado/{regras_estado.json,alertas.json,historico_alertas.jsonl}
-  saida/{manifest.json,fechamento.md,fechamento.json,fechamento_cards.md,painel.html,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
+  saida/{manifest.json,fechamento.md,fechamento.json,fechamento_cards.md,manha_cards.md,painel.html,alertas.md,intradia.md,manha.md,noticias.md,eventos.md}
   eventos/{noticias,cvm,sec}.json   noticias/vistos.json   noticias/corpo/<id>.json
   sonda/cobertura.json   universo.json"""
 
@@ -254,6 +254,8 @@ class Coleta:
                         serie.append([v["data"], v["preco"]])
                         hist[chave] = sorted(serie)[-90:]
                 p["historico"] = hist
+                # celulose e minerio em US$ (pedido do Douglas): converte pelo CNY=X do dia
+                p["em_dolar"] = sina.em_dolar(p, self.series.get("CNY"), self.hoje)
                 gravar_json(os.path.join(self.saida, "macro", "proxies.json"), p)
                 self.macro["proxies"] = p
                 self.pernas["proxies"] = f"ok {list((p.get('proxies') or {}).keys())}" + (f"; {p['falhas']}" if p.get("falhas") else "")
@@ -447,7 +449,10 @@ class Coleta:
         mov = render.movers(janelas, self.u)
         relogios_txt = self._relogios_txt()
         fontes = ["Yahoo Finance", "B3 Boletim Diário", "Tesouro Transparente", "Treasury.gov CMT", "BCB"]
-        parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in self.u.por_bloco("eua"))
+        # "parcial" = pregao dos EUA ainda aberto; vale para todos os blocos de la
+        eua = [a for b in ("etf_eua", "eua_semis", "eua_tech", "eua_banco", "eua_outros")
+               for a in self.u.por_bloco(b)]
+        parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in eua)
         coleta_dia = relogios.brt(self.agora).date()
         hora_txt = relogios.fmt_brt(self.agora) + ("" if coleta_dia == self.hoje else f" de {fmt.data_br(coleta_dia.isoformat())}")
         agenda_l = render.agenda(self.calendario, self.hoje, extras=render.agenda_extras(self.eventos.get("agenda") or {}, self.calendario))
@@ -477,16 +482,17 @@ class Coleta:
             "push_sugerido": self._push_fechamento(do_dia, mov, ins),
         })
         # cards em markdown: o que a sessao cola no chat as 18h40 (escolha do Douglas)
-        with open(os.path.join(saida, "fechamento_cards.md"), "w", encoding="utf-8") as f:
+        nome_cards = "manha_cards.md" if self.modo == "manha" else "fechamento_cards.md"
+        with open(os.path.join(saida, nome_cards), "w", encoding="utf-8") as f:
             f.write(cards.cards_md(self.u, self.hoje, self.modo, hora_txt, relogios_txt, janelas,
                                    self.series_info, do_dia, ins, mov, agenda_l, lacunas, notas,
-                                   fontes, parcial=parcial))
+                                   fontes, parcial=parcial, em_dolar=(self.macro.get("proxies") or {}).get("em_dolar")))
         # painel HTML: a mesma coleta virada pagina; a sessao so troca o marcador da
         # leitura e publica como Artifact
         with open(os.path.join(saida, "painel.html"), "w", encoding="utf-8") as f:
             f.write(painel.pagina(self.u, self.hoje, self.modo, hora_txt, relogios_txt, janelas,
                                   self.series_info, do_dia, ins, mov, agenda_l, lacunas, notas,
-                                  fontes, parcial=parcial))
+                                  fontes, parcial=parcial, em_dolar=(self.macro.get("proxies") or {}).get("em_dolar")))
         out.update({"lacunas": len(lacunas), "tamanho_a": len(a_txt), "tamanho_b": len(b_txt)})
         return out
 

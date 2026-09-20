@@ -35,8 +35,8 @@ on:
     - cron: "5 13-21 * * 1-5"
     # Fechamento: 21h28 UTC = 18h28 BRT (a rotina das 21h40 UTC redispara se faltar)
     - cron: "28 21 * * 1-5"
-    # Manha: 09h50 UTC = 06h50 BRT
-    - cron: "50 9 * * 1-5"
+    # Manha: 12h20 UTC = 09h20 BRT (a rotina das 12h30 UTC redispara se faltar)
+    - cron: "20 12 * * 1-5"
 
 permissions:
   contents: write

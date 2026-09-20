@@ -107,3 +107,49 @@ def test_curvas_e_rodape(universo):
     assert "2s10s +25 bps" in t
     assert "Resolução CVM 178" in t
     assert "**Lacunas:** nenhuma perna falhou." in t
+
+
+def _em_dolar():
+    return {
+        "CELULOSE_CURTA": {"nome": "Celulose fibra curta (BHKP)", "unidade": "US$/t", "semanal": True,
+                           "usd": 545.0, "data": "2026-09-16", "fonte": "materia publica",
+                           "variacao": -0.0268, "rotulo": "preco semanal citado em fonte publica"},
+        "CELULOSE_LONGA": {"nome": "Celulose fibra longa", "unidade": "US$/t", "usd": 693.1, "cny": 4928.0,
+                           "fx": 7.11, "data": "2026-09-18", "pontos": 2,
+                           "rotulo": "futuro SP da SHFE em CNY/t convertido",
+                           "janelas": {"dia": 0.0043, "1s": None, "1m": None}},
+        "MINERIO_DALIAN": {"nome": "Minerio de ferro Dalian", "unidade": "US$/t", "usd": 100.6, "cny": 715.0,
+                           "fx": 7.11, "data": "2026-09-18", "pontos": 1,
+                           "rotulo": "futuro da DCE em CNY/t convertido"},
+    }
+
+
+def test_commodities_em_dolar_com_rotulo_de_proxy(universo):
+    t = md(universo, em_dolar=_em_dolar())
+    assert "### Commodities em dólar · US$/t" in t
+    assert "**Celulose fibra curta (BHKP)** | 545" in t
+    assert "**Celulose fibra longa** | 693" in t
+    assert "**Minerio de ferro Dalian** | 101" in t
+    # o rotulo de proxy nunca sai de perto do numero
+    assert "futuro SP da SHFE em CNY/t convertido · CNY/t 4.928 a USD/CNY 7,11" in t
+    assert "preco semanal citado em fonte publica · fonte materia publica" in t
+    # sem base de comparacao, diz que nao tem, em vez de mostrar 0,0
+    assert "ainda sem base de comparação" in t and "Minerio de ferro Dalian" in t
+    assert "| semanal |" in t          # fibra curta nao tem variacao diaria
+
+
+def test_sem_proxy_em_dolar_o_card_nao_aparece(universo):
+    assert "Commodities em dólar" not in md(universo)
+
+
+def test_blocos_novos_em_ordem(universo):
+    t = md(universo)
+    ordem = ["UCITS (USD)", "ETFs EUA (USD)", "EUA · Semicondutores e óptica",
+             "EUA · Tecnologia e plataformas", "EUA · Bancos",
+             "EUA · Consumo, energia e indústria", "BR (R$)", "Macro"]
+    pos = [t.index(f"### {x} · variação em %") for x in ordem]
+    assert pos == sorted(pos), "os cards sairam fora da ordem do config"
+    for tk in ("SMH", "SOXX", "QQQ", "SPY", "XLK", "VGT", "IGV", "BOTZ"):
+        assert f"**{tk}**" in t, tk
+    for tk in ("META", "INTC", "AMD", "PLTR", "MRVL", "AVGO", "LITE", "COHR", "GFS", "TSLA"):
+        assert f"**{tk}**" in t, tk

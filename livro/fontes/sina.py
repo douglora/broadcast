@@ -40,3 +40,72 @@ def coletar(cli: Cliente | None = None) -> dict:
         except Exception as e:
             falhas.append(f"{pid}: {type(e).__name__}: {str(e)[:60]}")
     return {"proxies": out, "falhas": falhas, "coletado_em": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}
+
+
+# ---------------------------------------------------------------- CNY/t -> US$/t
+# O Douglas pediu celulose e minerio em dolar. O que existe de graca e diario sao
+# os futuros asiaticos em CNY: converte-se pelo USD/CNY (CNY=X) do MESMO dia, e o
+# rotulo de proxy anda junto com o numero.
+ITENS_USD = {
+    "CELULOSE_LONGA": {"proxy": "SHFE_SP", "nome": "Celulose fibra longa",
+                       "rotulo": "futuro SP da SHFE (fibra longa) em CNY/t convertido; nao e preco de lista NBSK"},
+    "MINERIO_DALIAN": {"proxy": "DCE_I0", "nome": "Minerio de ferro Dalian",
+                       "rotulo": "futuro da DCE em CNY/t convertido; o CFR 62% em US$ e a linha MINERIO"},
+}
+
+
+def _taxa_em(fx_df, data: str):
+    """USD/CNY do dia, ou do pregao anterior mais proximo."""
+    import pandas as pd
+    if fx_df is None or len(fx_df) == 0:
+        return None
+    col = "adj" if "adj" in fx_df.columns else "close"
+    try:
+        v = fx_df[col].asof(pd.Timestamp(data))
+    except (KeyError, TypeError, ValueError):
+        return None
+    return float(v) if v is not None and not pd.isna(v) and float(v) > 0 else None
+
+
+def em_dolar(proxies: dict, fx_df=None, hoje=None) -> dict:
+    """Serie em US$/t de cada proxy asiatico + a fibra curta (BHKP) semanal.
+
+    Devolve {id: {nome, rotulo, unidade, usd, cny, fx, data, pontos, janelas}}.
+    `janelas` so aparece com dois pontos ou mais: o historico dos proxies comeca
+    no dia em que o livro entrou no ar, e dia/semana/mes vao preenchendo."""
+    from livro import indicadores as ind
+    out = {}
+    hist = proxies.get("historico") or {}
+    atuais = proxies.get("proxies") or {}
+    for pid, cfg in ITENS_USD.items():
+        pontos = []
+        for data, cny in (hist.get(cfg["proxy"]) or []):
+            taxa = _taxa_em(fx_df, data)
+            if taxa and cny:
+                pontos.append((data, float(cny) / taxa))
+        atual = atuais.get(cfg["proxy"]) or {}
+        if not pontos and not atual.get("preco"):
+            continue
+        item = {"nome": cfg["nome"], "rotulo": cfg["rotulo"], "unidade": "US$/t",
+                "cny": atual.get("preco"), "data": atual.get("data"), "pontos": len(pontos)}
+        if atual.get("data"):
+            item["fx"] = _taxa_em(fx_df, atual["data"])
+        if pontos:
+            item["usd"] = pontos[-1][1]
+            item["data"] = pontos[-1][0]
+            if len(pontos) >= 2:
+                df = ind.de_precos([d for d, _ in pontos], [v for _, v in pontos])
+                item["janelas"] = ind.janelas(df, ate=hoje)
+        elif item.get("fx") and atual.get("preco"):
+            item["usd"] = float(atual["preco"]) / item["fx"]
+        out[pid] = item
+    bhkp, ant = proxies.get("bhkp_semanal"), proxies.get("bhkp_anterior")
+    if bhkp and bhkp.get("valor"):
+        item = {"nome": "Celulose fibra curta (BHKP)", "unidade": "US$/t", "semanal": True,
+                "usd": bhkp.get("valor"), "data": bhkp.get("data"), "fonte": bhkp.get("fonte"),
+                "rotulo": "preco semanal citado em fonte publica; nao ha serie diaria gratuita"}
+        if ant and ant.get("valor"):
+            item["variacao"] = float(bhkp["valor"]) / float(ant["valor"]) - 1
+            item["anterior"] = ant.get("valor")
+        out["CELULOSE_CURTA"] = item
+    return out

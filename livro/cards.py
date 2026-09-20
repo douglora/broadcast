@@ -102,6 +102,37 @@ def _tabela_taxas(titulo: str, quando: str, linhas: list[tuple], rodape: str = "
     return "\n".join(out)
 
 
+def _card_commodities(em_dolar: dict | None) -> str:
+    """Celulose (as duas fibras) e minerio em US$/t, sempre com o rotulo de proxy."""
+    if not em_dolar:
+        return ""
+    ordem = ("CELULOSE_CURTA", "CELULOSE_LONGA", "MINERIO_DALIAN")
+    itens = [(k, em_dolar[k]) for k in ordem if k in em_dolar]
+    if not itens:
+        return ""
+    L = ["### Commodities em dólar · US$/t", "",
+         "| Referência | US$/t | dia | 1 sem | 1 mês | leitura |"]
+    L.append("|---|---:|---:|---:|---:|---|")
+    notas = []
+    for k, v in itens:
+        j = v.get("janelas") or {}
+        if v.get("semanal"):
+            dia, sem, mes = "semanal", _v(v.get("variacao")), "-"
+        else:
+            dia, sem, mes = _v(j.get("dia")), _v(j.get("1s")), _v(j.get("1m"))
+        quando = fmt.data_br(v.get("data")) if v.get("data") else "-"
+        L.append(f"| **{_esc(v.get('nome'))}** | {_esc(fmt.num(v.get('usd'), 0))} | {dia} | {sem} | {mes} | {_esc(quando)} |")
+        if v.get("rotulo"):
+            notas.append(f"**{_esc(v.get('nome'))}**: {_esc(v['rotulo'])}"
+                         + (f" · CNY/t {fmt.num(v['cny'], 0)} a USD/CNY {fmt.num(v.get('fx'), 2)}" if v.get("cny") and v.get("fx") else "")
+                         + (f" · fonte {_esc(v['fonte'])}" if v.get("fonte") else ""))
+    poucos = [v.get("nome") for _, v in itens if not v.get("semanal") and (v.get("pontos") or 0) < 2]
+    if poucos:
+        notas.append("Histórico próprio destes proxies começou em 18/09/2026: as janelas de dia, semana e mês "
+                     "vão preenchendo conforme os pregões passam — " + _esc(", ".join(poucos)) + " ainda sem base de comparação.")
+    return "\n".join(L + [""] + [f"- {n}" for n in notas])
+
+
 def _card_curvas(ins: dict) -> str:
     if not ins:
         return ""
@@ -222,12 +253,14 @@ def _rodape(universo, relogios_txt: str, lacunas: list[str], notas: list[str], f
 
 def cards_md(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, janelas: dict,
              series_info: dict, do_dia: list[dict], ins: dict, movers: dict, agenda_l: list[str],
-             lacunas: list[str], notas: list[str], fontes: list[str], parcial: bool = False) -> str:
+             lacunas: list[str], notas: list[str], fontes: list[str], parcial: bool = False,
+             em_dolar: dict | None = None) -> str:
     rotulo = "Manhã do livro" if slot == "manha" else "Fechamento do livro"
     cab = (f"## {rotulo} · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora_txt} BRT"
            + (" · PARCIAL" if parcial else ""))
     blocos = [_card_bloco(universo, b, janelas, series_info) for b in universo.blocos]
     partes = [cab, MARCADOR_LEITURA, _card_alertas(do_dia), _card_destaques(movers),
-              *blocos, _card_curvas(ins), _card_noticias(do_dia), _card_agenda(agenda_l),
+              *blocos, _card_commodities(em_dolar), _card_curvas(ins),
+              _card_noticias(do_dia), _card_agenda(agenda_l),
               _rodape(universo, relogios_txt, lacunas, notas, fontes)]
     return "\n\n---\n\n".join(p for p in partes if p) + "\n"
