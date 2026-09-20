@@ -63,7 +63,8 @@ def test_uma_tabela_por_bloco_com_as_sete_janelas(universo):
     for bloco in universo.blocos:
         if universo.por_bloco(bloco["id"]):
             assert f"### {bloco['titulo']} · variação em %" in t
-    assert "| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |" in t
+    assert "| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |" in t
+    assert "| 1 ano | ano |" not in t          # "ano" sozinho nao diz que e YTD
 
 
 def test_ucits_com_nome_por_extenso_abaixo_da_tabela(universo):

@@ -208,7 +208,7 @@ def _cartao_bloco(universo, bloco: dict, janelas: dict, series_info: dict) -> st
         f'<div class="rolagem"><table>'
         '<thead><tr><th scope="col">Ativo</th><th scope="col">últ</th><th scope="col">dia</th>'
         '<th scope="col">1 sem</th><th scope="col">1 mês</th><th scope="col" class="op">6 m</th>'
-        '<th scope="col" class="op">1 ano</th><th scope="col">no ano</th></tr></thead>'
+        '<th scope="col" class="op">1 ano</th><th scope="col">YTD</th></tr></thead>'
         f"<tbody>{linhas}</tbody></table></div></section>"
     )
 
