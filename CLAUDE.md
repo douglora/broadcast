@@ -21,6 +21,13 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   de fontes esta na skill; agregadores (Yahoo, Fundamentus) so para preco,
   consenso e conferencia; busca na web e contexto, nunca fonte primaria de
   numero quando houver JSON do branch `dados`.
+- Leia o branch pelo `mesa.py` (`python3 mesa.py ficha TICKER`, `pares`,
+  `releases`, `release TICKER 2T25 --grep ...`, `termos`), nao por script
+  avulso: e a leitura padronizada da mesa.
+- O Douglas le no celular e nao decora sigla: comece com "Em uma frase",
+  tabelas de ate 4 colunas, toda sigla explicada em portugues na primeira
+  vez (glossario em .claude/skills/analise-ativo/GLOSSARIO.md) e a nota fecha
+  com "Termos desta nota" e o menu "Quer aprofundar?".
 - O Claude apresenta, organiza e compara. Recomendacao e responsabilidade
   regulatoria sao do Douglas (assessor de investimentos, Resolucao CVM 178).
   Nada aqui e relatorio de analista para distribuicao a clientes.

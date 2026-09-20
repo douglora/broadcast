@@ -623,7 +623,7 @@ def ordem_periodo(periodo):
     return (2000 + int(m.group(2)), int(m.group(1))) if m else (0, 0)
 
 
-def _periodo_plausivel(periodo, data, dias=270):
+def _periodo_plausivel(periodo, data, dias=120):
     """O trimestre precisa ter fechado nos ultimos `dias` antes da entrega do documento.
 
     Sem isso, um trimestre citado de passagem no meio de um relatorio anual vira o rotulo
@@ -647,12 +647,16 @@ def _ajustar_periodo(item):
 
 
 def _melhor_release(novo, atual):
-    """Mesmo trimestre, dois documentos: vale o de melhor origem e, no empate, o mais completo."""
+    """Mesmo trimestre, dois documentos: origem melhor, depois o entregue mais perto do fechamento
+    do trimestre (o release sai primeiro; relatorio anual e owners' day vem meses depois), depois tamanho."""
     if atual is None:
         return True
     pn, pa = novo.get("preferencia", 1), atual.get("preferencia", 1)
     if pn != pa:
         return pn < pa
+    dn, da = novo.get("data") or "9999", atual.get("data") or "9999"
+    if dn != da:
+        return dn < da
     return (novo.get("caracteres_total") or 0) > (atual.get("caracteres_total") or 0)
 
 
@@ -743,7 +747,15 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
     primario = filing.get("primaryDocument")
 
     def nota_nome(n):
-        if re.search(r"(?i)ex[-_]?99|99[-_.]?1", n) or re.search(r"(?i)release|earnings|results|press|\bpr\d", n):
+        # Release de texto primeiro; apresentacao de slides depois (vira sopa de numeros no PDF);
+        # relatorio anual, institucional e owners' day nao sao release de trimestre
+        if re.search(r"(?i)annual[-_ ]?report|institutional|owners?[-_ ]?day|20-?f|proxy", n):
+            return 0
+        if re.search(r"(?i)release|press|\bpr\d", n):
+            return 4
+        if re.search(r"(?i)present|prese|deck|slides", n):
+            return 2
+        if re.search(r"(?i)ex[-_]?99|99[-_.]?1|earnings|results", n):
             return 3
         return 0 if n == primario else 1
 
@@ -751,10 +763,10 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
             and not re.search(r"(?i)^r\d+\.htm|-index|xbrl|_lab|_pre|_cal|_def", n)]
     docs.sort(key=nota_nome, reverse=True)
     if form == "8-K":
-        docs = [n for n in docs if nota_nome(n) >= 3] or docs[:1]
+        docs = [n for n in docs if nota_nome(n) >= 2] or docs[:1]
     else:
-        # 6-K: so o exhibit com cara de release; o documento principal apenas quando nao ha exhibit
-        docs = [n for n in docs if nota_nome(n) >= 3][:2] or docs[:1]
+        # 6-K: so o exhibit com cara de release ou apresentacao; o principal apenas quando nao ha exhibit
+        docs = [n for n in docs if nota_nome(n) >= 2][:2] or docs[:1]
     melhor, melhor_nota = None, 1
     for nome in docs:
         url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
@@ -790,7 +802,9 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
         melhor = _montar_release(texto, detalhe, {
             "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
             "data": filing.get("filingDate"), "periodo_reportado": filing.get("reportDate"),
-            "arquivo_sec": nome, "link": url})
+            "arquivo_sec": nome, "link": url,
+            # preferencia menor = melhor: release de texto (0) antes de apresentacao (2)
+            "preferencia": 4 - nota_nome(nome)})
     return melhor, False
 
 
@@ -1388,15 +1402,28 @@ def _series_cvm(out):
 
 
 # ───────────────────────── Macro e TIR ─────────────────────────
+# Series do BCB que a mesa usa. O CDI mensal (4391) e o acumulado do mes corrente, parcial
+# ate a data: para custo do dinheiro vale o CDI anualizado (4389), que ja e taxa ao ano.
+SERIES_MACRO = {
+    "selic_meta": (432, "Meta Selic (vigente)", "% a.a."),
+    "selic_efetiva": (4390, "Selic efetiva acumulada no mes", "% no mes"),
+    "cdi_anual": (4389, "CDI anualizado (base 252)", "% a.a."),
+    "cdi_mes": (4391, "CDI acumulado no mes corrente, parcial ate a data", "% no mes"),
+    "ipca_12m": (13522, "IPCA acumulado 12 meses", "% a.a."),
+    "ipca_mes": (433, "IPCA mensal", "% no mes"),
+    "dolar_ptax": (1, "Dolar PTAX venda", "R$"),
+}
+
+
 def coletar_macro(fontes):
     out = {}
-    for chave, (codigo, nome, unidade) in app.SGS_SERIES.items():
-        if chave not in ("selic_meta", "ipca_12m", "cdi_mes", "dolar_ptax", "ipca_mes"):
-            continue
+    for chave, (codigo, nome, unidade) in SERIES_MACRO.items():
         pts = app.sgs_fetch(codigo, 1)
         if pts:
             out[chave] = {"nome": nome, "unidade": unidade, **pts[-1]}
-    fontes["bcb"] = f"ok ({len(out)} series)" if out else "falha: sem resposta"
+    out["nota"] = ("Para custo do dinheiro use cdi_anual (taxa ao ano). cdi_mes e selic_efetiva sao o acumulado "
+                   "do mes em curso e nao se comparam com taxas anuais. A data de selic_meta e o inicio da vigencia.")
+    fontes["bcb"] = f"ok ({sum(1 for k in out if k != 'nota')} series)" if len(out) > 1 else "falha: sem resposta"
     return out
 
 
@@ -1445,11 +1472,14 @@ def _oficial(dados):
             ll = "lucro_atribuido_controladores"   # plano IFRS de banco: so a linha dos controladores tem 3 meses
         out = {"fonte": "CVM ITR/DFP consolidado", "unidade": "R$ milhoes",
                "plano_de_contas": cvm.get("plano_de_contas", "geral"), "conta_lucro": ll}
-    elif sec.get("trimestral"):
+    elif sec.get("ltm"):
         st, ltm = sec["trimestral"], sec.get("ltm") or {}
         rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", None
         out = {"fonte": "SEC XBRL (10-Q/10-K/20-F)", "unidade": "USD", "plano_de_contas": "geral",
                "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
+    elif (sec.get("anual") or {}).get("receita") or (sec.get("anual") or {}).get("lucro_liquido"):
+        # Emissor estrangeiro (20-F): o XBRL so tem o ano fiscal. Vale o ultimo ano, dito com todas as letras.
+        return _oficial_anual_sec(sec, dados)
     else:
         return {}
     geral = out["plano_de_contas"] == "geral"
@@ -1513,6 +1543,44 @@ def _oficial(dados):
             if v and ebit_tri.get(k) is not None:
                 margens[k] = round(ebit_tri[k] / v, 4)
         out["margem_ebit_trimestral"] = margens
+    return out
+
+
+def _oficial_anual_sec(sec, dados):
+    """Resumo oficial de quem reporta a SEC so anualmente (20-F): ultimo ano fiscal."""
+    an = sec.get("anual") or {}
+    anos = sorted(set(an.get("receita", {})) | set(an.get("lucro_liquido", {})))
+    if not anos:
+        return {}
+    ano, ant = anos[-1], (anos[-2] if len(anos) > 1 else None)
+    out = {"fonte": "SEC XBRL anual (20-F): ultimo ano fiscal, nao 12 meses correntes", "unidade": "USD",
+           "plano_de_contas": "geral", "periodicidade": "anual", "ltm_ate": ano,
+           "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
+    rec, ebit, luc = an.get("receita", {}).get(ano), an.get("ebit", {}).get(ano), an.get("lucro_liquido", {}).get(ano)
+    if rec is not None:
+        out["receita_ltm"] = rec
+    if ebit is not None:
+        out["ebit_ltm"] = ebit
+    if luc is not None:
+        out["lucro_ltm"] = luc
+    if rec and ebit is not None:
+        out["margem_ebit_ltm"] = round(ebit / rec, 4)
+    if rec and luc is not None:
+        out["margem_liquida_ltm"] = round(luc / rec, 4)
+    pl_a, pl_b = an.get("patrimonio_liquido", {}).get(ano), (an.get("patrimonio_liquido", {}).get(ant) if ant else None)
+    if pl_a:
+        out["patrimonio_liquido"], out["patrimonio_liquido_em"] = pl_a, ano
+        media = (pl_a + pl_b) / 2 if pl_b else pl_a
+        if luc is not None and media > 0:
+            out["roe_ltm"] = round(luc / media, 4)
+    if ant:
+        ra, la = an.get("receita", {}).get(ant), an.get("lucro_liquido", {}).get(ant)
+        if rec and ra:
+            out["cresc_receita_ltm"] = round(rec / ra - 1, 4)
+        if luc is not None and la and la > 0:
+            out["cresc_lucro_ltm"] = round(luc / la - 1, 4)
+    out["receita_anual"] = dict(sorted(an.get("receita", {}).items())[-5:])
+    out["lucro_anual"] = dict(sorted(an.get("lucro_liquido", {}).items())[-5:])
     return out
 
 
