@@ -1045,6 +1045,28 @@ def baixar_ipe_linhas(year):
     """
     linhas, partes = [], 0
     r = http_get(IPE_ZIP_URL.format(year=year), timeout=90)
+    if not r:
+        # A CVM as vezes publica o ano corrente partido (ipe_cia_aberta_2026_1.zip ...).
+        # Tenta as partes numeradas antes de desistir; para em duas ausencias seguidas.
+        faltas = 0
+        for n in range(1, 13):
+            parte = http_get(IPE_ZIP_URL.format(year=f"{year}_{n}"), timeout=90)
+            if not parte:
+                faltas += 1
+                if faltas >= 2:
+                    break
+                continue
+            faltas = 0
+            try:
+                with zipfile.ZipFile(io.BytesIO(parte.content)) as z:
+                    for nome in sorted(x for x in z.namelist() if x.lower().endswith(".csv")):
+                        linhas += list(csv.DictReader(io.StringIO(z.read(nome).decode("latin-1")), delimiter=";"))
+                        partes += 1
+            except Exception as e:
+                log(f"cvm: IPE {year} parte {n} ilegivel ({e})")
+        if linhas:
+            log(f"cvm: IPE {year} lido de {partes} csv em arquivos numerados, {len(linhas)} linhas")
+            return linhas
     if r:
         try:
             with zipfile.ZipFile(io.BytesIO(r.content)) as z:
