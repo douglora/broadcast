@@ -1,34 +1,9 @@
 ALERTAS · Fechamento 18h40
 
-(pendente de slot anterior) [ATENÇÃO] E05 · UST · The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Dividend Stock Provides a Middle Ground for Long-Term Investors.
-Yahoo Finance · 19/09 17h30 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%.
-  – While the average dividend yield on the S&P 500 is hovering around 1.1%, it hit an all-time low of 1.04% last month.
-  – Conversely, yields on 10-year Treasuries briefly nudged above 5% this month before retreating modestly.
-  – As of Friday midday, they were at almost precisely 5%.
-  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
-  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
-Link: https://finance.yahoo.com/markets/stocks/articles/p-500-yields-just-1-203000717.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UST
-Como falar: 'saiu no Yahoo Finance: The S&P 500 Yields Just 1.1% While 10-Year Treasury Yields Have Surged to 5%. This Divide…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 19/09 17h30
-ids: E05-UST-00277393fd-2026-09-19
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· T02 QQQ retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 721,45, acima da MM200 (tendência longa preservada)
-· T02 INTC retomou a MM100 pela 2ª sessão: US$ 108,60, acima da MM200 (tendência longa preservada)
-· E02 AVGO fica ex-dividendo em 21/09: US$ 0,65 (0,18% do preço)
-· E02 META fica ex-dividendo em 21/09: US$ 0,53 (0,08% do preço)
-· E05 ETH · Can Ethereum Close the Week Above $2,672? This Level Opens the Door to $3,000
-· E05 BTC · Bitcoin Is 11 Days From Its First Winning Quarter in a Year. What Needs to Hold Until September 30?
-· E05 BTC · Bitcoin ETFs Now Own 6.29% of Every Bitcoin. What Happens When They Hit 10%?
-· E05 BTC · Solana ETFs Experience 12 Consecutive Weeks of Inflows, While Bitcoin Has Its Quietest Week on Record
-· E05 UST · Treasury yields are blowing up CBO forecasts, and experts who downplayed US debt fears are worried
-· T08 IGV entrou em correção: -11% do pico de 52s (US$ 117,79 em 22/09) a US$ 104,35
+· E05 BTC · Spot Bitcoin ETFs pull in $313M net inflow through first 18 days of September
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-IGV--10-2026-09-18 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d

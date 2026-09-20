@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 22h52 de 19/09 BRT
+## Fechamento do livro · sex 18/09 · 23h07 de 19/09 BRT
 
 ---
 
@@ -170,11 +170,11 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 735 | - | - | - | 18/09 |
-| **Minerio de ferro Dalian** | 107 | - | - | - | 18/09 |
+| **Celulose fibra longa** | 650 | - | - | - | 18/09 |
+| **Minerio de ferro Dalian** | 94 | - | - | - | 18/09 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t convertido; nao e preco de lista NBSK · CNY/t 4.928 a USD/CNY 6,71
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t convertido; o CFR 62% em US$ e a linha MINERIO · CNY/t 715 a USD/CNY 6,71
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.928 a USD/CNY 6,71 = US$ 735/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 715 a USD/CNY 6,71 = US$ 107/t com IVA
 - Histórico próprio destes proxies começou em 18/09/2026: as janelas de dia, semana e mês vão preenchendo conforme os pregões passam — Celulose fibra longa, Minerio de ferro Dalian ainda sem base de comparação.
 
 ---
@@ -262,7 +262,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 22h52 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 23h07 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

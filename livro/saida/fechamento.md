@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 22h52 de 19/09 BRT
-Relógios: Yahoo 22h52 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 23h07 de 19/09 BRT
+Relógios: Yahoo 23h07 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
 ALERTAS DO DIA (50 · 2 críticos)
