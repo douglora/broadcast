@@ -13,7 +13,7 @@ from datetime import date, timedelta
 import numpy as np
 import pandas as pd
 
-JANELAS_DIAS = (("1s", 7), ("1m", 30), ("6m", 182), ("1a", 365))
+JANELAS_DIAS = (("1s", 7), ("1m", 30), ("3m", 91), ("6m", 182), ("1a", 365))
 
 
 def para_df(barras: list[list]) -> pd.DataFrame:
@@ -64,6 +64,28 @@ def janelas(df: pd.DataFrame, ate: date | None = None, col: str = "adj") -> dict
     base = _ref(df, pd.Timestamp(year=d_ult.year - 1, month=12, day=31))
     out["ytd"] = float(ultimo[col] / base[col] - 1) if base is not None and base[col] else None
     return out
+
+
+def retorno_em(df, dias: int, ate: date | None = None, col: str = "adj"):
+    """Retorno sobre a barra mais proxima de `dias` corridos atras.
+
+    Usado com a serie semanal longa para janelas que a serie diaria (2 anos) nao
+    alcanca, como 5 anos. Devolve None quando o historico nao chega la - o ativo
+    novo fica com a celula vazia em vez de um numero errado."""
+    if df is None or len(df) == 0:
+        return None
+    if ate is not None:
+        df = df.loc[:pd.Timestamp(ate)]
+        if len(df) == 0:
+            return None
+    ultimo = df.iloc[-1]
+    ref = _ref(df, df.index[-1] - pd.Timedelta(days=dias))
+    if ref is None or not ref[col] or ref.name == df.index[-1]:
+        return None
+    # a serie tem de comecar antes da janela; senao 5 anos viraria "desde o inicio"
+    if df.index[0] > pd.Timestamp(df.index[-1]) - pd.Timedelta(days=dias * 0.9):
+        return None
+    return float(ultimo[col] / ref[col] - 1)
 
 
 # ---------------------------------------------------------------- tecnicos

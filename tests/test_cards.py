@@ -58,12 +58,12 @@ def test_marcador_da_leitura_e_cards_separados(universo):
     assert t.startswith("## Fechamento do livro · sex 18/09")
 
 
-def test_uma_tabela_por_bloco_com_as_sete_janelas(universo):
+def test_uma_tabela_por_bloco_com_todas_as_janelas(universo):
     t = md(universo)
     for bloco in universo.blocos:
         if universo.por_bloco(bloco["id"]):
             assert f"### {bloco['titulo']} · variação em %" in t
-    assert "| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | YTD |" in t
+    assert "| Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |" in t
     assert "| 1 ano | ano |" not in t          # "ano" sozinho nao diz que e YTD
 
 
@@ -83,8 +83,8 @@ def test_barra_em_nome_nao_quebra_a_tabela(universo):
         linha = cards._linha(a, {"ultimo": 5.14, "dia": -0.002}, {})
     finally:
         a.nome = nome
-    # so as barras nao escapadas delimitam celula: 8 colunas -> 9 delimitadores
-    assert len(re.findall(r"(?<!\\)\|", linha)) == 9
+    # so as barras nao escapadas delimitam celula: 10 colunas -> 11 delimitadores
+    assert len(re.findall(r"(?<!\\)\|", linha)) == 11
     assert "Dolar \\| Real" in linha
 
 
