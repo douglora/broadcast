@@ -2,10 +2,12 @@ ALERTAS · Fechamento 18h40
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 BTC · Spot Bitcoin ETFs pull in $313M net inflow through first 18 days of September
+· T08 WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,82
 
+Suprimidos pelo teto (viram linha do Fechamento): T08-WQTM--20-2026-09-18 (teto diário de críticos)
 
 Alertas do dia (todos, com status):
+· linha     T08 WQTM — WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,8
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
 · entregue  F03 BRENT — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
 · linha     T08 IGV — IGV entrou em correção: -11% do pico de 52s (US$ 117,79 em 22/09) a US$ 104,35

@@ -18,6 +18,13 @@ XLK    Tech S 189,60 +0,8 +1,0 +3,2  +32
 VGT    Tech V 122,31 +0,7 +1,0 +3,0  +30
 IGV    Softwa 104,35 -1,4 +2,8 +1,5 -1,2
 BOTZ   Roboti  35,11  0,0 -0,5 -3,5 -3,0
+Temáticos: quântica e metais (USD)
+QNTM   Quantu  28,62 -2,0 -1,8 -2,6  +14
+QANT   Quantu   6,04 -1,5 -0,6 -2,0  +20
+WQTM   Quantu  36,82 -1,7 -1,9 -3,8  +23
+WQTMUS Quantu  31,85 -0,9 -0,3 -4,1  +23
+QTUM   Quantu 147,79 +0,7 +0,3 -1,6  +35
+REMX   Terras  69,06 -0,1 -2,1 -9,1 -6,6
 EUA · Semicondutores e óptica
 NVDA   Nvidia 222,27 +1,3 +1,8 +2,3  +19
 AMD    AMD    559,82 +2,7 +8,5  +20 +161
@@ -63,6 +70,7 @@ ITSA4  Itausa  14,03 -1,2 -1,1  +14  +23
 BBAS3  BB      23,20 +2,2 +3,2  +29 +8,3
 SBSP3  Sabesp  27,31 +0,8 +1,0  +14 +3,1
 SMAL11 SmallC 109,69  0,0 -1,0 +9,8 -2,5
+RARA11 Terras  15,88 +0,1 -1,9 -9,7    -
 DIRR3  Direc   10,05 -0,3 -4,0 -4,4  -29
 MRVE3  MRV      5,23 -8,4 -8,9 +7,2  -33
 Macro

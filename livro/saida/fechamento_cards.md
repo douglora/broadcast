@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 23h07 de 19/09 BRT
+## Fechamento do livro · sex 18/09 · 23h39 de 19/09 BRT
 
 ---
 
@@ -27,14 +27,14 @@
 - **F06 · ETH** ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
 - **S01 · SISTEMA** coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINERIO, KOSPI
 
-*Mais 25 sinais de baixa prioridade em `alertas.md`.*
+*Mais 26 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
 **Altas** COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA +4,3% · GFS +4,3%
-**Baixas** MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% · MELI34 -2,4% · IGV -1,4%
+**Baixas** MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% · MELI34 -2,4% · QNTM -2,0%
 
 ---
 
@@ -67,6 +67,21 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 | **VGT** Vanguard Information Technology ETF | 122,31 | **+0,7** | +1,0 | +3,0 | +39 | +34 | +30 |
 | **IGV** iShares Expanded Tech-Software Sector ETF | 104,35 | **-1,4** | +2,8 | +1,5 | +26 | -9,5 | -1,2 |
 | **BOTZ** Global X Robotics & Artificial Intelligence ETF | 35,11 | **0,0** | -0,5 | -3,5 | +4,5 | +0,7 | -3,0 |
+
+---
+
+### Temáticos: quântica e metais (USD) · variação em %
+
+| Ativo | últ | dia | 1 sem | 1 mês | 6 m | 1 ano | ano |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| **QNTM** VanEck Quantum Computing | 28,62 | **-2,0** | -1,8 | -2,6 | +25 | +15 | +14 |
+| **QANT** iShares Quantum Computing | 6,04 | **-1,5** | -0,6 | -2,0 | +33 | - | +20 |
+| **WQTM** WisdomTree Quantum Computing | 36,82 | **-1,7** | -1,9 | -3,8 | +28 | +24 | +23 |
+| **WQTMUS** WisdomTree Quantum Computing Fund | 31,85 | **-0,9** | -0,3 | -4,1 | +28 | - | +23 |
+| **QTUM** Defiance Quantum ETF | 147,79 | **+0,7** | +0,3 | -1,6 | +37 | +43 | +35 |
+| **REMX** VanEck Rare Earth & Strategic Metals ETF | 69,06 | **-0,1** | -2,1 | -9,1 | -13 | +15 | -6,6 |
+
+Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT** iShares Quantum Computing UCITS ETF USD (Acc) · **WQTM** WisdomTree Quantum Computing UCITS ETF USD (Acc).
 
 ---
 
@@ -148,6 +163,7 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 | **BBAS3** Banco do Brasil ON | 23,20 | **+2,2** | +3,2 | +29 | +0,9 | +8,0 | +8,3 |
 | **SBSP3** Sabesp ON | 27,31 | **+0,8** | +1,0 | +14 | -8,0 | +12 | +3,1 |
 | **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 109,69 | **0,0** | -1,0 | +9,8 | -1,6 | -2,4 | -2,5 |
+| **RARA11** Investo Terras Raras e Metais Estrategicos | 15,88 | **+0,1** | -1,9 | -9,7 | - | - | - |
 | **DIRR3** Direcional Engenharia ON | 10,05 | **-0,3** | -4,0 | -4,4 | -25 | -28 | -29 |
 | **MRVE3** MRV ON | 5,23 | **-8,4** | -8,9 | +7,2 | -27 | -32 | -33 |
 
@@ -262,7 +278,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 23h07 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 23h39 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

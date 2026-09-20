@@ -1,10 +1,13 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 23h07 de 19/09 BRT
-Relógios: Yahoo 23h07 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 23h39 de 19/09 BRT
+Relógios: Yahoo 23h39 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
-ALERTAS DO DIA (50 · 2 críticos)
+ALERTAS DO DIA (51 · 3 críticos)
+[CRÍTICO] T08 WQTM entrou em bear técnico: -22% do
+          pico de 52s (US$ 47,10 em 02/06) a US$
+          36,82
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
@@ -25,16 +28,12 @@ ALERTAS DO DIA (50 · 2 críticos)
           assinado, 7.01 Regulation FD
 [ATENÇÃO] E04 AMZN · 8-K: 5.02 entrada ou saida de
           diretor ou conselheiro
-[ATENÇÃO] C06 Inflação implícita: implícita 2029 +21
-          bps na semana · implícita 2029 cruzou
-          6,00% · implícita 2032 +264 bps acima do
-          Focus
-(+42 em alertas.md)
+(+43 em alertas.md)
 
 ALTAS  COHR +7,2% · ETH +6,7% · BTC +5,9% · BABA
        +4,3% · GFS +4,3%
 BAIXAS MRVE3 -8,4% · AXIA3 -2,6% · META -2,4% ·
-       MELI34 -2,4% · IGV -1,4%
+       MELI34 -2,4% · QNTM -2,0%
 
 NOTÍCIAS E FATOS (12 com materialidade ·
   noticias.md)
@@ -113,6 +112,13 @@ XLK    Tech SP  189,60 +0,8 +1,0 +3,2  +40  +38  +32
 VGT    Tech VG  122,31 +0,7 +1,0 +3,0  +39  +34  +30
 IGV    Softwar  104,35 -1,4 +2,8 +1,5  +26 -9,5 -1,2
 BOTZ   Robotic   35,11  0,0 -0,5 -3,5 +4,5 +0,7 -3,0
+Temáticos: quântica e metais (USD)
+QNTM   Quantum   28,62 -2,0 -1,8 -2,6  +25  +15  +14
+QANT   Quantum    6,04 -1,5 -0,6 -2,0  +33    -  +20
+WQTM   Quantum   36,82 -1,7 -1,9 -3,8  +28  +24  +23
+WQTMUS Quantum   31,85 -0,9 -0,3 -4,1  +28    -  +23
+QTUM   Quantum  147,79 +0,7 +0,3 -1,6  +37  +43  +35
+REMX   TerrasR   69,06 -0,1 -2,1 -9,1  -13  +15 -6,6
 EUA · Semicondutores e óptica
 NVDA   Nvidia   222,27 +1,3 +1,8 +2,3  +29  +26  +19
 AMD    AMD      559,82 +2,7 +8,5  +20 +178 +254 +161
@@ -158,6 +164,7 @@ ITSA4  Itausa    14,03 -1,2 -1,1  +14 +8,7  +38  +23
 BBAS3  BB        23,20 +2,2 +3,2  +29 +0,9 +8,0 +8,3
 SBSP3  Sabesp    27,31 +0,8 +1,0  +14 -8,0  +12 +3,1
 SMAL11 SmallC   109,69  0,0 -1,0 +9,8 -1,6 -2,4 -2,5
+RARA11 TerrasR   15,88 +0,1 -1,9 -9,7    -    -    -
 DIRR3  Direc     10,05 -0,3 -4,0 -4,4  -25  -28  -29
 MRVE3  MRV        5,23 -8,4 -8,9 +7,2  -27  -32  -33
 Macro
