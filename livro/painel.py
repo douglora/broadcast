@@ -58,7 +58,8 @@ a:focus-visible{outline:2px solid var(--mesa);outline-offset:2px;}
   letter-spacing:-.02em;line-height:1.05;margin-top:10px;}
 
 /* ---------- cartoes ---------- */
-.cartao{background:var(--carta);border:1px solid var(--linha);border-radius:3px;padding:18px 20px;}
+.cartao{background:var(--carta);border:1px solid var(--linha);border-radius:3px;padding:18px 20px;
+  min-width:0;}   /* item de grid nao pode crescer com a tabela e empurrar a pagina */
 .cartao h2{font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.11em;
   text-transform:uppercase;color:var(--mesa);display:flex;flex-wrap:wrap;align-items:baseline;
   gap:6px 12px;padding-bottom:11px;border-bottom:1px solid var(--linha-forte);margin-bottom:14px;}
@@ -86,21 +87,28 @@ a:focus-visible{outline:2px solid var(--mesa);outline-offset:2px;}
 .mv b{font-weight:600;margin-right:6px;color:var(--tinta);}
 
 /* ---------- tabelas por bloco ---------- */
-.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px;align-items:start;}
-.rolagem{overflow-x:auto;margin:0 -4px;padding:0 4px;}
+/* um cartao por linha: a tabela tem 10 colunas e em grade de 3 elas se espremem
+   ate o numero colar no vizinho */
+.grade{display:flex;flex-direction:column;gap:16px;min-width:0;}
+.rolagem{overflow-x:auto;max-width:100%;}
 table{width:100%;border-collapse:collapse;font-size:13.5px;}
 thead th{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.06em;
-  text-transform:uppercase;color:var(--fraco);text-align:right;padding:0 0 8px;white-space:nowrap;}
-thead th:first-child{text-align:left;}
-tbody th{text-align:left;font-weight:600;padding:6px 12px 6px 0;vertical-align:baseline;}
+  text-transform:uppercase;color:var(--fraco);text-align:right;padding:0 10px 9px;white-space:nowrap;}
+thead th:first-child{text-align:left;padding-left:0;}
+/* regua vertical entre as colunas: sem ela o olho perde a janela a que o numero
+   pertence, e YTD e 5 anos parecem um numero so */
+thead th+th,tbody td{border-left:1px solid var(--linha);}
+thead th:nth-child(2),tbody td:first-of-type{border-left:1px solid var(--linha-forte);}
+thead tr{border-bottom:1px solid var(--linha-forte);}
+tbody th{text-align:left;font-weight:600;padding:7px 12px 7px 0;vertical-align:baseline;}
 tbody tr+tr th,tbody tr+tr td{border-top:1px solid var(--linha);}
 tbody tr:hover th,tbody tr:hover td{background:var(--leve);}
 .tk{font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.01em;}
-.nm{display:block;font-weight:400;font-size:11.5px;color:var(--fraco);line-height:1.35;max-width:28ch;}
+.nm{display:block;font-weight:400;font-size:11.5px;color:var(--fraco);line-height:1.35;max-width:30ch;}
 .atraso{display:inline-block;font-size:9.5px;color:var(--atencao);border:1px solid currentColor;
   border-radius:2px;padding:0 4px;margin-top:4px;letter-spacing:.04em;text-transform:uppercase;}
 td.n{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;text-align:right;
-  padding:6px 0 6px 10px;white-space:nowrap;color:var(--meio);}
+  padding:7px 10px;white-space:nowrap;color:var(--meio);min-width:54px;}
 td.ult{color:var(--tinta);font-weight:500;}
 td.dia{position:relative;font-weight:600;}
 td.dia .barra{position:absolute;right:0;top:50%;transform:translateY(-50%);height:1.7em;
@@ -167,21 +175,23 @@ td.dia .v{position:relative;}
   padding:18px 2px 0;}
 .rodape h2{color:var(--fraco);border-bottom:0;padding-bottom:0;margin-bottom:8px;}
 .rodape .nota{margin-top:8px;font-size:12.5px;}
+.legenda{font-size:11.5px;line-height:1.5;border-top:1px solid var(--linha);padding-top:10px;}
 .rodape .lacuna b{color:var(--atencao);}
 .alerta-nota{border-left:2px solid var(--atencao);padding-left:10px;}
 .aviso{font-size:11.5px;font-style:italic;color:var(--fraco);margin-top:14px;}
 
 @media (max-width:620px){
   body{padding-inline:14px;padding-block:18px 36px;}
-  /* nada de esconder coluna: o Douglas le no painel estreito e quer 6 m, 1 ano e
-     5 anos na tela. A tabela rola dentro do cartao; a pagina nao rola de lado. */
-  td.n,thead th{padding-left:8px;}
-  table{font-size:12.5px;}
+  /* nada de esconder coluna nem comprimir: o Douglas le no painel estreito e quer
+     6 m, 1 ano e 5 anos legiveis. A tabela rola dentro do cartao, com a coluna do
+     ativo fixa para nao se perder a linha; a pagina nao rola de lado. */
+  tbody th{position:sticky;left:0;background:var(--carta);z-index:1;}
+  tbody tr:hover th{background:var(--leve);}
+  .nm{max-width:16ch;}
   .nm{max-width:20ch;}
   .cartao{padding:15px 16px;}
   .leitura{padding:18px 17px;}
   .texto-leitura{font-size:16.5px;}
-  .grade{grid-template-columns:1fr;}
   .topo .hora{margin-left:0;}
 }
 """
@@ -211,22 +221,28 @@ def _cel(v, classe: str = "") -> str:
     return f'<td class="n {classe} {_sinal(v)}">{_e(fmt.pct(v))}</td>'
 
 
+def nome_curto(a) -> str:
+    """Mesmo corte dos cards: tira o jargao do involucro e o parentese, que sao o
+    que faz a celula do nome virar um paragrafo de seis linhas."""
+    n = a.nome or a.apelido or a.id
+    return n.split(" UCITS")[0].split(" (")[0].strip()
+
+
 def _linha_ativo(a, j: dict, info: dict) -> str:
     dia = j.get("dia")
     atraso = ""
     if info.get("esperado_hoje") and not info.get("fresco", True):
         atraso = (f'<span class="atraso" title="sem barra de {_e(fmt.data_br(info.get("esperado")))}'
                   f' — ultima {_e(fmt.data_br(j.get("data")))}">sem barra de hoje</span>')
-    nome = f'<span class="nm">{_e(a.nome)}</span>' if a.nome and a.nome != a.apelido else ""
+    nome = f'<span class="nm">{_e(nome_curto(a))}</span>' if a.nome and a.nome != a.apelido else ""
     return (
         "<tr>"
         f'<th scope="row"><span class="tk">{_e(a.id)}</span>{nome}{atraso}</th>'
         f'<td class="n ult">{_e(fmt.preco(j.get("ultimo"), a.decimais))}</td>'
         f'<td class="n dia {_sinal(dia)}"><span class="barra" style="--w:{_larg(dia)}%"></span>'
         f'<span class="v">{_e(fmt.pct(dia))}</span></td>'
-        + _cel(j.get("1s")) + _cel(j.get("1m"))
-        + _cel(j.get("6m"), "op") + _cel(j.get("1a"), "op")
-        + _cel(j.get("ytd")) +
+        + _cel(j.get("1s")) + _cel(j.get("1m")) + _cel(j.get("3m"))
+        + _cel(j.get("6m")) + _cel(j.get("1a")) + _cel(j.get("ytd")) + _cel(j.get("5a")) +
         "</tr>"
     )
 
@@ -255,8 +271,18 @@ def _cartao_bloco(universo, bloco: dict, janelas: dict, series_info: dict) -> st
         '<th scope="col">1 sem</th><th scope="col">1 mês</th><th scope="col">3 m</th>'
         '<th scope="col">6 m</th><th scope="col">1 ano</th><th scope="col">YTD</th>'
         '<th scope="col">5 anos</th></tr></thead>'
-        f"<tbody>{linhas}</tbody></table></div></section>"
+        f"<tbody>{linhas}</tbody></table></div>{_legenda_ucits(ativos)}</section>"
     )
+
+
+def _legenda_ucits(ativos: list) -> str:
+    """Regra do Douglas: UCITS sempre por extenso. Na celula vai o nome curto; o
+    nome oficial fica aqui embaixo, em qualquer bloco que tenha um."""
+    ucits = [a for a in ativos if "UCITS" in (a.nome or "")]
+    if not ucits:
+        return ""
+    return ('<p class="nota legenda">Nomes completos: '
+            + " · ".join(f"<b>{_e(a.id)}</b> {_e(a.nome)}" for a in ucits) + ".</p>")
 
 
 def _chip_taxa(rotulo: str, taxa, delta, sufixo: str = "") -> str:
