@@ -246,11 +246,22 @@ ano. Sem o passo 4 a conclusao teria sido "margem caindo, evite", que era a
 leitura errada.
 
 **INBR32, "se nao tem guidance de margem, por que eu compraria?"**
-O passo 3 achou o que nenhuma tabela mostra: o plano datado 60/30/30 aparece
-nos releases ate o 1T25 e some; no 2T26 a gestao apresenta a "Regra do 50",
-sem data e declarada explicitamente como nao sendo guidance financeiro. Meta
-com prazo virou meta sem prazo. O passo 2 mostrou o outro lado: a despesa de
-captacao subiu 4,6 pp da receita, mas a despesa operacional caiu 2,9 pp, e o
-lucro so perdeu 1,4 pp de margem com a receita quase dobrando. Os dois
-achados juntos sao a resposta: a execucao aparece, o compromisso publico
-recuou.
+O passo 3 achou o que nenhuma tabela mostra: o plano 60/30/30 (60 milhoes de
+clientes, indice de eficiencia de 30%, ROE de 30% ate 2027) aparece nos
+releases do 4T24 e do 1T25 e some por cinco trimestres seguidos; no 2T26 a
+gestao abre a apresentacao com a "Regra do 50", uma metrica unica que soma
+crescimento de receita e ROE. Trocar tres metas por uma soma deixa o
+crescimento de receita substituir a perna de rentabilidade: a Regra do 50
+marca 48 de ~50, quase pronta, enquanto o ROE esta em 16,3% de 30%.
+O passo 2 mostrou o outro lado: a despesa de captacao subiu 4,6 pp da
+receita, mas a despesa operacional caiu 2,9 pp, e o lucro so perdeu 1,4 pp de
+margem com a receita quase dobrando. A execucao aparece; o painel publico e
+que ficou mais facil de acertar.
+
+Este exemplo tem uma segunda licao. Na primeira passagem a mesa escreveu que
+a Regra do 50 vinha "sem data e declarada como nao sendo guidance". A
+varredura com `mesa.py linha` derrubou as duas afirmacoes: a palavra
+"guidance" nao aparece em nenhum dos quatro releases mais recentes, e o
+grafico da Regra do 50 tem eixo ate 2029E. A frase foi corrigida. **Achado que
+nao sobrevive ao grep nao vai para a nota**, e quando o dado derruba o que a
+mesa disse antes, a correcao e explicita.
