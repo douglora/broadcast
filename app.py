@@ -1034,20 +1034,56 @@ IPE_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_abert
 IPE_ZIP_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_{year}.zip"
 
 
-def baixar_ipe(year):
-    """Texto CSV do IPE (fatos relevantes e comunicados) do ano. A CVM publica o
-    arquivo zipado; o .csv solto fica como fallback para anos antigos."""
+def baixar_ipe_linhas(year):
+    """Linhas do IPE do ano, de TODOS os csv do zip.
+
+    A CVM publica o indice de alguns anos partido em varios csv dentro do mesmo
+    zip. Ler so o primeiro faz companhias inteiras sumirem do indice sem erro
+    nenhum: foi o que aconteceu com as construtoras em 2026, presentes no ITR e
+    ausentes do IPE. Cada parte e lida com o proprio cabecalho, porque a ordem
+    das colunas pode mudar entre elas.
+    """
+    linhas, partes = [], 0
     r = http_get(IPE_ZIP_URL.format(year=year), timeout=90)
     if r:
         try:
             with zipfile.ZipFile(io.BytesIO(r.content)) as z:
-                nome = next((n for n in z.namelist() if n.lower().endswith(".csv")), None)
-                if nome:
-                    return z.read(nome).decode("latin-1")
+                for nome in sorted(n for n in z.namelist() if n.lower().endswith(".csv")):
+                    try:
+                        texto = z.read(nome).decode("latin-1")
+                        lidas = list(csv.DictReader(io.StringIO(texto), delimiter=";"))
+                    except Exception as e:
+                        log(f"cvm: IPE {year}, parte {nome} ilegivel ({e})")
+                        continue
+                    partes += 1
+                    linhas += lidas
+            if linhas:
+                log(f"cvm: IPE {year} lido de {partes} csv, {len(linhas)} linhas")
+                return linhas
+            log(f"cvm: IPE {year} sem linhas em {partes} csv")
         except Exception as e:
-            log(f"cvm: zip do IPE ilegivel ({e})")
+            log(f"cvm: zip do IPE {year} ilegivel ({e})")
     r = http_get(IPE_URL.format(year=year), timeout=25)
-    return r.content.decode("latin-1") if r else None
+    if not r:
+        log(f"cvm: IPE {year} indisponivel")
+        return []
+    try:
+        return list(csv.DictReader(io.StringIO(r.content.decode("latin-1")), delimiter=";"))
+    except Exception as e:
+        log(f"cvm: IPE {year} solto ilegivel ({e})")
+        return []
+
+
+def baixar_ipe(year):
+    """Compatibilidade: o CSV do ano como texto, agora juntando todas as partes."""
+    linhas = baixar_ipe_linhas(year)
+    if not linhas:
+        return None
+    saida = io.StringIO()
+    w = csv.DictWriter(saida, fieldnames=list(linhas[0].keys()), delimiter=";", extrasaction="ignore")
+    w.writeheader()
+    w.writerows(linhas)
+    return saida.getvalue()
 ALERT_HIST_PATH = os.path.join(DATA_DIR, "alert_history.json")
 
 

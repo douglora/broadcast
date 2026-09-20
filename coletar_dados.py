@@ -343,15 +343,14 @@ _IPE_CACHE = {}
 
 
 def _linhas_ipe(ano):
+    """Indice IPE do ano, de todas as partes do zip. Cacheado por execucao."""
     if ano in _IPE_CACHE:
         return _IPE_CACHE[ano]
-    texto = app.baixar_ipe(ano)
-    linhas = []
-    if texto:
-        try:
-            linhas = list(csv.DictReader(io.StringIO(texto), delimiter=";"))
-        except Exception:
-            linhas = []
+    try:
+        linhas = app.baixar_ipe_linhas(ano)
+    except Exception as e:
+        app.log(f"cvm: IPE {ano} falhou ({e})")
+        linhas = []
     _IPE_CACHE[ano] = linhas
     return linhas
 
@@ -367,12 +366,17 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
     ano = hoje.year
     # Tres anos de IPE: fatos relevantes usam so a janela recente, mas o historico de releases
     # precisa de 8 trimestres para tras. Os zips ficam em cache por execucao.
-    linhas = []
+    linhas, por_ano = [], {}
     for a in (ano, ano - 1, ano - 2):
-        linhas += _linhas_ipe(a)
+        do_ano = _linhas_ipe(a)
+        por_ano[a] = len(do_ano)
+        linhas += do_ano
     if not linhas:
         fontes["cvm"] = "falha: IPE indisponivel"
         return {}
+    vazios = [str(a) for a, n in por_ano.items() if not n]
+    if vazios:
+        app.log(f"cvm: IPE sem linhas em {', '.join(vazios)} (indice incompleto; documentos desses anos vao faltar)")
 
     def casa(nome_cvm):
         """2 = nucleo igual (BANCO DO BRASIL S.A. -> BRASIL); 1 = um e prefixo do outro (BRASIL TECNOLOGIA)."""
@@ -435,9 +439,11 @@ def coletar_cvm(tk, nomes, fontes, limite=40):
     # Teto alto de proposito: o Itau publica quatro por trimestre (duas apresentacoes, o press
     # release e a Analise Gerencial), e um teto baixo cortava o historico em menos de 8 trimestres.
     resultado = [d for d in docs if _eh_documento_resultado(d)][:60]
+    indice = ", ".join(f"{a}: {n} linhas" for a, n in sorted(por_ano.items(), reverse=True))
     fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros, "
                      f"{len(resultado)} de resultado; casamento {metodo}; "
-                     f"empresa: {docs[0]['empresa']})") if docs else "sem documentos casados"
+                     f"empresa: {docs[0]['empresa']}; indice IPE {indice})") if docs else (
+                     f"sem documentos casados (indice IPE {indice})")
     codigos = {}
     for row in linhas:
         empresa = (row.get("Nome_Companhia") or "").strip()
