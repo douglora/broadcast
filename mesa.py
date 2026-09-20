@@ -272,15 +272,18 @@ def pares(tk):
     print(f"== {c.get('nome')} ({c.get('tipo')}) | gerado {c.get('gerado_em')}")
     cab = ["ticker", "P/L", "P/L proj", "P/VP", "ROE", "DY", "ret 12m"] + (["lucro ofic", "ROE ofic", "cresc ofic"] if fin
           else ["EV/EBITDA", "mgEBIT ofic", "cresc ofic", "fin/EBIT"])
-    print("  " + "".join(f"{h:>12}" for h in cab))
+    print("  " + " ".join(f"{h:>12}" for h in cab))
     for ln in c.get("linhas", []):
         o = ln.get("oficial") or {}
+        # CVM ja vem em R$ milhoes; SEC vem em dolares inteiros
+        escala = 1e6 if "SEC" in (o.get("fonte") or "") else 1.0
+        lucro = f"{fmt((o.get('lucro_ltm') or 0) / escala, 0)} {'US$' if escala > 1 else 'R$'}mi" if o.get("lucro_ltm") is not None else "-"
         base = [ln["ticker"], fmt(ln.get("pl_12m"), 1), fmt(ln.get("pl_projetado"), 1), fmt(ln.get("pvp"), 2),
                 fmt(ln.get("roe"), 1, pct=True), fmt(ln.get("dy_12m"), 1, pct=True), fmt(ln.get("retorno_12m"), 1, pct=True)]
-        extra = ([fmt(o.get("lucro_ltm"), 0), fmt(o.get("roe_ltm"), 1, pct=True), fmt(o.get("cresc_receita_ltm"), 1, pct=True)] if fin
+        extra = ([lucro, fmt(o.get("roe_ltm"), 1, pct=True), fmt(o.get("cresc_receita_ltm"), 1, pct=True)] if fin
                  else [fmt(ln.get("ev_ebitda"), 1), fmt(o.get("margem_ebit_ltm"), 1, pct=True), fmt(o.get("cresc_receita_ltm"), 1, pct=True),
                        fmt(o.get("resultado_financeiro_sobre_ebit"), 2)])
-        print("  " + "".join(f"{x:>12}" for x in base + extra) + f"   [{(o.get('fonte') or 'sem oficial')[:34]}; dado de {ln.get('gerado_em', '')[:10]}]")
+        print("  " + " ".join(f"{x:>12}" for x in base + extra) + f"   [{(o.get('fonte') or 'sem oficial')[:34]}; ate {o.get('ltm_ate') or '-'}; dado de {ln.get('gerado_em', '')[:10]}]")
     med = c.get("medianas") or {}
     print("  medianas: " + " | ".join(f"{k} {fmt(v['mediana'], 2) if 'pl' in k or 'pvp' in k or 'ev' in k else fmt(v['mediana'], 1, pct=True)}"
                                      for k, v in med.items() if k in ("pl_12m", "pl_projetado", "pvp", "ev_ebitda", "roe", "dy_12m", "retorno_12m", "oficial.roe_ltm", "oficial.margem_ebit_ltm", "oficial.cresc_receita_ltm")))
