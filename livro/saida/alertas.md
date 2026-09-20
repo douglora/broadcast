@@ -1,48 +1,14 @@
 ALERTAS · Fechamento 18h40
 
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário
-Money Times · 20/09 08h05 · fonte única · licença: integral
-Do texto:
-  – Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário Na semana de 21 a 25 de setembro, duas companhias da bolsa brasileira pagam dividendos e juros sobre capital próprio (JCP) aos seus a…
-  – Na segunda-feira (21), a Petrobras (PETR3;PETR4) realiza pagamento de JCP no valor de R$ 0,3505 tanto para a ação preferencial quanto ordinária, para os acionistas posicionados em 1º de junho de 2026.
-  – Já na sexta-feira (25), o Ser Educacional (SEER3) realiza pagamento de dividendos no valor de R$ 0,2028, com data de corte de 31 de agosto de 2026.
-Link: https://www.moneytimes.com.br/dividendos-da-semana-18-9-26-apsa/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Money Times: Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja o calendário; confirmar o número no texto antes de repassar'
-Fonte: Money Times 20/09 08h05
-ids: E05-PETR4-3b165219be-2026-09-20
-
-(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
-Estadao · 20/09 07h00 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
-Fonte: Estadao 20/09 07h00
-ids: E05-PETR4-121ac17da6-2026-09-20
-
-(pendente de slot anterior) [ATENÇÃO] E05 · TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
-Yahoo Finance · 20/09 01h20 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The three stocks highlighted below are just a small sample of the idea, and the wider screen surfaced 54 more multinational manufacturers with equally compelling risk and reward stories that are not covered here.
-  – Operations: TSMC generates about NT$4,440.5b from its foundry business, with NT$3,326.7b from the United States and NT$340.5b from China.
-  – Market Cap: NT$63,793.6b TSMC matters for this screener because its chip factories and customer base are spread across the US, Europe and Asia, which gives the business more room to adjust as tariffs reshape where elect…
-  – "Geopolitical concentration: Self-explanatory.
-  – TSMC might not exist, at least in its current form, if a certain regional bully gets its way." What happens to TSMC's margins and cash returns depends heavily on how one unseen pricing pressure within that global build…
-  – Operations: Celestica generates about US$3.3b from Advanced Technology Solutions and roughly US$12.3b from Connectivity & Cloud Solutions, highlighting a CCS-heavy revenue mix.
-Link: https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-2-manufacturers-building-042001917.html
-Por que importa: tarifa ou sancao muda margem e acesso a mercado
-Ativos: TSM
-Como falar: 'saiu no Yahoo Finance: TSMC Stock And 2 Manufacturers Building Around Tariff Shifts; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 20/09 01h20
-ids: E05-TSM-7f4f288908-2026-09-20
+Nenhum alerta novo neste slot.
+Info (só linha no Fechamento):
+· E05 DI · Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores
 
 
 Alertas do dia (todos, com status):
 · linha     T08 WQTM — WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,8
 · entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
-· entregue  F03 BRENT — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
+· entregue  F03 BRENT — Brent cai a US$ 99,29 (-5,3% no dia)
 · expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja
 · expirado  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
 · expirado  E05 TSM — TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
@@ -62,8 +28,8 @@ Alertas do dia (todos, com status):
 · entregue  T08 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) entrou em correção
 · entregue  C05 TESOURO — Pre 2032 FECHA 15 bps (PU +0,7%) (base 17/09)
 · entregue  T04 DIRR3 — DIRR3 fechou na mínima de 52 semanas: R$ 10,05, -4,4% em 1m e -28% em 12m
-· entregue  T05 BTC — BTC +6,2% no dia a US$ 81.155: movimento de 3,0 desvios para uma vol de 20 dias 
-· entregue  T05 ETH — ETH +7,1% no dia a US$ 2.621: movimento de 3,2 desvios para uma vol de 20 dias d
+· entregue  T05 BTC — BTC +5,9% no dia a US$ 80.901: movimento de 2,9 desvios para uma vol de 20 dias 
+· entregue  T05 ETH — ETH +6,7% no dia a US$ 2.611: movimento de 3,1 desvios para uma vol de 20 dias d
 · entregue  T08 BAC — BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
 · entregue  F06 ETH — ETH sobe a US$ 2.611 (cruzou US$ 2.500)
 · entregue  S01 SISTEMA — coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINE
@@ -83,4 +49,4 @@ Alertas do dia (todos, com status):
 · entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
 · entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
 · entregue  F06 BTC — BTC sobe a US$ 80.901 (cruzou US$ 80.000)
-· (+657 notícias só manchete, em noticias.md)
+· (+658 notícias só manchete, em noticias.md)

@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 18/09 · 11h39 de 20/09 BRT
+## Fechamento do livro · sex 18/09 · 11h52 de 20/09 BRT
 
 ---
 
@@ -12,17 +12,18 @@
 > 1m +7,2% · 6m -27% · YTD -33%
 > *Por que importa:* acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 
-> **CRÍTICO · F03 · BRENT** — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
-> Em reais: R$ 508/barril (-5,9%)
+> **CRÍTICO · F03 · BRENT** — Brent cai a US$ 99,29 (-5,3% no dia)
+> Em reais: R$ 509/barril (-5,8%)
 > PETR4 -0,3% no dia
 > CVX -1,0% no dia
+> *Número revisto depois do disparo; o alerta saiu como:* Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
 > *Por que importa:* queda do barril reduz receita de exportação e paridade de importação; PETR4 tende a cair menos pela política de preços
 
 - **T08 · WUTI** WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) entrou em correção: -11% do pico de 52s (US$ 74,81 em 09/04) a US$ 66,80
 - **C05 · TESOURO** Pre 2032 FECHA 15 bps (PU +0,7%) (base 17/09)
 - **T04 · DIRR3** DIRR3 fechou na mínima de 52 semanas: R$ 10,05, -4,4% em 1m e -28% em 12m
-- **T05 · BTC** BTC +6,2% no dia a US$ 81.155: movimento de 3,0 desvios para uma vol de 20 dias de 32% a.a.
-- **T05 · ETH** ETH +7,1% no dia a US$ 2.621: movimento de 3,2 desvios para uma vol de 20 dias de 34% a.a.
+- **T05 · BTC** BTC +5,9% no dia a US$ 80.901: movimento de 2,9 desvios para uma vol de 20 dias de 32% a.a.
+- **T05 · ETH** ETH +6,7% no dia a US$ 2.611: movimento de 3,1 desvios para uma vol de 20 dias de 34% a.a.
 - **T08 · BAC** BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
 - **F06 · ETH** ETH sobe a US$ 2.611 (cruzou US$ 2.500)
 - **S01 · SISTEMA** coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINERIO, KOSPI
@@ -272,7 +273,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 11h39 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
+**Relógios:** Yahoo 11h52 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 18/09
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

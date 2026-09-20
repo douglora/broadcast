@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 18/09 · 11h39 de 20/09 BRT
-Relógios: Yahoo 11h39 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 18/09 · 11h52 de 20/09 BRT
+Relógios: Yahoo 11h52 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 18/09
 
 ALERTAS DO DIA (43 · 3 críticos)
@@ -11,8 +11,7 @@ ALERTAS DO DIA (43 · 3 críticos)
 [CRÍTICO] T05 MRVE3 -8,4% no dia a R$ 5,23:
           movimento de 3,0 desvios para uma vol de
           20 dias de 46% a.a.
-[CRÍTICO] F03 Brent cai a US$ 98,77 (-5,8% no dia ·
-          cruzou US$ 100)
+[CRÍTICO] F03 Brent cai a US$ 99,29 (-5,3% no dia)
 [ATENÇÃO] E05 PETR4 · Petrobras (PETR4) e mais uma
           empresa pagam dividendos nesta semana;
           veja o calendário

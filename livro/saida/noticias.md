@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 20/09 11h39
+NOTÍCIAS E FATOS · 20/09 11h52
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 347 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 1 novas (14 consultas; descartadas: 343 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -712,8 +712,9 @@ Fonte: The National Law Review 17/09 20h36
 id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (590)
+## OUTRAS NOTÍCIAS (só manchete) (591)
 
+· DI Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores (Money Times) https://www.moneytimes.com.br/agenda-ata-do-copom-e-ipca-15-movimentam-os-mercados-nesta-semana-confira-os-indicadores-jcav/
 · MU Micron: Likely Dead Money From Here (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948120-micron-likely-dead-money-from-here
 · BTC Brian Armstrong Predicts $400,000 Bitcoin Price by 2030. The Forecast Requires 51% Growth Annually: Can It Hold? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/brian-armstrong-predicts-400-000-000214936.html
 · ITUB4 6 ações para ficar de olho com a queda dos juros em 2027, segundo o Itaú BBA (Money Times) https://www.moneytimes.com.br/6-acoes-para-ficar-de-olho-com-a-queda-dos-juros-em-2027-segundo-o-itau-bba-ceci/
@@ -773,5 +774,4 @@ id: E05-GOOGL-722f47dcc4-2026-09-17 · status: linha
 · BTC Bitcoin ETF Inflows Return as BlackRock IBIT Leads $159M Rebound (CryptoRank) https://news.google.com/rss/articles/CBMiowFBVV95cUxPeFpfc2pLVmx0WXlMVmd0NE1oMlhaVmJHVVg2X2VPcC0yWHFfMm9YY2RFNmF3WHVGcnRjVTZuVmxBdHFWR2NKNEJfdTBJdHVSN1hoVGhsU2VuT0RjUFdOUHE1MmU5dVZkeE1Ldk5XQjJjOFlvaU81NXBUOS1HRWlSVll2RHZVbURNMFBMdF9GaldKQ3BSb002eW05eUlfZTNMV2NZ?oc=5
 · BTC Weekly Wrap: Bitcoin Climbs Back Above $80,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxNcTctd0dHaWRvVldNejZuV0d2Xy13Q3VRaTBOdjdzVldjYWxVOEFWZWJiakM2bWtJLU9NOVh6LWlYS0ZuV3dsMzFQOHFvXzBKaHlDSVhxb3lack9fcHUwQWwwUjhoSDVMLTZNbjZPbEMwMklzeU93T2xBWTltbmFOa3YzNXRZZlEzcXYyUzZSVVlrQnRGTHhuTUZ0Z0U?oc=5
 · DI Corte da Selic sinaliza trajetória de queda, mas crédito ainda segue restrito (O Norte) https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFRqcjJXNFZET08tcFdQdmUxOTZVQWFwa3BjdWtDcWFtSWNQZzRDTDBFTU1rU2VFUFlsME9DbTNuanVjWVJsVUhvdC1LUHhURVh0S2RqYVNKYnRhNllLTVMxRmF5a3ZJcDFIS3NyZDhObFU1cElUR2VTRHFnZjFzWWoxNzV4OVJLRmdMVk5UNmhvTnhCa0c0VHhDMldUZGp2MllmaVcxdDh5WUQwRmdqWGpoTUM?oc=5
-· MU Micron Turned $10,000 Into About $130,000 in 5 Years. Most of It Came in the Past 12 Months. (The Motley Fool) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc09ObHhyaU1zTFNMNllIWTB2Ul9wcDBqdGg2XzFnanVVYUhIaGs4TXVLdUJvb1FGMk9MZWVEUXc2c0NTNnhqX0JheEg2Rm1VcjgtMlVmclIwVTJ5c2lRZTlhcXcxQWl5OEdkTlZnZTlub1pBMk8zNUhRaWZFNENzTnpkZkdZQUdoek9zV00zYXZYYzl1Z0hTM2xSVEJWQUZjTFc4X2lRcXBaaGppd2QwOGtRenVFV2l6aHRJOEhFbTd4THROc1ZLNDZqWDBaV3IybDdn?oc=5
-· (+530 manchetes; lista completa em eventos/noticias.json)
+· (+531 manchetes; lista completa em eventos/noticias.json)
