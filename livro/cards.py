@@ -125,6 +125,7 @@ def _card_commodities(em_dolar: dict | None) -> str:
         if v.get("rotulo"):
             notas.append(f"**{_esc(v.get('nome'))}**: {_esc(v['rotulo'])}"
                          + (f" · CNY/t {fmt.num(v['cny'], 0)} a USD/CNY {fmt.num(v.get('fx'), 2)}" if v.get("cny") and v.get("fx") else "")
+                         + (f" = US$ {fmt.num(v['usd_com_iva'], 0)}/t com IVA" if v.get("usd_com_iva") else "")
                          + (f" · fonte {_esc(v['fonte'])}" if v.get("fonte") else ""))
     poucos = [v.get("nome") for _, v in itens if not v.get("semanal") and (v.get("pontos") or 0) < 2]
     if poucos:
