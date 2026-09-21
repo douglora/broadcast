@@ -107,7 +107,8 @@ Esta pronto para usar quando TODAS as condicoes valem:
   util, 24 horas no fim de semana);
 - ha bloco oficial (`cvm_demonstracoes.serie_trimestral` ou `sec_xbrl.ltm`,
   no BDR dentro de `subjacente_us`), `release_ri` com texto e
-  `python3 mesa.py cobertura TICKER` imprime `VEREDITO: COMPLETA`: os 8
+  `python3 mesa.py cobertura TICKER` imprime `VEREDITO: COMPLETA` (a doutrina
+  da trava esta na skill `dados-completos`): os 8
   trimestres da janela do calendario, nenhum ausente e nenhum vazio. Contar
   linhas em `releases_historico` nao substitui o comando: o indice guarda os 8
   releases mais novos que o coletor achou, nao os 8 que a janela exige, e

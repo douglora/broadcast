@@ -54,6 +54,11 @@ guardados, qual o grupo de pares e quais fontes falharam.
 
 ### As duas travas (obrigatorias, logo depois da ficha)
 
+A doutrina completa das travas esta na skill `dados-completos`
+(.claude/skills/dados-completos/SKILL.md): os estados de cada trimestre, as
+tres saidas do comando `cobertura`, como fechar a janela e como declarar a
+lacuna quando ela nao fecha. Leia-a quando o veredito nao for 0.
+
 Sao duas perguntas diferentes e nenhuma cobre a outra. **Frescor olha a
 ponta**: o release mais novo esta no trimestre que o ITR e o calendario ja
 cobram? **Cobertura olha o corpo**: os 8 trimestres da janela estao no branch,
