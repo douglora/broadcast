@@ -535,6 +535,7 @@ def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, ja
         + _cartao_agenda(agenda_l)
         + _rodape(universo, relogios_txt, lacunas, notas, fontes)
     )
-    return (f'<title>{_e(rotulo)}</title>\n'
+    # Titulo da aba estavel: o painel e um Artifact fixado; o nome do slot fica no <h1>.
+    return ('<title>Livro monitorado</title>\n'
             f'<link rel="stylesheet" href="{FONTES_GOOGLE}">\n'
             f"<style>{CSS}</style>\n<main>{corpo}</main>\n")

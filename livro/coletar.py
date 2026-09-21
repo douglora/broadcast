@@ -31,7 +31,7 @@ from livro.sinais import tecnicas as r_tec
 from livro.sinais.base import Contexto
 from livro.universo import gravar_json, ler_json
 
-SLOT_ROTULO = {"intradia": "intradia", "fechamento": "Fechamento 18h40", "manha": "Manhã 07h20",
+SLOT_ROTULO = {"intradia": "intradia", "fechamento": "Fechamento 18h40", "manha": "Manhã 09h30",
                "fimdesemana": "Domingo", "sonda": "sonda", "backfill": "backfill", "ack": "ack", "eventos": "eventos"}
 MODOS_COM_EVENTOS = ("intradia", "fechamento", "manha", "eventos")
 
