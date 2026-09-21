@@ -11,7 +11,12 @@
 #   alternativas lista de URLs alternativas (ingles, legado), pode ser vazia
 #   plataforma   "mz" | "riweb" | "proprio" | "desconhecida"
 #                mz      documentos servidos por api.mziq.com/mzfilemanager/v2/d/<mz_id>/<uuid>
-#                        ou filemanager-cdn.mziq.com/published/<mz_id>/<arquivo>
+#                        ou filemanager-cdn.mziq.com/published/<mz_id>/<arquivo>.
+#                        Tema mziq_* (Cury, Plano & Plano, MRV, Direcional): a central
+#                        declara fmId, fmBase e as categorias (categories.push) e a lista
+#                        vem por JavaScript; o coletor le essas variaveis da propria pagina
+#                        e lista pelo file manager (POST company/<fmId>/.../years e
+#                        .../filter/categories/year/meta). Nada a mapear a mao.
 #                riweb   dominio com 'riweb' ou links /Download.aspx
 #                proprio site da propria companhia, sem MZ nem RiWeb
 #   mz_id        primeiro uuid depois de /mzfilemanager/v2/d/ (str) ou None
