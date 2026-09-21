@@ -1,0 +1,667 @@
+[p. 1]
+| Página 1 |
+
+[p. 2]
+| Página 2 | 
+ 
+Rio de Janeiro, 4 de agosto de 2026 – A PRIO S.A. (“PRIO” ou “Companhia”) (B3: PRIO3) apresenta seus resultados referentes ao segundo trimestre 
+de 2026 (“2T26”). As informações financeiras e operacionais descritas a seguir, exceto onde indicado o contrário, são apresentadas em bases 
+consolidadas e em dólar americano (US$) de acordo com os padrões internacionais de demonstrações contábeis (IFRS), e incluem as subsidiárias 
+diretas da Companhia: PRIO Comercializadora Ltda. e PRIO Internacional Ltda., e suas respectivas subsidiárias e filiais. 
+ 
+ 
+ 
+ 
+DESTAQUES DO PERÍODO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Posição de Caixa (US$ MM) 
+Lifting Cost (US$/bbl) Produção (kbpd) 
+Dívida líquida / EBITDA ajustado 
+ 
+ Conclusão do desenvolvimento de Wahoo, alcançando o marco de 40kbpd no campo 
+ 
+ Início de produção do poço A-15, no Isolado, em Peregrino 
+Destaques 
+ 
+ Alavancagem de 1,5x Dívida Líquida/EBITDA 
+ 
+ Recompra de 9,3 milhões de ações 
+ 
+ Receita total de US$ 1,4 bilhão (aumento de 184% vs. 2T25) 
+ 
+ Publicação do quarto Relatório Anual de Sustentabilidade 
+ 
+ EBITDA ajustado (ex-IFRS 16) de US$ 879 milhões (aumento de 218% vs. 2T25) 
+ 
+ 
+ Lifting cost de US$ 8,9 por barril 
+ 
+ 
+ Lucro líquido de US$ 413 milhões (aumento de 169% vs. 2T25) 
+Produção recorde de 172 mil barris por dia e venda recorde de 15,3 milhões de barris
+
+[p. 3]
+| Página 3 | 
+ 
+MENSAGEM DA ADMINISTRAÇÃO 
+O segundo trimestre de 2026 foi marcado pela conclusão do desenvolvimento de Wahoo, por avanços importantes 
+no projeto de importação de gás em Peregrino e pela perfuração de novos poços. No período, registramos três 
+recordes: produção média de 172 mil barris por dia, vendas de 15,3 milhões de barris e EBITDA ajustado de US$ 879 
+milhões. Também reduzimos o lifting cost para US$ 8,9/bbl, reforçando nosso compromisso com a eficiência 
+operacional. 
+ 
+Em Wahoo, iniciamos o trimestre com dois poços conectados ao FPSO de Frade e uma produção de 20 mil barris 
+por dia. Em abril, conectamos o terceiro poço, elevando a produção do campo para 30 mil barris por dia e, em 
+junho, conectamos o quarto, alcançando 40 mil barris por dia e concluindo o primeiro desenvolvimento 
+integralmente executado pela PRIO. Uma avaria no guindaste da embarcação originalmente contratada para o 
+serviço levou a conexão do último poço a ser realizada com o Genesis, nossa embarcação própria — uma 
+demonstração prática da verticalização de ativos estratégicos adotada pela PRIO. 
+ 
+Em Frade, uma falha na linha de gas lift no início de maio interrompeu temporariamente três poços produtores. O 
+reparo da linha foi realizado novamente pelo Genesis, após a conclusão das atividades em Wahoo, e o cluster 
+Valente (Frade e Wahoo) atingiu a marca de produção de 70 mil barris por dia. Em paralelo, iniciamos uma nova fase 
+de desenvolvimento do campo de Frade, com a perfuração de dois poços para aquisição de dados de reservatório 
+(ADR). Os resultados positivos embasaram o início da perfuração de dois novos poços produtores, previstos para 
+entrar em operação no 3T26 e no 4T26, respectivamente. 
+ 
+No campo de Peregrino, iniciamos o desenvolvimento do reservatório Isolado com a entrada em operação do 
+primeiro poço no fim de maio, retornando o campo a um patamar superior a 100 mil barris por dia. Seguimos com 
+a perfuração de mais dois poços, um deles no Isolado, a serem conectados no 3T26 e 4T26. Também concluímos o 
+reparo do duto de importação de gás, hoje em fase de recomissionamento, que nos permitirá substituir a geração 
+a diesel por gás e finalizar o plano de redução dos custos operacionais e da pegada de carbono do campo. 
+ 
+Nos demais campos, também encerramos o trimestre com os principais eventos operacionais do período 
+normalizados. No cluster Bravo, concluímos, em maio, o workover do poço OGX-44HP. Já em Albacora Leste, o poço 
+ABL-68 teve sua operação normalizada no início de julho, após a quebra do hidrato. Assim, já no mês de julho, 
+ultrapassamos a marca dos 196 mil barris por dia de produção. 
+ 
+Além dos avanços operacionais, evoluímos também em nossa estratégia de comercialização. Mesmo em um 
+ambiente de grande volatilidade por conta do conflito no Oriente Médio, chegamos a um desconto comercial de 
+US$ 6,91/bbl. No trimestre, realizamos o primeiro offload direto do FPSO Peregrino para um VLCC, fortalecendo 
+nossa flexibilidade logística e comercial. Também realizamos o primeiro blend do óleo de Peregrino com óleos mais 
+leves, iniciativa que amplia nossas alternativas de comercialização e contribui para obtermos melhores diferenciais 
+de preço ao longo do tempo. 
+ 
+Durante o trimestre, fortalecemos nossa estrutura de capital. Encerramos o 2T26 com alavancagem de 1,5x Dívida 
+Líquida/EBITDA, mantendo a trajetória de desalavancagem ao mesmo tempo em que executamos nossos projetos 
+de crescimento e recompramos 9,3 milhões de ações no período. Também amortizamos integralmente o saldo 
+remanescente do bond emitido em 2021 e refinanciamos parte das dívidas bilaterais com vencimento em 2027, 
+reforçando nossa flexibilidade financeira e alongando o perfil da dívida. 
+ 
+Nossa forma de operar é orientada pelo compromisso com as pessoas, a sociedade e o meio ambiente. Assim, 
+iniciamos um programa de reforma do casario e áreas comuns no FPSO Forte, voltado a proporcionar condições 
+cada vez melhores de trabalho e convivência no offshore. Publicamos também nosso Relatório de Sustentabilidade 
+de 2025, conquistamos o Selo Ouro no Programa Brasileiro GHG Protocol e, pelo segundo ano consecutivo, fomos 
+reconhecidos pelo CDP com nota B, refletindo a evolução contínua das nossas práticas de transparência e gestão
+
+[p. 4]
+| Página 4 | 
+ 
+ambiental. Em abril, também realizamos o Dia D de Segurança sob o lema "Guarda Alta Sempre", reforçando a 
+conscientização e a cultura de prevenção em todas as nossas operações. Paralelamente, seguimos investindo em 
+inovação, saúde e bem-estar, além de iniciativas sociais, culturais e esportivas por meio da plataforma I 💙 PRIO, 
+sempre buscando crescer com responsabilidade e gerar valor de forma sustentável. 
+ 
+Encerramos o 2T26 com a convicção de que nossa cultura e nossa capacidade de executar com agilidade, disciplina 
+e foco continuarão sendo os principais diferenciais da PRIO. Os resultados do trimestre reforçam a solidez da nossa 
+estratégia e a confiança de que seguiremos aproveitando as oportunidades, superando desafios e gerando valor 
+de forma eficiente, segura e responsável. 
+ 
+Renovamos nossos agradecimentos a todos que fazem parte dessa trajetória: nossos colaboradores, investidores, 
+parceiros e a sociedade, pela confiança e pelo apoio contínuo.
+
+[p. 5]
+| Página 5 | 
+ 
+DESEMPENHO OPERACIONAL 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dentre os principais destaques operacionais do trimestre, estão: (i) a produção média da Companhia, que atingiu 
+172,0 kbpd, um aumento de 72% em relação ao mesmo trimestre do ano anterior e de 11% em comparação ao 
+1T26; (ii) o volume de offtakes realizado no trimestre, que aumentou 87% em relação ao 2T25; e (iii) o lifting cost, 
+que apresentou redução de aproximadamente 5% em relação ao 1T26 e de 36% em relação ao 2T25. 
+ 
+No cluster Valente, a produção cresceu 165% em relação ao 2T25 e 87% frente ao 1T26, refletindo a entrada em 
+operação dos poços de Wahoo. Em Frade, uma falha na linha de gas lift no início de maio interrompeu 
+temporariamente a produção de três poços. A substituição da linha foi concluída em julho, restabelecendo a 
+produção dos poços. 
+ 
+O volume produzido em Albacora Leste reduziu 18% em relação ao 2T25 e 16% frente ao 1T26, refletindo a 
+interrupção do poço ABL-68 por formação de hidrato e a parada de alguns poços por 3 dias para manutenção do 
+sistema de resfriamento realizada em junho. 
+ 
+No cluster Bravo, a produção reduziu 10% em relação ao 1T26, impactada pela parada do poço OGX-44HP em 
+março por falha na Bomba Centrífuga Submersa (BCS), com workover realizado em maio. Na comparação com o 
+2T25, a produção cresceu 30%, refletindo os workovers concluídos em junho de 2025 e a entrada dos poços POL-
+GY e Well-B. 
+ 
+A produção do campo de Peregrino aumentou 90% em relação ao 2T25, refletindo a aquisição da participação 
+adicional de 40% e da operação do ativo, concluída em novembro de 2025. Em relação ao 1T26, a produção recuou 
+7%, principalmente em função da parada do poço C-26 decorrente de uma falha na BCS, cujo workover foi concluído 
+em abril. Além disso, em maio, a Companhia concluiu a perfuração do primeiro poço do reservatório Isolado, 
+retornando o campo a um patamar superior a 100 mil barris por dia. 
+ 
+Desde o início de suas operações, a PRIO, que consolidou sua estratégia de crescimento por meio da aquisição e do 
+desenvolvimento de ativos em produção, trabalha para aumentar seus níveis de produção e racionalizar seus 
+custos, mantendo sempre os níveis de excelência em responsabilidade ambiental, segurança e eficiência 
+operacional. A PRIO acredita que a melhor proteção contra a volatilidade do Brent é a redução de seu lifting cost,
+
+[p. 6]
+| Página 6 | 
+ 
+que continuará sendo um pilar dos projetos atuais e futuros. Diante disso, a Companhia apresenta, a seguir, a 
+evolução de seu lifting cost desde o 2T20. 
+ 
+ 
+ Lifting Cost PRIO 
+ (US$/bbl) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O lifting cost do 2T26 foi de US$ 8,9/bbl, 36% e 5% inferior ao registrado no 2T25 e no 1T26, respectivamente. 
+Essa redução reflete a otimização dos custos operacionais de Peregrino após a assunção da operação do campo 
+pela PRIO, em novembro de 2025, bem como a entrada em operação dos quatro poços produtores previstos no 
+projeto de desenvolvimento de Wahoo, concluída em junho de 2026, que contribuiu para a diluição dos custos do 
+cluster Valente. 
+ 
+ COMERCIALIZAÇÃO 
+ 
+A estratégia de comercialização da PRIO vem se consolidando como um importante diferencial competitivo, 
+ampliando o acesso da Companhia a mercados estratégicos e proporcionando maior flexibilidade na 
+comercialização de petróleo. A modalidade “entrega ao cliente” tem permitido ampliar a base de compradores e 
+otimizar as condições de negociação. Em um cenário de maior volatilidade do Brent, essa estratégia mostrou-se 
+ainda mais relevante, contribuindo para melhores realizações de preço e maior captura de valor por barril 
+comercializado. 
+ 
+Um dos principais marcos do trimestre foi a realização, em junho, do primeiro offload direto do FPSO Peregrino 
+para um VLCC. A operação amplia a flexibilidade logística e comercial do ativo, reduz etapas intermediárias na 
+cadeia de exportação e fortalece a capacidade da Companhia de acessar diferentes mercados e capturar melhores 
+oportunidades comerciais. No 2T26, também foi realizado o primeiro blend do óleo de Peregrino com óleos mais 
+leves, o que amplia alternativas de comercialização e contribui para a captura de melhores diferenciais de preço. 
+ 
+No trimestre, a PRIO vendeu 15,3 milhões de barris, representando aumento de 87% em relação ao 2T25 e de 3% 
+frente ao 1T26, refletindo a maior produção no período. O volume vendido foi distribuído entre o campo de 
+Peregrino (6,4 milhões de barris), o cluster Valente (5,1 milhões de barris), o campo de Albacora Leste (2,4 
+milhões de barris) e o cluster Bravo (1,5 milhão de barris). 
+ 
+O preço médio realizado ponderado pelo volume (Brent de referência) foi de US$ 94,60/bbl, com preço equivalente 
+FOB de US$ 87,69/bbl, resultando em um desconto consolidado de US$ 6,91/bbl, frente a US$ 8,15/bbl registrado 
+no 1T26. A melhora no desconto equivalente FOB decorreu da combinação entre a estratégia comercial da 
+Companhia e a dinâmica dos diferenciais de preço observada no mercado internacional, em um período marcado 
+por maior volatilidade geopolítica.
+
+[p. 7]
+| Página 7 | 
+ 
+ CLUSTER VALENTE (FRADE E WAHOO) 
+ 
+A produção média do cluster Valente no 2T26 foi de 61,1 kbpd, um aumento de 87% em relação ao 1T26, 
+impulsionado pela entrada em operação do terceiro e do quarto poços do projeto de Wahoo, em abril e junho, 
+respectivamente. Em Frade, uma falha na linha de gas lift no início de maio interrompeu temporariamente a 
+produção de três poços. A substituição da linha foi concluída em julho, permitindo a retomada da produção dos 
+poços. 
+ 
+Com isso, a eficiência operacional do cluster Valente no trimestre foi de 90,9%.
+
+[p. 8]
+| Página 8 | 
+ 
+ CLUSTER BRAVO (POLVO E TBMT) 
+ 
+No 2T26, o cluster Bravo registrou produção média de 14,3 kbpd, um aumento de 30% em relação ao 2T25, 
+refletindo principalmente (i) a retomada da produção dos poços TBMT-10H e TBMT-4H após a conclusão dos 
+workovers, em junho de 2025; e (ii) a entrada em operação dos poços POL-GY e Well-B, em dezembro de 2025 e 
+fevereiro de 2026, respectivamente. 
+ 
+Na comparação com o 1T26, a produção apresentou redução de 10%, impactada pela interrupção temporária do 
+poço OGX-44HP, em decorrência de uma falha na BCS registrada no final de março, com o workover concluído em 
+maio. Assim, a eficiência operacional do cluster no trimestre foi de 95,2%.
+
+[p. 9]
+| Página 9 | 
+ 
+ CAMPO DE ALBACORA LESTE 
+ 
+No trimestre, o campo de Albacora Leste registrou produção média diária de 22,1 mil barris (participação PRIO), 
+redução de 16% em relação ao 1T26 e de 18% frente ao 2T25. Esse resultado refletiu a interrupção do poço ABL-
+68, em abril, devido à formação de hidrato. Após a remoção do hidrato, a produção do poço foi restabelecida em 
+julho. Adicionalmente, a produção do campo foi impactada pela parada de alguns poços durante 3 dias, em junho, 
+para manutenção do sistema de resfriamento. 
+ 
+Assim, a eficiência operacional do ativo no 2T26 foi de 85,9%. A Companhia segue implementando iniciativas 
+voltadas à melhoria da integridade e da confiabilidade do campo, com foco em sustentar a eficiência operacional 
+em patamares observados nos demais ativos operados pela PRIO.
+
+[p. 10]
+| Página 10 | 
+ 
+ CAMPO DE PEREGRINO 
+ 
+No 2T26, o campo de Peregrino apresentou produção média diária de 74,5 kbpd (participação PRIO), redução de 
+7% em relação ao 1T26. O resultado reflete, principalmente, a parada do poço C-26 por falha na Bomba Centrífuga 
+Submersa (BCS), cujo workover foi concluído ao final de abril. 
+ 
+No trimestre, a PRIO iniciou o desenvolvimento do reservatório Isolado com a entrada em operação do poço A-15, 
+levando a produção do campo novamente a um patamar superior a 100 mil barris por dia. Como resultado, a 
+eficiência operacional do ativo no período foi de 96,8%. A Companhia também seguiu com a perfuração de mais 
+dois poços, incluindo um novo poço no Isolado, com conexões previstas para o 3T26 e 4T26. 
+ 
+Em paralelo, a Companhia deu continuidade às iniciativas de otimização do OPEX de Peregrino. No trimestre, 
+concluiu o reparo do duto de importação de gás, hoje em fase final de recomissionamento, que permitirá substituir 
+a geração a diesel por gás e concluir o plano de redução dos custos operacionais e da pegada de carbono do campo.
+
+[p. 11]
+| Página 11 | 
+ 
+ MEIO AMBIENTE E SOCIEDADE 
+ 
+Para a PRIO, segurança, saúde e bem-estar são compromissos permanentes. 
+ 
+Nesse contexto, a Companhia reconhece a importância de proporcionar as melhores condições de trabalho e 
+vivência, especialmente no ambiente offshore. Ao longo do trimestre, avançou na modernização das acomodações 
+e na otimização dos espaços do FPSO Forte, em Albacora Leste, incluindo a construção de 14 novos casarios, a 
+reforma de outros 12 e melhorias em áreas comuns, escadas e áreas de circulação. 
+ 
+A PRIO também reforçou sua cultura de segurança com a realização do Dia D da Segurança, sob o lema “Guarda Alta 
+Sempre”, mobilizando todas as unidades operacionais e o escritório e impactando mais de 1.000 colaboradores. 
+Por meio da plataforma I 💙 PRIO seguiu incentivando iniciativas ligadas ao esporte, à cultura e ao lazer, como 
+clínicas de tênis e surfe, a Maratona do Rio, a LIVE! Run e a SP-Arte. No âmbito de cultura e desenvolvimento, foram 
+concluídas as turmas do Reação Offshore iniciadas em 2025 e abertas as inscrições para a edição de 2026. 
+ 
+Ao longo do trimestre, a Companhia também avançou em sua agenda socioambiental, reforçando seu 
+compromisso com a gestão ambiental, a transparência e o desenvolvimento das pessoas e comunidades onde 
+atua. Nesse sentido, a PRIO realizou a capacitação de representantes da comunidade pesqueira de Macaé no 
+âmbito do Projeto Mar Atento e para a seleção do TAC Frade e do PEA Rede Observação para apresentação no V 
+Fórum de Socioeconomia do IBAMA. 
+ 
+No 2T26, a Companhia publicou seu quarto Relatório de Sustentabilidade, com data-base de 2025, elaborado em 
+conformidade com as Normas GRI ( Global Reporting Initiative ), com reporte de indicadores SASB ( Sustainability 
+Accounting Standards Board) e considerando as recomendações da TCFD ( Task Force on Climate-related Financial 
+Disclosures) para a gestão de riscos e oportunidades relacionados às mudanças climáticas. A PRIO também obteve 
+o Selo Ouro do Programa Brasileiro GHG Protocol para seu Inventário de Gases de Efeito Estufa de 2025 e recebeu, 
+pelo segundo ano consecutivo, nota B no CDP, reforçando seu compromisso com elevados padrões de 
+transparência e reporte em sustentabilidade. 
+ 
+A Companhia acredita que a melhoria contínua da eficiência operacional e a extensão da vida útil dos campos são 
+importantes alavancas para a redução da intensidade de emissões. Como reflexo dessa estratégia, registrou 
+emissões relativas¹ de 21,7 kgCO₂e/boe² no 2T26, patamar 16% e 44% inferior ao observado no 1T26 e no 4T25, 
+respectivamente. 
+ 
+Na PRIO, as decisões estratégicas seguem orientadas por valores de excelência, segurança, saúde e 
+responsabilidade socioambiental, como base para a geração de valor sustentável no longo prazo. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+¹ Emissões escopo 1 e 2. 
+² As informações de 2026 se referem ao inventário parcial, ainda não certificado e pode sofrer pequenas alterações.
+
+[p. 12]
+| Página 12 | 
+ 
+DESEMPENHO FINANCEIRO 
+A PRIO apresenta abaixo o desempenho financeiro com e sem o impacto das mudanças no IFRS 16, e 
+representações dos lançamentos contábeis não-caixa e não recorrentes e seus impactos nas demonstrações 
+quando ilustradas em dólares. 
+ 
+ Resultados do Período 
+ (Em milhares de US$) 
+ 
+ 
+*O EBITDA Ajustado é calculado semelhante ao EBITDA, desconsiderando a linha composta com efeitos não recorrentes “Outras Receitas e 
+Despesas”. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No trimestre, o desempenho financeiro da PRIO refletiu, principalmente, o aumento de 87% nas vendas, aliado à 
+valorização de 45% do Brent frente ao 2T25. Parte desse ganho, entretanto, foi impactada pelo imposto de 
+exportação de petróleo, vigente durante o trimestre, que limitou a captura integral da valorização do Brent. Assim, 
+no 2T26, a Companhia registrou receita total de US$ 1,4 bilhão e receita líquida de US$ 1,2 bilhão, representando 
+crescimentos de 184% e 160%, respectivamente, em comparação ao 2T25. 
+ 
+Analisando a receita trimestral, o campo de Peregrino foi responsável por 37,5%, o cluster Valente representou 
+35,2%, o campo de Albacora Leste foi responsável por 16,2% e o cluster Bravo, por sua vez, contribuiu 11,2% 
+para a receita total da PRIO. No gráfico abaixo, pode ser verificada a representatividade de cada ativo no total da 
+receita da Companhia:
+
+[p. 13]
+| Página 13 | 
+ 
+Receita por Ativo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O resultado de comercialização no 2T26 foi de US$ 104 milhões negativos, um aumento de 239% em relação aos 
+US$ 31 milhões negativos registrados no 2T25. Essa variação é explicada principalmente pelo maior volume de 
+offtakes na comparação entre os períodos com maiores vendas na modalidade entregue ao cliente. 
+ 
+A linha de impostos de venda interna e exportação totalizou US$ 114 milhões no trimestre, um aumento de 1.506% 
+em relação aos US$ 7 milhões registrados no 2T25. O aumento reflete a incidência do imposto de exportação de 
+petróleo, vigente desde 12 de março de 2026. 
+ 
+Os Custos dos Produtos Vendidos (“CPV”) (ex-IFRS 16) somaram US$ 132 milhões no 2T26, 13% acima do 2T25, 
+porém, a quantidade de barris vendido no período foi 87% acima do 2T25, demonstrando, uma redução do custo 
+unitário por produto vendido. 
+ 
+A linha de royalties e participação especial totalizou US$ 179 milhões no 2T26, um aumento de 230% em relação 
+ao 2T25, refletindo o maior volume de produção, aumento do preço do Brent no período e o reconhecimento de 
+participação especial do campo de Peregrino. 
+ 
+Como resultado, a Companhia reconheceu um Resultado Operacional (ex-IFRS 16) de US$ 912 milhões no 2T26, 
+204% acima do registrado no mesmo trimestre do ano anterior, impulsionado pelo maior volume de vendas e 
+menor custo por barril vendido. 
+ 
+As despesas gerais e administrativas, que incluem gastos com M&A, pessoal, projetos, geologia e geofísica, 
+totalizaram US$ 33 milhões, 41% superior em relação ao 2T25, explicado principalmente por despesas de geologia 
+e geofísica que incorreram no trimestre. 
+ 
+Assim, no trimestre, a Companhia registrou EBITDA ajustado (ex-IFRS 16) de US$ 879 milhões, 218% acima do 
+registrado no mesmo período do ano anterior, devido ao melhor resultado operacional e ao aumento do Brent no 
+período. 
+ 
+A linha de depreciação e amortização totalizou US$ 285 milhões no trimestre, 32% superior ao reconhecido no 
+2T25, refletindo a aquisição da participação adicional de 40% no campo de Peregrino em novembro de 2025. 
+ 
+O resultado financeiro (ex-IFRS 16) foi negativo em US$ 120 milhões, comparado a US$ 55 milhões negativos no 
+2T25, refletindo principalmente a maior despesa com juros decorrente do aumento da posição de dívida no período 
+e o efeito líquido das operações de hedge. 
+ 
+Com isso, a Companhia registrou lucro líquido (ex-IFRS 16) de US$ 413 milhões no trimestre, 169% superior ao 2T25.
+
+[p. 14]
+| Página 14 | 
+ 
+ DÍVIDA E FINANCIAMENTOS 
+ 
+No segundo trimestre de 2026, a Companhia amortizou parte de suas obrigações para 2026, incluindo a liquidação 
+integral, em junho, do saldo remanescente do bond emitido em 2021, no valor de US$ 168,7 milhões, última dívida 
+com garantia real da Companhia. Adicionalmente, a PRIO realizou uma gestão ativa de seu passivo, com a rolagem 
+de US$ 354,1 milhões em dívidas bilaterais com vencimentos originalmente em 2027 para os anos de 2028 e 2029. 
+ 
+Assim, o custo médio da dívida da Companhia encerrou o período em 6,40% ao ano, com duration de 2,70 anos. O 
+aumento do custo médio decorreu: (i) da liquidação do bond, que possuía custo de 6,125% ao ano; e (ii) do aumento 
+da SOFR, que impactou os financiamentos bilaterais indexados a taxas flutuantes. 
+ 
+A PRIO mantém o custo e duration das dívidas em patamares considerados adequados pela Companhia e segue 
+monitorando o mercado nacional e internacional buscando oportunidades de forma a manter sua estrutura de 
+capital robusta. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cronograma de amortização 
+(em US$ MM)
+
+[p. 15]
+| Página 15 | 
+ 
+ DÍVIDA LÍQUIDA E ALAVANCAGEM 
+ 
+No 2T26, a posição de dívida líquida da PRIO diminuiu em aproximadamente US$ 326 milhões comparado com o 
+1T26, explicada pelas seguintes variações: 
+ 
+ Capital de Giro: impactado principalmente pela redução de fornecedores. 
+ CAPEX: conclusão dos poços produtores de Wahoo, perfuração de poços e reparo do Gasoduto em 
+Peregrino, início do desenvolvimento de Arapuçá em Albacora Leste e perfuração de poços em Frade. 
+ Recompra de ações: recompra de 9,3 milhões de ações. 
+ 
+ 
+Variação da Dívida Líquida 
+(US$ MM) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dívida Líquida / EBITDA ajustado 
+(em US$ MM) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*Para fins de cálculo dos covenants financeiros, o EBITDA utilizado considera os efeitos do IFRS 16, conforme definição estabelecida nos respectivos contratos de 
+financiamento, bem como o EBITDA LTM referente à participação de 40% no campo de Peregrino, adquirida em novembro de 2025.
+
+[p. 16]
+| Página 16 | 
+ 
+ANEXO 
+IFRS 16 
+ 
+ 
+Os ativos de direito de uso representam os seguintes ativos subjacentes: 
+ 
+ 
+Ativos de direito de uso Saldo 
+Embarcações de Apoio 103.145 
+Helicópteros 432.455 
+Edificações/Bases de Apoio 34.720 
+Equipamentos 42.741 
+Total 613.061 
+ 
+ 
+Para calcular o montante do custo foram considerados os prazos contratuais, bem como a taxa de desconto. Essa 
+taxa é mantida até o fim dos contratos, exceto se houver alteração do prazo destes, quando é atualizado à taxa 
+incremental na data de alteração. 
+ 
+No primeiro trimestre de 2025, houve a substituição de dois contratos – um de helicóptero e outro de embarcação, 
+com o encerramento antecipado dos contratos anteriores. O contrato de helicóptero atende o Cluster Bravo e é 
+descontado à taxa de 5,44% para a parcela em dólar. Já o contrato de embarcação atenderá os campos de Albacora 
+Leste, Frade e o Cluster Bravo, sendo descontado à taxa de 5,39%, 5,81% e 5,49%, respectivamente, para a 
+parcela em dólar. 
+ 
+Adicionalmente, no quarto trimestre de 2025, houve a inclusão de três contratos – um de helicóptero e dois de 
+embarcação que atenderão ao Campo de Peregrino. O contrato de helicóptero é descontado à taxa de 6,37% para 
+a parcela em dólar e 14,15% para a parcela em reais. Já o contrato de embarcação é descontado à taxa de 6,37% 
+para a parcela em dólar e 14,17% para a parcela em reais. Com o aumento da vida útil, os contratos foram 
+calculados até março de 2034. 
+ 
+Em decorrência de ajustes referentes a prazo dos contratos existentes, o ativo aumentou em R$ 298.283, 
+o passivo aumentou em R$ 210.329 e a diferença foi registrada no resultado, na linha de outras receitas e despesas 
+operacionais. 
+ 
+Os efeitos apresentados no exercício foram: 
+ 
+ Ativo Passivo 
+ Saldo em 31 de dezembro de 2025 610.400 (644.854) 
+ Adições/Reversões 289.283 (210.329) 
+ Atualização cambial - (52.720) 
+ Atualização monetária - (30.875) 
+ Pagamentos efetuados - 259.290 
+ Depreciação (258.504) - 
+ Ajuste de conversão (37.118) 49.641 
+ Saldo em 30 de junho de 2026 613.061 (629.847) 
+ Circulante - (367.354) 
+ Não Circulante 613.061 (262.493) 
+ 
+ 
+*Fator de conversão: câmbio de fechamento os períodos para os saldos e média do período para as movimentações. 
+ 
+ 
+ 
+Maiores detalhes podem ser encontrados nas notas explicativas 16 das Demonstrações Financeiras do 2T26.
+
+[p. 17]
+| Página 17 | 
+ 
+BALANÇO PATRIMONIAL 
+ (Em milhares de US$)
+
+[p. 18]
+| Página 18 | 
+ 
+DEMONSTRAÇÃO DE RESULTADO 
+(Em milhares de US$)
+
+[p. 19]
+| Página 19 | 
+ 
+DEMONSTRAÇÃO DO FLUXO DE CAIXA 
+(Em milhares de US$)
+
+[p. 20]
+| Página 20 | 
+ 
+PROJETOS SOCIAIS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sobre a PRIO 
+ 
+A PRIO é a maior empresa independente de produção de óleo e gás natural do Brasil. A cultura corporativa da Companhia busca o aumento de 
+produção por meio da aquisição de novos ativos em produção, redesenvolvimento, maior eficiência operacional e redução dos custos de produção 
+e das despesas corporativas. Seu objetivo maior é a criação de valor para seus acionistas com alta disciplina financeira e preservação da sua liquidez, 
+com total respeito à segurança e ao meio ambiente. Para mais informações acesse o site: www.prio3.com.br. 
+ 
+Aviso Legal 
+ 
+Todas as declarações exceto aquelas relativas a fatos históricos contidas neste documento são declarações acerca de eventos futuros, incluindo, 
+mas não limitado a declarações sobre planos de perfuração e aquisições sísmicas, custos operacionais, aquisição de equipamentos, expectativa de 
+descobertas de óleo, a qualidade do óleo que esperamos produzir e nossos demais planos e objetivos. Os leitores podem identificar várias dessas 
+declarações ao ler palavras como “estima”, “acredita”, “espera” e “fará” e palavras similares ou suas negativas. Apesar de a administração acreditar 
+que as expectativas representadas em tais declarações são razoáveis, não pode assegurar que tais expectativas se confirmarão. Por sua natureza, 
+declarações acerca de eventos futuros exigem que façamos suposições e, assim, tais declarações são sujeitas a riscos inerentes e incertezas. 
+Alertamos os leitores desse documento a não depositarem confiança indevida nas nossas declarações de eventos futuros considerando que certos 
+fatores podem causar resultados, condições, ações ou eventos que podem diferir significativamente dos planos, expectativas, estimativas ou 
+intenções expressas nas declarações acerca de eventos futuros e as premissas que as suportam. As declarações acerca de eventos futuros aqui 
+incluídas estão baseadas na premissa de que nossos planos e operação não serão afetados por tais riscos, mas que, se nossos planos e operação 
+forem afetados por tais riscos, as declarações acerca de eventos futuros podem se tornar imprecisas. As declarações acerca de eventos futuros 
+incluídas neste documento são expressamente qualificadas em sua totalidade por este aviso legal. Tais declarações foram feitas na data deste 
+documento. Não nos comprometemos a atualizar tais declarações acerca de eventos futuros, exceto quando exigido pela legislação de valores 
+mobiliários aplicável.

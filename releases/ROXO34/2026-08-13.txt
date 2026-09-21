@@ -1,0 +1,244 @@
+6-K
+1
+nupr2q26_6k.htm
+6-K
+
+SECURITIES AND EXCHANGE
+COMMISSION
+
+Washington, D.C. 20549
+
+FORM 6-K
+
+Report
+of Foreign Private Issuer Pursuant to Rule 13a-16 or 15d-16 of the Securities Exchange Act of 1934
+
+For the month of August,
+2026
+
+Commission File Number 001-41129
+
+Nu Holdings Ltd.
+
+(Exact name of registrant as specified
+in its charter)
+
+Nu Holdings Ltd.
+
+(Translation of Registrant's
+name into English)
+
+Campbells Corporate Services
+Limited, Floor 4, Willow House, Cricket Square, KY1-9010 Grand Cayman, Cayman Islands
+
++1 345 949 2648
+
+(Address of principal executive
+office)
+
+Indicate by check mark whether
+the registrant files or will file annual reports under cover Form 20-F or Form 40-F.
+
+Form 20-F ( X ) Form 40-F
+
+Indicate by check mark whether the registrant by furnishing
+the information contained in this Form is also thereby furnishing the information to the Commission pursuant to Rule 12g3-2(b) under the
+Securities Exchange Act of 1934.
+
+Yes No ( X )
+
+|
+
+|
+
+Nu Holdings Ltd. Reports Second Quarter 2026 Financial Results São
+Paulo, Brazil, August 13, 2026 — Nu Holdings Ltd. (NYSE: NU) (“Nu” or the “Company”), the largest digital
+bank in Latin America, today released its fi nancial results for the second quarter ended June 30, 2026, prepared in accordance with
+IFRS, as well as complementary managerial results. The fi nancial statements and earnings presentation are available on the Company’s
+Investor Relations website at www.investors.nu, along with details of the earnings conference call to be held today at 6:00 p.m. Eastern
+Time / 7:00 p.m. Brasília time. "Thirteen years ago we started with a simple hypothesis: that a bank built on technology, with
+no branches and no legacy to defend, could serve hundreds of millions of people better, and at a fraction of the cost. This is no longer
+a hypothesis, and we are now generating more than a billion dollars in quarterly net income. Earlier this month, we launched our bank
+in Mexico, becoming the largest digital bank in the country with 16 million customers. That completes our transformation there, unlocking
+capabilities we did not have before. In Brazil, we are evolving our structure, adding a full banking license to our operations. We also
+launched Croma for our Super Core customers, taking the same primary banking playbook upmarket into an even larger profi t pool. Underpinning
+all of it, NuFormer, our foundation model for fi nancial behavior, now powers underwriting, customer service, and growth decisions across
+the company," says David Vélez, founder and global CEO of Nubank. Q2’26 Results Snapshot Below are the Q2’26 performance
+highlights of Nu Holdings Ltd. Unless otherwise noted, all the growth rates presented herein are on an FX neutral basis (FXN) 1 : Operating
+Highlights: ● Customer growth - Nu added approximately 4 million customers in Q2'26, reaching a total of 139 million customers
+globally. In Brazil, Nu reached almost 118 million customers. In Mexico, Nu reached 15.8 million customers (and 16 million as of July,
+2026), and in Colombia, Nu surpassed 5 million customers, continuing its steady pace of net additions. ● Engagement and activity
+rates - ARPAC reached approximately $17 in Q2'26, growing sequentially quarter-over-quarter (QoQ) once again. Monthly activity rate expanded
+sequentially to 83.5%, with Brazil surpassing 86% for the fi rst time. 1 FX neutral measures were calculated to present what such measures
+in preceding periods/years would have been had exchange rates remained stable from these preceding periods/years until the date of the
+Company’s more recent fi nancial information. 1 ● Efficiency Ratio - Efficiency Ratio increased to 19.5% in Q2'26 from 17.6%
+in Q1'26 (21.3% in Q2'25), as real estate and marketing expenses shifted from the fi rst quarter into the second, alongside our continued
+investments in international expansion. ● Asset Quality - Leading indicator 15-90 NPL ratio improved 16 bps to 4.8% in Q2'26, with
+the majority of the improvement coming from seasonality, partially offset by intentional expansions into higher-risk, higher-return segments.
+Product mix and other minor effects were broadly neutral. 90+ NPLs increased 35 bps to 6.9%, largely refl ecting the seasonal migration
+of fi rst-quarter early delinquencies. Financial Highlights: ● Revenue, Net Interest Income (NII) and Risk-adjusted NIM - Nu's
+Q2'26 gross revenue reached nearly $5.9 billion, up 39% YoY. NII reached $3.7 billion, up 9% QoQ, and Net Interest Margin expanded 180
+bps to 22.9%, refl ecting portfolio growth, the mix shift toward unsecured lending, and the intentional risk expansions communicated
+last quarter. Cost of Credit declined 9% QoQ to $1.7 billion, largely refl ecting the normal second-quarter improvement in early delinquencies.
+As a result, Risk-adjusted NIM expanded 290 bps to 12.4%, from 9.5% in Q1'26. ● Profi tability - Gross profi t reached $2.4 billion,
+up 43% YoY and 25% QoQ. Credit's contribution to gross profi t rose to 41% as it normalized in line with its expected seasonal pattern,
+with fees at 25% and fl oat at 34% — all three growing in absolute dollars. Net Income reached $1.1 billion for the fi rst time
+in Nubank's history, up 17% QoQ and 49% YoY. ROE closed the quarter at 33%. ● Balance Sheet and Funding - Total credit portfolio
+expanded 37% YoY and 5% QoQ to $39.4 billion, with credit cards at $26 billion, unsecured lending at $10.3 billion, and secured lending
+at $3.1 billion. Total deposits reached $45.3 billion, up 18% YoY and 6% QoQ, recovering Q1's seasonal outfl ows. Brazil closed at $36.4
+billion, Mexico at $5.7 billion, and Colombia at $3.3 billion. In Mexico, deposits declined modestly again this quarter as part of a
+deliberate deposit-optimization strategy, improving cost of funding while maintaining ample liquidity, with Mexico's loan-to-deposit
+ratio at just 35%. Consolidated cost of deposits held at 88% of interbank rates, 3 p.p. lower than a year ago. Business highlights: ●
+Deepening and Broadening Leadership in Brazil: Nu reached almost 118 million customers in Brazil, with the monthly activity rate surpassing
+86% for the fi rst time. Nu already serves most of the Mass Market segment and is the primary bank for a high share of those customers.
+It is also moving upmarket, where Ultravioleta continues to deepen primary banking relationships in the High Income segment. In July,
+Nu launched Croma for Super Core customers, offering a dedicated experience, enhanced credit, and broader benefi ts designed to reward
+customers for concentrating more of their fi nancial lives with Nu. Beyond consumers, Nu serves more small businesses than any other
+fi nancial institution in Brazil. ● Becoming Mexico's Largest Digital Bank: With its August launch, Nu became Mexico's largest
+digital bank, completing its shift from a credit-fi rst fi ntech to a full-scale institution. Customer behavior, technology, and regulation
+are now all moving in the same direction: SPEI transfers below $5 grew more than 60% in the fi rst half, while new central bank rules
+introduced in June, mandatory for all institutions by year-end, will standardize the payment experience across rails and strengthen network
+effects. Nu reaches 16.5% of Mexico's adult population, comparable to Brazil in 2020, but cohorts monetize earlier, with ARPAC of $12.3
+against $5.6 in Brazil at the same stage. Taken together, these forces create one of the most compelling opportunities Nu has seen in
+Mexico. 2 ● Scaling NuFormer and Broadening AI Across the Business: Nu continues to advance NuFormer, its foundation model for
+fi nancial behavior, building on one of its greatest advantages: over a decade of transaction history across more than 100 million customers.
+The latest generation quadrupled context length, training speed, and inference speed, while reducing the cost of running models in production.
+NuFormer is in production across three portfolios — credit cards in Brazil and Mexico, and unsecured lending in Brazil —
+with SME and Colombian cards now in testing. Beyond underwriting, AI agents handle more than 60% of customer support conversations in
+Brazil at or above human parity, and Nu is using AI to optimize decisions across credit, deposits, and growth. ● Credit as a Superpower,
+Underpinned by Customer Primacy: Nu leads the Brazilian market in Primary Banking Relationships (PBR), and that leadership, combined
+with the analytical rigor of its underwriting models and the quality of the data those relationships generate, creates a structural credit
+edge. Credit performance has been steady across every income band, with 90+ delinquency improving in each since July 2025 while the peer
+bank segments deteriorated, and the widest differentiation in Mass Market and Super Core. Customers with Nu as their PBR show delinquency
+roughly half the portfolio average, reinforcing that customer primacy is both a growth and a credit advantage. 3 3 Key Operating and
+Financial Metrics A Summary of Consolidated Financial and Operating Metrics is presented for the three-month periods June 30, 2026, 2025
+and March 31, 2026. Summary of Consolidated Operating Metrics Q2'26 Q1'26 % FXN QoQ Q2'25 % FXN YoY CUSTOMER METRICS Number of Customers
+(in millions) 138.9 135.2 3% 122.7 13% Activity Rate (%) 83.5% 83.4% 0.1 p.p 83.2% 0.3 p.p CUSTOMER ACTIVITY METRICS Purchase Volume
+(in $ billions) 43.4 39.5 6% 33.3 16% Monthly Average Revenue per Active Customer (in $) 17.1 15.9 3% 12.5 22% Monthly Average Cost to
+Serve per Active Customer (in $) -1.0 -1.0 2% -0.8 14% CUSTOMER BALANCES Total portfolio - credit card and loan (in $ billions) 39.4
+37.2 5% 27.3 37% Deposits (in $ billions) 45.3 42.4 6% 36.6 18% Summary of Consolidated Financial Metrics Q2'26 Q1'26 % FXN QoQ Q2'25
+% FXN YoY MANAGERIAL FINANCIAL METRICS Total Revenue (in $ millions) 5,875.7 5,315.5 6% 3,772.3 39% Gross Profi t (in $ millions) 2,441.1
+1,877.7 25% 1,519.3 43% Net Income (in $ millions) 1,061.1 871.4 17% 637.0 49% Summary of Consolidated Other Performance Metrics Q2'26
+Q1'26 % QoQ Q2'25 % YoY Efficiency-Ratio 19.5% 17.6% 1.9 p.p 21.3% -1.8 p.p Risk Adjusted NIM 12.4% 9.5% 2.9 p.p 9.9% 2.5 p.p ROE 33%
+29% 3.7 p.p 28% 4.8 p.p NPL 15-90 4.8% 5.0% -0.2 p.p 4.5% 0.3 p.p NPL 90+ 6.9% 6.5% 0.4 p.p 6.5% 0.4 p.p 4 4 Managerial P&L Managerial
+P&L (in $ millions) - Three-month period ended Q2'26 Q2'25 Total Revenue 5,875.7 3,772.3 Credit Income 3,604.8 2,239.8 Float Income
+1,454.4 990.9 Fee Income 816.4 541.6 Total Direct Costs -3,434.6 -2,253.0 Funding Cost -1,372.1 -1,007.3 Cost of Credit -1,690.8 -1,051.1
+Transaction Cost -130.8 -83.2 Revenue-Based Taxes -240.9 -111.4 Gross Profi t 2,441.1 1,519.3 Operating Expenses -806.2 -548.1 Customer
+Support and Operations -226.2 -161.4 G&A Expenses -463.6 -318.7 Marketing Expenses -103.6 -52.3 Other Operating Expenses -12.8 -15.7
+Share of Results From Associates -4.7 -1.0 EBT 1,630.3 970.2 Income Taxes -569.2 -333.2 Net Income 1,061.1 637.0 5 Accounting P&L
+Accounting P&L (in $ millions) - Three-month period ended Q2'26 Q2'25 Interest income and gains net of losses on fi nancial instruments
+4,760.6 3,128.7 Fee and commission income 752.6 539.7 Total revenue 5,513.2 3,668.5 Interest and other fi nancial expenses -1,556.7 -1,030.0
+Transactional expenses -127.8 -78.3 Expected credit loss -1,482.2 -1,012.2 Total cost of fi nancial and transactional services provided
+-3,166.7 -2,120.5 Gross profi t 2,346.5 1,548.0 Operating (expenses) income Customer support and operations -226.2 -161.4 General and
+administrative expenses -599.8 -341.3 Marketing expenses -103.4 -67.3 Other expenses -201.0 -112.3 Other income 25.0 14.7 Total operating
+(expenses) income -1,105.6 -667.6 Share of loss in associates -4.7 -1.0 Profi t (loss) before income taxes 1,236.3 879.4 Income taxes
+-175.2 -242.4 Net income (loss) for the period 1,061.1 637.0 6 Reconciliation Bridge Reconciliation Bridge (in $ millions) - Q2'26 Accounting
+P&L Reclassifi cation & Adjustments Managerial P&L Total Revenue 5,513.2 362.4 5,875.7 Credit Income 3,539.9 64.9 3,604.8
+Float Income 1,220.6 233.8 1,454.4 Fee Income 752.6 63.8 816.4 Total Direct Costs -3,166.7 -267.9 -3,434.6 Funding Cost -1,556.7 184.6
+-1,372.1 Cost of Credit -1,482.2 -208.6 -1,690.8 Transaction Cost -127.8 -2.9 -130.8 Revenue-Based Taxes 0.0 -240.9 -240.9 Gross Profi
+t 2,346.5 94.6 2,441.1 Operating Expenses -1,105.6 299.4 -806.2 Customer Support and Operations -226.2 0.0 -226.2 G&A Expenses -599.8
+136.2 -463.6 Marketing Expenses -103.4 -0.1 -103.6 Other Operating Expenses -176.1 163.3 -12.8 Share of Results From Associates -4.7
+0.0 -4.7 EBT 1,236.3 393.9 1,630.3 Income Taxes -175.2 -393.9 -569.2 Net Income 1,061.1 0.0 1,061.1 7 Note on forward-looking statements
+and non-IFRS fi nancial measures This release speaks at the date hereof and the Company is under no obligation to update or keep current
+the information contained in this presentation. Any information expressed herein is subject to change without notice. Any market or other
+third-party data included in this presentation has been obtained by the Company from third-party sources. While the Company has compiled
+and extracted the market data, it can provide no assurances of the accuracy and completeness of such information and takes no responsibility
+for such data. This release contains forward-looking statements. All statements other than statements of historical fact contained in
+this presentation may be forward-looking statements and include, but are not limited to, statements regarding the Company’s intent,
+belief or current expectations. These forward-looking statements are subject to risks and uncertainties, and may include, among others,
+fi nancial forecasts and estimates based on assumptions or statements regarding plans, objectives and expectations. Although the Company
+believes that these estimates and forward-looking statements are based upon reasonable assumptions, they are subject to several risks
+and uncertainties and are made in light of information currently available, and actual results may differ materially from those expressed
+or implied in the forward-looking statements due to various factors, including those risks and uncertainties included under the sections
+entitled “Risk Factors,” “Forward-Looking Statements” and “Operating and Financial Review and Prospects”
+in our Annual Report on Form 20-F. The Company, its advisers and each of their respective directors, officers and employees disclaim
+any obligation to update the Company’s view of such risks and uncertainties or to publicly announce the result of any revision
+to the forward-looking statements made herein, except where it would be required to do so under applicable law. The forward-looking statements
+can be identifi ed, in certain cases, through the use of words such as “believe,” “may,” “might,”
+“can,” “could,” “is designed to,” “will,” “aim,” “estimate,”
+“continue,” “anticipate,” “intend,” “expect,” “forecast”, “plan”,
+“predict”, “potential”, “aspiration,” “should,” “purpose,” “belief,”
+and similar, or variations of, or the negative of such words and expressions. The fi nancial information in this document includes forecasts,
+projections and other predictive statements that represent the Company’s assumptions and expectations in light of currently available
+information. These forecasts, projections and other predictive statements are based on the Company’s expectations and are subject
+to variables and uncertainties. The Company’s actual performance results may differ. Consequently, no guarantee is presented or
+implied as to the accuracy of specifi c forecasts, projections or predictive statements contained herein, and undue reliance should not
+be placed on the forward-looking statements in this presentation, which are inherently uncertain. In addition to IFRS fi nancials, this
+presentation includes certain summarized, non-audited or non-IFRS fi nancial information. These summarized, non-audited or non-IFRS fi
+nancial measures are in addition to, and not a substitute for or superior to, measures of fi nancial performance prepared in accordance
+with IFRS. References in this presentation to “R$” refer to the Brazilian Real, the official currency of Brazil. Beginning
+in the fourth quarter of 2025, the Company introduced its managerial profi t and loss presentation (the “Managerial P&L”),
+representing an evolution in our disclosure framework to better explain value creation across an increasingly multi-product, multi-segment,
+and multi-country platform. The Managerial P&L is a structural, complementary reorganization of certain IFRS line items designed
+to enhance comparability as the business scales, grounded in economic and operational substance. This framework preserves net income,
+cash fl ow, and capital, is reconciled to IFRS, and is intended to provide a supplemental management view of the Company’s results.
+Certain fi nancial metrics presented herein refl ect this framework. A reconciliation of non-IFRS measures to the most directly comparable
+IFRS measures is available in our Managerial P&L reconciliation report and in the appendix of the earnings presentation. 8 8 Investor
+Relations Guilherme Souto investors@nubank.com.br Media Relations Simone Iwasso press@nubank.com.br Nu Holdings LTD. NYSE: NU investors.nu
+international.nubank.com.b r/newsroom/ About Nu Nu is the largest digital bank in Latin America, serving 139 million across Brazil, Mexico,
+and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative
+products and services. Guided by its mission to fi ght complexity and empower people, Nu caters to customers’ complete fi nancial
+journey, promoting fi nancial access and advancement with responsible lending and transparency. The company is powered by an efficient
+and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards,
+including Time 100 Most Infl uential Companies, Fast Company’s Most Innovative Companies, and Forbes World’s Best Banks.
+For more information, please visit https://international.nubank.com.br/about/.
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+SIGNATURES
+
+Pursuant to the requirements of the Securities Exchange
+Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+
+|
+Nu Holdings Ltd. |
+
+|
+|
+
+|
+By: |
+/s/ Guilherme Souto |
+
+|
+|
+Guilherme Souto
+Investor
+Relations Officer |
+
+Date: August
+13, 2026

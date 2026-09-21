@@ -1,0 +1,1545 @@
+[p. 1]
+Relatório de
+Desempenho
+2T25 
+— 
+ 
+ 
+ 
+FPSO Alexandre de Gusmão 
+1º óleo em maio de 2025
+
+[p. 2]
+Relatório de Desempenho 2T25 I 2 
+ 
+AVISOS 
+ 
+ 
+ 
+ 
+ 
+Sumário 
+Destaques – 2T25 4 
+Principais itens e indicadores 6 
+Resultado consolidado 7 
+Eventos exclusivos 8 
+Investimentos 9 
+Liquidez e recursos de capital 12 
+Indicadores de endividamento 14 
+Resultados por segmento de negócio 15 
+Exploração e Produção 15 
+Refino, Transporte e Comercialização 17 
+Gás e Energias de Baixo Carbono 18 
+Reconciliação do EBITDA Ajustado 19 
+Anexos 20 
+Demonstrações financeiras 20 
+Informações contábeis por segmento de negócio 29 
+Glossário 38
+
+[p. 3]
+Relatório de Desempenho 2T25 I 3 
+ 
+AVISOS 
+Avisos 
+Este relatório pode conter previsões acerca de eventos futuros. Tais previsões refletem apenas 
+expectativas dos administradores da Companhia sobre condições futuras da economia, além do setor 
+de atuação, do desempenho e dos resultados financeiros da Compan hia, dentre outros. Os termos 
+“antecipa", "acredita", "espera", "prevê", "pretende", "planeja", "projeta", "objetiva", "deverá", bem como 
+outros termos similares, visam a identificar tais previsões, as quais, evidentemente, envolvem riscos e 
+incertezas previstos ou não pela Companhia e, consequentemente, não são garantias de resultados 
+futuros da Companhia. Portanto, os resultados futuros das operações da Companhia podem diferir 
+das atuais expectativas, e o leitor não deve se basear exclusivamente nas infor mações aqui contidas. 
+A Companhia não se obriga a atualizar as apresentações e previsões à luz de novas informações ou de 
+seus desdobramentos futuros. Os valores informados para 3T25 em diante são estimativas ou metas. 
+Adicionalmente, esta apresentação contém alguns indicadores financeiros que não são reconhecidos 
+pelo BR GAAP ou IFRS Accounting Standards. Esses indicadores não possuem significados padronizados 
+e podem não ser comparáveis a indicadores com descrição similar utilizados por outras companhias. 
+Nós fornecemos estes indicadores porque os utilizamos como medidas de performance da companhia; 
+eles não devem ser considerados de forma isolada ou como substituto para outras métricas financeiras 
+que tenham sido divulgadas em acordo com o BR GAAP ou IFRS Accounting Standards. Vide definições 
+de Fluxo de Caixa Livre, EBITDA Ajustado e Endividamento Líquido no Glossário e respectivas 
+reconciliações nas seções de Liquidez e Recursos de Capital, Reconciliação do EBITDA Ajustado e 
+Endividamento Líquido. Informações financeiras con solidadas elaboradas de acordo com IFRS 
+Accounting Standards e revisadas pelos auditores independentes.
+
+[p. 4]
+Relatório de Desempenho 2T25 I 4
+DESTAQUES 
+Destaques – 2T25 
+“Tivemos uma excelente performance operacional no segundo trimestre, impulsionada pela 
+implementação de novos sistemas de produção e por uma melhoria na eficiência dos campos em 
+operação. Esses fatores nos permitiram aumentar o volume de óleo e gás, refleti ndo positivamente 
+nos resultados financeiros e mitigando os impactos da queda no preço do Brent. O lucro líquido, 
+desconsiderando os eventos exclusivos do período, manteve -se no patamar do trimestre anterior, 
+quando operamos com um Brent 10% maior.” 
+Fernando Melgarejo, Diretor Financeiro e de Relacionamento com Investidores 
+Principais destaques financeiros 
+• Resultados consistentes: EBITDA Ajustado sem eventos exclusivos de R$ 57,9 bilhões e Lucro
+líquido sem eventos exclusivos de R$ 23,2 bilhões
+• Fluxo de Caixa Operacional de R$ 42,4 bilhões e Fluxo de caixa livre de R$ 19,2 bilhões
+• Capex de US$ 4,4 bilhões no 2T25, 9% superior ao do 1T25, em linha com o patamar dado pelo
+cronograma planejado de execução para 2025
+Contribuições para sociedade 
+• Pagamos R$ 66 bilhões em tributos à União, estados e municípios no 2T25
+• Aprovamos R$ 8,7 bilhões em dividendos relacionados ao resultado do 2T25
+
+[p. 5]
+Relatório de Desempenho 2T25 I 5 
+ 
+DESTAQUES 
+Principais destaques operacionais 
+• A produção de óleo e LGN alcançou 2,32 milhões de b pd, um aumento de 5% em relação a do 
+1T25, principalmente, em função do ramp-up dos principais projetos e da entrada em produção 
+do FPSO Alexandre de Gusmão, mitigando os impactos da queda do Brent 
+• Em maio, alcançamos o topo de produção do FPSO Marechal Duque de Caxias com apenas 4 
+poços produtores 
+• Iniciamos a produção do FPSO Alexandre de Gusmão, no campo de Mero. O FPSO tem 
+capacidade de produção de 180 Mbpd e capacidade de processamento de 12 MM m³/dia de gás 
+• O navio-plataforma P-78 já está em trânsito para o Brasil, sendo rebocado até a locação com 
+tripulação a bordo, o que possibilitará a antecipação em até 2 semanas da entrada em 
+operação. Sua capacidade de produção será de 180 mil barris de petróleo por dia, além de 
+comprimir até 7,2 milhões de m³ de gás diários 
+• Confirmamos nova descoberta de petróleo de excelente qualidade no pré -sal da Bacia de 
+Santos, em poço exploratório no bloco Aram 
+• Adquirimos 10 blocos exploratórios na Margem Equatorial e 3 na bacia de Pelotas na 5ª 
+Rodada de Oferta Permanente da ANP. Além disso, declaramos interesse em 9 áreas 
+exploratórias na Costa do Marfim 
+• Assinamos, em junho, os primeiros contratos para conclusão do Trem 2 da RNEST. Esse importante 
+marco permitirá que a capacidade nominal da refinaria seja dobrada para 260 Mbpd até 2029 
+• Iniciamos o novo HDT da REPLAN que permitiu a ampliação da produção de QAV, em até 21 
+mbpd, e de diesel S -10, em até 63 mbpd, contribuindo para o phase out do diesel S -500 e 
+possibilitando a conversão total da produção de diesel da REPLAN 
+• Atingimos 91% de FUT com manutenção do rendimento de derivados de alto valor agregado: 
+68% de diesel, gasolina e QAV no volume total de produção
+
+[p. 6]
+Relatório de Desempenho 2T25 I 6
+DESTAQUES 
+Principais itens e indicadores 
+Tabela 1 - Principais indicadores 
+Variação (%) 
+ R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Receita de vendas 119.128 123.144 122.258 242.272 239.979 (3,3) (2,6) 1,0 
+Lucro bruto 56.679 60.709 61.047 117.388 121.748 (6,6) (7,2) (3,6) 
+Despesas operacionais (26.465) (18.164) (26.508) (44.629) (42.725) 45,7 (0,2) 4,5 
+Lucro líquido (Prejuízo) - Acionistas Petrobras 26.652 35.209 (2.605) 61.861 21.095 (24,3) − 193,2 
+Lucro líquido sem eventos exclusivos- Acionistas 
+Petrobras (*) 23.186 23.589 28.048 46.775 54.890 (1,7) (17,3) (14,8) 
+Fluxo de caixa operacional 42.424 49.338 47.170 91.762 93.651 (14,0) (10,1) (2,0) 
+Fluxo de caixa livre 19.245 26.040 31.881 45.285 64.309 (26,1) (39,6) (29,6) 
+EBITDA ajustado 52.257 61.084 49.740 113.341 109.784 (14,5) 5,1 3,2 
+EBITDA ajustado sem eventos exclusivos (*) 57.902 62.281 62.332 120.183 123.855 (7,0) (7,1) (3,0) 
+Dívida bruta (US$ milhões) 68.064 64.491 59.630 68.064 59.630 5,5 14,1 14,1 
+Dívida líquida (US$ milhões) 58.563 56.034 46.160 58.563 46.160 4,5 26,9 26,9 
+Dívida líquida/LTM EBITDA Ajustado (x) (**) 1,53 1,45 0,95 1,53 0,95 5,5 61,1 61,1 
+Dólar médio de venda 5,67 5,84 5,22 5,76 5,08 (2,9) 8,6 13,4 
+Brent (US$/bbl) 67,82 75,66 84,94 71,74 84,09 (10,4) (20,2) (14,7) 
+Preço derivados básicos - Mercado interno 
+(R$/bbl) 469,89 505,84 476,25 487,68 476,20 (7,1) (1,3) 2,4 
+ROCE (Retorno sobre o Capital Empregado) (**) 6,0% 6,5% 9,8% 6,0% 9,8% -0,5 
+p.p.
+-3,8 
+p.p.
+-3,8 
+p.p.(*) Vide reconciliação do Lucro líquido e EBITDA Ajustado sem eventos exclusivos. 
+(**) Índice calculado em dólares norte-americanos.
+
+[p. 7]
+Relatório de Desempenho 2T25 I 7 
+ 
+RESULTADO 
+CONSOLIDADO 
+Resultado consolidado 
+No 2T25, apresentamos resultados consistentes, com destaque para o aumento da produção de óleo. O 
+EBITDA Ajustado sem eventos exclusivos do trimestre alcançou R$ 57,9 bilhões, enquanto o lucro líquido 
+sem eventos exclusivos foi de R$ 23,2 bilhões. 
+O EBITDA Ajustado sem eventos exclusivos do 2T25 registrou uma diminuição de 7% em relação ao do 
+trimestre anterior, refletindo a queda de 10% no Brent e o aumento das despesas operacionais, 
+principalmente, em decorrência dos gastos com Acordo de Individua lização da Produção (AIP 0F
+1) da Jazida 
+Compartilhada de Jubarte. Esses impactos negativos foram parcialmente compensados pelo aumento do 
+volume de petróleo vendido. 
+O lucro líquido sem eventos exclusivos apresentou uma redução de 1,7% em comparação ao 1T25. Quando 
+considerados os eventos exclusivos, o lucro líquido totalizou R$ 26,7 bilhões, uma redução de 24% em 
+relação ao do 1T25, impactado principalmente pela menor contribuição dos ganhos com a valorização 
+cambial ao final do período. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+— 
+1 Os impactos no caixa da Cia são esperados para o 3T25. Será deduzido do pagamento final o ressarcimento dos investimentos realizados 
+pela Petrobras (valores em negociação). Vale destacar que a despesa com AIP de Jubarte é dedutível da base de cálculo do IR/CSLL.
+
+[p. 8]
+Relatório de Desempenho 1T25 I 8
+EVENTOS EXCLUSIVOS 
+Eventos exclusivos 
+Tabela 2 - Eventos exclusivos 
+Variação (%) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Lucro líquido (prejuízo) 26.774 35.331 (2.515) 62.105 21.295 (24,2) − 191,6 
+Eventos exclusivos 5.244 17.604 (41.676) 22.848 (46.481) (70,2) − − 
+Eventos exclusivos que não afetam o 
+EBITDA Ajustado 10.889 18.801 (29.084) 29.690 (32.410) (42,1) − − 
+Impairment de ativos e de investimentos (1.041) (287) 207 (1.328) 337 262,7 − − 
+Resultado com alienação e baixa de ativos 78 324 663 402 1.469 (75,9) (88,2) (72,6) 
+Resultado com acordo de coparticipação 
+em áreas licitadas (113) 403 296 290 533 − − (45,6) 
+Efeitos da transação tributária no 
+resultado financeiro − − (11.583) − (11.583) − − − 
+(Perdas)/ganhos com variação cambial 
+real x dólar (*) 11.965 18.361 (18.667) 30.326 (23.166) (34,8) − − 
+Outros eventos exclusivos (5.645) (1.197) (12.592) (6.842) (14.071) 371,6 (55,2) (51,4) 
+Acordo Coletivo de Trabalho (ACT) (1.214) − (29) (1.214) (39) − 4086,2 3012,8 
+(Perdas)/Ganhos com contingências 
+judiciais (711) (1.163) (1.277) (1.874) (2.675) (38,9) (44,3) (29,9) 
+Efeitos da transação tributária na despesa 
+tributária − − (4.256) − (4.256) − − − 
+Equalização de gastos - AIP (3.849) (23) (77) (3.872) (127) 16634,8 4898,7 2948,8 
+(Perdas)/ganhos oriundos da revisão 
+atuarial do Plano de Saúde − − (6.955) − (6.955) − − − 
+Outros 129 (11) 2 118 (19) − 6350,0 − 
+Efeito líquido dos eventos exclusivos no 
+IR/CSLL (1.778) (5.984) 11.023 (7.762) 12.686 (70,3) − − 
+Lucro líquido sem eventos exclusivos 23.308 23.711 28.138 47.019 55.090 (1,7) (17,2) (14,7) 
+Acionistas Petrobras 23.186 23.589 28.048 46.775 54.890 (1,7) (17,3) (14,8) 
+Acionistas não controladores 122 122 90 244 200 − 35,6 22,0 
+EBITDA Ajustado 52.257 61.084 49.740 113.341 109.784 (14,5) 5,1 3,2 
+Eventos exclusivos (5.645) (1.197) (12.592) (6.842) (14.071) 371,6 (55,2) (51,4) 
+EBITDA Ajustado sem eventos exclusivos 57.902 62.281 62.332 120.183 123.855 (7,0) (7,1) (3,0) 
+(*) A partir do 4T24, a linha de (Perdas)/ganhos com variação cambial real x dólar foi adicionada na tabela acima para cálculo do Lucro líquido 
+sem eventos exclusivos. Para fins comparativos, os períodos divulgados anteriormente foram atualizados. 
+Na opinião da Administração, os eventos exclusivos apresentados acima, embora relacionados aos negócios 
+da companhia, foram destacados como informação complementar para um melhor entendimento e 
+avaliação do resultado. Tais itens não ocorrem necessariamente em todos os períodos, sendo divulgados 
+quando relevantes.
+
+[p. 9]
+Relatório de Desempenho 2T25 I 9
+INVESTIMENTOS 
+Investimentos 
+Tabela 3 – Investimentos 
+Variação (%) 
+US$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Exploração & Produção (*) 3.722 3.502 2.767 7.224 5.239 6,3 34,5 37,9 
+Projetos em Desenvolvimento da 
+Produção 2.784 2.726 2.194 5.510 4.021 2,1 26,9 37,0 
+Exploração 499 305 244 804 438 63,8 104,4 83,5 
+Outros E&P 438 472 329 910 780 (7,1) 33,3 16,6 
+Refino, Transporte e Comercialização 512 405 447 916 809 26,5 14,4 13,3 
+Gás & Energias de Baixo Carbono 66 55 93 121 201 20,5 (28,7) (39,5) 
+Outros 131 104 86 235 187 26,7 53,4 25,8 
+Subtotal 4.431 4.065 3.393 8.497 6.436 9,0 30,6 32,0 
+Bônus de assinatura − − − − − − − − 
+Total 4.431 4.065 3.393 8.497 6.436 9,0 30,6 32,0 
+investimentos
+(*) Vide Glossário para definição dos investimentos
+Nos primeiros seis meses do ano, os investimentos totalizaram US$ 8,5 bilhões, representando um 
+aumento de 32,0% em relação ao mesmo período do ano anterior. No 2T25, os investimentos somaram 
+US$ 4,4 bilhões, um crescimento de 9,0% em comparação com o 1T25. 
+No 2T25, os investimentos do segmento Exploração e Produção totalizaram US$ 3,7 bilhões, com foco, 
+principalmente, em: (i) desenvolvimento da produção do polo pré-sal da Bacia de Santos (US$ 1,7 
+bilhão), com destaque para os investimentos no ramp-up do FPSO Almirante Tamandaré (Búzios 7) e o 
+avanço na construção de novos FPSOs no campo de Búzios (Búzios 6, 8, 9 e 11); (ii) desenvolvimento da 
+produção do pré e pós-sal da Bacia de Campos (US$ 0,9 bilhão); e (iii) investimentos exploratórios (US$ 
+0,5 bilhão). Em relação ao 1T25, houve um aumento de 6,3% no volume de investimentos, impulsionado, 
+principalmente, pelo avanço na construção dos FPSOs do campo de Búzios, na Bacia de Santos. 
+No segmento Refino, Transporte e Comercialização, os investimentos no 2T25 somaram US$ 0,51 
+bilhão, representando uma variação de 26,5% em relação ao 1T25. Entre os principais marcos do 
+trimestre no refino, destacam-se a conclusão da obra de ampliação da capacidade (REVAMP) do Trem 1 
+da RNEST, no final de março, e o início da operação da unidade de hidrotratamento de diesel (HDT) da 
+REPLAN, em maio. 
+No segmento Gás e Energias de Baixo Carbono, os investimentos no 2T25 totalizaram US$ 0,07 bilhão, 
+uma variação de 20,5% em relação ao 1T25. O aumento foi impulsionado, principalmente, por 
+investimentos em manutenção, incluindo paradas programadas e corretivas de grande porte nas 
+unidades termoelétricas.
+
+[p. 10]
+Relatório de Desempenho 2T25 I 10
+INVESTIMENTOS 
+Adicionalmente, destaca-se a entrada em operação, no 2T25, do FPSO afretado Alexandre de Gusmão 
+(Mero 4), cujo contrato de arrendamento totaliza US$ 1,1 bilhões (parcela Petrobras). Assim como as 
+unidades próprias, os FPSOs afretados são reconhecidos no at ivo da Companhia e constituem esforço 
+de investimento para ampliação da capacidade produtiva com novas unidades, embora não sejam 
+considerados na rubrica de Capex. 
+Por fim, em abril, a Petrobras adquiriu 10 blocos na Bacia da Foz do Rio Amazonas e 3 blocos na Bacia 
+de Pelotas, com o pagamento do bônus de assinatura previsto para outubro. 
+A tabela a seguir apresenta as principais informações dos novos sistemas de produção de óleo e gás já 
+contratados. 
+Tabela 4 – Principais projetos 
+Projeto Início de 
+Operação 
+Capacidade 
+da 
+Plataforma 
+(barris de 
+óleo/dia) 
+Investimento 
+Petrobras 
+Realizado 
+(US$ bilhões) 
+Investimento 
+Petrobras 
+Total (1) 
+(US$ bilhões) 
+Parcela da 
+Petrobras Status 
+Integrado Parque 
+das Baleias (IPB) 
+FPSO Maria 
+Quitéria 
+(Unidade 
+Afretada) 
+2024 100.000 1,4 1,9 (4) 100% (4) 
+Projeto em fase de 
+execução com UEP em 
+operação. 
+5 poços perfurados 
+completados. (2) 
+Mero 3 
+FPSO Marechal 
+Duque de Caxias 
+(Unidade 
+Afretada) 
+2024 180.000 0,6 1,0 38,6% 
+Projeto em fase de 
+execução com UEP em 
+operação. 
+12 poços perfurados e 
+11 completados. 
+Búzios 7 
+FPSO Almirante 
+Tamandaré 
+(Unidade 
+Afretada) 
+2025 225.000 1,6 2,2 88,99% 
+Projeto em fase de 
+execução com UEP em 
+operação. 
+15 poços perfurados e 
+completados. 
+Búzios 6 
+P-78 
+(Unidade Própria) 
+2025 180.000 2,8 5,2 88,99% 
+Projeto em fase de 
+execução com UEP em 
+navegação para o Brasil. 
+10 poços perfurados e 7 
+completados. 
+Mero 4 
+FPSO Alexandre de 
+Gusmão 
+(Unidade 
+Afretada) 
+2025 180.000 0,4 1,3 38,6% 
+Projeto em fase de 
+execução com UEP em 
+operação. 
+9 poços perfurados e 8 
+completados. 
+Búzios 8 
+P-79 
+(Unidade Própria) 
+2026 180.000 2,6 5,7 88,99% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+11 poços perfurados e 9 
+completados. 
+Búzios 9 
+P-80 
+(Unidade Própria) 
+2027 225.000 1,9 6,3 88,99% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+3 poços perfurados e 2 
+completados. 
+Búzios 10 
+P-82 
+(Unidade Própria) 
+2027 225.000 1,5 7,5 88,99% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+1 poço perfurado.
+
+[p. 11]
+Relatório de Desempenho 2T25 I 11
+INVESTIMENTOS 
+Búzios 11 
+P-83 
+(Unidade Própria) 
+2027 225.000 1,5 6,8 88,99% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+3 poços perfurados e 1 
+completado. 
+Raia Manta e Raia 
+Pintada 
+FPSO Raia 
+(Projeto não 
+operado) 
+2028 126.000 1,1 2,7 (3) 30% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+Atapu 2 
+P-84 2029 225.000 0,6 6,4 65,7% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+Sépia 2 
+P-85 2030 225.000 0,3 4,7 55,3% 
+Projeto em fase de 
+execução com UEP em 
+construção. 
+(1) Investimento total dos projetos considerando as premissas do PN 2025-2029+ no work interest (WI) Petrobras. Não inclui os valores das
+unidades afretadas. 
+(2) Unidade de Produção para Projeto de Revitalização. Informação relativa somente a poços novos. Também é escopo do projeto o 
+remanejamento de alguns poços de unidades em descomissionamento.
+(3) Investimento total do projeto no WI Petrobras que inclui o FPSO, contratado na modalidade lump sum turnkey, incluindo engenharia, 
+aquisição, construção e instalação para a unidade. A contratada também fornecerá serviços de operação e manutenção do FPSO durante o 
+primeiro ano a partir do seu início de produção. 
+(4) Parcela Petrobras e Investimento Petrobras Total serão ajustados devido a aprovação do Acordo de Individualização da Produção (AIP) da 
+Jazida Compartilhada do Pré-Sal de Jubarte pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), com efetividade a 
+partir de 1 de agosto de 2025.
+
+[p. 12]
+Relatório de Desempenho 2T25 I 12
+LIQUIDEZ E RECURSOS 
+DE CAPITAL 
+Liquidez e recursos de capital
+Tabela 5 – Liquidez e recursos de capital 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 
+Disponibilidades ajustadas no início do período 48.566 49.978 90.890 49.978 86.670 
+Títulos públicos federais e time deposits acima de 3 meses no 
+início do período (21.606) (29.724) (33.201) (29.724) (25.057) 
+Caixa e equivalentes de caixa no início do período 26.960 20.254 57.689 20.254 61.613 
+Recursos gerados pelas atividades operacionais 42.424 49.338 47.170 91.762 93.651 
+Recursos gerados (utilizados) pelas atividades de 
+investimento (14.565) (10.235) (10.461) (24.800) (26.901) 
+Aquisições de ativos imobilizados e intangíveis (23.170) (23.297) (15.260) (46.467) (29.309) 
+Reduções (adições) em investimentos (9) (1) (29) (10) (33) 
+Recebimentos pela venda de ativos - Desinvestimentos 91 2.729 1.011 2.820 3.812 
+Compensação financeira por acordos de coparticipação − 2.140 − 2.140 1.951 
+Resgates (investimentos) em títulos e valores mobiliários 8.419 8.149 3.612 16.568 (3.648) 
+Dividendos recebidos 104 45 205 149 326 
+(=) Fluxo de Caixa das atividades operacionais e de 
+investimento 27.859 39.103 36.709 66.962 66.750 
+Recursos líquidos utilizados nas atividades de 
+financiamentos (15.493) (31.444) (54.178) (46.937) (89.760) 
+Participação de acionistas não controladores 678 246 174 924 637 
+Financiamentos líquidos 6.305 (2.716) (5.766) 3.589 (13.696) 
+ Captações 14.508 3.009 3.047 17.517 3.055 
+ Amortizações (8.203) (5.725) (8.813) (13.928) (16.751) 
+Amortizações de arrendamentos (12.878) (12.237) (10.256) (25.115) (19.760) 
+Dividendos pagos a acionistas da Petrobras (9.567) (16.587) (37.454) (26.154) (54.636) 
+Recompra de ações − − (772) − (1.919)
+Dividendos pagos a acionistas não controladores (31) (150) (104) (181) (386) 
+Efeito de variação cambial sobre caixa e equivalentes de caixa (1.149) (953) 3.609 (2.102) 5.226 
+Caixa e equivalentes de caixa no fim do período 38.177 26.960 43.829 38.177 43.829 
+Títulos públicos federais e time deposits acima de 3 meses no 
+fim do período 13.670 21.606 31.051 13.670 31.051 
+Disponibilidades ajustadas no fim do período 51.847 48.566 74.880 51.847 74.880 
+Reconciliação do Fluxo de caixa livre 
+Recursos gerados pelas atividades operacionais 42.424 49.338 47.170 91.762 93.651 
+Aquisições de ativos imobilizados e intangíveis (23.170) (23.297) (15.260) (46.467) (29.309) 
+Reduções (adições) em investimentos (9) (1) (29) (10) (33) 
+Fluxo de caixa livre (*) 19.245 26.040 31.881 45.285 64.309 
+(*) O Fluxo de Caixa Livre (FCL) está de acordo com a Política de Remuneração aos Acionistas ("Política") aprovada em 28/07/2023 e 
+corresponde ao fluxo de caixa operacional deduzido das aquisições de ativos imobilizados, intangíveis e participações societárias.
+
+[p. 13]
+Relatório de Desempenho 2T25 I 13
+LIQUIDEZ E RECURSOS 
+DE CAPITAL 
+Em 30 de junho de 2025, caixa e equivalentes de caixa totalizaram R$ 38,2 bilhões e as disponibilidades 
+ajustadas somaram R$ 51,8 bilhões. 
+No 2T25, os recursos gerados pelas atividades operacionais totalizaram R$ 42,4 bilhões, enquanto o fluxo 
+de caixa livre foi positivo em R$ 19,2 bilhões. Adicionalmente, no período, foram registradas captações de 
+R$ 14,5 bilhões. 
+A queda do fluxo de caixa operacional do 2T25 em relação ao 1T25 é explicada principalmente: (i) pela 
+ausência, no 2T25, dos créditos fiscais de PIS/COFINS utilizados no 1T25, oriundos da adesão ao programa 
+tributário em 2024; (ii) pelas maiores despesas operacionais, especialmente despesas de vendas, em função 
+do aumento no volume de exportações de petróleo; e (iii) pelos desembolsos relacionados ao programa de 
+remuneração variável - tradicionalmente quitados no segundo trimestre, após a aprovação das 
+demonstrações financeiras pela Assembleia Geral Ordinária. Esses impactos foram parcialmente 
+compensados por um menor recolhimento de Imposto de Renda e Contribuição Social sobre o Lucro Líquido 
+no 2T25. 
+A geração de caixa operacional, aliada às captações realizadas no 2T25, foi utilizada principalmente para: 
+(a) realizar investimentos (R$ 23,2 bilhões), (b) amortizar passivos de arrendamento (R$ 12,9 bilhões),
+(c) remunerar os acionistas (R$ 9,6 bilhões), e (d) amortizar o principal e juros devidos no período (R$ 8,2
+bilhões). 
+No 2T25, a companhia liquidou diversos empréstimos e financiamentos, no valor de R$ 8,2 bilhões e captou 
+R$ 14,5 bilhões, destacando-se a oferta pública de debêntures no valor de R$ 2,9 bilhões, com vencimento 
+em 2035, 2040 e 2045; (ii) captação no mercado bancário nacional, no valor de R$ 5,3 bilhões, e (iii) captações 
+no mercado bancário internacional no valor de R$ 6,3 bilhões.
+
+[p. 14]
+Relatório de Desempenho 2T25 I 14
+INDICADORES DE 
+ENDIVIDAMENTO 
+Indicadores de endividamento
+Em 30/06/2025, a dívida bruta alcançou US$ 68,1 bilhões, representando um crescimento de 5,5% em 
+relação a 31/03/2025, principalmente em função das captações realizadas durante o 2T25 no montante de 
+US$ 2,6 bilhões e do início da operação do FPSO afretado Alexandre de Gusmão (Mero 4), que resultou no 
+reconhecimento de US$ 1,1 bilhão (parcela Petrobras) no endividamento da companhia. 
+O prazo médio da dívida variou de 12,19 anos em 31/03/2025 para 11,92 anos em 30/06/2025, enquanto o 
+custo médio passou de 6,9% a.a. para 6,8% a.a. no mesmo período. 
+A relação dívida bruta/EBITDA Ajustado foi de 1,78x em 30/06/2025 em comparação com 1,67x em 
+31/03/2025. 
+A dívida líquida atingiu US$ 58,6 bilhões em 30/06/2025, um aumento de 4,5% em comparação com 
+31/03/2025. 
+Tabela 6 – Indicadores de endividamento 
+US$ milhões 30.06.2025 31.03.2025 Δ % 30.06.2024 
+Dívida Financeira 25.791 23.833 8,2 26.321 
+Mercado de capitais 15.461 14.557 6,2 16.554 
+Mercado bancário 8.299 7.247 14,5 7.327 
+Bancos de fomento 556 538 3,3 585 
+Agências de crédito à exportação 1.347 1.356 (0,7) 1.702 
+Outros 128 135 (5,2) 153 
+Arrendamentos 42.273 40.658 4,0 33.309 
+Dívida bruta 68.064 64.491 5,5 59.630 
+Disponibilidades ajustadas 9.501 8.457 12,3 13.470 
+Dívida líquida 58.563 56.034 4,5 46.160 
+Dívida líquida/(Dívida líquida+market cap) - Alavancagem 43% 39% 10,3 33% 
+Taxa média dos financiamentos (% a.a.) 6,8 6,9 (1,4) 6,6 
+Prazo médio da dívida (anos) 11,92 12,19 (2,2) 11,76 
+Índice de Dívida Líquida/LTM EBITDA Ajustado 1,53 1,45 5,5 0,95 
+Índice de Dívida Bruta/LTM EBITDA Ajustado 1,78 1,67 6,6 1,22 
+R$ milhões 
+Dívida Financeira 140.748 136.851 2,8 146.315 
+Arrendamentos 230.689 233.463 (1,2) 185.158 
+Disponibilidades ajustadas 51.847 48.566 6,8 74.880 
+Dívida Líquida 319.590 321.748 (0,7) 256.593
+
+[p. 15]
+Relatório de Desempenho 2T25 I 15
+RESULTADOS POR 
+SEGMENTO 
+Resultados por segmento de negócio
+Exploração e Produção 
+Tabela 7 - Resultado da Exploração e Produção 
+Variação (%) (*) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Receita de vendas 81.606 88.169 81.779 169.775 161.423 (7,4) (0,2) 5,2 
+Lucro bruto 44.196 48.454 49.219 92.650 96.103 (8,8) (10,2) (3,6) 
+Despesas operacionais (10.534) (4.286) (8.200) (14.820) (11.317) 145,8 28,5 31,0 
+Lucro (Prejuízo) operacional 33.662 44.168 41.019 77.830 84.786 (23,8) (17,9) (8,2) 
+Lucro (Prejuízo) - Acionistas Petrobras 22.458 29.232 27.227 51.690 56.202 (23,2) (17,5) (8,0) 
+EBITDA ajustado do segmento 50.725 58.389 52.319 109.114 107.715 (13,1) (3,0) 1,3 
+Margem do EBITDA do segmento (%) 62 66 64 64 67 (4) (2) (2) 
+ROCE (Retorno sobre o Capital Empregado) (%) 9,2 10,1 14,2 9,2 14,2 (0,9) (5,0) (5,0) 
+Brent médio (US$/bbl) 67,82 75,66 84,94 71,74 84,09 (10,4) (20,2) (14,7) 
+Participações governamentais Brasil 14.462 16.398 15.393 30.860 30.158 (11,8) (6,0) 2,3 
+ Royalties 9.479 10.565 9.601 20.044 18.869 (10,3) (1,3) 6,2 
+ Participação Especial 4.934 5.784 5.744 10.718 11.195 (14,7) (14,1) (4,3) 
+ Retenção de área 49 49 48 98 94 − 2,1 4,3 
+Lifting cost Brasil (US$/boe) 5,96 6,79 6,05 6,36 6,05 (12,3) (1,5) 5,2 
+Pré-Sal 3,83 4,45 3,87 4,13 3,93 (13,9) (0,9) 5,1 
+Pós-Sal Profundo e Ultra Profundo 17,10 18,29 16,62 17,70 15,87 (6,5) 2,9 11,6 
+Terra e Águas Rasas 17,52 16,97 16,83 17,25 16,58 3,3 4,1 4,0 
+Lifting cost + Afretamento 8,82 9,49 8,49 9,15 8,46 (7,0) 3,9 8,1 
+Pré-Sal 6,64 7,08 6,26 6,85 6,27 (6,3) 6,0 9,3 
+Pós-Sal Profundo e Ultra Profundo 20,88 21,86 19,90 21,38 19,15 (4,5) 4,9 11,6 
+Terra e Águas Rasas 17,52 16,97 16,83 17,25 16,58 3,3 4,1 4,0 
+Lifting cost + Participações governamentais 17,30 20,07 20,16 18,64 20,10 (13,8) (14,2) (7,3) 
+Lifting cost + Participações governamentais + 
+Afretamento 20,16 22,77 22,61 21,42 22,51 (11,5) (10,8) (4,8) 
+(*) Variações de margem EBITDA e ROCE em pontos percentuais. 
+No 2T25, o lucro bruto do E&P foi de R$ 44,2 bilhões, uma redução de 8,8% quando comparado ao do 1T25, 
+cujo resultado foi de R$ 48,5 bilhões. Essa redução se deu, principalmente, em função da queda na cotação 
+do Brent , tendo sido parcialmente compensad a pelo aumento da produção no período e pela menor 
+participação governamental. 
+O lucro operacional no 2T25 foi de R$ 33,7 bilhões, 2 3,8% inferior ao do 1T25. Essa redução foi causada, 
+principalmente, pelo aumento das despesas, decorrente da provisão da equalização de gastos e volumes 
+associada à aprovação do AIP (Acordo de Individualização da Produção) de Jubarte ocorrida no 2T25.
+
+[p. 16]
+Relatório de Desempenho 2T25 I 16
+RESULTADOS POR 
+SEGMENTO 
+O lifting cost apurado no 2T25, sem participação governamental e sem afretamento, foi de US$ 5,96/boe, 
+representando uma redução de 12,3% em comparação com o do 1T25 (US$ 6,79/boe). Esta redução se deu 
+tanto em campos das camadas Pré e Pós-Sal, tendo sido causada por menores gastos em intervenções em 
+poços, pela redução nos gastos com inspeções submarinas e pela queda nos gastos com apoio logístico. O 
+aumento da produção também contribuiu para a redução do indicador. Todavia, esses efeitos foram 
+parcialmente compensados pela valorização de 3% do real frente ao dólar. 
+No Pré-sal, houve redução de 13,9% no lifting cost, explicado pelos menores gastos em intervenções em 
+poços no campo de Búzios, redução nos gastos com inspeções submarinas nos campos de Atapu, Sapinhoá 
+e Sépia, além de queda nos gastos com apoio logístico. Contribuiu também o aumento da produção, 
+principalmente devido ao ramp-up das plataformas FPSOs Almirante Tamandaré (Búzios), Maria Quitéria 
+(Jubarte) e Marechal Duque de Caxias (Mero), e à entrada em operação do FPSO Alexandre de Gusmão 
+(Mero) e de novos poços na Bacia de Santos. Esses efeitos foram parcialmente compensados pela 
+valorização de 3% do real frente ao dólar. 
+No Pós -sal, houve redução de 6,5% no lifting cost , explicado por menores gastos em função da menor 
+atividade em intervenções em poços e inspeções submarinas nos campos de Roncador e Barracuda, além 
+de queda nos gastos com apoio logístico. Todavia, observou -se maiores volumes de perdas por paradas 
+para manutenções e declínio natural dos campos, associado a valorização de 3% do real frente ao dólar. 
+Nos ativos de Terra e Águas Rasas, houve aumento de 3,3% no lifting cost. Esse aumento foi resultado do 
+retorno gradual da produção em Manati no 2T25, que apresenta custos operacionais unitários mais 
+elevados, associado ao incremento gerado pela valorização de 3% do real frente ao dólar.
+
+[p. 17]
+Relatório de Desempenho 2T25 I 17
+RESULTADOS POR 
+SEGMENTO 
+Refino, Transporte e Comercialização 
+Tabela 8 - Resultados do RTC 
+Variação (%) (1) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Receita de vendas 112.104 116.819 114.935 228.923 224.840 (4,0) (2,5) 1,8 
+Lucro bruto 6.814 7.053 7.825 13.867 18.759 (3,4) (12,9) (26,1) 
+Despesas operacionais (4.916) (4.296) (3.660) (9.212) (7.803) 14,4 34,3 18,1 
+Lucro (Prejuízo) operacional 1.898 2.757 4.165 4.655 10.956 (31,2) (54,4) (57,5) 
+Lucro (Prejuízo) - Acionistas Petrobras 1.200 2.155 1.426 3.355 5.263 (44,3) (15,8) (36,3) 
+EBITDA ajustado do segmento 6.078 6.234 7.053 12.312 16.928 (2,5) (13,8) (27,3) 
+Margem do EBITDA do segmento (%) 5 5 6 5 8 − (1) (2) 
+ROCE (Retorno sobre o Capital Empregado) (%) 0,7 1,2 4,6 0,7 4,6 (0,5) (3,9) (3,9) 
+Custo do refino (US$/barril) - Brasil 2,96 2,62 2,63 2,79 2,63 13,0 12,5 6,1 
+Custo do refino (R$/barril) - Brasil 16,70 15,21 13,88 15,96 13,46 9,8 20,3 18,6 
+Preço derivados básicos - Mercado Interno 
+(R$/bbl) 469,89 505,84 476,25 487,68 476,20 (7,1) (1,3) 2,4 
+(1) Variações de margem EBITDA e ROCE em pontos percentuais. 
+O lucro bruto do 2T25 foi R$ 239 milhões menor que o do 1T25. Considerando o efeito do giro dos estoques 
+de R$ 1,87 bilhão no 2T25 e -R$ 1,75 bilhão no 1T25, o lucro bruto teria sido de R$ 8,7 bilhões no 2T25 e R$ 
+5,3 bilhões no 1T25. 
+Houve crescimento no volume de vendas, principalmente gasolina, devido à maior competitividade frente 
+ao etanol, e GLP, em função da sazonalidade típica do segundo trimestre com temperaturas mais baixas. 
+O resultado operacional no 2T25 foi menor que no 1T25, reflexo do aumento das despesas com vendas, 
+devido ao maior volume de exportações de petróleo. 
+O custo unitário de refino, em reais, no 2T25 foi 9,8% superior ao registrado no 1T25, devido principalmente 
+ao aumento de 11% nos custos absolutos de materiais e serviços de manutenção. Houve compensação 
+parcial pelo retorno da parada programada da RNEST, que contribuiu para o aumento de 1,3% na carga 
+processada do 2T25.
+
+[p. 18]
+Relatório de Desempenho 2T25 I 18
+RESULTADOS POR 
+SEGMENTO 
+Gás e Energias de Baixo Carbono 
+Tabela 9 - Resultados do Gás e Energias de Baixo Carbono 
+Variação (%) (1) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Receita de vendas 12.320 10.867 11.449 23.187 23.438 13,4 7,6 (1,1) 
+Lucro bruto 5.845 4.307 5.728 10.152 11.879 35,7 2,0 (14,5) 
+Despesas operacionais (5.164) (4.551) (4.531) (9.715) (8.937) 13,5 14,0 8,7 
+Lucro (Prejuízo) operacional 681 (244) 1.197 437 2.942 − (43,1) (85,1) 
+Lucro (Prejuízo) - Acionistas Petrobras 504 (130) 920 374 2.111 − (45,2) (82,3) 
+EBITDA ajustado do segmento 1.347 524 1.911 1.871 4.316 157,1 (29,5) (56,6) 
+Margem do EBITDA do segmento (%) (1) 11 5 17 8 18 6 (6) (10)
+ROCE (Retorno sobre o Capital Empregado) (%) (1) 1,1 1,8 8,4 1,1 8,4 (0,7) (7,3) (7,3) 
+Preço de venda gás natural - Brasil (US$/bbl) 58,65 56,75 63,69 57,73 65,88 3,3 (7,9) (12,4) 
+Preço de venda gás natural - Brasil (US$/MMBtu) 9,89 9,57 10,74 9,73 11,11 3,3 (7,9) (12,4) 
+Receita fixa de leilões (2)(3) 170 169 320 339 638 0,6 (46,9) (46,9) 
+Preço médio de venda de energia elétrica (R$/MWh) 
+(2)(3) 201,95 237,71 146,45 217,57 201,63 (15,0) 37,9 7,9 
+(1) Variações de margem EBITDA e ROCE em pontos percentuais. 
+(2) A Receita fixa de leilões considera as parcelas da remuneração da disponibilidade térmica e da energia elétrica inflexível comprometida em 
+leilão. 
+(3) Para o período corrente, os valores referentes ao segmento de Energia estão sujeitos a eventuais alterações a partir da emissão do relatório 
+definitivo da Câmara de Comercialização de Energia Elétrica - CCEE. 
+No 2T25, o lucro bruto aumentou 35,7% em relação ao do 1T25 devido principalmente: i) ao aumento das 
+vendas de gás natural, em decorrência do incremento da participação da Petrobras no mercado livre, 
+atuando com um portfólio de produtos mais competitivos e buscando a fidelização da carteira de clientes; 
+ii) ao maior processamento de gás nacional em função do incremento da oferta de gás natural oriundo das
+novas infraestruturas associadas à Rota 3 do Pré-Sal e; iii) à redução dos custos com importações, por conta 
+do maior volume de gás nacional na composição do mix de oferta, substituindo o gás importado. 
+O crescimento do lucro bruto impactou positivamente o resultado operacional, apesar das maiores 
+despesas operacionais.
+
+[p. 19]
+Relatório de Desempenho 2T25 I 19
+RECONCILIAÇÃO DO 
+EBITDA AJUSTADO 
+Reconciliação do EBITDA Ajustado 
+O EBITDA é um indicador calculado como sendo o lucro líquido do período acrescido dos tributos sobre o 
+lucro, do resultado financeiro líquido, da depreciação e da amortização. A Petrobras divulga o EBITDA, 
+conforme faculta a Resolução CVM Nº 156, de junho de 2022. 
+Visando refletir a visão dos Administradores quanto à formação do resultado das atividades correntes da 
+companhia, o EBITDA também é apresentado ajustado (EBITDA Ajustado) por: resultado da participação em 
+investimentos, impairment, resultados com acordo de coparticipação em áreas licitadas e o resultado com 
+alienação e baixa de ativos. 
+O EBITDA Ajustado, quando refletindo o somatório dos últimos 12 meses, também representa uma 
+alternativa à geração operacional de caixa da companhia. Esta medida é utilizada para cálculo da métrica 
+Dívida bruta e Dívida líquida sobre EBITDA Ajustado, auxiliando na avaliação da alavancagem e liquidez da 
+companhia. 
+O EBITDA e o EBITDA Ajustado não estão previstos nas normas internacionais de relatório-financeiro – IFRS 
+Accounting Standards, e não devem, portanto, servir como base de comparação com os divulgados por 
+outras empresas, assim como não devem ser considerad os como substitutos a qualquer outra medida 
+calculada de acordo com o IFRS Accounting Standards. 
+Sendo assim, estas duas medidas devem ser consideradas em conjunto com outras métricas e indicadores 
+para um melhor entendimento sobre o desempenho e condições financeiras da companhia. 
+Tabela 10 - Reconciliação do EBITDA Ajustado 
+Variação (%) (*) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Lucro (prejuízo) líquido do período 26.774 35.331 (2.515) 62.105 21.295 (24,2) − 191,6 
+Resultado Financeiro Líquido (5.572) (10.595) 36.396 (16.167) 45.975 (47,4) − − 
+Imposto de renda e contribuição social 9.266 18.304 (338) 27.570 10.300 (49,4) − 167,7 
+Depreciação, depleção e amortização 20.952 18.976 16.361 39.928 33.009 10,4 28,1 21,0 
+EBITDA 51.420 62.016 49.904 113.436 110.579 (17,1) 3,0 2,6 
+Resultado de participações em investimentos (254) (495) 996 (749) 1.453 (48,7) − − 
+Reversão/Perda no valor de recuperação de 
+ativos - Impairment 1.056 290 (201) 1.346 (246) 264,1 − − 
+Resultado com alienações e baixas de ativos (78) (324) (663) (402) (1.469) (75,9) (88,2) (72,6)
+Resultado com acordo de coparticipação em 
+áreas licitadas 113 (403) (296) (290) (533) − − (45,6)
+EBITDA Ajustado total 52.257 61.084 49.740 113.341 109.784 (14,5) 5,1 3,2 
+Margem do EBITDA Ajustado (%) 44 50 41 47 46 (6,0) 3,3 1,0 
+(*) Variações de Margem EBITDA em pontos percentuais.
+
+[p. 20]
+Relatório de Desempenho 2T25 I 20
+ANEXOS 
+Anexos
+Demonstrações financeiras 
+Tabela 11 - Demonstração do resultado – Consolidado 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 
+Receita de vendas 119.128 123.144 122.258 242.272 239.979 
+Custo dos produtos e serviços vendidos (62.449) (62.435) (61.211) (124.884) (118.231) 
+Lucro bruto 56.679 60.709 61.047 117.388 121.748 
+Vendas (7.283) (6.376) (6.612) (13.659) (13.218) 
+Gerais e administrativas (2.627) (2.592) (2.874) (5.219) (5.090) 
+Custos exploratórios para extração de petróleo e gás (1.050) (1.811) (913) (2.861) (1.583) 
+Custos com pesquisa e desenvolvimento tecnológico (1.095) (1.179) (1.008) (2.274) (1.916) 
+Tributárias (722) (722) (5.079) (1.444) (5.774) 
+Reversão (Perda) líquida no valor de recuperação de ativos - 
+Impairment (1.056) (290) 201 (1.346) 246 
+Outras receitas (despesas), operacionais líquidas (12.632) (5.194) (10.223) (17.826) (15.390) 
+(26.465) (18.164) (26.508) (44.629) (42.725) 
+Lucro antes do resultado financeiro, participações e 
+impostos 
+30.214 42.545 34.539 72.759 79.023 
+Receitas financeiras 1.955 1.737 2.488 3.692 5.224 
+Despesas financeiras (6.030) (5.744) (15.631) (11.774) (20.941) 
+Var. monetárias e cambiais, líquidas 9.647 14.602 (23.253) 24.249 (30.258) 
+Resultado financeiro líquido 5.572 10.595 (36.396) 16.167 (45.975) 
+Resultado de participações em investidas por equivalência 
+patrimonial 254 495 (996) 749 (1.453) 
+Lucro (Prejuízo) antes dos tributos sobre o lucro 36.040 53.635 (2.853) 89.675 31.595 
+Imposto de renda e contribuição social (9.266) (18.304) 338 (27.570) (10.300) 
+Lucro (prejuízo) líquido do período 26.774 35.331 (2.515) 62.105 21.295 
+Atribuível aos: 
+Acionistas Petrobras 26.652 35.209 (2.605) 61.861 21.095 
+Acionistas não controladores 122 122 90 244 200
+
+[p. 21]
+Relatório de Desempenho 2T25 I 21
+ANEXOS 
+Tabela 12 - Balanço patrimonial – Consolidado 
+ATIVO - R$ milhões 30.06.2025 31.12.2024 
+Circulante 135.859 135.212 
+Caixa e equivalentes de caixa 38.177 20.254 
+Títulos e valores mobiliários 13.670 26.397 
+Contas a receber, líquidas 18.474 22.080 
+Estoques 44.927 41.550 
+Impostos e contribuições 10.055 12.175 
+Ativos classificados como mantidos para venda 2.842 3.157 
+Outros ativos circulantes 7.714 9.599 
+Não Circulante 1.039.031 989.585 
+Realizável a Longo Prazo 128.585 127.626 
+Contas a receber, líquidas 4.685 7.777 
+Títulos e valores mobiliários 280 3.605 
+Depósitos judiciais 78.029 72.745 
+Imposto de renda e contribuição social diferidos 5.483 5.710 
+Impostos e contribuições 23.913 22.301 
+Outros ativos realizáveis a longo prazo 16.195 15.488 
+Investimentos 4.243 4.081 
+Imobilizado 892.931 843.917 
+Intangível 13.272 13.961 
+Total do Ativo 1.174.890 1.124.797 
+3 4 5 
+PASSIVO - R$ milhões 30.06.2025 31.12.2024 
+Circulante 179.180 194.808 
+Fornecedores 34.374 37.659 
+Financiamentos 13.508 15.887 
+Arrendamentos 50.590 52.896 
+Impostos e contribuições 22.969 29.007 
+Dividendos propostos 11.067 16.452 
+Provisão para desmantelamento de áreas 13.720 10.500 
+Benefícios a empregados 14.947 14.337 
+Passivos associados a ativos mantidos para venda 3.940 4.418 
+Outras contas e despesas a pagar 14.065 13.652 
+Não Circulante 593.928 562.475 
+Financiamentos 127.240 127.539 
+Arrendamentos 180.099 177.145 
+Imposto de renda e contribuição social correntes 3.227 3.284 
+Imposto de renda e contribuição social diferidos 41.485 9.100 
+Benefícios a empregados 67.935 66.082 
+Provisão para processos judiciais e administrativos 15.771 17.543
+
+[p. 22]
+Relatório de Desempenho 2T25 I 22
+ANEXOS 
+Provisão para desmantelamento de áreas 148.555 151.753 
+Outras contas e despesas a pagar 9.616 10.029 
+Patrimônio Líquido 401.782 367.514 
+Atribuível aos acionistas da Petrobras 399.222 366.006 
+Capital subscrito e integralizado 205.432 205.432 
+Reserva de capital, transações de capital e ações em tesouraria 3.106 (2.457) 
+Reservas de lucros 80.485 95.193 
+Lucros acumulados 50.413 − 
+Outros resultados abrangentes 59.786 67.838 
+Atribuível aos acionistas não controladores 2.560 1.508 
+Total do passivo 1.174.890 1.124.797
+
+[p. 23]
+Relatório de Desempenho 2T25 I 23 
+ 
+ANEXOS 
+Tabela 13 - Demonstração do fluxo de caixa – Consolidado 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 
+Fluxo de caixa das atividades operacionais 
+Lucro líquido (prejuízo) do período 26.774 35.331 (2.515) 62.105 21.295 
+Ajustes para: 
+Resultado atuarial de planos de pensão e saúde 2.435 2.436 9.100 4.871 11.245 
+Resultado de participações em investidas por equivalência 
+patrimonial (254) (495) 996 (749) 1.453 
+Depreciação, depleção e amortização 20.952 18.976 16.361 39.928 33.009 
+Perda (reversão), líquida, no valor de recuperação de ativos 
+- Impairment 1.056 290 (201) 1.346 (246) 
+Ajuste a valor realizável líquido (2) 37 1 35 (215) 
+Perdas (reversões), líquidas, de crédito esperadas 315 (112) 98 203 249 
+Baixa de poços 1 1.202 294 1.203 542 
+Resultado com alienações e baixas de ativos (78) (324) (663) (402) (1.469) 
+Variações cambiais, monetárias e encargos financeiros não 
+realizados (6.915) (11.810) 37.314 (18.725) 46.875 
+Imposto de renda e contribuição social 9.266 18.304 (338) 27.570 10.300 
+Revisão e atualização financeira de desmantelamento de 
+áreas 1.865 1.870 1.349 3.735 2.734 
+Resultado com acordo de coparticipação em áreas licitadas 113 (403) (296) (290) (533) 
+Encerramento antecipado e alterações em pagamentos de 
+contratos de arrendamento (800) (905) (417) (1.705) (759) 
+Perdas (Ganhos) com processos judiciais, administrativos e 
+arbitrais 711 1.163 1.277 1.874 2.675 
+Equalização de gastos - AIP 3.849 23 77 3.872 127 
+Redução (aumento) de ativos 
+Contas a receber (346) 962 4.263 616 7.176 
+Estoques (2.776) (2.126) 1.359 (4.902) (1.756) 
+Depósitos judiciais (1.456) (1.061) 4.660 (2.517) 3.236 
+Outros ativos (1.072) 2.249 (549) 1.177 (366) 
+Aumento (redução) de passivos 
+Fornecedores 2.582 (3.266) (932) (684) 1.043 
+Impostos e contribuições (3.526) 987 (7.066) (2.539) (9.596) 
+Planos de pensão e de saúde (1.741) (1.257) (1.448) (2.998) (2.454) 
+Provisão para processos judiciais e administrativos (980) (2.211) (638) (3.191) (1.027) 
+Outros benefícios a empregados (34) 636 (1.573) 602 (1.865) 
+Provisão para desmantelamento de áreas (1.362) (1.073) (1.043) (2.435) (2.347) 
+Outros passivos 190 (299) (1.391) (109) (1.786) 
+Imposto de renda e contribuição social pagos (6.343) (9.786) (10.909) (16.129) (23.889) 
+Recursos líquidos gerados pelas atividades operacionais 42.424 49.338 47.170 91.762 93.651 
+Fluxo de caixa das atividades de investimentos 
+Aquisições de ativos imobilizados e intangíveis (23.170) (23.297) (15.260) (46.467) (29.309) 
+Reduções (adições) em investimentos (9) (1) (29) (10) (33) 
+Recebimentos pela venda de ativos - Desinvestimentos 91 2.729 1.011 2.820 3.812
+
+[p. 24]
+Relatório de Desempenho 2T25 I 24 
+ 
+ANEXOS 
+Compensação financeira por Acordos de Coparticipação − 2.140 − 2.140 1.951 
+Resgates (investimentos) em títulos e valores mobiliários 8.419 8.149 3.612 16.568 (3.648) 
+Dividendos recebidos 104 45 205 149 326 
+Recursos líquidos gerados (utilizados) nas atividades de 
+investimentos (14.565) (10.235) (10.461) (24.800) (26.901) 
+Fluxo de caixa das atividades de financiamentos 
+Participação de acionistas não controladores 678 246 174 924 637 
+Financiamentos e operações de mútuo, líquidos: 
+Captações 14.508 3.009 3.047 17.517 3.055 
+Amortizações de principal - financiamentos (6.185) (2.777) (6.728) (8.962) (11.734) 
+Amortizações de juros - financiamentos (2.018) (2.948) (2.085) (4.966) (5.017) 
+Amortizações de arrendamentos (12.878) (12.237) (10.256) (25.115) (19.760) 
+Dividendos pagos a acionistas da Petrobras (9.567) (16.587) (37.454) (26.154) (54.636) 
+Recompra de ações − − (772) − (1.919) 
+Dividendos pagos a acionistas não controladores (31) (150) (104) (181) (386) 
+Recursos líquidos gerados (utilizados) pelas atividades de 
+financiamentos (15.493) (31.444) (54.178) (46.937) (89.760) 
+Efeito de variação cambial sobre caixa e equivalentes de 
+caixa (1.149) (953) 3.609 (2.102) 5.226 
+Aumento (redução) de caixa e equivalentes de caixa no 
+período 11.217 6.706 (13.860) 17.923 (17.784) 
+Caixa e equivalentes de caixa no início do período 26.960 20.254 57.689 20.254 61.613 
+Caixa e equivalentes de caixa no fim do período 38.177 26.960 43.829 38.177 43.829
+
+[p. 25]
+Relatório de Desempenho 2T25 I 25 
+ 
+ANEXOS 
+Tabela 14 - Receita líquida por produtos 
+ Variação (%) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Diesel 35.010 38.360 36.396 73.370 71.447 (8,7) (3,8) 2,7 
+Gasolina 17.415 17.340 16.015 34.755 31.883 0,4 8,7 9,0 
+Gás liquefeito de petróleo (GLP) 5.004 4.282 4.134 9.286 7.890 16,9 21,0 17,7 
+Querosene de aviação (QAV) 5.718 6.566 5.980 12.284 11.845 (12,9) (4,4) 3,7 
+Nafta 2.408 2.396 2.521 4.804 4.639 0,5 (4,5) 3,6 
+Óleo combustível (incluindo bunker) 750 967 1.213 1.717 2.915 (22,4) (38,2) (41,1) 
+Outros derivados de petróleo 5.494 5.440 5.596 10.934 10.643 1,0 (1,8) 2,7 
+Subtotal de derivados de petróleo 71.799 75.351 71.855 147.150 141.262 (4,7) (0,1) 4,2 
+Gás Natural 5.514 5.162 5.918 10.676 12.464 6,8 (6,8) (14,3) 
+Petróleo 6.064 8.208 5.502 14.272 11.590 (26,1) 10,2 23,1 
+Renováveis e nitrogenados 235 310 227 545 383 (24,2) 3,5 42,3 
+Receitas de direitos não exercidos 308 284 632 592 1.324 8,5 (51,3) (55,3) 
+Energia elétrica 835 810 543 1.645 1.174 3,1 53,8 40,1 
+Serviços, agenciamento e outros 1.031 968 1.052 1.999 2.275 6,5 (2,0) (12,1) 
+Total mercado interno 85.786 91.093 85.729 176.879 170.472 (5,8) 0,1 3,8 
+Exportações 32.154 31.405 35.053 63.559 66.743 2,4 (8,3) (4,8) 
+Petróleo 25.213 22.303 26.813 47.516 51.131 13,0 (6,0) (7,1) 
+Óleo combustível (incluindo bunker) 6.182 6.914 5.859 13.096 12.413 (10,6) 5,5 5,5 
+Outros derivados de petróleo e outros 
+produtos 759 2.188 2.381 2.947 3.199 (65,3) (68,1) (7,9) 
+Vendas no exterior (*) 1.188 646 1.476 1.834 2.764 83,9 (19,5) (33,6) 
+Total mercado externo 33.342 32.051 36.529 65.393 69.507 4,0 (8,7) (5,9) 
+Total 119.128 123.144 122.258 242.272 239.979 (3,3) (2,6) 1,0 
+(*) Receita proveniente de vendas realizadas no exterior, incluindo trading e excluídas exportações.
+
+[p. 26]
+Relatório de Desempenho 2T25 I 26 
+ 
+ANEXOS 
+Tabela 15 - Custo dos produtos vendidos (1F*) 
+ Variação (%) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Matérias-primas, produtos para 
+revenda, materiais e serviços 
+contratados(*) 
+(29.716) (29.777) (27.940) (59.493) (57.319) (0,2) 6,4 3,8 
+Compras e importações (20.093) (20.899) (20.135) (40.992) (41.467) (3,9) (0,2) (1,1) 
+Petróleo (9.984) (12.354) (13.255) (22.338) (24.177) (19,2) (24,7) (7,6) 
+Derivados (8.974) (6.942) (5.201) (15.916) (13.436) 29,3 72,5 18,5 
+Gás natural (1.135) (1.603) (1.679) (2.738) (3.854) (29,2) (32,4) (29,0) 
+Serviços e outros (9.623) (8.878) (7.805) (18.501) (15.852) 8,4 23,3 16,7 
+Depreciação, depleção e amortização (17.023) (14.692) (12.630) (31.715) (25.742) 15,9 34,8 23,2 
+Participação governamental (14.475) (16.409) (15.175) (30.884) (30.182) (11,8) (4,6) 2,3 
+Gastos com pessoal (2.435) (2.337) (3.165) (4.772) (5.352) 4,2 (23,1) (10,8) 
+Variação dos estoques 1.200 780 (2.301) 1.980 364 53,8 − 444,0 
+Total (62.449) (62.435) (61.211) (124.884) (118.231) 0,0 2,0 5,6 
+(*) Inclui arrendamentos de curto prazo. 
+ 
+ 
+— 
+(*) Elaboração gerencial (não revisado).
+
+[p. 27]
+Relatório de Desempenho 2T25 I 27 
+ 
+ANEXOS 
+Tabela 16 - Despesas operacionais 
+ Variação (%) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Despesas com vendas e gerais e 
+administrativas (9.910) (8.968) (9.486) (18.878) (18.308) 10,5 4,5 3,1 
+Vendas (7.283) (6.376) (6.612) (13.659) (13.218) 14,2 10,1 3,3 
+Materiais, serviços, fretes, aluguéis e 
+outros (6.067) (5.240) (5.570) (11.307) (11.119) 15,8 8,9 1,7 
+Depreciação, depleção e amortização (965) (984) (870) (1.949) (1.725) (1,9) 10,9 13,0 
+Reversão (perdas) de créditos 
+esperadas (77) 24 11 (53) (40) − − 32,5 
+Gastos com pessoal (174) (176) (183) (350) (334) (1,1) (4,9) 4,8 
+Gerais e administrativas (2.627) (2.592) (2.874) (5.219) (5.090) 1,4 (8,6) 2,5 
+Gastos com pessoal (1.498) (1.548) (1.916) (3.046) (3.363) (3,2) (21,8) (9,4) 
+Materiais, serviços, aluguéis e outros (868) (815) (762) (1.683) (1.356) 6,5 13,9 24,1 
+Depreciação, depleção e amortização (261) (229) (196) (490) (371) 14,0 33,2 32,1 
+Despesas exploratórias para extração de 
+petróleo e gás (1.050) (1.811) (913) (2.861) (1.583) (42,0) 15,0 80,7 
+Despesa com pesquisa e desenvolvimento 
+tecnológico (1.095) (1.179) (1.008) (2.274) (1.916) (7,1) 8,6 18,7 
+Tributárias (722) (722) (5.079) (1.444) (5.774) − (85,8) (75,0) 
+Reversão (Perda) líquida no valor de 
+recuperação de ativos - Impairment (1.056) (290) 201 (1.346) 246 264,1 − − 
+Outras receitas (despesas), operacionais 
+líquidas (12.632) (5.194) (10.223) (17.826) (15.390) 143,2 23,6 15,8 
+Total (26.465) (18.164) (26.508) (44.629) (42.725) 45,7 (0,2) 4,5
+
+[p. 28]
+Relatório de Desempenho 2T25 I 28 
+ 
+ANEXOS 
+Tabela 17 - Resultado financeiro 
+ Variação (%) 
+R$ milhões 2T25 1T25 2T24 1S25 1S24 2T25 X 
+1T25 
+2T25 X 
+2T24 
+1S25 X 
+1S24 
+Receitas Financeiras 1.955 1.737 2.488 3.692 5.224 12,6 (21,4) (29,3) 
+Receita com aplicações financeiras e títulos 
+públicos 1.276 1.305 1.981 2.581 4.121 (2,2) (35,6) (37,4) 
+Outros 679 432 507 1.111 1.103 57,2 33,9 0,7 
+Despesas Financeiras (6.030) (5.744) (15.631) (11.774) (20.941) 5,0 (61,4) (43,8) 
+Despesas com financiamentos (2.926) (2.722) (2.705) (5.648) (5.449) 7,5 8,2 3,7 
+Despesas com arrendamentos (3.699) (3.633) (2.905) (7.332) (5.613) 1,8 27,3 30,6 
+Encargos financeiros capitalizados 2.642 2.624 1.996 5.266 3.857 0,7 32,4 36,5 
+Atualização financeira da provisão de 
+desmantelamento (1.861) (1.861) (1.345) (3.722) (2.692) − 38,4 38,3 
+Adesão à Transação Tributária − − (10.399) − (10.399) − − − 
+Outros (186) (152) (273) (338) (645) 22,4 (31,9) (47,6) 
+Variações monetárias e cambiais, líquidas 9.647 14.602 (23.253) 24.249 (30.258) (33,9) − − 
+Variações cambiais 11.343 18.131 (18.683) 29.474 (23.026) (37,4) − − 
+Real x Dólar 11.965 18.361 (18.667) 30.326 (23.166) (34,8) − − 
+Outras moedas (622) (230) (16) (852) 140 170,4 3787,5 − 
+Reclassificação do hedge accounting (2.824) (4.228) (3.126) (7.052) (6.578) (33,2) (9,7) 7,2 
+Adesão à Transação Tributária − − (1.184) − (1.184) − − − 
+Atualização monetária de dividendos 
+antecipados e dividendos a pagar (500) (376) (1.634) (876) (1.980) 33,0 (69,4) (55,8) 
+Atualização monetária de impostos a recuperar 573 336 (787) 909 (542) 70,5 − − 
+Outros 1.055 739 2.161 1.794 3.052 42,8 (51,2) (41,2) 
+Total 5.572 10.595 (36.396) 16.167 (45.975) (47,4) − −
+
+[p. 29]
+Relatório de Desempenho 2T25 I 29 
+ 
+ANEXOS 
+Informações contábeis por segmento de negócio 
+Tabela 18 - Demonstração consolidada do resultado por segmento de negócio – 1S25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 169.775 228.923 23.187 900 (180.513) 242.272 
+Intersegmentos 169.115 3.147 8.236 15 (180.513) − 
+Terceiros 660 225.776 14.951 885 − 242.272 
+Custo dos produtos e serviços vendidos (77.125) (215.056) (13.035) (795) 181.127 (124.884) 
+Lucro bruto 92.650 13.867 10.152 105 614 117.388 
+Despesas (14.820) (9.212) (9.715) (10.882) − (44.629) 
+Vendas (2) (5.485) (8.090) (82) − (13.659) 
+Gerais e administrativas (174) (1.058) (332) (3.655) − (5.219) 
+Custos exploratórios p/ extração de petróleo e 
+gás (2.861) − − − − (2.861) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (1.787) (17) (18) (452) − (2.274) 
+Tributárias (62) (152) (39) (1.191) − (1.444) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment (1.091) (252) (3) − − (1.346) 
+Outras receitas (despesas) operacionais líquidas (8.843) (2.248) (1.233) (5.502) − (17.826) 
+Lucro (prejuízo) antes do resultado financeiro, 
+das participações e impostos 77.830 4.655 437 (10.777) 614 72.759 
+Resultado financeiro líquido − − − 16.167 − 16.167 
+Resultado de participações em investidas por 
+equivalência patrimonial 315 283 183 (32) − 749 
+Lucro (prejuízo) antes dos impostos 78.145 4.938 620 5.358 614 89.675 
+Imposto de renda e contribuição social (26.462) (1.583) (149) 833 (209) (27.570) 
+Lucro líquido (prejuízo) 51.683 3.355 471 6.191 405 62.105 
+Atribuível aos: 
+Acionistas da Petrobras 51.690 3.355 374 6.037 405 61.861 
+Acionistas não controladores (7) − 97 154 − 244
+
+[p. 30]
+Relatório de Desempenho 2T25 I 30 
+ 
+ANEXOS 
+Tabela 19 - Demonstração consolidada do resultado por segmento de negócio – 1S24 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 161.423 224.840 23.438 797 (170.519) 239.979 
+Intersegmentos 160.505 2.792 7.206 16 (170.519) − 
+Terceiros 918 222.048 16.232 781 − 239.979 
+Custo dos produtos e serviços vendidos (65.320) (206.081) (11.559) (744) 165.473 (118.231) 
+Lucro bruto 96.103 18.759 11.879 53 (5.046) 121.748 
+Despesas (11.317) (7.803) (8.937) (14.668) − (42.725) 
+Vendas (6) (5.535) (7.608) (69) − (13.218) 
+Gerais e administrativas (214) (901) (321) (3.654) − (5.090) 
+Custos exploratórios p/ extração de petróleo e 
+gás (1.583) − − − − (1.583) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (1.455) (13) (8) (440) − (1.916) 
+Tributárias (4.453) (145) (42) (1.134) − (5.774) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment (21) 201 − 66 − 246 
+Outras receitas (despesas) operacionais líquidas (3.585) (1.410) (958) (9.437) − (15.390) 
+Lucro (prejuízo) antes do resultado financeiro, 
+das participações e impostos 84.786 10.956 2.942 (14.615) (5.046) 79.023 
+Resultado financeiro líquido − − − (45.975) − (45.975) 
+Resultado de participações em investidas por 
+equivalência patrimonial 235 (1.968) 297 (17) − (1.453) 
+Lucro (prejuízo) antes dos impostos 85.021 8.988 3.239 (60.607) (5.046) 31.595 
+Imposto de renda e contribuição social (28.827) (3.725) (1.000) 21.536 1.716 (10.300) 
+Lucro líquido (prejuízo) 56.194 5.263 2.239 (39.071) (3.330) 21.295 
+Atribuível aos: 
+Acionistas da Petrobras 56.202 5.263 2.111 (39.151) (3.330) 21.095 
+Acionistas não controladores (8) − 128 80 − 200
+
+[p. 31]
+Relatório de Desempenho 2T25 I 31 
+ 
+ANEXOS 
+Tabela 20 - Demonstração consolidada do resultado por segmento de negócio – 2T25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 81.606 112.104 12.320 449 (87.351) 119.128 
+Intersegmentos 81.266 1.451 4.626 8 (87.351) − 
+Terceiros 340 110.653 7.694 441 − 119.128 
+Custo dos produtos e serviços vendidos (37.410) (105.290) (6.475) (394) 87.120 (62.449) 
+Lucro bruto 44.196 6.814 5.845 55 (231) 56.679 
+Despesas (10.534) (4.916) (5.164) (5.851) − (26.465) 
+Vendas − (2.933) (4.259) (91) − (7.283) 
+Gerais e administrativas (147) (549) (177) (1.754) − (2.627) 
+Custos exploratórios p/ extração de petróleo e 
+gás (1.050) − − − − (1.050) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (842) (9) (9) (235) − (1.095) 
+Tributárias (38) (79) (29) (576) − (722) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment (778) (275) (3) − − (1.056) 
+Outras receitas (despesas) operacionais líquidas (7.679) (1.071) (687) (3.195) − (12.632) 
+Lucro (prejuízo) antes do resultado financeiro, 
+das participações e impostos 33.662 1.898 681 (5.796) (231) 30.214 
+Resultado financeiro líquido − − − 5.572 − 5.572 
+Resultado de participações em investidas por 
+equivalência patrimonial 238 (52) 99 (31) − 254 
+Lucro (prejuízo) antes dos impostos 33.900 1.846 780 (255) (231) 36.040 
+Imposto de renda e contribuição social (11.445) (646) (232) 2.979 78 (9.266) 
+Lucro líquido (prejuízo) 22.455 1.200 548 2.724 (153) 26.774 
+Atribuível aos: 
+Acionistas da Petrobras 22.458 1.200 504 2.643 (153) 26.652 
+Acionistas não controladores (3) − 44 81 − 122
+
+[p. 32]
+Relatório de Desempenho 2T25 I 32 
+ 
+ANEXOS 
+Tabela 21 - Demonstração consolidada do resultado por segmento de negócio – 1T25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 88.169 116.819 10.867 451 (93.162) 123.144 
+Intersegmentos 87.849 1.696 3.610 7 (93.162) − 
+Terceiros 320 115.123 7.257 444 − 123.144 
+Custo dos produtos e serviços vendidos (39.715) (109.766) (6.560) (401) 94.007 (62.435) 
+Lucro bruto 48.454 7.053 4.307 50 845 60.709 
+Despesas (4.286) (4.296) (4.551) (5.031) − (18.164) 
+Vendas (2) (2.552) (3.831) 9 − (6.376) 
+Gerais e administrativas (27) (509) (155) (1.901) − (2.592) 
+Custos exploratórios p/ extração de petróleo e 
+gás (1.811) − − − − (1.811) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (945) (8) (9) (217) − (1.179) 
+Tributárias (24) (73) (10) (615) − (722) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment (313) 23 − − − (290) 
+Outras receitas (despesas) operacionais líquidas (1.164) (1.177) (546) (2.307) − (5.194) 
+Lucro (prejuízo) antes do resultado financeiro, 
+das participações e impostos 44.168 2.757 (244) (4.981) 845 42.545 
+Resultado financeiro líquido − − − 10.595 − 10.595 
+Resultado de participações em investidas por 
+equivalência patrimonial 77 335 84 (1) − 495 
+Lucro (prejuízo) antes dos impostos 44.245 3.092 (160) 5.613 845 53.635 
+Imposto de renda e contribuição social (15.017) (937) 83 (2.146) (287) (18.304) 
+Lucro líquido (prejuízo) 29.228 2.155 (77) 3.467 558 35.331 
+Atribuível aos: 
+Acionistas da Petrobras 29.232 2.155 (130) 3.394 558 35.209 
+Acionistas não controladores (4) − 53 73 − 122
+
+[p. 33]
+Relatório de Desempenho 2T25 I 33 
+ 
+ANEXOS 
+Tabela 22 - Demonstração do grupo de Outras receitas (despesas), operacionais líquidas – 1S25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (6.387) (739) (274) (46) − (7.446) 
+Equalização de Gastos - AIP (3.872) − − − − (3.872) 
+Plano de Pensão e Saúde (Inativos) − − − (3.674) − (3.674) 
+Programa de Remuneração Variável (*) (1.553) (795) (174) (891) − (3.413) 
+Perdas com processos judiciais, administrativos e 
+arbitrais (617) (387) (165) (705) − (1.874) 
+Acordo Coletivo de Trabalho (**) (562) (240) (56) (356) − (1.214) 
+Resultado com acordo de coparticipação em áreas 
+licitadas 290 − − − − 290 
+Resultado com alienações e baixas de ativos 84 1 94 223 − 402 
+Resultado de atividades não fim 1.274 (31) 3 38 − 1.284 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 1.701 (25) 3 26 − 1.705 
+Outras 799 (32) (664) (117) − (14) 
+Total (8.843) (2.248) (1.233) (5.502) − (17.826) 
+(*) Composto por Participação nos lucros ou resultados (PLR) e Programa de prêmio por desempenho (PRD). 
+(**) Inclui a parte restante do bônus do Acordo Coletivo de Trabalho (ACT) 2025-2027. 
+ 
+ 
+ 
+Tabela 23 - Demonstração do grupo de Outras receitas (despesas), operacionais líquidas – 1S24 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (6.400) (268) (165) (56) − (6.889) 
+Equalização de Gastos - AIP (127) − − − − (127) 
+Plano de Pensão e Saúde (Inativos) − − − (8.449) − (8.449) 
+Programa de Remuneração Variável (*) (1.029) (650) (140) (670) − (2.489) 
+Perdas com processos judiciais, administrativos e 
+arbitrais (962) (891) (190) (632) − (2.675) 
+Acordo Coletivo de Trabalho (5) (30) − (4) − (39) 
+Resultado com acordo de coparticipação em áreas 
+licitadas 533 − − − − 533 
+Resultado com alienações e baixas de ativos 1.215 354 118 (218) − 1.469 
+Resultado de atividades não fim 615 (75) 48 36 − 624 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 740 26 4 (11) − 759 
+Outras 1.835 124 (633) 567 − 1.893 
+Total (3.585) (1.410) (958) (9.437) − (15.390) 
+(*) Composto por Participação nos lucros ou resultados (PLR) e Programa de prêmio por desempenho (PRD).
+
+[p. 34]
+Relatório de Desempenho 2T25 I 34 
+ 
+ANEXOS 
+Tabela 24 - Demonstração do grupo de Outras receitas (despesas), operacionais líquidas – 2T25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (3.397) (166) (155) (21) − (3.739) 
+Equalização de Gastos - AIP (3.849) − − − − (3.849) 
+Plano de Pensão e Saúde (Inativos) − − − (1.833) − (1.833) 
+Programa de Remuneração Variável (*) (777) (420) (89) (443) − (1.729) 
+Perdas com processos judiciais, administrativos e 
+arbitrais 30 (221) (156) (364) − (711) 
+Acordo Coletivo de Trabalho (**) (562) (240) (56) (356) − (1.214) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (113) − − − − (113) 
+Resultado com alienações e baixas de ativos (101) 8 80 91 − 78 
+Resultado de atividades não fim 676 16 1 19 − 712 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 829 (18) − (11) − 800 
+Outras (415) (30) (312) (277) − (1.034) 
+Total (7.679) (1.071) (687) (3.195) − (12.632) 
+(*) Composto por Participação nos lucros ou resultados (PLR) e Programa de prêmio por desempenho (PRD). 
+ (**) Inclui a parte restante do bônus do Acordo Coletivo de Trabalho (ACT) 2025-2027. 
+ 
+ 
+Tabela 25 - Demonstração do grupo de Outras receitas (despesas), operacionais líquidas – 1T25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (2.990) (573) (119) (25) − (3.707) 
+Equalização de Gastos - AIP (23) − − − − (23) 
+Plano de Pensão e Saúde (Inativos) − − − (1.841) − (1.841) 
+Programa de Remuneração Variável (*) (776) (375) (85) (448) − (1.684) 
+Perdas com processos judiciais, administrativos e 
+arbitrais (647) (166) (9) (341) − (1.163) 
+Acordo Coletivo de Trabalho − − − − − − 
+Resultado com acordo de coparticipação em áreas 
+licitadas 403 − − − − 403 
+Resultado com alienações e baixas de ativos 185 (7) 14 132 − 324 
+Resultado de atividades não fim 598 (47) 2 19 − 572 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 872 (7) 3 37 − 905 
+Outras 1.214 (2) (352) 160 − 1.020 
+Total (1.164) (1.177) (546) (2.307) − (5.194) 
+(*) Composto por Participação nos lucros ou resultados (PLR) e Programa de prêmio por desempenho (PRD).
+
+[p. 35]
+Relatório de Desempenho 2T25 I 35 
+ 
+ANEXOS 
+Tabela 26 - Ativo consolidado por segmento de negócio – 30.06.2025 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Ativo 830.533 171.642 31.610 164.863 (23.758) 1.174.890 
+Circulante 16.843 55.510 2.658 84.606 (23.758) 135.859 
+Não circulante 813.690 116.132 28.952 80.257 − 1.039.031 
+Realizável a longo prazo 46.927 14.424 829 66.405 − 128.585 
+Investimentos 1.838 1.083 959 363 − 4.243 
+Imobilizado 755.010 99.842 26.730 11.349 − 892.931 
+ Em operação 594.452 89.283 23.544 8.134 − 715.413 
+ Em construção 160.558 10.559 3.186 3.215 − 177.518 
+Intangível 9.915 783 434 2.140 − 13.272 
+ 
+ 
+Tabela 27 - Ativo consolidado por segmento de negócio – 31.12.2024 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Ativo 777.450 171.686 32.571 168.972 (25.882) 1.124.797 
+Circulante 16.701 55.838 2.345 86.210 (25.882) 135.212 
+Não circulante 760.749 115.848 30.226 82.762 − 989.585 
+Realizável a longo prazo 43.693 13.729 564 69.640 − 127.626 
+Investimentos 1.850 709 1.127 395 − 4.081 
+Imobilizado 704.444 100.669 28.118 10.686 − 843.917 
+ Em operação 569.046 91.818 24.371 7.692 − 692.927 
+ Em construção 135.398 8.851 3.747 2.994 − 150.990 
+Intangível 10.762 741 417 2.041 − 13.961
+
+[p. 36]
+Relatório de Desempenho 2T25 I 36 
+ 
+ANEXOS 
+Tabela 28 - Reconciliação do EBITDA Ajustado por segmento de negócio – 1S25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 51.683 3.355 471 6.191 405 62.105 
+Resultado financeiro líquido − − − (16.167) − (16.167) 
+Imposto de renda/Contribuição social 26.462 1.583 149 (833) 209 27.570 
+Depreciação, depleção e amortização 30.567 7.406 1.525 430 − 39.928 
+EBITDA 108.712 12.344 2.145 (10.379) 614 113.436 
+Resultado de participações em investidas por 
+equivalência patrimonial (315) (283) (183) 32 − (749) 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment 1.091 252 3 − − 1.346 
+Resultado com alienações e baixas de ativos (84) (1) (94) (223) − (402) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (290) − − − − (290) 
+EBITDA Ajustado 109.114 12.312 1.871 (10.570) 614 113.341 
+ 
+ 
+Tabela 29 - Reconciliação do EBITDA Ajustado por segmento de negócio – 1S24 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 56.194 5.263 2.239 (39.071) (3.330) 21.295 
+Resultado financeiro líquido − − − 45.975 − 45.975 
+Imposto de renda/Contribuição social 28.827 3.725 1.000 (21.536) (1.716) 10.300 
+Depreciação, depleção e amortização 24.656 6.527 1.492 334 − 33.009 
+EBITDA 109.677 15.515 4.731 (14.298) (5.046) 110.579 
+Resultado de participações em investidas por 
+equivalência patrimonial (235) 1.968 (297) 17 − 1.453 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment 21 (201) − (66) − (246) 
+Resultado com alienações e baixas de ativos (1.215) (354) (118) 218 − (1.469) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (533) − − − − (533) 
+EBITDA Ajustado 107.715 16.928 4.316 (14.129) (5.046) 109.784
+
+[p. 37]
+Relatório de Desempenho 2T25 I 37 
+ 
+ANEXOS 
+Tabela 30 - Reconciliação do EBITDA Ajustado por segmento de negócio – 2T25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 22.455 1.200 548 2.724 (153) 26.774 
+Resultado financeiro líquido − − − (5.572) − (5.572) 
+Imposto de renda/Contribuição social 11.445 646 232 (2.979) (78) 9.266 
+Depreciação, depleção e amortização 16.071 3.913 743 225 − 20.952 
+EBITDA 49.971 5.759 1.523 (5.602) (231) 51.420 
+Resultado de participações em investidas por 
+equivalência patrimonial (238) 52 (99) 31 − (254) 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment 778 275 3 − − 1.056 
+Resultado com alienações e baixas de ativos 101 (8) (80) (91) − (78) 
+Resultado com acordo de coparticipação em áreas 
+licitadas 113 − − − − 113 
+EBITDA Ajustado 50.725 6.078 1.347 (5.662) (231) 52.257 
+ 
+ 
+Tabela 31 - Reconciliação do EBITDA Ajustado por segmento de negócio – 1T25 
+R$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 29.228 2.155 (77) 3.467 558 35.331 
+Resultado financeiro líquido − − − (10.595) − (10.595) 
+Imposto de renda/Contribuição social 15.017 937 (83) 2.146 287 18.304 
+Depreciação, depleção e amortização 14.496 3.493 782 205 − 18.976 
+EBITDA 58.741 6.585 622 (4.777) 845 62.016 
+Resultado de participações em investidas por 
+equivalência patrimonial (77) (335) (84) 1 − (495) 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment 313 (23) − − − 290 
+Resultado com alienações e baixas de ativos (185) 7 (14) (132) − (324) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (403) − − − − (403) 
+EBITDA Ajustado 58.389 6.234 524 (4.908) 845 61.084
+
+[p. 38]
+Relatório de Desempenho 2T25 I 38 
+ 
+GLOSSÁRIO 
+ Glossário 
+ 
+A 
+Alavancagem: Índice que mede a relação entre o Endividamento Líquido e a soma do Endividamento Líquido 
+e do valor de mercado ( Market cap ). Esta métrica não está prevista nas normas internacionais de 
+contabilidade – IFRS Accounting Standards e é possível que não seja comparável com índices similares 
+reportados por outras companhias. 
+ 
+C 
+CAPEX – Capital Expenditure : investimentos que contemplam aquisição de ativos imobilizados, incluindo 
+gastos com arrendamentos, intangíveis, investimentos das controladas, aportes nas coligadas, gastos com 
+geologia e geofísica e gastos pré-operacionais. 
+Capital empregado médio: média trimestral considerando as contas de estoques, intangível e imobilizado 
+registrados a câmbio histórico. 
+ 
+D 
+Disponibilidades ajustadas: Somatório de Caixa e Equivalentes de Caixa e investimentos em títulos e valores 
+mobiliários nos mercados doméstico e internacional que possuem alta liquidez, isto é, são conversíveis em 
+dinheiro em até 3 meses, ainda que o prazo de vencimento seja superior a 12 meses, mantidos com a 
+finalidade de atender a compromissos de caixa. A medida disponibilidades ajustadas não está prevista nas 
+normas internacionais de contabilidade, não devendo ser considerada isoladamente ou em substituição ao 
+caixa e equivalentes de caixa apurados em IFRS Accounting Standards. Além disso, não deve ser base de 
+comparação com a de outras empresas, contudo a Administração acredita que é uma informação 
+suplementar para avaliar a liquidez e auxilia a gestão da alavancagem. 
+ 
+E 
+EBITDA Ajustado: Somatório do EBITDA, participações em investimentos, impairment, realização dos 
+resultados abrangentes por alienação de participação societária, resultados com acordo de coparticipação 
+em áreas licitadas e o resultado com alienação e baixa de ativos. Esta métrica não está prevista nas normas 
+internacionais de contabili dade – IFRS Accounting Standards e é possível que não seja comparável com 
+índices similares reportados por outras companhias, contudo a Administração acredita que é uma 
+informação suplementar para avaliar a rentabilidade. O EBITDA Ajustado deve ser considerado em conjunto 
+com outras métricas para um melhor entendimento da performance da Companhia. 
+Endividamento líquido: Endividamento bruto subtraído das disponibilidades ajustadas. Esta métrica não 
+está prevista nas normas internacionais de contabilidade – IFRS Accounting Standards e não deve ser 
+considerada isoladamente ou em substituição ao endividamento total de longo prazo, calculado de acordo 
+com IFRS Accounting Standards. O cálculo do endividamento líquido não deve ser base de comparação com 
+o de outras empresas, contudo a Administração acredita que é uma informação suplementar que ajuda os 
+investidores a avaliar a liquidez e auxilia a gestão da alavancagem.
+
+[p. 39]
+Relatório de Desempenho 2T25 I 39 
+ 
+GLOSSÁRIO 
+Exploração & Produção (E&P): O segmento abrange as atividades de exploração, desenvolvimento e 
+produção de petróleo bruto, LGN e gás natural no Brasil e no exterior, com o objetivo principal de abastecer 
+nossas refinarias domésticas. Este segmento também opera por meio de parcerias com outras empresas, 
+incluindo participações em empresas estrangeiras neste segmento. 
+ 
+F 
+Fluxo de caixa livre: Corresponde ao fluxo de caixa operacional deduzido das aquisições de ativos 
+imobilizados, intangíveis e participações societárias. A medida fluxo de caixa livre não está prevista nas 
+normas internacionais de contabilidade, não devendo ser considerada isoladamente ou em substituição ao 
+caixa e equivalentes de caixa apurados em IFRS Accounting Standards. Além disso, não deve ser base de 
+comparação com o de outras empresas. 
+ 
+G 
+Gás & Energias de Baixo Carbono (G&EBC): O segmento abrange as atividades de logística e comercialização 
+de gás natural e eletricidade, o transporte e a comercialização de GNL, a geração de eletricidade por meio 
+de usinas termelétricas, bem como o processamento de gás natural. Também inclui negóc ios de energia 
+renovável, serviços de baixo carbono (captura, utilização e armazenamento de carbono) e a produção de 
+biodiesel e seus derivados. 
+ 
+I 
+Investimentos: Investimentos baseados nas premissas de custo e metodologia financeira adotadas no Plano 
+Estratégico, que incluem a aquisição de ativos imobilizados e intangíveis, investimentos societários e outros 
+itens que não necessariamente se qualificam como fluxo de caixa usado em atividades de investimento, 
+principalmente despesas com geologia e geofísica, gastos pré -operacionais, aquisição de imobilizado a 
+prazo e custos de empréstimos diretamente atribuíveis a obras em andamento. 
+Investimentos em E&P: No segmento de E&P, os projetos de investimentos são classificados em a) 
+desenvolvimento da produção; b) exploratórios e c) outros. Detalhamento a seguir: 
+a) Desenvolvimento da Produção (DP): 
+Projetos destinados a viabilizar as atividades de produção de novos campos de petróleo ou gás, ou 
+a revitalização de campos já em produção com novos sistemas de produção e/ou instalações 
+terrestres. 
+Inclui projetos de desenvolvimento complementar para aumentar o fator de recuperação em 
+campos com declínio de produção, sem a instalação de novos sistemas produtivos. 
+Outros projetos de desenvolvimento da produção são: projetos de bens patrimoniais vinculados a 
+novos sistemas de produção; poços AQR (análise quantitativa de risco) em áreas em 
+desenvolvimento, investimentos no desenvolvimento da produção de campos não operados.
+
+[p. 40]
+Relatório de Desempenho 2T25 I 40 
+ 
+GLOSSÁRIO 
+b) Exploração (EXP): 
+Os projetos exploratórios têm como objetivo incorporar reservas de óleo e gás, de forma resiliente 
+sob o ponto de vista econômico e de emissão de carbono, contribuindo para a geração de valor no 
+longo prazo. 
+São classificados em tipos como: Estudos Regionais de Interpretação Geológica, Bloco, Avaliação de 
+Descoberta, Ring Fence (RF), Aquisição de Dados de Reservatório (ADR) e Testes de Longa Duração 
+(TLD). 
+c) Outros: 
+Projetos necessários para implantar infraestrutura essencial para viabilizar outros projetos de 
+investimento, bem como as operações. 
+Exemplos incluem adequações na infraestrutura operacional, paradas programadas, aquisições de 
+bens patrimoniais, melhorias de TIC, inspeções e trocas de linhas devido a SCC-CO2, custos iniciais 
+de pré-operação de novas unidades, entre outros. 
+ 
+L 
+Lifting Cost: Indicador que representa o custo de extração unitário de um barril equivalente, levando em 
+consideração a relação entre os custos e a produção. Inclui os gastos com a execução e manutenção dos 
+processos de produção. Não são considerados nesse indicador os custos relacionados ao afretamento de 
+plataformas de terceiros, às participações governamentais e à depreciação, depleção e amortização. 
+Lifting Cost + Afretamento: Indicador que engloba os custos relacionados ao afretamento de plataformas 
+de terceiros no cálculo do Lifting Cost. Não são considerados os custos relacionados às participações 
+governamentais e à depreciação, depleção e amortização. 
+Lifting Cost + Afretamento + Participação Governamental: Indicador que engloba os custos relacionados à 
+afretamento de plataformas de terceiros e da Participação Governamental no cálculo do Lifting Cost. Não 
+são considerados os custos relacionados à depreciação, depleção e amortização. 
+Lifting Cost + Participação Governamental: Indicador que engloba os custos relacionados à participação 
+governamental no cálculo do Lifting Cost. Não são considerados os custos relacionados ao afretamento de 
+plataformas de terceiros e à depreciação, depleção e amortização. 
+LTM EBITDA Ajustado: Somatório dos últimos 12 meses ( Last Twelve Months ) do EBITDA Ajustado. Esta 
+métrica não está prevista nas normas internacionais de contabilidade – IFRS Accounting Standards e é 
+possível que não seja comparável com índices similares reportados por outras companhias, contudo a 
+Administração acredita que é uma informação suplementar para avaliar a liquidez e auxilia a gestão da 
+alavancagem. O EBITDA Ajustado deve ser considerado em conjunto com outras métricas para um melhor 
+entendimento da liquidez da Companhia. 
+Lucro operacional após impostos: EBITDA Ajustado, descontando DD&A dos ativos registrados a câmbio 
+histórico e alíquota de 34% de IR/CSLL.
+
+[p. 41]
+Relatório de Desempenho 2T25 I 41 
+ 
+GLOSSÁRIO 
+M 
+Margem do EBITDA Ajustado: EBITDA Ajustado dividido pela receita de vendas. 
+ 
+R 
+Refino, Transporte e Comercialização (RTC): O segmento abrange as atividades de refino, logística, 
+transporte, aquisição e exportação de petróleo bruto, bem como negociação de derivados de petróleo no 
+Brasil e no exterior. Este segmento também inclui operações petroquímicas (que envolvem participaçõ es 
+em empresas petroquímicas no Brasil) e produção de fertilizantes. 
+Resultados por Segmento de Negócio: As informações por segmento de negócio da companhia são 
+elaboradas com base em informações financeiras disponíveis e que são atribuíveis diretamente ao 
+segmento ou que podem ser alocadas em bases razoáveis, sendo apresentadas por atividades de negócio 
+utilizadas pela Diretoria Executiva para tomada de decisões de alocação de recursos e avaliação de 
+desempenho. Na apuração dos resultados segmentados são consideradas as transações realizadas com 
+terceiros, incluindo empreen dimentos controlados em conjunto e coligadas, e as transferências entre os 
+segmentos de negócio. As transações entre segmentos de negócio são valoradas por preços internos de 
+transferência apurados com base em metodologias que levam em consideração parâmet ros de mercado, 
+sendo essas transações eliminadas, fora dos segmentos de negócios, para fins de conciliação das 
+informações segmentadas com as demonstrações financeiras consolidadas da companhia. 
+ROCE: Lucro operacional após impostos / Capital empregado médio, medidos em US$ na visão LTM (últimos 
+12 meses).
+
+[p. 42]
+Petrobras | Relacionamento com Investidores 
+www.petrobras.com.br/ri

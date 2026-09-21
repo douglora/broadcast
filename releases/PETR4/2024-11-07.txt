@@ -1,0 +1,1512 @@
+[p. 1]
+Relatório de 
+Desempenho 
+3T24 
+—
+
+[p. 2]
+PETROBRAS | Relatório de Desempenho | 3T24 2 
+ 
+ 
+ 
+Sumário 
+Destaques - 3T24 4 
+Principais itens e indicadores 5 
+Resultado consolidado 6 
+Itens não recorrentes 7 
+Investimentos 9 
+Liquidez e recursos de capital 12 
+Indicadores de endividamento 14 
+Resultados por segmento de negócio 15 
+Exploração e Produção 15 
+Refino, Transporte e Comercialização 17 
+Gás e Energias de Baixo Carbono 18 
+Reconciliação do EBITDA Ajustado 19 
+Anexos 20 
+Demonstrações contábeis 20 
+Informações contábeis por segmento de negócio 29 
+Glossário 40
+
+[p. 3]
+PETROBRAS | Relatório de Desempenho | 3T24 3 
+ 
+DISCLAIMER 
+Este relatório pode conter previsões acerca de eventos futuros. Tais previsões refletem apenas expectativas dos 
+administradores da Companhia sobre condições futuras da economia, além do setor de atuação, do desempenho 
+e dos resultados financeiros da Compan hia, dentre outros. Os termos “antecipa", "acredita", "espera", "prevê", 
+"pretende", "planeja", "projeta", "objetiva", "deverá", bem como outros termos similares, visam a identificar tais 
+previsões, as quais, evidentemente, envolvem riscos e incertezas previstos ou não pela Companhia e, 
+consequentemente, não são garantias de resultados futuros da Companhia. Portanto, os resultados futuros das 
+operações da Companhia podem diferir das atuais expectativas, e o leitor não deve se basear exclusivamente 
+nas informações aqui contidas. A Companhia não se obriga a atualizar as apresentações e previsões à luz de 
+novas informações ou de seus desdobramentos futuros. Os valores informados para 3T24 em diante são 
+estimativas ou metas. Adicionalmente, esta apresentação con tém alguns indicadores financeiros que não são 
+reconhecidos pelo BR GAAP ou IFRS. Esses indicadores não possuem significados padronizados e podem não ser 
+comparáveis a indicadores com descrição similar utilizados por outras companhias. Nós fornecemos estes 
+indicadores porque os utilizamos como medidas de performance da companhia; eles não devem ser 
+considerados de forma isolada ou como substituto para outras métricas financeiras que tenham sido divulgadas 
+em acordo com o BR GAAP ou IFRS. Vide definições de Fluxo de Caixa Livre, EBITDA Ajustado e Endividamento 
+Líquido no Glossário e respectivas reconciliações nas seções de Liquidez e Recursos de Capital, Reconciliação do 
+EBITDA Ajustado e Endividamento Líquido. Informações financeiras intermediárias consolidadas elaboradas de 
+acordo com a norma internacional de contabilidade IAS 34 – Interim Financial Report ing, emitida pelo 
+International Accounting Standards Board (IASB) e, revisadas pelos auditores independentes.
+
+[p. 4]
+PETROBRAS | Relatório de Desempenho | 3T24 4 
+Destaques – 3T24 
+ 
+Destaques - 3T24 
+ 
+ 
+ 
+ 
+ 
+ 
+“Neste terceiro trimestre de 2024, alcançamos resultados financeiros consistentes num contexto de 
+queda no preço do Brent, que conseguimos compensar com maiores volumes de vendas de derivados. 
+Mantivemos uma forte geração de caixa de US$ 11,3 bilhões, com aumento de 24% em relação ao 
+trimestre anterior, sustentada pela qualidade e performance dos nossos ativos. Neste 3T24, não 
+tivemos impacto relevante de itens não recorrentes, ao contrário do que observamos no 2T24. Desta 
+forma, realizamos um lucro líquido de US$ 5,9 bilhões e o EBITDA Recorrente de US$ 11,6 bilhões. 
+Estamos satisfeitos também em anunciar que realizamos investimentos de US$ 4,5 bilhões, neste 
+terceiro trimestre, cerca de 30% acima do trimestre passado. Somando os primeiros nove meses do 
+ano, os investimentos da Petrobras chegam a US$ 10,9 bilhões. Isso demonstra nosso compromisso 
+em entregar nossos projetos e executar nosso Plano Estratégico com diligência. 
+Prova deste compromisso está expressa na antecipação da operação do FPSO Maria Quitéria, que 
+começou a produzir no dia 15 de outubro. Exatamente 15 dias depois, o FPSO Marechal Duque de 
+Caxias entrou em operação no dia 30 de outubro. Ainda em outubro, o FP SO Almirante Tamandaré 
+chegou ao Brasil. Esse esforço de execução e até de antecipação de prazos se materializa na 
+aceleração da receita que esses ativos vão gerar à medida que chegam à sua capacidade plena e na 
+maior oferta de energia para o país. Estamos comprometidos com o crescimento da Petrobras e com 
+a geração de valor para os acionistas e para a sociedade brasileira.” Fernando Melgarejo, Diretor 
+Financeiro e de Relacionamento com Investidores 
+ 
+ 
+* Considera apenas os itens não recorrentes que impactam o EBITDA 
+** Lucro líquido sem itens não recorrentes e sem efeito cambial real x dólar
+
+[p. 5]
+PETROBRAS | Relatório de Desempenho | 3T24 5 
+Destaques – 3T24 
+Principais destaques 
+• Forte geração operacional de caixa de US$ 11,3 bilhões, entre os seis melhores trimestres, e Fluxo de
+Caixa Livre de US$ 6,9 bilhões
+• Resultados consistentes: EBITDA Recorrente de US$ 11,6 bilhões e Lucro líquido Recorrente de US$
+5,9 bilhões
+• Dívida financeira atingiu US$ 25,8 bilhões, menor nível desde 2008. A Dívida bruta está sob controle 
+em US$ 59,1 bilhões, dentro da faixa estabelecida em nosso Plano estratégico
+• Capex totalizou US$ 10,9 bilhões no 9M24, aumento de 19,5% em relação ao 9M23
+Contribuições 
+• Retorno à sociedade com pagamento de R$ 64,4 bilhões em tributos
+• Aprovação de dividendos e juros sobre capital próprio de R$ 17,1 bilhões, a serem pagos em duas 
+parcelas (fevereiro e março)
+Principais itens e indicadores 
+Tabela 1 – Principais indicadores 
+Variação (%) 
+ US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Receita de vendas 23.366 23.467 25. 552 70.601 75.302 (0,4) (8,6) (6,2) 
+Lucro bruto 12.005 11.727 13. 570 35.989 39.320 2,4 (11,5) (8,5) 
+Despesas operacionais (3.605) (5.022) ( 3.590) (11.900) (9.309) (28,2) 0,4 27,8 
+Lucro líquido (Prejuízo) - Acionistas 
+Petrobras 5.870 (344) 5. 456 10.308 18.625 − 7,6 (44,7) 
+Lucro líquido (Prejuízo) recorrente - 
+Acionistas Petrobras (*) 5.937 3.060 5. 577 13.813 18.927 94,0 6,5 (27,0) 
+Fluxo de caixa operacional 11.307 9.087 11. 554 29.780 31.543 24,4 (2,1) (5,6) 
+Fluxo de caixa livre 6.857 6.148 8. 364 19.552 23.001 11,5 (18,0) (15,0) 
+EBITDA ajustado 11.480 9.627 13. 551 33.234 38.944 19,2 (15,3) (14,7) 
+EBITDA ajustado recorrente (*) 11.614 11.967 13. 691 36.006 40.168 (2,9) (15,2) (10,4) 
+Dívida bruta (US$ milhões) 59.132 59.630 60. 997 59.132 60.997 (0,8) (3,1) (3,1) 
+Dívida líquida (US$ milhões) 44.251 46.160 43. 725 44.251 43.725 (4,1) 1,2 1,2 
+Dívida líquida/LTM EBITDA Ajustado (x) 0,95 0,95 0, 83 0,95 0,83 − 14,5 14,5 
+Dólar médio de venda 5,55 5,22 4, 88 5,24 5,01 6,3 13,7 4,6 
+Brent (US$/bbl) 80,18 84,94 86, 76 82,79 82,14 (5,6) (7,6) 0,8 
+Preço derivados básicos - Mercado 
+interno (US$/bbl) 88,10 91,34 95, 04 91,76 99,97 (3,5) (7,3) (8,2) 
+TAR (Taxa de acidentes registrados por 
+milhão de homens-hora) - - - 0,70 0,80 - - (12,5)
+ROCE (Retorno sobre o Capital 
+Empregado) 9,2% 9,8% 11, 5% 9,2% 11,5% -0.6 p.p. -2.3 p.p. -2.3 p.p. 
+(*) Vide reconciliação do Lucro líquido e EBITDA Ajustado excluindo itens não recorrentes.
+
+[p. 6]
+PETROBRAS | Relatório de Desempenho | 3T24 6 
+Resultado Consolidado 
+Resultado consolidado 
+No 3T24, apresentamos resultados sólidos, apesar de um cenário externo desafiador. O EBITDA Ajustado 
+Recorrente atingiu US$ 11,6 bilhões e o lucro líquido recorrente foi de US$ 5,9 bilhões. 
+O EBITDA Ajustado Recorrente do 3T24 foi 3% inferior ao trimestre anterior, refletindo a queda de 6% no 
+preço do Brent e uma menor margem de derivados, especialmente de diesel, devido à redução de 16% no 
+crackspread internacional. Esses impactos foram parcialmente compensados pelo maior volume de 
+petróleo produzido no mix de derivados e pelo aumento nas vendas. 
+Além disso, houve aumento das vendas de petróleo no mercado interno, em função do aumento das 
+entregas para Acelen, e maior receita com energia elétrica. 
+As despesas operacionais totalizaram US$ 3,6 bilhões, uma redução de 28% em relação ao 2T24, refletindo 
+principalmente a ausência de itens especiais registrados no trimestre anterior, especialmente os custos 
+relacionados à adesão à transação tributária. 
+O resultado financeiro do 3T24 foi negativo em US$ 281 milhões, melhor em relação ao resultado negativo 
+de US$ 6,9 bilhões observado no 2T24 . Esse resultado foi impactado principalmente pel o ganho com 
+valorização cambial do real frente ao dólar. O real se valorizou 2% no 3 T24 (câmbio final de R$ 5,45/US$) , 
+em comparação à desvalorização de 11,2% no 2T24 (câmbio final de R$ 5,56/US$). A dicionalmente, as 
+despesas financeiras foram menores em função dos impactos da adesão à transação tributária 
+reconhecidos no trimestre anterior. 
+O Lucro líquido alcançou US$ 5,9 bilhões em função da melhora do resultado financeiro e menores despesas 
+operacionais. 
+No 3T24, não tivemos impacto relevante de itens não recorrentes. Desconsiderando tais itens, o lucro 
+líquido e o EBITDA Recorrente permaneceriam no mesmo patamar.
+
+[p. 7]
+PETROBRAS | Relatório de Desempenho | 3T24 7 
+Itens Não Recorrentes 
+Itens não recorrentes 
+Tabela 2 - Itens não recorrentes 
+ Variação (%) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Lucro líquido (prejuízo) 5.891 (325) 5.484 10.371 18.713 − 7,4 (44,6) 
+Itens não recorrentes (100) (4.271) (187) (4.433) (460) (97,7) (46,5) 863,7 
+Itens não recorrentes que não 
+afetam o EBITDA Ajustado 34 (1.931) (47) (1.661) 764 − − − 
+Impairment de ativos e de 
+investimentos (3) 39 (71) 61 (474) − (95,8) − 
+Resultado com alienação e baixa 
+de ativos (97) 124 (37) 190 1.150 − 162,2 (83,5) 
+Resultado com acordo de 
+coparticipação em áreas licitadas − 55 19 103 46 − − 123,9 
+Efeitos da transação tributária no 
+resultado financeiro líquido 110 (2.149) − (2.039) − − − − 
+Ágio/deságio na recompra de 
+títulos de dívidas 24 − 42 24 42 − (42,9) (42,9) 
+Outros itens não recorrentes (134) (2.340) (140) (2.772) (1.224) (94,3) (4,3) 126,5 
+PDV 11 (1) 1 8 6 − 1000,0 33,3 
+Acordo Coletivo de Trabalho (ACT) − (6) − (9) (6) − − 50,0 
+Ressarcimento de valores - 
+Operação Lava Jato 31 2 6 38 99 1450,0 416,7 (61,6) 
+Resultado relacionado a 
+desmantelamento de áreas − − (2) (7) (13) − − (46,2) 
+(Perdas)/Ganhos com 
+contingências judiciais (287) (240) (140) (808) (670) 19,6 105,0 20,6 
+Efeitos da transação tributária na 
+despesa tributária 105 (790) − (685) − − − − 
+Equalização de gastos - AIP (5) (14) (15) (29) (38) (64,3) (66,7) (23,7) 
+Perdas/(ganhos) oriundos da 
+revisão atuarial do Plano de Saúde − (1.291) − (1.291) − − − − 
+(Perdas)/ganhos com cessão de 
+contratos de concessão 11 − − 11 − − − − 
+Indenização por distrato do 
+contrato de afretamento de 
+embarcação 
+− − − − (317) − − − 
+Imposto sobre exportação de 
+petróleo bruto − − 10 − (285) − − − 
+Efeito líquido dos itens não 
+recorrentes no IR/CSLL 33 869 67 931 159 (96,2) (50,7) 485,5 
+Lucro líquido recorrente 5.958 3.077 5.604 13.873 19.014 93,6 6,3 (27,0) 
+Acionistas Petrobras (*) 5.937 3.060 5.577 13.813 18.927 94,0 6,5 (27,0) 
+Acionistas não controladores 21 17 27 60 87 23,5 (22,2) (31,0) 
+EBITDA Ajustado 11.480 9.627 13.551 33.234 38.944 19,2 (15,3) (14,7) 
+Itens não recorrentes (134) (2.340) (140) (2.772) (1.224) (94,3) (4,3) 126,5 
+EBITDA Ajustado recorrente 11.614 11.967 13.691 36.006 40.168 (2,9) (15,2) (10,4) 
+(*) Lucro líquido recorrente excluindo a variação cambial real x dólar nos períodos: 3T24: +US$ 5.474 milhões; 2T24: +US$ 5.394 milhões; 
+3T23: +US$ 6.246 milhões; 9M24: +US$ 16.286 milhões; 9M23: +US$ 17.993 milhões.
+
+[p. 8]
+PETROBRAS | Relatório de Desempenho | 3T24 8 
+Itens Não Recorrentes 
+ 
+Na opinião da Administração, os itens não recorrentes apresentados acima, embora relacionados aos 
+negócios da companhia, foram destacados como informação complementar para um melhor entendimento 
+e avaliação do resultado. Tais itens não ocorrem necessariamente em todos os períodos, sendo divulgados 
+quando relevantes.
+
+[p. 9]
+PETROBRAS | Relatório de Desempenho | 3T24 9 
+Investimentos 
+Investimentos 
+Tabela 3 - Investimentos 
+ Variação (%) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Exploração & Produção 3.773 2.767 2.892 9.013 7.531 36,4 30,5 19,7 
+Refino, Transporte e Comercialização 452 447 322 1.262 1.029 1,1 40,4 22,6 
+Gás & Energias de Baixo Carbono 97 93 67 297 143 3,8 43,8 108,0 
+Outros 111 86 111 298 271 29,7 0,0 9,8 
+Subtotal 4.433 3.393 3.392 10.869 8.974 30,7 30,7 21,1 
+Bônus de assinatura 21 − − 21 141 − − (85,2) 
+Total 4.454 3.393 3.392 10.890 9.115 31,3 31,3 19,5 
+ 
+No 3T24, os investimentos totalizaram US$ 4,5 bilhões, 31,3% acima do 2T24. Nos primeiros nove meses do 
+ano os investimentos somaram US$ 10,9 bilhões, um crescimento de 19,5% em relação aos 9M23. 
+No segmento de Exploração e Produção, os investimentos, que alcançaram US$ 3,8 bilhões, 36,4% acima do 
+2T24, concentraram-se principalmente: (i) no desenvolvimento da produção do polo pré -sal da Bacia de 
+Santos (US$ 2,2 bilhão); (ii) no desenvolvimento da produção do pré e pós-sal da Bacia de Campos (US$ 0,8 
+bilhão); (iii) em investimentos exploratórios (US$ 0,2 bilhão). O aumento em relação ao trimestre anterior 
+não altera projeção de investimento de 2024 revista no 2T24 e deve-se, em grande medida, à concentração 
+de marcos planejados de pagamentos, incluindo aqueles relacionados à chegada de equipamentos das 
+novas unidades de produção em Búzios, e a realização de investimentos relacionados ao início das obras das 
+unidades P-84, em Atapu, e P-85, em Sépia. 
+No segmento de Refino, Transporte e Comercialização, os investimentos totalizaram US$ 0,5 bilhão, em 
+linha com o 2T24, com destaque para gastos com paradas programadas de refinarias e avanço do projeto 
+de hidrotratamento (HDT) de médios da REPLAN. 
+No segmento de Gás e Energias de Baixo Carbono, os investimentos totalizaram US$ 0,1 bilhão, em linha 
+com o 2T24, com destaque para os investimentos na unidade de processamento de gás natural do Rota-3. 
+Além disso, houve desembolso US$ 21 milhões relativos a bônus de assinatura de 26 blocos (parceria Shell) 
+da Bacia de Pelotas. 
+A tabela a seguir apresenta as principais informações dos novos sistemas de produção de óleo e gás já 
+contratados.
+
+[p. 10]
+PETROBRAS | Relatório de Desempenho | 3T24 10 
+Investimentos 
+Tabela 4 – Principais projetos 
+Projeto Início de 
+Operação 
+Capacidade 
+da 
+Plataforma 
+(barris de 
+óleo/dia) 
+Investimento 
+Petrobras 
+Realizado 
+(US$ bilhões) 
+Investimento 
+Petrobras 
+Total (1) 
+(US$ bilhões) 
+Parcela da 
+Petrobras Status 
+Mero 2 
+FPSO Sepetiba 
+(Unidade Afretada) 
+2023 180.000 0,8 1,1 38,6% 
+Projeto em fase de 
+execução com UEP 
+em operação. 
+13 poços perfurados 
+e 13 completados. 
+Integrado Parque 
+das Baleias (IPB) 
+FPSO Maria 
+Quitéria 
+(Unidade Afretada) 
+2024 100.000 0,9 1,9 100% 
+Projeto em fase de 
+execução com UEP 
+em operação. 
+3 poços perfurados e 
+3 completados. (2) 
+Mero 3 
+FPSO Marechal 
+Duque de Caxias 
+(Unidade Afretada) 
+2024 180.000 0,4 0,9 38,6% 
+Projeto em fase de 
+execução com UEP 
+em operação. 
+12 poços perfurados 
+e 11 completados. 
+Búzios 7 
+FPSO Almirante 
+Tamandaré 
+(Unidade Afretada) 
+2025 225.000 1,0 2,1 88,99% 
+Projeto em fase de 
+execução com UEP 
+na locação. 
+14 poços perfurados 
+e 8 completados. 
+Búzios 6 
+P-78 
+(Unidade Própria) 
+2025 180.000 1,9 4,8 88,99% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+7 poços perfurados e 
+4 completados. 
+Mero 4 
+FPSO Alexandre de 
+Gusmão 
+(Unidade Afretada) 
+2025 180.000 0,2 1,3 38,6% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+7 poços perfurados e 
+5 completados. 
+Búzios 8 
+P-79 
+(Unidade Própria) 
+2026 180.000 1,7 5,1 88,99% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+9 poços perfurados e 
+4 completados. 
+Búzios 9 
+P-80 
+(Unidade Própria) 
+2026 225.000 1,0 5,4 88,99% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+3 poços perfurados e 
+2 completados. 
+Búzios 10 
+P-82 
+(Unidade Própria) 
+2027 225.000 1,0 6,1 88,99% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+1 poço perfurado. 
+Búzios 11 
+P-83 
+(Unidade Própria) 
+2027 225.000 0,6 5,5 88,99% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+2 poços perfurados.
+
+[p. 11]
+PETROBRAS | Relatório de Desempenho | 3T24 11 
+Investimentos 
+Raia Manta e Raia 
+Pintada 
+BM-C-33 
+(Projeto não 
+operado) 
+2028 126.000 0,6 2,7 (3) 30% 
+Projeto em fase de 
+execução com UEP 
+em construção. 
+Atapu 2 
+P-84 2029 225.000 0,2 6,0 65,7% Projeto em fase de 
+execução. 
+Sépia 2 
+P-85 2030 225.000 0,1 4,7 55,3% Projeto em fase de 
+execução. 
+(1) Investimento total dos projetos considerando as premissas do PE 2024-2028+ no work interest (WI) Petrobras. Não inclui os valores 
+das unidades afretadas. 
+(2) Unidade de Produção para Projeto de Revitalização. Informação relativa somente a poços novos. Também é escopo do projeto o 
+remanejamento de alguns poços de unidades em descomissionamento. 
+(3) Inclui o investimento no FPSO, contratado na modalidade lump sun turnkey que engloba engenharia, aquisição, construção e 
+instalação para a unidade. A contratada também fornecerá serviços de operação e manutenção do FPSO durante o primeiro ano a partir 
+do seu início de produção.
+
+[p. 12]
+PETROBRAS | Relatório de Desempenho | 3T24 12 
+Liquidez e Recursos de Capital 
+Liquidez e recursos de capital 
+Tabela 5 – Liquidez e recursos de capital 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 
+Disponibilidades ajustadas no início do período 13.470 18.192 15.794 17.902 12.283 
+Títulos públicos federais e time deposits acima de 3 meses no 
+início do período (*) (5.586) (6.645) (5.443) (5.175) (4.287) 
+Caixa e equivalentes de caixa no início do período 7.884 11.547 10.351 12.727 7.996 
+Recursos gerados pelas atividades operacionais 11.307 9.087 11.554 29.780 31.543 
+Recursos gerados (utilizados) pelas atividades de 
+investimento (4.742) (2.032) (2.828) (10.098) (4.727) 
+Aquisições de ativos imobilizados e intangíveis (4.443) (2.934) (3.185) (10.215) (8.520) 
+Aquisição de participações societárias (7) (5) (5) (13) (22) 
+Recebimentos pela venda de ativos - Desinvestimentos 25 197 103 791 3.564 
+Compensação financeira por acordos de coparticipação − − − 397 391 
+(Investimentos) resgates em títulos e valores mobiliários (374) 670 253 (1.179) (215) 
+Dividendos recebidos 57 40 6 121 75 
+(=) Fluxo de Caixa das atividades operacionais e de 
+investimento 6.565 7.055 8.726 19.682 26.816 
+Recursos líquidos utilizados nas atividades de 
+financiamentos (5.895) (10.371) (7.048) (23.434) (22.829) 
+Participação de acionistas não controladores (232) 32 (52) (107) (102) 
+Financiamentos líquidos (1.457) (1.147) (330) (4.203) (2.754) 
+Captações 986 565 1.238 1.553 1.300 
+Amortizações (2.443) (1.712) (1.568) (5.756) (4.054) 
+Amortizações de arrendamentos (1.913) (1.965) (1.632) (5.796) (4.494) 
+Dividendos pagos a acionistas da Petrobras (2.293) (7.123) (4.837) (12.871) (15.234) 
+Recompra de ações − (148) (197) (380) (197) 
+Dividendos pagos a acionistas não controladores − (20) − (77) (48) 
+Efeito de variação cambial sobre caixa e equivalentes de 
+caixa 140 (347) 81 (281) 127 
+Caixa e equivalentes de caixa no fim do período 8.694 7.884 12.110 8.694 12.110 
+Títulos públicos federais e time deposits acima de 3 meses no 
+fim do período (*) 6.187 5.586 5.162 6.187 5.162 
+Disponibilidades ajustadas no fim do período 14.881 13.470 17.272 14.881 17.272 
+Reconciliação do Fluxo de caixa livre 
+Recursos gerados pelas atividades operacionais 11.307 9.087 11.554 29.780 31.543 
+Aquisições de ativos imobilizados e intangíveis (4.443) (2.934) (3.185) (10.215) (8.520) 
+Aquisição de participações societárias (7) (5) (5) (13) (22) 
+Fluxo de caixa livre (**) 6.857 6.148 8.364 19.552 23.001 
+(*) Inclui títulos e valores mobiliários de curto prazo e caixa de empresas classificadas para mantido para venda. 
+(**) O Fluxo de Caixa Livre (FCL) está de acordo com a nova Política de Remuneração aos Acionistas ("Política") aprovada em 28/07/2023 e 
+corresponde ao fluxo de caixa operacional deduzido das aquisições de ativos imobilizados, intangíveis e participações societárias. Para 
+fins comparativos, os valores anteriores ao 2T23 foram ajustados de acordo com a nova Política.
+
+[p. 13]
+PETROBRAS | Relatório de Desempenho | 3T24 13 
+Liquidez e Recursos de Capital 
+Em 30 de setembro de 2024, caixa e equivalentes de caixa totalizaram US$ 8,7 bilhões e as disponibilidades 
+ajustadas somaram US$ 14,9 bilhões. 
+No 3T24, os recursos gerados pelas atividades operacionais alcançaram US$ 11,3 bilhões e o fluxo de caixa 
+livre totalizou US$ 6,9 bilhões. Neste trimestre, o fluxo de caixa operacional foi favorecido principalmente 
+pela redução no pagamento de imposto de r enda e contribuição social, decorrente da adesão à transação 
+tributária no 2T24 e do benefício fiscal resultante da antecipação de dividendos na forma de Juros sobre 
+Capital Próprio (JCP) referentes ao exercício de 2024. Este nível de geração de caixa foi utilizado para: (a) 
+realizar investimentos (US$ 4,4 bilhões), (b) amortizar o principal e juros devidos no período (US$ 2,4 
+bilhões), (c) remunerar os acionistas (US$ 2,3 bilhões), e (d) amortizar passivos de arrendamento (US$ 1,9 
+bilhão). 
+No 3T24, a companhia liquidou diversos empréstimos e financiamentos, no valor de US$ 2,4 bilhões, 
+destacando-se a recompra e resgate de US$ 1,3 bilhão de títulos no mercado de capitais internacional. 
+A companhia captou US$ 1,0 bilhão através da oferta de títulos no mercado de capitais internacional (Global 
+Notes), com vencimento em 2035. Esses recursos foram utilizados para o gerenciamento de passivos, 
+visando a extensão das maturidades da dívida e melhora da estrutura de capital, com intuito de preservar a 
+liquidez e a solvência.
+
+[p. 14]
+PETROBRAS | Relatório de Desempenho | 3T24 14 
+Indicadores de Endividamento 
+Indicadores de endividamento 
+Em 30/09/2024, a dívida bruta alcançou US$ 59,1 bilhões, mesmo patamar do trimestre anterior, e 
+permanece dentro da faixa estabelecida em nosso Plano estratégico. 
+O prazo médio da dívida passou de 11,76 anos em 30/06/2024 para 11,57 anos em 30/09/2024; e o seu custo 
+médio ficou estável em 6,6% a.a. no mesmo período. 
+A relação dívida bruta/EBITDA ajustado foi de 1,27x em 30/09/2024 em comparação com 1,22x em 
+30/06/2024. 
+Em 30/ 09/2024, a dívida líquida atingiu US$ 44,3 bilhões, uma redução de 4,1% em comparação com 
+30/06/2024. 
+ 
+Tabela 6 – Indicadores de endividamento 
+US$ milhões 30.09.2024 30.06.2024 Δ % 30.09.2023 
+Dívida Financeira 25.756 26.321 (2,1) 29.462 
+Mercado de capitais 16.005 16.554 (3,3) 17.769 
+Mercado bancário 7.490 7.327 2,2 8.863 
+Bancos de fomento 587 585 0,3 690 
+Agências de crédito à exportação 1.517 1.702 (10,9) 1.978 
+Outros 157 153 2,6 162 
+Arrendamentos 33.376 33.309 0,2 31.535 
+Dívida bruta 59.132 59.630 (0,8) 60.997 
+Disponibilidades ajustadas 14.881 13.470 10,5 17.272 
+Dívida líquida 44.251 46.160 (4,1) 43.725 
+Dívida líquida/(Dívida líquida+market cap) - Alavancagem 33% 33% − 32% 
+Taxa média dos financiamentos (% a.a.) 6,6 6,6 − 6,5 
+Prazo médio da dívida (anos) 11,57 11,76 (1,6) 11,43 
+Índice de Dívida Líquida/LTM EBITDA Ajustado 0,95 0,95 − 0,83 
+Índice de Dívida Bruta/LTM EBITDA Ajustado 1,27 1,22 3,6 1,15
+
+[p. 15]
+PETROBRAS | Relatório de Desempenho | 3T24 15 
+Resultados por Segmento de Negócio 
+Resultados por segmento de negócio 
+Exploração e Produção 
+ 
+Tabela 7 - Resultado da Exploração e Produção 
+ Variação (%) (*) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Receita de vendas 15.383 15.668 17.922 47.128 48.374 (1,8) (14,2) (2,6) 
+Lucro bruto 9.404 9.440 10.771 28.307 28.732 (0,4) (12,7) (1,5) 
+Despesas operacionais (1.222) (1.551) (1.161) (3.403) (1.837) (21,2) 5,3 85,2 
+Lucro (Prejuízo) operacional 8.182 7.889 9.610 24.904 26.895 3,7 (14,9) (7,4) 
+Lucro (Prejuízo) - Acionistas Petrobras 5.416 5.237 6.275 16.499 17.719 3,4 (13,7) (6,9) 
+EBITDA ajustado do segmento 10.451 10.060 12.360 31.693 33.132 3,9 (15,4) (4,3) 
+Margem do EBITDA do segmento (%) 68 64 69 67 68 3,7 (1,0) (1) 
+ROCE (Retorno sobre o Capital 
+Empregado) (%) 13,4 14,2 14,5 13,4 14,5 (0,8) (1,1) (1,1) 
+Brent médio (US$/bbl) 80,18 84,94 86,76 82,79 82,14 (5,6) (7,6) 0,8 
+Participações governamentais Brasil 2.833 2.946 3.377 8.760 8.856 (3,8) (16,1) (1,1) 
+ Royalties 1.774 1.838 1.981 5.483 5.144 (3,5) (10,4) 6,6 
+ Participação Especial 1.050 1.099 1.385 3.250 3.677 (4,5) (24,2) (11,6) 
+ Retenção de área 9 9 11 27 35 − (18,2) (22,9) 
+Lifting cost Brasil (US$/boe) 5,78 6,05 5,39 5,96 5,61 (4,5) 7,3 6,2 
+Pré-Sal 3,78 3,87 3,49 3,88 3,64 (2,4) 8,3 6,7 
+Pós-Sal Profundo e Ultra Profundo 16,57 16,62 12,18 16,08 12,66 (0,3) 36,0 27,0 
+Terra e Águas Rasas 16,74 16,83 16,22 16,63 15,51 (0,5) 3,2 7,2 
+Lifting cost + Afretamento 8,23 8,49 7,64 8,38 7,61 (3,1) 7,8 10,1 
+Pré-Sal 6,10 6,26 5,61 6,21 5,64 (2,5) 8,7 10,1 
+Pós-Sal Profundo e Ultra Profundo 20,41 19,90 15,35 19,53 15,00 2,6 33,0 30,2 
+Terra e Águas Rasas 16,74 16,83 16,22 16,63 15,51 (0,5) 3,2 7,2 
+Lifting cost + Participações 
+governamentais 19,49 20,16 20,40 19,90 19,65 (3,3) (4,5) 1,3 
+Lifting cost + Participações 
+governamentais + Afretamento 21,94 22,61 22,65 22,33 21,66 (2,9) (3,1) 3,1 
+(*) Variações de margem EBITDA e ROCE em pontos percentuais. 
+No 3T24, o lucro bruto do E&P foi de US$ 9,4 bilhões, em linha com o trimestre anterior, explicada 
+principalmente pela menor cotação do Brent. 
+O lucro operacional no 3T24 foi de US$ 8,2 bilhões, 4% superior ao do trimestre anterior. Esse crescimento 
+se deve à menor despesa tributária registrada no 3T24, parcialmente compensado por maiores despesas 
+exploratórias, decorrentes de avaliação de não economicidade de projetos nos Blocos C-M-657 e C-M-709, 
+localizados na Bacia de Campos.
+
+[p. 16]
+PETROBRAS | Relatório de Desempenho | 3T24 16 
+Resultados por Segmento de Negócio 
+O lifting cost apurado no 3T24, sem participação governamental e sem afretamento, foi de US$ 
+5,78/boe, 4,5% inferior ao do último trimestre (US$ 6,05/boe). Esta redução ocorreu, principalmente, pelo 
+efeito cambial decorrente da desvalorização do real frente ao dólar em 6% e pelo aumento da produção no 
+pré-sal, influenciada pelo atingimento do topo de produção do FPSO Sepetiba e da entrada em operação de 
+novos poços de projetos n os campos de Búzios e Tupi . Esses efeitos foram compensados, parcialmente, 
+pelo aumento dos custos, principalmente, com inspeções submarinas nos campos de Roncador, Marlim, 
+Caratinga, Barracuda e Tupi. 
+No Pré-sal, houve redução de 2,4% no lifting cost, ocorrida pelo efeito da desvalorização cambial e aumento 
+de produção, resultado do atingimento do topo de produção do FPSO Sepetiba e da entrada em operação 
+de novos poços de projetos nos campos de Búzios e Tupi. Esses efeitos foram compensados, parcialmente, 
+pelo aumento dos custos com inspeções submarinas nos campos de Caratinga, Barracuda e Tupi. 
+No Pós-sal, o lifting cost permaneceu praticamente estável em relação ao trimestre anterior. A redução 
+ocasionada pelo efeito da desvalorização cambial foi compensada pela queda na produção, devido a 
+algumas paradas na Bacia de Campos, especialmente no campo de Marlim Sul. 
+Nos ativos de Terra e Águas Rasas, o lifting cost permaneceu no mesmo patamar em relação ao trimestre 
+anterior. O efeito da desvalorização cambial foi compensado parcialmente pela queda de produção devido 
+ao maior volume de perdas com paradas para manutenções.
+
+[p. 17]
+PETROBRAS | Relatório de Desempenho | 3T24 17 
+Resultados por Segmento de Negócio 
+Refino, Transporte e Comercialização 
+ 
+Tabela 8 – Resultados do RTC 
+ Variação (%) (*) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Receita de vendas 21.739 22.061 23.691 65.990 69.590 (1,5) (8,2) (5,2) 
+Lucro bruto 1.236 1.504 2.291 4.947 6.994 (17,8) (46,0) (29,3) 
+Despesas operacionais (781) (701) (791) (2.318) (3.120) 11,4 (1,3) (25,7) 
+Lucro (Prejuízo) operacional 455 803 1.500 2.629 3.874 (43,3) (69,7) (32,1) 
+Lucro (Prejuízo) - Acionistas Petrobras 255 279 814 1.309 2.325 (8,6) (68,7) (43,7) 
+EBITDA ajustado do segmento 1.078 1.360 2.111 4.432 6.089 (20,7) (48,9) (27,2) 
+Margem do EBITDA do segmento (%) 5 6 9 7 9 (1) (4) (2) 
+ROCE (Retorno sobre o Capital 
+Empregado) (%) 3,1 4,6 6,7 3,1 6,7 (1,5) (3,6) (3,6) 
+Custo do refino (US$/barril) - Brasil 2,84 2,63 2,38 2,70 2,25 8,0 19,3 20,0 
+Preço derivados básicos - Mercado 
+Interno (US$/bbl) 88,10 91,34 95,04 91,76 99,97 (3,5) (7,3) (8,2) 
+(*) Variações de margem EBITDA e ROCE em pontos percentuais. 
+No 3T24, o lucro bruto do RTC reduziu em relação ao do 2T24 devido, principalmente, às menores margens 
+de derivados no mercado interno. Considerando o efeito do giro dos estoques de US$ 186 milhões no 3T24 
+e US$ 541 milhões no 2T24, o lucro bruto do RTC seria US$ 1.050 milhões no 3T24 US$ 963 milhões no 2T24. 
+Houve menores margens no mercado interno, principalmente em diesel e QAV, acompanhando a queda das 
+margens internacionais destes derivados entre os trimestres. O volume de vendas no mercado interno foi 
+maior, principalmente de diesel, impulsionado pela sazonalidade de consumo com a safra de grãos e maior 
+atividade industrial, e de gasolina pela m aior competitividade em relação ao etanol no abastecimento de 
+veículos flex. Estes fatores ajudaram a compensar, ainda que parcialmente, a redução nas margens. 
+No 3T24, o lucro operacional foi menor em relação ao do 2T24, refletindo a redução do lucro bruto e maiores 
+despesas operacionais no período, principalmente pela reversão de impairment de Araucária Nitrogenados 
+(ANSA) ocorrida no 2T24. 
+No 3T24 o custo unitário de refino em dólares ficou 8,0% acima do 2T24. Destacaram-se os maiores gastos 
+em pessoal relacionados ao ACT e materiais e serviços relacionados à manutenção e conservação. A carga 
+processada mais elevada no 3T24 e o efeito cambial compensaram parcialmente a elevação do custo 
+absoluto.
+
+[p. 18]
+PETROBRAS | Relatório de Desempenho | 3T24 18 
+Resultados por Segmento de Negócio 
+Gás e Energias de Baixo Carbono 
+ 
+Tabela 9 – Resultados do Gás e Energias de Baixo Carbono 
+ Variação (%) (1) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Receita de vendas 2.341 2.198 2.629 6.961 8.250 6,5 (11,0) (15,6) 
+Lucro bruto 970 1.102 1.463 3.317 3.991 (12,0) (33,7) (16,9) 
+Despesas operacionais (801) (867) (906) (2.557) (2.450) (7,6) (11,6) 4,4 
+Lucro (Prejuízo) operacional 169 235 557 760 1.541 (28,1) (69,7) (50,7) 
+Lucro (Prejuízo) - Acionistas Petrobras 109 179 344 530 978 (39,1) (68,3) (45,8) 
+EBITDA ajustado do segmento 299 372 741 1.161 1.979 (19,6) (59,6) (41,3) 
+Margem do EBITDA do segmento (%) 13 17 28 17 24 (4) (15) (7) 
+ROCE (Retorno sobre o Capital 
+Empregado) (%) (2) 6,1 8,8 9,5 6,1 9,5 (2,7) (3,4) (3,4) 
+Preço de venda gás natural - Brasil 
+(US$/bbl) 59,61 63,69 66,20 63,74 70,16 (6,4) (10,0) (9,2) 
+Preço de venda gás natural - Brasil 
+(US$/MMBtu) 10,05 10,74 11,16 10,75 11,83 (6,4) (9,9) (9,1) 
+Receita fixa de leilões (3)(4) 57 61 89 182 258 (8,0) (36,6) (29,3) 
+Preço médio de venda de energia 
+elétrica (US$/MWh) (4)(5) 73,55 28,11 18,63 62,83 14,23 161,7 294,8 341,7 
+(1) Variações de margem EBITDA e ROCE em pontos percentuais. 
+(2) Número do 2T24 revisado devido à reclassificação dos ativos de fertilizantes que saíram do G&EBC e foram migrados para o RTC em 
+2023 e, até então, não estavam totalmente refletidos no cálculo do ROCE. 
+(3) A Receita fixa de leilões considera as parcelas da remuneração da disponibilidade térmica e da energia elétrica inflexível comprometida 
+em leilão. 
+(4) Para o período corrente, os valores referentes ao segmento de Energia estão sujeitos a eventuais alterações a partir da emissão do 
+relatório definitivo da Câmara de Comercialização de Energia Elétrica - CCEE. 
+(5) Número do 2T24 revisado após emissão do relatório definitivo da Câmara de Comercialização de Energia Elétrica - CCEE. 
+ 
+No 3T24, o lucro bruto do segmento Gás e Energias de Baixo Carbono foi menor em relação ao 2T24, devido 
+à redução do preço médio de venda de gás natural e à necessidade de maior importação de GNL. O preço 
+médio de venda de gás repercutiu as oscilações do câmbio, bem como os efeitos do prêmio por performance 
+implementado a partir de junho, visando preservar a competitividade da Petrobras no mercado não -
+térmico. 
+Por fim, cabe destacar que no 3T24 foram observadas menores despesas operacionais devido, 
+principalmente, ao impacto da desvalorização cambial nas tarifas com transporte e à reversão de perda 
+judicial, que impactaram positivamente o lucro operacional na comparação com o 2T24.
+
+[p. 19]
+PETROBRAS | Relatório de Desempenho | 3T24 19 
+Reconciliação do EBITDA Ajustado 
+Reconciliação do EBITDA Ajustado 
+O EBITDA é um indicador calculado como sendo o lucro líquido do período acrescido dos tributos sobre o 
+lucro, do resultado financeiro líquido, depreciação e amortização. A Petrobras divulga o EBITDA, conforme 
+faculta a Resolução CVM Nº 156, de junho de 2022. 
+Visando refletir a visão dos Administradores quanto à formação do resultado das atividades correntes da 
+companhia, o EBITDA também é apresentado ajustado (EBITDA Ajustado) por: resultado da participação em 
+investimentos, impairment, resultados com acordo de coparticipação em áreas licitadas e o resultado com 
+alienação e baixa de ativos. 
+O EBITDA Ajustado, quando refletindo o somatório dos últimos 12 meses, também representa uma 
+alternativa à geração operacional de caixa da companhia. Esta medida é utilizada para cálculo da métrica 
+Dívida bruta e Dívida líquida sobre EBITDA Ajustado, auxiliando na avaliação da alavancagem e liquidez da 
+companhia. 
+O EBITDA e o EBITDA Ajustado não estão previstos nas normas internacionais de relatório-financeiro – IFRS, 
+e não devem servir como base de comparação com os divulgados por outras empresas, assim como não 
+devem ser considerados como substitutos a qualquer outra medida calculada de acordo com o IFRS. 
+Estas medidas devem ser consideradas em conjunto com outras medidas e indicadores para um melhor 
+entendimento sobre o desempenho e condições financeiras da companhia. 
+ 
+Tabela 10 – Reconciliação do EBITDA Ajustado 
+ Variação (%) (*) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Lucro (prejuízo) líquido do período 5.891 (325) 5.484 10.371 18.713 − 7,4 (44,6) 
+Resultado Financeiro Líquido 281 6.869 1.985 9.089 2.628 (95,9) (85,8) 245,9 
+Imposto de renda e contribuição social 2.205 (27) 2.263 4.325 8.435 − (2,6) (48,7) 
+Depreciação, depleção e amortização 2.983 3.138 3.475 9.483 9.648 (4,9) (14,2) (1,7) 
+EBITDA 11.360 9.655 13.207 33.268 39.424 17,7 (14,0) (15,6) 
+Resultado de participações em 
+investimentos 23 188 248 304 235 (87,8) (90,7) 29,4 
+Reversão/Perda no valor de 
+recuperação de ativos - Impairment − (37) 78 (46) 482 − − − 
+Resultado com alienações e baixas de 
+ativos 97 (124) 37 (189) (1.150) − 162,2 (83,6) 
+Resultado com acordo de 
+coparticipação em áreas licitadas − (55) (19) (103) (47) − − 119,1 
+EBITDA Ajustado total 11.480 9.627 13.551 33.234 38.944 19,2 (15,3) (14,7) 
+Margem do EBITDA Ajustado (%) 49 41 53 47 52 8,0 (4,0) (5,0) 
+(*) Variações de Margem EBITDA em pontos percentuais.
+
+[p. 20]
+PETROBRAS | Relatório de Desempenho | 3T24 20 
+Anexos 
+Anexos 
+Demonstrações contábeis 
+Tabela 11 - Demonstração do resultado – Consolidado 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 
+Receita de vendas 23.366 23.467 25.552 70.601 75.302 
+Custo dos produtos e serviços vendidos (11.361) (11.740) (11.982) (34.612) (35.982) 
+Lucro bruto 12.005 11.727 13.570 35.989 39.320 
+Vendas (1.193) (1.268) (1.288) (3.794) (3.709) 
+Gerais e administrativas (409) (549) (395) (1.405) (1.140) 
+Custos exploratórios para extração de petróleo e gás (406) (174) (480) (715) (828) 
+Custos com pesquisa e desenvolvimento tecnológico (195) (193) (186) (571) (512) 
+Tributárias (55) (948) (114) (1.143) (643) 
+Reversão (Perda), líquida, no valor de recuperação de ativos - 
+Impairment − 37 (78) 46 (482) 
+Outras receitas (despesas), operacionais líquidas (1.347) (1.927) (1.049) (4.318) (1.995) 
+ (3.605) (5.022) (3.590) (11.900) (9.309) 
+Lucro antes do resultado financeiro, participações e 
+impostos 8.400 6.705 9.980 24.089 30.011 
+Receitas financeiras 491 477 600 1.520 1.581 
+Despesas financeiras (881) (2.932) (1.163) (4.885) (2.875) 
+Var. monetárias e cambiais, líquidas 109 (4.414) (1.422) (5.724) (1.334) 
+Resultado financeiro líquido (281) (6.869) (1.985) (9.089) (2.628) 
+Resultado de participações em investidas por equivalência 
+patrimonial (23) (188) (248) (304) (235) 
+Lucro (Prejuízo) antes dos tributos sobre o lucro 8.096 (352) 7.747 14.696 27.148 
+Imposto de renda e contribuição social (2.205) 27 (2.263) (4.325) (8.435) 
+Lucro (prejuízo) líquido do período 5.891 (325) 5.484 10.371 18.713 
+Atribuível aos: 
+Acionistas Petrobras 5.870 (344) 5.456 10.308 18.625 
+Acionistas não controladores 21 19 28 63 88
+
+[p. 21]
+PETROBRAS | Relatório de Desempenho | 3T24 21 
+Anexos 
+Tabela 12 - Balanço patrimonial – Consolidado 
+ATIVO - US$ milhões 30.09.2024 31.12.2023 
+Circulante 30.721 32.445 
+Caixa e equivalentes de caixa 8.694 12.727 
+Títulos e valores mobiliários 5.593 2.819 
+Contas a receber, líquidas 4.377 6.135 
+Estoques 7.442 7.681 
+Impostos e contribuições 2.438 1.178 
+Ativos classificados como mantidos para venda 420 335 
+Outros ativos circulantes 1.757 1.570 
+Não Circulante 167.118 184.622 
+Realizável a Longo Prazo 22.507 26.798 
+Contas a receber, líquidas 1.012 1.847 
+Títulos e valores mobiliários 643 2.409 
+Depósitos judiciais 12.998 14.746 
+Imposto de renda e contribuição social diferidos 980 965 
+Impostos e contribuições 4.103 4.516 
+Outros ativos realizáveis a longo prazo 2.771 2.315 
+Investimentos 974 1.358 
+Imobilizado 141.079 153.424 
+Intangível 2.558 3.042 
+Total do Ativo 197.839 217.067 
+ 
+ 
+PASSIVO - US$ milhões 30.09.2024 31.12.2023 
+Circulante 32.843 33.860 
+Fornecedores 5.299 4.813 
+Financiamentos 3.957 4.322 
+Arrendamentos 7.749 7.200 
+Impostos e contribuições 5.653 5.466 
+Dividendos propostos 2.402 3.539 
+Provisão para desmantelamento de áreas 1.701 2.032 
+Benefícios a empregados 2.883 2.932 
+Passivos associados a ativos mantidos para venda 771 541 
+Outras contas e despesas a pagar 2.428 3.015 
+Não Circulante 92.484 104.232 
+Financiamentos 21.799 24.479 
+Arrendamentos 25.627 26.599 
+Imposto de renda e contribuição social correntes 238 299 
+Imposto de renda e contribuição social diferidos 7.264 10.910 
+Benefícios a empregados 14.229 15.579 
+Provisão para processos judiciais e administrativos 3.261 3.305
+
+[p. 22]
+PETROBRAS | Relatório de Desempenho | 3T24 22 
+Anexos 
+Provisão para desmantelamento de áreas 18.347 21.171 
+Outras contas e despesas a pagar 1.719 1.890 
+Patrimônio Líquido 72.512 78.975 
+Atribuível aos acionistas da Petrobras 72.255 78.583 
+Capital subscrito e integralizado 107.101 107.101 
+Reserva de capital, transações de capital e ações em tesouraria 29 410 
+Reservas de lucros 64.326 72.641 
+Lucros acumulados 6.424 − 
+Outros resultados abrangentes (105.625) (101.569) 
+Atribuível aos acionistas não controladores 257 392 
+Total do passivo 197.839 217.067
+
+[p. 23]
+PETROBRAS | Relatório de Desempenho | 3T24 23 
+Anexos 
+Tabela 13 - Demonstração do fluxo de caixa - Consolidado 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 
+Fluxo de caixa das atividades operacionais 
+Lucro líquido (prejuízo) do período 5.891 (325) 5.484 10.371 18.713 
+Ajustes para: 
+Resultado atuarial de planos de pensão e saúde 409 1.702 394 2.544 1.153 
+Resultado de participações em investidas por equivalência 
+patrimonial 23 188 248 304 235 
+Depreciação, depleção e amortização 2.983 3.138 3.475 9.483 9.648 
+Perda (reversão) líquida no valor de recuperação de ativos - 
+Impairment − (37) 78 (46) 482 
+Ajuste a valor realizável líquido 2 − (10) (42) (4) 
+Perdas líquidas de crédito esperadas 6 18 15 54 49 
+Baixa de poços 309 55 372 414 410 
+Resultado com alienações e baixas de ativos 97 (124) 37 (189) (1.150) 
+Variações cambiais, monetárias e encargos financeiros não 
+realizados 168 7.040 1.967 9.143 2.814 
+Imposto de renda e contribuição social 2.205 (27) 2.263 4.325 8.435 
+Revisão e atualização financeira de desmantelamento de 
+áreas 242 259 219 781 662 
+Resultado com acordo de coparticipação em áreas licitadas − (55) (19) (103) (47) 
+Encerramento antecipado e alterações em pagamentos de 
+contratos de arrendamento (88) (77) (103) (234) (361) 
+Perdas (Ganhos) com processos judiciais, administrativos e 
+arbitrais 287 240 141 808 672 
+Redução (aumento) de ativos 
+Contas a receber 163 855 (588) 1.622 587 
+Estoques 1 272 52 (354) 1.132 
+Depósitos judiciais (160) 862 (318) 414 (1.100) 
+Outros ativos (38) (105) (106) (109) 169 
+Aumento (redução) de passivos 
+Fornecedores 392 (165) (726) 634 (1.017) 
+Impostos e contribuições (459) (1.342) 543 (2.321) (421) 
+Planos de pensão e de saúde (276) (279) (232) (758) (683) 
+Provisão para processos judiciais e administrativos (96) (122) (147) (296) (366) 
+Outros benefícios a empregados 499 (311) 379 129 163 
+Provisão para desmantelamento de áreas (282) (200) (259) (745) (597) 
+Outros passivos (250) (275) (243) (607) (371) 
+Imposto de renda e contribuição social pagos (721) (2.098) (1.362) (5.442) (7.664) 
+Recursos líquidos gerados pelas atividades operacionais 11.307 9.087 11.554 29.780 31.543 
+Fluxo de caixa das atividades de investimentos 
+Aquisições de ativos imobilizados e intangíveis (4.443) (2.934) (3.185) (10.215) (8.520) 
+Aquisições em participações societárias (7) (5) (5) (13) (22) 
+Recebimentos pela venda de ativos - Desinvestimentos 25 197 103 791 3.564 
+Compensação financeira por Acordos de Coparticipação − − − 397 391
+
+[p. 24]
+PETROBRAS | Relatório de Desempenho | 3T24 24 
+Anexos 
+(Investimentos) resgates em títulos e valores mobiliários (374) 670 253 (1.179) (215) 
+Dividendos recebidos 57 40 6 121 75 
+Recursos líquidos gerados (utilizados) nas atividades de 
+investimentos (4.742) (2.032) (2.828) (10.098) (4.727) 
+Fluxo de caixa das atividades de financiamentos 
+Participação de acionistas não controladores (232) 32 (52) (107) (102) 
+Financiamentos e operações de mútuo, líquidos: 
+Captações 986 565 1.238 1.553 1.300 
+Amortizações de principal - financiamentos (1.909) (1.311) (1.000) (4.227) (2.482) 
+Amortizações de juros - financiamentos (534) (401) (568) (1.529) (1.572) 
+Amortizações de arrendamentos (1.913) (1.965) (1.632) (5.796) (4.494) 
+Dividendos pagos a acionistas da Petrobras (2.293) (7.123) (4.837) (12.871) (15.234) 
+Recompra de ações − (148) (197) (380) (197) 
+Dividendos pagos a acionistas não controladores − (20) − (77) (48) 
+Recursos líquidos gerados (utilizados) pelas atividades de 
+financiamentos (5.895) (10.371) (7.048) (23.434) (22.829) 
+Efeito de variação cambial sobre caixa e equivalentes de 
+caixa 140 (347) 81 (281) 127 
+Aumento (redução) de caixa e equivalentes de caixa no 
+exercício 810 (3.663) 1.759 (4.033) 4.114 
+Caixa e equivalentes de caixa no início do período 7.884 11.547 10.351 12.727 7.996 
+Caixa e equivalentes de caixa no fim do período 8.694 7.884 12.110 8.694 12.110
+
+[p. 25]
+PETROBRAS | Relatório de Desempenho | 3T24 25 
+Anexos 
+Tabela 14 - Receita líquida por produtos 
+ Variação (%) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Diesel 7.031 6.979 8.188 21.086 23.575 0,7 (14,1) (10,6) 
+Gasolina 3.140 3.073 3.412 9.418 10.881 2,2 (8,0) (13,4) 
+Gás liquefeito de petróleo (GLP) 849 793 842 2.400 2.722 7,1 0,8 (11,8) 
+Querosene de aviação (QAV) 1.146 1.147 1.169 3.477 3.677 (0,1) (2,0) (5,4) 
+Nafta 480 483 449 1.390 1.357 (0,6) 6,9 2,4 
+Óleo combustível (incluindo 
+bunker) 209 233 287 786 834 (10,3) (27,2) (5,8) 
+Outros derivados de petróleo 1.212 1.073 1.152 3.304 3.364 13,0 5,2 (1,8) 
+Subtotal de derivados de petróleo 14.067 13.781 15.499 41.861 46.410 2,1 (9,2) (9,8) 
+Gás Natural 1.152 1.136 1.352 3.610 4.307 1,4 (14,8) (16,2) 
+Petróleo 1.143 1.049 1.282 3.421 3.997 9,0 (10,8) (14,4) 
+Renováveis e nitrogenados 73 43 16 147 62 69,8 356,3 137,1 
+Receitas de direitos não exercidos 101 121 207 362 645 (16,5) (51,2) (43,9) 
+Energia elétrica 277 104 160 509 423 166,3 73,1 20,3 
+Serviços, agenciamento e outros 192 202 272 641 797 (5,0) (29,4) (19,6) 
+Total mercado interno 17.005 16.436 18.788 50.551 56.641 3,5 (9,5) (10,8) 
+Exportações 6.214 6.746 6.581 19.358 17.752 (7,9) (5,6) 9,0 
+Petróleo 4.627 5.163 4.789 14.701 13.245 (10,4) (3,4) 11,0 
+Óleo combustível (incluindo 
+bunker) 1.278 1.126 1.371 3.726 3.734 13,5 (6,8) (0,2) 
+Outros derivados de petróleo e 
+outros produtos 309 457 421 931 773 (32,4) (26,6) 20,4 
+Vendas no exterior (*) 147 285 183 692 909 (48,4) (19,7) (23,9) 
+Total mercado externo 6.361 7.031 6.764 20.050 18.661 (9,5) (6,0) 7,4 
+Total 23.366 23.467 25.552 70.601 75.302 (0,4) (8,6) (6,2) 
+(*) Receita proveniente de vendas realizadas no exterior, incluindo trading e excluídas exportações.
+
+[p. 26]
+PETROBRAS | Relatório de Desempenho | 3T24 26 
+Anexos 
+Tabela 15 - Custo dos produtos vendidos (*) 
+ Variação (%) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Compras e importações (4.007) (4.145) (4.110) (11.660) (13.356) (3,3) (2,5) (12,7) 
+Petróleo (2.416) (2.590) (2.231) (6.887) (6.985) (6,7) 8,3 (1,4) 
+Derivados (1.033) (1.152) (1.565) (3.259) (4.944) (10,3) (34,0) (34,1) 
+Gás natural (558) (403) (314) (1.514) (1.427) 38,5 77,7 6,1 
+Produção (7.010) (7.192) (7.429) (21.772) (21.066) (2,5) (5,6) 3,4 
+Petróleo (5.886) (5.857) (6.132) (18.147) (17.796) 0,5 (4,0) 2,0 
+Participações governamentais (2.753) (2.661) (2.735) (8.086) (7.926) 3,5 0,7 2,0 
+Demais custos (3.133) (3.196) (3.397) (10.061) (9.870) (2,0) (7,8) 1,9 
+Derivados (754) (807) (734) (2.262) (1.737) (6,6) 2,7 30,2 
+Gás natural (370) (528) (563) (1.363) (1.533) (29,9) (34,3) (11,1) 
+Participações governamentais (84) (120) (111) (329) (295) (30,0) (24,3) 11,5 
+Demais custos (286) (408) (452) (1.034) (1.238) (29,9) (36,7) (16,5) 
+Energia elétrica, serviços prestados, 
+operações no exterior e outros (344) (403) (443) (1.180) (1.560) (14,6) (22,3) (24,4) 
+Total (11.361) (11.740) (11.982) (34.612) (35.982) (3,2) (5,2) (3,8) 
+ 
+ 
+— 
+(* ) Elaboração gerencial (não revisado).
+
+[p. 27]
+PETROBRAS | Relatório de Desempenho | 3T24 27 
+Anexos 
+Tabela 16 – Despesas operacionais 
+ Variação (%) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Despesas com vendas e gerais e 
+administrativas (1.602) (1.817) (1.683) (5.199) (4.849) (11,8) (4,8) 7,2 
+Vendas (1.193) (1.268) (1.288) (3.794) (3.709) (5,9) (7,4) 2,3 
+Materiais, serviços, fretes, 
+aluguéis e outros (1.002) (1.069) (1.102) (3.191) (3.150) (6,3) (9,1) 1,3 
+Depreciação, depleção e 
+amortização (159) (166) (162) (498) (466) (4,2) (1,9) 6,9 
+Perdas de créditos esperadas − 2 3 (8) (14) − − (42,9) 
+Gastos com pessoal (32) (35) (27) (97) (79) (8,6) 18,5 22,8 
+Gerais e administrativas (409) (549) (395) (1.405) (1.140) (25,5) 3,5 23,2 
+Gastos com pessoal (*) (278) (365) (274) (935) (747) (23,8) 1,5 25,2 
+Materiais, serviços, aluguéis e 
+outros (96) (146) (92) (362) (306) (34,2) 4,3 18,3 
+Depreciação, depleção e 
+amortização (35) (38) (29) (108) (87) (7,9) 20,7 24,1 
+Despesas exploratórias para extração 
+de petróleo e gás (406) (174) (480) (715) (828) 133,3 (15,4) (13,6) 
+Despesa com pesquisa e 
+desenvolvimento tecnológico (195) (193) (186) (571) (512) 1,0 4,8 11,5 
+Tributárias (55) (948) (114) (1.143) (643) (94,2) (51,8) 77,8 
+Reversão (Perda) líquida no valor de 
+recuperação de ativos - Impairment − 37 (78) 46 (482) − − − 
+Outras (despesas) receitas (1.347) (1.927) (1.049) (4.318) (1.995) (30,1) 28,4 116,4 
+Total (3.605) (5.022) (3.590) (11.900) (9.309) (28,2) 0,4 27,8 
+(*) No período de nove meses findo em 30 de setembro de 2024, refere-se, principalmente, à revisão atuarial do plano de saúde Saúde 
+Petrobras - AMS no segundo trimestre de 2024, refletindo a alteração do benefício, no valor de US$ 78 milhões.
+
+[p. 28]
+PETROBRAS | Relatório de Desempenho | 3T24 28 
+Anexos 
+Tabela 17 – Resultado financeiro 
+ Variação (%) 
+US$ milhões 3T24 2T24 3T23 9M24 9M23 3T24 X 
+2T24 
+3T24 X 
+3T23 
+9M24 X 
+9M23 
+Receitas Financeiras 491 477 600 1.520 1.581 2,9 (18,2) (3,9) 
+Receita com aplicações financeiras e 
+títulos públicos 363 380 454 1.175 1.211 (4,5) (20,0) (3,0) 
+Outros 128 97 146 345 370 32,0 (12,3) (6,8) 
+Despesas Financeiras (881) (2.932) (1.163) (4.885) (2.875) (70,0) (24,2) 69,9 
+Despesas com financiamentos (555) (519) (662) (1.628) (1.715) 6,9 (16,2) (5,1) 
+Despesas com arrendamentos (544) (557) (495) (1.648) (1.253) (2,3) 9,9 31,5 
+Encargos financeiros capitalizados 398 383 338 1.157 927 3,9 17,8 24,8 
+Atualização financeira da provisão 
+de desmantelamento (242) (258) (216) (772) (647) (6,2) 12,0 19,3 
+Outros (*) 62 (1.981) (128) (1.994) (187) − − 966,3 
+Variações monetárias e cambiais, 
+líquidas 109 (4.414) (1.422) (5.724) (1.334) − − 329,1 
+Variações cambiais (**) 587 (3.540) (932) (3.834) 1.388 − − − 
+Reclassificação do hedge accounting (821) (600) (758) (2.118) (2.990) 36,8 8,3 (29,2) 
+Atualização monetária de dividendos 
+antecipados e dividendos a pagar 18 (318) 1 (370) (428) − 1700,0 (13,6) 
+Atualização monetária de impostos a 
+recuperar 173 (145) 18 77 113 − 861,1 (31,9) 
+Outros (*) 152 189 249 521 583 (19,6) (39,0) (10,6) 
+Total (281) (6.869) (1.985) (9.089) (2.628) (95,9) (85,8) 245,9 
+(*) Inclui, no período de nove meses findo em 30 de setembro de 2024, despesa financeira de US$ 1.804 milhões e variação monetária de 
+US$ 235 milhões, relativos ao programa de liquidação de impostos - impostos federais. 
+(**) Variação cambial real x dólar nos períodos: 3T24: +US$ 702 milhões; 2T24: -US$ 3.536 milhões; 3T23: -US$ 1.013 milhões; 9M24: -US$ 
+3.747 milhões; 9M23: +US$ 1.416 milhões.
+
+[p. 29]
+PETROBRAS | Relatório de Desempenho | 3T24 29 
+Anexos 
+Informações contábeis por segmento de negócio 
+Tabela 18 - Demonstração consolidada do resultado por segmento de negócio – 9M24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 47.128 65.990 6.961 240 (49.718) 70.601 
+Intersegmentos 46.875 777 2.061 5 (49.718) − 
+Terceiros 253 65.213 4.900 235 − 70.601 
+Custo dos produtos e serviços vendidos (18.821) (61.043) (3.644) (224) 49.120 (34.612) 
+Lucro bruto 28.307 4.947 3.317 16 (598) 35.989 
+Despesas (3.403) (2.318) (2.557) (3.622) − (11.900) 
+Vendas (1) (1.569) (2.208) (16) − (3.794) 
+Gerais e administrativas (43) (265) (94) (1.003) − (1.405) 
+Custos exploratórios p/ extração de petróleo e 
+gás (715) − − − − (715) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (451) (4) (2) (114) − (571) 
+Tributárias (737) (32) (14) (360) − (1.143) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment (4) 37 − 13 − 46 
+Outras receitas (despesas) operacionais líquidas (1.452) (485) (239) (2.142) − (4.318) 
+Lucro (prejuízo) antes do resultado financeiro, 
+das participações e impostos 24.904 2.629 760 (3.606) (598) 24.089 
+Resultado financeiro líquido − − − (9.089) − (9.089) 
+Resultado de participações em investidas por 
+equivalência patrimonial 62 (426) 66 (6) − (304) 
+Lucro (prejuízo) antes dos impostos 24.966 2.203 826 (12.701) (598) 14.696 
+Imposto de renda e contribuição social (8.469) (894) (257) 5.090 205 (4.325) 
+Lucro líquido (prejuízo) 16.497 1.309 569 (7.611) (393) 10.371 
+Atribuível aos: 
+Acionistas da Petrobras 16.499 1.309 530 (7.637) (393) 10.308 
+Acionistas não controladores (2) − 39 26 − 63
+
+[p. 30]
+PETROBRAS | Relatório de Desempenho | 3T24 30 
+Anexos 
+Tabela 19 - Demonstração consolidada do resultado por segmento de negócio – 9M23 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 48.374 69.590 8.250 253 (51.165) 75.302 
+Intersegmentos 47.732 1.065 2.361 7 (51.165) − 
+Terceiros 642 68.525 5.889 246 − 75.302 
+Custo dos produtos e serviços vendidos (19.642) (62.596) (4.259) (255) 50.770 (35.982) 
+Lucro bruto 28.732 6.994 3.991 (2) (395) 39.320 
+Despesas (1.837) (3.120) (2.450) (1.903) 1 (9.309) 
+Vendas (11) (1.579) (2.099) (21) 1 (3.709) 
+Gerais e administrativas (40) (242) (52) (806) − (1.140) 
+Custos exploratórios p/ extração de petróleo e 
+gás (828) − − − − (828) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (401) (16) (2) (93) − (512) 
+Tributárias (370) (12) (29) (232) − (643) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment (96) (416) − 30 − (482) 
+Outras receitas (despesas) operacionais líquidas (91) (855) (268) (781) − (1.995) 
+Lucro (prejuízo) antes do resultado financeiro, 
+das participações e impostos 26.895 3.874 1.541 (1.905) (394) 30.011 
+Resultado financeiro líquido − − − (2.628) − (2.628) 
+Resultado de participações em investidas por 
+equivalência patrimonial (33) (231) 17 12 − (235) 
+Lucro (prejuízo) antes dos impostos 26.862 3.643 1.558 (4.521) (394) 27.148 
+Imposto de renda e contribuição social (9.146) (1.318) (523) 2.418 134 (8.435) 
+Lucro líquido (prejuízo) 17.716 2.325 1.035 (2.103) (260) 18.713 
+Atribuível aos: 
+Acionistas da Petrobras 17.719 2.325 978 (2.137) (260) 18.625 
+Acionistas não controladores (3) − 57 34 − 88
+
+[p. 31]
+PETROBRAS | Relatório de Desempenho | 3T24 31 
+Anexos 
+Tabela 20 - Demonstração consolidada do resultado por segmento de negócio – 3 T24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 15.383 21.739 2.341 82 (16.179) 23.366 
+Intersegmentos 15.310 226 642 1 (16.179) − 
+Terceiros 73 21.513 1.699 81 − 23.366 
+Custo dos produtos e serviços vendidos (5.979) (20.503) (1.371) (76) 16.568 (11.361) 
+Lucro bruto 9.404 1.236 970 6 389 12.005 
+Despesas (1.222) (781) (801) (801) − (3.605) 
+Vendas − (480) (711) (2) − (1.193) 
+Gerais e administrativas (1) (89) (31) (288) − (409) 
+Custos exploratórios p/ extração de petróleo e 
+gás (406) − − − − (406) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (163) (2) (2) (28) − (195) 
+Tributárias 92 (4) (5) (138) − (55) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment − − − − − − 
+Outras receitas (despesas) operacionais líquidas (744) (206) (52) (345) − (1.347) 
+Lucro (prejuízo) antes do resultado financeiro, das 
+participações e impostos 8.182 455 169 (795) 389 8.400 
+Resultado financeiro líquido − − − (281) − (281) 
+Resultado de participações em investidas por 
+equivalência patrimonial 15 (45) 9 (2) − (23) 
+Lucro (prejuízo) antes dos impostos 8.197 410 178 (1.078) 389 8.096 
+Imposto de renda e contribuição social (2.782) (155) (57) 921 (132) (2.205) 
+Lucro líquido (prejuízo) 5.415 255 121 (157) 257 5.891 
+Atribuível aos: 
+Acionistas da Petrobras 5.416 255 109 (167) 257 5.870 
+Acionistas não controladores (1) − 12 10 − 21
+
+[p. 32]
+PETROBRAS | Relatório de Desempenho | 3T24 32 
+Anexos 
+Tabela 21 - Demonstração consolidada do resultado por segmento de negócio – 2 T24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Receita de vendas 15.668 22.061 2.198 80 (16.540) 23.467 
+Intersegmentos 15.591 248 699 2 (16.540) − 
+Terceiros 77 21.813 1.499 78 − 23.467 
+Custo dos produtos e serviços vendidos (6.228) (20.557) (1.096) (74) 16.215 (11.740) 
+Lucro bruto 9.440 1.504 1.102 6 (325) 11.727 
+Despesas (1.551) (701) (867) (1.903) − (5.022) 
+Vendas − (538) (729) (1) − (1.268) 
+Gerais e administrativas (22) (92) (35) (400) − (549) 
+Custos exploratórios p/ extração de petróleo e 
+gás (174) − − − − (174) 
+Custos com pesquisa e desenvolvimento 
+tecnológico (149) − − (44) − (193) 
+Tributárias (809) (21) (4) (114) − (948) 
+Reversão (Perda), líquida, no valor de 
+recuperação de ativos - Impairment − 37 − − − 37 
+Outras receitas (despesas) operacionais líquidas (397) (87) (99) (1.344) − (1.927) 
+Lucro (prejuízo) antes do resultado financeiro, das 
+participações e impostos 7.889 803 235 (1.897) (325) 6.705 
+Resultado financeiro líquido − − − (6.869) − (6.869) 
+Resultado de participações em investidas por 
+equivalência patrimonial 30 (251) 36 (3) − (188) 
+Lucro (prejuízo) antes dos impostos 7.919 552 271 (8.769) (325) (352) 
+Imposto de renda e contribuição social (2.682) (273) (80) 2.951 111 27 
+Lucro líquido (prejuízo) 5.237 279 191 (5.818) (214) (325) 
+Atribuível aos: 
+Acionistas da Petrobras 5.237 279 179 (5.825) (214) (344) 
+Acionistas não controladores − − 12 7 − 19
+
+[p. 33]
+PETROBRAS | Relatório de Desempenho | 3T24 33 
+Anexos 
+Tabela 22 - Demonstração do grupo de outras receitas (despesas) – 9M24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (1.895) (66) (51) (12) − (2.024) 
+Plano de Pensão e Saúde (Inativos) (*) − − − (1.907) − (1.907) 
+Perdas com processos judiciais, administrativos e 
+arbitrais (292) (369) (15) (132) − (808) 
+Participação nos Lucros ou Resultados (233) (85) (27) (130) − (475) 
+Programa de Remuneração Variável (143) (104) (15) (93) − (355) 
+Despesas operacionais com termelétricas − − (169) − − (169) 
+Relações institucionais e projetos culturais − (3) − (138) − (141) 
+Despesas com multas contratuais recebidas (30) − (16) − − (46) 
+Ressarcimento de gastos referentes à Operação 
+Lava Jato − − − 38 − 38 
+Resultado com derivativos de commodities − 53 (1) − − 52 
+Resultado com acordo de coparticipação em áreas 
+licitadas 103 − − − − 103 
+Contratos de Ship/Take or Pay 3 32 109 2 − 146 
+Subvenções e assistências governamentais 2 − 3 153 − 158 
+Resultado com alienações e baixas de ativos 179 55 23 (68) − 189 
+Multas aplicadas a fornecedores 170 19 3 9 − 201 
+Resultado de atividades não fim 189 (9) 11 13 − 204 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 213 13 (3) 11 − 234 
+Resultado com operações em parcerias de E&P 348 − − − − 348 
+Outras (66) (21) (91) 112 − (66) 
+Total (1.452) (485) (239) (2.142) − (4.318) 
+(*) No período de nove meses findo em 30 de setembro de 2024, refere-se, principalmente, à revisão atuarial do plano de saúde Saúde 
+Petrobras - AMS ocorrida no segundo trimestre de 2024, refletindo a alteração do benefício, no valor de US$ 1.000 milhões.
+
+[p. 34]
+PETROBRAS | Relatório de Desempenho | 3T24 34 
+Anexos 
+Tabela 23 - Demonstração do grupo de outras receitas (despesas) – 9M23 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (1.587) (15) (37) (22) − (1.661) 
+Plano de Pensão e Saúde (Inativos) − − − (877) − (877) 
+Perdas com processos judiciais, administrativos e 
+arbitrais (259) (328) (1) (84) − (672) 
+Participação nos Lucros ou Resultados (48) (26) (6) (28) − (108) 
+Programa de Remuneração Variável (181) (138) (25) (127) − (471) 
+Despesas operacionais com termelétricas − − (134) − − (134) 
+Relações institucionais e projetos culturais − (3) − (85) − (88) 
+Despesas com multas contratuais recebidas (14) 1 (145) (1) − (159) 
+Ressarcimento de gastos referentes à Operação 
+Lava Jato (*) − − − 99 − 99 
+Resultado com derivativos de commodities − (21) − 1 − (20) 
+Resultado com acordo de coparticipação em áreas 
+licitadas 47 − − − − 47 
+Contratos de Ship/Take or Pay 3 30 104 1 − 138 
+Subvenções e assistências governamentais 14 − − 243 − 257 
+Resultado com alienações e baixas de ativos 1.203 (11) (52) 10 − 1.150 
+Multas aplicadas a fornecedores 139 20 3 16 − 178 
+Resultado de atividades não fim 101 (77) 74 24 − 122 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 273 91 − (3) − 361 
+Resultado com operações em parcerias de E&P 430 − − − − 430 
+Outras (**) (212) (378) (49) 52 − (587) 
+Total (91) (855) (268) (781) − (1.995) 
+ (*) O valor total recuperado da Investigação Lava Jato até 31 de dezembro de 2023 foi de US$ 1.727 milhões, reconhecido por meio de 
+acordos de colaboração e leniência firmados com pessoas físicas e jurídicas. 
+ (**) Inclui, no período de nove meses findo em 30 de setembro de 2023, despesas com indenização pelo distrato de um contrato de 
+afretamento de embarcação no montante de US$ 317 milhões.
+
+[p. 35]
+PETROBRAS | Relatório de Desempenho | 3T24 35 
+Anexos 
+ 
+Tabela 24 - Demonstração do grupo de outras receitas (despesas) – 3T24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (639) (13) (18) (2) − (672) 
+Plano de Pensão e Saúde (Inativos) − − − (305) − (305) 
+Ganhos (Perdas) com processos judiciais, 
+administrativos e arbitrais (104) (196) 21 (8) − (287) 
+Participação nos Lucros ou Resultados (93) (17) (9) (45) − (164) 
+Programa de Remuneração Variável (80) (44) (7) (45) − (176) 
+Despesas operacionais com termelétricas − − (50) − − (50) 
+Relações institucionais e projetos culturais − (1) − (69) − (70) 
+Despesas com multas contratuais recebidas (8) − (3) − − (11) 
+Ressarcimento de gastos referentes à Operação 
+Lava Jato − − − 31 − 31 
+Resultado com derivativos de commodities − 27 1 − − 28 
+Resultado com acordo de coparticipação em áreas 
+licitadas − − − − − − 
+Contratos de Ship/Take or Pay 1 7 49 1 − 58 
+Subvenções e assistências governamentais 1 − 1 61 − 63 
+Resultado com alienações e baixas de ativos (58) (13) − (26) − (97) 
+Multas aplicadas a fornecedores 71 2 − 3 − 76 
+Resultado de atividades não fim 69 7 1 5 − 82 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 71 8 (4) 13 − 88 
+Resultado com operações em parcerias de E&P 79 − − − − 79 
+Outras (54) 27 (34) 41 − (20) 
+Total (744) (206) (52) (345) − (1.347)
+
+[p. 36]
+PETROBRAS | Relatório de Desempenho | 3T24 36 
+Anexos 
+Tabela 25 - Demonstração do grupo de outras receitas (despesas) – 2T24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Paradas para manutenção de ativos e gastos pré-
+operacionais (649) (27) (18) (6) − (700) 
+Plano de Pensão e Saúde (Inativos) (*) − − − (1.293) − (1.293) 
+Perdas com processos judiciais, administrativos e 
+arbitrais (104) (77) (32) (27) − (240) 
+Participação nos Lucros ou Resultados (69) (20) (9) (37) − (135) 
+Programa de Remuneração Variável (30) (40) (4) (26) − (100) 
+Despesas operacionais com termelétricas − − (53) − − (53) 
+Relações institucionais e projetos culturais − (1) − (43) − (44) 
+Despesas com multas contratuais recebidas (16) − (2) − − (18) 
+Ressarcimento de gastos referentes à Operação 
+Lava Jato − − − 2 − 2 
+Resultado com derivativos de commodities − 21 (2) − − 19 
+Resultado com acordo de coparticipação em áreas 
+licitadas 55 − − − − 55 
+Contratos de Ship/Take or Pay 1 12 28 − − 41 
+Subvenções e assistências governamentais − − 1 16 − 17 
+Resultado com alienações e baixas de ativos 100 43 4 (23) − 124 
+Multas aplicadas a fornecedores 50 14 2 3 − 69 
+Resultado de atividades não fim 64 12 4 3 − 83 
+Encerramento antecipado e alterações em 
+pagamentos de contratos de arrendamento 75 3 2 (3) − 77 
+Resultado com operações em parcerias de E&P 113 − − − − 113 
+Outras 13 (27) (20) 90 − 56 
+Total (397) (87) (99) (1.344) − (1.927) 
+(*) No segundo trimestre de 2024, refere-se, principalmente, à revisão atuarial do plano de saúde Saúde Petrobras - AMS, reflexo da 
+alteração do benefício, no montante de US$ 1.000 milhões.
+
+[p. 37]
+PETROBRAS | Relatório de Desempenho | 3T24 37 
+Anexos 
+Tabela 26 - Ativo consolidado por segmento de negócio – 30.09.2024 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Ativo 127.646 31.368 6.683 36.928 (4.786) 197.839 
+Circulante 2.588 10.190 432 22.297 (4.786) 30.721 
+Não circulante 125.058 21.178 6.251 14.631 − 167.118 
+Realizável a longo prazo 7.704 2.455 94 12.254 − 22.507 
+Investimentos 307 435 175 57 − 974 
+Imobilizado 115.060 18.156 5.909 1.954 − 141.079 
+Em operação 95.155 15.261 3.392 1.430 − 115.238 
+Em construção 19.905 2.895 2.517 524 − 25.841 
+Intangível 1.987 132 73 366 − 2.558 
+ 
+Tabela 27 - Ativo consolidado por segmento de negócio – 31.12.2023 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Ativo 138.868 34.802 6.776 41.899 (5.278) 217.067 
+Circulante 2.804 11.002 370 23.547 (5.278) 32.445 
+Não circulante 136.064 23.800 6.406 18.352 − 184.622 
+Realizável a longo prazo 9.028 2.068 83 15.619 − 26.798 
+Investimentos 344 811 145 58 − 1.358 
+Imobilizado 124.254 20.786 6.101 2.283 − 153.424 
+Em operação 108.405 18.128 3.605 1.770 − 131.908 
+Em construção 15.849 2.658 2.496 513 − 21.516 
+Intangível 2.438 135 77 392 − 3.042
+
+[p. 38]
+PETROBRAS | Relatório de Desempenho | 3T24 38 
+Anexos 
+Tabela 28 - Reconciliação do EBITDA Ajustado por segmento de negócio – 9M24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 16.497 1.309 569 (7.611) (393) 10.371 
+Resultado financeiro líquido − − − 9.089 − 9.089 
+Imposto de renda/Contribuição social 8.469 894 257 (5.090) (205) 4.325 
+Depreciação, depleção e amortização 7.067 1.895 424 97 − 9.483 
+EBITDA 32.033 4.098 1.250 (3.515) (598) 33.268 
+Resultado de participações em investidas por 
+equivalência patrimonial (62) 426 (66) 6 − 304 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment 4 (37) − (13) − (46) 
+Resultado com alienações e baixas de ativos (179) (55) (23) 68 − (189) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (103) − − − − (103) 
+EBITDA Ajustado 31.693 4.432 1.161 (3.454) (598) 33.234 
+ 
+Tabela 29 - Reconciliação do EBITDA Ajustado por segmento de negócio – 9M23 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 17.716 2.325 1.035 (2.103) (260) 18.713 
+Resultado financeiro líquido − − − 2.628 − 2.628 
+Imposto de renda/Contribuição social 9.146 1.318 523 (2.418) (134) 8.435 
+Depreciação, depleção e amortização 7.391 1.788 386 83 − 9.648 
+EBITDA 34.253 5.431 1.944 (1.810) (394) 39.424 
+Resultado de participações em investidas por 
+equivalência patrimonial 33 231 (17) (12) − 235 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment 96 416 − (30) − 482 
+Resultado com alienações e baixas de ativos (1.203) 11 52 (10) − (1.150) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (47) − − − − (47) 
+EBITDA Ajustado 33.132 6.089 1.979 (1.862) (394) 38.944
+
+[p. 39]
+PETROBRAS | Relatório de Desempenho | 3T24 39 
+Anexos 
+Tabela 30 - Reconciliação do EBITDA Ajustado por segmento de negócio – 3T24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 5.415 255 121 (157) 257 5.891 
+Resultado financeiro líquido − − − 281 − 281 
+Imposto de renda/Contribuição social 2.782 155 57 (921) 132 2.205 
+Depreciação, depleção e amortização 2.211 610 130 32 − 2.983 
+EBITDA 10.408 1.020 308 (765) 389 11.360 
+Resultado de participações em investidas por 
+equivalência patrimonial (15) 45 (9) 2 − 23 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment − − − − − − 
+Resultado com alienações e baixas de ativos 58 13 − 26 − 97 
+Resultado com acordo de coparticipação em áreas 
+licitadas − − − − − − 
+EBITDA Ajustado 10.451 1.078 299 (737) 389 11.480 
+ 
+Tabela 31 - Reconciliação do EBITDA Ajustado por segmento de negócio – 2T24 
+US$ milhões E&P RTC G&EBC CORP. ELIMIN. TOTAL 
+Lucro líquido (prejuízo) 5.237 279 191 (5.818) (214) (325) 
+Resultado financeiro líquido − − − 6.869 − 6.869 
+Imposto de renda/Contribuição social 2.682 273 80 (2.951) (111) (27) 
+Depreciação, depleção e amortização 2.326 637 141 34 − 3.138 
+EBITDA 10.245 1.189 412 (1.866) (325) 9.655 
+Resultado de participações em investidas por 
+equivalência patrimonial (30) 251 (36) 3 − 188 
+Reversão (Perda), líquida, no valor de recuperação 
+de ativos - Impairment − (37) − − − (37) 
+Resultado com alienações e baixas de ativos (100) (43) (4) 23 − (124) 
+Resultado com acordo de coparticipação em áreas 
+licitadas (55) − − − − (55) 
+EBITDA Ajustado 10.060 1.360 372 (1.840) (325) 9.627
+
+[p. 40]
+PETROBRAS | Relatório de Desempenho | 3T24 40 
+Glossário 
+Glossário 
+ 
+A 
+Alavancagem: Índice que mede a relação entre o Endividamento Líquido e a soma do Endividamento Líquido 
+e do valor de mercado ( Market cap ). Esta métrica não está prevista nas normas internacionais de 
+contabilidade – IFRS e é possível que não seja comparável com índices similares reportados por outras 
+companhias. 
+ 
+C 
+CAPEX – Capital Expenditure : investimentos que contemplam aquisição de ativos imobilizados, incluindo 
+gastos com arrendamentos, intangíveis, investimentos das controladas, aportes nas coligadas, gastos com 
+geologia e geofísica e gastos pré-operacionais. 
+Capital empregado médio: média trimestral considerando as contas de estoques, intangível e imobilizado 
+registrados a câmbio histórico. 
+ 
+D 
+Disponibilidades ajustadas: Somatório de Caixa e Equivalentes de Caixa e investimentos em títulos e valores 
+mobiliários nos mercados doméstico e internacional que possuem alta liquidez, isto é, são conversíveis em 
+dinheiro em até 3 meses, ainda que o prazo de vencimento seja superior a 12 meses, mantidos com a 
+finalidade de atender a compromissos de caixa. A medida disponibilidades ajustadas não está prevista nas 
+normas internacionais de contabilidade, não devendo ser considerada isoladamente ou em substituição ao 
+caixa e equivalentes de caixa apurados em IFRS. Além disso, não deve ser base de comparação com a de 
+outras empresas, contudo a Administração acredita que é uma informação suplementar para avaliar a 
+liquidez e auxilia a gestão da alavancagem. 
+ 
+E 
+EBITDA Ajustado : Somatório do EBITDA, participações em investimentos, impairment, realização dos 
+resultados abrangentes por alienação de participação societária, resultados com acordo de coparticipação 
+em áreas licitadas e o resultado com alienação e baixa de ativos. Esta métrica não está prevista nas normas 
+internacionais de contabili dade – IFRS e é possível que não seja comparável com índices similares 
+reportados por outras companhias, contudo a Administração acredita que é uma informação suplementar 
+para avaliar a rentabilidade. O EBITDA Ajustado deve ser considerado em conjunto com outras métricas 
+para um melhor entendimento da performance da Companhia. 
+Endividamento líquido: Endividamento bruto subtraído das disponibilidades ajustadas. Esta métrica não 
+está prevista nas normas internacionais de contabilidade – IFRS e não deve ser considerada isoladamente 
+ou em substituição ao endividamento total de longo prazo, calculado de ac ordo com IFRS. O cálculo do 
+endividamento líquido não deve ser base de comparação com o de outras empresas, contudo a 
+Administração acredita que é uma informação suplementar que ajuda os investidores a avaliar a liquidez e 
+auxilia a gestão da alavancagem.
+
+[p. 41]
+PETROBRAS | Relatório de Desempenho | 3T24 41 
+Glossário 
+Exploração & Produção (E&P): O segmento abrange as atividades de exploração, desenvolvimento e 
+produção de petróleo bruto, LGN e gás natural no Brasil e no exterior, com o objetivo principal de abastecer 
+nossas refinarias domésticas. Este segmento também opera por meio de parcerias co m outras empresas, 
+incluindo participações em empresas estrangeiras neste segmento. 
+ 
+F 
+Fluxo de caixa livre : Corresponde ao fluxo de caixa operacional deduzido das aquisições de ativos 
+imobilizados, intangíveis e participações societárias. A medida fluxo de caixa livre não está prevista nas 
+normas internacionais de contabilidade, não devendo ser considerada isoladamente ou em substituição ao 
+caixa e equivalentes de caixa apurados em IFRS. Além disso, não deve ser base de comparação com o de 
+outras empresas. 
+ 
+G 
+Gás & Energias de Baixo Carbono (G&EBC): O segmento abrange as atividades de logística e comercialização 
+de gás natural e eletricidade, o transporte e a comercialização de GNL, a geração de eletricidade por meio 
+de usinas termelétricas, bem como o processamento de gás natural. Também inclui negócios de energia 
+renovável, serviços de baixo carbono (captura, utilizaçã o e armazenamento de carbono) e a produção de 
+biodiesel e seus derivados. 
+ 
+I 
+Investimentos: Investimentos baseados nas premissas de custo e metodologia financeira adotadas no Plano 
+Estratégico, que incluem a aquisição de ativos imobilizados e intangíveis, investimentos societários e outros 
+itens que não necessariamente se qualificam como fluxo de caixa usado em atividades de investimento, 
+principalmente despesas com geologia e geofísica, gastos pré -operacionais, aquisição de imobilizado a 
+prazo e custos de empréstimos diretamente atribuíveis a obras em andamento. 
+ 
+L 
+Lifting Cost : Indicador que representa o custo de extração unitário de um barril equivalente, levando em 
+consideração a relação entre os custos e a produção. Inclui os gastos com a execução e manutenção dos 
+processos de produção. Não são considerados nesse indicador os custos relacionados ao afretamento de 
+plataformas de terceiros, às participações governamentais e à depreciação, depleção e amortização. 
+Lifting Cost + Afretamento: Indicador que engloba os custos relacionados ao afretamento de plataformas 
+de terceiros no cálculo do Lifting Cost. Não são considerados os custos relacionados às participações 
+governamentais e à depreciação, depleção e amortização. 
+Lifting Cost + Afretamento + Participação Governamental: Indicador que engloba os custos relacionados à 
+afretamento de plataformas de terceiros e da Participação Governamental no cálculo do Lifting Cost. Não 
+são considerados os custos relacionados à depreciação, depleção e amortização. 
+Lifting Cost + Participação Governamental : Indicador que engloba os custos relacionados à participação 
+governamental no cálculo do Lifting Cost. Não são considerados os custos relacionados ao afretamento de 
+plataformas de terceiros e à depreciação, depleção e amortização.
+
+[p. 42]
+PETROBRAS | Relatório de Desempenho | 3T24 42 
+Glossário 
+LTM EBITDA Ajustado : Somatório dos últimos 12 meses ( Last Twelve Months ) do EBITDA Ajustado. Esta 
+métrica não está prevista nas normas internacionais de contabilidade – IFRS e é possível que não seja 
+comparável com índices similares reportados por outras companhias, contudo a Administração acredita que 
+é uma informação suplementar para avaliar a liquidez e auxilia a gestão da alavancagem. O EBITDA Ajustado 
+deve ser considerado em conjunto com outras métricas para um melhor entendimento da liquidez da 
+Companhia. 
+Lucro operacional após impostos: EBITDA Ajustado, descontando DD&A dos ativos registrados a câmbio 
+histórico e alíquota de 34% de IR/CSLL. 
+ 
+M 
+Margem do EBITDA Ajustado: EBITDA Ajustado dividido pela receita de vendas. 
+ 
+R 
+Refino, Transporte e Comercialização (RTC): O segmento abrange as atividades de refino, logística, 
+transporte, aquisição e exportação de petróleo bruto, bem como negociação de derivados de petróleo no 
+Brasil e no exterior. Este segmento também inclui operações petroquímicas (que envolvem participaçõ es 
+em empresas petroquímicas no Brasil) e produção de fertilizantes. 
+Resultados por Segmento de Negócio : As informações por segmento de negócio da companhia são 
+elaboradas com base em informações financeiras disponíveis e que são atribuíveis diretamente ao 
+segmento ou que podem ser alocadas em bases razoáveis, sendo apresentadas por atividades de negócio 
+utilizadas pela Diretoria Executiva para tomada de decisões de alocação de recursos e avaliação de 
+desempenho. Na apuração dos resultados segmentados são consideradas as transações realizadas com 
+terceiros, incluindo empreen dimentos controlados em conjunto e coligadas, e as transferências entre os 
+segmentos de negócio. As transações entre segmentos de negócio são valoradas por preços internos de 
+transferência apurados com base em metodologias que levam em consideração parâmetros de mercado, 
+sendo essas transações eliminadas, fora dos segmentos de negócios, para fins de conciliação das 
+informações segmentadas com as demonstrações financeiras consolidadas da companhia. 
+ROCE: Lucro operacional após impostos / Capital empregado médio, medidos em US$ na visão LTM (últimos 
+12 meses).
+
+[p. 43]
+Petrobras | Relacionamento com Investidores 
+www.petrobras.com.br/ri

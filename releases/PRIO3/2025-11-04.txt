@@ -1,0 +1,654 @@
+[p. 1]
+| Página 1 |
+
+[p. 2]
+| Página 2 | 
+ 
+Rio de Janeiro, 4 de novembro de 2025 – A PRIO S.A. (“PRIO” ou “Companhia”) (B3: PRIO3) apresenta seus resultados referentes ao terceiro trimestre 
+de 2025 (“3T25”). As informações financeiras e operacionais descritas a seguir, exceto onde indicado o contrário, são apresentadas em bases 
+consolidadas e em dólar americano (US$) de acordo com os padrões internacionais de demonstrações contábeis (IFRS), e incluem as subsidiárias 
+diretas da Companhia: PRIO Comercializadora Ltda. e PRIO Internacional Ltda., e suas respectivas subsidiárias e filiais. 
+ 
+ 
+ 
+ 
+DESTAQUES DO PERÍODO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Posição de Caixa (US$ MM) 
+Lifting Cost (US$/bbl) Produção (kbpd) 
+Dívida líquida (Caixa) / EBITDA ajustado 
+Destaques 
+ 
+ EBITDA ajustado (ex-IFRS 16) de US$ 320 milhões 
+ 
+ Receita total de US$ 607 milhões 
+ 
+ Retomada da produção do campo de Peregrino, em 17 de outubro 
+ 
+ Emissão de US$ 700 milhões em bonds com Tender Offer dos bonds de 2026, em outubro 
+ 
+ Licença de Instalação para o desenvolvimento do campo de Wahoo 
+ 
+ Conclusão do workover do poço TBMT-6H 
+ 
+ Eficiência operacional recorde em Albacora Leste, de 91,1% no 3T25 
+ 
+ Lucro líquido (ex-IFRS 16) de US$ 92 milhões
+
+[p. 3]
+| Página 3 | 
+ 
+MENSAGEM DA ADMINISTRAÇÃO 
+O terceiro trimestre de 2025 destacou-se por importantes marcos, como a obtenção da Licença de Instalação de 
+Wahoo e os avanços na eficiência operacional de Albacora Leste, além de desafios relevantes, como a parada do 
+campo de Peregrino, operado pela Equinor, do qual a PRIO é sócia. O período reforçou, mais uma vez, o foco e a 
+resiliência da Companhia em seu compromisso com segurança, eficiência e geração de valor. 
+ 
+No campo de Peregrino, ocorreram eventos relevantes ao longo do trimestre. Em julho, foi realizada a parada 
+programada de 9 dias do ativo, prevista no plano de manutenção. No mês seguinte, a Agência Nacional do Petróleo, 
+Gás Natural e Biocombustíveis (ANP) determinou a interdição do FPSO Peregrino, em razão de questões técnicas 
+identificadas durante a inspeção no âmbito do processo de cessão do ativo. 
+ 
+Desde então, a PRIO acompanhou de perto a implementação das medidas corretivas e manteve diálogo constante 
+com a operadora e o órgão regulador, assegurando que todas as etapas fossem conduzidas de forma eficiente e 
+em conformidade com as melhores práticas da indústria. Embora a retomada da produção tenha ocorrido após o 
+inicialmente previsto, o processo colaborou para o fortalecimento da gestão operacional do ativo. A produção foi 
+retomada em 17 de outubro, marcando a normalização das atividades do campo, que encontra-se com produção 
+acima de 100 mil barris por dia. 
+ 
+No dia 25 de setembro, a diretoria da ANP aprovou a cessão do contrato de concessão e, em 22 de outubro, após a 
+desinterdição de Peregrino, a Superintendência de Segurança Operacional (SSO) autorizou a transferência da 
+operação das instalações. Assim, estamos trabalhando junto com o atual operador na tentativa de antecipar o 
+closing da operação, atualmente fixado para fevereiro de 2026. Ao concluir essa etapa, nos tornaremos operadores 
+do campo, alcançaremos uma produção um pouco superior a 150 mil barris por dia e poderemos iniciar a captura 
+das sinergias operacionais, visando a redução do lifting cost. 
+ 
+No campo de Wahoo, avançamos de forma significativa durante o trimestre. Obtivemos a Licença de Instalação, o 
+que permitiu o início das atividades de construção submarina e de interligação (tieback) do campo ao FPSO de Frade. 
+A embarcação responsável pelo lançamento do duto rígido chegou ao Brasil no dia 27 de outubro e irá iniciar as 
+operações no campo no mês de novembro. 
+ 
+Na campanha de perfuração, seguimos de acordo com o planejado. A perfuração de dois dos quatro poços 
+previstos já foi concluída e apresentou resultados alinhados às expectativas. As demais atividades seguem 
+conforme o cronograma, com o objetivo de garantir o first oil entre março e abril de 2026. 
+ 
+No campo de Albacora Leste, mantivemos a produção estabilizada graças ao esforço contínuo de aprimoramento 
+da eficiência operacional do ativo, que atingiu recorde trimestral de 91,1%, além de níveis mensais recordes de 
+97,2% em julho e 95,2% em agosto. Em setembro, a produção foi temporariamente impactada por uma falha no 
+sistema de compressão de gás, que ainda não conta com redundância adequada, e que será solucionada em breve, 
+com a chegada de alguns itens de longo prazo de entrega adquiridos no exterior. 
+ 
+No cluster Polvo e TBMT, concluímos em setembro o workover do poço TBMT-6H, cuja produção havia sido 
+interrompida em julho em razão da falha na Bomba Centrífuga Submersa (BCS). Com isso, a produção total do 
+campo foi retomada em sua capacidade plena. 
+ 
+Mesmo com a maior produção dos nossos ativos operados nesse trimestre e a manutenção dos custos otimizados, 
+as paradas de Peregrino (parada programada de julho e interdição de agosto) impactaram significativamente o 
+volume consolidado de produção, que totalizou 88,2 mil barris por dia no período. Com isso, o lifting cost do 
+trimestre foi de US$ 17,4 por barril, refletindo esses efeitos da paralisação da produção do campo. 
+ 
+Durante o trimestre, também seguimos fortalecendo nossa estrutura de capital, de maneira a ampliar a posição de
+
+[p. 4]
+| Página 4 | 
+ 
+caixa e assegurar a solidez do balanço diante da estratégia de crescimento da PRIO. Com isso, em julho emitimos 
+debêntures com swap para dólar, totalizando aproximadamente US$ 539 milhões, a um custo de 6,59% a.a. e, em 
+outubro, realizamos a emissão de US$ 700 milhões em bonds a um custo de 6,75% a.a., com a recompra parcial 
+dos títulos com vencimento em 2026. Essas captações reforçam a posição de liquidez da Companhia, garantindo 
+conforto para honrar compromissos futuros e sustentar nossa trajetória de crescimento. 
+ 
+Segurança é prioridade absoluta nas operações da PRIO, o princípio que norteia todas as nossas atividades e 
+decisões. Com isso, em julho, realizamos um simulado de emergência no campo de Albacora Leste, com a 
+participação da Marinha e do IBAMA, para testar a atuação das equipes em situações de alta complexidade. Em 
+setembro, promovemos o 2º encontro das Pílulas de Conhecimento em Segurança e o Treinamento de Pessoa 
+Competente em Trabalho em Altura, reforçando o preparo do time. No 3T25, iniciamos também o Ciclo de 
+Auditorias Internas de SGSO/SGIP/SGSS, já realizadas no FPSO Bravo, FPSO Frade e Polvo A. 
+ 
+Seguimos ampliando as iniciativas voltadas ao bem-estar do nosso time. Além dos tradicionais treinos, trilhas e 
+aulas promovidos pela Companhia, realizamos, pela primeira vez, a PRIO Offshore Run, uma corrida de 5 km com 
+participação das equipes em todas as unidades offshore. Ao longo do trimestre, a PRIO também manteve sua 
+rotina mensal de avaliações cardiológicas preventivas para colaboradores e passou a oferecer aulas fixas semanais 
+de Kickboxing e Core. 
+ 
+Acreditamos na importância de gerar impacto positivo além dos negócios e seguimos comprometidos em retribuir 
+à sociedade, impulsionando iniciativas por meio da marca I 💙 PRIO. No 3T25, promovemos a Corrida PRIO, nossa 
+primeira corrida proprietária, reforçando o incentivo à prática esportiva e a um estilo de vida saudável. No período, 
+apoiamos ainda importantes eventos culturais e esportivos, como a Uphill Marathon, o Sertões Mountain Bike – 
+Ibitipoca, o espetáculo Prima Facie, o festival Rio Gastronomia, a ArtRio e o Vini Day. 
+ 
+Como sempre, encerramos com nossos agradecimentos pela confiança dos nossos colaboradores, investidores e 
+o apoio da sociedade. Concluímos o 3T25 confiantes de que nossa estratégia está no caminho certo: crescer com 
+eficiência, responsabilidade e propósito.
+
+[p. 5]
+| Página 5 | 
+ 
+DESEMPENHO OPERACIONAL 
+ 
+ 
+ 
+ 
+No trimestre, a produção total da Companhia apresentou um aumento de 26% na comparação com o mesmo 
+período do ano anterior, devido à melhora operacional em Albacora Leste , workovers dos poços de TBMT e 
+aquisição de 40% de participação no campo Peregrino em dezembro de 2024. Contudo, comparado ao 2T25, a 
+produção recuou em 12%, explicada, principalmente, pelas paradas do campo de Peregrino (parada programada 
+em julho e interdição em agosto). 
+ 
+No campo de Frade, a produção média do 3T25 foi 43% superior à do 2T25, reflexo da parada programada 
+realizada em abril e da falha no sistema de compressão de gás, solucionada em junho, que impactaram 
+negativamente o trimestre anterior. Em relação ao 3T24, a produção apresentou redução de 16%, em função do 
+declínio do campo. 
+ 
+O volume produzido em Albacora Leste aumentou em 29% comparado ao mesmo período de 2024, devido à 
+parada programada e falha no compressor de gás que afetaram a produção no 3T24. Comparado ao 2T25, a 
+produção ficou em linha. 
+ 
+No cluster Polvo e TBMT, o volume produzido no trimestre foi 26% superior ao 2T25 e 35% acima do 3T24, reflexo 
+da retomada dos poços que estavam parados em função de falhas nas Bombas Centrífugas Submersas (BCS). Em 
+julho, o poço TBMT-6H teve sua produção interrompida por falha na BCS, com o workover concluído em 15 de 
+setembro e produção normalizada. 
+ 
+No campo de Peregrino, a produção média no trimestre foi de 14,6 mil barris por dia, 63% inferior à registrada no 
+2T25, em razão da parada programada em julho e interdição do FPSO Peregrino pela ANP, ocorrida em 15 de agosto. 
+Em 17 de outubro, a produção do campo foi retomada. 
+ 
+Desde o início das operações da PRIO, que consolidou sua estratégia de crescimento através da aquisição e 
+desenvolvimento de ativos em produção, a Companhia trabalha para aumentar seus níveis de produção e 
+racionalizar seus custos, mantendo sempre os níveis de excelência em responsabilidade ambiental, segurança e 
+eficiência operacional. A PRIO acredita que a melhor proteção contra a volatilidade do Brent é a redução de seu
+
+[p. 6]
+| Página 6 | 
+ 
+lifting cost e esse continuará sendo um pilar dos atuais e futuros projetos. Diante disso, a Companhia apresenta, a 
+seguir, a evolução do seu lifting cost desde 3T19. 
+ 
+ 
+ Lifting Cost PRIO 
+ (US$/bbl) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O lifting cost do 3T25 apresentou aumento de 77% em relação ao 3T24 e 26% em comparação ao 2T25, explicado 
+principalmente pela incorporação do campo de Peregrino, adquirido em dezembro de 2024, e pelas paradas do 
+ativo em julho (parada programada) e em agosto (interdição). 
+ 
+ 
+ COMERCIALIZAÇÃO 
+ 
+A estratégia de comercialização adotada pela PRIO vem se consolidando como um diferencial competitivo 
+relevante, ao garantir condições mais favoráveis nas negociações de petróleo e ampliar o universo de clientes. A 
+modalidade “entrega ao cliente” tem permitido à Companhia acessar mercados estratégicos. Em um cenário de 
+maior volatilidade do Brent, essa flexibilidade comercial tem sido fundamental para capturar melhores prêmios e 
+descontos, maximizando a rentabilidade por barril e fortalecendo o posicionamento da PRIO no mercado 
+internacional. 
+ 
+No 3T25, a PRIO vendeu um total de 8,8 milhões de barris, um aumento de 36% em relação ao 3T24 e de 8% frente 
+ao 2T25. O crescimento reflete a maior produção em comparação ao mesmo período do ano anterior e o volume 
+adicional de estoques disponíveis no início do trimestre, que compensou a queda de produção na comparação com 
+o 2T25. O montante vendido foi distribuído entre os campos de Albacora Leste (3,2 milhões de barris), Frade (2,8 
+milhões de barris), Peregrino (1,4 milhão de barris) e o cluster Polvo e TBMT (1,3 milhão de barris). O preço médio 
+do petróleo (Brent de referência) no 3T25, ponderado pelo volume vendido, foi de US$ 68,32 por barril, 
+representando queda de 11% em relação ao 3T24 e aumento de 4% frente ao 2T25.
+
+[p. 7]
+| Página 7 | 
+ 
+ CAMPO DE FRADE 
+ 
+A produção média do campo no 3T25 foi de 32,9 kbpd, um aumento de 43% em relação ao 2T25. Esse aumento se 
+deve pela parada programada realizada em abril e falha no sistema de compressão de gás, concluída em junho, que 
+impactaram o 2T25. Em comparação ao 3T24, a produção apresentou redução de 16%, em função do declínio do 
+campo, uma vez que não foram realizadas novas perfurações no período. 
+ 
+No trimestre, a eficiência operacional do ativo foi de 97,2%.
+
+[p. 8]
+| Página 8 | 
+ 
+ CLUSTER POLVO E TBMT 
+ 
+No 3T25, o cluster Polvo e Tubarão Martelo registrou produção média diária de 13,9 mil barris, representando 
+um aumento de 26% em relação ao 2T25 e de 35% frente ao 3T24. Esse crescimento é explicado pela retomada 
+dos poços TBMT-8H, TBMT-10H e TBMT-4H, cuja produção havia sido interrompida no 2T24 devido a falhas nas 
+Bombas Centrífugas Submersas (BCS) e ficaram aguardando anuência do IBAMA para workover. O workover no poço 
+TBMT-8H foi concluído em setembro de 2024, enquanto os workovers dos TBMT-10H e TBMT-4H foram finalizados 
+em junho de 2025, resultando na normalização da produção do cluster. 
+ 
+Em julho, o poço TBMT-6H parou também em razão da falha na BCS, que estava em funcionamento desde o início 
+da produção do campo. O workover foi concluído no dia 15 de setembro, com o poço retornando à produção. 
+ 
+Assim, a eficiência operacional do cluster no trimestre foi de 90,0%. O gráfico a seguir ilustra a evolução da 
+produção e da eficiência dos campos desde o 3T22:
+
+[p. 9]
+| Página 9 | 
+ 
+ CAMPO DE ALBACORA LESTE 
+ 
+No trimestre, o campo de Albacora Leste registrou produção média diária de 26,8 mil barris (participação PRIO), 
+representando um aumento de 29% frente ao mesmo período do ano anterior, devido à parada programada e a 
+falha no compressor de gás que afetaram a produção do ativo no 3T24. Em comparação com o 2T25, não houve 
+variação significativa, com a produção estabilizada devido ao esforço contínuo para a normalização da operação e 
+melhora na eficiência operacional do ativo. Em setembro, a produção foi temporariamente impactada por uma 
+falha no sistema de compressão de gás, que ainda não conta com redundância adequada, e que será solucionada 
+em breve, com a chegada de itens de longo prazo de entrega adquiridos no exterior. 
+ 
+A eficiência operacional do ativo no 3T25 foi de 91,1%, com destaque para os meses de julho e agosto, que 
+atingiram os recordes de 97,2% e 95,2%, respectivamente. A Companhia continua focada em melhorias de 
+integridade e eficiência operacional do ativo e segue confiante de que está no caminho certo para alcançar os 
+mesmos patamares de confiabilidade observados nos seus demais campos.
+
+[p. 10]
+| Página 10 | 
+ 
+ CAMPO DE PEREGRINO 
+ 
+No 3T25, o campo de Peregrino registrou uma produção média diária 
+de 14,6 mil barris (participação PRIO), 63% inferior ao do 2T25. Essa 
+redução ocorreu devido à parada programada de 9 dias em julho e à 
+interdição do FPSO Peregrino pela ANP no dia 15 de agosto. Após o 
+cumprimento de todas as exigências regulatórias, a produção do 
+campo foi retomada no dia 17 de outubro e o ativo está atualmente 
+produzindo acima de 100 mil barris por dia. 
+ 
+No dia 25 de setembro, a diretoria da ANP aprovou a cessão do 
+contrato de concessão e, em 22 de outubro, após a desinterdição de 
+Peregrino, a Superintendência de Segurança Operacional (SSO) 
+aprovou a transferência da operação das instalações. Assim, a 
+Companhia está trabalhando junto ao atual operador para antecipar o 
+closing da operação, atualmente fixado para fevereiro de 2026. Ao 
+concluir essa etapa, a PRIO será operadora do campo, alcançando 
+produção diária superior a 150 mil barris e iniciando a captura das 
+sinergias operacionais, com foco na redução do lifting cost. 
+ 
+ 
+ CAMPO DE WAHOO 
+ 
+No dia 15 de setembro, a PRIO recebeu a Licença de Instalação do Sistema de Desenvolvimento da Produção do 
+Campo de Wahoo e interligação dos poços ao FPSO Frade. Com isso, a Companhia iniciou as atividades de 
+construção submarina. A embarcação responsável pelo lançamento da linha rígida chegou ao Brasil no dia 27 de 
+outubro e o início das suas atividades no campo de Wahoo está previsto para novembro. Em paralelo, a Companhia 
+segue com a perfuração dos poços produtores, já tendo perfurado os dois primeiros. 
+ 
+Os próximos passos no desenvolvimento do campo de Wahoo incluem: 
+ 
+ Continuidade da Construção Submarina e Interligação do campo de Wahoo ao FPSO Frade. 
+ Perfuração do terceiro e quarto poço produtor. 
+ Primeiro óleo de Wahoo.
+
+[p. 11]
+| Página 11 | 
+ 
+ MEIO AMBIENTE E SOCIEDADE 
+ 
+No 3T25, a PRIO deu continuidade às suas iniciativas socioambientais por meio do Instituto PRIO, reforçando o 
+compromisso da Companhia com a preservação do meio ambiente. O Instituto passou a conduzir programas já 
+desenvolvidos pelo time de Sustentabilidade, como o Mar Atento, inciativa que conecta pescadores locais ao setor 
+de óleo e gás de forma responsável e que iniciou sua sexta campanha em junho. 
+ 
+Ao longo do trimestre, a PRIO seguiu com esforços contínuos para elevar seus padrões de segurança. Em julho, a 
+Companhia realizou um simulado de emergência com presença da Marinha e IBAMA no campo de Albacora Leste, 
+para testar as equipes diante de situações de alta complexidade. Esse simulado segue a prerrogativa de integridade 
+de Pessoas, Meio Ambiente, Ativos e Reputação (metodologia PEAR — People, Environment, Asset and Reputation 
+— da ICS) e é uma condicionante essencial para as licenças ambientais de operação das unidades de produção. 
+ 
+Em setembro, a Companhia promoveu o 2º encontro das Pílulas de Conhecimento em Segurança, iniciativa em 
+sinergia com a PRIO Academy voltada ao alinhamento dos procedimentos de segurança entre os times. No mesmo 
+mês, foi realizado o Treinamento de Pessoa Competente em Trabalho em Altura para o time offshore, com testes 
+de soluções de resgate para ampliar o preparo da equipe. No 3T25, a PRIO também conduziu o Ciclo de Auditorias 
+Internas de SGSO/SGIP/SGSS, já realizado no FPSO Bravo, FPSO Frade e Polvo A. 
+ 
+Para a PRIO, cuidar de quem faz a Companhia acontecer vai muito além do ambiente de trabalho. É investir 
+continuamente em qualidade de vida e bem-estar. Com isso, no 3T25, a Companhia ampliou suas iniciativas 
+voltadas à saúde do time, com a realização dos tradicionais eventos internos, com aulões de Yoga, Kickboxing e o 
+PRIO Trekking, com trilhas na Garganta do Céu, Pedra da Proa e Cascata Diamantina. Além disso, a PRIO seguiu 
+promovendo sua rotina mensal de avaliações cardiológicas preventivas e, em setembro, passou a oferecer aulas 
+fixas de Kickboxing duas vezes por semana e treinos coletivos de core três vezes na semana. Nesse trimestre, a 
+PRIO também realizou pela primeira vez o PRIO Offshore Run, corrida de 5 km realizada em todas as unidades 
+offshore. 
+ 
+Reafirmando seu compromisso com a sociedade, a Companhia segue promovendo iniciativas de impacto por meio 
+da marca I 💙 PRIO. Alinhada à valorização do esporte e de um estilo de vida saudável, realizou a Corrida PRIO, sua 
+primeira prova proprietária, no Jockey Club do Rio de Janeiro, com dois percursos: 5 km individual e 10 km, nas 
+modalidades solo ou revezamento em dupla. Ao longo do trimestre, a PRIO também esteve presente em relevantes 
+eventos esportivos e culturais, apoiando a Uphill Marathon, o espetáculo Prima Facie, o festival Rio Gastronomia, a 
+feira de arte ArtRio e o Vini Day. 
+ 
+Na PRIO, construir um futuro não é apenas um propósito, mas uma responsabilidade diária, sustentada pela visão 
+de longo prazo da Companhia e valores de excelência, segurança, saúde, responsabilidade socioambiental.
+
+[p. 12]
+| Página 12 | 
+ 
+DESEMPENHO FINANCEIRO 
+A PRIO apresenta abaixo o desempenho financeiro com e sem o impacto das mudanças no IFRS 16, e 
+representações dos lançamentos contábeis não-caixa e não recorrentes e seus impactos nas demonstrações 
+quando ilustradas em dólares. 
+ 
+ Resultados do Período 
+ (Em milhares de US$) 
+ 
+ 
+ 
+*O EBITDA Ajustado é calculado semelhante ao EBITDA, desconsiderando a linha composta com efeitos não recorrentes “Outras Receitas e 
+Despesas”. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No trimestre, a PRIO registrou receita total de US$ 607 milhões e receita líquida de US$ 558 milhões, representando 
+aumentos de 22% e 18%, respectivamente, em relação ao 3T24. O crescimento da receita ocorreu mesmo diante 
+da queda de 13% no preço médio do Brent no período, reflexo do aumento de 26% na produção e de 36% nas 
+vendas da Companhia na comparação anual. 
+ 
+Analisando a receita trimestral, o campo de Frade foi responsável por 37,6% da receita total da Companhia, o 
+campo de Albacora Leste representou 33,2% da receita total, o cluster de Polvo e TBMT foi responsável por 
+14,8% e o campo de Peregrino, por sua vez, contribuiu 14,4% para a receita total da PRIO. No gráfico abaixo, 
+pode ser verificada a representatividade de cada ativo no total da receita da Companhia:
+
+[p. 13]
+| Página 13 | 
+ 
+Receita por Ativo 
+ 
+ 
+O resultado de comercialização totalizou US$ 40 milhões negativos, 105% acima do valor apresentado no 3T24 
+devido ao maior volume de venda no trimestre. 
+ 
+No trimestre, a Companhia registrou US$ 9 milhões de impostos de venda interna e exportação, referente à 
+comercialização de carga interna. 
+ 
+Os Custos dos Produtos Vendidos (“CPV”) totalizaram US$ 146 milhões no 3T25 (ex-IFRS 16), um aumento de 118% 
+em relação ao mesmo período do ano anterior. A variação reflete o maior volume de vendas no trimestre, 
+impulsionado pelo aumento de estoques disponíveis, além da incorporação do campo de Peregrino, adquirido em 
+dezembro de 2024. 
+ 
+Assim, a Companhia reconheceu no trimestre um Resultado Operacional (ex-IFRS 16) de US$ 349 milhões, em linha 
+ao registrado no 3T24. 
+ 
+As despesas gerais e administrativas, que incluem gastos com M&A, pessoal, projetos, geologia e geofísica, 
+totalizaram US$ 29 milhões, representando um aumento de 34% em relação ao mesmo período de 2024, devido 
+ao aumento de despesa com pessoal. 
+ 
+A linha de outras receitas (despesas) operacionais registrou aumento de 78% em relação ao 3T24, reflexo do 
+reconhecimento do OPEX de setembro do campo de Peregrino como perda no período. 
+ 
+Com isso, a Companhia registrou um EBITDA ajustado no trimestre (ex-IFRS 16) de US$ 320 milhões, 2% inferior 
+frente ao 3T24. 
+ 
+A depreciação e amortização totalizaram US$ 202 milhões negativos, um aumento de 100% comparado ao mesmo 
+trimestre do 2024. O crescimento reflete principalmente a incorporação do campo de Peregrino e o maior volume 
+de vendas de Albacora Leste no período. 
+ 
+No 3T25, o resultado financeiro (ex-IFRS 16) foi negativo em US$ 109 milhões, comparado a um resultado negativo 
+de US$ 27 milhões no mesmo trimestre do ano anterior. O resultado é explicado principalmente pela maior posição 
+de dívida e gastos com juros comparado ao mesmo período de 2024, além do impacto de gastos com hedge de 
+óleo. 
+ 
+Com isso, o lucro líquido (ex-IFRS 16) do trimestre foi positivo em aproximadamente US$ 92 milhões, uma redução 
+de 44% em relação ao 3T24. O resultado do 3T25 foi impactado positivamente pelo imposto diferido, devido ao 
+ajuste da base tributável em função da valorização do real frente ao dólar no trimestre, alterando o valor 
+apresentado de imobilizado e intangível.
+
+[p. 14]
+| Página 14 | 
+ 
+ CAIXA, DÍVIDA E FINANCIAMENTOS 
+ 
+No terceiro trimestre de 2025, a PRIO anunciou a emissão de debêntures simples no valor total de R$ 3 bilhões (US$ 
+539 milhões) e contratou swaps (instrumentos derivativos) com o objetivo de dolarizar a emissão. Com isso, a 
+emissão em conjunto com os instrumentos derivativos resultou em um custo médio dolarizado de 6,59% e 
+duration aproximada de 4,4 anos. Como resultado, o custo médio da dívida da Companhia no trimestre foi de 
+6,35%, com duration de 2,78 anos. 
+ 
+Adicionalmente, em outubro, a Companhia realizou a emissão de Notas Representativas de Dívidas (“ bonds”) no 
+mercado internacional. A emissão, no valor de US$ 700 milhões, foi feita na forma de Senior Notes com prazo de 5 
+anos, a uma taxa de 6,75% ao ano. Em paralelo, a PRIO lançou a Tender Offer de suas 6,125% Senior Secured Notes 
+com vencimento em junho de 2026, recomprando um montante total de US$ 431.267.000,00. 
+ 
+A PRIO mantém o custo e duration das dívidas em patamares considerados adequados pela Companhia e segue 
+monitorando o mercado nacional e internacional buscando oportunidades de forma a manter sua estrutura de 
+capital robusta. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cronograma de amortização 
+(em US$ MM) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25
+Custo Médio da Dívida
+2,36 2,33
+3,13
+3,53
+2,82 2,76 2,62 2,78 2,78
+3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25
+Duration
+(em anos)
+
+[p. 15]
+| Página 15 | 
+ 
+ DÍVIDA LÍQUIDA E ALAVANCAGEM 
+ 
+No 3T25, a posição de dívida líquida da PRIO aumentou em aproximadamente US$ 50 milhões comparado com o 
+2T25, explicada pelas seguintes variações: 
+ 
+ Capital de Giro: majoritariamente devido ao aumento de recebíveis. 
+ CAPEX: principalmente para o desenvolvimento e perfuração dos poços de Wahoo, parada em Peregrino, 
+workover de um poço em Tubarão Martelo e manutenção em Albacora Leste. 
+ Opex Peregrino: cash call referente ao OPEX do mês de setembro de Peregrino. 
+ Recompra de ações: recompra de 1 milhão de ações em agosto. 
+ Resultado Financeiro: gastos com juros e com hedge de óleo. 
+ 
+Variação da Dívida Líquida 
+(US$ MM) 
+ 
+ 
+Dívida Líquida / EBITDA ajustado (ex-IFRS 16) 
+(em US$ MM)
+
+[p. 16]
+| Página 16 | 
+ 
+ANEXO 
+IFRS 16 
+ 
+Os ativos de direito de uso representam os seguintes ativos subjacentes: 
+ 
+ 
+Ativos de direito de uso Saldo 
+Embarcações de Apoio 1.605.458 
+Helicópteros 437.320 
+Edificações/Bases de Apoio 170.019 
+Equipamentos 122.420 
+Total 2.335.217 
+ 
+ 
+Para calcular o montante do custo foram considerados os prazos em que os ativos serão necessários à operação, 
+o que varia entre 2031 e 2041, bem como a taxa de desconto. Essa taxa é mantida até o fim dos contratos, exceto 
+se houver alteração do prazo destes, quando é atualizado à taxa incremental na data de alteração. 
+ 
+No primeiro trimestre de 2025, houve a substituição de dois contratos – um de helicóptero e outro de embarcação, 
+com o encerramento antecipado dos contratos anteriores. O contrato de helicóptero atende o Cluster Tubarão 
+Martelo e Polvo e é descontado à taxa de 5,44% para a parcela em dólar. Já o contrato de embarcação atenderá os 
+campos de Albacora Leste, Frade e o Cluster Tubarão Martelo e Polvo, sendo descontado à taxa de 5,39%, 5,81% 
+e 5,49%, respectivamente, para a parcela em dólar. 
+ 
+Em decorrência da inclusão dos novos contratos mencionados anteriormente e dos contratos encerrados 
+antecipadamente no período, o ativo e o passivo aumentaram em R$ 1.159.572. 
+ 
+Os efeitos apresentados no exercício foram: 
+ 
+ Ativo Passivo 
+ Saldo em 31 de dezembro de 2024 2.421.249 (2.548.486) 
+ Adições/Reversões 1.159.572 (1.159.572) 
+ Reversões - contratos encerrados antecipadamente (720.238) 758.012 
+ Atualização cambial - (46.415) 
+ Atualização monetária - (149) 
+ Pagamentos efetuados - 205.853 
+ Amortização (150.176) - 
+ Ajuste de conversão (375.190) 417.436 
+ Saldo em 30 de setembro de 2025 2.335.217 (2.522.218) 
+ Circulante - (272.580) 
+ Não Circulante 2.335.217 (2.249.638) 
+ 
+ 
+*Fator de conversão: câmbio de fechamento os períodos para os saldos e média do período para as movimentações 
+ 
+ 
+ 
+Maiores detalhes podem ser encontrados nas notas explicativas 15 das Demonstrações Financeiras do 3T25.
+
+[p. 17]
+| Página 17 | 
+ 
+BALANÇO PATRIMONIAL 
+ (Em milhares de US$)
+
+[p. 18]
+| Página 18 | 
+ 
+DEMONSTRAÇÃO DE RESULTADO 
+(Em milhares de US$)
+
+[p. 19]
+| Página 19 | 
+ 
+DEMONSTRAÇÃO DO FLUXO DE CAIXA 
+(Em milhares de US$)
+
+[p. 20]
+| Página 20 | 
+ 
+ 
+PROJETOS SOCIAIS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sobre a PRIO 
+ 
+A PRIO é a maior empresa independente de produção de óleo e gás natural do Brasil. A cultura corporativa da Companhia busca o aumento de 
+produção por meio da aquisição de novos ativos em produção, redesenvolvimento, maior eficiência operacional e redução dos custos de produção 
+e das despesas corporativas. Seu objetivo maior é a criação de valor para seus acionistas com alta disciplina financeira e preservação da sua liquidez, 
+com total respeito à segurança e ao meio ambiente. Para mais informações acesse o site: www.prio3.com.br. 
+ 
+Aviso Legal 
+ 
+Todas as declarações exceto aquelas relativas a fatos históricos contidas neste documento são declarações acerca de eventos futuros, incluindo, 
+mas não limitado a declarações sobre planos de perfuração e aquisições sísmicas, custos operacionais, aquisição de equipamentos, expectativa de 
+descobertas de óleo, a qualidade do óleo que esperamos produzir e nossos demais planos e objetivos. Os leitores podem identificar várias dessas 
+declarações ao ler palavras como “estima”, “acredita”, “espera” e “fará” e palavras similares ou suas negativas. Apesar de a administração acreditar 
+que as expectativas representadas em tais declarações são razoáveis, não pode assegurar que tais expectativas se confirmarão. Por sua natureza, 
+declarações acerca de eventos futuros exigem que façamos suposições e, assim, tais declarações são sujeitas a riscos inerentes e incertezas. 
+Alertamos os leitores desse documento a não depositarem confiança indevida nas nossas declarações de eventos futuros considerando que certos 
+fatores podem causar resultados, condições, ações ou eventos que podem diferir significativamente dos planos, expectativas, estimativas ou 
+intenções expressas nas declarações acerca de eventos futuros e as premissas que as suportam. As declarações acerca de eventos futuros aqui 
+incluídas estão baseadas na premissa de que nossos planos e operação não serão afetados por tais riscos, mas que, se nossos planos e operação 
+forem afetados por tais riscos, as declarações acerca de eventos futuros podem se tornar imprecisas. As declarações acerca de eventos futuros 
+incluídas neste documento são expressamente qualificadas em sua totalidade por este aviso legal. Tais declarações foram feitas na data deste 
+documento. Não nos comprometemos a atualizar tais declarações acerca de eventos futuros, exceto quando exigido pela legislação de valores 
+mobiliários aplicável.

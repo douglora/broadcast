@@ -1,6 +1,6 @@
 6-K
 1
-nu20240813_6k1.htm
+nu20240514_6k1.htm
 6-K
 
 SECURITIES AND EXCHANGE
@@ -13,7 +13,7 @@ FORM 6-K
 Report
 of Foreign Private Issuer Pursuant to Rule 13a-16 or 15d-16 of the Securities Exchange Act of 1934
 
-For the month of August,
+For the month of May,
 2024
 
 Commission File Number 001-41129
@@ -51,49 +51,52 @@ Yes No ( X )
 
 |
 
-Nu Holdings Ltd. Reports Second Quarter 2024 Financial Results
+Nu Holdings Ltd. Reports First Quarter 2024 Financial Results
 
-São Paulo, Brazil, August 13, 2024 - Nu Holdings Ltd.
-(NYSE: NU), (“Nu” or the “Company”), one of the world's largest digital banking platforms, released today its
-Second Quarter financial re sults. Financial results are expressed in U.S. dollars and are presented
-in accordance with International Financial Reporting Standards (IFRS). The full earnings release has been made available on the Company’s
-Investor Relations website at www.investors.nu , as well as the details of the Earnings Conference
-Call Nu will hold today at 6:00 pm Eastern time/7:00 pm Brasília time.
+São Paulo, Brazil, May 14, 2024 - Nu Holdings Ltd. (NYSE:
+NU), (“Nu” or the “Company”), one of the world's largest digital banking platforms, released today its First Quarter
+financial re sults. Financial results are expressed in U.S. dollars and are presented in accordance
+with International Financial Reporting Standards (IFRS). The full earnings release has been made available on the Company’s Investor
+Relations website at www.investors.nu , as well as the details of the Earnings Conference Call Nu will
+hold today at 6:00 pm Eastern time/7:00 pm Brasília time.
 
-“Our second quarter 2024 results reaffirm the strength of our business model, efficiency in our execution, and resilience of our
-credit underwriting. Net income has more than doubled year over year, reaching US$ 487 million this quarter, with expanding risk adjusted
-margins and one of the highest ROEs in the industry at 28%. Our customer base grew to 105 million customers. The recent launch of checking
-accounts in Mexico and Colombia has ushered deposits of US$ 3.3 billion and US$ 220 million in those countries, respectively, and fuels
-our growth expectations in those operations. We believe that this business formula, propelled by exceptional talent, technology investments,
-and brand love will pave the way for Nu to become the largest consumer technology platform in Latin America", said David Vélez,
-founder and CEO of Nubank.
+“In May 2024, we announced reaching the 100 million customer mark, a privilege we
+earned through our steadfast focus on solving people’s needs with true product innovation and the highest quality of service. Our
+results for the first quarter of 2024 show how our business model is also fuelled by expanding revenue and stable cost per customer, generating
+growth in revenue to $2.7 billion and in net income to $379 million. We printed a 23% return-on-equity for Nu Holdings, among best-in-class
+financial institutions in Latin America, even though our holding company continues to be over-capitalized and our operations in Mexico
+and Colombia are still in the early phases of getting to profitability. The operations of these new markets are showing more accelerated
+results in number of customers, deposits, revenue and market share of credit card purchase volume than Brazil in a comparable time frame”,
+said David Vélez, founder and CEO of Nubank.
 
-Q2’24 Results Snapshot
+Q1’24 Results Snapshot
 
-Below are the Q2’24 performance highlights of Nu Holdings Ltd.:
+Below are the Q1’24 performance highlights of Nu Holdings Ltd.:
 
 Operating Highlights:
 
-| ■ | Customer growth : Nu added 5.2 million customers
-in Q2’24, reaching a total of 104.5 million customers globally by June 30, 2024, marking a 25% increase YoY. This reinforces Nu's
-position as one of the largest and fastest-growing digital financial services platforms worldwide. Nu has added more customers in the
-past 12 months than the five largest Brazilian incumbents combined, according to Central Bank data. |
+| ■ | Customer growth : Nu added 5.5 million customers
+in Q1’24, reaching a total of 99.3 million customers globally by March 31, 2024, compared to 59.6 million only two years ago. Nubank
+is now the fourth-largest financial institution in Latin America by number of customers, and one of the fastest-growing digital financial
+services platforms worldwide. After the closing of Q1’24, Nubank announced it had surpassed the mark of 100 million customers in
+Latin America with over 92 million in Brazil, 7 million in Mexico, and around 1 million in Colombia. |
 
 | ■ | Engagement and activity rates : Monthly Average
-Revenue per Active Customer (ARPAC) reached $11.2 in Q2'24. On a FX neutral basis (FXN) 1
-it expanded 6% sequentially, with more mature cohorts already at $25. Nu continues
-to develop principality among its customer base and activity rate 2 increased to a new record high of 83% - the eleventh consecutive
-increase in this metric, demonstrating our proficiency in consistently offering a compelling value proposition to our customers. |
+Revenue per Active Customer (ARPAC) grew to $11.4 in Q1’24, a 30% expansion YoY on FX neutral basis (FXN) 1 ,
+with more mature cohorts already at $27. Nu continues to develop principality among its customer base and has an activity rate 2
+of 83.2%. |
 
 | ■ | Low-cost operating platform: Monthly Average
-Cost to Serve Per Active Customer remained stable and below the dollar level at $0.9, demonstrating the strong operating leverage of the
-business model. The company’s efficiency ratio improved 10 basis points QoQ to 32% during Q2'24, and over 340 basis points YoY,
-positioning Nu as one of the most efficient financial services companies globally. |
+Cost to Serve Per Active Customer remained virtually unchanged and below the dollar level at $0.9, demonstrating the strong operating
+leverage of the business model. The company’s efficiency ratio stood at 32.1% in Q1’24, which strengthens Nu’s position
+as one of the most efficient companies in Latin America. |
 
-| ■ | Asset Quality: in Brazil, consumer credit portfolio’s
-15-90 NPL ratio decreased to 4.5%, slightly more than historical seasonality. The 90+ NPL ratio increased to 7%, in line with expectations.
-The 70 basis point increase in 90+NPL in this quarter is simply a reflection of the 90 basis point, mostly seasonal increase in 15-90
-NPL we saw last quarter. |
+| ■ | Asset Quality: in Brazil, consumer credit
+portfolio’s 15-90 NPL ratio was 5.0%, in line with expectations and historical seasonality. The 90+ NPL ratio was 6.3% also in
+line with the expected stacking behavior of the early delinquency
+buckets from previous periods. Part of the growth on NPL has been coming from expansions down the credit spectrum, as the company continues
+to see meaningful opportunities to expand its credit portfolio aiming for attractive returns and robust resilience. When excluding credit
+and looking at interest earnings balances only, Nu’s NPL has been trending significantly down both on 15-90 and 90+. |
 
 |
 
@@ -102,57 +105,57 @@ NPL we saw last quarter. |
 Financial Highlights:
 
 | ■ | Net & Adjusted Income: At a Holding level ,
-Nu continued to drive increased profitability and posted a Net Income for Q2’24 of $487 million and an annualized ROE of 28%,
-compared to a $225 million profit in Q2’23. Adjusted Net Income 3 for Q2’24 increased to $563 million with an annualized
-adjusted ROE of 33%, compared to an Adjusted Net Income of $263 million in Q2’23. Nu is achieving these strong levels of profitability
+Nu continued to drive increased profitability and posted a Net Income for Q1’24 of $378.8 million and an annualized ROE of 23%,
+compared to a $141.8 million profit in Q1’23. Adjusted Net Income 3 for Q1’24 reached $442.7 million with an annualized
+adjusted ROE of 27%, compared to an Adjusted Net Income of $182.4 million in Q1’23. Nu is achieving these strong levels of profitability
 and efficiency, despite maintaining a considerable excess capital of $2.4 billion at the holding level and continuing to make substantial
 investments in future products and geographic expansion, as the company sees tremendous potential to continue building the largest consumer
-platform in Latin America. |
+platform in Latin America. The operations in Brazil alone have a return of equity of over 40%. |
 
-| ■ | Revenue: Nu’s revenues were up 65% YoY
-on a FX neutral basis (FXN) to a new record high of$2.8 billion. This showcases the company’s unique ability to consistently expand
-its active customer base while accelerating revenue growth and profitability. |
+| ■ | Revenue: Nu’s revenues in the quarter
+surged to $2.7 billion, another new record high, which represents a 64% FXN increase from Q1’23. This showcases the company’s
+unique ability to consistently expand its active customer base while accelerating revenue growth and profitability. |
 
 | ■ | Gross Profit: Nu’s gross profit reached
-another quarterly record high of $1.4 billion, up 88% YoY FXN while gross profit margin reached 48% from 42% in Q2’23. |
+another quarterly record high of $1.18 billion, a 76% increase YoY FXN. Gross profit margin stood at 43.2%, from 40.2% in Q1’23. |
 
 | ■ | Capital: Nu strengthened its position as one
 of the best-capitalized players in the region. Its Capital Adequacy Ratios (CARs) have very comfortable margins above regulatory minimums
 in the countries in which it operates, even without considering the $2.4 billion in excess cash held by Nu Holdings. |
 
-| ■ | Liquidity: On June 30, 2024, Nu had an interest-earning
-portfolio (IEP) of $9.8 billion which rose 81% YoY FXN. The ramp up of the lending portfolio, which expanded 92% YoY FXN to $4.6 billion,
-and credit card receivables, which increased 39% YoY FXN to $14.3 billion were the main drivers of growth. Total deposits increased 64%
-YoY FXN to $25 billion, while a sustained low cost to deposit underscores Nu’s progress in leveraging the local-currency retail
-deposit franchises in Brazil and Mexico. Nu’s loan-to-deposit ratio was 39%, versus 40% in the previous quarter. |
-
-| ■ | Net interest income: NII surged by 77% YoY FXN
-reaching another record high of $1.7 billion, driven by our expanding credit card and lending portfolios. The net interest margin (NIM)
-reached 19.8%, an increase of 30 basis points from last quarter and 150 basis points from a year ago. |
+| ■ | Liquidity: On March 31, 2024, Nu had an interest-earning
+portfolio (IEP) of $9.7 billion which rose 86% YoY FXN to the ramp-up of personal loans and credit card receivables in the past 12 months.
+Total deposits increased to $24.3 billion, while a sustained low cost to deposit underscores Nu’s progress in leveraging the local-currency
+retail deposit franchises in Brazil and Mexico. Nu’s loan-to-deposit ratio reached 40%, versus 34% in the previous quarter. |
 
 Business highlights:
 
 | ■ | Performance and Growth in Brazil :
-In Brazil, the customer base reached 95.5 million by June 30, 2024, with an average of 1.2 million new customers monthly. Nu is the fourth-largest
-financial institution by number of customers in the country, according to Brazilian Central Bank data. In Brazil, Nu has become the institution
-with the largest number of active customers in credit operations, totalling 55.9 million customers, according to Central Bank data. |
+In Brazil, the customer base reached 91.8 million by March 31, 2024, growing 22% in a year. Nu is the fourth-largest financial institution
+by number of customers in the country, according to Brazilian Central Bank data. By May 2024, after the closing of the quarter, the customer
+base in the country had surpassed 92 million. |
 
 | ■ | International Expansion:
-In Mexico, Nu's growth remained strong, with a net-adds of 1.2 million new customers in the quarter, reaching a total of 7.8 million customers
-at quarter-end. The expansion validates the strategy of increasing deposit yields in the country, boosting the momentum and solidifying
-Nu's leadership in the digital banking sector. |
+In Mexico, customer growth keeps accelerating, amounting to nearly 1.5 million net-adds in the quarter, which contributed to a total of
+6.6 million customers in the country. After the closing of Q1’24, Nu Mexico announced it had surpassed the mark of 7 million customers.
+Mexico is already surpassing Brazil in terms of time to achieve different key KPIs in the same time frame of 19 quarters after launch.
+In just one year since the launch of Cuenta Nu, Mexico has surpassed Brazil in absolute account holders and penetration of the total population
+when compared to the same moment of the Brazilian operation. Deposits in Mexico have also soared to surpass $2.3 billion in Q1’24.
+In the credit card space, Nu has over 3.2 million active credit card customers, outpacing some of the top 3 incumbent banks in the country.
+|
 
-In Colombia, Nu achieved a milestone
-this quarter, surpassing the 1 million customers, serving almost 1.3 million customers at quarter-end.
+|
+
+|
+
+In Colombia, Nu’s customer
+base surpassed 900,000 customers, and, in only 4 months, over half a million people registered in the launchlist for the savings product
+Cuenta Nu.
 
 | ■ | Multi-Product Platform: Nu’s
-core products, mainly credit cards, NuAccounts, and unsecured personal loans reaching approximately 42 million, 78 million, and 9 million
-active customers, respectively. The insurance product has nearly 2 million active policies, while investments are utilized by over 18
-million active customers. |
-
-|
-
-|
+product portfolio keeps growing with credit cards, NuAccounts, and personal loans reaching approximately 41 million, 73 million, and 8
+million active customers, respectively. There are currently nearly 2 million active insurance policies, and 17 million investment active
+customers. |
 
 Footnotes
 
@@ -176,8 +179,8 @@ Brasília time with simultaneous translation in Portuguese and English.
 To pre-register for this call, please click
 here .
 
-A replay of the webcast will be made available after the call on
-the Investor Relations page: click here.
+A replay of the webcast will be made available after the call on the
+Investor Relations page: click here .
 |
 
 Note on forward-looking statements and non-IFRS financial measures
@@ -207,6 +210,10 @@ law. The forward-looking statements can be identified, in certain cases, through
 “predict”, “potential”, “aspiration,” “should,” “purpose,” “belief,”
 and similar, or variations of, or the negative of such words and expressions.
 
+|
+
+|
+
 The financial information in this document includes forecasts, projections
 and other predictive statements that represent the Company’s assumptions and expectations in light of currently available information.
 These forecasts, projections and other predictive statements are based on the Company’s expectations and are subject to variables
@@ -216,17 +223,13 @@ the forward-looking statements in this presentation, which are inherently uncert
 
 In addition to IFRS financials, this presentation includes certain summarized,
 non-audited or non-IFRS financial information. These summarized, non-audited or non-IFRS financial measures are in addition to, and not
-a substitute for or superior to, measures of financial performance prepared
-in accordance with IFRS. References in this presentation to “R$” refer to the Brazilian Real, the official currency of Brazil.
-
-|
-
-|
+a substitute for or superior to, measures of financial performance prepared in accordance with IFRS. References in this presentation to
+“R$” refer to the Brazilian Real, the official currency of Brazil.
 
 About Nu
 
 Nu is the world’s largest digital banking platform outside of Asia,
-serving over 105 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging
+serving over 100 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging
 data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people,
 Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency.
 The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact
@@ -242,12 +245,15 @@ Jörg Friedemann
 investors@nubank.com.br
 |
 |
-
 Media Relations
 
 Leila Suwwan
 
-press@nubank.com.br
+press@nubank.com. br
+|
+
+|
+
 |
 
 SIGNATURES
@@ -273,4 +279,5 @@ Friedemann
 Investor
 Relations Officer |
 
-Date: August 13, 2024
+Date: May
+14, 2024

@@ -1,0 +1,4536 @@
+[p. 1]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+1 
+ 
+CYRE3 
+CYRE4 
+(13/08/2026) 
+ 
+Nº de Ações 
+(ex tesouraria): 
+CYRE3: 
+366.310.939 
+CYRE4: 
+69.446.450 
+ 
+ 
+ 
+Teleconferências sobre os 
+Resultados do 2T26 
+Português 
+(Com tradução simultânea) 
+14 de agosto de 2026 
+ 11h00 (horário de Brasília) 
+10h00 (US EST) 
+ 
+ZOOM: clique aqui 
+Contatos de RI: 
+ri@cyrela.com.br 
+Visite o website de RI: 
+http://ri.cyrela.com.br/ 
+Cyrela atinge Lucro Líquido de R$ 452 milhões e Geração de 
+Caixa de R$ 272 milhões no trimestre 
+ 
+ 
+ 
+São Paulo, 13 de agosto de 202 6 - A Cyrela Brazil Realty S.A. Empreendimentos e Participações (“CBR” ou 
+“Companhia” ou “Cyrela”) (B3: CYRE3/CYRE4; OTCQPink: CYRBY), uma das maiores empresas do mercado imobiliário 
+brasileiro na incorporação de empreendimentos residenciais, apresenta seus resultados referentes ao segundo trimestre 
+(2T26). As informações financeiras e operacionais a seguir, exceto onde indicado o contrário, estão apresentadas 
+em Reais (R$), seguem as normas contábeis internacionais (IFRS) que consideram as orientações técnicas OCPC 04 e 
+interpretação técnica ICPC 02 e os princípios brasileiros de contabilidade e normas para preparação de relatório 
+financeiro aplicáveis às entidades de incorporação imobiliárias brasileiras e regulamentações pertinentes. As 
+comparações referem-se ao mesmo período de 2025 (2T25) e, eventualmente, ao primeiro trimestre de 2026 (1T26). 
+ 
+VENDAS 
+No trimestre: 
+R$ 2.561 milhões, 14% superior vs. 
+2T25 e 18% acima do 1T26 
+No ano: 
+R$ 4.726 milhões, 9% superior vs. 
+6M25 
+ 
+GERAÇÃO DE CAIXA 
+No trimestre: 
+Geração de caixa de R$ 272 milhões, vs. 
+consumo de R$ 392 milhões no 2T25 e 
+geração de R$ 134 milhões no 1T26 
+No ano: 
+Geração de R$ 406 milhões, vs 
+consumo de R$ 320 milhões no 6M25 
+ 
+ 
+ 
+ROE – RETURN ON EQUITY 
+ 
+de 20,9% 
+ 
+(Lucro líquido dos últimos 12 meses 
+sobre o patrimônio líquido médio 
+ajustado do período, excluindo 
+participações minoritárias) 
+ 
+ 
+ 
+ 
+LANÇAMENTOS 
+No trimestre: 
+R$ 3.840 milhões, 34% superior vs. 
+2T25 e 120% acima do 1T26 
+No ano: 
+R$ 5.587 milhões, 11% inferior vs. 
+6M25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MARGEM BRUTA 
+No trimestre: 
+34,4%, 1,6 p.p. acima do 2T25 e 
+1,5 p.p. superior ao 1T26 
+No ano: 
+33,7%, 1,1 p.p. superior vs. 6M25 
+ 
+LUCRO LÍQUIDO 
+No trimestre: 
+R$ 452 milhões, vs. R$ 388 milhões 
+no 2T25 e R$ 297 milhões no 1T26 
+No ano: 
+R$ 748 milhões, vs. R$ 715 milhões 
+no 6M25
+
+[p. 2]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+Sumário 
+MENSAGEM DA ADMINISTRAÇÃO ............................................................. 3 
+PRINCIPAIS INDICADORES ...................................................................... 4 
+DESEMPENHO OPERACIONAL ................................................................... 5 
+LANÇAMENTOS ............................................................................................................................... 5 
+VENDAS .......................................................................................................................................... 8 
+VELOCIDADE DE VENDAS (VSO) .................................................................................................. 13 
+ESTOQUES .................................................................................................................................... 14 
+TERRENOS .................................................................................................................................... 16 
+ENTREGAS .................................................................................................................................... 17 
+OBRAS .......................................................................................................................................... 19 
+DESEMPENHO ECONÔMICO – FINANCEIRO ........................................... 20 
+RECEITA ....................................................................................................................................... 20 
+MARGEM BRUTA ........................................................................................................................... 21 
+VENDAS A RECONHECER ............................................................................................................. 22 
+DESPESAS COMERCIAIS .............................................................................................................. 23 
+DESPESAS GERAIS E ADMINISTRATIVAS ................................................................................... 24 
+INDENIZAÇÕES ............................................................................................................................ 25 
+EQUIVALÊNCIA PATRIMONIAL.................................................................................................... 25 
+RESULTADO FINANCEIRO ........................................................................................................... 26 
+LUCRO LÍQUIDO E MARGEM LÍQUIDA ........................................................................................ 27 
+Destaques das Demonstrações Financeiras ................................................................................ 28 
+CONTAS A RECEBER ..................................................................................................................... 28 
+ENDIVIDAMENTO ......................................................................................................................... 29 
+GERAÇÃO DE CAIXA ..................................................................................................................... 33 
+EVENTOS SUBSEQUENTES ........................................................................................................... 34 
+ANEXO I – BALANÇO PATRIMONIAL ....................................................... 35 
+ANEXO II – DEMONSTRAÇÃO DE RESULTADO ........................................ 37 
+ANEXO III – RECONHECIMENTO DE RECEITA ........................................ 38 
+ANEXO IV – LANÇAMENTOS .................................................................... 39 
+ANEXO V – VENDAS ................................................................................. 41 
+ANEXO VI – TERRENOS ........................................................................... 42 
+ANEXO VII – EMPREENDIMENTOS ENTREGUES ..................................... 43 
+Glossário .................................................................................................. 44
+
+[p. 3]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+MENSAGEM DA ADMINISTRAÇÃO 
+ 
+No segundo trimestre de 2026, a Cyrela manteve sua trajetória de execução consistente, 
+apresentando evolução nos indicadores operacionais e financeiros, mesmo diante de um ambiente 
+macroeconômico ainda desafiador. O período foi marcado por a umento das incertezas no cenário 
+externo, especialmente em função da s tensões geopolíticas, além da volatilidade nos mercados 
+domésticos, com impactos sobre os ativos financeiros. Nesse contexto, a Companhia seguiu 
+avançando em sua estratégia, com disciplina na tomada de decisão, seletividade nos lançamentos 
+e rigor na alocação de capital. 
+Do ponto de vista operacional, apresentamos desempenho consistente no período. Os 
+lançamentos alcançaram R$ 3,8 bilhões , crescimento de 120% em relação ao primeiro 
+trimestre, refletindo a nossa estratégia de desenvolver produtos diferenciados e alinhados às 
+demandas de cada mercado. As vendas contratadas somaram R$ 2,6 bilhões no período, 
+crescimento de 18% frente ao trimestre anterior, demonstrando a consistência da demanda pelos 
+produtos da Companhia. 
+Os resultados financeiros reforçaram a capacidade da Cyrela de combinar crescimento, 
+rentabilidade e disciplina. Registramos receita líquida de R$ 2,5 bilhões , alta de 23% em 
+relação ao primeiro trimestre, e margem bruta de 34,4%, patamar que reflete a qualidade do 
+portfólio e a disciplina na execução dos empreendimentos. O lucro líquido atingiu R$ 4 52 
+milhões e o ROE ajustado dos últimos 12 meses permaneceu em patamar saudável, em 
+20,9%, refletindo a nossa capacidade de gerar valor aos acionistas. Destaque para a geração de 
+caixa de R$ 272 milhões, contribuindo para a redução do índice de endividamento líquido 
+em relação ao patrimônio líquido ajustado para 16,5% e fortalecendo ainda mais a estrutura 
+de capital da Companhia. 
+Seguimos atentos à evolução do cenário e às oportunidades que surgem ao longo do ciclo, 
+mantendo critérios rigorosos na seleção de novos projetos. A Cyrela continuará focada na 
+excelência da jornada do cliente e na geração de resultados sustentáveis no lon go prazo. 
+Agradecemos aos nossos colaboradores, clientes, acionistas e demais stakeholders pela confiança.
+
+[p. 4]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+PRINCIPAIS INDICADORES 
+ 
+ 
+(1) incluindo as unidades permutadas 
+(2) líquido de distratos e com permuta 
+(3) Lucro Líquido LTM / Patrimônio Líquido médio excluindo AVJORA CashMe 
+(4) Dívida Líquida e Patrimônio Líquido Consolidado excluindo AVJORA CashMe 
+ 
+ 
+ 
+ 
+Indicadores Financeiros
+Receita Líquida (R$ milhões) 2.481 2.107 18% 2.025 23% 4.506 4.060 11%
+Lucro Bruto (R$ milhões) 853 690 24% 666 28% 1.519 1.324 15%
+Margem Bruta 34,4% 32,7% 1,6 p.p. 32,9% 1,5 p.p. 33,7% 32,6% 1,1 p.p.
+Margem Bruta Ajustada 37,3% 34,9% 2,4 p.p. 36,1% 1,2 p.p. 36,8% 34,6% 2,1 p.p.
+Despesas Comerciais (R$ milhões) 294 226 30% 277 6% 571 426 34%
+Despesas Gerais e Administrativas (R$ milhões) 134 127 6% 134 0% 268 254 6%
+Lucro Líquido (R$ milhões) 452 388 16% 297 52% 748 715 5%
+Margem Líquida 18,2% 18,4% -0,2 p.p. 14,7% 3,5 p.p. 16,6% 17,6% -1,0 p.p.
+ROE LTM (3) 20,9% 19,5% 1,4 p.p. 21,2% -0,3 p.p. 20,9% 19,5% 1,4 p.p.
+Dívida Líquida Ajustada / Patrimônio Líquido Ajustado (4) 16,5% 12,7% 3,8 p.p. 19,6% -3,1 p.p. 16,5% 12,7% 3,8 p.p.
+Geração / Queima de Caixa (R$ milhões) 272 (392) n.a. 134 103% 406 (320) n.a.
+392 -406 320
+Backlog 30/06/2026 30/06/2025 Var. 31/03/2026 Var.
+Receitas Líquida a Apropriar (R$ milhões) 12.229 9.849 24% 11.662 5%
+Margem a Apropriar 36,2% 36,3% -0,1 p.p. 36,0% 0,2 p.p.
+Lançamentos (1)
+Número de Lançamentos 20 17 3 12 8 32 35 -3
+VGV Lançado ex-permuta - R$ milhões (%CBR) 3.840 2.864 34% 1.747 120% 5.587 6.248 -11%
+VGV Lançado com permuta - R$ milhões (100%) 4.967 4.126 20% 2.428 105% 7.395 8.989 -18%
+Participação CBR 79% 73% 6,1 p.p. 73% 5,5 p.p. 77% 74% 3,2 p.p.
+VGV Permutado - R$ milhões (100%) 106 195 -45% 38 178% 144 461 -69%
+Vendas (2)
+Vendas ex-permuta - R$ milhões (%CBR) 2.561 2.240 14% 2.164 18% 4.726 4.352 9%
+Vendas com Permuta - R$ milhões (100%) 3.467 3.258 6% 2.942 18% 6.408 6.287 2%
+Participação CBR 76% 73% 3,0 p.p. 75% 1,3 p.p. 75% 75% 0,1 p.p.
+Velocidade de Vendas (VSO) 12 Meses
+VSO 12 Meses ex-permuta - (%CBR) 42,8% 51,4% -8,7 p.p. 44,7% -1,9 p.p. 42,8% 51,4% -8,7 p.p.
+Estoques
+VGV Estoque a Valor de Mercado - R$ Milhões (%CBR) 12.813 10.018 28% 11.338 13% 12.813 10.018 28%
+VGV Estoque a Valor de Mercado - R$ Milhões (100%) 17.181 13.383 28% 15.416 11% 17.181 13.383 28%
+VGV Estoque Pronto a Valor de Mercado - R$ Milhões (%CBR) 1.714 1.682 2% 1.748 -2% 1.714 1.682 2%
+VGV Estoque Pronto a Valor de Mercado - R$ Milhões (100%) 2.148 1.967 9% 2.066 4% 2.148 1.967 9%
+Banco de Terrenos
+VGV potencial com permuta - R$ milhões (100%) 17.476 20.214 -14% 18.209 -4% 17.476 20.214 -14%
+% Permuta sobre valor do terreno 46% 48% -2,3 p.p. 43% 3,1 p.p. 46% 48% -2,3 p.p.
+Participação CBR 92% 92% 0,6 p.p. 92% -0,1 p.p. 92% 92% 0,6 p.p.
+Entregas
+Número de Entregas 11 11 0 8 3 19 17 2
+VGV Entregue ex-permuta - R$ milhões (%CBR) 1.516 1.637 -7% 829 83% 2.345 2.187 7%
+VGV Entregue - R$ milhões (100%) 2.206 1.970 12% 1.130 95% 3.336 2.670 25%
+Participação CBR 72% 83% -11,7 p.p. 77% -5,5 p.p. 73% 84% -10,7 p.p.
+6M26 x 
+6M252T25 6M26 6M252T26 1T262T26 x 2T25 2T26 x 1T26
+
+[p. 5]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+DESEMPENHO OPERACIONAL 
+LANÇAMENTOS 
+Nota: informações detalhadas referentes a lançamentos estão ao final do relatório, em tabelas anexas. 
+ 
+A Companhia lançou 20 empreendimentos no trimestre, totalizando um volume de R$ 3.840 
+milhões, ao se excluir as permutas, e tomando como base apenas o %CBR, 34% superior ao mesmo 
+período do ano anterior (R$ 2.864 milhões no 2T25) e 120% acima do 1T26 (R$ 1.7 47 milhões). 
+No semestre, os lançamentos somaram R$ 5.587 milhões , comparados a R$ 6.248 milhões em 
+2025. Do VGV lançado no trimestre, 93% serão reconhecidos via consolidação e 7% via método de 
+equivalência patrimonial. 
+ 
+ 
+ 
+ 
+ 
+ 
+819 1.147 690
+1.577 1.837743
+1.340
+455
+1.307
+1.795
+1.303
+1.352
+602
+3.364 1.955
+2T25 2T26 1T26 6M25 6M26
+2.864
+3.840
+1.747
+6.248
+5.587
++34% +120%
+-11%
+VGV Lançado
+Ex-Permuta
+(em R$ milhões – %CBR)
+Alto Padrão Médio MCMV 2 e 3
+
+[p. 6]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+ 
+Considerando a visão 100%, e ao se incluir as permutas, o volume lançado no 2T26 foi de 
+R$ 4.967 milhões, 20% superior ao mesmo período do ano anterior (R$ 4.126 milhões no 2T25) e 
+105% acima do 1T26 (R$ 2.428 milhões). As permutas nos lançamentos foram R$ 106 milhões no 
+2T26 vs. R$ 195 milhões no 2T25 e R$ 38 milhões no 1T26. A participação da Companhia nos 
+lançamentos do trimestre atingiu 79%, acima do 2T25 (73%) e superior ao 1T26 (73%). Do VGV 
+lançado no trimestre, 84% serão reconhecidos via consolidação e 16% via método de equivalência 
+patrimonial. No semestre, o VGV de lançamentos atingiu R$ 7.395 milhões, sendo 18% inferior ao 
+mesmo período de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+1.316 1.439 963
+2.364 2.401
+1.104 1.554
+1.724 2.0321.707
+1.974
+988
+4.901
+2.962
+2T25 2T26
+478
+1T26 6M25 6M26
+4.126
+4.967
+2.428
+8.989
+7.395
++20% +105%
+-18%
+VGV Lançado
+Com Permuta
+(em R$ milhões – 100%)
+Alto Padrão Médio MCMV 2 e 3
+73% 79% 73% 74% 77%
+
+[p. 7]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+7 
+ 
+ 
+A distribuição dos lançamentos em 2026 por geografia e segmento pode ser vista 
+abaixo: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lançamentos por região – 2026
+100% com permuta
+Lançamentos por produto – 2026
+100% com permuta
+70%
+29%
+São Paulo
+Rio de Janeiro
+1%
+Outros
+40%
+27%
+32% Alto Padrão
+Médio
+MCMV 2 e 3
+Lançamentos por região – 2026
+%CBR sem permuta
+Lançamentos por produto – 2026
+%CBR sem permuta 
+73%
+27%
+São Paulo
+Rio de Janeiro
+Outros
+1%
+35%
+32%
+33% Alto Padrão
+Médio
+MCMV 2 e 3
+
+[p. 8]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+8 
+ 
+VENDAS 
+Nota: informações detalhadas referentes a vendas contratadas estão ao final do relatório, em tabelas anexas. 
+ 
+Ao se excluir as permutas e tomando como base apenas o %CBR, o volume de vendas 
+líquidas contratadas neste trimestre somou R$ 2.561 milhões no 2T26, 14% superior ao mesmo 
+período do ano anterior (R$ 2.240 milhões no 2T25) e 18% acima do 1T26 (R$ 2.164 milhões). As 
+vendas líquidas do trimestre serão 91% reconhecidas via consolidação e 9% via mé todo de 
+equivalência patrimonial. No semestre, as vendas contratadas atingiram R$ 4.726 milhões, sendo 
+9% superiores ao mesmo período de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+850 992 883
+1.478 1.876367
+1.050
+497 683
+921
+1.025
+1.800
+875
+879
+1.823
+18
+2T25
+7
+2T26
+-7
+1T26
+26
+6M25
+0
+6M26
+2.240
+2.561
+2.164
+4.352
+4.726
++14% +18%
++9%
+Vendas Contratadas 
+Ex-Permuta
+(em R$ milhões – %CBR)
+Alto Padrão Médio Vivaz Prime MCMV 2 e 3
+
+[p. 9]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+9 
+ 
+ 
+Das vendas líquidas realizadas no trimestre, R$ 278 milhões se referem à venda de estoque 
+pronto (11%), R$ 1.053 milhões à venda de estoque em construção (41%) e R$ 1.231 milhões à 
+venda de lançamentos (48%). Dessa forma, a Cyrela atingiu uma velocidade de vendas (“VSO”) de 
+lançamentos de 32% no trimestre. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vendas Contratadas
+Ex-Permuta
+(em R$ milhões – %CBR)
+278 502
+1.205 1.053 1.158
+2.150
+2.211953 1.231 782
+1.986
+2.013
+82
+2T25 2T26
+224
+1T26 6M25 6M26
+2.240
+2.561
+2.164
+4.352
+4.726
+216
++14% +18%
++9%
+Lançamentos Estoque em Construção Estoque Pronto
+
+[p. 10]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+10 
+ 
+ 
+Ao se incluir as permutas e tomando como base a visão 100%, as vendas líquidas 
+contratadas neste trimestre somaram R$ 3.467 milhões, 6% acima do valor registrado no 2T25 (R$ 
+3.258 milhões) e 18% superiores ao 1T26 (R$ 2.942 milhões). A participação da Companhia nas 
+vendas contratadas foi de 76% no 2T26, superior aos 73% do mesmo trimestre do ano anterior e 
+acima do 1T26 (75%). As vendas líquidas do trimestre serão 81% reconhecidas via consolidação e 
+19% via método de equivalência patrimonial. No semestre, as vendas contratadas atingiram R$ 
+6.408 milhões, sendo 2% superiores ao mesmo período de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+1.303 1.363 1.192
+2.179 2.555456701 855
+1.300
+1.295
+1.310
+1.237 1.242
+2.788 2.541
+2T25
+7
+2T26
+-6
+1T26
+25
+6M25
+1
+6M26
+3.258 3.467
+2.942
+6.287 6.408
+18
++6% +18%
++2%
+Vendas Contratadas
+Com Permuta
+(em R$ milhões – 100%)
+Alto Padrão Médio Vivaz Prime MCMV 2 e 3
+73% 76% 75% 75% 75%
+
+[p. 11]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+11 
+ 
+ 
+Das vendas líquidas realizadas no trimestre, R$ 329 milhões se referem à venda de estoque 
+pronto (9%), R$ 1.479 milhões à venda de estoque em construção (43%) e R$ 1.658 milhões à 
+venda de lançamentos (48%). Dessa forma, a Cyrela atingiu uma velocidade de vendas (“VSO”) de 
+lançamentos de 33% no trimestre. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vendas Contratadas
+Com Permuta
+(em R$ milhões – 100%)
+600
+1.582 1.479 1.580
+2.859
+3.059
+1.583 1.658 1.091
+3.177
+2.749
+93
+2T25
+329
+2T26
+271
+1T26 6M25 6M26
+3.258 3.467
+2.942
+6.287 6.408
+250
++6% +18%
++2%
+Lançamentos Estoque em Construção Estoque Pronto
+
+[p. 12]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+12 
+ 
+ 
+A distribuição das vendas em 2026 por geografia e segmento pode ser vista abaixo: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+66%
+26%
+São Paulo
+Rio de Janeiro
+2%
+Sul
+6%
+Outros
+Vendas por região – 2026
+100% com permuta
+Vendas por produto – 2026
+100% com permuta
+40%
+20%
+40% Alto Padrão
+Médio
+MCMV 2 e 3
+69%
+24%
+São Paulo
+Rio de Janeiro
+2%
+Sul
+5%
+Outros
+Vendas por região – 2026
+%CBR sem permuta
+Vendas por produto – 2026
+%CBR sem permuta
+38%
+22%
+40%
+Alto Padrão
+Médio
+MCMV 2 e 3
+
+[p. 13]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+13 
+ 
+VELOCIDADE DE VENDAS (VSO) 
+ 
+Os dados operacionais resultaram em um indicador de Vendas sobre Oferta (VSO) de 12 
+meses de 42,8%, ficando abaixo do VSO 12 meses apresentado no mesmo trimestre do ano anterior 
+(51,4%) e sendo inferior ao VSO apresentado no 1T26 (44,7%). 
+ 
+Observando a velocidade de vendas por safra de lançamentos, a safra lançada no 2T26 foi 
+32% vendida. 
+Vendas por Safra de Lançamento – Ex-Permuta e %CBR 
+VSO (12 meses) – Ex-Permuta e %CBR 
+2T25 3T25 4T25 1T26 2T26
+51,4% 48,9%
+43,7% 44,7% 42,8%
+32%
+2T25
+4%
+2%
+33%
+6%
+7%
+15%
+1%
+12%55%
+6%
+2%
+1%
+40%3T25
+5%
+4T24
+1%
+10%
+0%
+3%
+2%
+16%
+3%
+3T24 2%
+36%4T25
+2%4%
+14%
+16%
+31%
+8%
+1T25
+45%1T26
+62%
+4%
+5%
+2T26
+85%
+78%
+55%
+62%
+65%
+62%
+61%
+2%
+14%
+Em 3 meses
+Em 6 meses
+Em 9 meses
+Em 12 meses
+Em 15 meses
+Em 18 meses
+Em 21 meses
+Em 24 meses
+
+[p. 14]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+14 
+ 
+ESTOQUES 
+ 
+Ao final do 2T26, o estoque a valor de mercado (%CBR) somava R$ 12.813 milhões, 
+e apresentou aumento de 13% quando comparado ao trimestre anterior. 
+ 
+Do estoque t otal de R$ 12.813 milhões, a parcela correspondente que será 
+reconhecida de forma consolidada na receita é de R$ 11.637 milhões, enquanto R$ 1.176 
+milhões serão reconhecidos na linha de equivalência patrimonial. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Estoque %CBR por Safra de Entrega (R$ MM) VGV Estoque a Valor de Mercado (R$ MM) 
+Variação do Estoque %CBR (R$ MM) Breakdown Estoque %CBR 
+10.018 11.092 12.028 11.338 12.813
+3.365
+3.951
+4.227 4.078
+4.369
+2T25 3T25 4T25 1T26 2T26
+13.383
+15.043
+16.255 15.416
+17.181% CBR
+Safra de Entrega Total Consolidação Equivalência
+Pronto 1.714 1.560 154 
+12 Meses 1.168 897 271 
+24 Meses 1.526 1.236 290 
+36 Meses 4.159 3.838 320 
++36 meses 4.246 4.105 141 
+Total 12.813 11.637 1.176 
+73%
+14%
+6%
+7%
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+Estoque 
+Total 1T26
+-1.053-278
+Vendas 
+Estoque 2T26
+3.840
+Lançamentos 
+2T26
+-1.231
+Vendas 
+Lançamentos 
+2T26
+195
+Var. Preço/ 
+Ajustes
+Estoque 
+Total 2T26
+11.338
+-1.330
+12.813
++13%
+Estoque em Construção Estoque Pronto
+
+[p. 15]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+15 
+ 
+ 
+No 2T26, a Companhia vendeu 16% do seu estoq ue pronto (%CBR) do início do 
+período. Agregando-se as entregas, o estoque pronto da Companhia reduziu de R$ 1.748 
+milhões no 1T26 para R$ 1.714 milhões no 2T26. 
+ 
+A parcela do estoque pronto que será reconhecida de forma consolidada na receita é 
+de R$ 1.560 milhões, enquanto R$ 154 milhões serão reconhecidos na linha de 
+equivalência patrimonial. 
+ 
+ 
+ 
+Variação do Estoque Pronto %CBR (R$ MM) Breakdown Estoque Pronto %CBR 
+Estoque Pronto %CBR por Ano Entregue (R$ MM) VGV Estoque a Valor de Mercado (R$ MM) 
+1.682 1.773 1.907 1.748 1.714
+284 295
+337
+319 434
+2T25 3T25 4T25 1T26 2T26
+1.967 2.068
+2.243
+2.066 2.148
+% CBR
+Período Entregue Total Consolidação Equivalência
+>60 Meses 213 187 26 
+48 Meses 57 28 29 
+36 Meses 81 81 0 
+24 Meses 612 592 20 
+12 Meses 751 672 79 
+Total 1.714 1.560 154 
+Estoque 
+Pronto 1T26
+-278
+Vendas Estoque 
+Pronto 2T26
+248
+VGV Entregue 
+2T26
+-4
+Var. Preço/ 
+Ajustes
+Estoque 
+Pronto 2T26
+1.748 1.714
+-2%
+43%
+21%
+21%
+15%
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+
+[p. 16]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+16 
+ 
+TERRENOS 
+Nota: informações detalhadas referentes a terrenos estão ao final do relatório, em tabelas anexas. 
+ 
+Ao final do 2T26, o estoque de terrenos escriturados da Cyrela somava potencial de 
+vendas total de R$ 17,5 bilhões. A participação da Companhia no estoque de terrenos é 
+de 92%, ou o equivalente a R$ 16,1 bilhões. Durante o trimestre, a Cyrela escriturou 10 
+novos terrenos, sendo 4 na cidade de São Paulo e 6 no Rio de Janeiro, com VGV potencial 
+de R$ 2,3 bilhões (91% participação Companhia). 
+ 
+ 
+ 
+ 
+ 
+ 
+Distribuição por Segmento (VGV em R$ bi) Forma de Aquisição (em %) 
+Distribuição por Região (VGV em R$ bi) 
+Banco de Terrenos em 30/06/2026* 
+ 
+*O VGV em landbank é baseado 
+na última viabilidade de avaliação 
+do terreno corrigida a INCC até a 
+data de hoje. 
+9,1Alto padrão
+2,8
+Médio
+5,6
+MCMV 2 e 3
+46%
+54%
+Permuta
+Caixa
+5,9
+Rio de Janeiro9,8São Paulo
+1,3
+Sul
+0,4
+Outros
+
+[p. 17]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+17 
+ 
+ENTREGAS 
+Nota: informações detalhadas referentes a unidades entregues estão ao final do relatório, em tabelas anexas. 
+ 
+ A Cyrela entregou 11 projetos no trimestre , totalizando um volume de R$ 1. 516 
+milhões na data dos respectivos lançamentos, ao se excluir permutas, e tomando como 
+base apenas o %CBR, 7% inferior ao realizado no 2T25 (R$ 1.637 milhões) e 83% acima 
+do 1T26 (R$ 829 milhões). No semestre, as entregas somaram R$ 2.345 milhões , 
+comparadas a R$ 2.187 milhões em 6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+454
+187
+475317 714
+214 526
+928
+1.123 781
+161
+1.382
+942
+106
+2T25 2T26 1T26 6M25 6M26
+1.637 1.516
+829
+2.187
+2.345
+20
+0
+92 92
+-7% +83%
++7%
+VGV Entregue
+Ex-Permuta
+(em R$ milhões – %CBR)
+Alto Padrão Médio Vivaz Prime MCMV 2 e 3
+
+[p. 18]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+18 
+ 
+ 
+Considerando a visão 100%, e ao se incluir as permutas, o volume entregue no 2T26 
+foi de R$ 2.206 milhões, 12% superior ao mesmo período do ano anterior (R$ 1.970 
+milhões no 2T25) e 95% acima do 1T26 (R$ 1.130 milhões). A participação da Companhia 
+nas entregas do trimestre atingiu 72%, abaixo do 2T25 (83%) e inferior ao 1T26 (77%). 
+No semestre, as entregas somaram R$ 3.336 milhões, comparadas a R$ 2.670 milhões em 
+6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+565 250
+605
+368 904
+326 605
+1.2301.299
+1.262
+240
+1.674
+1.501
+161
+2T25 2T26 1T26 6M25 6M26
+1.970
+2.206
+1.130
+2.670
+3.336
+41
+141141
++12% +95%
++25%
+VGV Entregue Com Permuta
+(em R$ milhões – 100%)
+83% 72% 77% 84% 73%
+Alto Padrão Médio Vivaz Prime MCMV 2 e 3
+
+[p. 19]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+19 
+ 
+OBRAS 
+ 
+Ao final d o 2T26, seguindo o critério de canteiros ativos, havia 125 obras em 
+andamento, distribuídas conforme o gráfico abaixo nas visões de segmentos, execução e 
+também de acordo com a distribuição geográfica. 
+ 
+ 
+Em linha com o seu direcionamento estratégico, a Cyrela mantém alto percentual na 
+gestão dos canteiros de obra de forma a garantir o controle da execução das mesmas. No 
+fechamento d o trimestre, 92% do VGV em construção (R$ 39,1 bilhões na data dos 
+respectivos lançamentos) estavam sendo gerido s por equ ipes próprias ou de JVs . Isso 
+reforça o seu compromisso com a gestão de custos e a qualidade dos produtos ofertados. 
+ 
+ 
+44
+34
+47
+2T26
+Alto Padrão
+Médio
+MCMV
+125
+91
+16
+18
+2T26
+Terceiros
+JV’s
+Próprias
+125
+19
+21
+78
+2T26
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+125
+7 Obras em andamento (% do VGV) 
+Número de Canteiros em Andamento 
+23%
+18%
+58%
+2T26
+Alto Padrão
+Médio
+MCMV
+100%
+80%
+13%
+8%
+2T26
+Terceiros
+JV’s
+Próprias
+100%
+9%
+14%
+74%
+3%
+2T26
+São Paulo
+Rio de Janeiro
+Sul
+Outros
+100%
+
+[p. 20]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+20 
+ 
+DESEMPENHO ECONÔMICO – FINANCEIRO 
+RECEITA 
+ 
+A receita líquida total da Companhia somou R$ 2.481 milhões no 2T26, montante 18% 
+superior aos R$ 2.107 milhões no 2T25 e 23% acima dos R$ 2.025 milhões registrados no 
+1T26. No semestre, a receita líquida somou R$ 4.506 milhões vs. R$ 4.060 milhões no 
+6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.107
+2.481
+2.025
+4.060
+4.506
+2T25 2T26 1T26 6M25 6M26
++18% +23%
++11%
+Receita Líquida
+(R$ milhões)
+
+[p. 21]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+21 
+ 
+MARGEM BRUTA 
+ 
+A margem bruta total reportada pela Companhia no 2T26 foi de 34,4%, 1,6 p.p. acima 
+da margem bruta reportada no 2T25 (32,7%) e 1,5 p.p. superior à margem de 32,9% do 
+1T26. No semestre, a margem bruta atingiu 33,7%, sendo 1,1 p.p . maior que o 6M25 
+(32,6%). A margem bruta ajustada do 2T26 foi de 37,3%, 2,4 p.p. acima da margem de 
+34,9% do 2T25 e 1,2 p.p. superior à margem de 3 6,1% do 1T26. No acumulado do 
+período, a margem bruta ajustada atingiu 36,8%, sendo 2,1 p.p. maior que o 6M25 
+(34,6%). 
+ 
+ 
+A melhora da margem bruta nos períodos de comparação foi impulsionada pela maior 
+margem do segmento Vivaz e pelo aumento de sua representatividade na receita da 
+Companhia. 
+ 
+ 
+Lucro Bruto 2T26: R$ 853 milhões 
+ 
+Margem Bruta 2T26: 34,4% 
+Evolução da Margem Bruta 
+2T26 1T26 2T25 6M26 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Receita Líquida 2.481 2.025 23% 2.107 18% 4.506 4.060 11%
+Lucro Bruto 853 666 28% 690 24% 1.519 1.324 15%
+Margem Bruta 34,4% 32,9% 1,5 p.p. 32,7% 1,6 p.p. 33,7% 32,6% 1,1 p.p.
+Juros Apropriados no Custo 73 65 11% 46 60% 138 82 68%
+Margem Bruta Ajustada 37,3% 36,1% 1,2 p.p. 34,9% 2,4 p.p. 36,8% 34,6% 2,1 p.p.
+Margem Bruta 2T26 x 1T26 2T26 x 2T25 6M26 x 6M25
+32,6% 33,7%
+2T25 2T26 1T26 6M25 6M26
+32,7%
+34,4%
+32,9%
++1,6 p.p. +1,5 p.p. +1,1 p.p.
+
+[p. 22]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+22 
+ 
+VENDAS A RECONHECER 
+ 
+Ao final do 2T26, a receita líquida de vendas a apropriar somava R$ 12.229 milhões. 
+A margem bruta dessa receita a apropriar foi de 36,2%, 0,1 p.p. abaixo do 2T25 (36,3%) 
+e 0,2 p.p. superior ao 1T26 (36,0%). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Margem a apropriar: 36,2% 
+ 
+Evolução da Margem Bruta a Apropriar 
+Vendas a Reconhecer (R$ MM)
+Receitas de Vendas a Apropriar 12.482 11.899 5% 10.050 24%
+Impostos a apropriar (254) (237) 7% (201) 26%
+Receita Líquida a Apropriar 12.229 11.662 5% 9.849 24%
+Custo Orçado das Unidades Vendidas a Apropriar (7.805) (7.468) 5% (6.276) 24%
+Lucro Bruto a Apropriar 4.424 4.194 5% 3.573 24%
+Margem Bruta a Apropriar 36,2% 36,0% 0,2 p.p. 36,3% -0,1 p.p.
+2T26 x 1T26 2T26 x 2T252T26 1T26 2T25
+2T25 2T26 1T26
+36,3 % 36,2 % 36,0 %
+-0,1 p.p. +0,2 p.p.
+
+[p. 23]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+23 
+ 
+DESPESAS COMERCIAIS 
+ 
+ As despesas comerciais do trimestre totalizaram R$ 294 milhões, acima dos valores 
+apresentados no 2T25 (R$ 226 milhões) e no 1T26 (R$ 277 milhões). No semestre, as 
+despesas comerciais somaram R$ 571 milhões, sendo R$ 144 milhões superiores ao 6M25. 
+ 
+ 
+O aumento das despesas comerciais em relação ao trimestre anterior foi explicad o 
+principalmente pela linha de m ídia. No acumulado do ano, o principal fator para o 
+crescimento das despesas foi o item estande de vendas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2T26 1T26 2T25 6M26 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Estande de Vendas 92 94 -3% 57 62% 186 103 82%
+Mídia 50 34 46% 37 36% 84 71 19%
+Serviços de Terceiros 58 61 -5% 52 11% 119 108 10%
+Manutenção Estoque Pronto 21 17 26% 15 37% 38 29 28%
+Outros 39 35 10% 35 10% 74 58 28%
+CashMe 34 35 -2% 29 17% 69 57 21%
+Total 294 277 6% 226 30% 571 426 34%
+Despesas Comerciais 2T26 x 2T25 6M26 x 6M252T26 x 1T26
+
+[p. 24]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+24 
+ 
+DESPESAS GERAIS E ADMINISTRATIVAS 
+ 
+As despesas gerais e administrativas do trimestre atingiram R$ 1 34 milhões, R$ 7 
+milhões acima dos R$ 127 milhões apresentados no 2T25 e em linha quando comparado 
+com o 1T26 (R$ 134 milhões). No semestre, as despesas somaram R$ 268 milhões, valor 
+R$ 14 milhões maior que o mesmo período do ano anterior (R$ 254 milhões). 
+ 
+ 
+O G&A da CashMe totalizou R$ 17 milhões no trimestre, comparado a R$ 18 milhões 
+no 1T26 e R$ 16 milhões no 2T25. No ano, as despesas gerais e administrativas da CashMe 
+somaram R$ 35 milhões, acima do mesmo período do ano anterior (R$ 31 milhões). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Despesas Gerais e Administrativas 2T26 1T26 2T26 x 1T26 2T25 2T26 x 2T25 6M26 6M25 6M26 x 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Salários e Encargos Sociais 60 57 6% 56 6% 117 112 4%
+Honorários da Administração 2 2 10% 2 16% 5 4 11%
+Participação dos Empregados 22 24 -9% 20 6% 45 41 10%
+Serviços de Terceiros 36 38 -7% 37 -3% 74 72 2%
+Aluguel, Viagens e Representações 6 5 11% 4 29% 11 10 10%
+Outros 9 8 16% 7 30% 17 15 15%
+Total 134 134 0% 127 6% 268 254 6%
+
+[p. 25]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+25 
+ 
+INDENIZAÇÕES 
+ 
+Detalhamos abaixo a composição das indenizações reconhecidas na Demonstração de 
+Resultados do trimestre, na rubrica de Outras Despesas/Receitas operacionais. 
+ 
+ 
+ 
+EQUIVALÊNCIA PATRIMONIAL 
+ 
+Na seção abaixo, detalhamos a composição da rubrica de Equivalência Patrimonial. 
+ 
+ 
+Indenizações 2T26 1T26 2T26 x 1T26 2T25 2T26 x 2T25 6M26 6M25 6M26 x 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Delta Provisão 5 8 -41% 19 -74% 13 18 -25%
+Gastos com Indenizações (Caixa) (28) (20) 43% (34) -17% (48) (60) -19%
+Comprometimento com Indenizações 2 0 1697% 1 34% 2 5 -70%
+Total Impacto DRE (Outras Despesas/Receitas Operacionais) (22) (11) 93% (14) 57% (33) (36) -9%
+Equivalência Patrimonial 2T26 1T26 2T26 x 1T26 2T25 2T26 x 2T25 6M26 6M25 6M26 x 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Cury Construtora E Incorporadora S.A. 41 46 -11% 44 -8% 86 84 3%
+Outras SPEs com a Cury 26 16 60% 18 45% 42 27 52%
+Lavvi Empreendimentos Imobiliários S.A. 23 20 18% 34 -30% 43 58 -26%
+Outras SPEs com a Lavvi 6 13 -55% 8 -32% 18 17 7%
+Plano & Plano Desenv. Imob. S.A. 18 14 31% 29 -38% 32 52 -39%
+Outros Projetos e Sociedades (7) 20 n.a 7 n.a 13 14 0%
+Total 107 128 -17% 140 -24% 235 252 -7%
+
+[p. 26]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+26 
+ 
+RESULTADO FINANCEIRO 
+ 
+O resultado financeiro d o trimestre foi positivo em R$ 69 milhões, acima dos R$ 
+66 milhões positivos registrados no 2T25 e superior aos R$ 38 milhões positivos registrados 
+no 1T26. No semestre, o resultado foi positivo em R$ 107 milhões, sendo menor que os R$ 
+125 milhões do mesmo período de 2025. 
+ 
+ 
+A redução do resultado financeiro no período acumulado decorreu do aumento das 
+despesas financeiras. 
+ 
+A contribuição da CashMe no resultado financeiro líquido totalizou R$ 111 milhões no 
+trimestre, comparado a R$ 72 milhões no 2T25 e R$ 62 milhões no 1T26. O resultado 
+financeiro acumulado da CashMe no semestre foi de R$ 173 milhões, comparado a R$ 130 
+milhões no mesmo período de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Despesas Financeiras
+Juros SFH (79) (90) -13% (65) 21% (169) (125) 36%
+Juros Empréstimos Nacionais e Estrangeiros (199) (182) 9% (141) 41% (380) (263) 45%
+Juros Capitalizados 58 68 -15% 49 18% 126 91 39%
+Sub Total (219) (204) 8% (157) 40% (423) (297) 43%
+Variações Monetárias sobre Financiamentos (1) (1) -22% (1) -24% (1) (1) -11%
+Despesas Bancárias (3) (3) 17% (3) 26% (6) (5) 23%
+Outras Despesas Financeiras (40) (16) 147% (26) 54% (56) (36) 56%
+Total de Despesas Financeiras (263) (223) 18% (186) 41% (487) (339) 44%
+Receitas Financeiras
+Rendimento de Aplicações 304 246 24% 236 29% 550 428 28%
+Variações Monetárias 4 3 34% 4 2% 6 7 -12%
+Outras Receitas Financeiras 25 12 100% 13 85% 37 29 30%
+Total de Receitas Financeiras 333 261 27% 253 32% 594 464 28%
+Resultado Financeiro 69 38 84% 66 4% 107 125 -15%
+Resultado Financeiro 2T26 x 1T26 2T26 x 2T25 6M26 x 6M25
+2T26 1T26 2T25 6M26 6M25
+
+[p. 27]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+27 
+ 
+LUCRO LÍQUIDO E MARGEM LÍQUIDA 
+ 
+A Companhia registrou lucro líquido no trimestre de R$ 452 milhões, comparado ao 
+lucro líquido de R$ 388 milhões no 2T25 e ao lucro líquido de R$ 297 milhões no 1T26. O 
+lucro por ação da Companhia atingiu o montante de R$ 1,04. Esse valor se compara a R$ 
+1,06 no mesmo período de 2025 e a R$ 0,68 no trimestre anterior. No acumulado do ano, 
+o lucro líquido totalizou R$ 748 milhões, 5% acima do mesmo período de 2025. 
+ 
+ 
+Esse resultado gerou um ROE ajustado (últimos doze meses) de 20,9%. 
+Lucro Líquido
+(R$ milhões)
+18,4%Margem 
+Líquida 14,7%
+388
+452
+297
+715 748
+2T25 2T26 1T26 6M25 6M26
++16% +52%
++5%
+18,2% 17,6% 16,6%
+19,5% 19,9%
+22,3%
+21,2% 20,9%
+2T25 3T25 4T25 1T26 2T26
+ROE LTM
+
+[p. 28]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+28 
+ 
+Destaques das Demonstrações Financeiras 
+CONTAS A RECEBER 
+ 
+ Considerando a totalidade dos contratos de 
+venda assinados, a linha de Co ntas a Receber 
+totalizou R$ 18,7 bilhões em 30 de junho de 2026, 
+sendo 4% maior que o montante registrado em 31 
+de março de 202 6. No Balanço Patrimonial, es se 
+valor representa R$ 6,5 bilhões, sendo apropriado 
+conforme o andamento de obra de cada projeto. 
+ 
+Desse total, 8% refere -se a unidades 
+entregues, e 92% a unidades em construção ou em 
+processo de entrega. O prazo médio ponderado de 
+realização do saldo de Contas a Receber é de cerca 
+de 2,1 anos (25,7 meses). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.556
+2.787
+1.194
+268
+12 Meses
+24 Meses
+36 Meses
+Após 36 Meses
+Cronograma do Custo a Incorrer
+(ref, unidades vendidas– R$ milhões)
+1.599
+1.253
+537
+121
+12 Meses
+24 Meses
+36 Meses
+Após 36 Meses
+Cronograma do Custo a Incorrer
+(ref, unidades em estoque – R$ milhões)
+Cronograma de Recebíveis 
+(em R$ milhões)
+7.552
+4.053
+4.190
+2.889
+12 Meses
+24 Meses
+36 Meses
+Após 36 Meses
+R$ MM R$ MM
+Unidades em construção 17.122 16.575 3%
+Unidades construídas 1.563 1.350 16%
+Total dos Recebíveis 18.685 17.925 4%
+Compromisso com custos orçados e ainda não
+incorridos, referente a unidades vendidas (7.805) (7.468) 5%
+Compromisso com custos orçados e ainda não
+incorridos, referente a unidades em estoque
+ (3.510) (3.368) 4%
+Contas a Receber Líquido 7.370 7.089 4%
+Contas a receber 2T26 x 1T26
+2T26 1T26
+
+[p. 29]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+29 
+ 
+ENDIVIDAMENTO 
+ 
+ Em 30 de junho de 2026, a dívida bruta com juros a 
+pagar somava R$ 8.874 milhões, 1% maior do que o s 
+R$ 8.792 milhões registrados em 31 de março de 2026. 
+ 
+O saldo de fi nanciamentos em moeda nacional 
+representava 41% do total da dívida (sem juros a pagar) e 
+registrou aumento de 10% no trimestre. 
+ 
+ 
+706
+4.646
+1T26
+1.003
+4.179
+2T26
+5.353 5.182
+-3%
+Dívida Corporativa 
+(R$ milhões)
+Curto Prazo Longo Prazo
+Financiamentos 3.552 3.238 10% 2.583 38%
+Dívida Corporativa - Cyrela 2.414 2.595 -7% 1.980 22%
+Dívida Corporativa - CashMe 2.768 2.757 0% 2.235 24%
+Subtotal 8.735 8.590 2% 6.798 28%
+Juros e Custos 139 202 -31% 91 52%
+Total 8.874 8.792 1% 6.890 29%
+2T25 2T26 x 2T252T26 x 1T262T26Modalidade (em R$ milhões) 1T26
+1.003
+633 647
+881
+576
+1.442
+612
+1.628
+772 307
+232
+12 Meses 24 Meses 36 Meses 48 Meses 60 Meses > 60 Meses
+1.616
+2.261
+1.419
+1.188
+808
+Financiamento Dívida Corporativa
+R$ (Milhões)
+Cronograma de Amortização da Dívida
+
+[p. 30]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+30 
+ 
+ 
+Dessa forma, o saldo de empréstimo s (dívida corporativa) em moeda nacional, que 
+representa 59% do total da dívida (sem considerar juros a pagar), refere-se a: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em R$ milhões Emissão Vencimento Custo a.a. Saldo
+Dívida Corporativa Cyrela
+489ª Série da 1ª emissão de CRI - Opea Capital 2022 jun-27 CDI + 0,40% 121
+490ª Série da 1ª emissão de CRI - Opea Capital 2022 jun-27 IPCA + 5,9068% (swap p/ CDI + 0,47%) 259
+491ª Série da 1ª emissão de CRI - Opea Capital 2022 jun-29 IPCA + 6,1280% (swap p/ CDI + 0,79%) 100
+1ª Série da 57ª emissão de CRI - Província Sec 2024 abr-28 98% CDI 423
+2ª Série da 57ª emissão de CRI - Província Sec 2024 abr-29 99% CDI 67
+3ª Série da 57ª emissão de CRI - Província Sec 2024 abr-31 101% CDI 300
+1ª Série da 102ª emissão de CRI - Província Sec 2025 abr-29 96% CDI 152
+2ª Série da 102ª emissão de CRI - Província Sec 2025 abr-30 97% CDI 348
+1ª Série da 127ª emissão de CRI - Província Sec 2025 nov-32 96,5% CDI 330
+2ª Série da 127ª emissão de CRI - Província Sec 2025 nov-35 IPCA + 7,3149% (swap p/ CDI - 0,2125%) 222
+3ª Série da 127ª emissão de CRI - Província Sec 2025 nov-40 IPCA + 7,29% (swap p/ CDI - 0,15%) 47
+1ª Emissão de Notas Comerciais da Cy10 Participações 2026 fev-32 CDI + 1,07% 45
+Subtotal 2.414 
+Em R$ milhões Emissão Vencimento Custo a.a. Saldo
+Dívidas CashMe
+1ª, 2ª e 3ª Séries da 24ª emissão de CRI - True Sec 2022 2029 CDI + 1,375% / IPCA + 7,8049% 120
+1ª e 2ª Séries da 155ª emissão de CRI - True Sec 2023 2028 CDI + 1,95% / IPCA + 7,8529% 43
+1ª, 2ª e 3ª Séries da 113ª emissão de CRI - Vert Sec 2023 2027 CDI + 3,0% / CDI + 4,0% 17
+1ª e 2ª Séries da 31ª emissão de CRI - Província Sec 2023 2030 IPCA + 9,0% / IPCA + 10,0% 54
+1ª e 2ª Séries da 40ª emissão de CRI - Província Sec 2024 2032 IPCA + 7,0% / IPCA + 10,0% 69
+1ª e 2ª Séries da 48ª emissão de CRI - Província Sec 2024 2031 CDI + 1,4% / IPCA + 7,4% 188
+1ª e 2ª Séries da 139ª emissão de CRI - Vert Sec 2024 2032 IPCA + 7,4632% / IPCA + 9,75% 301
+1ª, 2ª e 3ª Séries da 1ª emissão de CR - Província Sec 2024 2032 CDI + 1,15% / IPCA + 9,1146% / IPCA + 9,1146% 263
+3ª Série da 102ª emissão de CRI - Província Sec (Devedor Cyrela) 2025 2032 IPCA + 7,6693% 200
+1ª e 2ª Séries da 101ª emissão de CRI - Província Sec 2025 2032 IPCA + 8,2347% / IPCA + 10,0% 295
+1ª e 2ª Séries da 2ª emissão de CR - Província Sec 2025 2033 CDI + 1,06% / CDI + 1,06% 457
+CashMe I Fundo de Investimento em Direitos Creditórios 2024 n.a. CDI + 3,5% 210
+1ª e 2ª Séries da 133ª emissão de CRI - Província Sec 2026 2039 IPCA + 8,6078% / IPCA + 10,0% 365
+1ª, 2ª e 3ª Séries da 3ª emissão de CR - Província Sec 2026 2038 IPCA + 9,87% / CDI + 2,50% / CDI + 3,75% 186
+Subtotal 2.768 
+TOTAL DÍVIDA CORPORATIVA 5.182
+
+[p. 31]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+31 
+ 
+ 
+A Dívida Líquida Ajustada da Cyrela totalizou R$ 1.909 milhões, valor inferior ao 
+registrado no 1T26 (R$ 2.181 milhões). 
+ 
+ 
+A alavancagem da Companhia, medida por meio do indicador Dívida Líquida Ajustada/ 
+Patrimônio Líquido Ajustado, atingiu 16,5% no trimestre, ratificando a solidez financeira e 
+reforçando o compromisso da Cyrela e m manter esse índice em níveis saudáve is. Esse 
+endividamento líquido inclui R$ 2.768 milhões de dívida bruta e R$ 4.028 milhões de 
+Títulos e Valores Mobiliários das carteiras da CashMe. Excluindo-se os ativos e passivos da 
+CashMe, a Dívida Líquida Ajustada seria de R$ 3.170 milhões e a alavancagem (medida 
+pelo indicador Dívida Líquida Ajustada / Patrimônio Líquido Ajustado) seria de 30,7%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Obs.: Dívida Líquida e Patrimônio Líquido Consolidado excluindo AVJORA CashMe 
+Dívida LP 7.119 7.471 -5% 5.724 24%
+Dívida CP 1.616 1.119 44% 1.075 50%
+Total da Dívida 8.734 8.590 2% 6.798 28%
+Caixa, Equivalentes e Títulos de Val. Mob. 4.076 3.870 5% 3.267 25%
+Títulos e Valores Mobiliários LP 3.637 3.342 9% 2.814 29%
+Total de Disponibilidades 7.712 7.212 7% 6.081 27%
+Dívida Líquida Contábil 1.022 1.378 -26% 717 43%
+AVJORA CashMe 887 803 10% 592 50%
+Dívida Líquida Ajustada 1.909 2.181 -12% 1.309 46%
+2T25 2T26 x 2T25Em R$ milhões 2T26 x 1T262T26 1T26
+Dívida Líquida Ajustada 1.909 2.181 -12% 1.309 46%
+Patrimônio Líquido Ajustado 11.564 11.125 4% 10.283 12%
+Financiamento à Construção 3.552 3.238 10% 2.583 38%
+Dívida Líquida Ajustada / Patrimônio Líquido Ajustado 16,5% 19,6% -3,1 p.p. 12,7% 3,8 p.p.
+Dívida Líquida Ajust. (ex Fin) / Patrimônio Líquido Ajust. -14,2% -9,5% -4,7 p.p. -12,4% -1,8 p.p.
+2T25 2T26 x 2T25Em R$ milhões 2T26 2T26 x 1T261T26
+
+[p. 32]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Endividamento 
+2.583 3.238 3.552
+7.119
+1.022
+4.215
+5.353 5.182
+1.616
+887 887
+6.825
+2T25 1T26 2T26
+6.798
+8.590 8.735 8.735 7.712
+1.909
+Div Liq / PL
+Corp.
+Corp.
+Longo
+Curto
+12,7% 19,6%
+(R$ Milhões)
+Financ.
+Indicadores Dívida
+Total
+Dívida 
+Corporativa
+Dívida Líquida/ 
+Patrimônio Líq. 16,5%
+Prazo Médio Pond.* 3,1 anos 4,1 anos
+Curto Prazo 18% 19%
+Longo Prazo 82% 81%
+Custo Médio de 
+Financiamentos
+Poupança + 
+2,65% 61,2%
+TR + 9,01% 38,8%
+TOTAL 100,0%
+Taxa Mínima TR + 8,30%
+Taxa Máxima TR + 12,50%
+* Exclui dívidas da CashMe e CyCapital
+(R$ 2.813 MM)
+Custo Médio de Dívida 
+Corporativa*
+97,9% do CDI 68,4%
+CDI + 0,26% 31,6%
+TOTAL 100,0%
+16,5%
+Corp.
+Financ. Financ.
+AVJORA CashMe
+
+[p. 33]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+33 
+ 
+GERAÇÃO DE CAIXA 
+ 
+No 2T26, a Companhia apresentou geração de caixa de R$ 272 milhões, comparável 
+ao consumo de caixa de R$ 392 milhões no 2T25 e geração de caixa de R$ 134 milhões 
+no 1T26. O cálculo da geração de caixa exclui o efeito do AVJORA da CashMe, no montante 
+de R$ 887 milhões. No acumulado do ano, a Cyrela apresentou geração de caixa de R$ 
+406 milhões, comparável ao consumo de caixa de R$ 320 milhões no mesmo período do 
+ano anterior. 
+ 
+ 
+Geração / Consumo de Caixa 
+-396
+-325
+4
+2T25 2T26 1T26
+4
+6M25 6M26
+-392
+272
+134
+-320
+406
++103%
+(R$ milhões) 
+Não Recorrentes
+2T26 1T26 2T25 6M26 6M25 Var %
+R$ MM R$ MM R$ MM R$ MM R$ MM 6M26 x 6M25
+Dívida Total (Dívida Bruta s/ Juros a Pagar) 8.735 8.590 2% 6.798 28% 8.735 6.798 28%
+Caixa Total 7.712 7.212 7% 6.081 27% 7.712 6.081 27%
+Dívida Líquida Contábil 1.022 1.378 -26% 717 43% 1.022 717 43%
+(+) AVJORA CashMe 887 803 10% 592 50% 887 592 50%
+Dívida Líquida Ajustada 1.909 2.181 -12% 1.309 46% 1.909 1.309 46%
+∆ Dívida Líquida Ajustada 272 134 103% (392) n.a. 406 (324) n.a.
+(+) Programa Recompra - - n.a. - n.a. - 4 -100%
+(+) Dividendos - - n.a. - n.a. - - n.a.
+Geração/Consumo de Caixa 272 134 103% (392) n.a. 406 (320) n.a.
+(+) Aquisição/Venda de Participação Societária - - n.a. (4) -100% - (4) -100%
+Geração/Consumo de Caixa Operacional 272 134 103% (396) n.a. 406 (325) n.a.
+Var % Var %Geração/Consumo de Caixa (R$ milhões)
+
+[p. 34]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+34 
+ 
+EVENTOS SUBSEQUENTES 
+ 
+Conforme fato relevante emitido em 05 de agosto de 2026, a Companhia celebrou 
+memorando de entendimentos não vinculante com o fundo TRXF11 e sua gestora TRX, 
+estabelecendo os principais termos e condições de potencial operação envolvendo a 
+alienação do Edi fício Cyrela Oscar Freire Corporate e outros direitos em quatro galpões 
+logísticos no valor aproximado de R$ 2,14 bilhões, podendo ser acrescido em até R$ 103 
+milhões no caso de aquisição de participações de determinados terceiros, sendo 
+aproximadamente 50 % em moeda corrente e aproximadamente 50% em cotas do 
+TRXF11.
+
+[p. 35]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+35 
+ 
+ANEXO I – BALANÇO PATRIMONIAL 
+ 
+ 
+ 
+ 
+CYRELA BRAZIL REALTY S.A. EMPREENDIMENTOS E PARTICIPAÇÕES 
+ 
+ Balanço Patrimonial Consolidado 
+ R$ milhões 
+ 
+ 30 de Junho, 2026 31 de Dezembro, 2025 
+ ATIVO 
+ 
+ Circulante 15.927 14.870 
+ Caixa e Equivalentes de Caixa 231 727 
+ Títulos e Valores Mobiliários 3.845 3.255 
+ Contas a Receber 5.156 4.578 
+ Imóveis a Comercializar 6.054 5.775 
+ Impostos e Contribuições a Compensar 61 10 
+ Imposto e Contribuições de Recolhimentos Diferidos 3 2 
+ Despesas com Vendas a Apropriar 107 103 
+ Despesas Antecipadas 41 50 
+ Instrumentos Financeiros e Derivativos 49 36 
+ Demais Contas a Receber 379 335 
+ 
+ Não Circulante 11.813 11.240 
+ 
+ Realizável a Longo Prazo 7.840 7.335 
+ Contas a Receber 1.368 1.537 
+ Aplicações Financeiras de LP 3.637 3.026 
+ Contas-Corrente com Parceiros nos Empreendimentos 11 11 
+ Partes Relacionadas 259 186 
+ Impostos e Contribuições a Compensar 216 232 
+ Imposto e Contribuições de Recolhimentos Diferidos 1 1 
+ Imóveis a Comercializar 2.038 2.055 
+ Despesas com Vendas a Apropriar 111 95 
+ Demais Contas a receber 200 193 
+ 
+ Ativo Permanente 3.973 3.905 
+ Investimentos em Controladas e Coligadas 3.290 3.157 
+ Imobilizado 658 640 
+ Intangível 26 109 
+ 
+ 
+ Total do Ativo 
+ 
+27.741 26.110
+
+[p. 36]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+36 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 30 de Junho, 2026 31 de Dezembro, 2025 
+ 
+ 
+ 
+PASSIVO E PATRIMÔNIO LÍQUIDO 
+ 
+ 
+ 
+Circulante 4.729 3.869 
+ 
+Empréstimos e Financiamentos 644 754 
+ 
+Debêntures - - 
+ 
+Certificados de Recebíveis Imobiliários - CRI 1.106 748 
+ 
+Instrumentos Financeiros e Derivativos - 1 
+ 
+Fornecedores 309 276 
+ 
+Provisões para Garantias 85 80 
+ 
+Impostos e Contribuições a Recolher 69 107 
+ 
+Impostos e Contribuições Diferidos 112 99 
+ 
+Salários, Encargos sociais e participações 243 249 
+ 
+Contas a Pagar por Aquisição de Imóveis 1.208 948 
+ 
+Dividendos a Pagar - - 
+ 
+Partes Relacionadas 181 128 
+ 
+Contas-Corrente com Parceiros nos Empreendimentos 13 12 
+ 
+Adiantamentos de Clientes 297 135 
+ 
+Provisões para Riscos Fiscais, Prev., Trabalhistas e Cíveis 75 82 
+ 
+Demais Contas a Pagar 387 250 
+ 
+ 
+ 
+Exigível a Longo Prazo 10.560 10.774 
+ 
+Empréstimos e Financiamentos 3.195 3.010 
+ 
+Debêntures - - 
+ 
+Certificados de Recebíveis Imobiliários - CRI 3.929 4.205 
+ 
+Fornecedores 1 1 
+ 
+Provisões para Garantias 167 155 
+ 
+Contas a Pagar por Aquisição de Imóveis 1.979 1.995 
+ 
+Provisões para Riscos Fiscais, Prev., Trabalhistas e Cíveis 66 72 
+ 
+Impostos e Contribuições Diferidos 333 330 
+ 
+Adiantamento de Clientes 891 1.006 
+ 
+ 
+ 
+Patrimônio Líquido Consolidado 12.452 11.467 
+ 
+ 
+ 
+Participações Minoritárias 1.283 1.239 
+ 
+ 
+ 
+Patrimônio Líquido 11.168 10.227 
+ 
+Capital Social 6.184 6.184 
+ 
+ Reservas de Capital 65 46 
+ 
+Reserva Legal 716 716 
+ 
+Reserva de Retenção de Lucros 2.845 2.845 
+ 
+Ações em Tesouraria (269) (269) 
+ 
+Lucros/Prejuízos Acumulados 748 - 
+ 
+Outros Resultados Abrangentes 878 704 
+ 
+ 
+ Total do Passivo e do Patrimônio Líquido 
+ 
+ 
+ 
+ 
+ 
+27.741 
+ 
+26.110
+
+[p. 37]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+37 
+ 
+ANEXO II – DEMONSTRAÇÃO DE RESULTADO 
+ 
+ Demonstração de Resultados Consolidados 
+ R$ milhões 
+ 2T26 1T26 % 
+Variação 
+ 6M26 6M25 % 
+Variação 
+ 
+ 
+ 
+ 
+ Receita Bruta de Vendas e/ou Serviços 
+ Incorporação e Revenda de Imóveis 2.491 2.110 18% 4.601 4.146 11% 
+ Loteamentos 3 11 -73% 14 0 4892% 
+ Prestação de Serviços e Outras 44 31 42% 76 54 39% 
+ Provisão Para Distrato 12 (69) n.a (56) (29) 97% 
+ Provisão Para Distrato - PCLD (2) (2) -21% (4) (1) 287% 
+ Deduções da Receita Bruta (68) (56) 21% (124) (111) 12% 
+ Receita Líquida Operacional 2.481 2.025 23% 4.506 4.060 11% 
+ 
+ 
+ Dos Imóveis Vendidos e Revendidos (1.609) (1.388) 16% (2.997) (2.742) 9% 
+ Loteamentos (3) (8) -56% (11) 1 n.a 
+ Da Prestação de Serviços e Outras (7) (8) -5% (15) (14) 4% 
+ Provisão Para Distrato (8) 44 n.a 35 20 80% 
+ Custo das Vendas e Serviços Realizados (1.628) (1.359) 20% (2.987) (2.736) 9% 
+ 
+ 
+ Lucro (Prejuízo) Bruto Operacional 853 666 28% 1.519 1.324 15% 
+ 
+ Receitas (Despesas) Operacionais 
+ Com Vendas (294) (277) 6% (571) (426) 34% 
+ Gerais e Administrativas (132) (132) 0% (263) (249) 6% 
+ Honorários de Administração (2) (2) 10% (5) (4) 11% 
+ Equivalência Patrimonial 107 128 -17% 235 252 -7% 
+ Outros Resultados nos Investimentos 7 9 -24% 15 (2) n.a 
+ Outras Despesas/Receitas Operacionais (34) (19) 81% (52) (53) -2% 
+ (349) (292) 19% (641) (483) 33% 
+ 
+ 
+ 
+Lucro (Prejuízo) antes do Resultado 
+Financeiro 504 374 35% 878 841 4% 
+ 
+ 
+ Despesas Financeiras (263) (223) 18% (487) (339) 44% 
+ Receitas Financeiras 333 261 27% 594 464 28% 
+ 
+ 
+ 
+Lucro Antes dos Impostos Sobre o Lucro, e 
+de Acionistas não Controladores 574 411 39% 985 967 2% 
+ 
+ 
+ Diferido (2) (5) -53% (8) (7) 4% 
+ Corrente (53) (46) 14% (99) (87) 14% 
+ Imposto de Renda e Contribuição Social (55) (51) 7% (106) (94) 13% 
+ 
+ 
+ 
+Lucro Antes da Part. dos Acionistas não 
+Controladores 519 360 44% 879 873 1% 
+ 
+ 
+ 
+Parcela de Lucro atribuída aos acionistas não 
+controladores (67) (63) 6% (130) (157) -17% 
+ 
+ 
+ Lucro (Prejuízo) Líquido 452 297 52% 748 715 5%
+
+[p. 38]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+38 
+ 
+ANEXO III – RECONHECIMENTO DE RECEITA 
+*Inclui apenas receitas decorrentes das atividades de Incorporação Imobiliária Residencial e Loteamentos 
+ 
+EMPREENDIMENTO SEGMENTO DATA 
+RECONHECIMENTO
+ 2T26 2T25 2T26 2T25 
+Eden Park By Dror Alto Padrão mar-23 7% 9% 129 121 
+Cyrela Moema By Yoo Alto Padrão set-21 0% 3% 43 16 
+Mandarim The Legend Alto Padrão mar-24 10% 3% 39 12 
+La Isla Residence Club Alto Padrão mar-24 6% 5% 39 29 
+Lis Moema Alto Padrão nov-23 5% 6% 36 30 
+Ox Park Design By Edsa Alto Padrão set-24 9% 1% 36 10 
+Casa Ibirapuera Alto Padrão jul-22 4% 5% 30 45 
+On The Sky Cyrela By Yoo Alto Padrão jun-23 3% 5% 29 34 
+Woods Park Design By Edsa Alto Padrão set-24 7% 1% 29 11 
+Only By Living Médio nov-23 5% 12% 28 51 
+On The Sky – Wanders & Yoo Alto Padrão dez-24 2% 1% 27 49 
+Casa Eden By Yoo West Alto Padrão dez-23 6% 3% 26 17 
+Casa Eden By Yoo East Alto Padrão dez-23 5% 3% 25 18 
+The Park Inspired By Dror Alto Padrão abr-21 0% 3% 25 3 
+Aura Moema Alto Padrão ago-23 4% 3% 25 14 
+United Living Ipiranga Médio jun-23 4% 10% 24 25 
+Living Wellness Aclimação Médio mar-23 3% 5% 24 17 
+Iconyc By Yoo Alto Padrão set-23 1% 7% 23 39 
+Vista Praia De Belas Alto Padrão ago-24 14% 2% 22 3 
+Vivaz Santa Marina MCMV 2 e 3 jul-24 10% 4% 21 9 
+Escape Eden Alto Padrão jun-24 6% 2% 21 15 
+Coupé Tower 2 - Edifício Coupé Alto Padrão fev-25 2% 1% 21 24 
+Living Grand Wish Jardim Médio fev-24 6% 4% 21 9 
+Vivaz Parque Prime Freguesia Do Ó MCMV 2 e 3 out-24 10% 6% 21 14 
+Living Address Alto Do Ipiranga Médio jun-23 6% 8% 20 27 
+Demais empreendimentos 879 1.429 
+Sub-Total 1.663 2.071 
+Obras Reconhecidas após Junho 2025
+La Galerie Alto Padrão jun-26 49% 0% 141 - 
+We Barra By Living Alto Padrão jun-26 25% 0% 87 - 
+The Grand Residence Brooklin Médio jun-26 39% 0% 48 - 
+Cyrela Zen By Yoo Alto Padrão dez-25 1% 0% 39 - 
+Vista Milano Alto Padrão dez-25 0% 0% 26 - 
+Grand Vivaz Estação Giovanni Gronchi MCMV 2 e 3 jun-26 25% 0% 23 - 
+Endless Península By Edsa Alto Padrão dez-25 0% 0% 18 - 
+Casa Senses Alto Padrão dez-25 0% 0% 17 - 
+Vivaz Selection Santo Amaro MCMV 2 e 3 dez-25 1% 0% 17 - 
+Capri Alto Padrão dez-25 0% 0% 17 - 
+Vivaz Jardim De Versalhes MCMV 2 e 3 jun-26 29% 0% 17 - 
+In The Park Cidade Jardim Alto Padrão mar-26 0% 0% 17 - 
+Grand Vivaz Lapa 2 MCMV 2 e 3 jun-26 23% 0% 17 - 
+Skyline Menino Deus Alto Padrão dez-25 3% 0% 16 - 
+Grand Vivaz Estação Tamanduateí 3 MCMV 2 e 3 jun-26 21% 0% 16 - 
+Demais empreendimentos 315 - 
+Sub-Total 831 - 
+Total 2.494 2.071 
+% EVOLUÇÃO FINANCEIRA RECEITA APROPRIADA NOS 
+PERÍODOS (R$ mi)
+
+[p. 39]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+39 
+ 
+ANEXO IV – LANÇAMENTOS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Empreendimento Trimestre Mês Região VGV 
+(R$ MM) Produto % CBR
+1 Vivaz Connection Adolfo Pinheiro 1T26 jan-26 SP 226 MCMV 2 e 3 100%
+2 Mediterranée by Living - Studios 1T26 jan-26 SP 12 Médio 75%
+3 Leven By Living 1T26 fev-26 SP 235 Médio 100%
+4 Grand Vivaz Lapa 1T26 fev-26 SP 153 MCMV 2 e 3 75%
+5 Vivaz Jardim de Paris 1T26 fev-26 SP 147 MCMV 2 e 3 100%
+6 Epic Jardim Europa Design By Pininfarina - Studios 1T26 fev-26 SP 83 Alto Padrão 50%
+7 Living Wellness Grajaú 1T26 fev-26 RJ 231 Médio 100%
+8 Residencial Pixinguinha - Condomínio Rosa 1T26 fev-26 RJ 184 MCMV 2 e 3 20%
+9 Grand Vivaz Penha F2 1T26 mar-26 SP 189 MCMV 2 e 3 75%
+10 Green Garden 1T26 mar-26 SP 322 Alto Padrão 50%
+11 In The Park Cidade Jardim 1T26 mar-26 RJ 583 Alto Padrão 70%
+12 Nova Norte Residencial - Raízes - F2 1T26 mar-26 RJ 63 MCMV 2 e 3 40%
+13 Vivaz Mooca 2T26 abr-26 SP 119 MCMV 2 e 3 100%
+14 Living Full Eldorado 2T26 abr-26 SP 253 Médio 100%
+15 La Galerie 2T26 abr-26 SP 814 Alto Padrão 85%
+16 Vivaz Jardim de Versalhes 2T26 abr-26 SP 150 MCMV 2 e 3 100%
+17 Casa Senses - Studios 2T26 abr-26 SP 50 Alto Padrão 90%
+18 Cidade Villa Lobos - Condomínio Tenor 2T26 abr-26 SP 117 MCMV 2 e 3 40%
+19 Grand Vivaz Estação Giovanni Gronchi 2T26 mai-26 SP 203 MCMV 2 e 3 90%
+20 Grand Vivaz Lapa F2 2T26 mai-26 SP 181 MCMV 2 e 3 75%
+21 The Grand Residence 2T26 mai-26 SP 379 Médio 100%
+22 Wellness Chácara Santo Antônio 2T26 mai-26 SP 286 Médio 100%
+23 Vivaz Olaria 2T26 mai-26 RJ 125 MCMV 2 e 3 100%
+24 Endless Peninsula By Edsa - F2 2T26 mai-26 RJ 272 Alto Padrão 70%
+25 Nova Leopoldina - Condominio Art - F1 2T26 mai-26 SP 117 MCMV 2 e 3 40%
+26 Nova Caxias UP - F2 2T26 jun-26 RJ 51 MCMV 2 e 3 40%
+27 Escape Brooklin 2T26 jun-26 SP 430 Alto Padrão 75%
+28 Grand Vivaz Estação Tamanduateí F3 2T26 jun-26 SP 160 MCMV 2 e 3 100%
+29 Vivaz Nações Unidas F2 2T26 jun-26 SP 121 MCMV 2 e 3 100%
+30 We Barra By Living 2T26 jun-26 RJ 636 Médio 70%
+31 Now 29 2T26 jun-26 CO 96 MCMV 2 e 3 50%
+32 Almá Pinheiros - F1 2T26 jun-26 SP 408 Alto Padrão 35%
+Total 7.395
+
+[p. 40]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+40 
+ 
+ 
+2T26 
+ 
+ 
+ 
+6M26 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2T26 2T25 Var% 2T26 2T25 Var% 2T26 2T25 Var p.p. 2T26 2T25 Var%
+São Paulo 3.787 2.740 38% 3.081 2.344 31% 81% 86% -4,2 p.p 92 113 -18%
+Rio de Janeiro 1.084 466 133% 781 148 426% 72% 32% 40,2 p.p 0 0 n.a.
+Sul 0 237 -100% 0 190 -100% 0% 80% -80,0 p.p 0 18 -100%
+Outros 96 684 -86% 48 317 -85% 50% 46% 3,6 p.p 14 64 -78%
+Total 4.967 4.126 20% 3.910 2.999 30% 79% 73% 6,1 p.p 106 195 -45%
+2T26 2T25 Var% 2T26 2T25 Var% 2T26 2T25 Var p.p. 2T26 2T25 Var%
+Alto padrão 1.974 1.707 16% 1.393 1.367 2% 71% 80% -9,6 p.p 70 85 -18%
+Médio 1.554 1.104 41% 1.363 791 72% 88% 72% 16,1 p.p 22 84 -73%
+MCMV 2 e 3 1.439 1.316 9% 1.154 841 37% 80% 64% 16,4 p.p 14 26 -46%
+Total 4.967 4.126 20% 3.910 2.999 30% 79% 73% 6,1 p.p 106 195 -45%
+VGV Permutado (R$ MM)
+Por Produto VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR VGV Permutado (R$ MM)
+Por Região VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR
+6M26 6M25 Var% 6M26 6M25 Var% 6M26 6M25 Var p.p. 6M26 6M25 Var%
+São Paulo 5.154 6.302 -18% 4.158 4.822 -14% 81% 77% 4,1 p.p 131 163 -20%
+Rio de Janeiro 2.145 1.413 52% 1.482 981 51% 69% 69% -0,3 p.p 0 216 -100%
+Sul 0 237 -100% 0 190 -100% 0% 80% -80,0 p.p 0 18 -100%
+Outros 96 1.037 -91% 48 630 -92% 50% 61% -10,7 p.p 14 64 -78%
+Total 7.395 8.989 -18% 5.687 6.622 -14% 77% 74% 3,2 p.p 144 461 -69%
+6M26 6M25 Var% 6M26 6M25 Var% 6M26 6M25 Var p.p. 6M26 6M25 Var%
+Alto padrão 2.962 4.901 -40% 2.003 3.653 -45% 68% 75% -6,9 p.p 86 332 -74%
+Médio 2.032 1.724 18% 1.838 1.370 34% 90% 79% 11,0 p.p 43 102 -58%
+MCMV 2 e 3 2.401 2.364 2% 1.846 1.599 15% 77% 68% 9,2 p.p 16 27 -41%
+Total 7.395 8.989 -18% 5.687 6.622 -14% 77% 74% 3,2 p.p 144 461 -69%
+VGV Permutado (R$ MM)
+Por Produto VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR VGV Permutado (R$ MM)
+Por Região VGV Lançado (R$ MM) VGV Lançado CBR (R$ MM) % CBR
+
+[p. 41]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+41 
+ 
+ANEXO V – VENDAS 
+ 
+2T26 
+ 
+ 
+ 
+6M26 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2T26 2T25 Var % 2T26 2T25 Var % 2T26 2T25 Var p.p.
+São Paulo 2.371 2.171 9% 1.902 1.725 10% 80% 79% 0,7 p.p
+Rio de Janeiro 796 488 63% 534 259 106% 67% 53% 14,1 p.p
+Sul 96 237 -59% 78 190 -59% 81% 80% 1,0 p.p
+Outros 203 362 -44% 117 200 -42% 57% 55% 2,1 p.p
+Total 3.467 3.258 6% 2.631 2.374 11% 76% 73% 3,0 p.p
+2T26 2T25 Var % 2T26 2T25 Var % 2T26 2T25 Var p.p.
+Alto padrão 1.242 1.237 0% 919 939 -2% 74% 76% -1,9 p.p
+Médio 855 701 22% 706 545 29% 83% 78% 4,8 p.p
+Vivaz Prime 7 18 -57% 7 18 -60% 94% 101% -6,7 p.p
+MCMV 2 e 3 1.363 1.303 5% 999 872 15% 73% 67% 6,4 p.p
+Total 3.467 3.258 6% 2.631 2.374 11% 76% 73% 3,0 p.p
+% CBR
+Por Região VGV Vendido (R$ MM) % CBR
+Por Produto VGV Vendido (R$ MM)
+VGV Vendido CBR (R$ MM)
+VGV Vendido CBR (R$ MM)
+6M26 6M25 Var % 6M26 6M25 Var % 6M26 6M25 Var p.p.
+São Paulo 4.205 3.932 7% 3.374 3.031 11% 80% 77% 3,2 p.p
+Rio de Janeiro 1.672 1.437 16% 1.116 1.042 7% 67% 73% -5,8 p.p
+Sul 135 320 -58% 110 257 -57% 81% 80% 1,2 p.p
+Outros 396 598 -34% 225 397 -43% 57% 66% -9,6 p.p
+Total 6.408 6.287 2% 4.826 4.726 2% 75% 75% 0,1 p.p
+6M26 6M25 Var % 6M26 6M25 Var % 6M26 6M25 Var p.p.
+Alto padrão 2.541 2.788 -9% 1.848 2.113 -13% 73% 76% -3,1 p.p
+Médio 1.310 1.295 1% 1.093 1.088 0% 83% 84% -0,6 p.p
+Vivaz Prime 1 25 -94% 0 26 -101% -14% 103% -117,2 p.p
+MCMV 2 e 3 2.555 2.179 17% 1.885 1.500 26% 74% 69% 4,9 p.p
+Total 6.408 6.287 2% 4.826 4.726 2% 75% 75% 0,1 p.p
+% CBR
+Por Região
+VGV Vendido (R$ MM) % CBR
+Por Produto
+VGV Vendido (R$ MM)
+VGV Vendido CBR (R$ MM)
+VGV Vendido CBR (R$ MM)
+
+[p. 42]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+42 
+ 
+ANEXO VI – TERRENOS 
+ 
+Estoque de Terrenos 
+ 
+ 
+Aquisição de Terrenos 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Por Região
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+ (R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do 
+terreno
+% CBR
+São Paulo 9.787 9.038 31 25.205 41% 95%
+Rio de Janeiro 5.937 5.390 26 9.599 47% 94%
+Sul 1.307 1.015 1 1.190 75% 80%
+Outros 445 388 19 4.871 26% 35%
+Total 17.476 15.831 77 40.865 46% 92%
+,
+Por Produto
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+(R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do
+ terreno
+% CBR
+Alto padrão 9.063 7.949 31 9.675 45% 92%
+Médio 2.824 2.568 16 7.568 36% 88%
+MCMV 2 e 3 5.589 5.314 30 23.622 68% 95%
+Total 17.476 15.831 77 40.865 46% 92%
+Por Região
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+ (R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do 
+terreno
+% CBR
+São Paulo 1.366 1.304 4 5.054 40% 90%
+Rio de Janeiro 883 859 6 2.656 21% 92%
+Sul 0 0 0 0 0% 0%
+Outros 0 0 0 0 0% 0%
+Total 2.249 2.164 10 7.710 32% 91%
+Por Produto
+VGV Potencial 
+com Permuta
+ (R$ MM)
+VGV Potencial 
+sem Permuta
+(R$ MM)
+Terrenos Unidades
+Permuta sobre o 
+valor do
+ terreno
+% CBR
+Alto padrão 0 0 0 0 0% 0%
+Médio 896 870 4 2.284 16% 92%
+MCMV 2 e 3 1.353 1.294 6 5.426 63% 90%
+Total 2.249 2.164 10 7.710 32% 91%
+
+[p. 43]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+43 
+ 
+ANEXO VII – EMPREENDIMENTOS ENTREGUES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Empreendimentos Entregues Lançamento Entrega Região
+VGV 
+Lançamento
+(R$ MM)
+Produto % CBR
+1 Now Reserva das Águas - F3 set-23 jan-26 CO 48 MCMV 2 e 3 50%
+2 Vivaz Cantareira - F2 jul-23 fev-26 SP 111 MCMV 2 e 3 100%
+3 Vivaz Estação São Lucas set-23 fev-26 SP 71 MCMV 2 e 3 100%
+4 Vivaz Penha - F3 mai-23 fev-26 SP 113 MCMV 2 e 3 75%
+5 Oscar Freire 1.560 jul-22 mar-26 SP 240 Alto Padrão 70%
+6 Living Wellness Aclimação set-22 mar-26 SP 326 Médio 75%
+7 Vivaz Prime Belenzinho jul-23 mar-26 SP 116 MCMV 2 e 3 100%
+8 Now Praça C8 abr-23 mar-26 CO 105 MCMV 2 e 3 50%
+9 Living Infinity Nova Klabin mar-22 abr-26 SP 305 Médio 75%
+10 Living Full Vila Nova Conceição ago-22 abr-26 SP 294 Médio 100%
+11 Iconyc By Yoo ago-23 abr-26 RJ 464 Alto Padrão 60%
+12 Skyglass - Parque Moinhos jun-23 abr-26 Sul 125 Alto Padrão 80%
+13 Leaf Loefgren jun-22 abr-26 SP 228 Alto Padrão 33%
+14 Wish 675 mar-23 abr-26 SP 56 Médio 50%
+15 Heritage Campo ago-25 mai-26 SP INT 137 Alto Padrão 100%
+16 Nova Olaria out-22 mai-26 Sul 308 Alto Padrão 70%
+17 Now Parque Amazônia - F3 set-23 mai-26 CO 41 MCMV 2 e 3 50%
+18 Arq Mooca By Living mar-23 jun-26 SP 160 Médio 100%
+19 Smart Parque Areião jun-23 jun-26 CO 88 Médio 50%
+Total 3.336
+
+[p. 44]
+Release de Resultados – 2T26 | 2026 
+ 
+ 
+ 
+ 
+ 
+44 
+ 
+Glossário 
+VGV: Valor Geral de Vendas, que é o montante em R$ que pode ser obtido ao 
+vender cada unidade imobiliária. 
+%CBR: participação da Companhia obtida pela somatória da participação direta e 
+indireta nos projetos. 
+Vendas contratadas: somatória dos valores das unidades vendidas qu e tenham 
+contratos assinados. 
+Percentage of Completion ("PoC"): custo incorrido dividido pelo custo total da 
+obra. A receita é reconhecida até o limite da relação "custo incorrido / custo total". 
+Resultado a apropriar : devido ao método contábil "PoC" , o resultado das 
+unidades vendidas é apropriado conforme a evolução f inanceira das obras. Portanto é o 
+resultado que será reconhecido à medida que o custo incorrido evoluir. 
+Dívida líquida : endividamento total adicionado aos gastos de emissão de 
+debêntures e CRI s e líquido de juros acruados deduzido da posição de caixa 
+(disponibilidades + títulos e valores mobiliários de curto e longo prazos). 
+Usinagem: andamento de obras de unidades já comercializadas (de acordo com o 
+método contábil PoC). 
+CRI: Certificado de Recebíveis Imobiliários. 
+Lucro por ação: lucro líquido do período dividido pela quantidade de ações (no 
+último dia do trimestre) emitidas sem considerar aquelas mantidas em tesouraria. 
+Landbank: estoque de terrenos disponíveis para lançamentos futuros. 
+Permuta: alternativa para a compra de terreno que consiste em pagar o 
+proprietário do terreno com unidades (no caso da permuta física) ou com o fluxo de caixa 
+de vendas de unidades (no caso de permuta financeira). 
+SFH: Sistema Financeiro da Habitação.
+
+[p. 45]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+1 
+ 
+Cyrela Reports Net Income of R$452 million and Cash 
+Generation of R$272 million in the quarter 
+ 
+ 
+ 
+ 
+Conference Call on 
+the 2Q26 Results 
+Portuguese 
+(with simultaneous interpretation) 
+August 14, 2026 
+11:00 a.m. (BRT) 
+10:00 a.m. (U.S. Eastern 
+Time) 
+ 
+ZOOM: click here 
+ 
+IR Contacts: 
+ri@cyrela.com.br 
+Visit our IR Website at: 
+http://ri.cyrela.com.br/en/ 
+ 
+SALES 
+ 
+In 2Q26: 
+R$2,561 million, 14% higher than 
+2Q25 and 18% up from 1Q26 
+ 
+In 6M26: 
+R$4,726 million, 9% higher than 
+6M25 
+ 
+ 
+ 
+ 
+NET INCOME 
+ 
+In 2Q26: 
+R$452 million net income, vs. 
+ R$388 million in 2Q25 and R$297 
+million in 1Q26 
+ 
+In 6M26: 
+R$748 million vs. R$715 million in 
+6M25 
+ 
+São Paulo, August 13, 2026 - Cyrela Brazil Realty S.A. Empreendimentos e Participações (“CBR” or “Company” or 
+“Cyrela”) (B3: CYRE3/CYRE4; OTCQPink: CYRBY), one of the largest residential real estate developers in Brazil, 
+announces its earnings results for the second quarter of 2026 (2Q26). The financial and operational information contained 
+herein, except where otherwise indica ted, is presented in Brazilian Reais (R$) and follows the International Financial 
+Reporting Standards (IFRS), which are in line with technical guideline OCPC 04 and technical interpretation ICPC 02, the 
+Brazilian accounting principles, the financial report ing standards applicable to the Brazilian real estate developers and 
+the relevant regulation. The comparisons herein refer to the same period of 2025 (2Q25) and, where applicable, to the 
+first quarter of 2026 (1Q26). 
+ 
+ROE – RETURN ON EQUITY 
+ 
+of 20.9% 
+ 
+ (Net income for the past 12 
+months over the period’s average 
+adjusted shareholders’ equity, 
+excluding minority interests) 
+ 
+ 
+LAUNCHES 
+ 
+In 2Q26: 
+R$3,840 million, 34% higher than 
+2Q25 and 120% up from 1Q26 
+ 
+In 6M26: 
+R$5,587 million, 11% lower than 
+6M25 
+CASH GENERATION 
+In 2Q26: 
+Cash generation of R$272 million vs. 
+cash burn of R$392 million in 2Q25 and 
+cash generation of R$134 million in 
+1Q26 
+ 
+In 6M26 
+Cash generation of R$406 million vs. 
+cash burn of R$320 million in 6M25 
+ 
+GROSS MARGIN 
+ 
+In 2Q26: 
+34.4%, 1.6 p.p. up from 2Q25 and 
+1.5 p.p. higher than 1Q26 
+ 
+In 6M26: 
+33.7%, 1.1 p.p. higher than 6M25 
+CYRE3 
+CYRE4 
+(08/13/2026) 
+ 
+# of Shares 
+(ex Treasury): 
+CYRE3: 
+366,310,939 
+CYRE4: 
+69,446,450
+
+[p. 46]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+2 
+ 
+MESSAGE FROM MANAGEMENT ................................................................ 3 
+MAIN INDICATORS ................................................................................... 4 
+OPERATIONAL PERFORMANCE ...................................................................................................... 5 
+LAUNCHES ...................................................................................................................................... 5 
+PRE-SALES...................................................................................................................................... 8 
+SALES SPEED (SOS) ..................................................................................................................... 13 
+INVENTORIES .............................................................................................................................. 14 
+LANDBANK ................................................................................................................................... 16 
+DELIVERIES .................................................................................................................................. 17 
+CONSTRUCTION SITES ................................................................................................................ 19 
+ECONOMIC AND FINANCIAL PERFORMANCE ......................................... 20 
+REVENUE ...................................................................................................................................... 20 
+GROSS MARGIN ........................................................................................................................... 21 
+SALES TO BE RECOGNIZED .......................................................................................................... 22 
+SELLING EXPENSES ..................................................................................................................... 23 
+GENERAL & ADMINISTRATIVE EXPENSES .................................................................................. 24 
+INDEMNITIES .............................................................................................................................. 25 
+EQUITY INCOME .......................................................................................................................... 25 
+FINANCIAL RESULT ..................................................................................................................... 26 
+NET INCOME AND NET MARGIN .................................................................................................. 27 
+ Financial Statements Highlights ................................................................................................. 28 
+ACCOUNTS RECEIVABLE .............................................................................................................. 28 
+DEBT ............................................................................................................................................. 29 
+CASH GENERATION ...................................................................................................................... 33 
+SUBSEQUENT EVENTS .................................................................................................................. 34 
+ANNEX I – BALANCE SHEET .................................................................... 35 
+ANNEX II – INCOME STATEMENT ........................................................... 37 
+ANNEX III – REVENUE RECOGNITION.................................................... 38 
+ANNEX IV – LAUNCHES ........................................................................... 39 
+ANNEX V – SALES .................................................................................... 41 
+ANNEX VI – LANDBANK........................................................................... 42 
+ANNEX VII – PROJECTS DELIVERED ....................................................... 43 
+Glossary ................................................................................................... 44
+
+[p. 47]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+3 
+ 
+MESSAGE FROM MANAGEMENT 
+ 
+In the second quarter of 2026, Cyrela maintained its consistent execution track record, 
+delivering continued progress across its operating and financial indicators despite a still challenging 
+macroeconomic environment. The period was marked by increased uncertainty in the external 
+scenario, particularly due to geopolitical tensions, as well as volatility in domestic markets, 
+impacting financial assets. In this context, the Company continued to advance its strategy with 
+discipline in decision-making, selectivity in launches and rigorous capital allocation. 
+From an operational standpoint, we delivered consistent performance during the period. 
+Launches reached R$3.8 billion, a 120% increase compared to the first quarter, reflecting our 
+strategy of developing differentiated products aligned with the demands of each market. 
+Contracted sales totaled R$2.6 billion during the period, up 18% from the previous quarter , 
+demonstrating consistent demand for the Company's products. 
+Financial results reinforced Cyrela's ability to combine growth, profitability and discipline. 
+We reported net revenue of R$2.5 billion , up 23% comp ared to the first quarter, and gross 
+margin of 34.4%, reflecting the quality of our portfolio and discipline in project execution. Net 
+income reached R$452 million, while adjusted LTM ROE remained at a healthy level of 
+20.9%, reflecting our capacity to create value for shareholders. Cash generation of R$272 
+million was a highlight, contributing to the reduction of the net debt-to-adjusted equity ratio 
+to 16.5% and further strengthening the Company's capital structure. 
+We remain attentive to the evolving environment and to opportunities arising throughout 
+the cycle, while maintaining rigorous criteria in the selection of new projects. Cyrela will remain 
+focused on excellence throughout the customer journey and on generating sustainable long -term 
+results. We thank our employees, customers, shareho lders and other stakeholders for their 
+continued trust.
+
+[p. 48]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+4 
+ 
+MAIN INDICATORS 
+ 
+ 
+(1) Including swapped units 
+(2) Net of cancellations, including swaps 
+(3) Net Income LTM / Average Shareholders’ Equity excluding CashMe’s FVTOCI 
+(4) Net debt and Total Shareholders’ Equity excluding CashMe’s FVTOCI 
+ 
+ 
+ 
+ 
+ 
+Financial Indicators
+Net Revenue (R$ Million) 2,481 2,107 18% 2,025 23% 4,506 4,060 11%
+Gross Profit (R$ Million) 853 690 24% 666 28% 1,519 1,324 15%
+Gross Margin 34.4% 32.7% 1.6 p.p. 32.9% 1.5 p.p. 33.7% 32.6% 1.1 p.p.
+Adjusted Gross Margin 37.3% 34.9% 2.4 p.p. 36.1% 1.2 p.p. 36.8% 34.6% 2.1 p.p.
+Sales Expenses (R$ Million) 294 226 30% 277 6% 571 426 34%
+G&A Expenses (R$ Million) 134 127 6% 134 0% 268 254 6%
+Net Income (R$ Million) 452 388 16% 297 52% 748 715 5%
+Net Margin 18.2% 18.4% -0.2 p.p. 14.7% 3.5 p.p. 16.6% 17.6% -1.0 p.p.
+LTM ROE (3) 20.9% 19.5% 1.4 p.p. 21.2% -0.3 p.p. 20.9% 19.5% 1.4 p.p.
+Adjusted Net Debt / Adjusted Shareholders Equity (4) 16.5% 12.7% 3.8 p.p. 19.6% -3.1 p.p. 16.5% 12.7% 3.8 p.p.
+Cash Generation / Burn (R$ Million) 272 (392) n.a. 134 103% 406 (320) n.a.
+Backlog 06/30/2026 06/30/2025 Chg. 03/31/2026 Chg.
+Revenues to be Recognized (R$ Million) 12,229 9,849 24% 11,662 5%
+Margin to be Recognized 36.2% 36.3% -0.1 p.p. 36.0% 0.2 p.p.
+Launches
+Number of Launches 20 17 3 12 8 32 35 -3
+Launched PSV ex-swaps - R$ Million (%CBR) 3,840 2,864 34% 1,747 120% 5,587 6,248 -11%
+Launched PSV with swaps - R$ Million (100%) 4,967 4,126 20% 2,428 105% 7,395 8,989 -18%
+Cyrela's Share 79% 73% 6.1 p.p. 73% 5.5 p.p. 77% 74% 3.2 p.p.
+Swapped PSV - R$ Million (100%) 106 195 -45% 38 178% 144 461 -69%
+Sales (1)
+Pre-Sales ex-swaps - R$ Million (%CBR) 2,561 2,240 14% 2,164 18% 4,726 4,352 9%
+Pre-Sales with swaps - R$ Million (100%) 3,467 3,258 6% 2,942 18% 6,408 6,287 2%
+Cyrela's Share 76% 73% 3.0 p.p. 75% 1.3 p.p. 75% 75% 0.1 p.p.
+Sales Speed (SoS) LTM
+SoS LTM ex-swaps - (%CBR) 42.8% 51.4% -8.7 p.p. 44.7% -1.9 p.p. 42.8% 51.4% -8.7 p.p.
+Inventories
+PSV Inventory at Market Value - R$ Million (%CBR) 12,813 10,018 28% 11,338 13% 12,813 10,018 28%
+PSV Inventory at Market Value - R$ Million (100%) 17,181 13,383 28% 15,416 11% 17,181 13,383 28%
+PSV Finished Inventory at Market Value - R$ Million (%CBR) 1,714 1,682 2% 1,748 -2% 1,714 1,682 2%
+PSV Finished Inventory at Market Value - R$ Million (100%) 2,148 1,967 9% 2,066 4% 2,148 1,967 9%
+Landbank
+PSV with exchange - R$ Million (100%) 17,476 20,214 -14% 18,209 -4% 17,476 20,214 -14%
+% Swap over land value 46% 48% -2.3 p.p. 43% 3.1 p.p. 46% 48% -2.3 p.p.
+Cyrela's Share 92% 92% 0.6 p.p. 92% -0.1 p.p. 92% 92% 0.6 p.p.
+Deliveries
+Number of Projects Delivered 11 11 0 8 3 19 17 2
+Delivered PSV ex-swaps - R$ Million (%CBR) 1,516 1,637 -7% 829 83% 2,345 2,187 7%
+Delivered PSV - R$ Million (100%) 2,206 1,970 12% 1,130 95% 3,336 2,670 25%
+Cyrela's Share 72% 83% -11.7 p.p. 77% -5.5 p.p. 73% 84% -10.7 p.p.
+6M26 x 6M256M26 6M252Q252Q26 1Q26 2Q26 x 1Q262Q26 x 2Q25
+
+[p. 49]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+5 
+ 
+OPERATIONAL PERFORMANCE 
+LAUNCHES 
+ 
+Cyrela launched 20 projects in the quarter, reaching a volume of R$3,840 million, excluding 
+swaps and considering only the %CBR, 34% higher than in 2Q25 (R$2,864 million) and 120% up 
+from 1Q26 (R$1,747 million). In 6M26, the PSV launched totaled R$5,587 mi llion, compared with 
+R$6,248 million in 6M25. Of the total PSV launched in 2Q26, 93% will be recognized through full 
+consolidation and 7% through the equity method. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+819 690
+743 455
+602
+1,303
+2Q25
+1,352
+1,340
+1,147
+2Q26 1Q26
+3,364
+1,307
+1,577
+6M25
+1,955
+1,795
+1,837
+6M26
+2,864
+3,840
+1,747
+6,248
+5,587
++34% +120%
+-11%
+Launched PSV
+Ex-Swap (in R$ million –%CBR)
+High end Middle MCMV 2 and 3
+
+[p. 50]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+6 
+ 
+ 
+On a 100% basis and including swaps, launched PSV totaled R$4,967 million in 2Q26, 20% 
+higher than the launches of the same quarter of the previous year (R$4,126 million in 2Q25) and 
+105% up from 1Q26 (R$2,428 million). Swaps accounted for R$106 million in the launches of the 
+quarter vs. R$195 million in 2Q25 and R$38 million in 1Q26. Cyrela’s stake in 2Q26 launches 
+reached 79%, up from the stake presented in 2Q25 (73%) and higher than 1Q26 (73%). Of the 
+total PSV launched in 2Q26, 84% will be recognized thr ough full consolidation and 16% through 
+the equity method. In the year, launches reached R$7,395 million, 18% lower than the same period 
+of 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+%CBR
+963
+988
+1,316
+2Q25
+1,974
+1,439
+2Q26 1Q26
+4,901
+1,724
+2,364
+6M25
+2,962
+2,032
+2,401
+6M26
+4,126
+4,967
+2,428
+8,989
+7,395
+1,104 1,554
+478
+1,707
++20% 105%
+-18%
+73% 74%
+Launched PSV
+With Swap (in R$ million – 100%)
+73% 79%
+High end Middle MCMV 2 and 3
+77%
+
+[p. 51]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+7 
+ 
+ 
+The breakdown of launches by geographical region and segment in 2026 is disclosed 
+below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Launches per Region – 2026
+%CBR ex-swaps
+Launches per Product – 2026
+%CBR ex-swaps
+35%
+32%
+33% High end
+Middle
+MCMV 2 and 3
+73%
+27%
+São Paulo
+Rio de Janeiro
+1%
+Other
+Launches per Region – 2026
+100% with swaps
+Launches per Product – 2026
+100% with swaps
+40%
+27%
+32% High end
+Middle
+MCMV 2 and 3
+70%
+29%
+São Paulo
+Rio de Janeiro
+1%
+Other
+
+[p. 52]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+8 
+ 
+PRE-SALES 
+Note: detailed information on pre-sales can be found at the end of this report in the appendix tables. 
+ 
+Excluding swaps and considering only the %CBR , net pre -sales volume totaled R$2,561 
+million in the quarter, 14% up from 2Q25 (R$2,240 million) and 18% higher than in 1Q26 (R$2,164 
+million). Of the total net pre-sales of the quarter, 91% will be recognized through full consolidation 
+and 9% through the equity method. In 6M26, net pre -sales totaled R$4,726 million, 9% higher 
+than the previous year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+850 992 883
+367497 683
+921875
+879
+1,478
+6M25
+1,800
+1,050
+0
+1,876
+6M26
+18
+2Q25
+7
+2Q26
+-7
+1Q26
+1,823
+1,025
+26
+2,240
+2,561
+2,164
+4,352
+4,726
++14% +18%
++9%
+Pre Sales
+Ex-Swap (in R$ million – %CBR)
+High end Middle Vivaz Prime MCMV 2 and 3
+
+[p. 53]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+9 
+ 
+ 
+Of total net pre -sales in the quarter, R$278 million was attributable to finished inventory 
+sales (11%), R$1,053 million to sales of inventory under construction (41%) and R$1,231 million 
+to sales from launches (48%). Sales speed for projects launched in the quarter reached 32%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pre Sales
+Ex-Swap (in R$ million – %CBR)
+502
+953 782
+2Q25
+1,231
+1,053
+2Q26
+224
+1Q26
+1,986
+2,150
+6M25
+2,013
+2,211
+6M26
+2,240
+2,561
+2,164
+4,352
+4,726
+1,205
+278
+1,158
+21682
++14% +18%
++9%
+Launches Under Construction Inventory Finished Inventory
+
+[p. 54]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+10 
+ 
+ 
+On a 100% basis and including swaps, net pre -sales totaled R$3,467 million in 2Q26, 6% 
+higher than the same period of 2025 (R$3,258 million in 2Q25) and 18% up from 1Q26 (R$2,942 
+million). Cyrela’s stake in the volume sold in the quarter was 76%, higher than the same quarter 
+of 2025 (73%) and up from 1Q26 (75%). Of the total sales of the quarter, 81% will be recognized 
+through full consolidation and 19% through the equity method. In 6M26, net presales accounted 
+for R$6,408 million, 2% higher than the previous year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+456701 855
+2,788
+1,295
+25
+2,179
+6M25
+2,541
+1,310
+1
+2,555
+6M26
+1,237
+1,303
+2Q25
+1,242
+1,363
+2Q26
+1,300
+-6
+1Q26
+3,258 3,467
+2,942
+6,287 6,408
+18 7
+1,192
++6% +18%
++2%
+Pre Sales
+With Swap (in R$ million – 100%)
+High end Middle Vivaz Prime MCMV 2 and 3
+%CBR 75% 75%73% 76% 75%
+
+[p. 55]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+11 
+ 
+ 
+Of total net pre -sales in the quarter, R$329 million was attributable to finished inventory 
+sales (9%), R$1,479 million to sales of under construction inventory (43%) and R$1,658 million to 
+sales from launches (48%). Sales speed for projects launched in the quarter reached 33%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pre Sales
+With Swap (in R$ million – 100%)
+329 60093
+2Q25
+1,658
+1,479
+2Q26
+1,091
+1,580
+271
+1Q26
+3,177
+2,859
+6M25
+2,749
+3,059
+6M26
+3,258 3,467
+2,942
+6,287 6,408
+1,582
+250
+1,583
++6% +18%
++2%
+Launches Under Construction Inventory Finished Inventory
+
+[p. 56]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+12 
+ 
+ 
+The breakdown of sales by geo graphical region and segment in 2026 can be seen 
+below: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+69%
+24%
+São Paulo
+Rio de Janeiro
+2%
+South
+5%
+Other
+Sales per Region – 2026
+%CBR ex-swaps
+Sales per Product – 2026
+%CBR ex-swaps
+38%
+22%
+40%
+High end
+Middle
+MCMV 2 and 3
+66%
+26%
+São Paulo
+Rio de Janeiro
+2%
+South
+6%
+Other
+Sales per Region – 2026
+100% with swaps
+Sales per Product –2026
+100% with swaps
+40%
+20%
+40% High end
+Middle
+MCMV 2 and 3
+
+[p. 57]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+13 
+ 
+SALES SPEED (SOS) 
+ 
+The operating performance resulted in an LTM Sales over Supply (SoS) ratio of 42.8%, 
+below 51.4% in 2Q25 and 44.7% in 1Q26. 
+ 
+ 
+Looking at sales speed by launch vintage, 32% of the 2Q26 vintage has been sold. 
+ 
+ 
+ 
+Sales by Launch Vintage – Ex-swaps and %CBR 
+SoS (12 months) – Ex-swaps and %CBR 
+2Q25 3Q25 4Q25 1Q26 2Q26
+51.4% 48.9%
+43.7% 44.7% 42.8%
+32%
+2Q25 33%
+7%
+6%
+1%
+15%
+14%
+4Q24 12% 2%
+40%3Q25
+6%
+4%
+5%
+10%
+1%
+0%
+55%
+16%
+3%
+2%
+3Q24
+1%
+4Q25
+62%
+2%
+2%
+16%
+14%31%
+8%
+45%1Q26
+1Q25 4%
+36%
+2Q26
+85%
+78%
+55%
+62%
+65%
+62%
+61%
+2%
+3%
+4%
+2%
+5%
+In 3 months
+In 6 months
+In 9 months
+In 12 months
+In 15 months
+In 18 months
+In 21 months
+In 24 months
+
+[p. 58]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+14 
+ 
+INVENTORIES 
+ 
+At the end of 2Q26, the inventory at market value amounted to R$12,813 million 
+(%CBR). There was a quarter-over-quarter increase of 13% in the total inventory at market 
+value. 
+ 
+From the total inventor y in the amount of R$12,813 million, the share to be 
+consolidated into the Company’s revenue s is R$11,637 million, whereas the amount of 
+R$1,176 million will be accounted for under the “Equity Income” line. 
+ 
+ 
+ 
+ 
+ 
+PSV Inventory at Market Value (R$ MM) Inventory %CBR by Delivery Schedule (R$ MM) 
+Change in Inventory % CBR (R$ million) Total Inventory Breakdown %CBR 
+3,365
+10,018
+2Q25
+3,951
+11,092
+3Q25
+4,227
+12,028
+4Q25
+4,078
+11,338
+1Q26
+4,369
+12,813
+2Q26
+13,383
+15,043
+16,255 15,416
+17,181% CBR
+Inventory 1Q26
+-1,053 -278
+Sales of 
+inventories 
+2Q26
+3,840
+Launches 2Q26
+-1,231
+Sales of 
+launches 2Q26
+195
+Price 
+change/adj
+12,813
+Inventory 
+2Q26
+11,338
+-1,330
++13%
+Inventory Under Construction Finished Inventory
+73%
+14%
+6%
+7%
+São Paulo
+Rio de Janeiro
+South
+Other
+Delivery Schedule Total Consolidation Equity
+Finished 1,714 1,560 154 
+12 Months 1,168 897 271 
+24 Months 1,526 1,236 290 
+36 Months 4,159 3,838 320 
++36 Months 4,246 4,105 141 
+Total 12,813 11,637 1,176
+
+[p. 59]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+15 
+ 
+ 
+In 2Q26, the Company sold 16% of its finished inventory (%CBR) from the 
+beginning of the quarter. Considering all deliveries, the Company’s inventory of finished 
+units decreased from R$1,748 million in 1Q26 to R$1,714 million in 2Q26. 
+ 
+The share of the finished inventory to be consolidated into the Company’s revenues 
+is R$1,560 million, whereas R$154 million will be accounted for under the “Equity Income” 
+line. 
+ 
+ 
+ 
+Change in Finished Inventory %CBR (R$MM) Finished Inventory %CBR Breakdown 
+PSV Finished Inventory at Market Value (R$MM) Finished Inventory %CBR by Delivery Period (R$MM) 
+284 295
+337
+319 434
+1,682
+2Q25
+1,773
+3Q25
+1,907
+4Q25
+1,748
+1Q26
+1,714
+2Q26
+1,967 2,068
+2,243
+2,066 2,148
+% CBR
+Finished Units 1Q26
+-278
+Sales of finished 
+units 2Q26
+248
+PSV Delivered 2Q26
+-4
+Price change/adj
+1,714
+Finished Units 2Q26
+1,748
+-2%
+43%
+21%
+21%
+15%
+São Paulo
+Rio de Janeiro
+South
+Other
+Delivery Period Total Consolidation Equity
+>60 Months 213 187 26 
+48 Months 57 28 29 
+36 Months 81 81 0 
+24 Months 612 592 20 
+12 Months 751 672 79 
+Total 1,714 1,560 154
+
+[p. 60]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+16 
+ 
+LANDBANK 
+Note: detailed information on landbank can be found at the end of this report in the appendix tables. 
+ 
+At the close of 2Q26, the Company’s registered landbank amounted potential sales of 
+R$17.5 billion. Cyrela’s share in the landbank is 92%, equivalent to R$16.1 billion. During 
+the quarter, Cyrela registered 10 land plots, with 4 in the city of Sao Paulo and 6 in Rio de 
+Janeiro, with potential PSV of R$2.3 billion (Cyrela’s stake of 91%). 
+ 
+ 
+ 
+ 
+ 
+ 
+Breakdown by Segment (PSV in R$ billion) Method of Acquisition (in %) 
+ 
+ 
+*The Landbank PSV is based on 
+the latest feasibility assessment of 
+the land plot, adjusted by the 
+INCC year-to-date. 
+Landbank on 06.30.2026* 
+Breakdown by Region (PSV in R$ billion) 
+ 
+9.1High end
+2.8
+Middle
+5.6
+MCMV 2 and 3
+46%
+54%
+Swaps
+Cash
+5.9
+Rio de Janeiro9.8São Paulo
+1.3
+South
+0.4
+Other
+
+[p. 61]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+17 
+ 
+DELIVERIES 
+Note: detailed information on delivered units can be found in the appendix tables at the end of this report. 
+ 
+Cyrela delivered 11 projects in the quarter, totaling a PSV (excluding swaps and 
+%CBR) of R$1,516 million on the dates of their respective launches , 7% lower than the 
+volume presented in 2Q25 (R$1,637 million) and 83% up from 1Q26 (R$829 million). In 
+6M26, the Company delivered R$2,345 million compared to R$2,187 million in 6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+454
+187
+475317 714
+214 526
+928
+781
+161
+942
+92106
+2Q25 2Q26 1Q26
+1,382
+92
+6M25 6M26
+1,637
+1,516
+829
+2,187
+2,345
+1,123
+20
+-7% +83%
++7%
+Delivered PSV 
+Ex-Swaps (in R$ million – %CBR)
+High End Middle Vivaz Prime MCMV 2 and 3
+
+[p. 62]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+18 
+ 
+ 
+On a 100% basis and including swaps, deliveries totaled R$2,206 million in 2Q26, 12% 
+higher than the same period of 2025 (R$ 1,970 million in 2Q25) and 95% up from 1Q26 (R$1,130 
+million). Cyrela’s stake in the volume delivered in the quarter was 72%, lower than the same quarter 
+of 2025 ( 83%) and down from 1Q26 (7 7%). In 6M26, deliveries accounted for R$ 3,336 million 
+compared to R$2,670 million in 6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+565 250
+605
+368 904
+326 605
+240
+141
+2Q25 2Q26 1Q26
+141
+6M25 6M26
+1,970
+2,206
+1,130
+2,670
+3,336
+1,299
+161
+1,262
+41
+1,674
+1,501
+1,230
++12% +95%
++25%
+Delivered PSV
+With Swaps (in R$ million – 100%)
+High End Middle Vivaz Prime MCMV 2 and 3
+%CBR 77% 84%83% 72% 73%
+
+[p. 63]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+19 
+ 
+CONSTRUCTION SITES 
+ 
+ At the close of 2Q26, there were 125 projects in progress, broken down as follows, 
+by segment, execution and geographic location , and according to the active construction 
+site criteria. 
+ 
+ In line with its strategic guidelines, the Company manages a large share o f the 
+construction sites, to ensure proper monitoring of their execution. At the close of the 
+quarter, 92% of the total PSV in construction (R$39.1 billion on the dates of their respective 
+launches) were managed by the Company's own teams or by JV teams. This corroborates 
+Cyrela’s commitment to cost management and product quality. 
+ 
+Projects in Progress (% of PSV) 
+Projects in Progress (number of sites) 
+44
+34
+47
+2Q26
+High End
+Middle
+MCMV
+125
+91
+16
+18
+2Q26
+Partners
+JV’s
+Cyrela
+125
+19
+21
+78
+2Q26
+São Paulo
+RJ
+South
+Other
+125
+7
+23%
+18%
+58%
+2Q26
+High End
+Middle
+MCMV
+100%
+80%
+13%
+8%
+2Q26
+Partners
+JV’s
+Cyrela
+100%
+9%
+14%
+74%
+3%
+2Q26
+São Paulo
+RJ
+South
+Other
+100%
+
+[p. 64]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+20 
+ 
+ECONOMIC AND FINANCIAL PERFORMANCE 
+REVENUE 
+ 
+The Company’s total net revenues accounted for R$2,481 million in 2Q26, 18% higher 
+than the R$2,107 million in 2Q25 and 23% up from the R$2,025 million registered in 1Q26. 
+In 6M26, revenues were R$4,506 million vs. R$4,060 million in 6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2Q25 2Q26 1Q26 6M25 6M26
+2,107
+2,481
+2,025
+4,060
+4,506
++18% +23%
++11%
+Net Revenue
+(R$ Million)
+
+[p. 65]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+21 
+ 
+GROSS MARGIN 
+ 
+ 
+ The Company's gross margin was 34.4% in 2Q26, 1.6 p.p. up from the margin 
+presented in 2Q25 (32.7%) and 1.5 p.p. higher than the margin of 3 2.9% presented in 
+1Q26. In 6M2 6, gross margin achieved 3 3.7%, 1.1 p.p. higher than 6M2 5 (32.6%). 
+Adjusted gross margin was 37.3% in the quarter, 2.4 p.p. higher than the adj. gross margin 
+recorded in 2Q25 (34.9%) and 1.2 p.p. up from the adj. gross margin of 1Q26 (36.1%). 
+In 6M26, adj. gross margin achieved 36.8%, 2.1 p.p. higher than 6M25 (34.6%). 
+ 
+ 
+The improvement in gross margin across the comparison periods was driven by higher 
+margins in the Vivaz segment and the increased contribution of Vivaz to the Company’s 
+revenue. 
+ 
+ 
+ 
+ 
+Gross Profit 2Q26: R$853 million 
+Gross Margin 2Q26: 34.4% 
+Gross Margin Evolution 
+2Q25 2Q26 1Q26 6M25 6M26
+32.7% 34.4% 32.9% 33.7%32.6%
++1.6 p.p. +1.5 p.p. +1.1 p.p.
+2Q26 1Q26 2Q25 6M26 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Net Revenue 2,481 2,025 23% 2,107 18% 4,506 4,060 11%
+Gross Profit 853 666 28% 690 24% 1,519 1,324 15%
+Gross Margin 34.4% 32.9% 1.5 p.p. 32.7% 1.6 p.p. 33.7% 32.6% 1.1 p.p.
+Capitalized Interest from COGS 73 65 12% 46 60% 138 82 68%
+Adjusted Gross Margin 37.3% 36.1% 1.2 p.p. 34.9% 2.4 p.p. 36.8% 34.6% 2.1 p.p.
+6M26 x 6M25Gross Margin 2Q26 x 1Q26 2Q26 x 2Q25
+
+[p. 66]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+22 
+ 
+SALES TO BE RECOGNIZED 
+ 
+At the close of 2Q26, net revenues from sales to be recognized totaled R$12,229 
+million. Gross margin from revenues to be recognized stood at 36.2%, 0.1 p.p. lower than 
+2Q25 (36.3%) and up from 1Q26 (36.0%). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Margin to be Recognized: 36.2% 
+ 
+Backlog Margin Evolution 
+2Q25 2Q26 1Q26
+36.3% 36.2% 36.0%
+-0.1 p.p. +0.2 p.p.
+Sales to be Recognized (R$ MM) 2Q26 1Q26 2Q25
+Sales to be Recognized 12,482 11,899 5% 10,050 24%
+Taxes to be Recognized (254) (237) 7% (201) 26%
+Net Revenues to be Recognized 12,229 11,662 5% 9,849 24%
+Costs of Units Sold to be Recognized (7,805) (7,468) 5% (6,276) 24%
+Gross Profit to be Recognized 4,424 4,194 5% 3,573 24%
+Gross Margin to be Recognized 36.2% 36.0% 0.2 p.p. 36.3% -0.1 p.p.
+2Q26 x 1Q26 2Q26 x 2Q25
+
+[p. 67]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+23 
+ 
+SELLING EXPENSES 
+ 
+Selling expenses for the quarter were R$294 million, higher than 2Q25 (R$226 million) 
+and up from 1Q26 (R$277 million). In 6M26, sales expenses totaled R$ 571 million, an 
+increase of R$144 million compared to 6M25. 
+ 
+ 
+The increase in selling e xpenses compared to the previous quarter was mainly 
+explained by higher Media expenses. In 6M26, the increase in selling expenses was mainly 
+driven by higher show-rooms expenses. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2Q26 1Q26 2Q25 6M26 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Show-rooms 92 94 -3% 57 62% 186 103 82%
+Media 50 34 46% 37 36% 84 71 19%
+Third-party Services 58 61 -5% 52 11% 119 108 10%
+Finished Inventory Maintenance 21 17 26% 15 37% 38 29 28%
+Other 39 35 10% 35 10% 74 58 28%
+CashMe 34 35 -2% 29 17% 69 57 21%
+Total 294 277 6% 226 30% 571 426 34%
+2Q26 x 2Q252Q26 x 1Q26 6M26 x 6M25Sales Expenses
+
+[p. 68]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+24 
+ 
+GENERAL & ADMINISTRATIVE EXPENSES 
+ 
+General and Administrative expenses totaled R$134 million in the quarter, R$7 million 
+higher than 2Q25 (R$127 million) and in line with 1Q26 (R$134 million). In 6M26, G&A 
+expenses amounted to R$268 million, R$ 14 million higher compared to 6M25 (R$254 
+million). 
+ 
+ 
+CashMe's G&A totaled R$17 million in the quarter, compared to R$18 million in 1Q26 
+and R$16 million in 2Q25. Year to date, CashMe’s G&A expenses were R$3 5 million, up 
+from the same period of 2025 (R$31 million). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+General & Administrative Expenses 2Q26 1Q26 2Q26 x 1Q26 2Q25 2Q26 x 2Q25 6M26 6M25 6M26 x 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Salaries and Social Charges 60 57 6% 56 6% 117 112 4%
+Board Members/Management Remuneration 2 2 10% 2 16% 5 4 11%
+Employee and Management Profit Sharing 22 24 -9% 20 6% 45 41 10%
+Third-Party Services 36 38 -7% 37 -3% 74 72 2%
+Rent, Travelling and Representation 6 5 11% 4 29% 11 10 10%
+Other 9 8 16% 7 30% 17 15 15%
+Total 134 134 0% 127 6% 268 254 6%
+
+[p. 69]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+25 
+ 
+INDEMNITIES 
+ 
+We detail below the composition of the indemnities recognized in the Income 
+Statement for the quarter, under the heading Other Operating Expenses/Revenues. 
+ 
+ 
+EQUITY INCOME 
+ 
+In the section below, we detail the composition of the Equity Income line. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Indemnities 2Q26 1Q26 2Q26 x 1Q26 2Q25 2Q26 x 2Q25 6M26 6M25 6M26 x 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Change in Provision 5 8 -41% 19 -74% 13 18 -25%
+Indemnity Expenses (Cash) (28) (20) 43% (34) -17% (48) (60) -19%
+Commitment to Indemnities 2 0 1697% 1 34% 2 5 -70%
+Total Impact Income Statement (Other Op. Expenses/Revenues) (22) (11) 93% (14) 57% (33) (36) -9%
+Equity Income 2Q26 1Q26 2Q26 x 1Q26 2Q25 2Q26 x 2Q25 6M26 6M25 6M26 x 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Cury Construtora E Incorporadora S.A. 41 46 -11% 44 -8% 86 84 3%
+Other SPEs with Cury 26 16 60% 18 45% 42 27 52%
+Lavvi Empreendimentos Imobiliários S.A. 23 20 18% 34 -30% 43 58 -26%
+Other SPEs with Lavvi 6 13 -55% 8 -32% 18 17 7%
+Plano & Plano Desenv. Imob. S.A. 18 14 31% 29 -38% 32 52 -39%
+Other Projects and Entities (7) 20 n.a 7 n.a 13 14 0%
+Total 107 128 -17% 140 -24% 235 252 -7%
+
+[p. 70]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+26 
+ 
+FINANCIAL RESULT 
+ 
+The Company recorded positive net financial result of R$69 million in 2Q26, up from 
+R$66 million net positive result registered in 2Q25 and higher than the net positive R$38 
+million from 1Q26. In 6M26, the financial result was positive at R$107 million, lower than 
+the R$125 million registered in 6M25. 
+ 
+Year-to-date, t he decline in the net financial result was primarily driven by higher 
+financial expenses. 
+ 
+CashMe’s participation in Net Financial Results totaled R$111 million in 2Q26, 
+compared to R$ 72 million in 2Q25 and R$ 62 million in 1Q26. In 6M2 6, CashMe’s 
+accumulated financial result totaled R$173 million, compared to R$130 million in 6M25. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2Q26 1Q26 2Q25 6M26 6M25
+R$ MM R$ MM R$ MM R$ MM R$ MM
+Financial Expenses
+SFH Interest (79) (90) -13% (65) 21% (169) (125) 36%
+Interest on Corporate Loans (199) (182) 9% (141) 41% (380) (263) 45%
+Capitalized Interest 58 68 -15% 49 18% 126 91 39%
+Sub Total (219) (204) 8% (157) 40% (423) (297) 43%
+Monetary Adjustment on Loans (1) (1) -22% (1) -24% (1) (1) -11%
+Bank Expenses (3) (3) 17% (3) 26% (6) (5) 23%
+Other Financial Expenses (40) (16) 147% (26) 54% (56) (36) 56%
+Total Financial Expenses (263) (223) 18% (186) 41% (487) (339) 44%
+Financial Revenues
+Income on Investments 304 246 24% 236 29% 550 428 28%
+Monetary Adjustment 4 3 34% 4 2% 6 7 -12%
+Other Financial Income 25 12 100% 13 85% 37 29 30%
+Total Financial Revenues 333 261 27% 253 32% 594 464 28%
+Financial Result 69 38 84% 66 4% 107 125 -15%
+Financial Result 2Q26 x 1Q26 2Q26 x 2Q25 6M26 x 6M25
+
+[p. 71]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+27 
+ 
+NET INCOME AND NET MARGIN 
+ 
+ The Company recorded net income of R$452 million in 2Q26, versus net income of 
+R$388 million in 2Q25 and R$297 million net income in 1Q26. In the quarter, the 
+Company’s earnings per share (EPS) was R$1.04, compared to R$1.06 in 2Q25 and R$0.68 
+in 1Q26. In 6M26, net income totaled R$748 million, an increase of 5% compared to 6M25. 
+ 
+ This result led to an adjusted LTM ROE of 20.9%. 
+388
+452
+297
+715 748
+2Q25 2Q26 1Q26 6M25 6M26
++16% +52%
++5%
+Net Profit
+(R$ million)
+18.4%Net
+Margin 18.2% 14.7% 17.6% 16.6%
+2Q25 3Q25 4Q25 1Q26 2Q26
+19.5% 19.9%
+22.3%
+21.2% 20.9%
+ROE LTM
+
+[p. 72]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+28 
+ 
+ Financial Statements Highlights 
+ACCOUNTS RECEIVABLE 
+ 
+ Considering all pre -sales contracts signed, 
+Accounts Receivable totaled R$18.7 billion on June 
+30, 2026, representing a 4% increase from March 
+31, 202 6. In the Company’s Balance Sheet, this 
+amount accounts for R$6.5 billion, which is 
+recognized through the construction progress of 
+each project. 
+ 
+Delivered units account for 8% and units under 
+construction or in the delivery process for 92% of 
+the total amount. The average weighted collection 
+period for Accounts Receivable is approximately 2.1 
+years (25.7 months). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cost to be incurred
+(ref, sold units – R$ million)
+268
+12 Months
+24 Months
+36 Months
+After 36 Months
+3,556
+2,787
+1,194
+Cost to be incurred
+(ref, inventory units – R$ million)
+537
+121
+12 Months
+24 Months
+36 Months
+After 36 Months
+1,599
+1,253
+Receivables Schedule 
+(in R$ million)
+12 Months
+24 Months
+36 Months
+After 36 Months
+7,552
+4,053
+4,190
+2,889
+ R$ MM R$ MM
+Units under construction 17,122 16,575 3%
+Finished Units 1,563 1,350 16%
+Total Accounts Receivable 18,685 17,925 4%
+Construction Cost to be Realized
+from sold units (7,805) (7,468) 5%
+Construction Cost to be Realized
+from inventory units (3,510) (3,368) 4%
+Net Accounts Receivable 7,370 7,089 4%
+Accounts Receivable 2Q26 x 1Q26
+2Q26 1Q26
+
+[p. 73]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+29 
+ 
+ DEBT 
+ 
+On June 30, 2026, gross debt including accrued interest 
+amounted to R$8,874 million, 1% higher than the amount of 
+R$8,792 million reported on March 31, 2026. 
+ 
+The balance of debt denominated in local currency and 
+entirely related to construction financing accounted for 41% 
+of the total debt (without accrued interest) and increased by 
+10% in the quarter. 
+ 
+Debt Amortization Schedule 
+706
+4,646
+1Q26
+1,003
+4,179
+2Q26
+5,353 5,182
+-3%
+Corporate Debt
+(R$ million)
+Short term Long term
+Construction financing 3,552 3,238 10% 2,583 38%
+Corporate Debt - Cyrela 2,414 2,595 -7% 1,980 22%
+Corporate Debt - CashMe 2,768 2,757 0% 2,235 24%
+Sub total 8,735 8,590 2% 6,798 28%
+Interest and costs 139 202 -31% 91 52%
+Total 8,874 8,792 1% 6,890 29%
+2Q26Debt (R$ million) 1Q26 2Q25 2Q26 x 2Q252Q26 x 1Q26
+633 647
+881
+576
+612
+772 307
+232
+12 Months
+1,628
+24 Months 36 Months 48 Months 60 Months > 60 Months
+1,616
+2,261
+1,419
+1,188
+808
+1,442
+1,003
+Financing Corporate Debt
+(R$ Million)
+
+[p. 74]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+30 
+ 
+ 
+As a result, the balance of loans (corporate debt) denominated in local currency, 
+comprising 59% of the total debt (without accrued interest), corresponds to: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ million Issued In Matures In Cost p.y. Balance
+Cyrela Corporate Debt
+489th series of the 1st Issue of CRER - Opea 2022 Jun-27 CDI + 0.40% 121
+490th series of the 1st Issue of CRER - Opea 2022 Jun-27 IPCA + 5.9068% (swap to CDI + 0.47%) 259
+491st series of the 1st Issue of CRER - Opea 2022 Jun-29 IPCA + 6.1280% (swap to CDI + 0.79%) 100
+1st series of the 57th Issue of CRER - Província Sec 2024 Apr-28 98% CDI 423
+2nd series of the 57th Issue of CRER - Província Sec 2024 Apr-29 99% CDI 67
+3rd series of the 57th Issue of CRER - Província Sec 2024 Apr-31 101% CDI 300
+1st series of the 102nd Issue of CRER - Província Sec 2025 Apr-29 96% CDI 152
+2nd series of the 102nd Issue of CRER - Província Sec 2025 Apr-30 97% CDI 348
+1st series of the 127th Issue of CRER - Província Sec 2025 Nov-32 96.5% CDI 330
+2nd series of the 127th Issue of CRER - Província Sec 2025 Nov-35 IPCA + 7.3149% (swap to CDI - 0.2125%) 222
+3rd series of the 127th Issue of CRER - Província Sec 2025 Nov-40 IPCA + 7.29% (swap to CDI - 0.15%) 47
+1st Issue of Commercial Notes of Cy10 Participações 2026 Feb-32 CDI + 1.07% 45
+Subtotal 2,414 
+R$ million Issued In Matures In Cost p.y. Balance
+CashMe Debt
+1st, 2nd and 3rd series of the 24th issue of CRER - True Sec 2022 2029 CDI + 1.375% / IPCA + 7.8049% 120
+1st and 2nd series of the 155th issue of CRER - True Sec 2023 2028 CDI + 1.95% / IPCA + 7.8529% 43
+1st, 2nd and 3rd series of the 113th issue of CRER - Vert Sec 2023 2027 CDI + 3.0% / CDI + 4.0% 17
+1st and 2nd series of the 31st issue of CRER - Província Sec 2023 2030 IPCA + 9.0% / IPCA + 10.0% 54
+1st and 2nd series of the 40th issue of CRER - Província Sec 2024 2032 IPCA + 7.0% / IPCA + 10.0% 69
+1st and 2nd series of the 48th issue of CRER - Província Sec 2024 2031 CDI + 1.4% / IPCA + 7.4% 188
+1st and 2nd series of the 139th issue of CRER - Vert Sec 2024 2032 IPCA + 7.4632% / IPCA + 9.75% 301
+1st, 2nd and 3rd series of the 1st issue of CR - Província Sec 2024 2032 CDI + 1.15% / IPCA + 9.1146% / IPCA + 9.1146% 263
+3rd series of the 102nd Issue of CRER - Província Sec (Debtor Cyrela) 2025 2032 IPCA + 7.6693% 200
+1st and 2nd series of the 101st issue of CRER - Província Sec 2025 2032 IPCA + 8.2347% / IPCA + 10.0% 295
+1st and 2nd series of the 2nd issue of CR - Província Sec 2025 2033 CDI + 1.06% / CDI + 1.06% 457
+CashMe I Credit Rights Investment Fund 2024 n.a. CDI + 3.5% 210
+1st and 2nd series of the 133rd issue of CRER - Província Sec 2026 2039 IPCA + 8.6078% / IPCA + 10.0% 365
+1st, 2nd and 3rd series of the 3rd issue of CR - Província Sec 2026 2038 IPCA + 9.87% / CDI + 2.50% / CDI + 3.75% 186
+Subtotal 2,768 
+TOTAL CORPORATE DEBT 5,182
+
+[p. 75]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+31 
+ 
+ 
+Cyrela’s Adjusted Net Debt amounted to R$1,909 million, below the R$2,181 million 
+recorded in 1Q26. 
+ 
+ 
+The Company’s leverage , as measured by means of the Adj. Net Debt / Adj. Total 
+Equity ratio, reached 16.5% by the end of the quarter, reinforcing Cyrela’s commitment to 
+maintain this index in healthy levels and ratifying the financial strength of the Company. 
+The net indebtedness includes R$2,768 million of gross debt and R$4,028 million of 
+Marketable Securities of CashMe’s operation. Excluding CashMe’s assets and liabilities, the 
+Adj. Net Debt would be R$3,170 million and leverage (measured by Adj. Net Debt / Adj. 
+Total Equity ratio) would be 30.7%. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Obs.: Net debt and Shareholders’ Equity excluding CashMe’s FVTOCI 
+Long-Term Debt 7,119 7,471 -5% 5,724 24%
+Short-Term Debt 1,616 1,119 44% 1,075 50%
+Total Debt 8,734 8,590 2% 6,798 28%
+Cash and Cash Equivalents 4,076 3,870 5% 3,267 25%
+Long-Term Financial Investments 3,637 3,342 9% 2,814 29%
+Total Cash and Equivalents 7,712 7,212 7% 6,081 27%
+Accountant Net Debt 1,022 1,378 -26% 717 43%
+FVTOCI CashMe 887 803 10% 592 50%
+Adjusted Net Debt 1,909 2,181 -12% 1,309 46%
+2Q25 2Q26 x 2Q25In R$ million 2Q26 2Q26 x 1Q261Q26
+Adjusted Net Debt 1,909 2,181 -12% 1,309 46%
+Adjusted Shareholders' Equity 11,564 11,125 4% 10,283 12%
+Construction Financing 3,552 3,238 10% 2,583 38%
+Adj. Net Debt / Adj. Shareholders' Equity 16.5% 19.6% -3.1 p.p. 12.7% 3.8 p.p.
+Adj. Net Debt (ex Financing) / Adj. Shareholders' Equity -14.2% -9.5% -4.7 p.p. -12.4% -1.8 p.p.
+2Q25 % ChgIn R$ million 2Q26 % Chg1Q26
+
+[p. 76]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Debt Overview 
+887 887
+4,215
+2,583
+Gross 
+Debt 2Q25
+5,353
+3,238
+Gross 
+Debt 1Q26
+5,182
+3,552
+Gross 
+Debt 2Q26
+1,616
+7,119
+Term 2Q26
+6,825
+Cash 
+Position 
+2Q26
+1,022
+Net Debt 
+2Q26
+6,798
+8,590 8,735 8,735 7,712
+1,909
+Corp.
+Corp.
+Long
+Financ.
+Short
+(R$ Million)
+Financ.
+Corp.
+Financ.
+Net Debt / Equity
+12.7% 19.6%
+Indicators Total Debt Corporate Debt
+Net Debt / Equity 16.5%
+Weighted Average
+Term* 3.1 years 4.1 years
+Short Term 18% 19%
+Long Term 82% 81%
+Average Cost of Financing
+Savings Acc. + 
+2.65% 61.2%
+TR + 9.01% 38.8%
+TOTAL 100.0%
+Minimum Rate TR + 8.30%
+Maximum Rate TR +12.50%
+* Excludes debt from CashMe and Cy.Capital
+(R$2,813 MM)
+Average Cost of Corporate 
+Debt*
+97.9% of CDI 68.4%
+CDI + 0.26% 31.6%
+TOTAL 100.0%
+16.5%
+CashMe’s FVTOCI
+
+[p. 77]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+33 
+ 
+CASH GENERATION 
+ 
+In 2Q26, the Company recorded cash generation of R$272 million, compared to cash 
+burn of R$392 million in 2Q25 and cash generation of R$134 million in 1Q26. In addition, 
+the calculation of cash generation excludes the effect of CashMe’s FVTOCI, for R$ 887 
+million. In 6M26, Cyrela recorded cash generation of R$406 million, compared to cash burn 
+of R$320 million in 6M25. 
+ 
+ 
+ 
+Cash Generation/Consumption 
+-396
+-325
+4
+2Q25 2Q26 1Q26
+4
+6M25 6M26
+-392
+272
+134
+-320
+406
++103%
+(R$ Million)
+Non Recurring
+2Q26 1Q26 2Q25 6M26 6M25 Chg %
+R$ MM R$ MM R$ MM R$ MM R$ MM 6M26 x 6M25
+Total Debt (Gross Debt without Interest payable) 8,735 8,590 2% 6,798 28% 8,735 6,798 28%
+Cash & Marketable Securities 7,712 7,212 7% 6,081 27% 7,712 6,081 27%
+Accountant Net Debt 1,022 1,378 -26% 717 43% 1,022 717 43%
+(+) FVTOCI CashMe 887 803 10% 592 50% 887 592 50%
+Adjusted Net Debt 1,909 2,181 -12% 1,309 46% 1,909 1,309 46%
+∆ Accountant Debt Change 272 134 103% (392) n.a. 406 (324) n.a.
+(+) Buyback Program - - n.a. - n.a. - 4 -100%
+(+) Dividends - - n.a. - n.a. - - n.a.
+Cash Generation/Burn 272 134 103% (392) n.a. 406 (320) n.a.
+(+) Acquisition of Equity Interest - - n.a. (4) -100% - (4) -100%
+Operational Cash Generation/Burn 272 134 103% (396) n.a. 406 (325) n.a.
+Chg %Chg %Cash Burn/Generation (R$ MM)
+
+[p. 78]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+34 
+ 
+SUBSEQUENT EVENTS 
+ 
+As disclosed in the Material Fact issued on August 5, 2026, the Company entered into 
+a non -binding memorandum of understanding with the TRXF11 fund and its asset 
+manager, TRX, setting forth the main terms and conditions of a potential transaction 
+involving the sale of the Cyrela Oscar Freire Corporate Building and other rights related to 
+four logistics warehouses, for an approximate amount of R$2 .14 billion, which may be 
+increased by up to R$103 million in the event of the acquisition of interests held by certain 
+third parties, with approximately 50% of the consideration to be paid in cash and 
+approximately 50% in TRXF11 units.
+
+[p. 79]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+35 
+ 
+ANNEX I – BALANCE SHEET 
+ 
+ 
+ 
+ 
+CYRELA BRAZIL REALTY S.A. EMPREENDIMENTOS E PARTICIPAÇÕES 
+ 
+ Consolidated Balance Sheet 
+ R$ million 
+ 
+ June 30, 2026 December 31, 2025 
+ ASSETS 
+ 
+ Current Assets 15,927 14,870 
+ Cash and Cash Equivalents 231 727 
+ Marketable Securities 3,845 3,255 
+ Accounts Receivable 5,156 4,578 
+ Marketable Real Estate 6,054 5,775 
+ Recoverable Taxes and Contributions 61 10 
+ Deferred Taxes and Contributions 3 2 
+ Selling Expenses to Be Recognized 107 103 
+ Anticipated Expenses 41 50 
+ Derivative financial instruments 49 36 
+ Other Receivables 379 335 
+ 
+ Non-Current Assets 11,813 11,240 
+ 
+ Long Term 7,840 7,335 
+ Accounts Receivable 1,368 1,537 
+ LT Marketable Securities 3,637 3,026 
+ Checking Accounts with Partners in Projects 11 11 
+ Related Parties 259 186 
+ Recoverable Taxes and Contributions 216 232 
+ Deferred Income Tax and Social Contribution 1 1 
+ Marketable Real Estate 2,038 2,055 
+ Selling Expenses to be Recognized 111 95 
+ Other Receivables 200 193 
+ 
+ Permanent 3,973 3,905 
+ Investment in Controlled Companies 3,290 3,157 
+ Fixed Assets 658 640 
+ Intangible 26 109 
+ 
+ 
+ Total Assets 
+ 
+27,741 26,110
+
+[p. 80]
+Earnings Release – 2Q26 | 2026 
+ 
+‘ 
+ 
+ 
+36 
+ 
+ 
+ 
+ 
+ 
+ June 30, 2026 December 31, 2025 
+ 
+ 
+ 
+LIABILITIES AND SHAREHOLDERS’ EQUITY 
+ 
+ 
+ 
+Current Liabilities 4,729 3,869 
+ 
+Loans and Financing 644 754 
+ 
+Debentures - - 
+ 
+Real Estate Certificates - CRER 1,106 748 
+ 
+Financial Instruments and Derivatives - 1 
+ 
+Suppliers 309 276 
+ 
+Provision for Guarantees 85 80 
+ 
+Taxes and Contributions Payable 69 107 
+ 
+Deferred Taxes and Contributions 112 99 
+ 
+Payroll, social charges and profit sharing 243 249 
+ 
+Real Estate Acquisition Payable 1,208 948 
+ 
+Dividends Payable - - 
+ 
+Related Parties 181 128 
+ 
+Checking Accounts with Partners in Projects 13 12 
+ 
+Advances from Customers 297 135 
+ 
+Provisions for Social Security, Labor, Civil and Fiscal Risks 75 82 
+ 
+Other Payables 387 250 
+ 
+ 
+Long Term 10,560 10,774 
+ 
+Loans and Financing 3,195 3,010 
+ 
+Debentures - - 
+ 
+Real Estate Certificates - CRER 3,929 4,205 
+ 
+Suppliers 1 1 
+ 
+Provision for Guarantee 167 155 
+ 
+Real Estate Acquisition Payable 1,979 1,995 
+ 
+Provisions for Social Security, Labor, Civil and Fiscal Risks 66 72 
+ 
+Deferred Income Tax and Social Contribution 333 330 
+ 
+Advances from Customers 891 1,006 
+ 
+ 
+TOTAL SHAREHOLDERS’ EQUITY 12,452 11,467 
+ 
+ 
+Minority Equity 1,283 1,239 
+ 
+ 
+Shareholders’ Equity 11,168 10,227 
+ 
+Capital Stock 6,184 6,184 
+ 
+Capital Reserve 65 46 
+ 
+Legal Reserve 716 716 
+ 
+Surplus Reserve 2,845 2,845 
+ 
+Treasury Shares (269) (269) 
+ 
+Profit / Losses 748 - 
+ 
+Other Comprehensive Income 878 704 
+ 
+ 
+ Total Liabilities and Shareholders’ Equity 
+ 
+27,741 26,110

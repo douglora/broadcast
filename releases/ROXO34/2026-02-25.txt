@@ -1,6 +1,6 @@
 6-K
 1
-nu20260225_6k.htm
+nu20260225_6k1.htm
 6-K
 
 SECURITIES AND EXCHANGE
@@ -51,129 +51,451 @@ Yes No ( X )
 
 |
 
-Nu Holdings Ltd. Reports Fourth Quarter and Full Year 2025 Financial Results São Paulo, Brazil, February 25, 2026 — Nu Holdings
-Ltd. (NYSE: NU) (“Nu” or the “Company”), one of the largest digital financial services platforms in the world,
-today released its financial results for the fourth quarter and full year ended December 31, 2025, prepared in accordance with IFRS, as
-well as complementary managerial 1 results. The financial statements and earnings presentation are available on the Company’s Investor
-Relations website at www.investors.nu, along with details of the earnings conference call to be held today at 5:00 p.m. Eastern Time /
-7:00 p.m. Brasília time. “In Q4'25, we increased scale, deepened engagement, and expanded profitability, closing the year
-with 131 million customers and 17 million net adds in 2025, while ARPAC reached $15. Strong engagement and higher monetization drove record
-quarterly revenues of $4.9 billion. This performance, combined with operating leverage and disciplined risk management, resulted in an
-all-time high net income of $895 million and a ROE of 33%. These results reflect our ability to combine disciplined growth with sustained
-profitability, while continuing to invest in our core markets. As we enter 2026, we remain fully focused on winning in Latin America,
-while building the capabilities that will allow Nubank to evolve into a global digital banking platform over time”, says David Vélez,
-founder and CEO of Nubank. Q4’25 and FY’25 Results Snapshot Below are the Q4’25 and Full Year 2025 performance highlights
-of Nu Holdings Ltd. Unless otherwise noted, all the growth rates presented herein are on an FX neutral basis (FXN) 2 : Operating Highlights:
-● Customer growth - Nu added 4 million customers in Q4’25, and 17 million in FY'25, reaching a total of 131 million customers
-globally by December, 2025, reflecting a 15% year-over-year (YoY) increase. This expansion strengthens Nu’s position as one of the
-world’s largest and fastest-growing digital financial services platforms. In Brazil, Nu is now the largest private financial institution
-by number of customers, according to the Brazilian Central Bank. In Mexico, Nu serves around 15% of the adult population and is the leading
-issuer of new credit cards in the country. In Colombia, Nu has surpassed 4 million customers, and with the recent expansion of its credit
-card portfolio, it is now able to approve nearly three times more applicants than before. 2 FX neutral measures were calculated to present
-what such measures in preceding periods/years would have been had exchange rates remained stable from these preceding periods/years until
-the date of the Company’s more recent financial information. 1 Beginning in the fourth quarter of 2025, Nubank is introducing its
-Managerial P&L, representing an evolution in our disclosure framework to better explain value creation across an increasingly multi-product,
-multi-segment, and multi-country platform. The Managerial P&L is a structural, complementary reorganization of IFRS line items designed
-to enhance comparability as the business scales, grounded in economic and operational substance. This framework preserves net income,
-cash flow, and capital, is fully reconciled to IFRS, and is designed for external assurance. All financial metrics presented reflect this
-framework. A full reconciliation of non-IFRS measures to the most directly comparable IFRS measures is available in our Managerial P&L
-Reconciliation Report and in the appendix of the earnings presentation . 1 ● Engagement and activity rates - Monthly Average Revenue
-per Active Customer (ARPAC) reached $15 in Q4’25, growing about 9% quarter-over-quarter (QoQ) and around 27% year-over-year (YoY),
-up from $11.1 from one year ago. Monthly activity rate 3 remained at 83%. ● Low-cost operating platform - Monthly Average Cost to
-Serve Per Active Customer remained below the dollar level, at $0.8 per customer, demonstrating the strong operating leverage of the business
-model. Efficiency Ratio declined to 19.9% in Q4’25 from 20.3% in Q3’25. This reflects the continued operating leverage of
-Nu’s model. ● Asset Quality - Nu’s leading indicator, the 15-90 NPL ratio, declined once again during the fourth quarter,
-dropping 20 basis points (bps) from last quarter to 4.1%. supported by the se asonality effects of the 13th salary in Brazil. 90+ NPLs
-decreased by 10 bps to 6.6% this quarter. Financial Highlights: ● Revenue, Net Interest Income (NII) and Risk-adjusted NIM - Nu’s
-FY'25 revenues were up 45% YoY reaching $16.3 billion in FY'25 and $4.9 billion in Q4'25 reflecting the continued strengthening of engagement
-and monetization across our platform. NII increased 13% QoQ reaching a new all-time high of $2.8 billion. The Risk-adjusted NIM closed
-the quarter at 10.5%, and would have been broadly stable QoQ absent a one-off extraordinary contribution to Prosofipo, a sector-wide deposit
-protection fund to which all Sofipos in Mexico are required to contribute. ● Profitability - Nu’s gross profit stands at $1.96
-billion in Q4'25, a 7% sequential increase and a 38% increase YoY, with $6.6 billion in FY'25 in comparison to $5.0 billion from FY'24.
-At the Holding level, Nu continued to drive increasing profitability, posting Net Income of $2.9 billion in FY'25, compared to $2.0 billion
-in FY’24 and $894.8 million in Q4'25, up 13% sequentially and 50% from Q4’24. Nu also reached a record-high ROE of 33%. These
-results are not accidental, they reflect the deliberate priorities and choices Nu made throughout the year and disciplined execution.
-● Balance Sheet and Funding - Total deposits reached $41.9 billion this quarter, up 29% YoY, while the cost of funding was 87% of
-interbank rates. Total credit portfolio expanded 40% YoY and 11% QoQ to $32.7 billion, while its total Interest-Earning Portfolio (IEP)
-increased 47% YoY to $18.5 billion as of December 31, 2025. At the holding level, total capital stood at $8.9 billion, including $2.2
-billion of excess capital in operating entities and $3.0 billion in cash and equivalents at Nu Holdings. Available funding of $38.8 billion
-represents approximately twice our net credit portfolio of $19.0 billion, providing substantial liquidity and headroom to support continued
-growth. 3 Activity rate is defined as monthly active customers divided by the total number of customers as of a specific date. 2 Business
-highlights: ● Significant Product and Platform Expansion: Nu launched over 100 new products and features across its markets to deepen
-engagement and expand monetization. Key launches included new payroll loan modalities in Brazil, an expansion of its credit card portfolio
-in Colombia, an under-18 credit card in Brazil, and tools such as Turbo Moneyboxes and NuScore to strengthen financial planning and engagement.
-Nu also expanded SME credit offerings and introduced tools such as Charging Assistant to support small business operations and cash flow
-management. ● Leadership and Expansion in Core Markets: In Brazil, Nu became the largest private financial institution by number
-of customers, reaching 113 million, representing 62% of the adult population, with a record-high 86% activity rate. In Mexico, Nu now
-serves 15% of the adult population and is the largest issuer of new credit cards, while in Colombia the expansion of its credit card portfolio
-nearly tripled approval rates. Total lending reached nearly $11 billion with record originations, and deposits grew 29% year-over-year
-to nearly $42 billion. ● Advancement in AI and Global Strategy: Nu advanced its AI-driven model with the deployment of nuFormer
-in credit underwriting in Brazil, supporting the largest quarterly gain in credit card market share in ten quarters. The model will now
-be expanded to lending in Brazil and credit cards in Mexico. AI also enhanced notification conversion, cross-selling, and service quality,
-elevating customer experience, while PIX with AI surpassed 10 million monthly active users. In parallel, Nu progressed on its U.S. strategy,
-filing for a national bank charter in September 2025 and receiving conditional OCC approval in January 2026. ● Transitioning from
-a Latin American Leader to a Global Digital Banking Platform: Nu views 2026 as an inflection year, focused on winning in its core markets
-while building the capabilities to evolve into a global digital banking platform. The Company will continue prioritizing Brazil and Mexico,
-reinforcing leadership in the mass market, expanding in SME and high-income segments, and advancing the Mexico banking license. Across
-markets, Nu will raise the bar on product quality and reliability while accelerating platformization, developing country-agnostic, reusable
-infrastructure to scale more efficiently. These strategic investments may result in near-term upward pressure on the efficiency ratio,
-though the structural drivers of operating leverage — revenue growth, scale, and disciplined cost management — remain intact.
-The Company will also lay operational foundations for its U.S. opportunity and deepen AI adoption, positioning artificial intelligence
-as a structural advantage for long-term growth. 3 3 Key Operating and Financial Metrics A Summary of Consolidated Financial and Operating
-Metrics is presented for the three-month periods December 31, 2025 and 2024 and September 30, 2025, and years ended December 31, 2025
-and 2024. Summary of Consolidated Operating Metrics Q4'25 Q3'25 % FXN QoQ Q4'24 % FXN YoY FY'25 FY'24 % FXN YoY CUSTOMER METRICS Number
-of Customers (in millions) 131.0 127.0 3% 114.2 15% 131.0 114.2 15% Activity Rate (%) 83.45% 83.38% 0.1 p.p 83.0% 0.4 p.p 83.4% 83.0%
-0.4 p.p CUSTOMER ACTIVITY METRICS Purchase Volume (in $ billions) 41.6 36.5 13% 32.2 19% 141.8 125.5 17% Monthly Average Revenue per Active
-Customer (in $) 15.0 13.8 11% 11.1 45% 13.3 10.2 35% Monthly Average Cost to Serve per Active Customer (in $) -0.8 -0.9 -12% -0.8 -8%
--0.8 -0.8 13% CUSTOMER BALANCES Total portfolio - credit card and loan (in $ billions) 32.7 30.4 11% 20.7 40% 32.7 20.7 40% Deposits (in
-$ billions) 41.9 38.8 12% 28.9 29% 41.9 28.9 29% Summary of Consolidated Financial Metrics Q4'25 Q3'25 % FXN QoQ Q4'24 % FXN YoY FY'25
-FY'24 % FXN YoY MANAGERIAL FINANCIAL METRICS Total Revenue (in $ millions) 4,857.3 4,317.2 11% 3,100.7 45% 16,319.6 11,671.1 45% Gross
-Profit (in $ millions) 1,961.1 1,811.2 7% 1,317.0 38% 6,619.1 5,025.5 36% Net Income (in $ millions) 894.8 782.7 13% 552.6 50% 2,871.7
-1,972.1 51% Summary of Consolidated Other Performance Metrics Q4'25 Q3'25 % QoQ Q4'24 % YoY FY'25 FY'24 % YoY Efficiency-Ratio 19.9% 20.3%
--0.4 p.p 21.7% -1.8 p.p 20.7% 24.7% -4.0 p.p Risk Adjusted NIM 10.5% 10.8% -0.3 p.p 9.9% 0.6 p.p 9.2% 10.0% -0.8 p.p ROE 33% 31% 2 p.p
-29% 4 p.p 30% 28% 2 p.p NPL 15-90 4.1% 4.3% -0.2 p.p 4.2% -0.1 p.p - - - NPL 90+ 6.6% 6.7% -0.1 p.p 6.7% -0.1 p.p - - - 4 4 Note on forward-looking
-statements and non-IFRS financial measures This release speaks at the date hereof and the Company is under no obligation to update or
-keep current the information contained in this presentation. Any information expressed herein is subject to change without notice. Any
-market or other third-party data included in this presentation has been obtained by the Company from third-party sources. While the Company
-has compiled and extracted the market data, it can provide no assurances of the accuracy and completeness of such information and takes
-no responsibility for such data. This release contains forward-looking statements. All statements other than statements of historical
-fact contained in this presentation may be forward-looking statements and include, but are not limited to, statements regarding the Company’s
-intent, belief or current expectations. These forward-looking statements are subject to risks and uncertainties, and may include, among
-others, financial forecasts and estimates based on assumptions or statements regarding plans, objectives and expectations. Although the
-Company believes that these estimates and forward-looking statements are based upon reasonable assumptions, they are subject to several
-risks and uncertainties and are made in light of information currently available, and actual results may differ materially from those
-expressed or implied in the forward-looking statements due to various factors, including those risks and uncertainties included under
-the sections entitled “Risk Factors,” “Forward-Looking Statements” and “Operating and Financial Review and
-Prospects” in our Annual Report on Form 20-F. The Company, its advisers and each of their respective directors, officers and employees
-disclaim any obligation to update the Company’s view of such risks and uncertainties or to publicly announce the result of any revision
-to the forward-looking statements made herein, except where it would be required to do so under applicable law. The forward-looking statements
-can be identified, in certain cases, through the use of words such as “believe,” “may,” “might,” “can,”
-“could,” “is designed to,” “will,” “aim,” “estimate,” “continue,”
-“anticipate,” “intend,” “expect,” “forecast”, “plan”, “predict”,
-“potential”, “aspiration,” “should,” “purpose,” “belief,” and similar, or
-variations of, or the negative of such words and expressions. The financial information in this document includes forecasts, projections
-and other predictive statements that represent the Company’s assumptions and expectations in light of currently available information.
-These forecasts, projections and other predictive statements are based on the Company’s expectations and are subject to variables
-and uncertainties. The Company’s actual performance results may differ. Consequently, no guarantee is presented or implied as to
-the accuracy of specific forecasts, projections or predictive statements contained herein, and undue reliance should not be placed on
-the forward-looking statements in this presentation, which are inherently uncertain. In addition to IFRS financials, this presentation
-includes certain summarized, non-audited or non-IFRS financial information. These summarized, non-audited or non-IFRS financial measures
-are in addition to, and not a substitute for or superior to, measures of financial performance prepared in accordance with IFRS. References
-in this presentation to “R$” refer to the Brazilian Real, the official currency of Brazil. Beginning in the fourth quarter
-of 2025, Nubank is introducing its Managerial P&L, representing an evolution in our disclosure framework to better explain value creation
-across an increasingly multi-product, multi-segment, and multi-country platform. The Managerial P&L is a structural, complementary
-reorganization of IFRS line items designed to enhance comparability as the business scales, grounded in economic and operational substance.
-This framework preserves net income, cash flow, and capital, is fully reconciled to IFRS, and is designed for external assurance. All
-financial metrics presented reflect this framework. A full reconciliation of non-IFRS measures to the most directly comparable IFRS measures
-is available in our Managerial P&L Reconciliation Report and in the appendix of the earnings presentation. 5 5 Investor Relations
-Guilherme Souto investors@nubank.com.br Media Relations Leila Suwwan press@nubank.com.br Nu Holdings LTD. NYSE: NU investors.nu About
-Nu Nu is one of the largest digital financial services platforms in the world, serving 131 million customers across Brazil, Mexico, and
-Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative
-products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial
-journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient
-and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards,
-including Time 100 Most Influential Companies, Fast Company’s Most Innovative Companies, and Forbes World’s Best Banks. For
-more information, please visit https://international.nubank.com.br/about/. 6
+Q4’25 Results 1 Q4 2025 Earnings Presentation Feb 25, 2026 Q4’25 Results 2 Investor Relations Officer Guilherme Souto Welcome
+Q4’25 Results 3 Founder, Chief Executive Officer and Chairman David Vélez Chief Financial Officer Guilherme Lago Q4’25
+Results 4 This presentation speaks at the date hereof and the Company is under no obligation to update or keep current the information
+contained in this presentation. Any information expressed herein is subject to change without notice. Any market or other third-party
+data included in this presentation has been obtained by the Company from third-party sources. While the Company has compiled and extracted
+the market data, it can provide no assurances of the accuracy and completeness of such information and takes no responsibility for such
+data. This presentation contains forward-looking statements. All statements other than statements of historical fact contained in this
+presentation may be forward-looking statements and include, but are not limited to, statements regarding the Company’s intent, belief
+or current expectations. These forward-looking statements are subject to risks and uncertainties, and may include, among others, financial
+forecasts and estimates based on assumptions or statements regarding plans, objectives and expectations. Although the Company believes
+that these estimates and forward-looking statements are based upon reasonable assumptions, they are subject to several risks and uncertainties
+and are made in light of information currently available, and actual results may differ materially from those expressed or implied in
+the forward-looking statements due to various factors, including those risks and uncertainties included under the sections entitled “Risk
+Factors,” “Forward-Looking Statements” and “Operating and Financial Review and Prospects” in our Annual
+Report on Form 20-F. The Company, its advisers and each of their respective directors, officers and employees disclaim any obligation
+to update the Company’s view of such risks and uncertainties or to publicly announce the result of any revision to the forward-looking
+statements made herein, except where it would be required to do so under applicable law. The forward-looking statements can be identified,
+in certain cases, through the use of words such as “believe,” “may,” “might,” “can,” “could,”
+“is designed to,” “will,” “aim,” “estimate,” “continue,” “anticipate,”
+“intend,” “expect,” “forecast”, “plan”, “predict”, “potential”,
+“aspiration,” “should,” “purpose,” “belief,” and similar, or variations of, or the negative
+of such words and expressions. Disclaimer The financial information in this document includes forecasts, projections and other predictive
+statements that represent the Company’s assumptions and expectations in light of currently available information. These forecasts,
+projections and other predictive statements are based on the Company’s expectations and are subject to variables and uncertainties.
+The Company’s actual performance results may differ. Consequently, no guarantee is presented or implied as to the accuracy of specific
+forecasts, projections or predictive statements contained herein, and undue reliance should not be placed on the forward-looking statements
+in this presentation, which are inherently uncertain. In addition to IFRS financials, this presentation includes certain summarized, non-audited
+or non-IFRS financial information. These summarized, non-audited or non-IFRS financial measures are in addition to, and not a substitute
+for or superior to, measures of financial performance prepared in accordance with IFRS. References in this presentation to “R$”
+refer to the Brazilian Real, the official currency of Brazil. Beginning the fourth quarter of 2025, Nubank introduced its Managerial P&L,
+representing an evolution in our disclosure framework to better explain value creation across an increasingly multi-product, multi-segment,
+and multi-country platform. The Managerial P&L is a structural, complementary reorganization of IFRS line items designed to enhance
+comparability as the business scales, grounded in economic and operational substance. This framework preserves net income, cash flow,
+and capital, is fully reconciled to IFRS, and is designed for external assurance. All financial metrics presented reflect this framework.
+A full reconciliation of non-IFRS measures to the most directly comparable IFRS measures is available in our Managerial P&L Reconciliation
+Report and in the appendix of the earnings presentation. Q4’25 Results 5 Customers (MM) ARPAC (US$) Gross Profit (US$MM) Efficiency
+Ratio (%) Revenues (US$BN) Net Income (US$MM) %Adult Population 62% 15% 11% Sustained Growth of One of the World's Largest Digital Banking
+Platforms 54 75 94 114 131 Q4'21 Q4'22 Q4'23 Q4'24 Q4'25 CAGR: 152% FXN (66) 58 361 553 895 Q4'21 Q4'22 Q4'23 Q4'24 Q4'25 CAGR: 22% 76%
+82% 83% 83% 83% % Activity Ratio Note 1: ‘Active Customers’ relates to all customers that have generated revenue over the
+last 30 calendar days, for a given measurement period. Note 2: ‘Activity Rate’ is defined as monthly active customers divided
+by the total number of customers as of a specific date. Note 3: Adult population is defined as 18+ years. Note 4: For Brazil, the % of
+adult population is calculated as Nu’s Brazilian adult customers divided by the adult population of the country. For Mexico and
+Colombia, the % is calculated as Nu’s customers divided by the adult population of each country. Note 4: ‘Average revenue
+per active customer’ or ‘ARPAC’ is defined as the average monthly revenue (total revenue divided by the number of months
+in the period) divided by the average number of individual active customers during the period (average number of individual active customers
+is defined as the average of the number of monthly active customers at the beginning of the period measured, and the number of monthly
+active customers at the end of the period). Note 5: Efficiency Ratio is defined as Total Operating Expenses divided by NII and Fee Income
+net of Transactional Cost and Revenue-Based Taxes. Note 6: Amounts are presented in US dollars and growth rates on an FX Neutral basis.
+Note 7: Q4’22 Nu Consolidated Net Income excludes the effect of the one-time non-cash recognition of the 2021 CSA termination. Reported
+Loss for the quarter was US$297.6 million. For additional details on calculations please refer to the appendix Non-IFRS Financial measures
+and reconciliations. Source: Nu , IBGE, INEGI, DANE. CAGR: 68% FXN 591 1,463 2,455 3,101 4,857 Q4'21 Q4'22 Q4'23 Q4'24 Q4'25 177 550 1,084
+1,317 1,961 Q4'21 Q4'22 Q4'23 Q4'24 Q4'25 CAGR: 81% FXN CAGR: 30% FXN 5 8 11 11 15 Q4'21 Q4'22 Q4'23 Q4'24 Q4'25 78% 41% 27% 22% 20% Q4'21
+Q4'22 Q4'23 Q4'24 Q4'25 Q4’25 Results 6 Our Strategic Priorities for 2026 Largest and most loved digital retail bank Strengthen
+foundations for international expansion AI as a Superpower Doubling down on Brazil, Mexico and Colombia, strengthening our banking franchise
+through superior experience, principality, and sustained growth Building the foundations to scale our model globally, starting with the
+US, while Latin America remains our primary growth engine Embedding AI as a structural advantage to drive better decisions, personalized
+experiences, and stronger economics Q4’25 Results 7 January December OXXO CICO Partnership Open Finance: One-Click Deposits CC Bill
+Insurance Protection Hub MX Cross Borders Transfers NuScore Colombia Instant Payments (Bre-B) Payroll Expansion (RJ state and BH City)
+Travel Hub PIX NFC PIX and PIX Financing with AI Credit Builder Experience Turbo Moneyboxes Private Payroll Fresh Start Campaign Round-up
+Savings Fixed Income Radar New Cashback Redemption UI Nu U18 Expansion (6-9 years) Travel Hub Price Alerts Nubank+ Revamped Benefits Automatic
+PIX NuScore: Limit Evolution Under 18 Credit Card Credit Card Bill Spend Tracker Invoice Anticipation for SMEs Salary Portability New
+Flow NuScore: CPF Monitoring NuCoin 2.0 Portfolio Recommendation Financial Summary NuCel Physical SIM Open Finance: Investments Aggregator
+Ultravioleta 2.0 NuAsset Bitcoin Futures ETF Payroll Expansion (SP City and State) NuCol Street Mode Protection Open Finance: One-Click
+Transfer Out UV Benefit: Zero Fees for Cryptos NuAsset HGBR11 and HYBR11 ETFs NuMex Scam Alert PIX Insurance Protection NuCel Exclusive
+Offer for Nu+ Subscription Based Credit Card Colombia NuAsset NCDI11 ETF Uber Partnership AI Scam Protection Colombia Personal Loans Amazon
+Partnership SME Charging Assistant Subscription Manager Shopee Partnership OpenAI Benefit to UV and Nu+ NuAsset NLFA11 ETF NuCel New Plans
+NuScore MX Ifood Partnership New Equities Investments UI Crypto Limit Orders Multi-asset Nu Limite Garantido Secured Credit Card Colombia
+Burger King Partnership Strong Execution at Scale Throughout 2025 Q4’25 Results 8 Brazil: Scale & leadership Building the Largest
+Retail Bank in LatAm Digital Ecosystem Global AIDriven Expansion How We Performed Against our 2025 Priorities Mexico: Penetration &
+licensing Colombia: Growth & credit Access Credit portfolio expansion 14M customers (15% adult pop), banking license underway 4.2M
+customers (+70% YoY); portfolio $0.6B, scaling with healthy unit economics Total portfolio $32.7B (+40% YoY FXN); NPL 15-90 improved to
+4.1% Ecosystem adoption 12M unique active customers (+58% YoY); still early at ~9% of base New verticals +4x QoQ NuCel active; +3x YoY
+Travel customers AI in credit decisioning (nuFormer) Deployed in Brazil CLIP, lending BR & CLIP MX still in testing AI in customer
+experience 10M MAU Pix with AI, agentic flows live in key experiences such as collections and card delivery, 50% notification uplift US
+Expansion Conditional approval for national bank charter (Jan 2026) 113M Customers, #1 private financial institution, 86% activity rate
+Delivered In Progress Note 1: ‘CLIP” stands for Credit Limit Increase Policy. Source: Nu Q4’25 Results 9 Results Q4’25
+Note 1: Please refer to the Reconciliation Report for more information. Source: Nu. Q4’25 Results 10 Managerial P&L Rationale
+Q4’25 Managerial P&L (US$MM) An evolution in how we explain value creation across an increasingly multi-product, multi-segment,
+and multi-country platform A structural, complementary reorganization of IFRS line items to enhance comparability as the business scales
+A consistent definition of Managerial P&L lines grounded in economic and operational substance A framework that preserves net income,
+cash flow, and capital, fully reconciled to IFRS and designed for external assurance Total Revenue Credit Income Float Income Fee Income
+Total Direct Costs Gross Profit Opex 4,857 (2,896) 1,961 (653) Income Taxes (413) Share of Results From Associates (0.4) EBT 1,308 Net
+Income 895 2,778 1,409 670 Funding Cost Cost of Credit Transaction Cost Revenue-Based Taxes (1,350) (1,313) (99) (134) A Clearer View
+of Nubank's Operating Performance Introducing the Managerial P&L Q4’25 Results 11 15.2 14.6 16.3 18.2 20.0 21.8 4.6 4.7 5.9
+6.8 7.7 8.2 1.1 1.4 1.9 2.3 2.7 2.7 20.9 20.7 24.1 27.3 30.4 32.7 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Secured Loans: 71% FXN Unsecured
+Loans: 55% FXN Credit Card: 32% FXN Strong Overall Credit Portfolio Expansion Credit Card Performance Remains Robust Note 1: Amounts are
+presented in US dollars and growth rates on an FX Neutral basis. For additional detail on calculations please refer to the appendix Non-IFRS
+Financial measures and reconciliations. Note 2: All amounts are presented gross of provisions. Note 3: Secured loan includes Payroll Deductible
+Loans, FGTS Deductible Loans, INSS Deductible Loans and Investment Backed Loans (IBL). Note 4: Q4’25 Total Portfolio includes US$151.1MM
+related to the purchase of secured loan portfolio from third-parties. Source: Nu. Total Portfolio (US$BN) Total Portfolio (%) 73% 71%
+68% 67% 66% 67% 22% 23% 24% 25% 25% 25% 5% 7% 8% 8% 9% 8% Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 YoY: 40% FXN 11% FXN 8% 7% FXN FXN 13% FXN
+Unsecured Credit Card Secured Unsecured Credit Card Secured 9% FXN Q4’25 Results 12 23.5 23.1 24.4 27.8 30.4 33.2 3.9 4.5 5.4 6.7
+6.1 6.3 1.3 1.8 2.1 2.3 2.5 28.3 28.9 31.6 36.6 38.8 41.9 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Building a Scalable and Sustainable Deposit
+Franchise Across Latam Note 1: Amounts are presented in US dollars and growth rates on an FX Neutral basis. For additional detail on calculations
+please refer to the appendix Non-IFRS Financial measures and reconciliations. Note 2: Rates presented are calculated as the ratio between
+the interest expenses paid to customers in the period and the interest income of the same deposits yielding 100% of the respective interbank
+rate: Mexico (“TIIE”), Colombia (”IBR”) and Brazil (“CDI”). Source: Nu, BCB, Banxico, Banrep. Deposits
+(US$BN) Cost of Deposits as a % of Interbank Rate YoY: 29% FXN 15% FXN 1% FXN 11% FXN 4% FXN 12% FXN 89% 89% 90% 91% 89% 87% Mexico Brazil
+Colombia Q4’25 Results 13 Risk-Adjusted NIM Drives Performance as NII Scales NII (US$MM) & Credit Loss Allowance (US$MM) &
+Risk Adj. NIM (%) 1,788.2 1,828.1 2,015.1 2,223.5 2,477.3 2,836.9 (801.9) (849.9) (1,041.8) (1,051.1) (1,035.8) (1,313.2) Q3'24 Q4'24
+Q1'25 Q2'25 Q3'25 Q4'25 CLA (US$ MM) NII (US$ MM) 8% FXN 10% FXN 7% FXN 7% FXN 13% FXN 10.6% 9.9% 9.3% 9.9% 10.8% 10.5% Risk Adj. NIM
+Holdings (%) 23% FXN -2% FXN -5% FXN 12% FXN 26% FXN Note 1: ‘NII’ stands for Net Interest Income and is calculated as the
+sum of Credit Income and Float Income less Funding Cost. Note 2: ‘Risk Adj. NIM’ stands for Risk Adjusted Net Interest Margin,
+is annualized, and is the ratio between NII less Cost of Credit in the numerator and the denominator is defined as the following average
+balance sheet metrics: i) Cash and cash equivalents; ii) Financial assets at fair value through profit or loss; iii) Financial assets
+at fair value through OCI; iv) Compulsory and other deposits at central banks; v) Credit card interest-earning portfolio; vi) Loans to
+customers (gross); vii) Other receivables; viii) Other financial assets at amortized cost; and ix) Securities assets. Note 3: Amounts
+are presented in US dollars and growth rates on an FX Neutral basis. Source: Nu. Q4’25 Results 14 Strong Coverage Ratios with Healthy
+Credit Quality Trends Note 1: Includes credit card receivables, loans to individuals and loans to companies across all geographies. Note
+2: ‘NPL’ is a nonperforming loan. Source: Nu. 15-90 NPLs Coverage Ratio Over Total Balance 5.1% 5.3% 5.8% 5.9% 6.0% 6.1% 6.8%
+7.0% 6.7% 6.4% 6.5% 6.7% 6.6% Q4'22 Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 90+ NPLs Coverage Ratio Over
+NPL 90+ 242.0% 245.9% 241.9% 247.4% 240.4% 249.7% 227.8% 226.0% 227.1% 247.5% 241.6% 227.8% 230.9% Q4'22 Q1'23 Q2'23 Q3'23 Q4'23 Q1'24
+Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 12.2% 13.0% 14.0% 14.7% 14.3% 15.1% 15.4% 15.7% 15.3% 15.7% 15.7% 15.3% 15.2% Q4'22 Q1'23 Q2'23
+Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 4.1% 4.7% 4.5% 4.4% 4.2% 5.1% 4.7% 4.5% 4.2% 4.8% 4.5% 4.3% 4.1% Q4'22 Q1'23
+Q2'23 Q3'23 Q4'23 Q1'24 Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Q4’25 Results 15 51% 46% 39% 43% 47% 42% 31% 33% 34% 30% 27% 29%
+18% 21% 27% 26% 26% 29% 1,301.7 1,317.0 1,327.5 1,519.3 1,811.2 1,961.1 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Solid Gross Profit Growth
+Underpinned by Diversified Value Drivers Note 1: Amounts are presented in US dollars and growth rates on an FX Neutral basis. For additional
+detail on calculations please refer to the appendix Non-IFRS Financial measures and reconciliations. Note 2: Credit refers to Credit Income
+net of applicable funding cost and Cost of Credit. Note 2: Fees is calculated as Fee Income, less Transactional Cost. Note 3: Float is
+calculated as the difference between Total Gross Profit and the sum of Credit and Fees components. Source: Nu. Gross Profit (US$MM) YoY:
+38% FXN 7% FXN 7% FXN 1% FXN 15% FXN 11% FXN Fees Credit Float Q4’25 Results 16 Scalable Business Model Delivering Continued Operating
+Leverage Efficiency Ratio (%) Opex (US$ MM) Net Revenues (US$ MM) 2,103.6 2,166.9 2,369.4 2,570.4 2,847.0 3,274.3 (520.3) (469.4) (459.2)
+(548.1) (577.2) (652.6) Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 8% FXN 10% FXN 5% FXN 7% FXN 14% FXN 24.7% 21.7% 21.4% 21.3% 20.3% 19.9% Efficiency
+Ratio (%) -2% FXN 16% FXN 1% FXN -5% FXN 12% FXN Note 1: Efficiency Ratio is defined as Total Operating Expenses divided by NII and Fee
+Income net of Transactional Cost and Revenue-Based Taxes. Note 2: Q1'25 Efficiency Ratio includes a one-off impact of US$47 million related
+to the remeasurement of a specific item within deferred tax assets, booked under "Other Income and Expenses" in the P&L. Note 3: Further
+details on the calculation of the Efficiency Ratio, including a side-by-side comparison between the previous and new methodologies, are
+presented in the Appendix.. Source: Nu. Q4’25 Results 17 553.4 552.6 557.2 637.0 782.7 894.8 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25
+30% 29% 27% 28% 31% 33% Strong Earnings Trajectory with Sustained ROE Note 1: Amounts are presented in US dollars and growth rates on
+an FX Neutral basis. For additional detail on calculations please refer to the appendix Non-IFRS Financial measures and reconciliations.
+Note 2: ‘ROE’ stands for Return on Equity. It is annualized and a non-GAAP measure. Refer to the appendix Non-IFRS Financial
+measures and reconciliations. Source: Nu. Net Income (US$MM) ROE (%) YoY: 50% FXN 5% FXN 1% FXN 11% FXN 18% FXN 13% FXN 592.2 33% 606.5
+30% 694.3 31% 829.0 33% Adj. Net Income (US$MM) Adj. ROE (%) 942.8 35% 610.1 32% Q4’25 Results 18 Strong Capital Position to Fund
+Both Growth In Core Markets and Global Expansion Note 1: Brazil figures consider the Capital Adequacy Ratio (CAR) requirement of 10.5%,
+applicable to the conglomerate led by Nu Pagamentos S.A. as of December 2025, according to BCB Resolution No. 200/22. Mexico's figures
+consider the NICAP required for a SOFIPO type 4, equivalent to a Capital Adequacy ratio of 10.5%; Colombia's figures consider a minimum
+Capital Adequacy Ratio of 10.5%, applicable to Nu Financiera, as a regulated entity. Note 2: The Capital Excess includes US$ 130M of capital
+under approval by the Central Bank of Brazil, subsequently approved in early February 2026. Note 3: ‘Net Credit Portfolio’
+is defined as Credit Card Receivables plus Loans to Customers, net of Payables to Credit Card Network. Note 4: ‘Available Funding’
+is defined as Total Deposits net of Compulsory Deposits, plus Financial Bills. Capital Position (US$BN) Liquidity Position (%) 19.0 38.8
+Net Credit Portfolio Available Funding 49% 3.6 2.2 3.0 8.9 Capital Requirement (Regulated Entities) Capital Excess (Regulated Entities)
+Nu Holdings Cash & Equivalents Capital Position Q4’25 Results 19 Closing Remarks Q4’25 Q4’25 Results 20 Q&A
+Q4’25 Q4’25 Results 21 Appendix Q4’25 Q4’25 Results 22 Note 1: The information presented considers credit card
+receivables, loans to individuals and loans to companies across all geographies. Note 2: ‘NPL’ is a nonperforming loan. Source:
+Nu. Renegotiated Balance (US$BN) 10.5% 9.9% 10.3% 10.1% 9.8% 9.6% % Renegotiated Between 15 & 90 Days Overdue % Renegotiated Before
+15 Days Overdue % Renegotiated After 90 Days Overdue % Renegotiated Over Total Balance 55% 54% 55% 54% 54% 54% 32% 32% 31% 31% 30% 13%
+14% 29% 14% 15% 16% 17% 2.2 2.3 2.6 2.8 2.9 3.2 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Coverage Ratio & NPLs of Renegotiated Balance
+(%) 21.9% 23.8% 23.0% 23.2% 23.1% 23.2% Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 212.4% 201.9% 200.4% 199.8% 190.6% 183.8% % NPL 90+ Coverage
+Ratio NPL 90+ Disciplined Renegotiation Limits Credit Risk Impact Q4’25 Results 23 Unlocking Long-Term Value Through Engagement,
+Monetization and Scale Note 1: Amounts are presented in US dollars. Note 2: ‘Average revenue per active customer’ or ‘ARPAC’
+is defined as the average monthly revenue (total revenue divided by the number of months in the period) divided by the average number
+of individual active customers during the period (average number of individual active customers is defined as the average of the number
+of monthly active customers at the beginning of the period measured, and the number of monthly active customers at the end of the period).
+Note 3: ‘Cost to serve’ is defined as the monthly average of the sum of transactional expenses, customer support and operations
+expenses (sum of these expenses in the period divided by the number of months in the period) divided by the average number of individual
+active customers during the period (average number of individual active customers is defined as the average of the number of monthly active
+customers at the beginning of the period measured, and the number of monthly active customers at the end of the period. Source: Nu. Monthly
+ARPAC by Cohort (US$) 0.7 0.8 0.7 0.8 0.9 0.8 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 0.8 4.8 7.4 9.8 12.3 14.8 17.7 24.7 30.2 1 12 24 36
+48 60 72 84 96 Months since origination Cost to Serve per Active Customer (US$) 11.1 11.1 11.6 12.5 13.8 15.0 Q3'24 Q4'24 Q1'25 Q2'25
+Q3'25 Q4'25 Monthly ARPAC (US$) YoY: 25% FXN YoY: 11% FXN Q4’25 Results 24 Refining the Efficiency Ratio To Better Reflect Operating
+Leverage Note 1: Q1'25 Efficiency Ratio includes a one-off impact of US$47 million related to the remeasurement of a specific item within
+deferred tax assets, booked under "Other Income and Expenses" in the P&L. Note 2: For additional detail on calculations please refer
+to the appendix Non-IFRS Financial measures and reconciliations. Source: Nu. 45.8% 38.4% 34.9% 33.6% 32.5% 31.4% 31.0% 29.5% 27.1% 26.1%
+26.6% 25.9% 25.4% 41.0% 33.2% 30.4% 28.5% 27.3% 26.4% 26.0% 24.7% 21.7% 21.4% 21.3% 20.3% 19.9% Q4'22 Q1'23 Q2'23 Q3'23 Q4'23 Q1'24 Q2'24
+Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Q4'25 Efficiency Ratio* (%) Old Methodology New Methodology Definition Old Methodology Opex + Transaction
+Cost + Revenue-Based Taxes Credit Income + Float Income + Fee Income + Funding Cost New Methodology Opex Credit Income + Float Income
++ Fee Income + Funding Cost + Transaction Cost + Revenue-Based Taxes Opex (=) (+) Customer Support and Operations (+) G&A Expenses
+(+) Marketing Expenses (+) Other Operating Expenses * Both series use managerial numbers Q4’25 Results 25 This presentation includes
+financial measures defined as “non-IFRS financial measures” by the SEC, including Adjusted Net Income, certain FX Neutral
+measures and managerial profit and loss (P&L), and provides reconciliations to the most directly comparable IFRS financial measure.
+A non-IFRS financial measure is generally defined as a numerical measure of historical or future financial performance or financial position
+that purports to measure financial performance but excludes or includes amounts that would not be so adjusted in the most comparable IFRS
+measure. These non-IFRS financial measures are in addition to, and not a substitute for or superior to, measures of financial performance
+prepared in accordance with IFRS. Adjusted Net Income is defined as profit (loss) attributable to shareholders of the parent company for
+the period, adjusted for the expenses and allocated tax effects on share-based compensation. Adjusted Net Income is presented because
+management believes that this non-IFRS financial measure can provide useful information to investors, securities analysts and the public
+in their review of the operating and financial performance of the Company, although it is not calculated in accordance with IFRS or any
+other generally accepted accounting principles and should not be considered as a measure of performance in isolation. Nu also uses Adjusted
+Net Income as a key profitability measure to assess the performance of the business. Nu believes Adjusted Net Income is useful to evaluate
+operating and financial performance for the following reasons: Adjusted Net Income is widely used by investors and securities analysts
+to measure a company’s operating performance without regard to items that can vary substantially from company to company and from
+period to period, depending on their accounting and tax methods, the book value and the market value of their assets and liabilities,
+and the method by which their assets were acquired; and Non-IFRS Financial Measures and Reconciliations Non-cash equity grants made to
+executives, employees or consultants at a certain price and point in time, and their hedge accounting effects for the corporate tax and
+social wages and their income tax effects, do not necessarily reflect how the business is performing at any particular time and the related
+expenses (and their subject impacts in the market value of assets and liabilities) are not key measures of core operating performance.
+Adjusted Net Income is not a substitute for Net Income, which is the IFRS measure of earnings. Additionally, the calculation of Adjusted
+Net Income (Loss) may be different from the calculation used by other companies, including competitors in the technology and financial
+services industries, because other companies may not calculate these measures in the same manner as we do, and therefore, measure may
+not be comparable to those of other companies. Q4’25 Results 26 Non-IFRS Financial Measures and Reconciliations The new managerial
+P&L reporting framework is intended to facilitate understanding of the underlying operational and economic drivers of the Company’s
+results and how value is generated across products, segments, and geographies. The managerial P&L line items are derived exclusively
+from the Company’s IFRS financial statements and are constructed through a defined set of operational reclassifications and tax-equivalency
+adjustments. Such reclassifications and adjustments are managerial and do not affect the Company’s reported net income, cash flows,
+equity, or regulatory capital metrics prepared in accordance with IFRS. Operational reclassifications are applied to align income, costs,
+and expenses with the economic activities to which they relate, with the objective of improving comparability, analytical consistency,
+and transparency of operating performance. These reclassifications represent presentation-only changes between income statement line items.
+As part of the managerial P&L view, the Company applies a defined set of tax-equivalency adjustments designed to improve comparability
+of pre-tax performance metrics for managerial analysis across components subject to specific statutory tax treatments. Conceptually, tax-equivalency
+adjustments normalize statutory tax effects so that the underlying economic contribution of certain products, services, and activities
+can be compared on a consistent pre-tax basis. These adjustments are net-income neutral and do not alter reported income tax expenses
+under IFRS or cash taxes paid. The methodologies, definitions, and classification principles underlying the managerial P&L view are
+applied consistently across periods. This marks the formal introduction of the framework. Any future enhancements to the framework or
+its presentation will be disclosed transparently and supported by appropriate reconciliation to IFRS results. IFRS consolidated financial
+statements remain the sole basis for statutory reporting and constitute the source of truth for all accounting purposes. Source: Nu. Q4’25
+Results 27 Managerial P&L - Bridge From Accounting to Managerial Non-IFRS Financial Measures and Reconciliations Q4’25 Nu Holdings
+- Consolidated (US$ million) Accounting P&L Reclassifications & Adjustments Managerial P&L Total Revenue 4,685.9 171.4 4,857.3
+Credit Income 2,732.0 46.0 2,778.0 Float Income 1,264.3 144.6 1,408.9 Fee Income 689.5 (19.1) 670.4 Total Direct Costs (2,742.8) (153.4)
+(2,896.2) Funding Cost (1,376.8) 26.8 (1,350.0) Cost of Credit (1,241.7) (71.6) (1,313.2) Transaction Cost (124.4) 25.4 (99.0) Revenue-Based
+Taxes 0.0 (134.0) (134.0) Gross Profit 1,943.0 18.0 1,961.1 Operating Expenses (865.0) 212.3 (652.6) Customer Support and Operations (164.0)
+0.0 (164.0) G&A Expenses (440.1) 75.2 (364.9) Marketing Expenses (121.0) 26.8 (94.2) Other Operating Expenses (139.8) 110.3 (29.5)
+Share of Results From Associates (0.4) 0.0 (0.4) EBT 1,077.7 230.4 1,308.1 Income Taxes (182.9) (230.4) (413.3) Net Income 894.8 0.0 894.8
+Q4’25 Results 28 Source: Nu. Adjusted Net Income Non-IFRS Financial Measures and Reconciliations Nu Holdings - Consolidated As reported
+For the three-month period ended Adjusted Net Income (US$ million) Dec 31, 2025 Sep 30, 2025 Dec 31, 2024 Profit attributable to shareholders
+of the parent company 892.4 782.5 552.6 Share-based compensation 79.6 88.3 68.9 Allocated tax effects on share-based compensation (26.0)
+(31.8) (21.4) Hedge of the tax effects on share-based compensation (3.2) (10.0) 10.0 Adjusted Net Income for the period 942.8 829.0 610.1
+Q4’25 Results 29 Note 1: Efficiency Ratio is defined as Total Operating Expenses plus Transactional Expenses divided by NII (Net
+Interest Income) and Fees and Commission Income. Note 2: Costs include transactional costs and operating expenses. Source: Nu. Q4’22
+and FY22 Metrics adjusted by the CSA cancellation Nu Holdings - Consolidated December 31, 2022 US$ million As presented in the financial
+statements CSA termination adjustment As presented in the earnings presentation Net income (loss) – for the three-month period ended
+(297.6) 355.6 58.0 Net income (loss) – for the year ended (364.6) 355.6 (9.1) Costs – for the three-month period ended (849.6)
+355.6 (494.0) Total operating expenses – for the three-month period ended (800.1) 355.6 (444.5) Total operating expenses –
+for the year ended (1,972.0) 355.6 (1,616.4) Nu Holdings - Consolidated December 31, 2022 Calculated using financial statements CSA termination
+adjustment As presented in the earnings presentation Efficiency ratio – for the three-month period ended (New Methodology) 77.4%
+(36.4)% 41.0% Efficiency ratio – for the three-month period ended (Old Methodology) 74.6% (28.7)% 45.8% Non-IFRS Financial Measures
+and Reconciliations Q4’25 Results 30 Note 1: ‘ROE’ stands for Return on Equity. It is annualized. Source: Nu. Equity
+and Annualized ROE/Adjusted ROE Non-IFRS Financial Measures and Reconciliations US$ million Reconciliation - ROE Nu Holdings - Consolidated
+Q4’24 Q1’25 Q2’25 Q3’25 Q4’25 Total equity at the end of the period 7,647.1 8,607.9 9,574.8 10,552.0 11,332.6
+Net Income for the period 552.6 557.2 637.0 782.7 894.8 Adjusted Net Income for the period 610.1 606.5 694.5 829.0 942.8 Annualized ROE
+29% 27% 28% 31% 33% Annualized Adjusted ROE 32% 30% 31% 33% 35% Q4’25 Results 31 FX Neutral measures are prepared and presented
+to eliminate the effect of foreign exchange, or “FX,” volatility between the comparison periods, allowing management and investors
+to evaluate financial performance despite variations in foreign currency exchange rates, which may not be indicative of core operating
+results and business outlook. FX Neutral measures are presented because management believes that these non-IFRS financial measures can
+provide useful information to investors, securities analysts and the public in their review of operating and financial performance, although
+they are not calculated in accordance with IFRS or any other generally accepted accounting principles and should not be considered as
+a measure of performance in isolation. The FX Neutral measures were calculated to present what such measures in preceding periods would
+have been had exchange rates remained stable from these preceding periods until the date of the Company's most recent financial information.
+The FX Neutral measures for the three months ended December 31, 2024 were calculated by multiplying the as reported amounts of Adjusted
+Net Income and the key business metrics for such period by the average Brazilian reais / U.S. dollars exchange rate for the three months
+ended December 31, 2024 (R$5.8402 to US$1.00) and using such results to re-translate the corresponding amounts back to U.S. dollars by
+dividing them by average based on the USD/BRL spot last price rate for all business days within the reporting in the three months ended
+December 31, 2024 (R$5,3988 to US$1.00), so as to present what certain of statement of profit and loss amounts and key business metrics
+would have been had exchange rates remained stable from this past period until the three months ended December 31, 2025. Non-IFRS Financial
+Measures and Reconciliations The average Brazilian reais/U.S. dollars exchange rates were calculated as the average based on the USD/BRL
+spot last price rate for all business days within the reporting in the three months ended December 31, 2025 and 2024 as reported by Bloomberg.
+FX Neutral measures for deposits and interest-earning portfolio were calculated by multiplying the as reported amounts as of each date,
+by the spot Brazilian reais/U.S. dollars exchange rates as of each date and using such results to re-translate the corresponding amounts
+back to U.S. dollars by dividing them by using the spot last price rate as December 31, 2025 (R$5.4956 to US$1.00) so as to present what
+these amounts would have been had exchange rates been the same on December 31, 2024. The Brazilian reais/U.S. dollars exchange rates were
+calculated using rates as of such dates as reported by Bloomberg. Q4’25 Results 32 FX Rates - On a monthly basis, Nu translates
+its subsidiaries figures from their individual functional currency into Nu Holdings functional currency, the U.S. Dollars ("US$"), following
+the requirements of IAS 21 "The Effects of Changes in Foreign Exchange Rates". The functional currency of the Brazilian operating entities
+is the Brazilian Real ("R$"), of the Mexican entities is the Mexican Peso ("MXN"), and of the Colombian entities is the Colombian Peso
+("COP"). As of January 31, 2025, income statement figures were divided by the average FX Rate of the month (R$ 6.0137, MXN 20.5668 and
+COP 4,283.6541 to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the month (R$ 5.8443, MXN 20.6780 and
+COP 4,208.5200 to US$ 1.00). As of February 29, 2025, income statement figures were divided by the average FX Rate of the month (R$ 5.7665,
+MXN 20.4517 and COP 4,128.9795 to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the month (R$ 5.8846,
+MXN 20.5511 and COP 4,153.9200 to US$ 1.00). As of March 31, 2025, income statement figures were divided by the average FX Rate of the
+month (R$ 5,7442, MXN 20,2251 and COP 4,137.1848 to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the
+month (R$ 5.7058, MXN 20.4711 and COP 4,183.5200 to US$ 1.00). As of April 30, 2025, income statement figures were divided by the average
+FX Rate of the month (R$ 5.7441, MXN 19.9951 and COP 4,274.0429 to US$ 1.00) and balance sheet figures were divided by the last price
+FX Rate of the month (R$ 5.6733, MXN 19.6154 and COP 4,225.6000 to US$ 1.00). Non-IFRS Financial Measures and Reconciliations As of May
+31, 2025, income statement figures were divided by the average FX Rate of the month (R$ 5.6715, MXN 19.4414 and COP 4,197.2262 to US$
+1.00) and balance sheet figures were divided by the last price FX Rate of the month (R$ 5.7234, MXN 19.4377 and COP 4,159.4300 to US$
+1.00). As of June 30, 2025, income statement figures were divided by the average FX Rate of the month (R$ 5.5414, MXN 19.0205 and COP
+4,109.0480 to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the month (R$ 5.4316, MXN 18.7475 and COP
+4,087.6200 to US$ 1.00). As of July 31, 2025, income statement figures were divided by the average FX Rate of the month (R$ 5.5314, MXN
+18.6954 and COP 4,054.6048 to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the month (R$ 5.6003, MXN
+18.8759 and COP 4,186.7700 to US$ 1.00). As of August 31, 2025, income statement figures were divided by the average FX Rate of the month
+(R$ 5.4452, MXN 18.7032 and COP 4,042.9638 to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the month
+(R$ 5.4297, MXN 18.6564 and COP 4,020.9800 to US$ 1.00). As of September 30, 2025, income statement figures were divided by the average
+FX Rate of the month (R$ 5.3674, MXN 18.4867 and COP 3,918.6823 to US$ 1.00) and balance sheet figures were divided by the last price
+FX Rate of the month (R$ 5.3217, MXN 18.3123 and COP 3,921.2500 to US$ 1.00). Q4’25 Results 33 As of October 31, 2025, income statement
+figures were divided by the average FX Rate of the month (R$ 5.3890, MXN 18.4345 and COP 3,880.9543 to US$ 1.00) and balance sheet figures
+were divided by the last price FX Rate of the month (R$ 5.3770, MXN 18.5500 and COP 3,855.9800 to US$ 1.00). As of November 30, 2025,
+income statement figures were divided by the average FX Rate of the month (R$ 5.3396, MXN 18.4143 and COP 3,772.4450 to US$ 1.00) and
+balance sheet figures were divided by the last price FX Rate of the month (R$ 5.3349, MXN 18.2955 and COP 3,754.7500 to US$ 1.00). As
+of December 31, 2025, income statement figures were divided by the average FX Rate of the month (R$ 5.4601, MXN 18.0713 and COP 3,804.3736
+to US$ 1.00) and balance sheet figures were divided by the last price FX Rate of the month (R$ 5.4956, MXN 18.0080 and COP 3,774.7200
+to US$ 1.00). Equity figures are translated using the FX Rate on the date of each transaction Non-IFRS Financial Measures and Reconciliations
+Q4’25 Results 34 Activity rate - is defined as monthly active customers divided by the total number of customers as of a specific
+date. CDI (“Certificado de Depósito Interbancário”) - Brazilian interbank deposit rate. Credit Loss Allowance
+Expenses/Credit Portfolio - is defined as credit loss allowance expenses, divided by the sum of receivables from credit card operations
+(current, installments and revolving) and loans to customers, in each case gross of ECL allowance, as of the period end date. Customer
+- is defined as an individual or SME that has opened an account with Nu and does not include any such individuals or SMEs that have been
+charged-off or blocked or have voluntarily closed their account. ECL or ECL Allowance - means the expected credit losses in Nu's credit
+operations, including loans and credit cards. Efficiency ratio – refers to the ratio between Total Operating Expenses divided by
+Net Interest Income and Fee Income net of Transactional Cost and Revenue-Based Taxes. Foreign Exchange ("FX”) Neutral Measures -
+refer to certain measures prepared and presented in this earnings release to eliminate the effect of FX volatility between the comparison
+periods, allowing management and investors to evaluate Nu's financial performance despite variations in foreign currency exchange rates,
+which may not be indicative of the Company's core operating results and business outlook. For additional information, see “Non-IFRS
+Financial Measures and Reconciliations”. IBR (“Indicador Bancario de Referencia”) - Colombian interbank deposit rate.
+Interest-Earning Portfolio ("IEP") - consists of receivables from credit card operations on which Nu is accruing interest and loans to
+customers, in each case prior to ECL allowance, as of the period end date. Glossary Loan-to-Deposit Ratio (“LDR”) - is calculated
+as the total balance for Interest-Earning Portfolio divided by the total amount of deposits at the end of the same period. Monthly Active
+Customers - is defined as all customers that have generated revenue in the last 30 calendar days. Monthly Average Cost to Serve per Active
+Customer - is defined as the monthly average of the sum of transactional expenses and customer support and operations expenses (sum of
+these expenses in the period divided by the number of months in the period) divided by the average number of individual monthly active
+customers during the period (average number of individual monthly active customers is defined as the average of the number of monthly
+active customers at the beginning of the period measured, and the number of monthly active customers at the end of the period). Monthly
+Average Revenue per Active Customer or Monthly ARPAC ("ARPAC") - is defined as the average monthly revenue (total revenue divided by the
+number of months in the period) divided by the average number of individual monthly active customers during the period (average number
+of individual monthly active customers is defined as the average of the number of monthly active customers at the beginning of the period
+measured, and the number of monthly active customers at the end of the period). Q4’25 Results 35 Net Interest Income ("NII") - is
+defined as interest income and gains (losses) on financial instruments minus interest and other financial expenses. Net Interest Margin
+("NIM") - is defined as the annualized ratio between NII in the numerator and the denominator is defined as the following average balance
+sheet metrics: i) Cash and cash equivalents ii) Financial assets at fair value through profit or loss iii) Financial assets at fair value
+through OCI iv) Compulsory deposits at central banks v) Credit Card Interest-earning portfolio vi) Loans to customers (gross) vii) Interbank
+transactions viii) Other credit operations ix) Other financial assets at amortized cost. Non-Performing Loans ("NPL") - is defined as
+the non-performing loans balance (e.g. NPLs 15 to 90 days or 90+ days) divided by the total outstanding balance of consumer credit portfolio
+(i.e. excluding SMEs). Nu Pagamentos - Nu Holdings’ subsidiary in Brazil. Nu Financiera - Nu Holding’s subsidiary in Colombia.
+Primary Banking Account ("PBA") - refers to Nu’s relationship with those customers who had at least 50% of their post-tax monthly
+income transferred out of their NuAccount in any given month, excluding self transfers. We calculate the percent of customers with a primary
+banking relationship as active customers with a primary banking relationship as a percentage of total active customers that have been
+with us for more than 12 months. Purchase Volume ("PV") - is defined as the total value of transactions that are authorized through Nu's
+credit, prepaid cards and payments through Nu's platform; it does not include other payment methods that we offer such as PIX transfers,
+WhatsApp payments or traditional wire transfers. Glossary Recovery - is the estimated amount of a defaulted contract with a customer that
+the company expects to receive. Risk-Adjusted Net Interest Margin ("Risk-adjusted NIM") - is annualized, and is calculated by dividing
+NII net of CLA by Interest Earning Assets defined as the following average balance sheet metrics: i) Cash and cash equivalents ii) Financial
+assets at fair value through profit or loss iii) Financial assets at fair value through OCI iv) Compulsory deposits at central banks v)
+Credit Card Interestearning portfolio vi) Loans to customers (gross) vii) Interbank transactions viii) Other receivables ix) Other financial
+assets at amortized cost x) Securities. SMEs - small and medium-sized enterprises. TIIE (“Tasa de Interés Interbancaria de
+Equilibrio”) - Mexican interbank deposit rate. Total Portfolio - is the addition of credit card exposures and loans to customers.
+Write-off - constitutes a derecognition event when the institution has no reasonable expectations of recovering the contractual cash flows.
+Q4’25 Results 36 www.investors.nu investors@nubank.com.br
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
 
 |
 
