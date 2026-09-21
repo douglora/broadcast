@@ -1122,10 +1122,17 @@ def _periodo_no_contexto(antes, depois):
     return _periodo_no_site(antes, "") or _periodo_no_site(depois, "")
 
 
-def _data_no_texto(*textos):
-    """Primeira data legivel ('12/08/2026', '2026-08-12', '12 de agosto de 2026', 'August 12, 2026')."""
+def _sem_acentos(texto):
+    return unicodedata.normalize("NFKD", str(texto or "")).encode("ascii", "ignore").decode()
+
+
+def _datas_no_texto(*textos):
+    """Todas as datas legiveis ('12/08/2026', '2026-08-12', '12 de agosto de 2026', 'August 12, 2026'),
+    na ordem em que aparecem no texto (nao na ordem dos formatos). Sem acento antes de casar: 'marco'
+    com cedilha nao casava e todo release de 4T (publicado em marco) ficava com data estimada."""
+    achadas = []
     for t in textos:
-        t = str(t or "")
+        t = _sem_acentos(t)
         for rx, ordem in ((_RE_DATA_ISO, "amd"), (_RE_DATA_NUM, "dma"), (_RE_DATA_EXT, "dMa"), (_RE_DATA_EN, "Mda")):
             for m in rx.finditer(t):
                 g = m.groups()
@@ -1138,9 +1145,29 @@ def _data_no_texto(*textos):
                         dia, mes, ano = int(g[0]), _MESES.get(normalizar(g[1])[:3], 0), int(g[2])
                     else:
                         mes, dia, ano = _MESES.get(normalizar(g[0])[:3], 0), int(g[1]), int(g[2])
-                    return datetime(ano, mes, dia).strftime("%Y-%m-%d")
+                    achadas.append((m.start(), datetime(ano, mes, dia).strftime("%Y-%m-%d")))
                 except ValueError:
                     continue
+        achadas.sort()
+        if achadas:
+            return [d for _, d in achadas]
+    return []
+
+
+def _data_no_texto(*textos):
+    """Primeira data legivel do primeiro texto que tiver alguma."""
+    datas = _datas_no_texto(*textos)
+    return datas[0] if datas else None
+
+
+def _data_plausivel_no_texto(periodo, *textos):
+    """Primeira data do texto que cabe no trimestre: o cabecalho do release ('Sao Paulo, 07 de maio de
+    2026') costuma vir depois de uma data de comparacao ('acima de 31/03/2025'), e a primeira data do
+    texto nao e necessariamente a da publicacao."""
+    for t in textos:
+        for d in _datas_no_texto(t):
+            if _periodo_plausivel(periodo, d):
+                return d
     return None
 
 
@@ -1298,9 +1325,7 @@ def _candidatos_ri(links, pagina=None):
             app.log(f"site de RI: descartou '{texto[:60]}' ({url[:90]}): trimestre {periodo} ainda nao fechou "
                     f"(hoje {hoje}); e agenda, nao release")
             continue
-        data = _data_no_texto(texto, antes, depois)
-        if periodo and data and not _periodo_plausivel(periodo, data):
-            data = None      # data de outra linha da tabela: melhor estimar do que rotular errado
+        data = _data_plausivel_no_texto(periodo, texto, antes, depois) if periodo else _data_no_texto(texto, antes, depois)
         if data and data > hoje:
             if not eh_arquivo:
                 descartados_rotulo += 1
@@ -1571,7 +1596,9 @@ def _link_de_meta(d, ano, titulos, url_base):
     except (TypeError, ValueError):
         periodo = ""
     partes = []
-    if tcat and normalizar(tcat) not in normalizar(file_title):
+    # Titulo da categoria so quando o file_title nao diz por si que e release ('Release de Resultado 2T26'
+    # ja diz; 'Resultados' ou '2T26' nao dizem)
+    if tcat and not _RE_RI_RELEASE.search(normalizar(file_title)):
         partes.append(tcat.strip())
     partes.append(file_title)
     if periodo and _periodo_no_site(file_title, "") != periodo:
@@ -1580,6 +1607,7 @@ def _link_de_meta(d, ano, titulos, url_base):
     data = str(d.get("file_published_date") or d.get("published_date") or d.get("date") or "").strip()
     if re.fullmatch(r"20\d{6}", data[:8]):
         data = _RE_DATA_COLADA.sub(r"\1-\2-\3", data[:8])
+    data = re.sub(r"(\d{4}-\d{2}-\d{2})T\S*", r"\1", data)
     antes = f"ano {ano_doc} {data} categoria {cat}".strip()
     return (urljoin(url_base, url.strip()), titulo[:200], antes, "", None)
 
@@ -1625,6 +1653,11 @@ def _listar_cmsint(fm, rotulo):
         total += len(metas)
         categorias = sorted({str(m.get("category_internal_name") or m.get("internal_name") or "?").strip() for m in metas})
         app.log(f"{rotulo}: file manager MZ: {ano}: {len(metas)} documentos em {', '.join(categorias[:10])}")
+        for m in metas[:2]:
+            campos = {k: str(v)[:60] for k, v in m.items() if isinstance(v, (str, int, float)) and k in
+                      ("file_title", "file_published_date", "file_quarter", "file_year", "internal_name",
+                       "category_internal_name", "link_url", "permalink", "language", "published")}
+            app.log(f"{rotulo}:   exemplo: {campos}")
         for d in metas:
             link = _link_de_meta(d, ano, titulos, url_meta)
             if link:
@@ -2196,8 +2229,8 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
                 # A pagina nao disse a data, ou disse uma implausivel. O cabecalho do proprio
                 # release costuma dizer ("Belo Horizonte, 11 de agosto de 2026"): e a data real,
                 # e vale mais que a estimativa de fim do trimestre + 40 dias.
-                no_texto = _data_no_texto((item.get("texto") or "")[:2500])
-                if no_texto and _periodo_plausivel(item["periodo"], no_texto):
+                no_texto = _data_plausivel_no_texto(item["periodo"], (item.get("texto") or "")[:2500])
+                if no_texto:
                     item["data"], item["data_estimada"] = no_texto, False
             if not item.get("data"):
                 item["data"], item["data_estimada"] = _data_estimada_release(item["periodo"]), True
@@ -2268,8 +2301,8 @@ def carregar_indice_releases(saida, tk):
                 try:
                     with open(os.path.join(saida, e["arquivo"]), encoding="utf-8") as fh:
                         cabeca = fh.read(2500)
-                    no_texto = _data_no_texto(cabeca)
-                    if no_texto and _periodo_plausivel(entrada.get("periodo"), no_texto):
+                    no_texto = _data_plausivel_no_texto(entrada.get("periodo"), cabeca)
+                    if no_texto:
                         entrada["data"], entrada["data_estimada"] = no_texto, False
                 except OSError:
                     pass
