@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 12h22
+NOTÍCIAS E FATOS · 21/09 13h21
 
-Pernas: noticias ok 16 novas (14 consultas; descartadas: 373 veículo fora da lista, 18 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (14 consultas; descartadas: 377 veículo fora da lista, 17 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,25 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · DI · Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
+Estadao · 21/09 10h58 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/boletim-focus-hoje-mercado-eleva-projecao-para-a-inflacao-de-2026-e-se-afasta-da-meta-do-bc/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Estadao: Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta se…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 21/09 10h58
+id: E05-DI-417e639573-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · MMM · Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend
+TradingView (Reuters) · 21/09 08h28 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:902517ea196c2:0-weekly-recap-august-748m-catastrophe-losses-and-29-3m-preferred-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/09 08h28
+id: E05-MMM-ccaec046ca-2026-09-21 · status: pendente
 
 [ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
 Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
@@ -50,7 +68,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg Linea 21/09 10h56
-id: E05-DI-04cf063213-2026-09-21 · status: pendente
+id: E05-DI-04cf063213-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%
 Suno Noticias · 21/09 10h18 · fonte única · licença: resumo
@@ -66,7 +84,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no Suno Noticias: Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 21/09 10h18
-id: E05-DI-fae7fbb037-2026-09-21 · status: pendente
+id: E05-DI-fae7fbb037-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
 Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
@@ -82,7 +100,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 21/09 08h55
-id: E05-PETR4-3723b4e228-2026-09-21 · status: pendente
+id: E05-PETR4-3723b4e228-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027
 Investing.com · 21/09 11h08 · fonte única · licença: manchete
@@ -217,8 +235,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (55)
+## OUTRAS NOTÍCIAS (só manchete) (70)
 
+· ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
+· PETR4 Próximo plano de negócios da Petrobras trará meta de autossuficiência em diesel, diz Chambriard (eixos) https://eixos.com.br/petroleo-e-gas/proximo-plano-de-negocios-da-petrobras-trara-meta-de-autossuficiencia-em-diesel-diz-chambriard/
+· UST Wall St rises on AI gains as oil slides, Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
+· USDBRL Ibovespa sobe, dólar e taxas dos DIs caem em dia de otimismo no exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45D0LS:0/
+· NVDA Nvidia Holds Flat Before Trump-Xi Talks Test China Optionality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f99865244094b:0-nvidia-holds-flat-before-trump-xi-talks-test-china-optionality/
+· MU Why I Like Micron Better Than Nvidia (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948354-why-i-like-micron-better-than-nvidia
+· VALE3 Vale faz investimento estratégico em minério em Carajás ao comprar 30% da Ligga (InfoMoney) https://www.infomoney.com.br/mercados/vale-faz-investimento-estrategico-em-minerio-em-carajas-ao-comprar-30-da-ligga/
+· PETR4 Petróleo de Morpho é de “altíssima qualidade”, diz diretora da Petrobras (InfoMoney) https://www.infomoney.com.br/mercados/petroleo-de-morpho-e-de-altissima-qualidade-diz-diretora-da-petrobras/
+· BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-alibaba-cloud-ai-153200503.html
+· NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f931f16a7094b:0-nvidia-ceo-makes-rare-admission-on-ai-data-centers/
+· MU Why Micron Stock Popped This Morning (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-micron-stock-popped-morning-144645472.html
+· UST Why Warsh and Bessent Are at Odds Over Sky-High Treasury Yields (Barron's) https://www.barrons.com/articles/treasuries-bonds-yields-markets-bessent-warsh-e989d522
+· MU Prediction: Micron Stock Will Go Parabolic After Sept. 30. Here Are 31.6 Trillion Reasons Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-parabolic-sept-135601796.html
+· BRENT Ibovespa avança com petróleo em baixa e pesquisa eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWJ0NHo5akRIc1FzU1hlRF9OWlhsSVRVRWxVSGJ5RDZWbmxOV3NRR0ZjRmhlY21vVGVEOVMxeG14cjhNS0Q4RzVOeGxDcWhtSkpvdFJZbmlzNlplOE9pLTZvekZzTUJpVUxTTGZlNGhNc253MlZlWHdaa2xtVjByX0xSLXVyZWZaMGdoU29DSFpSOEYzTXRrWkd0dlZ2SE1MZVZVTmhCbVo?oc=5
+· GOOGL Weekly Recap: SkyWater boost and AWS, Microsoft Azure and Google Cloud (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiygFBVV95cUxPTW1XWlhfa2hqV1ZNaEE3ekFIX2gweFVoZHdvenVqY2NYZUNnS2ViTzB1aGpxS0pPRkpHeWhCcGZoMW53X3dFSXlnMUxiVU90RFlNQVBYSEk2UThZMXZ1QWFPNEdZZGRrZEgwVGpIb19wd0hKQmNYSGE1N1hRdjlSVVhwY2RhRm52bnlBdjFGZk5ndTR1Y3U3UXBwZFFXenctZHM2aGdSeVllaFQxbnhOdVQteURJRXFxc2NLd0F5LVBxQi1Qa1BoNlV3?oc=5
 · PETR4 Brasil está “em linha” com Acordo de Paris, diz presidente da Petrobras (Poder360) https://www.poder360.com.br/poder-energia/brasil-esta-em-linha-com-acordo-de-paris-diz-presidente-da-petrobras/
 · UST Howard Marks Sends Stark Signal to Federal Reserve (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6988f20d1094b:0-howard-marks-sends-stark-signal-to-federal-reserve/
 · PETR4 Petrobras anuncia hoje descobertas relevantes de gás a desenvolver na Colômbia (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-anuncia-hoje-descobertas-relevantes-de-gas-a-desenvolver-na-colombia/
@@ -264,13 +297,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/
 · BTC Bitcoin Is at Its Highest Price Since January (Barron's) https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/bitcoin-is-at-its-highest-price-since-january-j7tDItUS0l2LEGqTfuOG?modCode=hp_LEDE_C_LC_1
 · USDBRL Dólar abre em queda com nova pesquisa eleitoral em foco (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-21-setembro-2026-2/
-· USDBRL Ibovespa futuro avança com alívio nos Treasuries, mas cenário eleitoral fica no radar; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-21-9-26-lils/
-· PETR4 Petrobras (PETR4), Tim (TIMS3), Boa Safra (SOJA3) e outros destaques desta segunda-feira (21) (Money Times) https://www.moneytimes.com.br/petrobras-petr4-tim-tims3-correios-e-outros-destaques-desta-segunda-feira-mlem/
-· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-21092026/
-· BRENT Dólar abre em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping (g1) https://g1.globo.com/economia/noticia/2026/09/21/dolar-ibovespa.ghtml
-· JPM JPMorgan Chase & Co. (JPM) Forms $20B QIA Partnership (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:bc08d8eff39f6:0-jpmorgan-chase-co-jpm-forms-20b-qia-partnership/
-· BRENT Ibovespa abre semana com petróleo em queda e pesquisas eleitorais no radar (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-comeca-semana-com-petroleo-acima-de-us-100-e-nova-pesquisa-eleitoral-no-radar/
-· DI Economistas veem mais um corte na Selic e inflação mais alta; confira o Focus desta segunda-feira (21) (Money Times) https://news.google.com/rss/articles/CBMiygFBVV95cUxQV25CZ1R3Q3B6YnB1emdHQlpTSDJfdGoycDVJWjY1OVVRNVhENEptSWxoTmEzM2ZORmxKZlEwZW52Z1V2M3AzamYwS3ZJaGRrc3RQcmNnR1V1bDJocGhXUEQwZGFmQ1FaWG9QZ3ZCeDUxOFVnbTFXTmRSOEtkTDdNOE91VmkzNVBreW1IdjROb2ZIZGx0QTIwTVhWY0ktMGFsbkNseGhVVHQ0SWhoVVdRSmd1djl2NlVodld6SEpiYU9aZXFRTENnVFN3?oc=5
-· VALE3 Projeto com Vale no Pará pode quase dobrar operação da Ero Copper (Valor Economico) https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSnA2SVBKM3lGZDhnQ0toSXJaNDBQRVdsT25zSlp5ZmVPTUlXRV9PSklfV3RzbXhxVkl3aDhRUWdDdUNRLTIxQkEwbzZzRkoyNThXMkhTVkUtZnd5MmVTUFpPRndrejF5Y1FFZXI5QVpFaWJCdUlhakMtT0NRc1BiWlJCUmJtRF8tamd0VktIRDB5b0l4dmFHMXRWTFpqMWpGSGlvbmpERzVDV0dFbElNQnozVEx5N1l1XzduRjhjcy3SAc8BQVVfeXFMTVN0Z2FqUlNNZ2ZiaGZyZTZSaFp5bU8xbERVeDRMN0tGUDB5dV9KTkZyRktvMzhjWURPc2JkaGMycU44YnhEenhBZ0pHSG1keTB1Y2Zzalpzb1JyVHU3ZEMzcHlMYWlMZFUwb2JoWGtTSEVjb2h6WW9Kc3pBdjRaeU1saHZZZ1gwdnZYaFl5RWpmbWZUTkk0T182YlV0N0stNDZ4dDN6S1Y2MExWSEg5SDFOZVQxWFl3UFd4b2pmajFoNFR2cWFpdm9iWmRlWG13?oc=5
-· AMZN Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income (South China Morning Post) https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5
-· GOOGL The Tech Selloff Is Only Strengthening My Belief In Alphabet (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxOaHZIN0lUZkF5aFFsRDJGZ2FFRUI3SXd0X0N4UG11MG5sa05tcmtqY2Z3UVVNWHowNlcySHpiX2ZTTGNRX0FNMEdOZ2N4MkVTV2tlV2NQUW1JM0lUd05FcGNJZDVzRENybmRRcW9jaU9MYWtvS1dOaU13MmpDZC00dmozTXJMdDZ2LWU3VDVDaFR4Rm04U3ZYTGhwSVFSM0I4R0RWTjB3?oc=5
+· (+10 manchetes; lista completa em eventos/noticias.json)
