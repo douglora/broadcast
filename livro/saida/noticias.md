@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 15h14
+NOTÍCIAS E FATOS · 21/09 15h21
 
-Pernas: noticias ok 18 novas (14 consultas; descartadas: 377 veículo fora da lista, 19 sem ativo, 6 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (14 consultas; descartadas: 379 veículo fora da lista, 19 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -91,7 +91,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Exame: Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026; confirmar o número no texto antes de repassar'
 Fonte: Exame 21/09 08h47
-id: E05-DI-d95af5283e-2026-09-21 · status: pendente
+id: E05-DI-d95af5283e-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
 eixos · 21/09 07h02 · fonte única · licença: resumo
@@ -107,7 +107,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no eixos: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$…; confirmar o número no texto antes de repassar'
 Fonte: eixos 21/09 07h02
-id: E05-PETR4-1a0983d1ec-2026-09-21 · status: pendente
+id: E05-PETR4-1a0983d1ec-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
 InfoMoney · 21/09 11h00 · fonte única · licença: resumo
@@ -372,8 +372,12 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (115)
+## OUTRAS NOTÍCIAS (só manchete) (119)
 
+· PETR4 Petrobras quer autossuficiência no diesel e novas reservas de petróleo, diz Magda Chambriard (O Globo) https://oglobo.globo.com/google/amp/economia/negocios/noticia/2026/09/21/petrobras-quer-autossuficiencia-no-diesel-e-novas-reservas-de-petroleo-diz-magda-chambriard.ghtml
+· PETR4 Petrobras (PETR4) e MPF entram em briga pela exploração de petróleo na Foz do Amazonas. Qual é o impasse? (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/petrobras-petr4-e-mpf-entram-em-briga-pela-exploracao-de-petroleo-na-foz-do-amazonas-qual-e-o-impasse-giov/
+· BBDC4 Bradesco (BBDC4) está prestes a receber R$ 10 bilhões para crescer, mas não vai acelerar: “Não queremos voo de galinha”, diz CFO (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/bradesco-bbdc4-esta-prestes-a-receber-r-10-bilhoes-para-crescer-mas-nao-vai-acelerar-nao-queremos-voo-de-galinha-diz-cfo-miql/
+· EQTL3 MAIOR EDIÇÃO DA ROG.e COMEÇA HOJE NA ESTEIRA DA DESCOBERTA DA PETROBRÁS NA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/maior-edicao-da-rog-e-comeca-hoje-na-esteira-da-descoberta-da-petrobras-na-margem-equatorial/
 · DI Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
 · ITUB4 Itaú BBA vê combinação rara de crescimento e retorno ao acionista nesta small cap (Money Times) https://www.moneytimes.com.br/itau-bba-ve-combinacao-rara-de-crescimento-e-retorno-ao-acionista-nesta-small-cap/
 · SAPR4 Serviços da Sanepar impulsionam Paraná ao topo do Ranking de Eficiência dos Estados - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/parana/servicos-da-sanepar-impulsionam-parana-ao-topo-do-ranking-de-eficiencia-dos-estados-1147869
@@ -430,8 +434,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-alibaba-cloud-ai-153200503.html
 · NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f931f16a7094b:0-nvidia-ceo-makes-rare-admission-on-ai-data-centers/
 · MU Why Micron Stock Popped This Morning (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-micron-stock-popped-morning-144645472.html
-· UST Why Warsh and Bessent Are at Odds Over Sky-High Treasury Yields (Barron's) https://www.barrons.com/articles/treasuries-bonds-yields-markets-bessent-warsh-e989d522
-· MU Prediction: Micron Stock Will Go Parabolic After Sept. 30. Here Are 31.6 Trillion Reasons Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-parabolic-sept-135601796.html
-· BRENT Ibovespa avança com petróleo em baixa e pesquisa eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWJ0NHo5akRIc1FzU1hlRF9OWlhsSVRVRWxVSGJ5RDZWbmxOV3NRR0ZjRmhlY21vVGVEOVMxeG14cjhNS0Q4RzVOeGxDcWhtSkpvdFJZbmlzNlplOE9pLTZvekZzTUJpVUxTTGZlNGhNc253MlZlWHdaa2xtVjByX0xSLXVyZWZaMGdoU29DSFpSOEYzTXRrWkd0dlZ2SE1MZVZVTmhCbVo?oc=5
-· GOOGL Weekly Recap: SkyWater boost and AWS, Microsoft Azure and Google Cloud (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiygFBVV95cUxPTW1XWlhfa2hqV1ZNaEE3ekFIX2gweFVoZHdvenVqY2NYZUNnS2ViTzB1aGpxS0pPRkpHeWhCcGZoMW53X3dFSXlnMUxiVU90RFlNQVBYSEk2UThZMXZ1QWFPNEdZZGRrZEgwVGpIb19wd0hKQmNYSGE1N1hRdjlSVVhwY2RhRm52bnlBdjFGZk5ndTR1Y3U3UXBwZFFXenctZHM2aGdSeVllaFQxbnhOdVQteURJRXFxc2NLd0F5LVBxQi1Qa1BoNlV3?oc=5
-· (+55 manchetes; lista completa em eventos/noticias.json)
+· (+59 manchetes; lista completa em eventos/noticias.json)
