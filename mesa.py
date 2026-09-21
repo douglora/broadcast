@@ -888,9 +888,12 @@ def cobertura(tk, pares_tambem=False):
                     continue
                 f2, fr2, _, e2 = avaliar_cobertura(outro, do)
                 t2 = (len(e2["janela"]) or JANELA_TRIMESTRES) - len(e2.get("nao_aplicavel") or [])
+                def _lista(itens):
+                    nomes = itens[:4] + ([f"+{len(itens) - 4}"] if len(itens) > 4 else [])
+                    return ", ".join(nomes)
                 print(f"  {outro:8} {t2 - len(f2) - len(fr2)}/{t2}" +
-                      (f"  faltam {', '.join(f2[:4])}" if f2 else "") +
-                      (f"  vazios {', '.join(x['periodo'] for x in fr2[:4])}" if fr2 else ""))
+                      (f"  faltam {_lista(f2)}" if f2 else "") +
+                      (f"  vazios {_lista([x['periodo'] for x in fr2])}" if fr2 else ""))
                 if f2 or fr2:
                     codigo = 1
     return codigo
