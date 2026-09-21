@@ -713,11 +713,29 @@ def janela_obrigatoria(d=None, n=JANELA_TRIMESTRES, hoje=None):
     return janela
 
 
-def _estado_do_release(r):
-    """('ok'|'CURTO'|'FRACO', motivo) de uma entrada do indice de releases."""
+def _mediana(valores):
+    v = sorted(x for x in valores if x)
+    if not v:
+        return 0
+    meio = len(v) // 2
+    return v[meio] if len(v) % 2 else (v[meio - 1] + v[meio]) / 2
+
+
+def _estado_do_release(r, piso_relativo=0):
+    """('ok'|'CURTO'|'FRACO', motivo) de uma entrada do indice de releases.
+
+    Tamanho nao mede o problema sozinho: as demonstracoes auditadas do XP tem 184 mil caracteres e
+    nao sao release. Por isso o estado tambem olha o veredito de conteudo que o coletor gravou
+    (`classe_sec`), e entrada da rota SEC sem esse veredito conta como SUSPEITA, nunca como ok."""
     chars = r.get("caracteres_total") or 0
     if chars < COBERTURA_MIN_CHARS:
         return "CURTO", f"texto de {chars} caracteres"
+    if piso_relativo and chars < piso_relativo:
+        return "CURTO", f"texto de {chars} caracteres, muito abaixo da mediana do ticker"
+    if str(r.get("classe_sec") or "") == "nao":
+        return "FRACO", "documento da SEC classificado como nao-release"
+    if "SEC" in str(r.get("fonte") or "") and not r.get("classe_sec"):
+        return "SUSPEITO", "documento da SEC gravado antes do classificador de conteudo; nao conferido"
     if (r.get("preferencia") or 1) >= 3:
         return "FRACO", "documento nao tem cara de release de resultado"
     return "ok", ""
@@ -751,6 +769,7 @@ def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
         idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
     janela = janela_obrigatoria(d, n)
     por_periodo = {(r.get("periodo") or "").upper(): r for r in (idx.get("releases") or [])}
+    piso_relativo = (_mediana([r.get("caracteres_total") for r in (idx.get("releases") or [])]) or 0) * 0.25
     oficiais = _periodos_oficiais(d)
     # serie curta e coleta truncada, nao companhia nova: nesse caso nada e dispensado
     mais_antigo = min(oficiais) if (oficiais and len(oficiais) >= 4) else None
@@ -764,7 +783,7 @@ def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
                            "data": "-", "chars": 0, "fonte": "-", "arquivo": None,
                            "assunto": "anterior a primeira demonstracao oficial" if antes_de_existir else "-"})
             continue
-        estado, motivo = _estado_do_release(r)
+        estado, motivo = _estado_do_release(r, piso_relativo)
         if estado != "ok":
             fracos.append({"periodo": periodo, "motivo": motivo,
                            "assunto": str(r.get("assunto") or "")[:60]})
@@ -843,6 +862,18 @@ def cobertura(tk, pares_tambem=False):
         print("  3. se continuar faltando depois da coleta, a lacuna vira a PRIMEIRA FRASE da resposta,")
         print("     com o trimestre ao lado, e nenhum numero daquele trimestre e citado.")
     codigo = 0 if ok == total else 1
+    if codigo == 1:
+        # Saida 2: o coletor com a logica de janela JA rodou neste ativo (ha menos de 24h) e relatou a
+        # mesma lacuna. Repetir a coleta nao vai resolver: ou a fonte nao publica aquele trimestre, ou
+        # o site bloqueia o coletor. A skill para de insistir e declara a lacuna.
+        bloco = d.get("cobertura") or {}
+        idade = _horas_desde(d.get("gerado_em"))
+        mesma = set(bloco.get("faltando") or []) | {f.get("periodo") for f in (bloco.get("fracos") or [])}
+        pedida = set(faltando) | {f["periodo"] for f in fracos}
+        if bloco and idade is not None and idade < 24 and mesma and pedida <= mesma:
+            codigo = 2
+            print("  A coleta mais recente ja tinha essa mesma lacuna: repetir nao resolve.")
+            print("  Declare a lacuna na primeira frase e siga sem citar numero desses trimestres.")
     if pares_tambem:
         grupo = _tickers_do_grupo(tk)
         if grupo:
