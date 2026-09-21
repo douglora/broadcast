@@ -1330,7 +1330,8 @@ def _candidatos_ri(links, pagina=None):
 # que a rota devolver (JSON ou HTML). Tudo com prazo curto e sem excecao: a sondagem so acrescenta.
 RI_SONDA_PRAZO_S = 60             # teto da sondagem por pagina sem candidato (dentro do orcamento do ativo)
 RI_SONDA_MAX_JS = 6               # scripts do tema/plugins lidos a procura de URL de API
-RI_SONDA_MAX_ROTAS = 14           # rotas de listagem tentadas por pagina
+RI_SONDA_MAX_ROTAS = 16           # rotas de listagem tentadas por pagina
+RI_SONDA_DUMP_BYTES = 120_000     # script de integracao (cmsint, file-manager) menor que isso vai esmiucado ao log
 RI_SONDA_MAX_BYTES = 3_000_000    # script maior que isso nao e lido
 RI_SONDA_TIMEOUT_S = 20           # por requisicao da sondagem
 
@@ -1357,6 +1358,17 @@ _RE_JS_PRIORIDADE = re.compile(r"(?i)mz|result|central|document|\bdoc|file|arqui
 _RE_ROTA_INTERESSANTE = re.compile(r"(?i)mz|doc|file|arquiv|result|central|release|publica|download|midia|media")
 _RE_REST_INDICE = re.compile(r"(?i)wp-json/?$|rest_route=/?$")
 _RE_TIPO_TEXTO = re.compile(r"(?i)json|javascript|html|text|xml")
+_RE_ESTATICO = re.compile(r"(?i)\.(?:png|jpe?g|gif|svg|webp|ico|css|woff2?|ttf|eot|otf|mp[34]|avi|mov|zip)(?:[?#]|$)")
+_RE_NS_IRRELEVANTE = re.compile(r"(?i)ithemes-security|simple-history|yoast|wpml|monsterinsights|cptui|otgs|liquidweb|"
+                                r"redirection|wp-site-health|wp-block-editor|wp-abilities|oembed|jetpack|elementor|"
+                                r"contact-form|wpforms|akismet|rankmath|litespeed|wordfence|stock|derivativ|cotac|quote")
+_RE_JS_INTEGRACAO = re.compile(r"(?i)cmsint|file-?manager|mz\.util|mzfile|main\.js")
+_RE_JS_TRECHO = re.compile(r"(?i)ajax\(|fetch\(|getJSON\(|XMLHttpRequest|axios|\burl\s*[:=]|mzfilemanager|origin=|/v2/|"
+                           r"\blang(?:uage)?\b|dataset\.|\.data\(|attr\(\s*['\"]data-|categor|folder|\bdir\b|\bpath\b")
+_RE_JS_LITERAL = re.compile(r"""(["'`])((?:(?!\1)[^\\\n]|\\.){2,200})\1""")
+_RE_INLINE_TRECHO = re.compile(r"(?i)mzfilemanager|cmsint|filemanager|mzfile|mziq\.|\bMZ\b|mz_|central|result")
+_RE_HTML_TRECHO = re.compile(r"""(?i)file-?manager|mz-file|cmsint|mzfile|data-(?:id|category|categoria|dir|path|folder|pasta|list|type|tipo|lang|year|ano|empresa|company)\s*=|class\s*=\s*["'][^"']*(?:result|central|document|arquivo)""")
+_RE_DATA_ATTR_TODOS = re.compile(r"""(?i)\b(data-[a-z0-9_-]+)\s*=\s*["']([^"']{1,300})["']""")
 
 _CHAVES_URL = {"url", "link", "href", "file", "arquivo", "download", "source_url", "guid", "path", "src",
                "document", "documento", "file_url", "fileurl", "url_arquivo", "urlarquivo", "downloadurl",
@@ -1432,7 +1444,54 @@ def _pistas_da_pagina(html, url_base):
         p[chave] = list(dict.fromkeys(p[chave]))
     p["config"] = list(dict.fromkeys(p["config"]))
     p["data"] = list(dict.fromkeys(p["data"]))
+    # Para o log (uma vez por ativo): o que o inline diz sobre o file manager, todos os data-* do
+    # corpo e o HTML em volta do container da lista. E o que permite escrever a rota certa depois.
+    p["trechos_inline"] = []
+    for m in _RE_SCRIPT_INLINE.finditer(html):
+        corpo = m.group(2)
+        for t in _RE_INLINE_TRECHO.finditer(corpo):
+            ini = max(0, t.start() - 200)
+            p["trechos_inline"].append(re.sub(r"\s+", " ", corpo[ini:t.end() + 300]))
+            if len(p["trechos_inline"]) >= 14:
+                break
+        if len(p["trechos_inline"]) >= 14:
+            break
+    corpo_html = html.split("<body", 1)[-1]
+    p["data_todos"] = list(dict.fromkeys((n.lower(), v) for n, v in _RE_DATA_ATTR_TODOS.findall(corpo_html)))[:60]
+    p["trechos_html"] = []
+    for t in _RE_HTML_TRECHO.finditer(corpo_html):
+        ini = max(0, t.start() - 300)
+        p["trechos_html"].append(re.sub(r"\s+", " ", corpo_html[ini:t.end() + 500]))
+        if len(p["trechos_html"]) >= 8:
+            break
     return p
+
+
+def _esmiucar_script(rotulo, nome, texto):
+    """Script de integracao com o file manager (cmsint, file-manager, mz.util, main): literais com
+    cara de caminho e o codigo em volta de cada chamada (ajax/fetch/url/mzfilemanager/origin/v2).
+    So log, limitado: e o que revela a rota e os parametros da listagem."""
+    literais = []
+    for m in _RE_JS_LITERAL.finditer(texto):
+        lit = m.group(2)
+        if ("/" in lit or "?" in lit or "mz" in lit.lower()) and not re.fullmatch(r"[\\/]+", lit):
+            literais.append(lit)
+    literais = list(dict.fromkeys(literais))
+    app.log(f"{rotulo}: script {nome}: {len(literais)} literais com cara de caminho")
+    for lit in literais[:80]:
+        app.log(f"{rotulo}:   literal: {lit[:200]}")
+    trechos, ultimo = [], -1000
+    for m in _RE_JS_TRECHO.finditer(texto):
+        if m.start() - ultimo < 120:
+            continue
+        ultimo = m.start()
+        ini = max(0, m.start() - 160)
+        trechos.append(re.sub(r"\s+", " ", texto[ini:m.end() + 220]))
+        if len(trechos) >= 40:
+            break
+    app.log(f"{rotulo}: script {nome}: {len(trechos)} trechos em volta de chamadas")
+    for t in trechos:
+        app.log(f"{rotulo}:   trecho: {t[:380]}")
 
 
 def _scripts_do_tema(pistas, url_base):
@@ -1576,7 +1635,9 @@ def _rotas_do_indice_rest(obj, url_indice):
         if _RE_ROTA_INTERESSANTE.search(rota) and not re.search(r"(?i)/wp/v2/(?:users|comments|settings|themes|plugins|blocks?)", rota):
             escolhidas.append(raiz + rota + ("&" if "?" in rota else "?") + "per_page=100")
     namespaces = obj.get("namespaces") if isinstance(obj.get("namespaces"), list) else []
-    return list(dict.fromkeys(escolhidas))[:10], [str(n) for n in namespaces]
+    escolhidas = [e for e in dict.fromkeys(escolhidas) if not _RE_NS_IRRELEVANTE.search(e.split("wp-json", 1)[-1])]
+    escolhidas.sort(key=lambda e: 0 if re.search(r"(?i)/mz", e.split("wp-json", 1)[-1]) else 1)
+    return escolhidas[:10], [str(n) for n in namespaces]
 
 
 def _rotas_de_listagem(mapa, pistas, url_base, achados_js):
@@ -1610,10 +1671,18 @@ def _rotas_de_listagem(mapa, pistas, url_base, achados_js):
         acoes = [a for a in pistas["acoes"] if _RE_ROTA_INTERESSANTE.search(a)][:4]
         for a in acoes:
             rotas.append((f"admin-ajax acao {a}", f"{ajax}?action={a}"))
+    # Palpites de listagem do file manager da MZ (por ultimo; so custam uma requisicao cada)
+    mz_id = str(mapa.get("mz_id") or "").lower()
+    if mz_id:
+        for forma in ("l", "d", "dir", "list"):
+            rotas.append(("palpite MZ", f"https://api.mziq.com/mzfilemanager/v2/{forma}/{mz_id}?origin=2"))
     vistas, unicas = set(), []
     for origem, u in rotas:
         u = u.replace("\\/", "/")
-        if u in vistas or not _parece_url(u):
+        if u in vistas or not _parece_url(u) or _RE_ESTATICO.search(u):
+            continue
+        # Raiz de servico sem caminho (https://api.mziq.com/mzfilemanager) nao lista nada
+        if re.fullmatch(r"(?i)https?://[^/]+/[a-z_-]*/?", u) and "wp-json" not in u:
             continue
         vistas.add(u)
         unicas.append((origem, u))
@@ -1647,6 +1716,15 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
             app.log(f"{rotulo}: pista {nome} = {valor[:120]}")
         for u in pistas["iframes"][:6]:
             app.log(f"{rotulo}: pista iframe: {u[:160]}")
+        if not cache.get("__esmiucado__"):
+            cache["__esmiucado__"] = True
+            for t in pistas["trechos_inline"][:14]:
+                app.log(f"{rotulo}: inline em volta do file manager: {t[:500]}")
+            if pistas["data_todos"]:
+                app.log(f"{rotulo}: data-* do corpo ({len(pistas['data_todos'])}): "
+                        + "; ".join(f"{n}={v[:60]}" for n, v in pistas["data_todos"][:60])[:1500])
+            for t in pistas["trechos_html"][:8]:
+                app.log(f"{rotulo}: HTML em volta da lista: {t[:800]}")
         # JSON embutido na propria pagina: nem precisa de rota
         for corpo in pistas["json_embutido"][:5]:
             obj = _decodificar_json(corpo)
@@ -1670,10 +1748,15 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
                 r = app.http_get(s, timeout=RI_SONDA_TIMEOUT_S)
                 urls = []
                 if r and len(r.content or b"") <= RI_SONDA_MAX_BYTES:
-                    urls = _urls_no_script(_html_da_resposta(r))
-                    app.log(f"{rotulo}: script {s.rsplit('/', 1)[-1][:60]} ({len(r.content)} bytes): {len(urls)} URLs com pista")
+                    texto_js = _html_da_resposta(r)
+                    urls = _urls_no_script(texto_js)
+                    nome = s.rsplit('/', 1)[-1][:60]
+                    app.log(f"{rotulo}: script {nome} ({len(r.content)} bytes): {len(urls)} URLs com pista")
                     for u in urls[:15]:
                         app.log(f"{rotulo}:   {u[:200]}")
+                    if _RE_JS_INTEGRACAO.search(nome) and len(r.content) <= RI_SONDA_DUMP_BYTES and not cache.get(("__dump__", s)):
+                        cache[("__dump__", s)] = True
+                        _esmiucar_script(rotulo, nome, texto_js)
                 elif r:
                     app.log(f"{rotulo}: script {s.rsplit('/', 1)[-1][:60]} ignorado ({len(r.content)} bytes, acima do teto)")
                 cache[s] = urls
