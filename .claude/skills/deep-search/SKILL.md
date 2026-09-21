@@ -40,9 +40,10 @@ Escreva a pergunta fixada na primeira linha do rascunho. Ela e o criterio de
 ## Passo 1. Inventario: o que existe, o que falta
 
 ```bash
-python3 mesa.py skills     # as skills da mesa estao instaladas e validas?
+python3 mesa.py skills       # as skills da mesa estao instaladas e validas?
 python3 mesa.py ficha TICKER
-python3 mesa.py frescor TICKER   # TRAVA DE FRESCOR: veredito antes de qualquer texto
+python3 mesa.py frescor TICKER    # TRAVA 1, a ponta: o trimestre mais novo e o de hoje?
+python3 mesa.py cobertura TICKER  # TRAVA 2, o corpo: os 8 da janela estao la, um a um?
 ```
 
 A resposta abre confirmando o que operou: quais skills e quais comandos. O
@@ -51,7 +52,30 @@ Douglas pediu essa confirmacao em toda pesquisa.
 A ficha diz em uma tela se ha demonstracao oficial, quantos releases estao
 guardados, qual o grupo de pares e quais fontes falharam.
 
-### Trava de frescor (obrigatoria, logo depois da ficha)
+### As duas travas (obrigatorias, logo depois da ficha)
+
+Sao duas perguntas diferentes e nenhuma cobre a outra. **Frescor olha a
+ponta**: o release mais novo esta no trimestre que o ITR e o calendario ja
+cobram? **Cobertura olha o corpo**: os 8 trimestres da janela estao no branch,
+um a um, com texto que serve de fonte? Indice com oito linhas passa no frescor
+e reprova na cobertura quando duas delas sao de trimestres velhos ou estao
+ocupadas por documento que nao e release. Foi assim que o deep search da DIRR3
+saiu sem 1T26 e sem 4T25: a trava olhava so a ponta.
+
+`python3 mesa.py cobertura TICKER` monta a janela pelo mesmo calendario do
+frescor (o trimestre vencido e os 7 anteriores), confere cada um contra
+`releases/<TICKER>/index.json` e fecha com `VEREDITO: COMPLETA` (saida 0) ou
+`COBERTURA 6/8, faltam 1T26, 4T25` (saida 1). Trimestre `CURTO` e o que tem
+arquivo abaixo de 4 mil caracteres, ou documento que nao e release de
+resultado (aviso de assembleia, dividendo, recompra): conta como lacuna, nao
+como dado. **Deep search quer dizer a janela inteira.** Sem saida 0, dispare a
+coleta, espere e repita ANTES de escrever qualquer numero.
+
+Antes de comparar contra os pares (Passo 5), rode
+`python3 mesa.py cobertura TICKER --pares`: mediana de grupo com par furado e
+mediana errada.
+
+### Trava de frescor (o detalhe da ponta)
 
 `python3 mesa.py frescor TICKER` e o criterio, nao a intuicao. Ele imprime o
 trimestre do ITR mais novo, o trimestre do release mais novo, a defasagem
@@ -101,9 +125,10 @@ Tres avisos do `frescor` mudam o que fazer ANTES de disparar a coleta:
 Todo leitor (`ficha`, `serie`, `releases`, `release`, `linha`, `decompor`)
 imprime o veredito de frescor na primeira linha: nao ha como pular a trava.
 
-Dispare a coleta tambem quando a ficha imprimir "nao esta no branch",
-"demonstracao oficial: AUSENTE" ou menos de 4 releases (o `frescor` ja cobre
-`gerado_em` velho). Ferramenta `mcp__github__actions_run_trigger`,
+Dispare a coleta tambem quando a ficha imprimir "nao esta no branch" ou
+"demonstracao oficial: AUSENTE", e sempre que `cobertura` nao devolver saida 0
+(o `frescor` ja cobre `gerado_em` velho). O coletor vai atras do trimestre que
+falta mesmo quando ele e mais antigo que o release mais novo. Ferramenta `mcp__github__actions_run_trigger`,
 `method: run_workflow`, `owner: douglora`, `repo: broadcast`,
 `workflow_id: coletar-dados.yml`, `ref: main`,
 `inputs: {"tickers": "TICKER", "pares": "auto"}`. Leva de 3 a 8 minutos;
@@ -111,8 +136,10 @@ espere com `python3 -c "import time; time.sleep(45)"` (o comando `sleep` e
 bloqueado aqui) e confirme por `mcp__github__actions_list`. O detalhe completo
 de espera e cache do CDN esta na secao 2b da skill `analise-ativo`.
 
-Uma pergunta sobre trajetoria (margem, custo, entrega) exige serie: sem 6
-trimestres oficiais e 4 releases, diga isso e investigue o que der, marcado.
+Uma pergunta sobre trajetoria (margem, custo, entrega) exige a janela
+inteira: 8 trimestres de release e 8 de demonstracao oficial. Abaixo disso a
+investigacao continua, mas a primeira linha diz quantos dos 8 foram lidos e
+quais faltam, pelo nome do trimestre.
 
 ## Passo 2. Decomponha a DRE: ache a linha que se mexeu
 
@@ -166,7 +193,11 @@ Depois de achar o termo, abra o release inteiro do trimestre que interessa
 com trimestre e data. Nunca cite uma frase so pelo trecho do grep.
 
 Se nenhum release fala do assunto, isso e um achado, nao um vazio: "a gestao
-nunca tratou disso em 8 trimestres" responde a pergunta.
+nunca tratou disso em 8 trimestres" responde a pergunta. **So vale com a
+cobertura COMPLETA.** Com trimestre faltando, a frase vira "nao fala disso nos
+6 trimestres lidos; 1T26 e 4T25 nao estao no branch": ausencia em janela
+furada nao e silencio da gestao, e falha de coleta, e as duas conclusoes sao
+opostas.
 
 ## Passo 4. Conta reversa: o que o preco de hoje exige
 

@@ -710,6 +710,99 @@ def _ajustar_periodo(item):
     return item
 
 
+# Texto menor que isso nao sustenta analise: o trimestre conta como lacuna, nao como coberto.
+RELEASE_MIN_UTIL = 4000
+
+
+def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None):
+    """Os `n` trimestres que a mesa PRECISA ter, do mais novo para o mais antigo, contados a partir do
+    ultimo trimestre cujo prazo legal de divulgacao venceu (trimestre_vencido). E a mesma janela para
+    qualquer ativo: ela vem do calendario, nao do que o coletor conseguiu achar."""
+    venc = trimestre_vencido(hoje)
+    par = _ano_trimestre(venc) if venc else None
+    if not par:
+        return []
+    ano, tri = par
+    janela = []
+    for _ in range(max(0, n)):
+        janela.append(f"{tri}T{ano % 100:02d}")
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return janela
+
+
+def release_fraco(r):
+    """(fraco, motivo) de um release do indice: existe, mas nao serve de fonte para a mesa."""
+    if not r:
+        return True, "ausente"
+    n = r.get("caracteres_total") or 0
+    if n < RELEASE_MIN_UTIL:
+        return True, f"texto de {n} caracteres"
+    if (r.get("preferencia") or 1) >= 3:
+        return True, "documento nao tem cara de release de resultado"
+    return False, ""
+
+
+def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None):
+    """Bloco `cobertura`: a janela obrigatoria, o que esta coberto, o que falta e o que esta fraco.
+
+    E o criterio que separa 'tenho o dado' de 'tenho a linha no indice'. Um deep search so pode ser
+    escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase."""
+    janela = janela_obrigatoria(n, hoje)
+    por_periodo = {r.get("periodo"): r for r in (historico or []) if r.get("periodo")}
+    completos, faltando, fracos = [], [], []
+    for periodo in janela:
+        r = por_periodo.get(periodo)
+        fraco, motivo = release_fraco(r)
+        if r is None:
+            faltando.append(periodo)
+        elif fraco:
+            fracos.append({"periodo": periodo, "motivo": motivo, "assunto": r.get("assunto")})
+        else:
+            completos.append(periodo)
+    dentro = set(janela)
+    return {"janela": janela, "completos": completos, "faltando": faltando, "fracos": fracos,
+            "fora_da_janela": sorted((p for p in por_periodo if p not in dentro), key=ordem_periodo, reverse=True),
+            "completa": not faltando and not fracos,
+            "nota": ("janela = os trimestres cujo prazo legal de divulgacao ja venceu, do mais novo para o "
+                     f"mais antigo. `faltando` nao tem release guardado; `fracos` tem release guardado que nao "
+                     f"serve de fonte (texto abaixo de {RELEASE_MIN_UTIL} caracteres ou documento que nao e "
+                     "release de resultado). `completa` e falso se qualquer um dos dois tiver item")}
+
+
+def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None):
+    """Trimestres da janela que o coletor ainda precisa ir buscar (faltando + fracos)."""
+    c = cobertura_releases(historico, n, hoje)
+    return c["faltando"] + [f["periodo"] for f in c["fracos"]]
+
+
+def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None):
+    """Funde o historico ja gravado no branch com o que esta coleta achou, um documento por trimestre.
+
+    Sem isso, uma coleta parcial (site fora do ar, orcamento estourado, IPE incompleto) reescreve o
+    indice so com o que achou HOJE e apaga do branch trimestres que ja estavam baixados. A janela
+    obrigatoria tem prioridade no corte: um trimestre de fora nunca expulsa um de dentro."""
+    achados = {}
+    for item in list(anterior or []) + list(novo or []):
+        periodo = item.get("periodo")
+        if not periodo:
+            continue
+        if _melhor_release(item, achados.get(periodo)):
+            achados[periodo] = item
+    todos = sorted(achados.values(), key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                   reverse=True)
+    dentro = set(janela_obrigatoria(n, hoje))
+    escolhidos = [r for r in todos if r.get("periodo") in dentro]
+    for r in todos:
+        if len(escolhidos) >= n:
+            break
+        if r.get("periodo") not in dentro:
+            escolhidos.append(r)
+    return sorted(escolhidos, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                  reverse=True)[:n]
+
+
 def _melhor_release(novo, atual):
     """Mesmo trimestre, dois documentos: origem melhor, depois o entregue mais perto do fechamento
     do trimestre (o release sai primeiro; relatorio anual e owners' day vem meses depois), depois tamanho."""
@@ -804,6 +897,66 @@ def coletar_releases_cvm(documentos, fontes, conhecidos=None,
                             "falha: nao consegui ler nenhum press-release do IPE")
 
 
+# Versao do classificador da rota SEC. Quando ela muda, os descartes gravados no indice sao
+# reconferidos uma vez: a regra antiga reprovava o release de verdade (o arquivo 'nupr1q25_6k.htm' da
+# Nu nao casava em '\bpr\d') e aprovava ata de assembleia pelo rodape juridico.
+CLASSIFICADOR_SEC_V = 2
+
+# O titulo diz que o documento E o resultado do trimestre
+_RE_SEC_RESULTADO = re.compile(
+    r"(?i)reports?\s+(?:its\s+)?(?:record\s+)?(?:first|second|third|fourth|[1-4]q|q[1-4]|full[- ]year|fiscal)"
+    r".{0,80}(?:quarter|results|earnings)"
+    r"|(?:first|second|third|fourth|[1-4]q|q[1-4])[^.\n]{0,60}(?:financial\s+)?results"
+    r"|quarterly results|earnings release|results of operations for|resultados do [1-4][o\u00ba]? trimestre")
+# O titulo diz que o documento e OUTRO fato societario do periodo
+_RE_SEC_SOCIETARIO = re.compile(
+    r"(?i)annual general meeting|extraordinary general meeting|shareholders?.{0,14}meeting"
+    r"|notice of (?:meeting|annual)|voting results|results of [^.\n]{0,30}general meeting"
+    r"|announces?[^.\n]{0,40}dividend|cash dividend|extraordinary dividend|dividend (?:declaration|payment)"
+    r"|share repurchase|buyback|by-?laws|changes? to the board|appointment of|resignation of|election of"
+    r"|divestment|sale of [^.\n]{0,40}(?:stake|business|unit|subsidiary)|acquisition of|merger with"
+    r"|pricing of|offering of|prospectus|credit rating")
+_RE_SEC_DEMONSTRACAO = re.compile(
+    r"(?i)interim (?:condensed )?(?:consolidated )?financial statements|notes to the (?:interim|consolidated) financial"
+    r"|report of independent (?:registered )?public accounting|unaudited condensed consolidated")
+
+
+def classificar_documento_sec(texto, nome="", periodo=None):
+    """('release'|'apresentacao'|'nao', preferencia, motivo) de um documento de 8-K/6-K.
+
+    A rota da SEC nao tinha checagem de CONTEUDO: a nota vinha do nome do arquivo e de frases do
+    cabecalho, e o bonus mais forte disparava em 'This press release contains forward-looking
+    statements', que esta em todo comunicado corporativo. Resultado: ata de assembleia da Nu e aviso
+    de dividendo da StoneCo entraram como release do trimestre, com 2 mil caracteres e nenhum numero
+    de resultado - a 'informacao vazia' que a mesa citava como se fosse a fala da gestao."""
+    cabeca, corpo = texto[:2500], texto[:20000]
+    titulo_ok = bool(_RE_SEC_RESULTADO.search(cabeca))
+    palavras = {m.group(0).lower() for m in _RE_RI_CORPO.finditer(corpo)}
+    numeros = len(_RE_RI_NUMEROS.findall(corpo))        # numeros com unidade de dinheiro
+    densidade = len(re.findall(r"\d[\d.,]{2,}|\d+\s*%", corpo))   # numeros de qualquer tipo
+    if _RE_SEC_SOCIETARIO.search(cabeca) and not titulo_ok:
+        return "nao", None, "comunicado societario (assembleia, dividendo, recompra, M&A), nao release de resultado"
+    if _RE_SEC_DEMONSTRACAO.search(cabeca) and not titulo_ok:
+        return "nao", None, "demonstracoes financeiras intermediarias, nao o release da gestao"
+    # Apresentacao de resultados e fonte legitima da gestao (o historico do INBR32 e feito dela), mas o
+    # slide traz os numeros em tabela, sem a unidade 'milhoes' no texto: aqui a prova e densidade
+    # numerica, nao unidade de dinheiro.
+    if re.search(r"(?i)present|prese|deck|slides", nome or ""):
+        if numeros >= 6 or (densidade >= 40 and (titulo_ok or _trimestres_citados(cabeca))):
+            return "apresentacao", 2, ""
+    # O titulo ja diz que o documento e o resultado do trimestre: basta ter numero, com unidade
+    # (release em texto) ou sem (release que traz a tabela)
+    if titulo_ok and (numeros >= 2 or densidade >= 40):
+        return "release", 0.5, ""
+    # Sem titulo explicito, a prova e o corpo: palavras de resultado e numeros em dinheiro
+    if len(palavras) >= 2 and numeros >= 3:
+        return "release", 0.8, ""
+    if len(palavras) >= 3 and densidade >= 60 and (periodo or _trimestres_citados(cabeca)):
+        return "release", 0.9, ""
+    return "nao", None, (f"sem cara de release de resultado ({len(palavras)} palavra(s) de resultado, "
+                         f"{numeros} numero(s) com unidade, titulo {'bate' if titulo_ok else 'nao bate'})")
+
+
 def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartados):
     """Dentro de um 8-K/6-K, o documento que e o release de resultados. (item, reusado).
 
@@ -815,7 +968,7 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
         # relatorio anual, institucional e owners' day nao sao release de trimestre
         if re.search(r"(?i)annual[-_ ]?report|institutional|owners?[-_ ]?day|20-?f|proxy", n):
             return 0
-        if re.search(r"(?i)release|press|\bpr\d", n):
+        if re.search(r"(?i)release|press|(?<![a-z0-9])pr\d|pr[1-4]q|[1-4]q\d{2}_", n):
             return 4
         if re.search(r"(?i)present|prese|deck|slides", n):
             return 2
@@ -830,8 +983,8 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
         docs = [n for n in docs if nota_nome(n) >= 2] or docs[:1]
     else:
         # 6-K: so o exhibit com cara de release ou apresentacao; o principal apenas quando nao ha exhibit
-        docs = [n for n in docs if nota_nome(n) >= 2][:2] or docs[:1]
-    melhor, melhor_nota = None, 1
+        docs = [n for n in docs if nota_nome(n) >= 2][:3] or docs[:1]
+    melhor, melhor_pref = None, 9
     for nome in docs:
         url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
         if url in conhecidos:
@@ -849,36 +1002,30 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
             else:
                 descartados.append(url)
             continue
-        cabeca = texto[:8000]
-        nota = nota_nome(nome)
-        if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)"
-                     r"|quarterly results|financial results for|results for the (first|second|third|fourth)", cabeca):
-            nota += 2
-        if re.search(r"(?i)(quarter|trimestre|fiscal year|full[- ]year)", cabeca) and re.search(r"(?i)(results|earnings|resultados)", cabeca):
-            nota += 1
-        if re.search(r"(?i)interim (condensed )?(consolidated )?financial statements|notes to the (interim|consolidated) financial", cabeca):
-            nota -= 1
-        if re.search(r"(?i)annual general meeting|extraordinary general meeting|shareholders.? meeting|notice of (meeting|annual)"
-                     r"|appointment of|dividend declaration|share repurchase program", cabeca[:3000]):
-            nota -= 2
-        if nota < 2:
+        classe, preferencia, motivo = classificar_documento_sec(texto, nome)
+        if classe == "nao":
+            app.log(f"SEC {acc}: {nome} descartado: {motivo}")
             descartados.append(url)
             continue
-        if nota <= melhor_nota:
+        if preferencia >= melhor_pref:
             continue
-        melhor_nota = nota
+        melhor_pref = preferencia
         melhor = _montar_release(texto, detalhe, {
             "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
             "data": filing.get("filingDate"), "periodo_reportado": filing.get("reportDate"),
-            "arquivo_sec": nome, "link": url,
-            # preferencia menor = melhor: release de texto (0) antes de apresentacao (2)
-            "preferencia": 4 - nota_nome(nome)})
+            "arquivo_sec": nome, "link": url, "classe_sec": classe,
+            # preferencia menor = melhor: release de texto antes de apresentacao de slides
+            "preferencia": preferencia})
     return melhor, False
 
 
 def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
-                         max_releases=RELEASES_POR_ATIVO, max_filings=60, orcamento_s=RELEASE_ORCAMENTO_S):
-    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre."""
+                         max_releases=RELEASES_POR_ATIVO, max_filings=140, orcamento_s=RELEASE_ORCAMENTO_S):
+    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre.
+
+    A varredura para quando a JANELA obrigatoria esta coberta, nao quando a contagem de filings
+    estoura: quem publica muito 6-K (a Nu tem mais de 40 por ano) empurrava os trimestres antigos
+    para fora dos 60 filings examinados e eles nunca chegavam ao branch."""
     conhecidos = conhecidos or {}
     descartados = descartados if descartados is not None else []
     if not cik:
@@ -895,9 +1042,12 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         fontes["release_ri"] = "falha: submissions ilegivel"
         return []
     achados, baixados, reusados, examinados = {}, 0, 0, 0
+    janela = set(janela_obrigatoria())
     t0, estourou = time.monotonic(), False
     for f in filings:
-        if len(achados) >= max_releases or examinados >= max_filings:
+        if examinados >= max_filings:
+            break
+        if len(achados) >= max_releases and janela <= set(achados):
             break
         form = (f.get("form") or "").upper()
         if form not in ("8-K", "6-K"):
@@ -2052,8 +2202,373 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
     return [], 0, None, resumo
 
 
+# ───────────────── Descobridor da central de resultados (qualquer ticker) ─────────────────
+# ri_fontes.py mapeia 18 companhias a mao. O universo da mesa tem mais de 100 acoes da B3, e com o
+# indice IPE da CVM fora do ar o release so existe no site de RI: sem descobrir a central sozinho, um
+# deep search em qualquer um dos outros ~83 tickers nasce vazio. A regra e da mesa, nao do ativo.
+#
+# A descoberta e barata porque o coletor ja sabe o dominio da companhia: `yahoo.info.website` vem
+# preenchido em 24 dos 25 ativos do branch. Dali saem os candidatos de host, na ordem de acerto medida
+# sobre os 18 ja mapeados (ri.<dominio> acerta 13; os outros 5 caem no rastreio de links). Achada a
+# central, nada mais e preciso: o caminho do file manager da MZ lista a companhia inteira.
+RI_DESCOBERTA_ORCAMENTO_S = 45     # teto de descoberta por ticker
+RI_DESCOBERTA_MAX_GET = 12         # teto de requisicoes por ticker
+RI_DESCOBERTA_TIMEOUT_S = 12       # por requisicao (a pagina da central usa 60)
+RI_RECONFERIR_DIAS = 90            # entrada do cache e reconferida depois disso
+RI_BACKOFF_DIAS = (1, 3, 7, 30)    # ticker sem fonte: espera antes de tentar de novo
+
+_RE_ESQUEMA = re.compile(r"(?i)^[a-z][a-z0-9+.-]*://")
+_RE_HOST = re.compile(r"(?i)^([a-z0-9.-]+\.[a-z]{2,})")
+_RE_LINK_RI = re.compile(r"(?i)relacoes com investidores|relacao com investidores|investor relations|"
+                         r"\brela[cç][oõ]es\b|\binvestidor(?:es)?\b|\bri\b|\bir\b")
+_RE_LINK_CENTRAL = re.compile(r"(?i)central de resultados|results?[ -]cent|divulgacao de resultados|"
+                              r"informacoes financeiras|financial information|resultados trimestrais|"
+                              r"central de downloads|\bresultados\b|\bresults\b|earnings")
+_RE_CAMINHO_RI = re.compile(r"(?i)/(?:ri|ir)(?:/|$)|relacoes-com-investidores|relacao-com-investidores|"
+                            r"investidor|investor-relations|investors?")
+_RE_CAMINHO_CENTRAL = re.compile(r"(?i)central-de-resultados|results-cent|divulgacao-de-resultados|"
+                                 r"informacoes-financeiras|financial-information|resultados-trimestrais|"
+                                 r"central-de-downloads|/resultados|/results|earnings")
+_RE_SETORIAL = re.compile(r"(?i)^(ENGENHARIA|CONSTRUTORA|INCORPORADORA|EMPREENDIMENTOS|INDUSTRIA|INDUSTRIAS|"
+                          r"COMERCIO|DISTRIBUIDORA|ENERGETICA|ENERGIA|TELECOM|TELECOMUNICACOES|LOGISTICA|"
+                          r"TRANSPORTES|ALIMENTOS|SIDERURGICA|MINERACAO|PAPEL|CELULOSE|SEGUROS|SEGURADORA|"
+                          r"FINANCEIRA|INVESTIMENTOS|IMOBILIARIO|IMOBILIARIA|DESENVOLVIMENTO|SERVICOS|"
+                          r"TECNOLOGIA|SAUDE|EDUCACIONAL|EDUCACAO|VAREJO|AGRO|AGROPECUARIA|BRASIL|BRASILEIRA)$")
+
+
+def _get_ri(url, timeout=RI_DESCOBERTA_TIMEOUT_S):
+    """GET da descoberta: (resposta ou None, status, url_final, motivo).
+
+    app.http_get devolve None para tudo que nao e 200 e esconde o redirect. Aqui os tres fatos sao
+    diferentes e cada um decide uma coisa: 404 e host errado, 403 e WAF (o ticker nao pode sumir por
+    isso), e o 301 e justamente o que leva de petrobras.com.br/ri para investidorpetrobras.com.br."""
+    try:
+        r = requests.get(url, headers={"User-Agent": app.UA, "Accept": "text/html,*/*"},
+                         timeout=timeout, allow_redirects=True)
+    except Exception as e:
+        nome, texto = type(e).__name__, str(e)
+        if re.search(r"(?i)nameresolution|gaierror|name or service not known|nodename nor servname|"
+                     r"getaddrinfo|nao resolve", f"{nome} {texto}"):
+            return None, 0, url, "dns"
+        if "Timeout" in nome or "timed out" in texto.lower():
+            return None, 0, url, "timeout"
+        return None, 0, url, f"erro {nome}"
+    final = getattr(r, "url", url) or url
+    if r.status_code != 200:
+        return None, r.status_code, final, f"http {r.status_code}"
+    try:
+        corpo = _html_da_resposta(r)
+    except Exception:
+        corpo = ""
+    if _RE_PAGINA_BLOQUEIO.search(corpo[:3000]):
+        return None, r.status_code, final, "waf"
+    return r, r.status_code, final, "ok"
+
+
+def _dominio_nu(valor):
+    """(host cheio, dominio registravel) de uma URL ou dominio sujo; (None, None) quando nao vira host.
+
+    Aceita o que o mundo real entrega: 'WWW.TENDA.COM', 'HTTP://RI.SIMPAR.COM.BR/PT-BR',
+    'weg.net/institutional/BR/en/', e-mail no lugar de site. Preserva o 'ri.' quando ele ja vem na
+    semente (o Yahoo traz 'https://ri.americanas.io' literalmente)."""
+    v = str(valor or "").strip().lower()
+    if not v:
+        return None, None
+    if "@" in v and "://" not in v:
+        v = v.split("@", 1)[1]
+    v = _RE_ESQUEMA.sub("", v).split("/")[0].split("?")[0].split("#")[0].split(":")[0]
+    if v.startswith("www."):
+        v = v[4:]
+    m = _RE_HOST.match(v)
+    if not m:
+        return None, None
+    host = m.group(1).strip(".")
+    partes = host.split(".")
+    # dominio registravel: 'ri.cury.net' -> 'cury.net'; 'ri.direcional.com.br' -> 'direcional.com.br'
+    if len(partes) >= 3 and partes[-2] in ("com", "net", "org", "gov", "agr", "ind") and len(partes[-1]) == 2:
+        apex = ".".join(partes[-3:])
+    elif len(partes) >= 2:
+        apex = ".".join(partes[-2:])
+    else:
+        apex = host
+    return host, apex
+
+
+def _slugs_do_nome(nomes):
+    """Slugs plausiveis de dominio a partir do nome da companhia, do mais provavel para o menos."""
+    slugs = []
+    for nome in nomes:
+        base = normalizar(nome)
+        if not base:
+            continue
+        com_e = "&" in str(nome) or " E " in f" {base} "
+        base = base.replace("&", " ")
+        if "-" in str(nome):
+            cauda = normalizar(str(nome).rsplit("-", 1)[-1])
+            if cauda:
+                slugs.append(cauda.replace(" ", "").lower())
+        palavras = [p for p in base.split() if p and p not in GENERICAS]
+        uteis = [p for p in palavras if not _RE_SETORIAL.match(p)] or palavras
+        if uteis:
+            slugs.append(uteis[0].lower())
+            slugs.append("".join(uteis).lower())
+            if len(uteis) >= 2:
+                slugs.append("".join(uteis[:2]).lower())
+                if com_e:
+                    # 'PLANO & PLANO' -> planoeplano (o dominio real); sem isso viraria 'planoplano'
+                    slugs.append("e".join(uteis[:2]).lower())
+        if palavras:
+            slugs.append("".join(palavras).lower())
+    vistos, saida = set(), []
+    for s in slugs:
+        s = re.sub(r"[^a-z0-9]", "", s)
+        if 3 <= len(s) <= 30 and s not in vistos:
+            vistos.add(s)
+            saida.append(s)
+    return saida[:6]
+
+
+def _candidatos_host_ri(sementes, nomes, tk):
+    """[(regra, url)] para achar o site de RI, na ordem de acerto medida nos 18 ja mapeados."""
+    cands = []
+
+    def poe(regra, url):
+        if url and (regra, url) not in cands:
+            cands.append((regra, url))
+
+    apexes = []
+    for origem, host, apex in sementes:
+        if not apex:
+            continue
+        if apex not in apexes:
+            apexes.append(apex)
+        if host and host.startswith(("ri.", "ir.", "investidor")):
+            poe(f"semente {origem} ja e de RI", f"https://{host}/")
+    for apex in apexes:
+        poe("ri.<dominio>", f"https://ri.{apex}/")
+    for apex in apexes:
+        marca = apex.split(".")[0]
+        poe("<dominio>/ri", f"https://{apex}/ri")
+        poe("<dominio>/relacoes-com-investidores", f"https://{apex}/relacoes-com-investidores")
+        poe("<dominio>/investidores", f"https://{apex}/investidores")
+        poe("<marca>ri.com.br", f"https://{marca}ri.com.br/")
+        poe("investidor<marca>.com.br", f"https://investidor{marca}.com.br/")
+        poe("investidores.<dominio>", f"https://investidores.{apex}/")
+    for slug in _slugs_do_nome(nomes) + [tk.lower()]:
+        for tld in (".com.br", ".com", ".net"):
+            poe("slug do nome", f"https://ri.{slug}{tld}/")
+    return cands
+
+
+def _identidade_bate(texto, nomes, tk):
+    """A pagina e mesmo da companhia? Evita adotar o RI de outra empresa com nome parecido."""
+    alvo = normalizar(texto[:20000])
+    if tk and tk.upper() in alvo:
+        return True
+    for nome in nomes:
+        palavras = [p for p in normalizar(nome).split() if len(p) >= 5 and p not in GENERICAS
+                    and not _RE_SETORIAL.match(p)]
+        if palavras and all(p in alvo for p in palavras[:2]):
+            return True
+    return False
+
+
+def _parece_central_de_resultados(html, url, nomes, tk):
+    """(True, pista) quando a pagina e a central de resultados da companhia certa."""
+    texto = _html_para_texto(html)
+    if not _identidade_bate(texto, nomes, tk):
+        return False, "pagina nao cita a companhia"
+    fm, _ = _file_manager_da_pagina(html)
+    if fm.get("id") and fm.get("categorias"):
+        cats = ", ".join(c for _, c in fm["categorias"][:4])
+        if re.search(r"(?i)release|resultad|result|earning", cats):
+            return True, f"file manager da MZ declarado na pagina (categorias: {cats[:80]})"
+    cands, _ = _candidatos_ri(_links_da_pagina(html, url), url)
+    com_trimestre = [c for c in cands if c.get("periodo")]
+    if len(com_trimestre) >= 2:
+        return True, f"{len(com_trimestre)} links de release com trimestre no rotulo"
+    if len(cands) >= 3:
+        return True, f"{len(cands)} candidatos a release na pagina"
+    return False, f"{len(cands)} candidato(s) a release, sem file manager"
+
+
+def _links_que_casam(html, url, regex_texto, regex_caminho, limite=6):
+    """Links da pagina cujo rotulo ou caminho falam de RI (ou da central), mais provaveis primeiro."""
+    achados = []
+    for link in _links_da_pagina(html, url):
+        destino, rotulo = link[0], link[1]
+        if not destino or destino.lower().endswith((".pdf", ".zip", ".xlsx", ".jpg", ".png")):
+            continue
+        no_texto = bool(regex_texto.search(normalizar(rotulo))) if rotulo else False
+        no_caminho = bool(regex_caminho.search(destino))
+        if no_texto or no_caminho:
+            achados.append(((0 if (no_texto and no_caminho) else 1), destino, rotulo))
+    achados.sort(key=lambda x: x[0])
+    vistos, saida = set(), []
+    for _, destino, rotulo in achados:
+        chave = _sem_fragmento(destino)
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        saida.append((destino, rotulo))
+    return saida[:limite]
+
+
+def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S):
+    """Acha sozinho a central de resultados de um ticker sem mapa em ri_fontes.py.
+
+    Devolve uma entrada no formato de RI_FONTES (empresa, central, alternativas, plataforma, mz_id,
+    observacao) ou None. Tres fases, todas com teto de tempo e de requisicoes: candidatos de host a
+    partir do dominio que o coletor ja conhece; se o host responder mas nao for a central, rastreia os
+    links de RI e depois os de central; valida a pagina exigindo que ela cite a companhia."""
+    t0, gets = time.monotonic(), 0
+    info = (dados.get("yahoo") or {}).get("info") or {}
+    nomes = [x for x in ((dados.get("cvm") or {}).get("empresa_escolhida"), info.get("longName"),
+                         info.get("shortName"), (dados.get("fundamentus") or {}).get("Empresa")) if x]
+    sementes = []
+    for origem, valor in (("yahoo", info.get("website")),
+                          ("cvm", (dados.get("cvm") or {}).get("pagina_web"))):
+        host, apex = _dominio_nu(valor)
+        if apex:
+            sementes.append((origem, host, apex))
+    if not sementes and not nomes:
+        app.log(f"{tk}: descoberta de RI: sem dominio e sem nome da companhia; nada a tentar")
+        return None
+    candidatos = _candidatos_host_ri(sementes, nomes, tk)
+    app.log(f"{tk}: descoberta de RI: sementes {[f'{o}:{a}' for o, _, a in sementes] or 'nenhuma'}; "
+            f"{len(candidatos)} candidatos de host")
+    fila = list(candidatos)
+    visitadas = set()
+    while fila and gets < RI_DESCOBERTA_MAX_GET and time.monotonic() - t0 < orcamento_s:
+        regra, url = fila.pop(0)
+        if _sem_fragmento(url) in visitadas:
+            continue
+        visitadas.add(_sem_fragmento(url))
+        r, status, final, motivo = _get_ri(url)
+        gets += 1
+        if not r:
+            if motivo != "dns":
+                app.log(f"{tk}: descoberta de RI: {url} -> {motivo}")
+            continue
+        html = _html_da_resposta(r)
+        ok, pista = _parece_central_de_resultados(html, final, nomes, tk)
+        app.log(f"{tk}: descoberta de RI: {url} ({regra}) -> 200 em {final[:90]}; "
+                + (f"E A CENTRAL ({pista})" if ok else f"nao e a central ({pista})"))
+        if ok:
+            fm, _ = _file_manager_da_pagina(html)
+            return {"empresa": nomes[0] if nomes else tk,
+                    "central": final,
+                    "alternativas": [],
+                    "plataforma": "mz" if fm.get("id") else "desconhecida",
+                    "mz_id": fm.get("id"),
+                    "observacao": (f"descoberto pelo coletor em {_hoje()} pela regra '{regra}' "
+                                   f"({pista}); semente {sementes[0][0] if sementes else 'nome'}")}
+        # A pagina respondeu mas nao e a central: use os links dela. Central primeiro (e o alvo);
+        # depois os links de RI, que levam a pagina onde a central costuma estar. Vale para qualquer
+        # pagina que respondeu: o site institucional e a home do RI entram pelo mesmo caminho, e foi
+        # por separar os dois casos que o rastreio parava no primeiro clique.
+        novos = []
+        for destino, rotulo in _links_que_casam(html, final, _RE_LINK_CENTRAL, _RE_CAMINHO_CENTRAL):
+            novos.append((f"link '{rotulo[:30]}' -> central", destino))
+        if len(visitadas) <= 4:      # so nos primeiros passos, para o rastreio nao abrir em leque
+            for destino, rotulo in _links_que_casam(html, final, _RE_LINK_RI, _RE_CAMINHO_RI, limite=3):
+                novos.append((f"link '{rotulo[:30]}' -> RI", destino))
+        novos = [(regra_n, u) for regra_n, u in novos if _sem_fragmento(u) not in visitadas]
+        if novos:
+            app.log(f"{tk}: descoberta de RI: {len(novos)} link(s) da pagina entram na fila: "
+                    f"{', '.join(u[:70] for _, u in novos[:4])}")
+            fila = novos + fila
+    app.log(f"{tk}: descoberta de RI: nao achei a central ({gets} requisicoes, "
+            f"{time.monotonic() - t0:.0f}s); o ticker fica sem fonte de release no site de RI")
+    return None
+
+
+# ───────── cache das fontes descobertas, no branch `dados` ─────────
+RI_DESCOBERTOS = "ri_descobertos.json"
+
+
+def carregar_ri_descobertos(saida):
+    """{ticker: entrada} do cache gravado no branch. O job do Actions so commita no branch `dados`,
+    entao o que o coletor aprende mora la; ri_fontes.py, versionado e conferido a mao, vence sempre."""
+    if not saida:
+        return {}
+    try:
+        d = json.load(open(os.path.join(saida, RI_DESCOBERTOS), encoding="utf-8"))
+    except Exception:
+        return {}
+    return d.get("fontes") or {}
+
+
+def gravar_ri_descobertos(saida, cache):
+    if not saida:
+        return
+    try:
+        gravar_json(os.path.join(saida, RI_DESCOBERTOS),
+                    {"atualizado_em": agora(),
+                     "nota": ("centrais de resultados que o coletor descobriu sozinho, a partir do "
+                              "dominio da companhia. ri_fontes.py (no repositorio) vence este arquivo. "
+                              "`sem_fonte` guarda quando a busca falhou, para nao repetir a cada coleta; "
+                              f"entrada boa e reconferida depois de {RI_RECONFERIR_DIAS} dias"),
+                     "fontes": cache})
+    except Exception as e:
+        app.log(f"nao consegui gravar {RI_DESCOBERTOS}: {type(e).__name__}")
+
+
+def _pode_tentar_de_novo(entrada):
+    """Ticker que ja falhou espera 1, 3, 7 e depois 30 dias antes de nova tentativa."""
+    if not entrada or not entrada.get("sem_fonte"):
+        return True
+    try:
+        quando = datetime.strptime(entrada.get("quando", "")[:10], "%Y-%m-%d")
+    except Exception:
+        return True
+    tentativas = int(entrada.get("tentativas") or 1)
+    espera = RI_BACKOFF_DIAS[min(tentativas, len(RI_BACKOFF_DIAS)) - 1]
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - quando).days >= espera
+
+
+def fonte_ri_do_ativo(tk, dados, fontes, saida, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S):
+    """A entrada de RI que vale para este ticker: ri_fontes.py, senao o cache, senao a descoberta.
+
+    Devolve (mapa ou None, origem). E o ponto unico que faz a regra valer para todo ativo: nenhum
+    ticker fica sem fonte de release so por nao ter sido mapeado a mao."""
+    do_arquivo = _mapa_ri().get(tk)
+    if do_arquivo:
+        return (do_arquivo if isinstance(do_arquivo, dict) else {"central": do_arquivo}), "ri_fontes.py"
+    cache = carregar_ri_descobertos(saida)
+    guardada = cache.get(tk)
+    if guardada and guardada.get("central") and (guardada.get("quando", "") >= _dias_atras(RI_RECONFERIR_DIAS)):
+        return guardada, "cache do branch"
+    if not _pode_tentar_de_novo(guardada):
+        app.log(f"{tk}: descoberta de RI adiada (falhou em {guardada.get('quando')}, "
+                f"{guardada.get('tentativas')} tentativa(s))")
+        fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada pelo backoff"
+        return None, "adiada"
+    achada = None
+    try:
+        achada = descobrir_central_ri(tk, dados, fontes, orcamento_s)
+    except Exception as e:
+        app.log(f"{tk}: descoberta de RI quebrou ({type(e).__name__}: {e}); segue sem fonte de site")
+    if achada:
+        cache[tk] = {**achada, "quando": _hoje(), "tentativas": 0, "sem_fonte": False}
+        gravar_ri_descobertos(saida, cache)
+        app.log(f"{tk}: central de resultados DESCOBERTA: {achada['central']} "
+                f"(plataforma {achada['plataforma']}); gravada em {RI_DESCOBERTOS}")
+        return achada, "descoberta"
+    cache[tk] = {"central": None, "quando": _hoje(), "sem_fonte": True,
+                 "tentativas": int((guardada or {}).get("tentativas") or 0) + 1,
+                 "observacao": "coletor nao achou a central; mapeie a mao em ri_fontes.py se for urgente"}
+    gravar_ri_descobertos(saida, cache)
+    return None, "nao achada"
+
+
+def _dias_atras(dias):
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=dias)).strftime("%Y-%m-%d")
+
+
 def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_releases=RELEASES_POR_ATIVO,
-                        orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None):
+                        orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None,
+                        faltantes=None, mapa=None):
     """Releases de resultado lidos direto da central de resultados do site de RI (ri_fontes.py).
 
     Complementa o IPE da CVM: com `ate_periodo` (o release mais novo que ja existe, ex.: '3T25')
@@ -2066,7 +2581,7 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
     conhecidos = conhecidos or {}
     descartados = descartados if descartados is not None else []
     rotulo = f"{tk}: site de RI"
-    mapa = _mapa_ri().get(tk)
+    mapa = mapa or _mapa_ri().get(tk)
     if not mapa:
         fontes["release_ri_site"] = "sem mapa de RI"
         app.log(f"{rotulo}: sem entrada em ri_fontes.py; fica so o IPE da CVM")
@@ -2146,9 +2661,18 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
     corte = ordem_periodo(ate_periodo) if ate_periodo else None
     # Preferencia do release ja gravado no trimestre do corte; sem `preferencias` ninguem disputa o corte
     pref_corte = (preferencias or {}).get(ate_periodo) if ate_periodo else None
+    # Trimestres que faltam na janela obrigatoria (buraco no meio, ou documento fraco no lugar do
+    # release). Eles disputam SEMPRE, mesmo sendo mais antigos que a cabeca do historico: era este o
+    # motivo de 1T26 e 4T25 nunca chegarem depois que o 2T26 entrou.
+    faltantes = {p for p in (faltantes or ()) if p}
+    if faltantes:
+        app.log(f"{rotulo}: trimestres pedidos por falta na janela: "
+                f"{', '.join(sorted(faltantes, key=ordem_periodo, reverse=True))}")
 
     def disputa(periodo, preferencia):
-        # Mais novo que o corte, ou o proprio trimestre do corte com documento melhor que o gravado
+        # Falta na janela, ou mais novo que o corte, ou o proprio trimestre do corte com documento melhor
+        if periodo in faltantes:
+            return True
         o = ordem_periodo(periodo)
         return o > corte or (o == corte and pref_corte is not None and preferencia < pref_corte)
 
@@ -2260,7 +2784,16 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
             # Este caminho so completa o que falta: um arquivo sem rotulo que se revelou antigo nao
             # disputa com a copia oficial da CVM (trocaria o arquivo no branch a cada coleta)
             if url not in conhecidos:
-                novos_descartes.append((url, f"release antigo ({item['periodo']}), ja coberto ate {ate_periodo}"))
+                # Descarte SO quando o trimestre esta fora da janela obrigatoria: esse e um fato estavel.
+                # Descartar por 'ja coberto ate X' queimava no indice justamente o documento que
+                # preencheria um buraco na proxima coleta, e o descarte se auto-renovava a cada 90 dias.
+                janela = janela_obrigatoria()
+                if janela and ordem_periodo(item["periodo"]) < ordem_periodo(janela[-1]):
+                    novos_descartes.append((url, f"release de {item['periodo']}, fora da janela de "
+                                                 f"{len(janela)} trimestres (ate {janela[-1]})"))
+                else:
+                    app.log(f"{rotulo}: {item['periodo']} ja coberto ate {ate_periodo}; documento nao "
+                            f"descartado (esta na janela e pode servir numa proxima coleta)")
             continue
         if _melhor_release(item, achados.get(item["periodo"])):
             achados[item["periodo"]] = item
@@ -2294,6 +2827,52 @@ def _limite_descarte():
     return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=DESCARTE_VALIDADE_DIAS)).strftime("%Y-%m-%d")
 
 
+def _reavaliar_sec(saida, entrada):
+    """(ok, motivo) de uma entrada da rota SEC ja gravada, relida do .txt do branch, sem rede.
+
+    Documento errado gravado antes nunca era reconferido: a ata de assembleia da Nu voltaria
+    identica em toda coleta futura, inclusive depois de o classificador ser corrigido."""
+    if "SEC" not in str(entrada.get("fonte") or ""):
+        return True, ""
+    arquivo = entrada.get("arquivo")
+    if not arquivo or not saida:
+        return True, ""
+    try:
+        with open(os.path.join(saida, arquivo), encoding="utf-8") as fh:
+            texto = fh.read(60000)
+    except OSError:
+        return True, ""
+    classe, _, motivo = classificar_documento_sec(texto, entrada.get("arquivo_sec") or "", entrada.get("periodo"))
+    return classe != "nao", motivo
+
+
+def releases_do_indice(saida, tk):
+    """Lista de releases ja gravados no branch (sem texto, com `arquivo`), mais novo primeiro.
+
+    E a memoria do ativo entre coletas: o historico de hoje comeca dela, nunca do zero."""
+    if not saida:
+        return []
+    caminho = os.path.join(saida, "releases", tk, "index.json")
+    try:
+        idx = json.load(open(caminho, encoding="utf-8"))
+    except Exception:
+        return []
+    lista = []
+    for e in idx.get("releases", []) or []:
+        if not e.get("periodo"):
+            continue
+        if e.get("arquivo") and not os.path.exists(os.path.join(saida, e["arquivo"])):
+            continue          # entrada sem o texto no disco nao vale como cobertura
+        entrada = {k: v for k, v in e.items() if k != "texto"}
+        ok, motivo = _reavaliar_sec(saida, entrada)
+        if not ok:
+            app.log(f"{tk}: {entrada.get('periodo')} guardado nao passa no classificador de hoje "
+                    f"({motivo}); sai do historico e o trimestre volta a ser procurado")
+            continue
+        lista.append(entrada)
+    return sorted(lista, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""), reverse=True)
+
+
 def carregar_indice_releases(saida, tk):
     """{link: entrada} dos releases ja gravados, para nao baixar o mesmo documento de novo."""
     if not saida:
@@ -2321,9 +2900,18 @@ def carregar_indice_releases(saida, tk):
                         entrada["data"], entrada["data_estimada"] = no_texto, False
                 except OSError:
                     pass
+            ok, motivo = _reavaliar_sec(saida, entrada)
+            if not ok:
+                continue      # nao reusa: sera rebaixado e cai em descartados pelo criterio novo
             conhecidos[e["link"]] = entrada
     # Descarte vale DESCARTE_VALIDADE_DIAS; sem data (indice antigo) ou vencido, o link e conferido de
     # novo: um descarte errado (falha passageira gravada antes desta regra) nao esconde o release para sempre
+    if (idx.get("classificador_sec") or 0) != CLASSIFICADOR_SEC_V and idx.get("descartados"):
+        # O classificador mudou: os descartes da versao anterior sao reconferidos uma vez. Foi a regra
+        # antiga que jogou fora 'nupr1q25_6k.htm' e 'nupr4q24_6k.htm', os releases de verdade da Nu.
+        app.log(f"{tk}: classificador da SEC mudou (v{idx.get('classificador_sec') or 0} -> "
+                f"v{CLASSIFICADOR_SEC_V}); {len(idx.get('descartados') or [])} descarte(s) serao reconferidos")
+        return conhecidos
     datas, limite, vencidos = idx.get("descartados_em") or {}, _limite_descarte(), 0
     for link in idx.get("descartados", []):
         if (datas.get(link) or "") >= limite:
@@ -2349,6 +2937,13 @@ def texto_do_release(saida, entrada):
     return None
 
 
+def _releases_do_index_json(pasta):
+    try:
+        return json.load(open(os.path.join(pasta, "index.json"), encoding="utf-8")).get("releases") or []
+    except Exception:
+        return []
+
+
 def gravar_releases(saida, tk, lista, descartados=None):
     """Grava um .txt por release em releases/<TK>/ mais o index.json. Devolve o indice sem texto."""
     if not saida or not lista:
@@ -2369,12 +2964,20 @@ def gravar_releases(saida, tk, lista, descartados=None):
         elif r.get("arquivo") and r["arquivo"] != rel and os.path.exists(os.path.join(saida, r["arquivo"])):
             os.replace(os.path.join(saida, r["arquivo"]), os.path.join(saida, rel))
         indice.append({**{k: v for k, v in r.items() if k != "texto"}, "arquivo": rel})
-    for antigo in os.listdir(pasta):   # fora da janela dos ultimos N
-        if antigo.endswith(".txt") and antigo not in usados:
-            try:
-                os.remove(os.path.join(pasta, antigo))
-            except OSError:
-                pass
+    # Poda dos .txt orfaos. So quando o indice NAO encolheu: uma coleta parcial (site fora do ar,
+    # orcamento estourado, IPE incompleto) chegava aqui com menos releases e apagava do branch o texto
+    # dos trimestres que ela nao redescobriu. Texto perdido nao volta: o IPE nao guarda ano antigo.
+    anteriores = len(_releases_do_index_json(pasta))
+    if len(indice) >= anteriores:
+        for antigo in os.listdir(pasta):
+            if antigo.endswith(".txt") and antigo not in usados:
+                try:
+                    os.remove(os.path.join(pasta, antigo))
+                except OSError:
+                    pass
+    else:
+        app.log(f"{tk}: indice de releases encolheu de {anteriores} para {len(indice)}; poda adiada para "
+                f"nao apagar texto ja baixado")
     descartados = list(dict.fromkeys(descartados or []))[-80:]
     # Data de cada descarte (carregar_indice_releases vence os antigos): a data anterior fica enquanto
     # vale; link novo ou reconferido nesta coleta ganha a data de hoje
@@ -2390,6 +2993,7 @@ def gravar_releases(saida, tk, lista, descartados=None):
                           "esta no .txt indicado em `arquivo`, relativo a raiz do branch `dados`; "
                           f"`descartados` sao links conferidos que nao sao release, com a data em "
                           f"`descartados_em` (valem {DESCARTE_VALIDADE_DIAS} dias)"),
+                 "classificador_sec": CLASSIFICADOR_SEC_V,
                  "releases": indice,
                  "descartados": descartados, "descartados_em": descartados_em})
     return indice
@@ -3206,7 +3810,7 @@ def _referencia_frescor(dados):
     return max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
 
 
-def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados):
+def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados, saida=None):
     """Quando o release mais novo esta atras da referencia (ITR mais novo ou trimestre vencido no
     calendario, o que for mais novo), busca no site de RI os trimestres que faltam e mescla com o que
     a CVM trouxe, um por trimestre."""
@@ -3219,23 +3823,28 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     # como documento de outro tipo (2): pode nao ser o release. O site e consultado de novo a cada
     # coleta ate um release rotulado do mesmo trimestre tomar o lugar dele (preferencias + ate_periodo).
     fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
-    if historico and atraso <= 0 and not fraco:
-        app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia}; site de RI nao consultado")
+    faltantes = periodos_a_buscar(historico)
+    if historico and atraso <= 0 and not fraco and not faltantes:
+        app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
+                f"site de RI nao consultado")
         return historico
-    if historico and atraso <= 0:
+    if faltantes and atraso <= 0 and not fraco:
+        app.log(f"{tk}: cabeca em dia ({mais_novo}), mas faltam {', '.join(faltantes)} na janela "
+                f"obrigatoria; consultando o site de RI")
+    elif historico and atraso <= 0:
         app.log(f"{tk}: release mais novo {mais_novo} em dia com {referencia}, mas entrou sem rotulo de release "
                 f"(preferencia {historico[0].get('preferencia')}); consultando o site de RI atras de um documento melhor")
     else:
         app.log(f"{tk}: release mais novo {mais_novo or 'nenhum'} esta {atraso} trimestre(s) atras de "
                 f"{referencia} ({origem}); consultando o site de RI")
-    do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo, preferencias=preferencias)
+    mapa, origem = fonte_ri_do_ativo(tk, dados, fontes, saida)
+    if mapa and origem != "ri_fontes.py":
+        app.log(f"{tk}: fonte de RI veio da {origem}: {mapa.get('central')}")
+    do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo,
+                                  preferencias=preferencias, faltantes=faltantes, mapa=mapa)
     if not do_site:
         return historico
-    achados = {}
-    for item in list(historico) + list(do_site):
-        if _melhor_release(item, achados.get(item.get("periodo"))):
-            achados[item.get("periodo")] = item
-    lista = _lista_por_periodo(achados, RELEASES_POR_ATIVO)
+    lista = _mesclar_historico(historico, do_site)
     novos = [r["periodo"] for r in lista if any(r is s for s in do_site)]
     trocados = [p for p in novos if p in preferencias]
     if novos:
@@ -3323,6 +3932,7 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
     historico = []
     if releases:
         descartados = []
+        anterior = releases_do_indice(saida, tk)
         try:
             conhecidos = carregar_indice_releases(saida, tk)
             if eh_simbolo_us(tk):
@@ -3337,15 +3947,28 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
                     # Sem release na CVM: tenta os 6-K do ADR (mesmo documento, em ingles)
                     historico = coletar_releases_sec(_cik_por_ticker(ADR_DE_B3[tk]), fontes, conhecidos, descartados)
                 # Release atras do ITR (IPE do ano corrente fora do ar): completa pelo site de RI
-                historico = _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados)
+                historico = _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos,
+                                                    descartados, saida)
             descartados = [k for k, v in conhecidos.items() if v is None] + descartados
         except Exception as e:
             fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        # O historico do branch entra sempre: coleta que achou menos nao apaga o que ja estava la
+        antes = {r.get("periodo") for r in historico}
+        historico = _mesclar_historico(anterior, historico)
+        vindos_do_branch = [r.get("periodo") for r in historico if r.get("periodo") not in antes]
+        if vindos_do_branch:
+            app.log(f"{tk}: {len(vindos_do_branch)} trimestre(s) vieram do indice ja gravado no branch: "
+                    f"{', '.join(vindos_do_branch)}")
         try:
             dados["releases_historico"] = gravar_releases(saida, tk, historico, descartados) if saida else \
                 [{k: v for k, v in r.items() if k != "texto"} for r in historico]
             if historico:
                 dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
+            dados["cobertura"] = cobertura_releases(historico)
+            c = dados["cobertura"]
+            app.log(f"{tk}: cobertura da janela: {len(c['completos'])}/{len(c['janela'])} trimestres"
+                    + (f"; faltando {', '.join(c['faltando'])}" if c["faltando"] else "")
+                    + (f"; fracos {', '.join(f['periodo'] for f in c['fracos'])}" if c["fracos"] else ""))
         except Exception as e:
             fontes["release_ri"] = f"{fontes.get('release_ri', '')} | falha ao gravar: {type(e).__name__}"[:180]
 
@@ -3430,7 +4053,11 @@ def main():
         return [t.strip().upper().replace(".SA", "") for t in re.split(r"[,\s;]+", texto or "") if t.strip()]
 
     tickers = lista(args.tickers)
-    if not tickers and not args.snapshot:
+    if not tickers:
+        # Sem lista = lista do modelo de TIR, como o workflow documenta. A condicao antiga tinha
+        # 'and not args.snapshot', e como a execucao agendada passa --snapshot sem tickers, TODO cron
+        # resolvia para zero ativos: o retrato geral era gravado e nenhum ativo era atualizado. Foi por
+        # isso que PETR4, VALE3 e WEGE3 ficaram parados no formato antigo mesmo estando na lista padrao.
         tickers = TIR.tickers_cobertos()
     os.makedirs(args.saida, exist_ok=True)
 
