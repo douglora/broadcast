@@ -246,8 +246,9 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
    cards de markdown: a sessao troca `[[LEITURA_DA_MESA]]` em
    `saida/fechamento_cards.md` pela manchete e cola os cards (um por bloco do
    livro, alertas, curvas, noticias, agenda). BLOCO A/BLOCO B saem sob demanda
-   ("tabela", "completo") e `saida/painel.html` vira uma pagina publicada
-   quando ele pedir "painel".
+   ("tabela", "completo"). `saida/painel.html` vira uma pagina publicada no
+   mesmo Artifact em todo turno de manha e de fechamento, com a mesma leitura
+   dos cards; no intradia, so a pedido.
    Push no celular para alerta critico, atencao agrupada e "Fechamento pronto".
 3. **Configs**: `config/livro.yaml` (universo), `config/limiares.yaml` (regras),
    `config/calendario.yaml` (feriados, horarios, macro, resultados).
