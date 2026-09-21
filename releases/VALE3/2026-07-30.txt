@@ -1,0 +1,2647 @@
+[p. 1]
+Rio de Janeiro, 30 de julho de 2026
+Desempenho da Vale 
+no 2T26 
+“Entregamos resultados sólidos na comparação anual em todos os negócios, com o minério de ferro atingindo sua maior produção para 
+um segundo trimestre desde 2018 e o cobre seu melhor segundo trimestre em nove anos. Nossa forte geração de EBITDA e fluxo de 
+caixa demonstra a força e a resiliência da Vale em um ambiente global dinâmico, sustentadas pela alta qualidade dos nossos ativos e 
+por nosso compromisso contínuo com excelência operacional e eficiência. Também avançamos nosso portfólio de projetos de alto 
+retorno e baixa intensidade de capital. O início da operação do Serra Sul +20 fortalecerá ainda mais nossa posição em S11D, nossa 
+operação de minério de ferro mais competitiva. No cobre, o projeto Bacaba avança à frente do cronograma, sendo um dos marcos 
+rumo à nossa ambição de dobrar a produção de cobre até 2035. Amparado pelo sólido desempenho no 1S26, nosso Conselho de 
+Administração aprovou US$ 1,7 bilhão em dividendos e juros sobre capital próprio e estendeu nosso programa de recompra de ações, 
+refletindo nossa convicção no valor de longo prazo da Vale. Estou muito confiante no futuro da Vale, à medida que seguimos operando 
+nossos ativos de forma consistente, investindo em projetos de alto retorno e remunerando nossos acionistas, enquanto também 
+geramos valor para a sociedade.”, comentou Gustavo Pimenta, CEO
+Indicadores financeiros selecionados
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Receita líquida de vendas 10.498 8.804 19 % 9.258 13 % 19.756 16.923 17 %
+Custos e despesas totais (ex-Brumadinho e 
+descaracterização de barragens)¹ (7.969) (6.630) 20 % (6.698) 19 % (14.667) (12.600) 16 %
+Despesas relacionadas a Brumadinho e 
+descaracterização de barragens (101) (38) 166 % (65) 55 % (166) (135) 23 %
+EBIT ajustado 2.765 2.606 6 % 2.985 -7 % 5.750 5.017 15 %
+EBITDA ajustado 3.676 3.386 9 % 3.830 -4 % 7.506 6.501 15 %
+EBITDA Proforma¹ 4.066 3.424 19 % 3.895 4 % 7.961 6.636 20 %
+Margem EBITDA Proforma (%) 39 % 39 % 0 p.p 42 % -3 p.p 40 % 39 % 3 p.p
+Fluxo de caixa livre 1.505 1.008 49 % 813 85 % 2.318 1.512 53 %
+Fluxo caixa livre recorrente 1.505 1.008 49 % 813 85 % 2.318 1.512 53 %
+Lucro líquido atribuível 1.375 2.117 -35 % 1.893 -27 % 3.268 3.511 -7 %
+Lucro líquido atribuível proforma 1.566 2.117 -26 % 1.893 -17 % 3.459 3.588 -4 %
+Dívida líquida² 13.173 12.149 8 % 13.558 -3 % 13.173 12.149 8 %
+Dívida líquida expandida 16.677 17.448 -4 % 17.792 -6 % 16.677 17.448 -4 %
+Investimentos no imobilizado e intangível 1.128 1.053 7 % 1.089 4 % 2.217 2.227 0 %
+¹ Excluindo despesas relacionadas a Brumadinho e itens não recorrentes. No 2T26, foram registrados US$ -289 milhões em itens não recorrentes. 2 Inclui arrendamentos (IFRS 16).
+ 
+Destaque
+• A vendas cresceram em todos os segmentos. As vendas de minério de ferro, cobre e níquel aumentaram 3% (+2 Mt), 10% (+9 kt) e 7% 
+(+3 kt) na comparação anual, respectivamente.
+• Preços de metais básicos subiram t/t; minério de ferro permaneceu resiliente. O preço realizado de finos de minério de ferro 
+atingiu US$ 95,0/t (-1% t/t; +12% a/a). O preço realizado do cobre aumentou para US$ 14.062/t (+7% t/t; +57% a/a), enquanto o preço realizado 
+do níquel atingiu US$ 18.061/t (+6% t/t; +14% a/a).
+• Custos do minério de ferro impactados pelo câmbio e pelos preços do bunker. O custo caixa C1 foi de US$ 24,1/t (+9% a/a), 
+refletindo principalmente a apreciação do real, enquanto os custos all-in alcançaram US$ 61,6/t (+18% a/a), pressionados adicionalmente pelo 
+aumento dos custos de frete. Os guidances de custo caixa C1 e de custos all-in foram revisados para US$ 22,5-23,5/t e US$ 
+58-62/t, respectivamente, refletindo principalmente expectativas de um real mais forte e preços mais elevados do petróleo.
+• Competitividade dos metais básicos avançou de forma significativa. Os custos all-in do cobre melhoraram para US$ -257/t no 
+trimestre, enquanto os custos all-in do níquel recuaram 17% a/a, para US$ 10.340/t, principalmente em função do forte desempenho das 
+receitas de subprodutos. Os guidances de custos all-in foram revisados para US$ 0-500/t no cobre e US$ 10.000-11.500/t no 
+níquel, refletindo principalmente perspectivas mais favoráveis para os preços dos subprodutos e o sólido desempenho operacional, 
+compensado parcialmente por pressões adicionais de custos associadas aos preços dos combustíveis e à expectativa de apreciação do real.
+• EBITDA Proforma de US$ 4,1 bilhões, aumento de 19% a/a (+4% t/t), refletindo preços realizados mais elevados e maiores volumes de 
+vendas, compensando efeitos exógenos de custo.
+• Investimentos (Capex) de US$ 1,1 bilhão, em linha com o guidance para 2026, de US$ 5,4 - 5,7 bilhões.
+• Fluxo de Caixa Livre Recorrente de US$ 1,505 bilhão, US$ 497 milhões superior a/a, impulsionado pelo maior EBITDA Proforma.
+• Dívida líquida expandida de US$ 16,7 bilhões ao final do trimestre, US$ 1,1 bilhão menor t/t, refletindo a geração de caixa.
+• US$ 140 milhões em ações recompradas no trimestre, representando cerca de 8,77 milhões de ações, como parte do programa de 
+recompra anunciado em fevereiro de 2025. Um novo programa de recompra foi aprovado, contemplando até 100 milhões de 
+ações.
+• US$ 1,701 bilhões em dividendos e juros sobre capital próprio serão pagos em setembro, refletindo a política de remuneração aos 
+acionistas aplicada aos resultados do 1S26.
+ -1-
+
+[p. 2]
+Destaques dos 
+Negócios
+Soluções de Minério de Ferro
+• O projeto Serra Sul +20 iniciou operação em julho, com o comissionamento do segundo sistema de correias 
+transportadoras de longa distância. O projeto, que também contempla ampliações da mina e da usina, 
+proporcionará maior flexibilidade operacional e, após o ramp-up completo, deverá adicionar 20 Mtpa de 
+capacidade produtiva ao complexo, em conjunto com o projeto do Britador de Compactos, cuja entrada em 
+operação está prevista para o 4T26.
+Vale Metais Básicos
+• Os guidances de produção para 2026 de cobre e níquel foram revisados para intervalos menores, de 
+360-380 kt e 185-200 kt, respectivamente, refletindo o forte desempenho operacional de ambos os 
+segmentos no primeiro semestre de 2026.
+• As obras de construção do projeto Bacaba seguem avançando à frente do cronograma, com 39% de 
+progresso físico ao final do 2T26. O start-up está agora previsto para o 3T27, vs. 1S28 originalmente.
+• A Vale Canada Limited e os sindicatos United Steelworkers Locals 6200 e 6500 concluíram com sucesso a 
+negociação de um novo acordo coletivo com vigência de cinco anos. O acordo reforça a estabilidade das 
+relações trabalhistas e estabelece uma base sólida para sustentar o desempenho operacional e a geração de 
+valor no longo prazo.
+Outros Desenvolvimentos
+• Um novo programa de recompra de ações foi aprovado pelo Conselho de Administração em julho, limitado a 
+um máximo de 100 milhões de ações ordinárias, ou seus respectivos ADRs, por um período de até 18 meses, 
+com início após o encerramento do programa anterior, planejado para encerrar em agosto de 2026.
+• Como parte da estratégia contínua de gestão de riscos da Vale, as operações de hedge geraram ganho 
+econômico de US$ 99 milhões , equivalente a aproximadamente US$ 1,6/dmt de minério de ferro vendido. 
+Reconhecido no resultado financeiro, esse benefício compensa parte dos preços mais altos de petróleo que 
+pressionaram os custos all-in no trimestre. Incluindo o efeito do hedge de petróleo Brent, os custos all-in de 
+minério de ferro seriam equivalentes a US$ 60,0/dmt no trimestre.
+Inovação & 
+Tecnologia
+Relatório de Pesquisa, Desenvolvimento e Inovação (PD&I)
+• A Vale publicou seu 1º Relatório de Pesquisa, Desenvolvimento e Inovação (PD&I) , consolidando a inovação 
+como um elemento central de sua estratégia para operar de forma mais segura e eficiente, reduzir impactos 
+ambientais e ampliar o papel da mineração na transição energética. Em 2025, a Vale investiu US$ 685 milhões 
+em mais de 350 projetos. Entre os destaques estão mais de 45 aplicações de inteligência artificial, da mina à 
+logística; mais de 90 equipamentos autônomos, que afastam pessoas de atividades de alto risco; e a produção 
+de 26,3 milhões de toneladas de minério de ferro a partir de fontes circulares. O relatório completo está 
+disponível aqui.
+Reparação
+ Brumadinho
+• A execução do Acordo de Reparação Integral de Brumadinho continua avançando , com aproximadamente 
+83% dos compromissos acordados concluídos até o 2T26, em conformidade com os prazos estabelecidos no 
+acordo.
+Mariana
+• O programa de reparação da Samarco segue em evolução , com R$ 82,4 bilhões desembolsados até 30 de 
+junho de 2026. Até 14 de julho de 2026, mais de 642 mil pessoas haviam sido indenizadas, das quais mais de 310 
+mil por meio do Programa Indenizatório Definitivo (PID).
+ -2-
+
+[p. 3]
+Resultado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+EBITDA Proforma
+Receita líquida de vendas 10.498 8.804 19 % 9.258 13 % 19.756 16.923 17 %
+Custo dos produtos vendidos e serviços prestados (7.294) (6.085) 20 % (6.173) 18 % (13.467) (11.536) 17 %
+Despesas com vendas, gerais e administrativas (176) (131) 34 % (152) 16 % (328) (276) 19 %
+Pesquisa e desenvolvimento (185) (159) 16 % (131) 41 % (316) (282) 12 %
+Despesas pré-operacionais e de parada de 
+operação (100) (71) 41 % (49) 104 % (149) (161) -7 %
+Despesas relacionadas a Brumadinho e 
+descaracterização de barragens¹ (101) (38) 166 % (65) 55 % (166) (135) 23 %
+Outras despesas operacionais² (214) (184) 16 % (193) 11 % (407) (345) 18 %
+Despesas não recorrentes (289) — n.a. — n.a. (289) — n.a.
+Streaming 291 168 73 % 257 13 % 548 335 64 %
+EBITDA Coligadas e JV's 335 302 11 % 233 44 % 568 494 15 %
+EBIT ajustado 2.765 2.606 6 % 2.985 -7 % 5.750 5.017 15 %
+Depreciação, amortização e exaustão 911 780 17 % 845 8 % 1.756 1.484 18 %
+EBITDA ajustado 3.676 3.386 9 % 3.830 -4 % 7.506 6.501 15 %
+EBITDA Proforma² 4.066 3.424 19 % 3.895 4 % 7.961 6.636 20 %
+Reconciliação do EBITDA Proforma para Lucro 
+Líquido
+EBITDA Proforma² 4.066 3.424 19 % 3.895 4 % 7.961 6.636 20 %
+Brumadinho e descaracterização de barragens¹ e 
+despesas não recorrentes (390) (38) 926 % (65) 500 % (455) (135) 237 %
+Redução ao valor recuperável e ganhos (perdas) 
+com baixa de ativos não circulantes, líquidos 16 (132) n.a. (120) n.a. (104) (385) -73 %
+Streaming (291) (168) 73 % (257) 13 % (548) (335) 64 %
+EBITDA Coligadas e JV's (335) (302) 11 % (233) 44 % (568) (494) 15 %
+Resultado de participações e outros resultados em 
+coligadas e JV's 100 (68) n.a. 36 178 % 136 (9) n.a.
+Resultado financeiro (473) 167 n.a. 34 n.a. (439) 352 n.a.
+Tributos sobre o lucro (368) 32 n.a. (505) -27 % (873) (615) 42 %
+Depreciação, exaustão e amortização (911) (780) 17 % (845) 8 % (1.756) (1.484) 18 %
+Lucro líquido 1.414 2.135 -34 % 1.940 -27 % 3.354 3.531 -5 %
+Lucro líquido atribuído aos acionistas não 
+controladores 39 18 117 % 47 -17 % 86 20 330 %
+Lucro líquido atribuído aos acionistas da Vale 1.375 2.117 -35 % 1.893 -27 % 3.268 3.511 -7 %
+Itens não recorrentes³ 191 — n.a. — n.a. 191 77 148 %
+Lucro líquido Proforma atribuído aos acionistas 
+da Vale 1.566 2.117 -26 % 1.893 -17 % 3.459 3.588 -4 %
+¹ Mais informações estão disponíveis no Anexo 4: Brumadinho & Descaracterização. 2 Excluindo despesas relacionadas a Brumadinho e itens não recorrentes. 3 Inclui impairments, despesas não 
+recorrentes e efeitos tributários relacionados a esses itens.
+EBITDA Proforma e Lucro líquido Proforma atribuído aos acionistas da Vale – Prática de Divulgação
+Para aumentar a transparência e a comparabilidade, a Vale divulga:
+• EBITDA Proforma – uma métrica que oferece uma visão mais clara do desempenho operacional ao longo dos períodos. Ela 
+é composta por: (i) o EBITDA Ajustado, conforme definido na nota 3 das Demonstrações Financeiras Intermediárias da 
+Vale, sendo uma divulgação obrigatória sob o IFRS 8 – Segmentos Operacionais; excluindo (ii) os efeitos relacionados a 
+Brumadinho e à descaracterização de barragens, e (iii) itens não recorrentes. Essa métrica é divulgada de forma 
+consistente e em conformidade com a Resolução CVM 156. Para a reconciliação do EBITDA Proforma com o Lucro Líquido, 
+consulte a tabela acima.
+• Lucro líquido Proforma atribuído aos acionistas da Vale - uma métrica que oferece uma visão mais clara do desempenho 
+do resultado ao longo dos períodos. Ela exclui itens não recorrentes, como impairments, bem como os respectivos efeitos 
+de imposto de renda.
+Resultado Financeiro
+ -3-
+
+[p. 4]
+EBITDA
+EBITDA Proforma foi de US$ 4,1 bilhões no 2T26, 19% maior a/a , devido principalmente a (i) maiores preços de 
+referência e (ii) maiores volumes de vendas em todos os segmentos de negócios. Esses efeitos foram parcialmente 
+compensados por fatores exógenos, como: (i) o aumento dos custos de frete, principalmente em função dos maiores 
+preços do bunker, e (ii) o impacto negativo da apreciação do BRL. O trimestre também foi impactado por maiores custos 
+e despesas, refletindo o aumento das atividades de concentração de minério de ferro, a suspensão das operações nas 
+unidades de Fábrica e Viga, e a manutenção bienal programada nas instalações downstream de Sudbury.
+EBITDA Proforma 2T26 vs. 2T25 - US$ milhão
+3.424
+1.380 73
+(376) (241) (218)
+24 4.066
+EBITDA 
+Proforma 2T25¹
+Preço Volume Custos e 
+despesas
+Frete Efeito câmbio Outros² EBITDA 
+Proforma 2T26¹
+1 Excluindo despesas de Brumadinho. 2 Incluindo EBITDA de coligadas e JVs e outros.
+Lucro Líquido
+O lucro líquido Proforma totalizou US$ 1,6 bilhão no 2T26, 26% menor a/a , refletindo principalmente (i) uma variação 
+de US$ -798 milhões na marcação a mercado de derivativos, ante uma forte base de comparação no 2T25, e (ii) maiores 
+tributos sobre o lucro, que reflete majoritariamente uma variação de US$ -326 milhões relacionada aos efeitos cambiais 
+sobre prejuízos fiscais em subsidiárias. Esses efeitos foram parcialmente compensados por (i) um aumento de US$ 642 
+milhões no EBITDA Proforma e (ii) o efeito da provisão da Samarco registrada no 2T25, refletido nos resultados de 
+equivalência patrimonial de coligadas e JV's. 
+O lucro líquido atribuído aos acionistas da Vale foi de US$ 1,4 bilhão, 35% menor a/a, explicado principalmente pela 
+queda no lucro líquido Proforma e por uma provisão reconhecida em despesas não recorrentes.
+Lucro Líquido Proforma 2T26 vs. 2T25 – US$ milhão
+2.117
+642 135
+(640)
+(498) (190)
+1.566
+Lucro líquido
+atribuível
+Proforma 2T25
+EBITDA Proforma Coligadas & JVs¹ Resultado
+financeiro²
+Tributos sobre o
+lucro³
+Outros⁴ Lucro líquido
+atribuível
+Proforma 2T26
+1 Incluindo variações de (i) US$ 168 milhões em resultados de equivalência patrimonial e (ii) US$ -33 milhões em EBITDA de coligadas e joint ventures. 2 Incluindo variações de marcação a mercado de (i) US$ 
+-365 milhões em swaps cambiais e de taxa de juros, (ii) US$ -245 milhões em outros derivativos e (iii) US$ 315 milhões em debêntures participativas. 3 Excluindo uma variação de US$ 98 milhões em 
+tributos impactados por itens não recorrentes. 4 Incluindo variações de (i) US$ 148 milhões em ganhos (perdas) na baixa de ativos não circulantes, líquidos, (ii) US$ 21 milhões em lucro líquido atribuível a 
+participações de não controladores, (iii) US$ -63 milhões relacionados a Brumadinho e descaracterização de barragens, (iv) US$ -123 milhões em Streaming e (v) US$ -131 milhões em depreciação, 
+exaustão e amortização.
+Resultado Financeiro
+ -4-
+
+[p. 5]
+Investimentos 
+Total Projetos
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Soluções de Minério de Ferro 819 763 7 % 838 -2 % 1.657 1.670 -1 %
+Vale Base Metals 284 280 1 % 226 26 % 510 536 -5 %
+ Cobre 118 65 82 % 89 33 % 207 122 70 %
+ Níquel 166 215 -23 % 137 21 % 303 414 -27 %
+Energia e outros 25 10 150 % 25 0 % 50 21 138 %
+Total 1.128 1.053 7 % 1.089 4 % 2.217 2.227 0 %
+Projetos de crescimento 
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Soluções de Minério de Ferro 159 204 -22 % 158 1 % 317 486 -35 %
+Vale Base Metals 38 34 12 % 24 58 % 62 64 -3 %
+ Cobre 13 2 n.a. 6 117 % 19 5 280 %
+ Níquel 25 32 -22 % 18 39 % 43 59 -27 %
+Energia e outros — — n.a. — n.a. — — n.a.
+Total 197 238 -17 % 182 8 % 379 550 -31 %
+Os investimentos em projetos de crescimento totalizaram US$ 197 milhões , US$ 41 milhões (- 17%) menores a/a, 
+principalmente em função de menores desembolsos no segmento de Soluções de Minério de Ferro, com o ramp-up do 
+projeto Capanema. 
+O projeto Serra Sul +20 atingiu 88% de conclusão física e teve o start-up em julho de 2026, com o comissionamento da 
+duplicação do transportador de correia de longa distância (TCLD) do S11D. O projeto, que também contempla, expansões 
+na mina e na planta, proporcionará maior flexibilidade operacional e, quando completar o ramp-up, deverá adicionar 20 
+Mtpa de capacidade produtiva ao complexo, juntamente com o projeto de Britador de Compactos, cujo start-up está 
+previsto para o 4T26.
+Projetos de manutenção
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Soluções de Minério de Ferro 660 559 18 % 680 -3 % 1.340 1.184 13 %
+Vale Base Metals 246 246 0 % 202 22 % 448 472 -5 %
+ Cobre 105 63 67 % 83 27 % 188 117 61 %
+ Níquel 141 183 -23 % 119 18 % 260 355 -27 %
+Energia e outros 25 10 150 % 25 0 % 50 21 138 %
+Total 931 815 14 % 907 3 % 1.838 1.677 10 %
+Os investimentos de manutenção totalizaram US$ 931 milhões, US$ 116 milhões ( 14%) maiores a/a, principalmente em 
+função do aumento das atividades de manutenção no segmento de Soluções de Minério de Ferro, com destaque para as 
+usinas de pelotização de Omã, bem como os investimentos para aprimorar sistemas de controle ferroviário. No Cobre, o 
+aumento do CAPEX foi impulsionado principalmente pelos investimentos no desenvolvimento do projeto Bacaba e na 
+ampliação de capacidade de disposição de rejeitos, ambos fundamentais para sustentar a continuidade das operações 
+em Sossego.
+Resultado Financeiro
+ -5-
+
+[p. 6]
+Fluxo de caixa livre 
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+EBITDA proforma¹ 4.066 3.424 19 % 3.895 4 % 7.961 6.636 20 %
+Capital de giro² (162) (8) n.a. (863) -81 % (1.025) (260) 294 %
+Capex (1.128) (1.053) 7 % (1.089) 4 % (2.217) (2.227) 0 %
+Despesas financeiras³ 26 (113) n.a. (74) n.a. (48) (193) -75 %
+Imposto de renda e REFIS (271) (468) -42 % (321) -16 % (592) (1.064) -44 %
+Coligadas & JV's net dividendos recebidos⁴ (300) (241) 24 % (205) 46 % (505) (414) 22 %
+Descaracterização e despesas incorridas de 
+Brumadinho⁵ (220) (167) 32 % (137) 61 % (357) (313) 14 %
+Streaming² (291) (168) 73 % (257) 13 % (548) (335) 64 %
+Outros (215) (198) 9 % (136) 58 % (351) (318) 10 %
+Fluxo de Caixa Livre⁶ 1.505 1.008 49 % 813 85 % 2.318 1.512 53 %
+Brumadinho (263) (204) 29 % (107) 146 % (370) (288) 28 %
+Samarco (717) (990) -28 % (129) n.a. (846) (1.152) -27 %
+Gerenciamento de caixa e outros (60) 1.646 n.a. (2.974) -98 % (3.034) 338 n.a.
+Acréscimo/(Redução) de caixa e 
+equivalentes 465 1.460 -68 % (2.397) n.a. (1.932) 410 n.a.
+¹ Excluindo despesas relacionadas a Brumadinho e itens não recorrentes. ² Inclui US$ -46 milhões relacionados às transações de streaming no 2T26, US$ -66 milhões no 2T25, US$ -34 milhões no 1T26, 
+US$ -80 milhões no 6M26 e US$ -117 no 6M25, refletindo a diferença entre os termos contratuais e os recebimentos em caixa, sujeitos à dinâmica de volume e liquidação. ³ Inclui juros sobre empréstimos 
+e financiamentos, leasing e recebimentos líquidos em caixa com liquidação de derivativos. ⁴ Líquido de US$ 35 milhões em dividendos recebidos no 2T26, US$ 61 milhões no 2T25, US$ 28 milhões no 1T26, 
+US$ 63 milhões no 6M26 e US$ 80 milhões no 6M25. ⁵ Inclui pagamentos relacionados à descaracterização de barragens, despesas incorridas relacionadas a Brumadinho e outros. ⁶ Não houve eventos 
+não recorrentes nos períodos apresentados acima.
+A geração de Fluxo de Caixa Livre atingiu US$ 1,505 bilhão, US$ 497 milhões maior a/a, impulsionado principalmente 
+pelo maior EBITDA Proforma e pelo menor pagamento de tributos. A Vale também continuou a se beneficiar da 
+liquidação financeira de derivativos, que gerou entrada de caixa de US$ 337 milhões no trimestre. Esses efeitos foram 
+parcialmente compensados por uma maior saída de caixa associada ao capital de giro.
+O consumo de capital de giro no trimestre foi influenciado principalmente por (i) aumento das contas a receber, 
+refletindo sobretudo maiores volumes de vendas no fim do período, parcialmente compensados por ajustes negativos 
+de preços provisórios, e (ii) aumento dos estoques, em função principalmente de maiores volumes de níquel não acabado 
+durante paradas programadas para manutenção. Esses efeitos foram em grande parte compensados pelo aumento das 
+contas a pagar, decorrente da ampliação dos prazos de pagamento a fornecedores.
+A Vale Base Metals foi uma importante contribuinte para a geração de caixa no trimestre, entregando fluxo de caixa 
+livre de US$ 545 milhões, sustentado pelo sólido desempenho operacional e pela disciplina de custos, além de um 
+ambiente favorável de preços para cobre e níquel.
+A posição de caixa da Vale foi impactada por US$ 140 milhões em recompras de ações realizadas no trimestre, além da 
+continuidade das iniciativas de gestão de passivos, resultando em um aumento de US$ 465 milhões no saldo de caixa e 
+equivalentes de caixa no trimestre.
+Fluxo de caixa livre 2T26 - US$ milhões 
+4.066
+(162)
+(1.128) (245)
+(300) (220)
+(291) (215)
+1.505
+(980) (60)
+465
+EBITDA 
+Proforma
+Variação de 
+capiral de giro
+Capex Despesas 
+financeiras 
+líquidas e 
+impostos¹
+Coligadas & 
+JV's²
+Despesas 
+incorridas de 
+Brumadinho e 
+descaracterização 
+de barragens³
+Streaming Outros⁴ Fluxo de 
+Caixa Livre
+Brumadinho 
+& Samarco⁵
+Gestão de 
+caixa e 
+outros⁶
+Aumento de 
+caixa e 
+equivalentes 
+de caixa
+¹ Inclui imposto de renda e REFIS (US$ -271 milhões), juros sobre empréstimos e financiamentos (US$ -310 milhões), arrendamentos (US$ -49 milhões), caixa líquido recebido na liquidação de derivativos 
+(US$ 337 milhões) e outras receitas financeiras (US$ 48 milhões). ² Refere-se ao EBITDA de coligadas e joint ventures que foi incluído no EBITDA Proforma, líquido de dividendos recebidos. ³ Inclui 
+despesas incorridas em Brumadinho (US$ -149 milhões) e pagamentos relacionados à descaracterização de barragens (US$ -71 milhões). ⁴ Inclui desembolsos relacionados a contratos de concessão 
+ferroviária (US$ -116 milhões) e outros. ⁵ Pagamentos relacionados a Brumadinho e Samarco. Exclui despesas incorridas. ⁶ Inclui US$ -81 milhões em amortização de dívidas, US$ 161 milhões em novos 
+empréstimos e US$ -140 milhões no programa de recompra de ações.
+Resultado Financeiro
+ -6-
+
+[p. 7]
+Endividamento
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t
+Dívida bruta¹ 18.304 17.146 7 % 18.196 1 %
+Arrendamentos (IFRS 16) 634 699 -9 % 641 -1 %
+Dívida bruta e arrendamentos 18.938 17.845 6 % 18.837 1 %
+Caixa, equivalentes de caixa e aplicações financeiras de curto prazo (5.765) (5.696) 1 % (5.279) 9 %
+Dívida líquida 13.173 12.149 8 % 13.558 -3 %
+Swaps cambiais² (367) (109) 237 % (422) -13 %
+Provisões de Brumadinho 1.774 2.129 -17 % 1.959 -9 %
+Provisões de Samarco 2.097 3.279 -36 % 2.697 -22 %
+Dívida líquida expandida 16.677 17.448 -4 % 17.792 -6 %
+Prazo médio da dívida (anos) 8,1 9,1 -11 % 8,4 -4 %
+Custo da dívida após hedge (% por ano) 5,6 5,5 2 % 5,5 2 %
+Dívida bruta e arrendamentos / LTM EBITDA ajustado (x) 1,2 1,3 -8 % 1,2 0 %
+Dívida líquida / LTM EBITDA ajustado (x) 0,8 0,9 -11 % 0,8 0 %
+LTM EBITDA ajustado/ LTM juros brutos (x) 15,8 15,3 3 % 15,8 0 %
+¹ Não inclui arrendamentos (IFRS 16). ² Inclui swaps de taxa de juros.
+A dívida líquida expandida diminui US$ 1,1 bilhões t/t, totalizando US$ 16,7 bilhões , principalmente em decorrência da 
+sólida geração de fluxo de caixa livre no trimestre. A meta de dívida líquida expandida da Vale permanece dentro da 
+faixa estabelecida, entre US$ 10-20 bilhões.
+A dívida bruta e os arrendamentos atingiram US$ 18,9 bilhões em 30 de junho de 2026, praticamente estável t/t.
+O prazo médio da dívida foi de 8,1 anos no final do 2T26 levemente abaixo dos 8,4 anos no final do 1T26. O custo médio 
+anual da dívida após swaps de câmbio e taxa de juros foi de 5,6%, em linha com os 5,5% no final do 1T26. 
+Resultado Financeiro
+ -7-
+
+[p. 8]
+Desempenho dos Segmentos
+EBITDA Ajustado por área de negócio: 
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Soluções de Minério de Ferro 3.056 2.977 3 % 2.906 5 % 5.962 5.864 2 %
+Finos 2.561 2.396 7 % 2.441 5 % 5.002 4.729 6 %
+Pelotas 416 477 -13 % 479 -13 % 895 1.013 -12 %
+Outros produtos ferrosos e serviços 
+logísticos 79 104 -24 % (14) n.a. 65 122 -47 %
+Vale Metais Básicos¹ 1.289 721 79 % 1.197 8 % 2.486 1.275 95 %
+Cobre 1.026 538 91 % 949 8 % 1.975 1.084 82 %
+Níquel 294 201 46 % 277 6 % 571 242 136 %
+Outros (31) (18) 72 % (29) 7 % (60) (51) 18 %
+Itens não alocados² (279) (274) 2 % (208) 34 % (487) (503) -3 %
+EBITDA Proforma 4.066 3.424 19 % 3.895 4 % 7.961 6.636 20 %
+Brumadinho e descaracterização³ (101) (38) 166 % (65) 55 % (166) (135) 23 %
+Despesas não recorrentes (289) — n.a. — n.a. (289) — n.a.
+EBITDA Ajustado 3.676 3.386 9 % 3.830 -4 % 7.506 6.501 15 %
+1 Inclui US$ 39 milhões em despesas não alocadas da Vale Base Metals Ltd ("VBM") no 2T26. Considerando essas despesas, o EBITDA da VBM foi de US$ 1,3 bilhão no 2T26. 2 Para mais informações sobre 
+essas despesas, consulte o Anexo 4: Brumadinho & Descaracterização.
+Informações por segmento 2T26
+US$ milhões
+Receita
+Líquida Custos¹ SG&A e
+outras¹ P&D¹
+Pré
+operacionais
+e de parada¹
+EBITDA
+Coligadas
+e JV's
+Streaming EBITDA
+Ajustado
+Soluções de Minério de Ferro 7.888 (4.923) (50) (86) (62) 289 — 3.056 
+ Finos 6.641 (4.088) (31) (82) (29) 150 — 2.561 
+ Pelotas 1.062 (680) 2 — (27) 59 — 416 
+Outros produtos ferrosos e serviços 
+logísticos 185 (155) (21) (4) (6) 80 — 79 
+Vale Base Metals 2.610 (1.533) (86) (41) — 48 291 1.289 
+ Cobre² 1.555 (479) (30) (20) — — — 1.026 
+ Níquel³ 1.241 (946) (24) (20) — 43 — 294 
+ Outros⁴ (186) (108) (32) (1) — 5 291 (31) 
+Brumadinho e descaracterização⁵ — — (101) — — — — (101) 
+Despesas não recorrentes — — (289) — — — — (289) 
+Itens não alocados⁶ — — (238) (40) 1 (2) — (279) 
+Total 10.498 (6.456) (764) (167) (61) 335 291 3.676 
+¹ Excluindo depreciação, exaustão e amortização. ² Incluindo subprodutos das operações de cobre. ³ Incluindo cobre e subprodutos das operações de níquel. ⁴ A partir do 3T25, as transações de 
+streaming a preços de mercado, anteriormente reportadas em SG&A e outros, passarão a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados. ⁵ Para mais 
+informações sobre essas despesas, consulte o Anexo 4: Brumadinho & Descaracterização. ⁶ Incluindo US$ 39 milhões em despesas não alocadas da Vale Base Metals Ltd ("VBM") no 2T26. Considerando 
+essas despesas, o EBITDA da VBM foi de US$ 1,3 bilhão no 2T26.
+Desempenho dos Segmentos
+ -8-
+
+[p. 9]
+Soluções de Minério de Ferro
+Destaques
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Preço médio (US$/t)
+Minério de ferro - preço 61% Fe 105,0 94,5 11 % 103,6 1 % 104,3 97,5 6 %
+Preço realizado de finos de minério de ferro, 
+CFR/FOB 95,0 85,1 12 % 95,8 -1 % 95,3 87,7 8 %
+Preço realizado de pelotas de minério de 
+ferro, CFR/FOB 137,0 134,1 2 % 133,8 2 % 135,4 137,5 -2 %
+Volume vendido (‘000 toneladas métricas) 
+Finos 69.946 67.678 3 % 59.436 18 % 129.381 124.441 4 %
+Pelotas 7.748 7.483 4 % 7.699 1 % 15.447 14.976 3 %
+ROM 2.053 2.185 -6 % 1.578 30 % 3.631 4.071 -11 %
+Total - Minério de Ferro 79.747 77.346 3 % 68.713 16 % 148.460 143.487 3 %
+Indicadores financeiros (US$ milhões)
+Receita líquida 7.888 6.963 13 % 6.875 15 % 14.763 13.338 11 %
+Custos¹ (4.923) (4.104) 20 % (3.997) 23 % (8.920) (7.610) 17 %
+Despesas com vendas e outras despesas¹ (50) (35) 43 % (72) -31 % (122) (60) 103 %
+Despesas com P&D (86) (84) 2 % (66) 30 % (152) (138) 10 %
+Despesas pré-operacional e de parada¹ (62) (48) 29 % (31) 100 % (93) (117) -21 %
+EBITDA Coligadas e JV's 289 285 1 % 197 47 % 486 451 8 %
+EBITDA Ajustado 3.056 2.977 3 % 2.906 5 % 5.962 5.864 2 %
+Depreciação e amortização (667) (533) 25 % (558) 20 % (1.225) (1.015) 21 %
+EBIT Ajustado 2.389 2.444 -2 % 2.348 2 % 4.737 4.849 -2 %
+1 Excluindo depreciação e amortização.
+EBITDA Ajustado por segmento
+US$ milhão 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Finos 2.561 2.396 7 % 2.441 5 % 5.002 4.729 6 %
+Pelotas 416 477 -13 % 479 -13 % 895 1.013 -12 %
+Outros minerais ferrosos e serviços 
+logísticos 79 104 -24 % (14) n.a. 65 122 -47 %
+EBITDA Ajustado 3.056 2.977 3 % 2.906 5 % 5.962 5.864 2 %
+O EBITDA de Soluções de Minério de Ferro foi US$ 3,1 bilhões, 3% maior a/a, refletindo principalmente os maiores preços 
+realizados e o aumento dos volumes de vendas, parcialmente compensados por maiores custos e despesas, maiores custos de 
+frete e pelo efeito negativo da apreciação do real.
+O EBITDA de Finos de minério de ferro aumentou em 7% a/a, totalizando US$ 2,6 bilhões, explicado principalmente por 
+maiores preços realizados (US$ 679 milhões) e maiores volumes de vendas (US$ 68 milhões). Esses efeitos foram parcialmente 
+compensados por (i) maiores custos e despesas (US$ -258 milhões), principalmente relacionados ao aumento das atividades de 
+concentração e à paralisação das operações, incluindo Fábrica e Viga; (ii) maiores custos de frete (US$ -231 milhões), 
+principalmente devido ao aumento dos custos com bunker; e (iii) o efeito negativo da apreciação do real (US$ -114 milhões).
+O EBITDA de Pelotas de minério de ferro diminuiu em 13% a/a, totalizando US$ 416 milhões, devido aos maiores custos e 
+despesas operacionais relacionados a restrições operacionais, bem como por maiores custos de serviços em Omã decorrentes 
+da antecipação da parada de manutenção programada (US$ -46 milhões), e pelo impacto negativo da apreciação do real (US$ 
+-40 milhões). Esses efeitos foram parcialmente compensados por maiores preços realizados (US$ 16 milhões) e pelo aumento 
+dos volumes de vendas (US$ 15 milhões).
+Variação do EBITDA – US$ milhões (2T26 vs. 2T25)
+2.977
+690 85
+(273) (241) (159) (23)
+3.056
+2T25 Preço Volume Custos e 
+despesas
+Frete Efeito câmbio Outros¹ 2T26
+1 Incluindo EBITDA de coligadas e JVs e outros.
+ -9-
+
+[p. 10]
+Finos de minério de ferro
+Mix de produtos
+mil toneladas métricas 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Volume vendido
+Finos¹ 69.946 67.678 3 % 59.436 18 % 129.381 124.441 4 %
+IOCJ 4.271 6.397 -33 % 3.833 11 % 8.104 10.993 -26 %
+BRBF 30.295 32.148 -6 % 30.175 0 % 60.470 67.962 -11 %
+Mid-Grade Carajás 13.014 10.402 25 % 7.662 70 % 20.676 13.590 52 %
+Pellet feed - China (PFC)² 11.863 5.518 115 % 9.069 31 % 20.932 9.446 122 %
+Granulado 2.244 1.717 31 % 2.111 6 % 4.355 3.396 28 %
+Produtos alta sílica 1.038 3.886 -73 % 681 52 % 1.719 5.843 -71 %
+Outros finos (60-62% Fe) 7.221 7.610 -5 % 5.905 22 % 13.126 13.210 -1 %
+1 Inclui compras de terceiros. 2 Produtos concentrados em instalações chinesas.
+Receita
+O preço médio realizado de finos de minério de ferro foi US$ 95,0/t, US$ 0,8/t menor t/t, refletindo principalmente o 
+impacto negativo dos mecanismos de precificação (US$ 1,3/t menor t/t), afetados pelos ajustes de preços provisórios, e 
+os menores prêmios de finos de minério de ferro (US$ 1,1/t menor t/t), parcialmente compensados pelos maiores preços 
+de referência (US$ 1,4/t maior t/t).
+Realização de preço de finos de minério de ferro – US$/t (2T26)
+105,0 3,0 0,0
+(0,4)
+0,1
+-1,8
+106,0
+(2,5) (8,5)
+95,0
+Preço 
+referência 
+61% Fe 
+médio no 
+2T26 (dmt)
+Qualidade e 
+prêmios¹
+Preços 
+provisórios 
+no trimestre 
+anterior²
+Preços 
+defasados
+Preços 
+correntes
+Preços 
+provisórios 
+no trimestre 
+atual³
+Preço CFR 
+referência 
+(dmt)
+Ajuste de 
+vendas FOB⁴
+Umidade Preço da 
+Vale 
+realizado 
+(wmt)⁵
+Impacto dos ajustes no sistema de preços
+1 Inclui qualidade (US$ 2,8/t) e prêmios/descontos e condições comerciais (US$ 0,2/t). 2 Ajuste em função dos preços provisórios registrados no 1T26 em US$ 106,1/t. 3 Diferença entre a média ponderada 
+dos preços fixados provisoriamente no final do 2T26 em US$ 99,0/t com base nas curvas futuras e US$ 105,0/t do preço de referência média do 2T26. 4 Inclui mecanismos de precificação de frete no 
+reconhecimento de vendas CFR. 5 Preço da Vale líquido de impostos. Períodos anteriores foram reapresentados.
+Prêmio all-in do minério de ferro
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Prêmio all-in - Total¹ 4,4 4,1 7 % 6,2 -29 % 5,2 4,4 18 %
+Qualidade e prêmio de finos minério de ferro 3,0 1,9 58 % 4,1 -27 % 3,5 1,8 94 %
+Contribuição ponderada média do negócio de pelotas² 1,4 2,2 -36 % 2,1 -33 % 1,7 2,6 -35 %
+1 A partir do 1T26, o prêmio all-in passará a ser divulgado em relação ao índice de preço de 61%Fe. Os períodos anteriores foram reapresentados. 2 Contribuição média ponderada.
+O prêmio all-in, ajustado para o índice de preço 61% Fe, totalizou US$ 4,4/t, US$ 1,8/t menor t/t, principalmente 
+impulsionado pelos menores prêmios de finos de minério de ferro (US$ 1,1/t menor t/t). O menor prêmio refletiu a maior 
+disponibilidade esperada de minério mid-grade no Sistema Norte, com maior participação dos produtos Mid-Grade 
+Carajás e dos concentrados ( Pellet Feed - China) no mix de vendas. Dito isso, os prêmios de mercado para produtos de 
+baixo teor de alumina permaneceram fortes, sustentando uma sólida realização de preços. Adicionalmente, a 
+contribuição do negócio de pelotas diminuiu em US$ 0,7/t t/t, principalmente devido à menor participação das vendas 
+de pelotas no mix total de vendas.
+Desempenho dos Segmentos
+ -10-
+
+[p. 11]
+Custos e despesas
+Custos all-in de finos de minério de ferro e pelotas (break-even de caixa entregue na China)
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Custo caixa C1, ex-custo de compra de terceiros 24,1 22,2 9 % 23,6 2 % 23,9 21,7 10 %
+Ajustes de custo de compras de terceiros 3,6 4,1 -12 % 4,6 -22 % 4,0 3,9 3 %
+Custo de frete¹ 22,0 18,3 20 % 18,1 22 % 20,2 18,4 10 %
+Custo de distribuição 5,3 3,5 51 % 4,9 8 % 5,1 3,7 38 %
+Despesas & royalties² 7,8 5,6 39 % 7,6 3 % 7,7 5,8 33 %
+EBITDA de coligadas e joint ventures (2,1) (1,9) 11 % (2,0) 5 % (2,1) (1,8) 17 %
+Ajuste de umidade 5,3 4,6 15 % 4,9 8 % 5,1 4,6 11 %
+Ajuste de qualidade de finos de minério de ferro³ (3,0) (1,9) 58 % (4,1) -27 % (3,5) (1,8) 94 %
+Custo all-in de finos de minério de ferro (US$/dmt) 63,0 54,6 15 % 57,6 9 % 60,5 54,5 11 %
+Contribuição do negócio de pelotas (1,4) (2,2) -36 % (2,1) -33 % (1,7) (2,6) -35 %
+Custo all-in de finos e pelotas (US$/dmt) 61,6 52,4 18 % 55,4 11 % 58,8 51,9 13 %
+Investimentos de manutenção (finos e pelotas) 8,5 7,4 15 % 10,1 -16 % 9,2 8,4 10 %
+Custo all-in de finos e pelotas⁴ (US$/dmt) 70,1 59,7 17 % 65,5 7 % 68,0 60,2 13 %
+1 Ex- hedge de bunker. 2 Inclui custos e despesas com paradas. 3 A partir do 1T26, o prêmio a l l - i n passou a ser divulgado em relação ao índice de preço de 61% Fe. Os períodos anteriores foram reapresentados. 4 Inclui 
+investimentos correntes.
+Custo de produção C1 de finos de minério de ferro
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Custo de produção C1, ex-custos de compras de terceiros 24,1 21,6 12 % 25,3 -5 % 24,4 22,3 11 %
+Custo caixa C1, ex-custos de compras de terceiros 24,1 22,2 9 % 23,6 2 % 23,9 21,7 10 %
+O custo caixa C1, excluindo compras de terceiros, atingiu US$ 24,1/t no 2T26, 9% maior a/a. Esse aumento reflete 
+principalmente (i) o impacto negativo da apreciação do real, (ii) o impacto negativo dos efeitos de giro de estoques, decorrentes 
+do consumo de estoques do trimestre anterior a custos mais elevados, e (iii) custos relacionados à desconsolidação da Aliança 
+Energia e (iv) o aumento dos preços do diesel no mercado doméstico brasileiro. Esses efeitos foram parcialmente compensados 
+por (i) uma melhor diluição dos custos fixos e um mix de produção mais favorável, impulsionado pelos maiores volumes 
+produzidos em S11D, e (ii) os benefícios contínuos do programa de eficiência, contribuindo para mitigar os efeitos externos.
+Custo caixa C1, excluindo compra de terceiros - US$/t, 2T26 vs. 2T25
+22,2 1,5 0,4 0,4 0,3
+(0,3) (0,2) (0,2)
+24,1
+2T25 Efeito
+câmbio
+Giro do 
+estoque
+Desconsolidação 
+Aliança Energia
+Diesel Mix e diluição 
+de custo fixo
+Iniciativas de 
+eficiência¹
+Outros² 2T26
+1 Incluindo manutenção, materiais, pessoal e serviços. 2 Incluindo demurrage e outros.
+O guidance do custo caixa C1 para 2026, excluindo compras de terceiros, foi revisado para US$ 22,5-23,5/t (US$ 20,0-21,5/t 
+anteriormente), refletindo principalmente (i) uma premissa atualizada para a taxa de câmbio média USD/BRL de 5,13 em 2026, 
+em comparação com 5,60 anteriormente (US$ +1,2/t), (ii) premissas de preços de diesel mais elevados (US$ +0,2/t), e (iii) efeitos 
+de giro de estoques (US$ +0,5/t), refletindo a diferença entre o custo médio dos estoques no início de 2026 e a base considerada 
+no guidance, e (iv) outros efeitos de custos.
+O custo médio de frete marítimo da Vale foi de US$ 22,0/t no 2T26, US$ 3,9/t acima t/t, principalmente devido aos maiores 
+custos com bunker (US$ 2,3/t maior t/t) e ao aumento da volatilidade nas taxas de frete spot (US$ 0,8/t maior t/t). O 
+desempenho da Vale ficou US$ 10,6/t abaixo da rota C3 Brasil-China, destacando a efetividade da estratégia de afretamento de 
+longo prazo, que contribui para mitigar tanto custos quanto volatilidade. As vendas CFR totalizaram 62,5 Mt no 2T26, 
+representando 89% das vendas totais de finos de minério de ferro.
+Desempenho dos Segmentos
+ -11-
+
+[p. 12]
+O guidance do custo all-in do minério de ferro foi revisado para US$ 58-62/t (US$ 52-56/t anteriormente), refletindo 
+principalmente mudanças nas premissas externas, incluindo (i) preços mais elevados do petróleo e seus derivados, 
+considerando um preço médio do Brent de US$ 86/bbl em 2026, em comparação com US$ 68/bbl anteriormente (US$ 
++3,3/t), (ii) taxa de câmbio média USD/BRL de 5,13, ante 5,60 anteriormente (US$ +1,9/t), e (iii) a revisão das premissas de 
+preços e prêmios (US$ -0,4/t). O guidance revisado também incorpora o impacto dos custos associados a paradas operacionais 
+(US$ +0.6/t), e outros efeitos.
+Como parte da estratégia contínua de gestão de riscos da Vale, aproximadamente 70% do consumo previsto de bunker 
+para 2026 foi protegido por meio de contratos de Brent contratados em 2025. Esses hedges foram estruturados por meio 
+de instrumentos de zero-cost collar, com o objetivo de mitigar a exposição a movimentos adversos de preços e riscos de 
+cauda. Considerando o efeito econômico desses contratos no 2T26, o benefício em uma base de custo all-in por 
+tonelada de minério de ferro, foi de aproximadamente US$ 1,6/dmt. Ajustado por esse efeito, o custo all-in da Vale no 
+2T26 seria equivalente a US$ 60,0/dmt, em comparação ao valor reportado de US$ 61,6/dmt, ajudando a compensar o 
+impacto dos maiores custos de frete.
+Pelotas
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Receita líquida 1.062 1.004 6 % 1.030 3 % 2.092 2.059 2 %
+Custo caixa¹ (680) (577) 18 % (587) 16 % (1.267) (1.136) 12 %
+Despesas pré-operacionais e de parada de operação (27) (4) n.a. (3) n.a. (30) (7) 329 %
+Despesas² 2 (1) n.a. (1) n.a. 1 2 -50 %
+EBITDA - plantas de pelotização arrendadas 59 55 7 % 40 48 % 99 95 4 %
+EBITDA 416 477 -13 % 479 -13 % 895 1.013 -12 %
+Preço realizado de pelotas de minério de ferro (CFR/
+FOB, US$/t) 137,0 134,1 2 % 133,8 2 % 135,4 137,5 -2 %
+Custo caixa¹ por tonelada (US$/t) 87,8 77,1 14 % 76,2 15 % 82,0 75,9 8 %
+EBITDA por tonelada (US$/t) 53,7 63,7 -16 % 62,2 -14 % 57,9 67,6 -14 %
+1 Inclui custos de minério de ferro, arrendamento, frete, overhead, energia e outros. 2 Inclui vendas, P&D e outros.
+As vendas de pelotas totalizaram 7,7 Mt, 4% maior y/y e 1% maior t/t, refletindo principalmente a venda de estoques 
+formados nos períodos anteriores.
+O preço médio realizado de pelotas foi US$ 137,0/t, US$ 3,2/t maior t/t , principalmente devido a maiores prêmios 
+contratuais trimestrais de pelotas.
+O custo caixa por tonelada de pelotas foi 14% maior a/a, totalizando US$ 87,8/t, principalmente devido à combinação 
+do impacto negativo da apreciação do BRL e dos maiores custos unitários nas operações de Omã, impulsionados por 
+maiores custos de serviços no período. As vendas FOB representaram 62% das vendas totais de pelotas no trimestre.
+Desempenho dos Segmentos
+ -12-
+
+[p. 13]
+Vale Metais Básicos
+Destaques
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Receita líquida 2.610 1.841 42 % 2.383 10 % 4.993 3.585 39 %
+Custos¹ (1.533) (1.220) 26 % (1.376) 11 % (2.909) (2.504) 16 %
+Vendas e outras despesas¹ ² (86) (39) 121 % (74) 16 % (160) (104) 54 %
+Despesas com P&D (41) (36) 14 % (27) 52 % (68) (68) 0 %
+Despesas pré-operacionais e de parada¹ — (10) n.a. — n.a. — (12) n.a.
+EBITDA de coligadas e JV's 48 17 182 % 34 41 % 82 43 91 %
+Streaming² 291 168 73 % 257 13 % 548 335 64 %
+EBITDA Ajustado 1.289 721 79 % 1.197 8 % 2.486 1.275 95 %
+Depreciação e amortização (232) (249) -7 % (292) -21 % (524) (456) 15 %
+EBIT Ajustado 1.057 472 124 % 905 17 % 1.962 818 140 %
+1 Líquido de depreciação e amortização. 2 A partir do 3T25, as transações de streaming a preços de mercado, anteriormente reportadas em Vendas e outras despesas, passam a ser divulgadas 
+separadamente como Streaming. Períodos anteriores foram reapresentados.
+EBITDA Ajustado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Cobre 1.026 538 91 % 949 8 % 1.975 1.084 82 %
+Níquel 294 201 46 % 277 6 % 571 242 136 %
+Outros (31) (18) 72 % (29) 7 % (60) (51) 18 %
+Total 1.289 721 79 % 1.197 8 % 2.486 1.275 95 %
+O EBITDA da Vale Metais Básicos aumentou em 79% a/a no 2T26, totalizando US$ 1,3 bilhão, sustentado por um forte 
+desempenho operacional e por preços realizados mais altos nas commodities do portfólio, beneficiando-se de condições 
+de mercado favoráveis. 
+O EBITDA de Cobre aumentou em 91% a/a, totalizando US$ 1,0 bilhão no trimestre, impulsionado por um ambiente de 
+preços favorável para o cobre (US$ 401 milhões) e para o ouro (US$ 171 milhões). Esses fatores positivos foram 
+parcialmente compensados por ajustes negativos de preço provisório (PPA) associados aos preços futuros de cobre e 
+subprodutos, em particular os preços do ouro ao longo do trimestre (US$ 103 milhões), bem como por impactos cambiais 
+negativos (US$ 33 milhões).
+O EBITDA de Níquel aumentou em 46% a/a, totalizando US$ 294 milhões no trimestre, sustentado por maiores preços 
+de níquel (US$ 97 milhões) e de subprodutos, principalmente cobre (US$ 82 milhões). Esses efeitos foram parcialmente 
+compensados por custos de manutenção programada (US$ 51 milhões) associados às instalações downstream de 
+Sudbury.
+Variação EBITDA– US$ milhões (2T26 vs. 2T25)
+721
+689 76
+(51) (38) (108)
+1.289
+2T25 Preços¹ Melhorias de 
+custo²
+Manutenção em 
+Sudbury
+Efeito câmbio Outros³ 2T26
+¹ Inclui variações de (i) US$ 499 milhões em preços realizados de cobre e níquel, (ii) US$ 313 milhões em preços realizados de subprodutos e (iii) US$ -123 milhões em ajustes de preço provisório. ² Inclui 
+variações de (i) US$ 67 milhões em melhorias de custo em níquel, (ii) US$ 25 milhões em melhorias de custo em cobre e (iii) US$ -6 milhões em inflação de custos. 3 Inclui variações de (i) US$ 30 milhões no 
+EBITDA da PTVI, (ii) US$ -12 milhões em volumes, (iii) US$ -32 milhões em despesas com cobre e outros e (iv) US$ -75 milhões na reversão de baixa de estoques ocorrida no 2T25 e outros.
+ -13-
+
+[p. 14]
+Cobre
+US$ milhões (exceto se indicado) 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Preço de cobre LME (US$/t) 13.329 9.524 40 % 12.844 4 % 13.083 9.431 39 %
+Preço médio realizado de cobre (US$/t) 14.062 8.985 57 % 13.143 7 % 13.621 8.940 52 %
+Volume vendido – cobre (kt) 78 66 18 % 72 8 % 150 127 18 %
+Receita líquida 1.555 958 62 % 1.414 10 % 2.969 1.858 60 %
+Custos¹ (479) (402) 19 % (426) 12 % (905) (741) 22 %
+Vendas e outras despesas¹ (30) (8) 275 % (31) -3 % (61) (12) n.a.
+Despesas com P&D² (20) (10) 100 % (8) 150 % (28) (20) 40 %
+Despesas pré-operacionais e de parada¹ — — n.a. — n.a. — (1) n.a.
+EBITDA ajustado 1.026 538 91 % 949 8 % 1.975 1.084 82 %
+Depreciação e amortização (49) (39) 26 % (44) 11 % (93) (73) 27 %
+EBIT ajustado 977 499 96 % 905 8 % 1.882 1.011 86 %
+1 Excluindo depreciação e amortização. 2 Inclui Despesas com P&D não relacionadas às operações correntes de US$ 24 milhões no 2T26.
+EBITDA ajustado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Salobo 830 418 99 % 697 19 % 1.527 822 86 %
+Sossego 291 98 197 % 309 -6 % 600 178 237 %
+Outros¹ (95) 22 n.a. (58) 64 % (152) 84 n.a.
+Total 1.026 538 91 % 949 8 % 1.975 1.084 82 %
+1 Inclui despesas de P&D e ajustes de preços provisórios não realizados.
+Receita
+A receita líquida totalizou US$ 1,6 bilhão no 2T26, aumentando 62% a/a , explicada principalmente por preços 
+realizados de cobre mais altos (US$ 401 milhões), preços de ouro mais altos (US$ 171 milhões) e maiores volumes de 
+vendas de cobre (US$ 103 milhões). Esses efeitos foram parcialmente compensados por um impacto negativo dos ajustes 
+de preço provisório (US$ 103 milhões menor a/a).
+O preço médio realizado de cobre foi de US$ 14.062/t, 7% maior t/t , refletindo preços mais altos na LME, menores 
+descontos de TC/RC e efeitos de timing na precificação.
+O preço realizado médio de cobre foi 5% superior à média da LME, refletindo principalmente ajustes positivos de preço 
+sobre vendas de períodos anteriores precificadas provisoriamente e liquidadas a preços mais altos da LME no trimestre.
+Preço médio realizado de cobre 2T26 – US$/t
+13.329
+(179)
+13.150 1.012 14.162
+(100)
+14.062
+Preço médio de 
+cobre na LME
+Ajuste de preço do 
+período atual¹
+Preço realizado 
+bruto de cobre
+Ajuste de preço de 
+períodos 
+anteriores²
+Preço realizado de 
+cobre antes de 
+descontos
+TC/RCs, 
+penalidades, 
+prêmios e 
+descontos³
+Preço realizado 
+médio de cobre
+Nota: Os produtos de cobre da Vale são vendidos com base em preços provisórios, com preços finais determinados em período futuro. O preço médio realizado do cobre exclui a marcação a mercado de 
+faturas em aberto com base na curva futura do preço do cobre (ajustes de preços provisórios não realizados) e inclui os ajustes de preços do período anterior e atual (ajustes de preços provisórios 
+realizados). 1 Ajuste de preço do período atual: faturas finais com preços provisórios e liquidadas no trimestre. 2 Ajuste de preço de períodos anteriores: faturas finais de vendas com preços provisórios 
+de trimestres anteriores. 3 TC/RCs, penalidades, prêmios e descontos por produtos intermediários. 
+Desempenho dos Segmentos
+ -14-
+
+[p. 15]
+Custos & Despesas
+Custos all-in (break-even EBITDA)
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+CPV 6.169 6.057 2 % 5.925 4 % 6.052 5.826 4 %
+Receita de subprodutos (6.845) (4.962) 38 % (7.057) -3 % (6.947) (4.865) 43 %
+CPV depois da receita de subprodutos (676) 1.095 n.a. (1.132) -40 % (895) 961 n.a.
+Outras despesas¹ 319 137 133 % 288 11 % 304 125 143 %
+Custos totais (357) 1.232 n.a. (844) -58 % (591) 1.086 n.a.
+TC/RCs penalidades, prêmios e descontos 100 218 -54 % 202 -50 % 149 250 -40 %
+Break-even de EBITDA² ³ (257) 1.450 n.a. (642) -60 % (442) 1.336 n.a.
+1 Inclui despesas com vendas, P&D associado com Salobo e Sossego, despesa pré-operacional e de parada e outras despesas. 2 Considerando apenas o efeito caixa das transações de streaming, o break-
+even de EBITDA das operações de cobre aumentaria para US$ 3.378/t no 2T26. 3 O preço realizado a ser comparado com o break-even de EBITDA é o preço de cobre realizado antes dos descontos (US$ 
+14.162/t para 2T26), dado que TC/RCs, penalidades e outros descontos já são considerados no build-up do break-even de EBITDA.
+O CPV unitário foi de US$ 6.169/t, 2% maior a/a, refletindo principalmente o efeito negativo da apreciação do BRL (US$ 
+503/t), parcialmente compensado por melhorias de custo, impulsionadas por maior diluição de custos fixos (US$ -244/t) 
+e por iniciativas de eficiência (US$ -182/t).
+Os custos all-in atingiram US$ -257/t no trimestre, US$ 1.707/t menor a/a e US$ 385/t maior t/t. A queda a/a foi 
+impulsionada pelas melhorias de custo mencionadas acima e por maiores receitas unitárias de subprodutos (US$ -1.883/
+t), enquanto o aumento t/t refletiu maiores despesas com P&D (US$ 64/t) e menores receitas unitárias de subprodutos 
+(US$ 212/t).
+O guidance de custos all-in de cobre para 2026 foi revisado para baixo, para US$ 0-500/t (US$ 1.000-1.500/t 
+anteriormente), principalmente em decorrência de premissas externas, incluindo o impacto positivo de preços de ouro 
+mais altos, parcialmente compensado por pressões de custo decorrentes de uma apreciação mais forte do BRL e de 
+preços de diesel mais altos. Espera-se que o CPV aumente no 2S26, em decorrência da reforma programada do moinho 
+SAG de Sossego, com início em agosto de 2026.
+Para cada variação de 10 centavos no real, há um impacto de US$ 95/t no CPV unitário e nos custos all-in. Para cada 
+variação de US$ 100/oz nos preços do ouro, há um impacto de US$ 145/t nos custos all-in.
+CPV unitário, após subproduto, por operação
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Salobo (1.605) 282 n.a. (2.163) -26 % (1.863) 145 n.a.
+Sossego 1.415 3.381 -58 % 736 92 % 1.064 3.422 -69 %
+Desempenho dos Segmentos
+ -15-
+
+[p. 16]
+Níquel
+US$ milhões (exceto se indicado) 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Preço de níquel LME 18.131 15.171 20 % 17.356 4 % 17.737 15.374 15 %
+Preço médio realizado de níquel 18.061 15.800 14 % 17.015 6 % 17.535 15.948 10 %
+Volume vendido – níquel (kt) 44 41 7 % 45 -2 % 89 80 11 %
+Volume vendido – cobre (kt) 20 23 -13 % 19 5 % 39 44 -11 %
+Receita líquida 1.241 1.012 23 % 1.184 5 % 2.425 1.981 22 %
+Custos¹ (946) (781) 21 % (910) 4 % (1.856) (1.688) 10 %
+Vendas e outras despesas¹ (24) (8) 200 % (8) 200 % (32) (29) 10 %
+Despesas com P&D² (20) (25) -20 % (19) 5 % (39) (47) -17 %
+Despesas pré-operacionais e de parada¹ — (10) n.a. — n.a. — (11) n.a.
+EBITDA de coligadas e JV's 43 13 231 % 30 43 % 73 36 103 %
+EBITDA ajustado 294 201 46 % 277 6 % 571 242 136 %
+Depreciação e amortização (181) (203) -11 % (235) -23 % (416) (368) 13 %
+EBIT ajustado 113 (2) n.a. 42 169 % 155 (126) n.a.
+1 Líquido de depreciação e amortização. 2 Inclui despesas com P&D não relacionadas a operações correntes de US$ 28 milhões no 2T26.
+EBITDA ajustado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Sudbury¹ 118 70 69 % 227 -48 % 345 74 n.a.
+Voisey’s Bay & Long Harbour 118 17 n.a. 66 79 % 184 (33) n.a.
+Refinarias autônomas² 45 6 n.a. 24 88 % 69 30 130 %
+Onça Puma 41 9 n.a. 51 -20 % 92 28 229 %
+Outros³ (28) 99 n.a. (91) -69 % (119) 143 n.a.
+Total 294 201 46 % 277 6 % 571 242 136 %
+1 Inclui as operações de Thompson. 2 Compreende os resultados de vendas para refinarias de Clydach e Matsusaka. 3 Inclui eliminações de intercompany, ajustes de preço provisório e ajustes de estoques. 
+Inclui o EBITDA proporcional de PTVI.
+Receita
+A receita líquida totalizou US$ 1,2 bilhão no 2T26, aumentando 23% a/a, impulsionada por preços realizados de níquel mais 
+altos (US$ 97 milhões), maiores volumes de vendas (US$ 48 milhões) e maiores receitas de subprodutos (US$ 106 milhões).
+O preço médio realizado do níquel foi US$ 18.061/t, 6% mais alto q/q, impulsionado principalmente por um aumento de 4% no 
+preço médio do níquel na LME.
+O preço realizado médio de níquel ficou majoritariamente em linha com a média da LME, refletindo um maior prêmio de níquel 
+Classe I e o impacto negativo de ajustes de precificação relacionados ao momento de precificação.
+Preço médio realizado de níquel 2T26 – US$/t
+18.131 78 18.209
+(74) (74)
+18.061
+Preço médio de níquel 
+da LME
+Média do prêmio 
+agregado do níquel
+Preço médio realizado 
+antes de timing e 
+outros ajustes
+Período cotacional Venda a preço fixo Preço médio realizado 
+de níquel
+Desempenho dos Segmentos
+ -16-
+
+[p. 17]
+Custos & Despesas
+Custos all-in (break-even de EBITDA)
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+CPV excluindo feed externo 23.652 22.194 7 % 22.325 6 % 22.663 24.647 -8 %
+CPV¹ 21.345 20.743 3 % 20.284 5 % 20.811 21.973 -5 %
+Receitas subprodutos¹ (10.311) (8.510) 21 % (11.707) -12 % (11.013) (7.963) 38 %
+CPV depois receitas subprodutos 11.034 12.233 -10 % 8.577 29 % 9.798 14.010 -30 %
+Outras despesas² 354 892 -60 % 270 31 % 312 926 -66 %
+EBITDA de coligadas e JV's (970) (315) 208 % (669) 45 % (819) (448) 83 %
+Custo Total 10.418 12.810 -19 % 8.178 27 % 9.291 14.488 -36 %
+(Prêmio) Desconto médio agregado de níquel (78) (414) -81 % 6 n.a. (36) (479) -92 %
+Break-even de EBITDA³ 10.340 12.396 -17 % 8.184 26 % 9.255 14.009 -34 %
+1 Exclui as atividades de marketing. 2 Inclui P&D associado às operações correntes de níquel, despesas com vendas e despesas pré-operacionais e de parada. 3 Considerando apenas o efeito caixa das 
+transações de streaming, o break-even de EBITDA das operações de níquel aumentaria para US$ 11.478/t no 2T26.
+O CPV unitário, excluindo compras de feed de terceiros, foi de US$ 23.652/t, 7% mais alto a/a , impulsionado pelo 
+impacto da manutenção bienal programada das instalações downstream de Sudbury (US$ 1.151/t). Esses efeitos foram 
+parcialmente compensados por melhorias de custo, impulsionadas por maior diluição de custos fixos (US$ -519/t) e por 
+iniciativas de eficiência (US$ -992/t). O CPV unitário foi de US$ 21.345/t, alta de 3% a/a e 5% t/t.
+Os custos all-in totalizaram US$ 10.340/t no trimestre, 17% menor a/a e 26% maior t/t. A queda a/a foi impulsionada 
+pelas melhorias de custo mencionadas acima e por maiores receitas de cobre em nossos ativos polimetálicos (US$ -1.608/
+t), enquanto o aumento t/t refletiu o impacto da manutenção bienal programada nos custos (US$ 1.151/t) e menores 
+receitas de PGMs (US$ -1.837/t).
+O guidance de custos all-in de níquel para 2026 foi revisado para baixo, para US$ 10.000-11.500/t (US$ 12.000-13.500/
+t, anteriormente), principalmente em decorrência de fatores externos, incluindo o impacto positivo de preços esperados 
+mais altos de cobre e ouro, parcialmente compensado por pressões de custo decorrentes da apreciação do BRL e de 
+preços de combustível mais altos.
+CPV unitário, após subprodutos, por operação
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Sudbury¹ ² 10.238 10.511 -3 % 1.378 n.a. 5.926 12.783 -54 %
+Voisey’s Bay & Long Harbour² 6.727 13.236 -49 % 12.280 -45 % 9.800 16.891 -42 %
+Refinarias autônomas² ³ 15.109 15.716 -4 % 16.100 -6 % 15.614 14.556 7 %
+Onça Puma 10.384 11.079 -6 % 9.825 6 % 10.083 10.354 -3 %
+1 Números de Sudbury incluem custos de Thompson. 2 Uma grande parte da produção de níquel acabado em Sudbury, Clydach, Matsusaka e Long Harbour é derivada de transferências intercompany, 
+bem como da compra de minérios ou intermediários de níquel de terceiros. Estas transações são reconhecidas pelo valor justo de mercado. 3 Compreende o CPV unitário para as refinarias de Clydach e 
+Matsusaka.
+Desempenho dos Segmentos
+ -17-
+
+[p. 18]
+Informações Webcast Relações com Investidores
+A Vale realizará um webcast na
+vale.RI@vale.com
+Sexta-feira
+31
+de julho 
+de 2026
+ 10 horas (Nova Iorque) Thiago Lofiego
+ 
+ 11 horas (Brasília) thiago.lofiego@vale.com
+ 15 horas (Londres)
+Luciana Oliveti
+luciana.oliveti@vale.com
+O acesso pela internet ao webcast e materiais de apresentação 
+estarão disponíveis no site da Vale em www.vale.com/investidores
+Pedro Terra
+pedro.terra@vale.com
+ Um replay estará disponível logo após a conclusão da teleconferência. Patricia Tinoco
+patricia.tinoco@vale.com
+Mais informações sobre a Vale podem ser encontradas 
+em: vale.com
+ 
+As informações operacionais e financeiras contidas neste press release, exceto quando de outra forma indicado, são apresentadas 
+com base em números consolidados de acordo com o IFRS. Nossas demonstrações contábeis trimestrais são revisadas pelos auditores 
+independentes da companhia. As principais subsidiárias da Vale consolidadas são: Companhia Portuária da Baía de Sepetiba, Vale 
+Manganês S.A., Minerações Brasileiras Reunidas S.A., Vale Base Metals Ltd, Salobo Metais S.A., Tecnored Desenvolvimento 
+Tecnológico S.A., Vale Holdings B.V, Vale Canada Limited, Vale International S.A., Vale Malaysia Minerals Sdn. Bhd. e Vale Oman 
+Pelletizing Company LLC.
+Este comunicado pode incluir declarações sobre as expectativas atuais da Vale sobre eventos ou resultados futuros (estimativas e 
+projeções). Muitas dessas estimativas e projeções podem ser identificadas através do uso de palavras com perspectivas futuras como 
+“antecipar," “acreditar," “poder“, “esperar," “dever“, "planejar" “pretender“, "estimar“, “fará” e "potencial," entre outras. Todas as 
+estimativas e projeções envolvem vários riscos e incertezas. A Vale não pode garantir que tais declarações venham a ser corretas. Tais 
+riscos e incertezas incluem, entre outros, fatores relacionados a: (a) países onde a Vale opera, especialmente Brasil e Canadá; (b) 
+economia global; (c) mercado de capitais; (d) preços de minérios e metais e sua dependência à produção industrial global, que é cíclica 
+por natureza; e (e) competição global nos mercados onde a Vale opera. A Vale cautela que os resultados atuais podem diferenciar 
+materialmente dos planos, objetivos, expectativas, estimativas e intenções expressadas nesta apresentação. A Vale não assume 
+nenhuma obrigação de atualizar publicamente ou revisar nenhuma estimativa e projeção, seja como resultado de informações novas 
+ou eventos futuros ou por qualquer outra razão. Para obter informações adicionais sobre fatores que podem originar resultados 
+diferentes daqueles estimados pela Vale, favor consultar os relatórios arquivados pela Vale na U.S. Securities and Exchange 
+Commission (SEC), na Comissão de Valores Mobiliários (CVM) e, em particular, os fatores discutidos nas seções “Estimativas e 
+Projeções” e “Fatores de Risco” no Relatório Anual - Form 20 F da Vale.
+As informações contidas neste comunicado incluem métricas financeiras que não são preparadas de acordo com o IFRS. Essas 
+métricas não-IFRS diferem das métricas mais diretamente comparáveis determinadas pelo IFRS, mas não apresentamos uma 
+reconciliação com as métricas IFRS mais diretamente comparáveis, porque as métricas não-IFRS são prospectivas e uma reconciliação 
+não pode ser preparada sem envolver esforços desproporcionais.
+ -18-
+
+[p. 19]
+Anexo 1: Informações Financeiras Detalhadas
+Demonstrações financeiras simplificadas
+Demonstração de resultado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Receita de vendas, líquida 10.498 8.804 19 % 9.258 13 % 19.756 16.923 17 %
+Custo dos produtos vendidos e serviços 
+prestados (7.294) (6.085) 20 % (6.173) 18 % (13.467) (11.536) 17 %
+Lucro bruto 3.204 2.719 18 % 3.085 4 % 6.289 5.387 17 %
+Margem bruta (%) 31 % 31 % 0 p.p. 33 % -2 p.p. 32 % 32 % 0 p.p.
+Despesas com vendas e administrativas (176) (131) 34 % (152) 16 % (328) (276) 19 %
+Pesquisa e desenvolvimento (185) (159) 16 % (131) 41 % (316) (282) 12 %
+Despesas pré-operacionais e de parada de 
+operação (100) (71) 41 % (49) 104 % (149) (161) -7 %
+Outras despesas operacionais, líquida (604) (222) 172 % (258) 134 % (862) (480) 80 %
+Redução ao valor recuperável e ganhos (perdas) 
+com baixa de ativos não circulantes, líquidos 16 (132) n.a. (120) n.a. (104) (385) -73 %
+Lucro operacional 2.155 2.004 8 % 2.375 -9 % 4.530 3.803 19 %
+Receitas financeiras 122 112 9 % 128 -5 % 250 228 10 %
+Despesas financeiras (409) (404) 1 % (418) -2 % (827) (786) 5 %
+Outros itens financeiros, líquido (186) 459 n.a. 324 n.a. 138 910 -85 %
+Resultado de participações e outros resultados 
+em Coligadas e Joint Ventures 100 (68) n.a. 36 178 % 136 (9) n.a.
+Lucro antes de impostos 1.782 2.103 -15 % 2.445 -27 % 4.227 4.146 2 %
+Tributo corrente (400) (285) 40 % (242) 65 % (642) (471) 36 %
+Tributo diferido 32 317 -90 % (263) n.a. (231) (144) 60 %
+Lucro líquido 1.414 2.135 -34 % 1.940 -27 % 3.354 3.531 -5 %
+Lucro líquido atribuído aos acionistas não 
+controladores 39 18 117 % 47 -17 % 86 20 330 %
+Lucro líquido atribuído aos acionistas da Vale 1.375 2.117 -35 % 1.893 -27 % 3.268 3.511 -7 %
+Lucro por ação (atribuído aos acionistas da 
+controladora - US$):
+Lucro por ação básico e diluído (atribuído aos 
+acionistas da controladora - US$) 0,32 0,50 -36 % 0,44 -27 % 0,77 0,82 -6 %
+Resultado de participações societárias por área de negócio
+US$ milhões 2T26 % 2T25 % Δ a/a 1T26 % Δ t/t 6M26 % 6M25 % Δ a/a
+Soluções de Minério de Ferro 113 92 % 138 107 % -18 % 31 55 % 265 % 144 80 % 171 110 % -16 %
+Vale Metais Básicos¹ 10 8 % (11) -9 % n.a. 25 45 % -60 % 35 20 % (17) -11 % n.a.
+Itens não alocados — 0 % 2 2 % n.a. — 0 % n.a. — 0 % 2 1 % n.a.
+Total 123 100 % 129 100 % -5 % 56 100 % 120 % 179 100 % 156 100 % 15 %
+1 Valores históricos reapresentados.
+Anexos
+ -19-
+
+[p. 20]
+Balanço patrimonial
+US$ milhões 30/6/2026 30/6/2025 Δ a/a 31/3/2026 Δ t/t
+Ativo
+Ativo circulante 17.659 17.585 0 % 16.751 5 %
+Caixa e equivalentes de caixa 5.577 5.514 1 % 5.085 10 %
+Aplicações financeiras de curto prazo 188 182 3 % 194 -3 %
+Contas a receber 2.614 2.325 12 % 2.401 9 %
+Outros ativos financeiros 576 495 16 % 926 -38 %
+Estoques 6.264 5.242 19 % 6.135 2 %
+Tributos a recuperar 1.717 1.335 29 % 1.312 31 %
+Outros 696 493 41 % 672 4 %
+Ativos não circulantes mantidos para venda 27 1.999 -99 % 26 4 %
+Ativo não circulante 10.535 13.001 -19 % 10.660 -1 %
+Depósitos judiciais 577 598 -4 % 597 -3 %
+Outros ativos financeiros 796 424 88 % 701 14 %
+Tributos a recuperar 1.743 1.528 14 % 1.947 -10 %
+Tributos diferidos sobre o lucro 6.016 8.975 -33 % 6.019 0 %
+Outros 1.403 1.476 -5 % 1.396 1 %
+Ativos fixos 61.085 59.797 2 % 60.180 2 %
+Ativos Total 89.279 90.383 -1 % 87.591 2 %
+Passivo
+Passivos circulante 14.818 14.469 2 % 13.510 10 %
+Fornecedores e empreiteiros 6.203 5.454 14 % 5.490 13 %
+Empréstimos, financiamentos e arrendamentos 1.093 685 60 % 598 83 %
+Arrendamentos 169 175 -3 % 160 6 %
+Concessão de ferrovias 629 539 17 % 616 2 %
+Outros passivos financeiros 649 506 28 % 640 1 %
+Tributos a recolher 890 1.020 -13 % 646 38 %
+Programa de refinanciamento - REFIS 464 412 13 % 453 2 %
+Provisões para litigação 161 154 5 % 153 5 %
+Benefícios a empregados 886 790 12 % 684 30 %
+Passivos relacionados a participação em coligadas e joint ventures 662 1.449 -54 % 1.181 -44 %
+Passivos relacionados a Brumadinho 807 900 -10 % 868 -7 %
+Provisão para descaracterização de barragens e desmobilização de 
+ativos 1.119 945 18 % 1.003 12 %
+Dividendos a pagar 21 — n.a. 21 0 %
+Outros 884 700 26 % 857 3 %
+Passivos relacionados a ativos não circulantes mantidos para 
+venda 181 740 -76 % 140 29 %
+Passivos não circulante 35.515 35.405 0 % 36.529 -3 %
+Empréstimos, financiamentos e arrendamentos 17.211 16.461 5 % 17.598 -2 %
+Arrendamentos 465 524 -11 % 481 -3 %
+Concessão de ferrovias 1.790 2.092 -14 % 1.876 -5 %
+Outros passivos financeiros 3.247 2.566 27 % 3.399 -4 %
+Programa de refinanciamento - REFIS 627 971 -35 % 726 -14 %
+Tributos diferidos sobre o lucro 54 127 -57 % 82 -34 %
+Provisões para litigação 997 896 11 % 944 6 %
+Benefícios a empregados 1.185 1.170 1 % 1.200 -1 %
+Passivos relacionados a participação em coligadas e joint ventures 1.435 1.830 -22 % 1.516 -5 %
+Passivos associados a Brumadinho 967 1.229 -21 % 1.091 -11 %
+Provisão para descaracterização de barragens e desmobilização de 
+ativos 5.032 5.256 -4 % 5.225 -4 %
+Transações de streaming 1.944 2.000 -3 % 1.962 -1 %
+Outros 561 283 98 % 429 31 %
+Total do passivo 50.333 49.874 1 % 50.039 1 %
+Patrimônio líquido total 38.946 40.509 -4 % 37.552 4 %
+Total do passivo e patrimônio líquido 89.279 90.383 -1 % 87.591 2 %
+Anexos
+ -20-
+
+[p. 21]
+Fluxo de Caixa
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Fluxo de caixa operacional 3.129 2.862 9 % 2.468 27 % 5.597 5.396 4 %
+Pagamento de juros de empréstimos, financiamentos e outros 
+passivos financeiros (310) (269) 15 % (214) 45 % (524) (509) 3 %
+Recebimentos na liquidação de derivativos, líquido 337 149 126 % 116 191 % 453 283 60 %
+Pagamentos relacionados a Brumadinho (263) (204) 29 % (107) 146 % (370) (288) 28 %
+Pagamentos relacionados à descaracterização de barragens (71) (83) -14 % (63) 13 % (134) (162) -17 %
+Remunerações pagas às debêntures participativas (139) (131) 6 % — n.a. (139) (131) 6 %
+Pagamentos de tributos sobre o lucro (incluindo programas de 
+refinanciamento) (271) (468) -42 % (321) -16 % (592) (1.064) -44 %
+Caixa líquido gerado pelas atividades operacionais 2.412 1.856 30 % 1.879 28 % 4.291 3.525 22 %
+Fluxos de caixa das atividades de investimento:
+Aplicações financeiras 59 107 -45 % 58 2 % 117 133 -12 %
+Investimentos no imobilizado e intangível (1.244) (1.168) 7 % (1.185) 5 % (2.429) (2.423) 0 %
+Pagamentos relacionados ao rompimento da barragem da 
+Samarco (717) (990) -28 % (129) n.a. (846) (1.152) -27 %
+Dividendos recebidos de joint ventures e coligadas 35 61 -43 % 28 25 % 63 80 -21 %
+Outras atividades de investimentos, líquidas 39 (9) n.a. (40) n.a. (1) (8) -88 %
+Caixa líquido utilizado nas atividades de investimento (1.828) (1.999) -9 % (1.268) 44 % (3.096) (3.370) -8 %
+Fluxos de caixa provenientes das atividades de financiamento: 
+Empréstimos e financiamentos: 
+Empréstimos e financiamentos de terceiros 161 1.676 -90 % 962 -83 % 1.123 3.287 -66 %
+Pagamentos de empréstimos e financiamentos de terceiros (81) (30) 170 % (1.117) -93 % (1.198) (970) 24 %
+Pagamentos de arrendamentos (49) (33) 48 % (34) 44 % (83) (63) 32 %
+Pagamentos aos acionistas: 
+Dividendos e juros sobre o capital próprio pagos aos acionistas da 
+Vale — — n.a. (2.745) n.a. (2.745) (1.979) 39 %
+Programa de recompra de ações (140) — n.a. (74) 89 % (214) — n.a.
+Caixa líquido utilizado nas atividades de financiamento (109) 1.613 n.a. (3.008) -96 % (3.117) 275 n.a.
+Aumento (redução) no caixa e equivalentes de caixa 475 1.470 -68 % (2.397) n.a. (1.922) 430 n.a.
+Caixa e equivalentes de caixa no início do período 5.085 3.955 29 % 7.372 -31 % 7.372 4.953 49 %
+Efeito de variação cambial no caixa e equivalentes de caixa 17 101 -83 % 110 -85 % 127 246 -48 %
+Efeito da transferência do caixa de controladas classificadas 
+como ativos não circulantes mantidos para venda e outros — (12) n.a. — n.a. — (115) n.a.
+Caixa e equivalentes de caixa no final do período 5.577 5.514 1 % 5.085 10 % 5.577 5.514 1 %
+Transações que não envolveram caixa: 
+Adições ao imobilizado, líquidas de empréstimos e custos de 
+captação capitalizados 5 8 -38 % 5 0 % 10 12 -17 %
+Fluxo de caixa das atividades operacionais: 
+Lucro líquido antes dos tributos sobre o lucro 1.782 2.103 -15 % 2.445 -27 % 4.227 4.146 2 %
+Ajustado para: 
+Mudança de estimativas relacionadas à provisão de Brumadinho 5 10 -50 % (6) n.a. (1) 49 n.a.
+Mudança de estimativas relacionadas à provisão para 
+descaracterização de barragens (53) (56) -5 % (3) n.a. (56) (65) -14 %
+Resultado de participações e outros resultados em coligadas e joint 
+ventures (100) 68 n.a. (36) 178 % (136) 9 n.a.
+Redução ao valor recuperável e outros resultados relacionado a ativos 
+não circulantes, líquidos (16) 132 n.a. 120 n.a. 104 385 -73 %
+Depreciação, exaustão e amortização 911 780 17 % 845 8 % 1.756 1.484 18 %
+Resultados financeiros, líquido 473 (167) n.a. (34) n.a. 439 (352) n.a.
+Variação dos ativos e passivos: 
+Contas a receber (259) (159) 63 % (119) 118 % (378) 157 n.a.
+Estoques (255) (144) 77 % (214) 19 % (469) (383) 22 %
+Contas a pagar a fornecedores e empreiteiros 726 743 -2 % (262) n.a. 464 722 -36 %
+Outros ativos e passivos, líquidos (85) (448) -81 % (268) -68 % (353) (756) -53 %
+Caixa gerado pelas operações 3.129 2.862 9 % 2.468 27 % 5.597 5.396 4 %
+Anexos
+ -21-
+
+[p. 22]
+Reconciliação de informações IFRS e “Non-GAAP”
+(a) EBIT ajustado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Receita de vendas, líquida 10.498 8.804 19 % 9.258 13 % 19.756 16.923 17 %
+CPV (7.294) (6.085) 20 % (6.173) 18 % (13.467) (11.536) 17 %
+Despesas com vendas e administrativas (176) (131) 34 % (152) 16 % (328) (276) 19 %
+Despesas com pesquisa e desenvolvimento (185) (159) 16 % (131) 41 % (316) (282) 12 %
+Despesas pré-operacionais e de parada de operação (100) (71) 41 % (49) 104 % (149) (161) -7 %
+Despesas relacionadas a Brumadinho e descaracterização 
+de barragens (101) (38) 166 % (65) 55 % (166) (135) 23 %
+Outras despesas operacionais, líquido¹ (503) (184) 173 % (193) 161 % (696) (345) 102 %
+EBITDA coligadas e JV's 335 302 11 % 233 44 % 568 494 15 %
+Streaming¹ 291 168 73 % 257 13 % 548 335 64 %
+EBIT ajustado 2.765 2.606 6 % 2.985 -7 % 5.750 5.017 15 %
+¹ A partir de 3T25, as transações de streaming a preço de mercado, anteriormente reportadas em "Outras despesas operacionais, líquido", passam a ser divulgadas separadamente como Streaming. Os 
+períodos anteriores foram reapresentados.
+(b) EBITDA ajustado
+O termo EBITDA se refere a um indicador definido como lucro (prejuízo) antes de juros, impostos, depreciação, exaustão 
+e amortização. A definição do termo EBITDA (LAJIDA) ajustado da Vale é o lucro ou o prejuízo operacional acrescido do 
+EBITDA de coligadas e joint ventures, excluindo os valores contabilizados com (a) depreciação, exaustão e amortização e 
+(b) redução ao valor recuperável e ganhos (perdas) com baixa de ativos não circulantes. Todavia, o EBITDA ajustado não é 
+uma medida definida nos padrões IFRS e pode não ser comparável com indicadores com o mesmo nome reportados por 
+outras empresas. O EBITDA ajustado não deve ser considerado substituto do lucro operacional ou medida de liquidez 
+melhor do que o fluxo de caixa operacional, que são determinados de acordo com o IFRS. A Vale apresenta o EBITDA 
+ajustado para prover informação adicional a respeito da sua capacidade de pagar dívidas, realizar investimentos e cobrir 
+necessidades de capital de giro. Os quadros a seguir demonstram a reconciliação entre EBITDA ajustado e fluxo de caixa 
+operacional e EBITDA ajustado e lucro líquido, de acordo com a demonstração de fluxo de caixa.
+A definição de EBIT ajustado é o EBITDA ajustado mais depreciação, exaustão e amortização.
+Reconciliação entre EBITDA ajustado e o fluxo de caixa operacional
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+EBITDA ajustado 3.676 3.386 9 % 3.830 -4 % 7.506 6.501 15 %
+Capital de giro:
+Contas a receber (259) (159) 63 % (119) 118 % (378) 157 n.a.
+Estoques (255) (144) 77 % (214) 19 % (469) (383) 22 %
+Contas a pagar a fornecedores e empreiteiros 726 743 -2 % (262) n.a. 464 722 -36 %
+Mudança de estimativas relacionadas à provisão de 
+Brumadinho 5 10 -50 % (6) n.a. (1) 49 n.a.
+Mudança de estimativas relacionadas à provisão 
+para descaracterização de barragens (53) (56) -5 (3) n.a. (56) (65) -14 %
+Outros (711) (918) -23 % (758) -6 % (1.469) (1.585) -7 %
+Fluxo de caixa 3.129 2.862 9 % 2.468 27 % 5.597 5.396 4 %
+Pagamentos de tributos sobre o lucro (incluindo 
+programas de refinanciamento) (271) (468) -42 % (321) -16 % (592) (1.064) -44 %
+Pagamento de juros de empréstimos, 
+financiamentos e outros passivos financeiros (310) (269) 15 % (214) 45 % (524) (509) 3 %
+Pagamentos relacionados a Brumadinho (263) (204) 29 % (107) 146 % (370) (288) 28 %
+Pagamentos relacionados à descaracterização das 
+barragens (71) (83) -14 % (63) 13 % (134) (162) -17 %
+Remunerações pagas às debêntures participativas (139) (131) 6 % — n.a. (139) (131) 6 %
+Recebimentos na liquidação de derivativos, líquido 337 149 126 % 116 191 % 453 283 60 %
+Caixa líquido gerado pelas atividades operacionais 2.412 1.856 30 % 1.879 28 % 4.291 3.525 22 %
+Anexos
+ -22-
+
+[p. 23]
+Reconciliação entre EBITDA ajustado e o lucro líquido 
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+EBITDA ajustado 3.676 3.386 9 % 3.830 -4 % 7.506 6.501 15 %
+Depreciação, amortização e exaustão (911) (780) 17 % (845) 8 % (1.756) (1.484) 18 %
+EBITDA de coligadas e joint ventures (335) (302) 11 % (233) 44 % (568) (494) 15 %
+Redução ao valor recuperável e ganhos (perdas) com 
+baixa de ativos não circulantes, líquidos¹ 16 (132) n.a. (120) n.a. (104) (385) -73 %
+Streaming¹ (291) (168) 73 % (257) 13 % (548) (335) 64 %
+Lucro operacional 2.155 2.004 8 % 2.375 -9 % 4.530 3.803 19 %
+Resultado financeiro (473) 167 n.a. 34 n.a. (439) 352 n.a.
+Resultado de participações e outros resultados em 
+coligadas e joint ventures 100 (68) n.a. 36 178 % 136 (9) n.a.
+Tributos sobre o lucro (368) 32 n.a. (505) -27 % (873) (615) 42 %
+Lucro líquido 1.414 2.135 -34 % 1.940 -27 % 3.354 3.531 -5 %
+Lucro líquido atribuído aos acionistas não 
+controladores 39 18 117 % 47 -17 % 86 20 330 %
+Lucro líquido atribuído aos acionistas da Vale 1.375 2.117 -35 % 1.893 -27 % 3.268 3.511 -7 %
+¹ A partir de 3T25, as transações de streaming a preço de mercado, anteriormente reportadas em "Redução ao valor recuperável e ganhos (perdas) com baixa de ativos não circulantes, líquidos", passam 
+a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados.
+(c) Dívida líquida
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t
+Dívida bruta 18.304 17.146 7 % 18.196 1 %
+Arrendamentos 634 699 -9 % 641 -1 %
+Caixa e equivalentes de caixa (5.765) (5.696) 1 % (5.279) 9 %
+Dívida líquida 13.173 12.149 8 % 13.558 -3 %
+(d) Dívida bruta / LTM EBITDA ajustado
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t
+Dívida Bruta e arrendamentos/ LTM EBITDA ajustado (x) 1,2 1,3 -8 % 1,2 0 %
+Dívida Bruta e arrendamentos / LTM Fluxo de Caixa Operacional (x) 0,8 0,9 -11 % 0,8 0 %
+(e) LTM EBITDA ajustado / LTM Pagamentos de juros
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t
+LTM EBITDA ajustado / LTM juros brutos (x) 15,8 15,3 3 % 15,8 0 %
+LTM EBITDA ajustado / LTM Pagamento de juros (x) 16,2 14,2 14 % 16,6 -2 %
+(f) Taxas de câmbio - dólar americano
+R$/US$ 2T26 2T25 Δ a/a 1T26 Δ t/t
+Média 5,0494 5,6661 -11 % 5,2591 -4 %
+Fim do período 5,1766 5,4571 -5 % 5,2194 -1 %
+Anexos
+ -23-
+
+[p. 24]
+Receitas e volumes
+Receitas de vendas, líquida, por área de negócio
+US$ milhões 2T26 % 2T25 % Δ a/a 1T26 % Δ t/t 6M26 % 6M25 % Δ a/a
+Soluções de Minério de Ferro 7.888 75 % 6.963 79 % 13 % 6.875 74 % 15 % 14.763 75 % 13.338 79 % 11 %
+Finos 6.641 63 % 5.762 65 % 15 % 5.692 61 % 17 % 12.333 62 % 10.916 65 % 13 %
+ROM 34 0 % 27 0 % 26 % 20 0 % 70 % 54 0 % 56 0 % -4 %
+Pelotas 1.062 10 % 1.004 11 % 6 % 1.030 11 % 3 % 2.092 11 % 2.059 12 % 2 %
+Outros produtos ferrosos e 
+serviços logísticos 151 1 % 170 2 % -11 % 133 1 % 14 % 284 1 % 307 2 % -7 %
+Vale Base Metals 2.610 25 % 1.841 21 % 42 % 2.383 26 % 10 % 4.993 25 % 3.585 21 % 39 %
+Cobre 1.376 13 % 793 9 % 74 % 1.214 13 % 13 % 2.590 13 % 1.502 9 % 72 %
+Níquel 801 8 % 657 7 % 22 % 763 8 % 5 % 1.564 8 % 1.280 8 % 22 %
+Ouro como subproduto¹ 270 3 % 195 2 % 38 % 282 3 % -4 % 551 3 % 335 2 % 64 %
+Prata como subproduto 46 0 % 19 0 % 142 % 46 0 % 0 % 93 0 % 37 0 % 151 %
+PGMs 53 1 % 83 1 % -36 % 136 1 % -61 % 189 1 % 149 1 % 27 %
+Cobalto¹ 37 0 % 21 0 % 76 % 30 0 % 23 % 67 0 % 39 0 % 72 %
+Outros² 27 0 % 73 1 % -63 % (88) -1 % n.a. (61) 0 % 243 1 % n.a.
+Total 10.498 100 % 8.804 100 % 19 % 9.258 100 % 13 % 19.756 100 % 16.923 100 % 17 %
+¹ Exclui ajustes de US$ 291 milhões no 2T26, US$ 257 milhões no 1T26, US$ 548 milhões no 6M26, US$ 168 milhões em 2T25 e US$ 335 milhões no 6M25, para refletir o desempenho das transações de 
+streaming à preços de mercado. ² Inclui atividades de marketing.
+Receita operacional líquida por destino
+US$ milhões 2T26 % 2T25 % Δ a/a 1T26 % Δ t/t 6M26 % 6M25 % Δ a/a
+América do Norte 458 4 % 427 5 % 7 % 472 5 % -3 % 930 5 % 844 5 % 10 %
+EUA 332 3 % 273 3 % 22 % 304 3 % 9 % 636 3 % 570 3 % 12 %
+Canadá 126 1 % 154 2 % -18 % 168 2 % -25 % 294 1 % 274 2 % 7 %
+América do Sul 869 8 % 819 9 % 6 % 869 9 % 0 % 1.738 9 % 1.682 10 % 3 %
+Brasil 811 8 % 774 9 % 5 % 783 8 % 4 % 1.594 8 % 1.588 9 % 0 %
+Outros 58 1 % 45 1 % 29 % 86 1 % -33 % 144 1 % 94 1 % 53 %
+Ásia 7.016 67 % 5.882 67 % 19 % 5.958 64 % 18 % 12.974 66 % 10.995 65 % 18 %
+China 5.283 50 % 4.329 49 % 22 % 4.369 47 % 21 % 9.652 49 % 8.215 49 % 17 %
+Japão 639 6 % 648 7 % -1 % 619 7 % 3 % 1.258 6 % 1.165 7 % 8 %
+Coreia do Sul 197 2 % 249 3 % -21 % 268 3 % -26 % 465 2 % 486 3 % -4 %
+Outros 897 9 % 656 7 % 37 % 702 8 % 28 % 1.599 8 % 1.129 7 % 42 %
+Europa 1.757 17 % 1.248 14 % 41 % 1.608 17 % 9 % 3.365 17 % 2.522 15 % 33 %
+Alemanha 523 5 % 453 5 % 15 % 471 5 % 11 % 994 5 % 916 5 % 9 %
+Itália 86 1 % 65 1 % 32 % 103 1 % -17 % 189 1 % 164 1 % 15 %
+Outros 1.148 11 % 730 8 % 57 % 1.034 11 % 11 % 2.182 11 % 1.442 9 % 51 %
+Oriente Médio 122 1 % 216 2 % -44 % 192 2 % -36 % 314 2 % 424 3 % -26 %
+Resto do mundo 276 3 % 212 2 % 30 % 159 2 % 74 % 435 2 % 456 3 % -5 %
+Total 10.498 100 % 8.804 100 % 19 % 9.258 100 % 13 % 19.756 100 % 16.923 100 % 17 %
+Anexos
+ -24-
+
+[p. 25]
+Despesas Operacionais
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+SG&A 176 131 34 % 152 16 % 328 276 19 %
+ Administrativas 154 113 36 % 128 20 % 282 236 19 %
+ Pessoal 51 49 4 % 56 -9 % 107 101 6 %
+ Serviços 53 29 83 % 35 51 % 88 52 69 %
+ Depreciação 17 7 143 % 10 70 % 27 31 -13 %
+ Outros 33 28 18 % 27 22 % 60 52 15 %
+ Vendas 22 18 22 % 24 -8 % 46 40 15 %
+P&D 185 159 16 % 131 41 % 316 282 12 %
+Despesas pré-operacionais e de parada de 
+operação 100 71 41 % 49 104 % 149 161 -7 %
+Despesas relacionadas a Brumadinho e 
+descaracterização de barragens 101 38 166 % 65 55 % 166 135 23 %
+Outras despesas operacionais 503 184 173 % 193 161 % 696 345 102 %
+Despesas operacionais totais 1.065 583 83 % 590 81 % 1.655 1.199 38 %
+ Depreciação 73 20 265 % 45 62 % 118 63 87 %
+Despesas operacionais, excluindo depreciação 992 563 76 % 545 82 % 1.537 1.136 35 %
+Outras despesas operacionais – divisão por segmento
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Soluções de Minério de Ferro 17 4 325 % 42 -60 % 59 (4) n.a.
+Finos 16 (5) n.a. 31 -48 % 47 (16) n.a.
+Pelotas (2) 1 n.a. 2 n.a. — (1) n.a.
+Outros minerais ferrosos e serviços de logística 3 8 -63 % 9 -67 % 12 13 -8 %
+Vale Base Metals 43 11 291 % 34 26 % 77 43 79 %
+Cobre 30 8 275 % 32 -6 % 62 12 n.a.
+Níquel 18 3 n.a. (2) n.a. 16 17 -6 %
+Outros (5) — n.a. 4 n.a. (1) 14 n.a.
+Itens não alocados 443 169 162 % 117 279 % 560 306 83 %
+TOTAL – Outras despesas operacionais 503 184 173 % 193 161 % 696 345 102 %
+Anexos
+ -25-
+
+[p. 26]
+Resultados Financeiros
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Despesas financeiras, das quais: (409) (404) 1 % (418) -2 % (827) (786) 5 %
+ Juros Brutos (254) (238) 7 % (264) -4 % (518) (462) 12 %
+ Juros capitalizados 5 8 -38 % 5 0 % 10 12 -17 %
+ Outros (142) (150) -5 % (139) 2 % (281) (294) -4 %
+ Despesas financeiras (REFIS) (18) (24) -25 % (20) -10 % (38) (42) -10 %
+Receitas financeiras 122 112 9 % 128 -5 % 250 228 10 %
+Debêntures Participativas 198 (117) n.a. (236) n.a. (38) (79) -52 %
+Derivativos¹ (62) 548 n.a. 725 n.a. 663 1.313 -50 %
+ Swaps de moedas e taxas de juros 192 557 -66 % 362 -47 % 554 1.321 -58 %
+ Outros (commodities, etc) (254) (9) n.a. 363 n.a. 109 (8) n.a.
+Variação cambial (18) 240 n.a. 95 n.a. 77 203 -62 %
+Variação monetária (304) (212) 43 % (260) 17 % (564) (527) 7 %
+Variação cambial e monetária (322) 28 n.a. (165) 95 % (487) (324) 50 %
+Resultado financeiro líquido (473) 167 n.a. 34 n.a. (439) 352 n.a.
+¹ O efeito dos derivativos no caixa reflete um ganho de US$ 337 milhões no 2T26.
+Projetos de manutenção por tipo
+US$ milhões
+Soluções de 
+Minério de Ferro Vale Base Metals Energia e outros Total
+Melhorias nas operações 433 174 1 607 
+Projetos de reposição 9 22 — 31 
+Projetos de filtragem e empilhamento a seco 13 — — 13 
+Gestão de barragens 26 8 — 34 
+Outros investimentos em barragens e pilhas de estéril 67 22 — 89 
+Saúde & Segurança 47 13 12 72 
+Investimentos sociais e proteção ambiental 24 3 — 27 
+Administrativo & Outros 41 6 12 58 
+Total 660 246 24 931 
+Anexos
+ -26-
+
+[p. 27]
+Anexo 2: Informações por segmento
+Resultados por segmento 2T26
+US$ milhões
+Receita
+Líquida Custos¹
+SG&A e
+outras¹ P&D¹
+Pré operacionais 
+e de parada de 
+operação¹
+EBITDA
+Coligadas
+e JVs Streaming
+EBITDA
+Ajustado
+Soluções de Minério de Ferro 7.888 (4.923) (50) (86) (62) 289 — 3.056 
+Finos 6.641 (4.088) (31) (82) (29) 150 — 2.561 
+Pelotas 1.062 (680) 2 — (27) 59 — 416 
+Outros produtos ferrosos e serviços 
+logísticos 185 (155) (21) (4) (6) 80 — 79 
+Vale Metais Básicos 2.610 (1.533) (86) (41) — 48 291 1.289 
+Cobre² 1.555 (479) (30) (20) — — — 1.026 
+Salobo 1.202 (361) (8) (3) — — — 830 
+Sossego 423 (118) (8) (6) — — — 291 
+Outros (70) — (14) (11) — — — (95) 
+Níquel³ 1.241 (946) (24) (20) — 43 — 294 
+Sudbury 610 (483) (8) (1) — — — 118 
+Voisey’s Bay & Long Harbour 309 (195) — 4 — — — 118 
+Refinarias Autônomas 224 (179) — — — — — 45 
+Onça Puma 138 (93) (4) — — — — 41 
+Outros (40) 4 (11) (23) — 43 — (27) 
+Outros⁴ (186) (108) (32) (1) — 5 291 (31) 
+Brumadinho e descaracterização de 
+barragens — — (101) — — — — (101) 
+Despesas não recorrentes — — (289) — — — — (289) 
+Itens não alocados⁵ — — (238) (40) 1 (2) — (279) 
+Total 10.498 (6.456) (764) (167) (61) 335 291 3.676 
+¹ Excluindo depreciação, exaustão e amortização. ² Incluindo subprodutos das operações de cobre. ³ Incluindo cobre e outros subprodutos das operações de níquel. ⁴ A partir do 3T25, as transações de 
+streaming a preços de mercado, anteriormente reportadas em "SG&A e outros", passam a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados. ⁵ Inclui US$ 39 
+milhões de despesas não alocadas da Vale Base Metals Ltd ("VBM") no 2T26. Considerando as despesas não alocadas, o EBITDA da VBM foi US$ 1,3 bilhão no 2T26.
+Informações dos segmentos 2T25
+US$ milhões
+Receita
+Líquida Custos¹
+SG&A e
+outras¹ P&D¹
+Pré operacionais 
+e de parada de 
+operação¹
+EBITDA
+Coligadas
+e JVs Streaming
+EBITDA
+Ajustado
+Soluções de Minério de Ferro 6.963 (4.104) (35) (84) (48) 285 — 2.977 
+Finos 5.762 (3.387) (7) (66) (35) 129 — 2.396 
+Pelotas 1.004 (577) (1) (2) (2) 55 — 477 
+Outros produtos ferrosos e serviços 
+logísticos 197 (140) (27) (16) (11) 101 — 104 
+Vale Metais Básicos 1.841 (1.220) (39) (36) (10) 17 168 721 
+Cobre² 958 (402) (8) (10) — — — 538 
+Salobo 730 (305) (6) (1) — — — 418 
+Sossego 197 (97) (1) (1) — — — 98 
+Outros 31 — (1) (8) — — — 22 
+Níquel³ 1.012 (781) (8) (25) (10) 13 — 201 
+Sudbury 521 (439) (1) (11) — — — 70 
+Voisey’s Bay & Long Harbour 222 (196) (1) (8) — — — 17 
+Refinarias Autônomas 175 (169) — — — — — 6 
+Onça Puma 71 (56) (4) — (2) — — 9 
+Outros 23 79 (2) (6) (8) 13 — 99 
+Outros⁴ (129) (37) (23) (1) — 4 168 (18) 
+Brumadinho e descaracterização de 
+barragens — — (38) — — — — (38) 
+Despesas não recorrentes — — — — — — — — 
+Itens não alocados⁵ — — (235) (39) — — — (274) 
+Total 8.804 (5.324) (347) (159) (58) 302 168 3.386 
+¹ Excluindo depreciação, exaustão e amortização. ² Incluindo subprodutos das operações de cobre. ³ Incluindo cobre e outros subprodutos das operações de níquel. ⁴ A partir do 3T25, as transações de 
+streaming a preços de mercado, anteriormente reportadas em "SG&A e outros", passam a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados. ⁵ Inclui US$ 52 
+milhões de despesas não alocadas da Vale Base Metals Ltd ("VBM") no 2T25. Considerando as despesas não alocadas, o EBITDA da VBM foi US$ 669 milhões no 2T25.
+Anexos
+ -27-
+
+[p. 28]
+Informações dos segmentos 1T26
+US$ milhões
+Receita
+Líquida Custos¹
+SG&A e
+outras¹ P&D¹
+Pré operacionais 
+e de parada de 
+operação¹
+EBITDA
+Coligadas
+e JVs Streaming
+EBITDA
+Ajustado
+Soluções de Minério de Ferro 6.875 (3.997) (72) (66) (31) 197 — 2.906 
+Finos 5.692 (3.245) (46) (57) (22) 119 — 2.441 
+Pelotas 1.030 (587) (1) (1) (2) 40 — 479 
+Outros produtos ferrosos e serviços 
+logísticos 153 (165) (25) (8) (7) 38 — (14) 
+Vale Metais Básicos 2.383 (1.376) (74) (27) — 34 257 1.197 
+Cobre² 1.414 (426) (31) (8) — — — 949 
+Salobo 1.018 (308) (12) (1) — — — 697 
+Sossego 435 (118) (5) (3) — — — 309 
+Outros (38) — (14) (4) — — — (57) 
+Níquel³ 1.184 (910) (8) (19) — 30 — 277 
+Sudbury 675 (444) (3) (1) — — — 227 
+Voisey’s Bay & Long Harbour 311 (248) 9 (6) — — — 66 
+Refinarias Autônomas 222 (198) — — — — — 24 
+Onça Puma 157 (103) (3) — — — — 51 
+Outros (181) 83 (11) (12) — 30 — (91) 
+Outros⁴ (215) (40) (35) — — 4 257 (29) 
+Brumadinho e descaracterização de 
+barragens — — (65) — — — — (65) 
+Despesas não recorrentes — — — — — — — — 
+Itens não alocados⁵ — — (189) (20) (1) 2 — (208) 
+Total 9.258 (5.373) (400) (113) (32) 233 257 3.830 
+¹ Excluindo depreciação, exaustão e amortização. ² Incluindo subprodutos das operações de cobre. ³ Incluindo cobre e outros subprodutos das operações de níquel. ⁴ A partir do 3T25, as transações de 
+streaming a preços de mercado, anteriormente reportadas em "SG&A e outros", passam a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados. ⁵ Inclui US$ 18 
+milhões de despesas não alocadas da Vale Base Metals Ltd ("VBM") no 1T26. Considerando as despesas não alocadas, o EBITDA da VBM foi US$ 1,2 bilhão no 1T26.
+Informações dos segmentos 6M26
+US$ milhões
+Receita
+Líquida Custos¹
+SG&A e
+outras¹ P&D¹
+Pré operacionais 
+e de parada de 
+operação¹
+EBITDA
+Coligadas
+e JVs Streaming
+EBITDA
+Ajustado
+Soluções de Minério de Ferro 14.763 (8.920) (122) (152) (93) 486 — 5.962 
+Finos 12.333 (7.333) (77) (139) (51) 269 — 5.002 
+Pelotas 2.092 (1.267) 1 (1) (29) 99 — 895 
+Outros produtos ferrosos e serviços 
+logísticos 338 (320) (46) (12) (13) 118 — 65 
+Vale Metais Básicos 4.993 (2.909) (160) (68) — 82 548 2.486 
+Cobre² 2.969 (905) (61) (28) — — — 1.975 
+Salobo 2.219 (669) (19) (4) — — — 1.527 
+Sossego 858 (236) (13) (9) — — — 600 
+Outros 108 — 29 (15) — — — (152) 
+Níquel³ 2.425 (1.856) (32) (39) — 73 — 571 
+Sudbury 1.285 (927) (11) (2) — — — 345 
+Voisey’s Bay & Long Harbour 620 (443) 9 (2) — — — 184 
+Refinarias Autônomas 446 (377) — — — — — 69 
+Onça Puma 296 (197) (7) — — — — 92 
+Outros (223) 88 (23) (34) — 73 — (119) 
+Outros⁴ (401) (148) (67) (1) — 9 548 (60) 
+Brumadinho e descaracterização de 
+barragens — — (166) — — — — (166) 
+Despesas não recorrentes — — (289) — — — — (289) 
+Itens não alocados⁵ — — (427) (60) — — — (487) 
+Total 19.756 (11.829) (1.164) (280) (93) 568 548 7.506 
+¹ Excluindo depreciação, exaustão e amortização. ² Incluindo subprodutos das operações de cobre. ³ Incluindo cobre e outros subprodutos das operações de níquel. ⁴ A partir do 3T25, as transações de 
+streaming a preços de mercado, anteriormente reportadas em "SG&A e outros", passam a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados. ⁵ Inclui US$ 56 
+milhões de despesas não alocadas da Vale Base Metals Ltd ("VBM") no 6M26. Considerando as despesas não alocadas, o EBITDA da VBM foi US$ 2,4 bilhão no 6M26.
+Anexos
+ -28-
+
+[p. 29]
+Informações dos segmentos 6M25
+US$ milhões
+Receita
+Líquida Custos¹
+SG&A e
+outras¹ P&D¹
+Pré operacionais 
+e de parada de 
+operação¹
+EBITDA
+Coligadas
+e JVs Streaming
+EBITDA
+Ajustado
+Soluções de Minério de Ferro 13.338 (7.610) (60) (138) (117) 451 — 5.864 
+Finos 10.916 (6.197) (11) (111) (93) 225 — 4.729 
+Pelotas 2.059 (1.136) 2 (3) (4) 95 — 1.013 
+Outros produtos ferrosos e serviços 
+logísticos 363 (277) (51) (24) (20) 131 — 122 
+Vale Metais Básicos 3.585 (2.504) (104) (68) (12) 43 335 1.275 
+Cobre² 1.858 (741) (12) (20) (1) — — 1.084 
+Salobo 1.395 (562) (9) (1) (1) — — 822 
+Sossego 362 (179) (1) (4) — — — 178 
+Outros 101 — (2) (15) — — — 84 
+Níquel³ 1.981 (1.688) (29) (47) (11) 36 — 242 
+Sudbury 1.028 (929) (5) (20) — — — 74 
+Voisey’s Bay & Long Harbour 435 (453) (1) (14) — — — (33) 
+Refinarias Autônomas 392 (362) — — — — — 30 
+Onça Puma 146 (108) (6) — (3) — — 28 
+Outros (20) 164 (17) (13) (8) 36 — 143 
+Outros⁴ (254) (75) (63) (1) — 7 335 (51) 
+Brumadinho e descaracterização de 
+barragens — — (135) — — — — (135) 
+Despesas não recorrentes — — — — — — — — 
+Itens não alocados⁵ — — (427) (76) — — — (503) 
+Total 16.923 (10.114) (726) (282) (129) 494 335 6.501 
+¹ Excluindo depreciação, exaustão e amortização. ² Incluindo subprodutos das operações de cobre. ³ Incluindo cobre e outros subprodutos das operações de níquel. ⁴ A partir do 3T25, as transações de 
+streaming a preços de mercado, anteriormente reportadas em "SG&A e outros", passam a ser divulgadas separadamente como Streaming. Os períodos anteriores foram reapresentados. ⁵ Inclui US$ 78 
+milhões de despesas não alocadas da Vale Base Metals Ltd ("VBM") no 6M25. Considerando as despesas não alocadas, o EBITDA da VBM foi US$ 1,2 bilhão no 6M25.
+Anexos
+ -29-
+
+[p. 30]
+Anexo 3: Informações adicionais por segmento de negócio
+Soluções de Minério de Ferro: Resultados financeiros detalhados
+Volumes, preços, prêmio e receita
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Volume vendido (mil toneladas métricas)
+Finos¹ 69.946 67.678 3 % 59.436 18 % 129.381 124.441 4 %
+IOCJ 4.271 6.397 -33 % 3.833 11 % 8.104 10.993 -26 %
+BRBF 30.295 32.148 -6 % 30.175 0 % 60.470 67.962 -11 %
+Mid-Grade Carajás 13.014 10.402 25 % 7.662 70 % 20.676 13.590 52 %
+Pellet feed - China (PFC1)² 11.863 5.518 115 % 9.069 31 % 20.932 9.446 122 %
+Granulados 2.244 1.717 31 % 2.111 6 % 4.355 3.396 28 %
+Produtos de alta sílica 1.038 3.886 -73 % 681 52 % 1.719 5.843 -71 %
+Outros finos (60-62% Fe) 7.221 7.610 -5 % 5.905 22 % 13.126 13.210 -1 %
+Pelotas 7.748 7.483 4 % 7.699 1 % 15.447 14.976 3 %
+ROM 2.053 2.185 -6 % 1.578 30 % 3.631 4.071 -11 %
+Total - Vendas minério de ferro 79.747 77.346 3 % 68.713 16 % 148.460 143.487 3 %
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Preço médio (US$/t)
+ Minério de Ferro - índice 61% Fe 105,0 94,5 11 % 103,6 1 % 104,3 97,5 7 %
+ Minério de Ferro - índice 62% Fe low alumina 110,3 97,2 13 % 108,3 2 % 109,3 100,2 9 %
+ Minério de Ferro - índice 65% Fe 122,1 108,8 12 % 121,2 1 % 121,7 112,9 8 %
+ Preço provisório no final do trimestre 99,0 90,7 9 % 106,1 -7 % 99,0 94,4 5 %
+ Referência de finos de minério de ferro da 
+Vale, CFR (dmt) 106,0 95,2 11 % 106,9 -1 % 106,5 98,4 8 %
+ Preço realizado de finos de minério de ferro, 
+CFR/FOB (wmt) 95,0 85,1 12 % 95,8 -1 % 95,3 87,7 9 %
+ Preço realizado de pelotas de minério de 
+ferro, CFR/FOB (wmt) 137,0 134,1 2 % 133,8 2 % 135,4 137,5 -2 %
+Prêmio de qualidade de finos de minério de 
+ferro e pelotas (US$/t)
+ Qualidade e prêmio de finos minério de ferro 3,0 1,9 58 % 4,1 -27 % 3,5 1,8 94 %
+ Contribuição ponderada média do negócio de 
+pelotas 1,4 2,2 -36 % 2,1 -33 % 1,7 2,6 -35 %
+ Prêmio all-in - Total 4,4 4,1 7 % 6,2 -29 % 5,2 4,4 18 %
+Receita de vendas, líquida, por produto (US$ 
+milhões)
+ Finos 6.641 5.762 15 % 5.692 17 % 12.333 10.916 13 %
+ ROM 34 27 26 % 20 70 % 54 55 -2 %
+ Pelotas 1.062 1.004 6 % 1.030 3 % 2.092 2.059 2 %
+ Outros produtos ferrosos e serviços logísticos 151 170 -11 % 133 14 % 284 308 -8 %
+ Total 7.888 6.963 13 % 6.875 15 % 14.763 13.338 11 %
+1 Inclui compra de terceiros. 2 Produtos concentrados nas instalações chinesas.
+Anexos
+ -30-
+
+[p. 31]
+Volumes vendidos por destino – Finos, pelotas e ROM
+mil toneladas métricas 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Américas 8.901 8.993 -1 % 8.734 2 % 17.635 17.880 -1 %
+Brasil 8.094 8.166 -1 % 7.715 5 % 15.809 16.326 -3 %
+Outros 807 827 -2 % 1.019 -21 % 1.826 1.554 18 %
+Ásia 64.238 62.195 3 % 53.897 19 % 118.135 112.633 5 %
+China 51.187 48.903 5 % 40.855 25 % 92.042 88.538 4 %
+Japão 5.847 6.286 -7 % 5.930 -1 % 11.777 11.120 6 %
+Outros 7.204 7.006 3 % 7.112 1 % 14.316 12.975 10 %
+Europa 3.903 3.458 13 % 3.724 5 % 7.627 7.420 3 %
+Alemanha 1.257 1.060 19 % 1.089 15 % 2.346 2.219 6 %
+França 366 247 48 % 97 277 % 463 559 -17 %
+Outros 2.280 2.151 6 % 2.538 -10 % 4.818 4.642 4 %
+Oriente Médio 800 1.387 -42 % 1.231 -35 % 2.031 2.689 -24 %
+Resto do mundo 1.905 1.313 45 % 1.127 69 % 3.032 2.866 6 %
+Total 79.747 77.346 3 % 68.713 16 % 148.460 143.487 3 %
+Preços de finos de minério de ferro
+Sistema de precificação (%)
+2T26 2T25 Δ a/a 1T26 Δ t/t
+Defasado 12 13 -8 % 13 -8 %
+Corrente 58 57 2 % 65 -11 %
+Provisório 30 30 0 % 22 36 %
+Total 100 100 0 % 100 0 %
+Realização de preço
+US$ por tonelada 2T26 2T25 Δ a/a 1T26 Δ t/t
+Preço referência 61%Fe médio (dmt) 105,0 94,5 11 % 103,6 1 %
+Qualidade e prêmios¹ 3,0 1,9 58 % 4,1 -27 %
+Impacto dos ajustes do sistema de precificação (2,0) (1,1) 82 % (0,8) 150 %
+Preços provisórios no trimestre anterior² 0,0 (0,5) -100 % (0,7) -100 %
+Preços defasados (0,4) 0,6 n.a. (0,4) 0 %
+Preços correntes 0,1 (0,2) n.a. (0,2) n.a.
+Preços provisórios no trimestre atual³ (1,8) (1,0) 80 % 0,5 n.a.
+Preço CFR referência (dmt) 106,0 95,3 11 % 106,9 -1 %
+Ajuste de vendas FOB⁴ (2,5) (2,3) 9 % (2,6) -4 %
+Umidade (8,5) (7,9) 8 % (8,5) 0 %
+Preço realizado da Vale (wmt)⁵ 95,0 85,1 12 % 95,8 -1 %
+1 Inclui qualidade (US$ 2,8/t) e prêmios/descontos e condições comerciais (US$ 0,2/t). 2 Ajuste em função dos preços provisórios registrados no 1T26 em US$ 106,1/t. 3 Diferença entre a média ponderada 
+dos preços fixados provisoriamente no final do 2T26 em US$ 99,0/t com base nas curvas futuras e US$ 105,0/t do preço de referência média do 2T26. 4 Inclui mecanismos de precificação de frete no 
+reconhecimento de vendas CFR. 5 Preço da Vale líquido de impostos. Períodos anteriores foram reapresentados.
+Anexos
+ -31-
+
+[p. 32]
+Custos e despesas de finos de minério de ferro
+CPV – 2T26 vs. 2T25
+US$ milhões 2T25 Volume Câmbio Outros
+Variação 
+total 2T26
+Custo caixa C1 1.781 65 103 (11) 157 1.938 
+Frete 1.096 49 — 231 280 1.376 
+Custos de distribuição 239 8 — 123 131 370 
+Royalties e outros¹ 271 9 — 124 133 404 
+Custos totais antes de depreciação e amortização 3.387 131 103 467 701 4.088 
+Depreciação 388 15 32 33 80 468 
+Total 3.775 146 135 500 781 4.556 
+¹ Incluindo custos de paradas (USD 102MM no 2T26).
+Custo caixa e frete 
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Custo caixa C1 (US$ milhões)
+Custo caixa C1, incluindo custos de compra de terceiros (A) 1.938 1.781 9% 1.673 16% 3.611 3.182 13% 
+Custo de aquisição de terceiros¹ (B) 430 458 -6% 432 0% 862 798 8% 
+Custo caixa C1 ex-custo de aquisição de terceiros
+(C = A – B) 1.508 1.323 14% 1.241 22% 2.749 2.384 15% 
+Volume de vendas (Mt)
+Volume vendido² (D) 69,9 67,7 3% 59,4 18% 129,4 124,4 4% 
+Volume vendido de compra de terceiros (E) 7,4 8,1 -9% 6,8 9% 14,2 14,4 -1% 
+Volume vendido das próprias operações (F = D – E) 62,5 59,5 5% 52,7 19% 115,2 110,0 5% 
+Custo caixa C1² FOB (US$ /t)
+Custo caixa C1 ex-custo de compra de terceiros (C/F) 24,1 22,2 9% 23,6 2% 23,9 21,7 10% 
+Custo caixa C1, médio, de compra de terceiros (B/E) 58,0 56,3 3% 63,6 -9% 60,7 55,6 9% 
+Custo caixa C1 de minério de ferro (A/D) 27,7 26,3 5% 28,1 -1% 27,9 25,6 9% 
+Frete
+Custos de frete marítimo (G) 1.376 1.096 26% 954 44% 2.331 2.042 14%
+% de Vendas CFR (H) 89 % 88 % 1 p.p. 89 % 0 p.p. 89 % 89 % 0 p.p.
+Volume CFR (Mt) (I = D x H) 62,5 59,8 5% 52,8 18% 115,4 110,7 4%
+Custo unitário de frete (US$/t) (G/I) 22,0 18,3 20 % 18,1 22 % 20,2 18,4 10 %
+1 Inclui custos logísticos da compra de terceiros. 2 Exclui ROM, royalties e custos de distribuição.
+Despesas
+US$ milhões 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Vendas 13 11 18 % 12 8 % 25 25 0 %
+P&D 82 66 24 % 57 44 % 139 111 25 %
+Despesas pré-operacionais e de parada de 
+operação 29 35 -17 % 22 32 % 51 93 -45 %
+Outras despesas 18 (4) n.a. 34 -47 % 52 (14) n.a.
+Despesas totais 142 108 31 % 125 14 % 267 215 24 %
+Anexos
+ -32-
+
+[p. 33]
+Soluções de Minério de Ferro: detalhes dos projetos
+Projetos de crescimento Capex 2T26 Progresso 
+financeiro¹
+Progresso 
+físico Comentários
+Serra Sul +20
+Capacidade: 20 Mtpa 
+Start-up: 2S26
+Capex: US$ 2.844 milhões
+86 71% 88% Comissionamento da correia transportadora 
+de longa distância iniciou em julho de 2026. 
+Projetos de manutenção Capex 2T26 Progresso 
+financeiro¹
+Progresso 
+físico Comentários
+Britador de Compactos S11D
+Capacidade: 50 Mtpa
+Start-up: 4T26
+Capex: US$ 755 milhões
+21 78% 95%
+As obras de montagem eletromecânica estão 
+em fase final e os testes com carga nas 
+britagens primária e secundária já foram 
+iniciados.
+1 Desembolso de CAPEX até o final do 2T26 vs. CAPEX esperado. 
+Projetos sob avaliação
+Apolo Capacidade: 14 Mpta Estágio: FEL2
+Sistema Sudeste (Brasil) Projeto de crescimento
+Participação da Vale: 100% Mina a céu aberto
+Plantas de briquete Capacidade: Em avaliação Estágio: 1 planta em construção; 1 planta em FEL2; 2 
+plantas em diferentes FEL
+Brasil e outras regiões Projeto de crescimento Decisão de investimento: 2026-2030
+Participação da Vale: N/A Planta de aglomeração a frio
+Minas Itabira Capacidade: 25 Mtpa Estágio: projetos em diferentes fases de FEL1 e FEL2
+Sistema Sudeste (Brasil) Projeto de reposição
+Participação da Vale: 100% Mina a céu aberto
+Projetos de cavas, rejeitos e pilhas de estéril 
+voltadas para a manutenção dos volumes de longo-
+prazo de Itabira
+Mega Hubs Capacidade: Em avaliação Estágio: Estudo de pré-viabilidade
+Oriente Médio Projeto de crescimento
+Participação da Vale: N/A
+Complexos industriais para concentração e 
+aglomeração de minério de ferro e produção de 
+metálicos de redução direta
+A Vale continua a avançar nas negociações com players de 
+classe mundial e estuda conjuntamente o 
+desenvolvimento de Mega Hubs.
+S11C Capacidade: Em avaliação Estágio: FEL2
+Sistema Norte (Brasil) Projeto de reposição
+Participação da Vale: 100% Mina a céu aberto
+Serra Norte N1/N21 Capacidade: 10 Mpta Estágio: FEL2
+Sistema Norte (Brasil) Projeto de reposição
+Participação da Vale: 100% Mina a céu aberto. 
+Expansão da Serra Leste Capacidade: 10 Mpta (+4 Mtpa) Estágio: Engenharia
+Sistema Norte (Brasil) Projeto de crescimento
+Participação da Vale: 100% Mina a céu aberto. O projeto será implementado em 
+fases até a atingir a capacidade
+Parte da capacidade de expansão já está em execução, 
+incluindo o repotenciamento das Usinas II e III e a 
+implantação do Túnel
+1 O escopo do projeto está em revisão, devido às restrições de licenciamento.
+Anexos
+ -33-
+
+[p. 34]
+Vale Metais Básicos: Cobre 
+Receitas e realização de preço 
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Volume vendido
+Cobre (mil toneladas métricas) 78 66 18 % 72 8 % 150 127 18 %
+Ouro como subproduto (milhares de oz) 101 98 3 % 98 3 % 199 193 3 %
+Prata como subproduto (milhares de oz) 330 287 15 % 244 35 % 574 565 2 %
+Preço médio
+Preço médio de cobre LME (US$/t) 13.329 9.524 40 % 12.844 4 % 13.083 9.431 39 %
+Preço médio realizado de cobre (US$/t) 14.062 8.985 57 % 13.143 7 % 13.621 8.940 52 %
+Ouro (US$/oz)¹ 4.977 3.263 53 % 4.975 0 % 4.976 3.106 60 %
+Prata (US$/oz) 84 32 163 % 88 -5 % 86 32 169 %
+Receita líquida (US$ milhões)
+Cobre 1.093 597 83 % 945 16 % 2.038 1.138 79 %
+Ouro como subproduto¹ 505 320 58 % 486 4 % 991 601 65 %
+Prata como subproduto 28 9 211 % 21 33 % 49 18 172 %
+Total 1.626 926 76 % 1.452 12 % 3.078 1.756 75 %
+Ajustes de preços provisórios2 (71) 32 n.a. (38) 87 % (109) 102 n.a.
+Receita líquida depois de ajuste de preços 
+provisórios 1.555 958 62 % 1.414 10 % 2.969 1.858 60 %
+1 As receitas apresentadas foram ajustadas para refletir os preços de mercado dos produtos vendidos relacionados às transações de streaming. 2 Em 30 de junho de 2026, a Vale precificou 
+provisoriamente as vendas de cobre de Sossego e Salobo totalizando 67.669 toneladas, avaliadas ao preço médio ponderado de US$ 13.389/t na LME, sujeito à precificação final nos meses seguintes.
+Preços realizados de cobre
+US$/t 2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Preço médio de cobre na LME 13.329 9.524 40 % 12.844 4 % 13.083 9.431 39 %
+Ajuste de preço do período atual¹ (179) (73) 145 % (618) -71 % (376) (73) n.a.
+Preço realizado bruto de cobre 13.150 9.450 39 % 12.227 8 % 12.707 9.357 36 %
+Ajuste de preço de períodos anteriores² 1.012 (247) n.a. 1.119 -10 % 1.062 (167) n.a.
+Preço realizado de cobre antes de 
+descontos 14.162 9.203 54 % 13.346 6 % 13.770 9.190 50 %
+TC/RCs, penalidades, prêmios e descontos³ (100) (218) -54 % (202) -50 % (149) (250) -40 %
+Preço realizado médio de cobre 14.062 8.985 57 % 13.143 7 % 13.621 8.940 52 %
+Nota: Os produtos de cobre da Vale são vendidos com base em preços provisórios, com preços finais determinados em período futuro. O preço médio realizado do cobre exclui a marcação a mercado de 
+faturas em aberto com base na curva futura do preço do cobre (ajustes de preços provisórios não realizados) e inclui os ajustes de preços do período anterior e atual (ajustes de preços provisórios 
+realizados). 1 Ajuste de preço do período atual: faturas finais com preços provisórios e liquidadas no trimestre. 2 Ajuste de preço de períodos anteriores: faturas finais de vendas com preços provisórios de 
+trimestres anteriores. 3 TC/RCs, penalidades, prêmios e descontos por produtos intermediários. 
+Anexos
+ -34-
+
+[p. 35]
+Vale Metais Básicos: Níquel 
+Receitas e realização de preço 
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Volume vendido (milhares de toneladas 
+métricas)
+Níquel 44 41 7 % 45 -2 % 89 80 11 %
+Cobre 20 23 -13 % 19 5 % 39 44 -11 %
+Ouro como subproduto (milhares de oz) 8 11 -27 % 9 -11 % 17 20 -15 %
+Prata como subproduto (milhares de oz) 191 286 -33 % 245 -22 % 436 580 -25 %
+PGMs (milhares de oz) 39 57 -32 % 44 -11 % 83 113 -27 %
+Cobalto (toneladas métricas) 920 667 38 % 665 38 % 1.585 1.348 18 %
+Preço médio realizado (US$/t)
+Níquel 18.061 15.800 14 % 17.015 6 % 17.535 15.948 10 %
+Cobre 14.260 8.693 64 % 13.895 3 % 14.080 8.351 69 %
+Ouro (US$/oz) 4.554 3.429 33 % 5.090 -11 % 4.840 3.255 49 %
+Prata (US$/oz) 97 35 177 % 103 -6 % 100 33 203 %
+Cobalto 62.046 36.692 69 % 56.556 10 % 59.743 31.511 90 %
+Receita líquida por produto (US$ milhões)
+Níquel 801 657 22 % 763 5 % 1.564 1.280 22 %
+Cobre 283 197 44 % 269 5 % 553 365 52 %
+Ouro como subproduto¹ 36 38 -5 % 46 -22 % 80 65 23 %
+Prata como subproduto 18 10 80 % 25 -28 % 44 19 132 %
+PGMs 53 70 -24 % 136 -61 % 189 127 49 %
+Cobalto¹ 57 24 138 % 38 50 % 95 42 126 %
+Outros 10 12 -17 % 12 -17 % 22 21 5 %
+Total 1.259 1.008 25 % 1.289 -2 % 2.547 1.919 33 %
+Ajustes de preços provisórios (17) 4 n.a. (104) -84 % (121) 62 n.a.
+Receita líquida depois de ajuste de preços 
+provisórios 1.242 1.012 23 % 1.184 5 % 2.426 1.981 22 %
+1 As receitas apresentadas acima foram ajustadas para refletir os preços de mercado dos produtos vendidos relacionados às transações de streaming.
+Volume de níquel vendido, preço realizado e prêmio
+2T26 2T25 Δ a/a 1T26 Δ t/t 6M26 6M25 Δ a/a
+Volumes (kt)
+Níquel classe I 29,5 30,6 -4 % 31,0 -5 % 60,5 60,2 0 %
+Níquel classe II 14,4 10,4 38 % 13,2 9 % 27,6 19,3 43 %
+Intermediários 0,4 0,4 0 % 0,6 -33 % 1,1 0,8 38 %
+Total 44,4 41,4 7 % 44,8 -1 % 89,2 80,3 11 %
+Preço realizado de níquel (US$/t)
+Preço médio de níquel da LME 18.131 15.171 20 % 17.356 4 % 17.737 15.374 15 %
+Preço médio realizado de níquel 18.061 15.800 14 % 17.015 6 % 17.535 15.948 10 %
+Contribuição para o preço realizado por 
+categoria de níquel:
+Média do prêmio/(desconto) realizado de 
+níquel 78 414 -81 % (6) n.a. 36 517 -93 %
+Outros ajustes de precificação e timing¹ (148) 214 n.a. (336) -56 % (238) 57 n.a.
+1 Compreende (a) os efeitos do período cotacional realizado (baseado na distribuição das vendas nos três meses anteriores, bem como as diferenças entre o preço de níquel da LME no momento da 
+venda e a média de preços da LME), com impacto negativo de US$ 74/t, e (b) as vendas a preço fixo, com impacto negativo de US$ 74/t.
+Anexos
+ -35-
+
+[p. 36]
+Tipo de produto por operação
+% das vendas Atlântico Norte¹ Matsusaka Onça Puma
+Níquel classe I 95,5 — — 
+Níquel classe II 4,2 99,7 95,6 
+Intermediários 0,3 0,3 4,4 
+¹ Compreende as refinarias de Sudbury, Clydach e Long Harbour.
+Vale Metais Básicos: detalhes dos projetos 
+Projetos de manutenção Capex 2T26 Progresso 
+financeiro¹
+Progresso 
+físico Comentários
+Bacaba
+Capacidade: 50 ktpa
+Start-up: 3T27
+Capex: US$ 290 milhões
+43 15% 39%
+As obras estão adiantado em relação ao 
+cronograma e sem incidentes de 
+segurança. As principais obras da 
+ponte, atividades de pre-stripping e 
+trabalhos de infraestrutura seguem 
+avançados.
+¹Desembolso de CAPEX até o final do 2T26 vs. Capex esperado.
+Projetos sob avaliação 
+Cobre
+Alemão Capacidade: ~80 ktpa Estágio: FEL3
+Carajás, Brasil Projeto de crescimento Decisão de investimento: 2027
+Participação da Vale Base Metals: 100%Mina subterrânea e planta de processamento 140 kozpa de Au como subproduto
+Extensão Hub Sul (118 e Cristalino) Capacidade: 60-80 ktpa Estágio: FEL2-FEL3
+Carajás, Brasil Projeto de reposição
+Participação da Vale Base Metals: 100%Minas a céu aberto
+NRSE1 Capacidade: ~25 ktpa Estágio: FEL3
+Ontário, Canadá Projeto de crescimento Decisão de investimento: 2027
+Participação da Vale Base Metals: 50%Mina subterrânea e planta de processamento 5 ktpa de Ni como subproduto; Parceria de JV em 
+discussão
+Hu’u Capacidade: 300-350 ktpa Estágio: FEL2
+Dompu, Indonésia Projeto de crescimento 200 kozpa de Au como subproduto
+Participação da Vale Base Metals: 80%Mina subterrânea (Block cave) e planta de 
+processamento
+Paulo Afonso (Hub Norte) Capacidade: 70-100 ktpa Estágio: FEL2
+Carajás, Brasil Projeto de crescimento
+Participação da Vale Base Metals: 100%Mina a céu aberto e planta de processamento 
+Expansão da planta em Salobo Capacidade: ~30 ktpa Estágio: FEL3
+Carajás, Brasil Projeto de crescimento Decisão de investimento: 2026
+Participação da Vale Base Metals: 100% Planta de processamento
+Nickel
+CCM Pit Capacidade: 12-15 ktpa Estágio: FEL3
+Ontario, Canadá Projeto de reposição Decisão de investimento: 2026-2027
+Participação da Vale Base Metals: 100%Mina a céu aberto 7-9 ktpa Cu como subproduto
+1 Nickel Rim South Extension – este era o projeto Victor em relatórios anteriores. Os valores refletem a participação societária esperada de 50% em uma parceria de J oint Venture atualmente em 
+discussão.
+Anexos
+ -36-
+
+[p. 37]
+Anexo 4: Brumadinho, Samarco e 
+Descaracterização de barragens
+Brumadinho e Descaracterização de barragens
+US$ milhões
+Saldo provisões 
+31mar26 Impacto EBITDA² Pagamentos 
+FX e outros 
+ajustes³
+Saldo provisões 
+30jun26
+Descaracterização 2.184 (53) (71) 64 2.124 
+Acordos e doações¹ 1.959 5 (263) 73 1.774 
+Total de provisões 4.143 (48) (334) 137 3.898 
+Despesas incorridas — 149 (149) — — 
+Total 4.143 101 (483) 137 3.898 
+1 Inclui o Acordo de Reparação Integral, indenizações individuais, trabalhistas e emergenciais, e obras de remoção e contenção de rejeitos. 2 Inclui a revisão de estimativas para provisões e despesas 
+incorridas, incluindo o efeito da taxa de desconto. 3 Inclui variações cambiais, valor presente e outros ajustes.
+Impacto de Brumadinho e Descaracterização desde 2019 até 2Q26
+US$ milhões Impacto EBITDA Pagamentos
+FX e outros 
+ajustes²
+Saldo provisões 
+30jun26
+Descaracterização 4.744 (2.641) 21 2.124 
+Acordos e doações¹ 9.531 (8.485) 728 1.774 
+Total de provisões 14.275 (11.126) 749 3.898 
+Despesas incorridas 3.868 (3.868) — — 
+Outros 180 (178) (2) — 
+Total 18.323 (15.172) 747 3.898 
+1 Inclui o Acordo de Reparação Integral, indenizações individuais, trabalhistas e emergenciais, e os trabalhos de remoção e contenção de rejeitos. 2 Inclui variações cambiais, valor presente e outros 
+ajustes.
+Desembolso de caixa dos compromissos de Brumadinho (incluído na dívida líquida expandida)1 2
+US$ bilhão
+Desembolsado de 
+2019 até 2T26
+2026 (excl. 
+6M26) 2027 2028
+Média anual
+2029-2031
+Acordo de Reparação Integral e outras provisões de reparação (8,5) 0,6 0,7 0,3 0,1 
+1 Desembolso de caixa esperado dada a taxa de câmbio BRL-USD de 5,1766, em 30 de junho de 2026. 2 Valores expressos sem desconto a valor presente, líquido de depósitos judiciais e não corrigido pela 
+inflação.
+Desembolso de caixa dos compromissos da Samarco (incluído na dívida líquida expandida)1 2 3 
+Desembolsado
+2026 (excl. 
+6M26) 2027 2028 2029 2030 2031
+Média anual 
+2032 - 2043
+Reparação de Mariana - 100% 82,4 3,7 7,0 5,9 9,0 9,5 6,9 5,4 
+Contribuição Vale (R$ bilhão) 1,8 3,5 2,2 3,5 3,3 — — 
+Contribuição Vale (US$ bilhão) 0,4 0,7 0,4 0,7 0,6 — — 
+1 Valores expressos em termos reais. 2 Desembolso de caixa esperado dada a taxa de câmbio BRL-USD de 5,1766, em 30 de junho de 2026. 3 Inclui provisão referente à Ação no Reino Unido.
+Desembolso de caixa com descaracterização e despesas incorridas (não incluído na dívida líquida 
+expandida)¹ ²
+US$ bilhão
+Desembolsado de 
+2019 até 2T26
+2026 (excl. 
+6M26) 2027 2028
+Média anual
+2029-2035
+Descaracterização (2,6) 0,3 0,5 0,4 0.2³
+Despesas incorridas (3,9) 0,2 0,3 0,3 0.2⁴
+Total (6,5) 0,5 0,8 0,7 — 
+1 Desembolso de caixa esperado dada a taxa de câmbio BRL-USD de 5,1766, em 30 de junho de 2026. 2 Valores expressos sem desconto a valor presente, líquido de depósitos judiciais e não corrigido pela 
+inflação. 3 Média anual esperada dos desembolsos de caixa para as provisões de descaracterização para os períodos de 2029-2035 é de US$ 231 milhões por ano. 4 Desembolsos relacionados a despesas 
+incorridas terminam em 2030.
+Anexos
+ -37-
+
+[p. 38]
+Rio de Janeiro, July 30th, 2026
+Vale’s performance
+in 2Q26
+“We delivered solid year-on-year results across all businesses, with iron ore reaching its highest Q2 production since 2018 and copper 
+its best Q2 in nine years. Our strong EBITDA and cash flow generation demonstrate Vale’s strength and resilience in a dynamic 
+global environment, supported by the high quality of our assets and our continued commitment to operational excellence and 
+efficiency. We are also advancing our portfolio of high-return, low capital-intensity projects. The start-up of the Serra Sul +20 will 
+further strengthen our position at S11D, our most competitive iron ore operation. On copper, the Bacaba project is advancing ahead 
+of schedule, being one of the milestones towards our ambition to double copper production by 2035. Backed by our solid 
+performance in 1H26, our Board of Directors approved US$ 1.7 billion in dividends and interest on capital and extended our buyback 
+program, reflecting our conviction in Vale's long-term value. I am very confident about Vale's future, as we continue to consistently 
+operate our assets, invest in high-return projects and remunerate our shareholders, while also creating value to society.“, 
+commented Gustavo Pimenta, CEO
+Selected financial indicators
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Net operating revenues 10,498 8,804 19% 9,258 13% 19,756 16,923 17% 
+Total costs and expenses (ex-Brumadinho and 
+dams decharacterization)¹ (7,969) (6,630) 20% (6,698) 19% (14,667) (12,600) 16% 
+Expenses related to Brumadinho and dams 
+decharacterization (101) (38) 166% (65) 55% (166) (135) 23% 
+Adjusted EBIT 2,765 2,606 6% 2,985 -7% 5,750 5,017 15% 
+Adjusted EBITDA 3,676 3,386 9% 3,830 -4% 7,506 6,501 15% 
+Proforma EBITDA1 4,066 3,424 19% 3,895 4% 7,961 6,636 20% 
+Proforma EBITDA margin (%) 39% 39% 0 p.p 42% -3 p.p 40% 39% 3 p.p 
+Free cash flow 1,505 1,008 49% 813 85% 2,318 1,512 53% 
+Recurring free cash flow 1,505 1,008 49% 813 85% 2,318 1,512 53% 
+Attributable net income 1,375 2,117 -35% 1,893 -27% 3,268 3,511 -7% 
+Attributable proforma net income 1,566 2,117 -26% 1,893 -17% 3,459 3,588 -4% 
+Net debt2 13,173 12,149 8% 13,558 -3% 13,173 12,149 8% 
+Expanded net debt 16,677 17,448 -4% 17,792 -6% 16,677 17,448 -4% 
+Capital expenditures 1,128 1,053 7% 1,089 4% 2,217 2,227 0% 
+1 Excluding expenses related to Brumadinho and non-recurring items. There were US$ -289 million in non-recurring items in 2Q26. 2 Including leases (IFRS 16).
+Results Highlights
+• Sales improved across all segments. Iron ore, copper, and nickel sales increased by 3% (+2Mt), 10% (+9kt), and 7% (+3kt) y/y, 
+respectively. 
+• Base metals prices up q/q; iron ore resilient. Realized iron ore fines prices averaged US$ 95.0/t (-1% q/q, +12% y/y). Realized 
+copper prices increased to US$ 14,062/t (+7% q/q, +57% y/y), while realized nickel prices reached US$ 18,061/t (+6% q/q, +14% y/y).
+• Iron ore costs impacted by BRL and bunker prices. C1 cash cost was US$ 24.1/t (+9% y/y), mainly reflecting the BRL appreciation, 
+while all-in costs reached US$ 61.6/t (+ 18% y/y), further pressured by higher freight prices. C1 cash costs and all-in costs were 
+revised to US$ 22.5-23.5/t and US$ 58-62/t, respectively, largely reflecting a stronger BRL and higher oil price expectations.
+• Base metals competitiveness materially enhanced. Copper all-in costs improved to US$ -257/t in the quarter while nickel all-in 
+costs declined 17% y/y to US$ 10,340/t, mainly driven by strong by-product revenues. All-in cash costs for copper and nickel were 
+revised to US$ 0-500/t and US$ 10,000-11,500/t, respectively , largely driven by stronger by-product price expectations and 
+solid operational performance, counterbalanced by additional cost pressures arising from fuel prices and stronger BRL expectations.
+• Proforma EBITDA of US$ 4.1 billion, up 19% y/y (+4% q/q), driven by higher realized prices and sales volumes, offsetting exogenous 
+cost effects.
+• Capital expenditures of US$ 1.1 billion, in line with the 2026 guidance of US$ 5.4-5.7 billion. 
+• Recurring Free Cash Flow of US$ 1.505 billion, US$ 497 million higher y/y, driven by stronger Proforma EBITDA.
+• Expanded net debt of US$ 16.7 billion at quarter-end, US$ 1.1 billion lower q/q, driven by cash flow generation.
+• US$ 140 million in shares repurchased in the quarter, representing circa 8.77 million shares, as part of the ongoing share buyback 
+program announced in February 2025. A new share buyback program was approved, comprising up to 100 million shares. 
+• US$ 1.701 billion in dividends and interest on capital to be paid in September, reflecting the shareholder remuneration policy 
+applied to 1H26 results.
+ -1-
+
+[p. 39]
+Business 
+Highlights
+Iron Ore Solutions
+• The Serra Sul +20 project started in July, with the commissioning of the second long-distance conveyor belt 
+system. The project, which also includes mine and plant expansions, will provide greater operational 
+flexibility and, once fully ramped-up, is expected to add 20 Mtpy of production capacity to the site, together 
+with the Compact Crushing project, which will start-up in 4Q26.
+Vale Base Metals
+• Copper and nickel 2026 production guidances were narrowed to 360-380 kt and 185-200 kt, respectively, 
+following strong operational performance across both segments in 1H26.
+• The Bacaba project construction works are progressing ahead of schedule, with 39% physical progress at 
+the end of 2Q26. The project is now expected to start-up in 3Q27, from 1H28 originally. 
+• Vale Canada Limited and the United Steelworkers Locals 6200 and 6500 successfully negotiated a new 
+five-year collective agreement. The agreement reinforces labor stability and provides a solid foundation to 
+support operational performance and long-term value creation.
+Other developments
+• A new buyback program was approved by the Board of Directors in July, limited to a maximum of 100 
+million common shares or their respective ADRs, for a period of up to 18 months, starting from the 
+termination of the previously existing program, scheduled to end in August 2026.
+• As part of Vale's ongoing risk management strategy, the Brent oil hedge generated an economic gain of 
+US$ 99 million, equivalent to approximately US$ 1.6/dmt of iron ore sold. Recognized in the financial results, 
+this benefit offsets part of the higher oil prices that pressured all-in costs in the quarter. Including the Brent 
+oil-hedge effect, iron ore all-in costs would be equivalent to US$60.0/dmt in the quarter. 
+Innovation & 
+Technology
+Research, Development & Innovation Report
+• Vale published its 1 st Research, Development & Innovation Report , consolidating innovation as core to its 
+strategy to operate more safely and efficiently, reduce environmental impact and expand mining's role in the 
+energy transition. In 2025, Vale invested US$685 million across more than 350 projects. Highlights include 
+over 45 AI applications from mine to logistics, more than 90 autonomous equipment units that move people 
+away from high-risk activities; and 26.3 Mt of iron ore from circular sources. The full report is available here.
+Reparation
+ Brumadinho
+• The execution of the Brumadinho Integral Reparation Agreement continues to progress , with 
+approximately 83% of the agreed-upon commitments completed by 2Q26 and in accordance with the 
+deadlines outlined in the settlement. 
+Mariana
+• The Samarco reparation program continues to advance , with R$ 82.4 billion disbursed as of June 30, 2026. 
+Over 642 thousand individuals were compensated as of July 14 th, 2026, of which more than 310 thousand 
+under the Definitive Indemnification Program (PID). 
+ 
+ -2-
+
+[p. 40]
+Financials
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Proforma EBITDA
+Net operating revenues 10,498 8,804 19% 9,258 13% 19,756 16,923 17% 
+COGS (7,294) (6,085) 20% (6,173) 18% (13,467) (11,536) 17% 
+SG&A (176) (131) 34% (152) 16% (328) (276) 19% 
+Research and development (185) (159) 16% (131) 41% (316) (282) 12% 
+Pre-operating and stoppage expenses (100) (71) 41% (49) 104% (149) (161) -7% 
+Brumadinho & decharacterization of dams¹ (101) (38) 166% (65) 55% (166) (135) 23% 
+Other operational expenses² (214) (184) 16% (193) 11% (407) (345) 18% 
+Non-recurring expenses (289) — n.a. — n.a. (289) — n.a.
+Streaming 291 168 73% 257 13% 548 335 64% 
+EBITDA from associates and JV's 335 302 11% 233 44% 568 494 15% 
+Adjusted EBIT 2,765 2,606 6% 2,985 -7% 5,750 5,017 15% 
+Depreciation, amortization & depletion 911 780 17% 845 8% 1,756 1,484 18% 
+Adjusted EBITDA 3,676 3,386 9% 3,830 -4% 7,506 6,501 15% 
+Proforma EBITDA² 4,066 3,424 19% 3,895 4% 7,961 6,636 20% 
+Reconciliation of Proforma EBITDA to Net 
+Income
+Proforma EBITDA² 4,066 3,424 19% 3,895 4% 7,961 6,636 20% 
+Brumadinho & decharacterization of dams¹ 
+and non-recurring expenses (390) (38) 926% (65) 500% (455) (135) 237% 
+Impairment and gains (losses) on disposal of 
+non-current assets, net 16 (132) n.a. (120) n.a. (104) (385) -73% 
+Streaming (291) (168) 73% (257) 13% (548) (335) 64% 
+EBITDA from associates and JV's (335) (302) 11% (233) 44% (568) (494) 15% 
+Equity results on associates and JV's and other 
+results 100 (68) n.a. 36 178% 136 (9) n.a.
+Financial results (473) 167 n.a. 34 n.a. (439) 352 n.a.
+Income taxes (368) 32 n.a. (505) -27% (873) (615) 42% 
+Depreciation, depletion & amortization (911) (780) 17% (845) 8% (1,756) (1,484) 18% 
+Net income 1,414 2,135 -34% 1,940 -27% 3,354 3,531 -5% 
+Net income attributable to noncontrolling 
+interests 39 18 117% 47 -17% 86 20 330% 
+Net income attributable to Vale's 
+shareholders 1,375 2,117 -35% 1,893 -27% 3,268 3,511 -7% 
+Non-recurring items³ 191 — n.a. — n.a. 191 77 148% 
+Proforma net income attributable to Vale’s 
+shareholders 1,566 2,117 -26% 1,893 -17% 3,459 3,588 -4% 
+1 Find more information about expenses in Annex 4: Brumadinho & Decharacterization. 2 Excluding expenses related to Brumadinho and non-recurring items. 3 Includes impairments, non-recurring 
+expenses and tax effects related to these items.
+Proforma EBITDA and Proforma net income attributable to Vale's shareholders – Reporting practice
+To enhance transparency and comparability, Vale reports:
+• Proforma EBITDA - a metric that provides a clearer view of operational performance across periods. It comprises: (i) 
+Adjusted EBITDA as defined in note 3 to Vale’s Interim Financial Statements, which is a required disclosure under IFRS 8 – 
+Operating Segments; excluding (ii) Brumadinho-related and dam decharacterization effects, and (iii) non-recurring items. 
+This metric is disclosed consistently and in compliance with CVM Resolution 156. For the reconciliation of EBITDA 
+Proforma to Net Income, please refer to the table above.
+• Proforma net income attributable to Vale's shareholders - a metric that provides a clearer view of earnings performance 
+across periods. It excludes non-recurring items, such as asset impairments, as well as the related income tax effects.
+Financial Results
+ -3-
+
+[p. 41]
+EBITDA
+Proforma EBITDA was US$ 4.1 billion in 2Q26, 19% higher y/y , mainly driven by (i) stronger reference prices and (ii) 
+higher sales volumes across all business segments. These effects were partly offset by exogenous effects such as: (i) 
+increased freight costs, mainly due to higher bunker fuel prices, and (ii) the negative impact of the BRL appreciation. 
+The quarter was also impacted by higher costs and expenses, reflecting increased iron ore concentration activities, the 
+suspension of operations at the Fábrica and Viga sites, and the planned biennial maintenance at Sudbury’s downstream 
+facilities.
+Proforma EBITDA 2Q26 vs. 2Q25 - US$ million 
+3,424
+1,380 73
+(376) (241) (218)
+24 4,066
+Proforma 
+EBITDA 2Q25¹
+Price Volume Costs & 
+Expenses
+Freight FX effect Others² Proforma 
+EBITDA 2Q26¹
+1 Excluding Brumadinho expenses. 2 Including Associates and JVs EBITDA and others. 
+Net Income
+Proforma net income totaled US$ 1.6 billion in 2Q26, 26% lower y/y, mainly driven by (i) a US$ -798 million variation in 
+the mark-to-market valuation of derivatives against a strong comparison base in 2Q25, and (ii) higher income tax, 
+mainly reflecting a US$ -326 million variation related to foreign exchange effects on tax loss carryforwards at 
+subsidiaries. These effects were partly offset by (i) a US$ 642 million increase in Proforma EBITDA and (ii) the effect of 
+the Samarco provision recorded in 2Q25, reflected in equity results on associates & JV's. 
+Net income attributable to Vale’s shareholders totaled US$ 1.4 billion, 35% lower y/y, primarily explained by the decline 
+in Proforma net income and a provision recognized in non-recurring expenses.
+Proforma net income 2Q26 vs. 2Q25 – US$ million
+2,117
+642 135
+(640)
+(498) (190)
+1,566
+Proforma Net 
+Income 
+attributable 2Q25
+Proforma EBITDA Associates & JVs¹ Financial results² Income tax³ Others⁴ Proforma Net 
+Income 
+attributable 2Q26
+¹ Including variations of (i) US$ 168 million in equity results and (ii) US$ -33 million in EBITDA from associates and JVs.2 Including mark-to-market valuation variations of (i) US$ -365 million in currency and 
+interest rate swaps, (ii) US$ -245 million in other derivatives, and (iii) US$ 315 million in shareholder debentures. 3 Excluding a variation of US$ 98 million in taxes impacted by non-recurring items.
+ 4 Including variations of (i) US$ 148 million in gains (losses) on disposal of non-current assets, net, (ii) US$ 21 million in Net income attributable to non-controlling interests, (iii) US$ -63 million in 
+Brumadinho and decharacterization of dams, (iv) US$ -123 million in Streaming, (v) US$ -131 million in Depreciation, depletion & amortization.
+Financial Results
+ -4-
+
+[p. 42]
+Capital Expenditures 
+Total CAPEX
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Iron Ore Solutions 819 763 7 % 838 -2% 1,657 1,670 -1 %
+Vale Base Metals 284 280 1 % 226 26% 510 536 -5 %
+ Copper 118 65 82 % 89 33% 207 122 70 %
+ Nickel 166 215 -23 % 137 21% 303 414 -27 %
+Energy and others 25 10 150 % 25 0% 50 21 138 %
+Total 1,128 1,053 7 % 1,089 4% 2,217 2,227 0 %
+Growth Projects
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Iron Ore Solutions 159 204 -22 % 158 1% 317 486 -35 %
+Vale Base Metals 38 34 12 % 24 58% 62 64 -3 %
+ Copper 13 2 n.a. 6 117% 19 5 280 %
+ Nickel 25 32 -22 % 18 39% 43 59 -27 %
+Energy and others — — n.a. — n.a. — — n.a.
+Total 197 238 -17 % 182 8% 379 550 -31 %
+Investments in growth projects totaled US$ 197 million , US$ 41 million (- 17%) lower y/y, mainly reflecting lower 
+disbursements in the Iron Ore Solutions segment following the ramp-up of the Capanema project.
+The Serra Sul +20 project has reached 88% physical completion and started operations in July 2026 with the 
+commissioning of S11D's second long-distance conveyor belt system. The project, which also includes mine and plant 
+expansions, will provide greater operational flexibility and once fully ramped-up, is expected to add 20 Mtpy of 
+production capacity to the site, together with the Compact Crushing project, which will start-up in 4Q26. 
+Sustaining Investments
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Iron Ore Solutions 660 559 18 % 680 -3% 1,340 1,184 13 %
+Vale Base Metals 246 246 0 % 202 22% 448 472 -5 %
+ Copper 105 63 67 % 83 27% 188 117 61 %
+ Nickel 141 183 -23 % 119 18% 260 355 -27 %
+Energy and others 25 10 150 % 25 0% 50 21 138 %
+Total 931 815 14 % 907 3% 1,838 1,677 10 %
+Sustaining investments totaled US$ 931 million , US$ 116 million ( 14%) higher y/y, mainly as a result of higher 
+maintenance activities in the Iron Ore Solutions segment, particularly in the Oman pelletizing plants, as well as 
+investments to enhance railway control systems. In Copper, the increase in CAPEX was mainly driven by investments to 
+develop the Bacaba project and expand tailings disposal capacity, both supporting operational continuity at Sossego.
+Financial Results
+ -5-
+
+[p. 43]
+Free cash flow
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Proforma EBITDA¹ 4,066 3,424 19% 3,895 4% 7,961 6,636 20% 
+Working capital² (162) (8) n.a. (863) -81% (1,025) (260) 294% 
+Capex (1,128) (1,053) 7% (1,089) 4% (2,217) (2,227) 0% 
+Net financial expenses³ 26 (113) n.a. (74) n.a. (48) (193) -75% 
+Income taxes and REFIS (271) (468) -42% (321) -16% (592) (1,064) -44% 
+Associates & JV's, net of dividends received⁴ (300) (241) 24% (205) 46% (505) (414) 22% 
+Brumadinho incurred expenses & dams⁵ (220) (167) 32% (137) 61% (357) (313) 14% 
+Streaming² (291) (168) 73% (257) 13% (548) (335) 64% 
+Others (215) (198) 9% (136) 58% (351) (318) 10% 
+Free Cash Flow⁶ 1,505 1,008 49% 813 85% 2,318 1,512 53% 
+Brumadinho (263) (204) 29% (107) 146% (370) (288) 28% 
+Samarco (717) (990) -28% (129) n.a. (846) (1,152) -27% 
+Cash management and others (60) 1,646 n.a. (2,974) -98% (3,034) 338 n.a.
+Increase/(Decrease) in cash & equivalents 465 1,460 -68% (2,397) n.a. (1,932) 410 n.a.
+1 Excluding expenses related to Brumadinho and non-recurring items. ² Includes US$ -46 million related to streaming transactions in 2Q26, US$ -66 million in 2Q25, US$ -34 million in 1Q26, US$ -80 million in 6M26 
+and US$ -117 million in 6M25, reflecting the difference between contractual terms and cash receipts, subject to volume and settlement dynamics. ³ Includes interest in loans and borrowings, leasing and net cash 
+received on settlement of derivatives. ⁴ Net of US$ 35 million in dividends received in 2Q26, US$ 61 million in 2Q25, US$ 28 million in 1Q26, US$ 63 million in 6M26 and US$ 80 million in 6M25. ⁵ Includes payments 
+related to dam decharacterization, incurred expenses related to Brumadinho, and others. 6 There were no non-recurring events in the periods presented above.
+Free Cash Flow generation totaled US$ 1.505 billion, US$ 497 million higher y/y, mainly driven by stronger Proforma EBITDA 
+and lower taxes paid. Vale also continued to benefit from cash settlement of derivatives, generating US$ 337 million in cash in 
+the quarter. These effects were partly offset by a higher working capital outflow. 
+The working capital consumption in the quarter was mainly driven by (i) an increase in accounts receivable, primarily reflecting 
+higher sales volumes toward the end of the quarter, partly offset by negative provisional price adjustments, and (ii) an increase 
+in inventories, mainly due to higher work-in-process nickel inventories during planned maintenance. These effects were largely 
+offset by an increase in accounts payable, driven by extended supplier payment terms.
+Vale Base Metals was a key contributor to cash generation in the quarter, delivering free cash flow of US$ 545 million on 
+the back of solid operational performance and cost control, along with a strong pricing environment for copper and 
+nickel.
+Vale’s cash position reflected US$ 140 million in shares repurchases during the quarter, along with continued liability 
+management, resulting in a US$ 465 million increase in cash and cash equivalents during the quarter.
+Free Cash Flow 2Q26 - US$ million
+4,066
+(162)
+(1,128)
+(245)
+(300) (220)
+(291) (215)
+1,505
+(980) (60)
+465
+Proforma 
+EBITDA
+Working 
+capital 
+variation
+Capex Net financial 
+expenses & 
+income taxes¹
+Associates & 
+JV's²
+Brumadinho 
+incurred 
+expenses & 
+dams³
+Streaming Others⁴ Free Cash 
+Flow
+Brumadinho 
+& Samarco⁵
+Cash 
+management 
+and others⁶
+Increase in 
+cash & 
+equivalents
+¹ Includes income taxes and REFIS (US$ -271 million), interests on loans and borrowings (US$ -310 million), leasing (US$ -49 million), net cash received on settlement of derivatives (US$ 337 million), and other financial 
+revenues (US$ 48 million). ² Related to Associates and Joint Ventures EBITDA that was included in the Proforma EBITDA, net of dividends received. ³ Includes incurred expenses on Brumadinho (US$ -149 million) 
+and payments on dam decharacterization (US$ -71 million). ⁴ Includes disbursements related to railway concession contracts (US$ -116 million), and others. ⁵ Payments related to Brumadinho and Samarco. 
+Excludes incurred expenses. ⁶ Includes US$ -81 million in debt repayment, US$ 161 million in new loans, and US$ -140 million in share buyback program.
+Financial Results
+ -6-
+
+[p. 44]
+Debt
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q
+Gross debt¹ 18,304 17,146 7% 18,196 1% 
+Lease (IFRS 16) 634 699 -9% 641 -1% 
+Gross debt and leases 18,938 17,845 6% 18,837 1% 
+Cash, cash equivalents and short-term investments (5,765) (5,696) 1% (5,279) 9% 
+Net debt 13,173 12,149 8% 13,558 -3% 
+Currency swaps² (367) (109) 237% (422) -13% 
+Brumadinho provisions 1,774 2,129 -17% 1,959 -9% 
+Samarco provisions 2,097 3,279 -36% 2,697 -22% 
+Expanded net debt 16,677 17,448 -4% 17,792 -6% 
+Average debt maturity (years) 8.1 9.1 -11% 8.4 -4% 
+Cost of debt after hedge (% pa) 5.6 5.5 2% 5.5 2% 
+Total debt and leases / adjusted LTM EBITDA (x) 1.2 1.3 -8% 1.2 0% 
+Net debt / adjusted LTM EBITDA (x) 0.8 0.9 -11% 0.8 0% 
+Adjusted LTM EBITDA / LTM gross interest (x) 15.8 15.3 3% 15.8 0% 
+1 Does not include leases (IFRS 16). 2 Includes interest rate swaps. 
+Expanded net debt decreased by US$ 1.1 billion q/q, totaling US$ 16.7 billion, mainly as a result of the solid free cash flow 
+generation in the quarter. Vale's expanded net debt target remains within its target range of US$ 10-20 billion.
+Gross debt and leases reached US$ 18.9 billion as of June 30th, 2026, mostly in line q/q.
+The average debt maturity was 8.1 years at the end of 2Q26, slightly below the 8.4 years at the end of 1Q26. The average 
+annual cost of debt after currency and interest rate swaps was 5.6%, in line with the 5.5% at the end of 1Q26.
+Financial Results
+ -7-
+
+[p. 45]
+Segments’ Performance
+Adjusted EBITDA by business area:
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Iron Ore Solutions 3,056 2,977 3% 2,906 5% 5,962 5,864 2 %
+Fines 2,561 2,396 7% 2,441 5% 5,002 4,729 6 %
+Pellets 416 477 -13% 479 -13% 895 1,013 -12 %
+Other ferrous products and logistics services 79 104 -24% (14) n.a. 65 122 -47 %
+Vale Base Metals 1,289 721 79% 1,197 8% 2,486 1,275 95 %
+Copper 1,026 538 91% 949 8% 1,975 1,084 82 %
+Nickel 294 201 46% 277 6% 571 242 136 %
+Other (31) (18) 72% (29) 7% (60) (51) 18 %
+Unallocated Items¹ (279) (274) 2% (208) 34% (487) (503) -3% 
+Proforma EBITDA 4,066 3,424 19% 3,895 4% 7,961 6,636 20% 
+Brumadinho & decharacterization of dams² (101) (38) 166% (65) 55% (166) (135) 23 %
+Non-recurring expenses (289) — n.a. — n.a. (289) — n.a.
+Adjusted EBITDA 3,676 3,386 9% 3,830 -4% 7,506 6,501 15% 
+1 Includes US$ 39 million in unallocated expenses from Vale Base Metals Ltd ("VBM") in 2Q26. Considering the unallocated expenses, VBM’s EBITDA was US $ 1.3 billion in 2Q26. 2 Find more information 
+about these expenses in Annex 4: Brumadinho & Decharacterization.
+Segment information 2Q26
+US$ million
+Net 
+operating 
+revenues
+Cost¹ SG&A and 
+others¹ R&D¹
+Pre 
+operating 
+& stoppage¹
+Associates 
+and JVs 
+EBITDA
+Streaming Adjusted 
+EBITDA
+Iron Ore Solutions 7,888 (4,923) (50) (86) (62) 289 — 3,056 
+ Fines 6,641 (4,088) (31) (82) (29) 150 — 2,561 
+ Pellets 1,062 (680) 2 — (27) 59 — 416 
+Other ferrous products and logistics services 185 (155) (21) (4) (6) 80 — 79 
+Vale Base Metals 2,610 (1,533) (86) (41) — 48 291 1,289 
+ Copper² 1,555 (479) (30) (20) — — — 1,026 
+ Nickel³ 1,241 (946) (24) (20) — 43 — 294 
+ Others⁴ (186) (108) (32) (1) — 5 291 (31) 
+Brumadinho & decharacterization of dams⁵ — — (101) — — — — (101) 
+Non-recurring expenses — — (289) — — — — (289) 
+Unallocated Items⁶ — — (238) (40) 1 (2) — (279) 
+Total 10,498 (6,456) (764) (167) (61) 335 291 3,676 
+¹ Excluding depreciation, depletion, and amortization. ² Including by-products from our copper operations. ³ Including copper and by-products from our nickel operations. ⁴ Starting in 3Q25, streaming 
+transactions at market prices, previously reported under SG&A and others, will be disclosed separately as Streaming. Prior periods were restated. ⁵ Find more information about these expenses in 
+Annex 4: Brumadinho & Decharacterization. ⁶ Includes US$ 39 million in unallocated expenses from Vale Base Metals Ltd ("VBM") in 2Q26. Considering the unallocated expenses, VBM’s EBITDA was US$ 
+1.3 billion in 2Q26.
+Business Segments’ Performance 
+ -8-
+
+[p. 46]
+Iron Ore Solutions
+Highlights
+2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Average Prices (US$/t)
+Iron ore - 61% Fe price 105.0 94.5 11% 103.6 1% 104.3 97.5 6% 
+Iron ore fines realized price, CFR/FOB 95.0 85.1 12% 95.8 -1% 95.3 87.7 8% 
+Iron ore pellets realized price, CFR/FOB 137.0 134.1 2% 133.8 2% 135.4 137.5 -2% 
+Volume sold (‘000 metric tons) 
+Fines 69,946 67,678 3% 59,436 18% 129,381 124,441 4% 
+Pellets 7,748 7,483 4% 7,699 1% 15,447 14,976 3% 
+ROM 2,053 2,185 -6% 1,578 30% 3,631 4,071 -11% 
+Total - Iron ore 79,747 77,346 3% 68,713 16% 148,460 143,487 3% 
+Financials indicators (US$ million)
+Net Revenues 7,888 6,963 13% 6,875 15% 14,763 13,338 11% 
+Costs¹ (4,923) (4,104) 20% (3,997) 23% (8,920) (7,610) 17% 
+SG&A and Other expenses¹ (50) (35) 43% (72) -31% (122) (60) 103% 
+R&D expenses (86) (84) 2% (66) 30% (152) (138) 10% 
+Pre-operating and stoppage expenses¹ (62) (48) 29% (31) 100% (93) (117) -21% 
+EBITDA Associates & JV's 289 285 1% 197 47% 486 451 8% 
+Adjusted EBITDA 3,056 2,977 3% 2,906 5% 5,962 5,864 2% 
+Depreciation and amortization (667) (533) 25% (558) 20% (1,225) (1,015) 21% 
+Adjusted EBIT 2,389 2,444 -2% 2,348 2% 4,737 4,849 -2% 
+1 Net of depreciation and amortization.
+Adjusted EBITDA per segment
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Fines 2,561 2,396 7% 2,441 5% 5,002 4,729 6 %
+Pellets 416 477 -13% 479 -13% 895 1,013 -12 %
+Other ferrous products and logistics services 79 104 -24% (14) n.a. 65 122 -47 %
+Adjusted EBITDA 3,056 2,977 3% 2,906 5% 5,962 5,864 2 %
+Iron Ore Solutions EBITDA was US$ 3.1 billion, 3% higher y/y, mainly reflecting the higher realized prices and increased 
+sales volumes, partly offset by higher costs and expenses, higher freight costs, and the negative effect of BRL 
+appreciation.
+Iron Ore Fines EBITDA increased by 7% y/y, reaching US$ 2.6 billion, mostly explained by higher realized prices (US$ 
+679 million) and higher sales volumes (US$ 68 million). These effects were partly offset by (i) higher costs and expenses 
+(US$ -258 million), mostly related to increased concentration activities and the stoppage of operations, including Fábrica 
+and Viga, (ii) higher freight costs (US$ -231 million), mainly driven by higher bunker fuel costs, and (iii) the negative effect 
+of BRL appreciation (US$ -114 million).
+Iron Ore Pellets EBITDA decreased by 13% y/y, totaling US$ 416 million, driven by higher operating costs and expenses 
+related to operational restrictions, as well as higher service costs in Oman resulting from the advancement of the 
+scheduled maintenance shutdown (US$ -46 million) and the negative impact of the BRL appreciation (US$ -40 million). 
+These effects were partly offset by higher realized prices (US$ 16 million) and increased sales volumes (US$ 15 million).
+EBITDA variation – US$ million (2Q26 vs. 2Q25)
+2,977
+690 85
+(273) (241) (159) (23)
+3,056
+2Q25 Price Volume Costs & 
+Expenses
+Freight FX effect Others¹ 2Q26
+1 Includes Associates and JVs EBITDA and others.
+ -9-
+
+[p. 47]
+Iron Ore Fines
+Product mix
+000 metric tons 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Volume sold
+Fines¹ 69,946 67,678 3% 59,436 18% 129,381 124,441 4 %
+IOCJ 4,271 6,397 -33% 3,833 11% 8,104 10,993 -26 %
+BRBF 30,295 32,148 -6% 30,175 0% 60,470 67,962 -11 %
+Mid-Grade Carajás 13,014 10,402 25% 7,662 70% 20,676 13,590 52 %
+Pellet feed - China (PFC)² 11,863 5,518 115% 9,069 31% 20,932 9,446 122 %
+Lump 2,244 1,717 31% 2,111 6% 4,355 3,396 28 %
+High-silica products 1,038 3,886 -73% 681 52% 1,719 5,843 -71 %
+Other fines (60-62% Fe) 7,221 7,610 -5% 5,905 22% 13,126 13,210 -1 %
+1 Including third-party purchases. 2 Products concentrated in Chinese facilities.
+Revenues
+The average realized iron ore fines price was US$ 95.0/t, US$ 0.8/t lower q/q, mainly reflecting the negative impact of 
+pricing mechanisms (US$ 1.3/t lower q/q), affected by provisional pricing adjustments, and lower iron ore fines premiums 
+(US$ 1.1/t lower q/q), partly offset by higher reference prices (US$ 1.4/t higher q/q).
+Price realization iron ore fines – US$/t (2Q26)
+105.0 3.0 0.0
+(0.4)
+0.1
+(1.8)
+106.0
+(2.5)
+(8.5)
+95.0
+Average 
+reference 
+61%Fe price 
+2Q26 (dmt)
+Quality and 
+premiums¹
+Provisional 
+prices in 
+prior 
+quarter²
+Lagged 
+prices
+Current 
+prices
+Provisional 
+prices in 
+current 
+quarter³
+CFR 
+reference 
+(dmt)
+Adjustments 
+for FOB 
+sales⁴
+Moisture Vale realized 
+price (wmt)⁵
+Impact of pricing system adjustments
+1 Includes quality (US$ 2.8/t) and premiums/discounts and commercial conditions (US$ 0.2/t). 2 Adjustment as a result of provisional prices booked in 1Q26 at US$ 106.1/t. 3 Difference between the 
+weighted average of the prices provisionally set at the end of 2Q26 at US$ 99.0/t based on forward curves and US$ 105.0/t from the 2Q26 average reference price. 4 Includes freight pricing 
+mechanisms of CFR sales freight recognition. 5 Vale’s price is net of taxes. Previous periods were restated.
+Iron ore all-in premium 
+US$/t 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+All-in premium - Total¹ 4.4 4.1 7% 6.2 -29% 5.2 4.4 18 %
+Iron ore fines quality and premiums 3.0 1.9 58% 4.1 -27% 3.5 1.8 94 %
+Pellets business' weighted average 
+contribution² 1.4 2.2 -36% 2.1 -33% 1.7 2.6 -35 %
+1 Starting in 1Q26, the all-in premium will be disclosed in relation to the 61%Fe price index. Prior periods were restated. 2 Weighted average contribution.
+The all-in premium, adjusted for the 61% Fe price index, totaled US$ 4.4/t, US$ 1.8/t lower q/q, primarily driven by 
+lower iron ore fines premiums (US$ 1.1/t lower q/q). This reflects the expected greater availability of mid-grade ore in 
+the Northern System, with a higher share of mid-grade Carajás and concentrated products (Pellet Feed - China) in the 
+sales mix. Having said that, market premiums for low-alumina products remained strong, supporting a solid price 
+realization. In addition, the pellet business contribution declined by US$ 0.7/t q/q, mainly due to a lower share of pellet 
+sales in the overall sales mix.
+Business Segments’ Performance 
+ -10-
+
+[p. 48]
+Costs and expenses
+Iron ore fines and pellets all-in costs (cash cost break-even landed in China)
+US$/t 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+C1 cash cost, ex-third-party purchase costs 24.1 22.2 9% 23.6 2% 23.9 21.7 10 %
+Third-party purchases cost adjustments 3.6 4.1 -12% 4.6 -22% 4.0 3.9 3 %
+Freight cost¹ 22.0 18.3 20% 18.1 22% 20.2 18.4 10 %
+Distribution cost 5.3 3.5 51% 4.9 8% 5.1 3.7 38 %
+Expenses & royalties² 7.8 5.6 39% 7.6 3% 7.7 5.8 33 %
+EBITDA from associates and joint ventures (2.1) (1.9) 11% (2.0) 5% (2.1) (1.8) 17 %
+Moisture adjustment 5.3 4.6 15% 4.9 8% 5.1 4.6 11 %
+Iron ore fines quality adjustment³ (3.0) (1.9) 58% (4.1) -27% (3.5) (1.8) 94 %
+Iron ore fines all-in costs (US$/dmt) 63.0 54.6 15% 57.6 9% 60.5 54.5 11 %
+Pellet business contribution (1.4) (2.2) -36% (2.1) -33% (1.7) (2.6) -35 %
+Iron ore fines and pellets all-in costs (US$/dmt) 61.6 52.4 18% 55.4 11% 58.8 51.9 13 %
+Sustaining investments (fines and pellets) 8.5 7.4 15% 10.1 -16% 9.2 8.4 10 %
+Iron ore fines and pellets all-in costs⁴ (US$/dmt) 70.1 59.7 17% 65.5 7% 68.0 60.2 13 %
+1 Ex-bunker oil hedge. 2 Including stoppage costs and expenses. 3 Starting in 1Q26, the all-in premium will be disclosed in relation to the 61%Fe price index. Prior periods were restated. ⁴ Including 
+sustaining investment.
+Iron ore fines C1 production costs
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+C1 production costs, ex-third-party purchase costs 24.1 21.6 12% 25.3 -5% 24.4 22.3 11% 
+C1 cash cost, ex-third-party purchase costs 24.1 22.2 9% 23.6 2% 23.9 21.7 10% 
+The C1 cash cost, excluding third-party purchases, reached US$ 24.1/t in 2Q26, 9% higher y/y. This increase mainly reflects (i) 
+the negative impact of the BRL appreciation, (ii) the negative impact from inventory turnover effects, resulting from the 
+consumption of inventories from the previous quarter at higher costs, (iii) costs related to the deconsolidation of Aliança 
+Energia, and (iv) higher diesel prices in the Brazilian domestic market. These effects were partly offset by (i) improved fixed-
+cost dilution and a more favorable production mix, driven by higher production volumes at S11D, and (ii) continued benefits 
+from the efficiency program, helping mitigate external effects.
+C1 cash cost, excluding third-party purchase costs - US$/t, 2Q26 vs. 2Q25
+22.2 1.5 0.4 0.4 0.3
+(0.3) (0.2) (0.2)
+24.1
+2Q25 FX effect Inventory
+turnover
+Aliança Energia 
+deconsolidation
+Diesel Mix and fixed 
+cost dilution
+Efficieny 
+iniciatives¹
+Others² 2Q26
+1 Including maintenance, materials, personnel and services. 2 Including demurrage and others.
+The 2026 C1 cash cost guidance, excluding third-party purchases, has been revised to US$22.5-23.5/t (from US$20.0-21.5/t 
+previously), mainly reflecting (i) an updated assumption for the average USD/BRL exchange rate of 5.13 in 2026, 
+compared with 5.60 previously (US$ +1.2/t), (ii) higher diesel price assumptions (US$ +0.2/t), (iii) inventory turnover 
+effects (US$ +0.5/t), reflecting the difference between the average cost of inventories at the beginning of 2026 and 
+guidance, and (iv) other cost effects.
+Vale's average maritime freight cost was US$ 22.0/t in 2Q26, US$ 3.9/t higher q/q, mainly due to higher bunker fuel 
+costs (US$ 2.3/t higher q/q) and increased spot freight rates volatility (US$ 0.8/t higher q/q). Vale’s performance was US$ 
+10.6/t below the Brazil–China C3 route, highlighting the effectiveness of its long-term chartering strategy, which helps 
+to mitigate both costs and volatility. CFR sales totaled 62.5 Mt in 2Q26, accounting for 89% of total iron ore fines sales. 
+Business Segments’ Performance 
+ -11-
+
+[p. 49]
+The iron ore all-in cost guidance has been revised to US$58-62/t (from US$52-56/t previously), mainly reflecting changes 
+in external assumptions, including (i) oil and related-product prices, with an average Brent oil price assumption of 
+US$86/bbl in 2026 versus US$68/bbl previously (US$ +3.3/t), (ii) an average USD/BRL exchange rate of 5.13 versus 5.60 
+previously, (US$ +1.9/t), and (iii) revised price and premium assumptions (US$ -0.4/t). The updated guidance range also 
+incorporates the impact of costs associated with operational stoppages (US$ +0.6/t), and other effects.
+As part of Vale's ongoing risk management strategy, approximately 70% of the forecasted bunker oil consumption for 
+2026 was hedged through Brent crude oil contracts hired in 2025. These hedges were structured using zero-cost collar 
+instruments to mitigate exposure to adverse price movements and tail risks. Considering the economic effect of these 
+contracts in 2Q26, the benefit, on an all-in cost per ton of iron ore basis, was approximately US$ 1.6/dmt. Adjusting for this 
+effect, Vale’s all-in cost in 2Q26 would be equivalent to US$ 60.0/dmt, compared with the reported US$ 61.6/dmt, helping 
+offset the impact of higher freight costs.
+Pellets
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Net revenues 1,062 1,004 6% 1,030 3% 2,092 2,059 2% 
+Cash costs¹ (680) (577) 18% (587) 16% (1,267) (1,136) 12% 
+Pre-operational & stoppage expenses (27) (4) n.a. (3) n.a. (30) (7) 329% 
+Expenses² 2 (1) n.a. (1) n.a. 1 2 -50% 
+Leased pelletizing plants EBITDA 59 55 7% 40 48% 99 95 4% 
+EBITDA 416 477 -13% 479 -13% 895 1,013 -12% 
+Iron ore pellets realized price (CFR/FOB, 
+S$/t) 137.0 134.1 2% 133.8 2% 135.4 137.5 -2% 
+Cash costs¹ per ton (US$/t) 87.8 77.1 14% 76.2 15% 82.0 75.9 8% 
+EBITDA per ton (US$/t) 53.7 63.7 -16% 62.2 -14% 57.9 67.6 -14% 
+1 Including iron ore, leasing, freight, overhead, energy and others. 2 Including selling, R&D and others.
+Pellets sales totaled 7.7 Mt, 4% higher y/y and 1% higher q/q , mainly reflecting the sale of inventories built in previous 
+periods.
+The average realized iron ore pellets price was US$ 137.0/t, US$ 3.2/t higher q/q , primarily driven by higher quarterly 
+contractual pellet premiums.
+Pellets’ cash costs per ton were 14% higher y/y, totaling US$ 87.8/t, primarily due to the combination of the negative impact 
+of BRL appreciation and higher unit costs in Oman operations, driven by higher services costs in the period. FOB sales 
+accounted for 62% of total pellets sales in the quarter.
+Business Segments’ Performance 
+ -12-
+
+[p. 50]
+Vale Base Metals
+Highlights
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Net Revenues 2,610 1,841 42% 2,383 10% 4,993 3,585 39 %
+Costs¹ (1,533) (1,220) 26% (1,376) 11% (2,909) (2,504) 16 %
+SG&A and other expenses¹ ² (86) (39) 121% (74) 16% (160) (104) 54 %
+R&D expenses (41) (36) 14% (27) 52% (68) (68) 0 %
+Pre-operating and stoppage expenses¹ — (10) n.a. — n.a. — (12) n.a.
+EBITDA from associates and JV's 48 17 182% 34 41% 82 43 91 %
+Streaming² 291 168 73% 257 13% 548 335 64 %
+Adjusted EBITDA 1,289 721 79% 1,197 8% 2,486 1,275 95 %
+Depreciation and amortization (232) (249) -7% (292) -21% (524) (456) 15 %
+Adjusted EBIT 1,057 472 124% 905 17% 1,962 818 140 %
+1 Net of depreciation and amortization. 2 Starting in 3Q25, streaming transactions at market prices, previously reported under SG&A and others are disclosed separately as Streaming. Prior periods were 
+restated.
+Adjusted EBITDA
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Copper 1,026 538 91% 949 8% 1,975 1,084 82 %
+Nickel 294 201 46% 277 6% 571 242 136 %
+Others (31) (18) 72% (29) 7% (60) (51) 18 %
+Total 1,289 721 79% 1,197 8% 2,486 1,275 95 %
+Vale Base Metals EBITDA increased by 79% y/y in 2Q26, totaling US$ 1.3 billion, supported by stronger operational 
+performance and higher realized prices across commodities in the portfolio, benefiting from favorable market conditions.
+Copper EBITDA increased by 91% y/y, totaling US$ 1.0 billion in the quarter, driven by a favorable price environment for 
+copper (US$ 401 million) and gold (US$ 171 million). These positive factors were partly offset by negative provisional pricing 
+adjustments (PPA) associated with the forward prices for copper and by-products, particularly gold prices during the quarter 
+(US$ 103 million), as well as negative FX impacts (US$ 33 million).
+Nickel EBITDA increased by 46% y/y, totaling US$ 294 million in the quarter, supported by higher nickel prices (US$ 97 
+million) and by-products, mainly copper (US$ 82 million). These effects were partly offset by planned maintenance costs (US$ 51 
+million) associated with the downstream facilities in Sudbury.
+EBITDA variation – US$ million (2Q26 vs. 2Q25)
+721
+689 76
+(51) (38) (108)
+1,289
+2Q25 Price¹ Cost 
+improvement²
+Sudbury 
+maintenance
+Exchange rate Others³ 2Q26
+¹ Includes variations of (i) US$ 499 million in realized prices for copper and nickel, (ii) US$ 313 million in realized prices for by-products, and (iii) US$ -123 million in provisional price adjustments. ² Includes 
+variations of (i) US$ 67 million in cost improvements in nickel, (ii) US$ 25 million in cost improvements in copper and (iii) US$ -6 million in cost inflation. 3 Includes a variation of (i) US$ 30 million in PTVI 
+EBITDA, (ii) US$ -12 million in volumes, (iii) US$ -32 million in copper expenses and others, (iv) US$ -75 million in inventory impairment reversal occurred in 2Q25 and others.
+ -13-
+
+[p. 51]
+Copper
+US$ million (unless otherwise stated) 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+LME copper price (US$/t) 13,329 9,524 40% 12,844 4% 13,083 9,431 39 %
+Average realized copper price (US$/t) 14,062 8,985 57% 13,143 7% 13,621 8,940 52 %
+Volume sold – copper (kt) 78 66 18% 72 8% 150 127 18 %
+Net Revenues 1,555 958 62% 1,414 10% 2,969 1,858 60 %
+Costs¹ (479) (402) 19% (426) 12% (905) (741) 22 %
+Selling and other expenses¹ (30) (8) 275% (31) -3% (61) (12) n.a.
+R&D expenses2 (20) (10) 100% (8) 150% (28) (20) 40 %
+Pre-operating and stoppage expenses¹ — — n.a. — n.a. — (1) n.a.
+Adjusted EBITDA 1,026 538 91% 949 8% 1,975 1,084 82 %
+Depreciation and amortization (49) (39) 26% (44) 11% (93) (73) 27 %
+Adjusted EBIT 977 499 96% 905 8% 1,882 1,011 86 %
+1 Net of depreciation and amortization. 2 Includes R&D and other expenses not related to current operations of US$ 24 million in 2Q26.
+Adjusted EBITDA 
+US$ million 2Q26 2Q25 Δ y/y 1Q26 Δ q/q 6M26 6M25 Δ y/y
+Salobo 830 418 99% 697 19% 1,527 822 86 %
+Sossego 291 98 197% 309 -6% 600 178 237 %
+Other¹ (95) 22 n.a. (58) 64% (152) 84 n.a.
+Total 1,026 538 91% 949 8% 1,975 1,084 82 %
+1 Includes R&D expenses and the unrealized provisional price adjustments.
+Revenues
+Net revenues totaled US$ 1.6 billion in 2Q26, 62% higher y/y , mainly explained by higher realized copper prices (US$ 
+401 million), higher gold prices (US$ 171 million), and stronger copper sales volumes (US$ 103 million). These effects were 
+partly offset by a negative impact from provisional price adjustments (US$ 103 million lower y/y).
+The average realized copper price was US$ 14,062/t, 7% higher q/q , reflecting higher LME prices, lower TC/RC 
+discounts and timing effects on pricing.
+The average realized copper price was 5% higher than the LME average, primarily reflecting positive price adjustments 
+to prior-period provisionally priced sales settled at higher LME prices in the quarter.
+Average realized copper price 2Q26 – US$/t
+13,329
+(179)
+13,150
+1,012 14,162
+(100)
+14,062
+Average LME 
+copper price
+Current period 
+price adjustments ¹
+Copper gross 
+realized price
+Prior period price 
+adjustments ²
+Copper realized 
+price before 
+discounts
+TC/RCs, penalties, 
+premiums 
+discounts ³
+Average copper 
+realized price
+Note: Vale’s copper products are sold on a provisional pricing basis, with final prices determined in a future period. The average copper realized price excludes the mark-to-market of open invoices 
+based on the copper price forward curve (unrealized provisional price adjustments) and includes the prior and current period price adjustments (realized provisional price adjustments). 1 Current-period 
+price adjustments: Final invoices that were provisionally priced and settled within the quarter. 2 Prior-period price adjustment: Final invoices of sales provisionally priced in prior quarters. 3 TC/R

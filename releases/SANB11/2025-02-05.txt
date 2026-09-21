@@ -1,0 +1,186 @@
+[p. 4]
+Estratégia
+Transacionalidade
+ Cultura e Pessoas
+Centralidade no cliente
+ Crédito
+Investimentos
+
+[p. 5]
+Estratégia
+Transacionalidade
+Centralidade no cliente
+ Cultura e Pessoas
+Crédito
+Investimentos
+
+[p. 6]
+Transacionalidade
+ Crédito
+Estratégia
+Cultura e Pessoas
+Investimentos
+Centralidade no cliente
+
+[p. 7]
+Crédito
+ Investimentos
+Estratégia
+Transacionalidade
+Centralidade no cliente
+ Cultura e Pessoas
+
+[p. 8]
+Cultura e Pessoas
+Estratégia
+Crédito
+Transacionalidade
+Centralidade no cliente
+Investimentos
+
+[p. 9]
+Estratégia
+Cultura e Pessoas
+Crédito
+Transacionalidade
+Centralidade no cliente
+Investimentos
+
+[p. 11]
+Resultados
+
+[p. 12]
+Resultados
+
+[p. 13]
+Resultados
+
+[p. 14]
+4.000
+ 4.200
+ 4.400
+ 4.600
+ 4.800
+ 5.000
+ 5.200
+ 5.400
+ 5.600
+Resultados
+
+[p. 15]
+Resultados
+
+[p. 16]
+4,0% 3,8% 3,7% 3,7% 3,5%
+Resultados
+
+[p. 17]
+Resultados
+
+[p. 18]
+Resultados
+
+[p. 19]
+3
+Resultados
+
+[p. 20]
+Resultados
+
+[p. 21]
+Resultados
+
+[p. 22]
+Resultados
+
+[p. 23]
+Resultados
+
+[p. 24]
+Resultados
+
+[p. 25]
+Resultados
+°
+ °
+
+[p. 26]
+Reconciliação dos resultadoscontábil e gerencial
+4T24 Reclassificações 4T24
+R$ Milhões Contábil Hedge 
+Cambial1
+Recup. 
+Crédito2
+Amort. do 
+ágio3 Part. no Lucro Outros 
+Eventos4 Gerencial
+Margem Financeira Bruta 15.623 366 (81) - - 70 15.978 
+Resultado de Créditos de Liquidação Duvidosa (5.622) - 8 - - (318) (5.932) 
+Margem Financeira Líquida 10.001 366 (73) - - (248) 10.046 
+Receitas de Prest. de Serviços e Tarifas Bancárias 5.872 - - - - (356) 5.515 
+Despesas Gerais (5.787) - - 109 (791) (299) (6.769) 
+Despesas de Pessoal (2.294) - - - (791) (220) (3.306) 
+Outras Despesas Administrativas (3.493) - - 109 - (79) (3.463) 
+Despesas Tributárias (1.118) (366) - - - - (1.485) 
+Resultados de Part. em Coligadas e Controladas 59 - - - - - 59 
+Outras Receitas/Despesas Operacionais (3.247) - 73 - - 903 (2.271) 
+Resultado Operacional 5.779 - 0 109 (791) (0) 5.096 
+Resultado não operacional 8 - - - - - 8 
+Resultado recorrente antes de Impostos 5.787 - 0 109 (791) (0) 5.104 
+Imposto de renda e contribuição social (1.177) - - - - - (1.177) 
+Participações no lucro (791) - - - 791 - - 
+Participações dos acionistas minoritários (73) - - - - - (73) 
+Lucro Líquido 3.746 - 0 109 - (0) 3.855 
+3T24 Reclassificações 3T24
+R$ Milhões Contábil Hedge 
+Cambial1
+Recup. 
+Crédito2
+Amort. do 
+ágio3 Part. no Lucro Outros 
+Eventos4 Gerencial
+Margem Financeira Bruta 13.276 (55) 177 - - 1.829 15.227 
+Resultado de Créditos de Liquidação Duvidosa (3.590) - (193) - - (2.102) (5.884) 
+Margem Financeira Líquida 9.686 (55) (16) - - (273) 9.343 
+Receitas de Prest. de Serviços e Tarifas Bancárias 5.748 - - - - (414) 5.334 
+Despesas Gerais (5.853) - - 117 (639) (82) (6.457) 
+Despesas de Pessoal (2.387) - - - (639) - (3.026) 
+Outras Despesas Administrativas (3.466) - - 117 - (82) (3.431) 
+Despesas Tributárias (1.464) 55 - - - - (1.409) 
+Resultados de Part. em Coligadas e Controladas 69 - - - - - 69 
+Outras Receitas/Despesas Operacionais (3.398) - 16 - - 769 (2.613) 
+Resultado Operacional 4.789 - (0) 117 (639) (0) 4.267 
+Resultado não operacional 66 - - - - - 66 
+Resultado recorrente antes de Impostos 4.855 - (0) 117 (639) (0) 4.333 
+Imposto de renda e contribuição social (630) - - - - - (630) 
+Participações no lucro (639) - - - 639 - - 
+Participações dos acionistas minoritários (39) - - - - - (39) 
+Lucro Líquido 3.548 - (0) 117 - (0) 3.664
+
+[p. 27]
+Reconciliação dos resultadoscontábil e gerencial
+4T23 Reclassificações 4T23
+R$ Milhões Contábil Hedge 
+Cambial1
+Recup. 
+Crédito2
+Amort. do 
+ágio3 Part. no Lucro Outros 
+Eventos4 Gerencial
+Margem Financeira Bruta 14.091 (82) (39) - - (190) 13.780 
+Resultado de Créditos de Liquidação Duvidosa (6.765) - 14 - - (85) (6.837) 
+Margem Financeira Líquida 7.325 (82) (25) - - (275) 6.943 
+Receitas de Prest. de Serviços e Tarifas Bancárias 5.595 - - - - (588) 5.007 
+Despesas Gerais (6.095) - - 85 (567) (5) (6.582) 
+Despesas de Pessoal (2.386) - - - (567) 2 (2.952) 
+Outras Despesas Administrativas (3.709) - - 85 - (7) (3.630) 
+Despesas Tributárias (1.404) 82 - - - - (1.322) 
+Resultados de Part. em Coligadas e Controladas 45 - - - - - 45 
+Outras Receitas/Despesas Operacionais (3.098) - 25 - - 868 (2.205) 
+Resultado Operacional 2.369 - 0 85 (567) - 1.886 
+Resultado não operacional 53 - - - - - 53 
+Resultado recorrente antes de Impostos 2.421 - 0 85 (567) - 1.939 
+Imposto de renda e contribuição social 334 - - - - - 334 
+Participações no lucro (567) - - - 567 - - 
+Participações dos acionistas minoritários (68) - - - - - (68) 
+Lucro Líquido 2.119 - 0 85 - - 2.204

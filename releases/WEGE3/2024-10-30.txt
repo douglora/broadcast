@@ -1,0 +1,1189 @@
+[p. 1]
+Jaraguá do Sul, Brasil, 30 outubro de 2024 
+ 
+ 
+Destaques 
+ 
+A Receita Operacional Líquida (ROL) foi de R$ 9.856,9 milhões no 3T24, 22,1% superior ao 3T23 e 
+6,3% superior ao 2T24; 
+ 
+O EBITDA(1) atingiu R$ 2.224,6 milhões, 27,9% superior ao 3T23 e 4,9% superior ao 2T24, enquanto a 
+margem EBITDA de 22,6% foi 1,1 ponto percentual maior do que no 3T23 e 0,3 ponto percentual menor 
+do que o trimestre anterior; 
+ 
+O Retorno Sobre o Capital Investido (ROIC(2)) atingiu 37,1% no 3T24, crescimento de 1,7 ponto 
+percentual em relação ao 3T23 e redução de 0,3 ponto percentual em relação ao 2T24. 
+Mensagem da Administração 
+Neste trimestre apresentamos bons resultados, com aceleração do crescimento das receitas e margens 
+operacionais positivas, motivados pela continuidade do bom desempenho em grande parte dos nossos negócios de 
+ciclo longo e boa demanda por nossos produtos e serviços nos principais mercados onde atuamos. 
+No Brasil, o fornecimento de equipamentos de ciclo longo continua positivo, especialmente em soluções ligadas à 
+transmissão & distribuição (T&D) , apesar d a redução do n ível de entregas no negócio de geração eólica. Nos 
+equipamentos de ciclo curto, observamos melhora da demanda de motores elétricos e seguimos com uma demanda 
+positiva nos negócios de redutores, e Motores Comerciais e Appliance (MCA). Por outro lado, o negócio de geração 
+solar distribuída, continua apresentando menor nível de receita quando comparado com o mesmo período no ano 
+passado. 
+No mercado externo, o crescimento de receita foi suportado pelo desempenho dos negócios Geração, Transmissão 
+e Distribuição de Energia (GTD), fruto principalmente do volume de entregas na área de T&D na América do Norte. 
+A atividade industrial continu ou aquecida nos nossos principais mercados de atuação , principalmente nas vendas 
+de equipamentos industriais para segmentos importantes como óleo & gás e água & saneamento. Lembramos que 
+o desempenho do trimestre foi positivamente impactado pelos negócios recém adquiridos de motores industriais e 
+geradores das marcas Marathon, Rotor e Cemp. 
+Nossa estratégia de diversificação de produtos e presença global segue sendo fator importante para continuidade 
+do crescimento. Continuamos com nossos esforços de constante busca de eficiência operacional que, aliados à 
+nossa estratégia industrial, são fatores fundamentais para a entrega das margens operacionais e do retorno sobre 
+o capital investido nos níveis observados neste trimestre. 
+Tabela 1 – Principais Números do Trimestre 
+ 3T24 2T24 AH% 3T23 AH% 09M24 09M23 AH%
+Retorno Sobre o Capital Investido 37,1% 37,4% -0,3 pp 35,4% 1,7 pp 37,1% 35,4% 1,7 pp
+Receita Operacional Líquida 9.856.935 9.274.426 6,3% 8.074.837 22,1% 27.164.665 23.942.316 13,5%
+ Mercado Interno 3.883.530 4.133.437 -6,0% 3.826.685 1,5% 11.911.415 11.229.266 6,1%
+ Mercado Externo 5.973.405 5.140.989 16,2% 4.248.152 40,6% 15.253.250 12.713.050 20,0%
+ Mercado Externo em US$ 1.077.189 984.804 9,4% 869.856 23,8% 2.897.616 2.542.669 14,0%
+Lucro Líquido 1.578.678 1.441.655 9,5% 1.311.688 20,4% 4.348.297 3.986.741 9,1%
+Margem Líquida 16,0% 15,5% 0,5 pp 16,2% -0,2 pp 16,0% 16,7% -0,7 pp
+EBITDA 2.224.599 2.120.814 4,9% 1.738.770 27,9% 6.115.293 5.260.993 16,2%
+Margem EBITDA 22,6% 22,9% -0,3 pp 21,5% 1,1 pp 22,5% 22,0% 0,5 pp
+Lucro por Ação (LPA) 0,37628 0,34362 9,5% 0,31270 20,3% 1,03643 0,95019 9,1%
+ 
+As informações financeiras e operacionais neste documento, exceto quando indicado de outra forma, são apresentadas em bases consolidadas, em milhares de reais (R$ mil), de acordo com 
+as práticas contábeis adotadas no Brasil, incluindo a Legislação Societária e a convergência às normas internacionais do IFRS. As taxas de crescimento e demais comparações são, exceto 
+quando indicado de outra forma, feitas em relação ao mesmo período do ano anterior. Os dados de Lucro por Ação são ajustados para eventos de desdobramento ou bonificação. 
+ 
+REL E ASE D E RES ULTADOS 
+3T 2 024 
+Crescimento da receita com consistência das margens operacionais e do ROIC
+
+[p. 2]
+ri.weg.net Release de Resultados 3T 2024 2 
+ 
+Receita Operacional Líquida 
+A receita operacional líquida apresentou crescimento de 22,1% sobre o 3T23, sendo 1,5% no mercado interno e 
+40,6% no mercado externo, conforme números apresentados na Tabela 1. A evolução da proporção da receita 
+entre os mercados é apresentada na Figura 1. 
+A receita dos negócios de motores industriais e geradores adquiridos da Regal Rexnord nesse trimestre foi de R$ 
+637,7 milhões, sendo 68,4% na área de EEI e 31,6% em GTD, ambos no mercado externo. Ajustada por este 
+efeito, a receita consolidada do trimestre mostraria crescimento de 14,2% sobre o 3T23. 
+ 
+Figura 1 – Receita Operacional Líquida por Mercado (valores em R$ milhões) 
+A receita operacional líquida do mercado externo, medida em dólares norte-americanos (US$) pelas cotações 
+trimestrais médias, apresentou crescimento de 23,8% em relação ao 3T23 e crescimento de 9,4% em relação ao 
+2T24. A distribuição da receita líquida por mercado geográfico é apresentada na Tabela 2. 
+Tabela 2 – Receita operacional líquida no mercado externo por região geográfica, em US$ mil 
+AH% AH%
+(A) AV% (B) AV% (C) AV% (A)/(B) (A)/(C)
+Mercado Externo 1.077.189 100,0% 984.804 100,0% 869.856 100,0% 9,4% 23,8%
+América do Norte 533.403 49,5% 489.814 49,7% 421.762 48,5% 8,9% 26,5%
+América do Sul e Central 104.529 9,7% 89.917 9,1% 107.686 12,4% 16,3% -2,9%
+Europa 245.090 22,8% 223.115 22,7% 209.470 24,1% 9,8% 17,0%
+África 66.671 6,2% 60.537 6,2% 57.937 6,6% 10,1% 15,1%
+Ásia-Pacífico 127.496 11,8% 121.421 12,3% 73.001 8,4% 5,0% 74,6%
+3T24 2T24 3T23
+ 
+A receita do mercado externo em reais foi impactada pela variação do dólar norte-americano médio, que passou 
+de R$ 4,88 no 3T23 para R$ 5,54 no 3T24, uma valorização de 13,5% em relação ao real. 
+Deve-se considerar que os preços de venda praticados nos diferentes mercados são estabelecidos nas diferentes 
+moedas locais, de acordo com as condições competitivas regionais. Nas moedas locais, ponderado pelo peso de 
+cada mercado, a receita líquida do mercado externo apresentou crescimento de 11,7%(3) em relação ao 3T23. 
+47,5% 45,8% 47,4% 47,7% 48,5% 44,6% 39,4%
+52,5% 54,2% 52,6% 52,3% 51,5%
+55,4% 60,6%
+7.696,2 8.171,3 8.074,8 8.561,3 8.033,3
+9.274,4 9.856,9
+1T23 2T23 3T23 4T23 1T24 2T24 3T24
+Mercado Interno Mercado Externo
+
+[p. 3]
+ri.weg.net Release de Resultados 3T 2024 3 
+ 
+Desempenho por Área de Negócio 
+ 
+Equipamentos Eletroeletrônicos Industriais (EEI) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+3T24 1.406.412 3.457.376 
+2T24 1.397.143 2.976.068 
+Δ% 0,7% 16,2% 
+3T23 1.353.146 2.466.847 
+Δ% 3,9% 40,2% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ Demanda positiva para equipamentos de ciclo curto, especialmente 
+motores elétricos e redutores, pulverizada nos diversos segmentos de 
+atuação. 
+▪ Nos equipamentos de ciclo longo, como motores elétricos de média 
+tensão e painéis de automação, foi observada oscilação na entrega de 
+projetos, dinâmica típica para esse tipo de produto. 
+ 
+Mercado Externo 
+▪ Bom desempenho para equipamentos de ciclo curto, como motores 
+elétricos de baixa tensão e produtos seriados de automação, com 
+destaque para as áreas de óleo & gás e água & saneamento. A 
+incorporação dos negócios de motores industriais das marcas 
+Marathon, Rotor e Cemp também contribuíram de maneira positiva para 
+o desempenho da receita no trimestre. 
+▪ Os equipamentos de ciclo longo também apresentaram evolução de 
+vendas, com destaque para painéis de automação, consequência da 
+boa carteira de pedidos construída nos últimos trimestres. 
+ 
+Geração, Transmissão e Distribuição de Energia (GTD) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+3T24 1.794.110 2.041.544 
+2T24 2.107.869 1.735.295 
+Δ% -14,9% 17,6% 
+3T23 1.907.630 1.317.581 
+Δ% -6,0% 54,9% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ Desempenho positivo para o negócio de T&D, motivado principalmente 
+pelas entregas de transformadores de grande porte e subestações para 
+projetos ligados aos leilões de transmissão e redes de distribuição. 
+▪ Nos negócios de geração, a receita foi negativamente impactada pela 
+redução da entrega de aerogeradores, em um movimento já anunciado 
+de redução da atual carteira de pedidos. A receita do negócio de 
+geração solar distribuída (GD) segue impactada pela redução dos 
+preços dos painéis solares e consequente impacto nos preços dos 
+produtos, apesar de mostrar evolução em relação ao volume de projetos 
+vendidos. 
+ 
+Mercado Externo 
+▪ As oportunidades presentes no mercado de T&D na América do Norte 
+continuam a contribuir para o crescimento do negócio, especialmente 
+em transformadores para parques de geração de energia renovável e 
+reforço da infraestrutura da rede elétrica nos EUA, aliada a uma boa 
+demanda nos demais mercados de atuação. 
+▪ Bom desempenho também nos negócios de geração, além da 
+construção de uma carteira de pedidos saudável para os próximos 
+trimestres. O negócio de geradores adquiridos da marca Marathon 
+também contribuiu de maneira positiva para o desempenho da receita 
+desta área de negócio. 
+ 
+49,3%
+38,9%
+
+[p. 4]
+ri.weg.net Release de Resultados 3T 2024 4 
+ 
+Desempenho por Área de Negócio 
+ 
+Motores Comerciais e Appliance (MCA) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+3T24 353.317 400.631 
+2T24 329.449 367.695 
+Δ% 7,2% 9,0% 
+3T23 273.933 393.589 
+Δ% 29,0% 1,8% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ Crescimento das vendas, com continuidade do bom desempenho em 
+diversos mercado e destaque para os segmentos de ar-condicionado, 
+máquinas de lavar roupa e motobombas. 
+ 
+Mercado Externo 
+▪ Apesar do bom desempenho das operações no México e na China e 
+continuidade do crescimento em relação ao 2T24, a acomodação nas 
+vendas observada nos demais mercados onde atuamos impactou o 
+crescimento da receita quando comparada ao ano anterior. 
+ 
+Tintas e Vernizes (T&V) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+3T24 329.691 73.855 
+2T24 298.977 61.931 
+Δ% 10,3% 19,3% 
+3T23 291.977 70.135 
+Δ% 12,9% 5,3% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ A demanda pelos produtos continuou aquecida, com destaque para o 
+segmento de tintas em pó para fabricantes de máquinas e o segmento 
+de água & saneamento. 
+ 
+Mercado Externo 
+▪ Crescimento de receita motivado principalmente pelo bom resultado na 
+operação do México, apesar do menor desempenho das vendas na 
+América do Sul. 
+ 
+ 
+ 
+7,7%
+4,1%
+
+[p. 5]
+ri.weg.net Release de Resultados 3T 2024 5 
+ 
+Custos dos Produtos Vendidos 
+O Custo dos Produtos Vendidos (CPV) e a margem bruta do trimestre são apresentados na Tabela 3. 
+Tabela 3 – Custos 
+3T24 2T24 AH% 3T23 AH%
+Receita Operacional Líquida 9.856.935 9.274.426 6,3% 8.074.837 22,1%
+Custo dos Produtos Vendidos (6.458.216) (6.148.231) 5,0% (5.461.011) 18,3%
+Margem Bruta 34,5% 33,7% 0,8 pp 32,4% 2,1 pp
+ 
+O mix de produtos vendidos mais favorável e a melhora no desempenho das operações no exterior, aliados aos 
+constantes ganhos de produtividade, foram fatores importantes para a evolução da margem bruta neste trimestre 
+quando comparado ao mesmo período do ano anterior, apesar da variação positiva dos custos das principais 
+matérias-primas que compõem nossa estrutura de custos. 
+ 
+Figura 2 – Composição do CPV 
+Despesas de Vendas, Gerais e Administrativas 
+As despesas de Vendas, Gerais e Administrativas (VG&A) consolidadas totalizaram R$ 1.132,2 milhões no 3T24, 
+um aumento de 31,6% sobre o 3T23 e um aumento de 12,0% sobre o 2T24, principalmente devido a consolidação 
+dos negócios da Marathon, além de maiores despesas com frete no período. Quando analisadas em relação à 
+receita operacional líquida, elas representaram 11,5%, 0,8 ponto percentual maior em relação ao 3T23 e 0,6 ponto 
+percentual acima do valor apresentado no 2T24. 
+EBITDA e Margem EBITDA 
+A composição do cálculo do EBITDA, conforme Resolução CVM 156/2022, e a margem EBITDA são 
+apresentadas na Tabela 4. A margem EBITDA apresentou evolução quando comparada com o mesmo período do 
+ano anterior, reflexo do mix atual de produtos vendidos aliado à melhora das margens de equipamentos de ciclo 
+longo devido à boa demanda desses produtos. 
+Tabela 4 – Cálculo do EBITDA e Margem EBITDA 
+3T24 2T24 AH% 3T23 AH%
+Receita Operacional Líquida 9.856.935 9.274.426 6,3% 8.074.837 22,1%
+Lucro Líquido do Exercício 1.578.678 1.441.655 9,5% 1.311.688 20,4%
+Lucro Líquido antes de Minoritários 1.660.518 1.512.063 9,8% 1.345.892 23,4%
+(+) IRPJ e CSLL 416.771 444.508 -6,2% 268.697 55,1%
+(+/-) Resultado Financeiro (64.448) (25.281) 154,9% (33.420) 92,8%
+(+) Depreciação/Amortização 211.758 189.524 11,7% 157.601 34,4%
+EBITDA 2.224.599 2.120.814 4,9% 1.738.770 27,9%
+Margem EBITDA 22,6% 22,9% -0,3 pp 21,5% 1,1 pp
+ 
+16,5%
+2,4%
+9,4%
+71,7%
+3T23
+Pessoal
+Depreciação
+Outros
+Materiais
+18,1%
+2,7%
+9,4%
+69,8%
+3T24
+
+[p. 6]
+ri.weg.net Release de Resultados 3T 2024 6 
+ 
+Resultado Líquido 
+O lucro líquido no 3T24 foi de R$ 1.578,7 milhões, um crescimento de 20,4% em relação ao 3T23 e crescimento 
+de 9,5% em relação ao 2T24. A margem líquida atingiu 16,0%, 0,2 ponto percentual inferior ao 3T23 e 0,5 ponto 
+percentual superior ao 2T24. 
+Fluxo de Caixa 
+As atividades operacionais apresentaram geração de caixa de R$ 4.670,3 milhões nos nove primeiros meses do 
+ano, resultado do crescimento da receita e melhora das margens operacionais, apesar do aumento da 
+necessidade de capital de giro no período. 
+Nas atividades de investimentos, que incluem as movimentações dos ativos imobilizado e intangível, aquisição de 
+controlada e aplicações financeiras, tivemos um consumo de caixa de R$ 3.064,1 milhões. O investimento 
+(CAPEX(4)) em modernização e expansão da capacidade produtiva teve continuidade através de aplicações de 
+recursos nas fábricas do Brasil, México, Estados Unidos e China. 
+Nas atividades de financiamento captamos R$ 3.312,3 milhões e realizamos amortizações de R$ 3.260,5 milhões, 
+resultando em uma captação líquida de R$ 51,8 milhões. A remuneração do capital próprio (dividendos e juros 
+sobre capital próprio) somou R$ 2.936,8 milhões. O resultado foi o consumo de caixa de R$ 2.877,5 milhões nas 
+atividades de financiamento no período. 
+ 
+Figura 3 – Conciliação do fluxo de caixa (valores em R$ milhões) 
+Lembramos que a Figura 3 apresenta as posições de caixa e equivalentes de caixa classificadas no ativo 
+circulante. Adicionalmente, temos R$ 698,7 milhões em aplicações financeiras sem liquidez imediata, incluindo 
+instrumentos financeiros derivativos (R$ 626,5 milhões em dezembro de 2023). 
+ 
+Caixa dezembro 2023
+Operacional
+Investimentos
+Financiamento Variação
+Cambial
+Caixa setembro 2024
+6.488,5
+4.670,3 (3.064,1)
+(2.877,5)
+257,0 5.474,2
+
+[p. 7]
+ri.weg.net Release de Resultados 3T 2024 7 
+ 
+Retorno sobre o Capital Investido (ROIC) 
+O ROIC do 3T24, acumulado nos últimos 12 meses, atingiu 37,1%, um crescimento de 1,7 ponto percentual em 
+relação ao 3T23 e redução de 0,3 ponto percentual em relação ao 2T24. Importante lembrar que ROIC foi 
+impactado positivamente pelos incentivos fiscais relacionados com a nova controlada na Suíça reconhecidos no 
+4T23. Desconsiderando este efeito não recorrente, o ROIC seria de 34,3%. 
+O crescimento do Lucro Operacional após os Impostos (NOPAT(5)), em virtude principalmente da manutenção das 
+margens operacionais, além do crescimento da receita, mais do que compensou o crescimento do capital 
+empregado, cuja expansão é explicada majoritariamente pela aquisição dos negócios de motores industriais e 
+geradores da Regal Rexnord e pelos investimentos em ativos fixos e intangíveis realizados ao longo dos últimos 
+12 meses. 
+Investimentos (CAPEX) 
+No 3T24 investimos R$ 434,9 milhões em modernização e expansão de capacidade produtiva, máquinas e 
+equipamentos e licenças de uso de softwares, sendo 64,6% destinados às unidades produtivas no Brasil e 35,4% 
+destinados aos parques industriais e demais instalações no exterior. 
+No Brasil, seguimos com a expansão da capacidade de produção de motores industriais, motores de tração e 
+transformadores. No exterior, destacamos o investimento em aumento da capacidade de produção das fábricas de 
+motores e transformadores no México. 
+ 
+Figura 4 – Evolução do CAPEX (valores em R$ milhões) 
+Pesquisa, Desenvolvimento e Inovação 
+Os dispêndios nas atividades de pesquisa, desenvolvimento e inovação totalizaram R$ 799,0 milhões, 
+representando 2,9% da receita operacional líquida acumulada em 2024. 
+ 
+ 
+168,0 150,9 186,4
+281,3 223,8 224,1 280,9
+175,4 
+293,9 245,3 
+157,5 
+127,7 167,4 
+154,0 343,4 
+444,8 431,7 438,8 
+351,5 391,5 
+434,9 
+ 1T23 2T23 3T23 4T23 1T24 2T24 3T24
+Brasil Exterior
+
+[p. 8]
+ri.weg.net Release de Resultados 3T 2024 8 
+ 
+Disponibilidades e Endividamento 
+As disponibilidades, aplicações financeiras e instrumentos financeiros derivativos, aplicados em bancos de 
+primeira linha e majoritariamente em moeda nacional, são apresentadas na Tabela 5. Da mesma forma, é 
+apresentada a dívida financeira bruta total, com o detalhamento entre curto e longo prazo, em reais e outras 
+moedas, resultando no caixa líquido da Companhia ao final do trimestre. 
+Tabela 5 – Disponibilidades e Financiamentos 
+Disponibilidades e Aplicações 6.123.147 7.091.927 5.733.910 
+Curto Prazo 6.111.003 7.081.224 5.723.310 
+Longo Prazo 12.144 10.703 10.600 
+Instrumentos Financeiros Derivativos 16.360 (141.917) (175.797) 
+Ativo Curto Prazo 32.254 22.423 5.414 
+Ativo Longo Prazo 17.526 605 859 
+Passivo Curto Prazo (32.999) (73.082) (110.393) 
+Passivo Longo Prazo (421) (91.863) (71.677) 
+Financiamentos (3.027.026) 100% (2.835.061) 100% (2.848.572) 100%
+Curto Prazo (2.552.367) 84% (2.170.324) 77% (2.189.867) 77%
+Em reais (6.848) (158.814) (160.838) 
+Em outras moedas (2.545.519) (2.011.510) (2.029.029) 
+Longo Prazo (474.659) 16% (664.737) 23% (658.705) 23%
+Em reais (211.234) (91.192) (63.981) 
+Em outras moedas (263.425) (573.545) (594.724) 
+Caixa Líquido 3.112.481 4.114.949 2.709.541 
+Setembro 2024 Dezembro 2023 Setembro 2023
+ 
+O duration total do endividamento era de 14,0 meses em setembro de 2024 (10,7 meses em dezembro 2023). 
+Dividendos e Juros sobre Capital Próprio 
+A partir de 14 de agosto, realizamos o pagamento aos acionistas dos proventos que foram declarados referentes 
+ao primeiro semestre de 2024, conforme eventos aprovados em: 
+▪ 19 de março, juros sobre capital próprio, no valor total de R$ 242,3 milhões; 
+▪ 25 de junho, juros sobre capital próprio, no valor total de R$ 263,3 milhões; 
+▪ 30 de julho, dividendos intermediários, no valor total de R$ 786,9 milhões. 
+Adicionalmente, em 24 de setembro, declaramos juros sobre capital próprio, no valor de R$ 293,9 milhões, que 
+serão pagos em 12 de março de 2025. 
+Nossa prática é declarar juros sobre capital próprio (JCP) trimestralmente e dividendos intermediários e 
+complementares com base no lucro obtido a cada semestre, ou seja, seis proventos a cada ano, que são pagos 
+semestralmente. 
+Tabela 6 – Proventos 
+Data da deliberação 
+(RCA)
+Valor bruto
+por ação
+Juros sobre Capital Próprio 19/03/2024 0,057764706 
+Juros sobre Capital Próprio 25/06/2024 0,062764706 
+Dividendos 30/07/2024 0,187552062 
+Juros sobre Capital Próprio 24/09/2024 0,070058824 
+Total 0,378140298
+
+[p. 9]
+ri.weg.net Release de Resultados 3T 2024 9 
+ 
+Outros Eventos 
+WEG adquire a Volt Electric Motors 
+Anunciamos em 12 de setembro a aquisição da Volt Electric Motors (“Volt”), fabricante turco de motores elétricos 
+industriais e comerciais, uma subsidiaria do Grupo Saya. O valor da aquisição é de US$ 88 milhões (Enterprise 
+Value – EV), a serem pagos após a conclusão da transação, estando sujeito a ajustes de preços comuns a este 
+tipo de operação. A receita operacional líquida do negócio em 2023 foi de US$ 70 milhões, com uma margem 
+EBITDA de 18,5%. A conclusão da transação está sujeita ao cumprimento de det erminadas condições 
+precedentes, dentre as quais as aprovações regulatórias necessárias relativas à transação. 
+Com o acordo, a WEG assumirá o controle total da Volt, que possui uma fábrica de 27.000 m² de área construída 
+dedicada ao desenvolvimento e fabricação de motores industriais e comerciais, com potências até 450 kW , além 
+de incorporar uma equipe de 690 funcionários. Esta aquisição está alinhada à estratégia de crescimento do 
+negócio de motores industriais e comerciais da WEG, pois permitirá ampliar a presença e oferta de produtos em 
+mercados altamente competitivos e estratégicos, como o Leste Europeu, Oriente Médio, Ásia Central e Norte da 
+África. 
+Teleconferência de Resultados 
+A WEG realizará, no dia 31 de outubro 2024 (quinta-feira), teleconferência em português, com tradução 
+simultânea para o inglês, e transmissão pela internet (webcasting), no seguinte horário: 
+▪ 11h00 – São Paulo (BRT) 
+▪ 10h00 – Nova York (EDT) 
+▪ 14h00 – Londres (GMT) 
+Link de acesso: clique aqui 
+A apresentação estará disponível na página na internet da área de Relações com Investidores (ri.weg.net). 
+ 
+ 
+ 
+ 
+Declarações Prospectivas 
+As declarações contidas neste relatório relativas às perspectivas dos negócios da WEG, às projeções e resultado 
+e ao potencial de crescimento da Companhia constituem-se em meras previsões e foram baseadas nas 
+expectativas da administração em relação ao futuro da WEG. Estas expectativas são altamente dependentes de 
+mudanças no mercado, do desempenho econômico geral do país e do setor e dos mercados i nternacionais, 
+podendo sofrer alterações.
+
+[p. 10]
+ri.weg.net Release de Resultados 3T 2024 10 
+ 
+ 
+DE M O NST RAÇÕ ES FI NANCEI RAS 
+3T 2 024 
+ 
+A n e x o s
+
+[p. 11]
+ri.weg.net Release de Resultados 3T 2024 11 
+ 
+Anexo I – Demonstração de Resultados Consolidados – Trimestral 
+AH% AH%
+(A) AV% (B) AV% (C) AV% (A)/(B) (A)/(C)
+Receita Operacional Líquida 9.856.935 100,0% 9.274.426 100,0% 8.074.837 100,0% 6,3% 22,1%
+Custo dos Produtos Vendidos (6.458.216) -65,5% (6.148.231) -66,3% (5.461.011) -67,6% 5,0% 18,3%
+Lucro Bruto 3.398.719 34,5% 3.126.195 33,7% 2.613.826 32,4% 8,7% 30,0%
+Despesas de Vendas (776.315) -7,9% (702.805) -7,6% (597.988) -7,4% 10,5% 29,8%
+Despesas Administrativas (355.930) -3,6% (308.248) -3,3% (262.164) -3,2% 15,5% 35,8%
+Receitas Financeiras 538.244 5,5% 524.936 5,7% 297.429 3,7% 2,5% 81,0%
+Despesas Financeiras (473.796) -4,8% (499.655) -5,4% (264.009) -3,3% -5,2% 79,5%
+Outras Receitas Operacionais 19.175 0,2% 35.284 0,4% 43.217 0,5% -45,7% -55,6%
+Outras Despesas Operacionais (272.974) -2,8% (217.863) -2,3% (215.722) -2,7% 25,3% 26,5%
+Equivalência Patrimonial 166 0,0% (1.273) 0,0% - 0,0% n.a. n.m.
+Lucro antes dos Impostos 2.077.289 21,1% 1.956.571 21,1% 1.614.589 20,0% 6,2% 28,7%
+Imposto de Renda e CSLL (450.540) -4,6% (421.756) -4,5% (262.087) -3,2% 6,8% 71,9%
+Impostos Diferidos 33.769 0,3% (22.752) -0,2% (6.610) -0,1% n.a. n.a.
+Minoritários (81.840) -0,8% (70.408) -0,8% (34.204) -0,4% 16,2% 139,3%
+Lucro Líquido do Exercício 1.578.678 16,0% 1.441.655 15,5% 1.311.688 16,2% 9,5% 20,4%
+EBITDA 2.224.599 22,6% 2.120.814 22,9% 1.738.770 21,5% 4,9% 27,9%
+Lucro por Ação (LPA) 0,37628 0,34362 0,31270 9,5% 20,3%
+2T24 3T233T24
+ 
+ 
+Anexo II – Demonstração de Resultados Consolidados – Acumulado 
+AH%
+(A) AV% (B) AV% (A)/(B)
+Receita Operacional Líquida 27.164.665 100,0% 23.942.316 100,0% 13,5%
+Custo dos Produtos Vendidos (17.969.047) -66,1% (16.026.883) -66,9% 12,1%
+Lucro Bruto 9.195.618 33,9% 7.915.433 33,1% 16,2%
+Despesas de Vendas (2.103.304) -7,7% (1.773.007) -7,4% 18,6%
+Despesas Administrativas (924.148) -3,4% (767.454) -3,2% 20,4%
+Receitas Financeiras 1.387.807 5,1% 1.134.662 4,7% 22,3%
+Despesas Financeiras (1.225.626) -4,5% (996.852) -4,2% 22,9%
+Outras Receitas Operacionais 71.393 0,3% 113.620 0,5% -37,2%
+Outras Despesas Operacionais (691.047) -2,5% (687.957) -2,9% 0,4%
+Equivalência Patrimonial (1.034) 0,0% - 0,0% n.m.
+Lucro antes dos Impostos 5.709.659 21,0% 4.938.445 20,6% 15,6%
+Imposto de Renda e CSLL (1.216.636) -4,5% (875.497) -3,7% 39,0%
+Impostos Diferidos 56.812 0,2% 16.672 0,1% 240,8%
+Minoritários (201.538) -0,7% (92.879) -0,4% 117,0%
+Lucro Líquido do Exercício 4.348.297 16,0% 3.986.741 16,7% 9,1%
+EBITDA 6.115.293 22,5% 5.260.993 22,0% 16,2%
+Lucro por Ação (LPA) 1,03643 0,95019 9,1%
+09M24 09M23
+
+[p. 12]
+ri.weg.net Release de Resultados 3T 2024 12 
+ 
+Anexo III – Balanço Patrimonial Consolidado 
+AH% AH%
+(A) AV% (B) AV% (C) AV% (A)/(B) (A)/(C)
+Ativo Circulante 23.752.129 65% 21.562.311 68% 20.745.864 69% 10% 14%
+Disponibilidades 6.111.003 17% 7.081.224 22% 5.723.310 19% -14% 7%
+Créditos a Receber 6.820.230 19% 6.070.556 19% 6.011.821 20% 12% 13%
+Estoques 9.108.988 25% 7.116.286 23% 7.662.245 25% 28% 19%
+Outros Ativos Circulantes 1.711.908 5% 1.294.245 4% 1.348.488 4% 32% 27%
+Ativo Não Circulante 12.563.516 35% 9.933.959 32% 9.329.947 31% 26% 35%
+Ativo Realizável a Longo Prazo 1.370.952 4% 1.090.397 3% 712.401 2% 26% 92%
+Aplicações Financeiras 12.144 0% 10.703 0% 10.600 0% 13% 15%
+Impostos Diferidos 1.071.827 3% 864.394 3% 472.830 2% 24% 127%
+Outros Ativos não circulantes 286.981 1% 215.300 1% 228.971 1% 33% 25%
+Investimentos 75.411 0% 77.481 0% 61.925 0% -3% 22%
+Imobilizado 8.766.183 24% 7.294.836 23% 7.078.011 24% 20% 24%
+Direito de uso 793.134 2% 587.291 2% 603.373 2% 35% 31%
+Intangível 2.350.970 6% 1.471.245 5% 1.477.610 5% 60% 59%
+Total do Ativo 36.315.645 100% 31.496.270 100% 30.075.811 100% 15% 21%
+Passivo Circulante 13.328.901 37% 11.219.689 36% 11.125.693 37% 19% 20%
+Obrigações Sociais e Trabalhistas 986.208 3% 515.538 2% 776.422 3% 91% 27%
+Fornecedores 3.131.384 9% 2.190.088 7% 2.300.085 8% 43% 36%
+Obrigações Fiscais 871.697 2% 483.273 2% 588.772 2% 80% 48%
+Empréstimos e Financiamentos 2.552.367 7% 2.170.324 7% 2.189.867 7% 18% 17%
+Dividendos e Juros s/ Capital Próprio 273.802 1% 482.903 2% 224.278 1% -43% 22%
+Adiantamento de Clientes 3.090.230 9% 3.238.834 10% 3.055.609 10% -5% 1%
+Participações nos Resultados 358.712 1% 563.436 2% 325.968 1% -36% 10%
+Instrumentos Financeiros Derivativos 32.999 0% 73.082 0% 110.393 0% -55% -70%
+Arrendamento Mercantil 93.640 0% 72.872 0% 72.301 0% 28% 30%
+Outras Obrigações 1.937.862 5% 1.429.339 5% 1.481.998 5% 36% 31%
+Passivo Não Circulante 2.518.193 7% 2.421.805 8% 2.350.331 8% 4% 7%
+Empréstimos e Financiamentos 474.659 1% 664.737 2% 658.705 2% -29% -28%
+Outras Obrigações 447.474 1% 311.351 1% 295.242 1% 44% 52%
+Arrendamento Mercantil 655.571 2% 484.027 2% 502.774 2% 35% 30%
+Impostos Diferidos 102.108 0% 87.056 0% 74.262 0% 17% 37%
+Provisões para Contingências 838.381 2% 874.634 3% 819.348 3% -4% 2%
+Patrimônio Líquido 20.468.551 56% 17.854.776 57% 16.599.787 55% 15% 23%
+Acionistas Controladores 19.724.495 54% 17.342.085 55% 16.123.041 54% 14% 22%
+Acionistas Não Controladores 744.056 2% 512.691 2% 476.746 2% 45% 56%
+Total do Passivo 36.315.645 100% 31.496.270 100% 30.075.811 100% 15% 21%
+Setembro 2024 Dezembro 2023 Setembro 2023
+
+[p. 13]
+ri.weg.net Release de Resultados 3T 2024 13 
+ 
+Anexo IV – Demonstração dos Fluxos de Caixa Consolidados 
+9 Meses 9 Meses
+2024 2023
+Atividades Operacionais
+Lucro antes dos impostos e Participações 5.709.659 4.938.445 
+Depreciações e Amortizações 567.815 460.358 
+Equivalência patrimonial 1.034 - 
+Provisões 657.495 817.078 
+Crédito tributário - Exclusão do ICMS na base de cálculo do PIS/COFINS - (28.933) 
+Variação nos Ativos e Passivos (2.265.720) (1.167.252) 
+(Aumento)/Redução nos clientes 47.701 (571.403) 
+Aumento/(Redução) nos fornecedores 591.882 289.066 
+(Aumento)/Redução nos estoques (778.002) (287.451) 
+(Aumento)/redução nos impostos a recuperar (17.318) 126.602 
+Aumento/(redução) nas obrigações sociais/tributárias 254.702 228.278 
+Aumento/(redução) nos adiantamentos de clientes (335.415) 242.930 
+Aumento/(redução) nas outras contas a receber/pagar (104.938) 343.068 
+Imposto de renda e contribuição social pagos (964.264) (853.668) 
+Participação no resultado dos colaboradores pagos (665.474) (579.623) 
+Juros pagos sobre empréstimos e financiamentos (294.594) (105.051) 
+Caixa Líquido proveniente das Atividades Operacionais 4.670.283 5.019.696 
+Atividades de Investimentos
+Imobilizado (1.123.803) (1.173.067) 
+Intangível (54.133) (46.799) 
+Resultado de venda de imobilizado 4.548 7.497 
+Aquisição de Controlada (1.894.973) (7.414) 
+Aquisição de participação societária - coligadas - (60.928) 
+Aplicações financeiras mantidas até o vencimento 2.556 - 
+Resgate de aplicações financeiras 1.679 3.672 
+Caixa Líquido aplicado nas Atividades de Investimentos (3.064.126) (1.277.039) 
+Atividades de Financiamentos
+Captação de empréstimos e financiamentos obtidos 3.312.299 2.524.283 
+Pagamento de empréstimos e financiamentos (3.260.460) (3.110.385) 
+Ações em Tesouraria 7.417 (37.247) 
+Dividendos/juros s/capital próprio pagos (2.936.777) (2.309.544) 
+Caixa líquido aplicado nas ativ. de financiamentos (2.877.521) (2.932.893) 
+Variação Cambial s/ Caixa e Equivalentes 257.113 (117.930) 
+Aumento (Redução) Líquido de Caixa e Equivalentes (1.014.251) 691.834 
+Saldo de caixa:
+Caixa e equivalente de caixa no início do período 6.488.454 4.451.002 
+Caixa e equivalente de caixa no final do período 5.474.203 5.142.836 
+ 
+ 
+Para mais informações, acesse nossa central de resultados: 
+https://ri.weg.net/informacoes-financeiras/central-de-resultados 
+Notas Explicativas: 
+(1) Sigla em inglês para Earnings Before Interest, Taxes, Depreciation and Amortization, que significa lucros antes de juros, impostos, depreciação e amortização. 
+(2) Sigla em inglês para Return on Invested Capital. 
+(3) Desconsideradas variações em países com hiperinflação e aquisições no período. 
+(4) Sigla em inglês para Capital Expenditure. 
+(5) Sigla em inglês para Net Operating Profits After Taxes. 
+n.a. Abreviação para não aplicável. 
+n.m. Abreviação para não mencionado. 
+pp Abreviação para ponto percentual.
+
+[p. 14]
+Jaraguá do Sul, Brazil, October 30, 2024 
+ 
+ 
+Highlights 
+ 
+Net Operating Revenue (NOR) was R$ 9,856.9 million in 3Q24, 22.1% higher than 3Q23 and 6.3% 
+higher than 2Q24. 
+ 
+EBITDA(1) reached R$ 2,224.6 million, 27.9% higher than 3Q23 and 4.9 higher than 2Q24, while 
+EBITDA margin was 22.6%, 110 bps higher than 3Q23 and 30 bps lower than the previous quarter. 
+ 
+Return on Invested Capital (ROIC) reached 37.1% in 3Q24, up 170 bps from 3Q23 and down 30 bps 
+from 2Q24. 
+Message from the Management 
+We presented good results this quarter, with accelerated revenue growth and consistent operating margins, driven 
+by continued solid performance in most of our long -cycle businesses and favorable demand for our products and 
+services in the main markets where we operate. 
+In Brazil, the supply of long-cycle goods remained positive, especially in transmission & distribution (T&D) solutions, 
+despite the reduction of deliveries in the wind generation business. For short-cycle goods, we observed an 
+improvement in the demand for electric motors and good demand in the gearbox and Commercial Motors and 
+Appliance (MCA) businesses. On the other hand, the distributed solar generation business was still at a lower level 
+of revenue compared to the same period of last year. 
+In the external market, revenue growth was supported by the performance of Power Generation, Transmission and 
+Distribution (GTD) area, mainly due to the volume of deliveries in the T&D businesses in North America. Industrial 
+activity continued to grow in our main markets, especially sales of industrial equipment for important segments such 
+as oil & gas and water & wastewater. We remind you that this quarter's performance was positively impacted by the 
+recently acquired industrial motors and generators businesses from the Marathon, Rotor and Cemp brands. 
+Our strategy based on product diversification and global presence remains an important factor for our sustained 
+growth. We persist in our efforts towards operational efficiency which, combined with our industrial strategy, are key 
+factors to delivering operating margins and return on invested capital observed this quarter. 
+Table 1 – Main Highlights 
+ 3Q24 2Q24 HA% 3Q23 HA% 09M24 09M23 HA%
+Return on Invested Capital 37.1% 37.4% -30 bps 35.4% 170 bps 37.1% 35.4% 170 bps
+Net Operating Revenue 9,856,935 9,274,426 6.3% 8,074,837 22.1% 27,164,665 23,942,316 13.5%
+ Domestic Market 3,883,530 4,133,437 -6.0% 3,826,685 1.5% 11,911,415 11,229,266 6.1%
+ External Markets 5,973,405 5,140,989 16.2% 4,248,152 40.6% 15,253,250 12,713,050 20.0%
+ External Markets in US$ 1,077,189 984,804 9.4% 869,856 23.8% 2,897,616 2,542,669 14.0%
+Net Income 1,578,678 1,441,655 9.5% 1,311,688 20.4% 4,348,297 3,986,741 9.1%
+Net Margin 16.0% 15.5% 50 bps 16.2% -20 bps 16.0% 16.7% -70 bps
+EBITDA 2,224,599 2,120,814 4.9% 1,738,770 27.9% 6,115,293 5,260,993 16.2%
+EBITDA Margin 22.6% 22.9% -30 bps 21.5% 110 bps 22.5% 22.0% 50 bps
+Earnings per Share (EPS) 0.37628 0.34362 9.5% 0.31270 20.3% 1.03643 0.95019 9.1%
+ 
+The following financial and operating data are presented on a consolidated basis, except when otherwise indicated, in thousands of Brazilian reais (R$) according to accounting practices 
+adopted in Brazil, including Brazilian Corporate Law in convergence with IFRS international norms. Except when otherwise indicated, growth rates and other comparisons are made to the same 
+period of the previous year. Share data is adjusted for split or bonus events. 
+E ARNI NG S REL E AS E 
+3Q 2 0 24 
+Continued revenue growth with consistent operating margins and ROIC
+
+[p. 15]
+ir.weg.net Earnings Release 3Q 2024 2 
+ 
+Net Operating Revenue 
+Net operating revenue grew by 22.1% compared to 3Q23, up 1.5% in the domestic market and 40.6% in the 
+external market, as shown in Table 1. The evolution of revenue proportion between markets is shown in Figure 1. 
+Revenue from the industrial motors and generators businesses acquired from Regal Rexnord, consolidated this 
+quarter, was R$ 637.7 million, 68.4% in the EEI area and 31.6% in GTD, both in the external market. Adjusted for 
+this effect, consolidated revenue for the quarter would have grown 14.2% over 3Q23. 
+ 
+Figure 1 – Net Operating Revenue by Market (figures in R$ million) 
+Net operating revenue from the external market, measured in the quarterly averaged US dollars (US$), increased 
+by 23,8% compared to 3Q23 and increased by 9,4% compared to 2Q24. The distribution of net revenue by 
+geographic market is shown in Table 2. 
+Table 2 – Net operating revenue from the external market by geographic region, in US dollars 
+HA% HA%
+(A) VA% (B) VA% (C) VA% (A)/(B) (A)/(C)
+External Markets 1,077,189 100.0% 984,804 100.0% 869,856 100.0% 9.4% 23.8%
+North America 533,403 49.5% 489,814 49.7% 421,762 48.5% 8.9% 26.5%
+South and Central America 104,529 9.7% 89,917 9.1% 107,686 12.4% 16.3% -2.9%
+Europe 245,090 22.8% 223,115 22.7% 209,470 24.1% 9.8% 17.0%
+Africa 66,671 6.2% 60,537 6.2% 57,937 6.6% 10.1% 15.1%
+Asia-Pacific 127,496 11.8% 121,421 12.3% 73,001 8.4% 5.0% 74.6%
+3Q24 2Q24 3Q23
+ 
+Net operating revenue from the external market was impacted by the average US dollar exchange rate that moved 
+from R$ 4.88 in 3Q23 to R$ 5.54 in 3Q24, a 13.5% appreciation over the Brazilian real. 
+It is important to consider that we set our sales prices in different markets in local currency and according to their 
+competitive conditions. Measured in local currencies and weighted by revenues in each market, net operating 
+revenue from the external market increased by 11.7%(2) compared to 3Q23. 
+ 
+ 
+47.5% 45.8% 47.4% 47.7% 48.5% 44.6% 39.4%
+52.5% 54.2% 52.6% 52.3% 51.5%
+55.4% 60.6%
+7,696.2 8,171.3 8,074.8 8,561.3 8,033.3
+9,274.4 9,856.9
+1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24
+Brazilian Market External Market
+
+[p. 16]
+ir.weg.net Earnings Release 3Q 2024 3 
+ 
+ 
+Performance by Business Area 
+ 
+Industrial Electro-Electronic Equipment (EEI) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+3Q24 1,406,412 3,457,376 
+2Q24 1,397,143 2,976,068 
+Δ% 0.7% 16.2% 
+3Q23 1,353,146 2,466,847 
+Δ% 3.9% 40.2% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Demand was positive for short-cycle goods, especially electric motors 
+and gearboxes, distributed across different segments. 
+▪ For long-cycle goods, such as medium-voltage electric motors and 
+automation panels, we observed fluctuations in project deliveries, a 
+usual dynamic for this type of product. 
+ 
+External Market 
+▪ Good performance for short-cycle goods, such as low-voltage electric 
+motors and serial automation products, with highlights to the oil & gas 
+and water & wastewater segments. The incorporation of the industrial 
+motor businesses from Marathon, Rotor and Cemp brands also 
+contributed to the revenue performance this quarter. 
+▪ Long-cycle goods also showed sales growth, with a highlight to 
+automation panels, as a result of the favorable order backlog built in 
+recent quarters. 
+ 
+ 
+Energy Generation, Transmission, and Distribution (GTD) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+3Q24 1,794,110 2,041,544 
+2Q24 2,107,869 1,735,295 
+Δ% -14.9% 17.6% 
+3Q23 1,907,630 1,317,581 
+Δ% -6.0% 54.9% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Solid performance for the T&D business, mainly driven by deliveries of 
+large transformers and substations for projects linked to transmission 
+auctions and distribution networks. 
+▪ In the generation business, revenue was negatively impacted by the 
+reduction in the delivery of wind turbines, in an already announced 
+orders backlog. Revenue of distributed solar generation business was 
+still impacted by the reduction in solar panel prices and the consequent 
+impact on product prices, despite an evolution related to the volume of 
+projects sold. 
+ 
+External Market 
+▪ The opportunities in the T&D market in North America continue to 
+contribute to the growth of the business, especially in transformers for 
+renewable energy generation plants and reinforcement of the electricity 
+grid infrastructure in the United States, combined with positive demand 
+in the other operating markets. 
+▪ Good performance also in the generation business, in addition to 
+building a healthy order book for the coming quarters. The generator 
+business acquired from the Marathon brand also contributed to the 
+revenue performance of this business area. 
+ 
+49.3%
+38.9%
+
+[p. 17]
+ir.weg.net Earnings Release 3Q 2024 4 
+ 
+Performance by Business Area 
+ 
+Commercial and Appliance Motors (MCA) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+3Q24 353,317 400,631 
+2Q24 329,449 367,695 
+Δ% 7.2% 9.0% 
+3Q23 273,933 393,589 
+Δ% 29.0% 1.8% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Continued sales growth with solid performance in several markets with 
+segments such as air conditioning, washing machines and motor pumps 
+standing out. 
+ 
+External Market 
+▪ Despite the good performance of the operations in Mexico and China 
+and continued growth when compared to 2Q24, the accommodation in 
+sales observed in the other markets where we operate impacted 
+revenue growth when compared to the previous year. 
+ 
+Paints and Varnishes (T&V) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+3Q24 329,691 73,855 
+2Q24 298,977 61,931 
+Δ% 10.3% 19.3% 
+3Q23 291,977 70,135 
+Δ% 12.9% 5.3% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Demand for our products remained positive, with notable segments 
+being powder coatings for industrial equipment manufacturers and water 
+& wastewater. 
+ 
+External Market 
+▪ Revenue growth was mainly driven by the good result in the Mexico 
+operation despite the lower sales performance in South America. 
+ 
+ 
+ 
+7.7%
+4.1%
+
+[p. 18]
+ir.weg.net Earnings Release 3Q 2024 5 
+ 
+Cost of Goods Sold 
+The Cost of Goods Sold (COGS) and gross margin for the quarter are shown in Table 3. 
+Table 3 – Costs 
+3Q24 2Q24 AH% 3Q23 AH%
+Net Operating Revenues 9,856,935 9,274,426 6.3% 8,074,837 22.1%
+Cost of Goods Sold (6,458,216) (6,148,231) 5.0% (5,461,011) 18.3%
+Gross Margin 34.5% 33.7% 80 bps 32.4% 210 bps
+ 
+The favorable mix of products sold and the improving performance of operations abroad, together with constant 
+productivity gains, were important factors for the evolution of gross margins this quarter compared to the same 
+period of the previous year, despite the positive cost variation of the main raw materials that make up our costs. 
+ 
+Figure 2 – COGS Composition 
+Sales, General, and Administrative Expenses 
+Consolidated Sales, General and Administrative (SG&A) expenses totaled R$ 1,132.2 million in 3Q24, an increase 
+of 31.6% vs. 3Q23 and an increase of 12.0% vs. 2Q24, mainly due to the consolidation of Marathon's business, in 
+addition to higher freight expenses in the period. When analyzed in relation to net operating revenue, they 
+represented 11.5%, up 80 basis points compared to 3Q23 and up 60 basis points compared to 2Q24. 
+EBITDA and EBITDA Margin 
+The composition of the EBITDA calculation, according to Instruction CVM 156/2022, and the EBITDA margin are 
+shown in Table 4. The EBITDA margin showed evolution when compared to the same period of the previous year, 
+reflecting the current mix of products sold, together with improvements on margins of long-cycle goods due to the 
+good demand for these products. 
+Table 4 – Calculation of EBITDA and EBITDA Margin 
+3Q24 2Q24 HA% 3Q23 HA%
+Net Operating Revenues 9,856,935 9,274,426 6.3% 8,074,837 22.1%
+Net Income 1,578,678 1,441,655 9.5% 1,311,688 20.4%
+Net Income Before Minorities 1,660,518 1,512,063 9.8% 1,345,892 23.4%
+(+) Income Taxes & Contributions 416,771 444,508 -6.2% 268,697 55.1%
+(+/-) Financial Income (Expenses) (64,448) (25,281) 154.9% (33,420) 92.8%
+(+) Depreciation & Amortization 211,758 189,524 11.7% 157,601 34.4%
+EBITDA 2,224,599 2,120,814 4.9% 1,738,770 27.9%
+EBITDA Margin 22.6% 22.9% -30 bps 21.5% 110 bps
+ 
+ 
+16.5%
+2.4%
+9.4%
+71.7%
+3Q23
+Labor
+Depreciation
+Other Costs
+Materials
+18.1%
+2.7%
+9.4%
+69.8%
+3Q24
+
+[p. 19]
+ir.weg.net Earnings Release 3Q 2024 6 
+ 
+Net Income 
+Net Income in 3Q24 was R$ 1,578.7 million, an increase of 20.4% compared to 3Q23 and an increase of 9.5% 
+compared to 2Q24. The net margin reached 16.0%, 20 basis points lower than 3Q23 and 50 basis points higher 
+than 2Q24. 
+Cash Flow 
+Cash generation in operating activities was R$ 4,670.3 million in the first nine months of the year, a result of 
+revenue growth and improvement in our operating margins despite the greater need for working capital in the 
+period. 
+In investment activities, which include changes in fixed and intangible assets, acquisition of subsidiaries, and 
+financial investments, we spent R$ 3,064.1 million. The level of CAPEX(3) in modernization and expansion of 
+production capacity continued through the investment of resources in factories in Brazil, Mexico, the United States 
+and China. 
+In financing activities, the Company raised R$ 3,312.3 million and made amortizations of R$ 3,260.5 million, 
+resulting in a net funding of R$ 51.8 million. Payments to equity holders (dividends and interest on capital) totaled 
+R$ 2,936.8 million. The result was a consumption of R$ 2,877.5 million in financing activities in the period. 
+ 
+Figure 3 – Cash flow reconciliation (figures in R$ million) 
+Note that the chart in Figure 3 shows the cash and cash equivalents positions classified as current assets. 
+Furthermore, the Company has R$ 698.7 million in financial investments with no immediate liquidity, including 
+derivative financial instruments (R$ 626.5 million in December 2023). 
+ 
+Cash December 2023
+Operating
+Investing
+Financing Exchange
+Rate
+Variation
+Cash September 2024
+6,488.5
+4,670.3 (3,064.1)
+(2,877.5)
+257.0 5,474.2
+
+[p. 20]
+ir.weg.net Earnings Release 3Q 2024 7 
+ 
+Return on Invested Capital 
+The ROIC for 3Q24, accumulated over the last 12 months, reached 37.1%, an increase of 170 basis points over 
+3Q23 and down 30 basis points over 2Q24. It is important to keep in mind that ROIC was impacted by tax credits 
+related to the new subsidiary in Switzerland recognized on 4Q23. Excluding this non-recurring effect, ROIC would 
+be 34.3%. 
+The growth in Net Operating Profit after Taxes (NOPAT), mainly due to stability in operating margins, in addition to 
+and revenue growth, more than offset the growth in capital employed, the expansion of which is mainly explained 
+by the acquisition of Regal Rexnord's industrial motors and generators business and investments in fixed and 
+intangible assets made over the last 12 months. 
+Investments (CAPEX) 
+In 3Q24, we invested R$ 434.9 million in the modernization and expansion of production capacity, machinery and 
+equipment and software licenses, 64.6% of which went to production units in Brazil and 35.4% to industrial plants 
+and other facilities abroad. 
+In Brazil, we continued expanding the production capacity of industrial and electric traction motors and 
+transformers. Abroad, the key investments were in increasing the production capacity for motors and transformers 
+factories in Mexico. 
+ 
+Figure 4 – CAPEX Evolution (figures in R$ million) 
+Research, Development, and Innovation 
+Expenditures on research, development and innovation activities totaled R$ 799.0 million, representing 2.9% of 
+accumulated net operating revenue in 2024. 
+ 
+168,0 150.9 186.4
+281.3 223.8 224.1 280.9
+175.4 
+293.9 245.3 
+157.5 
+127.7 167.4 
+154.0 343.4 
+444.8 431.7 438.8 
+351.5 391.5 
+434.9 
+ 1Q23 2Q23 3Q23 4Q23 1Q24 2Q24 3Q24
+Brazil Outside Brazil
+
+[p. 21]
+ir.weg.net Earnings Release 3Q 2024 8 
+ 
+Debt and Cash Position 
+Cash, cash equivalents, invested in first-tier banks and denominated in Brazilian currency, and financial 
+investments and derivatives are presented in Table 5. Likewise, the Company demonstrates the total gross 
+financial debt, with details between short and long-term, in Brazilian reais and other currencies, resulting in the 
+Company’s net cash at the end of the quarter. 
+Table 5 – Cash and Debt 
+Cash & Cash Equivalents 6,123,147 7,091,927 5,733,910 
+Current 6,111,003 7,081,224 5,723,310 
+Long Term 12,144 10,703 10,600 
+Derivatives 16,360 (141,917) (175,797) 
+Short Term Assets 32,254 22,423 5,414 
+Long Term Assets 17,526 605 859 
+Short Term Liabilities (32,999) (73,082) (110,393) 
+Long Term Liabilities (421) (91,863) (71,677) 
+Debt (3,027,026) 100% (2,835,061) 100% (2,848,572) 100%
+Current (2,552,367) 84% (2,170,324) 77% (2,189,867) 77%
+In Brazilian reais (6,848) (158,814) (160,838) 
+In other currencies (2,545,519) (2,011,510) (2,029,029) 
+Long Term (474,659) 16% (664,737) 23% (658,705) 23%
+In Brazilian reais (211,234) (91,192) (63,981) 
+In other currencies (263,425) (573,545) (594,724) 
+Net Cash 3,112,481 4,114,949 2,709,541 
+September 2024 December 2023 September 2023
+ 
+The total duration of our indebtedness was 14.0 months in September 2024 (10.7 months in December 2023). 
+Dividends and Interest on Stockholders’ Equity 
+As of August 14, we paid shareholders the dividends declared for the first half of 2024, according to the events 
+approved in: 
+▪ On March 19, as interest on stockholder’s equity (JCP), to the total amount of R$ 242.3 million. 
+▪ On June 25, as interest on stockholder’s equity (JCP), to the total amount of R$ 263.3 million. 
+▪ On July 30, as dividends, to the total amount of R$ 786.9 million. 
+Also, on September 24, the Board of Directors approved interest on stockholders’ equity to the total amount of R$ 
+293.9 million, to be paid on March 12, 2025. 
+Our practice is to declare interest on capital quarterly and dividends based on the profit obtained each half -year, 
+that is, six proceeds each year, paid semi-annually. 
+Table 6 - Dividends 
+Board Meeting Date Gross Amount 
+per Share
+Interest on Stockholders’ Equity Mar 19, 2024 0.057764706 
+Interest on Stockholders’ Equity Jun 25, 2024 0.062764706 
+Dividends Jul 30, 2024 0.187552062 
+Interest on Stockholders’ Equity Sep 24, 2024 0.070058824 
+Total 0.378140298
+
+[p. 22]
+ir.weg.net Earnings Release 3Q 2024 9 
+ 
+Other Events 
+WEG acquires Volt Electric Motors 
+On September 12, we announced the acquisition of Volt Electric Motors (“Volt”), a Turkish manufacturer of 
+industrial and commercial electric motors, a subsidiary of Saya Group. The acquisition value is US$ 88 million 
+(Enterprise Value – EV), to be paid upon completion of the transaction, subject to price adjustments common to 
+this type of transaction. The business's net operating revenue in 2023 was US$ 70 million, with an EBITDA margin 
+of 18.5%. The agreement between the companies still depends on fulfilling customary closing conditions, including 
+obtaining all regulatory approvals that are required in connection with the transaction. 
+With the agreement, WEG will assume full control of Volt, which has a 27,000 m² (290,000 ft²) factory dedicated to 
+the design and manufacturing of industrial and commercial electric motors, with output power up to 450 kW , and 
+also incorporating a team of 690 employees. This acquisition is in line with WEG's growth strategy for industrial and 
+commercial motors, as it will allow it to expand its presence and product offering in highly competitive and strategic 
+markets, such as Eastern Europe, the Middle East, Central Asia and North Africa. 
+Results Conference Call 
+On October 31, 2024 (Thursday), WEG will hold a teleconference in Portuguese, with simultaneous translation into 
+English, also available on the internet webcast, at the following times: 
+▪ 11:00 a.m. – São Paulo (BRT) 
+▪ 10:00 a.m. – New York (EDT) 
+▪ 2:00 p.m. – London (GMT) 
+Access Link: click here 
+The presentation will also be available on our Investor Relations website (ir.weg.net). 
+Forward-Looking Statements 
+The statements contained in this report relating to WEG’s business prospects, projections, and results and the 
+Company’s growth potential projected forecasts based on management’s expectations regarding the future of 
+WEG. These expectations are highly dependent on changes in the market, overall national economic performance, 
+sector performance, and international markets and are subject to change.
+
+[p. 23]
+ir.weg.net Earnings Release 3Q 2024 10 
+ 
+ 
+FINANCI AL STAT E ME NT S 
+3Q 2 0 24 
+ 
+A n n e xes
+
+[p. 24]
+ir.weg.net Earnings Release 3Q 2024 11 
+ 
+Annex I – Consolidated Income Statement – Quarterly 
+ 
+ 
+ 
+Annex II – Consolidated Income Statement Accumulated 
+AH%
+(A) AV% (B) AV% (A)/(B)
+Net Operating Revenues 27,164,665 100.0% 23,942,316 100.0% 13.5%
+Cost of Goods Sold (17,969,047) -66.1% (16,026,883) -66.9% 12.1%
+Gross Profit 9,195,618 33.9% 7,915,433 33.1% 16.2%
+Sales Expenses (2,103,304) -7.7% (1,773,007) -7.4% 18.6%
+Administrative Expenses (924,148) -3.4% (767,454) -3.2% 20.4%
+Financial Revenues 1,387,807 5.1% 1,134,662 4.7% 22.3%
+Financial Expenses (1,225,626) -4.5% (996,852) -4.2% 22.9%
+Other Operating Income 71,393 0.3% 113,620 0.5% -37.2%
+Other Operating Expenses (691,047) -2.5% (687,957) -2.9% 0.4%
+Equity accounting (1,034) 0.0% - 0.0% n.m.
+Earnings Before Taxes 5,709,659 21.0% 4,938,445 20.6% 15.6%
+Income Taxes & Contributions (1,216,636) -4.5% (875,497) -3.7% 39.0%
+Deferred Taxes 56,812 0.2% 16,672 0.1% 240.8%
+Minorities (201,538) -0.7% (92,879) -0.4% 117.0%
+Net Earnings 4,348,297 16.0% 3,986,741 16.7% 9.1%
+EBITDA 6,115,293 22.5% 5,260,993 22.0% 16.2%
+Earnings per Share (EPS) 1.03643 0.95019 9.1%
+09M24 09M23
+ 
+ 
+ 
+HA% HA%
+(A) VA% (B) VA% (C) VA% (A)/(B) (A)/(C)
+Net Operating Revenues 9,856,935 100.0% 9,274,426 100.0% 8,074,837 100.0% 6.3% 22.1%
+Cost of Goods Sold (6,458,216) -65.5% (6,148,231) -66.3% (5,461,011) -67.6% 5.0% 18.3%
+Gross Profit 3,398,719 34.5% 3,126,195 33.7% 2,613,826 32.4% 8.7% 30.0%
+Sales Expenses (776,315) -7.9% (702,805) -7.6% (597,988) -7.4% 10.5% 29.8%
+Administrative Expenses (355,930) -3.6% (308,248) -3.3% (262,164) -3.2% 15.5% 35.8%
+Financial Revenues 538,244 5.5% 524,936 5.7% 297,429 3.7% 2.5% 81.0%
+Financial Expenses (473,796) -4.8% (499,655) -5.4% (264,009) -3.3% -5.2% 79.5%
+Other Operating Income 19,175 0.2% 35,284 0.4% 43,217 0.5% -45.7% -55.6%
+Other Operating Expenses (272,974) -2.8% (217,863) -2.3% (215,722) -2.7% 25.3% 26.5%
+Equity accounting 166 0.0% (1,273) 0.0% - 0.0% n.a. n.m.
+Earnings Before Taxes 2,077,289 21.1% 1,956,571 21.1% 1,614,589 20.0% 6.2% 28.7%
+Income Taxes & Contributions (450,540) -4.6% (421,756) -4.5% (262,087) -3.2% 6.8% 71.9%
+Deferred Taxes 33,769 0.3% (22,752) -0.2% (6,610) -0.1% n.a. n.a.
+Minorities (81,840) -0.8% (70,408) -0.8% (34,204) -0.4% 16.2% 139.3%
+Net Earnings 1,578,678 16.0% 1,441,655 15.5% 1,311,688 16.2% 9.5% 20.4%
+EBITDA 2,224,599 22.6% 2,120,814 22.9% 1,738,770 21.5% 4.9% 27.9%
+Earnings per Share (EPS) 0.37628 0.34362 0.31270 9.5% 20.3%
+3Q24 2Q24 3Q23
+
+[p. 25]
+ir.weg.net Earnings Release 3Q 2024 12 
+ 
+Annex III Consolidated Balance Sheet 
+HA% HA%
+(A) VA% (B) VA% (C) VA% (A)/(B) (A)/(C)
+Current Assets 23,752,129 65% 21,562,311 68% 20,745,864 69% 10% 14%
+Cash & cash equivalents 6,111,003 17% 7,081,224 22% 5,723,310 19% -14% 7%
+Receivables 6,820,230 19% 6,070,556 19% 6,011,821 20% 12% 13%
+Inventories 9,108,988 25% 7,116,286 23% 7,662,245 25% 28% 19%
+Other current assets 1,711,908 5% 1,294,245 4% 1,348,488 4% 32% 27%
+Noncurrent assets 12,563,516 35% 9,933,959 32% 9,329,947 31% 26% 35%
+Long Term Assets 1,370,952 4% 1,090,397 3% 712,401 2% 26% 92%
+Long term securities 12,144 0% 10,703 0% 10,600 0% 13% 15%
+Deferred taxes 1,071,827 3% 864,394 3% 472,830 2% 24% 127%
+Other non-current assets 286,981 1% 215,300 1% 228,971 1% 33% 25%
+Investment in Subs 75,411 0% 77,481 0% 61,925 0% -3% 22%
+Property, Plant & Equipment 8,766,183 24% 7,294,836 23% 7,078,011 24% 20% 24%
+Right of use 793,134 2% 587,291 2% 603,373 2% 35% 31%
+Intangibles 2,350,970 6% 1,471,245 5% 1,477,610 5% 60% 59%
+Total Assets 36,315,645 100% 31,496,270 100% 30,075,811 100% 15% 21%
+Current Liabilities 13,328,901 37% 11,219,689 36% 11,125,693 37% 19% 20%
+Social and Labor Liabilities 986,208 3% 515,538 2% 776,422 3% 91% 27%
+Suppliers 3,131,384 9% 2,190,088 7% 2,300,085 8% 43% 36%
+Fiscal and Tax Liabilities 871,697 2% 483,273 2% 588,772 2% 80% 48%
+Short Term Debt 2,552,367 7% 2,170,324 7% 2,189,867 7% 18% 17%
+Dividends Payable 273,802 1% 482,903 2% 224,278 1% -43% 22%
+Advances from Clients 3,090,230 9% 3,238,834 10% 3,055,609 10% -5% 1%
+Profit Sharing 358,712 1% 563,436 2% 325,968 1% -36% 10%
+Derivatives 32,999 0% 73,082 0% 110,393 0% -55% -70%
+Leasing 93,640 0% 72,872 0% 72,301 0% 28% 30%
+Other Short Term Liabilities 1,937,862 5% 1,429,339 5% 1,481,998 5% 36% 31%
+Long Term Liabilities 2,518,193 7% 2,421,805 8% 2,350,331 8% 4% 7%
+Long Term Debt 474,659 1% 664,737 2% 658,705 2% -29% -28%
+Other Long Term Liabilities 447,474 1% 311,351 1% 295,242 1% 44% 52%
+Leasing 655,571 2% 484,027 2% 502,774 2% 35% 30%
+Deferred Taxes 102,108 0% 87,056 0% 74,262 0% 17% 37%
+Contingencies Provisions 838,381 2% 874,634 3% 819,348 3% -4% 2%
+Equity 20,468,551 56% 17,854,776 57% 16,599,787 55% 15% 23%
+Owners of the Company 19,724,495 54% 17,342,085 55% 16,123,041 54% 14% 22%
+Noncontrolling interests 744,056 2% 512,691 2% 476,746 2% 45% 56%
+Total Liabilities 36,315,645 100% 31,496,270 100% 30,075,811 100% 15% 21%
+September 2024 December 2023 September 2023
+
+[p. 26]
+ir.weg.net Earnings Release 3Q 2024 13 
+ 
+Annex IV – Consolidated Cash Flow Statement 
+9 Months 9 Months
+2024 2023
+Operating Activities
+Net Earnings before Taxes 5,709,659 4,938,445 
+Depreciation and Amortization 567,815 460,358 
+Equity accounting 1,034 - 
+Provisions 657,495 817,078 
+Tax credit - ICMS exclusion from PIS/COFINS calculation basis - (28,933) 
+Changes in Assets & Liabilities (2,265,720) (1,167,252) 
+(Increase)/decrease in clients 47,701 (571,403) 
+Increase/(decrease) in suppliers 591,882 289,066 
+(Increase)/decrease in inventories (778,002) (287,451) 
+(Increase)/decrease in taxes recoverable (17,318) 126,602 
+Increase/(decrease) in social/tax obligations 254,702 228,278 
+Increase/(decrease) in advances from clients (335,415) 242,930 
+Increase/(decrease) in other accounts receivable/payable (104,938) 343,068 
+Income Tax and Social Contribution on Net Earnings (964,264) (853,668) 
+Profit Sharing Paid (665,474) (579,623) 
+Dividends & Intesrest on Stockholders Equity Paid (294,594) (105,051) 
+Cash Flow from Operating Activities 4,670,283 5,019,696 
+Investment Activities
+Fixed Assets (1,123,803) (1,173,067) 
+Intagible Assets (54,133) (46,799) 
+Results of sales of fixed assets 4,548 7,497 
+Aquisition of Subsidiaries (1,894,973) (7,414) 
+Financial investments held to maturity 2,556 - 
+Rescue of financial investments 1,679 3,672 
+Cash Flow From Investment Activities (3,064,126) (1,277,039) 
+Financing Activities
+Working Capital Financing 3,312,299 2,524,283 
+Long Term Financing (3,260,460) (3,110,385) 
+Interest paid on loans and financing 7,417 (37,247) 
+Treasury Shares (2,936,777) (2,309,544) 
+Cash Flow From Financing Activities (2,877,521) (2,932,893) 
+Changes in Cash and Equivalents caused by FX Changes 257,113 (117,930) 
+Change in Cash Position (1,014,251) 691,834 
+Cash & Cash Equivalents
+Beginning of Period 6,488,454 4,451,002 
+End of Period 5,474,203 5,142,836 
+ 
+ 
+For more information, visit our results center: 
+https://ri.weg.net/en/financial-information/results-center 
+Notes: 
+(1) Earnings before Interest, Taxes, Depreciation, and Amortization. 
+(2) Variations in countries with hyperinflation and acquisitions in the period are not considered. 
+(3) Capital Expenditure. 
+n.a. stands for not applicable. 
+n.m. stands for not mentioned. 
+bps stands for basis points.

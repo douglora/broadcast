@@ -1,0 +1,1148 @@
+[p. 1]
+Jaraguá do Sul, Brasil, 23 julho de 2025 
+ 
+ 
+Destaques 
+ 
+A Receita Operacional Líquida (ROL) foi de R$ 10.207,2 milhões no 2T25, 10,1% superior ao 2T24 e 
+1,3% superior ao 1T25; 
+ 
+O EBITDA(1) atingiu R$ 2.259,5 milhões, 6,5% superior ao 2T24 e 4,0% superior ao 1T25, enquanto a 
+margem EBITDA de 22,1% foi 0,8 ponto percentual menor do que no 2T24 e 0,5 ponto percentual maior 
+do que o trimestre anterior; 
+ 
+O Retorno Sobre o Capital Investido (ROIC(2)) atingiu 32,9% no 2T25, redução de 4,5 pontos 
+percentuais em relação ao 2T24 e redução de 0,3 ponto percentual em relação ao 1T25. 
+Mensagem da Administração 
+Conseguimos manter o crescimento e a rentabilidade consistente dos nossos negócios, mesmo diante de um 
+cenário político e econômico global marcado por incertezas e alta volatilidade. Continuamos com sólido desempenho 
+dos negócios de ciclo longo voltados à infraestrutura elétrica de transmissão e distribuição (T&D), que compensaram 
+a ausência de projetos em geração eólica neste ano . Além disso, seguimos buscando oportunidades tanto nos 
+negócios tradicionais quanto em novas frentes, ampliando nossa presença no mercado internacional. 
+No Brasil, o crescimento de receita foi baixo em virtude d a redução importante na receita do negócio de geração 
+eólica, associada ao cenário de investimento industrial mais lento, com menor demanda por projetos de ciclo longo 
+e redução do crescimento de alguns produtos de ciclo curto, como motores comerciais e appliance, redutores e 
+produtos seriados de automação . Destacamos positivamente o volume de negócios de geração solar e a 
+continuidade das entregas dos projetos de T&D. 
+No mercado externo, a atividade industrial apresentou evolução nas vendas de equipamentos de ciclo curto nas 
+principais regiões de atuação , além do bom desempenho de motores comerciais e appliance. Os negócios de 
+Geração, Transmissão e Distribuição de Energia (GTD) apresentaram outro trimestre de crescimento, fruto do 
+volume de entregas na América do Norte , onde seguimos com nossa estratégia de aumento da capacidade 
+produtiva, nos permitindo aproveitar as oportunidades com os investimentos em infraestrutura de energia. 
+Continuamos atentos aos riscos e incertezas do mercado, acreditando que nossa visão de longo prazo, flexibilidade 
+financeira e constante busca de eficiência operacional são fundamentais para o crescimento contínuo e sustentável 
+da Companhia. Nossa presença de produção global, o portfólio de produtos diversificado e presença em vários 
+segmentos são fundamentais na nossa estratégia de negócio, e nos permite reagir às mudanças de cenários de 
+forma rápida e mitigar possíveis impactos macroeconômicos. 
+Tabela 1 – Principais Números do Trimestre 
+ 2T25 1T25 AH% 2T24 AH% 06M25 06M24 AH%
+Retorno Sobre o Capital Investido 32,9% 33,2% -0,3 pp 37,4% -4,5 pp 32,9% 37,4% -4,5 pp
+Receita Operacional Líquida 10.207.227 10.078.571 1,3% 9.274.426 10,1% 20.285.798 17.307.730 17,2%
+ Mercado Interno 4.175.735 4.438.445 -5,9% 4.133.437 1,0% 8.614.180 8.027.885 7,3%
+ Mercado Externo 6.031.492 5.640.126 6,9% 5.140.989 17,3% 11.671.618 9.279.845 25,8%
+ Mercado Externo em US$ 1.065.100 966.406 10,2% 984.804 8,2% 2.031.506 1.820.427 11,6%
+Lucro Líquido 1.591.952 1.546.036 3,0% 1.441.655 10,4% 3.137.988 2.769.619 13,3%
+Margem Líquida 15,6% 15,3% 0,3 pp 15,5% 0,1 pp 15,5% 16,0% -0,5 pp
+EBITDA 2.259.539 2.172.994 4,0% 2.120.814 6,5% 4.432.533 3.890.694 13,9%
+Margem EBITDA 22,1% 21,6% 0,5 pp 22,9% -0,8 pp 21,9% 22,5% -0,6 pp
+Lucro por Ação (LPA) 0,37943 0,36848 3,0% 0,34362 10,4% 0,74791 0,66015 13,3%
+ 
+As informações financeiras e operacionais neste documento, exceto quando indicado de outra forma, são apresentadas em bases consolidadas, em milhares de reais (R$ mil), de acordo com 
+as práticas contábeis adotadas no Brasil, incluindo a Legislação Societária e a convergência às normas internacionais do IFRS. As taxas de crescimento e demais comparações são, exceto 
+quando indicado de outra forma, feitas em relação ao mesmo período do ano anterior. Os dados de Lucro por Ação são ajustados para eventos de desdobramento ou bonificação. 
+ 
+REL E ASE D E RES ULTADOS 
+2T 2 025 
+Consistência das margens operacionais e continuidade do crescimento da receita
+
+[p. 2]
+ri.weg.net Release de Resultados 2T 2025 2 
+ 
+Receita Operacional Líquida 
+A receita operacional líquida apresentou crescimento de 10,1% sobre o 2T24, sendo 1,0% no mercado interno e 
+17,3% no mercado externo. Ajustada pelos efeitos da consolidação dos negócios adquiridos da Marathon, Rotor , 
+Cemp, Volt Electric Motor e Reivax, a receita consolidada do trimestre mostraria crescimento de 6,3% sobre o 2T24. 
+A receita dos negócios de motores industriais e geradores adquiridos da Marathon, Rotor e Cemp nesse trimestre 
+foi de R$ 674,7 milhões, sendo 61,3% na área de EEI e 38,7% em GTD, ambos no mercado externo. 
+A evolução da proporção da receita entre os mercados é apresentada na Figura 1. 
+ 
+Figura 1 – Receita Operacional Líquida por Mercado (valores em R$ milhões) 
+A receita operacional líquida do mercado externo, medida em dólares norte -americanos (US$) pelas cotações 
+trimestrais médias, apresentou crescimento de 8,2% em relação ao 2T24 e crescimento de 10,2% em relação ao 
+1T25. A distribuição da receita líquida por mercado geográfico é apresentada na Tabela 2. 
+Tabela 2 – Receita operacional líquida no mercado externo por região geográfica (em US$) 
+AH% AH%
+(A) AV% (B) AV% (C) AV% (A)/(B) (A)/(C)
+Mercado Externo 1.065.100 100,0% 966.406 100,0% 984.804 100,0% 10,2% 8,2%
+América do Norte 511.280 48,0% 494.488 51,2% 489.814 49,7% 3,4% 4,4%
+América do Sul e Central 89.564 8,4% 74.607 7,7% 89.917 9,1% 20,0% -0,4%
+Europa 253.409 23,8% 235.232 24,3% 223.115 22,7% 7,7% 13,6%
+África 71.308 6,7% 49.748 5,2% 60.537 6,2% 43,3% 17,8%
+Ásia-Pacífico 139.539 13,1% 112.331 11,6% 121.421 12,3% 24,2% 14,9%
+2T25 1T25 2T24
+ 
+A receita do mercado externo em reais foi impactada pela variação do dólar norte-americano médio, que passou de 
+R$ 5,21 no 2T24 para R$ 5,67 no 2T25, uma valorização de 8,8% em relação ao real. 
+Deve-se considerar que os preços de venda praticados nos diferentes mercados são estabelecidos nas diferentes 
+moedas locais, de acordo com as condições competitivas regionais. Nas moedas locais, ponderado pelo peso de 
+cada mercado e ajustado pelos efeitos da consolidação dos negócios adquiridos, a receita líquida do mercado 
+externo apresentou crescimento de 6,5%(3) em relação ao 2T24. 
+48,5% 44,6% 39,4% 40,9% 44,0% 40,9%
+51,5% 55,4% 60,6% 59,1% 56,0% 59,1%
+8.033,3
+9.274,4 9.856,9
+10.822,3 10.078,6 10.207,2
+1T24 2T24 3T24 4T24 1T25 2T25
+Mercado Interno Mercado Externo
+
+[p. 3]
+ri.weg.net Release de Resultados 2T 2025 3 
+ 
+Desempenho por Área de Negócio 
+ 
+Equipamentos Eletroeletrônicos Industriais (EEI) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+2T25 1.435.922 3.473.032 
+1T25 1.369.368 3.079.242 
+Δ% 4,9% 12,8% 
+2T24 1.397.143 2.976.068 
+Δ% 2,8% 16,7% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ Demanda positiva para equipamentos de ciclo curto, especialmente em 
+motores elétricos de baixa tensão, pulverizada nos diversos segmentos 
+de atuação, com um foco maior em manutenção e reposição de 
+equipamentos. 
+▪ O cenário mais restritivo para investimentos vem afetando a demanda 
+por equipamentos de ciclo longo, como motores elétricos de alta tensão 
+e painéis de automação, resultando em uma acomodação na entrega de 
+projetos de longo prazo. 
+ 
+Mercado Externo 
+▪ Retomada da atividade industrial nas principais regiões de atuação, com 
+bom desempenho para equipamentos de ciclo curto, como motores 
+elétricos de baixa tensão e produtos seriados de automação. 
+▪ Para equipamentos de ciclo longo, apesar da boa demanda existente 
+em segmentos como óleo & gás e água & saneamento, a pouca 
+previsibilidade de longo prazo, em virtude das incertezas geopolíticas , 
+está levando ao adiamento da decisão de investimentos de projetos de 
+grande porte. 
+ 
+Geração, Transmissão e Distribuição de Energia (GTD) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+2T25 2.074.985 2.014.794 
+1T25 2.388.548 2.047.637 
+Δ% -13,1% -1,6% 
+2T24 2.107.869 1.735.295 
+Δ% -1,6% 16,1% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ A queda de receita aconteceu em virtude da falta de projetos de 
+geração eólica em 2025. Importante lembrar, que o 2T24 foi um dos 
+maiores trimestres de receita deste negócio no ano passado. Os demais 
+negócios de geração continuam apresentando crescimentos robustos 
+de dois dígitos, com destaque para o bom volume de entregas de 
+projetos de geração solar centralizada (GC) no trimestre. 
+▪ O negócio de T&D também contribuiu positivamente, motivado pelas 
+entregas de transformadores de grande porte e subestações para 
+projetos ligados aos leilões de transmissão e redes de distribuição. 
+ 
+Mercado Externo 
+▪ As oportunidades capturadas no mercado de T&D continuam a 
+contribuir para o desempenho desta área de negócio, especialmente 
+pelo bom volume de entregas de transformadores para infraestrutura da 
+rede elétrica e aplicações de geração de energia renovável. 
+▪ Nos negócios de geração, bom desempenho do negócio de geradores 
+da Marathon nos Estados Unidos e China, destinados principalmente a 
+geração de energia de reserva para Data Centers. 
+ 
+48,1%
+40,1%
+
+[p. 4]
+ri.weg.net Release de Resultados 2T 2025 4 
+ 
+Desempenho por Área de Negócio 
+ 
+Motores Comerciais e Appliance (MCA) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+2T25 333.692 476.163 
+1T25 356.995 454.931 
+Δ% -6,5% 4,7% 
+2T24 329.449 367.695 
+Δ% 1,3% 29,5% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ Manutenção da demanda em relação ao mesmo período do ano 
+anterior, com bom desempenho de segmentos relevantes como 
+fabricantes de ar-condicionado e motobombas, apesar da redução de 
+demanda observada para o segmento de lavadoras. 
+ 
+Mercado Externo 
+▪ Crescimento na demanda em algumas regiões importantes, com 
+destaque para a continuidade do crescimento nas operações na China e 
+América do Norte. 
+ 
+Tintas e Vernizes (T&V) 
+ROL 
+Mercado 
+Interno 
+Mercado 
+Externo 
+2T25 331.136 67.503 
+1T25 323.534 58.316 
+Δ% 2,3% 15,8% 
+2T24 298.977 61.931 
+Δ% 10,8% 9,0% 
+ 
+Participação na ROL 
+Mercado Interno 
+▪ Continuidade da demanda positiva, com destaque para os segmentos 
+de água & saneamento e implementos agrícolas. 
+ 
+Mercado Externo 
+▪ A demanda pelos produtos de tintas e vernizes se manteve positiva, 
+motivada principalmente pelo bom resultado na operação do México, 
+aliada as exportações do Brasil para países da América Latina. 
+ 
+ 
+ 
+7,9%
+3,9%
+
+[p. 5]
+ri.weg.net Release de Resultados 2T 2025 5 
+ 
+Custos dos Produtos Vendidos 
+O Custo dos Produtos Vendidos (CPV) e a margem bruta do trimestre são apresentados na Tabela 3. 
+Tabela 3 – Custos 
+2T25 1T25 AH% 2T24 AH%
+Receita Operacional Líquida 10.207.227 10.078.571 1,3% 9.274.426 10,1%
+Custo dos Produtos Vendidos (6.771.646) (6.762.551) 0,1% (6.148.231) 10,1%
+Margem Bruta 33,7% 32,9% 0,8 pp 33,7% 0,0 pp
+ 
+A estabilização dos custos das principais matérias -primas que compõem nossa estrutura de custos, o mix de 
+produtos vendidos mais favorável e a constante busca por eficiência operacional e ganhos de produtividade foram 
+fatores importantes para a manutenção da margem bruta neste trimestre quando comparado ao mesmo período do 
+ano anterior. 
+ 
+Figura 2 – Composição do CPV 
+Despesas de Vendas, Gerais e Administrativas 
+As despesas de Vendas, Gerais e Administrativas (VG&A) consolidadas totalizaram R$ 1.215,3 milhões no 2T25, 
+um aumento de 20,2% sobre o 2T24 e aumento de 0,7% sobre o 1T25. O aumento em relação ao mesmo período 
+do ano anterior é explicado principalmente pela consolidação dos negócios adquiridos da Marathon, Rotor e Cemp, 
+cuja integração está acontecendo de acordo com o planejado, e do aumento nas despesas de fretes . Quando 
+analisadas em relação à receita operacional líquida , elas representaram 11,9%, 1,0 ponto percentual maior em 
+relação ao 2T24 e 0,1 ponto percentual abaixo do valor apresentado no 1T25. 
+EBITDA e Margem EBITDA 
+A composição do cálculo do EBITDA, conforme Resolução CVM 156/2022, e a margem EBITDA são apresentadas 
+na Tabela 4. A margem EBITDA apresentou leve acomodação quando comparad a com o mesmo período do ano 
+anterior, reflexo principalmente do atual mix de produtos vendidos e das oscilações mencionadas nas despesas. 
+Tabela 4 – Cálculo do EBITDA e Margem EBITDA 
+2T25 1T25 AH% 2T24 AH%
+Receita Operacional Líquida 10.207.227 10.078.571 1,3% 9.274.426 10,1%
+Lucro Líquido do Exercício 1.591.952 1.546.036 3,0% 1.441.655 10,4%
+Lucro Líquido antes dos acionistas não controladores 1.692.662 1.637.180 3,4% 1.512.063 11,9%
+(+) IRPJ e CSLL 336.772 346.310 -2,8% 444.508 -24,2%
+(+/-) Resultado Financeiro (7.492) (40.103) -81,3% (25.281) -70,4%
+(+) Depreciação/Amortização 237.597 229.607 3,5% 189.524 25,4%
+EBITDA 2.259.539 2.172.994 4,0% 2.120.814 6,5%
+Margem EBITDA 22,1% 21,6% 0,5 pp 22,9% -0,8 pp
+ 
+17,8%
+2,6%
+9,1%
+70,5%
+2T24
+Pessoal
+Depreciação
+Outros
+Materiais
+19,2%
+2,9%
+9,3%
+68,6%
+2T25
+
+[p. 6]
+ri.weg.net Release de Resultados 2T 2025 6 
+ 
+Resultado Líquido 
+O lucro líquido no 2T25 foi de R$ 1.591,9 milhões, um aumento de 10,4% em relação ao 2T24 e aumento de 3,0% 
+em relação ao 1T25. A margem líquida atingiu 15,6%, 0,1 ponto percentual superior ao 2T24 e 0,3 ponto percentual 
+superior ao 1T25. 
+Fluxo de Caixa 
+As atividades operacionais apresentaram geração de caixa de R$ 1.966,8 milhões até junho de 2025, resultado do 
+crescimento da receita e continuidade das boas margens operacionais , apesar do aumento da necessidade de 
+capital de giro no período. 
+Nas atividades de investimentos, que incluem as movimentações dos ativos imobilizado e intangível, aquisiç ões de 
+empresas e aplicações financeiras, tivemos um consumo de caixa de R$ 1.321,6 milhões. O investimento (CAPEX(4)) 
+em modernização e expansão da capacidade produtiva teve continuidade através de aplicações de recursos nas 
+fábricas do Brasil e do México. 
+Nas atividades de financiamento captamos R$ 1.272,6 milhões e realizamos amortizações de R$ 2.205,8 milhões, 
+resultando em uma amortização líquida de R$ 933,2 milhões. A remuneração do capital próprio (dividendos e juros 
+sobre capital próprio) somou R$ 1.806,6 milhões. O resultado foi o consumo de caixa de R$ 2.735,6 milhões nas 
+atividades de financiamento no período. 
+ 
+Figura 3 – Conciliação do fluxo de caixa (valores em R$ milhões) 
+Lembramos que a Figura 3 apresenta as posições de caixa e equivalentes de caixa classificadas no ativo circulante. 
+Adicionalmente, temos R$ 725,4 milhões em aplicações financeiras sem liquidez imediata , incluindo instrumentos 
+financeiros derivativos (R$ 882,5 milhões em dezembro de 2024). 
+ 
+Retorno sobre o Capital Investido (ROIC) 
+O ROIC do 2T25, acumulado nos últimos 12 meses , atingiu 32,9%, uma redução de 4,5 pontos percentuais em 
+relação ao 2T24 e redução de 0,3 ponto percentua l em relação ao 1T25. O crescimento do capital empregado, 
+principalmente devido aos investimentos em ativos fixos e intangíveis, foi o principal fator para a redução do ROIC, 
+apesar do crescimento do Lucro Operacional após os Impostos (NOPAT (5)) ao longo dos últimos 12 meses. 
+Importante lembrar que o ROIC do 2T24 foi positivamente impactado pelo reconhecimento de incentivo fisca l não 
+recorrente referente à nova controlada na Suíça. 
+ 
+Caixa dezembro 2024
+Operacional
+Investimentos
+Financiamento Variação
+Cambial
+Caixa junho 2025
+7.347,6
+1.966,8 (1.321,6)
+(2.735,6)
+(273,7) 4.983,5
+
+[p. 7]
+ri.weg.net Release de Resultados 2T 2025 7 
+ 
+Investimentos (CAPEX) 
+No 2T25 investimos R$ 583,4 milhões em modernização e expansão de capacidade produtiva, máquinas e 
+equipamentos e licenças de uso de softwares, sendo 63,4% destinados às unidades produtivas no Brasil e 36,6% 
+destinados aos parques industriais e demais instalações no exterior. 
+No Brasil, continuamos os investimentos em modernização e ampliação da capacidade de produção nas unidades 
+de T&D, além de aumento da capacidade e ganhos de produtividade de motores elétricos industriais em Jaraguá 
+do Sul. No exterior, seguimos com os investimentos no México, com destaque para o avanço na construção da nova 
+fábrica de transformadores. 
+ 
+Figura 4 – Evolução do CAPEX (valores em R$ milhões) 
+Pesquisa, Desenvolvimento e Inovação 
+Os dispêndios nas atividades de pesquisa, desenvolvimento e inovação totalizaram R$ 673,8 milhões, 
+representando 3,3% da receita operacional líquida acumulada em 2025. 
+Disponibilidades e Endividamento 
+As disponibilidades, aplicações financeiras e instrumentos financeiros derivativos, aplicados em bancos de primeira 
+linha e majoritariamente em moeda nacional, são apresentadas na Tabela 5. Da mesma forma, é apresentada a 
+dívida financeira bruta total, com o detalhamento entre curto e longo prazo, em reais e outras moedas, resultando 
+no caixa líquido da Companhia ao final do trimestre. 
+Tabela 5 – Disponibilidades e Financiamentos 
+Disponibilidades e Aplicações 5.682.735 8.013.210 7.242.673 
+Curto Prazo 5.668.597 7.996.076 7.230.764 
+Longo Prazo 14.138 17.134 11.909 
+Instrumentos Financeiros Derivativos (58.686) 190.678 (44.561) 
+Ativo Curto Prazo 25.491 210.749 26.037 
+Ativo Longo Prazo 739 6.166 22.668 
+Passivo Curto Prazo (84.455) (26.237) (88.706) 
+Passivo Longo Prazo (461) - (4.560) 
+Financiamentos (2.584.148) 100% (3.595.237) 100% (4.180.977) 100%
+Curto Prazo (2.261.673) 88% (2.850.956) 79% (2.968.661) 71%
+Em reais (16.215) (6.089) (6.245) 
+Em outras moedas (2.245.458) (2.844.867) (2.962.416) 
+Longo Prazo (322.475) 12% (744.281) 21% (1.212.316) 29%
+Em reais (322.475) (248.894) (156.477) 
+Em outras moedas - (495.387) (1.055.839) 
+Caixa Líquido 3.039.901 4.608.651 3.017.135 
+Junho 2025 Dezembro 2024 Junho 2024
+ 
+O duration total do endividamento era de 9,9 meses em junho de 2025 (11,3 meses em dezembro 2024). 
+223,8 224,1 280,9
+434,8 349,9 370,0
+127,7 167,4 154,0 
+237,6 
+271,3 213,4 351,5 391,5 434,9 
+672,4 621,2 583,4 
+ 1T24 2T24 3T24 4T24 1T25 2T25
+Brasil Exterior
+
+[p. 8]
+ri.weg.net Release de Resultados 2T 2025 8 
+ 
+Dividendos e Juros sobre Capital Próprio 
+Ao longo do primeiro semestre de 2025, o Conselho de Administração deliberou ad referendum da Assembleia Geral 
+Ordinária (AGO), ainda a ser realizada, os seguintes eventos como remuneração aos acionistas em: 
+▪ 18 de março, como juros sobre capital próprio (JCP), no valor total de R$ 338,6 milhões; 
+▪ 17 de junho, como juros sobre capital próprio (JCP), no valor total de R$ 394,6 milhões. 
+O Conselho de Administração deliberou também, em reunião no dia 22 de julho de 2025, sobre dividendos 
+intermediários relativos aos resultados do primeiro semestre de 2025, no valor total de R$ 719,3 milhões. 
+Estes proventos serão pagos em 1 3 de agosto de 2025. Os valores declarados como remuneração aos acionistas 
+relativos ao primeiro semestre representam 46,3% do lucro líquido obtido no período. 
+Nossa prática é declarar juros sobre capital próprio (JCP) trimestralmente e dividendos intermediários e 
+complementares com base no lucro obtido a cada semestre, ou seja, seis proventos a cada ano, que são pagos 
+semestralmente. 
+Tabela 6 - Proventos 
+1º Semestre 2025 1º Semestre 2024 %
+Juros sobre Capital Próprio 733.258 505.672 45,0%
+Dividendos 719.354 786.877 -8,6%
+Total Bruto 1.452.611 1.292.549 12,4%
+Lucro Líquido 3.137.988 2.769.619 13,3%
+Remuneração Acionista / Lucro Líquido 46,3% 46,7%
+ 
+Outros Eventos 
+Aquisição estratégica no segmento de revestimentos industriais nos EUA 
+Anunciamos em 01 de maio a aquisição dos ativos da Heresite Protective Coatings, empresa americana de 
+revestimentos industriais localizada nos Estados Unidos , no valor de US$ 9,5 milhões . Fundada em 1935, em 
+Manitowoc, no estado de Wisconsin, a Heresite Protective Coatings é uma empresa consolidada no mercado de 
+revestimento industrial, com especialização em soluções para equipamentos de ventilação, aquecimento e ar -
+condicionado (HVAC), destinados a ambientes severos, especialmente nos mercados de óleo & gás e tratamento 
+de águas. Além de atuar no mercado norte-americano, a Heresite possui uma forte presença internacional. Em 2024, 
+a Heresite apresentou uma receita operacional líquida de US$ 8,6 milhões, e uma margem EBITDA de 22%. 
+Teleconferência de Resultados 
+A WEG realizará, no dia 24 de julho de 2025 (quinta-feira), teleconferência em português, com tradução simultânea 
+para o inglês, e transmissão pela internet (webcasting), no seguinte horário: 
+▪ 11h00 – São Paulo (BRT) 
+▪ 10h00 – Nova York (EDT) 
+▪ 15h00 – Londres (BST) 
+Link de acesso: clique aqui 
+A apresentação estará disponível na página na internet da área de Relações com Investidores (ri.weg.net). 
+ 
+ 
+ 
+Declarações Prospectivas 
+As declarações contidas neste relatório relativas às perspectivas dos negócios da WEG, às projeções e resultado 
+e ao potencial de crescimento da Companhia constituem-se em meras previsões e foram baseadas nas 
+expectativas da administração em relação ao futuro da WEG. Estas expectativas são altamente dependentes de 
+mudanças no mercado, do desempenho econômico geral do país e do setor e dos mercados i nternacionais, 
+podendo sofrer alterações.
+
+[p. 9]
+ri.weg.net Release de Resultados 2T 2025 9 
+ 
+ 
+DE M O NST RAÇÕ ES FI NANCEI RAS 
+2T 2 025 
+ 
+A n e x o s
+
+[p. 10]
+ri.weg.net Release de Resultados 2T 2025 10 
+ 
+Anexo I – Demonstração de Resultados Consolidados – Trimestral 
+AH% AH%
+(A) AV% (B) AV% (C) AV% (A)/(B) (A)/(C)
+Receita Operacional Líquida 10.207.227 100,0% 10.078.571 100,0% 9.274.426 100,0% 1,3% 10,1%
+Custo dos Produtos Vendidos (6.771.646) -66,3% (6.762.551) -67,1% (6.148.231) -66,3% 0,1% 10,1%
+Lucro Bruto 3.435.581 33,7% 3.316.020 32,9% 3.126.195 33,7% 3,6% 9,9%
+Despesas de Vendas (834.470) -8,2% (840.150) -8,3% (702.805) -7,6% -0,7% 18,7%
+Despesas Administrativas (380.877) -3,7% (367.263) -3,6% (308.248) -3,3% 3,7% 23,6%
+Receitas Financeiras 576.104 5,6% 477.162 4,7% 524.936 5,7% 20,7% 9,7%
+Despesas Financeiras (568.612) -5,6% (437.059) -4,3% (499.655) -5,4% 30,1% 13,8%
+Outras Receitas Operacionais 55.980 0,5% 45.727 0,5% 35.284 0,4% 22,4% 58,7%
+Outras Despesas Operacionais (251.266) -2,5% (210.430) -2,1% (217.863) -2,3% 19,4% 15,3%
+Equivalência Patrimonial (3.006) 0,0% (517) 0,0% (1.273) 0,0% 481,4% 136,1%
+Lucro antes dos Impostos 2.029.434 19,9% 1.983.490 19,7% 1.956.571 21,1% 2,3% 3,7%
+Imposto de Renda e CSLL (344.199) -3,4% (323.380) -3,2% (421.756) -4,5% 6,4% -18,4%
+Impostos Diferidos 7.427 0,1% (22.930) -0,2% (22.752) -0,2% n.a. n.a. 
+Minoritários (100.710) -1,0% (91.144) -0,9% (70.408) -0,8% 10,5% 43,0%
+Lucro Líquido do Exercício 1.591.952 15,6% 1.546.036 15,3% 1.441.655 15,5% 3,0% 10,4%
+EBITDA 2.259.539 22,1% 2.172.994 21,6% 2.120.814 22,9% 4,0% 6,5%
+Lucro por Ação (LPA) 0,37943 0,36848 0,34362 3,0% 10,4%
+1T25 2T242T25
+ 
+ 
+Anexo II – Demonstração de Resultados Consolidados – Acumulado 
+AH%
+(A) AV% (B) AV% (A)/(B)
+Receita Operacional Líquida 20.285.798 100,0% 17.307.730 100,0% 17,2%
+Custo dos Produtos Vendidos (13.534.197) -66,7% (11.510.831) -66,5% 17,6%
+Lucro Bruto 6.751.601 33,3% 5.796.899 33,5% 16,5%
+Despesas de Vendas (1.674.620) -8,3% (1.326.989) -7,7% 26,2%
+Despesas Administrativas (748.140) -3,7% (568.218) -3,3% 31,7%
+Receitas Financeiras 1.053.266 5,2% 849.563 4,9% 24,0%
+Despesas Financeiras (1.005.671) -5,0% (751.830) -4,3% 33,8%
+Outras Receitas Operacionais 101.707 0,5% 52.218 0,3% 94,8%
+Outras Despesas Operacionais (461.696) -2,3% (418.073) -2,4% 10,4%
+Equivalência Patrimonial (3.523) 0,0% (1.200) 0,0% 193,6%
+Lucro antes dos Impostos 4.012.924 19,8% 3.632.370 21,0% 10,5%
+Imposto de Renda e CSLL (667.579) -3,3% (766.096) -4,4% -12,9%
+Impostos Diferidos (15.503) -0,1% 23.043 0,1% n.a.
+Minoritários (191.854) -0,9% (119.698) -0,7% 60,3%
+Lucro Líquido do Exercício 3.137.988 15,5% 2.769.619 16,0% 13,3%
+EBITDA 4.432.533 21,9% 3.890.694 22,5% 13,9%
+Lucro por Ação (LPA) 0,74791 0,66015 13,3%
+06M25 06M24
+
+[p. 11]
+ri.weg.net Release de Resultados 2T 2025 11 
+ 
+Anexo III – Balanço Patrimonial Consolidado 
+AH% AH%
+(A) AV% (B) AV% (C) AV% (A)/(B) (A)/(C)
+Ativo Circulante 25.299.344 64% 27.221.359 66% 25.019.368 67% -7% 1%
+Disponibilidades 5.668.597 14% 7.996.076 19% 7.230.764 19% -29% -22%
+Créditos a Receber 7.328.719 18% 7.394.411 18% 7.210.277 19% -1% 2%
+Estoques 10.076.991 25% 9.903.951 24% 8.845.836 24% 2% 14%
+Outros Ativos Circulantes 2.225.037 6% 1.926.921 5% 1.732.491 5% 15% 28%
+Ativo Não Circulante 14.537.495 36% 14.268.342 34% 12.420.118 33% 2% 17%
+Ativo Realizável a Longo Prazo 1.389.683 3% 1.442.220 3% 1.341.656 4% -4% 4%
+Aplicações Financeiras 14.138 0% 17.134 0% 11.909 0% -17% 19%
+Impostos Diferidos 1.050.073 3% 1.141.821 3% 1.067.545 3% -8% -2%
+Outros Ativos não circulantes 325.472 1% 283.265 1% 262.202 1% 15% 24%
+Investimentos 62.804 0% 71.808 0% 75.253 0% -13% -17%
+Imobilizado 10.281.835 26% 9.933.659 24% 8.709.230 23% 4% 18%
+Direito de uso 830.084 2% 898.435 2% 807.216 2% -8% 3%
+Intangível 2.803.173 7% 2.820.655 7% 2.293.979 6% -1% 22%
+Total do Ativo 39.836.839 100% 41.489.701 100% 37.439.486 100% -4% 6%
+Passivo Circulante 14.256.179 36% 15.454.265 37% 14.218.966 38% -8% 0%
+Obrigações Sociais e Trabalhistas 976.799 2% 728.469 2% 899.982 2% 34% 9%
+Fornecedores 2.888.352 7% 3.778.116 9% 3.240.438 9% -24% -11%
+Obrigações Fiscais 812.795 2% 799.564 2% 798.528 2% 2% 2%
+Empréstimos e Financiamentos 2.261.673 6% 2.850.956 7% 2.968.661 8% -21% -24%
+Dividendos e Juros s/ Capital Próprio 667.247 2% 561.679 1% 609.317 2% 19% 10%
+Adiantamento de Clientes 4.072.213 10% 4.040.292 10% 3.217.582 9% 1% 27%
+Participações nos Resultados 428.271 1% 569.328 1% 394.838 1% -25% 8%
+Instrumentos Financeiros Derivativos 84.455 0% 26.237 0% 88.706 0% 222% -5%
+Arrendamento Mercantil 136.352 0% 107.668 0% 98.900 0% 27% 38%
+Outras Obrigações 1.928.022 5% 1.991.956 5% 1.902.014 5% -3% 1%
+Passivo Não Circulante 2.432.538 6% 2.910.219 7% 3.219.811 9% -16% -24%
+Empréstimos e Financiamentos 322.475 1% 744.281 2% 1.212.316 3% -57% -73%
+Outras Obrigações 513.683 1% 496.934 1% 379.668 1% 3% 35%
+Arrendamento Mercantil 631.791 2% 715.450 2% 661.408 2% -12% -4%
+Impostos Diferidos 168.059 0% 170.520 0% 112.439 0% -1% 49%
+Provisões para Contingências 796.530 2% 783.034 2% 853.980 2% 2% -7%
+Patrimônio Líquido 23.148.122 58% 23.125.217 56% 20.000.709 53% 0% 16%
+Acionistas Controladores 22.215.931 56% 22.204.221 54% 19.299.649 52% 0% 15%
+Acionistas Não Controladores 932.191 2% 920.996 2% 701.060 2% 1% 33%
+Total do Passivo 39.836.839 100% 41.489.701 100% 37.439.486 100% -4% 6%
+Junho 2025 Dezembro 2024 Junho 2024
+
+[p. 12]
+ri.weg.net Release de Resultados 2T 2025 12 
+ 
+Anexo IV – Demonstração dos Fluxos de Caixa Consolidados 
+6 Meses 6 Meses
+2025 2024
+Atividades Operacionais
+Lucro antes dos impostos e Participações 4.012.924 3.632.370 
+Depreciações e Amortizações 467.204 356.057 
+Equivalência patrimonial 3.523 1.200 
+Provisões 798.684 478.387 
+Variação nos Ativos e Passivos (3.315.490) (1.389.198) 
+(Aumento)/Redução nos clientes (273.502) (314.115) 
+Aumento/(Redução) nos fornecedores (788.098) 685.503 
+(Aumento)/Redução nos estoques (626.706) (390.010) 
+(Aumento)/redução nos impostos a recuperar (183.815) (81.849) 
+Aumento/(redução) nas obrigações sociais/tributárias 163.657 232.641 
+Aumento/(redução) nos adiantamentos de clientes 237.785 (228.944) 
+Aumento/(redução) nas outras contas a receber/pagar (556.782) (41.862) 
+Imposto de renda e contribuição social pagos (748.290) (577.619) 
+Participação no resultado dos colaboradores pagos (476.257) (450.711) 
+Juros pagos sobre empréstimos e financiamentos (63.482) (222.232) 
+Caixa Líquido proveniente das Atividades Operacionais 1.966.845 3.078.816 
+Atividades de Investimentos
+Imobilizado (1.122.990) (707.746) 
+Intangível (81.652) (35.319) 
+Resultado de venda de imobilizado 14.893 3.062 
+Aquisição de Controlada (136.590) (1.894.972) 
+Aplicações financeiras mantidas até o vencimento - 2.557 
+Resgate de aplicações financeiras 4.715 1.679 
+Caixa Líquido aplicado nas Atividades de Investimentos (1.321.624) (2.630.739) 
+Atividades de Financiamentos
+Captação de empréstimos e financiamentos obtidos 1.272.568 2.236.965 
+Pagamento de empréstimos e financiamentos (2.205.766) (1.130.247) 
+Ações em Tesouraria 4.261 6.949 
+Dividendos/juros s/capital próprio pagos (1.806.637) (1.715.227) 
+Caixa líquido aplicado nas ativ. de financiamentos (2.735.574) (601.560) 
+Variação Cambial s/ Caixa e Equivalentes (273.719) 275.814 
+Aumento (Redução) Líquido de Caixa e Equivalentes (2.364.072) 122.331 
+Saldo de caixa:
+Caixa e equivalente de caixa no início do período 7.347.599 6.488.454 
+Caixa e equivalente de caixa no final do período 4.983.527 6.610.785 
+ 
+ 
+Para mais informações, acesse nossa central de resultados: 
+https://ri.weg.net/informacoes-financeiras/central-de-resultados 
+Notas Explicativas: 
+(1) Sigla em inglês para Earnings Before Interest, Taxes, Depreciation and Amortization, que significa lucros antes de juros, impostos, depreciação e amortização. 
+(2) Sigla em inglês para Return on Invested Capital. 
+(3) Desconsideradas variações em países com hiperinflação e aquisições no período. 
+(4) Sigla em inglês para Capital Expenditure. 
+(5) Sigla em inglês para Net Operating Profits After Taxes. 
+n.a. Abreviação para não aplicável. 
+n.m. Abreviação para não mencionado. 
+pp Abreviação para ponto percentual.
+
+[p. 13]
+Jaraguá do Sul, Brazil, July 23, 2025 
+ 
+ 
+Highlights 
+ 
+Net Operating Revenue (NOR) was R$ 10,207.2 million in 2Q25, 10.1% higher than 2Q24 and 1.3% 
+higher than 1Q25. 
+ 
+EBITDA(1) reached R$ 2,259.5 million, 6.5% higher than 2Q24 and 4.0% higher than 1Q25, while 
+EBITDA margin was 22.1%, 80 bps lower than 2Q24 and 50 bps higher than the previous quarter. 
+ 
+Return on Invested Capital (ROIC) reached 32.9% in 2Q25, down 450 bps from 2Q24 and down 30 bps 
+from 1Q25. 
+Message from Management 
+We were able to maintain the consistent growth and profitability of our businesses, even in a global political and 
+economic scenario marked by uncertainty and high volatility. We continued to have a solid performance in the long -
+cycle transmission and dist ribution (T&D) infrastructure businesses, which offset the absence of wind generation 
+projects this year. In addition, we continue to look for opportunities both in traditional businesses and on new 
+businesses, expanding our presence in the international market. 
+In Brazil, growth was constrained due to the significant decline in revenue from the wind generation business, along 
+with the slower industrial investment scenario, with softened demand for long-cycle projects and weaker growth of 
+some short-cycle products, such as commercial and appliance motors, gearboxes and serial automation products. 
+We positively highlight the concentration of solar generation and the continuity of deliveries for T&D projects. 
+In the external market, the industrial activity showed an evolution in sales of short -cycle goods in the main regions 
+where we operate, along with the good performance of commercial and appliance motors. The Energy Generation, 
+Transmission, and Distribution (GTD) businesses showed another quarter of growth, motivated by deliveries in North 
+America, where we continue with our strategy of increasing production capacity, allowing us to take advantage of 
+opportunities with investments in energy infrastructure. 
+We continue to monitor market risks and uncertainties, confident that our long -term vision, financial flexibility and 
+constant drive for operational efficiency are fundamental to the Company's continued and sustainable growth. Our 
+global production presence, diversified product portfolio and presence in many segments are fundamental to our 
+business strategy, and allow us to quickly react to changing scenarios and mitigate possible macroeconomic impacts. 
+Table 1 – Main Highlights 
+ 2Q25 1Q25 HA% 2Q24 HA% 06M25 06M24 HA%
+Return on Invested Capital 32.9% 33.2% -30 bps 37.4% -450 bps 32.9% 37.4% -450 bps
+Net Operating Revenue 10,207,227 10,078,571 1.3% 9,274,426 10.1% 20,285,798 17,307,730 17.2%
+ Domestic Market 4,175,735 4,438,445 -5.9% 4,133,437 1.0% 8,614,180 8,027,885 7.3%
+ External Markets 6,031,492 5,640,126 6.9% 5,140,989 17.3% 11,671,618 9,279,845 25.8%
+ External Markets in US$ 1,065,100 966,406 10.2% 984,804 8.2% 2,031,506 1,820,427 11.6%
+Net Income 1,591,952 1,546,036 3.0% 1,441,655 10.4% 3,137,988 2,769,619 13.3%
+Net Margin 15.6% 15.3% 30 bps 15.5% 10 bps 15.5% 16.0% -50 bps
+EBITDA 2,259,539 2,172,994 4.0% 2,120,814 6.5% 4,432,533 3,890,694 13.9%
+EBITDA Margin 22.1% 21.6% 50 bps 22.9% -80 bps 21.9% 22.5% -60 bps
+Earnings per Share (EPS) 0.37943 0.36848 3.0% 0.34362 10.4% 0.74791 0.66015 13.3%
+ 
+The following financial and operating data are presented on a consolidated basis, except when otherwise indicated, in thousands of Brazilian reais (R$) according to accounting practices 
+adopted in Brazil, including Brazilian Corporate Law in convergence with IFRS international norms. Except when otherwise indicated, growth rates and other comparisons are made to the same 
+period of the previous year. Share data is adjusted for split or bonus events. 
+E ARNI NG S REL E AS E 
+2Q 2 0 25 
+Consistent operating margins and continued revenue growth
+
+[p. 14]
+ir.weg.net Earnings Release 2Q 2025 2 
+ 
+Net Operating Revenue 
+Net operating revenue grew by 10.1% compared to 2Q24, up 1.0% in the domestic market and 17.3% in the external 
+market. Adjusted for the consolidation effects from the acquired businesses from Marathon, Rotor, Cemp, Volt 
+Electric Motor and Reivax, revenue for the quarter would have grown 6.3% over 2Q24. 
+Revenue from the industrial motors and generators businesses acquired from Marathon, Rotor and Cemp was R$ 
+674.7 million, 61.3% in the EEI area and 38.7% in GTD, both in the external market. 
+The evolution of revenue proportion between markets is shown in Figure 1. 
+ 
+Figure 1 – Net Operating Revenue by Market (figures in R$ million) 
+Net operating revenue from the external market, measured in the quarterly averaged US dollars (US$), increased by 
+8.2% compared to 2Q24 and increased by 10.2% compared to 1Q25. The distribution of net revenue by geographic 
+market is shown in Table 2. 
+Table 2 – Net operating revenue from the external market by geographic region (in US dollars) 
+HA% HA%
+(A) VA% (B) VA% (C) VA% (A)/(B) (A)/(C)
+External Markets 1,065,100 100.0% 966,406 100.0% 984,804 100.0% 10.2% 8.2%
+North America 511,280 48.0% 494,488 51.2% 489,814 49.7% 3.4% 4.4%
+South and Central America 89,564 8.4% 74,607 7.7% 89,917 9.1% 20.0% -0.4%
+Europe 253,409 23.8% 235,232 24.3% 223,115 22.7% 7.7% 13.6%
+Africa 71,308 6.7% 49,748 5.2% 60,537 6.2% 43.3% 17.8%
+Asia-Pacific 139,539 13.1% 112,331 11.6% 121,421 12.3% 24.2% 14.9%
+2Q25 1Q25 2Q24
+ 
+Net operating revenue from the external market was impacted by the average US dollar exchange rate that moved 
+from R$ 5.21 in 2Q24 to R$ 5.67 in 2Q25, a 8.8% appreciation over the Brazilian real. 
+It is important to consider that we set our sales prices in different markets in local currency and according to their 
+competitive conditions. Measured in local currencies , weighted by revenues in each market and adjusted for the 
+consolidation effects of acquired businesses , net operating revenue from the external market increased by 6.5%(2) 
+compared to 2Q24. 
+ 
+ 
+48.5% 44.6% 39.4% 40.9% 44.0% 40.9%
+51.5% 55.4% 60.6% 59.1% 56.0% 59.1%
+8,033.3
+9,274.4 9,856.9
+10,822.3 10,078.6 10,207.2
+1Q24 2Q24 3Q24 4Q24 1Q25 2Q25
+Brazilian Market External Market
+
+[p. 15]
+ir.weg.net Earnings Release 2Q 2025 3 
+ 
+Performance by Business Area 
+ 
+Industrial Electro-Electronic Equipment (EEI) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+2Q25 1,435,922 3,473,032 
+1Q25 1,369,368 3,079,242 
+Δ% 4.9% 12.8% 
+2Q24 1,397,143 2,976,068 
+Δ% 2.8% 16.7% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Positive demand for short-cycle goods, especially in low-voltage 
+electric motors, distributed across different segments, with greater 
+focus on maintenance and equipment replacement. 
+▪ The more restrictive investment scenario has been affecting the 
+demand for long-cycle goods, such as high-voltage electric motors and 
+automation panels, leading to an accommodation in the delivery of 
+long-term projects. 
+ 
+External Market 
+▪ Recovery of industrial activity in the main regions of operation, with 
+good performance for short-cycle goods, such as low-voltage electric 
+motors and serial automation products. 
+▪ For long-cycle goods, despite the good demand in segments such as 
+oil & gas and water & wastewater, the limited long-term visibility, due to 
+geopolitical uncertainties, is leading to the postponement of investment 
+decision for large projects. 
+ 
+Energy Generation, Transmission, and Distribution (GTD) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+2Q25 2,074,985 2,014,794 
+1Q25 2,388,548 2,047,637 
+Δ% -13.1% -1.6% 
+2Q24 2,107,869 1,735,295 
+Δ% -1.6% 16.1% 
+ 
+Share in NOR 
+Domestic Market 
+▪ The revenue slowdown was driven by the absence of wind generation 
+projects in 2025. It is important to note that 2Q24 was one of the 
+strongest revenue quarters for this business last year. Other generation 
+businesses continue to show robust double-digit growth, highlighted by 
+the good volume of centralized solar generation (GC) project deliveries 
+this quarter. 
+▪ T&D business also contributed positively, driven by deliveries of large 
+power transformers and substations for projects linked to transmission 
+auctions and distribution networks. 
+ 
+External Market 
+▪ The opportunities captured in the T&D market continue to contribute to 
+the performance of this business area, especially due to the good 
+volume of power transformers deliveries for electricity grid infrastructure 
+and renewable energy generation applications. 
+▪ In the generation business, good performance of Marathon's generator 
+business in the United States and China, mainly intended for the 
+generation of backup power for data centers. 
+ 
+48.1%
+40.1%
+
+[p. 16]
+ir.weg.net Earnings Release 2Q 2025 4 
+ 
+Performance by Business Area 
+ 
+Commercial and Appliance Motors (MCA) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+2Q25 333,692 476,163 
+1Q25 356,995 454,931 
+Δ% -6.5% 4.7% 
+2Q24 329,449 367,695 
+Δ% 1.3% 29.5% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Maintenance of demand in relation to the same period of the previous 
+year, with good performance of relevant segments such as air 
+conditioning and pump manufacturers, despite the demand reduction 
+observed in the washing machine segment. 
+ 
+External Market 
+▪ Demand growth in some important regions, highlighted by continued 
+growth in China and North America operations. 
+ 
+ 
+Paints and Varnishes (T&V) 
+NOR 
+Domestic 
+Market 
+External 
+Market 
+2Q25 331,136 67,503 
+1Q25 323,534 58,316 
+Δ% 2.3% 15.8% 
+2Q24 298,977 61,931 
+Δ% 10.8% 9.0% 
+ 
+Share in NOR 
+Domestic Market 
+▪ Continued positive demand, highlighted by the water & wastewater and 
+agricultural implements segments. 
+ 
+External Market 
+▪ The demand for paint and varnish products remained positive, mainly 
+motivated by the good results in the operation in Mexico, combined with 
+exports from Brazil to Latin America. 
+ 
+ 
+ 
+7.9%
+3.9%
+
+[p. 17]
+ir.weg.net Earnings Release 2Q 2025 5 
+ 
+Cost of Goods Sold 
+The Cost of Goods Sold (COGS) and gross margin for the quarter are shown in Table 3. 
+Table 3 – Costs 
+2Q25 1Q25 HA% 2Q24 HA%
+Net Operating Revenues 10,207,227 10,078,571 1.3% 9,274,426 10.1%
+Cost of Goods Sold (6,771,646) (6,762,551) 0.1% (6,148,231) 10.1%
+Gross Margin 33.7% 32.9% 80 bps 33.7% 0 bps
+ 
+The stabilization in the costs of the main raw materials that make up our cost structure, the favorable product mix 
+and the constant search for operational efficiency and productivity gains were important factors for maintaining gross 
+margin in this quarter when compared to the same period of the previous year. 
+ 
+Figure 2 – COGS Composition 
+Sales, General, and Administrative Expenses 
+Consolidated Sales, General and Administrative (SG&A) expenses totaled R$ 1,215.3 million in 2Q25, an increase 
+of 20.2% vs. 2Q24 and an increase of 0.7% vs. 1Q25. The increase to the same period of the previous year is mainly 
+explained by the consolidation of the businesses acquired from Marathon, Rotor and Cemp , as the integration is 
+happening according to plan and the increase in freight expenses. When analyzed in relation to net operating 
+revenue, they represented 11.9%, up 100 basis points compared to 2Q24 and down 10 basis points compared to 
+1Q25. 
+EBITDA and EBITDA Margin 
+The composition of the EBITDA calculation, according to Instruction CVM 156/2022, and the EBITDA margin are 
+shown in Table 4 . The EBITDA margin showed a slight accommodation when compared to the same period of the 
+previous year, mainly related to the current product mix and the mentioned expense fluctuations. 
+Table 4 – Calculation of EBITDA and EBITDA Margin 
+2Q25 1Q25 HA% 2Q24 HA%
+Net Operating Revenues 10,207,227 10,078,571 1.3% 9,274,426 10.1%
+Net Income 1,591,952 1,546,036 3.0% 1,441,655 10.4%
+Net income before non-controling shareholders 1,692,662 1,637,180 3.4% 1,512,063 11.9%
+(+) Income Taxes & Contributions 336,772 346,310 -2.8% 444,508 -24.2%
+(+/-) Financial Income (Expenses) (7,492) (40,103) -81.3% (25,281) -70.4%
+(+) Depreciation & Amortization 237,597 229,607 3.5% 189,524 25.4%
+EBITDA 2,259,539 2,172,994 4.0% 2,120,814 6.5%
+EBITDA Margin 22.1% 21.6% 50 bps 22.9% -80 bps
+ 
+17.8%
+2.6%
+9.1%
+70.5%
+2Q24
+Labor
+Depreciation
+Other Costs
+Materials
+19.2%
+2.9%
+9.3%
+68.6%
+2Q25
+
+[p. 18]
+ir.weg.net Earnings Release 2Q 2025 6 
+ 
+Net Income 
+Net Income in 2Q25 was R$ 1,591.9 million, an increase of 10.4% compared to 2Q24 and an increase of 3.0% 
+compared to 1Q25. The net margin reached 15.6%, 10 basis points higher than 2Q24 and 30 basis points higher 
+than 1Q25. 
+Cash Flow 
+Cash generation in operating activities was R$ 1,966.8 million up to June 2025, a result of revenue growth and 
+continuing good operating margins, despite the greater need for working capital in the period. 
+In investment activities, which include changes in fixed and intangible assets, acquisitions and financial investments, 
+we spent R$ 1,321.6 million. The level of CAPEX(3) in modernization and expansion of production capacity continued 
+through the investment of resources in factories in Brazil and Mexico. 
+In financing activities, the Company raised R$ 1.272,6 million and made amortizations of R$ 2,205.8 million, resulting 
+in a net amortization of R$ 933.2 million. Payments to equity holders (dividends and interest on capital) totaled R$ 
+1,806.6 million. The result was a consumption of R$ 2,735.6 million in financing activities in the period. 
+ 
+Figure 3 – Cash flow reconciliation (figures in R$ million) 
+Note that the chart in Figure 3 shows the cash and cash equivalents positions classified as current assets. 
+Furthermore, the Company has R$ 725.4 million in financial investments with no immediate liquidity, including 
+derivative financial instruments (R$ 882.5 million in December 2024). 
+Return on Invested Capital 
+The ROIC for 2Q25, accumulated over the last 12 months, reached 32.9%, a decrease of 450 basis points over 2Q24 
+and down 30 basis points over 1Q25. The growth in capital employed, mainly due investments in fixed and intangible 
+assets made, was the main factor for ROIC reduction, despite growth in Net Operating Profit after Taxes (NOPAT) 
+over the last 12 months. It is important to keep in mind that the ROIC for 2Q24 was positively impacted by a tax credit 
+related to the new subsidiary in Switzerland. 
+ 
+ 
+Cash December 2024
+Operating
+Investing
+Financing Exchange
+Rate
+Variation
+Cash June 2025
+7,347.6
+1,966.8 (1,321.6)
+(2,735.6)
+(273.7) 4,983.5
+
+[p. 19]
+ir.weg.net Earnings Release 2Q 2025 7 
+ 
+Investments (CAPEX) 
+In 2Q25, we invested R$ 583.4 million in the modernization and expansion of production capacity, machinery and 
+equipment and software licenses, 63.4% of which went to production units in Brazil and 36.6% to industrial plants 
+and other facilities abroad. 
+In Brazil, we continued with the modernization and expansion of the transformer production capacity at the T&D 
+plants, in addition to increasing the production capacity and productivity improvements for industrial electric motors 
+in Jaraguá do Sul. Outside of Brazil, we continued with investments in Mexico, with progress in the construction of 
+the new transformer factories. 
+ 
+Figure 4 – CAPEX Evolution (figures in R$ million) 
+Research, Development, and Innovation 
+Expenditures on research, development and innovation activities totaled R$ 673.8 million, representing 3.3% of 
+accumulated net operating revenue in 2025. 
+Debt and Cash Position 
+Cash, cash equivalents, invested in first-tier banks and denominated in Brazilian currency, and financial investments 
+and derivatives are presented in Table 5. Likewise, the Company demonstrates the total gross financial debt, with 
+details between short and long-term, in Brazilian reais and other currencies, resulting in the Company ’s net cash at 
+the end of the quarter. 
+Table 5 – Cash and Debt 
+Cash & Cash Equivalents 5,682,735 8,013,210 7,242,673 
+Current 5,668,597 7,996,076 7,230,764 
+Long Term 14,138 17,134 11,909 
+Derivatives (58,686) 190,678 (44,561) 
+Short Term Assets 25,491 210,749 26,037 
+Long Term Assets 739 6,166 22,668 
+Short Term Liabilities (84,455) (26,237) (88,706) 
+Long Term Liabilities (461) - (4,560) 
+Debt (2,584,148) 100% (3,595,237) 100% (4,180,977) 100%
+Current (2,261,673) 88% (2,850,956) 79% (2,968,661) 71%
+In Brazilian reais (16,215) (6,089) (6,245) 
+In other currencies (2,245,458) (2,844,867) (2,962,416) 
+Long Term (322,475) 12% (744,281) 21% (1,212,316) 29%
+In Brazilian reais (322,475) (248,894) (156,477) 
+In other currencies - (495,387) (1,055,839) 
+Net Cash 3,039,901 4,608,651 3,017,135 
+June 2025 December 2024 June 2024
+ 
+The total duration of our indebtedness was 9.9 months in June 2025 (11.3 months in December 2024). 
+223.8 224.1 280.9
+434.8 349.9 370.0
+127.7 167.4 154.0 
+237.6 
+271.3 213.4 351.5 391.5 434.9 
+672.4 621.2 583.4 
+ 1Q24 2Q24 3Q24 4Q24 1Q25 2Q25
+Brazil Outside Brazil
+
+[p. 20]
+ir.weg.net Earnings Release 2Q 2025 8 
+ 
+Dividends and Interest on Stockholders’ Equity 
+For the first half of 2025, the Board of Directors approved ad referendum of a future Annual Shareholders Meeting, 
+the following events regarding dividends: 
+▪ On March 18, as interest on equity (JCP), to the gross amount of R$ 338.6 million. 
+▪ On June 17, as interest on equity (JCP), to the gross amount of R$ 394.6 million. 
+The board of directors also approved, in a meeting held on July 22, 2025, intermediate dividends related to the net 
+income for the first half of 2025, to the total amount of R$ 719.3 million. 
+The proceeds will be paid on August 13, 2025. Amounts declared as remuneration to shareholders in the first half 
+represented 46.3% of net income for the period. 
+Our practice is to declare interest on capital quarterly and dividends based on the profit obtained each half-year, that 
+is, six proceeds each year, paid semi-annually. 
+Table 6 - Dividends 
+1st Half 2025 1st Half 2024 %
+Interest on Stockholders' Equity 733,258 505,672 45.0%
+Dividends 719,354 786,877 -8.6%
+Gross Total 1,452,611 1,292,549 12.4%
+Net Earnings 3,137,988 2,769,619 13.3%
+Total Dividends / Net Earnings 46.3% 46.7%
+ 
+Other Events 
+Strategic acquisition in the industrial coatings segment in the USA 
+On May 01, we announced the asset’s acquisition of Heresite Protective Coatings, an American industrial coatings 
+company located in the United States , for US $9.5 million. Founded in 1935 in Manitowoc, Wisconsin, Heresite 
+Protective Coatings is a consolidated industrial coatings company specializing in solutions for ventilation, heating 
+and air conditioning (HVAC) equipment for harsh environments, especially in the oil & gas and water & wastewater 
+segments. In addition to operating in the North American market, Heresite has a solid international presence. In 2024, 
+Heresite reported net operating revenue of US$8.6 million, with an EBITDA margin of 22% . 
+Results Conference Call 
+On July 24, 202 5 (Thursday), WEG will hold a teleconference in Portuguese, with simultaneous translation into 
+English, also available on the internet webcast, at the following times: 
+▪ 11:00 a.m. – São Paulo (BRT) 
+▪ 10:00 a.m. – New York (EDT) 
+▪ 3:00 p.m. – London (BST) 
+Access Link: click here 
+The presentation will also be available on our Investor Relations website (ir.weg.net). 
+Forward-Looking Statements 
+The statements contained in this report relating to WEG’s business prospects, projections, and results and the 
+Company’s growth potential projected forecasts based on management’s expectations regarding the future of 
+WEG. These expectations are highly dependent on changes in the market, overall national economic performance, 
+sector performance, and international markets and are subject to change.
+
+[p. 21]
+ir.weg.net Earnings Release 2Q 2025 9 
+ 
+ 
+FINANCI AL STAT E ME NT S 
+2Q 2 0 25 
+ 
+A n n e xes
+
+[p. 22]
+ir.weg.net Earnings Release 2Q 2025 10 
+ 
+Annex I – Consolidated Income Statement – Quarterly 
+ 
+Annex II – Consolidated Income Statement Accumulated 
+AH%
+(A) AV% (B) AV% (A)/(B)
+Net Operating Revenues 20,285,798 100.0% 17,307,730 100.0% 17.2%
+Cost of Goods Sold (13,534,197) -66.7% (11,510,831) -66.5% 17.6%
+Gross Profit 6,751,601 33.3% 5,796,899 33.5% 16.5%
+Sales Expenses (1,674,620) -8.3% (1,326,989) -7.7% 26.2%
+Administrative Expenses (748,140) -3.7% (568,218) -3.3% 31.7%
+Financial Revenues 1,053,266 5.2% 849,563 4.9% 24.0%
+Financial Expenses (1,005,671) -5.0% (751,830) -4.3% 33.8%
+Other Operating Income 101,707 0.5% 52,218 0.3% 94.8%
+Other Operating Expenses (461,696) -2.3% (418,073) -2.4% 10.4%
+Equity accounting (3,523) 0.0% (1,200) 0.0% 193.6%
+Earnings Before Taxes 4,012,924 19.8% 3,632,370 21.0% 10.5%
+Income Taxes & Contributions (667,579) -3.3% (766,096) -4.4% -12.9%
+Deferred Taxes (15,503) -0.1% 23,043 0.1% n.a.
+Minorities (191,854) -0.9% (119,698) -0.7% 60.3%
+Net Earnings 3,137,988 15.5% 2,769,619 16.0% 13.3%
+EBITDA 4,432,533 21.9% 3,890,694 22.5% 13.9%
+Earnings per Share (EPS) 0.74791 0.66015 13.3%
+06M24 06M23
+ 
+ 
+HA% HA%
+(A) VA% (B) VA% (C) VA% (A)/(B) (A)/(C)
+Net Operating Revenues 10,207,227 100.0% 10,078,571 100.0% 9,274,426 100.0% 1.3% 10.1%
+Cost of Goods Sold (6,771,646) -66.3% (6,762,551) -67.1% (6,148,231) -66.3% 0.1% 10.1%
+Gross Profit 3,435,581 33.7% 3,316,020 32.9% 3,126,195 33.7% 3.6% 9.9%
+Sales Expenses (834,470) -8.2% (840,150) -8.3% (702,805) -7.6% -0.7% 18.7%
+Administrative Expenses (380,877) -3.7% (367,263) -3.6% (308,248) -3.3% 3.7% 23.6%
+Financial Revenues 576,104 5.6% 477,162 4.7% 524,936 5.7% 20.7% 9.7%
+Financial Expenses (568,612) -5.6% (437,059) -4.3% (499,655) -5.4% 30.1% 13.8%
+Other Operating Income 55,980 0.5% 45,727 0.5% 35,284 0.4% 22.4% 58.7%
+Other Operating Expenses (251,266) -2.5% (210,430) -2.1% (217,863) -2.3% 19.4% 15.3%
+Equity accounting (3,006) 0.0% (517) 0.0% (1,273) 0.0% 481.4% 136.1%
+Earnings Before Taxes 2,029,434 19.9% 1,983,490 19.7% 1,956,571 21.1% 2.3% 3.7%
+Income Taxes & Contributions (344,199) -3.4% (323,380) -3.2% (421,756) -4.5% 6.4% -18.4%
+Deferred Taxes 7,427 0.1% (22,930) -0.2% (22,752) -0.2% n.a. n.a.
+Minorities (100,710) -1.0% (91,144) -0.9% (70,408) -0.8% 10.5% 43.0%
+Net Earnings 1,591,952 15.6% 1,546,036 15.3% 1,441,655 15.5% 3.0% 10.4%
+EBITDA 2,259,539 22.1% 2,172,994 21.6% 2,120,814 22.9% 4.0% 6.5%
+Earnings per Share (EPS) 0.37943 0.36848 0.34362 3.0% 10.4%
+2Q25 1Q25 2Q24
+
+[p. 23]
+ir.weg.net Earnings Release 2Q 2025 11 
+ 
+Annex III Consolidated Balance Sheet 
+HA% HA%
+(A) VA% (B) VA% (C) VA% (A)/(B) (A)/(C)
+Current Assets 25,299,344 64% 27,221,359 66% 25,019,368 67% -7% 1%
+Cash & cash equivalents 5,668,597 14% 7,996,076 19% 7,230,764 19% -29% -22%
+Receivables 7,328,719 18% 7,394,411 18% 7,210,277 19% -1% 2%
+Inventories 10,076,991 25% 9,903,951 24% 8,845,836 24% 2% 14%
+Other current assets 2,225,037 6% 1,926,921 5% 1,732,491 5% 15% 28%
+Noncurrent assets 14,537,495 36% 14,268,342 34% 12,420,118 33% 2% 17%
+Long Term Assets 1,389,683 3% 1,442,220 3% 1,341,656 4% -4% 4%
+Long term securities 14,138 0% 17,134 0% 11,909 0% -17% 19%
+Deferred taxes 1,050,073 3% 1,141,821 3% 1,067,545 3% -8% -2%
+Other non-current assets 325,472 1% 283,265 1% 262,202 1% 15% 24%
+Investment in Subs 62,804 0% 71,808 0% 75,253 0% -13% -17%
+Property, Plant & Equipment 10,281,835 26% 9,933,659 24% 8,709,230 23% 4% 18%
+Right of use 830,084 2% 898,435 2% 807,216 2% -8% 3%
+Intangibles 2,803,173 7% 2,820,655 7% 2,293,979 6% -1% 22%
+Total Assets 39,836,839 100% 41,489,701 100% 37,439,486 100% -4% 6%
+Current Liabilities 14,256,179 36% 15,454,265 37% 14,218,966 38% -8% 0%
+Social and Labor Liabilities 976,799 2% 728,469 2% 899,982 2% 34% 9%
+Suppliers 2,888,352 7% 3,778,116 9% 3,240,438 9% -24% -11%
+Fiscal and Tax Liabilities 812,795 2% 799,564 2% 798,528 2% 2% 2%
+Short Term Debt 2,261,673 6% 2,850,956 7% 2,968,661 8% -21% -24%
+Dividends Payable 667,247 2% 561,679 1% 609,317 2% 19% 10%
+Advances from Clients 4,072,213 10% 4,040,292 10% 3,217,582 9% 1% 27%
+Profit Sharing 428,271 1% 569,328 1% 394,838 1% -25% 8%
+Derivatives 84,455 0% 26,237 0% 88,706 0% 222% -5%
+Leasing 136,352 0% 107,668 0% 98,900 0% 27% 38%
+Other Short Term Liabilities 1,928,022 5% 1,991,956 5% 1,902,014 5% -3% 1%
+Long Term Liabilities 2,432,538 6% 2,910,219 7% 3,219,811 9% -16% -24%
+Long Term Debt 322,475 1% 744,281 2% 1,212,316 3% -57% -73%
+Other Long Term Liabilities 513,683 1% 496,934 1% 379,668 1% 3% 35%
+Leasing 631,791 2% 715,450 2% 661,408 2% -12% -4%
+Deferred Taxes 168,059 0% 170,520 0% 112,439 0% -1% 49%
+Contingencies Provisions 796,530 2% 783,034 2% 853,980 2% 2% -7%
+Equity 23,148,122 58% 23,125,217 56% 20,000,709 53% 0% 16%
+Owners of the Company 22,215,931 56% 22,204,221 54% 19,299,649 52% 0% 15%
+Noncontrolling interests 932,191 2% 920,996 2% 701,060 2% 1% 33%
+Total Liabilities 39,836,839 100% 41,489,701 100% 37,439,486 100% -4% 6%
+June 2025 December 2024 June 2024
+
+[p. 24]
+ir.weg.net Earnings Release 2Q 2025 12 
+ 
+Annex IV – Consolidated Cash Flow Statement 
+6 Months 6 Months
+2025 2024
+Operating Activities
+Net Earnings before Taxes 4,012,924 3,632,370 
+Depreciation and Amortization 467,204 356,057 
+Equity accounting 3,523 1,200 
+Provisions 798,684 478,387 
+Changes in Assets & Liabilities (3,315,490) (1,389,198) 
+(Increase)/decrease in clients (273,502) (314,115) 
+Increase/(decrease) in suppliers (788,098) 685,503 
+(Increase)/decrease in inventories (626,706) (390,010) 
+(Increase)/decrease in taxes recoverable (183,815) (81,849) 
+Increase/(decrease) in social/tax obligations 163,657 232,641 
+Increase/(decrease) in advances from clients 237,785 (228,944) 
+Increase/(decrease) in other accounts receivable/payable (556,782) (41,862) 
+Income Tax and Social Contribution on Net Earnings (748,290) (577,619) 
+Profit Sharing Paid (476,257) (450,711) 
+Dividends & Intesrest on Stockholders Equity Paid (63,482) (222,232) 
+Cash Flow from Operating Activities 1,966,845 3,078,816 
+Investment Activities
+Fixed Assets (1,122,990) (707,746) 
+Intagible Assets (81,652) (35,319) 
+Results of sales of fixed assets 14,893 3,062 
+Aquisition of Subsidiaries (136,590) (1,894,972) 
+Financial investments held to maturity - 2,557 
+Rescue of financial investments 4,715 1,679 
+Cash Flow From Investment Activities (1,321,624) (2,630,739) 
+Financing Activities
+Working Capital Financing 1,272,568 2,236,965 
+Long Term Financing (2,205,766) (1,130,247) 
+Interest paid on loans and financing 4,261 6,949 
+Treasury Shares (1,806,637) (1,715,227) 
+Cash Flow From Financing Activities (2,735,574) (601,560) 
+Changes in Cash and Equivalents caused by FX Changes (273,719) 275,814 
+Change in Cash Position (2,364,072) 122,331 
+Cash & Cash Equivalents:
+Beginning of Period 7,347,599 6,488,454 
+End of Period 4,983,527 6,610,785 
+ 
+ 
+For more information, visit our results center: 
+https://ri.weg.net/en/financial-information/results-center 
+Notes: 
+(1) Earnings before Interest, Taxes, Depreciation, and Amortization. 
+(2) Variations in countries with hyperinflation and acquisitions in the period are not considered. 
+(3) Capital Expenditure. 
+n.a. stands for not applicable. 
+n.m. stands for not mentioned. 
+bps stands for basis points.

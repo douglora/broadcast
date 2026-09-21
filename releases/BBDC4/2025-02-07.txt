@@ -1,0 +1,3750 @@
+[p. 1]
+clique nos itens abaixo para navegar pelo documento: 
+ 
+análise gerencial dos resultados 
+ relatório da administração 
+ demonstrações ﬁnanceiras consolidadas 
+ vídeoconferência comentando os resultados 
+07 /02 às 10h30 (Horário de Brasília) 
+relatório de análise 
+econômica e ﬁnanceira
+
+[p. 3]
+Bradesco | Relatório de Análise Econômica e Financeira 3 
+Sumário 
+Análise Gerencial dos Resultados 5 
+press release 6 
+destaques 2024 | 4T24 7 
+demonstração do resultado recorrente 8 
+margem financeira 9 
+fontes de captação 10 
+carteira de crédito 11 
+despesa com PDD expandida 16 
+indicadores de crédito 17 
+receitas de prestação de serviços 20 
+despesas operacionais 22 
+Bradesco Seguros 23 
+basileia 28 
+guidance 29 
+principais mudanças pela adoção das Resoluções CMN n° 4.966 e 4.975 30 
+indicadores & perspectivas econômicas 31 
+ 
+Informações Adicionais 33 
+estratégia corporativa | clientecentrismo 34 
+Movimento Change | Todo o Bradesco em transformação 35 
+NPS 38 
+nossas pessoas 39 
+sustentabilidade 40 
+digital em números | BIA 41 
+Bradesco Principal 42 
+bradesco expresso 43 
+atuação internacional | My Account 44 
+bradesco bank 45 
+Ágora Investimentos 46 
+next | digio 47 
+pontos de atendimento, clientes e market share 48 
+retorno aos acionistas 49 
+demais informações 50 
+informações selecionadas 52 
+balanço patrimonial – consolidado Bradesco 53 
+balanço patrimonial – consolidado seguros 54 
+resultado gerencial x recorrente | comparativo BRGAAP x IFRS 55 
+ 
+Relatório dos Auditores Independentes 57 
+ 
+Demonstrações Financeiras 61
+
+[p. 4]
+Bradesco | Relatório de Análise Econômica e Financeira 4 
+ 
+Alguns números inclusos neste relatório foram submetidos a ajustes de arredondamento. 
+Assim sendo, os valores indicados como totais em alguns quadros podem não ser a soma aritmética dos números que os precedem. 
+Variações percentuais não apresentadas nos quadros deste relatório, estão relacionadas, em sua maioria, a saldos de baixo valor 
+quando comparados com os demais períodos apresentados.
+
+[p. 5]
+relatório de análise 
+econômica e financeira 
+Análise Gerencial dos 
+Resultados
+
+[p. 6]
+Bradesco | Relatório de Análise Econômica e Financeira 6 
+press release 
+ 
+ 
+Nossa melhora operacional continua gerando aumento da rentabilidade de forma gradual e segura. Em 2024, aproveitamos 
+oportunidades para crescer em linhas de alta margem líquida, mesmo que tenham spread brutos menores, o que nos propiciou melhor 
+resultado e maior percentual de crédito com colateral. O plano de transformação também nos trouxe seus primeiros frutos. Olhando 
+para frente e com a perspectiva de cenário macro mais desafiador, ajustamos o nosso apetite ao risco e as condições de oferta de 
+crédito. Nossa opção é por garantir a sustentabilidade da nossa jornada, evoluindo com segurança e mantendo o custo de crédito sob 
+controle, investindo na transformação da Organização, e colocando o cliente cada vez mais no centro das nossas decisões. 
+O lucro líquido recorrente foi de R$ 5,4 bilhões no 4T24, resultando em ROAE de 12,7% e mais um trimestre de crescimento da 
+rentabilidade. Em 2024, o nosso lucro chegou a R$ 19,6 bilhões, o que significou 20% de aumento frente ao ano anterior. 
+A carteira de crédito acelerou no 4T24 com equilíbrio, apresentando bom crescimento particularmente em linhas de baixo risco e boa 
+margem líquida, seguindo o que vimos no trimestre anterior. Terminamos o ano com percentual de linhas com colateral na nossa 
+carteira de crédito entre os maiores dos últimos anos. 
+No crédito para PF, nossa carteira cresceu significativamente em diversas linhas no 4T24, como rural, imobiliário, crédito pe ssoal e 
+veículos. Cartões evoluiu, com destaque para alta renda. Em 2024, a carteira de crédito PF aumentou 13,3% contra o ano anterior. 
+Em MPME, continuamos priorizando a originação de crédito para médias empresas, que tem menor risco, e em linhas com garantia 
+para pequenas empresas. Em 2024, nosso crédito para MPME cresceu 28,0% a/a. Em grandes empresas, a carteira ficou relativamente 
+estável no trimestre e cresceu 2,5% no ano. 
+A inadimplência da carteira de crédito, considerando atrasos superiores a 90 dias, caiu 0,2 p.p. no trimestre e 1,1 p.p. em um ano. A 
+redução ocorreu em todos os segmentos e foi mais acentuada em MPME. O nosso índice de cobertura ficou estável no trimestre. 
+A receita cresceu 5,4% t/t e 7,9% a/a no 4T24, já desconsiderando o nosso aumento de participação na Cielo, e foi impulsionada por 
+forte crescimento dos três principais componentes: margem financeira total, receitas com serviços e seguros. 
+O desempenho das operações de seguros foi destaque no ano, com ROAE de 25,1% no 4T24. O resultado das operações de seguros 
+foi de R$ 5,5 bilhões no trimestre (9,6% t/t e 16,6% a/a) e o lucro líquido atingiu R$ 2,5 bilhões (6,6% t/t e 1,9% a/a), com crescimento 
+do resultado financeiro e continuidade da melhora operacional, impulsionada pela redução da sinistralidade. 
+As despesas operacionais aumentaram 8,8% t/t e 7,5% a/a no trimestre, já desconsiderando o aumento de participação na Cielo, em 
+linha com nossas estimativas iniciais. 
+O capital nível 1 ficou em 12,4%, recuando 0,3 p.p. versus o 3T24. Destinamos R$ 11,3 bilhões em JCP aos acionistas em 2024. Em capital, 
+os efeitos combinados da implementação da resolução 4.966 e da nova abordagem do risco operacional somaram 0, 37 p.p., 
+contribuindo para o capital nível 1 passar de 12,4% para 12,8% a partir de janeiro 2025. 
+Em relação ao guidance de 2024, a margem financeira total e PDD expandida ficaram abaixo do intervalo indicado, pois tivemos 
+oportunidade de crescer mais do que esperávamos em linhas com garantia. Combinando as duas linhas, a nossa margem financeira 
+líquida chegou a R$ 34,0 bi no ano, ficando próximo ao topo do intervalo implícito do guidance de R$ 28,1 bi a R$ 34,8 bi. O crescimento 
+da nossa carteira expandida foi de 11,9%, ficando acima do guidance. Excluindo o aumento de participação na Cielo, as demais linhas 
+do guidance ficaram dentro das projeções indicadas, com destaque para seguros e receitas com serviços, que ficaram próximos ao 
+limite superior da faixa. 
+Para 2025, esperamos que o crescimento das receitas, com o risco de crédito controlado, seja o principal fator a contribuir p ara a 
+melhora da nossa rentabilidade. A margem financeira total líquida tem a perspectiva positiva de crescimento, mesmo em cenário macro 
+desafiador. O resultado de seguros tende a melhorar, com importante contribuição dos seus componentes operacional e financeiro. A 
+receita com serviços deve subir moderadamente. O custo de crédito deve se manter controlado. Já as de spesas operacionai s 
+continuarão pressionadas, entre outros, pelos investimentos no plano de transformação. Em suma, esperamos que a nossa 
+rentabilidade continue a aumentar de forma gradual e segura. 
+O plano de transformação segue em execução e investiremos no seu aprofundamento em 2025. Algumas evoluções importantes foram 
+observados no 4T24. Avançamos na mudança de servir o cliente, ativando ainda mais os nossos canais digitais e os correspondentes 
+bancários do Bradesco Expresso e fechando pontos de atendimento tradicionais . Abrimos mais uma plataforma dedicada ao 
+agronegócio para o middle market, e mais 28 agências empresas, além do lançamento do novo segmento Principal. Aceleramos 
+iniciativas para melhor gestão do caixa das empresas. Iniciamos a expansão do enterprise agility. Em crédito, aprimoramos a gestão 
+de risco com melhores modelos comportamentais e separação dos clientes em clusters de volatilidade. Na agenda de pessoas, com 
+base na nossa pesquisa sobre cultura , identificamos e definimos oportunidades de evolução, compartilhando -as com os nossos 
+colaboradores. Em 2025, aceleramos o plano de transformação em todas as frentes, mantendo os clientes no centro das nossas 
+decisões. 
+Seguimos comprometidos com a agenda de negócios sustentáveis e apoiando nossos clientes na transição para uma economia mais 
+verde, resiliente e inclusiva. Até o final de 2024, direcionamos R$ 305 bilhões para setores e atividades com benefícios socioambientais. 
+As informações a seguir apresentam o detalhamento do nosso desempenho no 4T24, incluindo dados do resultado, balanço 
+patrimonial e indicadores diversos. 
+boa leitura!
+
+[p. 7]
+Bradesco | Relatório de Análise Econômica e Financeira 7 
+ 
+ 
+destaques 2024 | 4T24 
+ 
+lucro líquido recorrente consolidado 
+R$ 19,6 bi 
+△ 3,4% t/t 
+△ 20,0% 24 x 23 
+ 
+ROAE 4T24 12,7% 
+△ 0,3 p.p. t/t △ 5,8 p.p. a/a 
+ 
+informações selecionadas 4T24 carteira de crédito 
+R$ 981,7 bi 
+ 
+ 
+△ 4,0% t/t 
+△ 11,9% 24 x 23 
+receitas 
+totais 
+R$ 32,3 bi (1) 
+△ 5,4% t/t △ 7,9% a/a 
+margem financeira total 
+△ 6,2% t/t △ 5,4% a/a 
+receitas de prestação 
+de serviços (2) 
+△ 1,8% t/t △ 7,9% a/a 
+pessoas físicas 
+R$ 414,1 bi 
+△ 4,3% t/t 
+△ 13,3% 24 x 23 
+seguros, previdência 
+e capitalização 
+△ 9,6% t/t △ 16,6% a/a 
+pessoas jurídicas 
+R$ 567,6 bi 
+△ 3,8% t/t 
+△ 10,9% 24 x 23 
+ 
+custo do crédito 
+R$ 7,5 bi △ 4,7% t/t ▽ 29,1% a/a MPME △ 11,2% t/t 
+△ 28,0% 24 x 23 GE ▽ 0,3% t/t 
+△ 2,5% 24 x 23 
+ 
+ inadimplência 
+15 a 90 dias +90 dias 
+3,4% 
+Estável t/t 
+▽ 0,7 p.p. 24 x 23 4,0% 
+▽ 0,2 p.p. t/t 
+▽ 1,1 p.p. 24 x 23 
+ 
+despesas pessoal + administrativas (3) 
+R$ 13,1 bi △ 6,7% t/t △ 5,6% a/a basileia nível I 
+Considerando o efeito do aumento da participação na Cielo: (1) 5,9% t/t e 9,7% a/a; 
+(2) 3,6% t/t e 13,7% a/a; e (3) 7,0% t/t e 7,2% a/a. 12,4% ▽ 0,3 p.p. t/t ▽ 0,8 p.p. 24 x 23 
+ 
+grupo segurador 
+lucro líquido recorrente ROAE 4T24 faturamento índice de sinistralidade 4T24 
+R$ 9,1 bi 
+△ 6,6% t/t △ 0,8% 24 x 23 
+25,1% 
+△ 1,4 p.p. t/t △ 0,3 p.p. a/a 
+R$ 121,1 bi 
+△ 0,1% t/t △ 13,6% 24 x 23 
+72,2% 
+▽ 4,0 p.p. t/t ▽ 6,3 p.p. 24 x 23 
+principais destaques 
+• Rentabilidade segue crescendo com solidez e segurança, impulsionada pelas receitas 
+• Margem líquida evoluiu, demonstrando a estratégia de crescimento da produção com mix adequado 
+• Carteira de crédito com crescimento equilibrado e melhora contínua dos Índices de inadimplência 
+• Ajuste do apetite ao risco tendo em vista o cenário macro prospectivo 
+• Seguros mantêm melhora operacional e crescimento do ROAE 
+• Programa de transformação segue tracionado contribuindo com o desempenho operacional
+4,8 3,5 3,2 3,0 3,0 
+ 4T23 1T24 2T 3T 4T
+PDD/Carteira (% anualizado)
+ custo do crédito estável
+
+[p. 8]
+Bradesco | Relatório de Análise Econômica e Financeira 8 
+ 
+demonstração do resultado 
+recorrente 
+ 
+(1) Considera o impacto da participação da Cielo. Sem este impacto, as receitas de prestação de serviços seriam de R$ 9.744 MM no 4T24 e R$ 37.497 MM em 12M24 e as despesas 
+operacionais seriam de R$ 16.048 MM no 4T24 e R$ 58.625 MM em 12M24; (2) Principalmente por reestruturação na rede de agências; e (3) Inclui impairment de ativos relacionados à 
+aquisição de direito para prestação de serviços financeiros e softwares. 
+ 
+ movimentação do lucro no trimestre | R$ milhões 
+ (1) Despesas Tributárias, Resultados da Participação em Coligadas, Resultado Não Operacional, IR/CS e Participação Minoritária. 
+ROAE acumulado e trimestral 
+ 
+ IEO / IEO ajustado ao risco 
+ 
+R$ milhões
+\\ Margem Financeira 16.995 15.999 16.128 63.726 65.196 6,2 5,4 (2,3) 
+Margem com Clientes 16.153 15.635 15.432 61.565 64.885 3,3 4,7 (5,1) 
+Margem com Mercado 842 364 696 2.161 311 - 21,0 -
+\\ PDD Expandida (7.460) (7.127) (10.524) (29.688) (39.545) 4,7 (29,1) (24,9) 
+\\ Margem Financeira Líquida 9.535 8.872 5.604 34.038 25.651 7,5 70,1 32,7 
+Resultado das Operações de Seguros, Previdência e Capitalização 5.531 5.048 4.745 19.220 17.879 9,6 16,6 7,5 
+Receitas de Prestação de Serviços (1) 10.262 9.904 9.028 38.344 35.642 3,6 13,7 7,6 
+Despesas Operacionais (1) (16.418) (15.050) (14.935) (59.294) (54.230) 9,1 9,9 9,3 
+Despesas de Pessoal (6.773) (6.504) (6.238) (25.514) (23.879) 4,1 8,6 6,8 
+Outras Despesas Administrativas (6.315) (5.728) (5.972) (23.255) (22.600) 10,2 5,7 2,9 
+Outras Receitas / (Despesas Operacionais) (3.330) (2.818) (2.725) (10.525) (7.751) 18,2 22,2 35,8 
+Despesas Tributárias (2.031) (2.120) (2.077) (8.084) (7.942) (4,2) (2,2) 1,8 
+Resultado de Participação em Coligadas 90 111 134 366 573 (18,9) (32,8) (36,1) 
+\\ Resultado Operacional 6.969 6.765 2.499 24.590 17.573 3,0 - 39,9 
+Resultado Não Operacional 40 31 67 119 139 29,0 (40,3) (14,4) 
+IR/CS (1.490) (1.474) 390 (4.739) (1.036) 1,1 - -
+Participação Minoritária (117) (97) (78) (416) (379) 20,6 50,0 9,8 
+\\ Lucro Líquido Recorrente 5.402 5.225 2.878 19.554 16.297 3,4 87,7 20,0 
+Eventos não Recorrentes (468) - (1.175) (468) (1.175) - (60,2) (60,2) 
+Provisão para Reestruturação (2) (443) - (570) (443) (570) - (22,3) (22,3) 
+Impairment de Ativos Não Financeiros (3) (25) - (58) (25) (58) - (56,9) (56,9) 
+Passivos Contingentes - - (547) - (547) - - -
+Lucro Líquido Contábil 4.934 5.225 1.703 19.086 15.122 (5,6) - 26,2 
+Variação %
+4T24 3T24 4T23 12M24 12M23 4T24 x 
+3T24 
+ 4T24 x 
+4T23 
+ 12M24 x 
+12M23 
+53,4 51,1 52,3 52,0 53,2
+48,7 49,7 51,3 52,2 52,2
+84,2 84,0 83,0 81,8 78,3
+ 4T23 1T24 2T 3T 4T
+ Trimestral
+ Acumulado 12 meses
+ Ajustado ao Risco - Acumulado 12 meses
+%
+% 
+12,712,411,410,2
+6,9
+11,711,310,810,2
+10,0
+ 4T 3T 2T 1T24 4T23
+ Trimestral Acumulado
+5.225 
+41 
+5.402 518 478 
+(88) (245)
+483 358 
+(1.368)
+3T24 Clientes Mercado Massificado Atacado Resultado
+Operacional de
+Seguros
+Receitas de
+Prestação de
+Serviços
+Despesas
+Operacionais
+(Pessoal + ADM
++ Outras)
+Outros 4T24
+▲ 996
+▲ (333)
+PDD ExpandidaMargem Financeira
+(1)
+
+[p. 9]
+Bradesco | Relatório de Análise Econômica e Financeira 9 
+Margem com 
+Clientes Total 
+ margem financeira 
+ 
+ 
+ 
+ 
+(1) Corresponde ao resultado das operações com ativos (crédito e similares) e passivos sensíveis a spreads. O cálculo do resultado dos ativos sensíveis a spreads leva em consideração as taxas 
+originais das operações deduzidas do custo interno do funding, e o resultado dos passivos representa a diferença entre o custo de captação e a taxa interna de transferência desses recursos; 
+e (2) Composta pela Gestão de Ativos e Passivos (ALM), Trading e Capital de Giro Próprio. 
+ 
+ 
+margem com clientes 
+ 
+ mix da carteira expandida (%) 
+ 
+ 
+variação da margem com clientes | R$ milhões 
+A margem financeira bruta com clientes apresentou crescimento de 3,3% no trimestre, pela contribuição do volume 
+médio de negócios em todos os segmentos e melhora na margem com passivos, compensado por menor receita pela 
+quantidade de dias no período. No crédito, destaque para pessoas físicas em financiamento ao consumo, e para pessoa 
+jurídica, destaque na linha de capital de giro. A manutenção da taxa média bruta da margem reflete os efeitos dos 
+impactos regulatórios em financiamento de cartão de crédito, a margem de passivos e a discriminação de risco das 
+operações, privilegiando a qualidade das novas concessões de crédito, compensado pelo aumento do spread gerado 
+pela redução das carteiras em atraso dentro do portifólio. O resultado dessa estratégia tem refletido na melhora 
+sequencial da margem líquida, que aumentou +2% em relação ao 3T24, +77% comparado ao 4T23 e +26% no 
+acumulado. 
+margem com mercado 
+ Variação no trimestre impulsionada pelo maior resultado com 
+arbitragem. 
+R$ milhões R$ % R$ % R$ % 
+\\ Margem Financeira 16.995 15.999 16.128 63.726 65.196 996 6,2 867 5,4 (1.470) (2,3) 
+\\ Margem com Clientes (1) 16.153 15.635 15.432 61.565 64.885 518 3,3 721 4,7 (3.320) (5,1) 
+Saldo Médio 790.286 758.474 718.376 748.482 716.865 507 1.208 2.232 
+Taxa Média 8,4% 8,4% 8,8% 8,2% 9,1% 11 (487) (5.552) 
+\\ Margem com Mercado (2) 842 364 696 2.161 311 478 - 146 21,0 1.850 -
+4T24
+ 4T24 x 3T24 
+3T24 12M23
+ 4T24 x 4T23 12M24 x 12M23 
+4T23 12M24
+15.635 
+136 9 8.693 
+7.460 16.153 
+(7.127)
+8.508 507
+(134) (333)
+3T24 PDD
+Expandida
+3T24
+Margem com
+Clientes Líquida
+de PDD 3T24
+Volume
+Médio
+Spread Mix de
+Produtos
+Quantidade
+de Dias
+PDD
+Expandida
+Margem com
+Clientes Líquida
+de PDD 4T24
+PDD
+Expandida
+4T24
+4T24
+Margem com 
+Clientes - Líquida 
+de PDD 
+R$ bilhões 
++2% t/t 
+185 
++3% t/t 
+518 
+0,8
+0,40,3
+0,60,7
+4T3T2T1T244T23
+R$ bilhões
+ Dez24 x 
+Dez23 
+\\ Pessoas Físicas 42,2 42,0 41,7 0,5 p.p.
+Consignado 9,9 10,2 10,5 (0,6) p.p.
+Financ. Imobiliário 10,5 10,4 10,2 0,3 p.p.
+Crédito Rural 2,6 2,4 1,9 0,7 p.p.
+Veículos 3,7 3,8 3,8 (0,1) p.p.
+Cartão de Crédito 7,7 7,5 8,2 (0,5) p.p.
+Crédito Pessoal 6,8 6,9 6,1 0,7 p.p.
+Outros 1,0 1,0 1,0 -
+ \\ MPME 21,9 20,5 19,1 2,8 p.p.
+ \\ GE 35,9 37,5 39,2 (3,3) p.p.
+Dez23Dez24 Set24
+4,9 6,7 8,0 8,5 8,7
+8,8% 8,5% 8,6% 8,4% 8,4%
+2,7% 3,8% 4,4% 4,5% 4,4%
+ 4T23 1T24 2T 3T 4T
+ Taxa Média Trimestral Anualizada
+ Taxa Média Líquida de PDD Expandida Trimestral Anualizada
++2,2% t/t 
++77,1% a/a 
+15,4 14,5 15,3 15,6 16,2
+
+[p. 10]
+Bradesco | Relatório de Análise Econômica e Financeira 10 
+fontes de captação 
+total dos recursos captados e administrados 
+R$ 3,2 tri 
+△ 1,5% t/t △ 7,5% a/a 
+ 
+recursos captados 
+△ 2,6% t/t △ 8,2% a/a 
+ 
+fundos e carteiras adm. 
+▽ 0,2% t/t △ 6,3% a/a 
+ 
+crédito x captações 
+Para avaliar a relação das operações de crédito x funding, descontamos do total de captações de clientes o montante 
+comprometido com depósitos compulsórios recolhidos junto ao Bacen, além do valor das disponibilidades mantidas para a 
+operação das unidades de atendimento e adicionamos os recursos oriundos de linhas nacionais e externas, que fornecem 
+o funding para suprir as demandas de crédito e financiamento. 
+ 
+(1) Considera: Depósito à Vista, Floating, Depósitos de Poupança, Depósitos Interfinanceiros, Depósito a Prazo, Debêntures (com lastro de operações 
+compromissadas) e Recursos de Letras (considera Letras de Crédito Imobiliário, Letras de Crédito do Agronegócio, Letras Financeiras e Certificados 
+de Operações Estruturadas). 
+Depósitos à Vista 45.542 45.398 51.083 0,3 (10,8) 
+Depósitos de Poupança 132.502 129.743 131.004 2,1 1,1 
+Depósitos a Prazo + Debêntures 495.333 458.442 458.247 8,0 8,1 
+Empréstimos e Repasses 78.439 66.273 48.751 18,4 60,9 
+Recursos de Emissão de Títulos 270.294 269.409 256.325 0,3 5,4 
+Depósitos Interfinanceiros 3.008 2.835 2.355 6,1 27,8 
+Dívidas Subordinadas 57.459 52.495 50.338 9,5 14,1 
+\\ Subtotal 1.082.577 1.024.594 998.104 5,7 8,5 
+Captações no Mercado Aberto 308.432 315.711 288.730 (2,3) 6,8 
+Capital de Giro Próprio / Administrados 123.032 126.268 128.256 (2,6) (4,1) 
+Carteira de Câmbio 25.122 27.169 19.028 (7,5) 32,0 
+Cobrança e Arrec. de Tributos e Assemelhados 854 7.208 940 (88,2) (9,1) 
+Provisões Técnicas de Seguros, Previdência e Capitalização 403.689 393.720 360.803 2,5 11,9 
+\\ Recursos Captados 1.943.706 1.894.669 1.795.860 2,6 8,2 
+\\ Fundos e Carteiras Administradas 1.268.106 1.270.075 1.192.511 (0,2) 6,3 
+\\ Total dos Recursos Captados e Administrados 3.211.812 3.164.744 2.988.371 1,5 7,5 
+Dez24 Set24 12 meses 
+Variação %
+TrimestreR$ milhões Dez23
+\\ Captações x Aplicações
+Depósitos à Vista + Floating 46.396 52.606 52.023 (11,8) (10,8) 
+Depósitos de Poupança 132.502 129.743 131.004 2,1 1,1 
+Depósitos Interfinanceiros 3.008 2.835 2.355 6,1 27,8 
+Depósitos a Prazo + Debêntures 495.333 458.442 458.247 8,0 8,1 
+Recursos de Letras 260.765 260.795 248.956 - 4,7 
+\\ Recursos de Clientes (1) 938.004 904.421 892.585 3,7 5,1 
+(-) Depósitos Compulsórios (127.086) (123.720) (133.722) 2,7 (5,0) 
+(-) Disponibilidade (Nacional) (17.582) (13.430) (14.862) 30,9 18,3 
+\\ Recursos de Clientes Líquidos de Compulsórios 793.335 767.271 744.001 3,4 6,6 
+Obrigações por Empréstimos e Repasses 78.439 66.273 48.751 18,4 60,9 
+Demais Obrigações (TVM no Exterior + Dívidas Subordinadas + Outros 
+Credores / Cartões) 102.841 92.130 88.289 11,6 16,5 
+\\ Total Captações (A) 974.615 925.674 881.042 5,3 10,6 
+\\ Carteira de Crédito Expandida (Exceto Avais e Fianças) (B) 861.625 829.245 771.056 3,9 11,7 
+\\ B / A 88,4% 89,6% 87,5% (1,2) p.p. 0,9 p.p.
+Dez23
+Variação %
+R$ milhões Set24Dez24 Trimestre 12 meses
+
+[p. 11]
+financiamento imob. | PF 
+ 
+ 
+Bradesco | Relatório de Análise Econômica e Financeira 11 
+ 
+ 
+carteira de crédito 
+carteira de crédito 
+expandida 
+R$ 981,7 bi 
+△ 4,0% t/t △ 11,9% a/a 
+ 
+pessoas 
+físicas R$ 414,1 bi△ 4,3% t/t △ 13,3% a/a
+ pessoas 
+jurídicas R$ 567,6 bi △ 3,8% t/t △ 10,9% a/a 
+MPME △ 11,2% t/t △ 28,0% a/a GE ▽ 0,3% t/t △ 2,5% a/a 
+destaques crédito rural | PF 
+△ 13,7% t/t △ 51,2% a/a 
+crédito pessoal 
+△ 3,4% t/t △ 24,8% a/a 
+financ. imobiliário | PF 
+△ 5,0% t/t △ 14,9% a/a 
+capital de giro 
+△ 7,9% t/t △ 13,2% a/a 
+financ. imobiliário | PJ 
+△ 8,8% t/t △ 24,9% a/a 
+financ. comércio exterior | PJ 
+▽ 1,0% t/t △ 50,7% a/a 
+ Carteira Bacen x Carteira Expandida 
+ 
+(1) Inclui Debêntures, CDCA (Certiﬁcado de Direitos Creditórios do Agronegócio), CRI (Certiﬁcados de Recebíveis Imobiliários) e FIDC (Fundo de Investimento 
+em Direitos Creditórios). 
+A Carteira de Crédito Expandida apresentou crescimento em ambos os períodos e em praticamente todas as 
+modalidades de crédito. O crescimento demonstra melhor qualidade de crédito, reﬂexo dos ajustes efetuados 
+nos modelos de originação, com destaque para as pessoas físicas e micro, pequenas e médias empresas. 
+movimentação da carteira de crédito expandida 
+ 
+Do total de R$ 99 bi de créditos liberados no 4T24, R$ 33 bi foram por meio dos canais digitais, com 
+destaque para o crédito pessoal e consignado. 
+ 
+Pessoas Físicas 403.307 388.134 360.268 3,9 11,9 
+Pessoas Jurídicas 314.773 300.302 266.973 4,8 17,9 
+\\ Total das Operações de Crédito - Bacen 718.080 688.436 627.240 4,3 14,5 
+Avais e Fianças 120.067 114.646 106.229 4,7 13,0 
+TVMs (1) 90.392 90.016 97.773 0,4 (7,5) 
+Outros 53.153 50.794 46.043 4,6 15,4 
+\\ Total da Carteira de Crédito Expandida 981.692 943.891 877.285 4,0 11,9 
+\\ Pessoas Jurídicas 567.612 547.055 511.844 3,8 10,9 
+Grandes Empresas 352.701 353.872 343.997 (0,3) 2,5 
+Micro, Pequenas e Médias Empresas 214.911 193.182 167.847 11,2 28,0 
+\\ Pessoas Físicas 414.080 396.837 365.442 4,3 13,3 
+Sem variação cambial 2,5 9,1 
+Variação %
+ 12 meses R$ milhões Dez24 Set24 TrimestreDez23
+943.891 981.692 17.243 21.729 (1.171)
+Set24 Pessoas Físicas MPME Grandes Empresas Dez24
+R$ milhões
+Representatividade 
+46% 57% (3)%
+
+[p. 12]
+Bradesco | Relatório de Análise Econômica e Financeira 12 
+ carteira de crédito 
+carteira de crédito expandida por característica de cliente, produto e moeda 
+ 
+ 
+O gráﬁco abaixo representa a proporção da carteira Bacen segregada em operações com garantia e sem 
+garantia. 
+ 
+\\ Pessoas Físicas 414.080 396.837 365.442 4,3 13,3 
+Financiamento ao Consumo 276.193 267.470 250.370 3,3 10,3 
+Crédito Consignado 97.184 96.364 91.838 0,9 5,8 
+Cartão de Crédito 75.631 71.040 71.928 6,5 5,1 
+Crédito Pessoal 66.872 64.666 53.578 3,4 24,8 
+CDC/Leasing de Veículos 36.506 35.400 33.025 3,1 10,5 
+Financiamento Imobiliário 102.713 97.797 89.399 5,0 14,9 
+Demais Produtos 35.174 31.569 25.673 11,4 37,0 
+Crédito Rural 25.286 22.245 16.726 13,7 51,2 
+Outros 9.888 9.324 8.947 6,0 10,5 
+\\ Pessoas Jurídicas 567.612 547.055 511.844 3,8 10,9 
+Capital de Giro 147.763 136.948 130.528 7,9 13,2 
+Financiamento ao Comércio Exterior 55.571 56.107 36.875 (1,0) 50,7 
+Crédito Rural 35.536 34.527 34.610 2,9 2,7 
+Financiamento Imobiliário 30.657 28.187 24.538 8,8 24,9 
+CDC/Leasing 29.055 28.560 27.331 1,7 6,3 
+Repasses BNDES/Finame 18.223 17.443 16.771 4,5 8,7 
+Avais e Fianças 119.049 113.859 105.247 4,6 13,1 
+TVMs 90.392 90.016 97.773 0,4 (7,5) 
+Outros 41.366 41.408 38.172 (0,1) 8,4 
+\\ Total da Carteira de Crédito Expandida 981.692 943.891 877.285 4,0 11,9 
+Moeda Nacional 867.409 849.516 814.517 2,1 6,5 
+Moeda Estrangeira 114.283 94.375 62.768 21,1 82,1 
+Dez24 Set24R$ milhões 12 meses Dez23
+Variação %
+Trimestre
+37,9 39,5 40,4 41,7 42,2 
+19,7 20,7 19,8 19,1 21,9 
+42,4 39,8 39,8 39,2 35,9 
+2020 2021 2022 2023 2024
+ Pessoas Físicas
+ Micro, Pequenas e Médias Empresas
+ Grandes Empresas
+Mix da Carteira Total - %
+54 54 
+48 48 49 45 45 46 46 
+52 52 51 55 55 
+ Dez24 Dez23 Dez22 Dez21 Dez20 Dez19 Dez18
+ Com Garantias Sem Garantias
+%
+
+[p. 13]
+Bradesco | Relatório de Análise Econômica e Financeira 13 
+ carteira de crédito 
+ﬁnanciamento imobiliário 
+ 
+Perﬁl da Carteira de Pessoas Físicas – Originação 4T24 
+crédito consignado 
+ 
+ 
+ 
+ market share consignado 
+O volume de crédito consignado teve um crescimento de 
+5,8% em 12 meses, com destaque para o aumento de 26% 
+na carteira originada por meio dos canais digitais (2024 vs. 
+2023). Esses canais, além de oferecer uma ótima experiência 
+aos clientes, também geram maior rentabilidade. 
+89,4 91,0 94,6 97,8 102,7 
+24,5 25,3 26,7 28,2 30,7 
+113,9 116,3 121,4 126,0 133,4 
+Dez23 Mar24 Jun Set Dez
+ Pessoas Físicas
+ Pessoas Jurídicas
+R$ bilhões
+Carteira +6% t/t
++17% a/a
+3.815 4.623 6.081 6.646 6.933 
+3.980 2.266 
+3.185 3.047 
+5.326 7.795 6.889 
+9.266 9.693 
+12.259 
+4T23 1T24 2T 3T 4T
+ Mutuário
+ Empresário
+R$ milhões
+Originação +26% t/t
++57% a/a
+8.079 8.593 12.940 14.335 15.110 
+10.892 6.523 
+9.958 8.912 11.395 18.971 
+15.116 
+22.898 23.247 
+26.505 
+4T23 1T24 2T 3T 4T
+ Mutuário
+ Empresário
+Unidades Financiadas
++14% t/t
++40% a/a
+9,6 8,9 8,3 7,7 7,6
+32,0 29,2 27,1 25,1 26,5
+58,4 61,9 64,6 67,2 65,9
+91,8 93,7 94,5 96,4 97,2 
+63,2 61,4 60,7 59,8 59,2
+Dez23 Mar24 Jun Set Dez
+ % Canais Digitais
+ % Rede de Agências
+ % Correspondentes
+ Consignado/Crédito Pessoal + Consignado
+R$ bilhões
+%
+Carteira
+44,2 43,6 43,5
+5,2 4,9 4,9
+50,6 51,5 51,6
+ Dez23 Set24 Dez24
+ Setor Público
+ Setor Privado
+ INSS
+%
+Distribuição da Carteira por Setor
+63,3% 
+R$ 455 
+Mil 
+R$ 718 
+Mil 
+ 51,7% 
+Avaliação Média 
+do Imóvel 
+Financiamento 
+Médio 
+Loan to 
+Value 
+Prazo médio: 363 Meses 
+Loan to Value 
+(Estoque) 
+92,4% 90,4% 
+13,7% 
+12,0% 
+15,6% 
+INSS Privado Público 
+14,4% 
+Total
+
+[p. 14]
+Bradesco | Relatório de Análise Econômica e Financeira 14 
+ carteira de crédito 
+ﬁnanciamento de veículos 
+ 
+ 
+distribuição da carteira de crédito expandida | por setor de atividade 
+33,3 33,4 34,3 35,7 36,9 
+27,6 28,0 28,5 29,3 29,6 
+60,9 61,5 62,8 65,0 66,5
+Dez23 Mar24 Jun Set Dez
+ Pessoas Físicas
+ Pessoas Jurídicas
+R$ bilhões
+Carteira
++2% t/t
++9% a/a
+89,3 
+1,4 
+9,3 
+ Carteira de CDC
+ Carteira de Leasing
+ Carteira de Finame
+%
+Distribuição da Carteira por Produto
+Dez24
+R$ milhões
+\\ Setor de Atividade
+ Setor Público 14.361 1,5 13.771 1,5 14.385 1,6 
+ Setor Privado 967.331 98,5 930.120 98,5 862.900 98,4 
+\\ Total 981.692 100,0 943.891 100,0 877.285 100,0 
+Pessoas Jurídicas 567.612 57,8 547.055 58,0 511.844 58,3 
+Serviços 132.997 13,5 126.697 13,4 103.844 11,8 
+Varejo 48.022 4,9 45.224 4,8 47.440 5,4 
+Transportes e Concessão 46.835 4,8 44.222 4,7 44.126 5,0 
+Atividades Imobiliárias e Construção 32.671 3,3 32.687 3,5 31.467 3,6 
+Energia Elétrica 30.482 3,1 32.385 3,4 34.313 3,9 
+Atacado 30.106 3,1 26.489 2,8 23.038 2,6 
+Alimentícia 23.756 2,4 22.036 2,3 19.487 2,2 
+Petróleo, Derivados e atividades agregadas 12.949 1,3 12.616 1,3 9.539 1,1 
+Automobilística 10.112 1,0 12.127 1,3 10.364 1,2 
+Demais Setores 199.682 20,3 192.572 20,4 188.225 21,5 
+Pessoas Físicas 414.080 42,2 396.837 42,0 365.442 41,7 
+Dez24 % Set24 % Dez23 %
+
+[p. 15]
+Bradesco | Relatório de Análise Econômica e Financeira 15 
+ carteira de crédito 
+ 
+carteira por devedor 
+Estratégia de diversiﬁcação, sem concentrações 
+relevantes. 
+ﬂuxo de vencimentos (1) 
+ 
+(1) Considera apenas operações de curso normal da Carteira Bacen. 
+ 
+ 
+movimentação da carteira expandida por rating 
+Reﬂetindo nosso processo de 
+controle do apetite a risco para 
+concessão de crédito e melhoria 
+das novas safras, 97% das novas 
+operações em 12 meses foram 
+classiﬁcadas nos ratings AA-C, 
+destacando que, atualmente, 
+cerca de 92% de nossas 
+operações estão classiﬁcadas 
+nessas faixas de risco. 
+ 
+abertura da carteira expandida por rating e porte de cliente (em %) 
+ 
+27,6 26,9 25,8 25,3 24,7
+21,5 21,0 19,9 19,6 19,1
+13,2 13,0 12,2 12,2 12,0
+8,7 8,4 7,5 7,9 7,4
+1,4 1,5 1,2 1,1 1,1
+ Dez23 Mar24 Jun Set Dez
+ 100 Maiores 50 Maiores 20 Maiores
+ 10 Maiores Maior Devedor
+%
+%
+1 a 30 dias 11,5 11,5 12,1
+31 a 60 dias 6,2 6,0 6,3
+61 a 90 dias 5,3 5,0 5,5
+91 a 180 dias 11,0 11,2 10,2
+\\ Curto Prazo 34,0 33,7 34,1
+181 a 360 dias 15,4 15,5 14,4
+Acima de 360 dias 50,6 50,8 51,5
+\\ Médio / Longo Prazo 66,0 66,3 65,9
+Dez24 Set24 Dez23
+ AA-C D E-H AA-C D E-H AA-C D E-H 
+Grandes Empresas 94,1 0,1 5,8 94,3 0,2 5,5 92,9 1,7 5,3 
+ Micro, Pequenas e Médias Empresas 91,5 1,5 7,0 90,0 1,6 8,4 86,2 2,3 11,4 
+Pessoas Físicas 90,3 2,5 7,2 89,8 2,5 7,7 87,6 2,7 9,7 
+\\ Total 91,9 1,4 6,7 91,5 1,4 7,1 89,4 2,3 8,3 
+ Característica de Cliente 
+ Dez24 Dez23 Set24 
+Rating R$ milhões % R$ milhões %
+AA - C 902.386 91,9% 59.100 97,4%
+D1 3 . 9 7 7 1 , 4 % 4 2 1 0 , 7 %
+E - H 65.329 6,7% 1.157 1,9%
+\\ Total 981.692 100,0% 60.678 100,0%
+Movimentação da Carteira de 
+Crédito Expandida por Rating entre 
+Dezembro de 2023 e 2024
+ Crédito total em 
+Dezembro de 2024 
+ Novos clientes entre
+Janeiro de 2024 e 
+Dezembro de 2024
+
+[p. 16]
+Bradesco | Relatório de Análise Econômica e Financeira 16 
+despesa com PDD Expandida 
+ 
+ 
+(1) Inclui resultado com BNDU, provisão para avais e ﬁanças e outros; e (2) Para melhor análise comparativa das linhas que compõem a despesa de PDD 
+Expandida, no 3T24 alocamos nesta linha os efeitos de reestruturações de operações do segmento de atacado, envolvendo recuperações de créditos já 
+baixadas para prejuízo e aumento de provisões para casos especíﬁcos. 
+Redução no custo de crédito (PDD/carteira) em 12 meses, devido a: 
+Melhora da qualidade das 
+safras com melhora 
+contínua da relação 
+PDD/Carteira 
+Mudança gradual do mix da 
+carteira, com prioridade 
+para linhas com margem 
+líquida atraente vs. risco 
+Eﬁciência na cobrança com 
+melhora de 24,5% vs. 2023 
+ 
+ PDD expandida / operações de crédito expandida 
+ 
+ 
+A melhora no perﬁl da carteira, principalmente do 
+massiﬁcado, contribuiu de forma signiﬁcativa com 
+a redução de R$ 9,9 bilhões nas despesas com PDD 
+expandida total, que reduziu 25% em relação ao 
+ano de 2023. Isso evidencia a melhora na 
+qualidade das novas safras e ações 
+implementadas na jornada de concessão e 
+recuperação de crédito, gerando maior eﬁciência 
+na cobrança e resultando em maiores receitas de 
+recuperação de crédito. 
+ 
+PDD massiﬁcado 
+ 
+Nossos índices de cobertura acima de 90 dias 
+permaneceram estáveis em 169% no trimestre e 
+apresentaram aumento de 4 p.p. em relação ao 
+ano anterior. 
+Ressaltamos que seguimos provisionando 
+praticamente todo NPL Creation. 
+R$ milhões 4T24 3T24 4T23 12M24 12M23 4T24 x 
+3T24 
+ 4T24 x 
+4T23 
+ 12M24 x 
+12M23 
+Despesas com PDD (8.187) (7.864) (9.156) (32.951) (38.461) 4,1 (10,6) (14,3) 
+Receitas com Recuperações de Crédito 1.487 1.566 1.413 5.814 4.671 (5,0) 5,2 24,5 
+Impairment de Ativos Financeiros (167) (234) (1.742) (125) (2.634) (28,6) (90,4) (95,3) 
+Descontos Concedidos / Outros (1) (2) (593) (595) (1.039) (2.426) (3.121) (0,3) (42,9) (22,3) 
+\\ PDD Expandida (7.460) (7.127) (10.524) (29.688) (39.545) 4,7 (29,1) (24,9) 
+Variação %
+7,3 
+10,5 
+7,8 7,3 7,1 7,5 
+4,8 
+3,5 3,2 3,0 3,0 
+ 4T23 1T24 2T 3T 4T
+ PDD Expandida (Despesa)
+ PDD Expandida (Despesa) / Operações de Crédito Expandida (Anualizado)
+%
+R$ bilhões
+PDD expandida
+8,5
+7,3 7,2 7,1 7,2
+ 4T23 1T24 2T 3T 4T
+R$ bilhões
+ +1% t/t 
+(16)% a/a 
+PDD
+
+[p. 17]
+Bradesco | Relatório de Análise Econômica e Financeira 17 
+indicadores de crédito 
+ 
+índices de inadimplência: 
+redução consistente em 
+praticamente todos os 
+segmentos desde Dez23 
+índice total 
+15 a 90 dias 
+estabilidade no t/t 
+melhora de 0,7 p.p. a/a 
+índice total 
+acima de 90 dias 
+melhora de 0,2 p.p. t/t 
+melhora de 1,1 p.p. a/a 
+Nossa inadimplência longa (acima de 90 dias) apresenta mais um trimestre de melhora em todos os segmentos, reﬂetindo 
+a qualidade das novas safras que seguem registrando baixos níveis de atraso. O indicador de 15 a 90 dias apresentou 
+estabilidade no trimestre com melhora no desempenho de nossas operações com clientes PF e um leve aumento no 
+segmento de grandes empresas causado por um cliente especíﬁco. Vale destacar o controle contínuo para o segmento de 
+MPME, com melhora de 1,5 p.p. em relação a Dez23. 
+Carteira Renegociada 
+Nossa carteira renegociada reduziu 5% em relação a Set24 e 0,5 p.p. na participação da carteira Bacen. Mantemos elevados 
+níveis de provisão para esta carteira, representando 2 vezes o total dos créditos vencidos acima de 90 dias. 
+ 
+5,2 5,5 5,3 5,1 4,9
+5,2
+4,7 4,7 4,6
+4,9
+5,1 4,9
+4,5 4,6
+4,4
+3,7
+3,0 3,1
+4,1 4,6 4,4 4,1 4,1 4,1
+3,7 3,4 3,4
+0,1
+1,4 1,3
+0,5
+1,3
+0,4 0,2 0,1 0,3
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+de 15 a 90 dias - %
+5,5
+6,3
+6,7 6,6
+5,9 5,5 5,2 5,1
+5,1
+5,3
+6,2
+7,0 7,2
+6,8
+6,4
+5,4 5,2
+4,4
+4,3
+5,1
+5,7 5,6
+5,1 4,8
+4,3 4,2 4,0
+0,1 0,2
+0,7 0,6 0,6 0,6
+0,2 0,1 0,1
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+acima de 90 dias - %
+29,1 
+34,9 34,6 33,5 31,9 30,3 
+5,3 
+4,2 4,2 4,3 4,5 4,5 
+34,4 
+39,1 38,8 37,9 36,5 34,8 
+Dez22 Dez23 Mar24 Jun Set Dez
+ Origem Carteira Ativa
+ Origem Write-off
+R$ bilhões
+evolução do saldo da carteira
+5,2 5,7 6,1 6,2 6,2 6,1 5,8 5,3 4,8
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+%
+carteira renegociada / carteira bacen
+63,3 63,3 61,6 62,0 60,2 61,8 63,1 64,3 64,7
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+%
+provisão (PDD) / carteira renegociada
+21,6 23,1 23,7 23,5 22,9 25,3 28,1 30,1 31,9
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+%
+inadimplência acima de 90 dias | carteira renegociada
+2,0x
+(5)% t/t 
+(11)% a/a 
+-% t/t 
++7% a/a 
+(5)% t/t 
+(13)% a/a 
+Pessoas Físicas Micro, Peq. E Médias Total Grandes Empresas
+
+[p. 18]
+Bradesco | Relatório de Análise Econômica e Financeira 18 
+indicadores de crédito 
+índices de cobertura e provisão 
+ 
+ 
+310 
+278 
+244 239 
+264 260 260 264 259 
+204 
+182 
+164 155 165 164 170 169 169 
+105 99 92 87 86 85 87 90 92 
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+ Cobertura Acima de 90 dias - Excluindo op. 100% provisionadas Cobertura Acima de 90 dias Cobertura Acima de 90 dias + Renegociação
+Índices de Cobertura - %
+34.269 
+40.351 
+43.511 43.710 
+38.241 37.631 
+34.144 33.500 33.783 
+28.277 32.906 36.773 38.109 
+32.597 31.546 28.507 28.639 28.638
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+ Carteira de Créditos Vencidos Acima de 60 dias
+ Carteira de Créditos Vencidos Acima de 90 dias
+Carteira em Atraso
+R$ milhões
+23.850 28.756 32.455 34.179 30.387 29.097 25.319 25.518 25.477 
+22.809 
+21.880 20.728 19.275 
+17.740 16.372 17.106 16.826 16.256 
+11.081 9.397 7.013 5.683 
+5.774 6.175 6.083 6.141 6.542 
+57.741 60.032 60.196 59.137 
+53.901 51.643 48.508 48.486 48.275 
+8,8 
+9,3 9,6 9,4 
+8,6 8,1 
+7,4 7,0 6,7 
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+ Específica
+ Genérica
+ Complementar Provisão Total - Em relação à carteira Bacen
+R$ milhões
+Composição da Provisão
+%
+Expectativa 
+de Perda 
+Perda Incorrida
+
+[p. 19]
+Bradesco | Relatório de Análise Econômica e Financeira 19 
+indicadores de crédito 
+NPL Creation | 90 Dias X Baixas 
+O NPL Creation em relação a carteira apresentou melhora de 0,1 p.p. em comparação ao 4T23 e 
+estabilidade no comparativo trimestral. Nosso nível de provisão (PDD bruta) sobre os novos 
+inadimplentes apresentou aumento de 1 p.p. em relação ao 3T24. Provisionamos praticamente todo o 
+NPL Creation. 
+ 
+ 
+112 55 127 59 9 
+2.895 2.856 2.424 2.456 1.947 
+5.059 5.732 6.210 5.561 6.436 
+8.066 8.643 8.760 8.076 8.392 
+1,3% 1,4% 1,3% 1,2% 1,2%
+ 4T23 1T24 2T 3T 4T
+ Grandes Empresas
+ Micro, Pequenas e Médias
+ Pessoas Físicas
+R$ milhões
+NPL Creation
+3.245 
+589 1.671 188 13 
+3.541 
+3.317 
+3.422 
+2.469 2.530 
+7.305 
+6.836 
+6.706 
+5.288 5.849 
+14.092 
+10.743 
+11.799 
+7.944 8.393 
+ 4T23 1T24 2T 3T 4T
+ Grandes Empresas
+ Micro, Pequenas e Médias
+ Pessoas Físicas
+baixas (write-off)
+R$ milhões
+114%
+98% 97% 97% 98%
+ Despesa de PDD Bruta / NPL Creation 90 dias
+(1)
+
+[p. 20]
+Bradesco | Relatório de Análise Econômica e Financeira 20 
+receitas de prestação de serviços 
+Parte do desempenho das receitas de prestação de serviços está inﬂuenciado pelo aumento da participação na Cielo, 
+desconsiderando esse efeito, o total de receitas teriam variado 1,8% vs. 3T24, 7,9% vs. 4T23, e 5,2% vs. 12M23. 
+ rendas de cartão 
+Rendas de cartões ultrapassou a marca de R$ 4,4 bilhões de 
+receitas no trimestre, equivalente a 43% do total das receitas de 
+prestação de serviços: 
+- Volume transacionado com cartões de crédito superou 
+R$ 88 bilhões, com crescimento de 11% a/a e 5% t/t. 
+Impulsionado no trimestre pela black friday e pelas festas de ﬁm 
+de ano; e 
+- Mais de 60% do faturamento total advém de clientes de alta 
+renda, com crescimento anual de 20%, reforçando a estratégia 
+em clientes de menor risco. 
+volume transacionado | cartões de crédito 
+ conta corrente 
+O desempenho dessa linha reﬂete nosso compromisso 
+contínuo em aprimorar os serviços oferecidos, diversiﬁcar 
+produtos com base nas necessidades de nossos clientes e 
+fortalecer nosso posicionamento no mercado competitivo. 
+As variações trimestrais reﬂetem nossas maiores receitas 
+originárias de clientes PJ, com destaque para transferências 
+(Pix). 
+ 
+clientes correntistas 
+ operações de crédito 
+Aumento nas receitas em todos os períodos comparativos, decorrente da maior produção de capital de giro e comissões 
+associadas às garantias prestadas (avais e ﬁanças). 
+ administração de fundos 
+O crescimento da receita da Bradesco Asset ao longo de 2024 reﬂete 
+o excelente desempenho da captação líquida em um mercado 
+desaﬁador, reaﬁrmando o compromisso da gestora com a entrega de 
+resultados consistentes e a oferta de produtos adequados às 
+necessidades de seus clientes. 
+Esse desempenho foi amplamente reconhecido pelo mercado, com a 
+Bradesco Asset tornando-se a primeira gestora a conquistar os três 
+principais rankings da FGV: Melhor Gestora do Brasil, Melhor Banco 
+para Investir em Fundos e Melhor Gestora de Previdência Privada. 
+A gestora encerrou o ano com mais um reconhecimento de destaque, 
+recebendo prêmios pelo Guia de Fundos Veja 2024 nas categorias 
+Fundos de Renda Fixa e Renda Fixa com Crédito Privado, 
+consolidando sua posição de liderança no mercado. 
+ 
+ 
+saldo de fundos de investimentos e carteiras 
+administradas 
+R$ milhões 4T24 3T24 4T23 12M24 12M23 4T24 x 
+3T24 
+ 4T24 x 
+4T23 
+ 12M24 x 
+12M23 
+Rendas de Cartão 4.419 4.061 3.802 15.918 14.754 8,8 16,2 7,9 
+Conta Corrente 1.755 1.735 1.659 6.882 7.028 1,2 5,8 (2,1) 
+Administração de Fundos 895 960 820 3.533 3.222 (6,8) 9,1 9,7 
+Operações de Crédito 796 749 594 2.839 2.211 6,3 34,0 28,4 
+Administração de Consórcios 707 680 607 2.673 2.290 4,0 16,5 16,7 
+Cobrança e Arrecadações 458 479 511 1.931 2.148 (4,4) (10,4) (10,1) 
+Mercado de Capitais / Assessoria Financeira 508 481 305 1.669 1.222 5,6 66,6 36,6 
+Serviços de Custódia e Corretagens 370 374 344 1.430 1.375 (1,1) 7,6 4,0 
+Outras 354 385 386 1.469 1.392 (8,1) (8,3) 5,5 
+\\ Total 10.262 9.904 9.028 38.344 35.642 3,6 13,7 7,6 
+\\ Dias Úteis 63 66 61 253 249 (3) 2 4 
+ Variação % 
+79.601 80.522 81.147 
+83.789 
+88.039 
+ 4T23 1T24 2T 3T 4T
+R$ milhões
+38,1 38,3 38,6 38,5 38,2 
+ 4T23 1T24 2T 3T 4T
+Em milhões
+1.193 1.214 1.230 1.270 1.268
+ Dez23 Mar24 Jun Set Dez
+R$ bilhões
+market share 16,7%
+
+[p. 21]
+Bradesco | Relatório de Análise Econômica e Financeira 21 
+receitas de prestação de serviços 
+ consórcios 
+Crescimento das receitas de serviços em todos os períodos, 
+impulsionado pelo aumento do ticket médio. 
+ 
+ destaques de 2024 
+Mais de 237 mil cotas contempladas (R$ 16,3 bilhões de 
+concessões em cartas de crédito); 
+Consórcio Agro Bradesco apresentou faturamento superior 
+a R$ 1,7 bilhão, crescimento de 29% vs. 2023; e 
+As vendas digitais cresceram 27% em faturamento vs. 2023. 
+ 
+ quantidade de cotas ativas de consórcios 
+ 
+ cobrança e arrecadação 
+As receitas totalizaram R$ 1,9 bilhão no ano, numa performance resiliente frente ao cenário de crescente digitalização dos 
+meios de pagamentos e ampliação dos competidores do mercado. 
+ 
+ mercado de capitais / assessoria ﬁnanceira 
+Bom desempenho no trimestre, reﬂetindo esforços na captura de oportunidades de negócios em todos os segmentos do 
+mercado de capitais e em operações de fusões e aquisições. Assessoramos 134 operações no 4T24, totalizando cerca de 
+R$ 119 bilhões em volume de transações. Abaixo os principais destaques por segmento: 
+ renda ﬁxa 
+Assessoria e estruturação de 
+124 transações com volume 
+de R$ 104,9 bilhões. 
+ 
+renda variável 
+Coordenação e distribuição 
+de 2 transações com 
+volume de R$ 3,4 bilhões. 
+ fusões e aquisições 
+Assessoria de 8 transações 
+com volume de R$ 10,8 
+bilhões. 
+ 
+ custódia 
+Marcamos presença como um dos principais prestadores de serviços para o mercado de capitais, tanto local quanto 
+internacional, para os serviços de administração, custódia e controladoria para fundos, clubes e carteiras de 
+investimentos, Escrow Account, escrituração de ativos, Depositary Receipt, NAV (Net Asset Value) Calculator e RTA 
+(Register Transfer Agent) para fundos Offshore, banco liquidante e mandatário para emissões de títulos e valores 
+mobiliários. No cenário internacional, fomos premiados pela segunda vez consecutiva como melhor banco sub custodiante 
+na América Latina para investidores não residentes pela revista Global Finance. 
+2.337 2.351 2.398 2.491 2.461 
+ 4T23 1T24 2T 3T 4T
+R$ bilhões
+market share(1) Total 19,6% | Auto 23,2% | Imóveis 12,4% | Pesados 16,7% 
+(1) Considera os produtos em que o Bradesco atua. 
+243 248 252 253 267 
+149 149 147 146 144 
+1.139 1.134 1.121 1.125 1.135 
+1.531 1.531 1.520 1.523 1.546
+ 4T23 1T24 2T 3T 4T
+ Imóveis
+ Pesados
+ Automóveis
+Em milhares
+
+[p. 22]
+Bradesco | Relatório de Análise Econômica e Financeira 22 
+despesas operacionais 
+O desempenho das nossas despesas operacionais reﬂete nossa estratégia de ajustar o custo em servir, que já mostra resultados positivos na contenção 
+e direcionamento dos gastos. Em 2024, aceleramos as mudanças na rede física e mantivemos um rigoroso controle de custos, sem deixar de investir, 
+especialmente em tecnologia, desenvolvimento, infraestrutura e fortalecimento da equipe com mais contratações nas áreas de tecnologia, crédito e 
+investimentos, além dos efeitos da convenção coletiva e maiores despesas relacionadas a participações nos resultados. Vale destacar que as 
+despesas operacionais foram inﬂuenciadas pelo aumento da nossa participação na Cielo, desconsiderando este efeito, a variação seria de 
+8,8% vs. 3T24, 7,5% vs. 4T23 e 8,1% vs. 12M23, encerrando o ano dentro de nossas estimativas para o guidance anual. 
+ (1) Contempla Manutenção e Conservação de Bens e Aluguéis; e (2) Inclui Água, Energia e Gás, Viagens , Materiais e Segurança e Vigilância. 
+ despesas administrativas 
+Como resultado da revisão do footprint e rigorosa gestão de custos, as 
+despesas administrativas registraram crescimento de 1,7% no comparativo 
+anual, abaixo dos índices de inﬂação do mesmo período, destacando 
+menores gastos estruturais (instalações, transportes, aluguéis e 
+manutenções). No trimestre, o aumento reﬂete os gastos sazonais com 
+campanhas institucionais de ﬁnal de ano e maiores gastos com serviços de 
+terceiros, principalmente em consultorias direcionadas ao projeto de 
+transformação e despesas com processamento de dados (principalmente 
+com armazenamento em nuvem). As variações das despesas com 
+depreciação e amortização reﬂetem o maior nível de investimentos nos 
+períodos. 
+Estamos comprometidos com o equilíbrio entre a eﬁciência operacional e a 
+excelência no atendimento ao cliente, visando proporcionar a melhor experiência 
+e impulsionar a criação de negócios de forma ágil e assertiva. 
+ despesas de pessoal 
+As variações em todos os períodos comparativos 
+reﬂetem o reforço na quantidade de funcionários, 
+especialmente nas áreas de tecnologia, dados e 
+inovação, especialistas de investimento e unidade de 
+crédito. O aumento nas despesas de proventos e 
+benefícios teve impacto do acordo coletivo de 
+setembro de 2024, que incluiu um reajuste de 4,64% 
+(4,58% em setembro de 2023) e crescimento nas 
+despesas com participação nos resultados, pela 
+melhora dos resultados e da rentabilidade. 
+outras despesas operacionais 
+líquidas de receitas 
+As variações nos períodos reﬂetem as movimentações 
+das contingências cíveis, trabalhistas e ﬁscais, e as 
+despesas com comercialização de cartões, 
+impulsionadas pela maior atividade do produto, 
+principalmente no alta renda e maiores despesas 
+operacionais das atividades de seguros. 
+ 
+R$ milhões
+\\ Despesas de Pessoal (6.773) (6.504) (6.238) (25.514) (23.879) 4,1 8,6 6,8 
+Proventos, Encargos Sociais, Benefícios e Treinamentos (5.672) (5.629) (5.407) (22.069) (20.660) 0,8 4,9 6,8 
+Participação nos Resultados (987) (772) (717) (3.024) (2.730) 27,8 37,7 10,8 
+Custo de Recisões (114) (103) (114) (421) (489) 10,7 - (13,9) 
+ \\ Despesas Administrativas Totais (6.315) (5.728) (5.972) (23.255) (22.600) 10,2 5,7 2,9 
+Despesas Administrativas (5.130) (4.576) (4.884) (18.681) (18.374) 12,1 5,0 1,7 
+Serviços de Terceiros (1.636) (1.453) (1.518) (5.817) (5.616) 12,6 7,8 3,6 
+Processamento de Dados e Comunicação (1.119) (1.001) (980) (4.058) (3.953) 11,8 14,2 2,7 
+Instalações (1) (648) (648) (696) (2.624) (2.690) - (6,9) (2,5) 
+Propaganda e Publicidade (552) (360) (542) (1.630) (1.468) 53,3 1,8 11,0 
+Serviços do Sistema Financeiro (342) (330) (327) (1.282) (1.363) 3,6 4,6 (5,9) 
+Transportes (175) (195) (201) (758) (794) (10,3) (12,9) (4,5) 
+Outras (2) (658) (589) (620) (2.512) (2.490) 11,7 6,1 0,9 
+Depreciação e Amortização (1.185) (1.152) (1.088) (4.574) (4.226) 2,9 8,9 8,2 
+ \\ Outras Despesas Operacionais Líquidas de Receitas (3.330) (2.818) (2.725) (10.525) (7.751) 18,2 22,2 35,8 
+Contingências Cíveis, Trabalhistas e Fiscais (1.157) (1.207) (1.113) (4.477) (2.168) (4,1) 4,0 106,5 
+Comercialização de Cartões (1.024) (800) (616) (2.957) (2.146) 28,0 66,2 37,8 
+Sinistros (255) (193) (182) (742) (633) 32,1 40,1 17,3 
+Outros (894) (618) (814) (2.349) (2.805) 44,7 9,8 (16,2) 
+ \\ Total das Despesas Operacionais (16.418) (15.050) (14.935) (59.294) (54.230) 9,1 9,9 9,3 
+ 12M24 x 
+12M23 
+ 4T24 x 
+4T23 12M24 12M23 
+ Variação % 
+ 4T24 3T24 4T23 4T24 x 
+3T24 
+//
+ 
+Varejo + Prime + Principal: 1.996 Corporate: 83 
+Plataformas Digitais: 76 Empresas e Negócios: 150 
+2.864 2.695 2.704 2.510 2.355 2.305
+897 820 802 809 768 728
+4.169 3.873 3.667 3.443 3.224 2.970
+7.930 7.388 7.173 6.762 6.347 6.003
+Dez22 Dez23 Mar24 Jun Set Dez
+ Agências
+ Unidades de Negócios
+ Postos de Atendimento
+
+[p. 23]
+Bradesco | Relatório de Análise Econômica e Financeira 23 
+ 
+dinâmica dos negócios de seguros 
+ 
+4T24 
+receitas de prêmios, 
+contribuições de previdência e 
+receitas de capitalização 
+R$ 31,5 bi 
+△ 0,1% t/t 
+lucro líquido 
+ R$ 2,5 bi 
+ △ 6,6% t/t 
+ROAE 
+25,1% 
+ △ 1,4 p.p. t/t 
+ 
+O Grupo Bradesco Seguros registrou lucro líquido anual de R$ 9,1 bilhões, o maior da série histórica, com ROAE de 22,4%. 
+As receitas de prêmios, contribuições de previdência e receitas de capitalização atingiram R$ 121,1 bilhões, representando 
+13,6% de crescimento perante 2023. 
+Além da signiﬁcativa evolução das receitas, a performance do índice de eﬁciência administrativa, que atingiu o patamar 
+de 3,6%, e a redução do índice de sinistralidade em 4 p.p. contribuíram para o avanço de 7,5% do resultado das 
+operações de seguros, que encerrou o ano na faixa superior do guidance. 
+Em indenizações e benefícios, o Grupo Segurador retornou à sociedade R$ 56,6 bilhões, representando aumento de 4,9% 
+em relação a 2023. 
+O foco permanente da companhia em clientes e corretores, entregando experiências cada vez mais ﬂuidas e resolutivas a 
+partir de investimentos estratégicos em tecnologia, inteligência em dados e design, se reﬂetiu em números. Como apoio 
+aos corretores, por exemplo, vale destacar o incremento da geração de leads digitais que se converteram em mais de 
+R$ 800 milhões em vendas, alta de 32% frente a 2023. 
+Com relação aos segmentos de negócios, em Seguro de Pessoas, a Bradesco Vida e Previdência evoluiu as coberturas e 
+assistências na família de produtos individuais, além de incluir a opção de vigência vitalícia. Já a grade de soluções para 
+PMEs ﬁcou ainda mais completa, com o lançamento do seguro Empresarial Flexível MEI e a ampliação de capitais e 
+coberturas do Empresarial Flexível Pessoa Chave. Cabe citar, ainda, o crescimento de 25% nas emissões do Seguro 
+Prestamista no 4T24, em comparação ao 4T23. 
+Em Previdência Privada, a Bradesco Vida e Previdência encerrou o ano com captação líquida expressiva, de 
+aproximadamente R$ 11 bilhões, crescimento de mais de 50% frente a 2023. No segmento corporativo, a Companhia 
+desenvolveu novas soluções para PMEs e conquistou planos estruturados de empresas multinacionais de grande porte. 
+A Bradesco Saúde ampliou o acesso de seus bene ﬁciários aos cuidados com a saúde mental disponibilizando, via app e 
+site, a plataforma Psicologia Viva, que oferece sessões de terapia por videochamada. A empresa também expandiu sua 
+rede referenciada na região Centro-Oeste, reforçando o atendimento em municípios relevantes para o agronegócio, e 
+intensiﬁcou o trabalho de fortalecimento da rede na região Nordeste, com foco em qualiﬁcação e ampliação. 
+A Bradesco Auto/RE passou a oferecer a franquia super-reduzida e ampliou para 365 dias a cobertura de valor de 
+indenização de veículos 0 Km. Além disso, ﬁrmou com a Livelo parceria que possibilita a utilização de pontos na 
+contratação total ou parcial do seguro, e anunciou a criação do Bradesco Seguro Moto para atender às necessidades do 
+segmento. 
+Em Ramos Elementares, a Bradesco Auto/RE lançou planos pré-moldados e de simples contratação para os segmentos 
+Empresarial PME e MEI. Também criou um produto pré-formatado para correntistas Bradesco voltado à proteção de 
+equipamentos agrícolas, segmento que cresceu 13,3% no ano. 
+A Bradesco Capitalização manteve a liderança do setor, destacando-se o crescimento anual de 26% no faturamento 
+pelos canais digitais. 
+A Atlântica Hospitais segue seu plano de investir no segmento e ﬁrmar parcerias com operadores especialistas na oferta 
+de novas unidades e tecnologia hospitalar, ampliando o acesso ao ecossistema de saúde. A empresa concluiu a aquisição 
+de participação de 20% do Grupo Santa, rede de hospitais líder na região Centro-Oeste, e criou a rede de hospitais 
+Atlântica D’Or, inaugurando as unidades de Guarulhos (SP), Alphaville (SP) e Macaé (RJ), com oferta de 661 leitos, dos 
+quais 528 já estão disponíveis. 
+A empresa também lançou, no 4T24, a marca Croma Oncologia, fruto de joint venture com a Beneﬁcência Portuguesa e o 
+Grupo Fleury, cujo propósito é integrar a jornada do paciente em uma rede de saúde mais completa e acolhedora no 
+tratamento do câncer.
+
+[p. 24]
+Bradesco | Relatório de Análise Econômica e Financeira 24 
+demonstração do resultado 
+de seguros 
+ 
+(1) Em Dez24, o Patrimônio Líquido das empresas reguladas (Seguros, Previdência e Capitalização) totalizou R$ 21.375 milhões. 
+Obs.: O Patrimônio Líquido Ajustado (PLA) em Nov24 foi de R$ 16,5 bilhões e o capital mínimo requerido (CMR) foi de R$ 13,6 bilhões. 
+resultado das operações de seguros, previdência e capitalização +7,5% vs. 12M23 
+Lucro Líquido e ROAE 
+ 
+Em 2024, o bom desempenho do resultado das operações de 
+Seguros, Previdência e Capitalização comparado ao mesmo 
+período de 2023, reflete o aumento das receitas de prêmios, 
+contribuições de previdência e receitas de capitalização, que 
+atingiram R$ 121 bilhões e a melhora do índice de sinistralidade. 
+No 12M24, as receitas de prêmios, contribuições de previdência 
+e receitas de capitalização dos canais digitais atingiu R$ 5,9 
+bilhões, alcançando 4,5 milhões de produtos vendidos pelo 
+digital, com crescimento de 38,8% na quantidade de produtos. 
+ 
+Desempenho 
+4T24 x 4T23 Faturamento Índice 
+Sinistralidade 
+Índice 
+Comercialização 
+Resultado 
+Financeiro 
+Vida e Previdência 
+Saúde 
+Capitalização 
+Ramos Elementares 
+e Outros 
+ 
+\\ Demonstração do Resultado
+Prêmios Ganhos de Seguros, Contribuição de Prev. e Receitas de Capitalização 16.972 18.054 16.281 68.009 64.098 (6,0) 4,2 6,1 
+Sinistros Retidos (10.800) (12.002) (11.549) (45.950) (45.269) (10,0) (6,5) 1,5 
+Sorteios e Resgates de Títulos e Capitalização (1.592) (1.725) (1.378) (6.180) (5.434) (7,7) 15,5 13,7 
+Despesas de Comercialização (1.241) (1.061) (814) (4.331) (3.561) 17,0 52,5 21,6 
+Resultado Financeiro da Operação 2.192 1.783 2.204 7.673 8.045 22,9 (0,6) (4,6) 
+\\ Resultado das Operações de Seguros, Previdência e Capitalização 5.531 5.048 4.745 19.220 17.879 9,6 16,6 7,5 
+Receitas de Prestação de Serviços 486 504 442 1.923 1.765 (3,6) 9,9 8,9 
+Despesas de Pessoal (605) (574) (556) (2.270) (2.095) 5,4 8,9 8,4 
+Outras Despesas Administrativas (492) (512) (555) (2.069) (2.000) (3,9) (11,3) 3,4 
+Outras (768) (668) (220) (1.844) (1.276) 15,0 - 44,5 
+\\ Resultado Operacional 4.152 3.799 3.856 14.961 14.273 9,3 7,7 4,8 
+Resultado Não Operacional / IR/CS / Participação Minoritária (1.618) (1.423) (1.370) (5.905) (5.290) 13,7 18,1 11,6 
+\\ Lucro Líquido Recorrente 2.534 2.376 2.486 9.056 8.983 6,6 1,9 0,8 
+Vida e Previdência 1.288 1.274 1.412 5.083 5.292 1,1 (8,8) (4,0) 
+Saúde 621 367 307 1.643 922 69,2 - 78,2 
+Capitalização 178 189 186 720 700 (5,8) (4,5) 2,9 
+Ramos Elementares e Outros 447 546 580 1.610 2.068 (18,1) (23,0) (22,1) 
+\\ Dados Patrimoniais Selecionados
+Ativos Totais 454.879 448.900 410.665 454.879 410.665 1,3 10,8 10,8 
+Títulos e Valores Mobiliários 419.489 416.049 381.323 419.489 381.323 0,8 10,0 10,0 
+Provisões Técnicas 403.689 393.720 360.803 403.689 360.803 2,5 11,9 11,9 
+Patrimônio Líquido (1) 37.711 36.905 40.418 37.711 40.418 2,2 (6,7) (6,7) 
+Variação %
+ 12M24 x 
+12M23 12M24 12M23 4T24 x 
+3T24 
+ 4T24 x 
+4T23 R$ milhões 4T24 3T24 4T23
+186 180 173 189 178 
+307 320 335 367 621 
+580 308 310 
+546 
+447 
+1.412 
+1.142 1.379 
+1.274 
+1.288 
+2.486
+1.950
+2.197
+2.376
+2.534
+24,8 
+19,8 22,1 23,7 25,1 
+ 4T23 1T24 2T 3T 4T
+ Vida e Previdência
+ Ramos Elementares e Outros
+ Saúde
+ Capitalização
+ ROAE - Trimestral
+R$ milhões
+%
+
+[p. 25]
+Bradesco | Relatório de Análise Econômica e Financeira 25 
+receitas de prêmios, contribuições de previdência e receitas de 
+capitalização e resultado operacional de seguros 
+ 
+faturamento e índice de eﬁciência administrativa 
+ 
+sinistros retidos 
+ 
+resultado das operações de seguros, previdência e capitalização
+ 
+A boa performance das receitas de prêmios, contribuições de previdência e receitas de capitalização, a boa performance do 
+resultado ﬁnanceiro e a melhora no índice de sinistralidade, contribuíram para a evolução do resultado das operações no 
+trimestre. 
+1.488 1.574 1.451 1.656 1.574 1.582 1.689 1.953 1.806 
+9.527 9.949 10.222 10.585 10.986 11.103 11.300 11.905 12.069 
+2.312 2.135 2.410 2.501 2.286 2.097 2.410 2.605 2.528 
+11.168 11.338 11.380 13.422 13.153 13.169 14.801 15.000 15.076 
+24.495 24.997 25.463 28.165 27.999 27.951 30.200 31.463 31.479
+3,6 3,7 4,1 3,7 3,8 3,7 3,6 3,5 3,5 
+ 4T22 1T23 2T 3T 4T 1T24 2T 3T 4T
+ Vida/AP/VGBL/PGBL/ Tradicionais
+ Auto/RE + DPVAT
+ Saúde Capitalização Índice de Eficiência Administrativa
+R$ milhões
+%
+39.417 
+11.076 
+22.166 
+33.721 
+45.269 
+11.626 
+23.148 
+35.150 
+45.950 
+80,2 82,1 81,1 80,9 80,3 78,4 78,5 77,7 76,3 
+ 12M22 3M23 6M23 9M23 12M23 3M24 6M24 9M24 12M24
+R$ milhões 
+ Sinistro Retido Sinistralidade
+%
+2.059 1.646 
+2.767 2.880 2.541 2.187 2.756 3.265 3.339 
+2.241 
+2.023 
+2.074 1.744 2.204 
+1.810 
+1.888 
+1.783 2.192 
+4.300 
+3.669 
+4.841 4.624 4.745 
+3.997 
+4.644 5.048 
+5.531 
+ 4T22 1T23 2T 3T 4T 1T24 2T 3T 4T
+ Resultado Operacional
+ Resultado Financeiro
+R$ milhões
+
+[p. 26]
+Bradesco | Relatório de Análise Econômica e Financeira 26 
+provisões técnicas e indicadores da 
+atividade de seguros 
+provisões técnicas 
+Em dezembro de 2024 as provisões técnicas totalizaram R$ 403,7 bilhões, aumento de 11,9% em 12 meses e 2,5% no 
+trimestre, com maiores provisões nos ramos de “Vida e Previdência” e “Saúde”. 
+ 
+ 
+índices de desempenho – combinado / sinistralidade / comercialização 
+ 
+(1) Exclui as provisões adicionais. 
+ 
+ 
+324.024 332.905 340.542 349.569 360.803 372.673 382.390 393.720 403.689
+292.954 300.734 308.090 316.949 327.498 338.282 346.713 356.470 365.532 
+15.599 16.572 16.609 16.570 17.174 
+18.354 19.310 20.532 21.023 
+9.134 9.163 9.154 9.121 9.200 9.232 9.343 9.520 9.708 
+6.336 6.435 6.689 6.930 6.931 6.805 7.024 7.198 7.426
+ Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez
+ Provisões Totais Previdência e Vida / VGBL Saúde Capitalização Auto/RE
+R$ milhões
+62,8 59,5 63,3 62,4 58,5 54,8 55,8 
+45,9 43,8 
+103,5 104,5 101,3 103,0 99,9 100,2 100,3 99,7 96,0 
+91,1 95,4 93,5 90,1 90,3 95,1 95,9 
+85,0 89,5 
+91,8 93,0 91,2 91,3 89,4 89,1 89,7 86,6 82,8 
+ 4T22 1T23 2T 3T 4T 1T24 2T 3T 4T
+ Vida Saúde Auto/RE Total
+%
+Índice Combinado
+(1)
+53,2 55,3 60,6 57,1 57,7 
+42,1 38,9 36,9 
+29,1 26,4 
+33,9 35,0 33,5 20,7 19,1 
+89,8 89,7 89,6 89,3 85,2
+78,5 78,4 78,6 76,2 72,2 
+ 4T23 1T24 2T 3T 4T
+ Auto/RCF Vida/AP
+ Ramos Elementares Saúde
+ Total
+%
+Índice de Sinistralidade
+15,1 
+15,9 16,1 16,1 16,8 16,2 
+14,8 15,6 15,5 15,9 
+19,1 19,3 19,3 19,1 18,9 
+3,6 3,8 3,8 3,6 
+4,1 
+6,6 6,7 6,8 6,7
+7,3
+ 4T23 1T24 2T 3T 4T
+ Auto/RCF Vida/AP
+ Ramos Elementares Saúde
+ Total
+%
+Índice de Comercialização
+
+[p. 27]
+Bradesco | Relatório de Análise Econômica e Financeira 27 
+seguros | demais informações 
+quantidade de contratos/clientes - bradesco vida e previdência 
+ 
+quantidade de segurados bradesco saúde, mediservice e bradesco saúde 
+operadora de planos 
+ 
+quantidade de segurados auto/ramos elementares 
+ 
+quantidade de clientes capitalização 
+ 
+ 
+25.268 24.660 24.909 24.773 25.349 
+2.996 3.031 3.066 3.094 3.164 
+28.264 27.691 27.975 27.867 28.513
+ Dez23 Mar24 Jun Set Dez
+Em milhares 
+ Contratos de Vida, Acidentes Pessoais e Perda de Renda
+ Propostas de Previdência e VGBL
+3.748 3.648 3.650 3.736 3.679 
+108 107 106 105 104 
+3.856 3.755 3.756 3.841 3.783 
+ Dez23 Mar24 Jun Set Dez
+Em milhares 
+ Saúde Empresarial
+ Saúde Individual
+1.485 1.449 1.443 1.472 1.539 
+1.546 1.523 1.582 1.639 1.674 
+3.031 2.972 3.025 3.111 3.213 
+ Dez23 Mar24 Jun Set Dez
+Em milhares 
+ Auto/RCF
+ RE
+3.133 3.179 3.201 3.207 3.171 
+ Dez23 Mar24 Jun Set Dez
+Em milhares
+
+[p. 28]
+Bradesco | Relatório de Análise Econômica e Financeira 28 
+' 
+basileia 
+Índice Total 
+14,8% 
+Índice de Nível I 
+12,4% 
+Índice de Capital Principal 
+10,5% 
+ 
+Nossos índices permaneceram acima dos limites regulatórios, devido à capacidade de geração de capital (lucro líquido) e 
+ao aumento dos ajustes prudenciais, que absorveram o crescimento dos ativos ponderados pelo risco (RWA), a 
+remuneração aos acionistas e os ajustes de avaliação patrimonial. Apresentamos também o índice em 01.01.2025, já 
+considerando os efeitos da Resolução nº 4.966 e da nova abordagem do risco operacional. 
+ 
+ 
+(1) Referem-se aos limites mínimos requeridos, somados às parcelas de adicional de capital contracíclico e sistêmico. Cabe destacar que, conforme a Resolução 
+nº 4.958/21, desde Abr22 os capitais mínimos são: 9,5% para o capital nível I e 8,0% para o capital principal; e (2) Em conexão com os efeitos já reconhecidos no 
+Patrimônio Líquido/Demonstrações Financeiras em 01.01.2025 referente a adoção inicial da resolução CMN n° 4.966/21, demonstramos os efeitos da implementação 
+nos índices de capital (inclui também efeito de adoção inicial da resolução CMN n° 4.975/21). Além disso, demonstramos, também, os efeitos da nova abordagem 
+para risco operacional, de acordo com a resolução Bacen n° 356/23. 
+12,7 12,4 12,8 0,5 
+(0,3) (0,5) (0,4)
+0,4 0,6 
+(0,2)
+30.09.24 Lucro
+Liquido
+Remuneração
+ aos Acionistas
+MTM Ativos
+Ponderados /
+Ajustes
+Prudenciais
+Emissão
+Dívida NI
+31.12.24 Resolução
+nº 4.966
+Nova
+Abordagem
+Risco
+Operacional
+01.01.25
+11,2 
+Capital Principal Capital Complementar
+%
+Mutação do Índice de Capital Nível I no Trimestre
+Limites a partir 
+de Abr22 (1)
+9,50% Nível 1
+8,00% Capital 
+Principal
+10,9 
+1,5 1,9 1,9 
+10,5 
+14,8 15,1 15,5 16,0 15,8 15,4 15,2 15,1 14,8 15,2
+2,4 2,5 2,7 2,5 2,6 2,6 2,6 2,4 2,4 2,4
+11,0 11,1 11,4 11,8 11,7 11,2 11,1 11,2 10,5 10,9
+1,5 1,5 1,5 1,6 1,6 1,5 1,5 1,5 1,9 1,9
+Dez22 Mar23 Jun Set Dez Mar24 Jun Set Dez 01.01.25
+ Índice Total
+ Capital Principal
+ Capital Complementar
+12,6 12,9 13,4 13,2 12,7 12,6 12,7 12,4 12,8
+%
+Nível I
+Nível II
+12,4
+(2) 
+(2)
+
+[p. 29]
+‘’ 
+ 
+ 
+Bradesco | Relatório de Análise Econômica e Financeira 29 
+ 
+ 
+ 
+guidance 
+As tabelas a seguir demonstra m o resultado alcançado em 2024 e nossas estimativas para o ano de 2025, que já 
+consideram as variações implícitas dos impactos da adoção das novas práticas contábeis estabelecidas pela Resolução 
+CMN nº 4.966/21. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(1) Despesas administrativas e de pessoal crescem em linha com a inflação. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Indicador anual 
+Realizado sem o 
+aumento da 
+part. na Cielo
+Realizado
+Carteira de Crédito Expandida 7% a 11% 11,9% 11,9%
+Margem Financeira Total 3% a 7% (2,3%) (2,3%)
+Receitas de Prestação de Serviços 2% a 6% 5,2% 7,6%
+Despesas Operacionais
+(Pessoal + Administrativas + Outras) 5% a 9% (1) 8,1% 9,3%
+Resultado das Operações de 
+Seguros, Previdência e Capitalização 4% a 8% 7,5% 7,5%
+PDD Expandida - R$ bilhões R$ 35 a R$ 39 R$ 29,7 R$ 29,7
+2024
+2025
+Indicador 
+anual
+Carteira de Crédito Expandida 4% a 8%
+Margem Financeira Líquida
+(Margem Financeira Total – PDD Expandida) R$ 37 bi a R$ 41 bi
+Receitas de Prestação de Serviços 4% a 8%
+Despesas Operacionais
+(Pessoal + Administrativas + Outras) 5% a 9%
+Resultado das Operações de 
+Seguros, Previdência e Capitalização 6% a 10%
+
+[p. 30]
+Bradesco | Relatório de Análise Econômica e Financeira 30 
+principais mudanças em 2025 nas demonstrações 
+gerenciais e informações no relatório de análise 
+econômica e financeira pela adoção das Resoluções 
+CMN n° 4.966 e 4.975 
+A partir de janeiro de 2025, adotamos em nossas Demonstrações Financeiras as novas práticas contábeis estabelecidas 
+pelas Resoluções CMN n° 4.966 e 4.975 . Esta s resoluções trouxeram mudanças significativas na classificação, 
+reconhecimento de instrumentos financeiros e novos modelos de mensuração de perdas para os instrumentos 
+financeiros, além da forma de reconhecimento de arrendamento mercantil. 
+Destacamos os principais impactos normativos e que serão apresentados no relatório gerencial e de análise 
+econômica e financeira a partir da divulgação do 1T25. 
+1 – Classificação da carteira de crédito ampliada em estágios e provisão para perdas: Para todos os instrumentos 
+financeiros, incluindo garantias prestadas e limites de crédito, é necessário realizar a classificação da carteira e 
+mensuração de provisão para perdas baseada em estágios, sendo: 
+Estágio 1: Operações em dia ou com atraso de até 30 dias ou classificadas como baixo risco. A provisão para perdas 
+é calculada com base na probabilidade da operação se tornar “problemática” nos próximos 12 meses. 
+Estágio 2: Operações com atraso entre 31 e 90 dias ou cuja classificação migrou de baixo risco para médio ou alto 
+risco. A mensuração de provisão para perdas é realizada com base na probabilidade da operação se tornar 
+“problemática” durante todo o prazo. 
+Estágio 3 : São as operações com atraso aci ma de 90 dias ou reestruturaç ões de dívidas ou em processo de 
+recuperação judicial, sendo classificadas como “problemáticas”. A provisão para perdas é mensurada considerando 
+a expectativa de recuperação de crédito. 
+O cálculo do provisionamento mínimo segue a fórmula PD ( Probability of Default ) x LGD ( Loss Given Default ) x EAD 
+(Exposure at Default), considerando os pisos regulatórios a partir de 91 dias de atraso e de acordo com classificação dos 
+ativos nas carteiras (C1 a C5). 
+2 – Reconhecimento de juros: Os instrumentos financeiros terão o reconhecimento de juros interrompidos com 90 dias 
+de atraso ou antes, se o ativo for considerado como problemático. 
+3 – Baixa para prejuízo: O instrumento financeiro será baixado quando não houver expectativa de recuperação. 
+4 – Taxa efetiva de juros: As receitas e despesas atreladas à originação de uma operação serão diferidas pelo prazo da 
+operação. Neste caso, as receitas apresentadas anteriormente nas linhas de receitas de prestação de serviços ou em 
+despesas operacionais terão seu resultado diferido e reconhecido na margem financeira. 
+5 – Arrendamento financeiro: No caso de arrendatária, a Organização passa a reconhecer o ativo de direito de uso em 
+contrapartida a um passivo de arrendamento. Em resultado, as despesas com juros passam a impactar a margem 
+financeira e as despesas de depreciação permanecem apresentadas em despesas operacionais. 
+A Administração avaliou e concluiu que os impactos no resultado serão imateriais para o exercício de 2025. No guidance, 
+os efeitos nas linhas de resultado com as novas regras estão apresentados de forma impl ícita no s intervalos 
+demonstrados. 
+indicadores de crédito 
+Os indicadores de qualidade de crédito e provisionamento sofrerão alterações para refletir melhor a 
+qualidade dos instrumentos financeiros e ter conexão com as despesas com PDD Expandida. 
+Novos Indicadores: o conjunto de indicadores de qualidade de crédito levará em conta o estágio das operações, 
+movimentação entre os estágios e o nível de provisionamento para cada estágio, os créditos reestruturados e 
+manteremos a divulgação do indicador atual de créditos em atraso superior a 90 dias. 
+Alguns indicadores atuais serão descontinuados, como: atraso superior a 60 dias, índices de cobertura da carteira 
+Bacen, abertura por ratings e o NPL Creation. 
+No caso do NPL Creation, daqui para frente, o destaque será para a movimentação dos instrumentos financeiros entre 
+os estágios, particularmente dos ativos problemáticos (estágio 3). 
+Para todos os novos indicadores de qualidade de crédito, divulgaremos oportunamente as respectivas séries históricas 
+para que haja base de comparação na mesma metodologia.
+
+[p. 31]
+Bradesco | Relatório de Análise Econômica e Financeira 31 
+indicadores & perspectivas econômicas 
+ 
+ 
+ 
+indicadores 
+perspectivas 
+econômicas 
+ 
+ 4T24 3T24 4T23 12M24 12M23 
+CDI 2,68 1,79 2,83 9,97 13,04 
+Ibovespa (8,75) 6,38 15,12 (10,36) 22,28 
+Dólar Comercial 13,66 (1,99) (3,32) 27,91 (7,21) 
+IGP-M 3,81 1,52 1,84 6,53 (3,18) 
+IPCA - IBGE 1,48 0,80 1,08 4,83 4,62 
+Dias Úteis (quantidade) 63 66 61 253 249 
+Dias Corridos (quantidade) 92 92 92 366 365 
+\\ Indicadores (Valor de Fechamento)
+Dólar Comercial Venda (R$) 6,1923 5,4481 4,8413 6,1923 4,8413 
+Risco País - CDS 5 anos (Pontos) 215 153 133 215 133 
+Selic - Taxa Básica Copom (% a.a.) 12,25 10,75 11,75 12,25 11,75 
+Taxa Pré BM&F 1 ano (% a.a.) 15,39 12,17 10,05 15,39 10,05 
+% 2025 2026
+Dólar Comercial (final) - R$ 6,00 6,00 
+IPCA 5,7 3,4 
+IGP-M 6,2 5,1 
+Selic (final) 14,75 11,25 
+PIB 1,9 1,3
+
+[p. 32]
+Bradesco | Relatório de Análise Econômica e Financeira 32 
+ 
+(Esta página foi deixada em branco propositalmente).
+
+[p. 33]
+Informações 
+Adicionais
+
+[p. 34]
+Bradesco | Relatório de Análise Econômica e Financeira 34 
+estratégia corporativa 
+O ano de 2024 foi um ano de transição e de transformação no Bradesco. Em fevereiro foi divulgado o plano 
+estratégico do banco com objetivo de simplificar a operação e o modelo de gestão, proporcionando mais 
+autonomia e agilidade na tomada de decisão. 
+O plano reafirma nossa ambição de ser um banco completo, rentável e preparado para competir no curto e 
+longo prazo. Essa ambição pode ser traduzida em aspirações que devem ser perseguidas, conforme destacadas 
+a seguir: 
+• Banco físico com custo adequado e focado nos clientes de maior retorno 
+• Banco digital eficiente com experiência humanizada e IA 
+• Eficiência operacional que garanta competitividade e retorno 
+• Captura de maior share of wallet nos principais segmentos 
+• Nova experiência do cliente em primeiro lugar 
+• Cultura de transformadores 
+• Time to market mais efetivo 
+Com uma abordagem robusta e acelerada, focamos em uma agenda de dez temáticas estratégicas-chave, 
+divididas em frentes de negócios e viabilizadoras, alinhando nossas ações às nossas ambições: 
+Negócios: varejo massificado; afluente; SMEs; pagamentos e cash management; e ciclo de crédito. 
+Viabilizadoras: sinergias intragrupo e inovação; tecnologia e modelo ágil; estrutura organizacional; modelo de 
+gestão e cultura; e eficiência da operação. 
+clientecentrismo 
+O cliente está no centro das nossas decisões, são mais de 80 anos de parceria, participando de todos os seus 
+momentos de vida. Seja no celular, nas agências, no computador, ou pela BIA, estamos presentes no seu dia a 
+dia, ajudando a conquistar sonhos através de uma vida financeira mais saudável. 
+Continuamos trabalhando com foco em promover a melhor experiência, escutando o que os clientes têm a nos 
+dizer e unindo ao uso de inteligência de dados. Assim, desenvolvemos produtos e serviços cada vez mais 
+completos e personalizados, pensando nas necessidades, desejos e momento de vida de cada cliente. 
+A voz do cliente 
+Para impulsionar a frente de clientecentrismo, dedicamos uma área exclusiva com foco no desenvolvimento da 
+melhor experiência, que atua com base em três pilares direcionadores, sendo excelência em banking, que traz 
+serviços de alta qualidade e personalizados em todos os canais com soluções relevantes para as necessidades 
+dos clientes, plataformas em escala que utilizam componentes padronizados e reutilizáveis para alavancar 
+ideias e produtividade, e AI First que gera fidelização ao atuar de forma confiável e resolutiva. 
+Como resultado, tivemos grandes entregas no App Bradesco PF, como a nova área de Investimentos, que facilita 
+a visualização das aplicações, possibilitando acesso ao extrato de investimentos e resumo das operações, além 
+da jornada de investimentos por objetivo, onde é possível organizar as finanças e alcançar projetos de vida. 
+A jornada de pagamentos também foi repaginada, com um layout mais moderno e intuitivo, reunindo todas as 
+opções de pagamento em um único lugar, incluindo um campo para digitar ou colar o código de barras e a 
+possibilidade de fazer pagamento por compartilhamento de arquivos PDF. A subhome de débito automático 
+ganhou uma experiência mais simples e completa, trazendo em uma única tela os cadastros pendentes, os 
+débitos ativos e a opção de incluir contas. 
+Outra grande novidade foi a chegada do novo segmento, o Bradesco Principal, que foi recebido no App com 
+novas telas, cores e experiências exclusivas para esse público, além da inclusão de um card que direciona o 
+cliente para falar com o gerente da conta. 
+No App Bradesco PJ, os clientes já podem usufruir da solução Tap Bradesco, que transforma o celular em uma 
+maquininha Cielo, recebendo pagamentos através da aproximação do cartão, auxiliando no dia a dia da empresa. 
+Além disso, podem obter condições diferenciadas para quitar dívidas, podendo simular e escolher melhores 
+condições de pagamento.
+
+[p. 35]
+Bradesco | Relatório de Análise Econômica e Financeira 35 
+Movimento Change 
+Todo o Bradesco em transformação 
+ Trazemos abaixo os principais destaques do programa de transformação 
+Redução de layers, 
+revisão do span of 
+control 
+Contratação de C-
+levels e reskilling 
+da liderança 
+Expansão do uso 
+de indicadores 
+de NPS 
+Reorganização das 
+áreas de produtos 
+NPS 
+Escritório da 
+transformação com 
+800 pessoas 
+destaques 
+organizacional 
+organizacional 
+Novo plano de 
+remuneração variável para 
+lideranças 
+destaques 
+gestão e cultura 
+gestão e 
+cultura 
+Pesquisa cultural interna 
+com 74% de participação 
+Plano de ação para evolução da 
+cultura SOU Bradesco, que 
+aprimora nosso modelo de gestão 
+#Somos Pelos Clientes 
+#Orientados A Desafios 
+#Um Time Empoderado 
+Programa de transformação 
+com o objetivo de atuar na 
+evolução das frentes de 
+negócios e viabilizar 
+mudanças estruturais e de 
+gestão, contribuindo com o 
+desempenho operacional 
+do Banco
+
+[p. 36]
+‘ 
+Bradesco | Relatório de Análise Econômica e Financeira 36 
+Crédito 
+Avançamos em SMEs com 122 agências empresas, novo value proposition, novo account load e 
+encerramos o ano com 150 agências empresas 
+Middle corporate: + 9 plataformas e +RMs 
+ Crescimento da carteira de crédito do segmento em 28%, com ganho de market share 
+Atacado: Criação e lançamento do segmento Agro 
+SMEs 
+Lançamento do segmento Bradesco Principal em novembro (~50 mil clientes até fev25 - em 
+expansão 2025/2026) 
+Segmento com account load reduzido para os gerentes e para os especialistas de 
+investimentos 
+Integração da vertical wealth com unidades internacionais
+Principal 
+Novos produtos de cash management 
+Atualizações tecnológicas da plataforma 
+Sinergia com a Cielo (Tap on phone, antecipação d0) 
+Payments & Sinergias 
+destaques 
+segmentos 
+destaques 
+Crédito 
+BU de crédito e criação de área de 
+gestão de portfolio 
+Eficiência na cobrança com 
+melhora de 25% vs. 2023 
+Modelagem de preço ajustada ao 
+risco com AI e testes de 
+elasticidade com forte utilização 
+de machine learning 
+Melhoria na gestão de risco, com 
+clusters de volatilidade 
+Contratação de ~200 
+profissionais 
+Utilização intensiva de 
+dados do conglomerado 
+ 
+ 
+Carteira expandida cresce 
++11,9% no ano com modelos 
+e safras melhores 
+Over90 de 5,1% para 
+4,0% (4T23 x 4T24) 
+Qualidade das novas safras do 
+massificado ~20-25% melhor do 
+que pré-pandemia Ganho de market share 
+no 4T24 em SMEs e PF
+(1)
+ 
+evoluções 
+destaques 
+varejo e canais digitais 
+Atendimento por chat integrado 
+com a BIA com GenAI com 
+resolutividade de 90% 
+Melhores modelos de NBO 
+com uso intensivo de AI 
+(hiperpersonalização) 
+Redução de 66% 
+nos tempos de 
+publicação 
+45% ganho de 
+efetividade de 
+vendas 
+Melhor 
+experiência do 
+cliente no App 
+Incremento de 50% nos cliques 
++6 pontos NPS banco em 12 meses 
+Cerca de 1 Mi de clientes no novo formato
+Evolução do modelo de atendimento do varejo digital 
+Lançamento do novo value 
+proposition ao longo de 2025
+
+[p. 37]
+Bradesco | Relatório de Análise Econômica e Financeira 37 
+destaques tecnologia
+Tech modernization (novos processos e pessoas) 
+Enterprise agility: Fechamos o ano com ~550 squads e escalando em 2025 
+Time dedicado de +10.000 pessoas (Internalização de +1.000 pessoas) 
+De 50% para 79% dos canais digitais migraram para cloud 
+GenAI Somos um dos pioneiros mundiais na utilização de multiagentes com AI 
+generativa para modernização de aplicações e geração de modelos 
+BIA Tech
++46% de ganho de 
+eficiência na escrita 
+dos stories
+~40 mil 
+funcionários
++500 mil
+clientes
++2 milhões
+de interações no 
+último semestre 
+BIA com GenAI 
+está sendo utilizada por:
+modelos mais eficientes em 
+AI e machine learning 
+Intensificação do value assurance / 
+vendor optimization
+
+[p. 38]
+Bradesco | Relatório de Análise Econômica e Financeira 38 
+NPS 
+Reconhecendo a importância fundamental de cada cliente, todas as nossas ações são reflexo direto da missão 
+de garantir sempre a melhor experiência. No 4T24, mais uma vez, superamos as metas de NPS, com destaque 
+para o NPS Banco que avançamos em 5 p.p. comparado ao 4T23, confirmando a consistência do planejamento 
+traçado. 
+Nos indicadores de NPS Conta Corrente e Cartão de Crédito, tivemos um crescimento de 5 p.p. comparado ao 
+4T23. Já no NPS de Crédito Pessoal, destacamos um crescimento de 9 p.p. em relação ao mesmo período. 
+Nosso compromisso é sustentado por uma sólida cultura de centralidade no cliente, que o coloca não apenas 
+como razão da nossa existência, mas também na essência de nossa estratégia. Adotamos como prática a escuta 
+ativa dos nossos clientes e enxergamos em cada feedback uma oportunidade para ações concretas, que 
+promovam melhorias contínuas em nossos produtos, serviços e soluções. Para isso, combinamos tecnologias 
+avançadas às métricas de NPS e contamos com equipes multidisciplinares focadas na promoção de iniciativas 
+capazes de garantir que as avaliações e a voz de nossos clientes sejam nossa ferramenta mais valiosa para 
+orientar a evolução de nosso trabalho e a busca pela excelência em cada detalhe. 
+O engajamento proativo da alta liderança da Organização na disseminação a todos os nossos colaboradores 
+reforça nossa cultura de ter sempre o cliente no centro. Essa proximidade potencializa o aumento do NPS, 
+multiplicando iniciativas voltadas à ampliação da segurança, autonomia e conveniência para os nossos clientes, 
+fortalecendo a confiança na Marca Bradesco. 
+O setor bancário vive um ciclo dos mais dinâmicos e com grande impacto da digitalização de produtos e 
+serviços. Neste contexto, nos destacamos por nossa dedicação ao cliente, experiência, solidez e segurança, 
+atributos alinhados ao aumento contínuo do nível de fidelidade de nossos clientes. 
+Fonte: Análise Bradesco através do relatório de benchmark NPS Prism ®. NPS Prism ® é uma marca registrada da Bain&Company, Inc.
+
+[p. 39]
+Bradesco | Relatório de Análise Econômica e Financeira 39 
+nossas pessoas 
+diversidade, equidade e inclusão 
+Compromisso com a diversidade e representatividade 
+ 
+84,0 
+mil 
+funcionários 
+50% 
+são mulheres 
+29% 
+são pessoas negras 
+36% 
+dos cargos de liderança 
+são ocupados por 
+mulheres 
+22% 
+dos cargos de liderança 
+são ocupados por 
+pessoas negras 
+5% pessoas com deficiência 
+UNIBRAD | desenvolvimento e capacitação 
+educação, inclusão e democratização do 
+conhecimento 
++ 1,5 milhão de participações 
+em treinamentos em 2024 
+Principais reconhecimentos 
+\\ FIA Employee Experience (FEEx) – Prêmio 
+Lugares Incríveis para Trabalhar 
+\\ Prêmio GPTW – Mulher 
+\\ Prêmio GPTW – PCD 
+\\ Carreira dos Sonhos – Cia de Talentos 
+\\ Melhores Empresas em Práticas e Ações de 
+Diversidade (Iniciativa Empresarial pela Igualdade 
+Racial) 
+\\ Prêmio GPTW - Étnico/Racial 
+\\ Certificação Top Employers 2024 
+\\ Linkedin Top Company 2024 
+\\ Brazil´s Most Attractive Employers – Universum 
+\\ CIEE - Melhores Programas de Estágio (15ª edição) 
+\\ Great People Mental Health – Destaque e certificação 
+voltada a Saúde Mental
+
+[p. 40]
+Bradesco | Relatório de Análise Econômica e Financeira 40 
+sustentabilidade 
+A sustentabilidade está integrada aos nossos direcionadores estratégicos e, por meio da gestão, diretrizes e 
+engajamento em aspectos ambientais, sociais e de governança (ASG), buscamos potencializar nossas 
+contribuições para o desenvolvimento sustentável do País. 
+Estratégia de sustentabilidade Metas e compromissos em destaque 
+Considerando os principais desafios e 
+tendências globais da agenda, elegemos 3 
+temas para promover uma agenda de mudança. 
+Meta ampliada - 
+direcionar R$ 320 
+bilhões para 
+setores e 
+atividades com 
+benefícios 
+socioambientais 
+até 2025. 
+Net-zero - alinhar 
+nossas carteiras de 
+crédito e investimentos 
+para alcançar emissões 
+de carbono líquidas 
+iguais a zero até 2050. 
+Negócios sustentáveis 
+Impulsionar negócios de impacto 
+positivo que fomentem o 
+desenvolvimento socioambiental. 
+ 
+Agenda climática 
+Garantir que os nossos negócios 
+estejam preparados para os desafios 
+climáticos, conscientizando e engajando 
+os nossos clientes quanto a riscos e 
+oportunidades. 
+100% de nossas 
+estruturas são 
+abastecidas por 
+energia de fontes 
+renováveis. 
+Neutralizamos 100% 
+das emissões de 
+gases de efeito estufa 
+geradas por nossas 
+operações. 
+Cidadania financeira 
+Promover educação e inclusão 
+financeira para alavancar o 
+desenvolvimento socioeconômico. 
+Mensuramos as emissões de carbono de 100% 
+da nossa carteira de crédito pessoa jurídica 
+ 
+Governança 
+Contamos com uma estrutura robusta de governança de sustentabilidade 
+integrada à gestão de riscos e aos negócios. As principais decisões e o 
+direcionamento estratégico são conduzidos pelo Comitê de Sustentabilidade 
+e Diversidade, subordinado ao Conselho, que se reúne bimestralmente. Este 
+comitê é composto por membros do Conselho de Administração e por 
+membros da Diretoria Executiva, incluindo o Diretor Presidente. 
+Transparência 
+Seguimos diretrizes 
+internacionais de 
+transparência e disclosure, 
+como o Sustainability 
+Accounting Standards Board 
+(SASB) e o Stakeholder 
+Capitalism Framework, entre 
+outros. 
+ 
+ 
+ 
+Para mais informações, 
+acesse o Relatório Integrado 
+Performance 
+A nossa evolução na gestão dos aspectos ASG é evidenciada pela 
+performance majoritariamente acima da média do setor nas avaliações dos 
+ratings especializados e permanência nos principais índices de 
+sustentabilidade, como Dow Jones, ISE, CDP, entre outros. 
+Destaque do trimestre 
+Reafirmamos o nosso compromisso com o financiamento de negócios sustentáveis, apoiando continuamente 
+os nossos clientes na transição para uma economia mais verde, resiliente e inclusiva. Ao final de dezembro de 
+2024, alcançamos 95% da nossa meta ampliada de direcionar R$ 320 bilhões para setores e atividades com 
+benefícios socioambientais até 2025 – novo objetivo assumido após atingirmos a meta original de R$ 250 
+bilhões antes do prazo estabelecido. 
+Fomos vencedores no primeiro leilão do Tesouro Nacional para o programa Eco Invest para financiar projetos 
+da economia verde – iniciativa do governo brasileiro que visa atrair capital estrangeiro privado para a 
+descarbonização da economia. Nos comprometemos a alavancar em 7,2 vezes os R$ 500 milhões em créditos 
+recebidos do Tesouro Nacional, o que equivale a direcionar R$ 3,6 bilhões para projetos no escopo do 
+programa, reforçando o compromisso da Organização com a agenda de Negócios Sustentáveis.
+
+[p. 41]
+Bradesco | Relatório de Análise Econômica e Financeira 41 
+digital em números 
+99% 
+das transações são realizadas 
+nos Canais Digitais Muito Mais Negócios | Créditos Mobile 
+95% estão concentradas em Mobile e Internet Em R$ | 2024 x 2023 
++49% Créditos Liberados PF 
+Destaque para: Mobile PF 
+Demais negócios | Em R$ | 2024 x 2023 
+ +18% 
+Previdência +53% 
+Capitalização 
++37% 
+Crédito Consignado 
+(Público, Privado e INSS) 
+ +32% 
+Seguros +38% 
+Emissão de Cartão 
+de Crédito (em qtde) 
+Ouvindo o cliente a cada jornada: 
+Avaliação: 4,8 de 5 
+ +26% 
+Consórcios +70% Créditos Liberados PJ 
+Destaque para: 
+NPS Mobile 
+ 
++58% 
+Capital de Giro Total PF Total PJ 
+ 
+ 
+Ouvindo o cliente a cada jornada: 
+Avaliação: 4,9 de 5 
+Avaliação App Bradesco PF | Dez24
+Apple 
+4,7 
+de 5 Play 
+4,6 
+de 5 Fonte: Análise Bradesco através do relatório de benchmark NPS Prism ®. NPS Prism ® é uma marca 
+registrada da Bain&Company, Inc. 
+B I A 
+ 
+ Gerar fidelização ao atuar de forma confiável e resolutiva, 
+gerando insights e informações úteis de forma pró-ativa, onde o cliente estiver 
+ 
+ 
+IA Generativa 
++574 mil 
+Clientes habilitados 
++986 mil 
+conversas 
+9 de 10 Conversas 
+são retidas pela IA 
+ 
+2,6 bi interações desde a implantação (todos os canais) +75% de transação via WhatsApp (2024 x 2023) 
+ 
+Primeiro lugar na 20ª edição do Prêmio Banking Transformation, no Pilar 
+Bancos, na categoria Inovação com IA & IA GEN com o case 
+”BIA WhatsApp: prevenindo fraudes em transações PIX” 
+Emerging Tech Innovation of the year - Qorus 
+The Banker’s Innovation in Digital Banking Awards 
+AI FIRST
+BIA
++2 p.p. 
+ +3 p.p. 
+4T23 4T24 4T23 4T24
+
+[p. 42]
+Bradesco | Relatório de Análise Econômica e Financeira 42 
+Bradesco Principal 
+O Bradesco que você já conhece, com a sofisticação que você nem imagina 
+Reposicionamento estratégico 
+ 
+ 
+Nova proposta de valor 
+para os clientes 
+afluentes 
+prime renda >= R$ 25k 
+investimentos >= R$ 300k private 
+Proposta de Valor construída a partir da voz dos nossos clientes 
+ 
+Novo conceito de atendimento 
+Proporcionamos um atendimento diferenciado com um gerente de relacionamento especializado na 
+gestão de patrimônio, por canais exclusivos de atendimento e novos escritórios de negócios com 
+horários estendidos para atendimentos e eventos. 
+ 
+Investimentos 
+Advisor de investimentos dedicado que 
+recomenda soluções de acordo com o 
+momento de vida do cliente. Os clientes têm 
+acesso a produtos exclusivos que integram 
+banco e corretora, além de poder contar com 
+uma estrutura completa de wealth planning, 
+com planejamento patrimonial e tributário, 
+para otimizar a sucessão patrimonial 
+conforme o potencial financeiro do cliente. 
+ 
+Produtos exclusivos 
+Disponibilizamos o cartão de crédito exclusivo 
+Bradesco Principal, destinado apenas a 
+clientes do segmento, com até 3 pontos a 
+cada US$1 gasto que não expiram. Entre os 
+benefícios estão reservas antecipadas 
+gratuitas de salas VIP pelo Visa Airport 
+Companion, acessos as salas VIP Bradesco 
+Lounge, e Fast Pass Bradesco no 
+Aeroporto de Congonhas. 
+ 
+ 
+Conta internacional 
+Nossos clientes têm acesso a uma conta 
+corrente americana completa, que inclui 
+cartão de débito, cartão de crédito com 
+acesso a salas VIP e programa de pontos, 
+financiamento imobiliário, e uma linha 
+abrangente de produtos de investimentos 
+para diversificação com as melhores 
+oportunidades do mercado norte-americano. 
+ 
+Programa de benefícios 
+Oferecemos uma gama de benefícios 
+exclusivos, como seguro proteção digital sem 
+custo, vantagens em restaurantes estrelados, 
+descontos em parceiros e viagens, além de 
+benefícios financeiros como até 15 dias de 
+isenção de cheque especial, até 3 tags de 
+pedágio isentas de anuidade, entre outros.
+
+[p. 43]
+Bradesco | Relatório de Análise Econômica e Financeira 43 
+B 
+Há sempre um
+ 
+100%
+dos Correspondentes (1) 
+já contam com plataforma 
+ 
+ perto de cada brasileiro 
+Informações 39,1 mil 
+correspondentes 
+Média de Transações (Mensal) na concessão de 
+consignado (vs. 2023) 
+na comercialização de 
+seguros no canal (vs. 2023) 
+Plataforma 
+Bradesco Expresso 
+ 
+Ofertas personalizadas de produtos 
+(de acordo com o perfil de cada cliente) 
+ 
+Muita eficiência e praticidade para nossos parceiros 
+Melhor experiência para os clientes 
+3 premiações internacionais: 
+ 
+“Banking Awards” da revista The Banker 
+na categoria Transformação e Inovação Digital 
+“Banking Tech Awards” da revista britânica Fintech Futures nas categorias: 
+- Melhor Iniciativa de Experiência para o Usuário; e 
+- Melhor Contribuição para Mobilidade. 
+(1) Que realizam abertura de conta, concessão de crédito ou comercializam seguros.
+
+[p. 44]
+Bradesco | Relatório de Análise Econômica e Financeira 44 
+atuação internacional 
+Oferecemos uma extensa linha de serviços 
+internacionais, contemplando o financiamento ao 
+comércio exterior, capital de giro em moedas 
+estrangeiras, operações de câmbio e fianças 
+internacionais para pessoas físicas e jurídicas, através 
+de nossas plataformas de Corporate e Global Private 
+Banking. O atendimento às empresas se materializa 
+tanto com o apoio à multinacionais estrangeiras com 
+atuação no Brasil ou empresas brasileiras com 
+atuação no exterior, quanto na atuação como 
+principal elo de comunicação entre prospectivos 
+clientes Multinacionais e o Bradesco Brasil. 
+ 
+ 
+Agências Subsidiárias 
+Nova York 
+Banco Bradesco S.A. 
+Grand Cayman 
+Banco Bradesco S.A. 
+Escritório de Representação 
+Hong Kong 
+Banco Bradesco S.A. 
+Guatemala 
+Representaciones Administrativas 
+Internacionales 
+Nova York 
+Bradesco Securities, Inc. 
+Miami 
+Bradesco Bank 
+Bradesco Investments Inc. 
+Bradesco Global Advisors Inc. 
+México 
+Bradescard México Sociedad de 
+Responsabilidad Limitada 
+ 
+Luxemburgo 
+Banco Bradesco Europa S.A. 
+Londres 
+Bradesco Securities UK 
+Limited 
+Hong Kong 
+Bradesco Securities Hong 
+Kong Limited 
+Bradesco Trade Services 
+Limited 
+ 
+ 
+My Account 
+Conta internacional digital 
+Abertura de
+228 mil contas em 2024 
+Com cartão de débito aceito em 
+195 países e com conversão 
+automática para 180 moedas 
+A My Account é uma conta internacional e digital própria, que pode ser aberta pelo App 
+do Bradesco. Além do cartão tradicional, é possível ter um cartão virtual para compras em 
+sites e Apps, com CVV dinâmico, que traz mais comodidade e segurança. 
+Jornada 100% digital via App Cartão personalizado 
+Alerta de cotação 
+personalizável e cotação 
+baseada em dólar comercial 
+Transferência entre conta 
+Bradesco e My Account a 
+qualquer hora/dia
+
+[p. 45]
+Bradesco | Relatório de Análise Econômica e Financeira 45 
+bradesco bank 
+Plataforma internacional do Bradesco nos EUA, com solução completa de 
+produtos, serviços bancários e investimentos para clientes nos segmentos 
+Private e Afluente, além de soluções para clientes do segmento Corporate. 
+ 
+Receita Operacional 
+Líquida 
+△ 28% a/a 
+ 
+Ativos sob Custódia (AuC) △ 17% a/a 
+ Carteira de Crédito △ 16% a/a 
+ 
+Lucro Líquido 
+△ 60% a/a 
+Captações através de 
+Depósitos △ 28% a/a 
+Soluções Pessoas Físicas 
+Bancárias 
+Conta corrente completa para realização 
+de pagamentos, transferências, online 
+banking e cartão de débito 
+internacional para compras e saques. 
+ Investimentos 
+Cliente Private: 
+Investimentos adaptados ao perfil de 
+risco de cada cliente: 
+- Renda Fixa; 
+- ETFs; 
+- Fundos de Investimento; e 
+- Operações Estruturadas. 
+ 
+Cliente Afluente: 
+- Plataforma digital de investimentos 
+em carteiras gerenciadas para os mais 
+diversos perfis de investidores. 
+Cartão de Crédito 
+Cartão bandeira Visa aceito em 195 
+países com benefícios exclusivos, 
+incluindo programa de fidelidade Livelo 
+e conectividade com carteiras digitais. 
+ 
+Financiamento Imobiliário 
+Suporte para aquisição de imóvel para 
+residentes e não residentes nos EUA, 
+com equipe com amplo entendimento 
+do mercado e do processo. 
+ 
+Soluções Pessoas Jurídicas 
+Gestão de Caixa 
+conta corrente, 
+money market e 
+depósitos 
+remunerados. 
+Pagamentos 
+corresponding 
+banking e 
+transferências 
+internacionais. 
+Serviços 
+Documentários 
+cobrança de 
+exportações e carta 
+de crédito comercial. 
+Crédito 
+Empresarial 
+financiamento de 
+importação, 
+exportação e capital 
+de giro.
+
+[p. 46]
+Bradesco | Relatório de Análise Econômica e Financeira 46 
+ 
+ 
+Ágora Investimentos 
+Durante o ano de 2024, unificou suas operações com a Bradesco 
+Corretora (especializada no atendimento a investidores institucionais), 
+tornando-se uma das maiores casas de investimentos do país. 
+Ágora em números 
+Base de clientes Ativos sob Custódia 
++21,9% +11,2% em 12 meses em 12 meses 
+4T24 
+1,2 
+Milhão 
+Dez24 
+107,4 
+Bilhões 
+Avaliação App Ágora Dez24 
+4,7 de 5 
+ 4,8 de 5 
+Saiba tudo o que acontece no mercado 
+acessando nossos perfis nas redes sociais. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assessoria 
+Especializada 
+Com o propósito de apoiar o 
+cliente na melhor decisão de 
+investimento e formação de 
+portfólio, de acordo com 
+seus objetivos e seu perfil 
+de investidor. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Portfólio de 
+Produtos 
+Amplo portfólio com criterioso 
+processo de curadoria, que 
+contempla produtos Bradesco 
+e de mais de 130 relevantes 
+parceiros do mercado. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Conteúdo de 
+Research & Economia 
+Relatórios e análises, 
+desenvolvidos pelo nosso 
+premiado time de Research e 
+Economia e plataforma de 
+Educação Financeira 
+(Academy). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Experiência Digital 
+ 
+Jornada digital completa 
+e intuitiva, com todas as 
+soluções oferecidas pela casa 
+disponíveis no site e no App. 
+ 
+ 
+ 
+ 
+Com mais de 30 anos, a Ágora, casa de investimentos do Bradesco, é uma 
+plataforma aberta, que disponibiliza a correntistas e não-correntistas da 
+instituição um amplo portfólio de produtos, como renda fixa, renda variável, 
+fundos de investimento, planos de previdência e soluções personalizadas. 
+ 
+Avaliação Reclame Aqui | Dez24 
+8,2 de 10
+
+[p. 47]
+Bradesco | Relatório de Análise Econômica e Financeira 47 
+next 
+Nascido 100% digital, com foco na centralidade do cliente e para 
+complementar o ecossistema de soluções do Bradesco, o next continua sua 
+trajetória de evolução, conectado e maximizando o uso das soluções e 
+estruturas do Banco para assegurar sinergia e eficiência. 
+Com uso de dados e estudos antropológicos, o next antecipa tendências e 
+comportamentos dos clientes, tornando-se mais assertivo nas ofertas de 
+produtos para cada perfil. 
+Oferece diversas soluções financeiras e não financeiras: conta, cartões de 
+débito e crédito, empréstimos, investimentos, seguros, tag Veloe, 
+pagamentos, transferências, Pix, recarga de celular, integração com as 
+principais carteiras digitais, benefícios exclusivos com mais de 50 marcas 
+(mimos), ferramentas de gestão financeira, entre outros. 
+Também se destaca a oferta do nextJoy, uma conta digital voltada para o 
+público de 0 a 17 anos, oferecendo educação financeira, numa parceria 
+exclusiva com a Disney. 
+ 
+Perfil dos Clientes: a idade média dos clientes next é de 31 anos, distribuídos 
+nas diversas regiões. Além disso, 80% dos clientes next não tinham conta em 
+outro segmento da Organização Bradesco, o que ratifica nossa estratégia de 
+endereçar novo público e mercado. 
+Satisfação dos Clientes: temos foco absoluto na entrega das melhores 
+experiência aos clientes, independente do canal que nos acione. 
+Reflexo disso é a boa avaliação pelos nossos clientes no nosso atendimento e 
+a evolução contínua do NPS. 
+ 
+d i g i o 
+ 
+DESTAQUES 4T24 
+No quarto mês após o lançamento, a produção de microcrédito para a base da Uber Conta 
+superou 250 mil contratos/mês em Dez24. 
+O objetivo para 2025 é expandir a carteira de crédito colateralizado e rentabilizar a base 
+de cartões com a modalidade de parcelado com juros. O roadmap prevê o lançamento do 
+cartão consignado INSS e o desenvolvimento do consignado privado (e-Social). 
+ 
+ 
+ 
+ 
+Excelente 
+reputação no 
+Reclame Aqui 
+com selo 
+RA1000 | Dez24 
+Avaliação nas 
+Lojas | Dez24 
+ 
+ 
+ 
+iOS Android 
+ 8,6 
+de 10 
+4,6 
+de 5 4,3 
+de 5 
+ 
+ 
+4,1 de 5 
+Google 
+My Business | 
+Dez24 
+ 
+Conta 
+4,8 
+de 5 4,3 
+de 5 
+ 
+100
+117
+4T23 4T24
+Valor total de transações 
+financeiras
+Base 100 +17% a/a
+100
+109
+4T23 4T24
+Quantidade total de transações 
+financeiras
+Base 100 +9% a/a
+2,6 3,4
+4T22 4T23 4T24
+Clientes Únicos
+Em milhões
+9,4
++179% vs. 4T23
+3,5 6,2
+4T22 4T23 4T24
+Carteira Total
+Em R$ bilhões
+20,4
++229% vs. 4T23
+311 411
+4T22 4T23 4T24
+Receitas Totais
+Em R$ milhões
+1.078
++162% vs. 4T23
+Avaliação Reclame Aqui | Dez24 | 8,5 de 10
+
+[p. 48]
+Bradesco | Relatório de Análise Econômica e Financeira 48 
+pontos de atendimento, clientes 
+e market share 
+ 
+(1) Considera o agrupamento de agências e no Bacen considera a contagem por CNPJ ativo; (2) Data-base: Nov24; e N/D – Não divulgado.
+\\ Informações Estruturais - Unidades
+Pontos de Atendimento 82.914 82.023 83.147 
+- Rede de Atendimento 6.003 6.347 7.388 
+Agências (1) 2.305 2.355 2.695 
+Varejo + Prime 1.996 2.083 2.485 
+Empresas & Negócios 150 122 67 
+Corporate 83 74 73 
+Plataformas Digitais 76 76 70 
+PAs 2.501 2.727 3.351 
+PAEs 469 497 522 
+Unidades de Negócios 728 768 820 
+Varejo + Prime 727 768 820 
+Principal 1 - - 
+- Pontos Assistidos da Rede Banco24Horas 17.931 17.451 17.967 
+- Bradesco Expresso (Correspondentes) 39.059 38.572 38.264 
+- Bradesco Financiamentos 19.908 19.640 19.514 
+- Agências, Subsidiárias e Escritório de Representação, no Exterior 13 13 14 
+Máquinas de Autoatendimento 39.586 40.218 43.768 
+- Rede Bradesco 15.376 16.441 19.582 
+- Rede Banco24Horas 24.210 23.777 24.186 
+Funcionários 84.022 84.018 86.222 
+Estagiários 2.545 2.777 2.497 
+\\ Clientes - Em milhões
+Clientes Totais 73,2 72,9 71,1 
+Correntistas 38,2 38,5 38,1 
+Contas de Poupança 66,6 64,8 69,0 
+\\ Market Share % - BACEN | principais produtos e serviços em relação ao mercado
+\ Bancos
+Depósito à Vista N/D 8,4 9,8
+Depósito de Poupança N/D 12,5 13,1
+Depósito a Prazo N/D 11,5 12,5
+Operações de Crédito 10,2 10,2 10,2
+Operações de Crédito - Instituições Privadas 17,7 17,7 17,8
+Operações de Crédito - Veículos Pessoa Física (CDC + Leasing ) 10,7 10,6 11,4
+Crédito Consignado 14,4 14,3 14,7
+ INSS 15,6 15,7 17,0
+ Setor Privado 12,0 11,6 11,5
+ Setor Público 13,7 13,6 13,4
+Financiamento Imobiliário 10,8 10,5 10,4
+\ Consórcios
+Imóveis 12,4 (2) 12,6 14,4
+Automóveis 23,2 (2) 23,6 25,3
+Caminhões,Tratores e Implementos Agrícolas 16,7 (2) 17,5 19,1
+\ Área Internacional
+Mercado de Exportação 11,7 (2) 14,8 13,5
+Mercado de Importação 7,4 (2) 7,6 8,7
+\ Seguros
+Prêmios de Seguros, Previdência e Capitalização N/D 22,8 22,7
+Provisões Técnicas de Seguros, Previdência e Capitalização N/D 21,6 21,8
+Carteiras de Investimentos de Previdência (inclui VGBL) 22,1 21,9 21,8
+\ Fundos
+Fundos de Investimento e Carteiras Administradas 16,7 16,5 16,6
+\ INSS
+Pagamento de Benefícios a Aposentados e Pensionistas 27,2 27,7 30,1
+\ Leasing
+Operações Ativas de Leasing N/D 30,3 25,4
+Dez23Dez24 Set24
+
+[p. 49]
+Bradesco | Relatório de Análise Econômica e Financeira 49 
+retorno aos acionistas 
+principais índices 
+índice preço / lucro (1) 
+Indica o possível número de anos (exercícios) em que 
+o investidor recuperaria o seu capital investido, com 
+base nos preços de fechamento das ações ON e PN. 
+(1) Lucro líquido recorrente acumulado em doze meses. 
+ payout / dividendos e JCP 
+ 
+índice preço / valor patrimonial por 
+ação 
+Indica a quantidade de vezes em que o valor de 
+mercado do Bradesco é superior ao seu patrimônio 
+líquido. 
+ 
+ 
+volume médio diário negociado 
+ 
+(1) BBD “PN” e BBDO “ON” (a partir de março de 2012); e (2) BBDC3 “ON” e BBDC4 “PN” . 
+\dividend yield (1) (2) - % 
+É a relação entre o preço da ação e os dividendos 
+e/ou JCP distribuídos aos acionistas nos últimos 
+doze meses, indicando o retorno do investimento 
+pela participação nos lucros. 
+ 
+(1) Considera os dividendos / JCP declarados para o período ; e (2) 
+Calculado pela ação mais líquida. 
+ 
+ valorização das ações PN – BBDC4 
+ 
+Recomendação dos Analistas 
+Ações PN – BBDC4 
+(Foram analisados 14 relatórios) 
+ 
+7 6 1 
+Manter Comprar Vender 
+ 
+Valor de Mercado 
+ 
+117,6 
+R$ bilhões 
+Em Dez24 
+ 
+ performance das ações Bradesco (1) 
+ 
+(1) Ajustado pelos eventos societários ocorridos nos períodos. 
+5.548 
+9.240 10.172 11.311 11.283 
+35%
+44% 52%
+79%
+62%
+12M20 12M21 12M22 12M23 12M24
+Dividendos / JCP - Bruto Payout Bruto - Acumulado no Ano
+R$ milhões
+1,1 0,9 0,8 0,9 0,7 
+Dez23 Mar24 Jun Set Dez
+ 497 696 688 
+355 324 
+1.089 
+1.138 948 
+750 629 
+1.586 
+1.834 
+1.636 
+1.105 953 
+2020 2021 2022 2023 2024
+ NYSE
+ B3
+R$ milhões
+(1) (2)
+dez13 dez14 dez15 dez16 dez17 dez18 dez19 dez20 dez21 dez22 dez23
+BBDC4 Ibovespa
+Base 100
+184 
+238 
+Em R$
+Valor Patrimonial por Ação (ON e PN) 15,14 15,38 15,21 (1,5) (0,4) 
+Cotação do último dia – ON 10,36 12,51 13,97 (17,2) (25,9) 
+Cotação do último dia – PN 11,25 14,05 15,65 (20,0) (28,1) 
+Dez23
+Variação %
+Dez24 x 
+Set24
+Dez24 x 
+Dez23Dez24 Set24
+10,6
+8,9 7,6 8,7
+6,0
+Dez23 Mar24 Jun Set Dez
+
+[p. 50]
+Bradesco | Relatório de Análise Econômica e Financeira 50 
+demais informações 
+RI – relações com investidores 
+Gerar valor é proporcionar resultados financeiros aos nossos stakeholders pautado 
+em resiliência, solidez e rapidez para nos adequarmos às necessidades de nossos 
+clientes, baseado em uma governança robusta, transparente e íntegra. Nosso 
+relacionamento com os investidores é construído de forma clara, objetiva e pelo 
+diálogo constante com o mercado. 
+Por meio da estrutura de RI, informamos constantemente a respeito do desempenho econômico-financeiro da 
+Organização, assim como sua estrutura de governança, políticas e práticas. 
+De forma a ampliar o conhecimento do público interessado em nossas informações, no site de RI também é 
+possível acessar: 
+• Apresentações da companhia; 
+• Calendário de eventos; 
+• Formulários regulatórios; 
+• Vídeos institucionais com mensagens de executivos da Organização; e 
+• Nosso posicionamento estratégico e a nossa gestão operacional, entre outras informações. 
+ 
+ratings 
+ 
+No quarto trimestre de 2024 realizamos: 
+ 
+193 9 
+ 
+Atendimentos a 
+investidores institucionais e 
+não institucionais 
+Eventos, sendo 4 conferências 
+internacionais, 
+2 conferências nacionais e 
+3 non-deal road shows 
+ 
+Longo Prazo Perspectiva Curto Prazo Longo Prazo Perspectiva Curto Prazo
+Moeda Local BB+ B Contraparte Moeda Local Baa3 P-3
+Moeda Estrangeira BB+ B Contraparte Moeda Estrangeira Baa3 P-3
+Escala Nacional AAA(bra) Estável F1+(bra) Depósito Moeda Local Ba1 -
+Depósito Moeda Estrangeira Ba1 -
+Escala Nacional AAA.br Estável ML A-1.br
+Bradesco Bank
+Longo Prazo Perspectiva Curto Prazo Moody's
+Moeda Local BB B Longo Prazo Perspectiva Curto Prazo
+Moeda Estrangeira BB B Depósito Moeda Local A3/Prime-2 Estável A3/Prime-2 
+Escala Nacional brAAA Estável brA-1+ 
+Moody's
+Estável
+Fitch Ratings
+Negativa
+Positiva
+Viabilidade: bb+
+Rating de Suporte do Governo: bb-
+S&P Global
+
+[p. 51]
+Bradesco | Relatório de Análise Econômica e Financeira 51 
+demais informações 
+gestão de capital 
+A Organização exerce a gestão de capital, considerando uma visão prospectiva, com projeções de capital 
+periódicas de pelo menos 3 anos, onde captura mudanças no cenário econômico e nas expectativas dos 
+negócios organizacionais. Além disso, possui Plano de Recuperação, que considera estratégias a serem 
+adotadas em cenários adversos extremos e conta com Plano de Capital e Plano de Contingência, que fazem 
+parte do Processo de ICAAP (Internal Capital Adequacy Assesment Process). 
+Esses processos envolvem tanto áreas de controle quanto de negócios, seguindo as orientações da Diretoria 
+Executiva e Conselho de Administração com uma estrutura de governança composta por Comissões e Comitês, 
+tendo como órgão máximo o Conselho de Administração. 
+A Alta Administração é subsidiada com análises e projeções da disponibilidade e necessidade de capital, 
+identificando ameaças e oportunidades que afetem o planejamento da suficiência, e buscando a otimização dos 
+níveis de capital e atendendo dessa forma às determinações do Banco Central do Brasil, pertinentes às 
+atividades de gerenciamento de capital, bem como os limites gerenciais aprovados. 
+Informações adicionais sobre a estrutura de Gestão de Capital podem ser encontradas no Relatório de 
+Gerenciamento de Riscos – Pilar 3 e no Relatório Integrado, disponíveis no site de Relações com Investidores, em 
+bradescori.com.br. 
+ 
+ 
+Em R$ milhões
+\\ Base de cálculo
+Patrimônio de referência - PR 149.109 151.190 149.969 
+Nível I 124.633 127.211 125.412 
+Capital principal 106.013 112.401 110.689 
+Patrimônio líquido 160.487 162.931 161.182 
+Minoritários/Outros (72) 136 272 
+Ajustes prudenciais (54.402) (50.666) (50.766) 
+Capital complementar 18.620 14.810 14.723 
+Nível II 24.476 23.979 24.557 
+\\ Ativos ponderados pelo risco - RWA 1.008.668 1.000.932 947.738 
+Risco de crédito 887.255 880.159 842.400 
+Risco de mercado 28.188 27.549 18.957 
+Risco operacional 93.225 93.225 86.381 
+\\ Índice Total 14,8% 15,1% 15,8%
+Capital nível I 12,4% 12,7% 13,2%
+ Capital principal 10,5% 11,2% 11,7%
+ Capital complementar 1,8% 1,5% 1,6%
+Capital nível II 2,4% 2,4% 2,6%
+Dez24
+Basileia III 
+Conglomerado Prudencial
+Set24 Dez23
+
+[p. 52]
+Bradesco | Relatório de Análise Econômica e Financeira 52 
+informações selecionadas 
+ 
+ 
+(1) Para fins de comparabilidade, as ações foram ajustadas de acordo com as bonificações e os desdobramentos ocorridos nos períodos; (2) Não considera os ajustes de avaliação 
+patrimonial registrados no Patrimônio Líquido; (3) Lucro Líquido Recorrente Acumulado no ano; (4) Acumulado doze meses; (5) Cálculo IEO = (Despesas de Pessoal + Despesas 
+Administrativas + Outras Despesas Operacionais Líquidas de Receitas) / (Margem Financeira + Receita de Prestação de Serviços + Resultado de Seguros + Resultados de Participações em 
+Coligadas + Despesas Tributárias); e (6) Quantidade de ações (descontadas as ações em tesouraria) x cotação de fechamento das ações ON e PN do último dia do período.
+Em R$ milhões (exceto quando indicado)
+\\ Demonstração do Resultado do Período
+Lucro Líquido - Recorrente 5.402 5.225 4.716 4.211 2.878 
+Lucro Líquido Contábil 4.934 5.225 4.716 4.211 1.703 
+Resultado Operacional 6.969 6.765 5.879 4.977 2.499 
+Margem Financeira Total 16.995 15.999 15.580 15.152 16.128 
+Margem Financeira com Clientes 16.153 15.635 15.255 14.522 15.432 
+PDD Expandida (7.460) (7.127) (7.290) (7.811) (10.524) 
+Margem Financeira com Clientes Líquida de PDD Expandida 8.693 8.508 7.965 6.711 4.908 
+Receitas de Prestação de Serviços 10.262 9.904 9.317 8.861 9.028 
+Despesas Operacionais (16.418) (15.050) (14.466) (13.360) (14.935) 
+Resultado das Operações de Seguros, Previdência e Capitalização 5.531 5.048 4.644 3.997 4.745 
+\\ Balanço Patrimonial
+Total de Ativos 2.127.922 2.077.359 2.054.518 2.000.076 1.964.052 
+Títulos e Valores Mobiliários e Instrumentos Derivativos 861.312 837.073 843.099 828.258 824.484 
+Operações de Crédito - Carteira Expandida 981.692 943.891 912.092 889.918 877.285 
+- Pessoa Física 414.080 396.837 381.775 372.556 365.442 
+- Pessoa Jurídica 567.612 547.055 530.317 517.362 511.844 
+Provisão para Devedores Duvidosos (PDD) (48.275) (48.486) (48.508) (51.643) (53.901) 
+Depósitos Totais 651.736 619.408 621.404 611.627 627.662 
+Patrimônio Líquido Atribuído aos Acionistas Controladores 160.487 162.931 160.086 160.563 161.182 
+Recursos Captados e Administrados 3.211.812 3.164.744 3.113.072 3.044.442 2.988.371 
+\\ Indicadores de Performance (%)
+Lucro Líquido Recorrente por Ação (acumulado 12 meses) - R$ (1) 1,85 1,61 1,55 1,53 1,54 
+Lucro Líquido Recorrente por Ação - R$ (1) 0,51 0,49 0,45 0,40 0,27 
+Valor Patrimonial por Ação (ON e PN) - R$ (1) 15,14 15,38 15,11 15,15 15,21 
+Dividendos/JCP por Ação – ON (após IR) - R$ (1) 0,24 0,22 0,21 0,20 0,21 
+Dividendos/JCP por Ação – PN (após IR) - R$ (1) 0,26 0,24 0,23 0,22 0,23 
+Retorno Anualizado sobre PL médio (ROAE) (2) (3) 11,7 11,3 10,8 10,2 10,0 
+Retorno Anualizado sobre Ativo Médio (ROAA) (3) 0,9 0,9 0,9 0,8 0,9 
+Índice de Imobilização 25,2 25,0 25,6 23,2 26,1 
+Dividendos / JCP - Líquido 2.643 2.422 2.303 2.223 2.297 
+Liquidez de Curto Prazo (LCR) 141,1 156,4 174,8 193,2 191,6 
+Liquidez de Longo Prazo (NSFR) 121,2 121,6 121,6 123,4 126,7 
+Índice de Cobertura (Receita de Prestação de Serviços / 
+Despesas Administrativas e de Pessoal) (4) 78,6 77,5 76,9 76,4 76,7 
+Índice de Eficiência Operacional (IEO) (acumulado 12 meses) (5) 52,2 52,2 51,3 49,7 48,7 
+Valor de Mercado - R$ milhões (6) 117.619 147.386 125.006 143.655 172.227 
+\\ Qualidade da Carteira de Crédito (Bacen) - R$ milhões (exceto quando indicado)
+Índice de Inadimplência (> 60 dias / Carteira de Crédito) (%) 4,7 4,9 5,2 5,9 6,1 
+Índice de Inadimplência (> 90 dias / Carteira de Crédito) (%) 4,0 4,2 4,3 5,0 5,2 
+Índice de Cobertura (> 60 dias) (%) 142,9 144,7 142,1 137,2 140,9 
+Índice de Cobertura (> 90 dias) (%) 168,6 169,3 170,2 163,7 165,4 
+Operações de Crédito classificadas de AA até C / Operações de Crédito (%) 90,4 89,9 89,2 87,9 87,2 
+Operações de Crédito classificadas em D / Operações de Crédito (%) 1,9 1,9 2,1 2,9 2,9 
+Operações de Crédito classificadas de E até H / Operações de Crédito (%) 7,7 8,2 8,8 9,2 10,0 
+Operações de Crédito classificadas em D 13.444 12.825 13.606 18.620 17.984 
+Provisão para Operações de Crédito classificadas em D 3.088 2.883 2.995 3.664 3.021 
+Provisão / Operações de Crédito classificadas em D (%) 23,0 22,5 22,0 19,7 16,8 
+Operações de Crédito anormal classificadas de D até H 37.519 36.936 37.406 42.244 43.017 
+Provisão Total / Operações de Crédito anormal classificadas de D até H (%) 128,7 131,3 129,7 122,2 125,3 
+Operações de Crédito classificadas de E até H 55.215 56.686 57.751 58.443 62.588 
+Provisão para Operações de Crédito classificadas de E até H 41.299 41.896 42.097 44.728 47.616 
+Provisão / Operações de Crédito classificadas de E até H (%) 74,8 73,9 72,9 76,5 76,1 
+Operações de Crédito anormal classificadas de E até H 32.412 32.290 32.324 36.801 37.752 
+Provisão Total / Operações de Crédito anormal classificadas de E até H (%) 148,9 150,2 150,1 140,3 142,8 
+3T24 2T24 4T234T24 1T24
+
+[p. 53]
+Bradesco | Relatório de Análise Econômica e Financeira 53 
+balanço patrimonial – consolidado Bradesco 
+Abaixo apresentamos os principais dados do Balanço Patrimonial Bradesco, gerencialmente consolidado: 
+ 
+ 
+ 
+\\ Ativo
+\\ Caixa e Equivalente de Caixa 19.118 16.891 16.346 13,2 17,0 
+\\ Instrumentos Financeiros 1.970.247 1.929.167 1.839.983 2,1 7,1 
+Aplicações Interfinanceiras de Liquidez 198.559 211.397 204.614 (6,1) (3,0) 
+Depósitos Compulsórios no Banco Central do Brasil 127.086 123.720 133.722 2,7 (5,0) 
+Títulos e Valores Mobiliários 839.191 819.436 808.992 2,4 3,7 
+Instrumentos Financeiros Derivativos 22.121 17.637 15.492 25,4 42,8 
+Operações de Crédito 598.221 576.898 525.968 3,7 13,7 
+Outros Instrumentos Financeiros 185.069 180.079 151.194 2,8 22,4 
+\\ Operações de Arrendamento Mercantil 6.235 5.646 4.394 10,4 41,9 
+ \\ Provisões para Perdas Esperadas Associadas ao Risco de Crédito (48.275) (48.486) (53.901) (0,4) (10,4) 
+Operações de Crédito (46.234) (46.335) (50.225) (0,2) (7,9) 
+Operações de Arrendamento Mercantil (54) (52) (46) 3,8 17,4 
+Outros Créditos (1.987) (2.099) (3.630) (5,3) (45,3) 
+\\ Créditos Tributários 110.893 106.429 99.849 4,2 11,1 
+ \\ Investimentos em Coligadas e Entidades Controladas em Conjunto 5.339 5.131 3.895 4,0 37,1 
+\\ Imobilizado de Uso 22.958 22.591 21.649 1,6 6,0 
+\\ Intangível 58.952 57.994 52.658 1,7 12,0 
+\\ Depreciações e Amortizações (48.604) (47.849) (44.095) 1,6 10,2 
+Imobilizado de Uso (15.054) (14.834) (13.794) 1,5 9,1 
+Intangível (33.550) (33.015) (30.301) 1,6 10,7 
+\\ Outros Ativos 33.228 32.106 25.875 3,5 28,4 
+\\ Provisões para Redução ao Valor Recuperável de Ativos (2.170) (2.260) (2.601) (4,0) (16,6) 
+\\ Total 2.127.922 2.077.359 1.964.052 2,4 8,3 
+\\ Passivo 
+\\ Depósitos e Demais Instrumentos Financeiros 1.482.705 1.435.047 1.364.374 3,3 8,7 
+Recursos de Instituições Financeiras 415.948 403.253 356.366 3,1 16,7 
+Recursos de Clientes 647.309 615.149 623.804 5,2 3,8 
+Recursos de Emissão de Títulos 270.294 269.409 256.325 0,3 5,4 
+Dívidas Subordinadas 57.459 52.495 50.338 9,5 14,1 
+Instrumentos Financeiros Derivativos 15.355 15.646 13.835 (1,9) 11,0 
+Outros Passivos Financeiros 76.340 79.095 63.706 (3,5) 19,8 
+\\ Provisões 439.148 428.198 396.849 2,6 10,7 
+Provisões Técnicas de Seguros e Previdência 403.689 393.720 360.803 2,5 11,9 
+Outras Provisões 35.459 34.478 36.046 2,8 (1,6) 
+\\ Impostos Diferidos 4.719 5.201 5.338 (9,3) (11,6) 
+\\ Outros Passivos 38.689 43.819 34.514 (11,7) 12,1 
+\\ Total do Passivo 1.965.261 1.912.265 1.801.075 2,8 9,1 
+\\ Patrimônio Líquido
+\\ Patrimônio Líquido Atribuído aos Acionistas Controladores 160.487 162.931 161.182 (1,5) (0,4) 
+\\ Participação de Acionistas Não Controladores 2.174 2.163 1.795 0,5 21,1 
+\\ Total do Patrimônio Líquido 162.661 165.094 162.977 (1,5) (0,2) 
+\\ Total 2.127.922 2.077.359 1.964.052 2,4 8,3 
+Dez24R$ milhões Dez23
+Variação %
+ Dez24 x 
+Set24 
+ Dez24 x 
+Dez23 Set24
+
+[p. 54]
+Bradesco | Relatório de Análise Econômica e Financeira 54 
+balanço patrimonial – consolidado seguros 
+Abaixo apresentamos os principais dados do Balanço Patrimonial Seguros, gerencialmente consolidado: 
+ 
+capital mínimo requerido – grupo bradesco 
+seguros 
+Para as empresas reguladas pela SUSEP, a Resolução CNSP nº 432/21 e alterações posteriores, estabelece que as 
+sociedades deverão apresentar Patrimônio Líquido Ajustado (PLA) igual ou superior ao Capital Mínimo Requerido 
+(CMR). O CMR é equivalente ao maior valor entre o Capital Base (CB) e o Capital de Risco (CR). Para as empresas 
+reguladas pela ANS, a Resolução Normativa nº 569/22 e alterações posteriores, estabelece que as sociedades 
+deverão apresentar PLA igual ou superior ao Capital Regulatório (CR). O CR é equivalente ao maior valor entre o 
+Capital Base (CB) e o Capital Baseado em Riscos (CBR). O PLA é avaliado numa visão econômica, e deve ser 
+calculado com base no patrimônio líquido contábil ou no patrimônio social contábil, considerando ajustes 
+contábeis e ajustes associados à variação dos valores econômicos. 
+ 
+O processo de adequação e gerenciamento de capital é acompanhado de forma contínua e visa assegurar que o 
+Grupo Bradesco Seguros mantenha uma sólida base de capital para apoiar o desenvolvimento das atividades e 
+fazer face aos riscos em qualquer situação do mercado, em atendimento aos requerimentos regulatórios e/ou 
+aos aspectos de Governança Corporativa. 
+ 
+O capital mínimo requerido (CMR), em Dez24, totalizou o montante de R$ 13,0 bilhões. 
+ R$ milhões 
+ \\ Ativo 
+ \\ Circulante e Realizável a Longo Prazo 442.036 436.677 399.866 1,2 10,5 
+ Títulos e Valores Mobiliários 419.489 416.049 381.323 0,8 10,0 
+ Prêmios de Seguros a Receber 6.813 6.863 6.424 (0,7) 6,1 
+ Outros Créditos 15.734 13.766 12.119 14,3 29,8 
+ \\ Permanente 12.810 12.223 10.799 4,8 18,6 
+ \\ Total 454.846 448.900 410.665 1,3 10,8 
+ \\ Passivo 
+ \\ Circulante e Exigível a Longo Prazo 416.405 411.260 369.386 1,3 12,7 
+ Provisões Técnicas de Seguros, Previdência e 
+Capitalização 403.688 393.720 360.803 2,5 11,9 
+ Contingências Fiscais, Cíveis e Trabalhistas 2.502 2.435 2.141 2,7 16,9 
+ Outras Obrigações 10.215 15.105 6.442 (32,4) 58,6 
+ \\ Participações Minoritárias 730 735 860 (0,7) (15,1) 
+ \\ Patrimônio Líquido 37.711 36.905 40.418 2,2 (6,7) 
+ \\ Total 454.846 448.900 410.665 1,3 10,8 
+Dez23 Dez24 x 
+Set24 
+ Dez24 x 
+Dez23 
+Variação %
+Dez24 Set24
+
+[p. 55]
+Bradesco | Relatório de Análise Econômica e Financeira 55 
+composição analítica da demonstração do 
+resultado gerencial x recorrente 
+ 
+(1) Para mais informações, favor consultar a nota explicativa nº 34 – Balanço Patrimonial e Demonstração do Resultado Gerencial por Segmento de Negócio, no capítulo “Demonstrações 
+Financeiras” deste relatório; (2) Inclui reclassificações entre as linhas do resultado, que não afetam o Lucro Líquido, mas que permitem uma melhor análise das linhas de negócios, 
+incluindo o ajuste do hedge fiscal; contempla realocação nas linhas de Margem Financeira e PDD Expandida, relacionadas, aos efeitos da operação de venda de ativos financeiros (cessão 
+de crédito); e (3) Refere-se à Demonstração do Resultado – Gerencial (1) com as reclassificações entre linhas, que não afetam o Lucro Líquido. 
+comparativo BRGAAP x IFRS 
+Segue abaixo a reconciliação do Patrimônio Líquido e do Lucro Líquido, referente a dezembro de 2024: 
+ 
+Principais Ajustes 
+Perda Esperada de Ativos Financeiros - Contempla: (i) Perda esperada de empréstimos e adiantamentos a clientes; e (ii) Perda esperada 
+com demais ativos financeiros. 
+Contratos de Seguro - Compreende a adoção da Norma IFRS17 que passou a vigorar em 1º de janeiro de 2023 e não foi adotada pelo 
+Regulador de Entidades de Seguros Local (Superintendência de Seguros Privados - SUSEP), este normativo traz novas abordagens na 
+mensuração dos contratos de seguros diferentemente da abordagem aplicada anteriormente no IFRS4. 
+Ágio na Combinação de Negócios - Para fins de IFRS, os ativos e passivos identificáveis originados das combinações de negócios foram 
+ajustados pelas diferenças de práticas contábeis, bem como reconhecidos a valor justo, sendo que o valor do goodwill não é amortizado, 
+mas testado, periodicamente, para verificar se há evidencias objetivas de perda por valor recuperável (impairment).
+\\ Margem Financeira 20.831 (3.836) - 16.995 
+PDD Expandida (8.159) 699 - (7.460) 
+\\ Margem Financeira Líquida 12.672 (3.137) - 9.535 
+ Resultado das Operações de Seguros, Previdência e 
+Capitalização 3.338 2.193 - 5.531 
+Receitas de Prestação de Serviços 10.218 44 - 10.262 
+Despesas Operacionais (18.399) 1.138 - (16.418) 
+Despesas de Pessoal (6.773) - - (6.773) 
+Outras Despesas Administrativas (6.332) 17 - (6.315) 
+Outras Receitas / Despesas Operacionais (5.294) 1.121 843 (3.330) 
+Despesas Tributárias (1.835) (196) - (2.031) 
+Resultado de Participação em Coligadas 90 - - 90 
+\\ Resultado Operacional 6.084 41 843 6.969 
+Resultado Não Operacional (23) 63 - 40 
+IR/CS e Participação Minoritária (1.127) (104) (375) (1.607) 
+\\ Lucro Líquido 4.934 - 468 5.402 
+DRE Recorrente (3)DRE Gerencial (1)
+R$ milhões
+Reclassificações (2) Eventos não 
+Recorrentes
+4º trimestre de 2024
+Atribuível ao Controlador 
+R$ milhões Dez24 12M24 12M23
+\\ BRGAAP 160.487 19.086 15.122 
+Perda Esperada de Ativos Financeiros (1.823) (1.974) 1.268 
+Contratos de Seguros 1.835 (20) (1.746) 
+Ágio na Combinação de Negócios 4.807 153 223 
+Outros 3.103 7 (616) 
+\\ IFRS 168.409 17.252 14.251 
+\\ Diferença IFRS vs. BRGAAP 7.922 (1.834) (871) 
+Lucro LíquidoPatrimônio Líquido
+
+[p. 56]
+Bradesco | Relatório de Análise Econômica e Financeira 56 
+(Esta página foi deixada em branco propositalmente).
+
+[p. 57]
+Relatório dos 
+Auditores 
+Independentes
+
+[p. 58]
+KPMG Auditores Independentes Ltda., uma sociedade simples brasileira, de responsabilidade limitada e firma-membro da organização global KPMG de firmas-membro 
+independentes licenciadas da KPMG International Limited, uma empresa inglesa privada de responsabilidade limitada. 
+58 
+ 
+KPMG Auditores Independentes Ltda. 
+Rua Arquiteto Olavo Redig de Campos, 105, 12º andar - Torre A 
+04711-904 - São Paulo/SP - Brasil 
+Caixa Postal 79518 - CEP 04707-970 - São Paulo/SP - Brasil 
+Telefone +55 (11) 3940-1500 
+kpmg.com.br 
+ 
+Relatório de Asseguração Independente - Asseguração Razoável 
+Ao 
+Conselho de Administração do 
+Banco Bradesco S.A. 
+Osasco - SP 
+ 
+Relatório de Asseguração Razoável Independente para o Banco Bradesco sobre o processo de compilação e 
+apresentação das informações financeiras consolidadas suplementares incluídas no Relatório de Análise 
+Econômica e Financeira 
+Fomos contratados pelo Banco Bradesco S.A. (“Banco” ou “Bradesco”) para a elaboração de um relatório sobre o 
+processo de compilação e apresentação das informações financeiras consolidadas suplementares incluídas no 
+Relatório de Análise Econômica e Financeira do Bradesco para o exercício findo em 31 de dezembro de 2024, na forma 
+de uma conclusão de asseguração razoável independente sobre se a afirmação do Bradesco de que o processo de 
+compilação e apresentação das informações financeiras consolidadas incluídas no Relatório de Análise Econômica e 
+Financeira estão, em todos os aspectos relevantes, com base nas informações referidas no parágrafo “Critérios para 
+elaboração das informações financeiras consolidadas suplementares” anexo a este relatório, adequadamen te 
+apresentadas. 
+ 
+Responsabilidades da Administração do Bradesco 
+A Administração do Bradesco é responsável pelo processo de compilação e apresentação das informações financeiras 
+consolidadas suplementares incluídas no Relatório de Análise Econômica e Financeira necessário para permitir que 
+elas estejam de acordo com os critérios para elaboração das informações financeiras consolidadas suplementares 
+descritas abaixo, e pelas demais informações contidas neste relatório, assim como pelo desenho, implementação e 
+manutenção dos controles internos relevantes que ela determinou como necessários para permitir que tais informações 
+estejam livres de distorção relevante, independentemente se causada por fraude ou erro. 
+ 
+Nossas Responsabilidades 
+Nossa responsabilidade é examinar o processo de compilação e apresentação das informações financeiras 
+consolidadas suplementares incluídas no Relatório de Análise Econômica e Financeira elaboradas pelo Bradesco e 
+elaborar um relatório sobre elas na forma de uma conclusão de asseguração razoável independente com base nas 
+evidências obtidas. Conduzimos nosso trabalho de acordo com a NBC TO 3000 - Trabalho de Asseguração Diferente 
+de Auditoria e Revisão e ISAE 3000, Assurance Engagements Other Than Audits or Reviews of Historical Financial 
+Information emitidas pelo Conselho Federal de Contabilidade e International Auditing and Assurance Standards Board, 
+respectivamente. Essas normas requerem o planejamento dos trabalhos e a execução dos procedimentos de forma a 
+obter segurança razoável sobre se o processo de compilação e apresentação das informações financeiras consolidadas 
+suplementares incluídas no Relatório de Análise Econômica e Financeira estão de acordo com as informações referidas 
+no parágrafo “Critérios para elaboração das informações f inanceiras consolidadas suplementares” , em todos os 
+aspectos relevantes. 
+ 
+A KPMG Auditores Independentes Ltda. (“KPMG”) aplica a Norma Brasileira de Gestão de Qualidade (NBC PA 01), que 
+requer que a KPMG planeje, implemente e opere um sistema de gestão de qualidade, incluindo políticas ou 
+procedimentos relacionados ao cumprimento de requerimentos éticos, normas profissionais e exigências legais e 
+regulatórias aplicáveis. Cumprimos com os requisitos de independência e outros requisitos éticos do Código de Ética 
+Profissional do Contador e das Normas Profissionais (incluindo as Normas de Independência) baseados nos princípios 
+fundamentais de integridade, objetividade, competência profissional e devido zelo, confidencialidade e comportamento 
+profissional.
+
+[p. 59]
+KPMG Auditores Independentes Ltda., uma sociedade simples brasileira, de responsabilidade limitada e firma-membro da organização global KPMG de firmas-membro 
+independentes licenciadas da KPMG International Limited, uma empresa inglesa privada de responsabilidade limitada. 
+59 
+Os procedimentos selecionados dependem do nosso julgamento do auditor, incluindo a avaliação dos riscos de 
+distorção relevante sobre o processo de compilação e apresentação das informações financeiras consolidadas 
+suplementares independentemente se causada por fraude ou erro. 
+Na elaboração dessa avaliação de riscos, consideramos os controles internos relevantes para a elaboração do 
+processo de compilação e apresentação das informações financeiras consolidadas suplementares de forma a 
+determinar os procedimentos de asseguração q ue são apropriados às circunstâncias, mas não com o propósito de 
+expressar uma conclusão sobre a efetividade dos controles internos do Bradesco relacionados ao processo de 
+compilação e apresentação das informações financeiras consolidadas suplementares. Nosso trabalho também incluiu: 
+a avaliação da adequação da compilação e apresentação das informações financeiras consolidadas suplementares, 
+a adequação dos critérios utilizados pelo Bradesco no processo de compilação e apresentação das informações 
+financeiras consolidadas suplementares incluídas no Relatório de Análise Econômica e Financeira às circunstâncias 
+do trabalho, a avaliação da adequação do processo de compilação e apresentação das informações financeiras 
+consolidadas e suplementares, a razoabilidade das estimativas feitas pelo Bradesco e a avaliação da apresentação 
+geral do Relatório de Análise Econômica e Financeira. A asseguração razoável é menor do que uma asseguração 
+absoluta. 
+Critérios para elaboração das informações financeiras consolidadas suplementares 
+As informações financeiras consolidadas suplementares divulgadas no Relatório de Análise Econômica e Financeira 
+para o exercício findo em 31 de dezembro de 2024, foram compiladas pela Administração do Bradesco com base nas 
+demonstrações financeiras consolidadas relativas à data-base de 31 de dezembro de 2024, nos critérios descritos no 
+Relatório de Análise Econômica e Financeira e na nota explicativa n .º 34 das referidas demonstrações financeiras 
+consolidadas, com o objetivo de possibilitar uma análise adic ional, sem, contudo, fazerem parte das demonstrações 
+financeiras consolidadas divulgadas nesta data. 
+Conclusão 
+Nossa conclusão foi baseada e está limitada aos assuntos descritos neste relatório. 
+Acreditamos que as evidências obtidas são suficientes e apropriadas para fundamentar a nossa conclusão. Em nossa 
+opinião, o processo de compilação e apresentação das informações financeiras suplementares incluídas no Relatório 
+de Análise Econômica e Financeira está, em todos os aspectos relevantes, de acordo com as informações referidas no 
+parágrafo “Critérios para elaboração das informações financeiras consolidadas suplementares”. 
+São Paulo, 06 de fevereiro de 2025 
+KPMG Auditores Independentes Ltda. 
+CRC 2SP-027685/O-0 F SP 
+Cláudio Rogélio Sertório 
+Contador CRC 1SP212059/O-0
+
+[p. 60]
+Bradesco | Relatório de Análise Econômica e Financeira 60 
+(Esta página foi deixada em branco propositalmente).
+
+[p. 61]
+relatório de análise 
+econômica e financeira 
+ 
+ 
+3T24 
+Demonstrações 
+Financeiras 
+2024
+
+[p. 62]
+Relatório da Administração 
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 62 
+ 
+Mensagem aos Acionistas 
+Senhoras e senhores acionistas, 
+Preservamos a nossa tradição de bem -servir nossos clientes, fortalecendo nossa marca e 
+renovamos nossa vocação de parceria e de confiança com os brasileiros. 
+Nesse ritmo de mudanças constantes, diante de um ano desafiador, com a resiliência e o empenho 
+de nossas equipes, cumprimos os objetivos propostos. 
+O ano de 2025 não deve ser diferente. Como em toda a nossa trajetória, seguimos confiantes no 
+potencial do Brasil e na capacidade de seu povo, buscando sempre contribuir para o crescimento econômico 
+e social do País. 
+Alinhados ao nosso compromisso com a transparência e a democratização da informação, 
+apresentamos de maneira detalhada as principais evoluções obtidas no exercício. 
+Aos nossos acionistas e clientes, agradecemos o apoio, a confiança e a preferência com que nos têm 
+distinguido. 
+Boa leitura! 
+ 
+Cidade de Deus, 06 de fevereiro de 2025 
+Luiz Carlos Trabuco Cappi 
+Presidente do Conselho de Administração
+
+[p. 63]
+Relatório da Administração 
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 63 
+ 
+Senhoras e Senhores Acionistas, 
+Submetemos à apreciação de V. Sas. as Demonstrações Financeiras Consolidadas do Banco 
+Bradesco S.A. relativas ao exercício de 2024. Seguimos todas as práticas contábeis adotadas no Brasil, 
+aplicáveis às instituições autorizadas a funcionar pelo Banco Central. 
+ 
+Comentário Econômico 
+A atividade econômica apresentou novamente um crescimento em 2024. As razões que nos levaram 
+a esse desempenho, no entanto, não devem se repetir para 2025. A expectativa de uma safra recorde de 
+grãos no primeiro trimestre ainda deve impulsionar o PIB como um todo. Porém, a partir do segundo 
+semestre, a elevação da taxa Selic e a redução do impulso fiscal deverão resultar em uma desaceleração da 
+economia brasileira. Nossas projeções indicam que o PIB crescerá 2,2% em 2025, após expansão estimada 
+de 3,6% em 2024. 
+A piora das expectativas de inflação e a forte desvalorização do câmbio nos últimos meses levaram 
+o Banco Central a acelerar o ritmo de aumento da taxa de juros e a sinalizar que elevará a Selic ao menos 
+até 14,25%. Prevemos que os juros básicos da economia atingirão o patamar máximo de 15,25% em meados 
+do ano e encerrarão o ano de 2025 em 14,75%. 
+Os dados de inflação nos EUA voltaram a ser o foco de atenção. Ao mesmo tempo, a atividade segue 
+mostrando resiliência. Entendemos que há espaço para continuidade dos cortes dos juros, com a taxa básica 
+norte-americana chegando a 3,50% ao final do ano. De todo modo, o cenário internacional sugere cautela 
+por parte das nações emergentes. Incertezas relacionadas à aplicação de tarifas comerciais pelos EUA e 
+conflitos geopolíticos ao redor do mundo podem prejudicar o desempenho econômico desses países. 
+ 
+Destaques do Período 
+Em agosto de 2024, o Banco Bradesco S.A. (“Bradesco”) comunicou aos seus acionistas a celebração 
+de um Acordo de Investimentos com a John Deere Brasil S.A, subsidiária integral da Deere & Company (USA), 
+uma das líderes mundiais no fornecimento de equipamentos para agricultura, construção e silvicultura. Essa 
+parceria estratégica demonstrou o objetivo do Bradesco em fortalecer ainda mais seu posicionamento nos 
+setores de agronegócio e construção, ampliando a oferta de financiamento e serviços financeiros par a 
+clientes e concessionários na aquisição de equipamentos, peças e serviços do grupo John Deere. 
+Em novembro de 2024, o Banco Bradesco S.A. comunicou aos seus acionistas a celebração de um 
+Acordo de Investimento com o grupo Rede D’Or São Luiz S.A. (“Rede D’Or”) para inclusão do Hospital São 
+Luiz Campinas na rede hospitalar Atlantica D’Or. Essa ação expandiu a parceria celebrada com a Rede D’Or, 
+divulgada ao mercado em 8 de maio de 2024 e conserv ou a participação, na estrutura existente, ficando 
+50,01% para a Rede D’Or e 49,99% para a Atlantica. A expansão da parceria está alinhada com a estratégia 
+da A tlantica de investir na cadeia de valor do setor de saúde por meio de parcerias com players 
+estabelecidos na operação de hospitais. 
+Além disso, o Banco Bradesco S.A. aprovou em Dezembro de 2024 a proposta da diretoria da 
+sociedade, para pagamento de juros sobre o capital próprio complementares, no valor total de 
+R$ 2.975.700.000,00, sendo R$ 0,27 por ação ordinária e R$ 0,29 por ação preferencial.
+
+[p. 64]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 64 
+ 
+ 
+(1) Atribuído aos controladores; e 
+(2) Conforme dispõe o Artigo 8º da Circular nº 3.068/01, do Bacen, o Bradesco 
+declara possuir capacidade financeira e intenção de manter até o vencimento os 
+títulos classificados na categoria “mantidos até o vencimento”
+2024 
+informações selecionadas 
+DEPÓSITOS TOTAIS 
+(Dez24 vs. Dez23) 
+ 
+R$ 645,8 bi (+3,6%) 
+ 
+A Prazo: R$ 467,7 bi (+6,0%) 
+Poupança: R$ 132,5 bi (+1,1%) 
+À Vista: R$ 45,5 bi (-10,8%) 
+R$ 19,1 bi 
+R$ 160,5 bi 
+ROAE 
+LUCRO POR AÇÃO 
+VALOR PATRIMONIAL POR AÇÃO 
+LUCRO LÍQUIDO CONTÁBIL 
+R$ 1,71 ON 
+R$ 1,89 PN 
+R$ 15,14 
+11,4% 
+PATRIMÔNIO LÍQUIDO (1) 
+VALOR DE MERCADO 
+ÍNDICE DE CAPITAL - NÍVEL I 
+R$ 117,6 bi 
+12,4% 
+JCP R$ 11,3 bi (bruto) | Payout 62,2% (bruto) 
+TÍTULOS E VALORES MOBILIÁRIOS 
+(Dez24 vs. Dez23) 
+ 
+R$ 769,9 bi (+1,7%) 
+DPV: R$ 132,9 bi (-54,4%) 
+Negociação: R$ 346,8 bi (-5,4%) 
+Mantidos até o vencimento (2): R$ 290,2 bi 
+(+193,8%) 
+CARTEIRA DE CRÉDITO EXPANDIDA 
+(Dez24 vs. Dez23) 
+R$ 981,7 bi (+11,9%) 
+ 
+PESSOA FÍSICA: R$ 414,1 bi (+13,3%) 
+GRANDES EMPRESAS: R$ 352,7 bi (+2,5%) 
+MICRO, PEQ. E MÉDIAS EMPRESAS: R$ 214,9 bi 
+(+28,0%) 
+PROVISÃO PARA CRÉDITO 
+(Dez24 vs. Dez23) 
+ 
+R$ 48,3 bi (-10,4%) 
+ -0,4% a/a 
+ 
+ +26,2% a/a
+
+[p. 65]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 65 
+ 
+Oferecemos uma extensa linha de serviços 
+internacionais, contemplando o financiamento ao 
+comércio exterior, capital de giro em moedas 
+estrangeiras, operações de câmbio e fianças 
+internacionais para pessoas físicas e jurídicas, através 
+de nossas plataformas de Corporate e Global Private 
+Banking. O atendimento às empresas se materializa 
+tanto com o apoio à multinacionais estrangeiras com 
+atuação no Brasil ou empresas brasileiras com atuação 
+no exterior, quanto na atuação como principal elo de 
+comunicação entre prospectivos clientes Multinacionais 
+e o Bradesco Brasil. 
+Agências 
+Nova York 
+Banco Bradesco S.A. 
+Grand Cayman 
+Banco Bradesco S.A. 
+Escritório de Representação 
+Hong Kong 
+Banco Bradesco S.A. 
+Guatemala 
+Representaciones Administrativas 
+Internacionales 
+ 
+ 
+Nova York 
+Bradesco Securities, Inc. 
+Miami 
+Bradesco Bank 
+Bradesco Investments Inc. 
+Bradesco Global Advisors Inc. 
+México 
+Bradescard México Sociedad de 
+Responsabilidad Limitada 
+ 
+Luxemburgo 
+Banco Bradesco Europa S.A. 
+Londres 
+Bradesco Securities UK 
+Limited 
+Hong Kong 
+Bradesco Securities Hong 
+Kong Limited 
+Bradesco Trade Services 
+Limited 
+Subsidiárias 
+My Account
+Com cartão de débito aceito em 
+195 países e com conversão 
+automática para 180 moedas 
+A My Account é uma conta internacional e digital própria, que pode ser aberta pelo App 
+do Bradesco. Além do cartão tradicional, é possível ter um cartão virtual para compras em 
+sites e Apps, com CVV dinâmico, que traz mais comodidade e segurança. 
+Abertura de 228 mil 
+contas em 2024
+Conta internacional digital 
+Jornada 100% digital via App 
+Alerta de cotação personalizável e 
+cotação baseada em dólar comercial 
+Cartão personalizado 
+Transferência entre conta 
+Bradesco e My Account a 
+qualquer hora/dia 
+atuação internacional
+
+[p. 66]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 66 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Investimentos 
+Cliente Afluente: 
+– Plataforma digital de 
+investimentos em carteiras 
+gerenciadas para os mais diversos 
+perfis de investidores. 
+Cliente Private: 
+Investimentos adaptadas ao perfil 
+de risco de cada cliente: 
+– Renda fixa; 
+– ETFs; 
+– Fundos de Investimento; e 
+– Operações Estruturadas; 
+bradesco bank 
+Plataforma internacional do Bradesco nos EUA, com solução completa de 
+produtos, serviços bancários e investimentos para clientes nos segmentos 
+Private e Afluente, além de soluções para clientes do segmento Corporate. 
+bradesco bank
+ 17% a/a 
+Ativos sob Custódia (AUC) 
+Carteira de crédito 
+ 16% a/a 
+Captações através de 
+depósitos 
+ 28% a/a 
+ 28% a/a 
+Receita operacional 
+líquida 
+ 60% a/a 
+Lucro Líquido 
+Soluções Pessoas Físicas 
+Bancárias 
+Conta corrente completa para realização 
+de pagamentos, transferências, online 
+banking e cartão de débito 
+internacional para compras e saques. 
+Cartão de Crédito 
+Cartão bandeira Visa aceito em 195 
+países com benefícios exclusivos, 
+incluindo programa de fidelidade Livelo 
+e conectividade com carteiras digitais. 
+Financiamento Imobiliário 
+Suporte para aquisição de imóvel para 
+residentes e não residentes nos EUA, 
+com equipe com amplo entendimento 
+do mercado e do processo. 
+Soluções Pessoas Jurídicas 
+Gestão de Caixa 
+conta corrente, 
+money market e 
+depósitos 
+remunerados. 
+Pagamentos 
+corresponding 
+banking e 
+transferências 
+internacionais. 
+Serviços 
+Documentários 
+cobrança de 
+exportações e 
+carta de crédito 
+comercial. 
+Crédito 
+Empresarial 
+financiamento de 
+importação, 
+exportação e 
+capital de giro.
+
+[p. 67]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 67 
+ 
+Tecnologia e Inovação 
+A IA Generativa continua em expansão: A BIA Agências já beneficia nossos gerentes com respostas 
+rápidas e precisas a serviço dos clientes. Com diversas habilidades, a BIA Clientes passa a fazer uso da IA 
+Generativa e já interage diariamente com mais de 5 70 mil clientes. E agora atende a Crédito Imobiliário, 
+oferecendo suporte completo pelo WhatsApp, disponibilizando o status do processo e links para inclusão de 
+documentos. A BIA Tech, nossa assistente da TI adotada por 80% dos desenvolvedores e Product O wners, 
+otimizou a produtividade do desenvolvimento em 46%, acelerando o time-to-market das soluções. 
+Nessa jornada de se escalar o uso da IA Generativa, implementamos soluções estruturais, de 
+atendimento, crédito, segurança e eficiência proporcionando entregas focadas na melhor experiência dos 
+clientes e dos times internos. Desenvolvemos uma plataforma qu e disponibiliza serviços reaproveitáveis em 
+diversas aplicações de negócio, implementamos copilotos de atendimento bem como soluções de análise, 
+tratamento e interpretação de dados e informações que fortalecem as operações, apoiam a produtividade e 
+assertividade, possibilitam melhor resposta às demandas de clientes e respaldam os processos decisórios. 
+Como outra importante solução para desenvolvimento, ao lado da Bia Tech, temos o Multiagentes, um 
+conjunto de agentes com atividades especializadas de Product Owners, Desenvolvedores, Arquitetos de 
+Solução etc que podem atuar como "squads virtuais". 
+Com o Enterprise Agility seguimos evoluindo as práticas ágeis em toda a Organização, expandindo o 
+modelo de “tribos” com foco nas unidades de negócios, autônomas e responsáveis pelas soluções de ponta-
+a-ponta. As estruturas organizacionais cada vez mais flexíveis, o feedback contínuo de clientes e stakeholders 
+e a cultura de inovação nos impulsionam, em novos desafios, à melhoria constante de produtos e serviços, e 
+à experimentação e adoção de novas tecnologias e métodos de trabalho. 
+Os investimentos em pessoas e tecnologia são crescentes. Contratamos 30% de engenheiros de 
+dados em relação ao quadro de Dez23. Para fomentar ainda mais a cultura de inovação, promovemos o 
+Innovation Experience 2024 para aculturar toda Organização sobre os temas de open finance, inteligência 
+artificial e ativos digitais. 
+ Em Investimentos, lançamos um portal moderno com conteúdo exclusivo para aprimorar 
+conhecimentos, assessoria de investimentos gratuita e chat com especialistas. O App ganha uma nova home 
+alavancando a experiência do cliente, com uma nova organização da carteira sempre atualizada e com a 
+jornada de criação de objetivos, onde o Banco auxilia com planejamento, simulações e educação financeira. 
+As contas abertas pelo App ganham o Invest Fácil automático, garantindo que o saldo disponível 
+comece a render imediatamente. E agora, também é possível contratar crédito pessoal com garantia de 
+investimentos da modalidade CDB sem comprometer o rendimento do investimento. O App conta com 
+aprimoramento das funcionalidades essenciais: menu mais amigável para cadastro, visão mais clara das 
+operações, definição de limites para agendamento e personalização de informações de débitos. Os 
+pagamentos agora estão centralizados em uma única home. A jornada do PIX ficou mais intuitiva, fácil e rápida. 
+As jornadas de contratação de cartões de crédito permitem a utilização de carteiras digitais e geração 
+de cartões virtuais antes recebimento da versão física. 
+Os clientes Pessoa Jurídica passam a contar com o Tap Bradesco, uma solução completa para 
+transformar seu celular em maquininha Cielo de pagamento com a mesma segurança das máquinas 
+convencionais. 
+Com espírito inovador, o Bradesco está envolvido em diversas iniciativas de ativos digitais, incluindo 
+projetos junto com o Banco Central do Brasil para criar uma infraestrutura financeira tokenizada. Estamos 
+participando da 2ª fase do DREX em dois temas: a tokenização do Certificado de Depósito Bancário (CDB) e 
+sua utilização como garantia nas operações de crédito e a to kenizacao de debêntures. Em infraestruturas 
+públicas para ativos digitais, estamos atuando em um piloto para remessas internacionais com stablecoins e 
+iniciamos a oferta de fundos de criptoativos de outras gestoras na plataforma da Ágora. Seguimos também 
+no desenvolvimento de soluções de identidade digital descentralizada com a IDbra, iniciativa transformadora 
+para o cliente, permitindo-lhe utilizar uma wallet de dados com suas credenciais para acessar serviços online 
+e no mundo físico de forma segura e prática. 
+Entre tantos prêmios em 2024, o Bradesco foi reconhecido como "Vencedor Global" em inovação 
+digital financeira pela premiação da revista The Banker, do Grupo Financial Times. E ganhou em outras 3
+
+[p. 68]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 68 
+ 
+categorias, pelo uso de IA Generativa a serviço do cliente, pela integração da BIA com especialistas para 
+sugestões customizadas de investimentos e pela nova plataforma Bradesco Expresso , que nesse trimestre 
+adicionou mais de 150 novas funcionalidades. A lém disso fomos vencedores no Banking Innovation Awards 
+do Qorus pelo uso da IA Generativa na categoria de tecnologia emergente do ano e eleito top inovação em 
+finanças pela revista Global Finance pelo uso de IA Generativa na leitura de Atas do Copom. 
+Continuamos na vanguarda tecnológica, cada vez mais centrados no cliente, alavancando a 
+experiência de ser Bradesco e o futuro dos serviços financeiros no Brasil. 
+ 
+Produtos e Serviços para o Poder Público 
+Para atender o setor público, possuímos estruturas exclusivas em todo o território nacional, com 
+gerentes de negócios capacitados para ofertar produtos, serviços e soluções com qualidade e segurança aos 
+poderes executivo, legislativo e judiciário federais, estaduais e municipais, além de autarquias, fundações 
+públicas, empresas públicas e de economia mista e as forças armadas e auxiliares. Mensalmente, mais de 11,1 
+milhões de aposentados e pensionistas do INSS recebem seus benefícios no Bradesco, sendo o maior pagador 
+dentre todos os bancos no País. 
+Dispomos de 09 estruturas especializadas no atendimento aos governos, capitais, tribunais, 
+assembleias, ministérios públicos, defensorias públicas, além dos maiores municípios do PIB brasileiro e, 
+também, 30 estruturas de varejo para atender as demais prefeituras e órgãos. Saiba mais em 
+bradescopoderpublico.com.br. 
+ 
+Recursos Humanos 
+O Capital Humano é um dos pilares estratégicos da Organização, sendo um importante alicerce para 
+realização dos negócios. O nosso modelo de Gestão de Capital Humano é pautado no respeito, na 
+transparência e no contínuo investimento no desenvolvimento dos f uncionários. Mantemos nossas equipes 
+motivadas por meio de oportunidades de crescimento na carreira, reconhecimentos, capacitação, 
+remuneração e benefícios diferenciados, além da valorização da diversidade e do equilíbrio entre a vida 
+profissional e pessoal. 
+Muito mais do que políticas e práticas, consolidamos uma cultura de respeito disseminada pela 
+consciência do valor das pessoas, de suas identidades e competências. 
+Ao final do período, a Organização contava com 84.022 funcionários, sendo 72.642 do Banco Bradesco 
+e 11.380 de empresas Ligadas e exterior. 
+Para mais informações sobre Recursos Humanos, acesse o Relatório de Capital Humano, disponível no 
+site bradescori.com.br. 
+ 
+Sustentabilidade para o Bradesco 
+A Sustentabilidade é um dos nossos direcionadores estratégicos, expressa também em nossa 
+Declaração de Propósito. Acreditamos que a governança, a gestão e o engajamento em aspectos ambientais, 
+sociais e de governança (ASG) são fundamentais para o crescimen to sustentável e a perenidade das nossas 
+operações, gerando valor de longo prazo para todos os nossos stakeholders. Nossa estratégia de 
+sustentabilidade está alinhada aos Objetivos de Desenvolvimento Sustentável (ONU) e é pautada na gestão e 
+transparência ASG. 
+Como parte relevante da nossa agenda estratégica, temos um compromisso com o financiamento de 
+negócios sustentáveis e com o apoio contínuo aos nossos clientes na transição para uma economia mais verde, 
+resiliente e inclusiva. Inicialmente, o Banco tinha uma meta de R$ 250 bilhões para direcionar créditos em 
+setores e atividades com benefícios socioambientais. Esta meta foi ampliada para R$ 320 bilhões e até 
+dezembro de 2024, atingimos 95% deste montante.
+
+[p. 69]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 69 
+ 
+Nossa atuação em sustentabilidade tem sido reconhecida em índices e ratings nacionais e 
+internacionais de referência, como o Índice Dow Jones de Sustentabilidade (DJSI) da Bolsa de Valores de Nova 
+York e o Índice de Sustentabilidade Empresarial (ISE) da B3 . Esses índices refletem nossa gestão e 
+desempenho em critérios econômicos, ambientais e sociais de longo prazo. 
+Para acompanhar nossas iniciativas, acesse: bradescori.com.br | bradescosustentabilidade.com.br. 
+ 
+Governança Corporativa 
+O Banco observa e estimula as boas práticas de governança corporativa, fundamentando -se, 
+principalmente, nas demandas legais e de mercado, de modo a zelar pelos interesses dos acionistas e demais 
+stakeholders. Nossa estrutura é bem definida, possibilitando a garantia e viabilidade da adoção das melhores 
+práticas. Assim, entregamos os melhores esforços para sempre estarmos em conformidade com tais padrões, 
+buscando a geração de valor sustentável para nossa Organização. 
+A Assembleia Geral é o mais importante evento societário de nossa governança. Nela, os acionistas 
+elegem os membros do Conselho de Administração, os quais possuem um mandato único de 2 (dois) anos. 
+Constituído por 11 (onze) membros, dentre os quais há 4 (quatro) membros independentes, o órgão tem como 
+principais atribuições estabelecer, supervisionar e monitorar a estratégia corporativa do Banco Bradesco, cuja 
+responsabilidade de implementação é da Diretoria, além de revisar os planos de ação e políticas de negócios. 
+Os cargos de Presidente do Conselho de Administração e de Diretor -Presidente, conforme devidamente 
+previsto no Estatuto Social da Companhia, não são cumulativos. 
+Assessorado por uma Secretaria de Governança, o Conselho de Administração reúne -se 
+ordinariamente 12 (doze) vezes ao ano e, extraordinariamente, quando os interesses da Companhia assim o 
+exigirem. Com Regimento Interno próprio, o Conselho de Administração possui, ainda, um calendário anual de 
+reuniões fixado pelo seu Presidente. 
+Contamos, ainda, com a Auditoria Interna Global, a qual é subordinada ao Conselho de Administração, 
+além de 7 Comitês também a ele subordinados. Destes, 2 (dois) são estatutários (Comitês de Auditoria e de 
+Remuneração) e 5 (cinco) não-estatutários (Comitês de Integridade e Conduta Ética, Riscos, Sustentabilidade 
+e Diversidade, Nomeação e Sucessão e Estratégico). 
+A Diretoria do Banco Bradesco é o órgão responsável por representar a Organização, cabendo à 
+Diretoria Executiva coordenar a execução da estratégia aprovada pelo Conselho de Administração. Ela realiza 
+reuniões ordinárias quinzenalmente e extraordinárias se mpre que necessário, deliberando sobre todos os 
+assuntos e matérias essenciais para o cumprimento de nossos objetivos e atribuições. Comitês Executivos 
+auxiliam nas atividades da Diretoria Executiva, todos normatizados por regimentos próprios. 
+Na função de Órgão Fiscalizador dos atos dos Administradores e com atuação permanente, temos o 
+Conselho Fiscal, também eleito pelos acionistas e com mandato único de 1 (um) ano. É composto por 5 (cinco) 
+membros efetivos, sendo 2 (dois) eleitos por acionistas minoritários, com número igual de suplentes. 
+Nossa Organização está listada no Nível 1 de Governança Corporativa da B3 – Brasil, Bolsa, Balcão, e 
+nossas práticas atestam o compromisso com a geração de valor para acionistas, funcionários e a sociedade 
+em geral. 
+Demais informações sobre a Governança Corporativa do Banco Bradesco estão disponíveis no site de 
+Relações com Investidores (banco.bradesco/ri – Seção Governança Corporativa). 
+ 
+Auditoria Interna 
+Compete ao Departamento de Auditoria Interna Global, que está subordinada e reporta funcional, 
+administrativa e operacionalmente ao Conselho de Administração do Banco Bradesco S.A., considerar, no 
+escopo de seus exames/análises, a efetividade da governança corporativa e do gerenciamento de riscos e 
+controles; a confiabilidade, a efetividade e a integridade dos processos e sistemas de informações gerenciais 
+e operacionais; a observância ao arcabouço legal, infralegal, regulatório, normas e códigos de conduta 
+internos aplicáveis aos membros do quadro funcional da Organização; e à salvaguarda dos ativos frente às 
+suas metas e objetivos estratégicos. 
+A atuação está pautada na aderência aos elementos mandatórios do International Professional 
+Practices Framework (IPPF) do The Institute of Internal Auditors (IIA), incluindo os Princípios Fundamentais
+
+[p. 70]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 70 
+ 
+para a Prática Profissional de Auditoria Interna, o Código de Ética do IIA, o Código de Ética Setorial dos 
+Auditores Internos da Organização Bradesco e as diretrizes internas definidas pelo Departamento de Auditoria 
+Interna no âmbito da Organização Bradesco e, quando aplicável, de terceiros/fornecedores. 
+ 
+Política de Distribuição de Dividendos e Juros sobre 
+Capital Próprio 
+No final de 2024, as Ações Bradesco, com elevado nível de liquidez (BBCD4) representavam 3,0% do 
+Ibovespa. As nossas ações também são negociadas no exterior, na Bolsa de Valores de Nova York, por meio 
+de ADR – American Depositary Receipt – Nível 2, e na Bolsa de Valores de Madrid, Espanha, por meio de DR, 
+onde integram o Índice Latibex. 
+Os papéis do Bradesco ainda participam de diversos importantes índices, como o Índice de Ações com 
+Tag Along Diferenciado (ITAG), o Índice de Ações com Governança Corporativa Diferenciada (IGC) e os Índices 
+Brasil (IBrX50 e IBr100). A presença nesses índices reforça nossa constante busca pela adoção de boas práticas 
+de governança corporativa, eficiência econômica, ética e responsabilidade socioambiental. 
+A título de dividendo mínimo obrigatório, aos acionistas é assegurado 30% do lucro líquido após as 
+deduções legais, além do Tag Along de 100% para as ações ordinárias e de 80% para as ações preferenciais. 
+Ainda, são conferidos às ações preferenciais dividendos 10% maiores do que os atribuídos às ordinárias. 
+ 
+Controle Integrado de Riscos 
+O controle corporativo dos riscos é exercido de modo integrado e independente, preservando e 
+valorizando o ambiente de decisões colegiadas, desenvolvendo e implementando metodologias, modelos e 
+ferramentas de mensuração e controle. Os impactos desfavoráveis podem ocorrer de múltiplos fatores e são 
+minorados por meio do framework de riscos e uma sólida estrutura de governança, que envolve o Comitê de 
+Gestão Integrada de Riscos e Alocação de Capital, Comitê de Riscos e o Conselho de Administração. 
+A Organização, tendo ampla atuação em todos os segmentos de mercado e, como toda grande 
+instituição, está sujeita a diversos riscos. Assim, a atividade de gerenciamento de riscos é altamente 
+estratégica em virtude da crescente complexidade dos produtos e s erviços e, também, da globalização dos 
+nossos negócios. Adotamos, constantemente, mecanismos de identificação e monitoramento, possibilitando 
+antecipar o desenvolvimento e implementação de ações que mitiguem eventuais impactos adversos. 
+De acordo com a biblioteca de riscos, os riscos relevantes para a Organização são solvência e 
+rentabilidade, liquidez, crédito, mercado, operacional, compliance, segurança cibernética, estratégia, social, 
+ambiental, climático, modelo, contágio, reputação e subscrição. Na tentativa de precipitar ou reduzir efeitos, 
+caso ocorram, procuramos, ainda, identificar e monitorar eventuais riscos emergentes, entre eles, assuntos 
+relacionados ao crescimento global, questões geopolíticas internacionais e a situação eco nômica e fiscal 
+brasileira. Também, consideramos os riscos representados pela inovação tecnológica em serviços financeiros. 
+ 
+Avaliação Independente de Modelos 
+Modelos são ferramentas quantitativas que proporcionam sintetização de assuntos complexos, 
+padronização e automatização da tomada de decisões e possibilidade de reaproveitamento das informações 
+internas e externas. Isso traz melhoria da eficiência tanto pe la redução dos custos associados à análise e à 
+decisão julgamental como pela maior precisão. Seu uso é uma prática cada vez mais difundida, sobretudo 
+pelos avanços tecnológicos e pelas novas técnicas de inteligência artificial. 
+Nós utilizamos modelos no apoio à tomada de decisão e para o fornecimento de informações 
+preditivas em várias áreas do negócio, como gerenciamento dos riscos, cálculo de capital, teste de estresse e 
+precificação, além de outras estimativas oriundas de mode los para avaliar impactos financeiros ou de 
+reputação.
+
+[p. 71]
+BRADESCO | Relatório da Administração | Demonstrações Financeiras Consolidadas 71 
+ 
+Em se tratando de simplificações da realidade, os modelos são sujeitos a riscos, que podem 
+desencadear consequências adversas devido a decisões baseadas em estimativas incorretas ou obsole
