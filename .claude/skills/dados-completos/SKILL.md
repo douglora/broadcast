@@ -29,17 +29,28 @@ Ela e igual para DIRR3, para PETR4 e para MELI34. Um ativo que nao tem um
 desses trimestres esta incompleto, e ponto - a razao (coletor, fonte, empresa
 que nao divulgou) entra na resposta, mas nao muda o veredito.
 
-Tres estados por trimestre, e so o primeiro conta como dado:
+Cinco estados por trimestre, e so o primeiro conta como dado:
 
-| Estado    | O que e                                                        |
-|-----------|----------------------------------------------------------------|
-| `ok`      | release guardado, com texto que sustenta analise                |
-| `CURTO`   | menos de 4 mil caracteres, ou documento que nao e release       |
-| `AUSENTE` | nao existe no branch                                            |
+| Estado     | O que e                                                            |
+|------------|--------------------------------------------------------------------|
+| `ok`       | release guardado, com texto que sustenta analise                    |
+| `CURTO`    | abaixo de 4 mil caracteres, ou muito abaixo da mediana do ticker    |
+| `FRACO`    | documento que nao e release de resultado                            |
+| `SUSPEITO` | documento da SEC gravado antes do classificador; nao conferido      |
+| `AUSENTE`  | nao existe no branch                                                |
+| `n/a`      | anterior a primeira demonstracao oficial: nao existe release dele   |
 
-`CURTO` e a armadilha silenciosa: aviso de assembleia, dividendo
-extraordinario, recompra e venda de ativo entram no lugar do release e a
-contagem de "8 releases" fica certa. Linha no indice nao e dado.
+`CURTO` e `FRACO` sao a armadilha silenciosa: ata de assembleia, dividendo
+extraordinario, recompra, venda de ativo e ate as demonstracoes auditadas
+inteiras (184 mil caracteres, no caso do XP) entram no lugar do release e a
+contagem de "8 releases" fica certa. Linha no indice nao e dado. Tamanho
+tambem nao resolve sozinho: o 4T24 do Itau tinha 6 mil caracteres contra 92 mil
+dos trimestres irmaos, e o piso relativo e que o pegou.
+
+`n/a` existe para a trava nao travar o que nao tem como existir: companhia
+aberta ha um ano nao tem release de dois anos atras. O limite vem da propria
+serie de demonstracoes oficiais, e so vale quando ela tem 4 trimestres ou
+mais - serie curta e coleta truncada, nao companhia nova.
 
 ## 2. As duas travas, nesta ordem
 
@@ -63,7 +74,18 @@ FRESCOR TEND3: ATUAL | COBERTURA 7/8, falta 4T25
 ```
 
 So `frescor` com saida 0 **e** `cobertura` com saida 0 autorizam escrever
-numero.
+numero. O `cobertura` tem tres saidas:
+
+| Saida | Significado                                  | O que fazer                         |
+|-------|----------------------------------------------|-------------------------------------|
+| 0     | janela inteira, com texto util                | pode escrever                       |
+| 1     | falta trimestre ou o documento nao serve      | dispare a coleta e repita (secao 3) |
+| 2     | a coleta de hoje ja relatou a mesma lacuna    | pare de insistir, declare (secao 4) |
+
+Saida 2 quer dizer que o coletor com a regra de janela ja rodou neste ativo nas
+ultimas 24 horas e mesmo assim nao achou: ou a companhia nao publicou aquele
+trimestre, ou o site de RI bloqueia o coletor (403/WAF, como a PRIO). Repetir a
+coleta nao muda nada; o que muda e declarar.
 
 Antes de comparar contra a mediana do grupo, rode
 `python3 mesa.py cobertura TICKER --pares`: par com janela furada produz
@@ -87,8 +109,13 @@ mediana errada, e a comparacao e o passo 5 do deep search.
    minutos e devolveria o JSON velho.
 5. **Repita** `python3 mesa.py cobertura TICKER`. Uma coleta pode nao fechar
    tudo: o coletor tem orcamento de tempo por ativo e completa na seguinte.
-   Duas rodadas sem avanco significam que o documento nao esta na fonte, nao
-   que o coletor desistiu - va para o passo 4 desta skill.
+   Saida 2, ou duas rodadas sem avanco, significam que o documento nao esta na
+   fonte - va para o passo 4 desta skill.
+6. Ticker que nunca foi coletado nao precisa de mapa: o coletor descobre a
+   central de resultados sozinho pelo dominio da companhia e guarda o que achou
+   em `ri_descobertos.json`, no branch. Quando o log disser que o site existe
+   mas bloqueia o coletor, a fonte nao e o problema: e o robo que nao passa, e
+   isso se declara como lacuna em vez de insistir.
 
 O coletor persegue a janela, nao a ponta: ele vai atras do trimestre que falta
 mesmo quando ele e **mais antigo** que o release mais novo, consulta o site de
