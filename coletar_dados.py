@@ -2202,9 +2202,373 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
     return [], 0, None, resumo
 
 
+# ───────────────── Descobridor da central de resultados (qualquer ticker) ─────────────────
+# ri_fontes.py mapeia 18 companhias a mao. O universo da mesa tem mais de 100 acoes da B3, e com o
+# indice IPE da CVM fora do ar o release so existe no site de RI: sem descobrir a central sozinho, um
+# deep search em qualquer um dos outros ~83 tickers nasce vazio. A regra e da mesa, nao do ativo.
+#
+# A descoberta e barata porque o coletor ja sabe o dominio da companhia: `yahoo.info.website` vem
+# preenchido em 24 dos 25 ativos do branch. Dali saem os candidatos de host, na ordem de acerto medida
+# sobre os 18 ja mapeados (ri.<dominio> acerta 13; os outros 5 caem no rastreio de links). Achada a
+# central, nada mais e preciso: o caminho do file manager da MZ lista a companhia inteira.
+RI_DESCOBERTA_ORCAMENTO_S = 45     # teto de descoberta por ticker
+RI_DESCOBERTA_MAX_GET = 12         # teto de requisicoes por ticker
+RI_DESCOBERTA_TIMEOUT_S = 12       # por requisicao (a pagina da central usa 60)
+RI_RECONFERIR_DIAS = 90            # entrada do cache e reconferida depois disso
+RI_BACKOFF_DIAS = (1, 3, 7, 30)    # ticker sem fonte: espera antes de tentar de novo
+
+_RE_ESQUEMA = re.compile(r"(?i)^[a-z][a-z0-9+.-]*://")
+_RE_HOST = re.compile(r"(?i)^([a-z0-9.-]+\.[a-z]{2,})")
+_RE_LINK_RI = re.compile(r"(?i)relacoes com investidores|relacao com investidores|investor relations|"
+                         r"\brela[cç][oõ]es\b|\binvestidor(?:es)?\b|\bri\b|\bir\b")
+_RE_LINK_CENTRAL = re.compile(r"(?i)central de resultados|results?[ -]cent|divulgacao de resultados|"
+                              r"informacoes financeiras|financial information|resultados trimestrais|"
+                              r"central de downloads|\bresultados\b|\bresults\b|earnings")
+_RE_CAMINHO_RI = re.compile(r"(?i)/(?:ri|ir)(?:/|$)|relacoes-com-investidores|relacao-com-investidores|"
+                            r"investidor|investor-relations|investors?")
+_RE_CAMINHO_CENTRAL = re.compile(r"(?i)central-de-resultados|results-cent|divulgacao-de-resultados|"
+                                 r"informacoes-financeiras|financial-information|resultados-trimestrais|"
+                                 r"central-de-downloads|/resultados|/results|earnings")
+_RE_SETORIAL = re.compile(r"(?i)^(ENGENHARIA|CONSTRUTORA|INCORPORADORA|EMPREENDIMENTOS|INDUSTRIA|INDUSTRIAS|"
+                          r"COMERCIO|DISTRIBUIDORA|ENERGETICA|ENERGIA|TELECOM|TELECOMUNICACOES|LOGISTICA|"
+                          r"TRANSPORTES|ALIMENTOS|SIDERURGICA|MINERACAO|PAPEL|CELULOSE|SEGUROS|SEGURADORA|"
+                          r"FINANCEIRA|INVESTIMENTOS|IMOBILIARIO|IMOBILIARIA|DESENVOLVIMENTO|SERVICOS|"
+                          r"TECNOLOGIA|SAUDE|EDUCACIONAL|EDUCACAO|VAREJO|AGRO|AGROPECUARIA|BRASIL|BRASILEIRA)$")
+
+
+def _get_ri(url, timeout=RI_DESCOBERTA_TIMEOUT_S):
+    """GET da descoberta: (resposta ou None, status, url_final, motivo).
+
+    app.http_get devolve None para tudo que nao e 200 e esconde o redirect. Aqui os tres fatos sao
+    diferentes e cada um decide uma coisa: 404 e host errado, 403 e WAF (o ticker nao pode sumir por
+    isso), e o 301 e justamente o que leva de petrobras.com.br/ri para investidorpetrobras.com.br."""
+    try:
+        r = requests.get(url, headers={"User-Agent": app.UA, "Accept": "text/html,*/*"},
+                         timeout=timeout, allow_redirects=True)
+    except Exception as e:
+        nome, texto = type(e).__name__, str(e)
+        if re.search(r"(?i)nameresolution|gaierror|name or service not known|nodename nor servname|"
+                     r"getaddrinfo|nao resolve", f"{nome} {texto}"):
+            return None, 0, url, "dns"
+        if "Timeout" in nome or "timed out" in texto.lower():
+            return None, 0, url, "timeout"
+        return None, 0, url, f"erro {nome}"
+    final = getattr(r, "url", url) or url
+    if r.status_code != 200:
+        return None, r.status_code, final, f"http {r.status_code}"
+    try:
+        corpo = _html_da_resposta(r)
+    except Exception:
+        corpo = ""
+    if _RE_PAGINA_BLOQUEIO.search(corpo[:3000]):
+        return None, r.status_code, final, "waf"
+    return r, r.status_code, final, "ok"
+
+
+def _dominio_nu(valor):
+    """(host cheio, dominio registravel) de uma URL ou dominio sujo; (None, None) quando nao vira host.
+
+    Aceita o que o mundo real entrega: 'WWW.TENDA.COM', 'HTTP://RI.SIMPAR.COM.BR/PT-BR',
+    'weg.net/institutional/BR/en/', e-mail no lugar de site. Preserva o 'ri.' quando ele ja vem na
+    semente (o Yahoo traz 'https://ri.americanas.io' literalmente)."""
+    v = str(valor or "").strip().lower()
+    if not v:
+        return None, None
+    if "@" in v and "://" not in v:
+        v = v.split("@", 1)[1]
+    v = _RE_ESQUEMA.sub("", v).split("/")[0].split("?")[0].split("#")[0].split(":")[0]
+    if v.startswith("www."):
+        v = v[4:]
+    m = _RE_HOST.match(v)
+    if not m:
+        return None, None
+    host = m.group(1).strip(".")
+    partes = host.split(".")
+    # dominio registravel: 'ri.cury.net' -> 'cury.net'; 'ri.direcional.com.br' -> 'direcional.com.br'
+    if len(partes) >= 3 and partes[-2] in ("com", "net", "org", "gov", "agr", "ind") and len(partes[-1]) == 2:
+        apex = ".".join(partes[-3:])
+    elif len(partes) >= 2:
+        apex = ".".join(partes[-2:])
+    else:
+        apex = host
+    return host, apex
+
+
+def _slugs_do_nome(nomes):
+    """Slugs plausiveis de dominio a partir do nome da companhia, do mais provavel para o menos."""
+    slugs = []
+    for nome in nomes:
+        base = normalizar(nome)
+        if not base:
+            continue
+        com_e = "&" in str(nome) or " E " in f" {base} "
+        base = base.replace("&", " ")
+        if "-" in str(nome):
+            cauda = normalizar(str(nome).rsplit("-", 1)[-1])
+            if cauda:
+                slugs.append(cauda.replace(" ", "").lower())
+        palavras = [p for p in base.split() if p and p not in GENERICAS]
+        uteis = [p for p in palavras if not _RE_SETORIAL.match(p)] or palavras
+        if uteis:
+            slugs.append(uteis[0].lower())
+            slugs.append("".join(uteis).lower())
+            if len(uteis) >= 2:
+                slugs.append("".join(uteis[:2]).lower())
+                if com_e:
+                    # 'PLANO & PLANO' -> planoeplano (o dominio real); sem isso viraria 'planoplano'
+                    slugs.append("e".join(uteis[:2]).lower())
+        if palavras:
+            slugs.append("".join(palavras).lower())
+    vistos, saida = set(), []
+    for s in slugs:
+        s = re.sub(r"[^a-z0-9]", "", s)
+        if 3 <= len(s) <= 30 and s not in vistos:
+            vistos.add(s)
+            saida.append(s)
+    return saida[:6]
+
+
+def _candidatos_host_ri(sementes, nomes, tk):
+    """[(regra, url)] para achar o site de RI, na ordem de acerto medida nos 18 ja mapeados."""
+    cands = []
+
+    def poe(regra, url):
+        if url and (regra, url) not in cands:
+            cands.append((regra, url))
+
+    apexes = []
+    for origem, host, apex in sementes:
+        if not apex:
+            continue
+        if apex not in apexes:
+            apexes.append(apex)
+        if host and host.startswith(("ri.", "ir.", "investidor")):
+            poe(f"semente {origem} ja e de RI", f"https://{host}/")
+    for apex in apexes:
+        poe("ri.<dominio>", f"https://ri.{apex}/")
+    for apex in apexes:
+        marca = apex.split(".")[0]
+        poe("<dominio>/ri", f"https://{apex}/ri")
+        poe("<dominio>/relacoes-com-investidores", f"https://{apex}/relacoes-com-investidores")
+        poe("<dominio>/investidores", f"https://{apex}/investidores")
+        poe("<marca>ri.com.br", f"https://{marca}ri.com.br/")
+        poe("investidor<marca>.com.br", f"https://investidor{marca}.com.br/")
+        poe("investidores.<dominio>", f"https://investidores.{apex}/")
+    for slug in _slugs_do_nome(nomes) + [tk.lower()]:
+        for tld in (".com.br", ".com", ".net"):
+            poe("slug do nome", f"https://ri.{slug}{tld}/")
+    return cands
+
+
+def _identidade_bate(texto, nomes, tk):
+    """A pagina e mesmo da companhia? Evita adotar o RI de outra empresa com nome parecido."""
+    alvo = normalizar(texto[:20000])
+    if tk and tk.upper() in alvo:
+        return True
+    for nome in nomes:
+        palavras = [p for p in normalizar(nome).split() if len(p) >= 5 and p not in GENERICAS
+                    and not _RE_SETORIAL.match(p)]
+        if palavras and all(p in alvo for p in palavras[:2]):
+            return True
+    return False
+
+
+def _parece_central_de_resultados(html, url, nomes, tk):
+    """(True, pista) quando a pagina e a central de resultados da companhia certa."""
+    texto = _html_para_texto(html)
+    if not _identidade_bate(texto, nomes, tk):
+        return False, "pagina nao cita a companhia"
+    fm, _ = _file_manager_da_pagina(html)
+    if fm.get("id") and fm.get("categorias"):
+        cats = ", ".join(c for _, c in fm["categorias"][:4])
+        if re.search(r"(?i)release|resultad|result|earning", cats):
+            return True, f"file manager da MZ declarado na pagina (categorias: {cats[:80]})"
+    cands, _ = _candidatos_ri(_links_da_pagina(html, url), url)
+    com_trimestre = [c for c in cands if c.get("periodo")]
+    if len(com_trimestre) >= 2:
+        return True, f"{len(com_trimestre)} links de release com trimestre no rotulo"
+    if len(cands) >= 3:
+        return True, f"{len(cands)} candidatos a release na pagina"
+    return False, f"{len(cands)} candidato(s) a release, sem file manager"
+
+
+def _links_que_casam(html, url, regex_texto, regex_caminho, limite=6):
+    """Links da pagina cujo rotulo ou caminho falam de RI (ou da central), mais provaveis primeiro."""
+    achados = []
+    for link in _links_da_pagina(html, url):
+        destino, rotulo = link[0], link[1]
+        if not destino or destino.lower().endswith((".pdf", ".zip", ".xlsx", ".jpg", ".png")):
+            continue
+        no_texto = bool(regex_texto.search(normalizar(rotulo))) if rotulo else False
+        no_caminho = bool(regex_caminho.search(destino))
+        if no_texto or no_caminho:
+            achados.append(((0 if (no_texto and no_caminho) else 1), destino, rotulo))
+    achados.sort(key=lambda x: x[0])
+    vistos, saida = set(), []
+    for _, destino, rotulo in achados:
+        chave = _sem_fragmento(destino)
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        saida.append((destino, rotulo))
+    return saida[:limite]
+
+
+def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S):
+    """Acha sozinho a central de resultados de um ticker sem mapa em ri_fontes.py.
+
+    Devolve uma entrada no formato de RI_FONTES (empresa, central, alternativas, plataforma, mz_id,
+    observacao) ou None. Tres fases, todas com teto de tempo e de requisicoes: candidatos de host a
+    partir do dominio que o coletor ja conhece; se o host responder mas nao for a central, rastreia os
+    links de RI e depois os de central; valida a pagina exigindo que ela cite a companhia."""
+    t0, gets = time.monotonic(), 0
+    info = (dados.get("yahoo") or {}).get("info") or {}
+    nomes = [x for x in ((dados.get("cvm") or {}).get("empresa_escolhida"), info.get("longName"),
+                         info.get("shortName"), (dados.get("fundamentus") or {}).get("Empresa")) if x]
+    sementes = []
+    for origem, valor in (("yahoo", info.get("website")),
+                          ("cvm", (dados.get("cvm") or {}).get("pagina_web"))):
+        host, apex = _dominio_nu(valor)
+        if apex:
+            sementes.append((origem, host, apex))
+    if not sementes and not nomes:
+        app.log(f"{tk}: descoberta de RI: sem dominio e sem nome da companhia; nada a tentar")
+        return None
+    candidatos = _candidatos_host_ri(sementes, nomes, tk)
+    app.log(f"{tk}: descoberta de RI: sementes {[f'{o}:{a}' for o, _, a in sementes] or 'nenhuma'}; "
+            f"{len(candidatos)} candidatos de host")
+    fila = list(candidatos)
+    visitadas = set()
+    while fila and gets < RI_DESCOBERTA_MAX_GET and time.monotonic() - t0 < orcamento_s:
+        regra, url = fila.pop(0)
+        if _sem_fragmento(url) in visitadas:
+            continue
+        visitadas.add(_sem_fragmento(url))
+        r, status, final, motivo = _get_ri(url)
+        gets += 1
+        if not r:
+            if motivo != "dns":
+                app.log(f"{tk}: descoberta de RI: {url} -> {motivo}")
+            continue
+        html = _html_da_resposta(r)
+        ok, pista = _parece_central_de_resultados(html, final, nomes, tk)
+        app.log(f"{tk}: descoberta de RI: {url} ({regra}) -> 200 em {final[:90]}; "
+                + (f"E A CENTRAL ({pista})" if ok else f"nao e a central ({pista})"))
+        if ok:
+            fm, _ = _file_manager_da_pagina(html)
+            return {"empresa": nomes[0] if nomes else tk,
+                    "central": final,
+                    "alternativas": [],
+                    "plataforma": "mz" if fm.get("id") else "desconhecida",
+                    "mz_id": fm.get("id"),
+                    "observacao": (f"descoberto pelo coletor em {_hoje()} pela regra '{regra}' "
+                                   f"({pista}); semente {sementes[0][0] if sementes else 'nome'}")}
+        # A pagina respondeu mas nao e a central: use os links dela. Central primeiro (e o alvo);
+        # depois os links de RI, que levam a pagina onde a central costuma estar. Vale para qualquer
+        # pagina que respondeu: o site institucional e a home do RI entram pelo mesmo caminho, e foi
+        # por separar os dois casos que o rastreio parava no primeiro clique.
+        novos = []
+        for destino, rotulo in _links_que_casam(html, final, _RE_LINK_CENTRAL, _RE_CAMINHO_CENTRAL):
+            novos.append((f"link '{rotulo[:30]}' -> central", destino))
+        if len(visitadas) <= 4:      # so nos primeiros passos, para o rastreio nao abrir em leque
+            for destino, rotulo in _links_que_casam(html, final, _RE_LINK_RI, _RE_CAMINHO_RI, limite=3):
+                novos.append((f"link '{rotulo[:30]}' -> RI", destino))
+        novos = [(regra_n, u) for regra_n, u in novos if _sem_fragmento(u) not in visitadas]
+        if novos:
+            app.log(f"{tk}: descoberta de RI: {len(novos)} link(s) da pagina entram na fila: "
+                    f"{', '.join(u[:70] for _, u in novos[:4])}")
+            fila = novos + fila
+    app.log(f"{tk}: descoberta de RI: nao achei a central ({gets} requisicoes, "
+            f"{time.monotonic() - t0:.0f}s); o ticker fica sem fonte de release no site de RI")
+    return None
+
+
+# ───────── cache das fontes descobertas, no branch `dados` ─────────
+RI_DESCOBERTOS = "ri_descobertos.json"
+
+
+def carregar_ri_descobertos(saida):
+    """{ticker: entrada} do cache gravado no branch. O job do Actions so commita no branch `dados`,
+    entao o que o coletor aprende mora la; ri_fontes.py, versionado e conferido a mao, vence sempre."""
+    if not saida:
+        return {}
+    try:
+        d = json.load(open(os.path.join(saida, RI_DESCOBERTOS), encoding="utf-8"))
+    except Exception:
+        return {}
+    return d.get("fontes") or {}
+
+
+def gravar_ri_descobertos(saida, cache):
+    if not saida:
+        return
+    try:
+        gravar_json(os.path.join(saida, RI_DESCOBERTOS),
+                    {"atualizado_em": agora(),
+                     "nota": ("centrais de resultados que o coletor descobriu sozinho, a partir do "
+                              "dominio da companhia. ri_fontes.py (no repositorio) vence este arquivo. "
+                              "`sem_fonte` guarda quando a busca falhou, para nao repetir a cada coleta; "
+                              f"entrada boa e reconferida depois de {RI_RECONFERIR_DIAS} dias"),
+                     "fontes": cache})
+    except Exception as e:
+        app.log(f"nao consegui gravar {RI_DESCOBERTOS}: {type(e).__name__}")
+
+
+def _pode_tentar_de_novo(entrada):
+    """Ticker que ja falhou espera 1, 3, 7 e depois 30 dias antes de nova tentativa."""
+    if not entrada or not entrada.get("sem_fonte"):
+        return True
+    try:
+        quando = datetime.strptime(entrada.get("quando", "")[:10], "%Y-%m-%d")
+    except Exception:
+        return True
+    tentativas = int(entrada.get("tentativas") or 1)
+    espera = RI_BACKOFF_DIAS[min(tentativas, len(RI_BACKOFF_DIAS)) - 1]
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - quando).days >= espera
+
+
+def fonte_ri_do_ativo(tk, dados, fontes, saida, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S):
+    """A entrada de RI que vale para este ticker: ri_fontes.py, senao o cache, senao a descoberta.
+
+    Devolve (mapa ou None, origem). E o ponto unico que faz a regra valer para todo ativo: nenhum
+    ticker fica sem fonte de release so por nao ter sido mapeado a mao."""
+    do_arquivo = _mapa_ri().get(tk)
+    if do_arquivo:
+        return (do_arquivo if isinstance(do_arquivo, dict) else {"central": do_arquivo}), "ri_fontes.py"
+    cache = carregar_ri_descobertos(saida)
+    guardada = cache.get(tk)
+    if guardada and guardada.get("central") and (guardada.get("quando", "") >= _dias_atras(RI_RECONFERIR_DIAS)):
+        return guardada, "cache do branch"
+    if not _pode_tentar_de_novo(guardada):
+        app.log(f"{tk}: descoberta de RI adiada (falhou em {guardada.get('quando')}, "
+                f"{guardada.get('tentativas')} tentativa(s))")
+        fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada pelo backoff"
+        return None, "adiada"
+    achada = None
+    try:
+        achada = descobrir_central_ri(tk, dados, fontes, orcamento_s)
+    except Exception as e:
+        app.log(f"{tk}: descoberta de RI quebrou ({type(e).__name__}: {e}); segue sem fonte de site")
+    if achada:
+        cache[tk] = {**achada, "quando": _hoje(), "tentativas": 0, "sem_fonte": False}
+        gravar_ri_descobertos(saida, cache)
+        app.log(f"{tk}: central de resultados DESCOBERTA: {achada['central']} "
+                f"(plataforma {achada['plataforma']}); gravada em {RI_DESCOBERTOS}")
+        return achada, "descoberta"
+    cache[tk] = {"central": None, "quando": _hoje(), "sem_fonte": True,
+                 "tentativas": int((guardada or {}).get("tentativas") or 0) + 1,
+                 "observacao": "coletor nao achou a central; mapeie a mao em ri_fontes.py se for urgente"}
+    gravar_ri_descobertos(saida, cache)
+    return None, "nao achada"
+
+
+def _dias_atras(dias):
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=dias)).strftime("%Y-%m-%d")
+
+
 def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_releases=RELEASES_POR_ATIVO,
                         orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None,
-                        faltantes=None):
+                        faltantes=None, mapa=None):
     """Releases de resultado lidos direto da central de resultados do site de RI (ri_fontes.py).
 
     Complementa o IPE da CVM: com `ate_periodo` (o release mais novo que ja existe, ex.: '3T25')
@@ -2217,7 +2581,7 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
     conhecidos = conhecidos or {}
     descartados = descartados if descartados is not None else []
     rotulo = f"{tk}: site de RI"
-    mapa = _mapa_ri().get(tk)
+    mapa = mapa or _mapa_ri().get(tk)
     if not mapa:
         fontes["release_ri_site"] = "sem mapa de RI"
         app.log(f"{rotulo}: sem entrada em ri_fontes.py; fica so o IPE da CVM")
@@ -3446,7 +3810,7 @@ def _referencia_frescor(dados):
     return max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
 
 
-def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados):
+def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados, saida=None):
     """Quando o release mais novo esta atras da referencia (ITR mais novo ou trimestre vencido no
     calendario, o que for mais novo), busca no site de RI os trimestres que faltam e mescla com o que
     a CVM trouxe, um por trimestre."""
@@ -3473,8 +3837,11 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     else:
         app.log(f"{tk}: release mais novo {mais_novo or 'nenhum'} esta {atraso} trimestre(s) atras de "
                 f"{referencia} ({origem}); consultando o site de RI")
+    mapa, origem = fonte_ri_do_ativo(tk, dados, fontes, saida)
+    if mapa and origem != "ri_fontes.py":
+        app.log(f"{tk}: fonte de RI veio da {origem}: {mapa.get('central')}")
     do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo,
-                                  preferencias=preferencias, faltantes=faltantes)
+                                  preferencias=preferencias, faltantes=faltantes, mapa=mapa)
     if not do_site:
         return historico
     lista = _mesclar_historico(historico, do_site)
@@ -3580,7 +3947,8 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
                     # Sem release na CVM: tenta os 6-K do ADR (mesmo documento, em ingles)
                     historico = coletar_releases_sec(_cik_por_ticker(ADR_DE_B3[tk]), fontes, conhecidos, descartados)
                 # Release atras do ITR (IPE do ano corrente fora do ar): completa pelo site de RI
-                historico = _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados)
+                historico = _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos,
+                                                    descartados, saida)
             descartados = [k for k, v in conhecidos.items() if v is None] + descartados
         except Exception as e:
             fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
