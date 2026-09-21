@@ -107,7 +107,11 @@ Esta pronto para usar quando TODAS as condicoes valem:
   util, 24 horas no fim de semana);
 - ha bloco oficial (`cvm_demonstracoes.serie_trimestral` ou `sec_xbrl.ltm`,
   no BDR dentro de `subjacente_us`), `release_ri` com texto e
-  `releases_historico` com pelo menos 4 trimestres;
+  `python3 mesa.py cobertura TICKER` imprime `VEREDITO: COMPLETA`: os 8
+  trimestres da janela do calendario, nenhum ausente e nenhum vazio. Contar
+  linhas em `releases_historico` nao substitui o comando: o indice guarda os 8
+  releases mais novos que o coletor achou, nao os 8 que a janela exige, e
+  "historico de 8 releases" em `fontes.release_ri` e contagem, nao cobertura;
 - o comparativo do grupo existe e as linhas dos pares nao sao mais velhas que
   7 dias.
 
@@ -300,8 +304,10 @@ contra o melhor e o pior par. Regras:
 
 ### 4.6 Discurso contra entrega (use o historico de releases)
 
-Com 8 trimestres de release no branch, cobre a gestao pelo que ela mesma
-disse. `python3 mesa.py linha TICKER "meta|guidance|ROE de|margem|plano"`
+Com os 8 trimestres da janela no branch (`mesa.py cobertura` em COMPLETA),
+cobre a gestao pelo que ela mesma disse. Sem a janela cheia, nenhuma conclusao
+por ausencia nesta secao: o que se pode escrever e "nao aparece nos N
+trimestres lidos", com os ausentes nomeados. `python3 mesa.py linha TICKER "meta|guidance|ROE de|margem|plano"`
 busca o mesmo termo nos 8, do mais antigo ao mais novo, e mostra em que
 trimestre o assunto entrou e em qual ele sumiu. Depois abra o release do
 trimestre que interessa inteiro, para citar a frase no contexto:
@@ -448,10 +454,14 @@ Se a nota nao responde uma delas com numero e fonte, nao esta pronta.
   faltar o trimestre do ITR, `mesa.py frescor` segue em `RELEASE VELHO` e a
   mesa usa WebSearch para manchete e numeros divulgados, marcados como busca
   web, com a lacuna na primeira frase da nota.
-- `releases_historico` com menos de 8 trimestres: o coletor tem orcamento de
-  tempo por ativo e completa o historico nas coletas seguintes. Diga quantos
-  trimestres voce leu e rode a coleta de novo se o Douglas quiser a serie
-  cheia. A fonte `release_ri` avisa quando o orcamento estourou.
+- Janela incompleta (`mesa.py cobertura` aponta trimestre AUSENTE ou CURTO):
+  o coletor tem orcamento de tempo por ativo e completa nas coletas seguintes,
+  entao dispare a coleta (2b), espere e repita o comando ANTES de escrever.
+  Nao e o Douglas quem pede a serie cheia: a serie cheia e a condicao de
+  escrever. Se depois da coleta ainda faltar, a lacuna abre a nota, com os
+  trimestres pelo nome, e cada secao que depende deles (4.1, 4.6, 4.7) repete
+  a ressalva. A fonte `release_ri` avisa quando o orcamento estourou; copie
+  essa frase para a secao 11 (Fontes e confianca).
 - `cvm_demonstracoes` vazio ou de outra empresa: confira `cvm.empresa_escolhida`
   e `cvm.empresas_casadas`; se o coletor casou a companhia errada, diga qual
   e proponha corrigir o casamento no coletor; enquanto isso, use

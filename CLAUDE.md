@@ -27,6 +27,8 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   passos (fixa a pergunta, inventaria, decompoe a DRE, varre os 8 releases,
   faz a conta reversa do preco, testa nos pares, fecha com o que mudaria de
   ideia). `analise-ativo` cobre o ativo em largura; `deep-search` cava fundo.
+  Deep search quer dizer a janela inteira: sem os 8 trimestres, a lacuna abre
+  a resposta com o nome de cada trimestre que falta.
 - Toda pesquisa comeca por `python3 mesa.py skills` e abre a resposta com uma
   linha dizendo quais skills operaram e quais comandos do `mesa.py` foram
   usados. O Douglas pediu essa confirmacao em toda pesquisa (20/09). Skill
@@ -35,12 +37,17 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   `releases`, `release TICKER 2T25 --grep ...`, `linha TICKER "meta|guidance"`,
   `decompor TICKER`, `termos`), nao por script avulso: e a leitura
   padronizada da mesa.
-- Frescor antes de escrever: `python3 mesa.py frescor TICKER` tem de dizer
-  ATUAL (todo leitor imprime o veredito na primeira linha); release velho vira
-  a primeira frase da resposta, com o trimestre ao lado; o coletor busca o
-  release na CVM e no site de RI (`ri_fontes.py`). Ticker NAO MAPEADO em
-  `ri_fontes.py` se mapeia antes de disparar a coleta; a referencia de frescor
-  e o mais novo entre o ITR e o trimestre cujo prazo legal venceu.
+- Frescor E cobertura antes de escrever, as duas (skill `dados-completos`,
+  .claude/skills/dados-completos/SKILL.md): `python3 mesa.py frescor TICKER`
+  tem de dizer ATUAL e `python3 mesa.py cobertura TICKER` tem de dizer
+  COMPLETA; todo leitor imprime os dois vereditos na primeira linha. Frescor
+  olha a ponta, a referencia sendo o mais novo entre o ITR e o trimestre cujo
+  prazo legal venceu; cobertura olha os 8 trimestres da janela, um a um -
+  indice com 8 linhas e buraco no meio passa no frescor. Trimestre velho,
+  ausente ou ocupado por documento que nao e release de resultado vira a
+  PRIMEIRA frase da resposta, com o trimestre ao lado, nunca silencio. O
+  coletor busca o release na CVM e no site de RI (`ri_fontes.py`); ticker NAO
+  MAPEADO em `ri_fontes.py` se mapeia antes de disparar a coleta.
 - O Douglas le no celular e nao decora sigla: comece com "Em uma frase",
   tabelas de ate 4 colunas, toda sigla explicada em portugues na primeira
   vez (glossario em .claude/skills/analise-ativo/GLOSSARIO.md) e a nota fecha

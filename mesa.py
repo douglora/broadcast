@@ -893,6 +893,7 @@ def skills():
     esperadas = {
         "analise-ativo": ["SKILL.md", "GLOSSARIO.md"],
         "deep-search": ["SKILL.md"],
+        "dados-completos": ["SKILL.md"],
         "livro": ["SKILL.md"],
     }
     ok = True
