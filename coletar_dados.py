@@ -1058,8 +1058,37 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
     return melhor, False
 
 
+def _janela_de_divulgacao(periodo):
+    """(inicio, fim) em que o release de um trimestre costuma ser publicado: do fim do trimestre ate
+    120 dias depois. Serve para mirar os filings certos em vez de varrer tudo em ordem."""
+    par = ordem_periodo(periodo)
+    if par == (0, 0):
+        return None
+    ano, tri = par
+    try:
+        fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+    except Exception:
+        return None
+    return fim.strftime("%Y-%m-%d"), (fim + timedelta(days=120)).strftime("%Y-%m-%d")
+
+
+def _ordenar_por_faltantes(filings, faltantes):
+    """Filings que caem na janela de divulgacao de um trimestre que FALTA vao para a frente.
+
+    Sem isso a varredura e so cronologica: quem publica muito 6-K (a Nu passa de 40 por ano) empurra
+    o trimestre antigo para fora do orcamento, e ele nunca chega ao branch."""
+    janelas = [j for j in (_janela_de_divulgacao(p) for p in (faltantes or [])) if j]
+    if not janelas:
+        return filings
+    def alvo(f):
+        data = str(f.get("filingDate") or "")
+        return 0 if any(ini <= data <= fim for ini, fim in janelas) else 1
+    return sorted(filings, key=alvo)
+
+
 def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
-                         max_releases=RELEASES_POR_ATIVO, max_filings=140, orcamento_s=RELEASE_ORCAMENTO_S):
+                         max_releases=RELEASES_POR_ATIVO, max_filings=200,
+                         orcamento_s=RELEASE_ORCAMENTO_S, faltantes=None):
     """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre.
 
     A varredura para quando a JANELA obrigatoria esta coberta, nao quando a contagem de filings
@@ -1082,6 +1111,10 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         return []
     achados, baixados, reusados, examinados = {}, 0, 0, 0
     janela = set(janela_obrigatoria())
+    if faltantes:
+        filings = _ordenar_por_faltantes(filings, faltantes)
+        app.log(f"SEC: varredura priorizando os filings da janela de divulgacao de "
+                f"{', '.join(faltantes[:6])}")
     t0, estourou = time.monotonic(), False
     for f in filings:
         if examinados >= max_filings:
@@ -2453,7 +2486,7 @@ def _links_que_casam(html, url, regex_texto, regex_caminho, limite=6):
     return saida[:limite]
 
 
-def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S):
+def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S, bloqueados=None):
     """Acha sozinho a central de resultados de um ticker sem mapa em ri_fontes.py.
 
     Devolve uma entrada no formato de RI_FONTES (empresa, central, alternativas, plataforma, mz_id,
@@ -2478,6 +2511,7 @@ def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_
             f"{len(candidatos)} candidatos de host")
     fila = list(candidatos)
     visitadas = set()
+    bloqueados = bloqueados if bloqueados is not None else []
     while fila and gets < RI_DESCOBERTA_MAX_GET and time.monotonic() - t0 < orcamento_s:
         regra, url = fila.pop(0)
         if _sem_fragmento(url) in visitadas:
@@ -2488,6 +2522,11 @@ def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_
         if not r:
             if motivo != "dns":
                 app.log(f"{tk}: descoberta de RI: {url} -> {motivo}")
+            if status in (401, 403, 429) or motivo == "waf":
+                # O host existe e responde: quem barra e o WAF contra IP de datacenter. Nao e host
+                # errado, e fonte bloqueada - o Douglas precisa saber a diferenca para decidir se
+                # mapeia a mao. Nao tentamos contornar bloqueio.
+                bloqueados.append(url)
             continue
         html = _html_da_resposta(r)
         ok, pista = _parece_central_de_resultados(html, final, nomes, tk)
@@ -2517,6 +2556,11 @@ def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_
             app.log(f"{tk}: descoberta de RI: {len(novos)} link(s) da pagina entram na fila: "
                     f"{', '.join(u[:70] for _, u in novos[:4])}")
             fila = novos + fila
+    if bloqueados:
+        app.log(f"{tk}: descoberta de RI: {len(bloqueados)} endereco(s) existem mas bloquearam o "
+                f"coletor (403/WAF): {', '.join(bloqueados[:3])}; a fonte existe, o robo e que nao passa")
+        fontes["release_ri_site"] = (f"falha: site de RI bloqueia o coletor (403/WAF) em "
+                                     f"{bloqueados[0][:80]}")[:220]
     app.log(f"{tk}: descoberta de RI: nao achei a central ({gets} requisicoes, "
             f"{time.monotonic() - t0:.0f}s); o ticker fica sem fonte de release no site de RI")
     return None
@@ -2583,9 +2627,9 @@ def fonte_ri_do_ativo(tk, dados, fontes, saida, orcamento_s=RI_DESCOBERTA_ORCAME
                 f"{guardada.get('tentativas')} tentativa(s))")
         fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada pelo backoff"
         return None, "adiada"
-    achada = None
+    achada, bloqueados = None, []
     try:
-        achada = descobrir_central_ri(tk, dados, fontes, orcamento_s)
+        achada = descobrir_central_ri(tk, dados, fontes, orcamento_s, bloqueados)
     except Exception as e:
         app.log(f"{tk}: descoberta de RI quebrou ({type(e).__name__}: {e}); segue sem fonte de site")
     if achada:
@@ -2596,7 +2640,10 @@ def fonte_ri_do_ativo(tk, dados, fontes, saida, orcamento_s=RI_DESCOBERTA_ORCAME
         return achada, "descoberta"
     cache[tk] = {"central": None, "quando": _hoje(), "sem_fonte": True,
                  "tentativas": int((guardada or {}).get("tentativas") or 0) + 1,
-                 "observacao": "coletor nao achou a central; mapeie a mao em ri_fontes.py se for urgente"}
+                 "bloqueados": bloqueados[:5],
+                 "observacao": ("site de RI existe mas bloqueia o coletor (403/WAF): mapeie a mao em "
+                                "ri_fontes.py ou aceite a lacuna declarada" if bloqueados else
+                                "coletor nao achou a central; mapeie a mao em ri_fontes.py se for urgente")}
     gravar_ri_descobertos(saida, cache)
     return None, "nao achada"
 
@@ -3974,11 +4021,15 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
         anterior = releases_do_indice(saida, tk)
         try:
             conhecidos = carregar_indice_releases(saida, tk)
+            # O que falta na janela orienta a varredura da SEC: sem isso ela e so cronologica
+            faltam = periodos_a_buscar(anterior, oficiais=periodos_oficiais(dados))
             if eh_simbolo_us(tk):
-                historico = coletar_releases_sec(_cik_por_ticker(tk), fontes, conhecidos, descartados)
+                historico = coletar_releases_sec(_cik_por_ticker(tk), fontes, conhecidos, descartados,
+                                                 faltantes=faltam)
             elif eh_bdr(tk):
                 # O release da acao-mae e o release da empresa
-                historico = coletar_releases_sec(_cik_por_ticker(simbolo_subjacente(tk)), fontes, conhecidos, descartados)
+                historico = coletar_releases_sec(_cik_por_ticker(simbolo_subjacente(tk)), fontes,
+                                                 conhecidos, descartados, faltantes=faltam)
             else:
                 historico = coletar_releases_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [],
                                                  fontes, conhecidos)
