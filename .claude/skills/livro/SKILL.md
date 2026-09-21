@@ -91,11 +91,12 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
    estao; substituir o marcador da leitura pelo seu texto: `[[LEITURA_DA_MESA]]`
    nos cards e no painel, `<<LEITURA_DA_MESA>>` no BLOCO A monoespacado do
    `fechamento.md`. Nao mude numero nenhum.
-5. **Painel (obrigatorio na manha e no fechamento).** Republique o Artifact com
-   a mesma leitura que voce acabou de escrever (receita na secao Painel abaixo) e
-   feche a resposta com o link. No intradia so republique se ele pedir. Se a
-   republicacao falhar, diga a falha em uma linha e siga: os cards ja foram
-   entregues e o turno nao trava por causa do painel.
+5. **Painel (obrigatorio em TODO slot).** Republique o Artifact com a mesma
+   leitura que voce acabou de escrever (receita na secao Painel abaixo) e feche a
+   resposta com o link. No intradia o runner regenera o `painel.html` com o rotulo
+   "O livro agora"; a leitura ali sao 1 a 2 paragrafos curtos, nao a Leitura da Mesa
+   inteira. Se a republicacao falhar, diga a falha em uma linha e siga: os cards ja
+   foram entregues e o turno nao trava por causa do painel.
 6. **Push.** `PushNotification` (< 200 caracteres, sem markdown) com o texto de
    `Push:` do alertas.md quando houver alerta critico ou de atencao no slot, e com o
    `push_sugerido` do fechamento.json no Fechamento. Nunca para info. Maximo 1 push
@@ -103,12 +104,14 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
 7. **Ack.** Os ids que voce narrou neste turno entram em `ids_entregues` no
    PROXIMO disparo (passo 2). Nao dispare um run so para o ack.
 
-## Painel (sempre na manha e no fechamento; no intradia so a pedido)
+## Painel (sempre, em todo slot)
 
 Em 19/09 ele decidiu ler na propria sessao, em cards; em 21/09 pediu que o painel
-ficasse SEMPRE atualizado (opcao A), entao os slots das 09h30 e das 18h40
-republicam a pagina como parte do turno, com a mesma leitura dos cards. A pagina
-esta fixada na barra lateral dele. Republica sempre no MESMO Artifact:
+ficasse SEMPRE atualizado, inclusive no intradia ("sempre mantenha la atualizado
+tambem"). Todo turno republica a pagina, com a mesma leitura que foi para o chat.
+A pagina esta fixada na barra lateral dele e e a MESMA no PC e no celular: um
+Artifact, uma URL, uma versao. Se o celular mostrar algo velho, e cache do
+navegador - puxar para atualizar resolve. Republica sempre no MESMO Artifact:
 
 **https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7**
 

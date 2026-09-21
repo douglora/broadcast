@@ -515,7 +515,7 @@ def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, ja
            lacunas: list[str], notas: list[str], fontes: list[str], parcial: bool = False,
            em_dolar: dict | None = None) -> str:
     """HTML completo do painel. O marcador da Leitura da Mesa fica para a sessao."""
-    rotulo = "Manhã do livro" if slot == "manha" else "Fechamento do livro"
+    rotulo = {"manha": "Manhã do livro", "intradia": "O livro agora"}.get(slot, "Fechamento do livro")
     cartoes = "".join(_cartao_bloco(universo, b, janelas, series_info) for b in universo.blocos)
     corpo = (
         f'<header class="topo"><div class="faixa">'

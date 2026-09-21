@@ -101,9 +101,9 @@ Douglas ve no PC e no celular.
   pela manchete e cola. Nada de monoespacado por padrao; BLOCO A/BLOCO B so
   quando ele pedir "tabela" ou "completo". O mesmo runner gera
   `livro/saida/painel.html`, publicado no Artifact
-  https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7 em TODO turno de manha e de
-  fechamento (decisao do Douglas em 21/09: painel sempre atualizado, fixado na
-  barra lateral dele); no intradia, so a pedido.
+  https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7 em TODO turno, intradia
+  incluido (decisao do Douglas em 21/09: painel sempre atualizado, fixado na barra
+  lateral dele). E a mesma pagina no PC e no celular: um Artifact, uma URL.
 - Turno sem novidade = uma linha. Lacuna declarada, nunca placeholder.
 - Regras e limiares: config/limiares.yaml. Calendario e feriados:
   config/calendario.yaml. Nunca "compre/venda" (Resolucao CVM 178).

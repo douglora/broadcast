@@ -144,3 +144,13 @@ def test_todas_as_janelas_aparecem_na_linha(universo):
     h = pagina(universo, janelas=janelas)
     for v in ("+7,7%", "+123%"):      # 3 meses e 5 anos nao podem sumir
         assert v in h, v
+
+def test_rotulo_por_slot(universo):
+    """O painel e republicado em todo slot; o <h1> tem de dizer qual e, e o <title>
+    NAO pode mudar (renomearia o Artifact fixado na barra lateral do Douglas)."""
+    for slot, rotulo in (("manha", "Manhã do livro"),
+                         ("intradia", "O livro agora"),
+                         ("fechamento", "Fechamento do livro")):
+        h = pagina(universo, slot=slot)
+        assert f"<h1>{rotulo}</h1>" in h, slot
+        assert h.startswith("<title>Livro monitorado</title>"), slot
