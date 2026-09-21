@@ -2934,9 +2934,14 @@ def _reavaliar_sec(saida, entrada):
     """(ok, motivo) de uma entrada da rota SEC ja gravada, relida do .txt do branch, sem rede.
 
     Documento errado gravado antes nunca era reconferido: a ata de assembleia da Nu voltaria
-    identica em toda coleta futura, inclusive depois de o classificador ser corrigido."""
+    identica em toda coleta futura, inclusive depois de o classificador ser corrigido. Quando a
+    entrada PASSA, o veredito e carimbado nela (`classe_sec`, `conteudo_v`): sem isso a entrada
+    reaproveitada ficaria marcada como nao conferida para sempre, e a cobertura a contaria como
+    lacuna em toda leitura."""
     if "SEC" not in str(entrada.get("fonte") or ""):
         return True, ""
+    if entrada.get("conteudo_v") == CLASSIFICADOR_SEC_V:
+        return str(entrada.get("classe_sec") or "") != "nao", ""
     arquivo = entrada.get("arquivo")
     if not arquivo or not saida:
         return True, ""
@@ -2945,8 +2950,14 @@ def _reavaliar_sec(saida, entrada):
             texto = fh.read(60000)
     except OSError:
         return True, ""
-    classe, _, motivo = classificar_documento_sec(texto, entrada.get("arquivo_sec") or "", entrada.get("periodo"))
-    return classe != "nao", motivo
+    classe, preferencia, motivo = classificar_documento_sec(texto, entrada.get("arquivo_sec") or "",
+                                                            entrada.get("periodo"))
+    if classe == "nao":
+        return False, motivo
+    entrada["classe_sec"], entrada["conteudo_v"] = classe, CLASSIFICADOR_SEC_V
+    if preferencia is not None and entrada.get("preferencia") is None:
+        entrada["preferencia"] = preferencia
+    return True, ""
 
 
 def releases_do_indice(saida, tk):
