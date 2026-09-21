@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 13h21
+NOTÍCIAS E FATOS · 21/09 13h38
 
-Pernas: noticias ok 17 novas (14 consultas; descartadas: 377 veículo fora da lista, 17 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (14 consultas; descartadas: 379 veículo fora da lista, 20 sem ativo, 80 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,71 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
+InfoMoney · 21/09 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
+  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
+  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
+  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
+  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
+  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
+Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 11h00
+id: E05-VALE3-b94e858857-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
+Money Times · 21/09 10h55 · fonte única · licença: integral
+Do texto:
+  – Vale (VALE3): IPO da unidade de metais básicos deve acontecer?
+  – Por enquanto, o IPO da VBM segue “apenas ” com uma opção no longo prazo.
+  – “A execução continua sendo a prioridade, enquanto o crescimento da VBM pode ser financiado sem adicionar pressão à estrutura de capital do grupo”, afirmaram os analistas Lucas Laghi, Guilherme Nippes e Fernanda Urbano,…
+  – Produção da VBM Os analistas do Itaú BBA destacaram que, segundo a administração, a produção de cobre pela VBM deve aumentar de 380 mil toneladas por ano para aproximadamente 500 mil toneladas por ano, até 2030, e 700 m…
+  – Alemão poderia iniciar a construção em 2027 ou 2028, adicionando 15 a 20 mil toneladas por ano até 2030 e outras aproximadamente 65 mil toneladas por ano entre 2030 e 2035.
+  – O Southern Hub (118 e Cristalino) e Paulo Afonso viriam na sequência, todos aproveitando a infraestrutura existente e apresentando risco de execução relativamente baixo.
+Link: https://www.moneytimes.com.br/vale-vale3-ipo-da-unidade-de-metais-basicos-vai-acontecer-o-que-disse-o-ceo-gustavo-pimenta-a-analistas-lils/
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Piment…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 21/09 10h55
+id: E05-VALE3-8a851833ac-2026-09-21 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
+Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
+  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
+  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
+  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
+  – As ações passaram a ser negociadas sem o direito em 02 de junho.
+  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
+Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/amp/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 21/09 08h55
+id: E05-PETR4-a37a2e94eb-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
+InfoMoney · 21/09 08h30 · + Valor Economico, Exame · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
+  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
+  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
+  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
+  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
+  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
+Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 08h30
+id: E05-DI-754e9d123b-2026-09-21 · status: linha
 
 [ATENÇÃO] E05 · DI · Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
 Estadao · 21/09 10h58 · fonte única · licença: manchete
@@ -43,7 +107,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Estadao: Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta se…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 21/09 10h58
-id: E05-DI-417e639573-2026-09-21 · status: pendente
+id: E05-DI-417e639573-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · MMM · Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend
 TradingView (Reuters) · 21/09 08h28 · fonte única · licença: manchete
@@ -52,7 +116,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: MMM
 Como falar: 'saiu no TradingView (Reuters): Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/09 08h28
-id: E05-MMM-ccaec046ca-2026-09-21 · status: pendente
+id: E05-MMM-ccaec046ca-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
 Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
@@ -235,8 +299,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (70)
+## OUTRAS NOTÍCIAS (só manchete) (85)
 
+· ITUB4 Itaú BBA vê economia de R$ 398 milhões em possível união entre Yduqs e Afya (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-economia-de-r-398-milhoes-em-possivel-uniao-entre-yduqs-e-afya/
+· ITUB4 ITUB4, BBDC4 e BBSA3: Dois bancos para ter e um para manter distância, segundo BofA (Money Times) https://www.moneytimes.com.br/itub4-bbdc4-e-bbsa3-dois-bancos-para-ter-e-um-para-manter-distancia-segundo-bofa-rnda/
+· MU Micron: Old Valuation Metrics No Longer Matter (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948359-micron-old-valuation-metrics-no-longer-matter
+· UST Two-Year U.S. Treasury Yield Reaches New Multi-Year High (The Wall Street Journal) https://www.wsj.com/finance/investing/two-year-u-s-treasury-yield-reaches-new-multi-year-high-99d3112b
+· ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
+· PETR4 Próximo plano de negócios da Petrobras trará meta de autossuficiência em diesel, diz Chambriard (eixos) https://eixos.com.br/petroleo-e-gas/proximo-plano-de-negocios-da-petrobras-trara-meta-de-autossuficiencia-em-diesel-diz-chambriard/
+· USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/
+· UST Wall St rises on AI gains as oil slides, Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
+· USDBRL Ibovespa sobe, dólar e taxas dos DIs caem em dia de otimismo no exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45D0LS:0/
+· NVDA Nvidia Holds Flat Before Trump-Xi Talks Test China Optionality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f99865244094b:0-nvidia-holds-flat-before-trump-xi-talks-test-china-optionality/
+· MU Why I Like Micron Better Than Nvidia (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948354-why-i-like-micron-better-than-nvidia
+· VALE3 Vale faz investimento estratégico em minério em Carajás ao comprar 30% da Ligga (InfoMoney) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVHlNUGZhci00elV5X19kWU1LVG1KUTBSTWhLN21JQ1FHSjFKeU1qeGd4TC1hekhTZGtrQWxFXzlDTVdsTTVYWlkxOEE1M21sREljdnRsM3JCcjQ5YVFwcHFRc0tNM2pBMktnOHVzUnV1V3d0bzZhdExvQjVITWt5MDNuY2kxc0FsMGNiNE1vMEt3a3oyMC16T3ZCMk1aTlUwa0UzcjJzNWdTdENPcXpRbU9xNzF3TzB3?oc=5
+· PETR4 Petróleo de Morpho é de “altíssima qualidade”, diz diretora da Petrobras (InfoMoney) https://news.google.com/rss/articles/CBMirAFBVV95cUxORWw4X3IyNS03WGREeVdiVjV0RFBlVUZMbmM4dlFnQkxDMG5XQmlmNFVWWDFSUThHYlA2cDh2LV9DQnBNMnQ2ZnFUSlJwcWduMVJpcVVwNHE4YTRwa1B3aWxBZDNudGw0QUNGY1Q5Y0V3YWdNMzRhbDhCeFFUMFBEN3lfNFdZelE1bVM5N1BFOFZ5bU9PTHhlcUx4eUxmeDgxal9ZUnB5NHltQUR20gGyAUFVX3lxTE1RclNMTVpZTDQ4T3VJOHFkQVY4ZTU5WVNrRUVmOTJMbGd0ekV5eTczTmhLOEY0QnotNko4WkZqZ0ppVzFNSEw3UzZsY0gxb1VoWm9LalhUcVVFMWFWd2RFczd3NEVMX2o0M2ZxQVp1amw0X0FQbXlwVGVfZXB3NmY0bm05OERDOFdsempBeC13bTdhcWg5Tjc0b0ZPUnU0c3ZFQVd2cURQVVN3Z2NrTXhBUmc?oc=5
+· BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNLV9JMnZGSEgtTlIxQ2M4Q2FvVTh2VDNLX1JndTJNOWRaTTBISERVRS15R3JQZG9TNVdDUmFPa0E2S2dhMDJ1U1lVTlVlVWRzaFcycWN1ZXVEQkxZWmEwdVMyakRHbzh5TnRxWWtkbTFXaTYwZ1FyVmJBdDJxUG5UUENsVldFVEZOUmdTWlZJd0pDMTNqeFNxYklR?oc=5
+· NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (TradingView (Reuters)) https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFFKZWN0RHl2Z0cyZ0c2S1NVNVQ2N1AzeVBBZWlDU1ZCeEVrcGozV0hRYzAtUTlUMHBqSkFJOW83QzVXVER6UEFYZ3hXWkdFM1ExdnRtS2pXU2FpSGxGMmxHYTkxVl9BZl9Tc2xHVnN4R3VuS2xzTmFCLUhRVy1pbEVjYVRsSExFMVhacWhXdlhTaFJOOHU0VEhieTJQcG1wMXZCUWZPbHBNc2twZjNr?oc=5
 · ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
 · PETR4 Próximo plano de negócios da Petrobras trará meta de autossuficiência em diesel, diz Chambriard (eixos) https://eixos.com.br/petroleo-e-gas/proximo-plano-de-negocios-da-petrobras-trara-meta-de-autossuficiencia-em-diesel-diz-chambriard/
 · UST Wall St rises on AI gains as oil slides, Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
@@ -282,19 +361,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · MU Micron's Stock Could Easily Double (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMif0FVX3lxTE9MTmdQbm55dFR0RkJibHg2UU1YaGNxcEN4RF9ReElKWlh3R1FOUjFwa19EM1NwOURwUUxIdHlmSlZDc3FSRlZuSV9oLUlBeXREbzRZUXhvWV9WblpQaVdqOGdERFFJX2xFYmxDcWEydzN1MUNCbHI1SVVpR2UzSnM?oc=5
 · VALE3 BTG vê retorno de 30% para ações da Vale, mas alerta para falta de gatilhos no curto prazo (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/btg-ve-retorno-de-30-para-acoes-da-vale-mas-alerta-para-falta-de-gatilhos-no-curto-prazo/
 · MU Nvidia and Micron are part of Zacks Earnings Preview (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-micron-part-zacks-earnings-130100351.html
-· JPM Will JPMorgan's Selective M&A Strategy Expand Growth Runway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgans-selective-m-strategy-expand-125700194.html
-· USDBRL Dólar recua com exterior favorável e trade eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/21/dolar-recua-com-exterior-favoravel-e-trade-eleitoral.htm
-· BRENT Dólar abre em queda com recuo do petróleo e cenário eleitoral no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-com-recuo-do-petroleo-e-cenario-eleitoral-no-radar.shtml
-· UST U.S. Treasury yields ease on crude pull-back ; rate hike bets stay (Investing.com) https://www.investing.com/news/forex-news/euro-zone-yields-ease-as-markets-await-of-ecbs-lagarde-speech-4908370
-· BTC Strategy Jumps 6% as Bitcoin Hits Highest Level Since January; MARA Climbs 5%, Riot Rises 4% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-jumps-6-bitcoin-hits-124444487.html
-· BTC MicroStrategy Ends Two-Week Pause With 950 Bitcoin: Is the Buying Engine Stalling? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/microstrategy-ends-two-week-pause-121459967.html
-· AMZN Worried About Hugging Face? Microsoft and Amazon Got Exposed Most Among Hyperscalers (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/worried-hugging-face-microsoft-amazon-121222004.html
-· DI Economistas veem mais corte na Selic e inflação mais alta; confira o Focus desta segunda-feira (21) (Money Times) https://www.moneytimes.com.br/economistas-veem-mais-um-corte-na-selic-e-inflacao-mais-alta-confira-o-focus-desta-segunda-feira-21/
-· BTC Billionaire Tim Draper Predicts Bitcoin Will Hit $250,000 Within 2 Years. Here's What Needs to Happen. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/billionaire-tim-draper-predicts-bitcoin-062000744.html
-· CVX Chevron (CVX) Supercharges its Venezuela Bet with More Oil Rigs (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-supercharges-venezuela-bet-151837921.html
-· DI Economistas do Brasil reduzem previsão da Selic para 2026 após corte de juros (Investing.com) https://br.investing.com/news/world-news/economistas-do-brasil-reduzem-previsao-da-selic-para-2026-apos-corte-de-juros-93CH-2070716
-· MU Micron: SCAs And Enterprise Adoption Make It A Strong Buy (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948222-micron-upcoming-q4-sca-and-enterprise-adoption-make-it-strong-buy
-· USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/
-· BTC Bitcoin Is at Its Highest Price Since January (Barron's) https://www.barrons.com/livecoverage/stock-market-news-today-092126/card/bitcoin-is-at-its-highest-price-since-january-j7tDItUS0l2LEGqTfuOG?modCode=hp_LEDE_C_LC_1
-· USDBRL Dólar abre em queda com nova pesquisa eleitoral em foco (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-21-setembro-2026-2/
-· (+10 manchetes; lista completa em eventos/noticias.json)
+· (+25 manchetes; lista completa em eventos/noticias.json)
