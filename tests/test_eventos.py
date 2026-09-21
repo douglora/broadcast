@@ -45,6 +45,11 @@ def test_parse_rss_e_atribuicao():
     assert noticias.atribuir("Prime Video's Off Campus TV Show Lands Amazon a Big Lawsuit", "", casar, ex, pv) == []
     assert noticias.atribuir("Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave", "", casar, ex, pv) == ["DI"]
     assert set(noticias.atribuir("Safra corta preço-alvo de Itaú, Bradesco e Banco do Brasil", "", casar, ex, pv)) == {"ITUB4", "BBDC4", "BBAS3"}
+    # banco como CASA DE ANALISE: o assunto e a empresa coberta, nao o banco que assina
+    assert noticias.atribuir("BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027", "", casar, ex, pv) == []
+    assert noticias.atribuir("Bradesco BBI eleva recomendação de Vale para compra", "", casar, ex, pv) == ["VALE3"]
+    # mas o banco como ALVO da recomendacao continua sendo atribuido (linha acima) e o fato proprio tambem
+    assert noticias.atribuir("Itaú Unibanco anuncia JCP de R$ 0,15 por ação", "", casar, ex, pv) == ["ITUB4"]
 
 
 def test_consolidar_junta_veiculos_e_licenca():
@@ -400,3 +405,12 @@ def test_sec_le_o_texto_do_6k_de_emissor_estrangeiro():
     r = sec.coletar({"TSM": "TSM"}, cli=Cli(), hoje=date(2026, 9, 19), dias=3, ua="X f@x.com", dormir=lambda s: None)
     f = r["filings"][0]
     assert f["form"] == "6-K" and f["severidade"] == "info" and "NT$250 billion" in (f["texto"] or "")
+
+def test_hash_item_estavel_entre_coletas():
+    """O link do Google News e um token que muda a cada coleta; a identidade do item
+    nao pode depender dele, senao a mesma materia reaparece depois do ack."""
+    from livro.fontes import noticias
+    titulo = "Mercado ve espaco para mais cortes e reduz projecao da Selic para 13,5% em 2026"
+    assert noticias.hash_item(titulo, "Bloomberg Linea") == noticias.hash_item(titulo, "Bloomberg Linea")
+    assert noticias.hash_item(titulo, "Bloomberg Linea") != noticias.hash_item(titulo, "Suno Noticias")
+    assert noticias.hash_item(titulo, "Bloomberg Linea") != noticias.hash_item("Outra manchete", "Bloomberg Linea")

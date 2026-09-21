@@ -301,7 +301,7 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
             parcial: bool = False, exemplo: bool = False, slot: str = "fechamento", hora: str = "") -> str:
     L = []
     if slot == "manha":
-        L.append(f"MANHÃ DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '07h20'} BRT (curvas de D-1)")
+        L.append(f"MANHÃ DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '09h30'} BRT (curvas de D-1)")
     else:
         L.append(f"FECHAMENTO DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '18h40'} BRT" + (" · PARCIAL" if parcial else ""))
     L += quebrar("Relógios: " + relogios_txt, indent="  ")
