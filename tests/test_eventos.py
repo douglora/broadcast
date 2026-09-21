@@ -45,6 +45,11 @@ def test_parse_rss_e_atribuicao():
     assert noticias.atribuir("Prime Video's Off Campus TV Show Lands Amazon a Big Lawsuit", "", casar, ex, pv) == []
     assert noticias.atribuir("Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta condição-chave", "", casar, ex, pv) == ["DI"]
     assert set(noticias.atribuir("Safra corta preço-alvo de Itaú, Bradesco e Banco do Brasil", "", casar, ex, pv)) == {"ITUB4", "BBDC4", "BBAS3"}
+    # banco como CASA DE ANALISE: o assunto e a empresa coberta, nao o banco que assina
+    assert noticias.atribuir("BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027", "", casar, ex, pv) == []
+    assert noticias.atribuir("Bradesco BBI eleva recomendação de Vale para compra", "", casar, ex, pv) == ["VALE3"]
+    # mas o banco como ALVO da recomendacao continua sendo atribuido (linha acima) e o fato proprio tambem
+    assert noticias.atribuir("Itaú Unibanco anuncia JCP de R$ 0,15 por ação", "", casar, ex, pv) == ["ITUB4"]
 
 
 def test_consolidar_junta_veiculos_e_licenca():

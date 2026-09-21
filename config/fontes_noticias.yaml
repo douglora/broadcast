@@ -154,6 +154,12 @@ excluir:
   BTC: ['(?i)\bBitcoin (ETF|Cash|Gold|Depot|Magazine)\b(?!.*(price|pre[cç]o|inflow|outflow))', '(?i)^Crypto News', '(?i)\b(presale|meme ?coins?|DeFi exchange|airdrop|token launch|100x|pre-?venda)\b']
   ETH: ['(?i)^Crypto News', '(?i)\b(presale|meme ?coins?|DeFi exchange|airdrop|token launch|100x|pre-?venda)\b']
   DI: ['(?i)\bCopom\b.*\bata\b.*\bassembleia\b']
+  # Banco como CASA DE ANALISE, nao como assunto: 'Itau BBA sobe preco-alvo de Bemobi'
+  # fala da Bemobi. Casa so o braco de research (Itau BBA, Bradesco BBI, BB Investimentos),
+  # entao 'Safra corta preco-alvo de Itau' (banco como alvo) continua atribuindo ao banco.
+  ITUB4: ['(?i)\bIta[uú] BBA\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b']
+  BBDC4: ['(?i)\bBradesco BBI\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b']
+  BBAS3: ['(?i)\bBB Investimentos\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b']
 # Banco como previsor macro: "Bradesco revisa projecao da Selic" fala da Selic, nao da acao do banco.
 # Se a manchete casa o padrao e o ativo esta na lista, o ativo sai da atribuicao (os macro ficam).
 previsor_macro:
