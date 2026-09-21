@@ -16,6 +16,8 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py pares INBR32                 # comparativo do grupo com medianas
     python3 mesa.py balanco DIRR3                # alavancagem e caixa do grupo, pelo balanco oficial da CVM
     python3 mesa.py frescor DIRR3                # idade da coleta e defasagem ITR x release; VEREDITO ATUAL (saida 0) ou velho (saida 1): a trava das skills
+    python3 mesa.py cobertura DIRR3              # a janela de 8 trimestres, um a um: o que falta e o que esta vazio; VEREDITO COMPLETA (saida 0) ou nao (saida 1)
+    python3 mesa.py cobertura DIRR3 --pares      # a mesma janela para todo o grupo de pares (a comparacao contra a mediana exige todos)
     python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
@@ -159,7 +161,7 @@ def ficha(tk):
     d = baixar(f"ativos/{tk}.json")
     if not d:
         print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto)."); return
-    print(veredito_frescor(tk, d))
+    print(veredito(tk, d))
     ident = d.get("identificacao") or {}
     sub = d.get("subjacente_us") or {}
     y = (sub.get("yahoo") if sub else d.get("yahoo")) or {}
@@ -225,7 +227,7 @@ def ficha(tk):
 def serie(tk):
     d = baixar(f"ativos/{tk}.json")
     if d:
-        print(veredito_frescor(tk, d))
+        print(veredito(tk, d))
         imprimir_serie(d, 12)
 
 
@@ -235,7 +237,7 @@ def releases(tk):
         return
     d = baixar(f"ativos/{tk}.json")
     if d:
-        print(veredito_frescor(tk, d))
+        print(veredito(tk, d, idx))
     print(f"{tk}: {len(idx.get('releases', []))} releases, atualizado em {idx.get('atualizado_em')}")
     for r in idx.get("releases", []):
         print(f"  {r.get('periodo') or '?':5} {data_release(r)}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:60]:62} {r.get('caracteres_total') or 0:>7} chars  {r.get('arquivo')}")
@@ -247,7 +249,7 @@ def release(tk, periodo, grep=None, contexto=260):
         return
     d = baixar(f"ativos/{tk}.json")
     if d:
-        print(veredito_frescor(tk, d))
+        print(veredito(tk, d, idx))
     alvo = next((r for r in idx.get("releases", []) if (r.get("periodo") or "").upper() == periodo.upper()), None)
     if not alvo:
         print(f"{tk}: nao ha release {periodo}. Existem: {[r.get('periodo') for r in idx.get('releases', [])]}")
@@ -305,7 +307,7 @@ def linha(tk, padrao, max_por_release=4):
         return
     d = baixar(f"ativos/{tk}.json")
     if d:
-        print(veredito_frescor(tk, d))
+        print(veredito(tk, d))
     rels = sorted(idx.get("releases", []), key=lambda r: ordem_periodo(r.get("periodo")))
     rx = re.compile(padrao, re.I)
     print(f"== {tk}: \"{padrao}\" em {len(rels)} releases, do mais antigo ao mais novo")
@@ -359,7 +361,7 @@ def decompor(tk, n=8):
     if not d:
         print(f"{tk}: nao esta no branch dados.")
         return
-    print(veredito_frescor(tk, d))
+    print(veredito(tk, d))
     fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
     if not fonte:
         print("  demonstracao oficial: AUSENTE; sem decomposicao possivel")
@@ -678,6 +680,178 @@ def avaliar_frescor(tk, d):
     return motivos, avisos, detalhes
 
 
+JANELA_TRIMESTRES = 8
+COBERTURA_MIN_CHARS = 4000     # abaixo disso o documento nao sustenta analise: conta como lacuna
+_RE_DINHEIRO = re.compile(r"(?i)R\$\s*[\d.,]+|US\$\s*[\d.,]+|\d[\d.,]*\s*(?:milh|bilh|million|billion)")
+
+
+def janela_obrigatoria(d=None, n=JANELA_TRIMESTRES, hoje=None):
+    """Os `n` trimestres que um deep search exige, do mais novo para o mais antigo.
+
+    A ponta e a mesma referencia do frescor: o mais novo entre o ITR/XBRL e o trimestre cujo prazo
+    legal de divulgacao ja venceu. A janela vem do CALENDARIO, nao do que o coletor achou: ela e igual
+    para todo ativo, e e por isso que ela serve de criterio."""
+    vencido, _ = trimestre_vencido(hoje)
+    ponta = vencido
+    if d:
+        try:
+            _, _, tri, _, _, _, _ = serie_oficial(d)
+            _, itr = _itr_mais_novo(tri or {})
+            if itr and itr > ponta:
+                ponta = itr
+        except Exception:
+            pass
+    ano, t = ponta
+    if not ano:
+        return []
+    janela = []
+    for _ in range(max(0, n)):
+        janela.append(f"{t}T{str(ano)[-2:]}")
+        t -= 1
+        if t == 0:
+            t, ano = 4, ano - 1
+    return janela
+
+
+def _estado_do_release(r):
+    """('ok'|'CURTO'|'FRACO', motivo) de uma entrada do indice de releases."""
+    chars = r.get("caracteres_total") or 0
+    if chars < COBERTURA_MIN_CHARS:
+        return "CURTO", f"texto de {chars} caracteres"
+    if (r.get("preferencia") or 1) >= 3:
+        return "FRACO", "documento nao tem cara de release de resultado"
+    return "ok", ""
+
+
+def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
+    """(faltando, fracos, linhas, janela) da janela obrigatoria contra o indice de releases do branch.
+
+    `faltando` = trimestre sem release guardado. `fracos` = trimestre com release guardado que nao
+    serve de fonte (texto curto, ou documento que nao e release de resultado). Os dois bloqueiam:
+    para a mesa, linha no indice nao e dado."""
+    if idx is None:
+        idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
+    janela = janela_obrigatoria(d, n)
+    por_periodo = {(r.get("periodo") or "").upper(): r for r in (idx.get("releases") or [])}
+    faltando, fracos, linhas = [], [], []
+    for periodo in janela:
+        r = por_periodo.get(periodo)
+        if not r:
+            faltando.append(periodo)
+            linhas.append({"periodo": periodo, "estado": "AUSENTE", "data": "-", "chars": 0,
+                           "assunto": "-", "fonte": "-", "arquivo": None})
+            continue
+        estado, motivo = _estado_do_release(r)
+        if estado != "ok":
+            fracos.append({"periodo": periodo, "motivo": motivo,
+                           "assunto": str(r.get("assunto") or "")[:60]})
+        linhas.append({"periodo": periodo, "estado": estado, "data": data_release(r),
+                       "chars": r.get("caracteres_total") or 0,
+                       "assunto": str(r.get("assunto") or r.get("arquivo_sec") or r.get("formulario") or "-")[:52],
+                       "fonte": str(r.get("fonte") or "-")[:34], "arquivo": r.get("arquivo"),
+                       "motivo": motivo})
+    fora = sorted((p for p in por_periodo if p and p not in set(janela)), key=ordem_periodo, reverse=True)
+    return faltando, fracos, linhas, {"janela": janela, "fora": fora, "indice": idx}
+
+
+def veredito_cobertura(tk, d=None, idx=None):
+    """'COBERTURA 8/8' ou 'COBERTURA 6/8, faltam 1T26, 4T25'. Curto: o Douglas le no celular."""
+    faltando, fracos, linhas, extra = avaliar_cobertura(tk, d, idx)
+    total = len(extra["janela"]) or JANELA_TRIMESTRES
+    ok = total - len(faltando) - len(fracos)
+    if not faltando and not fracos:
+        return f"COBERTURA {ok}/{total}"
+    partes = []
+    if faltando:
+        nomes = faltando[:3] + ([f"+{len(faltando) - 3}"] if len(faltando) > 3 else [])
+        partes.append(("falta " if len(faltando) == 1 else "faltam ") + ", ".join(nomes))
+    if fracos:
+        nomes = [f["periodo"] for f in fracos][:3] + ([f"+{len(fracos) - 3}"] if len(fracos) > 3 else [])
+        partes.append(("vazio em " if len(fracos) == 1 else "vazios em ") + ", ".join(nomes))
+    return f"COBERTURA {ok}/{total}, " + "; ".join(partes)
+
+
+def veredito(tk, d, idx=None):
+    """A primeira linha de todo leitor: frescor E cobertura, nessa ordem, numa linha so.
+
+    Frescor responde 'o dado e de hoje?'; cobertura responde 'o dado esta inteiro?'. O deep search da
+    DIRR3 saiu com 1T26 e 4T25 vazios porque so a primeira pergunta era feita."""
+    try:
+        return f"{veredito_frescor(tk, d)} | {veredito_cobertura(tk, d, idx)}"
+    except Exception as e:
+        return f"{veredito_frescor(tk, d)} | COBERTURA: nao avaliada ({type(e).__name__})"
+
+
+def cobertura(tk, pares_tambem=False):
+    """A janela obrigatoria de trimestres, trimestre a trimestre: o que existe, o que falta e o que
+    esta vazio. E a TRAVA DE COBERTURA das skills: deep search so comeca com saida 0.
+
+    Saida 0 = janela completa (todo trimestre com release de texto util).
+    Saida 1 = falta trimestre ou o documento guardado nao serve: dispare a coleta e repita."""
+    d = baixar(f"ativos/{tk}.json", ttl=0)
+    if not d:
+        print(f"{tk}: nao esta no branch dados. Dispare a coleta (tickers: {tk}, pares: auto).")
+        print("VEREDITO: SEM DADO (ativo fora do branch)")
+        return 1
+    idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
+    faltando, fracos, linhas, extra = avaliar_cobertura(tk, d, idx)
+    janela = extra["janela"]
+    total = len(janela) or JANELA_TRIMESTRES
+    ok = total - len(faltando) - len(fracos)
+    print(f"== {tk}: cobertura da janela de {total} trimestres (o que um deep search exige)")
+    print(f"  coletado em {d.get('gerado_em')} | indice de releases atualizado em {idx.get('atualizado_em') or 'nunca'}")
+    if not idx.get("releases"):
+        print(f"  releases/{tk}/index.json ausente ou vazio: nenhum release guardado no branch")
+    print(f"  {'trimestre':10} {'estado':8} {'data':12} {'chars':>8}  documento")
+    for l in linhas:
+        print(f"  {l['periodo']:10} {l['estado']:8} {str(l['data']):12} {l['chars']:>8}  {l['assunto']}"
+              + (f"  [{l.get('motivo')}]" if l.get("motivo") else ""))
+    if extra["fora"]:
+        print(f"  fora da janela (nao contam): {', '.join(extra['fora'])}")
+    print("VEREDITO: " + ("COMPLETA" if ok == total else veredito_cobertura(tk, d, idx)))
+    if ok != total:
+        print("A SEGUIR:")
+        print(f"  1. dispare coletar-dados.yml (ref main) com tickers: {tk} e pares: auto e espere terminar;")
+        print(f"     o coletor agora vai atras do trimestre que falta mesmo sendo mais antigo que o mais novo.")
+        print(f"  2. repita: python3 mesa.py cobertura {tk}")
+        print("  3. se continuar faltando depois da coleta, a lacuna vira a PRIMEIRA FRASE da resposta,")
+        print("     com o trimestre ao lado, e nenhum numero daquele trimestre e citado.")
+    codigo = 0 if ok == total else 1
+    if pares_tambem:
+        grupo = _tickers_do_grupo(tk)
+        if grupo:
+            print(f"\n== grupo de pares ({len(grupo)} ativos): a comparacao contra a mediana exige todos")
+            for outro in grupo:
+                if outro == tk:
+                    continue
+                do = baixar(f"ativos/{outro}.json", ttl=0)
+                if not do:
+                    print(f"  {outro:8} SEM DADO (fora do branch)")
+                    codigo = 1
+                    continue
+                f2, fr2, _, e2 = avaliar_cobertura(outro, do)
+                t2 = len(e2["janela"]) or JANELA_TRIMESTRES
+                print(f"  {outro:8} {t2 - len(f2) - len(fr2)}/{t2}" +
+                      (f"  faltam {', '.join(f2[:4])}" if f2 else "") +
+                      (f"  vazios {', '.join(x['periodo'] for x in fr2[:4])}" if fr2 else ""))
+                if f2 or fr2:
+                    codigo = 1
+    return codigo
+
+
+def _tickers_do_grupo(tk):
+    """Tickers do grupo de pares do ativo (pares.py), incluindo ele."""
+    try:
+        import pares as _p
+    except Exception:
+        return []
+    for g in _p.PARES.values():
+        lista = g.get("tickers") if isinstance(g, dict) else g
+        if tk in (lista or []):
+            return list(lista)
+    return []
+
+
 def veredito_frescor(tk, d):
     """Uma linha para o topo de qualquer leitor: 'FRESCOR DIRR3: ATUAL' ou os motivos."""
     motivos, avisos, _ = avaliar_frescor(tk, d)
@@ -709,7 +883,8 @@ def frescor(tk):
     return 1 if motivos else 0
 
 
-COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor", "termos", "skills")
+COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor",
+            "cobertura", "termos", "skills")
 
 
 def skills():
@@ -803,6 +978,8 @@ def main(argv):
         balanco(args[0].upper())
     elif cmd == "frescor" and args:
         return frescor(args[0].upper())
+    elif cmd == "cobertura" and args:
+        return cobertura(args[0].upper(), pares_tambem="--pares" in argv)
     elif cmd == "termos":
         termos(args)
     elif cmd == "skills":
