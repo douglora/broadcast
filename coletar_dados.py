@@ -2305,6 +2305,8 @@ RI_DESCOBERTA_MAX_GET = 12         # teto de requisicoes por ticker
 RI_DESCOBERTA_TIMEOUT_S = 12       # por requisicao (a pagina da central usa 60)
 RI_RECONFERIR_DIAS = 90            # entrada do cache e reconferida depois disso
 RI_BACKOFF_DIAS = (1, 3, 7, 30)    # ticker sem fonte: espera antes de tentar de novo
+RI_DESCOBERTAS_POR_COLETA = 6      # buscas novas por execucao: o resto espera a proxima
+_descobertas_nesta_coleta = 0      # contador do teto acima (a execucao agendada varre 26 ativos)
 
 _RE_ESQUEMA = re.compile(r"(?i)^[a-z][a-z0-9+.-]*://")
 _RE_HOST = re.compile(r"(?i)^([a-z0-9.-]+\.[a-z]{2,})")
@@ -2644,6 +2646,15 @@ def fonte_ri_do_ativo(tk, dados, fontes, saida, orcamento_s=RI_DESCOBERTA_ORCAME
                 f"{guardada.get('tentativas')} tentativa(s))")
         fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada pelo backoff"
         return None, "adiada"
+    global _descobertas_nesta_coleta
+    if _descobertas_nesta_coleta >= RI_DESCOBERTAS_POR_COLETA:
+        # A execucao agendada varre a lista inteira; sem teto, uma coleta poderia gastar dezenas de
+        # minutos so descobrindo. O que ficou de fora entra na proxima, sem perder nada.
+        app.log(f"{tk}: descoberta de RI adiada: ja foram {_descobertas_nesta_coleta} buscas nesta "
+                f"coleta (teto {RI_DESCOBERTAS_POR_COLETA}); entra na proxima")
+        fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada para a proxima coleta"
+        return None, "adiada"
+    _descobertas_nesta_coleta += 1
     achada, bloqueados = None, []
     try:
         achada = descobrir_central_ri(tk, dados, fontes, orcamento_s, bloqueados)
