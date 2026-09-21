@@ -2091,11 +2091,26 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
             continue
         html = _html_da_resposta(r)
         links = _links_da_pagina(html, url)
+        # Tema mziq_* com file manager declarado (fmId + categorias): a pagina mostra no maximo o
+        # trimestre corrente; a API lista o historico inteiro. Entra junto com os links do HTML
+        # (Direcional mostrava so o 2T26 e 4T25/1T26 nunca chegavam).
+        fm, _ = _file_manager_da_pagina(html)
+        rota_fm = None
+        if fm.get("id") and fm.get("categorias"):
+            chave = ("__cmsint__", fm["id"], fm.get("api_language"))
+            if chave not in sonda_cache:
+                sonda_cache[chave] = _listar_cmsint(fm, rotulo)
+            links_fm, rota_fm, resumo_fm = sonda_cache[chave]
+            if links_fm:
+                links = links_fm + links
+                app.log(f"{rotulo}: {resumo_fm}; {len(links_fm)} links da API entram junto com os da pagina")
         cands, fora_rotulo = _candidatos_ri(links, url)
         app.log(f"{rotulo}: {url} ok ({len(html)} caracteres, {len(links)} links, {len(cands)} candidatos, "
                 f"{fora_rotulo} descartados pelo rotulo)")
         if cands:
             candidatos, pagina = cands, url
+            if rota_fm and any(c["url"] in {l[0] for l in sonda_cache[chave][0]} for c in cands):
+                rota_lista = rota_fm
             break
         motivo = f"pagina sem link de release ({url}; {len(links)} links; a lista e montada por JavaScript)"
         app.log(f"{rotulo}: {motivo}")
