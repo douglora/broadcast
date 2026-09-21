@@ -723,6 +723,24 @@ def _estado_do_release(r):
     return "ok", ""
 
 
+def _periodos_oficiais(d):
+    """Trimestres com demonstracao oficial, como (ano, tri). Limite inferior da cobertura: companhia
+    aberta ha um ano nao tem release de 3T24, e a trava nao pode ficar presa nisso."""
+    try:
+        _, _, tri, _, _, _, _ = serie_oficial(d or {})
+    except Exception:
+        return set()
+    achados = set()
+    for linha in (tri or {}).values():
+        if isinstance(linha, dict):
+            for periodo, valor in linha.items():
+                if valor is not None:
+                    o = ordem_periodo(periodo)
+                    if o != (0, 0):
+                        achados.add(o)
+    return achados
+
+
 def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
     """(faltando, fracos, linhas, janela) da janela obrigatoria contra o indice de releases do branch.
 
@@ -733,13 +751,18 @@ def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
         idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
     janela = janela_obrigatoria(d, n)
     por_periodo = {(r.get("periodo") or "").upper(): r for r in (idx.get("releases") or [])}
-    faltando, fracos, linhas = [], [], []
+    oficiais = _periodos_oficiais(d)
+    # serie curta e coleta truncada, nao companhia nova: nesse caso nada e dispensado
+    mais_antigo = min(oficiais) if (oficiais and len(oficiais) >= 4) else None
+    faltando, fracos, linhas, na = [], [], [], []
     for periodo in janela:
         r = por_periodo.get(periodo)
         if not r:
-            faltando.append(periodo)
-            linhas.append({"periodo": periodo, "estado": "AUSENTE", "data": "-", "chars": 0,
-                           "assunto": "-", "fonte": "-", "arquivo": None})
+            antes_de_existir = bool(mais_antigo) and ordem_periodo(periodo) < mais_antigo
+            (na if antes_de_existir else faltando).append(periodo)
+            linhas.append({"periodo": periodo, "estado": "n/a" if antes_de_existir else "AUSENTE",
+                           "data": "-", "chars": 0, "fonte": "-", "arquivo": None,
+                           "assunto": "anterior a primeira demonstracao oficial" if antes_de_existir else "-"})
             continue
         estado, motivo = _estado_do_release(r)
         if estado != "ok":
@@ -751,13 +774,13 @@ def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
                        "fonte": str(r.get("fonte") or "-")[:34], "arquivo": r.get("arquivo"),
                        "motivo": motivo})
     fora = sorted((p for p in por_periodo if p and p not in set(janela)), key=ordem_periodo, reverse=True)
-    return faltando, fracos, linhas, {"janela": janela, "fora": fora, "indice": idx}
+    return faltando, fracos, linhas, {"janela": janela, "fora": fora, "indice": idx, "nao_aplicavel": na}
 
 
 def veredito_cobertura(tk, d=None, idx=None):
     """'COBERTURA 8/8' ou 'COBERTURA 6/8, faltam 1T26, 4T25'. Curto: o Douglas le no celular."""
     faltando, fracos, linhas, extra = avaliar_cobertura(tk, d, idx)
-    total = len(extra["janela"]) or JANELA_TRIMESTRES
+    total = (len(extra["janela"]) or JANELA_TRIMESTRES) - len(extra.get("nao_aplicavel") or [])
     ok = total - len(faltando) - len(fracos)
     if not faltando and not fracos:
         return f"COBERTURA {ok}/{total}"
@@ -796,7 +819,8 @@ def cobertura(tk, pares_tambem=False):
     idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
     faltando, fracos, linhas, extra = avaliar_cobertura(tk, d, idx)
     janela = extra["janela"]
-    total = len(janela) or JANELA_TRIMESTRES
+    na = extra.get("nao_aplicavel") or []
+    total = (len(janela) or JANELA_TRIMESTRES) - len(na)
     ok = total - len(faltando) - len(fracos)
     print(f"== {tk}: cobertura da janela de {total} trimestres (o que um deep search exige)")
     print(f"  coletado em {d.get('gerado_em')} | indice de releases atualizado em {idx.get('atualizado_em') or 'nunca'}")
@@ -806,6 +830,8 @@ def cobertura(tk, pares_tambem=False):
     for l in linhas:
         print(f"  {l['periodo']:10} {l['estado']:8} {str(l['data']):12} {l['chars']:>8}  {l['assunto']}"
               + (f"  [{l.get('motivo')}]" if l.get("motivo") else ""))
+    if na:
+        print(f"  n/a (antes da primeira demonstracao oficial, nao existe release): {', '.join(na)}")
     if extra["fora"]:
         print(f"  fora da janela (nao contam): {', '.join(extra['fora'])}")
     print("VEREDITO: " + ("COMPLETA" if ok == total else veredito_cobertura(tk, d, idx)))
@@ -830,7 +856,7 @@ def cobertura(tk, pares_tambem=False):
                     codigo = 1
                     continue
                 f2, fr2, _, e2 = avaliar_cobertura(outro, do)
-                t2 = len(e2["janela"]) or JANELA_TRIMESTRES
+                t2 = (len(e2["janela"]) or JANELA_TRIMESTRES) - len(e2.get("nao_aplicavel") or [])
                 print(f"  {outro:8} {t2 - len(f2) - len(fr2)}/{t2}" +
                       (f"  faltam {', '.join(f2[:4])}" if f2 else "") +
                       (f"  vazios {', '.join(x['periodo'] for x in fr2[:4])}" if fr2 else ""))
