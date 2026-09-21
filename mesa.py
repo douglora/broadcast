@@ -159,6 +159,7 @@ def ficha(tk):
     d = baixar(f"ativos/{tk}.json")
     if not d:
         print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto)."); return
+    print(veredito_frescor(tk, d))
     ident = d.get("identificacao") or {}
     sub = d.get("subjacente_us") or {}
     y = (sub.get("yahoo") if sub else d.get("yahoo")) or {}
@@ -224,6 +225,7 @@ def ficha(tk):
 def serie(tk):
     d = baixar(f"ativos/{tk}.json")
     if d:
+        print(veredito_frescor(tk, d))
         imprimir_serie(d, 12)
 
 
@@ -231,6 +233,9 @@ def releases(tk):
     idx = baixar(f"releases/{tk}/index.json")
     if not idx:
         return
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito_frescor(tk, d))
     print(f"{tk}: {len(idx.get('releases', []))} releases, atualizado em {idx.get('atualizado_em')}")
     for r in idx.get("releases", []):
         print(f"  {r.get('periodo') or '?':5} {data_release(r)}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:60]:62} {r.get('caracteres_total') or 0:>7} chars  {r.get('arquivo')}")
@@ -240,6 +245,9 @@ def release(tk, periodo, grep=None, contexto=260):
     idx = baixar(f"releases/{tk}/index.json")
     if not idx:
         return
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito_frescor(tk, d))
     alvo = next((r for r in idx.get("releases", []) if (r.get("periodo") or "").upper() == periodo.upper()), None)
     if not alvo:
         print(f"{tk}: nao ha release {periodo}. Existem: {[r.get('periodo') for r in idx.get('releases', [])]}")
@@ -295,6 +303,9 @@ def linha(tk, padrao, max_por_release=4):
     if not idx:
         print(f"{tk}: nenhum release guardado. Dispare a coleta.")
         return
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito_frescor(tk, d))
     rels = sorted(idx.get("releases", []), key=lambda r: ordem_periodo(r.get("periodo")))
     rx = re.compile(padrao, re.I)
     print(f"== {tk}: \"{padrao}\" em {len(rels)} releases, do mais antigo ao mais novo")
@@ -348,6 +359,7 @@ def decompor(tk, n=8):
     if not d:
         print(f"{tk}: nao esta no branch dados.")
         return
+    print(veredito_frescor(tk, d))
     fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
     if not fonte:
         print("  demonstracao oficial: AUSENTE; sem decomposicao possivel")
@@ -559,17 +571,53 @@ def _itr_mais_novo(tri):
     return None, (0, 0)
 
 
-def frescor(tk):
-    """Idade da coleta e defasagem entre ITR e release em um VEREDITO. E a trava das skills antes de escrever.
+_PRAZO_DIAS = {1: 45, 2: 45, 3: 45, 4: 90}
+_FIM_TRI = {1: "03-31", 2: "06-30", 3: "09-30", 4: "12-31"}
 
-    Saida 0 = ATUAL (release no trimestre do ITR ou mais novo, e coleta dentro do teto de horas).
-    Saida 1 = RELEASE VELHO, COLETA VELHA ou SEM DADO: a skill dispara a coleta e repete o comando.
-    """
-    d = baixar(f"ativos/{tk}.json")
-    if not d:
-        print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto).")
-        print("VEREDITO: SEM DADO (ativo fora do branch)")
-        return 1
+
+def trimestre_vencido(hoje=None):
+    """Ultimo trimestre fechado cujo prazo legal de divulgacao ja venceu (45 dias no 1T a 3T, 90 no 4T).
+
+    E a segunda referencia de frescor: se o ITR atrasar ou o zip da CVM sumir, o release "em dia com o
+    ITR" continua velho para o calendario. Devolve (ano, tri) e a data do vencimento."""
+    h = hoje or datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
+    tri, ano = (h.month - 1) // 3, h.year
+    if tri == 0:
+        tri, ano = 4, ano - 1
+    for _ in range(6):
+        fim = datetime.datetime.strptime(f"{ano}-{_FIM_TRI[tri]}", "%Y-%m-%d")
+        venc = fim + datetime.timedelta(days=_PRAZO_DIAS[tri])
+        if h >= venc:
+            return (ano, tri), venc
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return (0, 0), None
+
+
+def _eh_b3_sem_bdr(tk):
+    """Companhia da B3 que publica na CVM (nao BDR, nao ticker dos EUA): e o caso que precisa de mapa de RI."""
+    if not re.fullmatch(r"[A-Z]{4}\d{1,2}", tk or ""):
+        return False
+    try:
+        import pares as _p
+        if tk in _p.BDR_SUBJACENTE:
+            return False
+    except Exception:
+        pass
+    return tk[4:] not in ("31", "32", "33", "34", "35", "39")
+
+
+def _mapeado_no_ri(tk):
+    try:
+        import ri_fontes as _r
+        return tk in _r.RI_FONTES
+    except Exception:
+        return False
+
+
+def avaliar_frescor(tk, d):
+    """(motivos, avisos, detalhes) do frescor de um JSON do branch. Motivo = bloqueia; aviso = so alerta."""
     gerado = d.get("gerado_em")
     idade = _horas_desde(gerado)
     agora_brt = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=3)
@@ -584,39 +632,79 @@ def frescor(tk):
     rel_data = data_release(rel if rel.get("data") else primeiro)
     rel_fonte = rel.get("fonte") or primeiro.get("fonte")
     rel_ord = ordem_periodo(rel_periodo)
+    vencido, venc_data = trimestre_vencido()
     defasagem = None
     if itr != (0, 0) and rel_ord != (0, 0):
         defasagem = (itr[0] * 4 + itr[1]) - (rel_ord[0] * 4 + rel_ord[1])
-    print(f"== {tk}: frescor do dado no branch dados")
-    print(f"  coletado em {gerado or '-'} | idade {fmt(idade, 1) if idade is not None else '-'} h"
-          f" | teto {teto} h ({'dia util' if dia_util else 'fim de semana'}, horario de Brasilia)")
-    if itr_rotulo:
-        print(f"  ITR mais novo: {itr_rotulo} ({_rotulo_curto(itr)}) | {fonte}")
-    else:
-        print("  ITR mais novo: AUSENTE | sem demonstracao oficial no JSON")
-    print(f"  release mais novo: {rel_periodo or 'AUSENTE'} | {rel_data or '-'} | {rel_fonte or '-'}")
+    atraso_cal = (vencido[0] * 4 + vencido[1]) - (rel_ord[0] * 4 + rel_ord[1]) if (vencido != (0, 0) and rel_ord != (0, 0)) else None
+    itr_cal = (vencido[0] * 4 + vencido[1]) - (itr[0] * 4 + itr[1]) if (vencido != (0, 0) and itr != (0, 0)) else None
+    detalhes = [f"coletado em {gerado or '-'} | idade {fmt(idade, 1) if idade is not None else '-'} h"
+                f" | teto {teto} h ({'dia util' if dia_util else 'fim de semana'}, horario de Brasilia)",
+                (f"ITR mais novo: {itr_rotulo} ({_rotulo_curto(itr)}) | {fonte}" if itr_rotulo
+                 else "ITR mais novo: AUSENTE | sem demonstracao oficial no JSON"),
+                f"release mais novo: {rel_periodo or 'AUSENTE'} | {rel_data or '-'} | {rel_fonte or '-'}",
+                (f"calendario: ultimo trimestre com prazo vencido {_rotulo_curto(vencido)} (venceu em {venc_data:%d/%m/%Y})"
+                 if vencido != (0, 0) else "calendario: nao calculado")]
     if defasagem is None:
-        print("  defasagem: nao da para medir (falta ITR ou release)")
+        detalhes.append("defasagem: nao da para medir (falta ITR ou release)")
     elif defasagem == 0:
-        print("  defasagem: 0 trimestre | release e ITR no mesmo trimestre")
+        detalhes.append("defasagem: 0 trimestre | release e ITR no mesmo trimestre")
     elif defasagem > 0:
-        print(f"  defasagem: {defasagem} trimestre(s) | release ATRAS do ITR: a fala da gestao e mais velha que os numeros")
+        detalhes.append(f"defasagem: {defasagem} trimestre(s) | release ATRAS do ITR: a fala da gestao e mais velha que os numeros")
     else:
-        print(f"  defasagem: {defasagem} trimestre(s) | release a frente do ITR (normal logo apos a divulgacao)")
+        detalhes.append(f"defasagem: {defasagem} trimestre(s) | release a frente do ITR"
+                        + (" (normal logo apos a divulgacao)" if defasagem == -1 else " (confira o trimestre do release)"))
     bloco = d.get("frescor")
-    if isinstance(bloco, dict) and bloco:
-        print("  bloco frescor do coletor: " + " | ".join(f"{k} {json.dumps(v, ensure_ascii=False)}" for k, v in bloco.items()))
-    else:
-        print("  bloco frescor do coletor: ausente (JSON gravado antes de o coletor medir frescor)")
-    motivos = []
+    detalhes.append("bloco frescor do coletor: " + (" | ".join(f"{k} {json.dumps(v, ensure_ascii=False)}" for k, v in bloco.items() if k != "nota")
+                    if isinstance(bloco, dict) and bloco else "ausente (JSON gravado antes de o coletor medir frescor)"))
+    motivos, avisos = [], []
     if defasagem is None:
         motivos.append("SEM DADO (falta ITR ou release)")
     elif defasagem > 0:
         motivos.append(f"RELEASE VELHO ({defasagem} trimestre{'s' if defasagem > 1 else ''} atras do ITR)")
+    elif defasagem <= -2:
+        motivos.append(f"RELEASE ADIANTADO ({-defasagem} trimestres a frente do ITR: trimestre do release suspeito)")
+    if atraso_cal is not None and atraso_cal > 0 and not any(m.startswith("RELEASE VELHO") for m in motivos):
+        motivos.append(f"RELEASE VELHO (calendario: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, release e {rel_periodo})")
+    if itr_cal is not None and itr_cal > 0:
+        motivos.append(f"ITR VELHO (calendario: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, ITR e {_rotulo_curto(itr)})")
     if idade is None:
         motivos.append("COLETA VELHA (gerado_em ilegivel)")
     elif idade > teto:
         motivos.append(f"COLETA VELHA ({idade:.0f}h)")
+    if _eh_b3_sem_bdr(tk) and not _mapeado_no_ri(tk):
+        avisos.append("site de RI: NAO MAPEADO em ri_fontes.py; com a CVM sem indice, a coleta nao vai achar release novo. "
+                      "Mapeie a central de resultados (WebSearch) e leve a main ANTES de disparar")
+    return motivos, avisos, detalhes
+
+
+def veredito_frescor(tk, d):
+    """Uma linha para o topo de qualquer leitor: 'FRESCOR DIRR3: ATUAL' ou os motivos."""
+    motivos, avisos, _ = avaliar_frescor(tk, d)
+    linha = f"FRESCOR {tk}: " + (" | ".join(motivos) if motivos else "ATUAL")
+    if avisos:
+        linha += " | AVISO: " + " | ".join(avisos)
+    return linha
+
+
+def frescor(tk):
+    """Idade da coleta e defasagem entre ITR, calendario e release em um VEREDITO. E a trava das skills.
+
+    Saida 0 = ATUAL (release no trimestre do ITR ou mais novo, ITR e release no trimestre que o calendario
+    exige, e coleta dentro do teto de horas). Saida 1 = RELEASE VELHO, ITR VELHO, RELEASE ADIANTADO,
+    COLETA VELHA ou SEM DADO: a skill dispara a coleta e repete o comando. Le sem cache local.
+    """
+    d = baixar(f"ativos/{tk}.json", ttl=0)
+    if not d:
+        print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto).")
+        print("VEREDITO: SEM DADO (ativo fora do branch)")
+        return 1
+    motivos, avisos, detalhes = avaliar_frescor(tk, d)
+    print(f"== {tk}: frescor do dado no branch dados")
+    for l in detalhes:
+        print("  " + l)
+    for a in avisos:
+        print("  AVISO: " + a)
     print("VEREDITO: " + (" | ".join(motivos) if motivos else "ATUAL"))
     return 1 if motivos else 0
 
@@ -671,6 +759,18 @@ def skills():
         print(f"  ok      pares.py: {len(_p.PARES)} grupos, {len(_p.BDR_SUBJACENTE)} BDRs mapeados")
     except Exception as e:
         print(f"  FALTA   pares.py: {e}")
+        ok = False
+    try:
+        import ri_fontes as _r
+        chaves = {"empresa", "central", "alternativas", "plataforma", "mz_id", "observacao"}
+        ruins = [t for t, v in _r.RI_FONTES.items() if set(v) != chaves or not v.get("central")]
+        if ruins:
+            print(f"  INVALIDA ri_fontes.py: entradas fora do esquema: {ruins}")
+            ok = False
+        else:
+            print(f"  ok      ri_fontes.py: {len(_r.RI_FONTES)} companhias com central de resultados mapeada")
+    except Exception as e:
+        print(f"  FALTA   ri_fontes.py: {e}")
         ok = False
     print("\n" + ("TUDO OPERANDO" if ok else "HA PENDENCIA ACIMA"))
     return 0 if ok else 1
