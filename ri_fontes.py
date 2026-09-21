@@ -17,6 +17,12 @@
 #   mz_id        primeiro uuid depois de /mzfilemanager/v2/d/ (str) ou None
 #   observacao   texto livre curto: onde o id foi visto, o que foi inferido
 #
+# Chave opcional:
+#   lista        lista de URLs (JSON ou HTML) que devolvem a listagem de documentos
+#                quando a central e montada por JavaScript (o HTML vem sem link).
+#                O coletor tenta essas rotas antes de sondar a pagina; a arvore
+#                do JSON e percorrida e todo campo com url/titulo vira candidato.
+#
 # Regras de preenchimento (busca web em 20/09/2026):
 # - mz_id so entra quando visto numa URL real de documento da propria
 #   companhia em resultado de busca; nunca inventado.

@@ -1088,12 +1088,27 @@ def baixar_ipe_linhas(year):
     r = http_get(IPE_URL.format(year=year), timeout=25)
     if not r:
         log(f"cvm: IPE {year} indisponivel")
+        _listar_pasta_ipe(year)
         return []
     try:
         return list(csv.DictReader(io.StringIO(r.content.decode("latin-1")), delimiter=";"))
     except Exception as e:
         log(f"cvm: IPE {year} solto ilegivel ({e})")
         return []
+
+
+def _listar_pasta_ipe(year):
+    """Diagnostico quando o IPE do ano some: o que a pasta da CVM lista para esse ano (o arquivo
+    pode ter mudado de nome ou sumido de vez). Uma linha no log, nunca uma excecao."""
+    try:
+        pasta = IPE_ZIP_URL.rsplit("/", 1)[0] + "/"
+        r = http_get(pasta, timeout=25)
+        if not r:
+            return
+        nomes = sorted(set(re.findall(r'href="([^"]*%s[^"]*)"' % year, r.text or "")))
+        log(f"cvm: pasta do IPE lista para {year}: {', '.join(n[:60] for n in nomes[:12]) or 'nada'}")
+    except Exception as e:
+        log(f"cvm: pasta do IPE ilegivel ({type(e).__name__})")
 
 
 def baixar_ipe(year):

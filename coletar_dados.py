@@ -1320,6 +1320,404 @@ def _candidatos_ri(links, pagina=None):
     return list(por_url.values()), descartados_rotulo
 
 
+# ───────────────── Central montada por JavaScript: pistas e rotas de listagem ─────────────────
+# Cury, Plano & Plano e MRV (tema MZ novo) entregam a central de resultados sem nenhum link de
+# documento no HTML: a lista e montada por JavaScript a partir de uma chamada a parte (API do
+# proprio WordPress, admin-ajax, JSON embutido, iframe ou API da MZ). Quando a pagina responde sem
+# candidato, a sondagem (1) le as pistas da pagina e dos scripts do tema, (2) tenta cada rota de
+# listagem que elas apontam, mais as rotas conhecidas (JSON da pagina no WP REST, biblioteca de
+# midia, indice do REST) e a chave `lista` de ri_fontes.py, e (3) alimenta _candidatos_ri com o
+# que a rota devolver (JSON ou HTML). Tudo com prazo curto e sem excecao: a sondagem so acrescenta.
+RI_SONDA_PRAZO_S = 60             # teto da sondagem por pagina sem candidato (dentro do orcamento do ativo)
+RI_SONDA_MAX_JS = 6               # scripts do tema/plugins lidos a procura de URL de API
+RI_SONDA_MAX_ROTAS = 14           # rotas de listagem tentadas por pagina
+RI_SONDA_MAX_BYTES = 3_000_000    # script maior que isso nao e lido
+RI_SONDA_TIMEOUT_S = 20           # por requisicao da sondagem
+
+_RE_SCRIPT_SRC = re.compile(r"""(?i)<script\b[^>]*\bsrc\s*=\s*["']?([^"'\s>]+)""")
+_RE_SCRIPT_INLINE = re.compile(r"(?is)<script\b([^>]*)>(.*?)</script>")
+_RE_SCRIPT_TIPO = re.compile(r"""(?i)\btype\s*=\s*["']?([^"'\s>]+)""")
+_RE_LINK_TAG = re.compile(r"(?i)<link\b([^>]*)>")
+_RE_REL = re.compile(r"""(?i)\brel\s*=\s*["']?([^"'>]+)""")
+_RE_TIPO_ATTR = re.compile(r"""(?i)\btype\s*=\s*["']?([^"'\s>]+)""")
+_RE_IFRAME = re.compile(r"""(?i)<iframe\b[^>]*\bsrc\s*=\s*["']?([^"'\s>]+)""")
+_RE_DATA_ATTR = re.compile(r"""(?i)\b(data-[a-z0-9_-]+)\s*=\s*["']([^"']{4,400})["']""")
+_RE_PISTA = re.compile(r"(?i)wp-json|admin-ajax|mziq|apicatalog|/api/|api\.|\.json\b|filemanager|rest_route|"
+                       r"idcanal|listresultados|documento|document|resultad|result|arquivo|release|earning")
+_RE_URL_EM_TEXTO = re.compile(r"""(?i)["'`]((?:https?:)?//[^"'`\s<>\\]{8,300}|"""
+                              r"""/(?:wp-json|wp-admin/admin-ajax\.php|api/|[a-z0-9_-]+\.aspx)[^"'`\s<>\\]{0,300})["'`]""")
+_RE_ACAO_AJAX = re.compile(r"""(?i)\baction\b["']?\s*[:=]\s*["']([a-z0-9_-]{3,60})["']""")
+_RE_CONFIG_JS = re.compile(r"""(?i)\b(ajax_?url|rest_?url|api_?url|root_?url|base_?url|root|endpoint|nonce|id_?canal|mz_?id|company_?id|empresa_?id)\b["']?\s*[:=]\s*["']([^"'\s]{2,300})["']""")
+_RE_PLACEHOLDER = re.compile(r"[{}$<>\[\]|]|\+\s*$")
+_RE_JS_CORE = re.compile(r"(?i)jquery|wp-includes|wp-emoji|elementor|gtm|gtag|analytics|recaptcha|font|swiper|slick|owl|"
+                         r"bootstrap|polyfill|lazy|cookie|lgpd|modernizr|popper|wow\b|aos\b|lightbox|fancybox|magnific|"
+                         r"isotope|masonry|select2|moment|chart|d3\b|three|gsap|lottie|vimeo|youtube|player|hotjar|"
+                         r"facebook|linkedin|twitter|clarity|tagmanager|pixel|consent|accessib|hand-talk|vlibras")
+_RE_JS_PRIORIDADE = re.compile(r"(?i)mz|result|central|document|\bdoc|file|arquiv|app|main|script|custom|theme|bundle|index")
+_RE_ROTA_INTERESSANTE = re.compile(r"(?i)mz|doc|file|arquiv|result|central|release|publica|download|midia|media")
+_RE_REST_INDICE = re.compile(r"(?i)wp-json/?$|rest_route=/?$")
+_RE_TIPO_TEXTO = re.compile(r"(?i)json|javascript|html|text|xml")
+
+_CHAVES_URL = {"url", "link", "href", "file", "arquivo", "download", "source_url", "guid", "path", "src",
+               "document", "documento", "file_url", "fileurl", "url_arquivo", "urlarquivo", "downloadurl",
+               "download_url", "permalink", "caminho", "linkarquivo", "link_arquivo", "urldownload"}
+_CHAVES_TITULO = {"title", "titulo", "name", "nome", "label", "rotulo", "descricao", "description", "text", "texto",
+                  "filename", "file_name", "nome_arquivo", "assunto", "subject", "rendered", "caption", "alt", "slug",
+                  "nomearquivo", "displayname", "display_name", "post_title"}
+_CHAVES_TRIMESTRE = {"periodo", "period", "trimestre", "quarter", "trim", "quarter_name", "nome_trimestre"}
+_CHAVES_ANO = {"ano", "year", "exercicio", "fiscal_year"}
+
+
+def _parece_url(v):
+    v = (v or "").strip()
+    if not v or " " in v or len(v) > 600:
+        return False
+    return bool(re.match(r"(?i)^(?:https?:)?//[^\s]+$", v)) or (v.startswith("/") and not v.startswith("//") and len(v) > 1)
+
+
+def _raiz_do_site(url):
+    m = re.match(r"(?i)(https?://[^/]+)", url or "")
+    return m.group(1) if m else ""
+
+
+def _pistas_da_pagina(html, url_base):
+    """O que o HTML da central entrega sobre a chamada que monta a lista: scripts (src), URLs
+    com pista em scripts inline, acoes de admin-ajax, config de wp_localize_script (ajax_url, nonce,
+    rest_url), JSON embutido (<script type=application/json>), link do WP REST (rel=https://api.w.org/),
+    JSON da propria pagina (rel=alternate type=application/json), iframes e atributos data-*."""
+    p = {"scripts": [], "inline": [], "acoes": [], "config": [], "json_embutido": [], "rest": None,
+         "pagina_json": None, "iframes": [], "data": [], "ajaxurl": None}
+    for m in _RE_SCRIPT_SRC.finditer(html):
+        p["scripts"].append(urljoin(url_base, htmlmod.unescape(m.group(1))))
+    for m in _RE_SCRIPT_INLINE.finditer(html):
+        atributos, corpo = m.group(1), m.group(2)
+        if not corpo.strip():
+            continue
+        tipo = _RE_SCRIPT_TIPO.search(atributos)
+        tipo = (tipo.group(1) if tipo else "").lower()
+        if "json" in tipo and "ld+json" not in tipo:
+            p["json_embutido"].append(corpo.strip()[:2_000_000])
+            continue
+        if tipo and "javascript" not in tipo and "module" not in tipo:
+            continue
+        for u in _RE_URL_EM_TEXTO.finditer(corpo):
+            s = u.group(1)
+            if _RE_PISTA.search(s):
+                p["inline"].append(s)
+        p["acoes"] += _RE_ACAO_AJAX.findall(corpo)
+        for chave, valor in _RE_CONFIG_JS.findall(corpo):
+            p["config"].append((chave, valor))
+            if chave.lower().replace("_", "") == "ajaxurl" and _parece_url(valor.replace("\\/", "/")):
+                p["ajaxurl"] = urljoin(url_base, valor.replace("\\/", "/"))
+    for m in _RE_LINK_TAG.finditer(html):
+        atributos = m.group(1)
+        rel = _RE_REL.search(atributos)
+        rel = (rel.group(1) if rel else "").lower()
+        href = _href_de(atributos)
+        if not href:
+            continue
+        if "api.w.org" in rel:
+            p["rest"] = urljoin(url_base, href)
+        elif "alternate" in rel:
+            tipo = _RE_TIPO_ATTR.search(atributos)
+            if tipo and "json" in tipo.group(1).lower():
+                p["pagina_json"] = urljoin(url_base, href)
+    for m in _RE_IFRAME.finditer(html):
+        p["iframes"].append(urljoin(url_base, htmlmod.unescape(m.group(1))))
+    for nome, valor in _RE_DATA_ATTR.findall(html):
+        valor = htmlmod.unescape(valor)
+        if _parece_url(valor) or _RE_PISTA.search(valor) or re.search(r"[0-9a-f]{8}-[0-9a-f]{4}-", valor.lower()):
+            p["data"].append((nome.lower(), valor))
+    for chave in ("scripts", "inline", "acoes", "iframes"):
+        p[chave] = list(dict.fromkeys(p[chave]))
+    p["config"] = list(dict.fromkeys(p["config"]))
+    p["data"] = list(dict.fromkeys(p["data"]))
+    return p
+
+
+def _scripts_do_tema(pistas, url_base):
+    """Scripts que podem conter a chamada da lista: do proprio site em /wp-content/themes|plugins,
+    ou de host da MZ. Bibliotecas conhecidas (jquery, elementor, analytics...) ficam de fora."""
+    raiz = _raiz_do_site(url_base).lower()
+    escolhidos = []
+    for s in pistas["scripts"]:
+        u = s.lower()
+        if _RE_JS_CORE.search(u):
+            continue
+        proprio = raiz and u.startswith(raiz) and ("/wp-content/themes/" in u or "/wp-content/plugins/" in u
+                                                    or "/assets/" in u or "/js/" in u)
+        if proprio or re.search(r"mziq|mzweb|mz-", u):
+            escolhidos.append(s)
+    escolhidos.sort(key=lambda s: (0 if _RE_JS_PRIORIDADE.search(s.rsplit("/", 1)[-1]) else 1, len(s)))
+    return escolhidos[:RI_SONDA_MAX_JS]
+
+
+def _urls_no_script(texto):
+    """URLs e caminhos com pista dentro de um script: {url: True} preservando a ordem."""
+    achados = {}
+    for m in _RE_URL_EM_TEXTO.finditer(texto):
+        s = m.group(1)
+        if _RE_PISTA.search(s):
+            achados[s] = True
+    return list(achados)
+
+
+def _links_de_json(obj, url_base, contexto="", saida=None, profundidade=0):
+    """[(url, texto, antes, depois, None)] de todo campo com cara de link num JSON de listagem.
+    O rotulo e o titulo do mesmo objeto (title/nome/label...), mais o trimestre se o objeto o traz
+    em campo proprio ('periodo': '2T26', ou 'trimestre': 2 + 'ano': 2026); o contexto ('antes')
+    carrega os campos curtos do objeto (data, categoria, pasta) e os titulos dos niveis acima, para
+    a pasta '2T26' de uma arvore valer para os arquivos dentro dela. JSON do WP ({'title':
+    {'rendered': ...}}) e lido do mesmo jeito."""
+    if saida is None:
+        saida = []
+    if profundidade > 14 or len(saida) > 3000:
+        return saida
+    if isinstance(obj, dict):
+        planos = {str(k): v for k, v in obj.items() if isinstance(v, (str, int, float)) and not isinstance(v, bool)}
+        titulo = ""
+        for k, v in planos.items():
+            if k.lower() in _CHAVES_TITULO and isinstance(v, str) and v.strip():
+                titulo = _html_para_texto(v)[:200]
+                break
+        if not titulo:
+            t = obj.get("title") if isinstance(obj.get("title"), dict) else obj.get("titulo") if isinstance(obj.get("titulo"), dict) else None
+            if t and isinstance(t.get("rendered"), str):
+                titulo = _html_para_texto(t["rendered"])[:200]
+        tri, ano = None, None
+        for k, v in planos.items():
+            kl = k.lower()
+            if kl in _CHAVES_TRIMESTRE:
+                if isinstance(v, str) and v.strip():
+                    titulo = f"{titulo} {v.strip()[:20]}".strip()
+                elif isinstance(v, (int, float)) and 1 <= int(v) <= 4:
+                    tri = int(v)
+            elif kl in _CHAVES_ANO and isinstance(v, (int, float, str)) and re.fullmatch(r"20\d{2}", str(v).strip()):
+                ano = int(str(v).strip())
+        if tri and ano:
+            titulo = f"{titulo} {tri}T{ano % 100:02d}".strip()
+        urls = []
+        for k, v in planos.items():
+            if isinstance(v, str) and (k.lower() in _CHAVES_URL or _parece_url(v)):
+                v2 = v.replace("\\/", "/").strip()
+                if _parece_url(v2):
+                    urls.append(v2)
+        # '2026-08-12T10:00:00' vira '2026-08-12': a hora colada impede _data_no_texto de ler a data
+        extras = " ".join(re.sub(r"(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}\S*", r"\1", str(v))[:80] for k, v in planos.items()
+                          if isinstance(v, (int, float)) or (isinstance(v, str) and len(v) <= 80 and not _parece_url(v)))
+        antes = f"{contexto} {extras}".strip()[:400]
+        for u in urls:
+            saida.append((urljoin(url_base, u), titulo, antes, "", None))
+        filho = f"{contexto} {titulo} {extras}".strip()[:400]
+        for v in obj.values():
+            if isinstance(v, (dict, list)):
+                _links_de_json(v, url_base, filho, saida, profundidade + 1)
+    elif isinstance(obj, list):
+        for v in obj:
+            _links_de_json(v, url_base, contexto, saida, profundidade + 1)
+    return saida
+
+
+def _decodificar_json(texto):
+    """JSON de uma resposta, tolerando prefixo anti-CSRF (')]}'') e JSONP (callback({...}))."""
+    t = (texto or "").strip()
+    if not t:
+        return None
+    for candidato in (t, t.lstrip(")]}'\n"), re.sub(r"^[\w$.]+\((.*)\);?$", r"\1", t, flags=re.S)):
+        try:
+            v = json.loads(candidato)
+            if isinstance(v, (dict, list)):
+                return v
+        except (ValueError, TypeError):
+            continue
+    return None
+
+
+def _links_da_resposta(r, url):
+    """(tipo, links) do que uma rota devolveu: JSON (arvore percorrida; se for a pagina do WP, o
+    content.rendered tambem e lido como HTML; se for o indice do WP REST, devolve as rotas) ou HTML."""
+    tipo = (r.headers.get("Content-Type") or "").lower()
+    texto = _html_da_resposta(r)
+    obj = _decodificar_json(texto) if ("json" in tipo or texto.lstrip()[:1] in "{[") else None
+    if obj is not None:
+        links = _links_de_json(obj, url)
+        if isinstance(obj, dict):
+            conteudo = obj.get("content")
+            if isinstance(conteudo, dict) and isinstance(conteudo.get("rendered"), str):
+                links += _links_da_pagina(conteudo["rendered"], url)
+            elif isinstance(conteudo, str) and "<a" in conteudo.lower():
+                links += _links_da_pagina(conteudo, url)
+            # admin-ajax devolvendo {"success": true, "data": "<html>"} ou {"html": "..."}
+            for chave in ("data", "html", "content", "result", "resultado", "body"):
+                v = obj.get(chave)
+                if isinstance(v, str) and "<a" in v.lower():
+                    links += _links_da_pagina(v, url)
+                elif isinstance(v, dict):
+                    for vv in v.values():
+                        if isinstance(vv, str) and "<a" in vv.lower():
+                            links += _links_da_pagina(vv, url)
+        return "json", obj, links
+    if "<a" in texto.lower() or "<html" in texto.lower():
+        return "html", None, _links_da_pagina(texto, url)
+    return tipo[:30] or "desconhecido", None, []
+
+
+def _rotas_do_indice_rest(obj, url_indice):
+    """Rotas interessantes do indice do WP REST ({'namespaces': [...], 'routes': {...}}): as que
+    citam mz/doc/file/result/central/release/media, sem parametro de caminho, com per_page=100."""
+    rotas = obj.get("routes") if isinstance(obj, dict) else None
+    if not isinstance(rotas, dict):
+        return [], []
+    raiz = url_indice.split("wp-json")[0] + "wp-json" if "wp-json" in url_indice else url_indice.rstrip("/")
+    escolhidas = []
+    for rota in rotas:
+        if "(?P<" in rota or rota in ("/", ""):
+            continue
+        if _RE_ROTA_INTERESSANTE.search(rota) and not re.search(r"(?i)/wp/v2/(?:users|comments|settings|themes|plugins|blocks?)", rota):
+            escolhidas.append(raiz + rota + ("&" if "?" in rota else "?") + "per_page=100")
+    namespaces = obj.get("namespaces") if isinstance(obj.get("namespaces"), list) else []
+    return list(dict.fromkeys(escolhidas))[:10], [str(n) for n in namespaces]
+
+
+def _rotas_de_listagem(mapa, pistas, url_base, achados_js):
+    """Rotas a tentar, na ordem: `lista` do mapa, JSON da pagina (WP REST), iframes, data-*,
+    URLs com pista dos scripts inline e do tema, biblioteca de midia do WP, indice do WP REST,
+    admin-ajax com as acoes vistas. Placeholders ('${id}', '{0}') ficam so no log."""
+    raiz = _raiz_do_site(url_base)
+    rotas = []
+    for u in (mapa.get("lista") or []) if isinstance(mapa.get("lista"), (list, tuple)) else []:
+        rotas.append(("lista de ri_fontes.py", u))
+    if pistas["pagina_json"]:
+        rotas.append(("JSON da pagina (WP REST)", pistas["pagina_json"]))
+    for u in pistas["iframes"]:
+        if _RE_PISTA.search(u) or "mz" in u.lower():
+            rotas.append(("iframe", u))
+    for nome, valor in pistas["data"]:
+        if _parece_url(valor) and _RE_PISTA.search(valor):
+            rotas.append((f"atributo {nome}", urljoin(url_base, valor)))
+    for s in pistas["inline"]:
+        if not _RE_PLACEHOLDER.search(s):
+            rotas.append(("script inline", urljoin(url_base, s)))
+    for origem, urls in achados_js:
+        for s in urls:
+            if not _RE_PLACEHOLDER.search(s) and re.search(r"(?i)wp-json|admin-ajax|mziq|apicatalog|/api/|\.json\b|\.aspx", s):
+                rotas.append((f"script {origem.rsplit('/', 1)[-1][:40]}", urljoin(url_base, s)))
+    if raiz:
+        rest = (pistas["rest"] or f"{raiz}/wp-json/").rstrip("/")
+        rotas.append(("biblioteca de midia (WP REST)", f"{rest}/wp/v2/media?per_page=100&media_type=application&orderby=date&order=desc"))
+        rotas.append(("indice do WP REST", rest + "/"))
+        ajax = pistas["ajaxurl"] or f"{raiz}/wp-admin/admin-ajax.php"
+        acoes = [a for a in pistas["acoes"] if _RE_ROTA_INTERESSANTE.search(a)][:4]
+        for a in acoes:
+            rotas.append((f"admin-ajax acao {a}", f"{ajax}?action={a}"))
+    vistas, unicas = set(), []
+    for origem, u in rotas:
+        u = u.replace("\\/", "/")
+        if u in vistas or not _parece_url(u):
+            continue
+        vistas.add(u)
+        unicas.append((origem, u))
+    return unicas
+
+
+def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
+    """Central sem candidato: le as pistas, tenta as rotas de listagem e devolve
+    (candidatos, descartados_pelo_rotulo, rota_que_respondeu, resumo). Nunca levanta excecao.
+    `cache` ({url: resultado}) evita repetir scripts e rotas entre as paginas do mesmo ativo."""
+    t0 = time.monotonic()
+    cache = cache if cache is not None else {}
+    resumo = "sem sondagem"
+    try:
+        pistas = _pistas_da_pagina(html, url)
+        tema = _scripts_do_tema(pistas, url)
+        app.log(f"{rotulo}: sondagem da pagina montada por JavaScript: {len(pistas['scripts'])} scripts "
+                f"({len(tema)} do tema/plugins), {len(pistas['inline'])} URLs com pista em scripts inline, "
+                f"{len(pistas['json_embutido'])} JSON embutido, {len(pistas['data'])} data-* com pista, "
+                f"{len(pistas['iframes'])} iframes; WP REST: {pistas['rest'] or 'nao anunciado'}; "
+                f"JSON da pagina: {pistas['pagina_json'] or 'nenhum'}; ajaxurl: {pistas['ajaxurl'] or 'nenhum'}")
+        for s in tema[:RI_SONDA_MAX_JS]:
+            app.log(f"{rotulo}: pista script do tema: {s[:160]}")
+        for s in pistas["inline"][:15]:
+            app.log(f"{rotulo}: pista inline: {s[:200]}")
+        if pistas["acoes"]:
+            app.log(f"{rotulo}: acoes de admin-ajax citadas: {', '.join(pistas['acoes'][:20])}")
+        for chave, valor in pistas["config"][:12]:
+            app.log(f"{rotulo}: pista config: {chave} = {valor[:120]}")
+        for nome, valor in pistas["data"][:12]:
+            app.log(f"{rotulo}: pista {nome} = {valor[:120]}")
+        for u in pistas["iframes"][:6]:
+            app.log(f"{rotulo}: pista iframe: {u[:160]}")
+        # JSON embutido na propria pagina: nem precisa de rota
+        for corpo in pistas["json_embutido"][:5]:
+            obj = _decodificar_json(corpo)
+            if obj is None:
+                continue
+            links = _links_de_json(obj, url)
+            cands, fora = _candidatos_ri(links, url)
+            app.log(f"{rotulo}: JSON embutido na pagina: {len(links)} links, {len(cands)} candidatos")
+            if cands:
+                resumo = "JSON embutido na pagina trouxe candidatos"
+                return cands, fora, url, resumo
+        # Scripts do tema: a URL da chamada costuma estar neles (fetch/ajax), as vezes com placeholder
+        achados_js = []
+        for s in tema:
+            if time.monotonic() - t0 > prazo_s * 0.5:
+                app.log(f"{rotulo}: sondagem: metade do prazo gasta lendo scripts; para de ler")
+                break
+            if s in cache:
+                urls = cache[s]
+            else:
+                r = app.http_get(s, timeout=RI_SONDA_TIMEOUT_S)
+                urls = []
+                if r and len(r.content or b"") <= RI_SONDA_MAX_BYTES:
+                    urls = _urls_no_script(_html_da_resposta(r))
+                    app.log(f"{rotulo}: script {s.rsplit('/', 1)[-1][:60]} ({len(r.content)} bytes): {len(urls)} URLs com pista")
+                    for u in urls[:15]:
+                        app.log(f"{rotulo}:   {u[:200]}")
+                elif r:
+                    app.log(f"{rotulo}: script {s.rsplit('/', 1)[-1][:60]} ignorado ({len(r.content)} bytes, acima do teto)")
+                cache[s] = urls
+            if urls:
+                achados_js.append((s, urls))
+        rotas = _rotas_de_listagem(mapa, pistas, url, achados_js)
+        fila = list(rotas)
+        tentadas, vistas = 0, set()
+        while fila and tentadas < RI_SONDA_MAX_ROTAS:
+            origem, u = fila.pop(0)
+            if u in vistas:
+                continue
+            vistas.add(u)
+            if time.monotonic() - t0 > prazo_s:
+                app.log(f"{rotulo}: sondagem: prazo de {prazo_s:.0f}s estourou com {len(fila) + 1} rotas por tentar")
+                break
+            tentadas += 1
+            if u in cache:
+                r = cache[u]
+            else:
+                r = app.http_get(u, timeout=RI_SONDA_TIMEOUT_S)
+                cache[u] = r
+            if not r:
+                app.log(f"{rotulo}: rota ({origem}) {u[:150]} -> sem resposta 200")
+                continue
+            tipo, obj, links = _links_da_resposta(r, u)
+            cands, fora = _candidatos_ri(links, url)
+            app.log(f"{rotulo}: rota ({origem}) {u[:150]} -> {tipo}, {len(r.content or b'')} bytes, "
+                    f"{len(links)} links, {len(cands)} candidatos, {fora} descartados pelo rotulo")
+            if tipo == "json" and isinstance(obj, dict) and isinstance(obj.get("routes"), dict):
+                novas, namespaces = _rotas_do_indice_rest(obj, u)
+                app.log(f"{rotulo}: indice do WP REST: namespaces {', '.join(namespaces[:25]) or 'nenhum'}; "
+                        f"{len(novas)} rotas com cara de documento: {'; '.join(n[len(_raiz_do_site(n)):][:80] for n in novas[:10])}")
+                fila = [("rota do indice REST", n) for n in novas] + fila
+            if cands:
+                resumo = f"rota ({origem}) trouxe {len(cands)} candidatos"
+                return cands, fora, u, resumo
+        resumo = f"{tentadas} rotas tentadas, nenhuma trouxe release"
+    except Exception as e:
+        resumo = f"sondagem falhou ({type(e).__name__}: {str(e)[:80]})"
+        app.log(f"{rotulo}: {resumo}")
+    return [], 0, None, resumo
+
+
 def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_releases=RELEASES_POR_ATIVO,
                         orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None):
     """Releases de resultado lidos direto da central de resultados do site de RI (ri_fontes.py).
@@ -1347,6 +1745,7 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
         return []
     t0, estourou = time.monotonic(), False
     candidatos, pagina, motivo, fora_rotulo = [], None, "sem pagina", 0
+    rota_lista, sonda_cache, sondagens = None, {}, []
     for url in paginas:
         if time.monotonic() - t0 > orcamento_s:
             estourou, motivo = True, "orcamento de tempo estourou antes de ler a pagina"
@@ -1364,10 +1763,21 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
         if cands:
             candidatos, pagina = cands, url
             break
-        motivo = f"pagina sem link de release ({url}; {len(links)} links; se forem 0, a pagina e montada por JavaScript)"
+        motivo = f"pagina sem link de release ({url}; {len(links)} links; a lista e montada por JavaScript)"
         app.log(f"{rotulo}: {motivo}")
+        # A lista de documentos vem de uma chamada a parte: sondar a pagina e tentar as rotas
+        prazo = min(RI_SONDA_PRAZO_S, orcamento_s - (time.monotonic() - t0))
+        if prazo <= 0:
+            estourou, motivo = True, "orcamento de tempo estourou antes de sondar a pagina"
+            break
+        cands, fora_rotulo, rota, resumo = _sondar_central_js(tk, mapa, html, url, rotulo, prazo, sonda_cache)
+        sondagens.append(resumo)
+        if cands:
+            candidatos, pagina, rota_lista = cands, url, rota
+            app.log(f"{rotulo}: lista de documentos veio de {rota[:150]} ({len(cands)} candidatos)")
+            break
     if not candidatos:
-        fontes["release_ri_site"] = (f"falha: {motivo}")[:220]
+        fontes["release_ri_site"] = (f"falha: {motivo}" + (f"; sondagem: {sondagens[-1]}" if sondagens else ""))[:260]
         return []
     plataforma = _plataforma_ri(mapa, next((c["url"] for c in candidatos if c["arquivo"]), pagina))
     # mz_id do mapa e so conferencia (foi inferido por busca): link de outra conta MZ vai para o log,
@@ -1468,7 +1878,8 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
             item = _montar_release(texto, detalhe, {
                 "fonte": f"site de RI ({plataforma})", "tipo": "release site RI", "assunto": c["texto"],
                 "data": c["data"], "link": url, "periodo": p if c["origem_periodo"] == "rotulo" else None,
-                "preferencia": c["preferencia"], "pagina_ri": pagina})
+                "preferencia": c["preferencia"], "pagina_ri": pagina,
+                **({"lista_ri": rota_lista} if rota_lista else {})})
             if item and not item.get("periodo"):
                 item["periodo"] = p
             if not item or not item.get("periodo"):
