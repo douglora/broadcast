@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 15h36
+NOTÍCIAS E FATOS · 21/09 16h21
 
-Pernas: noticias ok 16 novas (14 consultas; descartadas: 379 veículo fora da lista, 20 sem ativo, 3 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 0 novas (14 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 14 falhas · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -59,7 +59,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-2d9e087dd4-2026-09-21 · status: expirado
+id: E05-VALE3-2d9e087dd4-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
 InfoMoney · 21/09 08h30 · + Valor Economico · licença: resumo
@@ -75,7 +75,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/09 08h30
-id: E05-DI-0bda952c58-2026-09-21 · status: expirado
+id: E05-DI-0bda952c58-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going concern’ worries
 Fortune · 21/09 07h25 · fonte única · licença: manchete
@@ -84,7 +84,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: NVDA
 Como falar: 'saiu no Fortune: Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going c…; confirmar o número no texto antes de repassar'
 Fonte: Fortune 21/09 07h25
-id: E05-NVDA-827d707f95-2026-09-21 · status: expirado
+id: E05-NVDA-827d707f95-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
 Exame · 21/09 08h47 · fonte única · licença: resumo
