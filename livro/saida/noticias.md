@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 15h21
+NOTÍCIAS E FATOS · 21/09 15h36
 
-Pernas: noticias ok 4 novas (14 consultas; descartadas: 379 veículo fora da lista, 19 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (14 consultas; descartadas: 379 veículo fora da lista, 20 sem ativo, 3 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,16 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (24)
+## NOTÍCIAS COM MATERIALIDADE (25)
+
+[ATENÇÃO] E05 · DI · Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
+Estadao · 21/09 08h49 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/boletim-focus-hoje-mercado-eleva-projecao-para-a-inflacao-de-2026-e-se-afasta-da-meta-do-bc/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Estadao: Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta se…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 21/09 08h49
+id: E05-DI-f36cb8e84e-2026-09-21 · status: pendente
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
 InfoMoney · 21/09 11h00 · fonte única · licença: resumo
@@ -50,7 +59,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-2d9e087dd4-2026-09-21 · status: pendente
+id: E05-VALE3-2d9e087dd4-2026-09-21 · status: expirado
 
 [ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
 InfoMoney · 21/09 08h30 · + Valor Economico · licença: resumo
@@ -66,7 +75,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/09 08h30
-id: E05-DI-0bda952c58-2026-09-21 · status: pendente
+id: E05-DI-0bda952c58-2026-09-21 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going concern’ worries
 Fortune · 21/09 07h25 · fonte única · licença: manchete
@@ -75,7 +84,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: NVDA
 Como falar: 'saiu no Fortune: Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going c…; confirmar o número no texto antes de repassar'
 Fonte: Fortune 21/09 07h25
-id: E05-NVDA-827d707f95-2026-09-21 · status: pendente
+id: E05-NVDA-827d707f95-2026-09-21 · status: expirado
 
 [ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
 Exame · 21/09 08h47 · fonte única · licença: resumo
@@ -372,8 +381,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (119)
+## OUTRAS NOTÍCIAS (só manchete) (134)
 
+· BBDC4 R$ 10 bilhões no caixa: Bradesco (BBDC4) prepara crescimento sem abrir mão da rentabilidade (Money Times) https://www.moneytimes.com.br/r-10-bilhoes-no-caixa-bradesco-bbdc4-prepara-crescimento-sem-abrir-mao-da-rentabilidade-rnda/
+· BABA Alibaba Deadline: BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit Filed by The Rosen Law Firm (PR Newswire) https://www.prnewswire.com/news-releases/alibaba-deadline-baba-investors-have-opportunity-to-lead-alibaba-group-holding-limited-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302884244.html
+· DI Opinião | Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
+· BRENT Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 2% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-sobe-com-petroleo-em-4-queda-seguida-e-encontro-entre-trump-e-xi-no-radar/
+· MU Micron's 343% Growth Boom Is Already Over, I/O Fund Says — Now Comes the Hard Part (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:c76687315094b:0-micron-s-343-growth-boom-is-already-over-i-o-fund-says-now-comes-the-hard-part/
+· ITUB4 Itaú BBA vê economia de R$ 398 milhões em possível união entre Yduqs e Afya (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-economia-de-r-398-milhoes-em-possivel-uniao-entre-yduqs-e-afya/
+· NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-makes-rare-admission-150733414.html
+· PETR4 Brasil está “em linha” com Acordo de Paris, diz presidente da Petrobras (Poder360) https://www.poder360.com.br/poder-energia/brasil-esta-em-linha-com-acordo-de-paris-diz-presidente-da-petrobras/
+· ITUB4 Itaú BBA vê Brasil como ‘anti-IA’ para fundos globais, mas fiscal ainda limita apostas (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/itau-bba-ve-brasil-como-anti-ia-para-fundos-globais-mas-fiscal-ainda-limita-apostas/
+· VALE3 Vale faz investimento estratégico em minério de ferro na região de Carajás ao comprar 30% da Ligga (Estadao) https://www.estadao.com.br/economia/negocios/vale-faz-investimento-estrategico-em-minerio-de-ferro-na-regiao-de-carajas-ao-comprar-30-da-ligga/
+· DI Mercado precifica mais um corte na Selic em 2026 (Poder360) https://www.poder360.com.br/poder-economia/mercado-precifica-mais-um-corte-na-selic-em-2026/
+· USDBRL Dólar hoje cai a R$ 5,10, e cenário eleitoral entra no radar do câmbio (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dolar-hoje-cai-a-r-510-e-cenario-eleitoral-entra-no-radar-do-cambio/
+· VALE3 BTG vê retorno de 30% para ações da Vale, mas alerta para falta de gatilhos no curto prazo (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/btg-ve-retorno-de-30-para-acoes-da-vale-mas-alerta-para-falta-de-gatilhos-no-curto-prazo/
+· BRENT Ibovespa sobe mais de 1% com Boletim Focus, petróleo em baixa e pesquisas eleitorais em foco (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-comeca-semana-com-petroleo-acima-de-us-100-e-nova-pesquisa-eleitoral-no-radar/
+· BRENT Dólar opera em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping; Ibovespa sobe (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTFB3aEJzdnc2ZDdQaDhtckxxbzY3dzVZWmxKeEVYWk1qbVJoZmJDZ1hzc056TlU5MUQ5OFdzWjFROFpjWUdjdFRzekE5Q1ctbXE0VjFjb0RhaGRBa2FndkpuVERjZHVyaHVMY0QxelVsam9ndHB3QUNHUNIBhwFBVV95cUxOeFZxdGxqbGFhVURGSGF1SnpyZDVIZHBHSmlZWHRqR0RHZWFnR3F5OGhOaXJ2Z3dUZlNad2M2WE5kekpBeTM2UWtrazhzX0lYV3hrcE5BdGdvS05vLXVpeXRwWjNYckJRUzRpSXBWZ2JmczhlZHcwdjNrWmN2eUVxdno2TUZlRUk?oc=5
 · PETR4 Petrobras quer autossuficiência no diesel e novas reservas de petróleo, diz Magda Chambriard (O Globo) https://oglobo.globo.com/google/amp/economia/negocios/noticia/2026/09/21/petrobras-quer-autossuficiencia-no-diesel-e-novas-reservas-de-petroleo-diz-magda-chambriard.ghtml
 · PETR4 Petrobras (PETR4) e MPF entram em briga pela exploração de petróleo na Foz do Amazonas. Qual é o impasse? (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/petrobras-petr4-e-mpf-entram-em-briga-pela-exploracao-de-petroleo-na-foz-do-amazonas-qual-e-o-impasse-giov/
 · BBDC4 Bradesco (BBDC4) está prestes a receber R$ 10 bilhões para crescer, mas não vai acelerar: “Não queremos voo de galinha”, diz CFO (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/bradesco-bbdc4-esta-prestes-a-receber-r-10-bilhoes-para-crescer-mas-nao-vai-acelerar-nao-queremos-voo-de-galinha-diz-cfo-miql/
@@ -419,19 +443,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · USDBRL Ibovespa sobe, dólar e taxas dos DIs caem em dia de otimismo no exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45D0LS:0/
 · NVDA Nvidia Holds Flat Before Trump-Xi Talks Test China Optionality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f99865244094b:0-nvidia-holds-flat-before-trump-xi-talks-test-china-optionality/
 · MU Why I Like Micron Better Than Nvidia (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948354-why-i-like-micron-better-than-nvidia
-· VALE3 Vale faz investimento estratégico em minério em Carajás ao comprar 30% da Ligga (InfoMoney) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVHlNUGZhci00elV5X19kWU1LVG1KUTBSTWhLN21JQ1FHSjFKeU1qeGd4TC1hekhTZGtrQWxFXzlDTVdsTTVYWlkxOEE1M21sREljdnRsM3JCcjQ5YVFwcHFRc0tNM2pBMktnOHVzUnV1V3d0bzZhdExvQjVITWt5MDNuY2kxc0FsMGNiNE1vMEt3a3oyMC16T3ZCMk1aTlUwa0UzcjJzNWdTdENPcXpRbU9xNzF3TzB3?oc=5
-· PETR4 Petróleo de Morpho é de “altíssima qualidade”, diz diretora da Petrobras (InfoMoney) https://news.google.com/rss/articles/CBMirAFBVV95cUxORWw4X3IyNS03WGREeVdiVjV0RFBlVUZMbmM4dlFnQkxDMG5XQmlmNFVWWDFSUThHYlA2cDh2LV9DQnBNMnQ2ZnFUSlJwcWduMVJpcVVwNHE4YTRwa1B3aWxBZDNudGw0QUNGY1Q5Y0V3YWdNMzRhbDhCeFFUMFBEN3lfNFdZelE1bVM5N1BFOFZ5bU9PTHhlcUx4eUxmeDgxal9ZUnB5NHltQUR20gGyAUFVX3lxTE1RclNMTVpZTDQ4T3VJOHFkQVY4ZTU5WVNrRUVmOTJMbGd0ekV5eTczTmhLOEY0QnotNko4WkZqZ0ppVzFNSEw3UzZsY0gxb1VoWm9LalhUcVVFMWFWd2RFczd3NEVMX2o0M2ZxQVp1amw0X0FQbXlwVGVfZXB3NmY0bm05OERDOFdsempBeC13bTdhcWg5Tjc0b0ZPUnU0c3ZFQVd2cURQVVN3Z2NrTXhBUmc?oc=5
-· BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNLV9JMnZGSEgtTlIxQ2M4Q2FvVTh2VDNLX1JndTJNOWRaTTBISERVRS15R3JQZG9TNVdDUmFPa0E2S2dhMDJ1U1lVTlVlVWRzaFcycWN1ZXVEQkxZWmEwdVMyakRHbzh5TnRxWWtkbTFXaTYwZ1FyVmJBdDJxUG5UUENsVldFVEZOUmdTWlZJd0pDMTNqeFNxYklR?oc=5
-· NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (TradingView (Reuters)) https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFFKZWN0RHl2Z0cyZ0c2S1NVNVQ2N1AzeVBBZWlDU1ZCeEVrcGozV0hRYzAtUTlUMHBqSkFJOW83QzVXVER6UEFYZ3hXWkdFM1ExdnRtS2pXU2FpSGxGMmxHYTkxVl9BZl9Tc2xHVnN4R3VuS2xzTmFCLUhRVy1pbEVjYVRsSExFMVhacWhXdlhTaFJOOHU0VEhieTJQcG1wMXZCUWZPbHBNc2twZjNr?oc=5
-· ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
-· PETR4 Próximo plano de negócios da Petrobras trará meta de autossuficiência em diesel, diz Chambriard (eixos) https://eixos.com.br/petroleo-e-gas/proximo-plano-de-negocios-da-petrobras-trara-meta-de-autossuficiencia-em-diesel-diz-chambriard/
-· UST Wall St rises on AI gains as oil slides, Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
-· USDBRL Ibovespa sobe, dólar e taxas dos DIs caem em dia de otimismo no exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45D0LS:0/
-· NVDA Nvidia Holds Flat Before Trump-Xi Talks Test China Optionality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f99865244094b:0-nvidia-holds-flat-before-trump-xi-talks-test-china-optionality/
-· MU Why I Like Micron Better Than Nvidia (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948354-why-i-like-micron-better-than-nvidia
-· VALE3 Vale faz investimento estratégico em minério em Carajás ao comprar 30% da Ligga (InfoMoney) https://www.infomoney.com.br/mercados/vale-faz-investimento-estrategico-em-minerio-em-carajas-ao-comprar-30-da-ligga/
-· PETR4 Petróleo de Morpho é de “altíssima qualidade”, diz diretora da Petrobras (InfoMoney) https://www.infomoney.com.br/mercados/petroleo-de-morpho-e-de-altissima-qualidade-diz-diretora-da-petrobras/
-· BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-alibaba-cloud-ai-153200503.html
-· NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f931f16a7094b:0-nvidia-ceo-makes-rare-admission-on-ai-data-centers/
-· MU Why Micron Stock Popped This Morning (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-micron-stock-popped-morning-144645472.html
-· (+59 manchetes; lista completa em eventos/noticias.json)
+· (+74 manchetes; lista completa em eventos/noticias.json)
