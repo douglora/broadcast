@@ -1,0 +1,900 @@
+[p. 1]
+Release de 
+Resultados 2024 
+Página 1 
+9.580
+11.339
+21.726
+23.895
+3.524
+9.541
+19.972
+21.513
+2023 2024
+Receita operacional bruta*
+Receita operacional líquida*
+EBITDA ajustado**
+Lucro líquido contábil
+R$ Milhões
+(*) não inclui receita de construção / ativo financeiro
+(**) sem não recorrentes / margem de construção / ativo 
+financeiro
+11,1% 
+8,8% 
+18,8% 
+171,9% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RELEASE DE 
+RESULTADOS 
+SABESP ANO 2024 
+ 
+Daniel Szlak 
+CFO 
+Thiago Levy 
+Diretor de Tesouraria e de Relações 
+com Investidores
+
+[p. 2]
+Release de 
+Resultados 4T24 
+Página 2 
+DESTAQUES 
+Em 2024 o EBITDA ajustado totalizou R$ 11.339 milhões (+19% vs R$ 9.541 milhões de 2023) com 
+a margem EBITDA ajustada em 52% (vs 48% de 2023). Os principais pilares para o crescimento de 
+rentabilidade foram: i) maior receita resultante do reajuste tarifário e crescimento de volume advindo 
+de novas economias; ii) pessoal, resultado do Programa de Demissão Incentivada realizado em 2023; iii) 
+diluição de custos fixos que cresceram abaixo do crescimento de volume. 
+O EBITDA contábil totalizou R$ 18.187 milhões (+99% vs R$ 9.137 milhões de 2023). O principal fator 
+para esse crescimento foi a bifurcação do ativo financeiro registrado no 3T24. 
+O lucro líquido contábil atingiu R$ 9.580 milhões em 2024 (+172% vs R$ 3.524 milhões de 2023). 
+Desconsiderando os efeitos não recorrentes, a margem de construção e a bifurcação do ativo financeiro, o 
+lucro líquido ajustado foi de R$ 5.174 milhões em 2024 (+37% vs R$ 3.790 milhões de 2023). 
+No 4T24, o EBITDA ajustado foi de R$ 2.999 milhões (+4,1% vs 4T23) atingindo uma margem ajustada de 
+54% (vs 53% de 4T23). O EBITDA contábil do mesmo período, totalizou R$ 2.294 milhões (-22% vs 4T23) 
+principalmente devido à provisão do PDV realizada no trimestre. 
+O lucro líquido contábil realizado foi de R$ 1.435 milhões no 4T24 (+21,0% vs 4T23). Desconsiderando os 
+efeitos não recorrentes, o lucro líquido ajustado foi de R$ 1.900 milhões (+64% vs 4T23). 
+Ativo Financeiro 
+Com a conclusão do processo de desestatização e assinatura do contrato com a URAE-1 em julho de 2024, 
+resultando em um único contrato abrangendo 371 municípios com novo prazo de vencimento em 2060, o 
+que trouxe maior segurança jurídica e resultando em um direito incondicional de receber caixa ao final da 
+concessão. A Companhia reconheceu a modificação do contrato resultando na bifurcação dos ativos de 
+concessão considerando o direito contratual de que os investimentos reversíveis e não t otalmente 
+amortizados até o final do contrato deverão ser indenizados. Para mais informações vide Nota 16 da DFP 
+2024. 
+Transição 
+Durante o 4T24 a nova gestão iniciou o diagnóstico e revisão de processos que resultou em impactos no 
+resultado reportado do ano de 2024, entre eles: i) reavaliação e recondução de processos judiciais (provisão 
+reconhecida entre despesas gerais e despesas financeiras); ii) implemen tação do programa Sabesp Gente 
+para atração de novos profissionais, valorização e retenção de talento s internos e transição de carreira por 
+meio de um programa de demissão voluntária; iii) revisão acelerada dos sistemas e processos de tecnologia; 
+iv) incorreu em despesas com consultoria de transição com objetivo de definir planejamento, integração e 
+ações estratégicas para 2025 e 2026; v) realizou a revisão das condições contratuais de projetos de CapEx 
+e executou a definição do pipeline de projetos para os anos seguintes acelerando a contratação dos 
+fornecedores para as obras essenciais para as entregas das metas contratuais de universalização.
+
+[p. 3]
+Release de 
+Resultados 4T24 
+Página 3 
+1. RESULTADO DO PERÍODO (CONSOLIDADO) 
+R$ milhões 
+ 2024 2023 Var. 
+(R$) % 4T24 4T23 Var. 
+(R$) % 
+ Receita de serviços de saneamento 23.895 21.513 2.381 11,1 6.229 5.873 356 6,1 
+ Redutora de Água/Esgoto (FAUSP) (395) - (395) - (238) - (238) - 
+ Ativo Financeiro (indenização) 9.151 - 9.151 - 331 - 331 - 
+ Tributos (PIS/COFINS/TRCF) (2.731) (1.542) (1.190) 77,2 (567) (431) (136) 31,4 
+(=) Receita de serviços de saneamento 
+líquida 29.920 19.972 9.948 49,8 5.755 5.441 314 5,8 
+ Receita de construção 6.226 5.600 626 11,2 2.084 1.825 259 14,2 
+(=) Receita operacional líquida 36.145 25.572 10.573 41,3 7.839 7.266 573 7,9 
+ Custos de construção (6.086) (5.475) (611) 11,2 (2.037) (1.784) (253) 14,2 
+ Custos e despesas (14.304) (13.812) (492) 3,6 (3.913) (3.274) (639) 19,5 
+ Outras receitas (despesas) operacionais, 
+líquidas (280) 28 (308) (1.104) (125) (43) (81) 188,4 
+ Resultado da equivalência patrimonial 35 32 3 9,0 10 9 0 4,5 
+(=) Resultado antes das financeiras, IR 
+e CS 15.510 6.346 9.164 144,4 1.774 2.174 (400) (18,4) 
+ Resultado financeiro (1.868) (1.592) (276) 17,3 (543) (887) 344 (38,8) 
+(=) Resultado antes do IR e CS 13.643 4.754 8.889 187,0 1.231 1.287 (56) (4,3) 
+ Imposto de renda e contribuição social (4.063) (1.230) (2.833) 230,2 204 (100) 305 (303,7) 
+(=) Lucro líquido 9.580 3.524 6.056 171,9 1.435 1.186 249 21,0 
+ Lucro por ação (R$)* 14,02 5,16 2,10 1,74 
+ 
+* Quantidade de ações = 683.509.869
+
+[p. 4]
+Release de 
+Resultados 4T24 
+Página 4 
+2. RESULTADO AJUSTADO 
+R$ milhões 
+ 
+2024 
+Ajustes 2024 
+Ajustado 
+2023 
+Ajustado Var. (R$) % Ativo 
+Financeiro Construção Não 
+Recorrentes 
+ Receita de serviços de saneamento 23.895 - - - 23.895 21.513 2.381 11,1 
+ Redutora de Água/Esgoto (FAUSP) (395) - - - (395) - (395) - 
+ Ativo Financeiro (indenização) 9.151 (9.151) - - - - - - 
+ Tributos (PIS/COFINS/TRCF) (2.731) 846 - 111 (1.774) (1.542) (232) 15,1 
+(=) Receita de serviços de saneamento 
+líquida 29.920 (8.305) - 111 21.726 19.972 1.754 8,8 
+ Receita de construção 6.226 - (6.226) - - - - - 
+(=) Receita operacional líquida 36.145 (8.305) (6.226) 111 21.726 19.972 1.754 8,8 
+ Custos de construção (6.086) - 6.086 - - - - - 
+ Custos e despesas (14.304) - - 1.289 (13.015) (13.282) 267 (2,0) 
+ Outras receitas (despesas) 
+operacionais, líquidas (280) - - 247 (34) 28 (62) (221,6) 
+ Resultado da equivalência patrimonial 35 - - - 35 32 3 9,0 
+(=) Resultado antes das financeiras, 
+IR e CS 15.510 (8.305) (140) 1.646 8.712 6.750 1.962 29,1 
+ Resultado financeiro (1.868) - - 124 (1.744) (1.592) (152) 9,5 
+(=) Resultado antes do IR e CS 13.643 (8.305) (140) 1.770 6.968 5.158 1.810 35,1 
+ Imposto de renda e contribuição social (4.063) 2.824 48 (602) (1.794) (1.368) (426) 31,2 
+(=) Lucro líquido 9.580 (5.481) (92) 1.168 5.174 3.790 1.384 36,5 
+ Lucro por ação (R$) 14,02 7,57 5,55 
+ 
+* Saldo ajustado pela receita/custo de construção e PDI. 
+Os maiores impactos n ão recorrentes em 2024 são compostos por: i) Programa Sabesp Gente R$ 630 milhões ; ii) reavaliação de 
+processos judiciais R$ 471 milhões ; iii) baixa de ativos em construção R$ 164 milhões; iv) R$ 111 milhões provisão de deduções 
+sobre estimativas de receita; v) despesas com a desestatização R$ 100 milhões; vi) provisão de itens obsoletos e de baixo giro R$ 
+95 milhões e vii) serviços de consultorias de transição pós-privatização R$ 40 milhões. 
+2.1. RECEITA LÍQUIDA 
+A receita líquida de serviços de saneamento considerando FAUSP¹, atingiu R$ 21.726MM (+8,8% vs R$ 19.972MM de 2023). 
+Os principais fatores no ano foram: 
+• +7,5% de preço/mix de consumo: principalmente pelo reajuste tarifário; 
+• +3,0% volume faturado: aumento de 35 mil ligações ativas; 
+• (2,0)% FAUSP: iniciado em Jul/24; 
+No 4T24 houve um acréscimo de R$ 124 milhões ou 2,3%, principalmente por: 
+• +5,5% de preço/mix de consumo; 
+• +1,2% no volume faturado; 
+• (4,4)% FAUSP; 
+ 
+ 
+ 
+ 
+R$ milhões
+
+[p. 5]
+Release de 
+Resultados 4T24 
+Página 5 
+ 2024 2023 Var. 
+(R$) % 4T24 4T23 Var. 
+(R$) % 
+Receita de serviços de saneamento líquida 21.726 19.972 1.754 8,8 5.565 5.441 124 2,3 
+Volume faturado (milhões de m³) 4.316 4.190 126 3,0 1.078 1.065 13 1,2 
+Tarifa média (R$/m3) 5,03 4,77 0,27 5,6 5,16 5,11 0,05 1,0 
+ 
+(1) FAUSP Fundo de Apoio à Universalização do Saneamento no Estado de São Paulo – Valor referente a diferença entre a tarifa aplicada e a tarifa de equilíbrio. 
+ 
+ 2024 2023 Var. % 4Q24 4Q23 Var. % 
+Volume de Água Produzido (milhões m³) 2.125.136 2.042.953 82.183 4,0 537.082 526.827 10.255 1,9 
+Volume de Esgoto Tratado (milhões m³) 1.341.937 1.187.706 154.231 13,0 329.017 308.108 20.909 6,8 
+ 
+ 
+Número de economias em milhares¹ 2024 2023 % 
+Economias de água 13.072 12.928 1,1 
+Economias de esgotos 11.762 11.581 1,6 
+(1) Economias ativas e cadastradas, média do final de cada período 
+Não revisado pelos auditores externos 
+ 
+2.2. MIX TARIFÁRIO 
+No 2S24 houve atualização da base do Cadastro Único, fazendo com que o total de usuários contemplados com tarifa social e 
+vulnerável aumentasse. Adicionalmente a este efeito, o crescimento em novas economias em regiões vulneráveis aumenta a 
+representatividade de uma tarifa média mais baixa. Estima -se um impacto de R$ 209 milhões relativos a mix tarifário na receita 
+líquida de saneamento em 2024 vs 2023. 
+2.3. CUSTOS, DESPESAS ADMINISTRATIVAS E COMERCIAIS AJUSTADO 
+Custos, despesas administrativas e comerciais apresentaram um decréscimo de R$ 205 milhões em 2024 ou (1,5)%. No 4T24 houve 
+uma redução de R$ 221 milhões ou (6,7)%. O principal vetor para esta redução foram os custos com pessoal. 
+R$ milhões 
+ 4T24 
+ajustado 4T23 Var. (R$) % 2024 
+ajustado 2023 Var. (R$) % 
+Pessoal 492 759 (266) (35,1) 2.682 3.121 (439) (14,1) 
+Materiais gerais 143 112 31 28,2 412 386 26 6,6 
+Materiais de tratamento 144 142 2 1,5 530 559 (28) (5,1) 
+Serviços 678 578 100 17,3 2.654 2.571 83 3,2 
+Energia elétrica 391 367 25 6,7 1.575 1.517 58 3,8 
+Despesas gerais 494 426 69 16,2 1.896 1.594 302 19,0 
+Despesas tributárias 20 26 (6) (24,8) 81 90 (9) (9,8) 
+Depreciação e amortização 521 749 (229) (30,5) 2.627 2.791 (164) (5,9) 
+Perdas estimadas com créditos de liquidação duvidosa 155 116 39 33,9 558 653 (95) (14,6) 
+Outras receitas e despesas 57 43 14 32,2 34 (28) 62 (221,6) 
+Custos, despesas administrativas e comerciais 3.097 3.317 (221) (6,7) 13.049 13.254 (205) (1,5) 
+ 
+2.4. PESSOAL AJUSTADO 
+Em 2024 houve um decréscimo de R$ 439 milhões ou 14,1%, principalmente por redução de 11,2% n o número empregados. No 
+4T24 houve redução de R$ 266 milhões ou 35,1%, onde a redução no quadro foi de 5,5% comparado ao mesmo período de 2023. 
+Número de funcionários 2024 2023 % 
+Empregados no final de cada período 10.552 11.170 (5,5) 
+Empregados média simples 10.485 11.802 (11,2)
+
+[p. 6]
+Release de 
+Resultados 4T24 
+Página 6 
+ 
+2.5. DESPESAS GERAIS AJUSTADO 
+Aumento de R$ 302 milhões ou 19,0%, totalizando R$ 1.896 milhões em 2024 vs R$ 1.594 milhões em 2023, principalmente pelo 
+aumento de repasses aos Fundos Municipais de Saneamento de R$ 253 milhões (pass-through) no novo contrato da URAE-1. 
+R$ milhões 
+ 
+2.6. DEPRECIAÇÃO E AMORTIZAÇÃO 
+No ano de 2024 houve um decréscimo de R$ 164 milhões ou 5,9%, devido à assinatura do novo contrato com a URAE-1, com prazo 
+até 19 de outubro de 2060, refletindo na redução da taxa média de amortização. Em 4T24 o valor foi de R$ 521 milhões, uma 
+redução de R$ 229 milhões contra o mesmo período de 2023. 
+ 
+3. INVESTIMENTOS 
+Em 2024 o valor total de investimentos foi de R$ 6.912 milhões, crescimento de R$ 628 milhões ou 10,0% contra 2023. 
+O investimento realizado no 4T24 foi de R$ 2.750 milhões, +17,1% vs mesmo período do ano anterior. 
+R$ milhões 
+ 4T 24 4T 23 Var. (R$) % 
+Água 966 1.043 (77) (7,4) 
+Esgoto 1.784 1.306 478 36,6 
+Total 2.750 2.349 401 17,1 
+ 
+ 2024 2023 Var. (R$) % 
+Água 2.892 2.721 171 6,3 
+Esgoto 4.020 3.563 457 12,8 
+Total 6.912 6.284 628 10,0 
+ CORRENTES. 
+ 
+REPASSES MUNICIPAIS 
+Município 4T24 4T23 Var. (R$) % 2024 2023 Var. (R$) % 
+São Paulo 189 180 9 5,1 731 672 59 8,8 
+Guarulhos 9 4 5 129,1 35 4 31 771,5 
+Barueri 3 - 3 - 21 - 21 - 
+Osasco 5 - 5 - 8 - 8 - 
+Poá 1 - 1 - 8 - 8 - 
+Outros municípios 101 47 54 114,7 296 169 126 74,5 
+Total 309 231 77 33,4 1.099 846 253 29,9
+
+[p. 7]
+Release de 
+Resultados 4T24 
+Página 7 
+Consolidado - Demonstração de resultados 
+R$ mil 
+ 2024 2023 
+Receita operacional líquida 
+36.145.477 
+ 
+25.572.056 
+Custo operacional (16.603.073) (16.051.866) 
+Lucro bruto 
+19.542.404 
+ 
+9.520.190 
+Despesas de vendas (917.589) (984.060) 
+Perdas estimadas com créditos de liquidação duvidosa (557.789) (652.920) 
+Despesas administrativas (2.311.438) (1.597.548) 
+Outras receitas (despesas) operacionais, líquidas (280.450) 27.925 
+Equivalência patrimonial 35.322 32.393 
+Lucro operacional antes do resultado financeiro 
+15.510.460 
+ 
+6.345.980 
+Despesas financeiras (2.701.304) (2.708.617) 
+Receitas financeiras 1.044.151 805.905 
+Variações cambiais, líquidas (210.499) 310.716 
+Resultado financeiro, líquido - 
+1.867.652 
+- 
+1.591.996 
+Lucro antes do imposto de renda e da contribuição social 
+13.642.808 
+ 
+4.753.984 
+Imposto de renda e contribuição social 
+Corrente (1.302.648) (1.545.671) 
+Diferido (2.760.597) 315.218 
+ (4.063.245) (1.230.453) 
+Lucro líquido do exercício 
+9.579.563 
+ 
+3.523.531 
+Lucro por ação - básico e diluído (em reais) 14,02 5,16
+
+[p. 8]
+Release de 
+Resultados 4T24 
+Página 8 
+Consolidado - Balanço Patrimonial 
+R$ mil 
+ATIVO 2024 2023 
+Circulante 
+Caixa e equivalentes de caixa 1.682.606 838.484 
+Aplicações financeiras 3.699.694 2.426.752 
+Contas a receber de clientes 3.894.557 3.584.287 
+Saldos com partes relacionadas 319.546 261.280 
+Estoques 10.818 86.008 
+Caixa restrito 37.715 54.944 
+Impostos a recuperar 800.811 494.647 
+Instrumentos financeiros derivativos 67.440 - 
+Outros ativos 95.673 37.048 
+Total do ativo circulante 
+10.608.860 7.783.450 
+ 
+Não circulante 
+Aplicações financeiras 769.057 - 
+Contas a receber de clientes 327.798 272.436 
+Saldos com partes relacionadas 908.875 935.272 
+Depósitos judiciais 139.222 130.979 
+Imposto de renda e contribuição social diferidos - 98.076 
+Agência Nacional de Águas e Saneamento Básico – ANA 1.993 2.673 
+Outros ativos 135.227 159.017 
+ 
+Investimentos 215.803 161.863 
+Propriedades para investimento 46.630 46.678 
+Ativo de contrato 4.877.667 7.393.096 
+ Ativo financeiro (indenização) 17.601.626 - 
+Intangível 44.771.124 44.012.858 
+Imobilizado 561.548 474.559 
+ 
+Total do ativo não circulante 
+70.356.570 53.687.507 
+Total do Ativo 
+80.965.430 61.470.957
+
+[p. 9]
+Release de 
+Resultados 4T24 
+Página 9 
+PASSIVO E PATRIMÔNIO LÍQUIDO 2024 2023 
+Circulante 
+Empreiteiros e fornecedores 766.609 456.215 
+Empréstimos e financiamentos 3.133.850 2.616.406 
+Obrigações sociais e trabalhistas 1.286.193 807.440 
+Impostos e contribuições a recolher 591.271 511.972 
+Dividendos e Juros sobre o capital próprio a pagar 2.275.890 837.391 
+Provisões 1.546.185 1.064.367 
+Serviços a pagar 1.438.507 750.732 
+Parceria Público-Privada – PPP 452.323 487.926 
+Compromissos Contratos de Programa - 21.969 
+ Contratos de Performance 287.109 634.501 
+Outras obrigações 194.308 218.923 
+Total do passivo circulante 
+11.972.245 8.407.842 
+ 
+Não circulante 
+Empréstimos e financiamentos 22.124.447 16.919.944 
+Imposto de renda e contribuição social diferidos 2.661.891 - 
+PIS/COFINS diferidos 1.117.804 164.097 
+Provisões 895.495 762.065 
+Obrigações previdenciárias 1.931.145 2.142.871 
+Parceria Público-Privada – PPP 2.853.896 2.798.688 
+Compromissos Contratos de Programa - 12.047 
+ Contrato de Performance 137.441 168.298 
+Outras obrigações 343.012 237.729 
+Total do passivo não circulante 
+32.065.131 23.205.739 
+Total do passivo 
+44.037.376 31.613.581 
+ 
+Patrimônio líquido 
+Capital social 15.000.000 15.000.000 
+Reservas de lucros 21.647.715 14.711.014 
+ Ajuste de avaliação patrimonial 280.339 146.362 
+Total do patrimônio líquido 
+36.928.054 29.857.376 
+Total do Passivo e do Patrimônio Líquido 
+80.965.430 61.470.957
+
+[p. 10]
+Release de 
+Resultados 4T24 
+Página 10 
+Consolidado - Fluxo de Caixa 
+R$ mil 
+ 2024 2023 
+Fluxo de caixa das atividades operacionais 
+ Lucro antes do imposto de renda e contribuição social 13.642.808 4.753.984 
+Ajustes para reconciliação do lucro líquido: 
+ Depreciação e amortização 2.676.642 2.790.586 
+ Valor residual do imobilizado, intangível, ativo de contrato e propriedades 
+para investimentos baixados 171.173 8.354 
+ Perdas estimadas com créditos de liquidação duvidosa 557.789 652.920 
+ Provisões e variações monetárias de provisões 801.179 458.889 
+ Juros calculados sobre empréstimos e financiamentos a pagar 1.655.765 1.314.359 
+ Variações monetárias e cambiais de empréstimos e financiamentos 659.475 (163.322) 
+ Ajuste a valor de mercado empréstimos e financiamentos 34.388 - 
+ Juros e variações monetárias líquidas (237.617) (79.232) 
+ Encargos financeiros de clientes (437.811) (374.902) 
+ Margem de construção sobre ativos intangíveis resultantes de contratos de 
+concessão (139.976) (125.603) 
+ Provisão para Termo de Ajustamento de Conduta (TAC), Programa de 
+Retenção do Conhecimento (PRC) e Programa de Desligamento Incentivado 
+(PDI) e (PDV) Programa de Delisgamento Voluntário 
+354.078 356.300 
+ Resultado da equivalência patrimonial (35.322) (32.393) 
+ Juros e variação monetária PPP 589.330 1.001.078 
+ Repasse Prefeitura Municipal de São Paulo 309.807 195.874 
+ Obrigações previdenciárias 161.505 238.751 
+ Intrumentos Financeiros Derivativos (324.778) - 
+ Atualização do Ativo financeiro (indenizações) (9.151.310) - 
+ PIS/Cofins diferidos sobre ativo financeiro (indenização) 822.482 - 
+ Outros ajustes 108.901 21.997 
+ 12.218.508 11.017.640 
+Variação no ativo 
+ Contas a receber de clientes (442.312) (835.324) 
+ Saldos e transações com partes relacionadas (25.429) (4.553) 
+ Estoques (13.785) 38.239 
+ Impostos a recuperar (306.163) (251.741) 
+ Depósitos judiciais 50.547 72.469 
+ Outros ativos (2.668) 36.091 
+Variação no passivo 
+ Empreiteiros e fornecedores (437.694) (394.188) 
+ Serviços a pagar 377.968 (168.384) 
+ Obrigações sociais e trabalhistas 77.973 19.377 
+ Impostos e contribuições a recolher 265.189 186.810 
+ PIS/COFINS diferidos 131.225 4.374 
+ Provisões (185.932) (243.241) 
+ Obrigações previdenciárias (227.233) (249.488) 
+ Outras obrigações (335.726) (868.699) 
+Caixa proveniente das operações 11.144.468 8.359.382 
+ 
+ Juros pagos (1.976.694) (1.936.419) 
+ Imposto de renda e contribuição social pagos (1.763.206) (1.568.611) 
+ 
+Caixa líquido proveniente das atividades operacionais 7.404.568 4.854.352
+
+[p. 11]
+Release de 
+Resultados 4T24 
+Página 11 
+ 2024 2023 
+ 
+ 
+Fluxo de caixa das atividades de investimentos 
+ Aquisição de ativo de contrato e intangíveis (7.929.946) (3.991.325) 
+ Caixa restrito 17.229 (17.470) 
+ Aplicações financeiras – Aplicação (6.456.564) (742.843) 
+ Aplicações financeiras – Resgate 5.303.658 - 
+ Aplicações financeiras – não circulante (769.057) - 
+ Propriedades para investimento (40.234) (6.625) 
+ Aquisição de bens do ativo imobilizado (100.728) (147.249) 
+Caixa líquido aplicado nas atividades de investimentos (9.975.642) (4.905.512) 
+ 
+Fluxo de caixa das atividades de financiamentos 
+ Empréstimos e financiamentos 
+ Captações 6.870.754 2.371.111 
+ Amortizações (2.246.263) (1.771.090) 
+ Pagamento de juros sobre o capital próprio (928.851) (823.671) 
+ Parceria Público-Privada – PPP (569.725) (673.645) 
+ Compromissos Contratos de Programa (35.497) (81.357) 
+ Instrumentos financeiros derivativos recebidos 324.778 - 
+ Aumento de Capital - 811 
+Caixa líquido proveniente das (aplicado nas) atividades de 
+financiamentos 3.415.196 (977.841) 
+ 
+Aumento / (diminuição) de caixa e equivalentes de caixa no exercício 844.122 (1.029.001) 
+ 
+Representado por: 
+Caixa e equivalentes de caixa no início do exercício 838.484 1.867.485 
+Caixa e equivalentes de caixa no final do exercício 1.682.606 838.484 
+Aumento / (diminuição) de caixa e equivalentes de caixa no exercício 844.122 (1.029.001)
+
+[p. 12]
+2024 Earnings 
+Page 12 
+9,580
+11,339
+21,726
+23,895
+3,524
+9,541
+19,972
+21,513
+2023 2024
+Gross operating revenue*
+Net operating revenue
+Adjusted EBITDA**
+Net income
+R$ Million
+(*) Does not include construction revenue
+(**) Excluding non-recurring effects / construction margin / Assets bifurcation
+11.1% 
+8.8% 
+18.8% 
+171.9% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SABESP RELEASES 
+FY2024 EARNINGS 
+ 
+Daniel Szlak 
+CFO 
+Thiago Levy 
+Executive Officer of Treasury and 
+Investor Relations
+
+[p. 13]
+2024 Earnings 
+Page 13 
+HIGHLIGHTS 
+Adjusted EBITDA totaled R$ 11,339 million in 2024 (+19% vs. R$ 9,541 million in 2023) with an adjusted EBITDA margin 
+of 52% (vs. 48% in 2023). The main pillars for its growth were i) higher revenue from the tariff increase and growth in the 
+number of new connections; ii) personnel, from the 2023 Voluntary Termination Plan (“VTP”); iii) fixed costs dilution from 
+volume growth. 
+Reported EBITDA totaled R$ 18,187 million (+99% vs. R$ 9,137 million in 2023) driven by the aforementioned drivers plus 
+the financial asset bifurcation recorded in 3Q24. 
+Reported Net Income reached R$ 9,580 million in 2024 (+172% vs. R$ 3,524 million in 2023). Excluding non-recurring 
+effects, construction margin and the financial asset bifurcation, Adjusted Net Income was R$ 5,174 million in 2024 (+37% 
+vs. R$ 3,790 million in 2023). 
+In 4Q24, Adjusted EBITDA was R$ 2,999 million (+4.1% vs. 4Q23), reaching an adjusted margin of 54% (vs. 53% in 4Q23). The 
+Reported EBITDA for the same period totaled R$ 2,294 million (-22% vs. 4Q23), mainly due to the severance accrual for the 2024 
+Voluntary Termination Plan carried out in the quarter. 
+Reported Net Income was R$ 1,435 million in 4Q24 (+21.0% vs. 4Q23). Excluding non-recurring effects, Adjusted Net Income 
+totaled R$ 1,900 million (+64% vs. 4Q23). 
+ 
+Financial Asset Bifurcation 
+In July 2024, the Company signed a new concession agreement with URAE-1 resulting in a single concession covering 371 cities 
+and that expires in 2060. This contract provides greater legal assurances and grants an unconditional right to receive a cash 
+indemnity at the end of the concession period. Given that, the Company went on to recognize a concession asset bifurcation 
+accounting for the contractual right that assets which will not be fully amortized during the concession period will be indemnified. 
+For further information, please refer to Note 16 of the 2024 Audited Financial Statements. 
+ 
+Transition 
+In 4Q24, the new management started a review of processes that resulted in impacts on the results reported in 2024, among 
+which (i) reassessment of legal claims; (ii) roll-out of the Sabesp Gente program to attract new professionals, retain internal 
+talents, and manage career transitions through a Voluntary Termination Plan; (iii) review of its IT infrastructure and processes; (iv) 
+PMI consulting to deploy strategic actions for 2025 and 2026; (v) overhaul CAPEX contracts and definition of the CAPEX pipeline 
+for the upcoming years, accelerating the hiring of suppliers for essential works to meet the contractual universalization targets.
+
+[p. 14]
+2024 Earnings 
+Page 14 
+4. CONSOLIDATED INCOME STATEMENT 
+R$ million 
+ 2024 2023 Var. (R$) % 4Q24 4Q23 Var. (R$) % 
+ Revenue from Operations 23.895 21.513 2.381 11,1 6.229 5.873 356 6,1 
+ FAUSP (395) - (395) - (238) - (238) - 
+ Financial Asset 9.151 - 9.151 - 331 - 331 - 
+ Sales Tax (2.731) (1.542) (1.190) 77,2 (567) (431) (136) 31,4 
+(=) Net Sanitation Revenue 29.920 19.972 9.948 49,8 5.755 5.441 314 5,8 
+ Construction revenues 6.226 5.600 626 11,2 2.084 1.825 259 14,2 
+(=) Net Revenue 36.145 25.572 10.573 41,3 7.839 7.266 573 7,9 
+ Construction costs (6.086) (5.475) (611) 11,2 (2.037) (1.784) (253) 14,2 
+ Operating Costs and expenses (14.304) (13.812) (492) 3,6 (3.913) (3.274) (639) 19,5 
+ Other operating income/(expense), net (280) 28 (308) (1.104) (125) (43) (81) 188,4 
+ Minority Interest 35 32 3 9,0 10 9 0 4,5 
+(=) EBIT 15.510 6.346 9.164 144,4 1.774 2.174 (400) (18,4) 
+ Net Financial result (1.868) (1.592) (276) 17,3 (543) (887) 344 (38,8) 
+(=) EBT 13.643 4.754 8.889 187,0 1.231 1.287 (56) (4,3) 
+ Income tax (4.063) (1.230) (2.833) 230,2 204 (100) 305 (303,7) 
+(=) Net income 9.580 3.524 6.056 171,9 1.435 1.186 249 21,0 
+ EPS (R$)* 14,02 5,16 2,10 1,74 
+ 
+* Number of shares = 683,509,869
+
+[p. 15]
+2024 Earnings 
+Page 15 
+5. ADJUSTED INCOME STATEMENT 
+R$ million 
+ 
+2024 
+Adjustments 
+2024 
+Adjusted 
+2023 
+Adjusted 
+Var. 
+(R$) % 
+ Financial 
+Asset Construction Non-
+Recurring 
+ Revenue from Operations 23.895 - - - 23.895 21.513 2.381 11,1 
+ FAUSP (395) - - - (395) - (395) - 
+ Financial Asset 9.151 (9.151) - - - - - - 
+ Sales Tax (2.731) 846 - 111 (1.774) (1.542) (232) 15,1 
+(=) Net Sanitation Revenue 29.920 (8.305) - 111 21.726 19.972 1.754 8,8 
+ Construction revenues 6.226 - (6.226) - - - - - 
+(=) Net Revenue 36.145 (8.305) (6.226) 111 21.726 19.972 1.754 8,8 
+ Construction costs (6.086) - 6.086 - - - - - 
+ Operating Costs and expenses (14.304) - - 1.289 (13.015) (13.282) 267 (2,0) 
+ Other operating income/(expense), net (280) - - 247 (34) 28 (62) (221,6
+) 
+ Minority Interest 35 - - - 35 32 3 9,0 
+(=) EBIT 15.510 (8.305) (140) 1.646 8.712 6.750 1.962 29,1 
+ Net Financial result (1.868) - - 124 (1.744) (1.592) (152) 9,5 
+(=) EBT 13.643 (8.305) (140) 1.770 6.968 5.158 1.810 35,1 
+ Income tax (4.063) 2.824 48 (602) (1.794) (1.368) (426) 31,2 
+(=) Net income 9.580 (5.481) (92) 1.168 5.174 3.790 1.384 36,5 
+ EPS (R$)* 14,02 7,57 5,55 
+ 
+* Balance adjusted for construction revenue and costs 
+ 
+Main non-recurring effects in 2024 were (i) Sabesp Gente VTP accrual for R$ 630 million; (ii) reassessment of legal claims of R$ 
+471 million; (iii) Write-off of work in progress fixed assets of R$ 164 million; (iv) R$ 111 million of accrual for taxes on unbilled 
+revenue; (v) privatization expenses of R$ 100 million; (vi) slow move and inventory difference accrual of R$ 95 million; and (vii) 
+post-privatization PMI consulting of R$ 40 million. 
+2.1. ADJUSTED NET REVENUE 
+Net revenue from sanitation services considering FAUSP¹ reached R$ 21,726 million (+9% vs. R$ 19,972 million in 2023). 
+The main factors in the year were: 
+• +7.5% in the consumption price/mix: mainly due to the tariff increase; 
+• +3.0% in billed volume: increase of 35 thousand active connections; 
+• (2.0)% FAUSP: initiated in July 2024; 
+The R$ 124 million increase (+2.3%) recorded in 4Q24 was mainly due to: 
+• +5.5% in the consumption price/mix; 
+• +1.2% in billed volume; 
+• (4.4)% FAUSP; 
+ 
+ 
+ 
+R$ million
+
+[p. 16]
+2024 Earnings 
+Page 16 
+ 2024 2023 Var. (R$) % 4Q24 4Q23 Var. (R$) % 
+Net revenue from sanitation services 21.726 19.972 1.754 8,8 5.565 5.441 124 2,3 
+Billed volume (million m³) 4.316 4.190 126 3,0 1.078 1.065 13 1,2 
+Average rate (R$/m3) 5,03 4,77 0,27 5,6 5,16 5,11 0,05 1,0 
+ 
+(1) FAUSP (Support Fund for the Universalization of Sanitation in the São Paulo State) – Amount referring to the difference between the invoice rate vs Sabesp rate. 
+ 2024 2023 Var. % 4Q24 4Q23 Var. % 
+Produced water volume (millions m³) 2.125.136 2.042.953 82.183 4,0 537.082 526.827 10.255 1,9 
+Treated sewage volume (millions m³) 1.341.937 1.187.706 154.231 13,0 329.017 308.108 20.909 6,8 
+ 
+Number of units in thousands¹ 2024 2023 % 
+Water units 13.072 12.928 1,1 
+Sewage units 11.762 11.581 1,6 
+(1) Active and registered units, average by end of period 
+Unaudited by external auditors 
+ 
+2.2. TARIFF MIX 
+An update to the Cadastro Único database in 2H24 led to an increase in the number of residential consumers qualified for the social 
+and vulnerable tariffs. Additionally, the growth in new units in vulnerable regions increases the representation of a lower tariff: An 
+impact of R$ 209 million related to the tariff mix on net sanitation revenue in 2024 vs. 2023. 
+2.3. ADJUSTED OPEX 
+OPEX decreased by R$ 205 million in 2024 (2)%. In 4Q24, the decrease was R$ 221 million (7)%. The main driver for the reduction 
+was the personnel expense line. 
+R$ million 
+ 4Q24 
+adjusted 4Q23 Var. (R$) % 2024 
+adjusted 2023 Var. (R$) % 
+Personnel 492 759 (266) (35.1) 2,682 3,121 (439) (14.1) 
+General supplies 143 112 31 28.2 412 386 26 6.6 
+Treatment supplies 144 142 2 1.5 530 559 (28) (5.1) 
+Services 678 578 100 17.3 2,654 2,571 83 3.2 
+Electricity 391 367 25 6.7 1,575 1,517 58 3.8 
+General expenses 494 426 69 16.2 1,896 1,594 302 19.0 
+Tax expenses 20 26 (6) (24.8) 81 90 (9) (9.8) 
+Depreciation and amortization 521 749 (229) (30.5) 2,627 2,791 (164) (5.9) 
+Allowance for doubtful accounts 155 116 39 33.9 558 653 (95) (14.6) 
+Other revenues and expenses 57 43 14 32.2 34 (28) 62 (221.6) 
+Costs, administrative, and selling expenses 3,097 3,317 (221) (6.7) 13,049 13,254 (205) (1.5) 
+ 
+2.4. ADJUSTED PERSONNEL 
+There was a decrease of R$ 439 million (14)% in 2024, mainly due to the 11% reduction in the number of employees. The 
+reduction reported in 4Q24 was R$ 266 million (35)%, with staff decreasing by 6% versus the same period in 2023. 
+Number of employees 2024 2023 % 
+Employees at the end of each period 10,552 11,170 (5.5) 
+Employees - simple average 10,485 11,802 (11.2)
+
+[p. 17]
+2024 Earnings 
+Page 17 
+2.5. ADJUSTED GENERAL EXPENSES 
+Increase of R$ 302 million (+19%), totaling R$ 1,896 million in 2024 vs. R$ 1,594 million in 2023, mainly due to higher transfers to 
+Sanitation Municipal Funds for a total of R$ 253 million (pass-through), consistent with the new URAE-1 concession agreement. 
+R$ million 
+MUNICIPAL TRANSFERS 
+Municipality 4Q24 4Q23 Var. (R$) % 2024 2023 Var. (R$) % 
+São Paulo 189 180 9 5.1 731 672 59 8.8 
+Guarulhos 9 4 5 129.1 35 4 31 771.5 
+Barueri 3 - 3 - 21 - 21 - 
+Osasco 5 - 5 - 8 - 8 - 
+Poá 1 - 1 - 8 - 8 - 
+Other municipalities 101 47 54 114.7 296 169 126 74.5 
+Total 309 231 77 33.4 1,099 846 253 29.9 
+ 
+2.6. DEPRECIATION AND AMORTIZATION 
+Decrease of R$ 164 million (5.9)% in 2024, due to the signing of the new concession agreement with URAE-1, valid thru October 
+19, 2060, resulting in the reduction of the average amortization rate. In 4Q24, D&A totaled R$ 521 million, down R$ 229 million 
+versus the same period in 2023. 
+ 
+3. INVESTMENTS 
+Investments totaled R$ 6,912 million in 2024, up by R$ 628 million or +10% versus 2023. In 4Q24, investments totaled R$ 2, 750 
+million, up 17.1% versus the same period in the previous year. 
+R$ million 
+ 4Q24 4Q23 Var. (R$) % 
+Water 966 1.043 (77) (7,4) 
+Sewage 1.784 1.306 478 36,6 
+Total 2.750 2.349 401 17,1 
+ 2024 2023 Var. (R$) % 
+Water 2.892 2.721 171 6,3 
+Sewage 4.020 3.563 457 12,8 
+Total 6.912 6.284 628 10,0
+
+[p. 18]
+2024 Earnings 
+Page 18 
+CONSOLIDATED INCOME STATEMENT 
+ R$ ‘000 2024 2023 
+Net Operating Revenue 36.145.477 25.572.056 
+Operating Costs (16.603.073) (16.051.866) 
+Gross Profit 19.542.404 9.520.190 
+Selling (917.589) (984.060) 
+Allowance for doubtful accounts (557.789) (652.920) 
+Administrative expenses (2.311.438) (1.597.548) 
+Other operating revenue (expenses), net (280.450) 27.925 
+Minority Interest 35.322 32.393 
+Operating Profit 15.510.460 6.345.980 
+Financial expenses (2.701.304) (2.708.617) 
+Financial revenue 1.044.151 805.905 
+Exchange gain (loss), net (210.499) 310.716 
+Net Financial Result (1.867.652) (1.591.996) 
+Pre-tax Earnings 13.642.808 4.753.984 
+Current (1.302.648) (1.545.671) 
+Deferred (2.760.597) 315.218 
+Income Tax and Social Contribution (4.063.245) (1.230.453) 
+Net Income 9.579.563 3.523.531 
+Earnings per share - R$ 14,02 5,16 
+ 
+Consolidated Balance Sheet 
+R$ ‘000 
+ASSETS 2024 2023 
+Current 10.608.860 7.783.450 
+Cash and equivalents 1.682.606 838.484 
+Financial investments 3.699.694 2.426.752 
+Trade Accounts receivable 3.894.557 3.584.287 
+Related parties receivable 319.546 261.280 
+Inventory 10.818 86.008 
+Restricted cash 37.715 54.944 
+Taxes 800.811 494.647 
+Currency Derivatives 67.440 - 
+Others 95.673 37.048 
+ 
+Non-Current 70.356.570 53.687.507 
+Financial investments 769.057 - 
+Trade Accounts receivable 327.798 272.436 
+Related parties receivable 908.875 935.272 
+Legal Deposits 139.222 130.979 
+Taxes - 98.076 
+National Water and Sanitation Agency (ANA) 1.993 2.673 
+Others 135.227 159.017 
+ 
+Investments 215.803 161.863 
+Land 46.630 46.678 
+Contract assets 4.877.667 7.393.096 
+Financial assets 17.601.626 - 
+Intangibles 44.771.124 44.012.858 
+PP&E 561.548 474.559 
+Total assets 80.965.430 61.470.957
+
+[p. 19]
+2024 Earnings 
+Page 19 
+ 
+LIABILITIES AND EQUITY 2024 2023 
+Current Liabilities 11.972.245 8.407.842 
+Trade Accounts Payable 766.609 456.215 
+Debt 3.133.850 2.616.406 
+Labor 1.286.193 807.440 
+Taxes 591.271 511.972 
+Shareholders Distributions (Dividends and Interest for Own Capital) 2.275.890 837.391 
+Legal Accruals 1.546.185 1.064.367 
+Services Accounts Payable 1.438.507 750.732 
+Public-Private Partnership (PPP) 452.323 487.926 
+Program Contract Commitments - 21.969 
+Other Trade payables 194.308 218.923 
+Other 287.109 634.501 
+ 
+Non-Current Liabilities 32.065.131 23.205.739 
+Debt 22.124.447 16.919.944 
+Deferred Income Tax 2.661.891 - 
+Deferred Sales Tax 1.117.804 164.097 
+Legal Accruals 895.495 762.065 
+Pension 1.931.145 2.142.871 
+Public-Private Partnership (PPP) 2.853.896 2.798.688 
+Program Contract Commitments - 12.047 
+Performance Contract Payables 137.441 168.298 
+Other 343.012 237.729 
+Total Liabilities 44.037.376 31.613.581 
+ 
+Equity 36.928.054 29.857.376 
+Paid-in Capital 15.000.000 15.000.000 
+Profit Reserves 21.647.715 14.711.014 
+OCI 280.339 146.362 
+Total Equity and Liabilities 80.965.430 61.470.957 
+ 
+Consolidated Cash Flow Statement 
+R$ ‘000 2024 2023 
+Operating Free Cash Flow 7.404.568 4.854.352 
+Pre-tax Earnings 13.642.808 4.753.984 
+Depreciation and Amortization 2.676.642 2.790.586 
+PP&E and Intangibles Write-offs 171.173 8.354 
+Allowance for doubtful accounts 557.789 652.920 
+Accruals and inflation adjustment 801.179 458.889 
+Accrued Interest on Debt 1.655.765 1.314.359 
+Inflation adjustment and FX gains/(losses) Debt 659.475 (163.322) 
+Debt inflation adjustment 34.388 - 
+Interest and inflation adjustment net gains/(losses) (237.617) (79.232) 
+Financial charges to customers (437.811) (374.902) 
+Construction Margin (139.976) (125.603) 
+Provision for Consent Decrees (TAC) and Voluntary Termination Programs 354.078 356.300 
+Minority Interest (35.322) (32.393) 
+Interest and inflation adjustment (Public-Private Partnerships) 589.330 1.001.078 
+Municipal Funds Accruals 309.807 195.874 
+Pension 161.505 238.751 
+Currency Derivatives (324.778) -
+
+[p. 20]
+2024 Earnings 
+Page 20 
+Financial Asset Bifurcation (9.151.310) - 
+Deferred Tax on Financial Asset 822.482 - 
+Other adjustments 108.901 21.997 
+Interest paid (1.976.694) (1.936.419) 
+Income tax paid (1.763.206) (1.568.611) 
+ 
+Changes in Assets 
+Trade Accounts Receivable (442.312) (835.324) 
+Related parties (25.429) (4.553) 
+Inventory (13.785) 38.239 
+Taxes (306.163) (251.741) 
+Legal deposits 50.547 72.469 
+Other (2.668) 36.091 
+Changes in Liabilities 
+Trade Accounts Payable (437.694) (394.188) 
+Services Payable 377.968 (168.384) 
+Labor 77.973 19.377 
+Taxes 265.189 186.810 
+Deferred Sales Taxes 131.225 4.374 
+Accruals (185.932) (243.241) 
+Pension (227.233) (249.488) 
+Other (335.726) (868.699) 
+ 2024 2023 
+Cash flows from Investments (9.975.642) (4.905.512) 
+Acquisition of contract and intangible assets (7.929.946) (3.991.325) 
+Restricted cash 17.229 (17.470) 
+Financial investments - Investment (6.456.564) (742.843) 
+Financial investments - Redemption 5.303.658 - 
+Financial Investments (769.057) - 
+Investments (40.234) (6.625) 
+Purchases of tangible assets (100.728) (147.249) 
+ 
+Cash flows from Financing Activities 3.415.196 (977.841) 
+New Debt 6.870.754 2.371.111 
+Debt repayment (2.246.263) (1.771.090) 
+Interest for Own Capital (928.851) (823.671) 
+Public-Private Partnership (PPP) (569.725) (673.645) 
+Program Contract Commitments (35.497) (81.357) 
+Currency Derivatives 324.778 811 
+ 
+Free Cash Flow to Equity 844.122 (1.029.001) 
+Cash at Beginning of Period 838.484 1.867.485 
+Cash at End of Period 1.682.606 838.484

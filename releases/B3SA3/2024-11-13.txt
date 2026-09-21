@@ -1,0 +1,555 @@
+[p. 1]
+B3 ANUNCIA OS RESULTADOS DO TERCEIRO TRIMESTRE DE 2024 
+ 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+São Paulo, 13 de novembro de 2024 – A B3 S.A. - Brasil, Bolsa, Balcão (“B3” ou “Companhia”; B3SA3) divulga 
+hoje os resultados do 3º trimestre de 2024 (3T24). A receita total atingiu R$2.711,4 milhões, alta de 8,9% em 
+relação ao 3T23 e em linha com o 2T24. O EBITDA recorrente somou R$1.7 06,3 milhões, avanço de 5,5% vs. 
+3T23 e queda de 3,6% contra o 2T24, enquanto o lucro líquido recorrente 1 foi de R$1.226, 0 milhões, alta de 
+5,8% vs. 3T23 e em linha com o 2T24. 
+MENSAGEM DA ADMINISTRAÇÃO 
+No terceiro trimestre, a receita total da B3 totalizou R$2,7 bilhões, um crescimento de 8,9% em relação ao 3T23, 
+com avanço em todos os segmentos de negócios da Companhia, reforçando mais uma vez a diversificação e a 
+resiliência do modelo de negócios da B3. 
+O cenário de volatilidade na curva de juros local somado às iniciativas da Companhia em incentivar a liquidez 
+em seus mercados, tanto por meio da tarifação, como na implementação de novas funcionalidades e produtos, 
+fizeram com que o volume médio diário negociado (ADV) dos derivativos listados totalizasse 7,1 milhões de 
+contratos, alta de 21,3% vs. 3T23. Tal desempenho resultou na maior receita trimestral do segmento na história 
+da B3, de R$683,0 milhões, 16,3% acima do 3T23, com o Futuro de Bitcoin, lançad o em abr/24, contribuindo 
+com receita de R$18,9 milhões. 
+Em Balcão, o ambiente de juros em níveis elevados continuou favorecendo o mercado de renda fixa local, com 
+crescimentos em relação ao 3T23 de 28,9% no estoque de instrumentos de captação bancária e de 14,6% no 
+estoque do Tesouro Direto, que por sua vez teve um aumento de 13,0% em sua base de investidores. No 
+mercado de dívida corporativa, o estoque cresceu 3,5% vs. 3T23 e 6,2% em relação ao 2T24. 
+Já no mercado de ações à vista, o nível dos juros e a retomada da política monetária contracionista tiveram 
+impacto no volume financeiro médio diário negociado (ADTV), que totalizou R$23,3 bilhões, queda de 2,1% vs. 
+o 3T23. Vale destacar que a redução no volume de ações foi parcialmente compensada pelo crescimento de 
+outras classes de ativo, como ETFs, BDRs e Fundos Listados. 
+Nos demais segmentos, destacam -se os crescimentos de 12,4% na Unidade de Infraestrutura para 
+Financiamentos, explicado pela continuidade de um cenário positivo para o mercado de crédito para aquisição 
+de veículos, e de 10,4% em Tecnologia, Dados e Serviços, refletindo principalmente o crescimento de 7,5% de 
+usuários da plataforma de Balcão e um crescimento de 7,1% na linha de Dados & Analytics. 
+As despesas totalizaram R$831,1 milhões, queda de 7,9% vs. 3T23, explicada principalmente pelo fim da 
+amortização dos intangíveis reconhecidos na combinação com a Cetip. Excluindo esse efeito, a despesa seria 
+13,8% acima do 3T23, refletindo, em grande parte, a sazonalidade que afeta as linhas de pessoas, com a 
+correção anual dos salários e reajuste em benefícios, e de processamento de dados, com a aceleração na entrega 
+de projetos. Além disso, no trimestre, houve crescimento nas despesas com incentivos ligados a o Futuro de 
+Bitcoin e ao Tesouro Direto, que possuem receitas atreladas a elas, e em despesas extraordinárias relacionadas 
+a consultorias para projetos estratégicos. Vale ressaltar que a Companhia mantém seu compromisso com a 
+projeção divulgada no Fato Relevante de 7 de dezembro de 2023, e, portanto, a tendência é que a Companhia 
+não apresente incremento adicional nas despesas no 4T24. 
+O lucro líquido atingiu R$1,2 bilhão, alta de 12,1% em relação ao 3T23. No trimestre, foi distribuído R$1,3 bilhão 
+aos acionistas , sendo R$516,0 milhões em dividendos e JCP, e R$735,8 milhões através de recompras. 
+Adicionalmente, em 19 de setembro de 2024, o Conselho de Administração aprovou o cancelamento de 120 
+milhões de ações, totalizando 220 milhões de ações canceladas desde o início do ano , cerca de 3,9% do capital 
+social da Companhia. 
+Em relação à estrutura de capital, a B3 aprovou, em outubro, a 9ª emissão de debêntures no valor de R$1,7 
+bilhão com prazo de 6 anos. A Companhia permanece focada na contínua otimização de sua estrutura de capital, 
+monitorando ativamente o mercado e avaliando oportunidades que possam gerar eficiência de custo no longo 
+prazo. Como resultado dessa aprovação, a Companhia revisou sua projeção de nível de endividamento para 
+2024, de 2,0x para 2,3x. As demais projeções permaneceram inalteradas. 
+Em desenvolvimento de produtos, no 3T23, a B3 lançou os contratos futuros e opções sobre o índice Small Cap 
+B3 (SMLL B3), ampliando as opções aos investidores que buscam exposição a empresas de menor capitalização, 
+e os contratos futuros de Café Conilon, alinhado à estratégia de atender às necessidades dos clientes. 
+Por fim, buscando constantemente tornar o ambiente de investimentos cada vez mais acessível, a B3 anunciou 
+mudanças no Tesouro Direto, com um novo limite mínimo de investimento, de 1% do valor do título, novo limite 
+máximo, de R$2 milhões por mês, e o dese nvolvimento de uma plataforma de “gift cards”, que permitirá a 
+doação de créditos conversíveis em títulos públicos. 
+ 
+1 Ver reconciliação na página 7. 
+2 Despesas ajustadas por: i) depreciação e amortização; (ii) programa de incentivo de longo prazo baseado em ações – principal e encargos; (iii) provisões; (iv) despesas atreladas ao faturamento; (v) 
+despesas M&A; e (vi) outras despesas extraordinárias. 
+(Em R$ milhões) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Receita total 2.711,4 2.490,1 8,9% 2.727,2 -0,6% 
+Receita líquida 2.435,9 2.248,2 8,3% 2.457,0 -0,9% 
+Despesas (831,1) (902,2) -7,9% (729,1) 14,0% 
+Resultado Financeiro 73,6 39,1 88,1% (38,8) - 
+Lucro líquido do período 1.204,5 1.074,2 12,1% 1.244,1 -3,2% 
+Despesas ajustadas2 (577,9) (503,9) 14,7% (514,4) 12,4% 
+EBITDA recorrente 1.706,3 1.617,7 5,5% 1.769,1 -3,6% 
+Margem EBITDA recorrente 70,0% 72,3% -226 bps 73,3% -325 bps 
+Lucro líquido recorrente 1.226,0 1.158,3 5,8% 1.226,6 0,0% 
+ 
+ 
+ 
+ 
+ 
+3T24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TELECONFERÊNCIA (Inglês) 
+14/11 
+10:00h (BRT) / 08:00h (NYC) 
+Brasil: +55 (11) 4680-6788 
+ +55 (11) 4700-9668 
+Toll Free: +1 888 788 0099 
+Dial-In: +1 360 209 5623 
+Webinar ID: 897 5713 0454 
+Senha: 659526 
+ 
+Webcast: clique aqui 
+ 
+ 
+TELECONFERÊNCIA (Português) 
+14/11 
+11:00h (BRT) / 09:00h (NYC) 
+Brasil: +55 (11) 4680-6788 
+ +55 (11) 4700-9668 
+Toll Free: +1 888 788 0099 
+Dial-In: +1 360 209 5623 
+Webinar ID: 826 3476 0033 
+Senha: 087347 
+ 
+Webcast: clique aqui
+
+[p. 2]
+2 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+DESEMPENHO OPERACIONAL 
+As comparações neste documento são em relação ao terceiro trimestre de 2023 (3T23), exceto quando indicado de outra forma. 
+Listado 
+Ações à Vista 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+ADTV (R$ milhões) 
+Ações 20.095 21.152 -5,0% 20.817 -3,5% 
+ETFs 2.143 1.856 15,4% 2.119 1,1% 
+BDRs 634 427 48,3% 540 17,4% 
+Fundos Listados 390 337 15,8% 393 -0,7% 
+Ações à Vista - Total 23.262 23.773 -2,1% 23.869 -2,5% 
+Margem (bps) 3,348 3,348 0,000 bps 3,350 -0,002 bps 
+Capitaliz. de mercado média (R$ bilhões) 4.573 4.386 4,3% 4.414 3,6% 
+Giro de mercado Anualizado (%) 127,7% 134,4% -673 bps 135,7% -804 bps 
+Nota: ADTV ( Average Daily Traded Volume ) significa volume financeiro médio diário negociado; ADV ( Average Daily Volume ) significa volume médio diário; RPC ( Revenue per Contract ) significa 
+receita por contrato; e bps (basis point) significa pontos base. 
+No mercado de ações à vista, o volume financeiro médio diário apresentou comportamento praticamente estável, com a queda de 5% 
+no volume negociado de ações sendo parcialmente compensada pelos crescimentos nos volumes de ETFs, BDRs e Fundos Listados, qu e 
+possuem dinâmicas distintas em relação ao mercado de ações e representaram 14% do volume total (vs. 11% no 3T23). 
+A margem de negociação e pós -negociação no mercado à vista de ações foi de 3,348 bps, em linha com o 3T23 e com o 2T24, com o 
+aumento da participação de formadores de mercado e provedores de liquidez compensado por uma queda no volume de day trade em 
+relação ao 3T23. 
+ 
+Nota: A margem em bps considera as tarifas das duas pontas da operação (compra + venda). 3, 36 bps foi a margem média no último mês do período (set/24). 
+Instrumentos de Renda Variável 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Opções sobre ações e índices ADTV (R$ milhões) 759 551 37,6% 638 19,0% 
+Margem (bps) 10,720 12,739 -2,019 bps 12,651 -1,931 bps 
+Termo & Futuro de ações ADTV (R$ milhões) 259 254 2,0% 273 -4,9% 
+Margem (bps) 5,617 5,852 -0,235 bps 5,720 -0,104 bps 
+Futuro de índice de ações ADV (milhares de contratos) 3.100 3.283 -5,6% 3.666 -15,5% 
+RPC média (R$) 0,962 0,958 0,4% 0,948 1,4% 
+O crescimento de 37,6% no volume de opções foi influenciado, principalmente, pelo crescimento das opções de compra e venda de ETFs 
+e do índice Ibovespa. Nos contratos futuros de índices, a queda de 5,6% no número médio de contratos negociados é explicada pelo 
+menor volume das versões mini dos Futuros de Ibovespa. Já a receita por contrato (RPC) média dos futuros de índice ficou estável, com 
+a redução dos descontos previstos na tarifação em função do menor volume sendo parcialmente compensada por ajustes no program a 
+voltado para HFTs (High Frequency Traders) 3, anunciados em set/23. 
+ 
+ 
+ 
+ 
+3 Para mais informações, acesse o Ofício Circular de 12/09/2023.
+
+[p. 3]
+3 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+Soluções 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Nº de investidores (CPFs Individuais) Média (milhares) 5.179 5.006 3,5% 5.115 1,2% 
+Nº de contas na depositária (total) Média (milhares) 6.015 5.866 2,5% 5.962 0,9% 
+Empréstimo de títulos Pos. em aberto média (R$ bilhões) 135 125 8,2% 131 3,6% 
+Taxa Doador Média (% a.a.) 1,393% 1,047% 35 bps 0,996% 40 bps 
+O número médio de contas na depositária de renda variável apresentou crescimento de 2,5%, resultado d a contínua busca dos 
+investidores individuais por maior diversificação em seus portfólios, apesar do cenário ainda desafiador para o mercado de ações. Como 
+reflexo dessa busca, a participação média dos investidores individuais no volume negociado de BDRs foi 23% (vs. 17% no 3T23), frente a 
+uma leve queda na participação no volume negociado de ações, que fechou o trimestre em 12% (vs. 13% no 3T23). 
+Juros, Moedas e Mercadorias 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Taxas de juros em R$ ADV (milhares de contratos) 5.647 4.680 20,7% 6.811 -17,1% 
+RPC média (R$) 0,674 0,853 -21,0% 0,663 1,7% 
+Taxas de juros em USD ADV (milhares de contratos) 334 301 10,8% 342 -2,4% 
+RPC média (R$) 2,514 2,011 25,0% 2,302 9,2% 
+Taxas de câmbio ADV (milhares de contratos) 1.019 882 15,5% 987 3,2% 
+RPC média (R$) 5,466 4,787 14,2% 4,909 11,3% 
+Commodities ADV (milhares de contratos) 25 26 -3,1% 24 5,7% 
+RPC média (R$) 1,825 1,733 5,4% 1,629 12,0% 
+Futuro de Criptoativos ADV (milhares de contratos) 120 - - 34 252,1% 
+RPC média (R$) 2,397 - - 1,440 66,5% 
+Geral ADV total (milhares de contratos) 7.144 5.889 21,3% 8.198 -12,8% 
+RPC média (R$) 1,476 1,507 -2,0% 1,251 18,0% 
+O ADV totalizou 7,1 milhões de contratos, refletindo principalmente os crescimentos (i) de 20,7% do ADV de Juros em R$ , influenciado 
+em grande parte pelos contratos de Futuro de DI (+16,8%) e Opções de IDI (+28,6%), e (ii) de 15,5% nos contratos de Câmbio, explicado 
+pelo maior volume negociado das versões mini e cheia do Futuro de Dólar. Vale destacar o desempenho do Futuro de Bitcoin, lan çado 
+em abr/24, que fechou o trimestre com um ADV de 120 mil contratos. 
+A RPC média apresentou uma queda de 2,0% no período, refletindo a redução de 21,0% na RPC de Juros em R$ , por sua vez explicada 
+pela (i) maior concentração de contratos em prazos mais curtos, que possuem menor tarifação; e (ii) crescimento dos volumes. Por outro 
+lado, as altas de 25,0% nas RPCs de Juros em USD e 14,2% em Câmbio, explicadas pela valorização do USD frente ao R$ , quase que 
+totalmente compensaram a queda da RPC de Juros em R$. 
+Em out/23, foram feitas mudanças na tarifação 4 das Opções de IDI e na tabela de preços para os contratos d e dólar, que também 
+impactaram as RPCs de Juros em R$ e Câmbio, respectivamente. O objetivo dessas mudanças de tarifação foi, no caso das Opções de IDI, 
+melhorar a eficiência dos descontos por volume para o mercado, e, nos derivativos de dólar, adequar as tarifas em função do tamanho 
+do contrato. Adicionalmente, e m jun/24, foram implementadas novas alterações no modelo de tarifaçã o, além da inclusão de tarifas 
+diferenciadas para estratégias UDS de Opções de IDI 5, com o objetivo de continuar fortalecendo a liquidez e aumentar a eficiência dos 
+descontos para o mercado nesse produto. 
+Balcão 
+Instrumentos de Renda Fixa 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Emissões Captação bancária (total em R$ bilhões) 4.350 4.096 6,2% 4.161 4,5% 
+Outros (total em bilhões) 378 425 -11,0% 441 -14,2% 
+Estoque 
+Captação bancária (média em R$ bilhões) 3.669 2.847 28,9% 3.512 4,5% 
+Dívida corporativa (média em R$ bilhões) 1.111 1.074 3,5% 1.046 6,2% 
+Outros (média em R$ bilhões) 2.419 1.920 26,0% 2.333 3,7% 
+Tesouro Direto Número de investidores (média em milhares) 2.664 2.357 13,0% 2.623 1,5% 
+Estoque (média em R$ bilhões) 137 120 14,6% 134 2,1% 
+Nota: “Captação bancária” inclui DI, CDB, Letras Financeiras e outros instrumentos como RDB, LC, DPGE. 
+“Outros” inclui instrumentos do mercado imobiliário (LCI, CCI, CRI e LH), do agronegócio (CRA, LCA, CDCA, CLCA e CTRA) e captação de crédito (CCB, CCCB, NCE, CCE, Export Notes, NC) . 
+O volume de novas emissões de instrumentos de captação bancária cresceu 6,2% na comparação com o 3T23 e 4,5% contra o 2T24, 
+principalmente em razão do crescimento nas emissões de CDBs, que representaram 74,8% das emissões de instrumentos de renda fi xa 
+do período. Em relação ao estoque médio de instrumentos de captação bancária, o crescimento foi de 28,9%, enquanto o volume de 
+estoque de dívida corporativa teve alta de 3,5%. Vale notar que o estoque de dívida corporativa foi negativamente afetado pela redução 
+no volume de debêntures de leasing, que representaram 2,2% do estoque de dívida corporativa no período (vs. 21,2 % no 3T23) - 
+ 
+4 Para mais informações, acesse o Ofício Circular de 12/09/2023. 
+5 Para mais informações, acesse o Ofício Circular de 23/05/2024.
+
+[p. 4]
+4 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+excluindo as debêntures de leasing, o crescimento teria sido de 22,5% no mesmo período. Por último, vale destacar o crescimento de 
+26,0% no estoque de “Outros” produtos, com destaque para a alta nos volumes de CCCB (+319%), CCB (+129%) e CCI (+36%). 
+Outro destaque do mercado de renda fixa foi o contínuo crescimento do Tesouro Direto (TD), cujo número de investidores e o es toque 
+médio cresceram 13,0% e 14,6%, respectivamente. A B3 oferece um programa de incentivo para as corretoras expandirem a base de 
+investidores nesse produto, o qual é revisado anualmente. 
+Derivativos de Balcão e Operações Estruturadas 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Emissões (total em R$ bilhões) 3.882 2.898 33,9% 4.101 -5,3% 
+Estoque (média em R$ bilhões) 7.248 5.722 26,7% 6.509 11,4% 
+As emissões no mercado de derivativos de balcão e operações estruturadas apresentaram aumento de 33,9%, influenciado 
+principalmente pelo aumento de 37,5% nas emissões de Swaps. Na mesma comparação, o estoque médio apresentou crescimento de 
+26,7%. 
+Infraestrutura para Financiamento 
+ 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+SNG 
+# de veículos vendidos (milhares) 5.489 4.861 12,9% 5.001 9,8% 
+# de veículos financiados (milhares) 1.858 1.543 20,4% 1.773 4,8% 
+% Veículos financiados / veículos vendidos 33,9% 31,7% 2,1 p.p. 35,4% -1,6 p.p. 
+No 3T24, o número de veículos vendidos no Brasil aumentou 12,9%, enquanto o número de financiamentos cresceu 20,4%. Já o 
+percentual de veículos financiados alcançou 33,9% dos veículos vendidos, um aumento de 2,1 p.p na comparação com o terceiro trimestre 
+de 2023, reflexo do contínuo crescimento da carteira de crédito para financiamento de veículos, tanto de pessoas físicas quanto jurídicas. 
+Tecnologia, Dados e Serviços 
+ 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Utilização Balcão 
+# médio de clientes 
+21.814 20.293 7,5% 21.378 2,0% 
+Market data 161 159 1,3% 163 -1,0% 
+Co-location 95 92 3,3% 92 2,9% 
+A quantidade média de clientes do serviço de utilização mensal dos sistemas de Balcão aumentou 7,5%, resultado, principalment e, do 
+crescimento da indústria de fundos no Brasil. 
+DEMONSTRAÇÃO DE RESULTADOS 
+Receita 
+Receita total: R$2.711,4 milhões, alta de 8,9%, com crescimento em todos os segmentos da Companhia, e queda de 0,6% em relação ao 
+2T24. Excluindo a linha de reversão de provisões e as receitas com o programa Desenrola, que acabaram em mai/24, haveria um 
+crescimento de 1,9% contra o 2T24. Vale mencionar que o 3T24 teve 66 dias úteis (vs. 64 no 3T23 e 63 no 2T24). 
+Listado: R$1.599,7 milhões (59,0% do total), alta de 7,4%. 
+▪ Ações e Instrumentos de Renda Variável: R$916,7 milhões (33,8% do total), alta de 1,6% contra o 3T23. 
+▪ Negociação e pós-negociação: R$770,3 milhões (28,4% do total), alta de 0,8%. 
+o Negociação e pós-negociação – mercado à vista e derivativos de ações : R$575,5 milhões (21,2% do total), alta de 2,1% 
+explicada por dois dias de negociação a mais do que o 3T23, dado os comportamentos estáveis de margem e volume. 
+o Negociação e pós -negociação – derivativos de índices: R$194,8 milhões (7,2% do total), queda de 2,7%, explicada por 
+uma queda de 5,6% no ADV, como detalhado anteriormente, e uma RPC em linha com o 3T23. 
+▪ Depositária de renda variável : R$41,6 milhões (1,5% do total), alta de 8,1% no período, explicada pelo crescimento de 7,6% no 
+saldo médio na depositária (excluindo investidores isentos), além do ajuste pela inflação das tarifas da Central Depositária6, que 
+entraram em vigor no início do ano. 
+▪ Empréstimo de ações: R$66,2 milhões (2,4% do total), alta de 16,8%, em decorrência do aumento de 35 bps na taxa média dos 
+contratos negociados entre os participantes desta modalidade. 
+▪ Listagem e soluções para emissores: R$38,6 milhões (1,4% do total), queda de 10,4%, explicada por maiores receitas no 3T23 com 
+ofertas públicas de aquisição. Em relação ao 2T24, a alta de 13,2% é explicada p elo follow-on de uma grande empresa no 
+trimestre. 
+ 
+6
+ Para mais informações, acesse o Ofício Circular de 28/12/2023.
+
+[p. 5]
+5 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+▪ Juros, Moedas e Mercadorias: R$683,0 milhões (25,2% do total), alta de 16,3%, refletindo o crescimento de volume em todos os 
+contratos, com exceção de Commodities, que mais do que compensou a queda na RPC média total, efeito dos maiores volumes, 
+principalmente nos contratos de Juros em R$. Destaca-se também a contribuição de R$18,9 milhões do Futuro de Bitcoin, lançado em 
+abr/24. 
+Vale notar que as receitas desse segmento são impactadas pelo hedge accounting de fluxo de caixa constituído na emissão do bond 
+em set/21, em que o bond é o instrumento de hedge e as receitas futuras altamente prováveis em dólar (relacionadas principalmente 
+aos contratos de derivativos listados de Taxas de câmbio em USD e Taxas de juros em USD) são os objetos de hedge. Em virtude disso, 
+os efeitos da variação cambial sobre o bond são registrados no Patrimônio Líquido e reconhecidos na demonstração de resultados à 
+medida que houver a realização das receitas. No 3T24, o impacto líquido dessa estrutura foi negativo em R$10,2 milhões, dada a 
+variação cambial no período. 
+Balcão: R$432,6 milhões (16,0% do total), alta de 15,0%. 
+▪ Instrumentos de renda fixa: R$288,2 milhões (10,6% do total), alta de 17,5%, principalmente devido ao (i) crescimento de 28,9% 
+no estoque médio de instrumentos de captação bancária, (ii) crescimento na receita com distribuição de debêntures, que 
+totalizou R$19,6 milhões, como reflexo do cenário positivo para o mercado de dívida corporativa no Brasil, e (iii) aumento de 
+17,2% na receita do Tesouro Direto, sendo R$65,4 milhões no 3T24 vs. R$55,7 milhões no 3T23. Cabe notar que os incentivos ao 
+mercado ligados a este produto somaram R$22,8 milhões no 3T24 (vs. R$16,3 milhões no 3T23) e são classificados como despesa 
+atrelada ao faturamento. 
+▪ Derivativos e operações estruturadas : R$77,6 milhões (2,9% do total), alta de 7,8%, explicada principalmente pelo aumento das 
+receitas de opções, termo e operações com swaps. 
+▪ Outros: R$66,8 milhões (2,5% do total), alta de 13,1%, refletindo o aumento de 1 1,2% no estoque médio de cotas de fundos. 
+Infraestrutura para Financiamento: R$132,9 milhões (4,9% do total), alta de 12,4%, explicad a por um crescimento de 20,4% no número 
+de veículos financiados. Em relação ao 2T24, a queda de 12,0% é explicada pelo fim, em mai/24, do programa Desenrola. 
+Tecnologia, Dados e Serviços: R$546,8 milhões (20,2% do total), alta de 10,4%. 
+▪ Tecnologia e acesso: R$327,8 milhões (12,1% do total), alta de 14,4%, refletindo tanto o aumento do número de clientes do 
+segmento de Balcão, quanto as correções anuais de preços pela inflação na linha de utilização mensal e em produtos de 
+tecnologia, como o co-location. 
+▪ Dados e analytics: R$160,4 milhões (5,9% do total), alta de 7,1%, explicada pelo (i) crescimento de receitas recorrentes em 
+Neurotech; (ii) maior receita de market data, que possui aproximadamente 55% do montante total referenciado em dólar e se 
+beneficiou da apreciação do USD frente ao R$; e (iii) pelo crescimento de receitas da vertical de dados para mercado de capitais. 
+▪ Banco: R$28,0 milhões (1,0% do total), queda de 8,9%, explicada principalmente pela queda de receita com floating. 
+▪ Outros: R$30,6 milhões (1,1% do total), alta de 8,2%, refletindo, principalmente, maiores receitas com multas. 
+Receita líquida: R$2.435,9 milhões, 8,3% acima do 3T23. 
+Despesas 
+As despesas somaram R$831,1 milhões, queda de 7,9%, devido principalmente ao término da amortização dos intangíveis reconhecidos 
+na combinação com a Cetip. Excluindo esse efeito, as despesas teriam apresentado alta de 13,8%. 
+▪ Pessoal e encargos: R$373,7 milhões, alta de 8,1%, refletindo (i) a correção anual (dissídio) dos salários, com impactos colaterais em 
+provisões e benefícios; e (ii) o reajuste dos planos de assistência médica em abr/24, que são corrigidos significativamente acima de 
+inflação. 
+▪ Processamento de dados: R$164,0 milhões, alta de 20,1%, explicada, principalmente, pela (i) intensificação do uso de tecnologia em 
+nuvem; (ii) aceleração na entrega de projetos; e (iii) reajuste de contratos recorrentes de tecnologia. 
+▪ Depreciação e amortização: R$99,7 milhões, queda de 6 4,6%, explicada pelo término da amortização do s intangíveis reconhecidos 
+na combinação com a Cetip. 
+▪ Atreladas ao faturamento: R$85,3 milhões, alta de 44,0%, reflexo do maior valor do incentivo ao Tesouro Direto e dos incentivos ao 
+Futuro de Bitcoin, lançado em abr/24. 
+▪ Serviços de terceiros: R$36,7 milhões, alta de 64,6% explicada principalmente por maiores gastos com consultorias estratégicas no 
+3T24. 
+▪ Diversas: R$43,7 milhões, alta de 54,7%, principalmente por maiores provisões relacionadas a casos trabalhistas e cíveis, parcialmente 
+compensada por menores despesas com provisões relacionadas a disputas judiciais em que parte do valor em discussão é atualizado 
+de acordo com o preço de B3SA3.
+
+[p. 6]
+6 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+A tabela abaixo mostra a composição e evolução das despesas ajustadas. 
+Reconciliação das despesas ajustadas 
+(em R$ milhões) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Despesas (831,1) (902,2) -7,9% (729,1) 14,0% 
+(+) Depreciação e amortização 99,7 281,6 -64,6% 88,8 12,3% 
+(+) Programa de incentivo de longo prazo baseado em ações 45,1 41,6 8,3% 35,3 27,8% 
+(+) Provisões (recorrentes e não-recorrentes) 21,3 14,7 44,3% 26,1 -18,5% 
+(+) Despesas atreladas ao faturamento 85,3 59,3 44,0% 68,9 23,9% 
+(+) Outras despesas extraordinárias 1,7 1,0 66,6% (4,4) - 
+Despesas ajustadas (577,9) (503,9) 14,7% (514,4) 12,4% 
+EBITDA 
+O EBITDA recorrente totalizou R$1.706,3 milhões, alta de 5,5%. A margem EBITDA recorrente foi de 70,0%, queda de 226 bps. Em relação 
+ao 2T24, houve queda de 3,6%, com queda de 325 bps na margem. 
+ 
+(em R$ milhões) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+EBITDA 1.704,6 1.627,6 4,7% 1.816,8 -6,2% 
+(-) Outras receitas não-recorrentes - (10,9) - - - 
+(+) Outras despesas não-recorrentes 1,7 1,0 - (4,4) - 
+(-) Reversão de provisões - - - (43,2) - 
+EBITDA recorrente 1.706,3 1.617,7 5,5% 1.769,1 -3,6% 
+Margem EBITDA recorrente 70,0% 72,3% -226 bps 73,3% -325 bps 
+ 
+Resultado Financeiro 
+O resultado financeiro foi positivo em R$73,6 milhões no 3T24, uma alta de 88,1% . As receitas financeiras atingiram R$ 392,3 milhões, 
+queda de 5,8%, explicada por um menor CDI médio no período, apesar de um saldo médio de caixa maior. 
+As despesas financeiras apresentaram um a queda de 9,6%, explicada principalmente pelo menor CDI médio em relação ao 3T23, além 
+de um menor spread médio no custo de endividamento, resultado dos contínuos esforços da Companhia para tornar sua estrutura de 
+capital mais eficiente. 
+(em R$ milhões) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Resultado financeiro 73,6 39,1 88,1% (38,8) - 
+ Receitas financeiras 392,3 416,5 -5,8% 424,0 -7,5% 
+ Despesas financeiras (330,3) (365,3) -9,6% (428,5) -22,9% 
+ Variações cambiais líquidas 11,6 (12,1) - (34,3) - 
+ 
+Além disso, é importante notar que o resultado financeiro também foi impactado pelos efeitos da variação cambial sobre os empréstimos 
+em moeda estrangeira e sobre os investimentos no exterior que a Companhia possui, sendo este impacto neutralizado pela variaç ão na 
+linha de imposto de renda e contribuição social (estrut ura de hedge). A tabela abaixo isola esses efeitos, tanto do resultado financeiro 
+quanto do imposto de renda e contribuição social. 
+ 
+(em R$ milhões) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Resultado financeiro 73,6 39,1 88,1% (38,8) - 
+(+/-) Efeitos do hedge sobre resultado financeiro (10,9) 19,3 - 53,6 - 
+Resultado financeiro ajustado (excluindo efeitos do hedge) 62,6 58,4 7,3% 14,9 321,0% 
+Resultado antes da tributação sobre o lucro 1.677,8 1.386,3 21,0% 1.689,4 -0,7% 
+(+/-) Efeitos do hedge sobre resultado financeiro (10,9) 19,3 - 53,6 - 
+Resultado antes da tributação sobre o lucro ajustado 
+(excluindo efeitos do hedge) – (A) 1.666,9 1.405,6 18,6% 1.743,1 -4,4% 
+Imposto de renda e contribuição social (473,2) (312,0) 51,7% (445,4) 6,3% 
+(+/-) Efeitos do hedge sobre imposto de renda e contribuição social 10,9 (19,3) - (53,6) - 
+Imposto de renda e contribuição social ajustado 
+(excluindo efeitos do hedge) – (B) (462,3) (331,3) 39,6% (499,0) -7,4% 
+Alíquota Efetiva sobre Lucro Antes de IR e CS Ajustado (excluindo efeitos do 
+hedge) - (B) / (A) 27,7% 23,6% +41,7 bps 28,6% -8,9 bps 
+Imposto de renda e contribuição social 
+A linha de imposto de renda e contribuição social totalizou R$4 73,2 milhões no 3T24, e foi impactada pela distribuição de juros sobre o 
+capital próprio (JCP) no montante de R$ 326,0 milhõe s. O imposto corrente atingiu R$ 358,9 milhões. A linha de imposto de renda e 
+contribuição social diferidos foi de R$114,3 milhões, composta pela constituição de créditos fiscais a serem utilizados pela Companhia no 
+futuro. Além disso, a linha de imposto de renda e contribuição social também foi impactada pela estrutura de hedge, conforme explicado
+
+[p. 7]
+7 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+anteriormente. Em relação ao 3T23, o aumento da alíquota efetiva é explicado principalmente pelo efeito da recuperação de tributos 
+sobre atualização monetária de indébitos tributários, ocasionando um efeito positivo de R$38,4 milhões no período. 
+Lucro Líquido 
+O lucro líquido atribuído aos acionistas da B3 atingiu R$ 1.204,5 milhões, alta de 12,1% em relação ao 3T23. Excluindo os itens não -
+recorrentes destacados abaixo, o lucro líquido teria atingido R$1.226,0 milhões no trimestre, 5,8% acima do 3T23. 
+Ajustes no lucro líquido 
+(em R$ milhões) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Lucro líquido (atribuídos aos acionistas) 1.204,5 1.074,2 12,1% 1.244,1 -3,2% 
+(+) Outras receitas não-recorrentes - (13,0) - (43,2) - 
+(+) Outras despesas não-recorrentes 1,7 - - (4,4) - 
+(+) Impactos fiscais de itens não recorrentes (0,6) - - 16,2 - 
+(+) Recuperação de tributos - (38,4) - - - 
+(+) Amortização de intangível 20,4 135,5 -84,9% 14,0 45,7% 
+Lucro líquido recorrente 1.226,0 1.158,3 5,8% 1.226,6 0,0% 
+Nota: amortização de intangível líquido de impostos, calculado a uma alíquota de 34% aplicada na parcela dedutível, e inclui Neoway, Neurotech, PDTec e outras controladas. 
+PRINCIPAIS ITENS DO BALANÇO PATRIMONIAL CONSOLIDADO EM 30/09/2024 
+Contas do Ativo, Passivo e Patrimônio Líquido 
+A Companhia encerrou o trimestre com ativos totais de R$46,1 bilhões, queda de 6,4% em relação a dez/23. As linhas de disponibilidades 
+e aplicações financeiras (circulante e não -circulante) totalizaram R$1 6,9 bilhões, uma queda de 7,8%, explicada principalmente pelo (i) 
+pagamento da 1ª série da 5ª emissão de debêntures, no montante de R$1,6 bilhão, e pela (ii) execução do Programa de Recompra de 
+2024/2025, compensada parcialmente por um aumento no volume de garantias depositadas em dinheiro (contrapartida no passivo 
+circulante). 
+Ao final do 3T24, a B3 possuía endividamento bruto de R$12,9 bilhões (88% de longo prazo e 12% de curto prazo), correspondente a 2,0x 
+o EBITDA recorrente dos últimos 12 meses. 
+O patrimônio líquido ao final do trimestre era de R$ 19,2 bilhões, composto principalmente pelo capital social, de R$12,9 bilhões, e pela 
+reserva de lucros, de R$3,9 bilhões. 
+OUTRAS INFORMAÇÕES FINANCEIRAS 
+CAPEX 
+Durante o trimestre , foram realizados investimentos de R$56,8 milhões. Tais investimentos foram utilizados principalmente para 
+atualizações tecnológicas em todos os segmentos da B3, que incluem investimentos em capacidade, segurança e desenvolvimento d e 
+novos produtos e funcionalidades. 
+Distribuições aos acionistas 
+Em 19 de setembro de 2024, o Conselho de Administração deliberou o pagamento de juros sobre o capital próprio, no montante de 
+R$326,0 milhões, e de dividendos, no montante de R$190,0 milhões, ambos pagos em 07 de outubro. No trimestre, foram efetuadas 
+recompras de ações no âmbito do Programa de Recompra de 2024/2025 no valor total de R$735,8 milhões, que, somadas aos dividendos 
+e JCP, totalizaram R$1.251,8 milhões retornados aos acionistas no período . No ano , já foram retornados R$3.519,1 milhões, sendo 
+R$380,0 milhões em dividendos, R$898,5 milhões em JCP, e R$2.240,6 milhões em recompras, representando 3,5% do capital social da 
+Companhia recomprado em 2024. 
+SUSTENTABILIDADE 
+Durante o 3T24, os principais destaques em relação à agenda de sustentabilidade da B3 foram : 
+▪ Lançamento de website dedicado à sustentabilidade na B3, que visa informar sobre a atuação da Companhia nas agendas Ambiental, 
+Social e de Governança Corporativa. 
+▪ Realização do treinamento sobre IFRS S2 com o objetivo de preparar o mercado brasileiro para novos requerimentos de divulgação 
+de mercado. Em agosto, foi realizado o terceiro workshop da trilha, o qual foi focado no padrão S2 (divulgações relacionadas ao 
+clima). 
+▪ Lançamento da nova carteira do IDIVERSA B3 e de novo módulo no ESG Workspace. Os resultados e os dados de diversidade das 
+empresas que compõem a carteira foram publicados em uma nova seção na plataforma de dados ESG Workspace.
+
+[p. 8]
+8 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+DEMONSTRAÇÃO DE RESULTADO CONSOLIDADA 
+(em R$ milhares) 3T24 3T23 3T24/3T23 
+(%) 2T24 3T24/2T24 
+(%) 
+Receita Total 2.711.382 2.490.082 8,9% 2.727.242 -0,6% 
+Listado 1.599.688 1.489.390 7,4% 1.575.606 1,5% 
+Ações e instrumentos de renda variável 916.696 902.258 1,6% 916.718 0,0% 
+Negociação e pós-negociação 770.260 763.939 0,8% 779.855 -1,2% 
+Depositária de renda variável 41.580 38.467 8,1% 41.624 -0,1% 
+Empréstimo de ações 66.242 56.736 16,8% 61.122 8,4% 
+Listagem e soluções para emissores 38.614 43.116 -10,4% 34.117 13,2% 
+Juros, moedas e mercadorias 682.992 587.132 16,3% 658.888 3,7% 
+Negociação e pós-negociação 682.992 587.132 16,3% 658.888 3,7% 
+Balcão 432.633 376.214 15,0% 425.709 1,6% 
+Instrumentos de renda fixa 288.249 245.223 17,5% 285.555 0,9% 
+Derivativos 77.579 71.947 7,8% 73.933 4,9% 
+Outros 66.805 59.044 13,1% 66.221 0,9% 
+Infraestrutura para Financiamentos 132.932 118.247 12,4% 151.009 -12,0% 
+Tecnologia, dados e serviços 546.814 495.297 10,4% 527.528 3,7% 
+Tecnologia e acesso 327.843 286.543 14,4% 315.616 3,9% 
+Dados e analytics 160.433 149.791 7,1% 163.635 -2,0% 
+Banco 27.971 30.720 -8,9% 34.478 -18,9% 
+Outros 30.567 28.243 8,2% 13.799 121,5% 
+Reversão de provisões e recuperação de despesas (685) 10.934 - 47.390 - 
+Deduções da receita (275.466) (241.862) 13,9% (270.228) 1,9% 
+PIS e Cofins (225.996) (198.319) 14,0% (221.384) 2,1% 
+Impostos sobre serviços (49.470) (43.543) 13,6% (48.844) 1,3% 
+Receita líquida 2.435.916 2.248.220 8,3% 2.457.014 -0,9% 
+Despesas (831.060) (902.168) -7,9% (729.055) 14,0% 
+ Pessoal e encargos (373.723) (345.781) 8,1% (347.415) 7,6% 
+ Processamento de dados (163.971) (136.521) 20,1% (146.245) 12,1% 
+ Depreciação e amortização (99.731) (281.592) -64,6% (88.815) 12,3% 
+ Atrelada ao faturamento (85.309) (59.262) 44,0% (68.863) 23,9% 
+ Serviços de terceiros (36.725) (22.318) 64,6% (17.039) 115,5% 
+ Manutenção em geral (8.503) (8.729) -2,6% (7.302) 16,4% 
+ Promoção e divulgação (12.466) (12.306) 1,3% (9.227) 35,1% 
+ Impostos e taxas (2.691) (3.327) -19,1% (4.062) -33,8% 
+ Honorários do conselho/comitês (4.229) (4.069) 3,9% (4.294) -1,5% 
+ Diversas (43.712) (28.263) 54,7% (35.793) 22,1% 
+Resultado operacional 1.604.856 1.346.052 19,2% 1.727.959 -7,1% 
+Margem operacional 65,9% 59,9% 601 bps 70,3% -444 bps 
+Resultado de equivalência patrimonial (641) 1.154 - 210 - 
+Resultado financeiro 73.561 39.116 88,1% (38.761) - 
+Receitas financeiras 392.263 416.482 -5,8% 424.023 -7,5% 
+Despesas financeiras (330.269) (365.312) -9,6% (428.492) -22,9% 
+Variações cambiais líquidas 11.567 (12.054) - (34.292) - 
+Resultado antes da tributação sobre o lucro 1.677.776 1.386.322 21,0% 1.689.408 -0,7% 
+Imposto de renda e contribuição social (473.243) (312.015) 51,7% (445.365) 6,3% 
+Corrente (358.898) (251.783) 42,5% (514.322) -30,2% 
+Diferido (114.345) (60.232) 89,8% 68.957 - 
+Lucro líquido do período 1.204.533 1.074.307 12,1% 1.244.043 -3,2% 
+Margem Líquida 49,4% 47,8% 166 bps 50,6% -118 bps 
+ 
+Atribuídos aos: 
+Acionistas da B3 1.204.491 1.074.241 12,1% 1.244.051 -3,2% 
+Margem líquida 49,4% 47,8% 167 bps 50,6% -119 bps 
+Participação dos não-controladores 42 66 -36,4% (8) -625,0%
+
+[p. 9]
+9 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+RESUMO DO BALANÇO PATRIMONIAL CONSOLIDADO 
+(R$ milhares) 
+ATIVO 30/09/2024 31/12/2023 PASSIVO E PATRIMÔNIO LÍQUIDO 30/09/2024 31/12/2023 
+Circulante 16.419.329 18.828.942 Circulante 8.813.382 12.154.194 
+Disponibilidades 1.901.718 1.788.906 Garantias recebidas em operações 4.126.175 3.617.169 
+Aplicações financeiras 12.962.063 14.160.858 Instrumentos financeiros derivativos 76.162 9.608 
+Outros 1.555.548 2.879.178 Empréstimos e debêntures 1.528.561 4.250.267 
+Não circulante de longo prazo 14.878 14.878 Outros 3.082.484 4.277.150 
+Não circulante 29.633.876 30.361.463 Não circulante 18.096.900 16.764.990 
+Realizável a longo prazo 2.511.021 2.836.883 Empréstimos e debêntures 11.349.785 9.759.402 
+Aplicações financeiras 2.075.735 2.417.923 Imposto de renda e contribuição social diferidos 5.674.780 5.845.307 
+Outros 435.286 418.960 Outros 1.072.335 1.160.281 
+Investimentos 650.251 647.353 Patrimônio líquido 19.157.801 20.286.099 
+Imobilizado 823.221 872.816 Capital social 12.898.655 12.548.655 
+Intangível 25.649.383 26.004.411 Reserva de capital 670.130 2.208.753 
+Ágio 24.333.776 24.333.775 Outros 5.576.407 5.516.102 
+Software e projetos 1.315.607 1.670.636 Participação dos acionistas não-controladores 12.609 12.589 
+Total do ativo 46.068.083 49.205.283 Total do passivo e patrimônio líquido 46.068.083 49.205.283

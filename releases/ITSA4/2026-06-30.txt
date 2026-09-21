@@ -1,0 +1,2991 @@
+[p. 1]
+DEMONSTRAÇÕES 
+CONTÁBEIS 
+INTERMEDIÁRIAS 
+30 de junho de 2026
+
+[p. 2]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+Sumário Executivo (2T26 x 2T25) 
+ 
+ 
+ 
+Principais Indicadores 
+ 
+R$ milhões 2T26 2T257 Δ 1S26 1S257 Δ 
+Lucratividade e Retorno1,2 
+Lucro Líquido1 5.244 4.050 29% 9.654 7.929 22% 
+ROE sobre PL médio (%)1,2 22,8% 18,5% 4,3 p.p. 21,2% 17,9% 3,3 p.p. 
+Lucro Líquido Recorrente1 4.306 4.021 7% 8.797 7.862 12% 
+Lucro Líquido Recorrente por ação 0,38416 0,36026 6% 0,78474 0,70756 11% 
+ROE Recorrente sobre PL médio (%)1,2 18,7% 18,3% 0,4 p.p. 19,3% 17,8% 1,5 p.p. 
+Balanço Patrimonial 
+Dívida Líquida 1.184 587 102% 1.184 587 102% 
+Patrimônio Líquido 93.790 89.574 5% 93.790 89.574 5% 
+Mercado de Capitais 
+Valor de Mercado do Portfólio (NAV)4 189.353 159.295 19% 189.353 159.295 19% 
+Valor de Mercado da Itaúsa3 149.954 120.357 25% 149.954 120.357 25% 
+Volume Financeiro médio diário ITSA4 462 322 43% 453 305 49% 
+(1) Atribuível aos acionistas controladores. | (2) ROE (Return on Equity) considerando o Lucro Líquido anualizado. | (3) Calculado com base na cotação de fechamento das ações preferenciais da Itaúsa 
+(ITSA4) em 3 0.06.2026 e 3 0.06.2025 (sem ajuste por proventos). | (4) Considera as cotações de fechamento em 3 0.06.2026 e 3 0.06.2025 das ações mais líquidas do Itaú Unibanco (ITUB4), Dexco 
+(DXCO3), Alpargatas (ALPA4) e Motiva (MOTV3) (sem ajuste por proventos), o valor contábil do investimento da Copa Energia em 30.06.2026 e 30.06.2025, o valor justo da NTS em 30.06.2026 e 
+30.06.2025, além dos demais ativos e passivos refletidos no balanço individual da Itaúsa, referentes a 30.06.2026 e 30.06.2025 . Em relação à Aegea Saneamento, foi considerado o valor contábil do 
+investimento em 30.06.2025 e em 30.06.2026 o valor de mercado estimado para as ações ordinárias da Aegea detidas pela Itaúsa com base na transação de aumento de capital concluída em mar/26, 
+somado ao valor contábil em 3 0.06.2026 das ações preferenciais da Aegea detidas pela Itaúsa. | (5) Conforme convenção de mercado, o Dividend Yield é referente aos últimos 12 meses e é calculado 
+sobre os proventos brutos ajustados por eventos societários (como subscrição e bonificação em ações). | (6) Calculado com base na cotação de fechamento das ações preferenciais da Itaúsa (ITSA4) em 
+30.06.2026 e 30.06.2025 (ajustado por proventos). | (7) Em função da reapresentação dos resultados da Aegea, ajustamos o resultado dessa investida e o resultado gerencial da Itaúsa do 2T25 e 1S25 
+(mais informações na seção 1.1 deste documento). 
+ 
+Destaques 
+ 
+• Lucro Líquido e ROE Recorrentes: crescimento de 7% do Lucro Líquido em relação ao 2T25 e ROE de 18,7%, refletindo sólido 
+desempenho das empresas investidas e disciplina na alocação de capital da holding. 
+• Programa de Recompra de Ações : aprovado e concluído em maio, com a recompra de 5 milhões de ações preferenciais para 
+utilização no âmbito do Plano de Incentivos de Longo Prazo, ao preço médio de R$ 12,98 por ação. 
+• JCP: pagamento de R$ 2,3 bilhões líquidos (R$ 0,20955 por ação) em 28.08.2026 , com base nas declarações de 16.03.2026 e 
+15.06.2026. 
+• Proventos recebidos: recebimento de dividendos e juros sobre capital próprio extraordinários no montante líquido de R$ 0,9 bilhão 
+da Itautec, subsidiária integral não operacional, relacionados ao êxito de processos judiciais e administrativos. 
+DIVIDEND 
+YIELD5 
+9,8% 
+▲1,8 p.p. vs. 30.06.2025 
+LUCRO LÍQUIDO 
+RECORRENTE 2T261 
+R$ 4,3 BILHÕES 
+▲7% 
+ROE RECORRENTE 
+2T261,2 
+18,7% a.a. 
+▲0,4 p.p. 
+VALOR DE MERCADO 
+DO PORTFÓLIO (NAV)4 
+R$ 189,4 BILHÕES 
+▲19% vs. 30.06.2025 
+RETORNO TOTAL AO 
+ACIONISTA (TSR ITSA4)6 
+▲39% UDM 
+vs. ▲24% IBOV 
+VALOR DE MERCADO 
+DA ITAÚSA3 
+R$ 150,0 BILHÕES 
+▲25% vs. ▲24% IBOV 
+DESCONTO DE HOLDING 
+JUN/26 
+20,8% 
+▲1,4 p.p. vs. mar/26 
+PROVENTOS 
+1S26 
+R$ 2,8 BILHÕES 
+▲3% vs. 1S25
+
+[p. 3]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+• Aumento de Capital na Aegea: aprovado, em agosto, aumento de capital na Aegea no valor total de R$ 2,1 bilhões, sendo o valor 
+do investimento pela Itaúsa de R$ 732 milhões, elevando a participação acionária no capital total da investida de 13,27% para 
+14,01%. Além disso, em julho, foi celebrado Acordo de Capitalização e Ajuste de Participação Acionária que estabelece mecanismo 
+de proteção do retorno do investimento, por meio do aumento da participação da Itaúsa na Aegea em determinadas condições. 
+• Aquisição de ações da Alpargatas: aumento de participação no capital total da Alpargatas com investimento total de R$ 97 milhões 
+desde o 4T25, passando a deter 30,62% do capital total da investida (excluídas as ações em tesouraria). 
+• Reafirmação de rating: reafirmado pela S&P Global o rating AAA da Itaúsa, com perspectiva estável, destacando a robusta posição 
+de liquidez e a evolução contínua no seu perfil de endividamento. 
+• Pessoas, ética e integridade: obtenção, pelo 6º ano consecutivo, da certificação Great Place To Work (GPTW) e reconhecimento 
+da Itaúsa como Empresa Pró -Ética no ciclo 2025 -2026, reafirmando nosso compromisso com a valorização das pessoas e as 
+melhores práticas de governança, ética e integridade. 
+ 
+ 
+Mensagem da Administração 
+ 
+“Resultados consistentes e portfólio resiliente em um ambiente de transição econômica e maior 
+volatilidade global. 
+O segundo trimestre de 2026 foi marcado pela continuidade do ciclo de flexibilização monetária no Brasil, iniciada 
+no primeiro trimestre, refletindo a trajetória mais favorável da inflação e a busca por estímulos à atividade 
+econômica. Apesar da redução gradual da taxa básica de juros, o ambiente ainda foi caracterizado por condições 
+financeiras restritivas e cautela dos agentes econômicos. No cenário internacional, persistiram incertezas 
+relacionadas ao crescimento global, às políticas comerciais das principais economias e aos desdobramentos das 
+tensões geopolíticas em diferentes regiões, mantendo elevados níveis de volatilidade nos mercados financeiros e 
+impactando decisões de investimento. 
+Mesmo diante de sse contexto, seguimos executando nossa estratégia de geração sustentável de valor, apoiados pela disciplina na 
+alocação de capital e pela gestão ativa do nosso portfólio. Nosso lucro líquido recorrente atingiu R$ 4,3 bilhões no 2º trimestre de 2026 
+(crescimento de 7% vs. 2T25) e nosso ROE recorrente alcançou 18,7% (aumento de 0,4 p.p.). Esse resultado reflete, principalmente, a 
+evolução dos resultados do Itaú Unibanco (+ 8,5%), além d os resultados crescentes d a Motiva (+67%), Alpargatas (+86%) e Copa 
+Energia (+17%). 
+O Itaú Unibanco apresentou resultados robustos, com crescimento na carteira de crédito no Brasil e América Latina, manutenção de 
+indicadores de inadimplência saudáveis e avanço em Seguros e Previdência. Entre as investidas não financeiras, Motiva, Alparg atas e 
+Copa Energia registraram expansão de receita e ganhos operacionais. A Aegea, apesar do forte crescimento operacional, teve resultado 
+pressionado pela piora no resultado financeiro. Na Dexco, apesar da performance crescente nas Divisões de Madeira e Metais e Louças 
+e do avanço na desalavancagem, os resultados foram impactados pelo segmento de Celulose Solúvel com a queda do preço da celulose, 
+além dos desafios setoriais em Revestimentos Cerâmicos. Os resultados do investimento na NTS foram impactados, em relação ao ano 
+anterior, pela variação negativa no valor justo do ativo. 
+Alocação eficiente de capital e criação de valor. 
+Avançamos em mais uma etapa relevante da nossa estratégia de investimento com a capitalização na Aegea e a celebração do Acordo 
+de Capitalização e Ajuste de Participação Acionária . A operação fortalece nossa posição no ativo e amplia os mecanismos de captura 
+de valor em um setor com perspectivas atrativas de crescimento. No período, também continuamos nosso movimento de aumento de 
+participação acionária na Alpargatas, com investimento de R$ 97 milhões desde o quarto trimestre do ano passado, atingindo 30 ,62% 
+de participação na investida . Os movimentos estão alinhados à nossa estratégia de alocação eficiente de capital, reafirmando nosso 
+compromisso contínuo com a criação de valor aos acionistas, às investidas e à sociedade. Em maio, a S&P Global reafirmou o rating 
+AAA da Itaúsa, com perspectiva estável, refletindo nossa robusta posição de liquidez, a evolução contínua do perfil de endividamento e 
+a capacidade de manter flexibilidade financeira. 
+Pessoas, ética e integridade. 
+No trimestre, também tivemos importantes reconhecimentos relacionados à nossa cultura e às nossas práticas de governança. 
+Conquistamos, pelo sexto ano consecutivo, a certificação Great Place To Work (GPTW) e fo mos novamente reconhecidos como 
+Empresa Pró-Ética no ciclo 2025 -2026, reafirmando nosso compromisso com a valorização das pessoas e as melhores práticas de 
+governança, ética e integridade. 
+Alfredo Setubal 
+Presidente e DRI
+
+[p. 4]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+Em um ambiente que exige capacidade de adaptação e visão de longo prazo, seguimos comprometidos com uma gestão ativa do 
+portfólio e com a alocação eficiente de capital, direcionando recursos para oportunidades que fortaleçam nossas investidas e nosso 
+potencial de crescimento. A combinação entre disciplina financeira, excelência operacional das investidas e decisões estratégicas de 
+capital continuará sendo uma marca da atuação da Itaúsa.” 
+1. Desempenho Operacional e Financeiro da Itaúsa 
+ 
+1.1. Resultado individual da Itaúsa 
+ 
+Como holding de participações que investe em empresas operacionais, nosso resultado é composto por Resultado de Equivalência 
+Patrimonial (REP), apurado a partir do lucro líquido de nossas empresas investidas, pelo resultado de investimentos em ativos financeiros 
+mensurados a valor justo (como é o caso da NTS) e pelo resultado de eventuais alienações de ativos do nosso portfólio. Abaixo estão 
+demonstrados os nossos resultados individuais recorrentes (os itens não recorrentes encontram‐se detalhados na tabela “Reconciliação 
+do Lucro Líquido Recorrente” na seção 1.6 deste documento). 
+ 
+(1) Atribuível aos acionistas controladores. | (2) Considera a equivalência patrimonial da participação acionária detida diretamente no Itaú Unibanco Holding e indireta por intermédio da participação de 
+66,53% do capital da IUPAR – Itaú Unibanco Participações S.A., cujo único investimento é a participação acionária no Itaú Unibanco. | (3) No primeiro trimestre de 2026 houve efei to positivo de R$ 93 
+milhões na equivalência patrimonial da Aegea como reflexo da capitalização ocorrida por Itaúsa e GIC. Os resultados da Aegea do primeiro trimestre de 2025 foram reapresentados para refletir os ajustes 
+contábeis decorrentes de revisões de políticas contábeis e reavaliações de estimativas, os quais foram refletidos na demonstração gerencial da Itaúsa acima, para fins de melhor comparabilidade . | (4) 
+Composto por Itautec e ITH Zux Cayman. | (5) Refere-se, principalmente, à amortização das mais-valias atribuídas nos PPAs (purchase price allocation ou alocação de preço de compra) dos investimentos 
+na Motiva, Aegea Saneamento, Alpargatas, Copa Energia e Itaú Unibanco. | (6) Essencialmente composto pelo PIS e COFINS (conforme notas explicativas nº 20 e nº 21). 
+ 
+Despesa Tributária IUPAR: O resultado do Itaú Unibanco demonstrado acima incorpora as despesas tributárias de PIS e COFINS 
+sobre Juros sobre Capital Próprio (JCP) da IUPAR, que totalizaram R$ 71 milhões no 2T26 (vs. R$ 48 milhões no 2T25) e R$ 140 milhões 
+no 1S26 (vs. R$ 147 milhões no 1S25). 
+Resultado Individual Gerencial da Itaúsa1 
+R$ milhões 2T26 2T25 ∆% 1S26 1S25 ∆% 
+Resultado Recorrente das empresas investidas 4.568 4.265 7,1% 9.361 8.404 11,4% 
+Setor Financeiro 4.468 4.118 8,5% 8.851 8.072 9,6% 
+Itaú Unibanco2 4.468 4.118 8,5% 8.851 8.072 9,6% 
+Setor Não Financeiro 141 193 -26,7%% 595 452 31,7% 
+Dexco 2 9 -74,0% 22 36 -37,1% 
+Alpargatas 55 30 85,7% 107 65 66,3% 
+Motiva 69 41 66,9% 134 97 37,4% 
+Aegea Saneamento3 (14) (21) 34,2% 75 (21) n.a. 
+Copa Energia 102 87 17,3% 175 144 21,2% 
+NTS (68) 45 n.a. 89 129 -31,2% 
+Variação do valor justo (68) 45 n.a. (24) (10) -145,3% 
+Dividendos e/ou JCP - - n.a. 113 139 -18,8% 
+Outras empresas4 (5) 2 n.a. (7) 2 n.a. 
+Outros resultados5 (41) (46) 10,7% (85) (120) 29,0% 
+Resultado Próprio (221) (173) 27,8% (424) (425) 0,3% 
+Despesas Administrativas (45) (42) -7,1% (89) (82) 8,9% 
+Despesas Tributárias6 (163) (114) -42,6% (318) (332) -4,2% 
+Doações Instituto Itaúsa (11) (13) 15,3% (12) (13) -9,2% 
+Outras Receitas (Despesas) Operacionais (2) (3) 46,3% (5) 1 n.a. 
+Resultado Financeiro (62) (55) -11,5% (140) (120) 16,8% 
+Rentabilidade do Caixa 72 138 -47,8% 129 246 -47,5% 
+Despesas com Dívidas (118) (176) -33,0% (235) (331) -29,1% 
+Outros (16) (17) -5,9% (34) (35) -1,5% 
+Lucro antes do IR/CS 4.285 4.036 6,2% 8.798 7.859 11,9% 
+IR/CS 21 (15) n.a. (1) 2 n.a. 
+Lucro Líquido Recorrente 4.306 4.021 7,1% 8.797 7.862 11,9% 
+Resultado não recorrente 938 29 n.a. 857 65 n.a. 
+Próprio 14 (4) n.a. 23 (18) n.a. 
+Setor Financeiro (44) (18) -137,4% (131) (33) -293,2% 
+Setor Não Financeiro 968 51 n.a. 965 117 725,6% 
+Lucro Líquido 5.244 4.050 29,5% 9.654 7.929 21,8% 
+ 
+ROE sobre PL médio (%) 22,8% 18,5% 4,3 p.p. 21,2% 17,9% 3,3 p.p. 
+ROE Recorrente sobre PL médio (%) 18,7% 18,3% 0,4 p.p. 19,3% 17,8% 1,5 p.p.
+
+[p. 5]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+ 
+Ajustes contábeis Aegea: em abril, a Aegea divulgou suas Demonstrações Contábeis auditadas referentes ao exercício social 
+encerrado em 31.12.2025, nas quais foram refletidos ajustes contábeis decorrentes de revisões de políticas contábeis e reavaliações de 
+estimativas que demandaram a reapresentação de exercícios anteriores. Em agosto, a Aegea divulgou suas Demonstrações Contábeis 
+auditadas referentes ao 2º trimestre de 2026 , nas quais reapresentou os resultados do 2º trimestre de 202 5 para refletir os referidos 
+ajustes. 
+Em função da reapresentação dos resultados da Aegea, ajustamos o resultado gerencial da Itaúsa para melhor comparabilidade e 
+apresentamos abaixo a conciliação das linhas que foram alteradas no Resultado Individual Gerencial da Itaúsa do 2T25 e 1S25. 
+ 
+ 
+ 
+ 
+1.2. Resultado Recorrente das empresas investidas registrado pela Itaúsa (2T26 vs. 2T25) 
+ 
+O resultado recorrente proveniente das empresas investidas , refletido em nosso resultado no 2T26, foi de R$ 4,6 bilhões, 
+crescimento de 7% em relação ao ano anterior devido principalmente ao melhor resultado do Itaú Unibanco (+9%), além dos resultados 
+crescentes da Motiva (+67%), Alpargatas (+86%) e Copa Energia (+17%). 
+ 
+ 
+ 
+• Resultados sólidos, com crescimento sustentável da carteira de crédito, mantendo trajetória de qualidade na originação. Indic ador 
+de inadimplência consolidado permaneceu nos melhores níveis históricos, reflexo da estratégia prudente de crédito adotada pel o 
+banco. 
+• O crescimento das receitas de serviços e seguros foi impulsionado pelo negócio de seguros, previdência e capitalização. 
+• Índice de Eficiência em 37,4% no consolidado e 35,5% no Brasil (modelo gerencial BRGAAP), refletindo ganhos de produtividade e 
+a captura contínua de eficiência decorrente dos investimentos em tecnologia realizados nos últimos anos. 
+• Crescimento da rentabilidade no Brasil e no consolidado. 
+• Capital robusto (Nível I em 13,8%, acima do mínimo de 9,6%) , sustentado pela geração orgânica de capital e por uma política 
+prudente de gestão de recursos. 
+ 
+ 
+ 
+• Desempenho operacional sustentado pelas Divisões de Madeira e Metais e Louças que contribuíram para o crescimento da receita 
+e expansão do EBITDA no período, compensando a retração em LD Celulose, em decorrência de menor preço da celulose solúvel 
+e variação cambial . A Divisão de Revestimentos Cerâmicos segue enfrentando cenário competitivo desafiador, apesar da leve 
+melhora em seus resultados no trimestre. 
+• Lucro Líquido impactado negativamente pela menor contribuição da joint venture de celulose solúvel, parcialmente compensado por 
+menores despesas gerais e administrativas, reflexo de iniciativas de eficiência. 
+• Alavancagem em queda, evidenciando avanço no processo de desalavancagem da companhia. 
+ 
+R$ milhões 2T25 
+(ajustado em 10.08.2026) 
+2T25 
+(divulgado em 11.08.2025) ∆ ∆% 
+Resultado Recorrente das empresas investidas 4.265 4.280 (15) -0,4% 
+Setor Não Financeiro 193 208 (15) -7,2% 
+Aegea Saneamento (21) (5) (16) -320,0% 
+Lucro antes do IR/CS 4.036 4.052 (16) -0,4% 
+Lucro Líquido Recorrente 4.021 4.037 (16) -0,4% 
+Lucro Líquido 4.050 4.066 (16) -0,4% 
+ROE Recorrente sobre PL médio (%) 18,3% 18,4% -0,1p.p. -0,1p.p. 
+R$ milhões 1S25 
+(ajustado em 10.08.2026) 
+1S25 
+(divulgado em 11.08.2025) ∆ ∆% 
+Resultado Recorrente das empresas investidas 8.404 8.455 (51) -0,6% 
+Setor Não Financeiro 452 503 (51) -10,1% 
+Aegea Saneamento (21) 30 (51) n.a. 
+Lucro antes do IR/CS 7.859 7.910 (51) -0,6% 
+Lucro Líquido Recorrente 7.862 7.913 (51) -0,6% 
+Lucro Líquido 7.929 7.980 (51) -0,6% 
+ROE sobre PL médio (%) 17,9% 18,0% -0,1 p.p. -0,1 p.p. 
+ROE Recorrente sobre PL médio (%) 17,8% 17,9% -0,1 p.p. -0,1 p.p.
+
+[p. 6]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+ 
+ 
+• Resultado positivamente impactado pelo crescimento d a receita, reflexo de maior volume de pares vendidos e elevação do ticket 
+médio por par no período , com melhor mix de produtos e de canais no Brasil , além da melhor performance das operações 
+internacionais. 
+• Avanço expressivo do EBITDA, impulsionado por melhor margem bruta e menores despesas nas operações. 
+• Expansão do lucro líquido refletindo melhor desempenho operacional. 
+• Geração de caixa consistente no período, com alavancagem em patamar adequado. 
+ 
+ 
+ 
+• Crescimento de receita impulsionad o principalmente pelo início da operação de novos ativos no portfólio , além dos reajustes 
+tarifários e sólido desempenho operacional, com crescimento de tráfego nas plataformas de rodovias e trilhos. 
+• Crescimento do EBITDA e Lucro Líquido, refletindo a otimização do portfólio e o bom desempenho dos novos ativos , além dos 
+reajustes tarifários, o aumento de tráfego e início das novas operações. 
+• Aumento no CAPEX direcionado a obras de ampliação de capacidade seguindo o cronograma de obras , com ligeiro aumento na 
+alavancagem em função da conquista de novos ativos. 
+ 
+ 
+• Receita e resultado operacionais impulsionados pelo maior volume faturado, reajustes tarifários contratuais e pelo início das novas 
+operações no Pará e Piauí, com forte expansão da margem EBITDA. 
+• Evolução do resultado operacional impulsionada principalmente pelo aumento da receita líquida e redução dos custos e despesas. 
+• Resultado líquido segue pressionado com o impacto d e maiores despesas financeiras em decorrência do nível de alavancagem e 
+da maior Selic média no período. 
+ 
+ 
+ 
+• Crescimento de EBITDA impulsionado pela efetividade da estratégia comercial, compensando a leve redução de volume no período. 
+• O CAPEX apresentou crescimento, principalmente em razão dos investimentos destinados à aquisição de vasilhames. 
+• Lucro Líquido impactado positivamente pelo melhor desempenho operacional, conforme descrito acima. 
+• A geração de caixa operacional e o menor patamar de dívida bruta contribuíram para a redução da alavancagem. 
+ 
+ 
+ 
+• Resultado operacional pressionado por reajustes negativos de contratos indexados ao IGP-M e impacto de vencimento de contrato. 
+• Lucro Líquido impactado negativamente pelo resultado operacional do período e aumento das despesas financeiras. 
+• CAPEX em expansão, como parte da sua estratégia de expansão da malha. 
+• Os resultados do investimento na NTS, registrado s como “ativo financeiro” em nosso balanço, foram impactados, em relação ao 
+ano anterior, pela variação negativa no valor justo do ativo no trimestre. 
+ 
+1.3. Resultado Próprio 
+ 
+As Despesas Administrativas totalizaram R$ 45 milhões, aumento de 7% em relação ao 2T25, refletindo principalmente maiores 
+encargos relacionados ao programa de incentivo de longo prazo (ILP), reflexo da valorização da ação ITSA4 no período , bem como a 
+entrada em vigor de novo programa de ILP . No 1S26, as despesas administrativas totalizaram R$ 89 milhões, aumento de 9% em 
+comparação ao mesmo período de 2025, em razão dos mesmos motivos da variação trimestral. 
+ 
+As Despesas Tributárias atingiram R$ 163 milhões no 2T26, aumento de 42% sobre o 2T25, devido à maior despesa de PIS e COFINS 
+incidentes sobre os Juros sobre Capital Próprio (JCP) declarados pelas investidas, principalmente pelo Itaú Unibanco, além de impacto 
+da reversão parcial da provisão de PIS e COFINS no 2T25 que havia sido constitu ída no 1T25. No 1S26, as despesas tributárias 
+totalizaram R$ 3 18 milhões, redução de 4% em relação ao mesmo período do ano anterior, em função de maior provisão de PIS e 
+COFINS sobre JCP a pagar pelo Itaú Unibanco no 1S25, o que não ocorreu no 1S26. 
+ 
+As contribuições ao Instituto Itaúsa totalizaram R$ 11 milhões no 2T26 e no 1S26 (vs. R$ 13 milhões no 2T25 e 1S25). No trimestre, 
+R$ 7 milhões foram destinados pelo Instituto a projetos relacionados a meio ambiente, R$ 3 milhões para produtividade e sustentabilidade 
+e R$ 1 milhão para despesas administrativas e tributárias.
+
+[p. 7]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+ 
+1.4. Resultado Financeiro 
+ 
+O Resultado Financeiro atingiu -R$ 62 milhões no 2T26, piora de 13% quando comparado ao mesmo período do ano anterior. O 
+desempenho decorre da menor receita financeira em relação ao 2T25, refletindo menor saldo médio do caixa no período decorrente de 
+saldo aplicado à redução do endividamento , compensado quase integralmente pela redução das despesas financeiras em função do 
+menor patamar de dívida. Essa melhora nas despesas financeiras é resultado das iniciativas de liability management (gestão de 
+passivos) implementadas, que reduziram a dívida bruta e seu custo médio mesmo com maior patamar de taxa de juros. 
+No 1S26, o resultado financeiro alcançou R$ 140 milhões, aumento de 17% em relação ao reportado no 1S25, explicado pelos mesmos 
+motivos da variação trimestral. 
+ 
+Evolução do Resultado Financeiro 2T25 vs. 2T26 Evolução do Resultado Financeiro 1S25 vs. 1S26 
+ 
+ 
+ 
+1.5. Lucro Líquido Recorrente 
+ 
+No 2T26, o Lucro Líquido Recorrente totalizou R$ 4. 306 milhões, aumento de 7% em relação ao 2T25, contribuindo para o 
+atingimento de um ROE Recorrente de 18,7% (aumento de 0,4 p.p.). O desempenho reflete principalmente o maior resultado recorrente 
+do Itaú Unibanco (+8,5% ou +R$ 350 milhões) e resultados crescentes da Motiva (+67% ou +R$ 28 milhões), da Alpargatas (+86% ou 
++R$ 25 milhões) e da Copa Energia (+17% ou +R$ 15 milhões), apesar da piora no resultado da NTS, Dexco e Aegea e do Resultado 
+Próprio da Itaúsa, impactado por maiores despesas tributárias. 
+ 
+No 1S26, o Lucro Líquido Recorrente foi de R$ 8. 797 milhões, 12% superior ao ano anterior devido ao maior resultado recorrente do 
+Itaú Unibanco (+9,6% ou +R$ 779 milhões) e do melhor resultado do setor não financeiro (+32% ou +R$ 143 milhões). 
+ 
+1.6. Efeitos Não Recorrentes 
+ 
+O Lucro Líquido do 2T26 foi afetado por eventos não recorrentes que totalizaram efeito positivo de R$ 938 milhões, explicado 
+principalmente pela receita extraordinária decorrente de êxito em processos judiciais e administrativos pela Itautec. No 1S26, os efeitos 
+não recorrentes totalizaram R$ 857 milhões, sendo os principais efeitos positivos na Itautec (+R$ 851 milhões) e na Motiva 
+(+R$ 78 milhões) por ganho de compra vantajosa na concessão Minas-SP (Fernão Dias), parcialmente compensados pelo efeito negativo 
+no Itaú Unibanco (-R$ 131 milhões) relativo a provisões extraordinárias. 
+ 
+R$ milhões 2T26 2T25 1S26 1S25 
+Lucro Líquido Recorrente 4.306 4.021 8.797 7.862 
+Total de itens não recorrentes 938 29 857 67 
+Resultado Próprio 14 (4) 23 (18) 
+Setor Financeiro (44) (18) (131) (33) 
+Itaú Unibanco (44) (18) (131) (33) 
+Setor Não Financeiro 968 51 965 117 
+Dexco (7) 3 (7) (6) 
+Alpargatas (4) (4) (7) (6) 
+Motiva 78 52 78 52 
+Aegea Saneamento - - - 79 
+Copa Energia 50 50 
+Itautec 851 - 851 - 
+Lucro Líquido 5.244 4.050 9.654 7.929 
+ 
+-55
+-66
+58 1
+-62
+Resultado
+Financeiro
+2T25
+Rentabilidade
+do Caixa
+Despesas
+com Dívidas
+Outros Resultado
+Financeiro
+2T26
+-120
+-117
+96 1
+-140
+Resultado
+Financeiro
+1S25
+Rentabilidade
+do Caixa
+Despesas
+com Dívidas
+Outros Resultado
+Financeiro
+1S26
+
+[p. 8]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+2. Composição do Capital e Endividamento 
+ 
+A estratégia de liability management (gestão de passivos) , iniciada no 4º trimestre de 2022, contribuiu de forma consistente para a 
+redução do endividamento , do custo médio e do serviço da dívida, bem como para o alongamento do prazo médio da dívida e a 
+diminuição da concentração de amortização. Adicionalmente, essa estratégia assegurou a preservação dos níveis de liquidez e mitigou 
+riscos de refinanciamento ao longo do período. 
+ 
+A dívida líquida encerrou o 2T26 em R$ 1,2 bilhão, aumento de R$ 0,6 bilhão em relação ao 2T25, refletindo principalmente a redução 
+do saldo de caixa no período (-50% vs. 2T25). Esse movimento decorre, sobretudo, da amortização de R$ 2,5 bilhões de dívida e do 
+aporte de capital realizado na Aegea no 1T26. 
+ 
+Em decorrência das iniciativas de gestão de passivos implementadas pela companhia, o prazo médio da dívida atingiu 6,7 anos ao final 
+do trimestre, enquanto o custo médio atingiu CDI+1,11%. O índice de cobertura de juros alcançou 2 3,1x no período, evidenciando a 
+solidez da estrutura de capital da holding. 
+ 
+2.1. Perfil da Dívida e Indicadores de Alavancagem 
+ 
+Dívida Líquida1 (R$ bilhões) Prazo Médio¹ (anos) Custo Médio¹ (CDI+) 
+ 
+ 
+ 
+ 
+(1) Proforma 2T25 (após pré-pagamento da 4ª emissão de debêntures) e 
+proforma 4T25 (considera o recebimento dos proventos do Itaú em 
+06.03.2026). 
+(1) Proforma 2T25 (após pré-pagamento da 4ª emissão de debêntures). (1) Proforma 2T25 (após pré-pagamento da 4ª emissão de debêntures). 
+ 
+ 
+Endividamento 
+(Dívida Bruta1/Proventos UDM) 
+Alavancagem 
+(Dívida Líquida1/NAV) 
+Cobertura de Juros 
+(Proventos/Despesas de Juros UDM) 
+ 
+ 
+ 
+(1) Proforma 2T25 (após pré-pagamento da 4ª emissão de debêntures). (1) Dívida Financeira (não considera passivos tributários contabilizados). 
+Proforma 2T25 (após pré -pagamento da 4ª emissão de debêntures) e 
+proforma 4T25 (considera o recebimento dos proventos do Itaú em 
+06.03.2026). 
+(1) Proforma 2T25 (após pré-pagamento da 4ª emissão de debêntures). 
+ 
+ 
+0.6 0.7
+0.3
+1.0 1.2
+2T25 3T25 4T25 1T26 2T26
+6.5
+7.4 7.1 6.9 6.7
+2T25 3T25 4T25 1T26 2T26
+1.37%
+1.11% 1.11% 1.11% 1.11%
+2T25 3T25 4T25 1T26 2T26
+0.5x
+0.3x
+0.2x
+0.3x 0.3x
+2T25 3T25 4T25 1T26 2T26
+0.4% 0.4%
+0.2%
+0.5%
+0.6%
+2T25 3T25 4T25 1T26 2T26
+0.7 0.7 0.6 0.6 0.6
+14.3x 14.9x
+29.2x
+21.0x 23.1x
+-15.0x
+-10.0x
+-5.0x
+0.0x
+5.0x
+10.0x
+15.0x
+20.0x
+25.0x
+30.0x
+35.0x
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+2T25 3T25 4T25 1T26 2T26
+Serviço da Dívida (R$ bilhões) Indicador
+▲99% 
+ ▼0,26 p.p. 
+▲0,2 anos
+
+[p. 9]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+2.2. Caixa e Cronograma de Amortização1 
+ 
+Encerramos o trimestre com uma posição confortável de caixa de R$ 2.191 milhões, aliada a um cronograma de amortização da dívida 
+bastante saudável. Como resultado das iniciativas de gestão de passivos implementadas pela companhia nos últimos anos, não há 
+vencimento de principal da dívida até 2028, mitigando quaisquer riscos de liquidez e de refinanciamento. 
+ 
+(R$ milhões) 
+ 
+(1) Não considera eventual pagamento de passivos tributários contabilizados. 
+ 
+2.3. Fluxo de Caixa 
+ 
+Encerramos o 2T26 com saldo de caixa de R$ 2.191 milhões, aumento de R$ 355 milhões em relação a 31.12.2025. A variação positiva 
+decorreu principalmente do recebimento de proventos das investidas (+R$ 1.798 milhões). No trimestre, houve também consumo de 
+caixa com o pagamento de proventos aos acionistas (-R$ 640 milhões), o aporte de capital na Aegea, a compra de ações da Alpargatas 
+e outros investimentos ocorridos (-R$ 500 milhões), além de impostos, recompra de ações e juros (-R$ 325 milhões). 
+ 
+(R$ milhões) 
+ 
+(1) Considera receita oriunda da rentabilidade do caixa e as despesas gerais e administrativas, entre outros. 
+ 
+ 
+ 
+3. Remuneração aos Acionistas 
+ 
+3.1. Fluxo de Proventos por competência do período 
+ 
+Os proventos (líquidos) declarados pelas investidas à Itaúsa relativos ao exercício de 2026 totalizaram R$ 2.848 milhões, sendo 
+R$ 2.797 milhões do Itaú Unibanco. 
+ 
+No 1S26, a Itaúsa declarou aos seus acionistas proventos (líquidos) de R$ 2.797 milhões. A nossa prática de distribuição de proventos 
+tem sido, até o momento, repassar integralmente os proventos recebidos do Itaú Unibanco relativos a cada exercício social. 
+ 
+ 
+2,191 
+- - - 244 122 122 
+765 765 765 
+250 
+Caixa em
+30.06.2026
+2026 2027 2028 2029 2030 2031 2032 2033 2034 2036
+1836.0 
+1568.0 230.0 20.0 
+-640.0 
+-500.0 -197.0 -65.0 -63.0 
+2191.0 
+Caixa em
+31.12.2025
+Proventos
+Setor Financeiro
+Proventos Setor
+Não Financeiro
+Outras Receitas
+e Despesas¹
+Proventos
+Pagos
+Investimentos Impostos Recompra
+de Ações
+Juros Caixa em
+30.06.2026
+
+[p. 10]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+Fluxo de Proventos - Visão Competência (R$ milhões) 1S26 1S25 Δ% 
+Total de proventos líquidos recebidos e a receber das investidas 2.848 2.758 3% 
+Itaú Unibanco 2.797 2.725 3% 
+Setor não financeiro1 51 32 59% 
+Dexco - - n.a. 
+Alpargatas - - n.a. 
+Motiva - - n.a. 
+Aegea Saneamento - - n.a. 
+Copa Energia 51 32 59% 
+NTS - - n.a. 
+Itautec - - n.a. 
+ 
+Total de proventos líquidos pagos e a pagar pela Itaúsa2 2.797 2.725 3% 
+(1) Conforme nota explicativa nº 8. | (2) Conforme nota explicativa nº 17.5.1. 
+ 
+ 
+3.2. Proventos declarados e dividend yield 
+ 
+Os acionistas posicionados na base acionária da Itaúsa nos últimos 12 meses findos em 3 0.06.2026 fizeram jus ao recebimento de 
+R$ 14,7 bilhões (R$ 13,7 bilhões líquidos) em proventos declarados. Esse valor corresponde a R$ 1,1470 (bruto) por ação que, quando 
+dividido pelo preço da ação preferencial em 3 0.06.2026, resulta em um dividend yield de 9,8%, um dos maiores dentre as ações 
+negociadas na B3. 
+ 
+ 
+(1) Considera os proventos ajustados pelos eventos corporativos. | (2) Payout = Proventos (líquidos) pagos e a pagar (base competência) / Lucro Líquido deduzido da reserva legal de 5%. | (3) Conforme 
+convenção de mercado, o Dividend Yield é referente aos últimos 12 meses e é calculado sobre os proventos brutos ajustados pela subscrição e bonificação em ações. Referem-se aos Dividend Yields de 
+fev/25 e dez/25, além dos períodos de jun/25 e jun/26. | (4) Considera apenas os proventos do exercício social de 2025 sobre o valor da ação preferencial da Itaúsa em 30.12.2025. 
+ 
+Acesse o histórico completo de proventos em: https://ri.itausa.com.br/informacoes-financeiras/remuneracao-aos-acionistas/.
+
+[p. 11]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+4. Retorno aos Acionistas 
+ 
+Entre 30.06.2025 e 30.06.2026, o retorno total ao nosso acionista (TSR) apresentou crescimento de 39,2%, acima do retorno d e 
+benchmarks de mercado como: Ibovespa (+23,9%), CDI (+14,8%) e dólar (-5,1%). Em todos os períodos analisados, o retorno total ao 
+nosso acionista supera indicadores de mercado, evidenciando a nossa capacidade de criação de valor de forma consistente ao longo 
+do tempo pela Companhia. 
+Valorização anual média . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Para mais informações sobre a Itaúsa n o mercado de capitais , acesse nossa apresentação institucional em: 
+https://ri.itausa.com.br/informacoes-financeiras/apresentacoes/. 
+ 
+5. Valor de Mercado do Portfólio 
+ 
+O valor de mercado da Itaúsa em 30.06.2026, considerando o preço da ação mais líquida (ITSA4), totalizava R$ 150,0 bilhões. Já a 
+soma do valor de mercado das participações nas empresas investidas alcançava R$ 189,4 bilhões na mesma data, resultando em um 
+desconto de holding de 20,8%. 
+ 
+Parte desse desconto é justificado pel as despesas recorrentes da holding, principalmente as despesas tributárias relacionadas à 
+incidência de PIS e COFINS sobre os Juros sobre Capital Próprio (JCP) recebidos, além de despesas administrativas e financeiras. 
+Nesse contexto, destaca -se a reforma tributária aprovada em janeiro de 2025, que eliminará essa tributação incidente sobre o JCP 
+recebido a partir de janeiro de 2027, extinguindo a ineficiência fiscal estrutural da Itaúsa. 
+ 
+Essa ineficiência totalizou R$ 234 milhões no 2T26 e R$ 458 milhões no 1S26, refletindo tanto as despesas de PIS e COFINS sobre 
+os JCPs recebidos diretamente pela holding quanto aquelas incorridas pela IUPAR, que impactam nossos resultados por meio de 
+equivalência patrimonial. Além disso, a Copa Energia está avaliada pelo seu valor contáb il, havendo um descolamento relevante em 
+relação ao seu valor justo estimado, o que contribui para o aumento do desconto implícito. 
+ 
+Diante desse contexto, entendemos que o nível atual de desconto é superior ao patamar que consideramos justo e não reflete 
+adequadamente os fundamentos da nossa estratégia de alocação eficiente de capital, bem como a qualidade e o desempenho do nosso 
+portfólio de investimentos, representando um upside importante para nossos acionistas. 
+ 
+(R$ milhões) 
+ 
+Nota: Considera as cotações de fechamento do último dia útil do período ( 30.06.2026) das ações mais líquidas do Itaú Unibanco (ITUB4), Dexco (DXCO3), Alpargatas (ALPA4), Motiva (MOTV3) e Itaúsa 
+(ITSA4), para Aegea considera às ações ordinárias detidas pela Itaúsa ao preço de R$ 55,29 por ação adotado no aumento de capital realizado de mar/26 (totalizando R$ 4.549 milhões) e as ações 
+preferenciais detidas pela Itaúsa a valor contábil em 3 0.06.2026 (R$ 828 milhões), para Copa Energia considera o valor do investimento contabilizado em 3 0.06.2026, para NTS considera o valor justo 
+contabilizado em 30.06.2026, além os demais ativos e passivos refletidos no balanço individual da Itaúsa em 30.06.2026. 
+Para obter mais informações, como o histórico e o informativo mensal de desconto, acesse: https://ri.itausa.com.br/informacoes-
+financeiras/valor-do-portfolio-e-desconto/. 
+Desconto 
+20,8% 
+139.2
+123.9
+114.8
+94.9
+jun-25 set-25 dez-25 mar-26 jun-26
+ITSA4 IBOV CDI Acumulado Dólar
+
+[p. 12]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+6. Anexos 
+ 
+6.1. Desempenho financeiro das investidas 
+ 
+Por meio dos órgãos de governança das investidas, onde temos representantes da Itaúsa, participamos do direcionamento estratégico 
+e financeiro das empresas do nosso portfólio, promovendo uma cultura de governança sólida, conduta ética e valorização do capital 
+humano. Nossa atuação também prioriza a disciplina na alocação de capital e a criação de valor sustentável no longo prazo. 
+ 
+Estrutura Acionária 
+ 
+Nota: Os percentuais apresentados refletem a participação direta e indireta da Itaúsa nas empresas investidas, considerando o total de ações emitidas excluídas aquelas mantidas em tesouraria, quando 
+aplicável. 
+ 
+ 
+Desempenho do Setor Financeiro 
+ 
+ 
+ 
+Eventos recentes: 
+• Juros sobre o Capital Próprio (JCP): os pagamentos de JCPs anunciados em fevereiro e maio com posição acionária em 
+19.03.2026 e 18.06.2026, nos respectivos valores de R$ 3,85 bilhões (R$ 0,34888 bruto por ação e R$ 0,287826 líquido por ação) 
+e R$ 3,99 bilhões (R$ 0,36188 bruto por ação e R$ 0,298551 líquido por ação), serão pagos em 28.08.2026. 
+• Letras Financeiras Subordinadas Perpétuas: em junho, foram realizadas emissões de Letras Financeiras Subordinadas 
+Perpétuas no montante de R$ 3 bilhões, contribuindo para o Capital Complementar do Patrimônio de Referência do Itaú Unibanco, 
+com impacto de 0,19 p.p. no índice de capitalização Nível 1. 
+• Recompra de Letras Financeiras Subordinadas Nível 1: em julho, o Itaú anunciou o exercício da opção de recompra da totalidade 
+das Letras Financeiras Subordinadas Nível 1 perpétuas emitidas em 2019, no valor de R$ 1,4 bilhão, com impacto estimado de 
+0,1 p.p. no índice de capitalização Nível 1. 
+• Contrato de processamento da folha de pagamento do Estado de Minas Gerais: em julho, o Itaú Unibanco venceu a licitação 
+para prestação de serviços de pagamento a aproximadamente 670 mil servidores estaduais e fornecedores do Estado de Minas 
+Gerais. O contrato possui vigência de cinco anos a partir de dezembro de 2026 e prevê pagamento de R$ 2,188 bilhões.
+
+[p. 13]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+Dados Financeiros e Operacionais (em IFRS) 
+(R$ milhões, exceto onde indicado) 2T26 2T25 Δ 1S26 1S25 Δ 
+Produto Bancário1 48.391 41.309 17,1% 93.386 88.145 5,9% 
+Receita Financeira Líquida1,2 33.258 30.319 9,7% 62.928 62.561 0,6% 
+Receitas de Prestação de Serviços e Tarifas Bancárias 12.062 11.071 9,0% 24.012 22.704 5,8% 
+Resultado de Contratos de Seguro e Previdência Privada3 2.456 2.298 6,9% 4.790 4.301 11,4% 
+Perdas de Crédito Esperadas de Ativos Financeiros (9.394) (7.831) 20,0% (18.397) (17.389) 5,8% 
+Despesas Gerais e Administrativas (20.316) (19.393) 4,8% (40.906) (39.387) 3,9% 
+Lucro Líquido4 11.979 11.137 7,6% 23.615 21.644 9,1% 
+Lucro Líquido Recorrente4 12.096 11.187 8,1% 23.964 21.733 10,3% 
+ROE (anualizado) 22,4% 21,7% 0,7 p.p. 22,4% 20,9% 1,5 p.p. 
+ROE Recorrente (anualizado) 22,6% 21,8% 0,8 p.p. 22,8% 21,0% 1,7 p.p. 
+Patrimônio Líquido4 217.779 208.547 4,4% 217.779 208.547 4,4% 
+Carteira de Crédito5 1.522.276 1.388.715 9,6% 1.522.276 1.388.715 9,6% 
+Índice de Capital Nível I6 13,8% 14,6% -0,8 p.p. 13,8% 14,6% -0,8 p.p. 
+(1) Para melhor comparabilidade, foram reclassificados os efeitos fiscais dos ajustes gerenciais. | (2) Soma das (i) Receitas de Juros e Similares, (ii) Despesas de Juros e Similares, (iii) Resultado de Ativos 
+e Passivos Financeiros ao Valor Justo por meio do Resultado, e (iv ) Resultado de Operações de Câmbio e Variação Cambial de Transações no Exterior. | (3) Resultados de Contratos de Seguros e 
+Previdência Privada, líquidos de Resseguros. | (4) Atribuível aos Acionistas Controladores. | (5) Carteira de Crédito com Gar antias Financeiras Prestadas e Títulos Privados. | (6) Considerando Capital 
+Complementar Nível 1 (AT1) limitado a 1,5%, conforme Res. CMN Nº 4.958. Não fosse esse limite, o índice de Capital Nível 1 seria 14,0% e 15,0% em jun/26 e jun/25, respectivamente. 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Carteira de Crédito: aumento de 9,6%, impulsionado pelo crescimento sustentável no Brasil (7,8% em pessoas físicas e 10,7% em 
+pessoas jurídicas), além do aumento de 9,8% na América Latina, mantendo trajetória de qualidade na originação. 
+• Receita Financeira Líquida: aumento de 9,7%, está relacionado principalmente ao aumento da carteira de crédito e de títulos e 
+valores mobiliários. 
+• Receita de Prestação de Serviços e Tarifas Bancárias: alta de 9,0% principalmente em função de maiores receitas relacionadas 
+a banco de investimentos e cartões de crédito e débito. 
+• Resultados de Contratos de Seguros e Previdência Privada: aumento de 6,9% em função do aumento do volume de vendas 
+dos produtos de prestamista. 
+• Perda Esperada de Ativos Financeiros: aumento de 20,0% devido a maior perda de crédito esperada com demais ativos 
+financeiros, relacionada com o aumento da carteira de crédito e de títulos e valores mobiliários. 
+• Despesas gerais e administrativas: aumento de 4,8% relacionado principalmente aos efeitos da negociação do acordo coletivo 
+de trabalho, com reajuste de 5,68% sobre salários a partir de set/25. 
+• Índice de Capital Nível I: 13,8% em junho, acima do mínimo exigido pelo Banco Central do Brasil (9,6%), sustentado pela geração 
+orgânica de capital e por uma política prudente de gestão de recursos. 
+• Índice de Eficiência: 37,4% no consolidado e 35,5% no Brasil, com base no modelo gerencial em BRGAAP , refletindo ganhos de 
+produtividade e a captura contínua de eficiência decorrente dos investimentos em tecnologia realizados nos últimos anos. 
+ 
+ 
+Desempenho do Setor Não Financeiro 
+ 
+Empresas de Capital Aberto 
+ 
+ 
+ 
+Eventos recentes: 
+• Otimização da estrutura industrial em Revestimentos Cerâmicos: em maio, a Dexco anunciou a concentração das operações 
+industriais de Revestimentos Cerâmicos nas unidades de Criciúma (SC) e Botucatu (SP), com o encerramento da planta de 
+Urussanga (SC), como parte de seu plano contínuo de aumento da eficiência e rentabilização dos ativos. 
+• Alienação da unidade de Urussanga (SC): em agosto, a Dexco anunciou a celebração de contrato para a venda da unidade 
+industrial de Urussanga (SC) por R$ 170 milhões, com recebimento previsto para 2026.
+
+[p. 14]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+Dados Financeiros e Operacionais 
+(R$ milhões, exceto onde indicado) 2T26 2T25 Δ 1S26 1S25 Δ 
+Receita Líquida 2.232 2.122 5,2% 4.250 4.024 5,6% 
+Divisão Madeira 1.570 1.432 9,6% 2.962 2.719 8,9% 
+Divisão Metais e Louças 471 474 -0,6% 926 890 4,0% 
+Divisão Revestimentos Cerâmicos 190 215 -11,5% 362 415 -12,7% 
+EBITDA Ajustado e Recorrente¹ 576 536 7,4% 1.135 1.007 12,6% 
+Lucro Líquido² (13) 32 -140,8% 40 78 -48,0% 
+Lucro Líquido Recorrente2 6 23 -74,1% 59 94 -37,0% 
+ROE² -0,7% 1,9% -2,6 p.p. 1,2% 2,3% -1,1 p.p. 
+ROE Recorrente² 0,3% 1,4% -1,0 p.p. 1,7% 2,7% -1,0 p.p. 
+CAPEX³ 285 312 -8,7% 481 634 -24,1% 
+Dívida Líquida/EBITDA Ajustado e Recorrente4 UDM 2,7x 3,4x -0,7x 2,7x 3,4x -0,7x 
+(1) Considera a equivalência patrimonial da operação de celulose solúvel (LD Celulose). | (2) Atribuível aos acionistas controladores e incluindo efeitos da operação de celulose solúvel (LD Celulose). | (3) 
+Considera capex de manutenção, expansão e projetos. | (4) Não considera a Dívida Líquida e o EBITDA da operação de celulose solúvel (LD Celulose). 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Receita Líquida: crescimento de 5,2%, sustentado pelo desempenho da Divisão Madeira, parcialmente compensado pela leve 
+retração em Metais e Louças e redução em Revestimentos Cerâmicos. 
+o Divisão Madeira: crescimento de 9,6%, impulsionado pelo aumento de volumes e pelo repasse de preços, e m um mercado 
+interno aquecido no período. Contribuíram também as receitas de operações de trading florestal, atividade recorrente da divisão. 
+o Divisão de Metais e Louças: retração de 0,6%, com a redução dos volumes expedidos sendo praticamente compensada pela 
+evolução da receita líquida unitária, decorrente de reajustes de preços e de um mix de vendas mais favorável. 
+o Divisão de Revestimentos Cerâmicos: redução de 11,5%, refletindo principalmente preços e mix menos favoráveis. O 
+ambiente segue desafiador, com o mercado em retração, estoques elevados e capacidade ociosa elevada na indústria, o que 
+mantém o setor mais competitivo e sensível a preço. 
+• EBITDA Ajustado e Recorrente: crescimento de 7,4%, atingindo R$ 576 milhões. O resultado foi impulsionado pela Divisão 
+Madeira, que combinou maiores volumes, captura dos reajustes de preços e eficiência operacional, e pela recuperação de Metais 
+e Louças, beneficiada por captura de preço, melhor mix e aumento de produtividade. Revestimentos Cerâmicos também apresentou 
+EBITDA Ajustado e Recorrente positivo, com leve evolução na comparação anual, apesar do ambiente de mercado ainda desafiador. 
+• Lucro Líquido Recorrente: redução de 74,1%, alcançando R$ 6 milhões no 2T26, ante R$ 23 milhões no 2T25. A retração reflete 
+principalmente a menor contribuição da joint venture de celulose solúvel, impactada pela redução dos preços internacionais da 
+DWP. Esses efeitos mais do que compensaram a evolução do desempenho operacional das Divisões Madeira e Metais e Louças. 
+• Celulose Solúvel (DWP): Receita Líquida de R$ 71 5 milhões ( -18,3%) e EBITDA Ajustado e Recorrente de R$ 33 9 milhões 
+(-36,0%), com redução da margem para 47,4%, ante 60,5% no 2T25, considerando 100% da operação. Apesar da estabilidade dos 
+volumes expedidos no período, os resultados foram impactados principalmente pela redução do preço da celulose solúvel no 
+mercado internacional e pelos efeitos cambiais. 
+• Dívida Líquida/EBITDA Ajustado e Recorrente: A importante geração de EBITDA do trimestre contribuiu para a redução da 
+alavancagem financeira da Dexco, que atingiu 2,7x no 2T26, ante 3,4x no 2T25. O resultado evidencia a continuidade do processo 
+de desalavancagem da companhia, mesmo diante de um ambiente de taxas de juros ainda elevadas.
+
+[p. 15]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+ 
+ 
+Eventos recentes: 
+• Pagamento de Juros sobre o Capital Próprio (JCP): pagamento em 15.05.2026 de R$ 106 milhões (brutos) em JCP. 
+ 
+Dados Financeiros e Operacionais 
+(R$ milhões, exceto onde indicado) 2T26 2T25 Δ 1S26 1S25 Δ 
+Volume (mil pares/peças)1 53.256 48.847 9,0% 114.737 105.574 8,7% 
+Brasil 45.557 41.967 8,6% 100.410 92.922 8,1% 
+Internacional 7.699 6.880 11,9% 14.327 12.651 13,2% 
+Receita Líquida 1.226 1.101 11,3% 2.456 2.194 11,9% 
+EBITDA Recorrente 286 193 48,5% 586 399 46,9% 
+Margem EBITDA Recorrente 23,3% 17,5% 5,8 p.p. 23,8% 18,2% 5,7 p.p. 
+Lucro Líquido2 170 88 93,0% 332 200 66,3% 
+Lucro Líquido Recorrente3 182 101 80,2% 354 221 60,4% 
+ROE (anualizado)2 19,2% 8,6% 10,6 p.p. 19,2% 9,8% 9,4 p.p. 
+ROE Recorrente (anualizado)3 20,5% 9,9% 10,7 p.p. 20,4% 10,9% 9,5 p.p. 
+CAPEX 54 55 -2,4% 82 82 0,5% 
+Dívida Líquida/EBITDA UDM 0,5x -0,3x 0,8x 0,5x -0,3x 0,8x 
+(1) Considera somente operações Havaianas. | (2) Atribuível aos acionistas controladores. | (3) Atribuível aos acionistas controladores e de operações continuadas. 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Receita Líquida: crescimento de 11,3%, resultado do aumento de 9,0% no volume total de pares vendidos e da elevação de 2,2% 
+no ticket médio por par. No mercado brasileiro, o ticket médio avançou 7,5%, impulsionado por melhor mix de produtos e de canais. 
+No mercado internacional, o volume apresentou crescimento de 11,9% (+20,9% na Europa e +12,1% nos Mercados Distribuidores, 
+com impacto negativo de Estados Unidos de -30%, explicado pela alteração de modelo de negócio e, consequentemente, de 
+sazonalidade de vendas). O Mercado de Distribuidores segue impactado pelos conflitos no Oriente Médio , compensado por bom 
+desempenho em Ásia e LATAM. 
+• EBITDA Recorrente: aumento de 4 8,5% devido à melhor margem bruta em ambas as operações e redução de despesas 
+(principalmente na operação internacional que continua com a trajetória de ganhos de eficiência). 
+• Lucro Líquido: aumento de 93% em função de maior receita e margem bruta , além de menores despesas na operação 
+internacional. 
+• CAPEX: em linha com mesmo período do ano anterior, mantendo o indicador de CAPEX/Receita sob controle, totalizando 4,4%. 
+• Posição de Caixa: a geração de caixa totalizou R$ 74 milhões no 2T26 (R$ 463 milhões nos últimos 12 meses), com nível de 
+alavancagem financeira de 0,5x Dívida L íquida/EBITDA, patamar saudável e coerente com a estratégia de estrutura de capital da 
+companhia. 
+ 
+ 
+ 
+ 
+Eventos recentes: 
+• Início da operação da Minas_SP (Fernão Dias): em abril, houve a assinatura do Contrato de Compra e Venda de ações da Minas-
+SP (Fernão Dias) e o respectivo início da operação. 
+• Termo Aditivo Minas-SP (Fernão Dias): em maio, foi assinado o Termo Aditivo de Modernização da concessão da Rodovia Fernão 
+Dias, que prevê um novo ciclo de investimentos voltados à ampliação da capacidade e elevação dos padrões de qualidade e 
+segurança da rodovia, além de ampliar o prazo de concessão em 15 anos. 
+• Termo Aditivo Renovias: em julho, foi celebrado novo Termo Aditivo que estendeu o prazo da concessão até outubro de 2026, 
+assegurando a continuidade da prestação dos serviços até a transferência da operação ao novo concessionário.
+
+[p. 16]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+Dados Financeiros e Operacionais 
+Consolidado com Controladas em Conjunto 
+(R$ milhões, exceto onde indicado) 
+2T26 2T25 Δ 1S26 1S25 Δ 
+Receita Líquida Ajustada (sem construção)¹ 3.737 3.100 20,5% 7.164 6.339 13,0% 
+Receita Líquida (sem construção) 3.737 3.100 20,5% 7.164 6.339 13,0% 
+Rodovias 2.641 2.092 26,2% 5.087 4.337 17,3% 
+Trilhos 1.096 1002 9,4% 2.081 1.999 4,1% 
+Outros² 0 6 n.a. (4) 3 n.a. 
+EBITDA Ajustado e Recorrente1 2.445 1.894 29,1% 4.748 4.010 18,4% 
+Margem EBITDA Ajustado e Recorrente1 65,4% 61,1% 4,3 p.p. 66,3% 63,3% 3,0 p.p. 
+Lucro Líquido3 1.413 897 57,5% 2.040 1.442 41,5% 
+Lucro Líquido Recorrente3 663 397 67,0% 1.290 937 37,7% 
+ROE Recorrente (anualizado)3 15,6% 10,3% 5,3 p.p. 15,4% 13,4% 2,0 p.p. 
+CAPEX 1.830 1.620 13,0% 3.309 2.837 16,6% 
+Dívida Líquida/EBITDA Ajustado UDM 3,6x 3,5x 0,1x 3,6x 3,5x 0,1x 
+(1) Desconsidera os efeitos não recorrentes. Não considera a Plataforma de Aeroportos. | (2) Inclui holdings e CSC. | (3) Atribuível aos acionistas controladores. 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Receita Líquida Ajustada (sem construção): crescimento de 20, 5% no 2T26, impulsionado pelo início das operações da 
+Minas_SP e trimestre integral da Paraná, início dos pórticos na RioSP e Sorocabana, reajustes tarifários, além do sólido 
+desempenho operacional. 
+• Desempenho do tráfego: em bases comparáveis, houve crescimento em todas as plataformas. 
+• Rodovias: aumento de 3,7% no tráfego comparável de veículos equivalentes, sendo que veículos leves cresceram 5,0% sustentado 
+pelas concessões turísticas e pelo tráfego sazonal durante os feriados. Veículos pesados cresceram 2,9%, reflexo do crescimen to 
+da economia e produção industrial. 
+• Trilhos: crescimento de 1,8% no tráfego comparável, devido à maior demanda nas unidades de São Paulo (ViaQuatro e Via 
+Mobilidade), sobretudo em função da conclusão da reforma da estação Santo Amaro e início da operação da estação Varginha. 
+• EBITDA Ajustado e Recorrente: aumento de 29,1% com expansão de 4,3p.p. na margem, sobretudo em função da otimização do 
+portfólio e bom desempenho dos novos ativos, com destaque para o trimestre completo da Paraná e início da Minas_SP. 
+• Lucro Líquido Recorrente: aumento de 67,0%, reflexo do melhor desempenho operacional, dos reajustes tarifários, otimização do 
+portfólio e início das novas operações. 
+• CAPEX: aumento de 13,0%, impulsionado por: (i) obras de ampliação na RioSP, (ii) recuperação de pavimento e duplicações na 
+Pantanal, (iii) intervenções nas pistas e marginais e duplicações na ViaSul e (iv) restaurações de pavimento na Paraná. 
+• Dívida Líquida/EBITDA Ajustado: aumento de 0,1x em função do maior nível de endividamento da companhia após a conquista 
+de novos ativos no período, cuja contribuição de EBITDA acontecerá gradativamente conforme a evolução da operação desses 
+ativos. 
+ 
+ 
+Empresas de Capital Fechado 
+ 
+ 
+ 
+Eventos recentes: 
+• Liability Management: captação de R$ 1,7 bilhão em novas operações de longo prazo no 2T26, que reforçam a diversificação de 
+fontes de recursos e contribuem para o alongamento do perfil de endividamento da Companhia, elevando para R$ 5,6 bilhões o 
+total de captações contratadas no ano, dos quais R$ 5,0 bilhões já foram desembolsados. 
+• Plano de ação (fortalecimento da governança e gestão de capital): avanços no fortalecimento da governança financeira, com 
+melhorias nos controles internos, fechamento contábil e estruturação das áreas financeira e de governança . As iniciativas de 
+otimização anunciadas no 1T26 seguem em execução: já foram capturados cerca de R$ 352 milhões em reduções de custos e 
+despesas (meta anualizada de R$ 750 milhões) e diferidos aproximadamente R$ 500 milhões em investimentos previstos para 
+2026, com priorização de projetos ligados à expansão dos serviços e à geração de receita. O objetivo é reforçar a disciplina na 
+alocação de capital, preservar a capacidade de investimento e acelerar a desalavancagem. 
+• Posição de caixa: R$ 8,8 bilhões em posição de caixa na Aegea, montante 2 ,5 vezes superior às amortizações de curto prazo. 
+Considerando Águas do Rio, a posição de caixa é R$ 12,4 bilhões, montante 3,5 vezes superior às amortizações de curto prazo. 
+• Aumento de Capital: em agosto, foi aprovado o aumento de capital de R$ 2,1 bilhões, com o objetivo de reforçar a estrutura de 
+capital da companhia e acelerar seu processo de desalavancagem.
+
+[p. 17]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+• Ajustes contábeis: a Aegea divulgou suas Demonstrações Contábeis auditadas referentes ao exercício social encerrado em 
+31.12.2025, nas quais foram refletidos ajustes contábeis decorrentes de revisões de políticas contábeis e reavaliações de 
+estimativas que demandaram a reapresentaç ão de exercícios anteriores. Na tabela abaixo, as informações do 2T25 e 1S25 já 
+consideram os ajustes contábeis. 
+ 
+Dados Financeiros e Operacionais 
+(R$ milhões, exceto onde indicado) 2T26 2T257 Δ 1S26 1S257 Δ 
+Volume faturado (m³ milhões) 385 298 29,1% 777 604 28,7% 
+Receita Líquida1 3.198 2.776 15,2% 6.470 5.611 15,3% 
+EBITDA Recorrente (Consolidado)2 2.037 1.400 45,4% 4.296 2.895 48,4% 
+Margem EBITDA Recorrente2 63,7% 50,4% 13,2 p.p. 66,4% 51,6% 14,8 p.p. 
+Lucro (Prejuízo) Líquido (Controlador)3 (222) (285) 22,0% (274) 301 n.a. 
+Lucro (Prejuízo) Líquido Recorrente4 (Consolidado) (46) (87) -47,1% 43 24 80,3% 
+CAPEX5 1.480 1.218 21,5% 2.744 2.230 23,1% 
+Dívida Líquida/EBITDA UDM (covenant)6 3,87x 3,01x 0,86x 3,87x 3,01x 0,86x 
+(1) Receita operacional líquida deduzida das receitas de construção sem efeito-caixa (ICPC 01). | (2) Inclui a receita e o custo de construção sem efeito caixa (ICPC 01) e o crédito de PIS/COFINS no valor 
+de R$ 591 milhões no 1S25 | (3) Atribuível aos acionistas controladores. | (4) Exclui o crédito de PIS/COFINS e a correção monetária da Corsan, líquidos de impostos, no valor de R$ 588 milhões no 1S25 
+| (5) Não inclui outorgas pagas | (6) Para fins de cálculo de covenant são considerados 12 meses de resultados da Regenera Rio, que foi adquirida pela Aegea em dezembro de 2025 | (7) Os valores do 
+2T25 e 1S25 foram reapresentados para refletir os ajustes contábeis decorrentes da revisão de políticas contábeis e da reavaliação de estimativas, que resultaram na reapresentação das demonstrações 
+financeiras de exercícios anteriores. 
+Nota: A tabela acima apresenta as informações da Aegea Saneamento em base societária, ou seja, com os resultados da Águas do Rio reconhecidos por equivalência patrimonial. 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Receita Líquida: crescimento de 15,2%, devido principalmente ao aumento do volume faturado, aos reajustes tarifários e ao início 
+das novas operações no Pará e Piauí. 
+• EBITDA: aumento de 45,4%, impulsionado principalmente pelo crescimento da Receita Líquida, com expansão de 13,2 pontos 
+percentuais da margem EBITDA. 
+• Lucro Líquido (Controlador): melhora de R$ 63 milhões no resultado líquido atribuído aos acionistas controladores, devido 
+principalmente ao aumento da receita líquida e à redução dos custos e despesas. 
+• CAPEX: aumento de 21,5%, devido principalmente ao início das concessões do Pará e Piauí e à ampliação da cobertura de esgoto 
+nas operações. 
+• Águas do Rio: no 2T26, registrou Receita Líquida de R$ 1,6 bilhão, um crescimento de 1 1% em relação ao 2T25, e EBITDA de 
+R$ 679,3 milhões, um aumento de 84%, devido ao reajuste tarifário, ao crescimento do volume faturado e à redução nos custos e 
+despesas. 
+ 
+ 
+ 
+ 
+Dados Financeiros e Operacionais¹ 
+(R$ milhões, exceto onde indicado) 2T26 2T25 Δ 1S26 1S25 Δ 
+Volume ('000 tons) 460 466 -1,2% 898 896 0,2% 
+Receita Líquida² 3.014 2.955 2,0% 5.785 5.634 2,7% 
+EBITDA Recorrente 365 304 19,8% 659 570 15,7% 
+Lucro Líquido Recorrente 208 177 17,2% 358 295 21,2% 
+ROE Recorrente (anualizado) 24,7% 23,4% 1,3 p.p 21,7% 19,7% 2,0 p.p. 
+CAPEX 229 75 205,1% 340 106 220,7% 
+Dívida Líquida/EBITDA UDM 0,6x 0,8x -0,2x 0,6x 0,8x -0,2x 
+(1) Números não auditados. | (2) Considera venda de ativos. 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Receita Líquida: crescimento de 2,0% decorrente do repasse do aumento de custos ao longo do período. 
+• EBITDA Recorrente: aumento 19,8% sustentado principalmente pela efetividade da estratégia comercial. 
+• Lucro Líquido Recorrente: aumento de 17,2%, sustentado pelo crescimento do EBITDA e pela evolução das demais linhas do 
+resultado. 
+• CAPEX: crescimento de 205% principalmente pela maior concentração de investimentos no segundo semestre no ano anterior e 
+foco em aquisição e reposição de vasilhames no 1S26 para atender o Programa Gás do Povo. 
+• Dívida Líquida/EBITDA: diminuição de 0,2x proveniente do aumento de caixa e EBITDA nos últimos 12 meses.
+
+[p. 18]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+ 
+ 
+ 
+Eventos recentes: 
+• Debêntures: em julho, foi aprovada a amortização extraordinária facultativa parcial das debêntures da 1ª série da 6ª emissão da 
+NTS, no valor de R$ 1,4 bilhão (73,9% do valor nominal unitário). A operação está alinhada à estratégia de liability management da 
+companhia e foi viabilizada pelos recursos captados na 12ª emissão, realizada em março de 2026, com o objetivo de alongar o 
+prazo médio da dívida e reduzir a concentração de vencimentos. 
+ 
+Dados Financeiros e Operacionais 
+(R$ milhões, exceto onde indicado) 2T26 2T25 Δ 1S26 1S25 Δ 
+Receita Líquida 1.861 1.977 -5,9% 3.580 3.940 -9,1% 
+EBITDA 1.597 1.857 -14,0% 3.145 3.663 -14,1% 
+Lucro Líquido 747 954 -21,7% 1.543 1.840 -16,1% 
+Proventos¹ - Total - 298 n.a. 1.334 1.632 -18,0% 
+Proventos¹ - % Itaúsa - 25 n.a. 113 139 -19,0% 
+CAPEX 172 35 391,0% 237 61 289,0% 
+Dívida Líquida² 9.099 9.372 -3,0% 9.099 9.372 -3,0% 
+Dívida Líquida/EBITDA UDM³ 1,4x 1,3x 0,1x 1,4x 1,3x 0,1x 
+(1) Considera dividendos e correção monetária sobre dividendos declarados. Os proventos são com base caixa. | (2) Dívida Liqu ida considera o impacto dos instrumentos de derivativos. A NTS possui 
+uma exposição final 100% indexada à taxa de juros atrelada ao CDI e à moeda local. | (3) Considera valores reportados de covenants com EBITDA dos últimos 12 meses e Dívida Líquida na data de 
+fechamento do período. 
+ 
+Desempenho Financeiro (2T26 vs. 2T25): 
+• Receita Líquida: redução de 6% devido aos reajustes anuais previstos nos contratos indexados ao IGPM e ao vencimento do 
+contrato Malhas SE ocorrido em dezembro de 2025, compensado pela maior receita de repasse de rebalanceamento de gás. 
+• EBITDA: retração de 14% devido à redução na receita líquida somada aos custos de rebalanceamento incorridos no período, além 
+da recuperação de créditos tributários não recorrentes ocorrida no 2T25. 
+• Lucro Líquido: redução de 22% devido à menor receita líquida e aumento das despesas financeiras impactadas pela marcação-a-
+mercado dos instrumentos financeiros derivativos vinculados as dívidas em moeda estrangeira (efeito não-caixa). 
+• CAPEX: aumento de 391% no período, principalmente devido ao investimento nos projetos de crescimento (Estação de 
+Compressão de Japeri e do Ponto de Recebimento de Macaé), como parte da estratégia de expansão da malha da NTS. 
+• Dívida Líquida / EBITDA: permanece estável, com aumento de +0,1x devido a redução do EBITDA.
+
+[p. 19]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+6.2. Balanço Patrimonial (individual e gerencial)1 
+ 
+(R$ milhões) 
+ 
+ 
+(1) Balanço Patrimonial atribuível aos acionistas controladores. 
+ 
+ 
+ATIVO 30.06.2026 31.12.2025 PASSIVO E PATRIMÔNIO LÍQUIDO 30.06.2026 31.12.2025
+CIRCULANTE 6.886 5.201 CIRCULANTE 3.542 844 
+6.193 4.772 Empréstimos, financiamentos e debêntures 351 179 
+Caixa e Equivalentes de Caixa 2.191 1.836 Dividendos/JCP a Pagar 2.721 435 
+Títulos e valores mobiliários 1.505 1.529 Fornecedores 46 23 
+Dividendos/JCP a Receber 2.497 1.407 Tributos a Recolher 395 145 
+Ativos Fiscais 674 412 Obrigações com Pessoal 29 45 
+Tributos a Compensar 674 412 Outros Passivos - 17 
+Outros Ativos 19 17 
+Despesas Antecipadas 17 15 
+Outros Ativos 2 2 
+NÃO CIRCULANTE 95.671 89.572 NÃO CIRCULANTE 5.225 5.174 
+Investimentos 94.579 88.495 Empréstimos, financiamentos e debêntures 3.024 3.024 
+Investimentos em participações societárias 94.572 88.488 Fornecedores 2 17 
+Outros Investimentos 7 7 Provisões 2.195 2.129 
+Ativos Fiscais 867 863 Outros tributos diferidos 3 2 
+Tributos a Compensar 9 8 Outros Passivos 1 2 
+Imp. Renda/Contrib. Social Diferidos 858 855 
+Imobilizado e Intangível 111 113 PATRIMÔNIO LÍQUIDO 93.790 88.755 
+Outros Ativos 114 101 Capital Social 83.689 83.689 
+Títulos e valores mobiliários 42 27 Reservas de capital 501 759 
+Despesas Antecipadas 19 23 Reservas de lucros 11.973 5.863 
+Depósitos Judiciais 32 31 Ajustes de Avaliação Patrimonial (2.296) (1.533) 
+Outros Ativos 21 20 Ações em Tesouraria (77) (23) 
+TOTAL DO ATIVO 102.557 94.773 TOTAL DO PASSIVO E PATRIMÔNIO LÍQUIDO 102.557 94.773 
+Ativos Financeiros
+
+[p. 20]
+Relatório da Administração 
+2º trimestre de 2026 
+ 
+ 
+6.3. Apuração do Resultado de Equivalência Patrimonial 
+ 
+Nosso resultado é composto basicamente pelo Resultado de Equivalência Patrimonial (REP), apurado a partir do lucro líquido de nossas 
+empresas investidas e do resultado de investimentos em ativos financeiros. 
+ 
+Visão do 2° trimestre de 2026 e de 2025 (R$ milhões) 
+ 
+Notas: 
+- As participações (direta e indireta) nas empresas investidas consideram o percentual médio de participaç ão da Itaúsa no período. 
+- O investimento na NTS é reconhecido como ativo financeiro , não sendo avaliado pelo Método de Equivalência Patrimonial. 
+- Em relação à Aegea Saneamento, a participação demonstrada no quadro considera a equivalência patrimonial sobre os resultados da Aegea Saneamento e Águas do Rio Investimentos, respeitando o acordo de divisão de resultados celebrado entre as partes. No primeiro trimestre de 2026 houve efeito 
+positivo de R$ 93 milhões na equivalência patrimonial da Aegea como reflexo da capitalização ocorrida por Itaúsa e GIC. Em função da reapresentação dos resultados da Aegea de 1T25, ajustamos o resultado dessa investida no quadro gerencial acima para melhor comparabilidade. 
+- “Outras empresas” considera os investimentos na Itautec e ITH Zux Cayman (empresas não operacionais) . 
+- Para Motiva, Aegea Saneamento e Copa Energia os "Outros Resultados" refere m-se substancialmente a amortização de mais valia. 
+ 
+Visão do 1° semestre de 2026 e de 2025 (R$ milhões) 
+ 
+ 
+Notas: 
+- As participações (direta e indireta) nas empresas investidas consideram o percentual médio de participação da Itaúsa no perío do. 
+- O investimento na NTS é reconhecido como ativo financeiro, não sendo avaliado pelo Método de Equivalência Patrimonial. 
+- Em relação à Aegea Saneamento, a participação demonstrada no quadro considera a equivalência patrimonial sobre os resultados da Aegea Saneamento e Águas do Rio Investimentos, respeitando o acordo de divisão de resultados celebrado entre as partes. No primeiro trimestre de 2026 houve efeito 
+positivo de R$ 93 milhões na equivalência patrimonial da Aegea como reflexo da capitalização ocorrida por Itaúsa e GIC. Em função da reapresentação dos resultados da Aegea de 1T25, ajustamos o resultado dessa investida no quadro gerencial acima para melhor comparabilidade. 
+- “Outras empresas” considera os investimentos na Itautec e ITH Zux Cayman (empresas não operacionais). 
+- Para Motiva, Aegea Saneamento e Copa Energia os "Outros Resultados" referem -se substancialmente a amortização de mais valia.
+
+[p. 21]
+Itaúsa S.A. 21 
+ITAÚSA S.A. 
+ADMINISTRAÇÃO ITAÚSA 
+CONSELHO DE ADMINISTRAÇÃO DIRETORIA 
+Presidente Diretor Presidente 
+Raul Calfat (*) Alfredo Egydio Setubal (**) 
+ 
+Vice-Presidentes Diretores Vice-Presidentes Executivos 
+Ana Lúcia de Mattos Barretto Villela Alfredo Egydio Arruda Villela Filho 
+Roberto Egydio Setubal Ricardo Egydio Setubal 
+ Rodolfo Villela Marino 
+Conselheiros 
+Alfredo Egydio Setubal Diretores Gerentes 
+Edson Carlos De Marchi (*) Frederico de Souza Queiroz Pascowitch 
+Patrícia de Moraes (*) Maria Fernanda Ribas Caramuru 
+Rodolfo Villela Marino Priscila Grecco Toledo 
+Vicente Furletti Assis (*) 
+ (**) Diretor de Relações com Investidores 
+ Conselheiros Suplentes 
+Ricardo Egydio Setubal 
+Ricardo Villela Marino Contadora 
+ Sandra Oliveira Ramos Medeiros 
+(*) Conselheiros Independentes CRC 1SP 220.957/O-9 
+ 
+ 
+CONSELHO FISCAL 
+Presidente 
+Guilherme Tadeu Pereira Júnior 
+ 
+Conselheiros 
+Giselle Cilaine Ilchechen Coelho 
+Michael Gordon Findlay 
+Rosana Passos de Pádua 
+Vivianne Cunha Valente 
+ 
+Conselheiros Suplentes 
+Fernando Carlos Pelisser 
+Gustavo Amaral de Lucena 
+Jefferson de Paula Fernandes Barbosa 
+João Batista Cardoso Sevilha 
+Rosangela Sutil de Oliveira 
+ 
+ 
+COMITÊ DE AUDITORIA 
+Coordenador 
+Raul Calfat 
+ 
+Membros 
+Elaine Maria de Souza Funo (especialista) 
+Marco Antonio Antunes
+
+[p. 22]
+Itaúsa S.A. 22 
+ITAÚSA S.A. 
+BALANÇO PATRIMONIAL INDIVIDUAL E CONSOLIDADO - ATIVO 
+(Em milhões de Reais) 
+ 
+ 
+ 
+Controladora Consolidado
+Nota 30/06/2026 31/12/2025 30/06/2026 31/12/2025
+ATIVO
+Circulante
+Caixa e Equivalentes de caixa 4 2.191 1.836 4.709 4.039
+Aplicações financeiras 4 - - 318 351
+Títulos e valores mobiliários 5 1.505 1.529 1.505 1.529
+Contas a receber de clientes 6 - - 1.245 1.084
+Estoques 7 - - 1.791 1.761
+Dividendos e Juros sobre capital próprio a receber 8 2.497 1.407 2.500 1.475
+Imposto de renda e Contribuição social a compensar 672 410 1.107 470
+Outros tributos a compensar 2 2 198 399
+Outros ativos 9 19 17 1.682 221
+Total Circulante 6.886 5.201 15.055 11.329
+Não circulante
+Realizável a longo prazo 981 964 6.456 6.484
+Títulos e valores mobiliários 5 42 27 186 173
+Ativos biológicos 10 - - 3.044 3.044
+Depósitos judiciais 32 31 154 159
+Benefícios a empregados 23 15 15 105 103
+Imposto de renda e Contribuição social diferidos 11.2 858 855 1.634 1.594
+Imposto de renda e Contribuição social a compensar 9 8 149 149
+Outros tributos a compensar - - 56 56
+Direito de uso - - 842 799
+Outros ativos 9 25 28 286 407
+Investimentos 12 94.579 88.495 93.348 88.073
+BP. Imobilizado e Intangível 13 111 113 4.913 5.301
+Total Não circulante 95.671 89.572 104.717 99.858
+TOTAL DO ATIVO 102.557 94.773 119.772 111.187
+As notas explicativas são parte integrante das demonstrações contábeis
+
+[p. 23]
+Itaúsa S.A. 23 
+ITAÚSA S.A. 
+BALANÇO PATRIMONIAL INDIVIDUAL E CONSOLIDADO – PASSIVO E PATRIMÔNIO LÍQUIDO 
+(Em milhões de Reais) 
+ 
+ 
+Controladora Consolidado
+Nota 30/06/2026 31/12/2025 30/06/2026 31/12/2025
+PASSIVO
+Circulante
+Fornecedores 14 46 23 1.218 1.160
+Obrigações com pessoal 29 45 239 267
+BP. Empréstimos, financiamentos e debêntures 15 351 179 1.202 694
+Imposto de renda e Contribuição social a recolher -- 3 8 6 7
+Outros tributos a recolher 395 145 903 277
+Dividendos e Juros sobre capital próprio a pagar 17.5.2 2.721 435 2.723 495
+Arrendamentos - - 62 58
+Derivativos 3.1.3 - - 127 106
+Outros passivos 9 - 17 670 500
+Total Circulante 3.542 844 7.530 3.564
+Não circulante
+Fornecedores 14 21 7 21 7
+Obrigações com pessoal 1212
+BP. Empréstimos, financiamentos e debêntures 15 3.024 3.024 9.416 10.091
+Arrendamentos - - 897 843
+Provisões 16.1.1 2.195 2.129 2.460 2.399
+Imposto de renda e Contribuição social diferidos 11.2 - - 321 372
+Outros tributos diferidos 3232
+Outros tributos a recolher -- 7 2 3
+Benefícios a empregados - - 36 34
+Derivativos 3.1.3 - - 443 361
+Outros passivos 9 - - 74 100
+Total Não circulante 5.225 5.174 13.660 14.244
+TOTAL DO PASSIVO 8.767 6.018 21.190 17.808
+PATRIMÔNIO LÍQUIDO
+Capital social 17.1 83.689 83.689 83.689 83.689
+Reservas de capital 501 759 501 759
+Reservas de lucros 17.2 11.973 5.863 11.973 5.863
+Ajustes de avaliação patrimonial 17.3 (2.296) (1.533) (2.296) (1.533)
+Ações em tesouraria 17.4 (77) (23) (77) (23)
+Total do Patrimônio líquido dos acionistas controladores 93.790 88.755 93.790 88.755
+Participação dos acionistas não controladores - - 4.792 4.624
+Total do Patrimônio líquido 93.790 88.755 98.582 93.379
+TOTAL DO PASSIVO E PATRIMÔNIO LÍQUIDO 102.557 94.773 119.772 111.187
+As notas explicativas são parte integrante das demonstrações contábeis
+
+[p. 24]
+Itaúsa S.A. 24 
+ITAÚSA S.A. 
+DEMONSTRAÇÃO DO RESULTADO 
+PERÍODOS FINDOS EM 30 DE JUNHO 
+(Em milhões de Reais, exceto quando indicado de outra forma)
+
+[p. 25]
+Itaúsa S.A. 25 
+ITAÚSA S.A. 
+DEMONSTRAÇÃO DO RESULTADO ABRANGENTE 
+PERÍODOS FINDOS EM 30 DE JUNHO 
+(Em milhões de Reais)
+
+[p. 26]
+Itaúsa S.A. 26 
+ITAÚSA S.A. 
+DEMONSTRAÇÃO DAS MUTAÇÕES DO PATRIMÔNIO LÍQUIDO INDIVIDUAL E CONSOLIDADA 
+PERÍODOS FINDOS EM 30 DE JUNHO 
+(Em milhões de Reais)
+
+[p. 27]
+Itaúsa S.A. 27 
+ITAÚSA S.A. 
+DEMONSTRAÇÃO DOS FLUXOS DE CAIXA INDIVIDUAL E CONSOLIDADA 
+PERÍODOS FINDOS EM 30 DE JUNHO 
+(Em milhões de Reais) 
+ 
+Controladora Consolidado
+Nota 01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+Fluxos de caixa das atividades operacionais
+Ajustes para reconciliação do lucro líquido
+Lucro antes do imposto de renda e da contribuição social 9.655 7.978 10.025 7.950
+Resultado de participações societárias 12.2 (10.129) (8.412) (9.354) (8.598)
+Provisões 11 (11) 120 65
+Juros e variações cambiais e monetárias (líquidas) 266 362 817 833
+Depreciação, amortização e exaustão 4 4 726 680
+Variação do valor justo dos Ativos biológicos 19 - - (78) (116)
+Perda esperada para créditos de liquidação duvidosa - - 19 10
+Resultado na venda de Investimentos, Imobilizado e Intangível -6 -7
+Variação do valor justo dos Títulos e valores mobiliários 10 10 10 10
+Outros - (9) 7 (6)
+(183) (72) 2.292 835
+Variações nos Ativos e Passivos
+(Aumento) Redução de Clientes - - (164) 26
+(Aumento) Redução em Estoques - - (55) (197)
+(Aumento) Redução em Tributos a compensar 346 289 496 349
+(Aumento) Redução em Outros ativos (114) (135) (1.392) (159)
+Aumento (Redução) em Tributos a recolher (217) (168) 178 (218)
+Aumento (Redução) em Fornecedores 8 (11) 41 (51)
+Aumento (Redução) em Obrigações com pessoal (17) (18) (38) (3)
+Aumento (Redução) em Outros passivos (17) 70 134 (41)
+(11) 27 (800) (294)
+Caixa proveniente das operações (194) (45) 1.492 541
+Pagamento de Imposto de renda e Contribuição social (4) - (364) (73)
+Juros pagos sobre Empréstimos, financiamentos e Debêntures 15.1.1 e 15.2.1 (63) (141) (486) (387)
+Caixa líquido (aplicado) gerado nas atividades operacionais (261) (186) 642 81
+Fluxos de caixa das atividades de investimentos
+Aquisição de Investimentos 12.2 (58) - (70) (87)
+Alienação de Investimentos -5 -6
+(Aumento) Redução de capital social em investidas 12.2 (418) (43) (447) (95)
+Aquisição de Imobilizado, Intangível e Ativos biológicos (1) (10) (403) (407)
+Alienação de Imobilizado, Intangível e Ativos biológicos - - 106 -
+Juros sobre capital próprio e Dividendos recebidos 8 1.798 7.955 1.798 7.954
+(Aplicação) Resgates de aplicações financeiras - - 53 (77)
+Caixa líquido gerado nas atividades de investimentos 1.321 7.907 1.037 7.294
+Fluxos de caixa das atividades de financiamentos
+Integralização de Capital social 17.1 - 483 - 488
+Aquisição de Ações em tesouraria 17.4 (65) - (65) -
+Juros sobre capital próprio e Dividendos pagos 17.5.2 (640) (7.524) (704) (7.524)
+Ingresso de Empréstimos, Financiamentos e Debêntures 15.1.1 e 15.2.1 - - 293 498
+Amortização de Empréstimos, Financiamentos e Debêntures 15.1.1 e 15.2.1 - - (615) (400)
+Amortização de passivos de arrendamento - - (87) (75)
+Amortização de derivativos - - (51) (57)
+Aumento de capital de sócios não controladores - - 207 -
+Caixa líquido aplicado nas atividades de financiamentos (705) (7.041) (1.022) (7.070)
+Variação cambial sobre Caixa e Equivalentes de caixa - - 13 (11)
+Aumento líquido de Caixa e equivalentes de caixa 355 680 670 294
+Caixa e Equivalentes de caixa no início do período 1.836 3.580 4.039 4.852
+Caixa e Equivalentes de caixa no final do período 2.191 4.260 4.709 5.146
+355 680 670 294
+As notas explicativas são parte integrante das demonstrações contábeis
+
+[p. 28]
+Itaúsa S.A. 28 
+ITAÚSA S.A. 
+DEMONSTRAÇÃO DO VALOR ADICIONADO INDIVIDUAL E CONSOLIDADA 
+PERÍODOS FINDOS EM 30 DE JUNHO 
+(Em milhões de Reais) 
+ 
+Controladora Consolidado
+01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+Receitas - - 5.470 5.188
+Vendas de produtos e serviços - - 5.237 4.947
+Variação no valor justo do ativo biológico - - 78 116
+Perda esperada para créditos de liquidação duvidosa - - (19) (10)
+Receitas relativas à construção de ativos próprios - - 40 98
+Outras receitas -- 1 3 4 3 7
+Insumos adquiridos de terceiros (76) (67) (3.473) (3.440)
+Custos dos produtos e serviços - - (2.712) (2.731)
+Materiais, energia, serviços de terceiros e outros (54) (79) (690) (726)
+Reversão (Provisão) para redução ao valor recuperável (22) 12 (71) 17
+Valor adicionado bruto (76) (67) 1.997 1.748
+Depreciação, amortização e exaustão (4) (4) (726) (680)
+Valor adicionado líquido produzido (80) (71) 1.271 1.068
+Valor adicionado recebido em transferência 10.405 8.877 11.151 9.244
+Resultado de participações societárias 10.129 8.412 9.354 8.598
+Receitas financeiras 151 318 1.514 500
+Outras receitas 125 147 283 146
+Valor adicionado total a distribuir 10.325 8.806 12.422 10.312
+Distribuição do valor adicionado 10.325 8.806 12.422 10.312
+Pessoal 49 44 657 688
+Remuneração direta 43 39 490 521
+Benefícios 4 4 124 125
+FGTS 21 3 2 3 3
+Outros -- 1 1 9
+Impostos, taxas e contribuições 326 338 1.068 566
+Federais 326 338 1.027 554
+Estaduais -- 2 6 -
+Municipais -- 1 5 1 2
+Remuneração de capital de terceiros 296 444 971 1.010
+Juros 296 444 947 994
+Aluguéis -- 2 4 1 6
+Remuneração de capital próprio 9.654 7.980 9.726 8.048
+Dividendos e Juros sobre Capital Próprio 3.391 2.230 3.397 2.230
+Lucros retidos 6.263 5.750 6.263 5.750
+Participação dos acionistas não controladores nos lucros retidos - - 66 68
+As notas explicativas são parte integrante das demonstrações contábeis
+
+[p. 29]
+Itaúsa S.A. 29 
+ITAÚSA S.A. 
+NOTAS EXPLICATIVAS ÀS DEMONSTRAÇÕES CONTÁBEIS INTERMEDIÁRIAS 
+Em 30 de junho de 2026 
+(Em milhões de reais, exceto quando divulgado de outra forma) 
+ 
+1. CONTEXTO OPERACIONAL 
+ 
+A Itaúsa S.A. (“ITAÚSA” ou “Companhia”) é uma sociedade anônima de capital aberto, constituída e existente 
+segundo as leis brasileiras e está localizada na Av. Paulista nº 1938, 5º andar, Bela Vista, na cidade de São Paulo, 
+SP, Brasil. 
+ 
+As ações da ITAÚSA estão registradas no Nível 1 de Governança Corporativa da B3 S.A. - Brasil, Bolsa, Balcão 
+("B3"), sob os códigos "ITSA3" para as ações ordinárias e "ITSA4" para as ações preferenciais. Além do Índice 
+Bovespa - Ibovespa, as ações da ITAÚSA integram determinadas carteiras de segmentos na B3 com características 
+ASG (Ambiental, Social e Governança Corporativa), destacando a participação pelo 25° ano no Índice de 
+Governança Corporativa - IGC, pelo 22° ano no Índice de Ações com Tag Along Diferenciado - ITAG, pelo 18º ano 
+no Índice de Sustentabilidade Empresarial - ISE, pelo 3° ano no Índice Great Place to Work - IGPTW e 2º ano no 
+Índice de Diversidade - IDIVERSA. Adicionalmente, a ITAÚSA integra, pela 22ª vez, o principal índice de alcance 
+global Dow Jones Sustainability World Index - DJSI e é classificada como um a empresa de baixo risco sob a ótica 
+ASG pela Sustainalytics, além de participar de iniciativas como o Carbon Disclosure Project - CDP. 
+ 
+A ITAÚSA tem por objeto participar em outras sociedades, no País ou no exterior, para investimento em quaisquer 
+setores da economia, inclusive por meio de fundos de investimento, disseminando nas investidas os seus princípios 
+de valorização do capital humano, governança e ética nos negócios e geração de valor para os acionistas, de forma 
+sustentável. A ITAÚSA é uma holding controlada pela família Egydio de Souza Aranha que detém 63,66% das ações 
+ordinárias e 17,78% das ações preferenciais, resultando em 33,55% do capital total. 
+ 
+1.1. Portfólio de investimentos 
+ 
+ 
+(1) Desconsidera as ações em tesouraria. 
+ 
+Estas Demonstrações Contábeis Intermediárias, Individuais e Consolidadas, foram aprovadas pelo Conselho de 
+Administração em 10 de agosto de 2026.
+
+[p. 30]
+Itaúsa S.A. 30 
+1.2. Principais eventos ocorridos no período 
+ 
+1.2.1. Novas captações de recursos 
+ 
+ 
+1.2.2. Deliberação de proventos aos acionistas 
+ 
+O Conselho de Administração da ITAÚSA deliberou dividendos e juros sobre capital próprio no montante bruto de 
+R$3.391 (R$2.230 líquido) (Nota 17.5.1). 
+ 
+1.2.3. Coligadas Aegea e Ág uas do Rio Investimentos 
+ 
+• Aporte de R$418 no Capital social da Aegea, resultando em um aumento de participação societária de 0,45% 
+(Nota 12.2.1). 
+ 
+• Reapresentação das Demonstrações Contábeis do exercício de 2024 na Aegea e na Águas do Rio 
+Investimentos com reflexo de R$656 no Patrimônio líquido da ITAÚSA (Nota 12.2.4). 
+ 
+1.2.4. Aquisição de ações da controlada em conjunto Alpargatas 
+ 
+Aquisição de 4.898.854 ações preferenciais da Alpargatas pelo montante total de R$58, resultando em um aumento 
+de participação de 0,72% (Nota 12.2.3). 
+ 
+1.2.5. Retirada de patrocínio – Plano PAI-CD (Controlada Itautec) 
+ 
+A controlada Itautec reconheceu o montante a receber de R$1.256 decorrente da retirada do patrocínio do Plano 
+PAI-CD (Nota 23.1.1.1 (a)). 
+ 
+2. BASE DE PREPARAÇÃO E APRESENTAÇÃO 
+ 
+2.1. Declaração de conformidade 
+ 
+As Demonstrações Contábeis Intermediárias, individuais e consolidadas, foram elaboradas em conformidade com 
+o pronunciamento técnico CPC 21 (R1) – Demonstração Intermediária, emitido pelo Comitê de Pronunciamentos 
+Contábeis – CPC, e com a norma internacional de contabilidade IAS 34 - Interim Financial Reporting, emitida pelo 
+International Accounting Standards Board (IASB) e apresentadas de forma condizente com as normas expedidas 
+pela Comissão de Valores Mobiliários – CVM, aplicáveis à elaboração das Informações Trimestrais - ITR. 
+ 
+A apresentação da Demonstração do Valor Adicionado - DVA, individual e consolidada, é requerida pela legislação 
+societária brasileira e pelas práticas contábeis adotadas no Brasil aplicáveis a companhias abertas. A DVA foi 
+preparada de acordo com os critérios definidos no Pronunciamento Técnico CPC 09 (R1) - Demonstração do Valor 
+Adicionado, contudo, as IFRS não requerem a apresentação dessa demonstração. Como consequência, pelas IFRS, 
+essa demonstração está apresentada como informação suplementar, sem prejuízo do conjunto das Demonstrações 
+Contábeis Intermediárias. 
+ 
+Todas as informações relevantes próprias das Demonstrações Contábeis Intermediárias, e somente elas, estão 
+sendo evidenciadas e correspondem às utilizadas pela ITAÚSA na sua gestão. 
+ 
+Estas Demonstrações Contábeis Intermediárias foram elaboradas seguindo os princípios, métodos e critérios 
+uniformes em relação àqueles adotados no encerramento do último exercício social em 31 de dezembro de 2025. 
+No sentido de evitar repetições de informações já divulgadas nas Demonstrações Contábeis de 31 de dezembro de 
+2025, as políticas contábeis e determinadas notas explicativas, não estão sendo apresentadas ou não apresentam 
+o mesmo grau de detalhamento. Consequentemente, estas Demonstrações Contábeis Intermediárias devem ser 
+lidas em conjunto com as Demonstrações Contábeis aprovadas pela Administração e divulgadas à CVM em 16 de 
+março de 2026. Segue abaixo a relação das notas explicativas de 31 de dezembro de 2025 nesta situação:
+
+[p. 31]
+Itaúsa S.A. 31 
+ 
+ 
+2.2. Base de mensuração 
+ 
+As Demonstrações Contábeis Intermediárias, individuais e consolidadas, foram elaboradas considerando o custo 
+histórico como base de valor exceto: (i) determinados ativos e passivos financeiros que foram mensurados ao valor 
+justo (Nota 3.1.1); (ii) os passivos de benefício definido que são reconhecidos a valor justo, com limitação de 
+reconhecimento do ativo; e (iii) os ativos biológicos mensurados ao valor justo por meio do resultado (Nota 10). 
+ 
+2.3. Moeda funcional, conversão de saldos e transações em moeda estrangeira 
+ 
+As Demonstrações Contábeis Intermediárias, individuais e consolidadas, foram preparadas e estão apresentadas 
+em Reais (R$), que é a moeda funcional e de apresentação, sendo todos os saldos arredondados para milhões de 
+reais, exceto quando indicado de outra forma. 
+ 
+A definição da moeda funcional reflete o principal ambiente econômico de operação da ITAÚSA e suas controladas. 
+ 
+Os ativos e passivos de subsidiárias com moeda funcional diferente do Real, quando aplicável, são convertidos 
+como segue: 
+ 
+• Ativos e passivos são convertidos pela taxa de câmbio da data do Balanço Patrimonial; 
+• Receitas e despesas são convertidas pela taxa de câmbio média mensal; 
+• Ganhos e perdas de conversão são registrados na rubrica “Outros resultados abrangentes”. 
+ 
+As transações em moedas estrangeir as são convertidas para a moeda funcional utiliz ando as taxas de câmbio 
+vigentes nas datas das transações. Os ganhos e as perdas cambiais resultantes da liquidação dessas transações e 
+da conversão pelas taxas de câmbio do final do período são reconhecidos no Resultado financeiro. 
+ 
+2.4. Uso de estimativas e julgamentos 
+ 
+Na elaboração das Demonstrações Contábeis Intermediárias, individuais e consolidadas, é requerido que a 
+Administração da ITAÚSA e de suas controladas se utilizem de julgamentos , estimativas e premissas que afetam 
+os saldos de ativos, passivos, receitas e despesas durante os períodos apresentados e em períodos subsequentes. 
+ 
+Os julgamentos, estimativas e premissas são baseados em informações disponíveis na data da elaboração das 
+Demonstrações Contábeis, além da experiência de eventos passados e/ou correntes, considerando ainda 
+pressupostos relativos a eventos futuros. Adicionalmente, quando necessário, os julgamentos e as estimativas estão 
+suportados por pareceres elaborados por especialistas. Essas estimativas são revisadas periodicamente e seus 
+resultados podem diferir dos valores inicialmente estimados. 
+ 
+Nota Descrição Situação
+3 Principais políticas contábeis (a)
+10 Outros tributos a compensar e a recolher (b)
+14 Direito de uso e Arrendamentos (b)
+15.5 Teste de avaliação do valor recuperável (Investimento) (a)
+16.2.3 Avaliação do valor re cuperável (Imobilizado) (a)
+16.2.4 Revisão da vida útil dos ativos (b)
+16.3 Intangível (b)
+16.3.3 Teste de avaliação do valor recuperável (Intangível) (a)
+20.2 Reservas de capital (b)
+20.3 Reservas de lucros (c)
+20.5 Ações em tesouraria (b)
+26.1 Planos de previdência privada (c)
+26.2 Planos de assistência médica (b)
+26.3 Remuneração baseada em ações (b)
+(a) Nota explicativa idêntica à apresentada nas Demonstrações Contábeis de 31 de dezembro de 2025.
+(b) Nota explicativa cuja variação no período foi considerada imaterial pela Administração da ITAÚSA.
+(c) Nota explicativa apresentada com conteúdo reduzido quando comparado às Demonstrações Contábeis de 31 de
+dezembro de 2025.
+
+[p. 32]
+Itaúsa S.A. 32 
+As estimativas e premissas que apresentam um risco significativo, com probabilidade de causar um ajuste relevante 
+nos valores das Demonstrações Contábeis, individuais e consolidadas, para os próximos períodos, são os seguintes: 
+ 
+Descrição Nota 
+Reconhecimento dos tributos diferidos 
+Determinação do valor justo dos instrumentos financeiros, incluindo derivativos 
+Provisões e Ativos e Passivos contingentes 
+Determinação do valor justo para ativos biológicos 
+Reconhecimento de ativos e passivos relacionados a planos de previdência 
+Análise de redução ao valor recuperável dos ativos (Impairment) 
+ 
+11 
+3.1.2 
+16 
+10 
+23.1 
+- 
+ 
+2.5. Consolidação das Demonstrações Contábeis 
+ 
+As Demonstrações Contábeis Intermediárias Consolidadas foram preparadas de acordo com as normas 
+estabelecidas pelo CPC 36 (R3) / IFRS 10 – Demonstrações Consolidadas. 
+ 
+A ITAÚSA consolida suas controladas a partir do momento em que obtém o controle sobre as mesmas. As datas 
+das Demonstrações Contábeis das controladas, controladas em conjunto e coligadas, utilizadas para o cálculo da 
+equivalência patrimonial e para a consolidação, coincidem com as da ITAÚSA, além da utilização de políticas e 
+práticas contábeis consistentes. Quando necessário, ajustes são realizados nas Demonstrações Contábeis das 
+investidas para adequar suas políticas e práticas contábeis às políticas contábeis da ITAÚSA. 
+ 
+Os montantes relativos aos acionistas não controladores, provenientes das controladas cuja participação societária 
+detida pela ITAÚSA não corresponda à totalidade do Capital social, estão destacados no Balanço Patrimonial na 
+rubrica “Participação dos acionistas não controladores”, na Demonstração do Resultado na rubrica “Lucro líquido 
+atribuível aos acionistas não controladores” e na Demonstração do Resultado Abrangente na rubrica “Total do 
+resultado abrangente atribuível aos acionistas não controladores”. 
+ 
+As operações entre as empresas consolidadas, bem como os saldos, os ganhos e as perdas não realizados nessas 
+operações, foram eliminados. 
+ 
+2.6. Normas revisadas aplicáveis a partir de 1º de janeiro de 2026 
+ 
+As revisões de normas aplicáveis a partir de 1º de janeiro de 2026 não resultaram em impactos significativos nas 
+Demonstrações Contábeis Intermediárias de 30 de junho de 2026 da ITAÚSA e suas controladas. São elas: 
+ 
+Norma Descrição 
+CPC 40 (R1) / IFRS 7 – 
+Instrumentos financeiros: 
+Divulgação e CPC 48 / IFRS 
+9 – Instrumentos financeiros 
+ 
+Contempla: (i) esclarecimento sobre a data de reconhecimento e desreconhecimento de 
+alguns ativos e passivos financeiros liquidados por meios eletrônicos; (ii) orientações 
+adicionais para avaliação se um ativo financeiro atende ao critério “de somente pagamento de 
+principal e juros”; (iii) novas divulgações para instrumentos financeiros com termos contratuais 
+que podem alterar os fluxos de caixa (Ex. instrumentos vinculados à metas ASG); e (iv) 
+atualizações sobre as divulgações de instrumentos de patrimônio designados a valor justo por 
+meio de outros resultados abrangentes. 
+ 
+Melhorias anuais às normas 
+contábeis IFRS – Volume 11 
+Alterações de escopo limitado como parte do seu processo de melhorias anuais. As alterações 
+incluem esclarecimentos, simplificações, correções ou modificações destinadas a melhorar a 
+consistência das seguintes normas: CPC 37 (R1) / IFRS 1 – Adoção Inicial das Normas 
+Internacionais de Contabilidade, CPC 40 (R1) / IFRS 7 – Instrumentos Financeiros: 
+Evidenciação, CPC 48 / IFRS 9 – Instrumentos Financeiros), CPC 36 (R3) / IFRS 10 – 
+Demonstrações Consolidadas e CPC 03 (R2) / IAS 7 – Demonstração dos Fluxos de Caixa.
+
+[p. 33]
+Itaúsa S.A. 33 
+3. INSTRUMENTOS FINANCEIROS E GERENCIAMENTO DE RISCOS 
+ 
+3.1. Instrumentos financeiros 
+ 
+A administração dos instrumentos financeiros é realizada conforme estratégia e diretrizes estabelecidas em políticas 
+financeiras visando assegurar a preservação de liquidez e continuidade dos negócios. 
+ 
+3.1.1. Classificação dos instrumentos financeiros 
+ 
+Segue abaixo a classificação e mensuração dos ativos e passivos financeiros: 
+ 
+ 
+3.1.2. Valor justo dos instrumentos financeiros 
+ 
+Para apuração do valor justo, são utilizadas técnicas de avaliação previstas no CPC 46 / IFRS 13 – Mensuração do 
+valor justo, podendo resultar em um valor contábil diferente do seu valor justo, principalmente, em virtude dos 
+instrumentos apresentarem prazos de liquidação longos e custos diferenciados em relação às taxas de juros 
+praticadas atualmente para contratos similares, assim como pela alteração diária das taxas de juros futuros. 
+ 
+(a) Hierarquia do valor justo 
+ 
+ 
+Controladora
+Custo amortizado VJR Total
+Nota 30/06/2026 31/12/2025 30/06/2026 31/12/2025 30/06/2026 31/12/2025
+Ativos financeiros
+Caixa e Equivalentes de caixa 4 1 - 2.190 1.836 2.191 1.836
+Títulos e valores mobiliários 5 - - 1.547 1.556 1.547 1.556
+Dividendos e Juros sobre capital próprio a receber 8 2.497 1.407 - - 2.497 1.407
+Depósitos judiciais 16.1.2 32 31 - - 32 31
+Outros ativos 9 44 45 - - 44 45
+Total 2.574 1.483 3.737 3.392 6.311 4.875
+Passivos financeiros
+Fornecedores 14 48 40 - - 48 40
+Obrigações com pessoal 30 47 - - 30 47
+Empréstimos, financiamentos e debêntures 15 3.375 3.203 - - 3.375 3.203
+Dividendos e Juros sobre capital próprio a pagar 17.5.2 2.721 435 - - 2.721 435
+Outros passivos 9 -1 7 - - -1 7
+Total 6.174 3.742 - - 6.174 3.742
+
+[p. 34]
+Itaúsa S.A. 34 
+ 
+As informações adicionais sobre as premissas utilizadas na apuração dos valores justos dos instrumentos 
+financeiros relevantes, são divulgadas a seguir: 
+ 
+(i) Títulos e valores mobiliários 
+ 
+• Controladora (Circulante): Participação societária na NTS (Nota 5.1) cujo valor justo é calculado com base 
+no fluxo de caixa futuro para a ITAÚSA descontado a valor presente à taxa que corresponde ao custo de 
+capital próprio que, em 30 de junho de 2026, é de 12,3% (12,3% em 31 de dezembro de 2025). As premissas 
+consideradas para o cálculo do custo do capital próprio levam em consideração: (i) risco país; (ii) taxa livre 
+de risco de títulos do tesouro americano (com vencimento em 10 anos); (iii) prêmio de risco de mercado; 
+(iv) beta considerando empresas com modelo de negócio semelhantes; e (v) diferencial de inflação entre 
+mercado externo (Estados Unidos) e interno. 
+ 
+• Controlada Dexco: Substancialmente composto pela participação em fundo de corporate venture capital, 
+denominado “DX Ventures Fundo de Investimento em Participações Multiestratégia Investimentos no 
+Exterior” cujo valor justo é calculado com base na análise econômico-financeira realizada pelos gestores do 
+fundo (Nota 5.2). 
+ 
+(ii) Empréstimos e financiame ntos (Moeda nacional – com swap): São mensurados por meio de modelo de 
+precificação aplicado individualmente para cada transação levando em consideração os fluxos futuros de 
+pagamento, com base nas condições contratuais, descontados a valor presente por taxas obtidas por meio das 
+curvas de juros de mercado. Desta forma, o valor de mercado de um título corresponde ao seu valor de vencimento 
+(valor de resgate) trazido a valor presente pelo fator de desconto. 
+ 
+(iii) Instrumentos derivativos: (i) os valores justos dos contratos de taxas de juros são calculados pelo valor 
+presente dos fluxos de caixa futuros estimados com base nas curvas de rendimento adotadas pelo mercado; e (ii) 
+os valores justos dos contratos em moeda estrangeira é determinado com base nas taxas de câmbio futuras 
+descontadas a valor presente. 
+ 
+(b) Valor justo dos instrumentos financeiros a custo amortizado 
+ 
+Com exceção às Debêntures, os demais ativos e passivos financeiros, mensurados ao custo amortizado, 
+apresentam saldo contábil equivalente ao valor justo deco rrentes do fato de que estes instrumentos financeiros 
+possuem características substancialmente similares aos que seriam obtidos se fossem negociados no mercado. 
+ 
+ 
+ 
+Segue as premissas utilizadas na apuração dos valores justos: 
+ 
+(i) Debêntures: São mensuradas com base na cotação do mercado secundário de debêntures divulgadas pela 
+Anbima (Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais) considerando eventuais 
+custos aplicáveis.
+
+[p. 35]
+Itaúsa S.A. 35 
+3.1.3. Derivativos 
+ 
+Os derivativos têm como finalidade mitigar a exposição a indexadores de taxas juros e/ou a exposição cambial. A 
+contratação de derivativos dev erá ser utilizada somente como instrumento de proteção ( hedge), sendo vedada 
+operações com caráter especulativo. A gestão dos riscos financeiros e derivativos é realizada conforme estratégia 
+e diretrizes estabelecidas em políticas financeiras. 
+ 
+Em 30 de junho de 2026 e 31 de dezembro de 2025 apenas a controlada Dexco apresentava operações com 
+derivativos. 
+ 
+Foram realizados testes de efetividade que demostraram que o programa de contabilidade de hedge implementado 
+é efetivo. Os testes consideraram a relação econômica a partir da análise do hedge ratio, o efeito do risco de crédito 
+envolvido no instrumento e objeto de hedge e a avaliação dos termos críticos. 
+ 
+Segue abaixo os contratos vigentes, cujo objetos de proteção são Empréstimos e financiamentos com a finalidade 
+de mitigar o risco das taxas de juros: 
+ 
+3.2. Gerenciamento de riscos 
+ 
+Pelo fato dos resultados da ITAÚSA estarem diretamente atrelados às operações, às atividades e aos resultados 
+de suas investidas, a ITAÚSA está exposta, essencialmente, aos riscos das empresas de seu portfólio. 
+ 
+Por meio de sua alta administração, a ITAÚSA participa nos conselhos de administração e comitês de 
+assessoramento das empresas investidas, além da presença de membros independentes com experiência nos 
+respectivos mercados de atuação, sempre estimulando boas práticas de gerenciamento de riscos e compliance, 
+incluindo, a integridade. Como exemplos dessa atuação, os membros da ITAÚSA participam: (i) no Comitê de 
+Gestão de Riscos e Capital do Itaú Uni banco; (ii) no Comitê de Auditoria Estatutário da Alpargatas; (iii) no Comitê 
+de Auditoria, Riscos e Integridade da Aegea; e (iv) no Comitê de Auditoria da Copa Energia. 
+ 
+A ITAÚSA segue as diretrizes constantes em sua Política de Gerenciamento de Riscos, aprovada pelo Conselho de 
+Administração, onde são definidas: (i) as principais diretrizes na gestão e no controle de riscos, em linha com o 
+apetite a riscos estabelecido pelo Conselho de Administração; (ii) as metodologias do processo de gerenciamento 
+de riscos; (iii) as diretrizes e orientações à área de Compliance e Riscos Corporativos na implementação do 
+programa de integridade; e (iv) as revisões dos normativos da ITAÚSA, submetendo-os, quando necessário, à 
+avaliação e à aprovação do Conselho de Administração. 
+ 
+A ITAÚSA possui Comitê de Auditoria que tem como principais objetivos: (i) assessorar na gestão de riscos, incluindo 
+proposta de apetite e tolerância; (ii) rever e propor priorização de riscos e planos de resposta; e (iii) manifestar-se 
+sobre a avaliação da aderência normativa, do Programa de Integridade e dos sistemas de gerenciamento de riscos 
+e de controles internos. 
+ 
+Para gestão de riscos financeiros, são adotadas diretrizes estabelecidas em políticas financeiras, aprovadas pelo 
+Conselho de Administração, com foco no monitoramento e mitigação de eventos adversos de mercado e/ou de 
+crédito que podem impactar negativamente o fluxo de caixa.
+
+[p. 36]
+Itaúsa S.A. 36 
+3.2.1. Riscos de mercado 
+ 
+Envolvem, principalmente, a possibilidade de oscilação nas taxas de juros e taxas de câmbio, podendo resultar em 
+redução dos valores dos ativos ou aumento de seus passivos em função das oscilações no mercado. 
+ 
+Em relação aos riscos de taxa de câmbio, a controlada Dexco possui política financeira que estabelece o montante 
+máximo denominado em moeda estrangeira que pode estar exposta a variações da taxa de câmbio. Em função dos 
+procedimentos de gerenciamento de riscos, são realizadas pela Administração avaliações periódicas das 
+exposições cambiais, com o objetivo de mitigá-las, além de manter mecanismos de hedge que visam proteger 
+grande parte de sua exposição cambial. 
+ 
+Em relação aos riscos de taxas de juros são aqueles que geram perdas econômicas devido a alterações adversas 
+nessas taxas. Esse risco é monitorado continuamente pela Administração com o objetivo de se avaliar eventual 
+necessidade de contratação de operações de derivativos para se proteger contra a volatilidade destas taxas. Em 
+relação às aplicações financeiras, os rendimentos estão indexados à variação do CDI: (i) com resgate garantido 
+pelos bancos emissores, de acordo com as taxas contratadas nos casos de aplicações em CDB’s; ou (ii) pelo valor 
+da quota no dia de resgate para os fundos de investimento. 
+ 
+3.2.1.1. Análise de sensibilidade 
+ 
+Tem como objetivo mensurar os impactos oriundos das mudanças das variáveis de mercado sobre cada instrumento 
+financeiro representativo. Não obstante, a liquidação destas transações poderá resultar em valores diferentes dos 
+estimados devido à subjetividade utilizada na preparação dessas análises. 
+ 
+As informações demonstradas no quadro abaixo mensuram, com base na exposição dos saldos contábeis de 30 de 
+junho de 2026, os possíveis impactos no Resultado e no Patrimônio líquido, em função da variação de cada risco, 
+para os próximos 12 meses ou, caso inferior, até a data de vencimento destas operações. O cenário base representa 
+as taxas atuais e o cenário possível representa as taxas projetadas disponíveis no mercado (B3):
+
+[p. 37]
+Itaúsa S.A. 37 
+ 
+ 
+3.2.2. Riscos de crédito 
+ 
+Compreendem a possibilidade de ocorrerem perdas resultante da dificuldade de realização de seus recebíveis e 
+demais créditos. Essa descrição está relacionada, principalmente, às rubricas abaixo, sendo a exposição máxima 
+ao risco de crédito refletida pelos saldos contábeis das mesmas: 
+ 
+(a) Contas a receber de clientes 
+ 
+A controlada Dexco possui política formalizada para a concessão de créditos, com o objetivo de estabelecer os 
+procedimentos a serem seguidos na concessão de crédito em operações comerciais de venda de produtos e 
+serviços, no mercado interno e externo. A diversificação de sua carteira de recebíveis, a seletividade de seus 
+clientes, assim como o acompanhamento dos prazos de financiamentos de vendas e limites individuais, são 
+procedimentos adotados, a fim de minimizar inadimplências ou perdas na realização das contas a receber. 
+ 
+(b) Caixa e Equivalentes de caixa e Aplicações financeiras 
+ 
+Para gestão do risco de crédito são estabelecidos nas políticas financeiras das companhias limites de exposição e 
+critérios de seleção para contrapartes de operações financeiras conforme classificação de risco ( rating). A 
+Administração entende que as operações de aplicações financeiras e/ou derivativos contratados não expõem a 
+ITAÚSA e suas controladas a riscos de crédito significativos que futuramente possam gerar prejuízos materiais. 
+ 
+3.2.3. Riscos de liquidez 
+ 
+Correspondem a possibilidade da ITAÚSA e suas controladas não honrarem seus compromissos financeiros nas 
+datas de vencimento por falta de recursos suficientes, em decorrência de descasamentos que possam afetar de 
+forma relevante a capacidade de pagamento das companhias. 
+ 
+A ITAÚSA e a controlada Dexco adotam diretrizes e medidas de monitoramento de liquidez para mitigação de risco, 
+incluindo a projeção de fluxo de caixa e cálculo do caixa mínimo, de acordo com os critérios previstos em suas 
+políticas financeiras. 
+ 
+Adicionalmente a controlada Dexco dispõe de uma linha de crédito rotativo (“ revolving credit facility”), no valor de 
+até R$750, disponível para saque até setembro de 2027, que poderá ser utilizada em eventuais momentos de 
+restrição de liquidez.
+
+[p. 38]
+Itaúsa S.A. 38 
+O quadro abaixo demonstra os vencimentos dos passivos financeiros de acordo com os fluxos de caixa não 
+descontados: 
+ 
+A projeção orçamentária, aprovada pela Administração, demonstra capacidade e geração de caixa para 
+cumprimento das obrigações. 
+ 
+3.2.3.1. Cláusulas restritivas (covenants) 
+ 
+A controlada Dexco possui determinados contratos de Empréstimos, financiamentos e Debêntures (Nota 15) que 
+estão sujeitos a determinadas cláusulas restritivas ( covenants), de acordo com as práticas usuais de mercado, e 
+que, quando não cumpridas, podem acarretar um desembolso imediato ou vencimento antecipado de uma obrigação 
+com fluxo e periodicidade definidos. 
+ 
+A manutenção dos covenants está baseada nas Demonstrações Contábeis da controlada Dexco e, caso a referida 
+obrigação contratual não seja cumprida, a mesma deverá solicitar “waiver” dos credores. Em 30 de junho de 2026 
+todas as obrigações contratuais foram cumpridas. 
+ 
+3.3. Gestão de capital 
+ 
+A gestão de capital é realizada de forma a garantir a continuidade das operações, bem como oferecer retorno aos 
+acionistas, por meio da otimização do custo de capital e controle do nível de endividamento, pelo monitoramento do 
+índice de alavancagem financeira, que corresponde à relação da dívida líquida pelo patrimônio líquido.
+
+[p. 39]
+Itaúsa S.A. 39 
+4. CAIXA E EQUIVALENTES DE CAIXA E APLICAÇÕES FINANCEIRAS 
+ 
+4.1. Caixa e Equivalentes de caixa 
+ 
+(1) Em 30 de junho de 2026 a remuneração média das aplicações financeiras equivale na Controladora e no Consolidado a 101% do Cert ificado 
+de Depósito Interbancário - CDI (101% do CDI em 31 de dezembro de 2025). 
+ 
+4.2. Aplicações financeiras 
+ 
+ 
+(1) Referem-se às aplicações financeiras da controlada Dexco em fundo de investimento exclusivo, no qual a Dexco detém 100% das co tas. Em 
+30 de junho de 2026 a rentabilidade média para as LFs foi de 103% do CDI (102% do CDI em 31 de dezembro de 2025). 
+ 
+(2) A remuneração média anual do fundo de aplicação vinculada em 30 de junho de 2026 correspondeu a 94% do CDI (92% do CDI em 31 d e 
+dezembro de 2025). 
+ 
+5. TÍTULOS E VALORES MOBILIÁRIOS 
+ 
+Referem-se, substancialmente, a participações societária s nas quais não é exercida influência significativa nas 
+decisões sobre políticas financeiras e operacionais e, como consequência, sendo classificadas como um ativo 
+financeiro e mensuradas a valor justo por meio do resultado no Resultado financeiro. 
+ 
+(1) Fundo de Investimento em Direitos Creditórios. 
+ 
+5.1. Investimentos em ações 
+ 
+ 
+Refere-se à participação societária de 8,5% da ITAÚSA no Capital social da NTS. Para mais informações sobre as 
+premissas utilizadas no cálculo do valor justo, vide nota 3.1.2.
+
+[p. 40]
+Itaúsa S.A. 40 
+No 1º semestre 2026, a ITAÚSA registrou dividendos da NTS no montante de R$109 (R$136 no 1º semestre de 
+2025), em contrapartida do resultado, na rubrica “Outras receitas e despesas” (Nota 20) e o montante de R$4 (R$3 
+no 1º semestre de 2025), decorrente de receita de atualização monetária, na rubrica “Outras atualizações 
+monetárias” (Nota 21). 
+ 
+5.2. Fundo de Corporate Venture Capital 
+ 
+A controlada Dexco é a única cotista deste fundo denominado DX Ventures Fundo de Investimento em Participações 
+Multiestratégia (“DX Ventures”), para investimentos em start-ups e scale-ups em múltiplos estágios de investimentos. 
+ 
+Por meio deste fundo, são acompanhadas as macrotendências, transformações e inovações do setor de construção, 
+reforma e decoração, por meio do desenvolvimento de negócios relevantes no longo prazo. Além disso, busca 
+mapear possíveis disrupções em negócios e produtos, atuando como um instrumento eficiente para tratar 
+oportunidades identificadas no core business da organização. 
+ 
+6. CONTAS A RECEBER DE CLIENTES 
+ 
+ 
+Não há quaisquer ônus reais, garantias prestadas e/ou restrições aos valores de contas a receber de clientes. 
+ 
+A exposição da ITAÚSA e suas controladas a riscos de créditos relacionados ao contas a receber de clientes são 
+divulgadas na nota 3.2.2 (a). 
+ 
+6.1. Perdas Estimadas para Créditos de Liquidação Duvidosa – PECLD 
+ 
+6.1.1. Classificação de risco 
+ 
+A classificação de risco acontece com base em modelos de agentes externos, tanto para o mercado interno como 
+para o mercado externo, e estão classificados entre “A” e “D”, no qual “A” indica os clientes de baixo risco e “D” os 
+clientes de alto risco, sendo a parcela de clientes com PECLD classificada separadamente.
+
+[p. 41]
+Itaúsa S.A. 41 
+6.1.2. Movimentação 
+ 
+ 
+7. ESTOQUES 
+ 
+ 
+(1) Transferido do Ativo biológico. 
+ 
+A totalidade dos Estoques é proveniente da controlada Dexco. As movimentações das perdas estimadas na 
+realização dos estoques estão demonstradas a seguir: 
+ 
+ 
+8. DIVIDENDOS E JUROS SOBRE CAPITAL PRÓPRIO (“JCP”) A RECEBER
+
+[p. 42]
+Itaúsa S.A. 42 
+ 
+(1) Decorrente da reapresentação das Demonstrações Contábeis das coligadas (Nota 12.2.4). 
+ 
+9. OUTROS ATIVOS E PASSIVOS 
+ 
+ 
+9.1. Créditos com precatórios 
+ 
+A variação no período é decorrente do recebimento, em maio de 2026, de valores relacionados ao processo de 
+crédito de IPI da controlada Itautec, referentes a insumos isentos adquiridos na Zona Franca de Manaus, no 
+montante de R$141. 
+ 
+9.2. Ativos Não circulantes mantidos para venda 
+ 
+A variação no período refere-se à controlada Dexco, substancialmente, em decorrência da transferência de 
+imobilizados e intangíveis da fábrica de Urussanga (SC), após o encerramento da mesma e concentração das suas 
+operações industriais de revestimentos cerâmicos nas unidades de Criciúma (SC) e Botucatu (SP).
+
+[p. 43]
+Itaúsa S.A. 43 
+10. ATIVOS BIOLÓGICOS 
+ 
+As controladas indiretas Dexco Colômbia S.A., Duratex Florestal Ltda., Caetex Florestal S.A., Aroeira Florestal S.A., 
+Duratex Negócios Florestais S.A., Cambuí Florestal S.A. e Jatobá Florestal S.A., detêm reservas florestais de 
+eucalipto e pinus que são utilizadas, preponderantemente, como matéria prima na produção de painéis de madeira, 
+pisos e, complementarmente, para venda a terceiros. 
+ 
+As reservas florestais funcionam como garantia de suprimento das fábricas, bem como na proteção de riscos quanto 
+a futuros aumentos no preço da madeira. Trata-se de uma operação sustentável e integrada aos seus complexos 
+industriais que, aliada a uma rede de abastecimento, proporciona elevado grau de autossuficiência no suprimento 
+de madeira. 
+ 
+Em 30 de junho de 2026 as empresas possuíam, aproximadamente, 116,8 mil hectares em áreas de efetivo plantio 
+(112,2 mil hectares em 31 de dezembro de 2025) que são cultivadas nos Estados de São Paulo, Minas Gerais, Rio 
+Grande do Sul, Alagoas e na Colômbia. 
+ 
+O saldo dos ativos biológicos é composto pelo custo de formação das florestas e do diferencial do valor justo sobre 
+o custo de formação, conforme demonstrado abaixo: 
+ 
+ 
+A movimentação do período é a seguinte: 
+ 
+ 
+(1) Refere-se aos resultados não realizados decorrentes de operações realizadas entre empresas do Grupo. 
+ 
+10.1. Valor justo 
+ 
+O cálculo do valor justo dos ativos biológicos é classificado na hierarquia de valor justo, prevista no CPC 46 / IFRS 
+13 – Mensuração do Valor Justo, como nível 3, devido a sua complexidade e estrutura. É determinado em função 
+da estimativa de volume de madeira em ponto de colheita, aos preços atuais da madeira em pé, exceto para florestas 
+com até um ano de vida, que são mantidas ao custo, em decorrência do julgamento que esses valores se aproximam 
+de seu valor justo. 
+ 
+O valor justo considera a valoração dos volumes previstos em ponto de colheita pelos preços atuais de mercado. 
+As principais premissas utilizadas foram:
+
+[p. 44]
+Itaúsa S.A. 44 
+• Fluxo de caixa descontado: volume de madeira previsto em ponto de colheita, considerando os preços de 
+mercado atuais, líquidos dos custos de plantio a realizar e dos custos de capital das terras utilizadas no 
+plantio, mensurados a valor presente pela taxa de desconto em 30 de junho de 2026 de 8,8% a.a. (8,8% 
+a.a. em 31 de dezembro de 2025) que corresponde ao custo médio ponderado de capital da controlada 
+Dexco, o qual é revisado anualmente pela sua Administração. 
+ 
+• Preços da madeira: são obtidos em R$/metro cúbico por meio de pesquisas de preço de mercado, 
+divulgados por empresas especializadas em regiões e produtos similares aos da controlada Dexco, além 
+dos preços praticados em operações com terceiros, também em mercados ativos. 
+ 
+• Diferenciação: os volumes de colheita foram segregados e valorados conforme espécie: (i) pinus e eucalipto; 
+(ii) região; e (iii) destinação (serraria e processo). 
+ 
+• Volumes: estimativa dos volumes a serem colhidos (6º ano para o eucalipto e 12º ano para o pinus), com 
+base na produtividade média projetada para cada região e espécie. A produtividade média poderá variar em 
+função de idade, rotação, condições climáticas, qualidade das mudas, incêndios e outros riscos naturais. 
+Para as florestas forma das utilizam-se os volumes atuais de madeira que sã o estimados por meio de 
+inventários rotativos realizados por técnicos especialistas a partir do segundo ano de vida das florestas. 
+ 
+• Periodicidade: as expectativas em relação ao preço e volumes futuros da madeira são revistas no mínimo, 
+trimestralmente, ou na medida em que são concluídos os inventários rotativos. 
+ 
+10.1.1. Análise de sensibilidade 
+ 
+Dentre as variáveis que afetam o cálculo do valor justo dos ativos biológicos, destacam-se a variação no preço da 
+madeira e a taxa de desconto utilizada no fluxo de caixa. Segue abaixo o impacto no ativo biológico se consideradas 
+essas possíveis variáveis: 
+ 
+11. IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL 
+ 
+11.1. Conciliação da despesa de Imposto de renda e Contribuição social 
+ 
+Os valores registrados como despesas de IRPJ e CSLL nas Demonstrações Contábeis estão conciliados com as 
+alíquotas nominais previstas em lei, conforme demonstrado a seguir:
+
+[p. 45]
+Itaúsa S.A. 45 
+ 
+11.2. Imposto de Renda e Contribuição Social diferidos 
+ 
+O saldo e a movimentação do Imposto de renda e Contribuição social diferidos estão apresentados a seguir: 
+ 
+ 
+ 
+O Imposto de renda e Contribuição social diferidos, ativo e passivo, estão apresentados no Balanço Patrimonial 
+compensados pelas entidades tributáveis: 
+ 
+ 
+11.2.1. Ativos diferidos 
+ 
+A Administração da ITAÚSA e de suas controladas avaliaram a recuperabilidade dos ativos fiscais diferidos e 
+concluiu que a sua realização é provável. 
+ 
+11.2.2. Créditos fiscais não reconhecidos 
+ 
+A ITAÚSA e suas controladas possuem créditos fiscais relativos à prejuízos fiscais, bases negativas de contribuição 
+social e diferenças temporárias, não reconhecidos nas Demonstrações Contábeis, tendo em vista as incertezas na 
+sua realização.
+
+[p. 46]
+Itaúsa S.A. 46 
+Em 30 de junho de 2026, os créditos não reconhecidos na ITAÚSA correspondem ao montante de R$406 (R$191 
+em 31 de dezembro de 2025) e no consolidado no montante de R$486 (R$341 em 31 de dezembro de 2025). Os 
+referidos créditos poderão ser objeto de reconhecimento futuro, conforme as revisões anuais das projeções de 
+geração de lucros tributáveis, não havendo prazo de prescrição para a utilização dos mesmos. 
+ 
+11.3. Incerteza sobre tratamento de IRPJ e CSLL 
+ 
+A ITAÚSA e suas controladas mantêm certas discussões administrativas e judiciais relacionadas a certas posições 
+fiscais adotadas na apuração de IRPJ e CSLL. A descrição sobre estes processos e seus efeitos potenciais estão 
+apresentados nas notas 16.1.1.3 e 16.2.1. 
+ 
+12. INVESTIMENTOS 
+ 
+12.1. Saldos dos investimentos
+
+[p. 47]
+Itaúsa S.A. 47 
+12.2. Movimentação dos investimentos
+
+[p. 48]
+Itaúsa S.A. 48 
+ 
+(1) O valor de mercado está sendo apresentado apenas para as empresas investidas que possuem suas ações negociadas na bolsa de valores (B3) e representam o percentual de participação da ITAÚSA. 
+(2) O valor de mercado apresentado para o Itaú nibanco corresponde apenas à participação direta detida pela ITAÚSA. Considerando a participação indireta detida pela IPAR, o valor total de mercado 
+corresponde a R$174.434 (R$123.991 em 31 de dezembro de 2025). 
+(3) Em setembro de 2025 a Aegea reapresentou suas Demonstrações Contábeis referentes aos 1º e 2º trimestres, bem como os exercício s de 2024, 2023 e 2022 em decorrência, substancialmente, da revisão 
+do tratamento contábil aplicado à eliminação do lucro não realizado em operações com partes relacionadas. Os reflexos da reapresentação na ITAÚSA foram contabilizados integralmente no exercício de 2025, 
+dos quais R$66 foram registrados em contrapartida do Patrimônio líquido. 
+(4) Em 2025, a controlada Dexco, que já detinha participação societária na Infragás Infraestrutura de Gás para Região Sul S.A. (“I nfragás”), passou a exercer influência significativa sobre esse investimento ao 
+indicar dois membros para o Conselho de Administração. Com isso, Dexco passou a adotar o método de equivalência patrimonial para avaliar sua participação na empresa.
+
+[p. 49]
+Itaúsa S.A. 49 
+12.2.1. Aumento de Capital social na coligada Aegea 
+ 
+Em março de 2025, os acionistas da Aegea aprovaram o aumento de Capital social no montante de R$424, mediante a 
+emissão de 22.507.920 ações ordinárias. Todos os acionistas detentores de ações ordinárias subscreveram as novas 
+ações na mesma proporção de ações ordinárias detidas imediatamente antes do aumento, resultando em um aporte 
+pela ITAÚSA no montante de R$43. 
+ 
+Entre os meses de fevereiro e março de 2026, os acionistas da Aegea realizaram aumento de Capital social no montante 
+de R$1.200, mediante a emissão de 21.702.648 ações ordinárias. Apenas dois dos três acionistas detentores de ações 
+ordinárias, incluindo a ITAÚSA, participaram da subscrição das novas ações. Com isso, a ITAÚSA realizou um aporte 
+de R$418, dos quais R$3 corresponde ao valor patrimonial e R$415 alocado preliminarmente como ágio por expectativa 
+de rentabilidade futura ( goodwill). A segregação do valor justo dos ativos e passivos e do goodwill será concluída ao 
+longo dos próximos meses, após a emissão de laudo de avaliação realizado por avaliador independente. 
+ 
+O aporte elevou a participação da ITAÚSA no Capital social total da Aegea de 12,82% para 13,27%, sendo mantida as 
+mesmas condições estabelecidas anteriormente no Acordo de Acionistas. 
+ 
+12.2.2. Redução de Capital social na controlada em conjunto Alpargatas 
+ 
+Em setembro de 2025, os acionistas da Alpargatas aprovaram a redução do Capital social no montante de R$850, sem 
+cancelamento de ações, com a consequente restituição de valores aos acionistas. Após o cumprimento do prazo 
+regulamentar, a redução foi homologada em novembro de 2025, sendo repassado à ITAÚSA o montante de R$253. 
+ 
+12.2.3. Aquisição de participação adicional na controlada em conjunto Alpargatas 
+ 
+Entre os meses de outubro e dezembro de 2025, a ITAÚSA adquiriu na B3 (mercado balcão) 3.684.900 ações 
+preferenciais da Alpargatas pelo montante total de R$39. As ações adquiridas representam 0,54% do total de ações da 
+Alpargatas, passando a ITAÚSA a deter uma participação total de 29,95% (desconsiderando as ações em tesouraria). 
+ 
+Entre os meses de março e junho de 2026, a ITAÚSA adquiriu na B3 4.898.854 ações preferenciais da Alpargatas pelo 
+montante total de R$58. As ações adquiridas representam 0,72% do total de ações da Alpargatas, passando a ITAÚSA 
+a deter uma participação total de 30,62% (desconsiderando as ações em tesouraria). 
+ 
+12.2.4. Reapresentação das Demonstrações Contábeis nas coligadas Aegea e Águas do Rio 
+Investimentos 
+ 
+Em abril de 2026, as coligadas Aegea e Águas do Rio Investimentos realizaram a divulgação de suas Demonstrações 
+Contábeis auditadas referentes ao exercício social encerrado em 31 de dezembro de 2025, nas quais foram refletidos 
+ajustes contábeis decorrentes de revis ões de políticas contábeis e reavaliaç ões de estimativas que demandaram a 
+reapresentação de exercícios anteriores. 
+ 
+Considerando a participação acionária detida pela ITAÚSA, referidos ajustes resultaram na redução do saldo do 
+Investimento em contrapartida do Patrimônio líquido no m ontante total de R$656, sendo R$565 relativos à Aegea e 
+R$91 relativos à Águas do Rio Investimentos. 
+ 
+A Administração considerou que os ajustes não são significativos já que representam menos de 1% do Patrimônio 
+líquido da ITAÚSA em 31 de dezembro de 2025 e 30 de junho de 2026. 
+ 
+12.2.5. Resultado de participação societária na controlada Itautec 
+ 
+O Resultado de participação societária na controlada Itautec foi impactado, substancialmente, pelo reconhecimento do 
+montante a receber de R$1.256 decorrente da retirada de patrocínio do Plano PAI-CD (Nota 23.1.1.1).
+
+[p. 50]
+Itaúsa S.A. 50 
+12.3. Reconciliação dos investimentos 
+ 
+ 
+ 
+As ações preferenciais detidas pela ITAÚSA, tanto na Aegea quanto na Águas do Rio Investimentos, possuem 
+características específicas previstas no acordo de acionist as e, desta forma, a equivalência patrimonial não reflete o 
+percentual de participação total em relação a sua remuneração. 
+ 
+As ações preferenciais de classe D da Aegea possuem direit o a dividendos de 62,5% do lu cro ajustado do exercício 
+(equivalente a 20,53% para as ações detidas pela ITAÚSA), não participando de distribuições remanescentes e dos 
+prejuízos acumulados (17,5% do lucro ajustado do exercício - equivalente a 5,75% para as ações detidas pela ITAÚSA 
+em 31 de dezembro de 2025). Em 30 de junho de 2026 o saldo contábil destas ações é de R$828 (R$994 em 31 de 
+dezembro de 2025). 
+ 
+Já as ações preferenciais de classe A da Águas do Rio Investimentos (única classe de ações detida pela ITAÚSA), em 
+caso de lucro, possuem direito a dividendo de 15% do lucro ajustado do exercício (equivalente a 0,95% para as ações 
+detidas pela ITAÚSA) e, em caso de prejuízo, participam com 5,01% que corresponde ao percentual de participação do 
+capital votante (até 31 de dezembro de 2025 representavam 5,12%).
+
+[p. 51]
+Itaúsa S.A. 51 
+12.4. Informações resumidas das investidas relevantes 
+ 
+ 
+ 
+(1) A ITAÚSA detém participação direta no Itaú nibanco de 19,98% (19,98% em 31 de dezembro de 2025) e indireta de 17,54% (17,53% 31 de dezembro de 2025), por meio do investimento na controlada em 
+conjunto IPAR, que detêm 26,36% (26,35% em 31 de dezembro de 2025) de participação direta no Itaú nibanco, totalizando 37,52% (37,50% em 31 de dezembro de 2025) de participação no capital social. 
+(2) A participação direta nas ações ordinárias do Itaú nibanco é de 39,21% (39,21% em 31 de dezembro de 2025) e indireta de 25,86 % (25,86% em 31 de dezembro de 2025), por meio do investimento na 
+controlada em conjunto IPAR, que detêm 51,71% (51,71% em 31 de dezembro de 2025) de participação direta nas ações ordinárias do Itaú nibanco, totalizando 65,06% (65,06% em 31 de dezembro de 2025) 
+de participação no capital votante.
+
+[p. 52]
+Itaúsa S.A. 52
+
+[p. 53]
+Itaúsa S.A. 53 
+13. IMOBILIZADO E INTANGÍVEL 
+ 
+ 
+13.1. Imobilizado 
+ 
+ 
+ 
+ 
+Consolidado
+Terrenos Construções e
+benfeitorias
+Máquinas,
+instalações e
+equipamentos
+Móveis e
+utensílios Veículos Outros Imobilizados
+em andamento Total
+Saldo em 31/12/2024 707 846 2.199 20 19 141 799 4.731
+Aquisições 7 6 133 2 1 12 236 397
+Baixas (14) 1 (2) (1) (1) - - (17)
+Depreciação - (49) (314) (4) (5) (30) - (402)
+Transferências - 22 229 2 1 46 (300) -
+Redução ao valor recuperável - Provisão - (5) (120) - - - - (125)
+Redução ao valor recuperável - Reversão - - 6 --- - 6
+Transferência para Propriedade para investimento ( 7 ) ( 4 4 ) ---- -( 5 1 )
+Transferência para Ativos mantidos para venda (6) (64) (9) - - (1) - (80)
+Outros - 2 5 --- 1 8
+Saldo em 31/12/2025 687 715 2.127 19 15 168 736 4.467
+Custo 687 1.286 6.001 60 55 402 736 9.227
+Depreciação acumulada - (571) (3.874) (41) (40) (234) - (4.760)
+Taxas médias de depreciação (% a.a.) - 3,3% 4,9% 4,7% 8,3% De 10,0% a
+18,1% --
+Saldo em 31/12/2025 687 715 2.127 19 15 168 736 4.467
+Aquisições -1 5 6 - - 2 4 0 9 9
+Baixas (59) - (3) - - - - (62)
+Depreciação - (22) (163) (2) (2) (15) - (204)
+Transferências - 9 82 - 5 18 (114) -
+Redução ao valor recuperável - Provisão - - ( 6 ) --- - ( 6 )
+Redução ao valor recuperável - Reversão - - 5 --- - 5
+Transferência para Ativos mantidos para venda (7) (26) (72) (2) - (13) - (120)
+Outros - 3 41 - - 19
+Saldo em 30/06/2026 621 680 2.030 16 18 160 663 4.188
+Custo 621 1.269 5.996 61 60 395 663 9.065
+Depreciação acumulada - (589) (3.966) (45) (42) (235) - (4.877)
+Taxas médias de depreciação (% a.a.) - 3,6% 6,8% 9,5% 11,9% De 10,1% a
+19,7% --
+
+[p. 54]
+Itaúsa S.A. 54 
+13.1.1. Imobilizado em garantia 
+ 
+Em 30 de junho de 2026, a controlada Dexco não possuía ativos imobilizados oferecidos como garantia de processos 
+judiciais (R$1 em 31 de dezembro de 2025). 
+ 
+Adicionalmente, a controlada Dexco po ssui ativos imobilizados oferecidos co mo garantia em Empréstimos e 
+financiamentos (Nota 15.1). 
+ 
+14. FORNECEDORES 
+ 
+ 
+14.1. Risco sacado 
+ 
+A controlada Dexco firmou convênios com grandes instituições financeiras com o objetivo de permitir aos 
+fornecedores do mercado interno a antecipação de seus recebíveis. Nessas operações, os fornecedores transferem 
+o direito de recebimento dos títulos provenientes das vendas das suas mercadorias para as instituições financeiras 
+e, em troca, recebem antecipadamente esses recursos da instituição financeira descontado por um deságio, cobrado 
+diretamente pelas instituições financeiras no momento da cessão, que por sua vez, passam a ser credoras da 
+operação. Vale destacar que, independentemente dos convênios com as instituições financeiras, as condições 
+comerciais são sempre acordadas entre a Dexco e os fornecedores. Em 30 de junho de 2026, o prazo médio dessas 
+operações é de 85 dias (71 dias em 31 de dezembro 2025) e a taxa média ponderada praticada pelas instituições 
+financeiras corresponde a 1% a.m. (1% a.m. em 31 de dezembro de 2025). 
+ 
+A Administração avaliou que a substância econômica dessas transações é de natureza operacional e que os 
+potenciais efeitos de ajuste a valor presente dessas operações são imateriais para mensuração e divulgação. 
+Adicionalmente, foi avaliado que estas transações não geraram modificações substanciais nos passivos originais 
+com fornecedores, sendo os pagamentos desses títulos apresentados como saídas de caixa das atividades 
+operacionais, na Demonstração do Fluxo de Caixa, de acordo com o CPC 03 (R2) / IAS 7, conjuntamente com os 
+demais pagamentos com fornecedores. 
+ 
+15. EMPRÉSTIMOS, FINANCIAMENTOS E DEBÊNTURES
+
+[p. 55]
+Itaúsa S.A. 55 
+15.1. Empréstimos e Financiamentos 
+ 
+(1) EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization) lucro antes dos juros e impostos (sobre o lucro) depre ciação e 
+amortização. 
+ 
+30/06/2026 31/12/2025
+Modalidade Data da
+contratação Vencimento Indicador
+financeiro Garantias Encargos (%
+a.a.) Amortização Circulante Não
+circulante Circulante Não
+circulante
+Controladora
+Moeda nacional
+Notas comerciais privadas fev-24
+1ª série - fev/29 -- -- CDI+2,0% Parcela única no
+vencimento
+44 731 48 7312ª série - fev/31 -- -- CDI+2,2% 2 parcelas anuais
+(fev/30 e fev/31)
+3ª série - fev/34 -- -- CDI+2,5% 3 parcelas anuais
+(fev/32, fev/33 e fev/34)
+Total Controladora 44 731 48 - 731
+Controladas
+Moeda nacional
+FINAME direto (com swap) mar-21 fev-38 --
+(i) Hipoteca
+(ii) Aval - 67%
+ITAÚSA e 33%
+pessoas
+físicas
+IPCA+ 3,82% até
+4,41%
+Anual após período de
+carência de acordo com
+cada tranche
+127 425 120 436
+Nota comercial - Lastro do CRA
+(com swap) dez-23 dez-33 -- Pré 11,00% 8°,9° e 10° ano 35 276 35 282
+Nota comercial - Lastro do CRA
+(com swap)
+jun/22 e
+out/23 jun/28 e jun/32
+Dívida líquida /
+EBITDA(1) ≤ a
+4,0
+-- IPCA + 6,2% até
+6,44% 8°,9° e 10° ano 58 872 55 863
+Nota comercial - Lastro do CRA jun/22 jun-28 -- -- CDI + 0,6% No vencimento 1 200 1 200
+FINEX - Resolução nº 4.131 abr-25 ago/28 -- -- CDI + 0,91% No vencimento 50 400 76 898
+Nota comercial - Lastro do CRA
+(com swap)
+jun/22 e
+out/23 jun/32 e out/33 -- Aval Dexco IPCA + 6,2% até
+6,44% 8°,9° e 10° ano 77 1.136 75 1.126
+Fundo Constitucional de
+Financiamento do Nordeste -
+FNE
+dez-22 dez-32 --
+Fiança Duratex
+Florestal e
+Imobilizados
+Pré 4,71% até
+7,53% Anual 5 23 5 22
+Cédula de Produto Rural - CPR abr-24 abr-27 -- Aval Dexco CDI + 0,75% No vencimento 59 - - 55
+Cédula de Produto Rural - CPR dez-25 dez-33 -- Aval Dexco 100% CDI 7° e 8° ano 3 1.563 3 1.275
+Nota Comercial dez-25 mar-26 -- -- CDI + 0,40% No vencimento - - 101 -
+Total controladas 415 4.895 471 5.157
+Total moeda nacional 459 5.626 519 5.888
+Controladas
+Moeda estrangeira
+Resolução nº 4.131 (com swap) jan-22 jan-27
+Dívida líquida /
+EBITDA(1) ≤ a
+4,0
+-- US$ + 2,26% No vencimento 393 - 5 413
+Total moeda estrangeira 393 - 5 413
+Total Consolidado 852 5.626 524 6.301
+
+[p. 56]
+Itaúsa S.A. 56 
+15.1.1. Movimentação 
+ 
+ 
+ 
+15.1.1.1. Novos empréstimos - Consolidado 
+ 
+2025 
+ 
+A controlada Dexco e sua controlada Duratex Florestal realizaram as seguintes captações de empréstimos: 
+ 
+(a) Dexco 
+ 
+R$500 – FINEX (Resolução nº 4.131) 
+ 
+(b) Duratex Florestal 
+ 
+R$1.307 – Cédulas de Produto Rural (CPR) 
+R$175 – Notas Comerciais 
+ 
+2026 
+ 
+(a) Duratex Florestal 
+ 
+R$301 – Cédulas de Produto Rural (CPR) – Complemento da 1ª emissão 
+ 
+15.1.2. Prazo de vencimento 
+ 
+ 
+Nota Controladora Consolidado
+Saldo em 31/12/2024 767 6.640
+Captações 15.1.1.1 - 1.982
+Custo de transação - (39)
+Juros e atualização monetária 119 507
+Variação no valor justo - 60
+Amortização de principal - (1.784)
+Pagamentos de juros e atualização monetária (107) (591)
+Apropriação de custo de transação - 50
+Saldo em 31/12/2025 779 6.825
+Captações 15.1.1.1 - 301
+Custo de transação - (8)
+Juros e atualização monetária 59 425
+Variação no valor justo - (78)
+Amortização de principal - (615)
+Pagamentos de juros e atualização monetária (63) (382)
+Apropriação de custo de transação - 10
+Saldo em 30/06/2026 775 6.478
+Circulante 44 852
+Não circulante 731 5.626
+
+[p. 57]
+Itaúsa S.A. 57 
+15.2. Debêntures 
+ 
+15.2.1. Movimentação 
+ 
+ 
+ 
+15.2.1.1. Resgates antecipados de debêntures 
+ 
+(a) ITAÚSA 
+ 
+Em julho de 2025 a ITAÚSA realizou o resgate antecipado da totalidade das debêntures da 2ª série da 4ª emissão, 
+no valor de R$1.250, cujo prêmio de resgate foi de R$25. Para o resgate, foram utilizados, substancialmente, os 
+recursos obtidos no aumento de capital concluído em maio de 2025. 
+ 
+Em setembro de 2025 a ITAÚSA realizou o resgate antecipado da totalidade da 6ª emissão de debêntures, no valor 
+de R$ 1.250, cujo prêmio de resgate foi de R$22. 
+ 
+(b) Dexco 
+ 
+Em outubro de 2025, a controlada Dexco realizou o resgate antecipado da totalidade da 2ª emissão de debêntures, 
+no valor de R$600. 
+ 
+Modalidade Emissor Data da
+contratação Vencimento
+Valor da
+captação
+(R$ milhões)
+Indicador
+financeiro
+Encargos
+(% a.a.) Amortização
+30/06/2026 31/12/2025
+Circulante Não
+circulante Circulante Não
+circulante
+Controladora
+7ª emissão ITAÚSA Jul/24 Jul/34 1.300 - CDI + 0,88%
+Juros anuais e
+principal em 3
+parcelas anuais
+e sucessivas
+(2032 a 2034)
+189 1.300 87 1.300
+8ª emissão ITAÚSA Ago/25 Set/35 1.000 - CDI + 0,60%
+Juros anuais e
+principal em 4
+parcelas anuais
+e sucessivas
+(2032 a 2035)
+119 1.000 45 1.000
+Custos de transação ITAÚSA - - (9) - - Mensal (1) (7) (1) (7)
+Total Controladora 307 2.293 131 2.293
+Consolidado
+3ª emissão Dexco Out/25 Out/31 1.500 - CDI + 0,53%
+Juros
+semestrais e
+principal em 2
+parcelas anuais
+(2030 e 2031)
+44 1.500 40 1.500
+Custos de transação Dexco - - - - - Mensal (1) (3) (1) (3)
+Total Consolidado 350 3.790 170 3.790
+Nota Controladora Consolidado
+Saldo em 31/12/2024 3.865 4.472
+Captações 15.2.1.2 1.000 2.498
+C u s t od et r a n s a ç ã o (5) (5)
+Juros e atualização monetária 530 655
+Apropriação do custo de transação 55
+Amortização de principal 15.2.1.1 (2.500) (3.100)
+Pagamentos de juros e atualização monetária (471) (563)
+Saldo em 31/12/2025 2.424 3.962
+Juros e atualização monetária 176 282
+Pagamentos de juros e atualização monetária - (104)
+Saldo em 30/06/2026 2.600 4.140
+Circulante 307 350
+Não circulante 2.293 3.790
+
+[p. 58]
+Itaúsa S.A. 58 
+15.2.1.2. Emissão de debêntures 
+ 
+(a) ITAÚSA 
+ 
+Em agosto de 2025 a ITAÚSA realizou a 8ª emissão de debêntures não conversíveis em ações, em série única, no 
+montante de R$1.000. Os recursos captados foram integralmente utilizados para realizar o resgate antecipado 
+facultativo da 6ª emissão de debêntures (Nota 15.2.1.1). 
+ 
+(b) Dexco 
+ 
+Em outubro de 2025, a controlada Dexco realizou a 3ª emissão de debêntures simples, não conversíveis em ações, 
+da espécie quirografária, em série única, no montante de R$1.500. A emissão teve por objetivo otimizar o perfil de 
+endividamento, reduzir os custos financeiros e propiciar geração de valor para seus acionistas. 
+ 
+15.2.2. Prazo de vencimento 
+ 
+ 
+16. PROVISÕES, ATIVOS E PASSIVOS CONTINGENTES E GARANTIAS 
+ 
+16.1. Provisões e Garantias 
+ 
+A ITAÚSA e suas controladas são partes em processos judiciais e administrativos de natureza trabalhista, cível, 
+tributária e previdenciária, decorrentes do curso normal de seus negócios. 
+ 
+A Administração, com base na opinião de seus consultores jurídicos, acredita que as provisões constituídas são 
+suficientes para cobrir as eventuais perdas com processos judiciais e administrativos. 
+ 
+No curso dos processos, a ITAÚSA e suas controladas utilizam algumas m odalidades de garantias, entre elas 
+depósitos judiciais, seguro garantia e fiança bancária, com a finalidade de seguir com as discussões. 
+ 
+16.1.1. Provisões 
+ 
+16.1.1.1. Composição 
+ 
+Controladora Consolidado
+Nota 30/06/2026 31/12/202 5 30/06/2026 31/12/2025
+Provisões vinculadas a processos administrativos e judiciais 16.1.1.2 2.195 2.129 2.458 2.395
+Outras provisões -- 2 4
+Total 2.195 2.129 2.460 2.399
+
+[p. 59]
+Itaúsa S.A. 59 
+16.1.1.2. Provisões vinculadas a processos administrativos e judiciais 
+ 
+ 
+(1) Correspondem aos depósitos vinculados às referidas provisões. Os depósitos relativos aos processos não provisionados, avaliado s como 
+possíveis ou remotos, estão apresentados no Balanço Patrimonial na rubrica “Depósitos judiciais”. 
+ 
+(a) Tributários 
+ 
+As provisões equivalem ao valor principal dos tributos envolvidos em discussões administrativas ou judiciais, 
+acrescido de juros e, quando aplicável, multa e encargos. 
+ 
+(b) Trabalhistas 
+ 
+Referem-se a processos que discutem, de forma substancial, pretensos direitos trabalhistas relativos a horas extras, 
+doença ocupacional, equiparação salarial e responsabilidade subsidiária. 
+ 
+(c) Cíveis 
+ 
+Referem-se, principalmente, a ações por danos morais e materiais.
+
+[p. 60]
+Itaúsa S.A. 60 
+16.1.1.3. Principais processos 
+ 
+16.1.2. Garantias 
+ 
+(a) Depósitos Judiciais 
+ 
+(1) Corresponde aos valores depositados pela Itaúsa e suas controladas, os quais, de acordo com a análise dos consultores jurídico s, foram 
+classificados como perda possível e remota, não havendo, assim, a respectiva provisão. 
+ 
+(b) Demais garantias 
+ 
+(1) Outras garantias contratadas, para alguns processos judiciais, como seguro garantia e fiança bancária. 
+ 
+16.2. Passivos contingentes 
+ 
+A ITAÚSA e suas controladas possuem processos em discussão de natureza tributária, trabalhista e cível, avaliados 
+pelos consultores jurídicos com risco de perda possível, que não requerem a constituição de provisão, demonstrados 
+a seguir:
+
+[p. 61]
+Itaúsa S.A. 61 
+16.2.1. Tributários 
+ 
+Abaixo destacamos as principais discussões referentes aos passivos contingentes: 
+ 
+(1) Na ITAÚSA, corresponde a R$231 (R$232 em 31 de dezembro de 2025). 
+ 
+16.3. Ativos contingentes 
+ 
+A ITAÚSA e suas controladas estão discutindo judicialmente o ressarcimento de tributos e contribuições, bem como 
+são parte em processos cíveis, nos quais possuem direitos ou expectativas de direitos a receber. 
+ 
+O quadro abaixo apresenta os principais processos que, de acordo com a avaliação dos assessores jurídicos, têm 
+probabilidade de êxito considerada pr ovável. Por serem ativos contingent es, os valores respectivos a esses 
+processos e a contabilização ocorrerão na forma e proporção da decisão judicial favorável, quando esta se der de 
+forma definitiva. Desta forma, estes processos não estão reconhecidos nas Demonstrações Contábeis.
+
+[p. 62]
+Itaúsa S.A. 62 
+16.3.1. Bônus do Tesouro Nacional – (“BTN”) 
+ 
+No exercício de 2020, a ITAÚSA e a controlada Itautec obtiveram decisão judicial definitiva em processo ajuizado 
+que visava o reconhecimento de crédito decorrente da incorreta atualização monetária aplicada pelo Governo 
+quando do resgate do BTN, adquirido no âmbito da Lei nº 7.777/89, que previa a correção pelo Índice de Preço ao 
+Consumidor - IPC ou por variação cambial, à escolha do autor. Contudo, por ocasião do resgate, o indexador do 
+BTN foi alterado para o Índice de Reajuste de Valores Fiscais - IRVF e variação cambial do dólar americano, em 
+razão da superveniência do Plano Collor e da Lei nº 8.088/1990, resultando em redução do valor resgatado. O valor 
+do crédito é discutido em execução de sentença que, após o trânsito em julgado, será pago mediante expedição de 
+precatório judicial. 
+ 
+17. PATRIMÔNIO LÍQUIDO 
+ 
+17.1. Capital social 
+ 
+O Capital social em 30 de junho de 2026 é de R$83.689 (R$83.689 em 31 de dezembro de 2025), sendo composto 
+por ações escriturais e sem valor nominal. 
+ 
+A composição do Capital social está apresentada conforme a seguir: 
+ 
+ 
+As ações preferenciais não possuem direito a voto, co ntudo, apresentam as seguintes vantagens aos seus 
+detentores: 
+ 
+• Prioridade no recebimento de dividendo mínimo anual de R$0,01 por ação, não cumulativo, assegurado 
+dividendo, pelo menos, igual ao das ações ordinárias; e 
+ 
+• Direito de, em eventual alienação de controle, ser incluídas em oferta pública de aquisição de ações, de 
+modo a lhes assegurar o preço igual a 80% do valor pago por ação com direito a voto, integrante do bloco 
+de controle. 
+ 
+O Capital social, por deliberação do Conselho de Administração, poderá ser aumentado até o limite de 
+13.500.000.000 de ações, sendo até 4.500.000.000 em ações ordinárias e 9.000.000.000 em ações preferenciais.
+
+[p. 63]
+Itaúsa S.A. 63 
+17.2. Reservas de lucros 
+ 
+ 
+17.3. Ajuste de avaliação patrimonial 
+ 
+ 
+O saldo refere-se, substancialmente, à equivalência patrimonial sobre os ajustes de avaliação patrimonial das 
+controladas, controladas em conjunto e coligadas. 
+ 
+17.4. Ações em tesouraria 
+ 
+Em maio de 2026 a ITAÚSA adquiriu o total de 5.000.000 de ações preferenciais, de sua emissão, para utilização 
+no âmbito do Plano de Incentivos a Longo Prazo (Plano ILP), aprovado pelo Conselho de Administração em 11 de 
+maio de 2026. 
+ 
+Em abril e junho de 2026, foi realizada a entrega de ações relativas ao 1º, 2º e 3º programa. 
+ 
+ 
+ 
+ 
+ 
+Controladora
+Quantidade de
+ações Valor
+Preferenciais
+Saldo em 31/12/2024 2.890.452 (30)
+Entrega de ações - Plano ILP (596.029) 7
+Bonificação de ações 45.888 -
+Saldo em 31/12/2025 2.340.311 (23)
+Aquisição de ações 5.000.000 (65)
+Entrega de ações - Plano ILP (1.003.442) 11
+Saldo em 30/06/2026 6.336.869 (77)
+
+[p. 64]
+Itaúsa S.A. 64 
+17.5. Destinação do resultado e Dividendos e Juros sobre capital próprio a pagar 
+ 
+17.5.1. Destinação do resultado 
+ 
+ 
+ 
+As ações de ambas as espécies participam dos lucros distribuídos em igualdade de condições, depois de 
+assegurado às ordinárias, dividendo igual ao mínimo prioritário anual de R$0,01 por ação a ser pago às ações 
+preferenciais. 
+ 
+O valor por ação dos juros sobre capital próprio, para o período de 2026, está apresentado a seguir: 
+17.5.2. Dividendos e Juros sobre capital próprio a pagar 
+ 
+ 
+Controladora
+01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+Lucro líquido 9.654 7.980
+(-) Reserva legal (483) (399)
+Base de cálculo para Dividendos/JCP 9.171 7.581
+Dividendo mínimo obrigatório (25%) 2.293 1.895
+Destinação:
+Distribuição aos acionistas
+JCP 3.391 2.230
+JCP propostos - 977
+Total de distribuição aos acionistas 3.391 3.207
+Reservas de lucros 5.780 4.374
+Total 9.171 7.581
+% bruto pertencente aos acionistas 36,97% 42,30%
+
+[p. 65]
+Itaúsa S.A. 65 
+18. RECEITA LÍQUIDA 
+ 
+19. RESULTADO POR NATUREZA
+
+[p. 66]
+Itaúsa S.A. 66 
+20. OUTRAS RECEITAS E DESPESAS 
+ 
+ 
+20.1. Provisão para perda no valor recuperável – Controladora 
+ 
+Em maio de 2026, a ITAÚSA adquiriu, da coligada Aegea, 29,13% do capital social da Livorno Participações S.A. 
+(“Livorno”), pelo montante de R$23. A Livorno foi constituída como veículo para a potencial aquisição de ações 
+representativas de 30% do capital social da Companhia de Saneamento de Minas Gerais – Copasa MG. 
+ 
+Em junho de 2026, após o anúncio de retificação divulgado pela Copasa MG, que estabeleceu o preço mínimo por 
+ação, a ITAÚSA decidiu, em conjunto com os demais acionistas da Livorno, não apresentar nova proposta no 
+processo de aquisição de ações. Como os valores aportados na Livorno foram utilizados para custear os gastos 
+relacionados à participação no leilão, foi constituída provisão para perda no valor recuperável desse investimento. 
+ 
+21. RESULTADO FINANCEIRO 
+ 
+ 
+ 
+21.1. PIS/COFINS sobre Receitas financeiras 
+ 
+Referem-se, substancialmente, ao PIS/COFINS incidentes sobre a receita com JCP.
+
+[p. 67]
+Itaúsa S.A. 67 
+22. LUCRO LÍQUIDO POR AÇÃO 
+ 
+ 
+ 
+23. BENEFÍCIOS A EMPREGADOS 
+ 
+23.1. Planos de previdência privada 
+ 
+A ITAÚSA e suas controladas no Brasil fazem parte do grupo de patrocinadoras da Fundação Itaúsa Industrial 
+(“Fundação”), entidade sem fins lucrativos, que tem como finalidade operar planos privados de concessão de 
+benefícios de pecúlios ou de renda complementares ou assemelhados aos da Previdência Social, sendo regulada 
+pelos órgãos competentes. 
+ 
+A Fundação administra o Plano de Contribuição Definida – PAI – CD (“Plano PAI-CD”) e o Plano de Benefícios 
+Definido - BD (“Plano BD”), sendo que os colaboradores contam com a opção de participar voluntariamente do Plano 
+PAI-CD. 
+ 
+23.1.1. Plano de Contribuição Definida – Plano PAI-CD 
+ 
+Este plano é oferecido a todos os colaboradores das patrocinadoras e contava em 30 de junho de 2026 com 6.016 
+participantes (5.793 em 31 de dezembro de 2025). 
+ 
+No Plano PAI-CD não há risco atuarial para as patrocinadoras, ou seja, não há obrigação adicional de pagamento 
+depois que as contribuições são efetuadas. O regulamento vigente prevê a contribuição das patrocinadoras com 
+percentual entre 50% e 100% do montante aportado pelos funcionários. 
+ 
+Devido a posição superavitária do plano, demonstrada abaixo, a ITAÚSA e suas controladas não realizaram 
+contribuições nos exercícios de 2026 e 2025. 
+ 
+23.1.1.1 Fundo Previdencial 
+ 
+Corresponde às contribuições das patrocinadoras que permaneceram no plano em decorrência dos participantes 
+terem optado pelo resgate ou pela aposentadoria antecipada, sendo utilizado para compensação das contribuições 
+futuras, conforme previsto no regulamento do Plano PAI-CD. 
+ 
+O valor presente das contribuições normais futuras, utilizando-se o percentual médio de contribuição normal das 
+patrocinadoras, foi calculado pelos atuários independentes e está apresentado a seguir: 
+ 
+ 
+Controladora e Consolidado
+01/04 a
+30/06/2026
+01/04 a
+30/06/2025
+01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+Numerador
+Lucro líquido atribuível aos acionistas controladores
+Preferenciais 3.441 2.668 6.335 5.237
+Ordinárias 1.803 1.398 3.319 2.743
+5.244 4.066 9.654 7.980
+Denominador
+Média ponderada das ações em circulação
+Preferenciais 7.355.171.178 7.324.922.970 7.356.441.850 7.292.068.413
+Ordinárias 3.853.634.012 3.836.532.277 3.853.634.012 3.819.430.541
+11.208.805.190 11.161.455.247 11.210.075.862 11.111.498.954
+Lucro líquido por ação - Básico e Diluído (Em Reais)
+Preferenciais 0,46785 0,36429 0,86119 0,71817
+Ordinárias 0,46785 0,36429 0,86119 0,71817
+Controladora Consolidado
+30/06/2026 31/12/2025 30/06/2026 31/12/2025
+Valor presente das obrigações (168) (178) (1.555) (2.373)
+Valor justo dos ativos 183 193 1.724 3.818
+Restrição no reconhecimento do ativo (a) - - (64) (1.342)
+Ativo reconhecido (Não circulante) 15 15 105 103
+
+[p. 68]
+Itaúsa S.A. 68 
+(a) Retirada de patrocínio – Pl ano PAI-CD (Controlada Itautec) 
+ 
+Em novembro de 2023, a controlada Itautec informou à Fundação sua decisão de rescindir o convênio de adesão e 
+retirar o patrocínio do Plano PAI-CD. Como consequência, foi protocolado pedido de retirada de patrocínio perante 
+a PREVIC que, após a análise do processo, aprovou a operação e autorizou, por meio da Portaria PREVIC nº 
+446/2026, a destinação dos recursos do Fundo Previdencial à Itautec. A aprovação do processo não altera os direitos 
+acumulados dos participantes e assistidos, que permanecem assegurados na forma da regulamentação aplicável 
+ao Plano PAI-CD e da legislação de previdência complementar. 
+ 
+Após a autorização da PREVIC, a Fundação iniciou os procedimentos para concluir a retirada de patrocínio. Como 
+resultado, a Itautec reconheceu o montante a receber de R$1.256, sendo R$147 em contrapartida da rubrica “Outras 
+receitas” (Nota 20) e R$1.109 em contrapartida da rubrica “Resultado financeiro” (Nota 21), valor este recebido em 
+1º de julho de 2026. 
+ 
+23.1.2. Plano de Benefício Definido – Plano BD 
+ 
+É um plano que tem como finalidade básica a concessão de benefícios que, sob a forma de renda mensal vitalícia, 
+se destina a complementar, nos termos de seu regulamento, os proventos pagos pela Previdência Social. Este plano 
+encontra-se em extinção, sendo vedado o acesso de novos participantes. 
+ 
+Os recursos do plano são convertidos em benefícios em caso de aposentadoria por tempo de contribuição, especial, 
+por idade e invalidez além de prêmio por aposentadoria, renda mensal vitalícia e pecúlio por morte. 
+ 
+Em junho de 2026 a PREVIC aprovou a destinação de reserva especial do Plano BD, a ser restituída a todas as 
+patrocinadoras, em 36 parcelas mensais a partir do mês de junho de 2026, no montante de R$4 na ITAÚSA e de 
+R$30 no consolidado, dos quais R$3 e R$26, respectivame nte, foram reconhecidos em contrapartida da rubrica 
+“Outras receitas” (Nota 20) e a diferença reconhecida em contrapartida do “Resultado financeiro”. 
+ 
+Devido a posição superavitária do plano, a ITAÚSA e suas controladas não esperam realizar contribuições no 
+exercício de 2026. 
+ 
+24. INFORMAÇÕES POR SEGMENTO 
+ 
+Os segmentos operacionais divulgados refletem, de modo consistente, a gestão para tomada de decisões e o 
+acompanhamento de resultados do Comitê Executivo, principal tomador das decisões operacionais na ITAÚSA. 
+ 
+As empresas nas quais a ITAÚSA investe têm autonomia para definir seus padrões diferenciados e específicos na 
+gestão e segmentação dos seus respectivos negócios. 
+ 
+As políticas contábeis de cada segmento são uniformes às utilizadas pela ITAÚSA, em todos os aspectos materiais. 
+Os segmentos possuem carteira de clientes pulverizada, sem nenhuma concentração de receita. 
+ 
+Os segmentos operacionais da ITAÚSA foram definidos de acordo com os relatórios apresentados ao Comitê 
+Executivo. Os segmentos considerados na Demonstração Consolidada da ITAÚSA são os seguintes: 
+ 
+• Dexco: Apresenta 4 segmentos de negócio: (i) Metais e Louças – fabrica e comercializa louças e metais 
+sanitários, negociados sob as marcas Deca, Hydra e Elizabeth; (ii) Revestimentos - produz e comercializa 
+revestimentos, utilizando as marcas Ceusa, Portinari e Castel atto; (iii) Painéis de Madeira – fabrica e 
+comercializa painéis de madeira de média e alta densidade, mais conhecidos como MDP, MDF e HDF, 
+utilizando a marca Duratex e pisos la minados da marca Du rafloor; e (iv) Celulo se Solúvel – fabrica e 
+comercializa celulose solúvel em parceria com a empresa austríaca Lenzing. 
+ 
+• Outros: Referem-se às informações da Itautec e ITH Zux Cayman.
+
+[p. 69]
+Itaúsa S.A. 69 
+ 
+ 
+Embora o Itaú Unibanco, a Motiva, a Alpargatas, a Aegea, a Copa Energia e a NTS não sejam empresas controladas 
+e, por consequência, não sejam consideradas nas Demonstrações Contábeis Consolidadas, a Administração revisa 
+suas informações e as considera como um segmento de negócio por serem parte do portfólio de investimentos da 
+ITAÚSA. O detalhamento de suas atividades e o resumo de suas informações financeiras está demonstrado a 
+seguir: 
+ 
+• Itaú Unibanco : é uma instituição financeira que oferece, diretamente ou por intermédio de suas 
+subsidiárias, uma ampla gama de produtos de crédito e outros serviços financeiros a uma base 
+diversificada de clientes pessoas físicas e jurídicas, no Brasil e no Exterior. 
+ 
+• Motiva: opera empresas de concessão de infraestrutura e mobilidade na América Latina, atuando nos 
+segmentos de concessão de rodovias, mobilidade urbana, aeroportos e serviços. 
+ 
+• Alpargatas: suas atividades são a fabricação e comercialização de calçados e respectivos componentes; 
+artigos de vestuário; artefatos têxteis e respectivos componentes; e artigos de couro, de resina e de 
+borracha natural ou artificial. 
+ 
+• Aegea: líder no setor privado em serviços de saneamento básico no Brasil. 
+ 
+• Copa Energia: consolida as marcas Copagaz e Liquigás que respondem juntas por cerca de 25% da 
+distribuição de GLP no Brasil e com operações em 24 estados e no Distrito Federal.
+
+[p. 70]
+Itaúsa S.A. 70 
+• NTS: transportadora de gás natural, por meio de sistema de gasodutos, operando nos estados do Rio de 
+Janeiro, Minas Gerais e São Paulo, os quais respondem por aproximadamente 50% do consumo de gás 
+no Brasil. Esse sistema possui conexões com o gasoduto Brasil-Bolívia, com os terminais de gás natural 
+liquefeito (GNL) e com as unidades de processamento de gás. 
+ 
+ 
+ 
+(1) Para o Itaú nibanco corresponde à: (i) Receita de juros, rendimentos e dividendos; (ii) Ajuste ao valor justo de ativos e pas sivos financeiros; 
+(iii) Resultado de operações de câmbio e variações cambiais sobre transações no exterior; (iv) Receita de prestação de serviços e tarifas 
+bancárias; e (v) Resultado de contratos de seguros e previdência privada. 
+(2) Devido o Itaú nibanco pertencer ao "Setor financeiro" as receitas e despesas financeiras encontram-se incorporadas no item de "Receita 
+líquida". 
+ 
+25. PARTES RELACIONADAS 
+ 
+As operações realizadas entre partes relacionadas decorrem do curso normal dos negócios e são efetuadas a 
+valores e taxas usuais de mercado, vigentes nas respectivas datas, e em condições de comutatividade. 
+ 
+A ITAÚSA possui “Política para Transações com Partes Relacionadas”, aprovada pelo Conselho de Administração, 
+que visa estabelecer regras e procedimentos para assegurar que as decisões envolvendo transações com partes 
+relacionadas e outras situações com potencial conflito de interesses sejam tomadas assegurando comutatividade e 
+transparência, garantindo aos acionistas, investidores e outras partes interessadas que as transações foram 
+pautadas nas melhores práticas de Governança Corporativa. Em 9 de agosto de 2021 foi criado o Comitê de Partes 
+Relacionadas com o objetivo de avaliar e deliberar previamente sobre a viabilidade das transações com partes 
+relacionadas, conforme critérios indicados na referida política. 
+ 
+Além dos montantes de Dividendos e JCP a receber (Nota 8) e de transação societária realizada com a Aegea (Nota 
+20.1), os demais saldos e transações entre partes relacionadas estão apresentados abaixo:
+
+[p. 71]
+Itaúsa S.A. 71 
+ 
+(1) Em 21 de fevereiro de 2024 a ITAÚSA celebrou o Termo de Emissão da 1ª Emissão de Notas Comerciais Escriturais em três séries (N ota 15.1) junto a NTS Campos Elíseos Fundo de 
+Investimento Renda Fixa Crédito Privado Investimento no Exterior (“Fundo NTS”), cuja única cotista do fundo é a NTS. 
+(2) Refere-se ao banco comercial. 
+ 
+25.1. Garantias prestadas 
+ 
+A ITAÚSA é garantidora das seguintes transações demonstradas abaixo: 
+ 
+ 
+(1) Em março de 2021, a controlada Dexco, com o objetivo de aprimorar seu perfil de liquidez e endividamento, assinou contrato de financiamento 
+com o BNDES no valor de R$697 (saldo de R$553 em 30 de junho de 2026), sendo 67% deste valor garantido pela ITAÚSA. 
+(2) Embora o investimento apresente saldo contábil igual a zero em 30 de junho de 2026 (Notas 12.2 e 12.2.4) e, portanto, não haja valor contábil 
+de referência para a garantia nessa data, a garantia está vigente e as ações detidas pela ITAÚSA na Águas do Rio Investimentos permanecem 
+alienadas. Ressaltamos que o valor justo das ações detidas difere do valor contábil do investimento. 
+ 
+Controladora Consolidado
+Nota Natureza Relacionamento 30/06/2026 31/12/2025 30/06/2026 31/12/2025
+Ativo
+Caixa e Equivalentes de caixa 1- 1 6 5
+Itaú Unibanco S.A. (2)
+Conta corrente e aplicações financeiras Controlada em conjunto 1 - 16 5
+Clientes 1 - 68 52
+Dexco Aluguel de imóveis Controlada 1 - - -
+Mysa Venda de produtos Coligada indireta - - 39 43
+Leo Madeiras Venda de produtos Acionista não controlador da controlada Dexco -- 21 5
+LD Celulose Venda de produtos Coligada indireta - - 8 4
+Outros ativos
+Fundação Itaúsa Industrial 23.1.1.1 Retirada de patrocínio - Plano PAI-CD Outras partes relacionadas - - 1.256 -
+Total 2 - 1.340 57
+Passivo
+Empréstimos (775) (779) (775) (879)
+Fundo NTS (1)
+Notas comerciais Outras partes relacionadas (775) (779) (775) (779)
+Itaú Unibanco S.A. (2) Empréstimos Controlada em conjunto -- - (100)
+Arrendamentos - - (45) (44)
+Ligna Florestal Aluguéis Acionista não controlador da controlada Dexco -- (45) (44)
+Outros passivos -( 3 ) ( 2 ) ( 2 0 )
+Itaú Unibanco S.A. (2)
+Prestação de Serviços Controlada em conjunto - - (2) (4)
+Instituto Itaúsa Doações Outras partes relacionadas - (3) - (3)
+LD Celulose Fornecimento de produtos Coligada indireta ---( 1 3 )
+Total (775) (782) (822) (943)
+Controladora Consolidado
+Nota Natureza Relacionamento 01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+01/01 a
+30/06/2026
+01/01 a
+30/06/2025
+Resultado
+Receita líquida - - 393 205
+Leo Madeiras Venda de produtos Acionista não controlador da controlada Dexco -- 189 130
+Alma Cabocla Florestal SP Venda de produtos Empresa detida por controlador indireto -- 93 -
+Mysa Venda de produtos Coligada indireta - - 67 67
+LD Celulose Venda de produtos Coligada indireta - - 44 8
+Custo dos produtos e serviços - - (38) (32)
+Ligna Florestal Custos com arrendamentos Acionista não controlador da controlada Dexco -- (4) (4)
+LD Celulose Fornecimento de produtos Coligada indireta - - (34) (28)
+Despesas gerais e administrativas (1) (1) (1) (1)
+Itaú Corretora Prestação de serviços Controlada em conjunto (1) (1) (1) (1)
+Outras receitas e despesas (8) (10) 137 (12)
+Fundação Itaúsa Industrial 23.1.1.1 Retirada de patrocínio - Plano PAI-CD Outras partes relacionadas - - 147 -
+Dexco Receita de aluguel Controlada 2 2 - -
+Fundação Itaú para a Educação e
+Cultura Receita de aluguel Outras partes relacionadas 2121
+Instituto Itaúsa Doações Outras partes relacionadas (12) (13) (12) (13)
+Resultado financeiro (59) (93) 1.050 (93)
+Fundação Itaúsa Industrial 23.1.1.1 Retirada de patrocínio - Plano PAI-CD Outras partes relacionadas - - 1.109 -
+Itaú Unibanco S.A. (2)
+Despesas de Juros - Debêntures Controlada em conjunto - (38) - (38)
+Fundo NTS (1)
+Despesas de Juros - Empréstimos Outros (59) (55) (59) (55)
+Total (68) (104) 1.541 67
+
+[p. 72]
+Itaúsa S.A. 72 
+25.2. Remuneração da Administração 
+ 
+ 
+(1) Compreendem: Assistência médica e odontológica, Auxílio alimentação e Seguro de vida. 
+ 
+26. TRANSAÇÕES NÃO-CAIXA 
+ 
+Em conformidade com o CPC 03 (R2) / IAS 7 - Demonstração dos Fluxos de Caixa, as transações de investimento 
+e financiamento que não envolveram o uso de Caixa ou Equivalentes de caixa não devem ser incluídas na 
+demonstração dos fluxos de caixa. 
+ 
+As atividades de investimento e financiamento que não envolveram movimentação de caixa e, portanto, não estão 
+refletidas em nenhuma rubrica da Demonstração do Fluxo de Caixa, estão demonstradas abaixo: 
+ 
+27. EVENTOS SUBSEQUENTES 
+ 
+27.1. Proventos recebidos da controlada Itautec 
+ 
+Em 1º de julho de 2026, a ITAÚSA comunicou ao mercado, por meio de Fato Relevante, que recebeu nesta data, 
+da controlada Itautec, dividendos e JCP extraordinários no montante líquido total de R$911, decorrentes do 
+recebimento, pela Itautec, de valores relacionados aos recebimentos de créditos com precatórios (Nota 9.1) e da 
+retirada do patrocínio do Plano PAI-CD (Nota 23.1.1.1). 
+ 
+27.2. Licitação para a gestão de folha de pagamentos de Minas Gerais – Contr

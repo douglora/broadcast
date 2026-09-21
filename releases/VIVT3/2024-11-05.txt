@@ -1,0 +1,520 @@
+[p. 1]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+3T24
+Release de
+Resultados
+
+[p. 2]
+2
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Destaques 3T24
+Para acessar a planilha com 
+os dados disponibilizados 
+no site de relações com 
+investidores, clique aqui. 
+A Telefônica Brasil S.A. (B3: VIVT3, NYSE: VIV) divulga hoje 
+seus resultados referentes ao terceiro trimestre de 2024, 
+apresentados de acordo com as Normas Contábeis 
+Internacionais (IFRS) e com os pronunciamentos, 
+interpretações e orientações emitidas pelo Comitê de 
+Pronunciamentos Contábeis. 
+65,0mi
+Acessos Pós-Pago Acessos FTTH Receitas Totais EBITDA
+• Nossa base de clientes continua crescendo de forma consistente, com mais de 115,2 milhões de 
+acessos no 3T24 (+3,3% a/a). No segmento móvel, encerramos o trimestre com 101,5 milhões de 
+acessos (+4,0% a/a), chegando a 394 municípios cobertos com a tecnologia 5G (+3,1x a/a). No pós-
+pago ex-M2M e ex-dongles, adicionamos +3,2 milhões de acessos na comparação a/a, atingindo o 
+maior ARPU desde o 1T19, R$ 53,0 (+3,5% a/a).
+• Em fibra chegamos a 28,3 milhões de casas passadas (+12,7% a/a) e a 6,7 milhões de domicílios 
+conectados (+12,5% a/a), com +192 mil adições líquidas no trimestre, valor +4,8% superior ao mesmo 
+período do ano passado.
+• Receita líquida cresceu acima da inflação (+7,1% a/a), impulsionada pelo crescimento de duplo 
+dígito da receita de pós-pago (+10,4% a/a). A receita fixa aumentou +3,6% a/a, com destaque para 
+as receitas de FTTH (+14,0% a/a) e dados corporativos, TIC e serviços digitais (+6,5% a/a).
+• Nos últimos 12 meses, a receita média mensal por CPF¹ atingiu R$ 61,5, como reflexo do 
+crescimento das receitas B2C telco (+6,8% a/a) e B2C novos negócios (+30,2% a/a), reforçando 
+nosso posicionamento como um one-stop-shop para nossos clientes.
+• O EBITDAexpandiu +7,4% a/a, com uma margem de 42,4% (+0,1 p.p. a/a), refletindo o forte 
+desempenho da receita de serviço móvel (+8,8% a/a) e o controle de custos (+6,8% a/a).
+• No 3T24, os Investimentos2 somaram R$ 2.495 milhões (-5,0% a/a), 17,8% das receitas (-2,3 p.p. 
+a/a), totalizando R$ 6.710 milhões (+0,7% a/a), 16,3% das receitas (-1,0 p.p. a/a) nos 9M24, refletindo 
+a redução da intensidade de investimentos em relação à receita líquida.
+• Nos 9M24, o Fluxo de Caixa Operacional3 totalizou R$ 9.972 milhões (+12,0% a/a), com uma 
+margem de 24,2% (+1,1 p.p. a/a) em relação à receita líquida. 
+• Lucro líquido4 do trimestrealcançou R$ 1.667 milhões (+13,3% a/a), acumulando R$ 3.785 milhões 
+(+10,4% a/a) nos 9M24.
+• A remuneração paga5 aos acionistas em 2024 atingiu, até o momento, R$ 4.790 milhões (+0,1% vs o 
+ano de 2023), dos quais R$ 2.190 milhões em juros sobre capital próprio, R$ 1.500 milhões em 
+recursos decorrentes da redução de capital, enquanto R$ 1.100 milhões foram investidos em 
+recompras de ações. Para os anos de 2024 a 2026, a Companhia possui a intenção de distribuir aos 
+seus acionistas um valor igual ou superior a 100% do lucro líquido de cada exercício social.
++7,6% a/a
+6,7mi
++12,5% a/a
+R$14,0bi
++7,1% a/a
+R$5,9bi
++7,4% a/a
+1 57,0 milhões de CPFs.
+2 Não inclui valores relativos à reversão de provisão de renovação de licença no montante de -R$ 181 milhões no 2T23, à renovação de licenças no montante de 
+R$ 203 milhões no 3T23, de R$ 11 milhões no 1T24 e de R$ 13 milhões no 3T24, além de efeitos do IFRS 16. 
+3 Fluxo de Caixa Operacional é equivalente ao EBITDA menos Investimentos ex-IFRS 16. 
+4 Considera o lucro líquido atribuído à Telefônica Brasil.
+5 Considera os eventos pagos de 1 de janeiro de 2024 a 5 de novembro de 2024.
+
+[p. 3]
+3
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+3
+Destaques
+1 Outras Receitas inclui Voz, xDSL, FTTC e IPTV. 
+2 AL significa Após Arrendamentos (After Leases). Mais detalhes na página 18.
+3 Lucro Líquido atribuído à Telefônica Brasil.
+4 Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em c irculação no período. 
+Mais detalhes na nota explicativa 23.i) do ITR de 3 0 de setembro de 2024.
+5 Não inclui valores relativos à reversão de provisão de renovação de licença no montante de -R$ 181 milhões no 2T23, à renovação de licenças no 
+montante de R$ 203 milhões no 3T23, de R$ 11 milhões no 1T24 e de R$ 13 milhões no 3T24, além de efeitos do IFRS 16. 
+6 Fluxo de Caixa Operacional é equivalente ao EBITDA menos Investimentos ex-IFRS 16.
+7 Fluxo de Caixa Operacional AL é equivalente ao EBITDA Após Arrendamentos menos Investimentos ex-IFRS 16.
+
+[p. 4]
+4
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+4
+Negócio Móvel
+1 Receita de pós-pago inclui M2M, dongles, atacado e outros.
+² No 3T24, o churn do pós-pago ex-M2M foi impactado pela desconexão de -202 mil dongles, principalmente em decorrência de um contrato B2B .
+A Receita de Serviço Móvel (RSM) cresceu +8,8% a/a, impulsionada pela Receita de Pós-
+pago1 (+10,4% a/a), que representa 84,0% (+1,2 p.p. a/a) da RSM. O forte desempenho 
+do pós-pago está relacionado ao aumento da base de clientes (+7,6% a/a), que totalizou 
+65,0 milhões no trimestre, impulsionado por migrações do pré-pago e pela aquisição de 
+novos clientes, assim como pelos reajustes anuais de preço, que contribuíram para o 
+aumento de +3,5% a/a do ARPU do pós-pago ex-M2M e ex-dongles, para R$53,0.
+A Receita de Pré-pago apresentou aumento de +1,4%, em função do incremento de 
++3,7% a/a no ARPU e da queda de -0,3 p.p. do churn na comparação anual.
+A Receita de Aparelhos e Eletrônicos cresceu +5,1% a/a, como resultado da ampla oferta 
+de eletrônicos, que vão desde smartphones a aparelhos para casa conectada. No 3T24, a 
+venda de smartphones compatíveis com 5G representou 86% (+3,4 p.p. a/a) do total de 
+smartphones vendidos.
+Acessos Móveis
+ Acessos Pós-Pago
+Milhões Milhões
+Churn Pós-Pago (ex-M2M) %
+ 
+Ex-dongles², 
+o churn do 
+3T24 foi de 
+1,02%
+
+[p. 5]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+5
+Negócio Fixo
+1 Outras Receitas Fixas inclui Voz, xDSL, FTTC e IPTV.
+A Receita Líquida Fixa expandiu +3,6% a/a, impulsionada pelo forte crescimento da 
+Receita de FTTH (+14,0% a/a) e da Receita de Dados Corporativos, TIC e Serviços 
+Digitais (+6,5% a/a) no 3T24.
+Nos últimos 12 meses, expandimos nossa rede de FTTH para 3,2 milhões de novos 
+domicílios, atingindo 28,3 milhões de casas passadas, conectamos 747 mil novos 
+clientes e chegamos a 5 novas cidades, totalizando a cobertura da tecnologia em 444 
+municípios. No 3T24, o ARPU do FTTH atingiu R$ 89,8 (+1,2% a/a).
+O Vivo Total, nossa oferta convergente de pós-pago e fibra, representou 83% (+4,4 p.p. 
+a/a) das altas de FTTH nas lojas físicas próprias nos últimos três meses e já conta com 
+2,1 milhões de assinantes (+92,2% a/a), representando 30,7% de nossa base de acessos 
+de FTTH (+12,7 p.p. a/a).
+Casas Passadas
+Milhões
+O crescimento de +6,5% a/a da Receita de Dados Corporativos, TIC e Serviços Digitais 
+no 3T24, reflete o portfólio completo de produtos e serviços oferecidos pela Companhia. 
+Nesta linha, registramos R$ 691 milhões em receitas de B2B Digital Fixa (+14,4% a/a), à 
+medida que a demanda por esses serviços continua a expandir. Para mais detalhes 
+sobre o B2B digital, clique aqui.
+FTTH
+Casas Conectadas
+Milhões
+
+[p. 6]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+6
+Custos
+▪ SERVIÇOS – aumento de +2,8% a/a no 3T24, em função do crescimento da venda de 
+soluções digitais B2B e do crescimento da base de clientes.
+▪ PRODUTOS VENDIDOS – queda de -2,1% em relação ao 3T23, devido à redução do nível 
+de subsídios e do aumento da participação da venda de eletrônicos, que têm margem 
+maior que aparelhos.
+Os Custos dos Serviços e Produtos Vendidos cresceram +0,7% a/a, em função do 
+aumento das receitas com serviços digitais B2B e B2C e da maior eficiência do mix da 
+venda de aparelhos e eletrônicos. 
+Custos dos Serviços e Produtos Vendidos
+
+[p. 7]
+7
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+7
+Pix nos pagamentos recebidos
+▪ PESSOAL – aumento de +7,2% a/a no 3T24, principalmente em função do reajuste 
+anual de salários e outros benefícios.
+▪ COMERCIAIS E INFRAESTRUTURA – incremento de +4,9% quando comparado ao 
+3T23, devido à expansão da base de clientes como resultado da maior atividade 
+comercial, e maiores despesas com tecnologia e publicidade.
+▪ PROVISÃO PARA DEVEDORES DUVIDOSOS – apresentou um aumento de 
+R$ 69,0 milhões a/a, devido ao impacto positivo no 3T23 da reversão de uma 
+provisão em função de casos específicos no segmento de grandes empresas 
+realizada no 2T23. Na comparação trimestral, 3T24 vs 2T24, a PDD teve redução de 
+-6,3%. A relação da PDD com a Receita Bruta ficou em 1,9% (+0,3 p.p. a/a e -0,2 p.p. 
+t/t). O controle da PDD demonstra a priorização dos clientes no pagamento de 
+conectividade, além da execução de ações de crédito e cobrança pela companhia, 
+principalmente em função da aceleração da digitalização.
+▪ GERAIS E ADMINISTRATIVAS – redução de -11,3% a/a no trimestre, em função da 
+redução das despesas com serviços de terceiros.
+▪ OUTRAS RECEITAS (DESPESAS) OPERACIONAIS – apresentaram receita de 
+R$ 70,9 milhões no 3T24(-74,1% a/a), com queda anual em função do menor nível 
+de recuperação tributária e pelo reconhecimento do valor líquido de R$ 175 milhões 
+relacionado à compra de parte dos ativos móveis da Oi no 3T23, parcialmente 
+compensados por um maior nível de venda de imóveis no trimestre.
+Os Custos da Operação apresentaram crescimento de +9,8% a/a, devido ao 
+impacto da inflação e às maiores despesas relacionadas à atividade comercial. 
+Excluindo a linha de Outras Receitas (Despesas) Operacionais, que tem natureza 
+volátil, os Custos da Operação cresceriam +5,5% a/a.
+Usuários1 Vivo App
+KPIs Digitalização
+ 
+ 
+ 
+Milhões
+1 Com o lançamento do novo App Vivo o parâmetro para a análise de usuários foi revisado no 2T24, considerando a utilização do App por CPFs (B2C) 
+únicos nos últimos 90 dias. 
+Custos da Operação
+ 
+ 
+ 
+Milhões
+
+[p. 8]
+8
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+¹ Mais informações na nota explicativa 19.b) do ITR de 30 de setembro de 2024.
+² Considera o lucro líquido atribuído à Telefônica Brasil.
+Do EBITDA ao
+Lucro Líquido
+EBITDA
+O EBITDA (resultado antes de juros, impostos, depreciações e amortizações) do 3T24 foi de 
+R$ 5.950 milhões, um incremento de +7,4% quando comparado ao 3T23, com margem 
+EBITDA de 42,4% (+0,1 p.p a/a). O desempenho reflete o forte crescimento da Receita de 
+Serviço Móvel de +8,8% a/a, além do controle de custos (+6,8% a/a). 
+Depreciação e Amortização
+A Depreciação e Amortização aumentou +7,1% em comparação ao 3T23, devido à 
+depreciação acelerada de equipamentos de tecnologias legadas e a renovações de 
+contratos de leasing.
+Resultado Financeiro
+No 3T24, o Resultado Financeiro totalizou uma despesa de R$ 529 milhões, o que 
+representa uma redução de -7,2% a/a, em função da reversão de atualizações monetárias 
+de provisões para contingências relacionadas à adesão ao Programa de Anistia¹ do Estado 
+do Paraná, que teve efeito positivo de R$ 44 milhões no período. 
+Lucro Líquido
+O Lucro Líquido² totalizou R$ 1.667 milhões no terceiro trimestre de 2024, um incremento 
+de +13,3% na comparação anual, beneficiado pela sólida evolução do EBIT (+7,9% a/a), além 
+da redução da despesa financeira líquida (-7,2% a/a).
+EBITDA ao Lucro Líquido – 3T24
+R$ milhões
+
+[p. 9]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+9
+Investimentos
+Os Investimentos1 realizados no 3T24 alcançaram R$ 2.495 milhões (-5,0% a/a), o que 
+representa 17,8% da Receita Operacional Líquida do trimestre, uma queda de -2,3 p.p. na 
+comparação anual. Os investimentos foram direcionados ao reforço da nossa rede móvel, 
+com destaque para a cobertura do 5G que já atingiu 394 municípios, incluindo a totalidade 
+dos municípios com mais de 200 mil habitantes, representando 57% da população 
+brasileira, além do investimento na ampliação da rede de fibra, que chegou a 28,3 milhões 
+de casas passadas.
+Fluxo de Caixa Livre
+O Fluxo de Caixa Livre após o pagamento de leasing totalizou R$ 1.671 milhões no 3T24, 
+uma redução de -12,9% a/a, em função principalmente de maiores pagamentos financeiros 
+e de leasing, bem como o consumo do capital circulante, parcialmente compensados pelo 
+crescimento do EBITDA e pela redução dos níveis de investimento.
+1 Não inclui valores relativos à reversão de provisão de renovação de licença no montante de -R$ 181 milhões no 2T23, à renovação de licenças no montante 
+de R$ 203 milhões no 3T23, de R$ 11 milhões no 1T24 e de R$ 13 milhões no 3T24, além de efeitos do IFRS 16.
+
+[p. 10]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+10
+Endividamento
+1 Considera passivos pelos contratos de aquisição da Vita IT e da Vale Saúde, aportes realizados pela Polígono Capital no Vivo Money, o Programa de 
+Anistia dos Estados de São Paulo e do Paraná, além do contrato de mútuo da CloudCo Brasil. Mais detalhes na nota explicativa 20 do ITR de 30 de 
+setembro de 2024.
+2 Considera caixa e equivalentes de caixa, aplicações financeiras e contas a receber do FIDC Vivo Money.
+³ Dívida não inclui taxa relacionada ao FISTEL TFF para os anos 2020 até 2024, totalizando R$ 4,6 bilhões.
+A dívida bruta (ex-Arrendamentos) da Companhia atingiu R$ 5.274 milhões ao final do 3T24, 
+uma redução de -0,9% a/a, em função dos pagamentos das parcelas referentes às licenças 
+5G em 2023 e 2024, parcialmente compensados por dívidas relacionadas à adesão ao 
+Programa de Anistia dos Estados de São Paulo e Paraná. 99% da dívida bruta é denominada 
+em moeda nacional e 1% em moeda estrangeira. A exposição cambial da dívida está 100% 
+coberta por operações de proteção cambial (hedge). 
+Considerando Caixa, Aplicações e Derivativos, a Companhia registrou caixa líquido de 
+R$ 1.721 milhões em 30 de setembro de 2024. Se incluído o efeito dos arrendamentos, a 
+dívida líquida atingiu R$ 12.258 milhões ao final do 3T24.
+Empréstimos, Financiamentos e Debêntures 
+Endividamento Líquido | ex-IFRS 16
+ Perfil da Dívida L.P.
+
+[p. 11]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+11
+Mercado de Capitais
+¹ Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período. 
+Mais detalhes na nota explicativa 23. i) do ITR de 30 de setembro de 2024.
+Nosso capital social é composto exclusivamente por ações ordinárias, com direito a voto, 
+que estão listadas na B3 (ticker: VIVT3) e na NYSE (ticker: VIV).
+Desempenho das Ações
+(Base 100 em 31/12/2023)
+ 80
+ 90
+ 100
+ 110
+dez-23 jan-24 fev-24 mar-24 abr-24 mai-24 jun-24 jul-24 ago-24 set-24
+IBOV VIVT3 VIVT3 ajustado por dividendos
+
+[p. 12]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Retorno ao Acionista
+1 Considera os dividendos, juros sobre capital próprio pagos, recursos decorrentes da redução de capital social e as recompras 
+realizadas entre janeiro e dezembro do respectivo ano.
+² Considera as recompras de ações realizadas entre 1 de janeiro a 5 de novembro de 2024.
+³ O Programa de Recompra de Ações, aprovado no 1T24, permanecerá em vigor até 04 de março de 2025, foi modificado pelo 
+Conselho de Administração da Companhia, e m 30 de agosto de 2024, para aumentar o limite para R$ 1,5 bilhão. 
+Distribuição ao Acionista¹
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+em R$ milhões
+Para os exercícios sociais de 2024 a 2026, a Companhia possui a intenção de realizar a distribuição de 
+recursos aos seus acionistas através de dividendos, juros sobre capital próprio, reduções de capital social e 
+recompra de ações de própria emissão, em um valor igual ou superior a 100% do lucro líquido a ser apurado 
+em cada um dos respectivos exercícios sociais mencionados.
+A ANATEL consentiu em setembro de 2023, que a Companhia efetue a redução do seu capital social em até 
+R$ 5 bilhões. A primeira proposta para a redução de capital social no valor de R$ 1,5 bilhão, aprovada pelo 
+Conselho de Administração e em Assembleia Geral Extraordinária, foi paga, em única parcela, em 10 de julho 
+de 2024 com base na posição acionária de 10 de abril de 2024. 
+A segunda proposta para a redução de capital social, no valor de R$ 2,0 bilhões, foi aprovada pelo Conselho 
+de Administração em 5 de novembro de 2024 e será submetida à deliberação da Assembleia Geral 
+Extraordinária da Companhia a ser realizada em 18 de dezembro de 2024. Se aprovada, estará sujeita ao 
+decurso do prazo de 60 dias para oposição de credores, contado a partir da publicação da ata da Assembleia 
+Geral Extraordinária. A posição acionária a ser considerada para recebimento dos recursos será do dia 27 de 
+fevereiro de 2025 e tais recursos serão pagos em uma única parcela. 
+As operações de redução de capital têm como objetivo aprimorar a estrutura de capital da Companhia, o que 
+permitirá a flexibilização da alocação de seu capital, gerando equilíbrio entre sua necessidade de recursos e a 
+geração de valor aos seus acionistas. 
+Até novembro de 2024, a Companhia pagou aos seus acionistas o valor total de R$ 4.790 milhões, sendo 
+R$ 2.190 milhõesreferentes a juros sobre capital próprio declarados no exercício social de 2023, R$ 1.500 
+milhões referentes aos recursos decorrentes da redução de capital e R$ 1.100 milhões referentes à recompra 
+de ações.
+Para mais informações sobre Remuneração aos Acionistas, clique aqui.
+12
+O Conselho de Administração aprovou a declaração de juros sobre capital no valor bruto de R$ 300 milhões em 
+14 de março de 2024, de R$ 380 milhões em 16 de abril de 2024, de R$ 175 milhões em 14 de junho de 2024, 
+de R$ 650 milhões em 15 de julho de 2024 e de R$ 400 milhões em 14 de agosto de 2024, totalizando R$ 1.905 
+milhões, referentes ao exercício social de 2024, a serem pagos até o dia 30 de abril de 2025. 
+Recompras²
+em R$ milhões
+ 
+ 
+ 
+ 
+O Programa de 
+Recompra de 
+Ações vigente³ 
+tem limite de 
+R$ 1,5 bilhão
+
+[p. 13]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Negócios Digitais
+1 57,0 milhões de CPFs.
+2 Inclui equipamentos.
+Com base no pilar estratégico #temtudonaVivo, seguimos avançando no desenvolvimento de 
+um ecossistema com parceiros relevantes para alavancar a nossa consolidação como hub de 
+serviços digitais. 
+B2C
+O Vivo Payé a plataforma, 100% digital, que consolida as soluções financeiras Vivo, como 
+empréstimo pessoal, seguros, antecipação de FGTS, parcela PIX, entre outros. Considerando os 
+últimos 12 meses, as receitas com serviços financeiros cresceram +16,0% na comparação a/a, 
+totalizando R$ 450 milhões. Além disso, omontante total de empréstimos concedidos via Vivo 
+Pay- Empréstimo Pessoal, desde o início da operação em outubro/2020 até setembro/2024, 
+alcançou R$ 823 milhões. Em setembro de 2024, o Banco Central do Brasil aprovou o 
+requerimento de autorização para funcionamento da Vivo PaySociedade de Crédito S.A., que 
+irá possibilitar o aumento da eficiência dos serviços financeiros da Vivo.
+Serviços Financeiros
+A Vivo distribui aos seus clientes os melhores OTTsde música e vídeo do mercado. Esse 
+serviço representou R$ 684milhões em receitas nos últimos 12 meses (+30,0% a/a), e 
+encerramos o trimestre com 2,8 milhões de assinantes de plataformas de conteúdo.
+Entretenimento
+B2B
+Soluções Digitais²Cloud
+IoT + MensageriaCibersegurança
+em R$ milhões
+Receitas B2B Digitais
+A Vivo é um hub de serviços digitais para 
+empresas, que vai além da conectividade, 
+criando um ecossistema composto por 
+serviços de cloud, cibersegurança, IoT, 
+big data, mensageria, venda e aluguel de 
+equipamentos de TI, entre outros. 
+Nos últimos 12 meses, os serviços digitais 
+para empresas geraram R$ 3.769 milhões 
+em receitas (+16,9% a/a), representando 
+6,9% da receita total da Vivo no período. 
+13
+O Vale Saúde Sempre, nosso marketplace de serviços de saúde, que conecta clientes a 
+clínicas e laboratórios em todo país, através de uma assinatura mensal, atingiu +370 mil 
+assinaturas desde o início da operação (+217% a/a), e +50 mil consultas médicas, exames e 
+procedimentos nos 9M24. Nos últimos 12 meses, a receita com saúde e bem-estar totalizou 
+R$ 48 milhões (+5,1x a/a). 
+Saúde e Bem-estar
+Nos últimos 12 meses, considerando a totalidade dos produtos B2C, tanto de 
+telecomunicações quanto de novos negócios, a receita média mensal por CPF¹ atingiu 
+R$ 61,5, reforçando nosso posicionamento como um one-stop-shoppara nossos clientes.
+Produtos B2C
+
+[p. 14]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+ESG
+Ambiental, Social e Governança
+A estratégia ESG da Vivo conta com 6 pilares e mais de 100 indicadores integrados no Plano de 
+Negócio Responsável (PNR), monitorados e aprovados de forma consolidada pelo Conselho de 
+Administração por meio do Comitê de Qualidade e Sustentabilidade. O PNR contém metas que 
+contribuem com o crescimento sustentável da empresa com ética e integridade, com os 
+Objetivos de Desenvolvimento Sustentável (ODS) e demais compromissos no tema.
+14
+LANÇADO O PLANO DE AÇÃO CLIMÁTICA2024, documento aprovado pelo Conselho de 
+Administração que consolida e demonstra as estratégias de transição rumo ao Net Zero, objetivo 
+que teve seu prazo antecipado para 2035. 
+PROGRAMA CARBONO NA CADEIA DE FORNECEDORES atingiu 87% de parceiros atuando pelo 
+clima (+27 p.p. a/a). Desde o início do programa, dos 125 fornecedores carbono intensivos 
+participantes, houve um crescimento de +14 p.p. dos parceiros que contabilizam suas emissões e 
+um crescimento de +23 p.p. dos que possuem metas de redução de GEE. 
+VIVO RECICLE mobilizou 23 escolas públicas beneficiadas pelo programa de Voluntariado da 
+Fundação Telefônica Vivo, coletando 23 toneladas de eletroeletrônicos. 
+R$ 2.210 MILHÕES EM RECEITAS nos últimos 12 meses geradas a partir de soluções que 
+favorecem a eficiência energética e climática e contribuem para conter o aumento da 
+temperatura em 1,5°C. 
+Ambiental 
+ATUAÇÃO EM DIVERSIDADE E INCLUSÃO foi reforçada por meio de ações de recrutamento: (i) 
+Mais de 50 vagas para o programa Mulheres de Fibra; (ii) Mais de 250 vagas para o programa 
+Jovem Aprendiz, sendo 50% exclusivas para talentos negros. 
+TRANSFORMAÇÃO DIGITAL NA EDUCAÇÃO: DESAFIOS E TENDÊNCIAS foi tema de evento
+comemorativo aos 25 anos da Fundação Telefônica Vivo que debateu com agentes públicos e 
+terceiro setor o papel da tecnologia e da inteligência artificial na escola pública brasileira. 
+Social
+Governança
+LANÇADO PROGRAMA PARCEIRO PLURAL, iniciativa que visa desenvolver boas práticas ESG na 
+cadeia de fornecimento. O programa inclui questionário de pré-qualificação, envio de conteúdos 
+mensais e feedbacks personalizados sobre pontos de melhoria dos parceiros. 
+RECONHECIMENTOS: (i) Top 3 das Melhores Empresas para Trabalhar no Brasil 2024, na categoria 
+Super Grandes (mais de 10 mil colaboradores), no ranking nacional do GPTW (GreatPlaceTo
+Work); (ii) 1º lugar nas oito categorias do ranking InstitutionalInvestor - LatinAmericaExecutive
+Team 2024 na votação geral do sellside, incluindo Melhor Programa ESG; (iii) Presente no FTSE 
+Diversity& InclusionTop 100; (iv) Prêmio Valor 1000, melhor em TI &Telecom; (v) Prêmio Leaders 
+League Compliance Awards, melhor departamento de compliance: telecome tecnologia; (vi) 
+Prêmio Diversidade em Prática, na categoria Top of Mind, promovida pela Blend Edu.
+
+[p. 15]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Indicadores Operacionais
+Negócio Móvel
+Negócio Fixo
+1 Desconsidera a desconexão de acessos considerados inativos nos critérios da Vivo, provenientes da aquisição da Oi Móvel de 457 
+mil acessos pré-pago em mar/23. Considerando as desconexões, o churn pré-pago seria 4,2% nos 9M23.
+15
+
+[p. 16]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Demonstração de 
+Resultados do Exercício
+1 Outras Receitas inclui Voz, xDSL, FTTC e IPTV. 
+2 Lucro Líquido atribuído à Telefônica Brasil.
+3 Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em 
+circulação no período. Mais detalhes na nota explicativa 23.i) do ITR de 30 de setembro de 2024. 16
+
+[p. 17]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Balanço Patrimonial
+17
+
+[p. 18]
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+Informações Adicionais
+EBITDA Após Arrendamentos (IFRS 16)
+1 Purchase Price Allocation.
+Depreciação e Amortização
+18
+
+[p. 19]
+19
+***Este documento está clasificado como PUBLICO por TELEFÓNICA.
+***This document is classified as PUBLIC by TELEFÓNICA.
+19
+Call de Resultados
+O presente documento pode conter previsões acerca de eventos futuros. Tais previsões não constituem fatos ocorridos no passad o e refletem apenas 
+ O “ ” “ ” “ ” ” ” “ ê” “ ” “ ane ” “ ” ” b ” 
+bem como outros termos similares, visam identificar tais previsões as quais evidentemente envolvem riscos ou incertezas previ stas ou não pela 
+Companhia. Portanto, os resultados futuros das operações da Companhia podem diferir das atuais expectativas e o leitor não de ve se basear 
+exclusivamente nas posições aqui realizadas. Essas previsões emitem a opinião unicamente na data em que são feitas e a Compan hia não se obriga a 
+atualizá-las à luz de novas informações ou de seus desdobramentos futuros.
+Av. Eng. Luis Carlos Berrini, 1376 
+18º Andar – Cidade Monções – SP 
+04571-000
+ir.br@telefonica.com
+Informações disponíveis no website: 
+ri.telefonica.com.br
+TELEFÔNICA BRASIL
+Relações com Investidores
+Christian Gebara
+David Melcon
+João Pedro Soares Carneiro
+Gabriel Menezes
+Tatiana Anicet
+Para conectar-se:Horário:
+6 de novembro
+de 2024
+(quarta-feira)
+Data:
+11h00 (horário de Brasília) /
+09h00 (horário de Nova York)
+Transmissão em Inglês com 
+tradução simultânea para o 
+Português (plataforma Zoom):
+O replay da teleconferência 
+estará disponível após o 
+encerramento do evento, 
+em nosso site
+Clique aqui

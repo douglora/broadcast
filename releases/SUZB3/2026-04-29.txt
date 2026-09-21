@@ -1,0 +1,1666 @@
+[p. 1]
+Sólido desempenho operacional e preços mais elevados de celulose. 
+EBITDA impactado por BRL mais forte.
+São Paulo, 29 de abril de 2026. Suzano S.A. (B3: SUZB3 | NYSE: SUZ), uma das maiores produtoras de 
+celulose e integradas de papel do mundo, anuncia hoje os resultados consolidados do 1º trimestre de 
+2026 (1T26).
+DESTAQUES
+• Vendas de celulose de 2.835 mil t (+7% vs. 1T25).
+• Vendas de papel1 de 378 mil t (-3% vs. 1T25).
+• EBITDA Ajustado2 e Geração de caixa operacional3: R$ 4,6 bilhões e R$ 2,5 bilhões, respectivamente.
+• EBITDA Ajustado2/t de celulose em R$ 1.431/t (-11% vs. 1T25).
+• EBITDA Ajustado2/t de papel em R$ 1.385/t (-12% vs. 1T25).
+• Preço médio líquido de celulose – mercado externo: US$ 562/t (+1% vs. 1T25).
+• Preço médio líquido de papel1 de R$ 6.933/t (-8% vs. 1T25).
+• Custo caixa de produção de celulose sem paradas de R$ 802/t (-7% vs. 1T25).
+• Alavancagem em 3,3x em US$ e 3,2x em R$.
+• Free Cash Flow Yield ("FCF Yield" - UDM) de 13,6% (-4,9 p.p. vs. 1T25).
+• ROIC ("Return on Invested Capital" - UDM) de 10,1% (-3,7 p.p. vs. 1T25).
+Dados Financeiros Consolidados 
+(R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+Receita Líquida 10.968 13.114 -16% 11.553 -5% 49.531
+EBITDA Ajustado2 4.580 5.583 -18% 4.866 -6% 21.451
+Margem EBITDA Ajustado2 42% 43% -1 p.p. 42% — p.p. 43%
+Resultado Financeiro Líquido 4.616 (3.411) —% 7.696 -40% 6.682
+Resultado Líquido 4.312 116 —% 6.348 -32% 11.402
+Geração de Caixa Operacional3 2.521 3.667 -31% 2.625 -4% 13.753
+Dívida Líq./EBITDA Ajustado2 (x) (R$) 3,2 x 3,2 x 0,0 x 3,1 x 0,1 x 3,2 x
+Dívida Líq./EBITDA Ajustado2 (x) (US$) 3,3 x 3,2 x 0,1 x 3,0 x 0,3 x 3,3 x
+Dados Operacionais 
+(mil t) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+Vendas 3.214 3.880 -17% 3.041 6% 14.375
+Celulose 2.835 3.406 -17% 2.651 7% 12.675
+Papel1 378 474 -20% 390 -3% 1.700
+(1) Considera os resultados da Unidade Bens de Consumo ( tissue) e o resultado da operação da Unidade Suzano Packaging US (Pine Bluff e 
+Waynesville).
+(2) Desconsidera itens não recorrentes.
+(3) Considera o EBITDA Ajustado menos o capex de manutenção (regime caixa).
+RESULTADOS
+1T26
+
+[p. 2]
+As informações trimestrais consolidadas foram preparadas de acordo com as normas da CVM e os CPCs, 
+e estão em conformidade com as normas internacionais de contabilidade (IFRS) emitidas pelo 
+International Accounting Standards Board (IASB). As informações operacionais e financeiras são 
+apresentadas com base em números consolidados em Reais (R$). Os somatórios podem divergir devido 
+a arredondamentos.
+SUMÁRIO
+SUMÁRIO EXECUTIVO .............................................................................................................................................................. 3
+DESEMPENHO DO NEGÓCIO DE CELULOSE ......................................................................................................................... 4
+VOLUME DE VENDAS E RECEITA DE CELULOSE ............................................................................................................ 4
+CUSTO CAIXA DE CELULOSE ............................................................................................................................................ 7
+EBITDA DO SEGMENTO CELULOSE ................................................................................................................................. 9
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO CELULOSE ................................................................................ 11
+DESEMPENHO DO NEGÓCIO DE PAPEL ................................................................................................................................. 11
+VOLUME DE VENDAS E RECEITA DE PAPEL ................................................................................................................... 11
+EBITDA DO SEGMENTO PAPEL ......................................................................................................................................... 14
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO PAPEL ........................................................................................ 16
+DESEMPENHO ECONÔMICO-FINANCEIRO .......................................................................................................................... 17
+RECEITA LÍQUIDA .............................................................................................................................................................. 17
+CALENDÁRIO DE PARADAS PROGRAMADAS PARA MANUTENÇÃO ............................................................................ 18
+CUSTO DO PRODUTO VENDIDO ...................................................................................................................................... 18
+DESPESAS DE VENDAS ...................................................................................................................................................... 19
+DESPESAS GERAIS E ADMINISTRATIVAS ...................................................................................................................... 19
+OUTRAS RECEITAS (DESPESAS) OPERACIONAIS ......................................................................................................... 20
+EBITDA AJUSTADO ............................................................................................................................................................ 20
+RESULTADO FINANCEIRO ................................................................................................................................................ 21
+OPERAÇÕES COM DERIVATIVOS ..................................................................................................................................... 22
+RESULTADO LÍQUIDO ....................................................................................................................................................... 26
+ENDIVIDAMENTO .............................................................................................................................................................. 26
+INVESTIMENTOS DE CAPITAL ......................................................................................................................................... 29
+GERAÇÃO DE CAIXA OPERACIONAL ................................................................................................................................ 29
+FLUXO DE CAIXA LIVRE .................................................................................................................................................... 30
+ROIC ("RETURN ON INVESTED CAPITAL") ..................................................................................................................... 31
+EVOLUÇÃO DA DÍVIDA LÍQUIDA .................................................................................................................................... 32
+ESG ....................................................................................................................................................................................... 32
+DESEMBOLSO TOTAL OPERACIONAL – CELULOSE ....................................................................................................... 32
+MERCADO DE CAPITAIS ........................................................................................................................................................... 32
+RENDA FIXA ................................................................................................................................................................................. 34
+RATING ......................................................................................................................................................................................... 34
+PRÓXIMOS EVENTOS ................................................................................................................................................................ 35
+ANEXOS ........................................................................................................................................................................................ 36
+ANEXO 1 – Dados Operacionais ..................................................................................................................................... 36
+ANEXO 2 – Demonstração de Resultado Consolidado e Amortização da Mais Valia ....................................... 38
+ANEXO 3 – Balanço Patrimonial Consolidado ............................................................................................................ 39
+ANEXO 4 – Demonstração de Fluxo de Caixa Consolidado .................................................................................... 40
+ANEXO 5 – EBITDA ........................................................................................................................................................... 41
+ANEXO 6 – Demonstração de Resultado Segmentado ............................................................................................ 42
+Afirmações sobre Expectativas Futuras ..................................................................................................................... 43
+RELEASE DE RESULTADOS 1T26
+ Página 2 de 43
+
+[p. 3]
+SUMÁRIO EXECUTIVO
+O mercado de celulose teve desempenho positivo no primeiro trimestre com sucessivos aumentos de 
+preços, a partir de uma demanda mais aquecida de papel, apesar da sazonalidade e das incertezas 
+geopolíticas.
+Nesse contexto, a despeito da recuperação de preços no período, o resultado do negócio de celulose na 
+Companhia quando comparado ao 4T25 foi impactado pelo menor volume vendido em função da 
+sazonalidade e pela depreciação do US$ em relação ao R$ médio. Quando comparado ao mesmo período 
+de 2025, a Companhia apresentou crescimento no volume de vendas e aumento no preço da celulose, 
+porém compensados pela forte apreciação cambial. O custo caixa de produção ex-paradas teve 
+performance conforme o esperado, com uma pequena elevação sobre o último trimestre e sem impacto 
+decorrente do conflito no Oriente Médio. Na comparação anual, houve redução do custo caixa de 
+produção. Essa combinação de fatores resultou na redução do EBITDA ajustado da celulose em relação 
+ao período anterior e também frente ao mesmo período de 2025. Na unidade de negócios de papel, o 
+volume vendido teve redução sobretudo em função da sazonalidade vs. o 4T25, enquanto menores 
+preços também impactados pelo R$ médio mais forte impactaram os resultados vs. o 1T25, resultando 
+em uma redução do EBITDA ajustado na comparação com ambos os períodos. Como resultado, o 
+EBITDA ajustado consolidado no trimestre totalizou R$ 4,6 bilhões, uma queda de 18% em relação ao 
+4T25 e redução de 6% quando comparado ao mesmo período de 2025. A geração de caixa operacional 
+atingiu R$ 2,5 bilhões no trimestre, representando uma redução de 31% vs. o 4T25 e uma queda de 4% 
+na comparação anual. 
+Em relação à gestão financeira no 1T26, a dívida líquida medida em US$ ficou em US$ 13,0 bilhões, uma 
+elevação de 3% em relação ao trimestre anterior, resultando em leve aumento da alavancagem em US$ 
+para 3,3x (4T25: 3,2x). A política de hedge cambial seguiu cumprindo sua função, com strikes médios 
+das operações de Zero Cost Collar contratados em 5,97 (put) e 6,90 (call) e valor nocional de US$ 5,6 
+bilhões. Em relação ao hedge de insumos derivados do petróleo, as operações de Zero Cost Collars 
+encerraram o 1T26 contratadas em US$ 56,89/bbl (put) e US$ 68,67/bbl (call) e valor nocional de US$ 
+336 milhões, nas quais a Companhia tem ajustes caixa positivos quando o Brent supera os strikes da 
+call das operações. No trimestre, a Suzano obteve R$ 48 milhões de ajuste caixa positivo fruto de seu 
+portfolio de hedge, mitigando no fluxo de caixa a pressão de custos de energia decorrentes do conflito 
+do Oriente Médio.
+Em linha com sua estratégia de longo prazo e o foco contínuo em temas ambientais, sociais e de 
+governança (ESG), a Suzano segue avançando de forma consistente em sua estratégia de 
+sustentabilidade alinhada ao seu modelo de negócios. No período, o MSCI anunciou o upgrade no rating 
+ESG da Suzano para BBB, refletindo a evolução por este avaliador das práticas de gestão da Companhia 
+em aderência às melhores práticas internacionais.
+RELEASE DE RESULTADOS 1T26
+Página 3 de 43
+
+[p. 4]
+DESEMPENHO DO NEGÓCIO DE CELULOSE
+VOLUME DE VENDAS E RECEITA DE CELULOSE
+O primeiro trimestre de 2026 foi marcado pela continuidade da implementação dos anúncios de 
+aumento de preços de celulose, em um contexto de maior incerteza geopolítica. A escalada do conflito 
+entre Irã e Estados Unidos resultou em pressão nos custos de produção e logística da indústria de 
+celulose e papel.
+Na China, o mercado de fibra curta apresentou suporte tanto pelo lado da oferta quanto da demanda. 
+Do lado da oferta, destacaram-se o anúncio de postergação de um relevante projeto de celulose de 
+mercado e restrições de produção relacionadas à disponibilidade de madeira na Indonésia. Pelo lado da 
+demanda, a produção total de papel apresentou aumento de 14,7% na comparação com o primeiro 
+trimestre de 2025, de acordo com a SCI, influenciada por incertezas geopolíticas. Os estoques nos 
+portos encerraram o trimestre em aproximadamente 2,7 milhões de toneladas, de acordo com a SCI, 
+em nível superior ao observado no mesmo período do ano anterior, porém compostos 
+majoritariamente por fibra longa conforme indicações de mercado. 
+Na Europa, segundo a Utipulp, o consumo de celulose de fibra curta nos primeiros dois meses do ano 
+apresentou crescimento de 1,7% na comparação anual, enquanto a fibra longa registrou retração de 
+8,5%, mantendo uma dinâmica com frequência observada de demanda entre as fibras. A região foi 
+especialmente impactada pela elevação dos custos de energia e químicos, o que aumentou a pressão 
+sobre os produtores locais de celulose e papel. Na América do Norte, o mercado de papéis sanitários 
+permaneceu estável, sustentando a demanda por celulose na região.
+Pelo lado da oferta, o trimestre foi marcado pela continuidade de anúncios de paradas não 
+programadas principalmente de fibra curta e pela concentração das paradas programadas para 
+manutenção na América Latina, incluindo operações da Suzano. Adicionalmente, desafios logísticos 
+decorrentes do cenário geopolítico impactaram o ambiente de oferta no início de 2026.
+Os índices PIX/FOEX médios do trimestre para a celulose de fibra curta na China apresentaram 
+aumento de 9,4% em relação ao 4T25. Na Europa, foi registrado um aumento de 11,9% em relação ao 
+4T25. A diferença de preço entre as fibras longa e curta no trimestre foi de US$ 103/t na China e US$ 
+381/t na Europa baseado em preços brutos. 
+RELEASE DE RESULTADOS 1T26
+Página 4 de 43
+
+[p. 5]
+As vendas de celulose da Suzano foram 17% inferiores na comparação com o trimestre anterior em 
+função da sazonalidade do período, com destaque para a redução dos volumes para a Ásia e América do 
+Norte, totalizando 2.835 mil toneladas. Em relação ao 1T25, a elevação foi de 7%, com destaque para os 
+aumentos observados na Ásia e na América do Norte.
+Volume de Vendas de Celulose (mil t)
++7% -17%
+q
+2.651
+3.406
+2.835
+144 154 149
+2.506
+3.252
+2.687
+1T25 4T25 1T26
+Mercado Externo Mercado Interno
+O preço líquido médio em US$ da celulose comercializada pela Suzano foi de US$ 560/t, representando 
+um aumento de 4% na comparação com o 4T25 e 1% em relação ao 1T25. No mercado externo, o preço 
+médio líquido realizado pela Companhia ficou em US$ 562/t, apresentando um crescimento de 4% em 
+relação ao 4T25 e 1% em relação ao 1T25. O preço líquido médio em R$ foi de R$ 2.943/t no 1T26, 2% 
+acima do 4T25, em função do aumento do preço médio líquido em US$, parcialmente compensado pela 
+desvalorização do US$ médio vs. o R$ médio (-3%). Em relação ao 1T25, a redução de 9% ocorreu em 
+função da desvalorização do US$ médio vs. o R$ médio (-10%), apesar do aumento do preço médio em 
+US$ de 1%.
+Preço Médio Líquido (US$/t)
++1% +4%
+q
+555 536 560
+1T25 4T25 1T26
+RELEASE DE RESULTADOS 1T26
+ Página 5 de 43
+
+[p. 6]
+A receita líquida de celulose teve uma redução de 15% em relação ao 4T25, em função do menor 
+volume vendido (-17%) e da desvalorização do US$ médio vs. o R$ médio (-3%), fatores parcialmente 
+compensados pelo maior preço médio líquido em US$ (+4%). Na comparação com o 1T25, a redução de 
+3% é explicada pela desvalorização do US$ médio vs. o R$ médio (-10%), parcialmente compensada 
+pelo maior volume vendido (+7%) e pelo maior preço médio líquido em US$ (+1%).
+Receita líquida de Celulose (R$ milhões)
+-3% -15%
+q
+8.612
+9.867
+8.346
+457 420 406
+8.154
+9.446
+7.940
+1T25 4T25 1T26
+Mercado Externo Mercado Interno
+RELEASE DE RESULTADOS 1T26
+Página 6 de 43
+
+[p. 7]
+CUSTO CAIXA DE CELULOSE
+Custo Caixa de Celulose Consolidado
+sem parada (R$/t)
+-7% +3%
+q
+859 778 802
+1T25 4T25 1T26
+Custo Caixa de Celulose (R$/t)
+ 
+-8% +9%
+q
+963
+809
+882
+859 778 802
+104
+31
+80
+1T25 4T25 1T26
+Custo Caixa (sem parada) Efeito parada
+RELEASE DE RESULTADOS 1T26
+Página 7 de 43
+
+[p. 8]
+O custo caixa sem paradas do 1T26 foi de R$ 802/t, um aumento de 3% em relação ao 4T25, em 
+função de: i) maior consumo de insumos, sobretudo de materiais auxiliares (substituição de materiais 
+diversos por ocasião das paradas programadas) e energia comprada; ii) maior custo com madeira, 
+explicado basicamente pelo maior consumo específico; e iii) menor diluição de custo fixo dado menor 
+volume produzido. Esses efeitos foram parcialmente compensados: i) pelo menor preço de insumos 
+(ex-efeito câmbio), sobretudo soda cáustica; ii) desvalorização do US$ médio vs. o R$ médio (-3%), 
+impactando no menor preço em R$, sobretudo da soda cáustica e do gás natural; e iii) pelo melhor 
+resultado de utilidades, por sua vez explicado pelo maior preço médio (beneficiado pelo leilão de 
+energia conforme divulgado pela Companhia em Comunicado ao Mercado em 27 de maio de 2022).
+Custo Caixa de Celulose consolidado sem parada (R$/t)¹
+(1) Exclui o efeito de paradas gerais para manutenção e paradas administrativas.
+O custo caixa sem paradas do 1T26 apresentou uma redução de 7% frente ao 1T25, em função de: i) 
+desvalorização do US$ médio vs. o R$ médio (-10%), beneficiando sobretudo o preço de insumos, como 
+soda cáustica, gás natural e dióxido de cloro; ii) menor custo com madeira, por sua vez explicado pelo 
+menor raio médio, menor preço de diesel praticado nas operações de colheita e transporte e pelo efeito 
+mix; iii) menor preço de insumos (ex-efeito câmbio), sobretudo da soda cáustica e do gás natural; iv) 
+menor custo fixo, por sua vez em função de menores gastos com mão de obra e serviços; e v) melhor 
+resultado de utilidades devido a maior preço (beneficiado pelo leilão de energia conforme divulgado 
+pela Companhia em Comunicado ao Mercado em 27 de maio de 2022). 
+Custo Caixa de Celulose consolidado sem parada (R$/t)¹
+(1) Exclui o efeito de paradas gerais para manutenção e paradas administrativas.
+RELEASE DE RESULTADOS 1T26
+Página 8 de 43
+
+[p. 9]
+Custo Caixa 1T26¹
+Cust o Fixo
+21%
+Madeir a
+39%
+Quím icos
+23%
+Ener gét icos
+13%
+Out r os 
+Var iáveis
+4%
+Custo Caixa 1T25¹
+Cust o Fixo
+21%
+Madeir a
+38%
+Quím icos
+25%
+Ener gét icos
+13%
+Out r os 
+Var iáveis
+3%
+(1) Considera o custo caixa sem paradas. Não considera venda de energia.
+EBITDA DO SEGMENTO CELULOSE
+Segmento Celulose 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+EBITDA Ajustado (R$ milhões)¹ 4.056 4.798 -15% 4.254 -5% 18.694
+Volume Vendido (mil t) 2.835 3.406 -17% 2.651 7% 12.675
+EBITDA Ajustado¹ Celulose (R$/t) 1.431 1.409 2% 1.605 -11% 1.475
+(1) Desconsidera itens não recorrentes.
+O EBITDA Ajustado da celulose foi 15% inferior ao 4T25, em função principalmente do menor volume 
+de vendas (-17%), desvalorização do US$ médio vs. o R$ médio (-3%), maior custo caixa de produção 
+sem paradas (+3%) e maior impacto das paradas programadas para manutenção. Tais fatores foram 
+parcialmente compensados pelo maior preço médio líquido em US$ (+4%) e menores despesas de 
+vendas e gerais e administrativas, por sua vez principalmente relacionadas à redução em serviços de 
+terceiros (destaque para consultorias e auditorias) e menores gastos com mão de obra. O EBITDA 
+Ajustado por tonelada ficou ligeiramente superior em relação ao trimestre anterior, explicado pelo 
+aumento no preço e pela queda no SG&A.
+Quando comparado ao 1T25, a redução de 5% do EBITDA Ajustado da celulose é devido basicamente à 
+desvalorização do US$ médio vs. o R$ médio (-10%). Tal fator foi parcialmente compensado pelo maior 
+volume de vendas (+7%), menor custo caixa de produção sem paradas (-7%), menor impacto de 
+paradas programadas para manutenção e maior preço médio líquido em US$ (+1%). Na análise do 
+EBITDA ajustado por tonelada, a redução de 11% do indicador ocorreu em função dos mesmos fatores, 
+ex-volumes.
+RELEASE DE RESULTADOS 1T26
+Página 9 de 43
+
+[p. 10]
+EBITDA Ajustado1 (R$ milhões) e Margem 
+EBITDA Ajustado (%) de Celulose
+4.254 4.798 4.056
+49% 49% 49%
+1T25 4T25 1T26
+Margem EBITDA Ajustado EBITDA Celulose
+(1) Desconsidera itens não recorrentes.
+EBITDA Ajustado Celulose por tonelada (R$/t)
+-11% +2%
+q
+1.605
+1.409 1.431
+1T25 4T25 1T26
+RELEASE DE RESULTADOS 1T26
+Página 10 de 43
+
+[p. 11]
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO CELULOSE
+Segmento de Celulose (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+EBITDA Ajustado¹ 4.056 4.798 -15% 4.254 -5% 18.694
+Capex Manutenção² (1.997) (1.608) 24% (2.054) -3% (6.876)
+Geração de Caixa Operacional 2.059 3.190 -35% 2.200 -6% 11.818
+(1) Desconsidera itens não recorrentes.
+(2) Regime caixa. No 1T26 foi atualizado o rateio de alocação de capex de manutenção entre as unidades de negócio de Celulose e Papel.
+A geração de caixa operacional por tonelada do segmento de celulose foi de R$ 726/t no 1T26, 
+redução de 22% em relação ao 4T25 devido ao aumento no capex de manutenção por tonelada (em 
+parte explicado por ajustes no critério de alocação entre segmentos), parcialmente compensado pela 
+elevação do EBITDA por tonelada. Em relação ao 1T25, a queda de 13% ocorreu basicamente devido à 
+queda do EBITDA por tonelada, parcialmente compensada pelo menor capex de manutenção por 
+tonelada.
+Geração de Caixa Operacional de Celulose 
+por tonelada (R$/t)
+-13% -22%
+q
+830
+937
+726
+1T25 4T25 1T26
+DESEMPENHO DO NEGÓCIO DE PAPEL
+Os dados e as análises a seguir incorporam os resultados conjuntos dos negócios de papel e bens de 
+consumo (tissue).
+VOLUME DE VENDAS E RECEITA DE PAPEL
+De acordo com os dados publicados pelo IBÁ (Indústria Brasileira de Árvores), a demanda de Imprimir 
+& Escrever no Brasil, considerando importações, apresentou redução de 23% nos dois primeiros meses 
+do 1T26 em relação aos dois primeiros meses do trimestre anterior e um crescimento de 3% em relação 
+ao mesmo período do 1T25. 
+Na comparação com o trimestre anterior, a redução é fruto da sazonalidade histórica dos segmentos 
+editoriais e didáticos. Na comparação com o mesmo período do 1T25, o crescimento foi sustentado pelo 
+aumento na demanda por papéis revestidos e estabilidade no consumo dos demais segmentos. 
+RELEASE DE RESULTADOS 1T26
+Página 11 de 43
+
+[p. 12]
+Nos mercados internacionais atendidos pela Companhia, América do Norte e Europa apresentaram 
+redução na demanda de aproximadamente 7% quando comparado ao primeiro trimestre de 2025, de 
+acordo com o PPPC, enquanto a demanda na América Latina teve crescimento de 5%, segundo dados da 
+referida consultoria especializada no setor.
+No mercado brasileiro de papelcartão, segundo dados publicados pelo IBÁ, a demanda registrou 
+redução de 15% nos dois primeiros meses do 1T26 em relação ao mesmo período do 4T25, porém na 
+comparação com os dois primeiros meses do 1T25 a demanda apresentou crescimento de 6%. A 
+redução frente ao trimestre anterior reflete a sazonalidade típica do segmento, quando se vê a 
+esperada redução do consumo após o período de festas. Já o crescimento em relação ao ano anterior 
+decorre do aumento da produção industrial e das vendas do varejo suportados pelo aumento da renda 
+na comparação com o 1T25, segundo diagnóstico do IPEA. 
+Consolidando os segmentos de mercado acima mencionados (mercado de papel acessível à Suzano), a 
+demanda total no Brasil acumulou crescimento de 4% nos dois primeiros meses do 1T26 na 
+comparação com o mesmo período do ano anterior, segundo dados do IBÁ. As vendas da Suzano no 
+mercado doméstico ficaram praticamente estáveis no trimestre, em comparação com o mesmo período 
+do ano anterior, assim como as exportações oriundas da operação no Brasil, enquanto o volume de 
+vendas da Suzano Packaging nos EUA reduziu 20% na mesma comparação devido a menor demanda, 
+reduções do estoque na cadeia de convertedores e por impactos decorrentes das tempestades de 
+inverno no início do ano. 
+A Unidade de Negócios de Papel e Embalagens segue avançando em seus pilares estratégicos de longo 
+prazo, destacando-se a evolução do desempenho da Suzano Packaging, bem como investimentos em 
+seu portfólio de produtos de inovação no Brasil, utilizando ativos existentes voltados para os 
+segmentos de embalagens e substituição de plásticos de uso único. Nos mercados tradicionais de I&E, o 
+foco segue na evolução do modelo exclusivo de go-to-market visando expansão da base de clientes e 
+regiões atendidas, bem como a competitividade de custos.
+As vendas de papel da Suzano (imprimir & escrever, papelcartão e tissue) no mercado brasileiro 
+totalizaram 226 mil toneladas no 1T26, redução de 24% em relação ao trimestre anterior, motivada 
+pela sazonalidade histórica de consumo dos segmentos atendidos. Em relação ao 1T25, o aumento de 
+2% ocorreu em função, do aumento no volume de revestidos e tissue, parcialmente compensados pela 
+ligeira redução na venda de papeis não revestidos.
+As vendas de papel nos mercados internacionais totalizaram 153 mil toneladas, representando 40% do 
+volume total de vendas no 1T26. A redução de 14% em relação ao 4T25 é explicada pela sazonalidade 
+do período sobretudo na linha de papel Imprimir & Escrever. A redução de 10% em relação ao 1T25, é 
+explicada principalmente pela queda no volume de vendas de papelcartão sobretudo nas operações da 
+Suzano Packaging US, em um contexto de sazonalidade do segmento de papelcartão nos EUA.
+RELEASE DE RESULTADOS 1T26
+Página 12 de 43
+
+[p. 13]
+Volume de Vendas de Papel (mil t)¹
+-3% -20%
+q
+390
+474
+378
+221
+297
+226
+169
+178
+153
+1T25 4T25 1T26
+Mercado Externo Mercado Interno
+(1) Inclui a unidade de bens de consumo e a operação da Unidade Suzano Packaging US.
+O preço médio líquido teve aumento de 1% em relação ao trimestre anterior, refletindo o aumento de 
+4% no mercado interno, principalmente nos segmentos imprimir & escrever, parcialmente compensado 
+pela redução de 2% no preço médio líquido no mercado externo, explicada pela queda em todos os 
+segmentos de papel atendidos devido a sazonalidade, além da desvalorização do dólar médio frente ao 
+real médio de 3%. Em relação ao 1T25, a redução de 8% ocorreu em função das quedas de preços em 
+todos os segmentos de papel atendidos pelas operações no Brasil, com destaque para a redução do 
+preço no mercado externo (-15%), além da desvalorização do dólar médio frente ao real médio de 10%. 
+Esses efeitos foram parcialmente compensados pelo aumento do preço médio líquido em US$ da 
+operação da Suzano Packaging US (+7%).
+Preço Médio Líquido de Papel (R$/t)1
+-8% +1%
+q
+7.540 6.845 6.933
+1T25 4T25 1T26
+(1) Inclui a unidade de bens de consumo e a operação da Unidade Suzano Packaging US.
+RELEASE DE RESULTADOS 1T26
+Página 13 de 43
+
+[p. 14]
+A receita líquida de papel foi de R$ 2.623 milhões, redução de 19% em relação ao 4T25, principalmente 
+em função do menor volume de vendas nos mercados interno e externo, além do menor preço médio 
+líquido no mercado externo (-2%) e da desvalorização do US$ médio frente ao R$ médio (-3%). Em 
+relação ao 1T25, houve uma redução de 11% em função principalmente da redução no volume de 
+vendas da operação da Suzano Packaging US (-23%). Esse fator foi parcialmente compensado pelo 
+maior preço em US$ da Suzano Packaging (+7%).
+Receita de Papel (R$ milhões)¹
+-11% -19%
+q
+2.941
+3.247
+2.623
+1.691
+2.114
+1.666
+1.250
+1.133
+957
+1T25 4T25 1T26
+Mercado Externo Mercado Interno
+(1) Inclui a unidade de bens de consumo e a operação da Unidade Suzano Packaging US.
+EBITDA DO SEGMENTO PAPEL
+Segmento Papel 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+EBITDA Ajustado (R$ milhões)¹ 524 785 -33% 612 -14% 2.757
+Volume Vendido (mil t) 378 474 -20% 390 -3% 1.700
+EBITDA Ajustado¹ Papel (R$/t) 1.385 1.655 -16% 1.568 -12% 1.622
+(1) Desconsidera itens não recorrentes.
+O EBITDA Ajustado do papel teve redução de 33% na comparação com o 4T25, em função 
+principalmente do menor volume de vendas (-20%) devido à sazonalidade de mercado. Esse efeito foi 
+parcialmente compensado pela redução do SG&A (menores despesas com serviços de terceiros e mão 
+de obra) e menor CPV base caixa (por sua vez beneficiado principalmente pelo menor impacto de 
+paradas programadas para manutenção e menor custo da produção nas operações no Brasil). Na análise 
+do EBITDA ajustado por tonelada, a redução de 16% é explicada principalmente pelo maior CPV base 
+caixa e SG&A por tonelada decorrente, por sua vez, do efeito mix de produtos e elevação do CPV base 
+caixa da Suzano Packaging US (maior consumo e maior preço de insumos durante a severa tempestade 
+de inverno no período), parcialmente compensado pelo maior preço médio líquido.
+RELEASE DE RESULTADOS 1T26
+Página 14 de 43
+
+[p. 15]
+Em relação ao 1T25, a redução de 14% ocorreu principalmente em função da queda do preço médio 
+líquido em reais (-8%), da desvalorização do US$ médio em relação ao R$ médio (-10%) e da redução 
+no volume de vendas (-3%). Esses efeitos foram parcialmente compensados pela redução do SG&A 
+(sobretudo menor gasto com pessoal). Na análise do EBITDA ajustado por tonelada, a redução de 12% é 
+explicada principalmente pela queda do preço médio líquido em reais (-8%) e pela desvalorização do 
+US$ médio em relação ao R$ médio (-10%), parcialmente compensados pela queda do CPV base caixa 
+por tonelada.
+EBITDA Ajustado (R$ milhões) e 
+Margem EBITDA Ajustado (%) de Papel
+612
+785
+524
+21% 24% 20%
+1T25 4T25 1T26
+Margem EBITDA Ajustado EBITDA Papel
+EBITDA Ajustado Papel (R$/t)
+-12% -16%
+q
+1.568 1.655
+1.385
+1T25 4T25 1T26
+RELEASE DE RESULTADOS 1T26
+Página 15 de 43
+
+[p. 16]
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO PAPEL
+Ger. Operacional – Papel 
+(R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+EBITDA Ajustado¹ 524 785 -33% 612 -14% 2.757
+Capex Manutenção² (62) (308) -80% (187) -67% (823)
+Geração de Caixa Operacional 462 477 -3% 424 9% 1.934
+(1) Desconsidera itens não recorrentes.
+(2) Em regime caixa. No 1T26 foi atualizado o rateio de alocação de capex de manutenção entre as unidades de negócio de Celulose e Papel.
+A geração de caixa operacional por tonelada do papel foi de R$ 1.221/t no 1T26, aumento de 22% e 
+12% em relação ao 4T25 e 1T25, respectivamente, em função principalmente do menor capex de 
+manutenção por tonelada (-75%) e (-66%), devido atualização no critério de alocação entre as 
+Unidades de Negócio de Celulose e Papel, parcialmente compensado pela queda do EBITDA ajustado 
+por tonelada de 16% e 12% em relação ao 4T25 e 1T25, respectivamente.
+Geração de Caixa Operacional de Papel por tonelada (R$/t)
++12% +22%
+q
+1.088 1.005
+1.221
+1T25 4T25 1T26
+RELEASE DE RESULTADOS 1T26
+Página 16 de 43
+
+[p. 17]
+DESEMPENHO ECONÔMICO-FINANCEIRO
+RECEITA LÍQUIDA
+A receita líquida da Suzano no 1T26 foi de R$ 10.968 milhões, sendo 81% gerada no mercado externo 
+(estável vs. 4T25 e 1T25). Em relação ao 4T25, a queda de 16% é explicada principalmente pelo menor 
+volume de vendas de celulose e de papel (-17% e -20%, respectivamente) e pela desvalorização do US$ 
+médio frente ao R$ médio (-3%). Esses efeitos foram parcialmente compensados pelo maior preço 
+líquido médio de celulose em US$ (+4%).
+A queda de 5% da receita líquida consolidada em relação ao 1T25 é explicada pela desvalorização do 
+US$ médio em relação ao R$ médio (-10%), pelo menor preço líquido médio de papel em R$ (-8%) e 
+pelo menor volume de vendas de papel (-3%). Esses efeitos foram parcialmente compensados pelo 
+maior volume de vendas de celulose (+7%) e pelo maior preço líquido médio de celulose em US$ (+1%).
+Receita Líquida1 (R$ milhões)
+-5% -16%
+q
+11.553
+13.114
+10.968
+2.149 2.534 2.072
+9.404
+10.580
+8.897
+1T25 4T25 1T26
+Mercado Externo Mercado Interno
+(1) Não inclui a receita de serviços de Portocel
+Composição da Receita Líquida (1T26)
+Outros Papéis
+6%
+Papelcartão
+8%
+Imprimir e 
+Escrever
+10%
+Celulose
+76%
+RELEASE DE RESULTADOS 1T26
+Página 17 de 43
+
+[p. 18]
+CALENDÁRIO DE PARADAS PROGRAMADAS PARA MANUTENÇÃO
+(1) Inclui as capacidades integradas e fluff.
+(2) Veracel é uma joint operation entre Suzano (50%) e Stora Enso (50%) e sua capacidade total anual é de 1.120 mil t.
+CUSTO DO PRODUTO VENDIDO
+CPV (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+CPV 7.808 9.098 -14% 7.729 1% 33.968
+(-) Depreciação, exaustão e amortização (2.548) (2.800) -9% (2.224) 15% (10.535)
+CPV base caixa 5.259 6.298 -16% 5.506 -4% 23.433
+Volume de vendas (mil t) 3.214 3.880 -17% 3.041 6% 14.375
+CPV base caixa/t (R$/t) 1.637 1.623 1% 1.811 -10% 1.630
+O CPV base caixa no 1T26 totalizou R$ 5.259 milhões ou R$ 1.637/t. Na comparação com o 4T25, o 
+indicador teve redução de 16%, principalmente em função: i) do menor volume de vendas de celulose e 
+papel e ii) pela desvalorização do US$ médio frente ao R$ médio de 3%. Esses efeitos foram 
+parcialmente compensados pelo maior impacto das paradas programadas para manutenção e pelo 
+maior custo caixa de produção de celulose ex-parada. Na análise por tonelada, a variação do indicador 
+foi praticamente estável devido aos mesmos fatores, ex-volumes.
+Na comparação com o 1T25, o CPV base caixa teve redução de 4% em função i) da desvalorização do 
+US$ médio frente ao R$ médio de 10%; ii) do menor impacto das paradas programadas para 
+manutenção; e iii) do menor custo caixa de produção de celulose ex-parada. Esses efeitos foram 
+compensados sobretudo pelo maior volume vendido. Na análise por tonelada, o indicador foi 10% 
+menor que no mesmo período do ano anterior devido principalmente à desvalorização do US$ médio 
+frente ao R$ médio e menor impacto das paradas programadas para manutenção, conforme 
+mencionado anteriormente.
+RELEASE DE RESULTADOS 1T26
+Página 18 de 43
+
+[p. 19]
+DESPESAS DE VENDAS
+Despesas de Vendas (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+Despesas de vendas 752 870 -14% 755 0% 3.310
+(-) Depreciação, exaustão e amortização (244) (244) 0% (241) 1% (974)
+Despesas de vendas base caixa 508 625 -19% 514 -1% 2.335
+Volume de vendas (mil t) 3.214 3.880 -17% 3.041 6% 14.375
+Despesas de vendas base caixa/t (R$/t) 158 161 -2% 169 -6% 162
+As despesas com vendas base caixa apresentaram queda de 19% em relação ao 4T25, em função 
+principalmente: i) do menor volume vendido (celulose e papel); ii) menores gastos com despesas fixas 
+comerciais (sobretudo pela redução da perda estimada com crédito de liquidação duvidosa - PECLD); e 
+iii) desvalorização do US$ médio vs. o R$ de 3%. Na análise por tonelada, as despesas de vendas base 
+caixa tiveram queda de 2% devido aos fatores mencionados excluindo o impacto de maiores volumes 
+de venda.
+Quando comparado ao 1T25, as despesas de vendas base caixa foram 1% inferiores, decorrentes 
+principalmente: i) da desvalorização do US$ médio vs. o R$ de 10%; e ii) menores gastos com despesas 
+fixas comerciais (em grande parte explicada pela redução da perda estimada com crédito de liquidação 
+duvidosa - PECLD). Esses efeitos foram parcialmente compensados pela maior despesa logística (efeito 
+mix de região) e pelo maior volume vendido. As despesas com vendas base caixa por tonelada tiveram 
+uma redução de 6%, em função dos mesmos fatores elencados anteriormente, ex-volumes.
+DESPESAS GERAIS E ADMINISTRATIVAS
+Despesas Gerais e Administrativas (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 
+1T26
+Despesas gerais e administrativas 683 804 -15% 674 1% 2.799
+(-) Depreciação, exaustão e amortização (34) (34) 0% (30) 12% (133)
+Despesas gerais e administrativas base caixa 649 770 -16% 643 1% 2.667
+Volume de vendas (mil t) 3.214 3.880 -17% 3.041 6% 14.375
+Despesas gerais e administrativas base caixa/t (R$/t) 202 199 2% 212 -5% 186
+Na comparação com o 4T25, a redução de 16% das despesas gerais e administrativas base caixa é 
+explicada principalmente por menores despesas relacionadas a serviços de terceiros (destaque para 
+consultorias e auditorias) e menores gastos com mão de obra. Na análise por tonelada, houve elevação 
+de 2% dado que esses gastos não variam com o volume vendido, que teve queda expressiva em função 
+da sazonalidade do período.
+Na comparação com o 1T25, as despesas gerais e administrativas base caixa foram 1% superiores em 
+função principalmente de maiores despesas com pessoal, relacionadas à remuneração variável e 
+maiores gastos com serviços de terceiros (consultorias e auditorias), parcialmente compensados por 
+menores gastos administrativos de naturezas diversas (serviços de terceiros, mão de obra, TI, dentre 
+outras). Na análise por tonelada, a redução foi de 5% em função do efeito volume.
+RELEASE DE RESULTADOS 1T26
+Página 19 de 43
+
+[p. 20]
+OUTRAS RECEITAS (DESPESAS) OPERACIONAIS
+Outras Receitas (Despesas) Operacionais (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 
+1T26
+Outras receitas (despesas) operacionais 70 1.345 -95% (119) —% 1.124
+(-) Depreciação, exaustão e amortização 19 7 —% (3) —% 36
+Outras receitas (despesas) operacionais base caixa 50 1.338 -96% (117) —% 1.088
+Volume de vendas (mil t) 3.214 3.880 -17% 3.041 6% 14.375
+Outras receitas (despesas) operacionais base caixa/t 
+(R$/t) 16 345 -95% (38) -141% 76
+A rubrica outras receitas (despesas) operacionais totalizou receita de R$ 70 milhões no 1T26, em 
+comparação à receita de R$ 1.345 milhões no 4T25 e despesa de R$ 119 milhões no 1T25. A variação 
+negativa em relação ao 4T25 é explicada sobretudo ausência da atualização do valor justo do ativo 
+biológico (que ocorre no segundo e quarto trimestre de cada ano). Em relação ao 1T25, a variação 
+positiva ocorreu em função principalmente do resultado positivo na alienação e baixa de ativos e da 
+redução na provisão de passivos judiciais.
+EBITDA AJUSTADO
+Consolidado 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+EBITDA Ajustado (R$ milhões)¹ 4.580 5.583 -18% 4.866 -6% 21.451
+Margem EBITDA Ajustado 42% 43% -1 p.p 42% 0 p.p 43%
+Volume Vendido (mil t) 3.214 3.880 -17% 3.041 6% 14.375
+EBITDA Ajustado¹ Consolidado (R$/t) 1.425 1.439 -1% 1.600 -11% 1.492
+(1) Desconsidera itens não recorrentes.
+A redução de 18% do EBITDA Ajustado do 1T26 em relação ao 4T25 é explicado sobretudo: i) pelo 
+menor volume de vendas de celulose (-17%) e papel (-20%); ii) pela desvalorização do US$ médio em 
+relação ao R$ médio (-3%); e iii) pelo maior CPV base caixa por tonelada (1%) (veja seção Custo do 
+Produto vendido para mais detalhes). Esses efeitos foram parcialmente compensados: i) pelo maior 
+preço líquido médio de celulose em US$ (+4%); ii) pela queda das Despesas com Vendas por tonelada 
+(veja seção Despesas com Vendas para mais detalhes); e iii) pela queda das Despesas Gerais e 
+Administrativas (veja seção Despesas Gerais e Administrativas para mais detalhes). O EBITDA Ajustado 
+por tonelada ficou praticamente estável devido aos mesmos fatores ex-volume.
+Já em relação ao 1T25, a queda de 6% no EBITDA Ajustado ocorreu em função: i) da desvalorização do 
+US$ médio em relação ao R$ médio (-10%); e ii) do menor preço médio líquido do papel nos mercados 
+interno e externo atendidos pelas operações no Brasil. Esses efeitos foram parcialmente compensados 
+principalmente pelo: i) maior volume de vendas de celulose (+7%); e ii) menor CPV base caixa por 
+tonelada (veja seção Custo do Produto Vendido para mais detalhes). O EBITDA ajustado por tonelada 
+teve uma redução de 11% devido aos mesmos fatores ex-volume.
+RELEASE DE RESULTADOS 1T26
+Página 20 de 43
+
+[p. 21]
+RESULTADO FINANCEIRO
+Resultado Financeiro (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 
+1T26
+Despesas Financeiras (1.805) (1.814) 0% (1.640) 10% (7.049)
+Juros sobre empréstimos e financiamentos em 
+moeda local (588) (609) -3% (417) 41% (2.292)
+Juros sobre empréstimos e financiamentos em 
+moeda estrangeira (838) (945) -11% (996) -16% (3.670)
+Juros capitalizados1 25 69 -64% 53 -53% 247
+Outras despesas financeiras (404) (329) 23% (280) 44% (1.333)
+Receitas Financeiras 486 482 1% 439 11% 1.814
+Juros sobre aplicações financeiras 464 440 6% 348 33% 1.700
+Outras receitas financeiras 22 43 -49% 90 -76% 114
+Variação Cambial e Monetária 2.910 (1.976) —% 5.204 -44% 5.256
+Variação cambial dívida 3.419 (2.530) —% 5.703 -40% 6.107
+Outras variações cambiais e monetárias (509) 553 —% (499) 2% (851)
+Resultado de operações com derivativos2 3.026 (103) —% 3.693 -18% 6.661
+Hedge de Fluxo de caixa – Operacional 1.480 (97) —% 3.077 -52% 4.063
+Hedge de dívida 1.171 22 —% 538 —% 2.162
+Outros³ 375 (28) —% 79 —% 438
+Resultado Financeiro Líquido 4.616 (3.411) —% 7.696 -40% 6.682
+(1) Capitalização de juros referente à obras em andamento.
+(2) Variação da marcação a mercado (1T26: R$ 3.314 milhões | 4T25: R$ 230 milhões), somada aos ajustes pagos e recebidos (1T26: R$ 58 milhões 
+negativos).
+(3) Considera hedge de commodities e derivativo embutido.
+As despesas financeiras ficaram estáveis em relação ao 4T25 , refletindo, principalmente, a diminuição 
+na linha de juros sobre empréstimos em moeda estrangeira, em função da desvalorização do US$ médio 
+no período e da redução da taxa SOFR no período , compensado pelos custos de encerramento 
+antecipado da linha de crédito não sacada com a Finnvera no 1T26, impactando a linha de outras 
+despesas financeiras. Em relação ao 1T25, as despesas financeiras registraram um aumento de 10%, 
+principalmente em função do aumento de juros em moeda local, proveniente das captações realizadas 
+ao longo do período, elevando o saldo de dívida em Reais (1T26: R$ 24,7 bilhões | 1T25: R$ 18,4 
+bilhões), em conjunto com o aumento na rubrica de outras despesas financeiras relacionado ao 
+encerramento antecipado da linha com a Finnvera , parcialmente compensadas pela menor despesa de 
+juros em moeda estrangeira, decorrente da desvalorização do US$ médio no período.
+As receitas financeiras registrara m aumento de 1% em relação ao 4T25, reflexo do aumento da linha 
+de juros sobre aplicações financeiras em decorrência do maior volume de caixa médio onshore. Na 
+comparação com o 1T25, o aumento de 11% decorre da elevação de juros sobre aplicações financeiras, 
+resultado de um maior CDI acumulado do período (1T26: 3,41% | 1T25: 2,99%) e também de maior 
+posição de caixa, parcialmente compensado pela queda em outras receitas financeiras, resultado de 
+menor atualização monetária de impostos e contribuições federais a serem restituídos. 
+As variações cambiais e monetárias aumentaram o resultado financeiro da Companhia em R$ 2.910 
+milhões em função principalmente da desvalorização de 5% do US$ frente ao R$ no período em relação 
+ao fechamento do 4T25, impactando a parcela da dívida em moeda estrangeira (US$ 12.662 milhões ao 
+final do 1T26). Esse efeito foi parcialmente compensado pelo resultado negativo da variação cambial 
+sobre outros itens do balanço em moeda estrangeira. 
+Importante ressaltar que o impacto contábil da variação cambial na dívida em moeda estrangeira tem 
+efeito caixa somente nos respectivos vencimentos.
+RELEASE DE RESULTADOS 1T26
+Página 21 de 43
+
+[p. 22]
+O resultado de operações com derivativos foi positivo em R$ 3.026 milhões no 1T26, sobretudo em 
+função do impacto positivo da desvalorização do US$ frente ao R$ (-5%). A marcação a mercado dos 
+instrumentos financeiros derivativos em 31 de março de 2026 foi positiva em R$ 3.314 milhões, vis a vis 
+à marcação positiva de R$ 230 milhões em 31 de dezembro de 2025, perfazendo a variação positiva de 
+R$ 3.084 milhões. Importante destacar que o impacto da desvalorização do US$ sobre a carteira de 
+derivativos só terá efeito caixa nos respectivos vencimentos. O efeito líquido no caixa referente ao 
+vencimento de operações com derivativos no primeiro trimestre foi negativo em R$ 58 milhões (sendo 
+negativo em R$ 157 milhões referentes a hedge de dívida, R$ 51 milhões positivos referentes a hedge 
+de fluxo de caixa e R$ 48 milhões positivos referentes a commodities). 
+Em decorrência dos fatores acima listados, considerando todas as linhas de despesas e receitas 
+financeiras, o resultado financeiro líquido foi positivo em R$ 4.616 milhões no 1T26, em comparação ao 
+resultado negativo de R$ 3.411 milhões no 4T25 e positivo de R$ 7.696 milhões no 1T25.
+OPERAÇÕES COM DERIVATIVOS
+A Suzano tem operações com derivativos exclusivamente com a finalidade de proteção (hedge). A 
+tabela a seguir reflete a posição dos instrumentos derivativos em 31 de março de 2026:
+Hedge1 Nocional (US$ milhões) Valor justo (R$ milhões)
+Mar/26 Dez/25 Mar/26 Dez/25
+Dívida 8.109 7.397 476 (851)
+Fluxo de caixa – Operacional (ZCC + NDF) 5.637 6.246 2.433 1.004
+Commodities 336 361 379 (34)
+Outros2 155 153 26 112
+Total 14.237 14.158 3.314 230
+(1) Vide nota 4 do ITR para maiores detalhes e análises de sensibilidade do valor justo.
+(2) Considera derivativo embutido. 
+A política de exposição cambial da Companhia tem como objetivo minimizar a volatilidade da geração de 
+caixa da Suzano e garantir maior flexibilidade na gestão do fluxo de caixa. Atualmente, a política 
+estipula que o excedente de US$ pode ser parcialmente “hedgeado” (mínimo de 40% e até 75% da 
+exposição cambial para os próximos 24 meses) por meio de instrumentos plain vanilla, como Zero Cost 
+Collar (ZCC) e Non-Deliverable Forward (NDF). Ao final do 1T26, a cobertura do portfólio de hedge de 
+fluxo de caixa estava em 61% da exposição cambial.
+As operações de ZCC estabelecem limites inferiores e superiores da taxa de câmbio com objetivo de 
+minimizar impactos negativos em casos que ocorra uma elevada apreciação do R$. Dessa forma, quando 
+a taxa de câmbio ficar entre os limites estabelecidos, a Companhia não paga e nem recebe ajustes 
+financeiros. Tal característica permite que se capture um maior benefício nas receitas de exportação em 
+um eventual cenário de desvalorização do R$ frente ao US$, dentro do intervalo contratado. Para 
+cenários extremos de valorização do R$, a Companhia está protegida pelos limites inferiores, 
+considerados adequados para a operação. Ao mesmo tempo, esse instrumento de proteção limita, 
+temporária e parcialmente, os potenciais ganhos em cenários extremos de desvalorização do R$, em 
+que as taxas de câmbio superam os limites superiores contratados. 
+Em 31 de março de 2026, o valor em aberto das operações (notional) para venda futura de US$ através 
+de ZCC relacionadas ao Fluxo de Caixa era de US$ 5.574 milhões, contratadas pelo intervalo médio de 
+R$ 5,97 a R$ 6,90, e vencimentos distribuídos entre abril de 2026 e março de 2028. Nesta mesma data, 
+o valor em aberto das operações (notional) para venda futura de US$ por meio de NDF era de US$ 63 
+milhões, com vencimentos distribuídos entre abril de 2026 e junho de 2026 e taxa média contratada de 
+R$ 5,95. O resultado com operações de hedge operacional de Fluxo de Caixa no 1T26 foi positivo em R$ 
+1.480 milhões. Já a marcação a mercado (“MtM” ou “valor justo”) dessas operações ficou positiva em R$ 
+2.433 milhões.
+RELEASE DE RESULTADOS 1T26
+Página 22 de 43
+
+[p. 23]
+A tabela abaixo apresenta uma análise de sensibilidade em relação ao impacto caixa que a Companhia 
+poderá ter em suas carteiras de hedge de Fluxo de Caixa (ZCC e NDF) caso a taxa de câmbio permaneça 
+a mesma da cotação de fechamento do 1T26 (R$/US$ = 5,22) nos próximos trimestres; bem como qual 
+deve ser o impacto caixa para variações de R$ 0,10 abaixo/acima do patamar de strike da put/call, 
+respectivamente, definidas a cada trimestre. Faz-se necessário ressaltar que os valores apresentados na 
+tabela refletem estimativas da Companhia considerando os níveis de fechamento do período e que 
+podem sofrer oscilações dependendo das condições de mercado.
+Ajuste caixa (R$ milhões)
+Prazo (até) Strike Range Nocional 
+(US$ milhões) Realizado
+Com câmbio de 
+fechamento 1T26 
+(R$ 5,22)
+Sensibilidade a 
+R$ 0,10 / US$ de 
+variação (+/-)
+Zero Cost Collars
+1T26 34
+2T26 5,36 - 6,17 1.257 196 126
+3T26 6,18 - 7,08 45 43 5
+4T26 6,33 - 7,41 660 733 66
+1T27 6,34 - 7,47 608 681 61
+2T27 6,42 - 7,44 680 816 68
+3T27 6,02 - 6,89 840 669 84
+4T27 6,01 - 6,84 970 764 97
+1T28 5,81 - 6,70 515 306 52
+Total 5,97 - 6,90 5.574 34 4.209 557
+NDF
+1T26 17
+2T26 5,95 63 46 6
+Total 5,95 63 17 46 6
+Com o objetivo de minimizar os efeitos das variações cambiais e taxas de juros sobre o valor da dívida e 
+do fluxo de caixa, também são celebrados contratos de swaps de moedas e juros. Contratos de swap 
+são celebrados considerando diferentes taxas de juros e índices de correção como forma de mitigar o 
+descasamento entre os diferentes ativos e passivos financeiros.
+Em 31 de março de 2026, a Companhia possuía em aberto (notional) US$ 8.109 milhões em contratos 
+de swap distribuídos conforme a tabela abaixo. O resultado com operações de hedge de dívida no 1T26 
+foi positivo em R$ 1.171 milhões, em função da depreciação do US$ frente ao R$ e da abertura da curva 
+de cupom cambial no período. A marcação a mercado (valor justo) dessas operações foi positiva em R$ 
+476 milhões.
+Nocional (US$ milhões) Valor justo (R$ milhões)
+Hedge de Dívida Prazo 
+(até) Moeda Mar/26 Dez/25 Mar/26 Dez/25
+Swap (CDI x US$) 2036 US$ 1.692 1.636 480 (161)
+Swap (RMB x US$) 2030 US$ 363 363 79 35
+Swap (SOFR x US$) 2031 US$ 2.464 2.400 152 92
+Swap (CDI x SOFR) 2034 US$ 660 660 80 (165)
+Swap (Pré x CDI) 2031 R$ 460¹ 436¹ 258 8
+Swap (IPCA x CDI) 2044 R$ 2.471¹ 1.902¹ (572) (661)
+Total 8.109 7.397 476 (851)
+(1) Convertido pela taxa de fechamento do trimestre (R$ 5,22).
+RELEASE DE RESULTADOS 1T26
+Página 23 de 43
+
+[p. 24]
+A tabela abaixo apresenta uma análise de sensibilidade¹ em relação ao impacto caixa que a Companhia 
+poderá ter em sua carteira de hedge de dívida (swaps) caso a taxa de câmbio permaneça a mesma da 
+cotação de fechamento do 1T26 (R$/US$ = 5,22) nos próximos trimestres; bem como qual deve ser a 
+variação do impacto caixa para variações de R$ 0,10 sobre a mesma taxa de câmbio de referência 
+(1T26). Importante ressaltar que os valores apresentados na tabela refletem estimativas da 
+Companhia considerando as curvas de fechamento do período e podem sofrer oscilações dependendo 
+das condições de mercado.
+Ajuste caixa (R$ milhões)
+Prazo (até) Nocional (US$ milhões) Realizado R$ / US$ = 5,22 
+(1T26)
+Sensibilidade a 
+R$ 0,10 / US$ de 
+variação (+/-)1
+1T26 (157)
+2T26 17 136 2
+3T26 22 (151) 2
+4T26 126 110 4
+2027 533 (16) 29
+2028 431 78 30
+2029 728 82 11
+>=2030 6.251 8.414 240
+Total 8.109 (157) 8.653 320
+(1) Análise de sensibilidade assume variação apenas na taxa de câmbio (R$/US$), considerando demais variáveis constantes.
+As demais transações com derivativos da Companhia referem-se a derivativo embutido em função de 
+parceria florestal e hedge de commodities, conforme tabela abaixo.
+Nocional 
+(US$ milhões)
+Valor justo 
+(R$ milhões)
+Ajuste caixa 
+(R$ milhões)
+Outros hedges Prazo 
+(até) Indexador Mar/26 Dez/25 Mar/26 Dez/25 Mar/26 Dez/25
+Derivativo embutido 2039 Fixo | Dólar US-
+CPI 155 153 26 112 — —
+Commodities 2027 Brent/VLSFO/
+Outros 336 360 379 (33) 48 (7)
+Total 490 514 405 78 48 (7)
+Parte dos contratos de parceria florestal e de fornecimento de madeira em pé assinados tem seus 
+preços denominados em US$ por m 3 de madeira em pé, reajustado de acordo com a inflação americana 
+medido pelo CPI (Consumer Price Index), o qual não é considerado como relacionado ao ambiente 
+econômico onde as áreas estão localizadas, caracterizando-se, portanto, um derivativo embutido. Tal 
+instrumento apresentado na tabela acima são contratos de swap de venda das variações do US-CPI e 
+de US$ nos prazos dos contratos - vide nota 4 das Demonstrações Financeiras do 1T26 para maiores 
+detalhes e análise de sensibilidade do valor justo frente à possível variação acentuada do US-CPI e do 
+US$. Em 31 de março de 2026, o valor em aberto (notional) referente à operação era de US$ 155 
+milhões. O resultado deste swap no 1T26 foi negativo em R$ 86 milhões. A marcação a mercado (valor 
+justo) de tais operações foi positiva em R$ 26 milhões ao final do trimestre. 
+A Companhia também está exposta ao preço de algumas commodities e, portanto, avalia 
+continuamente a contratação de instrumentos financeiros derivativos para mitigar tais riscos. Em 31 de 
+março de 2026, o valor em aberto (notional) referente a tais operações era de US$ 336 milhões. O 
+resultado destes hedges no 1T26 foi positivo em R$ 461 milhões. A marcação a mercado (valor justo) de 
+tais operações foi positiva em R$ 379 milhões ao final do trimestre.
+RELEASE DE RESULTADOS 1T26
+Página 24 de 43
+
+[p. 25]
+A tabela abaixo apresenta uma análise de sensibilidade¹ em relação ao impacto caixa que a Companhia 
+poderá ter em sua carteira de hedge de commodities caso o preço do Brent por barril permaneça o 
+mesmo fechamento do 1T26 (US$/barril = 103,97) nos próximos trimestres; bem como qual deve ser a 
+variação do impacto caixa para variações de US$ 10,00 por barril sobre o mesmo preço de referência 
+(1T26). Importante ressaltar que os valores apresentados na tabela refletem estimativas da 
+Companhia considerando os níveis de fechamento do período e podem sofrer oscilações dependendo 
+das condições de mercado.
+Ajuste caixa (R$ milhões)
+Prazo (até) Strike Range Nocional (US$ 
+milhões) Realizado
+Com Brent de 
+fechamento 1T26 (US$/
+bbl = 103,97)
+Sensibilidade a US$ 10/
+bbl de variação (+/-)1
+Zero Cost Collars
+1T26 48
+2T26 58,99 - 68,62 89 183 52
+3T26 57,54 - 68,28 68 165 46
+4T26 58,01 - 68,37 68 162 46
+1T27 54,41 - 69,30 25 74 21
+2T27 55,25 - 68,62 45 108 31
+3T27 54,25 - 69,31 16 46 13
+4T27 54,37 - 69,37 25 72 21
+Total 56,89 - 68,67 336 48 810 230
+(1) A análise de sensibilidade assume variação apenas nos preços do petróleo Brent (US$/barril), mantendo todas as demais variáveis constantes.
+Result ado de Operações de 
+Hedge (R$ milhões)
+1.171
+1.480
+461
+(86)
+Total 3.026
+Noci onal dos Deri vat i vos 
+(US$ mi lhões) 
+8.1095.637
+336 155 Total 14.237
+Valor Just o dos Derivat ivos 
+(R$ milhões)
+476
+2.433
+379
+26 Total 3.314
+Dívida Fluxo de Caixa Commodities Derivativo Embutido
+RELEASE DE RESULTADOS 1T26
+Página 25 de 43
+
+[p. 26]
+RESULTADO LÍQUIDO
+No 1T26, a Companhia registrou lucro de R$ 4.312 milhões, contra lucro de R$ 116 milhões no 4T25 e 
+lucro de R$ 6.348 milhões no 1T25. O aumento observado em relação ao 4T25 foi decorrente da 
+variação positiva no resultado financeiro (em função da desvalorização do US$ de fechamento em 
+relação ao R$ de 5% vs. a valorização do US$ observada no 4T25 de 3%) e da queda nas rubricas de CPV, 
+Despesas de Vendas, Despesas Gerais e Administrativas e Equivalência Patrimonial. Esses efeitos foram 
+parcialmente compensados sobretudo pela: i) menor receita líquida; ii) maior despesa de IR/CSLL 
+(incidentes principalmente sobre os resultados positivos de variação cambial sobre dívida e marcação 
+dos derivativos); e iii) variação negativa em outros resultados operacionais (ausência da reavaliação do 
+ativo biológico como principal fator).
+A queda em comparação ao 1T25 é explicada: i) pelo menor impacto positivo no resultado financeiro 
+(em função da menor desvalorização do US$ de fechamento em relação ao R$ de 5% vs. a 
+desvalorização do US$ observada no 1T25 de 7%); ii) pela menor receita líquida; e iii) pelo aumento do 
+CPV. Os fatores mencionados foram parcialmente compensados pela menor despesa de IR/CSLL no 
+1T26 em contrapartida ao 1T25 (explicada pelo menor resultado positivo da variação cambial sobre a 
+dívida e da menor variação positiva da marcação a mercado dos derivativos) e pelo aumento na rubrica 
+de outras receitas/despesas operacionais.
+ENDIVIDAMENTO
+Endividamento (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Moeda Nacional 24.650 24.444 1% 18.382 34%
+Curto Prazo 1.253 1.134 11% 778 61%
+Longo Prazo 23.397 23.310 0% 17.604 33%
+Moeda Estrangeira 66.086 70.357 -6% 72.661 -9%
+Curto Prazo 2.181 1.871 17% 2.651 -18%
+Longo Prazo 63.905 68.487 -7% 70.010 -9%
+Dívida Bruta Total 90.736 94.801 -4% 91.043 0%
+(-) Caixa 22.680 25.432 -11% 16.833 35%
+Dívida Líquida 68.056 69.369 -2% 74.209 -8%
+Dívida Líquida/EBITDA Ajustado1(x) – R$ 3,2 x 3,2 x — x 3,1 x 0,1 x
+Dívida Líquida/EBITDA Ajustado1(x) – US$ 3,3 x 3,2 x 0,1 x 3,0 x 0,3 x
+(1) Desconsidera itens não recorrentes.
+Em 31 de março de 2026, o total da dívida bruta era de R$ 90,7 bilhões, sendo 96% dos vencimentos 
+concentrados no longo prazo e 4% no curto prazo. A dívida em moeda estrangeira representava, no 
+final do trimestre, 73% da dívida total da Companhia. Já o percentual da dívida bruta em moeda 
+estrangeira considerando o efeito do hedge de dívida ficou em 88%. Em comparação ao 4T25, a dívida 
+bruta teve redução de 4%, principalmente em função da desvalorização de 5% do US$ frente ao R$ no 
+período. A Suzano encerrou o 1T26 com 39% da dívida total atrelada à instrumentos ESG.
+A Suzano realiza a contratação de dívida em moeda estrangeira como estratégia de hedge natural, uma 
+vez que a geração de caixa operacional líquida é denominada, em sua maior parte, em moeda 
+estrangeira (US$) devido à sua condição predominantemente exportadora. Essa exposição estrutural 
+permite que a Companhia concilie os pagamentos dos empréstimos e financiamentos em US$ com o 
+fluxo de recebimento das vendas.
+RELEASE DE RESULTADOS 1T26
+Página 26 de 43
+
+[p. 27]
+Evolução da Dívida Bruta (R$ milhões)
+(1) Correspondem principalmente a custos de transação (emissão, captação, ágio, deságio e menos valia de combinação de negócios, etc.).
+Em 31 de março de 2026, o custo médio total da dívida em US$ era de 5,0% a.a. (considerando a dívida 
+em R$ ajustada pela curva de swap de mercado). Em 31 de dezembro de 2025 este custo também era 
+de 5,0% a.a. O prazo médio da dívida consolidada no encerramento do trimestre era de 75 meses versus 
+78 meses ao final do 4T25.
+Exposição por instrumento
+Bond 47%
+Financiamento de 
+Exportação 19%
+Outros 1%
+IFC 5%
+NCR 4%
+BNDES 8%
+ECA 2%
+Debênture 11%
+CPR 4%
+Exposição por Indexador¹
+Fixa (US$) 
+69%
+CDI/SELIC 
+13%
+SOFR 18%
+Exposição por Moeda²
+US$ 88%
+R$ 12%
+(1) Considera a parcela da dívida com swap para taxa fixa em moeda estrangeira. A exposição na dívida original era: Fixa (US$) – 46%, SOFR – 26% - 
+CDI – 13%, Outros (Fixa R$, IPCA, TJLP) – 14%.
+(2) Considera a parcela da dívida com swap para moeda estrangeira. A dívida original era 73% em moeda estrangeira e 27% em moeda local.
+A posição de caixa e equivalentes de caixa e aplicações financeiras em 31 de março de 2026 era de R$ 
+22,7 bilhões, dos quais 41% em moeda estrangeira alocados em conta remunerada ou aplicados em 
+investimentos de renda fixa de curto prazo no exterior. O percentual remanescente de 59% estava 
+aplicado em moeda nacional, em títulos de renda fixa (principalmente em CDBs, mas também em 
+títulos públicos e outros), com remuneração indexada principalmente ao CDI.
+Em 31 de março de 2026, a empresa possuía também uma linha de crédito rotativo (stand by credit 
+facility) no valor total de R$ 9,3 bilhões (US$ 1.775 milhões), com prazo de disponibilidade até fevereiro 
+de 2031, conforme Comunicado ao Mercado divulgado no dia 05 de fevereiro de 2026. A disponibilidade 
+deste recurso contribui para fortalecer as condições de liquidez da empresa e pode ser utilizado em 
+momentos de incerteza. Desta forma, a posição de caixa e equivalentes de caixa de R$ 22,7 bilhões 
+somada à linha de crédito rotativo totalizava, em 31 de março de 2026, uma posição de liquidez 
+imediata no valor de R$ 31,9 bilhões. 
+RELEASE DE RESULTADOS 1T26
+Página 27 de 43
+
+[p. 28]
+Dívida Líquida (em R$ e US$ milhões)
+74.209 70.840 69.072 69.369 68.056
+12.923 12.981 12.987 12.607 13.039
+R$ US$
+1T25 2T25 3T25 4T25 1T26
+Dívida Líquida / EBITDA Ajustado 
+em R$ e US$ (x)
+3,1
+3,0 3,1 3,2 3,2
+3,0
+3,1
+3,3 3,2 3,3
+R$ US$
+1T25 2T25 3T25 4T25 1T26
+Em 31 de março de 2026, a dívida líquida era de R$ 68,1 bilhões (US$ 13,0 bilhões) versus R$ 69,4 
+bilhões (US$ 12,6 bilhões) observados em 31 de dezembro de 2025. Para mais detalhes, consulte a 
+seção Evolução da Dívida Líquida.
+O índice de alavancagem financeira medido pela relação dívida líquida/EBITDA Ajustado em R$ ficou 
+em 3,2x em 31 de março de 2026 (3,2x em 31 de dezembro de 2025). Esse mesmo indicador, apurado 
+em US$ (medida estabelecida na política financeira da Suzano), aumentou para 3,3x em 31 de março de 
+2026 (3,2x em 31 de dezembro de 2025).
+Cronograma de Amortização (R$ milhões)
+31.944
+2.201 5.037 8.196
+14.831 14.879
+45.593
+22.680
+9.264
+Caixa físico Stand-by Facilities Dívida
+Liquidez 9M26 2027 2028 2029 2030 2031 em 
+diante
+A distribuição das linhas de trade finance e non-trade finance da dívida bruta total em 31 de março de 
+2026 era composta conforme abaixo:
+2026 2027 2028 2029 2030 2031 em 
+diante Total
+Trade Finance¹ 41% 64% 36% 25% 37% 2% 19%
+Non-Trade Finance² 59% 36% 64% 75% 63% 98% 81%
+(1) ACC, NCE, PPE
+(2) Bonds, BNDES, CPR, Debêntures, NCR, entre outros.
+RELEASE DE RESULTADOS 1T26
+Página 28 de 43
+
+[p. 29]
+INVESTIMENTOS DE CAPITAL
+No 1T26, os investimentos de capital (em regime caixa) totalizaram R$ 3.184 milhões. O aumento de 
+10% em relação ao 4T25, reflete, principalmente, o maior desembolso na linha de Terras e Florestas, 
+uma vez que a segunda parcela no valor de R$ 439 milhões referente ao contrato com a Eldorado Brasil 
+Celulose S.A. foi paga no 1T26. Conforme informado no Fato Relevante de 06 de agosto de 2025, a 
+operação envolve a permuta de ativo biológico equivalente a 18 milhões de metros cúbicos de madeira 
+em pé, localizados no Mato Grosso do Sul. Além disso, houve maiores desembolsos na linha de 
+manutenção florestal, em grande parte relacionados ao maior volume de compra de madeira em pé. 
+Esses fatores foram parcialmente compensados por menores investimentos na linha de Expansão e 
+Modernização, em função do cronograma de desembolso de projetos, principalmente da nova fábrica de 
+tissue em Aracruz e a expansão da capacidade industrial de fluff na fábrica de Limeira.
+Em relação ao 1T25, a redução de 10% deve-se principalmente: i) ao menor desembolso relacionado ao 
+Projeto Cerrado, em linha com o cronograma previsto; ii) menores desembolsos relacionados aos 
+projetos de expansão e modernização citados acima; e iii) ao menor desembolso na linha de 
+manutenção, com maior destaque para a manutenção florestal, devido à menor concentração de 
+compra de madeira em pé no período. Esses fatores foram parcialmente compensados pelos 
+desembolsos adicionais na linha de Terras e Florestas, em função do desembolso da segunda parcela 
+referente ao contrato com a Eldorado Brasil Celulose S.A., conforme mencionado anteriormente.
+Investimentos (R$ milhões)¹ 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 
+1T26
+Guidance 
+2026
+Manutenção 2.059 1.916 7% 2.241 -8% 7.698 7.255
+Manutenção Industrial 466 546 -15% 531 -12% 1.988 2.084
+Manutenção Florestal 1.574 1.298 21% 1.687 -7% 5.536 4.895
+Outros 19 72 -73% 22 -14% 175 276
+Expansão e Modernização 147 354 -59% 378 -61% 1.321 836
+Terras e Florestas 877 390 —% 508 73% 3.228 2.614
+Projeto Cerrado 101 245 -59% 426 -76% 681 242
+Total 3.184 2.906 10% 3.553 -10% 12.929 10.947
+(1) Os valores constantes na tabela não contemplam o efeito de monetização créditos de ICMS no estado do Espírito Santo. Não inclui a aquisição 
+da participação minoritária na Lenzing, nem os investimentos relacionados às aquisições dos ativos da Pactiv (Suzano Packaging US).
+GERAÇÃO DE CAIXA OPERACIONAL
+Geração de Caixa Operacional 
+(R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 1T26
+EBITDA Ajustado¹ 4.580 5.583 -18% 4.866 -6% 21.451
+Capex Manutenção² (2.059) (1.916) 7% (2.241) -8% (7.698)
+Geração de Caixa Operacional 2.521 3.667 -31% 2.625 -4% 13.753
+Geração de Caixa Operacional (R$/t) 784 945 -17% 863 -9% 957
+(1) Desconsidera itens não recorrentes.
+(2) Em regime caixa
+A geração de caixa operacional, medida pelo EBITDA Ajustado menos o capex de manutenção (em 
+regime caixa), foi de R$ 2.521 milhões no 1T26. A redução da geração de caixa operacional por tonelada 
+de 17% em relação ao 4T25 deve-se ao maior capex de manutenção por tonelada e menor EBITDA 
+Ajustado por tonelada. A redução de 9% em relação ao mesmo período do ano anterior, é justificada 
+pelo menor EBITDA Ajustado por tonelada, parcialmente compensado pelo menor capex de 
+manutenção por tonelada.
+RELEASE DE RESULTADOS 1T26
+Página 29 de 43
+
+[p. 30]
+Geração de Caixa Operacional
+por tonelada (R$/t)
+-9% -17%
+q
+863 945
+784
+1T25 4T25 1T26
+FLUXO DE CAIXA LIVRE
+Fluxo de Caixa Livre (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y UDM 
+1T26
+EBITDA Ajustado 4.580 5.583 -18% 4.866 -6% 21.451
+(-) Capex Total¹ (3.002) (2.809) 7% (3.080) -3% (12.507)
+(-) Contratos de arrendamentos – IFRS 16 (364) (388) -6% (372) -2% (1.441)
+(+/-) △ Capital de Giro² (75) 661 —% 1.311 —% 186
+(-) Juros Líquidos³ (1.726) (841) —% (1.653) 4% (4.788)
+(-) Imposto de Renda e Contribuição Social (69) (60) 15% (159) -57% (199)
+(-) Pagamento de Dividendos e JCP/
+Recompra de ações (1.380) — — (2.232) -38% (1.548)
+(+/-) Ajustes Derivativos (58) 160 —% 125 —% 348
+Fluxo de Caixa Livre (2.093) 2.306 —% (1.193) 75% 1.502
+(+) Capex Total ex-manutenção 1.299 1.109 17% 1.467 -11% 5.677
+(+) Pagamento de Dividendos e JCP/
+Recompra de ações 1.380 — — 2.232 -38% 1.548
+Fluxo de Caixa Livre Ajustado4 586 3.415 -83% 2.506 -77% 8.727
+Free Cash Flow Yield ("FCF Yield") - UDM5 13,6% 16,7% -3,1 p.p. 18,5% -4,9 p.p. 13,6%
+(1) Em regime competência. Inclui os gastos com arrendamento de terras os quais são neutralizados na linha de Capital de Giro (1T26: R$ 210 
+milhões | 4T25: R$ 233 milhões | 1T25: R$ 202 milhões), tendo em vista que a rubrica "Contratos de arrendamentos – IFRS 16" contempla o 
+total dos arrendamentos (terras, máquinas e equipamentos, imóveis, navios e embarcações e veículos).
+(2) Considera custos de empréstimos capitalizados pagos (1T26: R$ 25 milhões | 4T25: R$ 69 milhões | 1T25: R$ 53 milhões), sem impacto no FCL 
+dado que o mesmo está contemplado com sinal oposto na rubrica de Capex Total.
+(3) Considera juros pagos sobre dívida, juros recebidos sobre aplicações financeiras e prêmio de liquidação antecipada de dívida.
+(4) Fluxo de caixa livre antes do pagamento de dividendos, JCP, recompra de ações e de capex ex-manutenção (regime competência).
+(5) Fluxo de caixa livre ajustado UDM por ação (excluindo as ações em tesouraria) dividido pelo valor de fechamento das ações no trimestre (1T26: 
+R$ 51,90/ação | 4T25: R$ 51,45/ação | 1T25: R$ 52,94/ação).
+RELEASE DE RESULTADOS 1T26
+Página 30 de 43
+
+[p. 31]
+O Fluxo de Caixa Livre Ajustado foi de R$ 586 milhões no 1T26, em comparação a R$ 3.415 milhões no 
+4T25 e a R$ 2.506 milhões no 1T25. Em relação ao período anterior, o indicador teve redução de 83%, 
+em função principalmente: i) do menor EBITDA Ajustado; ii) da maior concentração de pagamento de 
+juros no período em função da periodicidade de pagamento dos bonds e prêmio pago referente à 
+liquidação antecipada da linha de crédito não sacada com Finnvera; iii) pelo consumo de capital de giro, 
+sobretudo explicado pelo pagamento da remuneração variável provisionada no 4T25, em contraste com 
+a liberação observada no trimestre anterior. Esse efeito foi em grande parte compensado pela liberação 
+na rubrica de Contas a Receber, por sua vez decorrente da redução no volume de vendas de celulose, 
+apesar do aumento nos preços de celulose em R$, além da intensificação do desconto de recebíveis; e 
+iv) ao ajuste caixa negativo dos derivativos (em oposição ao ajuste caixa positivo observado no 
+trimestre anterior).
+Em relação ao 1T25, o indicador foi 77% inferior devido principalmente ao: i) consumo de capital de giro 
+em função da menor liberação na rubrica de Contas a Receber, em contraste com a forte liberação 
+observada no mesmo período do ano anterior (quando houve queda nos preços de celulose em relação 
+ao 4T24, em comparação com o aumento de preços observado no 1T26 frente ao 4T25); ii) menor 
+EBITDA Ajustado; iii) ajuste caixa negativo dos derivativos (em oposição ao ajuste caixa positivo 
+observado no mesmo período do ano anterior); iv) menor capex de manutenção base competência; e v) 
+maior desembolso de juros (também em função da liquidação antecipada da linha de crédito não sacada 
+com Finnvera). Esses efeitos foram parcialmente compensados pelo menor desembolso caixa de IR/
+CSLL.
+ROIC ("RETURN ON INVESTED CAPITAL")
+ROIC (%) - UDM (R$ milhões) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+(+) EBITDA ajustado 21.451 21.736 -1% 24.157 -11%
+(-) Capex Total (12.507) (12.584) -1% (19.407) -36%
+(-) Contratos de arrendamentos – IFRS 16 (1.441) (1.448) 0% (1.376) 5%
+(+/-) Δ Capital de Giro 186 1.572 -88% 3.162 -94%
+(-) Imposto de Renda e CSLL (caixa) (199) (290) -31% (470) -58%
+(+) Capex ex-manutenção 5.677 5.844 -3% 10.204 -44%
+(+/-) Ajuste caixa do hedge de fluxo de caixa 45 (36) —% 222 -80
+Fluxo de Caixa Ajustado 13.211 14.795 -11% 16.492 -20%
+(+) Ativo total (-) Passivo (ex-dívida) 137.699 135.364 2% 130.510 6%
+(+) MtM hedge dívida1 62 449 -86% 848 -93%
+(-) Obras em Andamento (3.398) (3.700) -8% (8.126) -58%
+Capital Investido 134.363 132.113 2% 123.231 9%
+(+/-) Ajustes Contábeis - CPC 06, 27 e 292 (3.301) (3.266) 1% (3.382) -2%
+Capital Investido Ajustado 131.062 128.847 2% 119.850 9%
+ROIC - UDM3 10,1% 11,5% -1,4 p.p. 13,8% -3,7 p.p.
+(1) Refere-se à média UDM dos MtM's dos swaps cambiais (Swap (CDI x US$), Swap (CDI x SOFR) e Swap (RMB x US$))
+(2) Ajustes Contábeis: 1) CPC 06 - Direito de Uso/Arrendamento a Pagar: efeito correspondente à depreciação do Direito de Uso (+) Amortização do 
+Ajuste a Valor Presente e seu respectivo IR Diferido. 2) CPC 27 - Imobilizado (Custo Atribuído): eliminação do efeito contábil (e seu respectivo 
+IR Diferido) proveniente da atualização a valor de mercado dos ativos da Companhia na adoção da Lei N°11.638. 3) CPC 29 - Ativo Biológico: 
+eliminação do efeito proveniente da valorização do Ativo Biológico e seu respectivo IR Diferido.
+(3) Para as contas de resultado (numerador) utiliza-se soma dos últimos 4 trimestres (últimos doze meses). Para as contas de saldos patrimoniais 
+(denominador) utiliza-se média dos últimos 4 trimestres (últimos doze meses).
+RELEASE DE RESULTADOS 1T26
+Página 31 de 43
+
+[p. 32]
+EVOLUÇÃO DA DÍVIDA LÍQUIDA
+A movimentação da dívida líquida no 1T26 ocorreu conforme abaixo:
+Evolução da Dívida Líquida (R$ milhões)
+(1) Em regime competência.
+(2) Líquidas das variações cambiais sobre caixa e aplicações financeiras. 
+(3) Considera valores base caixa relativos a ajuste de derivativos, contratos de arrendamentos, prêmio sobre a liquidação antecipada de dívida para 
+liability management, entre outros itens. 
+ESG
+Em busca de constante evolução em transparência, a Suzano publicou em março seu Relatório Anual de 
+Sustentabilidade e a Central de Sustentabilidade 2025.
+O relatório, assegurado por terceira parte independente, adota as Normas da GRI, incluindo as recentes 
+atualizações da Norma 101, focada em Biodiversidade, e a Resolução 59 da Comissão de Valores 
+Mobiliários (CVM). A publicação também traz métricas do Sustainability Accounting Standards Board 
+(SASB), assim como considera diretrizes de divulgação relacionadas ao clima do International Financial 
+Reporting Standards (IFRS S2) emitidas pelo International Sustainability Standards Board (ISSB), que 
+incorporou as recomendações da Task Force on Climate-related Financial Disclosures (TCFD). 
+Também em março, foi anunciada a evolução da classificação da Suzano no rating MSCI, que passou de 
+BB para BBB, em convergência ao amplo plano de ação em curso na Companhia visando obter maior 
+reconhecimento por suas práticas ESG.
+DESEMBOLSO TOTAL OPERACIONAL – CELULOSE
+Conforme divulgada por meio de Fato Relevante em 11 de dezembro de 2025, a previsão de 
+desembolso total operacional previsto para 2027 é de aproximadamente R$ 1.983 por tonelada e a 
+evolução do indicador segue conforme planejado, considerando as premissas cambiais e monetárias 
+utilizadas. Tal estimativa refere-se à moeda em termos reais de 2026. A Companhia também informa 
+que o DTO de 2025 ficou em R$ 2.062/t, composto por custo caixa de produção (incluindo paradas) de 
+R$ 853/t, capex de manutenção de R$ 531/t e frete mais SG&A de R$ 678/t.
+MERCADO DE CAPITAIS
+Em 31 de março de 2026, as ações da Suzano estavam cotadas em R$ 51,90/ação (SUZB3) e US$ 10,01/
+ação (SUZ). Os papéis da Companhia integram o Novo Mercado, mais alto nível de governança 
+corporativa da B3 – Brasil, Bolsa e Balcão, e são negociados na Bolsa de Valores de Nova York (NYSE) – 
+Nível II.
+RELEASE DE RESULTADOS 1T26
+Página 32 de 43
+
+[p. 33]
+Desempenho da Ação
+SUZB3 IBOV SUZ US S&P 500
+abr-25 mai-25 jun-25 jul-25 ago-25 set-25 out-25 nov-25 dez-25 jan-26 fev-26 mar-26
+80
+100
+120
+140
+160
+Fonte: Bloomberg.
+Evolução da Liquidez - SUZB3
+313 333
+228 306 348
+22.993 21.323
+14.274
+18.986 20.280
+Média do número de negócios diário Média do volume financeiro diário (R$ milhões)
+1T25 2T25 3T25 4T25 1T26
+Fonte: Bloomberg.
+Conforme Comunicado ao Mercado divulgado em 9 de fevereiro de 2026, a Suzano concluiu o 5° 
+programa de recompra de ações, "Programa Agosto/2024". No âmbito desse programa, a Companhia 
+negociou 14.820.500 ações, ao custo médio de aquisição de R$ 54,33/ação, representando R$ 805 
+milhões em valor de mercado, de acordo com os relatórios mensais divulgados pela Companhia no 
+âmbito da Intr. CVM nº 44. Em 10 de fevereiro de 2026 a Companhia anunciou um 6° programa de 
+recompra de ações, "Programa Fevereiro/2026", que contempla 40.000.000 de ações, ainda não 
+executado e vigente até 10 de agosto de 2027.
+Em 31 de março de 2026, o capital social da Companhia era representado por 1.264.117.615 ações 
+ordinárias, sendo 28.020.765 ações ordinárias mantidas em Tesouraria. O valor de mercado da Suzano 
+(ex-ações em tesouraria), na mesma data, era de R$ 64,2 bilhões. O free float no 1T26 ficou em 49% do 
+total das ações.
+RELEASE DE RESULTADOS 1T26
+Página 33 de 43
+SUZB3 
+-3%
+IBOV
+43%
+S&P 500
+16%
+SUZ US 
+7%
+
+[p. 34]
+Distribuição do Free Float em 31/03/2026 
+(B3 + NYSE)
+Composição Acionária em 
+31/03/2026
+77%
+23%
+Estrangeiros
+Nacionais
+4%
+96%
+Pessoa Física
+Pessoa Juridica
+49%
+2%
+49%
+Outros Acionistas
+Tesouraria
+Controladores
+RENDA FIXA
+Unidade Mar/26 Dez/25 Mar/25 Δ Q-o-Q Δ Y-o-Y
+Suzano 2028 - Preço US$/k 95,00 94,72 91,58 0% 4%
+Suzano 2028 - Yield % 4,70 4,60 5,19 2% -9%
+Suzano 2029 - Preço US$/k 102,00 102,96 102,09 -1% 0%
+Suzano 2029 - Yield % 5,15 4,94 5,38 4% -4%
+Suzano 2030 - Preço US$/k 98,70 100,19 98,00 -1% 1%
+Suzano 2030 - Yield % 5,38 4,95 5,48 9% -2%
+Suzano 2031 - Preço US$/k 92,90 94,38 90,39 -2% 3%
+Suzano 2031 - Yield % 5,46 5,03 5,72 9% -5%
+Suzano 2032 - Preço US$/k 87,80 89,43 85,25 -2% 3%
+Suzano 2032 - Yield % 5,62 5,19 5,78 8% -3%
+Suzano 2036 - Preço US$/k 96,50 99,15 — — —
+Suzano 2036 - Yield % 5,97 5,61 — — —
+Suzano 2047 - Preço US$/k 106,40 109,71 106,30 -3% 0%
+Suzano 2047 - Yield % 6,44 6,17 6,46 4% 0%
+Treasury 10 anos % 4,32 4,17 4,21 4% 3%
+Nota: Senior Notes emitidos com valor de face de 100 US$/k.
+RATING
+Agência Escala Local Escala Global Perspectiva
+Fitch Ratings AAA BBB- Positiva
+Standard & Poor’s br.AAA BBB- Positiva
+Moody’s Aaa Baa3 Positiva
+RELEASE DE RESULTADOS 1T26
+Página 34 de 43
+
+[p. 35]
+PRÓXIMOS EVENTOS
+Teleconferência de Resultados (1T26)
+Data: 30 de abril de 2026 (quinta-feira)
+Português (tradução simultânea) Inglês
+10h00 (horário de Brasília) 10:00 a.m. (horário de Brasília) 
+09h00 (horário de Nova York) 09:00 a.m. (horário de Nova York)
+14h00 (horário de Londres) 02:00 p.m. (horário de Londres)
+A teleconferência será realizada em inglês e acompanhada por uma apresentação de slides e 
+transmitida simultaneamente via webcast. Os links de acesso estarão disponíveis no website de 
+Relações com Investidores da Companhia (https://ri.suzano.com.br).
+Se não for possível a sua participação, o conteúdo do evento estará disponível para futura consulta no 
+website de Relações com Investidores da Suzano.
+CONTATO DE RI
+Marcos Assumpção
+Camila Nogueira
+Roberto Costa
+Mariana Spinola
+André Azambuja
+Victor Valladares
+Gabriela Bonassi
+Tel.: +55 (11) 3503-9330
+ri@suzano.com.br
+www.suzano.com.br/ri
+RELEASE DE RESULTADOS 1T26
+Página 35 de 43
+
+[p. 36]
+ANEXOS
+ANEXO 1 – Dados Operacionais
+Abertura da Receita (R$ mil) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Mercado Externo 8.896.669 10.579.547 -16% 9.404.309 -5%
+Celulose 7.940.049 9.446.300 -16% 8.154.127 -3%
+Papel 956.620 1.133.247 -16% 1.250.182 -23%
+Mercado Interno 2.071.747 2.534.171 -18% 2.148.612 -4%
+Celulose 405.693 420.343 -3% 457.416 -11%
+Papel 1.666.054 2.113.828 -21% 1.691.196 -1%
+Receita Líquida Total 10.968.416 13.113.718 -16% 11.552.921 -5%
+Celulose 8.345.742 9.866.643 -15% 8.611.543 -3%
+Papel 2.622.674 3.247.075 -19% 2.941.378 -11%
+Volume de Vendas (em t) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Mercado Externo 2.839.384 3.429.292 -17% 2.675.177 6%
+Celulose 2.686.764 3.251.563 -17% 2.506.288 7%
+Papel 152.620 177.729 -14% 168.889 -10%
+Papelcartão 77.210 82.192 -6% 96.673 -20%
+Imprimir e Escrever 73.314 92.078 -20% 71.628 2%
+Outros papéis¹ 2.096 3.459 -39% 588 —%
+Mercado Interno 374.286 450.711 -17% 365.478 2%
+Celulose 148.599 154.084 -4% 144.256 3%
+Papel 225.687 296.627 -24% 221.222 2%
+Papelcartão 33.002 42.130 -22% 33.095 0%
+Imprimir e Escrever 130.375 187.128 -30% 126.775 3%
+Outros papéis¹ 62.310 67.369 -8% 61.352 2%
+Volume Total 3.213.670 3.880.003 -17% 3.040.655 6%
+Celulose 2.835.363 3.405.647 -17% 2.650.544 7%
+Papel 378.307 474.356 -20% 390.111 -3%
+Papelcartão 110.212 124.322 -11% 129.768 -15%
+Imprimir e Escrever 203.689 279.206 -27% 198.403 3%
+Outros papéis¹ 64.406 70.828 -9% 61.940 4%
+(1) Papéis de outros fabricantes comercializados pela Suzano e papel tissue.
+Preço líquido médio (R$/t) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Mercado Externo 3.133 3.085 2% 3.515 -11%
+Celulose 2.955 2.905 2% 3.253 -9%
+Papel 6.268 6.376 -2% 7.402 -15%
+Mercado Interno 5.535 5.623 -2% 5.879 -6%
+Celulose 2.730 2.728 0% 3.171 -14%
+Papel 7.382 7.126 4% 7.645 -3%
+Total 3.413 3.380 1% 3.799 -10%
+Celulose 2.943 2.897 2% 3.249 -9%
+Papel 6.933 6.845 1% 7.540 -8%
+RELEASE DE RESULTADOS 1T26
+Página 36 de 43
+
+[p. 37]
+Preço líquido médio (US$/t) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Mercado Externo 596 571 4% 601 -1%
+Celulose 562 538 4% 556 1%
+Papel 1.192 1.181 1% 1.265 -6%
+Mercado Interno 1.052 1.041 1% 1.005 5%
+Celulose 519 505 3% 542 -4%
+Papel 1.403 1.320 6% 1.308 7%
+Total 649 626 4% 649 0%
+Celulose 560 536 4% 555 1%
+Papel 1.318 1.268 4% 1.290 2%
+Taxa R$/US$ 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Fechamento 5,22 5,50 -5% 5,74 -9%
+Média 5,26 5,40 -3% 5,85 -10%
+RELEASE DE RESULTADOS 1T26
+Página 37 de 43
+
+[p. 38]
+ANEXO 2 – Demonstração de Resultado Consolidado e Amortização da Mais Valia
+Demonstração de Resultado (R$ mil) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+Receita Líquida de Vendas 10.968.416 13.113.718 -16% 11.552.921 -5%
+Custo dos Produtos Vendidos (7.807.576) (9.098.452) -14% (7.729.167) 1%
+Lucro Bruto 3.160.840 4.015.266 -21% 3.823.754 -17%
+Margem Bruta 29% 31% -1,8 p.p. 33% -4 p.p. 
+Receitas (Despesas) Operacionais (1.385.704) (469.971) —% (1.564.719) -11%
+Despesas com vendas (752.044) (869.647) -14% (754.882) 0%
+Despesas gerais e administrativas (682.803) (804.184) -15% (673.551) 1%
+Outras receitas operacionais, líquidas 69.515 1.344.722 -95 (119.209) -158
+Equivalência Patrimonial (20.372) (140.862) -86% (17.077) 19
+Lucro operacional antes do resultado financeiro (EBIT) 1.775.136 3.545.295 -50% 2.259.035 -21%
+Depreciação, Exaustão e Amortização 2.806.652 3.071.041 -9% 2.497.422 12%
+EBITDA 4.581.788 6.616.336 -31% 4.756.457 -4%
+Margem EBITDA 42% 50% -9 p.p. 41% 1 p.p. 
+EBITDA Ajustado¹ 4.580.145 5.582.832 -18% 4.865.774 -6%
+Margem EBITDA Ajustada¹ 42% 43% -1 p.p. 42% — p.p. 
+Resultado Financeiro 4.616.436 (3.410.794) —% 7.696.213 -40%
+Receitas financeiras 486.013 482.419 1% 438.853 11%
+Despesas financeiras (1.804.931) (1.813.816) 0% (1.640.085) 10%
+Resultado dos instrumentos financeiros derivativos 3.025.599 (102.938) —% 3.693.159 -18%
+Variações monetárias e cambiais, líquidas 2.909.755 (1.976.459) —% 5.204.286 -44%
+Resultado antes do IRPJ e CSLL 6.391.572 134.501 —% 9.955.248 -36%
+Imposto de Renda e Contribuição Social (2.079.581) (18.332) —% (3.607.070) -42%
+Resultado Líquido do Exercício 4.311.991 116.169 —% 6.348.178 -32%
+Margem Líquida 39% 1% 38 p.p. 55% -16 p.p.
+(1) Desconsidera itens não recorrentes e efeitos do PPA.
+Amortização de mais valia - PPA (R$ mil) 1T26 4T25 Δ Q-o-Q 1T25 Δ Y-o-Y
+CPV (95.582) (117.461) -19% (96.736) -1%
+Despesas com Vendas (210.303) (210.279) 0% (210.282) 0%
+Despesas gerais e administrativas (1.166) (1.215) -4% (1.199) -3%
+Outras receitas (despesas) operacionais 25.113 13.092 92% (18.546) —%
+RELEASE DE RESULTADOS 1T26
+Página 38 de 43
+
+[p. 39]
+ANEXO 3 – Balanço Patrimonial Consolidado
+Ativo (R$ mil) 31/03/2026 31/12/2025 31/03/2025
+CIRCULANTE
+Caixa e equivalentes de caixa 12.176.019 15.179.753 9.914.505
+Aplicações financeiras 10.173.578 9.932.774 6.516.323
+Contas a receber de clientes 5.766.623 6.560.607 6.354.237
+Estoques 8.641.417 8.155.847 8.642.882
+Tributos a recuperar 946.762 887.085 1.074.377
+Imposto de renda e contribuição social a recuperar 726.731 659.202 337.663
+Instrumentos financeiros derivativos 2.907.968 1.556.978 888.004
+Adiantamentos a fornecedores 73.267 76.818 85.581
+Outros ativos 819.181 858.005 665.543
+Total do Ativo Circulante 42.231.546 43.867.069 34.479.115
+NÃO CIRCULANTE
+Aplicações financeiras 330.137 319.680 402.442
+Tributos a recuperar 944.680 945.699 1.042.971
+Imposto de renda e contribuição social diferidos 112.237 1.504.014 4.431.946
+Instrumentos financeiros derivativos 8.987.791 8.014.683 3.244.326
+Adiantamentos a fornecedores 2.964.157 2.788.262 2.496.154
+Depósitos judiciais 423.228 418.301 590.245
+Outros ativos 194.214 187.102 125.724
+Ativos biológicos 26.525.587 26.097.164 22.861.555
+Investimentos 1.134.258 1.194.877 1.651.534
+Imobilizado 63.975.882 64.296.187 65.005.656
+Direito de uso 5.279.506 5.331.789 5.249.601
+Intangível 12.721.787 12.970.692 13.663.616
+Total do Ativo Não Circulante 123.593.464 124.068.450 120.765.770
+Total do Ativo 165.825.010 167.935.519 155.244.885
+Passivo e Patrimônio Líquido (R$ mil) 31/03/2026 31/12/2025 31/03/2025
+CIRCULANTE
+Fornecedores 4.981.256 5.141.386 5.669.809
+Empréstimos, financiamentos e debêntures 3.434.387 3.004.905 3.428.610
+Contas a pagar de arrendamentos 900.375 857.810 870.322
+Instrumentos financeiros derivativos 1.107.667 1.205.029 1.561.094
+Tributos a recolher 252.134 240.010 282.866
+Imposto de renda e contribuição social a recolher 29.383 218.238 71.201
+Salários e encargos sociais 720.403 1.132.713 702.399
+Dividendos a pagar 12.855 1.393.121 7.699
+Adiantamentos de clientes 124.080 132.408 213.338
+Outros passivos 452.506 447.251 382.553
+Total do Passivo Circulante 12.015.046 13.772.871 13.189.891
+NÃO CIRCULANTE
+Empréstimos, Financiamentos e Debêntures 87.301.230 91.796.352 87.613.961
+Contas a pagar de arrendamento 5.863.527 6.072.080 5.981.197
+Instrumentos Financeiros Derivativos 7.474.090 8.136.320 5.570.354
+Provisão para passivos judiciais 2.775.326 2.801.738 2.943.436
+Passivos atuariais 748.010 741.143 730.032
+Imposto de renda e contribuição social diferidos 774.873 — —
+Pagamento baseado em ações 360.657 332.322 361.895
+Outros passivos 329.520 330.520 318.473
+Total do Passivo Não Circulante 105.627.233 110.210.475 103.519.348
+Total do Passivo 117.642.279 123.983.346 116.709.239
+Patrimônio Líquido
+Capital Social 24.235.546 24.235.546 19.235.546
+Reservas de Capital 78.728 80.742 64.827
+Ações em tesouraria (1.501.072) (1.511.146) (1.371.424)
+Reservas de Lucros 20.118.234 20.118.234 12.978.898
+Ajustes de Avaliação Patrimonial 774.430 888.669 1.133.200
+Resultados acumulados 4.330.150 — 6.357.219
+Patrimônio Líquido de Acionistas Controladores 48.036.016 43.812.045 38.398.266
+Patrimônio Líquido de Acionistas Não Controladores 146.715 140.128 137.380
+Patrimônio Líquido 48.182.731 43.952.173 38.535.646
+Total do Passivo e Patrimônio Líquido 165.825.010 167.935.519 155.244.885
+RELEASE DE RESULTADOS 1T26
+Página 39 de 43
+
+[p. 40]
+ANEXO 4 – Demonstração de Fluxo de Caixa Consolidado
+FLUXOS DE CAIXA DAS ATIVIDADES OPERACIONAIS
+Resultado líquido do período 4.311.991 6.348.178
+Depreciação, exaustão e amortização 2.725.322 2.408.025
+Depreciação do direito de uso 81.330 89.397
+Apropriação de encargos financeiros de arrendamento 113.211 116.258
+Resultado na venda e baixa de ativos não circulantes, líquido (32.052) 46.307
+Resultado de equivalência patrimonial 20.372 17.077
+Variações cambiais e monetárias, líquidas (2.909.755) (5.204.286)
+Despesas com juros sobre empréstimos, financiamentos e debêntures 1.426.111 1.412.878
+Custos de empréstimos capitalizados (24.929) (52.753)
+Rendimentos sobre aplicações financeiras (311.625) (264.440)
+Amortização do custo de transação, ágio e deságio 58.457 31.923
+Perdas (ganhos) com derivativos, líquidos (3.025.599) (3.693.159)
+Imposto de renda e contribuição social diferidos 2.167.118 3.539.970
+Juros sobre passivo atuarial e custo do serviço corrente 20.211 19.822
+Provisão (reversão) de passivos judiciais, líquido 30.751 28.985
+Provisão (reversão) para perda estimada com créditos de liquidação duvidosa, líquida (16.607) 7.653
+Provisão para perda estimada nos estoques, líquida 2.149 4.475
+Provisão para perda de créditos do ICMS, líquida (13.211) 45.766
+Prêmio sobre liquidações antecipadas 129.047 —
+Outras 17.685 15.856
+Decréscimo (acréscimo) em ativos 420.510 1.915.060
+Contas a receber de clientes 638.316 2.238.113
+Estoques (124.714) (430.784)
+Tributos a recuperar (116.689) (75.463)
+Outros ativos 23.597 183.194
+Acréscimo (decréscimo) em passivos (519.979) (656.429)
+Fornecedores 68.751 (91.408)
+Tributos a recolher (113.281) 5.303
+Salários e encargos sociais (411.067) (528.881)
+Outros passivos (64.382) (41.443)
+ Caixa gerado das operações 4.670.508 6.176.563
+Pagamento de juros sobre empréstimos, financiamentos e debêntures (1.711.077) (2.014.500)
+Custos de empréstimos capitalizados pagos 24.929 52.753
+Prêmio sobre liquidações antecipadas (129.047) —
+Juros recebidos sobre aplicações financeiras 114.151 361.942
+Pagamento de imposto de renda e contribuição social (68.697) (159.068)
+Caixa líquido gerado (aplicado) nas atividades operacionais 2.900.767 4.417.690
+ATIVIDADES DE INVESTIMENTOS
+Adições de imobilizado (890.563) (1.231.900)
+Adições de intangível (4.083) (11.836)
+Adições de ativos biológicos (2.107.800) (1.836.180)
+Recebimentos por venda de ativo imobilizado e biológico 103.527 43.551
+Aplicações financeiras, líquidas (62.149) 6.367.566
+Adiantamentos para aquisição (recebimento) de madeira de operações com fomento e parcerias (257.202) (6.998)
+Caixa líquido gerado (aplicado) nas atividades de investimentos (3.218.270) 3.324.203
+ATIVIDADES DE FINANCIAMENTOS
+Empréstimos, financiamentos e debêntures captados 91.273 7.055.244
+Recebimento (pagamento) de operações com derivativos (58.091) 124.558
+Pagamento de empréstimos, financiamentos e debêntures (473.585) (11.175.521)
+Pagamento de contratos de arrendamentos (364.185) (371.531)
+Pagamento de dividendos (1.379.501) (2.192.903)
+Recompra de ações — (38.664)
+Caixa líquido gerado (aplicado) nas atividades de financiamentos (2.184.089) (6.598.817)
+Acréscimo (decréscimo) líquido no caixa e equivalentes de caixa (2.501.592) 1.143.076
+No início do período 15.179.753 9.018.818
+Efeito da variação cambial em caixa e equivalentes de caixa (502.142) (247.389)
+No final do período 12.176.019 9.914.505
+Acréscimo (decréscimo) líquido no caixa e equivalentes de caixa (2.501.592) 1.143.076
+Fluxo de Caixa (R$ mil) 1T26 1T25
+RELEASE DE RESULTADOS 1T26
+Página 40 de 43
+
+[p. 41]
+ANEXO 5 – EBITDA
+(R$ mil, exceto quando indicado) 1T26 1T25
+Resultado Líquido do período 4.311.991 6.348.178
+Resultado financeiro, líquido (4.616.436) (7.696.213)
+Imposto de renda e contribuição social 2.079.581 3.607.070
+EBIT 1.775.136 2.259.035
+Depreciação, amortização e exaustão 2.806.652 2.497.422
+EBITDA¹ 4.581.788 4.756.457
+Margem EBITDA 42% 41%
+Baixa de madeira em pilha 710 —
+Equivalência Patrimonial 20.372 17.077
+Extinção linha de negócio de embalagens na subsidiária 57 23
+Gastos com aquisição de ativos e combinações de negócios 15.062 —
+Perda efetiva do Programa de adiantamento de contrato de fomento (58) 146
+Gastos com reestruturação 7.477 —
+Reversão (Provisão) - Perda de crédito ICMS (13.211) 45.765
+Resultado na venda e baixa de ativos não circulantes (32.052) 46.306
+EBITDA Ajustado 4.580.145 4.865.774
+Margem EBITDA Ajustado 42% 42%
+(1) EBITDA da Companhia calculado conforme a Instrução CVM n° 527. de 04 de outubro de 2012.
+RELEASE DE RESULTADOS 1T26
+Página 41 de 43
+
+[p. 42]
+ANEXO 6 – Demonstração de Resultado Segmentado
+Demonstração de Resultado 
+Segmentada (R$ mil)
+1T26 1T25
+Celulose Papel Não 
+Segmentado
+Total 
+Consolidado Celulose Papel Não 
+Segmentado
+Total 
+Consolidado
+Receita Líquida 8.345.742 2.622.674 – 10.968.416 8.611.543 2.941.378 – 11.552.921
+Custo dos Produtos Vendidos (5.938.620) (1.868.956) – (7.807.576) (5.696.157) (2.033.010) – (7.729.167)
+Lucro Bruto 2.407.122 753.718 – 3.160.840 2.915.386 908.368 – 3.823.754
+Margem Bruta 29% 29% – 29% 34% 31% – 33%
+Receitas (Despesas) 
+Operacionais (869.376) (516.328) – (1.385.704) (1.013.214) (551.505) – (1.564.719)
+Despesas com vendas (447.190) (304.854) – (752.044) (467.482) (287.400) – (754.882)
+Despesas gerais e 
+administrativas (466.199) (216.604) – (682.803) (435.249) (238.302) – (673.551)
+Outras receitas (despesas) 
+operacionais 63.272 6.243 – 69.515 (89.855) (29.354) – (119.209)
+Equivalência Patrimonial (19.259) (1.113) – (20.372) (20.628) 3.551 – (17.077)
+Lucro operacional antes do 
+resultado financeiro (EBIT) 1.537.746 237.390 – 1.775.136 1.902.172 356.863 – 2.259.035
+Depreciação, Exaustão e 
+Amortização 2.536.087 270.565 – 2.806.652 2.239.672 257.750 – 2.497.422
+EBITDA 4.073.833 507.955 – 4.581.788 4.141.844 614.613 – 4.756.457
+Margem EBITDA 49% 19% – 42% 48% 21% – 41%
+EBITDA Ajustado¹ 4.056.317 523.828 – 4.580.145 4.254.146 611.628 – 4.865.774
+Margem EBITDA Ajustada¹ 49% 20% – 42% 49% 21% – 42%
+Resultado Financeiro, líquido – – 4.616.436 4.616.436 – – 7.696.213 7.696.213
+Resultado antes do IRPJ e CSLL 1.537.746 237.390 4.616.436 6.391.572 1.902.172 356.863 7.696.213 9.955.248
+Imposto de Renda e Contribuição 
+Social – – (2.079.581) (2.079.581) – – (3.607.070) (3.607.070)
+Resultado do Exercício 1.537.746 237.390 2.536.855 4.311.991 1.902.172 356.863 4.089.143 6.348.178
+Margem Líquida 18% 9% – 39% 22% 12% – 55%
+(1) Desconsidera itens não recorrentes e efeitos do PPA.
+RELEASE DE RESULTADOS 1T26
+Página 42 de 43
+
+[p. 43]
+Afirmações sobre Expectativas Futuras
+Algumas afirmações contidas neste documento podem ser projeções ou afirmações sobre expectativas 
+futuras. Tais afirmações estão sujeitas a riscos conhecidos e desconhecidos e incertezas que podem 
+fazer com que tais expectativas não se concretizem ou sejam substancialmente diferentes do que era 
+esperado. Estes riscos incluem entre outros modificações na demanda futura pelos produtos da 
+Companhia, modificações nos fatores que afetam os preços domésticos e internacionais dos produtos, 
+mudanças na estrutura de custos, modificações na sazonalidade dos mercados, mudanças nos preços 
+praticados pelos concorrentes, variações cambiais, mudanças no cenário político-econômico brasileiro, 
+nos mercados emergentes e internacional. As afirmações sobre expectativas futuras não foram 
+revisadas pelos auditores independentes.
+RELEASE DE RESULTADOS 1T26
+Página 43 de 43

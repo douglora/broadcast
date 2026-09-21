@@ -1,0 +1,1276 @@
+[p. 1]
+1 
+ 
+Resultados do 
+3º trimestre de 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DIVULGAÇÃO DE 
+RESULTADOS 
+3T25
+
+[p. 2]
+2 
+ 
+Resultados do 
+3º trimestre de 2025 
+ 
+ 
+Rio de Janeiro, 11 de novembro de 2025 
+A Transmissora Aliança de Energia Elétrica S.A. (“TAESA” ou “Companhia”; B3: TAEE3, TAEE4, TAEE11), um dos 
+maiores grupos concessionários de transmissão de energia elétrica do país, anuncia hoje seus resultados do terceiro 
+trimestre de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quarta-feira, 12 de novembro de 2025 
+11h00 (BRT) | 09h00 (NYT) 
+ 
+Webcast em Português: Clique aqui 
+Português com tradução simultânea para o inglês 
+ 
+Contatos RI: 
+ investor.relations@taesa.com.br 
+https://ri.taesa.com.br/ 
++55 21 2212 6000 
+ 
+ 
+Receita Líquida Reg. 9M25 
+R$ 1.869,7 milhões (+7,0%) 
+ Videoconferência de Resultados 
+Destaques do Resultado 
+Anúncio de Proventos 
+R$ 323,3 milhões (3T25) 
+CAPEX 9M25 
+R$ 1.297,1 milhões (+89,8%) 
+EBITDA Reg. 9M25 
+R$ 1.580,1 milhões (+9,0%) 
+OPEX Reg. 9M25 
+R$ 289,5 milhões (-3,0%) 
+PV de 0,28% da Receita de 
+Transmissão 9M25 
+R$ 5,8 milhões (-82,3%) 
+Lucro Líquido Reg. 9M25 
+R$ 811,0 milhões (+2,5%) 
+Entrada em operação do reforço 
+da TSN com RAP autorizada 
+total de R$ 11,3 MM
+
+[p. 3]
+3 
+ 
+Resultados do 
+3º trimestre de 2025 
+ÍNDICE 
+1. RESUMO DO RESULTADO REGULATÓRIO ........................................................................................................................... 4 
+2. VISÃO GERAL ........................................................................................................................................................................... 6 
+2.1. Estrutura Societária ................................................................................................................................................................. 6 
+2.2. Estrutura Societária TBE ......................................................................................................................................................... 7 
+2.3. Estrutura Societária AIE .......................................................................................................................................................... 7 
+3. DESEMPENHO ECONÔMICO-FINANCEIRO ........................................................................................................................... 8 
+3.1. Desempenho Operacional ....................................................................................................................................................... 8 
+3.2. Ciclo da RAP 2025-2026 ......................................................................................................................................................... 9 
+3.3. Resultado Regulatório ........................................................................................................................................................... 11 
+3.3.1. Receita Líquida ................................................................................................................................................................... 11 
+3.3.2. Custos, Despesas, Depreciação e Amortização ................................................................................................................. 12 
+3.3.3. EBITDA e Margem EBITDA ................................................................................................................................................ 13 
+3.3.4. Composição do EBITDA ..................................................................................................................................................... 14 
+3.3.5. Resultado de Equivalência Patrimonial ............................................................................................................................... 15 
+3.3.6. Resultado Financeiro Líquido ............................................................................................................................................. 16 
+3.3.7. Impostos ............................................................................................................................................................................. 17 
+3.3.8. Lucro Líquido ...................................................................................................................................................................... 19 
+3.4. Dividendos e Juros sobre Capital Próprio .............................................................................................................................. 20 
+3.5. Endividamento ....................................................................................................................................................................... 21 
+3.6. Empreendimentos de Grande Porte em Implantação ............................................................................................................ 23 
+3.6.1. Investimentos ..................................................................................................................................................................... 24 
+3.6.2. Premissas Divulgadas ........................................................................................................................................................ 25 
+3.6.3. Status dos Projetos ............................................................................................................................................................. 26 
+3.7. Resultado Societário (IFRS) .................................................................................................................................................. 30 
+3.7.1. Receita Líquida ................................................................................................................................................................... 30 
+3.7.2. Custos, Despesas, Depreciação e Amortização ................................................................................................................. 32 
+3.7.3. Resultado de Equivalência Patrimonial ............................................................................................................................... 33 
+3.7.4. Resultado Financeiro Líquido ............................................................................................................................................. 33 
+3.7.5. Impostos ............................................................................................................................................................................. 34 
+3.7.6. Lucro Líquido ...................................................................................................................................................................... 35 
+4. DEMONSTRAÇÕES FINANCEIRAS ....................................................................................................................................... 36 
+4.1. Valor Residual ....................................................................................................................................................................... 36 
+4.2. Movimentação do Ativo Contratual (IFRS) ............................................................................................................................. 37 
+4.3. DRE 3T25 .............................................................................................................................................................................. 38 
+4.4. DRE 9M25 ............................................................................................................................................................................. 39 
+4.5. DRE Regulatório 3T25 (Subsidiárias) .................................................................................................................................... 40 
+4.6. DRE Regulatório 9M25 (Subsidiárias) ................................................................................................................................... 41 
+4.7. DRE IFRS 3T25 (Subsidiárias) .............................................................................................................................................. 42 
+4.8. DRE IFRS 9M25 (Subsidiárias) ............................................................................................................................................. 43 
+4.9. Conciliação DRE IFRS x Regulatório ..................................................................................................................................... 44 
+4.10. Balanço Patrimonial ............................................................................................................................................................. 45 
+4.11. Fluxo de Caixa Regulatório ................................................................................................................................................. 46 
+4.12. Fluxo de Caixa IFRS ........................................................................................................................................................... 47
+
+[p. 4]
+4 
+ 
+Resultados do 
+3º trimestre de 2025 
+ 
+1. RESUMO DO RESULTADO REGULATÓRIO 
+ 
+ 
+ 
+ 
+Obs.: Visão Proporcional
+
+[p. 5]
+5 
+ 
+Resultados do 
+3º trimestre de 2025 
+Resumo das Principais Explicações (3T25 x 3T24): 
+ 
+TEMA RESUMO 
+Receita de 
+Transmissão 
+de Energia* 
+Aumento de 9,8% é explicado pela entrada em operação de Pitiguari e dos reforços da Novatrans, além 
+do reajuste positivo do IGP-M e IPCA no ciclo RAP 2025-2026 para todas as concessões da Companhia. 
+Parcela 
+Variável 
+Melhora de R$ 7,1 MM se deve, principalmente, à reversão de provisões de anos anteriores e otimização 
+dos desligamentos no trimestre. 
+OPEX 
+Redução de 3,1% no OPEX é motivada por eventos não recorrentes na linha de outras despesas, tanto 
+no 3T24 quanto no 3T25 , compensado s em parte pelo reajuste salarial dos empregados via acordo 
+coletivo e pelo aumento da linha de serviços de terceiros por gastos não recorrentes com consultorias 
+estratégicas e administrativas. 
+D&A Aumento de 51,1% refere -se, basicamente, à entrada em operação dos reforços de Novatrans e às 
+unitizações de outros ativos. 
+Equivalência 
+Patrimonial 
+Redução de 15,1% é explicada pelo aumento de despesas financeiras líquidas na TBE em função da alta 
+do CDI, captações de Aimorés e Paraguaçu em junho de 2025, e pela contabilização retroativa no 3T24 
+da renovação do benefício fiscal SUDAM na EATE (TBE) . Estes efeitos foram compensados em parte 
+pelo reajuste inflacionário do ciclo da RAP 2025-2026, redução de despesas financeiras em Ivaí, e menor 
+PV, principalmente em Aimorés. 
+Resultado 
+Financeiro 
+Crescimento de 7,8% é resultado basicamente do aumento da dívida líquida, alta do CDI e do custo real 
+da dívida. 
+IR/CS 
+Redução de R$ 34,5 MM se deve, principalmente, à maior dedução de JCP distribuído nos períodos 
+comparados e aumento dos benefícios fiscais gerado pelas empresas de lucro presumido , parcialmente 
+compensados pela redução dos incentivos fiscais SUDAM/SUDENE. 
+* Para efeitos das explicações do Release de Resultados, definimos como “Receita de Transmissão de Energia” ou apenas “Receita de 
+Transmissão” a receita de disponibilização do sistema de transmissão relativo ao reconhecimento da Receita Anual Permitida no resultado 
+regulatório da Companhia. 
+ 
+Resultado Societário (IFRS): 
+O resultado IFRS consta ao final deste release na seção 3.7. Para maiores detalhes sobre este resultado, acesse 
+as demonstrações de resultados findo em 30 de setembro de 2025.
+
+[p. 6]
+6 
+ 
+Resultados do 
+3º trimestre de 2025 
+2. VISÃO GERAL 
+ 
+2.1. Estrutura Societária 
+ 
+As 44 concessões/participações de transmissão detidas pela TAESA estão segregadas em: (i) 1 4 concessões 
+que compõem a empresa holding (TSN, Novatrans, ETEO, GTESA, PATESA, Munirah, NTE, STE, ATE, ATE II, 
+ATE III, Sant’Ana , Saíra e Miracema), (ii) 1 1 investidas integrais (Brasnorte, São Gotardo, Mariana, Janaúba, 
+São João, São Pedro, Lagoa Nova, Ananaí, Pitiguari, Tangará e Juruá); e (iii) 19 participações (ETAU e os grupos 
+AIE e TBE). Em 29 de dezembro de 2023, foi celebrad a a incorporação das controladas ATE III, Sant’Ana e 
+Saíra, enquanto a incorporação de Miracema foi celebrada em 30 de abril de 2024. 
+Atualmente, a Companhia possui 4 empreendimentos de grande porte em construção (Ananaí, Tangará, Saíra e 
+Juruá) e 6 reforços de maior porte em 5 concessões (São Pedro, ATE, ATE III, EATE e ENTE). Vide status dos 
+empreendimentos e reforços de grande porte na seção 3.6. 
+Em 27 de setembro de 2024, a Companhia sagrou-se vencedora na disputa pelo lote 3 do Leilão de Transmissão 
+ANEEL 02/2024, nomeado de Juruá Transmissora de Energia Elétrica S.A . (Juruá), cujo contrato de concessão 
+foi assinado em 9 de dezembro de 2024. 
+Para maiores informações de organograma, vide a página de Estrutura Societária no site de RI da Companhia: 
+https://ri.taesa.com.br/governanca-corporativa/estrutura-societaria/
+
+[p. 7]
+7 
+ 
+Resultados do 
+3º trimestre de 2025 
+2.2. Estrutura Societária TBE 
+ 
+ 
+ 
+2.3. Estrutura Societária AIE
+
+[p. 8]
+8 
+ 
+Resultados do 
+3º trimestre de 2025 
+3. DESEMPENHO ECONÔMICO-FINANCEIRO 
+ 
+3.1. Desempenho Operacional 
+Índice de Disponibilidade 
+O Índice de Disponibilidade é uma medida de tempo, sendo estritamente um indicador operacional. O cálculo 
+consiste em: número de horas que a linha fica disponível, dividido pelo número de horas contidas em 1 ano 
+(8.760 horas), medido por trechos de 100km. 
+Alinhado com o alto desempenho operacional verificado ao longo dos anos, a TAESA tem apresentado um alto 
+índice disponibilidade, conforme gráfico abaixo, que apresenta o desempenho consolidado da Companhia, sem 
+considerar as suas participações (ETAU, AIE e TBE). 
+ 
+Parcela Variável 
+O indicador que mostra o impacto da indisponibilidade de transmissão na demonstração de resultados da 
+empresa é a parcela variável (PV). Devido ao comportamento instável da PV no curto prazo, o desempenho da 
+Companhia é melhor verificado através da análise do valor da PV dividido pela Receita de Transmissão, conforme 
+gráfico abaixo. 
+A PV contabilizada no 9M25 foi de R$ 5,8 MM, equivalente a 0,28% da Receita de Transmissão do mesmo 
+período. Os principais eventos que impactaram a Parcela Variável do período foram os seguintes, por ordem de 
+relevância: (i) Saíra: provisão pelo desligamento intempestivo na LT 500 kV Garabi 1 / Santo Ângelo devido a 
+uma explosão do T ransformador de Potencial Capacitivo (TPC) no terminal da SE Santo Ângelo , ocorrido em 
+março de 2025; e (ii) ATE III: provisão pelo desligamento intempestivo na LT 500 kV Itacaiúnas / Colinas C1 
+devido a uma intercorrência no banco de reatores da SE Colinas, ocorrido também em março de 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ * PV referente ao evento de caso furtuito da queda de torres na LT 500 kV Imperatriz- Colina C2 ocorrida em dezembro de 2022, decorrente de 
+depredações de bens públicos por ato de sabotagem ao (SIN).
+
+[p. 9]
+9 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.2. Ciclo da RAP 2025-2026 
+Em 15 de julho de 2025, a ANEEL publicou a Resolução Homologatória 3. 481/2025 (“REH 3. 481”) que 
+estabeleceu as Receitas Anuais Permitidas (RAP) das concessões de transmissão para o ciclo 2025-2026, 
+passando a valer a partir de 1º de julho de 2025 até 30 de junho de 2026, afetando, portanto, o resultado da 
+TAESA a partir do 3T25. As concessões ajustadas pelo IGP -M (Categoria II) sofreram um reajuste inflacionário 
+de +7,03%, e as concessões ajustadas pelo IPCA (Categoria III) sofreram um reajuste inflacionário de +5,32%. 
+Considerando as concessões controladas, investidas em conjunto e coligadas , a RAP total1 (operacional e em 
+construção) da TAESA para o ciclo 2025-2026 é de R$ 4,4 bilhões, sendo 54,4% no nível da holding. A RAP 
+operacional da TAESA para o ciclo 2025-2026 ficou em R$ 4,0 bilhões, um crescimento de 8,7% em relação ao 
+ciclo 2024-2025. 
+Além do reajuste inflacionário da RAP para o ciclo 202 5-2026 mencionado acima, tivemos os seguintes efeitos 
+que impactam este ciclo : (i) entrada em operação de Pitiguari , dos reforços da Novatrans , EBTE e TSN; (ii) 
+reposicionamento da RAP após processo fiscalizatório da Revisão Tarifária Periódica do ciclo anterior, que afetou 
+Novatrans, TSN, Munirah, ETEO, NTE, STE, ATE I, ATE II, ATE III, Brasnorte, STC e São Pedro ; (iii) reforços 
+autorizados nas concessões EATE e ENTE em outubro de 2024; (iv) alteração da alíquota de PIS/COFINS para 
+Miracema, Sant’Ana e Brasnorte; (v) adicional de RAP por seccionamento de LT na PATESA; (vi) correção de 
+alíquota de PIS/COFINS pela ANEEL na Transirapé. 
+A REH 3.481 também estabeleceu as Parcelas de Ajustes de Vida Útil (PA – Vida Útil) e Parcelas de Ajustes de 
+Retroatividade (PA – Retroatividade) além das PAs de Apuração, que são publicadas a cada novo ciclo. A 
+Companhia não registra no resultado as parcelas de ajustes advindas de antecipações de ciclos anteriores, uma 
+vez que se trata de compensações ou ressarcimentos em relação à receita contratada. 
+A PA de Vida Útil é calculada quando a Transmissora possui ativo cuja vida útil termina até a sua próxima Revisão 
+Periódica. Cada módulo nessa condição deixa de auferir o Custo Anual dos Ativos Elétricos -CAAE e o Custo 
+Anual das Instalações Móveis e Imóvei s-CAIMI como parte da RAP, passando a receber esses componentes 
+como Parcela de Ajuste de Vida Útil. 
+Com a conclusão do processo de fiscalização da Revisão Tarifária Periódica (“RTP”) publicada no ano de 2024, 
+no qual a Companhia apresentou evidências comprobatórias para os investimentos de reforços, a ANEEL deu 
+pleno reconhecimento dos investimentos realizados que culminaram em um adicional de RAP para estes reforços 
+no volume total de R$ 5,6 MM a partir do ciclo 2025-2026, além da adequação das Parcelas de Ajuste de Revisão 
+e do reconhecimento dessa receita , referente ao ciclo tarifário desses reforços , com um ajuste no resultado do 
+2T25 (receita de transmissão) de R$ 17,6 MM. 
+A PA de Retroatividade é utilizada para corrigir os valores provisórios desde o início da operação comercial até 
+a data da revisão tarifária de projetos de reforços. Conforme estabelecido nas Regras da Transmissão, a receita 
+revisada de reforços autorizado s retroagirá à data de entrada em operação comercial da obra, sendo que a 
+eventual diferença decorrente da revisão do valor será considerada na RAP da Transmissora através da PA de 
+Retroatividade. Essa parcela deve ser debitada ou creditada anualmente a partir de julho de 2024 até a próxima 
+Revisão Periódica da Concessionária. 
+Para a PA de Retroatividade, a cobrança será feita em diversos ciclos tarifários, cujos impactos mais relevantes 
+são nas concessões Novatrans, TSN e São Pedro, com 4 ciclos remanescentes de ajuste. 
+Os valores publicados de RAP e de PA das concessões , cujos contratos são indexados pelo IPCA, foram 
+adicionados de PIS/COFINS para ficarem alinhados às concessões indexadas pelo IGP-M, uma vez que as RAPs 
+destas últimas já vêm adicionadas de PIS/COFINS na resolução homologatória. 
+A tabela abaixo mostra em maiores detalhes os valores de RAP e PA dos empreendimentos em operação e 
+construção para o ciclo 2025-2026.
+
+[p. 10]
+10 
+ 
+Resultados do 
+3º trimestre de 2025
+
+[p. 11]
+11 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.3. Resultado Regulatório 
+3.3.1. Receita Líquida 
+A Receita Líquida Regulatória no 3T25 alcançou R$ 650,5 MM, 9,8% maior que o registrado n o 3T24, 
+explicada principalmente pelo aumento da Receita de Transmissão em função da entrada em operação 
+comercial de Pitiguari e dos reforços da Novatrans, redução da Parcela Variável, além do reajuste positivo 
+do IGP-M e IPCA no ciclo RAP 2025-2026 para todas as concessões da Companhia. 
+A Receita Líquida Regulatória no 9M25 somou R$ 1.869,7 MM, apresentando um aumento anual de 7,0%. 
+ 
+O aumento na linha da Receita de Transmissão de 9,3% entre o 3T25 e o 3T24 é explicado principalmente pelo 
+(i) reajuste inflacionário do ciclo RAP 2025-2026 em +7,03% para os contratos de categoria 2 (IGP-M) e +5,32% 
+para os contratos de categoria 3 (IPCA), (ii) entrada dos reforços de Novatrans e início da operação de Pitiguari, 
+(iii) maiores cotas de CDE e PROINFA nas concessões GTESA e ATE III, e (iv) aumento da receita em função 
+do processo fiscalizatório da RTP do ciclo anterior. 
+A Parcela Variável (PV) apresentou uma melhora de R$ 7,1 MM na comparação entre os períodos em função, 
+principalmente, de (i) reversão de provisões de anos anteriores no 3T25 nas concessões ATE III, Novatrans e 
+TSN no valor total de R$ 4,0 MM, (ii) PATESA: provisão no 3T34 por desligamento automático na LT 230 kV 
+Paraíso / Lagoa Nova ll e na LT 230 kV Lagoa Nova II / Açu III, ocorrido em agosto de 2024, e (iii) São Pedro: 
+provisão por desligamento automático LT 230 kV Bom Jesus II / Eliseu Martins - C1, ocorrido em agosto de 2024. 
+O aumento nas deduções da receita de 17,1% na comparação entre os trimestres se deve, principalmente, pelo 
+(i) aumento do PIS/COFINS corrente em função do aumento na Receita de Transmissão e da maior participação 
+de receitas tributadas à alíquota de 9,25% e (ii) aumento dos encargos setoriais, CDE e PROINFA.
+
+[p. 12]
+12 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.3.2. Custos, Despesas, Depreciação e Amortização 
+Custos, Despesas e Depreciação e Amortização totalizaram R$ 233,0 MM no 3T25, 21,4% maior quando 
+comparado ao 3T24. Os custos de PMSO somaram R$ 101,7 MM, registrando uma queda anual de 3,1%. 
+ 
+Custos, Despesas e Depreciação e Amortização nos primeiros nove meses do ano alcançaram R$ 613,4 
+MM, 9,3% maior na comparação anual. Os custos de PMSO somaram R$ 289,5 MM, registrando uma queda 
+anual de 3,0%. 
+ 
+ 
+• Pessoal: 
+ 
+O aumento de 3,9% na comparação entre os trimestres é explicado, principalmente, pelo (i) reajuste 
+salarial dos empregados pelo acordo coletivo de 2025 em +5,32% (IPCA), (ii) méritos e promoções , e 
+(iii) entrada em operação de Pitiguari. Estes efeitos foram parcialmente compensados por reversão de 
+provisão de PLR de anos anteriores, não recorrente, no valor de R$ 4,3 MM. 
+ 
+• Material: 
+ 
+Os gastos com Material permaneceram praticamente em linha com o mesmo período de 2024. 
+ 
+• Serviços de terceiros: 
+ 
+O aumento de 17,6% na comparação entre o 3T25 e o 3T24 foi influenciada, principalmente, por (i) 
+maiores gastos, não recorrentes , com consultorias estratégicas e administrativas com foco no 
+planejamento estratégico, reestruturação e clima organizacional e centro de serviços compartilhados 
+(CSC), no total de aproximadamente R$ 4,6 MM, e (ii) maiores despesas com viagens no 3T25. Esses 
+efeitos foram compensados, em parte , por menores gastos com manutenção de equipamentos e 
+estradas de acesso, resultado de iniciativas de eficiência. 
+ 
+• Outros: 
+ 
+A redução de R$ 10,2 MM no 3T25 se deve, principalmente, por (i) provisão, não recorrente, de R$ 7,5 
+MM relativo à baixa de inventário de materiais realizada no 3T24, e (ii) eventos não recorrentes no 3T25 
+no valor de R$ 5,2 MM relativos, principalmente, à venda e regularização de ativos. Estes efeitos foram 
+compensados majoritariamente pelo aumento de provisão de contingências trabalhistas registradas no 
+trimestre.
+
+[p. 13]
+13 
+ 
+Resultados do 
+3º trimestre de 2025 
+Segue tabela abaixo com os custos e despesas recorrentes: 
+ 
+ 
+ 
+O aumento de 51,1% na linha de depreciação e amortização na comparação entre os trimestres refere -se, 
+basicamente, à entrada em operação dos reforços de Novatrans e à unitização de outros ativos. 
+ 
+ 
+3.3.3. EBITDA e Margem EBITDA 
+O EBITDA Regulatório do 3T25 atingiu R$ 548,8 MM, 12,6% maior que o registrado no 3T24, e a margem EBITDA 
+atingiu 84,4% (+2,1pp versus 3T24). O desempenho do EBITDA e margem EBTIDA é explicado pelo (i) aumento 
+da receita líquida em função da entrada em operação de Pitiguari e dos reforços da Novatrans , (ii) o reajuste 
+inflacionário do IPCA (+5,3%) e do IGP-M (7,0%) no ciclo 2025-2026 da RAP, (iii) menor Parcela Variável, e (iv) 
+redução dos custos e despesas operacionais, especificamente na linha de Outros. 
+Desconsiderando os eventos não-recorrentes dos períodos analisados , o EBITDA apresentou um crescimento 
+de 10,0% na comparação com o EBITDA ajustado do 3T24 (R$ 495,1 MM) e uma margem EBITDA de 84,2% 
+(+0,6pp versus 3T24). 
+ 
+ 
+ 
+ 
+ 
+(1) O EBITDA ajustado do 3T25 exclui reversão de provisões de PV de anos anteriores e custos e despesas não recorrentes nas 
+linhas de Serviços de Terceiros e Outros. Para maiores detalhes sobre eventos não recorrentes dos trimestres anteriores, vide os 
+Releases de Resultados dos respectivos trimestres.
+
+[p. 14]
+14 
+ 
+Resultados do 
+3º trimestre de 2025 
+ 
+ 
+3.3.4. Composição do EBITDA 
+ 
+O gráfico abaixo mostra o EBITDA Regulatório no 9M25 considerando todas as concessões do grupo TAESA 
+proporcionalmente. É importante ressaltar que o resultado consolidado conforme as normas contábeis brasileiras 
+não incluem as investidas em conjunto e coligadas (ETAU, AIE e TBE).
+
+[p. 15]
+15 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.3.5. Resultado de Equivalência Patrimonial 
+O Resultado de Equivalência Patrimonial Regulatória no 3T25 totalizou R$ 106,5 MM, 15,1% menor que o 
+registrado no 3T24. Nos primeiros nove meses de 2025, a Equivalência Patrimonial Regulatória fechou 
+em R$ 310,8 MM, 6,3% menor que o registrado no 9M24. 
+ 
+ 
+ 
+O Resultado de Equivalência Patrimonial Regulatória no 3T25 apresentou uma queda de 15,1% na comparação 
+com 3T24, explicado principalmente pelo (i) aumento de despesas financeiras em função da alta do CDI, 
+impactando a TBE, e das captações de Aimorés e Paraguaçu emitidas em junho de 2025, e (ii) contabilização 
+retroativa de IRPJ no 3T24 referente à renovação do benefício fiscal SUDAM da EATE (TBE). Estes efeitos 
+foram compensados pelo (i) reajuste inflacionário no ciclo da RAP 2025 -2026, (ii) aumento da receita financeira 
+pela alta do CDI, (iii ) redução de despesas financeiras em Ivaí devido à queda do IPCA, e (iv) redução de PV, 
+majoritariamente em Aimorés. 
+A diferença entre o Resultado de Equivalência Patrimonial na TAESA e a soma do resultado da ETAU, Aimorés, 
+Paraguaçu, Ivaí e TBE é devido à amortização do ágio oriundo da alocação do preço pago pela aquisição da 
+TBE.
+
+[p. 16]
+16 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.3.6. Resultado Financeiro Líquido 
+ 
+A despesa financeira líquida regulatória totalizou R$ 227,0 MM no 3T25, 7,8% maior que o registrado no 
+3T24. Nos primeiros 9 meses de 2025, a despesa financeira líquida regulatória totalizou R$ 798,4 MM, 
+11,6% maior na comparação anual. 
+ 
+ 
+ 
+ 
+O aumento anual de R$ 22,2 MM nas receitas financeiras ocorreu, principalmente, em função do maior caixa 
+médio, do aumento do CDI (+3,65% no 3T25 versus +2,59% no 3T24), impactando a renda de aplicação 
+financeira. 
+O aumento de 33,9% entre o 3T25 e o 3T24 na linha de juros incorridos se deve, principalmente, à alta do CDI 
+conforme mencionado acima, ao aumento do volume médio da dívida em CDI em função dos juros incorridos da 
+ponta passiva do swap da 18ª emissão de debêntures da Companhia (CDI) a partir de julho de 2025, e ao 
+aumento do spread médio das dívidas em IPCA. 
+A redução anual de 39,3% na linha de variações monetárias e cambiais é explicada principalmente pelos 
+menores IPCA (+0,04% no 3T25 vs. +0,34% no 3T24) e IGP-M (-0,05% no 3T25 vs. +1,53% no 3T24) registrados 
+entre os trimestres, além da contração do volume médio da dívida em IGP -M. Estes efeitos foram parcialmente 
+compensados pela variação cambial de NDFs (Non-Deliverable Forward) contratados para Saíra e Juruá. 
+O valor negativo de R$ 2,5 MM na linha de Ajuste a Valor Justo do 3T25 é explicado pela marcação a mercado 
+(MTM) da ponta ativa do swap da 18ª emissão de debêntures da Companhia (IPCA) a partir de julho de 2025. Já 
+o valor positivo de R$ 2,5 MM na linha de Marcação a Mercado do 3T25 é explicado pelo MTM da 18ª emissão 
+de debêntures da Companhia também a partir de julho de 2025 quando esta operação foi liquidada. O efeito 
+líquido entre essas duas linhas é nulo como resultado do tratamento contábil do swap (designação do hedge 
+account a valor justo). 
+A linha de outras despesas financeiras melhorou em R$ 15, 5 MM em função de (i) atualização de créditos 
+tributários e (ii) atualização de ativos e passivos regulatórios, basicamente em função da correção de saldos das 
+Parcelas de Ajustes de Retroatividade.
+
+[p. 17]
+17 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.3.7. Impostos 
+A redução anual de R$ 34,5 MM do Imposto de Renda e Contribuição Social reconhecido no resultado no 
+regulatório entre o 3T25 e o 3T24 é explicada, principalmente, pela maior dedução do Juros sobre Capital Próprio 
+(JCP) distribuído nos trimestres e pelo aumento dos benefícios fiscais gerados pelas empresas de lucro 
+presumido em função do novo ciclo da RAP 2025-2026, que foram parcialmente compensados pela redução dos 
+incentivos fiscais SUDAM/SUDENE devido à menor base tributável do lucro da exploração.
+
+[p. 18]
+18 
+ 
+Resultados do 
+3º trimestre de 2025 
+A tabela abaixo mostra o regime fiscal de cada concessão, bem como indica aquelas concessões que possuem 
+benefício fiscal, a data de término do benefício e a alíquota de PIS e COFINS de cada concessão. 
+ 
+* Empresas que apuram PIS/COFINS tanto pelo Regime Cumulativo ( Receita de Transmissão) quanto pelo Regime não Cumulativo (novas 
+receitas). 
+(1) A obtenção do benefício ocorrerá junto a entrada em operação do projeto, quando o prazo do benefício também será determin ado.
+
+[p. 19]
+19 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.3.8. Lucro Líquido 
+Lucro Líquido Regulatório somou R$ 323,3 MM no 3T25, apresentando um aumento anual de 5,2%. No 
+9M25, o Lucro Líquido Regulatório fechou em R$ 811,0 MM, 2,5% maior que o mesmo período do ano 
+anterior. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ , 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 ,3
+ 1,4
+1 , 1 ,4 44,4
+34, 3 3,3
+ 
+ 5,2%
+ ,0 
+ , 11, 
+1 , 1,4
+ , 
+ 3,1 1,3
+ 4, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2,5%
+ 20, 
+Lucro Líquido Regulatório – 3T25: 
+Lucro Líquido Regulatório – 9M25:
+
+[p. 20]
+20 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.4. Dividendos e Juros sobre Capital Próprio 
+ 
+Em Assembleia de Acionistas ocorrida no dia 2 9 de abril de 202 5, os acionistas aprovaram a proposta da 
+administração quanto à destinação dos resultados do exercício social de 202 4, dos quais: (i) R$ 783,5 MM para 
+reserva de lucros a realizar; (iii) R$ 598,6 MM em proventos pagos ao longo de 2024 e início de 2025, sendo R$ 
+197,8 MM em dividendos intercalares e R$ 400,9 MM em Juros sobre Capital Próprio (JCP); e (iv) R$ 301,5 MM 
+(R$ 0,88 / Unit) em dividendos mínimos obrigatórios remanescentes a serem pagos em duas parcelas: (i) R$ 
+190,6 MM (R$ 0,55 / Unit) em 28 de maio de 2025, e (ii) R$ 110,9 MM (R$ 0,32 / Unit) em 27 de novembro de 
+2025. Com isso, o montante total de proventos distribuídos sobre o resultado de 2024 foi R$ 900,1 MM (R$ 2,61 
+/ Unit), representando um payout de 90,8% do lucro líquido regulatório. 
+Em 7 de maio de 2025, o Conselho de Administração aprovou a distribuição de proventos com base no resultado 
+levantado em 31 de março de 2025, no montante de R$ 188,3 MM (R$ 0,55 / Unit) a título de JCP. Este montante 
+equivale a 100% do lucro líquido regulatório apurado no primeiro trimestre de 2025. O pagamento ocorreu no dia 
+27 de agosto de 2025, a partir da data base de 12 de maio de 2025. 
+Em 1 3 de agosto de 2025 , o Conselho de Administração aprovou a distribuição de proventos com base no 
+resultado do 2T25, no montante de R$ 299,4 MM (R$ 0,87 / Unit), sendo R$ 220,1 MM (R$ 0,64 / Unit) a título 
+de JCP e R$ 79,3 MM (R$ 0,23 / Unit) em dividendos intercalares . Este montante equivale a 100% do lucro 
+líquido regulatório apurado no segundo trimestre de 2025. O pagamento ocorrerá no dia 27 de novembro de 
+2025, a partir da data base de 18 de agosto de 2025. 
+Na data de hoje, o Conselho de Administração aprovou a distribuição de proventos com base no resultado do 
+3T25, no montante de R$ 323,3 MM (R$ 0,94 / Unit), sendo R$ 144,5 MM (R$ 0,42 / Unit) a título de JCP e R$ 
+178,8 MM (R$ 0,52 / Unit) em dividendos intercalares. Este montante equivale a 100% do lucro líquido regulatório 
+apurado no terceiro trimestre de 2025. O pagamento ocorrerá no dia 28 de janeiro de 2026, a partir da data base 
+de 14 de novembro de 2025.
+
+[p. 21]
+21 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.5. Endividamento 
+ 
+No 3T25, a Dívida Bruta da Companhia totalizou R$ 10.459,6 MM, 0,5% maior que o trimestre anterior. O 
+caixa da Companhia ficou em R$ 1.113,6 MM, registrando um aumento de 23,4% no trimestre e resultando 
+em uma dívida líquida de R$ 9.346,0 MM, 1,7% menor que o 2T25. 
+ 
+* O valor do caixa é a soma das linhas caixa e equivalente de caixa e títulos e valores mobiliários. 
+O aumento de 23,4% no Caixa e Aplicações no trimestre é explicado principalmente pela 18ª emissão de 
+debêntures da TAESA no valor de R$ 800 MM , pela geração de caixa e recebimento de dividendos das 
+participadas. Estes efeitos foram compensados, em parte, pelo pagamento no valor de aproximadamente (i) R$ 
+1,0 bilhão em juros e amortização referente a 5ª, 7ª, 11ª, 14ª, 15ª e 16ª emissões de debêntures da TAESA e 
+Swap Citibank, (ii) R$ 516,7 MM em Capex no trimestre, e (iii) R$ 188,3 MM em proventos pagos em agosto de 
+2025. 
+Consolidando proporcionalmente as empresas controladas em conjunto e coligadas, o total da dívida bruta seria 
+de R$ 13.328,6 MM e o caixa de R$ 1. 352,4 MM, considerando os seguintes valores: (i) dívidas da TBE no 
+montante de R$ 1.331,2 MM e caixa/aplicações de R$ 98,1 MM; (ii) caixa/aplicações da ETAU de R$ 7,6 MM; e 
+(iii) dívidas da AIE (Aimorés, Paraguaçu e Ivaí) de R$ 1.537,8 MM e caixa/aplicações de R$ 133,2 MM. 
+Considerando a dívida líquida proporcional das empresas controladas em conjunto e coligadas, a relação dívida 
+líquida sobre EBITDA ficou em 4,1x no 3T25, em linha ao valor registrado no 2T25 (4,1x). 
+ 
+ 
+Dívida por Empresa (R$ MM)
+
+[p. 22]
+22 
+ 
+Resultados do 
+3º trimestre de 2025 
+A dívida da TAESA, das investidas em conjunto e coligadas está detalhada na tabela abaixo, proporcionalmente.
+
+[p. 23]
+23 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.6. Empreendimentos de Grande Porte em Implantação 
+ 
+A Companhia possui atualmente quatro empreendimentos em implantação com um investimento total ANEEL de 
+R$ 4,3 bilhões e uma RAP de R$ 490,7 MM (ciclo RAP 2025-2026) – uma parte dessa RAP já em operação (R$ 
+137,5 MM de Saíra) – e seis reforços de grande porte com um investimento total ANEEL de R$ 393,9 MM e uma 
+RAP autorizada de R$ 71,5 MM. 
+ 
+Obs: Os valores da RAP apresentados na tabela acima estão adicionados de PIS/COFINS e consideram stake TAESA para RAP e 
+CAPEX.
+
+[p. 24]
+24 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.6.1. Investimentos 
+No 9M25, a Companhia, suas controladas, investidas em conjunto e coligadas investiram o total de R$ 1.297,1 
+MM contra R$ 683,5 MM investidos no 9M24, referentes aos empreendimentos em implantação. O aumento de 
+R$ 613,6 MM entre os períodos comparados se deve , principalmente, aos maiores investimentos nos 
+empreendimentos Tangará, Ananaí e Saíra (2ª fase) e nos reforços de ATE, São Pedro, e ATE III. Estes efeitos 
+foram compensados por menores investimentos nos empreendimentos de Pitiguari e nos reforços de Novatrans 
+e TSN em função das energizações ocorridas entre novembro 2024 e setembro de 2025. 
+ 
+Obs: Os valores apresentados na tabela acima consideram os custos de implementação de infraestrutura em cada um dos projetos pelo regime de competência, 
+em linha com o resultado em IFRS divulgado pela companhia. Os valores apresentados de reforços (Novatrans, TSN, São Pedro, ATE e ATE III) a partir de 2023 
+são majoritariamente referentes às REAs destacadas neste documento, mas podem considerar reforços de menor porte ou melhorias que não foram mencionados 
+aqui. (1) O valor de 2023 inclui o pagamento da indenização de R$ 870,6 MM à concessionária anterior. (2) Os valores de Novatrans são referentes principalmente 
+aos reforços autorizados através das Resoluções Autorizativas ANEEL (REA) nº 12.850/2022 e 12.823/2022. (3) O valor da TSN é referente principalmente ao 
+reforço autorizado através da Resolução Autorizativa ANEEL (REA) nº 13.194/2022. (4) O valor de São Pedro é referente principalmente aos reforços autorizados 
+através da Resolução Autorizativa ANEEL (REA) nº 15.027/2024 e Despacho ANEEL nº 677/2024. (5) O valor da ATE é referente principalmente ao reforço 
+autorizado através da Resolução Autorizativa ANEEL (REA) nº 14.819/2023. (6) O valor da ATE III acima é referente principalmente a reforços de pequeno porte 
+e melhorias.
+
+[p. 25]
+25 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.6.2. Premissas Divulgadas 
+Visando maior transparência e com o intuito de facilitar o cálculo e modelagem do fluxo de caixa da Companhia, 
+segue abaixo algumas premissas dos empreendimentos atualmente em construção , arrematados em leilões 
+(greenfield). 
+Antecipação de entrada em operação versus prazo ANEEL: 
+• Ananaí: 10 a 12 meses 
+• Tangará: cerca de 24 meses 
+• Saíra (2ª fase): cerca de 24 meses 
+• Juruá (lote 3): 6 meses (limite do edital) 
+Eficiência do CAPEX versus CAPEX ANEEL: 
+• Ananaí, Tangará e Saíra (2ª fase): média de 15% 
+• Juruá: mais que 25% 
+Outras premissas – Juruá: 
+• 80% do CAPEX concentrado em equipamentos 
+• Mais de 50% do CAPEX a ser desembolsado no último ano da obra 
+• Margem EBITDA acima de 90% 
+• Regime de lucro presumido
+
+[p. 26]
+26 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.6.3. Status dos Projetos 
+Ivaí 
+• Projeto básico protocolado na ANEEL. 
+• Protocolado EIA/RIMA junto ao IAP. 
+• Licença Prévia (LP) para as instalações de 230 kV emitida em setembro de 2018. 
+• Alteração da denominação social de Elétricas Reunidas do Brasil S.A. (ERB1) para Interligação Elétrica 
+Ivaí S.A. 
+• Licença de Instalação (LI) emitida para SE Sarandi de 525/230 kV em abril de 2019, SE Paranavaí Norte 
+- 230/138 kV em maio de 2019, LT 230 kV Sarandi - Paranavaí Norte em junho de 2019, e para SEs de 
+Londrina de 525 kV, Foz do Iguaçu de 525 kV e Guaíra de 525 kV/230 kV e LT 525 kV Sarandi - Londrina 
+em agosto de 2019. 
+• 1ª emissão de debêntures de Ivaí em janeiro de 2020. 
+• Emissão dos Termos de Liberação provisórios (i) em novembro de 2022, para o corredor de 525kV para 
+as linhas de transmissão LT Foz do Iguaçu – Guaíra (circuito duplo), Módulos Gerais 525 kV das SE 
+Foz do Iguaçu e SE Guaíra, Bancos de Reatores 525 kV da SE Guaira, e (ii) em maio de 2023, para os 
+Bancos de Transformadores 525/230 kV da SE Guaíra. Emissão dos TLDs para esses trechos em maio 
+de 2023. 
+• Emissão dos Termos de Liberação provisórios para o corredor de 525 kV para as linhas de transmissão 
+LT 525 kV Guaíra – Sarandi (circuito duplo) em novembro de 2022, com emissão de TLD em dezembro 
+de 2022. 
+• Emissão dos Termos de Liberação provisórios para o corredor de 525kV dos Bancos de Reatores da 
+SE Guaíra em novembro de 2022, com emissão de TLD em janeiro de 2023. 
+• Emissão dos Termos de Liberação provisórios para início da operação comercial do Banco de 
+Capacitores 138kV-30 Mvar da SE Paranavaí Norte, o Módulo Geral 230 kV da SE Paranavaí Norte 
+com interligações, Bancos de Transformadores 230/138 kV da SE Paranavaí Norte, LT 230 kV Sarandi 
+– Paranavaí Norte (circuito duplo) e entradas de linha 138 kV Paranavaí e a LT 230 kV Sarandi -
+Paranavaí Norte (circuito duplo) em janeiro de 2023, com emissão de TLD em abril de 2023. 
+• Emissão dos Termos de Liberação provisórios e TLD para LT 525 kV Sarandi – Londrina C1 em 
+novembro de 2022. Emissão dos Termos de Liberação provisórios para LT 525 kV Sarandi – Londrina 
+C2 em novembro de 2022. Emissão de TLD para o Módulo Geral 525 kV da SE Londrina em novembro 
+de 2022. 
+• Emissão dos Termos de Liberação provisórios para o Módulo Geral 525 kV da SE Sarandi, os Bancos 
+de Reatores 525 kV SE Sarandi, e os Bancos de Transformadores 525/230 kV SE Sarandi em novembro 
+de 2022. Emissão dos TLDs para estes trechos em agosto de 2023. 
+• Atendimento de requisitos para fins de liberação de garantia no processo de debêntures emitidas. 
+• Emissão do TLD LT 525 kV Sarandi – Londrina C2 em março de 2023. 
+• Entrada em operação comercial total em março de 2024. 
+ 
+Ananaí 
+• Constituição da empresa Ananaí Transmissora de Energia Elétrica S.A. para construir e operar o Lote 
+1 do Leilão 002/2021. 
+• Assinatura do contrato de concessão em 31 de março de 2022. 
+• Licença Prévia (LP) para o trecho da LT 525 kV Bateias – Curitiba Leste emitida em agosto de 2023 e 
+para o trecho da LT 500 kV Ponta Grossa – Assis emitida em setembro de 2023. 
+• Licença de Instalação (LI) para o trecho da LT 525 kV Bateias – Curitiba Leste, incluindo as obras de 
+ampliação das subestações SE Bateias e SE Curitiba Leste a serem interligadas, emitida em junho de 
+2024. 
+• Licença de Instalação (LI) para o trecho da LT 500 kV Ponta Grossa – Assis, incluindo as obras de 
+ampliação das Subestações SE Ponta Grossa e SE Assis a serem interligas, emitida em novembro de 
+2024.
+
+[p. 27]
+27 
+ 
+Resultados do 
+3º trimestre de 2025 
+• Avanço físico: 66,9% em 30 de setembro de 2025. 
+Pitiguari 
+• Constituição da empresa Pitiguari Transmissora de Energia Elétrica S.A. para construir e operar o Lote 
+10 do Leilão 001/2022. 
+• Assinatura do contrato de concessão em 30 de setembro de 2022. 
+• Licença Prévia (LP) para os trechos LT 230 kV Abdon Batista – Videira e LT 230 Kv Abdon Batista – 
+Barra Grande emitida em agosto de 2023. 
+• Licença de Instalação (LI) para os trechos LT 230 kV Abdon Batista – Videira e LT 230 kV Abdon Batista 
+– Barra Grande, incluindo as obras de ampliação das subestações SE Barra Grande, SE Abdon Batista 
+e SE Videira, emitida em fevereiro de 2024. 
+• Emissão do Termo de Liberação do trecho LT 230 kV Abdon Batista – Barra Grande em dezembro de 
+2024, representando 20% da RAP do empreendimento. 
+• Emissão do Termo de Liberação do trecho LT 230 kV Abdon Batista – Videira C1 em junho de 2025. 
+Com esta liberação, Pitiguari passa a receber 100% da RAP do empreendimento. 
+• Entrada em operação comercial em junho de 2025. 
+Tangará 
+• Constituição da empresa Tangará Transmissora de Energia Elétrica S.A. para construir e operar o Lote 
+3 do Leilão 002/2022. 
+• Assinatura do contrato de concessão em 30 de março de 2023. 
+• Licença Prévia para Subestação Santa Luzia III emitida em dezembro de 2023 e para LT 230kV 
+Açailândia – Dom Eliseu II e para LT 230kV Encruzo Novo – Santa Luzia III em janeiro de 2024. 
+• Licença Ambiental Unificada para a SE Encruzo Novo em janeiro de 2024. 
+• Licença Prévia para o seccionamento da LT 230 kV Açailândia – Miranda II em fevereiro de 2024. 
+• Licença de Instalação para a subestação SE Santa Luzia III em fevereiro de 2024. 
+• Licença de Instalação para a SE Açailândia, SE Dom Eliseu II e LT 230 kV Encruzo Novo – Santa Luzia 
+III em junho de 2024. 
+• Licença de Instalação para o seccionamento da LT 500 kV Açailândia – Miranda II na SE Santa Luzia 
+III em outubro de 2024. 
+• Licença de Instalação para a LT 230 kV Açailândia – Dom Eliseu II em novembro de 2024. 
+• Avanço físico: 85,1% em 30 de setembro de 2025. 
+Saíra 
+• Constituição da empresa Saíra Transmissora de Energia Elétrica S.A. para operar e realizar 
+revitalizações do Lote 5 do Leilão 002/2022, conforme previsto no contrato. 
+• Assinatura do contrato de concessão em 30 de março de 2023. 
+• Operação das instalações Garabi I e II e Linhas de Transmissão LT Santo Ângelo – Itá, LT Garabi 2 – 
+Santo Ângelo, e LT Garabi 1 – Fronteira com RAP habilitada (1ª fase) em operação em 31 de março de 
+2023. 
+• Empreendimento incorporado na TAESA em 29 de dezembro de 2023. 
+• Revitalizações (2ª fase) - Avanço físico: 88,8% em 30 de setembro de 2025. 
+Juruá 
+ 
+• Constituição da empresa Juruá Transmissora de Energia Elétrica S.A. para construir e operar o Lote 3 
+do Leilão 02/2024. 
+• Assinatura do contrato de concessão em 9 de dezembro de 2024. 
+• Avanço físico: 7,9% em 30 de setembro de 2025.
+
+[p. 28]
+28 
+ 
+Resultados do 
+3º trimestre de 2025 
+Reforços Novatrans 
+• Obtenção das Resoluções Autorizativas ANEEL (REA) nº 12.850/2022 e 12.823/2022, em outubro de 
+2022, para implantar reforços nas instalações de Novatrans relativo à substituição do banco de 
+capacitores na SE Imperatriz e na SE Colinas. 
+• Emissão do Termo de Liberação referente à parte das instalações da Colinas, no âmbito do reforço 
+autorizado através da REA n°12.823/2022 em novembro de 2024 
+• Emissão do Termo de Liberação referente ao banco de capacitor da SE Colinas, no âmbito do reforço 
+autorizado através da REA n°12.850/2022 em dezembro de 2024 
+• Emissão Termo de Liberação referente à parte remanescente das instalações de Imperatriz, no âmbito 
+do reforço autorizado através da REA n°12.823/2022 em fevereiro de 2025. 
+• Entrada em operação comercial total em fevereiro de 2025. 
+ 
+Reforços TSN 
+• Obtenção da Resolução Autorizativa ANEEL (REA) nº 12.267/2022 em novembro 2022, posteriormente 
+alterada via REA nº 13.194/2022, em novembro de 2022, para implantar reforço na concessão TSN 
+relativo à instalação do 3º Autotransformador 500/230 kV, 3x100 MVA e conexões na SE Bom Jesus da 
+Lapa II. 
+• Emissão do Termo de Liberação em setembro de 2025, representando 100% da RAP do 
+empreendimento. 
+• Entrada em operação comercial em setembro de 2025. 
+ 
+Reforços São Pedro 
+• Obtenção da Resolução Autorizativa ANEEL (REA) nº 14.524/2023 em abril de 2023, posteriormente 
+alterada via REA nº 15.027/2024, em janeiro de 2024, para implantar reforço na concessão São Pedro 
+relativo à instalação de seccionamento da LT 230kV Rio Grande II – Barreiras II e módulos na SE 
+Barreiras. 
+• Obtenção de Despacho ANEEL nº 677/2024, em março de 2024, para implantar reforço relativo à 
+instalação do 3º Autotransformador 230/138 kV da SE Rio Grande II. 
+• Avanço físico: (REA nº 15.027/2024): 78,3% em 30 de setembro de 2025. 
+• Avanço físico: (DSP nº 677/2024): 17,9% em 30 de setembro de 2025. 
+ 
+Reforços ATE 
+• Obtenção da Resolução Autorizativa ANEEL (REA) nº 14.819/2023, em agosto de 2023, para implantar 
+reforço na concessão ATE relativo à instalação do 2º Autotransformador 500/440 kV, 3x500 MVA e 
+conexões na SE Assis. 
+• Avanço físico: 48,9% em 30 de setembro de 2025. 
+Reforços ATE III 
+• Obtenção da Resolução Autorizativa ANEEL (REA) nº 15.196/2024, em março de 2024, para implantar 
+reforço na concessão ATE III relativo à instalação do 2º Banco de Reatores de Barra Monofásicos de 3 
+x 45,3 Mvar na SE Itacaiúnas. 
+• Avanço físico: 45,1% em 30 de setembro de 2025. 
+ 
+Reforços EATE 
+• Obtenção da Resolução Autorizativa ANEEL (REA) n° Nº 15.573, de 29 de outubro de 2024 para 
+implantar reforço na concessão EATE referente a substituição do banco de capacitor Série (CR 500 kV 
+315 Mvar Açailandia BC2 MA) e substituição do banco de capacitor série (CR 500 kV 435 Mvar 
+Açailandia BC3 MA) em SE Açailândia e substituição do banco de capacitor série (CR 500 kV 279 Mvar 
+Marabá BC3 PA) em SE Marabá.
+
+[p. 29]
+29 
+ 
+Resultados do 
+3º trimestre de 2025 
+• Avanço físico: 30,3% em 30 de setembro de 2025. 
+ 
+Reforços ENTE 
+• Obtenção da Resolução Autorizativa ANEEL (REA) n° Nº 15.573, de 29 de outubro de 2024 para 
+implantar reforço na concessão ENTE referente a substituição do banco de capacitor série (CR 500 kV 
+435 Mvar P. Dutra BC3 MA) em SE Presidente Dutra, substituição do banco de capacitor Série (CR 500 
+kV 315 Mvar Açailandia BC4 MA) em SE Açailândia e substituição do banco de capacitor Série (CR 500 
+kV 279 Mvar Marabá BC4 PA) em SE Marabá. 
+• Avanço físico: 26,2% em 30 de setembro de 2025.
+
+[p. 30]
+30 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.7. Resultado Societário (IFRS) 
+3.7.1. Receita Líquida 
+A Receita Líquida IFRS do 3T25 foi de R$ 1.180,6 MM, 19,1% maior que o 3T24, impulsionada 
+principalmente por maiores investimentos em Ananaí, Tangará, Saíra (2ª fase) e reforços de São Pedro, 
+e menor Parcela Variável. Estes efeitos foram parcialmente compensados pelos menores investimentos 
+em Pitiguari e reforços de Novatrans devido às suas entradas em operação, e menor receita de correção 
+monetária em função do menor IGP-M no período. 
+A Receita Líquida IFRS do 9M25 foi de R$ 3.425,3 MM, 30,2% maior que o registrado no 9M24. 
+Considerando o reajuste inflacionário da receita assegurado no contrato de concessão, a TAESA contabiliza 
+mensalmente a correção monetária do ativo de contrato da concessão no resultado. Dessa forma, o efeito 
+inflacionário é reconhecido mês a mês considerando-se a inflação em IGP-M ou IPCA verificada no mês anterior. 
+Os índices utilizados para a correção monetária do terceiro trimestre de 2025 foram: 
+ 
+ 
+ 
+A variação e a composição da receita líquida IFRS da TAESA refletem, principalmente, os seguintes aspectos: 
+• Operação e manutenção: O aumento de 6,8% da receita de O&M se deve, principalmente, ao reajuste 
+de 7,03% (IGP-M) do ciclo 2025-2026 para as concessões de categoria 2 e de 5,32% (IPCA) para as 
+concessões de categoria 3, conforme Resolução Homologatória nº 3.348/2025, e entrada em operação 
+dos reforços da Novatrans e de Pitiguari. 
+ 
+• Remuneração do ativo de contrato: O aumento de 3,0% se deve, principalmente, à entrada em 
+operação dos reforços da Novatrans e de Pitiguari, além do efeito da correção monetária sobre o ativo 
+de contrato que compensou a queda natural do ativo em função da amortização dos recebimentos.
+
+[p. 31]
+31 
+ 
+Resultados do 
+3º trimestre de 2025 
+• Correção monetária do ativo de contrato: A receita de correção monetária apresentou uma redução 
+de R$ 129,0 MM na comparação anual em função, principalmente, da contração do IGP-M (-2,08% no 
+3T25 vs. +1,72% no 3T24) e do IPCA (+0,39% no 3T25 vs. +0,57% no 3T24). 
+ 
+• Implementação de infraestrutura: O aumento na comparação anual de R$ 286,1 MM na receita de 
+implementação se deve, principalmente, aos maiores investimentos nos empreendimentos de Ananaí, 
+Saíra (2ª fase), Tangará, e reforços da ATE e São Pedro. Estes efeitos foram compensados 
+parcialmente pela entrega dos reforços de Novatrans e de Pitiguari. 
+ 
+• Parcela variável (PV): Idem explicação da Parcela Variável do resultado regulatório. Vide seção 3.3.1. 
+ 
+• Outras receitas operacionais: O aumento de 97,2% no 3T25 refere -se principalmente à 
+contabilização das duas RAPs parciais de Pitiguari, em decorrência da entrada em operação por fases, 
+e aumento das receitas de CDE e PROINFA na concessão GTESA. 
+ 
+• Deduções da receita bruta: Houve um aumento de 9,1% na comparação entre 3T25 versus 3T24 em 
+função do aumento do PIS/COFINS motivado pelo aumento da receita operacional bruta.
+
+[p. 32]
+32 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.7.2. Custos, Despesas, Depreciação e Amortização 
+Custos, Despesas e Depreciação e Amortização totalizaram R$ 707,2 MM no 3T25, 60,7% maior quando 
+comparado ao 3T24. 
+Custos, Despesas e Depreciação e Amortização totalizaram nos primeiros 9 meses do ano R$ 1.700,9 
+MM, 67,7% maior quando comparado ao mesmo período do ano anterior. 
+ 
+ 
+ 
+As variações nos custos IFRS foram ocasionadas principalmente pelos seguintes eventos: 
+• Pessoal: Idem explicação do custo de Pessoal do resultado regulatório. Vide seção 3.3.2. 
+ 
+• Material: 
+▪ Custo de O& M: O aumento de R $ 7,5 MM foi influenciado principalmente por maiores 
+investimentos de O&M nas concessões de Pitiguari , em função da sua energização, e na TSN, 
+Lagoa Nova, NTE, GTESA e Saíra. 
+ 
+▪ Custo de Implementação: O aumento de R$ 230,0 MM na comparação entre 3T25 e o 3T24 se 
+deve, principalmente, por m aiores investimentos em Ananaí (+R$ 185,9 MM), Saíra (+R$ 71,7 
+MM), Tangará (+R$ 69,1 MM) e nos reforços da ATE (+R$ 37,0 MM), São Pedro (+R$ 19,7 MM) 
+e ATE III (+R$ 7,3 MM) , compensados, em parte, por menores investimentos nos reforços da 
+Novatrans (-R$ 91,7 MM) e de Pitiguari (-R$ 67,5 MM) devido às suas energizações. 
+ 
+▪ Outros (materiais): Idem explicação do custo de Materiais do resultado regulatório. Vide seção 
+3.3.2. 
+ 
+• Serviços de terceiros : Idem explicação do custo de Serviços de terceiros do resultado regulatório. 
+Vide seção 3.3.2. 
+ 
+• Outros: O aumento de R$ 16,1 MM se deve principalmente ao efeito negativo de revisão da margem 
+(contrato oneroso) do empreendimento em construção de Saíra , compensado s em parte por 
+venda/regularização de ativos e menores gastos com manutenção de equipamentos, combustíveis e 
+transportes. 
+ 
+• Depreciação e amortização: O aumento de R$ 6,6 MM entre os trimestres refere-se basicamente às 
+unitizações de ativos.
+
+[p. 33]
+33 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.7.3. Resultado de Equivalência Patrimonial 
+O Resultado de Equivalência Patrimonial IFRS no 3T25 totalizou R$ 59,2 MM, 46,5% menor que o 3T24. 
+Já nos primeiros 9 meses do ano, a Equivalência Patrimonial IFRS fechou em R$ 348,2 MM, 12,9% menor 
+quando comparado ao mesmo período de 2024. 
+ 
+ 
+ 
+A redução de R$ 51,6 MM no resultado IFRS das investidas em conjunto e coligadas, na comparação entre o 
+3T25 e o 3T24, se deve principalmente a: (i) redução da receita de correção monetária em função do reajuste 
+negativo do IGP-M entre os períodos, com impac to mais relevante na TBE e ETAU, além da redução do IPCA 
+com impacto em Aimorés, Paraguaçu e Ivaí; (ii) aumento de despesas financeiras em função da alta do CDI, 
+impactando a TBE, e das captações de Aimorés e Paraguaçu emitidas em junho de 2025 ; (iii) aumento da linha 
+de materiais na TBE motivado pelos custos de implementação dos reforços em EATE e ENTE ; e (iv) 
+contabilização retroativa de IRPJ no 3T24 referente à renovação do benefício fiscal SUDAM da EATE (TBE). 
+Estes efeitos foram compensados pela (i) redução dos impostos diferidos, principalmente em Ivaí, devido ao 
+ajuste realizado no 3T24, (ii) crescimento da receita de implementação de infraestrutura motivado pelos reforços 
+da EATE e ENTE (TBE), e (iii) aumento da receita financeira pela alta do CDI. 
+ 
+3.7.4. Resultado Financeiro Líquido 
+A despesa financeira líquida IFRS totalizou R$ 227,0 MM no 3T25, 7,8% maior que o registrado no 3T24. 
+Nos primeiros nove meses do ano , a despesa financeira líquida IFRS fechou em R$ 798,4 MM, 
+apresentando um aumento de 11,6% contra 9M24. 
+ 
+ 
+ 
+Idem explicação do Resultado Financeiro Regulatório. Vide seção 3.3.6.
+
+[p. 34]
+34 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.7.5. Impostos 
+A redução de 76,9 MM do Imposto de Renda e Contribuição Social em IFRS reconhecido no resultado entre o 
+3T25 e 3T24 é explicada principalmente pela (i) redução do lucro antes dos impostos, (ii) maior dedução do Juros 
+sobre Capital Próprio (JCP) distribuído s entre os trimestres, e (iii) maior aproveitamento das empresas de lucro 
+presumido. Estes efeitos foram compensados pelo (i) aumento da receita de implementação, (ii) menor 
+aproveitamento do benefício SUDAM/ SUDENE, (iii) ajuste extemporâneo na concessão Ananaí , e (iv) pelo 
+pagamento de JCP da concessão de Janaúba.
+
+[p. 35]
+35 
+ 
+Resultados do 
+3º trimestre de 2025 
+3.7.6. Lucro Líquido 
+Lucro Líquido IFRS totalizou R$ 340,6 MM no 3T25, apresentando uma redução anual de 16,8%. Já no 
+9M25, o Lucro Líquido IFRS fechou em R$ 1.215,8 MM, 2,4% maior que o mesmo período de 2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 ,3
+34 , 
+1 , 
+ , 
+ 1, 1 ,4 , 
+ , 
+ ucro uido 3T 4 Receita de 
+Transmissão
+ Custos e 
+ espesas
+ E uival ncia 
+Patrimonial
+ Resultado 
+ in. uido
+ epreciação 
+e Amortização
+ IR CS ucro uido 3T 
+ ,8%
+ 8, 
+1.1 ,1 1. 1 , 
+ 3, 
+ , 1, 3, 14,1
+ , 
+ ucro uido 
+ M 4
+ Receita de 
+Transmissão
+ Custos e 
+ espesas
+ E uival ncia 
+Patrimonial
+ Resultado 
+ inanceiro uido
+ epreciação 
+e Amortização
+ IR CS ucro uido 
+ M 
+ 2, %
+ 28, 
+Lucro Líquido IFRS – 3T25: 
+Lucro Líquido IFRS – 9M25:
+
+[p. 36]
+36 
+ 
+Resultados do 
+3º trimestre de 2025 
+4. DEMONSTRAÇÕES FINANCEIRAS 
+4.1. Valor Residual 
+A partir do saldo atual do ativo imobilizado das concessões da TAESA, foram calculados a depreciação anual 
+média e o valor residual de cada concessão . O objetivo é dar transparência aos valores não depreciados das 
+concessões ao fim dos seus respectivos contratos. 
+Conforme as n otas explicativas das Demonstrações Contábeis Regulatórias, a depreciação é calculada pelo 
+método linear, tomando-se por base os saldos contábeis registrados conforme normas regulatórias vigentes. As 
+taxas médias anuais de depreciação são determinadas nas tabelas anexas à resolução vigente emitida pela 
+ANEEL. O valor residual é determinado a partir da parcela não amortizada de bens em serviço pela taxa de 
+depreciação regulatória e o prazo de vigência da outorga (concessão, permissão e/ou autorização), e pode 
+aumentar ou diminuir em eventuais processos de revisão das taxas de depreciação regulatória ou de novos 
+investimentos realizados na concessão. 
+Cumpre esclarecer que a regulamentação vigente é silente quanto a certas premissas que poderão ser 
+utilizadas pela ANEEL, assim n ão há como garantir que estes valores serão considerados como 
+indenização no vencimento destes contratos. O valor residual é utilizado pela Companhia como uma 
+aproximação do valor da indenização no ativo de contrato no IFRS. Pelas práticas contábeis adotadas pela 
+Companhia, os valores não são corrigidos pela inflação, isto é, eles seguem os valores históricos (sem correção 
+pela inflação). 
+Vale destacar que as tratativas para a regulamentação deste tema estão em andamento por meio da Tomada de 
+Subsídios 008/2024 que trata do processo de renovação/relicitação das concessões vincendas nos próximos 
+anos. Foram concluídas as fases na Tomada de Subsídios relativas à regulamentação técnica e metodologia da 
+indenização. A próxima etapa será a abertura da Consulta Pública pela ANEEL com a proposta de resolução 
+normativa que definirá o regramento estabelecido para este processo, cuja data de publicação está prevista para 
+o primeiro semestre de 2026 e a data de conclusão foi postergada para o segundo semestre de 2026 (Processo 
+ANEEL 48500.003729/2023-28). 
+As concessões da TAESA possuem em torno de R$ 3,2 bilhões de valor residual, sendo R$ 2,2 bilhões na TAESA 
+Consolidado e aproximadamente R$ 1 bilhão entre os grupos TBE e AIE. Vale mencionar que estes valores são 
+(i) proporcionais à participação da TAESA em cada concessão, (ii ) valores futuros no momento do vencimento 
+de cada concessão, (iii) não consideram nenhuma correção pela inflação por serem valores históricos, e (iv) não 
+consideram as concessões leiloadas a partir de 2019 , uma vez definida a regra pela ANEEL de que os 
+investimentos iniciais desses projetos devem ser necessariamente amortizados durante o prazo da concessão. 
+Segue a abertura do valor residual histórico, conforme premissas acima, por ano de vencimento:
+
+[p. 37]
+37 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.2. Movimentação do Ativo Contratual (IFRS) 
+ 
+ 
+Ativo 
+Cont. 
+2T25
+Rem. 
+do At. 
+Cont.
+Cor. 
+Mon. 
+Cont. 
+Fin.
+Rec. 
+Imple
+Rec. 
+O&M
+Outras 
+Rec. RAP
+Ativo 
+Cont.
+3T25
+
+[p. 38]
+38 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.3. DRE 3T25
+
+[p. 39]
+39 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.4. DRE 9M25
+
+[p. 40]
+40 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.5. DRE Regulatório 3T25 (Subsidiárias) 
+A diferença entre o resultado de equivalência patrimonial na TAESA e a soma do resultado da ETAU, TBE, 
+Aimorés, Paraguaçu e Ivaí se deve à amortização do ágio oriundo da alocação do preço pago pela aquisição da 
+TBE.
+
+[p. 41]
+41 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.6. DRE Regulatório 9M25 (Subsidiárias)
+
+[p. 42]
+42 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.7. DRE IFRS 3T25 (Subsidiárias)
+
+[p. 43]
+43 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.8. DRE IFRS 9M25 (Subsidiárias)
+
+[p. 44]
+44 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.9. Conciliação DRE IFRS x Regulatório
+
+[p. 45]
+45 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.10. Balanço Patrimonial
+
+[p. 46]
+46 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.11. Fluxo de Caixa Regulatório
+
+[p. 47]
+47 
+ 
+Resultados do 
+3º trimestre de 2025 
+4.12. Fluxo de Caixa IFRS
+
+[p. 48]
+48 
+ 
+Resultados do 
+3º trimestre de 2025 
+Aviso Legal 
+As demonstrações financeiras consolidadas da Companhia são elaboradas e preparadas de acordo com as 
+práticas contábeis do Manual de Contabilidade do Setor Elétrico da Agência Nacional de Energia Elétrica 
+(ANEEL) e com as Normas Internacionais de Relatório Financeiro (IFRS) emitidas pelo International Accounting 
+Standards Boa rd (IASB), definidas neste documento como Resultado Regulatório e Resultado IFRS, 
+respectivamente. A apresentação dessas informações está condizente com as normas expedidas pela Comissão 
+de Valores Mobiliários, aplicáveis à elaboração das Demonstrações Financeiras. 
+No Resultado Regulatório a seguir apresentado, preparado com base na estrutura vigente no Manual de 
+Contabilidade do Setor Elétrico, emitido pela ANEEL, todos os investimentos realizados nas construções das 
+linhas de transmissão e subestações são registrad os como ativo imobilizado e os efeitos decorrentes da 
+aplicação do CPC 47 (IFRS 15) são eliminados, incluindo os impactos fiscais (IR e CSLL diferidos e PIS e 
+COFINS diferidos) reconhecidos sobre as diferenças temporárias oriundas da aplicação dessa interp retação. 
+É importante mencionar que o Resultado Regulatório é auditado anualmente na entrega das demonstrações 
+contábeis regulatórias à ANEEL. Portanto, o prazo para conclusão da auditoria das Demonstrações Contábeis 
+Regulatórias (DCRs) se encerram em 30 de abril d e cada exercício, ou seja, assuntos relacionados 
+especificamente à contabilidade regulatória divulgados anteriormente a conclusão das DCRs são passíveis de 
+alterações. 
+Para facilitar o entendimento das informações apresentadas neste documento, os termos associados às palavras 
+Regulatório(a) e IFRS seguem os mesmos princípios e estrutura definidos acima para o Resultado Regulatório e 
+Resultado IFRS, respectivamente. 
+Em linha com as normas contábeis, a TAESA não consolida proporcionalmente as empresas controladas em 
+conjunto e coligadas. Dessa forma, os resultados da ETAU, do grupo AIE (Aimorés, Paraguaçu e Ivaí) e do grupo 
+TBE são contabilizados na linha de equivalência patrimonial tanto no Resultado IFRS quanto no Regulatório. 
+A declaração de dividendos da TAESA, para efeitos de cumprimento da legislação e do estatuto social da TAESA, 
+é feita com base no Resultado IFRS auditado pelos auditores e aprovado em Reunião do Conselho de 
+Administração e Assembleia Geral Ordinária. 
+As informações financeiras e operacionais incluídas nesta discussão de resultados são sujeitas a 
+arredondamentos e, como consequência, os valores totais apresentados nas tabelas e gráficos neste documento 
+podem diferir da agregação numérica direta dos valores que os precedem.

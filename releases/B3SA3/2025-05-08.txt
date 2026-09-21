@@ -1,0 +1,516 @@
+[p. 1]
+B3 ANUNCIA OS RESULTADOS DO PRIMEIRO TRIMESTRE DE 2025 
+ 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+São Paulo, 08 de maio de 2025 – A B3 S.A. - Brasil, Bolsa, Balcão (“B3” ou “Companhia”; B3SA3) divulga hoje os resultados do 1º trimestre de 
+2025 (1T25). A receita total atingiu R$2.657,2 milhões, alta de 7,7% em relação ao 1T24 e em linha com o 4T24. O EBITDA recor rente somou 
+R$1.660,2 milhões, avanço de 5,5% vs. 1T24 e de 3,9% contra o 4T24. O lucro líquido recorrente1 foi de R$1.128,6 milhões, em linha vs. 1T24 e 
+queda de 6,0% contra o 4T24, enquanto o lucro básico por ação apresentou alta de 24,5% vs. 1T24 e queda de 4,0% contra o 4T24. 
+MENSAGEM DA ADMINISTRAÇÃO 
+No primeiro trimestre de 2025, a receita total da B3 totalizou R$2,7 bilhões, um crescimento de 7,7% em relação ao 
+1T24. Esse resultado reforça, por mais um trimestre, a eficiência da estratégia de fortalecer o core business e ampliar 
+a presença nas adjacências, evidenciando o potencial de crescimento por meio da diversificação das receitas e do 
+avanço em novas avenidas de crescimento para a Companhia. 
+Conforme anunciado, a partir desse trimestre a Companhia passa a apresentar suas receitas seguindo uma nova 
+segmentação, alinhada tanto com o estágio atual da B3, quanto com sua estratégia de crescimento. 
+A receita do segmento Mercados totalizou R$1,8 bilhão, alta de 7,5% em relação ao 1T24, resultado dos crescimentos 
+em Derivativos, Renda Fixa e Crédito e Empréstimo de Ativos, que compensaram a queda na s receitas de Renda 
+Variável. 
+Em Derivativos, o volume médio diário negociado (ADV) totalizou 8,9 milhões de contratos, uma queda de 9,4% em 
+relação ao 1T24, enquanto a receita por contrato (RPC) cresceu 29,3% no mesmo período. Destaca -se, por mais um 
+trimestre, o volume do Futuro de Bitcoin, que apresentou um ADV de 243 mil contratos , crescimento de 17,9% vs. o 
+4T24, e receita de R$47,0 milhões. Em derivativos de balcão, houve crescimento de 18,9% no volume de emissões e 
+29,0% no estoque. 
+O mercado de Renda Fixa e Crédito continuou a ser favorecido pel o cenário das taxas de juros locais e pelo 
+desenvolvimento do mercado de crédito privado, com as emissões de instrumentos de renda fixa apresentando alta 
+de 16,1% vs. o 1T24, enquanto o estoque cresceu 23,5% na mesma comparação . No Tesouro Direto, o número de 
+investidores e o estoque avançaram 17,9% e 15,4%, respectivamente, em relação ao 1T24. 
+Em Renda Variável, o volume financeiro médio diário negociado (ADTV) do mercado à vista cresceu 1,1%, com a queda 
+no volume de ações sendo mais do que compensada pelos crescimentos de ETFs (+19,3%), BDRs ( +56,8%), e Fundos 
+Listados (+5,8%). A sustentação do ADTV total, mesmo em um cenário desfavorável para o mercado de ações, reforça 
+a importância das iniciativas da Companhia em incentivar a liquidez e oferecer cada vez mais produtos e serviços nos 
+mercados onde atua. A margem no mercado à vista apresentou redução de 0,25 bps em relação ao 1T24, em função 
+do maior volume negociado por provedores de liquidez e formadores de mercado, além do maior volume de exercício 
+de opções de índices. 
+As receitas com Soluções para Mercado de Capitais totalizaram R$156,9 milhões, um crescimento de 5,9% em relação 
+ao 1T24, explicado pela alta de 17,9% nas receitas com Dados para Mercado de Capitais. Já em Soluções Analíticas de 
+Dados, o crescimento foi de 2,4%, refletindo a alta de 13,9% nas receitas de Plataformas e Dados Analíticos, 
+parcialmente compensada pela queda nas receitas de Veículos e Imobiliário, explicada pel a base de comparação do 
+1T24, quando houve o impacto das receitas não-recorrentes do programa Desenrola nessa linha. 
+Em Tecnologia e Plataformas , as receitas apresentaram um crescimento de 16,6%, refletindo, principalmente, o 
+contínuo crescimento de clientes do serviço de utilização mensal dos sistemas de Balcão e o reajuste anual de preço 
+desse serviço. 
+As despesas, excluindo o efeito da amortização dos intangíveis reconhecidos na combinação com a Cetip, 
+apresentaram alta de 9,7%, explicada principalmente (i) pelas despesas com incentivos ligados ao Futuro de Bitcoin e 
+ao Tesouro Direto, que possuem receitas atreladas a eles, (ii) correção anual dos salários (dissídio), e (iii) por despesas 
+em processamento de dados, explicada pela busca de maior eficiência na gestão e calendarização dos projetos para o 
+exercício de 2025. 
+O lucro líquido totali zou R$1,1 bilhão, alta de 16,5% em relação ao 1T24. O lucro líquido por ação totalizou R$0,21, 
+um crescimento de 24,5% na comparação com o 1T24, refletindo os programas de recompra conduzidos pela 
+Companhia. As distribuições no trimestre totalizaram R$786,5 milhões aos acionistas, sendo R$459,0 milhões em 
+recompras e R$327,5 milhões em JCP. Adicionalmente, foi aprovado o cancelamento de 160 milhões de ações em 
+mar/25, cerca de 3% do capital social da Companhia. 
+Na agenda de novos produtos, a B3 anunciou três iniciativas para fortalecer o mercado de opções de índices, sendo 
+elas: (i) lançamento das Opções Semanais de Ibovespa, oferecendo mais flexibilidade aos clientes e potencializando a 
+liquidez do mercado, (ii) redução do tamanho das Opçõ es Mensais de Ibovespa, de R$5 mil para R$50, facilitando a 
+atração de novos investidores, e (iii) negociação das opções de índices (Ibovespa, IBrX -50 e Small Cap) nos dias de 
+vencimento, visando aprimorar a eficiência operacional e a eficácia das estratég ias de hedge. Com o contínuo 
+desenvolvimento do mercado de renda fixa local, a B3 também lançou os índices Debêntures Ultra Qualidade DI e 
+IPCA, que buscam representar o desempenho médio das debêntures com remunerações compostas pelo DI e IPCA, 
+respectivamente, acrescidas de um spread. 
+Por fim, foram aprovadas as incorporações da Neoway e Neurotech, adquiridas em 2021 e 2023, respectivamente, em 
+Assembleia Geral Extraordinária realizada em março . A incorporação, além de otimizar e simplificar a estrutura da 
+Companhia, também permite o aproveitamento do benefício fiscal gerado pelo ágio e ativos intangíveis reconhecidos 
+nessas aquisições. As incorporações têm efeito a partir de 1º de abril de 2025. 
+ 
+1 Ver reconciliação na página 6. 
+2 Despesas ajustadas por: i) depreciação e amortização; (ii) programa de incentivo de longo prazo baseado em ações – principal e encargos; (iii) provisões; (iv ) despesas atreladas ao faturamento; e (v) 
+outras despesas extraordinárias. 
+(Em R$ milhões, exceto LPA) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Receita total 2.657,2 2.466,3 7,7% 2.667,8 -0,4% 
+Receita líquida 2.388,0 2.221,3 7,5% 2.399,2 -0,5% 
+Despesas (828,5) (927,1) -10,6% (908,2) -8,8% 
+Resultado financeiro 15,6 45,4 -65,6% (2,1) - 
+Lucro líquido 1.106,1 949,6 16,5% 1.178,5 -6,1% 
+Lucro por ação básico 0,21 0,17 24,5% 0,22 -4,0% 
+Despesas ajustadas2 (547,0) (503,9) 8,5% (597,0) -8,4% 
+EBITDA recorrente 1.660,2 1.573,5 5,5% 1.597,6 3,9% 
+Margem EBITDA recorrente 69,5% 71,3% -176 bps 67,2% 228 bps 
+Lucro líquido recorrente 1.128,6 1.130,2 -0,1% 1.201,0 -6,0% 
+ 
+ 
+ 
+ 
+ 
+1T25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TELECONFERÊNCIA (Inglês) 
+09/05 
+10:00h (BRT) / 09:00h (NYC) 
+Brasil: +55 (11) 4680-6788 
+ +55 (11) 4700-9668 
+Toll Free: +1 888 788 0099 
+Dial-In: +1 360 209 5623 
+Webinar ID: 829 3192 4413 
+Senha: 196997 
+ 
+Webcast: clique aqui 
+ 
+ 
+TELECONFERÊNCIA (Português) 
+09/05 
+11:00h (BRT) / 10:00h (NYC) 
+Brasil: +55 (11) 4680-6788 
+ +55 (11) 4700-9668 
+Toll Free: +1 888 788 0099 
+Dial-In: +1 360 209 5623 
+Webinar ID: 832 0237 0868 
+Senha: 165591 
+ 
+Webcast: clique aqui
+
+[p. 2]
+2 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+DESEMPENHO OPERACIONAL E RECEITAS 
+As comparações neste documento são em relação ao primeiro trimestre de 2024 (1T24), exceto quando indicado de outra forma. 
+Receita Bruta por Segmento 
+ (Em R$ milhões) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+ 
+Mercados 1.782,3 1.657,8 7,5% 1.792,8 -0,6% 
+Derivativos 880,9 801,3 9,9% 921,9 -4,4% 
+Renda Variável 510,8 549,6 -7,1% 526,5 -3,0% 
+Renda Fixa e Crédito 315,4 259,2 21,7% 283,5 11,3% 
+Empréstimo de Ativos 75,2 47,7 57,5% 60,9 23,4% 
+Soluções para Mercado de Capitais 156,9 148,1 5,9% 153,1 2,5% 
+Dados para Mercado de Capitais 81,2 68,9 17,9% 71,5 13,6% 
+Depositária para Mercado à Vista 47,2 46,0 2,5% 48,6 -3,0% 
+Listagem e Soluções para Emissores 28,5 33,2 -14,1% 33,0 -13,5% 
+Soluções Analíticas de Dados 258,4 252,4 2,4% 263,7 -2,0% 
+Veículos e Imobiliário 129,0 138,8 -7,1% 133,1 -3,1% 
+Plataformas e Dados Analíticos 129,4 113,6 13,9% 130,6 -0,9% 
+Tecnologia e Plataformas 459,5 394,0 16,6% 434,4 5,8% 
+Tecnologia 307,3 282,0 9,0% 295,7 3,9% 
+Serviços de Apoio ao Mercado 129,1 90,9 42,1% 117,4 10,0% 
+Outros 23,1 21,2 8,9% 21,4 8,1% 
+Receita Total 2.657,2 2.466,3 7,7% 2.667,8 -0,4% 
+Receita líquida 
+A receita líquida totalizou R$2.388,0 milhões, 7,5% acima do 1T24. 
+Desempenho por Segmento 
+Mercados 
+Derivativos 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Taxas de juros em R$ ADV (milhares de contratos) 4.782 5.523 -13,4% 4.548 5,1% 
+RPC média (R$) 0,802 0,691 16,2% 0,796 0,8% 
+Índices de ações ADV (milhares de contratos) 2.625 3.177 -17,3% 3.204 -18,1% 
+RPC média (R$) 0,971 0,957 1,5% 0,960 1,2% 
+Taxas de câmbio ADV (milhares de contratos) 914 849 7,7% 1.032 -11,4% 
+RPC média (R$) 5,919 4,790 23,6% 5,762 2,7% 
+Taxas de juros em USD ADV (milhares de contratos) 351 304 15,4% 326 7,6% 
+RPC média (R$) 2,701 2,054 31,5% 2,753 -1,9% 
+Futuro de Criptoativos ADV (milhares de contratos) 243 - - 206 17,9% 
+RPC média (R$) 3,169 - - 3,401 -6,8% 
+Commodities ADV (milhares de contratos) 29 25 14,6% 30 -3,3% 
+RPC média (R$) 1,741 1,678 3,8% 2,122 -18,0% 
+Geral ADV total (milhares de contratos) 8.945 9.878 -9,4% 9.347 -4,3% 
+RPC média (R$) 1,517 1,173 29,3% 1,531 -0,9% 
+Derivativos de Balcão 
+Emissões (total em R$ bilhões) 3.982 3.349 18,9% 4.439 -10,3% 
+Preço (bps) 0,028 0,031 -0,003 bps 0,029 -0,032 bps 
+Estoque (média em R$ bilhões) 7.893 6.121 29,0% 7.981 -1,1% 
+Preço (bps) 0,021 0,024 -0,003 bps 0,020 -0,023 bps 
+Nota: ADV (Average Daily Volume) significa volume médio diário; RPC (Revenue per Contract) significa receita por contrato; e bps (basis point) significa pontos base. 
+O ADV totalizou 8,9 milhões de contratos, queda de 9,4%, explicad a pelas quedas de 13,4% nos volumes de Juros em R$ e de 17,3% em 
+Índices de Ações, parcialmente compensadas pelos crescimentos de 7,7% em Câmbio e pela inclusão do Futuro de Bitcoin, que apresentou 
+ADV de 243 mil contratos e ficou 17,9% acima do 4T24. No caso de Juros em R$, a queda é explicada por um volume 63,3% menor e m 
+Opções de IDI, que foi parcialmente compensada por um volume 18,4% maior em Futuro de DI, principalmente nos contratos de longo 
+prazo. Em Índices de Ações, a queda do ADV, tanto em relação ao 1T24 quanto ao 4T24, é explicada pela menor negociação de 
+minicontratos de Ibovespa, resultado do cenário mais desafiador para renda variável no período. 
+A RPC média cresceu 29, 3% contra o 1T24, principalmente pelas altas de 23,6% nas RPCs de Câmbio e de 31,5% de Juros em USD, 
+explicadas pela valorização do USD em relação ao R$. Em Juros em R$, a alta de 16,2% na RPC é explicada pela queda no volume de 
+Opções de IDI, produto com foco em prazos mais curtos, e aumento de contratos com prazos mais longos em Futuros de DI. 
+Adicionalmente, destaca-se a inclusão do Futuro de Bitcoin no portfólio de produtos, com impacto positivo na RPC geral.
+
+[p. 3]
+3 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+Em derivativos de balcão e operações estruturadas, as emissões apresentaram aumento de 18,9%, influenciado principalmente pelo 
+aumento de 50,4% nas emissões de Swaps e de 13,6% em Termo. Na mesma comparação, o estoque médio apresentou crescimento de 
+29,0%. 
+Vale notar que as receitas desse segmento são impactadas pelo hedge accounting de fluxo de caixa constituído na emissão do bond em 
+set/21, em que o bond é o instrumento de hedge e as receitas futuras altamente prováveis em dólar (relacionadas principalmente aos 
+contratos de derivativos listados de Taxas de câmbio em USD e Taxas de juros em USD) são os objetos de hedge. Em virtude disso, os 
+efeitos da variação cambial sobre o bond são registrados no Patrimônio Líquido e reconhecidos na demonstração de resultados à medida 
+que houver a realização das receitas. No 1T25, o impacto líquido dessa estrutura na receita de derivativos foi negativo em R$21,8 milhões, 
+dada a variação cambial no período. 
+Renda Variável 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+ADTV (R$ milhões) 
+Ações 20.400 20.812 -2,0% 21.762 -6,3% 
+ETFs 2.271 1.904 19,3% 2.524 -10,0% 
+BDRs 758 484 56,8% 822 -7,8% 
+Fundos Listados 405 382 5,8% 483 -16,3% 
+Ações à Vista - Total 23.834 23.582 1,1% 25.592 -6,9% 
+Margem (bps) 3,133 3,383 -0,250 bps 3,082 0,050 bps 
+Capitaliz. de mercado média (R$ bilhões) 4.217 4.631 -8,9% 4.424 -4,7% 
+Giro de mercado Anualizado (%) 141,3% 127,8% 1.347 bps 145,2% -389 bps 
+Opções sobre ações e índices ADTV (R$ milhões) 674 711 -5,2% 707 -4,7% 
+Margem (bps) 11,867 12,171 -0,304 bps 11,463 0,403 bps 
+Termo & Futuro de ações ADTV (R$ milhões) 253 306 -17,3% 281 -10,1% 
+Margem (bps) 4,564 5,482 -0,918 bps 5,037 -0,473 bps 
+Número de pregões 61 61 - 61 - 
+Nota: ADTV (Average Daily Traded Volume) significa volume financeiro médio diário negociado; e bps ( basis point) significa pontos base. 
+No mercado de ações à vista, o ADTV apresentou alta de 1,1%, influenciado pelos crescimentos de 19,3%, 56,8% e 5,8% nos volumes de 
+ETFs, BDRs e Fundos Listados, respectivamente, que possuem dinâmicas distintas em relação ao mercado de ações e representaram 
+14,4% do volume total (vs. 11,7% no 1T24). 
+A margem de negociação e pós -negociação no mercado à vista de ações foi de 3, 133 bps, queda de 0, 250 bps em relação ao 1T24, 
+explicada principalmente (i) por maiores volumes negociados por meio de programas de formadores de mercado e provedores de 
+liquidez, que possuem tarifação diferenciada, e (ii) pelo maior volume de exercício de opções de índices no trimestre, onde parte do 
+volume gerado nas operações não é tarifado. 
+Renda Fixa e Crédito 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Emissões Captação bancária (total em R$ bilhões) 4.342 3.767 15,3% 4.665 -6,9% 
+Outros (total em R$ bilhões) 429 342 25,4% 612 -29,9% 
+Estoque 
+Captação bancária (média em R$ bilhões) 3.837 3.063 25,3% 3.782 1,5% 
+Dívida corporativa (média em R$ bilhões) 1.245 987 26,1% 1.184 5,1% 
+Outros (média em R$ bilhões) 2.619 2.185 19,9% 2.581 1,5% 
+Tesouro Direto Número de investidores (média em milhares) 2.995 2.539 17,9% 2.830 5,8% 
+Estoque (média em R$ bilhões) 149 129 15,4% 140 6,2% 
+Nota: “Captação bancária” inclui DI, CDB, Letras Financeiras e outros instrumentos como RDB, LC, DPGE. 
+“Outros” inclui instrumentos do mercado imobiliário (LCI, CCI, CRI e LH), do agronegócio (CRA, LCA, CDCA, CLCA e CTRA) e capt ação de crédito (CCB, CCCB, NCE, CCE, Export Notes, NC). 
+O volume de novas emissões de instrumentos de captação bancária cresceu 15,3%, principalmente em função do crescimento nas 
+emissões de CDBs, que representaram 76 ,2% das emissões de instrumentos de captação bancária no período. Em outros produtos, 
+destaque para os crescimentos de 51% e 15% na emissão de LCIs e LCAs no período. 
+Em relação ao estoque médio de instrumentos de captação bancária, o crescimento foi de 25,3%, enquanto o volume de estoque de 
+dívida corporativa teve alta de 26,1%. Vale destacar também o crescimento de 19,9% no estoque de “Outros” produtos, com destaque 
+para a alta nos volumes de CCB (+259%) e CPR (+40%). 
+Outro destaque do mercado de renda fixa foi o contínuo crescimento do Tesouro Direto (TD), cujo número de investidores e o es toque 
+médio cresceram 17,9% e 15,4%, respectivamente. A B3 oferece um programa de incentivo para as corretoras expandirem a base de 
+investidores nesse produto, o qual é revisado anualmente. 
+Por fim, a receita com distribuição de debêntures apresentou aumento de 40,2% no período e totalizou R$17,6 milhões, refletindo o 
+cenário positivo para o mercado de dívida corporativa no Brasil e o papel da B3 nesse mercado. 
+Empréstimo de Ativos 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Empréstimo de títulos Pos. em aberto média (R$ bilhões) 154 136 12,7% 143 7,3% 
+Taxa Doador Média (% a.a.) 1,593% 0,842% 75 bps 1,274% 32 bps
+
+[p. 4]
+4 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+A posição em aberto média apresentou crescimento de 12,7% e a taxa doador média apresentou aumento de 75 bps , influenciadas por 
+uma maior volatilidade no período. 
+Soluções para Mercado de Capitais 
+Dados para Mercado de Capitais 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Market data # médio de clientes 157 161 -2,3% 160 -1,9% 
+Receita de R$81,2 milhões (3,1% do total), aumento de 17,9%, explicada principalmente pela valorização do USD frente ao R$, uma vez 
+que aproximadamente 55% do total dessas receitas é referenciado em dólar. 
+Depositária para Mercado à Vista 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Nº de investidores (CPFs Individuais) Média (milhares) 5.281 5.064 4,3% 5.246 0,7% 
+Nº de contas na depositária (total) 6.072 5.901 2,9% 6.057 0,3% 
+O número médio de investidores cresceu 4,3%, resultado da contínua busca dos investidores individuais por diversificação de portfólio e 
+maior oferta de produtos por parte da B3. A participação média dos investidores individuais no volume negociado de BDRs foi d e 23,1% 
+(vs. 18,9% no 1T24), enquanto no volume negociado de ações, a participação foi de 10,6% (vs. 12,8% no 1T24). 
+As receitas somaram R$47,2 milhões (1,8% do total), alta de 2,5%, explicada pelo reajuste por inflação das tarifas da Central Depositária3, 
+que entraram em vigor no início de 2025, parcialmente impactada por um menor saldo médio na depositária. 
+Listagem e Soluções para Emissores 
+As receitas totalizaram R$28,5 milhões (1,1% do total), queda de 14,1%, explicada principalmente pelo menor volume de ofertas públicas 
+no período, tanto em relação ao 1T24 quanto ao 4T24. 
+ 
+Soluções Analíticas de Dados 
+Veículos e Imobiliário 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+SNG 
+# de veículos vendidos (milhares) 4.788 4.522 5,9% 5.491 -12,8% 
+# de veículos financiados (milhares) 1.678 1.659 1,1% 1.890 -11,2% 
+% Veículos financiados / veículos vendidos 35,0% 36,7% -1,7 p.p. 34,4% 0,6 p.p. 
+No 1T25, o número de veículos vendidos no Brasil aumentou 5,9%, enquanto o número de financiamentos cresceu 1,1%. Já o percentual 
+de veículos financiados alcançou 35,0% dos veículos vendidos, queda de 1,7 p.p. 
+Apesar disso, as receitas do trimestre ficaram em R$129,0 milhões (4,9% do total), explicada pela base de comparação do 1T24, quando 
+houve o impacto das receitas não -recorrentes do programa Desenrola nessa linha. Excluindo o Desenrola, as receitas teriam crescido 
+14,0% contra o 1T24. 
+Plataformas e Dados Analíticos 
+A receita foi de R$129,4 milhões (4,9% do total), alta de 13,9%, explicada principalmente pelo crescimento de receitas em soluções para 
+as verticais de Crédito e Seguros. 
+Tecnologia e Plataformas 
+Tecnologia 
+ 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Utilização Balcão # médio de clientes 22.593 21.179 6,7% 22.214 1,7% 
+Co-location 96 93 4,0% 94 2,1% 
+A quantidade média de clientes do serviço de utilização mensal dos sistemas de Balcão aumentou 6,7%, resultado do crescimento da 
+indústria de fundos no Brasil. 
+As receitas de tecnologia totalizaram R$307,3 milhões (11,6% do total), alta de 9,0%, refletindo tanto o aumento do número de clientes 
+do segmento Balcão, quanto correções anuais de preços pela inflação na linha de Utilização Mensal e em produtos de tecnologia, como 
+o co-location. 
+Serviços de Apoio ao Mercado 
+Receitas de R$129,1 milhões (4,9% do total), alta de 42,1%, explicada pelo (i) aumento de 37,6% no estoque médio de cotas de fundos e 
+(ii) maior receita com floating do Banco B3. 
+ 
+ 
+3 Para mais informações, acesse o Ofício Circular de 26/12/2024.
+
+[p. 5]
+5 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+Outros 
+Receitas de R$23,1 milhões (0,9% do total), alta de 8,9%, refletindo, principalmente, maiores receitas com multas e leilões. 
+DESPESAS 
+As despesas somaram R$828,5 milhões, queda de 10,6%, devido principalmente ao término da amortização dos intangíveis reconhecidos 
+na combinação com a Cetip. Excluindo esse efeito, as despesas teriam apresentado alta de 9,7%. 
+▪ Pessoal e encargos: R$379,2 milhões, alta de 6,3%, refletindo (i) a correção anual dos salários (dissídio), com impactos colaterais em 
+provisões e benefícios, e (ii) o reajuste dos planos de assistência médica em abr/24, que sofreram correção bem acima da inflação. 
+▪ Processamento de dados: R$159,6 milhões, alta de 9,4%, explicada, principalmente pela (i) otimização da gestão de projetos da 
+Companhia para o exercício, buscando reduzir a concentração das entregas no segundo semestre; (ii) intensificação do uso de 
+tecnologia em nuvem, e (iii) reajuste de contratos recorrentes de tecnologia. 
+▪ Depreciação e amortização: R$97,5 milhões, queda de 6 5,2%, explicada pelo término da amortização do s intangíveis reconhecidos 
+na combinação com a Cetip. 
+▪ Atreladas ao faturamento: R$101,5 milhões, alta de 48,0%, reflexo principalmente dos incentivos relativos ao Futuro de Bitcoin, 
+lançado em abr/24 e que totalizaram R$14,4 milhões no 1T25, e ao Tesouro Direto. 
+▪ Serviços de terceiros: R$27,2 milhões, alta de 30,7%, explicada principalmente por maiores despesas com consultorias estratégicas. 
+▪ Diversas: R$39,8 milhões, alta de 13,4%, explicada por (i) provisões relacionadas a disputas judiciais, para as quais parte do valor em 
+discussão é atualizado de acordo com o preço de B3SA3, e (ii) reconhecimento de provisões para créditos de liquidação duvidosa. 
+As tabelas abaixo mostram a composição e evolução das despesas ajustadas no trimestre. 
+Reconciliação das despesas ajustadas 
+(Em R$ milhões) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Ajustes nas despesas: 
+(+) Depreciação e amortização 97,5 279,9 -65,2% 103,3 -5,6% 
+(+) Programa de incentivo de longo prazo baseado em ações 51,5 51,8 -0,6% 54,5 -5,6% 
+(+) Despesas extraordinárias com rescisões contratuais - - - 25,6 - 
+(+) Provisões (recorrentes e não-recorrentes) 27,8 9,6 188,6% 28,9 -3,8% 
+(+) Despesas atreladas ao faturamento 101,5 68,6 48,0% 97,6 4,0% 
+(+) Outras despesas não-recorrentes 3,2 13,2 -76,1% 1,2 166,7% 
+Despesas ajustadas (547,0) (503,9) 8,5% (597,0) -8,4% 
+Pessoal e encargos (327,7) (305,0) 7,4% (326,9) 0,2% 
+Processamento de dados (159,6) (145,9) 9,4% (177,0) -9,8% 
+Serviços de terceiros (24,0) (7,6) 217,1% (39,4) -39,1% 
+Despesas diversas (11,9) (25,4) -53,0% (15,0) -20,7% 
+Demais (23,7) (20,1) 18,2% (38,7) -38,6% 
+EBITDA 
+O EBITDA recorrente totalizou R$1.657,0 milhões, alta de 5,3%. A margem EBITDA recorrente foi de 69,5%, queda de 176 bps. Em relação 
+ao 4T24, houve alta de 3,9%, com avanço de 228 bps na margem. 
+ 
+(Em R$ milhões) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+EBITDA 1.657,0 1.574,2 5,3% 1.594,3 3,9% 
+(+) Despesas extraordinárias com rescisões contratuais - - - 25,6 - 
+(+) Outras despesas não recorrentes 3,2 13,2 -76,1% 1,2 166,7% 
+(+) Reversão de provisões - (13,9) - (23,4) - 
+EBITDA recorrente 1.660,2 1.573,5 5,5% 1.597,6 3,9% 
+Margem EBITDA recorrente 69,5% 71,3% -176 bps 67,2% 228 bps 
+ 
+RESULTADO FINANCEIRO 
+O resultado financeiro foi positivo em R$ 15,6 milhões no 1T25. As receitas financeiras atingiram R$ 439,3 milhões, queda de 1,1%, 
+explicada por um saldo médio de caixa menor no período, parcialmente compensada por um maior CDI médio no período. Ainda, no 
+1T24, a receita financeira foi impactada positivamente por recompras do Bond 2031, que não ocorreram no 1T25. 
+As despesas financeiras apresentaram um a alta de 17,4%, explicada (i) pelo maior saldo devedor do período, por sua vez influenciada 
+pela 9ª emissão de debêntures concluída em jan/25, (ii) um maior CDI médio no período, (iii) pela marcação a valor justo de investimentos 
+no exterior realizados pela Companhia via B3 Inova , e (iv) pelo maior impacto da cessão de usufruto para a BSM e Associação BM&F, 
+ocasionados pelo vencimento de títulos caracterizados para essa finalidade.
+
+[p. 6]
+6 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+(Em R$ milhões) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Resultado financeiro 15,6 45,4 -65,6% (2,1) - 
+Receitas financeiras 439,3 444,4 -1,1% 388,8 13,0% 
+Despesas financeiras (458,3) (390,3) 17,4% (339,3) 35,1% 
+Variações cambiais líquidas 34,6 (8,7) - (51,5) - 
+Além disso, é importante notar que o resultado financeiro também foi impactado pelos efeitos da variação cambial sobre os empréstimos 
+em moeda estrangeira e sobre os investimentos no exterior que a Companhia possui, sendo este impacto neutralizado pela variaç ão na 
+linha de imposto de renda e contribuição social (estrut ura de hedge). A tabela abaixo isola esses efeitos, tanto do resultado financeiro 
+quanto do imposto de renda e contribuição social. 
+(Em R$ milhões) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Resultado financeiro 15,6 45,4 -65,6% (2,1) - 
+(+/-) Efeitos do hedge sobre resultado financeiro (51,7) 14,1 - 85,5 - 
+Resultado financeiro ajustado (Excluindo efeitos do hedge) (36,1) 59,4 - 83,4 - 
+Resultado antes da tributação sobre o lucro 1.574,8 1.269,0 24,1% 1.487,8 5,9% 
+(+/-) Efeitos do hedge sobre resultado financeiro (51,7) 14,1 - 85,5 - 
+Resultado antes da tributação sobre o lucro ajustado (Excluindo efeitos do 
+hedge) - (A) 1.523,1 1.283,1 18,7% 1.573,3 -3,2% 
+Imposto de renda e contribuição social (468,7) (319,5) 46,7% (309,2) 51,6% 
+(+/-) Efeitos do hedge sobre imposto de renda e contribuição social 51,7 (14,1) - (85,5) - 
+Imposto de renda e contribuição social ajustado (Excluindo efeitos do hedge) - 
+(B) (417,0) (333,5) 25,0% (394,8) 5,6% 
+Alíquota Efetiva sobre Lucro Antes de IR e CS Ajustado (excluindo efeitos do 
+hedge) - (B) / (A) 27,4% 26,0% +138 bps 25,1% +229 bps 
+IMPOSTO DE RENDA E CONTRIBUIÇÃO SOCIAL 
+A linha de imposto de renda e contribuição social totalizou R$468,7 milhões no 1T25, e foi impactada pela distribuição de juros sobre o 
+capital próprio (JCP) no montante de R$ 327,5 milhões. O imposto corrente atingiu R$364,9 milhões, enquanto a linha de imposto de 
+renda e contribuição social diferidos foi negativa em R$103,7 milhões. Além disso, a linha de imposto de renda e contribuição social 
+também foi impactada pela estrutura de hedge, conforme explicado anteriormente. 
+LUCRO LÍQUIDO 
+O lucro líquido atribuído aos acionistas da B3 atingiu R$1.106,1 milhões, alta de 16,5% em relação ao 1T24. O lucro por ação foi de R$0,21, 
+uma alta de 24,5% no período, refletindo a execução dos programas de recompra pela Companhia. 
+(Em R$ milhões, exceto LPA) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Lucro líquido (atribuídos aos acionistas) 1.106,1 949,6 16,5% 1.178,5 -6,1% 
+Lucro por ação (LPA) 0,21 0,17 24,5% 0,22 -4,0% 
+Excluindo os itens não -recorrentes destacados abaixo, o lucro líquido teria atingido R$1.128,6 milhões no trimestre, estável em relação 
+ao 1T24. 
+Ajustes no lucro líquido 
+(Em R$ milhões) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Lucro líquido (atribuídos aos acionistas) 1.106,1 949,6 16,5% 1.178,5 -6,1% 
+(+) Reversão de provisões - (13,9) - (23,4) - 
+(+) Impairment - 67,6 - - - 
+(+) Despesas extraordinárias com rescisões contratuais - - - 25,6 - 
+(+) Outras despesas não-recorrentes 3,2 13,2 -76,1% 1,2 166,7% 
+(+) Impactos fiscais de itens não recorrentes (1,1) (22,8) -95,3% (1,1) -3,9% 
+(+) Amortização de intangível 20,4 136,5 -85,1% 20,4 0,0% 
+Lucro líquido recorrente 1.128,6 1.130,2 -0,1% 1.201,0 -6,0% 
+Nota: amortização de intangível líquido de impostos, calculado a uma alíquota de 34% aplicada na parcela dedutível, e inclui Neoway, Neurotech, PDTec e outras controladas. 
+PRINCIPAIS ITENS DO BALANÇO PATRIMONIAL CONSOLIDADO EM 31/03/2025 
+Contas do Ativo, Passivo e Patrimônio Líquido 
+A Companhia encerrou o 1T25 com ativos totais de R$4 6,3 bilhões, 2,4% acima de dez/24. As linhas de Disponibilidades e Aplicações 
+financeiras (circulante e não -circulante) totalizaram R$1 7,1 bilhões, aumento de 8,6%, explicada principalmente pel a 9ª emissão de 
+debêntures no montante de R$1,7 bilhão concluída em jan/25, mais do que compensando a queda no volume de garantias depositadas 
+em dinheiro (contrapartida no passivo circulante). 
+Ao final do 1T25, a B3 possuía endividamento bruto de R$14,9 bilhões (89% de longo prazo e 11% de curto prazo), correspondente a 2,2x 
+o EBITDA recorrente dos últimos 12 meses.
+
+[p. 7]
+7 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+OUTRAS INFORMAÇÕES FINANCEIRAS 
+CAPEX 
+Durante o trimestre, foram realizados investimentos de R$31,7 milhões voltados para atualizações tecnológicas em todos os seg mentos 
+de negócios da B3, que incluem investimentos em capacidade, segurança e desenvolvimento de novas funcionalidades e produtos. 
+Distribuições aos acionistas 
+Em 20 de março de 2025, o Conselho de Administração deliberou o pagamento de juros sobre o capital próprio, no montante de R$327,5 
+milhões, realizado em 7 de abril de 2025. No trimestre, foram efetuadas recompras de ações no âmbito do Programa de Recompra de 
+2025 no valor total de R$459,0 milhões, que, somados ao JCP, totalizaram R$786,5 milhões retornados aos acionistas no período. 
+SUSTENTABILIDADE 
+Durante o 1T25, os destaques em relação à agenda de sustentabilidade da B3 foram: 
+▪ Entrada da B3 no Dow Jones Sustainability Index Emerging Markets – Criado pela S&P Global, é uma família de índices que seleciona 
+empresas a partir de critérios de risco e práticas ESG, avaliadas através do Corporate Sustainability Assessment. Em 2025, a B3 fará 
+parte da carteira do índice pela primeira vez. 
+▪ Aumento da pontuação de A para AA na MSCI – A classificação não apenas nos posiciona entre as melhores da indústria, como 
+também reflete o compromisso da Companhia com as melhores práticas ESG.
+
+[p. 8]
+8 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+DEMONSTRAÇÃO DE RESULTADO CONSOLIDADA 
+(Em R$ milhares) 1T25 1T24 1T25/1T24 4T24 1T25/4T24 
+Receita total 2.657.156 2.466.317 7,7% 2.667.798 -0,4% 
+Mercados 1.782.314 1.657.762 7,5% 1.792.807 -0,6% 
+Derivativos 880.943 801.263 9,9% 921.904 -4,4% 
+Renda Variável 510.767 549.579 -7,1% 526.469 -3,0% 
+Renda Fixa e Crédito 315.448 259.193 21,7% 283.529 11,3% 
+Empréstimo de Ativos 75.156 47.727 57,5% 60.905 23,4% 
+Soluções para Mercado de Capitais 156.928 148.122 5,9% 153.124 2,5% 
+Dados para Mercado de Capitais 81.238 68.901 17,9% 71.531 13,6% 
+Depositária para Mercado à Vista 47.168 46.011 2,5% 48.635 -3,0% 
+Listagem e Soluções para Emissores 28.522 33.210 -14,1% 32.958 -13,5% 
+Soluções Analíticas de Dados 258.392 252.422 2,4% 263.701 -2,0% 
+Veículos e Imobiliário 128.961 138.835 -7,1% 133.088 -3,1% 
+Plataformas e Dados Analíticos 129.431 113.587 13,9% 130.613 -0,9% 
+Tecnologia e Plataformas 459.516 394.034 16,6% 434.449 5,8% 
+Tecnologia 307.324 281.951 9,0% 295.719 3,9% 
+Serviços de Apoio ao Mercado 129.078 90.867 42,1% 117.357 10,0% 
+Outros 23.114 21.216 8,9% 21.373 8,1% 
+Reversão de provisões e recuperação de despesas 6 13.977 -100,0% 23.717 -100,0% 
+Deduções da receita (269.202) (244.989) 9,9% (268.587) 0,2% 
+PIS e Cofins (218.990) (200.779) 9,1% (217.571) 0,7% 
+Impostos sobre serviços (50.212) (44.210) 13,6% (51.016) -1,6% 
+Receita líquida 2.387.954 2.221.328 7,5% 2.399.210 -0,5% 
+Despesas (828.481) (927.082) -10,6% (908.189) -8,8% 
+Pessoal e encargos (379.182) (356.780) 6,3% (406.999) -6,8% 
+Processamento de dados (159.580) (145.850) 9,4% (176.982) -9,8% 
+Depreciação e amortização (97.527) (279.908) -65,2% (103.295) -5,6% 
+Atrelada ao faturamento (101.495) (68.595) 48,0% (97.623) 4,0% 
+Serviços de terceiros (27.182) (20.796) 30,7% (40.633) -33,1% 
+Manutenção em geral (7.561) (6.932) 9,1% (9.550) -20,8% 
+Promoção e divulgação (8.007) (5.698) 40,5% (20.575) -61,1% 
+Impostos e taxas (3.903) (3.266) 19,5% (4.248) -8,1% 
+Honorários do conselho/comitês (4.261) (4.188) 1,7% (4.288) -0,6% 
+Diversas (39.783) (35.069) 13,4% (43.996) -9,6% 
+Resultado operacional 1.559.473 1.294.246 20,5% 1.491.021 4,6% 
+Margem operacional 65,3% 58,3% 704 bps 62,1% 316 bps 
+Redução ao valor recuperável de ativos (impairment) - (67.595) - - - 
+Resultado de equivalência patrimonial (246) (2.995) -91,8% (1.158) -78,8% 
+Resultado financeiro 15.617 45.374 -65,6% (2.085) - 
+Receitas financeiras 439.259 444.354 -1,1% 388.768 13,0% 
+Despesas financeiras (458.271) (390.293) 17,4% (339.325) 35,1% 
+Variações cambiais líquidas 34.629 (8.687) - (51.528) - 
+Resultado antes da tributação sobre o lucro 1.574.844 1.269.030 24,1% 1.487.778 5,9% 
+Imposto de renda e contribuição social (468.721) (319.461) 46,7% (309.232) 51,6% 
+Corrente (364.981) (345.710) 5,6% (424.936) -14,1% 
+Diferido (103.740) 26.249 - 115.704 - 
+Lucro líquido do período 1.106.123 949.569 16,5% 1.178.546 -6,1% 
+Margem Líquida 46,3% 42,7% 357 bps 49,1% -280 bps 
+ 
+Atribuídos aos: 
+Acionistas da B3 1.106.077 949.583 16,5% 1.178.456 -6,1% 
+Margem líquida 46,3% 42,7% 357 bps 49,1% -280 bps 
+Acionistas não-controladores 46 (14) -428,6% 90 -48,9%
+
+[p. 9]
+9 
+ INFORMAÇÃO PÚBLICA – PUBLIC INFORMATION 
+RESUMO DO BALANÇO PATRIMONIAL CONSOLIDADO 
+(R$ milhares) 
+Ativo 31/03/2025 31/12/2024 Passivo e Patrimônio Líquido 31/03/2025 31/12/2024 
+Circulante 16.101.848 15.172.534 Circulante 7.569.882 9.159.685 
+Disponibilidades 1.347.701 1.636.275 Garantias recebidas em operações 3.278.425 3.829.401 
+Aplicações financeiras 13.131.025 11.662.277 Instrumentos financeiros derivativos 14.186 124.871 
+Outros 1.623.122 1.873.982 Empréstimos e debêntures 1.612.910 1.947.492 
+Não circulante de longo prazo 14.434 14.878 Outros 2.664.361 3.257.921 
+Não circulante 30.175.747 30.041.438 Não circulante 19.914.851 17.685.711 
+Realizável a longo prazo 3.088.868 2.890.186 Empréstimos e debêntures 13.268.865 11.281.327 
+Aplicações financeiras 2.591.725 2.417.657 Imposto de renda e contribuição social diferidos 5.569.599 5.343.621 
+Outros 497.143 472.529 Outros 1.076.387 1.060.763 
+Investimentos 648.064 648.682 Patrimônio líquido 18.807.296 18.383.454 
+Imobilizado 832.708 856.795 Capital social 12.898.655 12.898.655 
+Intangível 25.606.107 25.645.775 Reserva de capital 666.544 697.240 
+Ágio 24.333.776 24.333.776 Outros 5.229.352 4.774.860 
+Software e projetos 1.272.331 1.311.999 Participação dos acionistas não-controladores 12.745 12.699 
+Total do Ativo 46.292.029 45.228.850 Total do Passivo e Patrimônio Líquido 46.292.029 45.228.850

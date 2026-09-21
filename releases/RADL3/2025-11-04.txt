@@ -1,0 +1,1024 @@
+[p. 1]
+1 
+Resultados 
+3T25 
+ 
+ 
+São Paulo, 04 de novembro de 2025. A RD Saúde (Raia Drogasil S.A. – B3: RADL3) anuncia seus resultados referentes ao 3º trimestre de 2025 (3T25). As demonstrações 
+financeiras individuais e consolidadas da Companhia para os exercícios findos em 30 de setembro de 2025 e de 2024 foram preparadas de acordo com as práticas 
+contábeis adotadas no Brasil, que compreendem as normas da Comissão de Valores Mobiliários (CVM), as Normas Brasileiras de Contabilidade Técnica – Geral (NBC 
+TG) e os pronunciamentos do Comitê de Pronunciamentos Contábeis (CPC) e estão em conformidade com as normas internacionais de contabilidade (International 
+Financial Reporting Standards - IFRS) emitid as pelo International Accounting Standards Board - IASB, e evidenciam todas as informações relevantes próprias das 
+demonstrações financeiras, e somente elas, as quais estão consistentes com as utilizadas pela Administração na sua gestão. Es tes demonstrativos são apresentados 
+em Reais, e todas as taxas de crescimento, a menos que seja afirmado o contrário, referem -se ao mesmo período do ano anterior. 
+ 
+IFRS 16: Nossas demonstrações financeiras são preparadas em conformidade com o IFRS 16. Para melhor representar a realidade econômica do 
+negócio, os números deste relatório consideram o padrão pré-IFRS 16 com uma reconciliação em capítulo dedicado neste documento. 
+DESTAQUES CONSOLIDADOS DO TRIMESTRE: 
+› FARMÁCIAS: 3.453 unidades em operação, com 88 aberturas e 6 encerramentos; 
+› RECEITA BRUTA: R$ 12,1 bilhões, +12,7% consolidado e +15,5% varejo, com +4,8 pp de ganho real MSSS; 
+› MARKET SHARE: 16,8% de participação nacional, aumento de 0,8 pp com ganhos em todas as regiões; 
+› DIGITAL: R$ 3,0 bilhões, crescimento de 62% e penetração no varejo de 26,7%; 
+› EBITDA AJUSTADO: R$ 909 milhões, crescimento de 12,2% e margem estável de 7,5% (7,9% no varejo); 
+› LUCRO LÍQUIDO AJUSTADO*: R$ 402 milhões, crescimento de 19,3% e margem de 3,3% (+0,2 pp); 
+› FLUXO DE CAIXA: Fluxo de caixa livre positivo de R$ 648 milhões, R$ 558 milhões de geração total. 
+* Inclui os efeitos da tributação das subvenções para investimentos, conforme a Lei 14.789/2023. 
+ 
+RADL3 
+R$ 19,83/ação 
+Fechamento: 03/nov/25 
+ 
+VALOR DE 
+MERCADO 
+R$ 34,1 bilhões 
+ 
+TOTAL DE AÇÕES 
+1.718.007.200 
+ 
+CONTATOS DE RI: 
+Flávio Correia 
+André Stolfi 
+Victor Torres 
+Felipe Correa 
+ 
+ri.rdsaude.com.br 
+ri@rdsaude.com.br 
+ 
+ 
+ 
+Sumário (R$ mil) 3T24 4T24 1T25 2T25 3T25
+# de farmácias 3.139 3.230 3.301 3.371 3.453
+Aberturas orgânicas 72 96 75 70 88
+Fechamentos (9) (5) (4) - (6)
+# de funcionários 62.402 64.758 66.275 67.114 69.860
+# de farmacêuticos 12.689 12.894 13.462 13.734 13.981
+# de atendimentos (mil) 102.620 103.751 102.832 110.812 111.618
+# de clientes ativos (MM) 49,1 49,1 49,7 50,3 51,0
+Receita bruta 10.749.830 10.862.353 10.820.630 11.656.073 12.117.999
+Crescimento (a/a) +15,9% +13,9% +10,8% +12,0% +12,7%
+Lucro bruto 2.970.685 2.994.119 2.881.310 3.198.617 3.314.356
+% da receita bruta 27,6% 27,6% 26,6% 27,4% 27,4%
+EBITDA ajustado 810.715 677.521 644.092 885.011 909.252
+% da receita bruta 7,5% 6,2% 6,0% 7,6% 7,5%
+Lucro líquido ajustado 336.819 381.414 177.107 402.744 401.986
+% da receita bruta 3,1% 3,5% 1,6% 3,5% 3,3%
+Lucro líquido 362.117 351.476 181.125 400.855 476.078
+% da receita bruta 3,4% 3,2% 1,7% 3,4% 3,9%
+Fluxo de caixa livre 700.704 (175.013) (73.751) 36.899 647.824
+
+[p. 2]
+2 
+RESULTADOS 3T25 
+ 
+ 
+Encerramos o 3T25 com um total de 3.453 farmácias em operação, inaugurando 88 novas unidades e encerrando 6 no trimestre. 
+Nos últimos 12 meses, inauguramos 329 novas farmácias e r eiteramos o guidance de 330–350 aberturas brutas para o ano de 
+2025. 
+Dos 1 5 encerramentos realizados nos últimos 12 meses, 2 ocorreram durante o processo de maturação, equivalente a 
+apenas 0,6% das 329 aberturas do período, resultado da assertividade do processo de expansão orgânica da rede. Já os outros 
+13 encerramentos foram de unidades maduras , com média de 15 anos de operação, resultantes da otimização do portfólio , 
+transferindo vendas para outras farmácias próximas, liberando ativos para realocação e reduzindo custos fixos, aumentando 
+assim tanto o EBITDA quanto o ROIC da Companhia. 
+Ao final do trimestre, um total de 25,6% das nossas farmácias ainda estava em processo de maturação, não tendo atingido todo 
+o potencial de receita e de rentabilidade. 
+ 
+Nossa expansão vem incrementando a diversificação da nossa rede de farmácias, tanto geograficamente quanto 
+demograficamente. Estendemos nossa presença para 653 cidades em todos os estados do País, 43 a mais do que no 3T24, uma 
+capilaridade única no varejo brasileiro. Dentre as 319 cidades brasileiras com mais de 100 mil habitantes, já possuímos farmácias 
+operando ou em processo de inauguração em 314 delas. 
+Destacamos também uma aceleração da expansão em São Paulo, nosso principal mercado, que aumentou de 18% das aberturas 
+no 3T22 para 30% no 3T25. Embora já tenhamos 1,4 mil farmácias no estado, as oportunidades que continuamos identificando e 
+o sólido desempenho das lojas recém -inauguradas evidenciam o potencial que ainda temos para expandir nossa presença de 
+maneira altamente rentável em todo o País. Por fim, 79% das nossas aberturas nos últimos doze meses possuem formato popular 
+ou híbrido, perfis que hoje já representam 62% da rede. 
+Número de farmácias Portfólio de farmácias
+Distribuição etária
+3.139
+3.230
+3.301
+3.371
+3.453
+3T24 4T24 1T25 2T25 3T25
+3T24 4T24 1T25 2T25 3T25 LTM
+Aberturas brutas +72 +96 +75 +70 +88 +329
+Fechamentos -9 -5 -4 - -6 -15
+- Em maturação -2 - -2 - - -2
+- Maduras -7 -5 -2 - -6 -13
+Aberturas líquidas +63 +91 +71 +70 +82 +314
+74,1% 74,5% 74,4% 74,7% 74,4%
+8,2% 7,9% 7,8% 7,7% 7,7%
+8,5% 8,3% 8,3% 8,3% 8,4%
+9,3% 9,3% 9,5% 9,3% 9,5%
+3T24 4T24 1T25 2T25 3T25
+Madura Ano 3 Ano 2 Ano 1
+Farmácias por perfilQtd. de municípios com farmácia Farmácias por região
+525
+562
+610
+653
+3T22 3T23 3T24 3T25
+13% 6% 4% 7% 4%
+22%
+17% 17% 16% 15%
+13%
+12% 14% 15%
+11%
+13%
+20% 15%
+22%
+17%
+20%
+17% 18%
+10%
+13%
+18%
+28% 32% 30%
+40%
+3T22 3T23 3T24 3T25 3T25
+Norte Nordeste Centro Oeste
+Sudeste Sul São Paulo
+Aberturas nos últimos 12 meses Rede
+atual
+34%
+18% 17% 21%
+38%
+45%
+63% 67% 63%
+47%
+21% 19% 16% 16% 15%
+3T22 3T23 3T24 3T25 3T25
+Nobre Híbrida Popular
+Aberturas nos últimos 12 meses Rede
+atual
+ EXPANSÃO DA REDE
+
+[p. 3]
+3 
+RESULTADOS 3T25 
+ 
+Estamos presentes em todos os estados do País e possuímos uma rede de 1 4 centros de distribuição que abastecem as 3,5 mil 
+farmácias. Essa malha logística permite abastecermos mais de 80% das filiais diariamente e com lead -time de até 24h , 
+melhorando o nível de serviço , otimizando o capital de giro e fortalecendo nossa eficiência operacional , se configurando , 
+portanto, como uma importante vantagem competitiva. 
+Nossa participação de mercado nacional foi de 1 6,8%, um incremento anual de +0, 8 pp com ganhos em todas as regiões . 
+Registramos participações de 30,3% em São Paulo (+1,9 pp), de 12,2% no Sudeste (+0,7 pp), de 20,3% no Centro Oeste (+1,0 pp), 
+de 10,8% no Sul (+0,4 pp), de 11,6% no Nordeste (+0,2 pp) e 10,1% no Norte (+0,6 pp). 
+ 
+Encerramos o 3T25 com 51 milhões de clientes ativos que realizaram 429 milhões de compras nos últimos 12 meses e fizeram na 
+média 8,4 compras por ano, avaliando o atendimento nas nossas farmácias com um NPS de 91. O aumento do Lifetime Value dos 
+nossos clientes, por meio da criação de vínculos relevantes e de maior engajamento, constitui um dos nossos principais vetores 
+de criação de valor. 
+ 
+Seguimos avançando na estratégia digital, reforçando esse importante vínculo com o cliente. Atingimos R$ 3,0 bilhões de receita 
+bruta em canais digitais no 3T25, um crescimento de 62% sobre o ano anterior e uma penetração no varejo de 26,7%. O aumento 
+da participação dos medicamentos GLP-1, cujas vendas possuem intensa concentração nos canais digitais, contribuiu de forma 
+relevante para o forte crescimento no trimestre. Além disso, se considerada isoladamente, nossa operação digital representaria 
+a 4ª maior rede de farmácias do país. 
+Total: 3.453 farmácias
+Raia: 1.416
+Drogasil: 2.037
+CDs: 14
+PE: 112
+SC: 109
+DF: 110
+GO: 152
+PR: 197
+RS: 137
+MG: 247
+MT: 54
+SP: 1.372
+MS: 67
+BA: 128
+ES: 74
+RJ: 253
+AL: 25
+SE: 32
+PB: 25
+RN: 32
+CE: 105
+PI: 24
+MA: 44
+TO: 29
+PA: 58
+RO: 20
+AM: 30
+AC: 7
+RR: 5
+AP: 5
+Presença geográfica Participação de mercado
+Participação trimestral no varejo a preço fábrica (sell-out + sell-in)
+16,0%
+28,4%
+11,5%
+19,3%
+10,4%
+11,4%
+9,5%
+16,8%
+30,3%
+12,2%
+20,3%
+10,8%
+11,6%
+10,1%
+Brasil SP Sudeste Centro
+Oeste
+Sul Nordeste Norte
+3T24 3T25
+Canais digitais: venda e penetração
+R$ milhões, % da receita bruta do varejo
+Mix das entregasMix de canais digitais
+% da receita digital % da receita digital
+* Call center < 1% do mix de canais.
+Receita canais digitais
+Participação app nas vendas
+Penetração no varejo
+NPS app
+72 75 78 79 79
+3T24 4T24 1T25 2T25 3T25
+NPS entregas
+78 78
+81 82 83
+3T24 4T24 1T25 2T25 3T25
+1.859 2.000
+2.162
+2.587
+3.018
+75% 76%
+78%
+79%
+81%
+19,0%
+20,2%
+21,8%
+24,1%
+26,7%
+3T24 4T24 1T25 2T25 3T25
++62%
+vs. 3T24
+App
+81%
+Mobile site
+6%
+Social
+2%
+Desktop
+5%
+Super 
+apps
+6%
+C&R
+69%
+Até 
+60 min
+22%
+D+N
+3%
+Super 
+apps
+6%
+97%
+Entregues/coletados 
+em até 60 min
+*
+94%
+canais modernos 
+e proprietários
+ DIGITALIZAÇÃO, SAÚDE E ENGAJAMENTO DO CLIENTE
+
+[p. 4]
+4 
+RESULTADOS 3T25 
+A participação dos aplicativos nas vendas digitais avanç ou de 75% para 81% no últim o ano, reflexo d a melhoria contínua na 
+experiência mobile e de uma jornada cada vez mais completa e omnicanal em saúde integral. Outro destaque foram as entregas 
+rápidas em menos de 60 minutos, que já representam 22% da receita digital. Em conjunto com o Compre & Retire e as entregas 
+por aplicativos de terceiros, chegamos a 9 7% das vendas entregues ou retirad as em menos de 60 minutos, alavancando a 
+capilaridade da nossa rede, que atende 95% da população de classe A do País dentro de um raio de 1,5 km das nossas farmácias. 
+No trimestre, registramos 232,5 milhões de acessos aos nossos canais digitais e nossos clientes assíduos digitalizados gastaram 
+23% mais quando comparados à média dos assíduos . Além disso, contamos com um marketplace para complementar a 
+experiência nos nossos canais digitais oferecendo um sortimento ampliado de 254 mil SKUs em saúde e bem-estar vendidos por 
+454 sellers. 
+Por fim, continuamos reforçando o papel das nossas farmácias na jornada de saúde integral dos nossos clientes, posicionando-as 
+como hubs de saúde nas comunidades em que atuam e fortalecendo os vínculos através d os serviços farmacêuticos. Já 
+contamos com 2,7 mil unidades com salas Mais Saúde e seu portfólio ampliado de serviços, além de 417 unidades com salas de 
+vacinas. No 3T25, foram realizados mais de 1,1 milhões de atendimentos farmacêuticos entre EACs (exames de análises clínicas), 
+aplicações de vacinas e outros serviços, registrando um NPS superior à média das farmácias. 
+ 
+ 
+Encerramos o 3T25 com receita bruta de R$ 12.118 milhões, um crescimento consolidado de 12,7% vs. o mesmo período do ano 
+anterior, que inclui um efeito calendário positivo em 0,3 pp . Nas operações de varejo, o crescimento foi de 1 5,5%, uma 
+significativa recuperação sobre os trimestres anteriores (10,5% no 1T25 e 13,0% no 2T25) , enquanto a 4Bio teve decréscimo de 
+16,8% no trimestre, gerando uma pressão de crescimento de 2,8 pp no consolidado. 
+A queda de vendas na 4Bio se deu pela mudança no modelo de distribuição de um grande laboratório que optou por deixar de 
+atender seus clientes por meio de parceiros comerciais localizados em SP, como é o caso d a 4Bio, passando a concentrar suas 
+vendas a partir do ES onde a 4Bio ainda não possui centro de distribuição. Além disso, evidenciamos um quadro competitivo mais 
+acirrado no setor. Esperamos recuperar o crescimento de vendas em categorias prioritárias com diversas ações, incluindo a 
+abertura de um novo CD no ES previsto para 2026. 
+No varejo, destacamos o crescimento forte de vendas, tanto na comparação anual como na sequencial. Nos medicamentos 
+tarjados, registramos crescimento de 21,0% em Marca puxado por GLP -1, e de 19,5% em Genéricos puxado pela expiração de 
+patentes. Também destacamos a contínua recuperação em Perfumaria, com evolução anual de 10,9% (vs. 5,6% no 4T24, 6,5% 
+no 1T25 e 8,3% no 2T25), além do crescimento de 10,5% em OTC. 
+ 
+Por fim, registramos no 3T25 um crescimento médio nas mesmas lojas de 9,7%. Considerando as lojas maduras, com pelo menos 
+3 anos completos em operação, registramos um crescimento de 7,8% no 3T25, 4,8 pp acima do reajuste de medicamentos CMED 
+autorizado em 2025, estimado em 3,1%, e 2,6 pp acima do IPCA de 5,2%. 
+3T25 vs 3T24
+Mix de vendas do varejo
+Marca Genéricos OTC Perfumaria
+*
+* Serviços.
++10,9%
++10,5%
++19,5%
++21,0%
+42,3% 42,5% 42,4% 43,2% 44,1%
+12,3% 12,3% 12,5% 12,8% 12,6%
+20,8% 19,8% 19,8% 20,7% 19,8%
+24,4% 25,1% 25,2% 23,2% 23,3%
+0,2% 0,2% 0,2% 0,2% 0,2%
+3T24 4T24 1T25 2T25 3T25
+Receita bruta consolidada
+3T25 vs 3T24
+Consolidado
++12,7%
+Ex-4Bio
++15,5%
+4Bio
+-16,8%
+R$ milhões
+9.552 9.824 9.961 9.948 10.804
+850 926 901 873
+85210.403 10.750 10.862 10.821
+11.656
+2T24 3T24 4T24 1T25 2T25
+RD Ex-4Bio 4Bio Receita Bruta
+926 901 873 852 770
+9.824 9.961 9.948 10.804 11.348
+10.750 10.862 10.821
+11.656 12.118
+3T24 4T24 1T25 2T25 3T25
+Cresc. das lojas maduras – VarejoCrescimento da venda consolidada Cresc. das mesmas lojas – Varejo
+Reajuste CMED Cresc. real
+4,5% 4,5% 4,5% 3,1% 3,1%
+11,4% 9,4%
+6,3% 9,0% 9,6%
+15,9%
+13,9%
+10,8% 12,0% 12,7%
+3T24 4T24 1T25 2T25 3T25
+4,5% 4,5% 4,5% 3,1% 3,1%
+4,6% 3,4%
+0,9% 4,2%
+6,7%
+9,1%
+7,9%
+5,4%
+7,3%
+9,7%
+3T24 4T24 1T25 2T25 3T25
+4,5% 4,5% 4,5% 3,1% 3,1%
+2,2% 1,1%
+-1,1%
+2,4%
+4,8%
+6,7%
+5,6%
+3,4%
+5,5%
+7,8%
+3T24 4T24 1T25 2T25 3T25
+ RECEITA BRUTA
+
+[p. 5]
+5 
+RESULTADOS 3T25 
+ 
+ 
+No 3T25, o lucro bruto totalizou R$ 3.314,4 milhões, correspondente a uma margem bruta de 2 7,4%, uma contração de 0,2 pp 
+vs. o 3T24 e em linha com o 2T25, em que pesem os ganhos de pré-alta daquele trimestre. 
+Se excluirmos os 0,2 pp de ganhos pontuais do 3T24 relacionados a ressarcimentos de ICMS referentes ao 1S24 , também 
+obtivemos uma margem bruta no 3T25 em linha com a margem normalizada do 3T24. 
+Ressaltamos que a maior participação de itens GLP-1 nas vendas gerou um efeito mix de -0,4 pp na margem bruta do trimestre 
+em relação ao ano anterior . Essa pressão foi compensada principalmente pelo efeito da menor participação da 4Bio na venda 
+consolidada, além de efeitos menores em gestão de perdas, AVP, entre outros. 
+ 
+ 
+As despesas com vendas totalizaram R$ 2.094,9 milhões no 3T25, equivalente a 1 7,3% da receita bruta, um aumento de 0,2 pp 
+vs. o mesmo período do ano anterior. Conforme informado na nossa divulgação dos resultados no 3T24, registramos um ganho 
+pontual de 0,4 pp em função de um quadro de funcionários abaixo do normal nas nossas farmácias. 
+Se compararmos a despesa de vendas do trimestre com o patamar normalizado de 17,5% do 3T24, registramos uma diluição de 
+0,2 pp, principalmente pela alavancagem operacional no varejo e m função do forte crescimento de receita, mais do que 
+compensando o aumento do quadro de funcionários nas nossas farmácias realizado desde o 3T24. 
+* Inclui os efeitos da tributação das subvenções para 
+investimentos, conforme a Lei 14.789/2023. 
+Lucro bruto*
+R$ milhões, % da receita bruta
+2.970,7 2.994,1 2.881,3
+3.198,6 3.314,4
+27,6% 27,6% 26,6% 27,4% 27,4%
+3T24 4T24 1T25 2T25 3T25
+Despesas com vendas
+R$ milhões, % da receita bruta
+1.837,0 1.953,0 1.934,0 2.015,2 2.094,9
+17,1%
+18,0% 17,9%
+17,3% 17,3%
+3T24 4T24 1T25 2T25 3T25
+ LUCRO BRUTO 
+ DESPESAS COM VENDAS
+
+[p. 6]
+6 
+RESULTADOS 3T25 
+ 
+ 
+As despesas gerais e administrativas totalizaram R$ 310,2 milhões, uma redução de R$ 12,8 milhões vs. o 3T24. Isso equivaleu a 
+2,6% da receita bruta, uma diluição de 0, 4 pp vs. o 3T24, fruto do esforço de contenção de despesas desde 2024 e da 
+reestruturação corporativa de abril de 2025. 
+ 
+ 
+O EBITDA ajustado consolidado totalizou R$ 909,3 milhões no 3T25, com uma margem de 7,5% da receita bruta , estável em 
+comparação com o 3T24, e sequencialmente em patamar semelhante ao 2T25, em que pese o efeito positivo sazonal da pré-alta 
+de 1º de abril. Se considerarmos os ganhos pontuais de 0,2 pp na margem bruta e de 0,4 pp em despesas de vendas verificados 
+no 3T24, registramos um ganho de 0,6 pp sobre a margem EBITDA normalizada de 6,9% verificada naquele trimestre. A margem 
+EBITDA deste período também se destaca de forma positiva frente a um histórico longo, sendo nitidamente superior aos 6,8% 
+do 3T21, 6,9% do 3T22 e 7,1% do 3T23. 
+Nas operações de varejo, registramos um EBITDA ajustado de R$ 892,5 milhões com margem foi de 7,9%. Já na 4Bio, mesmo 
+com a queda de vendas , o EBITDA ajustado foi de R$ 16,7 milhões com uma margem estável de 2,2% em função da maior 
+disciplina comercial. 
+Despesas gerais & administrativas
+R$ milhões, % da receita bruta
+323,0
+363,5
+303,3 298,4 310,2
+3,0%
+3,3%
+2,8%
+2,6% 2,6%
+3T24 4T24 1T25 2T25 3T25
+EBITDA ajustado
+R$ milhões, % da receita bruta
+Mg. EBITDA
+Consolidado
+7,5%
+Ex-4Bio
+7,9%
+4Bio
+2,2%
+807,9 790,6
+654,7 623,1
+862,9
+16,5 20,1
+22,8 20,9
+22,1824,4 810,7
+677,5 644,1
+885,0
+7,9% 7,5%
+6,2% 6,0%
+7,6%
+2T24 3T24 4T24 1T25 2T25
+Ex-4Bio 4Bio Consolidado Mg. EBITDA Cons.
+807,9 790,6
+654,7 623,1
+862,9
+16,5 20,1
+22,8 20,9
+22,1824,4 810,7
+677,5 644,1
+885,0
+7,9% 7,5%
+6,2% 6,0%
+7,6%
+2T24 3T24 4T24 1T25 2T25
+Ex-4Bio 4Bio Consolidado Mg. EBITDA Cons.
+20,1 22,8 20,9 22,1 16,7
+790,6
+654,7 623,1
+862,9 892,5
+810,7
+677,5 644,1
+885,0 909,3
+7,5%
+6,2% 6,0%
+7,6% 7,5%
+3T24 4T24 1T25 2T25 3T25
+ DESPESAS GERAIS E ADMINISTRATIVAS 
+ EBITDA
+
+[p. 7]
+7 
+RESULTADOS 3T25 
+ 
+ 
+Registramos R$ 112,3 milhões em receitas não recorrentes líquidas no 3T25. Isso inclui despesas de R$ 1,6 milhão em 
+investimentos sociais e doações e de R$ 1,3 milhão em baixas de ativos, mais que compensados por ganhos de R$ 15,8 milhões 
+relativos a efeitos tributários de anos anteriores, além de R$ 99,3 milhões em outros efeitos, sobretudo reversões de provisões, 
+inclusive relativo ao DIFAL na 4Bio. 
+ 
+ 
+As despesas de depreciação totalizaram R$ 266,0 milhões no 3T25, equivalentes a 2,2% da receita bruta, estável em relação ao 
+mesmo período do ano anterior. 
+As despesas financeiras líquidas totalizaram R$ 190,3 milhões, correspondendo a 1,6% da receita bruta, um aumento de 0, 3 pp. 
+Desse montante, R$ 128,4 milhões correspondem aos juros efetivamente incorridos sobre o passivo financeiro, equivalente a 
+1,1% da receita bruta e com um aumento de 0,2 pp. Isso se deve pela taxa SELIC mais elevada e do volume maior do passivo 
+financeiro. Além disso, R$ 61,9 milhões correspondem ao efeito não caixa do AVP, equivalentes a 0, 5% da receita bruta, um 
+aumento de 0,1 pp vs. o 3T24. 
+Por fim, registramos R$ 454,0 milhões de lucro antes do IRPJ/CSLL , equivalente a 3,7% da receita bruta e com uma contração 
+de 0,4 pp vs. o mesmo período do ano anterior. 
+Reconciliação do EBITDA (R$ milhões) 3T25 3T24
+Lucro líquido 476,1 362,1
+Imposto de renda 90,2 113,6
+Equivalência patrimonial (1,0) 0,2
+Resultado financeiro 190,3 141,6
+EBIT 755,5 617,5
+Depreciação e amortização 266,0 231,5
+EBITDA 1.021,5 849,0
+Investimento social e doações 1,6 3,9
+Baixa de ativos 1,3 2,0
+Efeitos tributários de anos anteriores (15,8) (117,8)
+Outras não recorrentes (99,3) 73,7
+Total de despesas não recorrentes/não operacionais (112,3) (38,3)
+EBITDA ajustado 909,3 810,7
+R$ milhões, % da receita bruta
+Depreciação e amortização Lucro antes do imposto de renda*
+R$ milhões, % da receita bruta
+Despesas financeiras líquidas
+R$ milhões, % da receita bruta
+* Inclui os efeitos da tributação das subvenções para investimentos, conforme a Lei 14.789/2023.
+231,5 238,3 248,4 252,7 266,0
+2,2% 2,2% 2,3%
+2,2% 2,2%
+3T24 4T24 1T25 2T25 3T25
+141,6
+114,4
+175,6
+201,9 190,3
+1,3%
+1,1%
+1,6% 1,7%
+1,6%
+3T24 4T24 1T25 2T25 3T25
+437,4
+327,3
+218,7
+430,0 454,0
+4,1%
+3,0%
+2,0%
+3,7% 3,7%
+3T24 4T24 1T25 2T25 3T25
+ RECONCILIAÇÃO DO EBITDA E RESULTADO NÃO RECORRENTE 
+ DEPRECIAÇÃO, DESPESAS FINANCEIRAS LÍQUIDAS E LUCRO ANTES DO IMPOSTO DE RENDA
+
+[p. 8]
+8 
+RESULTADOS 3T25 
+ 
+ 
+Registramos um total de R$ 52,0 milhões em imposto de renda no 3T25, equivalente a 0, 4% da receita bruta, uma redução de 
+0,5 pp vs. o 3T24. A alíquota efetiva foi de 1 1,5% sobre o LAIR, uma redução de 11,5 pp, incluindo ganhos pontuais. Excluindo 
+esses efeitos pontuais, estimamos uma alíquota efetiva de 17,2% para o trimestre. 
+Registramos um lucro líquido de R$ 402,0 milhões no 3T25, um crescimento de 19,3% vs. o 3T24. A margem líquida totalizou 
+3,3%, um aumento de 0, 2 pp, em que pese m os ganhos não recorrentes de 0,2 pp no 3T24 relacionados a ressarcimentos 
+retroativos de ICMS referentes ao 1S24. 
+ 
+ 
+Registramos um ciclo de caixa no 3T25 de 56,6 dias, uma redução de 3,0 dias em comparação com o mesmo período do ano 
+anterior, já ajustado para os descontos de recebíveis e antecipações a fornecedores, principalmente pela redução de 8,1 dias em 
+estoques. 
+* Inclui os efeitos da tributação das subvenções para investimentos, conforme a Lei 14.789/2023.
+** Alíquota efetiva.
+Imposto de renda e alíquota efetiva*
+R$ milhões, % da receita bruta
+Lucro líquido ajustado*
+R$ milhões, % da receita bruta
+100,6
+-54,2
+41,6
+27,3
+52,0
+23,0% -16,6% 19,0% 6,3% 11,5%
+0,9%
+-0,5%
+0,4% 0,2% 0,4%
+3T24 4T24 1T25 2T25 3T25
+**
+336,8
+381,4
+177,1
+402,7 402,0
+3,1% 3,5%
+1,6%
+3,5% 3,3%
+3T24 4T24 1T25 2T25 3T25
+** Ajustado para recebíveis descontados e antecipações a fornecedores.
+Ciclo de caixa**
+Dias de CMV, Dias de receita bruta
+105,4 107,7 109,2
+99,2 97,3
+74,6 75,8 77,0
+67,6 70,1
+28,7 28,4 30,5 29,6 29,5
+59,6 60,4 62,7 61,2 56,6
+3T24 4T24 1T25 2T25 3T25
+Estoques Fornecedores
+Recebíveis Ciclo de Caixa
+ IMPOSTO DE RENDA E LUCRO LÍQUIDO 
+ CICLO DE CAIXA
+
+[p. 9]
+9 
+RESULTADOS 3T25 
+ 
+ 
+Registramos no 3T25 R$ 609,4 milhões de recursos das operações, equivalente a 5,0% da receita bruta. Considerando o fluxo de 
+R$ 405,5 milhões de capital de giro, geramos um fluxo de caixa operacional de R$ 1.014,9 milhões. 
+O CAPEX do período foi de R$ 367,1 milhões, dos quais R$ 146,9 milhões foram destinados à abertura de novas farmácias, 
+R$ 63,9 milhões para a manutenção e reforma de unidades existentes, R$ 94,7 milhões em tecnologia, R$ 55,6 milhões em 
+logística e R$ 6,1 milhões em outros projetos. 
+Atingimos um fluxo de caixa livre positivo de R$ 647,8 milhões e uma geração total de caixa de R$ 558,3 milhões. 
+Por fim, provisionamos R$ 140,7 milhões em JSCP no 3T25, em comparação com R$ 114,1 milhões no 3T24. 
+ 
+ 
+Encerramos o 3T25 com uma dívida líquida ajustada de R$ 3.380,0 milhões, correspondente a um índice de alavancagem de 1,1x 
+o EBITDA ajustado dos últimos 12 meses, um aumento de 0,1x vs. o mesmo período do ano anterior e uma redução sequencial de 
+0,2x vs. o 2T25. Nossa dívida líquida ajustada leva em consideração R$ 514,7 milhões em recebíveis descontados, R$ 3,7 milhões 
+em antecipações a fornecedores e R$ 22,8 milhões em obrigações relacionadas a opções de comp ra/venda de participações 
+remanescentes em empresas investidas. 
+Ao final do trimestre, nosso endividamento bruto totalizou R$ 3.282,6 milhões, dos quais 100% correspondem à emissão de 
+Debêntures e Certificados de Recebíveis Imobiliários (CRIs). Do endividamento total, 84% é de longo prazo e 16% de curto prazo. 
+Encerramos o trimestre com uma posição de caixa total (caixa e aplicações financeiras) de R$ 436,3 milhões. 
+Fluxo de caixa (R$ milhões) 3T25 3T24
+EBIT ajustado 643,3 579,2
+Ajuste a valor presente (AVP) (69,8) (47,1)
+Despesas não recorrentes 112,3 38,3
+Imposto de renda (34%) (233,1) (194,0)
+Depreciação 256,4 232,8
+Outros ajustes (99,5) (76,2)
+Recursos das operações 609,4 533,1
+Ciclo de caixa* 131,9 376,4
+Outros ativos (passivos)** 273,6 153,0
+Fluxo de caixa operacional 1.014,9 1.062,4
+Investimentos (367,1) (361,7)
+Fluxo de caixa livre 647,8 700,7
+Aquisições e investimentos em coligadas (34,2) (7,4)
+JSCP e dividendos (0,1) (1,1)
+IR pago sobre JSCP (18,4) (10,9)
+Resultado financeiro*** (128,4) (94,5)
+IR (Benef. fiscal s/ result. fin., JSCP e div.) 91,5 70,9
+Fluxo de caixa total 558,3 657,6
+*Inclui ajustes para recebíveis descontados.
+**Inclui ajuste de AVP.
+***Exclui ajuste de AVP.
+Dívida Líquida (R$ milhões) 3T24 4T24 1T25 2T25 3T25
+Dívida de curto prazo 619,0 637,1 763,5 944,2 522,5
+Dívida de longo prazo 2.655,1 2.656,8 2.408,5 2.758,6 2.760,1
+Dívida Bruta 3.274,2 3.293,9 3.172,0 3.702,9 3.282,6
+(-) Caixa e Equivalentes 410,5 528,0 404,4 527,0 436,3
+Dívida Líquida 2.863,7 2.765,9 2.767,6 3.175,8 2.846,3
+Recebíveis Descontados 32,2 728,7 803,2 761,2 514,7
+Antecipações a fornecedores (37,2) (89,9) (3,7) (13,2) (3,7)
+Opções Compra/Venda de investidas (est.) 13,2 13,6 14,0 14,4 22,8
+Dívida Líquida Ajustada 2.871,9 3.418,4 3.581,0 3.938,3 3.380,0
+EBITDA ajustado LTM 2.929,5 2.992,5 2.956,7 3.017,3 3.115,9
+Dívida Líquida / EBITDA 1,0x 1,1x 1,2x 1,3x 1,1x
+ FLUXO DE CAIXA 
+ ENDIVIDAMENTO
+
+[p. 10]
+10 
+RESULTADOS 3T25 
+ 
+ 
+Nossa ação se valorizou em 21,8% no 3T25, enquanto o IBOVESPA apresentou valorização de 5,3%. No período, o volume 
+financeiro diário médio (ADTV) foi de R$ 184 milhões. 
+Desde o IPO da Drogasil em junho de 2007, registramos uma valorização acumulada de 1.545% em comparação à valorização de 
+apenas 169% registrada pelo IBOVESPA. Incluindo o pagamento de juros sobre o capital próprio e de dividendos, isto equivaleu a 
+um retorno médio anual ao acionista de 17,6%. 
+Considerando o IPO da Raia, em dezembro de 2010, a valorização acumulada no período foi de 558% em comparação a um 
+crescimento de 115% do IBOVESPA. Incluindo as distribuições aos acionistas, isso equivaleu a um retorno médio anual de 14,4%. 
+ 
+Desde 2019, as demonstrações financeiras são preparadas de acordo com o IFRS 16 . Para fins de comparabilidade histórica, 
+porém, os dados deste relatório são apresentados sem os efeitos dessa norma, por considerarmos que a abordagem anterior 
+retrata de forma mais fiel a realidade econômica do nosso negócio . No site de Relações com Investidores da RD Saúde 
+(ri.rdsaude.com.br), as Demonstrações Financeiras podem ser encontradas na seção de Planilhas de Resultados. 
+ 
+ 
+ 
+Valorização da ação
+100,0
+RADL3
+1.645
+100,0
+IBOVESPA
+269
+jun-07
+set-07
+dez-07
+mar-08
+jun-08
+set-08
+dez-08
+mar-09
+jun-09
+set-09
+dez-09
+mar-10
+jun-10
+set-10
+dez-10
+mar-11
+jun-11
+set-11
+dez-11
+mar-12
+jun-12
+set-12
+dez-12
+mar-13
+jun-13
+set-13
+dez-13
+mar-14
+jun-14
+set-14
+dez-14
+mar-15
+jun-15
+set-15
+dez-15
+mar-16
+jun-16
+set-16
+dez-16
+mar-17
+jun-17
+set-17
+dez-17
+mar-18
+jun-18
+set-18
+dez-18
+mar-19
+jun-19
+set-19
+dez-19
+mar-20
+jun-20
+set-20
+dez-20
+mar-21
+jun-21
+set-21
+dez-21
+mar-22
+jun-22
+set-22
+dez-22
+mar-23
+jun-23
+set-23
+dez-23
+mar-24
+jun-24
+set-24
+dez-24
+mar-25
+jun-25
+set-25
+3T25 Reclassificação
+Demonstração do Resultado (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 3T25
+Receita Bruta de Vendas 12.118,0 12.118,0 0,0
+Lucro Bruto 3.314,4 3.315,8 1,5
+Margem Bruta 27,4% 27,4% 0,0 pp
+Despesas de Venda (2.094,9) (1.764,1) 330,9
+Despesas Gerais & Administrativas (310,2) (309,8) 0,3
+Total Despesas (2.405,1) (2.073,9) 331,2
+% da Receita Bruta 19,8% 17,1% (2,7 pp)
+EBITDA Ajustado 909,3 1.241,9 332,7
+% da Receita Bruta 7,5% 10,2% 2,7 pp
+Despesas / (Rec.) Não Recorrentes 112,3 116,7 4,4
+Depreciação e Amortização (266,0) (508,4) (242,4)
+Resultado Financeiro (190,3) (306,7) (116,4)
+Resultado MEP / Incorporação 1,0 1,0 (0,0)
+IR / CSL (90,2) (82,9) 7,3
+Lucro Líquido 476,1 461,7 (14,4)
+% da Receita Bruta 3,9% 3,8% (0,1 pp)
+ RETORNO TOTAL AO ACIONISTA 
+ IFRS-16
+
+[p. 11]
+11 
+RESULTADOS 3T25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+05 de novembro de 2025 às 10h00 (horário de Brasília), 
+com tradução simultânea para o inglês. 
+ 
+Link de acesso 
+https://www.resultadosrdsaude.com.br/ 
+Para mais informações, entre em contato com o departamento de Relações com Investidores: ri@rdsaude.com.br 
+ 
+3T25 Reclassificação
+Balanço Patrimonial (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 3T25
+Ativo 19.370,6 23.825,8 4.455,2
+Ativo Circulante 13.753,2 13.753,3 0,1
+Tributos a Recuperar 510,1 510,2 0,1
+Ativo Não Circulante 5.617,4 10.072,5 4.455,1
+Imposto de Renda e Contrib. Social Diferidos 154,5 357,8 203,3
+Outros Créditos 10,0 9,5 (0,4)
+Investimentos 16,7 16,5 (0,1)
+Direito de uso em arrendamento 0,0 4.252,3 4.252,3
+Passivo e Patrimônio Líquido 19.370,6 23.825,8 4.455,2
+Passivo Circulante 8.875,0 9.871,1 996,1
+Arrendamentos Financeiros a Pagar 0,0 1.003,7 1.003,7
+Outras Contas a Pagar 459,0 451,5 (7,6)
+Não Circulante 3.086,4 6.945,3 3.858,9
+Arrendamentos Financeiros a Pagar 0,0 3.861,2 3.861,2
+Imposto de Renda e Contrib. Social Diferidos 2,4 0,0 (2,4)
+Patrimônio Líquido 7.409,2 7.009,4 (399,8)
+Reservas de Lucros 2.529,3 2.178,2 (351,1)
+Lucros Acumulados 666,1 617,6 (48,5)
+Participação de Não Controladores 14,4 14,2 (0,2)
+3T25 Reclassificação
+Fluxo de Caixa (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 3T25
+EBIT Ajustado 643,3 733,5 90,2
+Despesas não recorrentes 112,3 116,7 4,4
+Imposto de renda (34%) (233,1) (265,3) (32,2)
+Depreciação 256,4 508,4 252,1
+Despesas com Aluguel 0,0 (335,6) (335,6)
+Outros Ajustes (99,5) (78,4) 21,1
+Recursos das operações 609,4 609,4 0,0
+Fluxo de caixa operacional 999,2 999,2 0,0
+Investimentos (367,1) (367,1) 0,0
+Fluxo de caixa livre 632,1 632,1 0,0
+Fluxo de caixa total 542,5 542,5 0,0
+*Inclui ajustes para recebíveis descontados.
+**Inclui ajuste de AVP.
+***Exclui ajuste de AVP.
+ TELECONFERÊNCIA DE RESULTADOS
+
+[p. 12]
+12 
+RESULTADOS 3T25 
+ 
+ 
+ 
+ 
+Demonstração do Resultado Consolidado Ajustado 3T24 3T25
+(em milhares de R$)
+Receita bruta de vendas e serviços 10.749.830 12.117.999
+Deduções (760.708) (853.084)
+Receita líquida de vendas e serviços 9.989.122 11.264.915
+Custo das mercadorias vendidas (7.018.436) (7.950.560)
+Lucro bruto 2.970.685 3.314.356
+Despesas
+Com vendas (1.836.994) (2.094.934)
+Gerais e administrativas (322.977) (310.170)
+Despesas operacionais (2.159.971) (2.405.104)
+EBITDA 810.715 909.252
+Depreciação e Amortização (231.511) (265.977)
+Lucro operacional antes do resultado financeiro 579.204 643.275
+Despesas financeiras (238.923) (346.255)
+Receitas financeiras 97.334 155.948
+Despesas / Receitas Financeiras (141.589) (190.307)
+Equivalência Patrimonial (209) 1.034
+Lucro antes do IR e da contribuição social 437.405 454.002
+Imposto de renda e contribuição social (100.586) (52.016)
+Lucro líquido do exercício 336.819 401.986
+
+[p. 13]
+13 
+RESULTADOS 3T25 
+ 
+ 
+ 
+ 
+Demonstração do Resultado Consolidado 3T24 3T25
+(em milhares de R$)
+Receita bruta de vendas e serviços 10.749.830 12.117.999
+Deduções (760.708) (853.084)
+Receita líquida de vendas e serviços 9.989.122 11.264.915
+Custo das mercadorias vendidas (7.018.436) (7.950.560)
+Lucro bruto 2.970.685 3.314.356
+Despesas
+Com vendas (1.836.994) (2.094.934)
+Gerais e administrativas (322.977) (310.170)
+Outras despesas operacionais, líquidas 38.329 112.261
+Despesas operacionais (2.121.641) (2.292.843)
+EBITDA 849.044 1.021.513
+Depreciação e Amortização (231.511) (265.977)
+Lucro operacional antes do resultado financeiro 617.533 755.536
+Despesas financeiras (238.923) (346.255)
+Receitas financeiras 97.334 155.948
+Despesas / Receitas Financeiras (141.589) (190.307)
+Equilavência Patrimonial (209) 1.034
+Lucro antes do IR e da contribuição social 475.735 566.263
+Imposto de renda e contribuição social (113.618) (90.185)
+Lucro líquido do exercício 362.117 476.078
+
+[p. 14]
+14 
+RESULTADOS 3T25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ativo (R$ milhares) 3T24 3T25
+Caixa e Equivalentes de Caixa 410.510 436.340
+Aplicações Financeiras - 102.050
+Clientes 3.362.713 3.408.229
+Estoques 8.132.532 8.497.508
+Tributos a Recuperar 377.907 510.126
+Outras Contas a Receber 486.600 674.372
+Despesas Antecipadas 117.745 117.793
+Depósitos Judiciais 2.378 6.825
+Ativo Circulante 12.890.386 13.753.242
+Depósitos Judiciais 247.105 295.666
+Tributos a Recuperar 300.577 239.307
+Imposto de Renda e Contribuição Social Diferidos 79.493 154.495
+Outros Créditos 10.083 9.951
+Investimentos 9.558 16.660
+Imobilizado 2.563.820 2.830.643
+Intangível 1.990.746 2.070.676
+Ativo Não Circulante 5.201.382 5.617.397
+TOTAL ATIVO 18.091.768 19.370.640
+Passivo e Patrimônio Líquido (R$ milhares) 3T24 3T25
+Fornecedores 5.712.823 6.122.839
+Empréstimos e Financiamentos 619.037 522.497
+Salários e Encargos Sociais 816.547 911.664
+Impostos, Taxas e Contribuições 414.068 472.453
+Dividendo e Juros Sobre o Capital Próprio 336.980 338.196
+Provisão para Demandas Judiciais 69.726 48.336
+Outras Contas a Pagar 391.189 459.044
+Passivo Circulante 8.360.369 8.875.030
+Empréstimos e Financiamentos 2.655.148 2.760.116
+Provisão para Demandas Judiciais 235.310 255.049
+Imposto de Renda e Contribuição Social Diferidos 67.266 2.356
+Outras Obrigações 103.506 68.917
+Passivo Não Circulante 3.061.230 3.086.437
+Capital Social 4.000.000 4.000.000
+Reservas de Capital 168.673 125.346
+Reserva de Reavaliação 11.116 10.991
+Reservas de Lucros 1.871.215 2.529.320
+Lucros Acumulados 542.904 666.109
+Ajustes de Avaliação Patrimonial 62.688 62.969
+Participação de Não Controladores 13.573 14.437
+Patrimônio Líquido 6.670.169 7.409.172
+
+[p. 15]
+15 
+RESULTADOS 3T25 
+ 
+Demonstrações dos Fluxos de Caixa (R$ milhares) 3T24 3T25
+Lucro antes do Imposto de Renda e da Contribuição Social 362.155 476.078
+Ajustes
+Depreciações e amortizações 232.772 256.356
+Plano de remuneração com ações restritas, líquido 11.049 (5.761)
+Juros sobre opção de compra de ações adicionais 341 8.324
+Resultado na venda ou baixa do ativo imobilizado e intangível 4.946 7.717
+Provisão (reversão) para demandas judiciais 4.767 (25.371)
+Provisão (reversão) para perdas no estoque 13.395 8.939
+Provisão (reversão) para créditos de liquidação duvidosa 6.375 5.500
+Provisão (reversão) para encerramento de lojas (3.110) (330)
+Despesas de juros 93.513 155.720
+Amortizações do custo de transação de financiamentos 5.233 2.326
+Resultado de Equivalência Patrimonial 213 (1.026)
+731.649 888.472
+Variações nos ativos e passivos
+Clientes e outras contas a receber (458.958) (387.032)
+Estoques (452.369) (183.482)
+Outros ativos circulantes 45.307 45.165
+Ativos no realizável a longo prazo (1.814) (27.057)
+Fornecedores 815.106 465.440
+Salários e encargos sociais 100.000 118.242
+Impostos, taxas e contribuições (114.778) 6.674
+Outras Obrigações 124.428 53.198
+Aluguéis a pagar 2.175 5.004
+Caixa proveniente das operações 790.746 984.624
+Juros pagos (100.486) (122.531)
+Imposto de renda e contribuição social pagos (115.274) (81.744)
+Demandas judiciais pagas (24.261) (29.693)
+Caixa líq. proveniente das (aplicado nas) atividades operacionais 550.725 750.656
+Fluxos de caixa das atividades de investimentos
+Aquisições de imobilizado e intangível (369.187) (378.062)
+Recebimentos por vendas de imobilizados - 573
+Aplicações financeiras restritas - (23.772)
+Caixa líquido aplicado nas atividades de investimentos (369.187) (401.261)
+Fluxos de caixa das atividades de financiamentos
+Empréstimos e financiamentos tomados 423 -
+Pagamentos de empréstimos e financiamentos (140.000) (440.000)
+Juros sobre capital próprio e dividendo pagos (1.111) (75)
+Caixa líquido proveniente das atividades de financiamentos (140.688) (440.075)
+Caixa e equivalentes de caixa no início do exercício 369.660 527.020
+Aumento (redução) líquido de caixa e equivalentes de caixa 40.850 (90.680)
+Caixa e equivalentes de caixa no fim do exercício 410.510 436.340

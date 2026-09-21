@@ -1,0 +1,743 @@
+[p. 1]
+2T26 
+Resultados
+
+[p. 2]
+São Paulo, 14 de agosto de 2026 - A COSAN S.A. (B3: CSAN3; NYSE: CSAN) ("Cosan" ou 
+"Companhia") anuncia hoje seus resultados referentes ao segundo trimestre de 2026 ("2T26"), de 
+acordo com as práticas contábeis adotadas no Brasil e com normas internacionais ("IFRS"). As 
+comparações realizadas neste relatório levam em consideração a comparação entre o 2T26 e o 
+2T25, exceto quando indicado de outra forma.
+Principais Destaques
+Apresentamos abaixo os principais avanços na simplificação e otimização da estrutura de capital da 
+Cosan desde o início do exercício:
+• Oferta pública inicial (IPO) secundária de ações da Compass na B3 , que totalizou R$ 3,0 
+bilhões, resultando em um montante líquido de aproximadamente R$ 2,3 bilhões para a Cosan.
+• Alienação de parcela do portfólio da Radar , em transação que envolveu o montante de R$ 1,85 
+bilhão, dos quais aproximadamente R$ 586 milhões correspondem à participação da Cosan. O 
+fechamento da operação é esperado para outubro de 2026, sujeito às condições precedentes 
+usuais.
+• Carta de intenções com exclusividade para alienação do Terminal de Uso Privado Porto São 
+Luís pelo preço total indicativo de R$ 300 milhões, correspondendo a 100% da participação da 
+Cosan, além de earn-out indicativo de R$ 50 milhões por berço previsto para potenciais novos 
+berços implantados até 2035. A aceitação da proposta, bem como a conclusão da operação e 
+preço final permanecem sujeitos à celebração dos documentos definitivos e às condições 
+precedentes usuais.
+• Redução da dívida líquida expandida , com queda de 20% vs 1T26. Nos 6M26 os pré-
+pagamentos já somam R$ 8,8 bilhões.
+• Racionalização das despesas da holding, com recuo do G&A da Companhia em R$ 49 milhões 
+no comparativo 6M26 x 6M25, refletindo a reestruturação organizacional contínua e a redução das 
+despesas da holding, com destaque, conforme recentemente anunciado, para o início do processo 
+de delisting das American Depositary Shares (“ADSs") de Cosan junto a NYSE.
+• Homologação do Plano de Recuperação Extrajudicial da Raízen , que contou com a adesão de 
+81,6% dos credores financeiros quirografários da Raízen.
+Resultados | 2T26
+
+[p. 3]
+Principais Indicadores
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Cosan Corporativo¹
+Resultado líquido² (320) (946) -66 % (1.583) -80 % (1.904) (2.734) -30 %
+Dívida líquida expandida³ 9.217 17.538 -47 % 11.471 -20 % 9.217 17.538 -47 %
+Dividendos e JCP recebidos4 399 579 -31 % 36 n/a 434 2.046 -79 %
+Índice de cobertura do serviço da dívida líquida LTM 0,2x 1,2x -1,0x 0,4x -0,2x 0,2x 1,2x -1,0x
+Portfólio Cosan
+EBITDA ajustado5 e 6
+Rumo 2.267 2.279 -1 % 1.745 30 % 4.012 3.915 2 %
+Compass 1.275 1.216 5 % 1.329 -4 % 2.604 2.513 4 %
+Moove 475 505 -6 % 236 n/a 710 737 -4 %
+Radar (29) 134 n/a 103 n/a 74 275 -73 %
+Notas: (1) Composição do segmento Cosan Corporativo conforme detalhado na página 19; (2) Resultado atribuído ao Controlador e considera resultado da Raízen nos períodos comparativos; (3) 
+Considera a estrutura de ações preferenciais da Cosan Dez, mais informações no item B.1 - Endividamento; (4) Considera o valor antes de repasse aos preferencialistas, líquido de impostos e de 
+demais acionistas recebidos no segmento da Cosan Corporativo ; (5) Considera 100% dos resultados individuais dos negócios; (6) EBITDA Ajustado exclui os efeitos pontuais, detalhados na 
+página 21 deste relatório. 
+A Cosan encerrou o segundo trimestre de 2026 com um prejuízo em R$ 320 milhões, uma evolução de 
+66% em relação ao 2T25 . Esse resultado reflete o impacto pontual negativo de R$ 233 milhões, referente 
+ao impairment do ativo disponível para venda (TUP Porto São Luís) , compensado pelo não 
+reconhecimento contábil do resultado da Raízen. Desconsiderando o efeito pontual desse ajuste de valor 
+justo, o prejuízo teria sido de R$ 167 milhões . Além disso, o resultado do 2T26 foi beneficiado pelo 
+resultado financeiro favorável, decorrente da redução dos juros da dívida líquida, e pela otimização das 
+despesas gerais e administrativas, com redução de R$ 36 milhões versus 2T25, conforme detalhado no 
+item A.2. G&A e Outras.
+A dívida líquida expandida do 2T26 totalizou R$ 9,2 bilhões, uma redução de 20% em relação ao 1T26. 
+Essa diminuição decorre do ingresso dos recursos do IPO da Compass, concluído no trimestre , que 
+possibilitou a liquidação antecipada das debêntures e notas comerciais, conforme detalhado no item B.1. 
+Endividamento. Em relação ao 2T25, a dívida líquida expandida apresentou redução de 47%, 
+impulsionada pelas iniciativas de gestão do endividamento e pelos recursos oriundos da capitalização e 
+desinvestimentos concluídos ao longo dos últimos doze meses.
+ 
+O Índice de Cobertura do Serviço da Dívida ("ICSD") encerrou o trimestre em 0,2x, uma redução de 0,2x 
+em relação ao 1T26. Essa variação é consequência da menor contribuição de dividendos e juros sobre 
+capital próprio ("JCP") recebidos na base dos últimos doze meses, refletindo a dinâmica de distribuição de 
+resultados das investidas e a concentração dos recebimentos em momentos específicos do ano. A partir 
+desse trimestre, passamos a fornecer uma projeção dessa métrica no intervalo de 0,8x a 1,2x, a fim de 
+trazer maior clareza da evolução do ICSD. Trazemos maiores detalhes no item B.2 Índice de cobertura do 
+serviço da dívida, bem como no subitem B.2.1 Guidance ICSD.
+Resultados | 2T26
+
+[p. 4]
+Índice
+A. Resultado Cosan Corporativo .................................................................................................................. 5
+A.1 Equivalência Patrimonial (MEP) .......................................................................................................... 5
+A.2 G&A e Outras .......................................................................................................................................... 5
+A.3 Resultado Financeiro ............................................................................................................................ 6
+A.4 Imposto de Renda e Contribuição Social (IR/CS) ............................................................................ 6
+A.5 Lucro Líquido .......................................................................................................................................... 7
+B. Estrutura de Capital e Fluxo de Caixa - Cosan Corporativo ............................................................... 8
+B.1 Endividamento ........................................................................................................................................ 8
+B.2 Índice de Cobertura do Serviço da Dívida (ICSD) ........................................................................... 9
+B.2.1 Guidance Índice de Cobertura do Serviço da Dívida (ICSD) ................................................. 10
+B.3 Valor de resgate das ações preferenciais .......................................................................................... 11
+B.4 Dividendos .............................................................................................................................................. 11
+B.5 Demonstrativo Fluxo de Caixa ............................................................................................................. 11
+C. Desempenho do Portfólio ........................................................................................................................ 13
+C.1 Rumo ........................................................................................................................................................ 13
+C.2 Compass ................................................................................................................................................ 14
+C.3 Moove ...................................................................................................................................................... 14
+C.4 Radar ....................................................................................................................................................... 15
+D. Anexos ........................................................................................................................................................ 16
+Anexo I - Temas Relevantes ............................................................................................................................. 16
+Anexo II - Demonstrações Financeiras ........................................................................................................... 17
+Cosan Consolidado S.A. ........................................................................................................................... 17
+Anexo III - Segmentos Reportados .................................................................................................................. 19
+Resultado por segmento Cosan Consolidado ....................................................................................... 20
+Anexo IV – Reconciliação dos Ajustes do EBITDA ....................................................................................... 21
+EBITDA | 2T26 ............................................................................................................................................ 21
+EBITDA | 6M26 ........................................................................................................................................... 21
+Resultados | 2T26
+
+[p. 5]
+A. Resultado Cosan Corporativo
+O resultado do segmento Cosan Corporativo, apresentado em base contábil, exceto quando indicado de 
+outra forma, é composto por: (i) equivalência patrimonial das participações societárias diretas e indiretas 
+nas controladas e controladas em conjunto - vide mapa apresentado na página 19; (ii) despesas gerais e 
+administrativas da estrutura corporativa da Cosan e outras receitas e despesas operacionais, compostas, 
+principalmente por, contingências; (iii) resultado financeiro, que reflete o custo líquido da estrutura de 
+capital da Companhia; e (iv) tributos aplicáveis às transações.
+A.1 Equivalência Patrimonial (MEP)
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Rumo 156 100 56 28 128 185 70 115
+Compass (Cosan Dez)¹ 165 276 (111) 304 (139) 470 623 (153)
+Moove 138 241 (103) 59 79 198 262 (65)
+Radar² (12) 38 (50) 28 (40) 16 72 (56)
+Raízen³ — (829) 829 — — — (1.966) 1.966
+Equivalência patrimonial Cosan Corporativo 447 (173) 621 420 27 867 (939) 1.807
+Notas: (1) Após o IPO, a Companhia manteve o controle da Compass, passando a deter, direta e indiretamente, 76,18% de suas ações ordinárias. A controlada permanece consolidada no 
+segmento Cosan Corporativo , com as participações de terceiros refletidas no resultado atribuído aos acionistas não controladores; (2) Resultado composto por participação na Radar, Tellus e 
+Janus, de 50%, 20% e 20%, respectivamente; (3) O investimento na Raízen S.A. foi reduzido a zero em 31 de dezembro de 2025 e, como consequência, não refletirá em Cosan via MEP até que 
+o seu patrimônio líquido volte a ser positivo. Por essa razão, não possui valor atribuído na tabela acima.
+O montante de equivalência patrimonial da Cosan Corporativo totalizou R$ 447 milhões no 2T26, 
+representando uma variação positiva de R$ 621 milhões frente ao 2T25. O desempenho foi impulsionado 
+pelos sólidos resultados da Rumo e pela forte recuperação operacional da Moove, que entregaram um 
+trimestre bastante positivo, mesmo diante de uma base de comparação impactada por eventos não 
+recorrentes registrados no 2T25, que melhoraram o resultado naquele período. Adicionalmente, o MEP 
+refletiu a ausência de reconhecimento de equivalência patrimonial da Raízen, uma vez que o investimento 
+já se encontra reduzido a zero. Esses efeitos foram parcialmente compensados pelas menores 
+contribuições de Compass e Radar. Em Compass, o resultado foi impactado por maiores despesas 
+associadas a projetos estratégicos e pelo aumento das despesas financeiras. Em Radar, o desempenho 
+refletiu a combinação da reavaliação de terras associada à alienação de parte do portfólio e da menor 
+receita de arrendamento decorrente da queda dos preços de ATR.
+A.2 G&A e Outras
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Despesas com vendas, gerais e administrativas¹ (42) (78) 36 (46) 4 (88) (137) 49
+Outras receitas (despesas) operacionais¹ (247) (8) (239) (35) (212) (282) 166 (448)
+Depreciação e amortização 5 5 — 5 — 11 10 1
+Notas: (1) A partir do 4T23, passou a contemplar o resultado de negócios pré-operacionais e projetos de outros investimentos da Cosan, e das holdings intermediárias: Cosan Nove e Cosan Dez.
+No 2T26, a Cosan avançou significativamente na otimização de sua estrutura de custos: as despesas com 
+vendas, gerais e administrativas totalizaram R$ 42 milhões, representando uma redução de R$ 36 milhões 
+em comparação aos R$ 78 milhões do 2T25. Esse resultado deve-se, principalmente, às reestruturações 
+de pessoal e otimização das demais despesas ocorridas na holding.
+Na rubrica de outras receitas (despesas) operacionais, a Companhia registrou uma despesa de R$ 247 
+milhões no 2T26 . O aumento frente ao 2T25 decorre da contabilização do impairment dos ativos e 
+passivos disponíveis para a venda referentes ao TUP Porto São Luis S.A. O valor justo foi atualizado com 
+base na proposta vinculante de R$ 300 milhões, conforme divulgado ao mercado via Fato Relevante em 
+13 de agosto de 2026.
+Resultados | 2T26
+5
+
+[p. 6]
+A.3 Resultado Financeiro
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Custo da dívida bruta (683) (580) (102) (1.151) 468 (1.833) (1.373) (460)
+Perpetual notes (60) 68 (128) (143) 83 (203) 79 (282)
+Demais dívidas (Cosan S.A. e Offshores) (471) (649) 178 (865) 394 (1.336) (1.453) 117
+Prefs. Cosan Dez (151) — (151) (143) (8) (295) — (295)
+Rendimento de aplicações financeiras 277 113 164 321 (44) 598 333 264
+(=) Juros da dívida líquida (406) (467) 61 (830) 424 (1.235) (1.040) (196)
+TRS RAIL3 (105) — (105) (104) (1) (209) — (209)
+TRS CSAN3 — (125) 125 (14) 14 (14) (167) 153
+Outros encargos, variação monetária, fees e outros¹ (41) (65) 24 (140) 99 (181) (171) (10)
+(=) Outros efeitos (146) (190) 44 (259) 113 (404) (338) (66)
+Resultado financeiro (552) (657) 106 (1.088) 537 (1.640) (1.378) (262)
+Notas: (1) Inclui os efeitos de MtM referente ao investimento em participação na Vale no 2T25.
+No 2T26, o custo da dívida bruta totalizou R$ 683 milhões, queda de R$ 468 milhões em relação ao 1T26, 
+majoritariamente em razão do impacto das liquidações antecipadas integrais dos bonds e parciais das 
+debêntures e notas comerciais, que contribuíram para a redução das despesas financeiras da holding.
+Como consequência, o resultado financeiro do 2T26 evoluiu em R$ 537 milhões versus 1T26. Essa 
+variação é explicada, em grande medida, pela ausência dos efeitos não recorrentes concentrados no 
+trimestre anterior, entre os quais se destacam: (i) R$ 304 milhões referentes aos custos associados aos 
+pré-pagamentos de bonds e debêntures realizados no 1T26, além de R$ 96 milhões de efeitos cambiais e 
+derivativos relacionados aos bonds; e (ii) impactos decorrentes do desmonte da estrutura de TRS 
+lastreada em ações da Companhia e da estrutura de Call Spread das ações da Vale, que, em conjunto, 
+totalizaram R$ 41 milhões.
+Em função da concentração das liquidações antecipadas principalmente dos bonds no 1T26, os efeitos 
+não recorrentes associados a essas operações apresentaram menor impacto no 2T26, totalizando R$ 12 
+milhões referentes aos prêmios de pré-pagamentos de dívidas locais, o que contribuiu para a 
+normalização do resultado financeiro.
+Na comparação com o 2T25, o resultado financeiro apresentou queda de R$ 106 milhões, sustentada, 
+substancialmente, pelo maior rendimento das aplicações financeiras. Esse desempenho reflete: (i) a 
+elevação do saldo médio de caixa ao longo do período, impulsionado pelo evento de capitalização 
+realizado em 2025; (ii) a estrutura de alienação e TRS de ações da Rumo ; e (iii) pelo recebimento dos 
+recursos da oferta pública secundária de ações da Compass, concluído no trimestre.
+ 
+A.4 Imposto de Renda e Contribuição Social (IR/CS)
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Lucro (prejuízo) operacional antes do IR/CS (388) (915) 527 (750) 361 (1.138) (2.287) 1.149
+Alíquota nominal de IR/CS (%) 34,0 % 34,0 % 34,0 % 34,0 % 34,0 %
+Despesa teórica IR/CS 132 311 (179) 255 (123) 387 778 (391)
+Equivalência patrimonial 152 (59) 211 143 9 295 (319) 614
+Outros (216) (412) 196 (1.231) 1.015 (1.448) (1.278) (170)
+Despesa efetiva de IR/CS 68 (160) 228 (834) 902 (766) (820) 54
+Alíquota efetiva de IR/CS (%) 17,5 % -17,5 % -111,2 % -67,3 % -35,8 %
+Despesas com IR/CS
+Corrente (2) — (2) (2) — (4) (1) (3)
+Diferido 70 (160) 230 (832) 902 (762) (819) 57
+A despesa efetiva de IR/CS no 2T26 apresentou redução de R$ 228 milhões em relação ao 2T25, em 
+decorrência essencialmente dos efeitos não-caixa associadas do imposto diferido sobre o ajuste de valor 
+justo do Porto São Luís, que representou um crédito de aproximadamente R$ 79 milhões no diferido.
+Resultados | 2T26
+6
+
+[p. 7]
+A.5 Lucro Líquido
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Equivalência patrimonial (MEP)¹ 447 (173) 621 420 27 867 (939) 1.807
+Despesas gerais e administrativas (42) (78) 36 (46) 4 (88) (137) 49 
+Outras receitas (despesas) operacionais (247) (8) (239) (35) (212) (282) 166 (448) 
+Resultado financeiro (552) (657) 106 (1.088) 537 (1.640) (1.378) (262) 
+Imposto de renda e contribuição social 68 (160) 228 (834) 902 (766) (820) 54 
+Lucro (prejuízo) líquido (320) (1.075) 755 (1.583) 1.263 (1.904) (3.107) 1.203
+Resultado atribuído aos acionistas não controladores — (129) 129 — — — (373) 373
+Resultado atribuído aos acionistas controladores (320) (946) 625 (1.583) 1.263 (1.904) (2.734) 830
+Notas: (1) Considera resultado da Raízen nos períodos comparativos.
+A Cosan encerrou o 2T26 com um prejuízo de R$ 320 milhões, representando um avanço de R$ 625 
+milhões versus 2T25. O desempenho no período foi catalisado, fundamentalmente, pela menor despesa 
+efetiva de IR/CS, pelo melhor resultado financeiro e pela redução das despesas gerais e administrativas, 
+além dos efeitos da não contabilização do resultado da Raízen, que neutralizaram o impacto pontual 
+negativo de R$ 233 milhões, referente ao impairment do TUP Porto São Luís. Desconsiderando o efeito 
+pontual desse ajuste de valor justo, o prejuízo teria sido de R$ 167 milhões. As principais variações em 
+cada linha da demonstração de resultado são detalhadas nos seus respectivos itens desse release de 
+resultados.
+Na comparação com o 1T26, o resultado líquido da Cosan apresentou melhora de R$ 1,3 bilhão, refletindo 
+principalmente a menor concentração de efeitos associados às liquidações antecipadas de dívidas no 
+período. Enquanto os pré-pagamentos realizados no início do ano impactaram significativamente o 
+resultado financeiro e a despesa de IR/CS do 1T26, no 2T26 esses efeitos foram irrelevantes. A variação 
+positiva foi parcialmente impactada pelo reconhecimento do impairment, registrado em função da 
+aceitação da proposta vinculante do TUP Porto São Luis.
+No acumulado do ano, o prejuízo líquido totalizou R$ 1,9 bilhão. Excluindo os efeitos não recorrentes 
+relacionados aos pré-pagamentos realizados, com seus impactos tributários, bem como o impairment do 
+Porto São Luís, o prejuízo líquido recorrente seria de R$ 631 milhões.
+Resultados | 2T26
+7
+
+[p. 8]
+B. Estrutura de Capital e Fluxo de Caixa - Cosan Corporativo
+B.1 Endividamento
+R$ MM Empresa 2T26 2T25 Variação 1T26 Variação
+Cosan Corporativo
+Debêntures e Notas Comerciais¹ Cosan S.A. 9.919 12.810 (2.891) 12.490 (2.570)
+Bonds (Senior Notes 2029, 2030 e 2031) Offshores — 5.873 (5.873) — —
+Bônus Perpétuos Offshores 2.621 2.763 (142) 2.643 (22)
+Prefs. Cosan Dez Cosan S.A. 3.871 — 3.871 3.995 (124)
+(-) MTM Cosan S.A. 74 66 8 58 16
+Dívida bruta expandida (ex-IFRS 16) 16.485 21.512 (5.027) 19.185 (2.701)
+(-) Caixa, equivalentes de caixa e TVM (7.268) (3.975) (3.293) (7.714) 446
+Dívida líquida expandida² 9.217 17.538 (8.321) 11.471 (2.254) 
+TRS Rumo 3.014 — 3.014 2.909 105 
+Dívida líquida expandida + TRS Rumo 12.231 17.538 (5.307) 14.380 (2.149) 
+Notas: (1) Valor líquido das estruturas de internação de emissões no mercado de capitais internacional; ( 2) Considera a estrutura de ações preferenciais da Cosan Dez. (3 ) A partir do 2T26, a 
+estrutura de alienação e derivativo das ações da Rumo (TRS) passou a ser apresentada na tabela, em linha com o tratamento de seus efeitos no resultado financeiro da holding. Ressaltamos que 
+a Companhia não possui a obrigação de recompra. 
+A dívida bruta expandida da Cosan encerrou o 2T26 em R$ 16,5 bilhões, redução de R$ 5,0 bilhões em 
+relação ao 2T25 e de R$ 2,7 bilhões frente ao 1T26. Considerando as ações preferenciais da Cosan Dez 
+no 2T25 para fins de comparabilidade, a redução alcançaria R$ 9,0 bilhões.
+O movimento reflete as iniciativas de liability management realizadas pela Companhia, conforme ilustrado 
+no diagrama abaixo. Nos primeiros seis meses de 2026, as liquidações antecipadas totalizaram R$ 8,8 
+bilhões em principal de dívida bruta, abrangendo as Senior Notes 2029, 2030 e 2031, a 1ª série da 4ª 
+emissão de debêntures, a 6ª emissão de debêntures, a 5ª emissão e a 1ª série da 11ª emissão de 
+debêntures, além da 1ª série da 4ª emissão de Notas Comerciais.
+Adicionalmente, a Cosan encerrou o trimestre com caixa e equivalentes de caixa de R$ 7,3 bilhões, 
+redução de R$ 446 milhões frente ao 1T26. A variação não reflete integralmente os pré-pagamentos 
+realizados no período, uma vez que parte desse efeito foi compensada pela entrada de recursos do IPO 
+secundário da Compass, conforme detalhado no item A.3 Resultado Financeiro.
+Desta forma, a dívida líquida expandida somou R$ 9,2 bilhões no segundo trimestre de 2026, redução de 
+47% em relação ao 2T25, impulsionada principalmente pelo maior nível de caixa da Companhia, 
+decorrente dos recursos provenientes da capitalização e dos desinvestimentos realizados nos últimos 
+doze meses. Em relação ao 1T26, a dívida líquida expandida apresentou redução de 20%, refletindo a 
+continuidade das iniciativas de otimização da estrutura de capital . No diagrama abaixo, apresentamos os 
+elementos que compõe a movimentação da dívida líquida expandida da holding:
+Resultados | 2T26
+8
+
+[p. 9]
+Encerrando o item de endividamento, a presentamos o cronograma de amortização de principal da Cosan 
+em 30 de junho de 2026. Como resultado das ações de liability management , a concentração de 
+vencimentos em 2028 recuou 85% frente ao 1T26 (de R$ 3.094 milhões para R$ 474 milhões), com custo 
+e prazo médio da dívida permanecendo em linha com 1T26 , em CDI + 1,15% a.a . e 6,2 anos 
+respectivamente.
+Notas: (1) Contempla apenas o valor principal das dívidas sem considerar os juros e MTM. Considera os Perpetual Notes na torre de 2036+, no valor de R$ 2.588 milhões; (2) Inclui todas as 
+dívidas detalhadas no Release de Resultados da Cosan 2T26, inclusive Cosan Dez. (3) O custo médio da dívida apresentado a partir do 4T25 considera o custo implícito de Cosan Dez e exclui o 
+custo do swap de juros do bond perpétuo.
+B.2 Índice de Cobertura do Serviço da Dívida (ICSD)
+Cosan Corporativo - R$ MM 2T26 2T25 Variação 1T26 Variação
+Dividendos e JCP recebidos LTM¹ 961 3.405 (2.445) 1.141 (180)
+PNs Cosan Nove e Dez (440) (793) 353 (440) —
+'Dividendos e JCP líquidos recebidos LTM (a)4 521 2.612 (2.091) 701 (180)
+Juros líquidos pagos LTM²,3 e 4 (b) 2.186 2.258 (72) 1.835 351
+Índice de Cobertura de Juros da Dívida (c = a / b) 0,2x 1,2x -1,0x 0,4x -0,2x
+Notas: (1) Reconciliação no quadro de dividendos no item B.4 Dividendos; (2) Inclui pagamento de juros, derivativos vinculados a dívidas e despesas derivativos banco; (3) Líquido de rendimento 
+de caixa a partir do 1T25; ( 4) A partir do 2T26, o ICSD passou a considerar integralmente os dividendos recebidos da Compass no numerador, enquanto os pagamentos aos acionistas 
+preferencialistas da Cosan Dez são reconhecidos no denominador do indicador. Anteriormente, os dividendos eram considerados líquidos desses pagamentos.
+Desde o 4T23, passamos a divulgar o índice de cobertura sobre o serviço da dívida do segmento Cosan 
+Corporativo dos últimos doze meses, que é calculado pela divisão entre:
+• Dividendos/JCP líquidos recebidos LTM (efeito caixa): dividendos, JCP e reduções de capital 
+recebidos menos os dividendos pagos aos preferencialistas (Cosan Nove) nos últimos doze meses; 
+• Juros líquidos pagos LTM (efeito caixa): considera rendimento do caixa, juros pagos despesas 
+financeiras com preferencialistas com cláusula de PUT (Cosan Dez) e derivativos de juros pagos 
+nos últimos doze meses.
+Resultados | 2T26
+9
+
+[p. 10]
+No 2T26, o ICSD atingiu 0,2x, redução de 0,2x versus 1T26. A variação decorre da menor contribuição de 
+dividendos e JCP recebidos nos últimos doze meses, em função da saída de eventos relevantes 
+registrados em 2025, bem como de níveis ainda elevados de despesa financeira no LTM. Adicionalmente, 
+a comparação é impactada pela saída de eventos relevantes observados em 2025, como a redução de 
+capital da Compass e os dividendos distribuídos pela Rumo. Por outro lado, os juros líquidos pagos já 
+refletem parte dos benefícios das liquidações antecipadas realizadas em 2026, ainda que tais efeitos não 
+sejam integralmente capturados pelo indicador em bases LTM.
+B.2.1 Guidance Índice de Cobertura do Serviço da Dívida (ICSD)
+Como parte do compromisso de ampliar a transparência sobre sua estrutura de capital e facilitar 
+o acompanhamento da evolução financeira da holding, a Companhia passa a divulgar uma 
+projeção para o ICSD. 
+Com base nas premissas atualmente consideradas pela Companhia, o ICSD deverá convergir 
+para uma faixa entre 0,8x e 1,2x ao final de 2026. Essa evolução é suportada 
+predominantemente pelo cronograma de recebimento dos dividendos ordinários das investidas e 
+pela redução da despesa financeira decorrente das iniciativas de liability management 
+implementadas nos últimos trimestres.
+Realizado 
+2T26
+Guidance 
+Dezembro/2026
+Intervalo
+ICSD LTM 0,2x 0,8x ≤ Δ ≤ 1,2x
+Principais Premissas
+• O intervalo acima considera: (i) os dividendos e equivalentes recebidos e a serem 
+recebidos no ano de 2026, entre R$ 1,3 bilhão e R$ 1,8 bilhão, incluindo dividendos oriundos da 
+venda de R$ 1,85 bilhão de parcela da Radar, no valor de até R$ 586 milhões para Cosan; (ii) 
+rendimento de caixa de suas aplicações financeiras ligeiramente acima de 100% CDI; (iii) juros e 
+despesas financeiras pagas sobre o saldo de dívida bruta médio no trimestre e em linha com 
+custo médio da Cosan, hoje em CDI + 1,15%a.a. conforme divulgado, além de considerar 
+também o efeito caixa de derivativos de juros atrelados às dívidas; e (iv) premissas como juros 
+básicos (“CDI”) baseadas em dados de reconhecidas consultorias terceirizadas e/ou curvas de 
+mercado divulgadas pela B3;
+• Não são considerados nessa métrica: desinvestimentos que ainda não tiveram data de 
+fechamento divulgada e potenciais novos desinvestimentos que ainda estão em avaliação e sem 
+quaisquer documentos vinculantes.
+Resultados | 2T26
+10
+
+[p. 11]
+B.3 Valor de resgate das ações preferenciais
+Com o objetivo de facilitar a compreensão e ampliar a transparência, reportamos no quadro abaixo os 
+valores de resgate atualizados das ações preferenciais da Cosan Nove e Cosan Dez ao final do 2T26. O 
+cálculo tem como base o valor inicial do investimento corrigid os por uma taxa de CDI + spread menos os 
+dividendos pagos e eventuais resgates antecipados aos acionistas preferencialistas não controladores 
+(para mais informações veja a nota explicati va 5.7 Gestão de Risco Financeiro e 5.8 Obrigação de 
+recompra de ações de controlada das Demonstrações Financeiras intermediárias de 30 de junho de 2026).
+R$ MM Valor inicial de resgate Atualização Valor resgatado¹ Dividendos pagos Valor de resgate atualizado³
+Cosan Nove 4.115 1.559 (2.169) (845) 2.660
+Cosan Dez² 4.000 295 — (276) 4.019
+Nota: (1) Em 31 de março de 2025 realizamos o resgate de uma parcela das ações preferenciais emitidas pela Cosan Nove S.A., então subscritas pelo Itaú em dezembro de 2022, no valor total de 
+R$ 2,2 bilhões. A participação societária da Cosan na Cosan Nove foi para 87,27%; (2) A partir do 4T25, a Cosan Dez passou a impactar as tabelas de Endividamento e Resultado Financeiro, em 
+função da cláusula de put option prevista em contrato; (3) Em 30/06/2026.
+B.4 Dividendos
+Apresentamos abaixo a reconciliação dos dividendos e JCP, na visão caixa, que foram recebidos pela 
+Cosan Corporativo, detalhado por investida, bem como os dividendos pagos pela Cosan aos seus 
+acionistas. 
+R$ MM 2T26 2T25 Variação 2T26 LTM 2T25 LTM¹ Variação
+Total de dividendos e JCP recebidos (a) 399 579 -31 % 961 3.405 -72 %
+Raízen — — n/a — 46 n/a
+Compass (Cosan Dez) 357 — n/a 797 2.200 -64 %
+Rumo — 456 n/a — 456 n/a
+Radar 42 123 -66 % 116 300 -62 %
+Outros — — n/a 48 403 -88 %
+Total de dividendos e JCP pagos (296) — n/a (919) (850) 8 %
+Para acionistas da Cosan S.A. — — n/a — (57) n/a
+Para acionistas preferencialistas (b) (296) — n/a (919) (371) n/a
+Cosan Nove — — n/a — (371) n/a
+Cosan Dez (296) — n/a (919) — n/a
+Reduções de capital para preferencialistas (c) — — n/a — (422) n/a
+Dividendos recebidos líquido de repasses (d) = (a) - (b) - (c) 103 579 -82 % 41 2.612 -98 %
+Nota: (1) Inclui efeitos da redução de capital da Compass.
+B.5 Demonstrativo Fluxo de Caixa
+R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Fontes 3.083 677 2.407 343 2.741 3.426 11.311 (7.885)
+Dividendos/JCP recebidos¹ 399 579 (180) 36 363 434 2.046 (1.612)
+Rendimento de caixa, líquido 255 79 176 275 (20) 530 353
+Gestão de portfólio: desinvestimentos 2.430 19 2.411 32 2.398 2.462 8.912 (6.450)
+Usos (945) (690) (255) (1.966) 1.021 (2.910) (4.218) 1.307
+Juros e outras despesas financeiras (481) (583) 102 (1.384) 903 (1.866) (1.016) (850)
+Despesas gerais e capital de giro (166) (103) (63) (306) 140 (472) (314) (159)
+Gestão de portfólio: aquisições, aportes & recompra — — — (272) 272 (272) (2.203) 1.931
+Gestão de portfólio: capex (2) (4) 2 (3) 2 (5) (8) 3
+Distribuição preferencialistas (296) — (296) — (296) (296) (677) 381
+Sobra (consumo) de caixa gerencial 2.138 (14) 2.152 (1.623) 3.762 515 7.093 (6.578)
+Gestão da dívida (2.619) (172) (2.447) (6.149) 3.530 (8.769) (6.525) (2.244)
+Captações — — — — — — 2.443 (2.443)
+Amortização de principal (2.619) (172) (2.447) (6.149) 3.530 (8.769) (8.968) 199
+Variação cambial e outros efeitos caixa 34 (26) 60 (194) 229 (160) 84 (244)
+Derivativos não dívida — (24) 24 (283) 283 (283) (1.006)
+Geração (consumo) de caixa (446) (237) (210) (8.250) 7.803 (8.696) (354) (8.342)
+Caixa, equivalentes de caixa e TVM, inicial 7.714 4.211 3.503 15.964 (8.250) 15.964 4.328 11.636
+Caixa, equivalentes de caixa e TVM, final 7.268 3.975 3.293 7.714 (446) 7.268 3.975 3.293
+Notas: (1) Inclui efeitos de redução de capital no 6M25.
+Resultados | 2T26
+11
+
+[p. 12]
+No segundo trimestre de 2026 os principais movimentos de caixa foram:
+Fontes: linha de "gestão de portfólio desinvestimentos" refletindo o recebimento da alienação da 
+participação na Compass (IPO).
+Usos: na linha de "amortização de principal" devido aos pré-pagamentos das debêntures e notas 
+comerciais, conforme explicado no item B.1 Endividamento.
+Após esses movimentos, a Cosan encerrou o trimestre com posição de caixa de R$ 7,3 bilhões.
+Resultados | 2T26
+12
+
+[p. 13]
+C. Desempenho do Portfólio 
+Apresentamos os resultados das investidas controladas Rumo, Compass, Moove e Radar, ajustados por 
+efeitos não recorrentes, quando aplicável. 
+Rumo Compass Moove Radar
+R$ MM 2T26 2T25 Δ 2T26 2T25 Δ 2T26 2T25 Δ 2T26 2T25 Δ
+EBITDA ajustado¹ 2.267 2.279 -1 % 1.275 1.216 5 % 475 505 -6 % (29) 134 n/a
+Lucro (prejuízo) líquido 520 333 56 % 287 353 -19 % 197 344 -43 % (30) 131 n/a
+R$ MM 6M26 6M25 Δ 6M26 6M25 Δ 6M26 6M25 Δ 6M26 6M25 Δ
+EBITDA ajustado¹ 4.012 3.915 2 % 2.604 2.513 4 % 710 737 -4 % 74 275 -73 %
+Lucro (prejuízo) líquido 617 236 n/a 669 773 -13 % 282 374 -25 % 65 265 -76 %
+Notas: (1) EBITDA ajustado pelos efeitos pontuais detalhados na página 21 deste relatório, quando aplicável.
+C.1 Rumo
+Indicadores 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Volume transportado (TKU MM) 23.811 21.827 9 % 20.188 18 % 44.000 37.917 16 %
+Operação Norte 19.393 17.954 8 % 16.586 17 % 35.979 30.987 16 %
+Operação Sul 3.264 2.861 14 % 2.529 29 % 5.793 4.942 17 %
+Contêineres 1.154 1.012 14 % 1.074 7 % 2.228 1.989 12 %
+Margem de contribuição (R$/'000 TKU) 122 126 -3 % 118 3 % 120 129 -7 %
+EBITDA ajustado¹ (R$ MM) 2.267 2.279 -1 % 1.745 30 % 4.012 3.915 2 %
+Lucro líquido (R$ MM) 520 333 56 % 98 n/a 617 236 n/a
+Investimentos² (R$ MM) 1.597 1.395 15 % 1.774 -10 % 3.371 3.175 6 %
+Alavancagem 2,1x 1,8x 0,3x 2,1x 0x 2,1x 1,8x 0,3x
+Notas: (1) EBITDA ajustado pelos efeitos pontuais detalhados na página 21 deste relatório, quando aplicável; (2) Investimentos reportados na visão caixa; inclui contratos com clientes (IFRS 15) e 
+exclui M&A.
+A Rumo transportou 23,8 bilhões de TKU no trimestre, um aumento de 9% em comparação ao 2T25, 
+alavancado majoritariamente pelo crescimento da carteira de grãos nas operações Norte e Sul. 
+O EBITDA ajustado totalizou R$ 2,3 bilhões no 2T26, praticamente estável versus o mesmo período do 
+ano anterior. Se desconsiderados indenizações securitárias e reclassificação de equivalência patrimonial 
+no 2T25, o crescimento teria sido de 4%.
+Os investimentos totalizaram R$ 1,6 bilhão no trimestre, sendo concentrados na sustentação das 
+operações existentes e na expansão da Operação Norte. 
+As Demonstrações Financeiras e o Release de Resultados da Rumo estão disponíveis em: 
+ri.rumolog.com.
+Resultados | 2T26
+13
+
+[p. 14]
+C.2 Compass 
+Indicadores 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Volume de gás natural distribuído (mil m³) 1.341 1.352 -1 % 1.247 8 % 2.587 2.591 - %
+Marketing & Serviços 461 364 27 % 416 11 % 876 691 27 %
+EBITDA (R$ MM) 1.275 1.216 5 % 1.329 -4 % 2.604 2.513 4 %
+Distribuição de gás 1.242 1.174 6 % 1.057 18 % 2.299 2.138 8 %
+Marketing & Serviços 140 93 50 % 312 -55 % 452 457 -1 %
+Corporativo + eliminações (108) (52) n/a (40) n/a (148) (82) 80 %
+Lucro (prejuízo) líquido 287 353 -19 % 382 -25 % 669 773 -13 %
+Investimentos¹ (R$ MM) 532 538 -1 % 400 33 % 932 904 3 %
+Alavancagem 2,3x 1,9x 0,4x 2,2x 0,1x 2,3x 1,9x 0,4x
+No 2T26, o volume de gás natural distribuído ficou praticamente estável frente ao reportado no 2T25, em 
+função do menor volume industrial, com destaque para os setores químico, siderúrgico e cerâmica, que 
+neutralizou o melhor mix de volume das classes residencial e comercial, com o aumento da base de 
+clientes e avanço de serviços como o setor de gastronomia e hotelaria.
+A Compass registrou EBITDA de R$ 1,3 bilhão no trimestre, 5% maior versus 2T25, refletindo o melhor mix 
+das classes residencial e comercial e a otimização de novas cargas no segmento de Marketing e Serviços, 
+que compensaram a redução no volume do segmento de distribuição.
+Os investimentos foram de R$ 532 milhões no 2T26, em linha com o mesmo período do ano anterior, 
+sendo destinados majoritariamente à expansão das operações de distribuição conforme planos 
+regulatórios.
+As Demonstrações Financeiras e o Release de Resultados da Compass estão disponíveis em: 
+compassbr.com. 
+C.3 Moove
+Indicadores 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Volume - vendas lubrificantes¹ (000' m³) 153 144 6 % 157 -2 % 310 287 8 %
+Receita operacional líquida (R$ MM) 2.784 2.246 24 % 2.457 13 % 5.241 4.588 14 %
+EBITDA² (R$ MM) 475 505 -6 % 236 n/a 710 737 -4 %
+Margem EBITDA (%) 17,0 % 22,5 % -5,4 p.p. 9,6 % 7,5 p.p. 13,6 % 16,1 % -2,5 p.p.
+Lucro líquido (R$ MM) 197 344 -43 % 85 n/a 282 374 -25 %
+Investimentos (R$ MM) 34 29 17 % 27 25 % 61 74 -19 %
+Alavancagem 1,4x 1,9x -0,4x 1,3x 0,2x 1,4x 1,9x -0,4x
+Notas: (1) Considera o volume vendido de lubrificantes e óleos básicos; (2) Exclui efeitos pontuais detalhados na página 21 deste relatório, quando aplicável.
+A Moove apresentou EBITDA de R$ 475 milhões no 2T26, mais do que dobrando o resultado do 1T26, 
+refletindo a execução bem-sucedida da estratégia da gestão de receita e estoques com foco em 
+rentabilidade, garantindo a disponibilidade de produtos em todas as regiões, em meio à crise de 
+suprimentos da indústria de lubrificantes deflagrada pela guerra e fechamento do estreito de Hormuz. 
+Na comparação com o 2T25, o volume de vendas e a receita líquida cresceram 6% e 24% 
+respectivamente, enquanto o EBITDA recuou 6%, em função da base de comparação mais forte que 
+contou com o reconhecimento de perdas e indenizações relacionadas ao incêndio na planta do Rio de 
+Janeiro.
+Resultados | 2T26
+14
+
+[p. 15]
+C.4 Radar
+Demonstração do resultado do exercício - R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Receita operacional líquida 112 184 -39 % 128 -12 % 240 336 -29 %
+Outras receitas (despesas) operacionais, líquidas (116) (4) n/a (2) n/a (118) (5) n/a
+Imposto de renda e contribuição social (15) (22) -31 % (18) -14 % (33) (43) -23 %
+Lucro (prejuízo) líquido (30) 131 n/a 94 n/a 65 265 -76 %
+Resultado financeiro (14) (19) -26 % (9) 55 % (24) (33) -29 %
+Imposto de renda e contribuição social 15 22 -31 % 18 -14 % 33 43 -23 %
+EBITDA (29) 134 n/a 103 n/a 74 275 -73 %
+Investimentos 1 1 -36 % 1 -2 % 1 6 -78 %
+No trimestre, o EBITDA da Radar foi impactado pela reavaliação de terras em vista da alienação 
+anunciada e pela redução na receita operacional líquida em decorrência dos menores valores de 
+arrendamento em função da queda dos preços de ATR (açúcar total recuperável) ao longo do período. 
+Ao final do 2T26, o valor das terras foi estimado em cerca de R$ 18,1 bilhões, conforme reavaliação 
+realizada, dos quais aproximadamente R$ 5,6 bilhões correspondem à participação consolidada da Cosan. 
+Resultados | 2T26
+15
+
+[p. 16]
+D. Anexos 
+Anexo I - Temas Relevantes
+Apresentamos a seguir os principais assuntos divulgados até a data da publicação desse relatório.
+IPO Compass
+Em maio de 2026, foi concluída a oferta pública secundária de ações ( Initial Public Offering – "IPO") da 
+Compass na B3. Considerando a oferta base e os lotes adicional e suplementar, foram alienadas 
+108.548.614 ações ordinárias detidas pelos acionistas vendedores, das quais a Companhia alienou 
+84.441.472. A Cosan recebeu o montante líquido de cerca de R$ 2,3 bilhões. Mais informações podem 
+ser consultadas nos fatos relevantes divulgados pela Companhia e pela Compass.
+Alienação de propriedades do portfólio da Radar
+Em junho, o Grupo Radar, por meio de algumas de suas subsidiárias (“Radar”) detentoras de propriedades 
+agrícolas que contam com investimentos por parte da Cosan, avançou na alienação de parte de seu 
+portfólio de propriedades agrícolas no Mato Grosso. 
+Após os exercícios concorrentes do direito de preferência pelos arrendatários, foram firmados, em julho, 
+um acordo para segregação consensual dos Imóveis, bem como novos compromissos de compra e venda 
+com os adquirentes, mantidas as condições comerciais originalmente acordadas. O fechamento da 
+operação segue sujeito ao cumprimento de condições precedentes usuais e é esperado até 30 de outubro 
+de 2026. Os ativos representam aproximadamente 12% do portfólio total da Radar, somam 41.214 
+hectares e possuem valor de transação de R$ 1,85 bilhão, dos quais cerca de R$ 586 milhões 
+correspondem à participação indireta da Cosan. 
+Homologação do Plano de Recuperação Extrajudicial da Raízen
+Em julho, a Raízen anunciou a homologação do seu Plano de Recuperação Extrajudicial ("Plano") 
+apresentado em 5 de junho de 2026, que contou com a adesão de 81,6% dos credores financeiros 
+quirografários da companhia. A Raízen segue avançando nos atos preparatórios e medidas necessárias 
+para a efetiva implementação do Plano. Vide mais detalhes nos documentos divulgados pela companhia.
+Alienação do TUP São Luís 
+No mês de agosto, a Cosan formalizou uma carta de intenções, apresentada por terceiro adquirente, para 
+alienação da totalidade da sua participação no Terminal de Uso Privado Porto São Luís S.A. (“TUP São 
+Luís” e “Proposta”, respectivamente). A Proposta, que prevê um período de exclusividade para a 
+negociação e celebração dos documentos definitivos, contempla o preço ofertado de R$ 300 milhões 
+(“Preço Indicativo”). Além do Preço Indicativo, devido no fechamento da transação, a Companhia poderá 
+fazer jus a um earn-out para potenciais novos berços implantados/a serem implantados no TUP São Luís 
+até 2035, em adição ao berço principal, no valor indicativo de R$50 milhões por berço. Os valores serão 
+atualizados pela variação acumulada do IPCA desde a aceitação da Proposta até as respectivas datas de 
+pagamento.
+A aceitação da Proposta, bem como a implementação e conclusão dessa transação, fica condicionada a 
+condições precedentes usuais para esse tipo de operação, bem como à negociação dos documentos 
+definitivos. Vide mais detalhes no Fato relevante divulgado pela Companhia.
+Resultados | 2T26
+16
+
+[p. 17]
+Anexo II - Demonstrações Financeiras
+Cosan Consolidado S.A.
+Demonstração do resultado do exercício - R$ MM 2T26 2T25 Variação 1T26 Variação 6M26 6M25 Variação
+Receita operacional líquida 10.776 10.478 3 % 9.029 19 % 19.805 20.140 -2 %
+Custo dos produtos vendidos e dos serviços prestados (6.747) (6.882) -2 % (5.953) 13 % (12.700) (13.673) -7 %
+Lucro bruto 4.029 3.596 12 % 3.076 31 % 7.105 6.467 10 %
+Despesas com vendas, gerais e administrativas (1.139) (1.101) 3 % (991) 15 % (2.130) (2.076) 3 %
+Outras receitas (despesas) operacionais, líquidas (394) 91 n/a 67 n/a (327) 330 n/a
+Resultado financeiro (1.852) (1.803) 3 % (2.363) -22 % (4.215) (3.706) 14 %
+Resultado de equivalência patrimonial 29 (749) n/a 44 -35 % 73 (1.869) n/a
+Imposto de renda e contribuição social (486) (603) -19 % (1.178) -59 % (1.664) (1.649) 1 %
+Lucro (prejuízo) líquido 187 (568) n/a (1.345) n/a (1.158) (2.503) -54 %
+Resultado atribuído aos acionistas não controladores 507 378 34 % 238 n/a 746 230 n/a
+Resultado atribuído aos acionistas controladores (320) (946) -66 % (1.583) -80 % (1.904) (2.734) -30 %
+Balanço patrimonial - R$ MM 2T26 1T26
+Caixa e equivalentes de caixa 13.358 17.464
+Títulos e valores mobiliários - CP 5.491 3.861
+Outros ativos circulantes 12.698 10.580
+Ativo circulante 31.546 31.905
+Títulos e valores mobiliários - LP 64 77
+Instrumentos financeiros e derivativos - Ativo 1.852 2.003
+Investimentos 1.802 1.768
+Propriedades para investimentos 16.260 18.222
+Imobilizado 29.130 27.950
+Intangível 26.618 26.595
+Outros ativos não circulantes 19.422 18.467
+Ativo não circulante 95.148 95.084
+Total do ativo 126.694 126.989
+Empréstimos e financiamentos - CP 4.943 3.705
+Instrumentos financeiros e derivativos - Passivo CP 1.570 1.695
+Fornecedores 4.101 3.812
+Ordenados e salários a pagar 623 517
+Outros passivos circulantes 7.669 7.339
+Passivo circulante 18.905 17.068
+Empréstimos e financiamentos - LP 49.316 54.796
+Instrumentos financeiros e derivativos - Passivo LP 992 650
+Outros passivos não circulantes 25.571 25.085
+Passivo não circulante 75.879 80.531
+Total do passivo 94.784 97.599
+Patrimônio líquido 31.910 29.390
+Total do passivo e patrimônio líquido 126.694 126.989
+Resultados | 2T26
+17
+
+[p. 18]
+Demonstração do fluxo de caixa - R$ MM 2T26 2T25 Variação 1T26 Variação
+EBITDA 3.521 2.830 24 % 3.167 11 %
+Efeitos não caixa / ajuste no resultado 517 1.045 -51 % 211 n/a
+Variação de ativos e passivos (1.042) (376) n/a (1.353) -23 %
+Resultado financeiro operacional 622 577 8 % 582 7 %
+Fluxo de caixa operacional (a) 3.618 4.075 -11 % 2.607 39 %
+CAPEX (2.104) (1.925) 9 % (2.298) -8 %
+Dividendos recebidos 45 45 - % 17 n/a
+Outros investimentos (40) 70 n/a (429) -91 %
+Fluxo de caixa de investimento (b) (2.099) (1.810) 16 % (2.710) -23 %
+Captação de dívida 249 1.428 -83 % 2.687 -91 %
+Amortização de principal (4.232) (1.914) n/a (7.760) -45 %
+Dividendos pagos (d) (435) (1.288) -66 % — n/a
+Pagamento de juros (1.284) (1.089) 18 % (1.628) -21 %
+Pagamento de arrendamentos IFRS 16 (240) (231) 4 % (252) -5 %
+Derivativos (480) (442) 9 % (1.288) -63 %
+Outros financiamentos 2.430 — n/a (237) n/a
+Fluxo de caixa de financiamento (c) (3.992) (3.535) 13 % (8.478) -53 %
+Impacto da variação cambial e MtM das ações nos saldos de caixa e equivalente de caixa (17) (143) -88 % (253) -93 %
+Caixa líquido gerado (consumido) no período (2.490) (1.413) 76 % (8.833) -72 %
+Caixa livre para os acionistas (FCFE) (a+b+c-d) (2.037) 18 n/a (8.580) -76 %
+Resultados | 2T26
+18
+
+[p. 19]
+Anexo III - Segmentos Reportados
+Cosan Corporativo: reconciliação da estrutura corporativa, que é composta por: (i) alta administração e 
+equipes corporativas, que incorrem em G&A e outras despesas (receitas) operacionais, incluindo 
+investimentos pré-operacionais; (ii) resultado de equivalência patrimonial dos ativos e (iii) resultado 
+financeiro atribuído a caixa e dívidas da controladora, holdings intermediárias (Cosan Nove e Cosan Dez) 
+e empresas financeiras offshores, entre outras despesas. Em 30 de junho de 2026 , o segmento Cosan 
+Corporativo compreendia as seguintes entidades e suas principais características:
+Rumo: É a maior operadora independente de logística ferroviária no Brasil, responsável por soluções 
+logísticas de transporte de cargas que conectam o país de Norte a Sul. A Rumo (“RAIL3”) está listada, 
+desde 2015, no segmento do Novo Mercado da B3.
+Compass: Plataforma de negócios de gás com o propósito de impulsionar a transformação do mercado 
+de gás natural no Brasil. Atua nos segmentos de Distribuição, por meio de participações em distribuidoras 
+de gás natural; e Marketing & Serviços, com soluções de suprimento que atendem clientes conectados ou 
+não à rede (off-grid). A Compass ("PASS3") foi listada em 2026 no segmento do Novo Mercado da B3. 
+Moove: Atua na produção, formulação e distribuição de lubrificantes, óleos básicos e especialidades com 
+sede no Brasil e operação em mais de 10 países na América do Sul, América do Norte e Europa. Distribui 
+e vende produtos sob a marca Mobil e de diversas marcas proprietárias para diferentes segmentos, 
+incluindo industrial, comercial e automotivo.
+Radar: Inclui a participação nas propriedades agrícolas das empresas Radar, Tellus e Janus, e a gestora 
+do portfólio, representada pela JV com a Nuveen, formada em março de 2024. A Radar é referência em 
+gestão de propriedades agrícolas e investe em um portfólio diversificado e com alto potencial de 
+valorização, com cerca de 300 mil hectares. 
+1
+Resultados | 2T26
+19
+1 Visão societária
+
+[p. 20]
+Resultado por segmento Cosan Consolidado
+Apresentamos a seguir o resultado do 2T26 por unidade de negócio, detalhadas anteriormente, e 
+consolidado. Todas as informações refletem a consolidação de 100% dos resultados das subsidiárias, 
+independentemente da participação da Cosan, uma vez que a Companhia detém o controle destas 
+empresas, exceto Raízen (IFRS 10 – para mais informações vide a n ota 4.1 das Demonstrações 
+Financeiras intermediárias de 30 de junho de 2026 ). É importante clarificar que a Cosan Corporativo é 
+uma reconciliação composta pela Controladora (Cosan S.A.) e por outras controladas, como detalhado na 
+página 19. Os quadros abaixo retratam a íntegra das informações prestadas nas Demonstrações 
+Financeiras intermediárias de 30 de junho de 2026 da Companhia. Para fins de reconciliação do EBITDA e 
+de consolidação, os “Ajustes e Eliminações” refletem as eliminações das operações entre todos os 
+negócios controlados pela Cosan.
+Resultado por unidade de negócio Cosan 
+Corporativo Rumo Compass Moove Radar Eliminações Cosan S.A.
+2T26
+Receita operacional líquida 4 3.940 3.935 2.784 112 (1) 10.776
+Custo dos produtos vendidos e dos serviços prestados — (1.973) (2.914) (1.861) — 1 (6.747)
+Lucro bruto 4 1.968 1.021 923 112 — 4.029
+Despesas de vendas — (15) (53) (421) — — (489)
+Despesas gerais e administrativas (42) (177) (280) (126) (25) — (650)
+Outras receitas (despesas) operacionais, líquidas (247) (225) 194 1 (116) — (394)
+Resultado de equivalência patrimonial 447 16 32 — — (467) 29
+Depreciação e amortização 5 532 361 98 — — 996
+EBITDA 169 2.099 1.275 475 (29) (467) 3.521
+Depreciação e amortização (5) (532) (361) (98) — — (996)
+Resultado financeiro (552) (765) (473) (76) 14 — (1.852)
+Imposto de renda e contribuição social 68 (282) (153) (104) (15) — (486)
+Resultado atribuído aos acionistas não controladores — (363) (102) (59) 17 — (507)
+Lucro (prejuízo) líquido (320) 156 185 138 (13) (467) (320)
+Resultado por unidade de negócio Cosan 
+Corporativo Rumo Compass Moove Radar Eliminações Cosan S.A.
+6M26
+Receita operacional líquida 5 7.223 7.099 5.241 240 (2) 19.805
+Custo dos produtos vendidos e dos serviços prestados — (3.805) (5.220) (3.677) — 2 (12.700)
+Lucro bruto 5 3.418 1.879 1.564 240 — 7.105
+Despesas de vendas — (26) (95) (811) — — (933)
+Despesas gerais e administrativas (88) (343) (473) (246) (47) — (1.198)
+Outras receitas (despesas) operacionais, líquidas (282) (451) 517 7 (118) — (327)
+Resultado de equivalência patrimonial 867 30 64 — — (888) 73
+Depreciação e amortização 11 1.048 712 197 — — 1.968
+EBITDA 512 3.675 2.604 710 74 (888) 6.688
+Depreciação e amortização (11) (1.048) (712) (197) — — (1.968)
+Resultado financeiro (1.640) (1.611) (898) (90) 24 — (4.215)
+Imposto de renda e contribuição social (766) (399) (325) (142) (33) — (1.664)
+Resultado atribuído aos acionistas não controladores — (433) (180) (84) (48) — (746)
+Lucro (prejuízo) líquido (1.904) 185 489 198 16 (888) (1.904)
+Resultados | 2T26
+20
+
+[p. 21]
+Anexo IV – Reconciliação dos Ajustes do EBITDA
+Com o objetivo de manter uma base de comparação normalizada, apresen tamos abaixo a descrição dos 
+efeitos pontuais não recorrentes por linha de negócio, além dos ajustes já destacados no quadro, seguindo 
+os seguintes critérios:
+EBITDA | 2T26
+2T26 Cosan 
+Corporativo Rumo Compass Moove Radar Eliminações Cosan S.A.
+R$ MM
+Lucro (prejuízo) líquido (320) 156 185 138 (13) (467) (320)
+Resultado atribuído aos acionistas não controladores — 363 102 59 (17) — 507
+Imposto de renda e contribuição social (68) 282 153 104 15 — 486
+Resultado financeiro 552 765 473 76 (14) — 1.852
+Depreciação e amortização 5 532 361 98 — — 996
+EBITDA 169 2.099 1.275 475 (29) (467) 3.521
+Efeitos pontuais 233 168 — — — — 401
+EBITDA ajustado 402 2.267 1.275 475 (29) (467) 3.922
+• Cosan:
+Efeitos pontuais: reconhecimento do impairment, registrado em função da aceitação da proposta 
+vinculante do TUP Porto São Luis.
+• Rumo: 
+Efeitos pontuais: provisão para impairment no valor de R$ 168 milhões na Malha Sul, sem efeito caixa.
+EBITDA | 6M26
+6M26 Cosan 
+Corporativo Rumo Compass Moove Radar Eliminações Cosan S.A.
+R$ MM
+Lucro (prejuízo) líquido (1.904) 185 489 198 16 (888) (1.904)
+Resultado atribuído aos acionistas não controladores — 433 180 84 48 — 746
+Imposto de renda e contribuição social 766 399 325 142 33 — 1.664
+Resultado financeiro 1.640 1.611 898 90 (24) — 4.215
+Depreciação e amortização 11 1.048 712 197 — — 1.968
+EBITDA 512 3.675 2.604 710 74 (888) 6.688
+Efeitos pontuais 233 336 — — — — 569
+EBITDA ajustado 745 4.012 2.604 710 74 (888) 7.257
+Resultados | 2T26
+21

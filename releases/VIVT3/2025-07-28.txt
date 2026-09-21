@@ -1,0 +1,573 @@
+[p. 1]
+RESULTADOS
+2T25
+Telefônica Brasil S.A.
+Relações com Investidores
+28 de julho de 2025
+
+[p. 2]
+Resultados 2T25 |
+A Telefônica Brasil S.A. (B3: VIVT3, NYSE: VIV)
+divulga hoje seus resultados referentes ao
+segundo trimestre de 2025, apresentados de
+acordo com as Normas Contábeis Internacionais
+(IFRS) e com os pronunciamentos, interpretações
+e orientações emitidas pelo Comitê de
+Pronunciamentos Contábeis.
+Padrão do plano de fundo
+O conteúdo gerado por IA pode estar incorreto.
+Para acessar a 
+planilha com os dados 
+disponibilizados 
+no site de relações 
+com investidores, 
+clique aqui
+Destaques 2T25
+Acessos 
+Pós-Pago
+68,5mi
++7,0% a/a
+Acessos 
+FTTH
+7,4mi
++12,6% a/a
+Receitas 
+Totais
+R$14,6bi
++7,1% a/a
+EBITDA
+R$5,9bi
++8,8% a/a
+1. Considera pós-pago ex-M2M.
+2. 57,1 milhões de CPFs.
+3. AL significa Após Arrendamentos (After Leases). Mais detalhes na página 18. 
+4. Não inclui valores relativos à efeitos do IFRS 16. 
+5. Fluxo de Caixa Operacional é equivalente ao EBITDA menos Investimentos ex-IFRS 16 e ex-licenças.
+6. Considera o lucro líquido atribuído à Telefônica Brasil.
+7. Considera os eventos pagos de 1 de janeiro de 2025 a 25 de julho de 2025.
+Encerramos o segundo trimestre com 116,2 milhões de acessos, um crescimento de +1,3% na
+comparação anual. No segmento móvel, atingimos 102,5 milhões de acessos (+1,5% a/a), com
+cobertura 5G expandida para 596 municípios, o que representa um avanço de 2,6x em relação ao
+ano anterior. No pós-pago (excluindo M2M e dongles), registramos +3,2 milhões de adições líquidas
+a/a, totalizando 48,9 milhões de acessos. O ARPU¹ atingiu R$ 53,5, com crescimento de +3,1% a/a,
+enquanto o churn do pós-pago (ex-M2M) manteve-se em níveis historicamente baixos, encerrando
+o trimestre em 1,07%.
+Na frente de fibra, alcançamos 30,1 milhões de casas passadas, um crescimento de +10,2% a/a,
+com 7,4 milhões de domicílios conectados (+12,6% a/a). O churn da fibra foi o menor da história da
+Vivo, encerrando o trimestre em 1,46%.
+A receita líquida cresceu +7,1% a/a, impulsionada pelo sólido desempenho das receitas de serviços
+móveis (+7,3% a/a) e FTTH (+10,4% a/a). As receitas de Dados Corporativos, TIC e Serviços Digitais
+também contribuíram significativamente, com alta de +20,7% a/a, fortalecendo a receita fixa, que
+avançou +8,0% a/a.
+Nos últimos 12 meses, a receita média mensal por CPF² atingiu R$ 63,7, refletindo o crescimento
+das receitas de conectividade B2C (+5,3% a/a) e novos negócios B2C (+14,8% a/a),
+reforçando nosso posicionamento como um one-stop-shop para nossos clientes.
+O EBITDA registrou alta de +8,8% a/a, com uma margem de 40,5%, alta de +0,6 p.p. na
+comparação anual. Já o EBITDA AL³ expandiu +9,3% a/a, com margem de 31,5% (+0,6 p.p. a/a).
+No segundo trimestre de 2025, os Investimentos4 somaram R$ 2.439 milhões, alta de +4,2% a/a,
+representando 16,7% das receitas, uma redução de -0,5 p.p. a/a.
+O Fluxo de Caixa Operacional5 somou R$ 3.494 milhões, crescendo +12,2% a/a, com uma margem
+de 23,9% (+1,1 p.p. a/a) em relação à receita líquida. O Lucro líquido6 do trimestre alcançou R$ 1.344
+milhões, com alta de +10,0% a/a.
+A remuneração paga7 aos acionistas soma, até o final de julho de 2025, R$ 5.233 milhões, sendo
+R$ 2.250 milhões referentes a juros sobre capital próprio declarados no exercício social de 2024,
+R$ 2.000 milhões referentes à redução de capital e R$ 983 milhões referentes à recompra de ações.
+Nesse mês, a Companhia deliberou R$ 330 milhões adicionais em juros sobre capital próprio,
+somando R$ 1.650 milhões até julho de 2025. Reafirmamos nosso compromisso de distribuir, entre
+2024 e 2026, no mínimo 100% do lucro líquido de cada exercício. Em 2024, cumprimos esse
+compromisso com um payout de 105,3%.
+2
+
+[p. 3]
+Resultados 2T25 |
+1. Outras Receitas inclui Voz Fixa, xDSL, FTTC e IPTV. 
+2. AL significa Após Arrendamentos (After Leases). Mais detalhes na página 18.
+3. Lucro Líquido atribuído à Telefônica Brasil.
+4. Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período, EPS de 2024 foi recalculado considerando os 
+efeitos do Grupamento e Desdobramento efetivado em 15 de abril de 2025. Mais detalhes na nota explicativa 23.i) das Demonstrações Financeiras de 30 de junho de 2025.
+5. Não inclui valores relativos à efeitos do IFRS 16. 
+6. Fluxo de Caixa Operacional é equivalente ao EBITDA menos Investimentos ex-IFRS 16.
+7. Fluxo de Caixa Operacional AL é equivalente ao EBITDA Após Arrendamentos menos Investimentos ex-IFRS 16.
+Destaques
+3
+
+[p. 4]
+Resultados 2T25 |
+Negócio Móvel
+A Receita de Serviço Móvel (RSM) cresceu +7,3% na comparação anual, impulsionada
+principalmente pela Receita do Pós-pago¹, que avançou +10,9% a/a e passou a
+representar 86,0% da RSM (+2,8 p.p. a/a).
+O Pré-pago apresentou queda de -10,6% a/a na receita, reflexo da intensificação das
+migrações para o pós-pago (aceleradas a partir do 2T24) e da redução na frequência de
+recargas em relação ao mesmo período do ano anterior. Vale destacar que o pré-pago
+representa apenas 14,0% da RSM e 9,2% da Receita Operacional Líquida, e que essa
+dinâmica de migração contribui positivamente para o desempenho geral do serviço
+móvel, dado o maior ARPU e menor churn do pós-pago.
+Receita de Aparelhos e Eletrônicos ficou estável a/a. No trimestre, a venda de
+smartphones compatíveis com 5G representou 95% do total de smartphones vendidos
+(+8,1 p.p. a/a).
+ 
+1. Receita de pós-pago inclui M2M, dongles, atacado e outros.
+Acessos Móveis
+milhões
+Acessos Pós-pago
+milhões
+Churn Pós-Pago (ex-M2M) %
+4
+Esse desempenho robusto reflete o aumento da base de clientes, que atingiu 68,5
+milhões de acessos (+7,0% a/a), impulsionado por: migrações do pré-pago para controle
+e do controle para o pós-pago puro, aquisição de novos clientes e reajustes anuais de
+preços, que contribuíram para o aumento de +5,1% a/a no ARPU do móvel, que alcançou
+o maior valor na história da Companhia, R$ 31,1.
+
+[p. 5]
+Resultados 2T25 |
+Negócio Fixo
+A Receita Líquida Fixa encerrou o período com crescimento de +8,0% a/a, reflexo do
+forte crescimento das receitas de FTTH (+10,4% a/a) e de Dados Corporativos, TIC e
+Serviços Digitais (+20,7% a/a).
+Alcançamos 30,1 milhões de casas passadas com FTTH em 447 cidades, com incremento
+de 2,8 milhões de domicílios (+10,2% a/a), conectando 7,4 milhões de acessos (+12,6%
+a/a). No 2T25, o churn tem se mantido nas mínimas históricas, 1,46%, -0,26 p.p. a/a.
+A Receita de Dados Corporativos, TIC e Serviços Digitais registrou uma alta de duplo
+dígito, +20,7% a/a, somando R$ 1.361 milhões no trimestre, dos quais R$ 933 milhões são
+receitas de B2B Digital Fixa (+37,7% a/a).
+FTTH
+1. Outras Receitas Fixas inclui Voz Fixa, xDSL, FTTC e IPTV.
+2. O Vivo Total é o nosso produto que combina fibra e móvel em uma única oferta, com planos a partir de R$ 160, até a data desterelatório.
+3. Operação ainda sujeita a aprovação do CADE e ANATEL.
+Casas Passadas
+milhões
+Casas Conectadas
+milhões
+5
+Dos 7,4 milhões de acessos, 4,5 milhões são convergentes, dos quais 2,9 milhões através
+do Vivo Total², cuja base cresceu +63,5% a/a. O Vivo Total respondeu por 86,3% (+1,3
+p.p. a/a) das altas de FTTH nas lojas físicas próprias nos últimos três meses.
+A Vivo acaba de adquirir 50,0% da Fibrasil. Essa operação estratégica³ reforça ainda
+mais nossa liderança em fibra em todo o território nacional. A Fibrasil conta com 4,6
+milhões de casas passadas com FTTH em 151 cidades fora do Estado de São Paulo,
+e teve EBITDA de R$ 282 milhões em 2024, com potenciais sinergias a serem
+capturadas.
+
+[p. 6]
+Resultados 2T25 |
+Negócios Digitais
+1. 57,1 milhões de CPFs.
+2. No 1T25, melhoramos a alocação entre produtos do B2B Digital, ajustando números históricos e atuais sem alterar a receita total de B2B Digital.
+3. Inclui equipamentos.
+Seguimos avançando na construção de um ecossistema digital robusto, por meio de parcerias 
+estratégicas que fortalecem nossa consolidação como um verdadeiro hub de serviços digitais.
+B2C
+A Vivo se posiciona como um hub
+completo de serviços digitais para
+empresas, indo muito além da
+conectividade tradicional. Nosso
+ecossistema integra soluções de cloud,
+cibersegurança, IoT, big data, mensageria,
+além da venda e locação de
+equipamentos de TI, entre outros
+serviços.
+Nos últimos 12 meses, os serviços digitais
+B2B geraram R$ 4.757 milhões em
+receitas, um crescimento de +31,3% a/a,
+passando a representar 8,2% da nossa
+receita — um avanço de +1,5 p.p. a/a.
+B2B Receitas B2B Digitais²
+Soluções Digitais³Cloud
+IoT + MensageriaCibersegurança
+Serviços Financeiros
+O Vivo Pay é nossa plataforma 100% digital que integra as soluções financeiras da Vivo,
+como empréstimo pessoal, seguros, antecipação de FGTS, parcela via PIX, entre
+outros. Nos últimos 12 meses, as receitas com serviços financeiros cresceram 4,2% a/a,
+totalizando R$ 469 milhões. Desde o lançamento do Vivo Pay - Empréstimo Pessoal,
+em outubro de 2020, até junho de 2025, o volume total de crédito concedido atingiu R$
+1 bilhão. Relançamos o Vivo Seguros no App Vivo, o portfólio inclui proteção para
+smartphones, smartwatches, tablets, fones de ouvido e notebooks, totalizando
+atualmente 544 mil dispositivos segurados. Em junho de 2025, mais de 35% dos
+smartphones vendidos saíram das lojas com seguro contratado.
+Entretenimento
+Em conteúdo, a Vivo distribui aos seus clientes os principais OTTs de música e vídeo
+do mercado. Essa frente gerou R$ 793 milhões em receitas nos últimos 12 meses
+(+24,9% a/a), com uma base de 3,7 milhões de assinantes de plataformas de
+conteúdo, um crescimento expressivo de +34,5% a/a.
+Produtos & Serviços B2C
+Considerando todos os produtos e serviços B2C — tanto de telecomunicações quanto
+de novos negócios — a receita média mensal por CPF¹ atingiu R$ 63,7 nos últimos 12
+meses, reforçando nosso posicionamento como um one-stop-shop digital para nossos
+clientes.
+6
+R$ milhões
+Saúde e Bem-estar
+O Vale Saúde Sempre, nosso marketplace de serviços de saúde, conecta clientes a
+clínicas e laboratórios em todo o país por meio de uma assinatura mensal. Desde seu
+lançamento, já alcançamos 440 mil assinaturas. Nos últimos 12 meses, foram
+realizadas 67 mil consultas, exames e procedimentos, além da venda de 2,0 milhões
+de itens com desconto em farmácias, resultando em uma receita de R$ 79 milhões
+nos últimos 12 meses (+113,4% a/a) com saúde e bem-estar.
+
+[p. 7]
+Resultados 2T25 |
+Custos
+Os Custos dos Serviços e Produtos Vendidos cresceram
++8,3% a/a, principalmente pela alta das receitas com serviços 
+digitais. 
+Custos dos Serviços e Produtos Vendidos
+Serviços
++15,7% a/a | 11,5% da RL (+0,9 p.p a/a)
+Essa alta reflete o forte 
+crescimento das receitas de 
+soluções digitais, com destaque 
+para o segmento B2B.
+Produtos Vendidos
+-2,3% a/a | 6,7% da RL (-0,6 p.p. a/a)
+Redução relacionada à 
+estabilidade no crescimento da 
+receita com vendas de Aparelhos 
+e Eletrônicos.
+7
+
+[p. 8]
+Resultados 2T25 |
+Pessoal
++8,8% a/a | 11,2% da RL (+0,2 p.p. a/a)
+Crescimento devido principalmente aos reajustes anuais de salários e benefícios e alta
+do quadro de colaboradores nos times de Serviços Digitais, TI e Novos Negócios.
+Comerciais e Infraestrutura
++3,5% a/a | 24,1% da RL (-0,8 p.p. a/a)
+Reflexo de maior atividade comercial, parcialmente compensada por ganhos de
+eficiência em custos de rede, digitalização e energia.
+Provisão para Devedores Duvidosos
++4,9% a/a | 2,8% da RL (-0,1 p.p. a/a)
+Encerrando o 2T25 em R$ 403 milhões, o controle da PDD demonstra a priorização dos
+clientes no pagamento de conectividade, além da execução de ações de crédito e
+cobrança pela Companhia.
+Gerais e Administrativas
++7,5% a/a | 2,4% da RL (+0,0 p.p. a/a)
+Alta reflete maiores despesas com serviços administrativos de terceiros.
+Outras Receitas (Despesas) Operacionais
+-9,5% a/a | 0,8% da RL (-0,1 p.p. a/a)
+Registramos uma despesa líquida, reflexo do aumento nas provisões para
+contingências, aliado à redução nas vendas de ativos. No 2T25, realizamos
+aproximadamente R$ 5 milhões em venda de ativos (cobre e imóveis), frente a cerca de
+R$ 31 milhões no 2T24. Ao longo dos próximos anos, prevemos capturar R$ 4,5 bilhões
+em vendas de ativos, com a maior parte do valor concentrado entre 2026 e 2027.
+8
+Os Custos da Operação registraram alta de +4,9% a/a, devido ao 
+impacto da inflação e às maiores despesas relacionadas à 
+atividade comercial.
+Custos da Operação
+Pix nos pagamentos recebidos
+%
+ 
+ 
+ 
+KPIs Digitalização
+Usuários Vivo App
+milhões
+
+[p. 9]
+Resultados 2T25 |
+Do EBITDA ao Lucro Líquido
+EBITDA ao Lucro Líquido – 2T25
+1. Considera o lucro líquido atribuído à Telefônica Brasil. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões
+EBITDA
+O EBITDA (resultado antes de juros, impostos, depreciações e amortizações) do 2T25
+foi de R$ 5.933 milhões, um crescimento de +8,8% quando comparado ao 2T24, com
+margem EBITDA de 40,5%, +0,6 p.p. a/a.
+Depreciação e Amortização
+As despesas com Depreciação e Amortização aumentaram +8,1% a/a, impactadas
+pela revisão das vidas úteis e pela depreciação acelerada de equipamentos legados,
+iniciada no 3T24.
+A partir deste trimestre, houve uma redução na depreciação/amortização do PPA
+devido ao encerramento da amortização de parte do intangível incorporado com a
+aquisição da GVT, que anteriormente somava R$ 24 milhões por trimestre.
+Resultado Financeiro
+O Resultado Financeiro do 2T25 totalizou uma despesa de R$ 689 milhões,
+representando um aumento de +96% a/a. Esse crescimento é explicado, em grande
+parte, por uma base de comparação atípica: no 2T24, houve um impacto positivo de
+R$ 330 milhões com a reversão de atualizações monetárias de provisões, decorrente
+da adesão ao Programa de Anistia do Estado de São Paulo. Apesar da alta na despesa,
+o impacto foi parcialmente compensado pela expansão da receita financeira, que
+cresceu +55% a/a, impulsionada pela melhoria na liquidez ao longo do período.
+O aumento em relação ao 1T25 se deve, em parte, à elevação do passivo não
+circulante referente à Taxa FISTEL TFF, cujo valor foi majorado em março de 2025
+devido ao não pagamento, gerando maiores despesas financeiras por correção
+monetária deste passivo, que ao final do 2T25 totalizava R$ 5,8 bilhões (+28,7% a/a).
+Lucro Líquido
+Encerramos o trimestre com um Lucro Líquido¹ de R$ 1.344 milhões, um avanço de
++10,0% a/a, sustentado pela evolução consistente do EBIT, que também cresceu
++10,0% a/a.
+9
+
+[p. 10]
+Resultados 2T25 |
+Investimentos
+1. Não inclui valores relativos à efeitos do IFRS 16. 
+Os investimentos¹ totalizaram R$ 2.439 milhões no 2T25, alta de +4,2% a/a,
+representando 16,7% da Receita Operacional Líquida, com redução de -0,5 p.p. a/a,
+reforçando a tendência de menor intensidade de Capex.
+Fluxo de Caixa Livre
+O Fluxo de Caixa Livre atingiu R$ 2.979 milhões no 2T25, representando uma redução
+de -3,5% em relação ao 2T24. Esse desempenho foi impactado, principalmente, pelo
+efeito temporal relacionado à antecipação de determinada dedutibilidade fiscal, que
+ocorreu em abril de 2024 e, de forma antecipada, em março de 2025. Também pelo
+crescimento nos desembolsos com leasing, considerando que em 2024 houve um
+diferimento pontual que não se repetiu em 2025.
+Esses fatores foram parcialmente compensados pela evolução positiva do EBITDA no
+período.
+Os recursos foram direcionados principalmente para a expansão da rede 5G, que já
+cobre 596 municípios (+2,6x a/a) e 64% da população brasileira, além da aceleração da
+operação de FTTH, com forte crescimento de domicílios conectados (+12,6% a/a).
+10
+
+[p. 11]
+Resultados 2T25 |
+Endividamento
+Empréstimos, Financiamentos e Debêntures 
+Endividamento Líquido
+ Perfil da Dívida L.P.
+A dívida bruta (ex-Arrendamentos IFRS 16) da Companhia totalizou R$ 5.763 milhões ao final do
+2T25, um aumento de +10,0% a/a, reflexo principalmente da incorporação de companhias
+recentemente adquiridas4, bem como da adesão aos programas de anistia fiscal dos Estados
+Paraná, Rio Grande do Sul, Minas Gerais e São Paulo, além de obrigações com Outros Credores5. Do
+total, 99% da dívida bruta é denominada em moeda nacional e 1% em moeda estrangeira. A
+exposição cambial da dívida está 100% coberta por operações de proteção cambial (hedge).
+Considerando Caixa, Aplicações e Derivativos, a Companhia apresentou caixa líquido de R$ 3.900
+milhões em 30 de junho de 2025. Se incluído o efeito dos arrendamentos, a dívida líquida atingiu
+R$ 10.652 milhões ao final do 2T25.
+1. Considera passivos pelos contratos de aquisição da Vita IT, da Vale Saúde e da IPNET, aportes realizados pela Polígono Capital no Vivo Money, o Programa de Anistia dos Estados de São Paulo e do 
+Paraná, além do contrato de mútuo da CloudCo Brasil. Mais detalhes na nota explicativa 20 das Demonstrações Financeiras de 30 de junho de 2025.
+2. Considera caixa e equivalentes de caixa, aplicações financeiras e contas a receber do FIDC Vivo Money.
+3. Dívida não inclui taxa relacionada ao FISTEL TFF para os anos 2020 até 2025, totalizando R$ 5,8 bilhões.
+4. Considera passivos pelos contratos de aquisição da Vita IT, da Vale Saúde, IPNET e i2GO.
+5. Considera passivos de aportes realizados pela Polígono Capital no Vivo Money e Programa Desenrola. 11
+
+[p. 12]
+Resultados 2T25 |
+Mercado de Capitais
+Desempenho das Ações
+Nosso capital social é composto exclusivamente por ações ordinárias, com direito a voto, 
+que estão listadas na B3 (ticker: VIVT3) e na NYSE (ticker: VIV).
+(Base 100 em 31/12/2024)
+Grupamento e Desdobramento de Ações
+Em 15 de abril de 2025, ocorreu a efetivação da operação de grupamento de ações seguida de
+desdobramento de ações, alterando o nosso número total de ações para 3.261.287.3924. O resultado
+do leilão, no valor total de R$ 949.354.168,17 (novecentos e quarenta e nove milhões, trezentos e
+cinquenta e quatro mil, cento e sessenta e oito reais e dezessete centavos), já líquido de custos e
+taxas, equivalente a R$ 26,64196300439 por ação ordinária, já foi disponibilizado aos titulares das
+frações de ações, nas devidas proporções. Esta operação teve como objetivo conferir maior
+liquidez às ações da Companhia e melhorar o processo de formação do seu preço, por meio do
+aumento da quantidade de ações em circulação efetivamente negociadas e ajuste na sua cotação.
+Informações sobre a operação estão disponíveis em: Material Informativo, FAQ e Fato Relevante.
+1. Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período, EPS de 2024 foi recalculado 
+considerando os efeitos do Grupamento e Desdobramento efetivado em 15 de abril de 2025. Mais detalhes na nota explicativa 23.i) das Demonstrações Financeiras de 30 de junho 
+de 2025.
+2. Dados ajustados de acordo com o número de ações pós grupamento e desdobramento.
+3. Variação compara períodos findos em 30 de junho de 2025 e 31 de dezembro de 2024 ajustado após operação de Grupamento e Desdobramento.
+4. Em 24 de julho de 2025, a Companhia cancelou 34.740.770 ações mantidas em tesouraria, passando o total de ações para 3.226.546.622.
+12
+ 90
+ 100
+ 110
+ 120
+ 130
+ 140
+dez-24 jan-25 fev-25 mar-25 abr-25 mai-25 jun-25
+IBOV VIVT3 VIVT3 ajustado por dividendos
+
+[p. 13]
+Resultados 2T25 |
+Retorno ao Acionista
+A redução, no valor de R$ 2,0 bilhões, foi aprovada em 5 de novembro de 2024 pelo Conselho de
+Administração e em 18 de dezembro de 2024 pela Assembleia Geral Extraordinária, com base
+acionária de 27 de fevereiro de 2025 e pagamento em 15 de julho de 2025.
+Para mais informações sobre Remuneração aos Acionistas, clique aqui.
+Distribuição ao Acionista²
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões
+Em 2025, os Juros sobre Capital Próprio já declarados somam R$ 1,7 bilhão, com aprovações
+mensais pelo Conselho de Administração, todos com pagamento previsto até 30 de abril de 2026:
+▪ R$ 180 milhões em fevereiro;
+▪ R$ 200 milhões em março;
+▪ R$ 240 milhões em abril;
+▪ R$ 500 milhões em maio;
+▪ R$ 200 milhões em junho;
+▪ R$ 330 milhões em julho.
+1. Considera os eventos pagos de 1 de janeiro de 2025 a 25 de julho de 2025.
+2. Considera os dividendos, juros sobre capital próprio, recursos decorrentes da redução de capital social pagos e as recompras de ações realizadas entre janeiro e dezembro do respectivo ano.
+13
+Até o final de julho de 2025¹, a remuneração paga aos acionistas somou
+R$ 5.233 milhões, sendo R$ 2.250 milhões referentes a juros sobre capital próprio
+declarados no exercício social de 2024, R$ 2.000 milhões referentes à redução de capital
+e R$ 983 milhões referentes à recompra de ações.
+Além disso, em 25 de fevereiro de 2025, o Conselho de Administração aprovou um novo Programa
+de Recompra de Ações, com o objetivo de gerar valor aos acionistas por meio da alocação eficiente
+do caixa. O programa, com vigência até 25 de fevereiro de 2026, prevê um limite de investimento de
+até R$ 1,75 bilhão. Até julho de 2025, já foram recomprados quase R$ 1,0 bilhão em ações, dos
+quais R$ 0,8 bilhão do programa atual e R$ 0,2 bilhão do anterior.
+A Companhia reafirma seu compromisso com a remuneração consistente dos seus acionistas, 
+estabelecendo, para o período de 2024 a 2026, a distribuição de no mínimo 100% do lucro 
+líquido de cada exercício social, por meio de dividendos, JSCP, reduções de capital social e 
+programas de recompra de ações. Em 2024, esse compromisso foi cumprido com um payout
+de 105,3% sobre o lucro líquido.
+Acabamos de aprovar um cancelamento de 34.740.770 ações (1,07% do capital social) que haviam
+sido recompradas e eram mantidas em tesouraria, reforçando nosso foco na remuneração aos
+acionistas. Em decorrência do cancelamento, o capital social da Companhia passou a ser dividido
+em 3.226.546.622 ações ordinárias, escriturais e sem valor nominal.
+
+[p. 14]
+Resultados 2T25 |
+ESG
+Ambiental,Sociale Governança
+A estratégia ESG da Vivo conta com 6 pilares e mais de 100 indicadores integrados no Plano de
+Negócio Responsável (PNR), monitorados e aprovados de forma consolidada pelo Conselho de
+Administração por meio do Comitê de Qualidade e Sustentabilidade. O PNR contém metas que
+contribuem com o crescimento sustentável da empresa com ética e integridade, com os
+Objetivos de Desenvolvimento Sustentável (ODS) e demais compromissos no tema.
+14
+Ambiental
+VIVO RECICLE: pelo segundo ano, foi realizada mobilização com o público jovem em prol da coleta de
+resíduos eletrônicos em conjunto com o programa de voluntariado. A ação ocorreu em 26 instituições,
+sendo 24 escolas públicas, e coletou cerca de 29 toneladas de resíduos eletrônicos (+26% a/a).
+LÍDER EM ENGAJAMENTO CLIMÁTICO COM FORNECEDORES: integrante da A-List do Supplier
+Engagement Assessment (SEA) do CDP pelo quinto ano consecutivo.
+R$ 2.815,5 MILHÕES EM RECEITAS nos últimos 12 meses geradas a partir de soluções que favorecem
+a eficiência energética e climática e contribuem para conter o aumento da temperatura em 1,5°C.
+Social
+DIA DOS VOLUNTÁRIOS 2025 mobilizou cerca de 10.000 voluntários, entre colaboradores e
+familiares, que atuaram simultaneamente em 51 instituições do país - 75% delas voltadas à educação -
+distribuídas em 34 cidades, beneficiando aproximadamente 45 mil pessoas.
+PROGRAMA DE ESTÁGIO 2025 abriu mais de 450 vagas, sendo 50% destinadas a pessoas negras e
+todas elegíveis a pessoas com deficiência.
+Governança
+DESENVOLVIMENTO DE FORNECEDORES EM ESG é foco do programa Parceiro Plural, que envolve
+aplicação de questionários de autoavaliação e envio de conteúdos mensais de desenvolvimento. Todos
+os fornecedores são aplicáveis e mais de 1.320 já realizaram a autoavaliação desde o início do programa
+(em agosto de 2024), sendo que 70% indicaram respostas positivas no tema ESG.
+MELHORES DO ESG: a Telefônica Brasil foi eleita a Empresa do Ano na premiação da revista Exame, que
+reconhece as companhias por suas práticas de sustentabilidade empresarial. A premiação destacou a
+jornada consistente da empresa nas diversas vertentes do ESG.
+TRANSPARÊNCIA ESG: divulgado o Relato Integrado 2024 seguindo as diretrizes do GRI 2021,
+IIRC/CPC 09, SASB e TCFD. Avançando em acessibilidade, foi lançada também versão em áudio do
+material. Os resultados da Fundação Telefônica Vivo estão disponíveis em seu Informe Social 2024.
+RECONHECIMENTOS: (i) Prêmio Executivo de Valor na categoria TI & Telecom do jornal Valor
+Econômico para o CEO Christian Gebara; (ii) Única empresa do setor no ranking das 100 melhores
+empresas do Merco Responsabilidade ESG Brasil; (iii) Prêmio da Ambição 2030 do Pacto Global da ONU,
+com case de Mulheres na Liderança; (iv) Premiação de Diversidade da Great Place to Work (GPTW)
+Brasil, ranking étnico-racial (6º lugar) e mulher (13º lugar); (v) Prêmio de Responsabilidade Social do
+Poder Judiciário e Promoção da Dignidade do Conselho Nacional de Justiça, categoria Promoção da
+Inclusão Social e Combate à Discriminação, com case relacionado a pessoas com deficiência e raça.
+
+[p. 15]
+Resultados 2T25 |
+Indicadores Operacionais
+Negócio Móvel
+Negócio Fixo
+15
+1. Dados publicados pela ANATEL relativos a maio de 2025.
+
+[p. 16]
+Resultados 2T25 |
+Demonstração de 
+Resultados do Exercício
+1. Outras Receitas inclui Voz Fixa, xDSL, FTTC e IPTV. 
+2. Lucro Líquido atribuído à Telefônica Brasil.
+3. Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período, EPS de 2024 foi recalculado 
+considerando os efeitos do Grupamento e Desdobramento efetivado em 15 de abril de 2025. Mais detalhes na nota explicativa 23.i) das Demonstrações Financeiras de 30 de junho 
+de 2025. 16
+
+[p. 17]
+Resultados 2T25 |
+Balanço Patrimonial
+17Resultados 2T25 |
+
+[p. 18]
+Resultados 2T25 |
+EBITDA Após Arrendamentos (IFRS 16)
+Depreciação e Amortização
+Informações Adicionais
+1. Purchase Price Allocation.
+18
+
+[p. 19]
+Resultados 2T25 |
+Glossário
+19
+Operacional
+
+[p. 20]
+Resultados 2T25 |
+Glossário
+20
+Financeiro
+
+[p. 21]
+Resultados 2T25 |
+Padrão do plano de fundo
+O conteúdo gerado por IA pode estar incorreto.
+Call de Resultados
+O replay da teleconferência estará disponível após o encerramento do evento, em 
+nosso site
+Data
+29 de maio
+de 2025
+(terça-feira)
+Horário
+10h00
+(horário de Brasília) 
+09h00
+(horário de Nova York)
+Para conectar-se
+Transmissão
+em inglês com 
+tradução simultânea 
+para o português 
+(plataforma Zoom):
+Clique aqui
+Clique aqui
+Av. Eng. Luis Carlos Berrini, 1376 
+18º Andar – Cidade Monções – SP 
+04571-000
+ir.br@telefonica.com
+Informações disponíveis no website: 
+ri.telefonica.com.br
+O presente documento pode conter previsões acerca de eventos futuros. Tais previsões não constituem fatos ocorridos no passado e refletem apenas expectativas dos administradores da
+Companhia. Os termos “antecipa”, “acredita”, “estima”,” espera”, “prevê”, “pretende”, “planeja”, “projeta”,” objetiva”, bem como outros termos similares, visam identificar tais previsões as quais
+evidentemente envolvem riscos ou incertezas previstas ou não pela Companhia. Portanto, os resultados futuros das operações da Companhia podem diferir das atuais expectativas e o leitor não deve
+se basear exclusivamente nas posições aqui realizadas. Essas previsões emitem a opinião unicamente na data em que são feitas e a Companhia não se obriga a atualizá-las à luz de novas informações
+ou de seus desdobramentos futuros.
+21
+Telefônica Brasil
+Relações com Investidores

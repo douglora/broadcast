@@ -1,0 +1,818 @@
+[p. 1]
+Release de 
+Resultados 3T25 
+Página 1 
+10 de novembro de 2025 
+• Lucro por ação de R$3,16, em comparação com R$ 8,94 no ano anterior, impactado pela bifurcação do ativo 
+financeiro e construção em 3T24. LPA ajustado foi de R$ 1,88 no 3T25 versus R$ 1,72 no 3T24 
+• Investimentos de R$4,0 bilhões voltados às metas de universalização (R$ 10,4 bilhões em 9M25) 
+• 148.000 novas ligações ativas vs. 3T24 
+ 
+SÃO PAULO, SP – A Sabesp (SBSP3) divulgou um lucro ajustado de R$ 1,88 por ação no trimestre, comparado a R$ 
+1,72 por ação no mesmo período do ano anterior. 
+ 
+“Encerramos o terceiro trimestre com mais uma performance sólida, marcada por um aumento de 1 5% no 
+EBITDA ajustado em relação ao ano anterior. Isso reflete nosso foco contínuo na disciplina operacional e nas melhorias 
+estruturais implementadas ao longo do ano. Investimos R$ 4,0 bilhões no trimestre, o maior valor já registrado em um 
+único período, reforçando nosso compromisso com a universalização e com a entrega de infraestrutura de alta qualidade 
+para milhões de brasileiros”, afirmou Daniel Szlak, CFO da Sabesp. 
+ 
+“A Sabesp continuou apresentando resultados robustos que refletem o progresso tangível rumo à 
+universalização. Nos primeiros nove meses de 2025, investimos R$ 10,4 bilhões, e nossas metas do Fator-U estão bem 
+encaminhadas. Até outubro, j á entregamos água potável para mais de 616.264 novas unidades, superando a meta 
+anual. Além disso, conectamos 733.846 mil novas unidades de esgoto e proporcionamos tratamento de esgoto para 
+quase 948.965 unidades, atingindo 92% da meta do ano. Esses marcos destacam nossa capacidade de executar com 
+agilidade e propósito. Como a principal empresa de água e esgoto da América Latina, mantemos nosso compromisso 
+de ampliar o acesso a serviços essenciais com impacto social duradouro, ao mesmo tempo em que avançamos com 
+nossas ambiciosas metas de redução de CO₂ recentemente anunciadas, em meio ao aumento do tratamento de esgoto 
+impulsionado pela universalização”, disse Carlos Piani, CEO da Sabesp. 
+ 
+Resultados Consolidados 
+ 
+Para o trimestre encerrado em 30 de setembro de 2025, a Sabesp reportou um lucro por ação ajustado de R$ 
+1,88 em comparação aos R$ 1,72 registrados no mesmo período do ano anterior. O desempenho positivo versus o ano 
+anterior foi impulsionado por aumento de volume decorrente da incorporação de novas economias e do avanço da 
+universalização, e parcialmente compensado pel a mudança no mix de clientes, com crescimento de economias 
+atendidas por tarifas subsidiadas. 
+O trimestre manteve o ritmo nos avanços em eficiência operacional, com destaque para a redução de despesas 
+gerais e administrativas, otimização do consumo de energia por meio da migração para o mercado livre, racionalização 
+da força de trabalho, menores repasses a fundos municipais e acordos judiciais. Além disso, o resultado também refletiu 
+o efeito do registro de precatórios homologados e já parcialmente recebidos da PMSP. 
+ 
+Bifurcação do Ativo 
+No 3T24, com a conclusão do processo de desestatização e a assinatura do contrato com a URAE -1, em 23 julho 
+de 2024, a Companhia registrou a bifurcação do ativo financeiro para os ativos relacionados à concessão , 
+anteriormente classificados somente como intangíveis. O ativo financeiro se refere aos investimentos reversíveis e 
+não totalmente amortizados até o final do contrato (outubro de 2060), que serão indenizados conforme previsto 
+no contrato da URAE-1. O registro deste ativo financeiro gerou os seguintes impactos: no 3T24 R$ 8.820 milhões 
+na receita bruta, R$ 5.283 no lucro líquido e R$ 7,22 no LPA também considerando os impactos não recorrentes 
+do trimestre; e, no 3T25, R$ 154 milhões em receita bruta, R$ 92 milhões no lucro líquido e R$ 1,28 no LPA 
+também considerando os impactos não recorrentes do trimestre . Para mais informações vide Nota 15 das 
+Informações Trimestrais de setembro de 2024. 
+ 
+Precatórios 
+Os precatórios foram aprovados em outubro de 2024 e abril de 2025, no montante total de R$ 1.950 milhões. Em 
+julho de 2025, as incertezas e discussões em torno deste processo foram cessadas, de forma que a Companhia
+
+[p. 2]
+Release de 
+Resultados 3T25 
+Página 2 
+reconheceu os efeitos destes precatórios. Do total de R$ 1.950 milhões, a Companhia já recebeu R$ 1.118 milhões 
+referente a este acordo. 
+A Sabesp também investiu R$ 4,0 bilhões no 3T25, um aumento de 10% em relação ao 2T25 e de 175% em 
+comparação ao mesmo período do ano anterior, com foco em melhorias de infraestrutura e projetos de expansão 
+diretamente voltados ao cumprimento das metas de universalização. 
+ 
+Teleconferência de Resultados 
+Será realizada em 11 de novembro de 2025, às 10:00h (horário de Brasília). O link de acesso está disponível no site de 
+Relações com Investidores da Companhia. A apresentação a ser utilizada foi disponibilizada no mesmo site. 
+A gravação do áudio da teleconferência permanecerá disponível no site de RI da Sabesp. 
+ 
+DEMONSTRAÇÃO DO RESULTADO REPORTADO (CONSOLIDADO) 
+R$ milhões 
+ 3T25 3T24 Var. (R$) % 9M25 9M24 Var. (R$) % 
+ Receita de serviços de saneamento 6.108 6.072 37 0,6 18.415 17.666 749 4,2 
+ Redutora de Água/Esgoto (FAUSP) (332) (157) (176) 111,9 (736) (157) (579) 369,3 
+ Ativo Financeiro (indenização) 154 8.820 (8.666) (98,3) 847 8.820 (7.973) (90,4) 
+ Tributos (PIS/COFINS/TRCF) (430) (1.269) 839 (66,2) (1.306) (2.164) 859 (39,7) 
+(=) Receita Líquida de Serviços de 
+Saneamento 5.501 13.466 (7.965) (59,2) 17.219 24.165 (6.945) (28,7) 
+ Receita de construção 3.924 1.531 2.393 156,2 9.596 4.142 5.454 131,7 
+(=) Receita Líquida 9.425 14.997 (5.572) (37,2) 26.816 28.307 (1.491) (5,3) 
+ Custos de construção (3.924) (1.497) (2.427) 162,1 (9.596) (4.049) (5.547) 137,0 
+ Custos e despesas (2.385) (2.888) 503 (17,4) (6.859) (8.234) 1.376 (16,7) 
+ 
+Outras receitas/(despesas) operacionais, 
+líquidas (54) (170) 115 (68,0) (7) (156) 149 (95,6) 
+ Resultado da equivalência patrimonial 7 9 (1) (15,3) 32 26 6 24,9 
+(=) EBITDA 3.069 10.452 (7.383) (70,6) 10.386 15.893 (5.507) (34,7) 
+(%) Margem Ebitda 33% 70% - (37,1) 39% 56% - (17,4) 
+ Depreciação e Amortização (535) (593) 58 (9,7) (1.662) (2.156) 494 (22,9) 
+(=) EBIT 2.534 9.858 (7.324) (74,3) 8.724 13.737 (5.013) (36,5) 
+ Resultado Financeiro 707 (525) 1.232 (234,7) (4) (1.325) 1.320 (99,7) 
+(=) EBT 3.241 9.333 (6.092) (65,3) 8.720 12.412 (3.693) (29,7) 
+ Imposto de Renda e contribuição social (1.082) (3.222) 2.139 (66,4) (2.943) (4.268) 1.325 (31,0) 
+(=) Lucro Líquido 2.159 6.111 (3.953) (64,7) 5.777 8.145 (2.368) (29,1) 
+(%) Margem Líquida 23% 41% - (17,8) 22% 29% - (7,2) 
+ Lucro por ação (R$)* 3,16 8,94 - - 8,45 11,92 - -
+
+[p. 3]
+Release de 
+Resultados 3T25 
+Página 3 
+ DEMONSTRAÇÃO DO RESULTADO AJUSTADO (CONSOLIDADO) 
+R$ milhões 
+ 
+3T25 
+Ajustes 
+3T25 
+Ajustado 
+3T24 
+Ajustado Var. (R$) % 
+ Ativo 
+Financeiro Construção Não 
+Recorrentes 
+ Receita de serviços de saneamento 6.108 - - - 6.108 6.072 37 0,6 
+ Redutora de Água/Esgoto (FAUSP) (332) - - 108 (225) (157) (68) 43,3 
+ Ativo Financeiro (indenização) 154 (154) - - - - - - 
+ Tributos (PIS/COFINS/TRCF) (430) 14 - - (415) (453) 38 (8,3) 
+(=) Receita de serviços de 
+saneamento líquida 5.501 (140) - 108 5.468 5.462 6 0,1 
+ Receita de construção 3.924 - (3.924) - - - - - 
+(=) Receita operacional Líquida 9.425 (140) (3.924) 108 5.468 5.462 6 0,1 
+ Custos de construção (3.924) - 3.924 - - - - - 
+ Custos e despesas (2.385) - - 123 (2.262) (2.686) 424 (15,8) 
+ Outras receitas/(despesas) 
+operacionais, líquidas (54) - - 46 (8) 9 (17) (189,4) 
+ Resultado da equivalência 
+patrimonial 7 - - - 7 9 (2) (20,0) 
+(=) EBITDA 3.069 (140) (0) 277 3.206 2.794 411 14,7 
+(%) Margem Ebitda 33% - - - 59% 51% - 7,5 
+ Depreciação e Amortização (535) - - - (535) (543) 8 (1,4) 
+(=) EBIT 2.534 (140) (0) 277 2.671 2.251 420 18,7 
+ Resultado Financeiro 707 - - (1.461) (754) (401) (354) 88,3 
+(=) EBT 3.241 (140) (0) (1.184) 1.916 1.850 66 3,6 
+ Imposto de Renda e contribuição 
+social (1.082) 48 0 403 (632) (678) 46 (6,7) 
+(=) Lucro Líquido 2.159 (92) (0) (782) 1.284 1.173 111 9,5 
+(%) Margem Líquida 23% - - - 23% 21% - 2,0 
+ Lucro por ação (R$)* 3,16 1,88 1,72 
+ 
+ 
+* Saldo ajustado pela receita/custo de construção 
+ 
+ 
+Os efeitos não recorrentes no EBITDA do 3T25 foram: (i) R$ (108) milhões em redutora de água/esgoto (FAUSP), 
+referente à reavaliação da alíquota, com efeito retroativo de Jul/24 a Jun/25, conforme Comunicado ao Mercado 
+publicado em 30 de setembro de 2025 ; (ii) R$ (478) milhões em provisões para despesas rescisórias de pessoal, 
+referente ao Programa Sabesp Gente; (iii) R$ 430 milhões de reversão de PECLD pelo registro dos precatórios com a 
+PMSP; (iv) R$ (74) milhões em materiais gerais pela reestruturação logística; e (v) R$ (46) milhões em outras receitas 
+e despesas composto por R$ 14 milhões referentes ao recebimento de reembolso de despesas com inativos do Governo 
+do Estado de São Paulo (G0) e R$ (61) milhões de baixa de ativos. 
+Para efeito de comparação, o s impactos não recorrentes reportados no EBITDA do 3T24 foram: (i) R$ (185) milhões 
+em despesas gerais, referente a reavaliação de processos judiciais, (ii) R$ (179) milhões em outras receitas e despesas, 
+compostos por R$ (144) milhões de baixa de ativos em construção e R$ (35) milhões com desestatização. 
+Além do impacto de não recorrentes no EBITDA do 3T25, houve um ganho não -recorrente de R$ 1.461 milhões em 
+resultado financeiro, referente à atualização monetária dos precatórios. No mesmo período do ano anterior, houve o 
+impacto de R$ (50) milhões em depreciação e amortização por perda de ativos e R$ (124) milhões no resultado 
+financeiro, referente a reavaliação de processos judiciais.
+
+[p. 4]
+Release de 
+Resultados 3T25 
+Página 4 
+RECEITA LÍQUIDA AJUSTADA 
+A receita líquida proveniente de serviços de saneamento, considerando o FAUSP e impostos, foi de R$ 5. 468 milhões 
+no 3T25, um aumento de +0,1% vs. 3T24. Os principais fatores que impactaram a receita no período foram: 
+• +0,3% em preço líquido; 
+• +2,5% em volume faturado: aumento devido à melhoria de medição por troca de hidrômetros e novas 
+economias; 
+• (1,4)% em mix: crescimento de economias com acesso a tarifas subsidiadas; 
+• (1,2)% FAUSP: aumento de Receita Bruta +0,6% e revisão de tarifa 3T25; 
+ 
+CONSUMO POR CATEGORIA 
+ Volume Faturado (milhões de m³) Tarifa média (R$/m³) 
+Categoria 3T25 3T24 % 3T25 3T24 % 
+Residencial 932 908 2,6 4,04 4,31 (6,2) 
+Comercial 98 98 (0,4) 15,12 14,56 3,9 
+Industrial 18 19 (2,2) 19,50 17,65 10,5 
+Total varejo 1.048 1.025 2,3 5,35 5,53 (3,4) 
+Atacado 13 13 (0,5) 2,91 2,76 5,5 
+Outras¹ 25 32 (19,9) 21,08 18,29 15,3 
+Total Geral Consolidado 1.087 1.070 1,6 5,68 5,88 (3,3) 
+ 
+ 
+ Volume Faturado (milhões de m³) Tarifa média (R$/m³) 
+Categoria 9M25 9M24 % YTD 25 YTD 24 % 
+Residencial 2.802 2.758 1,6 4,09 4,22 (3,1) 
+Comercial 296 288 2,6 14,71 14,18 3,7 
+Industrial 55 55 (0,6) 18,94 16,79 12,8 
+Total varejo 3.153 3.102 1,6 5,34 5,37 (0,5) 
+Atacado 40 45 (12,5) 2,81 2,47 13,8 
+Outras¹ 92 89 2,6 17,06 17,82 (4,2) 
+Total Geral Consolidado 3.284 3.237 1,5 5,64 5,67 (0,6) 
+ 
+(1) Outros composto por Público, Prédio Próprio e Mauá (BRK). 
+ 
+ 
+Número de ligações, em milhares¹ 3T25 3T24 Var. % 
+Ligações de água¹ 9.509 9.450 59 0,6 
+Ligações de esgotos¹ 8.245 8.156 89 1,1 
+ 
+ 
+(1) Ligações ativas e cadastradas, média no final do período 
+Não auditado por auditores externos
+
+[p. 5]
+Release de 
+Resultados 3T25 
+Página 5 
+CUSTOS E DESPESAS 
+O OPEX apresentou uma redução de 15% a/a, atingindo R $ 2.270 milhões no 3T25. Os principais fatores para este 
+resultado foram: (i) R$ 284 milhões em despesas gerais e administrativas, compostos principalmente por R$ 160 milhões 
+referentes a antecipações de repasses a fundos municipais (FMSAI) e R$ 50 milhões de estornos de provisões judiciais 
+decorrentes de acordos ambientais firmados; (ii) R$ 100 milhões em energia elétrica pelo aumento da participação do 
+mercado livre vs regulado no consumo total; (iii) R$ 63 milhões de PECLD por melhorias na performance de arrecadação; 
+(iv) R$ 48 milhões em Pessoal decorrentes da redução de quadro de colaboradores. Em compensação, houve um 
+aumento na linha de serviços por maiores investimentos em TI e consultorias. No acumulado do ano a redução foi de 
+14% vs. 9M24, com custos e despesas totalizando R$ 6.732 milhões. 
+R$ milhões 
+ 3T25 
+ajustado 
+3T24 
+ajustado Var. (R$) % 9M25 
+ajustado 
+9M24 
+ajustado Var. (R$) % 
+Salários, encargos e benefícios e obrigações previdenciárias (685) (733) 48 (6,6) (2.011) (2.190) 179 (8,2) 
+Materiais gerais (86) (93) 6 (6,9) (195) (268) 73 (27,3) 
+Materiais de tratamento (120) (121) 1 (0,8) (364) (386) 22 (5,7) 
+Serviços (712) (629) (83) 13,1 (2.018) (1.975) (43) 2,2 
+Energia elétrica (302) (402) 100 (24,8) (1.144) (1.184) 40 (3,4) 
+Despesas gerais (262) (546) 284 (52,1) (540) (1.402) 862 (61,5) 
+Despesas tributárias (18) (22) 3 (15,9) (64) (61) (3) 4,1 
+Perdas estimadas com créditos de liquidação duvidosa (77) (140) 63 (44,9) (419) (403) (16) 4,1 
+Outras receitas e despesas (8) 9 (17) (184,4) 23 23 (1) (2,7) 
+Custos, despesas administrativas e comerciais (2.270) (2.677) 406 (15) (6.732) (7.845) 1.114 (14) 
+Depreciação e amortização (535) (543) 8 (1,4) (1.662) (2.106) 444 (21,1) 
+Custos, despesas administrativas e comerciais + D&A (2.805) (3.219) 414 (13) (8.394) (9.951) 1.558 (16) 
+ 
+PESSOAL 
+A Sabesp encerrou o 3T25 com 9.306 colaboradores, uma redução de 12% vs o mesmo período do ano anterior. 
+Número de funcionários 3T25 3T24 Var. (Qtde.) % 
+Funcionários no final de cada período 9.306 10.557 (1.251) (11,8) 
+Funcionários - média simples 9.279 10.586 (1.307) (12,3) 
+ 
+INVESTIMENTOS 
+No 3T25, os investimentos somaram R$ 3.978 milhões, um crescimento de 175% em comparação ao 3T24 e uma 
+aceleração sequencial de 10%. No acumulado do ano o CAPEX totalizou R$ 10.430 milhões, um aumento de 151% em 
+relação ao mesmo período do ano anterior, e em linha com a meta de investimentos do ano da Companhia. 
+$ milhões 
+ 3T25 3T24 Var. (R$) % 9M25 9M24 Var. (R$) % 
+Água 1.155 708 447 63,2 2.815 1.926 889 46,2 
+Esgoto 2.823 736 2.087 283,5 7.616 2.235 5.380 240,7 
+Total 3.978 1.444 2.534 175,5 10.430 4.161 6.269 150,7
+
+[p. 6]
+Release de 
+Resultados 3T25 
+Página 6 
+BALANÇO PATRIMONIAL (CONSOLIDADO) 
+R$ mil 
+ATIVO 3T25 3T24 
+Ativo Circulante 
+Caixa e equivalentes de caixa 4.969.019 2.393.304 
+Aplicações financeiras 6.680.854 1.275.704 
+Contas a receber de clientes 4.483.470 3.645.752 
+Saldos com partes relacionadas 284.583 272.659 
+Estoques 28.829 98.121 
+Caixa restrito 55.481 29.596 
+Impostos a recuperar 425.766 183.761 
+Instrumentos financeiros derivativos - 171.250 
+Outros ativos 112.849 99.636 
+Total do ativo circulante 17.040.851 8.169.783 
+ 
+Ativo Não circulante 
+Aplicações financeiras - 753.137 
+Contas a receber de clientes 256.057 336.577 
+Saldos com partes relacionadas 882.029 914.056 
+Depósitos judiciais 130.781 135.118 
+Agência Nacional de Águas e Saneamento Básico – ANA 2.157 1.957 
+Outros ativos 34.564 137.023 
+Investimentos 233.239 224.245 
+Propriedades para investimento 14.444 46.642 
+Ativo de contrato 11.411.909 6.831.603 
+Ativo financeiro 19.348.193 16.244.999 
+Intangível 45.964.246 41.823.835 
+Imobilizado 668.987 515.973 
+Total do ativo não circulante 78.946.606 67.965.165 
+Total do Ativo 95.987.457 76.134.948 
+ 
+ 
+PASSIVO E PATRIMÔNIO LÍQUIDO 3T25 3T24 
+Passivo Circulante 
+Empreiteiros e fornecedores 1.525.996 268.917 
+Empréstimos e financiamentos 5.782.620 2.637.216 
+Obrigações sociais e trabalhistas 1.120.534 641.154 
+Impostos e contribuições a recolher 735.422 271.113 
+PIS e Cofins diferidos 74.117 - 
+Dividendos e Juros sobre o capital próprio a pagar 1.532 744 
+Provisões 1.331.565 1.513.228 
+Serviços a pagar 2.254.731 812.990 
+Parceria Público-Privada - PPP 465.028 444.264 
+Instrumentos financeiros derivativos 822.293 -
+
+[p. 7]
+Release de 
+Resultados 3T25 
+Página 7 
+Contratos de Performance 222.642 35 
+Outras obrigações 198.134 583.910 
+Total do passivo circulante 14.534.614 7.173.571 
+ 
+Passivo Não circulante 
+Empréstimos e financiamentos 29.143.824 21.220.016 
+Imposto de renda e contribuição social diferidos 2.737.586 2.656.048 
+PIS/COFINS diferidos 1.117.146 998.436 
+Provisões 479.472 827.895 
+Obrigações previdenciárias 1.949.210 2.106.294 
+Parceria Público-Privada – PPP 2.857.070 2.797.417 
+Contrato de Performance 100.608 - 
+Outras obrigações 357.652 446.299 
+Total do passivo não circulante 38.742.568 31.052.405 
+Total do passivo 53.277.182 38.225.976 
+ 
+Patrimônio líquido 
+Capital social 18.400.000 15.000.000 
+Reservas de capital 5.927 - 
+Reservas de lucros 18.247.715 14.617.966 
+Ajuste de avaliação patrimonial 280.014 146.362 
+Lucros acumulados 5.776.619 8.144.644 
+Total do patrimônio líquido 42.710.275 37.908.972 
+Total do Passivo e do Patrimônio Líquido 95.987.457 76.134.948
+
+[p. 8]
+Release de 
+Resultados 3T25 
+Página 8 
+DEMONSTRAÇÃO DO FLUXO DE CAIXA (CONSOLIDADO) 
+R$ mil 
+R$ mil 3T25 3T24 
+Fluxo de Caixa das Atividades Operacionais 3.094.605 2.151.841 
+Lucro antes do imposto de renda e contribuição social 3.240.861 9.333.666 
+Ajustes para reconciliação do lucro líquido: 
+Depreciação e Amortização 535.080 592.888 
+Valor residual do imobilizado, intangível e propriedades para investimentos baixados 62.964 3.132 
+Perdas estimadas com créditos de liquidação duvidosa (352.449) (664.319) 
+Provisões e variações monetárias de provisões (41.668) 443.868 
+Juros calculados sobre empréstimos e financiamentos a pagar 736.915 421.901 
+Variações monetárias e cambiais de empréstimos e financiamentos (449.952) 113.419 
+Ajuste a valor de mercado financiamentos (hedge de valor justo) (94.084) 0 
+Juros e variações monetárias líquidas (2.062.977) (10.802) 
+Instrumentos Financeiros Derivativos 1.018.038 (41.537) 
+Encargos financeiros de clientes (172.807) (134.604) 
+Margem de construção sobre ativos intangíveis resultantes de contratos de concessão - (34.431) 
+Provisão para Termo de Ajustamento de Conduta (TAC), Programa de Retenção do Conhecimento 
+(PRC) e Programa de Desligamento Incentivado (PDI) e (PDV) Programa de De sligamento Voluntário 462.130 (15.285) 
+Resultado da equivalência patrimonial (7.451) (8.794) 
+Juros e variação monetária (PPP) 73.450 110.326 
+Repasses Municipais 170.282 (7.442) 
+Obrigações Previdenciárias 68.084 48.857 
+PIS e Cofins diferidos sobre ativo financeiro (indenização) 14.261 815.836 
+Atualização do Ativo financeiro (indenizações) (154.164) (8.819.847) 
+Outros ajustes 48.092 5.009 
+ 
+Variação no Ativo 
+Contas a receber de clientes 1.544.836 799.853 
+Saldos e transações com partes relacionadas 16.142 (9.909) 
+Estoques (28.562) 17.968 
+Impostos a recuperar 449.509 122.661 
+Depósitos judiciais (71.558) 17.972 
+Outros 27.431 37.099 
+Variação no Passivo 
+Empreiteiros e fornecedores 306.551 (8.644) 
+Serviços a pagar 177.180 (30.177) 
+Obrigações sociais e trabalhistas (38.407) 61.601 
+Impostos e contribuições a recolher (722.515) (242.818) 
+PIS/Cofins diferidos (20.186) 6.247 
+Provisões (147.685) (30.551) 
+Obrigações previdenciárias (63.694) (61.774)
+
+[p. 9]
+Release de 
+Resultados 3T25 
+Página 9 
+Outras obrigações 12.700 (239.678) 
+Caixa proveniente das operações 4.536.347 2.591.691 
+Juros pagos (963.207) (689.367) 
+Imposto de Renda e Contribuição Social pagos (399.867) (332.213) 
+Caixa Líquido Proveniente atividades operacionais 3.173.273 1.570.111 
+ 
+ 3T25 3T24 
+Fluxo de caixa das atividades de investimentos 
+Aquisição de ativo de contrato, intangíveis e imobilizado (3.783.370) (4.210.714) 
+Caixa restrito (4.234) 21.042 
+Aplicações financeiras - Aplicação (10.041.790) (2.351.283) 
+Aplicações financeiras - Resgate 7.335.590 3.412.794 
+Aplicações financeiras – não circulante 7.439 (753.137) 
+Investimento 14.359 (23.804) 
+Caixa líquido aplicado nas atividades de investimentos (6.472.006) (3.905.102) 
+ 
+Fluxo de Caixa das atividades de financiamentos 
+Empréstimos e financiamentos 
+Captações 4.711.941 2.550.639 
+Amortizações (796.735) (468.624) 
+Pagamento de juros sobre o capital próprio - (77) 
+Parceria Público-Privada - PPP (85.025) (94.910) 
+Compromissos Contratos de Programa - (32.316) 
+Instrumentos financeiros derivativos (Pagos)/recebidos (123.445) (35.849) 
+Caixa líquido proveniente das (aplicado nas) atividades de financiamentos 3.706.736 1.918.863 
+ 
+Aumento / (diminuição) de caixa e equivalentes de caixa no exercício 408.003 (416.128) 
+Representado por: 
+Caixa e equivalentes de caixa no início do exercício 4.561.016 2.809.432 
+Caixa e equivalentes de caixa no final do exercício 4.969.019 2.393.304 
+Aumento / (diminuição) de caixa e equivalentes de caixa no exercício 408.003 (416.128)
+
+[p. 10]
+3Q25 Earnings 
+Page 1 
+November 10, 2025 
+ 
+• Earnings per share of R$3.16, compared to R$8.94 in the previous year, impacted by the bifurcation of the 
+financial asset and construction in 3Q24. Adjusted EPS was R$1.88 in 3Q25 versus R$1.72 in 3Q24 
+• Investments of R$4.0 billion focused on universalization targets (R$10.4 billion in 9M25) 
+• 148,000 new active connections vs. 3Q24 
+ 
+SÃO PAULO, SP – Sabesp (SBSP3) reported adjusted earnings of R$1.88 per share for the quarter, compared to R$1.72 
+per share in the same period last year. 
+ 
+“We closed the third quarter with another solid performance, marked by a 15% increase in adjusted EBITDA 
+year-over-year. This reflects our continued focus on operational discipline and the structural improvements implemented 
+throughout the year. We investe d R$4.0 billion in the quarter, the highest amount ever recorded in a single period, 
+reinforcing our commitment to universalization and delivering high-quality infrastructure to millions of Brazilians,” said 
+Daniel Szlak, CFO of Sabesp. 
+ 
+“Sabesp continued to deliver robust results that reflect tangible progress toward universalization. In the first 
+nine months of 2025, we invested R$10.4 billion, and our U-Factor targets are well on track. By October, we had already 
+delivered potable water to over 616,264 new units, surpassing the annual target. Additionally, we connected 733,846 
+new sewage units and provided sewage treatment for nearly 948,965 units, reaching 92% of the annual goal. These 
+milestones highlight our ability to execute with agility and purpose. As the leading water and sewage company in Latin 
+America, we remain committed to expanding access to essential services with lasting social impact, while advancing our 
+recently announced and ambitious CO₂ reduction targets, amid sewage treatment increase driven by universalization,” 
+said Carlos Piani, CEO of Sabesp. 
+ 
+Consolidated Results 
+ 
+For the quarter ended September 30, 2025, Sabesp reported adjusted earnings per share of R$1.88 compared to 
+R$1.72 in the same period last year. The positive performance versus the previous year was driven by volume growth 
+resulting from the incorporation of new units and progress in universalization, partially offset by a change in the 
+customer mix, with growth in economies served by subsidized rates. 
+The quarter kept momentum in operational efficiency improvements, with highlights including reductions in general 
+and administrative expenses, power consumption optimization through migration to the free market, workforce 
+rationalization, lower transfers to municipal funds, and legal settlements. Additionally, the result also reflected the effect 
+of recording court-ordered debt payments (precatórios) that were approved and partially received from the São Paulo 
+City . 
+ 
+Financial Asset Bifurcation 
+In 3Q24, with the completion of the privatization process and the signing of the agreement with URAE-1, on July 23, 2024, the 
+Company recorded the financial asset bifurcation for assets related to the concession, previously classified solely as intangible 
+assets. The financial asset refers to reversible investments not fully amortized by the end of the agreement (October 2060), 
+which will be compensated according to the URAE-1 contract . The recording of this financial asset generated the following 
+impacts: in 3Q24 R$ 8,820 million in gross revenue, R$ 5,283 million in net income and R$ 7.22 in EPS also considering non-
+recurring impacts of the quarter, and, in 3Q25 R$ 154 million in gross revenue, R$ 92 million in net income and R$ 1.28 in EPS 
+also considering non-recurring impacts of the quarter . For further information, refer to Note 15 of the Quarterly Information 
+for September 2024. 
+ 
+Court-Ordered Debt Payments (Precatórios) 
+The court-ordered debt payments were approved on October 2024 and April 2025, for a total amount of R$1.950 billion. In 
+July 2025, uncertainties and discussions surrounding this process were resolved, and the Company recognized the effects of 
+these debt payments. Of the total R$1.950 billion, the Company has already received R$1.118 billion rel ated to th ese 
+agreements.
+
+[p. 11]
+3Q25 Earnings 
+Page 2 
+Sabesp also invested R$4.0 billion in 3Q25, a 10% increase compared to 2Q25 and a 175% increase compared to 
+the same period last year, focusing on infrastructure improvements and expansion projects directly aimed at meeting 
+universalization targets. 
+ 
+Earnings Conference Call 
+The earnings call will be held on November 11, 2025, at 10:00 AM (Brasília time). The access link is available on the 
+Company’s Investor Relations website. The presentation to be used has also been made available on the same site. 
+The audio recording of the earnings call will remain available on Sabesp’s IR website. 
+ 
+REPORTED INCOME STATEMENT (CON SOLIDATED) 
+R$ million 
+ 3Q25 3Q24 Var. (R$) % 9M25 9M24 Var. (R$) % 
+ Revenue from Operations 6,108 6,072 37 0.6 18,415 17,666 749 4.2 
+ FAUSP (332) (157) (176) 111.9 (736) (157) (579) 369.3 
+ Financial Asset 154 8,820 (8,666) (98.3) 847 8,820 (7,973) (90.4) 
+ Sales Tax (430) (1,269) 839 (66.2) (1,306) (2,164) 859 (39.7) 
+(=) Net Sanitation Revenue 5,501 13,466 (7,965) (59.2) 17,219 24,165 (6,945) (28.7) 
+ Construction revenues 3,924 1,531 2,393 156.2 9,596 4,142 5,454 131.7 
+(=) Net Revenue 9,425 14,997 (5,572) (37.2) 26,816 28,307 (1,491) (5.3) 
+ Construction costs (3,924) (1,497) (2,427) 162.1 (9,596) (4,049) (5,547) 137.0 
+ Operating Costs and expenses (2,385) (2,888) 503 (17.4) (6,859) (8,234) 1,376 (16.7) 
+ Other operating income/(expense), net (54) (170) 115 (68.0) (7) (156) 149 (95.6) 
+ Minority Interest 7 9 (1) (15.3) 32 26 6 24.9 
+(=) EBITDA 3,069 10,452 (7,383) (70.6) 10,386 15,893 (5,507) (34.7) 
+(%) Margin 33% 70% - (37.1) 39% 56% - (17.4) 
+ Depreciation and Amortization (535) (593) 58 (9.7) (1,662) (2,156) 494 (22.9) 
+(=) EBIT 2,534 9,858 (7,324) (74.3) 8,724 13,737 (5,013) (36.5) 
+ Net Financial result 707 (525) 1,232 (234.7) (4) (1,325) 1,320 (99.7) 
+(=) EBT 3,241 9,333 (6,092) (65.3) 8,720 12,412 (3,693) (29.7) 
+ Income tax (1,082) (3,222) 2,139 (66.4) (2,943) (4,268) 1,325 (31.0) 
+(=) Net income 2,159 6,111 (3,953) (64.7) 5,777 8,145 (2,368) (29.1) 
+(%) Margin 23% 41% - (17.8) 22% 29% - (7.2) 
+ EPS (R$)* 3.16 8.94 - - 8.45 11.92 - -
+
+[p. 12]
+3Q25 Earnings 
+Page 3 
+ADJUSTED INCOME STATEMENT 
+R$ million 
+ 
+3Q25 
+Adjustments 
+3Q25 
+Adjusted 
+3Q24 
+Adjusted Var. (R$) % 
+ Financial 
+Asset Construction Non-
+Recurring 
+ Revenue from Operations 6,108 - - - 6,108 6,072 37 0.6 
+ FAUSP (332) - - 108 (225) (157) (68) 43.3 
+ Financial Asset 154 (154) - - - - - - 
+ Sales Tax (430) 14 - - (415) (453) 38 (8.3) 
+(=) Net Sanitation Revenue 5,501 (140) - 108 5,468 5,462 6 0.1 
+ Construction revenues 3,924 - (3,924) - - - - - 
+(=) Net Revenue 9,425 (140) (3,924) 108 5,468 5,462 6 0.1 
+ Construction costs (3,924) - 3,924 - - - - - 
+ Operating Costs and expenses (2,385) - - 123 (2,262) (2,686) 424 (15.8) 
+ Other operating income/(expense), 
+net (54) - - 46 (8) 9 (17) (189.4) 
+ Minority Interest 7 - - - 7 9 (2) (20.0) 
+(=) EBITDA 3,069 (140) (0) 277 3,206 2,794 411 14.7 
+(%) Margin 33% - - - 59% 51% - 7.5 
+ Depreciation and Amortization (535) - - - (535) (543) 8 (1.4) 
+(=) EBIT 2,534 (140) (0) 277 2,671 2,251 420 18.7 
+ Net Financial result 707 - - (1,461) (754) (401) (354) 88.3 
+(=) EBT 3,241 (140) (0) (1,184) 1,916 1,850 66 3.6 
+ Income tax (1,082) 48 0 403 (632) (678) 46 (6.7) 
+(=) Net income 2,159 (92) (0) (782) 1,284 1,173 111 9.5 
+(%) Margin 23% - - - 23% 21% - 2.0 
+ EPS (R$)* 3.16 0 0 0 1.88 1.72 0 0 
+ 
+* Balance adjusted for construction revenue and costs 
+ 
+ 
+The non-recurring effects on 3Q25 EBITDA were: (i) R$ (108) million related to water/sewage rate reduction (FAUSP), 
+due to the reassessment of the rate, with retroactive effect from Jul/24 to Jun/25, as disclosed in the Notice to the Market 
+published on September 30, 2025 ; (ii) R$ (478) million in provisions for personnel termination expenses, related to the 
+Sabesp Gente Program; (iii) R$ 430 million reversal of expected credit loss provisions (PECLD) due to the recognition 
+of court-ordered payments (precatórios) with the São Paulo City Hall (PMSP); (iv) R$ (74) million in general materials 
+due to logistics restructuring; and (v) R$ (46) million in other income and expenses, composed of R$ 14 million related 
+to reimbursement of expenses for retirees from the São Paulo State Government (G0) and R$ (61) million from asset 
+write-offs. 
+For comparison purposes, the non-recurring impacts reported on 3Q24 EBITDA were: (i) R$ (185) million in general 
+expenses, related to the reassessment of legal proceedings; (ii) R$ (179) million in other income and expenses, 
+composed of R$ (144) million from write-offs of assets under construction and R$ (35) million related to privatization. 
+In addition to the non-recurring impact on 3Q25 EBITDA, there was a non-recurring gain of R$ 1,461 million in financial 
+results, related to the monetary adjustment of court-ordered payments (precatórios). In the same period of the previous 
+year, there was an impact of R$ (50) million in depreciation and amortization due to asset impairment and R$ (124) 
+million in financial results, related to the reassessment of legal proceedings.
+
+[p. 13]
+3Q25 Earnings 
+Page 4 
+ADJUSTED NET REVENUE 
+Net revenue from sanitation services, considering FAUSP and taxes, totaled R$ 5,468 million in 3Q25, an increase of 
++0.1% vs. 3Q24. The main factors impacting revenue during the period were: 
+• +0,3% in net price; 
+• +2,5% in billed volume: increase driven by improved measurement through meter replacements and new 
+connections; 
+• (1,4)% in mix: growth of customer segments with access to subsidized rates; 
+• (1,2)% FAUSP: impact from higher Gross Revenue (+0.6%) and rate review in 3Q25. 
+ 
+CONSUMPTION BY CATEGORY 
+ Billed Volume (millions of m³) Average Rate (R$/m³) 
+Category 3Q25 3Q24 % 3Q25 3Q24 % 
+Residential 932 908 2.6 4.04 4.31 (6.2) 
+Commercial 98 98 (0.4) 15.12 14.56 3.9 
+Industrial 18 19 (2.2) 19.50 17.65 10.5 
+Total Retail 1,048 1,025 2.3 5.35 5.53 (3.4) 
+Wholesale 13 13 (0.5) 2.91 2.76 5.5 
+Others¹ 25 32 (19.9) 21.08 18.29 15.3 
+Total 1,087 1,070 1.6 5.68 5.88 (3.3) 
+ 
+ 
+ Billed Volume (millions of m³) Average Rate (R$/m³) 
+Category 9M25 9M24 % 9M25 9M24 % 
+Residential 2,802 2,758 1.6 4.09 4.22 (3.1) 
+Commercial 296 288 2.6 14.71 14.18 3.7 
+Industrial 55 55 (0.6) 18.94 16.79 12.8 
+Total Retail 3,153 3,102 1.6 5.34 5.37 (0.5) 
+Wholesale 40 45 (12.5) 2.81 2.47 13.8 
+Others¹ 92 89 2.6 17.06 17.82 (4.2) 
+Total 3,284 3,237 1.5 5.64 5.67 (0.6) 
+ 
+(1) Others composed of Public, Own Building and Mauá (BRK) 
+ 
+ 
+Number of connections in thousands¹ 3Q25 3Q24 Var. % 
+Water¹ 9,509 9,450 59 0.6 
+Sewage¹ 8,245 8,156 89 1.1 
+ 
+(1) Active and registered connections, average by end of period 
+Unaudited by external auditors
+
+[p. 14]
+3Q25 Earnings 
+Page 5 
+OPEX 
+OPEX decreased by 15% year-over-year, reaching R$ 2,270 million in 3Q25. The main factors behind this result were: 
+(i) R$ 284 million in general and administrative expenses, mainly composed of R$ 160 million related to advance 
+transfers to municipal funds (FMSAI) and R$ 50 million from reversals of legal provisions following environmental 
+agreements; (ii) R$ 100 million in electricity expenses due to a higher share of free market vs. regulated market in total 
+consumption; (iii) R$ 63 million in expected credit loss provisions (PECLD) driven by improvement s in collection 
+performance; (iv) R$ 48 million in personnel expenses resulting from workforce reduction. On the other hand, there 
+was an increase in service expenses due to higher investments in IT and consulting. Year-to-date, the reduction was 
+14% vs. 9M24, with total costs and expenses amounting to R$ 6,732 million. 
+ 
+R$ million 
+ 3Q25 
+adjusted 
+3Q24 
+adjusted Var. (R$) % 9M25 
+adjusted 
+9M24 
+adjusted Var. (R$) % 
+Personnel (685) (733) 48 (6.6) (2,011) (2,190) 179 (8.2) 
+General supplies (86) (93) 6 (6.9) (195) (268) 73 (27.3) 
+Treatment supplies (120) (121) 1 (0.8) (364) (386) 22 (5.7) 
+Services (712) (629) (83) 13.1 (2,018) (1,975) (43) 2.2 
+Electricity (302) (402) 100 (24.8) (1,144) (1,184) 40 (3.4) 
+General expenses (262) (546) 284 (52.1) (540) (1,402) 862 (61.5) 
+Tax expenses (18) (22) 3 (15.9) (64) (61) (3) 4.1 
+Allowance for doubtful accounts (77) (140) 63 (44.9) (419) (403) (16) 4.1 
+Other revenues and expenses (8) 9 (17) (184.4) 23 23 (1) (2.7) 
+Costs and Expenses (2,270) (2,677) 406 (15) (6,732) (7,845) 1,114 (14) 
+Depreciation and Amortization (535) (543) 8 (1.4) (1,662) (2,106) 444 (21.1) 
+Costs, Expenses, Depreciation and Amortization (2,805) (3,219) 414 (13) (8,394) (9,951) 1,558 (16) 
+ 
+PERSONNEL 
+Sabesp closed 3Q25 with 9,306 employees, a 12% reduction compared to the same period of the previous year. 
+Number of employees 3Q25 3Q24 Var. (Qty.) % 
+Employees at the end of each period 9,306 10,557 (1,251) (11.8) 
+Employees - simple average 9,279 10,586 (1,307) (12.3) 
+ 
+INVESTMENTS 
+In 3Q25, investments totaled R$ 3,978 million, representing a 175% increase compared to 3Q24 and a sequential 
+acceleration of 10%. Year-to-date, CAPEX reached R$ 10,430 million, a 151% increase versus the same period of the 
+previous year, in line with the Company’s annual investment target. 
+$ million 
+ 3Q25 3Q24 Var. (R$) % 9M25 9M24 Var. (R$) % 
+Water 1,155 708 447 63.2 2,815 1,926 889 46.2 
+Sewage 2,823 736 2,087 283.5 7,616 2,235 5,380 240.7 
+Total 3,978 1,444 2,534 175.5 10,430 4,161 6,269 150.7
+
+[p. 15]
+3Q25 Earnings 
+Page 6 
+BALANCE SHEET (CONSOLIDATED) 
+ 
+ASSETS 3Q25 3Q24 
+Current assets 
+Cash and cash equivalents 4,969,019 2,393,304 
+Financial investments 6,680,854 1,275,704 
+Trade receivables 4,483,470 3,645,752 
+Accounts receivable from related parties 284,583 272,659 
+Inventories 28,829 98,121 
+Restricted cash 55,481 29,596 
+Taxes recoverable 425,766 183,761 
+Derivative financial instruments - 171,250 
+Other assets 112,849 99,636 
+Total Current assets 17,040,851 8,169,783 
+ 
+Noncurrent assets 
+Financial investments - 753,137 
+Trade receivables 256,057 336,577 
+Accounts receivable from related parties 882,029 914,056 
+Escrow deposits 130,781 135,118 
+Water and Basic Sanitation National Agency – ANA 2,157 1,957 
+Other assets 34,564 137,023 
+Investments 233,239 224,245 
+Investment properties 14,444 46,642 
+Contract asset 11,411,909 6,831,603 
+Financial asset from concession 19,348,193 16,244,999 
+Intangible assets 45,964,246 41,823,835 
+Property, plant, and equipment 668,987 515,973 
+Total noncurrent assets 78,946,606 67,965,165 
+Total Assets 95,987,457 76,134,948 
+ 
+ 
+ 
+LIABILITIES AND EQUITY 3Q25 3Q24 
+Current liabilities 
+Trade payables and contractors 1,525,996 268,917 
+Borrowings and financing 5,782,620 2,637,216 
+Labor and social obligations 1,120,534 641,154 
+Taxes and contributions payable 735,422 271,113 
+Deferred PIS/Cofins 74,117 - 
+Dividends and interest on capital payable 1,532 744 
+Provisions 1,331,565 1,513,228 
+Services payable 2,254,731 812,990 
+Public -Private Partnership - PPP 465,028 444,264 
+Derivative financial instruments 822,293 -
+
+[p. 16]
+3Q25 Earnings 
+Page 7 
+Performance Agreements 222,642 35 
+Other liabilities 198,134 583,910 
+Total Current liabilities 14,534,614 7,173,571 
+ 
+Noncurrent Liabilities 
+Borrowings and financing 29,143,824 21,220,016 
+Deferred income tax and social contribution 2,737,586 2,656,048 
+Deferred PIS/Cofins 1,117,146 998,436 
+Provisions 479,472 827,895 
+Pension plan obligations 1,949,210 2,106,294 
+Public -Private Partnership - PPP 2,857,070 2,797,417 
+Performance Agreements 100,608 - 
+Other liabilities 357,652 446,299 
+Total Noncurrent Liabilities 38,742,568 31,052,405 
+Total Liabilities 53,277,182 38,225,976 
+ 
+Equity 
+Capital stock 18,400,000 15,000,000 
+Capital reserves 5,927 - 
+Earnings reserves 18,247,715 14,617,966 
+Other Comprehensive Income 280,014 146,362 
+Retained Earnings/Accumulated Losses 5,776,619 8,144,644 
+Total Equity 42,710,275 37,908,972 
+Total Equity and Liabilities 95,987,457 76,134,948
+
+[p. 17]
+3Q25 Earnings 
+Page 8 
+CASH FLOW STATEMENT (CONSOLIDATED) 
+ 
+R$ ‘000 3Q25 3Q24 
+Cash flows from operating activities 3,094,605 2,151,841 
+ Profit before income tax and social contribution 3,240,861 9,333,666 
+ Adjustments for reconciliation of net income: 
+Depreciation and amortization 535,080 592,888 
+Residual value of property, plant, and equipment, intangible assets, contract asset and investment 
+properties written -off 62,964 3,132 
+Allowance for doubtful accounts (352,449) (664,319) 
+Provisions and inflation adjustments on provisions (41,668) 443,868 
+Interest calculated on borrowings and financing payable 736,915 421,901 
+Inflation Adjustment and Exchange gains (losses) on Borrowings and Financing (449,952) 113,419 
+Adjustment to market value of financing (fair value hedge) (94,084) 0 
+Interest and inflation adjustments, net (2,062,977) (10,802) 
+Derivative Financial Instruments 1,018,038 (41,537) 
+Financial Charges from Customers (172,807) (134,604) 
+Construction Margin on Intangible Assets arising from Concession Agreements - (34,431) 
+Provision for Consent Decree (TAC) and Incentivized Dismissal Program (PDI) 462,130 (15,285) 
+Equity accounting (7,451) (8,794) 
+Interest and inflation adjustment - PPP 73,450 110,326 
+Municipal Government of São Paulo Transfers 170,282 (7,442) 
+Pension Plan Obligations 68,084 48,857 
+Deferred PIS and Cofins on financial assets (indemnity) 14,261 815,836 
+Update of financial asset (indemnities) (154,164) (8,819,847) 
+Other Adjustments 48,092 5,009 
+ 
+Changes in assets 
+Trade receivables 1,544,836 799,853 
+Accounts receivable from related parties 16,142 (9,909) 
+Inventories (28,562) 17,968 
+Recoverable taxes 449,509 122,661 
+Escrow deposits (71,558) 17,972 
+Other assets 27,431 37,099 
+Changes in liabilities 
+ Trade payables and contractors 306,551 (8,644) 
+ Services payable 177,180 (30,177) 
+ Labor and social obligations (38,407) 61,601 
+ Taxes and contributions payable (722,515) (242,818) 
+ Deferred PIS/Cofins (20,186) 6,247 
+ Provisions (147,685) (30,551) 
+ Pension plan obligations (63,694) (61,774)
+
+[p. 18]
+3Q25 Earnings 
+Page 9 
+ Other liabilities 12,700 (239,678) 
+Cash generated from operations 4,536,347 2,591,691 
+ Interest paid (963,207) (689,367) 
+ Income tax and social contribution paid (399,867) (332,213) 
+Net cash generated from operating activities 3,173,273 1,570,111 
+ 
+ 3Q25 3Q24 
+Cash flow from investing activities 
+Acquisition of contract assets, intangible assets and property, plant and equipment (3,783,370) (4,210,714) 
+Restricted Cash (4,234) 21,042 
+Financial investments - Investment (10,041,790) (2,351,283) 
+Financial Investments - Redemption 7,335,590 3,412,794 
+Financial Investments – Noncurrent 7,439 (753,137) 
+Investment 14,359 (23,804) 
+Net cash used in investing activities (6,472,006) (3,905,102) 
+ 
+Cash flow from financing activities 
+ Borrowings and financing 
+ Funding 4,711,941 2,550,639 
+ Amortization (796,735) (468,624) 
+ Payment of dividends and interest on capital - (77) 
+ Public -Private Partnership - PPP (85,025) (94,910) 
+ Program Contract Commitments - (32,316) 
+ Derivative financial instruments (123,445) (35,849) 
+Net cash generated from (used in) financing activities 3,706,736 1,918,863 
+ 
+Increase / (decrease) in cash and cash equivalents in the period 408,003 (416,128) 
+Represented by: 
+Cash and cash equivalents at the beginning of the period 4,561,016 2,809,432 
+Cash and cash equivalents at the end of the period 4,969,019 2,393,304 
+Increase / (decrease) in cash and cash equivalents in the period 408,003 (416,128)

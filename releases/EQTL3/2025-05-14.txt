@@ -1,0 +1,2098 @@
+[p. 1]
+s 
+Release de 
+Resultados 
+1T25
+
+[p. 2]
+2 
+ 
+Brasília, 14 de maio de 2025 – A Equatorial S.A., holding multi-utilities, com atuação nos segmentos de Distribuição, Transmissão, Geração, Comerciali-
+zação, Serviços, Saneamento e Telecom (B3: EQTL3; USOTC: EQUEY), anuncia os resultados do primeiro trimestre de 2025 (1T25). 
+EBITDA Consolidado Ajustado cresce 14,5%, R$ 2,9 bilhões no período (vs. 1T24) 
+Enquadramento do DEC do Piauí e redução do PMSO são destaques do trimestre. 
+ 
+• Qualidade da Operação – Redução do DEC no 1T25 vs 4T24, na visão acumulada 12 meses, em todas as distribui-
+doras do grupo, com destaque para o enquadramento do DEC no nível regulatório da Equatorial Piauí e para a re-
+dução da CEEE-D (-3,2h). 
+• Redução das perdas totais consolidadas, estando abaixo do nível regulatório pelo sexto trimestre consecutivo . 
+• PMSO Ajustado Consolidado atingiu R$ 1.133 milhões, redução de 3,9% entre trimestres. 
+• Equivalência Patrimonial da Sabesp atingiu R$ 214 milhões no trimestre. 
+• Investimentos consolidados totalizaram cerca de R$ 2,3 bilhões no 1T25. 
+• Relação Dívida Líquida / EBITDA consolidado na visão covenant, encerrou o trimestre em 3,2x. 
+• Disponibilidade e Aplicações do período atingiram R$ 11,2 bilhões, com uma relação Caixa / Dívida de curto 
+prazo de 1,4x. 
+• Alienação dos ativos de transmissão do grupo anunciada em 04 de abril, com um enterprise value de até R$ 9,4 
+bilhões. 
+• Assinatura do contrato de financiamento com o IFC no dia 28 de março, no valor de U$ 100 milhões para a Equa-
+torial Alagoas. 
+• Ingresso do grupo no Índice de Sustentabilidade Empresarial - ISE B3. 
+ 
+PRINCIPAIS MACROINDICADORES 1 
+ 
+1 EBITDA Ajustado líquido de efeitos não-recorrentes e efeito não caixa de VNR, IFRS e MtM. 
+Destaques Financeiros 1T24 1T25 ∆% ∆
+R$ milhões
+Receita operacional líquida (ROL) 9.898 11.709 18,3% 1.811 
+EBITDA ajustado (trimestral) 2.523 2.889 14,5% 366 
+Margem EBITDA (%ROL) 25,5% 24,7%
+EBITDA ajustado (12 meses) 8.849 11.454 29,4% 2.605 
+Lucro líquido ajustado 491 411 -16,4% (81) 
+Margem líquida (%ROL) 5,0% 3,5%
+Investimentos 1.725 2.311 33,9% 585 
+Dívida líquida 36.694 44.071 20,1% 7.378 
+Dívida líquida/EBITDA (12m - C ovenants) 3,3 3,2 
+Disponibilidade / Dívida de curto prazo 2,2 1,4 
+-0,1x
+-1,5 p.p.
+-0,8 p.p.
+-0,8x
+
+[p. 3]
+3 
+ 
+Sumário 
+Sumário ................................ ................................ ................................ ................................ ................................ .......... 3 
+DESEMPENHO FINANCEIRO CONSOLIDADO ................................ ................................ ................................ ................... 5 
+MARGEM BRUTA AJUSTADA ................................ ................................ ................................ ................................ ........... 6 
+CUSTOS E DESPESAS ................................ ................................ ................................ ................................ ....................... 7 
+EBITDA ................................ ................................ ................................ ................................ ................................ ............ 8 
+RESULTADO FINANCEIRO ................................ ................................ ................................ ................................ ............... 9 
+LUCRO LÍQUIDO ................................ ................................ ................................ ................................ ............................ 10 
+ENDIVIDAMENTO ................................ ................................ ................................ ................................ ......................... 11 
+INVESTIMENTOS ................................ ................................ ................................ ................................ ........................... 12 
+ESG (Environmental, Social and Governance) ................................ ................................ ................................ .............. 13 
+DISTRIBUIÇÃO ................................ ................................ ................................ ................................ ............................... 14 
+DESEMPENHO COMERCIAL ................................ ................................ ................................ ................................ .......... 14 
+DESEMPENHO OPERACIONAL ................................ ................................ ................................ ................................ ...... 16 
+DESEMPENHO FINANCEIRO ................................ ................................ ................................ ................................ .......... 17 
+MARGEM BRUTA ................................ ................................ ................................ ................................ .......................... 17 
+DESPESAS OPERACIONAIS E PMSO/CONSUMIDOR ................................ ................................ ................................ ...... 18 
+EBITDA ................................ ................................ ................................ ................................ ................................ .......... 20 
+EFEITOS NÃO RECORRENTES EBITDA ................................ ................................ ................................ ......................... 21 
+RESULTADO FINANCEIRO ................................ ................................ ................................ ................................ ............. 22 
+LUCRO LÍQUIDO ................................ ................................ ................................ ................................ ............................ 22 
+INVESTIMENTOS ................................ ................................ ................................ ................................ ........................... 22 
+TRANSMISSÃO ................................ ................................ ................................ ................................ .............................. 23 
+DESEMPENHO FINANCEIRO ................................ ................................ ................................ ................................ .......... 23 
+RENOVÁVEIS ................................ ................................ ................................ ................................ ................................ . 25 
+DESEMPENHO OPERACIONAL ................................ ................................ ................................ ................................ ...... 25 
+DESEMPENHO FINANCEIRO ................................ ................................ ................................ ................................ .......... 28 
+SANEAMENTO ................................ ................................ ................................ ................................ .............................. 31 
+DESEMPENHO OPERACIONAL E COMERCIAL ................................ ................................ ................................ ................ 31 
+DESEMPENHO FINANCEIRO ................................ ................................ ................................ ................................ .......... 31 
+EQUATORIAL SERVIÇOS ................................ ................................ ................................ ................................ ................ 33 
+DESEMPENHO FINANCEIRO ................................ ................................ ................................ ................................ .......... 33 
+SERVIÇOS PRESTADOS PELO AUDITOR INDEPENDENTE ................................ ................................ ............................... 34
+
+[p. 4]
+4 
+ 
+AVISO 
+As declarações sobre eventos futuros estão sujeitas a riscos e incertezas. Tais declarações têm como base crenças e 
+suposições de nossa Administração e informações a que a Companhia atualmente tem acesso. Declarações sobre 
+eventos futuros incluem informações sobre nossas intenções, crenças ou expectativas atuais, assim como aquelas dos 
+membros do Conselho de Administração e Diretores da Companhia. As ressalvas com relação às declarações e infor-
+mações acerca do futuro também incluem informações sobre resulta dos operacionais possíveis ou presumidos, bem 
+como declarações que são precedidas, seguidas ou que incluem as palavras “acredita”, “poderá”, “irá”, “continua”, 
+“espera”, “prevê”, “pretende”, “estima” ou expressões semelhantes. 
+As declarações e informações sobre o futuro não são garantias de desempenho. Elas envolvem riscos, incertezas e su-
+posições porque se referem a eventos futuros, dependendo, portanto, de circunstâncias que poderão ocorrer ou não. 
+Os resultados futuros e a criação de valor para os acionistas poderão diferir de maneira significativa daqueles expressos 
+ou sugeridos pelas declarações com relação ao futuro. Muitos dos fatores que irão determinar estes resultados e valores 
+estão além da capacidade de controle ou previsão da Companhia. 
+Critérios contábeis adotados: 
+As informações estão apresentadas na forma consolidada e de acordo com os critérios da legislação societária brasi-
+leira, a partir de informações financeiras revisadas. As informações financeiras consolidadas apresentadas neste rela-
+tório representam 100% do resultado de suas controladas diretas e indiretas e consideram o resultado dos ativos a partir 
+de sua aquisição, exceto quando indicado o contrário para fins de comparabilidade. 
+ As informações operacionais consolidadas representam 100% dos resultados de controladas diretas e indiretas.
+
+[p. 5]
+5 
+ 
+DESEMPENHO FINANCEIRO CONSOLIDADO 
+ 
+ 
+ 
+Demonstração de Resultado 1T24 1T25 ∆% ∆
+R$ milhões
+Receita operacional bruta (ROB) 13.837 15.496 12,0% 1.658 
+Receita operacional líquida (ROL) 9.898 11.709 18,3% 1.811 
+C usto de energia elétrica (5.704) (7.208) 26,4% (1.504) 
+Margem Bruta 4.194 4.501 7,3% 307 
+Margem Bruta Ajustada 4.002 4.117 2,9% 115 
+C usto e despesas operacionais (1.484) (1.211) -18,4% 274 
+Outras receitas/despesas operacionais (66) (129) 95,1% (63) 
+EBITDA 2.644 3.161 19,6% 517 
+EBITDA Ajustado 2.523 2.889 14,5% 366 
+Depreciação (513) (619) 20,8% (106) 
+Amortização de ágio (144) (143) -0,8% 1 
+Equivalencia patrimonial - 214 N/A 214 
+Resultado do serviço (EBIT) 1.987 2.399 20,7% 412 
+Resultado financeiro (1.276) (1.455) 14,0% (179) 
+Resultado financeiro ajustado (1.231) (1.509) 22,6% (278) 
+Lucro antes da tributação (EBT) 711 945 32,8% 233 
+IR/C SLL (132) (239) 80,7% (107) 
+Participações minoritárias (300) (150) -50,0% 150 
+Lucro líquido Ex Minoritários 279 556 99,0% 277 
+Lucro líquido Ajustado 491 411 -16,4% (81) 
+Investimentos 1.725 2.311 33,9% 585
+
+[p. 6]
+6 
+ 
+MARGEM BRUTA AJUSTADA 
+ 
+De forma consolidada, a Margem Bruta ajustada do grupo Equatorial no 1T25 apresentou um crescimento de 2,9% em 
+comparação ao 1T24, totalizando R$ 4,1 bilhões, já excluindo os efeitos da receita de construção e os efeitos IFRS (VNR, 
+IFRS 9 e MtM). 
+O resultado é explicado principalmente pelo aumento da margem bruta do segmento de Distribuição (R$ 174 milhões), 
+onde se destacam o crescimento da margem bruta Equatorial Goiás (R$ 108 milhões). Vale ressaltar que a redução da 
+margem no segmento de Transmissão (- R$ 64 milhões) se dá, principalmente, pela venda da INTESA e da SPE 7 , que 
+tiveram suas alienações concluídas em março e dezembro de 2024, respectivamente . 
+Neste trimestre, a variação de mercado impactou a margem negativamente em R$ 130 milhões, enquanto as variações 
+de tarifa e o delta perdas adicionaram R$ 354 milhões e R$ 10 milhões, respectivamente. 
+É importante ressaltar os efeitos da contabilização do custo de compra de energia da geração distribuída começaram a 
+ser contabilizados apenas no 4T24 . Para uma comparação mais aderente da margem bruta ajustada, o valor do 1T24 
+deve ser ajustado com um custo de R$ 46,9 milhões, que resultariam em uma variação entre trimestres de 3,4%, ou R$ 
+134,8 milhões em uma visão consolidada. 
+Na tabela abaixo apresentamos os efeitos não recorrentes da Margem Bruta abertos por segmento: 
+ 
+Abaixo o detalhamento dos efeitos não recorrentes do período: 
+Custo do Serviço de Energia Elétrica: 
+(i) Lançamentos Retroativos (Alagoas): Ajustes realizados para ajustar neutralidade de acordo com a CP 09. 
+(ii) Despesas O&M (Echo): Ajuste referente a reclassificação contábil de despesas de O&M para os custos. Este efeito 
+também está presente no PMSO, em igual valor e sinal inverso. 
+ 
+ 
+Não Recorrentes Distribuição Transmissão Renováveis Saneamento Outros 1T25 Total
+Receita Operacional - - - - - - 
+Deduções da receita operacional - - - - - - 
+Receita operacional líquida - - - - - - 
+Custos 18 - 27 - - 45 
+Lançamentos Retroativos 18 - - - - 18 
+Despesas O&M - - 27 - - 27 
+Margem Bruta 18 - 27 - - 45
+
+[p. 7]
+7 
+ 
+CUSTOS E DESPESAS 
+ 
+O PMSO Ajustado apresentou uma redução de 3,9% no comparativo entre trimestres, de R$ 1.179 milhões para R$ 1.133 
+milhões. Como principais efeitos do PMSO Ajustado do trimestre, destacamos: 
+(i) Redução de R$ 20 milhões no segmento de Distribuição, reflexo da redução de PMSO na Equatorial Goiás; 
+(ii) Redução de R$ 16 milhões em Outros, explicado majoritariamente pel a variação da Holding (despesas de In-
+centivo de Longo Prazo) e da Equatorial Serviços. 
+As explicações para os movimentos de cada segmento estão explicadas em suas respectivas seções no documento. 
+Na tabela abaixo apresentamos os efeitos não recorrentes dos custos e despesas, abertos por segmento: 
+ 
+Abaixo o detalhamento dos efeitos não recorrentes: 
+Custos e Despesas Operacionais: 
+Pessoal 
+(i) Pagamento de Bônus extraordinário fruto de aquisição recente (MA/PA/PI/AL & Holding) e rescisões de administrado-
+res. 
+Material 
+(ii) Aquisição de materiais de EPI e EPC voltados para primarização (PA). 
+Serviços de Terceiros 
+(iii) Despesas O&M (Echo): Ajuste referente a reclassificação contábil de despesas de O&M para os custos. Este efeito 
+também está presente na margem bruta, em igual valor e sinal inverso. 
+Os efeitos individuais das distribuidoras podem ser visualizados na tabela de não recorrentes da seção de Distribuição. 
+Custos Operacionais 1T24 ∆ Distribuição ∆ Transmissão ∆ Renováveis ∆ Outros* 1T25 ∆% ∆
+R$ milhões
+(+) Pessoal 310 14 (2) 7 3 332 7,1% 22
+(+) Material 41 11 (1) (0) 0 51 25,1% 10
+(+) Serviço de terceiros 721 (60) 6 2 (11) 659 -8,6% (62)
+(+) Outros 133 2 (1) (42) (3) 88 -33,3% (44)
+(=) PMSO Reportado 1.204 (33) 3 (33) (11) 1.130 -6,2% (74)
+Ajustes (25) - - - - 3 -113,0% 28
+PMSO Ajustado 1.179 (20) (5) (6) (16) 1.133 -3,9% (46)
+(+) Provisões 266 (3) - - 19 282 5,7% 15
+(+) Sistemas Isolados e Subv. C C C 14 (1) - - - 13 -7,3% (1)
+(+) Outras receitas/despesas operacionais 66 60 0 - 3 129 95,1% 63
+(+) Depreciação e amortização 513 83 1 19 4 619 20,8% 106
+Custos e Despesas Reportado 2.063 106 3 (14) 14 2.172 5,3% 109
+IPCA (12 meses)
+IGPM (12 meses)
+*Inclui PPAs e Eliminações
+8,58%
+5,48%
+Não Recorrentes Distribuição Transmissão Renováveis Saneamento Outros 1T25 Total
+Custos e Despesas Operacionais 12 - (27) - 13 (3) 
+Pessoal 9 - - - 13 22 
+Material 2 - - - - 2 
+Serviços de Terceiros - - (27) - - (27) 
+Outros - - - - - - 
+Provisões - - - - - - 
+Custos e Despesas 12 - (27) - 13 (3)
+
+[p. 8]
+8 
+ 
+EBITDA 
+ 
+O EBITDA reportado da Equatorial atingiu R$ 3.161 milhões no 1T25, valor 19,6% superior ao 1T25. 
+Já o EBITDA ajustado por efeitos não recorrentes e não caixa alcançou R$ 2.889 milhões, 14,5% superior ao mesmo 
+período do ano anterior , ou R$ 366 milhões superior, aumento explicado por: (i) efeito da equivalência patrimonial da 
+SABESP, que no trimestre adicionou R$ 214 milhões, (ii) aumento do segmento de distribuição , que no trimestre teve 
+uma variação de R$ 187 milhões, e (iii) aumento do segmento de renováveis em R$ 44 milhões. 
+O EBITDA ajustado já contempla os ajustes não caixa e IFRS (VNR, IFRS 9 e M tM). 
+A seguir apresentamos a conciliação do EBITDA, conforme Instrução CVM 156/22: 
+ 
+Na tabela acima também mostramos duas comparações: a comparação do EBITDA ajustado com o efeito retroativo do 
+reconhecimento de custos da geração distribuída e a visão “mesmos ativos”, ajustando os efeitos da INTESA, SPE 7, 
+Echo crescimento e equivalência Sabesp. 
+Os efeitos não-recorrentes que impactaram o EBITDA estão relacionados a seguir. 
+ 
+Os ajustes do EBITDA estão representados nas seções anteriores “Margem Bruta” e “Custos e Despesas”. Para maiores 
+detalhes, ver seção de “Distribuição”. 
+Não Recorrentes Distribuição Transmissão Renováveis Saneamento Outros 1T25 Total
+Margem Bruta 18 - 27 - - 45 
+Custos e Despesas 12 - (27) - 13 (3) 
+Sistemas Isolados (12) - - - - (12) 
+Outras receitas/despesas operacionais 128 - - - - 128 
+Ajustes IFRS (VNR / IFRS 9 / MtM) (344) (54) - - (31) (429) 
+PPAs - - - - (2) (2) 
+Ajustes EBITDA (198) (54) - - (20) (272) 
+EBITDA 1T24 1T25 ∆% ∆
+R$ milhões
+EBITDA Equatorial Societário 2.644 3.161 19,6% 517
+Ajustes EBITDA (121) (272) 124,8% (151)
+Não Recorrentes 117 156 33,4% 39
+(-) IFRS 9 (Transmissão) (33) (54) 65,2% (21)
+(-) VNR (201) (344) 71,2% (143)
+(-) MtM (5) (31) 521,5% (26)
+EBITDA Equatorial Ajustado 2.523 2.889 14,5% 366
+EBITDA Ajustado - Efeito GD Retroativo 2.476 2.889 16,7% 413
+EBITDA Ajustado - Mesmos Ativos e GD Retroativo 2.424 2.635 8,7% 211
+
+[p. 9]
+9 
+ 
+RESULTADO FINANCEIRO 
+ 
+Neste trimestre não houve efeitos não recorrentes no resultado financeiro, apenas o efeito da atualização das ações 
+PN na Equatorial Distribuição, no valor de R$ 54,7 milhões positivos, refletido na linha de efeitos não caixa. 
+De forma consolidada, o resultado financeiro reportado da Companhia atingiu R$ 1.455 milhões negativos contra R$ 
+1.276 milhões negativos no 1T24, enquanto resultado financeiro ajustado por efeitos não recorrentes e não caixa no 
+1T25 foi de R$ 1.509 milhões negativos, 22,6% maior em relação ao 1T24. A piora no resultado financeiro do trimestre é 
+explicada principalmente p elo crescimento da dívida bruta entre períodos ( + R$ 7,5 bilhões, 23,0% maior entre perío-
+dos). 
+ 
+ 
+ 
+Resultado Financeiro líquido 1T24 ∆ Distribuição ∆ Transmissão ∆ Renováveis ∆ Outros 1T25 ∆% ∆
+R$ milhões
+(+) Rendas Financeiras 295 111 11 7 (53) 372 25,8% 76 
+(+) Acréscimo Moratório - Venda de Energia 104 15 - 1 1 120 15,8% 16 
+(+) Encargos da dívida (1.308) (371) 16 (91) (27) (1.781) 36,2% (473) 
+(+) Encargos C VA (14) 5 - - - (9) -36,8% 5 
+(+) AVP - C omercial 24 (15) - - - 9 -61,3% (15) 
+(+) C ontingências (79) 8 - - - (71) -10,3% 8 
+(+) Outras Receitas / Despesas (297) (8) 1 (1) 211 (94) -68,4% 203 
+Resultado financeiro (1.276) (255) 28 (85) 132 (1.455) 14,0% (179) 
+(-/+) Efeitos Não Recorrentes (62) - 
+(-/+) Efeitos Não C aixa 107 (55) 
+Resultado financeiro ajustado (1.231) (1.509) 22,6% (278)
+
+[p. 10]
+10 
+ 
+LUCRO LÍQUIDO 
+De forma consolidada, o lucro líquido do período foi de R$ 706 milhões, enquanto o lucro líquido ajustado do período 
+foi de R$ 411 milhões. 
+ 
+As participações minoritárias da companhia são afetadas pela atualização das ações PN emitidas na Equatorial Distri-
+buição, e por isso não refletem a participação econômica existente na Equatorial. O Lucro Líquido Ex Minoritários, para 
+uma visão mais aderente, deve levar em consideração: (i) as participações minoritárias das empresas do grupo, que no 
+trimestre atingiram R$ 55,9 milhões, e (ii) o valor da atualização das PNs por CDI, que no trimestre registrou R$ 113,1 
+milhões. Efetuando esses ajustes, o Lucro líquido ex minoritários seria de R$ 537,2 milhões. 
+É importante ressaltar que o lucro líquido ajustado inclui os ajustes não caixa referentes a atualização da opção de com-
+pra das ações preferenciais na Equatorial Distribuição. O efeito está mapeado dentro do resultado financeiro e reflete a 
+composição dos ajustes do lucro. 
+Abaixo apresentamos os efeitos não recorrentes e não caixa que impactaram o lucro da companhia: 
+ 
+ A linha de impostos ajusta o valor do trimestre para a incidência de impostos sobre o resultado recorrente, e a linha de 
+Ajustes IFRS traz os efeitos não caixa já líquidos de impostos . 
+Lucro Líquido Consolidado ( R$ Milhões) 1T24 1T25 ∆% ∆
+Distribuição 708 645 -9,0% (63) 
+Transmissão 94 103 9,1% 9 
+Intesa 3 - -100,0% (3) 
+Echoenergia (34) (26) -21,7% 7 
+Echo C rescimento 1 (71) -11515,2% (72) 
+Serviços 11 0 -99,4% (11) 
+C SA (57) (59) 3,4% (2) 
+PPAS 28 20 -28,3% (8) 
+Holding + outros (175) 96 -154,5% 271 
+(=) Lucro Líquido 579 706 21,9% 127 
+Ajustes Totais (88) (296) 235,7% (208) 
+Ajustes Distribução 6 67 1034,1% 61 
+Ajustes PPAS e Holding (28) (8) -73,0% 21 
+Ajustes PNs - Não caixa 107 (55) -151,3% (161) 
+Ajustes IFRS (VNR, IFRS e MtM) (172) (300) 73,9% (127) 
+(=) Lucro Líquido Equatorial Ajustado 491 411 -16,4% (81) 
+(=) Lucro Líquido 579 706 21,9% 127 
+(-) Participações Minoritárias (300) (150) -50,0% 150 
+(=) Lucro Líquido Ex Minoritários 279 556 99,0% 277 
+Não Recorrentes Distribuição Transmissão Renováveis Saneamento Outros 1T25 Total
+Ajustes EBITDA (Margem + Custos) 17 - - - 13 30 
+Impostos 49 - - - - 49 
+PPAs - - - - (20) (20) 
+Ajuste PNs - Não caixa - - - - (55) (55) 
+Ajustes IFRS (VNR / IFRS 9 / MtM) líquido de impostos (227) (53) - - (21) (300) 
+Ajustes Totais Lucro Líquido (160) (53) - - (83) (296)
+
+[p. 11]
+11 
+ 
+ENDIVIDAMENTO 
+No trimestre, a dívida bruta consolidada, considerando empréstimos e financiamentos , credores financeiros da recu-
+peração judicial (líquido de ajuste a valor presente) e debêntures, atingiu R$ 54,8 bilhões. Para abertura mais detalhada 
+da dívida, visite o website de RI, na seção: Informações Financeiras – Dados Operacionais e Financeiros. 
+ 
+ A dívida líquida apurada para fins de covenants atingiu R$ 44,1 bilhões, implicando numa relação dívida líquida/EBITDA 
+para fins de covenants de 3,2x. A abertura do quadro de covenants apresenta o EBITDA da Equatorial, além da equiva-
+lência patrimonial da participação de 15% na SABESP , ambos referentes aos últimos 12 meses e em uma visão cove-
+nants.
+
+[p. 12]
+12 
+ 
+ 
+Vale ressaltar que, em uma visão de dívida líquida (excluindo o caixa da companhia da dívida atrelada ao CDI) , a parti-
+cipação do CDI na dívida consolidada seria de 49,8%. 
+A cobertura de caixa com relação as obrigações de curto prazo da Companhia foi de 1,4x no 1T25. 
+Vale ressaltar que a redução da dívida bruta entre períodos reflete os seguintes pré pagamentos: (i) R$ 750 milhões da 
+6ª emissão da Equatorial Pará, (ii) R$ 312 milhões do pré pagamento da 9ª emissão da Equatorial Maranhão, e (iii) R$ 
+1.500 milhões do pré pagamento parcial da nota comercial da Equatorial. 
+ 
+INVESTIMENTOS 
+ 
+As informações relativas aos Investimentos realizados consideram 100% d os nossos ativos nos períodos reportados . 
+Os novos ativos, são considerados a partir de suas respectivas consolidações. 
+No 1T25 os investimentos consolidados somaram R$ 2,3 bilhões, volume 34% superior ao registrado no 1T24. 
+A variação dos investimentos entre trimestres é reflexo do aumento do volume investido no segmento de distribuição, 
+em especial na linha de ativos elétricos , resultado dos investimentos em expansão, qualidade e perdas, enquanto o 
+aumento de obrigações especiais se dá pelo maior número de obras voltadas para universalização. 
+Para retornar ao Sumário, clique aqui. 
+Investimentos 1T24 1T25 ∆% ∆
+R$ milhões
+Distribuição 1.510 2.252 49% 742
+Ativos elétricos 1.245 1.806 45% 561
+Obrigações especiais 192 318 65% 126
+Ativos não elétricos 73 129 77% 56
+Transmissão 8 7 -20% -2
+Renováveis 183 8 -96% -175
+Ativos Operacionais 14 3 -76% -11
+Projetos em desenvolvimento 169 5 - -164
+Saneamento 20 35 73% 15
+Outros 4 9 122% 5
+Total Equatorial 1.725 2.311 34% 585
+
+[p. 13]
+13 
+ 
+ESG (Environmental, Social and Governance) 
+O Grupo Equatorial iniciou 2025 com avanços relevantes em sua agenda ESG. A Companhia alcançou nota B no CDP 
+(Carbon Disclosure Project), refletindo progressos consistentes na identificação e divulgação de riscos e impactos cli-
+máticos e no fortalecimento d a governança ambiental. Esse desempenho demonstra uma gestão mais estruturada e 
+proativa frente às mudanças climáticas, com ações concretas voltadas à mitigação de riscos e à identificação de opor-
+tunidades. Como reconhecimento desse avanço, o Grupo foi lis tado novamente na carteira 2024/2025 do Índice de 
+Sustentabilidade Empresarial (ISE) da Bolsa de Valores brasileira, alcançando a 23ª posição de 82 empresas listadas. 
+Outro marco relevante foi o anúncio da parceria estratégica com a IFC (International Finance Corporation), que prevê 
+um investimento de até US$ 250 milhões, sendo US$ 100 milhões destinados a um empréstimo verde para a Equatorial 
+Alagoas. Os recursos serão aplicados na modernização do sistema de distribuição de energia, contribuindo para a ex-
+pansão da infraestrutura elétrica no Brasil e impulsionando o crescimento econômico aliado ao desenvolvimento sus-
+tentável. 
+No trimestre, o Grupo Equatorial registrou o consumo de 257.770 litros de etanol em sua frota administrativa, o que 
+representa um aumento de 446% em relação ao mesmo período de 2024. Esse avanço evidencia o compromisso da 
+Companhia com a utilização de fontes de energia mais limpas, fortalecendo o uso de combustíveis renováveis em suas 
+operações. 
+Saiba mais sobre nossos indicadores, disponibilizados a cada trimestre, no quadro abaixo . 
+ 
+ Para retornar ao Sumário, clique aqui. 
+Indicadores ESG Medida 1T24 1T25 ∆%
+Ambiental
+Consumo de Combustíveis Renováveis na Frota Administrativa L 47.185 257.770 446,3%
+Intensidade de Emissões de SF6 tCO2eq/GWh 0,40 0,36 -10,1%
+# de Ligações em Áreas Remotas via SIGFI (Sistema Individual de Geração de Energia Elétrica com Fonte Intermitente) # 3.462 2.196 -36,6%
+Investimentos P&D e Eficiência Energética em Meio Ambiente R$ mil 14.071 29.359 108,6%
+Social
+% de Mulheres no Grupo Equatorial Energia % 36,2% 33,9% -2,3p.p.
+% de Mulheres em Cargos de Liderança x Total de Líderes % 21,4% 22,3% 0,8p.p.
+% de Negros em Cargos de Liderança x Total de Líderes % 7,2% 6,8% -0,4p.p.
+% de Fornecedores Locais % 45,9% 43,1% -2,7p.p.
+Investimentos Sociais R$ mil 9.833 270 -97,3%
+TG Próprios # 5 53 960,0%
+TG Terceiros # 799 320 -59,9%
+Número de óbitos de empregados (próprios + terceiros) # 1 1 0,0%
+Número de Acidentes com a População # 10 9 -10,0%
+Número de Unidades Consumidoras (UCs) beneficiadas pela Tarifa Social de Energia Elétrica (TSEE) # mil 4.233 4.351 2,8%
+Governança
+% de Conselheiros Independentes¹ % 100,0% 86,0% -14p.p.
+% de Mulheres no Conselho % 14,0% 14,0% 0,0%
+% de Colaboradores Treinados na Trilha de Integridade % 55,8% 97,9% 75,5%
+Casos Registrados no Canal de Ética # 166 168 1,2%
+1 - Considera composição atual
+
+[p. 14]
+14 
+ 
+DISTRIBUIÇÃO 
+DESEMPENHO COMERCIAL 
+ 
+PERDAS (12 meses) 
+ 
+1Em relação à cobertura tarifária para compra de energia da CEA, cumpre destacar que além do valor usual implícito no nível de perdas regulatórias, na REH 3.430, de 10 de dezembro de 2024, a Aneel homologou o 
+valor de adicional R$ 69,8 milhões, a ser recebido em 12 parcelas, referente ao parágrafo único do art. 4º b da lei 12.111, d e 9 de dezembro de 2009. este mecanismo complementar, previsto em lei, se extingue no 
+processo tarifário de 2026, e o montante de energia associado é reduzido gradativamente 25% a cada ano. 
+ 
+ As informações operacionais foram divulgadas no release operacional da companhia. Para acessar o documento, cli-
+que aqui. 
+ 
+Dados Operacionais
+Medida MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total
+Energia Injetada SIN GWh 2.316 3.471 1.211 1.463 2.834 468 4.476 16.239 2.259 3.366 1.157 1.375 3.037 418 4.370 15.982 
+Sistema isolado GWh 0 62 - - - 13 - 75 0 69 - - - 13 - 83 
+Energia injetada GD GWh 140 197 146 112 121 13 383 1.111 205 299 217 180 161 24 550 1.636 
+Energia Injetada Total GWh 2.456 3.730 1.357 1.575 2.954 494 4.859 17.425 2.464 3.735 1.374 1.555 3.197 455 4.921 17.701
+Δ Injetada Total (%) % 0,3% 0,1% 1,2% -1,3% 8,2% -7,8% 1,3% 1,6%
+Residencial - convencional GWh 693 753 305 327 891 99 1.385 4.454 688 711 301 318 957 101 1.385 4.460 
+Residencial - baixa renda GWh 422 447 205 179 127 86 248 1.714 422 428 199 193 153 79 264 1.738 
+Industrial GWh 31 74 17 23 49 7 86 288 27 53 13 17 39 8 66 223 
+Comercial GWh 146 314 125 135 421 61 432 1.633 126 261 106 118 394 48 389 1.442 
+Outros GWh 360 376 202 240 396 40 726 2.340 354 359 205 180 382 38 650 2.169 
+Consumidores Cativos GWh 1.652 1.964 854 906 1.884 293 2.877 10.428 1.616 1.812 824 826 1.925 275 2.754 10.033 
+Industrial GWh 111 354 32 170 271 2 908 1.848 107 353 38 181 288 4 975 1.945 
+Comercial GWh 127 210 62 85 250 13 188 935 142 246 72 98 299 19 247 1.123 
+Outros GWh 7 32 18 5 32 4 36 133 9 34 20 46 79 4 47 239 
+Consumidores livres GWh 245 596 112 260 552 19 1.132 2.916 257 633 130 325 665 27 1.270 3.307 
+Energia de Conexão - outras Ds GWh 2 4 43 5 17 0 6 77 4 8 44 3 23 0 3 85 
+Energia Faturada GWh 1.899 2.563 1.009 1.171 2.453 312 4.014 13.421 1.878 2.453 998 1.154 2.613 302 4.027 13.425
+Δ Faturada (%) % -1,1% -4,3% -1,1% -1,4% 6,5% -3,2% 0,3% 0,0%
+SCEE - GD II e III GWh 19 - 22 19 5 - 42 107 54 104 57 43 30 4 130 422 
+Energia Faturada + Energia Compensada GWh 1.918 2.563 1.031 1.190 2.458 312 4.057 13.528 1.931 2.557 1.055 1.197 2.643 306 4.157 13.847
+Δ Faturada + Compensada (%) % 0,7% -0,3% 2,4% 0,6% 7,5% -1,9% 2,5% 2,4%
+SCEE - GDI GWh 101 168 100 69 99 11 278 825 114 133 109 85 98 16 297 852 
+Energia Distribuída GWh 2.019 2.731 1.130 1.259 2.557 323 4.334 14.353 2.045 2.689 1.165 1.282 2.741 323 4.454 14.699
+Δ Distribuída (%) % 1,3% -1,5% 3,1% 1,8% 7,2% -0,1% 2,8% 2,4%
+Número de Consumidores MIL 2.744 3.002 1.512 1.361 1.933 224 3.371 14.149 2.799 3.045 1.547 1.398 1.971 264 3.453 14.477
+Δ Número de Consumidores (%) % 2,0% 1,4% 2,3% 2,7% 1,9% 17,7% 2,4% 2,3%
+Perdas totais GWh 437 999 227 316 398 171 525 3.072 419 1.046 209 273 456 133 466 3.002
+Δ Perdas (%) % -4,1% 4,6% -8,0% -13,6% 14,7% -22,3% -11,1% -2,3%
+1T24 1T25
+Distribuidoras 1T24 4T24 1T25 Regulatório 1T25 
+LTM ∆ 1T24 ∆ 4T24 ∆ Regulatório Regulatório 1T25 
+Homologado
+Consolidado 18,2% 17,5% 17,4% 18,3% -0,8% -0,2% -0,9% 18,4%
+Equatorial Maranhão 18,2% 17,9% 17,7% 17,4% -0,5% -0,2% 0,2% 17,5%
+Equatorial Pará 27,2% 28,2% 28,5% 28,4% 1,3% 0,3% 0,1% 28,5%
+Equatorial Piauí 18,1% 17,4% 17,1% 19,6% -1,0% -0,4% -2,5% 19,5%
+Equatorial Alagoas 18,6% 16,9% 16,2% 18,1% -2,4% -0,7% -1,8% 17,8%
+C EEE-D 12,4% 12,3% 12,6% 11,3% 0,1% 0,3% 1,2% 11,4%
+C EA1 39,2% 33,5% 32,3% 33,6% -6,9% -1,2% -1,3% 33,7%
+Equatorial Goiás 11,7% 9,9% 9,6% 12,4% -2,1% -0,3% -2,8% 12,5%
+
+[p. 15]
+15 
+ 
+PERCENTUAL DE CONTRATAÇÃO (12 meses) 
+A seguir, apresentamos a expectativa do nível de contratação das distribuidoras para o ano de 2025 na visão com e sem 
+ajustes decorrentes da sobrecontratação involuntária. 
+ 
+PECLD e ARRECADAÇÃO - TRIMESTRE 
+ 
+De maneira consolidada, a PECLD do grupo atingiu 1,66% da ROB contra 1,72% no 1T24. O trimestre conta com redu-
+ções no indicador em todas as empresas, com exceção das concessões de Piauí , onde a piora é reflexo do envelheci-
+mento de faturas do poder público, e Alagoas que foi impactada pelo escorregamento de faturas referentes ao 4T24 e 
+maior envelhecimento das classes residencial, rural e poder público . 
+ 
+Observando a Arrecadação do trimestre, a piora pontual na CEEE-D reflete a mobilização de equipes de cobrança para 
+atendimento emergencial, enquanto a piora da CEA reflete a paralização de cobrança devido a troca de sistema comer-
+cial que ocorreu no 1T25, além da postergação de pagamentos de clientes do poder público. 
+ 
+A arrecadação das companhias finalizou o trimestre em um patamar consolidado de 97,9%, com destaque para o nível 
+de arrecadação da Equatorial Goiás (100,6%). 
+PECLD / ROB 1 1T24 1T25 Δ Arrecadação - IAR 1T24 1T25 Δ
+Equatorial Maranhão 2,02% 1,68% -0,34 p.p. Equatorial Maranhão 95,44% 97,69% 2,25 p.p.
+Equatorial Pará 2,49% 2,21% -0,29 p.p. Equatorial Pará 95,98% 96,67% 0,69 p.p.
+Equatorial Piauí 2,17% 2,66% 0,49 p.p. Equatorial Piauí 96,65% 99,27% 2,62 p.p.
+Equatorial Alagoas 1,34% 1,83% 0,48 p.p. Equatorial Alagoas 97,38% 98,95% 1,57 p.p.
+C EEE-D 2,28% 1,87% -0,41 p.p. C EEE-D 95,36% 94,71% -0,65 p.p.
+C EA 3,41% 2,94% -0,47 p.p. C EA 99,18% 93,44% -5,74 p.p.
+Equatorial Goiás 0,37% 0,58% 0,21 p.p. Equatorial Goiás 98,16% 100,58% 2,42 p.p.
+Consolidado 1,72% 1,66% -0,07 p.p. Consolidado 96,62% 97,85% 1,23 p.p.
+1 Desconsidera Receita de Construção.
+2025 MA PA PI AL RS AP GO
+% de contratação 104,50% 103,19% 103,40% 110,42% 100,99% 110,52% 104,57%
+% desconsiderando involuntária 104,50% 103,19% 103,40% 109,34% 100,99% 101,92% 104,57%
+
+[p. 16]
+16 
+ 
+DESEMPENHO OPERACIONAL 
+DEC e FEC (12 meses) 
+ 
+O nível da qualidade do sistema de distribuição é medido pelos índices de DEC2 e FEC3, ambos no período de 12 meses. 
+Neste trimestre destacamos a redução do DEC em todas as distribuidoras do grupo vs o 4T24 e o enquadramento pela 
+primeira vez desde a aquisição da Equatorial Piauí do DEC no limite regulatório. 
+As maiores variações no DEC vs 4T24 foram em nossas concessões do Rio Grande do Sul, do Piauí, de Alagoas, do 
+Amapá e de Goiás em -3,1h, -3,0h e -2,0h, -1,0h e -1,0h, respectivamente. No comparativo com o 1T24, destacamos as 
+reduções da Equatorial Goiás (-5,8h), Equatorial Piauí (-5,4h), CEEE-D (-3,2h) e Equatorial Maranhão (-1,3h). 
+As reduções nas empresas refletem a assertividade do processo de manutenção como também os investimentos reali-
+zados no período. 
+Atualmente, quatro das sete concessões da Equatorial estão dentro do limite regulatório do DEC, e seis das sete con-
+cessões estão enquadradas dentro do limite regulatório do FEC . 
+ 
+ 
+2 Duração Equivalente de Interrupção por Consumidor - indica a duração média das interrupções, em horas por cliente por período 
+3 Frequência Equivalente de Interrupção por Consumidor – indica a frequência das interrupções de fornecimento, em número de interrupções por cliente por período 
+Distribuidoras 1T24 4T24 1T25 Regulatório ∆ 1T24 ∆ 4T24 ∆ Regulatório
+DEC
+Equatorial Maranhão 13,8 13,4 12,5 13,8 -1,3 -0,9 -1,3
+Equatorial Pará 17,1 19,4 18,9 21,5 1,8 -0,5 -2,6
+Equatorial Piauí 23,4 21,0 18,1 19,2 -5,4 -3,0 -1,1
+Equatorial Alagoas 17,3 19,9 17,9 14,8 0,5 -2,0 3,0
+C EEE-D 18,9 18,8 15,7 8,2 -3,2 -3,1 7,5
+C EA 31,4 34,5 33,5 46,0 2,1 -1,0 -12,5
+Equatorial Goiás 20,7 15,9 14,9 11,2 -5,8 -1,0 3,7
+FEC
+Equatorial Maranhão 6,1 5,8 5,3 7,9 -0,8 -0,6 -2,6
+Equatorial Pará 8,0 8,0 7,6 15,8 -0,4 -0,4 -8,2
+Equatorial Piauí 8,7 7,2 6,4 12,2 -2,3 -0,8 -5,8
+Equatorial Alagoas 7,1 6,6 6,1 11,8 -0,9 -0,5 -5,7
+C EEE-D 7,7 7,3 6,3 5,8 -1,4 -1,0 0,5
+C EA 14,1 14,4 14,2 30,7 0,1 -0,3 -16,6
+Equatorial Goiás 10,4 7,6 7,1 7,4 -3,3 -0,5 -0,3
+
+[p. 17]
+17 
+ 
+DESEMPENHO FINANCEIRO 
+MARGEM BRUTA 
+ 
+No 1T25, a Margem Bruta ajustada das distribuidoras ex-VNR alcançou R$ 3,6 bilhões, 5% maior do que o mesmo perí-
+odo do ano anterior, ou R$ 174,5 milhões. 
+ 
+Análise da receita ∆%
+R$ milhões MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+(+) Vendas as classes 1.376 2.208 847 872 1.477 248 2.401 9.428 1.327 1.972 794 810 1.564 264 2.495 9.226 -2%
+Renda Não Faturada 8 (6) (6) 19 55 1 25 95 (25) (24) (12) 7 84 (4) 65 92 -3%
+(+) Ult. de demanda / reativo excedente (4) (12) (4) (5) (9) (1) (15) (49) (5) (11) (3) (4) (10) (1) (17) (51) 4%
+(+) Outras receitas 285 568 146 186 282 27 470 1.962 348 689 169 205 354 69 583 2.417 23%
+Subvenção baixa renda 92 120 56 50 16 10 44 388 92 118 53 52 19 11 48 395 2%
+Subvenção CDE outros 31 140 17 38 46 3 89 364 54 206 44 53 55 31 148 590 62%
+CDE Geração Distribuída - - - - - - - - - - - - - - - - N/A
+Uso da rede 53 135 35 67 152 9 236 687 55 149 37 71 193 15 275 796 16%
+Atualização ativo financeiro 61 101 3 4 10 0 22 201 101 152 6 5 38 3 39 344 71%
+Bandeira Tarifária 6 7 3 3 6 1 - 26 7 9 4 4 7 4 - 34 31%
+Multa por atraso de pagamento 16 24 9 8 8 (0) 23 88 16 24 10 8 9 3 24 93 6%
+(+) Outras receitas operacionais 27 41 23 17 44 3 54 209 23 31 16 12 33 3 49 166 -20%
+Outras Receitas (Parcela B) 14 21 7 6 26 2 27 103 13 20 8 6 25 2 33 107 4%
+(+) Suprimento 0 1 5 2 10 6 39 63 12 20 6 8 23 17 40 127 102%
+(+) Valores a receber de parcela A 0 (76) 13 (87) (11) 53 201 93 71 26 37 (75) (67) 55 247 295 216%
+(+) Receita de construção 220 521 132 99 127 88 352 1.539 307 720 190 160 308 82 486 2.252 46%
+(=) Receita operacional bruta 1.877 3.209 1.138 1.068 1.876 420 3.447 13.036 2.060 3.416 1.193 1.103 2.172 486 3.834 14.265 9%
+(+) Deduções à receita (527) (815) (340) (347) (596) (112) (1.128) (3.863) (528) (721) (315) (290) (610) (104) (1.105) (3.674) -5%
+PIS/COFINS/ICMS/ISS (408) (633) (257) (232) (361) (68) (653) (2.612) (414) (562) (247) (231) (382) (85) (664) (2.584) -1%
+Compensações Indicadores de Qualidade (7) (10) (7) (5) (24) (2) (88) (143) (8) (14) (11) (1) (22) (2) (55) (112) -21%
+Demais Deduções (CDE e Encargos) (112) (172) (76) (109) (211) (42) (386) (1.109) (107) (146) (57) (58) (205) (18) (387) (977) -12%
+(=) Receita operacional líquida 1.351 2.394 798 721 1.280 309 2.320 9.173 1.532 2.695 879 813 1.562 382 2.729 10.592 15%
+(-) Receita de construção (220) (521) (132) (99) (127) (88) (352) (1.539) (307) (720) (190) (160) (308) (82) (486) (2.252) 46%
+(=) Receita operac. líq. sem rec.de construção 1.131 1.874 666 622 1.153 221 1.968 7.635 1.226 1.975 688 653 1.254 300 2.243 8.340 9%
+(-) Energia comprada e transporte e Encargos (573) (867) (334) (327) (733) (120) (1.102) (4.055) (625) (937) (350) (370) (769) (145) (1.217) (4.414) 9%
+(=) Margem Bruta 558 1.007 333 296 420 101 866 3.580 600 1.038 338 283 485 155 1.026 3.926 10%
+(+) Não-Recorrentes - - - - - 12 34 46 - - - 18 - - - 18 -62%
+(-) VNR (61) (101) (3) (4) (10) (0) (22) (201) (101) (152) (6) (5) (38) (3) (39) (344) 71%
+(=) Margem Bruta Ajustada 497 906 330 292 409 112 878 3.425 499 886 333 296 447 152 986 3.600 5%
+∆% Margem Bruta Ajustada 0,5% -2,2% 0,9% 1,4% 9,2% 35,5% 12,3% 5,1%
+1T251T24
+
+[p. 18]
+18 
+ 
+DESPESAS OPERACIONAIS E PMSO/CONSUMIDOR 
+ 
+MARANHÃO 
+No comparativo entre trimestre s, o PMSO Ajustado/Consumidor, na visão 12 meses, cresceu 2,7%, totalizando 
+R$ 255. O PMSO ajustado do período totalizou R$ 178 milhões, em linha com o mesmo período do ano anterior. 
+ 
+As Perdas Esperadas para Créditos de Liquidação Duvidosa (PECLD) atingiram R$ 30 milhões no 1T25, redução de 12% 
+vs 1T24 e representam 1,7% da ROB. 
+ 
+PARÁ 
+No 1T25, o PMSO Ajustado/Consumidor (12 meses) registrou R$ 236, em linha com o 1T24, enquanto o PMSO ajustado 
+alcançou R$ 182 milhões, cerca de 6,3% acima do 1T24. 
+ 
+O aumento na linha de Serviços de Terceiros é resultado do aumento de serviços de cobrança e de atendimentos para 
+clientes no trimestre. 
+ 
+No 1T25, a PECLD alcançou R$ 59 milhões, 11,2% abaixo do 1T24, representando 2,2% da ROB. 
+ 
+PIAUÍ 
+O PMSO Ajustado/Consumidor (12 meses) registrou R$ 247, um aumento de 1,1% contra o 1T24. O PMSO ajustado do 
+trimestre apresentou um aumento de 2,3%, ou R$ 2 milhões quando comparado com o mesmo período do ano anterior. 
+ 
+A PECLD do trimestre foi de R$ 27 milhões, 2,7% da ROB, valor impactado pelo envelhecimento da dívida com o poder 
+público. 
+ 
+ALAGOAS 
+O PMSO Ajustado/Consumidor (12 meses) registrou R$ 213, 2,8% maior que o 1T24, enquanto o PMSO ajustado apre-
+sentou um aumento de 4,3%, ou R$ 3 milhões, valor abaixo da inflação do período. 
+ 
+Apesar da pequena variação entre trimestres, é possível notar uma migração de despesas da linha de Serviços de Ter-
+ceiros para a linha de Pessoal, reflexo do processo de primarização realizado na concessão. 
+ 
+Custos Operacionais ∆%
+R$ milhões MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+(+) Pessoal 45 48 17 15 30 10 60 224 64 52 16 26 29 10 40 238 6%
+(+) Material 5 5 2 2 2 0 17 33 5 9 3 5 3 3 17 45 34%
+(+) Serviço de terceiros 124 112 72 52 108 25 253 746 105 118 71 40 112 22 218 686 -8%
+(+) Outros 6 7 3 2 9 0 20 46 9 8 4 3 8 1 15 47 4%
+(=) PMSO Reportado 178 171 93 71 149 36 350 1.049 182 188 94 75 151 36 290 1.016 -3%
+Ajustes (3) - (2) - (13) - (6) (25) (4) (6) (1) (1) - - - (12) -53%
+PMSO Ajustado 175 171 91 71 136 36 344 1.024 178 182 93 74 151 36 290 1.004 -2%
+PECLD e perdas 34 67 22 13 40 11 11 198 30 59 27 17 35 12 19 199 1%
+% Receita bruta (s/ receita de construção) 2,0% 2,5% 2,2% 1,3% 2,3% 3,4% 0,4% 1,7% 1,7% 2,2% 2,7% 1,8% 1,9% 2,9% 0,6% 1,7%
+Provisões - contingências 4 5 1 3 21 1 13 48 3 5 2 3 15 0 17 46 -4%
+Provisões - FUNAC - - - - - - 34 34 - - - - - - 31 31 -8%
+(+) Provisões 38 72 23 16 61 12 59 280 33 64 28 21 50 12 68 277 -1%
+(+) Sistemas Isolados e Subv. CCC - 13 - - - 1 - 14 (13) 22 - - - 3 - 13 -7%
+(+) Outras receitas/despesas operacionais 17 14 14 6 19 (3) 1 68 31 17 8 6 (14) 1 78 128 88%
+(+) Depreciação e amortização 70 115 38 32 35 10 154 454 97 112 49 36 46 15 182 536 18%
+(=) Custos e despesas gerenciáveis 303 385 168 125 264 56 564 1.864 330 404 179 137 234 68 618 1.970 6%
+PMSO Ajustado/Consumidor (12m) 248 234 244 207 302 604 348 278 255 236 247 213 298 526 347 279 
+∆% PMSO por Consumidor 2,7% 0,7% 1,1% 2,8% -1,3% -13,0% -0,2% 0,4%
+1T251T24
+
+[p. 19]
+19 
+ 
+Em Alagoas, as Perdas Esperadas para Créditos de Liquidação Duvidosa (PECLD) do trimestre atingiram R$ 17 milhões, 
+1,8% da ROB. 
+ 
+CEEE-D 
+O PMSO Ajustado/Consumidor (12 meses) registrou R$ 298, uma redução de 1,3%. O PMSO ajustado do período apre-
+sentou um aumento de 11,0%. 
+ 
+O aumento do PMSO no período vem principalmente da linha de Serviços de Terceiros , e se dá, principalmente, pela 
+mobilização adicional de equipes para plantões e emergências, além do maior montante de serviços voltados para lim-
+peza de faixa e poda. 
+ 
+A PECLD/ROB do período atingiu 1,9%, ou R$ 35 milhões. 
+ 
+CEA 
+O PMSO Ajustado/Consumidor (12 meses) registrou R$ 526, valor 13,0% menor que o mesmo período do ano anterior , 
+refletindo a maior base de clientes do trimestre . O PMSO ajustado da CEA foi de R$ 36 milhões, em linha com o 1T24. 
+ 
+No 1T24 a PECLD atingiu R$ 12 milhões e representa 2,9% da ROB. 
+ 
+GOIÁS 
+O PMSO Ajustado/Consumidor (12 meses) foi de R$ 347 no 1T25, resultado 0,2% menor que o 1T24. O PMSO ajustado 
+foi de R$ 290 milhões, 15,7% abaixo do 1T24. 
+ 
+A redução do PMSO ocorre em duas linhas: (i) Na linha de Pessoal (R$ 20 milhões), onde a variação é diretamente im-
+pactada pela redução do salário médio da empresa entre períodos, além do menor montante de pagamentos referentes 
+a periculosidade e horas extras no período, e (ii) Na rubrica Serviços de Terceiros (R$ 36 milhões), onde a redução é 
+reflexo do menor montante de ocorrências no trimestre, além da renegociação dos preços de contratos com equipes 
+terceirizadas. 
+ 
+No 1T25 a PECLD registrou R$ 19 milhões negativos, ou 0,6% da ROB.
+
+[p. 20]
+20 
+ 
+EBITDA 
+ 
+MARANHÃO 
+No 1T25, o EBITDA ajustado por VNR e efeitos não recorrentes atingiu R$ 289 milhões, 1,8% maior que o 1T24, ou R$ 5,0 
+milhões. 
+A margem bruta ajustada do trimestre registrou crescimento de R$ 2,3 milhões e foi parcialmente compensada pela 
+variação do PMSO ajustado do período (- R$ 1,6 milhões). 
+As provisões e contingências apresentaram uma melhora de R$ 4,8 milhões no período. 
+PARÁ 
+O EBITDA Ajustado por VNR e efeitos não recorrentes do Pará atingiu R$ 617 milhões, uma redução de 5,1%, ou R$ 33,0 
+milhões. 
+A margem bruta do período teve uma redução de R$ 20 ,4 milhões, fruto da redução de mercado (R$ 46 milhões) e au-
+mento de perdas (R$ 17 milhões), efeitos parcialmente compensados pela variação positiva da tarifa fio -b (R$ 54 mi-
+lhões). O PMSO ajustado do período apresentou uma variação de R$ 11,1 milhões. 
+A linha de provisões do período apresentou uma melhora de R$ 7,5 milhões entre trimestres, valor compensado pelo 
+aumento das despesas com sistemas isolados em R$ 9,4 milhões no período. 
+PIAUÍ 
+No Piauí, o EBITDA ajustado por efeitos não recorrentes e não caixa atingiu R$ 212 milhões, 2,2% menor, ou R$ 4,7 mi-
+lhões, quando comparado com o mesmo período do ano anterior. 
+As linhas de margem bruta, PMSO e contingências variaram em R$ 2,8 milhões, -R$ 2,1 milhões e -R$ 5,4 milhões, res-
+pectivamente. 
+ALAGOAS 
+O EBITDA Ajustado por VNR e efeitos não recorrentes de Alagoas atingiu R$ 202 milhões, em linha com o mesmo período 
+do ano anterior. 
+CEEE-D 
+O EBITDA ajustado por efeitos não recorrentes e VNR do Rio Grande do Sul atingiu R$ 245 milhões no trimestre, 15,5% 
+maior que o 1T24, ou R$ 33,0 milhões. 
+A margem bruta da CEEE -D apresentou um crescimento de R$ 37,5 milhões, fruto d o forte aumento do mercado no 
+1T25. 
+Recomposição EBITDA ∆%
+R$ milhões MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+) Resultado do Exercício 155 430 65 106 33 (22) (59) 708 142 393 47 56 (3) 8 2 645 -9,0%
+(+) Impostos sobre o Lucro 38 95 10 17 (49) (0) (19) 91 35 93 7 28 - 2 (25) 140 53,6%
+(+) Resultado Financeiro 62 97 90 49 172 67 379 916 93 147 106 62 255 77 431 1.171 27,8%
+(+) Depreciação e Amortização 70 115 38 32 35 10 154 454 97 112 49 36 46 15 182 536 18,3%
+(=) EBITDA societário (CVM)* 325 737 203 203 191 55 456 2.169 367 746 208 182 297 102 590 2.492 15%
+Ajustes Totais (41) (87) 13 3 22 9 20 (62) (78) (128) 4 19 (52) (1) 38 (198) 221,2%
+(+) Outras receitas/despesas operacionais 17 14 14 6 19 (3) 1 68 31 17 8 6 (14) 1 78 128 87,5%
+(+) Impactos Margem Bruta - - - - - 12 34 46 - - - 18 - - - 18 -61,6%
+(+) Sistemas Isolados - - - - - - - - (12) - - - - - - (12) N/A
+(+) Ajustes de PMSO 3 - 2 - 13 - 6 25 4 6 1 1 - - - 12 -53,3%
+(+) Ajustes Provisões - - - - - - - - - - - - - - - - N/A
+(-) VNR (61) (101) (3) (4) (10) (0) (22) (201) (101) (152) (6) (5) (38) (3) (39) (344) 71,2%
+(=) EBITDA societário ajustado 284 650 216 205 212 64 476 2.107 289 617 212 202 245 101 628 2.294 9%
+∆% 1,8% -5,1% -2,2% -1,7% 15,5% 57,9% 32,2% 8,9%
+1T24 1T25
+
+[p. 21]
+21 
+ 
+O PMSO do período apresentou um aumento de R$ 14,9 milhões, enquanto as provisões e contingências do período 
+apresentaram uma melhora de R$ 10,4 milhões. 
+CEA 
+O EBITDA Ajustado alcançou R$ 101 milhões, 57,9% maior que o mesmo período do ano anterior , ou R$ 36,8 milhões. 
+A margem bruta da CEA cresceu R$ 39,9 milhões, refletindo principalmente a expressiva melhora de perdas entre perí-
+odos. 
+Os aumentos nas linhas de PMSO, provisões e contingências e despesas de sistemas isolados foram de R$ 0,4 milhões, 
+R$ 0,2 milhões e R$ 2,4 milhões, respectivamente. 
+GOIÁS 
+O EBITDA ajustado por efeitos não recorrentes e VNR da Equatorial Goiás atingiu R$ 628,4 milhões, 32,2% maior que o 
+mesmo período do ano anterior. 
+O aumento da margem (R$ 108,2 milhões) reflete principalmente a melhora de perdas no período . Já o PMSO do ajus-
+tado do período apresentou uma melhora de R$ 53,8 milhões e da PECLD e provisões variaram negativamente em R$ 
+9,2 milhões. 
+ 
+EFEITOS NÃO RECORRENTES EBITDA 
+ 
+ 
+Não Recorrentes MA PA PI AL RS AP GO 1T25 Total
+Receita Operacional - - - - - - - - 
+Deduções da receita operacional - - - - - - - - 
+Receita operacional líquida - - - - - - - - 
+Custo do serviço de energia elétrica - - - 18 - - - 18 
+Lançamentos Retroativos - - - 18 - - - 18 
+Margem Bruta - - - 18 - - - 18 
+Custos e Despesas Operacionais 4 6 1 1 - - - 12 
+Pessoal 4 4 1 1 - - - 9 
+Material - 2 - - - - - 2 
+Serviços de Terceiros - - - - - - - - 
+Outros - - - - - - - - 
+Provisões - - - - - - - - 
+Custos e Despesas 4 6 1 1 - - - 12 
+Sistemas Isolados (12) (12) 
+Outras receitas/despesas operacionais 31 17 8 6 (14) 1 78 128 
+VNR (101) (152) (6) (5) (38) (3) (39) (344) 
+Ajustes EBITDA (78) (128) 4 19 (52) (1) 38 (198)
+
+[p. 22]
+22 
+ 
+RESULTADO FINANCEIRO 
+ 
+LUCRO LÍQUIDO 
+ 
+INVESTIMENTOS 
+ 
+Para retornar ao Sumário, clique aqui. 
+ 
+Investimentos Distribuidoras ∆%
+R$ milhões MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+Ativos elétricos 207 350 104 90 114 57 323 1.245 275 433 161 151 287 51 448 1.806 45,0%
+Obrigações especiais 6 160 23 1 3 28 29- 192 11 253 19 2 - 24 8 318 65,4%
+Ativos não elétricos 8 10 5 8 10 3 29 73 20 34 11 7 21 7 30 129 76,6%
+Total 220 521 132 99 127 88 323 1.510 307 720 190 160 308 82 486 2.252 49%
+∆% 39,3% 38,2% 44,2% 61,2% 142,7% -6,7% 50,2% 49,1%
+1T24 1T25
+Resultado Financeiro líquido ∆%
+R$ milhões MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total
+(+) Rendas Financeiras 23 35 20 7 32 10 23 151 44 92 23 24 24 23 32 262 73,6%
+(+) Acréscimo Moratório - Venda de Energia 19 34 11 7 14 3 16 104 19 36 13 10 23 2 15 118 14,2%
+(+) Encargos da dívida (86) (154) (105) (52) (138) (64) (324) (925) (135) (247) (127) (77) (189) (95) (426) (1.296) 40,1%
+(+) Encargos CVA (8) (0) (3) 1 17 0 (21) (14) (7) (4) 0 (3) 5 5 (5) (9) -36,8%
+(+) AVP - Comercial 1 9 1 2 6 3 1 24 0 0 1 1 3 6 (2) 9 -61,3%
+(+) Contingências (2) (4) (4) (5) (38) (4) (22) (79) (3) (3) (0) (4) (32) (2) (26) (71) -10,3%
+(+) Outras Receitas / Despesas (9) (16) (11) (8) (65) (15) (52) (176) (11) (22) (16) (13) (89) (15) (19) (184) 4,7%
+Resultado financeiro (62) (97) (90) (49) (172) (67) (379) (916) (93) (147) (106) (62) (255) (77) (431) (1.171) 27,8%
+(-/+) Efeitos Não Recorrentes - - - - (72) - 9 (62) - - - - - - - - 
+Resultado financeiro ajustado (62) (97) (90) (49) (244) (67) (370) (979) (93) (147) (106) (62) (255) (77) (431) (1.171) 19,6%
+Δ% 49,9% 51,6% 17,7% 27,6% 4,6% 15,3% 16,3% 19,6%
+1T24 1T25
+Lucro Líquido ∆%
+R$ milhões MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+ ) Lucro Líquido 155 430 65 106 33 (22) (59) 708 142 393 47 56 (3) 8 2 645 -9%
+(+) Impacto EBITDA (líquido de IR) 3 - 2 - 13 12 41 71 (8) 6 1 18 - - - 17 -75,5%
+(+) Efeito IR e CSLL (1) - (1) - 20 (4) (17) (2) 16 19 (0) 14 - - - 49 -2127,8%
+(+) Ajustes do Resultado Financeiro - - - - (72) - 9 (62) - - - - - - - - -100,0%
+(+) VNR Líquido de IR e CSLL (40) (67) (2) (2) (7) (0) (15) (132) (67) (100) (4) (3) (25) (2) (26) (227) 71,2%
+(=) Lucro Líquido Ajustado 118 363 65 103 (13) (14) (41) 582 84 318 44 85 (29) 6 (24) 485 -17%
+∆% -29,0% -12,5% -32,0% -17,6% 124,7% -141,4% -41,8% -16,7%
+1T24 1T25
+
+[p. 23]
+23 
+ 
+TRANSMISSÃO 
+DESEMPENHO FINANCEIRO *4 
+ 
+O resultado regulatório do 1T25 trouxe uma receita líquida de R$ 264,9 milhões, uma redução de 12,5% em relação ao 
+1T24, em função da alienação da SPE 7. 
+Os custos e despesas operacionais totalizaram R$ 18,2 milhões, em linha com o mesmo período do ano anterior. 
+O EBITDA regulatório atingiu R$ 246,7 milhões, com uma margem EBITDA de 93,1%. 
+Vale ressaltar que, em uma visão mesmos ativos (excluindo a SPE 7 do 1T24), o EBITDA do 1T24 seria de R$ 256,6 mi-
+lhões, e a variação do EBITDA entre trimestres seria de -3,9%. 
+ 
+ 
+ 
+4 Resultado da tabela já desconsidera a INTESA no 1T24 
+DRE Regulatória - R$ milhões 1T24 1T25 ∆% ∆
+Receita líquida 303 265 -12,5% (38) 
+C ustos e despesas operacionais (18) (18) 0,7% (0) 
+EBITDA Regulatório 285 247 -13,3% (38) 
+Margem EBITDA 94,0% 93,1% -1,0% N/A
+Depreciação / amortização (110) (107) -2,6% 3 
+Resultado do serviço (EBIT) 175 140 -20,0% (35) 
+Resultado financeiro 175 140 -20,0% (35) 
+Impostos (109) (81) -25,9% 28 
+Lucro Líquido 240 199 -17,4% (42) 
+Endividamento 1T24 1T25 ∆% ∆
+Dívida Bruta 5.865 4.961 -15,4% (904) 
+Dívida Líquida 4.687 3.471 -25,9% (1.216) 
+Disponibilidades 1.178 1.490 26,5% 312 
+*Subtraído da receita líquida o capex realizado (custo de infraestrura)
+** Informações regulatórias não revisadas pelos auditores independentes.
+
+[p. 24]
+24 
+ 
+Na tabela abaixo, apresentamos a demonstração do resultado do segmento de transmissão, do societário para o regu-
+latório, das SPEs consolidadas pela Equatorial Transmissão. 
+ 
+Demonstração do resultado (R$ mil) 1T24 
+Regulatório Ajustes 1T24 
+Societário 1T25 Regulatório Ajustes 1T25 
+Societário
+Receita operacional 337.095 (310.778) 383.881 295.017 60.473 355.490 
+Transmissão de energia 337.095 337.095- - 295.017 295.017- - 
+Receita de Operação e Manutenção - 20.220 20.220 - 30.409 30.409 
+Receita de construção - 6.097 6.097 - - - 
+Atualização ativo de contrato em serviço - - 357.564 - 325.081 325.081 
+Deduções da receita operacional (34.464) (564) (35.028) (30.126) 0 (30.125) 
+Receita operacional líquida 302.631 46.222 348.853 264.891 60.473 325.364 
+Margem Bruta Operacional 302.631 46.222 348.853 264.891 60.473 325.364 
+Custo/despesa operacional (18.028) (8.234) (26.262) (18.159) (6.566) (24.724) 
+Pessoal (8.953) 0 (8.952) (7.742) 0 (7.742) 
+Material (377) 52 (325) (157) 0 (157) 
+Serviço de terceiros (7.432) (56) (7.488) (9.495) (0) (9.496) 
+Custo de construção - (8.249) (8.249) - (6.547) (6.547) 
+Outros (1.267) 55 (1.212) (764) (0) (764) 
+Provisões - (36) (36,22) - - - 
+Outras despesas não operacionais - - - - (19) (19) 
+EBITDA 284.603 37.988 322.591 246.733 53.907 300.640 
+Depreciação e amortização (109.905) 38.570 71.336- (106.994) 35.143 (71.851) 
+Equivalencia patrimonial - (1.169) 
+Resultado do serviço 174.697 76.558 251.255 139.738 89.050 227.620 
+Resultado financeiro (108.987) 0 (108.987) (80.789) (0) (80.789) 
+Receitas financeiras 53.329 0 53.329 59.838 4 59.842 
+Despesas financeiras (162.316) 0 162.316- (140.627) (4) (140.631) 
+Resultado antes do imposto de renda 65.710 76.558 142.268 58.949 87.881 146.831 
+Imposto de renda e contribuição social (50.451) 12.368 38.083- (8.984) (31.981) (40.965) 
+Subvenção do imposto de renda - 28.666 28.666 - 31.981 31.981 
+Impostos diferidos 41.035 (79.901) 38.866- - (35.340) (35.340) 
+Resultado do exercício 56.294 37.691 93.985 49.965 52.542 102.507
+
+[p. 25]
+25 
+ 
+RENOVÁVEIS 
+DESEMPENHO OPERACIONAL5 
+GERAÇÃO 
+As informações operacionais foram divulgadas no release operacional da companhia. Para acessar o documento, clique 
+aqui. 
+ 
+Abaixo, destacamos as principais variações entre os períodos para os parques eólicos e solares: 
+ 
+ 
+MÉDIA DOS VENTOS - PORTFÓLIO EÓLICO (m/s) GERAÇÃO TOTAL - PORTFÓLIO EÓLICO (GWh) 
+O 1T25 foi marcado por velocidades de vento dentro da média climatológica na maior parte do Nordeste, sendo que em 
+algumas áreas dos estados do Maranhão, Piauí, Ceará, Rio Grande do Norte, Pernambuco e Bahia que registraram 
+anomalias positivas. Em comparaç ão com o 1T24, a velocidade média dos ventos nos complexos da Echoenergia 
+apresentou um aumento de 11,7%, isso se deve porque alguns parques apresentaram um recurso eólico acima da 
+média climatológica. 
+ 
+ 
+Dados Operacionais - Portfólio 1T24 1T25 ∆% 1T24 Ex
+Curtailment
+1T25 Ex 
+Curtailment
+∆%
+Ex Curtailment
+Energia Gerada Líquida (GWh)* 818,5 1.169,0 42,8% 841,1 1.338,6 59,2%
+Energia Gerada Líquida (GWh) - 12 meses* 4.129,6 4.913,2 19,0% 4.555,6 6.225,6 36,7%
+Disponibilidade Técnica Ajustada¹ (12 meses)** 96,0% 95,4% -0,6 p.p. 96,0% 95,4% -0,6 p.p.
+* Valores medidos no centro de gravidade / ** Aplica-se o ajuste no indicador pois os períodos de indisponibilidade sobre efeitos de penalidades de contratos de O&M são considerados como disponíveis.
+1T24 1T25 ∆% ∆ 1T24 1T25 ∆% ∆
+Ventos de Tianguá 117,4 101,4 -13,6% -16,0 6,8 7,3 7,5% 0,5
+Serra do Mel 1 e 2 299,9 384,8 28,3% 84,9 6,2 7,0 12,5% 0,8
+Echo 1, 2, 4 e 5 207,6 256,0 23,3% 48,4 6,4 7,5 16,2% 1,0
+Ventos de São Clemente 193,6 179,1 -7,5% -14,5 6,8 7,2 6,0% 0,4
+Portfólio Eólico 818,5 921,3 12,6% 102,8 6,5 7,2 11,7% 0,8
+1T24 1T25 ∆% ∆ 1T24 1T25 ∆% ∆
+Ribeiro Gonçalves - 71,7 - - - 227,5 - -
+Barreiras - 176,0 - - - 296,4 - -
+Portfólio Solar - 247,7 - - - 269,6 - -
+Complexos Solares Geração (GWh) Irradiância Média (W/m2)
+Complexos Eólicos Geração (GWh) Vento (m/s)
+300
+500
+700
+900
+1.100
+1.300
+1.500
+1.700
+1T 2T 3T 4T
+2019 2020 2021 2022 2023 2024 2025
+5,50
+6,00
+6,50
+7,00
+7,50
+8,00
+8,50
+9,00
+9,50
+1T 2T 3T 4T
+2019 2020 2021 2022 2023 2024 2025
+
+[p. 26]
+26 
+ 
+A figura ao lado ilustra as anomalias de vento no 1T25 em relação à média de longo prazo, 
+evidenciando o impacto climático positivo em alguns dos complexos da Echoenergia. 
+Com isso, os resultados deste trimestre foram mais próximos ao P50 do que os 
+observados no 1T24. 
+Os gráficos a seguir apresentam a geração de energia eólica e solar da Echoenergia nos 
+últimos meses e a visão para o 1T25, comparando -a com os valores de P50 e P90 anual 
+revisados pela empresa no início de 2024. Vale destacar que essas estimativas de pro-
+dução de energia são consideradas robustas, pois os estudos foram elaborados utili-
+zando metodologias consolidadas no mercado e tem como base dados operacionais 
+para todos os complexos. 
+ 
+ 
+1 Os valores apresentados consideram apenas meses de operação plena, ou seja, do mês subsequente ao COD de cada usina em diante . 
+ 
+ 
+269
+392 405 461 474 537 603 585 584
+389 454 439
+273
+244 82 79 40
+15
+77
+26
+373
+431
+500
+579
+650
+692 682
+645
+592
+495
+451
+386
+424
+491
+570
+659
+740 789 777 734
+674
+563
+513
+440
+abr/24 mai/24 jun/24 jul/24 ago/24 set/24 out/24 nov/24 dez/24 jan/25 fev/25 mar/25
+Ativos Eólicos Echoenergia - Geração realizada e variabilidade do recurso para P50 e P90 de 1 ano (MWm)
+Realizado Constrained-Off P90 P50
+427 444 505
+38
+1T25
+466
+540
+615
+103
+LTM 1T25
+0 0
+53 55
+115 101 120 110 121 115 116 113
+88 123 68
+47 43
+24
+55 43
+0 0
+64 67
+192 181 168 157 154 161 159 161
+0 0
+71 75
+215
+202 187 175 172 180 177 180
+0,0
+50,0
+100,0
+150,0
+200,0
+250,0
+abr/24 mai/24 jun/24 jul/24 ago/24 set/24 out/24 nov/24 dez/24 jan/25 fev/25 mar/25
+Ativos Solares Echoenergia - Geração realizada e variabilidade do recurso para P50 e P90 de 1 ano (MWm)
+Realizado Constrained-Off P90 P50
+120
+163 182
+54
+1T25
+57 82 92
+34
+LTM 1T25
+
+[p. 27]
+27 
+ 
+CONSTRAINED-OFF 
+Após a ocorrência, em 15 de agosto de 2023, que resultou no desligamento parcial do Sistema Interligado Nacional 
+(SIN), o Operador Nacional do Sistema (ONS) implementou modificações no modo de operação do sistema que ocasi-
+onaram restrições significativas de geração (conhecidas como "constrained-off") para os agentes de geração de energia 
+renovável no Nordeste. Entre as modificações, destaca-se a redução dos limites de exportação de energia do Nordeste 
+para o Sudeste/Centro-Oeste e o Norte. Historicamente, até a data da ocorrência, a Echoenergia havi a experimentado 
+impactos limitados e, portanto, d esprezíveis, devido ao constrained-off. No entanto, após a data da ocorrência, a em-
+presa foi afetada principalmente em seus projetos eólicos de Serra do Mel e Tianguá e solares de Ribeiro Gonçalves e 
+Barreiras. 
+No 1T25, as perdas de energia totalizaram 169,7 GWh ( 12,7%), com maior relevância para o parque eólico de Serra do 
+Mel com 30,3 GWh (7,1%) e para os parques solares de Barreiras e Ribeiro Gonçalves, com 47,9 GWh (20,9%) e 39,2 
+GWh (34,8%) respectivamente. Apesar disso, é importante mencionar que a partir de meados do segundo semestre de 
+2024, o ONS implementou mudanças nos critéri os de controle, novas linhas de transmissão entraram em operação e 
+houve o avanço no atendimento dos requisitos da RAP pelos agentes. Adicionalmente, é válido destacar que em março 
+deste ano, o CMSE (Comitê de Monitoramento do Setor Elétrico) instituiu o grupo de trabalho para atuação conjunta 
+entre o MME, ANEEL, EPE, ONS e CCEE, com objetivo de propor medidas de planejamento, regul atórias e operacionais 
+para mitigar os cortes de geração. Por fim, a Echoenergia tem trabalhado ativamente em colaboração com as associa-
+ções do setor para minimizar o impacto do constrained-off em seu portfólio.
+
+[p. 28]
+28 
+ 
+DESEMPENHO FINANCEIRO 
+ 
+LUCRO BRUTO DE ENERGIA - ECHOENERGIA 
+O Lucro Bruto de Energia da Echoenergia foi de R$ 266,3 milhões no 1T25, um aumento de 36,3% quando comparado 
+ao mesmo período do ano passado, ou de R$ 71,0 milhões. O aumento é explicado principalmente pelo início das ope-
+rações dos complexos solares, cujo Lucro Bruto de Energia apurado foi de R$ 63,4 milhões. O Lucro Bruto de Energia 
+dos ativos eólicos foi de R$ 202,9 milhões no 1T25, crescimento de 3,9% ou R$ 7,5 milhões frente ao 1T24 . 
+ 
+ 
+ 
+Echo Participações Echo Crescimento
+DRE 1T24 1T25 ∆% ∆ 1T24 1T25 ∆% ∆
+Receita Liquida 201,6 220,9 9,6% 19,3 4,4 96,3 N/A 91,9 
+(-) Compra de Energia (6,2) (18,0) 188,5% (11,8) (4,3) (33,0) N/A (28,7) 
+(+/-) Efeito MtM (Ganhos e Perdas) - - N/A - (0,1) 0,1 N/A 0,2 
+Lucro Bruto de Energia 195,4 202,9 3,9% 7,5 (0,0) 63,4 N/A 63,4 
+Custos e Despesas Operacionais (80,5) (84,0) 4,4% (3,5) 0,7 (23,2) N/A (23,8) 
+(-) Custo de Operação e Produção de Energia (72,4) (72,1) -0,4% 0,3 (0,0) (18,8) N/A (18,8) 
+(-) Despesas Operacionais e Administrativas (8,1) (11,9) 46,8% (3,8) 0,7 (4,4) N/A (5,1) 
+EBITDA 114,9 118,9 3,5% 4,0 0,7 40,3 N/A 39,6 
+Margem EBITDA (%) 57,0% 53,8% -3,2p.p. N/A 15,1% 41,8% 26,7p.p. N/A
+(-/+) Efeitos Não-Recorrentes - - N/A - - - N/A - 
+(-/+) Efeito MtM (Ganhos e Perdas) - - N/A - 0,1 (0,1) -258,9% (0,2) 
+EBITDA Ajustado 114,9 118,9 3,5% 4,0 0,7 40,1 N/A 39,4 
+Margem EBITDA Ajustada (%) 57,0% 53,8% -3,2p.p. N/A 108,3% -173,3% N/A N/A
+(-) Depreciação/Amortização (65,2) (65,0) -0,4% 0,2 (0,0) (19,4) N/A (19,4) 
+(+/-) Resultado Financeiro (72,3) (68,0) -5,9% 4,3 0,1 (89,0) N/A (89,1) 
+(-) Impostos (11,1) (12,3) 11,1% (1,2) (0,2) (3,4) N/A (3,2) 
+Lucro (Prejuízo) Líquido Reportado (33,7) (26,4) -21,7% 7,3 0,6 (71,5) N/A (72,1) 
+Margem Líquida (%) -16,7% -11,9% 4,8p.p. N/A N/A N/A N/A N/A
+Echoenergia (Part. + Cresc.)
+DRE 1T24 1T25 ∆% ∆
+Receita Liquida 206,0 317,2 54,0% 111,2 
+(-) Compra de Energia (10,6) (51,0) 383,1% (40,4) 
+(+/-) Efeito MtM (Ganhos e Perdas) (0,1) 0,1 -258,9% 0,2 
+Lucro Bruto de Energia 195,4 266,3 36,3% 71,0 
+Custos e Despesas Operacionais (79,8) (107,2) 34,3% (27,4) 
+(-) Custo de Operação e Produção de Energia (72,4) (90,9) 25,6% (18,5) 
+(-) Despesas Operacionais e Administrativas (7,4) (16,3) 119,5% (8,9) 
+EBITDA 115,6 159,2 37,7% 43,6 
+Margem EBITDA (%) 56,1% 50,2% -5,9p.p. N/A
+(-/+) Efeitos Não-Recorrentes - - N/A - 
+(-/+) Efeito MtM (Ganhos e Perdas) 0,1 (0,1) -258,9% (0,2) 
+EBITDA Ajustado 115,7 159,1 37,5% 43,4 
+Margem EBITDA Ajustada (%) 56,1% 50,1% -6p.p. N/A
+(-) Depreciação/Amortização (65,2) (84,4) 29,3% (19,1) 
+(+/-) Resultado Financeiro (72,2) (157,0) 117,5% (84,8) 
+(-) Impostos (11,2) (15,7) 39,6% (4,4) 
+Lucro (Prejuízo) Líquido Reportado (33,1) (97,8) 196,0% (64,8) 
+Margem Líquida (%) -16,0% -30,8% -14,8p.p. N/A
+
+[p. 29]
+29 
+ 
+CUSTOS E DESPESAS OPERACIONAIS - ECHOENERGIA 
+Os custos e despesas operacionais da Echoenergia totalizaram R$ 107,2 milhões no 1T25, um aumento de 34,3%, ou 
+R$ 27,4 milhões comparado ao 1T24. O aumento é explicado pelo início das operações dos complexos solares de Echo 
+Crescimento, cujos custos e despesas operacionais totalizaram R$ 23,2 milhões no período. Os custos e despesas ope-
+racionais de Echo Participações, que concentra as usinas eólicas da companhia, foi de R$ 8 4,0 milhões no 1T25, cres-
+cimento de 4,4% ou R$ 3,5 milhões frente ao 1T24. Dessa forma, a s principais variações decorrem de: 
+• Aumento dos encargos de transmissão em R$ 13,5 milhões devido a entrada em operação dos ativos solares; 
+• Aumento das despesas com pessoal em R$ 8,0 milhões, reflexo do aumento de quadro para as operações 
+solares e do reajuste de salário ocorrido entre períodos; 
+• Aumento de despesas com seguros para os ativos solares em R$ 1,9 milhões; 
+• Aumento de outras despesas em R$ 3,0 milhões. 
+Vale ressaltar que a redução de PMSO observada na seção consolidada do documento é reflexo da reclassificação de 
+contas de encargos de transmissão, compra de energia e contas de O&M, mas que quando observamos o conjunto de 
+linhas de custos e despesas operacionais, os custos e despesas permaneceram e linha com o mesmo período do ano 
+anterior. 
+ 
+RESULTADO FINANCEIRO - ECHOENERGIA 
+O resultado financeiro registrado no 1T25 foi de R$ 157,0 milhões negativos, valor R$ 84,8 milhões pior quando compa-
+rado com o 1T24, reflexo das despesas financeiras do financiamento dos parques solares, que não estavam em opera-
+ção no 1T24.
+
+[p. 30]
+30 
+ 
+PROFORMA – ECHOENERGIA + EQUATORIAL RENOVÁVEIS 
+Abaixo apresentamos o desempenho econômico -financeiro da Echoenergia em uma visão proforma combinando o re-
+sultado da Equatorial Renováveis S.A. (antiga Solenergias), veículo de comercialização do grupo, o qual é atualmente 
+consolidado, na visão societária, sob a Equatorial Serviços. 
+ 
+ 
+ 
+Para retornar ao Sumário, clique aqui. 
+Echoenergia (Part. + Cresc.) EQTL Renováveis
+DRE 1T24 1T25 ∆% ∆ 1T24 1T25 ∆% ∆
+Receita Liquida 206,0 317,2 54,0% 111,2 68,9 379,1 450,0% 310,2 
+(-) Compra de Energia (10,6) (51,0) 383,1% (40,4) (61,8) (393,9) 537,9% (332,2) 
+(+/-) Efeito MtM (Ganhos e Perdas) (0,1) 0,1 -258,9% 0,2 5,1 28,2 453,0% 23,1 
+Lucro Bruto de Energia 195,4 266,3 36,3% 71,0 12,3 13,3 8,7% 1,1 
+Custos e Despesas Operacionais (79,8) (107,2) 34,3% (27,4) (5,3) (10,6) 99,6% (5,3) 
+(-) Custo de Operação e Produção de Energia (72,4) (90,9) 25,6% (18,5) (0,3) (9,5) 2787,1% (9,2) 
+(-) Despesas Operacionais e Administrativas (7,4) (16,3) 119,5% (8,9) (5,0) (1,0) -79,4% 3,9 
+EBITDA 115,6 159,2 37,7% 43,6 7,0 2,8 -60,3% (4,2) 
+Margem EBITDA (%) 56,1% 50,2% -5,9p.p. N/A 10,1% 0,7% -9,4p.p. N/A
+(-/+) Efeitos Não-Recorrentes - - N/A - - - N/A - 
+(-/+) Efeito MtM (Ganhos e Perdas) 0,1 (0,1) -258,9% (0,2) (5,1) (28,2) 453,0% (23,1) 
+EBITDA Ajustado 115,7 159,1 37,5% 43,4 1,9 (25,4) -1454,2% (27,3) 
+Margem EBITDA Ajustada (%) 56,1% 50,1% -6p.p. N/A 2,7% -6,7% -9,4p.p. N/A
+(-) Depreciação/Amortização (65,2) (84,4) 29,3% (19,1) (0,0) (0,1) 734,6% (0,1) 
+(+/-) Resultado Financeiro (72,2) (157,0) 117,5% (84,8) 0,1 (0,2) -268,7% (0,4) 
+(-) Impostos (11,2) (15,7) 39,6% (4,4) (2,6) (8,4) 220,6% (5,8) 
+Lucro (Prejuízo) Líquido Reportado (33,1) (97,8) 196,0% (64,8) 4,5 (6,0) -233,2% (10,4) 
+Margem Líquida (%) -16,0% -30,8% -14,8p.p. N/A 6,5% -1,6% -8,1p.p. N/A
+Proforma (Echoenergia + EQTL Renováveis)
+DRE 1T24 1T25 ∆% ∆
+Receita Liquida 274,9 696,3 153,3% 421,4 
+(-) Compra de Energia (72,3) (444,9) 515,3% (372,6) 
+(+/-) Efeito MtM (Ganhos e Perdas) 5,0 28,3 464,0% 23,3 
+Lucro Bruto de Energia 207,6 279,7 34,7% 72,0 
+Custos e Despesas Operacionais (85,1) (117,7) 38,4% (32,6) 
+(-) Custo de Operação e Produção de Energia (72,7) (100,4) 38,1% (27,7) 
+(-) Despesas Operacionais e Administrativas (12,4) (17,3) 39,8% (4,9) 
+EBITDA 122,5 161,9 32,2% 39,4 
+Margem EBITDA (%) 44,6% 23,3% -21,3p.p. N/A
+(-/+) Efeitos Não-Recorrentes - - N/A - 
+(-/+) Efeito MtM (Ganhos e Perdas) (5,0) (28,3) 464,0% (23,3) 
+EBITDA Ajustado 117,5 133,7 13,7% 16,1 
+Margem EBITDA Ajustada (%) 42,8% 19,2% -23,6p.p. N/A
+(-) Depreciação/Amortização (65,2) (84,4) 29,4% (19,2) 
+(+/-) Resultado Financeiro (72,0) (157,2) 118,3% (85,2) 
+(-) Impostos (13,9) (24,1) 73,8% (10,2) 
+Lucro (Prejuízo) Líquido Reportado (28,6) (103,8) 263,1% (75,2) 
+Margem Líquida (%) -10,4% -14,9% -4,5p.p. N/A
+
+[p. 31]
+31 
+ 
+SANEAMENTO 
+DESEMPENHO OPERACIONAL E COMERCIAL 
+ 
+As informações operacionais foram divulgadas no release operacional da companhia. Para acessar o documento, cli-
+que aqui. 
+ 
+DESEMPENHO FINANCEIRO 
+ 
+RECEITA OPERACIONAL LÍQUIDA 
+No 4T24, a receita operacional líquida da CSA atingiu R$ 59,5 milhões, um aumento de 46% em relação ao 1T24. Des-
+considerando a receita de construção, o crescimento foi de R$ 3,7 milhões ou 17,8%. O aumento da receita reflete o 
+avanço da hidrometração entre períodos, que aumenta a tarifa média e, por consequência, o faturamento , além do au-
+mento de clientes tanto de água (+18 mil) como de esgoto (+8 mil). 
+ 
+ 
+ 
+ 
+Indicadores O peracionais - Á g ua 1T 24 4T 24 1T 25 ∆% vs 1T 24∆% vs 4T 24
+E conom ia s fa tura da s (m il) 80,7 95,4 99,1 22,7% 3,8%
+Volum e F a tura do (m il m 3) 4.964,7 5.484,8 5.405,5 8,9% -1,4%
+Índice de cobe rtura (% ) 42,0% 63,5% 66,4% 24,4 p.p. 2,9 p.p.
+Índice de P e rda da D is tribuiçã o (% ) 60,2% 63,2% 63,2% 3 p.p. 0 p.p.
+Indicadores O peracionais - Es g oto 1T 24 4T 24 1T 25 ∆% vs 1T 24∆% vs 4T 24
+E conom ia s fa tura da s (m il) 10,9 18,9 18,7 71,1% -0,9%
+Volum e F a tura do (m il m 3) 589,2 1.013,7 1.008,5 71,2% -0,5%
+Índice de cobe rtura (% ) 8,0% 14,7% 15,0% 7 p.p. 0,3 p.p.
+Demonstração de Resultado 1T24 1T25 ∆% ∆
+R$ milhões
+Receita Operacional 42,8 62,0 44,7% 19,2
+Abastecimento de água e serviços de esgoto 21,8 25,6 17,2% 3,8
+Receita de construção 20,2 35,3 74,9% 15,1
+Outras receitas 0,8 1,1 36,0% 0,3
+Deduções à receita operacional (2,1) (2,5) 18,5% -0,4
+Receita operacional líquida 40,8 59,5 46,1% 18,8
+Custos de construção (20,2) (35,3) 74,9% -15,1
+Custo da Operação (26,0) (20,5) -20,9% 5,4
+Pessoal (8,5) (4,7) -44,0% 3,7
+Material (2,3) (2,5) 7,1% -0,2
+Serviços de terceiros (3,4) (4,0) 18,7% -0,6
+PDD/Provisões (8,1) (6,0) -25,2% 2,0
+Outros (3,5) (3,9) 10,4% -0,4
+Outras Receitas e Despesas Operacionais (0,3) 0,6 -315,8% 0,8
+EBITDA (5,4) 3,7 -168,4% 9,1
+Depreciação e amortização (0,5) (0,8) 57,8% -0,3
+Resultado financeiro (44,3) (55,0) 24,2% -10,7
+Receita financeira 3,0 1,3 -57,4% -1,7
+Despesa financeira (47,3) (56,3) 19,1% -9,0
+Tributos - - N/A 0,0
+Resultado do exercício (50,2) (52,1) 3,8% -1,9
+
+[p. 32]
+32 
+ 
+CUSTOS E DESPESAS OPERACIONAIS 
+O PMSO do período atingiu R$ 15,1 milhões, 15% menor que o mesmo período do ano anterior , ou R$ 2,6 milhões. 
+ 
+A PECLD no trimestre atingiu R$ 6,0 milhões, valor R$ 2,0 milhões melhor que o mesmo período do ano anterior . Os 
+índices de PECLD/ROB desconsiderando a receita de construção são de 22,6% no 1T25 e 35,6% no 1T24 (-13,0 p.p.). 
+ 
+RESULTADO FINANCEIRO 
+No 4T24, o resultado financeiro foi de R$ 55,0 milhões, valor R$ 10,7 milhões pior em relação ao 1T24, impacto da me-
+nor disponibilidade no período, refletida nas receitas financeiras e do maior estoque de dívida no período. 
+ 
+Para retornar ao Sumário, clique aqui
+
+[p. 33]
+33 
+ 
+EQUATORIAL SERVIÇOS 
+ 
+DESEMPENHO FINANCEIRO 
+As variações da receita e dos custos da Equatorial Serviços vem, principalmente, da comercializadora do grupo, que 
+negocia os contratos de energia dos projetos solares de Ribeiro Gonçalves e Barreiras I, e por isso possuem uma maior 
+receita de vendas e um maior custo de compra de energia no período. 
+O EBITDA do período foi de R$ 23,8 milhões, enquanto o EBITDA Ajustado foi de -R$ 7,4 milhões. 
+ 
+Para retornar ao Sumário, clique aqui 
+ 
+Demonstração de Resultado 1T24 1T25 ∆% ∆
+R$ milhões
+Receita Operacional Bruta 186,2 539,3 189,6% 353,1 
+Deduções (23,3) (62,0) 166,2% (38,7) 
+Receita operacional líquida 163,0 477,4 192,9% 314,4 
+Custos Operacionais (65,3) (395,6) 505,6% (330,3) 
+Despesas Operacionais (67,7) (58,1) -14,2% 9,6 
+EBITDA 30,0 23,7 -20,8% (6,3) 
+Margem EBITDA 18,4% 5,0% -73,0%
+(-/+) Efeito MtM (Ganhos e Perdas) (5,0) (31,2) 521,5% (26,2) 
+EBITDA Ajustado 25,0 (7,4) -129,7% (32,4) 
+Depreciação e Amortização (2,7) (6,1) 127,8% (3,4) 
+Resultado do serviço (EBIT) 27,3 17,6 -35,5% (9,7) 
+Resultado financeiro (4,9) (2,7) -45,0% 2,2 
+Equivalencia - 1,2 N/A 1,2 
+Tributos (11,1) (16,0) 44,6% (4,9) 
+Lucro Líquido 11,3 0,1 -99,4% (11,2)
+
+[p. 34]
+34 
+ 
+SERVIÇOS PRESTADOS PELO AUDITOR INDEPENDENTE 
+Por fim, a Companhia não contratou da Ernst & Young Auditores Independentes S/S Ltda., seu auditor externo, para 
+outros serviços além da auditoria independente e serviços por exigência da ANEEL. A política de contratação adotada 
+pela Companhia atende aos princípios que preservam a independência do auditor, de acordo com as normas vigentes, 
+que principalmente determinam que o auditor não deve auditar o seu próprio trabalho, nem exercer funções gerenciais 
+no seu cliente ou promover os seus interesses. 
+ 
+As seguintes informações não foram revisadas pelos auditores independentes: i) dados operacionais; ii) informações 
+financeiras pro-forma, bem como a comparação destas informações com os resultados societários do período; e iii) 
+expectativas da administração quanto ao desempenho futuro das companhias. 
+ 
+ 
+Para retornar ao Sumário, clique aqui
+
+[p. 35]
+Earnings 
+Release 
+1Q25
+
+[p. 36]
+Brasília, May 14, 2025 – Equatorial S.A., A multi-utilities holding, operating in the Distribution, Transmission, Generation, Commercialization, Services, 
+Sanitation and Telecom segments (B3: EQTL3; USOTC: EQUEY), announces the results for the first quarter of 2025 (1Q25). 
+Adjusted Consolidated EBITDA grows 14.5%, R$ 2.9 billion in the period (vs. 1Q24) 
+Piauí reaches regulatory DEC and the reduction of the OPEX are highlights of the quarter. 
+ 
+ Operation Quality – Reduction in DEC in 1Q25 vs 4Q24, in the 12 -month accumulated view, in all distributors 
+of the group, with emphasis on Equatorial Piauí’s performance for reaching regulatory levels and the reduction 
+of CEEE-D (-3.2h). 
+ Reduction in total consolidated losses, below the regulatory level for the sixth consecutive quarter. 
+ Adjusted OPEX reached R$ 1,133 million, a reduction of 3.9% between quarters. 
+ Sabesp’s equity equivalence reached R$ 214 million in the quarter. 
+ Consolidated investments totaled approximately R$ 2.3 billion in 1Q25. 
+ Net Debt / consolidated EBITDA ratio, in the covenant view, ended the quarter at 3.2x. 
+ Cash for the period reached R$ 11.2 billion, with a Cash/Short-term Debt ratio of 1.4x. 
+ Sale of the group's transmission assets announced on April 4, with an enterprise value of up to R$ 9.4 billion. 
+ Signing of the financing contract with the IFC on March 28, in the amount of US$ 100 million for Equatorial 
+Alagoas. 
+ Entry of the group into the Corporate Sustainability Index - ISE B3. 
+ 
+MAIN INDICATORS1 
+ 
+ 
+1 Adjusted EBITDA net of non-recurring effects and non-cash effects of VNR, IFRS and MtM. 
+Financial Highlights 1Q24 1Q25 ∆% ∆
+R$ million
+Net Operating Revenues (NOR) 9,898 11,709 18.3% 1,811 
+Adjusted EBITDA (Quarter) 2,523 2,889 14.5% 366 
+EBITDA Margin (% NOR) 25.5% 24.7%
+Adjusted EBITDA (Last 12 monts) 8,849 11,454 29.4% 2,605 
+Adjusted Net Income 491 411 -16.4% (81) 
+Net Income Margin (% NOR) 5.0% 3.5%
+Investments 1,725 2,311 33.9% 585 
+Net Debt 36,694 44,071 20.1% 7,378 
+Net Debt / Adj EBITDA (Last 12 months) 3.3 3.2 
+Cash / Short Term Debt 2.2 1.4 
+-0.1x
+-1.5 p.p.
+-0.8 p.p.
+-0.8x
+
+[p. 37]
+Summary 
+Summary................................ ................................ ................................ ................................ ................................ ......... 3 
+CONSOLIDATED FINANCIAL PERFORMANCE ................................ ................................ ................................ .................... 4 
+ADJUSTED GROSS MARGIN ................................ ................................ ................................ ................................ ............. 6 
+COSTS AND EXPENSES ................................ ................................ ................................ ................................ ..................... 7 
+EBITDA ................................ ................................ ................................ ................................ ................................ ............ 9 
+FINANCIAL RESULT ................................ ................................ ................................ ................................ ........................ 10 
+NET REVENUE ................................ ................................ ................................ ................................ ............................... 11 
+DEBT ................................ ................................ ................................ ................................ ................................ ............. 12 
+INVESTMENTS ................................ ................................ ................................ ................................ ............................... 12 
+ESG (Environmental, Social and Governance) ................................ ................................ ................................ ................ 14 
+DISTRIBUTION ................................ ................................ ................................ ................................ ............................... 15 
+COMMERCIAL PERFORMANCE ................................ ................................ ................................ ................................ ...... 15 
+OPERATIONAL PERFORMANCE ................................ ................................ ................................ ................................ ...... 17 
+FINANCIAL PERFORMANCE ................................ ................................ ................................ ................................ ........... 18 
+GROSS MARGIN ................................ ................................ ................................ ................................ ............................ 18 
+OPERATING EXPENSES AND OPEX/CONSUMER ................................ ................................ ................................ ............. 19 
+EBITDA ................................ ................................ ................................ ................................ ................................ .......... 21 
+NON-RECURRING EFFECTS – EBITDA ................................ ................................ ................................ ............................. 22 
+FINANCIAL RESULT ................................ ................................ ................................ ................................ ........................ 23 
+NET INCOME ................................ ................................ ................................ ................................ ................................ . 23 
+INVESTMENTS ................................ ................................ ................................ ................................ ............................... 23 
+TRANSMISSION ................................ ................................ ................................ ................................ ............................. 24 
+FINANCIAL PERFORMANCE ................................ ................................ ................................ ................................ ........... 24 
+RENEWABLES ................................ ................................ ................................ ................................ ................................ 25 
+OPERATIONAL PERFORMANCE ................................ ................................ ................................ ................................ ...... 25 
+FINANCIAL PERFORMANCE ................................ ................................ ................................ ................................ ........... 29 
+SANITATION ................................ ................................ ................................ ................................ ................................ .. 32 
+OPERATIONAL AND COMERCIAL PERFORMANCE ................................ ................................ ................................ .......... 32 
+FINANCIAL PERFORMANCE ................................ ................................ ................................ ................................ ........... 32 
+EQUATORIAL SERVIÇOS ................................ ................................ ................................ ................................ ................. 35 
+SERVICES PROVIDED BY THE INDEPENDENT AUDITOR ................................ ................................ ................................ ... 36
+
+[p. 38]
+NOTICE 
+Forward-looking statements are subject to risks and uncertainties. Such statements are based on the beliefs and 
+assumptions of our Management and information to which the Company currently has access. Forward-looking state-
+ments include information about our current intentions, beliefs or expectations, as well as those of the Company's 
+Board of Directors and Officers. Disclaimers with respect to forward-looking statements and information also include 
+information about possible or assumed operating re sults, as well as statements that precede, follow or include the 
+words “believes”, “may”, “will”, “continues”, “ex-pects”, “anticipates”, “intends”, “estimates” or similar expressions. 
+Forward-looking statements and information are not guarantees of perfo rmance. They involve risks, un -certainties 
+and assumptions because they refer to future events, therefore depending on circumstances that may or may not 
+occur. Future results and the creation of shareholder value may differ materially from those expressed or suggested 
+by forward-looking statements. Many of the factors that will determine these results and values are beyond the 
+Company's ability to control or predict. 
+Accounting criteria adopted: 
+The information is presented on a consolidated basis and in ac cordance with Brazilian corporate law crite-ria, based 
+on revised financial information. The consolidated financial information presented in this report represents 100% of 
+the results of its direct and indirect subsidiaries and considers the result of the assets from their acquisition, unless 
+otherwise indicated for comparability purposes. 
+The consolidated operating information represents 100% of the results of direct and indirect subsidiaries.
+
+[p. 39]
+CONSOLIDATED FINANCIAL PERFORMANCE
+
+[p. 40]
+ADJUSTED GROSS MARGIN 
+ 
+On a consolidated basis, the Equatorial group's adjusted Gross Margin in 1Q25 showed growth of 2. 9% compared to 
+1Q24, totaling R$ 4.1 billion, already excluding the effects of construction revenue and IFRS effects (VNR, IFRS 9 and 
+MtM). 
+The result is mainly explained by the increase in the gross margin of the Distribution segment (R$ 174 million), where 
+the growth in the gross margin of Equatorial Goiás (R$ 108 million) stands out. It is worth mentioning that the reduc-
+tion in the margin in the Transmission segment (- R$ 64 million) is mainly due to the sale of INTESA and SPE 7, whose 
+disposals were completed in March and December 2024, respectively. 
+In this quarter, market variation negatively impacted the margin by R$ 130 million, while tariff variations and delta 
+losses added R$ 354 million and R$ 10 million, respectively. 
+It is important to highlight that the effects of accounting for the cost of purchasing energy from distributed genera-
+tion began to be accounted for only in 4Q24. For a more accurate comparison of the adjusted gross margin, the 1Q24 
+value should be adjusted with a cost of R$ 46.9 million, which would result in a variation between quarters of 3.4%, 
+or R$ 134.8 million in a consolidated view. 
+In the table below we present the non-recurring effects of Gross Margin broken down by segment: 
+ 
+Below is a breakdown of the non-recurring effects for the period: 
+Electricity Service Cost 
+(i) Retroactive expenses (Alagoas): Adjustments made to adjust neutrality according to CP 09. 
+(ii) O&M Expenses (Echo): Adjustment regarding the accounting reclassification of O&M expenses to costs. This effect 
+is also present in the PMSO, in the same value and inverse sign. 
+ 
+ 
+Non - Recurring Distribution Transmission Renewables Sanitation Others 1Q25 Total
+Operational Revenue - - - - - - 
+Revenue Deductions - - - - - - 
+Net Operating Revevue - - - - - - 
+Costs 18 - 27 - - 45 
+Retroactive Entries 18 - - - - 18 
+O&M Expenses - - 27 - - 27 
+Gross Margin 18 - 27 - - 45
+
+[p. 41]
+COSTS AND EXPENSES 
+ 
+Adjusted OPEX presented a reduction of 3.9% in comparison between quarters, from R$1,179 million to R$1, 133 
+million. 
+As the main effects of the Adjusted OPEX for the quarter, we highlight: 
+(i) Reduction of R$ 20 million in the Distribution segment, reflecting the reduction in OPEX at Equatorial Goiás; 
+(ii) Reduction of R$ 16 million in Others, mainly explained by the variation in the Holding (long term incentives 
+expenses) and Equatorial Serviços. 
+Explanations for the movements of each segment are explained in their respective sections in the document. 
+In the table below we present the non-recurring effects of costs and expenses, broken down by segment: 
+ 
+Below is a breakdown of non-recurring effects: 
+Operating Costs and Expenses: 
+Personnel 
+(i) Payment of bonus from recent acquisition (MA/PA/PI/AL & Holding) & severance of officers expenses. 
+Material 
+(ii) Acquisition of PPE and CPE materials aimed at primary production (PA). 
+Third Party Services 
+(iii) O&M Expenses (Echo): reclassification of O&M expenses to costs. This effect is also present in the Gross Margin, in 
+the same value and inverse sign.
+
+[p. 42]
+The individual effects of the distributors can be viewed in the non-recurring table in the Distribution section.
+
+[p. 43]
+EBITDA 
+Equatorial's reported EBITDA reached R$ 3,161 million in 1Q25, 19.6% higher than in 1Q25. 
+EBITDA adjusted for non-recurring and non-cash effects reached R$ 2,889 million, 14.5% higher than the same period 
+of the previous year, or R$ 366 million higher, an increase explained by: (i) the effect of the equity method of SABESP, 
+which added R$ 214 million in the quarter, (ii) the increase in the distribution segment, which in th e quarter had a 
+variation of R$ 187 million, and (iii) the increase in the renewables segment of R$ 44 million. 
+Adjusted EBITDA already includes non-cash and IFRS adjustments (VNR, IFRS 9 and MtM). 
+Below we present the EBITDA reconciliation, in accordance with CVM Instruction 156/22: 
+ 
+In the table above we also show two comparisons: the comparison of adjusted EBITDA with the retroactive effect of 
+the recognition of distributed generation costs and the “same assets” view, adjusting the effects of INTESA, SPE 7, 
+Echo Crescimento and Sabesp equivalence. 
+The non-recurring effects that impacted EBITDA are listed below. 
+ 
+EBITDA adjustments are represented in the previous sections “Gross Margin” and “Costs and Expenses”. For further 
+details, see the “Distribution” section.
+
+[p. 44]
+FINANCIAL RESULT 
+ 
+In this quarter there were no non-recurring effects on the financial result, only the effect of the update of PN shares 
+in Equatorial Distribuição, in the amount of + R$ 54.7 million, reflected in the non-cash effects line. 
+On a consolidated basis, the Company's reported financial result reached negative R$1,455 million against negative 
+R$1,276 million in 1Q24, while the financial result adjusted for non-recurring and non-cash effects in 1Q25 was neg-
+ative R$1,509 million, 22.6% higher compared to 1Q24. The worsening in the financial result of the quarter is mainly 
+explained by the growth in gross debt between periods (+ R$7.5 billion, 23.0% higher between periods). 
+ 
+ 
+ 
+Net Financial Result 1Q24 ∆ Distribution ∆ Transmission ∆ Renewables ∆ Others 1Q25 ∆% ∆
+R$ Million
+(+) Financial Income 295 111 11 7 (53) 372 25.8% 76 
+(+) Late Payment - Energy Sales 104 15 - 1 1 120 15.8% 16 
+(+) Debt charges (1,308) (371) 16 (91) (27) (1,781) 36.2% (473) 
+(+) CVA Charges (14) 5 - - - (9) -36.8% 5 
+(+) AVP - Commercial 24 (15) - - - 9 -61.3% (15) 
+(+) Contingencies (79) 8 - - - (71) -10.3% 8 
+(+) Other Income/Expenses (297) (8) 1 (1) 211 (94) -68.4% 203 
+Financial Result (1,276) (255) 28 (85) 132 (1,455) 14.0% (179) 
+(-/+) Non-Recurring Effects (62) - 
+(-/+) Non-Cash Effects 107 (55) 
+Adjusted Financial Result (1,231) (1,509) 22.6% (278)
+
+[p. 45]
+NET REVENUE 
+On a consolidated basis, net income for the period was R$706 million, while adjusted net income for the period was 
+R$411 million. 
+ 
+The company's minority interests are affected by the restatement of the preferred shares issued by Equatorial Dis-
+tribuição and therefore do not reflect the economic interest held by Equatorial. For a more accurate view, Net Income 
+Ex Minorities should consider: (i) the minority interests of the group's companies, which reached R$ 55.9 million in 
+the quarter, and (ii) the amount of restatement of preferred shares by CDI, which reached R$ 113.1 million in the 
+quarter. After making these adjustments, Net Income Ex Minorities would be R$ 537.2 million. 
+It is important to highlight that the adjusted net income includes non -cash adjustments related to the update of the 
+option to purchase preferred shares in Equatorial Distribuição. The effect is mapped within the financial result and 
+reflects the composition of the profit adjustments. 
+Below we present the non-recurring and non-cash effects that impacted the company's profit: 
+ 
+The taxes line adjusts the quarterly amount for the incidence of taxes on recurring income, and the IFRS Adjustments 
+line brings the non-cash effects already net of taxes. 
+Non Recurring Distribuição Transmissão Renováveis Saneamento Outros 1Q25 Total
+EBITDA Adjustments (Margin+Costs) 17 - - - 13 30 
+- - - - - - 
+Taxes 49 - - - - 49 
+PPAs - - - - (20) (20) 
+Preferred Shares Adjustments - Non Cash - - - - (55) (55) 
+IFRS adjustments (VNR / IFRS 9 / MtM) net of tax (227) (53) - - (21) (300) 
+Total Adjustments Net Revenue (160) (53) - - (83) (296)
+
+[p. 46]
+DEBT 
+In the quarter, consolidated gross debt, considering loans and financing, financial creditors from the judicial recovery 
+(net of adjustment to present value) and debentures, reached R$54.8 billion. For a more detailed breakdown of the 
+debt, visit the IR website, in the section: Financial Information – Operational and Financial Data. 
+ 
+ 
+Net debt for covenant purposes reached R$ 44.1 billion, implying a net debt/EBITDA ratio for covenant purposes of 
+3.2x. The opening of the covenant table presents Equatorial's EBITDA, in addition to the equity of the 15% stake in 
+SABESP, both referring to the last 12 months and from a covenant perspective. 
+It is worth noting that, from a net debt perspective (excluding the company's cash from debt linked to the CDI), the 
+CDI's share in the consolidated debt would be 49.8%. 
+The cash coverage in relation to the Company's short-term obligations was 1.4x in 1Q25. 
+It is worth noting that the reduction in gross debt between periods reflects the following prepayments: (i) R$ 750 
+million from the 6th issue of Equatorial Pará, (ii) R$ 312 million from the prepayment of the 9 th issue of Equatorial 
+Maranhão, and (iii) R$ 1,500 million from the partial prepayment of the commercial note of Equatorial. 
+INVESTMENTS
+
+[p. 47]
+Information regarding Investments made considers 100% of our assets in the reported periods. New assets are con-
+sidered based on their respective consolidations. 
+In 1Q25, consolidated investments totaled R$ 2.3 billion, a volume 34% higher than that recorded in 1Q24. 
+The variation in investments between quarters reflects the increase in the volu me invested in the distribution seg-
+ment, especially in the electrical assets line, due to investments in expansion, quality and losses, while the increase 
+in special obligations is due to the greater number of works aimed at universalization. 
+To return to the summary, click here 
+Investments 1Q24 1Q25 ∆% ∆
+R$ million
+Distribution 1,510 2,252 49% 742
+Electrical Assets 1,245 1,806 45% 561
+Special Obligations 192 318 65% 126
+Non-Electrical Assets 73 129 77% 56
+Transmission 8 7 -20% -2
+Renewables 183 8 -96% -175
+Operational Assets 14 3 -76% -11
+Projects in Development 169 5 - -164
+Sanitation 20 35 73% 15
+Others 4 9 122% 5
+Total Equatorial 1,725 2,311 34% 585
+
+[p. 48]
+ESG (Environmental, Social and Governance) 
+The Equatorial Group began 2025 with significant progress in its ESG agenda. The Company achieved a B rating from 
+the CDP (Carbon Disclosure Project), reflecting consistent progress in identifying and disclosing climate risks and 
+impacts and strengthening environmental governance. This performance demonstrates a more structured and pro-
+active management in the face of climate change, with concre te actions aimed at mitigating risks and identifying 
+opportunities. In recognition of this progress, the Group was listed again in the 2024/2025 portfolio of the Corporate 
+Sustainability Index (ISE) of the Brazilian Stock Exchange, reaching 23rd position o ut of 82 listed companies. 
+Another important milestone was the announcement of a strategic partnership with the IFC (International Finance 
+Corporation), which foresees an investment of up to US$ 250 million, with US$ 100 million earmarked for a green 
+loan for Equatorial Alagoas. The funds will be used to modernize the energy distribution system, contributing to the 
+expansion of Brazil's electrical infrastructure and boosting economic growth combined with sustainable develop-
+ment. 
+In the quarter, Grupo Equato rial recorded the consumption of 257,770 liters of ethanol in its administrative fleet, 
+which represents an increase of 446% compared to the same period in 2024. This advance highlight the Company's 
+commitment to using cleaner energy sources, strengthening the use of renewable fuels in its operations. 
+Find out more about our indicators, made available every quarter, on the table below. 
+ 
+To return to the Summary, click here.
+
+[p. 49]
+DISTRIBUTION 
+COMMERCIAL PERFORMANCE 
+ 
+LOSSES (12 months) 
+ 
+1 Regarding the tariff coverage for the purchase of energy from CEA, it is worth highlighting that in addition to the usual value implicit in the level of regulatory losses, in REH 3,430, of December 
+10, 2024, Aneel approved the additional amount of R$ 69.8 million, to be received in 12 installments, referring to the sole paragraph of art. 4º b of Law 12,111, of December 9, 2009. This 
+complementary mechanism, provided for by law, is extinguished in the 2026 tariff process, and the associated amount of energy is gradually reduced by 25% each year. 
+ 
+The operational information was disclosed in the company's operational release. 
+To access the document, click here.
+
+[p. 50]
+CONTRACTING PERCENTAGE (12 months) 
+Below, we present the expected level of contracting by distributors for the year 2025, with and without adjustments 
+resulting from involuntary over-contracting. 
+ 
+PDA and COLLECTION - QUARTER 
+ 
+ 
+On a consolidated basis, the group's PDA reached 1.66% of the GORO against 1.72% in 1Q24. The quarter saw reduc-
+tions in the indicator in all companies, except for the concessions in Piauí, where the worsening is a reflection of the 
+aging of government invoices, and Alagoas, which was impacted by the slippage of invoices of the 4Q24 and the 
+greater aging of the residential, rural and government classes. 
+ 
+Observing the Collection for the quarter, the specific worsening in CEEE -D reflects the mobilization of collection 
+teams for emergency service, while the worsening in CEA reflects the suspension of collection due to the change in 
+the commercial system that occurr ed in 1Q25, in addition to the postponement of payments of the public power 
+class. 
+ 
+The companies' revenues ended the quarter at a consolidated level of 97.9%, with a highlight on the revenue level 
+of Equatorial Goiás (100.6%). 
+2025 MA PA PI AL RS AP GO
+% of contraction 104.50% 103.19% 103.40% 110.42% 100.99% 110.52% 104.57%
+% disconsidering involuntary 104.50% 103.19% 103.40% 109.34% 100.99% 101.92% 104.57%
+PDA / GOR1 1Q24 1Q25 Δ Collection Index 1Q24 1Q25 Δ
+Equatorial Maranhão 2.02% 1.68% -0.34 p.p. Equatorial Maranhão 95.44% 97.69% 2.25 p.p.
+Equatorial Pará 2.49% 2.21% -0.29 p.p. Equatorial Pará 95.98% 96.67% 0.69 p.p.
+Equatorial Piauí 2.17% 2.66% 0.49 p.p. Equatorial Piauí 96.65% 99.27% 2.62 p.p.
+Equatorial Alagoas 1.34% 1.83% 0.48 p.p. Equatorial Alagoas 97.38% 98.95% 1.57 p.p.
+CEEE-D 2.28% 1.87% -0.41 p.p. CEEE-D 95.36% 94.71% -0.65 p.p.
+CEA 3.41% 2.94% -0.47 p.p. CEA 99.18% 93.30% -5.88 p.p.
+Equatorial Goiás 0.37% 0.58% 0.21 p.p. Equatorial Goiás 98.16% 100.58% 2.42 p.p.
+Consolidated 1.72% 1.66% -0.07 p.p. Consolidated 96.62% 97.85% 1.23 p.p.
+1 Does not consider construction revenues.
+
+[p. 51]
+OPERATIONAL PERFORMANCE 
+DEC and FEC (12 months) 
+ 
+The quality level of the distribution system is measured by the DEC2 and FEC3, both over a 12-month period. 
+In this quarter, we highlight the reduction of the DEC in all the group's distributors compared to 4Q24 and the align-
+ment, for the first time since the acquisition of Equatorial Piauí, of the DEC within the regulatory limit. 
+The largest variations in DEC vs 4Q24 were in our concessions in Rio Grande do Sul, Piauí, Alagoas, Amapá and Goiás 
+at -3.1h, -3.0h and -2.0h, -1.0h and -1.0h, respectively. In the comparison with 1Q24, we highlight the reductions in 
+Equatorial Goiás (-5.8h), Equatorial Piauí (-5.4h), CEEE-D (-3.2h) and Equatorial Maranhão (-1.3h). 
+The reductions in companies reflect the assertiveness of the maintenance process as well as the investments made 
+during the period. 
+Currently, four of Equatorial's seven concessions are within the DEC's regulatory limit, and six out of the seven con-
+cessions are within the FEC's regulatory limit. 
+ 
+ 
+2 Duração Equivalente de Interrupção por Consumidor - indicates the average duration of interruptions, in hours per customer per period 
+3 Frequência Equivalente de Interrupção por Consumidor –indicates the frequency of supply interruptions, in number of int erruptions per customer per period 
+DisCos 1Q24 4Q24 1Q25 Regulatory ∆ 1Q24 ∆ 4Q24 ∆ Regulatory
+DEC
+Equatorial Maranhão 13.8 13.4 12.5 13.8 -1.3 -0.9 -1.3
+Equatorial Pará 17.1 19.4 18.9 21.5 1.8 -0.5 -2.6
+Equatorial Piauí 23.4 21.0 18.1 19.2 -5.4 -3.0 -1.1
+Equatorial Alagoas 17.3 19.9 17.9 14.8 0.5 -2.0 3.0
+CEEE-D 18.9 18.8 15.7 8.2 -3.2 -3.1 7.5
+CEA 31.4 34.5 33.5 46.0 2.1 -1.0 -12.5
+Equatorial Goiás 20.7 15.9 14.9 11.2 -5.8 -1.0 3.7
+FEC
+Equatorial Maranhão 6.1 5.8 5.3 7.9 -0.8 -0.6 -2.6
+Equatorial Pará 8.0 8.0 7.6 15.8 -0.4 -0.4 -8.2
+Equatorial Piauí 8.7 7.2 6.4 12.2 -2.3 -0.8 -5.8
+Equatorial Alagoas 7.1 6.6 6.1 11.8 -0.9 -0.5 -5.7
+CEEE-D 7.7 7.3 6.3 5.8 -1.4 -1.0 0.5
+CEA 14.1 14.4 14.2 30.7 0.1 -0.3 -16.6
+Equatorial Goiás 10.4 7.6 7.1 7.4 -3.3 -0.5 -0.3
+
+[p. 52]
+FINANCIAL PERFORMANCE 
+GROSS MARGIN 
+ 
+ 
+In 1Q25, the adjusted Gross Margin of ex-VNR distributors reached R$3.6 billion, 5% higher than the same period of 
+the previous year, or R$ 174.5 million.
+
+[p. 53]
+OPERATING EXPENSES AND OPEX/CONSUMER 
+ 
+ 
+MARANHÃO 
+In the comparison between quarters, the Adjusted OPEX/Consumer, in the 12 -month view, grew 2.7%, totaling R$ 
+255. The adjusted OPEX for the period totaled R$178 million, in line with the same period of the previous year. 
+ 
+Expected Losses on Doubtful Loans (PDA) reached R$ 30 million in 1Q25, a reduction of 12% vs 1Q24 and representing 
+1.7% of the GOR. 
+ 
+PARÁ 
+In 1Q25, Adjusted OPEX/Consumer (12 months) recorded R$ 236, in line with 1Q24, while adjusted OPEX reached 
+R$182 million, approximately 6.3% above 1Q24. 
+ 
+The increase in the Third Party Services line is a result of the increase in collection services and customer service in 
+the quarter. 
+ 
+In 1Q25, PDA reached R$59 million, 11.2% below 1Q24, representing 2.2% of the GOR. 
+ 
+PIAUÍ 
+Adjusted OPEX/Consumer (12 months) was R$ 247, an increase of 1.2% compared to 1Q24. Adjusted OPEX for the 
+quarter increased by 2.3%, or R$ 2 million, when compared to the same period last year. 
+ 
+The PDA for the quarter was R$ 27 million, 2.7% of the ROB, a value impacted by the aging of the debt with the 
+government. 
+ 
+ALAGOAS 
+Adjusted OPEX/Consumer (12 months) recorded R$ 213, 2.8% higher than 4Q2 4, while adjusted OPEX showed an 
+increase of 4.3%, or R$ 3 million, a value below inflation for the period. 
+ 
+Despite the small variation between quarters, it is possible to note a migration of expenses from the Third Party 
+Services line to the Personnel line, reflecting the primarization process carried out in the concession. 
+ 
+In Alagoas, Expected Losses for Doubtful Loans (PDA) for the quarter reached R$ 17 million, 1.8% of the GOR.
+
+[p. 54]
+CEEE-D 
+The Adjusted OPEX/Consumer (12 months) recorded R$ 298, a reduction of 1.3%. The adjusted OPEX for the period 
+showed an increase of 11.0%. 
+ 
+The increase in OPEX during the period comes mainly from the Third Party Services line and is mainly due to the 
+additional mobilization of teams for on-call and emergencies, in addition to the greater amount of services aimed at 
+strip cleaning and pruning. 
+ 
+The PDA/GOR for the period reached 1.9%, or R$ 35 million. 
+ 
+CEA 
+Adjusted PMSO/Consumer (12 months) was R$526, 13.0% lower than the same period last year, reflecting the larger 
+customer base in the quarter. CEA's adjusted PMSO was R$36 million, in line with 1Q24. 
+ 
+In 1Q24, PDA reached R$12 million and represents 2.9% of the GOR. 
+ 
+GOIÁS 
+Adjusted OPEX/Consumer (12 months) was R$ 347 million in 1Q25, 0.2% lower than in 1Q24. Adjusted OPEX was R$ 
+290 million, 15.7% lower than in 1Q24. 
+ 
+The reduction in PMSO occurs in two lines: (i) In the Personnel line (R$ 20 million), where the variation is directly 
+impacted by the reduction in the company's average salary between periods, in addition to the lower amount of 
+payments related to hazardous work and overtime in the period, and (ii) In the Third-Party Services (R$ 36 million), 
+where the reduction is a reflection of the lower amount of occurrences in the quarter, in addition to the renegotiation 
+of contract prices with outsourced teams. 
+ 
+In 1Q25, PDA recorded a negative R$ 19 million, or 0.6% of the GOR.
+
+[p. 55]
+EBITDA 
+ 
+MARANHÃO 
+In 1Q25, EBITDA adjusted for VNR and non -recurring effects reached R$289 million, 1.8% higher than 1Q24, or R$ 
+5.0 million. 
+The adjusted gross margin for the quarter grew by R$2.3 million and was partially offset by the variation in the ad-
+justed OPEX for the period (- R$1.6 million). 
+Provisions and contingencies showed an improvement of R$ 4.8 million in the period. 
+PARÁ 
+Adjusted EBITDA for VNR and non-recurring effects from Pará reached R$ 617 million, a reduction of 5.1%, or R$33.0 
+million. 
+Gross margin for the period fell by R$ 20.4 million, because of the billed market reduction (R$ 46 million) and in-
+creased losses (R$17 million), effects partially offset by the positive variation in the parcel-b tariff (R$ 54 million). 
+Adjusted OPEX for the period fell by R$ 11.1 million. 
+The provisions line for the period showed an improvement of R$ 7.5 million between quarters, a value offset by the 
+increase in expenses with isolated systems of R$ 9.4 million in the period. 
+PIAUÍ 
+In Piauí, EBITDA adjusted for non-recurring and non-cash effects reached R$ 212 million, 2.2% lower, or R$ 4.7 million, 
+when compared to the same period of the previous year. 
+Gross margin, OPEX and contingencies lines varied by R$ 2.8 million, -R$2.1 million and -R$5.4 million, respectively. 
+ALAGOAS 
+Adjusted EBITDA for VNR and non-recurring effects from Alagoas reached R$ 202 million, in line with the same period 
+of the previous year. 
+CEEE-D 
+EBITDA adjusted for non-recurring effects and VNR for Rio Grande do Sul reached R$ 245 million in the quarter, 15.5% 
+higher than 1Q24, or R$ 33.0 million. 
+CEEE-D's gross margin grew by R$ 37.5 million, due to the strong market growth in 1Q25. 
+The OPEX for the period showed an increase of R$ 14.9 million, while provisions and contingencies for the period 
+showed an improvement of R$ 10.4 million.
+
+[p. 56]
+CEA 
+Adjusted EBITDA reached R$ 101 million, 57.9% higher than the same period of the previous year, or R$ 36.8 million. 
+CEA's gross margin grew by R$ 39.9 million, mainly reflecting the significant improvement in losses between periods. 
+Increases in the OPEX, provisions and contingencies and isolated systems expenses lines were R$ 0.4 million, R$ 0.2 
+million and R$ 2.4 million, respectively. 
+GOIÁS 
+EBITDA adjusted for non-recurring effects and VNR of Equatorial Goiás reached R$ 628.4 million, 32.2% higher than 
+the same period of the previous year. 
+The increase in the margin (R$ 108.2 million) mainly reflects the improvement in losses in the period. The adjusted 
+OPEX for the period showed an improvement of R$ 53.8 million and the PDA and provisions decreased by R$ 9.2 
+million. 
+NON-RECURRING EFFECTS – EBITDA
+
+[p. 57]
+FINANCIAL RESULT 
+ 
+NET INCOME 
+ 
+INVESTMENTS 
+ 
+To return to the summary, click here. 
+ 
+Financial Result, net ∆%
+R$ million MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+) Financial Income 23 35 20 7 32 10 23 151 44 92 23 24 24 23 32 262 73.6%
+(+) Fines and Interest on Overdue Bills 19 34 11 7 14 3 16 104 19 36 13 10 23 2 15 118 14.2%
+(+) Swap Operations (86) (154) (105) (52) (138) (64) (324) (925) (135) (247) (127) (77) (189) (95) (426) (1,296) 40.1%
+(+) Foreign Exchange on Debt (8) (0) (3) 1 17 0 (21) (14) (7) (4) 0 (3) 5 5 (5) (9) -36.8%
+(+) Foreign Exchange on Debt - Jud Recovery 1 9 1 2 6 3 1 24 0 0 1 1 3 6 (2) 9 -61.3%
+(+) Interest and Fees on Debt (2) (4) (4) (5) (38) (4) (22) (79) (3) (3) (0) (4) (32) (2) (26) (71) -10.3%
+(+) Monetary and Exchange Variations
+ (9) (16) (11) (8) (65) (15) (52) (176) (11) (22) (16) (13) (89) (15) (19) (184) 4.7%
+(+) CVA Charges (62) (97) (90) (49) (172) (67) (379) (916) (93) (147) (106) (62) (255) (77) (431) (1,171) 28%
+(+) Interest on Debt - - - - (72) - 9 (62) - - - - - - - - -100.0%
+(+) Present Value Adjustment on Debt (62) (97) (90) (49) (244) (67) (370) (979) (93) (147) (106) (62) (255) (77) (431) (1,171) 20%
+∆% 49.9% 51.6% 17.7% 27.6% 4.6% 15.3% 16.3% 19.6%
+1Q24 1Q25
+Net Income ∆%
+R$ million MA PA PI AL CEEE-D CEA GO Total MA PA PI AL CEEE-D CEA GO Total Total
+(+) Net Income 155 430 65 106 33 (22) (59) 708 142 393 47 56 (3) 8 2 645 -9%
+(+) EBITDA Adjustments (Net of Taxes) 3 - 2 - 13 12 41 71 (8) 6 1 18 - - - 17 -75.5%
+(+) IR and CSLL Effect (1) - (1) - 20 (4) (17) (2) 16 19 (0) 14 - - - 49 -2127.8%
+(+) Financial Results Adjustments - - - - (72) - 9 (62) - - - - - - - - -100.0%
+(+) Net VNR from IR and CSLL (40) (67) (2) (2) (7) (0) (15) (132) (67) (100) (4) (3) (25) (2) (26) (227) 71.2%
+(=) Adjusted Net Income 118 363 65 103 (13) (14) (41) 582 84 318 44 85 (29) 6 (24) 485 -17%
+∆% -29.0% -12.5% -32.0% -17.6% 124.7% -141.4% -41.8% -16.7%
+1Q24 1Q25
+Investment on Distribution ∆%
+R$ million MA PA PI AL RS AP GO Total MA PA PI AL RS AP GO Total Total
+Electrical Assets 207 350 104 90 114 57 323 1,245 275 433 161 151 287 51 448 1,806 45.0%
+Special Obligations 6 160 23 1 3 28 29- 192 11 253 19 2 - 24 8 318 65.4%
+Non-Electrical Assets 8 10 5 8 10 3 29 73 20 34 11 7 21 7 30 129 76.6%
+Total 220 521 132 99 127 88 323 1,510 307 720 190 160 308 82 486 2,252 49%
+∆% 39.3% 38.2% 44.2% 61.2% 142.7% -6.7% 50.2% 49.1%
+1Q24 1Q25
+
+[p. 58]
+TRANSMISSION 
+FINANCIAL PERFORMANCE*4 
+ 
+ 
+The regulatory result for 1Q25 brought net revenue of R$ 264.9 million, a reduction of 12.5% compared to 1Q24, 
+due to the sale of SPE 7. 
+Operating costs and expenses totaled R$ 18.2 million, in line with the same period of the previous year. 
+Regulatory EBITDA reached R$ 246.7 million, with an EBITDA margin of 93.1%. 
+It is worth noting that, in a same-assets view (excluding SPE 7 from 1Q24), EBITDA for 1Q24 would be R$ 256.6 million, 
+and the variation in EBITDA between quarters would be -3.9%, reflecting the higher variable portion in the quarter.
+
+[p. 59]
+In the table below, we present the income statement of the transmission segment, from IFRS to regulatory, of the 
+SPEs consolidated by Equatorial Transmissão. 
+ 
+ 
+RENEWABLES 
+OPERATIONAL PERFORMANCE 
+GENERATION 
+The operational information was disclosed in the company's operational release. To access the document, click here.
+
+[p. 60]
+Below, we highlight the main variations between periods for wind and solar farms : 
+ 
+ 
+AVERAGE WIND – AVERAGE WIND - WIND PORTFOLIO (m/s) TOTAL GENERATION - WIND PORTFOLIO 
+(GWh) 
+1Q25 was marked by wind speeds within the climatological average in most of the Northeast, with some areas of the 
+states of Maranhão, Piauí, Ceará, Rio Grande do Norte, Pernambuco and Bahia recording positive anomalies. 
+Compared to 1Q24, the average wind s peed in Echoenergia complexes increased by 11.7%, due to some parks 
+presented a wind resource above the climatological average. 
+The adjacent figure illustrates wind anomalies in 1Q25 compared to the long -term 
+average, highlighting the positive climate impact on some of Echoenergia's complexes. 
+As a result, this quarter's performance was closer to the P50 level than observed in 
+1Q24. 
+The following charts show Echoenergia's wind and solar energy generation over recent 
+months, along with the outlook for 1Q25, compared to the company’s revised annual 
+P50 and P90 estimates issued at the beginning of 2024 . It is worth noting that these 
+300
+500
+700
+900
+1.100
+1.300
+1.500
+1.700
+1T 2T 3T 4T
+2019 2020 2021 2022 2023 2024 2025
+5,50
+6,00
+6,50
+7,00
+7,50
+8,00
+8,50
+9,00
+9,50
+1T 2T 3T 4T
+2019 2020 2021 2022 2023 2024 2025
+1Q24 1Q25 ∆% ∆ 1Q24 1Q25 ∆% ∆
+Ventos de Tianguá 117.4 101.4 -13.6% -16.0 6.8 7.3 7.5% 0.5
+Serra do Mel 1 e 2 299.9 384.8 28.3% 84.9 6.2 7.0 12.5% 0.8
+Echo 1, 2, 4 e 5 207.6 256.0 23.3% 48.4 6.4 7.5 16.2% 1.0
+Ventos de São Clemente 193.6 179.1 -7.5% -14.5 6.8 7.2 6.0% 0.4
+Eolic Portfolio 818.5 921.3 12.6% 102.8 6.5 7.2 11.7% 0.8
+1Q24 1Q25 ∆% ∆ 1Q24 1Q25 ∆% ∆
+Ribeiro Gonçalves - 71.7 - - - 227.5 - -
+Barreiras - 176.0 - - - 296.4 - -
+Solar Portfolio - 247.7 - - - 269.6 - -
+Solar Complexes Generation (GWh) Average Irradiance (W/m2)
+Eolic Complexes Generation (GWh) Wind (m/s)
+
+[p. 61]
+energy production estimates are considered robust, as the studies were prepared using consolidated methodologies 
+in the market and are based on operational data for all complexes. 
+ 
+ 
+1 The values presented consider only months of full operation, that is, from the month following the COD of each plant onwards.
+
+[p. 62]
+CONSTRAINED-OFF 
+After the event on August 15, 2023, which resulted in the partial shutdown of the National Interconnected System 
+(SIN), the National System Operator (ONS) implemented changes to the system's operating mode that caused sig-
+nificant generation restrictions (known as "constrained-off") for renewable energy generation agents in the North-
+east. Among the changes, the reduction of energy export limits from the Northeast to the Southeast/Central -West 
+and the North stands out. Historically, until the date of the even t, Echoenergia had experienced limited and, there-
+fore, negligible impacts due to the constrained -off. However, after the date of the event, the company was mainly 
+affected in its wind projects in Serra do Mel and Tianguá and solar projects in Ribeiro Gonça lves and Barreiras. 
+In 1Q25, energy losses totaled 169.7 GWh (12.7%), with greater relevance for the Serra do Mel wind farm with 30.3 
+GWh (7.1%) and for the Barreiras and Ribeiro Gonçalves solar farms, with 47.9 GWh (20.9%) and 39.2 GWh (34.8%) 
+respectively. Despite this, it is important to mention that as of the middle of the second half of 2024, the ONS im-
+plemented changes in the control criteria, new transmission lines came into operation and there was progress in 
+meeting the RAP requirements by the age nts. Additionally, it is worth highlighting that in March of this year, the 
+CMSE (Electric Sector Monitoring Committee) established the working group for joint action between the MME, 
+ANEEL, EPE, ONS and CCEE, with the objective of proposing planning, regu latory and operational measures to miti-
+gate generation cuts. Finally, Echoenergia has been actively working in collaboration with industry associations to 
+minimize the impact of the constrained-off on its portfolio.
+
+[p. 63]
+FINANCIAL PERFORMANCE 
+ 
+ 
+GROSS PROFIT - ECHOENERGIA 
+Echoenergia's Gross Profit from Energy was R$ 266.3 million in 1Q25, an increase of 36.3% when compared to the 
+same period last year, or R$ 71.0 million. The increase is mainly explained by the start of operations of the solar 
+complexes, whose Gross Profit from Energy was R$ 63.4 million. The Gross Profit from Energy from wind assets was 
+R$ 202.9 million in 1Q25, an increase of 3.9% or R$ 7.5 million compared to 1Q24.
+
+[p. 64]
+OPERATIONAL COSTS AND EXPENSES - ECHOENERGIA 
+Echoenergia's operating costs and expenses totaled R$ 107.2 million in 1Q25, an increase of 34.3%, or R$ 27.4 million, 
+compared to 1Q24. The increase is explained by the start of operations of the Echo Crescimento solar complexes, 
+whose operating costs and expenses totaled R$ 23.2 million in the period. The operating costs and expenses of Echo 
+Participações, which concentrates the company's wind farms, were R$ 84.0 million in 1Q25, an increase of 4.4%, or 
+R$ 3.5 million, compared to 1Q24. Therefore, the main variations are due to: 
+ Increase in transmission charges by R$ 13.5 million due to the entry into operation of solar assets; 
+ Increase in personnel expenses by R$ 8.0 million, reflecting the increase in staff for solar operations and the 
+salary adjustment that occurred between periods; 
+ Increase in insurance expenses for solar assets by R$ 1.9 million; 
+ Increase in other expenses by R$ 3.0 million. 
+ It is worth noting that the OPEX reduction observed in the consolidated section of the document is a result of the 
+reclassification of transmission charges, energy purchase costs, and O&M accounts. However, when looking at the 
+overall set of operating costs and expenses , the costs and ex penses remained in line with the same period of the 
+previous year. 
+ 
+FINANCIAL RESULT - ECHOENERGIA 
+The financial result for 1Q25 was a negative R$ 157.0 million, representing a decline of R$ 84.8 million compared to 
+1Q24, mainly due to the financial expenses associated with the financing of the solar parks, which were not yet 
+operational in 1Q24.
+
+[p. 65]
+PROFORMA – ECHOENERGIA + EQUATORIAL RENOVÁVEIS 
+Below we present the economic and financial performance of Echoenergia in a pro forma view combining the result 
+of Equatorial Renováveis S.A. (formerly Solenergias), the group's commercialization vehicle, which is currently con-
+solidated, in the corporate view, under Equatorial Serviços. 
+ 
+ 
+To return to the summary, click here.
+
+[p. 66]
+SANITATION 
+OPERATIONAL AND COMERCIAL PERFORMANCE 
+ 
+ 
+The operational information was disclosed in the company's operational release. To access the document, click 
+here. 
+ 
+FINANCIAL PERFORMANCE 
+ 
+NET OPERATING REVENUE 
+In 4Q24, CSA's net operating revenue reached R$ 59.5 million, an increase of 46% compared to 1Q24. Excluding 
+construction revenue, the growth was R$ 3.7 million or 17.8%. Th is increase reflects progress in water metering 
+between periods, which raises the average tariff and, consequently, revenue, in addition to the growth in the number 
+of water (+18 thousand) and sewage (+8 thousand) customers. 
+Financial Statement 1Q24 1Q25 ∆% ∆
+R$ million
+Gross Operating Revenue 42.8 62.0 44.7% 19.2
+Water and Sewage Services 21.8 25.6 17.2% 3.8
+Construction Revenue 20.2 35.3 74.9% 15.1
+Other revenue 0.8 1.1 36.0% 0.3
+Deductions (2.1) (2.5) 18.5% -0.4
+Net Operating Revenue 40.8 59.5 46.1% 18.8
+Construction Costs (20.2) (35.3) 74.9% -15.1
+Operating Costs (26.0) (20.5) -20.9% 5.4
+Personnel (8.5) (4.7) -44.0% 3.7
+Material (2.3) (2.5) 7.1% -0.2
+Third Party Services (3.4) (4.0) 18.7% -0.6
+PDA (8.1) (6.0) -25.2% 2.0
+Others (3.5) (3.9) 10.4% -0.4
+Other Operational Revenues and Expenses (0.3) 0.6 -315.8% 0.8
+EBITDA (5.4) 3.7 -168.4% 9.1
+Depreciation and Amortization (0.5) (0.8) 57.8% -0.3
+Financial Result (44.3) (55.0) 24.2% -10.7
+Financial Revenues 3.0 1.3 -57.4% -1.7
+Financial Expenses (47.3) (56.3) 19.1% -9.0
+Taxes - - N/A 0.0
+Net Income (50.2) (52.1) 3.8% -1.9
+
+[p. 68]
+OPERATIONAL COSTS AND EXPENSES 
+The OPEX for the period reached R$ 15.1 million, a 15% decrease when compared to the same period of the previous 
+year, or R$ 2.6 million. 
+ 
+The PDA in the quarter reached R$ 6.0 million, an improvement of R$ 2.0 million compared to the same period of 
+the previous year. The PDA/GOR (excluding construction revenue) ratios were 22.6% in 1Q25 and 35.6% in 1Q24 ( -
+13.0 p.p.). 
+ 
+FINANCIAL RESULT 
+In 4Q24, the financial result was R$ 55.0 million, R$ 10.7 million worse than in 1Q24, impacted by lower cash availa-
+bility in the period, reflected in financial revenues, as well as the higher debt stock in the period. 
+To return to the summary, click here
+
+[p. 69]
+EQUATORIAL SERVIÇOS 
+ 
+FINANCIAL PERFORMANCE 
+The changes in revenue and costs of Equatorial Serviços are mainly impacted by the group's trading company, which 
+negotiates the energy contracts for Ribeiro Gonçalves and Barreiras I solar projects, resulting in higher sales revenue 
+and higher energy purchase costs in the period. 
+EBITDA for the period was R$ 23.8 million, while Adjusted EBITDA was -R$ 7.4 million. 
+To return to the summary, click here 
+ 
+Financial Statement 1Q24 1Q25 ∆% ∆
+R$ million
+Gross Operating Revenue 186.2 539.3 189.6% 353.1 
+Deductions (23.3) (62.0) 166.2% (38.7) 
+Net Operational Revenues 163.0 477.4 192.9% 314.4 
+Operational Costs (65.3) (395.6) 505.6% (330.3) 
+Operatinal Expenses (67.7) (58.1) -14.2% 9.6 
+EBITDA 30.0 23.7 -20.8% (6.3) 
+Margin EBITDA 18.4% 5.0% -73.0%
+(-/+) MtM Effect (Gains and Losses) (5.0) (31.2) 521.5% (26.2) 
+Adjusted EBITDA 25.0 (7.4) -129.7% (32.4) 
+D&A (2.7) (6.1) 127.8% (3.4) 
+EBIT 27.3 17.6 -35.5% (9.7) 
+Financial Results (4.9) (2.7) -45.0% 2.2 
+Equivalence - 1.2 N/A 1.2 
+Taxes (11.1) (16.0) 44.6% (4.9) 
+Net Profit 11.3 0.1 -99.4% (11.2)
+
+[p. 70]
+SERVICES PROVIDED BY THE INDEPENDENT AUDITOR 
+ 
+Finally, the Company did not engage Ernst & Young Auditores Independentes S/S Ltda., its external auditor, for any 
+services other than independent auditing and services required by ANEEL. The Company's engagement policy com-
+plies with principles that preserve the auditor’s independence, in accordance with current regulations, which primar-
+ily establish that the auditor must not audit their own work, perform management functions for their client, or pro-
+mote their client’s interests. 
+The following information was not reviewed by the independent auditors: i) operating data; ii) pro forma financial 
+information, as well as the comparison of this information with the corporate results for the period; and iii) manage-
+ment's expectations regarding the future performance of the companies. 
+ 
+To return to the summary, click here

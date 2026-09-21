@@ -1,0 +1,1474 @@
+[p. 1]
+1 
+Resultados 
+4T25 
+ 
+ 
+ 
+São Paulo, 03 de março de 2026. A RD Saúde (Raia Drogasil S.A. – B3: RADL3) anuncia seus resultados referentes ao 4º trimestre de 202 5 (4T25). As demonstrações 
+financeiras individuais e consolidadas da Companhia para os exercícios findos em 31 de dezembro de 2025 e de 2024 foram preparadas de acordo com as práticas 
+contábeis adotadas no Brasil, que compreendem as normas da Comissão de Valores Mobiliários (CVM), as Normas Bra sileiras de Contabilidade Técnica – Geral (NBC 
+TG) e os pronunciamentos do Comitê de Pronunciamentos Contábeis (CPC) e estão em conformidade com as normas internacionais de contabilidade (International 
+Financial Reporting Standards - IFRS) emitidas pelo In ternational Accounting Standards Board – IASB, e evidenciam todas as informações relevantes próprias das 
+demonstrações financeiras, e somente elas, as quais estão consistentes com as utilizadas pela Administração na sua gestão. Es tes demonstrativos são apr esentados 
+em Reais, e todas as taxas de crescimento, a menos que seja afirmado o contrário, referem -se ao mesmo período do ano anterior. 
+ 
+IFRS 16: Nossas demonstrações financeiras são preparadas em conformidade com o IFRS 16. Para melhor representar a realidade econômica do 
+negócio, os números deste relatório consideram o padrão pré-IFRS 16 com uma reconciliação em capítulo dedicado neste documento. 
+DESTAQUES CONSOLIDADOS: 
+› FARMÁCIAS: 3.547 unidades em operação, com 330 aberturas e 13 encerramentos no ano; 
+› RECEITA BRUTA: R$ 47,6 bi, R$ +5,8 bi e +13,9% vs. 2024 (+19,8% e MSSS de +14,5% 4T25, 11,4 pp vs. CMED); 
+› MARKET SHARE*: 19,5% de participação nacional no 4T25, +1,7 pp com ganhos em todas as regiões; 
+› DIGITAL: R$ 11,3 bi, +59,3% e participação no varejo de 29,3% no 4T25; 
+› EBITDA AJUSTADO: R$ 3,4 bi, +12,8% e margem de 7,1% (R$ 936 MM no 4T25, +38,2% e margem de 7,2%); 
+› LUCRO LÍQUIDO AJUSTADO**: R$ 1,3 bi, +4,3% e margem de 2,8% (R$ 362 MM no 4T25 e margem de 2,8%); 
+› FLUXO DE CAIXA: Fluxo de caixa livre positivo de R$ 198 MM, R$ 756 MM de consumo total em 2025; 
+› VENDA DA 4BIO: Melhora de estrutura de capital, margem e ROIC. 
+* No 4T25, alteramos a base de market share IQVIA, de Preço Fábrica para Preço Consumidor (CPP), para melhor refletir as dinâmicas de mercado. 
+** Inclui os efeitos da tributação das subvenções para investimentos, conforme a Lei 14.789/2023. 
+ 
+RADL3 
+R$ 24,48/ação 
+Fechamento: 02/mar/26 
+ 
+VALOR DE MERCADO 
+R$ 42,9 bilhões 
+ 
+TOTAL DE AÇÕES 
+1.752.367.344 
+ 
+CONTATOS RI: 
+Flávio Correia 
+André Stolfi 
+Victor Torres 
+Felipe Correa 
+ 
+ri.rdsaude.com.br 
+ri@rdsaude.com.br 
+ 
+ 
+ 
+Fato Relevante - Alienação da 4Bio: Em 03 de março de 2026 , foi celebrada a alienação de 100% do capital social da 4Bio, negócio de 
+medicamentos especiais da RD Saúde. As demonstrações financeiras deste documento ainda contemplam os resultados consolidados, com 
+capítulo dedicado detalhando a abertura dos números entre as unidades de negócio. 
+DESTAQUES DO VAREJO (ex-4Bio): 
+› RECEITA BRUTA: R$ 44,3 bi, R$ +5,9 bi e +15,6% vs. 2024 (+22,3% no 4T25); 
+› EBITDA AJUSTADO: R$ 3,3 bi, +13,2% e margem de 7,5% (R$ 924 MM no 4T25, +41,2% e margem de 7,6%); 
+› LUCRO LÍQUIDO AJUSTADO**: R$ 1,2 bi, margem de 2,7% (R$ 350 MM no 4T25 e margem de 2,9%) 
+ 
+Sumário (R$ mil) 2024 2025 4T24 1T25 2T25 3T25 4T25
+# de farmácias 3.230 3.547 3.230 3.301 3.371 3.453 3.547
+Aberturas orgânicas 300 330 96 75 70 88 97
+Fechamentos (23) (13) (5) (4) - (6) (3)
+# de funcionários 64.758 73.895 64.758 66.297 67.114 69.860 73.895
+# de farmacêuticos 12.894 14.377 12.894 13.462 13.734 13.981 14.377
+# de atendimentos (mil) 404.357 440.069 103.751 102.832 110.812 111.618 114.806
+# de clientes ativos (MM) 49,1 51,7 49,1 49,7 50,3 51,0 51,7
+Receita bruta 41.781.973 47.609.626 10.862.353 10.820.630 11.656.073 12.117.999 13.014.924
+Crescimento (a/a) +15,1% +13,9% +13,9% +10,8% +12,0% +12,7% +19,8%
+Lucro bruto 11.556.068 12.957.571 2.994.119 2.881.310 3.198.617 3.314.356 3.563.288
+% da receita bruta 27,7% 27,2% 27,6% 26,6% 27,4% 27,4% 27,4%
+EBITDA ajustado 2.992.482 3.374.770 677.521 644.092 885.011 909.252 936.414
+% da receita bruta 7,2% 7,1% 6,2% 6,0% 7,6% 7,5% 7,2%
+Lucro líquido ajustado 1.288.546 1.343.491 381.414 177.107 402.744 401.986 361.654
+% da receita bruta 3,1% 2,8% 3,5% 1,6% 3,5% 3,3% 2,8%
+Lucro líquido 1.275.031 1.362.494 351.476 181.125 400.855 476.078 304.437
+% da receita bruta 3,1% 2,9% 3,2% 1,7% 3,4% 3,9% 2,3%
+Fluxo de caixa livre 222.082 197.733 (175.013) (73.751) 36.899 647.824 (413.239)
+
+[p. 2]
+2 
+RESULTADOS 4T25 
+ 
+ 
+O ano de 2025 foi sem dúvida o mais desafiador da história recente da RD Saúde. O ambiente competitivo se intensificou, 
+com o avanço da concorrência digital em Perfumaria (HPC) e maior agressividade de concorrentes tradicionais. 
+Internamente, havíamos registrado, desde 2024, um aumento de turnover em lojas e centros de distribuição em um contexto 
+de quadro médio mais enxuto, algo especialmente sensível no varejo. Ao mesmo tempo, a transformação digital e as novas 
+iniciativas estratégicas em saúde aumentaram as despesas administrativas. Como resultado, começamos o ano com 
+crescimento de vendas em lojas maduras em um ritmo abaixo da inflação e com queda de aproximadamente 1 ponto 
+percentual na margem EBITDA. 
+Em janeiro de 2025, iniciou -se um novo ciclo de gestão, fruto de um processo de sucessão planejado ao longo dos últimos 
+três anos. A liderança executiva foi reformulada, com a nomeação de um novo CEO, de um COO e com a renovação de 
+posições-chave da alta adm inistração. A partir daí, conduzimos um processo amplo de recuperação de performance com 
+foco em execução e na obtenção de ganhos de eficiência, reposicionando a companhia para um novo ciclo de crescimento. 
+Investimos em preço e promoções para reforçar competitividade, preservando nossa rentabilidade geral , e reduzimos os 
+níveis de ruptura em farmácia. Também aumentamos o quadro médio nas farmácias de 15,9 para 16,8 pessoas por loja entre 
+o 4T24 e o 4T25 ao passo que fortalecemos o plano de carreira e as políticas de remuneração. A soma destas e outras 
+intervenções melhorou a experiencia do nosso cliente e a nossa proposta de valor. Em paralelo, fizemos ajustes relevantes 
+na estrutura administrativa e elevamos o rigor na alocação de recursos, estabelecendo prioridades claras de gestão e 
+descontinuando projetos e iniciativas distantes do core . Reforçamos o foco no nosso core business. O objetivo foi 
+inequívoco: proteger a proposta de valor no curto prazo, sem comprometer os ativos estratégicos que sustentam a criação 
+de valor de longo prazo da RD Saúde. 
+As mudanças implementadas ao longo de 2025, somadas ao avanço dos medicamentos GLP -1, nos permitiram acelerar o 
+ritmo de crescimento no segundo semestre. No 4T25, a receita consolidada cresceu 19,8%, com 22,3% no varejo (excluindo 
+4Bio) e 14,5% nas lojas maduras, um recorde histórico. A receita bruta foi de R$ 13,0 bilhões no trimestre, o EBITDA ajustado 
+totalizou R$ 936 milhões e a margem consolidada atingiu 7,2% (+1 ,0 pp), com 7,6% no varejo ( ex-4Bio), solidificando uma 
+melhora operacional relevante entre o primeiro e o segundo semestres. O lucro líquido ajustado no período foi de 
+R$ 362 milhões, com margem de 2,8%, +0,6 pp acima da margem normalizada do 4T24 (que exclui os ganhos pontuais 
+apontados naquele trimestre). 
+No consolidado de 2025, entregamos crescimento robusto com margens em linha com o ano anterior, compensando no 
+segundo semestre quase totalmente a pressão do primeiro. A receita bruta consolidada atin giu R$ 47,6 bilhões (+13,9%). O 
+EBITDA ajustado totalizou R$ 3,4 bilhões, com crescimento de 12,8% e margem consolidada de 7,1%, 0,1 pp abaixo do ano 
+anterior. O lucro líquido ajustado foi de R$ 1, 3 bilhão, com crescimento de 4,2% e margem consolidada de 2, 8%, em linha 
+com o resultado normalizado de 2024 (excluindo ganhos não recorrentes). Encerramos 2025 com ROIC de 17,1% (+0,4 pp), 
+fluxo de caixa livre estável em R$ 198 milhões, em que pese a pressão de capital de giro verificada no ano em função da 
+aceleração do crescimento, e com alavancagem de 1,2x. Considerando apenas o varejo (ex ‑4Bio), obtivemos crescimento 
+de receita de 15,6%, margem EBITDA de 7,5%, margem líquida de 2,8% e ROIC de 17,7%. 
+Nosso market share nacional alcançou 19,5% no 4T25, aumento de 1,7 pp em relação ao ano anterior, um crescimento 
+recorde, com ganhos sólidos em todos os mercados onde atuamos. Atendemos 51,7 milhões de clientes no ano, com 
+frequência média anual de 8,4x, totalizando mais de 440 milhões de transações. Além disso, nosso NPS lojas manteve o índice 
+91, reforçando a fortaleza de atendimento e de nossa marca. Mais do que a melhora dos indicadores, o segundo semestre 
+mostrou capacidade de ajuste, disciplina e foco em execução, revertendo o cenário observado no início de 2025 e 
+reforçando a consistência das entregas. 
+ 
+13,9%
+10,8%
+12,0% 12,7%
+19,8%
+4T24
+1T25
+2T25
+3T25
+4T25
+27,6%
+26,6%
+27,4%
+27,4% 27,4%
+4T24
+1T25
+2T25
+3T25
+4T25
+21,3%
+20,7%
+19,8% 19,8%
+20,2%
+4T24
+1T25
+2T25
+3T25
+4T25
+6,2%
+6,0%
+7,6% 7,5%
+7,2%
+4T24
+1T25
+2T25
+3T25
+4T25
+0,3% 0,3%
+0,5%
+0,7%
+1,7%
+4T24
+1T25
+2T25
+3T25
+4T25
+Mg. EBITDA Aj.
+% da receita bruta
+SG&A
+% da receita bruta
+Mg. Bruta
+% da receita bruta
+Cresc. Rec. Bruta
+Evolução YoY
+Ganhos Mkt. Share
+Evolução YoY, CPP
+ CARTA DA ADMINISTRAÇÃO
+
+[p. 3]
+3 
+RESULTADOS 4T25 
+ 
+O ajuste realizado no primeiro semestre permitiu simplificar e torn ar mais eficiente a nossa estrutura administrativa. 
+Revisamos processos, fortalecemos a autonomia das lideranças e eliminamos sobreposições , aumentando a agilidade de 
+decisão. Um destaque foi a reorganização da frente Digital, com squads atuando de forma mais descentralizada e 
+progressivamente integrada às áreas -fim, aproximando tecnologia, negócio e execução e elevando a produtividade no 
+desenvolvimento de software com o uso de Inteligência Artificial. Em paralelo, avançamos na rentabilização das investidas, 
+com ajustes de escopo e maior foco no curto prazo. Como consequência, reduzimos as despesas corporativas em relação à 
+receita bruta de 3,3% no 4T24 para 2,6% no 4T25 e reduzimos o G&A nominal de R$ 1,31 bilhão em 2024 para R$ 1,25 bilhão 
+em 2025, queda nominal de R$ 59,9 milhões. Esse ajuste melhora nossa eficiência para sustentar crescimento nos próximos 
+anos. 
+Também retomamos o crescimento em Perfumaria, categoria central para a proposta de valor da RD Saúde. HPC havia sido 
+o principal vetor de desaceleração no início do ano, com crescimento de 6,5% no 1T25 em um ambiente mais competitivo, 
+pressionado pelo avanço de marketplaces digitais e maior intensidade promocio nal da concorrência. Mesmo com esse 
+contexto, encerramos o 4T25 com crescimento de 17,9% na categoria e retomada de market share. Essa recuperação 
+decorreu de ações implementadas ao longo do ano, incluindo arquitetura mais competitiva de preço e promoções, reforço 
+de parcerias com a indústria, ativação promocional mais intensa em datas sazonais como Black Friday e Natal , além d e 
+comunicação mais ativa nas mídias sociais. Em paralelo, reforçamos a execução em loja, reconhecendo que a combinação 
+entre experiências física e digital é ainda mais fundamental em um ambiente com mais intensidade concorrencial. Isso nos 
+permitirá seguir navegando com um maior patamar de competitividade do que em anos anteriores. 
+A introdução de novos medicamentos da classe GLP -1, indicados para emagrecimento e diabetes , tornou-se um vetor 
+relevante de crescimento em medicamentos de prescrição. No 4T25, a categoria atingiu participaç ão de duplo dígito nas 
+vendas totais do varejo, com aumento de recorrência e maior participação do digital, gerando efeitos relevantes sobre o mix 
+e a margem bruta em função do alto ticket e da menor margem percentual. Vemos esse mercado com forte potencia l de 
+expansão nos próximos anos em função da sua baixa penetração (em torno de 1 milhão de unidades por mês), do lançamento 
+esperado de novas moléculas mais eficazes, e do fim da patente da semaglutida em 2026, que tem potencial de ampliar de 
+forma significativa o acesso por meio da introdução de produtos de menor preço. Vale ressaltar que a RD Saúde tem 
+participação de mercado em GLP-1 bem acima da média nacional, apoiada por capilaridade diferenciada junto às classes de 
+renda mais alta, pela superioridade dos nossos aplicativos, e pelo forte investimento em infraestrutura de cadeia fria nos 
+CDs, no transporte e nas lojas. Portanto, esperamos capturar de forma desproporcional também essa ampliação de 
+mercado. 
+Na cadeia logística, avançamos em eficiência sem comprometer o nível de serviço. No ano, reduzimos estoques em 5,7 dias 
+e o ciclo de caixa em 2, 8 dias, mitigando assim a pressão de capital de giro trazida pela aceleração do nosso ritmo de 
+crescimento. Inauguramos um novo centro de distribuição em Viana, no Espírito Santo, onde implementamos tecnologia de 
+automação de ponta, inédita na cadeia farmacêutica brasileira. Uma vez superada a nossa curva de aprendizagem , essa 
+tecnologia passará a ser incorporada progressivam ente nos demais CDs para elevar produtividade. Com um total de 15 
+centros de distribuição, viabilizamos abastecimento diário de mais de 80% do parque de lojas e sustentamos 
+simultaneamente expansão física e aceleração do digital, reforçando nossa capacidade operacional. 
+A omnicanalidade consolidou-se como a principal alavanca de conveniência e recorrência, refletindo a forma como o cliente 
+frequente já combina atendimento físico e digital. No 4T25, as vendas digitais atingiram 29,3% de participação e cresceram 
+78% vs. 4T24, sustentadas por experiência integrada, eficiência de last-mile e redução de fricções. Nossos aplicativos 
+alcançaram NPS 79, respondem por 82% das transações digitais, atraíram 8,9 milhões de MAUs e, somados ao canal web , 
+realizaram 82,6 milhões de transações em 2025. Em escala, se fosse uma rede independente, o canal digital se po sicionaria 
+como o quarto maior player do Brasil. Esse resultado, entretanto, depende diretamente das lojas, que viabilizam aquisição e 
+onboarding do cliente no digital e que ancoram o fulfillment: o compre e retire representa 70% de todas as vendas digitais, 
+e as entregas em até uma hora , que partem das lojas, representam outros 27%. Para reforçar essa integração entre canais, 
+concluímos em 2025 a migração tecnológica do Term inal de Relacionamento (TR), que passa a operar como plataforma de 
+entendimento de jornadas e apoio à decisão na relação farmacêutico -cliente, incorporando uma primeira camada de 
+inteligência artificial em benefício do cliente. 
+Em que pese o forte crescimento digital, seguimos mantendo a expansão física como pilar estrutural da estratégia. Em 2025, 
+mesmo diante de um cenário de consumo mais fraco e com juros elevados, aceleramos o ritmo de expansão, suportada pelo 
+envelhecimento secular da população, que gera um aumento estrutural da demanda por medicamentos, e pela oportunidade 
+de seguirmos ganhando participação de mercado, ainda em 19,5% em nível nacional. Vale ressaltar que as filiais abertas nos 
+últimos 12 meses projetam uma Taxa Interna de Retor no real, líquida de canibalização, acima de 25%. Esse retorno tem se 
+elevado com a integração omnicanal e com os ganhos de competitividade obtidos em 2025.
+
+[p. 4]
+4 
+RESULTADOS 4T25 
+ 
+Abrimos em 2025 um total de 330 novas unidades, e chegamos a 3.547 farmácias em 663 cidades brasileiras. A venda média 
+das lojas maduras atingiu R$ 1,14 milhões mensais no 4T25, refletindo nossa execução consistente em nível nacional, mesmo 
+diante de dinâmicas competitivas distintas. Mantivemos uma gestão ativa do portfólio: em 2025, encerramos 0,9% das lojas 
+em maturação, que consistiram em erros pontuais de expansão, mas também 0,3% das lojas maduras como parte de uma 
+estratégia ativa de otimização do portfólio por meio da transferência de vendas para unidades próximas, da eliminação de 
+custos fixos e da liberação de estoques e de ativos fixos para outras unidades . Essa expansão vem se concentrando em 
+cidades e bairros onde ainda temos baixa penetração, com aberturas em áreas de share elevado ocorrendo apenas em 
+situações excepcionais. 
+Mais do que tudo, nossa fortaleza está nas pessoas e na cultura. Valorizamos cuidado, diversidade, escuta ativa e 
+desenvolvimento contínuo para manter excelência de execução e crescimento sustentável. Em 2025, aprofundamos a 
+leitura de engajamento dos times e avançamos no fortalecimento da Proposta de Valor ao Colaborador (EVP), com foco em 
+qualidade de vida e redução de turnover. Mantivemos investimentos consistentes em formação e progressão de carreira, 
+com mais de 22 mil promoções, quase 7 milhões de hor as de treinamento e 100% da liderança operacional desenvolvida 
+internamente. Em paralelo, avançamos na construção de um ambiente de trabalho mais saudável e eficiente, com 
+simplificação de processos, revisão de rotinas, rollout completo da escala 5x2 e ampliação de benefícios voltados à saúde 
+física, mental e financeira, o que contribuiu para a redução do índice de rotatividade. Com 9 mil novas posições em 2025, a 
+RD Saúde segue sendo percebida como um espaço relevante de crescimento pessoal e profissional, conectado ao Propósito 
+de impactarmos positivamente a saúde das pessoas. 
+Seguimos focados na melhoria do ESG de forma alinhada à nossa estratégia, o que acreditamos ser um vetor de criação de 
+valor no longo prazo. Em Governança, seguimos ancorados em uma estrutura sólida, com gestão próxima e stewardship das 
+famílias fundadoras, além de reconhecimentos recorrentes em índices e avaliações externas. Nos pilares de Pessoas e 
+Negócios Mais Saudáveis , avançamos em diversidade, inclusão e capacitação, com destaque para liderança feminina e 
+fortalecimento contínuo da formação das equipes. No pilar Planeta Mais Saudável, atingimos antecipadamente a meta de 
+100% do abastecimento de energia elétrica proveniente de fontes renováveis, evoluímos na gestão de emissões e resíduos. 
+Essa atuação integrada reforça nossa convicção de que desempenho financeiro consistente e impacto positivo caminham 
+juntos. Compartilharemos mais detalhes no Relatório Anual e de Sustentabilidade, a ser publicado nos próximos meses. 
+Mais do que um ano de resultados, 2025 foi um ano de grandes aprendizados. Mesmo com a recuperação consistente que 
+obtivemos no segundo semestre, após um início de ano muito difícil, extraímos aprendizados importantes que nos servirão 
+para o futuro. Seguimos também convictos do nosso Propósito de contribuir para uma sociedade mais saudável e confiantes 
+de que a combinação de estratégia, pessoas e execução sustentará a trajetória de longo prazo da RD Saúde. 
+Por fim, agradecemos a cada colaborador que, em um contexto d e transformação e de decisões difíceis, manteve foco no 
+cliente, na ética e no compromisso com a execução. Agradecemos também a parceiros, fornecedores, investidores e demais 
+stakeholders que confiaram na companhia ao longo do ano. 
+TEMAS RELEVANTES PARA 2026 E PERSPECTIVAS 
+O direcionamento para 2026 parte de um princípio simples: investir de forma direcionada no que traz recorrência, no que tem 
+relevância para o cliente e no que alavanca o nosso retorno sobre o capital. O foco permanece no cliente fiel, ao mesmo tempo 
+em que aceleramos em segmentos com maior potencial de crescimento, como emagrecimento, beleza e bem-estar. A ambição 
+é aumentar “principalidade”, ou seja, ser a escolha preferida do cliente nesses segmentos, com propostas de valor claras, 
+execução consistente e relacionamento mais efetivo. A partir disso, definimos as seguintes prioridades para 2026. 
+Proposta de valor integrada, segmentação e principalidade 
+A escolha do cliente é resultado de uma combinação prática de preço, sortimento, atendimento, serviços, 
+conveniência e experiência. Em 2026, vamos tornar essa proposta de valor ainda mais robusta e personalizada, 
+concentrando investimentos nos atributos qu e mais pesam para cada público. Vamos usar a escuta contínua das 
+jornadas e dados estruturados para ajustar sortimento, políticas comerciais, benefícios e serviços. A personalização, 
+tanto no digital quanto na loja, será um meio para aumentar recorrência e fidelidade, com consistência de execução 
+como premissa.
+
+[p. 5]
+5 
+RESULTADOS 4T25 
+Categorias estratégicas, jornadas específicas e liderança em GLP-1 
+A gestão ativa de categorias seguirá como um vetor central de diferenciação e captura de valor. GLP -1 se consolidou 
+como uma das principais avenidas de crescimento em prescrição e já construímos vantagens operacionais e 
+infraestrutura para capturar esse movimento. Em 2026, com ampliação de acesso e entrada de novos produtos, o foco 
+será sustentar e aprofundar uma participação de mer cado acima da média da RD Saúde , ao mesmo tempo em que 
+evoluímos a proposta de valor para o público de emagrecimento, integrando maior experiência ao longo da jornada. A 
+mesma lógica será aplicada a outras categorias prioritárias. Marcas próprias ganharão maior peso, contribuindo para 
+diferenciação, fidelização e expansão de rentabilidade. 
+Crescimento cirúrgico, expansão disciplinada e novos formatos 
+A expansão orgânica seguirá como motor relevante, com rigor na alocação de capital e complementaridade 
+geográfica. Para 2026, planejamos abrir entre 330 e 350 novas farmácias, priorizando regiões e perfis de loja com maior 
+potencial de captura de valor. Em paralelo, vamos avançar de forma controlada na experimentação de um format o 
+complementar à farmácia tradicional, com ênfase em beleza e bem -estar, ampliando ocasiões de consumo e 
+qualificando a experiência. Esse formato será pensado para operar integrado à estratégia omnicanal, reforçando a loja 
+como ponto de contato e descoberta. 
+Tecnologia, dados e produtividade na execução 
+Tecnologia continuará sendo meio, e não fim, com foco em produtividade, eficiência e qualidade de execução. 
+Modelos analíticos, automação e inteligência artificial já têm gerado ganhos em lojas, logística e jornada omnicanal, 
+com impacto em ruptura, estoque, capital de giro e margens. Em 2026, vamos aprofundar aplicações de maior impacto 
+econômico e escalar o que funciona ao longo da cadeia de valor, de marketing e CRM a supply chain e operações. O 
+objetivo é aumentar previsibilidade, acelerar decisões e elevar a consistência de entrega da proposta de valor. A IA 
+será tratada como capacidade permanente, com governança, casos de uso priorizados e capacitação contínua para 
+transformar ganhos operacionais em vantagem competitiva. 
+Pessoas, cultura e disciplina operacional 
+Execução consistente depende da linha de frente. Em 2026, vamos continuar fortalecendo a proposta de valor para 
+colaboradores, com foco em desenvolvimento, bem -estar e produtividade. O farmacêutic o e as equipes de loja 
+seguem centrais para confiança, qualidade de atendimento e efetividade da proposta por segmento. Em paralelo, 
+vamos aprofundar disciplina de custos, simplificação de processos e ganhos de eficiência, garantindo que crescimento 
+venha acompanhado de retorno adequado sobre os recursos alocados. 
+Foco no Varejo Farmacêutico e Disciplina na Alocação de Capital 
+Em 03 de março de 2026, assinamos a venda da 4Bio para o Grupo Profarma . Adquirida em 2015, a 4Bio apresentou 
+uma forte trajetória de crescimento, com receita saltando de R$ 125 milhões para R$ 3,3 bilhões em 2025, alcançando 
+um EBITDA ajustado pré-IFRS16 de R$ 72 milhões e se consolidando como líder no varejo farmacêutico de 
+medicamentos especiais. 
+Não obstante o histórico positivo, a 4Bio deixou de se enquadrar na nossa estratégia, que vem reforçando o foco no 
+varejo. Nos últimos 2 anos, o mercado de atuação da 4Bio passou por mudanças estruturais relevantes, com dinâmica 
+comercial e patamares de margens e de retorno mais próximos à distribuição farmacêutica do que ao varejo, o que 
+reduziu o alinhamento do ativo com o nosso portfólio. Nesse contexto, avaliamos que deixamos de ser a proprietária 
+natural da empresa. 
+Essa transa ção trará para a RD Saúde cerca de R$ 700 milhões ao longo de 5 anos, corrigidos pelo CDI. Desde a 
+aquisição da 4Bio, desembolsamos aproximadamente R$ 400 milhões em termos nominais, incluindo tanto o preço da 
+aquisição como os aportes realizados para fina nciar o crescimento. Ao longo de toda a vida do investimento, 
+estimamos que a 4Bio terá gerado uma Taxa Interna de Retorno em torno de 17% para a RD Saúde. 
+Essa alienação reforçará também a nossa estrutura de capital, diminuirá as despesas líquidas de juro s e nos permitirá 
+operar com maior crescimento, rentabilidade e ROIC. Em 2026, seguiremos avaliando oportunidades adicionais de 
+otimização da alocação de capital, seja por meio da constante avaliação do portfólio de ativos, seja pela alocação em 
+projetos e iniciativas que ampliem e reforcem a geração de valor da Companhia.
+
+[p. 6]
+6 
+RESULTADOS 4T25 
+ 
+Em 03/mar/2026, assinamos contrato para a alienação de 100% da 4Bio Medicamentos Especiais S.A. (“4Bio”), subsidiária integral 
+da RD Saúde , para a Health Ventures S.A., empresa do Grupo Profarma. Para facilitar o entendimento dos impactos após a 
+conclusão da transação , demonstramos nas tabelas abaixo a DRE segmentada da 4Bio e do Varejo (ex -4Bio), bem como os 
+resultados ajustados combinados. Para maiores informações, visite o nosso site: ri.rdsaude.com.br. Ressaltamos que a transação 
+ainda não foi concluída e não há impacto às demonstrações financeiras em 31/dez/2025. 
+O valor base da transação foi de R$ 600 milhões, incluindo a manutenção na e mpresa de um caixa líquido no fechamento de 
+R$ 80 milhões, além de outros ajustes de capital de giro e de endividamento líquido usuais nesse tipo de transação. O montante 
+será pago em 6 parcelas, sendo: (i) R$ 100 milhões na data da assinatura do fechamento da operação; (ii) 5 parcelas anuais de 
+R$ 100 milhões corrigidas pelo CDI. Além disso, a RD Saúde mantém o direito a superveniências, incluindo R$ 120 milhões 
+(data-base 31/12/2025) relativos ao Difal, que já possui decisão favorável no Supremo Tribunal Federal. Por fim, a transação 
+gerará um ganho de Imposto de Renda na RD Saúde estimado em R$ 60 milhões, resultando em uma monetização total do ativo 
+em torno de R$ 700 milhões ao longo de 5 anos, corrigido pelo CDI. 
+ 
+ 
+ 
+ 
+4T24 1T25 2T25 3T25 4T25 2024 2025
+Receita bruta 10.862,4 10.820,6 11.656,1 12.118,0 13.014,9 41.782,0 47.609,6
+Cresc. a/a +13,9% +10,8% +12,0% +12,7% +19,8% +15,1% +13,9%
+Lucro bruto 2.994,1 2.881,3 3.198,6 3.314,4 3.563,3 11.556,1 12.957,6
+% receita bruta 27,6% 26,6% 27,4% 27,4% 27,4% 27,7% 27,2%
+Desp. c/ vendas (1.953,0) (1.933,9) (2.015,2) (2.094,9) (2.290,2) (7.255,2) (8.334,2)
+% receita bruta -18,0% -17,9% -17,3% -17,3% -17,6% -17,4% -17,5%
+Desp. G&A (363,5) (303,4) (298,4) (310,2) (336,7) (1.308,4) (1.248,6)
+% receita bruta -3,3% -2,8% -2,6% -2,6% -2,6% -3,1% -2,6%
+EBITDA Aj. 677,5 644,1 885,0 909,3 936,4 2.992,5 3.374,8
+% receita bruta 6,2% 6,0% 7,6% 7,5% 7,2% 7,2% 7,1%
+D&A (238,3) (248,4) (252,7) (266,0) (275,9) (909,9) (1.042,8)
+Resultado Financeiro (114,4) (175,6) (201,9) (190,3) (252,4) (554,3) (820,1)
+Equivalência Patrimonial 2,5 (1,4) (0,5) 1,0 2,7 4,3 1,8
+IR/CSLL 54,2 (41,6) (27,3) (52,0) (49,2) (244,1) (170,1)
+Lucro líquido Aj. 381,4 177,1 402,7 402,0 361,7 1.288,5 1.343,5
+% receita bruta 3,5% 1,6% 3,5% 3,3% 2,8% 3,1% 2,8%
+DRE Ajustada
+(R$ milhões)
+Consolidado (Atual)
+4T24 1T25 2T25 3T25 4T25 2024 2025
+Receita bruta 900,9 872,7 852,1 770,1 828,2 3.455,9 3.323,0
+Cresc. a/a +22,5% +12,1% +0,2% -16,8% -8,1% +25,3% -3,8%
+Lucro bruto 71,4 61,2 64,8 57,1 54,7 239,2 237,7
+% receita bruta 7,9% 7,0% 7,6% 7,4% 6,6% 6,9% 7,2%
+Desp. c/ vendas (32,9) (31,4) (32,4) (30,2) (31,3) (120,6) (125,3)
+% receita bruta -3,7% -3,6% -3,8% -3,9% -3,8% -3,5% -3,8%
+Desp. G&A (15,7) (8,9) (10,4) (10,3) (11,2) (44,7) (40,8)
+% receita bruta -1,7% -1,0% -1,2% -1,3% -1,4% -1,3% -1,2%
+EBITDA Aj. 22,8 20,9 22,0 16,7 12,1 73,9 71,7
+% receita bruta 2,5% 2,4% 2,6% 2,2% 1,5% 2,1% 2,2%
+D&A (1,1) (1,1) (1,2) (1,2) (1,2) (4,4) (4,6)
+Resultado Financeiro 3,6 3,2 2,2 20,6 1,4 (8,8) 27,4
+Equivalência Patrimonial 0,0 0,0 0,0 0,0 0,0 0,0 0,0
+IR/CSLL 33,0 (8,1) 35,7 19,1 (0,8) 25,9 45,9
+Lucro líquido Aj. 58,3 15,0 58,7 55,2 11,5 86,5 140,4
+% receita bruta 6,5% 1,7% 6,9% 7,2% 1,4% 2,5% 4,2%
+DRE Ajustada
+(R$ milhões)
+4Bio + Intercompany
+4T24 1T25 2T25 3T25 4T25 2024 2025
+Receita bruta 9.961,4 9.947,9 10.804,0 11.347,9 12.186,8 38.326,1 44.286,6
+Cresc. a/a +13,2% +10,7% +13,1% +15,5% +22,3% +14,3% +15,6%
+Lucro bruto 2.922,7 2.820,1 3.133,8 3.257,3 3.508,6 11.316,9 12.719,8
+% receita bruta 29,3% 28,3% 29,0% 28,7% 28,8% 29,5% 28,7%
+Desp. c/ vendas (1.920,1) (1.902,5) (1.982,9) (2.064,8) (2.258,9) (7.134,6) (8.208,9)
+% receita bruta -19,3% -19,1% -18,4% -18,2% -18,5% -18,6% -18,5%
+Desp. G&A (347,8) (294,5) (288,0) (299,9) (325,4) (1.263,7) (1.207,8)
+% receita bruta -3,5% -3,0% -2,7% -2,6% -2,7% -3,3% -2,7%
+EBITDA Aj. 654,7 623,2 863,0 892,6 924,3 2.918,6 3.303,1
+% receita bruta 6,6% 6,3% 8,0% 7,9% 7,6% 7,6% 7,5%
+D&A (237,2) (247,2) (251,5) (264,8) (274,7) (905,4) (1.038,2)
+Resultado Financeiro (118,0) (178,8) (204,0) (210,9) (253,8) (545,4) (847,6)
+Equivalência Patrimonial 2,5 (1,4) (0,5) 1,0 2,7 4,3 1,8
+IR/CSLL 21,1 (33,5) (63,0) (71,1) (48,4) (270,0) (216,1)
+Lucro líquido Aj. 323,1 162,1 344,0 346,8 350,1 1.202,0 1.203,0
+% receita bruta 3,2% 1,6% 3,2% 3,1% 2,9% 3,1% 2,7%
+DRE Ajustada
+(R$ milhões)
+Novo Consolidado (Ex-4Bio + Intercompany)
+ DESINVESTIMENTO DA 4BIO – FATO RELEVANTE
+
+[p. 7]
+7 
+RESULTADOS 4T25 
+ 
+ 
+ 
+Encerramos 2025 com um total de 3. 547 farmácias em operação , inaugurando 330 novas unidades no ano (97 no 4T25) , 
+cumprindo o guidance estabelecido. Para 2026 reafirmamos nosso guidance de 330 a 350 aberturas brutas. 
+Encerramos 13 farmácias no ano (3 no 4T25), sendo a penas 3 delas unidades em maturação . Isso equivale a uma taxa de erro 
+inferior a 1% das aberturas LTM, resultado da assertividade do processo de expansão orgânica da rede. Os demais 10 
+encerramentos foram de farmácias com média de 1 9 anos de operação, resultantes da otimização do portfólio. Esses 
+fechamentos transferem vendas para outras unidades próximas, liberam ativos para realocação e reduzem custos fixos, 
+beneficiando assim o EBITDA e o ROIC da Companhia. 
+Ao final de 2025, um total de 25,3% das farmácias RD Saúde ainda se encontravam em fase de maturação, sem terem alcançado 
+todo o potencial de receita e rentabilidade. 
+ 
+Nossa expansão continua diversificando nossa rede de farmácias, tanto geograficamente quanto demograficamente. 
+Estendemos nossa presença para 663 cidades em todos os estados, +44 a vs. o 4T24, uma capilaridade única no varejo brasileiro. 
+Mantivemos um ritmo consistente de expansão em São Paulo, nosso principal mercado, acumulando um terço do nosso plano 
+de expansão do último ano. Mesmo com nossa ampla presença no estado, continuamos identificando oportunidades relevantes 
+e observando desempenho sólido das lojas recém‑inauguradas, reforçando o potencial para avançarmos de maneira rentável em 
+todo o País. 
+Por fim, a TIR das novas lojas vem se elevando, refletindo uma maior assertividade da expansão, com destaque para os ganhos 
+recentes de eficiência obtidos na operação, da omnicanalidade, o avanço dos medicamentos GLP-1, entre outros. 
+74,5% 74,4% 74,7% 74,4% 74,7%
+7,9% 7,8% 7,7% 7,7% 7,6%
+8,3% 8,3% 8,3% 8,4% 8,4%
+9,3% 9,5% 9,3% 9,5% 9,3%
+4T24 1T25 2T25 3T25 4T25
+Madura Ano 3 Ano 2 Ano 1
+4T24 1T25 2T25 3T25 4T25 LTM
+Aberturas brutas +96 +75 +70 +88 +97 +330
+Fechamentos -5 -4 - -6 -3 -13
+- Em maturação - -2 - - -1 -3
+- Maduras -5 -2 - -6 -2 -10
+Aberturas líquidas +91 +71 +70 +82 +94 +317
+3.230
+3.301
+3.371
+3.453
+3.547
+4T24 1T25 2T25 3T25 4T25
+Número de farmácias Portfólio de farmácias
+Distribuição etária
+540
+574
+619
+663
+4T22 4T23 4T24 4T25
+34%
+20% 16% 22%
+38%
+46%
+62% 68% 64%
+47%
+20% 18% 16% 14% 15%
+4T22 4T23 4T24 4T25 4T25
+Nobre Híbrida Popular
+Aberturas nos últimos 12 meses Rede
+atual
+12% 4% 6% 5% 4%
+19%
+19% 15% 17% 15%
+15%
+12% 12% 16%
+11%
+15%
+23%
+15%
+20%
+17%
+20% 17%
+17%
+8%
+13%
+20% 26% 35% 33% 40%
+4T22 4T23 4T24 4T25 4T25
+Norte Nordeste Centro Oeste
+Sudeste Sul São Paulo
+Aberturas nos últimos 12 meses Rede
+atual
+Farmácias por perfilQtd. de municípios com farmácia Farmácias por região
+ EXPANSÃO DA REDE
+
+[p. 8]
+8 
+RESULTADOS 4T25 
+ 
+Nossas 3,5 mil farmácias estão presentes em todos os estados do País e são suportadas por uma rede integrada de 15 centros de 
+distribuição. Essa malha logística permite um atendimento diário de mais de 80% das unidades com lead time de até 24h. Como 
+resultado, elevamos o nível de serviço, otimizamos o capital de giro e fortalecemos a eficiência operacional, o que se config ura 
+como uma importante vantagem competitiva. 
+A partir desse trimestre passamos a reportar o nosso market share na base IQVIA Preço Consumidor (CPP), e não mais na base 
+preço de fábrica. Para efeito de comparabilidade , incluímos também a métrica antiga. Embora pouco afete a evolução anual, 
+essa métrica representa melhor o nosso patamar absoluto de participação de mercado. 
+Já considerando o CPP , nossa participação de mercado nacional atingiu 19,5%, um forte ganho de +1,7 pp vs. o ano anterior, 
+representando uma aceleração sequencial frente ao incremento robusto de +0,7 pp visto no 3T25. Além disso, registramos 
+ganhos relevantes em todas as regiões , evidenciando nossa capacidade competitiva nos mais variados contextos e praças. 
+Registramos participações de 34,2% em São Paulo (+3,0 pp), de 14,4% no Sudeste (+1,3 pp), de 24,8% no Centro Oeste (+2,3 pp), 
+de 11,4% no Sul (+0,5 pp), de 14,2% no Nordeste (+1,0 pp) e 12,3% no Norte (+1,4 pp). 
+Salientamos que também evidenciamos ganhos expressivos de market share em todas as regiões , mesmo quando 
+desconsideramos os medicamentos GLP-1 e sua influência positiva na nossa base. 
+ 
+ 
+17,8%
+31,2%
+13,1%
+22,5%
+10,9%
+13,2%
+10,9%
+19,5%
+34,2%
+14,4%
+24,8%
+11,4%
+14,2%
+12,3%
+16,2%
+29,1%
+11,8%
+19,4%
+10,4%
+11,5%
+9,6%
+18,0%
+32,1%
+13,9%
+22,1%
+11,0%
+12,4%
+10,9%
+Brasil SP Sudeste Centro
+Oeste
+Sul Nordeste Norte
+4T24 4T25
+Presença geográfica Participação de mercado
+Varejo, preço consumidor e preço fábrica, sell-out + sell-in
+Total: 3.547 farmácias
+Raia: 1.455
+Drogasil: 2.092
+CDs: 15
+PE: 117
+SC: 112
+DF: 116
+GO: 156
+PR: 201
+RS: 137
+MG: 249
+MT: 56
+SP: 1.415
+MS: 68
+BA: 128
+ES: 77
+RJ: 263
+AL: 26
+SE: 32
+PB: 30
+RN: 33
+CE: 108
+PI: 24
+MA: 44
+TO: 29
+PA: 59
+RO: 20
+AM: 30
+AC: 7
+RR: 5
+AP: 5
+Preço consumidor (novo) Preço fábrica (antigo)
+Fonte: IQVIA. Sudeste exclui SP.
++59%
+vs. 2024
+C&R
+70%
+Até 
+60 min
+21%
+D+N
+3%
+Super 
+apps
+5%
+App
+82%
+Mobile site
+6%
+Social
+2%
+Desktop
+5%
+Super 
+apps
+5%
+Canais digitais: venda e penetração
+R$ milhões, % da receita bruta do varejo
+Mix das entregasMix de canais digitais
+% da receita digital, 4T25 % da receita digital, 4T25
+* Call center < 1% do mix de canais.
+Receita canais digitais
+Participação app nas vendas
+Penetração no varejo
+NPS app
+75 78 79 79 79
+4T24 1T25 2T25 3T25 4T25
+NPS entregas
+78
+81 82 83
+81
+4T24 1T25 2T25 3T25 4T25
++78%
+vs. 4T24
+97%
+entregues/coletados 
+em até 60 min
+*
+95%
+canais modernos 
+e proprietários
+C&R, Entrega e SAC
+7.106
+11.321
+2.000 2.162
+2.587
+3.018
+3.554
+74%
+80%
+76% 78%
+79%
+81%
+82%18,6%
+25,7%
+20,2%
+21,8%
+24,1%
+26,7%
+29,3%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+ DIGITALIZAÇÃO, SAÚDE E ENGAJAMENTO DO CLIENTE
+
+[p. 9]
+9 
+RESULTADOS 4T25 
+Seguimos avançando em nossa estratégia digital, fortalecendo ainda mais a relação com o cliente. No 4T25, registramos 
+263 milhões de acessos aos canais digitais, uma audiência de impacto que potencializa nosso papel na promoção de saúde. Além 
+disso, a digitalização amplifica o gasto por cliente, com os clientes assíduos digitalizados gasta ndo 26% a mais do que a média 
+dos assíduos. 
+Assim, alcançamos n o ano R $ 11,3 bilhões de receita bruta nos canais digitais (R$ 3,5 bilhões no 4T2 5), o que representa um 
+aumento absoluto de R$ 4,2 bilhões e um crescimento de +59% em comparação ao ano anterior ( +78% no 4T25). Considerado 
+isoladamente, nosso digital equivaleria a 4ª maior rede farmacêutica do Brasil. 
+A participação desses canais atingiu 25,7% do varejo (29,3% no 4T2 5), um avanço de +7,1 pp vs. 2024 ( +9,1 pp no 4T25). Esse 
+avanço, que ficou ain da mais intenso no 4T25, deve-se principalmente ao aumento das vendas de medicamentos GLP‑1, que 
+têm uma forte concentração de vendas nos canais digitais, mas também à Black Friday, que executamos com maior intensidade 
+vs. 2024, beneficiando o desempenho de novembro. 
+Destacamos o uso crescente dos nossos apps pelos clientes, garantindo que tenham a melhor experiência mobile especializada 
+para jornadas omnicanal em saúde e bem-estar. As vendas digitais através deste canal cresceram +92% vs. o 4T24, alcançando 
+82% (+6 pp) de participação nas vendas digitais do trimestre. 
+Essa evolução na digitalização dos nossos clientes, aproveitando nossos canais modernos e proprietários, é reflexo da melhoria 
+contínua da experiência mobile e de uma jornada cada vez mais completa e omnicanal em saúde integral que alavanca a 
+capilaridade da no ssa rede de farmácias que tem 95% da população classe A dentro de um raio de 1,5 km. Essa proximidade 
+crescente, potencializada por nossa expansão orgânica rentável , consiste em outra importante vantagem competitiva ao 
+permitir que 97% das vendas digitais sejam entregues ou coletadas em menos de 60 minutos com alta eficiência econômica. 
+Outro elo importante na relação com nossos clientes é o Stix, principal ecossistema de fidelidade do País. Ele se apoia em ma is 
+de 9 mil pontos de venda das marcas Drogasil, Raia, Pão de Açúcar, Extra Mercado, Shell, Sodimac e a recém-integrada Petlove, 
+além de incluir os parceiros financeiros Livelo e Itaú. Stix encerrou o ano com 15,3 milhões de clientes, um crescimento relevante 
+de 36%, tendo 88% deles ativos. No período, o programa sustentou um patamar de 97% d os pontos resgatados em um volume 
+de 92 milhões de transações, em linha com o propósito de ser “o ponto para usar de verdade” com benefício percebido pelos 
+clientes dos varejistas parceiros. Além disso, 47% dos clientes acumularam e/ou resgataram pontos em dois ou mais parceiros, 
+reforçando o poder multiplicativo dentro da coalizão Stix. 
+Por fim, seguimos fortalecendo o papel das nossas farmácias na jornada de saúde integral dos clientes, posicionando ‑as como 
+hubs de saúde nas comunidades em que atuam e ampliando os vínculos por meio dos serviços farmacêuticos. Já contamos com 
+2,8 mil unidades com salas Mais Saúde e seu portfólio expandido de serviços, além de 426 unidades com salas de vacinação. Em 
+2025, foram realizados mais de 7 milhões de atendimentos farmacêuticos entre EACs (exames de análises clínicas), aplicações 
+de vacinas e outros serviços, com NPS superior à média das farmácias. 
+ 
+ 
+Encerramos 2025 com receita bruta de R$ 47.610 milhões, um crescimento consolidado de 13,9% em relação ao ano anterior, 
+incluindo um efeito calendário negativo de -0,2 pp. Nas operações de varejo (ex-4Bio), o crescimento foi de 15,6% no ano , 
+enquanto na 4Bio tivemos decréscimo de 3,8% no ano, gerando uma pressão de 1,7 pp no consolidado. 
+Ano: +11,2%
+4T: +15,1%
+Ano: +18,6%
+4T: +20,3%
+Ano: +20,8%
+4T: +30,7%
+2025 vs. 2024
+Marca Genéricos OTC Perfumaria
+*
+Ano: +11,0%
+4T: +17,9%
+* Serviços.
+Receita bruta consolidada
+R$ milhões
+Mix de vendas do varejo
+2025 vs. 2024
+Ano: +11,0%
+4T: +17,9%
+Consol.
+Ano: +13,9%
+4T: +19,8%
+Ex-4Bio
+Ano: +15,6%
+4T: +22,3%
+4Bio
+Ano: -3,8%
+4T: -8,1%
+3.456 3.323 901 873 852 770 828
+38.326
+44.286
+9.961 9.948 10.804 11.348
+12.187
+41.782
+47.610
+10.862 10.821
+11.656 12.118
+13.015
+2024 2025 4T24 1T25 2T25 3T25 4T25
+42,1% 43,8% 42,5% 42,4% 43,2% 44,1% 45,2%
+12,2% 12,5% 12,3% 12,5% 12,8% 12,6% 12,0%
+20,5% 19,6% 19,8% 19,8% 20,7% 19,8% 18,5%
+25,0% 23,9% 25,1% 25,2% 23,2% 23,3% 24,1%
+0,2% 0,2% 0,2% 0,2% 0,2% 0,2% 0,2%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+ RECEITA BRUTA
+
+[p. 10]
+10 
+RESULTADOS 4T25 
+No 4T25, atingimos R$ 13.015 milhões no consolidado, crescendo +19,8% em relação ao mesmo período do ano anterior, incluindo 
+um efeito calendário positivo de +0,5 pp. Ex-4Bio, nossa receita totalizou R$ 12.187 milhões, um crescimento de +22,3%, 
+enquanto a 4Bio registrou R$ 828 milhões, com decréscimo de 8,1% e gerando uma pressão de 2,5 pp no consolidado. 
+Entre as categorias, Medicamentos de Marca cresceram +20,8% no ano com aceleração para +30,7% no 4T25, puxados por itens 
+GLP-1 que atingiram duplo dígito das vendas no trimestre. Medicamentos Genéricos cresceram +18,6% no ano e aceleraram para 
++20,3% no 4T25 pela expiração recente de algumas patentes . No autosserviço, os resultados também foram positivos: OTC 
+avançou +11,2% no ano e acelerou para +15,1% no 4T25, enquanto Perfumaria cresceu +11,2% no ano e acelerou para +17,9% no 
+4T25, revertendo a baixa performance registrada no início do ano, beneficiada pelos investimentos feitos em competitividade e 
+por uma maior intensidade na execução da Black Friday. 
+ 
+Por fim, observamos um crescimento médio de +9,7% nas mesmas lojas em 2025, com forte aceleração para +16,3% no 4T25, 
+registrando avanços em todas as categorias de produtos. Considerando as lojas maduras, com pelo menos 3 anos completos em 
+operação, registramos um crescimento médio de +7,8% em 2025, com aceleração para +14,5% no 4T25, um ritmo 11,4 pp acima 
+do reajuste de medicamentos CMED de 3,1% autorizado em 2025 e 10,2 pp acima do IPCA do ano. 
+ 
+ 
+O lucro bruto totalizou R$ 12.957,6 milhões em 2025 (R$ 3.563,3 milhões no 4T25), equivalente a uma margem bruta de 27,2% 
+(27,4% no 4T25). 
+Registramos uma retração da margem bruta anual de 0,5 pp vs. 2024, incluindo pressões de 0,5 pp pelo maior mix de itens GLP-1 
+nas vendas, de 0,1 pp em maiores perdas de estoque, e de 0,1 pp pelo menor ganho inflacionário sobre os estoques no 2T25, além 
+de 0,3 pp em outros efeitos, incluindo investimentos em competitividade desde o início do ano . Esses investimentos foram 
+parcialmente compensados em 0,3 pp pelo menor mix de vendas da 4Bio no consolidado, em 0,1 pp pelo maior Ajuste a Valor 
+Presente (AVP), e em 0,1 pp em outros efeitos. 
+Registramos no 4T25 uma contração de apenas 0,2 pp, incluindo uma pressão de 0,7 pp pelo efeito mix de GLP -1 nas vendas, 
+parcialmente compensada por ganhos de 0,3 pp pelo menor mix da 4Bio no consolidado, de 0,1 pp em redução das perdas de 
+estoque e de 0,1 pp pelo efeito positivo do AVP. Vale notar que as pressões geradas pelos investimentos em competitividade 
+foram equilibradas ao longo do ano através de iniciativas de precificação segmentada e de parcerias com a indústria. 
+4,5% 3,1% 4,5% 4,5% 3,1% 3,1% 3,1%
+10,6% 10,9% 9,4% 6,3% 9,0% 9,6%
+16,7%
+15,1% 13,9% 13,9%
+10,8% 12,0% 12,7%
+19,8%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+4,5% 3,1% 4,5% 4,5% 3,1% 3,1% 3,1%
+4,5% 6,6% 3,4% 0,9% 4,2% 6,7%
+13,2%9,0% 9,7%
+7,9%
+5,4%
+7,3%
+9,7%
+16,3%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+4,5% 3,1% 4,5% 4,5% 3,1% 3,1% 3,1%
+2,0% 4,7% 1,1%
+-1,1%
+2,4% 4,8%
+11,4%6,5% 7,8%
+5,6% 3,4% 5,5%
+7,8%
+14,5%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+Cresc. das lojas maduras – VarejoCrescimento da venda consolidada Cresc. das mesmas lojas – Varejo
+Reajuste CMED Crescimento real
+11.556,1
+12.957,6
+2.994,1 2.881,3
+3.198,6 3.314,4
+3.563,3
+27,7% 27,2% 27,6%
+26,6%
+27,4% 27,4% 27,4%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+* Inclui os efeitos da tributação das subvenções para 
+investimentos, conforme a Lei 14.789/2023. 
+Lucro bruto*
+R$ milhões, % da receita bruta
+ LUCRO BRUTO
+
+[p. 11]
+11 
+RESULTADOS 4T25 
+ 
+ 
+As despesas com vendas totalizaram R$ 8.334,3 milhões em 2025, equivalente a 17,5% da receita bruta, um acréscimo de 0,1 pp 
+vs. o ano anterior , principalmente por maiores despesas com pessoal . Elas incluem investimentos no início do ano com a 
+recomposição dos quadros , e no final do ano com o pacote de benefícios para os colaboradores d as operações (mais abaixo), 
+além de uma base pontualmente menor nos 3 primeiros trimestres de 2024 em função de quadros de farmácia abaixo do ideal. 
+Já no 4T25, as despesas com vendas somaram R$ 2.290,2 milhões, equivalentes a 17,6% da receita bruta, uma diluição de 0,4 pp 
+em relação ao 4T24. Essa diluição foi beneficiada pelo forte crescimento de vendas no varejo que, junto com diluições maiores 
+em aluguel, marketing, serviços profissionais e energia elétrica, mais que compensaram os investimentos de 0,5 pp em despesas 
+de pessoal para recomposição dos quadros e do pacote de benefícios para os colaboradores das farmácias e de CDs . Esses 
+investimentos visam melhorar a proposta de valor dos nossos funcionários (EVP), com reflexos positivos em índices de turnover, 
+na redução de faltas, e em custos admissionais/demissionais, que por sua vez permitirão maior engajamento de clientes e NPS. 
+ 
+ 
+As despesas gerais e administrativas totalizaram R$ 1.248,5 milhões em 2025, correspondendo a 2,6% da receita bruta, uma forte 
+diluição de 0,5 pp em relação a 2024. Essa diluição inclui um ganho de 0,3 pp em despesas de pessoal, principalmente pela 
+reestruturação corporativa realizada no 2T25 visando maiores eficiência e agilidade na gestão, além de 0,2 pp em outras 
+despesas, estabelecendo nova base estrutural de referência para o G&A. Vale salientar que, além de diluir as despesas G&A como 
+percentual da receita bruta, também reduzimos a base nominal, de R$ 1,31 bilhão em 2024 para R$ 1,25 bilhão em 2025, uma 
+queda de R$ 59,9 milhões no período. 
+7.255,2
+8.334,3
+1.953,0 1.934,0 2.015,2 2.094,9
+2.290,2
+17,4% 17,5% 18,0% 17,9%
+17,3% 17,3% 17,6%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+Despesas com vendas
+R$ milhões, % da receita bruta
+Despesas gerais & administrativas
+R$ milhões, % da receita bruta
+1.308,4 1.248,5 363,5
+303,3 298,4 310,2
+336,7
+3,1%
+2,6%
+3,3%
+2,8% 2,6% 2,6% 2,6%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+ DESPESAS COM VENDAS 
+ DESPESAS GERAIS E ADMINISTRATIVAS
+
+[p. 12]
+12 
+RESULTADOS 4T25 
+No 4T25, as despesas gerais e administrativas somaram R$ 336,7 milhões, equivalentes a 2,6% da receita bruta, uma diluição de 
+0,7 pp vs. o 4T24. Isso inclui uma diluição de 0,3 pp em pessoal, 0,2 pp em outras despesas, além de 0,2 pp por contingências 
+trabalhistas que pressionaram pontualmente o 4T24. Além da diluição obtida no G&A em relação à receita bruta, registramos 
+também uma redução nominal de -7,4%. 
+ 
+ 
+Obtivemos um EBITDA ajustado de R$ 3.374,8 milhões em 2025, crescimento de 12,8% em relação a 2024. A margem EBITDA 
+foi de 7,1%, uma retração de 0,1 pp. Destacamos que a sustentação da margem EBITDA foi fruto de uma retomada de 
+performance estrutural ao longo d o 2S25, neutralizando a forte pressão registrada no 1S25 (-0,7 pp) e nos posicionando para 
+iniciar o ano de 2026 com inércia positiva. 
+No 4T25, o EBITDA ajustado totalizou R$ 936,4 milhões, um crescimento de 38,2% em comparação ao 4T24. A margem EBITDA 
+atingiu 7,2%, um a expansão de 1,0 pp, refletindo a retomada de performance estrutural com a fruição das iniciativas e 
+investimentos realizados ao longo do ano. 
+Nas operações de varejo (ex-4Bio), registramos no 4T25 um EBITDA ajustado de R$ 924,1 milhões (+41,2% vs. 4T24), com 7,6% 
+de margem (+ 1,0 pp). No ano, registramos um EBITDA ajustado de R$ 3.302,7 milhões, (+13,2%) e margem estável de 7,5%, em 
+que pese a pressão evidenciada no 1S25 . Já na 4Bio, o EBITDA ajustado atingiu R$ 72,0 milhões (R$ 12,3 milhões no 4T25), com 
+margem de 2,2% (1,5% no 4T25). 
+ 
+ 
+73,9 72,0 22,8 20,9 22,1 16,7 12,3
+2.918,6
+3.302,7
+654,7 623,1
+862,9 892,5 924,1
+2.992,5
+3.374,8
+677,5 644,1
+885,0 909,3 936,4
+7,2% 7,1%
+6,2% 6,0%
+7,6% 7,5% 7,2%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+4Bio
+Ano: 2,2%
+4T: 1,5%
+EBITDA ajustado
+R$ milhões, % da receita bruta
+Mg. EBITDA
+807,9 790,6
+654,7 623,1
+862,9
+16,5 20,1
+22,8 20,9
+22,1824,4 810,7
+677,5 644,1
+885,0
+7,9% 7,5%
+6,2% 6,0%
+7,6%
+2T24 3T24 4T24 1T25 2T25
+Ex-4Bio 4Bio Consolidado Mg. EBITDA Cons.
+807,9 790,6
+654,7 623,1
+862,9
+16,5 20,1
+22,8 20,9
+22,1824,4 810,7
+677,5 644,1
+885,0
+7,9% 7,5%
+6,2% 6,0%
+7,6%
+2T24 3T24 4T24 1T25 2T25
+Ex-4Bio 4Bio Consolidado Mg. EBITDA Cons.
+Ex-4Bio
+Ano: 7,5%
+4T: 7,6%
+1.532,6 1.513,6
+327,3
+218,7
+430,0 454,0
+410,9
+3,7%
+3,2% 3,0%
+2,0%
+3,7% 3,7%
+3,2%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+554,3
+820,1
+114,4
+175,6
+201,9 190,3
+252,4
+1,3%
+1,7%
+1,1%
+1,6% 1,7% 1,6%
+1,9%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+909,9
+1.042,8
+238,3 248,4 252,7 266,0 275,9
+2,2% 2,2% 2,2% 2,3% 2,2% 2,2% 2,1%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+R$ milhões, % da receita bruta
+Depreciação e amortização Lucro antes do imposto de renda*
+R$ milhões, % da receita bruta
+Despesas financeiras líquidas
+R$ milhões, % da receita bruta
+* Inclui os efeitos da tributação das subvenções para investimentos, conforme a Lei 14.789/2023.
+ EBITDA 
+ DEPRECIAÇÃO, DESPESAS FINANCEIRAS LÍQUIDAS E LAIR
+
+[p. 13]
+13 
+RESULTADOS 4T25 
+ 
+As despesas de depreciação totalizaram R$ 1.042,8 milhões em 2025 (R$ 275,9 milhões no 4T25), equivalentes a 2,2% da receita 
+bruta no ano (2,1% no trimestre). 
+Em 2025, as despesas financeiras líquidas totalizaram R$ 820,1 milhões, correspondendo a 1,7% da receita bruta, um aumento de 
+0,4 pp. Esse aumento inclui 0,2 pp em função da SELIC mais elevada e do maior volume do passivo financeiro, 0,1 pp pelo efeito 
+não caixa do AVP e 0,1 pp pelo efeito da correção monetária de tributos (não recorrente) recuperados na base 4T24. 
+Já no 4T25, as despesas financeiras líquidas totalizaram R$ 252,4 milhões, correspondendo a 1,9% da receita bruta, um aumento 
+de 0,8 pp, incluindo 0,3 pp pela taxa SELIC mais elevada e pelo maior volume do passivo financeiro, 0,2 pp pelo efeito não caixa 
+do AVP e 0,3 pp pelo efeito pontual da correção monetária de tributos recuperados na base 4T24. 
+Com isso, o lucro antes do IRPJ/CSLL (LAIR) manteve patamar nominal semelhante ao do ano passado, encerrando o ano em 
+R$ 1.513,6 milhões (R$ 410,9 milhões no 4T25, crescimento de 16,2%). A margem LAIR contraiu 0,5 pp para 3,2% da receita bruta 
+em 2025 , enquanto no 4T25 houve incremento de 0,2 pp, também para 3,2%. Descontando os ganhos pontuais acima 
+mencionados, as margens LAIR equivaleriam a 3,6% em 2024 e a 2,7% no 4T24, indicando uma contração em base recorrente de 
+0,4 pp em 2025 e uma expansão de 0,5 pp no 4T25, em que pesem os resultados desafiadores do 1S25, já endereçados no 2S25. 
+ 
+ 
+Provisionamos um total de R$ 1 70,1 milhões em imposto de renda em 2025 (R$ 49,2 milhões no 4T25 ), equivalente a 0,4% da 
+receita bruta com uma redução de 0,2 pp vs. o ano anterior (0,4% no 4T25 com aumento de 0,9 pp). 
+A alíquota efetiva de 2025 foi de 11,2% do LAIR, uma redução de 4,7 pp vs. 2024. Lembramos que no 2T25, realizamos a reversão 
+das provisões constituídas em relação às subvenções para investimentos e a Lei 14.789/2023 nos casos em que a Companhia 
+possui liminar favorável, gerando ganhos pontuais de anos anteriores . Já em 2024, registramos efeitos pontuais principalmente 
+por créditos tributários e concentrados no 4T24. Excluindo esses efeitos, estimamos uma alíquota efetiva recorrente de 13,6% 
+em 2025, uma redução de 8,2 pp vs. os 21,8% de alíquota recorrente de 2024. Na base trimestral, descontados os efeitos 
+pontuais, a alíquota efetiva recorrente seria de 5,8% no 4T25, uma redução de 3,8 pp vs. os 9,6% de alíquota recorrente do 4T24. 
+Com isso, em 2025, registramos um lucro líquido ajustado de R$ 1.343,5 milhões, equivalente a uma margem líquida de 2,8% da 
+receita bruta com retração de 0,3 pp vs. 2024. Excluindo os efeitos não recorrentes no IR do ano, estimamos uma margem líquida 
+estável. Os ajustes realizados ao longo do ano mostraram nossa resiliência e capacidade de ajustes, revertendo o cenário negativo 
+do 1S25 e reposicionando a empresa para um novo ciclo de crescimento e fortaleza operacional. 
+Já no 4T25, registramos um lucro líquido ajustado de R$ 361,7 milhões, equivalente a uma margem líquida de 2,8%, com retração 
+de 0,7 pp. Excluindo os efeitos pontuais, a margem líquida do 4T24 teria sido de 2,2% vs. 2,8% em 4T25, uma expansão de 0,6 pp. 
+1.288,51.343,5 381,4
+177,1
+402,7 402,0
+361,7
+3,1% 2,8%
+3,5%
+1,6%
+3,5% 3,3%
+2,8%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+244,1
+170,1
+-54,2
+41,6
+27,3
+52,0 49,2
+15,9% 11,2% -16,6% 19,0% 6,3% 11,5% 12,0%
+0,6% 0,4%
+-0,5%
+0,4% 0,2% 0,4% 0,4%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+* Inclui os efeitos da tributação das subvenções para investimentos, conforme a Lei 14.789/2023.
+** Alíquota efetiva.
+**
+Imposto de renda e alíquota efetiva*
+R$ milhões, % da receita bruta
+Lucro líquido ajustado*
+R$ milhões, % da receita bruta
+244,1
+160,6
+-54,2
+41,6
+27,3
+52,0
+39,7
+15,9% 10,5% -16,6% 19,0% 6,3% 11,5% 9,3%
+0,6% 0,3%
+-0,5%
+0,4% 0,2% 0,4% 0,3%
+2024 2025 4T24 1T25 2T25 3T25 4T25
+ IMPOSTO DE RENDA E LUCRO LÍQUIDO
+
+[p. 14]
+14 
+RESULTADOS 4T25 
+ 
+ 
+No EBITDA, r egistramos R$ 59,3 milhões em ganhos ajustados em 2025. Isso inclui despesas de R$ 36,7 milhões em baixas de 
+ativos, de R$ 19,9 milhões em investimentos sociais e doações , mais do que compensados por ganhos de R$ 73,8 milhões 
+relativos a efeitos tributários extemporâneos, além de R$ 42,1 milhões em outros efeitos . No lucro líquido, registramos 
+R$ 30,5 milhões de despesas relativas à reestruturação societária, além de R$ 9,8 milhões em efeitos de IR das receitas e 
+despesas ajustadas do período. 
+ 
+ 
+Registramos um ciclo de caixa de 57,6 dias no 4T25, uma redução de 2,8 dias em comparação com o mesmo período do ano 
+anterior, já ajustado para os descontos de recebíveis e antecipações a fornecedores . Essa melhora se deu principalmente pela 
+redução de 5,7 dias de estoque. 
+Reconciliação EBITDA/Lucro Líq. ajustados (R$ milhões) 1T25 2T25 3T25 4T25 2025
+Lucro líquido 181,1 400,9 476,1 304,4 1.362,5
+Imposto de renda 43,7 26,3 90,2 19,7 179,9
+Equivalência patrimonial 1,4 0,5 (1,0) (2,7) (1,8)
+Resultado financeiro 175,6 201,9 190,3 252,4 820,1
+EBIT 401,8 629,5 755,5 573,9 2.360,7
+Depreciação e amortização 248,4 252,7 266,0 275,9 1.042,8
+EBITDA 650,2 882,1 1.021,5 880,2 3.434,0
+Baixa de ativos 6,4 (0,9) 1,3 29,9 36,7
+Investimento social e doações 0,9 11,2 1,6 6,2 19,9
+Efeitos tributários extemporâneos (66,2) (2,3) (15,8) 10,5 (73,8)
+Outras não recorrentes 52,8 (5,2) (99,3) 9,7 (42,1)
+EBITDA ajustado 644,1 885,0 909,3 936,4 3.374,8
+Lucro líquido 181,1 400,9 476,1 304,4 1.362,5
+Efeitos não recorrentes no EBITDA (6,1) 2,8 (112,3) 56,3 (59,3)
+Reestruturação societária - - - 30,5 30,5
+Efeito dos ajustes no IR (34%) 2,1 (1,0) 38,2 (29,5) 9,8
+Lucro líquido ajustado 177,1 402,7 402,0 361,7 1.343,5
+107,7 109,2
+99,2 97,3 102,0
+75,8 77,0
+67,6 70,1 73,8
+28,4 30,5 29,6 29,5 29,4
+60,4 62,7 61,2 56,6 57,6
+4T24 1T25 2T25 3T25 4T25
+Estoques Fornecedores
+Recebíveis Ciclo de Caixa
+** Ajustado para recebíveis descontados e antecipações a fornecedores.
+Ciclo de caixa**
+Dias de CMV, Dias de receita bruta
+ RECONCILIAÇÃO EBITDA, LUCRO LÍQUIDO E RESULTADO NÃO RECORRENTE 
+ CICLO DE CAIXA
+
+[p. 15]
+15 
+RESULTADOS 4T25 
+ 
+ 
+Em 2025, registramos R$ 2.362,9 milhões de recursos das operações (R$ 691,8 milhões no 4T25), equivalente a 5,0% da receita 
+bruta (5,3% no 4T25). Considerando o consumo de R$ 805,8 milhões de capital de giro (R$ 695,3 milhões no 4T25), geramos um 
+fluxo de caixa operacional de R$ 1.557,1 milhões (consumo de R$ 3,5 milhões no 4T25). 
+O CAPEX do ano foi de R$ 1.359,4 milhões (R$ 409,8 milhões no 4T25), dos quais R$ 540,7 milhões foram destinados à abertura 
+de novas farmácias (R$ 165,5 milhões no 4T25) , R$ 246,4 milhões para a manutenção e reforma de unidades existentes 
+(R$ 64,4 milhões no 4T25) , R$ 355,9 milhões em tecnologia (R$ 114,0 milhões no 4T25) , R$ 182,4 milhões em logística 
+(R$ 59,4 milhões no 4T25) e R$ 34,1 milhões em outros projetos (R$ 6,5 milhões no 4T25). 
+Registramos uma pressão de ciclo de caixa tanto no ano (R$ 989,0 milhões) como no trimestre (R$ 580,3 milhões) em função da 
+aceleração no crescimento da receita bruta, que atingiu 19,8% no trimestre, sendo mitigada pela redução no ciclo de caixa de 
+2,8 dias. Mesmo com essa pressão pontual , atingimos um fluxo de caixa livre positivo de R$ 197,7 milhões no ano (negativo em 
+R$ 413,2 milhões no 4T25). O consumo total de caixa foi de R$ 755,5 milhões no ano (R$ 793,9 milhões no 4T25). 
+Por fim, anunciamos proventos no total de R$ 770,0 milhões em 2025, em comparação com os R$ 579,8 milhões em 2024. Isso 
+inclui R$ 536,0 milhões em juros sobre capital próprio e R$ 234,0 milhões em dividendos. No 4T25, anunciamos R$ 275,4 milhões, 
+vs. R$ 123,9 milhões no 4T24. Esse montante inclui uma antecipação ocorrida em dezembro nos dividendos , aprovada na AGE 
+realizada em 22/12/25 no total de R$ 130,0 milhões, originalmente previstos para maio de 2026. 
+ 
+ 
+Encerramos o 4T25 com uma dívida líquida ajustada de R$ 4.173,9 milhões, correspondente a um índice de alavancagem 
+financeira de 1,2x o EBITDA ajustado dos últimos 12 meses , um aumento de 0,1x vs. 4T24. Nossa dívida líquida ajustada leva em 
+consideração um saldo de R$ 800,3 milhões em recebíveis descontados e de R$ 15,5 milhões em obrigações relacionadas a 
+opções de compra/venda de participações remanescentes em empresas investidas. 
+O endividamento bruto totalizou R$ 3.867,8 milhões, 100% corresponde nte à emissão de Debêntures e Certificados de 
+Recebíveis Imobiliários (CRIs), todos com rating reiterado em AAA.br pela Moody’s. 87% do endividamento total é de longo prazo 
+e 13% de curto prazo. Encerramos o 4T25 com posição de caixa total (caixa e aplicações financeiras) de R$ 509,6 milhões. 
+Fluxo de caixa (R$ milhões) 2025 2024 4T25 4T24
+EBIT ajustado 2.331,9 2.082,6 660,6 439,2
+Ajuste a valor presente (AVP) (276,1) (185,0) (78,8) (57,5)
+Efeitos não recorrentes 34,2 (20,5) (81,3) (45,4)
+Imposto de renda (34%) (710,6) (638,2) (170,1) (114,4)
+Depreciação 1.043,6 912,0 287,0 240,9
+Outros ajustes (60,0) 85,0 74,6 226,6
+Recursos das operações 2.362,9 2.235,8 691,8 689,5
+Ciclo de caixa* (989,0) (669,3) (580,3) 12,1
+Outros ativos (passivos)** 183,2 (96,8) (115,0) (458,6)
+Fluxo de caixa operacional 1.557,1 1.469,7 (3,5) 242,9
+Investimentos (1.359,4) (1.247,7) (409,8) (417,9)
+Fluxo de caixa livre 197,7 222,1 (413,2) (175,0)
+Aquisições e investimentos em coligadas (46,4) (165,3) 61,8 (29,1)
+JSCP e dividendos (652,8) (474,6) (344,3) (235,9)
+IR pago sobre JSCP (73,8) (54,3) (39,9) (33,1)
+Resultado financeiro*** (549,4) (361,4) (163,2) (63,9)
+Recompra de ações - (73,3) - (73,3)
+IR (Benef. fiscal s/ result. fin., JSCP e div.) 369,0 255,3 104,9 63,9
+Fluxo de caixa total (755,5) (651,4) (793,9) (546,5)
+*Inclui ajustes para recebíveis descontados.
+**Inclui ajuste de AVP.
+***Exclui ajuste de AVP.
+Dívida Líquida (R$ milhões) 4T24 1T25 2T25 3T25 4T25
+Dívida de curto prazo 637,1 763,5 944,2 522,5 508,1
+Dívida de longo prazo 2.656,8 2.408,5 2.758,6 2.760,1 3.359,6
+Dívida Bruta 3.293,9 3.172,0 3.702,9 3.282,6 3.867,8
+(-) Caixa e Equivalentes 528,0 404,4 527,0 436,3 509,6
+Dívida Líquida 2.765,9 2.767,6 3.175,8 2.846,3 3.358,1
+Recebíveis Descontados 728,7 803,2 761,2 514,7 800,3
+Antecipações a fornecedores (89,9) (3,7) (13,2) (3,7) -
+Opções Compra/Venda de investidas (est.) 13,6 14,0 14,4 22,8 15,5
+Dívida Líquida Ajustada 3.418,4 3.581,0 3.938,3 3.380,0 4.173,9
+EBITDA ajustado LTM 2.992,5 2.956,7 3.017,3 3.115,9 3.374,8
+Dívida Líquida / EBITDA 1,1x 1,2x 1,3x 1,1x 1,2x
+ FLUXO DE CAIXA 
+ ENDIVIDAMENTO
+
+[p. 16]
+16 
+RESULTADOS 4T25 
+ 
+ 
+Registramos um ROIC consolidado de 17, 1% em 2025, um incremento de 0, 4 pp vs. 2024, em que pese o 1S25 desafiador. 
+Lembramos que isso inclui os efeitos da maior tributação oriunda da Lei 14.789/23, que entrou em vigor em 2024 com pressão 
+de 2,1 pp no ROIC daquele período. Já a RD Saúde ex-4Bio alcançou 17,7%. A venda da 4Bio, assinada em 03/mar/2026 reflete, 
+portanto, uma maior disciplina na alocação de capital, que nos permitirá operar com margem e ROIC maiores, além de fortalecer 
+a estrutura de capital. 
+Ressaltamos que o cálculo do ROIC desconsidera o ágio da fusão entre Raia e Drogasil, por essa ter sido uma troca de ações a 
+mercado sem pagamentos efetivos entre as partes. 
+Em 2025, compartilhamos R$ 13,3 bilhões de valor adicionado com nossos stakeholders, um aumento de +19,1% vs. 2024. Desse 
+total, R$ 5,6 bilhões foram destinados ao governo nas e sferas federal, estadual e municipal por meio de impostos, taxas e 
+contribuições (+27,2%). Outros R$ 4,3 bilhões foram distribuídos aos nossos funcionários (+13,0%), enquanto R$ 2,0 bilhões 
+foram direcionados aos proprietários dos imóveis alugados e às instituições financeiras (+19,6%). Por fim, R$ 1, 4 bilhão foi 
+compartilhado com nossos acionistas (+8,1%). 
+ 
+ 
+Nossa ação se valorizou em 9,9% em 20 25, enquanto o IBOVESPA apresentou valorização de 34,1%. No período, o volume 
+financeiro diário médio (ADTV) foi de R$ 207 milhões. Desde o IPO da Drogasil em junho de 2007, registramos uma valorização 
+acumulada de 2.861% em comparação à valorização de apenas 196% registrada pelo IBOVESPA. 
+Incluindo o pagamento de juros sobre o capital próprio e de dividendos, isto equivaleu a um retorno médio anual ao acionista de 
+18,9%. Considerando o IPO da Raia, em dezembro de 2010, a valorização acumulada no período foi de 754% em comparação a 
+um crescimento de 137% do IBOVESPA. Incluindo as distribuições aos acionistas, is so equivaleu a um retorno médio anual de 
+16,0%. 
+17,7%*
+15,0%
+13,7%
+16,0%
+18,5% 17,8%
+16,7%
+17,1%
+2019 2020 2021 2022 2023 2024 2025
+5,6
+42%
+4,3
+33%
+2,0
+15%
+1,3
+10%
+Impostos, taxas e contribuições Pessoal
+Remuneração de terceiros* Remuneração de capitais próprios
+* Ajustado para despesas efetivas com 
+aluguéis e exclui efeitos do AVP.
+Impostos, taxas e contribuições 
+Remuneração de terceiros
+Remuneração de capitais próprios
+Pessoal
+Valor adicionado por stakeholderROIC Valor adicionado total*
+R$ bilhões R$ bilhões, % do total do ano
+13,3
+11,2
+20252024
+* ROIC ex-4Bio
+Valorização da ação
+ RETORNO SOBRE CAPITAL INVESTIDO E COMPARTILHAMENTO DO VALOR GERADO 
+ RETORNO TOTAL AO ACIONISTA
+
+[p. 17]
+17 
+RESULTADOS 4T25 
+ 
+Desde 2019, as demonstrações financeiras são preparadas de acordo com o IFRS 16 . Para fins de comparabilidade histórica, 
+porém, os dados deste relatório são apresentados sem os efeitos dessa norma, por considerarmos que a abordagem anterior 
+retrata de forma mais fiel a realidade econômica do nosso negócio . No site de Relações com Investidores da RD Saúde 
+(ri.rdsaude.com.br), as Demonstrações Financeiras podem ser encontradas na seção de Planilhas de Resultados. 
+ 
+ 
+ 
+ 
+ 
+4T25 2025
+Demonstração do Resultado (R$ milhões) Pré-IFRS 16 IFRS 16 Reclassif. Pré-IFRS 16 IFRS 16 Reclassif.
+Receita Bruta de Vendas 13.014,9 13.014,9 (0,0) 47.609,6 47.609,6 (0,0)
+Lucro Bruto 3.563,3 3.565,0 1,7 12.957,6 12.964,9 7,3
+Margem Bruta 27,4% 27,4% 0,0 pp 27,2% 27,2% 0,0 pp
+Despesas de Venda (2.290,2) (1.951,5) 338,7 (8.334,3) (7.029,0) 1.305,3
+Despesas Gerais & Administrativas (336,7) (335,9) 0,8 (1.248,5) (1.247,7) 0,8
+Total Despesas (2.626,9) (2.287,3) 339,5 (9.582,8) (8.276,7) 1.306,1
+% da Receita Bruta 20,2% 17,6% (2,6 pp) 20,1% 17,4% (2,7 pp)
+EBITDA Ajustado 936,4 1.277,6 341,2 3.374,8 4.688,2 1.313,4
+% da Receita Bruta 7,2% 9,8% 2,6 pp 7,1% 9,8% 2,7 pp
+Despesas / (Rec.) Não Recorrentes (56,2) (55,1) 1,2 59,3 66,5 7,2
+Depreciação e Amortização (281,2) (529,9) (248,7) (1.048,2) (2.013,0) (964,8)
+Resultado Financeiro (277,5) (392,1) (114,6) (845,3) (1.295,5) (450,3)
+Resultado MEP / Incorporação 2,7 2,7 (0,0) 1,8 2,0 0,2
+IR / CSL (19,7) (12,6) 7,1 (179,9) (147,8) 32,1
+Lucro Líquido 304,4 290,6 (13,9) 1.362,5 1.300,3 (62,2)
+% da Receita Bruta 2,3% 2,2% (0,1 pp) 2,9% 2,7% (0,2 pp)
+4T25 Reclassificação
+Balanço Patrimonial (R$ milhões) Pré-IFRS 16 IFRS 16 ∆ 4T25
+Ativo 20.630,8 25.170,5 4.539,7
+Ativo Circulante 14.904,4 14.904,4 0,1
+Tributos a Recuperar 541,3 541,4 0,1
+Ativo Não Circulante 5.726,4 10.266,0 4.539,6
+Imposto de Renda e Contrib. Social Diferidos 153,3 357,5 204,1
+Outros Créditos 7,6 7,2 (0,4)
+Investimentos 19,6 19,5 (0,1)
+Direito de uso em arrendamento 0,0 4.336,0 4.336,0
+Passivo e Patrimônio Líquido 20.630,8 25.170,5 4.539,7
+Passivo Circulante 9.177,2 10.193,9 1.016,7
+Arrendamentos Financeiros a Pagar 0,0 1.021,1 1.021,1
+Outras Contas a Pagar 495,5 491,1 (4,4)
+Não Circulante 3.704,1 7.640,6 3.936,6
+Arrendamentos Financeiros a Pagar 0,0 3.945,2 3.945,2
+Imposto de Renda e Contrib. Social Diferidos 8,6 0,0 (8,6)
+Patrimônio Líquido 7.749,6 7.336,0 (413,6)
+Reservas de Lucros 2.489,1 2.075,7 (413,4)
+Participação de Não Controladores 14,1 13,8 (0,2)
+ IFRS-16
+
+[p. 18]
+18 
+RESULTADOS 4T25 
+ 
+ 
+ 
+ 
+ 
+04 de março de 2026 às 10h00 (horário de Brasília), 
+com tradução simultânea para o inglês. 
+ 
+Link de acesso 
+https://www.resultadosrdsaude.com.br/ 
+Para mais informações, entre em contato com o departamento de Relações com Investidores: ri@rdsaude.com.br 
+ 
+4T25 2025
+Fluxo de Caixa (R$ milhões) Pré-IFRS 16 IFRS 16 Reclassif. Pré-IFRS 16 IFRS 16 Reclassif.
+EBIT Ajustado 660,6 747,7 87,1 2.331,9 2.675,1 343,2
+Despesas não recorrentes (81,3) (60,4) 20,9 34,2 61,1 26,9
+Imposto de renda (34%) (170,1) (206,9) (36,7) (710,6) (836,4) (125,9)
+Depreciação 287,0 529,9 243,0 1.043,6 2.013,0 969,5
+Despesas com Aluguel 0,0 (340,7) (340,7) 0,0 (1.313,3) (1.313,3)
+Outros Ajustes 74,6 101,0 26,4 (60,0) 39,5 99,5
+Recursos das operações 691,8 691,8 0,0 2.362,9 2.362,9 0,0
+Fluxo de caixa operacional (3,5) (3,5) 0,0 1.557,1 1.557,1 0,0
+Investimentos (409,8) (409,8) 0,0 (1.359,4) (1.359,4) 0,0
+Fluxo de caixa livre (413,2) (413,2) 0,0 197,7 197,7 0,0
+Fluxo de caixa total (793,9) (793,9) 0,0 (755,5) (755,5) 0,0
+*Inclui ajustes para recebíveis descontados.
+**Inclui ajuste de AVP.
+***Exclui ajuste de AVP.
+ TELECONFERÊNCIA DE RESULTADOS
+
+[p. 19]
+19 
+RESULTADOS 4T25 
+ 
+ 
+ 
+ 
+Demonstração do Resultado Consolidado Ajustado 4T24 4T25 2024 2025
+(em milhares de R$)
+Receita bruta de vendas e serviços 10.862.353 13.014.924 41.781.973 47.609.626
+Deduções (767.667) (911.443) (2.910.451) (3.359.177)
+Receita líquida de vendas e serviços 10.094.686 12.103.481 38.871.522 44.250.449
+Custo das mercadorias vendidas (7.100.566) (8.540.193) (27.315.454) (31.292.878)
+Lucro bruto 2.994.119 3.563.288 11.556.068 12.957.571
+Despesas
+Com vendas (1.953.050) (2.290.200) (7.255.202) (8.334.306)
+Gerais e administrativas (363.549) (336.674) (1.308.384) (1.248.495)
+Despesas operacionais (2.316.598) (2.626.874) (8.563.586) (9.582.801)
+EBITDA 677.521 936.414 2.992.482 3.374.770
+Depreciação e Amortização (238.324) (275.856) (909.852) (1.042.839)
+Lucro operacional antes do resultado financeiro 439.197 660.559 2.082.630 2.331.930
+Despesas financeiras (253.311) (393.738) (998.843) (1.356.309)
+Receitas financeiras 138.875 141.351 444.592 536.165
+Despesas / Receitas Financeiras (114.436) (252.387) (554.251) (820.144)
+Equivalência Patrimonial 2.492 2.701 4.260 1.839
+Lucro antes do IR e da contribuição social 327.253 410.872 1.532.639 1.513.625
+Imposto de renda e contribuição social 54.161 (49.218) (244.093) (170.134)
+Lucro líquido 381.414 361.654 1.288.546 1.343.491
+
+[p. 20]
+20 
+RESULTADOS 4T25 
+ 
+ 
+ 
+ 
+Demonstração do Resultado Consolidado 4T24 4T25 2024 2025
+(em milhares de R$)
+Receita bruta de vendas e serviços 10.862.353 13.014.924 41.781.973 47.609.626
+Deduções (767.667) (911.443) (2.910.451) (3.359.177)
+Receita líquida de vendas e serviços 10.094.686 12.103.481 38.871.522 44.250.449
+Custo das mercadorias vendidas (7.100.566) (8.540.193) (27.315.454) (31.292.878)
+Lucro bruto 2.994.119 3.563.288 11.556.068 12.957.571
+Despesas
+Com vendas (1.953.050) (2.290.200) (7.255.202) (8.334.306)
+Gerais e administrativas (363.549) (336.674) (1.308.384) (1.248.495)
+Outras despesas operacionais, líquidas (45.361) (56.221) (20.477) 59.265
+Despesas operacionais (2.361.959) (2.683.095) (8.584.064) (9.523.537)
+EBITDA 632.160 880.193 2.972.004 3.434.034
+Depreciação e Amortização (238.324) (281.214) (909.852) (1.048.197)
+Lucro operacional antes do resultado financeiro 393.836 598.979 2.062.152 2.385.837
+Despesas financeiras (253.311) (418.851) (998.843) (1.381.422)
+Receitas financeiras 138.875 141.351 444.592 536.165
+Despesas / Receitas Financeiras (114.436) (277.501) (554.251) (845.257)
+Equilavência Patrimonial 2.492 2.701 4.260 1.839
+Lucro antes do IR e da contribuição social 281.892 324.179 1.512.162 1.542.419
+Imposto de renda e contribuição social 69.584 (19.743) (237.131) (179.924)
+Lucro líquido 351.476 304.437 1.275.031 1.362.494
+
+[p. 21]
+21 
+RESULTADOS 4T25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ativo (R$ milhares) 4T24 4T25
+Caixa e Equivalentes de Caixa 528.002 509.619
+Aplicações Financeiras 15.707 19.120
+Clientes 2.666.758 3.400.587
+Estoques 8.407.429 9.576.342
+Tributos a Recuperar 483.452 541.293
+Outras Contas a Receber 486.709 736.416
+Despesas Antecipadas 112.611 116.027
+Depósitos Judiciais 3.019 4.970
+Ativo Circulante 12.703.688 14.904.373
+Depósitos Judiciais 250.763 296.349
+Tributos a Recuperar 287.939 255.077
+Imposto de Renda e Contribuição Social Diferidos 158.041 153.345
+Outros Créditos 13.377 7.589
+Investimentos 14.786 19.603
+Imobilizado 2.682.672 2.942.880
+Intangível 2.025.604 2.051.563
+Ativo Não Circulante 5.433.181 5.726.407
+TOTAL ATIVO 18.136.869 20.630.780
+Passivo e Patrimônio Líquido (R$ milhares) 4T24 4T25
+Fornecedores 5.825.381 6.922.978
+Empréstimos e Financiamentos 637.109 508.137
+Salários e Encargos Sociais 686.526 772.590
+Impostos, Taxas e Contribuições 364.903 417.176
+Dividendo e Juros Sobre o Capital Próprio 241.476 2.566
+Provisão para Demandas Judiciais 81.829 58.221
+Outras Contas a Pagar 412.763 495.507
+Passivo Circulante 8.249.987 9.177.174
+Empréstimos e Financiamentos 2.656.820 3.359.618
+Provisão para Demandas Judiciais 282.059 248.853
+Imposto de Renda e Contribuição Social Diferidos 40.357 8.609
+Outras Obrigações 109.538 86.971
+Passivo Não Circulante 3.088.775 3.704.050
+Capital Social 4.000.000 4.750.000
+Reservas de Capital 111.309 139.291
+Reserva de Reavaliação 11.085 10.960
+Reservas de Lucros 2.529.320 2.489.084
+Ajustes de Avaliação Patrimonial 62.969 62.969
+Participação de Não Controladores 13.529 14.069
+Dividendo Adicional Proposto 69.895 283.184
+Patrimônio Líquido 6.798.107 7.749.555
+TOTAL PASSIVO E PATRIMÔNIO LÍQUIDO 18.136.869 20.630.780
+
+[p. 22]
+22 
+RESULTADOS 4T25 
+ 
+ 
+Demonstrações dos Fluxos de Caixa (R$ milhares) 4T24 4T25 2024 2025
+Lucro antes do Imposto de Renda e da Contribuição Social 351.476 304.436 1.275.031 1.362.494
+Ajustes
+Depreciações e amortizações 240.915 292.330 911.965 1.048.929
+Plano de remuneração com ações restritas, líquido 16.980 13.944 38.034 27.981
+Juros sobre opção de compra de ações adicionais (30.799) (7.251) 2.041 1.945
+Resultado na venda ou baixa do ativo imobilizado e intangível 43.884 55.462 56.142 68.521
+Provisão (reversão) para demandas judiciais 81.399 26.104 124.349 12.911
+Provisão (reversão) para perdas no estoque 6.122 (10.281) 25.037 (8.049)
+Provisão (reversão) para créditos de liquidação duvidosa 5.776 7.489 21.292 20.397
+Provisão (reversão) para encerramento de lojas 1.857 1.205 (5.664) (2.043)
+Despesas de juros 125.970 128.983 398.021 512.770
+Amortizações do custo de transação de financiamentos 2.391 2.125 9.371 9.279
+Resultado de Equivalência Patrimonial (1.530) (2.675) (1.069) (1.993)
+Ganho adquirido em combinação de negócio 1 - 59.709 -
+Valoração líquida Cotistas Seniores - 350 - 350
+844.442 812.221 2.914.259 3.053.492
+Variações nos ativos e passivos
+Clientes e outras contas a receber 690.179 154 396.890 (754.226)
+Estoques (281.019) (1.068.554) (1.235.040) (1.160.864)
+Outros ativos circulantes (3.054) (91.460) (85.782) (281.648)
+Ativos no realizável a longo prazo (3.214) 51.067 (23.656) -
+Fornecedores 246.807 777.427 857.332 1.087.434
+Salários e encargos sociais (130.021) (139.074) 50.133 86.064
+Impostos, taxas e contribuições (245.665) (94.810) (258.889) 242
+Outras Obrigações (52.444) 173.914 111.999 191.895
+Aluguéis a pagar 3.307 4.365 8.840 16.885
+Caixa proveniente das operações 1.069.318 425.250 2.736.086 2.239.274
+Juros pagos (83.916) (149.444) (373.244) (469.833)
+Imposto de renda e contribuição social pagos (95.973) (82.337) (367.356) (190.246)
+Demandas judiciais pagas (22.547) (22.415) (82.906) (69.725)
+Caixa líq. proveniente das (aplicado nas) atividades operacionais 866.882 171.054 1.912.580 1.509.470
+Fluxos de caixa das atividades de investimentos
+Aquisição participação em controlada, sem mudar controle - - (117.817) -
+Aquisições de imobilizado e intangível (431.370) (430.977) (1.283.653) (1.402.977)
+Recebimentos por vendas de imobilizados - 79 4.265 652
+Aplicações financeiras restritas (15.706) 82.930 (15.706) (3.414)
+Caixa líquido aplicado nas atividades de investimentos (447.076) (347.968) (1.412.911) (1.405.739)
+Fluxos de caixa das atividades de financiamentos
+Empréstimos e financiamentos tomados 38.869 600.000 688.869 1.190.000
+Pagamentos de empréstimos e financiamentos (32.000) - (525.000) (653.869)
+Recompra de Ações (73.285) - (73.285) -
+Juros sobre capital próprio e dividendo pagos (235.898) (344.326) (474.573) (652.764)
+Resgate Cotistas Seniores - (5.481) - (5.481)
+Caixa líquido proveniente das atividades de financiamentos (302.314) 250.193 (383.989) (122.114)
+Caixa e equivalentes de caixa no início do exercício 410.510 436.340 412.322 528.002
+Aumento (redução) líquido de caixa e equivalentes de caixa 117.492 73.279 115.680 (18.383)
+Caixa e equivalentes de caixa no fim do exercício 528.002 509.619 528.002 509.619

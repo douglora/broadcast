@@ -1,0 +1,1810 @@
+[p. 1]
+Desempenho de Ribas impulsiona vendas recordes, maior 
+competitividade e desalavancagem
+São Paulo, 12 de fevereiro de 2025. Suzano S.A. (B3: SUZB3 | NYSE: SUZ), uma das maiores produtoras 
+de celulose e integradas de papel do mundo, anuncia hoje os resultados consolidados do 4º trimestre 
+de 2024 (4T24).
+DESTAQUES
+• Vendas de celulose de 3.284 mil t (19% vs. 4T23).
+• Vendas de papel1 de 430 mil t (11% vs. 4T23).
+• EBITDA Ajustado2 e Geração de caixa operacional3: R$ 6,5 bilhões e R$ 4,8 bilhões, respectivamente.
+• EBITDA Ajustado2/t de celulose em R$ 1.745/t (28% vs. 4T23).
+• EBITDA Ajustado2/t de papel em R$ 1.746/t (-10% vs. 4T23).
+• Preço médio líquido de celulose – mercado externo: US$ 583/t (2% vs. 4T23).
+• Preço médio líquido de papel1 de R$ 6.926/t (3% vs. 4T23).
+• Custo caixa de produção de celulose sem paradas de R$ 807/t (-1% vs. 4T23).
+• Alavancagem em USD em 2,9x e 3,3x em BRL.
+• Conclusão da curva de aprendizado da unidade de Ribas do Rio Pardo. 
+Dados Financeiros 
+Consolidados 
+(R$ milhões)
+4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Receita Líquida 14.177 12.274 16% 10.372 37% 47.403 39.756 19%
+EBITDA Ajustado2 6.481 6.523 -1% 4.505 44% 23.849 18.273 31%
+Margem EBITDA 
+Ajustado2 46% 53% -7 p.p. 43% 2 p.p. 50% 46% 4 p.p.
+Resultado Financeiro 
+Líquido (15.556) 868 — 2.269 — (28.802) 5.781 —
+Resultado Líquido (6.737) 3.237 — 4.515 — (7.045) 14.106 —
+Geração de Caixa 
+Operacional3 4.843 4.394 10% 2.779 74% 16.239 11.566 40%
+Dívida Líq./EBITDA 
+Ajustado2 (x) (R$) 3,3 x 3,2 x 0,1 x 3,0 x 0,3 x 3,3 x 3,0 x 0,3 x
+Dívida Líq./EBITDA 
+Ajustado2 (x) (US$) 2,9 x 3,1 x -0,2 x 3,1 x -0,2 x 2,9 x 3,1 x -0,2 x
+Dados Operacionais 
+(mil t) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Vendas 3.714 2.995 24% 3.148 18% 12.300 11.507 7%
+Celulose 3.284 2.635 25% 2.761 19% 10.865 10.215 6%
+Papel1 430 360 20% 386 11% 1.436 1.291 11%
+1Considera os resultados da Unidade Bens de Consumo ( tissue), e o resultado dos meses de out/24 e nov/24 da operação da Unidade Suzano 
+Packaging US (Pine Bluff e Waynesville). | 2Desconsidera itens não recorrentes. | 3Considera o EBITDA Ajustado menos o capex de manutenção 
+(regime caixa). 
+As informações trimestrais consolidadas foram preparadas de acordo com as normas da CVM e os CPCs, e estão em 
+conformidade com as normas internacionais de contabilidade (IFRS) emitidas pelo International Accounting 
+Standards Boar d (IASB). As informações operacionais e financeiras são apresentadas com base em números 
+consolidados em Reais (R$). Os somatórios podem divergir devido a arredondamentos.
+RESULTADOS
+4T24
+
+[p. 2]
+SUMÁRIO
+SUMÁRIO EXECUTIVO .............................................................................................................................................................. 3
+DESEMPENHO DO NEGÓCIO DE CELULOSE ......................................................................................................................... 4
+VOLUME DE VENDAS E RECEITA DE CELULOSE ............................................................................................................ 4
+CUSTO CAIXA DE CELULOSE ............................................................................................................................................ 7
+EBITDA DO SEGMENTO CELULOSE ................................................................................................................................. 10
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO CELULOSE ................................................................................ 12
+DESEMPENHO DO NEGÓCIO DE PAPEL ................................................................................................................................. 12
+VOLUME DE VENDAS E RECEITA DE PAPEL ................................................................................................................... 12
+EBITDA DO SEGMENTO PAPEL ......................................................................................................................................... 15
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO PAPEL ........................................................................................ 17
+DESEMPENHO ECONÔMICO-FINANCEIRO .......................................................................................................................... 18
+RECEITA LÍQUIDA .............................................................................................................................................................. 18
+CALENDÁRIO DE PARADAS PROGRAMADAS PARA MANUTENÇÃO ............................................................................ 19
+CUSTO DO PRODUTO VENDIDO ...................................................................................................................................... 19
+DESPESAS DE VENDAS ...................................................................................................................................................... 20
+DESPESAS GERAIS E ADMINISTRATIVAS ...................................................................................................................... 20
+EBITDA AJUSTADO ............................................................................................................................................................ 21
+RESULTADO FINANCEIRO ................................................................................................................................................ 22
+OPERAÇÕES COM DERIVATIVOS ..................................................................................................................................... 23
+RESULTADO LÍQUIDO ....................................................................................................................................................... 26
+ENDIVIDAMENTO .............................................................................................................................................................. 27
+INVESTIMENTOS DE CAPITAL ......................................................................................................................................... 29
+GERAÇÃO DE CAIXA OPERACIONAL ................................................................................................................................ 30
+FLUXO DE CAIXA LIVRE .................................................................................................................................................... 31
+EVOLUÇÃO DA DÍVIDA LÍQUIDA .................................................................................................................................... 32
+ESG ....................................................................................................................................................................................... 32
+DESEMBOLSO TOTAL OPERACIONAL – CELULOSE ....................................................................................................... 32
+MERCADO DE CAPITAIS ........................................................................................................................................................... 33
+RENDA FIXA ................................................................................................................................................................................. 34
+RATING ......................................................................................................................................................................................... 34
+PRÓXIMOS EVENTOS ................................................................................................................................................................ 35
+ANEXOS ........................................................................................................................................................................................ 36
+ANEXO 1 – Dados Operacionais ..................................................................................................................................... 36
+ANEXO 2 – Demonstração de Resultado Consolidado e Amortização da Mais Valia ....................................... 38
+ANEXO 3 – Balanço Patrimonial Consolidado ............................................................................................................ 39
+ANEXO 4 – Demonstração de Fluxo de Caixa Consolidado .................................................................................... 40
+ANEXO 5 – EBITDA ........................................................................................................................................................... 41
+ANEXO 6 – Demonstração de Resultado Segmentado ............................................................................................ 42
+Afirmações sobre Expectativas Futuras ........................................................................................................................ 44
+RELEASE DE RESULTADOS 4T24
+Página 2 de 44
+
+[p. 3]
+SUMÁRIO EXECUTIVO
+O ano de 2024 foi marcado por avanços importantes na estratégia da Companhia, com aquisições de 
+novos negócios e o start-up da nova fábrica de Ribas do Rio Pardo e a conclusão de sua curva de 
+aprendizado ainda em dezembro, antecipando a previsão inicial de 9 meses.
+Com relação ao desempenho da unidade de negócio de celulose no último trimestre do ano, os preços 
+base China tiveram queda de 15% até o final de novembro (vs. a média do 3T24), mas mostraram-se 
+estáveis após este período. O trimestre também foi marcado novamente pela importante valorização 
+do USD médio em relação ao BRL médio e pela elevação no volume vendido, ambos fatores 
+compensando a queda do preço médio líquido de celulose. O custo caixa de produção (sem o efeito das 
+paradas programadas para manutenção) ficou 7% inferior em relação ao 3T24, beneficiado também 
+pela estabilização gradual da produção da Unidade Ribas do Rio Pardo. Dessa forma, o EBITDA ajustado 
+de celulose ficou estável em relação ao 3T24, enquanto o mesmo indicador teve crescimento de 53% na 
+comparação com o 4T23. Na unidade de negócios de papel, houve queda no EBITDA ajustado na 
+comparação trimestral (-9%), mas estabilidade na visão vs. o 4T23, em período em que a Companhia 
+concluiu a aquisição das unidades de Pine Bluff e Waynesville (Suzano Packaging US - conforme 
+divulgado ao mercado em outras oportunidades). Por fim, o EBITDA ajustado consolidado no trimestre 
+totalizou R$ 6,5 bilhões, enquanto o mesmo indicador encerrou 2024 em R$ 23,8 bilhões, 
+representando um aumento de 31% quando comparado a 2023. A geração operacional de caixa atingiu 
+R$ 4,8 bilhões no trimestre e R$ 16,2 bilhões no ano (+40% vs. 2023). 
+Em relação à gestão financeira, a dívida líquida medida em dólar ficou em US$ 12,8 bilhões, estável em 
+relação ao trimestre anterior. A alavancagem em dólar, por sua vez, apresentou nova queda para 2,9x, 
+decorrente sobretudo da elevação do EBITDA Ajustado dos últimos 12 meses, mantendo-se 
+plenamente enquadrada dentro do limite da política de endividamento financeiro. 
+Em relação à execução financeira do projeto, a Companhia completou aproximadamente 96% do 
+desembolso do capex total, restando portanto R$ 0,9 bilhão a serem pagos em 2025.
+RELEASE DE RESULTADOS 4T24
+Página 3 de 44
+
+[p. 4]
+DESEMPENHO DO NEGÓCIO DE CELULOSE
+VOLUME DE VENDAS E RECEITA DE CELULOSE
+O quarto trimestre de 2024 foi marcado por um cenário de desaceleração na queda de preços de fibra 
+curta e uma maior disponibilidade de celulose no mercado.
+Na China, os segmentos de papelcartão e imprimir e escrever vivenciaram uma grande variação ao longo 
+do quarto trimestre. Iniciando com queda dos preços de papel, voltaram a registrar alta devido à saída 
+temporária de um importante produtor integrado, atingindo taxas de crescimento de 2% e 3%, 
+respectivamente, no comparativo entre dezembro e novembro. Esse cenário impactou o volume total 
+de produção destes tipos de papel, com uma variação de -9% e -7% frente ao 3T24. Além disso, o 
+segmento de papéis sanitários se demonstrou saudável, com um aumento da produção em 2% 
+acompanhado pela desestocagem de produto final de 3%, comparado ao trimestre anterior.
+No mercado europeu, segundo a Utipulp, o consumo de fibra curta foi maior do que no trimestre 
+anterior em 4%, enquanto o consumo de fibra longa aumentou apenas 1% em relação ao 3T24, 
+também incentivado por um movimento de substituição de fibras - que ganhou maior tração com o 
+aumento do spread entre os preços de fibra longa e fibra curta. Na América do Norte, o mercado de 
+papéis sanitários permaneceu saudável quanto à demanda de celulose, especialmente após melhora do 
+consumo e projeções econômicas da região.
+Do ponto de vista da oferta de fibra curta, houve a continuação do ramp-up da produção de Ribas do 
+Rio Pardo no Brasil e Liansheng na China, além da redução do volume total impactado por paradas não 
+planejadas em relação ao trimestre anterior, resultando em uma maior disponibilidade de celulose no 
+mercado. No que diz respeito à fibra longa, na Finlândia, três fábricas de grande porte vivenciaram 
+paradas não planejadas devido à disponibilidade de madeira acessível e fatores operacionais, o que, 
+somado ao spread entre fibra curta e longa, fortaleceu o já citado movimento de substituição de fibras.
+Os índices PIX/FOEX médios do trimestre para a celulose de fibra curta na China apresentaram redução 
+de 14% em relação ao 3T24, porém com desaceleração no ritmo de queda. Na Europa, foi registrado 
+queda de 20% em relação ao 3T24. A diferença de preço entre as fibras longa e curta no trimestre foi de 
+USD 216/t na China e USD 425/t na Europa, motivando o movimento de substituição de fibra longa 
+para fibra curta.
+As vendas de celulose da Suzano aumentaram 25% e 19% na comparação com o trimestre anterior e 
+em relação ao 4T23, respectivamente, em função da elevação dos volumes para a Ásia e América do 
+Norte, totalizando 3.284 mil toneladas. 
+RELEASE DE RESULTADOS 4T24
+Página 4 de 44
+
+[p. 5]
+Volume de Vendas de Celulose (mil t)
++19% +25%
+q
++6%
+q
+2.761 2.635
+3.284
+180 176 170
+2.581 2.459
+3.114
+4T23 3T24 4T24
+10.215
+10.865
+701 697
+9.514 10.168
+2023 2024
+Mercado Externo Mercado Interno
+O preço líquido médio em USD da celulose comercializada pela Suzano foi de US$ 584/t, representando 
+uma queda de 13% na comparação com o 3T24 e um aumento de 3% comparado com o 4T23. No 
+mercado externo, o preço médio líquido realizado pela Companhia ficou também em US$ 583/t, 13% 
+inferior ao 3T24 e 2% superior ao 4T23. O preço líquido médio em reais foi de R$ 3.409/t no 4T24, 8% 
+inferior em relação ao 3T24, em função da redução do preço médio líquido em USD (-13%). Em relação 
+ao 4T23, o aumento de 21% ocorreu principalmente em função do maior preço médio líquido em USD 
+(+3%) e a valorização do USD médio vs o BRL médio (+18%). 
+Preço Médio Líquido (USD/t)
++3% -13%
+q
++7%
+q
+568
+671
+584
+4T23 3T24 4T24
+601 642
+2023 2024
+RELEASE DE RESULTADOS 4T24
+Página 5 de 44
+
+[p. 6]
+A receita líquida de celulose teve crescimento de 14% em relação ao 3T24, em função do maior volume 
+de vendas (+25%) e da valorização do USD médio frente ao BRL médio (+5%), parcialmente 
+compensados pelo menor preço médio líquido em USD (-13%). Na comparação com o 4T23, o aumento 
+de 44% é explicado principalmente pela valorização do USD médio frente ao BRL médio (+18%) e pelo 
+maior volume vendido (+19%).
+Receita líquida de Celulose (R$ milhões)
++44% +14%
+q
++23%
+q
+7.770
+9.803
+11.196
+454 660 585
+7.316
+9.143 10.610
+4T23 3T24 4T24
+30.677
+37.593
+2.144 2.295
+28.533
+35.298
+2023 2024
+Mercado Externo Mercado Interno
+RELEASE DE RESULTADOS 4T24
+Página 6 de 44
+
+[p. 7]
+CUSTO CAIXA DE CELULOSE
+Conforme divulgado em Fato Relevante no dia 21 de julho de 2024, a Companhia iniciou naquela data a 
+operação da nova fábrica de produção de celulose de Ribas do Rio Pardo, de forma que o efeito não 
+recorrente dos custos relacionados ao start-up da planta (ocorrido no 3T24) está segregado nos 
+gráficos abaixo. 
+Custo Caixa de Celulose Consolidado
+sem parada (R$/t)
+-1% -7%
+q
+-6%
+q
+816 863 807
+4T23 3T24 4T24
+882 828
+2023 2024
+Custo Caixa de Celulose (R$/t)
++8% -6%
+q
+-6%
+q
+816
+932
+880
+816 863 807
+43
+73
+4T23 3T24 4T24
+931
+875
+882 828
+49
+40
+2023 2024
+Custo Caixa (sem parada) Start-up Ribas Efeito parada
+RELEASE DE RESULTADOS 4T24
+Página 7 de 44
+25
+7
+
+[p. 8]
+O custo caixa sem paradas do 4T24 foi de R$ 807/t, apresentando queda de -7% frente ao 3T24 em 
+função de: i) menor custo com madeira, principalmente pela redução do raio médio; ii) menor consumo 
+de insumos, sobretudo de energéticos (destaques para o gás natural e óleo combustível), associados à 
+maior estabilidade operacional em algumas fábricas, além do menor preço (ex efeito câmbio) de 
+energéticos, que compensou o aumento de preços observados em alguns químicos (principalmente 
+soda cáustica); iii) maior diluição de custo fixo devido ao maior volume de produção de celulose, com 
+destaque para a nova unidade de Ribas; e iv) maior receita de utilidades, com destaque novamente para 
+a fábrica de Ribas com a maior geração de energia para exportação. Os fatores positivos do custo caixa 
+foram parcialmente compensados pela valorização do USD médio em relação ao BRL médio (+5%).
+Custo Caixa de Celulose consolidado sem parada (R$/t)¹
+1Exclui o efeito de paradas gerais para manutenção e paradas administrativas.
+O custo caixa sem paradas do 4T24 apresentou queda de 1% em relação ao 4T23 em função: i) do 
+menor custo da madeira, por sua vez explicado sobretudo pelo menor raio médio, pela maior 
+produtividade na colheita e menor participação de madeira posto fábrica, parcialmente compensados 
+pelos maiores custos com serviços logísticos; ii) do menor consumo e preço (ex efeito câmbio) de 
+energéticos, com destaque para gás natural pela maior eficiência energética da fábrica de Jacareí; e iii) 
+maior receita de utilidades em função do maior volume exportado, proporcionado pela nova unidade de 
+Ribas. Os efeitos positivos no custo caixa foram compensados pela valorização do USD médio frente ao 
+BRL médio (+18%).
+RELEASE DE RESULTADOS 4T24
+Página 8 de 44
+
+[p. 9]
+Custo Caixa de Celulose consolidado sem parada (R$/t)¹
+1Exclui o efeito de paradas gerais para manutenção e paradas administrativas.. 
+Custo Caixa de Celulose consolidado sem parada (R$/t)¹
+1Exclui o efeito de paradas gerais para manutenção e paradas administrativas.
+O custo caixa sem paradas de 2024 apresentou redução de 6% em relação a 2023, em função do menor 
+custo com insumos (especialmente gás natural e soda cáustica) e pelo menor custo da madeira, 
+sobretudo em função do menor raio médio no período e menor consumo específico de madeira. Esses 
+efeitos foram compensados pela valorização do USD médio frente ao BRL (+8%).
+RELEASE DE RESULTADOS 4T24
+Página 9 de 44
+
+[p. 10]
+Custo Caixa 4T24¹
+Custo Fixo
+20%
+Madeira
+37%
+Químicos
+26%
+Energéticos
+14%
+Outros 
+Variáveis
+3%
+Custo Caixa 4T23¹
+Custo Fixo
+20%
+Madeira
+40%
+Químicos
+23%
+Energéticos
+14%
+Outros 
+Variáveis
+3%
+1Considera o custo caixa sem paradas. Não considera venda de energia.
+EBITDA DO SEGMENTO CELULOSE
+Segmento Celulose 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado (R$ 
+milhões)¹ 5.730 5.697 1% 3.756 53% 20.866 15.195 37%
+Volume Vendido (mil t) 3.284 2.635 25% 2.761 19% 10.865 10.215 6%
+EBITDA Ajustado¹ 
+Celulose (R$/t) 1.745 2.162 -19% 1.360 28% 1.921 1.487 29%
+1Desconsidera itens não recorrentes.
+O EBITDA Ajustado da celulose foi 1% superior em relação ao 3T24, em função: i) do maior volume de 
+vendas (+25%) principalmente a partir da entrada em operação de Ribas do Rio Pardo; e ii) da 
+valorização do USD médio em relação ao BRL médio (+5%). Esses efeitos foram compensados: i) pelo 
+menor preço médio líquido da celulose em USD (-13%); ii) maior SG&A, por sua vez explicado 
+principalmente pelo maior gasto com mão de obra, decorrente do aumento em remuneração variável e 
+no quadro pessoal em função das novas operações; e iii) maior CPV (maior efeito das paradas 
+programadas para manutenção e maiores gastos logísticos). A redução de 19% no EBITDA ajustado por 
+tonelada é explicada pela queda do preço e maior SG&A.
+Quando comparado ao 4T23, o aumento de 53% do EBITDA Ajustado da celulose é devido: i) à 
+valorização do USD médio frente ao BRL médio (+18%); ii) ao maior volume de vendas (+19%); e iii) ao 
+aumento do preço médio líquido em USD (+3%). Tais fatores foram parcialmente compensados pelo i) 
+maior CPV por tonelada, explicado principalmente pelo maior impacto das paradas programadas para 
+manutenção e serviços logísticos; ii) maior SG&A, relacionado à maior provisão para remuneração 
+variável e aumento do quadro pessoal em função das novas operações (Ribas e Suzano Packaging US). O 
+aumento de 28% no EBITDA ajustado por tonelada ocorreu, principalmente, em função da valorização 
+do USD médio em relação ao BRL médio. 
+RELEASE DE RESULTADOS 4T24
+Página 10 de 44
+
+[p. 11]
+EBITDA Ajustado1 (R$ milhões) e Margem 
+EBITDA Ajustado (%) de Celulose
+3.756 5.697 5.730
+48%
+58%
+51%
+4T23 3T24 4T24
+15.195
+20.866
+50%
+56%
+2023 2024
+Margem EBITDA Ajustado EBITDA Celulose
+1Desconsidera itens não recorrentes.
+EBITDA Ajustado Celulose por tonelada (R$/t)
++28% -19%
+q
++29%
+q
+1.360
+2.162
+1.745
+4T23 3T24 4T24
+1.487
+1.921
+2023 2024
+RELEASE DE RESULTADOS 4T24
+Página 11 de 44
+
+[p. 12]
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO CELULOSE
+Segmento de Celulose 
+(R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado¹ 5.730 5.697 1% 3.756 53% 20.866 15.195 37%
+Capex Manutenção² (1.462) (1.953) -25% (1.531) -5% (6.960) (6.028) 15%
+Geração de Caixa 
+Operacional 4.268 3.744 14% 2.225 92% 13.906 9.167 52%
+1Desconsidera itens não recorrentes.
+2Regime caixa.
+A geração de caixa operacional por tonelada do segmento de celulose foi 9% inferior em relação ao 
+3T24 devido à queda do EBITDA por tonelada, parcialmente compensada pelo menor capex de 
+manutenção por tonelada. Quando comparado ao 4T23, o aumento de 61% deve-se ao maior EBITDA 
+por tonelada e ao menor capex de manutenção por tonelada. 
+Geração de Caixa Operacional de Celulose 
+por tonelada (R$/t)
++61% -9%
+q
++43%
+q
+806
+1.421 1.300
+4T23 3T24 4T24
+897
+1.280
+2023 2024
+DESEMPENHO DO NEGÓCIO DE PAPEL
+Os dados e as análises a seguir incorporam os resultados conjuntos dos negócios de papel e bens de 
+consumo (tissue).
+VOLUME DE VENDAS E RECEITA DE PAPEL
+De acordo com os dados publicados pelo IBÁ (Indústria Brasileira de Árvores), a demanda de Imprimir 
+& Escrever no Brasil, considerando importações, apresentou um crescimento de 7% nos dois primeiros 
+meses do 4T24 em relação aos dois primeiros meses do 3T24 e um crescimento de 12% na comparação 
+com o mesmo período ano anterior.
+RELEASE DE RESULTADOS 4T24
+Página 12 de 44
+
+[p. 13]
+A demanda nos mercados atendidos pela empresa seguiu sólida no trimestre. Na comparação com o 
+mesmo período do ano passado, houve crescimento em todas as linhas, impulsionada pela melhora na 
+atividade econômica e uma concentração maior de compras de papel para o programa de livros 
+didáticos do governo federal no período. Na comparação com os dois meses do trimestre anterior, 
+tivemos uma redução já esperada na demanda por papéis revestidos, com o fim do ciclo eleitoral, 
+compensada pelo crescimento na demanda das linhas de papéis não revestidos. 
+Em relação aos mercados internacionais servidos pela companhia, o ano foi marcado pela demanda 
+saudável, sobretudo na América do Norte e na América Latina, onde efeitos locais como eleições e a 
+baixa base de comparação com o ano anterior acabaram compensando a tendência estrutural de 
+redução na demanda nas linhas de papel I&E. Entretanto, no último trimestre houve indícios da 
+demanda mais próxima à tendência estrutural de queda, sobretudo na Europa. 
+Referente à demanda de papelcartão no Brasil, houve uma redução de 4% na demanda nos dois 
+primeiros meses do 4T24 em relação aos dois primeiros meses do trimestre anterior, enquanto na 
+comparação com o mesmo período de 2023, houve um crescimento de 9.5%, de acordo com o Ibá. Esse 
+crescimento vs. 2023 foi resultado do desempenho positivo do consumo das famílias e da economia 
+brasileira, enquanto a redução vs. o trimestre anterior refletiu um arrefecimento na atividade 
+econômica no último trimestre de 2024, em setores específicos, como o farmacêutico. 
+Consolidando os segmentos de mercado acima mencionados (mercado de papel acessível ás operações 
+brasileiras da Suzano), a demanda teve crescimento de 11% nos dois primeiros meses do 4T24 na 
+comparação com o 4T23, segundo dados do IBÁ. No acumulado dos 11 meses de 2024, a demanda 
+cresceu 5%, na comparação com o mesmo período de 2023. 
+O trimestre também foi marcado pela conclusão da aquisição dos ativos da Pactiv Evergreen nos EUA e 
+o início da gestão da companhia sobre tais operações. A integração dos novos colaboradores, ativos 
+industriais, clientes e fornecedores ocorre conforme o plano desenhado antes da aquisição. No 
+trimestre foram renegociados todos os contratos comerciais, com condições comerciais mais favoráveis 
+à Suzano, bem como foram concluídas as negociações de insumos e serviços logísticos visando a captura 
+de sinergias. O turn-around industrial na busca de melhor performance operacional e maior volume de 
+produção transcorre como o previsto.
+As vendas de papel da Suzano (imprimir & escrever, papelcartão e tissue) no mercado interno 
+totalizaram 293 mil toneladas no 4T24, crescimento de 12% em relação ao trimestre anterior, motivada 
+pelo crescimento das vendas de papel não revestido. Em relação ao 4T23, o crescimento de 9% foi 
+decorrente do aumento de vendas de papéis Imprimir & Escrever (principalmente em papel não 
+revestido) e de papelcartão.
+As vendas de papel nos mercados internacionais totalizaram 137 mil toneladas, representando 32% do 
+volume total de vendas no 4T24. O aumento de 41% em relação ao 3T24 e de 17% em relação ao 4T23, 
+ocorreu devido à adição dos novos volumes de papelcartão da Suzano Packaging US a partir de Outubro 
+de 2024.
+RELEASE DE RESULTADOS 4T24
+Página 13 de 44
+
+[p. 14]
+Volume de Vendas de Papel (mil t)¹
++11% +20%
+q
++11%
+q
+386 360
+430
+269 262 293
+117 98
+137
+4T23 3T24 4T24
+1.291
+1.436
+923 1.003
+368
+432
+2023 2024
+Mercado Externo Mercado Interno
+1Inclui a unidade de bens de consumo e os volumes dos meses de out/24 e nov/24 da operação da Unidade Suzano Packaging US.
+O preço médio líquido teve aumento de +1% em relação ao trimestre anterior, em função da adição 
+dos volumes da Suzano Packaging US, bem como a valorização do USD médio em relação ao BRL médio. 
+Em relação ao 4T23, o aumento de +3% ocorreu por conta dos mesmos fatores mencionados 
+anteriormente. 
+Preço Médio Líquido de Papel (R$/t)1 
++3% +1%
+q
+-3%
+q
+6.732 6.866 6.926
+4T23 3T24 4T24
+7.030 6.832
+2023 2024
+1Inclui a unidade de bens de consumo e os volumes dos meses de out/24 e nov/24 da operação da Unidade Suzano Packaging US.
+RELEASE DE RESULTADOS 4T24
+Página 14 de 44
+
+[p. 15]
+A receita líquida de papel foi de R$ 2.981 milhões, aumento de 21% em relação ao 3T24, sobretudo em 
+função do maior volume de vendas (+20%), por sua vez impactado pelos volumes da Suzano Packaging 
+US e 15% em relação ao 4T23, por conta da valorização do dólar médio frente ao real (+18%) e maior 
+volume de vendas (+11%), também impactado pelos volumes da Suzano Packaging US. 
+Receita de Papel (R$ milhões)¹
++15% +21%
+q
++8%
+q
+2.602 2.471
+2.981
+1.972 1.898 2.069
+630 573
+912
+4T23 3T24 4T24
+9.078
+9.810
+6.719 7.279
+2.359
+2.531
+2023 2024
+Mercado Externo Mercado Interno
+1Inclui a unidade de bens de consumo e a receita líquida dos meses de out/24 e nov/24 da operação da Unidade Suzano Packaging US..
+EBITDA DO SEGMENTO PAPEL
+Segmento Papel 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado (R$ 
+milhões)¹ 751 825 -9% 748 0% 2.983 3.078 -3%
+Volume Vendido (mil t) 430 360 20% 386 11% 1.436 1.291 11%
+EBITDA Ajustado¹ Papel 
+(R$/t) 1.746 2.294 -24% 1.936 -10% 2.078 2.384 -13%
+1Desconsidera itens não recorrentes.
+O EBITDA Ajustado do papel teve uma redução de 9% na comparação com o 3T24, em função: (i) do 
+aumento CPV base caixa, dado impactado adicional da nova operação da Suzano Packaging US; e (ii) da 
+maior despesa com SG&A, por sua vez em função da elevação dos gastos com pessoal (referente ao 
+ajuste da provisão de remuneração variável) e da nova operação da Suzano Packaging US. Esses efeitos 
+foram parcialmente compensado pela redução do custo com insumos (efeito preço e consumo) e 
+menor custo da madeira nas demais operações, além do maior volume vendido. Na análise do EBITDA 
+ajustado por tonelada, a redução de 24% é explicada pelos mesmos fatores ex-volumes.
+RELEASE DE RESULTADOS 4T24
+Página 15 de 44
+
+[p. 16]
+Em relação ao 4T23, o indicador ficou estável, sendo os fatores positivos o aumento da receita líquida 
+(volume e preço maiores) e a valorização do USD médio em relação ao BRL médio (+18%). Estes foram 
+compensados: i) pelo maior CPV base caixa, impactado pela nova operação da Suzano Packaging US 
+(apesar da redução no custo de insumos e madeira nas demais operações); e ii) pelo maior SG&A, 
+impactado pela elevação dos gastos com pessoal (referente ao ajuste da provisão de remuneração 
+variável) e pela nova operação da Suzano Packaging US. Na análise do EBITDA ajustado por tonelada, a 
+queda de 10% é explicada pelos mesmos fatores.
+EBITDA Ajustado (R$ milhões) e 
+Margem EBITDA Ajustado (%) de Papel
+748 825 751
+29% 33%
+25%
+4T23 3T24 4T24
+3.078 2.983
+34% 30%
+2023 2024
+Margem EBITDA Ajustado EBITDA Papel
+EBITDA Ajustado Papel (R$/t)
+-10% -24%
+q
+-13%
+q
+1.936
+2.294
+1.746
+4T23 3T24 4T24
+2.384
+2.078
+2023 2024
+RELEASE DE RESULTADOS 4T24
+Página 16 de 44
+
+[p. 17]
+GERAÇÃO DE CAIXA OPERACIONAL DO SEGMENTO PAPEL
+Ger. Operacional – Papel 
+(R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado¹ 751 825 -9% 748 0% 2.983 3.078 -3%
+Capex Manutenção² (176) (175) 1% (195) -10% (650) (679) -4%
+Geração de Caixa 
+Operacional 575 650 -12% 553 4% 2.334 2.400 -3%
+1Desconsidera itens não recorrentes.
+2Em regime caixa.
+A geração de caixa operacional por tonelada do papel foi de R$ 1.336/t no 4T24, uma redução de 26% 
+em comparação ao 3T24 e redução de -7% em relação ao mesmo período do ano anterior, como 
+resultado do menor EBITDA por tonelada parcialmente compensado pelo menor capex de manutenção 
+por tonelada. 
+Geração de Caixa Operacional de Papel por tonelada (R$/t)
+-7% -26%
+q
+-13%
+q
+1.432
+1.807
+1.336
+4T23 3T24 4T24
+1.858
+1.625
+2023 2024
+RELEASE DE RESULTADOS 4T24
+Página 17 de 44
+
+[p. 18]
+DESEMPENHO ECONÔMICO-FINANCEIRO
+RECEITA LÍQUIDA
+A receita líquida da Suzano no 4T24 foi de R$ 14.177 milhões, sendo 81% gerada no mercado externo 
+(vs. 79% no 3T24 e 77% no 4T23). Em relação ao 3T24, o aumento de 16% é explicado pelo maior 
+volume vendido (+25%) e pela valorização do USD médio em relação ao BRL médio (+5%), parcialmente 
+compensados pelo menor preço médio líquido de celulose em dólar (-13%). A elevação de 37% da 
+receita líquida consolidada em relação ao 4T23 é explicada principalmente pela valorização do USD 
+médio em relação ao BRL médio (+18%) e pelo maior volume vendido de celulose (+19%).
+Receita Líquida1 (R$ milhões)
++37% +16%
+q
++19%
+q
+10.372
+12.274
+14.177
+2.426 2.558 2.654
+7.946 9.716 11.523
+4T23 3T24 4T24
+39.756
+47.403
+8.864 9.574
+30.892
+37.829
+2023 2024
+Mercado Externo Mercado Interno
+1Não inclui a receita de serviços de Portocel.
+Composição da Receita Líquida (4T24)
+Outros Papéis
+5% Papelcartão
+2%
+Imprimir e 
+Escrever
+11%
+Celulose
+79%
+RELEASE DE RESULTADOS 4T24
+Página 18 de 44
+
+[p. 19]
+CALENDÁRIO DE PARADAS PROGRAMADAS PARA MANUTENÇÃO
+Fábrica – Capacidade Celulose 2023 2024 2025
+1T23 2T23 3T23 4T23 1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25
+Aracruz - Linha A (ES) – 590 kt Sem parada
+Aracruz - Linha B (ES) – 830 kt Sem parada
+Aracruz - Linha C (ES) – 920 kt Sem parada Sem parada
+Imperatriz (MA)¹ – 1.650 kt Sem parada
+Jacareí (SP) – 1.100 kt Sem parada
+Limeira (SP)¹ – 690 kt 
+Mucuri - Linha 1 (BA)¹ – 610 kt Sem parada
+Mucuri - Linha 2 (BA) – 1.130 kt Sem parada
+Ribas do Rio Pardo (MS) - 2.550 kt N/A Sem parada
+Suzano (SP)¹ – 620 kt 
+Três Lagoas - Linha 1 (MS) – 1.300 kt Sem parada
+Três Lagoas - Linha 2 (MS) – 1.950 kt Sem parada
+Veracel (BA)² – 560 kt Sem parada
+1Inclui as capacidades integradas e fluff.
+2Veracel é uma joint operation entre Suzano (50%) e Stora Enso (50%) e sua capacidade total anual é de 1.120 mil t.
+CUSTO DO PRODUTO VENDIDO
+CPV (R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+CPV 8.761 6.848 28% 6.776 29% 27.402 25.077 9%
+(-) Depreciação, 
+exaustão e amortização (2.542) (2.034) 25% (1.904) 34% (8.135) (6.718) 21%
+CPV base caixa 6.218 4.814 29% 4.872 28% 19.267 18.358 5%
+Volume de vendas (mil t) 3.714 2.995 24% 3.148 18% 12.300 11.507 7%
+CPV base caixa/t (R$/t) 1.674 1.607 4% 1.548 8% 1.566 1.595 -2%
+O CPV base caixa no 4T24 totalizou R$ 6.218 milhões ou R$ 1.674/t. Na comparação com o 3T24, o CPV 
+base caixa teve aumento de 29%, principalmente em função: i) do maior volume de vendas de celulose, 
+proporcionado principalmente pela nova fábrica de Ribas; ii) efeito adicional no custo em decorrência 
+da nova operação da Suzano Packaging US; iii) valorização do USD médio em relação ao BRL médio de 
+5% sobre os itens mais expostos à moeda estrangeira (i.e. alguns químicos, energéticos e frete 
+marítimo); iv) maior efeito das paradas programadas para manutenção; e v) maiores custos logísticos 
+(sobretudo pelo efeito mix de fábricas). Esses fatores foram parcialmente compensados pelo impacto 
+positivo da aceleração da curva de aprendizado de Ribas e menor custo caixa de produção de celulose. 
+Na análise por tonelada, o indicador foi 4% superior devido aos mesmos fatores ex-volumes.
+Na comparação com o 4T23, o CPV base caixa teve aumento de 28% em função sobretudo: i) do maior 
+volume vendido de celulose; ii) do impacto adicional no custo com a nova operação da Suzano Packaging 
+US; iii) maior impacto das paradas programadas para manutenção; iv) valorização do USD médio frente 
+ao BRL médio de 18% sobre os itens mais expostos à moeda estrangeira como citado anteriormente; e 
+v) maiores custos logísticos. Na análise por tonelada, o indicador foi 8% maior que no mesmo período 
+do ano anterior devido aos mesmos fatores ex-volumes.
+RELEASE DE RESULTADOS 4T24
+Página 19 de 44
+
+[p. 20]
+DESPESAS DE VENDAS
+Despesas de Vendas (R$ 
+milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Despesas de vendas 857 728 18% 712 20% 2.939 2.596 13%
+(-) Depreciação, 
+exaustão e amortização (237) (239) -1% (239) -1% (955) (952) 0%
+Despesas de vendas base 
+caixa 619 489 27% 473 31% 1.983 1.644 21%
+Volume de vendas (mil t) 3.714 2.995 24% 3.148 18% 12.300 11.507 7%
+Despesas de vendas base 
+caixa/t (R$/t) 167 163 2% 150 11% 161 143 13%
+As despesas com vendas base caixa apresentaram aumento de 27% em relação ao 3T24, em função 
+principalmente: i) do maior volume vendido; ii) maiores gastos com mão de obra (maior quadro de 
+pessoal associado às novas operações de Ribas e Suzano Packaging US); e iii) da valorização do USD 
+médio em relação ao BRL médio (+5%) sobre as despesas logísticas internacionais. Na análise por 
+tonelada, as despesas de vendas base caixa tiveram aumento de 2% devido aos fatores mencionados, 
+ex-volumes.
+Quando comparado ao 4T23, as despesas de vendas base caixa foram 31% superiores, decorrentes 
+principalmente: i) valorização do USD médio em relação BRL médio (18%) principalmente sobre 
+despesas logísticas internacionais; ii) maior volume vendido; iii) maiores despesas com mão de obra, em 
+grande parte associadas às novas operações (Ribas e Suzano Packaging US). As despesas com vendas 
+base caixa por tonelada tiveram uma elevação de 11%, em função dos mesmos fatores elencados 
+anteriormente ex-volumes.
+DESPESAS GERAIS E ADMINISTRATIVAS
+Despesas Gerais e 
+Administrativas (R$ 
+milhões)
+4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Despesas gerais e 
+administrativas 990 569 74% 615 61% 2.620 1.923 36%
+(-) Depreciação, 
+exaustão e amortização (38) (36) 6% (33) 15% (144) (119) 21%
+Despesas gerais e 
+administrativas 
+base caixa
+952 533 79% 582 64% 2.476 1.804 37%
+Volume de vendas (mil t) 3.714 2.995 24% 3.148 18% 12.300 11.507 7%
+Despesas gerais e 
+administrativas base 
+caixa/t (R$/t)
+256 178 44% 185 39% 201 157 28%
+Na comparação com o 3T24, a elevação de 79% das despesas gerais e administrativas base caixa é 
+explicada principalmente é explicada principalmente por: i) maiores gastos com pessoal (principalmente 
+referente ao ajuste da provisão de remuneração variável); e ii) maiores gastos com serviços de terceiros. 
+A mesma análise explica o acréscimo de 44% na comparação por tonelada.
+Na comparação com o 4T23, as despesas gerais e administrativas base caixa foram 64% superiores em 
+função principalmente: i) de maiores gastos com pessoal, por sua vez devido à maior provisão para 
+remuneração variável e aumento do quadro de pessoal em função das novas operações e ii) maiores 
+gastos com serviços de terceiros (sobretudo TI, auditoria e consultoria). Na análise por tonelada, o 
+aumento de 39% é justificado pelos mesmos fatores.
+RELEASE DE RESULTADOS 4T24
+Página 20 de 44
+
+[p. 21]
+A rubrica “ outras receitas (despesas) operacionais ” totalizou receita de R$ 846 milhões no 4T24, em 
+comparação a uma despesa de R$ 8 milhões no 3T24 e receita de R$ 902 milhões no 4T23. A variação 
+em relação ao 3T24 é explicada sobretudo pela atualização do valor justo do ativo biológico (que ocorre 
+no segundo e quarto trimestre de cada ano). Em relação ao 4T23, a variação ocorreu em função de 
+eventos diversos de baixa materialidade.
+EBITDA AJUSTADO
+Consolidado 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado (R$ 
+milhões)¹ 6.481 6.523 -1% 4.505 44% 23.849 18.273 31%
+Margem EBITDA 
+Ajustado 46% 53% -7 p.p 43% 2 p.p 50% 46% 4 p.p
+Volume Vendido (mil t) 3.714 2.995 24% 3.148 18% 12.300 11.507 7%
+EBITDA Ajustado¹ 
+Consolidado (R$/t) 1.745 2.178 -20% 1.431 22% 1.939 1.588 22%
+1Desconsidera itens não recorrentes.
+A redução de -1% do EBITDA Ajustado do 4T24 em relação ao 3T24 é explicado sobretudo: i) pelo 
+menor preço médio líquido de celulose em dólar (-13%); e ii) pelo maior gasto com SG&A em função dos 
+maiores gastos com pessoal, por sua vez devido principalmente à maior provisão para remuneração 
+variável. Esses fatores foram compensados principalmente pelo maior volume vendido de celulose 
+(+24%), bem como pela valorização do USD médio em relação ao BRL médio (+5%). A redução de -20% 
+no EBITDA ajustado por tonelada é explicada pela queda do preço da celulose em dólar e maior SG&A.
+Já em relação ao 4T23, o aumento de 44% no EBITDA Ajustado ocorreu em função, principalmente: i) 
+da valorização do USD médio em relação ao BRL médio (+18%); e ii) do maior volume de vendas em 
+celulose (+19%) e em papel (+11%), esses efeitos foram parcialmente compensados pelo i) maior CPV 
+base-caixa, por sua vez relacionado a nova operação da Suzano Packaging US, e ao maior impacto das 
+paradas programadas e maiores custos logísticos e ii) maior SG&A (conforme detalhado anteriormente).
+ O EBITDA ajustado por tonelada teve um aumento de 22% devido aos mesmo motivos, ex-volume. 
+RELEASE DE RESULTADOS 4T24
+Página 21 de 44
+
+[p. 22]
+RESULTADO FINANCEIRO
+Resultado Financeiro 
+(R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Despesas Financeiras (1.692) (1.567) 8% (1.175) 44% (5.542) (4.659) 19%
+Juros sobre 
+empréstimos e 
+financiamentos em 
+moeda local
+(393) (376) 5% (376) 5% (1.470) (1.465) 0%
+Juros sobre 
+empréstimos e 
+financiamentos em 
+moeda estrangeira
+(1.077) (1.021) 5% (884) 22% (3.944) (3.332) 18%
+Juros capitalizados1 77 81 -5% 344 -78% 960 1.160 -17%
+Outras despesas 
+financeiras (298) (251) 19% (259) 15% (1.088) (1.022) 6%
+Receitas Financeiras 435 421 3% 610 -29% 1.737 1.826 -5%
+Juros sobre aplicações 
+financeiras 386 393 -2% 565 -32% 1.598 1.668 -4%
+Outras receitas 
+financeiras 50 28 79% 45 11% 139 157 -11%
+Variação Cambial e 
+Monetária (8.930) 1.231 - 1.343 - (15.885) 3.088 -
+Variação cambial dívida (9.699) 1.370 - 2.024 - (17.713) 4.186 -
+Outras variações 
+cambiais e monetárias 770 (139) - (681) - 1.827 (1.098) -
+Resultado de operações 
+com derivativos2 (5.370) 782 - 1.492 - (9.113) 5.527 -
+Hedge de Fluxo de 
+caixa – Operacional (3.920) 621 - 1.006 - (6.146) 3.258 -
+Hedge do Fluxo de 
+caixa – Cerrado — 13 - 125 - (96) 447 -
+Hedge de dívida (1.319) 199 - 299 - (2.647) 1.532 -
+Outros³ (132) (50) - 62 - (224) 290 -
+Resultado Financeiro 
+Líquido (15.556) 867 - 2.269 - (28.803) 5.781 -
+1Capitalização de juros referente a obras em andamento.
+2Variação da marcação a mercado (4T24: -R$ 6.568 milhões | 3T24: -R$ 1.396 milhões), somada aos ajustes pagos e recebidos (4T24: -R$ 198 
+milhões).
+3Considera hedge de commodities e derivativo embutido.
+As despesas financeiras foram 8% superiores em relação ao 3T24 devido ao aumento das despesas de 
+juros em moeda estrangeira, em função da valorização do USD em relação ao BRL no período, e o 
+aumento da rubrica de "outras despesas financeiras" com a atualização da provisão sobre processos 
+jurídicos. Comparado ao 4T23, as despesas financeiras registraram um aumento de 44%, em função da 
+redução em juros capitalizados a partir dos recursos investidos na execução do Projeto Cerrado e do 
+aumento das despesas de juros em moeda estrangeira, por sua vez em função também da valorização 
+do USD em relação ao BRL.
+As receitas financeiras apresentaram aumento de 3% em comparação ao 3T24, em função da elevação 
+na rubrica "outras receitas financeiras", por sua vez resultado da correção monetária de impostos e 
+contribuições federais a restituir. Em relação ao 4T23, houve uma redução de 29% nas receitas 
+financeiras explicada pela redução nos juros sobre aplicações financeiras, em função de receita 
+financeira menor em subsidiárias, bem como ao menor nível médio de caixa offshore. 
+As variações cambiais e monetárias reduziram o resultado financeiro da Companhia em R$ 8.930 
+milhões em decorrência da valorização do USD frente ao BRL no 3T24 (+14%), impactando a parcela da 
+dívida em moeda estrangeira (US$ 13.405 milhões ao final do 4T24). Esse efeito foi parcialmente 
+compensado pelo resultado positivo da variação cambial sobre outros itens do balanço em moeda 
+estrangeira. 
+RELEASE DE RESULTADOS 4T24
+Página 22 de 44
+
+[p. 23]
+Importante ressaltar que o impacto contábil da variação cambial na dívida em moeda estrangeira tem 
+efeito caixa somente nos respectivos vencimentos.
+O resultado de operações com derivativos foi negativo em R$ 5.370 milhões no 4T24 sobretudo em 
+função do impacto negativo da desvalorização cambial. A marcação a mercado dos instrumentos 
+financeiros derivativos em 31 de dezembro de 2024 foi negativa em R$ 6.568 milhões, vis a vis à 
+marcação negativa de R$ 1.396 milhões em 30 de setembro de 2024, perfazendo a variação negativa de 
+R$ 5.172 milhões. Importante destacar que o impacto da desvalorização do BRL sobre a carteira de 
+derivativos só terá efeito caixa nos respectivos vencimentos. O efeito líquido no caixa referente ao 
+vencimento de operações com derivativos no quarto trimestre foi negativo em R$ 198 milhões (sendo 
+negativo em R$ 82 milhões referentes a hedge de dívida, R$ 126 milhões negativos referentes a hedge 
+de fluxo de caixa e R$ 10 milhões positivos referentes a commodities).
+Em decorrência dos fatores acima listados, e considerando todas as linhas de despesas e receitas 
+financeiras, o resultado financeiro líquido foi negativo em R$ 15.556 milhões no 4T24, em comparação 
+ao resultado positivo de R$ 867 milhões no 3T24 e positivo de R$ 2.269 milhões no 4T23.
+OPERAÇÕES COM DERIVATIVOS
+A Suzano tem operações com derivativos exclusivamente com a finalidade de proteção (hedge). A 
+tabela a seguir reflete a posição dos instrumentos derivativos em 31 de dezembro de 2024:
+Hedge1 Nocional (US$ milhões) Valor justo (R$ milhões)
+Dez/24 Set/24 Dez/24 Set/24
+Dívida 5.123 4.713 (1.843) (607)
+Fluxo de caixa – Operacional (ZCC + NDF) 7.433 7.623 (4.661) (867)
+Outros2 342 361 (64) 78
+Total 12.898 12.697 (6.568) (1.396)
+1Vide nota 4 do ITR do 4º trimestre de 2024 para maiores detalhes e análises de sensibilidade do valor justo.
+2Considera hedge de commodities e derivativo embutido. 
+A política de exposição cambial da Companhia tem como objetivo minimizar a volatilidade da geração de 
+caixa da Suzano e garantir maior flexibilidade na gestão do fluxo de caixa. Atualmente, a política 
+estipula que o excedente de dólares pode ser parcialmente “hedgeado” (mínimo de 40% e até 75% da 
+exposição cambial para os próximos 24 meses) por meio de instrumentos plain vanilla, como Zero Cost 
+Collar (ZCC) e Non-Deliverable Forward (NDF). Amparado na previsão da política, em novembro de 
+2024, buscando o aumento da proteção cambial em um cenário de Real desvalorizado e taxas de juros 
+altas, o Conselho de Administração aprovou um programa extraordinário de hedge de fluxo de caixa no 
+total de US$ 600 milhões para o período entre 25-30 meses. Tal programa extraordinário foi 
+totalmente executado no 4T24. Ao final do 4T24, a cobertura do portfolio de hedge de fluxo de caixa 
+estava em 73% da exposição cambial.
+As operações de ZCC estabelecem limites inferiores e superiores da taxa de câmbio com objetivo de 
+minimizar impactos negativos em casos em que ocorra uma elevada apreciação do BRL. Dessa forma, 
+quando a taxa de câmbio ficar entre os limites estabelecidos, a Companhia não paga e nem recebe 
+ajustes financeiros. Tal característica permite que se capture um maior benefício nas receitas de 
+exportação em um eventual cenário de valorização do BRL frente ao USD, dentro do intervalo 
+contratado. Para cenários extremos de valorização do BRL, a Companhia está protegida pelos limites 
+inferiores, considerados adequados para a operação. Ao mesmo tempo, esse instrumento de proteção 
+limita, temporária e parcialmente, os potenciais ganhos em cenários extremos de desvalorização do 
+BRL, em que as taxas de câmbio superam os limites superiores contratados. 
+RELEASE DE RESULTADOS 4T24
+Página 23 de 44
+
+[p. 24]
+Em 31 de dezembro de 2024, o valor em aberto das operações (notional) para venda futura de dólares 
+através de ZCC relacionadas a Fluxo de Caixa era de US$ 6.852 milhões, contratadas pelo intervalo 
+médio de R$ 5,36 a R$ 6,16, com vencimentos distribuídos entre janeiro de 2024 e maio de 2027. Nesta 
+mesma data, o valor em aberto das operações (notional) para venda futura de dólares por meio de NDF 
+era de US$ 581 milhões, com vencimentos distribuídos entre janeiro de 2025 e junho de 2026 e taxa 
+média contratada de R$ 5,78. O resultado com operações de hedge operacional de Fluxo de Caixa no 
+4T24 foi negativa em R$ 3.920 milhões, em função principalmente da desvalorização cambial ocorrida 
+no período (-28%). Já a marcação a mercado (“MtM” ou “valor justo”) dessas operações ficou negativa 
+em R$ 4.661 milhões.
+A tabela abaixo apresenta uma análise de sensibilidade em relação ao impacto caixa que a Companhia 
+poderá ter em suas carteiras de hedge de Fluxo de Caixa (ZCC e NDF) caso a taxa de câmbio permaneça 
+a mesma da cotação de fechamento do 4T24 (R$/US$ = 6,19) nos próximos trimestres; bem como qual 
+deve ser o impacto no caixa para variações de R$ 0,10 abaixo/acima do patamar de strike da put/call, 
+respectivamente, definidas a cada trimestre. Faz-se necessário ressaltar que os valores apresentados na 
+tabela refletem estimativas da Companhia considerando as curvas de fechamento no período e que 
+podem sofrer oscilações dependendo das condições de mercado.
+Ajuste caixa (R$ milhões)
+Prazo (até) Strike Range Nocional 
+(US$ milhões) Realizado
+Com câmbio de 
+fechamento 4T24 
+(R$ 6,19)
+Sensibilidade a 
+R$ 0,10 / US$ de 
+variação (+/-)
+Zero Cost Collars
+4T24 – – 10 – –
+1T25 5,51 - 6,36 95 – (7) 10
+2T25 5,28 - 6,07 989 – (135) 99
+3T25 5,16 - 5,96 1.138 – (267) 114
+4T25 5,09 - 5,85 1.376 – (475) 138
+1T26 5,14 - 5,91 1.127 – (330) 113
+2T26 5,36 - 6,17 1.257 – (108) 126
+3T26 6,18 - 7,08 45 – — 5
+4T26 6,42 - 7,30 245 – 61 25
+1T27 6,35 - 7,29 150 — 23 15
+2T27 6,42 - 7,34 430 — 100 43
+Total 5,36 - 6,16 6.852 10 (1.137) 688
+NDF
+4T24 – – (135) – –
+1T25 5,75 270 – (120) 27
+2T25 5,75 221 – (97) 22
+1T26 5,85 27 – (9) 3
+2T26 5,95 63 – (15) 6
+Total 5,78 581 (135) (242) 58
+Com o objetivo de minimizar os efeitos das variações cambiais e taxas de juros sobre o valor da dívida e 
+do fluxo de caixa, também são celebrados contratos de swaps de moedas e juros. Contratos de swap 
+são celebrados considerando diferentes taxas de juros e índices de correção como forma de mitigar o 
+descasamento entre os diferentes ativos e passivos financeiros.
+RELEASE DE RESULTADOS 4T24
+Página 24 de 44
+
+[p. 25]
+Em 31 de dezembro de 2024, a Companhia possuía em aberto (notional) US$ 5.123 milhões em 
+contratos de swap distribuídos conforme a tabela abaixo. O resultado com operações de hedge de 
+dívida no 4T24 foi negativo em R$ 1.319 milhões, principalmente em função da desvalorização cambial 
+ocorrida no período (-28%). A marcação a mercado (valor justo) dessas operações foi negativa em R$ 
+1.843 milhões.
+Nocional (US$ milhões) Valor justo (R$ milhões)
+Hedge de Dívida Prazo 
+(até) Moeda Dez/24 Set/24 Dez/24 Set/24
+Swap (CDI x USD) 2036 USD 910 910 (776) (361)
+Swap (CNH x USD) 2027 USD 166 – (6) –
+Swap (Sofr x USD) 2030 USD 1.974 2.068 394 301
+Swap (CDI x Sofr) 2034 USD 610 610 (591) (153)
+Swap Sofr 2029 USD 151 151 (38) (25)
+Swap (IPCA x CDI) 2044 BRL 1313¹ 974¹ (826) (369)
+Total 5.123 4.713 (1.843) (607)
+1Convertido pela taxa de fechamento do trimestre (R$ 6,19).
+A tabela abaixo apresenta uma análise de sensibilidade¹ em relação ao impacto caixa que a Companhia 
+poderá ter em sua carteira de hedge de dívida (swaps) caso a taxa de câmbio permaneça a mesma da 
+cotação de fechamento do 4T24 (R$/US$ = 6,19) nos próximos trimestres; bem como qual deve ser a 
+variação do impacto caixa para variações de R$ 0,10 sobre a mesma taxa de câmbio de referência 
+(4T24). Importante ressaltar que os valores apresentados na tabela refletem estimativas da 
+Companhia considerando as curvas de fechamento do período e podem sofrer oscilações dependendo 
+das condições de mercado.
+Ajuste caixa (R$ milhões)
+Prazo (até) Nocional (US$ milhões) Realizado R$ / US$ = 6,19 
+(4T24)
+Sensibilidade a 
+R$ 0,10 / US$ de 
+variação (+/-)1
+4T24 – (82) – –
+2025 782 – 454 7
+2026 448 – 368 8
+2027 519 – 344 8
+2028 230 – 209 23
+>=2029 3.144 – 1.647 186
+Total 5.123 (82) 3.022 232
+1Análise de sensibilidade assume variação apenas na taxa de câmbio (R$/US$), considerando demais variáveis constantes.
+As demais transações com derivativos da Companhia referem-se a derivativo embutido em função de 
+parceria florestal e hedge de commodities, conforme tabela abaixo.
+Nocional 
+(US$ milhões)
+Valor justo 
+(R$ milhões)
+Ajuste caixa 
+(R$ milhões)
+Outros hedges Prazo 
+(até) Indexador Dez/24 Set/24 Dez/24 Set/24 Dez/24 Set/24
+Derivativo 
+embutido 2039 Fixo | Dólar US-
+CPI 138 140 (81) 76 – –
+Commodities 2025 Brent/VLSFO/
+Outros 204 221 17 2 10 16
+Total 342 361 (64) 78 10 16
+RELEASE DE RESULTADOS 4T24
+Página 25 de 44
+
+[p. 26]
+Parte dos contratos de parceria florestal e de fornecimento de madeira em pé assinados tem seus 
+preços denominados em dólar norte-americano por m 3 de madeira em pé, reajustado de acordo com a 
+inflação americana medido pelo CPI (Consumer Price Index), o qual não é considerado como relacionado 
+ao ambiente econômico onde as áreas estão localizadas, caracterizando-se, portanto, um derivativo 
+embutido. Tal instrumento apresentado na tabela acima são contratos de swap de venda das variações 
+do US-CPI e de dólar nos prazos dos contratos - vide nota 4 das Demonstrações Financeiras do 4T24 
+para maiores detalhes e análise de sensibilidade do valor justo frente à possível variação acentuada do 
+US-CPI e do dólar. Em 31 de dezembro de 2024, o valor em aberto (notional) referente à operação era 
+de US$ 138 milhões. O resultado deste swap no 4T24 foi negativo em R$ 157 milhões. A marcação a 
+mercado (valor justo) de tais operações foi negativa em R$ 81 milhões ao final do trimestre.
+A Companhia também está exposta ao preço de algumas commodities e, portanto, avalia 
+continuamente a contratação de instrumentos financeiros derivativos para mitigar tais riscos. Em 31 de 
+dezembro de 2024, o valor em aberto (notional) referente a tais operações era de US$ 204 milhões. O 
+resultado destes hedges no 4T24 foi positivo em R$ 25 milhões. A marcação a mercado (valor justo) de 
+tais operações foi positiva em R$ 17 milhões ao final do trimestre.
+Resultado de Operações de 
+Hedge (R$ milhões)
+(1.319)
+(3.919)
+25 (157)
+Total (5.370)
+Nocional dos Derivativos 
+(US$ milhões) 
+5.123
+7.433
+204138 Total 12.898
+Valor Justo dos Derivativos 
+(R$ milhões)
+(1.843)
+(4.661)
+17 (81) Total (6.568)
+Dívida Fluxo de Caixa Commodities Derivativo Embutido
+RESULTADO LÍQUIDO
+No 4T24, a Companhia registrou prejuízo de R$ 6.737 milhões, contra lucro líquido de R$ 3.237 milhões 
+no 3T24 e de R$ 4.515 milhões no 4T23. A variação negativa observada em relação ao 3T24 ocorreu em 
+função da variação negativa no resultado financeiro, por sua vez explicada pelo impacto negativo da 
+valorização cambial sobre a dívida e operações com derivativos (em contrapartida ao resultado positivo 
+observado no trimestre anterior); além da elevação do CPV e SG&A, conforme explicado anteriormente. 
+Esses efeitos foram parcialmente compensados pela receita de IR/CSLL diferido (incidentes 
+principalmente sobre os resultados negativos de variação cambial sobre dívida e marcação dos 
+derivativos), pela elevação da receita líquida e pela variação positiva na rubrica de outras receitas/
+despesas operacionais, por sua vez em função da reavaliação do ativo biológico. 
+A variação em comparação ao 4T23 também é explicada pela variação negativa no resultado financeiro 
+(resultado da desvalorização cambial sobre a dívida e sobre as operações com derivativos vs. valorização 
+cambial observada no 4T23), e da elevação do CPV e SG&A. Os fatores mencionados foram parcialmente 
+compensados pelo montante positivo do IR/CSLL diferido (em oposição ao valor negativo do 4T23, 
+quando do resultado positivo de variação cambial sobre dívida e marcação a mercado dos derivativos) e 
+pela elevação na receita líquida. 
+RELEASE DE RESULTADOS 4T24
+Página 26 de 44
+
+[p. 27]
+ENDIVIDAMENTO
+Endividamento (R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y
+Moeda Nacional 18.431 17.983 2% 15.868 16%
+Curto Prazo 894 858 4% 1.155 -23%
+Longo Prazo 17.537 17.126 2% 14.713 19%
+Moeda Estrangeira 83.005 69.787 19% 61.305 35%
+Curto Prazo 9.607 6.864 40% 3.603 167
+Longo Prazo 73.397 62.923 17% 57.702 27%
+Dívida Bruta Total 101.436 87.770 16% 77.173 31%
+(-) Caixa 22.382 17.596 27% 21.613 4%
+Dívida Líquida 79.053 70.175 13% 55.560 42%
+Dívida Líquida/EBITDA Ajustado1(x) – R$ 3,3 x 3,2 x -0,3x 3,0x 0,6x
+Dívida Líquida/EBITDA Ajustado1(x) – US$ 2,9 x 3,1 x -0,1x 3,1x 0,4x
+1Desconsidera itens não recorrentes.
+Em 31 de dezembro de 2024, o total da dívida bruta era de R$ 101,4 bilhões, sendo 90% dos 
+vencimentos concentrados no longo prazo e 10% no curto prazo. A dívida em moeda estrangeira 
+representava, no final do trimestre, 82% da dívida total da Companhia. Já o percentual da dívida bruta 
+em moeda estrangeira considerando o efeito do hedge de dívida ficou em 90%. Em comparação ao 
+3T24, a dívida bruta teve aumento de 16%, função sobretudo da valorização do USD de fechamento 
+frente ao BRL, além das captações realizadas no período. A Suzano encerrou o 4T24 com 46% da dívida 
+total atrelada a instrumentos ESG.
+A Suzano realiza a contratação de dívida em moeda estrangeira como estratégia de hedge natural, uma 
+vez que a geração de caixa operacional líquida é denominada, em sua maior parte, em moeda 
+estrangeira (dólar) devido à sua condição predominantemente exportadora. Essa exposição estrutural 
+permite que a Companhia concilie os pagamentos dos empréstimos e financiamentos em dólar com o 
+fluxo de recebimento das vendas.
+Evolução da Dívida Bruta (R$ milhões)
+1Correspondem principalmente a custos de transação (emissão, captação, ágio, deságio e menos valia de combinação de negócios, etc.).
+Em 31 de dezembro de 2024, o custo médio total da dívida em dólar era de 5,0% a.a. (considerando a 
+dívida em BRL ajustada pela curva de swap de mercado), em 30 de setembro de 2024 este custo era de 
+4,9% a.a. O prazo médio da dívida consolidada no encerramento do trimestre era de 73 meses versus 
+77 meses ao final do 3T24.
+RELEASE DE RESULTADOS 4T24
+Página 27 de 44
+
+[p. 28]
+Exposição por instrumento
+Bond 53%
+Financiamento de 
+Exportação 25%
+Outros 1%
+IFC 6%
+BNDES 6%
+ECA 1%
+Debênture 10%
+Exposição por Indicador¹
+Fixa (US$) 
+74%
+CDI 9%
+Fixa 
+(R$) 1%
+SOFR 15%
+Exposição por Moeda²
+US$ 90%
+R$ 10%
+1Considera a parcela da dívida com swap para taxa fixa em moeda estrangeira. A exposição na dívida original era: Fixa (US$) – 53%, SOFR – 27%, CDI 
+– 11%, Outros (Fixa R$, IPCA, TJLP, outros) – 9%.
+2Considera a parcela da dívida com swap para moeda estrangeira. A dívida original era 82% em USD e 18% em BRL.
+A posição de caixa e equivalentes de caixa e aplicações financeiras em 31 de dezembro de 2024 era de 
+R$ 22,4 bilhões, dos quais 29% em moeda estrangeira, alocados em conta remunerada ou aplicados em 
+investimentos de renda fixa de curto prazo no exterior. O percentual remanescente de 71% estava 
+aplicado em moeda nacional, em títulos de renda fixa (principalmente em CDBs, mas também em 
+títulos públicos e outros), com remuneração indexada principalmente ao CDI.
+Em 31 de dezembro de 2024, a empresa possuía também uma linha de crédito rotativo (stand by credit 
+facility) no valor total de R$ 7,9 bilhões (US$ 1,3 bilhão), com prazo de disponibilidade até fevereiro de 
+2027. A disponibilidade deste recurso contribui para fortalecer as condições de liquidez da empresa e 
+pode ser utilizado em momentos de incerteza. Desta forma, a posição de caixa e equivalentes de caixa 
+de R$ 22,4 bilhões somada à linha de crédito rotativo totalizava, em 31 de dezembro de 2024, uma 
+posição de liquidez imediata no valor de R$ 30,3 bilhões. Adicionalmente, a companhia tem contrato de 
+financiamento Finnvera (US$ 800 milhões) relacionados ao Projeto Cerrado, conforme Comunicado ao 
+Mercado de 01/11/22, ainda não sacado, fortalecendo ainda mais sua condição de liquidez.
+Dívida Líquida (em R$ e US$ milhões)
+55.560 59.626
+66.563 70.175
+79.053
+11.476 11.934 11.974 12.881 12.766
+R$ US$
+4T23 1T23 2T23 3T24 4T24
+Dívida Líquida / EBITDA Ajustado 
+em R$ e US$ (x)
+3,0
+3,6
+3,5
+3,2 3,3
+3,1
+3,5
+3,2 3,1
+2,9
+R$ US$
+4T23 1T23 2T24 3T24 4T24
+Em 31 de dezembro de 2024, a dívida líquida era de R$ 79,1 bilhões (US$ 12,8 bilhões) versus R$ 70,2 
+bilhões (US$ 12,9 bilhões) observados em 30 de setembro de 2024. O aumento da dívida líquida em 
+moeda nacional é explicado pela variação cambial do período. 
+O índice de alavancagem financeira medido pela relação dívida líquida/EBITDA Ajustado em BRL ficou 
+em 3,3x em 31 de dezembro de 2024 (3,2x em 30/09/2024). Esse mesmo indicador, apurado em USD 
+(medida estabelecida na política financeira da Suzano), reduziu para 2,9x em 31 de dezembro de 2024 
+(3,1x em 30/09/2024). 
+RELEASE DE RESULTADOS 4T24
+Página 28 de 44
+
+[p. 29]
+Cronograma de Amortização (R$ milhões)
+30.278
+10.501 9.308 10.884 9.562
+15.478
+45.702
+22.382
+7.895
+Caixa físico Stand-by Facilities Dívida
+Liquidez 2025 2026 2027 2028 2029 2030 em 
+diante
+A distribuição das linhas de trade finance e non-trade finance da dívida bruta total em 31 de dezembro 
+de 2024 era composta conforme abaixo:
+2025 2026 2027 2028 2029 2030 em 
+diante Total
+Trade Finance¹ 59% 61% 45% 40% 12% 0% 22%
+Non-Trade 
+Finance² 41% 39% 55% 60% 88% 100% 78%
+1ACC, NCE, PPE
+2Bonds, BNDES, CRA, Debêntures, entre outros.
+INVESTIMENTOS DE CAPITAL
+No 4T24, os investimentos de capital (em regime caixa) totalizaram R$ 3.281 milhões. A queda de 43% 
+em relação ao 3T24, ocorreu principalmente em função: i) do menor desembolso com aquisição de 
+terras e florestas (conclusão no 3T24 da aquisição dos 70 mil hectares, sob gestão do BTG Pactual 
+Timberland Investment Group); ii) de menores gastos com manutenção florestal, em grande parte 
+relacionados ao menor volume de compra de madeira em pé de terceiros e menor gasto com atividades 
+de silvicultura; e iii) menores investimentos no Projeto Cerrado, em função do fluxo de pagamentos. 
+Esses fatores foram parcialmente compensados por maiores investimentos registrados na rubrica de 
+expansão e modernização, sobretudo relacionados à nova fábrica de tissue e nova caldeira de biomassa 
+em Aracruz (projetos anunciados em 26 de outubro de 2023). 
+Em relação ao 4T23, a redução de 22% deve-se principalmente aos menores gastos com o Projeto 
+Cerrado. Este fator foi parcialmente compensado por maiores gastos com terras e florestas e aumento 
+dos investimentos de expansão e modernização em Aracruz e Limeira.
+O montante total dos investimentos de capital em 2024 foi executado em convergência ao guidance 
+revisado e divulgado pela Companhia. Para mais detalhes, acesse o Fato Relevante divulgado ao 
+mercado em 10 de dezembro de 2024 no site de RI da Suzano (ri.suzano.com.br).
+Para 2025, a Administração aprovou um Orçamento de Capital de R$ 12,4 bilhões, sendo R$ 7,8 bilhões 
+destinados à manutenção industrial e florestal, dentre outros apresentados na tabela abaixo.
+RELEASE DE RESULTADOS 4T24
+Página 29 de 44
+
+[p. 30]
+Investimentos 
+(R$ milhões)¹ 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y Guidance 
+2025
+Manutenção 1.638 2.128 -23% 1.726 -5% 7.610 6.707 13% 7.813
+Manutenção 
+Industrial 460 331 39% 432 6% 1.285 1.329 -3% 1.737
+Manutenção 
+Florestal 1.107 1.743 -36% 1.221 -9% 6.168 5.199 19% 5.790
+Outros 71 54 — 72 -2% 156 179 -12% 286
+Expansão e 
+Modernização 482 114 322% 145 233% 972 694 40% 1.572
+Terras e Florestas 637 2.473 — 152 — 4.043 2.610 55% 2.140
+Outros² 0 123 -100% 11 — 2 55 -96% 6
+Projeto Cerrado 523 893 -41% 2.190 -76% 4.493 8.511 -47% 850
+Total 3.281 5.733 -43% 4.224 -22% 17.120 18.578 -8% 12.381
+1Os valores constantes na tabela acima não contemplam o efeito de monetização créditos de ICMS no estado do Espírito Santo. Não inclui a 
+aquisição da participação minoritária na Lenzing, nem os investimentos relacionados às aquisições dos ativos da Pactiv em Pine Bluff e Waynesville 
+(Suzano Packaging US).
+ 2O decréscimo nesta rubrica se deve à reclassificação dos investimentos no estado do Espírito Santo (caldeira de biomassa e nova máquina de 
+Tissue) para a linha de Expansão e Modernização.
+GERAÇÃO DE CAIXA OPERACIONAL
+Geração de caixa 
+operacional (R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado¹ 6.481 6.523 -1% 4.505 44% 23.849 18.273 31%
+Capex Manutenção² (1.638) (2.128) -23% (1.726) -5% (7.610) (6.707) 13%
+Geração de Caixa 
+Operacional 4.843 4.394 10% 2.779 74% 16.239 11.567 40%
+Geração de Caixa 
+Operacional (R$/t) 1.304 1.467 -11% 883 48% 1.320 1.005 31%
+1Desconsidera itens não recorrentes.
+2Em regime caixa
+A geração de caixa operacional, medida pelo EBITDA Ajustado menos o capex de manutenção (em 
+regime caixa), foi de R$ 4.843 milhões no 4T24. A redução da geração de caixa operacional por tonelada 
+de 11% vs. o 3T24 deve-se principalmente à queda no EBITDA por tonelada, parcialmente compensada 
+pelo menor capex de manutenção por tonelada. Em relação ao 4T23, o aumento de 48% na geração de 
+caixa operacional por tonelada ocorreu em função do maior EBITDA ajustado por tonelada e pelo menor 
+capex de manutenção por tonelada.
+RELEASE DE RESULTADOS 4T24
+Página 30 de 44
+
+[p. 31]
+Geração de Caixa Operacional
+por tonelada (R$/t)
++48% -11%
+q
++31%
+q
+883
+1.467
+1.304
+4T23 3T24 4T24
+1.005
+1.320
+2023 2024
+FLUXO DE CAIXA LIVRE
+Fluxo de Caixa Livre 
+(R$ milhões) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+EBITDA Ajustado 6.481 6.523 -1% 4.505 44% 23.849 18.273 31%
+(-) Capex Total¹ (4.309) (7.692) -44% (4.395) -2% (22.713) (20.233) 12
+(-) Contratos de 
+arrendamentos – IFRS 
+16
+(379) (313) 21% (348) 9% (1.326) (1.218) 9
+(+/-) △ Capital de Giro² 639 568 13% 810 -21% 1.996 3.517 -43%
+(-) Juros Líquidos³ (612) (1.170) -48% (627) -2% (3.741) (4.048) -8
+(-) Imposto de Renda e 
+Contribuição Social (102) (91) 12% (53) 92% (366) (308) 19
+(-) Pagamento de 
+Dividendos e JCP/
+Recompra de ações
+(306) (2.497) -88% (190) 61% (4.431) (1.073) —
+(+/-) Ajustes Derivativos (198) 331 — 1.174 — (550) 3.559 —
+Fluxo de Caixa Livre 1.214 (4.341) — 876 — (7.283) (1.531) —
+(+) Capex Total ex-
+manutenção 2.382 5.677 -58% 2.763 -14% 12.154 13.818 -12%
+(+) Pagamento de 
+Dividendos e JCP/
+Recompra de ações
+306 2.497 -88% 190 61% 4.431 1.073 —
+Fluxo de Caixa Livre 
+Ajustado4 3.902 3.833 2% 3.829 2% 11.446 13.360 -14%
+1Em regime competência, exceto o investimento referente ao Projeto Cerrado a partir do 2T23, conforme nota explicativa 15 (Imobilizado) das 
+Demonstrações Financeiras. Considera também a aquisição de terras e ativos florestais, participação societária na empresa Lenzing e a aquisição 
+dos ativos da Pactiv Evergreen.
+2Considera custos de empréstimos capitalizados pagos (4T24: R$ 77 milhões | 3T24: R$ 81 milhões | 4T23: R$ 344 milhões), sem impacto no FCL 
+dado que o mesmo está contemplado com sinal oposto na rubrica de Capex Total.
+3Considera juros pagos sobre dívida e juros recebidos sobre aplicações financeiras.
+4Fluxo de caixa livre antes do pagamento de dividendos, JCP e recompra de ações e de capex ex-manutenção (regime competência).
+RELEASE DE RESULTADOS 4T24
+Página 31 de 44
+
+[p. 32]
+O Fluxo de Caixa Livre Ajustado foi de R$ 3.902 milhões no 4T24, em comparação a R$ 3.833 milhões 
+no 3T24 e a R$ 3.829 milhões no 4T23. Em relação ao período anterior, o indicador teve aumento de 
+2%, em função principalmente da menor concentração de pagamento de juros no período, em grande 
+parte compensada pelo ajuste caixa negativo dos derivativos (em oposição ao ajuste positivo observado 
+no trimestre anterior).
+Em relação ao 4T23, o indicador foi também 2% superior em função do maior EBITDA ajustado, 
+parcialmente compensado pelo ajuste caixa negativo dos derivativos (vs. elevado ajuste positivo no 
+4T23), maior capex competência de manutenção e menor liberação de capital de giro (sobretudo 
+aumento na rubrica de contas a receber pelo maior volume de vendas de celulose e papel).
+EVOLUÇÃO DA DÍVIDA LÍQUIDA
+A movimentação da dívida líquida no 4T24 ocorreu conforme abaixo:
+1Em regime competência exceto o capex referente ao Projeto Cerrado (regime caixa), alinhado com a Demonstração de Fluxo de Caixa.
+2Líquidas das variações cambiais sobre caixa e aplicações financeiras. 
+3Considera valores base caixa relativos a ajuste de derivativos, contratos de arrendamentos, entre outros itens. 
+ESG
+No âmbito social a Suzano implementou no 4T24 uma iniciativa em colaboração com sua cadeia de valor 
+para a contratação de profissionais em situação de vulnerabilidade social. A iniciativa envolve mais de 
+100 fornecedores da Companhia e está alinhada com sua estratégia de sustentabilidade, contribuindo 
+no avanço da meta de retirar pessoas da linha da pobreza.
+Ainda nesse trimestre, a Suzano firmou parcerias com a RainForest Alliance (RFA) e com a The Nature 
+Conservancy (TNC) nos temas de biodiversidade e conservação de recursos hídricos, respectivamente. 
+Além das instituições, estas parcerias reúnem outras partes interessadas como setor público, privado e 
+da sociedade civil. A parceria com a RFA contribuirá para a implementação de projetos na Bacia 
+Amazônica e para a concretização do compromisso de longo prazo da Suzano com a biodiversidade. Já a 
+parceria com a TNC, desenvolverá mecanismos voltados à restauração, conservação e adoção de 
+melhores práticas de gestão da terra, uma questão de importância estratégica para a Suzano. 
+Em novembro, a Suzano emitiu o primeiro Green Panda Bond (aproximadamente US$ 165 milhões) do 
+continente americano, considerando empresas não governamentais ou financeiras na região. Os 
+recursos captados serão destinados ao plantio de florestas de eucalipto sustentáveis, certificadas pelo 
+FSC e/ou PEFC, reafirmando o compromisso da empresa com práticas ambientalmente responsáveis. 
+DESEMBOLSO TOTAL OPERACIONAL – CELULOSE
+Conforme divulgada por meio de Fato Relevante em 12/12/2024, a previsão de desembolso total 
+operacional previsto para 2027 é de aproximadamente R$ 1.900 por tonelada e a evolução do indicador 
+segue conforme planejado, considerando as premissas cambiais e monetárias utilizadas. Tal estimativa 
+refere-se à moeda em termos reais de 2025. A Companhia também informa que o DTO de 2024 ficou 
+em R$ 2.172/t, composto por custo caixa de produção (incluindo paradas) de R$ 875/t, capex de 
+manutenção de R$ 607/t e Frete mais SG&A de R$ 690/t.
+RELEASE DE RESULTADOS 4T24
+Página 32 de 44
+
+[p. 33]
+MERCADO DE CAPITAIS
+Em 31 de dezembro de 2024, as ações da Suzano estavam cotadas em R$ 61,78/ação (SUZB3) e US$ 
+10,12/ação (SUZ). Os papéis da Companhia integram o Novo Mercado, mais alto nível de governança 
+corporativa da B3 – Brasil, Bolsa e Balcão, e são negociados na Bolsa de Valores de Nova York (NYSE) – 
+Nível II. O desempenho da ação considera o ajuste por pagamento de proventos a partir do dia 17 de 
+dezembro de 2024 (data “ex” para os proventos pagos em 10 de janeiro de 2025).
+Desempenho da Ação
+jan.-24 fev.-24 mar.-24 abr.-24 mai.-24 jun.-24 jul.-24 ago.-24 set.-24 out.-24 nov.-24 dez.-24
+80
+100
+120
+Fonte: Bloomberg.
+Evolução da Liquidez - SUZB3
+341
+250
+519
+355 416
+20.480
+16.643
+26.588
+23.037
+24.985
+Média do número de negócios diário Média do volume financeiro diário (R$ milhões)
+4T23 1T23 2T24 3T24 4T24
+Fonte: Bloomberg.
+No âmbito do 5° programa de recompra de ações anunciado e atualmente em aberto, o "Programa 
+Agosto/2024", até o final de dezembro de 2024 a Companhia havia negociado 11.115.300 ações, ao 
+custo médio de aquisição de R$ 55,18, representando R$ 613 milhões em valor de mercado, de acordo 
+com os relatórios mensais divulgados pela Companhia no âmbito da Intr. CVM nº 44.
+RELEASE DE RESULTADOS 4T24
+Página 33 de 44
+SUZ US
+-6%
+SUZB3
+16%
+INDU
+13%
+IBOV
+-9%
+
+[p. 34]
+Em 31 de dezembro de 2024, o capital social da Companhia era representado por 1.264.117.615 ações 
+ordinárias, sendo 24.875.787 ações ordinárias mantidas em Tesouraria. O valor de mercado da Suzano 
+(ex-ações em tesouraria), na mesma data, era de R$ 76,6 bilhões. O free float no 4T24 ficou em 49% do 
+total das ações.
+Distribuição do Free Float em 31/12/2024
+(B3 + NYSE)
+Composição Acionária em 
+31/12/2024
+66%
+34%
+Estrangeiros
+Nacionais
+7%
+93%
+Pessoa Física
+Pessoa Juridica
+49%
+2%
+49%
+Outros Acionistas
+Tesouraria
+Controladores
+RENDA FIXA
+Unidade Dez/24 Set/24 Dez/23 Δ Q-o-Q Δ Y-o-Y
+Suzano 2026 - Preço USD/k 100,56 101,68 101,30 -1% -1%
+Suzano 2026 - Yield % 5,36 4,76 5,20 13% 3%
+Fibria 2027 - Preço USD/k 100,20 101,84 101,20 -2% -1%
+Fibria 2027 - Yield % 5,40 4,64 5,07 16% 6%
+Suzano 2028 - Preço USD/k 89,49 91,34 87,93 -2% 2%
+Suzano 2028 - Yield % 5,69 4,94 5,44 15% 5%
+Suzano 2029 - Preço USD/k 100,20 103,31 102,25 -3% -2%
+Suzano 2029 - Yield % 5,94 5,13 5,48 16% 8%
+Suzano 2030 - Preço USD/k 96,08 99,69 96,81 -4% -1%
+Suzano 2030 - Yield % 5,91 5,07 5,63 17% 5%
+Suzano 2031 - Preço USD/k 88,43 92,15 88,30 -4% 0%
+Suzano 2031 - Yield % 6,07 5,23 5,80 16% 5%
+Suzano 2032 - Preço USD/k 83,01 87,03 83,16 -5% 0%
+Suzano 2032 - Yield % 6,14 5,29 5,77 16% 6%
+Suzano 2047 - Preço USD/k 104,72 110,25 105,31 -5% -1%
+Suzano 2047 - Yield % 6,59 6,15 6,55 7% 1%
+Treasury 10 anos % 4,57 3,79 3,88 21% 18%
+Nota: Senior Notes emitidos com valor de face de 100 USD/k.
+RATING
+Agência Escala Local Escala Global Perspectiva
+Fitch Ratings AAA BBB- Estável
+Standard & Poor’s br.AAA BBB- Estável
+Moody’s Aaa.br Baa3 Positiva
+RELEASE DE RESULTADOS 4T24
+Página 34 de 44
+
+[p. 35]
+PRÓXIMOS EVENTOS
+Teleconferência de Resultados (4T24)
+Data: 13 de fevereiro de 2025 (quinta-feira)
+Português (tradução simultânea) Inglês
+10h00 (horário de Brasília) 10:00 a.m. (horário de Brasília) 
+08h00 (horário de Nova York) 08:00 a.m. (horário de Nova York)
+13h00 (horário de Londres) 01:00 p.m. (horário de Londres)
+A teleconferência será realizada em inglês e acompanhada por uma apresentação de slides e 
+transmitida simultaneamente via webcast. Os links de acesso estarão disponíveis no website de 
+Relações com Investidores da Companhia (www.suzano.com.br/ri).
+Se não for possível a sua participação, o conteúdo do evento estará disponível para futura consulta no 
+website de Relações com Investidores da Suzano.
+CONTATO DE RI
+Marcos Assumpção
+Camila Nogueira
+Roberto Costa
+Mariana Spinola
+André Azambuja
+Luísa Puccini 
+Arthur Trovo
+Tel.: +55 (11) 3503-9330
+ri@suzano.com.br
+www.suzano.com.br/ri
+RELEASE DE RESULTADOS 4T24
+Página 35 de 44
+
+[p. 36]
+ANEXOS
+ANEXO 1 – Dados Operacionais
+Abertura da Receita 
+(R$ mil) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Mercado Externo 11.522.651 9.715.968 19% 7.946.224 45% 37.829.439 30.892.283 22%
+Celulose 10.610.274 9.143.023 16% 7.316.042 45% 35.298.204 28.533.066 24%
+Papel 912.377 572.945 59% 630.182 45% 2.531.235 2.359.217 7%
+Mercado Interno 2.654.347 2.557.578 4% 2.425.321 9% 9.573.843 8.863.292 8%
+Celulose 585.349 659.962 -11% 453.846 29% 2.295.259 2.144.199 7%
+Papel 2.068.998 1.897.616 9% 1.971.475 5% 7.278.584 6.719.093 8%
+Receita Líquida Total 14.176.998 12.273.546 16% 10.371.545 37% 47.403.282 39.755.575 19%
+Celulose 11.195.623 9.802.985 14% 7.769.888 44% 37.593.462 30.677.265 23%
+Papel 2.981.375 2.470.561 21% 2.601.657 15% 9.809.820 9.078.310 8%
+Volume de Vendas 
+(em t) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Mercado Externo 3.251.298 2.556.854 27% 2.698.453 20% 10.600.114 9.882.402 7%
+Celulose 3.113.900 2.459.208 27% 2.580.950 21% 10.167.658 9.514.618 7%
+Papel 137.398 97.646 41% 117.503 17% 432.456 367.784 18%
+Papelcartão 60.920 9.120 — 5.468 — 87.218 21.427 —
+Imprimir e Escrever 75.627 86.053 -12% 111.994 -32% 340.318 346.194 -2%
+Outros papéis¹ 851 2.473 — 41 — 4.920 163 —
+Mercado Interno 463.036 438.268 6% 449.089 3% 1.700.318 1.624.336 5%
+Celulose 169.992 176.069 -3% 180.111 -6% 696.972 700.823 -1%
+Papel 293.044 262.199 12% 268.978 9% 1.003.346 923.513 9%
+Papelcartão 42.524 42.579 — 37.343 14% 153.412 145.047 6%
+Imprimir e Escrever 186.763 155.896 20% 161.449 16% 600.807 580.196 4%
+Outros papéis¹ 63.757 63.724 — 70.186 -9% 249.127 198.270 26%
+Volume Total 3.714.334 2.995.122 24% 3.147.542 18% 12.300.432 11.506.738 7%
+Celulose 3.283.892 2.635.277 25% 2.761.061 19% 10.864.630 10.215.441 6%
+Papel 430.442 359.845 20% 386.481 11% 1.435.802 1.291.297 11%
+Papelcartão 103.444 51.699 100% 42.811 142% 240.630 166.474 45%
+Imprimir e Escrever 262.390 241.949 8% 273.443 -4% 941.125 926.390 2%
+Outros papéis¹ 64.608 66.197 -2% 70.227 -8% 254.047 198.433 28%
+1Papéis de outros fabricantes comercializados pela Suzano e papel tissue.
+Preço líquido médio 
+(R$/t) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Mercado Externo 3.544 3.800 -7% 2.945 20% 3.569 3.126 14%
+Celulose 3.407 3.718 -8% 2.835 20% 3.472 2.999 16%
+Papel 6.640 5.868 13% 5.363 24% 5.853 6.415 -9%
+Mercado Interno 5.732 5.836 -2% 5.401 6% 5.631 5.457 3%
+Celulose 3.443 3.748 -8% 2.520 37% 3.293 3.060 8%
+Papel 7.060 7.237 -2% 7.330 -4% 7.254 7.276 —
+Total 3.817 4.098 -7% 3.295 16% 3.854 3.455 12%
+Celulose 3.409 3.720 -8% 2.814 21% 3.460 3.003 15%
+Papel 6.926 6.866 1% 6.732 3% 6.832 7.030 -3%
+RELEASE DE RESULTADOS 4T24
+Página 36 de 44
+
+[p. 37]
+Preço líquido médio 
+(US$/t) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Mercado Externo 607 685 -11% 594 2% 662 626 6%
+Celulose 583 670 -13% 572 2% 644 600 7%
+Papel 1.137 1.058 7% 1.082 5% 1.086 1.284 -15%
+Mercado Interno 982 1.052 -7% 1.090 -10% 1.045 1.092 -4%
+Celulose 590 676 -13% 509 16% 611 613 —
+Papel 1.209 1.305 -7% 1.479 -18% 1.346 1.457 -8%
+Total 654 739 -12% 665 -2% 715 692 3%
+Celulose 584 671 -13% 568 3% 642 601 7%
+Papel 1.186 1.238 -4% 1.359 -13% 1.268 1.407 -10%
+Taxa R$/US$ 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Fechamento 6,19 5,45 14% 4,84 28% 6,19 4,84 28%
+Média 5,84 5,55 5% 4,96 18% 5,39 5,00 8%
+RELEASE DE RESULTADOS 4T24
+Página 37 de 44
+
+[p. 38]
+ANEXO 2 – Demonstração de Resultado Consolidado e Amortização da Mais Valia
+Demonstração de Resultado (R$ mil) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y 2024 2023 Δ Y-o-Y
+Receita Líquida de Vendas 14.176.998 12.273.546 16% 10.371.545 37% 47.403.282 39.755.575 19%
+Custo dos Produtos Vendidos (8.760.717) (6.847.701) 28% (6.775.564) 29% (27.401.527) (25.076.675) 9%
+Lucro Bruto 5.416.281 5.425.845 — 3.595.981 51% 20.001.755 14.678.900 36%
+Margem Bruta 38% 44% -6 p.p. 35% 4 p.p. 42% 37% 5 p.p. 
+Receitas (Despesas) Operacionais (1.000.460) (1.316.446) — (438.153) 128% (4.310.663) (2.462.612) 75%
+Despesas com vendas (856.759) (728.319) 18% (711.641) 20% (2.938.547) (2.596.377) 13%
+Despesas gerais e administrativas (990.245) (568.854) 74% (614.892) 61% (2.619.844) (1.923.228) 36%
+Outras receitas operacionais, líquidas 845.547 (7.945) — 901.929 -6% 1.261.573 2.076.372 -39%
+Equivalência Patrimonial 997 (11.328) — (13.549) — (13.845) (19.379) —
+Lucro operacional antes do resultado 
+financeiro (EBIT) 4.415.821 4.109.399 7% 3.157.828 40% 15.691.092 12.216.288 28%
+Depreciação, Exaustão e Amortização 2.809.949 2.303.266 22% 1.787.944 57% 9.223.995 7.321.110 26%
+EBITDA 7.225.770 6.412.665 13% 4.945.772 46% 24.915.087 19.537.398 28%
+Margem EBITDA 51% 52% -1 p.p. 48% 3 p.p. 53% 49% 3 p.p. 
+EBITDA Ajustado¹ 6.480.919 6.522.508 -1% 4.504.505 44% 23.849.200 18.272.970 31%
+Margem EBITDA Ajustada¹ 46% 53% -7 p.p. 43% 2 p.p. 50% 46% 4 p.p. 
+Resultado Financeiro (15.556.184) 867.762 — 2.269.458 — (28.802.145) 5.780.928 —
+Receitas financeiras 435.391 420.938 3% 610.005 -29% 1.737.434 1.825.649 -5%
+Despesas financeiras (1.691.603) (1.567.007) 8% (1.175.488) 44% (5.541.903) (4.659.162) 19%
+Resultado dos instrumentos financeiros 
+derivativos (5.370.257) 782.452 — 1.492.094 — (9.112.683) 5.526.714 —
+Variações monetárias e cambiais, líquidas (8.929.715) 1.231.379 — 1.342.847 — (15.884.993) 3.087.727 —
+Resultado antes do IRPJ e CSLL (11.140.363) 4.977.161 — 5.427.286 — (13.111.053) 17.997.216 —
+Imposto de Renda e Contribuição Social 4.403.791 (1.739.810) — (912.564) — 6.066.347 (3.890.835) —
+Resultado Líquido do Exercício (6.736.572) 3.237.351 — 4.514.722 — (7.044.706) 14.106.381 -150%
+Margem Líquida -48% 26% -74 p.p. 44% -91 p.p. -15% 35% -50 p.p.
+1Desconsidera itens não recorrentes e efeitos do PPA.
+Amortização de mais valia - PPA (R$ mil) 4T24 3T24 Δ Q-o-Q 4T23 Δ Y-o-Y
+CPV (114.953) (115.596) -1% (145.285) -21%
+Despesas com Vendas (206.637) (207.374) — (207.467) —
+Despesas gerais e administrativas (7.978) (7.974) — (2.377) 236%
+Outras receitas (despesas) operacionais 12.365 11.044 12% 20.782 -41%
+RELEASE DE RESULTADOS 4T24
+Página 38 de 44
+
+[p. 39]
+ANEXO 3 – Balanço Patrimonial Consolidado
+Ativo (R$ mil) 31/12/2024 30/09/2024 31/12/2023
+CIRCULANTE
+Caixa e equivalentes de caixa 9.018.818 5.818.031 8.345.871
+Aplicações financeiras 12.971.547 11.311.861 12.823.886
+Contas a receber de clientes 9.132.860 7.268.889 6.848.454
+Estoques 7.962.324 7.729.122 5.946.948
+Tributos a recuperar 1.109.619 1.303.399 888.539
+Instrumentos financeiros derivativos 1.006.427 1.232.059 2.676.526
+Adiantamentos a fornecedores 92.133 118.167 113.743
+Outros ativos 889.232 996.174 925.105
+Total do Ativo Circulante 42.182.960 35.777.702 38.569.072
+NÃO CIRCULANTE
+Aplicações financeiras 391.964 465.639 443.400
+Tributos a recuperar 1.179.125 1.220.442 1.373.647
+Imposto de renda e contribuição social diferidos 7.984.015 3.316.202 545.213
+Instrumentos financeiros derivativos 2.880.673 2.791.429 1.753.928
+Adiantamentos a fornecedores 2.503.537 2.502.248 2.242.229
+Depósitos judiciais 487.993 485.353 361.693
+Outros ativos 156.880 139.656 182.463
+Ativos biológicos 22.283.001 20.832.432 18.278.582
+Investimentos 1.816.923 1.917.844 608.013
+Imobilizado 64.986.040 64.474.165 59.289.069
+Direito de uso 5.180.691 5.150.077 5.196.631
+Intangível 13.902.303 14.138.800 14.749.085
+Total do Ativo Não Circulante 123.753.145 117.434.287 105.023.953
+Total do Ativo 165.936.105 153.211.989 143.593.025
+Passivo e Patrimônio Líquido (R$ mil) 31/12/2024 30/09/2024 31/12/2023
+CIRCULANTE
+Fornecedores 6.033.285 5.341.937 5.572.219
+Empréstimos, financiamentos e debêntures 10.501.387 7.721.426 4.758.247
+Contas a pagar de arrendamentos 872.228 794.647 753.399
+Instrumentos financeiros derivativos 2.760.273 565.392 578.763
+Tributos a recolher 363.715 612.585 443.454
+Salários e encargos sociais 1.232.971 889.889 766.905
+Contas a pagar de aquisição de ativos e controladas 21.166 17.596 93.405
+Juros sobre capital próprio e dividendos a pagar 2.200.917 3.106 1.316.528
+Adiantamentos de clientes 145.200 170.124 172.437
+Outros passivos 346.796 374.219 339.683
+Total do Passivo Circulante 24.477.938 16.490.921 14.795.040
+NÃO CIRCULANTE
+Empréstimos, Financiamentos e Debêntures 90.934.144 80.049.026 72.414.445
+Contas a pagar de arrendamento 6.100.687 5.814.627 5.490.383
+Instrumentos Financeiros Derivativos 7.694.547 4.853.868 1.857.309
+Contas a pagar de aquisição de ativos e controladas 99.324 90.152 93.782
+Provisão para passivos judiciais 2.926.750 2.961.539 2.860.409
+Passivos atuariais 721.560 850.987 833.683
+Imposto de renda e contribuição social diferidos 12.596 12.596 11.377
+Pagamento baseado em ações 361.974 307.798 268.489
+Adiantamentos de clientes 74.715 74.715 74.715
+Outros passivos 116.295 104.002 83.093
+Total do Passivo Não Circulante 109.042.592 95.119.310 83.987.685
+Total do Passivo 133.520.530 111.610.231 98.782.725
+Patrimônio Líquido
+Capital Social 19.235.546 19.235.546 9.235.546
+Reservas de Capital 60.226 48.162 26.744
+Ações em tesouraria (1.339.197) (1.339.197) (1.484.014)
+Reservas de Lucros 12.978.898 22.472.411 35.376.198
+Ajustes de Avaliação Patrimonial 1.348.796 1.322.487 1.538.296
+Resultados acumulados — (268.657) —
+Patrimônio Líquido de Acionistas Controladores 32.284.269 41.470.752 44.692.770
+Patrimônio Líquido de Acionistas Não Controladores 131.306 131.006 117.530
+Patrimônio Líquido 32.415.575 41.601.758 44.810.300
+Total do Passivo e Patrimônio Líquido 165.936.105 153.211.989 143.593.025
+RELEASE DE RESULTADOS 4T24
+Página 39 de 44
+
+[p. 40]
+ANEXO 4 – Demonstração de Fluxo de Caixa Consolidado
+FLUXOS DE CAIXA DAS ATIVIDADES OPERACIONAIS
+Resultado líquido do período (6.736.572) 4.514.723 (7.044.706) 14.106.381
+Depreciação, exaustão e amortização 2.715.071 1.705.090 8.874.931 6.999.839
+Depreciação do direito de uso 94.878 82.855 349.064 321.271
+Apropriação de encargos financeiros de arrendamento 115.925 107.797 451.148 441.596
+Resultado na alienação e baixa de ativos imobilizado e biológico, líquido 30.340 157.277 163.033 331.285
+Resultado de equivalência patrimonial (997) 13.549 13.845 19.379
+Variações cambiais e monetárias, líquidas 8.929.715 (1.342.847) 15.884.993 (3.087.727)
+Despesas com juros sobre empréstimos, financiamentos e debêntures 1.470.404 1.259.595 5.413.707 4.797.094
+Custos de empréstimos capitalizados (76.567) (343.601) (959.968) (1.160.364)
+Rendimentos sobre aplicações financeiras (295.228) (510.591) (1.254.424) (1.352.522)
+Amortização do custo de transação, ágio e deságio 22.383 17.358 80.099 67.353
+Ganhos com derivativos, líquidos 5.370.257 (1.492.094) 9.112.683 (5.526.714)
+Atualização do valor justo dos ativos biológicos (892.527) (733.516) (1.431.530) (1.989.831)
+Imposto de renda e contribuição social diferidos (4.728.751) 779.975 (7.431.946) 3.495.443
+Juros sobre passivo atuarial 18.962 17.242 75.850 69.231
+Provisão de passivos judiciais, líquido 44.166 58.923 138.318 139.934
+Constituição parcelamento do programa de redução de litigiosidade fiscal — (14.031) — —
+Provisão para perda estimada com créditos de liquidação duvidosa, líquida 3.460 12.088 2.585 35.202
+Provisão para perda estimada nos estoques, líquida 57.557 17.115 77.353 31.419
+Provisão para perda de créditos do ICMS, líquida 82.918 86.450 130.727 348.628
+Outras 52.275 37.610 69.535 66.938
+Decréscimo (acréscimo) em ativos (679.788) (59.197) (1.761.659) 1.768.894
+Contas a receber de clientes (1.041.445) (431.979) (808.785) 2.155.448
+Estoques 173.477 314.714 (863.648) (48.673)
+Tributos a recuperar 165.895 (47.361) (95.411) (666.681)
+Outros ativos 22.285 105.429 6.185 328.800
+Acréscimo (decréscimo) em passivos 1.242.425 525.688 2.798.112 588.117
+Fornecedores 1.081.803 398.533 2.164.832 463.003
+Tributos a recolher (132.453) 103.405 296.169 329.556
+Salários e encargos sociais 238.378 (529) 364.817 73.096
+Outros passivos 54.697 24.279 (27.706) (277.538)
+ Caixa gerado das operações 6.840.306 4.897.458 23.751.750 20.510.846
+Pagamento de juros sobre empréstimos, financiamentos e debêntures (844.088) (792.060) (5.241.389) (4.728.998)
+Custos de empréstimos capitalizados pagos 76.567 343.601 959.968 1.160.364
+Juros recebidos sobre aplicações financeiras 232.446 165.267 1.500.437 681.268
+Pagamento de imposto de renda e contribuição social (102.357) (52.559) (366.339) (308.002)
+Caixa líquido gerado nas atividades operacionais 6.202.874 4.561.707 20.604.427 17.315.478
+ATIVIDADES DE INVESTIMENTOS
+Adições de imobilizado (2.014.333) (2.849.649) (9.190.589) (11.674.183)
+Adições de intangível (19.277) (99.205) (162.042) (104.931)
+Adições de ativos biológicos (1.822.887) (1.445.859) (7.180.450) (5.777.952)
+Recebimentos por venda de ativo imobilizado e biológico 55.055 38.360 167.983 183.576
+Aumento de capital em controladas e coligadas (4.017) (13.387) (41.281) (48.462)
+Aplicações financeiras, líquidas (1.514.192) 1.995.227 205.954 (5.296.370)
+Adiantamentos para aquisição (recebimento) de madeira de operações com fomento e 
+parcerias (13.511) (137.050) (294.952) (690.908)
+Dividendos recebidos — 39.920 — 44.789
+Aquisição de ativos (452.153) — (2.595.974) (1.615.140)
+Aquisição de controladas — — — (1.060.718)
+Aquisição de outros investimentos — — (1.440.503) —
+Caixa líquido de aquisição de controladas — — 19.113 5.002
+Caixa líquido aplicado nas atividades de investimentos (5.785.315) (2.471.643) (20.512.741) (26.035.297)
+ATIVIDADES DE FINANCIAMENTOS
+Empréstimos, financiamentos e debêntures captados 3.579.754 973.054 15.692.905 10.944.794
+Recebimento de operações com derivativos (198.308) 1.174.172 (550.581) 3.559.286
+Pagamento de empréstimos, financiamentos e debêntures (279.463) (812.456) (9.410.807) (4.296.447)
+Pagamento de contratos de arrendamentos (379.193) (348.426) (1.325.398) (1.218.399)
+Pagamento de dividendos e juros sobre o capital próprio (306.333) (190.120) (1.624.653) (192.532)
+Pagamento de aquisição de ativos e controladas — — (58.467) (116.924)
+Recompra de ações — — (2.806.764) (880.914)
+Caixa líquido aplicado nas atividades de financiamentos 2.416.457 796.224 (83.765) 7.798.864
+EFEITO DA VARIAÇÃO CAMBIAL EM CAIXA E EQUIVALENTES DE CAIXA 366.771 (66.880) 665.026 (239.125)
+Decréscimo líquido no caixa e equivalentes de caixa 3.200.787 2.819.408 672.947 (1.160.080)
+No início do período 5.818.031 5.526.463 8.345.871 9.505.951
+No final do período 9.018.818 8.345.871 9.018.818 8.345.871
+Decréscimo líquido no caixa e equivalentes de caixa 3.200.787 2.819.408 672.947 (1.160.080)
+Fluxo de Caixa (R$ mil) 4T24 4T23 2024 2023
+RELEASE DE RESULTADOS 4T24
+Página 40 de 44
+
+[p. 41]
+ANEXO 5 – EBITDA
+(R$ mil, exceto quando indicado) 4T24 4T23 2024 2023
+Resultado Líquido do período (6.736.572) 4.514.722 (7.044.706) 14.106.381
+Resultado financeiro, líquido 15.556.184 (2.269.458) 28.802.145 (5.780.928)
+Imposto de renda e contribuição social (4.403.791) 912.564 (6.066.347) 3.890.835
+EBIT 4.415.821 3.157.828 15.691.092 12.216.288
+Depreciação, amortização e exaustão 2.809.949 1.787.944 9.223.995 7.321.110
+EBITDA¹ 7.225.770 4.945.772 24.915.087 19.537.398
+Margem EBITDA 51% 48% 53% 49%
+Atualização Valor Justo - Ativo Biológico (892.529) (733.516) (1.431.532) (1.989.831)
+Baixa de inventário de madeira 11.930 22.998 11.930 22.998
+Créditos tributários - exclusão do ICMS na 
+base de cálculo do PIS e da COFINS — 15.108 (265) 15.108
+Doações para catástrofes e pandemias 141 — 416 —
+Equivalência Patrimonial (997) 13.549 13.845 19.379
+Extinção linha de negócio de embalagens na 
+subsidiária (15) 8.974 1.205 8.974
+Multas e distratos de contratos — — — 49.737
+Gastos com aquisição de ativos e combinações 
+de negócios 11.993 829 34.069 25.171
+Perda efetiva do Programa de adiantamento 
+de contrato de fomento 4.435 52 4.435 3.265
+Reversão (Provisão) - Perda de crédito ICMS 82.919 86.451 130.726 348.628
+Resultado na venda e baixa de ativo 
+imobilizado e ativo biológico 37.272 144.288 169.284 232.143
+EBITDA Ajustado 6.480.919 4.504.505 23.849.200 18.272.970
+Margem EBITDA Ajustado 46% 43% 50% 46%
+1EBITDA da Companhia calculado conforme a Instrução CVM n° 527. de 04 de outubro de 2012.
+RELEASE DE RESULTADOS 4T24
+Página 41 de 44
+
+[p. 42]
+ANEXO 6 – Demonstração de Resultado Segmentado
+Demonstração de Resultado 
+Segmentada (R$ mil)
+4T24 4T23
+Celulose Papel Não 
+Segmentado
+Total 
+Consolidado Celulose Papel Não 
+Segmentado
+Total 
+Consolidado
+Receita Líquida 11.195.623 2.981.375 – 14.176.998 7.769.888 2.601.657 – 10.371.545
+Custo dos Produtos Vendidos (6.836.873) (1.923.844) – (8.760.717) (5.155.822) (1.619.742) – (6.775.564)
+Lucro Bruto 4.358.750 1.057.531 – 5.416.281 2.614.066 981.915 – 3.595.981
+Margem Bruta 39% 35% – 38% 34% 38% – 35%
+Receitas (Despesas) 
+Operacionais (509.026) (491.434) – (1.000.460) (128.762) (309.391) – (438.153)
+Despesas com vendas (554.266) (302.493) – (856.759) (453.103) (258.538) – (711.641)
+Despesas gerais e 
+administrativas (678.631) (311.614) – (990.245) (426.723) (188.169) – (614.892)
+Outras receitas (despesas) 
+operacionais 732.168 113.379 – 845.547 764.588 137.341 – 901.929
+Equivalência Patrimonial (8.297) 9.294 – 997 (13.524) (25) – (13.549)
+Lucro operacional antes do 
+resultado financeiro (EBIT) 3.849.724 566.097 – 4.415.821 2.485.304 672.524 – 3.157.828
+Depreciação, Exaustão e 
+Amortização 2.497.196 312.753 – 2.809.949 1.570.420 217.524 – 1.787.944
+EBITDA 6.346.920 878.850 – 7.225.770 4.055.724 890.048 – 4.945.772
+Margem EBITDA 57% 29% – 51% 52% 34% – 48%
+EBITDA Ajustado¹ 5.729.507 751.412 – 6.480.919 3.756.297 748.208 – 4.504.505
+Margem EBITDA Ajustada¹ 51% 25% – 46% 48% 29% – 43%
+Resultado Financeiro, líquido – – (15.556.184) (15.556.184) – – 2.269.458 2.269.458
+Resultado antes do IRPJ e CSLL 3.849.724 566.097 (15.556.184) (11.140.363) 2.485.304 672.524 2.269.458 5.427.286
+Imposto de Renda e Contribuição 
+Social – – 4.403.791 4.403.791 – – (912.564) (912.564)
+Resultado do Exercício 3.849.724 566.097 (11.152.393) (6.736.572) 2.485.304 672.524 1.356.894 4.514.722
+Margem Líquida 34% 19% – -48% 32% 26% – 44%
+1Desconsidera itens não recorrentes e efeitos do PPA.
+RELEASE DE RESULTADOS 4T24
+Página 42 de 44
+
+[p. 43]
+Demonstração de Resultado 
+Segmentada (R$ mil)
+2024 2023
+Celulose Papel Não 
+Segmentado
+Total 
+Consolidado Celulose Papel Não 
+Segmentado
+Total 
+Consolidado
+Receita Líquida 37.593.462 9.809.820 – 47.403.282 30.677.265 9.078.310 – 39.755.575
+Custo dos Produtos Vendidos (21.261.705) (6.139.822) – (27.401.527) (19.694.674) (5.382.000) – (25.076.675)
+Lucro Bruto 16.331.757 3.669.998 – 20.001.755 10.982.591 3.696.309 – 14.678.900
+Margem Bruta 43% 37% – 42% 36% 41% – 37%
+Receitas (Despesas) 
+Operacionais (2.815.877) (1.494.786) – (4.310.663) (1.537.433) (925.179) – (2.462.612)
+Despesas com vendas (1.946.573) (991.974) – (2.938.547) (1.842.818) (753.559) – (2.596.377)
+Despesas gerais e 
+administrativas (1.861.148) (758.696) – (2.619.844) (1.338.831) (584.397) – (1.923.228)
+Outras receitas (despesas) 
+operacionais 1.042.887 218.686 – 1.261.573 1.678.929 397.443 – 2.076.372
+Equivalência Patrimonial (51.043) 37.198 – (13.845) (34.713) 15.334 – (19.379)
+Lucro operacional antes do 
+resultado financeiro (EBIT) 13.515.880 2.175.212 – 15.691.092 9.445.158 2.771.130 – 12.216.288
+Depreciação, Exaustão e 
+Amortização 8.137.857 1.086.138 – 9.223.995 6.606.870 714.240 – 7.321.110
+EBITDA 21.653.735 3.261.352 – 24.915.087 16.052.028 3.485.370 – 19.537.398
+Margem EBITDA 58% 33% – 53% 52% 38% – 49%
+EBITDA Ajustado¹ 20.866.160 2.983.040 – 23.849.200 15.194.660 3.078.310 – 18.272.970
+Margem EBITDA Ajustada¹ 56% 30% – 50% 50% 34% – 46%
+Resultado Financeiro, líquido – – (28.802.145) (28.802.145) – – 5.780.928 5.780.928
+Resultado antes do IRPJ e CSLL 13.515.880 2.175.212 (28.802.145) (13.111.053) 9.445.158 2.771.130 5.780.928 17.997.216
+Imposto de Renda e Contribuição 
+Social – – 6.066.347 6.066.347 – – (3.890.835) (3.890.835)
+Resultado do Exercício 13.515.880 2.175.212 (22.735.798) (7.044.706) 9.445.158 2.771.130 1.890.093 14.106.381
+Margem Líquida 36% 22% – -15% 31% 31% – 35%
+RELEASE DE RESULTADOS 4T24
+Página 43 de 44
+
+[p. 44]
+Afirmações sobre Expectativas Futuras
+Algumas afirmações contidas neste documento podem ser projeções ou afirmações sobre expectativas 
+futuras. Tais afirmações estão sujeitas a riscos conhecidos e desconhecidos e incertezas que podem 
+fazer com que tais expectativas não se concretizem ou sejam substancialmente diferentes do que era 
+esperado. Estes riscos incluem entre outros. modificações na demanda futura pelos produtos da 
+Companhia, modificações nos fatores que afetam os preços domésticos e internacionais dos produtos, 
+mudanças na estrutura de custos, modificações na sazonalidade dos mercados, mudanças nos preços 
+praticados pelos concorrentes, variações cambiais, mudanças no cenário político-econômico brasileiro, 
+nos mercados emergentes e internacional. As afirmações sobre expectativas futuras não foram 
+revisadas pelos auditores independentes.
+RELEASE DE RESULTADOS 4T24
+Página 44 de 44

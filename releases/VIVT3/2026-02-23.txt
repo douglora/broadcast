@@ -1,0 +1,1829 @@
+[p. 1]
+RESULTADOS
+4T25
+Telefônica Brasil S.A.
+Relações com Investidores
+23 de fevereiro de 2026
+
+[p. 2]
+Resultados 4T25 |
+A Telefônica Brasil S.A. (B3: VIVT3, NYSE: VIV)
+divulga hoje seus resultados referentes ao quarto
+trimestre de 2025, apresentados de acordo com
+as Normas Contábeis Internacionais (IFRS) e com
+os pronunciamentos, interpretações e orientações
+emitidas pelo Comitê de Pronunciamentos
+Contábeis.
+Padrão do plano de fundo
+O conteúdo gerado por IA pode estar incorreto.
+Para acessar a 
+planilha com os dados 
+disponibilizados 
+no site de relações 
+com investidores, 
+clique aqui
+Destaques 4T25
+Acessos 
+Pós-Pago
+70,8mi
++6,5% a/a
+Acessos 
+FTTH
+7,8mi
++12,0% a/a
+Receitas 
+Totais
+R$ 15,6bi
++7,1% a/a
+EBITDA
+R$ 6,7bi
++8,1% a/a
+1. Exclui M2M e Dongles.
+2. 56,7 milhões de CPFs.
+3. EBITDA ex-efeitos da Migração da Concessão exclui efeitos do regime de Concessão para 
+Autorização.
+4. AL significa Após Arrendamentos (After Leases). Mais detalhes na página 18. 
+5. Não inclui valores relativos à efeitos do IFRS 16, licenças e aquisição da CyberCo Brasil.
+Atingimos 116,7 milhões de acessos no 4T25, uma alta de +0,6% a/a. No segmento móvel, encerramos o
+trimestre com 103,0 milhões de acessos (+0,7% a/a), e 716 municípios cobertos com a tecnologia 5G, o
+que representa um avanço de 1,4x versus o ano passado. No pós-pago¹, encerramos o ano com +3,3
+milhões de adições líquidas a/a e uma base de 50,8 milhões de acessos. O ARPU¹ alcançou R$ 52,9, e o
+churn¹ finalizou o período em 1,0%, continuando em níveis historicamente baixos.
+Nossa cobertura de fibra ao final de 2025 foi de 31,0 milhões de domicílios passados, uma evolução de
++6,4% a/a, com 7,8 milhões de domicílios conectados (+12,0% a/a). Pelo sexto trimestre consecutivo,
+registramos queda na comparação anual do churn do FTTH, encerrando o 4T25 em 1,4%, diminuição de
+-0,1 p.p. a/a.
+A receita líquida alcançou R$ 15.611 milhões, um incremento de +7,1% a/a, impulsionada pelo forte
+desempenho das receitas de pós-pago (+9,0% a/a), fibra (+9,8% a/a) e dados corporativos, TIC e
+serviços digitais, que cresceu +10,2% a/a, impulsionando a receita fixa, que cresceu +5,4% a/a.
+Nos últimos 12 meses, a receita média mensal por CPF² cresce para R$ 65,8 (+5,7% a/a), impactada pela
+alta das receitas de conectividade B2C (+4,4% a/a) e novos negócios B2C (+20,7% a/a), reforçando a
+atratividade do nosso ecossistema de serviços que vai além da conectividade.
+O EBITDA ex-efeitos da Migração da Concessão³ alcançou R$ 6.596,9 milhões, alta de +17,7% a/a, com
+margem de 42,3%, enquanto o EBITDA reportado registrou alta de +8,1% a/a, com uma margem de
+42,9%, alta de +0,4 p.p. a/a. O EBITDA AL4 expandiu +9,2% a/a, com margem de 33,8%, avançando +0,7
+p.p. a/a.
+No 4T25, os Investimentos5 totalizaram R$ 2.359,3 milhões, redução de -4,0% ano contra ano,
+representando 15,1% das receitas, uma queda de -1,7 p.p. a/a. Em 2025, o Capex totalizou R$ 9.270,3
+milhões (+1,1% a/a), equivalente a 15,6% das receitas (-0,9 p.p. a/a), refletindo uma diminuição na
+intensidade de investimentos.
+O Fluxo de Caixa Operacional6 somou R$ 4.339,7 milhões, evolução de +16,0% a/a, com uma margem
+de 27,8% (+2,1 p.p. a/a) em relação à receita líquida. Em 2025, atingimos R$ 15.551,6 milhões (+13,4% a/a),
+com uma margem de 26,1% (+1,5 p.p. a/a). O Lucro Líquido7 do trimestre atingiu R$ 1.876,9 milhões,
+aumento de +6,5% a/a. Em 2025, encerramos o ano com R$ 6.167,9 milhões (+11,2% a/a).
+A remuneração paga aos acionistas8 somou R$ 6.376,5 milhões em 2025, +9,1% versus o ano anterior,
+sendo R$ 2.630,0 milhões referentes a juros sobre capital próprio declarados nos exercícios sociais de
+2024 e 2025, R$ 2.000,0 milhões associados à redução de capital e R$ 1.746,5 milhões referentes à
+recompra de ações, resultando em um payout sobre o lucro líquido de 103,4%. Para pagamentos em
+2026, a Companhia já deliberou R$ 6.990,0 milhões, sendo R$ 4.000,0 milhões em Redução de Capital9
+e R$ 2.990,0 milhões em juros sobre capital próprio. Seguimos firmes em nosso compromisso de
+distribuir, entre 2024 e 2026, no mínimo 100% do lucro líquido do exercício.
+2
+6. Fluxo de Caixa Operacional é equivalente ao EBITDA menos Investimentos ex-IFRS 16, ex-
+licenças e aquisição da CyberCo Brasil.
+7. Considera o lucro líquido atribuído à Telefônica Brasil.
+8. Considera os eventos pagos de 1 de janeiro de 2025 a 31 de dezembro de 2025.
+9. Sujeita a aprovação na Assembleia Geral Extraordinária em 12 de março de 2026 e ao prazo 
+de oposição dos credores de 60 dias.
+
+[p. 3]
+Resultados 4T25 |
+1. Outras Receitas inclui Voz Fixa, xDSL, FTTC e IPTV. 
+2. AL significa Após Arrendamentos (After Leases). Mais detalhes na página 18.
+3. Lucro Líquido atribuído à Telefônica Brasil.
+4. Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período, EPS de 2024 foi recalculado considerando os 
+efeitos do Grupamento e Desdobramento efetivado em 15 de abril de 2025. Mais detalhes na nota explicativa 23.i) das Demonstrações Financeiras de 31 de dezembro de 2025.
+5. Não inclui valores relativos à efeitos do IFRS 16, licenças e aquisição da CyberCo Brasil.
+6. Fluxo de Caixa Operacional é equivalente ao EBITDA menos Investimentos ex-IFRS 16, licenças e aquisição da CyberCo Brasil.
+7. Fluxo de Caixa Operacional AL é equivalente ao EBITDA Após Arrendamentos menos Investimentos ex-IFRS 16, licenças e aquisição da CyberCo Brasil.
+Destaques
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3
+
+[p. 4]
+Resultados 4T25 |
+Negócio Móvel
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Receita de Serviço Móvel (RSM) registrou evolução de +7,0% a/a e +1,3% t/t,
+suportada principalmente pela Receita do Pós-pago¹, que cresceu +9,0% versus 4T24,
+representando 85,8% da RSM (+1,6 p.p. a/a).
+A receita de pré-pago recuou -3,9% a/a, devido ao impacto da contínua migração de clientes para
+os planos controle. Ainda assim, o movimento representa desaceleração das perdas frente aos
+trimestres anteriores, impulsionado pelo aumento sequencial na frequência de recargas. Na
+comparação t/t, a receita registrou alta de +2,2%, o melhor desempenho sequencial desde o 1T25.
+Mesmo com essa recuperação, o pré-pago representa 14,2% da RSM e 8,9% da Receita
+Operacional Líquida, vale ainda destacar que a dinâmica de migração contribui positivamente para
+o desempenho geral do serviço móvel, dado o maior ARPU e menor churn do pós-pago.
+Receita de Aparelhos e Eletrônicos teve alta de +13,7% a/a, o maior crescimento anual
+desde 1T23. No 4T25, a venda de smartphones compatíveis com 5G representou 97,1%
+do total vendido (+5,5 p.p. a/a).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Receita de pós-pago inclui M2M, dongles, atacado e outros.
+2. Ex-M2M e ex-Dongles.
+Acessos Móveis
+milhões
+Acessos Pós-pago
+milhões
+Churn Pós-Pago² %
+A base de clientes pós-pago cresceu consistentemente, com alta de +6,5% a/a e +1,5% t/t,
+totalizando 70,8 milhões de acessos, suportado por migrações do pré-pago para controle e pós-
+pago e aquisição de novos clientes. Esses elementos, somados à reajustes anuais de preços,
+contribuíram para um novo recorde no ARPU móvel, que atingiu R$ 31,8, incremento de +5,8% a/a
+no 4T25.
+4
+
+[p. 5]
+Resultados 4T25 |
+Negócio Fixo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Receita Líquida Fixa encerrou o período com alta de +5,4% a/a, impulsionada pelo
+consistente crescimento das receitas de FTTH (+9,8% a/a) e de Dados Corporativos, TIC e
+Serviços Digitais (+10,2% a/a).
+Alcançamos 31,0 milhões de domicílios passados com fibra (+6,4% a/a) em 453 cidades (+9 a/a),
+adicionando 1,9 milhão de domicílios a/a. Encerramos o ano com 7,8 milhões de acessos (+12,0% a/a),
+resultando em uma penetração de 25,2%, +1,3 p.p. versus 4T24, a maior alta nos últimos 4 anos. Pelo
+sexto trimestre consecutivo, registramos queda na comparação anual do churn do FTTH, encerrando
+o 4T25 em 1,4%, diminuição de -0,1 p.p. a/a.
+A Receita de Dados Corporativos, TIC e Serviços Digitais registrou incremento de duplo
+dígito, +10,2% a/a, somando R$ 1.483 milhões no 4T25, dos quais R$ 1.062 milhões são
+receitas de B2B Digital Fixa (+15,2% a/a).
+FTTH
+1. Outras Receitas Fixas inclui Voz Fixa, xDSL, FTTC e IPTV.
+2. O Vivo Total é o nosso produto que combina fibra e móvel em um único plano.
+Casas Passadas
+milhões
+ 
+ 
+ 
+Casas Conectadas
+milhões
+ 
+ 
+ 
+Dos 7,8 milhões de acessos, 4,9 milhões são convergentes, sendo 3,4 milhões através do Vivo Total²,
+que cresceu +40,9% a/a. O Vivo Total respondeu por 83,6% das altas de FTTH nas lojas físicas próprias
+nos últimos três meses.
+A Companhia tem reforçado a relevância da convergência como alavanca de crescimento, e os
+indicadores são positivos. A base do Vivo Total representa 43,2% de todos os acessos de FTTH (+8,9
+p.p. a/a), demonstrando significativo espaço de ampliação futura sobre a base já existente de clientes.
+5
+
+[p. 6]
+Resultados 4T25 |
+Negócios Digitais
+1. 56,7 milhões de CPFs.
+2. No 1T25, melhoramos a alocação entre produtos do B2B Digital, ajustando números históricos e atuais sem alterar a receita total de B2B Digital.
+3. Inclui equipamentos.
+Seguimos avançando na construção de um ecossistema digital robusto, por meio de parcerias 
+estratégicas que fortalecem nossa consolidação como um verdadeiro hub de serviços digitais.
+B2C
+A Vivo se posiciona como um hub completo de
+serviços digitais para empresas, com soluções
+integradas que vão além da conectividade. Em
+2025, os serviços digitais B2B somaram R$
+5.271 milhões em receitas, +29,5% a/a,
+representando 8,8% da nossa receita total —
+uma evolução de +1,6 p.p. a/a.
+O nosso segmento B2B continua a ganhar
+participação na receita da Vivo, representando
+22,6% do total, alta de +1,4 p.p. a/a, com 2025
+marcando seu maior crescimento anual nos
+últimos anos. Esse desempenho reflete a
+crescente demanda de nossos clientes por
+produtos digitais, que já representam 39,1%
+(+4,8 p.p. a/a) da receita B2B.
+B2B Receitas B2B Digitais²
+Soluções Digitais³Cloud
+IoT + MensageriaCibersegurança
+Entretenimento
+Em conteúdo, a Vivo distribui aos seus clientes os principais OTTs de música e vídeo do
+mercado. Esse negócio somou R$ 856 milhões em receitas em 2025, (+18,1% a/a), com
+uma base de 4,1 milhões de assinantes de plataformas de conteúdo, um incremento de
++35,0% a/a.
+R$ milhões
+Saúde e Bem-estar
+Nosso marketplace de serviços de saúde, o Vale Saúde Sempre, conecta clientes a clínicas
+e laboratórios em todo o país por meio de uma assinatura mensal. Desde seu lançamento,
+já alcançou 471 mil assinaturas. Em 2025, foram realizadas 69 mil consultas, exames e
+procedimentos, contribuindo para a receita de R$ 101 milhões no último ano (+69,9% a/a)
+com saúde e bem-estar.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Produtos & Serviços B2C
+Considerando todos os produtos e serviços B2C — tanto de conectividade quanto de novos
+negócios — a receita média mensal por CPF¹ atingiu R$ 65,8 em 2025, reforçando o
+ecossistema de serviços da Vivo como uma proposta que vai além da conectividade.
+Serviços Financeiros
+O Vivo Pay é nossa plataforma 100% digital que integra as soluções financeiras da Vivo,
+como empréstimo pessoal, seguros, antecipação de FGTS, parcela via PIX, entre outros.
+Em 2025, as receitas registraram evolução de +5,9% a/a, somando R$ 488 milhões.
+Desde o lançamento do Vivo Pay - Empréstimo Pessoal, em out/20, o volume total de crédito
+concedido excedeu R$ 1,15 bilhão. No Vivo Seguros, nosso portfólio inclui proteção para celulares e
+eletrônicos, além de seguros para residências e viagens. No 4T25, totalizamos 650 mil dispositivos
+segurados, +46% a/a. Em 2025, cerca de 39% dos smartphones vendidos saíram das lojas com seguro
+contratado.
+6
+2024 2025
+
+[p. 7]
+Resultados 4T25 |
+Custos
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Os Custos dos Serviços e Produtos Vendidos cresceram
++9,7% a/a, impulsionados pelo crescimento das receitas com 
+serviços digitais e eletrônicos. 
+Custos dos Serviços e Produtos Vendidos
+Serviços
++8,2% a/a | 11,3% da RL (+0,1 p.p a/a)
+Crescimento é reflexo da forte 
+aceleração das receitas de soluções 
+digitais, principalmente no B2B e 
+serviços OTT de música e vídeo.
+Produtos Vendidos
++11,6% a/a | 9,7% da RL (+0,4 p.p. a/a)
+A expansão é impulsionada pelo 
+sólido desempenho das vendas 
+de celulares e acessórios.
+7
+
+[p. 8]
+Resultados 4T25 |
+Pessoal +6,4% a/a | 10,3% da RL (-0,1 p.p. a/a)
+A evolução reflete os ajustes salariais anuais, bem como um aumento no número de
+funcionários em áreas como Tecnologia da Informação e Novos Negócios.
+Comerciais e Infraestrutura -2,6% a/a | 22,8% da RL (-2,3 p.p. a/a)
+A queda anual está relacionada principalmente ao aumento pontual dos custos de
+infraestrutura registrado no 4T24, bem como à redução das despesas com aluguel de rede.
+Provisão para Devedores Duvidosos +4,2% a/a | 2,5% da RL (-0,1 p.p. a/a)
+Alta anual em linha com o crescimento do número de clientes que geram receita pós-paga e
+recorrente. A PDD reduziu -0,2% na comparação trimestral. O controle da PDD demonstra a
+priorização dos clientes no pagamento de conectividade, além da execução de ações de
+crédito e cobrança pela Companhia.
+Gerais e Administrativas +8,2% a/a | 2,6% da RL (0,0 p.p. a/a)
+O crescimento foi impulsionado pelo aumento de gastos em serviços externos,
+desenvolvimento e manutenção de sistemas e outros serviços administrativos.
+Outras Receitas (Despesas) Operacionais -35,2% a/a | 2,2% da RL (-1,4 p.p. a/a)
+No 4T25, tivemos R$ 102,1 milhões¹ em benefícios com a venda de ativos relacionados à
+migração da concessão para autorização (R$ 96 milhões em cobre e R$ 6 milhões em
+imóveis), em comparação com R$ 206 milhões em vendas de ativos e R$ 386 milhões em
+reversão de contingências no 4T24. Estamos comprometidos com a entrega dos R$ 4,5
+bilhões em vendas de ativos relacionadas à migração do regime de concessão para
+autorização (R$ 3,0 bilhões em cobre e R$ 1,5 bilhão em imóveis), com a captura de valor
+concentrada principalmente em 2026 e 2027.
+Os Custos da Operação cresceram +4,4% a/a, impulsionados 
+por maiores despesas relacionadas à atividade comercial e 
+parcialmente compensadas pela venda de ativos vinculados à 
+antiga concessão de voz fixa.
+Custos da Operação
+Pix nos pagamentos recebidos
+%
+ 
+ 
+ 
+KPIs Digitalização
+Usuários Vivo App
+milhões
+1. Os valores das vendas de ativos são líquidos de custos.
+ 
+ 
+ 8
+
+[p. 9]
+Resultados 4T25 |
+Do EBITDA ao Lucro Líquido
+EBITDA ao Lucro Líquido – 4T25
+1. Considera o lucro líquido atribuído à Telefônica Brasil.
+2. EBITDA ex-efeitos da Migração da Concessão exclui efeitos do regime de Concessão para Autorização.
+3. AL significa Após Arrendamentos (After Leases). Mais detalhes na página 18. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões
+EBITDA
+Encerramos o 4T25 com um EBITDA (resultado antes de juros, impostos,
+depreciações e amortizações) de R$ 6.699,0 milhões, +8,1% a/a, com margem
+EBITDA de 42,9%, +0,4 p.p. a/a. Já o EBITDA ex-efeitos da Migração da Concessão²
+alcançou R$ 6.596,9 milhões, alta de +17,7% a/a, com margem de 42,3%. O EBITDA
+AL³ também cresceu, +9,2% a/a, com margem de 33,8%, alta de +0,7 p.p. a/a.
+Depreciação e Amortização
+As despesas com Depreciação e Amortização cresceram +1,6% a/a, com
+desaceleração no ritmo de crescimento anual à medida que os resultados passaram a
+uma base mais comparável.
+Desde o 2T25, a depreciação e amortização do PPA apresentaram queda em função
+da conclusão da amortização de parte dos ativos intangíveis reconhecidos na
+aquisição da GVT, que anteriormente totalizavam aproximadamente R$ 24 milhões
+por trimestre. Esse efeito foi parcialmente compensado pelo aumento da depreciação
+de arrendamentos IFRS 16, refletindo a incorporação de ativos das aquisições da
+FiBrasil e da CyberCo.
+Resultado Financeiro
+O Resultado Financeiro do 4T25 totalizou uma despesa de R$ 663,7 milhões,
+representando um aumento de +93,8% a/a. Esse crescimento é reflexo de uma base
+de comparação atípica no 4T24, que registrou um efeito positivo de R$ 406 milhões,
+proveniente da reversão de atualizações monetárias de provisões relacionadas à
+migração do regime de concessão da voz fixa para autorização.
+Apesar da elevação das despesas, o impacto foi parcialmente mitigado pela expansão
+da receita financeira, impulsionada pelo aumento da taxa de juros e melhoria da
+liquidez ao longo do período.
+Lucro Líquido
+O 4T25 registrou um Lucro Líquido¹ de R$ 1.876,9 milhões, um incremento de +6,5%
+a/a, impulsionado pelo crescimento do negócio, que suportou uma evolução de
++18,0% a/a do EBIT.
+9
+
+[p. 10]
+Resultados 4T25 |
+Investimentos
+1. Não inclui valores relativos à efeitos do IFRS 16, licenças e aquisição da CyberCo Brasil.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Os investimentos¹ somaram R$ 2.359 milhões no 4T25, retração de -4,0% a/a,
+representando 15,1% da Receita Operacional Líquida, -1,7 p.p. versus o mesmo
+período do ano anterior, seguindo a tendência de menor intensidade de Capex.
+Fluxo de Caixa Livre
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O Fluxo de Caixa Livre totalizou R$ 2.287 milhões no 4T25, crescendo +111,9% a/a, em
+função da evolução positiva do EBITDA, redução dos desembolsos com contratos de
+leasing, que têm variado pouco ao longo dos últimos seis trimestres, menor execução
+de Capex, e redução nos pagamentos de impostos e despesas financeiras. Além destes
+efeitos, tivemos uma redução no consumo de capital de giro no comparativo anual, por
+efeitos pontuais que aumentaram o consumo em 2024.
+Continuamos expandindo nossa rede de 5G, cobrindo 716 municípios (+1,4x a/a) e 67,7% da
+população brasileira. A Fibra também é uma alavanca importante para o crescimento da
+Companhia, isso se traduz em investimentos dedicados à expansão de domicílios passados
+(+6,4% a/a) e conectadas (+12,0% a/a).
+No ano, o Fluxo de Caixa Livre após o pagamento de leasing atingiu R$ 9.153 milhões (+11,4% a/a),
+como consequência do crescimento do EBITDA, parcialmente compensado por maiores
+pagamentos de leasing, investimentos, pagamentos financeiros e menor geração de capital
+circulante.
+10
+
+[p. 11]
+Resultados 4T25 |
+Endividamento
+Empréstimos, Financiamentos e Debêntures 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Endividamento Líquido
+ Perfil da Dívida L.P.
+A dívida bruta (ex-Arrendamentos IFRS 16) da Companhia totalizou R$ 4.914 milhões ao final do
+4T25, uma redução de -10,7% a/a, reflexo principalmente da liquidação da debênture referente à 7°
+Emissão 1ª Série, em julho de 2025, no valor de R$ 1.500 milhões. Do total, 99% da dívida bruta é
+denominada em moeda nacional e 1% em moeda estrangeira. A exposição cambial da dívida está
+100% coberta por operações de proteção cambial (hedge).
+Considerando Caixa, Aplicações e Derivativos, a Companhia apresentou caixa líquido de R$ 2.324
+milhões em 31 de dezembro de 2025. Se fosse incluído o efeito dos arrendamentos, a dívida líquida
+atingiria R$ 13.109 milhões ao final do 4T25.
+1. Considera passivos pelos contratos de aquisição da Vita IT, da Vale Saúde e da IPNET, aportes realizados pela Polígono Capital no Vivo Money, o Programa de Anistia dos Estados de São Paulo e do 
+Paraná. Mais detalhes na nota explicativa 20 das Demonstrações Financeiras de 31 de dezembro de 2025.
+2. Considera caixa e equivalentes de caixa e contas a receber do FIDC Vivo Money.
+3. Dívida não inclui taxa relacionada ao FISTEL TFF para os anos 2020 até 2025, totalizando R$ 6,1 bilhões.
+11
+
+[p. 12]
+Resultados 4T25 |
+Mercado de Capitais
+Desempenho das Ações
+Nosso capital social é composto exclusivamente por ações ordinárias, com direito a voto, que estão 
+listadas na B3 (ticker: VIVT3) e na NYSE (ticker: VIV).
+(Base 100 em 31/12/2024)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIVT3 é a 32ª ação mais líquida da Bolsa de Valores brasileira, com alta de 10 posições versus janeiro
+de 2025¹.
+1. De acordo com o Índice de Negociabilidade da B3, janeiro de 2026.
+2. Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período, EPS de 2024 foi recalculado considerando os 
+efeitos do Grupamento e Desdobramento efetivado em 15 de abril de 2025. Mais detalhes na nota explicativa 23.i) das Demonstrações Financeiras de 31 de dezembro de 2025.
+3. Dados ajustados de acordo com o número de ações pós grupamento e desdobramento.
+4. Variação compara períodos findos em 31 de dezembro de 2025 e 31 de dezembro de 2024 ajustado após operação de Grupamento e Desdobramento.
+ 90
+ 100
+ 110
+ 120
+ 130
+ 140
+ 150
+ 160
+dez-24 jan-25 fev-25 mar-25 abr-25 mai-25 jun-25 jul-25 ago-25 set-25 out-25 nov-25 dez-25
+ IBOV VIVT3 VIVT3 ajustado por dividendos
+12
+
+[p. 13]
+Resultados 4T25 |
+Retorno ao Acionista
+Para mais informações sobre Remuneração aos Acionistas, clique aqui.
+Distribuição ao Acionista²
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões
+1. Sujeita à aprovação pelos acionistas na AGE que ocorrerá no dia 12 de março de 2026, e ao período de 60 dias de oposição dos credores.
+2. Considera os dividendos, juros sobre capital próprio, recursos decorrentes da redução de capital social pagos e as recompras de ações realizadas entre janeiro e dezembro do 
+respectivo ano.
+Distribuímos R$ 6.376,5 milhões em 2025, +9,1% versus o ano anterior, sendo R$ 2.250,0
+milhões referentes a juros sobre capital próprio declarados no exercício social de 2024,
+R$ 380,0 milhões declarados em 2025, R$ 2.000,0 milhões associados à redução de
+capital e R$ 1.746,5 milhões referentes à recompra de ações. Isso resulta em um payout
+sobre o lucro líquido de 103,4%.
+Para 2026, a Companhia já deliberou R$ 6.990,0 milhões em remuneração aos acionistas, sendo
+R$ 4.000,0 milhões em Redução de Capital¹ e R$ 2.990,0 milhões em juros sobre capital próprio
+declarados em 2025. Acabamos de anunciar o pagamento desse total de JSCP para o dia 14 de abril
+de 2026.
+A Companhia mantém seu foco na remuneração consistente de seus acionistas. Entre 2024 e 
+2026, reafirmamos o compromisso de distribuir, em cada exercício social, um montante igual 
+ou superior a 100% do lucro líquido, por meio de dividendos, juros sobre capital próprio, 
+reduções de capital e programas de recompra de ações. Em 2025, esse guidance foi 
+integralmente cumprido, com payout de 103,4% do lucro líquido.
+13
+Em 12 de março de 2026, ocorrerá uma Assembleia Geral Extraordinária para pautar a redução de
+capital de R$ 4.000,0 milhões, se aprovada, o período de oposição de credores durará 60 dias e a
+data-base para a posição acionária será dia 22 de maio de 2026, com pagamento previsto para 14 de
+julho de 2026.
+Em 20 de fevereiro de 2026, o Conselho de Administração da Companhia aprovou um novo
+Programa de Recompra de Ações no valor de até R$ 1,0 bilhão, com vigência a partir de 23 de
+fevereiro de 2026 até 22 de fevereiro de 2027. Também acabamos de deliberar a distribuição de R$
+325,0 milhões em juros sobre capital próprio, que serão pagos até o dia 30 de abril de 2027.
+Seguimos firmes em nosso compromisso de distribuir, entre 2024 e 2026, no mínimo 100% do lucro
+líquido de cada exercício.
+
+[p. 14]
+Resultados 4T25 | 14
+ESG
+1. Data base: 08/12/2025.
+Ambiental,Sociale Governança
+A estratégia ESG da Vivo conta com 6 pilares e mais de 100 indicadores integrados no Plano de
+Negócio Responsável (PNR), monitorados e aprovados de forma consolidada pelo Conselho de
+Administração por meio do Comitê de Qualidade e Sustentabilidade. O PNR contém metas que
+contribuem com o crescimento sustentável da empresa com ética e integridade, com os
+Objetivos de Desenvolvimento Sustentável (ODS) e demais compromissos no tema.
+Ambiental
+VIVO MARCA PRESENÇA NA COP 30 com (i) apoio ao primeiro pavilhão da Ciência Planetária; (ii)
+painel próprio no Pavilhão Brasil destacando o papel do setor na resiliência climática e; (iii) participação
+em outros painéis como representante. No período de COP, lançou sua campanha institucional “A
+natureza está chamando”, que reforça a urgência da ação coletiva para um futuro sustentável.
+A LIST NO CDP, figurando pelo sexto ano consecutivo entre as empresas líderes em transparência
+climática. O Programa de Carbono na Cadeia de Fornecedores integrou o Business Action Bank, de
+melhores práticas corporativas, do WBCSD (World Business Council for Sustainable Development).
+R$ 3.176,5 MILHÕES EM RECEITAS nos últimos 12 meses geradas a partir de soluções que favorecem
+a eficiência energética e climática e contribuem para conter o aumento da temperatura em 1,5°C.
+Social
+FUNDAÇÃO TELEFÔNICA VIVO (FTV) alcança +2,0 milhões de beneficiados e R$ 47 milhões
+investidos em 2025. A FTV também firma parceria com a Cátedra UNESCO para impulsionar o uso de
+IA em escolas com baixa conectividade.
+PROGRAMA DE ESTÁGIO VIVO 2026 abre mais de 450 vagas pelo Brasil. Metade das oportunidades é
+destinada a talentos negros e todas as vagas são elegíveis para pessoas com deficiência.
+Governança
+ESCOPO DA ISO 27001 AMPLIADO, incluindo os processos de Gestão de Incidentes (CSIRT) e Teste
+de Segurança (Pentest), que se somam aos processos de Gestão de Vulnerabilidades (GVUL),
+Segurança de Aplicações (AppSec), Monitoramento contra Vazamento de Dados, Gestão de Riscos em
+Fornecedores e Hunting de Ameaças do programa de Segurança Digital, o Vivo Segura.
+RECORDE DE DESEMPENHO NO CORPORATE SUSTAINABILITY ASSESSMENT (CSA) da S&P Global,
+alcançando 89 pontos e figurando como a 5º empresa do setor com a melhor avaliação¹ no mundo.
+TOP 10 E LÍDER DO SETOR NO RANKING MERCO DE REPUTAÇÃO CORPORATIVA, subindo 9
+posições em comparação aos dois últimos anos.
+RECONHECIMENTOS: (i) 1º lugar entre as empresas da América Latina no ranking Global 100, das 100
+empresas mais sustentáveis do mundo, pela Corporate Knights; (ii) Presentes no Índice Carbono
+Eficiente (ICO2) da B3; (iii) 8ª lugar na lista Latin America 10 Most Sustainable Corporations pela
+Corporate Knights; (iv) Entre os TOP 15 relatórios de sustentabilidade pelo projeto Reporting Matters,
+iniciativa do CEBDS.
+DESTAQUES ESG 2025, acesse aqui material que consolida os principais dados ESG do ano.
+
+[p. 15]
+Resultados 4T25 |
+Indicadores Operacionais
+Negócio Móvel
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Negócio Fixo
+15
+
+[p. 16]
+Resultados 4T25 |
+Demonstração de 
+Resultados do Exercício
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Outras Receitas inclui Voz Fixa, xDSL, FTTC e IPTV. 
+2. Lucro Líquido atribuído à Telefônica Brasil.
+3. Lucro por ação calculado com base no lucro líquido atribuído à Telefônica Brasil dividido pela média ponderada das ações em circulação no período, EPS de 2024 foi recalculado 
+considerando os efeitos do Grupamento e Desdobramento efetivado em 15 de abril de 2025. Mais detalhes na nota explicativa 23.i) das Demonstrações Financeiras de 31 de 
+dezembro de 2025. 16
+
+[p. 17]
+Resultados 4T25 |
+Balanço Patrimonial
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+17Resultados 4T25 |
+
+[p. 18]
+Resultados 4T25 |
+EBITDA Após Arrendamentos (IFRS 16)
+Depreciação e Amortização
+Informações Adicionais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Purchase Price Allocation.
+18
+
+[p. 19]
+Resultados 4T25 |
+Glossário
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Operacional
+19
+
+[p. 20]
+Resultados 4T25 |
+Glossário
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Financeiro
+20
+
+[p. 21]
+Resultados 4T25 |
+Call de Resultados
+O replay da teleconferência estará disponível após o encerramento do evento, em 
+nosso site
+Data
+23 de fevereiro 
+de 2026
+(segunda-feira)
+Horário
+11h00
+(horário de Brasília) 
+09h00
+(horário de Nova York)
+Para conectar-se
+Transmissão
+em inglês com 
+tradução simultânea 
+para o português 
+(plataforma Zoom):
+Clique aqui
+Clique aqui
+Av. Eng. Luis Carlos Berrini, 1376 
+18º Andar – Cidade Monções – SP 
+04571-000
+ir.br@telefonica.com
+Informações disponíveis no website: 
+ri.telefonica.com.br
+O presente documento pode conter previsões acerca de eventos futuros. Tais previsões não constituem fatos ocorridos no passado e refletem apenas expectativas dos administradores da
+Companhia. Os termos “antecipa”, “acredita”, “estima”,” espera”, “prevê”, “pretende”, “planeja”, “projeta”,” objetiva”, bem como outros termos similares, visam identificar tais previsões as quais
+evidentemente envolvem riscos ou incertezas previstas ou não pela Companhia. Portanto, os resultados futuros das operações da Companhia podem diferir das atuais expectativas e o leitor não deve
+se basear exclusivamente nas posições aqui realizadas. Essas previsões emitem a opinião unicamente na data em que são feitas e a Companhia não se obriga a atualizá-las à luz de novas informações
+ou de seus desdobramentos futuros.
+Telefônica Brasil
+Relações com Investidores
+21

@@ -1,0 +1,2759 @@
+[p. 1]
+1
+
+[p. 2]
+2 
+Overview do trimestre: 
+ 
+No segundo trimestre de 2025 alcançamos resultados sólidos, alinhados à nossa prioridade de recomposição do ROIC spread. 
+Avançamos de forma consistente na execução de nossas frentes operacionais, reforçando a resiliência do nosso modelo de 
+negócios mesmo em um ambiente macroeconômico desafiador. 
+Seguimos o processo de recomposição dos preços, com avanço nas tarifas médias, o que contribuiu para o aumento da receita 
+nas divisões de Aluguel de Carros e Gestão de Frotas. Nossa agenda de gestão eficiente de custos e ganhos de produtividade 
+trouxe impacto positivo nas linhas de custos e despesas, contribuindo para a expansão das margens operacionais nas divisões 
+de aluguel. Em Gestão de Frotas, seguimos com a estratégia de redução da exposição ao segmento de uso severo, encerrando 
+o trimestre com cerca de 23 mil carros, versus 31 mil em dez/24 . Nesta divisão, as receitas com veículos leves e assinatura 
+cresceram cerca de 20% na comparação anual, otimizando nossa alocação de capital em direção a um maior retorno sobre o 
+capital investido. 
+Os volumes de Seminovos ficaram estáveis na comparação anual, mesmo em um cenário de condições de crédito mais 
+restritivas. Estamos focados na excelência comercial e operacional para ampliar os volumes. Após o anúncio da redução do 
+IPI, os volumes aceleraram, tornando julho um dos melhores meses de vendas no ano até o momento. 
+Como parte da nossa prioridade em continuar ampliando a liderança em satisfação dos clientes, atingimos um nível recorde 
+de retirada digital no Aluguel de Carros, com a opção de escolher o modelo e a quilometragem do carro, o que aprimora a 
+experiência de retirada e seu NPS. Em Gestão de Frotas, o Localiza Labs segue desenvolvendo novas funcionalidades para o 
+nosso aplicativo de assinatura de carros, aumentando o engajamento dos nossos clientes. 
+Outro destaque relevante do trimestre foi o avanço da integração dos sistemas de Gestão de Frotas, que contribuirá para 
+uma melhor experiência dos clientes a partir de uma jornada unificada, além de maior produtividade para nossos 
+colaboradores. Com a integração esperamos ainda economia nos custos de manutenção e ganhos de eficiência na utilização 
+da frota. Por fim, a integração dos sistemas de Gestão de Frotas permitiu a incorporação da Locamerica, um movimento 
+estratégico e relevante para a Companhia . Desde a combinação de negócios em julho de 2022 , foram incorporadas 14 
+empresas, o que representa um avanço significativo no processo de simplificação societária e operacional, além de permitir a 
+captura de sinergias adicionais. 
+Como reflexo desses avanços, apresentamos um trimestre robusto com receita líquida consolidada de R$9,9 bilhões, EBITDA 
+de R$3,3 bilhões e EBIT de R$2,0 bilhões, mesmo em um trimestre sazonalmente marcado por menor atividade. Por fim, o 
+aumento da taxa básica de juros impactou as despesas financeiras líquidas, resultando em um lucro líquido ajustado de R$768 
+milhões. 
+Os índices de dívida permaneceram em patamares confortáveis, com melhoria nos indicadores de dívida líquida/EBITDA e 
+dívida líquida/valor de frota. Encerramos o semestre com ROIC anualizado de 13,7% e spread de 4,1p.p. para o custo da dívida, 
+mesmo com o aumento do juro médio do período. 
+Conforme descrito no manual da assembleia extraordinária, em razão da incorporação da Locamerica, aprovada no dia 1 de 
+agosto, baixamos neste trimestre os saldos de imposto de renda e contribuição social diferidos sobre prejuízo fiscal da 
+Locamerica, com impacto (não-caixa) no resultado do 2T25. A partir de setembro, iniciaremos a captura do benefício fiscal 
+associado à amortização do ágio, que reduzirá o imposto caixa ao longo dos próximos 5 anos, mais que compensando a baixa 
+dos créditos sobre prejuízo fiscal. 
+Destaques do trimestre: 
+Aluguel de Carros : Após a alta temporada no 1T25, reduzimos a frota disponível e ampliamos a diária média para R$149, 
+compensando os efeitos sazonais. A receita líquida somou R$2,5 bilhões e o EBITDA R$1,6 bilhão, com uma margem de 66,5%. 
+Gestão de Frotas: A originação começou a ganhar tração a partir de março nos segmentos-alvo, enquanto seguimos com a 
+redução planejada da exposição ao uso severo, o que impacta o volume, mas contribui para o avanço gradual do ROIC desta 
+divisão. A receita líquida somou R$2,2 bilhões e o EBITDA alcançou R$1,6 bilhão, com uma margem de 71,0% (73,4% excluindo 
+Pesados e outras Iniciativas). 
+Seminovos: Após um janeiro forte, os volumes de venda se estabilizaram em patamares mais baixos. A redução no volume 
+de vendas no 2T25 versus o 1T25 foi parcialmente compensada pelo maior preço médio de venda. A receita líquida somou 
+R$5,2 bilhões e o EBITDA totalizou R$84,9 milhões, com uma margem de 1,6%. 
+ 
+No 2S25, seguiremos avançando em nossas prioridades estratégicas e mantendo a disciplina na alocação de capital , com o 
+objetivo de recomposição do ROIC spread.
+
+[p. 3]
+2 
+Redução do IPI: 
+ 
+ 
+Ao final do 2T25, foi anunciada nova redução de IPI para carros novos, regulamentada pelo Decreto nº 12.549, publicado em 
+10 de julho de 2025. A medida faz parte do Programa Nacional de Mobilidade Verde e Inovação (Mover), lançado em 2023, e 
+está alinhada com metas de descarbonização e sustentabilidade. 
+Conforme divulgado em fato relevante em 06 de agosto de 2025, a redução do preço dos carros novos historicamente refletiu 
+na redução do preço dos carros seminovos. Desta forma, como efeito do Decreto, a Companhia já observou a redução dos 
+preços de venda dos carros seminovos e constatou a necessidade de ajustar o valor esperado de venda de parte de sua frota. 
+Conforme apurado em estimativas preliminares, a Localiza irá reconhecer nos resultados do trimestre a findar em 30 de 
+setembro de 2025 um impacto one-off entre R$ 800 milhões e R$ 1 bilhão antes de impostos, equivalente a cerca de 1,5% 
+a 1,9% do valor de nossa frota ao final do 2T25. 
+A Companhia esclarece que as informações acerca dos efeitos a serem reconhecidos no trimestre a findar em 30 de setembro 
+de 2025 são preliminares. As estimativas contemplam apenas os possíveis efeitos do Decreto em referência, na proporção da 
+redução das alíquotas de IPI. Entretanto, os reflexos previstos pela Administração estão sujeitos às incertezas inerentes à 
+divulgação de estimativas e projeções, cujos resultados podem ser diferentes dos indicados. A Companhia se reserva o direito 
+de revisar estas estimativas caso o programa seja, de qualquer forma, alterado. 
+ 
+ 
+ 
+Δ
+ Δ
+ Δ
+
+[p. 4]
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25, a receita líquida da divisão de Aluguel de Carros atingiu R$2.461 milhões, crescimento de 8,3% em relação ao 
+2T24. Seguimos o processo de recomposição de preço e gestão de produtividade. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No trimestre a diária média alcançou R$148,9, aumento de 10,6% na comparação anual, com manutenção na taxa de 
+utilização.
+
+[p. 5]
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25, a divisão de Gestão de Frotas apresentou receita líquida de R$ 2.248 milhões, 10,2% superior à do mesmo 
+período do ano anterior, explicada pelo avanço da diária média e estabilidade no número de diárias . Em linha com as 
+prioridades estratégicas para o ano e com o objetivo de ampliar o ROIC spread desta divisão , mantivemos um ritmo 
+saudável de crescimento da receita dos segmentos-alvo, frotas leves e carro por assinatura, que avançaram cerca de 20% 
+no 2T25 versus o 2T24. Seguimos reduzindo exposição aos contratos de veículos de uso severo, que encerrou o período 
+com cerca de 23 mil carros (31 mil em dezembro/2024). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No trimestre, a diária média de R$10 2,7 foi 11,0% superior à do 2T24. A taxa de utilização apresentou avanço de 0,5p.p. 
+em relação ao 2T24, atingindo 95,8%. No semestre a taxa de utilização foi de 96,0%, 1,4p.p. superior à do mesmo período 
+do ano passado, demonstrando ganho de eficiência na utilização do ativo.
+
+[p. 6]
+6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25, a receita líquida de Seminovos atingiu R$5.141 milhões, crescimento de 9,1% em relação ao 2T24. O volume de 
+carros vendidos apresentou ligeira queda de -0,6%, com ampliação do preço médio de venda. Em 26 de junho, a imprensa 
+noticiou redução de IPI (imposto sobre produtos industrializados) para carros de entrada impactando os volumes de 
+vendas ao final de junho, com o mercado à espera do anúncio do decreto do IPI Sustentável. Em julho as vendas voltaram 
+a apresentar aceleração.
+
+[p. 7]
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No gráfico acima vemos a evolução da rede de Aluguel de Carros. Encerramos o trimestre com 691 agências, sendo 604 
+no Brasil, 16 no México e 71 em outros 5 países da América do Sul. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No final de junho, a rede de venda de carros era composta por 244 lojas em 1 26 cidades. No 2S25 seguiremos o processo 
+escalada de Seminovos para rejuvenescimento da frota do Aluguel de Carros.
+
+[p. 8]
+8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Após a redução do volume de compras no 1T25 com o objetivo de ajustarmos a frota à demanda pós alta temporada, no 
+2T25 retomamos a compra de carros para renovação da frota. Encerramos o trimestre com adição de 5.136 carros e 
+investimento líquido de R$1.521 milhões no Brasil. 
+ 
+No trimestre, foram comprados 74.037 carros, sendo 49.943 na divisão de Aluguel de Carros e 24.094 na divisão de 
+Gestão de Frotas, e vendidos 68.901 carros, sendo 43.661 em Aluguel de Carros e 25.240 em Gestão de Frotas. As vendas 
+do trimestre refletem o cenário de crédito mais restritivo, bem como o efeito do anúncio da redução do IPI em junho. 
+ 
+Os preços médios de venda dos carros Seminovos seguiram apresentando aumento ao longo do semestre, refletindo um 
+mix de venda com menor KM médio e melhoria de ano/modelo.
+
+[p. 9]
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Na divisão de Aluguel de Carros, o preço médio de compra foi de R$82,3 mil e o de venda alcançou R$72,7 mil no 2T25, 
+resultando em um investimento para renovação da frota de R$9,6 mil por carro. O avanço gradual do rejuvenescimento 
+da frota e a redução da quilometragem média do carro vendido vem contribuindo para a redução do capex de renovação. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em Gestão de Frotas , o preço médio de compra foi de R$ 98,8 mil no 2T25, enquanto o preço médio de venda foi de 
+R$78,4 mil, resultando em um investimento para renovação de R$ 20,4 mil. O maior capex de renovação em Gestão de 
+Frotas, quando comparado ao Aluguel de Carros, é explicado pelo prazo médio dos contratos com ciclo mais longo e mix 
+de carros, devidamente precificados no aluguel. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Desde o pico de quilometragem média ocorrido em 2022, a Companhia vem avançando na redução do KM médio de 
+venda, principalmente no atacado, o que tem contribuído para a evolução do preço de venda e redução dos custos de 
+manutenção. As reduções da idade média e do KM médio do carro vendido seguirão avançando gradualmente ao longo 
+deste ano.
+
+[p. 10]
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Companhia encerrou o trimestre com frota de 632.957 carros, estável na comparação com o 2T24 e em linha com o 
+objetivo de priorização da recomposição de preço e aumento da produtividade da frota.
+
+[p. 11]
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Companhia segue apresentando crescimento na receita líquida, com um avanço de 9,4% no 2T25 em comparação ao 
+mesmo período do ano anterior, somando R$9.900 milhões. A receita de aluguéis apresentou crescimento de 9,3% 
+enquanto a receita de Seminovos, área de eficiência da Companhia, somou R$5.166 milhões no trimestre (incluindo 
+México), aumento de 9,5% em relação ao mesmo período do ano anterior.
+
+[p. 12]
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No trimestre, o EBITDA consolidado totalizou R$3.293 milhões, aumento de 40,1% em relação ao mesmo período do ano 
+anterior. No 2T24 o EBITDA foi impactado pelos efeitos das enchentes no Rio Grande do Sul, além do Ajuste a Valor 
+Recuperável de carros que somaram R$386,0 milhões. Desconsiderando tais efeitos o avanço no EBITDA teria sido de 
+20,4%, em comparação ao avanço de 9,4% na receita líquida , demonstrando a excelência na execução e na gestão de 
+preços e custos da Companhia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25, a margem EBITDA da divisão de Aluguel de Carros, foi de 66,5%, avanço de 12,4p.p. na comparação anual. No 
+2T24, a margem do Aluguel de Carros foi impactada pelo reconhecimento de R$101 milhões referentes ao AVR (ajuste a 
+valor recuperável) e ajustes associados às enchentes no Rio Grande do Sul. Excluindo-se tais efeitos, a margem teria sido 
+de 58,5% no 2T24, avanço de 8,0p.p. na comparação anual. 
+ 
+No trimestre, a receita de aluguel avançou 8,3% enquanto os custos foram reduzidos em 29,9% e o SG&A avançou 7,8%. 
+Na comparação com a margem ajustada pelos efeitos referentes ao AVR e enchentes no Rio Grande do Sul, os custos 
+teriam reduzido cerca de 20% na comparação anual. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESULTADO DO ALUGUEL DE CARROS E FRANCHISING 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta do aluguel de carros e franchising, deduzida dos descontos e cancelamentos 5.114,2 5.551,0 8,5% 2.515,0 2.718,5 8,1%
+Impostos sobre receita (484,6) (519,4) 7,2% (242,1) (257,1) 6,2%
+Receita líquida do aluguel de carros 4.629,6 5.031,6 8,7% 2.272,9 2.461,4 8,3%
+Custos do aluguel de carros e franchising (1.431,1) (1.184,9) -17,2% (797,1) (558,6) -29,9%
+Lucro bruto 3.198,5 3.846,7 20,3% 1.475,8 1.902,8 28,9%
+Despesas operacionais (SG&A) (477,7) (531,8) 11,3% (245,7) (264,9) 7,8%
+Depreciação e amortização de outros imobilizados (149,8) (164,4) 9,7% (77,0) (82,4) 7,0%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 2.571,0 3.150,5 22,5% 1.153,1 1.555,5 34,9%
+EBITDA 2.720,8 3.314,9 21,8% 1.230,1 1.637,9 33,2%
+Margem EBITDA 58,8% 65,9% 7,1 p.p. 54,1% 66,5% 12,4 p.p.
+
+[p. 13]
+13 
+Em Gestão de Frotas, a margem foi de 71,0%, aumento de 12,8p.p. em relação à do 2T24. A margem excluindo Pesados 
+e outras iniciativas foi de 73,4%. 
+ 
+No 2T24, a margem de Gestão de Frotas foi impactada pelo reconhecimento de R$113 milhões referentes ao AV R e 
+ajustes associados às enchentes no Rio Grande do Sul. Excluindo-se tais efeitos, a margem teria sido de 63,7% no 2T24. 
+ 
+No trimestre, a receita de aluguel avançou 10,2% enquanto os custos foram reduzidos em cerca de 30,7% e o SG&A 
+reduziu 2,1%. Na comparação com a margem ajustada pelos efeitos referentes ao AVR e enchentes no Rio Grande do Sul, 
+os custos teriam reduzido cerca de 16% na comparação anual. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Seminovos apresentou margem de 1,6%, em linha com a expectativa da Companhia. No 2T24, a margem do Seminovos 
+foi impactada pelo reconhecimento de R$172 milhões referentes ao AVR e às enchentes no Rio Grande do Sul. Ajustada 
+por tais efeitos, a margem teria sido de 2,8% no 2T24. 
+ 
+No 2T25 observamos redução dos volumes na comparação com o 1T25 em razão do crédito mais restritivo. Além disso, 
+em 26/06 os jornais noticiaram a publicação do decreto regulamentando o programa Mover, bem como o IPI Sustentável, 
+com impacto no ritmo de venda no final do mês de junho. Em julho, observamos retomada no volume de vendas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESULTADO DE SEMINOVOS 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta, deduzida dos descontos e cancelamentos 9.071,2 10.485,8 15,6% 4.726,7 5.174,3 9,5%
+Impostos sobre receita (14,0) (17,1) 22,1% (8,0) (8,7) 8,7%
+Receita líquida 9.057,2 10.468,7 15,6% 4.718,7 5.165,6 9,5%
+Custo depreciado dos carros vendidos (book value) (**) (8.528,5) (9.728,5) 14,1% (4.500,7) (4.793,2) 6,5%
+Lucro bruto 528,7 740,2 40,0% 218,0 372,4 70,8%
+Despesas operacionais (SG&A) (484,3) (548,9) 13,3% (257,7) (287,5) 11,6%
+Depreciação de carros (3.267,8) (2.275,6) -30,4% (2.338,0) (1.140,6) -51,2%
+Depreciação e amortização de outros imobilizados (51,3) (60,2) 17,3% (26,2) (30,3) 15,6%
+Amortização de Mais Valia (3,2) 24,6 -868,8% 9,6 11,5 19,8%
+Lucro (prejuízo) operacional antes dos efeitos financeiros e IR (EBIT) (3.277,9) (2.119,9) -35,3% (2.394,3) (1.074,5) -55,1%
+EBITDA 44,4 191,3 330,9% (39,7) 84,9 -313,9%
+Margem EBITDA 0,5% 1,8% 1,3 p.p. -0,8% 1,6% 2,4 p.p.
+RESULTADO DA GESTÃO DE FROTAS 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta da gestão de frotas, deduzida dos descontos e cancelamentos 4.429,9 4.948,3 11,7% 2.250,9 2.480,9 10,2%
+Impostos sobre receita (413,6) (461,6) 11,6% (210,2) (232,8) 10,8%
+Receita líquida da gestão de frotas 4.016,3 4.486,7 11,7% 2.040,7 2.248,1 10,2%
+Custos da gestão de frotas (1.085,1) (891,0) -17,9% (643,2) (445,9) -30,7%
+Lucro bruto 2.931,2 3.595,7 22,7% 1.397,5 1.802,2 29,0%
+Despesas operacionais (SG&A) (376,8) (433,0) 14,9% (210,8) (206,4) -2,1%
+Depreciação e amortização de outros imobilizados (35,2) (40,7) 15,6% (17,5) (20,6) 17,7%
+Amortização de Mais Valia (3,4) (3,4) 0,0% (1,7) (1,7) 0,0%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 2.515,8 3.118,6 24,0% 1.167,5 1.573,5 34,8%
+EBITDA 2.554,4 3.162,7 23,8% 1.186,7 1.595,8 34,5%
+Margem EBITDA 63,6% 70,5% 6,9 p.p. 58,2% 71,0% 12,8 p.p.
+
+[p. 14]
+14 
+A depreciação é calculada pelo método linear, considerando a diferença entre o preço de compra do carro e a estimativa 
+de preço de venda ao final de sua vida útil, líquida da estimativa dos custos e despesas para venda. A estimativa de preço 
+de venda é reavaliada recorrentemente de forma que o valor de livro dos carros ( book value) convirja para os preços 
+praticados pelo mercado, ao final de sua vida útil. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Na divisão de Aluguel de Carros , a depreciação média anualizada por carro foi de R$7.501, ligeiramente superior à 
+depreciação média dos últimos trimestres e dentro da expectativa da Companhia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em Gestão de Frotas, a depreciação média por carro foi de R$8.476 no 2T25, incluindo veículos pesados. 
+ 
+Em julho o Governo publicou decreto regulando o programa Mover e reduzindo o IPI dos carros de entrada , com efeito 
+nos preços dos carros novos e consequente reflexo em seminovos. 
+ 
+Conforme fato relevante divulgado no dia 6 de agosto, estimamos reconhecer nos resultados do 3T25 um impacto antes 
+de impostos entre R$800 milhões e R$1 bilhão.
+
+[p. 15]
+15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25, o EBIT foi de R$2.020 milhões. A comparação anual está impacta da pelo reconhecimento da depreciação 
+adicional e impairment no 2T24 em cerca de R$1,7 bilhão. No semestre o EBIT soma R$4.084 milhões. 
+ 
+A Margem EBIT inclui o resultado de Seminovos e é calculada sobre as receitas de aluguel: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25 a margem EBIT do Aluguel de Carros foi de 42,0% e de Gestão de Frotas foi de 45,8%.
+
+[p. 16]
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 2T25, apresentamos um lucro ajustado de R$768 milhões. A comparação anual está impactada pelo reconhecimento 
+da depreciação adicional e AVR no 2T24. No semestre, o lucro ajustado soma R$1.611 milhões. 
+Em razão da incorporação da Locamerica, em agosto/25, registramos a baixa de créditos tributários sobre prejuízo fiscal 
+da Locamerica, no valor de R$93 7 milhões, impactando a DRE, mas sem efeito caixa no trimestre. Como resultado , o 
+trimestre encerrou com um prejuízo contábil de R$169 milhões, reflexo dos ajustes não recorrentes e sem impacto no 
+caixa. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A partir de setembro, iniciaremos a captura do benefício fiscal da amortização do ágio (sem efeito na DRE), com redução 
+de imposto caixa de R$2.261 milhões , estimados em 5 anos, montante R$1 .324 milhões superior à baixa dos créditos 
+fiscais da Locamerica. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Priorizamos a integração dos sistemas de Gestão de Frotas, que permitiram a incorporação da Locam erica e início da 
+amortização de R$6.650 milhões em ágio a partir de setembro. O benefício associado à amortização do ágio da parcela 
+cindida referente a Pesados depende da integração dos sistemas de Pesados, que será feita futuramente.
+
+[p. 17]
+17 
+ 
+ 
+ 
+ 
+ 
+ 
+No 1S25, após a alta temporada e compras concentradas no fim de 2024, a Companhia reduziu a frota. O caixa gerado 
+pelas atividades de aluguel (R$5.301 milhões) e o capex líquido positivo (R$502 milhões) foram parcialmente consumidos 
+pela redução de contas a pagar a montadoras.
+
+[p. 18]
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em 30 de junho de 2025, a dívida líquida da Companhia somava R$31.348 milhões, aumento de 4% quando comparada 
+à dívida em 31/12/2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Companhia encerrou o trimestre com R$9.483 milhões em caixa, suficientes para cobrir a dívida de curto prazo, bem 
+como o ‘contas a pagar ’ a montadoras, e segue avançando na gestão ativa da dívida em busca de oportunidades de 
+redução de custo e alongamento do duration.
+
+[p. 19]
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em 30/06/2025, a Companhia possuía R$20,4 bilhões em contratos de swap, a uma taxa média de 11,5%, para proteger os 
+fluxos de caixa dos contratos de Gestão de Frotas contra variações de taxas de juros. Aproximadamente 1/3 dos contratos 
+de swap é renovado anualmente, conforme os vencimentos dos contratos de Gestão de Frotas.
+
+[p. 20]
+20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Na comparação anual , os ratios de dívida líquida/valor de frota e dívida líquida /EBITDA LTM apresentaram melhora 
+significativa, em razão do avanço do processo de recomposição de preços e da agenda de eficiência. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No 1S25, o ROIC anualizado foi de 13,7%. O spread de 4,1p.p. para o custo de dívida reflete o avanço de 2,1p.p. no ROIC, 
+parcialmente compensado pelo aumento de 1.1p.p. no custo da dívida após impostos, em comparação a 2024. Manteremos 
+a disciplina na alocação de capital, a agenda de recomposição de preço e eficiência em custos para seguirmos o processo 
+de recomposição do ROIC spread aos níveis históricos.
+
+[p. 21]
+21 
+ 
+No trimestre, o Conselho de Administração aprovou o pagamento de R$533,8 milhões em JCP, que será realizado no dia 19 
+de agosto de 2025, com base na posição acionaria de 27 de junho de 2025. 
+ 
+Juros sobre o capital próprio aprovados em 2025: 
+ 
+ 
+ 
+Juros sobre o capital próprio aprovados em 2024: 
+ 
+ 
+ 
+Natureza 
+ 
+Competência 
+Data da 
+aprovação 
+Data da posição 
+acionária 
+Data de 
+pagamento 
+Valor 
+(R$ milhões) 
+Valor por ação 
+(em R$) 
+ 
+JCP 2025 21/03/2025 26/03/2025 16/05/2025 480,9 0,456384 
+JCP 2025 24/06/2025 27/06/2025 19/08/2025 533,8 0,506193 
+ Total 1.014,7 
+ 
+Natureza 
+ 
+Competência 
+Data da 
+aprovação 
+Data da posição 
+acionária 
+Data de 
+pagamento 
+Valor 
+(R$ milhões) 
+Valor por ação 
+(em R$) 
+ 
+JCP 2024 26/03/2024 01/04/2024 23/05/2024 407,1 0,383547 
+JCP 2024 21/06/2024 26/06/2024 19/08/2024 422,7 0,397983 
+JCP 2024 20/09/2024 25/09/2024 14/11/2024 423,8 0,399525 
+JCP 2024 12/12/2024 17/12/2024 07/02/2025 426,4 0,404691 
+ Total 1.680,0
+
+[p. 22]
+22 
+ 
+RESULTADO DO ALUGUEL DE CARROS E FRANCHISING 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta do aluguel de carros e franchising, deduzida dos descontos e cancelamentos 4.851,3 7.211,5 9.118,6 10.652,1 16,8% 5.114,2 5.551,0 8,5% 2.515,0 2.718,5 8,1%
+Impostos sobre receita (455,9) (701,3) (863,1) (1.005,6) 16,5% (484,6) (519,4) 7,2% (242,1) (257,1) 6,2%
+Receita líquida do aluguel de carros 4.395,4 6.510,2 8.255,5 9.646,5 16,8% 4.629,6 5.031,6 8,7% 2.272,9 2.461,4 8,3%
+Custos do aluguel de carros e franchising (1.406,9) (1.840,4) (2.035,9) (2.714,5) 33,3% (1.431,1) (1.184,9) -17,2% (797,1) (558,6) -29,9%
+Lucro bruto 2.988,5 4.669,8 6.219,6 6.932,0 11,5% 3.198,5 3.846,7 20,3% 1.475,8 1.902,8 28,9%
+Despesas operacionais (SG&A) (832,6) (950,7) (902,1) (954,9) 5,9% (477,7) (531,8) 11,3% (245,7) (264,9) 7,8%
+Depreciação e amortização de outros imobilizados (142,6) (181,6) (276,4) (302,3) 9,4% (149,8) (164,4) 9,7% (77,0) (82,4) 7,0%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 2.013,3 3.537,5 5.041,1 5.674,8 12,6% 2.571,0 3.150,5 22,5% 1.153,1 1.555,5 34,9%
+EBITDA 2.155,9 3.719,1 5.317,5 5.977,1 12,4% 2.720,8 3.314,9 21,8% 1.230,1 1.637,9 33,2%
+Margem EBITDA 49,0% 57,1% 64,4% 62,0% -2,4 p.p. 58,8% 65,9% 7,1 p.p. 54,1% 66,5% 12,4 p.p.
+RESULTADO DE SEMINOVOS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta, deduzida dos descontos e cancelamentos 4.413,3 5.994,8 9.525,9 12.306,0 29,2% 5.759,8 6.604,4 14,7% 2.940,0 3.172,0 7,9%
+Impostos sobre receita (5,2) (6,5) (10,9) (24,1) 121,1% (10,8) (12,1) 12,0% (6,2) (6,1) -1,6%
+Receita líquida 4.408,1 5.988,3 9.515,0 12.281,9 29,1% 5.749,0 6.592,3 14,7% 2.933,8 3.165,9 7,9%
+Custo depreciado dos carros vendidos (book value) (**) (3.416,2) (5.027,1) (8.914,6) (11.396,2) 27,8% (5.453,5) (6.143,3) 12,6% (2.804,0) (2.949,9) 5,2%
+Lucro bruto 991,9 961,2 600,4 885,7 47,5% 295,5 449,0 51,9% 129,8 216,0 66,4%
+Despesas operacionais (SG&A) (360,7) (445,5) (516,2) (706,6) 36,9% (327,1) (365,1) 11,6% (172,0) (183,9) 6,9%
+Depreciação de carros (183,7) (890,5) (2.242,2) (2.969,3) 32,4% (1.897,0) (1.073,6) -43,4% (1.443,0) (535,6) -62,9%
+Depreciação e amortização de outros imobilizados (56,1) (61,4) (77,7) (71,1) -8,5% (35,2) (37,9) 7,7% (16,4) (18,6) 13,4%
+Amortização de Mais Valia - (64,1) (5,4) 14,4 -366,7% 11,7 0,5 -95,7% 6,5 - -100,0%
+Lucro (prejuízo) operacional antes dos efeitos financeiros e IR (EBIT) 391,4 (500,3) (2.241,1) (2.846,9) 27,0% (1.952,1) (1.027,1) -47,4% (1.495,1) (522,1) -65,1%
+EBITDA 631,2 515,7 84,2 179,1 112,7% (31,6) 83,9 -365,5% (42,2) 32,1 -176,1%
+Margem EBITDA 14,3% 8,6% 0,9% 1,5% 0,6 p.p. -0,5% 1,3% 1,8 p.p. -1,4% 1,0% 2,4 p.p.
+TOTAL DO ALUGUEL DE CARROS E FRANCHISING 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta do aluguel de carros e franchising, deduzida dos descontos e cancelamentos 4.851,3 7.211,5 9.118,6 10.652,1 16,8% 5.114,2 5.551,0 8,5% 2.515,0 2.718,5 8,1%
+Receita bruta da venda dos carros, deduzida dos descontos e cancelamentos 4.413,3 5.994,8 9.525,9 12.306,0 29,2% 5.759,8 6.604,4 14,7% 2.940,0 3.172,0 7,9%
+Receita bruta total 9.264,6 13.206,3 18.644,5 22.958,1 23,1% 10.874,0 12.155,4 11,8% 5.455,0 5.890,5 8,0%
+Impostos sobre receita
+ Aluguel de carros e franchising (455,9) (701,3) (863,1) (1.005,6) 16,5% (484,6) (519,4) 7,2% (242,1) (257,1) 6,2%
+ Venda dos carros para renovação da frota (5,2) (6,5) (10,9) (24,1) 121,1% (10,8) (12,1) 12,0% (6,2) (6,1) -1,6%
+Receita líquida do aluguel de carros 4.395,4 6.510,2 8.255,5 9.646,5 16,8% 4.629,6 5.031,6 8,7% 2.272,9 2.461,4 8,3%
+Receita líquida de venda dos carros p/ renovação da frota 4.408,1 5.988,3 9.515,0 12.281,9 29,1% 5.749,0 6.592,3 14,7% 2.933,8 3.165,9 7,9%
+Receita líquida total 8.803,5 12.498,5 17.770,5 21.928,4 23,4% 10.378,6 11.623,9 12,0% 5.206,7 5.627,3 8,1%
+Custos diretos 
+ Aluguel de carros (1.406,9) (1.840,4) (2.035,9) (2.714,5) 33,3% (1.431,1) (1.184,9) -17,2% (797,1) (558,6) -29,9%
+ Venda dos carros para renovação da frota (book value) (3.416,2) (5.027,1) (8.914,6) (11.396,2) 27,8% (5.453,5) (6.143,3) 12,6% (2.804,0) (2.949,9) 5,2%
+Lucro bruto 3.980,4 5.631,0 6.820,0 7.817,7 14,6% 3.494,0 4.295,7 22,9% 1.605,6 2.118,8 32,0%
+Despesas operacionais (SG&A) 
+ Aluguel de carros (832,6) (950,7) (902,1) (954,9) 5,9% (477,7) (531,8) 11,3% (245,7) (264,9) 7,8%
+ Venda dos carros para renovação da frota (360,7) (445,5) (516,2) (706,6) 36,9% (327,1) (365,1) 11,6% (172,0) (183,9) 6,9%
+Depreciação de carros (183,7) (890,5) (2.242,2) (2.969,3) 32,4% (1.897,0) (1.073,6) -43,4% (1.443,0) (535,6) -62,9%
+Amortização de Mais Valia - (64,1) (5,4) 14,4 -366,7% 11,7 0,5 6,5 - -100,0%
+Depreciação e amortização de outros imobilizados 
+ Aluguel de carros (142,6) (181,6) (276,4) (302,3) 9,4% (149,8) (164,4) 9,7% (77,0) (82,4) 7,0%
+ Venda dos carros para renovação da frota (56,1) (61,4) (77,7) (71,1) -8,5% (35,2) (37,9) 7,7% (16,4) (18,6) 13,4%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 2.404,7 3.037,2 2.800,0 2.827,9 1,0% 618,9 2.123,4 243,1% (342,0) 1.033,4 -402,2%
+EBITDA 2.787,1 4.234,8 5.401,7 6.156,2 14,0% 2.689,2 3.398,8 26,4% 1.187,9 1.670,0 40,6%
+Margem de EBITDA 31,7% 33,9% 30,4% 28,1% -2,3 p.p. 25,9% 29,2% 3,3 p.p. 22,8% 29,7% 6,9 p.p.
+DADOS OPERACIONAIS ALUGUEL DE CARROS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Frota média operacional (*) 195.242 246.922 285.103 293.700 3,0% 295.227 291.328 -1,3% 288.932 285.626 -1,1%
+Frota média alugada total 151.686 185.129 211.526 216.291 2,3% 217.643 213.822 -1,8% 212.497 207.168 -2,5%
+Idade média da frota (em meses) 13,9 15,9 12,6 12,1 -3,6% 12,4 10,7 -13,7% 12,7 10,8 -15,0%
+Frota no final do período (*) 216.293 331.445 347.287 354.474 2,1% 322.354 327.073 1,5% 322.354 327.073 1,5%
+Número de diárias - em milhares (líquido de sublocação) 53.756,6 66.009,1 75.219,1 76.183,4 1,3% 38.129,1 37.316,9 -2,1% 18.584,2 18.163,7 -2,3%
+Diária média por carro (R$) 89,71 108,57 120,54 139,08 15,4% 133,39 147,98 10,9% 134,62 148,93 10,6%
+Depreciação média por carro anualizada (R$) 941,1 3.606,3 6.334,9 10.109,4 59,6% 12.850,7 7.370,8 -42,6% 19.976,6 7.501,2 -62,5%
+Taxa de utilização (não considera carros em ativação e desativação no cálculo) 79,8% 79,6% 78,6% 79,0% 0,4 p.p. 78,6% 78,8% 0,2 p.p. 78,6% 78,6% 0,0 p.p.
+Número de carros comprados 83.382 170.750 172.620 192.668 11,6% 61.952 66.407 7,2% 48.802 49.943 2,3%
+Número de carros vendidos 76.906 89.485 155.441 184.275 18,5% 86.472 93.344 7,9% 44.293 43.661 -1,4%
+Idade média dos carros vendidos (em meses) 21,9 28,3 28,3 23,3 -17,7% 23,7 22,7 -4,2% 23,0 22,2 -3,5%
+Frota média 209.172 275.889 319.382 326.519 2,2% 321.095 324.599 1,1% 318.148 322.960 1,5%
+Valor médio da frota - R$/milhões 10.592,7 17.199,0 22.075,1 24.547,6 11,2% 23.925,9 25.458,5 6,4% 23.504,5 25.399,9 8,1%
+Valor médio por carro no período - R$/mil 50,6 62,3 69,1 75,2 8,8% 74,5 78,4 5,2% 73,9 78,6 6,4%
+(*) no 4T22 a Companhia efetivou a venda do carve-out, com redução de 49.296 carros na frota de final de período. Os números do 3T22 consideram estes carros.
+(**) Até o 3T23 os custos de preparação para venda estavam somados ao book value dos carros vendidos e inclui provisão para ajuste a valor recuperável dos ativos no 2T23 e 2T24
+
+[p. 23]
+23 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TOTAL DO ALUGUEL DE CARROS- MÉXICO 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita líquida de aluguel e seminovos 10,8 107,0 890,7% 39,9 95,7 139,8% 24,3 49,3 102,9%
+Custos diretos de aluguel e seminovos (23,4) (136,2) 482,1% (64,1) (107,5) 67,7% (39,2) (53,7) 37,0%
+Lucro bruto (12,6) (29,2) 131,7% (24,2) (11,8) -51,2% (14,9) (4,4) -70,5%
+Despesas operacionais (SG&A) (30,0) (59,6) 98,7% (26,0) (37,3) 43,5% (13,2) (21,6) 63,6%
+Depreciação de carros e outros (16,4) (69,5) 323,8% (38,2) (30,2) -20,9% (25,6) (16,5) -35,5%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) (59,0) (158,3) 168,3% (88,4) (79,3) -10,3% (53,7) (42,5) -20,9%
+EBITDA (42,6) (88,8) 108,5% (50,2) (49,1) -2,2% (28,1) (26,0) -7,5%
+DADOS OPERACIONAIS ALUGUEL DE CARROS - MÉXICO 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Frota final de período 1.266 2.137 68,8% 1.746 2.186 25,2% 1.746 2.186 25,2%
+Número de agências 10 18 80,0% 17 16 -5,9% 17 16 -5,9%
+
+[p. 24]
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESULTADO DA GESTÃO DE FROTAS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta da gestão de frotas, deduzida dos descontos e cancelamentos 1.325,2 3.567,7 7.367,4 9.213,5 25,1% 4.429,9 4.948,3 11,7% 2.250,9 2.480,9 10,2%
+Impostos sobre receita (127,3) (343,0) (690,2) (860,0) 24,6% (413,6) (461,6) 11,6% (210,2) (232,8) 10,8%
+Receita líquida da gestão de frotas 1.197,9 3.224,7 6.677,2 8.353,5 25,1% 4.016,3 4.486,7 11,7% 2.040,7 2.248,1 10,2%
+Custos da gestão de frotas (315,6) (678,6) (1.268,4) (2.002,7) 57,9% (1.085,1) (891,0) -17,9% (643,2) (445,9) -30,7%
+Lucro bruto 882,3 2.546,1 5.408,8 6.350,8 17,4% 2.931,2 3.595,7 22,7% 1.397,5 1.802,2 29,0%
+Despesas operacionais (SG&A) (141,2) (433,3) (559,4) (768,0) 37,3% (376,8) (433,0) 14,9% (210,8) (206,4) -2,1%
+Depreciação e amortização de outros imobilizados (8,3) (24,7) (54,8) (78,9) 44,0% (35,2) (40,7) 15,6% (17,5) (20,6) 17,7%
+Amortização de Mais Valia - (16,0) 6,5 (6,8) -204,6% (3,4) (3,4) 0,0% (1,7) (1,7) 0,0%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 732,8 2.072,1 4.801,1 5.497,1 14,5% 2.515,8 3.118,6 24,0% 1.167,5 1.573,5 34,8%
+EBITDA 741,1 2.112,8 4.849,4 5.582,8 15,1% 2.554,4 3.162,7 23,8% 1.186,7 1.595,8 34,5%
+Margem EBITDA 61,9% 65,5% 72,6% 66,8% -5,8 p.p. 63,6% 70,5% 6,9 p.p. 58,2% 71,0% 12,8 p.p.
+RESULTADO DE SEMINOVOS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta, deduzida dos descontos e cancelamentos 900,7 2.066,0 4.450,1 6.889,6 54,8% 3.303,9 3.838,0 16,2% 1.779,2 1.978,0 11,2%
+Impostos sobre receita (0,8) (5,8) (6,0) (6,9) 15,0% (3,2) (5,0) 56,3% (1,8) (2,6) 44,4%
+Receita líquida 899,9 2.060,2 4.444,1 6.882,7 54,9% 3.300,7 3.833,0 16,1% 1.777,4 1.975,4 11,1%
+Custo depreciado dos carros vendidos (book value) (**) (659,3) (1.627,1) (3.915,1) (6.297,7) 60,9% (3.067,1) (3.544,2) 15,6% (1.688,8) (1.820,4) 7,8%
+Lucro bruto 240,6 433,1 529,0 585,0 10,6% 233,6 288,8 23,6% 88,6 155,0 74,9%
+Despesas operacionais (SG&A) (71,2) (191,6) (214,6) (320,5) 49,3% (157,2) (182,1) 15,8% (85,7) (102,3) 19,4%
+Depreciação de carros (71,4) (549,0) (1.598,9) (2.606,9) 63,0% (1.352,7) (1.186,8) -12,3% (880,0) (596,5) -32,2%
+Depreciação e amortização de outros imobilizados (11,4) (21,7) (24,8) (35,5) 43,1% (16,1) (22,3) 38,5% (9,8) (11,7) 19,4%
+Amortização de Mais Valia - (250,7) (334,3) 16,4 -104,9% (14,9) 24,1 -261,7% 3,1 11,5 271,0%
+Lucro (prejuízo) operacional antes dos efeitos financeiros e IR (EBIT) 86,6 (579,9) (1.643,6) (2.361,5) 43,7% (1.307,3) (1.078,3) -17,5% (883,8) (544,0) -38,4%
+EBITDA 169,4 241,5 314,4 264,5 -15,9% 76,4 106,7 39,7% 2,9 52,7 1717,2%
+Margem EBITDA 18,8% 11,7% 7,1% 3,8% -3,3 p.p. 2,3% 2,8% 0,5 p.p. 0,2% 2,7% 2,5 p.p.
+RESULTADO DA GESTÃO DE FROTAS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta da gestão de frotas, deduzida dos descontos e cancelamentos 1.325,2 3.567,7 7.367,4 9.213,5 25,1% 4.429,9 4.948,3 11,7% 2.250,9 2.480,9 10,2%
+Receita bruta da venda dos carros, deduzida dos descontos e cancelamentos 900,7 2.066,0 4.450,1 6.889,6 54,8% 3.303,9 3.838,0 16,2% 1.779,2 1.978,0 11,2%
+Receita bruta total 2.225,9 5.633,7 11.817,5 16.103,1 36,3% 7.733,8 8.786,3 13,6% 4.030,1 4.458,9 10,6%
+Impostos sobre receita
+ Gestão de frotas (127,3) (343,0) (690,2) (860,0) 24,6% (413,6) (461,6) 11,6% (210,2) (232,8) 10,8%
+ Venda dos carros para renovação da frota (0,8) (5,8) (6,0) (6,9) 15,0% (3,2) (5,0) 56,3% (1,8) (2,6) 44,4%
+Receita líquida da gestão de frotas 1.197,9 3.224,7 6.677,2 8.353,5 25,1% 4.016,3 4.486,7 11,7% 2.040,7 2.248,1 10,2%
+Receita líquida de venda dos carros p/ renovação da frota 899,9 2.060,2 4.444,1 6.882,7 54,9% 3.300,7 3.833,0 16,1% 1.777,4 1.975,4 11,1%
+Receita líquida total 2.097,8 5.284,9 11.121,3 15.236,2 37,0% 7.317,0 8.319,7 13,7% 3.818,1 4.223,5 10,6%
+Custos diretos 
+ Gestão de frotas (315,6) (678,6) (1.268,4) (2.002,7) 57,9% (1.085,1) (891,0) -17,9% (643,2) (445,9) -30,7%
+ Venda dos carros para renovação da frota (book value) (659,3) (1.627,1) (3.915,1) (6.297,7) 60,9% (3.067,1) (3.544,2) 15,6% (1.688,8) (1.820,4) 7,8%
+Lucro bruto 1.122,9 2.979,2 5.937,8 6.935,8 16,8% 3.164,8 3.884,5 22,7% 1.486,1 1.957,2 31,7%
+Despesas operacionais (SG&A) 
+ Gestão de frotas (141,2) (433,3) (559,4) (768,0) 37,3% (376,8) (433,0) 14,9% (210,8) (206,4) -2,1%
+ Venda dos carros para renovação da frota (71,2) (191,6) (214,6) (320,5) 49,3% (157,2) (182,1) 15,8% (85,7) (102,3) 19,4%
+Depreciação de carros (71,4) (549,0) (1.598,9) (2.606,9) 63,0% (1.352,7) (1.186,8) -12,3% (880,0) (596,5) -32,2%
+Amortização de Mais Valia - (266,7) (327,8) 9,6 -102,9% (18,3) 20,7 -213,1% 1,4 9,8 600,0%
+Depreciação e amortização de outros imobilizados 
+ Gestão de frotas (8,3) (24,7) (54,8) (78,9) 44,0% (35,2) (40,7) 15,6% (17,5) (20,6) 17,7%
+ Venda dos carros para renovação da frota (11,4) (21,7) (24,8) (35,5) 43,1% (16,1) (22,3) 38,5% (9,8) (11,7) 19,4%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 819,4 1.492,2 3.157,5 3.135,6 -0,7% 1.208,5 2.040,3 68,8% 283,7 1.029,5 262,9%
+EBITDA 910,5 2.354,3 5.163,8 5.847,3 13,2% 2.630,8 3.269,4 24,3% 1.189,6 1.648,5 38,6%
+Margem de EBITDA 43,4% 44,5% 46,4% 38,4% -8,0 p.p. 36,0% 39,3% 3,3 p.p. 31,2% 39,0% 7,8 p.p.
+DADOS OPERACIONAIS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Frota média operacional 61.962 142.703 258.334 288.783 11,8% 288.185 283.334 -1,7% 288.304 281.483 -2,4%
+Frota média alugada total 63.493 137.700 239.839 263.494 9,9% 260.506 262.296 0,7% 262.142 260.142 -0,8%
+Idade média da frota (em meses) 20,3 19,9 18,3 18,7 2,2% 18,3 20,1 9,8% 18,2 20,3 11,5%
+Frota no final do período 73.503 259.596 309.059 312.751 1,2% 307.539 303.698 -1,2% 307.539 303.698 -1,2%
+Número de diárias - em milhares (líquido de sublocação) 22.857,3 48.585,1 85.834,7 94.444,8 10,0% 46.800,4 46.962,5 0,3% 23.539,4 23.339,4 -0,8%
+Diária média por carro (R$) (não considera receitas de novas iniciativas) 57,49 72,97 82,93 94,26 13,7% 91,64 101,57 10,8% 92,53 102,67 11,0%
+Depreciação média por carro anualizada (R$) 1.152,7 3.855,1 6.025,5 9.026,8 49,8% 9.387,4 8.377,4 -10,8% 12.209,2 8.476,4 -30,6%
+Taxa de utilização (não considera carros em ativação e desativação no cálculo) (*) 98,0% 96,7% 95,6% 95,2% -0,4 p.p. 94,6% 96,0% 1,4 p.p. 95,3% 95,8% 0,5 p.p.
+Número de carros comprados 28.128 84.179 116.002 100.585 -13,3% 46.673 41.529 -11,0% 25.144 24.094 -4,2%
+Número de carros vendidos 15.939 29.053 65.938 95.569 44,9% 47.806 50.277 5,2% 25.023 25.240 0,9%
+Idade média dos carros vendidos (em meses) 31,8 36,3 36,5 35,0 -4,2% 36,4 33,7 -7,4% 35,1 33,8 -3,7%
+Frota média 66.451 158.386 282.359 309.348 9,6% 307.466 305.089 -0,8% 308.104 303.791 -1,4%
+Valor médio da frota - R$/milhões 3.370,7 11.313,5 23.348,5 27.033,2 15,8% 26.841,0 26.914,2 0,3% 26.975,7 26.871,7 -0,4%
+Valor médio por carro no período - R$/mil 50,7 71,4 82,7 87,4 5,7% 87,3 88,2 1,0% 87,6 88,5 1,0%
+(*) Não inclui frota sublocada do Aluguel de Carros
+(**) Até o 3T23 os custos de preparação para venda estavam somados ao book value dos carros vendidos e inclui provisão para ajuste a valor recuperável dos ativos no 2T23 e 2T24
+
+[p. 25]
+25 
+ 
+RESULTADO CONSOLIDADO 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Receita bruta de aluguel de carros e franchising, deduzida dos descontos e cancelamentos 4.851,3 7.211,5 9.129,4 10.734,1 17,6% 5.146,6 5.603,3 8,9% 2.531,8 2.743,5 8,4%
+Receita bruta de gestão de frotas, deduzida dos descontos e cancelamentos 1.325,2 3.567,7 7.367,4 9.213,5 25,1% 4.429,9 4.948,3 11,7% 2.250,9 2.480,9 10,2%
+Total da receita bruta de aluguel de carros, gestão de frotas e franchising 6.176,5 10.779,2 16.496,8 19.947,6 20,9% 9.576,5 10.551,6 10,2% 4.782,7 5.224,4 9,2%
+Impostos sobre receita de aluguel de carros, gestão de frotas e franchising (583,2) (1.044,3) (1.553,3) (1.865,6) 20,1% (898,2) (981,0) 9,2% (452,3) (489,9) 8,3%
+Receita líquida de aluguel de carros, gestão de frotas e franchising 5.593,3 9.734,9 14.943,5 18.082,0 21,0% 8.678,3 9.570,6 10,3% 4.330,4 4.734,5 9,3%
+Receita bruta de venda dos carros, deduzida dos descontos e cancelamentos
+ Venda dos carros p/ renovação da frota - aluguel de carros 4.413,3 5.994,8 9.525,9 12.331,0 29,4% 5.767,3 6.647,8 15,3% 2.947,5 3.196,3 8,4%
+ Venda dos carros p/ renovação da frota - gestão de frotas 900,7 2.066,0 4.450,1 6.889,6 54,8% 3.303,9 3.838,0 16,2% 1.779,2 1.978,0 11,2%
+Total da receita bruta de venda dos carros p/ renovação da frota 5.314,0 8.060,8 13.976,0 19.220,6 37,5% 9.071,2 10.485,8 15,6% 4.726,7 5.174,3 9,5%
+Impostos sobre receita de venda dos carros p/ renovação da frota (6,0) (12,3) (16,9) (31,0) 83,4% (14,0) (17,1) 22,1% (8,0) (8,7) 8,7%
+Receita líquida de venda dos carros p/ renovação da frota 5.308,0 8.048,5 13.959,1 19.189,6 37,5% 9.057,2 10.468,7 15,6% 4.718,7 5.165,6 9,5%
+Total da receita líquida 10.901,3 17.783,4 28.902,6 37.271,6 29,0% 17.735,5 20.039,3 13,0% 9.049,1 9.900,1 9,4%
+Custos diretos e despesas
+ Aluguel de carros e franchising (1.406,9) (1.840,4) (2.059,3) (2.826,2) 37,2% (1.487,3) (1.251,4) -15,9% (828,4) (589,4) -28,9%
+ Gestão de frotas (315,6) (678,6) (1.268,4) (2.002,7) 57,9% (1.085,1) (891,0) -17,9% (643,2) (445,9) -30,7%
+Total aluguel de carros, gestão de frotas e franchising (1.722,5) (2.519,0) (3.327,7) (4.828,9) 45,1% (2.572,4) (2.142,4) -16,7% (1.471,6) (1.035,3) -29,6%
+ Venda dos carros para renovação da frota - aluguel de carros (3.416,2) (5.027,1) (8.914,6) (11.420,7) 28,1% (5.461,4) (6.184,3) 13,2% (2.811,9) (2.972,8) 5,7%
+ Venda dos carros para renovação da frota - gestão de frotas (659,3) (1.627,1) (3.915,1) (6.297,7) 60,9% (3.067,1) (3.544,2) 15,6% (1.688,8) (1.820,4) 7,8%
+Total venda dos carros p/ renovação da frota (book value)(*) (4.075,5) (6.654,2) (12.829,7) (17.718,4) 38,1% (8.528,5) (9.728,5) 14,1% (4.500,7) (4.793,2) 6,5%
+Total custos (5.798,0) (9.173,2) (16.157,4) (22.547,3) 39,5% (11.100,9) (11.870,9) 6,9% (5.972,3) (5.828,5) -2,4%
+Lucro bruto 5.103,3 8.610,2 12.745,2 14.724,3 15,5% 6.634,6 8.168,4 23,1% 3.076,8 4.071,6 32,3%
+Despesas operacionais:
+ Total aluguéis e Franchising (973,9) (1.384,0) (1.491,5) (1.782,3) 19,5% (880,5) (1.000,4) 13,6% (469,7) (491,6) 4,7%
+ Total venda dos carros p/ renovação da frota (431,9) (637,1) (730,8) (1.027,3) 40,6% (484,3) (548,9) 13,3% (257,7) (287,5) 11,6%
+Total despesas operacionais (1.405,8) (2.021,1) (2.222,3) (2.809,6) 26,4% (1.364,8) (1.549,3) 13,5% (727,4) (779,1) 7,1%
+Despesas com Depreciação:
+ Depreciação de carros: (255,1) (1.439,5) (3.844,7) (5.609,7) 45,9% (3.267,8) (2.275,6) -30,4% (2.338,0) (1.140,6) -51,2%
+ Amortização de Mais Valia - (330,8) (333,2) 24,0 -107,2% (6,6) 21,2 -421,2% 7,9 9,8 24,1%
+ Depreciação e amortização de outros imobilizados (218,4) (289,4) (446,5) (523,8) 17,3% (256,4) (280,3) 9,3% (131,3) (141,3) 7,6%
+Total despesas de depreciação e amortização (473,5) (1.728,9) (4.291,2) (6.133,5) 42,9% (3.524,2) (2.555,9) -27,5% (2.469,3) (1.281,9) -48,1%
+Lucro operacional antes dos efeitos financeiros e IR (EBIT) 3.224,0 4.529,4 5.898,5 5.805,2 -1,6% 1.739,0 4.084,4 134,9% (112,0) 2.020,4 -1903,9%
+Resultado de equivalencia patrimonial - 0,1 - - - - - - 
+Receitas (despesas) financeiras líquidas (320,9) (2.110,6) (4.024,3) (3.938,7) -2,1% (1.927,4) (2.195,4) 13,9% (942,8) (1.125,8) 19,4%
+Lucro antes do imposto de renda e da contribuição social 2.903,1 2.418,9 1.874,2 1.866,5 -0,4% (188,4) 1.889,0 -1102,7% (1.054,8) 894,6 -184,8%
+Imposto de renda e contribuição social (859,4) (577,8) (71,1) (53,2) -25,1% 352,3 (1.215,1) -444,9% 485,2 (1.063,2) -319,1%
+Lucro líquido do período 2.043,7 1.841,1 1.803,1 1.813,3 0,6% 163,9 673,9 311,2% (569,6) (168,6) -70,4%
+Imposto de renda e contribuição social diferidos sobre prejuízo fiscal da Locamerica - - - - - - 936,8 - - 936,8 - 
+Lucro líquido do período ajustado 2.043,7 1.841,1 1.803,1 1.813,3 0,6% 163,9 1.610,7 882,7% (569,6) 768,2 -234,9%
+EBITDA 3.697,5 6.589,2 10.522,9 11.914,7 13,2% 5.269,8 6.619,1 25,6% 2.349,4 3.292,5 40,1%
+EBIT 3.224,0 4.529,5 5.898,5 5.805,2 -1,6% 1.739,0 4.084,4 134,9% (112,0) 2.020,4 -1903,9%
+Margem EBIT Consolidada (calculada sobre receitas do aluguel) 57,6% 46,5% 39,5% 32,1% -7,4 p.p. 20,0% 42,7% 22,6 p.p. -2,6% 42,7% 45,3 p.p.
+EBITDA Aluguel de carros, Gestão de frotas e Franchising 2.897,0 5.831,9 10.124,3 11.470,8 13,3% 5.225,4 6.427,8 23,0% 2.389,1 3.207,6 34,3%
+Margem EBITDA 51,8% 59,9% 67,8% 63,4% -4,4 p.p. 60,2% 67,2% 7,0 p.p. 55,2% 67,7% 12,5 p.p.
+EBITDA Seminovos 800,6 757,4 398,6 443,9 11,4% 44,4 191,3 330,9% (39,7) 84,9 -313,9%
+Margem EBITDA 15,1% 9,4% 2,9% 2,3% -0,6 p.p. 0,5% 1,8% 1,3 p.p. -0,8% 1,6% 2,4 p.p.
+(*) Até o 3T23 os custos de preparação para venda estavam somados ao book value dos carros vendidos e inclui provisão para ajuste a valor recuperável dos ativos no 2T23 e 2T24
+
+[p. 26]
+26 
+ 
+ 
+ 
+ 
+ 
+DADOS OPERACIONAIS 2021 2022 2023 2024 Var. 1S24 1S25 Var. 2T24 2T25 Var. 
+Frota média operacional:
+ Aluguel de carros - Brasil (**) 195.242 246.922 285.103 293.700 3,0% 295.227 291.328 -1,3% 288.932 285.626 -1,1%
+ Gestão de frotas 61.962 142.703 258.334 288.783 11,8% 288.185 283.334 -1,7% 288.304 281.483 -2,4%
+ Total 257.204 389.625 543.437 582.483 7,2% 583.412 574.662 -1,5% 577.235 567.109 -1,8%
+Frota média alugada:
+ Aluguel de carros - Brasil (**) 151.686 185.129 211.526 216.291 2,3% 217.643 213.822 -1,8% 212.497 207.168 -2,5%
+ Gestão de frotas 63.493 137.700 239.839 263.494 9,9% 260.506 262.296 0,7% 262.142 260.142 -0,8%
+ Total 215.179 322.828 451.364 479.785 6,3% 478.149 476.118 -0,4% 474.639 467.310 -1,5%
+Idade média da frota operacional (meses)
+ Aluguel de carros - Brasil 13,9 15,9 12,6 12,1 -4,0% 12,4 10,7 -13,7% 12,7 10,8 -15,0%
+ Gestão de frotas 20,3 19,9 18,3 18,7 2,2% 18,3 20,1 9,8% 18,2 20,3 11,5%
+Idade média da frota total operacional 15,5 17,4 15,3 15,4 0,4% 15,4 15,3 0,0% 15,5 15,5 0,1%
+Frota no final do período:
+ Aluguel de carros - Brasil (**) 216.293 331.445 347.287 354.474 2,1% 322.354 327.073 1,5% 322.354 327.073 1,5%
+ Aluguel de carros - México - - 1.266 2.137 68,8% 1.746 2.186 25,2% 1.746 2.186 25,2%
+ Gestão de frotas 73.503 259.596 309.059 312.751 1,2% 307.539 303.698 -1,2% 307.539 303.698 -1,2%
+ Total 289.796 591.041 657.612 669.362 1,8% 631.639 632.957 0,2% 631.639 632.957 0,2%
+Investimento em Frota (Em R$ milhões) (inclui acessórios a partir de 2022)
+ Aluguel de carros - Brasil 5.625,1 14.305,9 14.256,4 16.317,1 14,5% 5.144,6 5.591,0 8,7% 4.010,6 4.189,2 4,5%
+ Aluguel de carros - México - - 46,7 96,9 107,5% 55,5 63,8 15,0% 35,9 47,2 31,5%
+ Gestão de frotas 2.022,1 8.094,4 11.646,5 9.883,3 -15,1% 4.626,0 4.311,3 -6,8% 2.470,9 2.472,3 0,1%
+ Total 7.647,2 22.400,3 25.949,6 26.297,3 1,3% 9.826,1 9.966,1 1,4% 6.517,4 6.708,7 2,9%
+Número de diárias (em milhares):
+ Aluguel de carros - Brasil 55.358,0 67.649,5 77.218,0 79.171,2 2,5% 39.615,8 38.697,6 -2,3% 19.336,4 18.849,8 -2,5%
+ Diárias referente sub-locação para Gestão de Frotas (1.601,4) (1.640,4) (1.998,9) (2.987,9) 49,5% (1.486,7) (1.380,6) -7,1% (752,2) (686,1) -8,8%
+ Aluguel de carros - líquido 53.756,6 66.009,1 75.219,1 76.183,2 1,3% 38.129,1 37.317,0 -2,1% 18.584,2 18.163,7 -2,3%
+ Gestão de frotas 22.857,3 48.585,1 85.834,7 94.766,0 10,4% 46.824,7 47.204,3 0,8% 23.563,7 23.409,2 -0,7%
+ Diárias referente sub-locação para Aluguel de Carros - - - (321,2) - (24,3) (241,8) - (24,3) (69,8) 1,87 
+ Gestão de Frotas - líquido 22.857,3 48.585,1 85.834,7 94.444,8 10,0% 46.800,4 46.962,5 0,3% 23.539,4 23.339,4 -0,8%
+ Total 76.613,9 114.594,2 161.053,8 170.628,1 5,9% 84.929,5 84.279,5 -0,8% 42.123,6 41.503,1 -1,5%
+Depreciação média por carro anualizada (R$)
+ Aluguel de carros - Brasil 941,1 3.606,3 6.334,9 10.109,4 59,6% 12.850,7 7.370,8 -42,6% 19.976,6 7.501,2 -62,5%
+ Gestão de frotas 1.152,7 3.855,1 6.025,5 9.026,8 49,8% 9.387,4 8.377,4 -10,8% 12.209,2 8.476,4 -30,6%
+ Total 992,0 3.697,4 6.187,8 9.572,7 54,7% 11.140,0 7.867,1 -29,4% 16.097,1 7.985,3 -50,4%
+Receita bruta média anual por carro operacional (R$ mil)
+ Aluguel de carros 24,7 29,0 31,8 48,7 53,1% 34,3 38,0 10,9% 34,8 38,5 10,7%
+ Gestão de frotas 21,2 24,8 27,6 41,1 49,2% 29,8 33,7 13,1% 30,6 34,5 12,7%
+Diária média (R$)
+ Aluguel de carros - Brasil(*) 89,71 108,57 120,54 139,08 15,4% 133,39 147,98 10,9% 134,62 148,93 10,6%
+ Gestão de frotas (não considera receitas de novas iniciativas) 57,49 72,97 82,93 94,26 13,7% 91,64 101,57 10,8% 92,53 102,67 11,0%
+Percentual de Utilização (não considera carros em ativação e desativação no cálculo):
+ Aluguel de carros - Brasil 79,8% 79,6% 78,6% 79,0% 0,4 p.p. 78,6% 78,8% 0,2 p.p. 78,6% 78,6% 0,0 p.p.
+ Gestão de frotas 98,0% 96,7% 95,6% 95,2% -0,4 p.p. 94,6% 96,0% 1,4 p.p. 95,3% 95,8% 0,5 p.p.
+Número de carros comprados - Brasil 111.510 254.929 288.622 293.253 1,6% 108.625 107.936 -0,6% 73.946 74.037 0,1%
+Número de carros comprados - México - - 1.262 1.297 2,8% 621 822 32,4% 419 613 46,3%
+Preço médio dos carros comprados Brasil (R$ mil) - Brasil 68,58 87,87 89,75 89,34 -0,4% 89,95 91,74 2,0% 87,65 89,98 2,7%
+Número de carros vendidos - Brasil 92.845 118.538 221.379 279.844 26,4% 134.278 143.621 7,0% 69.316 68.901 -0,6%
+Número de carros vendidos - México - - - 396 100% 126 710 463,5% 126 387 207,1%
+Preço médio dos carros vendidos (R$ mil) (***) - Brasil 52,63 62,58 59,47 64,92 9,2% 63,87 68,90 7,9% 64,36 70,60 9,7%
+Rede de agências - Aluguel de Carros 620 694 712 706 -0,8% 706 691 -2,1% 706 691 -2,1%
+Agências próprias - Brasil 453 522 537 537 0,0% 532 528 -0,8% 532 528 -0,8%
+Agências próprias - México - - 10 18 80,0% 17 16 -5,9% 17 16 -5,9%
+Agências Franqueadas - Brasil 93 86 79 77 -2,5% 77 76 -1,3% 77 76 -1,3%
+Agências Franqueadas - Exterior 74 86 86 74 -14,0% 80 71 -11,3% 80 71 -11,3%
+Número de Lojas - Seminovos 127 186 215 242 12,6% 216 244 13,0% 216 244 13,0%
+(*)Não inclui no cálculo a locação para a Divisão de Gestão de Frotas.
+(**) no 4T22 a Companhia efetivou a venda do carve-out, com redução de 49.296 carros na frota de final de período. 
+(***) Preço líquido do SG&A de venda dos carros desativados para renovação da frota.
+
+[p. 27]
+27
+
+[p. 28]
+28 
+ 
+ 
+ 
+ 
+RESULTADO CONSOLIDADO 2021 2022 2023 2024 1S25
+Receita líquida total 10.901,3 17.783,4 28.902,6 37.271,6 20.039,3 
+CUSTOS E DESPESAS:
+Custo direto (5.798,0) (9.173,2) (16.157,4) (22.547,3) (11.870,9) 
+Despesas de vendas, gerais, administrativas e outras (1.405,8) (2.021,1) (2.222,3) (2.809,6) (1.549,3) 
+Depreciação de carros (255,1) (1.754,3) (4.184,4) (5.585,7) (2.254,4) 
+Depreciação e amortização de outros imobilizados e intangíveis (218,4) (305,4) (440,0) (523,8) (280,3) 
+ Total de custos e despesas (7.677,3) (13.254,0) (23.004,1) (31.466,4) (15.954,9) 
+Lucro antes dos efeitos financeiros e IR (EBIT) 3.224,0 4.529,4 5.898,5 5.805,2 4.084,4 
+Resultado de equivalencia patrimonial - 0,1 - - - 
+DESPESAS FINANCEIRAS, LÍQUIDAS (320,9) (2.110,6) (4.024,3) (3.938,7) (2.195,4) 
+Lucro antes dos impostos 2.903,1 2.418,9 1.874,2 1.866,5 1.889,0 
+IMPOSTOS DE RENDA E CONTRIBUIÇÃO SOCIAL: (859,4) (577,8) (71,1) (53,2) (1.215,1) 
+Lucro líquido 2.043,7 1.841,1 1.803,1 1.813,3 673,9
+
+[p. 29]
+29 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FLUXO DE CAIXA CONSOLIDADO 2021 2022 2023 2024 1S25
+FLUXO DE CAIXA DAS ATIVIDADES OPERACIONAIS:
+ Lucro líquido do exercicio/período 2.043,7 1.841,2 1.803,1 1.813,3 673,9 
+Ajustes para conciliar o lucro líquido ao caixa e equivalentes de caixa
+gerados pelas atividades operacionais:
+ Depreciações e amortizações 473,5 2.063,6 4.624,3 6.109,5 2.534,7 
+ (Ganho)/Perda na venda ou baixa dos carros (962,0) (1.748,3) (1.625,5) (1.435,2) (599,9) 
+ Ajuste ao valor recuperável de ativos 153,3 344,6 (2,1) 
+ Imposto de renda e contribuição social diferidos 735,4 484,9 (243,8) (669,3) 839,9 
+Juros sobre empréstimos, financiamentos, debêntures e sw ap 502,3 2.898,6 5.012,6 5.215,1 2.791,0 
+Juros de arrendamento 61,8 76,3 107,5 133,5 75,1 
+ Outros 73,8 18,7 637,1 831,9 467,0 
+(Aumento) redução dos ativos:
+Aplicações Financeiras (3.188,2) (396,6) (4.103,9) 433,8 1.543,5 
+Contas a receber (248,1) (827,9) (1.368,6) (673,6) 85,0 
+Receita na venda dos carros desativados, líquida de impostos 5.308,0 7.833,6 13.875,6 19.185,0 10.468,6 
+Aquisições de carros (vide divulgação suplementar a seguir) (7.366,9) (18.621,0) (23.362,4) (25.211,7) (13.104,5) 
+Depósitos judiciais (8,1) (6,8) (32,4) 29,2 (5,5) 
+Tributos a recuperar (266,9) (187,7) (310,3) 133,1 (150,8) 
+Despesas antecipadas (11,6) 92,2 (24,3) 21,4 (315,9) 
+Outros ativos 85,1 (475,4) (260,6) (116,7) 128,9 
+Aumento (redução) dos passivos:
+Fornecedores (exceto montadoras) 109,3 230,9 116,4 58,2 (88,1) 
+Obrigações sociais e trabalhistas 57,7 (18,0) (170,0) (234,0) (117,4) 
+Imposto de renda e contribuição social 124,0 92,8 314,9 722,6 375,2 
+Prêmios de seguro (93,2) 50,9 36,6 18,2 (23,3) 
+Outros passivos (71,3) 271,8 (82,4) (175,1) (136,2) 
+Caixa gerado pelas (aplicado nas) atividades operacionais (2.641,7) (6.326,2) (4.902,8) 6.533,8 5.439,1 
+Imposto de renda e contribuição social pagos (307,1) (83,4) (130,2) (487,5) (321,0) 
+Juros de empréstimos, financiamentos, títulos de dívidas e derivativos pagos (372,9) (2.349,3) (4.804,4) (5.295,0) (2.413,1) 
+Pagamento de juros de cessão de crédito por fornecedores (6,2) (9,9) (19,1) (8,8) 
+Juros de arrendamento pagos (49,7) (61,5) (71,9) (81,9) (51,1) 
+Caixa líquido gerado pelas (aplicado nas) atividades operacionais (3.371,4) (8.826,6) (9.919,2) 650,3 2.645,1 
+FLUXO DE CAIXA DAS ATIVIDADES DE INVESTIMENTOS:
+Aquisição de investimento, ágio e mais valia (3,6) (11,5) (4,2) (8,0) (1,7) 
+Aquisição de outros imobilizados e intangíveis (143,4) (352,8) (387,4) (445,0) (179,8) 
+Aquisição de veículos para revenda (86,3) 
+Caixa adquirido em combinação de negócios por incorporção de ações 1.752,5 
+Valor recebido pela alienação de investimento 581,0 0,9 - 
+ Caixa recebido na venda de ativo mantido para venda 3.220,5 
+Caixa líquido gerado pelas (aplicado nas) atividades de investimentos (147,0) 4.522,4 189,4 (452,1) (181,5) 
+FLUXO DE CAIXA DAS ATIVIDADES DE FINANCIAMENTOS:
+ Empréstimos e financiamentos:
+Captações 3.098,0 1.289,4 5.981,7 4.645,1 1.969,1 
+Amortizações (1.395,8) (820,2) (3.899,5) (7.353,9) (1.875,5) 
+ Debêntures:
+Captações 498,1 9.051,2 6.454,0 10.867,0 3.499,1 
+Amortizações/Recompra (383,1) (728,6) (1.408,5) (4.680,3) (6.687,6) 
+ Passivo de arrendamento:
+Amortizações (144,0) (187,3) (249,3) (284,3) (153,1) 
+ Integralização de capital - com subscrição de ações 116,2 4.943,1 353,9 - 
+ Pagamento do principal de cessão de crédito por fornecedores (1.649,8) 
+Amortização de cessão de direitos creditórios (142,0) (86,6) (24,5) 
+Outros resultados abrangentes (0,3) 
+Mútuo com terceiros (270,0) 
+ Ações em tesouraria (adquiridas)/vendidas 4,4 4,6 (314,7) (795,6) - 
+ Exercício das opções de ações com ações em tesouraria, líquido (1,3) 2,5 (5,1) (3,3) - 
+ Dividendos pagos (18,1) (631,2) 
+ Juros sobre o capital próprio (282,1) (725,9) (1.134,6) (1.294,4) (805,2) 
+Caixa líquido gerado pelas (aplicado nas) atividades de financiamentos 1.376,1 5.450,6 10.225,1 1.367,6 (4.077,7) 
+Variação Cambial s/ Caixa e Equivalentes 1,9 (1,5) 
+FLUXO DE CAIXA GERADO (APLICADO) NO EXERCÍCIO/PERÍODO (2.142,3) 1.146,4 495,3 1.567,7 (1.615,6) 
+SALDO DO CAIXA E EQUIVALENTES DE CAIXA:
+No início do exercício/período 2.586,4 444,1 1.505,6 2.000,9 3.568,6 
+No final do exercício/período 444,1 1.505,6 2.000,9 3.568,6 1.953,0 
+ Caixa no final do exercício - mantido para venda 84,9 
+AUMENTO (REDUÇÃO) NO CAIXA E EQUIVALENTES DE CAIXA (2.142,3) 1.146,4 495,3 1.567,7 (1.615,6) 
+Divulgação suplementar às informações do fluxo de caixa:
+Caixa pago para aquisição de carros:
+ Para renovação da frota (6.366,9) (9.317,0) (19.817,7) (21.677,1) (9.966,1)
+ Para redução da frota (1.289,0) (13.222,0) (6.132,0) (4.620,2) - 
+ Fornecedores - montadoras de carros: 
+ Saldo no final do exercício/período 1.707,4 5.625,3 8.212,6 9.298,2 6.159,9 
+ Saldo no início do exercício/período (1.418,4) (1.707,4) (5.625,3) (8.212,6) (9.298,2)
+Saída de caixa para aquisição de carros (7.366,9) (18.621,0) (23.362,4) (25.211,7) (13.104,5)
+
+[p. 30]
+30 
+ 
+• AVP: Ajuste a valor presente da aplicação financeira contratada na combinação de negócio com a Companhia de Locação das 
+Américas 
+• AVR: Ajuste no valor recuperável dos ativos em função da revisão das estimativas no preço realizável de venda 
+• CAGR: Taxa de crescimento composta anualizada (Compound Annual Growth Rate) 
+• CAPEX: Investimento de capital (Capital Expenditure) 
+• Custo de carrego do caixa: Consiste no custo para manter posição de caixa mínimo. Trata -se da diferença entre a taxa média de 
+captação de recurso e a taxa média de aplicação das disponibilidades 
+• Custo depreciado dos carros vendidos (book value): Consiste no valor de aquisição dos carros, depreciado até a data da venda 
+• Depreciação de carros: A depreciação é calculada com base na expectativa futura de preço de venda dos carros deduzida das 
+despesas para vender. O valor depreciável é a diferença positiva entre o custo de aquisição e o valor residual estimado. A depreciação 
+é calculada desde que o valor residual estimado do ativo não exceda o seu valor contábil. A depreciação é reconhecida durante o 
+prazo da vida ú til estimada de cada ativo. Nas divisões de Aluguel de Carros e Gestão de Frotas é utilizado o método linear. O valor 
+residual é o preço estimado de venda deduzido das despesas estimadas de venda 
+• Dívida líquida: Endividamentos de curto e longo prazos +/ - resultados das operações de swap, líquido do caixa, equivalentes de 
+caixa e de aplicações financeiras. O termo “dívida líquida” é uma medida da Companhia e pode não ser comparável com termo similar 
+adotado por outras companhias 
+• Frota média alugada: No aluguel de carros, é obtida pela divisão do número de diárias utilizadas do período pelo número de dias 
+do período. Na gestão de frotas é o número de carros efetivamente alugados no período 
+• Frota operacional: Inclui os carros da frota a partir do emplacamento até a disponibilização para venda 
+• GF: refere-se à divisão de Gestão de Frotas 
+• IFRS 16: A partir de 1º de janeiro de 2019, todas as empresas tiveram que se adaptar às novas regras do IFRS 16. Com essa nova 
+norma, os arrendatários passaram a ter que reconhecer o ativo dos direitos sobre ativos arrendados e o passivo dos pagamentos 
+futuros para contratos de arrendamento mercantil de médio ou longo prazo, incluindo os operacionais. O maior impacto que tivemos 
+foi dos contratos de locação de imóveis das nossas agências e lojas 
+• Investimento líquido em carros: Investimentos de capital na aquisição de carros, líquidos da receita de vendas de veículos usados 
+• EBITDA: O EBITDA é resultado líquido do período, acrescido dos tributos sobre o lucro, das despesas financeiras líquidas das receitas 
+financeiras e das depreciações, amortizações e exaustões, conforme definido na ICVM 156/22 
+• LTM: Últimos doze meses 
+• MTM: Marcação de Título a Mercado 
+• Margem EBITDA: A divisão do EBITDA pela receita líquida 
+• EBIT: O EBIT é resultado líquido do período, acrescido dos tributos sobre o lucro e das despesas financeiras líquidas das receitas 
+financeiras 
+• Margem EBIT: A divisão do EBIT pela receita líquida de aluguel 
+• One-offs da combinação de negócios : refere-se às despesas especificamente relacionadas ao processo de integração com a 
+Locamerica e ao carve-out dos ativos de Aluguel de Carros e Seminovos que foram vendidos 
+• Resultado ajustado: Se refere ao resultado ajustado das despesas relacionadas especificamente ao processo de integração com a 
+Locamerica e ao carve-out dos ativos de Aluguel de Carros e Seminovos que foram vendidos 
+• RAC: Rent a Car, refere-se à divisão de Aluguel de Carros 
+• Resultado proforma: Se refere ao resultado histórico preparado de maneira proforma para simular um cenário em que Localiza e 
+Locamerica já estivessem combinadas e reportando seus resultados de forma consolidada desde 01/01/21, utilizando os mesmos 
+critérios contábeis 
+• ROIC: Retorno sobre o capital investido (Return on invested capital) 
+• Royalties: Quantia calculada sobre os valores cobrados nos contratos de aluguel, pelo uso da marca e transferência de know-how, 
+além das taxas referentes às campanhas de marketing conduzidas pela Localiza Franchising 
+• Swap: Operações financeiras realizadas para proteção de riscos de variação cambial e taxas de juros 
+• Taxa de utilização: é a divisão do número de diárias utilizadas no período pela frota disponível para o aluguel multiplicado pelo 
+número de dias do período e, portanto, não inclui carros em ativação e em desativação .
+
+[p. 31]
+31 
+ 
+ 
+Data: terça-feira, 12 de agosto de 2025. 
+Inglês (com tradução simultânea para o português) 
+11am (BRT) | 10am (EDT) | 3pm (BST) 
+Link de inscrição: Acesse aqui 
+ 
+Replay disponível no site ri.localiza.com após o evento. 
+ 
+Para acessar os resultados visite Central de Resultados. 
+ 
+ 
+ 
+Para informações adicionais de relações com investidores, favor acessar o site ri.localiza.com seção de relações com investidores. 
+Contato: (31) 3247-7024 ri@localiza.com. 
+Informações para a imprensa: InPress Porter Novelli: Ana Rachid - ana.rachid@inpresspni.com.br 31 99199-2209 
+ 
+ 
+Este material contém informações resumidas, sem intenção de serem completas e não devem ser consideradas por acionistas ou ev entuais investidores como uma 
+recomendação de investimento. Informações a respeito da Localiza, suas atividades, situação econômico-financeira e os riscos inerentes às suas atividades, assim como 
+suas demonstrações financeiras, podem ser obtidas na rede mundial de computadores, no site da Localiza (ri.localiza.com).
+
+[p. 32]
+1
+
+[p. 33]
+2 
+Quarterly Overview: 
+ 
+In the second quarter of 2025, we achieved solid results, aligned with our priority of rebuilding the ROIC spread. We made 
+consistent progress in executing our operational fronts, reinforcing the resilience of our business model even in a challenging 
+macroeconomic environment. 
+We continued our price recomposition process, with an increase in average rates, which contributed to increased revenue in 
+the Car Rental and Fleet Rental divisions. Our agenda of efficient cost management and productivity gains had a positive 
+impact on costs and expenses, contributing to the expansion of operating margins in the rental divisions. In Fleet Rental, we 
+continued our strategy of reducing exposure to the severe-use segment, ending the quarter with approximately 23,000 cars 
+compared to 31 ,000 in December 2024. In this division, light vehicles and subscription grew roughly 20% in the annual 
+comparison, optimizing our capital allocation towards a higher ROIC. 
+Seminovos volumes remained stable year over year, despite a more restrictive credit environment. We are focused on 
+commercial and operational excellence to drive volume growth. Following the announcement of the IPI reduction, sales 
+accelerated, making July one of the strongest months of the year so far. 
+As part of our ongoing priority to strengthen leadership in customer satisfaction, we reached a record level of digital pick-ups 
+in the Car Rental division, now offering customers the option to choose the car model and kilometer, enhancing the pick-up 
+experience and its NPS. In Fleet Rental , Localiza Labs continues to develop new features for our car subscription app, 
+increasing customer engagement. 
+Another key highlight of the quarter was the progress in integrating the Fleet Rental systems, which will contribute to an 
+improved customer experience through a unified journey, as well as greater productivity for our employees. With this 
+integration, we also expect cost savings in maintenance and efficiency gains in fleet utilization. Finally, the integration of the 
+Fleet Rental systems enabled the incorporation of Locamerica , a strategic and relevant move for the Company. Since the 
+business combination in July 2022, 14 companies have been incorporated, representing significant progress in the corporate 
+and operational simplification process and enabling the capture of additional synergies. 
+Reflecting these advances, we p resented a robust quarter with consolidated net revenue of R$9.9 billion, EBITDA of R$3.3 
+billion, and EBIT of R$2.0 billion, despite a quarter seasonally marked by lower activity. Finally, the increase in the basic interest 
+rate impacted on net financial expenses, resulting in an adjusted net income of R$768 million. 
+Debt ratios remained at comfortable levels, with improvements in net debt/EBITDA and net debt/fleet value. We ended the 
+semester with an annualized ROIC of 13.7% and a spread of 4.1 p.p. for the cost of debt, despite the increase in the average 
+interest rate for the period. 
+As described in the extraordinary shareholder meeting proxy statement, due to the incorporation of Locamerica, approved 
+on August 1st, we have written down the deferred income tax and social contribution balances on Locamerica's tax loss this 
+quarter, with a non-cash impact on the 2Q25 results. Starting in September, we will begin capturing the tax benefit associated 
+with the amortization of goodwill, which will reduce the cash tax over the next five years, more than offsetting the write -
+down of tax loss credits. 
+Quarterly Highlights: 
+ 
+Car Rental: Following the peak season in 1Q25, we reduced our available fleet and increased the average daily rental rate to 
+R$149, offsetting seasonal effects. Net revenue totaled R$2.5 billion and EBITDA R$1.6 billion, with a margin of 66.5%. 
+Fleet Rental: Origination began to gain traction in target segments in March, while we continued with the planned reduction 
+in exposure to severe -use, which impacts volume but contributes to the gradual improvement in this division's ROIC. Net 
+revenue totaled R$2.2 billion and EBITDA reached R$1.6 billion, with a margin of 71.0% (7 3.4% excluding Trucks and other 
+Initiatives). 
+Seminovos: After a strong January, sales volumes stabilized at lower levels. The reduction in sales volume in 2Q25 compared 
+to 1Q25 was partially offset by the higher average selling price. Net revenue totaled R$5.2 billion and EBITDA totaled R$84.9 
+million, with a margin of 1.6%. 
+In 2H25, we will continue advancing our strategic priorities and maintaining discipline in capital allocation, aiming to restore 
+the ROIC spread.
+
+[p. 34]
+2 
+IPI Reduction: 
+ 
+ 
+At the end of 2Q25, a new IPI reduction for new cars was announced, regulated by Decree No. 12,549, published on July 10, 
+2025. The measure is part of the National Green Mobility and Innovation Program (Mover), launched in 2023, and is aligned 
+with decarbonization and sustainability goals. 
+As disclosed in a material fact on August 6, 2025, the reduction in the price of new cars has historically reflected a reduction 
+in the price of pre-owned cars. Therefore, as a result of the Decree, the Company has already observed a reduction in the 
+selling prices of pre-owned cars and has identified the need to adjust the expected sales value of part of its fleet. Based on 
+preliminary estimates, Localiza will recognize in its results for the quarter ending September 30, 2025, a one-off impact of 
+between R$800 million and R$1 billion before taxes, equivalent to approximately 1.5% to 1.9% of the value of our fleet at 
+the end of 2Q25. 
+The Company clarifies that the information regarding the effects to be recognized in the quarter ending September 30, 2025, 
+is preliminary. The estimates only consider the potential effects of the Decree in question, in proportion to the reduction in 
+IPI tax rates. However, the impacts predicted by Management are subject to the uncertainties inherent in the disclosure of 
+estimates and projections, the results of which may differ from those indicated . The Company reserves the right to revise 
+these estimates if the program is changed in any way. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Source: Decree 12,549/25 and Company estimate. Rates for certain vehicle categories (non-exhaustive).
+
+[p. 35]
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, net revenue from the Car Rental division reached R$2 ,461 million, an 8.3% increase compared to 2Q24. We 
+continued our price recovery and productivity management process. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the quarter, the average daily rate reached R$148.9, an increase of 10.6% year -on-year, with the utilization rate 
+remaining unchanged.
+
+[p. 36]
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, the Fleet Rental division reported net revenue of R$2 ,248 million, 10.2% higher than in the same period last 
+year, driven by the increase in the average daily rental rate and the stability in the number of daily rentals. In line with 
+our strategic priorities for the year and with the goal of widening the ROIC spread of this division, we maintained a healthy 
+revenue growth pace in our target segments, light fleets and car subscription, which grew approximately 20% in 2Q25 
+compared to 2Q24. We continued to reduce our exposure to severe-use vehicle contracts, which ended the period with 
+approximately 23,000 cars (31,000 in December 2024). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the quarter, the average daily rate of R$102.7 was 11.0% higher than in 2Q24. The utilization rate increased by 0.5 p.p. 
+compared to 2Q24, reaching 95.8%. In the first half of the year, the utilization rate was 96.0%, 1.4 p.p. higher than in the 
+same period last year, demonstrating an efficiency gain in asset utilization.
+
+[p. 37]
+6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, net revenue from Seminovos reached R$5,141 million, a 9.1% increase compared to 2Q24. Car sales volume 
+showed a slight drop of -0.6%, with an increase in the average selling price. On June 26, the press reported a reduction 
+in the IPI (Tax on Industrialized Products) for entry-level cars, impacting sales volumes at the end of June, as the market 
+awaited the announcement of the Sustainable IPI decree. In July, sales accelerated again.
+
+[p. 38]
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The chart above shows the growth of the Car Rental division. We ended the quarter with 691 locations, 604 in Brazil, 16 
+in Mexico, and 71 in five other South American countries. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+At the end of June, the car sales network consisted of 244 stores in 126 cities. In 2H25, we will continue the process of 
+scaling Seminovos to rejuvenate our Car Rental fleet.
+
+[p. 39]
+8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+After reducing our purchase volume in 1Q25 to adjust our fleet to post-peak season demand, we resumed purchasing cars 
+to renew our fleet in 2Q25. We ended the quarter with the addition of 5,136 cars and a net investment of R$1,521 million 
+in Brazil. 
+ 
+In the quarter, 74,037 cars were purchased, 49,943 in the Car Rental division and 24,094 in the Fleet Rental division, and 
+68,901 cars were sold, 43,661 in Car Rental and 25,240 in Fleet Rental. Sales in the quarter reflect the tighter credit 
+environment, as well as the impact of the announcement of the IPI tax reduction in June. 
+ 
+Average sales prices for Seminovos cars continued to increase throughout the semester, reflecting a sales mix with lower 
+average kilometer and a better mix of model-year.
+
+[p. 40]
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the Car Rental division, the average purchase price was R$82.3 thousand and the average sales price reached R$72 .7 
+thousand in 2Q25, resulting in a fleet renewal investment of R$9 .6 thousand per car. The gradual advancement of fleet 
+rejuvenation and the reduction in average kilometer per car sold have contributed to the reduction in renewal capex. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In Fleet Rental, the average purchase price was R$98 .8 thousand in 2Q25, while the average selling price was R$78 .4 
+thousand, resulting in a renewal investment of R$20.4 thousand. The higher renewal capex in Fleet Rental, compared to 
+Car Rental, is explained by the longer average contract term and the vehicle mix, which is appropriately priced in the 
+rental contracts. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Since the peak average kilometer in 2022, the Company has been making progress in reducing the average sales mileage, 
+particularly at wholesale level, which has contributed to improved sales prices and reduced maintenance costs. The 
+reductions in the average age and average kilometer of cars sold will continue to progress gradually throughout this year.
+
+[p. 41]
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Company ended the quarter with a fleet of 632,957 cars, stable compared to 2Q24 and in line with the objective of 
+prioritizing price recovery and increasing fleet productivity.
+
+[p. 42]
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Company continues to report net revenue growth, with a 9.4% increase in 2Q25 compared to the same period last 
+year, totaling R$9 ,900 million. Rental revenue grew 9.3%, while revenue from Seminovos, the Company's efficiency 
+business, totaled R$5 ,166 million in the quarter (including Mexico), a 9.5% increase compared to the same period last 
+year.
+
+[p. 43]
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the quarter, consolidated EBITDA totaled R$3,293 million, a 40.1% increase compared to the same period last year. In 
+2Q24, EBITDA was impacted by the effects of the floods in Rio Grande do Sul, in addition to the Adjustment to Recoverable 
+Value o f cars, which totaled R$386.0 million. Excluding these effects, the EBITDA increase would have been 20.4%, 
+compared to the 9.4% increase in net revenue, demonstrating the Company's excellence in execution and price and cost 
+management. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, the Car Rental division's EBITDA margin was 66.5%, an increase of 12.4 p.p. year-over-year. In 2Q24, the Car 
+Rental margin was impacted by the recognition of R$101 million related to the adjustment to the recoverable value and 
+adjustments associated with the floods in Rio Grande do Sul. Excluding these effects, the margin would have been 58.5% 
+in 2Q24, an increase of 8.0p.p. year-over-year. 
+ 
+In the quarter, rental revenue increased 8.3%, while costs fell 29.9% and SG&A increased 7.8%. Compared to the margin 
+adjusted for the effects of the adjustment to the recoverable value and floods in Rio Grande do Sul, costs would have 
+decreased approximately 20% year-over-year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CAR RENTAL RESULTS AND FRANCHISING 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Car rental and franchising gross revenues, net of discounts and cancellations 5,114.2 5,551.0 8.5% 2,515.0 2,718.5 8.1%
+Taxes on revenues (484.6) (519.4) 7.2% (242.1) (257.1) 6.2%
+Car rental net revenues 4,629.6 5,031.6 8.7% 2,272.9 2,461.4 8.3%
+Car rental and franchising costs (1,431.1) (1,184.9) -17.2% (797.1) (558.6) -29.9%
+Gross profit 3,198.5 3,846.7 20.3% 1,475.8 1,902.8 28.9%
+Operating expenses (SG&A) (477.7) (531.8) 11.3% (245.7) (264.9) 7.8%
+Other assets depreciation and amortization (149.8) (164.4) 9.7% (77.0) (82.4) 7.0%
+Operating profit before financial results and taxes (EBIT) 2,571.0 3,150.5 22.5% 1,153.1 1,555.5 34.9%
+EBITDA 2,720.8 3,314.9 21.8% 1,230.1 1,637.9 33.2%
+EBITDA Margin 58.8% 65.9% 7.1 p.p. 54.1% 66.5% 12.4 p.p.
+
+[p. 44]
+13 
+In Fleet Rental, the margin was 71.0%, an increase of 12.8p.p. compared to 2Q24. The margin excluding Trucks and other 
+Initiatives reached 73.4%. 
+ 
+In 2Q24, the Fleet Rental margin was impacted by the recognition of R$113 million related to the adjustment to the 
+recoverable value and adjustments associated with the floods in Rio Grande do Sul. Excluding these effects, the margin 
+would have been 63.7% in 2Q24. 
+ 
+In the quarter, rental revenue increased 10.2%, while costs fell by approximately 30.7% and SG&A decreased by 2.1%. 
+Compared to the margin adjusted for the effects of the adjustment to the recoverable value and floods in Rio Grande do 
+Sul, costs would have decreased approximately 16% year-over-year. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Seminovos margin was 1.6%, in line with the Company's expectations. In 2Q24, the Seminovos margin was impacted 
+by the recognition of R$172 million related to the adjustment to the recoverable value and the floods in Rio Grande do 
+Sul. Adjusted for these effects, the margin would have been 2.8% in 2Q24. 
+ 
+In 2Q25, we observed a reduction in volumes compared to 1Q25 due to more restrictive credit. Furthermore, on June 26, 
+newspapers reported the publication of the decree regulating the Mover program, as well as the IPI Sustentável 
+(Sustainable IPI tax), which impacted sales at the end of June. In July, we observed a recovery in sales volume. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FLEET RENTAL RESULTS 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Fleet rental gross revenues, net of discounts and cancellations 4,429.9 4,948.3 11.7% 2,250.9 2,480.9 10.2%
+Taxes on revenues (413.6) (461.6) 11.6% (210.2) (232.8) 10.8%
+Fleet rental net revenues 4,016.3 4,486.7 11.7% 2,040.7 2,248.1 10.2%
+Fleet rental costs (1,085.1) (891.0) -17.9% (643.2) (445.9) -30.7%
+Gross profit 2,931.2 3,595.7 22.7% 1,397.5 1,802.2 29.0%
+Operating expenses (SG&A) (376.8) (433.0) 14.9% (210.8) (206.4) -2.1%
+Other assets depreciation and amortization (35.2) (40.7) 15.6% (17.5) (20.6) 17.7%
+write up amortization (3.4) (3.4) 0.0% (1.7) (1.7) 0.0%
+Operating profit before financial results and taxes (EBIT) 2,515.8 3,118.6 24.0% 1,167.5 1,573.5 34.8%
+EBITDA 2,554.4 3,162.7 23.8% 1,186.7 1,595.8 34.5%
+EBITDA Margin 63.6% 70.5% 6.9 p.p. 58.2% 71.0% 12.8 p.p.
+USED CAR SALES RESULTS (SEMINOVOS) 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Gross revenues, net of discounts and cancellations 9,071.2 10,485.8 15.6% 4,726.7 5,174.3 9.5%
+Taxes on revenues (14.0) (17.1) 22.1% (8.0) (8.7) 8.7%
+Net revenues 9,057.2 10,468.7 15.6% 4,718.7 5,165.6 9.5%
+Book value of cars sold (**) (8,528.5) (9,728.5) 14.1% (4,500.7) (4,793.2) 6.5%
+Gross profit 528.7 740.2 40.0% 218.0 372.4 70.8%
+Operating expenses (SG&A) (484.3) (548.9) 13.3% (257.7) (287.5) 11.6%
+Cars depreciation (3,267.8) (2,275.6) -30.4% (2,338.0) (1,140.6) -51.2%
+Other assets depreciation and amortization (51.3) (60.2) 17.3% (26.2) (30.3) 15.6%
+Write up amortization (3.2) 24.6 -868.8% 9.6 11.5 19.8%
+Lucro (prejuízo) operacional antes dos efeitos financeiros e IR (EBIT) (3,277.9) (2,119.9) -35.3% (2,394.3) (1,074.5) -55.1%
+EBITDA 44.4 191.3 330.9% (39.7) 84.9 -313.9%
+EBITDA margin 0.5% 1.8% 1.3 p.p. -0.8% 1.6% 2.5 p.p.
+
+[p. 45]
+14 
+Depreciation is calculated using the straight-line method, considering the difference between the car's purchase price and 
+the estimated selling price at the end of its useful life, net of the estimated costs and expenses for sale. The estimated 
+selling price is recurrently reassessed so that the book value of the cars converges to the market prices at the end of their 
+useful life. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the Car Rental division, the average annualized depreciation per car was R$7,501, slightly higher than the average 
+depreciation of recent quarters and within the Company's expectations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In Fleet Rental, the average depreciation per vehicle was R$8,476 in 2Q25, including heavy vehicles (Trucks). 
+ 
+In July, the government published a decree regulating the Mover program and reducing the IPI tax on entry-level vehicles, 
+impacting new car prices and consequently impacting pre-owned car prices. 
+ 
+According to the material fact released on August 6, we estimate a pre-tax impact of R$800 million to R$1 billion in 3Q25 
+results.
+
+[p. 46]
+15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, EBIT was R$2,020 million. The annual comparison is impacted by the recognition of additional depreciation and 
+impairment in 2Q24 of approximately R$1.7 billion. For the first half of the year, EBIT totaled R$4,084 million. 
+ 
+ 
+EBIT Margin includes the results of Seminovos and is calculated based on rental revenues: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, the EBIT margin for Car Rental was 42.0% and 45.8% for Fleet Rental.
+
+[p. 47]
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 2Q25, we reported adjusted net income of R$768 million. The annual comparison is impacted by the recognition of 
+additional depreciation and adjustment to the recoverable value in 2Q24. For the first half of the year, adjusted net 
+income totaled R$1,611 million. 
+Due to the incorporation of Locamerica in August 2025, we wrote off Locamerica's tax loss credits in 2Q25, totaling R$937 
+million, impacting the income statement but with no cash impact in the quarter. As a result, the quarter ended with an 
+accounting loss of R$169 million, reflecting non-recurring adjustments and with no cash impact. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Starting in September, we will begin capturing the tax benefit from the goodwill amortization ( with no impact on the 
+income statement), resulting in a cash tax reduction of R$2,261 million over an estimated 5-year timeframe, amount 
+R$1,324 million higher than the write-off of Locamerica’s tax credits. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We prioritized the integration of the Fleet Rental systems, which enabled the incorporation of Locamerica and the 
+beginning of the amortization of R$6,650 million in goodwill starting in September. The benefit associated with the 
+goodwill amortization from the heavy vehicles (Trucks) spun-off depends on the integration of the heavy vehicles 
+systems, which will be carried out in the future.
+
+[p. 48]
+17 
+ 
+ 
+ 
+ 
+ 
+In 1H25, the Company reduced its fleet after the peak season and the strong car purchases made at the end of 2024. 
+The cash generated from rental activities (R$5,301 million) and the positive net capex (R$ 502 million) were partially 
+consumed by the reduction in accounts payable to automakers.
+
+[p. 49]
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As of June 30, 2025, the Company's net debt totaled R$31,348 million, an increase of 4% when compared to the debt 
+12/31/2024. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Company ended the quarter with R$9,483 million in cash, sufficient to cover short -term debt, as well as ‘accounts 
+payable’ to automakers, and continues to advance in active debt management in search of opportunities to reduce costs 
+and extend duration.
+
+[p. 50]
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As of June 30, 2025, the Company had R$20.4 billion in swap contracts, with an average rate of 11.5%, with the objective 
+of protecting the cash flows of Fleet Rental from variations in interest rates. Approximately 1/3 of these swap contracts 
+are renewed annually, following the maturities of the Fleet Rental contracts.
+
+[p. 51]
+20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the annual comparison, the net debt/fleet value and net debt/EBITDA LTM ratios showed significant improvement, due 
+to the progress in the price recomposition process and the efficiency agenda. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In 1H25, the annualized ROIC was 13.7%. The 4.1p.p. spread over the cost of debt reflects a 2.1p.p. increase in ROIC, partially 
+offset by a 1.1p.p. rise in the cost of debt after taxes compared to 2024. We will maintain discipline in asset allocation, price 
+recomposition agenda and cost efficiency to support the process of restoring the ROIC spread to historical levels.
+
+[p. 52]
+21 
+ 
+In the quarter, the Board of Directors approved the payment R$533.8 million in Interest on Capital, which will be made on 
+August 19, 2025, based on the shareholding position as of June 27, 2025. 
+ 
+Interest on capital approved in 2025: 
+ 
+ 
+ 
+ 
+Interest on capital approved in 2024: 
+ 
+ 
+ 
+Nature 
+ 
+Reference 
+period 
+Approval 
+date 
+Shareholding 
+position date 
+Payment 
+date 
+Gross amount 
+(R$ million) 
+Gross amount per 
+share (in R$) 
+ 
+IOC 2025 03/21/2025 03/26/2025 05/16/2025 480.9 0.456384 
+IOC 2025 06/24/2025 06/27/2025 08/19/2025 533.8 0.506193 
+ Total 1,014.7 
+ 
+Nature 
+ 
+Reference 
+period 
+Approval 
+date 
+Shareholding 
+position date 
+Payment 
+date 
+Gross amount 
+(R$ million) 
+Gross amount per 
+share (in R$) 
+ 
+IOC 2024 03/26/2024 04/01/2024 05/23/2024 407.1 0.383547 
+IOC 2024 06/21/2024 06/26/2024 08/19/2024 422.7 0.397983 
+IOC 2024 09/20/2024 09/25/2024 11/14/2024 423.8 0.399525 
+IOC 2024 12/12/2024 12/17/2024 02/07/2025 426.4 0.404691 
+ Total 1,680.0
+
+[p. 53]
+22 
+ 
+CAR RENTAL RESULTS AND FRANCHISING 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Car rental and franchising gross revenues, net of discounts and cancellations 4,851.3 7,211.5 9,118.6 10,652.1 16.8% 5,114.2 5,551.0 8.5% 2,515.0 2,718.5 8.1%
+Taxes on revenues (455.9) (701.3) (863.1) (1,005.6) 16.5% (484.6) (519.4) 7.2% (242.1) (257.1) 6.2%
+Car rental net revenues 4,395.4 6,510.2 8,255.5 9,646.5 16.8% 4,629.6 5,031.6 8.7% 2,272.9 2,461.4 8.3%
+Car rental and franchising costs (1,406.9) (1,840.4) (2,035.9) (2,714.5) 33.3% (1,431.1) (1,184.9) -17.2% (797.1) (558.6) -29.9%
+Gross profit 2,988.5 4,669.8 6,219.6 6,932.0 11.5% 3,198.5 3,846.7 20.3% 1,475.8 1,902.8 28.9%
+Operating expenses (SG&A) (832.6) (950.7) (902.1) (954.9) 5.9% (477.7) (531.8) 11.3% (245.7) (264.9) 7.8%
+Other assets depreciation and amortization (142.6) (181.6) (276.4) (302.3) 9.4% (149.8) (164.4) 9.7% (77.0) (82.4) 7.0%
+Operating profit before financial results and taxes (EBIT) 2,013.3 3,537.5 5,041.1 5,674.8 12.6% 2,571.0 3,150.5 22.5% 1,153.1 1,555.5 34.9%
+EBITDA 2,155.9 3,719.1 5,317.5 5,977.1 12.4% 2,720.8 3,314.9 21.8% 1,230.1 1,637.9 33.2%
+EBITDA Margin 49.0% 57.1% 64.4% 62.0% -2.4 p.p. 58.8% 65.9% 7.1 p.p. 54.1% 66.5% 12.4 p.p.
+USED CAR SALES RESULTS (SEMINOVOS) 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Gross revenues, net of discounts and cancellations 4,413.3 5,994.8 9,525.9 12,306.0 29.2% 5,759.8 6,604.4 14.7% 2,940.0 3,172.0 7.9%
+Taxes on revenues (5.2) (6.5) (10.9) (24.1) 121.1% (10.8) (12.1) 12.0% (6.2) (6.1) -1.6%
+Net revenues 4,408.1 5,988.3 9,515.0 12,281.9 29.1% 5,749.0 6,592.3 14.7% 2,933.8 3,165.9 7.9%
+Book value of cars sold (**) (3,416.2) (5,027.1) (8,914.6) (11,396.2) 27.8% (5,453.5) (6,143.3) 12.6% (2,804.0) (2,949.9) 5.2%
+Gross profit 991.9 961.2 600.4 885.7 47.5% 295.5 449.0 51.9% 129.8 216.0 66.4%
+Operating expenses (SG&A) (360.7) (445.5) (516.2) (706.6) 36.9% (327.1) (365.1) 11.6% (172.0) (183.9) 6.9%
+Cars depreciation (183.7) (890.5) (2,242.2) (2,969.3) 32.4% (1,897.0) (1,073.6) -43.4% (1,443.0) (535.6) -62.9%
+Other assets depreciation and amortization (56.1) (61.4) (77.7) (71.1) -8.5% (35.2) (37.9) 7.7% (16.4) (18.6) 13.4%
+Write up amortization - (64.1) (5.4) 14.4 -366.7% 11.7 0.5 -95.7% 6.5 - -100.0%
+Operating profit (loss) before financial results and taxes (EBIT) 391.4 (500.3) (2,241.1) (2,846.9) 27.0% (1,952.1) (1,027.1) -47.4% (1,495.1) (522.1) -65.1%
+EBITDA 631.2 515.7 84.2 179.1 112.7% (31.6) 83.9 -365.5% (42.2) 32.1 -176.1%
+EBITDA Margin 14.3% 8.6% 0.9% 1.5% 0.6 p.p. -0.5% 1.3% 1.8 p.p. -1.4% 1.0% 2.4 p.p.
+CAR RENTAL TOTAL FIGURES 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Car rental and franchising gross revenues, net of discounts and cancellations 4,851.3 7,211.5 9,118.6 10,652.1 16.8% 5,114.2 5,551.0 8.5% 2,515.0 2,718.5 8.1%
+Car sales for fleet renewal - gross revenues, net of discounts and cancellations 4,413.3 5,994.8 9,525.9 12,306.0 29.2% 5,759.8 6,604.4 14.7% 2,940.0 3,172.0 7.9%
+Total gross revenues 9,264.6 13,206.3 18,644.5 22,958.1 23.1% 10,874.0 12,155.4 11.8% 5,455.0 5,890.5 8.0%
+Taxes on revenues
+ Car rental and franchising (455.9) (701.3) (863.1) (1,005.6) 16.5% (484.6) (519.4) 7.2% (242.1) (257.1) 6.2%
+ Car sales for fleet renewal (5.2) (6.5) (10.9) (24.1) 121.1% (10.8) (12.1) 12.0% (6.2) (6.1) -1.6%
+Car rental revenues - net revenues 4,395.4 6,510.2 8,255.5 9,646.5 16.8% 4,629.6 5,031.6 8.7% 2,272.9 2,461.4 8.3%
+Car sales for fleet renewal - net revenues 4,408.1 5,988.3 9,515.0 12,281.9 29.1% 5,749.0 6,592.3 14.7% 2,933.8 3,165.9 7.9%
+Total net revenues 8,803.5 12,498.5 17,770.5 21,928.4 23.4% 10,378.6 11,623.9 12.0% 5,206.7 5,627.3 8.1%
+Direct costs - - 
+ Car rental (1,406.9) (1,840.4) (2,035.9) (2,714.5) 33.3% (1,431.1) (1,184.9) -17.2% (797.1) (558.6) -29.9%
+ Car sales for fleet renewal (3,416.2) (5,027.1) (8,914.6) (11,396.2) 27.8% (5,453.5) (6,143.3) 12.6% (2,804.0) (2,949.9) 5.2%
+Gross profit 3,980.4 5,631.0 6,820.0 7,817.7 14.6% 3,494.0 4,295.7 22.9% 1,605.6 2,118.8 32.0%
+Operating expenses (SG&A) - - 
+ Car rental (832.6) (950.7) (902.1) (954.9) 5.9% (477.7) (531.8) 11.3% (245.7) (264.9) 7.8%
+ Car sales for fleet renewal (360.7) (445.5) (516.2) (706.6) 36.9% (327.1) (365.1) 11.6% (172.0) (183.9) 6.9%
+Cars depreciation (183.7) (890.5) (2,242.2) (2,969.3) 32.4% (1,897.0) (1,073.6) -43.4% (1,443.0) (535.6) -62.9%
+Write up amortization - (64.1) (5.4) 14.4 -366.7% 11.7 0.5 6.5 - -100.0%
+Other assets depreciation and amortization - - 
+ Car rental (142.6) (181.6) (276.4) (302.3) 9.4% (149.8) (164.4) 9.7% (77.0) (82.4) 7.0%
+ Car sales for fleet renewal (56.1) (61.4) (77.7) (71.1) -8.5% (35.2) (37.9) 7.7% (16.4) (18.6) 13.4%
+Operating profit before financial results and taxes (EBIT) 2,404.7 3,037.2 2,800.0 2,827.9 1.0% 618.9 2,123.4 243.1% (342.0) 1,033.4 -402.2%
+EBITDA 2,787.1 4,234.8 5,401.7 6,156.2 14.0% 2,689.2 3,398.8 26.4% 1,187.9 1,670.0 40.6%
+EBITDA margin 31.7% 33.9% 30.4% 28.1% -2.3 p.p. 25.9% 29.2% 3.3 p.p. 22.8% 29.7% 6.9 p.p.
+CAR RENTAL OPERATING DATA 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Average operating fleet (*) 195,242 246,922 285,103 293,700 3.0% 295,227 291,328 -1.3% 288,932 285,626 -1.1%
+Total Average rented fleet 151,686 185,129 211,526 216,291 2.3% 217,643 213,822 -1.8% 212,497 207,168 -2.5%
+Average operating fleet age (in months) 13.9 15.9 12.6 12.1 -3.6% 12.4 10.7 -13.7% 12.7 10.8 -15.0%
+End of period fleet(*) 216,293 331,445 347,287 354,474 2.1% 322,354 327,073 1.5% 322,354 327,073 1.5%
+Number of rental days - in thousands (net of fleet replacement service) 53,756.6 66,009.1 75,219.1 76,183.4 1.3% 38,129.1 37,316.9 -2.1% 18,584.2 18,163.7 -2.3%
+Average daily rental revenues per car (R$) 89.71 108.57 120.54 139.08 15.4% 133.39 147.98 10.9% 134.62 148.93 10.6%
+Annualized average depreciation per car (R$) 941.1 3,606.3 6,334.9 10,109.4 59.6% 12,850.7 7,370.8 -42.6% 19,976.6 7,501.2 -62.5%
+Utilization rate (Does not include cars in preparation and decomissioning) 79.8% 79.6% 78.6% 79.0% 0.4 p.p. 78.6% 78.8% 0.2 p.p. 78.6% 78.6% 0.0 p.p.
+Number of cars purchased 83,382 170,750 172,620 192,668 11.6% 61,952 66,407 7.2% 48,802 49,943 2.3%
+Number of cars sold 76,906 89,485 155,441 184,275 18.5% 86,472 93,344 7.9% 44,293 43,661 -1.4%
+Average sold fleet age (in months) 21.9 28.3 28.3 23.3 -17.7% 23.7 22.7 -4.2% 23.0 22.2 -3.5%
+Average total fleet 209,172 275,889 319,382 326,519 2.2% 321,095 324,599 1.1% 318,148 322,960 1.5%
+Average value of total fleet - R$ million 10,592.7 17,199.0 22,075.1 24,547.6 11.2% 23,925.9 25,458.5 6.4% 23,504.5 25,399.9 8.1%
+Average value per car in the period - R$ thsd 50.6 62.3 69.1 75.2 8.8% 74.5 78.4 5.2% 73.9 78.6 6.4%
+(*) In 4Q22, the Company sold the carve-out, with a reduction of 49,296 cars in the fleet at the end of the period. The 3Q22 figures consider these cars.
+(**) Until 3Q23, preparation costs for sale were added to the book value of cars sold and include a provision for adjustment to the recoverable value of assets in 2Q23 and 2Q24
+
+[p. 54]
+23 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CAR RENTAL RESULTS - MEXICO 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Car rental and Seminovos - net revenues 10.8 107.0 890.7% 39.9 95.7 139.8% 24.3 49.3 102.9%
+Direct costs - Car Rental and Car Sales (23.4) (136.2) 482.1% (64.1) (107.5) 67.7% (39.2) (53.7) 37.0%
+Gross profit (12.6) (29.2) 131.7% (24.2) (11.8) -51.2% (14.9) (4.4) -70.5%
+Operating expenses (SG&A) (30.0) (59.6) 98.7% (26.0) (37.3) 43.5% (13.2) (21.6) 63.6%
+Depreciation of cars and others (16.4) (69.5) 323.8% (38.2) (30.2) -20.9% (25.6) (16.5) -35.5%
+Operating profit (loss) before financial results and taxes (EBIT) (59.0) (158.3) 168.3% (88.4) (79.3) -10.3% (53.7) (42.5) -20.9%
+EBITDA (42.6) (88.8) 108.5% (50.2) (49.1) -2.2% (28.1) (26.0) -7.5%
+OPERATING DATA 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+End of period fleet 1,266 2,137 68.8% 1,746 2,186 25.2% 1,746 2,186 25.2%
+Number Branches 10 18 80.0% 17 16 -5.9% 17 16 -5.9%
+
+[p. 55]
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FLEET RENTAL RESULTS 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Fleet rental gross revenues, net of discounts and cancellations 1,325.2 3,567.7 7,367.4 9,213.5 25.1% 4,429.9 4,948.3 11.7% 2,250.9 2,480.9 10.2%
+Taxes on revenues (127.3) (343.0) (690.2) (860.0) 24.6% (413.6) (461.6) 11.6% (210.2) (232.8) 10.8%
+Fleet rental net revenues 1,197.9 3,224.7 6,677.2 8,353.5 25.1% 4,016.3 4,486.7 11.7% 2,040.7 2,248.1 10.2%
+Fleet rental costs (315.6) (678.6) (1,268.4) (2,002.7) 57.9% (1,085.1) (891.0) -17.9% (643.2) (445.9) -30.7%
+Gross profit 882.3 2,546.1 5,408.8 6,350.8 17.4% 2,931.2 3,595.7 22.7% 1,397.5 1,802.2 29.0%
+Operating expenses (SG&A) (141.2) (433.3) (559.4) (768.0) 37.3% (376.8) (433.0) 14.9% (210.8) (206.4) -2.1%
+Other assets depreciation and amortization (8.3) (24.7) (54.8) (78.9) 44.0% (35.2) (40.7) 15.6% (17.5) (20.6) 17.7%
+write up amortization - (16.0) 6.5 (6.8) -204.6% (3.4) (3.4) 0.0% (1.7) (1.7) 0.0%
+Operating profit before financial results and taxes (EBIT) 732.8 2,072.1 4,801.1 5,497.1 14.5% 2,515.8 3,118.6 24.0% 1,167.5 1,573.5 34.8%
+EBITDA 741.1 2,112.8 4,849.4 5,582.8 15.1% 2,554.4 3,162.7 23.8% 1,186.7 1,595.8 34.5%
+EBITDA Margin 61.9% 65.5% 72.6% 66.8% -5.8 p.p. 63.6% 70.5% 6.9 p.p. 58.2% 71.0% 12.8 p.p.
+USED CAR SALES RESULTS (SEMINOVOS) 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Gross revenues, net of discounts and cancellations 900.7 2,066.0 4,450.1 6,889.6 54.8% 3,303.9 3,838.0 16.2% 1,779.2 1,978.0 11.2%
+Taxes on revenues (0.8) (5.8) (6.0) (6.9) 15.0% (3.2) (5.0) 56.3% (1.8) (2.6) 44.4%
+Net revenues 899.9 2,060.2 4,444.1 6,882.7 54.9% 3,300.7 3,833.0 16.1% 1,777.4 1,975.4 11.1%
+Book value of cars sold (**) (659.3) (1,627.1) (3,915.1) (6,297.7) 60.9% (3,067.1) (3,544.2) 15.6% (1,688.8) (1,820.4) 7.8%
+Gross profit 240.6 433.1 529.0 585.0 10.6% 233.6 288.8 23.6% 88.6 155.0 74.9%
+Operating expenses (SG&A) (71.2) (191.6) (214.6) (320.5) 49.3% (157.2) (182.1) 15.8% (85.7) (102.3) 19.4%
+Cars depreciation (71.4) (549.0) (1,598.9) (2,606.9) 63.0% (1,352.7) (1,186.8) -12.3% (880.0) (596.5) -32.2%
+Other assets depreciation and amortization (11.4) (21.7) (24.8) (35.5) 43.1% (16.1) (22.3) 38.5% (9.8) (11.7) 19.4%
+write up amortization - (250.7) (334.3) 16.4 -104.9% (14.9) 24.1 -261.7% 3.1 11.5 271.0%
+Operating profit (loss) before financial results and taxes (EBIT) 86.6 (579.9) (1,643.6) (2,361.5) 43.7% (1,307.3) (1,078.3) -17.5% (883.8) (544.0) -38.4%
+EBITDA 169.4 241.5 314.4 264.5 -15.9% 76.4 106.7 39.7% 2.9 52.7 1717.2%
+EBITDA Margin 18.8% 11.7% 7.1% 3.8% -3.3 p.p. 2.3% 2.8% 0.5 p.p. 0.2% 2.7% 2.5 p.p.
+FLEET RENTAL TOTAL FIGURES 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Fleet rental gross revenues, net of discounts and cancellations 1,325.2 3,567.7 7,367.4 9,213.5 25.1% 4,429.9 4,948.3 11.7% 2,250.9 2,480.9 10.2%
+Car sales for fleet renewal - gross revenues, net of discounts and cancellations 900.7 2,066.0 4,450.1 6,889.6 54.8% 3,303.9 3,838.0 16.2% 1,779.2 1,978.0 11.2%
+Total gross revenues 2,225.9 5,633.7 11,817.5 16,103.1 36.3% 7,733.8 8,786.3 13.6% 4,030.1 4,458.9 10.6%
+Taxes on revenues - - 
+ Fleet rental (*) (127.3) (343.0) (690.2) (860.0) 24.6% (413.6) (461.6) 11.6% (210.2) (232.8) 10.8%
+ Car sales for fleet renewal (0.8) (5.8) (6.0) (6.9) 15.0% (3.2) (5.0) 56.3% (1.8) (2.6) 44.4%
+Fleet rental - net revenues 1,197.9 3,224.7 6,677.2 8,353.5 25.1% 4,016.3 4,486.7 11.7% 2,040.7 2,248.1 10.2%
+Car sales for fleet renewal - net revenues 899.9 2,060.2 4,444.1 6,882.7 54.9% 3,300.7 3,833.0 16.1% 1,777.4 1,975.4 11.1%
+Total net revenues (**) 2,097.8 5,284.9 11,121.3 15,236.2 37.0% 7,317.0 8,319.7 13.7% 3,818.1 4,223.5 10.6%
+Direct costs
+ Fleet rental (315.6) (678.6) (1,268.4) (2,002.7) 57.9% (1,085.1) (891.0) -17.9% (643.2) (445.9) -30.7%
+ Car sales for fleet renewal (659.3) (1,627.1) (3,915.1) (6,297.7) 60.9% (3,067.1) (3,544.2) 15.6% (1,688.8) (1,820.4) 7.8%
+Gross profit 1,122.9 2,979.2 5,937.8 6,935.8 16.8% 3,164.8 3,884.5 22.7% 1,486.1 1,957.2 31.7%
+Operating expenses (SG&A) - - 
+ Fleet rental (141.2) (433.3) (559.4) (768.0) 37.3% (376.8) (433.0) 14.9% (210.8) (206.4) -2.1%
+ Car sales for fleet renewal (71.2) (191.6) (214.6) (320.5) 49.3% (157.2) (182.1) 15.8% (85.7) (102.3) 19.4%
+Cars depreciation (71.4) (549.0) (1,598.9) (2,606.9) 63.0% (1,352.7) (1,186.8) -12.3% (880.0) (596.5) -32.2%
+write up amortization - (266.7) (327.8) 9.6 -102.9% (18.3) 20.7 -213.1% 1.4 9.8 600.0%
+Other assets depreciation and amortization - - - 
+ Fleet rental (8.3) (24.7) (54.8) (78.9) 44.0% (35.2) (40.7) 15.6% (17.5) (20.6) 17.7%
+ Car sales for fleet renewal (11.4) (21.7) (24.8) (35.5) 43.1% (16.1) (22.3) 38.5% (9.8) (11.7) 19.4%
+Operating profit before financial results and taxes (EBIT) 819.4 1,492.2 3,157.5 3,135.6 -0.7% 1,208.5 2,040.3 68.8% 283.7 1,029.5 262.9%
+EBITDA 910.5 2,354.3 5,163.8 5,847.3 13.2% 2,630.8 3,269.4 24.3% 1,189.6 1,648.5 38.6%
+EBITDA margin 43.4% 44.5% 46.4% 38.4% -8.0 p.p. 36.0% 39.3% 3.3 p.p. 31.2% 39.0% 7.8 p.p.
+OPERATING DATA 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Average operating fleet 61,962 142,703 258,334 288,783 11.8% 288,185 283,334 -1.7% 288,304 281,483 -2.4%
+Total Average rented fleet 63,493 137,700 239,839 263,494 9.9% 260,506 262,296 0.7% 262,142 260,142 -0.8%
+Average operating fleet age (in months) 20.3 19.9 18.3 18.7 2.2% 18.3 20.1 9.8% 18.2 20.3 11.5%
+End of period fleet 73,503 259,596 309,059 312,751 1.2% 307,539 303,698 -1.2% 307,539 303,698 -1.2%
+Number of rental days - in thousands 22,857.3 48,585.1 85,834.7 94,444.8 10.0% 46,800.4 46,962.5 0.3% 23,539.4 23,339.4 -0.8%
+Average daily rental revenues per car (R$) 57.49 72.97 82.93 94.26 13.7% 91.64 101.57 10.8% 92.53 102.67 11.0%
+Annualized average depreciation per car (R$) 1,152.7 3,855.1 6,025.5 9,026.8 49.8% 9,387.4 8,377.4 -10.8% 12,209.2 8,476.4 -30.6%
+Utilization rate (Does not include cars in preparation and decomissioning) (*) 98.0% 96.7% 95.6% 95.2% -0.4 p.p. 94.6% 96.0% 1.4 p.p. 95.3% 95.8% 0.5 p.p.
+Number of cars purchased 28,128 84,179 116,002 100,585 -13.3% 46,673 41,529 -11.0% 25,144 24,094 -4.2%
+Number of cars sold 15,939 29,053 65,938 95,569 44.9% 47,806 50,277 5.2% 25,023 25,240 0.9%
+Average sold fleet age (in months) 31.8 36.3 36.5 35.0 -4.2% 36.4 33.7 -7.4% 35.1 33.8 -3.7%
+Average total fleet 66,451 158,386 282,359 309,348 9.6% 307,466 305,089 -0.8% 308,104 303,791 -1.4%
+Average value of total fleet - R$ million 3,370.7 11,313.5 23,348.5 27,033.2 15.8% 26,841.0 26,914.2 0.3% 26,975.7 26,871.7 -0.4%
+Average value per car in the period - R$ thsd 50.7 71.4 82.7 87.4 5.7% 87.3 88.2 1.0% 87.6 88.5 1.0%
+(*) Does not include replacement service from Car Rental
+(**) Until 3Q23, preparation costs for sale were added to the book value of cars sold and include a provision for adjustment to the recoverable value of assets in 2Q23 and 2Q24
+
+[p. 56]
+25 
+ 
+CONSOLIDATED RESULTS 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var.
+Car rental and franchising gross revenues, net of discounts and cancellations 4,851.3 7,211.5 9,129.4 10,734.1 17.6% 5,146.6 5,603.3 8.9% 2,531.8 2,743.5 8.4%
+Fleet Rental gross revenues, net of discounts and cancellations 1,325.2 3,567.7 7,367.4 9,213.5 25.1% 4,429.9 4,948.3 11.7% 2,250.9 2,480.9 10.2%
+Car and Fleet Rentals and Franchising total gross revenues 6,176.5 10,779.2 16,496.8 19,947.6 20.9% 9,576.5 10,551.6 10.2% 4,782.7 5,224.4 9.2%
+Taxes on revenues - Car and Fleet Rentals and Franchising (583.2) (1,044.3) (1,553.3) (1,865.6) 20.1% (898.2) (981.0) 9.2% (452.3) (489.9) 8.3%
+Car and Fleet Rentals and Franchising net revenues 5,593.3 9,734.9 14,943.5 18,082.0 21.0% 8,678.3 9,570.6 10.3% 4,330.4 4,734.5 9.3%
+Car sales gross revenues
+ Car sales for fleet renewal - Car Rental, net of discounts and cancellations 4,413.3 5,994.8 9,525.9 12,331.0 29.4% 5,767.3 6,647.8 15.3% 2,947.5 3,196.3 8.4%
+ Car sales for fleet renewal - Fleet Rental, net of discounts and cancellations 900.7 2,066.0 4,450.1 6,889.6 54.8% 3,303.9 3,838.0 16.2% 1,779.2 1,978.0 11.2%
+Car sales for fleet renewal - total gross revenues 5,314.0 8,060.8 13,976.0 19,220.6 37.5% 9,071.2 10,485.8 15.6% 4,726.7 5,174.3 9.5%
+Taxes on revenues - Car sales for fleet renewal (6.0) (12.3) (16.9) (31.0) 83.4% (14.0) (17.1) 22.1% (8.0) (8.7) 8.7%
+Car sales for fleet renewal - net revenues 5,308.0 8,048.5 13,959.1 19,189.6 37.5% 9,057.2 10,468.7 15.6% 4,718.7 5,165.6 9.5%
+Total net revenues 10,901.3 17,783.4 28,902.6 37,271.6 29.0% 17,735.5 20,039.3 13.0% 9,049.1 9,900.1 9.4%
+Direct costs and expenses:
+ Car rental and franchising (1,406.9) (1,840.4) (2,059.3) (2,826.2) 37.2% (1,487.3) (1,251.4) -15.9% (828.4) (589.4) -28.9%
+ Fleet Rental (315.6) (678.6) (1,268.4) (2,002.7) 57.9% (1,085.1) (891.0) -17.9% (643.2) (445.9) -30.7%
+Total Car and Fleet Rentals and Franchising (1,722.5) (2,519.0) (3,327.7) (4,828.9) 45.1% (2,572.4) (2,142.4) -16.7% (1,471.6) (1,035.3) -29.6%
+Car sales for fleet renewal - Car rental (3,416.2) (5,027.1) (8,914.6) (11,420.7) 28.1% (5,461.4) (6,184.3) 13.2% (2,811.9) (2,972.8) 5.7%
+Car sales for fleet renewal - Fleet Rental (659.3) (1,627.1) (3,915.1) (6,297.7) 60.9% (3,067.1) (3,544.2) 15.6% (1,688.8) (1,820.4) 7.8%
+Total Car sales for fleet renewal (book value)(*) (4,075.5) (6,654.2) (12,829.7) (17,718.4) 38.1% (8,528.5) (9,728.5) 14.1% (4,500.7) (4,793.2) 6.5%
+Total costs (5,798.0) (9,173.2) (16,157.4) (22,547.3) 39.5% (11,100.9) (11,870.9) 6.9% (5,972.3) (5,828.5) -2.4%
+- - 0.0%
+Gross profit 5,103.3 8,610.2 12,745.2 14,724.3 15.5% 6,634.6 8,168.4 23.1% 3,076.8 4,071.6 32.3%
+Operating expenses
+ Car rental and franchising (973.9) (1,384.0) (1,491.5) (1,782.3) 19.5% (880.5) (1,000.4) 13.6% (469.7) (491.6) 4.7%
+ Car sales for fleet renewal (431.9) (637.1) (730.8) (1,027.3) 40.6% (484.3) (548.9) 13.3% (257.7) (287.5) 11.6%
+Total Operating expenses (1,405.8) (2,021.1) (2,222.3) (2,809.6) 26.4% (1,364.8) (1,549.3) 13.5% (727.4) (779.1) 7.1%
+Depreciation expenses:
+Cars depreciation: (255.1) (1,439.5) (3,844.7) (5,609.7) 45.9% (3,267.8) (2,275.6) -30.4% (2,338.0) (1,140.6) -51.2%
+Write up amortization - (330.8) (333.2) 24.0 -107.2% (6.6) 21.2 -421.2% 7.9 9.8 24.1%
+Other assets depreciation and amortization (218.4) (289.4) (446.5) (523.8) 17.3% (256.4) (280.3) 9.3% (131.3) (141.3) 7.6%
+Total depreciation and amortization expenses (473.5) (1,728.9) (4,291.2) (6,133.5) 42.9% (3,524.2) (2,555.9) -27.5% (2,469.3) (1,281.9) -48.1%
+Operating profit before financial results and taxes (EBIT) 3,224.0 4,529.4 5,898.5 5,805.2 -1.6% 1,739.0 4,084.4 134.9% (112.0) 2,020.4 -1903.9%
+Equity equivalence result - 0.1 - - - - - - - - - 
+Financial (expenses) revenues, net (320.9) (2,110.6) (4,024.3) (3,938.7) -2.1% (1,927.4) (2,195.4) 13.9% (942.8) (1,125.8) 19.4%
+Income before tax and social contribution 2,903.1 2,418.9 1,874.2 1,866.5 -0.4% (188.4) 1,889.0 -1102.7% (1,054.8) 894.6 -184.8%
+Income tax and social contribution (859.4) (577.8) (71.1) (53.2) -25.1% 352.3 (1,215.1) -444.9% 485.2 (1,063.2) -319.1%
+Net income for the period 2,043.7 1,841.1 1,803.1 1,813.3 0.6% 163.9 673.9 311.2% (569.6) (168.6) -70.4%
+Deferred income tax and social contribution on Locamerica's tax loss - - - - - - 936.8 100% - 936.8 100%
+Adjusted net income for the period 2,043.7 1,841.1 1,803.1 1,813.3 0.6% 163.9 1,610.7 882.7% (569.6) 768.2 -234.9%
+EBITDA 3,697.5 6,589.2 10,522.9 11,914.7 13.2% 5,269.8 6,619.1 25.6% 2,349.4 3,292.5 40.1%
+EBIT 3,224.0 4,529.5 5,898.5 5,805.2 -1.6% 1,739.0 4,084.4 134.9% (112.0) 2,020.4 -1903.9%
+Consolidated EBIT Margin (calculated over rental revenues) 57.6% 46.5% 39.5% 32.1% -7.4 p.p. 20.0% 42.7% 22.6 p.p. -2.6% 42.7% 45.3 p.p.- - 
+Car and Fleet Rentals and Franchising EBITDA 2,897.0 5,831.9 10,124.3 11,470.8 13.3% 5,225.4 6,427.8 23.0% 2,389.1 3,207.6 34.3%
+EBITDA Margin 51.8% 59.9% 67.8% 63.4% -4.4 p.p. 60.2% 67.2% 7.0 p.p. 55.2% 67.7% 12.5 p.p.
+Used Car Sales (Seminovos) EBITDA 800.6 757.4 398.6 443.9 11.4% 44.4 191.3 330.9% (39.7) 84.9 -313.9%
+EBITDA Margin 15.1% 9.4% 2.9% 2.3% -0.6 p.p. 0.5% 1.8% 1.3 p.p. -0.8% 1.6% 2.4 p.p.
+(*) Until 3Q23, preparation costs for sale were added to the book value of cars sold and include a provision for adjustment to the recoverable value of assets in 2Q23 and 2Q24
+
+[p. 57]
+26 
+ 
+ 
+ 
+ 
+ 
+SELECTED OPERATING DATA 2021 2022 2023 2024 Var. 1H24 1H25 Var. 2Q24 2Q25 Var. 
+Average operating fleet:
+ Car Rental - Brazil (**) 195,242 246,922 285,103 293,700 3.0% 295,227 291,328 -1.3% 288,932 285,626 -1.1%
+ Fleet Rental 61,962 142,703 258,334 288,783 11.8% 288,185 283,334 -1.7% 288,304 281,483 -2.4%
+ Total 257,204 389,625 543,437 582,483 7.2% 583,412 574,662 -1.5% 577,235 567,109 -1.8%
+Average rented fleet:
+ Car Rental - Brazil (**) 151,686 185,129 211,526 216,291 2.3% 217,643 213,822 -1.8% 212,497 207,168 -2.5%
+ Fleet Rental 63,493 137,700 239,839 263,494 9.9% 260,506 262,296 0.7% 262,142 260,142 -0.8%
+ Total 215,179 322,828 451,364 479,785 6.3% 478,149 476,118 -0.4% 474,639 467,310 -1.5%
+Average age of operating fleet (months)
+ Car Rental 13.9 15.9 12.6 12.1 -4.0% 12.4 10.7 -13.7% 12.7 10.8 -15.0%
+ Fleet Rental 20.3 19.9 18.3 18.7 2.2% 18.3 20.1 9.8% 18.2 20.3 11.5%
+Average age of total operating fleet 15.5 17.4 15.3 15.4 0.4% 15.4 15.3 0.0% 15.5 15.5 0.1%
+Fleet at end of period:
+ Car Rental - Brazil (**) 216,293 331,445 347,287 354,474 2.1% 322,354 327,073 1.5% 322,354 327,073 1.5%
+ Car Rental - Mexico - - 1,266 2,137 68.8% 1,746 2,186 25.2% 1,746 2,186 25.2%
+ Fleet Rental 73,503 259,596 309,059 312,751 1.2% 307,539 303,698 -1.2% 307,539 303,698 -1.2%
+ Total 289,796 591,041 657,612 669,362 1.8% 631,639 632,957 0.2% 631,639 632,957 0.2%
+Fleet investment (R$ million) (include accessories from 2022)
+ Car Rental - Brazil 5,625.1 14,305.9 14,256.4 16,317.1 14.5% 5,144.6 5,591.0 8.7% 4,010.6 4,189.2 4.5%
+ Car Rental - Mexico - - 46.7 96.9 107.5% 55.5 63.8 15.0% 35.9 47.2 31.5%
+ Fleet Rental 2,022.1 8,094.4 11,646.5 9,883.3 -15.1% 4,626.0 4,311.3 -6.8% 2,470.9 2,472.3 0.1%
+ Total 7,647.2 22,400.3 25,949.6 26,297.3 1.3% 9,826.1 9,966.1 1.4% 6,517.4 6,708.7 2.9%
+Number of rental days (In thousands):
+ Car Rental - Brazil 55,358.0 67,649.5 77,218.0 79,171.2 2.5% 39,615.8 38,697.6 -2.3% 19,336.4 18,849.8 -2.5%
+ Rental days for Fleet Rental replacement service (1,601.4) (1,640.4) (1,998.9) (2,987.9) 49.5% (1,486.7) (1,380.6) -7.1% (752.2) (686.1) -8.8%
+ Car Rental - Net 53,756.6 66,009.1 75,219.1 76,183.2 1.3% 38,129.1 37,317.0 -2.1% 18,584.2 18,163.7 -2.3%
+ Fleet Rental 22,857.3 48,585.1 85,834.7 94,766.0 10.4% 46,824.7 47,204.3 0.8% 23,563.7 23,409.2 -0.7%
+ Rental days for Car Rental replacement service - - - (321.2) - (24.3) (241.8) - (24.3) (69.8) 1.87 
+ Fleet Rental - Net 22,857.3 48,585.1 85,834.7 94,444.8 10.0% 46,800.4 46,962.5 0.3% 23,539.4 23,339.4 -0.8%
+ Total 76,613.9 114,594.2 161,053.8 170,628.1 5.9% 84,929.5 84,279.5 -0.8% 42,123.6 41,503.1 -1.5%
+Annualized average depreciation per car (R$)
+ Car Rental - Brazil 941.1 3,606.3 6,334.9 10,109.4 59.6% 12,850.7 7,370.8 -42.6% 19,976.6 7,501.2 -62.5%
+ Fleet Rental 1,152.7 3,855.1 6,025.5 9,026.8 49.8% 9,387.4 8,377.4 -10.8% 12,209.2 8,476.4 -30.6%
+ Total 992.0 3,697.4 6,187.8 9,572.7 54.7% 11,140.0 7,867.1 -29.4% 16,097.1 7,985.3 -50.4%
+Average annual gross revenues per operating car (R$ thousand)
+ Car Rental 24.7 29.0 31.8 48.7 53.1% 34.3 38.0 10.9% 34.8 38.5 10.7%
+ Fleet Rental 21.2 24.8 27.6 41.1 49.2% 29.8 33.7 13.1% 30.6 34.5 12.7%
+Average daily rental (R$)
+ Car Rental - Brazil(*) 89.71 108.57 120.54 139.08 15.4% 133.39 147.98 10.9% 134.62 148.93 10.6%
+ Fleet Rental 57.49 72.97 82.93 94.26 13.7% 91.64 101.57 10.8% 92.53 102.67 11.0%
+Utilization rate (does not include cars in preparation and decomissioning):
+ Car Rental - Brazil 79.8% 79.6% 78.6% 79.0% 0.4 p.p. 78.6% 78.8% 0.2 p.p. 78.6% 78.6% 0.0 p.p.
+ Fleet Rental 98.0% 96.7% 95.6% 95.2% -0.4 p.p. 94.6% 96.0% 1.4 p.p. 95.3% 95.8% 0.5 p.p.
+Number of cars purchased - Brazil 111,510 254,929 288,622 293,253 1.6% 108,625 107,936 -0.6% 73,946 74,037 0.1%
+Number of cars purchased - Mexico - - 1,262 1,297 2.8% 621 822 32.4% 419 613 46.3%
+Average price of cars purchased (R$ thsd) - Brazil 68.58 87.87 89.75 89.34 -0.4% 89.95 91.74 2.0% 87.65 89.98 2.7%
+Numbers of cars sold - Brazil 92,845 118,538 221,379 279,844 26.4% 134,278 143,621 7.0% 69,316 68,901 -0.6%
+Numbers of cars sold - Mexico - - - 396 100% 126 710 463.5% 126 387 207.1%
+Preço médio - Carros Vendidos (R$ mil): 52.63 62.58 59.47 64.92 9.2% 63.87 68.9 7.9% 64.36 70.6 9.7%
+Car Rental network 620 694 712 706 -0.8% 706 691 -2.1% 706 691 -2.1%
+Own locations - Brazil 453 522 537 537 0.0% 532 528 -0.8% 532 528 -0.8%
+Own locations - Mexico 0 0 10 18 80.0% 17 16 -5.9% 17 16 -5.9%
+Franchisees locations - Brazil 93 86 79 77 -2.5% 77 76 -1.3% 77 76 -1.3%
+Franchisees locations - Abroad 74 86 86 74 -14.0% 80 71 -11.3% 80 71 -11.3%
+Number of owned stores - Seminovos 127 186 215 242 12.6% 216 244 13.0% 216 244 13.0%
+(*) Not included the rentals for Fleet Rental Division.
+(**) in 4Q22 the Company concluded the carve-out sale, with a reduction of 49,296 cars in the end of period fleet. 
+(***) Net of SG&A expenses related to the sale of cars decomissioned for fleet renewal.
+
+[p. 58]
+27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ASSETS 2021 2022 2023 2024 1H25
+CURRENT ASSETS:
+Cash and cash equivalents 444.1 1,505.6 2,000.9 3,568.6 1,953.0 
+Financial assets 4,565.4 4,053.8 8,321.3 7,856.9 6,296.3 
+Trade accounts receivable 1,310.4 2,480.2 3,681.6 4,033.7 3,717.5 
+Derivative financial instruments - swap 89.6 283.0 87.7 572.0 218.2 
+Other current assets 351.3 1,316.4 1,141.5 1,287.1 1,627.4 
+Decommissioning cars to fleet renewal 182.0 1,976.1 2,531.4 3,463.6 3,615.2 
+Total current assets 6,942.8 11,615.1 17,764.4 20,781.9 17,427.6 
+NON CURRENT ASSETS:
+Long-term assets:
+ Financial assets 3.0 1,349.9 1,186.4 1,216.9 1,234.1 
+ (-) Fair value adjustment of the deposit tied to linked account - (423.0) (334.3) (241.8) (198.1) 
+ Derivative financial instruments - swap 448.1 365.6 377.2 1,592.4 896.1 
+ Trade accounts receivable 2.7 9.8 6.6 21.1 19.8 
+ Escrow deposit 121.8 220.6 265.4 241.2 240.0 
+ Deferred income tax and social contribution 24.3 23.0 38.2 457.5 975.2 
+ Investments in restricted accounts 46.1 51.4 - 56.5 57.6 
+ Other non current assets 286.3 580.9 675.5 397.5 323.1 
+Total long-term assets 932.3 2,178.2 2,215.0 3,741.3 3,547.8 
+Investments: - 1.2 - - - 
+Property and equipment
+Cars 15,842.9 41,254.1 49,914.3 51,461.5 49,083.7 
+Right of use 736.0 834.7 1,122.8 1,190.1 1,157.8 
+Other 715.0 931.7 1,079.3 1,190.8 1,209.5 
+Intangible:
+ Software and others 37.6 373.7 388.0 414.7 429.1 
+ Goodwill on acquisition of investments 105.4 8,463.3 8,463.3 8,463.3 8,463.3 
+Total non current assets 18,369.2 54,036.9 63,182.7 66,461.7 63,891.2 
+TOTAL ASSETS 25,312.0 65,652.0 80,947.1 87,243.6 81,318.8 
+LIABILITIES AND SHAREHOLDERS' EQUITY 2021 2022 2023 2024 1H25
+CURRENT LIABILITIES:
+Trade accounts payable 2,059.3 6,177.8 8,881.4 10,026.4 6,799.8 [17:54] Valmir Gomes
+Assignment of credit rights - 141.8 86.3 37.5 21.1 
+Social and labor obligations 276.1 333.7 399.2 478.7 490.5 
+Loans, financing and debentures 1,884.8 3,353.5 7,226.5 5,295.9 3,771.0 
+Lease liability 157.0 185.2 261.6 320.5 263.4 
+Derivative financial instruments - swap 9.1 137.4 370.7 91.1 265.8 
+Income tax and social contribution 9.0 11.7 119.1 183.0 166.0 
+Dividends and interest on own capital 288.8 320.4 357.4 380.1 454.0 
+Other current liabilities 300.4 575.3 714.8 900.7 864.4 
+Total current liabilities 4,984.5 11,236.8 18,417.0 17,713.9 13,096.0 
+NON CURRENT LIABILITIES:[17:54] Valmir Gomes
+Assignment of credit rights - 134.2 48.1 10.6 2.6 
+Loans, financing and debentures 10,548.3 29,917.6 33,381.1 39,470.6 37,798.5 
+Lease liability 635.2 727.3 966.5 1,016.1 1,043.4 
+Derivative financial instruments - swap 134.7 260.1 260.0 13.2 109.9 
+Provisions 163.6 672.5 604.3 552.7 566.7 
+Deferred income tax and social contribution 1,147.9 2,010.9 1,700.6 1,947.9 3,021.4 
+Restricted Obligations 47.0 52.1 57.9 58.6 60.6 
+Other non current liabilities 33.7 69.9 113.8 117.3 126.1 
+Total non current liabilities 12,710.4 33,844.6 37,132.3 43,187.0 42,729.2 
+Total liabilities 17,694.9 45,081.4 55,549.3 60,900.9 55,825.2 
+SHAREHOLDERS' EQUITY:
+Capital 4,000.0 12,150.7 17,376.9 17,908.3 17,908.3 
+Expenses with share issues (43.1) (43.1) (118.8) (118.8) (118.8) 
+Treasury Shares (162.1) (144.6) (447.2) (1,208.0) (1,173.6) 
+Capital Reserves 203.0 4,089.1 4,145.2 4,206.6 4,231.1 
+Earnings Reserves 3,618.4 4,516.3 4,756.8 4,890.5 4,551.9 
+Equity Valuation Adjustment 0.9 (9.2) - - - 
+Other comprehensive results - - (324.0) 655.5 88.4 
+Participation of non-controlling partners - 11.4 8.9 8.6 6.3 
+Total shareholders' equity 7,617.1 20,570.6 25,397.8 26,342.7 25,493.6 
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY 25,312.0 65,652.0 80,947.1 87,243.6 81,318.8
+
+[p. 59]
+28 
+ 
+ 
+ 
+ 
+STATEMENT OF INCOME 2021 2022 2023 2024 1H25
+Total net revenues 10,901.3 17,783.4 28,902.6 37,271.6 20,039.3 
+COSTS AND EXPENSES:
+Direct costs (5,798.0) (9,173.2) (16,157.4) (22,547.3) (11,870.9) 
+Selling, general, administrative and other expenses (1,405.8) (2,021.1) (2,222.3) (2,809.6) (1,549.3) 
+Cars depreciation (255.1) (1,754.3) (4,184.4) (5,585.7) (2,254.4) 
+Other assets depreciation and amortization (218.4) (305.4) (440.0) (523.8) (280.3) 
+Total costs and expenses (7,677.3) (13,254.0) (23,004.1) (31,466.4) (15,954.9) 
+Income before financial results and taxes (EBIT) 3,224.0 4,529.4 5,898.5 5,805.2 4,084.4 
+Equity in the earnings of subsidiaries - 0.1 - - - 
+FINANCIAL EXPENSES, NET (320.9) (2,110.6) (4,024.3) (3,938.7) (2,195.4) 
+ Income before taxes 2,903.1 2,418.9 1,874.2 1,866.5 1,889.0 
+INCOME TAX AND SOCIAL CONTRIBUTION (859.4) (577.8) (71.1) (53.2) (1,215.1) 
+Net income 2,043.7 1,841.1 1,803.1 1,813.3 673.9
+
+[p. 60]
+29 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONSOLIDATED CASH FLOW 2021 2022 2023 2024 1H25
+CASH FLOWS FROM OPERATING ACTIVITIES:
+ Net income 2,043.7 1,841.2 1,803.1 1,813.3 673.9 
+Adjustments to reconcile net income and cash and cash
+equivalents provided by operating activities:
+ Depreciation and amortization 473.5 2,063.6 4,624.3 6,109.5 2,534.7 
+ Net book value of vehicles w ritten off (962.0) (1,748.3) (1,625.5) (1,435.2) (599.9) 
+ Adjustment to the recoverable value of assets 153.3 344.6 (2.1) 
+ Deferred income tax and social contribution 735.4 484.9 (243.8) (669.3) 839.9 
+ Interest on loans, financing, debentures and sw aps of fixed rates 502.3 2,898.6 5,012.6 5,215.1 2,791.0 
+ Lease interest 61.8 76.3 107.5 133.5 75.1 
+ Others 73.8 18.7 637.1 831.9 467.0 
+(Increase) decrease in assets:
+Financial assets (3,188.2) (396.6) (4,103.9) 433.8 1,543.5 
+Trade receivable (248.1) (827.9) (1,368.6) (673.6) 85.0 
+Revenue from the sale of decommissioned cars, net of taxes 5,308.0 7,833.6 13,875.6 19,185.0 10,468.6 
+Purchases of cars (see supplemental disclosure below ) (7,366.9) (18,621.0) (23,362.4) (25,211.7) (13,104.5) 
+Escrow deposits (8.1) (6.8) (32.4) 29.2 (5.5) 
+Taxes recoverable (266.9) (187.7) (310.3) 133.1 (150.8) 
+Prepaid expenses (11.6) 92.2 (24.3) 21.4 (315.9) 
+Other assets 85.1 (475.4) (260.6) (116.7) 128.9 
+Increase (decrease) in liabilities:
+Accounts payable (except car manufacturers) 109.3 230.9 116.4 58.2 (88.1) 
+Social and labor obligations 57.7 (18.0) (170.0) (234.0) (117.4) 
+Income tax and social contribution 124.0 92.8 314.9 722.6 375.2 
+Insurance premium (93.2) 50.9 36.6 18.2 (23.3) 
+Other liabilities (71.3) 271.8 (82.4) (175.1) (136.2) 
+Cash provided by (used in) operating activities (2,641.7) (6,326.2) (4,902.8) 6,533.8 5,439.1 
+Income tax and social contribution paid (307.1) (83.4) (130.2) (487.5) (321.0) 
+Interest on loans, financing and debentures paid (372.9) (2,349.3) (4,804.4) (5,295.0) (2,413.1) 
+Payment of interest on credit assignment by suppliers (6.2) (9.9) (19.1) (8.8) 
+Lease interest paid (49.7) (61.5) (71.9) (81.9) (51.1) 
+Net cash provided by (used in) operating activities (3,371.4) (8,826.6) (9,919.2) 650.3 2,645.1 
+CASH FLOWS FROM INVESTING ACTIVITIES:
+Acquisition of investment, goodw ill and fair value surplus (3.6) (11.5) (4.2) (8.0) (1.7) 
+ Additions to property and equipment and intangible, net (143.4) (352.8) (387.4) (445.0) (179.8) 
+Acquisition of vehicles for resale (86.3) 
+Purchases of other property and equipment and addition of intangible assets 1,752.5 
+Amount received for the sale of investment 581.0 0.9 - 
+Cash received on sale of asset held for sale 3,220.5 
+Amount received for disposal of investment
+Net cash provided by (used in) investing activities (147.0) 4,522.4 189.4 (452.1) (181.5) 
+CASH FLOWS FROM FINANCING ACTIVITIES:
+ Loans and financings:
+ Proceeds 3,098.0 1,289.4 5,981.7 4,645.1 1,969.1 
+ Repayment (1,395.8) (820.2) (3,899.5) (7,353.9) (1,875.5) 
+ Debentures
+ Proceeds 498.1 9,051.2 6,454.0 10,867.0 3,499.1 
+ Repayment (383.1) (728.6) (1,408.5) (4,680.3) (6,687.6) 
+Lease liability:
+ Repayment (144.0) (187.3) (249.3) (284.3) (153.1) 
+Capital payment - w ith subscription of shares 116.2 4,943.1 353.9 
+Payment of suppliers' assignment of credit rights (1,649.8) 
+Amortization of assignment of credit rights (142.0) (86.6) (24.5) 
+Other comprehensive results (0.3) 
+Mutual w ith third parties (270.0) 
+Treasury shares (acquired)/ sold 4.4 4.6 (314.7) (795.6) - 
+ Exercise of stock options w ith treasury shares, net (1.3) 2.5 (5.1) (3.3) - 
+ Dividends paid (18.1) (631.2) 
+ Interest on ow n capital (282.1) (725.9) (1,134.6) (1,294.4) (805.2) 
+Net cash provided by (used in) financing activities 1,376.1 5,450.6 10,225.1 1,367.6 (4,077.7) 
+Exchange Rate Variation on Cash and Cash Equivalents 1.9 (1.5) 
+NET CASH FLOW PROVIDED (USED) IN THE YEAR (2,142.3) 1,146.4 495.3 1,567.7 (1,615.6) 
+CASH AND EQUIVALENTS:
+At the begining of the period 2,586.4 444.1 1,505.6 2,000.9 3,568.6 
+At the end of the period 444.1 1,505.6 2,000.9 3,568.6 1,953.0 
+At the end of the period - held for sale 84.9 
+INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS (2,142.3) 1,146.4 495.3 1,567.7 (1,615.6) 
+Supplemental disclosure of cash flow information: - - - - 
+Cash paid during the period for cars acquisition
+ Cars acquisition in the year/period - renew al (6,366.9) (9,317.0) (19,817.7) (21,677.1) (9,966.1)
+ Cars acquisition in the year/period - grow th (1,289.0) (13,222.0) (6,132.0) (4,620.2) - - - - - 
+Suppliers - automakers: 
+ Balance at the end of the year 1,707.4 5,625.3 8,212.6 9,298.2 6,159.9 
+ Balance at the beginning of the year (1,418.4) (1,707.4) (5,625.3) (8,212.6) (9,298.2)
+Cash paid for cars purchased (7,366.9) (18,621.0) (23,362.4) (25,211.7) (13,104.5)
+
+[p. 61]
+30 
+ 
+• Adjustment to present value: Adjustment do present value of the financial investment contracted in the business combination of 
+Companhia de Locação das Américas. 
+• Adjustment to recoverable value: Adjustment to the recoverable value of assets based on the review of estimates of the realizable 
+selling price 
+• Adjusted Results: Refers to the adjusted result of expenses specifically related to the integration process with Locamerica and the 
+carve-out of the Car Rental and Seminovos assets that were sold. 
+• Average Rented Fleet: In the Car Rental division it is the number of daily rentals in the period divided by the number of days in 
+the period. In the Fleet Rental is the actual number of cars rented. 
+• Business combination one-offs: refers to expenses specifically related to the integration process with Locamerica and the carve -
+out of the Car Rental and Seminovos assets that were sold. 
+• CAGR: Compounded annual growth rate. 
+• CAPEX: Capital expenditure. 
+• Carrying Cost of Cash: Consists of the cost to maintain minimum cash position. This is the difference between the average rate of 
+fundraising and the average rate of investment. 
+• Car depreciation: Depreciation is calculated based on the expectation of the future sale price net of the selling expenses. The 
+amount to be depreciated is the positive difference between the acquisition price of the vehicle and its estimated residual v alue. 
+Depreciation i s calculated as long as the assets’ estimated residual value does not exceed its accounting value. Depreciation is 
+recognized during the estimated life cycle of each asset. In the Car Rental and Fleet Rental divisions, depreciation metho d used is 
+linear. The residual value is the estimated sale price net of the estimated selling expense. 
+• Depreciated cost of pre-owned cars sales (book value): Consists of the acquisition value of vehicles, depreciated up to the date 
+of sale. 
+• EBITDA: is the net income of the period, added by the income tax, net financial expenses, depreciation, amortization, and 
+exhaustions, as defined by CVM instruction 156/22. 
+• EBITDA Margin: EBITDA divided by the net revenues. 
+• EBIT: is the net income of the period added by the income tax and net financial expense. 
+• EBIT Margin: EBIT divided by the rental net revenue. 
+• GF: refers to the Fleet Rental division. 
+• IFRS 16: As of January 1, 2019, all companies had to adapt to the new rules of IFRS 16. Lessees now have to recognize the assets 
+of the rights over leased assets and the liabilities of future payments for medium or long -term leases, including operating leases. 
+The major impact we had was on the real estate lease agreements of our locations and stores. 
+• LTM: Last twelve months. 
+• MTM: Mark-to-market of debt and swaps. 
+• Net debt: Short and long-term debts +/- the results from the swap operations, net of the cash, cash equivalents and short -term 
+financial investments. The “net debt” term is a Company’s measure and cannot be compared with similar terms used by other 
+companies. 
+• Net Investment in cars: Capital investment in cars acquisition, net of the revenues from selling decommissioned cars. 
+• Operating Fleet: Includes the cars in the fleet from the licensing until they become available for sale. 
+• Proforma Results: It refers to the historical result prepared in a proforma manner to simulate a scenario in which Localiza and 
+Locamerica were already combined and reporting their results on a consolidated basis since 01/01/21, using the same accountin g 
+criteria. 
+• RAC: refers to the Car Rental division. 
+• ROIC: Return on invested capital. 
+• Royalties: Amount calculated on the amounts charged in the rental contracts, for the use of the brand and transfer of know-how, 
+in addition to the fees related to the marketing campaigns conducted by Localiza Franchising 
+• Swap: financial transactions carried out made to protect risks associated with FX and basic interest rate variation. 
+• Utilization Rate: it is the number of rental days of the period divided by the fleet available for rental multiplied by the number of 
+days of the period and therefore, it does not include cars being prepared or being decommissioned.
+
+[p. 62]
+31 
+ 
+ 
+Data: Tuesday, August 12, 2025. 
+English (with simultaneous translation into Portuguese) 
+11am (BRT) | 10am (EDT) | 3pm (BST) 
+Registration link: Here 
+ 
+Replay available at ri.localiza.com after the event. 
+ 
+To access the results, please visit Results Center. 
+ 
+ 
+ 
+For further investor relations information, please visit the investor relations section of the website at ri.localiza.com. 
+Contact: (31) 3247-7024 ri.localiza.com 
+Information for the press: InPress Porter Novelli: Ana Rachid - ana.rachid@inpresspni.com.br 31 99199-2209 
+ 
+This release contains summarized information, with no intention of being complete and must not be considered by shareholders or potential investors as an investment 
+recommendation. Information on Localiza, its activities, its economic and financial situation and the inherent risks associated with its business, as well as its financial 
+statements, can be obtained from Localiza’s website (ri.localiza.com).

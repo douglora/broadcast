@@ -1,0 +1,620 @@
+[p. 1]
+Release de 
+Resultados 1T25 
+Página 1 
+12 de maio de 2025 
+• Lucro por ação de $ 1,72, em comparação com $ 1,33 no ano anterior 
+• Investimentos de $ 2,9 bilhões voltados às metas de universalização 
+• Quase 130.000 novas ligações 
+ 
+SÃO PAULO, SP - A Sabesp (SBSP3) divulgou hoje um lucro por ação ajustado de $ 1,72 no trimestre, em comparação 
+a $ 1,33 no ano anterior. 
+"Executamos com sucesso nosso plano para o 1T25, com um sólido crescimento de dois dígitos no lucro. Investimos $ 
+2,9 bilhões para atingir nossas metas de universalização, o que resul tou em quase 130 mil novas ligações", afirmou 
+Daniel Szlak, Diretor Financeiro da Sabesp. 
+"A Sabesp segue sendo referência em todos os aspectos do setor de água e esgoto e é a maior companhia do setor 
+com atuação exclusiva e de grande porte no Hemisfério S ul. Acreditamos que este é um negócio orientado por uma 
+missão e seguimos comprometidos em oferecer serviços seguros, limpos, confiáveis e acessíveis à população já 
+atendida, além de ampliar o acesso à dignidade e à saúde para mais pessoas em nossa área de concessão", acrescentou 
+Carlos Piani, Diretor-Presidente da Sabesp. 
+ 
+Resultados Consolidados 
+No trimestre encerrado em 31 de março de 2025, o lucro por ação foi de $ 1,72, em comparação com $ 1,33 no mesmo 
+período do ano anterior. O aumento dos resultados foi impulsionado principalmente pelo repasse de novas tarifas nos 
+Negócios Regulados, pela eliminação de descontos para grandes clientes, pelo crescimento do consumo e por novas 
+ligações associadas às metas de universalização. Os resultados também reflete m a redução das despesas gerais e 
+administrativas, e diminuição do número de funcionários, fundos municipais e provisões legais. Com o novo contrato 
+de concessão, a companhia também registrou custos de amortização mais baixos, o que impactou positivamente o 
+lucro. 
+No trimestre, companhia investiu $ 2,9 bilhões (mais do que o dobro no mesmo período de 2024) em melhorias e 
+expansão de infraestrutura voltadas diretamente para o cumprimento das metas de universalização. 
+ 
+Teleconferência de Resultados 
+A teleconferência para discutir os resultados será realizada na terça -feira, 13 de maio de 2025, às 8h (horário de 
+Brasília). Os interessados poderão acompanhar a transmissão do áudio por meio de um link disponível no site de 
+Relações com Investidores da companhia . Os slides da apresentação que serão usados em conjunto com a 
+teleconferência de resultados também serão disponibilizados online com antecedência. 
+Após o término da teleconferência de resultados, a gravação do áudio permanecerá disponível por um ano no site de 
+Relações com Investidores da Sabesp.
+
+[p. 2]
+Release de 
+Resultados 1T25 
+Página 2 
+ 
+ 
+ 
+DEMONSTRAÇÃO DO RESULTADO REPORTADO 
+(CONSOLIDADO) 
+R$ milhões 
+ 1T25 1T24 Var. (R$) % 
+ Receita operacional 6.120 5.661 459 8,1 
+ FAUSP (200) - (200) - 
+ Ativo Financeiro 420 - 420 - 
+ Imposto sobre Vendas (502) (438) (65) 14,8 
+(=) Receita Líquida de Serviços de Saneamento 5.837 5.223 614 11,7 
+ Receita de construção 2.589 1.337 1.252 93,7 
+(=) Receita Líquida 8.426 6.560 1.866 28,4 
+ Custos de construção (2.589) (1.307) (1.282) 98,1 
+ Custos e despesas operacionais (2.439) (2.834) 394 (13,9) 
+ Outras receitas/(despesas) operacionais, líquidas 18 7 11 155,7 
+ Participações Minoritárias 11 9 2 27,6 
+(=) EBITDA 3.427 2.436 992 40,7 
+ Depreciação e Amortização (584) (774) 190 (24,6) 
+(=) EBIT 2.844 1.662 1.182 71,1 
+ Resultado Financeiro Líquido (593) (338) (255) 75,3 
+(=) EBT 2.251 1.324 927 70,0 
+ Imposto de Renda (769) (501) (268) 53,6 
+(=) Lucro Líquido 1.482 823 659 80,0 
+ Lucro por ação (R$) * 2,17 1,20 
+ 
+* Quantidade de ações = 683.509.869
+
+[p. 3]
+Release de 
+Resultados 1T25 
+Página 3 
+ DEMONSTRAÇÃO DE RESULTADOS AJUSTADA 
+R$ milhões 
+ 
+1T25 
+Ajustes 
+1T25 
+Ajustado 
+1T24 
+Ajustado Var. (R$) % 
+ 
+Ativo 
+Financeir
+o 
+Construção Não 
+Recorrente 
+ Receita operacional 6.120 - - - 6.120 5.661 459 8,1 
+ FAUSP (200) - - - (200) - (200) - 
+ Ativo Financeiro 420 (420) - - - - - - 
+ Imposto sobre Vendas (502) 39 - (28) (491) (438) (54) 12,3 
+(=) Receita Líquida de Serviços de 
+Saneamento 5.837 (381) - (28) 5.428 5.223 204 3,9 
+ Receita de construção 2.589 - (2.589) - - - - - 
+(=) Receita Líquida 8.426 (381) (2.589) (28) 5.428 5.223 204 3,9 
+ Custos de construção (2.589) - 2.589 - - - - - 
+ Custos e despesas operacionais (2.439) - - (10) (2.449) (2.671) 222 (8,3) 
+ Outras receitas/(despesas) 
+operacionais, líquidas 18 - - - 18 7 11 155,7 
+ Participações Minoritárias 11 - - - 11 9 2 27,6 
+(=) EBITDA 3.427 (381) (0) (38) 3.008 2.568 440 17,1 
+ Depreciação e Amortização (584) - - - (584) (774) 
+(=) EBIT 2.844 (381) (0) (38) 2.425 1.794 630 35,1 
+ Resultado Financeiro Líquido (593) - - (45) (638) (338) (300) 88,6 
+(=) EBT 2.251 (381) (0) (83) 1.787 1.456 330 22,7 
+ Imposto de Renda (769) 130 0 28 (611) (546) (65) 12,0 
+(=) Lucro Líquido 1.482 (252) (0) (55) 1.176 911 265 29,1 
+ Lucro por ação (R$)* 2,17 1,72 1,33 
+ 
+* Saldo ajustado pela receita/custo de construção 
+ 
+Os efeitos não recorrentes no 1T25 foram: (i) alíquota efetiva de imposto sobre vendas sobre estimativa de receita ($ 28 
+milhões) e (ii) recebimento de Precatório ($ 55 milhões), com impacto positivo ($ 10 milhões) no EBITDA e no resultado 
+financeiro ($ 45 milhões). 
+CONSUMO POR CATEGORIA 
+ Volume faturado (milhões de m³) Tarifa média (R$/m³) 
+Categoria 1T25 1T24 % 1T25 1T24 % 
+Residencial 939 929 1,1 4,21 4,15 1,4 
+Comercial 98 96 1,9 15,04 13,41 12,1 
+Industrial 18 18 2,6 19,06 16,06 18,7 
+Total do Varejo 1.055 1.043 1,2 5,47 5,21 5,1 
+Atacado 17 17 (1,7) 2,18 2,27 (3,6) 
+Outros¹ 25 25 1,7 18,03 16,98 6,1 
+Total 1,098 1,086 1,1 5,71 5,43 5,1 
+Olímpia 3 3 (0,5) 3,43 2,53 35,7 
+Total 1.101 1.088 1,1 5,71 5,42 5,2
+
+[p. 4]
+Release de 
+Resultados 1T25 
+Página 4 
+Número de ligações, em milhares¹ 1T25 1T24 Var. (Qtde.) % 
+Água 9.491 9.437 54 0,6 
+Esgoto 8.219 8.144 75 0,9 
+(1) Ligações ativas e cadastradas, média no final do período 
+Não auditado por auditores externos 
+ 
+CUSTOS E DESPESAS 
+R$ milhões 
+ 1T25 ajustado 1T24 ajustado Var. (R$) % 
+Pessoal 655 708 (54) (7,6) 
+Materiais gerais 70 91 (21) (23,4) 
+Materiais de tratamento 158 141 17 11,9 
+Serviços 696 683 13 1,9 
+Energia elétrica 440 394 46 11,6 
+Despesas gerais 264 443 (179) (40,4) 
+Despesas tributárias 21 20 0 1,3 
+Perdas estimadas com créditos de liquidação duvidosa 147 191 (44) (23,0) 
+Outras receitas e despesas (29) (16) (13) 84,4 
+Custos e Despesas 2.420 2.655 (236) (8,9) 
+Depreciação e amortização 584 774 (190) (24,6) 
+Custos, Despesas e Depreciação e Amortização 3.003 3.429 (426) (12,4) 
+ 
+PESSOAL 
+Número de funcionários 1T25 1T24 Var. (Qtde.) % 
+Funcionários no final de cada período 9.700 10.729 (1.029) (9,6) 
+Funcionários - média simples 10.089 10.888 (799) (7,3) 
+ 
+INVESTIMENTOS 
+R$ milhões 
+ 1T25 1T24 Var. (R$) % 
+Água 615 669 (54) (8,1) 
+Esgoto 2.236 751,1 1.485 197,7 
+Total 2.851 1.420 1.431 100,7
+
+[p. 5]
+Release de 
+Resultados 1T25 
+Página 5 
+Balanço patrimonial (CONSOLIDADO) 
+R$ mil 
+ATIVO 1T25 1T24 
+Circulante 13.501.674 10.608.860 
+Caixa e equivalentes de caixa 3.640.153 1.682.606 
+Aplicações financeiras 4.496.429 3.699.694 
+Contas a receber de clientes 4.070.804 3.894.557 
+Saldos com partes relacionadas 258.934 319.546 
+Estoques 82.946 10.818 
+Caixa restrito 39.110 37.715 
+Impostos 822.388 800.811 
+Derivativos 0 67.440 
+Outros 90.910 95.673 
+ 
+Não Circulante 72.189.265 70.356.570 
+Aplicações financeiras 0 769.057 
+Contas a receber de clientes 265.172 327.798 
+Saldos com partes relacionadas 908.891 908.875 
+Depósitos judiciais 134.265 139.222 
+Impostos 0 0 
+Agência Nacional de Águas e Saneamento Básico (ANA) 2.052 1.993 
+Outros 107.754 135.227 
+ 
+Investimentos 225.791 215.803 
+Terrenos 20.155 46.630 
+Ativos de contrato 6.908.687 4.877.667 
+Ativos financeiros 18.189.959 17.601.626 
+Intangível 44.808.665 44.771.124 
+Imobilizado 617.874 561.548 
+Total do ativo 85.690.939 80.965.430 
+ 
+ 
+ 
+ 
+PASSIVO E PATRIMÔNIO LÍQUIDO 1T25 1T24 
+Passivo Circulante 12.412.119 11.972.245 
+Contas a Pagar 1.068.574 766.609 
+Endividamento 2.864.778 3.133.850 
+Obrigações trabalhistas 992.365 1.286.193 
+Impostos 614.483 591.271 
+Imposto sobre Vendas Diferido 81.145 0 
+Dividendos e Juros sobre o Capital próprio 2.275.890 2.275.890 
+Provisões 1.568.667 1.546.185 
+Serviços a Pagar 1.981.862 1.438.507 
+Parceria Público-Privada (PPP) 455.870 452.323 
+Compromissos Contrato de Programa 0 0 
+Derivativos 111.986 0 
+Compromissos Contrato de Programa 217.559 287.109 
+Outros 178.940 194.308 
+ 
+Passivo Não Circulante 34.880.900 32.065.131 
+Endividamento 24.773.544 22.124.447 
+Imposto de Renda Diferido 2.728.265 2.661.891 
+Imposto sobre Vendas Diferido 1.075.532 1.117.804 
+Provisões 975.722 895.495 
+Obrigações Previdenciárias 1.939.511 1.931.145
+
+[p. 6]
+Release de 
+Resultados 1T25 
+Página 6 
+Parceria Público-Privada (PPP) 2.873.686 2.853.896 
+Compromissos Contrato de Programa 128.350 137.441 
+Contratos de Performance 386.290 343.012 
+Outros 24.773.544 22.124.447 
+Total do Passivo 47.293.019 44.037.376 
+ 
+Patrimônio Líquido 38.397.920 36.928.054 
+Capital Social 18.400.000 15.000.000 
+Reservas de Lucros 18.247.715 21.647.715 
+Ajuste de Avaliação Patrimonial 268.113 280.339 
+Lucros Acumulados 1.482.092 0 
+Total do Passivo e do Patrimônio Líquido 85.690.939 80.965.430 
+ 
+Consolidado - Demonstração do Fluxo de Caixa 
+R$ mil 1T25 1T24 
+Fluxo de Caixa das Atividades Operacionais 3.206.487 2.828.032 
+Lucro antes dos Impostos 2.250.926 1.323.860 
+Depreciação e Amortização 583.560 773.785 
+Imobilizado e Intangível Baixados 934 918 
+Perdas estimadas com créditos de liquidação duvidosa 136.699 190.518 
+Provisões e variações monetárias 158.411 83.945 
+Juros calculados sobre empréstimos e financiamentos 533.137 344.775 
+Variações monetárias e cambiais de empréstimos e financiamentos 59.312 47.701 
+Variações monetárias (33.782) - 
+Juros e variações monetárias líquidas (160.113) (55.219) 
+Encargos financeiros de clientes (87.593) (109.237) 
+Margem de Construção - (30.046) 
+Provisão para Termo de Ajustamento de Conduta (TAC) e Programas de 
+Desligamento Voluntário (295.866) (107.796) 
+Participações Minoritárias (11.348) (8.893) 
+Juros e variação monetária (PPP) 159.821 145.823 
+Provisões para Fundos Municipais 120.900 174.673 
+Obrigações Previdenciárias 65.272 48.879 
+Instrumentos Financeiros Derivativos 92.601 - 
+Bifurcação de Ativo Financeiro (420.229) - 
+Tributos diferidos Passivo sobre Ativo Financeiro 62,885 - 
+Outros ajustes (9.040) 4.346 
+ 
+Variação no Ativo 
+Contas a receber de clientes (152.222) (154.632) 
+Saldos e transações com partes relacionadas 70.287 6.553 
+Estoques (50.672) (36.158) 
+Impostos (21.577) 166.474 
+Depósitos judiciais 41.907 12.497 
+Outros 33.147 (41.024) 
+Variação no Passivo 
+Contas a Pagar (746.743) (419.392) 
+Serviços a pagar 422.455 (86.703) 
+Obrigações trabalhistas (12.261) 33.630 
+Impostos (304.152) (85.314) 
+Impostos sobre Vendas Diferidos (24.012) 5.168 
+Provisões (55.701) (47.176) 
+Obrigações Previdenciárias (57.008) (60.520) 
+Outros (119.731) 74.992
+
+[p. 7]
+Release de 
+Resultados 1T25 
+Página 7 
+Fluxo de caixa das Atividades Operacionais 2.230.204 2.196.427 
+Juros pagos (760.885) (473.596) 
+Imposto de Renda e Contribuição Social (368.799) (325.403) 
+Caixa Líquido Proveniente das Operações 1.100.520 1.397.428 
+ 
+ 1T25 1T24 
+Fluxo de caixa das atividades de investimentos (1.474.139) (2.284.817) 
+Aquisição de ativo de contrato e intangíveis (1.489.186) (571.418) 
+Caixa restrito (1.395) 9.250 
+Aplicações financeiras - Aplicação (4.360.677) - 
+Aplicações financeiras - Resgate 3.668.798 - 
+Aplicações Financeiras 769.057 (1.706.738) 
+Investimentos - - 
+Aquisição de bens do ativo imobilizado (60.736) (15.911) 
+ 
+Fluxo de caixa das atividades de financiamento 2.331.166 2.068.296 
+Empréstimos e financiamentos 3.636.828 2.939.695 
+Amortização da dívida (1.126.479) (660.026) 
+Parceria Público-Privada (PPP) (136.484) (209.734) 
+Compromissos Contrato de Programa - (1.639) 
+Instrumentos Financeiros Derivativos (42.699) - 
+ 
+Fluxo de Caixa Livre para o Acionista 1.957.547 1.180.907 
+Caixa e equivalente de caixa no início do período 1.682.606 838.484 
+Caixa e equivalentes de caixa no final do período 3.640.153 2.019.391
+
+[p. 8]
+1Q25 Earnings 
+Page 1 
+May 12, 2025 
+• Reported earnings of $1.72 per share, compared to $1.33 per share in the previous year 
+• Invested $2.9 billion in capital toward universalization targets 
+• Added nearly 130,000 connections 
+ 
+SÃO PAULO, SP – Sabesp (SBSP3) today reported adjusted earnings of $1.72 per share for the quarter compared to 
+$1.33 per share in prior year. 
+“We have successfully executed our 1Q25 plan, including solid double-digit earnings growth. We invested $2.9 billion 
+towards achieving our universalization targets adding nearly 130,000 connections.” said Daniel Szlak, CFO of Sabesp. 
+“Sabesp continues to be the leader in all aspects of the water and sewage industry and is the largest pure play, large-
+cap water utility in the southern hemisphere. We believe this is a mission-driven business and, strive to deliver safe, 
+clean, reliable, and affordable services to those we currently serve and bring dignity and health to even more people 
+in our concession area,” added Carlos Piani, CEO of Sabesp. 
+ 
+Consolidated Results 
+For the three months ending March 31, 2025, earnings per share were $1.72, compared to $1.33 per share in the 
+same period in the previous year. Increased results were driven primarily by the carryover of new rates in the 
+Regulated Businesses, the removal of discounts from large customers, consumption growth and new connections 
+associated with the universalization targets. Results also reflect lower general and administrative costs as well as a 
+decrease in the number of employees, municipal funds, legal accruals. Given the new concession contract, the 
+company also had lower amortization costs which impacted earnings favorably. 
+In the quarter, the company invested $2.9 billion (more than double as of the same period of 2024) in infrastructure 
+improvements and expansion directly geared toward its universalization targets. 
+ 
+Earnings Conference Call 
+The conference call to discuss earnings will take place on Tuesday, May 13, 2025, at 7 a.m. Eastern Standard Time]. 
+Interested parties may listen to an audio webcast through a link on the company’s Investor Relations website. 
+Presentation slides that will be used in conjunction with the earnings conference call will also be made available 
+online in advance. 
+Following the earnings conference call, a replay of the audio webcast will be available for one year on Sabesp´s 
+Investor Relations website.
+
+[p. 9]
+1Q25 Earnings 
+Page 2 
+ 
+REPORTED INCOME STATEMENT (CONSOLIDATED) 
+R$ million 
+ 1Q25 1Q24 Var. (R$) % 
+ Revenue from Operations 6.120 5.661 459 8,1 
+ FAUSP (200) - (200) - 
+ Financial Asset 420 - 420 - 
+ Sales Tax (502) (438) (65) 14,8 
+(=) Net Sanitation Revenue 5.837 5.223 614 11,7 
+ Construction revenues 2.589 1.337 1.252 93,7 
+(=) Net Revenue 8.426 6.560 1.866 28,4 
+ Construction costs (2.589) (1.307) (1.282) 98,1 
+ Operating Costs and expenses (2.439) (2.834) 394 (13,9) 
+ Other operating income/(expense), net 18 7 11 155,7 
+ Minority Interest 11 9 2 27,6 
+(=) EBITDA 3.427 2.436 992 40,7 
+ Depreciation and Amortization (584) (774) 190 (24,6) 
+(=) EBIT 2.844 1.662 1.182 71,1 
+ Net Financial result (593) (338) (255) 75,3 
+(=) EBT 2.251 1.324 927 70,0 
+ Income tax (769) (501) (268) 53,6 
+(=) Net income 1.482 823 659 80,0 
+ EPS (R$)* 2,17 1,20 
+ 
+* Number of shares = 683,509,869
+
+[p. 10]
+1Q25 Earnings 
+Page 3 
+ ADJUSTED INCOME STATEMENT 
+R$ million 
+ 
+1Q25 
+Adjustments 
+1Q25 
+Adjusted 
+1Q24 
+Adjusted Var. (R$) % 
+ Financial 
+Asset Construction Non-
+Recurring 
+ Revenue from Operations 6.120 - - - 6.120 5.661 459 8,1 
+ FAUSP (200) - - - (200) - (200) - 
+ Financial Asset 420 (420) - - - - - - 
+ Sales Tax (502) 39 - (28) (491) (438) (54) 12,3 
+(=) Net Sanitation Revenue 5.837 (381) - (28) 5.428 5.223 204 3,9 
+ Construction revenues 2.589 - (2.589) - - - - - 
+(=) Net Revenue 8.426 (381) (2.589) (28) 5.428 5.223 204 3,9 
+ Construction costs (2.589) - 2.589 - - - - - 
+ Operating Costs and expenses (2.439) - - (10) (2.449) (2.671) 222 (8,3) 
+ Other operating income/(expense), 
+net 18 - - - 18 7 11 155,7 
+ Minority Interest 11 - - - 11 9 2 27,6 
+(=) EBITDA 3.427 (381) (0) (38) 3.008 2.568 440 17,1 
+ Depreciation and Amortization (584) - - - (584) (774) 
+(=) EBIT 2.844 (381) (0) (38) 2.425 1.794 630 35,1 
+ Net Financial result (593) - - (45) (638) (338) (300) 88,6 
+(=) EBT 2.251 (381) (0) (83) 1.787 1.456 330 22,7 
+ Income tax (769) 130 0 28 (611) (546) (65) 12,0 
+(=) Net income 1.482 (252) (0) (55) 1.176 911 265 29,1 
+ EPS (R$)* 2,17 1,72 1,33 
+ 
+* Balance adjusted for construction revenue and costs 
+ 
+Non-recurring effects in 1Q25 were (i) Sales tax effective rate on revenue estimate (28)M and (ii) Receipt of court-ordered debt 
+payment (Precatório) (55)M which impacted EBITDA favorably in (10)M and financial income in (45)M. 
+CONSUMPTION BY CATEGORY 
+ Billed Volume (millions of m³) Average Tariff (R$/m³) 
+Category 1Q25 1Q24 % 1Q25 1Q24 % 
+Residential 939 929 1,1 4,21 4,15 1,4 
+Commercial 98 96 1,9 15,04 13,41 12,1 
+Industrial 18 18 2,6 19,06 16,06 18,7 
+Total Retail 1.055 1.043 1,2 5,47 5,21 5,1 
+Wholesale 17 17 (1,7) 2,18 2,27 (3,6) 
+Others¹ 25 25 1,7 18,03 16,98 6,1 
+Total 1.098 1.086 1,1 5,71 5,43 5,1 
+Olímpia 3 3 (0,5) 3,43 2,53 35,7 
+Total 1.101 1.088 1,1 5,71 5,42 5,2 
+ 
+ 
+Number of connections in thousands¹ 1Q25 1Q24 Var. (Qty) % 
+Water 9.491 9.437 54 0,6 
+Sewage 8.219 8.144 75 0,9 
+(1) Active and registered connections, average by end of period 
+Unaudited by external auditors
+
+[p. 11]
+1Q25 Earnings 
+Page 4 
+ 
+OPEX 
+R$ million 
+ 1Q25 adjusted 1Q24 adjusted Var. (R$) % 
+Personnel 655 708 (54) (7,6) 
+General supplies 70 91 (21) (23,4) 
+Treatment supplies 158 141 17 11,9 
+Services 696 683 13 1,9 
+Electricity 440 394 46 11,6 
+General expenses 264 443 (179) (40,4) 
+Tax expenses 21 20 0 1,3 
+Allowance for doubtful accounts 147 191 (44) (23,0) 
+Other revenues and expenses (29) (16) (13) 84,4 
+Costs and Expenses 2.420 2.655 (236) (8,9) 
+Depreciation and Amortization 584 774 (190) (24,6) 
+Costs, Expenses, Depreciation and Amortization 3.003 3.429 (426) (12,4) 
+ 
+PERSONNEL 
+Number of employees 1Q25 1Q24 Var. (Qty) % 
+Employees at the end of each period 9,700 10,729 (1,029) (9,6) 
+Employees – simple average 10,089 10,888 (799) (7,3) 
+ 
+INVESTMENTS 
+R$ million 
+ 1Q25 1Q24 Var. (R$) % 
+Water 615 669 (54) (8,1) 
+Sewage 2.236 751,1 1.485 197,7 
+Total 2.851 1.420 1.431 100,7
+
+[p. 12]
+1Q25 Earnings 
+Page 5 
+Balance Sheet (CONSOLIDATED) 
+R$ ‘000 
+ASSETS 1T25 1T24 
+Current 13.501.674 10.608.860 
+Cash and equivalents 3.640.153 1.682.606 
+Financial investments 4.496.429 3.699.694 
+Trade Accounts receivable 4.070.804 3.894.557 
+Related parties receivable 258.934 319.546 
+Inventory 82.946 10.818 
+Restricted cash 39.110 37.715 
+Taxes 822.388 800.811 
+Derivatives 0 67.440 
+Others 90.910 95.673 
+ 
+Non-Current 72.189.265 70.356.570 
+Financial investments 0 769.057 
+Trade Accounts receivable 265.172 327.798 
+Related parties receivable 908.891 908.875 
+Legal Deposits 134.265 139.222 
+Taxes 0 0 
+National Water and Sanitation Agency (ANA) 2.052 1.993 
+Others 107.754 135.227 
+ 
+Investments 225.791 215.803 
+Land 20.155 46.630 
+Contract assets 6.908.687 4.877.667 
+Financial assets 18.189.959 17.601.626 
+Intangibles 44.808.665 44.771.124 
+PP&E 617.874 561.548 
+Total assets 85.690.939 80.965.430 
+ 
+ 
+ 
+ 
+LIABILITIES AND EQUITY 1Q25 1Q24 
+Current Liabilities 12.412.119 11.972.245 
+Trade Accounts Payable 1.068.574 766.609 
+Debt 2.864.778 3.133.850 
+Labor 992.365 1.286.193 
+Taxes 614.483 591.271 
+Deferred Sales Tax 81.145 0 
+Shareholders Distributions (Dividends and Interest over Own Capital) 2.275.890 2.275.890 
+Legal Accruals 1.568.667 1.546.185 
+Services Accounts Payable 1.981.862 1.438.507 
+Public-Private Partnership (PPP) 455.870 452.323 
+Program Contract Commitments 0 0 
+Derivatives 111.986 0 
+Program Contract Commitments 217.559 287.109 
+Other 178.940 194.308 
+ 
+Non-Current Liabilities 34.880.900 32.065.131 
+Debt 24.773.544 22.124.447 
+Deferred Income Tax 2.728.265 2.661.891 
+Deferred Sales Tax 1.075.532 1.117.804 
+Legal Accruals 975.722 895.495 
+Pension 1.939.511 1.931.145
+
+[p. 13]
+1Q25 Earnings 
+Page 6 
+Public-Private Partnership (PPP) 2.873.686 2.853.896 
+Program Contract Commitments 128.350 137.441 
+Performance Contract Payables 386.290 343.012 
+Other 24.773.544 22.124.447 
+Total Liabilities 47.293.019 44.037.376 
+ 
+Equity 38.397.920 36.928.054 
+Paid-in Capital 18.400.000 15.000.000 
+Profit Reserves 18.247.715 21.647.715 
+OCI 268.113 280.339 
+Retained Earnings 1.482.092 0 
+Total Equity and Liabilities 85.690.939 80.965.430 
+ 
+Consolidated Cash Flow Statement 
+R$ ‘000 1Q25 1Q24 
+Operating Free Cash Flow 3.206.487 2.828.032 
+Pre-tax Earnings 2.250.926 1.323.860 
+Depreciation and Amortization 583.560 773.785 
+PP&E and Intangibles Write-offs 934 918 
+Allowance for doubtful accounts 136.699 190.518 
+Accruals and inflation adjustment 158.411 83.945 
+Accrued Interest on Debt 533.137 344.775 
+Inflation adjustment and FX gains/(losses) Debt 59.312 47.701 
+Debt inflation adjustment (33.782) - 
+Interest and inflation adjustment net gains/(losses) (160.113) (55.219) 
+Financial charges to customers (87.593) (109.237) 
+Construction Margin - (30.046) 
+Provision for Consent Decrees (TAC) and Voluntary Termination Programs (295.866) (107.796) 
+Minority Interest (11.348) (8.893) 
+Interest and inflation adjustment (Public-Private Partnerships) 159.821 145.823 
+Municipal Funds Accruals 120.900 174.673 
+Pension 65.272 48.879 
+Currency Derivatives 92.601 - 
+Financial Asset Bifurcation (420.229) - 
+Deferred Tax on Financial Asset 62.885 - 
+Other adjustments (9.040) 4.346 
+ 
+Changes in Assets 
+Trade Accounts Receivable (152.222) (154.632) 
+Related parties 70.287 6.553 
+Inventory (50.672) (36.158) 
+Taxes (21.577) 166.474 
+Legal deposits 41.907 12.497 
+Other 33.147 (41.024) 
+Changes in Liabilities 
+Trade Accounts Payable (746.743) (419.392) 
+Services Payable 422.455 (86.703) 
+Labor (12.261) 33.630 
+Taxes (304.152) (85.314) 
+Deferred Sales Taxes (24.012) 5.168 
+Accruals (55.701) (47.176) 
+Pension (57.008) (60.520) 
+Other (119.731) 74.992 
+Cash flows from Operations 2.230.204 2.196.427
+
+[p. 14]
+1Q25 Earnings 
+Page 7 
+Payed interest (760.885) (473.596) 
+Income Tax and Social Contribution (368.799) (325.403) 
+Net Cash flows from Operations 1.100.520 1.397.428 
+ 
+ 1Q25 1Q24 
+Cash flows from Investments (1.474.139) (2.284.817) 
+Acquisition of contract and intangible assets (1.489.186) (571.418) 
+Restricted cash (1.395) 9.250 
+Financial investments - Investment (4.360.677) - 
+Financial investments - Redemption 3.668.798 - 
+Financial Investments 769.057 (1.706.738) 
+Investments - - 
+Purchases of tangible assets (60.736) (15.911) 
+ 
+Cash flows from Financing Activities 2.331.166 2.068.296 
+New Debt 3.636.828 2.939.695 
+Debt repayment (1.126.479) (660.026) 
+Public-Private Partnership (PPP) (136.484) (209.734) 
+Program Contract Commitments - (1.639) 
+Currency Derivatives (42.699) - 
+ 
+Free Cash Flow to Equity 1.957.547 1.180.907 
+Cash at Beginning of Period 1.682.606 838.484 
+Cash at End of Period 3.640.153 2.019.391

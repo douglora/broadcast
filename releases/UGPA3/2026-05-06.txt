@@ -1,0 +1,1911 @@
+[p. 1]
+1 
+ 
+ Divulgação dos resultados 1T26
+ 
+São Paulo, 06 de maio de 2026 – A Ultrapar Participações S.A. (B3: UGPA3 / NYSE: UGP, “Companhia” ou “Ultrapar”), 
+com atuação em energia, mobilidade e infraestrutura logística por meio da Ultragaz, Ipiranga, Ultracargo e Hidrovias do 
+Brasil (B3: HBSA3), anuncia hoje seus resultados do primeiro trimestre de 2026. 
+ 
+ 
+Receita líquida EBITDA Ajustado1 EBITDA Ajustado 
+recorrente¹ 
+R$ 36,8 
+bilhões 
+R$ 2,3 
+bilhões 
+R$ 2,3 
+bilhões 
+ 
+Lucro líquido Geração de caixa das operações Investimentos 
+R$ 914 
+milhões 
+R$ 1,1 
+bilhão 
+R$ 558 
+milhões 
+ 
+¹ Ajustado por itens contábeis e não recorrentes, que estão descritos na tabela de cálculo do EBITDA – página 2 deste relatório 
+ 
+Principais destaques 
+ Continuidade dos bons resultados operacionais da Ultrapar 
+- Forte crescimento de EBITDA ajustado recorrente , alavancado pelos resultados da Ipiranga e 
+consolidação da Hidrovias 
+- Geração de R$ 1,1 bilhão de caixa operacional , reﬂetindo sólido desempenho dos negócios e maior 
+saldo de fornecedores convênio (risco sacado), apesar do investimento relevante em capital de giro 
+- Solidez ﬁnanceira, com redução da alavancagem para 1,5x, decorrente da forte geração de caixa e do 
+maior saldo de risco sacado. Incluindo o efeito do risco sacado, a alavancagem ﬁca em 1,7x, mesmo 
+patamar de dezembro de 2025 
+ 
+ Abastecimento do mercado de combustíveis 
+- Investimento de R$ 2,0 bilhões em capital de giro na Ipiranga em função do aumento das 
+importações em cenário de elevada volatilidade e maiores preços internacionais, garantindo o 
+suprimento de sua rede de postos e consumidores 
+ 
+ Avanços na agenda de crescimento, produtividade e criação de valor 
+- Conclusão da expansão em Rondonópolis, adicionando 15 mil m³ de capacidade na Ultracargo a partir 
+de janeiro de 2026 
+- Conclusão da expansão em Opla , adicionando 10 mil m³ de capacidade na Ultracargo a partir de 
+fevereiro de 2026 
+ 
+ Avanços na agenda institucional 
+- Publicação da regulamentação do devedor contumaz pela Receita Federal 
+- Conversão da MP do “Gás do Povo” em lei, reforçando a segurança e a regulação do setor 
+ 
+ Publicação do Relatório de Sustentabilidade 2025 em março, com divulgação do novo plano de 
+sustentabilidade 2030, mais alinhado às questões relevantes para o crescimento e perenidade dos negócios e 
+estratégia de geração de valor de longo prazo da Ultrapar
+
+[p. 2]
+2 
+ 
+ Divulgação dos resultados 1T26
+ 
+Considerações sobre as informações ﬁnanceiras e operacionais 
+As informações ﬁnanceiras apresentadas neste documento foram extraídas das informações contábeis intermediárias para o período de 01 de janeiro 
+a 31 de março de 2026, elaboradas conforme o pronunciamento técnico CPC 21 (R1) - Demonstração Intermediária e com a norma internacional IAS 
+34, emitida pelo IASB, e apresentadas de acordo com as normas da CVM. 
+As informações referentes à Ipiranga, Ultragaz, Ultracargo e Hidrovias são apresentadas sem a eliminação de transações entre segmentos, portanto, 
+a soma de tais dados pode não reﬂetir integralmente os números consolidados da Ultrapar. Adicionalmente, as informações ﬁnanceiras e 
+operacionais estão sujeitas a arredondamentos, o que pode gerar pequenas divergências entre os totais exibidos em tabelas e gráﬁcos e a soma direta 
+dos valores individuais. 
+As informações denominadas EBIT (Lucro Antes dos Juros e Impostos sobre a Renda e Contribuição Social sobre o Lucro Líquido – LAJIR), EBITDA 
+(Lucro Antes dos Juros, Impostos sobre a Renda e Contribuição Social sobre o Lucro Líquido, Depreciação e Amortização – LAJIDA), EBITDA Ajustado 
+e EBITDA Ajustado recorrente estão apresentadas de acordo com a Resolução 156 emitida pela CVM em junho de 2022. 
+O EBITDA Ajustado considera ajustes de transações usuais dos negócios que impactam o resultado contábil, mas que não têm potencial de geração 
+de caixa, tais como a amortização de boniﬁcações a clientes, amortização de mais e menos valia de coligadas, e a marcação a mercado de contratos 
+futuros de energia. Já o EBITDA Ajustado recorrente, exclui itens excepcionais ou não recorrentes, oferecendo uma visão mais precisa e consistente 
+do desempenho operacional, evitando distorções causadas por eventos pontuais, sejam positivos ou negativos. O cálculo do EBITDA a partir do lucro 
+líquido está detalhado na tabela abaixo. 
+Em maio de 2025, a Companhia tornou-se acionista controladora da Hidrovias, conforme Fato Relevante divulgado ao mercado, consolidando os seus 
+resultados a partir dessa data. A partir desse momento, os resultados da Hidrovias passaram a ser incorporados ao EBITDA da Ultrapar, enquanto o 
+período anterior à aquisição do controle permaneceu registrado por equivalência patrimonial. Conforme anunciado, a Hidrovias concluiu em 
+novembro de 2025 a venda de sua operação de navegação costeira; por esse motivo, o resultado do 4T25 contempla apenas um mês dessa operação, 
+sendo que os saldos estavam sendo apresentados como operação descontinuada desde o 1T25. 
+ 
+ULTRAPAR Trimestre 
+ 1T26 1T25 4T25 
+Lucro líquido 914 363 256 
+(+) IR e contribuição social 498 248 232 
+(+) Despesa (receita) financeira líquida 398 180 556 
+(+) Depreciação e amortização1 435 300 432 
+EBITDA 2.246 1.091 1.476 
+Ajuste contábil 
+(+) Amortização de ativos de contratos com clientes - direitos de 
+ exclusividade e amortização de mais valia de coligadas 147 106 131 
+(+) MTM de contratos futuros de energia (69) (9) (46) 
+(+/-) Hedge accounting - - 2 
+EBITDA Ajustado 2.324 1.188 1.562 
+Ipiranga 1.657 832 1.161 
+Ultragaz 385 393 423 
+Ultracargo 165 166 144 
+Hidrovias² 194 (139) (66) 
+Holding e demais empresas 
+ Holding (56) (54) (58) 
+ Demais empresas (21) (10) (42) 
+Efeitos não recorrentes que afetaram EBITDA 
+(-) Resultado na venda de bens (Ipiranga) 8 (5) (95) 
+(-) Earn-out Stella/ impairment (Ultragaz) - - 51 
+(-) Baixas de ativos e indenizações de clientes (Hidrovias) (12) - 226 
+EBITDA Ajustado recorrente 2.320 1.183 1.745 
+Ipiranga 1.665 826 1.066 
+Ultragaz 385 393 474 
+Ultracargo 165 166 144 
+Hidrovias² 182 (139) 160 
+Holding e demais empresas 
+Holding (56) (54) (58) 
+Demais empresas (21) (10) (42) 
+ 
+1 Não inclui amortização de ativos de contratos com clientes – direitos de exclusividade 
+² Valor do 1T25 referente à equivalência patrimonial da participação da Hidrovias 
+ 
+R$ milhões
+
+[p. 3]
+3 
+ 
+1T26 
+ 
+ 
+ULTRAPAR 
+Trimestre 
+1T26 1T25 4T25 1T26 x 1T25 1T26 x 4T25 
+Receita líquida 36.752 33.329 37.973 10% -3% 
+Custo dos produtos vendidos (33.578) (31.188) (35.372) 8% -5% 
+Lucro bruto 3.174 2.142 2.600 48% 22% 
+Vendas, gerais e administrativas (1.320) 
+ 0 
+ (23) 
+ (1.120) (1.286) 18% 3% 
+Resultado na venda de bens 5 (100) -91% -100% 
+Outros resultados operacionais (87) (131) -73% -82% 
+EBITDA Ajustado 2.324 1.188 1.562 96% 49% 
+EBITDA Ajustado recorrente¹ 2.320 1.183 1.745 96% 33% 
+Depreciação e amortização² (582) (406) (563) 43% 3% 
+Resultado financeiro (398) (180) (556) 121% -28% 
+Lucro líquido 914 363 256 152% n/a 
+Investimentos 558 416 826 34% -38% 
+Fluxo de caixa das atividades operacionais 1.103 3 2.382 n/a -54% 
+¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2 
+² Inclui amortização de ativos de contratos com clientes – direitos de exclusividade e amortização de mais valia de coligadas 
+ 
+Receita líquida – Total de R$ 36.752 milhões (+10% vs 1T25), reﬂetindo principalmente o maior faturamento da Ipiranga e o efeito da 
+consolidação da Hidrovias, que estava sendo apresentada como equivalência patrimonial no 1T25. Em relação ao 4T25, houve 
+redução de 3%, explicada principalmente pelo menor faturamento da Ipiranga. 
+EBITDA Ajustado recorrente – Total de R$ 2.320 milhões (+96% vs 1T25), com destaque para o melhor resultado da Ipiranga e o efeito 
+de consolidação do resultado da Hidrovias. Em relação ao 4T25, o EBITDA Ajustado recorrente cresceu 33%, principalmente pelo 
+maior resultado da Ipiranga. 
+Resultado da Holding e demais empresas – Resultado negativo de R$ 77 milhões, composto por (i) R$ 56 milhões de despesas da 
+Holding, R$ 2 milhões acima do 1T25, e (ii) R$ 21 milhões de despesas nas demais empresas, principalmente em função do resultado 
+negativo de R$ 14 milhões da Reﬁnaria Riograndense. 
+Depreciação e amortização – Total de R$ 582 milhões (+43% vs 1T25), reﬂetindo principalmente o efeito de consolidação da 
+Hidrovias e maiores despesas de amortização de ativos de contratos na Ipiranga decorrentes do maior volume de vendas. Em relação 
+ao 4T25, as despesas com depreciação e amortização aumentaram 3%. 
+Resultado ﬁnanceiro – Despesa de R$ 398 milhões (piora de R$ 218 milhões vs 1T25) explicada principalmente pela: (i) maior dívida 
+líquida em função da consolidação da Hidrovias, (ii) menor efeito positivo de marcação a mercado (R$ 76 milhões no 1T26 vs R$ 118 
+milhões no 1T25) e (iii) maior CDI. Em relação ao 4T25, houve melhora de R$ 158 milhões, reﬂetindo principalmente o efeito pontual 
+negativo de marcação a mercado de R$ 164 milhões no 4T25. 
+Lucro líquido – Total de R$ 914 milhões (vs R$ 363 milhões no 1T25), reﬂetindo o maior resultado operacional, parcialmente 
+compensado por maiores despesas com depreciação e amortização e ﬁnanceiras, principalmente pelo efeito de consolidação da 
+Hidrovias. Em relação ao 4T25, o lucro líquido aumentou R$ 658 milhões, explicado pelo maior resultado operacional e menores 
+despesas ﬁnanceiras. 
+Fluxo de caixa das atividades operacionais – Geração de caixa operacional de R$ 1.103 milhões no 1T26, ante R$ 3 milhões no 1T25, 
+reﬂetindo principalmente o maior resultado operacional no período, parcialmente compensado por maior necessidade de 
+investimento em capital de giro, principalmente na Ipiranga e na Hidrovias. Na Ipiranga, o investimento em capital de giro no 1T26 
+decorreu do aumento relevante na importação de combustíveis, com prazos de pagamento inferiores aos usualmente praticados, 
+além de níveis mais elevados de clientes e estoques, com aumento relevante das importações da Ipiranga para manutenção do 
+abastecimento do mercado brasileiro. Esses impactos foram parcialmente compensados pela contratação de R$ 1.146 milhões em 
+operações de fornecedores convênio (risco sacado). Desconsiderando esse efeito, haveria um consumo de R$ 43 milhões no 1T26. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões
+
+[p. 4]
+4 
+ 
+1T26 
+ 
+ 
+¹ Óleos combustíveis, arla 32, querosene, lubrificantes e graxas, ² Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2 
+³ Inclui amortização de ativos de contratos com clientes – direitos de exclusividade 
+ 
+Desempenho operacional – O volume total vendido cresceu 8% em relação ao 1T25, com alta de 9% no diesel e de 7% no ciclo Otto, 
+reﬂetindo a continuidade da recuperação gradual do mercado após redução de práticas irregulares no setor, além do aumento de 
+importações para manutenção do abastecimento da nossa rede de postos e consumidores. Na comparação com o 4T25, o volume 
+recuou 7%, em linha com a sazonalidade típica entre os períodos. 
+Receita líquida – Total de R$ 33.110 milhões (+10% vs 1T25), reﬂetindo principalmente o maior volume de vendas e os repasses do 
+aumento relevante de custos de aquisição dos combustíveis, em especial no diesel importado, em um contexto de maior participação 
+de produto importado para atendimento dos nossos clientes. Em relação ao 4T25, a receita líquida apresentou redução de 3%, 
+explicada pelo menor volume de vendas, parcialmente compensada pelos repasses do aumento de custos dos combustíveis. 
+Custo dos produtos vendidos – Total de R$ 30.812 milhões (+7% vs 1T25), reﬂetindo o maior volume de vendas e maiores custos dos 
+combustíveis, parcialmente compensados pelo menor crescimento de custos da operação de lojas de conveniência. Em relação ao 
+4T25, houve redução de 5%, explicada principalmente pelo menor volume de vendas, parcialmente compensada pelos maiores 
+custos dos combustíveis. 
+Despesas gerais, administrativas e de vendas – Total de R$ 885 milhões (+16% vs 1T25), explicado principalmente pelo aumento 
+da provisão para créditos de liquidação duvidosa e maiores despesas legais e com marketing, além de maiores despesas com pessoal 
+(dissídio e remuneração variável, em linha com progressão de resultados). Na comparação com o 4T25, houve aumento de 11%, 
+reﬂetindo principalmente a maior provisão para créditos de liquidação duvidosa e maiores despesas com pessoal – maior provisão 
+de remuneração variável, em linha com progressão dos resultados. 
+Resultado na venda de bens – Total de R$ 8 milhões negativos (vs R$ 5 milhões no 1T25 e R$ 95 milhões no 4T25), reﬂetindo menor 
+venda de terrenos e efeito pontual de R$ 9 milhões de baixa de ativos. 
+Outros resultados operacionais – Despesa de R$ 43 milhões (vs R$ 105 milhões no 1T25 e R$ 65 milhões no 4T25), principalmente 
+por menores despesas com CBios, em função do menor patamar de preços no período. 
+EBITDA Ajustado recorrente – Total de R$ 1.665 milhões (+101% vs 1T25), reﬂetindo (i) a melhora gradual do ambiente competitivo 
+mais justo, com o avanço no combate às irregularidades no setor, (ii) o maior volume de vendas e (iii) ganhos de estoque dos 
+combustíveis importados, dado aumento relevante de preços no período. Esse desempenho foi sustentado por uma gestão eﬁciente 
+de suprimentos e forte investimento em capital de giro, que permitiu a importação de combustíveis mesmo em um contexto de 
+volatilidade e preços internacionais elevados, garantindo o abastecimento do mercado. Em relação ao 4T25, houve aumento de 56%, 
+impulsionadas pela continuidade do avanço no combate às irregularidades no setor, parcialmente compensada por menores 
+volumes e maiores despesas. 
+Investimentos – Foram investidos R$ 282 milhões (+33% vs 1T25), direcionados à ampliação e manutenção da rede de postos e 
+franquias, além de investimentos para evolução da plataforma de tecnologia, com destaque para a troca do ERP , prevista para ser 
+concluída em 2027. Do total investido, R$ 140 milhões referem-se a imobilizações e adições ao intangível e R$ 143 milhões a ativos 
+de contratos com clientes (direitos de exclusividade). 
+IPIRANGA 
+Trimestre 
+1T26 1T25 4T25 1T26 x 1T25 1T26 x 4T25 
+Volume total (mil m³) 6.021 5.578 6.443 8% -7% 
+Diesel 3.026 2.775 3.162 9% -4% 
+Ciclo Otto 2.890 2.699 3.171 7% -9% 
+Outros¹ 105 104 109 2% -4% 
+Receita líquida 33.110 30.234 34.128 10% -3% 
+Custos dos produtos e serviços prestados (30.812) (28.806) (32.489) 7% -5% 
+Lucro bruto 2.298 1.429 1.639 61% 40% 
+Margem bruta (R$/m³) 382 256 254 49% 50% 
+Vendas, gerais e administrativas (885) (762) (799) 16% 11% 
+Resultado na venda de bens (8) 5 95 n/a -108% 
+Outros resultados operacionais (43) (105) (65) -59% -33% 
+EBITDA Ajustado 1.657 832 1.161 99% 43% 
+Margem EBITDA Ajustado (R$/m³) 275 149 180 84% 53% 
+Não recorrentes² 8 (5) (95) n/a -108% 
+EBITDA Ajustado recorrente 1.665 826 1.066 101% 56% 
+Margem EBITDA Ajustado recorrente (R$/m³) 276 148 165 87% 67% 
+Depreciação e amortização³ 298 266 287 12% 4% 
+ 
+EBITDA LTM Ajustado recorrente 4.300 3.387 3.462 27% 24% 
+Margem EBITDA LTM Ajustado recorrente (R$/m³) 176 144 145 23% 22% 
+ 
+R$ milhões
+
+[p. 5]
+5 
+ 
+1T26 
+ 
+ULTRAGAZ 
+Trimestre 
+1T26 1T25 4T25 1T26 x 1T25 1T26 x 4T25 
+Volume total (mil ton de GLP) 405 406 426 0% -5% 
+Envasado 259 257 280 1% -8% 
+Granel 146 149 146 -2% 0% 
+Receita líquida 2.965 2.863 3.115 4% -5% 
+Custo dos produtos vendidos (2.358) (2.328) (2.432) 1% -3% 
+Lucro bruto 607 536 683 13% -11% 
+Vendas, gerais e administrativas (260) (248) (274) 5% -5% 
+Resultado na venda de bens (0) (0) (46) 98% -99% 
+Outros resultados operacionais 2 16 (6) -84% -142% 
+Lucro operacional 349 303 357 15% -2% 
+MTM de contratos futuros de energia (69) (9) (46) n/a 49% 
+EBITDA Ajustado¹ 385 393 423 -2% -9% 
+Margem EBITDA Ajustado (R$/ton) 950 967 992 -2% -4% 
+Não recorrentes² - - 51 n/a n/a 
+EBITDA Ajustado recorrente¹ 385 393 474 -2% -19% 
+Margem EBITDA Ajustado recorrente (R$/ton) 950 967 1.112 -2% -15% 
+Depreciação e amortização 104 98 113 6% -8% 
+ 
+EBITDA LTM Ajustado recorrente¹ 1.764 1.679 1.772 5% 0% 
+Margem EBITDA LTM Ajustado recorrente (R$/ton) 1.032 959 1.036 8% 0% 
+¹ Inclui contribuição do resultado das novas energias 
+ ² Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2 
+ 
+Desempenho operacional – O volume de GLP vendido totalizou 405 mil toneladas no 1T26, estável em relação ao 1T25, com 
+aumento de 1% no segmento de envasado e redução de 2% no granel, reﬂetindo menor demanda no segmento de indústrias. Em 
+relação ao 4T25, o volume foi 5% inferior, em linha com a sazonalidade típica entre os períodos. 
+Receita líquida – Total de R$ 2.965 milhões (+4% vs 1T25), reﬂetindo os repasses de inﬂação e aumentos de custos do GLP , além da 
+maior contribuição do segmento de novas energias, parcialmente compensados pelo menor volume do granel. Em relação ao 4T25, 
+houve redução de 5%, principalmente pelo menor volume de vendas. 
+Custo dos produtos vendidos – Total de R$ 2.358 milhões (+1% vs 1T25), principalmente pelos maiores custos do GLP em função 
+dos leilões realizados no período, aumento do ICMS e maiores custos relacionados ao segmento de novas energias, que foram 
+parcialmente compensados pelo efeito de marcação a mercado dos contratos futuros de energia. Em relação ao 4T25, o CPV 
+apresentou redução de 3%, devido ao menor volume de vendas e efeito de marcação a mercado dos contratos futuros de energia, 
+parcialmente compensados pelos maiores custos do GLP e aumento do ICMS. 
+Despesas gerais, administrativas e de vendas – Total de R$ 260 milhões (+5% vs 1T25), explicadas por maiores gastos com serviços 
+atrelados a novas energias e despesas com frete. Na comparação com o 4T25, as despesas apresentaram redução de 5%, com 
+menores despesas com serviços e campanhas de marketing. 
+Resultado na venda de bens – Ausência de efeitos relevantes tanto no 1T26 como no 1T25. No 4T25, houve resultado negativo de 
+R$ 46 milhões, explicado pela baixa do ágio no investimento (impairment) da Stella, reﬂetindo suas perspectivas de resultado. 
+Outros resultados operacionais – Total de R$ 2 milhões (vs R$ 16 milhões no 1T25), explicado principalmente pela reversão do earn-
+out relacionado à aquisição da Stella no 1T25. Em relação ao 4T25, houve melhora de R$ 8 milhões, em função de ajustes contratuais 
+realizados no 4T25. 
+EBITDA Ajustado recorrente – Total de R$ 385 milhões (-2% vs 1T25), reﬂetindo principalmente os maiores custos do GLP e redução 
+de R$ 14 milhões de outros resultados operacionais. Na comparação com o 4T25, o EBITDA Ajustado recorrente diminuiu 19%, 
+reﬂetindo a sazonalidade típica entre os trimestres, com volumes menores, além dos custos maiores do GLP . 
+Investimentos – Foram investidos R$ 149 milhões no 1T26 (+73% vs 1T25), direcionados principalmente à expansão no segmento 
+granel e no biometano, aquisição e reposição de vasilhames, evolução da plataforma de tecnologia (destaque para troca de ERP) e 
+melhorias relacionadas à infraestrutura e segurança. 
+R$ milhões
+
+[p. 6]
+6 
+ 
+1T26 
+ 
+ULTRACARGO 
+Trimestre 
+1T26 1T25 4T25 1T26 x 1T25 1T26 x 4T25 
+Capacidade estática¹ (mil m³) 1.152 1.067 1.131 8% 2% 
+m³ faturado (mil m³) 4.459 4.024 4.074 11% 9% 
+Receita líquida 276 271 261 2% 6% 
+Custo dos serviços prestados (118) (103) (120) 15% -1% 
+Lucro bruto 158 167 141 -6% 12% 
+Margem bruta (%) 57% 62% 54% -4,6 p.p. 3,1 p.p. 
+Vendas, gerais e administrativas (42) (42) (38) 1% 11% 
+Resultado na venda de bens 0 0 (1) 165% -127% 
+Outros resultados operacionais 2 2 (3) -23% -159% 
+EBITDA Ajustado 165 166 144 0% 15% 
+Margem EBITDA Ajustado (%) 60% 61% 55% -1,5 p.p. 4,7 p.p. 
+Margem EBITDA (R$/m³ capacidade) 48 52 42 -8% 13% 
+Depreciação e amortização² 48 38 45 28% 8% 
+ 
+EBITDA LTM Ajustado 584 669 585 -13% 0% 
+Margem EBITDA LTM Ajustado (%) 57% 62% 57% -4,8 p.p. -0,4 p.p. 
+¹ Média mensal 
+² Inclui amortização de mais valia de coligadas 
+Desempenho operacional – A capacidade estática média cresceu 8% em relação ao 1T25, reﬂetindo a adição de 23 mil m³ em 
+Palmeirante, 22 mil m³ em Rondonópolis, 34 mil m³ em Santos e 10 mil m³ em Opla. O volume faturado cresceu 11% no período, 
+reﬂetindo um cenário de recuperação gradual da demanda por tancagem na importação de combustíveis, sustentado pela redução 
+das irregularidades no mercado, principalmente em Santos, além do efeito de ramp-up das novas capacidades instaladas. O 
+ambiente de paridade de importação com janelas abertas em janeiro e fevereiro favoreceu a movimentação de volumes, enquanto 
+março foi marcado por maior volatilidade no mercado internacional, impactando o ritmo das operações. Na comparação com o 4T25, 
+a capacidade estática cresceu 2% reﬂetindo a adição de 15 mil m³ em Rondonópolis e 10 mil m³ em Opla. O volume faturado cresceu 
+9%, reﬂetindo os mesmos fatores. 
+Receita líquida – Total de R$ 276 milhões (+2% vs 1T25), fruto do maior volume faturado, com destaque para as operações de Santos, 
+Opla e Rondonópolis, parcialmente compensado pelo mix menos favorável de vendas no período. Em relação ao 4T25, a receita 
+líquida aumentou 6%, principalmente pelo maior volume faturado. 
+Custo dos serviços prestados – Total de R$ 118 milhões (+15% vs 1T25), reﬂetindo maior volume movimentado e maiores despesas 
+com pessoal e depreciação em função da conclusão das expansões. Na comparação com o 4T25, houve redução de 1%. 
+Despesas gerais, administrativas e de vendas – Total de R$ 42 milhões, praticamente estáveis frente ao 1T25 (+1% vs 1T25). Em 
+relação ao 4T25, aumentaram 11%, reﬂetindo principalmente maiores despesas com pessoal devido a maior provisão de 
+remuneração variável – em linha com recuperação do resultado. 
+EBITDA Ajustado – Total de R$ 165 milhões, estável em relação ao 1T25, principalmente pelo maior volume movimentado, 
+parcialmente compensado por maiores custos e despesas associados com as expansões, em processo de ramp-up. Na comparação 
+com o 4T25, houve aumento de 15%, reﬂetindo principalmente o maior volume movimentado e o ramp-up das expansões. 
+Investimentos – Foram investidos R$ 86 milhões no 1T26 (-24% vs 1T25), direcionados principalmente aos projetos de expansão de 
+capacidade, especialmente Itaqui e Suape. 
+ 
+ 
+R$ milhões
+
+[p. 7]
+7 
+ 
+1T26 
+ 
+HIDROVIAS DO BRASIL 
+Trimestre 
+1T26 1T25 4T25 1T26 x 1T25 1T26 x 4T25 
+Volume total (mil ton) 3.202 4.161 3.593 -23% -11% 
+Receita líquida 445 541 507 -18% -12% 
+ Receita operacional líquida 445 555 509 -20% -13% 
+ Hedge accounting - (14) (2) -100% -100% 
+Custo dos serviços prestados (243) (251) (278) -3% -13% 
+Depreciação e amortização (custo) (85) (89) (85) -4% 0% 
+Lucro bruto 117 202 144 -42% -19% 
+Margem bruta (%) 26% 37% 28% -11 p.p. -2 p.p. 
+Gerais e administrativas (38) (54) (89) -30% -57% 
+Depreciação e amortização (despesas) (7) (9) (7) -27% -4% 
+Resultado na venda de bens 9 (34) (148) -126% -106% 
+Outras receitas (despesas) 18 7 (58) 149% -131% 
+EBITDA Ajustado 194 221 (66) -12% n/a 
+Margem EBITDA Ajustado (%) 44% 40% -13% 4 p.p. 57 p.p. 
+Não recorrentes¹ (12) 36 226 -132% -105% 
+EBITDA Ajustado recorrente 182 256 160 -29% 14% 
+ Operações continuadas 182 235 147 -23% 24% 
+ Operações descontinuadas - 21 13 n/a n/a 
+Margem EBITDA Ajustado recorrente (%) 41% 47% 32% -6 p.p. 9 p.p. 
+Depreciação e amortização 92 98 92 -6% 0% 
+ 
+EBITDA LTM Ajustado recorrente 1.050 668 1.125 57% -7% 
+Margem EBITDA LTM Ajustado recorrente (%) 45% 38% 46% 7 p.p. -1 p.p. 
+¹ Itens não recorrentes referentes ao 4T25 estão descritos na tabela de cálculo do EBITDA – página 2. Em relação aos períodos comparativos, os itens não recorrentes 
+podem ser consultados diretamente no Earnings Release no website da empresa. Central de Resultados - Hidrovias RI 
+ 
+A tabela acima apresenta os resultados completos da Hidrovias desde janeiro de 2025, conforme divulgado pela própria empresa em seu site de 
+Relações com Investidores. Os dados foram mantidos conforme originalmente publicados, reﬂetindo os resultados trimestrais integrais. 
+ 
+Desempenho operacional – O volume total movimentado no 1T26 foi de 3.202 mil toneladas (-23% vs 1T25), reﬂetindo 
+principalmente desaﬁos pontuais de carregamento no Corredor Norte, em função de entraves na via transportuária e a venda da 
+operação de Navegação Costeira que se deu em novembro de 2025. Apesar do pior regime hídrico no Sul, os volumes ﬁcaram estáveis 
+em função das dragagens e derrocagens realizadas ao longo do ano passado, com realização de maior número de viagens. 
+Considerando as operações continuadas, o volume movimentado reduziu 6% em relação ao 1T25. Na comparação com o 4T25, houve 
+queda de 11%, reﬂetindo o efeito da venda da Navegação Costeira, os desaﬁos pontuais do Corredor Norte e menor demanda em 
+Santos pela sazonalidade usual do negócio, parcialmente compensados pelo maior volume movimentado no Corredor Sul, também 
+em linha com a sazonalidade. 
+Receita líquida ( ex-hedge accounting ) – Total de R$ 445 milhões, (-20% vs 1T25), reﬂetindo principalmente o menor volume 
+movimentado nas operações do Brasil, especialmente no Corredor Norte, além do efeito da conclusão da venda da operação de 
+Navegação Costeira. Considerando as operações continuadas, a receita líquida teve queda de 8% no período. Na comparação com 
+o 4T25, houve redução de 13%, reﬂetindo os mesmos efeitos acima mencionados. 
+Custo dos serviços prestados – Total de R$ 243 milhões (-3% vs 1T25 e -13% vs 4T25), principalmente reﬂetindo a menor base em 
+função da venda da operação de Navegação Costeira, parcialmente compensada por maiores custos associados a iniciativas para 
+mitigação dos desaﬁos operacionais observados ao longo do trimestre, além dos efeitos relacionados ao maior número de viagens 
+no Corredor Sul. 
+Despesas gerais e administrativas – Total de R$ 38 milhões (-30% vs 1T25 e -57% vs 4T25), reﬂetindo os efeitos da venda da operação 
+de Navegação Costeira e menores provisões para contingências. 
+EBITDA Ajustado recorrente – Total de R$ 182 milhões (-29% vs 1T25) reﬂetindo os desaﬁos pontuais de recepção de cargas no 
+Corredor Norte e de navegabilidade no Corredor Sul, além da venda da operação de Navegação Costeira, efeitos parcialmente 
+compensados por menores despesas gerais e administrativas. Considerando as operações continuadas, o EBITDA Ajustado 
+recorrente reduziu 23% no período. Em relação ao 4T25, houve crescimento de 14%, reﬂetindo principalmente as menores despesas. 
+Investimentos – Foram investidos R$ 37 milhões no 1T26, sendo R$ 18 milhões direcionados para sustentação e R$ 19 milhões para 
+expansão, principalmente para o projeto do transbordador ﬂutuante e cábrea, que contribuirá para aumento de capacidade modular 
+no Corredor Norte. 
+ 
+R$ milhões
+
+[p. 8]
+8 
+ 
+1T26 
+ 
+ULTRAPAR – Endividamento Trimestre 
+1T26 1T25 4T25 
+Caixa e aplicações financeiras¹ 9.053 5.994 9.408 
+Dívida bruta¹ (19.428) (13.556) (20.093) 
+Arrendamentos a pagar (1.694) (1.482) (1.740) 
+Instrumentos financeiros derivativos¹ (205) - 276 
+Dívida líquida (12.275) (9.044) (12.148) 
+EBITDA LTM Ajustado² 8.029 5.370 7.267 
+Dívida líquida/EBITDA LTM Ajustado² 1,5x 1,7x 1,7x 
+Fornecedores convênio (risco sacado) (1.150) (1.167) (4) 
+Passivo financeiro de clientes (vendor) (55) (151) (74) 
+Dívida líquida + risco sacado + vendor + recebíveis (13.479) (10.362) (12.227) 
+Prazo médio de amortização da dívida bruta (anos) 3,1 3,3 3,2 
+Custo médio da dívida bruta 108% DI 110% DI 107% DI 
+DI +1,1% DI +1,3% DI +0,9% 
+Rendimento médio do caixa (% DI) ³ 97% 100% 97% 
+ 
+¹ Desde o 2T25, a linha de “Caixa e aplicações financeiras” e a “Dívida bruta” deixaram de apresentar o saldo de “Instrumentos derivativos”. Para mais informações, 
+consulte nota explicativa 26 das demonstrações financeiras da Ultrapar 
+² EBITDA LTM Ajustado não inclui créditos fiscais extraordinários. Com a consolidação da Hidrovias, o EBITDA LTM Ajustado do 1T26 e do 4T25 incluí o efeito do EBITDA 
+Ajustado da Hidrovias dos últimos 12 meses (excluindo os efeitos do impairment e resultado da navegação costeira) e exclui os efeitos da equivalência patrimonial 
+registrados na Ultrapar 
+³ Desconsidera os recursos aplicados no exterior para proteção de dívida 
+ 
+A Ultrapar encerrou o 1T26 com dívida líquida de R$ 12.275 milhões (1,5x EBITDA LTM Ajustado), comparado com R$ 12.148 milhões 
+registrados no 4T25 (1,7x EBITDA LTM Ajustado). O aumento do endividamento líquido reﬂetiu, principalmente, o forte investimento 
+em capital de giro na Ipiranga, parcialmente compensado pela contratação de operações de fornecedores convênio (risco sacado). 
+A redução da alavancagem, por sua vez, decorreu do crescimento do EBITDA LTM Ajustado no período. 
+Considerando os efeitos das operações de fornecedores convênio (risco sacado) e vendor, a dívida líquida ajustada totalizou 
+R$ 13.479 milhões no 1T26, com a alavancagem mantendo-se estável em relação ao 4T25, em 1,7x. A contratação dessas operações 
+no trimestre esteve associada, principalmente aos aumentos relevantes dos preços dos combustíveis após o início da Guerra do Irã 
+e do maior patamar de importações para manutenção do abastecimento do mercado doméstico, em um contexto de maior 
+instabilidade e volatilidade no mercado internacional. 
+ 
+Caixa e perﬁl de amortização e composição por moeda da dívida bruta (R$ milhões): 
+ 
+ 
+ 
+R$ milhões 
+Moeda nacional 
+Moeda estrangeira 
+Com hedge 
+Sem hedge
+
+[p. 9]
+9 
+ 
+1T26 
+ 
+ 
+Atualizações sobre temas de sustentabilidade 
+O Grupo Ultra e seus negócios seguiram avançando de forma consistente em sua agenda de sustentabilidade, reforçando a 
+integração entre estratégia, governança e geração de valor de longo prazo. Em março, publicamos o Relatório de Sustentabilidade 
+2025, que apresenta a atualização do Plano de Sustentabilidade 2030, os resultados do estudo de dupla materialidade e os principais 
+avanços nos pilares econômico, ambiental, social e de governança. O relatório demonstra a evolução da governança corporativa e a 
+consolidação do Modelo Ultra de Gestão, reforçando a visão de longo prazo da holding e a geração de valor para clientes, acionistas, 
+colaboradores e demais parceiros. 
+A Ipiranga avançou no fortalecimento da cultura de integridade, com o lançamento de um treinamento estruturado para mais de 53 
+mil VIPs (Vendedores Ipiranga de Pista), com orientações práticas aplicáveis à rotina dos postos e alinhadas aos valores do Grupo. A 
+companhia também concluiu mais um ciclo do Diagnóstico de Cultura de Segurança, baseado na metodologia Hearts & Minds , 
+alcançando o Nível Proativo, o que reﬂete a antecipação de riscos e a consolidação da segurança como valor integrado à estratégia 
+do negócio. 
+A Iconic implementou uma solução de inovação sustentável no setor de lubriﬁcantes, com o uso de embalagens de polipropileno 
+contendo 40% de resina oriunda de óleo de cozinha usado, a partir de reciclagem química certiﬁcada pelo ISCC Plus. A iniciativa alia 
+inovação tecnológica, escala industrial e impacto ambiental mensurável. 
+A Ultragaz, em parceria com a Natura, inaugurou uma solução inédita de biometano que integra indústria e logística, suprindo 45% 
+da energia da fábrica de Cajamar e 100% da frota dedicada. O projeto materializa princípios de economia circular, contribui para a 
+redução de emissões e reforça o protagonismo da empresa na descarbonização de suas operações. 
+A Ultracargo conquistou, pelo segundo ano consecutivo, o selo que a posiciona entre as 5% melhores empresas avaliadas 
+globalmente pela EcoVadis, com evolução de quatro pontos em relação ao ciclo anterior. O desempenho reﬂete avanços relevantes, 
+especialmente no pilar Compras Sustentáveis, voltado ao fortalecimento do relacionamento com fornecedores e parceiros. 
+A Hidrovias do Brasil reforçou sua agenda de governança ao aprofundar a cultura ética, com a atualização do Código de Ética, a 
+revisão de políticas corporativas e a ampliação dos treinamentos de integridade para todos os colaboradores, fortalecendo os 
+padrões de conduta e o alinhamento às diretrizes do Grupo Ultra.
+
+[p. 10]
+10 
+ 
+1T26 
+ 
+ULTRAPAR - Mercado de capitais Trimestre 
+1T26 1T25 4T25 
+Quantidade final de ações (mil) 1.115.850 1.115.507 1.115.850 
+Valor de mercado¹ (R$ milhões) 32.047 19.086 23.321 
+B3 
+Volume médio/dia (mil ações) 6.504 6.688 7.412 
+Volume financeiro médio/dia (R$ mil) 166.217 111.021 159.386 
+Cotação média (R$/ação) 25,56 16,60 21,50 
+NYSE 
+Quantidade de ADRs² (mil ADRs) 70.253 66.273 70.253 
+Volume médio/dia (mil ADRs) 2.399 1.694 1.989 
+Volume financeiro médio/dia (US$ mil) 11.872 4.961 7.885 
+Cotação média (US$/ADR) 4,95 2,93 3,97 
+Total 
+Volume médio/dia (mil ações) 8.903 8.382 9.401 
+Volume financeiro médio/dia (R$ mil) 228.416 139.841 201.847 
+ 
+ ¹ Calculado a partir do preço de fechamento da ação no período 
+ ² 1 ADR = 1 ação ordinária 
+O volume ﬁnanceiro médio negociado das ações da Ultrapar, considerando B3 e NYSE, foi de R$ 228 milhões por dia no 1T26 (+63% 
+vs 1T25). As ações da Ultrapar encerraram o 1T26 cotadas a R$ 28,72 na B3, valorização de 37% no trimestre, enquanto o índice 
+Ibovespa avançou 16% no mesmo período. Na NYSE, as ações da Ultrapar apresentaram valorização de 46%, enquanto o índice 
+Dow Jones registrou queda de 4% no trimestre. Ao ﬁnal do 1T26, a Ultrapar alcançou o valor de mercado de aproximadamente R$ 
+32 bilhões. 
+ 
+Evolução UGPA3 x Ibovespa 
+(Base 100) 
+ 
+ 
+ 
+Teleconferência 1T26 
+A Ultrapar realizará a teleconferência com analistas e investidores no dia 7 de maio de 2026 para comentários sobre o desempenho 
+da Companhia no primeiro trimestre de 2026. A apresentação estará disponível para download no website da Companhia 30 minutos 
+antes de seu início. 
+A teleconferência será transmitida via Zoom e realizada em português com tradução simultânea para inglês. Favor conectar-se com 
+10 minutos de antecedência. 
+ 
+Teleconferência em português com tradução simultânea para inglês 
+Horário: 11h00 (BRT) / 10h00 (EDT) 
+ 
+Link de acesso via Zoom 
+Participantes do Brasil e internacionais: clique aqui. 
+Fonte: Broadcast
+
+[p. 11]
+11 
+ 
+1T26 
+ 
+ULTRAPAR - Balanço Patrimonial Mar 26 
+ 
+Mar 25 
+ 
+Dez 25 
+ 
+ATIVO 
+Caixa e equivalentes de caixa 3.861 1.436 3.175 
+Aplicações financeiras e outros ativos financeiros 3.298 1.301 3.852 
+Instrumentos derivativos¹ 475 - 127 
+Contas a receber de clientes e financiamentos a clientes 4.758 4.065 4.277 
+Contas a receber - venda de controladas - - - 
+Estoques 4.546 4.135 4.244 
+Tributos a recuperar 2.182 2.130 2.003 
+Contratos futuros de comercialização de energia 332 349 371 
+Despesas antecipadas 233 202 165 
+Ativos de contratos com clientes - direitos de exclusividade 656 646 666 
+Outros 454 309 295 
+Ativos mantidos para venda - - - 
+Total ativo circulante 20.796 14.574 19.176 
+Aplicações financeiras e outros ativos financeiros 1.894 3.256 2.382 
+Instrumentos derivativos¹ 567 - 773 
+Contas a receber de clientes e financiamentos a clientes 779 741 834 
+Imposto de renda e contribuição social diferidos 1.039 869 1.007 
+Tributos a recuperar 3.873 2.763 4.064 
+Contratos futuros de comercialização de energia 800 382 724 
+Depósitos judiciais 491 402 472 
+Despesas antecipadas 83 43 81 
+Ativos de contratos com clientes - direitos de exclusividade 1.503 1.456 1.519 
+Sociedades relacionadas 55 52 105 
+Outros 275 224 278 
+Investimentos em controladas, controladas em conjunto e coligadas 654 2.025 521 
+Ativos de direito de uso, líquido 1.902 1.644 1.929 
+Imobilizado, líquido 12.085 7.251 12.167 
+Intangível, líquido 3.421 2.074 3.316 
+Total ativo não circulante 29.422 23.180 30.173 
+Total ativo 50.217 37.755 49.349 
+PASSIVO 
+Fornecedores 3.313 2.367 4.643 
+Fornecedores convênio 1.150 1.167 4 
+Empréstimos, financiamentos e debêntures 4.360 2.582 4.251 
+Instrumentos derivativos¹ 819 - 246 
+Salários e encargos sociais 462 371 577 
+Impostos a pagar 749 329 596 
+Arrendamentos a pagar 308 319 344 
+Contratos futuros de comercialização de energia 255 285 303 
+Passivo financeiro de clientes (vendor) 47 102 63 
+Dividendos a pagar 26 48 23 
+Outros 989 729 797 
+Passivos mantidos para venda - - - 
+Total passivo circulante 12.479 8.299 11.847 
+Empréstimos, financiamentos e debêntures 15.068 10.973 15.842 
+Instrumentos derivativos¹ 591 - 335 
+Contratos futuros de comercialização de energia 449 147 431 
+Provisões para riscos tributários, cíveis e trabalhistas 475 602 485 
+Benefícios pós-emprego 197 203 197 
+Arrendamentos a pagar 1.386 1.163 1.396 
+Passivo financeiro de clientes (vendor) 8 49 11 
+Outros 1.054 427 1.074 
+Total passivo não circulante 19.228 13.565 19.771 
+Total passivo 31.707 21.864 31.618 
+PATRIMÔNIO LÍQUIDO 
+Capital social 7.987 6.622 7.987 
+Reservas 8.283 8.604 8.283 
+Ações em tesouraria (821) (711) (823) 
+Outros 1.022 681 219 
+Participação dos não-controladores 2.039 695 2.064 
+Total patrimônio líquido 18.510 15.890 17.731 
+Total passivo e patrimônio líquido 50.217 37.755 49.349 
+ 
+Caixa e aplicações financeiras 1 9.053 5.994 9.408 
+Dívida bruta 1 (19.428) (13.556) (20.093) 
+Instrumentos derivativos financeiras 1 (205) - 276 
+Arrendamentos a pagar (1.694) (1.482) (1.740) 
+Dívida líquida (12.275) (9.044) (12.148) 
+¹ Desde o 2T25, a linha de “Caixa e aplicações ﬁnanceiras” e a “Dívida bruta” deixou de apresentar o saldo de “Instrumentos derivativos” 
+R$ milhões
+
+[p. 12]
+12 
+ 
+1T26 
+ 
+ULTRAPAR - Demonstração do resultado 1T26 1T25 4T25 Op. 
+Continuadas 
+ Op. 
+Descontinuada 
+Receita líquida de vendas e serviços 36.752 33.329 37.973 37.951 21 
+Custos dos produtos vendidos e dos serviços prestados (33.578) (31.188) (35.372) (35.359) (13) 
+Lucro bruto 3.174 2.142 2.600 2.592 8 
+Receitas (despesas) operacionais 
+Com vendas e comerciais (664) (602) (664) (664) - 
+Gerais e administrativas (656) (518) (622) (622) 1 
+Resultado na venda de bens 0 5 (100) 66 (165) 
+Outros resultados operacionais, líquidos (23) (87) (131) (132) 2 
+Lucro operacional 1.832 941 1.084 1.239 (154) 
+Resultado financeiro 
+Receitas financeiras 979 177 387 386 1 
+Despesas financeiras (1.377) (357) (943) (941) (1) 
+Equivalência patrimonial 
+Participação nos lucros de coligadas, controladas e 
+empreendimentos controlados em conjunto (20) (149) 
+(40) (40) - 
+Amortização de mais valia de coligadas (0) (0) (0) (0) - 
+Ganho (perda) na obtenção de controle de coligada - - - - - 
+Lucro antes do imposto de renda e contribuição social 1.412 611 488 643 (155) 
+ Imposto de renda e contribuição social 
+Corrente (492) (164) (329) (331) 2 
+Diferido (6) (83) 96 127 (30) 
+Lucro líquido 914 363 256 439 (183) 
+Lucro atribuível a: 
+ Acionistas da Ultrapar 876 333 323 323 - 
+ Acionistas não controladores de controladas 39 30 (68) (68) - 
+ 
+EBITDA Ajustado 2.324 1.188 1.562 1.715 (152) 
+Não recorrentes¹ (4) (5) 182 (44) 226 
+EBITDA Ajustado recorrente 2.320 1.183 1.745 1.671 74 
+Depreciação e amortização² 582 406 563 563 - 
+Investimentos totais³ 558 416 826 826 - 
+MTM de contratos futuros (69) (9) (46) (46) - 
+Cash flow hedge - - 2 - 2 
+ 
+INDICADORES 
+Lucro por ação (R$) 0,82 0,30 0,30 
+Dívida líquida / EBITDA LTM Ajustado4 1,5x 1,7x 1,7x 
+Margem bruta (%) 8,6% 6,4% 6,8% 
+Margem operacional (%) 5,0% 2,8% 2,9% 
+Margem EBITDA Ajustado (%) 6,3% 3,6% 4,1% 
+Margem EBITDA Ajustado recorrente (%) 6,3% 3,5% 4,6% 
+Número de funcionários 11.481 9.209 11.302 
+ 
+¹ Itens não recorrentes descritos na tabela de cálculo do EBITDA – página 2 
+² Inclui amortização de ativos de contratos com clientes – direitos de exclusividade e amortização de mais valia de coligadas 
+³ Inclui imobilizações e adições ao intangível (líquidas de desinvestimentos), ativos de contratos com clientes (direito de exclusividade), custos diretos iniciais de ativos 
+de direito de uso, aportes realizados nas SPEs (Sociedade de Propósito Especíﬁco), pagamentos de outorga, liberações de ﬁnanciamentos a clientes, antecipações de 
+aluguel (líquidos de recebimentos), aquisições de participações acionárias e contraprestação de arrendamentos a pagar 
+4 EBITDA LTM Ajustado não inclui ajustes de fechamento com a venda da Extrafarma e créditos ﬁscais extraordinários 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ milhões
+
+[p. 13]
+13 
+ 
+1T26 
+ 
+ 
+ 
+ULTRAPAR - Demonstração dos fluxos de caixa Trimestre 
+1T26 1T25 
+Fluxos de caixa das atividades operacionais 
+Lucro líquido 914 363 
+Ajustes para reconciliar o lucro líquido ao caixa gerado (consumido) pelas atividades operacionais 
+Participação nos lucros de coligadas, controladas e controladas em conjunto e amortização de mais valia de coligadas 21 149 
+Amortização de ativos de contratos com clientes - direitos de exclusividade 147 105 
+Amortização de ativos de direito de uso 88 78 
+Depreciações e amortizações 350 226 
+Juros, variações monetárias e cambiais 675 231 
+Imposto de renda e contribuição social correntes e diferidos 498 248 
+Resultado na venda ou baixa de bens e demais ativos (0) (16) 
+Instrumento patrimonial outorgado 20 15 
+Resultado do valor justo de contratos de energia (69) (9) 
+Provisão de descarbonização – CBios e créditos de carbono 57 116 
+Provisões para riscos tributários, cíveis e trabalhistas 3 4 
+Demais provisões e ajustes 23 (2) 
+Fluxos de caixa das atividades operacionais antes das movimentações no capital de giro 2.725 1.511 
+(Aumento) diminuição nos ativos 
+Contas a receber e financiamentos a clientes (455) 21 
+Estoques (297) (216) 
+Impostos a recuperar 47 295 
+Dividendos recebidos de controladas, coligadas e controladas em conjunto 0 1 
+Outros ativos (239) (17) 
+Aumento (diminuição) nos passivos 
+Fornecedores e fornecedores convênio (188) (998) 
+Salários e encargos sociais (115) (110) 
+Obrigações tributárias 10 17 
+Imposto de renda e contribuição social a pagar (217) (305) 
+Outros passivos 177 50 
+ 
+Aquisição de CBios e créditos de carbono (81) (153) 
+Pagamentos de ativos de contratos com clientes - direitos de exclusividade (116) (58) 
+Pagamentos de contingências (19) (9) 
+Imposto de renda e contribuição social pagos (131) (25) 
+Caixa líquido gerado (consumido) pelas atividades operacionais 1.103 3 
+Fluxos de caixa das atividades de investimentos 
+Aplicações financeiras, líquidas de resgates 1.093 1.244 
+Aquisição de imobilizado e intangível (368) (382) 
+Venda de investimentos e outros ativos 4 14 
+Redução de capital em controladas, coligadas e controladas em conjunto (150) - 
+Aquisição de investimentos e outros ativos (152) (50) 
+Caixa adquirido em combinação de negócios 0 - 
+Sociedades relacionadas 31 (3) 
+Caixa líquido gerado (consumido) pelas atividades de investimentos 458 824 
+Fluxos de caixa das atividades de financiamentos 
+Empréstimos, financiamentos e debêntures 
+Captação 1.108 1.682 
+Amortização (1.194) (2.077) 
+Juros e derivativos (pagos) ou recebidos (557) (337) 
+Pagamentos de arrendamentos (145) (87) 
+Dividendos pagos (2) (488) 
+Pagamentos de passivo financeiro de clientes (21) (35) 
+Aumento de capital realizado por acionistas não controladores e resgate de cotas 13 - 
+Recompra de ações para tesouraria - (97) 
+Caixa líquido gerado (consumido) pelas atividades de ﬁnanciamentos (798) (1.439) 
+Variação cambial de caixa e equivalentes de caixa em moeda estrangeira (77) (23) 
+Aumento (diminuição) em caixa e equivalentes de caixa 685 (636) 
+ 
+Caixa e equivalentes de caixa no início do período 3.175 2.072 
+ 
+Caixa e equivalentes de caixa no ﬁm do período 3.861 1.436 
+ 
+ 
+ 
+Transações sem efeito caixa 
+Adições em ativos de direito de uso e arrendamentos a pagar 72 77 
+Aumento de capital em coligadas através de Mútuo 28 
+Adições em ativos de contratos com clientes - direitos de exclusividade 6 17 
+Aquisições de imobilizado e intangível sem efeito caixa 2 - 
+Recompra de ações - 17 
+R$ milhões
+
+[p. 14]
+14 
+ 
+1T26 
+A partir do 1T25, o conceito de capital operacional foi ajustado para reﬂetir todos os saldos dos ativos e passivos operacionais na 
+visão da administração, incluindo principalmente os saldos de imposto de renda corrente e diferido. 
+IPIRANGA - Capital operacional Mar 26 Mar 25 Dez 25 
+ 
+Ativo operacional 
+Contas a receber de clientes e ﬁnanciamento à clientes 4.603 4.087 4.290 
+Estoques 4.188 3.926 3.883 
+Tributos a recuperar 5.195 4.192 5.261 
+Imposto de renda e contribuição social a recuperar 379 369 379 
+Depósitos judiciais 343 329 327 
+Imposto de renda e contribuição social diferidos 688 593 591 
+Outros 610 537 441 
+Ativos de contratos com clientes - direitos de exclusividade 2.160 2.102 2.185 
+Direitos de uso (arrendamento) 807 884 827 
+Investimentos 115 141 103 
+Imobilizado 3.427 3.302 3.429 
+Intangível 1.409 1.191 1.278 
+Total ativo operacional 23.924 21.653 22.993 
+Passivo operacional 
+Fornecedores e fornecedor convênio 3.916 3.198 4.069 
+Salários e encargos sociais 223 195 286 
+Benefícios pós-emprego 215 221 211 
+Obrigações tributárias 147 126 135 
+Imposto de renda e contribuição social a pagar 431 93 212 
+Imposto de renda e contribuição social diferidos 5 2 4 
+Provisões para riscos tributários, cíveis e trabalhistas 350 416 341 
+Arrendamento a pagar 682 730 692 
+Passivo ﬁnanceiro de clientes (vendor) 55 151 74 
+Provisão para crédito de descarbonização 56 96 (0) 
+Outros 841 605 682 
+Total passivo operacional 6.922 5.833 6.706 
+ 
+ 
+ Número de postos 5.826 5.847 5.805 
+ Número de funcionários 4.653 4.130 4.499 
+R$ milhões
+
+[p. 15]
+15 
+ 
+1T26 
+ 
+A partir do 1T25, o conceito de capital operacional foi ajustado para reﬂetir todos os saldos dos ativos e passivos operacionais 
+na visão da administração, incluindo principalmente os saldos de imposto de renda corrente e diferido. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ULTRAGAZ - Capital operacional Mar 26 Mar 25 Dez 25 
+ 
+Ativo operacional 
+Contas a receber de clientes 723 678 673 
+Estoques 207 195 204 
+Tributos a recuperar 131 220 126 
+Imposto de renda e contribuição social a recuperar 26 32 27 
+Depósitos judiciais 47 48 47 
+Imposto de renda e contribuição social diferidos 100 80 128 
+Outros 121 157 91 
+Direitos de uso (arrendamento) 179 147 187 
+Investimentos 4 5 4 
+Imobilizado 1.713 1.575 1.667 
+Intangível 292 327 275 
+Total ativo operacional 3.543 3.464 3.428 
+Passivo operacional 
+Fornecedores 306 245 280 
+Salários e encargos sociais 118 111 126 
+Obrigações tributárias 31 24 21 
+Imposto de renda e contribuição social a pagar 35 35 95 
+Imposto de renda e contribuição social diferidos 143 117 119 
+Provisões para riscos tributários, cíveis e trabalhistas 16 16 16 
+Arrendamento a pagar 216 184 223 
+Outros 125 199 130 
+Total passivo operacional 990 932 1.011 
+ 
+ 
+ Número de funcionários 3.692 3.736 3.694 
+ULTRACARGO - Capital operacional Mar 26 Mar 25 Dez 25 
+ 
+Ativo operacional 
+Contas a receber de clientes 62 44 49 
+Estoques 14 14 13 
+Tributos a recuperar 0 2 2 
+Imposto de renda e contribuição social a recuperar 35 49 34 
+Depósitos judiciais 10 9 9 
+Imposto de renda e contribuição social diferidos 25 36 34 
+Outros 26 38 25 
+Direitos de uso (arrendamento) 621 606 621 
+Investimentos 239 217 239 
+Imobilizado 2.606 2.296 2.596 
+Intangível 286 283 286 
+Total ativo operacional 3.924 3.592 3.907 
+Passivo operacional 
+Fornecedores 59 71 104 
+Salários e encargos sociais 32 34 42 
+Obrigações tributárias 16 15 16 
+Imposto de renda e contribuição social a pagar 10 33 14 
+Imposto de renda e contribuição social diferidos 2 (0) (0) 
+Provisões para riscos tributários, cíveis e trabalhistas 11 28 12 
+Arrendamento a pagar 540 560 571 
+Outros 93 23 24 
+Total passivo operacional 763 765 782 
+ 
+ 
+ Número de funcionários 874 846 859 
+R$ milhões 
+R$ milhões
+
+[p. 16]
+16 
+ 
+1T26 
+Os saldos da Hidrovias consideram os efeitos da combinação de negócios, incluindo os valores de mais e menos valia de ativos e 
+passivos, e dessa forma diferem das peças divulgadas pela Hidrovias ao mercado. 
+ 
+ 
+HIDROVIAS - Capital operacional Mar 26 Dez 25 
+Ativo operacional 
+Contas a receber de clientes 149 101 
+Estoques 137 144 
+Tributos a recuperar 10 10 
+Imposto de renda e contribuição social a recuperar 212 187 
+Depósitos judiciais 76 73 
+Imposto de renda e contribuição social diferidos 77 74 
+Outros 224 217 
+Direito de uso (arrendamento) 290 289 
+Investimentos 132 136 
+Imobilizado 4.203 4.341 
+Intangível 1.159 1.201 
+Total ativo operacional 6.667 6.772 
+Passivo operacional 
+Fornecedores 140 140 
+Salários e encargos sociais 51 75 
+Obrigações tributárias 50 64 
+Imposto de renda e contribuição social a pagar 23 31 
+Imposto de renda e contribuição social diferidos 515 515 
+Provisões para riscos tributários, cíveis e trabalhistas 9 33 
+Arrendamento a pagar 250 247 
+Outros 146 243 
+Total passivo operacional 1.185 1.347 
+ 
+ 
+ Número de funcionários 1.711 1.732 
+ 
+R$ milhões
+
+[p. 17]
+1 
+ 
+ 1Q26 Earnings Release
+ 
+São Paulo, May 6, 2026 – Ultrapar Participações S.A. (B3: UGPA3 / NYSE: (UGP, “Company” or “Ultrapar”), operating in 
+energy, mobility, and logistics infrastructure through Ultragaz, Ipiranga, Ultracargo and Hidrovias do Brasil (B3: HBSA3), 
+today announces its results for the first quarter of 2026. 
+ 
+ 
+Net revenue Adjusted EBITDA1 Recurring Adjusted 
+EBITDA1 
+R$ 36.8 
+billion 
+R$ 2.3 
+billion 
+R$ 2.3 
+billion 
+ 
+Net income Cash generation from operations Investments 
+R$ 914 
+million 
+R$ 1.1 
+billion 
+R$ 558 
+million 
+ 
+¹ Accounting adjustments and non-recurring items described in the EBITDA calculation table – page 2 
+ 
+Highlights 
+ Continuity of Ultrapar’s good operating results 
+- Strong recurring adjusted EBITDA results, driven by Ipiranga and consolidation of Hidrovias 
+- Operating cash generation of R$ 1.1 billion, reﬂecting solid business results and higher draft discount 
+for suppliers transactions, despite the higher working capital investments 
+- Financial strength, with leverage reduction for 1.5x, reﬂecting the strong cash generation and higher 
+draft discount for suppliers. Including the e Ưect of draft discount for suppliers, leverage would have 
+been 1.7x, same level as December 2025 
+ 
+ Fuel market supply 
+- Investment of R$ 2.0 billion in working capital at Ipiranga due to higher import volumes in a scenario 
+of elevated volatility and higher international prices, ensuring the supply of our service station network 
+and consumers 
+ 
+ Advances in the growth, productivity and value creation agenda 
+- Completion of the expansion in Rondonópolis, adding 15 thousand m³ of capacity at Ultracargo from 
+January 2026 
+- Completion of the expansion in Opla , adding 10 thousand m³ of capacity at Ultracargo from February 
+2026 
+ 
+ Advances in the institutional agenda 
+- Publication of the persistent debtor regulation by the Federal Revenue Service 
+- Conversion of the “Gás do Povo” into law, strengthening the sector’s safety and regulatory framework 
+ 
+ Publication of the 2025 Sustainability Report in March, with the disclosure of the new 2030 sustainability plan, 
+more aligned with the most relevant issues for the growth and longevity of our businesses and the strategy of long-
+term value generation of Ultrapar
+
+[p. 18]
+2 
+ 
+ 1Q26 Earnings Release
+ 
+Considerations on the ﬁnancial and operational information 
+The ﬁnancial information presented on this document was extracted from the interim ﬁnancial information (“Quarterly Information”) for the period 
+ended on March 31, 2026, and prepared in accordance with the pronouncement CPC 21 (R1) - Interim Financial Reporting and the International 
+Accounting Standard IAS 34, issued by the IASB, and presented in accordance with the applicable rules for Quarterly Information, issued by the 
+Brazilian Securities and Exchange Commission (“CVM”). 
+Information on Ipiranga, Ultragaz, Ultracargo, and Hidrovias is presented without the elimination of intersegment transactions. Therefore, the sum of 
+such information may not correspond to Ultrapar’s consolidated information. Additionally, the ﬁnancial and operational information is subject to 
+rounding and, consequently, the total amounts presented in the tables and charts may di Ưer from the direct numerical sum of the amounts that 
+preceded them. 
+Information denominated EBIT (Earnings Before Interest and Taxes on Income and Social Contribution on Net Income), EBITDA (Earnings Before 
+Interest, Taxes on Income and Social Contribution on Net Income, Depreciation and Amortization); Adjusted EBITDA and Recurring Adjusted EBITDA 
+are presented in accordance with Resolution 156, issued by the CVM in June 2022. 
+Adjusted EBITDA considers adjustments from usual business transactions that impact the results but do not have potential cash generation, such as 
+the amortization of contractual assets with customers, amortization of fair value adjustments and capital loss of associates, and the mark-to-market 
+of energy future contracts. Regarding recurring Adjusted EBITDA, the Company excludes exceptional or non-recurring items, providing a more accurate 
+and consistent view of its operational performance, avoiding distortions caused by exceptional events, whether positive or negative. The calculation of 
+EBITDA from net income is detailed in the table below. 
+In May 2025, the Company became the controlling shareholder of Hidrovias, as per the Material Fact disclosed to the market, consolidating its results 
+as of that date. From that moment, Hidrovias’ results began to be incorporated into Ultrapar’s EBITDA, while the period prior to the acquisition of control 
+remained recorded using the equity method. As announced, Hidrovias completed the sale of its coastal navigation operation in November 2025; 
+therefore, the 4Q25 results only reﬂect one month of this operation, as the balances had been presented as a discontinued operation since 1Q25. 
+ 
+ULTRAPAR Quarter 
+ 1Q26 1Q25 4Q25 
+Net Income 914 363 256 
+(+) Income and social contribution taxes 498 248 232 
+(+) Net ﬁnancial (income) expenses 398 180 556 
+(+) Depreciation and amortization¹ 435 300 432 
+EBITDA 2,246 1,091 1,476 
+Accounting adjustment 
+(+) Amortization of contractual assets with customers – exclusive and 
+amortization of fair value adjustments on associates’ acquisition 147 106 131 
+(+) MTM of energy futures contracts (69) (9) (46) 
+(+/-) Hedge accounting - - 2 
+Adjusted EBITDA 2,324 1,188 1,562 
+Ipiranga 1,657 832 1,161 
+Ultragaz 385 393 423 
+Ultracargo 165 166 144 
+Hidrovias² 194 (139) (66) 
+Holding and other companies 
+ Holding (56) (54) (58) 
+ Other companies (21) (10) (42) 
+Non-recurring items that aƯected EBITDA 
+(-) Results from disposal of assets (Ipiranga) 8 (5) (95) 
+(-) Earn-out Stella/ impairment (Ultragaz) - - 51 
+(-) Assets write-oƯ and customer indemniﬁcations (Hidrovias) (12) - 226 
+Recurring adjusted EBITDA 2,320 1,183 1,745 
+Ipiranga 1,665 826 1,066 
+Ultragaz 385 393 474 
+Ultracargo 165 166 144 
+Hidrovias² 182 (139) 160 
+Holding and other companies 
+ Holding (56) (54) (58) 
+ Other companies (21) (10) (42) 
+1 Does not include amortization of contractual assets with customers – exclusive rights 
+² 1Q25 ﬁgures refer to the share of proﬁt (loss) of subsidiaries, joint ventures and associates in Hidrovias 
+ 
+R$ million
+
+[p. 19]
+3 
+ 
+1Q26 
+ 
+ 
+ULTRAPAR 
+Quarter 
+1Q26 1Q25 4Q25 1Q26 x 1Q25 1Q26 x 4Q25 
+Net revenue 36,752 33,329 37,973 10% -3% 
+Cost of products sold (33,578) (31,188) (35,372) 8% -5% 
+Gross proﬁt 3,174 2,142 2,600 48% 22% 
+Selling, general and administrative (1,320) (1,120) (1,286) 18% 3% 
+Results from disposal of assets 0 5 (100) -91% -100% 
+Other operating income (expenses), net (23) (87) (131) -73% -82% 
+Adjusted EBITDA 2,324 1,188 1,562 96% 49% 
+Recurring Adjusted EBITDA¹ 2,320 1,183 1,745 96% 33% 
+Depreciation and amortization² (582) (406) (563) 43% 3% 
+Financial Results (398) (180) (556) 121% -28% 
+Net income 914 363 256 152% n/a 
+Investments 558 416 826 34% -38% 
+Cash ﬂow from operating activities 1,103 3 2,382 n/a -54% 
+¹ Non-recurring items described in the EBITDA calculation table – page 2 
+² Includes amortization of contractual assets with customers – exclusive rights and amortization of fair value adjustments on associates acquisition 
+ 
+Net revenues – Total of R$ 36,752 million (+10% vs 1Q25), mainly reﬂecting higher revenues of Ipiranga and the e Ưect of the 
+consolidation of Hidrovias, which accounted as share of equity income in 1Q25. Compared to 4Q25, there was a 3% decrease, mainly 
+due to the lower revenues of Ipiranga. 
+Recurring adjusted EBITDA – Total of R$ 2,320 million (+96% vs 1Q25), highlighting Ipiranga’s better results and the e Ưect of the 
+consolidation of Hidrovias’ result. Compared to 4Q25, recurring Adjusted EBITDA increased by 33%, mainly due to Ipiranga's better 
+results. 
+Results from the Holding and other companies – Negative result of R$ 77 million, comprising: (i) R$ 56 million in Holding expenses, 
+R$ 2 million higher than in 1Q25, and (ii) R$ 21 million in expenses from the other companies, mainly due to the negative result of R$ 
+14 million from Reﬁnaria Riograndense. 
+Depreciation and amortization – Total of R$ 582 million (+43% vs 1Q25), mainly reﬂecting the eƯect of the consolidation of Hidrovias 
+and higher amortization expenses of contractual assets at Ipiranga, driven by the increase in sales volumes. Compared to 4Q25, 
+depreciation and amortization expenses increased by 3%. 
+Financial result – Expenses of R$ 398 million (worsening of R$ 218 million vs 1Q25), mainly resulting from: (i) higher net debt due to 
+the consolidation of Hidrovias, (ii) lower positive mark-to-market impact (R$ 76 million in 1Q26 vs R$ 118 million in 1Q25) and 
+(iii) higher CDI rates. Compared to 4Q25, there was an improvement of R$ 158 million, mainly reﬂecting the negative one-oƯ mark-to-
+market eƯect of R$ 164 million in 4Q25. 
+Net income – Total of R$ 914 million (vs R$ 363 million in 1Q25), reﬂecting better operating results, partially o Ưset by higher 
+depreciation and amortization and ﬁnancial expenses, mainly due to the eƯect of the consolidation of Hidrovias. Compared to 4Q25, 
+net income increased by R$ 658 million, due to higher operating results and lower ﬁnancial expenses. 
+Cash ﬂow from operating activities – Operating cash ﬂow of R$ 1,103 million in 1Q26, compared to R$ 3 million in 1Q25, mainly 
+reﬂecting better operating results in the period, partially oƯset by higher working capital needs, particularly at Ipiranga and Hidrovias. 
+At Ipiranga, working capital investments in 1Q26 resulted from a signiﬁcant increase in fuel imports, with shorter-than-usual payment 
+terms, as well as higher receivables and inventory levels, amid a signiﬁcant increase in imports to ensure the supply of the Brazilian 
+market. These impacts were partially o Ưset by the contracting of R$ 1,146 million in draft discount for suppliers’ transactions. 
+Excluding this eƯect, there would have been a cash consumption of R$ 43 million in 1Q26. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ million
+
+[p. 20]
+4 
+ 
+1Q26 
+ 
+ 
+ 
+¹ Fuel oils, arla 32, kerosene, lubricants and greases; ² Non-recurring items described in the EBITDA calculation table – page 2 
+³ Includes amortization with contractual assets with customers – exclusive rights 
+ 
+Operational performance – The total volume sold increased by 8% compared to 1Q25, with an increase of 9% in diesel and 7% in the 
+Otto cycle, reﬂecting the continued gradual market recovery following the reduction of irregularities in the sector, as well as higher 
+import volumes in order to maintain supply of our service network and consumers. Compared to 4Q25, sales volume decreased by 
+7%, in line with the typical seasonality between the periods. 
+Net revenue – Total of R$ 33,110 million (+10% vs 1Q25), mainly reﬂecting higher sales volume and the pass-through of a signiﬁcant 
+increase in fuel acquisition costs, particularly diesel, in a context of a higher share of imported products to meet our client’s demand. 
+Compared to 4Q25, net revenue decreased by 3%, due to lower sales volume, partially o Ưset by the pass-through of fuel cost 
+increases. 
+Cost of goods sold – Total of R$ 30,812 million (+7% vs 1Q25), due to higher sales volume and higher fuel costs, partially o Ưset by 
+lower growth in convenience store operating costs. Compared to 4Q25, there was a 5% decrease, mainly due to lower sales volume, 
+partially oƯset by higher fuel costs. 
+Selling, general and administrative expenses – Total of R$ 885 million (+16 % vs 1Q25), mainly due to higher allowance for expected 
+credit losses and higher legal and marketing expenses, in addition to higher personnel expenses (collective bargaining agreement and 
+variable compensation, in line with the progression of results). Compared to 4Q25, there was a 11 % increase, reﬂecting mainly the 
+higher allowance for expected credit losses and higher personnel expenses – higher provision for variable compensation in line with 
+the progression of results. 
+Result from disposal of assets – Negative result totaling R$ 8 million (vs R$ 5 million in 1Q25 and R$ 95 million in 4Q25), reﬂecting 
+lower sale of real estate and one-oƯ eƯect of R$ 9 million asset write-oƯs. 
+Other operating results – Expenses of R$ 43 million (vs R$ 105 million in 1Q25 and R$ 65 million in 4Q25), mainly due to lower 
+expenses with decarbonization credits, given the lower price level in the period. 
+Recurring Adjusted EBITDA – Total of R$ 1,665 million (+101 % vs 1Q25), reﬂecting (i) the gradual improvement in a fairer competitive 
+environment with advances in combating irregularities, (ii) higher sales volume and (iii) inventory gains from imported fuels, given the 
+signiﬁcant increases in prices during the period. This performance was supported by eƯicient supply management and strong working 
+capital investments, which enabled the import of fuels even amid volatility and elevated international prices, ensuring market supply. 
+Compared to 4Q25, there was a 56% increase, driven by the continued progress in combating irregularities, partially o Ưset by lower 
+volumes and higher expenses. 
+Investments – R$ 282 million was invested (+33 % vs 1Q25), allocated to the expansion and maintenance of its service stations and 
+franchises network, in addition to investments towards enhancing the technology platform, focusing on the replacement of the ERP 
+system, scheduled to be concluded in 2027. Of the total invested, R$ 140 million refers to additions to ﬁxed and intangible assets and 
+R$ 143 million to contractual assets with customers (exclusive rights). 
+IPIRANGA 
+Quarter 
+1Q26 1Q25 4Q25 1Q26 x 1Q25 1Q26 x 4Q25 
+Total volume (‘000 m³) 6,021 5,578 6,443 8% -7% 
+Diesel 3,026 2,775 3,162 9% -4% 
+Otto cycle 2,890 2,699 3,171 7% -9% 
+Others¹ 105 104 109 2% -4% 
+Net revenues 33,110 30,234 34,128 10% -3% 
+Cost of products sold and service provided (30,812) (28,806) (32,489) 7% -5% 
+Gross proﬁt 2,298 1,429 1,639 61% 40% 
+Gross margin (R$/m³) 382 256 254 49% 50% 
+Selling, general and administrative (885) (762) (799) 16% 11% 
+Results from disposal of assets (8) 5 95 n/a -108% 
+Other operating income (expenses), net (43) (105) (65) -59% -33% 
+Adjusted EBITDA 1,657 832 1,161 99% 43% 
+Adjusted EBITDA margin (R$/m³) 275 149 180 84% 53% 
+Non-recurring² 8 (5) (95) n/a -108% 
+Recurring Adjusted EBITDA 1,665 826 1,066 101% 56% 
+Recurring Adjusted EBITDA margin (R$/m³) 276 148 165 87% 67% 
+Depreciation and amortization³ 298 266 287 12% 4% 
+ 
+Recurring Adjusted LTM EBITDA 4,300 3,387 3,462 27% 24% 
+Recurring Adjusted LTM EBITDA margin (R$/m³) 176 144 145 23% 22% 
+ 
+R$ million
+
+[p. 21]
+5 
+ 
+1Q26 
+ 
+ULTRAGAZ 
+Quarter 
+1Q26 1Q25 4Q25 1Q26 x 1Q25 1Q26 x 4Q25 
+Total volume (‘000 ton) 405 406 426 0% -5% 
+Bottled 259 257 280 1% -8% 
+Bulk 146 149 146 -2% 0% 
+Net revenues 2,965 2,863 3,115 4% -5% 
+Cost of products sold (2,358) (2,328) (2,432) 1% -3% 
+Gross proﬁt 607 536 683 13% -11% 
+Selling, general and administrative (260) (248) (274) 5% -5% 
+Results from disposal of assets (0) (0) (46) 98% -99% 
+Other operating income (expenses), net 2 16 (6) -84% -142% 
+Operating income 349 303 357 15% -2% 
+MTM of energy futures contracts (69) (9) (46) n/a 49% 
+Adjusted EBITDA¹ 385 393 423 -2% -9% 
+Adjusted EBITDA margin (R$/ton) 950 967 992 -2% -4% 
+Non-recurring² - - 51 n/a n/a 
+Recurring Adjusted EBITDA 385 393 474 -2% -19% 
+Recurring Adjusted EBITDA margin (R$/ton) 950 967 1,112 -2% -15% 
+Depreciation and amortization 104 98 113 6% -8% 
+ 
+Recurring Adjusted LTM EBITDA 1,764 1,679 1,772 5% 0% 
+Recurring Adjusted LTM EBITDA margin (R$/ton) 1,032 959 1,036 8% 0% 
+¹ Includes contribution from the result of new energies 
+ ² Non-recurring items described in the EBITDA calculation table – page 2 
+ 
+Operational performance – The volume of LPG sold totaled 405 thousand tons in 1Q26, stable compared to 1Q25, with a 1 % increase 
+in the bottled segment and a 2 % decrease in the bulk segment, reﬂecting lower demand in the industry segment. Compared to 4Q25, 
+the volume was 5% lower, in line with the typical seasonality between the periods. 
+Net revenues – Total of R$ 2,965 million (+4% vs 1Q25), reﬂecting the pass-through of inﬂation and the increased costs of LPG, in 
+addition to higher contribution of the new energy segment, partially o Ưset by the lower volume in the bulk segment. Compared to 
+4Q25, revenues decreased by 5%, mainly due to lower sales volume. 
+Cost of goods sold – Total of R$ 2,358 million (+1 % vs 1Q25), mainly due to LPG higher cost resulting from the auctions held during 
+the period, increase in ICMS, and higher costs related to the new energies segment, which were partially oƯset by the mark-to-market 
+eƯect of energy futures contracts. Compared to 4Q25, COGS decreased by 3%, due to lower sales volume and the mark-to-market 
+eƯect of energy futures contracts, partially oƯset by higher LPG costs and increase in ICMS rate. 
+Selling, general and administrative expenses – Total of R$ 260 million (+5% vs 1Q25), due to higher spending on services related to 
+new energies and freight expenses. Compared to 4Q25, expenses decreased by 5%, reﬂecting lower spending on services and 
+marketing campaigns. 
+Result from disposal of assets – No relevant eƯects in 1Q26 and 1Q25. In 4Q25, there was a negative result of R$ 46 million, due to 
+the write-oƯ of the investment goodwill (impairment) of Stella, reﬂecting the expected results. 
+Other operating results – Total of R$ 2 million (vs R$ 16 million in 1Q25), mainly due to the reversal of the earn-out from the acquisition 
+of Stella in 1Q25. Compared to 4Q25, there was an increase of R$ 8 million due to contractual adjustments carried out in 4Q25. 
+Recurring Adjusted EBITDA – Total of R$ 385 million (-2 % vs 1Q25), mainly reﬂecting higher LPG costs and reduction of R$ 14 million 
+in the other operating results. Compared to 4Q25, recurring Adjusted EBITDA decreased by 19%, reﬂecting the typical seasonality 
+between the periods, with lower volumes, in addition to higher LPG costs. 
+Investments – R$ 149 million was invested in 1Q26 (+73% vs 1Q25), mainly directed towards the expansion of bulk segment and 
+biomethane, acquisition and replacement of bottles, evolution of the technology platform (focusing on the ERP replacement), and 
+improvements related to infrastructure and safety. 
+ 
+R$ million
+
+[p. 22]
+6 
+ 
+1Q26 
+ 
+¹ Monthly average 
+² Includes amortization of fair value adjustments on associates acquisition 
+Operational performance – The average installed capacity increased by 8% compared to 1Q25, with the addition of 23 thousand m³ 
+in Palmeirante, 22 thousand m³ in Rondonópolis, 34 thousand m³ in Santos, and 10 thousand m³ in Opla. The m 3 sold increased by 
+11% in the period, reﬂecting a scenario of gradual recovery in demand for storage in fuel imports, supported by the reduction of market 
+irregularities, particularly in Santos, as well as the ramp-up e Ưect of newly installed capacities. The import parity environment with 
+open windows in January and February favored volume throughput, while March was marked by higher volatility in the international 
+market, impacting the pace of operations. Compared to 4Q25, installed capacity increased by 2%, reﬂecting the addition of 15 
+thousand m³ in Rondonópolis and 10 thousand m³ in Opla. The m3 sold increased by 9%, reﬂecting the same factors. 
+Net revenues – Total of R$ 276 million (+2% vs 1Q25), driven by higher m3 sold, highlighting Santos, Opla and Rondonópolis operations, 
+partially oƯset by a less favorable sales mix in the period. Compared to 4Q25, net revenues increased by 6%, mainly due to the higher 
+m3 sold. 
+Cost of services provided – Total of R$ 118 million (+15% vs 1Q25), reﬂecting higher m 3 sold and higher personnel and depreciation 
+costs following the completion of expansions projects. Compared to 4Q25, there was a 1% decrease. 
+Selling, general and administrative expenses – Total of R$ 42 million, practically stable compared to 1Q25 (+1% vs 1Q25). Compared 
+to 4Q25, expenses increased by 11%, mainly reﬂecting higher personnel expenses due to a higher variable compensation provisions 
+– in line with the recovery in results. 
+Adjusted EBITDA – Total of R$ 165 million, stable compared to 1Q25, mainly due to the higher volume handled, partially o Ưset by 
+higher costs and expenses associated with the expansions currently in ramp-up. Compared to 4Q25, there was a 15% increase, mainly 
+reﬂecting the higher volume handled and the ramp-up of the expansions. 
+Investments – R$ 86 million was invested in 1Q26 (-24% vs 1Q25), mainly allocated to capacity expansion projects, especially Itaqui 
+and Suape. 
+ 
+ 
+ULTRACARGO 
+Quarter 
+1Q26 1Q25 4Q25 1Q26 x 1Q25 1Q26 x 4Q25 
+Installed capacity¹ (‘000 m³) 1,152 1,067 1,131 8% 2% 
+m³ sold (‘000 m³) 4,459 4,024 4,074 11% 9% 
+Net revenues 276 271 261 2% 6% 
+Cost of service provided (118) (103) (120) 15% -1% 
+Gross profit 158 167 141 -6% 12% 
+Gross margin (%) 57% 62% 54% -4.6 p.p. 3.1 p.p. 
+Selling, general and administrative (42) (42) (38) 1% 11% 
+Results from disposal of assets 0 0 (1) 165% -127% 
+Other operating income (expenses), net 2 2 (3) -23% -159% 
+Adjusted EBITDA 165 166 144 0% 15% 
+Adjusted EBITDA margin (%) 60% 61% 55% -1.5 p.p. 4.7 p.p. 
+Adjusted EBITDA margin (R$/m³ capacity) 48 52 42 -8% 13% 
+Depreciation and amortization² 48 38 45 28% 8% 
+ 
+Adjusted LTM EBITDA 584 669 585 -13% 0% 
+Adjusted LTM EBITDA margin (%) 57% 62% 57% -4.8 p.p. -0.4 p.p. 
+R$ million
+
+[p. 23]
+7 
+ 
+1Q26 
+ 
+HIDROVIAS DO BRASIL 
+Quarter 
+1Q26 1Q25 4Q25 1Q26 x 1Q25 1Q26 x 4Q25 
+Total volume (thousand ton) 3,202 4,161 3,593 -23% -11% 
+Net Revenue 445 541 507 -18% -12% 
+ Net operating revenue 445 555 509 -20% -13% 
+ Hedge accounting - (14) (2) -100% -100% 
+Operating costs (243) (251) (278) -3% -13% 
+Depreciation and amortization (costs) (85) (89) (85) -4% 0% 
+Gross proﬁt 117 202 144 -42% -19% 
+Gross margin (%) 26% 37% 28% -11 p.p. -2 p.p. 
+General and administrative (38) (54) (89) -30% -57% 
+Depreciation and amortization (expenses) (7) (9) (7) -27% -4% 
+Results from disposal of assets 9 (34) (148) -126% -106% 
+Other operating income (expenses), net 18 7 (58) 149% -131% 
+Adjusted EBITDA 194 221 (66) -12% n/a 
+Adjusted EBITDA margin (%) 44% 40% -13% 4 p.p. 57 p.p. 
+Non-recurring¹ (12) 36 226 -132% -105% 
+Recurring Adjusted EBITDA 182 256 160 -29% 14% 
+ Continuing operations 182 235 147 -23% 24% 
+ Discontinued operations - 21 13 n/a n/a 
+Recurring adjusted EBITDA margin (%) 41% 47% 32% -6 p.p. 9 p.p. 
+Depreciation and amortization 92 98 92 -6% 0% 
+ 
+Recurring Adjusted LTM EBITDA 1,050 668 1,125 57% -7% 
+Recurring Adjusted LTM EBITDA margin (%) 45% 38% 46% 7 p.p. -1 p.p. 
+¹ Non-recurring items for 4Q25 are described in the EBITDA calculation table – page 2. Regarding the comparative periods, non-recurring items can be consulted directly in 
+the Earnings Release, on the company’s website. Results Center - Hidrovias IR 
+ 
+The table above presents Hidrovias’ full results since January 2025, as disclosed by the company on its Investor Relations website. The ﬁgures were 
+maintained as originally published, reﬂecting the complete quarterly results. 
+ 
+Operational performance – Total volume handled in 1Q26 was 3,202 thousand tons, (-23% vs 1Q25), mainly reﬂecting one-oƯ loading 
+challenges in the Northern Corridor due to challenges on the transport route, as well as the sale of the Coastal Navigation operation 
+in November 2025. Despite the worse hydrological conditions in the South, volumes remained stable supported by the dredging and 
+rock removal works carried out throughout last year, which enabled a higher number of trips. Considering continuing operations, 
+volume handled decreased by 6% compared to 1Q25. Compared to 4Q25, volume decreased by 11%, reﬂecting the sale of the Coastal 
+Navigation operation, the one-oƯ challenges in the North Corridor, and the lower demand in Santos due to the usual seasonality of the 
+business, partially oƯset by higher volumes handled in the Southern Corridor, also in line with the seasonality. 
+Net revenue (ex-hedge accounting) – Total of R$ 445 million, (-20% vs 1Q25), mainly reﬂecting lower volumes handled in operations 
+in Brazil, especially in the Northern Corridor, as well as the e Ưect of the completion of the sale of the Coastal Navigation operation. 
+Considering continuing operations, net revenue decreased by 8% in the period. Compared to 4Q25, there was a 13% decrease, 
+reﬂecting the same eƯects mentioned above. 
+Cost of services provided – Total of R$ 243 million (-3% vs 1Q25 and -13% vs 4Q25), mainly reﬂecting the lower cost base resulting 
+from the sale of the Coastal Navigation operation, partially oƯset by higher costs associated with initiatives to mitigate the operational 
+challenges observed during the period, in addition to the eƯects related to the higher number of trips in the Southern Corridor. 
+General and administrative expenses – Total of R$ 38 million (-30% vs 1Q25 and -57% vs 4Q25), due to the eƯects of the sale of the 
+Coastal Navigation operation and lower contingency provisions. 
+Recurring Adjusted EBITDA – Total of R$ 182 million (-29% vs 1Q25) reﬂecting one-o Ư cargo intake challenges in the North Corridor 
+and navigability issues in the South Corridor, as well as the sale of the Coastal Navigation operation, eƯects partially oƯset by a lower 
+general and administrative expenses. Considering continuing operations, recurring Adjusted EBITDA decreased by 23% during the 
+period. Compared to 4Q25, there was a 14% increase, primarily reﬂecting lower expenses. 
+Investments – R$ 37 million was invested in 1Q26, of which R$ 18 million was allocated to sustaining and R$ 19 million to expansion, 
+mainly to the ﬂoating tipper station and ﬂoating crane, which will contribute to increased modular capacity in the North Corridor. 
+ 
+ 
+R$ million
+
+[p. 24]
+8 
+ 
+1Q26 
+ 
+ULTRAPAR – Indebtedness Quarter 
+1Q26 1Q25 4Q25 
+Cash and cash equivalents¹ 9,053 5,994 9,408 
+Gross debt¹ (19,428) (13,556) (20,093) 
+Leases payable (1,694) (1,482) (1,740) 
+Derivative financial instruments¹ (205) - 276 
+Net debt (12,275) (9,044) (12,148) 
+Adjusted LTM EBITDA² 8,029 5,370 7,267 
+Net debt/Adjusted LTM EBITDA² 1.5x 1.7x 1.7x 
+Draft discount for suppliers (1,150) (1,167) (4) 
+Financial liabilities of customers (vendor) (55) (151) (74) 
+Net debt + draft discount + vendor+ receivables (13,479) (10,362) (12,227) 
+Average gross debt duration (years) 3.1 3.3 3.2 
+Average cost of gross debt 108% DI 110% DI 107% DI 
+DI +1.1% DI +1.3% DI +0.9% 
+Average cash yield (% DI)³ 97% 100% 97% 
+¹ Since 2Q25, the “Cash and cash equivalents” and “Gross debt” lines no longer present the balance of “Derivative ﬁnancial instruments” . For further information, please 
+see note 26 of Ultrapar’s ﬁnancial statements 
+² Adjusted LTM EBITDA does not include extraordinary tax credits. With the consolidation of Hidrovias, Adjusted LTM EBITDA for 1Q26 and 4Q25 includes the e Ưect of 
+Hidrovias’ Adjusted EBITDA for the last 12 months (excluding the e Ưects of impairment and result of coastal navigation) and excludes the e Ưects of share of proﬁt (loss) of 
+subsidiaries, joint ventures and associates recorded at Ultrapar 
+³ Disregards funds invested abroad for debt protection 
+Ultrapar ended 1Q26 with net debt of R$ 12,275 million (1.5x Adjusted LTM EBITDA), compared to R$ 12,148 million (1.7x Adjusted LTM 
+EBITDA) recorded in 4Q25. The increase in net indebtedness mainly reﬂected the higher working capital investment at Ipiranga, 
+partially oƯset by the contracting of draft discount for suppliers transactions. The reduction in leverage, in turn, resulted from the 
+growth in Adjusted LTM EBITDA during the period. 
+Considering the eƯects of draft discount for suppliers and vendor transactions, adjusted net debt totaled R$ 13,479 million in 1Q26, 
+with leverage remaining stable compared to 4Q25 at 1.7x. The contracting of these transactions in the quarter was mainly associated 
+with the signiﬁcant increase in fuel prices following the outbreak of the Iran War as well as a higher level of imports to ensure market 
+supply amid increased instability and volatility in the international market. 
+ 
+Cash and maturity proﬁle and breakdown of the gross debt (R$ million): 
+ 
+ 
+ 
+ 
+R$ million 
+Local currency 
+nacional 
+Foreign currency 
+Hedge 
+Non hedge
+
+[p. 25]
+9 
+ 
+1Q26 
+ Updates on sustainability themes 
+The Ultra Group and its companies continued to make consistent progress on their sustainability agenda, reinforcing the integration 
+between strategy, governance, and long-term value creation. In March, we published the 2025 Sustainability Report, which presents 
+the updated 2030 Sustainability Plan, the results of the double materiality assessment, and main advances across the economic, 
+environmental, social, and governance pillars. The report highlights the evolution of corporate governance and the consolidation of 
+the Ultra Management Model, reinforcing the holding company’s long-term vision and value creation for customers, shareholders, 
+employees and other stakeholders. 
+Ipiranga advanced in strengthening its culture of integrity, with the launch of a structured training program for more than 53,000 VIPs 
+(Vendedores Ipiranga de Pista ), providing practical guidelines applicable to daily routine of service stations and aligned with the 
+Group's values. The company also completed another cycle of its Safety Culture Diagnosis, based on the Hearts & Minds methodology, 
+achieving the Proactive Level, reﬂecting risk anticipation and the consolidation of safety as a value integrated into the business 
+strategy. 
+Iconic implemented a sustainable innovation solution in the lubricants sector, using polypropylene packaging containing 40% resin 
+derived from used cooking oil through chemical recycling certiﬁed by ISCC Plus. The initiative combines technological innovation, 
+industrial scale, and measurable environmental impact. 
+Ultragaz, in partnership with Natura, launched a pioneering biomethane solution that integrates industry and logistics, supplying 45% 
+of the energy demand of the Cajamar plant and 100% of the dedicated ﬂeet. The project embodies circular economy principles, 
+contributes to emissions reduction, and reinforces the company's leading role in decarbonizing its operations. 
+Ultracargo earned, for the second consecutive year, a distinction placing it among the top 5% of companies globally rated by EcoVadis, 
+improving by four points its score in comparison to the previous cycle. This result reﬂects signiﬁcant progress, especially in the 
+Sustainable Procurement pillar, which focuses on strengthening relationships with suppliers and partners. 
+Hidrovias do Brasil strengthened its governance agenda by deepening its ethical culture, through the update of its Code of Ethics, the 
+review of corporate policies, and the expansion of integrity training for all employees, reinforcing standards of conduct and alignment 
+with the Ultra Group guidelines.
+
+[p. 26]
+10 
+ 
+1Q26 
+ 
+ 
+ULTRAPAR – Capital markets Quarter 
+1Q26 1Q25 4Q25 
+Final number of shares (‘000 shares) 1,115,850 1,115,507 1,115,850 
+Market cap¹ (R$ million) 32,047 19,086 23,321 
+B3 
+Average daily trading volume (‘000 shares) 6,504 6,688 7,412 
+Average daily financial volume (R$ thousand) 166,217 111,021 159,386 
+Average share price (R$/share) 25.56 16.60 21.50 
+NYSE 
+Quantity of ADRs² (‘000 ADRs) 70,253 66,273 70,253 
+Average daily trading volume (‘000 ADRs) 2,399 1,694 1,989 
+Average daily financial volume (US$ thousand) 11,872 4,961 7,885 
+Average share (US$/ADRs) 4.95 2.93 3.97 
+Total 
+Average daily trading volume (‘000 shares) 8,903 8,382 9,401 
+Average daily financial volume (R$ thousand) 228,416 139,841 201,847 
+ ¹ Calculated on the closing share price for the period 
+ ² 1 ADR = 1 common share 
+The average daily trading volume of Ultrapar’s shares, considering B3 and NYSE, was R$ 228 million/day in 1Q26 (+63% vs 1Q25). 
+Ultrapar’s shares closed 1Q26 at R$ 28.72 on B3, up 37% in the quarter, while Ibovespa index appreciated by 16% in the same period. 
+On the NYSE, Ultrapar’s shares rose 46%, while the Dow Jones index decreased by 4% in the quarter. At the end of 1Q26, Ultrapar 
+reached a market cap of approximately R$ 32 billion. 
+UGPA3 x Ibovespa performance 
+(Base 100) 
+ 
+ 
+ 
+1Q26 Conference call 
+Ultrapar will host a conference call with analysts and investors on May 7, 2026 to comment on the Company’s performance in the ﬁrst 
+quarter of 2026. The presentation will be available for download on the Company’s website 30 minutes prior to the start. 
+The conference call will be broadcast via zoom and conducted in Portuguese with simultaneous translation into English. Please 
+connect 10 minutes in advance. 
+ 
+Conference call in Portuguese with simultaneous translation into English 
+Time: 11:00 (BRT) / 10:00 (EDT) 
+ 
+Access link via Zoom 
+Participants in Brazil and international: click here 
+Source: Broadcast
+
+[p. 27]
+11 
+ 
+1Q26 
+ 
+ULTRAPAR – Balance sheet Mar 26 
+ 
+Mar 25 
+ 
+Dec 25 
+ 
+ASSETS 
+Cash and cash equivalents 3,861 1,436 3,175 
+Financial investments and other ﬁnancial assets 3,298 1,301 3,852 
+Derivative instruments¹ 475 - 127 
+Trade receivables and reseller ﬁnancing 4,758 4,065 4,277 
+Trade receivables - sale of subsidiaries - - - 
+Inventories 4,546 4,135 4,244 
+Recoverable taxes 2,182 2,130 2,003 
+Energy trading futures contracts 332 349 371 
+Prepaid expenses 233 202 165 
+Contractual assets with customers – exclusive rights 656 646 666 
+Others 454 309 295 
+Assets held for sale - - - 
+Total current assets 20,796 14,574 19,176 
+Financial investments and other ﬁnancial assets 1,894 3,256 2,382 
+Derivative instruments¹ 567 - 773 
+Trade receivables and reseller ﬁnancing 779 741 834 
+Deferred income and social contribution taxes 1,039 869 1,007 
+Recoverable taxes 3,873 2,763 4,064 
+Energy trading futures contracts 800 382 724 
+Escrow deposits 491 402 472 
+Prepaid expenses 83 43 81 
+Contractual assets with customers - exclusive rights 1,503 1,456 1,519 
+Related parties 55 52 105 
+Other receivables 275 224 278 
+Investments in subsidiaries, joint ventures and associates 654 2,025 521 
+Right-of-use assets 1,902 1,644 1,929 
+Property, plant and equipment 12,085 7,251 12,167 
+Intangible assets 3,421 2,074 3,316 
+Total non-current assets 29,422 23,180 30,173 
+Total assets 50,217 37,755 49,349 
+LIABILITIES 
+Trade payables 3,313 2,367 4,643 
+Trade payables - draft discount for suppliers 1,150 1,167 4 
+Loans, ﬁnancing and debentures 4,360 2,582 4,251 
+Derivative instruments¹ 819 - 246 
+Salaries and related charges 462 371 577 
+Taxes payable 749 329 596 
+Leases payable 308 319 344 
+Energy trading futures contracts 255 285 303 
+Financial liabilities of customers (vendor) 47 102 63 
+Dividends payable 26 48 23 
+Others 989 729 797 
+Liabilities held for sale - - - 
+Total current liabilities 12,479 8,299 11,847 
+Loans, ﬁnancing and debentures 15,068 10,973 15,842 
+Derivative instruments¹ 591 - 335 
+Energy trading futures contracts 449 147 431 
+Provision for tax, civil and labor risks 475 602 485 
+Post-employment beneﬁts 197 203 197 
+Leases payable 1,386 1,163 1,396 
+Financial liabilities of customers (vendor) 8 49 11 
+Others 1,054 427 1,074 
+Total non-current liabilities 19,228 13,565 19,771 
+Total liabilities 31,707 21,864 31,618 
+EQUITY 
+Share capital 7,987 6,622 7,987 
+Reserves 8,283 8,604 8,283 
+Treasury shares (821) (711) (823) 
+Others 1,022 681 219 
+Non-controlling interests 2,039 695 2,064 
+Total equity 18,510 15,890 17,731 
+Total liabilities and equity 50,217 37,755 49,349 
+ 
+Cash and cash equivalents¹ 9,053 5,994 9,408 
+Gross debt¹ (19,428) (13,556) (20,093) 
+Derivative ﬁnancial instruments¹ (205) - 276 
+Leases Payable (1,694) (1,482) (1,740) 
+Net debt (12,275) (9,044) (12,148) 
+¹ In 2Q25, the “cash and cash equivalent” and “gross debt” lines no longer included the balance of derivate instruments 
+R$ million
+
+[p. 28]
+12 
+ 
+1Q26 
+ 
+ 
+ULTRAPAR - Income statement 1Q26 1Q25 4Q25 Continued 
+Op. 
+ Discontinued 
+Op. 
+Net revenues from sales and services 36,752 33,329 37,973 37,951 21 
+Cost of products sold and services provided (33,578) (31,188) (35,372) (35,359) (13) 
+Gross proﬁt 3,174 2,142 2,600 2,592 8 
+Operating revenues (expenses) 
+ Selling and marketing (664) (602) (664) (664) - 
+ General and administrative (656) (518) (622) (622) 1 
+Results from disposal of assets 0 5 (100) 66 (165) 
+Other operating income (expenses), net (23) (87) (131) (132) 2 
+Operating income 1,832 941 1,084 1,239 (154) 
+Financial results 
+ Financial income 979 177 387 386 1 
+ Financial expenses (1,377) (357) (943) (941) (1) 
+Total share of proﬁt (loss) of subsidiaries, joint 
+ventures and associates 
+ 
+ Share of proﬁt (loss) of subsidiaries, joint ventures 
+and associates (20) (149) 
+(40) (40) - 
+ Amortization of fair value adjustments on 
+associates acquisition (0) (0) 
+(0) (0) - 
+ Gain (loss) on obtaining control of an aƯiliate - - - - - 
+Income before taxes and social contribution taxes 1,412 611 488 643 (155) 
+ Income and social contribution taxes 
+ Current (492) (164) (329) (331) 2 
+ Deferred (6) (83) 96 127 (30) 
+Net income 914 363 256 439 (183) 
+Net income attributable to: 
+ Shareholders of Ultrapar 876 333 323 323 - 
+ Non-controlling interests in subsidiaries 39 30 (68) (68) - 
+ 
+Adjusted EBITDA 2,324 1,188 1,562 1,715 (152) 
+ Non-recurring¹ (4) (5) 182 (44) 226 
+Recurring Adjusted EBITDA 2,320 1,183 1,745 1,671 74 
+Depreciation and amortization² 582 406 563 563 - 
+Total invesments³ 558 416 826 826 - 
+MTM of energy futures contracts (69) (9) (46) (46) - 
+Cash ﬂow hedge - - 2 - 2 
+ 
+Ratios 
+Earnings per share (R$) 0.82 0.30 0.30 
+Net debt / Adjusted LTM EBITDA4 1.5x 1.7x 1.7x 
+Gross margin (%) 8.6% 6.4% 6.8% 
+Operating margin (%) 5.0% 2.8% 2.9% 
+Adjusted EBITDA margin (%) 6.3% 3.6% 4.1% 
+ Recurring Adjusted EBITDA margin (%) 6.3% 3.5% 4.6% 
+Number of employees 11,481 9,209 11,302 
+ 
+¹ Non-recurring items described in the EBITDA calculation table – page 2 
+² Includes amortization of contractual assets with customers – exclusive rights and amortization of fair value adjustments on associates acquisition 
+³ Includes property, plant and equipment and additions to intangible assets (net of divestitures), contractual assets with customers (exclusive rights), initial direct costs of 
+assets with right of use, contributions made to SPEs (Speciﬁc Purpose Companies), payment of grants, ﬁnancing of clients, rental advances (net of receipts), acquisition of 
+shareholdings and payments of leases 
+4 Adjusted LTM EBITDA does not include closing adjustments from the sale of Extrafarma and extraordinary tax credits 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ million
+
+[p. 29]
+13 
+ 
+1Q26 
+ 
+ 
+ 
+ 
+ 
+ 
+ULTRAPAR – Cash flows Quarter 
+1Q26 1Q25 
+Cash ﬂows from operating activities 
+Net income 914 363 
+Adjustments to reconcile net income to cash provided (consumed) by operating activities 
+Share of proﬁt (loss) of subsidiaries, joint ventures and associates and amortization of fair value adjustments on associate s 
+acquisition 21 149 
+Amortization of contractual assets with customers - exclusive rights 147 105 
+Amortization of right-of-use assets 88 78 
+Depreciation and amortization 350 226 
+Interest and foreign exchange rate variations 675 231 
+Current and deferred income and social contribution taxes 498 248 
+Gain (loss) on disposal or write-oƯ of property, plant and equipment, intangible assets and other assets (0) (16) 
+Equity instrument granted 20 15 
+Fair value result of energy contracts (69) (9) 
+Provision for decarbonization - CBios 57 116 
+Provisions for tax, civil and labor risks 3 4 
+Other provisions and adjustments 23 (2) 
+Cash ﬂow from operating activities before changes in working capital 2,725 1,511 
+(Increase) decrease in assets 
+Trade receivables and reseller ﬁnancing (455) 21 
+Inventories (297) (216) 
+Recoverable taxes 47 295 
+Dividends received from subsidiaries, associates and joint ventures 0 1 
+Other assets (239) (17) 
+Increase (decrease) in liabilities 
+Trade payables and trade payables - draft discount for suppliers (188) (998) 
+Salaries and related charges (115) (110) 
+Taxes payable 10 17 
+Income and social contribution taxes payable (217) (305) 
+Other liabilities 177 50 
+ 
+Acquisition of CBios and carbon credits (81) (153) 
+Payments of contractual assets with customers - exclusive rights (116) (58) 
+Payment of contingencies (19) (9) 
+Income and social contribution taxes paid (131) (25) 
+Net cash generated (consumed) by operating activities 1,103 3 
+Cash flows from investing activities 
+Financial investments, net of redemptions 1,093 1,244 
+Acquisition of property, plant and equipment and intangible assets (368) (382) 
+Sale of investments and other assets 4 14 
+Capital increase and decrease in subsidiaries, associates and joint ventures (150) - 
+Acquisition of investments and other assets (152) (50) 
+Cash acquired in business combination 0 - 
+Related parties 31 (3) 
+Net cash provided (consumed) by investing activities 458 824 
+Cash ﬂows from ﬁnancing activities 
+Loans, ﬁnancing and debentures 
+Proceeds 1,108 1,682 
+Repayments (1,194) (2,077) 
+Interest and derivatives (paid) or received (557) (337) 
+Payments of leases (145) (87) 
+Dividends paid (2) (488) 
+Payments of ﬁnancial liabilities of customers (21) (35) 
+Capital increase made by non-controlling shareholders and redemption of shares 13 - 
+Share buyback for treasury - (97) 
+Net cash provided (consumed) by ﬁnancing activities (798) (1,439) 
+EƯect of exchange rate changes on cash and cash equivalents in foreign currency (77) (23) 
+Increase (decrease) in cash and cash equivalents 685 (636) 
+ 
+Cash and cash equivalents at the beginning of the period 3,175 2,072 
+ 
+Cash and cash equivalents at the end of the period 3,861 1,436 
+ 
+ 
+ 
+Non-cash transactions 
+Addition and remeasurement on right-of-use assets and leases payable 72 77 
+Capital increase in associates through loan 28 
+Addition on contractual assets with customers - exclusivity rights 6 17 
+Acquisition of property, plant and equipment and intangible assets without cash e Ưect 2 - 
+Share buyback - 17 
+R$ million
+
+[p. 30]
+14 
+ 
+1Q26 
+Starting from 1Q25, the concept of operating capital has been adjusted to reﬂect all balances of operational assets and liabilities 
+from management's perspective, including primarily the balances of current and deferred income tax. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IPIRANGA - Employed capital Mar 26 Mar 25 Dec 25 
+ 
+Operating assets 
+Trade receivables and reseller ﬁnancing 4,603 4,087 4,290 
+Inventories 4,188 3,926 3,883 
+Taxes 5,195 4,192 5,261 
+Recoverable income and social contribution taxes 379 369 379 
+Judicial deposits 343 329 327 
+Deferred income and social contribution taxes 688 593 591 
+Others 610 537 441 
+Contractual assets with customers - exclusive rights 2,160 2,102 2,185 
+Right-of-use assets (leases) 807 884 827 
+Investments 115 141 103 
+Property, plant and equipment 3,427 3,302 3,429 
+Intangible 1,409 1,191 1,278 
+Total operating assets 23,924 21,653 22,993 
+Operating liabilities 
+Trade payables and draft discount for suppliers 3,916 3,198 4,069 
+Salaries and related charges 223 195 286 
+Post-employment beneﬁts 215 221 211 
+Taxes 147 126 135 
+Income and social contribution taxes payable 431 93 212 
+Deferred income and social contribution taxes 5 2 4 
+Provisions for tax, civil, and labor risks 350 416 341 
+Leases payable 682 730 692 
+Financial liabilities of customers (vendor) 55 151 74 
+Provision for decarbonization credit 56 96 (0) 
+Others 841 605 682 
+Total operating liabilities 6,922 5,833 6,706 
+ 
+ 
+ Number of service stations 5,826 5,847 5,805 
+ Number of employees 4,653 4,130 4,499 
+R$ million
+
+[p. 31]
+15 
+ 
+1Q26 
+Starting from 1Q25, the concept of operating capital has been adjusted to reﬂect all balances of operational assets and liabilities 
+from management's perspective, including primarily the balances of current and deferred income tax. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ULTRAGAZ - Employed capital Mar 26 Mar 25 Dec 25 
+ 
+Operating Assets 
+Trade receivables 723 678 673 
+Inventories 207 195 204 
+Taxes 131 220 126 
+Recoverable income and social contribution taxes 26 32 27 
+Judicial deposits 47 48 47 
+Deferred income and social contribution taxes 100 80 128 
+Others 121 157 91 
+Right-of-use assets (leases) 179 147 187 
+Investments 4 5 4 
+Property, plant and equipment, net 1,713 1,575 1,667 
+Intangible assets, net 292 327 275 
+Total Operating Assets 3,543 3,464 3,428 
+Operating Liabilities 
+Trade payables 306 245 280 
+Salaries and related charges 118 111 126 
+Taxes 31 24 21 
+Income and social contribution taxes payable 35 35 95 
+Deferred income and social contribution taxes 143 117 119 
+Provisions for tax, civil, and labor risks 16 16 16 
+Leases payable 216 184 223 
+Others 125 199 130 
+Total Operating Liabilities 990 932 1,011 
+ 
+ 
+ Number of employees 3,692 3,736 3,694 
+ULTRACARGO - Employed capital Mar 26 Mar 25 Dec 25 
+ 
+Operating Assets 
+Trade receivables 62 44 49 
+Inventories 14 14 13 
+Taxes 0 2 2 
+Recoverable income and social contribution taxes 35 49 34 
+Judicial deposits 10 9 9 
+Deferred income and social contribution taxes 25 36 34 
+Others 26 38 25 
+Right-of-use assets (leases) 621 606 621 
+Investments 239 217 239 
+Property, plant and equipment, net 2,606 2,296 2,596 
+Intangible assets, net 286 283 286 
+Total Operating Assets 3,924 3,592 3,907 
+Operating Liabilities 
+Trade payables 59 71 104 
+Salaries and related charges 32 34 42 
+Taxes 16 15 16 
+Income and social contribution taxes payable 10 33 14 
+Deferred income and social contribution taxes 2 (0) (0) 
+Provisions for tax, civil, and labor risks 11 28 12 
+Leases payable 540 560 571 
+Others 93 23 24 
+Total Operating Liabilities 763 765 782 
+ 
+ 
+ Number of employees 874 846 859 
+R$ million 
+R$ million
+
+[p. 32]
+16 
+ 
+1Q26 
+The balances of Hidrovias consider the e Ưects of the business combination, including the fair value adjustments and capital loss of 
+assets and liabilities, and thus diƯer from the information disclosed by Hidrovias to the market. 
+ 
+HIDROVIAS - Employed capital Mar 26 Dec 25 
+Operating Assets 
+Trade receivables 149 101 
+Inventories 137 144 
+Taxes 10 10 
+Recoverable income and social contribution taxes 212 187 
+Judicial deposits 76 73 
+Deferred income and social contribution taxes 77 74 
+Others 224 217 
+Right-of-use assets (leases) 290 289 
+Investments 132 136 
+Property, plant and equipment, net 4,203 4,341 
+Intangible assets, net 1,159 1,201 
+Total Operating Assets 6,667 6,772 
+Operating Liabilities 
+Trade payables 140 140 
+Salaries and related charges 51 75 
+Taxes 50 64 
+Income and social contribution taxes payable 23 31 
+Deferred income and social contribution taxes 515 515 
+Provisions for tax, civil, and labor risks 9 33 
+Leases payable 250 247 
+Others 146 243 
+Total Operating Liabilities 1,185 1,347 
+ 
+ 
+ Number of employees 1,711 1,732 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+R$ million

@@ -1,0 +1,3587 @@
+[p. 1]
+1/44 
+ 
+ 
+Release de Resultados 1T26 
+ 
+ 
+Release de 
+Resultados 
+1T26
+
+[p. 2]
+2/44 
+ 
+ 
+Release de Resultados 1T26 
+RECEITA LÍQUIDA ATINGE R$ 4,9 BILH ÕES NO 1T26, 
+REFLETINDO O CRESCIMENTO DE VOLUME EM TODOS OS 
+NEGÓCIOS 
+ 
+ 
+Volume de vendas +12% YoY Celulose Fluff 
+Incremento do volume de vendas no período em 
+110 mil toneladas , suportado pela estabilidade 
+operacional e continuidade do ramp -up das 
+MP27 e MP28. 
+Comercialização de 111 mil toneladas de 
+celulose de fibra longa e fluff, contribuindo para 
+maior resiliência de receita e expansão das 
+margens ao longo do ciclo. 
+Papéis Containerboard Embalagens Papelão Ondulado 
+Aumento de 41% do volume vendido de 
+containerboard no mercado externo e 8% na 
+receita de papéis no 1T26 comparados ao 1T25, 
+dada estratégia de acesso a novos mercados e 
+rentabilização das máquinas. 
+Crescimento de 9% na receita líquida versus 
+1T25, evidenciando o crescimento do volume de 
+vendas anual acima do mercado brasileiro 
+(Empapel) e aumento de preços. 
+Alavancagem (US$) 3,3x Fitch Ratings Outlook Positivo 
+Alavancagem, em d ólar, finalizou o 1T26 em 
+3,3x, em linha com o trimestre anterior, 
+reforçando a otimização da estrutura de capital. 
+Reafirmação do rating “BB+” da Companhia com 
+revisão da perspectiva para positiva, o que de 
+acordo com a agência, reflet e a expectativa de 
+desalavancagem suportada por forte geração de 
+caixa. 
+Klabin 
+Valor de mercado 
+R$ 24 bilhões¹ 
+ 
+1KLBN11 em 
+31/03/2026 
+ 
+KLBN11 
+Preço de Fechamento 
+R$ 19,51/unit¹ 
+Volume médio de 
+negociação diária no 
+1T26 
+R$ 107 milhões 
+Teleconferência 
+ 
+07/05/2026 (5a feira) 
+11h00 (Brasília) 
+Link: Zoom 
+ 
+Canais de RI 
+ 
+http://ri.klabin.com.br 
+invest@klabin.com.br 
+ 
+ 
+Klabin Invest: 
+Vídeos e Podcasts
+
+[p. 3]
+3/44 
+ 
+ 
+Release de Resultados 1T26 
+Destaques Financeiros 
+ 
+ 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Volume de Vendas (mil t)¹ 1.016 1. 025 906 -1% 12%
+% Mercado Interno 51% 53% 53% - 2 p.p. - 2 p.p. 
+Celulose 401 404 345 -1% 16%
+Papéis 356 353 311 1% 15%
+Embalagens 258 269 250 -4% 3%
+Receita Líquida² 4.946 5.165 4.859 -4% 2%
+% Mercado Interno 65% 65% 62% + 0 p.p. + 3 p.p.
+Celulose 1.409 1.413 1.378 0% 2%
+Papéis 1.689 1.720 1.570 -2% 8%
+Embalagens 1.794 1.854 1.693 -3% 6%
+EBITDA Ajustado 1.669 1.832 1.859 -9% -10%
+Margem EBITDA Ajustada 34% 35% 38% - 1 p.p. - 4 p.p. 
+Lucro (prejuízo) Líquido (497) 168 446 n/a n/a
+Endividamento Líquido 24.041 25.902 30.482 -7% -21%
+Dívida Líquida/EBITDA (UDM - R$) 3,1x 3,3x 4,0x - 0,2x - 0,9x 
+Dívida Líquida/EBITDA (UDM - US$) 3,3x 3,3x 3,9x + 0,0x - 0,6x 
+Investimentos 839 1.024 605 -18% 39%
+Dólar Médio 5,26 5,40 5,85 -3% -10%
+Dólar Final 5,22 5,50 5,74 -5% -9%
+R$ milhões 1T26
+¹ Exclui madeira e vendas de subprodutos
+² Inclui vendas de madeira, subprodutos e hedge accounting
+4T25 1T25
+
+[p. 4]
+4/44 
+ 
+ 
+Release de Resultados 1T26 
+Sumário 
+Mensagem do Trimestre ...................................................................................................................... 5 
+Desempenho Operacional ................................................................................................................... 7 
+Paradas Programadas de Manutenção ................................................................................................. 7 
+Produção Líquida .................................................................................................................................. 8 
+Desempenho dos Negócios .................................................................................................................. 9 
+Florestal .......................................................................................................................................... 10 
+Celulose .......................................................................................................................................... 10 
+Papéis ............................................................................................................................................. 12 
+Embalagens .................................................................................................................................... 13 
+Desempenho Econômico-Financeiro ............................................................................................... 15 
+Receita líquida .................................................................................................................................... 15 
+Custo Caixa Total ............................................................................................................................... 16 
+EBITDA Ajustado ................................................................................................................................ 19 
+Efeito da variação dos ativos biológicos .............................................................................................. 21 
+Resultado Financeiro .......................................................................................................................... 22 
+Resultado Líquido ............................................................................................................................... 22 
+Investimentos (CAPEX) ...................................................................................................................... 23 
+Fluxo de Caixa Livre ........................................................................................................................... 24 
+ROIC - Return on Invested Capital (Retorno sobre o Capital Investido) .............................................. 25 
+Endividamento e Disponibilidades ...................................................................................................... 26 
+Hedge Accounting ............................................................................................................................... 28 
+Instrumentos Financeiros Derivativos ................................................................................................. 30 
+Mercado de Capitais .......................................................................................................................... 32 
+Renda Variável ................................................................................................................................... 32 
+Renda Fixa ......................................................................................................................................... 34 
+Rating ................................................................................................................................................. 35 
+Proventos ........................................................................................................................................... 36 
+Eventos Subsequentes ...................................................................................................................... 37 
+Teleconferência .................................................................................................................................. 38 
+Anexo 1 - Demonstração do Resultado Consolidado ...................................................................... 39 
+Anexo 2 – Balanço Patrimonial Consolidado ................................................................................... 40 
+Anexo 3 - Cronograma de amortização da Dívida (em 31/03/2026) ................................................ 41 
+Anexo 4 - Demonstração do Fluxo de Caixa Consolidado .............................................................. 43
+
+[p. 5]
+5/44 
+ 
+ 
+Release de Resultados 1T26 
+DO TRIMESTRE 
+ 
+ 
+No primeiro trimestre de 2026, a Klabin apresentou estabilidade operacional, com disciplina na execução 
+de sua estratégia comercial e consistência em seus resultados. O período segue impactado por um 
+cenário de maior instabilidade no ambiente macroeconômico, com ambiente inflacionário em seus 
+principais mercados de atuação e forte apreciação do real pressionando receitas de exportação. Nesse 
+contexto, a Companhia segue se beneficiando de sua estrutura de portfólio única, que confere flexibilidade 
+operacional e contribui para mitigar a volatilidade de seus resultados. 
+Diante desse cenário, a receita líquida consolidada totalizou R$ 4,9 bilhões no período, crescimento de 
+2% em relação ao 1T25, refletindo principalmente o aumento de volume em todos os negócios. O EBITDA 
+Ajustado somou R$ 1,7 bilhão no trimestre, incorporando os efeitos previstos da parada geral de 
+manutenção programada da unidade de Monte Alegre, além da forte apreciação do real frente ao dólar 
+entre os dois períodos , fatores parcialmente compensados pelo maior volume de vendas em 110 mil 
+toneladas. 
+No segmento de celulose, o volume comercializado totalizou 401 mil toneladas, crescimento de 16% em 
+relação ao mesmo período do ano anterior, refletindo a maior produção, a demanda resiliente e a 
+estratégia comercial disciplinada da Companhia. Neste trimestre, a Klabin utilizou sua flexibilidade 
+operacional, comercial e geográfica para direcionar volumes de forma estratégica, priorizando mercados, 
+canais e regiões com melhores condições comerciais, frente a um cenário de recuperação gradual de 
+preços de fibra curta. 
+No negócio de papéis, o volume comercializado foi de 356 mil toneladas, crescimento de 15% em relação 
+ao mesmo período do ano anterior, resultado do desempenho de vendas dos segmentos de papel-cartão 
+e containerboard. No trimestre, apoiada por sua flexibilidade operacional, a Klabin seguiu sua estratégia 
+de priorização da rentabili dade de suas máquinas, direcionando volumes conforme condições de 
+mercado. 
+Passando para o negócio de embalagens, o volume comercializado foi de 258 mil toneladas, crescimento 
+de 3% em relação ao mesmo período do ano anterior, refletindo principalmente o incremento do volume 
+de vendas no segmento de papelão ondulado. O crescimento do segmento de papelão ondulado acima 
+do mercado reflete a estratégia comercial focada em segmentos resilientes, como alimentos 
+industrializados, higiene & limpeza e frutas. 
+O custo caixa total por tonelada, incluindo os efeitos das paradas gerais de manutenção, foi de R$ 3.342/t 
+no 1T26, em linha com o 1T25. O desempenho reflete principalmente o aumento do custo dos produtos 
+vendidos (CPV), explicado pel o maior custo de fibras e pelo efeito da parada geral de manutenção 
+programada no trimestre, parcialmente compensados pela melhora em custos variáveis na comparação 
+anual. 
+A Companhia encerrou o 1 T26 com alavancagem, medida pela dívida líquida em relação ao EBITDA 
+Ajustado, em US$, de 3,3x, em linha com o 4T25. Já a medição em reais finalizou o trimestre em 3,1x, 
+uma redução de 0,2x no mesmo período. 
+MENSAGEM
+
+[p. 6]
+6/44 
+ 
+ 
+Release de Resultados 1T26 
+No dia 25 de março, conforme Comunicado ao Mercado, a Fitch Ratings reafirmou o rating de crédito da 
+Klabin em “BB+” na escala global e revisou a perspectiva de estável para positiva. De acordo com a 
+agência, a mudança reflete a expectativa de redução da alavancagem líquida, sustentada por forte 
+geração de caixa, menor nível de investimentos e política de dividendos mais conservadora. A decisão da 
+agência reforça o compromisso da Companhia com a desalavancagem e com a disciplina financeira, 
+apoiados pela excelência operacional, pela solidez da geração de caixa e por estratégias consistentes de 
+liability management. 
+Na frente de sustentabilidade, a Klabin foi reconhecida no The Sustainability Yearbook 2026, publicação 
+global da S&P Global baseada no Corporate Sustainability Assessment (CSA) 2025, ao figurar entre as 
+Top 5% empresas com melhor desempenho em sustentabilidade no mundo em sua indústria (Containers 
+& Packaging). Na edição deste ano, a Companhia foi a única empresa da indústria a alcançar essa 
+classificação, reforçando a consistência de sua estratégia ambiental, social e de governança. O CSA é a 
+avaliação que habilita as companhias para o Dow Jones Best in Class Indices, um dos principais índices 
+globais de desempenho ESG, do qual a Klabin faz parte nessa categoria. 
+Neste mês de abril, a Klabin celebrou 127 anos de história, uma trajetória construída com base na atuação 
+responsável, na capacidade de adaptação e no compromisso de longo prazo com o desenvolvimento 
+sustentável. Apoiada em um modelo de negócios integrado, diversificado e flexível, a Companhia segue 
+avançando com foco em eficiência, solidez financeira e visão de futuro, preparada para seguir gerando 
+valor de forma consistente para seus stakeholders.
+
+[p. 7]
+7/44 
+ 
+ 
+Release de Resultados 1T26 
+Desempenho Operacional 
+Paradas Programadas de Manutenção 
+No primeiro trimestre de 2026, conforme programado, ocorreu a parada geral de manutenção na unidade 
+de Monte Alegre, que produz papel-cartão e kraftliner. A parada geral de manutenção da unidade de Monte 
+Alegre teve duração de 14 dias e custo direto de R$ 124 milhões. Em relação à última parada, realizada 
+no 4T24, a duração foi dois dias maior e o custo 14% superior, refletindo, além da inflação, o maior escopo 
+e a extensão dos serviços realizados em preparação para a nova caldeira de recuperação. As atividades 
+foram retomadas e a fábrica opera normalmente. 
+Abaixo, o cronograma de paradas de manutenção previstas para 2026, ano em que não haverá parada 
+geral de manutenção na Unidade de Ortigueira e Correia Pinto. 
+ 
+ 
+ 
+ 
+Unidade Fabril
+Monte Alegre (PR) MA
+Otacílio Costa (SC) OC
+Legenda: Executada A executar
+Cronograma Previsto de Paradas de Manutenção 2026
+jan fev mar abr mai jun jul ago set out nov dez
+
+[p. 8]
+8/44 
+ 
+ 
+Release de Resultados 1T26 
+Produção Líquida 
+ 
+O volume total de produção líquida de celulose e papéis foi de 1.047 mil toneladas no 1T26, em linha 
+com o mesmo período do ano anterior, em decorrência da parada programada de manutenção da unidade 
+de Monte Alegre no 1T26 e da ocorrência de eventos não recorrentes de parada para manutenção no 
+1T25. Abaixo, são apresentados os detalhes para cada um dos negócios. 
+A produção de celulose no trimestre foi de 409 mil toneladas, 12% superior ao 1T25, evidenciando a 
+consistência operacional dos ativos e a evolução do ritmo produtivo entre os períodos, em linha com a 
+estratégia de maximização de eficiência e rentabilidade. 
+A produção de papéis, por sua vez, foi de 638 mil toneladas no trimestre, 6% inferior ao apresentado no 
+mesmo período do ano anterior, em decorrência da parada programada da unidade de Monte Alegre, 
+realizada no 1T26. 
+Diante das condições de mercado e exercendo sua flexibilidade operacional, ao longo de 2025 a 
+Companhia optou pela hibernação de suas máquinas de papel reciclado, ajustando taticamente a 
+produção conforme a demanda, alocando volume de forma estratégica e priorizando a rentabilidade das 
+operações. A máquina de papel reciclado MP 17 (Goiana) segue hibernada desde outubro de 2025. 
+ 
+ 
+ 
+ 
+∆ ∆ ∆
+1T26/4T25 1T26/1T25 1T26/1T25
+Celulose 409 363 365 13% 12% 44
+Fibra Curta 290 264 253 10% 14% 37
+Fibra Longa/Fluff 120 99 112 20% 7% 7
+Papéis 638 675 678 -5% -6% (40)
+Papel-Cartão 186 223 220 -17% -16% (34)
+Papel-Cartão 141 184 176 -23% -20% (35)
+MP28 45 39 44 15% 2% 1
+Containerboard¹ 452 452 457 0% -1% (5)
+Kraftliner 232 245 237 -5% -2% (5)
+MP27 112 99 111 13% 1% 1
+MP28 53 52 56 2% -6% (3)
+Reciclados 55 56 54 -2% 3% 1
+Volume Total de Produção 1.047 1.038 1.043 1% 0% 4
+MP27 e 28 210 190 211 11% -1% (1)
+MP27 112 99 111 13% 1% 1
+MP28 98 91 101 8% -3% (3)
+¹ Inclui Kraftliner, White Top Liner, Reciclados, Eukaliner®, Eukaliner® White e outros grades de containerboard.
+Volume (mil ton) 1T26 4T25 1T25
+
+[p. 9]
+9/44 
+ 
+ 
+Release de Resultados 1T26 
+Desempenho dos Negócios 
+Volume de Vendas 
+ 
+No 1T26, o volume total de vendas (ex-madeira) foi de 1.016 mil toneladas, alta de 12% em relação ao 
+1T25 (+110 mil toneladas), refletindo crescimento em todos os negócios. Abaixo, são apresentados os 
+detalhes para cada um dos negócios. 
+ 
+ 
+ 
+ 
+∆ ∆ ∆
+1T26/4T25 1T26/1T25 1T 26/1T25
+Celulose 401 404 345 -1 % 16% 56
+Fibra Curta 290 296 238 -2% 22% 52
+Fibra Longa/Fluff 111 108 107 3% 3% 4
+Papéis 356 353 311 1% 15% 46
+Papel-Cartão 195 210 187 -7% 4% 8
+Containerboard¹ 162 143 124 13% 31% 38
+Embalagens 258 269 250 -4% 3% 8
+Papelão Ondulado 226 231 216 -2% 4% 10
+Sacos 33 37 34 -13% -4% (1)
+Outros² - (1) - n/a n/a -
+Volume Total de Vendas (ex-madeira) 1.016 1.025 906 -1% 12% 110
+² Inclui vendas de subprodutos
+¹ Inclui Kraftliner, White Top Liner, Reciclados, Eukaliner®, Eukaliner® White e Outros grades d e containerboard
+Volume (mil ton) 1T26 4T25 1T25
+53%
+47%
+1T25
+51%
+49%
+1T26
+906
+1.016
++12%
+Mercado Interno Mercado Externo
+25%
+35% Celulose
+Embalagens
+Papéis²
+40%
+Volume de Vendas¹
+(excluindo madeira – mil t)
+Volume de Vendas 
+por Produto¹
+1T26
+¹Exclui madeira e outros
+²Inclui Kraftliner, White Top Liner,Reciclados, 
+Eukaliner®, Eukaliner® White e outros grades 
+de containerboard
+
+[p. 10]
+10/44 
+ 
+ 
+Release de Resultados 1T26 
+Florestal 
+ 
+O volume de vendas de madeira foi de 889 mil toneladas no 1T26, redução de 29% em relação ao mesmo 
+período do ano anterior. O comparativo reflete um patamar de vendas mais elevado no 1T25, diante da 
+maior disponibilidade de sortimento de madeira para venda não utilizada em processo interno. 
+A receita líquida do segmento florestal totalizou R$ 173 milhões no trimestre, redução de 24% em relação 
+ao 1T25, em linha com o menor volume de madeira vendido no período. 
+Destacamos no trimestre a venda de 1.571 hectares úteis no valor total de R$ 99 milhões. Essa operação 
+segue o planejamento estabelecido de monetização de ativos florestais excedentes divulgado em 
+apresentação para o mercado em dezembro de 2023. O preço de venda por hectare útil foi de 
+R$ 63 mil/ha, com o custo histórico de R$ 22 mil/ha, gerando um EBITDA de R$ 41 mil/ha, o que 
+representa R$ 64 milhões no período. 
+ 
+Celulose 
+ 
+No 1T26, o volume comercializado de celulose foi de 401 mil toneladas, crescimento de 16% em relação 
+ao mesmo período do ano anterior, refletindo o maior volume de produção e demanda favorável. Neste 
+trimestre, a Companhia utilizou sua flexibilidade comercial e geográfica para alocar volumes de forma 
+estratégica e capturar oportunidades de colocação de volumes em condições competitivas, frente a um 
+cenário de recuperação gradual de preços em fibra curta. 
+A receita líquida totalizou R$ 1,4 bilhão no trimestre, alta de 2% em relação ao 1T25, resultado do maior 
+volume de vendas e preços em dólar mais elevados da fibra curta, que mais do que compensaram o 
+∆ ∆
+1T26/4T25 1T26/1T25
+Madeira 889 1.356 1. 244 -34% -29%
+Receita (R$ milhões)
+Madeira 173 222 226 - 22% -24%
+4T251T26 1T25Volume (mil ton)
+∆ ∆
+1T26/4T25 1T26/1T25
+Fibra Curta MI 71 84 63 - 16% 12%
+Fibra Curta ME 220 211 175 4% 26%
+Fibra Curta 290 296 238 -2% 22%
+Fibra Longa/Fluff MI 49 46 41 7% 22%
+Fibra Longa/Fluff ME 62 62 67 0% -8%
+Fibra Longa/Fluff 111 108 107 3% 3%
+Celulose Total 401 404 345 -1% 16%
+Receita (R$ milhões)
+Fibra Curta 887 868 781 2% 14%
+F
+ibra Longa/Fluff 522 545 597 -4% -12%
+Celulose Total 1.409 1.413 1.378 0% 2%
+Preço Líquido (R$/ton)
+Fibra Curta 3.058 2.933 3. 286 4% -7%
+Fibra Longa/Fluff 4.710 5.050 5.562 -7% -15%
+Celulose Total 3.515 3.499 3.994 0% -12%
+Preço Líquido (US$/ton)
+Fibra Curta 581 544 562 7% 4%
+F
+ibra Longa/Fluff 896 936 951 -4% -6%
+Celulose Total 668 649 682 3% -2%
+Volume (mil ton) 1T26 4T25 1T25
+
+[p. 11]
+11/44 
+ 
+ 
+Release de Resultados 1T26 
+impacto negativo da valorização do real frente ao dólar no período. A estratégia voltada à captura de valor, 
+aliada a um portfólio diversificado, contribuiu para sustentar o desempenho ao longo do período. 
+A Klabin detém posicionamento estratégico diferenciado como a única Companhia na América Latina a 
+produzir e comercializar os três principais tipos de celulose — fibra curta, fibra longa e fluff — o que se 
+traduz em um mix de vendas diversificado, contribuindo para maior resiliência de receita e expansão das 
+margens ao longo do ciclo. 
+ 
+Fibra curta 
+As condições de oferta e demanda para celulose de fibra curta permaneceram favoráveis ao longo do 
+trimestre. Do lado da demanda, o consumo seguiu em patamares sólidos, enquanto, pelo lado da oferta, 
+paradas programadas, ajustes operacionais e restrições pontuais de fibras e sortimento de madeira na 
+Ásia continuaram limitando a disponibilidade global, contribuindo para um ambiente de maior equilíbrio e 
+sustentando anúncios de reajustes de preços pelos produtores. 
+Segundo o índice FOEX, os preços da celulose de fibra curta avançaram 9% na China e 12% na Europa 
+e no mercado brasileiro (que acompanha o FOEX Europa) em relação ao 4T25. Na comparação com o 
+1T25, houve incremento de 2% na China e de 13% na Europa e no mercado brasileiro. 
+Nesse contexto, a receita líquida trimestral de fibra curta alcançou R$ 887 milhões, crescimento de 14% 
+em relação ao mesmo período do ano anterior, impulsionada pelo maior volume comercializado, pela 
+recuperação dos preços internacionais e, principalmente, pela evolução do preço líquido global capturado 
+pela Companhia. O resultado reflete a eficiência da estratégia comercial da Klabin, sustentada pela gestão 
+ativa de receita, pela flexibilidade de direcionamento geográfico e pela priorização de mercados e clientes 
+com melhor retorno marginal. 
+ 
+Fibra longa e Fluff 
+No segmento de fluff , de maior representatividade dentro dessa categoria, observou -se ao longo do 
+trimestre o início de uma retomada gradual das condições de mercado, favorecendo a recuperação dos 
+preços índice após um início de ano ainda pressionado. Conforme o índice Table 5 da RISI, os preços 
+médios registraram alta de 1% na China e na Europa em relação ao 4T25, sinalizando uma inflexão 
+positiva de mercado, ainda que a base comparativa anual permaneça impactada pelo ambiente mais 
+desafiador observado ao longo de 2025. 
+No 1T26, a Companhia manteve sua estratégia comercial orientada à maximização de valor, priorizando 
+mercados com melhores fundamentos comerciais e maior retorno por tonelada. Como resultado, fibra 
+longa e fluff representaram 28% do volume total vendido de celulose e responderam por 37% da receita 
+líquida do segmento no período, evidenciando o diferencial de rentabilidade e o spread estruturalmente 
+superior dessas fibras em relação à fibra curta. 
+A receita líquida trimestral de fibra longa e fluff totalizou R$ 522 milhões. A variação observada na 
+comparação anual reflete principalmente o ajuste de preços entre os períodos e o efeito temporal de 
+captura no portfólio da Companhia. 
+Considerando a dinâmica de implementação comercial e a inércia natural de captura desses reajustes no 
+portfólio, a evolução dos preços médios tende a ocorrer de forma gradual ao longo dos próximos 
+trimestres.
+
+[p. 12]
+12/44 
+ 
+ 
+Release de Resultados 1T26 
+Papéis 
+ 
+No 1T26, o volume comercializado de papéis foi de 356 mil toneladas, crescimento de 15% em relação 
+ao mesmo período do ano anterior, refletindo o avanço consistente das vendas nos mercados de atuação 
+da Companhia. 
+A receita líquida totalizou R$ 1,7 bilhão no trimestre, alta de 8% em relação ao 1T25, resultado do maior 
+volume de vendas, que mais do que compensou o impacto negativo da valorização do real frente ao dólar 
+no período. Para o segmento de papéis, a gestão ativa do portfólio segue sendo um diferencial 
+competitivo. C om flexibilidade operacional , a Companhia segue sua estratégia de alocação de sua 
+capacidade produtiva de forma dinâmica, com priorização de mercados e canais de maior rentabilidade 
+no período. 
+ 
+Papel-Cartão 
+O segmento de papel-cartão apresentou crescimento de 4% no volume vendido no 1T26 em relação ao 
+mesmo período do ano anterior, impulsionado pelas vendas no mercado dom éstico, que apresentou 
+aumento de 15% no volume vendido. Esse resultado foi favorecido, principalmente, pelo avanço do setor 
+cervejeiro e das vendas de cart ões brancos em novos clientes. Esse avanço comercial reflete um 
+processo de homologação criterioso e bem -sucedido, que tende a gerar demanda mais previsível e de 
+maior valor agregado ao longo do tempo. O desempenho doméstico mais do que compensou a retração 
+do volume destinado ao mercado externo, decorrente da menor disponibilidade de produto acabado, 
+devido à parada programada da unidade de Monte Alegre. 
+A receita líquida do trimestre foi de R$ 1,1 bilhão, crescimento de 5% em relação ao mesmo período do 
+ano anterior diante do desempenho favorável de volumes e preços, mesmo que parcialmente 
+compensado pela valorização do real frente ao dólar. 
+ 
+ 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Papel-Cartão MI 123 134 107 -8% 15%
+Papel-Cartão ME 71 76 80 -5% -11%
+Papel-Cartão 195 210 187 -7% 4%
+Containerboard MI 24 21 26 13% -9%
+Containerboard ME 138 122 97 13% 41%
+Containerboard¹ 162 143 124 13% 31%
+Papéis 356 353 311 1% 15%
+Receita (R$ milhões)
+Papel-Cartão 1.102 1.190 1.053 -7% 5%
+Containerboard¹ 588 530 518 11% 13%
+Papéis 1.689 1.720 1.570 -2% 8%
+Preço Líquido (R$/ton)
+Papel-Cartão 5.657 5.668 5.625 0% 1%
+Containerboard¹ 3.632 3.712 4.184 -2% -13%
+Papéis 4.738 4.876 5.051 -3% -6%
+Volume (mil ton) 1T26 4T25 1T25
+¹ Inclui Kraftliner, White Top Liner, Reciclados, Eukaliner®, Eukaliner® White e Outros grades de containerboard
+
+[p. 13]
+13/44 
+ 
+ 
+Release de Resultados 1T26 
+Containerboard 
+O segmento de c ontainerboard finalizou o 1T26 com volume de vendas de 162 mil toneladas, 31% 
+superior ao observado no 1T25, impulsionado pela expansão das vendas no mercado externo, em linha 
+com a estrat égia da Companhia de diversificação geográfica com incremento de volume em novos 
+mercados. Além disso, a Klabin continua utilizando sua flexibilidade operacional , para direcionar maior 
+volume de produ ção ao segmento de kraftliner , diante de uma demanda em patamares saudáveis, 
+favorecida pelos ajustes de oferta realizados ao longo de 2025. O crescimento em volumes e o foco em 
+rentabilidade seguem orientando as decisões operacionais da Companhia. 
+A receita líquida do segmento foi de R$ 588 milhões no 1T26, representando um crescimento de 13% em 
+relação ao 1T25. Esse desempenho foi influenciado, principalmente, pelo aumento dos volumes vendidos, 
+que mais do que compensou a redução do preço pelo efeito advindo do mix geográfico de vendas e da 
+valorização do real frente ao dólar ao longo do período. 
+ 
+Embalagens 
+ 
+No 1T26, o volume comercializado de embalagens foi de 258 mil toneladas, crescimento de 3% em 
+relação ao mesmo período do ano anterior, refletindo o maior volume de vendas no segmento de papelão 
+ondulado. 
+A receita líquida totalizou R$ 1, 8 bilhão no trimestre, alta de 6 % em relação ao 1T25, resultado da boa 
+performance do segmento de papelão ondulado, que além do crescimento de volumes, apresentou 
+incremento de preço superior à inflação no período. 
+ 
+Papelão Ondulado 
+De acordo com informações divulgadas pela Empapel, o volume de expedição de papelão ondulado no 
+1T26, medido em m², apresentou crescimento de 2,3% em relação ao 1T25. No mesmo período, a Klabin 
+apresentou volume de expedição de 408 milhões de m², alta de 3,6% , desempenho superior ao do 
+mercado, refletindo sua maior exposição a segmentos com demanda mais resiliente no trimestre, como 
+alimentos industrializados, higiene & limpeza e frutas. Além disso, o aumento no volume de venda de 
+caixas para bens duráveis, especialmente televisores, contribuiu para o resultado do 1T26. 
+∆ ∆
+1T26/4T25 1T26/1T25
+Papelão Ondulado 226 231 216 -2% 4%
+Sacos 33 37 34 -13% -4%
+Embalagens 258 269 250 -4% 3%
+Receita (R$ milhões)
+Papelão Ondulado 1.486 1.510 1.358 -2% 9%
+Sacos 307 345 335 -11% -8%
+Embalagens 1.794 1.854 1.693 -3% 6%
+Preço Líquido (R$/ton)
+Papelão Ondulado 6.590 6.526 6.285 1% 5%
+Sacos 9.411 9.225 9.845 2% -4%
+Embalagens 6.947 6.901 6.769 1% 3%
+Volume (milhões de m²)
+Papelão Ondulado 408 421 394 -3% 4%
+1T26Volume (mil ton) 4T25 1T25
+
+[p. 14]
+14/44 
+ 
+ 
+Release de Resultados 1T26 
+A receita líquida de papelão ondulado no 1 T26 foi de R$ 1,5 bilhão, crescimento de 9 % em relação ao 
+mesmo período do ano anterior , favorecida pelo aumento de preço acima da inflação no período e 
+crescimento de volume de vendas. 
+ 
+Sacos Industriais 
+De acordo com dados do SNIC, o despacho de cimento no Brasil — indicador importante para as vendas 
+de sacos industriais — apresentou crescimento de 1,8% no 1T26 em comparação ao 1T25, considerando 
+o volume em toneladas em dias úteis e dias corridos. 
+No 1T26, as medidas tarifárias impostas por outros países ao longo de 2025 seguiram impactando 
+importantes mercados de destino das exportações de sacos industriais da Klabin. Ao longo do trimestre, 
+a Companhia direcionou parte dos volumes ao mercado interno, com ampliação da base de clientes e 
+aumento da participação no segmento de construção civil. 
+Esse movimento resultou em crescimento dos volumes comercializados no mercado doméstico (+13%) 
+ao longo do trimestre. Ainda assim, o redirecionamento ao mercado interno não foi suficiente para 
+compensar integralmente a redução das exportações (-39%), levando a um volume vendido de 33 mil 
+toneladas no 1T26, retração de 4% em relação ao mesmo período do ano anterior. 
+A receita líquida do negócio totalizou R$ 307 milhões no 1T26, redução de 8% na comparação com o 
+1T25, explicada pelo mix de vendas, pela menor contribuição dos volumes exportados e pelo impacto da 
+valorização do real frente ao dólar no período.
+
+[p. 15]
+15/44 
+ 
+ 
+Release de Resultados 1T26 
+Desempenho Econômico-Financeiro 
+Receita líquida 
+ 
+A receita líquida consolidada totalizou R$ 4,9 bilhões no 1T26, representando crescimento de 2% em 
+comparação ao 1T25. O resultado foi impulsionado principalmente pelo aumento de 12% no volume total, 
+com crescimento observado em todos os negócios. O maior volume, combinado ao maior preço de 
+papelão ondulado, mais do que compensou o efeito da valorização do real frente ao dólar (-R$ 0,59). 
+ 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Madeira 173 222 226 -22% -24%
+Celulose 1.409 1.413 1.378 0% 2%
+Fibra Curta 887 868 781 2% 14%
+Fibra Longa/Fluff 522 545 597 -4% -12%
+Papéis 1.689 1.720 1.570 -2% 8%
+Papel-Cartão 1.102 1.190 1.053 -7% 5%
+Containerboard¹ 588 530 518 11% 13%
+Embalagens 1.794 1.854 1.693 -3% 6%
+Papelão Ondulado 1.486 1.510 1.358 -2% 9%
+Sacos 307 345 335 -11% -8%
+Outros² (119) (44) (8) n/a n/a
+Receita Líquida Total 4.946 5.165 4.859 -4% 2%
+Receita Líquida (R$ milhões) 1T26 4T25 1T25
+¹ Inclui Kraftliner, White Top Liner, Reciclados, Eukaliner®, Eukaliner® White e outros grades de containerboard
+² Inclui vendas de subprodutos e hedge accounting 
+62%
+38%
+1T25
+65%
+35%
+1T26
+4.859 4.946
++2%
+Mercado Interno Mercado Externo
+29%
+37%
+35%
+Celulose
+Embalagens
+Papéis²
+Receita Líquida
+(R$ milhões)
+Receita de Vendas 
+por Produto¹
+1T26
+¹Exclui madeira e outros
+²Inclui Kraftliner, White Top Liner,Reciclados, 
+Eukaliner®, Eukaliner® White e outros grades 
+de containerboard
+
+[p. 16]
+16/44 
+ 
+ 
+Release de Resultados 1T26 
+Custo Caixa Total 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Custo dos Produtos Vendidos (CPV) (2.717) (2.807) (2.335) -3% 16%
+Custos Variáveis (1.736) (1.701) (1.475) 2% 18%
+Gastos com Pessoal e Serviços (638) (648) (612) -2% 4%
+Manutenção (344) (444) (175) -23% 97%
+Outros 1 (15) (74) n/a n/a
+Despesas com Vendas (439) (466) (372) -6% 18%
+Despesas com Vendas/Receita Líquida (%) 8,9% 9,0% 7,7% - 0,1 p.p. + 1,2 p.p.
+Despesas Gerais e Administrativas (282) (312) (278) -10% 1%
+Outras Líquidas 44 204 (36) 78% n/a
+Custo Caixa Total (3.394) (3.382) (3.021) 0% 12%
+Custo Caixa/t (excluindo efeitos de PG¹) (3.195) (3.064) (3.335) 4% -4%
+Custo Caixa/t (incluindo efeitos da PG¹) (3.342) (3.300) (3.335) 1% 0%
+Custos e Despesas (R$ milhões) 1T26 4T25 1T25
+¹ Custos de parada geral de manutenção (PG): (i) custo direto; (ii) custo de ociosidade; e (iii) custo de insumos de repartida
+CPV
+432 455
+278 305
+307
+778 721
+410
+981 1.020
+698
+916 999
+1.091
+-199
+788
+-44
+1T26 4T25
+40
+1T25
+Custo Fixo
+Custo Variável
+Fibras
+Despesas Gerais e Administrativas
+Despesas com Vendas
+Outras Receitas/Despesas Líquidas
+3.342 3.300
+3.335
++1%
+0%
+Custo Caixa Total por tonelada, incluindo Parada Geral
+22%
+12%
+13%15%
+29%
+4%
+4%
+CPV 1T26 
+(R$2.675/t)
+Pessoal e Serviços Manutenção Outros Variáveis Combustível Químicos Energia Fibras
+21%
+15%
+15%
+15%
+26%
+4%
+4%
+CPV 4T25 
+(R$2.740/t)
+24%
+7%
+17%16%
+27%
+4%
+4%
+CPV 1T25 
+(R$2.577/t)
+
+[p. 17]
+17/44 
+ 
+ 
+Release de Resultados 1T26 
+O custo caixa total por tonelada, incluindo parada geral, foi de R$ 3.342/t no 1T26, em linha com o 
+mesmo período do ano anterior, diante das variações apresentadas abaixo. 
+O custo dos produtos vendidos (CPV) foi de R$ 2.675/t, incremento de 4% ou R$ 97/t, explicado 
+principalmente por: 
+(i) Custo fixo: incremento de 16% ou R$ 128/t, explicado pelo: (i) efeito da parada de 
+manutenção programada da unidade de Monte Alegre (+R$ 146/t), uma vez que no 1T25 
+não houve parada programada de manutenção. Esse efeito foi parcialmente compensado 
+pela redução (-R$ 23/t) nos gastos com pessoas, serviços e armazenagem externa, além 
+do maior volume de produção; 
+(ii) Custo variável: redução de 10% ou R$ 111/t, principalmente em função: (i) da redução na 
+linha de outros custos variáveis ( -R$ 103/t) pelo efeito dos maiores gastos operacionais 
+associados à menor produção no 1T25; e (ii) da redução do custo com químicos (- R$ 16/t), 
+efeito de redução de preço na soda cáustica, pela normalização da oferta do insumo entre 
+os períodos e valorização do real frente ao dólar. Esses efeitos foram parcialmente 
+compensados pelo incremento do custo com combustível (+R$ 7/t), dado o maior consumo 
+durante o período de retomada de pós parada geral de manutenção programada de Monte 
+Alegre; e 
+(iii) Fibras: incremento de 11% ou R$ 80/t, reflexo do aumento dos custos logísticos e 
+operacionais em função dos eventos climáticos ocorridos em 2025, e que seguem 
+impactando a operação florestal. 
+As despesas gerais e administrativas totalizaram R$ 278/t, uma redução de 10% ou R$ 29/t, refletindo 
+a diluição pelo maior volume de vendas. Cabe destacar que durante o período, o maior gasto com pessoal 
+reflete a variação no provisionamento do Plano de Incentivo de Longo Prazo (ILP) e inflação de salários 
+e encargos, que foram parcialmente compensados pelo impacto positivo de calendarização de gasto com 
+serviços de TI. 
+As despesas com vendas foram de R$ 432/t, um incremento de 5% ou R$ 22/t, principalmente devido 
+ao avanço no volume de vendas no período (+110k ton), e ao mix dado o maior volume de exportações 
+na comparação anual. Estes efeitos foram parcialmente compensados por valorização do real frente ao 
+dólar. 
+O saldo de outras receitas/despesas líquidas no 1T26 foi positivo em R$ 44/t , resultado da venda de 
+terras no período, que representou R$ 63/t, e está alinhada à estratégia de monetização dos ativos 
+florestais da Companhia no âmbito do Projeto Caetê, conforme divulgação realizada em dezembro de 
+2023. 
+O guidance formal de custo caixa total por tonelada, incluindo paradas de manutenção, foi divulgado pela 
+Klabin em Fato Relevante de 9 de dezembro de 2025, conforme detalhado abaixo. 
+ 
+ 
+ 
+ 
+ 
+Custo caixa total por tonelada, incluindo paradas de manutenção programadas 3,2 - 3,3
+2026R$ mil/toneladas
+
+[p. 18]
+18/44 
+ 
+ 
+Release de Resultados 1T26 
+Custo caixa de produção de celulose 
+ 
+ 
+Para efeito informativo, é divulgado o custo caixa unitário de produção de celulose, que contempla os 
+custos de produção de celulose de fibra curta, longa e fluff em relação ao volume de produção vendável 
+de celulose no período. O custo caixa de produção não inclui despesas de vendas, gerais e 
+administrativas, constituindo exclusivamente o montante dispendido na produção da celulose. 
+O destaque do trimestre foi o resultado superior de produção vendável, reforçando a estabilidade da 
+performance operacional e contribuindo positivamente para a competitividade do negócio. 
+O custo caixa de produção de celulose no trimestre foi de R$ 1.326 por tonelada, 4% acima do 1T25 
+(+ R$ 58/t). O principal impacto foi a elevação do custo de fibra , pelas mesmas razões apontadas 
+anteriormente. Esses efeitos foram parcialmente compensados por: (i) maior receita com venda de 
+energia em R$ 72/t, dado maior PLD no período; e (ii) maior diluição do custo fixo, diante de um aumento 
+do volume produzido. 
+ 
+845
+732 657
+243
+223
+246
+127
+119 137
+65
+72 83
+200
+224 225
+-153 -96 -80
+1T26 4T25 1T25
+Custo Fixo
+(Pessoal/Serviços/Materiais)
+Outros Variáveis
+Combustível
+Químicos
+Fibras
+Energia
+R$ 1.326/t
+R$ 1.274/t R$ 1.268/t
+-4%
++9%
+US$
+236/t
+US$
+217/t
+US$
+252/t
+
+[p. 19]
+19/44 
+ 
+ 
+Release de Resultados 1T26 
+EBITDA Ajustado 
+ 
+O EBITDA Ajustado totalizou R$ 1, 7 bilhão no primeiro trimestre de 202 6, retração de 10% versus o 
+1T25, explicada principalmente pelo: (i) impacto negativo da apreciação do real frente ao dólar; e (ii) efeito 
+da parada geral de manutenção programada no trimestre. Estes efeitos foram parcialmente compensados 
+pelo maior volume de vendas em todos os segmentos de negócio. 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Lucro (prejuízo) Líquido (497) 168 446 n/ a n/a
+(+) Imposto de Renda e Contribuição Social (262) 34 322 n/a n/a
+(+) Resultado Financeiro 570 707 158 -19% n/a
+(+) Depreciação, Exaustão e Amortização 1.162 1.244 1.299 -7% -11%
+Ajustes Conforme Resolução CVM 156/22 art. 4º 
+(+) Variação do Valor Justo dos Ativos Biológicos 581 (344) (388) n/a n/a
+(+) Efeito do Hedge Accounting de F luxo de Caixa 117 48 22 n/a n/a
+(+) Equivalência Patrimonial (2) 2 (0 ) n/a n/a
+(+) Crédito fiscal sobre subvenção - (28) - n/a n/a
+EBITDA Ajustado 1.669 1.832 1.859 -9% -10%
+Margem EBITDA Ajustada 34% 35% 38% - 1 p.p. - 4 p.p. 
+Geração de Caixa (EBITDA Ajustado - Capex de Manutenção) 856 848 1.316 1% -35%
+Geração de Caixa/t¹ (R$/t) 843 827 1.453 2% -42%
+1 Volume de vendas exclui madeira
+R$ milhões 1T26 4T25 1T25
+Evolução do EBITDA Ajustado 
+R$ milhões
+1.859 257 215
+215
+1T25
+27
+Preço Volume Câmbio CPV
+9
+Despesas com 
+Vendas, Gerais e 
+Administrativas e 
+Outras Líquidas
+1T26
+1.669
+-190
+(-10%)
+US$ Médio
+5,85 5,26
+US$ Médio
+Celulose
+Papéis
+Embalagens
+Celulose
+Papéis
+Embalagens
+
+[p. 20]
+20/44 
+ 
+ 
+Release de Resultados 1T26 
+ 
+ 
+Diante disso, a Geração de Caixa por tonelada, medida pelo EBITDA Ajustado deduzido o CAPEX de 
+manutenção em relação ao volume vendido, foi de R$ 843/t no 1T26, 42% inferior ao 1T25. Esta redução 
+é explicada pela retração do resultado operacional, conforme descrito anteriormente, e por um maior 
+CAPEX de manutenção, devido ao calendário de gastos referente a modernização da caldeira de Monte 
+Alegre. 
+ 
+Evolução do EBITDA Ajustado 
+R$ milhões
+1.832
+4T25
+20
+Preço
+2
+Volume
+65
+Câmbio
+10
+CPV
+127
+Despesas com 
+Vendas, Gerais e 
+Administrativas e 
+Outras Líquidas
+1T26
+1.669
+-163
+(-9%)
+US$ Médio
+5,40 5,26
+US$ Médio
+Celulose
+Papéis
+Embalagens
+Celulose
+Papéis
+Embalagens
+
+[p. 21]
+21/44 
+ 
+ 
+Release de Resultados 1T26 
+Efeito da variação dos ativos biológicos 
+ 
+A avaliação dos ativos biológicos por seu valor justo considera certas estimativas, tais como: preço de 
+madeira, taxa de desconto, plano de colheita das florestas e produtividade, cujas variações geram efeitos 
+não-caixa nos resultados da Companhia. 
+O saldo dos ativos biológicos encerrou o 1T26 em R$ 12,8 bilhões, R$ 403 milhões acima do saldo final 
+do 4T25, refletindo: 
+(i) Incremento de R$ 870 milhões referente a operação com plantio e compra de floresta em pé; 
+(ii) Incremento de R$ 723 milhões na Exaustão, em função do volume de colheita no período e 
+venda de madeira; e 
+(iii) Redução de R$ 550 milhões na variação do valor justo, explicada principalmente pela redução 
+do volume de florestas, fruto da reavaliação das premissas de mensuração do ativo biológico. 
+Desta forma, o efeito contábil não caixa do valor justo dos ativos biológicos no resultado operacional 
+(EBIT) no período foi negativo em R$ 764 milhões. 
+A Klabin segue avançando de forma consistente em sua agenda de pesquisa e desenvolvimento florestal. 
+Em 2025, a Companhia registrou avanços relevantes no manejo associado a novas espécies, reforçando 
+a competitividade e a resiliência da base florestal da Companhia. 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Saldo Inicial 13.242 13.132 12. 887 1% 3%
+Plantio e Compra de Floresta em Pé 870 759 310 15% n/a
+Exaustão (723) (992) (875) 27% 17%
+Custo Histórico (508) (645) (377) 21% -35%
+Ajuste ao Valor Justo (214) (347) (498) 38% 57%
+Variação de Valor justo (550) 344 388 n/a n/a
+Preço (7) 98 (16) n/a 58%
+Crescimento² (544) 245 404 n/a n/a
+Saldo Final 12.839 13.242 12.711 -3% 1%
+1 Com o objetivo de aprimorar a apresentação das informações consolidadas do ativo biológico, a Companhia reclassificou os valores entre 
+exaustão e plantio. No 2T25, os dados históricos foram ajustados para assegurar maior clareza e comparabilidade.
+2 Além do efeito de crescimento da floresta em razão da proximidade de seu corte, corresponde aos ajustes decorrentes das premissas que 
+afetam o valor justo do ativo biológico, tais como revisão de plano de corte, tabela de produtividade, alteração de taxa de desconto, alteração 
+d
+e custos administrativos, entre outros.
+Ativos Biológicos¹ (R$ milhões) 1T26 4T25 1T25
+
+[p. 22]
+22/44 
+ 
+ 
+Release de Resultados 1T26 
+Resultado Financeiro 
+ 
+As receitas financeiras totalizaram R$ 242 milhões no 1T26, uma redução de R$ 17 milhões em relação 
+ao 4T25, refletindo principalmente o menor rendimento de aplicações decorrente de um menor saldo de 
+caixa entre os períodos. 
+As despesas financeiras totalizaram R$ 797 milhões no 1T26, uma redução de R$ 212 milhões em 
+relação ao 4T25, principalmente por efeito da apreciação do real frente ao dólar nos juros de dívidas em 
+moeda estrangeira e pelo resultado positivo da liquidação de instrumentos de hedge de exposição cambial 
+de fluxo de caixa. 
+A variação cambial totalizou o efeito negativo de R$ 14 milhões no 1T26. 
+Para maior detalhamento, acesse as informações trimestrais do exercício (link). 
+ 
+Resultado Líquido 
+No 1T26 a Klabin apresentou prejuízo líquido de R$ 497 milhões versus lucro líquido de R$ 446 milhões 
+no 1T25. A variação reflete principalmente: 
+(i) EBITDA Ajustado: retração no período pelos motivos apresentados ao longo do documento; 
+(ii) Variação do valor justo do ativo biológico: efeito puramente contábil comentado na respectiva 
+sessão; 
+(iii) Resultado financeiro: impactado por m aior despesa financeira no 1T26 versus o 1T25, 
+explicada principalmente pelo impacto positivo da liquidação do swap atrelado ao pagamento 
+antecipado de dívida no 1T25; e 
+(iv) Imposto de renda e contribuição social: variação positiva de R$ 584 milhões versus o 1T25, 
+com destaque principalmente para as movimentações no imposto diferido. Nesse sentido, 
+destacam-se: (i) redução da variação cambial principalmente pelo efeito trazido pelas 
+iniciativas de liability management realizadas ao longo de 2025; e (ii) efeito da variação do 
+valor justo do ativo biológico, que reduzi u o lucro contábil, com ajuste positivo via imposto 
+diferido no resultado. 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Receitas Financeiras 242 259 164 -7 % 48%
+Despesas Financeiras (797) (1.009) (460) -21% 73%
+Variação Cambial (14) 43 138 n/a n/a
+Resultado Financeiro (570) (707) (158) -19% n/a
+R$ milhões 1T26 4T25 1T25
+
+[p. 23]
+23/44 
+ 
+ 
+Release de Resultados 1T26 
+Investimentos (CAPEX) 
+ 
+No 1T26, a Klabin investiu R$ 839 milhões em suas operações, uma alta de 39% versus 1T25. 
+Do montante total investido, R$ 287 milhões foram destinados a silvicultura e compra de madeira em pé, 
+seguindo o plano de manejo florestal e planejamento para o per íodo. Adicionalmente, R$ 285 milhões 
+foram destinados à continuidade operacional das fábricas, principalmente devido ao efeito da parada geral 
+de manutenção programada na unidade de Monte Alegre. O montante gasto em projetos especiais (R$ 24 
+milhões) apresentou redução de 58% na comparação com o mesmo período do ano anterior. Além disso, 
+a Companhia investiu neste período R$ 242 milhões no projeto de modernização na caldeira de 
+recuperação de Monte Alegre. 
+Por fim, a Companhia possui guidance formal para investimentos futuros (CAPEX), detalhado no Fato 
+Relevante de 09 de dezembro de 2025, conforme apresentado abaixo. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Silvicultura / Compra de madeira em pé 287 427 219 -33% 31%
+Continuidade Operacional 285 365 249 - 22% 14%
+Projetos Especiais 24 40 58 -39% -58%
+Modernização de Monte Alegre 242 193 79 26% n/a
+Total 839 1.024 605 -18% 39%
+R$ milhões 1T26 4T25 1T25
+Silvicultura / Compra de madeira em pé 1,1
+Continuidade Operacional 1,4
+Projetos Especiais 0,2
+Modernização de Monte Alegre 0,7
+Total 3,3
+Guidance 2026 R$ bilhões
+
+[p. 24]
+24/44 
+ 
+ 
+Release de Resultados 1T26 
+Fluxo de Caixa Livre 
+ 
+O Fluxo de Caixa Livre encerrou o primeiro trimestre de 2026 com consumo de R$ 404 milhões. A geração 
+de caixa no período foi impactada, principalmente, pelo maior desembolso em CAPEX, em função da 
+calendarização dos investimentos no 1T26 e dos gastos com a modernização da caldeira de Monte 
+Alegre. Adicionalmente, observou-se maior consumo de capital de giro, explicado principalmente pela 
+concentração de pagamentos a fornecedores, relacionados às paradas gerais de Monte Alegre (jan/26) e 
+Ortigueira (nov/25). 
+Por outro lado, esse efeito foi parcialmente compensado pela redução no valor de juros pagos e recebidos, 
+reflexo da maior receita financeira decorrente do maior caixa médio no 1T26, quando comparado ao 
+mesmo período do ano anterior. 
+Além disso, contribuiu positivamente o menor desembolso com IR/CS, que, entre outros fatores, reflete o 
+impacto favorável dos pré-pagamentos realizados, alinhados com a estratégia de liability management da 
+Companhia, os quais reduziram o lucro tributável diante da apuração da variação cambial das dívidas. 
+Desconsiderando os fatores discricionários e projetos de expansão, o Fluxo de Caixa Livre Ajustado foi 
+um consumo de R$ 102 milhões nos últimos doze meses do 1T26, equivalente ao Free Cash Flow Yield 
+de 5,1% (-8,9 p.p. versus UDM 1T25). 
+ 
+EBITDA Ajustado 1.669 1.832 1.859 7.658 7.539
+(-) Capex¹ (839) (1.024) (605) (3.066) (9.395)
+(-) Contratos de arrendamentos - IFRS 16 (74) (82) (93) (327) (365)
+(-) Juros Pagos/Recebidos (422) (639) (472) (1.955) (1.923)
+(-) Imposto de Renda e CS (59) (107) (66) (237) (467)
+(+/-) Variação no Capital de Giro (433) (272) 164 (1.050) 1.177
+(-) Dividendos & JCP (278) (318) (277) (1.181) (1.477)
+(+/-) Dividendos SPEs e SCPs² /Outros 32 (33) 16 (58) (175)
+Fluxo de Caixa Livre (404) (644) 528 (216) (5.085)
+Dividendos & JCP 278 318 277 1.181 1.477
+Projetos Especiais e de Expansão 24 35 58 187 855
+Pagamento Projeto Caetê - - - - 6.371
+Fluxo de Caixa Livre ajustado³ (102) (291) 862 1.152 3.619
+FCL Yield ajustado4 5,1% 14,0%
+UDM 
+1T26
+UDM 
+1T25
+³ Excluídos dividendos e projetos especiais e de expansão, sendo que o UDM 1T25 considera R$254 milhões referente ao Projeto Puma 
+II.
+4 FCL Yield Ajustado por unit (excluindo ações em tesouraria) dividido pelo valor médio do fechamento das ações nos UDM (últimos 
+doze meses).
+R$ milhões 1T26 4T25 1T25
+² SPEs (Sociedades de Propósito Específico), incluindo florestais e imobiliárias e SCPs (Sociedades em Conta de Participação).
+¹ Inclui o investimento realizado no Projeto Caetê no montante de R$ 6.371 milhões no UDM 1T25.
+
+[p. 25]
+25/44 
+ 
+ 
+Release de Resultados 1T26 
+ROIC - Return on Invested Capital (Retorno sobre o 
+Capital Investido) 
+ 
+O retorno consolidado da Klabin, medido pela métrica de Return on Invested Capital (ROIC), foi de 9,5% 
+no 1T26, redução de 1,2 p.p. na comparação com o mesmo período do ano anterior , impactado 
+principalmente pelo maior desembolso de CAPEX e pelo aumento do capital investido médio no período, 
+enquanto a geração operacional dos últimos doze meses permaneceu relativamente estável na 
+comparação anual. 
+O maior desembolso em CAPEX decorreu da calendarização dos investimentos e dos aportes realizados 
+na modernização da unidade de Monte Alegre. 
+Já o capital investido médio, foi influenciado pela entrada relevante de recursos registrada ao longo de 
+2025, associada aos recebimentos relacionados ao Projeto Plateau e às SPEs Imobiliárias. Parte desses 
+recursos vem sendo utilizada na redução de endividamento e na otimização da es trutura de capital, 
+enquanto seus efeitos sobre o ROIC se refletem de forma gradual. 
+ 
+ 
+Ativo Total 62.097 60.942 58.337
+(-) Passivo Total (ex-dívida) (12.061) (11.327) (10.356)
+(-) Obras em Andamento (1.854) (1.703) (2.013)
+Capital Investido 48.181 47.913 45. 968
+(-) Ajustes Contábeis² (3.522) (3.563) (3.490)
+Capital Investido Ajustado 44.659 44.349 42.479
+EBITDA Ajustado 7.658 7.848 7.539
+(-) Capex de Manutenção3 (3.197) (2.945) (2.530)
+(-) Imposto de Renda e CSLL (caixa) (237) (244) (467)
+Fluxo de Caixa Operacional Ajustado 4.224 4.659 4.543
+ROIC4 9,5% 10,5% 10,7%
+1T25
+4 ROIC (últimos doze meses): Fluxo de Caixa Operacional Ajustado / Capital Investido Ajustado
+¹ Média dos saldos patrimoniais dos 4 últimos trimestres (últimos doze meses)
+² Os ajustes se referem a eliminação dos seguintes impactos: (i) CPC 29: valor justo dos at ivos biológicos menos o imposto
+diferido dos ativos biológicos; (ii) CPC 06: direito de uso, passivo de direito de uso e passivo de arrendamentos e
+respectivo IR/CS diferido e (iii) CPC 27: custo atribuído imobilizado (terras) 
+Os ajustes (ii) e (iii) foram aplicados a partir do 4T23 em todos os períodos apresentados
+³ Exclui os efeitos do CPC 06, ou seja, soma-se o montante referente aos contratos de ar rendamento (visão caixa) ao
+CAPEX de manutenção
+ROIC (R$ milhões) - UDM¹ 1T26 4T25
+
+[p. 26]
+26/44 
+ 
+ 
+Release de Resultados 1T26 
+Endividamento e Disponibilidades 
+ 
+O endividamento bruto, em 31 de março de 2026, foi de R$ 32,9 bilhões, redução de R$ 3,9 bilhões em 
+relação ao 4T25. Essa variação decorre, principalmente, dos pré-pagamentos e amortizações realizados 
+no trimestre, que somaram R$ 1,7 bilhão, com destaque para o resgate antecipado dos Green Bonds de 
+2027, no montante de R$ 1,2 bilhão (US$ 230 milhões), conforme Comunicado ao Mercado divulgado em 
+17 de março de 2026. Adicionalmente, a valorização do real frente ao dólar gerou um efeito favorável de 
+cerca de R$ 1,6 bilhão sobre o endividamento denominado em moeda estrangeira, além do impacto 
+positivo de R$ 0,7 bilhão decorrente da marcação a mercado dos instrumentos financeiros ( swaps). 
+ 
+ 
+ 
+O prazo médio de vencimento da dívida encerrou o primeiro trimestre de 2026 em 85 meses, sendo 
+104 meses para as dívidas em moeda local e 81 meses para moeda estrangeira. Já o custo médio da 
+dívida da Klabin em moeda estrangeira, principal fonte de crédito da Companhia, apresentou redução de 
+0,1 p.p. em relação ao trimestre anterior e 0,6 p.p. versus o 1T25, encerrando o 1 T26 em USD + 5,1% 
+a.a. como reflexo das iniciativas de liability management realizadas no período. 
+Curto Prazo
+Moeda Local 235 1% 493 1%
+Moeda Estrangeira 2.105 6% 1. 274 3%
+Total Curto Prazo 2.340 7% 1.766 5%
+Longo Prazo
+Moeda Local 5.181 16% 5.964 16%
+Moeda Estrangeira 25.405 77% 29.062 79%
+Total Longo Prazo 30.586 93% 35.026 95%
+Total Moeda Local 5.416 16% 6.457 18%
+Total Moeda Estrangeira² 27.510 84% 30.336 82%
+Endividamento Bruto 32.926 36.793
+(-) Caixa e equivalentes de caixa & títulos e valores mobiliários 8.885 10.891
+Endividamento Líquido 24.041 25.902
+Dívida Líquida/EBITDA (UDM - US$) 3,3 x 3,3 x
+Dívida Líquida/EBITDA (UDM - R$) 3,1 x 3,3 x
+1 Composição Endividamento Bruto, líquido de comissões:
+i.Empréstimos Financiamentos - Nota Explicativa nº16 (Empréstimos, Financiamentos e Debêntures)
+ii.(-) Instrumentos Financeiros Derivativos Ativos - Nota Explicativa nº25.3 (Instrumentos financeiros por categoria)
+iii.(+) Instrumentos Financeiros Derivativos Passivos - Nota Explicativa nº25.3 (Instrumentos financeiros por categoria)
+iv.(-) Hedge exposição líquida de caixa (ZCC) - Nota Explicativa nº26.1 (Hedge de receita futura - transações altamente prováveis)
+v.(+) Operações com opções de compra - Nota Explicativa nº26 (Contabilidade de Hedge)
+2 Inclui valor justo de marcação a mercado de instumentos financeiros derivativos
+Endividamento¹ (R$ milhões) Mar-26 Part. % Dez-25 Part. %
+Prazo Médio / Custo da Dívida¹ 1T26 4T25 1T25
+Custo moeda local 12,4% a.a. 12,7% a.a. 10,8% a.a.
+Custo moeda estrangeira 5,1% a.a. 5,2% a.a. 5,7% a.a.
+Prazo médio 85 meses 85 meses 88 meses
+¹Custo contábil
+
+[p. 27]
+27/44 
+ 
+ 
+Release de Resultados 1T26 
+ 
+ 
+O montante de caixa e equivalentes de caixa & títulos e valores mobiliários (“caixa”) totalizou R$ 8,9 
+bilhões ao final do primeiro trimestre de 2026. Em relação ao trimestre anterior, houve redução de R$ 2,0 
+bilhões no saldo de caixa, refletindo, principalmente, os pré -pagamentos e amortizações realizados no 
+período, bem como a geração de fluxo de caixa livre negativa, conforme detalhado na abertura a seguir. 
+ 
+’ 
+ 
+A relação Dívida Líquida/EBITDA Ajustado medida em dólares, que melhor reflete o perfil de alavancagem 
+financeira da Klabin, encerrou o 1 T26 em 3,3x, em linha com o trimestre anterior e redução de 0,6x em 
+comparação com o 1T25. Já a alavancagem em reais encerrou o período em 3,1x, representando uma 
+redução de 0,2x versus o 4T25. 
+ 
+25%
+75%
+SOFR
+USD Fixo
+5%
+93%
+IPCA
+CDI
+2%
+Outros
+62%
+38%
+BRL
+USD
+Dívida em Dólar¹
+R$27.510
+milhões
+Dívida em Real¹
+Caixa e equivalentes de caixa 
+& títulos e valores mobiliários
+R$ 5.416
+milhões
+R$ 8.885
+milhões
+¹Inclui swaps e valor justo de marcação a mercado desses instrumentos
+Evolução do Saldo de Caixa e Equivalentes de Caixa & Títulos e 
+Valores Mobiliários 1T26
+R$ milhões
+10.891
+1.652
+dez-25
+404
+Fluxo de 
+Caixa Livre
+0
+Captações Amortizações
+7
+Variação 
+Cambial Caixa
+42
+Outros mar-26
+8.885
+-2.007
+
+[p. 28]
+28/44 
+ 
+ 
+Release de Resultados 1T26 
+Hedge Accounting 
+A Klabin utiliza o método contábil de hedge accounting de fluxo de caixa e valor justo. 
+A partir de janeiro de 2021, a Companhia implementou o método contábil de hedge accounting. Esta 
+prática, alinhada à gestão de risco e à estratégia da Administração, busca refletir na demonstração do 
+resultado os efeitos econômicos da relação de hedge entre objeto e instrumento de hedge quando e 
+somente quando o objeto for realizado. 
+A Companhia designa instrumentos financeiros (derivativos de índices e moeda estrangeira, e 
+empréstimos e financiamentos em moeda estrangeira) como instrumentos de hedge. Estas designações 
+são segregadas em quatro programas de contabilidade de hedge, sendo: (i) hedge de fluxo de caixa de 
+receita futura em USD (transações altamente prováveis), (ii) hedge de fluxo de caixa de taxa de juros, (iii) 
+hedge de fluxo de caixa de exposição líquida em USD, e (iv) hedge de valor justo de taxa de juros. 
+ 
+Hedge de Fluxo de Caixa de Receita Futura (Transações Altamente Prováveis) 
+A Companhia possui um programa de contabilidade de hedge de fluxo de caixa de receita futura altamente 
+provável designando instrumentos de dívida em moeda estrangeira (USD) e/ou convertidos em moeda 
+estrangeira através de contratos swaps, como instrumentos de hedge de suas receitas futuras altamente 
+prováveis em mesma moeda. 
+Os empréstimos e financiamentos designados como instrumento de hedge são mensurados pelo custo 
+amortizado e a variação cambial é reconhecida em outros resultados abrangentes na linha de “Ajustes de 
+avaliação patrimonial”. No caso dos derivativos swaps, a mensuração do valor justo é feita através do 
+valor presente dos fluxos de caixa futuros projetados descontados pelas taxas de mercado, onde as 
+variações também são reconhecidas em outros resultados abrangentes na linha de “Ajustes de avaliação 
+patrimonial”. 
+A medida em que houver a realização das receitas em dólar atreladas a estas dívidas designadas na 
+relação de hedge , os respectivos valores acumulados de variação cambial na linha de “Ajustes de 
+avaliação patrimonial” são reclassificados para a demonstração do resultado em “Receita Líquida”. 
+Em 31 de março de 202 6, o saldo de reserva e custo de hedge acumulado em outros resultados 
+abrangentes no Patrimônio Líquido é de R$ 164 milhões, correspondente a variação dos instrumentos de 
+dívidas designados neste programa. No mesmo período, a Companhia realizou a receita de exportação 
+de US$ 220 milhões que era objeto de hedge e cujos empréstimos e financiamentos designados como 
+instrumentos de hedge foram conjuntamente liquidados, incorrendo na realização de uma despesa de 
+R$ 116 milhões de variação cambial acumulada registrada no resultado sob a rubrica de “Receita líquida”. 
+ 
+Hedge de Fluxo de Caixa de Taxa de Juros 
+A Companhia adota a contabilidade de hedge de taxa de juros com o objetivo de demonstrar os efeitos 
+no resultado ao trocar (SWAP) o risco de variação da SOFR (taxa flutuante) como indexador de dívida de 
+Pré-Pagamento de Exportação para taxa pré-fixada em USD. Neste programa de hedge de juros de fluxo 
+de caixa, os derivativos swaps são designados como instrumentos de hedge das despesas de juros 
+(objeto) das dívidas de Pré-Pagamento de Exportação.
+
+[p. 29]
+29/44 
+ 
+ 
+Release de Resultados 1T26 
+Os juros objeto da relação de hedge são mensuradas pelo método de custo amortizado, e os instrumentos 
+derivativos designados são mensurados pelo valor justo. As variações da curva futura do valor justo são 
+reconhecidas em outros resultados abrangentes na linha de “Ajustes de avaliação patri monial”, e 
+transferidas para demonstração do resultado em “Despesas Financeiras” quando ocorrer a realização do 
+objeto hedgeado. 
+Em 31 de março de 2026, o saldo de reserva de hedge acumulado em outros resultados abrangentes no 
+Patrimônio Líquido é de R$ 3,7 milhões, correspondendo a variação da curva futura da mensuração à 
+valor justo dos derivativos designados no programa. 
+ 
+Hedge de Fluxo de Caixa – Exposição Líquida 
+Conforme Comunicado ao Mercado publicado em 5 de dezembro de 2023, a Companhia aprovou a 
+Política de hedge cambial de fluxo de caixa com o objetivo de: (i) definir a fórmula de cálculo da exposição 
+cambial líquida da Companhia; (ii) estabelecer instrumentos, parâmetros e responsabilidades para a 
+contratação e gestão de instrumentos financeiros derivativos visando, exclusivamente, proteger o fluxo 
+de caixa da Klabin das variações cambiais; e (iii) assegurar que o processo de gestão da exposição 
+cambial do fl uxo de caixa esteja em conformidade com as demais políticas da Companhia e suas 
+diretrizes. A política estipula que a exposição cambial líquida da Companhia deve ser parcialmente 
+protegida (mínimo de 25% e até 50% da exposição cambial para os próximos 24 m eses) por meio de 
+instrumentos padrão, como Zero Cost Collar (ZCC) e Non-Deliverable Forward (NDF). 
+Em 31 de março de 2026, o saldo de reserva de hedge acumulado em outros resultados abrangentes no 
+Patrimônio Líquido é de R$ 253 milhões, correspondendo a variação da marcação a mercado dos 
+derivativos designados no programa. 
+ 
+Hedge de Valor Justo de Taxa de Juros 
+Em 30 de setembro de 2025, a Companhia implementou um programa de contabilidade de hedge de valor 
+justo de taxa de juros com o objetivo de proteção e/ou mitigação de riscos específicos de indexadores de 
+dívidas. Em alguns contratos, a Companhia contratou i nstrumentos financeiros derivativos (swap) para 
+troca de IPCA/Pré para CDI (dívidas como BNDES, Debêntures, CPRs, CCB, PPE). 
+Em 31 de março de 2026, o saldo de marcação a mercado dos instrumentos derivativos designados ao 
+programa é de R$ 151 milhões reconhecido na linha de “Instrumentos Financeiros Derivativos” no Ativo 
+e Passivo. 
+A adoção do hedge accounting é exclusivamente contábil e não impacta a geração de caixa e o 
+EBITDA Ajustado da Companhia. 
+Para mais informações, acesse as demonstrações financeiras do exercício (link).
+
+[p. 30]
+30/44 
+ 
+ 
+Release de Resultados 1T26 
+Instrumentos Financeiros Derivativos 
+A Klabin possui instrumentos financeiros derivativos exclusivamente com a finalidade de proteção 
+(hedge). Em 31 de março de 2026, a Companhia possuía em aberto o montante (valor nocional) de 
+US$ 2,1 bilhões em contratos derivativos cambiais e R$ 9, 0 bilhões em contratos derivativos de juros, 
+conforme tabelas abaixo. A marcação a mercado (valor justo) dessas operações (derivativos cambiais + 
+derivativos de juros) estava positiva em R$ 914 milhões ao final do período, sendo classificada de acordo 
+com o método contábil de hedge accounting de fluxo de caixa. A tabela a seguir reflete a posição dos 
+instrumentos derivativos: 
+ 
+Instrumento financeiro de câmbio: 
+ 
+ 
+Instrumento financeiro de taxa de juros: 
+ 
+ 
+Swaps de dívida (Taxa de Juros e Câmbio) 
+A Klabin possui instrumentos financeiros derivativos ( swaps) atrelados a seus empréstimos e 
+financiamentos com a intenção de adequar os indexadores cambiais ou de taxas de juros aos indexadores 
+da geração de caixa da Companhia, mitigando assim os impactos gerados pelas flutuações nas taxas de 
+câmbio e juros. No encerramento de março de 2026, a Companhia possuía em aberto o montante (valor 
+nocional) de US$ 1,6 bilhão em contratos derivativos ( swaps) cambiais e R$ 9, 0 bilhões em contratos 
+derivativos de juros conforme as tabelas abaixo. 
+ 
+Swaps cambiais 
+ 
+ 
+ 
+ 
+1T26 4T25 1T26 4T25
+Fluxo de Caixa (Zero Cost Collars ) 503 551 253 143
+Dívida (Swaps Cambiais) 1.628 1.628 394 (252)
+Total 2.131 2.178 647 (110)
+Hedge Valor Nocional (US$ milhões) Valor Justo (R$ milhões)
+1T26 4T25 1T26 4T25
+Dívida (Swaps Juros) 8.947 9.400 267 180
+Hedge Valor Nocional (R$ milhões) Valor Justo (R$ milhões)
+Mar/26 Dez/25 Mar/26 D ez/25
+Debêntures 114,65% CDI USD + 5,40% 20/ 03/2019 19/03/2029 USD 266 266 (356) (425)
+CRA IV IPCA + 4,51% USD + 3,82% 08/12/2022 15/03/2029 USD 189 189 131 51
+CRA Continuado IPCA + 3,50% USD + 2,45% 01/09/2022 15/06/2029 USD 230 230 155 47
+CRA VI IPCA + 6,77% USD + 5,20% 15/07/2022 15/04/2034 USD 467 467 355 127
+CCB Rural 100% CDI USD + 5,13% 04/04/2025 04/04/2030 USD 351 351 226 46
+PPEs USD + 5,00% 93% CDI 19/12/2025 19/12/2028 USD 125 125 (118) (99)
+Total 1.628 1.628 394 (252)
+Hedge de Dívida Taxa original Taxa Swap
+Valor Justo (R$ 
+milhões)Contratação Vencimento Moeda
+Valor Nocional 
+(US$ milhões)
+
+[p. 31]
+31/44 
+ 
+ 
+Release de Resultados 1T26 
+ 
+Swaps de taxas de juros 
+ 
+ 
+Hedge Cambial 
+Conforme detalhado anteriormente, a Klabin possui Política de hedge cambial de fluxo de caixa. Em 31 
+de março de 2026 , o valor em aberto das operações (valor nocional) de ZCC ( Zero-Cost Collar) 
+relacionados a Fluxo de Caixa era de US$ 503 milhões, com vencimentos distribuídos entre abril de 2026 
+e março de 2028. Já a marcação a mercado (valor justo) dessas operações totalizou R$ 424 milhões 
+positivos ao final do trimestre. Durante o 1 T26, as operações de Hedge Cambial de Fluxo de Caixa 
+apresentaram resultado positivo em R$ 30 milhões, conforme tabela abaixo: 
+ 
+Zero Cost Collars (ZCC): 
+ 
+ 
+ 
+Mar/26 Dez/25 Mar/26 D ez/25
+BNDES IPCA + 3,58% 74,91% CDI 26/ 10/2023 16/11/2039 BRL 2.317 2.975 92 58
+Debêntures IPCA + 6,05% 99,48% CDI 15/08/2024 15/08/2039 BRL 1.519 1.589 (62) (107)
+CCB Rural Pré 14,26% 100% CDI 04/04/2025 04/04/2030 BRL 2.341 2.000 194 227
+CPR IPCA + 7,16% 93,86% CDI 15/08/2025 15/08/2035 BRL 1.204 1.204 46 17
+PPE SOFR+ 1,41% USD+ 4,98% 23/04/2025 23/04/2032 USD 1.566 1.651 (2) (15)
+Total 8.947 9.418 267 180
+Hedge de Dívida Taxa original Taxa Swap Contratação Vencimento Moeda
+Valor Nocional (R$ 
+milhões)
+Valor Justo (R$ 
+milhões)
+Realizado
+Câmbio 
+Fechamento 
+1T
+26¹
+Sensibilidade a 
+R$0,10/ US$ de 
+v
+ariação2
+1T26 - - - 30 - -
+2T
+26 5,90 6,69 73 - 50 7
+3T26 6,06 6,87 101 - 85 10
+4T26 6,41 7,22 62 - 73 6
+1T27 6,35 7,16 59 - 67 6
+2T27 6,23 7,03 35 - 35 4
+3T27 5,95 6,74 80 - 58 8
+4T27 5,94 6,74 57 - 41 6
+1T28 5,64 6,42 37 - 15 4
+Total 6,06 6,86 503 30 424 50
+Ajuste Caixa (R$ milhões)
+Prazo Put
+(Médio)
+Call
+(Médio)
+Valor 
+Nocional
+ (U
+S$ 
+milhões)
+¹ Câmbio Fechamento do 1T26: 5,2194 R$/US$
+² Demonstra o impacto no caixa para variações de R$ 0,10 abaixo/acima do patamar de strike médio, definidas a cada trimestre.
+
+[p. 32]
+32/44 
+ 
+ 
+Release de Resultados 1T26 
+Mercado de Capitais 
+Renda Variável 
+As units da Klabin, negociadas sob o código KLBN11 (1 ação ordinária + 4 ações preferenciais), 
+registraram uma valorização de 4,0% no primeiro trimestre de 2026 e de 5, 6% no acumulado de doze 
+meses findos em 31 de março de 2026 , fechando o período cotadas a R$ 19,51/ unit. Estas cotações 
+refletem o impacto da bonificação das ações aprovada em reunião do Conselho de Administração de 08 
+de dezembro de 2025 e executada em 22 de dezembro de 2025. O Ibovespa apresentou uma valorização 
+de 16,3% no 1T26 e de 43,9% nos últimos doze meses. As units da Klabin, negociadas em todos os 
+pregões da B3, alcançaram cerca de 336 milhões de transações no 1T26. Em volume financeiro, a liquidez 
+média diária foi de R$ 107 milhões no trimestre e R$ 100 milhões nos últimos doze meses. A cotação 
+máxima atingida ao longo do trimestre foi de R$ 21,02/unit em 11/02/2026, enquanto o valor mínimo foi 
+de R$ 18,35/unit, no dia 07/01/2026. 
+ 
+ 
+ 
+ 
+ 
+ 
+6%
+44%
+KLBN11 x Ibovespa
+Klabin IBOVESPA
+Mar/25 Mai/25Abr/25 Jun/25 Fev/26Jan/26Dez/25Nov/25Jul/25 Ago/25 Set/25 Out/25 Mar/26
+0%
+93
+118
+97 99
+81 77
+96 97 90
+123
+100
+139
+89
+0
+50
+100
+150
+200
+250
+300
+Mar/25 Abr/25 Mai/25 Jun/25 Jul/25 Ago/25 Set/25 Out/25 Nov/25 Dez/25 Jan/26 Fev/26 Mar/26
+Volume Médio de Negociação Diária - KLBN11
+(R$ Milhões)
+
+[p. 33]
+33/44 
+ 
+ 
+Release de Resultados 1T26 
+ 
+¹Free Float considera o total de ações excluindo-se controladores e vinculados, conselheiros, diretores e ações em tesouraria. 
+ 
+18%
+51%
+31%
+Pessoa Jurídica - Nacional
+Pessoa Jurídica - Estrangeiros
+Pessoa Física
+51%49% EstrangeirosNacionais
+Distribuição do Free Float¹
+31/03/2026
+09/30/2023
+
+[p. 34]
+34/44 
+ 
+ 
+Release de Resultados 1T26 
+Renda Fixa 
+Atualmente a Companhia mantém três emissões ativas no mercado internacional ( Notes ou Bonds). 
+Dentre essas, uma emissão de Green Bonds (2049), cujos títulos devem necessariamente ter seus 
+recursos alocados em green projects elegíveis. Além deste, há uma emissão convencional de dívida 
+(2029). E por último, um Sustainability Linked Bonds (SLB 2031), cujo cupom é atrelado aos indicadores 
+de performance em Sustentabilidade. 
+Em 13 de fevereiro, a Companhia anunciou o resgate antecipado do montante integral em circulação dos 
+Green Bonds 2027 emitidos originalmente pela Klabin Finance S.A. (substituída posteriormente pela 
+Klabin Áustria GmbH como Emissora e Devedora), com a Klabin S.A. como garantidora, junto ao The 
+Bank of New York Mellon, cupom de 4,875% ao ano e vencimento original em 19 de setembro de 2027. 
+Para mais detalhes acesse a página de finanças sustentáveis do Painel ASG da Klabin. 
+Todos os cupons e vencimentos dos títulos são informados nos respectivos gráficos a seguir. 
+ 
+ 
+ 
+Yield – Notes Klabin 2029
+UDM
+Rendimento (%)
+4,5
+5,0
+5,5
+6,0
+6,5
+5,418
+4,5
+5,0
+5,5
+6,0
+6,5
+5,759
+Yield – Notes Klabin 2031
+UDM
+Rendimento (%)
+Yield – Notes Klabin 2049
+UDM
+Rendimento (%)
+6,0
+6,2
+6,4
+6,6
+6,8
+7,0
+7,2
+7,4
+7,058
+mar/25 mar/26set/25jun/25 dez/25mar/25 mar/26set/25jun/25 dez/25
+mar/25 mar/26set/25jun/25 dez/25
+
+[p. 35]
+35/44 
+ 
+ 
+Release de Resultados 1T26 
+Rating 
+No primeiro trimestre de 2026, a agência de classificação de riscos Fitch Ratings reafirmou o rating da 
+Companhia em “BB+” na escala global com alteração da perspectiva de estável para positiva. 
+A alteração da perspectiva reflete a expectativa da redução da alavancagem líquida suportada por forte 
+geração de caixa, menores investimentos e política de dividendos mais conservadora. O que evidencia o 
+compromisso da Companhia com a desalavancagem e com a sólida geração de caixa, sustentado por 
+excelência operacional e financeira, além de estratégias eficazes de liability management. 
+Ainda nesse trimestre, a Moody’s reafirmou os ratings Ba1 global e AAA.br nacional para a Companhia, 
+ambos com perspectiva estável. Durante o período, a S&P manteve o rating inalterado. 
+Para mais informações, os relatórios atualizados estão disponíveis no site de Relações com Investidores 
+da Klabin. 
+A tabela abaixo apresenta as classificações de risco e perspectivas das agências de Rating: 
+ 
+ 
+ 
+ 
+Fitch Ratings AAA(bra) BB+ Positiva março-26
+Moody's AAA.br Ba1 Estável janeiro-26
+Standard & Poor's brAAA BB+ Estável junho-25
+Agência Escala Local Escala Global Perspectiva Ultima Atualização
+
+[p. 36]
+36/44 
+ 
+ 
+Release de Resultados 1T26 
+Proventos 
+Abaixo, apresentamos a visão caixa dos proventos distribuídos pela Companhia no período referente aos 
+últimos doze meses findos em 31 de março de 2026. 
+ 
+¹Calculado com base nos Dividendos e JCP pagos por unit e no preço médio diário do fechamento da unit no período 
+ 
+No primeiro trimestre de 2026 a Companhia distribuiu, na visão caixa, R$ 278 milhões em dividendos, 
+correspondentes ao montante total de R$ 0,0455971722475 por ação (ON e PN) e R$ 0,2279858612375 
+por unit. Nos últimos doze meses findos em 31 de março de 2026, o montante pago em proventos somou 
+R$ 1,181 bilhão, equivalente a um dividend yield de 5,2%. 
+A Companhia dispõe de Política de Dividendos e Juros sobre Capital Próprio na qual a Companhia define 
+o percentual alvo para pagamento de proventos entre 10% e 20% do EBITDA Ajustado. Para acessar a 
+Política na íntegra, clique aqui. 
+Em 08 de dezembro de 2025, a Companhia aprovou a distribuição de dividendos intercalares no valor 
+total de R$ 1,112 bilhão, apurados com base no balanço de 30 de setembro de 2025. Esse montante 
+corresponde a R$ 0,18238868899 por ação ordinária ou preferencial e R$ 0,91194344495 por Unit. Os 
+dividendos, declarados conforme o Estatuto Social, serão considerados para o cumprimento do target 
+previsto na Política de Dividendos e serão pagos em quatro parcelas iguais de R$ 278 milhões cada, nas 
+datas de 27/02/2026, 20/05/2026, 19/08/2026 e 12/11/2026, sem juros ou correção monetária. Para 
+acessar o documento completo, clique aqui. 
+ 
+ 
+ 
+5,3% 5,2%
+0,0%
+6,0%
+0
+200
+400
+600
+800
+1.000
+1.200
+Dividend Yield (%)¹
+1.215 1.181
+0,0%
+6,0%
+12,0%
+18,0%
+24,0%
+30,0%
+36,0%
+42,0%
+48,0%
+54,0%
+60,0%
+66,0%
+72,0%
+78,0%
+84,0%
+90,0%
+96,0%
+102,0%
+108,0%
+114,0%
+2025 UDM 2026
+0
+200
+400
+600
+800
+1.000
+1.200
+1.400
+Proventos Pagos (R$ milhões)
+
+[p. 37]
+37/44 
+ 
+ 
+Release de Resultados 1T26 
+Eventos Subsequentes 
+ 
+Assembleia Geral Ordinária e Extraordinária 
+Foi realizada no dia 07 de abril de 2026 , a Assembleia Geral Ordinária e Extraordinária da Companhia, 
+que aprovou, dentre outros temas, a eleição dos membros do Conselho de Administração e Conselho 
+Fiscal da Companhia. Os documentos referentes ao evento estão disponíveis no site de relações com 
+investidores da Companhia, no link. 
+ 
+Emissão CPR 
+Conforme Fato Relevante divulgado em 29 de abril de 2026, a Companhia celebrou o encerramento da 
+oferta do contrato de Cédulas de Produto Rural (“CPR”), com liquidação financeira, escriturais, em 3 (três) 
+séries, no montante total de R$ 1,75 bilhão e vencimentos em 2033, 2036, 2037 e 2038. Mais detalhes 
+sobre as condições de cada uma das séries estão disponíveis no documento mencionado. 
+ 
+Aquisição de Participação Acionária Relevante 
+Conforme Comunicado ao Mercado divulgado em 22 de abril de 2026, a BlackRock, Inc, em nome de 
+alguns de seus clientes e na qualidade de administrador de investimentos, informou a aquisição de valores 
+mobiliários da Companhia, na qual foi reportado que, em 16 de abril de 2026, referido acionista passou a 
+deter, de forma agregada, aproximadamente 10,003% das ações preferenciais emitidas pela Companhia. 
+A BlackRock informou que sua participaçã o possui natureza exclusivamente de investimento, sem 
+intenção de alterar o controle acionário ou a estrutura administrativa da Companhia, bem como que não 
+existem acordos ou contratos relacionados ao exerc ício de direitos de voto ou à compra e venda de 
+valores mobiliários de emissão da Companhia. 
+ 
+Índice Dow Jones e Índice de Sustentabilidade 
+Empresarial (ISE) B3 
+Conforme Comunicado ao Mercado divulgado em 04 de maio de 2026, a Companhia integra, pelo 6º ano 
+consecutivo, o Dow Jones Best -in-Class Indices (DJ BIC) – Global (World Index), que reúne empresas 
+líderes globais reconhecidas por sua capacidade de gerar valor sustentável no longo prazo. Além disso, 
+pelo 13º ano consecutivo a Klabin também integra a carteira do ISE da B3 – Brasil, Bolsa, Balcão.
+
+[p. 38]
+38/44 
+ 
+ 
+Release de Resultados 1T26 
+Teleconferência 
+Português 
+Quinta-feira, 07 de maio de 2026 
+Horário: 11h00 (Brasília) 
+Acesso via Zoom: clique aqui 
+ 
+ 
+Inglês (Tradução Simultânea) 
+Quinta-feira, 07 de maio de 2026 
+Horário: 10h00 (NYC) 
+Acesso via Zoom: clique aqui
+Canais de RI 
+A equipe de Relações com Investidores está à disposição. 
+Site de Relações com Investidores: ri.klabin.com.br 
+E-mail: invest@klabin.com.br 
+ 
+Plataforma de conteúdos voltada ao investidor pessoa física com vídeos e podcasts sobre os negócios 
+da Klabin e o mercado de investimentos. Acesse ri.klabin.com.br/KlabinInvest. 
+ 
+ 
+A Companhia também possui a Newsletter Klabin Invest, que entrega trimestralmente em sua caixa de e-
+mail as principais novidades sobre a Companhia. Para se inscrever, clique aqui. 
+ 
+ 
+ 
+Declarações contidas neste documento relativas à perspectiva dos negócios da Companhia, projeções de resultados 
+operacionais e financeiros e, ao potencial de crescimento da Companhia constituem-se em meras previsões e foram baseadas 
+nas expectativas da Administração em relação ao futuro da Companhia. Essas expectativas são altamente dependentes de 
+mudanças no mercado, no desempenho econômico geral do Brasil, na indústria e nos mercados internacionais, estando, 
+portanto, sujeitas à mudança. 
+As demonstrações financeiras consolidadas da Klabin são apresentadas de acordo com as normas internacionais de 
+contabilidade (International Financial Reporting Standards - IFRS), conforme determinam as instruções CVM 457/07 e CVM 
+485/10. O EBITDA Ajustado segue a instrução CVM 156/22. Algumas cifras dos quadros e gráficos apresentados ao longo do 
+documento poderão não expressar um resultado preciso em razão de arredondamentos.
+
+[p. 39]
+39/44 
+ 
+ 
+Release de Resultados 1T26 
+Anexo 1 - Demonstração do Resultado 
+Consolidado¹ 
+ 
+¹ O Resultado Operacional antes das Despesas Financeiras já está líquido dos efeitos da equivalência patrimonial. 
+ 
+ 
+ 
+∆ ∆
+1T26/4T25 1T26/1T25
+Receita Bruta 5.942.473 5 .973.127 5.630.158 -1% 6%
+Descontos e Abatimentos (879.885) (759.805) (750.008) 16% 17%
+Realização do Hedge de Fluxo de Caixa (116.631) (48.018) (21.616) n/a n/a
+Receita Líquida 4.945.957 5.165.304 4.858.534 -4% 2%
+Variação Valor Justo dos Ativos Biológicos (581.330) 343.541 388.044 n/a n/a
+Custo dos Produtos Vendidos (3.860.601) (4.026.584) (3.612.042) -4% 7%
+Lucro Bruto 504.026 1.482.261 1.634.536 -66% -69%
+Despesas de Vendas (440.271) (467.204) (374.533) -6% 18%
+Gerais & Administrativas (299.685) (336.017) (297.280) -11% 1%
+Outras Rec. (Desp.) Oper. 44.200 231.672 (36.325) -81% n/a
+Total Despesas Operacionais (695.756) (571.549) (708.138) 22% -2%
+Equivalência Patrimonial 1.935 (1.574) 252 n/a n/a
+Resultado Oper. antes Desp. Fin. (189.795) 909.138 926.650 n/a n/a
+Despesas Financeiras (797.496) (1.009.038) (459.980) -21% 73%
+Variações Cambiais Passivos 227.752 (124.447) 284.048 n/a -20%
+Total Despesas Financeiras (569.744) (1.133.485) (175.932) -50% n/a
+Receitas Financeiras 242.131 258.970 163.862 -7% 48%
+Variações Cambiais Ativos (241.934) 167.395 (146.365) n/a 65%
+Total Receitas Financeiras 197 426.365 17.497 -100% -99%
+Resultado Financeiro (569.547) (707.120) (158.435) -19% n/a
+Lucro Antes de I.R. e Contrib. Social (759.342) 202.018 768.215 n/a n/a
+Provisão de IR e Contrib. Social 262.366 (33.519) (321.716) n/a n/a
+Lucro (Prejuizo) Líquido (496.976) 168.499 446.499 n/a n/a
+Participação dos Acionistas minoritários 33.080 87.246 45.257 -62% -27%
+Resultado Líquido atribuído aos acionistas Klabin (530.056) 81.253 401.242 n/a n/a
+Depreciação/Amortização/Exaustão 1.162.379 1.244.175 1.298.841 -7% -11%
+Variação Valor Justo dos Ativos Biológicos 581.330 1.872.883 (388.044) -69% n/a
+Realização do Hedge de Fluxo de Caixa 116.631 48.018 21.616 n/a n/a
+Crédito fiscal sobre subvenção - (27.856) - n/a n/a
+LAJIDA/EBITDA Ajustado 1.668.610 1.831.509 1.858.811 -9% -10%
+(R$ mil) 1T254T251T26
+
+[p. 40]
+40/44 
+ 
+Release de Resultados 1T26 
+Anexo 2 – Balanço Patrimonial Consolidado 
+ 
+Ativo Circulante 16.094.470 18.049.685 12.994.752 Passivo Circulante 9.049.524 8.767.398 6.631.901
+Caixa e Equivalentes de Caixa 8.095.152 10.106.016 5.671.194 Fornecedores 2.178.311 2.362.018 2.203.907
+Títulos e Valores Mobiliários 789.910 785.369 799.107 Fornecedor risco sacado 640.053 658.466 540.124
+Contas a Receber 2.290.321 2.404.326 1.724.715 Fornecedor risco sacado florestal 1.227.389 1.118.187 423.208
+Partes relacionadas 5.432 7.981 - Passivos de arrendamentos 264.588 251.911 266.817
+Estoques 3.731.567 3.683.984 3.421.825 Obrigações fiscais 310.846 285.544 354.671
+Instrumentos financeiros derivativos 254.817 110.015 - Obrigações sociais e trabalhistas 401.130 556.251 385.681
+Imposto de renda e contribuição social a recuperar 431.404 361.972 661.983 Empréstimos e financiamentos e debêntures 2.271.644 1.770.665 1.605.346
+Tributos a recuperar 285.027 356.450 366.833 Instrumentos financeiros derivativos 118.654 - 221.048
+Outros ativos 210.840 233.572 349.095 Provisão para imposto de renda e contribuição social correntes 75.908 87.913 115.548
+Dividendos e/ou juros sobre capital próprio a pagar 834.000 1.112.000 -
+Outras contas a pagar e provisões 727.001 564.443 515.551
+Não Circulante 45.996.164 45.747.092 44.478.412 Não Circulante 37.462.143 40.628.278 39.533.005
+Instrumentos derivativos 1.144.356 544.521 - Fornecedores 2.102 6.053 24.543
+IR/CS diferidos 102.253 103.138 10.895 Fornecedor risco sacado florestal 345.067 233.784 479.969
+Depósitos judiciais 226.775 216.005 207.282 Passivos de arrendamentos 1.495.051 1.485.620 1.441.204
+Imposto de renda e contribuição social a recuperar 217.196 212.535 198.040 Empréstimos e financiamentos e debêntures 31.315.364 34.950.377 34.571.422
+Tributos a recuperar 193.775 213.790 211.745 Instrumentos derivativos 356.979 574.557 620.965
+Partes relacionadas 23.741 23.741 - Imposto de renda e contribuição social diferidos 2.403.631 1.878.984 1.019.242
+Outros ativos 315.445 280.145 200.098 Contas a pagar - investidores de sociedade em conta de participação 188.354 189.898 194.591
+Participação em controladas e controladas em conjunto 78.007 76.072 117.710 Provisões fiscais, previdenciárias, trabalhistas e cíveis 567.773 520.181 434.341
+Outros 20.819 20.819 17.410 Provisão do passivo atuarial 590.889 575.155 511.095
+Imobilizado 28.637.059 28.648.316 28.736.659 Obrigações fiscais 70.676 90.300 138.200
+Ativos biológicos 12.839.389 13.242.376 12.710.821 Outras contas a pagar e provisões 126.257 123.369 97.433
+Ativos de direito de uso 1.692.567 1.659.808 1.630.384 Patrim. Líquido - Acionistas Controladores 9.046.011 7.885.946 8.626.516
+Intangíveis 504.782 505.826 437.368 Capital social 6.875.625 6.875.625 6.075.625
+Reservas de capital (133.675) (156.626) (177.233)
+Reservas de lucros 2.777.662 2.777.662 4.188.843
+Ajustes de avaliação patrimonial 138.252 (1.508.833) (1.796.719)
+Ações em tesouraria (81.904) (101.882) (101.910)
+Ágio em transações de capital em controladas - - 36.668
+Resultado do período (529.949) - 401.242
+Patrimônio Líquido Atrib. aos Não Control. 6.532.956 6.515.155 2.681.742
+Passivo Total + Patrimônio Líquido 62.090.634 63.796.777 57.473.164
+Ativo Total 62.090.634 63.796.777 57.473.164
+dez/25 mar/25mar/26Ativo (R$ mil) mar/26 dez/25 mar/25
+
+[p. 41]
+41/44 
+ 
+Release de Resultados 1T26 
+Anexo 3 - Cronograma de amortização da Dívida (em 31/03/2026) 
+Dívidas contratadas em reais atreladas a swaps para dólar consideradas como 
+dívidas em moeda estrangeira para efeito deste anexo 
+ 
+ 
+BNDES 131 186 213 213 213 195 196 207 207 202 176 569 - 2.708
+CRA - - - - - - - - - - - - - - 
+CPR 14 - - - - - 300 - - 1.159 - - - 1.473
+Debêntures 10 - - - - - - - - - - 1.477 - 1.487
+Moeda Nacional 156 186 213 213 213 195 496 207 207 1.360 176 2.046 - 5.668
+CCB - 282 - - 1.640 - - - - - - - - 1.921
+Pré Pagamento/NCE 26 - - - 1.045 262 262 756 - - - - - 2.350
+Debêntures 5 452 452 452 - - - - - - - - - 1.361
+Bonds 252 - - 3.818 - 2.610 - - - - - - 3.654 10.334
+ECA e IDC/IFC/JICA 510 541 1.443 1.443 690 713 590 167 - - - - - 6.096
+CRA 111 758 754 754 - - - - 2.529 - - - - 4.906
+EDC 19 - - - 261 261 261 - - - - - - 802
+Moeda Estrangeira¹ 924 2.033 2.649 6.467 3.635 3.846 1.112 923 2.529 - - - 3.654 27.771
+Custo com captação (comissões) (50) (66) (64) (78) (72) (66) (54) ( 38) (14) (10) (9) (6) 16 (513)
+Endividamento Bruto 1.080 2.218 2.862 6.680 3.849 4.041 1.608 1.130 2.736 1.360 176 2.046 3.654 33.439
+Endividamento Bruto líquido de comissões 1.029 2.152 2.798 6.602 3.777 3.974 1.554 1.092 2.722 1.350 167 2.039 3.670 32.927
+¹Inclui swaps e v alor justo de marcação a mercado desse instrumento
+R$ milhões Total20342026 2027 2028 2029 2033 2037 a 
+2042
+2043 a 
+20492030 2031 2032 2035 2036
+
+[p. 42]
+42/44 
+ 
+Release de Resultados 1T26 
+ 
+ 
+ 
+156
+1.360 176 2.046
+3.654
+5.668
+924
+2.033 2.649
+6.467
+3.635 3.846
+1.112
+2.529
+2030
+195
+2031
+496
+2032
+207
+923
+2033
+207
+2034
+0
+20352026
+0
+186
+2027 2036
+0
+2037 a 
+2042
+0
+2043 a 
+2049
+213
+27.771
+Total
+1.080 2.218 2.862
+2028
+3.849 4.041
+1.608 1.130
+2.736
+1.360
+6.680
+2.046
+3.654
+33.439
+213
+2029
+213
+176
+Moeda Local Moeda Estrangeira
+Total: R$ 27.771 Milhões
+8.885
+2.610
+Liquidez
+Revolving Credit Facility
+Posição 
+em Caixa
+11.495
+Total: R$ 5.668 Milhões
+Dívida Bruta Total: R$ 33.439 Milhões
+
+[p. 43]
+43/44 
+Release de Resultados 1T26 
+Anexo 4 - Demonstração do Fluxo de Caixa 
+Consolidado 
+ 
+ 
+Lucro antes dos tributos sobre o lucro (759.342) 202.018 768.215
+Depreciação e amortização 594.543 600.287 484.397
+Exaustão de ativos biológicos 567.836 643.889 814.444
+Variação do valor justo dos ativos biológicos 550.498 (343.541) (388.044)
+Variação do valor justo de Títulos e valores mobiliários (5.182) (17.888) (9.401)
+Juros e variação monetária 678.781 663.449 699.200
+Variação cambial 14.182 (42.948) (137.683)
+Custo de transação 18.644 40.304 33.591
+Juros de arrendamentos 10.183 55.227 33.459
+Ajuste valor presente - risco sacado florestal 46.257 40.477 26.802
+Instrumentos financeiros derivativos (77.892) 91.450 (457.126)
+Realização da reserva de hedge 86.048 41.012 21.616
+Rendimentos sobre aplicações financeiras (228.091) (235.414) (156.290)
+Perdas estimadas de crédito de liquidação duvidosa (PECLD) 162 (2.955) 1.811
+Perdas estimadas com estoque (6.803) 12.346 12.547
+Resultado na alienação de ativos (64.378) (179.878) -
+Resultado de equivalência patrimonial (1.935) 1.574 (252)
+Provisão para processos judiciais e administrativos 41.748 (9.474) 29.600
+Outras 5.995 (39.734) 4.839
+Contas a receber de clientes e partes relacionadas 77.924 (447.664) 58.953
+Estoques 159.574 216.938 300.791
+Tributos a recuperar 25.380 75.290 9.101
+Outros ativos 56.733 317.696 (48.644)
+Fornecedores, risco sacado e risco sacado florestal (522.379) (359.274) (174.606)
+Obrigações fiscais 22.862 (36.779) 50.261
+Obrigações sociais e trabalhistas (155.121) (30.172) (141.655)
+Outros passivos 257.140 (35.405) 167.268
+Caixa gerado nas operações 1.393.367 1.220.831 2.003.194
+Imposto de renda e contribuição social pagos (59.186) (106.511) (65.831)
+Caixa líquido (aplicado nas) gerado pelas atividades operacionais 1.334.181 1.114.320 1.937.363
+Adição de bens do ativo imobilizado e intangível (Capex) (551.992) (137.218) (558.314)
+Aquisição de ativos Caetê - - -
+Caixa Adquirido - Projeto Caetê - - -
+Adição de plantio e compras de madeira em pé (Capex) (287.178) (746.556) (82.308)
+Aporte de Capital - - -
+Títulos e valores mobiliários 228.732 234.144 160.621
+Recebimento na alienação de ativos 1.074 38.485 2.837
+Dividendos recebidos de empresas controladas 2.550 37.129 4.361
+Caixa Líquido Atividades de Investimento (606.814) (574.016) (472.803)
+Captação de empréstimos e financiamentos - 1.126.779 -
+Amortização de empréstimos e financiamentos e debêntures (1.652.516) (1.131.721) (1.795.170)
+Pagamento de juros de empréstimos, financiamentos e debêntures (439.988) (574.033) (495.975)
+Pagamento de passivos de arrendamentos (144.187) (126.580) (111.599)
+Alienação de ações mantidas em tesouraria 36.934 - 33.050
+Pagamento de operações com derivativos (45.688) 101.536 (488.759)
+Aumento de capital em controladas pelos não controladores - 1.548.302 814.110
+Pagamento dividendos SCPs e SPEs (8.259) (67.551) (23.660)
+Dividendos/Juros sobre capital próprio pagos (278.000) (352.619) (277.170)
+Caixa Líquido Atividades de Financiamento (2.531.704) 524.113 (2.345.173)
+Aumento(Redução) de Caixa e Equivalentes (1.804.337) 1.064.417 (880.613)
+Efeito de variação cambial de caixa e equivalentes (206.527) 82.128 (184.364)
+Aumento (redução) de caixa e equivalentes c/ Caixa adquirido (2.010.864) 1.146.545 (1.064.977)
+Saldo inicial de caixa e equivalentes de caixa 10.106.016 8.959.471 6.736.171
+Saldo final de caixa e equivalentes de caixa 8.095.152 10.106.016 5.671.194
+R$ mil 1T26 4T25 1T25
+
+[p. 44]
+44/44 
+Release de Resultados 1T26
+
+[p. 45]
+1/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+Earnings 
+Release 
+1Q26
+
+[p. 46]
+2/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+NET REVENUE REACHES R$ 4.9 BILLION IN 1Q26, REFLECTING 
+VOLUME GROWTH ACROSS ALL BUSINESSES 
+ 
+ 
+Sales volume +12% YoY Pulp Fluff 
+Increase in sales volume during the period by 
+110 thousand metric tons, supported by 
+operational stability and the continued ramp -up 
+of PM27 and PM28. 
+Sales of 111 thousand metric tons of long -fiber 
+and fluff pulp, supporting greater revenue 
+resilience and margin expansion across the 
+cycle. 
+ 
+Paper Containerboard Packaging Corrugated Boxes 
+41% increase in the volume of containerboard 
+sold in the export market and 8% growth in paper 
+revenue in 1Q26 compared to 1Q25, given the 
+strategy of accessing new markets and 
+maximizing machine profitability. 
+Net revenue increased by 9% compared to 
+1Q25, driven by higher sales volumes that 
+outperformed the Brazilian market (Empapel) 
+and by price increases. 
+ 
+Leverage (US$) 3.3x Fitch Ratings Positive Outlook 
+Leverage, measured in U.S. dollar, stood at 3.3x 
+at the end of 1Q26, in line with the previous 
+quarter, further strengthening the optimization of 
+the capital structure. 
+Reaffirmation of the Company’s “BB+” rating 
+with a revision of its outlook to positive, which, 
+according to the agency, reflects the expectation 
+of deleveraging supported by strong cash 
+generation. 
+Klabin 
+Market cap 
+R$24 billion¹ 
+ 
+1KLBN11 on 03/31/2026 
+ 
+KLBN11 
+Closing Price 
+R$19.51/unit¹ 
+1Q26 Average Daily 
+Trading Volume 
+R$107 million 
+Conference Call 
+ 
+May 7, 2026 
+(Thursday) 
+10:00 a.m. (EST) 
+Link: Zoom 
+ 
+IR Channels 
+ 
+http://ri.klabin.com.br/ 
+invest@klabin.com.br 
+ 
+ 
+Klabin Invest: 
+Videos and Podcasts
+
+[p. 47]
+3/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Financial Highlights 
+ 
+ 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Sales Volume (thousand tonnes)¹ 1,016 1,025 906 -1% 12%
+% Domestic Market 51% 53% 53% - 2 p.p. - 2 p.p. 
+Pulp 401 404 345 -1% 16%
+Paper 356 353 311 1% 15%
+Packaging 258 269 250 -4% 3%
+Net Revenue² 4,946 5,165 4,859 -4% 2%
+% Domestic Market 65% 65% 62% + 0 p.p. + 3 p.p.
+Pulp 1,409 1,413 1,378 0% 2%
+Paper 1,689 1,720 1,570 -2% 8%
+Packaging 1,794 1,854 1,693 -3% 6%
+Adjusted EBITDA 1,669 1,832 1,859 -9% -10%
+Adjusted EBITDA Margin 34% 35% 38% - 1 p.p. - 4 p.p. 
+Net Income (497) 168 446 n/a n/a
+Net Debt 24,041 25,902 30,482 -7% -21%
+Net Debt / EBITDA (LTM - BRL) 3.1x 3.3x 4.0x - 0.2x - 0.9x 
+Net Debt / EBITDA (LTM - USD) 3.3x 3.3x 3.9x + 0.0x - 0.6x 
+CAPEX 839 1,024 605 -18% 39%
+Average BRL/USD Exchange Rate 5.26 5.40 5.85 -3% -10%
+End of Period BRL/USD Exchange Rate 5.22 5.50 5.74 -5% -9%
+4Q25 1Q25R$ million 1Q26
+¹ Excludes wood and by-product sales
+² Includes wood and by-product sales and hedge accounting
+
+[p. 48]
+4/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Summary 
+Quarterly Message ................................ ................................ ................................ ............................... 5 
+Operational Performance ................................ ................................ ................................ .................... 7 
+Scheduled Maintenance Stoppages ................................ ................................ ................................ ...... 7 
+Net Production ................................ ................................ ................................ ................................ ...... 8 
+Business Performance ................................ ................................ ................................ .......................... 9 
+Forestry ................................ ................................ ................................ ................................ ........... 10 
+Pulp ................................ ................................ ................................ ................................ ................. 10 
+Paper ................................ ................................ ................................ ................................ .............. 12 
+Packaging ................................ ................................ ................................ ................................ ....... 13 
+Economic and Financial Performance ................................ ................................ .............................. 15 
+Net Revenue ................................ ................................ ................................ ................................ ....... 15 
+Total Cash Cost ................................ ................................ ................................ ................................ .. 16 
+Adjusted EBITDA ................................ ................................ ................................ ................................ 19 
+Effect from variations in biological assets ................................ ................................ ............................ 21 
+Financial Result ................................ ................................ ................................ ................................ .. 22 
+Net Income ................................ ................................ ................................ ................................ ......... 22 
+Investments (CAPEX) ................................ ................................ ................................ ......................... 23 
+Free Cash Flow................................ ................................ ................................ ................................ ... 24 
+ROIC - Return on Invested Capital ................................ ................................ ................................ ...... 25 
+Debt and Cash Position ................................ ................................ ................................ ...................... 26 
+Hedge Accounting ................................ ................................ ................................ ............................... 28 
+Derivative Financial Instruments ................................ ................................ ................................ ......... 30 
+Capital Markets................................ ................................ ................................ ................................ ... 32 
+Variable Income ................................ ................................ ................................ ................................ .. 32 
+Fixed Income ................................ ................................ ................................ ................................ ...... 34 
+Rating ................................ ................................ ................................ ................................ ................. 35 
+Shareholder remuneration................................ ................................ ................................ ................. 36 
+Events after the reporting period ................................ ................................ ................................ ...... 37 
+Conference Call ................................ ................................ ................................ ................................ .. 38 
+Annex 1 - Consolidated Income Statement ................................ ................................ ...................... 39 
+Annex 2 – Consolidated Balance Sheet ................................ ................................ ............................ 40 
+Annex 3 - Debt Amortization Schedule (as of March 31, 2026) ................................ ....................... 41 
+Annex 4 - Consolidated Cash Flow Statement ................................ ................................ ................. 43
+
+[p. 49]
+5/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+MESSAGE 
+ 
+In the first quarter of 2026, Klabin demonstrated operational stability, with disciplined execution of its 
+commercial strategy and consistency in its results. The period continued to be influenced by heightened 
+macroeconomic volatility, with inflationary pressures in its key markets and a significant appreciation of the 
+Brazilian real, which placed downward pressure on export revenues. In this context, the Company 
+continues to benefit from its unique portfolio structure, providing operational flex ibility and contributing to 
+mitigate the volatility of its results. 
+Given this scenario, consolidated net revenue totaled R$4.9 billion in the period, a 2% increase compared 
+to 1Q25, mainly reflecting higher volumes across all businesses. Adjusted EBITDA totaled R$1.7 billion in 
+the quarter, incorporating the expected effects of the scheduled maintenance stoppage at the Monte Alegre 
+unit, as well as the strong appreciation of the Brazilian real against the U.S. dollar between the two periods, 
+factors partially offset by the higher sales volume of 110 thousand metric tons. 
+In the pulp segment, the volume sold was 401 thousand metric tons, a 16% increase compared to the 
+same period of the previous year, reflecting higher production volume , resilient demand, and the 
+Company’s disciplined commercial strategy . This quarter, the Company leveraged its commercial and 
+geographic flexibility to strategically allocate volumes , prioritizing markets, channels, and regions with 
+better commercial conditions amid a gradual recovery in short‑fiber prices. 
+In the paper business, the volume sold was 356 thousand metric tons, a 15% increase compared to the 
+same period of the previous year, as a result of the sales performance in the coated board and 
+containerboard segments. In the quarter, suppo rted by its operational flexibility, Klabin continued its 
+strategy of prioritizing the profitability of its machines, allocating volumes according to market conditions. 
+Moving on to the packaging business, the volume sold was 258 thousand metric tons, a 3% increase 
+compared to the same period of the previous year, mainly reflecting the increase in sales volume in the 
+corrugated boxes segment. The growth of the corrugated boxes segment outperforming the market reflects 
+the commercial strategy focused on resi lient segments, such as processed foods, personal care & 
+cleaning, and fruits. 
+Meanwhile, the total cash cost per metric ton, including the effects of the maintenance stoppages, was 
+R$3,342/t in 1Q26, in line with 1Q25. The performance mainly reflects the increase in cost of goods sold 
+(COGS), explained by greater fiber costs and by the effect of the scheduled maintenance stoppage during 
+the quarter, partially offset by reduced variable costs on a year-over-year basis. 
+The Company ended 1Q26 with a leverage ratio, measured by net debt relative to Adjusted EBITDA in 
+US$, of 3.3x, in line with 4Q25. Meanwhile, the measurement in Brazilian reais ended the quarter at 3.1x, 
+a reduction of 0.2x in the same period. 
+QUARTERLY
+
+[p. 50]
+6/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+On March 25, as per Notice to the Market, Fitch Ratings reaffirmed Klabin's credit rating at “BB+” on the 
+global scale and revised the outlook from stable to positive. According to the agency, the change reflects 
+the expectation of a reduction in net leverage, supported by strong cash generation , a lower level of 
+investments and a more conservative dividends policy. The agency's decision reinforces the Company’s 
+commitment to deleveraging and financial discipline, supported by operational excellence, the strength of 
+cash generation, and consistent liability management strategies. 
+On the sustainability front, Klabin was recognized in The Sustainability Yearbook 2026, a global publication 
+by S&P Global based on the Corporate Sustainability Assessment (CSA) 2025, by being listed among the 
+Top 5% of companies with the best performance in sustainability worldwide in its industry (Containers & 
+Packaging). In this year's edition, the Company was the only company in the industry to achieve this 
+classification, reinforcing the consistency of its environmental, social, and governance strategy. The CSA 
+is the assessment that qualifies companies for inclusion in the Dow Jones Best in Class Indices, one of 
+the world's leading ESG performance benchmarks, in which Klabin is included in this category. 
+This April, Klabin celebrated 127 years of history , a legacy built on responsible operations, adaptability, 
+and a long -term commitment to sustainable development. Supported by an integrated, diversified, and 
+flexible business model, the Company continues to move forward with a focus on efficiency, financial 
+strength, and a forward-looking vision, prepared to consistently generate value for its stakeholders.
+
+[p. 51]
+7/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Operational Performance 
+Scheduled Maintenance Stoppages 
+In the first quarter of 2026, as planned, a maintenance stoppage was carried out at the Monte Alegre unit, 
+which produces coated board and kraftliner. The maintenance stoppage of the Monte Alegre unit lasted 
+14 days and had a direct cost of R$124 million. Regarding the last stoppage, carried out in 4Q24, the 
+duration was two days longer and the cost was 14% higher, reflecting, in addition to inflation, the increased 
+scope and extent of services performed in preparation for th e new recovery boiler. The activities have 
+resumed and the mill is operating normally. 
+Below is the schedule of maintenance stoppages planned for 2026, a year in which there will be no 
+maintenance stoppage at the Ortigueira and Correia Pinto units. 
+ 
+ 
+ 
+ 
+Manufacturing Plant
+Monte Alegre (PR) MA
+Otacílio Costa (SC) OC
+Legend: Executed To be Executed
+Maintenance Stoppage Schedule 2026
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+[p. 52]
+8/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Net Production 
+ 
+The total net production volume of pulp and paper was 1,047 thousand metric tons in 1Q26, in line 
+with the same period of the previous year, as a result of the scheduled maintenance stoppage at the Monte 
+Alegre unit in 1Q26 and the occurrence of non -recurring maintenance stoppage events in 1Q25. Details 
+for each of the business segments are presented below. 
+Pulp production in the quarter was 409 thousand metric tons, up 12% from 1Q25, reflecting operational 
+consistency and the evolution of the production pa ce between the periods , in line with the strategy to 
+maximize efficiency and profitability. 
+The paper production, in turn, totaled 638 thousand metric tons in the quarter, down 6% from the same 
+quarter last year, due to the scheduled stoppage at the Monte Alegre unit carried out in 1Q26. 
+Given prevailing market conditions and leveraging its operational flexibility, the Company decided to idle 
+its recycled paper machines throughout 2025, tactically adjusting production in line with demand, 
+strategically all ocating volumes, and prioritizing operational profitability. The PM17 recycling machine 
+(Goiana) has been idle since October 2025. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+∆ ∆ ∆
+1Q26/4Q25 1Q26/1Q25 4Q25/4Q24
+Pulp 409 363 365 13% 12% 44
+Short Fiber 290 264 253 10% 14% 37
+Long Fiber/Fluff 120 99 112 20% 7% 7
+Paper 638 675 678 -5% -6% (40)
+Coated Boards 186 223 220 -17% -16% (34)
+Coated Boards 141 184 176 -23% -20% (35)
+PM28 45 39 44 15% 2% 1
+Containerboard¹ 452 452 457 0% -1% (5)
+Kraftliner 232 245 237 -5% -2% (5)
+PM27 112 99 111 13% 1% 1
+PM28 53 52 56 2% -6% (3)
+Recycled 55 56 54 -2% 3% 1
+Total Production Volume 1,047 1,038 1,043 1% 0% 4
+PM27 and 28 210 190 211 11% -1% (1)
+PM27 112 99 111 13% 1% 1
+PM28 98 91 101 8% -3% (3)
+Volume (k tons) 1Q26 4Q25 1Q25
+¹ Includes Kraftliner, White Top Liner, Recycled, Eukaliner®, Eukaliner® White and other containerboard grades
+
+[p. 53]
+9/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Business Performance 
+Sales Volume 
+ 
+In 1Q26, the total sales volume (ex-wood) was 1,016 thousand metric tons, up 12% from 1Q25 ( +110 
+thousand metric tons), reflecting growth across all businesses. Details for each of the business segments 
+are presented below. 
+ 
+ 
+ 
+ 
+∆ ∆ ∆
+1Q26/4Q25 1Q26/1Q25 1Q26/1Q25
+Pulp 401 404 345 -1% 16% 56
+Short Fiber 290 296 238 -2% 22% 52
+Long Fiber/Fluff 111 108 107 3% 3% 4
+Paper 356 353 311 1% 15% 46
+Coated Boards 195 210 187 -7% 4% 8
+Containerboard¹ 162 143 124 13% 31% 38
+Packaging 258 269 250 -4% 3% 8
+Corrugated Boxes 226 231 216 -2% 4% 10
+Industrial Bags 33 37 34 -13% -4% (1)
+Other - (1) - n/a n/a -
+Total Sales Volume (ex-wood)² 1,016 1,025 906 -1% 12% 110
+¹ Includes Kraftliner, White Top Liner, Recycled, Eukaliner®, Eukaliner® White and other containerboard grades
+Volume (k tons) 4Q25 1Q25
+² Includes by-product sales
+1Q26
+25%
+35% Pulp
+Packaging
+Paper
+40%
+Sales Volume¹
+(k tons)
+Sales Volume by
+Product¹
+1Q26
+¹Excludes Wood and others
+²Includes Kraftliner, White Top Liner, Recycled,
+Eukaliner®, Eukaliner® White and other
+containerboard grades
+53%
+47%
+1Q25
+51%
+49%
+1Q26
+906
+1,016
++12%
+Domestic Market
+Foreign Market
+
+[p. 54]
+10/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Forestry 
+ 
+The wood sales volume was 889 thousand metric tons in 1Q26, a decrease of 29% compared to the same 
+period last year. The comparison reflects a higher sales level in 1Q25, due to a greater availability of wood 
+assortments for sale that were not used in internal processes. 
+The net revenue of the forestry segment totaled R$173 million in the quarter, a 24% decrease compared 
+to 1Q25, in line with the lower volume of wood sold during the period. 
+We highlight in the quarter the sale of 1,571 productive hectares f or a total amount of R$99 million. This 
+transaction follows the established plan for monetizing surplus forestry assets, as disclosed to the market 
+in the presentation in December 2023. The selling price per productive hectare was R$63 thousand/ha, 
+with a historical cost of R$22 thousand/ha, resulting in an EBITDA of R$41 thousand/ha, which amounts 
+to R$64 million for the period. 
+ 
+Pulp 
+ 
+In 1Q26, the volume of pulp sold totaled 401 thousand metric tons, a growth of 16% compared to the same 
+period last year, reflecting higher production volume and favorable demand. This quarter, the Company 
+leveraged its commercial and geographic flexibilit y to strategically allocate volumes and capitalize on 
+opportunities to place product under competitive conditions, amid a scenario of gradual recovery in short 
+fiber prices. 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Wood 889 1,356 1,244 -34% -29%
+Revenue (R$ million)
+Wood 173 222 226 -22% -24%
+4Q25 1Q251Q26Volume (k tons)
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Short Fiber DM 71 84 63 -16% 12%
+Short Fiber EM 220 211 175 4% 26%
+Short Fiber 290 296 238 -2% 22%
+Long Fiber/Fluff DM 49 46 41 7% 22%
+Long Fiber/Fluff EM 62 62 67 0% -8%
+Long Fiber/Fluff 111 108 107 3% 3%
+Total Pulp 401 404 345 -1% 16%
+Revenue (R$ million)
+Short Fiber 887 868 781 2% 14%
+Long Fiber/Fluff 522 545 597 -4% -12%
+Total Pulp 1,409 1,413 1,378 0% 2%
+Net Price (R$/ton)
+Short Fiber 3,058 2,933 3,286 4% -7%
+Long Fiber/Fluff 4,710 5,050 5,562 -7% -15%
+Total Pulp 3,515 3,499 3,994 0% -12%
+Net Price (US$/ton)
+Short Fiber 581 544 562 7% 4%
+Long Fiber/Fluff 896 936 951 -4% -6%
+Total Pulp 668 649 682 3% -2%
+DM: Domestic Market 
+EM: Export Market
+1Q25Volume (k tons) 1Q26 4Q25
+
+[p. 55]
+11/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Net revenue totaled R$1.4 billion in the quarter, up 2% from 1Q25, as a result of higher sales volume and 
+higher U.S. dollar prices for short fiber, which more than offset the negative impact of the appreciation of 
+the Brazilian real against the U.S. dolla r during the period. The value -capture strategy, combined with a 
+diversified portfolio, helped sustain performance throughout the period. 
+Klabin maintains a differentiated strategic position as the only Company in Latin America to produce and 
+market the three main types of pulp — short fiber, long fiber, and fluff — which results in a diversified sales 
+mix, contributing to greater revenue resilience and margin expansion throughout the cycle. 
+ 
+Short fiber 
+Supply and demand conditions in the short fiber pulp market remained favorable throughout the quarter. 
+On the demand side, consumption remained at solid levels during the period. On the supply side, 
+scheduled stoppages, operational adjustments, and specific restrictions on fibers and wood assortment in 
+Asia continued to limit global availability, contributing to a more balanced environment and favoring 
+producers' price adjustment announcements. According to the FOEX index, short-fiber pulp prices rose by 
+9% in China and 12% in both Europe and the Brazilian m arket (which tracks the FOEX Europe index) 
+compared to 4Q25. In comparison with 1Q25, short-fiber pulp increased by 2% in China and 13% in Europe 
+and the Brazilian market. 
+In this context, quarterly net revenue from short‑fiber pulp reached R$ 887 million, representing a 14% 
+year‑over‑year increase, driven by higher sales volumes, the recovery in international prices, and, primarily 
+by improvements in the global net price captured by the Company. This performance reflects the 
+effectiveness of Klabin ’s commercial strategy, supported by active revenue management, geographic 
+flexibility, and a focus on markets and customers with higher marginal returns. 
+ 
+Long fiber and Fluff 
+In the fluff segment, which has the greatest representativeness within this category, a gradual recovery in 
+market conditions began to emerge throughout the quarter, supporting the recovery of index prices after a 
+still pressured start to the year. According to RISI’s Table 5 index, average prices increased by 1% in China 
+and Europe compared to 4Q25, signaling a positive market inflection, although the year -over-year 
+comparison remains affected by the more challenging environment observed throughout 2025. 
+In 1Q26, the Company maintained its commercial guideline focused on value capture, prioritizing markets 
+with more favorable commercial conditions and higher return per metric ton. As a result, long fiber / fluff 
+accounted for 28% of the total pulp sales vo lume and represented 37% of the segment's n et revenue in 
+the period, reflecting the structurally higher spread compared to short fiber. 
+Quarterly net revenue from long -fiber pulp and fluff totaled R$ 522 million. The year -over-year variation 
+mainly reflects price adjustments between the periods and the timing effect of price capture in the 
+Company’s portfolio. 
+Considering the dynamics of commercial implementation and the natural lag in capturing these 
+adjustments across the portfolio, the evolution of average prices is expected to occur gradually o ver the 
+next quarters, reinforcing the constructive outlook for the segment.
+
+[p. 56]
+12/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+Paper 
+ 
+In 1Q26, the volume of paper sold was 356 thousand metric tons, a growth of 15% compared to the same 
+period last year, reflecting the consistent progress of sales in the Company’s operating markets. 
+Net revenue totaled R$1.7 billion in the quarter, an increase of 8% compared to 1Q25, as a result of higher 
+sales volume, which more than offset the negative impact of the appreciation of the Brazilian real against 
+the U.S. dollar during the period. For th e paper segment, active portfolio management continues t o be a 
+competitive advantage. With operational flexibility, the Company continues its strategy of dynamically 
+allocating its production capacity, prioritizing markets and channels with higher profitability during the 
+period. 
+ 
+Coated board 
+The coated board segment showed a 4% growth in sales volume in 1Q26 compared to the same period 
+of the previous year, driven by sales in the domestic market, which recorded a 15% increase in sales 
+volume. This result was mainly favored by the growth of the brewing sector and the sales of white coated 
+board for new customers. This commercial advance reflects a rigorous and successful approval process, 
+which tends to generate more predictable demand and higher added value over time. Domestic 
+performance more than offset the decrease in volume destined for the for eign market, resulting from the 
+lower availability of finished product due to the scheduled stoppage at the Monte Alegre unit. 
+Net revenue for the quarter was R$1.1 billion, a 5% increase compared to the same period of the previous 
+year, driven by favorable volume and price performance, even though this was partially offset by the 
+appreciation of the Brazilian real against the U.S. dollar. 
+ 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Coated Boards DM 123 134 107 -8% 15%
+Coated Boards EM 71 76 80 -5% -11%
+Coated Boards 195 210 187 -7% 4%
+Containerboard DM 24 21 26 13% -9%
+Containerboard EM 138 122 97 13% 41%
+Containerboard¹ 162 143 124 13% 31%
+Paper 356 353 311 1% 15%
+Revenue (R$ million)
+Coated Boards 1,102 1,190 1,053 -7% 5%
+Containerboard¹ 588 530 518 11% 13%
+Paper 1,689 1,720 1,570 -2% 8%
+Net Price (R$/ton)
+Coated Boards 5,657 5,668 5,625 0% 1%
+Containerboard¹ 3,632 3,712 4,184 -2% -13%
+Paper 4,738 4,876 5,051 -3% -6%
+DM: Domestic Market 
+EM: Export Market
+1Q25Volume (k tons) 1Q26 4Q25
+¹ Includes Kraftliner, White Top Liner, Recycled, Eukaliner®, Eukaliner® White and Other containerboard grades
+
+[p. 57]
+13/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+Containerboard 
+The containerboard segment ended 1Q26 with sales volume of 162 thousand metric tons, 31% higher 
+than in 1Q25, driven by the expansion of sales in the export market, in line with the Company’s strategy 
+of geographic diversification with increased volume in new markets. In addition, Klabin continues to use 
+its operational flexibility to direct a greater volume of production to the kraftliner segment, given a demand 
+at healthy levels, favored by the supply adjustments made throughout 2025. Grow th in volumes and the 
+focus on profitability continue to guide the operational decisions of the Company. 
+The net revenue of the segment was R$588 million in 1Q26, representing a growth of 13% compared to 
+1Q25. This performance was mainly influenced by the increase in volumes sold, which more than offset 
+the reduction in price due to the effect arising from th e geographic sales mix and the appreciation of the 
+Brazilian real against the U.S. dollar throughout the period. 
+ 
+Packaging 
+ 
+In 1Q26, the volume of packaging sold was 258 thousand metric tons, a 3% increase compared to the 
+same period of the previous year, reflecting higher sales volume in the corrugated boxes segment. 
+Net revenue totaled R$1.8 billion in the quarter, up 6% from 1Q25, as a result of the strong performance 
+of the corrugated boxes segment, which, in addition to volume growth, posted a price increase above 
+inflation for the period. 
+ 
+Corrugated Boxes 
+According to information released by Empapel, the volume of corru gated boxes shipments in 1Q26, 
+measured in m², grew by 2.3% compared to 1Q25. In the same period, Klabin recorded a shipment volume 
+of 408 million m², an increase of 3.6%, outperforming the market and reflecting its greater exposure to 
+segments with more resilient demand in the quarter, such as processed foods, personal care & cleaning, 
+and fruits. In addition, the increase in the sales volume of boxes for durable goods, especially televisions, 
+contributed to the 1Q26 result. 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Corrugated Boxes 226 231 216 -2% 4%
+Industrial Bags 33 37 34 -13% -4%
+Packaging 258 269 250 -4% 3%
+Revenue (R$ million)
+Corrugated Boxes 1,486 1,510 1,358 -2% 9%
+Industrial Bags 307 345 335 -11% -8%
+Packaging 1,794 1,854 1,693 -3% 6%
+Net Price (R$/ton)
+Corrugated Boxes 6,590 6,526 6,285 1% 5%
+Industrial Bags 9,411 9,225 9,845 2% -4%
+Packaging 6,947 6,901 6,769 1% 3%
+Volume (millions m²)
+Corrugated Boxes 408 421 394 -3% 4%
+DM: Domestic Market 
+EM: Export Market
+1Q254Q25Volume (k tons) 1Q26
+
+[p. 58]
+14/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Net revenue from corrugated boxes in 1Q26 was R$1.5 billion, an increase of 9% compared to the same 
+period last year, driven by a price increase above inflation during the period and growth in sales volume. 
+ 
+Industrial Bags 
+According to data from SNIC, cement dispatches in Brazil —an important indicator for industrial bag 
+sales—grew by 1.8% in 1Q26 compared to 1Q25, considering the volume in metric tons during business 
+days and calendar days. 
+In 1Q26, the tariff measures imposed by other countries throughout 2025 continued to impact key export 
+markets for Klabin’s industrial bags. Throughout the quarter, the Company directed part of the volumes to 
+the domestic market, expanding its customer base and increasing its share in the civil construction 
+segment. 
+This movement resulted in growth of the volumes traded in the domestic market (+13%) throughout the 
+quarter. Even so, the redirection to the domestic market was not enough to fully offset the reduction in 
+exports (-39%), resulting in sales volume of 33 thousand metric tons in 1Q26, a decrease of 4% compared 
+to the same period last year. 
+Net revenue for the business totaled R$307 million in 1Q26, a decrease of 8% compared to 1Q25, 
+explained by the sales mix, the lower contribution from exported volumes, and the impact of the 
+appreciation of the Brazilian real against the U.S. dollar in the period.
+
+[p. 59]
+15/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Economic and Financial Performance 
+Net revenue 
+ 
+Consolidated net revenue totaled R$4.9 billion in 1Q26, representing a 2% increase compared to 1Q25. 
+The result was driven mainly by a 12% increase in total volume, with growth observed across all 
+businesses. The higher volume, combined with the higher price of corrugated boxes, more than offset the 
+effect of the appreciation of the Brazilian real against the U.S. dollar (-R$0.59). 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Wood 173 222 226 -22% -24%
+Pulp 1,409 1,413 1,378 0% 2%
+Short Fiber 887 868 781 2% 14%
+Long Fiber/Fluff 522 545 597 -4% -12%
+Paper 1,689 1,720 1,570 -2% 8%
+Coated Boards 1,102 1,190 1,053 -7% 5%
+Containerboard¹ 588 530 518 11% 13%
+Packaging 1,794 1,854 1,693 -3% 6%
+Corrugated Boxes 1,486 1,510 1,358 -2% 9%
+Industrial Bags 307 345 335 -11% -8%
+Other² (119) (44) (8) n/a n/a
+Total Net Revenue 4,946 5,165 4,859 -4% 2%
+Net Revenue (R$ million) 1Q26 4Q25 1Q25
+² Includes by-product sales and hedge accounting 
+¹ Includes Kraftliner, White Top Liner, Recycled, Eukaliner®, Eukaliner® White and other containerboard grades
+Domestic Market Foreign Market
+29%
+37%
+35%
+Pulp
+Packaging
+Paper
+Net Revenue
+(R$ million)
+Net Revenue by
+Product¹
+1Q26
+¹Excludes Wood and others
+²Includes Kraftliner, White Top Liner, Recycled,
+Eukaliner®, Eukaliner® White and other
+containerboard grades
+62%
+38%
+1Q25
+65%
+35%
+1Q26
+4,859 4,946
++2%
+
+[p. 60]
+16/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Total Cash Cost 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Cost of Goods Sold (COGS) (2,717) (2,807) (2,335) -3% 16%
+Variable Costs (1,736) (1,701) (1,475) 2% 18%
+Labor and Third Parties (638) (648) (612) -2% 4%
+Maintenance (344) (444) (175) -23% 97%
+Other 1 (15) (74) n/a n/a
+Sales Expenses (439) (466) (372) -6% 18%
+Sales Expenses/Net Revenue (%) 8.9% 9.0% 7.7% - 0.1 p.p. + 1.2 p.p.
+General and Administrative Expenses (282) (312) (278) -10% 1%
+Other Net Expenses 44 204 (36) 78% n/a
+Total Cash Cost (3,394) (3,382) (3,021) 0% 12%
+Cash Cost/t (excluding MS¹ effects) (3,195) (3,064) (3,335) 4% -4%
+Cash Cost/t (including MS¹ effects) (3,342) (3,300) (3,335) 1% 0%
+¹ General maintenance shutdown costs (MS): (i) direct cost; (ii) idleness cost; and (iii) restart input cost 
+Costs and Expenses (R$ million) 1Q26 4Q25 1Q25
+432 455
+278 305
+307
+778 721
+410
+981
+698
+916 999
+-199
+788
+-44
+1Q26 4Q25
+40
+1Q25
+Fixed Cost
+Variable Cost
+Fibers
+General and Administrative Expenses
+Sales Expenses
+Other Net Income/Expenses
+3,342 3,300
+3,335
+1,020 1,091
++1%
+0%
+COGS
+Total Cash Cost per ton, including maintenance stoppage
+22%
+12%
+13%15%
+29%
+4%
+4%
+COGS 1Q26 
+(R$2,675/t)
+Labor and Services Maintenance Other Variables Fuel Oil Chemicals Energy Fibers
+21%
+15%
+15%
+15%
+26%
+4%
+4%
+COGS 4Q25 
+(R$2,740/t)
+24%
+7%
+17%16%
+27%
+4%
+4%
+COGS 1Q25 
+(R$2,577/t)
+
+[p. 61]
+17/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+The total cash cost per metric ton, including general stoppage was R$3,342/t in 1Q26, in line with the 
+same period of the previous year, given the variations presented below. 
+The cost of goods sold (COGS) was R$2,675/t, an increase of 4% or R$97/t, mainly explained by: 
+(i) Fixed cost: an increase of 16% or R$128/t, which is explained by: (i) the effect of the 
+scheduled maintenance stoppage at the Monte Alegre unit (+R$146/t), since in 1Q25 there 
+was no scheduled maintenance stoppage. This effect was partially offset by the reduction 
+(-R$23/t) in personnel , services, and third -party storage expenses, as well as by higher 
+production volumes. 
+(ii) Variable cost: a reduction of 10% or R$111/t, primarily due to: (i) a decrease in the 'other 
+variable costs' line (-R$103/t), reflecting higher operating expenses associated with lower 
+production in 1Q25; and (ii) a reduction in chemical costs ( -R$16/t), resulting from price 
+reduction in caustic soda due to the normalization of supply of input materials between the 
+periods and the appreciation of the Brazilian real against the U.S. dollar. These effects were 
+partially offset by the increase in fuel cost (+R $7/t), due to higher consumption during the 
+resumption period following the scheduled maintenance stoppage of Monte Alegre; and 
+(iii) Fibers: an increase of 11% or R$80/t, reflecting higher logistics and operational costs 
+resulting from the climate events that occurred in 2025, which continue to impact forestry 
+operations. 
+General and administrative expenses totaled R$278/t, a reduction of 10% or R$29/t, reflecting dilution 
+due to the higher sales volume. It is important to note that during the period, increased personnel expenses 
+reflects the variation in the provisions for the Long-Term Incentive (LTI) Plan and wage and benefit inflation, 
+which were partially offset by the positive impact of the timing of IT service expenditures. 
+Selling expenses totaled R$432/t, representing a 5% increase or R$22/t, primarily driven by higher sales 
+volumes during the period (+110k metric tons) and the mix given to the greater volume of exports year-
+over-year. These effects were partially offset by the appreciation of the Brazilian real against the U.S. 
+dollar. 
+The balance of other net income/expenses in 1Q26 was positive by R$44/t, primarily driven by l and 
+sales during the period , which represented R$63/t, and is consistent with the Company’s strategy to 
+monetize its forestry assets under the Caetê Project, as previously disclosed in December 2023. 
+The formal guidance for total cash cost per ton, including maintenance stoppages, was disclosed by Klabin 
+in a Material Fact dated December 9, 2025, as detailed below. 
+ 
+ 
+ 
+ 
+ 
+Total cash cost per ton, including scheduled maintenance shutdowns 3.2 - 3.3
+R$ thousand/tons 2026
+
+[p. 62]
+18/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Cash cost of pulp production 
+ 
+ 
+For information purposes, the unit cash cost of pulp production is disclosed, which includes the production 
+costs of short fiber, long fiber and fluff in relation to the saleable pulp production volume during the period. 
+The cash cost of production does no t include selling, general and administrative expenses, consisting 
+exclusively of the amount spent on the production of pulp. 
+The highlight of the quarter was the outstanding saleable production results, which reinforced the stability 
+of operational performance and made a positive contribution to the business's competitiveness. 
+The cash cost of pulp production in the quarter was R$1,326 per metric ton, up 4% from 1Q25 (+R$58/t). 
+The main impact was the increase in fiber cost, for the same reasons mentioned previously. These effects 
+were partially offset by: (i) higher revenue from energy sales at R$72/t, driven by a higher spot energy 
+price (PLD) during the period; and (ii) greater dilution of fixed costs, due to an increase in the volume 
+produced. 
+ 
+ 
+845
+732 657
+243
+223
+246
+127
+119 137
+65
+72 83
+200
+224 225
+-153 -96 -80
+1Q26 4Q25 1Q25
+Fixed Cost (Labor/Services/Materials)
+Other Variables
+Fuel Oil
+Chemicals
+Wood
+Energy
+R$ 1,326/t
+R$ 1,274/t R$ 1,268/t
+-4%
++9%
+US$
+236/t
+US$
+217/t
+US$
+252/t
+
+[p. 63]
+19/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Adjusted EBITDA 
+ 
+The Adjusted EBITDA totaled R$1.7 billion in the first quarter of 2026, a decrease of 10% compared to 
+1Q25. This decrease is mainly attributed to: (i) the negative impact of the Brazilian real appreciation against 
+the U.S. dollar; and (ii) the effect of the scheduled maintenance stoppage during the quarter. These effects 
+were partially offset by the higher sales volume in all business segments. 
+ 
+ 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Net Income (loss) (497) 168 446 n/a n/a
+(+) Income Taxes and Social Contribution (262) 34 322 n/a n/a
+(+) Net Financial Results 570 707 158 -19% n/a
+(+) Depreciation, Exhaustion and Amortization 1,162 1,244 1,299 -7% -11%
+Adjustments According to CVM Resolution 156/22 art. 4º 
+(+) Variation of Fair Value of Biological Assets 581 (344) (388) n/a n/a
+(+) Cash Flow Hedge Accounting Effect 117 48 22 n/a n/a
+(+) Equity Income (2) 2 (0) n/a n/a
+(+) Tax credit on subsidy - (28) - n/a n/a
+Adjusted EBITDA 1,669 1,832 1,859 -9% -10%
+Adjusted EBITDA Margin 34% 35% 38% - 1 p.p. - 4 p.p. 
+Cash Generation (Adjusted EBITDA - Maintenance Capex) 856 848 1,316 1% -35%
+Cash Generation/t¹ (R$/t) 843 827 1,453 2% -42%
+R$ million 1Q26 4Q25 1Q25
+1 Sales volume excludes wood
+Adjusted EBITDA Evolution
+R$ million
+257 215
+215
+1Q25
+27
+Price Volume Foreign 
+Exchange 
+Variation
+COGS
+9
+SG&A and Other 
+Net Expenses
+1Q26
+1,669
+1,859
+-190
+(-10%)
+Average US$
+5.85 5.26
+Average US$
+Pulp
+Paper
+Packaging
+Pulp
+Paper
+Packaging
+
+[p. 64]
+20/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+Accordingly, Cash Generation per metric ton, measured by the Adjusted EBITDA net of the maintenance 
+CAPEX in relation to the volume sold, was R$ 843/t in 1Q26, down 42% from 1Q25. This reduction is 
+explained by the decline in operating result, as previously described, and by higher maintenance CAPEX, 
+due to the spending schedule related to the modernization of the Monte Alegre boiler. 
+ 
+ 
+Adjusted EBITDA Evolution
+R$ million
+4Q25
+20
+Price
+2
+Volume
+65
+Foreign 
+Exchange 
+Variation
+10
+COGS
+127
+SG&A and Other 
+Net Expenses
+1Q26
+1,669
+1,832
+-163
+(-9%)
+Average US$
+5.40 5.26
+Average US$
+Pulp
+Paper
+Packaging
+Pulp
+Paper
+Packaging
+
+[p. 65]
+21/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Effect from variations in biological assets 
+ 
+The evaluation of the biological assets at their fair value considers certain estimates, such as: price of 
+wood, discount rate, forest harvest plan, and productivity, whose variations generate non-cash effects on 
+the Company's results. 
+The balance of biological assets ended 1Q26 at R$12.8 billion, an increase of R$403 million compared to 
+the final balance of 4Q25, reflecting: 
+(i) An increase of R$870 million related to operations involving planting and the purchase of 
+standing forest; 
+(ii) Increase of R$723 million in Depletion of the forestry base, due to the volume of harvest in the 
+period and sale of wood; and 
+(iii) Reduction of R$550 million in the fair value variation, mainly explained by the decrease in forest 
+volumes, due to the revision of biological asset valuation assumptions. 
+Therefore, the non-cash effect of the fair value of biological assets on the operating result (EBIT) in the 
+period was negative by R$764 million. 
+Klabin continues to make consistent progress in its forest research and development agenda. In 2025, the 
+Company recorded significant advances in the management associated with new species, strengthening 
+the competitiveness and resilience of the Company's forest base. 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Opening Balance 13,242 13,132 12,887 1% 3%
+Planting and Purchase of Standing Forest 870 759 310 15% n/a
+Exhaustion (723) (992) (875) 27% 17%
+Historical Cost (508) (645) (377) 21% -35%
+Fair Value Adjustment (214) (347) (498) 38% 57%
+Fair Value Variation (550) 344 388 n/a n/a
+Price (7) 98 (16) n/a 58%
+Growth² (544) 245 404 n/a n/a
+Final Balance 12,839 13,242 12,711 -3% 1%
+² In addition to the effect of the forest's growth due to the proximity of its felling, this corresponds to the adjustments arising from the 
+assumptions that affect the fair value of the biological asset, such as revision of the harvest plan, productivity table, change in discount rate, 
+change in administrative costs, among others.
+Biological Assets¹ (R$ million) 1Q26 4Q25 1Q25
+¹ With the aim of enhancing the presentation of consolidated information on biological assets, the Company reclassified values between 
+depletion and planting. In 2Q25, historical data was adjusted to ensure greater clarity and comparability.
+
+[p. 66]
+22/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Financial Result 
+ 
+Financial income totaled R$242 million in 1Q26, a reduction of R$17 million compared to 4Q25, mainly 
+reflecting the lower yield from investments due to a lower cash balance between the periods. 
+Financial expenses totaled R$797 million in 1Q26, a reduction of R$212 million compared to 4Q25, 
+mainly due to the effect of the appreciation of the Brazilian real against the U.S. dollar on the interest rates 
+of debts in foreign currency and the positive result from the settlement of cash flow currency exposure 
+hedge instruments. 
+The foreign exchange variation resulted in a negative effect of R$14 million in 1Q26. 
+For more detailed information, please access the quarterly information for the year (link). 
+ 
+Net Income 
+In 1Q26, Klabin reported a net loss of R$497 million compared to a net income of R$446 million in 1Q25. 
+The variation mainly reflects: 
+(i) Adjusted EBITDA: a decline during the period, as explained in detail within this document; 
+(ii) Variation in the fair value of biological assets: a purely accounting effect, discussed in the 
+relevant section; 
+(iii) Financial result: impacted by higher financial expense in 1Q26 compared to 1Q25, mainly 
+explained by the positive impact of the settlement of the swap linked to the early payment of 
+debt in 1Q25; and 
+(iv) Income tax and social contribution: positive variation of R$584 million compared to 1Q25, 
+mainly attributable to changes in the deferred tax. In this context, the main highlights are: (i) a 
+reduction in foreign exchange variation, mainly due to the impact of liability management 
+initiatives implemented throughout 2025 ; and (ii) the effect of changes in the fair value of 
+biological assets, which reduced accounting profit but resulted in a positive adjustment through 
+deferred tax in the results. 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Financial Revenues 242 259 164 -7% 48%
+Financial Expenses (797) (1,009) (460) -21% 73%
+Foreign Exchange Variation (14) 43 138 n/a n/a
+Financial Result (570) (707) (158) -19% n/a
+R$ million 1Q26 4Q25 1Q25
+
+[p. 67]
+23/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Investments (CAPEX) 
+ 
+In 1Q26, Klabin invested R$839 million in its operations, an increase of 39% compared to 1Q25. 
+Of the total amount invested, R$287 million was allocated to silviculture and the purchase of timber, in line 
+with the forestry management plan and planning for the period. Additionally, R$285 million was allocated 
+to operational continuity at mills, mainl y due to the calendar effect of investments in projects that were 
+postponed in 2025. The amount spent on special projects (R$24 million) showed a 58% decrease 
+compared to the same period of the previous year. Furthermore, the Company invested R$242 million this 
+period in the modernization project for the recovery boiler at Monte Alegre. 
+Finally, the Company has formal guidance for future investments (CAPEX), as disclosed in the Material 
+Fact dated on December 9, 2025, as detailed below. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+∆ ∆
+1Q26/4Q25 1Q26/1Q25
+Silviculture / Purchase of Standing Wood 287 427 219 -33% 31%
+Operational Continuity 285 365 249 -22% 14%
+Special Projects 24 40 58 -39% -58%
+Monte Alegre Modernization 242 193 79 26% n/a
+Total 839 1,024 605 -18% 39%
+R$ million 1Q26 4Q25 1Q25
+Silviculture / Purchase of Standing Wood 1.1
+Operational Continuity 1.4
+Special Projects 0.2
+Monte Alegre Modernization 0.7
+Total 3.3
+Guidance 2026R$ billion
+
+[p. 68]
+24/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Free cash flow 
+ 
+Free Cash Flow ended the first quarter of 2026 with a consumption of R$404 million. Cash generation in 
+the period was mainly impacted by higher CAPEX disbursement, due to the scheduling of investments in 
+1Q26 and expenses related to the modernization of th e Monte Alegre boiler. Additionally, there was a 
+higher consumption of working capital, mainly explained by the concentration of payments to suppliers, 
+related to the stoppages at Monte Alegre (Jan/26) and Ortigueira (Nov/25). 
+On the other hand, this effec t was partially offset by the reduction in the amount of interest paid and 
+received, reflecting the higher financial income resulting from the higher average cash balance in 1Q26, 
+when compared to the same period of the previous year. 
+In addition, the lower disbursement with income tax and social contribution contributed positively, which, 
+among other factors, reflects the favorable impact of the pre-payments made, aligned with the Company’s 
+liability management strategy, which reduced taxable income due to the calculation of the foreign exchange 
+variation of debts. 
+Excluding discretionary factors and expansion projects, Adjusted Free Cash Flow was a consumption of 
+R$102 million in the last twelve months of 1Q26, equivalent to a Free Cash Flow Yield of 5.1% (-8.9 p.p. 
+compared to LTM 1Q25). 
+ 
+Adjusted EBITDA 1,669 1,832 1,859 7,658 7,539
+(-) Capex¹ (839) (1,024) (605) (3,066) (9,395)
+(-) Lease contracts - IFRS 16 (74) (82) (93) (327) (365)
+(-) Interest Paid/Received (422) (639) (472) (1,955) (1,923)
+(-) Income Tax (59) (107) (66) (237) (467)
+(+/-) Working Capital Variation (433) (272) 164 (1,050) 1,177
+(-) Dividends & IOC (278) (318) (277) (1,181) (1,477)
+(+/-) SPVs and SCPs Dividends / Others² 32 (33) 16 (58) (175)
+Free Cash Flow with Caetê Project (404) (644) 528 (216) (5,085)
+Dividends & IOC 278 318 277 1,181 1,477
+Special Projects and Growth 24 35 58 187 855
+Caetê Project Payment - - - - 6,371
+Adjusted Free Cash Flow³ (102) (291) 862 1,152 3,619
+Adjusted FCF Yield4 5.1% 14.0%
+4 Yield - Adjusted FCF per unit (excluding treasury stock) divided by the average price of the Units in the LTM (Last Twelve Months).
+LTM 
+1Q26
+LTM 
+1Q25
+² SPVs (Special Purpose Vehicles), including forestry and real estate, and SCPs (Undisclosed Partnerships).
+³ Excluding dividends and special projects and growth, considering R$ 254 million related to the Puma II Project in LTM 1Q25.
+R$ million 1Q26 4Q25 1Q25
+¹ Includes the investment made in the Caetê Project, in the amount of R$ 6,371 million, in the LTM 1Q25.
+
+[p. 69]
+25/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ROIC - Return on Invested Capital 
+ 
+ 
+The consolidated return of Klabin, measured by the Return on Invested Capital (ROIC) metric, was 9.5% 
+in 1Q26, a decrease of 1.2 p.p. compared to the same period last year, mainly impacted by higher CAPEX 
+disbursement and the increase in average invested capital during the period, while operational generation 
+over the past twelve months remained relatively stable year over year. 
+The highest CAPEX disbursement resulted from the scheduling of the investments and the investments 
+made in the modernization of the Monte Alegre unit. 
+Meanwhile the average invested capital was influenced by the noteworthy inflow of funds recorded 
+throughout 2025, associated with receipts related to the Plateau Project and the Real Estate SPVs. Part 
+of these funds has been used to reduce indebtedness and optimize the capital structure, while their effects 
+on ROIC are reflected gradually. 
+ 
+Total Asset 62,097 60,942 58,337
+(-) Total Liability (ex-debt) (12,061) (11,327) (10,356)
+(-) Construction in Progress (1,854) (1,703) (2,013)
+Invested Capital 48,181 47,913 45,968
+(-) Accounting Adjustments² (3,522) (3,563) (3,490)
+Adjusted Invested Capital 44,659 44,349 42,479
+Adjusted EBITDA 7,658 7,848 7,539
+(-) Maintenance Capex3 (3,197) (2,945) (2,530)
+(-) Income Tax and Soc. Contr. (cash) (237) (244) (467)
+Adjusted Operating Cash Flow 4,224 4,659 4,543
+ROIC4 9.5% 10.5% 10.7%
+1 Average Balance of the last 4 quarters (Last Twelve Months)
+ROIC (R$ million) - LTM¹ 1Q26 4Q25 1Q25
+2 The adjustments refer to the elimination of the following impacts: (i) CPC 29: fair value of biological assets less
+deferred tax on biological assets; (ii) CPC 06: right of use, right of use liabilities and lease liabilities and respective
+deferred IR/CS and (iii) CPC 27: cost attributed to property, plant and equipment (land). 
+Adjustments (ii) and (iii) were applied from 4Q23 onwards in all periods presented
+3 Excludes the effects of CPC 06, i.e. the amount relating to lease contracts (cash view) is added to maintenance capex
+4 ROIC (last twelve months): Adjusted Operating Cash Flow / Adjusted Invested Capital
+
+[p. 70]
+26/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Debt and Cash Position 
+ 
+ 
+The gross debt, as of March 31, 2026, was R$32.9 billion, a reduction of R$3.9 billion compared to 4Q25. 
+This variation is mainly due to the prepayments and amortizations made during the quarter, totaling R$1.7 
+billion, with emphasis on the early redemption of the 2027 Green Bonds, in the amount of R$1.2 billion 
+(US$230 mil lion), as per the Notice to the Market released on March 17, 2026. Additionally, the 
+appreciation of the Brazilian real against the U.S. dollar generated a favorable effect of approximat ely 
+R$1.6 billion on the debt denominated in foreign currency, in addition to the positive impact of R$0.7 billion 
+resulting from the mark-to-market valuation of financial instruments (swaps). 
+ 
+ 
+ 
+The average maturity term of the debt ended the first quarter of 2026 at 85 months, with 104 months 
+for debts in local currency and 81 months for those in foreign currency. The average cost of Klabin's 
+foreign currency debt, which is the Company's main source of credit, decreased by 0.1 p.p. compared to 
+the previous quarter and by 0.6 p.p. in relation to 1Q25, ending 1Q26 at USD+5.1% p.a. This reduction 
+reflects the liability management initiatives implemented during the period. 
+ 
+Short Term
+Local Currency 235 1% 493 1%
+Foreign Currency 2,105 6% 1,274 3%
+Total Short Term 2,340 7% 1,766 5%
+Long Term
+Local Currency 5,181 16% 5,964 16%
+Foreign Currency 25,405 77% 29,062 79%
+Total Long Term 30,586 93% 35,026 95%
+Total Local Currency 5,416 16% 6,457 18%
+Total Foreign Currency² 27,510 84% 30,336 82%
+Gross Debt 32,926 36,793
+(-) Cash & Marketable Securities 8,885 10,891
+Net Debt 24,041 25,902
+Net Debt / EBITDA (LTM) - US$ 3.3 x 3.3 x
+Net Debt / EBITDA (LTM) - R$ 3.1 x 3.3 x
+1 Gross Debt Composition, net of fees: 
+i. Loans and Financing – Note 16 (Loans, Financing and Debentures)
+ii. (–) Derivative Financial Instruments – Assets – Note 25.3 (Financial instruments by category)
+iii. (+) Derivative Financial Instruments – Liabilities – Note 25.3 (Financial instruments by category)
+iv. (–) Hedge of net cash exposure (ZCC) – Note 26.1 (Future revenue hedge – highly probable transactions)
+v. (+) Call option transactions – Note 26 (Hedge accounting)
+2 Includes fair value mark-to-market of derivative financial instruments.
+Mar-26 Prop. % Dec-25 Prop. %Debt¹ (R$ million)
+Average Maturity / Cost of Debt¹ 1Q26 4Q25 1Q25
+Local Currency Cost 12.4% p.y. 12.7% p.y. 10.8% p.y.
+Foreign Currency Cost 5.1% p.y. 5.2% p.y. 5.7% p.y.
+Average maturity 85 months 85 months 88 months
+¹ Accounting cost
+
+[p. 71]
+27/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+ 
+The amount of cash and cash equivalents & marketable securities (“cash”) totaled R$8.9 billion at the 
+end of the first quarter of 2026. Compared to the previous quarter, there was a reduction of R$2.0 billion 
+in the cash balance, mainly reflecting the prepayments and amortizations made during the period, as well 
+as the negative free cash flow generation, as detailed below. 
+ 
+The Net Debt/Adjusted EBITDA ratio measured in U.S. dollars, which better reflects Klabin’s financial 
+leverage profile, ended 1Q26 at 3.3x, in line with the previous quarter and representing a decrease of 0.6x 
+compared to 1Q25. Leverage in Brazilian reais ended the period at 3.1x, representing a decrease of 0.2x 
+compared to 4Q25. 
+ 
+25%
+75%
+SOFR
+Fixed USD
+5%
+93%
+IPCA
+CDI
+2%
+Others
+62%
+38%
+BRL
+USD
+Debt in Foreign Currency¹
+R$27,510
+million
+Debt in Local
+Currency¹
+Total Cash & 
+Marketable Securities
+R$ 5,416
+million
+R$ 8,885
+million
+¹Includes swaps and fair value mark-to-market of these instruments
+Evolution of Cash and Cash Equivalents & Marketable Securities 
+Balance 1Q26 
+R$ million
+Dec-25
+404
+Free Cash Flow
+0
+Funding Amortization
+7
+Foreign Exchange 
+Variations on 
+Cash
+42
+Others Mar-26
+8,885
+10,891
+1,652
+-2,007
+
+[p. 72]
+28/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Hedge Accounting 
+Klabin uses the cash flow and fair value hedge accounting method. 
+Starting in January 2021, the Company implemented the hedge accounting method. This practice, in line 
+with risk management and the Management’s strategy, aims to reflect in the income statement the 
+economic effects of the hedge relationship between the hedged item and the hedging instrument, but only 
+when the hedged item is realized. 
+The Company designates financial instruments (derivatives based on indices and foreign curre ncy, and 
+loans and financing in foreign currency) as hedging instruments. These designations are segregated into 
+four hedge accounting programs, namely: (i) cash flow hedge of future revenue in US$ (highly probable 
+transactions), (ii) cash flow hedge of in terest rate, (iii) cash flow hedge of net exposure in USD, and (iv) 
+fair value hedge of interest rate. 
+ 
+Cash Flow Hedge of Future Revenue (Highly Probable Transactions) 
+The Company operates a cash flow hedge accounting program for highly probable future re venues, 
+designating foreign currency (USD) loans, financing, and debentures (debt instruments), and/or those 
+converted into foreign currency through swap contracts, as hedging instruments for its highly probable 
+future revenues in the same currency. 
+Loans and financing designated as hedging instruments are measured at amortized cost, and foreign 
+exchange variations are recognized in Other Comprehensive Income/(Loss) under “Asset valuation 
+adjustment.” In the case of swap derivatives, fair value measur ement is determined by calculating the 
+present value of projected future cash flows discounted at market rates, with changes also recognized in 
+Other Comprehensive Income/(Loss) under “Asset valuation adjustment.” 
+As the USD -denominated revenues linked to these designated hedge relationships are realized, the 
+respective accumulated foreign exchange variation amounts under “Asset Valuation Adjustments” are 
+reclassified to the income statement under “Net Revenue”. 
+As of March 31, 2026, the balance of the hedge rese rve and accumulated hedge cost recorded in Other 
+Comprehensive Income under Equity is R$164 million, corresponding to the variation of the debt 
+instruments designated under this program. In the same period, the Company realized the export revenue 
+of US$220 million, which was subject to hedging. The loans and financing designated as hedging 
+instruments were settled together, leading to the realization of the expense of R$116 million in accumulated 
+foreign exchange variation, recorded in the income statement under "Net Revenue." 
+ 
+Cash Flow Hedge of Interest Rate Risk 
+The Company adopts interest rate hedge accounting practices to accurately present the results of 
+swapping (SWAP) the risk of SOFR (floating rate) fluctuations, which index Export Prepayment debt, for a 
+fixed USD rate. In this cash flow interest rate hedgin g program, swap derivatives are designated as 
+hedging instruments for the interest expense (hedged item) of Export Prepayment debts.
+
+[p. 73]
+29/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+The interest related to the hedge relationship is measured using the amortized cost method, while the 
+designated derivative instruments are measured at fair value. Changes in the future fair value curve are 
+recognized in Other Comprehensive Income under 'A sset Valuation Adjustments,' and are transferred to 
+the income statement under 'Financial Expenses' when the hedged item is realized. 
+As of March 31, 2026, the hedge reserve balance accumulated in Other Comprehensive Income under 
+Equity is R$3.7 million, corresponding to the change in the future curve of the fair value measurement of 
+derivatives designated in the program. 
+ 
+Cash Flow Hedge – Net Exposure 
+As per the Notice to the Market published on December 5, 2023, the Company approved the cash flow 
+foreign exchange hedge policy with the purpose of: (i) defining the formula for calculating the Company's 
+net foreign exchange exposure; (ii) establishing ins truments, parameters, and responsibilities for the 
+contracting and management of derivative financial ins truments aimed exclusively at protecting Klabin's 
+cash flow from foreign exchange variations; and (iii) ensuring that the process of managing the foreign 
+exchange exposure of the cash flow is in compliance with the Company's other policies and guidelines. 
+The policy stipulates that the Company's net foreign exchange exposure must be partially hedged (a 
+minimum of 25% and up to 50% of the foreign exchange exposure for the next 24 months) through 
+standard hedging instruments, such as Zero Cost Collar (ZCC) and Non-Deliverable Forward (NDF). 
+As of March 31, 2026, the hedge reserve balance accumulated in Other Comprehensive Income under 
+Equity is R$253 million, corresponding to the mark -to-market variation of derivatives designated in the 
+program. 
+ 
+Fair Value Hedge of Interest Rate Risk 
+On September 30, 2025, the Company implemented a fair value hedge accounting program for interest 
+rates risk, with the objective of protecting and/or mitigating specific risks related to debt indexers. In certain 
+contracts, the C ompany entered into derivative financial instruments (swaps) to exchange IPCA/Pre 
+exposure for CDI exposure (debts such as BNDES, Debentures, CPRs, CCB, PPE). 
+As of March 31, 2026, the mark -to-market balance of the derivative instruments designated under the 
+program was R$151 million, recognized under “Derivative Financial Instruments” in Assets and Liabilities. 
+The adoption of hedge accounting is exclusively accounting -related and does not impact the 
+Company's cash generation and Adjusted EBITDA. 
+For more information, please access the financial statements for the year (link).
+
+[p. 74]
+30/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Derivative Financial Instruments 
+Klabin holds derivative financial instruments exclusively for hedging purposes. On March 31, 2026, the 
+Company had an outstanding notional amount of US$2.1 billion in foreign exchange derivative contracts 
+and R$9.0 billion in interest rate derivative contracts, as shown in the tables below. The mark -to-market 
+(fair value) of these operations (foreign exchange derivatives + interest rate derivatives) was positive by 
+R$914 million at the end of the period and was classified ac cording to the cash flow hedge accounting 
+method. The following table reflects the position of the derivative instruments: 
+ 
+Foreign exchange financial instrument: 
+ 
+ 
+Interest rate financial instrument: 
+ 
+ 
+Debt swaps (Interest Rate and Foreign Exchange) 
+Klabin has derivative financial instruments ( swaps) linked to its loans and financing with the aim of 
+adjusting the exchange rate or interest rate indexes to the Company's cash generation indexes, thus 
+mitigating the impacts generated by fluctuations in foreign exchange and interest rates. At the end of March 
+2026, the Company had an outstanding notional value of US$1.6 billion in foreign exchange derivative 
+contracts (swaps) and R$9.0 billion in interest rates derivative contracts as per the table below. 
+ 
+Foreign exchange swaps 
+ 
+ 
+ 
+ 
+ 
+ 
+1Q26 4Q25 1Q26 4Q25
+Cash flow (Zero Cost Collars) 503 551 253 143
+Debt (Foreign Exchange Swaps) 1,628 1,628 394 (252)
+Total 2,131 2,178 647 (110)
+Debt Hedging Notional (US$ million) Fair Value (R$ million)
+1Q26 4Q25 1Q26 4Q25
+Debt (Interest Swaps) 8,947 9,400 267 180
+Debt Hedging Notional (R$ million) Fair Value (R$ million)
+Mar/26 Dec/25 Mar/26 Dec/25
+Debenture 114.65% CDI USD + 5.40% 03/20/2019 03/19/2029 USD 266 266 (356) (425)
+CRA IV IPCA + 4.51% USD + 3.82% 12/08/2022 03/15/2029 USD 189 189 131 51
+CRA Continued IPCA + 3.50% USD + 2.45% 09/01/2022 06/15/2029 USD 230 230 155 47
+CRA VI IPCA + 6.77% USD + 5.20% 07/15/2022 04/15/2034 USD 467 467 355 127
+CCB Rural 100% CDI USD + 5.13% 04/04/2025 04/04/2030 USD 351 351 226 46
+PPEs USD + 5,00% 93% CDI 19/12/2025 19/12/2028 USD 125 125 (118) (99)
+Total 1,628 1,628 394 (252)
+Debt Hedging Original 
+Interest Swap Interest
+Fair Value (R$ 
+million)Closing Maturity Currency
+Notional Value (US$ 
+million)
+
+[p. 75]
+31/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Interest rate swaps 
+ 
+ 
+Foreign Exchange Hedge 
+As previously detailed, Klabin has a cash flow foreign exchange hedge policy. As of March 31, 2026, the 
+outstanding value (notional value) of the ZCC (Zero -Cost Collar) operations related to Cash Flow was 
+US$503 million, with maturities distributed between April 2026 and March 2028. The mark-to-market (fair 
+value) of these operations amounted to a positive R$424 million at the end of the quarter. During 1Q26, 
+Cash Flow Currency Hedge operations generated a positive result of R$30 million, as detailed in the table 
+below: 
+ 
+Zero Cost Collars (ZCC): 
+ 
+ 
+ 
+Mar/26 Dec/25 Mar/26 Dec/25
+BNDES IPCA + 3.58% 74.91% CDI 10/26/2023 11/16/2039 BRL 2,317 2,975 92 58
+Debenture IPCA + 6.05% 99.48% CDI 08/15/2024 08/15/2039 BRL 1,519 1,589 (62) (107)
+CCB Rural Pre 14.26% 100% CDI 04/04/2025 04/04/2030 BRL 2,341 2,000 194 227
+CPR IPCA + 7.16% 93,86% CDI 15/08/2025 08/15/2035 BRL 1,204 1,204 46 17
+PPE SOFR+ 1.41% USD+ 4.98% 04/23/2025 04/23/2032 USD 1,566 1,651 (2) (15)
+Total 8,947 9,418 267 180
+Fair Value (R$ million)Debt Hedging Original 
+Interest Swap Interest Closing Maturity Currency
+Notional Value (R$ 
+million)
+Accomplished Exchange 
+Closing 1Q26
+Sensitivity to 
+R$0.10/US$ 
+variation2
+1Q26 - - - 30 - -
+2Q26 5.90 6.69 73 - 50 7
+3Q26 6.06 6.87 101 - 85 10
+4Q26 6.41 7.22 62 - 73 6
+1Q27 6.35 7.16 59 - 67 6
+2Q27 6.23 7.03 35 - 35 4
+3Q27 5.95 6.74 80 - 58 8
+4Q27 5.94 6.74 57 - 41 6
+1Q28 5.64 6.42 37 - 15 4
+Total 6.06 6.86 503 30 424 50
+² Shows the impact on cash for variations of R$ 0.10 below/above the average strike level of put/call, defined each quarter
+¹ Exchange Rate Closing 1Q26: 5.2194 R$/US$
+Cash Adjustment (R$ million)
+Term Put
+(Average)
+Call
+(Average)
+Notional 
+Value (US$ 
+millions)
+
+[p. 76]
+32/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Capital Markets 
+Variable Income 
+Klabin's units, trading under the KLBN11 ticker (1 common share + 4 preferred shares), recorded an 
+appreciation of 4.0% in the first quarter of 2026 and 5.6% in the twelve -month period ended March 31, 
+2026, posting a closing price of R$19.51/unit. These prices reflect the impact of the bonus shares approved 
+at the Board of Directors meeting held on December 8, 2025, and executed on December 22, 2025. The 
+Ibovespa appreciated 16.3% in 1Q26 and 43.9% over the last twelve months. Klabin's units , traded in all 
+B3 sessions, reached about 336 million transactions in 1Q26. In terms of financial volume, the average 
+daily liquidity was R$107 million in the quarter and R$100 million in the last twelve months. The maximum 
+price reached throughout the qu arter was R$21.02/unit on February 11, 2026, while the minimum price 
+was R$18.35/unit on January 7, 2026. 
+ 
+ 
+ 
+ 
+ 
+ 
+6%
+44%
+KLBN11 x Ibovespa
+Klabin IBOVESPA
+Mar/25 May/25Apr/25 Jun/25 Feb/26Jan/26Dec/25Nov/25Jul/25 Aug/25 Sep/25 Oct/25 Mar/26
+0%
+93
+118
+97 99
+81 77
+96 97 90
+123
+100
+139
+89
+0
+50
+100
+150
+200
+250
+300
+Mar/25 Apr/25 May/25 Jun/25 Jul/25 Aug/25 Sep/25 Oct/25 Nov/25 Dec/25 Jan/26 Feb/26 Mar/26
+Average Daily Trading Volume- KLBN11
+(R$ Million)
+
+[p. 77]
+33/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+ 
+¹Free Float considers the total number of shares excluding controlling shareholders and related parties, directors, executive officers and treasury 
+shares. 
+ 
+18%
+51%
+31%
+Institutional Investors
+Local
+Institutional Investors
+Foreign
+Individual
+Investors
+51%49% ForeingLocal
+Free Float¹ Distribution
+03/31/2026
+09/30/2023
+
+[p. 78]
+34/44 
+ 
+ 
+ 
+ Earnings Release 1Q26 
+Fixed Income 
+Currently, the Company has three (note or bond) issuances in the international market. Among these, one 
+issuance of Green Bonds (2049), whose proceeds must be exclusively allocated to eligible green projects. 
+There is also a conventional debt issuance (2029). And finally, a Sustainability-Linked Bond (SLB 2031), 
+with a coupon tied to Sustainability performance indicators. 
+On February 13, the Company announced the early r
