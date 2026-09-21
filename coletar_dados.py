@@ -744,36 +744,75 @@ def release_fraco(r):
     return False, ""
 
 
-def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None):
+def periodos_oficiais(dados):
+    """Trimestres com demonstracao oficial (CVM ITR/DFP ou SEC XBRL), como (ano, tri).
+
+    Serve de limite inferior da cobertura: companhia que abriu capital ha um ano nao tem release de
+    3T24 porque nao existia como companhia aberta, e a trava nao pode ficar presa nisso para sempre."""
+    series = []
+    for caminho in (("cvm_demonstracoes", "serie_trimestral"), ("sec_xbrl", "trimestral"),
+                    ("subjacente_us", "sec_xbrl", "trimestral")):
+        no = dados or {}
+        for chave in caminho:
+            no = no.get(chave) if isinstance(no, dict) else None
+        if isinstance(no, dict):
+            series.append(no)
+    achados = set()
+    for serie in series:
+        for linha in serie.values():
+            if isinstance(linha, dict):
+                for periodo, valor in linha.items():
+                    if valor is None:
+                        continue
+                    # a serie da CVM rotula '2026T2' e a da SEC 'CY2026Q2'; o release usa '2T26'
+                    par = _ano_trimestre(periodo) or (ordem_periodo(periodo) if ordem_periodo(periodo) != (0, 0) else None)
+                    if par:
+                        achados.add(par)
+    return achados
+
+
+def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None):
     """Bloco `cobertura`: a janela obrigatoria, o que esta coberto, o que falta e o que esta fraco.
 
     E o criterio que separa 'tenho o dado' de 'tenho a linha no indice'. Um deep search so pode ser
-    escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase."""
+    escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase. `oficiais` (o
+    conjunto de periodos_oficiais) marca como `nao_aplicavel` o trimestre anterior a existencia da
+    companhia como aberta, que nunca vai ter release."""
     janela = janela_obrigatoria(n, hoje)
     por_periodo = {r.get("periodo"): r for r in (historico or []) if r.get("periodo")}
-    completos, faltando, fracos = [], [], []
+    # So dispensa trimestre quando a serie oficial e longa o bastante para provar quando a companhia
+    # comecou. Serie curta e quase sempre coleta truncada, e dispensar por causa dela esconderia
+    # justamente o buraco que esta trava existe para achar.
+    mais_antigo_oficial = min(oficiais) if (oficiais and len(oficiais) >= 4) else None
+    completos, faltando, fracos, na = [], [], [], []
     for periodo in janela:
         r = por_periodo.get(periodo)
         fraco, motivo = release_fraco(r)
         if r is None:
-            faltando.append(periodo)
+            if mais_antigo_oficial and ordem_periodo(periodo) < mais_antigo_oficial:
+                na.append(periodo)      # antes da primeira demonstracao oficial: nao existe release
+            else:
+                faltando.append(periodo)
         elif fraco:
             fracos.append({"periodo": periodo, "motivo": motivo, "assunto": r.get("assunto")})
         else:
             completos.append(periodo)
     dentro = set(janela)
     return {"janela": janela, "completos": completos, "faltando": faltando, "fracos": fracos,
+            "nao_aplicavel": na,
             "fora_da_janela": sorted((p for p in por_periodo if p not in dentro), key=ordem_periodo, reverse=True),
             "completa": not faltando and not fracos,
             "nota": ("janela = os trimestres cujo prazo legal de divulgacao ja venceu, do mais novo para o "
                      f"mais antigo. `faltando` nao tem release guardado; `fracos` tem release guardado que nao "
                      f"serve de fonte (texto abaixo de {RELEASE_MIN_UTIL} caracteres ou documento que nao e "
-                     "release de resultado). `completa` e falso se qualquer um dos dois tiver item")}
+                     "release de resultado). `nao_aplicavel` e trimestre anterior a primeira "
+                     "demonstracao oficial da companhia: nao existe release dele. `completa` e falso "
+                     "se `faltando` ou `fracos` tiver item")}
 
 
-def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None):
+def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None):
     """Trimestres da janela que o coletor ainda precisa ir buscar (faltando + fracos)."""
-    c = cobertura_releases(historico, n, hoje)
+    c = cobertura_releases(historico, n, hoje, oficiais)
     return c["faltando"] + [f["periodo"] for f in c["fracos"]]
 
 
@@ -3823,7 +3862,7 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     # como documento de outro tipo (2): pode nao ser o release. O site e consultado de novo a cada
     # coleta ate um release rotulado do mesmo trimestre tomar o lugar dele (preferencias + ate_periodo).
     fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
-    faltantes = periodos_a_buscar(historico)
+    faltantes = periodos_a_buscar(historico, oficiais=periodos_oficiais(dados))
     if historico and atraso <= 0 and not fraco and not faltantes:
         app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
                 f"site de RI nao consultado")
@@ -3964,7 +4003,7 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
                 [{k: v for k, v in r.items() if k != "texto"} for r in historico]
             if historico:
                 dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
-            dados["cobertura"] = cobertura_releases(historico)
+            dados["cobertura"] = cobertura_releases(historico, oficiais=periodos_oficiais(dados))
             c = dados["cobertura"]
             app.log(f"{tk}: cobertura da janela: {len(c['completos'])}/{len(c['janela'])} trimestres"
                     + (f"; faltando {', '.join(c['faltando'])}" if c["faltando"] else "")
