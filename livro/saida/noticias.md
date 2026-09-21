@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 11h21
+NOTÍCIAS E FATOS · 21/09 12h22
 
-Pernas: noticias ok 20 novas (14 consultas; descartadas: 364 veículo fora da lista, 14 sem ativo, 9 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (14 consultas; descartadas: 373 veículo fora da lista, 18 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,32 +34,7 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
-
-[ATENÇÃO] E05 · ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027
-Investing.com · 21/09 11h08 · fonte única · licença: manchete
-Link: https://br.investing.com/news/general-news/bmob3-itau-bba-sobe-precoalvo-de-bemobi-e-ve-dividendo-de-quase-9-em-2027-2070880
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Investing.com: BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 21/09 11h08
-id: E05-ITUB4-de73e33281-2026-09-21 · status: pendente
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
-InfoMoney · 21/09 11h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
-  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
-  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
-  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
-  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
-  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
-Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: VALE3
-Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-b9126c460a-2026-09-21 · status: pendente
+## NOTÍCIAS COM MATERIALIDADE (13)
 
 [ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
 Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
@@ -75,7 +50,80 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg Linea 21/09 10h56
-id: E05-DI-aad421b7ad-2026-09-21 · status: pendente
+id: E05-DI-04cf063213-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · DI · Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%
+Suno Noticias · 21/09 10h18 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50% A mediana do Boletim Focus para a taxa Selic no fim de 2026 caiu de 13,75% para 13,50%, depois de seis semanas de estabilidade.
+  – Considerando só as 77 estimativas atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a mediana para a Selic no fim deste ano diminuiu de 13,56% para 13,50%.
+  – Os dados forma divulgados nesta segunda-feira, 21.
+  – A estimativa intermediária do Boletim Focus para a taxa Selic no fim de 2027 seguiu em 12,00% pela 14ª semana seguida.
+  – Levando em conta apenas as 76 estimativas atualizadas nos últimos cinco dias úteis, a mediana também continuou em 12,00%.
+  – Na última quarta-feira, 16, o Comitê de Política Monetária (Copom) do Banco Central reduziu a Selic em mais 0,25 ponto porcentual, de 14,00% para 13,75% ao ano.
+Link: https://www.suno.com.br/noticias/selic-no-fim-de-2026-21092026-boletim-focus-go/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Suno Noticias: Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 21/09 10h18
+id: E05-DI-fae7fbb037-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
+Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
+  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
+  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
+  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
+  – As ações passaram a ser negociadas sem o direito em 02 de junho.
+  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
+Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/amp/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 21/09 08h55
+id: E05-PETR4-3723b4e228-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027
+Investing.com · 21/09 11h08 · fonte única · licença: manchete
+Link: https://br.investing.com/news/general-news/bmob3-itau-bba-sobe-precoalvo-de-bemobi-e-ve-dividendo-de-quase-9-em-2027-2070880
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Investing.com: BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 21/09 11h08
+id: E05-ITUB4-de73e33281-2026-09-21 · status: entregue
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
+InfoMoney · 21/09 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
+  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
+  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
+  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
+  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
+  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
+Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 11h00
+id: E05-VALE3-b9126c460a-2026-09-21 · status: entregue
+
+[ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
+Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bloomberg — Economistas revisaram para baixo suas previsões para a taxa básica de juros no final de 2026, à medida que a economia passa por um arrefecimento gradual às vésperas das eleições presidenciais de outubro.
+  – A Selic cairá para 13,5%, ante os 13,75% previstos anteriormente, de acordo com o Relatório Focus, pesquisa semanal com analistas publicada pelo Banco Central nesta segunda-feira (21).
+  – Os economistas mantiveram suas previsões para 2027 e 2028 em 12% e 10,50%, respectivamente.
+  – Os membros do Comitê de Política Monetária do Banco Central realizaram um corte de um quarto de ponto na taxa na semana passada, levando a Selic a 13,75% e prolongando um ciclo que reduziu os custos dos empréstimos em 1…
+  – Leia também: Mercado reduz projeção para a Selic no fim de 2026 e vê inflação mais controlada Os planos dos candidatos para lidar com o aumento da dívida pública e dos gastos são fundamentais para as perspectivas fiscai…
+  – Veja mais em bloomberg.com ©2026 Bloomberg L.P.
+Link: https://www.bloomberglinea.com.br/brasil/mercado-ve-espaco-para-mais-cortes-e-reduz-projecao-da-selic-para-135-em-2026/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg Linea 21/09 10h56
+id: E05-DI-aad421b7ad-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
 Money Times · 21/09 10h55 · fonte única · licença: integral
@@ -169,8 +217,21 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (42)
+## OUTRAS NOTÍCIAS (só manchete) (55)
 
+· PETR4 Brasil está “em linha” com Acordo de Paris, diz presidente da Petrobras (Poder360) https://www.poder360.com.br/poder-energia/brasil-esta-em-linha-com-acordo-de-paris-diz-presidente-da-petrobras/
+· UST Howard Marks Sends Stark Signal to Federal Reserve (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6988f20d1094b:0-howard-marks-sends-stark-signal-to-federal-reserve/
+· PETR4 Petrobras anuncia hoje descobertas relevantes de gás a desenvolver na Colômbia (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-anuncia-hoje-descobertas-relevantes-de-gas-a-desenvolver-na-colombia/
+· BTC Bitcoin and ethereum prices today, Monday, September 21, 2026: Crypto prices hit highest levels in 8 months (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-21-2026-crypto-prices-hit-highest-levels-in-8-months-143444230.html
+· PETR4 CEO: Petrobras terá que ampliar atuação em renováveis para manter relevância até 2050 (InfoMoney) https://www.infomoney.com.br/mercados/ceo-petrobras-tera-que-ampliar-atuacao-em-renovaveis-para-manter-relevancia-ate-2050/
+· ITUB4 Itaú BBA vê Brasil como ‘anti-IA’ para fundos globais, mas fiscal ainda limita apostas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-brasil-como-anti-ia-para-fundos-globais-mas-fiscal-ainda-limita-apostas/
+· VALE3 Vale faz investimento estratégico em minério de ferro na região de Carajás ao comprar 30% da Ligga (Estadao) https://www.estadao.com.br/em-alta/economia/negocios/vale-faz-investimento-estrategico-em-minerio-de-ferro-na-regiao-de-carajas-ao-comprar-30-da-ligga/
+· VALE3 Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão (ADVFN) https://br.advfn.com/jornal/2026/09/vale-cobre-ganha-espaco-enquanto-minerio-de-ferro-e-dividendos-enfrentam-pressao
+· NVDA Zacks Market Edge Highlights: ExxonMobil, JPMorgan Chase and NVIDIA (TradingView (Reuters)) https://www.tradingview.com/news/zacks:84adcc7ce094b:0-zacks-market-edge-highlights-exxonmobil-jpmorgan-chase-and-nvidia/
+· BTC Why Is Bitcoin Up Today? It Closed Above Its 50-Week Average for the First Time in 45 Weeks. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-today-closed-above-125755691.html
+· JPM Will JPMorgan's Selective M&A Strategy Expand Growth Runway? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ce228a5e2094b:0-will-jpmorgan-s-selective-m-a-strategy-expand-growth-runway/
+· GOOGL Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails (CoinDesk) https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails
+· BTC Bitcoin hits highest level since January at $85,000, as the market debates whether the 'crypto winter' is over (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTFB1ZmdGWG5ublkyVnNGaHplY002MVBfV1g0a1Fpckd0N2lRM0RsSWk4R0R1cjQtVXd5T2dhRERVdFc1MVctWndZWTQ5TTY3dlhwOHNVTXVrNnh4SmkyVjRodWQySmF6Zzd5SkdNdHNSY2Y?oc=5
 · VALE3 Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão (ADVFN) https://br.advfn.com/jornal/2026/09/vale-cobre-ganha-espaco-enquanto-minerio-de-ferro-e-dividendos-enfrentam-pressao/
 · PETR4 Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/21/ainda-queremos-atingir-autossuficiencia-de-diesel-no-brasil-diz-presidente-da-petrobras.ghtml
 · BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/21/3365599/0/en/baba-investors-have-opportunity-to-lead-alibaba-group-holding-limited-securities-fraud-lawsuit-with-sbs-law.html

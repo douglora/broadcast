@@ -1,31 +1,5 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027
-Investing.com · 21/09 11h08 · fonte única · licença: manchete
-Link: https://br.investing.com/news/general-news/bmob3-itau-bba-sobe-precoalvo-de-bemobi-e-ve-dividendo-de-quase-9-em-2027-2070880
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Investing.com: BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 21/09 11h08
-Push: intradia: 3 alertas de atenção — E05 ITUB4, E05 VALE3, E05 DI · detalhe na sessão
-ids: E05-ITUB4-de73e33281-2026-09-21
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
-InfoMoney · 21/09 11h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
-  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
-  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
-  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
-  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
-  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
-Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: VALE3
-Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 11h00
-ids: E05-VALE3-b9126c460a-2026-09-21
-
 [ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
 Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
@@ -40,34 +14,65 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
 Fonte: Bloomberg Linea 21/09 10h56
-ids: E05-DI-aad421b7ad-2026-09-21
+Push: intradia: 3 alertas de atenção — E05 DI, E05 DI, E05 PETR4 · detalhe na sessão
+ids: E05-DI-04cf063213-2026-09-21
+
+[ATENÇÃO] E05 · DI · Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%
+Suno Noticias · 21/09 10h18 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50% A mediana do Boletim Focus para a taxa Selic no fim de 2026 caiu de 13,75% para 13,50%, depois de seis semanas de estabilidade.
+  – Considerando só as 77 estimativas atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a mediana para a Selic no fim deste ano diminuiu de 13,56% para 13,50%.
+  – Os dados forma divulgados nesta segunda-feira, 21.
+  – A estimativa intermediária do Boletim Focus para a taxa Selic no fim de 2027 seguiu em 12,00% pela 14ª semana seguida.
+  – Levando em conta apenas as 76 estimativas atualizadas nos últimos cinco dias úteis, a mediana também continuou em 12,00%.
+  – Na última quarta-feira, 16, o Comitê de Política Monetária (Copom) do Banco Central reduziu a Selic em mais 0,25 ponto porcentual, de 14,00% para 13,75% ao ano.
+Link: https://www.suno.com.br/noticias/selic-no-fim-de-2026-21092026-boletim-focus-go/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Suno Noticias: Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 21/09 10h18
+ids: E05-DI-fae7fbb037-2026-09-21
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
+Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
+  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
+  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
+  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
+  – As ações passaram a ser negociadas sem o direito em 02 de junho.
+  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
+Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/amp/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 21/09 08h55
+ids: E05-PETR4-3723b4e228-2026-09-21
 
 Info (só linha no Fechamento):
-· F03 Brent cai a US$ 100,23 (-3,5% no dia) (parcial, intradia)
+· F06 BTC sobe a US$ 86.016 (cruzou US$ 85.000) (parcial, intradia)
+· E05 PETR4 · Brasil está “em linha” com Acordo de Paris, diz presidente da Petrobras
+· E05 UST · Howard Marks Sends Stark Signal to Federal Reserve
+· E05 PETR4 · Petrobras anuncia hoje descobertas relevantes de gás a desenvolver na Colômbia
+· E05 BTC · Bitcoin and ethereum prices today, Monday, September 21, 2026: Crypto prices hit highest levels in 8 months
+· E05 PETR4 · CEO: Petrobras terá que ampliar atuação em renováveis para manter relevância até 2050
+· E05 ITUB4 · Itaú BBA vê Brasil como ‘anti-IA’ para fundos globais, mas fiscal ainda limita apostas
+· E05 VALE3 · Vale faz investimento estratégico em minério de ferro na região de Carajás ao comprar 30% da Ligga
 · E05 VALE3 · Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão
-· E05 PETR4 · Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras
-· E05 BABA · BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law
-· E05 BRENT · Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 1%
-· E05 USDBRL · Ibovespa ensaia recuperação com exterior a duas semanas da eleição; dólar cai
-· E05 BTC · Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck
-· E05 ETH · Bitmine Buys $75 Million Of Ethereum Amid Signs ‘Crypto Winter’ Is Over
-· E05 BTC · Strategy Buys $75 Million of Bitcoin As Price Rallies
-· E05 DI · Mercado precifica mais um corte na Selic em 2026
-· E05 USDBRL · Dólar hoje cai a R$ 5,10, e cenário eleitoral entra no radar do câmbio
-· E05 ETH · Why Is Ethereum Up Today? It Just Broke Above $2,672, Opening the Door to $3,000
-· E05 BRENT · Dólar cai e Bolsa sobe com petróleo em queda e nova projeção para os juros
-· E05 BTC · Michael Saylor's Strategy jumps as the company says it bought more bitcoin
-· E05 PETR4 · Petrobras (PETR4) e MPF entram em briga pela exploração de petróleo na Foz do Amazonas. Qual é o impasse?
-· E05 MU · Micron's Stock Could Easily Double (NASDAQ:MU)
-· E05 VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
-· E05 PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
+· E05 NVDA · Zacks Market Edge Highlights: ExxonMobil, JPMorgan Chase and NVIDIA
+· E05 BTC · Why Is Bitcoin Up Today? It Closed Above Its 50-Week Average for the First Time in 45 Weeks.
+· E05 JPM · Will JPMorgan's Selective M&A Strategy Expand Growth Runway?
+· E05 GOOGL · Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails
+· E05 BTC · Bitcoin hits highest level since January at $85,000, as the market debates whether the 'crypto winter' is over
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-VALE3-5c68b2c00a-2026-09-21 (teto de noticias), E05-PETR4-c5420464aa-2026-09-21 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  E05 ITUB4 — ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 
-· pendente  E05 VALE3 — VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam 
 · pendente  E05 DI — DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 
+· pendente  E05 DI — DI · Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50
+· pendente  E05 PETR4 — PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; ve
+· entregue  E05 ITUB4 — ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 
+· entregue  E05 VALE3 — VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam 
+· entregue  E05 DI — DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 
 · entregue  E05 DI — DI · Mercado corta corta projeção para Selic e eleva para inflação de 2026: o bo
 · entregue  M03 MACRO — Focus de 18/09: IPCA: 2026 4,92% (+2 bps) · 2027 4,30% (0 bps)
 · entregue  E03 PETR4 — PETR4 · Fato Relevante: Petrobras informa sobre adesão à nova subvenção econômic
@@ -75,7 +80,8 @@ Alertas do dia (todos, com status):
 · entregue  E05 DI — DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
 · entregue  E05 MMM — MMM · Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: di: ajuste B3 de 2026-09-21 não publicado 
-· linha     F03 BRENT — Brent cai a US$ 100,23 (-3,5% no dia) (parcial, intradia)
+· linha     F06 BTC — BTC sobe a US$ 86.016 (cruzou US$ 85.000) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 100,41 (-3,3% no dia) (parcial, intradia)
 · linha     T01 BBDC4 — BBDC4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 17,99 vs MM200 R$ 18
 · linha     T12 ETH — ETH: 6 altas seguidas (+14% acumulado) a US$ 2.726
-· (+48 notícias só manchete, em noticias.md)
+· (+61 notícias só manchete, em noticias.md)
