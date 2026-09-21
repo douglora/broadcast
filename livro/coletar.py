@@ -483,7 +483,10 @@ class Coleta:
             txt = render.linha_sem_novidade(relogios.fmt_brt(self.agora), relogios.fmt_brt(self.agora), obs, "") if not resultado["mensagens"] else alertas_txt
             with open(os.path.join(saida, "intradia.md"), "w", encoding="utf-8") as f:
                 f.write(txt + "\n")
-            return out
+            # NAO retorna aqui: o painel e republicado em todo slot (pedido do Douglas
+            # em 21/09), entao o intradia tambem regenera painel.html. O que continua
+            # so na manha e no fechamento sao os .md longos, o celular, os cards e o
+            # fechamento.json - o intradia nao tem Tesouro novo nem ajuste do dia.
         curvas_l, lacunas_c, ins = render.curvas_linhas(self.curvas, self.u, self.macro, ctx.regime, self.hoje)
         # material de analise para a Leitura da Mesa: amplitude, extremos, pares
         # descolados, drawdowns e vol abrindo. A sessao narra; quem calcula e o runner.
@@ -504,8 +507,9 @@ class Coleta:
         coleta_dia = relogios.brt(self.agora).date()
         hora_txt = relogios.fmt_brt(self.agora) + ("" if coleta_dia == self.hoje else f" de {fmt.data_br(coleta_dia.isoformat())}")
         agenda_l = render.agenda(self.calendario, self.hoje, extras=render.agenda_extras(self.eventos.get("agenda") or {}, self.calendario))
-        a_txt = render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, agenda_l,
-                               lacunas, fontes, parcial=parcial, slot=self.modo, hora=hora_txt)
+        a_txt = ("" if self.modo == "intradia" else
+                 render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, agenda_l,
+                                lacunas, fontes, parcial=parcial, slot=self.modo, hora=hora_txt))
         legenda = render.legenda_ucits(self.u)
         notas = []
         prox = (self.macro.get("proxies") or {}).get("proxies") or {}
@@ -516,25 +520,27 @@ class Coleta:
         bh = (self.macro.get("proxies") or {}).get("bhkp_semanal")
         if bh:
             notas.append(f"BHKP semanal: US$ {fmt.num(bh.get('valor'), 0)}/t ({bh.get('fonte')}, {bh.get('data')}).")
-        md = render.fechamento_md(a_txt, b_txt, legenda, notas)
-        nome = "manha.md" if self.modo == "manha" else "fechamento.md"
-        with open(os.path.join(saida, nome), "w", encoding="utf-8") as f:
-            f.write(md)
-        if self.modo != "manha":
+        if self.modo != "intradia":
+            md = render.fechamento_md(a_txt, b_txt, legenda, notas)
+            nome = "manha.md" if self.modo == "manha" else "fechamento.md"
+            with open(os.path.join(saida, nome), "w", encoding="utf-8") as f:
+                f.write(md)
+        if self.modo not in ("manha", "intradia"):
             with open(os.path.join(saida, "fechamento_celular.md"), "w", encoding="utf-8") as f:
                 f.write("```\n" + b_cel + "\n```\n" + legenda + "\n")
-        gravar_json(os.path.join(saida, "fechamento.json"), {
-            "data": self.hoje.isoformat(), "slot": self.modo, "gerado_em": self.agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "janelas": janelas, "series_info": self.series_info, "movers": mov, "leitura_insumos": ins,
-            "alertas_do_dia": do_dia, "lacunas": lacunas, "relogios": relogios_txt,
-            "push_sugerido": self._push_fechamento(do_dia, mov, ins),
-        })
-        # cards em markdown: o que a sessao cola no chat as 18h40 (escolha do Douglas)
-        nome_cards = "manha_cards.md" if self.modo == "manha" else "fechamento_cards.md"
-        with open(os.path.join(saida, nome_cards), "w", encoding="utf-8") as f:
-            f.write(cards.cards_md(self.u, self.hoje, self.modo, hora_txt, relogios_txt, janelas,
-                                   self.series_info, do_dia, ins, mov, agenda_l, lacunas, notas,
-                                   fontes, parcial=parcial, em_dolar=(self.macro.get("proxies") or {}).get("em_dolar")))
+        if self.modo != "intradia":
+            gravar_json(os.path.join(saida, "fechamento.json"), {
+                "data": self.hoje.isoformat(), "slot": self.modo, "gerado_em": self.agora.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "janelas": janelas, "series_info": self.series_info, "movers": mov, "leitura_insumos": ins,
+                "alertas_do_dia": do_dia, "lacunas": lacunas, "relogios": relogios_txt,
+                "push_sugerido": self._push_fechamento(do_dia, mov, ins),
+            })
+            # cards em markdown: o que a sessao cola no chat as 18h40 (escolha do Douglas)
+            nome_cards = "manha_cards.md" if self.modo == "manha" else "fechamento_cards.md"
+            with open(os.path.join(saida, nome_cards), "w", encoding="utf-8") as f:
+                f.write(cards.cards_md(self.u, self.hoje, self.modo, hora_txt, relogios_txt, janelas,
+                                       self.series_info, do_dia, ins, mov, agenda_l, lacunas, notas,
+                                       fontes, parcial=parcial, em_dolar=(self.macro.get("proxies") or {}).get("em_dolar")))
         # painel HTML: a mesma coleta virada pagina; a sessao so troca o marcador da
         # leitura e publica como Artifact
         with open(os.path.join(saida, "painel.html"), "w", encoding="utf-8") as f:

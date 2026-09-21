@@ -414,3 +414,16 @@ def test_hash_item_estavel_entre_coletas():
     assert noticias.hash_item(titulo, "Bloomberg Linea") == noticias.hash_item(titulo, "Bloomberg Linea")
     assert noticias.hash_item(titulo, "Bloomberg Linea") != noticias.hash_item(titulo, "Suno Noticias")
     assert noticias.hash_item(titulo, "Bloomberg Linea") != noticias.hash_item("Outra manchete", "Bloomberg Linea")
+
+def test_3m_nao_casa_dentro_de_numero_nem_taxa_de_prazo():
+    """'3M' aparece dentro de '$29.3M' e em '3M SOFR' (taxa de 3 meses); nos dois casos
+    a noticia nao e da 3M. Vistos em producao em 21/09, os dois no mesmo dia."""
+    import yaml
+    from livro.fontes import noticias
+    cfg = yaml.safe_load(open("config/fontes_noticias.yaml", encoding="utf-8"))
+    casar, ex, pv = cfg["casar"], cfg.get("excluir"), cfg.get("previsor_macro")
+    assert "MMM" not in noticias.atribuir("Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend", "", casar, ex, pv)
+    assert "MMM" not in noticias.atribuir("Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps", "", casar, ex, pv)
+    assert "MMM" not in noticias.atribuir("Investors weigh 3M Treasury yields against equities", "", casar, ex, pv)
+    assert noticias.atribuir("3M raises full-year guidance on industrial demand", "", casar, ex, pv) == ["MMM"]
+    assert noticias.atribuir("3M Company completes divestiture of food safety unit", "", casar, ex, pv) == ["MMM"]
