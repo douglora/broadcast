@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 09h40
+NOTÍCIAS E FATOS · 21/09 10h22
 
-Pernas: noticias ok 19 novas (14 consultas; descartadas: 360 veículo fora da lista, 25 sem ativo, 45 teto) · cvm ok 3 novos de 6 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (14 consultas; descartadas: 365 veículo fora da lista, 18 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -13,7 +13,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre Petrobras informa sobre adesão à nova subvenção econômica'
 Fonte: CVM 19/09
-id: E03-PETR4-e405cd4e-2026-09-19 · status: pendente · íntegra disponível
+id: E03-PETR4-e405cd4e-2026-09-19 · status: entregue · íntegra disponível
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Petrobras recebe nova parcela de Subvenção Econômica à Gasolina
 CVM · entregue 2026-09-19 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -34,7 +34,16 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (4)
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · DI · Mercado corta corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
+Estadao · 21/09 09h58 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/boletim-focus-hoje-mercado-eleva-projecao-para-a-inflacao-de-2026-e-se-afasta-da-meta-do-bc/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Estadao: Mercado corta corta projeção para Selic e eleva para inflação de 2026: o boletim Focus de…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 21/09 09h58
+id: E05-DI-675524c8d1-2026-09-21 · status: pendente
 
 [ATENÇÃO] E05 · DI · Mercado reduz projeção para a Selic e prevê mais um corte para este ano
 O Globo · 21/09 08h39 · + UOL Economia · licença: manchete
@@ -43,7 +52,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no O Globo: Mercado reduz projeção para a Selic e prevê mais um corte para este ano; confirmar o número no texto antes de repassar'
 Fonte: O Globo 21/09 08h39
-id: E05-DI-9a4ab2642f-2026-09-21 · status: pendente
+id: E05-DI-9a4ab2642f-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
 InfoMoney · 21/09 08h30 · + Valor Economico, Exame · licença: resumo
@@ -59,7 +68,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/09 08h30
-id: E05-DI-2ed7973ad5-2026-09-21 · status: pendente
+id: E05-DI-2ed7973ad5-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · MMM · Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps
 TradingView (Reuters) · 21/09 08h28 · fonte única · licença: manchete
@@ -68,7 +77,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: MMM
 Como falar: 'saiu no TradingView (Reuters): Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 21/09 08h28
-id: E05-MMM-fe3c9274d4-2026-09-21 · status: pendente
+id: E05-MMM-fe3c9274d4-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
 eixos · 21/09 07h02 · fonte única · licença: resumo
@@ -87,8 +96,20 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (15)
+## OUTRAS NOTÍCIAS (só manchete) (27)
 
+· VALE3 BTG vê retorno de 30% para ações da Vale, mas alerta para falta de gatilhos no curto prazo (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/btg-ve-retorno-de-30-para-acoes-da-vale-mas-alerta-para-falta-de-gatilhos-no-curto-prazo/
+· MU Nvidia and Micron are part of Zacks Earnings Preview (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-micron-part-zacks-earnings-130100351.html
+· JPM Will JPMorgan's Selective M&A Strategy Expand Growth Runway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgans-selective-m-strategy-expand-125700194.html
+· USDBRL Dólar recua com exterior favorável e trade eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/21/dolar-recua-com-exterior-favoravel-e-trade-eleitoral.htm
+· BRENT Dólar abre em queda com recuo do petróleo e cenário eleitoral no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-com-recuo-do-petroleo-e-cenario-eleitoral-no-radar.shtml
+· UST U.S. Treasury yields ease on crude pull-back ; rate hike bets stay (Investing.com) https://www.investing.com/news/forex-news/euro-zone-yields-ease-as-markets-await-of-ecbs-lagarde-speech-4908370
+· BTC Strategy Jumps 6% as Bitcoin Hits Highest Level Since January; MARA Climbs 5%, Riot Rises 4% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-jumps-6-bitcoin-hits-124444487.html
+· BTC MicroStrategy Ends Two-Week Pause With 950 Bitcoin: Is the Buying Engine Stalling? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/microstrategy-ends-two-week-pause-121459967.html
+· AMZN Worried About Hugging Face? Microsoft and Amazon Got Exposed Most Among Hyperscalers (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/worried-hugging-face-microsoft-amazon-121222004.html
+· DI Economistas veem mais corte na Selic e inflação mais alta; confira o Focus desta segunda-feira (21) (Money Times) https://www.moneytimes.com.br/economistas-veem-mais-um-corte-na-selic-e-inflacao-mais-alta-confira-o-focus-desta-segunda-feira-21/
+· BTC Billionaire Tim Draper Predicts Bitcoin Will Hit $250,000 Within 2 Years. Here's What Needs to Happen. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/billionaire-tim-draper-predicts-bitcoin-062000744.html
+· CVX Chevron (CVX) Supercharges its Venezuela Bet with More Oil Rigs (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-supercharges-venezuela-bet-151837921.html
 · DI Economistas do Brasil reduzem previsão da Selic para 2026 após corte de juros (Investing.com) https://br.investing.com/news/world-news/economistas-do-brasil-reduzem-previsao-da-selic-para-2026-apos-corte-de-juros-93CH-2070716
 · MU Micron: SCAs And Enterprise Adoption Make It A Strong Buy (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948222-micron-upcoming-q4-sca-and-enterprise-adoption-make-it-strong-buy
 · USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/

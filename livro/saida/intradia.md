@@ -45,3 +45,4 @@ Alertas do dia (todos, com status):
 · linha     T01 BBDC4 — BBDC4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 17,99 vs MM200 R$ 18
 · linha     T12 ETH — ETH: 6 altas seguidas (+14% acumulado) a US$ 2.726
 · (+31 notícias só manchete, em noticias.md)
+
