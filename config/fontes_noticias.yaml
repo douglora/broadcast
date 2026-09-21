@@ -128,7 +128,9 @@ casar:
   BAC: ['(?i)\bBank of America\b', '\bBofA\b', '\bBAC\b', '(?i)\bMoynihan\b']
   KO: ['(?i)\bCoca-?Cola\b', '\bKO\b(?= (stock|shares))']
   CVX: ['(?i)\bChevron\b', '\bCVX\b']
-  MMM: ['\b3M\b', '\bMMM\b']
+  # '3M' casa dentro de '$29.3M' e em '3M SOFR' (taxa de 3 meses): exige que nao venha
+  # depois de digito/ponto/cifrao nem antes de um indexador de prazo.
+  MMM: ['(?<![\d.$])\b3M\b(?!\s*(SOFR|LIBOR|EURIBOR|CDI|Treasury|T-?bill|yields?|rates?))', '\bMMM\b']
   NOK: ['(?i)\bNokia\b', '\bNOK\b(?= (stock|shares))']
   BABA: ['(?i)\bAlibaba\b', '\bBABA\b']
   BRENT: ['(?i)\bBrent\b', '(?i)\bOPEC\+?\b', '(?i)\bOpep\b', '(?i)\bpetr[oó]leo\b(?!.*Petrobras)', '(?i)\boil prices?\b']
