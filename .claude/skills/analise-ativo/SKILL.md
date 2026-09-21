@@ -441,10 +441,13 @@ Se a nota nao responde uma delas com numero e fonte, nao esta pronta.
   nao foi lido; pedir ao Douglas o PDF resolve.
 - CVM sem o indice do ano (IPE 404, como em 20/09/2026): o coletor busca o
   release na central de resultados do site de RI (`ri_fontes.py`: MZ, RiWeb
-  ou site proprio); se ainda faltar o trimestre do ITR, `mesa.py frescor`
-  segue em `RELEASE VELHO` e a mesa usa WebSearch para manchete e numeros
-  divulgados, marcados como busca web, com a lacuna na primeira frase da
-  nota.
+  ou site proprio). Central montada por JavaScript (tema mziq_*: Cury, Plano
+  & Plano, MRV, Direcional) nao e lacuna: o coletor le fmId e categorias da
+  propria pagina e lista o historico pelo file manager da MZ (linhas
+  `file manager MZ:` no log; `lista_ri` no indice de releases). Se ainda
+  faltar o trimestre do ITR, `mesa.py frescor` segue em `RELEASE VELHO` e a
+  mesa usa WebSearch para manchete e numeros divulgados, marcados como busca
+  web, com a lacuna na primeira frase da nota.
 - `releases_historico` com menos de 8 trimestres: o coletor tem orcamento de
   tempo por ativo e completa o historico nas coletas seguintes. Diga quantos
   trimestres voce leu e rode a coleta de novo se o Douglas quiser a serie
