@@ -405,3 +405,12 @@ def test_sec_le_o_texto_do_6k_de_emissor_estrangeiro():
     r = sec.coletar({"TSM": "TSM"}, cli=Cli(), hoje=date(2026, 9, 19), dias=3, ua="X f@x.com", dormir=lambda s: None)
     f = r["filings"][0]
     assert f["form"] == "6-K" and f["severidade"] == "info" and "NT$250 billion" in (f["texto"] or "")
+
+def test_hash_item_estavel_entre_coletas():
+    """O link do Google News e um token que muda a cada coleta; a identidade do item
+    nao pode depender dele, senao a mesma materia reaparece depois do ack."""
+    from livro.fontes import noticias
+    titulo = "Mercado ve espaco para mais cortes e reduz projecao da Selic para 13,5% em 2026"
+    assert noticias.hash_item(titulo, "Bloomberg Linea") == noticias.hash_item(titulo, "Bloomberg Linea")
+    assert noticias.hash_item(titulo, "Bloomberg Linea") != noticias.hash_item(titulo, "Suno Noticias")
+    assert noticias.hash_item(titulo, "Bloomberg Linea") != noticias.hash_item("Outra manchete", "Bloomberg Linea")

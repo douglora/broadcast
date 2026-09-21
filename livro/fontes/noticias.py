@@ -335,8 +335,11 @@ def consolidar(itens: list[dict], limiar: float = 0.34) -> list[dict]:
     return saida
 
 
-def hash_item(titulo: str, url: str) -> str:
-    return hashlib.sha1((normalizar(titulo) + "|" + (urlparse(url).path or "")).encode()).hexdigest()[:10]
+def hash_item(titulo: str, veiculo: str = "") -> str:
+    """Identidade do item: manchete normalizada + veiculo. NAO entra a URL: o link do
+    Google News e um token que muda entre coletas, e com ele a mesma materia ganhava
+    um hash novo a cada run, reaparecia depois do ack e virava alerta repetido."""
+    return hashlib.sha1((normalizar(titulo) + "|" + normalizar(veiculo)).encode()).hexdigest()[:10]
 
 
 # ---------------------------------------------------------------- coleta
@@ -380,7 +383,7 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
                         continue
                 except ValueError:
                     pass
-            h = hash_item(it["titulo"], it["link"])
+            h = hash_item(it["titulo"], it.get("veiculo") or "")
             if h in vistos:
                 descartados["visto"] += 1
                 continue
