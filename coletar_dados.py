@@ -710,6 +710,99 @@ def _ajustar_periodo(item):
     return item
 
 
+# Texto menor que isso nao sustenta analise: o trimestre conta como lacuna, nao como coberto.
+RELEASE_MIN_UTIL = 4000
+
+
+def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None):
+    """Os `n` trimestres que a mesa PRECISA ter, do mais novo para o mais antigo, contados a partir do
+    ultimo trimestre cujo prazo legal de divulgacao venceu (trimestre_vencido). E a mesma janela para
+    qualquer ativo: ela vem do calendario, nao do que o coletor conseguiu achar."""
+    venc = trimestre_vencido(hoje)
+    par = _ano_trimestre(venc) if venc else None
+    if not par:
+        return []
+    ano, tri = par
+    janela = []
+    for _ in range(max(0, n)):
+        janela.append(f"{tri}T{ano % 100:02d}")
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return janela
+
+
+def release_fraco(r):
+    """(fraco, motivo) de um release do indice: existe, mas nao serve de fonte para a mesa."""
+    if not r:
+        return True, "ausente"
+    n = r.get("caracteres_total") or 0
+    if n < RELEASE_MIN_UTIL:
+        return True, f"texto de {n} caracteres"
+    if (r.get("preferencia") or 1) >= 3:
+        return True, "documento nao tem cara de release de resultado"
+    return False, ""
+
+
+def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None):
+    """Bloco `cobertura`: a janela obrigatoria, o que esta coberto, o que falta e o que esta fraco.
+
+    E o criterio que separa 'tenho o dado' de 'tenho a linha no indice'. Um deep search so pode ser
+    escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase."""
+    janela = janela_obrigatoria(n, hoje)
+    por_periodo = {r.get("periodo"): r for r in (historico or []) if r.get("periodo")}
+    completos, faltando, fracos = [], [], []
+    for periodo in janela:
+        r = por_periodo.get(periodo)
+        fraco, motivo = release_fraco(r)
+        if r is None:
+            faltando.append(periodo)
+        elif fraco:
+            fracos.append({"periodo": periodo, "motivo": motivo, "assunto": r.get("assunto")})
+        else:
+            completos.append(periodo)
+    dentro = set(janela)
+    return {"janela": janela, "completos": completos, "faltando": faltando, "fracos": fracos,
+            "fora_da_janela": sorted((p for p in por_periodo if p not in dentro), key=ordem_periodo, reverse=True),
+            "completa": not faltando and not fracos,
+            "nota": ("janela = os trimestres cujo prazo legal de divulgacao ja venceu, do mais novo para o "
+                     f"mais antigo. `faltando` nao tem release guardado; `fracos` tem release guardado que nao "
+                     f"serve de fonte (texto abaixo de {RELEASE_MIN_UTIL} caracteres ou documento que nao e "
+                     "release de resultado). `completa` e falso se qualquer um dos dois tiver item")}
+
+
+def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None):
+    """Trimestres da janela que o coletor ainda precisa ir buscar (faltando + fracos)."""
+    c = cobertura_releases(historico, n, hoje)
+    return c["faltando"] + [f["periodo"] for f in c["fracos"]]
+
+
+def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None):
+    """Funde o historico ja gravado no branch com o que esta coleta achou, um documento por trimestre.
+
+    Sem isso, uma coleta parcial (site fora do ar, orcamento estourado, IPE incompleto) reescreve o
+    indice so com o que achou HOJE e apaga do branch trimestres que ja estavam baixados. A janela
+    obrigatoria tem prioridade no corte: um trimestre de fora nunca expulsa um de dentro."""
+    achados = {}
+    for item in list(anterior or []) + list(novo or []):
+        periodo = item.get("periodo")
+        if not periodo:
+            continue
+        if _melhor_release(item, achados.get(periodo)):
+            achados[periodo] = item
+    todos = sorted(achados.values(), key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                   reverse=True)
+    dentro = set(janela_obrigatoria(n, hoje))
+    escolhidos = [r for r in todos if r.get("periodo") in dentro]
+    for r in todos:
+        if len(escolhidos) >= n:
+            break
+        if r.get("periodo") not in dentro:
+            escolhidos.append(r)
+    return sorted(escolhidos, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                  reverse=True)[:n]
+
+
 def _melhor_release(novo, atual):
     """Mesmo trimestre, dois documentos: origem melhor, depois o entregue mais perto do fechamento
     do trimestre (o release sai primeiro; relatorio anual e owners' day vem meses depois), depois tamanho."""
@@ -2053,7 +2146,8 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
 
 
 def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_releases=RELEASES_POR_ATIVO,
-                        orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None):
+                        orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None,
+                        faltantes=None):
     """Releases de resultado lidos direto da central de resultados do site de RI (ri_fontes.py).
 
     Complementa o IPE da CVM: com `ate_periodo` (o release mais novo que ja existe, ex.: '3T25')
@@ -2146,9 +2240,18 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
     corte = ordem_periodo(ate_periodo) if ate_periodo else None
     # Preferencia do release ja gravado no trimestre do corte; sem `preferencias` ninguem disputa o corte
     pref_corte = (preferencias or {}).get(ate_periodo) if ate_periodo else None
+    # Trimestres que faltam na janela obrigatoria (buraco no meio, ou documento fraco no lugar do
+    # release). Eles disputam SEMPRE, mesmo sendo mais antigos que a cabeca do historico: era este o
+    # motivo de 1T26 e 4T25 nunca chegarem depois que o 2T26 entrou.
+    faltantes = {p for p in (faltantes or ()) if p}
+    if faltantes:
+        app.log(f"{rotulo}: trimestres pedidos por falta na janela: "
+                f"{', '.join(sorted(faltantes, key=ordem_periodo, reverse=True))}")
 
     def disputa(periodo, preferencia):
-        # Mais novo que o corte, ou o proprio trimestre do corte com documento melhor que o gravado
+        # Falta na janela, ou mais novo que o corte, ou o proprio trimestre do corte com documento melhor
+        if periodo in faltantes:
+            return True
         o = ordem_periodo(periodo)
         return o > corte or (o == corte and pref_corte is not None and preferencia < pref_corte)
 
@@ -2260,7 +2363,16 @@ def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_relea
             # Este caminho so completa o que falta: um arquivo sem rotulo que se revelou antigo nao
             # disputa com a copia oficial da CVM (trocaria o arquivo no branch a cada coleta)
             if url not in conhecidos:
-                novos_descartes.append((url, f"release antigo ({item['periodo']}), ja coberto ate {ate_periodo}"))
+                # Descarte SO quando o trimestre esta fora da janela obrigatoria: esse e um fato estavel.
+                # Descartar por 'ja coberto ate X' queimava no indice justamente o documento que
+                # preencheria um buraco na proxima coleta, e o descarte se auto-renovava a cada 90 dias.
+                janela = janela_obrigatoria()
+                if janela and ordem_periodo(item["periodo"]) < ordem_periodo(janela[-1]):
+                    novos_descartes.append((url, f"release de {item['periodo']}, fora da janela de "
+                                                 f"{len(janela)} trimestres (ate {janela[-1]})"))
+                else:
+                    app.log(f"{rotulo}: {item['periodo']} ja coberto ate {ate_periodo}; documento nao "
+                            f"descartado (esta na janela e pode servir numa proxima coleta)")
             continue
         if _melhor_release(item, achados.get(item["periodo"])):
             achados[item["periodo"]] = item
@@ -2292,6 +2404,27 @@ DESCARTE_VALIDADE_DIAS = 90       # descarte de link no index.json vale isso; de
 def _limite_descarte():
     """Data ('AAAA-MM-DD') antes da qual um descarte gravado no index.json venceu."""
     return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=DESCARTE_VALIDADE_DIAS)).strftime("%Y-%m-%d")
+
+
+def releases_do_indice(saida, tk):
+    """Lista de releases ja gravados no branch (sem texto, com `arquivo`), mais novo primeiro.
+
+    E a memoria do ativo entre coletas: o historico de hoje comeca dela, nunca do zero."""
+    if not saida:
+        return []
+    caminho = os.path.join(saida, "releases", tk, "index.json")
+    try:
+        idx = json.load(open(caminho, encoding="utf-8"))
+    except Exception:
+        return []
+    lista = []
+    for e in idx.get("releases", []) or []:
+        if not e.get("periodo"):
+            continue
+        if e.get("arquivo") and not os.path.exists(os.path.join(saida, e["arquivo"])):
+            continue          # entrada sem o texto no disco nao vale como cobertura
+        lista.append({k: v for k, v in e.items() if k != "texto"})
+    return sorted(lista, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""), reverse=True)
 
 
 def carregar_indice_releases(saida, tk):
@@ -2349,6 +2482,13 @@ def texto_do_release(saida, entrada):
     return None
 
 
+def _releases_do_index_json(pasta):
+    try:
+        return json.load(open(os.path.join(pasta, "index.json"), encoding="utf-8")).get("releases") or []
+    except Exception:
+        return []
+
+
 def gravar_releases(saida, tk, lista, descartados=None):
     """Grava um .txt por release em releases/<TK>/ mais o index.json. Devolve o indice sem texto."""
     if not saida or not lista:
@@ -2369,12 +2509,20 @@ def gravar_releases(saida, tk, lista, descartados=None):
         elif r.get("arquivo") and r["arquivo"] != rel and os.path.exists(os.path.join(saida, r["arquivo"])):
             os.replace(os.path.join(saida, r["arquivo"]), os.path.join(saida, rel))
         indice.append({**{k: v for k, v in r.items() if k != "texto"}, "arquivo": rel})
-    for antigo in os.listdir(pasta):   # fora da janela dos ultimos N
-        if antigo.endswith(".txt") and antigo not in usados:
-            try:
-                os.remove(os.path.join(pasta, antigo))
-            except OSError:
-                pass
+    # Poda dos .txt orfaos. So quando o indice NAO encolheu: uma coleta parcial (site fora do ar,
+    # orcamento estourado, IPE incompleto) chegava aqui com menos releases e apagava do branch o texto
+    # dos trimestres que ela nao redescobriu. Texto perdido nao volta: o IPE nao guarda ano antigo.
+    anteriores = len(_releases_do_index_json(pasta))
+    if len(indice) >= anteriores:
+        for antigo in os.listdir(pasta):
+            if antigo.endswith(".txt") and antigo not in usados:
+                try:
+                    os.remove(os.path.join(pasta, antigo))
+                except OSError:
+                    pass
+    else:
+        app.log(f"{tk}: indice de releases encolheu de {anteriores} para {len(indice)}; poda adiada para "
+                f"nao apagar texto ja baixado")
     descartados = list(dict.fromkeys(descartados or []))[-80:]
     # Data de cada descarte (carregar_indice_releases vence os antigos): a data anterior fica enquanto
     # vale; link novo ou reconferido nesta coleta ganha a data de hoje
@@ -3219,23 +3367,25 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     # como documento de outro tipo (2): pode nao ser o release. O site e consultado de novo a cada
     # coleta ate um release rotulado do mesmo trimestre tomar o lugar dele (preferencias + ate_periodo).
     fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
-    if historico and atraso <= 0 and not fraco:
-        app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia}; site de RI nao consultado")
+    faltantes = periodos_a_buscar(historico)
+    if historico and atraso <= 0 and not fraco and not faltantes:
+        app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
+                f"site de RI nao consultado")
         return historico
-    if historico and atraso <= 0:
+    if faltantes and atraso <= 0 and not fraco:
+        app.log(f"{tk}: cabeca em dia ({mais_novo}), mas faltam {', '.join(faltantes)} na janela "
+                f"obrigatoria; consultando o site de RI")
+    elif historico and atraso <= 0:
         app.log(f"{tk}: release mais novo {mais_novo} em dia com {referencia}, mas entrou sem rotulo de release "
                 f"(preferencia {historico[0].get('preferencia')}); consultando o site de RI atras de um documento melhor")
     else:
         app.log(f"{tk}: release mais novo {mais_novo or 'nenhum'} esta {atraso} trimestre(s) atras de "
                 f"{referencia} ({origem}); consultando o site de RI")
-    do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo, preferencias=preferencias)
+    do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo,
+                                  preferencias=preferencias, faltantes=faltantes)
     if not do_site:
         return historico
-    achados = {}
-    for item in list(historico) + list(do_site):
-        if _melhor_release(item, achados.get(item.get("periodo"))):
-            achados[item.get("periodo")] = item
-    lista = _lista_por_periodo(achados, RELEASES_POR_ATIVO)
+    lista = _mesclar_historico(historico, do_site)
     novos = [r["periodo"] for r in lista if any(r is s for s in do_site)]
     trocados = [p for p in novos if p in preferencias]
     if novos:
@@ -3323,6 +3473,7 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
     historico = []
     if releases:
         descartados = []
+        anterior = releases_do_indice(saida, tk)
         try:
             conhecidos = carregar_indice_releases(saida, tk)
             if eh_simbolo_us(tk):
@@ -3341,11 +3492,23 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
             descartados = [k for k, v in conhecidos.items() if v is None] + descartados
         except Exception as e:
             fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        # O historico do branch entra sempre: coleta que achou menos nao apaga o que ja estava la
+        antes = {r.get("periodo") for r in historico}
+        historico = _mesclar_historico(anterior, historico)
+        vindos_do_branch = [r.get("periodo") for r in historico if r.get("periodo") not in antes]
+        if vindos_do_branch:
+            app.log(f"{tk}: {len(vindos_do_branch)} trimestre(s) vieram do indice ja gravado no branch: "
+                    f"{', '.join(vindos_do_branch)}")
         try:
             dados["releases_historico"] = gravar_releases(saida, tk, historico, descartados) if saida else \
                 [{k: v for k, v in r.items() if k != "texto"} for r in historico]
             if historico:
                 dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
+            dados["cobertura"] = cobertura_releases(historico)
+            c = dados["cobertura"]
+            app.log(f"{tk}: cobertura da janela: {len(c['completos'])}/{len(c['janela'])} trimestres"
+                    + (f"; faltando {', '.join(c['faltando'])}" if c["faltando"] else "")
+                    + (f"; fracos {', '.join(f['periodo'] for f in c['fracos'])}" if c["fracos"] else ""))
         except Exception as e:
             fontes["release_ri"] = f"{fontes.get('release_ri', '')} | falha ao gravar: {type(e).__name__}"[:180]
 
@@ -3430,7 +3593,11 @@ def main():
         return [t.strip().upper().replace(".SA", "") for t in re.split(r"[,\s;]+", texto or "") if t.strip()]
 
     tickers = lista(args.tickers)
-    if not tickers and not args.snapshot:
+    if not tickers:
+        # Sem lista = lista do modelo de TIR, como o workflow documenta. A condicao antiga tinha
+        # 'and not args.snapshot', e como a execucao agendada passa --snapshot sem tickers, TODO cron
+        # resolvia para zero ativos: o retrato geral era gravado e nenhum ativo era atualizado. Foi por
+        # isso que PETR4, VALE3 e WEGE3 ficaram parados no formato antigo mesmo estando na lista padrao.
         tickers = TIR.tickers_cobertos()
     os.makedirs(args.saida, exist_ok=True)
 
