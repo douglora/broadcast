@@ -1,56 +1,1487 @@
-EX-99.2
-3
-dp220822_ex9902.htm
-EXHIBIT 99.2
+EX-99.1
+2
+dp220882_ex9901.htm
+EXHIBIT 99.1
 
 Exhibit
-99.2
+99.1
 
 |
 
-XP Inc. Announces Cash Dividend
+3Q24 Earnings Release
 
-São Paulo, Brazil,
-November 19, 2024 – XP Inc. (Nasdaq: XP), a leading, technology-driven platform and a trusted provider of low-fee financial
-products and services in Brazil, announced today that its Board of Directors has approved payment of a cash dividend of US$0.65 per common
-share. The dividend will be payable on December 18, 2024, to shareholders of record as of December 10, 2024.
+November 19 th ,
+2024
 
-About XP
+|
 
-XP is a leading, technology-driven
-platform and a trusted provider of low-fee financial products and services in Brazil. XP’s mission is to disintermediate the legacy
-models of traditional financial institutions by:
+|
 
-| · | Educating new classes of investors; |
+XP Inc. Reports Third Quarter 2024
+Results
 
-| · | Democratizing access to a wider range of financial
-services; |
+São Paulo, Brazil, November
+19, 2024 – XP Inc. (NASDAQ: XP) (“XP” or the “Company”), a leading tech-enabled platform and a trusted pioneer
+in providing low-fee financial products and services in Brazil, reported today its financial results for the third quarter of 2024.
 
-| · | Developing new financial products and technology
-applications to empower clients; and |
+Summary
 
-| · | Providing high-quality customer service and client
-experience in the industry in Brazil. |
+Operating Metrics (unaudited) |
+3Q24 |
+3Q23 |
+YoY |
+2Q24 |
+QoQ |
 
-XP provides customers with two
-principal types of offerings, (i) financial advisory services for retail clients in Brazil, high-net-worth clients, international clients
-and corporate and institutional clients, and (ii) an open financial product platform providing access to over 800 investment products
-including equity and fixed income securities, mutual and hedge funds, structured products, life insurance, pension plans, real-estate
-investment funds (REITs) and others from XP, its partners and competitors.
+Total Client Assets (in R$ bn) |
+1,213 |
+1,080 |
+12% |
+1,167 |
+4% |
 
-Forward Looking Statements
+Total Net Inflow (in R$ bn) |
+31 |
+48 |
+-36% |
+32 |
+-3% |
 
-This press release contains "forward-looking
-statements" within the meaning of the "safe harbor" provisions of the Private Securities Litigation Reform Act of 1995.
-These forward-looking statements are made as of the date they were first issued and were based on current expectations, estimates, forecasts
-and projections as well as the beliefs and assumptions of management. Words such as "expect," "anticipate," "should,"
-"believe," "hope," “aim,” "target," "project," "goals," "estimate,"
-"potential," "predict," "may," "will," "might," "could," "intend,"
-variations of these terms or the negative of these terms and similar expressions are intended to identify these statements. Forward-looking
-statements are subject to a number of risks and uncertainties, many of which involve factors or circumstances that are beyond XP Inc’s
-control. XP, Inc’s actual results could differ materially from those stated or implied in forward-looking statements due to several
-factors, including but not limited to: competition, change in clients, regulatory measures, a change the external forces among other factors.
+Annualized Retail Take Rate |
+1.33% |
+1.34% |
+-1 bps |
+1.29% |
+4 bps |
 
-Investor Contact: ir@xpi.com.br
+Active Clients (in '000s) |
+4,659 |
+4,413 |
+6% |
+4,626 |
+1% |
 
-IR Website: investors.xpinc.com
+Headcount (EoP) |
+7,241 |
+6,699 |
+8% |
+6,834 |
+6% |
+
+Total Advisors (in '000s) |
+18.4 |
+16.9 |
+9% |
+18.3 |
+1% |
+
+Retail DATs (in mn) |
+2.3 |
+2.1 |
+6% |
+2.4 |
+-6% |
+
+Retirement Plans Client Assets (in R$ bn) |
+78 |
+68 |
+15% |
+75 |
+5% |
+
+Cards TPV (in R$ bn) |
+12.0 |
+10.7 |
+12% |
+11.5 |
+4% |
+
+Credit Portfolio (in R$ bn) |
+20.1 |
+19.9 |
+1% |
+19.3 |
+4% |
+
+Gross Written Premiums (in R$ mn) |
+362 |
+248 |
+46% |
+307 |
+18% |
+
+|
+|
+|
+|
+|
+|
+
+Financial Metrics (in R$ mn) |
+3Q24 |
+3Q23 |
+YoY |
+2Q24 |
+QoQ |
+
+Gross revenue |
+4,536 |
+4,364 |
+4% |
+4,503 |
+1% |
+
+Retail |
+3,494 |
+3,179 |
+10% |
+3,294 |
+6% |
+
+Institutional |
+340 |
+386 |
+-12% |
+346 |
+-2% |
+
+Corporate & Issuer Services |
+552 |
+519 |
+6% |
+629 |
+-12% |
+
+Other |
+150 |
+281 |
+-46% |
+233 |
+-36% |
+
+Net Revenue |
+4,319 |
+4,132 |
+5% |
+4,219 |
+2% |
+
+Gross Profit |
+2,940 |
+2,896 |
+2% |
+2,940 |
+0% |
+
+Gross Margin |
+68.1% |
+70.1% |
+-199 bps |
+69.7% |
+-160 bps |
+
+EBT |
+1,212 |
+1,157 |
+5% |
+1,384 |
+-12% |
+
+EBT Margin |
+28.1% |
+28.0% |
+6 bps |
+32.8% |
+-472 bps |
+
+Net Income |
+1,187 |
+1,087 |
+9% |
+1,118 |
+6% |
+
+Net Margin |
+27.5% |
+26.3% |
+118 bps |
+26.5% |
+98 bps |
+
+Basic EPS (in R$) |
+2.21 |
+1.99 |
+11% |
+2.05 |
+8% |
+
+Diluted EPS (in R$) |
+2.18 |
+1.96 |
+11% |
+2.03 |
+8% |
+
+ROAE¹ |
+23.0% |
+22.6% |
+38 bps |
+22.1% |
+83 bps |
+
+ROTE 2 |
+28.4% |
+25.8% |
+258 bps |
+27.2% |
+114 bps |
+
+1 – Annualized
+Return on Average Equity.
+
+2 – Annualized Return on Average
+Tangible Equity. Tangible Equity excludes Intangibles and Goodwill
+
+|
+
+Operating KPIs
+
+1. | INVESTMENTS |
+
+Client Assets and Net Inflow (in R$ billion)
+
+Client Assets totaled R$1.2 trillion in
+3Q24, up 12% YoY and 4% QoQ. Year-over-year growth was driven by R$96 billion net inflows and R$37 billion of market appreciation.
+
+In 3Q24, Net Inflow was R$31 billion, and Retail
+Net Inflow was R$25 billion , 6% higher QoQ, and 124% higher YoY, excluding the effects from inorganic Net Inflow
+from Modal’s Acquisition.
+
+Active Clients (in ‘000s)
+
+Active clients grew 6% YoY and 1% QoQ, totaling
+4.7 million in 3Q24.
+
+|
+
+Total Advisors (in ‘000s)
+
+Total Advisors connected to XP, includes (1) IFAs,
+(2) XP employees who offer advisory services, (3) Registered Investment Advisors, consultants and wealth managers, among others. As of
+3Q24, we had 18.4 thousand Total Advisors, an increase of 9% YoY.
+
+Retail Daily Average Trades (in million)
+
+Retail DATs totaled 2.3 million in 3Q24,
+up 6% YoY and down 6% QoQ.
+
+NPS
+
+Our NPS, a widely known survey methodology used
+to measure customer satisfaction, was 72 in 3Q24. Maintaining a high NPS score remains a priority for XP since our business model
+is built around client experience. The NPS calculation as of a given date reflects the average scores in the prior six months.
+
+|
+
+2. | RETIREMENT PLANS |
+
+R etirement
+Plans Client Assets (in R$ billion)
+
+As per public data published by Susep, XPV&P’s
+individual’s market share (PGBL and VGBL) was stable at 4.9%. Total Client Assets were R$78 billion in 2Q24, up 15% YoY.
+Assets from XPV&P, our proprietary insurer, grew 20% YoY, reaching R$64 billion .
+
+3. | CARDS |
+
+Cards TPV (in R$ billion)
+
+In 3Q24, Total TPV was R$12.0 billion , a
+12% growth YoY, and 4% increase QoQ.
+
+|
+
+Active Cards (in ‘000s)
+
+Total Active Cards were 1.3 million in 3Q24,
+a growth of 25% YoY and 3% QoQ, being 1.0 million Credit Cards and 0.3 million Active Debit Cards.
+
+4. | CREDIT 3 |
+
+Credit Portfolio (in R$ billion)
+
+Total Credit Portfolio reached R$20 billion
+as of 3Q24, expanding 1% YoY and 4% QoQ. Currently, this Credit Portfolio is 85% collateralized with Investments.
+
+3
+- From 3Q22 onwards, the credit portfolio is disclosed gross (versus previously net) of loan loss provisions, also retroactively, not
+including Intercompany transactions and Credit Card related loans and receivables
+
+|
+
+5. | INSURANCE |
+
+Gross Written Premiums (in R$ million)
+
+Gross written premiums (GWP) refer to the total
+amount of premium income that XPs has written or sold during a particular reporting period before deductions for provisions, reinsurance
+and other expenses. This figure represents the total premiums that customers have agreed to pay for life insurance policies issued by
+the company, or sold by the company and issued by third-party insurers, including both new policies and renewals. It is a crucial metric
+for assessing the total business volume of an insurance company or insurance broker within that period.
+
+In the 3Q24, Gross Written Premiums grew 46%
+YoY and 18% QoQ.
+
+|
+
+Discussion of Financial Results
+
+Total Gross Revenue
+
+Gross Revenue was R$4.5 billion in 3Q24,
+up 1% QoQ and up 4% YoY, primarily driven by growth both in our Retail and Corporate & Issuer Services revenue year-over-year.
+
+Retail Revenue
+
+(in R$ mn) |
+3Q24 |
+3Q23 |
+YoY |
+2Q24 |
+QoQ |
+
+Retail Revenue |
+3,494 |
+3,179 |
+10% |
+3,294 |
+6% |
+
+Equities |
+1,059 |
+1,131 |
+-6% |
+1,115 |
+-5% |
+
+Fixed Income |
+938 |
+718 |
+31% |
+820 |
+14% |
+
+Funds Platform |
+354 |
+323 |
+9% |
+357 |
+-1% |
+
+Retirement Plans |
+100 |
+98 |
+3% |
+97 |
+3% |
+
+Cards |
+302 |
+259 |
+17% |
+313 |
+-4% |
+
+Credit |
+75 |
+49 |
+51% |
+54 |
+38% |
+
+Insurance |
+55 |
+36 |
+55% |
+51 |
+8% |
+
+Other Retail |
+611 |
+565 |
+8% |
+485 |
+26% |
+
+Annualized Retail Take Rate |
+1.33% |
+1.34% |
+-1 bps |
+1.29% |
+4 bps |
+
+Retail revenue was R$3,494 million in 3Q24,
+6% higher QoQ and 10% YoY. Sequential Retail revenue was driven by a stronger performance in Fixed Income revenue, which increased 14%
+QoQ. YoY growth was also led by Fixed Income, with a 31% revenue growth YoY, and Cards, with a 17% growth.
+
+Take Rate
+
+Annualized Retail Take Rate was 1.33% in 3Q24,
+up 4 bps QoQ, and stable YoY.
+
+Institutional Revenue
+
+Institutional revenue was R$340 million in 3Q24,
+down 2% QoQ and 12% YoY.
+
+|
+
+Corporate & Issuer Services Revenue
+
+Corporate & Issuer Services revenue totaled
+R$552 million in 3Q24, down 12% QoQ and up 6% YoY, reinforcing our strategy to diversify our revenue stream through our Wholesale Bank,
+also demonstrating XP is well positioned to continue benefiting from DCM activity in Brazil.
+
+Other Revenue
+
+Other revenue was R$150 million in 3Q24, down 36%
+QoQ and 46% YoY.
+
+Costs of Goods Sold and Gross Margin
+
+Gross Margin was 68.1% in 3Q24 versus 70.1% in
+3Q23 and 69.7% in 2Q24. Sequential decrease in Gross Margin was mainly related to revenue mix between products and channels in the quarter.
+
+SG&A Expenses 4
+
+(in R$ mn) |
+3Q24 |
+3Q23 |
+YoY |
+2Q24 |
+QoQ |
+
+Total SG&A |
+(1,515) |
+(1,547) |
+-2% |
+(1,420) |
+7% |
+
+People |
+(984) |
+(1,048) |
+-6% |
+(978) |
+1% |
+
+Salary and Taxes |
+(444) |
+(396) |
+12% |
+(399) |
+11% |
+
+Bonuses |
+(405) |
+(486) |
+-17% |
+(446) |
+-9% |
+
+Share Based Compensation |
+(135) |
+(166) |
+-18% |
+(133) |
+2% |
+
+Non-people |
+(530) |
+(499) |
+6% |
+(442) |
+20% |
+
+LTM Compensation Ratio 5 |
+24.0% |
+25.7% |
+-173 bps |
+24.6% |
+-66 bps |
+
+LTM Efficiency Ratio 6 |
+35.5% |
+37.3% |
+-179 bps |
+36.1% |
+-60 bps |
+
+Headcount (EoP) |
+7,241 |
+6,699 |
+8% |
+6,834 |
+6% |
+
+SG&A 4 expenses totaled R$1.5
+billion in 3Q24, 7% higher QoQ, mainly driven by Expert event expenses, that happened during 3Q24, and 2% lower YoY,
+reinforcing our commitment with cost discipline.
+
+Our last twelve months (LTM) compensation
+ratio 5 in 3Q24 was 24.0% , an improvement from 25.7% in 3Q23 and from the 24.6% in 2Q24. Also, our LTM efficiency
+ratio 6 reached 35.5% in 3Q24, the lowest level since our IPO, reinforcing once again our focus on cost discipline
+and efficient expenses management.
+
+4
+- Total SG&A and non-people SG&A exclude revenue from incentives from Tesouro Direto, B3.
+
+5
+- Compensation ratio is calculated as People SG&A (Salary and Taxes, Bonuses and Share Based Compensation) divided by Net Revenue.
+
+6
+- Efficiency ratio is calculated as SG&A ex-revenue from incentives from Tesouro Direto, B3, and others divided by Net Revenue.
+
+|
+
+Earnings Before Taxes
+
+EBT was R$1,212 million in 3Q24, down 12%
+QoQ and up 5% YoY. EBT Margin was 28.1%, similar to our LTM EBT Margin, which was also 28.1% . Our EBT Margin was 472 bps
+lower QoQ and 6 bps higher YoY.
+
+Net Income and EPS
+
+In 3Q24, Net Income was R$1.2 billion , a
+record number , up 6% QoQ and up 9% YoY. Basic EPS was R$2.21, up 8% QoQ and up 11% YoY. Fully diluted EPS was R$2.18 for the quarter,
+11% higher QoQ and 8% higher YoY.
+
+ROTE 7 and ROAE 8
+
+We now present Return on Tangible Equity, which
+excludes Intangibles and Goodwill. We believe this metric allows a more meaningful comparison with our peers.
+
+In 3Q24, ROTE 7 was 28.4% , up
+114 bps QoQ and up 258 bps YoY. Our ROAE 8 in 3Q24 was 23.0%, up 83 bps QoQ and up 38 bps YoY.
+
+Capital Management 9
+
+We are enhancing our financial disclosures to include
+key capital management ratios, such as the BIS ratio and Risk-Weighted Assets (RWA). These metrics will replace the former Adjusted
+Gross Financial Assets and Net Asset Value (NAV) metrics, which are no longer insightful in reflecting our current business activities.
+
+In 3Q24, BIS ratio was 21.5% , up 96 bps
+QoQ and 145 bps lower YoY. While our total RWA was R$94.7 billion , with a 3% increase QoQ and 30% increase YoY.
+
+Aiming to optimize our capital structure and continue
+delivering value to our shareholders, we are pleased to announce a dividend payment of R$2 billion , scheduled for December 18,
+2024. In addition, our Board of Directors has approved a new share repurchase program totaling R$1 billion .
+
+7
+– Annualized Return on Tangible Common Equity, calculated as Annualized Net Income over Tangible Common Equity, which excludes
+Intangibles and Goodwill, net of deferred taxes.
+
+8 – Annualized
+Return on Average Equity.
+
+9 – Managerial
+BIS ratio is calculated using the same methodology as the BIS ratio for our Prudential Conglomerate. However, it is based on the
+total assets and equity of the entire group.
+
+|
+
+Other Information
+
+Webcast and Conference Call Information
+
+The
+Company will host a webcast to discuss its fourth quarter financial results on Tuesday, November 19 th , 2024, at 5:00 pm ET
+(7:00 pm BRT). To participate in the earnings webcast please subscribe at 3Q24 Earnings Web Meeting .
+The replay will be available on XP’s investor relations website at https://investors.xpinc.com/
+
+Investor Relations Contact
+
+ir@xpi.com.br
+
+Important Disclosure
+
+In reviewing the information contained in this
+release, you are agreeing to abide by the terms of this disclaimer. This information is being made available to each recipient solely
+for its information and is subject to amendment. This release is prepared by XP Inc. (the “Company,” “we” or “our”),
+is solely for informational purposes. This release does not constitute a prospectus and does not constitute an offer to sell or the solicitation
+of an offer to buy any securities. In addition, this document and any materials distributed in connection with this release are not directed
+to, or intended for distribution to or use by, any person or entity that is a citizen or resident or located in any locality, state, country
+or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or which would
+require any registration or licensing within such jurisdiction.
+
+This release was prepared by the Company. Neither
+the Company nor any of its affiliates, officers, employees or agents, make any representation or warranty, express or implied, in relation
+to the fairness, reasonableness, adequacy, accuracy or completeness of the information, statements or opinions, whichever their source,
+contained in this release or any oral information provided in connection herewith, or any data it generates and accept no responsibility,
+obligation or liability (whether direct or indirect, in contract, tort or otherwise) in relation to any of such information. The information
+and opinions contained in this release are provided as at the date of this release, are subject to change without notice and do not purport
+to contain all information that may be required to evaluate the Company. The information in this release is in draft form and has not
+been independently verified. The Company and its affiliates, officers, employees and agents expressly disclaim any and all liability which
+may be based on this release and any errors therein or omissions therefrom. Neither the Company nor any of its affiliates, officers, employees
+or agents makes any representation or warranty, express or implied, as to the achievement or reasonableness of future projections, management
+targets, estimates, prospects or returns, if any.
+
+The information contained in this release does
+not purport to be comprehensive and has not been subject to any independent audit or review. Certain of the financial information as of
+and for the periods ended of December 31, 2021 and December 31, 2020, 2019, 2018 and 2017 has been derived from audited financial statements
+and all other financial information has been derived from unaudited interim financial statements. A significant portion of the information
+contained in this release is based on estimates or expectations of the Company, and there can be no assurance that these estimates or
+expectations are or will prove to be accurate. The Company’s internal estimates have not been verified by an external expert, and
+the Company cannot guarantee that a third party using different methods to assemble, analyze or compute market information and data would
+obtain or generate the same results.
+
+Statements in the release, including those regarding
+the possible or assumed future or other performance of the Company or its industry or other trend projections, constitute forward-looking
+statements. These statements are generally identified by the use of words such as “anticipate,” “believe,” “could,”
+“expect,” “should,” “plan,” “intend,” “estimate” and “potential,”
+among others. By their nature, forward-looking statements are necessarily subject to a high degree of uncertainty and involve known and
+unknown risks, uncertainties, assumptions and other factors because they relate to events and depend on circumstances that will occur
+in the future whether or not outside the control of the Company. Such factors may cause actual results, performance or developments to
+differ materially from those expressed or implied by such forward-looking statements and there can be no assurance that such forward-looking
+statements will prove to be correct. These risks and uncertainties include factors relating to: (1) general economic, financial, political,
+demographic and business conditions in Brazil, as well as any other countries we may serve in the future and their impact on our business;
+(2) fluctuations in interest, inflation and exchange rates in Brazil and any other countries we may serve in the future; (3) competition
+in the financial services industry; (4) our ability to implement our business strategy; (5) our ability to adapt to the rapid pace of
+technological changes in the financial services industry; (6) the reliability, performance, functionality and quality of our products
+and services and the investment performance of investment funds managed by third parties or by our asset managers; (7) the availability
+of government authorizations on terms and conditions and within periods acceptable to us; (8) our ability to continue attracting and retaining
+new appropriately-skilled employees; (9) our capitalization and level of indebtedness; (10) the interests of our controlling shareholders;
+(11) changes in government regulations applicable to the financial services industry in Brazil and
+
+|
+
+elsewhere; (12) our ability to compete and conduct
+our business in the future; (13) the success of operating initiatives, including advertising and promotional efforts and new product,
+service and concept development by us and our competitors; (14) changes in consumer demands regarding financial products, customer experience
+related to investments and technological advances, and our ability to innovate to respond to such changes; (15) changes in labor, distribution
+and other operating costs; (16) our compliance with, and changes to, government laws, regulations and tax matters that currently apply
+to us; (17) other factors that may affect our financial condition, liquidity and results of operations. Accordingly, you should not place
+undue reliance on forward-looking statements. The forward-looking statements included herein speak only as at the date of this release
+and the Company does not undertake any obligation to update these forward-looking statements. Past performance does not guarantee or predict
+future performance. Moreover, the Company and its affiliates, officers, employees and agents do not undertake any obligation to review,
+update or confirm expectations or estimates or to release any revisions to any forward-looking statements to reflect events that occur
+or circumstances that arise in relation to the content of the release. You are cautioned not to unduly rely on such forward-looking statements
+when evaluating the information presented and we do not intend to update any of these forward-looking statements.
+
+Market data and industry information used throughout
+this release are based on management’s knowledge of the industry and the good faith estimates of management. The Company also relied,
+to the extent available, upon management’s review of industry surveys and publications and other publicly available information
+prepared by a number of third-party sources. All of the market data and industry information used in this release involves a number of
+assumptions and limitations, and you are cautioned not to give undue weight to such estimates. Although the Company believes that these
+sources are reliable, there can be no assurance as to the accuracy or completeness of this information, and the Company has not independently
+verified this information.
+
+The contents hereof should not be construed as
+investment, legal, tax or other advice and you should consult your own advisers as to legal, business, tax and other related matters concerning
+an investment in the Company. The Company is not acting on your behalf and does not regard you as a customer or a client. It will not
+be responsible to you for providing protections afforded to clients or for advising you on the relevant transaction.
+
+This release includes our Float, Adjusted Gross
+Financial Assets, Net Asset Value, and Adjustments to Reported Net Income, which are non-GAAP financial information. We believe that such
+information is meaningful and useful in understanding the activities and business metrics of the Company’s operations. We also believe
+that these non-GAAP financial measures reflect an additional way of viewing aspects of the Company’s business that, when viewed
+with our International Financial Reporting Standards (“IFRS”) results, as issued by the International Accounting Standards
+Board, provide a more complete understanding of factors and trends affecting the Company’s business. Further, investors regularly
+rely on non-GAAP financial measures to assess operating performance and such measures may highlight trends in the Company’s business
+that may not otherwise be apparent when relying on financial measures calculated in accordance with IFRS. We also believe that certain
+non-GAAP financial measures are frequently used by securities analysts, investors and other interested parties in the evaluation of public
+companies in the Company’s industry, many of which present these measures when reporting their results. The non-GAAP financial information
+is presented for informational purposes and to enhance understanding of the IFRS financial statements. The non-GAAP measures should be
+considered in addition to results prepared in accordance with IFRS, but not as a substitute for, or superior to, IFRS results. As other
+companies may determine or calculate this non-GAAP financial information differently, the usefulness of these measures for comparative
+purposes is limited. A reconciliation of such non-GAAP financial measures to the nearest GAAP measure is included in this release.
+
+For purposes of this release:
+
+“Active Clients” means the total number
+of retail clients served through our XP Investimentos, Rico, Clear, XP Investments and XP Private (Europe) brands, with Client Assets
+above R$100.00 or that have transacted at least once in the last thirty days. For purposes of calculating this metric, if a client holds
+an account in more than one of the aforementioned entities, such client will be counted as one “active client” for each such
+account. For example, if a client holds an account in each of XP Investimentos and Rico, such client will count as two “active clients”
+for purposes of this metric.
+
+“Client Assets” means the market value
+of all client assets invested through XP’s platform and that is related to reported Retail Revenue, including equities, fixed income
+securities, mutual funds (including those managed by XP Gestão de Recursos Ltda., XP Advisory Gestão de Recursos Ltda. and
+XP Vista Asset Management Ltda., as well as by third-party asset managers), pension funds (including those from XP Vida e Previdência
+S.A., as well as by third-party insurance companies), exchange traded funds, COEs (Structured Notes), REITs, and uninvested cash balances
+(Float Balances), among others. Although Client Assets includes custody from Corporate Clients that generate Retail Revenue, it does not
+include custody from institutional clients (asset managers, pension funds and insurance companies).
+
+Rounding
+
+We have made rounding adjustments to some of the
+figures included in this release. Accordingly, numerical figures shown as totals in some tables may not be an arithmetic aggregation of
+the figures that preceded them.
+
+|
+
+Unaudited Managerial Income Statement (in R$
+mn)
+
+Managerial Income Statement |
+3Q24 |
+3Q23 |
+YoY |
+2Q24 |
+QoQ |
+
+Total Gross Revenue |
+4,536 |
+4,364 |
+4% |
+4,503 |
+1% |
+
+Retail |
+3,494 |
+3,179 |
+10% |
+3,294 |
+6% |
+
+Equities |
+1,059 |
+1,131 |
+-6% |
+1,115 |
+-5% |
+
+Fixed Income |
+938 |
+718 |
+31% |
+820 |
+14% |
+
+Funds Platform |
+354 |
+323 |
+9% |
+357 |
+-1% |
+
+Retirement Plans |
+100 |
+98 |
+3% |
+97 |
+3% |
+
+Cards |
+302 |
+259 |
+17% |
+313 |
+-4% |
+
+Credit |
+75 |
+49 |
+51% |
+54 |
+38% |
+
+Insurance |
+55 |
+36 |
+55% |
+51 |
+8% |
+
+Other |
+611 |
+565 |
+8% |
+485 |
+26% |
+
+Institutional |
+340 |
+386 |
+-12% |
+346 |
+-2% |
+
+Corporate & Issuer Services |
+552 |
+519 |
+6% |
+629 |
+-12% |
+
+Other |
+150 |
+281 |
+-46% |
+233 |
+-36% |
+
+Net Revenue |
+4,319 |
+4,132 |
+5% |
+4,219 |
+2% |
+
+COGS |
+(1,378) |
+(1,236) |
+11% |
+(1,279) |
+8% |
+
+Gross Profit |
+2,940 |
+2,896 |
+2% |
+2,940 |
+0% |
+
+Gross Margin |
+68.1% |
+70.1% |
+-199 bps |
+69.7% |
+-160 bps |
+
+SG&A |
+(1,454) |
+(1,541) |
+-6% |
+(1,328) |
+10% |
+
+People |
+(984) |
+(1,048) |
+-6% |
+(978) |
+1% |
+
+Non-People |
+(470) |
+(493) |
+-5% |
+(350) |
+34% |
+
+D&A |
+(72) |
+(71) |
+1% |
+(66) |
+9% |
+
+Interest expense on debt |
+(198) |
+(135) |
+47% |
+(204) |
+-3% |
+
+Share of profit in joint ventures and associates |
+(3) |
+9 |
+-135% |
+41 |
+-103% |
+
+EBT |
+1,212 |
+1,157 |
+5% |
+1,384 |
+-12% |
+
+EBT Margin |
+28.1% |
+28.0% |
+6 bps |
+32.8% |
+-472 bps |
+
+Tax Expense (Accounting) |
+(26) |
+(71) |
+-63% |
+(266) |
+-90% |
+
+Tax expense (Tax Withholding in Funds) 10 |
+(154) |
+(169) |
+-9% |
+(107) |
+44% |
+
+Effective tax rate (Normalized) |
+(13.2%) |
+(18.1%) |
+489 bps |
+(25.0%) |
+1183 bps |
+
+Net Income |
+1,187 |
+1,087 |
+9% |
+1,118 |
+6% |
+
+Net Margin |
+27.5% |
+26.3% |
+118 bps |
+26.5% |
+98 bps |
+
+10
+- Tax adjustments are related to tax withholding expenses that are recognized net in gross revenue.
+
+|
+
+Accounting Income Statement (in R$ mn)
+
+Accounting Income Statement |
+3Q24 |
+3Q23 |
+YoY |
+2Q24 |
+QoQ |
+
+Net revenue from services rendered |
+1,940 |
+1,822 |
+6% |
+1,949 |
+0% |
+
+Brokerage commission |
+576 |
+525 |
+10% |
+541 |
+6% |
+
+Securities placement |
+570 |
+637 |
+-11% |
+686 |
+-17% |
+
+Management fees |
+446 |
+414 |
+8% |
+443 |
+1% |
+
+Insurance brokerage fee |
+61 |
+43 |
+40% |
+52 |
+17% |
+
+Commission Fees |
+211 |
+206 |
+2% |
+260 |
+-19% |
+
+Other services |
+241 |
+169 |
+42% |
+148 |
+63% |
+
+Sales Tax and contributions on Services |
+(163) |
+(173) |
+-6% |
+(181) |
+-10% |
+
+Net income from financial instruments at amortized cost |
+(861) |
+142 |
+-708% |
+(244) |
+252% |
+
+Net income from financial instruments at fair value through profit or loss |
+3,239 |
+2,168 |
+49% |
+2,515 |
+29% |
+
+Total revenue and income |
+4,319 |
+4,132 |
+5% |
+4,219 |
+2% |
+
+Operating costs |
+(1,332) |
+(1,122) |
+19% |
+(1,236) |
+8% |
+
+Selling expenses |
+(43) |
+(50) |
+-15% |
+(33) |
+29% |
+
+Administrative expenses |
+(1,565) |
+(1,544) |
+1% |
+(1,456) |
+7% |
+
+Other operating revenues (expenses), net |
+81 |
+(18) |
+-545% |
+95 |
+-15% |
+
+Expected credit losses |
+(47) |
+(115) |
+-59% |
+(43) |
+9% |
+
+Interest expense on debt |
+(198) |
+(135) |
+47% |
+(204) |
+-3% |
+
+Share of profit or (loss) in joint ventures and associates |
+(3) |
+9 |
+-135% |
+41 |
+-108% |
+
+Income before income tax |
+1,212 |
+1,157 |
+5% |
+1,384 |
+-12% |
+
+Income tax expense |
+(26) |
+(71) |
+-63% |
+(266) |
+n.a. |
+
+Net income for the period |
+1,187 |
+1,087 |
+9% |
+1,118 |
+6% |
+
+|
+
+Balance Sheet (in R$ mn)
+
+Assets |
+|
+|
+|
+3Q24 |
+2Q24 |
+
+Cash |
+|
+|
+|
+4,626 |
+5,604 |
+
+Financial assets |
+|
+|
+|
+291,996 |
+272,686 |
+
+Fair value through profit or loss |
+|
+|
+|
+167,489 |
+170,035 |
+
+Securities |
+|
+|
+|
+133,717 |
+134,481 |
+
+Derivative financial instruments |
+|
+|
+|
+33,773 |
+35,554 |
+
+Fair value through other comprehensive income |
+|
+|
+|
+50,552 |
+38,386 |
+
+Securities |
+|
+|
+|
+50,552 |
+38,386 |
+
+Evaluated at amortized cost |
+|
+|
+|
+73,955 |
+64,266 |
+
+Securities |
+|
+|
+|
+3,152 |
+3,613 |
+
+Securities purchased under agreements to resell |
+|
+|
+|
+26,153 |
+21,773 |
+
+Securities trading and intermediation |
+|
+|
+|
+2,934 |
+4,440 |
+
+Accounts receivable |
+|
+|
+|
+958 |
+675 |
+
+Loan Operations |
+|
+|
+|
+27,512 |
+26,321 |
+
+Other financial assets |
+|
+|
+|
+13,246 |
+7,445 |
+
+Other assets |
+|
+|
+|
+10,743 |
+10,138 |
+
+Recoverable taxes |
+|
+|
+|
+523 |
+392 |
+
+Rights-of-use assets |
+|
+|
+|
+347 |
+390 |
+
+Prepaid expenses |
+|
+|
+|
+4,479 |
+4,432 |
+
+Other |
+|
+|
+|
+5,394 |
+4,923 |
+
+Deferred tax assets |
+|
+|
+|
+2,572 |
+2,597 |
+
+Investments in associates and joint ventures |
+|
+|
+|
+3,417 |
+3,129 |
+
+Property and equipment |
+|
+|
+|
+435 |
+416 |
+
+Goodwill & Intangible assets |
+|
+|
+|
+2,596 |
+2,570 |
+
+Total Assets |
+|
+|
+|
+316,385 |
+297,141 |
+
+|
+
+Liabilities |
+|
+|
+|
+3Q24 |
+2Q24 |
+
+Financial liabilities |
+|
+|
+|
+228,003 |
+213,285 |
+
+Fair value through profit or loss |
+|
+|
+|
+51,216 |
+49,597 |
+
+Securities |
+|
+|
+|
+18,602 |
+14,683 |
+
+Derivative financial instruments |
+|
+|
+|
+32,614 |
+34,913 |
+
+Evaluated at amortized cost |
+|
+|
+|
+176,787 |
+163,688 |
+
+Securities sold under repurchase agreements |
+|
+|
+|
+51,135 |
+53,890 |
+
+Securities trading and intermediation |
+|
+|
+|
+20,040 |
+19,034 |
+
+Financing instruments payable |
+|
+|
+|
+90,589 |
+72,397 |
+
+Accounts payables |
+|
+|
+|
+791 |
+623 |
+
+Borrowings |
+|
+|
+|
+- |
+2,528 |
+
+Other financial liabilities |
+|
+|
+|
+14,231 |
+15,216 |
+
+Other liabilities |
+|
+|
+|
+66,781 |
+63,693 |
+
+Social and statutory obligations |
+|
+|
+|
+751 |
+1,111 |
+
+Taxes and social security obligations |
+|
+|
+|
+508 |
+627 |
+
+Retirement plans liabilities |
+|
+|
+|
+64,126 |
+60,981 |
+
+Provisions and contingent liabilities |
+|
+|
+|
+135 |
+129 |
+
+Other |
+|
+|
+|
+1,262 |
+845 |
+
+Deferred tax liabilities |
+|
+|
+|
+243 |
+201 |
+
+Total Liabilities |
+|
+|
+|
+295,028 |
+277,179 |
+
+Equity attributable to owners of the Parent company |
+|
+|
+|
+21,353 |
+19,958 |
+
+Issued capital |
+|
+|
+|
+0 |
+0 |
+
+Capital reserve |
+|
+|
+|
+18,401 |
+19,402 |
+
+Other comprehensive income |
+|
+|
+|
+(265) |
+(226) |
+
+Treasury |
+|
+|
+|
+(117) |
+(1,366) |
+
+Retained earnings |
+|
+|
+|
+3,333 |
+2,147 |
+
+Non-controlling interest |
+|
+|
+|
+5 |
+4 |
+
+Total equity |
+|
+|
+|
+21,358 |
+19,962 |
+
+Total liabilities and equity |
+|
+|
+|
+316,385 |
+297,141 |
