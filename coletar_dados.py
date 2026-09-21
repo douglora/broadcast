@@ -1548,7 +1548,20 @@ def carregar_indice_releases(saida, tk):
     conhecidos = {}
     for e in idx.get("releases", []):
         if e.get("link") and e.get("arquivo") and os.path.exists(os.path.join(saida, e["arquivo"])):
-            conhecidos[e["link"]] = {k: v for k, v in e.items() if k != "texto"}
+            entrada = {k: v for k, v in e.items() if k != "texto"}
+            if entrada.get("data_estimada"):
+                # Entrada guardada com data estimada (fim do trimestre + 40 dias): o cabecalho do
+                # texto guardado costuma trazer a data real. Rederiva aqui, no reuso, para nao
+                # depender de baixar de novo.
+                try:
+                    with open(os.path.join(saida, e["arquivo"]), encoding="utf-8") as fh:
+                        cabeca = fh.read(2500)
+                    no_texto = _data_no_texto(cabeca)
+                    if no_texto and _periodo_plausivel(entrada.get("periodo"), no_texto):
+                        entrada["data"], entrada["data_estimada"] = no_texto, False
+                except OSError:
+                    pass
+            conhecidos[e["link"]] = entrada
     # Descarte vale DESCARTE_VALIDADE_DIAS; sem data (indice antigo) ou vencido, o link e conferido de
     # novo: um descarte errado (falha passageira gravada antes desta regra) nao esconde o release para sempre
     datas, limite, vencidos = idx.get("descartados_em") or {}, _limite_descarte(), 0
