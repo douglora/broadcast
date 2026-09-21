@@ -763,7 +763,10 @@ def skills():
     try:
         import ri_fontes as _r
         chaves = {"empresa", "central", "alternativas", "plataforma", "mz_id", "observacao"}
-        ruins = [t for t, v in _r.RI_FONTES.items() if set(v) != chaves or not v.get("central")]
+        opcionais = {"lista"}          # rotas de listagem (JSON/HTML) de central montada por JavaScript
+        ruins = [t for t, v in _r.RI_FONTES.items()
+                 if not isinstance(v, dict) or not chaves <= set(v) or set(v) - chaves - opcionais
+                 or not v.get("central") or ("lista" in v and not isinstance(v["lista"], list))]
         if ruins:
             print(f"  INVALIDA ri_fontes.py: entradas fora do esquema: {ruins}")
             ok = False
