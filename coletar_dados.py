@@ -714,12 +714,18 @@ def _ajustar_periodo(item):
 RELEASE_MIN_UTIL = 4000
 
 
-def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None):
-    """Os `n` trimestres que a mesa PRECISA ter, do mais novo para o mais antigo, contados a partir do
-    ultimo trimestre cujo prazo legal de divulgacao venceu (trimestre_vencido). E a mesma janela para
-    qualquer ativo: ela vem do calendario, nao do que o coletor conseguiu achar."""
+def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None, referencia=None):
+    """Os `n` trimestres que a mesa PRECISA ter, do mais novo para o mais antigo.
+
+    A ponta e a MESMA referencia do frescor: o mais novo entre o ITR/XBRL e o trimestre cujo prazo
+    legal de divulgacao ja venceu. Divergir disso cria laco infinito - num ativo que antecipa o ITR, o
+    leitor cobra um trimestre que o coletor nunca vai buscar e a cobertura nunca fecha. Fora essa
+    ponta, a janela vem do calendario, nao do que o coletor achou: e igual para todo ativo."""
     venc = trimestre_vencido(hoje)
     par = _ano_trimestre(venc) if venc else None
+    ref = _ano_trimestre(referencia) if referencia else None
+    if ref and (not par or ref > par):
+        par = ref
     if not par:
         return []
     ano, tri = par
@@ -732,16 +738,23 @@ def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None):
     return janela
 
 
-def release_fraco(r):
+def release_fraco(r, piso_relativo=0):
     """(fraco, motivo) de um release do indice: existe, mas nao serve de fonte para a mesa."""
     if not r:
         return True, "ausente"
     n = r.get("caracteres_total") or 0
     if n < RELEASE_MIN_UTIL:
         return True, f"texto de {n} caracteres"
+    if piso_relativo and n < piso_relativo:
+        return True, f"texto de {n} caracteres, muito abaixo da mediana do ticker"
+    if str(r.get("classe_sec") or "") == "nao":
+        return True, "documento da SEC classificado como nao-release"
+    if "SEC" in str(r.get("fonte") or "") and not r.get("classe_sec"):
+        return True, "documento da SEC gravado antes do classificador de conteudo; nao conferido"
     if (r.get("preferencia") or 1) >= 3:
         return True, "documento nao tem cara de release de resultado"
     return False, ""
+
 
 
 def periodos_oficiais(dados):
@@ -771,15 +784,19 @@ def periodos_oficiais(dados):
     return achados
 
 
-def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None):
+def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None):
     """Bloco `cobertura`: a janela obrigatoria, o que esta coberto, o que falta e o que esta fraco.
 
     E o criterio que separa 'tenho o dado' de 'tenho a linha no indice'. Um deep search so pode ser
     escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase. `oficiais` (o
     conjunto de periodos_oficiais) marca como `nao_aplicavel` o trimestre anterior a existencia da
     companhia como aberta, que nunca vai ter release."""
-    janela = janela_obrigatoria(n, hoje)
+    janela = janela_obrigatoria(n, hoje, referencia)
     por_periodo = {r.get("periodo"): r for r in (historico or []) if r.get("periodo")}
+    # Piso relativo: release muito menor que a mediana do proprio ticker quase sempre e outro
+    # documento (ITUB4 4T24 tem 6 mil caracteres contra 92 mil dos irmaos). O piso absoluto sozinho
+    # nao pega isso, e um piso absoluto alto derrubaria os 6-K legitimos da Nu, de 8 a 20 mil.
+    piso_relativo = (_mediana([r.get("caracteres_total") for r in (historico or [])]) or 0) * 0.25
     # So dispensa trimestre quando a serie oficial e longa o bastante para provar quando a companhia
     # comecou. Serie curta e quase sempre coleta truncada, e dispensar por causa dela esconderia
     # justamente o buraco que esta trava existe para achar.
@@ -787,7 +804,7 @@ def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None
     completos, faltando, fracos, na = [], [], [], []
     for periodo in janela:
         r = por_periodo.get(periodo)
-        fraco, motivo = release_fraco(r)
+        fraco, motivo = release_fraco(r, piso_relativo)
         if r is None:
             if mais_antigo_oficial and ordem_periodo(periodo) < mais_antigo_oficial:
                 na.append(periodo)      # antes da primeira demonstracao oficial: nao existe release
@@ -810,9 +827,9 @@ def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None
                      "se `faltando` ou `fracos` tiver item")}
 
 
-def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None):
+def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None):
     """Trimestres da janela que o coletor ainda precisa ir buscar (faltando + fracos)."""
-    c = cobertura_releases(historico, n, hoje, oficiais)
+    c = cobertura_releases(historico, n, hoje, oficiais, referencia)
     return c["faltando"] + [f["periodo"] for f in c["fracos"]]
 
 
@@ -1052,7 +1069,7 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
         melhor = _montar_release(texto, detalhe, {
             "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
             "data": filing.get("filingDate"), "periodo_reportado": filing.get("reportDate"),
-            "arquivo_sec": nome, "link": url, "classe_sec": classe,
+            "arquivo_sec": nome, "link": url, "classe_sec": classe, "conteudo_v": CLASSIFICADOR_SEC_V,
             # preferencia menor = melhor: release de texto antes de apresentacao de slides
             "preferencia": preferencia})
     return melhor, False
@@ -3909,7 +3926,8 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
     # como documento de outro tipo (2): pode nao ser o release. O site e consultado de novo a cada
     # coleta ate um release rotulado do mesmo trimestre tomar o lugar dele (preferencias + ate_periodo).
     fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
-    faltantes = periodos_a_buscar(historico, oficiais=periodos_oficiais(dados))
+    faltantes = periodos_a_buscar(historico, oficiais=periodos_oficiais(dados),
+                                  referencia=_referencia_frescor(dados)[0])
     if historico and atraso <= 0 and not fraco and not faltantes:
         app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
                 f"site de RI nao consultado")
@@ -4022,7 +4040,8 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
         try:
             conhecidos = carregar_indice_releases(saida, tk)
             # O que falta na janela orienta a varredura da SEC: sem isso ela e so cronologica
-            faltam = periodos_a_buscar(anterior, oficiais=periodos_oficiais(dados))
+            faltam = periodos_a_buscar(anterior, oficiais=periodos_oficiais(dados),
+                                       referencia=_referencia_frescor(dados)[0])
             if eh_simbolo_us(tk):
                 historico = coletar_releases_sec(_cik_por_ticker(tk), fontes, conhecidos, descartados,
                                                  faltantes=faltam)
@@ -4054,7 +4073,8 @@ def coletar_ativo(tk, macro, releases=True, saida=None):
                 [{k: v for k, v in r.items() if k != "texto"} for r in historico]
             if historico:
                 dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
-            dados["cobertura"] = cobertura_releases(historico, oficiais=periodos_oficiais(dados))
+            dados["cobertura"] = cobertura_releases(historico, oficiais=periodos_oficiais(dados),
+                                                    referencia=_referencia_frescor(dados)[0])
             c = dados["cobertura"]
             app.log(f"{tk}: cobertura da janela: {len(c['completos'])}/{len(c['janela'])} trimestres"
                     + (f"; faltando {', '.join(c['faltando'])}" if c["faltando"] else "")
