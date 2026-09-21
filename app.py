@@ -220,6 +220,22 @@ def http_get(url, timeout=HTTP_TIMEOUT, headers=None, **kw):
     return None
 
 
+def http_post(url, json_body=None, timeout=HTTP_TIMEOUT, headers=None, **kw):
+    """POST com corpo JSON, tolerante a falha: devolve o Response ou None. Nunca levanta excecao.
+    E o que o file manager da MZ (api.mziq.com/mzfilemanager) exige para listar documentos."""
+    h = {"User-Agent": UA, "Accept": "application/json, */*", "Content-Type": "application/json"}
+    if headers:
+        h.update(headers)
+    try:
+        r = requests.post(url, json=json_body, headers=h, timeout=timeout, **kw)
+        if r.status_code == 200:
+            return r
+        log(f"HTTP {r.status_code} em POST {url[:90]}")
+    except Exception as e:
+        log(f"falha em POST {url[:90]}: {type(e).__name__}")
+    return None
+
+
 def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
 
