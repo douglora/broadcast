@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
+(pendente de slot anterior) [ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
 Exame · 21/09 08h47 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Banco Central: o órgão divulgou nesta segunda-feira, 21, o boletim Focus (Marcello Casal Jr/Agência Brasil) Publicado em 21 de setembro de 2026 às 08h46.
@@ -14,10 +14,9 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Exame: Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026; confirmar o número no texto antes de repassar'
 Fonte: Exame 21/09 08h47
-Push: intradia: 2 alertas de atenção — E05 DI, E05 PETR4 · detalhe na sessão
 ids: E05-DI-d95af5283e-2026-09-21
 
-[ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
 eixos · 21/09 07h02 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – EDIÇÃO APRESENTADA POR: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi A conta das subvenções aos combustíveis adotadas pelo governo federal para lidar com a alta interna…
@@ -33,25 +32,70 @@ Como falar: 'saiu no eixos: Conta das subvenções cresce: diesel importado bate
 Fonte: eixos 21/09 07h02
 ids: E05-PETR4-1a0983d1ec-2026-09-21
 
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
+InfoMoney · 21/09 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
+  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
+  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
+  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
+  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
+  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
+Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 11h00
+Push: intradia: 3 alertas de atenção — E05 VALE3, E05 DI, E05 NVDA · detalhe na sessão
+ids: E05-VALE3-2d9e087dd4-2026-09-21
+
+[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
+InfoMoney · 21/09 08h30 · + Valor Economico · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
+  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
+  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
+  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
+  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
+  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
+Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 08h30
+ids: E05-DI-0bda952c58-2026-09-21
+
+[ATENÇÃO] E05 · NVDA · Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going concern’ worries
+Fortune · 21/09 07h25 · fonte única · licença: manchete
+Link: https://fortune.com/2026/09/21/nscale-35-billion-ipo-nvidia-going-concern/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: NVDA
+Como falar: 'saiu no Fortune: Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going c…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 21/09 07h25
+ids: E05-NVDA-827d707f95-2026-09-21
+
 Info (só linha no Fechamento):
-· E05 BTC · Michael Saylor’s Strategy buys Bitcoin again as surprise rally pushes price above $85,000
-· E05 MU · Where Will Micron Stock Be in 1 Year?
-· E05 NVDA · Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA)
-· E05 BRENT · Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 2%
-· E05 VALE3 · Vale (VALE3): Frete caro acende alerta para setor, mas Vale mantém custos competitivos, dizem analistas
-· E05 BTC · Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’
-· E05 ETH · Current price of Ethereum for September 21, 2026
-· E05 BTC · Current price of Bitcoin for September 21, 2026
-· E05 BTC · Why Are Strategy (MSTR) Shares Climbing On 24 7 Trading And Bitcoin Plans?
-· E05 BABA · Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned?
-· E05 PETR4 · Petrobras (PETR4) anuncia descobertas relevantes de gás a desenvolver na Colômbia
-· E05 USDBRL · Ibovespa ensaia recuperação com exterior a duas semanas da eleição; dólar cai
-· E05 BTC · Why Is Bitcoin Up Today? It Closed Above Its 50-Week Average for the First Time in 45 Weeks.
-· E05 GOOGL · Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails
-· E05 BRENT · Dólar opera em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping; Ibovespa sobe
+· E05 DI · Copom navega cenário de incertezas
+· E05 ITUB4 · Itaú BBA vê combinação rara de crescimento e retorno ao acionista nesta small cap
+· E05 SAPR4 · Serviços da Sanepar impulsionam Paraná ao topo do Ranking de Eficiência dos Estados - TNOnline
+· E05 UST · Two-Year U.S. Treasury Yield Reaches New Multi-Year High
+· E05 ITUB4 · Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás
+· E05 NVDA · Worried About An AI Bubble? Buy Nvidia Anyway (NASDAQ:NVDA)
+· E05 MU · Micron Walks Into the Biggest Earnings Setup of the AI Memory Cycle
+· E05 USDBRL · Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio
+· E05 BAC · Bank of America CEO Sparks Bank Stock Selloff With One Small Word
+· E05 MU · Micron Stock Pops on Fresh Memory-Chip Price Data
+· E05 PETR4 · CEO: Petrobras terá que ampliar atuação em renováveis para manter relevância até 2050
+· E05 PETR4 · Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras
+· E05 BABA · BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law
+· E05 BTC · Bitcoin Jumps Above $85,000 to 8-Month High
+· E05 BRENT · Ibovespa sobe mais de 1% com Boletim Focus, petróleo em baixa e pesquisas eleitorais em foco
 
 
 Alertas do dia (todos, com status):
+· pendente  E05 VALE3 — VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam 
+· pendente  E05 DI — DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
+· pendente  E05 NVDA — NVDA · Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvi
 · pendente  E05 DI — DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em
 · pendente  E05 PETR4 — PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já
 · entregue  E05 VALE3 — VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam 
@@ -73,9 +117,9 @@ Alertas do dia (todos, com status):
 · entregue  E05 DI — DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
 · entregue  E05 MMM — MMM · Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: di: ajuste B3 de 2026-09-21 não publicado 
-· linha     F06 BTC — BTC sobe a US$ 85.852 (cruzou US$ 85.000) (parcial, intradia)
-· linha     F03 BRENT — Brent cai a US$ 95,51 (-8,0% no dia · -9,6% em 5 sessões · cruzou US$ 100) (parc
+· linha     F06 BTC — BTC sobe a US$ 85.990 (cruzou US$ 85.000) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 96,08 (-7,5% no dia · -9,1% em 5 sessões · cruzou US$ 100) (parc
 · linha     T01 BBDC4 — BBDC4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 17,99 vs MM200 R$ 18
 · linha     T12 ETH — ETH: 6 altas seguidas (+14% acumulado) a US$ 2.726
-· (+107 notícias só manchete, em noticias.md)
+· (+122 notícias só manchete, em noticias.md)
 

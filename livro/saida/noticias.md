@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 14h21
+NOTÍCIAS E FATOS · 21/09 15h14
 
-Pernas: noticias ok 17 novas (14 consultas; descartadas: 371 veículo fora da lista, 20 sem ativo, 2 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (14 consultas; descartadas: 377 veículo fora da lista, 19 sem ativo, 6 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,48 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## NOTÍCIAS COM MATERIALIDADE (24)
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
+InfoMoney · 21/09 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
+  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
+  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
+  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
+  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
+  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
+Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 11h00
+id: E05-VALE3-2d9e087dd4-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
+InfoMoney · 21/09 08h30 · + Valor Economico · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
+  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
+  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
+  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
+  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
+  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
+Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 08h30
+id: E05-DI-0bda952c58-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going concern’ worries
+Fortune · 21/09 07h25 · fonte única · licença: manchete
+Link: https://fortune.com/2026/09/21/nscale-35-billion-ipo-nvidia-going-concern/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: NVDA
+Como falar: 'saiu no Fortune: Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going c…; confirmar o número no texto antes de repassar'
+Fonte: Fortune 21/09 07h25
+id: E05-NVDA-827d707f95-2026-09-21 · status: pendente
 
 [ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
 Exame · 21/09 08h47 · fonte única · licença: resumo
@@ -331,8 +372,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (100)
+## OUTRAS NOTÍCIAS (só manchete) (115)
 
+· DI Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
+· ITUB4 Itaú BBA vê combinação rara de crescimento e retorno ao acionista nesta small cap (Money Times) https://www.moneytimes.com.br/itau-bba-ve-combinacao-rara-de-crescimento-e-retorno-ao-acionista-nesta-small-cap/
+· SAPR4 Serviços da Sanepar impulsionam Paraná ao topo do Ranking de Eficiência dos Estados - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/parana/servicos-da-sanepar-impulsionam-parana-ao-topo-do-ranking-de-eficiencia-dos-estados-1147869
+· UST Two-Year U.S. Treasury Yield Reaches New Multi-Year High (The Wall Street Journal) https://www.wsj.com/finance/investing/two-year-u-s-treasury-yield-reaches-new-multi-year-high-99d3112b
+· ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
+· NVDA Worried About An AI Bubble? Buy Nvidia Anyway (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4948357-worried-about-an-ai-bubble-buy-nvidia-anyway
+· MU Micron Walks Into the Biggest Earnings Setup of the AI Memory Cycle (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-walks-biggest-earnings-setup-160053722.html
+· USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/
+· BAC Bank of America CEO Sparks Bank Stock Selloff With One Small Word (Barron's) https://www.barrons.com/articles/bank-of-america-ceo-stock-selloff-d260ee22
+· MU Micron Stock Pops on Fresh Memory-Chip Price Data (Barron's) https://www.barrons.com/articles/micron-stock-price-memory-chips-15d74f8e
+· PETR4 CEO: Petrobras terá que ampliar atuação em renováveis para manter relevância até 2050 (InfoMoney) https://www.infomoney.com.br/mercados/ceo-petrobras-tera-que-ampliar-atuacao-em-renovaveis-para-manter-relevancia-ate-2050/
+· PETR4 Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/21/ainda-queremos-atingir-autossuficiencia-de-diesel-no-brasil-diz-presidente-da-petrobras.ghtml
+· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (GlobeNewswire) https://news.google.com/rss/articles/CBMiiwJBVV95cUxPLTFKbnY5LTlmWkNqYVBpV2RDMWdSVmFiLU5rdVR3VUgwcEh1ZDl1RnFzcTVJNERGY2RZSHZuRjFmOWJiY0x3SE5MZWFVc0EwNlVMUmN4My04VEFmQjhadzBKbFNXSUZFejF4OVZ5TWZWeWkyb1dPZzdWakdXcWN1OXhHRi1vUjRBcHg5SDVVazU1a19SbGJhNU8ydFpDWmczQi0zZERfT2hMR29BdnlnNDJRemV0aFBxUW9Tb1VuekZmUGZtVE1SZHRNMjRlaXlwZmxhQzdLd2k4bG1URy1xZ0dxYkVFcFB5V3REWUctMjZ5Zk9MeFhlcnVWUm1MRnBadV9QVWxfdnlLbkU?oc=5
+· BTC Bitcoin Jumps Above $85,000 to 8-Month High (The Wall Street Journal) https://news.google.com/rss/articles/CBMilAFBVV95cUxPbm1ocHJySVRjNEFTTk9TQnk2bGJReXFfc3VvcEk4Q3ZwaElWZFptS2FvSUFVNWJsU2p6Q2RUU3BoNWdWNUpyMHVYbzNEZ3dVajlKY2YzSnNBdC1sWDlJV3lIOXBOa0ZqeWYtU01Yemw3WFFIeDVVRTE1b0lUUDFwZWtVM2xQSy1iUzNvMktrWkFKaFhm?oc=5
+· BRENT Ibovespa sobe mais de 1% com Boletim Focus, petróleo em baixa e pesquisas eleitorais em foco (Estadao) https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWXBQaFVvaGhLNkVYMnpDWDkyOFQwc1BYYldxVi03TE1HcFRPWkc1NUQ0dV9HSjRvYlVnc2tCZDBDUkhINHBhakhqRURXclQyLUQ1a1luTzN3Z2VFTHk3SjBabVRHLUlSc0JSV2JZMGY2eEtzeHVNMWtKd0c1RVcyR2M1eDBfRU9TRHpPM3hoMjN4bTU2OFEzcXN2MkhzTVpXUGVpUG1oS1BrbHctYmZySVdrRjlXcEQxUzQ2QXExN3FuZ0dNblhxOGN6eWNJc0ZZb2M0eGpHVDE2TkZrRGhGQ0RqX27SAeoBQVVfeXFMTzBWRTRsS1hra0JIallVYTcyNVZhUXVDaTVsMTZhaFdRQ3NGenlaTi1WX3RyYUhOc0I5VkV1UEJISllpLUxmVDVMeEh3SENDZGRianRjZC1KRmh4bDRBN1JiLUFvUlcwd3VUV0VRZGNSOERwdHJrSUlPNDhGdkZ2SVc2Vld5bmczM3JPb3JpWjJKOXhOU2swaHpNNDZMZGl1ZkFnMHpheDZGbGRGdGREaEN4MEhtTjZSRlAxX1U1Y04yQ2hFT2ZabmdPUnB6dDh2NUhWaHh6TXE1VmRnYVA4VnZYalZsWEhhcGR3?oc=5
 · BTC Michael Saylor’s Strategy buys Bitcoin again as surprise rally pushes price above $85,000 (Fortune) https://fortune.com/2026/09/21/michael-saylors-strategy-bitcoin-surprise-rally-price-85000/
 · MU Where Will Micron Stock Be in 1 Year? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/where-micron-stock-1-165500649.html
 · NVDA Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4948369-nvidia-one-of-5-ai-stocks-down-big-relative-to-earnings
@@ -378,19 +434,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · MU Prediction: Micron Stock Will Go Parabolic After Sept. 30. Here Are 31.6 Trillion Reasons Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-parabolic-sept-135601796.html
 · BRENT Ibovespa avança com petróleo em baixa e pesquisa eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWJ0NHo5akRIc1FzU1hlRF9OWlhsSVRVRWxVSGJ5RDZWbmxOV3NRR0ZjRmhlY21vVGVEOVMxeG14cjhNS0Q4RzVOeGxDcWhtSkpvdFJZbmlzNlplOE9pLTZvekZzTUJpVUxTTGZlNGhNc253MlZlWHdaa2xtVjByX0xSLXVyZWZaMGdoU29DSFpSOEYzTXRrWkd0dlZ2SE1MZVZVTmhCbVo?oc=5
 · GOOGL Weekly Recap: SkyWater boost and AWS, Microsoft Azure and Google Cloud (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiygFBVV95cUxPTW1XWlhfa2hqV1ZNaEE3ekFIX2gweFVoZHdvenVqY2NYZUNnS2ViTzB1aGpxS0pPRkpHeWhCcGZoMW53X3dFSXlnMUxiVU90RFlNQVBYSEk2UThZMXZ1QWFPNEdZZGRrZEgwVGpIb19wd0hKQmNYSGE1N1hRdjlSVVhwY2RhRm52bnlBdjFGZk5ndTR1Y3U3UXBwZFFXenctZHM2aGdSeVllaFQxbnhOdVQteURJRXFxc2NLd0F5LVBxQi1Qa1BoNlV3?oc=5
-· PETR4 Brasil está “em linha” com Acordo de Paris, diz presidente da Petrobras (Poder360) https://www.poder360.com.br/poder-energia/brasil-esta-em-linha-com-acordo-de-paris-diz-presidente-da-petrobras/
-· UST Howard Marks Sends Stark Signal to Federal Reserve (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6988f20d1094b:0-howard-marks-sends-stark-signal-to-federal-reserve/
-· PETR4 Petrobras anuncia hoje descobertas relevantes de gás a desenvolver na Colômbia (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-anuncia-hoje-descobertas-relevantes-de-gas-a-desenvolver-na-colombia/
-· BTC Bitcoin and ethereum prices today, Monday, September 21, 2026: Crypto prices hit highest levels in 8 months (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-21-2026-crypto-prices-hit-highest-levels-in-8-months-143444230.html
-· PETR4 CEO: Petrobras terá que ampliar atuação em renováveis para manter relevância até 2050 (InfoMoney) https://www.infomoney.com.br/mercados/ceo-petrobras-tera-que-ampliar-atuacao-em-renovaveis-para-manter-relevancia-ate-2050/
-· ITUB4 Itaú BBA vê Brasil como ‘anti-IA’ para fundos globais, mas fiscal ainda limita apostas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-brasil-como-anti-ia-para-fundos-globais-mas-fiscal-ainda-limita-apostas/
-· VALE3 Vale faz investimento estratégico em minério de ferro na região de Carajás ao comprar 30% da Ligga (Estadao) https://www.estadao.com.br/em-alta/economia/negocios/vale-faz-investimento-estrategico-em-minerio-de-ferro-na-regiao-de-carajas-ao-comprar-30-da-ligga/
-· VALE3 Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão (ADVFN) https://br.advfn.com/jornal/2026/09/vale-cobre-ganha-espaco-enquanto-minerio-de-ferro-e-dividendos-enfrentam-pressao
-· NVDA Zacks Market Edge Highlights: ExxonMobil, JPMorgan Chase and NVIDIA (TradingView (Reuters)) https://www.tradingview.com/news/zacks:84adcc7ce094b:0-zacks-market-edge-highlights-exxonmobil-jpmorgan-chase-and-nvidia/
-· BTC Why Is Bitcoin Up Today? It Closed Above Its 50-Week Average for the First Time in 45 Weeks. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-today-closed-above-125755691.html
-· JPM Will JPMorgan's Selective M&A Strategy Expand Growth Runway? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ce228a5e2094b:0-will-jpmorgan-s-selective-m-a-strategy-expand-growth-runway/
-· GOOGL Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails (CoinDesk) https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails
-· BTC Bitcoin hits highest level since January at $85,000, as the market debates whether the 'crypto winter' is over (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTFB1ZmdGWG5ublkyVnNGaHplY002MVBfV1g0a1Fpckd0N2lRM0RsSWk4R0R1cjQtVXd5T2dhRERVdFc1MVctWndZWTQ5TTY3dlhwOHNVTXVrNnh4SmkyVjRodWQySmF6Zzd5SkdNdHNSY2Y?oc=5
-· VALE3 Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão (ADVFN) https://br.advfn.com/jornal/2026/09/vale-cobre-ganha-espaco-enquanto-minerio-de-ferro-e-dividendos-enfrentam-pressao/
-· PETR4 Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/21/ainda-queremos-atingir-autossuficiencia-de-diesel-no-brasil-diz-presidente-da-petrobras.ghtml
-· (+40 manchetes; lista completa em eventos/noticias.json)
+· (+55 manchetes; lista completa em eventos/noticias.json)
