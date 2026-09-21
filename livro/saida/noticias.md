@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 10h22
+NOTÍCIAS E FATOS · 21/09 11h21
 
-Pernas: noticias ok 13 novas (14 consultas; descartadas: 365 veículo fora da lista, 18 sem ativo, 0 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (14 consultas; descartadas: 364 veículo fora da lista, 14 sem ativo, 9 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,80 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027
+Investing.com · 21/09 11h08 · fonte única · licença: manchete
+Link: https://br.investing.com/news/general-news/bmob3-itau-bba-sobe-precoalvo-de-bemobi-e-ve-dividendo-de-quase-9-em-2027-2070880
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Investing.com: BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 21/09 11h08
+id: E05-ITUB4-de73e33281-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
+InfoMoney · 21/09 11h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
+  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
+  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
+  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
+  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
+  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
+Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 11h00
+id: E05-VALE3-b9126c460a-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
+Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bloomberg — Economistas revisaram para baixo suas previsões para a taxa básica de juros no final de 2026, à medida que a economia passa por um arrefecimento gradual às vésperas das eleições presidenciais de outubro.
+  – A Selic cairá para 13,5%, ante os 13,75% previstos anteriormente, de acordo com o Relatório Focus, pesquisa semanal com analistas publicada pelo Banco Central nesta segunda-feira (21).
+  – Os economistas mantiveram suas previsões para 2027 e 2028 em 12% e 10,50%, respectivamente.
+  – Os membros do Comitê de Política Monetária do Banco Central realizaram um corte de um quarto de ponto na taxa na semana passada, levando a Selic a 13,75% e prolongando um ciclo que reduziu os custos dos empréstimos em 1…
+  – Leia também: Mercado reduz projeção para a Selic no fim de 2026 e vê inflação mais controlada Os planos dos candidatos para lidar com o aumento da dívida pública e dos gastos são fundamentais para as perspectivas fiscai…
+  – Veja mais em bloomberg.com ©2026 Bloomberg L.P.
+Link: https://www.bloomberglinea.com.br/brasil/mercado-ve-espaco-para-mais-cortes-e-reduz-projecao-da-selic-para-135-em-2026/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
+Fonte: Bloomberg Linea 21/09 10h56
+id: E05-DI-aad421b7ad-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
+Money Times · 21/09 10h55 · fonte única · licença: integral
+Do texto:
+  – Vale (VALE3): IPO da unidade de metais básicos deve acontecer?
+  – Por enquanto, o IPO da VBM segue “apenas ” com uma opção no longo prazo.
+  – “A execução continua sendo a prioridade, enquanto o crescimento da VBM pode ser financiado sem adicionar pressão à estrutura de capital do grupo”, afirmaram os analistas Lucas Laghi, Guilherme Nippes e Fernanda Urbano,…
+  – Produção da VBM Os analistas do Itaú BBA destacaram que, segundo a administração, a produção de cobre pela VBM deve aumentar de 380 mil toneladas por ano para aproximadamente 500 mil toneladas por ano, até 2030, e 700 m…
+  – Alemão poderia iniciar a construção em 2027 ou 2028, adicionando 15 a 20 mil toneladas por ano até 2030 e outras aproximadamente 65 mil toneladas por ano entre 2030 e 2035.
+  – O Southern Hub (118 e Cristalino) e Paulo Afonso viriam na sequência, todos aproveitando a infraestrutura existente e apresentando risco de execução relativamente baixo.
+Link: https://www.moneytimes.com.br/vale-vale3-ipo-da-unidade-de-metais-basicos-vai-acontecer-o-que-disse-o-ceo-gustavo-pimenta-a-analistas-lils/
+Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Piment…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 21/09 10h55
+id: E05-VALE3-5c68b2c00a-2026-09-21 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
+Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
+  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
+  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
+  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
+  – As ações passaram a ser negociadas sem o direito em 02 de junho.
+  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
+Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
+Fonte: Suno Noticias 21/09 08h55
+id: E05-PETR4-c5420464aa-2026-09-21 · status: linha
 
 [ATENÇÃO] E05 · DI · Mercado corta corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
 Estadao · 21/09 09h58 · fonte única · licença: manchete
@@ -43,7 +116,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Estadao: Mercado corta corta projeção para Selic e eleva para inflação de 2026: o boletim Focus de…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 21/09 09h58
-id: E05-DI-675524c8d1-2026-09-21 · status: pendente
+id: E05-DI-675524c8d1-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Mercado reduz projeção para a Selic e prevê mais um corte para este ano
 O Globo · 21/09 08h39 · + UOL Economia · licença: manchete
@@ -96,8 +169,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (27)
+## OUTRAS NOTÍCIAS (só manchete) (42)
 
+· VALE3 Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão (ADVFN) https://br.advfn.com/jornal/2026/09/vale-cobre-ganha-espaco-enquanto-minerio-de-ferro-e-dividendos-enfrentam-pressao/
+· PETR4 Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/21/ainda-queremos-atingir-autossuficiencia-de-diesel-no-brasil-diz-presidente-da-petrobras.ghtml
+· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/21/3365599/0/en/baba-investors-have-opportunity-to-lead-alibaba-group-holding-limited-securities-fraud-lawsuit-with-sbs-law.html
+· BRENT Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 1% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-sobe-com-petroleo-em-4-queda-seguida-e-encontro-entre-trump-e-xi-no-radar/
+· USDBRL Ibovespa ensaia recuperação com exterior a duas semanas da eleição; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-ensaia-recuperacao-com-exterior-a-duas-semanas-da-eleicao-dolar-cai/
+· BTC Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-stocks-rise-bitcoin-rallied-as-treasury-yields-ease-alphacheck-135033093.html
+· ETH Bitmine Buys $75 Million Of Ethereum Amid Signs ‘Crypto Winter’ Is Over (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-75-million-ethereum-134800517.html
+· BTC Strategy Buys $75 Million of Bitcoin As Price Rallies (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-buys-75-million-bitcoin-134300104.html
+· DI Mercado precifica mais um corte na Selic em 2026 (Poder360) https://www.poder360.com.br/poder-economia/mercado-precifica-mais-um-corte-na-selic-em-2026/
+· USDBRL Dólar hoje cai a R$ 5,10, e cenário eleitoral entra no radar do câmbio (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dolar-hoje-cai-a-r-510-e-cenario-eleitoral-entra-no-radar-do-cambio/
+· ETH Why Is Ethereum Up Today? It Just Broke Above $2,672, Opening the Door to $3,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQbWRnX1pTQ3dRaVVrcjdVMmh5Q1JHR2lOMHpGbU9YdW5qakJodXpPR19ZZlphdWNoaUt6UGJScnpGRktvZWh3V1B5SFFpa2ljd1doVzA1TTY1WXVBSWhmYlpENU45dEFSc2JoTmJtRWxXNUxad2ZKaDZBMGZHZHcxSjZTbElQdEJSbE5RdG1JZTBHQVQ2SXpnNnpn?oc=5
+· BRENT Dólar cai e Bolsa sobe com petróleo em queda e nova projeção para os juros (UOL Economia) https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEpYclVZeTk5a255eGdTS2NJVHJPMkd1bGk2dTJvYWtGbHRUQjJiOHpqZlhGbTVQZDhHRE1DX3lScmNVa0hHOWhDbUhzVzcwcWR3MmJpeTdBWTRfcTFZb2lLY0RmVWdSTkNLeWswTzlxeG1YLXU5TVo5QXl2OV83QnpzMndtcVJYOEF3TElIanExb3FFTlhTSUI2SUFqUmtaTUtmX0ZxeDVwUQ?oc=5
+· BTC Michael Saylor's Strategy jumps as the company says it bought more bitcoin (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxOZUVlbXJwTC1ZeWtkWU1iOWgxajhCS2daRl9OQWdUR3hhczlFR3dvbHVvY3hTcl9rZjNoU19pV1JUczVkajdGSTlQeDh0M3hkTmpfU1JJUmtibWk2T3B6akZscHZ5OTVld3lGbWFEUmNuenI0Ymd2SE1fOFVnYkhIZ1FTaTV4NHhKTkNDWWRxQjRrdXJ5OG5lME1QVEFxWVg3Q1NGWGxnaGJ2b3VkbC1HRlI5Y3M0b2xMRHBBdGFCaWdLMV9hd3RNdkV3?oc=5
+· PETR4 Petrobras (PETR4) e MPF entram em briga pela exploração de petróleo na Foz do Amazonas. Qual é o impasse? (Seu Dinheiro) https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUC05REFXUTQ0MmlxUWhuVHZfeWRVME4xc0otbV9aM1R2ZWl5M1lIS2JZZEx4ZlltOXJmclp3WUczYmduQUJFYXlUMmRmdmRnT1lVSU0ycG02QTdBODVqcXY4LV9hTFJ5MUNyNFV0eDI0OTUtLWItYzBsemgyMld2NEFZbXpTNnRpaGg5dkxRVGtJN1FLV25IQU9uV21jRWJvSFFvSmp4ZWk0T1JUTkNtbE50S1pBVzRacmd2SVpvOTdfcXFiUlBleUU0UVJvdzhtNllHcWtCVWNUVjBpZXNiSXFWOA?oc=5
+· MU Micron's Stock Could Easily Double (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMif0FVX3lxTE9MTmdQbm55dFR0RkJibHg2UU1YaGNxcEN4RF9ReElKWlh3R1FOUjFwa19EM1NwOURwUUxIdHlmSlZDc3FSRlZuSV9oLUlBeXREbzRZUXhvWV9WblpQaVdqOGdERFFJX2xFYmxDcWEydzN1MUNCbHI1SVVpR2UzSnM?oc=5
 · VALE3 BTG vê retorno de 30% para ações da Vale, mas alerta para falta de gatilhos no curto prazo (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/btg-ve-retorno-de-30-para-acoes-da-vale-mas-alerta-para-falta-de-gatilhos-no-curto-prazo/
 · MU Nvidia and Micron are part of Zacks Earnings Preview (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-micron-part-zacks-earnings-130100351.html
 · JPM Will JPMorgan's Selective M&A Strategy Expand Growth Runway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgans-selective-m-strategy-expand-125700194.html
