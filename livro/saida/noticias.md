@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 16h21
+NOTÍCIAS E FATOS · 21/09 17h21
 
-Pernas: noticias ok 0 novas (14 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 14 falhas · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (14 consultas; descartadas: 367 veículo fora da lista, 24 sem ativo, 6 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,25 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (25)
+## NOTÍCIAS COM MATERIALIDADE (27)
+
+[ATENÇÃO] E05 · BAC · Bank of America Corporation 4.125% DP PFD PP declares $0.2578 dividend
+TradingView (Reuters) · 21/09 16h21 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:eefe7d15f094b:0-bank-of-america-corporation-4-125-dp-pfd-pp-declares-0-2578-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Bank of America Corporation 4.125% DP PFD PP declares $0.2578 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/09 16h21
+id: E05-BAC-931427aa78-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · BAC · Bank of America Corp Depositary Shs Repr Non-Cum Perp Red Pfd Registered Shs Ser -HH- declares $0.3672 dividend
+TradingView (Reuters) · 21/09 16h20 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:fa4a892b5094b:0-bank-of-america-corp-depositary-shs-repr-non-cum-perp-red-pfd-registered-shs-ser-hh-declares-0-3672-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): Bank of America Corp Depositary Shs Repr Non-Cum Perp Red Pfd Registered Shs Ser -HH- dec…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/09 16h20
+id: E05-BAC-20f4ca2218-2026-09-21 · status: pendente
 
 [ATENÇÃO] E05 · DI · Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
 Estadao · 21/09 08h49 · fonte única · licença: manchete
@@ -43,7 +61,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Estadao: Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta se…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 21/09 08h49
-id: E05-DI-f36cb8e84e-2026-09-21 · status: pendente
+id: E05-DI-f36cb8e84e-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
 InfoMoney · 21/09 11h00 · fonte única · licença: resumo
@@ -381,8 +399,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (134)
+## OUTRAS NOTÍCIAS (só manchete) (149)
 
+· DI Ata do Copom d relatório de política monetária serão destaques na semana (UOL Economia) https://economia.uol.com.br/colunas/por-dentro-da-bolsa/2026/09/21/ata-do-copom-politica-monetaria-e-ipca-15-sao-os-destaques-da-semana.htm
+· UST Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
+· BAC Buy these high-quality dividend stocks with plenty of free cash flow, Bank of America says (CNBC) https://www.cnbc.com/2026/09/21/buy-these-high-quality-dividend-stocks-with-plenty-of-free-cash-flow.html
+· VALE3 Agência de Comunicação - Nosso potencial de destravar valor está no que já temos”, diz CEO da Vale (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/nosso-potencial-de-destravar-valor-esta-no-que-ja-temos-diz-ceo-da-vale/
+· DI Selic, El Niño, FIIs e ETFs: os assuntos que chamaram a atenção dos investidores na semana (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/selic-el-nino-fiis-e-etfs-os-assuntos-que-chamaram-a-atencao-dos-investidores-na-semana/
+· PETR4 Acordo com Petrobras foi bom para a PPSA e permitirá leilão de gás da União a US$ 5 MMBTU, diz Paroli (eixos) https://eixos.com.br/videos-e-podcasts/ao-vivo/acordo-com-petrobras-foi-bom-para-a-ppsa-e-permitira-leilao-de-gas-da-uniao-a-us-5-mmbtu-diz-paroli/
+· ITUB4 Itaú, Bradesco ou Banco do Brasil: BofA escolhe seu favorito na B3 — e deixa uma ação de escanteio (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/itau-bradesco-ou-banco-do-brasil-bofa-escolhe-seu-favorito-na-b3-e-deixa-uma-acao-de-escanteio-miql/
+· BTC Bitcoin Jumps Above $86,000 to 8-Month High (The Wall Street Journal) https://www.wsj.com/finance/currencies/bitcoin-jumps-above-85-000-to-8-month-high-050f3578
+· MU HBM Sold Out Through 2027. Micron’s Customers Are Begging. Can Anything Go Wrong? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/hbm-sold-2027-micron-customers-184556564.html
+· BBAS3 Banco do Brasil (BBAS3) salta 26%, mas mercado ainda vê “longo caminho” para recuperação (Suno Noticias) https://www.suno.com.br/noticias/banco-do-brasil-bbas3-acoes-recuperacao-credito-mt/
+· DI Opinião | Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
+· VALE3 Vale (VALE3): Frete caro acende alerta para setor, mas mineradora mantém custos competitivos, dizem analistas (Money Times) https://www.moneytimes.com.br/vale-vale3-frete-caro-acende-alerta-para-setor-mas-vale-mantem-custos-competitivos-dizem-analistas-lils/
+· BTC Bitcoin hits 8-month high amid millions in short liquidations (Yahoo Finance) https://au.finance.yahoo.com/news/bitcoin-hits-8-month-high-162444671.html
+· VALE3 Vale (VALE3) faz investimento estratégico em minério na região de Carajás ao comprar 30% da Ligga (Money Times) https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEIzWG1aejRvS0V4aDF0T25ObVVWR09PMlNrRS1KUWh1TFZ6WlVVREluZFFvV19QOVBtVEtCTEVNV3BwQUplby1ILUlLcXNEMTQyYTNEQ0tJTzdTS0pDSVhJcjJhek9EVXZRNUFnVVZ6MlRhOHMtc2hIMkN3aGluU3J3UUI2bzlMTHl4SnlkWW5hSGRiSjVvOUMzRjZjVVQzdG9pT2NFM2Z2YUU0SUlWOTU4bXB1TXhieC1R?oc=5
+· EQTL3 PRESIDENTE DA PETROBRÁS DESTACA MARGEM EQUATORIAL, GÁS NA COLÔMBIA E PRODUÇÃO DE DIESEL NA ABERTURA DA ROG.e (Petronoticias) https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV2daUjZONmNYTjVaRENFTkV3UWxDZWtidTlvUmc3ei1zb0JrdGJfYzlub2FISldEbGZ4c3JUNnRmYWMtWWxoR1dzYUNCWW5qaW1LeEFGaUhOTkVPZHZ6blVWTUZKTUI3LVEya1pHSHp5eGtoWlN6RE9wMDJoTFptbzA5eFkxalZfZkNQNlFLbTVQT2I0RTZPTzQ5RXh6UjVBQ2pqQnhqRTdTNWx4ZGpqaHgxNlE3YzROODNTY0lTSmZGZ0VqLVNaSHdGREc5ckJEMVVB?oc=5
 · BBDC4 R$ 10 bilhões no caixa: Bradesco (BBDC4) prepara crescimento sem abrir mão da rentabilidade (Money Times) https://www.moneytimes.com.br/r-10-bilhoes-no-caixa-bradesco-bbdc4-prepara-crescimento-sem-abrir-mao-da-rentabilidade-rnda/
 · BABA Alibaba Deadline: BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit Filed by The Rosen Law Firm (PR Newswire) https://www.prnewswire.com/news-releases/alibaba-deadline-baba-investors-have-opportunity-to-lead-alibaba-group-holding-limited-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302884244.html
 · DI Opinião | Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
@@ -428,19 +461,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · BTC Why Are Strategy (MSTR) Shares Climbing On 24 7 Trading And Bitcoin Plans? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-strategy-mstr-shares-climbing-161346947.html
 · BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:d48f530d8094b:0-microsoft-vs-alibaba-which-cloud-ai-stock-is-better-positioned/
 · PETR4 Petrobras (PETR4) anuncia descobertas relevantes de gás a desenvolver na Colômbia (Suno Noticias) https://www.suno.com.br/noticias/petrobras-anuncia-descobertas-relevantes-gas-colombia-petr4-go/amp/
-· USDBRL Ibovespa ensaia recuperação com exterior a duas semanas da eleição; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-ensaia-recuperacao-com-exterior-a-duas-semanas-da-eleicao-dolar-cai/
-· BTC Why Is Bitcoin Up Today? It Closed Above Its 50-Week Average for the First Time in 45 Weeks. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-today-closed-above-125755691.html
-· GOOGL Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails (CoinDesk) https://news.google.com/rss/articles/CBMiywFBVV95cUxQcmd3dFV6cm5DSFpQRXVLa0pCT2JpamNzUHBQSHFMbUREbzBXbmFqYVRVMVpQaER2UldhQnlsSElKcFZXZTFwbUVGU09TUTZXSU02bFhpUU1SQ05nc1dSR1FRT05YekhVUWZ0am9BaWl1V281YXhBV3p6TDhaWGVqZzFrdGQtMXZDS2llX0lHSVRGMjB4M2FZSGJtNC1NQnZsRUhjSndUODJ5dHYwSU5Fc1Y4RllGZjQxejVVZXlvZkdNUmFKOU01VXd2bw?oc=5
-· BRENT Dólar opera em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping; Ibovespa sobe (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTFB3aEJzdnc2ZDdQaDhtckxxbzY3dzVZWmxKeEVYWk1qbVJoZmJDZ1hzc056TlU5MUQ5OFdzWjFROFpjWUdjdFRzekE5Q1ctbXE0VjFjb0RhaGRBa2FndkpuVERjZHVyaHVMY0QxelVsam9ndHB3QUNHUNIBhwFBVV95cUxOeFZxdGxqbGFhVURGSGF1SnpyZDVIZHBHSmlZWHRqR0RHZWFnR3F5OGhOaXJ2Z3dUZlNad2M2WE5kekpBeTM2UWtrazhzX0lYV3hrcE5BdGdvS05vLXVpeXRwWjNYckJRUzRpSXBWZ2JmczhlZHcwdjNrWmN2eUVxdno2TUZlRUk?oc=5
-· ITUB4 Itaú BBA vê economia de R$ 398 milhões em possível união entre Yduqs e Afya (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-economia-de-r-398-milhoes-em-possivel-uniao-entre-yduqs-e-afya/
-· ITUB4 ITUB4, BBDC4 e BBSA3: Dois bancos para ter e um para manter distância, segundo BofA (Money Times) https://www.moneytimes.com.br/itub4-bbdc4-e-bbsa3-dois-bancos-para-ter-e-um-para-manter-distancia-segundo-bofa-rnda/
-· MU Micron: Old Valuation Metrics No Longer Matter (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948359-micron-old-valuation-metrics-no-longer-matter
-· UST Two-Year U.S. Treasury Yield Reaches New Multi-Year High (The Wall Street Journal) https://www.wsj.com/finance/investing/two-year-u-s-treasury-yield-reaches-new-multi-year-high-99d3112b
-· ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
-· PETR4 Próximo plano de negócios da Petrobras trará meta de autossuficiência em diesel, diz Chambriard (eixos) https://eixos.com.br/petroleo-e-gas/proximo-plano-de-negocios-da-petrobras-trara-meta-de-autossuficiencia-em-diesel-diz-chambriard/
-· USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/
-· UST Wall St rises on AI gains as oil slides, Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
-· USDBRL Ibovespa sobe, dólar e taxas dos DIs caem em dia de otimismo no exterior (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45D0LS:0/
-· NVDA Nvidia Holds Flat Before Trump-Xi Talks Test China Optionality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f99865244094b:0-nvidia-holds-flat-before-trump-xi-talks-test-china-optionality/
-· MU Why I Like Micron Better Than Nvidia (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948354-why-i-like-micron-better-than-nvidia
-· (+74 manchetes; lista completa em eventos/noticias.json)
+· (+89 manchetes; lista completa em eventos/noticias.json)
