@@ -897,6 +897,66 @@ def coletar_releases_cvm(documentos, fontes, conhecidos=None,
                             "falha: nao consegui ler nenhum press-release do IPE")
 
 
+# Versao do classificador da rota SEC. Quando ela muda, os descartes gravados no indice sao
+# reconferidos uma vez: a regra antiga reprovava o release de verdade (o arquivo 'nupr1q25_6k.htm' da
+# Nu nao casava em '\bpr\d') e aprovava ata de assembleia pelo rodape juridico.
+CLASSIFICADOR_SEC_V = 2
+
+# O titulo diz que o documento E o resultado do trimestre
+_RE_SEC_RESULTADO = re.compile(
+    r"(?i)reports?\s+(?:its\s+)?(?:record\s+)?(?:first|second|third|fourth|[1-4]q|q[1-4]|full[- ]year|fiscal)"
+    r".{0,80}(?:quarter|results|earnings)"
+    r"|(?:first|second|third|fourth|[1-4]q|q[1-4])[^.\n]{0,60}(?:financial\s+)?results"
+    r"|quarterly results|earnings release|results of operations for|resultados do [1-4][o\u00ba]? trimestre")
+# O titulo diz que o documento e OUTRO fato societario do periodo
+_RE_SEC_SOCIETARIO = re.compile(
+    r"(?i)annual general meeting|extraordinary general meeting|shareholders?.{0,14}meeting"
+    r"|notice of (?:meeting|annual)|voting results|results of [^.\n]{0,30}general meeting"
+    r"|announces?[^.\n]{0,40}dividend|cash dividend|extraordinary dividend|dividend (?:declaration|payment)"
+    r"|share repurchase|buyback|by-?laws|changes? to the board|appointment of|resignation of|election of"
+    r"|divestment|sale of [^.\n]{0,40}(?:stake|business|unit|subsidiary)|acquisition of|merger with"
+    r"|pricing of|offering of|prospectus|credit rating")
+_RE_SEC_DEMONSTRACAO = re.compile(
+    r"(?i)interim (?:condensed )?(?:consolidated )?financial statements|notes to the (?:interim|consolidated) financial"
+    r"|report of independent (?:registered )?public accounting|unaudited condensed consolidated")
+
+
+def classificar_documento_sec(texto, nome="", periodo=None):
+    """('release'|'apresentacao'|'nao', preferencia, motivo) de um documento de 8-K/6-K.
+
+    A rota da SEC nao tinha checagem de CONTEUDO: a nota vinha do nome do arquivo e de frases do
+    cabecalho, e o bonus mais forte disparava em 'This press release contains forward-looking
+    statements', que esta em todo comunicado corporativo. Resultado: ata de assembleia da Nu e aviso
+    de dividendo da StoneCo entraram como release do trimestre, com 2 mil caracteres e nenhum numero
+    de resultado - a 'informacao vazia' que a mesa citava como se fosse a fala da gestao."""
+    cabeca, corpo = texto[:2500], texto[:20000]
+    titulo_ok = bool(_RE_SEC_RESULTADO.search(cabeca))
+    palavras = {m.group(0).lower() for m in _RE_RI_CORPO.finditer(corpo)}
+    numeros = len(_RE_RI_NUMEROS.findall(corpo))        # numeros com unidade de dinheiro
+    densidade = len(re.findall(r"\d[\d.,]{2,}|\d+\s*%", corpo))   # numeros de qualquer tipo
+    if _RE_SEC_SOCIETARIO.search(cabeca) and not titulo_ok:
+        return "nao", None, "comunicado societario (assembleia, dividendo, recompra, M&A), nao release de resultado"
+    if _RE_SEC_DEMONSTRACAO.search(cabeca) and not titulo_ok:
+        return "nao", None, "demonstracoes financeiras intermediarias, nao o release da gestao"
+    # Apresentacao de resultados e fonte legitima da gestao (o historico do INBR32 e feito dela), mas o
+    # slide traz os numeros em tabela, sem a unidade 'milhoes' no texto: aqui a prova e densidade
+    # numerica, nao unidade de dinheiro.
+    if re.search(r"(?i)present|prese|deck|slides", nome or ""):
+        if numeros >= 6 or (densidade >= 40 and (titulo_ok or _trimestres_citados(cabeca))):
+            return "apresentacao", 2, ""
+    # O titulo ja diz que o documento e o resultado do trimestre: basta ter numero, com unidade
+    # (release em texto) ou sem (release que traz a tabela)
+    if titulo_ok and (numeros >= 2 or densidade >= 40):
+        return "release", 0.5, ""
+    # Sem titulo explicito, a prova e o corpo: palavras de resultado e numeros em dinheiro
+    if len(palavras) >= 2 and numeros >= 3:
+        return "release", 0.8, ""
+    if len(palavras) >= 3 and densidade >= 60 and (periodo or _trimestres_citados(cabeca)):
+        return "release", 0.9, ""
+    return "nao", None, (f"sem cara de release de resultado ({len(palavras)} palavra(s) de resultado, "
+                         f"{numeros} numero(s) com unidade, titulo {'bate' if titulo_ok else 'nao bate'})")
+
+
 def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartados):
     """Dentro de um 8-K/6-K, o documento que e o release de resultados. (item, reusado).
 
@@ -908,7 +968,7 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
         # relatorio anual, institucional e owners' day nao sao release de trimestre
         if re.search(r"(?i)annual[-_ ]?report|institutional|owners?[-_ ]?day|20-?f|proxy", n):
             return 0
-        if re.search(r"(?i)release|press|\bpr\d", n):
+        if re.search(r"(?i)release|press|(?<![a-z0-9])pr\d|pr[1-4]q|[1-4]q\d{2}_", n):
             return 4
         if re.search(r"(?i)present|prese|deck|slides", n):
             return 2
@@ -923,8 +983,8 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
         docs = [n for n in docs if nota_nome(n) >= 2] or docs[:1]
     else:
         # 6-K: so o exhibit com cara de release ou apresentacao; o principal apenas quando nao ha exhibit
-        docs = [n for n in docs if nota_nome(n) >= 2][:2] or docs[:1]
-    melhor, melhor_nota = None, 1
+        docs = [n for n in docs if nota_nome(n) >= 2][:3] or docs[:1]
+    melhor, melhor_pref = None, 9
     for nome in docs:
         url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
         if url in conhecidos:
@@ -942,36 +1002,30 @@ def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartado
             else:
                 descartados.append(url)
             continue
-        cabeca = texto[:8000]
-        nota = nota_nome(nome)
-        if re.search(r"(?i)press release|reports? (first|second|third|fourth|[1-4]q|q[1-4]).{0,40}(quarter|results)"
-                     r"|quarterly results|financial results for|results for the (first|second|third|fourth)", cabeca):
-            nota += 2
-        if re.search(r"(?i)(quarter|trimestre|fiscal year|full[- ]year)", cabeca) and re.search(r"(?i)(results|earnings|resultados)", cabeca):
-            nota += 1
-        if re.search(r"(?i)interim (condensed )?(consolidated )?financial statements|notes to the (interim|consolidated) financial", cabeca):
-            nota -= 1
-        if re.search(r"(?i)annual general meeting|extraordinary general meeting|shareholders.? meeting|notice of (meeting|annual)"
-                     r"|appointment of|dividend declaration|share repurchase program", cabeca[:3000]):
-            nota -= 2
-        if nota < 2:
+        classe, preferencia, motivo = classificar_documento_sec(texto, nome)
+        if classe == "nao":
+            app.log(f"SEC {acc}: {nome} descartado: {motivo}")
             descartados.append(url)
             continue
-        if nota <= melhor_nota:
+        if preferencia >= melhor_pref:
             continue
-        melhor_nota = nota
+        melhor_pref = preferencia
         melhor = _montar_release(texto, detalhe, {
             "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
             "data": filing.get("filingDate"), "periodo_reportado": filing.get("reportDate"),
-            "arquivo_sec": nome, "link": url,
-            # preferencia menor = melhor: release de texto (0) antes de apresentacao (2)
-            "preferencia": 4 - nota_nome(nome)})
+            "arquivo_sec": nome, "link": url, "classe_sec": classe,
+            # preferencia menor = melhor: release de texto antes de apresentacao de slides
+            "preferencia": preferencia})
     return melhor, False
 
 
 def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
-                         max_releases=RELEASES_POR_ATIVO, max_filings=60, orcamento_s=RELEASE_ORCAMENTO_S):
-    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre."""
+                         max_releases=RELEASES_POR_ATIVO, max_filings=140, orcamento_s=RELEASE_ORCAMENTO_S):
+    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre.
+
+    A varredura para quando a JANELA obrigatoria esta coberta, nao quando a contagem de filings
+    estoura: quem publica muito 6-K (a Nu tem mais de 40 por ano) empurrava os trimestres antigos
+    para fora dos 60 filings examinados e eles nunca chegavam ao branch."""
     conhecidos = conhecidos or {}
     descartados = descartados if descartados is not None else []
     if not cik:
@@ -988,9 +1042,12 @@ def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
         fontes["release_ri"] = "falha: submissions ilegivel"
         return []
     achados, baixados, reusados, examinados = {}, 0, 0, 0
+    janela = set(janela_obrigatoria())
     t0, estourou = time.monotonic(), False
     for f in filings:
-        if len(achados) >= max_releases or examinados >= max_filings:
+        if examinados >= max_filings:
+            break
+        if len(achados) >= max_releases and janela <= set(achados):
             break
         form = (f.get("form") or "").upper()
         if form not in ("8-K", "6-K"):
@@ -2406,6 +2463,25 @@ def _limite_descarte():
     return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=DESCARTE_VALIDADE_DIAS)).strftime("%Y-%m-%d")
 
 
+def _reavaliar_sec(saida, entrada):
+    """(ok, motivo) de uma entrada da rota SEC ja gravada, relida do .txt do branch, sem rede.
+
+    Documento errado gravado antes nunca era reconferido: a ata de assembleia da Nu voltaria
+    identica em toda coleta futura, inclusive depois de o classificador ser corrigido."""
+    if "SEC" not in str(entrada.get("fonte") or ""):
+        return True, ""
+    arquivo = entrada.get("arquivo")
+    if not arquivo or not saida:
+        return True, ""
+    try:
+        with open(os.path.join(saida, arquivo), encoding="utf-8") as fh:
+            texto = fh.read(60000)
+    except OSError:
+        return True, ""
+    classe, _, motivo = classificar_documento_sec(texto, entrada.get("arquivo_sec") or "", entrada.get("periodo"))
+    return classe != "nao", motivo
+
+
 def releases_do_indice(saida, tk):
     """Lista de releases ja gravados no branch (sem texto, com `arquivo`), mais novo primeiro.
 
@@ -2423,7 +2499,13 @@ def releases_do_indice(saida, tk):
             continue
         if e.get("arquivo") and not os.path.exists(os.path.join(saida, e["arquivo"])):
             continue          # entrada sem o texto no disco nao vale como cobertura
-        lista.append({k: v for k, v in e.items() if k != "texto"})
+        entrada = {k: v for k, v in e.items() if k != "texto"}
+        ok, motivo = _reavaliar_sec(saida, entrada)
+        if not ok:
+            app.log(f"{tk}: {entrada.get('periodo')} guardado nao passa no classificador de hoje "
+                    f"({motivo}); sai do historico e o trimestre volta a ser procurado")
+            continue
+        lista.append(entrada)
     return sorted(lista, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""), reverse=True)
 
 
@@ -2454,9 +2536,18 @@ def carregar_indice_releases(saida, tk):
                         entrada["data"], entrada["data_estimada"] = no_texto, False
                 except OSError:
                     pass
+            ok, motivo = _reavaliar_sec(saida, entrada)
+            if not ok:
+                continue      # nao reusa: sera rebaixado e cai em descartados pelo criterio novo
             conhecidos[e["link"]] = entrada
     # Descarte vale DESCARTE_VALIDADE_DIAS; sem data (indice antigo) ou vencido, o link e conferido de
     # novo: um descarte errado (falha passageira gravada antes desta regra) nao esconde o release para sempre
+    if (idx.get("classificador_sec") or 0) != CLASSIFICADOR_SEC_V and idx.get("descartados"):
+        # O classificador mudou: os descartes da versao anterior sao reconferidos uma vez. Foi a regra
+        # antiga que jogou fora 'nupr1q25_6k.htm' e 'nupr4q24_6k.htm', os releases de verdade da Nu.
+        app.log(f"{tk}: classificador da SEC mudou (v{idx.get('classificador_sec') or 0} -> "
+                f"v{CLASSIFICADOR_SEC_V}); {len(idx.get('descartados') or [])} descarte(s) serao reconferidos")
+        return conhecidos
     datas, limite, vencidos = idx.get("descartados_em") or {}, _limite_descarte(), 0
     for link in idx.get("descartados", []):
         if (datas.get(link) or "") >= limite:
@@ -2538,6 +2629,7 @@ def gravar_releases(saida, tk, lista, descartados=None):
                           "esta no .txt indicado em `arquivo`, relativo a raiz do branch `dados`; "
                           f"`descartados` sao links conferidos que nao sao release, com a data em "
                           f"`descartados_em` (valem {DESCARTE_VALIDADE_DIAS} dias)"),
+                 "classificador_sec": CLASSIFICADOR_SEC_V,
                  "releases": indice,
                  "descartados": descartados, "descartados_em": descartados_em})
     return indice
