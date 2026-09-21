@@ -1,68 +1,107 @@
-ALERTAS · Fechamento 18h40
+ALERTAS · Manhã 07h20
 
-[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
 Estadao · 20/09 07h03 · fonte única · licença: manchete
 Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
 Fonte: Estadao 20/09 07h03
-Push: [ATENÇÃO] PETR4 · Dividendos da semana · detalhe na sessão
 ids: E05-PETR4-a0dbc663de-2026-09-20
 
-Info (só linha no Fechamento):
-· E05 NOK · Nokia: Back To The Buy Zone (Rating Upgrade) (NYSE:NOK)
-· E05 ITUB4 · Vale (VALE3) no olho do furacão? CEO da mineradora abre o jogo; Citi e Itaú BBA dizem o que você deve fazer com a ação
-· E05 BABA · Bronstein, Gewirtz & Grossman LLC Urges Alibaba Group
-· E05 DI · Ata do Copom e diplomacia entre EUA e China comandam as atenções do mercado na semana — mas não é só isso
-· E05 BTC · Jordi Visser’s 20-Year Bombshell Prediction Includes ‘Religion, Gold, And Now Bitcoin’
-· E05 NVDA · Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate
-· E05 GOOGL · Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google illegally agreed to coordinate AI slowdown
+[ATENÇÃO] M03 · Focus de 18/09: IPCA: 2026 4,92% (+2 bps) · 2027 4,30% (0 bps)
+Selic fim de ano: 2026 13,50% (-25 bps) · 2027 12,00% (0 bps)
+Câmbio fim de ano: 2026 R$ 5,20 (0,00) · 2027 R$ 5,28 (0,00)
+Por que importa: a mediana do Focus é a régua do Copom; mudança de 10 bps no IPCA ou 25 bps na Selic muda a leitura da curva
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'o mercado revisou as projeções; comparar com o que a curva de juros já precifica'
+Fonte: BCB Focus (Olinda) 18/09
+Push: Manhã 07h20: 6 alertas de atenção — M03 MACRO, E03 PETR4, E05 DI, E05 DI, E05 MMM, S01 SISTEMA · detalhe na sessão
+ids: M03-MACRO-focus-2026-09-18
 
+[ATENÇÃO] E03 · PETR4 · Fato Relevante: Petrobras informa sobre adesão à nova subvenção econômica
+CVM · entregue 2026-09-19
+Do documento:
+  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
+Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1569745&numSequencia=1094451&numVersao=1
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: PETR4
+Como falar: 'a Petrobras publicou fato relevante sobre Petrobras informa sobre adesão à nova subvenção econômica'
+Fonte: CVM 19/09
+ids: E03-PETR4-e405cd4e-2026-09-19
+
+[ATENÇÃO] E05 · DI · Mercado reduz projeção para a Selic e prevê mais um corte para este ano
+O Globo · 21/09 08h39 · + UOL Economia · licença: manchete
+Link: https://oglobo.globo.com/blogs/miriam-leitao/post/2026/09/mercado-reduz-projecao-para-a-selic-e-preve-mais-um-corte-para-este-ano.ghtml
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no O Globo: Mercado reduz projeção para a Selic e prevê mais um corte para este ano; confirmar o número no texto antes de repassar'
+Fonte: O Globo 21/09 08h39
+ids: E05-DI-9a4ab2642f-2026-09-21
+
+[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
+InfoMoney · 21/09 08h30 · + Valor Economico, Exame · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
+  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
+  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
+  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
+  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
+  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
+Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 21/09 08h30
+ids: E05-DI-2ed7973ad5-2026-09-21
+
+[ATENÇÃO] E05 · MMM · Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps
+TradingView (Reuters) · 21/09 08h28 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:b23e9462ff0d5:0-weekly-recap-0-25-dividend-10m-buyback-and-vnb-loan-at-3m-sofr-210bps/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MMM
+Como falar: 'saiu no TradingView (Reuters): Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 21/09 08h28
+ids: E05-MMM-fe3c9274d4-2026-09-21
+
+[ATENÇÃO] S01 · coleta do slot manha saiu incompleta: di: ajuste B3 de 2026-09-21 não publicado (último 2026-09-18)
+O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS.
+Por que importa: silêncio é lido como 'está tudo bem'; declarar a falha é o que permite confiar no restante
+Fonte: manifest do runner
+ids: S01-SISTEMA-manha-2026-09-21
+
+Info (só linha no Fechamento):
+· T01 BBDC4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 17,99 vs MM200 R$ 18,25 (-1,5%)
+· T12 ETH: 6 altas seguidas (+14% acumulado) a US$ 2.726
+· M01 Agenda: Ata do Copom (reuniao de 15-16/09) amanhã às 08:00 (22/09)
+· E03 PETR4 · Comunicado ao Mercado: Petrobras recebe nova parcela de Subvenção Econômica à Gasolina
+· E03 ALUP4 · Comunicado ao Mercado: Apresentação Corporativa 2T26
+· E05 DI · Economistas do Brasil reduzem previsão da Selic para 2026 após corte de juros
+· E05 MU · Micron: SCAs And Enterprise Adoption Make It A Strong Buy (NASDAQ:MU)
+· E05 USDBRL · Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio
+· E05 BTC · Bitcoin Is at Its Highest Price Since January
+· E05 USDBRL · Dólar abre em queda com nova pesquisa eleitoral em foco
+· E05 USDBRL · Ibovespa futuro avança com alívio nos Treasuries, mas cenário eleitoral fica no radar; dólar cai
+· E05 PETR4 · Petrobras (PETR4), Tim (TIMS3), Boa Safra (SOJA3) e outros destaques desta segunda-feira (21)
+· E05 USDBRL · Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda
+· E05 BRENT · Dólar abre em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping
+· E05 JPM · JPMorgan Chase & Co. (JPM) Forms $20B QIA Partnership
+· E05 BRENT · Ibovespa abre semana com petróleo em queda e pesquisas eleitorais no radar
+· E05 DI · Economistas veem mais um corte na Selic e inflação mais alta; confira o Focus desta segunda-feira (21)
+· E05 VALE3 · Projeto com Vale no Pará pode quase dobrar operação da Ero Copper
+· E05 AMZN · Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income
+· E05 GOOGL · The Tech Selloff Is Only Strengthening My Belief In Alphabet
+· E05 PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-PETR4-73c518db3c-2026-09-21 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· linha     T08 WQTM — WQTM entrou em bear técnico: -22% do pico de 52s (US$ 47,10 em 02/06) a US$ 36,8
-· entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
-· entregue  F03 BRENT — Brent cai a US$ 99,29 (-5,3% no dia)
-· pendente  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
-· expirado  E05 PETR4 — PETR4 · Petrobras (PETR4) e mais uma empresa pagam dividendos nesta semana; veja
-· expirado  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
-· expirado  E05 TSM — TSM · TSMC Stock And 2 Manufacturers Building Around Tariff Shifts
-· linha     T08 IGV — IGV entrou em correção: -11% do pico de 52s (US$ 117,79 em 22/09) a US$ 104,35
-· linha     T03 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) formou death cross
-· linha     C06 TESOURO — Inflação implícita: implícita 2029 +21 bps na semana · implícita 2029 cruzou 6,0
-· linha     T10 BBAS3 — BBAS3 no máximo de força relativa em 63 sessões contra IBOV: +29% vs +10% em 20 
-· linha     T10 DIRR3 — DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20
-· linha     T11 BBAS3 — BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessõ
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, C
-· expirado  E03 SBSP3 — SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
-· entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
-· entregue  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
-· entregue  E05 AMZN — AMZN · Prime Video’s Off Campus TV Show Lands Amazon a Big Lawsuit, Here’s Why
-· entregue  E05 VALE3 — VALE3 · Novo hotel em São José dos Campos terá investimento de R$ 70 milhões
-· entregue  E05 BTC — BTC · Fortuna Hedged Bitcoin ETF (HBTC) Dividend Yield 2026, Date & History
-· entregue  T08 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) entrou em correção
-· entregue  C05 TESOURO — Pre 2032 FECHA 15 bps (PU +0,7%) (base 17/09)
-· entregue  T04 DIRR3 — DIRR3 fechou na mínima de 52 semanas: R$ 10,05, -4,4% em 1m e -28% em 12m
-· entregue  T05 BTC — BTC +5,9% no dia a US$ 80.901: movimento de 2,9 desvios para uma vol de 20 dias 
-· entregue  T05 ETH — ETH +6,7% no dia a US$ 2.611: movimento de 3,1 desvios para uma vol de 20 dias d
-· entregue  T08 BAC — BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
-· entregue  F06 ETH — ETH sobe a US$ 2.611 (cruzou US$ 2.500)
-· entregue  S01 SISTEMA — coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINE
-· linha     T02 QQQ — QQQ retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 721,45, acima da MM200 
-· linha     T02 INTC — INTC retomou a MM100 pela 2ª sessão: US$ 108,60, acima da MM200 (tendência longa
-· linha     T02 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sessão: US$
-· linha     T02 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) retomou a MM100 pela 2ª
-· linha     T02 MU — MU retomou a MM50 pela 2ª sessão: US$ 1.016, acima da MM200 (tendência longa pre
-· linha     T02 NVDA — NVDA retomou a MM50 pela 2ª sessão: US$ 222,27, acima da MM200 (tendência longa 
-· linha     T02 TSM — TSM retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 434,67, acima da MM200 
-· linha     T02 MMM — MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa 
-· linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa
-· linha     T02 NOK — NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa pr
-· linha     C08 UST — UST 2s10s +25 bps: na mínima de 252 pregões (18/09)
-· linha     T02 VALE3 — VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendê
-· linha     T02 SBSP3 — SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tend
-· entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
-· entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
-· entregue  F06 BTC — BTC sobe a US$ 80.901 (cruzou US$ 80.000)
-· (+665 notícias só manchete, em noticias.md)
+· pendente  M03 MACRO — Focus de 18/09: IPCA: 2026 4,92% (+2 bps) · 2027 4,30% (0 bps)
+· pendente  E03 PETR4 — PETR4 · Fato Relevante: Petrobras informa sobre adesão à nova subvenção econômic
+· pendente  E05 DI — DI · Mercado reduz projeção para a Selic e prevê mais um corte para este ano
+· pendente  E05 DI — DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
+· pendente  E05 MMM — MMM · Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps
+· pendente  S01 SISTEMA — coleta do slot manha saiu incompleta: di: ajuste B3 de 2026-09-21 não publicado 
+· linha     T01 BBDC4 — BBDC4 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 17,99 vs MM200 R$ 18
+· linha     T12 ETH — ETH: 6 altas seguidas (+14% acumulado) a US$ 2.726
+· (+19 notícias só manchete, em noticias.md)
