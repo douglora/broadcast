@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 21/09 13h38
+NOTÍCIAS E FATOS · 21/09 14h21
 
-Pernas: noticias ok 19 novas (14 consultas; descartadas: 379 veículo fora da lista, 20 sem ativo, 80 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (14 consultas; descartadas: 371 veículo fora da lista, 20 sem ativo, 2 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -34,7 +34,39 @@ Fonte: CVM 18/09
 id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
+Exame · 21/09 08h47 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Banco Central: o órgão divulgou nesta segunda-feira, 21, o boletim Focus (Marcello Casal Jr/Agência Brasil) Publicado em 21 de setembro de 2026 às 08h46.
+  – Última atualização em 21 de setembro de 2026 às 08h46.
+  – O mercado financeiro elevou de 4,90% para 4,92% a projeção para o IPCA de 2026, enquanto reduziu de 1,89% para 1,88% a expectativa para o crescimento do PIB e de 13,75% para 13,50% a previsão para a Selic.
+  – A estimativa para o dólar permaneceu em R$ 5,20.
+  – Os números fazem parte do Boletim Focus, divulgado pelo Banco Central nesta segunda-feira, 21.
+  – Nesta edição, as quatro principais estimativas para 2026 tiveram comportamentos distintos: a inflação subiu, enquanto PIB e Selic recuaram e o câmbio ficou estável.
+Link: https://exame.com/brasil/boletim-focus-mercado-eleva-projecao-de-inflacao-e-reduz-do-pib-e-selic-em-2026/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Exame: Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026; confirmar o número no texto antes de repassar'
+Fonte: Exame 21/09 08h47
+id: E05-DI-d95af5283e-2026-09-21 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
+eixos · 21/09 07h02 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – EDIÇÃO APRESENTADA POR: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi A conta das subvenções aos combustíveis adotadas pelo governo federal para lidar com a alta interna…
+  – Apenas a Petrobras já recebeu R$ 9,9 bilhões no âmbito dos auxílios para o diesel, gasolina e gás liquefeito de petróleo (GLP).
+  – - O montante total foi divulgado pela estatal na sexta (18/9), após o recebimento de uma parcela de R$ 448 milhões, referente à comercialização de gasolina entre 16 e 31 de julho, nos termos da Medida Provisória nº 1.35…
+  – O valor, portanto, ainda não considera as novas medidas anunciadas pelo governo no dia 9 de setembro, com a isenção de tributos para a gasolina e o aumento do auxílio do diesel.
+  – - O conselho de administração da estatal confirmou na sexta-feira (18) a adesão ao subsídio adicional de R$ 1 por litro de diesel.
+  – - O preço de paridade de importação (PPI) do diesel está batendo recordes em setembro, com o litro a R$ 6,51 em média na semana entre 7 e 11 de setembro, segundo cálculos da ANP com base em informações da S&P Global Com…
+Link: https://eixos.com.br/newsletters/comece-seu-dia/conta-das-subvencoes-cresce-diesel-importado-bate-recorde-petrobras-ja-recebeu-quase-r-10-bi/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no eixos: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$…; confirmar o número no texto antes de repassar'
+Fonte: eixos 21/09 07h02
+id: E05-PETR4-1a0983d1ec-2026-09-21 · status: pendente
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
 InfoMoney · 21/09 11h00 · fonte única · licença: resumo
@@ -50,7 +82,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-b94e858857-2026-09-21 · status: pendente
+id: E05-VALE3-b94e858857-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
 Money Times · 21/09 10h55 · fonte única · licença: integral
@@ -66,7 +98,7 @@ Por que importa: troca no comando reabre a discussao de estrategia e de alocacao
 Ativos: VALE3
 Como falar: 'saiu no Money Times: Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Piment…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 21/09 10h55
-id: E05-VALE3-8a851833ac-2026-09-21 · status: pendente · íntegra disponível
+id: E05-VALE3-8a851833ac-2026-09-21 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
 Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
@@ -82,7 +114,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
 Fonte: Suno Noticias 21/09 08h55
-id: E05-PETR4-a37a2e94eb-2026-09-21 · status: pendente
+id: E05-PETR4-a37a2e94eb-2026-09-21 · status: entregue
 
 [ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
 InfoMoney · 21/09 08h30 · + Valor Economico, Exame · licença: resumo
@@ -299,8 +331,23 @@ Fonte: eixos 21/09 07h02
 id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (85)
+## OUTRAS NOTÍCIAS (só manchete) (100)
 
+· BTC Michael Saylor’s Strategy buys Bitcoin again as surprise rally pushes price above $85,000 (Fortune) https://fortune.com/2026/09/21/michael-saylors-strategy-bitcoin-surprise-rally-price-85000/
+· MU Where Will Micron Stock Be in 1 Year? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/where-micron-stock-1-165500649.html
+· NVDA Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4948369-nvidia-one-of-5-ai-stocks-down-big-relative-to-earnings
+· BRENT Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 2% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-sobe-com-petroleo-em-4-queda-seguida-e-encontro-entre-trump-e-xi-no-radar/
+· VALE3 Vale (VALE3): Frete caro acende alerta para setor, mas Vale mantém custos competitivos, dizem analistas (Money Times) https://www.moneytimes.com.br/vale-vale3-frete-caro-acende-alerta-para-setor-mas-vale-mantem-custos-competitivos-dizem-analistas-lils/
+· BTC Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’ (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:3ec8b1c6f094b:0-bitcoin-price-tags-86k-as-analysis-sees-crypto-in-new-bull-market/
+· ETH Current price of Ethereum for September 21, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-21-2026/
+· BTC Current price of Bitcoin for September 21, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-21-2026/
+· BTC Why Are Strategy (MSTR) Shares Climbing On 24 7 Trading And Bitcoin Plans? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-strategy-mstr-shares-climbing-161346947.html
+· BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:d48f530d8094b:0-microsoft-vs-alibaba-which-cloud-ai-stock-is-better-positioned/
+· PETR4 Petrobras (PETR4) anuncia descobertas relevantes de gás a desenvolver na Colômbia (Suno Noticias) https://www.suno.com.br/noticias/petrobras-anuncia-descobertas-relevantes-gas-colombia-petr4-go/amp/
+· USDBRL Ibovespa ensaia recuperação com exterior a duas semanas da eleição; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-ensaia-recuperacao-com-exterior-a-duas-semanas-da-eleicao-dolar-cai/
+· BTC Why Is Bitcoin Up Today? It Closed Above Its 50-Week Average for the First Time in 45 Weeks. (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-today-closed-above-125755691.html
+· GOOGL Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails (CoinDesk) https://news.google.com/rss/articles/CBMiywFBVV95cUxQcmd3dFV6cm5DSFpQRXVLa0pCT2JpamNzUHBQSHFMbUREbzBXbmFqYVRVMVpQaER2UldhQnlsSElKcFZXZTFwbUVGU09TUTZXSU02bFhpUU1SQ05nc1dSR1FRT05YekhVUWZ0am9BaWl1V281YXhBV3p6TDhaWGVqZzFrdGQtMXZDS2llX0lHSVRGMjB4M2FZSGJtNC1NQnZsRUhjSndUODJ5dHYwSU5Fc1Y4RllGZjQxejVVZXlvZkdNUmFKOU01VXd2bw?oc=5
+· BRENT Dólar opera em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping; Ibovespa sobe (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTFB3aEJzdnc2ZDdQaDhtckxxbzY3dzVZWmxKeEVYWk1qbVJoZmJDZ1hzc056TlU5MUQ5OFdzWjFROFpjWUdjdFRzekE5Q1ctbXE0VjFjb0RhaGRBa2FndkpuVERjZHVyaHVMY0QxelVsam9ndHB3QUNHUNIBhwFBVV95cUxOeFZxdGxqbGFhVURGSGF1SnpyZDVIZHBHSmlZWHRqR0RHZWFnR3F5OGhOaXJ2Z3dUZlNad2M2WE5kekpBeTM2UWtrazhzX0lYV3hrcE5BdGdvS05vLXVpeXRwWjNYckJRUzRpSXBWZ2JmczhlZHcwdjNrWmN2eUVxdno2TUZlRUk?oc=5
 · ITUB4 Itaú BBA vê economia de R$ 398 milhões em possível união entre Yduqs e Afya (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-economia-de-r-398-milhoes-em-possivel-uniao-entre-yduqs-e-afya/
 · ITUB4 ITUB4, BBDC4 e BBSA3: Dois bancos para ter e um para manter distância, segundo BofA (Money Times) https://www.moneytimes.com.br/itub4-bbdc4-e-bbsa3-dois-bancos-para-ter-e-um-para-manter-distancia-segundo-bofa-rnda/
 · MU Micron: Old Valuation Metrics No Longer Matter (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4948359-micron-old-valuation-metrics-no-longer-matter
@@ -346,19 +393,4 @@ id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
 · BTC Bitcoin hits highest level since January at $85,000, as the market debates whether the 'crypto winter' is over (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTFB1ZmdGWG5ublkyVnNGaHplY002MVBfV1g0a1Fpckd0N2lRM0RsSWk4R0R1cjQtVXd5T2dhRERVdFc1MVctWndZWTQ5TTY3dlhwOHNVTXVrNnh4SmkyVjRodWQySmF6Zzd5SkdNdHNSY2Y?oc=5
 · VALE3 Vale: cobre ganha espaço enquanto minério de ferro e dividendos enfrentam pressão (ADVFN) https://br.advfn.com/jornal/2026/09/vale-cobre-ganha-espaco-enquanto-minerio-de-ferro-e-dividendos-enfrentam-pressao/
 · PETR4 Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/21/ainda-queremos-atingir-autossuficiencia-de-diesel-no-brasil-diz-presidente-da-petrobras.ghtml
-· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/21/3365599/0/en/baba-investors-have-opportunity-to-lead-alibaba-group-holding-limited-securities-fraud-lawsuit-with-sbs-law.html
-· BRENT Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 1% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-sobe-com-petroleo-em-4-queda-seguida-e-encontro-entre-trump-e-xi-no-radar/
-· USDBRL Ibovespa ensaia recuperação com exterior a duas semanas da eleição; dólar cai (Exame) https://exame.com/invest/mercados/ibovespa-ensaia-recuperacao-com-exterior-a-duas-semanas-da-eleicao-dolar-cai/
-· BTC Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-stocks-rise-bitcoin-rallied-as-treasury-yields-ease-alphacheck-135033093.html
-· ETH Bitmine Buys $75 Million Of Ethereum Amid Signs ‘Crypto Winter’ Is Over (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-75-million-ethereum-134800517.html
-· BTC Strategy Buys $75 Million of Bitcoin As Price Rallies (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strategy-buys-75-million-bitcoin-134300104.html
-· DI Mercado precifica mais um corte na Selic em 2026 (Poder360) https://www.poder360.com.br/poder-economia/mercado-precifica-mais-um-corte-na-selic-em-2026/
-· USDBRL Dólar hoje cai a R$ 5,10, e cenário eleitoral entra no radar do câmbio (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dolar-hoje-cai-a-r-510-e-cenario-eleitoral-entra-no-radar-do-cambio/
-· ETH Why Is Ethereum Up Today? It Just Broke Above $2,672, Opening the Door to $3,000 (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQbWRnX1pTQ3dRaVVrcjdVMmh5Q1JHR2lOMHpGbU9YdW5qakJodXpPR19ZZlphdWNoaUt6UGJScnpGRktvZWh3V1B5SFFpa2ljd1doVzA1TTY1WXVBSWhmYlpENU45dEFSc2JoTmJtRWxXNUxad2ZKaDZBMGZHZHcxSjZTbElQdEJSbE5RdG1JZTBHQVQ2SXpnNnpn?oc=5
-· BRENT Dólar cai e Bolsa sobe com petróleo em queda e nova projeção para os juros (UOL Economia) https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEpYclVZeTk5a255eGdTS2NJVHJPMkd1bGk2dTJvYWtGbHRUQjJiOHpqZlhGbTVQZDhHRE1DX3lScmNVa0hHOWhDbUhzVzcwcWR3MmJpeTdBWTRfcTFZb2lLY0RmVWdSTkNLeWswTzlxeG1YLXU5TVo5QXl2OV83QnpzMndtcVJYOEF3TElIanExb3FFTlhTSUI2SUFqUmtaTUtmX0ZxeDVwUQ?oc=5
-· BTC Michael Saylor's Strategy jumps as the company says it bought more bitcoin (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxOZUVlbXJwTC1ZeWtkWU1iOWgxajhCS2daRl9OQWdUR3hhczlFR3dvbHVvY3hTcl9rZjNoU19pV1JUczVkajdGSTlQeDh0M3hkTmpfU1JJUmtibWk2T3B6akZscHZ5OTVld3lGbWFEUmNuenI0Ymd2SE1fOFVnYkhIZ1FTaTV4NHhKTkNDWWRxQjRrdXJ5OG5lME1QVEFxWVg3Q1NGWGxnaGJ2b3VkbC1HRlI5Y3M0b2xMRHBBdGFCaWdLMV9hd3RNdkV3?oc=5
-· PETR4 Petrobras (PETR4) e MPF entram em briga pela exploração de petróleo na Foz do Amazonas. Qual é o impasse? (Seu Dinheiro) https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUC05REFXUTQ0MmlxUWhuVHZfeWRVME4xc0otbV9aM1R2ZWl5M1lIS2JZZEx4ZlltOXJmclp3WUczYmduQUJFYXlUMmRmdmRnT1lVSU0ycG02QTdBODVqcXY4LV9hTFJ5MUNyNFV0eDI0OTUtLWItYzBsemgyMld2NEFZbXpTNnRpaGg5dkxRVGtJN1FLV25IQU9uV21jRWJvSFFvSmp4ZWk0T1JUTkNtbE50S1pBVzRacmd2SVpvOTdfcXFiUlBleUU0UVJvdzhtNllHcWtCVWNUVjBpZXNiSXFWOA?oc=5
-· MU Micron's Stock Could Easily Double (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMif0FVX3lxTE9MTmdQbm55dFR0RkJibHg2UU1YaGNxcEN4RF9ReElKWlh3R1FOUjFwa19EM1NwOURwUUxIdHlmSlZDc3FSRlZuSV9oLUlBeXREbzRZUXhvWV9WblpQaVdqOGdERFFJX2xFYmxDcWEydzN1MUNCbHI1SVVpR2UzSnM?oc=5
-· VALE3 BTG vê retorno de 30% para ações da Vale, mas alerta para falta de gatilhos no curto prazo (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/btg-ve-retorno-de-30-para-acoes-da-vale-mas-alerta-para-falta-de-gatilhos-no-curto-prazo/
-· MU Nvidia and Micron are part of Zacks Earnings Preview (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-micron-part-zacks-earnings-130100351.html
-· (+25 manchetes; lista completa em eventos/noticias.json)
+· (+40 manchetes; lista completa em eventos/noticias.json)
