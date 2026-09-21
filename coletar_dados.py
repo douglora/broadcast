@@ -1479,13 +1479,17 @@ def _file_manager_da_pagina(html):
     """({'id','base','name','language','categorias': [(titulo, internal_name)]}, [blocos inline inteiros])
     do file manager da MZ (tema mziq_*): a pagina declara var fmId/fmBase/language e monta
     `categories.push({title, internal_name, icon})`; o script cmsint.js chama a API com isso."""
-    fm = {"id": None, "base": None, "name": None, "language": None, "categorias": []}
+    fm = {"id": None, "base": None, "name": None, "language": None, "api_language": None, "categorias": []}
     blocos = []
     for m in _RE_SCRIPT_INLINE.finditer(html):
         corpo = m.group(2)
         if not re.search(r"(?i)\bfmId\b|categories\.push|\bfmBase\b", corpo):
             continue
         blocos.append(re.sub(r"\s+", " ", corpo.strip())[:3000])
+        # configPage = { ..., language: 'pt_BR', //API LANGUAGUE ... }: o idioma que a API entende
+        api = re.search(r"""(?i)\blanguage\s*:\s*["']([a-z]{2}_[A-Z]{2})["']""", corpo)
+        if api and not fm["api_language"]:
+            fm["api_language"] = api.group(1)
         for nome, valor in _RE_FM_VAR.findall(corpo):
             chave = {"fmid": "id", "fmbase": "base", "fmname": "name", "language": "language", "lang": "language",
                      "fmlang": "language", "year": "year", "ano": "year"}[nome.lower()]
@@ -1498,6 +1502,134 @@ def _file_manager_da_pagina(html):
                 fm["categorias"].append((campos.get("title", ""), campos.get("internal_name") or campos.get("slug")))
     fm["categorias"] = list(dict.fromkeys(fm["categorias"]))
     return fm, blocos[:3]
+
+
+def _anos_da_resposta(obj):
+    """Anos numa resposta da rota de anos ({'success': true, 'data': [2026, 2025]} ou variantes)."""
+    achados = set()
+
+    def visitar(v, profundidade=0):
+        if profundidade > 6:
+            return
+        if isinstance(v, bool):
+            return
+        if isinstance(v, (int, float)) and 1990 <= int(v) <= 2100:
+            achados.add(int(v))
+        elif isinstance(v, str) and re.fullmatch(r"(?:19|20)\d{2}", v.strip()):
+            achados.add(int(v.strip()))
+        elif isinstance(v, dict):
+            for vv in v.values():
+                visitar(vv, profundidade + 1)
+        elif isinstance(v, list):
+            for vv in v:
+                visitar(vv, profundidade + 1)
+    visitar(obj)
+    return sorted(achados, reverse=True)
+
+
+def _document_metas(obj):
+    """Lista de documentos numa resposta do file manager: res.data.document_metas, ou a primeira lista
+    de dicionarios com file_title/link_url que houver."""
+    if isinstance(obj, dict):
+        dados = obj.get("data")
+        if isinstance(dados, dict) and isinstance(dados.get("document_metas"), list):
+            return [d for d in dados["document_metas"] if isinstance(d, dict)]
+        if isinstance(dados, list):
+            return [d for d in dados if isinstance(d, dict)]
+        for v in obj.values():
+            if isinstance(v, (dict, list)):
+                achado = _document_metas(v)
+                if achado:
+                    return achado
+        return []
+    if isinstance(obj, list):
+        docs = [d for d in obj if isinstance(d, dict) and any(k in d for k in ("file_title", "link_url", "permalink"))]
+        if docs:
+            return docs
+        for v in obj:
+            if isinstance(v, (dict, list)):
+                achado = _document_metas(v)
+                if achado:
+                    return achado
+    return []
+
+
+def _link_de_meta(d, ano, titulos, url_base):
+    """Um document_meta do file manager -> tupla de link no formato de _links_da_pagina.
+    Rotulo = titulo da categoria (da pagina) + file_title + trimestre (file_quarter + ano pedido),
+    sem repetir o que o file_title ja diz; contexto = ano, data de publicacao (AAAAMMDD -> ISO) e categoria."""
+    url = d.get("link_url") or d.get("permalink") or d.get("url") or d.get("file_url")
+    if not isinstance(url, str) or not _parece_url(url.strip()):
+        return None
+    cat = str(d.get("category_internal_name") or d.get("internal_name") or "")
+    tcat = titulos.get(cat) or titulos.get(cat.strip()) or ""
+    file_title = str(d.get("file_title") or d.get("title") or "").strip()
+    tri = str(d.get("file_quarter") or "").strip()
+    ano_doc = d.get("file_year") or ano
+    try:
+        periodo = f"{tri}T{int(ano_doc) % 100:02d}" if tri in ("1", "2", "3", "4") and ano_doc else ""
+    except (TypeError, ValueError):
+        periodo = ""
+    partes = []
+    if tcat and normalizar(tcat) not in normalizar(file_title):
+        partes.append(tcat.strip())
+    partes.append(file_title)
+    if periodo and _periodo_no_site(file_title, "") != periodo:
+        partes.append(periodo)
+    titulo = " ".join(x for x in partes if x)
+    data = str(d.get("file_published_date") or d.get("published_date") or d.get("date") or "").strip()
+    if re.fullmatch(r"20\d{6}", data[:8]):
+        data = _RE_DATA_COLADA.sub(r"\1-\2-\3", data[:8])
+    antes = f"ano {ano_doc} {data} categoria {cat}".strip()
+    return (urljoin(url_base, url.strip()), titulo[:200], antes, "", None)
+
+
+def _listar_cmsint(fm, rotulo):
+    """Documentos do file manager da MZ pelo contrato do cmsint.js (tema mziq_*), o mesmo que o
+    navegador usa na central de resultados:
+      POST <base>/company/<id>/categoryInternalName/document/language/years
+           {categoryInternalNames: [...], language_code: 'pt_BR'}      -> {success, data: [anos]}
+      POST <base>/company/<id>/filter/categories/year/meta
+           {year, categories: [...], language: 'pt_BR', published: true} -> {success, data: {document_metas: [...]}}
+    Cada document_meta traz file_title, link_url (api.mziq.com/mzfilemanager/v2/d/...), file_published_date
+    (AAAAMMDD), file_quarter e internal_name da categoria. Devolve (links, url da rota, resumo)."""
+    base = (fm.get("base") or "https://api.mziq.com/mzfilemanager").rstrip("/")
+    fid = fm.get("id")
+    cats = [c for _, c in fm.get("categorias") or [] if c]
+    titulos = {c: t for t, c in fm.get("categorias") or []}
+    idioma = fm.get("api_language") or "pt_BR"
+    url_anos = f"{base}/company/{fid}/categoryInternalName/document/language/years"
+    r = app.http_post(url_anos, {"categoryInternalNames": cats, "language_code": idioma}, timeout=RI_SONDA_TIMEOUT_S)
+    anos = _anos_da_resposta(_decodificar_json(_html_da_resposta(r))) if r else []
+    ano_hoje = int(_hoje()[:4])
+    if r:
+        app.log(f"{rotulo}: file manager MZ: anos disponiveis {anos or 'nenhum'} para {len(cats)} categorias ({idioma})")
+    else:
+        app.log(f"{rotulo}: file manager MZ: rota de anos sem resposta 200; tenta {ano_hoje} e {ano_hoje - 1}")
+    anos = [a for a in anos if 2000 <= a <= ano_hoje + 1] or [ano_hoje, ano_hoje - 1]
+    anos = sorted(set(anos), reverse=True)[:3]          # 3 anos cobrem os 8 trimestres do historico
+    url_meta = f"{base}/company/{fid}/filter/categories/year/meta"
+    links, total = [], 0
+    for ano in anos:
+        r = app.http_post(url_meta, {"year": ano, "categories": cats, "language": idioma, "published": True},
+                          timeout=RI_SONDA_TIMEOUT_S)
+        if not r:
+            app.log(f"{rotulo}: file manager MZ: {ano} sem resposta 200")
+            continue
+        obj = _decodificar_json(_html_da_resposta(r))
+        metas = _document_metas(obj)
+        if not metas:
+            previa = re.sub(r"\s+", " ", _html_da_resposta(r)[:300])
+            app.log(f"{rotulo}: file manager MZ: {ano}: resposta sem document_metas: {previa}")
+            continue
+        total += len(metas)
+        categorias = sorted({str(m.get("category_internal_name") or m.get("internal_name") or "?").strip() for m in metas})
+        app.log(f"{rotulo}: file manager MZ: {ano}: {len(metas)} documentos em {', '.join(categorias[:10])}")
+        for d in metas:
+            link = _link_de_meta(d, ano, titulos, url_meta)
+            if link:
+                links.append(link)
+    return links, url_meta, f"file manager MZ: {total} documentos em {len(anos)} ano(s)"
 
 
 _RE_JS_CHAMADA = re.compile(r"(?i)\$\.(?:ajax|post|get|getJSON)\s*\(|\bajax\s*\(\s*\{|\bfetch\s*\(|XMLHttpRequest|axios\.|"
@@ -1805,6 +1937,20 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
             if cands:
                 resumo = "JSON embutido na pagina trouxe candidatos"
                 return cands, fora, url, resumo
+        # Tema mziq_* com file manager declarado na pagina (fmId + categorias): usa o contrato do
+        # cmsint.js direto, que e o que o navegador faz. E o caminho de Cury, Plano & Plano e MRV.
+        fm = pistas.get("fm") or {}
+        if fm.get("id") and fm.get("categorias"):
+            chave = ("__cmsint__", fm["id"], fm.get("api_language"))
+            if chave in cache:
+                links, rota, resumo_fm = cache[chave]
+            else:
+                links, rota, resumo_fm = _listar_cmsint(fm, rotulo)
+                cache[chave] = (links, rota, resumo_fm)
+            cands, fora = _candidatos_ri(links, url)
+            app.log(f"{rotulo}: {resumo_fm}; {len(links)} links, {len(cands)} candidatos, {fora} descartados pelo rotulo")
+            if cands:
+                return cands, fora, rota, resumo_fm
         # Scripts do tema: a URL da chamada costuma estar neles (fetch/ajax), as vezes com placeholder
         achados_js = []
         for s in tema:
