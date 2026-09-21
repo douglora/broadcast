@@ -87,21 +87,28 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
    resposta e "coleta falhou as HHhMM (<step>)" + link do run, e nada mais.
 3. **Leitura.** Leia so os `.md` do slot (e `fechamento.json` filtrado por
    `python3 -c` para `leitura_insumos`, nunca o JSON inteiro).
-4. **Narrar.** Ver o formato por slot abaixo. Colar os blocos exatamente como
-   estao (sao monoespacados para o celular); substituir `<<LEITURA_DA_MESA>>`
-   pelo seu texto. Nao mude numero nenhum.
-5. **Push.** `PushNotification` (< 200 caracteres, sem markdown) com o texto de
+4. **Narrar.** Ver o formato por slot abaixo. Colar os cards exatamente como
+   estao; substituir o marcador da leitura pelo seu texto: `[[LEITURA_DA_MESA]]`
+   nos cards e no painel, `<<LEITURA_DA_MESA>>` no BLOCO A monoespacado do
+   `fechamento.md`. Nao mude numero nenhum.
+5. **Painel (obrigatorio na manha e no fechamento).** Republique o Artifact com
+   a mesma leitura que voce acabou de escrever (receita na secao Painel abaixo) e
+   feche a resposta com o link. No intradia so republique se ele pedir. Se a
+   republicacao falhar, diga a falha em uma linha e siga: os cards ja foram
+   entregues e o turno nao trava por causa do painel.
+6. **Push.** `PushNotification` (< 200 caracteres, sem markdown) com o texto de
    `Push:` do alertas.md quando houver alerta critico ou de atencao no slot, e com o
    `push_sugerido` do fechamento.json no Fechamento. Nunca para info. Maximo 1 push
    por turno (agrupe).
-6. **Ack.** Os ids que voce narrou neste turno entram em `ids_entregues` no
+7. **Ack.** Os ids que voce narrou neste turno entram em `ids_entregues` no
    PROXIMO disparo (passo 2). Nao dispare um run so para o ack.
 
-## Painel (so quando ele pedir "painel")
+## Painel (sempre na manha e no fechamento; no intradia so a pedido)
 
-Em 19/09 ele decidiu ler na propria sessao, em cards; a pagina continua sendo
-gerada pelo runner e serve quando ele quiser a versao de tela cheia. Republica
-sempre no MESMO Artifact:
+Em 19/09 ele decidiu ler na propria sessao, em cards; em 21/09 pediu que o painel
+ficasse SEMPRE atualizado (opcao A), entao os slots das 09h30 e das 18h40
+republicam a pagina como parte do turno, com a mesma leitura dos cards. A pagina
+esta fixada na barra lateral dele. Republica sempre no MESMO Artifact:
 
 **https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7**
 
@@ -137,9 +144,9 @@ monoespacado: os cards ja sao markdown, colados como estao.
 git show origin/dados:livro/saida/fechamento_cards.md   # 09h30: manha_cards.md
 ```
 
-Confira que o marcador nao sobrou no texto antes de enviar. Feche com a linha de
-comandos: "tabela" (BLOCO A/B monoespacado), "alertas", "noticias", "painel",
-"integra <id>". Se ele pedir "tabela" ou "completo", ai sim cole BLOCO A +
+Confira que o marcador nao sobrou no texto antes de enviar. Feche com o link do
+painel (ja republicado no passo 5) e com a linha de comandos: "tabela" (BLOCO A/B
+monoespacado), "alertas", "noticias", "integra <id>". Se ele pedir "tabela" ou "completo", ai sim cole BLOCO A +
 BLOCO B + legenda do `fechamento.md`; "curto"/"celular" usa
 `fechamento_celular.md`. Sexta: acrescente uma linha "SEMANA" com os 3 maiores e
 menores da semana (coluna 1 sem) e o que a curva fez na semana.
