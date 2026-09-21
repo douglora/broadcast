@@ -88,7 +88,13 @@ fontes falharam. Se a ficha imprimir "nao esta no branch", "demonstracao
 oficial: AUSENTE" ou menos de 4 releases, dispare a coleta (2b).
 
 Trava de frescor: `python3 mesa.py frescor TICKER` e o criterio, nao a
-intuicao. Ele compara o trimestre do ITR mais novo com o do release mais
+intuicao. Todo leitor imprime o mesmo veredito na primeira linha. Se ele
+avisar `site de RI: NAO MAPEADO em ri_fontes.py`, mapeie a central de
+resultados da companhia (WebSearch, entrada em `ri_fontes.py`, commit e
+`main`) ANTES de disparar: sem o mapa e sem o indice da CVM, a coleta nao
+acha release novo. `RELEASE VELHO (calendario ...)` e `ITR VELHO` significam
+que o prazo legal do trimestre venceu sem dado: dispare, e se continuar, a
+lacuna abre a nota. Ele compara o trimestre do ITR mais novo com o do release mais
 novo, mede a idade da coleta e fecha com VEREDITO `ATUAL` (saida 0) ou
 `RELEASE VELHO (N trimestres atras do ITR)` / `COLETA VELHA (Nh)` (saida 1).
 Release mais novo que o ITR e normal logo apos a divulgacao e conta como

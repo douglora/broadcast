@@ -36,8 +36,11 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   `decompor TICKER`, `termos`), nao por script avulso: e a leitura
   padronizada da mesa.
 - Frescor antes de escrever: `python3 mesa.py frescor TICKER` tem de dizer
-  ATUAL; release velho vira a primeira frase da resposta, com o trimestre ao
-  lado; o coletor busca o release na CVM e no site de RI (`ri_fontes.py`).
+  ATUAL (todo leitor imprime o veredito na primeira linha); release velho vira
+  a primeira frase da resposta, com o trimestre ao lado; o coletor busca o
+  release na CVM e no site de RI (`ri_fontes.py`). Ticker NAO MAPEADO em
+  `ri_fontes.py` se mapeia antes de disparar a coleta; a referencia de frescor
+  e o mais novo entre o ITR e o trimestre cujo prazo legal venceu.
 - O Douglas le no celular e nao decora sigla: comece com "Em uma frase",
   tabelas de ate 4 colunas, toda sigla explicada em portugues na primeira
   vez (glossario em .claude/skills/analise-ativo/GLOSSARIO.md) e a nota fecha

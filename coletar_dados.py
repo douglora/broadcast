@@ -2409,17 +2409,50 @@ def _itr_mais_novo(dados):
     return None
 
 
+# Prazo legal de entrega apos o fim do trimestre: ITR em 45 dias (1T a 3T), DFP em 90 dias (4T).
+# E a segunda referencia de frescor: se o proprio ITR atrasar ou o zip da CVM sumir, o release
+# "em dia com o ITR" continua velho para o calendario, e o site de RI precisa ser consultado.
+_PRAZO_DIAS = {1: 45, 2: 45, 3: 45, 4: 90}
+
+
+def trimestre_vencido(hoje=None):
+    """Ultimo trimestre fechado cujo prazo legal de divulgacao ja venceu: '2026T2' (formato da serie CVM).
+
+    Em 21/09/2026 devolve 2026T2 (3T26 so vence em 14/11). None se nao der para calcular."""
+    try:
+        h = datetime.strptime(str(hoje or agora())[:10], "%Y-%m-%d")
+    except ValueError:
+        return None
+    ano, tri = ordem_periodo(trimestre_anterior(h.strftime("%Y-%m-%d")))
+    for _ in range(6):
+        if not tri:
+            return None
+        fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+        if (h - fim).days >= _PRAZO_DIAS[tri]:
+            return f"{ano}T{tri}"
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return None
+
+
+def _referencia_frescor(dados):
+    """(referencia, origem): o mais novo entre o ITR e o trimestre vencido no calendario."""
+    itr = _itr_mais_novo(dados)
+    vencido = trimestre_vencido()
+    candidatos = [(r, o) for r, o in ((itr, "ITR"), (vencido, "calendario")) if r]
+    if not candidatos:
+        return None, None
+    return max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
+
+
 def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados):
-    """Quando o release mais novo esta atras do ITR mais novo (ou nao ha release), busca no site de RI
-    os trimestres que faltam e mescla com o que a CVM trouxe, um por trimestre."""
+    """Quando o release mais novo esta atras da referencia (ITR mais novo ou trimestre vencido no
+    calendario, o que for mais novo), busca no site de RI os trimestres que faltam e mescla com o que
+    a CVM trouxe, um por trimestre."""
     itr = _itr_mais_novo(dados)
     mais_novo = historico[0].get("periodo") if historico else None
-    if itr:
-        referencia = itr
-    else:
-        # Sem demonstracao oficial nao da para medir: usa o ultimo trimestre fechado no calendario
-        ano, tri = ordem_periodo(trimestre_anterior(agora()))
-        referencia = f"{ano}T{tri}" if tri else None
+    referencia, origem = _referencia_frescor(dados)
     atraso = defasagem_release(mais_novo, referencia)
     preferencias = {r.get("periodo"): r.get("preferencia", 1) for r in historico if r.get("periodo")}
     # Release mais novo que entrou sem a palavra release no rotulo (arquivo avulso da central, 1.5) ou
@@ -2434,7 +2467,7 @@ def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartado
                 f"(preferencia {historico[0].get('preferencia')}); consultando o site de RI atras de um documento melhor")
     else:
         app.log(f"{tk}: release mais novo {mais_novo or 'nenhum'} esta {atraso} trimestre(s) atras de "
-                f"{referencia} ({'ITR' if itr else 'calendario'}); consultando o site de RI")
+                f"{referencia} ({origem}); consultando o site de RI")
     do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo, preferencias=preferencias)
     if not do_site:
         return historico
@@ -2456,14 +2489,21 @@ def _frescor(dados, historico, fontes, releases=True):
     """Bloco `frescor` do JSON: o ITR mais novo, o release mais novo e a distancia entre eles."""
     itr = _itr_mais_novo(dados)
     mais_novo = historico[0].get("periodo") if historico else None
+    vencido = trimestre_vencido()
     return {"itr_mais_novo": itr, "release_mais_novo": mais_novo,
             "release_data": historico[0].get("data") if historico else None,
             "release_data_estimada": bool(historico[0].get("data_estimada")) if historico else None,
             "defasagem_trimestres": defasagem_release(mais_novo, itr) if releases else None,
+            "calendario_vencido": vencido,
+            "defasagem_calendario": defasagem_release(mais_novo, vencido) if (releases and vencido) else None,
+            "itr_atras_do_calendario": (defasagem_release(f"{_ano_trimestre(itr)[1]}T{str(_ano_trimestre(itr)[0])[-2:]}", vencido)
+                                        if (itr and vencido and _ano_trimestre(itr)) else None),
             "fontes_release": sorted({r.get("fonte") for r in historico if r.get("fonte")}),
             "site_ri": fontes.get("release_ri_site", "nao consultado"),
             "nota": ("defasagem_trimestres: quantos trimestres o release mais novo esta atras do ITR/XBRL "
-                     "mais novo (0 = em dia; 99 = sem release; null = coleta sem releases)")}
+                     "mais novo (0 = em dia; 99 = sem release; null = coleta sem releases). "
+                     "calendario_vencido: ultimo trimestre cujo prazo legal de divulgacao venceu; "
+                     "defasagem_calendario e itr_atras_do_calendario medem release e ITR contra ele")}
 
 
 def coletar_ativo(tk, macro, releases=True, saida=None):

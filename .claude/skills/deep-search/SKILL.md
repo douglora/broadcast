@@ -83,6 +83,24 @@ ATUAL.
 **Dado velho nao e motivo para nao responder; e motivo para dizer a idade do
 dado na primeira linha.**
 
+Tres avisos do `frescor` mudam o que fazer ANTES de disparar a coleta:
+
+- `AVISO: site de RI: NAO MAPEADO em ri_fontes.py`: com a CVM sem o indice do
+  ano, a coleta nao vai achar release novo. Ache a central de resultados da
+  companhia pelo buscador (WebSearch: "<empresa> RI central de resultados"),
+  inclua a entrada em `ri_fontes.py` (esquema no proprio arquivo; `mz_id` so
+  quando visto em URL real de documento), commite e leve a `main`, e so entao
+  dispare. `python3 mesa.py skills` valida o mapa.
+- `RELEASE VELHO (calendario: ...)` ou `ITR VELHO (calendario: ...)`: o prazo
+  legal do trimestre venceu (45 dias no 1T a 3T, 90 no 4T) e nem o ITR nem o
+  release chegaram. E a mesma classe de falha do IPE: a fonte de referencia
+  sumiu. Dispare a coleta; se continuar, a lacuna vai para a primeira frase.
+- `RELEASE ADIANTADO`: release dois ou mais trimestres a frente do ITR e
+  trimestre suspeito; abra o release e confira o cabecalho antes de usar.
+
+Todo leitor (`ficha`, `serie`, `releases`, `release`, `linha`, `decompor`)
+imprime o veredito de frescor na primeira linha: nao ha como pular a trava.
+
 Dispare a coleta tambem quando a ficha imprimir "nao esta no branch",
 "demonstracao oficial: AUSENTE" ou menos de 4 releases (o `frescor` ja cobre
 `gerado_em` velho). Ferramenta `mcp__github__actions_run_trigger`,
