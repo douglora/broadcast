@@ -1330,7 +1330,7 @@ def _candidatos_ri(links, pagina=None):
 # que a rota devolver (JSON ou HTML). Tudo com prazo curto e sem excecao: a sondagem so acrescenta.
 RI_SONDA_PRAZO_S = 60             # teto da sondagem por pagina sem candidato (dentro do orcamento do ativo)
 RI_SONDA_MAX_JS = 6               # scripts do tema/plugins lidos a procura de URL de API
-RI_SONDA_MAX_ROTAS = 16           # rotas de listagem tentadas por pagina
+RI_SONDA_MAX_ROTAS = 20           # rotas de listagem tentadas por pagina
 RI_SONDA_DUMP_BYTES = 120_000     # script de integracao (cmsint, file-manager) menor que isso vai esmiucado ao log
 RI_SONDA_MAX_BYTES = 3_000_000    # script maior que isso nao e lido
 RI_SONDA_TIMEOUT_S = 20           # por requisicao da sondagem
@@ -1372,12 +1372,14 @@ _RE_DATA_ATTR_TODOS = re.compile(r"""(?i)\b(data-[a-z0-9_-]+)\s*=\s*["']([^"']{1
 
 _CHAVES_URL = {"url", "link", "href", "file", "arquivo", "download", "source_url", "guid", "path", "src",
                "document", "documento", "file_url", "fileurl", "url_arquivo", "urlarquivo", "downloadurl",
-               "download_url", "permalink", "caminho", "linkarquivo", "link_arquivo", "urldownload"}
+               "download_url", "permalink", "caminho", "linkarquivo", "link_arquivo", "urldownload", "link_url"}
 _CHAVES_TITULO = {"title", "titulo", "name", "nome", "label", "rotulo", "descricao", "description", "text", "texto",
                   "filename", "file_name", "nome_arquivo", "assunto", "subject", "rendered", "caption", "alt", "slug",
-                  "nomearquivo", "displayname", "display_name", "post_title"}
-_CHAVES_TRIMESTRE = {"periodo", "period", "trimestre", "quarter", "trim", "quarter_name", "nome_trimestre"}
-_CHAVES_ANO = {"ano", "year", "exercicio", "fiscal_year"}
+                  "nomearquivo", "displayname", "display_name", "post_title", "file_title", "document_title",
+                  "nome_documento"}
+_CHAVES_TRIMESTRE = {"periodo", "period", "trimestre", "quarter", "trim", "quarter_name", "nome_trimestre", "file_quarter"}
+_CHAVES_ANO = {"ano", "year", "exercicio", "fiscal_year", "file_year"}
+_RE_DATA_COLADA = re.compile(r"^(20\d{2})(\d{2})(\d{2})$")    # file_published_date da MZ: '20260811'
 
 
 def _parece_url(v):
@@ -1458,6 +1460,7 @@ def _pistas_da_pagina(html, url_base):
             break
     corpo_html = html.split("<body", 1)[-1]
     p["data_todos"] = list(dict.fromkeys((n.lower(), v) for n, v in _RE_DATA_ATTR_TODOS.findall(corpo_html)))[:60]
+    p["fm"], p["blocos_fm"] = _file_manager_da_pagina(html)
     p["trechos_html"] = []
     for t in _RE_HTML_TRECHO.finditer(corpo_html):
         ini = max(0, t.start() - 300)
@@ -1467,6 +1470,41 @@ def _pistas_da_pagina(html, url_base):
     return p
 
 
+_RE_FM_VAR = re.compile(r"""(?i)\bvar\s+(fmId|fmBase|fmName|language|lang|fmLang|year|ano)\s*=\s*["']([^"']*)["']""")
+_RE_FM_CATEGORIA = re.compile(r"""(?is)categories\.push\(\s*\{(.*?)\}\s*\)""")
+_RE_FM_CAMPO = re.compile(r"""(?i)\b(title|internal_name|slug|icon)\s*:\s*["']([^"']*)["']""")
+
+
+def _file_manager_da_pagina(html):
+    """({'id','base','name','language','categorias': [(titulo, internal_name)]}, [blocos inline inteiros])
+    do file manager da MZ (tema mziq_*): a pagina declara var fmId/fmBase/language e monta
+    `categories.push({title, internal_name, icon})`; o script cmsint.js chama a API com isso."""
+    fm = {"id": None, "base": None, "name": None, "language": None, "categorias": []}
+    blocos = []
+    for m in _RE_SCRIPT_INLINE.finditer(html):
+        corpo = m.group(2)
+        if not re.search(r"(?i)\bfmId\b|categories\.push|\bfmBase\b", corpo):
+            continue
+        blocos.append(re.sub(r"\s+", " ", corpo.strip())[:3000])
+        for nome, valor in _RE_FM_VAR.findall(corpo):
+            chave = {"fmid": "id", "fmbase": "base", "fmname": "name", "language": "language", "lang": "language",
+                     "fmlang": "language", "year": "year", "ano": "year"}[nome.lower()]
+            fm.setdefault(chave, None)
+            if not fm.get(chave):
+                fm[chave] = valor.strip()
+        for cat in _RE_FM_CATEGORIA.findall(corpo):
+            campos = {k.lower(): v for k, v in _RE_FM_CAMPO.findall(cat)}
+            if campos.get("internal_name") or campos.get("slug"):
+                fm["categorias"].append((campos.get("title", ""), campos.get("internal_name") or campos.get("slug")))
+    fm["categorias"] = list(dict.fromkeys(fm["categorias"]))
+    return fm, blocos[:3]
+
+
+_RE_JS_CHAMADA = re.compile(r"(?i)\$\.(?:ajax|post|get|getJSON)\s*\(|\bajax\s*\(\s*\{|\bfetch\s*\(|XMLHttpRequest|axios\.|"
+                            r"BASE_API\w*\s*=|\b\w*(?:Url|URL)\s*\(\s*(?:fmId|companyId|company|getSelectedCompany)|"
+                            r"CMS_GET_FILES|contentType|JSON\.stringify|\bmethod\s*:|\btype\s*:\s*['\"](?:POST|GET)")
+
+
 def _esmiucar_script(rotulo, nome, texto):
     """Script de integracao com o file manager (cmsint, file-manager, mz.util, main): literais com
     cara de caminho e o codigo em volta de cada chamada (ajax/fetch/url/mzfilemanager/origin/v2).
@@ -1474,24 +1512,24 @@ def _esmiucar_script(rotulo, nome, texto):
     literais = []
     for m in _RE_JS_LITERAL.finditer(texto):
         lit = m.group(2)
-        if ("/" in lit or "?" in lit or "mz" in lit.lower()) and not re.fullmatch(r"[\\/]+", lit):
+        if re.search(r"(?i)/api|/c/|/company|/filter|/year|/lang|mzfilemanager|byQuarter|byYear|\{0\}", lit):
             literais.append(lit)
     literais = list(dict.fromkeys(literais))
-    app.log(f"{rotulo}: script {nome}: {len(literais)} literais com cara de caminho")
-    for lit in literais[:80]:
-        app.log(f"{rotulo}:   literal: {lit[:200]}")
+    cabecalho = re.sub(r"\s+", " ", texto[:1500])
+    app.log(f"{rotulo}: script {nome}: cabecalho: {cabecalho}")
+    app.log(f"{rotulo}: script {nome}: {len(literais)} literais de rota: {' | '.join(l[:120] for l in literais[:24])}")
     trechos, ultimo = [], -1000
-    for m in _RE_JS_TRECHO.finditer(texto):
-        if m.start() - ultimo < 120:
+    for m in _RE_JS_CHAMADA.finditer(texto):
+        if m.start() - ultimo < 300:
             continue
         ultimo = m.start()
-        ini = max(0, m.start() - 160)
-        trechos.append(re.sub(r"\s+", " ", texto[ini:m.end() + 220]))
-        if len(trechos) >= 40:
+        ini = max(0, m.start() - 350)
+        trechos.append(re.sub(r"\s+", " ", texto[ini:m.end() + 450]))
+        if len(trechos) >= 18:
             break
     app.log(f"{rotulo}: script {nome}: {len(trechos)} trechos em volta de chamadas")
     for t in trechos:
-        app.log(f"{rotulo}:   trecho: {t[:380]}")
+        app.log(f"{rotulo}:   chamada: {t[:800]}")
 
 
 def _scripts_do_tema(pistas, url_base):
@@ -1547,12 +1585,16 @@ def _links_de_json(obj, url_base, contexto="", saida=None, profundidade=0):
         for k, v in planos.items():
             kl = k.lower()
             if kl in _CHAVES_TRIMESTRE:
-                if isinstance(v, str) and v.strip():
+                if isinstance(v, str) and re.fullmatch(r"[1-4]", v.strip()):
+                    tri = int(v.strip())
+                elif isinstance(v, str) and v.strip():
                     titulo = f"{titulo} {v.strip()[:20]}".strip()
                 elif isinstance(v, (int, float)) and 1 <= int(v) <= 4:
                     tri = int(v)
             elif kl in _CHAVES_ANO and isinstance(v, (int, float, str)) and re.fullmatch(r"20\d{2}", str(v).strip()):
                 ano = int(str(v).strip())
+        if tri and not ano:
+            ano = _ano_do_contexto(contexto)
         if tri and ano:
             titulo = f"{titulo} {tri}T{ano % 100:02d}".strip()
         urls = []
@@ -1561,8 +1603,9 @@ def _links_de_json(obj, url_base, contexto="", saida=None, profundidade=0):
                 v2 = v.replace("\\/", "/").strip()
                 if _parece_url(v2):
                     urls.append(v2)
-        # '2026-08-12T10:00:00' vira '2026-08-12': a hora colada impede _data_no_texto de ler a data
-        extras = " ".join(re.sub(r"(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}\S*", r"\1", str(v))[:80] for k, v in planos.items()
+        # '2026-08-12T10:00:00' vira '2026-08-12' e '20260812' vira '2026-08-12': colados, _data_no_texto nao le
+        extras = " ".join(_RE_DATA_COLADA.sub(r"\1-\2-\3", re.sub(r"(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}\S*", r"\1", str(v)))[:80]
+                          for k, v in planos.items()
                           if isinstance(v, (int, float)) or (isinstance(v, str) and len(v) <= 80 and not _parece_url(v)))
         antes = f"{contexto} {extras}".strip()[:400]
         for u in urls:
@@ -1575,6 +1618,12 @@ def _links_de_json(obj, url_base, contexto="", saida=None, profundidade=0):
         for v in obj:
             _links_de_json(v, url_base, contexto, saida, profundidade + 1)
     return saida
+
+
+def _ano_do_contexto(contexto):
+    """Ano ('2026') citado no contexto dos niveis acima (ex.: a resposta e de 'year/2026')."""
+    m = re.search(r"\b(20\d{2})\b", contexto or "")
+    return int(m.group(1)) if m else None
 
 
 def _decodificar_json(texto):
@@ -1599,7 +1648,10 @@ def _links_da_resposta(r, url):
     texto = _html_da_resposta(r)
     obj = _decodificar_json(texto) if ("json" in tipo or texto.lstrip()[:1] in "{[") else None
     if obj is not None:
-        links = _links_de_json(obj, url)
+        # O ano pedido na rota ('/year/2026', 'ano=2026') e contexto de todo documento da resposta:
+        # com ele, 'file_quarter': 2 vira o rotulo 2T26
+        m_ano = re.search(r"(?i)(?:year|ano)[/=](20\d{2})\b", url)
+        links = _links_de_json(obj, url, contexto=f"ano {m_ano.group(1)}" if m_ano else "")
         if isinstance(obj, dict):
             conteudo = obj.get("content")
             if isinstance(conteudo, dict) and isinstance(conteudo.get("rendered"), str):
@@ -1671,11 +1723,22 @@ def _rotas_de_listagem(mapa, pistas, url_base, achados_js):
         acoes = [a for a in pistas["acoes"] if _RE_ROTA_INTERESSANTE.search(a)][:4]
         for a in acoes:
             rotas.append((f"admin-ajax acao {a}", f"{ajax}?action={a}"))
-    # Palpites de listagem do file manager da MZ (por ultimo; so custam uma requisicao cada)
-    mz_id = str(mapa.get("mz_id") or "").lower()
-    if mz_id:
-        for forma in ("l", "d", "dir", "list"):
-            rotas.append(("palpite MZ", f"https://api.mziq.com/mzfilemanager/v2/{forma}/{mz_id}?origin=2"))
+    # Tema mziq_* (cmsint.js): CMS_GET_FILES = BASE_API_CMS_URL + '/c/' + empresa + '/c/{categoria}/year/{ano}/lang/{idioma}'.
+    # A base exata e o metodo (GET/POST) ainda vem do log; aqui vao os palpites GET mais provaveis, so
+    # para as categorias com cara de release e o ano corrente.
+    fm = pistas.get("fm") or {}
+    fm_id = fm.get("id") or str(mapa.get("mz_id") or "").lower()
+    fm_base = (fm.get("base") or "https://api.mziq.com/mzfilemanager").rstrip("/")
+    idioma = fm.get("language") or "pt-BR"
+    ano = fm.get("year") or _hoje()[:4]
+    cats = [c for _, c in fm.get("categorias") or [] if re.search(r"(?i)release|resultad|result|earning", c)]
+    if fm_id and cats:
+        for cat in cats[:2]:
+            for base in (f"{fm_base}/api", fm_base, f"{fm_base}/api/cms"):
+                rotas.append(("cmsint GET palpite", f"{base}/c/{fm_id}/c/{cat}/year/{ano}/lang/{idioma}"))
+    elif fm_id:
+        for forma in ("l", "d"):
+            rotas.append(("palpite MZ", f"{fm_base}/v2/{forma}/{fm_id}?origin=2"))
     vistas, unicas = set(), []
     for origem, u in rotas:
         u = u.replace("\\/", "/")
@@ -1725,6 +1788,12 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
                         + "; ".join(f"{n}={v[:60]}" for n, v in pistas["data_todos"][:60])[:1500])
             for t in pistas["trechos_html"][:8]:
                 app.log(f"{rotulo}: HTML em volta da lista: {t[:800]}")
+            fm = pistas.get("fm") or {}
+            if fm.get("id") or fm.get("categorias"):
+                app.log(f"{rotulo}: file manager da MZ na pagina: id {fm.get('id')}, base {fm.get('base')}, idioma "
+                        f"{fm.get('language')}, ano {fm.get('year')}, categorias {fm.get('categorias')}")
+            for b in pistas.get("blocos_fm") or []:
+                app.log(f"{rotulo}: bloco inline do file manager: {b[:3000]}")
         # JSON embutido na propria pagina: nem precisa de rota
         for corpo in pistas["json_embutido"][:5]:
             obj = _decodificar_json(corpo)
@@ -1786,6 +1855,9 @@ def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
             cands, fora = _candidatos_ri(links, url)
             app.log(f"{rotulo}: rota ({origem}) {u[:150]} -> {tipo}, {len(r.content or b'')} bytes, "
                     f"{len(links)} links, {len(cands)} candidatos, {fora} descartados pelo rotulo")
+            if not cands and "wp-json" not in u:
+                previa = re.sub(r"\s+", " ", _html_da_resposta(r)[:400])
+                app.log(f"{rotulo}:   corpo: {previa}")
             if tipo == "json" and isinstance(obj, dict) and isinstance(obj.get("routes"), dict):
                 novas, namespaces = _rotas_do_indice_rest(obj, u)
                 app.log(f"{rotulo}: indice do WP REST: namespaces {', '.join(namespaces[:25]) or 'nenhum'}; "
