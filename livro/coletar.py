@@ -109,8 +109,12 @@ class Coleta:
 
         A serie diaria e de 2 anos de proposito (arquivo pequeno, commit leve). Para
         5 anos basta o fechamento semanal: ~310 pontos por simbolo em vez de ~1.260.
-        Roda uma vez por dia, no fechamento e na manha; no intradia nao muda nada."""
+        Roda uma vez por dia, no fechamento e na manha. No intradia nao se coleta de
+        novo (a barra semanal nao mudou), mas a serie guardada e RELIDA do disco: sem
+        isso a coluna "5 anos" do painel intradiario saia vazia."""
         if self.modo not in ("fechamento", "manha") or self.offline:
+            if not self.offline:
+                self._carregar_series_longas(simbolos)
             return
         try:
             novas, falhas = yahoo.coletar(simbolos, "6y", intervalo="1wk")
@@ -131,6 +135,22 @@ class Coleta:
                     ok += 1
         self.pernas["yahoo_longo"] = f"ok {ok}/{len(simbolos)} (semanal 6 anos)" + (
             f"; falhas: {len(falhas)}" if falhas else "")
+
+    def _carregar_series_longas(self, simbolos: list[str]) -> None:
+        """Le do disco a serie semanal ja coletada hoje de manha (ou no fechamento
+        anterior). Nao vai a rede: e so para a janela de 5 anos nao ficar vazia."""
+        ok = 0
+        for simbolo in simbolos:
+            d = ler_json(os.path.join(self.saida, "series_longo", f"{uni.nome_seguro(simbolo)}.json"), {})
+            if not d or not d.get("barras"):
+                continue
+            obj = self.u.por_yahoo(simbolo)
+            if obj is not None:
+                df = ind.para_df(d["barras"])
+                if len(df):
+                    self.series_longo[obj.id] = df
+                    ok += 1
+        self.pernas["yahoo_longo"] = f"reaproveitado {ok}/{len(simbolos)} (semanal do disco)"
 
     def _series_offline(self, simbolos: list[str]) -> None:
         import glob
