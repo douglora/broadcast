@@ -427,3 +427,37 @@ def test_3m_nao_casa_dentro_de_numero_nem_taxa_de_prazo():
     assert "MMM" not in noticias.atribuir("Investors weigh 3M Treasury yields against equities", "", casar, ex, pv)
     assert noticias.atribuir("3M raises full-year guidance on industrial demand", "", casar, ex, pv) == ["MMM"]
     assert noticias.atribuir("3M Company completes divestiture of food safety unit", "", casar, ex, pv) == ["MMM"]
+
+def test_preferencial_nao_e_fato_da_ordinaria():
+    """Dividendo de acao preferencial / depositary share e evento de um papel perpetuo,
+    nao da ordinaria do livro. Dois desses viraram alerta do BAC em 21/09."""
+    import yaml
+    from livro.fontes import noticias
+    c = yaml.safe_load(open("config/fontes_noticias.yaml", encoding="utf-8"))
+    a = lambda t: noticias.atribuir(t, "", c["casar"], c.get("excluir"), c.get("previsor_macro"), c.get("excluir_global"))
+    assert a("Bank of America Corporation 4.125% DP PFD PP declares $0.2578 dividend") == []
+    assert a("Bank of America Corp Depositary Shs Repr Non-Cum Perp Red Pfd Registered Shs Ser -HH- declares $0.3672 dividend") == []
+    assert a("Bank of America tops estimates on trading revenue") == ["BAC"]
+
+
+def test_casa_de_analise_como_autor_nao_vira_ativo():
+    """O braco de research opinando sobre OUTRA empresa nao e fato do banco."""
+    import yaml
+    from livro.fontes import noticias
+    c = yaml.safe_load(open("config/fontes_noticias.yaml", encoding="utf-8"))
+    a = lambda t: sorted(noticias.atribuir(t, "", c["casar"], c.get("excluir"), c.get("previsor_macro"), c.get("excluir_global")))
+    assert a("Itaú BBA vê economia de R$ 398 milhões em possível união entre Yduqs e Afya") == []
+    assert a("Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás") == ["BBDC4", "ITUB4"]
+    # o banco como ALVO continua sendo atribuido
+    assert a("Safra corta preço-alvo de Itaú, Bradesco e Banco do Brasil") == ["BBAS3", "BBDC4", "ITUB4"]
+    assert a("Itaú Unibanco anuncia JCP de R$ 0,15 por ação") == ["ITUB4"]
+
+
+def test_hash_url_ignora_www_e_barra_final():
+    """Segunda passada de dedup: manchete editada muda o hash por titulo, o endereco nao."""
+    from livro.fontes import noticias
+    a = "https://www.estadao.com.br/einvestidor/boletim-focus-hoje/"
+    b = "https://estadao.com.br/einvestidor/boletim-focus-hoje"
+    assert noticias.hash_url(a) == noticias.hash_url(b)
+    assert noticias.hash_url(a).startswith("U-")
+    assert noticias.hash_url(a) != noticias.hash_url("https://www.estadao.com.br/outra/")

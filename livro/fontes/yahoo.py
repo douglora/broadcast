@@ -156,10 +156,14 @@ def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS
         por_data = {b[0]: b for b in antigas}
         por_data.update({b[0]: b for b in (nova.get("barras") or [])})
         barras = [por_data[k] for k in sorted(por_data)][-max_barras:]
-        recuperadas = [b[0] for b in barras if b[0] not in {x[0] for x in (nova.get("barras") or [])}]
+        datas_novas = {x[0] for x in (nova.get("barras") or [])}
         out = {**nova, "barras": barras}
-        if recuperadas:
-            out["barras_recuperadas"] = recuperadas[-5:]
+        # So e anomalia quando a barra MAIS RECENTE veio do historico: e o caso que o
+        # docstring descreve. No intradia a coleta e range=5d, entao centenas de datas
+        # antigas ficam fora da janela por construcao - contar isso fazia o log dizer
+        # "80 series com barra faltando" em toda rodada intradiaria.
+        if barras and barras[-1][0] not in datas_novas:
+            out["barras_recuperadas"] = [b[0] for b in barras if b[0] not in datas_novas][-5:]
         return out
     if antiga:
         antiga = dict(antiga)

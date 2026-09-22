@@ -159,9 +159,26 @@ excluir:
   # Banco como CASA DE ANALISE, nao como assunto: 'Itau BBA sobe preco-alvo de Bemobi'
   # fala da Bemobi. Casa so o braco de research (Itau BBA, Bradesco BBI, BB Investimentos),
   # entao 'Safra corta preco-alvo de Itau' (banco como alvo) continua atribuindo ao banco.
-  ITUB4: ['(?i)\bIta[uú] BBA\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b']
-  BBDC4: ['(?i)\bBradesco BBI\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b']
-  BBAS3: ['(?i)\bBB Investimentos\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b']
+  ITUB4: ['(?i)\bIta[uú] BBA\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b',
+         '(?i)\bIta[uú] BBA\b[^:]{0,25}?\b(v[eê]|estima|projeta|calcula|avalia|aponta|destaca|espera|prev[eê]|sees|estimates|expects|favorit)']
+  BBDC4: ['(?i)\bBradesco BBI\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b',
+         '(?i)\bBradesco BBI\b[^:]{0,25}?\b(v[eê]|estima|projeta|calcula|avalia|aponta|destaca|espera|prev[eê]|sees|estimates|expects|favorit)']
+  BBAS3: ['(?i)\bBB Investimentos\b[^:]{0,60}?\b(pre[cç]o-?alvo|target price|recomenda[cç][aã]o|rating|cobertura|coverage)\b',
+          '(?i)\bBB Investimentos\b[^:]{0,25}?\b(v[eê]|estima|projeta|calcula|avalia|aponta|destaca|espera|prev[eê]|sees|estimates|expects|favorit)']
+  BAC: ['(?i)\b(BofA|Bank of America (Securities|Merrill))\b[^:]{0,25}?\b(v[eê]|estima|projeta|calcula|avalia|aponta|destaca|espera|prev[eê]|sees|estimates|expects|favorit)',
+        '(?i)\b(segundo|de acordo com|para|d[oa])\s+(o\s+)?(BofA|Bank of America (Securities|Merrill))\b']
+  JPM: ['(?i)\b(J\.?P\.? ?Morgan (Securities|Research)|JPMorgan Securities)\b[^:]{0,25}?\b(v[eê]|estima|projeta|calcula|avalia|aponta|destaca|espera|prev[eê]|sees|estimates|expects|favorit)']
+# Manchete que nao e fato da ordinaria do livro, para NENHUM ativo. Dividendo de acao
+# preferencial ou depositary share e evento de um papel de renda fixa perpetua, nao da
+# acao ordinaria (visto em 21/09: duas preferenciais do Bank of America viraram alerta
+# de ATENCAO do BAC no mesmo slot).
+excluir_global:
+  - '(?i)\b(PFD|PREF|Preferred|Pfd\.?)\b.{0,60}\b(declares?|dividend|distribution)\b'
+  - '(?i)\b(declares?|dividend)\b.{0,60}\b(PFD|PREF|Preferred|Pfd\.?)\b'
+  - '(?i)\bDepositary (Shs|Shares)\b'
+  - '(?i)\b(Non-?Cum|Perp(etual)?\.? (Red|Pfd))\b'
+  - '(?i)\bSer(ies|\.)? -?[A-Z]{1,2}-?\b.{0,40}\bdividend\b'
+
 # Banco como previsor macro: "Bradesco revisa projecao da Selic" fala da Selic, nao da acao do banco.
 # Se a manchete casa o padrao e o ativo esta na lista, o ativo sai da atribuicao (os macro ficam).
 previsor_macro:

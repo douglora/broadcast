@@ -158,12 +158,17 @@ def normalizar(texto: str) -> str:
 
 
 def atribuir(titulo: str, descricao: str, casar: dict, excluir: dict | None = None,
-             previsor: dict | None = None) -> list[str]:
+             previsor: dict | None = None, excluir_global: list[str] | None = None) -> list[str]:
     """Ativos do livro citados na MANCHETE. So o titulo conta: a descricao do Google
     News repete a manchete e traz o nome do veiculo ("Portal Aqui Vale" nao e a
     Vale). `excluir` tira o ativo quando a manchete casa um padrao negativo
     ("Nvidia-backed", "Prime Video"); `previsor` tira o banco quando ele e o
-    previsor macro da manchete ("Bradesco revisa projecao da Selic")."""
+    previsor macro da manchete ("Bradesco revisa projecao da Selic");
+    `excluir_global` descarta a manchete inteira, para qualquer ativo: dividendo de
+    acao preferencial ou depositary share nao e fato da ordinaria do livro."""
+    for pg in (excluir_global or []):
+        if _seguro(pg, titulo):
+            return []
     achados = []
     for ativo, padroes in (casar or {}).items():
         if not any(_seguro(p, titulo) for p in padroes):
@@ -335,6 +340,16 @@ def consolidar(itens: list[dict], limiar: float = 0.34) -> list[dict]:
     return saida
 
 
+def hash_url(url: str) -> str:
+    """Identidade pelo endereco do veiculo (host + caminho), usada como SEGUNDA passada
+    de deduplicacao: quando o veiculo EDITA a manchete (visto em 21/09, o Estadao tirou
+    um "corta" repetido), o hash por titulo muda e a mesma materia volta como alerta
+    novo. O endereco nao muda."""
+    p = urlparse(url or "")
+    base = (p.netloc or "").lower().removeprefix("www.") + (p.path or "").rstrip("/")
+    return "U-" + hashlib.sha1(base.encode()).hexdigest()[:10]
+
+
 def hash_item(titulo: str, veiculo: str = "") -> str:
     """Identidade do item: manchete normalizada + veiculo. NAO entra a URL: o link do
     Google News e um token que muda entre coletas, e com ele a mesma materia ganhava
@@ -391,7 +406,8 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
             if so_conhecidos and v.get("id") == "outro":
                 descartados["veiculo_desconhecido"] += 1
                 continue
-            ativos = atribuir(it["titulo"], it["descricao"], casar, cfg.get("excluir"), cfg.get("previsor_macro"))
+            ativos = atribuir(it["titulo"], it["descricao"], casar, cfg.get("excluir"),
+                              cfg.get("previsor_macro"), cfg.get("excluir_global"))
             if not ativos:
                 descartados["sem_ativo"] += 1
                 continue
@@ -423,6 +439,13 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
         it["trechos"] = []
         if i < max_res:
             it["url"] = resolver_url(it["url_google"], cli)
+            hu = hash_url(it["url"])
+            if _externa(it["url"]) and hu in vistos:
+                # mesma materia com manchete editada: ja foi entregue sob outro hash
+                it["repetida"] = True
+                descartados["visto_url"] = descartados.get("visto_url", 0) + 1
+                continue
+            it["hash_url"] = hu
             v = veiculo_de(it["url"], veiculos, it.get("veiculo"))
             it["licenca"], it["veiculo_id"] = v.get("licenca", "manchete"), v.get("id", "outro")
             if v.get("nome"):
@@ -437,11 +460,15 @@ def coletar(cfg: dict, vistos: dict | None = None, cli: Cliente | None = None, a
             dormir(0.5)
         it["resumo"] = it["trechos"] or resumo_fiel(it.get("descricao", ""), None)
         it["id"] = f"N-{it['hash']}"
-        for h in [it["hash"]] + list(it.get("absorvidos") or []):
+        chaves = [it["hash"]] + list(it.get("absorvidos") or [])
+        if it.get("hash_url"):
+            chaves.append(it["hash_url"])
+        for h in chaves:
             vistos[h] = {"data": (it.get("publicado") or agora.strftime("%Y-%m-%dT%H:%M:%SZ"))[:10], "id": it["id"]}
     # poda de vistos: 10 dias
     limite = (agora - timedelta(days=10)).strftime("%Y-%m-%d")
     vistos = {k: v for k, v in vistos.items() if (v.get("data") or "9999") >= limite}
+    itens = [x for x in itens if not x.get("repetida")]
     return {"itens": itens, "consultas": n_consultas, "falhas": falhas, "vistos": vistos, "descartados": descartados,
             "coletado_em": agora.strftime("%Y-%m-%dT%H:%M:%SZ")}
 

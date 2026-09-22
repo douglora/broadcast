@@ -31,12 +31,14 @@ on:
         default: ""
         type: string
   schedule:
-    # Intradia: 13h05-21h05 UTC = 10h05-18h05 BRT, hora em hora, dias uteis
-    - cron: "5 13-21 * * 1-5"
-    # Fechamento: 21h28 UTC = 18h28 BRT (a rotina das 21h40 UTC redispara se faltar)
-    - cron: "28 21 * * 1-5"
-    # Manha: 12h20 UTC = 09h20 BRT (a rotina das 12h30 UTC redispara se faltar)
-    - cron: "20 12 * * 1-5"
+    # Intradia: 13h05-20h05 UTC = 10h05-17h05 BRT, hora em hora, dias uteis
+    - cron: "5 13-20 * * 1-5"
+    # Fechamento: 21h05 UTC = 18h05 BRT, DEPOIS do fechamento da B3 (18h00).
+    # A rotina das 21h00 UTC (18h00 BRT) dispara por conta propria e espera o run;
+    # este cron e so rede de seguranca.
+    - cron: "5 21 * * 1-5"
+    # Manha: 11h50 UTC = 08h50 BRT, para o dado ja estar pronto as 09h00.
+    - cron: "50 11 * * 1-5"
 
 permissions:
   contents: write
