@@ -95,8 +95,8 @@ O "livro" e a lista de ativos que o Douglas acompanha (config/livro.yaml: UCITS
 com nome por extenso, acoes EUA e BR, DI, Tesouro, UST, cambio, commodities,
 cripto). O workflow `.github/workflows/livro.yml` roda no Actions o pacote
 `livro/` (coleta -> indicadores -> regras de alerta -> render) e grava em
-`livro/` no branch `dados`. Routines disparam turnos NESTA sessao (manha 09h30,
-intradia de hora em hora, fechamento 18h40 BRT); a resposta do turno e o que o
+`livro/` no branch `dados`. Routines disparam turnos NESTA sessao (manha 08h30,
+intradia de hora em hora, fechamento 18h00 BRT); a resposta do turno e o que o
 Douglas ve no PC e no celular.
 
 - Use a skill `livro` (.claude/skills/livro/SKILL.md) em todo turno de rotina e
@@ -108,7 +108,8 @@ Douglas ve no PC e no celular.
 - O Fechamento e entregue NA SESSAO, em cards de markdown (decisao do Douglas em
   19/09): o runner gera `livro/saida/fechamento_cards.md` (um card por bloco,
   alertas, curvas, noticias, agenda) e a sessao so troca `[[LEITURA_DA_MESA]]`
-  pela manchete e cola. Nada de monoespacado por padrao; BLOCO A/BLOCO B so
+  pela manchete e cola. No fechamento, o dado so vale se foi gerado DEPOIS das
+  18h00 (hora em que a B3 fecha); dado das 17h5x e intradiario. Nada de monoespacado por padrao; BLOCO A/BLOCO B so
   quando ele pedir "tabela" ou "completo". O mesmo runner gera
   `livro/saida/painel.html`, publicado no Artifact
   https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7 em TODO turno, intradia

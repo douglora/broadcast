@@ -240,8 +240,8 @@ o nome por extenso de cada UCITS). O sistema tem tres pecas:
    `SEC_USER_AGENT`). Licenca por veiculo em `config/fontes_noticias.yaml`: texto
    integral so de fonte primaria ou veiculo `integral`; o resto e resumo + link.
 2. **Sessao do Claude** (skill `.claude/skills/livro/SKILL.md`): e a interface.
-   Routines disparam turnos na sessao (09h30, de hora em hora 10h20-17h20 e
-   18h40 BRT); o turno dispara o workflow se o dado estiver velho, le o que o
+   Routines disparam turnos na sessao (08h30, de hora em hora 10h20-17h20 e
+   18h00 BRT); o turno dispara o workflow se o dado estiver velho, le o que o
    runner gravou e escreve a Leitura da Mesa. A entrega e na propria sessao, em
    cards de markdown: a sessao troca `[[LEITURA_DA_MESA]]` em
    `saida/fechamento_cards.md` pela manchete e cola os cards (um por bloco do

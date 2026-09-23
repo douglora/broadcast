@@ -1,6 +1,6 @@
 ---
 name: livro
-description: Turnos de rotina e pedidos sob demanda do livro monitorado do Douglas (assessor). Dispara nas Routines (manha 09h30, intradia de hora em hora, fechamento 18h40 BRT) e quando ele escrever "livro", "fechamento", "fechamento agora", "alertas", "curto", "celular", "tecnica <TICKER>", "integra <id>", "recriar rotinas", "pausar o livro". Le o que o GitHub Actions gravou no branch `dados` (pasta livro/), dispara o workflow quando o dado esta velho, e escreve a camada de analista (Leitura da Mesa, "como falar") sem calcular regra nem inventar numero.
+description: Turnos de rotina e pedidos sob demanda do livro monitorado do Douglas (assessor). Dispara nas Routines (manha 08h30, intradia de hora em hora, fechamento 18h00 BRT) e quando ele escrever "livro", "fechamento", "fechamento agora", "alertas", "curto", "celular", "tecnica <TICKER>", "integra <id>", "recriar rotinas", "pausar o livro". Le o que o GitHub Actions gravou no branch `dados` (pasta livro/), dispara o workflow quando o dado esta velho, e escreve a camada de analista (Leitura da Mesa, "como falar") sem calcular regra nem inventar numero.
 ---
 
 # Livro monitorado (turno de rotina)
@@ -29,8 +29,8 @@ Regras que nao se negociam:
 |---|---|
 | `saida/manifest.json` | slot, run_id, gerado_em (UTC e BRT), data_pregao, pernas ok/falhou, alertas (ids, criticos, pendentes), push sugerido |
 | `saida/fechamento.md` | BLOCO A (cabecalho, relogios, alertas do dia, altas/baixas, CURVAS, `<<LEITURA_DA_MESA>>`, AGENDA, LACUNAS) + BLOCO B (tabela dia/1s/1m/6m/1a/YTD) + legenda dos UCITS |
-| `saida/fechamento_cards.md` | **o que a sessao cola as 18h40**: cards em markdown (um por bloco do livro, commodities em US$, curvas, alertas, noticias, agenda) com o marcador `[[LEITURA_DA_MESA]]` |
-| `saida/manha_cards.md` | o mesmo, para o slot das 09h30 (cabecalho "Manha do livro", curvas de D-1) |
+| `saida/fechamento_cards.md` | **o que a sessao cola as 18h00**: cards em markdown (um por bloco do livro, commodities em US$, curvas, alertas, noticias, agenda) com o marcador `[[LEITURA_DA_MESA]]` |
+| `saida/manha_cards.md` | o mesmo, para o slot das 08h30 (cabecalho "Manha do livro", curvas de D-1) |
 | `saida/painel.html` | a mesma coleta virada pagina (cards por bloco, curvas, noticias, agenda) com o marcador `[[LEITURA_DA_MESA]]`; e o que a sessao publica como Artifact |
 | `saida/fechamento_celular.md` | BLOCO B compacto (<= 41 colunas: ult, dia, 1s, 1m, YTD) |
 | `saida/fechamento.json` | janelas por ativo, movers, `leitura_insumos` (DI, Tesouro, breakevens, UST, regime), alertas do dia, lacunas, `push_sugerido` |
@@ -60,10 +60,21 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
 ## Procedimento do turno (todos os slots)
 
 1. **Frescor.** `git fetch origin dados` e ler o manifest. O slot esta fresco se
-   `slot` e o do turno e `gerado_em` tem menos de: 40 min (manha), 20 min (intradia),
-   40 min (fechamento). Feriado B3 (ver `config/calendario.yaml`): no intradia,
-   encerre com uma linha "B3 fechada (feriado): sem turno"; no fechamento, siga
-   (UCITS, EUA e macro existem) e diga "B3 fechada".
+   `slot` e o do turno e `gerado_em` tem menos de: 40 min (manha), 20 min (intradia).
+   **No FECHAMENTO a regra e outra e nao se negocia: `gerado_em_brt` tem de ser
+   POSTERIOR as 18h00**, o horario em que a B3 fecha. Dado das 17h5x e intradiario,
+   nao e fechamento, e apresenta-lo como tal e erro. Se nao for, dispare (passo 2) e
+   espere. Feriado B3 (ver `config/calendario.yaml`): no intradia, encerre com uma
+   linha "B3 fechada (feriado): sem turno"; no fechamento, siga (UCITS, EUA e macro
+   existem) e diga "B3 fechada".
+
+   **Se o `git fetch` falhar** (503 do servico de credenciais, visto em 21/09), use o
+   CDN como fallback, que responde mesmo assim, sempre com `?nocache=`:
+   `curl -sS --max-time 25 "https://raw.githubusercontent.com/douglora/broadcast/dados/livro/saida/<arquivo>?nocache=$(date +%s)$RANDOM"`.
+   Se tambem a ferramenta do GitHub estiver fora, voce nao consegue disparar o
+   workflow: entregue o ultimo dado disponivel com o horario dele em destaque, declare
+   a lacuna e diga que os numeros definitivos vem no proximo turno. Nunca apresente
+   dado intradiario como fechamento.
 2. **Disparo (se nao esta fresco).** Como PRIMEIRA acao do turno, chame
    `mcp__github__actions_run_trigger` com `method: run_workflow`, `owner: douglora`,
    `repo: broadcast`, `workflow_id: livro.yml`, `ref: main`,
@@ -138,13 +149,13 @@ diga a lacuna; nunca monte a pagina a mao.
 
 ## Formato por slot
 
-**Fechamento (18h40 BRT).** A resposta e o `fechamento_cards.md` inteiro, com o
+**Fechamento (18h00 BRT, entregue por volta das 18h05).** A resposta e o `fechamento_cards.md` inteiro, com o
 marcador `[[LEITURA_DA_MESA]]` trocado pela manchete (3 a 5 frases em texto
 corrido, paragrafos markdown, negrito so nos numeros que decidem). Nada de
 monoespacado: os cards ja sao markdown, colados como estao.
 
 ```bash
-git show origin/dados:livro/saida/fechamento_cards.md   # 09h30: manha_cards.md
+git show origin/dados:livro/saida/fechamento_cards.md   # 08h30: manha_cards.md
 ```
 
 Confira que o marcador nao sobrou no texto antes de enviar. Feche com o link do
@@ -208,7 +219,7 @@ trechos sao uso interno; na resposta, REESCREVA em 4 a 8 linhas suas, com os
 numeros, e de o link; nunca cole os trechos. "Fato relevante" e sempre mensagem
 propria.
 
-**Manha (09h30 BRT, decisao do Douglas em 20/09).** A entrega e igual a do
+**Manha (08h30 BRT, decisao do Douglas em 23/09).** A entrega e igual a do
 Fechamento, com o `manha_cards.md`: curvas oficiais de D-1 (ajuste B3, Tesouro
 base, UST CMT), commodities em US$, e a tabela de todos os blocos com o
 fechamento anterior — a B3 abre as 10h e NY as 10h30/11h30, entao diga no texto
@@ -238,17 +249,17 @@ tem slot `fechamento`, abra com "Fechamento de ontem nao saiu (motivo)".
 - "pausar o livro": crie o arquivo `PAUSADO` na raiz da main via PR e
   `update_trigger enabled=false` nas 3 Routines; "religar" desfaz.
 - "recriar rotinas": use `mcp__Claude_Code_Remote__create_trigger` (mode padrao:
-  esta sessao; `initiation: human_request`) com os crons `20 10 * * 1-5` (manha),
-  `20 13-20 * * 1-5` (intradia) e `40 21 * * 1-5` (fechamento) e os prompts da
+  esta sessao; `initiation: human_request`) com os crons `31 11 * * 1-5` (manha),
+  `20 13-20 * * 1-5` (intradia) e `0 21 * * 1-5` (fechamento) e os prompts da
   secao abaixo; delete as antigas com `delete_trigger`. Para migrar de sessao,
   crie as novas com `persistent_session_id` da sessao nova.
-- Depois de 02/11 (NY fecha 18h BRT): o Fechamento das 18h40 pode trazer os EUA
+- Depois de 02/11 (NY fecha 18h BRT): o Fechamento das 18h00 pode trazer os EUA
   "parcial"; a manha fecha o numero. Nao mude o cron sem o Douglas pedir.
 
 ## Prompts das Routines (copiar ao criar)
 
-- livro-manha (`30 12 * * 1-5` = 09h30 BRT): "Turno de rotina do livro monitorado,
-  slot MANHA (09h30 BRT). Siga a skill `livro` (.claude/skills/livro/SKILL.md):
+- livro-manha (`31 11 * * 1-5` = 08h30 BRT): "Turno de rotina do livro monitorado,
+  slot MANHA (08h30 BRT). Siga a skill `livro` (.claude/skills/livro/SKILL.md):
   frescor -> disparo modo=manha com ids_entregues do turno anterior -> espera ->
   cole manha_cards.md com a sua leitura no marcador, dizendo que os precos sao do
   pregao anterior (B3 abre 10h) e que as curvas sao as oficiais de D-1 -> push so
@@ -257,8 +268,8 @@ tem slot `fechamento`, abra com "Fechamento de ontem nao saiu (motivo)".
   INTRADIA. Siga a skill `livro`: frescor (20 min) -> disparo modo=intradia com
   ids_entregues -> espera -> se intradia.md e a linha 'sem alerta novo', responda so
   essa linha; senao cole os alertas e faca o push agrupado."
-- livro-fechamento (`40 21 * * 1-5`): "Turno de rotina do livro monitorado, slot
-  FECHAMENTO (18h40 BRT). Siga a skill `livro`: frescor (40 min) -> disparo
+- livro-fechamento (`0 21 * * 1-5`): "Turno de rotina do livro monitorado, slot
+  FECHAMENTO (18h00 BRT). Siga a skill `livro`: frescor (gerado_em depois das 18h00) -> disparo
   modo=fechamento com ids_entregues -> espera ate 5 ciclos -> cole
   fechamento_cards.md com a sua LEITURA DA MESA no marcador -> PushNotification
   com push_sugerido. Sexta: linha SEMANA."

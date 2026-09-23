@@ -139,3 +139,16 @@ def test_sina_em_dolar_sem_cambio_do_dia_nao_inventa_taxa():
     d = sina.em_dolar(p, None)
     assert d["MINERIO_DALIAN"].get("usd") is None         # declara a lacuna, nao converte no chute
     assert d["MINERIO_DALIAN"]["cny"] == 715.0
+
+def test_barras_recuperadas_so_quando_falta_o_ultimo_pregao():
+    """No intradia a coleta e range=5d: centenas de datas antigas ficam fora da janela
+    por construcao. Contar isso fazia o log dizer "80 series com barra faltando" em
+    toda rodada intradiaria, o que mascarava a anomalia de verdade."""
+    from livro.fontes import yahoo
+    antiga = {"barras": [["2026-09-01", 1, 1, 1, 1, 1, 10], ["2026-09-18", 1, 1, 1, 1, 1, 10]]}
+    nova = {"barras": [["2026-09-18", 2, 2, 2, 2, 2, 20], ["2026-09-21", 2, 2, 2, 2, 2, 20]], "moeda": "USD"}
+    assert "barras_recuperadas" not in yahoo.mesclar(antiga, nova)
+    # anomalia real: o Yahoo devolveu sem o ultimo pregao que ja estava guardado
+    antiga2 = {"barras": [["2026-09-18", 1, 1, 1, 1, 1, 10], ["2026-09-21", 1, 1, 1, 1, 1, 10]]}
+    nova2 = {"barras": [["2026-09-17", 2, 2, 2, 2, 2, 20], ["2026-09-18", 2, 2, 2, 2, 2, 20]], "moeda": "USD"}
+    assert yahoo.mesclar(antiga2, nova2)["barras_recuperadas"] == ["2026-09-21"]
