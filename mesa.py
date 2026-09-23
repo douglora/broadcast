@@ -19,6 +19,10 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py cobertura DIRR3              # a janela de 8 trimestres, um a um: o que falta e o que esta vazio; VEREDITO COMPLETA (saida 0) ou nao (saida 1)
     python3 mesa.py cobertura DIRR3 --pares      # a mesma janela para todo o grupo de pares (a comparacao contra a mediana exige todos)
     python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
+    python3 mesa.py kinea                        # carteira dos fundos Kinea na CVM (construtoras, mes a mes) e cartas guardadas
+    python3 mesa.py kinea carteira CURY3         # fundo a fundo, com compras e vendas do mes
+    python3 mesa.py kinea cartas --grep "Cury|construtora"   # o que as cartas do gestor dizem, carta a carta
+    python3 mesa.py kinea carta 2026-08 Atlas    # texto integral de uma carta (mes e parte do nome do fundo)
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
 Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
@@ -33,7 +37,7 @@ import sys
 import time
 import urllib.request
 
-BASE = "https://raw.githubusercontent.com/douglora/broadcast/dados/"
+BASE = os.environ.get("MESA_BASE", "https://raw.githubusercontent.com/douglora/broadcast/dados/")
 CACHE = os.path.join(os.environ.get("TMPDIR", "/tmp"), "mesa_cache")
 AQUI = os.path.dirname(os.path.abspath(__file__))
 
@@ -943,8 +947,156 @@ def frescor(tk):
     return 1 if motivos else 0
 
 
+# ---------------------------------------------------------------------------
+# Kinea: carteira na CVM (CDA) e cartas do gestor (kinea.py, workflow kinea.yml)
+# ---------------------------------------------------------------------------
+
+def _idade_h(iso):
+    try:
+        t = datetime.datetime.strptime(iso[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=datetime.timezone.utc)
+        return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() / 3600
+    except Exception:
+        return None
+
+
+def _pct(v, casas=2):
+    return "-" if v is None else f"{100 * v:.{casas}f}%".replace(".", ",")
+
+
+def _mi(v, casas=1):
+    return "-" if v is None else fmt(v / 1e6, casas)
+
+
+def veredito_kinea(cda, idx):
+    partes = []
+    if cda:
+        h = _idade_h(cda.get("gerado_em") or "")
+        partes.append(f"CDA ate {cda['meses'][-1] if cda.get('meses') else '?'} ({len(cda.get('meses') or [])} meses, "
+                      f"coleta de {cda.get('gerado_em', '?')[:10]}{'' if h is None else f', {h:.0f}h'})")
+    else:
+        partes.append("CDA AUSENTE (kinea/cda.json nao esta no branch: dispare kinea.yml)")
+    if idx:
+        meses = sorted({c.get("mes_ref") for c in idx.get("cartas", []) if c.get("mes_ref")})
+        partes.append(f"cartas {len(idx.get('cartas', []))}, de {meses[0] if meses else '?'} a {meses[-1] if meses else '?'}")
+    else:
+        partes.append("CARTAS AUSENTES (kinea/cartas/index.json nao esta no branch)")
+    return "KINEA: " + " | ".join(partes)
+
+
+def kinea(args):
+    sub = args[0].lower() if args else "resumo"
+    cda = baixar("kinea/cda.json")
+    idx = baixar("kinea/cartas/index.json")
+    print(veredito_kinea(cda, idx))
+    if sub == "resumo":
+        if cda:
+            print("\n== carteira em construtoras, soma dos fundos Kinea (so acao a vista), por mes")
+            emit = cda.get("acoes_emitidas") or {}
+            por_tk = {}
+            for mes, tot in (cda.get("total_por_mes") or {}).items():
+                for tk, v in tot.items():
+                    por_tk.setdefault(tk, {})[mes] = v
+            if not por_tk:
+                print("   nenhum fundo Kinea com construtora na CDA dos meses lidos (posicao zerada ou sob sigilo)")
+            for tk in sorted(por_tk, key=lambda k: -max(x["valor"] for x in por_tk[k].values())):
+                print(f"\n-- {tk} (acoes emitidas: {fmt((emit.get(tk) or 0) / 1e6, 1) + ' mi' if emit.get(tk) else '-'})")
+                print(f"   {'mes':8s} {'acoes':>14s} {'R$ mi':>9s} {'% empresa':>10s} {'fundos':>6s} {'% bolsa Kinea':>13s}")
+                for mes in cda.get("meses", []):
+                    v = por_tk[tk].get(mes)
+                    if not v:
+                        print(f"   {mes:8s} {'sem posicao':>14s}")
+                        continue
+                    print(f"   {mes:8s} {fmt(v['qt'], 0):>14s} {_mi(v['valor']):>9s} {_pct(v.get('pct_empresa')):>10s} "
+                          f"{v['fundos']:>6d} {_pct(v.get('pct_acoes_kinea')):>13s}")
+            print("\n   sem posicao = zerada ou sob sigilo: a CVM deixa o fundo omitir uma posicao da carteira aberta por ate 90 dias")
+            ult = (cda.get("meses") or [None])[-1]
+            if ult:
+                top = (cda.get("maiores_acoes") or {}).get(ult) or []
+                tot = (cda.get("total_acoes") or {}).get(ult)
+                print(f"\n== maiores posicoes em acoes da Kinea em {ult} (total R$ {_mi(tot, 0)} mi)")
+                for tk, v in top[:15]:
+                    print(f"   {tk:7s} R$ {_mi(v):>8s} mi  {_pct(v / tot if tot else None, 1):>6s}")
+                conf = (cda.get("confidenciais") or {}).get(ult)
+                if conf and conf.get("linhas"):
+                    print(f"   sob sigilo em {ult}: {conf['linhas']} linhas, R$ {_mi(conf.get('valor'))} mi "
+                          f"({', '.join(conf.get('aplicacoes') or [])[:120]}) - a CVM publica sem o nome do ativo")
+        if idx:
+            print("\n== cartas guardadas (mais novas primeiro)")
+            for c in idx.get("cartas", [])[:25]:
+                igual = f"  = {c['texto_igual_a'].split('/')[-1]}" if c.get("texto_igual_a") else ""
+                print(f"   {c.get('mes_ref') or '?':8s} {c.get('familia', ''):12s} {str(c.get('fundo'))[:34]:34s} "
+                      f"{c.get('paginas', 0):>3d} p.{igual}")
+            if len(idx.get("cartas", [])) > 25:
+                print(f"   ... mais {len(idx['cartas']) - 25}")
+        return 0
+    if sub == "carteira":
+        if not cda:
+            return 1
+        tk = args[1].upper() if len(args) > 1 else "CURY3"
+        pos = [p for p in cda.get("posicoes", []) if p.get("ticker") == tk]
+        if not pos:
+            print(f"{tk}: nenhum fundo Kinea com a acao nos meses lidos (ou posicao sob sigilo).")
+            return 0
+        print(f"\n== {tk} fundo a fundo (CDA, CVM)")
+        for mes in cda.get("meses", []):
+            linhas = sorted((p for p in pos if p["mes"] == mes), key=lambda p: -(p.get("valor") or 0))
+            if not linhas:
+                continue
+            print(f"\n-- {mes}")
+            for p in linhas:
+                mov = ""
+                if p.get("qt_comprada_mes") or p.get("qt_vendida_mes"):
+                    mov = f" | comprou {fmt(p.get('qt_comprada_mes') or 0, 0)}, vendeu {fmt(p.get('qt_vendida_mes') or 0, 0)}"
+                aviso = "" if p.get("a_vista", True) else f" [{p.get('aplicacao')}]"
+                print(f"   {str(p.get('fundo'))[:52]:52s} {fmt(p.get('qt'), 0):>12s} acoes  R$ {_mi(p.get('valor')):>7s} mi"
+                      f"  {_pct(p.get('pct_pl'))} do PL{mov}{aviso}")
+        return 0
+    if sub in ("cartas", "carta"):
+        if not idx:
+            return 1
+        cartas = idx.get("cartas", [])
+        if sub == "carta":
+            mes = args[1] if len(args) > 1 else None
+            nome = " ".join(args[2:]).lower() if len(args) > 2 else ""
+            alvo = [c for c in cartas if (not mes or c.get("mes_ref") == mes or mes in c.get("arquivo", ""))
+                    and nome in str(c.get("fundo") or "").lower()]
+            if not alvo:
+                print("nenhuma carta com esse mes/fundo; `mesa.py kinea` lista as guardadas")
+                return 1
+            c = alvo[0]
+            texto = baixar(c["arquivo"], texto=True)
+            print(f"== {c.get('fundo')} | {c.get('mes_ref')} | {c.get('paginas')} p. | {c.get('url')}\n")
+            print(texto or "(texto indisponivel)")
+            return 0
+        padrao = args[args.index("--grep") + 1] if "--grep" in args and args.index("--grep") + 1 < len(args) else None
+        if not padrao:
+            print("use: mesa.py kinea cartas --grep \"Cury|construtora\"")
+            return 1
+        rx = re.compile(padrao, re.I)
+        unicas = [c for c in cartas if not c.get("texto_igual_a")]
+        print(f"== \"{padrao}\" em {len(unicas)} textos unicos de carta ({len(cartas)} arquivos), do mais novo ao mais antigo")
+        achou = False
+        for c in unicas:
+            texto = baixar(c["arquivo"], texto=True)
+            if not texto:
+                continue
+            achados = _trechos(texto, rx, max_por_release=3)
+            if not achados:
+                continue
+            achou = True
+            iguais = [x.get("fundo") for x in cartas if x.get("texto_igual_a") == c["arquivo"]]
+            print(f"\n-- {c.get('mes_ref')} {c.get('fundo')}" + (f" (mesmo texto: {', '.join(iguais[:4])})" if iguais else ""))
+            for t in achados:
+                print(f"   . {t}")
+        if not achou:
+            print("\nnenhuma carta guardada fala nisso.")
+        return 0
+    print("use: mesa.py kinea [carteira TICKER | cartas --grep X | carta AAAA-MM FUNDO]")
+    return 1
+
+
 COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor",
-            "cobertura", "termos", "skills")
+            "cobertura", "termos", "skills", "kinea")
 
 
 def skills():
@@ -1045,6 +1197,8 @@ def main(argv):
         termos(args)
     elif cmd == "skills":
         return skills()
+    elif cmd == "kinea":
+        return kinea(args)
     else:
         print(__doc__)
         return 1
