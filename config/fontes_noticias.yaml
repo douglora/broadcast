@@ -92,6 +92,9 @@ consultas:
   - {id: br_macro, lang: pt-BR, q: '(Copom OR Selic OR "Banco Central" OR IPCA OR "Tesouro Direto" OR "curva de juros" OR "risco fiscal") (decisão OR ata OR alta OR corte OR projeção OR leilão OR déficit)'}
   - {id: br_cambio, lang: pt-BR, q: '(dólar OR câmbio OR "real brasileiro") (fecha OR abre OR sobe OR cai OR "Banco Central" OR leilão OR fluxo)'}
   - {id: us_semis, lang: en-US, q: '(Micron OR Nvidia OR TSMC OR "Taiwan Semiconductor") (earnings OR guidance OR revenue OR "data center" OR HBM OR export OR tariff OR outlook)'}
+  - {id: us_semis2, lang: en-US, q: '(AMD OR Broadcom OR Marvell OR Intel OR GlobalFoundries) (earnings OR guidance OR revenue OR "data center" OR foundry OR export OR tariff OR outlook OR CEO)'}
+  - {id: us_optica, lang: en-US, q: '(Lumentum OR Coherent) (earnings OR guidance OR revenue OR transceiver OR laser OR "data center" OR capacity OR outlook OR CEO)'}
+  - {id: us_plataformas, lang: en-US, q: '("Meta Platforms" OR Palantir OR Tesla) (earnings OR guidance OR revenue OR capex OR deliveries OR contract OR lawsuit OR outlook OR CEO)'}
   - {id: us_bigtech, lang: en-US, q: '(Alphabet OR Google OR Amazon OR AWS) (earnings OR antitrust OR DOJ OR capex OR guidance OR cloud OR lawsuit OR ruling)'}
   - {id: us_bancos, lang: en-US, q: '("JPMorgan" OR "Bank of America") (earnings OR guidance OR "net interest" OR Dimon OR Moynihan OR provision OR buyback OR dividend)'}
   - {id: us_defensivos, lang: en-US, q: '("Coca-Cola" OR Chevron OR 3M OR Nokia OR Alibaba) (earnings OR guidance OR dividend OR acquisition OR lawsuit OR settlement OR outlook OR Hess)'}
@@ -130,6 +133,19 @@ casar:
   CVX: ['(?i)\bChevron\b', '\bCVX\b']
   # '3M' casa dentro de '$29.3M' e em '3M SOFR' (taxa de 3 meses): exige que nao venha
   # depois de digito/ponto/cifrao nem antes de um indexador de prazo.
+  # Semis, optica e plataformas: estavam no livro para preco desde 20/09 mas sem
+  # consulta nem atribuicao de noticia, entao fato sobre eles nunca chegava.
+  AMD: ['(?i)\bAdvanced Micro Devices\b', '\bAMD\b']
+  AVGO: ['(?i)\bBroadcom\b', '\bAVGO\b']
+  MRVL: ['(?i)\bMarvell\b', '\bMRVL\b']
+  INTC: ['\bIntel\b', '\bINTC\b']
+  GFS: ['(?i)\bGlobalFoundries\b', '\bGFS\b(?= (stock|shares))']
+  LITE: ['(?i)\bLumentum\b', '\bLITE\b(?= (stock|shares))']
+  COHR: ['(?i)\bCoherent Corp\b', '\bCOHR\b', '\bCoherent\b(?= (stock|shares|earnings))']
+  # "Meta" sozinho casaria "meta de inflacao" em portugues: so com qualificador.
+  META: ['(?i)\bMeta Platforms\b', '\bMETA\b', '(?i)\bZuckerberg\b', '\bMeta\b(?= (stock|shares|earnings|AI|Q[1-4]))']
+  PLTR: ['(?i)\bPalantir\b', '\bPLTR\b']
+  TSLA: ['(?i)\bTesla\b', '\bTSLA\b']
   MMM: ['(?<![\d.$])\b3M\b(?!\s*(SOFR|LIBOR|EURIBOR|CDI|Treasury|T-?bill|yields?|rates?))', '\bMMM\b']
   NOK: ['(?i)\bNokia\b', '\bNOK\b(?= (stock|shares))']
   BABA: ['(?i)\bAlibaba\b', '\bBABA\b']

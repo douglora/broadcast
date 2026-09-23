@@ -461,3 +461,22 @@ def test_hash_url_ignora_www_e_barra_final():
     assert noticias.hash_url(a) == noticias.hash_url(b)
     assert noticias.hash_url(a).startswith("U-")
     assert noticias.hash_url(a) != noticias.hash_url("https://www.estadao.com.br/outra/")
+
+def test_semis_optica_e_plataformas_tem_atribuicao():
+    """Em 23/09 o Douglas perguntou pela Lumentum e apareceu que 10 acoes do livro
+    (LITE, COHR, AMD, AVGO, MRVL, INTC, GFS, META, PLTR, TSLA) tinham preco monitorado
+    mas nenhuma consulta nem atribuicao de noticia: fato sobre elas nunca chegava."""
+    import yaml
+    from livro.fontes import noticias
+    c = yaml.safe_load(open("config/fontes_noticias.yaml", encoding="utf-8"))
+    a = lambda t: sorted(noticias.atribuir(t, "", c["casar"], c.get("excluir"), c.get("previsor_macro"), c.get("excluir_global")))
+    assert a("Lumentum raises guidance on AI transceiver demand") == ["LITE"]
+    assert a("Coherent Corp announces capacity expansion in Vietnam") == ["COHR"]
+    assert a("Intel wins foundry customer, GlobalFoundries falls") == ["GFS", "INTC"]
+    assert a("Meta Platforms raises capex guidance for 2027") == ["META"]
+    assert a("Tesla deliveries miss estimates in Q3") == ["TSLA"]
+    # e os falsos positivos obvios dessas siglas continuam fora
+    assert a("Copom mantem meta de inflacao em 3% e corta a Selic") == ["DI"]
+    assert a("Military intel points to supply disruption") == []
+    assert a("A coherent strategy for emerging markets, says fund") == []
+    assert a("GFS forecast model shows hurricane path shifting") == []
