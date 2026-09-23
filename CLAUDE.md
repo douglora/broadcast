@@ -85,7 +85,7 @@ O "livro" e a lista de ativos que o Douglas acompanha (config/livro.yaml: UCITS
 com nome por extenso, acoes EUA e BR, DI, Tesouro, UST, cambio, commodities,
 cripto). O workflow `.github/workflows/livro.yml` roda no Actions o pacote
 `livro/` (coleta -> indicadores -> regras de alerta -> render) e grava em
-`livro/` no branch `dados`. Routines disparam turnos NESTA sessao (manha 09h00,
+`livro/` no branch `dados`. Routines disparam turnos NESTA sessao (manha 08h30,
 intradia de hora em hora, fechamento 18h00 BRT); a resposta do turno e o que o
 Douglas ve no PC e no celular.
 

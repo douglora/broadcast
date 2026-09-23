@@ -37,8 +37,8 @@ on:
     # A rotina das 21h00 UTC (18h00 BRT) dispara por conta propria e espera o run;
     # este cron e so rede de seguranca.
     - cron: "5 21 * * 1-5"
-    # Manha: 11h50 UTC = 08h50 BRT, para o dado ja estar pronto as 09h00.
-    - cron: "50 11 * * 1-5"
+    # Manha: 11h20 UTC = 08h20 BRT, para o dado ja estar pronto as 08h30.
+    - cron: "20 11 * * 1-5"
 
 permissions:
   contents: write
