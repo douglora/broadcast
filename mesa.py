@@ -23,6 +23,10 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py kinea carteira CURY3         # fundo a fundo, com compras e vendas do mes
     python3 mesa.py kinea cartas --grep "Cury|construtora"   # o que as cartas do gestor dizem, carta a carta
     python3 mesa.py kinea carta 2026-08 Atlas    # texto integral de uma carta (mes e parte do nome do fundo)
+    python3 mesa.py kinea videos --grep "Minha Casa|Cury|construtora"   # o que a gestao fala nos videos do canal, com minuto e link
+    python3 mesa.py kinea video ID --de 38:00 --ate 41:00             # legenda de um video (inteira ou num intervalo)
+    python3 mesa.py kinea docs --grep "Cury|MCMV"  # apresentacoes da live, relatorios e posts do site
+    python3 mesa.py kinea imagens 2026-08        # paginas de posicoes em imagem (as empresas aparecem como logotipo)
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
 Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
@@ -1091,8 +1095,154 @@ def kinea(args):
         if not achou:
             print("\nnenhuma carta guardada fala nisso.")
         return 0
-    print("use: mesa.py kinea [carteira TICKER | cartas --grep X | carta AAAA-MM FUNDO]")
+    if sub in ("videos", "video"):
+        return kinea_videos(sub, args)
+    if sub in ("docs", "doc"):
+        return kinea_docs(sub, args)
+    if sub == "imagens":
+        return kinea_imagens(args)
+    print("use: mesa.py kinea [carteira TICKER | cartas --grep X | carta AAAA-MM FUNDO | videos [--grep X] | "
+          "video ID [--de MM:SS --ate MM:SS] | docs [--grep X] | doc TRECHO | imagens [FILTRO]]")
     return 1
+
+
+def _opcao(args, nome):
+    return args[args.index(nome) + 1] if nome in args and args.index(nome) + 1 < len(args) else None
+
+
+def _segundos(marca):
+    """'38:39' ou '1:02:03' ou '[00:38:39]' -> segundos."""
+    partes = [int(x) for x in re.findall(r"\d+", marca or "")][-3:]
+    seg = 0
+    for x in partes:
+        seg = seg * 60 + x
+    return seg
+
+
+def kinea_videos(sub, args):
+    vi = baixar("kinea/videos/index.json")
+    if not vi:
+        print("VIDEOS AUSENTES (kinea/videos/index.json nao esta no branch: dispare kinea.yml com partes midia)")
+        return 1
+    videos = vi.get("videos", [])
+    com = [v for v in videos if v.get("arquivo")]
+    h = _idade_h(vi.get("gerado_em") or "")
+    print(f"VIDEOS KINEA: {len(videos)} guardados, {len(com)} com legenda | coleta de {(vi.get('gerado_em') or '?')[:10]}"
+          f"{'' if h is None else f' ({h:.0f}h)'} | listagem {vi.get('listagem')} | {vi.get('canal')}")
+    print("   legenda automatica e transcricao de maquina: nome proprio pode vir errado (Cury -> Curi, Kiri); confira no video")
+    if sub == "video":
+        alvo = " ".join(a for a in args[1:] if not a.startswith("--") and a not in (_opcao(args, "--de"), _opcao(args, "--ate"))).lower()
+        v = next((v for v in com if v["id"].lower() == alvo), None) or next(
+            (v for v in com if alvo and alvo in (v.get("titulo") or "").lower()), None)
+        if not v:
+            print("nenhum video com legenda casa com isso; `mesa.py kinea videos` lista os guardados")
+            return 1
+        texto = baixar(v["arquivo"], texto=True) or ""
+        de, ate = _opcao(args, "--de"), _opcao(args, "--ate")
+        if de or ate:
+            ini, fim = _segundos(de) if de else 0, _segundos(ate) if ate else 10 ** 9
+            linhas = [l for l in texto.splitlines() if not l.startswith("[") or ini <= _segundos(l[:10]) <= fim]
+            texto = "\n".join(linhas)
+        print(f"\n== {v.get('data')} | {v.get('titulo')} | {v.get('url')}\n")
+        print(texto)
+        return 0
+    padrao = _opcao(args, "--grep")
+    if not padrao:
+        print(f"\n   {'data':10s} {'min':>4s}  titulo")
+        for v in videos[:60]:
+            if v.get("arquivo"):
+                marca = f"legenda {v.get('legenda')}, {fmt(v.get('chars', 0), 0)} chars"
+            else:
+                marca = v.get("legenda") or f"falhou: {(v.get('erro') or '')[:60]}"
+            print(f"   {v.get('data') or '?':10s} {str(v.get('duracao_min') or '?'):>4s}  {str(v.get('titulo'))[:64]:64s} | {marca} | {v['id']}")
+        for l in (vi.get("log") or [])[:5]:
+            print(f"   log: {l[:160]}")
+        return 0
+    rx = re.compile(padrao, re.I)
+    print(f"\n== \"{padrao}\" nas legendas e descricoes, do video mais novo ao mais antigo")
+    achou = False
+    for v in videos:
+        texto = baixar(v["arquivo"], texto=True) or "" if v.get("arquivo") else ""
+        linhas = [l for l in texto.splitlines() if l.startswith("[") and rx.search(l)]
+        desc = rx.search(v.get("descricao") or "")
+        if not linhas and not desc:
+            continue
+        achou = True
+        print(f"\n-- {v.get('data')} {v.get('titulo')} ({v.get('duracao_min', '?')} min) {v.get('url')}")
+        if desc:
+            d = v["descricao"]
+            print(f"   descricao: ...{d[max(0, desc.start() - 120):desc.end() + 160]}...".replace("\n", " "))
+        for l in linhas[:15]:
+            seg = _segundos(l[:10])
+            corpo = l[11:]
+            m = rx.search(corpo)
+            trecho = corpo[max(0, m.start() - 220):m.end() + 260] if m else corpo[:480]
+            print(f"   {l[:10]} {trecho}  [{v['url']}&t={seg}s]")
+        if len(linhas) > 15:
+            print(f"   ... mais {len(linhas) - 15} trechos; `mesa.py kinea video {v['id']}` traz a legenda inteira")
+    if not achou:
+        print("\nnenhum video guardado fala nisso (so vale para os que tem legenda; veja a lista sem --grep).")
+    return 0
+
+
+def kinea_docs(sub, args):
+    di = baixar("kinea/docs/index.json")
+    if not di:
+        print("DOCUMENTOS AUSENTES (kinea/docs/index.json nao esta no branch: dispare kinea.yml com partes midia)")
+        return 1
+    docs = di.get("docs", [])
+    print(f"DOCUMENTOS KINEA: {len(docs)} (PDFs e posts do site desde {di.get('desde')}) | coleta de {(di.get('gerado_em') or '?')[:10]}")
+    if sub == "doc":
+        alvo = " ".join(args[1:]).lower()
+        d = next((d for d in docs if alvo and (alvo in (d.get("titulo") or "").lower() or alvo in d.get("arquivo", "").lower())), None)
+        if not d:
+            print("nenhum documento casa com isso; `mesa.py kinea docs` lista os guardados")
+            return 1
+        print(f"\n== {d.get('publicado_em')} | {d.get('titulo')} | {d.get('url')}\n")
+        print(baixar(d["arquivo"], texto=True) or "(texto indisponivel)")
+        return 0
+    padrao = _opcao(args, "--grep")
+    if not padrao:
+        for d in docs:
+            img = f", {len(d['imagens'])} pag. de posicoes em imagem" if d.get("imagens") else ""
+            pag = f"{d.get('paginas')} p." if d.get("paginas") else f"{fmt(d.get('chars', 0), 0)} chars"
+            print(f"   {d.get('publicado_em', '?'):10s} {d.get('tipo', ''):4s} {str(d.get('titulo'))[:60]:60s} {pag}{img}")
+        return 0
+    rx = re.compile(padrao, re.I)
+    print(f"\n== \"{padrao}\" nos documentos, do mais novo ao mais antigo")
+    achou = False
+    for d in docs:
+        texto = baixar(d["arquivo"], texto=True)
+        achados = _trechos(texto or "", rx, max_por_release=4)
+        if not achados:
+            continue
+        achou = True
+        print(f"\n-- {d.get('publicado_em')} {d.get('tipo')} {d.get('titulo')} ({d.get('url')})")
+        for t in achados:
+            print(f"   . {t}")
+    if not achou:
+        print("\nnenhum documento guardado fala nisso.")
+    return 0
+
+
+def kinea_imagens(args):
+    filtro = " ".join(args[1:]).lower()
+    idx = baixar("kinea/cartas/index.json") or {}
+    di = baixar("kinea/docs/index.json") or {}
+    linhas = []
+    for c in idx.get("cartas", []):
+        for i in c.get("imagens") or []:
+            linhas.append((c.get("mes_ref") or "", f"carta {c.get('fundo')}", i))
+    for d in di.get("docs", []):
+        for i in d.get("imagens") or []:
+            linhas.append((d.get("publicado_em") or "", f"{d.get('tipo')} {d.get('titulo')}", i))
+    linhas = [l for l in linhas if not filtro or filtro in (l[0] + " " + l[1] + " " + l[2]["arquivo"]).lower()]
+    print(f"== {len(linhas)} paginas de posicoes em imagem (nelas as empresas aparecem como logotipo; o texto do PDF nao traz o nome)")
+    for quando, onde, i in sorted(linhas, key=lambda l: l[0], reverse=True):
+        print(f"   {quando:10s} {onde[:48]:48s} p. {i['pagina']:>2d}  {BASE}{i['arquivo']}")
+    if linhas:
+        print("   para ver: baixe com curl e abra a imagem (Read); cite a pagina e o mes")
+    return 0
 
 
 COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor",
