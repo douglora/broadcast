@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 10h22
+NOTÍCIAS E FATOS · 24/09 11h21
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 460 veículo fora da lista, 48 sem ativo, 25 teto) · cvm ok 1 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 475 veículo fora da lista, 48 sem ativo, 7 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -135,7 +135,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: VALE3
 Como falar: 'saiu no Estadao: Vale recebe aval da Justiça para retomar mina suspensa após vazamento em MG; confirmar o número no texto antes de repassar'
 Fonte: Estadao 24/09 09h20
-id: E05-VALE3-10a7c1284b-2026-09-24 · status: pendente
+id: E05-VALE3-10a7c1284b-2026-09-24 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica após aval da Justiça
 Money Times · 24/09 08h40 · + InfoMoney, ADVFN · licença: integral
@@ -148,7 +148,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: VALE3
 Como falar: 'saiu no Money Times: Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica após aval da Justiça; confirmar o número no texto antes de repassar'
 Fonte: Money Times 24/09 08h40
-id: E05-VALE3-80acab581d-2026-09-24 · status: pendente · íntegra disponível
+id: E05-VALE3-80acab581d-2026-09-24 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BAC · BofA to Hire 1,000 Additional Apprentices and Invest $150 Million in Workforce Development across the U.S.
 TradingView (Reuters) · 24/09 08h00 · fonte única · licença: manchete
@@ -157,7 +157,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BAC
 Como falar: 'saiu no TradingView (Reuters): BofA to Hire 1,000 Additional Apprentices and Invest $150 Million in Workforce Developmen…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 24/09 08h00
-id: E05-BAC-8d04bca33a-2026-09-24 · status: pendente
+id: E05-BAC-8d04bca33a-2026-09-24 · status: entregue
 
 [ATENÇÃO] E05 · UST · 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook
 Yahoo Finance · 24/09 06h50 · fonte única · licença: resumo
@@ -297,8 +297,21 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (70)
+## OUTRAS NOTÍCIAS (só manchete) (83)
 
+· ETH Current price of Ethereum for September 24, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-24-2026/
+· BTC Current price of Bitcoin for September 24, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-24-2026/
+· GOOGL Alphabet: The Gemini-Cloud Divergence Hides A $1 Trillion Opportunity (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949414-alphabet-the-gemini-cloud-divergence-hides-a-1-trillion-opportunity
+· NVDA Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-leads-tech-stocks-lower-as-treasury-yields-surge-alphacheck-133744347.html
+· AMD AMD: The AI Spending Cycle Could Hit A Wall (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949407-amd-the-ai-spending-cycle-could-hit-a-wall
+· BTC Teucrium Commodity Trust resumes accepting redemptions for 7RCC Spot Bitcoin and Carbon Credit Futures ETF (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:bf0df3d6a66c2:0-teucrium-commodity-trust-resumes-accepting-redemptions-for-7rcc-spot-bitcoin-and-carbon-credit-futures-etf/
+· BRENT Update: Rising Treasury Yields, Oil Prices Drag Down US Equity Futures Pre-Bell (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/rising-treasury-yields-oil-prices-130200426.html
+· JPM Can Private Credit Unlock More Growth for JPMorgan's Card Business? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/private-credit-unlock-more-growth-125900481.html
+· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24092026/
+· KO Is Coca-Cola (KO) Outperforming Other Consumer Staples Stocks This Year? (Yahoo Finance) https://uk.finance.yahoo.com/news/coca-cola-ko-outperforming-other-124003164.html
+· PLTR Palantir Just Hit a One-Year High. Here's What's Driving It (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3654a10f2094b:0-palantir-just-hit-a-one-year-high-here-s-what-s-driving-it/
+· NVDA NVIDIA Corporation (NVDA) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NVDA/
+· MU Micron Stock Could Rise Another 50%. Here's How. (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxOY0Vvc1NGa3ViUmlaaE5OYVoyUlV4djNHLWoxNjlnTWo1RW1iOEhjSllqTUd2RjZVUDFLUXBnUUJPeWpDb1JzWHFaQzdtNDk0SnRFaG9Rb1pKTG05MXJ6bjAxeTN6b3U0ZkpHaG1HeDZPVk05dkRzcUZ2SjhvQm5VR01haw?oc=5
 · LITE Lumentum president Yuen sells $1.42m in stock By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/lumentum-president-yuen-sells-142m-in-stock-93CH-4851872
 · BRENT Dólar sobe com petróleo em alta e juros dos EUA no radar dos investidores (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-sobe-com-petroleo-em-alta-e-juros-dos-eua-no-radar-dos-investidores.shtml
 · GOOGL SentinelOne Extends Wayfinder Threat Hunting's Continuous Coverage to AWS, Azure, and Google Cloud (Business Wire) https://www.businesswire.com/news/home/20260924339917/en/SentinelOne-Extends-Wayfinder-Threat-Huntings-Continuous-Coverage-to-AWS-Azure-and-Google-Cloud
@@ -346,17 +359,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · BAC Bank of America’s Unrealized Bond Losses Could Top $90 Billion on Surging Yields (Barron's) https://www.barrons.com/articles/bank-of-america-stock-bond-losses-edae54c9
 · USDBRL Ibovespa cai 0,86% e dólar dispara 1,28% com pressão externa e eleição (Exame) https://exame.com/invest/mercados/ibovespa-cai-086-e-dolar-dispara-128-com-pressao-externa-e-eleicao/
 · TESOURO É hora de comprar títulos prefixados no Tesouro Direto, diz XP; investimento deve bater o CDI nos próximos anos (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/e-hora-de-comprar-titulos-prefixados-no-tesouro-direto-diz-xp-investimento-deve-bater-o-cdi-nos-proximos-anos-mlim/
-· MRVL Buy Marvell Stock, On Semi, Semtech to Ride the AI Data-Center Boom. Here's Why. (Barron's) https://www.barrons.com/articles/buy-marvell-stock-on-semi-semtech-ai-data-center-935843a8
-· PLTR Palantir Could Be Big Winner as Air Traffic Control Goes AI. The Stock Is Rising. (Barron's) https://www.barrons.com/articles/palantir-stock-ai-faa-air-traffic-control-373cce03
-· CURY3 Cury cancela participação em debate da Veja; evento terá Caiado e Zema (UOL Economia) https://www.bol.uol.com.br/noticias/2026/09/23/cury-cancela-participacao-em-debate-da-veja-evento-tera-caiado-e-zema.htm
-· UST US Treasury Five-Year Yields Breach 5% for First Time Since 2007 (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-23/us-treasury-five-year-yields-breach-5-for-first-time-since-2007
-· TSLA Tesla vs. SpaceX: Why Fitch Favors Musk’s Rockets Over His Robots (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:efdd3b355094b:0
-· BTC Why Is Bitcoin Cash’s Price Rising After a 30% Surge? (Barron's) https://www.barrons.com/articles/bitcoin-cash-price-bch-crypto-cme-futures-70097ed8
-· TSLA Tesla CEO Elon Musk Confronts China Tariffs at Xi-Trump Dinner (Barron's) https://www.barrons.com/articles/tesla-stock-elon-musk-trump-xi-bc8d493b
-· JPM JP Morgan Chase & Co. (JPM) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P0000031C_AnalystReport_1790119985000
-· DI Análise: Selic cai, mas investir segue caro no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/blogs/patricia-ellen/economia/money/mercado/analise-selic-cai-mas-investir-segue-caro-no-brasil/
-· SBSP3 Privatização da Sabesp prejudicou saneamento e abastecimento de água em SP, diz Marina Silva (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/23/privatizacao-da-sabesp-prejudicou-saneamento-e-abastecimento-de-agua-em-sp-diz-marina-silva.htm
-· USDBRL Com dólar casado ainda sob pressão, BC anuncia novo leilão de linha (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/com-dolar-casado-ainda-sob-pressao-bc-anuncia-novo-leilao-de-linha-de-us-1-bi.ghtml
-· PLTR Palantir's CEO just sent a message Silicon Valley won't ignore (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantirs-ceo-just-sent-message-221700521.html
-· INTC Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-intel-names-major-outside-220701284.html
-· (+10 manchetes; lista completa em eventos/noticias.json)
+· (+23 manchetes; lista completa em eventos/noticias.json)
