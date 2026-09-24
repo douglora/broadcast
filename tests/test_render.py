@@ -228,3 +228,25 @@ def test_alerta_sem_mudanca_nao_marca_atualizacao():
         repo.registrar([a], "fechamento")
         assert "atualizado_em" not in repo.fila[a.id]
         assert "titulo_inicial" not in repo.fila[a.id]
+
+
+def test_do_dia_conta_a_coleta_em_brt_e_nao_puxa_alerta_de_preco_de_ontem():
+    from livro.estado import Repositorio
+    import tempfile
+    with tempfile.TemporaryDirectory() as d:
+        r = Repositorio(d)
+        r.fila = {
+            # fechamento de 23/09 rodado as 21h03 BRT = 00h03 UTC de 24/09
+            "C07-UST-x-2026-09-23": {"data": "2026-09-23", "gerado_em": "2026-09-24T00:03:00Z", "severidade": "critico",
+                                     "familia": "curva"},
+            "E05-PETR4-x-2026-09-23": {"data": "2026-09-23", "gerado_em": "2026-09-24T00:03:00Z", "severidade": "atencao",
+                                       "familia": "noticia"},
+            "T08-COHR-x-2026-09-24": {"data": "2026-09-24", "gerado_em": "2026-09-24T21:13:00Z", "severidade": "critico",
+                                      "familia": "preco"},
+            "E03-AXIA3-x-2026-09-22": {"data": "2026-09-22", "gerado_em": "2026-09-24T14:00:00Z", "severidade": "atencao",
+                                       "familia": "evento"},
+        }
+        ids = {k for k, v in r.fila.items() if v in r.do_dia("2026-09-24", "2026-09-24")}
+        assert ids == {"T08-COHR-x-2026-09-24", "E03-AXIA3-x-2026-09-22"}
+        # a noticia das 21h de 23/09 (BRT) conta para 23/09
+        assert "E05-PETR4-x-2026-09-23" in {k for k, v in r.fila.items() if v in r.do_dia("2026-09-23")}

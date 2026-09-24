@@ -896,8 +896,11 @@ class Coleta:
                 janelas[id_]["proximo_evento"] = ev
         # o que o portao de agora segurou (ou a falha que a coleta de agora nao repete)
         # nao aparece como alerta do dia; o retirado ja saiu na faixa de correcao
-        do_dia = [a for a in repo.do_dia(self.hoje.isoformat(), relogios.brt(self.agora).date().isoformat())
-                  if not a.get("segurado") and not a.get("superado")]
+        # na manha, os alertas do fechamento de ontem (pregao anterior) entram tambem
+        datas_dia = [self.hoje.isoformat(), relogios.brt(self.agora).date().isoformat()]
+        if self.modo == "manha":
+            datas_dia.append(relogios.dia_util_anterior("B3", self.hoje).isoformat())
+        do_dia = [a for a in repo.do_dia(*datas_dia) if not a.get("segurado") and not a.get("superado")]
         rot = SLOT_ROTULO.get(self.modo, self.modo)
         alertas_txt = render.alertas_md(resultado, do_dia, rot)
         with open(os.path.join(saida, "alertas.md"), "w", encoding="utf-8") as f:
@@ -912,7 +915,10 @@ class Coleta:
                 f.write((alertas_txt if resultado["mensagens"] else f"{relogios.fmt_brt(self.agora)} · sem noticia ou fato novo atribuido ao livro\n") + "\n")
             return out
         if self.modo == "intradia":
-            ucits = [f"{a.id} {fmt.pct(janelas[a.id].get('dia'))}" for a in self.u.ucits()[:4] if a.id in janelas and self.series_info.get(a.id, {}).get("fresco")]
+            # so com dia de um pregao: em 24/09 a linha disse "VWRA -1,6%" e eram dois
+            # pregoes (sem a barra de 23/09)
+            ucits = [f"{a.id} {fmt.pct(janelas[a.id].get('dia'))}" for a in self.u.ucits()[:4]
+                     if a.id in janelas and self.series_info.get(a.id, {}).get("fresco") and janelas[a.id].get("dia_confirmado")]
             obs = ("UCITS fecharam: " + ", ".join(ucits)) if ucits and relogios.fechou("LSE", self.agora) else ""
             txt = render.linha_sem_novidade(relogios.fmt_brt(self.agora), relogios.fmt_brt(self.agora), obs, "") if not resultado["mensagens"] else alertas_txt
             with open(os.path.join(saida, "intradia.md"), "w", encoding="utf-8") as f:
@@ -1194,13 +1200,25 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
         if chave not in vistas and sev in ja:
             vistas.add(chave)
             ja[sev] += 1
-    resultado = politica.aplicar([a.para_json() for a in novos], pendentes, c.limiares, modo, SLOT_ROTULO.get(modo, modo), ja)
+    # alerta de hoje (de preco, atencao ou critico) que uma rodada anterior barrou so
+    # pelo teto e nunca saiu como mensagem volta a disputar a vaga. Em 24/09 o teto
+    # estava cheio de alertas de ontem (erro de data do do_dia) e os tres criticos do
+    # dia (COHR, EWY, BBAS3) ficaram presos como linha.
+    reofertas = [dict(e) for e in repo.fila.values()
+                 if e.get("data") == c.hoje.isoformat() and e.get("id") not in ids_novos
+                 and e.get("canal") == "info" and e.get("severidade") in ("critico", "atencao")
+                 and e.get("familia") not in ("noticia", "evento", "sistema")
+                 and not e.get("segurado") and not e.get("superado")]
+    resultado = politica.aplicar([a.para_json() for a in novos] + reofertas, pendentes, c.limiares, modo,
+                                 SLOT_ROTULO.get(modo, modo), ja)
     for m in resultado["mensagens"]:
         chave = f"{c.hoje.isoformat()}:{modo}:{m['grupo']}"
         for i in m["ids"]:
             if i in repo.fila:
                 e = repo.fila[i]
                 e["canal"] = "mensagem"
+                if e.get("status") == "linha":      # re-oferta que ganhou a vaga
+                    e["status"] = "pendente"
                 e.setdefault("mensagem", chave)
                 e.setdefault("mensagem_sev", m["severidade"])
     for a in resultado["linhas_info"]:
