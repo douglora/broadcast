@@ -1,31 +1,11 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?
-Yahoo Finance · 24/09 07h29 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Tigress Financial analyst Ivan Feinseth echoed this sentiment on September 17, citing strong Search momentum, rising Cloud growth, and margin expansion in second-quarter results.
-  – Consequently, the analyst has reiterated a Buy rating on the stock and hiked the price target to $485 from $415.
-  – Read more here: Alphabet (GOOGL) Raised $3.9B After Free Cash Flow Turned Negative.
-  – These investments are already contributing to the company's growth, with Google Search and other revenue increasing 17% year over year in the second quarter.
-  – AI is also becoming a major revenue accelerator as Google reported an 82% year-over-year increase in Cloud revenue in the second quarter.
-  – The company also exited the quarter with a backlog of about $514 billion as it continues to provide infrastructure chips and software companies need to deploy AI applications.
-Link: https://finance.yahoo.com/technology/ai/articles/tigress-raises-alphabet-googl-price-102901909.html
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: GOOGL
-Como falar: 'saiu no Yahoo Finance: Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 24/09 07h29
-ids: E05-GOOGL-e7f0c0a360-2026-09-24
-
+Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 INTC · Intel Shares Rise as Agentic AI Keeps CPUs in the Loop
-· E05 MU · Micron Is Winning By Losing The HBM Race (NASDAQ:MU)
-· E05 PETR4 · Petrobras está prestes a atingir produção de 3 mi bpd de petróleo, diz CEO
-· E05 MU · Micron Stock Gets a Big Wall Street Boost Ahead of Earnings
-· E05 GOOGL · Alphabet: Something Big Is Coming (NASDAQ:GOOG)
-· E05 MU · Prediction: Micron Stock Will Double Within 2 Years
-· E05 NVDA · NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway?
-· E05 JPM · Can Private Credit Unlock More Growth for JPMorgan's Card Business?
-· E05 ETH · Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally
+· E05 BBDC4 · Cogna perde força no radar do Bradesco BBI e outra ação de educação ganha vantagem
+· E05 PETR4 · Petrobras descarta ampliar participação na Braskem e diz que aporte cabe a todos os acionistas
+· E05 BTC · Bitcoin Bets Go Into Overdrive As MSTR, Leveraged ETFs Surge
+· E05 PLTR · Palantir Stock Rises 3% Despite Losing $875 Million FAA AI Deal: Here’s Why
 
 
 Alertas do dia (todos, com status):
@@ -35,7 +15,7 @@ Alertas do dia (todos, com status):
 · linha     T08 MCHI — MCHI entrou em bear técnico: -21% do pico de 52s (US$ 66,99 em 02/10) a US$ 53,1
 · linha     T08 VALE3 — VALE3 entrou em bear técnico: -21% do pico de 52s (R$ 90,09 em 11/02) a R$ 71,48
 · linha     T08 MELI34 — MELI34 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 111,29 em 25/09)
-· pendente  E05 GOOGL — GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth.
+· entregue  E05 GOOGL — GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth.
 · entregue  E05 BABA — BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with 
 · entregue  E05 DI — DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16
 · linha     T04 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) fechou na mínima de 52 sema
@@ -67,7 +47,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
 · entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, C
 · linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
-· linha     F03 BRENT — Brent sobe a US$ 106,98 (+3,8% no dia) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 106,75 (+3,6% no dia) (parcial, intradia)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
 · linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
 · linha     T02 JPM — JPM perdeu a MM50 pela 2ª sessão: US$ 337,53, ainda acima da MM200 (tendência lo
@@ -80,4 +60,4 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+148 notícias só manchete, em noticias.md)
+· (+152 notícias só manchete, em noticias.md)

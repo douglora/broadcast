@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 14h49
+NOTÍCIAS E FATOS · 24/09 15h21
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 468 veículo fora da lista, 56 sem ativo, 12 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 4 novas (18 consultas; descartadas: 435 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -142,7 +142,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: GOOGL
 Como falar: 'saiu no Yahoo Finance: Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 24/09 07h29
-id: E05-GOOGL-e7f0c0a360-2026-09-24 · status: pendente
+id: E05-GOOGL-e7f0c0a360-2026-09-24 · status: entregue
 
 [ATENÇÃO] E05 · BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit…
 PR Newswire · 24/09 13h02 · fonte única · licença: integral
@@ -338,8 +338,12 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (132)
+## OUTRAS NOTÍCIAS (só manchete) (136)
 
+· BBDC4 Cogna perde força no radar do Bradesco BBI e outra ação de educação ganha vantagem (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/cogna-perde-forca-no-radar-do-bradesco-bbi-e-outra-acao-de-educacao-ganha-vantagem/
+· PETR4 Petrobras descarta ampliar participação na Braskem e diz que aporte cabe a todos os acionistas (eixos) https://eixos.com.br/empresas/petrobras-descarta-ampliar-participacao-na-braskem-e-diz-que-aporte-cabe-a-todos-os-acionistas/
+· BTC Bitcoin Bets Go Into Overdrive As MSTR, Leveraged ETFs Surge (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:6dfdc0223094b:0-bitcoin-bets-go-into-overdrive-as-mstr-leveraged-etfs-surge/
+· PLTR Palantir Stock Rises 3% Despite Losing $875 Million FAA AI Deal: Here’s Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rises-3-despite-200529861.html
 · INTC Intel Shares Rise as Agentic AI Keeps CPUs in the Loop (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:85bd34471094b:0-intel-shares-rise-as-agentic-ai-keeps-cpus-in-the-loop/
 · MU Micron Is Winning By Losing The HBM Race (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4949504-micron-is-winning-by-losing-the-hbm-race
 · PETR4 Petrobras está prestes a atingir produção de 3 mi bpd de petróleo, diz CEO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G12C:0/
@@ -396,8 +400,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · AMD AMD: The AI Spending Cycle Could Hit A Wall (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949407-amd-the-ai-spending-cycle-could-hit-a-wall
 · BTC Teucrium Commodity Trust resumes accepting redemptions for 7RCC Spot Bitcoin and Carbon Credit Futures ETF (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:bf0df3d6a66c2:0-teucrium-commodity-trust-resumes-accepting-redemptions-for-7rcc-spot-bitcoin-and-carbon-credit-futures-etf/
 · BRENT Update: Rising Treasury Yields, Oil Prices Drag Down US Equity Futures Pre-Bell (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/rising-treasury-yields-oil-prices-130200426.html
-· JPM Can Private Credit Unlock More Growth for JPMorgan's Card Business? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/private-credit-unlock-more-growth-125900481.html
-· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24092026/
-· KO Is Coca-Cola (KO) Outperforming Other Consumer Staples Stocks This Year? (Yahoo Finance) https://uk.finance.yahoo.com/news/coca-cola-ko-outperforming-other-124003164.html
-· PLTR Palantir Just Hit a One-Year High. Here's What's Driving It (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3654a10f2094b:0-palantir-just-hit-a-one-year-high-here-s-what-s-driving-it/
-· (+72 manchetes; lista completa em eventos/noticias.json)
+· (+76 manchetes; lista completa em eventos/noticias.json)
