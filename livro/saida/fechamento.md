@@ -1,40 +1,40 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 24/09 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qui 24/09 · 18h19 BRT
+Relógios: Yahoo 18h19 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 24/09
 
-ALERTAS DO DIA (71 · 8 críticos)
+ALERTAS DO DIA (32 · 2 críticos)
 [CRÍTICO] T08 COHR entrou em queda de -30% do pico:
           -32% do pico de 52s (US$ 426,89 em 02/06)
           a US$ 290,61
 [CRÍTICO] T08 BBAS3 entrou em bear técnico: -22% do
           pico de 52s (R$ 27,58 em 25/02) a R$ 21,54
-[CRÍTICO] C07 UST ABRIU: 2y +14 bps · 10y +15 bps ·
-          30y +11 bps (23/09)
-[CRÍTICO] T05 KLBN4 -3,2% no dia a R$ 3,68:
-          movimento de 3,7 desvios para uma vol de
-          20 dias de 14% a.a.
-[CRÍTICO] T08 AVGO entrou em queda de -25% do pico:
-          -26% do pico de 52s (US$ 481,57 em 02/06)
-          a US$ 354,99
-[CRÍTICO] T08 MCHI entrou em bear técnico: -21% do
-          pico de 52s (US$ 66,99 em 02/10) a US$
-          53,17
-[CRÍTICO] T08 VALE3 entrou em bear técnico: -21% do
-          pico de 52s (R$ 90,09 em 11/02) a R$ 71,48
-[CRÍTICO] T08 MELI34 entrou em queda de -30% do
-          pico: -31% do pico de 52s (R$ 111,29 em
-          25/09) a R$ 77,19
-(+63 em alertas.md)
+[ATENÇÃO] T01 KLBN4 fechou abaixo da média de 200
+          dias pela 1ª sessão: R$ 3,58 vs MM200 R$
+          3,67 (-2,3%)
+[ATENÇÃO] T05 ALUP4 -3,6% no dia a R$ 10,40:
+          movimento de 3,0 desvios para uma vol de
+          20 dias de 19% a.a.
+[ATENÇÃO] T08 EWY entrou em queda de -15% do pico:
+          -17% do pico de 52s (US$ 219,20 em 18/06)
+          a US$ 182,53
+[ATENÇÃO] T02 AMZN perdeu a MM50 e perdeu a MM100
+          pela 2ª sessão: US$ 249,38, ainda acima da
+          MM200 (tendência longa preservada)
+[ATENÇÃO] T06 KLBN4 -7,7% em 5 sessões a R$ 3,58:
+          movimento de 3,2 desvios para a vol de 20
+          dias
+[ATENÇÃO] T09 ALUP4 -3,6% com volume 3,9x a mediana
+          de 20 sessões, a R$ 10,40
+(+24 em alertas.md)
 
 ALTAS  META +4,5% · INTC +3,9% · BRENT +3,8% · AMD
        +2,4% · GFS +1,4%
 BAIXAS ALUP4 -3,6% · COHR -3,3% · BBAS3 -2,8% ·
        KLBN4 -2,7% · REMX -2,7%
 
-NOTÍCIAS E FATOS (15 com materialidade ·
-  noticias.md)
+NOTÍCIAS E FATOS (8 com materialidade · noticias.md)
 · GOOGL Tigress Raises Alphabet (GOOGL) Price Target
   to $485 as AI Fuels Growth. Can the Momentum Last?
   (Yahoo Finance)
@@ -53,7 +53,7 @@ NOTÍCIAS E FATOS (15 com materialidade ·
 · BAC BofA to Hire 1,000 Additional Apprentices and
   Invest $150 Million in Workforce Development
   across the U.S. (TradingView (Reuters))
-  (+9)
+  (+2)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,67 (+9·+5) F29 13,86
@@ -178,10 +178,10 @@ MRVE3  MRV        5,22 -0,4 -3,9 -4,4  -35  -34  -33
 CURY3  Cury      27,44 +0,5 -5,1  -16  -20 -4,5  -11
 Macro
 USDBRL USD/BRL  5,1913 +0,5 +1,0 +1,0 -0,9 -1,7 -5,2
-DXY    DXY      101,25 +0,2 +1,0 +2,4 +1,4 +3,5 +3,0
+DXY    DXY      101,26 +0,2 +1,0 +2,4 +1,4 +3,5 +3,0
 BRENT  Brent    107,03 +3,8 +2,1  +23 -0,9  +54  +76
-BTC*   BTC      84.369  0,0  +10 +7,4  +23  -26 -3,6
-ETH*   ETH       2.687 +0,1 +9,8  +10  +30  -35 -9,4
+BTC*   BTC      84.397  0,0  +10 +7,4  +23  -26 -3,6
+ETH*   ETH       2.688 +0,1 +9,8  +10  +31  -35 -9,4
 MINER* Minerio   97,24 -0,1 -0,2 +2,0 -8,3 -7,8 -9,2
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

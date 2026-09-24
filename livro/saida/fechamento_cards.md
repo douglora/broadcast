@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 24/09 · 18h13 BRT
+## Fechamento do livro · qui 24/09 · 18h19 BRT
 
 ---
 
@@ -6,25 +6,21 @@
 
 ---
 
-### Alertas do dia · 8 (2 críticos)
+### Alertas do dia · 3 (2 críticos)
 
-> **CRÍTICO · C07 · UST** — UST ABRIU: 2y +14 bps · 10y +15 bps · 30y +11 bps (23/09)
-> 2y 4,85 · 10y 5,11 · 30y 5,40 · 2s10s +26 bps
-> Transmissão: IUAA (iShares US Aggregate Bond, duração ~6) ≈ -0,9%; pressiona múltiplo de CNDX/RBOT, fortalece DXY e pesa no real
-> *Por que importa:* o 10 anos americano é a taxa de desconto do mundo; toda nota de estratégia global abre por ele
+> **CRÍTICO · T08 · COHR** — COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) a US$ 290,61
+> 1m +0,9% · 6m +19% · 12m +173%
+> PHLX Semiconductor: 1m +7,8% · 6m +65%: a queda é do ativo, não do mercado
+> *Por que importa:* -30% do pico é o limiar que a indústria chama de queda de -30% do pico; recuperar o pico exige +47%
 
-> **CRÍTICO · T05 · KLBN4** — KLBN4 -3,2% no dia a R$ 3,68: movimento de 3,7 desvios para uma vol de 20 dias de 14% a.a.
-> 1m -0,8% · 6m -6,1% · YTD -2,1%
-> *Por que importa:* acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
+> **CRÍTICO · T08 · BBAS3** — BBAS3 entrou em bear técnico: -22% do pico de 52s (R$ 27,58 em 25/02) a R$ 21,54
+> 1m +11% · 6m -5,5% · 12m +0,2%
+> Ibovespa: 1m +5,4% · 6m +0,7%: o mercado caiu junto
+> *Por que importa:* -20% do pico é o limiar que a indústria chama de bear técnico; recuperar o pico exige +28%
 
-- **C03 · DI** DI em nível: F28 cruzou 13,50% (para cima, agora 13,57%) · F35 cruzou 14,00% (para cima, agora 14,04%)
-- **T05 · GOOGL** GOOGL -3,8% no dia a US$ 337,83: movimento de 2,6 desvios para uma vol de 20 dias de 24% a.a.
-- **T10 · META** META no máximo de força relativa em 63 sessões contra SPX: +31% vs +0,7% em 20 sessões (+32% relativo)
-- **T10 · VALE3** VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -9,2% vs +8,1% em 20 sessões (-14% relativo)
-- **T11 · META** META descolou à frente de GOOGL: +31% vs -2,6% em 20 sessões (z 3,0 em 252 sessões, 2º dia)
-- **S01 · SISTEMA** coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01 · tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09 (taxas não são as de hoje)
+- **T08 · EWY** EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a US$ 182,53
 
-*Mais 48 sinais de baixa prioridade em `alertas.md`.*
+*Mais 21 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
@@ -200,10 +196,10 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,1913 | **+0,5** | +1,0 | +1,0 | -0,3 | -0,9 | -1,7 | -5,2 | -2,1 |
-| **DXY** Indice Dolar DXY | 101,25 | **+0,2** | +1,0 | +2,4 | -0,2 | +1,4 | +3,5 | +3,0 | +8,5 |
+| **DXY** Indice Dolar DXY | 101,26 | **+0,2** | +1,0 | +2,4 | -0,2 | +1,4 | +3,5 | +3,0 | +8,5 |
 | **BRENT** Petroleo Brent | 107,03 | **+3,8** | +2,1 | +23 | +42 | -0,9 | +54 | +76 | +37 |
-| **BTC** Bitcoin _(parcial)_ | 84.369 | **0,0** | +10 | +7,4 | +41 | +23 | -26 | -3,6 | +95 |
-| **ETH** Ethereum _(parcial)_ | 2.687 | **+0,1** | +9,8 | +10 | +72 | +30 | -35 | -9,4 | -12 |
+| **BTC** Bitcoin _(parcial)_ | 84.397 | **0,0** | +10 | +7,4 | +41 | +23 | -26 | -3,6 | +95 |
+| **ETH** Ethereum _(parcial)_ | 2.688 | **+0,1** | +9,8 | +10 | +72 | +31 | -35 | -9,4 | -12 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 23/09)_ | 97,24 | **-0,1** | -0,2 | +2,0 | -3,3 | -8,3 | -7,8 | -9,2 | -19 |
 
 **Brent em reais:** R$ 555,62 por barril (24/09) · dia +4,3% · 1 mês +24% · no ano +67% (Brent do 1º vencimento × dólar).
@@ -259,7 +255,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ---
 
-### Notícias e fatos · 15
+### Notícias e fatos · 8
 
 - **GOOGL** Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last? (Yahoo Finance · 24/09) [abrir a fonte](https://finance.yahoo.com/technology/ai/articles/tigress-raises-alphabet-googl-price-102901909.html)
   *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
@@ -276,20 +272,6 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 - **UST** 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook (Yahoo Finance · 24/09) [abrir a fonte](https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-reaches-5-095033695.html)
   *Por que importa:* decisao de politica monetaria reprecifica toda a curva e o cambio
 - **NVDA** Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal (TradingView (Reuters) · 24/09) [abrir a fonte](https://www.tradingview.com/news/tradingview:c3429d1e3ed40:0-key-facts-nvidia-nvda-96-2b-92-5-dc-25x-dividend-china-minimal/)
-  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-- **PETR4** UBS BB reitera compra para ação da Petrobras e eleva preço-alvo (CNN Brasil · 23/09) [abrir a fonte](https://www.cnnbrasil.com.br/economia/money/negocios/ubs-bb-reitera-compra-para-acao-da-petrobras-e-eleva-preco-alvo/)
-  *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-- **MU** Micron earnings outlook: what to watch ahead of the September 30 report (Investing.com · 23/09) [abrir a fonte](https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385)
-  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-- **DIRR3** Participação relevante: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento) (CVM · 23/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570676)
-  *Por que importa:* quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o objetivo declarado é só investimento e não muda controle; o fluxo de compra ou venda já aconteceu até 18/09, não no dia do aviso
-- **AXIA3** Fato Relevante: O seu Conselho de Administração aprovou , nesta data, o resgate de 70.716.228 ações preferenciais classe “C” (“PNC”), equivalente a R$ 3,9 bilhões e… (CVM · 22/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570292)
-  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-- **PETR4** Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação (Estadao · 23/09) [abrir a fonte](https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/)
-  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-- **PETR4** Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A ação ficou cara demais para comprar agora? (Seu Dinheiro · 23/09) [abrir a fonte](https://www.seudinheiro.com/2026/empresas/petrobras-petr4-caminha-para-um-dos-maiores-dividendos-do-mundo-a-acao-ficou-cara-demais-para-comprar-agora-ccgg/)
-  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-- **PETR4** Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz UBS BB; veja potencial para dividendos (Money Times · 23/09) [abrir a fonte](https://www.moneytimes.com.br/petrobras-petr4-e-a-companhia-mais-bem-posicionada-no-cenario-de-petroleo-elevado-diz-ubs-bb-lils/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 
 *As manchetes que citaram o livro sem número ou decisão nova estão em `noticias.md`.*
@@ -310,7 +292,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 24/09
+**Relógios:** Yahoo 18h19 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 24/09
 **Lacunas:** sem barra de 23/09 no Yahoo, variação do dia cobre 2 pregões: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01, QNTM, QANT, WQTM; tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas não são as de hoje); alertas_segurados: alertas não emitidos por dado não confirmado: T05 WUTI (WUTI: variação de 2 pregões (sem 23/09)); T05 IUAA (IUAA: variação de 2 pregões (sem 23/09)).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
