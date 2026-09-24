@@ -1119,6 +1119,11 @@ def _segundos(marca):
     return seg
 
 
+def _hms_curto(seg):
+    seg = int(seg or 0)
+    return f"{seg // 3600}:{seg % 3600 // 60:02d}:{seg % 60:02d}" if seg >= 3600 else f"{seg // 60}:{seg % 60:02d}"
+
+
 def kinea_videos(sub, args):
     vi = baixar("kinea/videos/index.json")
     if not vi:
@@ -1143,7 +1148,10 @@ def kinea_videos(sub, args):
             ini, fim = _segundos(de) if de else 0, _segundos(ate) if ate else 10 ** 9
             linhas = [l for l in texto.splitlines() if not l.startswith("[") or ini <= _segundos(l[:10]) <= fim]
             texto = "\n".join(linhas)
-        print(f"\n== {v.get('data')} | {v.get('titulo')} | {v.get('url')}\n")
+        print(f"\n== {v.get('data')} | {v.get('titulo')} | {v.get('url')}")
+        if v.get("capitulos"):
+            print("   capitulos: " + " | ".join(f"{_hms_curto(c['t'])} {c.get('titulo')}" for c in v["capitulos"]))
+        print()
         print(texto)
         return 0
     padrao = _opcao(args, "--grep")
@@ -1165,10 +1173,14 @@ def kinea_videos(sub, args):
         texto = baixar(v["arquivo"], texto=True) or "" if v.get("arquivo") else ""
         linhas = [l for l in texto.splitlines() if l.startswith("[") and rx.search(l)]
         desc = rx.search(v.get("descricao") or "")
-        if not linhas and not desc:
+        caps = [c for c in v.get("capitulos") or [] if rx.search(c.get("titulo") or "")]
+        if not linhas and not desc and not caps:
             continue
         achou = True
-        print(f"\n-- {v.get('data')} {v.get('titulo')} ({v.get('duracao_min', '?')} min) {v.get('url')}")
+        print(f"\n-- {v.get('data')} {v.get('titulo')} ({v.get('duracao_min') or '?'} min) {v.get('url')}"
+              + ("" if v.get("arquivo") else " [sem legenda guardada]"))
+        for c in caps:
+            print(f"   capitulo {_hms_curto(c['t'])} {c.get('titulo')}  [{v['url']}&t={c['t']}s]")
         if desc:
             d = v["descricao"]
             print(f"   descricao: ...{d[max(0, desc.start() - 120):desc.end() + 160]}...".replace("\n", " "))

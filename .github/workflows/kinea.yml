@@ -77,7 +77,15 @@ jobs:
           deno-version: v2.x
 
       - name: Instalar dependencias
-        run: pip install requests pandas pypdf pymupdf "yt-dlp[default]"
+        run: pip install requests pandas pypdf pymupdf "yt-dlp[default]" bgutil-ytdlp-pot-provider
+
+      # Provedor de PO token do YouTube: sem ele, no servidor do Actions, o YouTube lista a legenda
+      # do video mas nao entrega. O plugin do yt-dlp (instalado acima) o encontra em 127.0.0.1:4416.
+      - name: Provedor de token do YouTube
+        continue-on-error: true
+        run: |
+          docker run -d --name bgutil -p 4416:4416 --init brainicism/bgutil-ytdlp-pot-provider
+          for i in $(seq 1 30); do curl -sf http://127.0.0.1:4416/ping && break; sleep 2; done
 
       - name: Coletar carteira, cartas e midia
         env:
@@ -92,7 +100,7 @@ jobs:
           # tambem; a carteira da CVM (15 min) roda no dia 12 ou no disparo manual.
           if [ "$EVENTO" = "schedule" ] && [ "$(date -u +%d)" != "12" ]; then PARTES="cartas,midia"; fi
           if [ "$EVENTO" = "push" ]; then PARTES="cartas,midia"; fi
-          python kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" \
+          python -u kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" \
             --urls "$URLS" --partes "${PARTES:-cda,cartas,midia}" --videos "${VIDEOS:-20}"
 
       - name: Publicar no branch dados
