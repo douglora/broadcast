@@ -406,8 +406,9 @@ class Coleta:
             gravar_json(caminho_di, di)
             self.curvas["di"] = di
             self.pernas["di"] = f"ok até {di.get('ultimo_pregao')} ({', '.join(f'{k} {v}' for k, v in di['cobertura'].items())})"
-            if di.get("ultimo_pregao") != self.hoje.isoformat():
-                self.falhas["di"] = f"ajuste B3 de {self.hoje.isoformat()} não publicado (último {di.get('ultimo_pregao')})"
+            esperado_di = self.hoje if self.modo == "fechamento" else relogios.dia_util_anterior("B3", self.hoje)
+            if str(di.get("ultimo_pregao") or "") < esperado_di.isoformat():
+                self.falhas["di"] = f"ajuste B3 de {esperado_di.isoformat()} não publicado (último {di.get('ultimo_pregao')})"
         except Exception as e:
             self.curvas["di"] = antigo
             self.pernas["di"] = f"falha: {type(e).__name__}: {str(e)[:80]}"
@@ -921,7 +922,10 @@ class Coleta:
     def _push_fechamento(self, do_dia: list[dict], mov: dict, ins: dict) -> str:
         """Texto do push (< 200 caracteres): curva, criticos, movers, contagem. Encurta por
         partes inteiras, nunca no meio de uma palavra."""
-        cab = f"Fechamento {fmt.data_br(self.hoje.isoformat())}:"
+        # na manha o push nao se chama "Fechamento": os precos sao do pregao anterior
+        cab = (f"Manhã {fmt.data_br(self.hoje.isoformat())} (pregão de "
+               f"{fmt.data_br(relogios.dia_util_anterior('B3', self.hoje).isoformat())}):"
+               if self.modo == "manha" else f"Fechamento {fmt.data_br(self.hoje.isoformat())}:")
         partes = []
         di = ins.get("di")
         if di:

@@ -259,3 +259,25 @@ def test_drivers_dizem_quem_pode_explicar_o_dia():
     d = qa.drivers(si, j)
     assert d["BRENT"]["ok"] and d["BRENT"]["dia"] == 0.0386
     assert not d["USDBRL"]["ok"] and d["USDBRL"]["dia"] is None and "barra parada" in d["USDBRL"]["motivos"]
+
+
+def test_serie_velha_na_manha_nao_tem_dia_confirmado():
+    """Na manha o esperado e o pregao de ontem (esperado_hoje e falso para tudo): UCITS
+    sem a barra de ontem saia como confirmada."""
+    info = {"esperado_hoje": False, "fresco": False, "qualidade": {"status": qa.OK}}
+    assert not qa.dia_valido(info)
+    assert qa.marcador({"data": "2026-09-22"}, info) == ("dia 22/09", False)
+
+
+def test_di_da_manha_espera_o_ajuste_de_ontem(universo, limiares):
+    from datetime import date as _d
+    from livro.sinais import curvas
+    from livro.sinais.base import Contexto, Estado
+    hist = {c: [["2026-09-22", 13.48, 1.0], ["2026-09-23", 13.57, 1.0]] for c in
+            ("DI1F28", "DI1F29", "DI1F30", "DI1F32", "DI1F35")}
+    for slot, falha in (("manha", False), ("fechamento", True)):
+        ctx = Contexto(universo=universo, limiares=limiares, hoje=_d(2026, 9, 24), slot=slot, series={},
+                       series_info={}, curvas={"di": {"historico": hist, "ultimo_pregao": "2026-09-23"}},
+                       macro={}, falhas={})
+        curvas.C01DIMovimento().avaliar(ctx, Estado())
+        assert ("di" in ctx.falhas) is falha, slot

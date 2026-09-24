@@ -309,9 +309,11 @@ def confiavel(info: dict | None) -> bool:
 
 
 def dia_valido(info: dict | None) -> bool:
-    """A coluna 'dia' pode ser lida como um pregao: fresca, confiavel, um pregao so."""
+    """A coluna 'dia' pode ser lida como um pregao: fresca, confiavel, um pregao so.
+    Serie sem a barra do pregao esperado e velha em qualquer slot: na manha o esperado
+    e o pregao de ontem, e antes a checagem so valia quando o esperado era hoje."""
     i = info or {}
-    if i.get("esperado_hoje") and not i.get("fresco", True):
+    if not i.get("fresco", True):
         return False
     return confiavel(i)
 
@@ -351,7 +353,7 @@ def drivers(series_info: dict, janelas: dict) -> dict:
         out[d] = {"ok": dia_valido(info), "data": j.get("data"), "ultimo": j.get("ultimo"),
                   "dia": j.get("dia") if dia_valido(info) else None,
                   "motivos": ((info.get("qualidade") or {}).get("motivos") or [])
-                  + ([f"sem barra de {info.get('esperado')}"] if info.get("esperado_hoje") and not info.get("fresco", True) else [])}
+                  + ([f"sem barra de {info.get('esperado')}"] if not info.get("fresco", True) else [])}
     return out
 
 
@@ -370,7 +372,7 @@ def marcador(j: dict, info: dict | None) -> tuple[str, bool]:
     ddmm = f"{data[8:10]}/{data[5:7]}" if len(data) >= 10 else data
     if q.get("status") == NAO_CONFIRMADO and not q.get("descartar_ultima"):
         return "dado a confirmar", True
-    if i.get("esperado_hoje") and not i.get("fresco", True):
+    if not i.get("fresco", True):
         return f"dia {ddmm}", False
     if q.get("dia_pregoes", 1) > 1:
         return f"{q['dia_pregoes']} pregões", False
