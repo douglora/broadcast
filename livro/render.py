@@ -205,29 +205,31 @@ def agenda_extras(agenda_json: dict, calendario: dict) -> list[tuple]:
 
 
 def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("alta", "media"), extras: list | None = None,
-           dias_empresas: int = 14) -> list[str]:
+           dias_empresas: int = 14, incluir_hoje: bool = False) -> list[str]:
     """Macro nos proximos `dias`; resultado e data-com dos ativos do livro em ate
     `dias_empresas` corridos (~10 pregoes): o resultado da MU em 30/09 so aparecia a
-    partir de 24/09 com a janela unica de 6 dias."""
+    partir de 24/09 com a janela unica de 6 dias. `incluir_hoje` (manha): a agenda
+    comeca no proprio dia; em 24/09 a manha perdeu o RPM das 09h e o leilao das 11h."""
     fim = hoje + timedelta(days=dias)
     fim_emp = hoje + timedelta(days=dias_empresas)
+    ini = hoje - timedelta(days=1) if incluir_hoje else hoje
     e_empresa = lambda t: (" resultado " in t) or (" ex-dividendo " in t)
-    itens = [(d, t) for d, t in (extras or []) if hoje < d <= (fim_emp if e_empresa(t) else fim)]
+    itens = [(d, t) for d, t in (extras or []) if ini < d <= (fim_emp if e_empresa(t) else fim)]
     for e in calendario.get("eventos_macro") or []:
         d = relogios._d(e["data"])
-        if hoje < d <= fim:
+        if ini < d <= fim:
             conf = e.get("confianca", "media")
             sufixo = "" if conf in so_confianca else " (a confirmar)"
             hora = f" {e['hora_brt']}" if e.get("hora_brt") else ""
             itens.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())}{hora} {e['evento']}{sufixo}"))
     for r in calendario.get("resultados") or []:
         d = relogios._d(r["data"])
-        if hoje < d <= fim_emp:
+        if ini < d <= fim_emp:
             quando = {"apos_ny": "após NY", "antes_ny": "antes de NY", "apos_b3": "após B3", "madrugada": "madrugada"}.get(r.get("quando"), "")
             conf = "confirmado" if r.get("confirmado") else "estimado"
             itens.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())} resultado {r['ticker']} ({quando}, {conf})"))
     for rec in calendario.get("recorrentes") or []:
-        d = hoje + timedelta(days=1)
+        d = ini + timedelta(days=1)
         while d <= fim:
             if d.weekday() == rec["dia_semana"]:
                 itens.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())} {rec['hora_brt']} {rec['evento']}"))

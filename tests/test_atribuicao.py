@@ -155,3 +155,11 @@ def test_fato_relevante_nao_vira_aviso_de_participacao(universo, limiares):
                    series_info={}, curvas={}, macro={}, falhas={}, eventos={"cvm": [doc]})
     a = eventos.E03CVM().avaliar(ctx, Estado())[0]
     assert "Fato Relevante" in a.titulo and a.severidade == "atencao" and "participacao" not in a.dados
+
+
+def test_agenda_da_manha_comeca_hoje():
+    cal = {"eventos_macro": [{"data": date(2026, 9, 24), "hora_brt": "09:00", "evento": "Relatorio de Politica Monetaria",
+                              "confianca": "alta"}],
+           "recorrentes": [], "resultados": []}
+    assert "Relatorio de Politica Monetaria" in " ".join(render.agenda(cal, date(2026, 9, 24), incluir_hoje=True))
+    assert "Relatorio de Politica Monetaria" not in " ".join(render.agenda(cal, date(2026, 9, 24)))
