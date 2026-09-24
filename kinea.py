@@ -1018,10 +1018,16 @@ def coletar_videos(saida, canal, n, dias, falhas, minutos_audio=0):
         lista, origem = list(rss.values()), "rss"
     vistos = {v["id"] for v in lista}
     lista += [{"id": v, "titulo": None, "aba": "site"} for v in videos_do_site(log) if v not in vistos]
-    lista.sort(key=lambda it: 0 if RX_VIDEO_PRIORIDADE.search((rss.get(it["id"]) or {}).get("titulo") or it.get("titulo") or "") else 1)
+    # Tema primeiro; dentro dele, as abas intercaladas (o mais novo de cada aba antes do segundo de qualquer uma)
+    posicao, rank = {}, {}
+    for it in lista:
+        rank[it["id"]] = posicao.get(it["aba"], 0)
+        posicao[it["aba"]] = rank[it["id"]] + 1
+    lista.sort(key=lambda it: (0 if RX_VIDEO_PRIORIDADE.search((rss.get(it["id"]) or {}).get("titulo") or it.get("titulo") or "")
+                               else 1, rank[it["id"]]))
     print(f"== videos: {len(lista)} listados ({origem}, rss com {len(rss)}) em {canal}", flush=True)
     limite = (datetime.date.today() - datetime.timedelta(days=dias)).isoformat()
-    videos, fora, falhas_seguidas = [], 0, 0
+    videos, fora, falhas_seguidas, visitados = [], 0, 0, set()
     modelo, fim_audio = [None], time.time() + 60 * minutos_audio
 
     def grava():
@@ -1050,6 +1056,7 @@ def coletar_videos(saida, canal, n, dias, falhas, minutos_audio=0):
                 # O YouTube esta recusando todo pedido: insistir so gasta o tempo do Actions
                 log.append(f"parei em {vid}: {falhas_seguidas} videos seguidos sem legenda por erro do YouTube")
                 break
+            visitados.add(vid)
             entrada = {"id": vid, "titulo": titulo, "aba": aba, "url": f"https://www.youtube.com/watch?v={vid}",
                        "data": r.get("data") or item.get("data"), "descricao": r.get("descricao") or item.get("descricao", ""),
                        "coleta": 2}
@@ -1118,9 +1125,18 @@ def coletar_videos(saida, canal, n, dias, falhas, minutos_audio=0):
                   f"{entrada.get('legenda') or 'falhou'} {entrada.get('chars', 0):,} chars "
                   f"{(entrada.get('erro') or '')[:120]}", flush=True)
             time.sleep(2)
-    # Os que ja estavam guardados continuam: os que sairam da lista dos mais novos, se tem texto, e os que
-    # a coleta nao chegou a visitar (parada por falhas seguidas), sempre
+    # Os que a coleta nao chegou a tentar (parada por falhas seguidas) entram na lista mesmo assim, para a mesa
+    # saber o que o canal publicou; ficam marcados e sao tentados na proxima rodada
     ids = {v["id"] for v in videos}
+    for item in lista:
+        titulo = (rss.get(item["id"]) or {}).get("titulo") or item.get("titulo")
+        if item["id"] not in ids | visitados and item["id"] not in antigo and not _fora_do_tema(titulo):
+            videos.append({"id": item["id"], "titulo": titulo, "aba": item["aba"], "coleta": 2,
+                           "url": f"https://www.youtube.com/watch?v={item['id']}",
+                           "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"})
+            ids.add(item["id"])
+    # Os que ja estavam guardados continuam: os que sairam da lista dos mais novos, se tem texto, e os que
+    # a coleta nao chegou a visitar, sempre
     listados = {item["id"] for item in lista}
     videos += [v for k, v in antigo.items() if k not in ids and (v.get("chars") or k in listados)]
     videos.sort(key=lambda v: v.get("data") or "", reverse=True)
