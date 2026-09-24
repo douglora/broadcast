@@ -1,38 +1,35 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit…
-PR Newswire · 24/09 13h02 · fonte única · licença: integral
-Do texto:
-  – 24, 2026 /PRNewswire/ -- Hagens Berman Sobol Shapiro LLP urges Alibaba Group Holding Limited (NYSE: BABA) investors who suffered substantial losses submit their losses now.
-  – Alibaba Group Holding Limited, et al., No. 1:26-cv-06654 (S.D.N.Y.), accuses Alibaba and certain of its executive officers of violating the Securities Exchange Act of 1934.
-  – Class Period: June 26, 2025 – June 24, 2026 Lead Plaintiff Deadline: Oct.
-  – The Truth Emerges The truth regarding Alibaba's regulatory exposure and illicit business practices was revealed through a series of partial corrective disclosures: - June 8, 2026: The U.S.
-  – On this news, Alibaba ADSs fell $4.69 per share, or 3.9%, over two trading sessions.
-  – - June 24, 2026: Bloomberg reported that Anthropic alerted U.S.
-Link: https://www.prnewswire.com/news-releases/baba-11-day-deadline-alert-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-shareholder-class-action-lawsuit-before-october-5-2026-lead-plaintiff-deadline-302889406.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: BABA
-Como falar: 'saiu no PR Newswire: BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Loss…; confirmar o número no texto antes de repassar'
-Fonte: PR Newswire 24/09 13h02
-Push: intradia: 2 alertas de atenção — E05 BABA, E05 DI · detalhe na sessão
-ids: E05-BABA-a9f3c927d5-2026-09-24
-
-[ATENÇÃO] E05 · DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16% para 14,22%
-UOL Economia · 24/09 12h55 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/24/projecao-de-planejamento-e-fazenda-para-selic-acumulada-2026-passa-de-1416-para-1422.htm
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no UOL Economia: Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16% para 14,22%; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 24/09 12h55
-ids: E05-DI-d526cb62a5-2026-09-24
+[ATENÇÃO] E05 · GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?
+Yahoo Finance · 24/09 07h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tigress Financial analyst Ivan Feinseth echoed this sentiment on September 17, citing strong Search momentum, rising Cloud growth, and margin expansion in second-quarter results.
+  – Consequently, the analyst has reiterated a Buy rating on the stock and hiked the price target to $485 from $415.
+  – Read more here: Alphabet (GOOGL) Raised $3.9B After Free Cash Flow Turned Negative.
+  – These investments are already contributing to the company's growth, with Google Search and other revenue increasing 17% year over year in the second quarter.
+  – AI is also becoming a major revenue accelerator as Google reported an 82% year-over-year increase in Cloud revenue in the second quarter.
+  – The company also exited the quarter with a backlog of about $514 billion as it continues to provide infrastructure chips and software companies need to deploy AI applications.
+Link: https://finance.yahoo.com/technology/ai/articles/tigress-raises-alphabet-googl-price-102901909.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 24/09 07h29
+Push: [ATENÇÃO] GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 · detalhe na sessão
+ids: E05-GOOGL-e7f0c0a360-2026-09-24
 
 Info (só linha no Fechamento):
-· E05 UST · Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know
-· E05 GOOGL · BNP Paribas and Google Cloud Announce New Partnership on Agentic AI and Cloud Innovation
-· E05 DI · Copom aponta desaceleração da economia e defende juros restritivos em ata
-· E05 TSLA · UBS maintains Tesla stock neutral rating ahead of Q3 deliveries By Investing.com
-· E05 NVDA · NVIDIA Corporation (NVDA) stock price, news, quote and history
-· E05 USDBRL · Dólar opera em alta e bate R$ 5,19, com reunião entre Trump e Xi Jinping no foco; Ibovespa cai
+· E05 GOOGL · BNP Paribas expands Google Cloud pact to support agentic AI (BNPQF:OTCMKTS)
+· E05 PETR4 · Petrobras vê consenso para acordo da Braskem com credores
+· E05 GOOGL · The Mutual Group Selects Nativeorange to Power Next Generation Underwriting Workbench Built with Google Cloud
+· E05 INTC · Meta’s AI Agents Are Putting CPUs In Data Centers, But That’s Not Bullish For Intel (INTC)
+· E05 GOOGL · BNP Paribas And Google Cloud Announce New Partnership
+· E05 GOOGL · BNP Paribas to keep sensitive data off public cloud despite Google deal
+· E05 UST · Midday Need to Know: Treasury yields climb, GoDaddy jumps & more (SPY:NYSEARCA)
+· E05 BTC · Crypto for Advisors:The hidden costs of holding your own bitcoin
+· E05 TSLA · Tesla's Biggest Semi Deal Yet: Is TSLA Stock a Buy Now?
+· E05 BTC · Current price of Bitcoin for Sept. 24, 2026
+· E05 NVDA · NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway?
+· E05 BRENT · Dólar avança e Bolsa cai com petróleo em alta e juros dos EUA no radar dos investidores
 
 
 Alertas do dia (todos, com status):
@@ -42,8 +39,9 @@ Alertas do dia (todos, com status):
 · linha     T08 MCHI — MCHI entrou em bear técnico: -21% do pico de 52s (US$ 66,99 em 02/10) a US$ 53,1
 · linha     T08 VALE3 — VALE3 entrou em bear técnico: -21% do pico de 52s (R$ 90,09 em 11/02) a R$ 71,48
 · linha     T08 MELI34 — MELI34 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 111,29 em 25/09)
-· pendente  E05 BABA — BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with 
-· pendente  E05 DI — DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16
+· pendente  E05 GOOGL — GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth.
+· entregue  E05 BABA — BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with 
+· entregue  E05 DI — DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16
 · linha     T04 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) fechou na mínima de 52 sema
 · entregue  E05 VALE3 — VALE3 · Vale recebe aval da Justiça para retomar mina suspensa após vazamento em
 · entregue  E05 VALE3 — VALE3 · Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica apó
@@ -86,5 +84,5 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+127 notícias só manchete, em noticias.md)
+· (+139 notícias só manchete, em noticias.md)
 

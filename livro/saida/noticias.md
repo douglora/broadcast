@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 13h21
+NOTÍCIAS E FATOS · 24/09 14h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 482 veículo fora da lista, 50 sem ativo, 0 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 465 veículo fora da lista, 57 sem ativo, 3 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -126,7 +126,23 @@ Fonte: SEC EDGAR 2026-09-22
 id: E04-BABA-26109625-2026-09-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?
+Yahoo Finance · 24/09 07h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tigress Financial analyst Ivan Feinseth echoed this sentiment on September 17, citing strong Search momentum, rising Cloud growth, and margin expansion in second-quarter results.
+  – Consequently, the analyst has reiterated a Buy rating on the stock and hiked the price target to $485 from $415.
+  – Read more here: Alphabet (GOOGL) Raised $3.9B After Free Cash Flow Turned Negative.
+  – These investments are already contributing to the company's growth, with Google Search and other revenue increasing 17% year over year in the second quarter.
+  – AI is also becoming a major revenue accelerator as Google reported an 82% year-over-year increase in Cloud revenue in the second quarter.
+  – The company also exited the quarter with a backlog of about $514 billion as it continues to provide infrastructure chips and software companies need to deploy AI applications.
+Link: https://finance.yahoo.com/technology/ai/articles/tigress-raises-alphabet-googl-price-102901909.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 24/09 07h29
+id: E05-GOOGL-e7f0c0a360-2026-09-24 · status: pendente
 
 [ATENÇÃO] E05 · BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit…
 PR Newswire · 24/09 13h02 · fonte única · licença: integral
@@ -142,7 +158,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no PR Newswire: BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Loss…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 24/09 13h02
-id: E05-BABA-a9f3c927d5-2026-09-24 · status: pendente · íntegra disponível
+id: E05-BABA-a9f3c927d5-2026-09-24 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16% para 14,22%
 UOL Economia · 24/09 12h55 · fonte única · licença: manchete
@@ -151,7 +167,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no UOL Economia: Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16% para 14,22%; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 24/09 12h55
-id: E05-DI-d526cb62a5-2026-09-24 · status: pendente
+id: E05-DI-d526cb62a5-2026-09-24 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale recebe aval da Justiça para retomar mina suspensa após vazamento em MG
 Estadao · 24/09 09h20 · fonte única · licença: manchete
@@ -322,8 +338,20 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (111)
+## OUTRAS NOTÍCIAS (só manchete) (123)
 
+· GOOGL BNP Paribas expands Google Cloud pact to support agentic AI (BNPQF:OTCMKTS) (Seeking Alpha) https://seekingalpha.com/news/4646791-bnp-paribas-expands-google-cloud-pact-to-support-agentic-ai
+· PETR4 Petrobras vê consenso para acordo da Braskem com credores (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-ve-consenso-para-acordo-da-braskem-com-credores
+· GOOGL The Mutual Group Selects Nativeorange to Power Next Generation Underwriting Workbench Built with Google Cloud (Business Wire) https://www.businesswire.com/news/home/20260924718331/en/The-Mutual-Group-Selects-Nativeorange-to-Power-Next-Generation-Underwriting-Workbench-Built-with-Google-Cloud
+· INTC Meta’s AI Agents Are Putting CPUs In Data Centers, But That’s Not Bullish For Intel (INTC) (Seeking Alpha) https://seekingalpha.com/article/4949490-meta-ai-agents-are-putting-cpus-in-data-centers-but-thats-not-bullish-for-intel
+· GOOGL BNP Paribas And Google Cloud Announce New Partnership (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUAKNZDC:0-bnp-paribas-and-google-cloud-announce-new-partnership/
+· GOOGL BNP Paribas to keep sensitive data off public cloud despite Google deal (Reuters) https://www.reuters.com/legal/litigation/bnp-paribas-keep-sensitive-data-off-public-cloud-despite-google-deal-2026-09-24/
+· UST Midday Need to Know: Treasury yields climb, GoDaddy jumps & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4646754-midday-need-to-know-treasury-yields-climb-godaddy-jumps-more
+· BTC Crypto for Advisors:The hidden costs of holding your own bitcoin (CoinDesk) https://www.coindesk.com/coindesk-indices/2026/09/24/crypto-for-advisors-the-hidden-costs-of-holding-your-own-bitcoin
+· TSLA Tesla's Biggest Semi Deal Yet: Is TSLA Stock a Buy Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:94f0418f9094b:0-tesla-s-biggest-semi-deal-yet-is-tsla-stock-a-buy-now/
+· BTC Current price of Bitcoin for Sept. 24, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZkFVX3lxTE5acVI0RXl6QzNHRzhQeGhGZEpJOUpzbGRDTHVoc0hLeEt6aldVOTdtcVR4RERJYTl5eDlIWXE2UDZUNmtBd0txTTdLXzcycnd5SkFZUXl0U2dPVGIwdVpQZmlzMEgxZw?oc=5
+· NVDA NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYWl2NEltMGhmNGVNejN0SzlrbThJQVpuSnVOYzFmZTUtTjR1WTFMclUwRGliTFBEUkd4T3JndlpMZTdGUUVKVEU4Q2hZNVhQWGFrRjh3ZXFxZ2QyWURMSXlQaTZ0TFZJMjdEckhKTEZTV2d0Sy0xVWJLdG8tQ3RZY1h4N1hkTXBPbjhWWmhpT1phWmtaN0lBcFhscjdhSURVS25zd0Y5S0pjQzlaZ0pmeGdwbjI1enpaSTRwelBILUw?oc=5
+· BRENT Dólar avança e Bolsa cai com petróleo em alta e juros dos EUA no radar dos investidores (Folha de S.Paulo) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVG5vOW5kTHlheUN2ajhfQi1qTThMUjl4QjJaU0phQ0I1b3pNYXNlT1Y5MmI0LWs1dUgyYTkxQUtwZ201OWpVSDBVLXRiNFFKTVFEWmdqV3hiYW4zMXVjZTdsdGN3SmpXWW82ejJlSkZCOGFka2MwbC1YZndTRmlkNmllNnpseDVMb1dPU3NoQk96WTE1ejRMOUZfSHMyb3ZQaV9DeDJTVEJaWW1ZVXRYVDRYR3NhVEczQ3Y2VEREVTJqdTg?oc=5
 · UST Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know (CNBC) https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html
 · GOOGL BNP Paribas and Google Cloud Announce New Partnership on Agentic AI and Cloud Innovation (PR Newswire) https://www.prnewswire.com/news-releases/bnp-paribas-and-google-cloud-announce-new-partnership-on-agentic-ai-and-cloud-innovation-302888664.html
 · DI Copom aponta desaceleração da economia e defende juros restritivos em ata (Estadao) https://www.estadao.com.br/em-alta/economia/ata-copom-desaceleracao-economia-juros-restritivos/
@@ -372,16 +400,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · USDBRL Dólar sobe ante real sob influência do exterior e antes de nova pesquisa (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/09/24/dolar-sobe-ante-real-sob-influencia-do-exterior-e-antes-de-nova-pesquisa.htm
 · VALE3 Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24) (Money Times) https://www.moneytimes.com.br/yduqs-yduq3-vale-vale3-oncoclinicas-e-outros-destaques-desta-quinta-feira-24-lmrs/
 · NVDA Nvidia Snaps 5-Day Winning Streak After $300 Million Insider Sale (Yahoo Finance) https://sg.finance.yahoo.com/news/nvidia-snaps-5-day-winning-124417060.html
-· USDBRL Dólar abre em alta com mercado repercutindo relatório de política monetária (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-24-setembro-2026/
-· UST Xi arrives in D.C., Treasury yields hit multiyear highs, McDonald's growth plan and more in Morning Squawk (CNBC) https://www.cnbc.com/2026/09/24/5-things-to-know-before-the-stock-market-opens.html
-· USDBRL Dólar hoje sobe em linha com exterior, com Trump-Xi e relatório do BC no radar (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24092026/
-· USDBRL Ibovespa futuro cai com projeções do BC, cenário eleitoral e exterior; dólar sobe (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-24-9-26-lils/
-· USDBRL Dólar à vista sobe, em linha com o fortalecimento global da moeda americana (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/24/dolar-a-vista-sobe-em-linha-com-o-fortalecimento-global-da-moeda-americana.ghtml
-· AMD AMD's Six-Day Rally Finally Hits a Pause (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTl4SGNTUXNKWkFJZWU3Yjlabm1BaC04V2Z3T292S3BlNnkxS2VUMTZWQTBRR2NzZHhpazN3eW82RmpKZ1huQ3F1V2pydDRrVnFLWnNYaV9XM2FlN2FtNzFUVWVUckJ1ekRDck43U1E3TEs4allxNmh6X2x4S2lFeE01UXMxemNBU0VtSEZxWTljNHZ6bkZxUVRBLWRRcmxIQUE?oc=5
-· BRENT Dólar sobe a R$ 5,18, com petróleo e relatório de política monetária no dia (UOL Economia) https://news.google.com/rss/articles/CBMitAFBVV95cUxNNEpwUmVvQ203WWlCRjNxVndVcWFQQXh5bEExLXc2Q3JwWUl4N3BBVnpDU2JQY0QzNzNRczZ6TzNBdC1EdTdEUEJTckxwWkZ5dHp1V1dGalVSYTdmTHFGUGJDRUx4ZzFxbE1LTndJVTY3X2g1dDNtakI0OFdaVVFyMVlKNWdwelR4UUt0Q01MTGFBd0dWd2NkSG1zN3JNMG5fZGNJZThjVnZPVUJRMjU1Mmg1Zi0?oc=5
-· MU Micron's Memory Boom Is Showing Up in Prices (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxORmNnakE3NThvcjhTUUpWMEs0UUxmQWg3cjExWWxsdHdUSUs3Y0pabTIzR05WVGdPUmRMUkprVlNYdndvOERtdGZtRWUyLW9yVEZyOTR0dXRhNjZZSjJ4Mk10eWlUTHR6aUR6Uk50cW5zS0VadjBLdlNxUEpnTlpkckRlMGpXclFpWkZ0TFFfMnMyTVAyd1BGWVRxSFRNaUo2YUYyNVFKcw?oc=5
-· VALE3 Agenda de empresas: Afya e Yduqs assinam acordo de fusão; Vale retoma operação na Mina de Fábrica (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/24/agenda-de-empresas-afya-e-yduqs-assinam-acordo-de-fusao-vale-retoma-operacao-na-mina-de-fabrica.ghtml
-· VALE3 Momento B3: Log CP, Oncoclínicas, Vale, Hypera e os principais destaques desta quinta-feira (24) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-log-cp-oncoclinicas-vale-hypera-e-os-principais-destaques-desta-quinta-feira-24
-· BTC Bitcoin Drops as Rising Yields and Dollar Weigh on Crypto (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-24/bitcoin-btc-drops-as-rising-yields-and-dollar-weigh-on-crypto
-· BAC Bank of America: A Decent Value Play Amid A Sharp Selloff (Upgrade) (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4949357-bank-of-america-decent-value-play-amid-sharp-selloff-upgrade
-· (+51 manchetes; lista completa em eventos/noticias.json)
+· (+63 manchetes; lista completa em eventos/noticias.json)
