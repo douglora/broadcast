@@ -58,6 +58,12 @@ FAMILIAS = [("acoes", r"gama|acoes"),
             ("renda_fixa", r"ipca|dakar|rf|renda.fixa|andes|alpes|nepal|himalaia|mont.blanc|incentivado|oportunidade|prev.cp"),
             ("infra", r"ipv|infra")]
 
+# Cartas por mes e familia. O texto macro se repete entre os fundos da mesma familia (mudam so as
+# tabelas de desempenho), entao poucas cartas representativas cobrem o mes; o resto vira ruido.
+POR_MES = {"multimercado": 4, "acoes": 3}
+PRIORIDADE = [r"atlas.*geral|^atlas$", r"chronos.*geral|^chronos$", r"apolo.*geral|^apolo$", r"^sigma$|prev sigma",
+              r"gama.*geral|^gama$", r"^prev acoes$", r"artemis.*geral"]
+
 _ULTIMA_KINEA = [0.0]
 
 
@@ -441,6 +447,30 @@ def descobrir_por_padrao(achadas, desde, log, slugs=SLUGS_PADRAO):
     return n
 
 
+def selecionar_cartas(achadas, desde, familias, por_mes=POR_MES):
+    """Poucas cartas por mes e familia, na ordem de PRIORIDADE; as informadas a mao entram todas."""
+    grupos = {}
+    for url, meta in achadas.items():
+        mes = mes_da_carta(url) or ""
+        fundo = fundo_da_carta(url)
+        fam = familia(fundo)
+        if meta["descoberta"] == "informada":
+            grupos.setdefault(("informada", mes), []).append((0, url, meta))
+            continue
+        if not mes or mes < desde or fam not in familias:
+            continue
+        nome = _sem_acento(fundo)
+        prio = next((i for i, rx in enumerate(PRIORIDADE) if re.search(rx, nome)), len(PRIORIDADE))
+        grupos.setdefault((fam, mes), []).append((prio, url, meta))
+    escolhidas = []
+    for (fam, mes), itens in grupos.items():
+        itens.sort(key=lambda x: (x[0], x[1]))
+        limite = None if fam == "informada" else por_mes.get(fam, 2)
+        escolhidas.extend((mes, url, meta) for _, url, meta in itens[:limite])
+    escolhidas.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return escolhidas
+
+
 def texto_do_pdf(conteudo):
     from pypdf import PdfReader
     leitor = PdfReader(io.BytesIO(conteudo))
@@ -448,7 +478,7 @@ def texto_do_pdf(conteudo):
     return "\n\n".join(f"[p. {i + 1}] {t.strip()}" for i, t in enumerate(paginas)), len(paginas)
 
 
-def coletar_cartas(saida, desde, urls_extras, falhas, max_cartas=160):
+def coletar_cartas(saida, desde, urls_extras, falhas, familias=("multimercado", "acoes"), max_cartas=300):
     pasta = os.path.join(saida, "cartas")
     os.makedirs(pasta, exist_ok=True)
     antigo = {}
@@ -464,13 +494,8 @@ def coletar_cartas(saida, desde, urls_extras, falhas, max_cartas=160):
     metodos["padrao"] = descobrir_por_padrao(achadas, desde, log)
     metodos["informadas"] = sum(1 for v in achadas.values() if v["descoberta"] == "informada")
     print(f"== cartas: {len(achadas)} PDFs achados {metodos}")
-    escolhidas = []
-    for url, meta in achadas.items():
-        mes = mes_da_carta(url)
-        if meta["descoberta"] != "informada" and (mes is None or mes < desde):
-            continue
-        escolhidas.append((mes or "", url, meta))
-    escolhidas.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    escolhidas = selecionar_cartas(achadas, desde, set(familias))
+    print(f"   escolhidas {len(escolhidas)} (familias {sorted(familias)}, ate {POR_MES} por mes)")
     cartas, textos = [], {}
     for mes, url, meta in escolhidas[:max_cartas]:
         arquivo = re.sub(r"[^A-Za-z0-9_.-]+", "_", os.path.basename(url.split("?")[0]))[:120]
@@ -501,6 +526,10 @@ def coletar_cartas(saida, desde, urls_extras, falhas, max_cartas=160):
         if textos[c["sha1_texto"]] != c["arquivo"]:
             c["texto_igual_a"] = textos[c["sha1_texto"]]
     cartas.sort(key=lambda c: (c.get("mes_ref") or "", c.get("fundo") or ""), reverse=True)
+    no_indice = {os.path.basename(c["arquivo"]) for c in cartas}
+    for nome in os.listdir(pasta):
+        if nome.endswith(".txt") and nome not in no_indice:
+            os.remove(os.path.join(pasta, nome))
     idx = {"gerado_em": agora(), "fonte": f"{SITE} (PDF da Carta do Gestor, texto extraido com pypdf)",
            "desde": desde, "cartas": cartas, "metodos": metodos, "log": log[:60]}
     with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
@@ -516,6 +545,7 @@ def main(argv=None):
     ap.add_argument("--tickers", default=",".join(CONSTRUTORAS), help="tickers acompanhados fundo a fundo")
     ap.add_argument("--cartas-desde", default="2025-07", help="mes de referencia inicial das cartas (AAAA-MM)")
     ap.add_argument("--urls", default="", help="URLs extras de PDF de carta, separadas por espaco")
+    ap.add_argument("--familias", default="multimercado,acoes", help="familias de carta a guardar (multimercado, acoes, renda_fixa, infra, outros)")
     ap.add_argument("--so-cartas", action="store_true")
     ap.add_argument("--so-cda", action="store_true")
     a = ap.parse_args(argv)
@@ -533,7 +563,8 @@ def main(argv=None):
             manifest["partes"]["cda"] = "falhou"
     if not a.so_cda:
         try:
-            manifest["partes"]["cartas"] = coletar_cartas(a.saida, a.cartas_desde, a.urls.split(), falhas)
+            familias = tuple(f.strip() for f in a.familias.split(",") if f.strip())
+            manifest["partes"]["cartas"] = coletar_cartas(a.saida, a.cartas_desde, a.urls.split(), falhas, familias)
         except Exception as e:
             falhas.append(f"cartas: {type(e).__name__}: {e}")
             manifest["partes"]["cartas"] = "falhou"
