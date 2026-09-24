@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 24/09 16h21
+NOTÍCIAS E FATOS · 24/09 17h21
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 463 veículo fora da lista, 54 sem ativo, 12 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 461 veículo fora da lista, 51 sem ativo, 8 teto) · cvm ok 1 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (10)
 
 [ATENÇÃO] E03 · DIRR3 · Participação relevante: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento)
 CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -30,6 +30,15 @@ Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou , nesta data, o resgate de 70…'
 Fonte: CVM 22/09
 id: E03-AXIA3-1570292-2026-09-22 · status: expirado · íntegra disponível
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 24/09/2026 17:00 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571217
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 24/09
+id: E03-VALE3-1571217-2026-09-24 · status: linha
 
 [INFO] E03 · MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 24/09/2026 09:31 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -338,8 +347,21 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (150)
+## OUTRAS NOTÍCIAS (só manchete) (163)
 
+· BRENT Dólar sobe a R$ 5,19 e Bolsa cai com petróleo em alta e política monetária no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/24/dolar-bolsa-fechamento-hoje-24-de-setembro-de-2026.ghtm
+· USDBRL Dólar à vista fecha em alta de 0,47%, a R$5,1931 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-047-a-r51931-na-venda-2074823
+· AMZN Amazon Faces Another Worker Lawsuit. Is Employment Scrutiny Becoming an Investor Risk? (Ready for Vardah) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-faces-another-worker-lawsuit-200857426.html
+· BBDC4 Cogna (COGN3) ainda pode subir 35%, mas Bradesco BBI faz um alerta para quem está de olho na ação (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/cogna-cogn3-rebaixada-bradesco-bbi-yduqs-afya-fusao-isca/
+· PETR4 Petrobras amplia vendas de petróleo para Ásia em meio a tensão global (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-amplia-vendas-de-petroleo-para-asia-em-meio-a-tensao-global/
+· PETR4 Petrobras já tem diesel contratado para outubro, diz Magda Chambriard (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-ja-tem-diesel-contratado-para-outubro-diz-magda-chambriard/
+· MELI34 Mercado Livre anuncia modalidade de entrega de mercadorias em até 1 hora (Estadao) https://www.estadao.com.br/economia/negocios/mercado-livre-anuncia-modalidade-de-entrega-de-mercadorias-em-ate-1-hora/
+· AVGO Broadcom Falls 2% as $230 Billion AI Target Doubles the Delivery Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:25e5fb67a094b:0-broadcom-falls-2-as-230-billion-ai-target-doubles-the-delivery-test/
+· BTC VanEck drops a surprising Bitcoin-bond correlation reality check (Yahoo Finance) https://sg.finance.yahoo.com/news/vaneck-drops-surprising-bitcoin-bond-191418186.html
+· PLTR Palantir Slips as Karp Puts Liability Before AI Listings (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantir-slips-karp-puts-liability-191214673.html
+· COHR Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coherent-ripped-59-2026-too-190744550.html
+· NVDA OpenAI’s former head of data centers joins Nvidia (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/openai-former-head-data-centers-184147349.html
+· NVDA Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now (TradingView (Reuters)) https://www.tradingview.com/news/zacks:524c66f0b094b:0-marvell-vs-nvidia-one-ai-stock-looks-like-the-better-buy-now/
 · BABA Alibaba Group Holding Limited (BABA) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/alibaba-group-holding-limited-baba-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302888770.html
 · PETR4 Petrobras garante diesel para outubro e amplia produção diante de risco de importações (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-garante-diesel-para-outubro-e-amplia-producao-diante-de-risco-de-importacoes
 · MELI34 Mercado Livre anuncia entrega em até 1 hora em SP e venda de remédios com receita (InfoMoney) https://www.infomoney.com.br/business/mercado-livre-anuncia-entrega-em-ate-1-hora-em-sp-e-venda-de-remedios-com-receita/
@@ -387,17 +409,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · USDBRL Dólar opera em alta e bate R$ 5,19, com reunião entre Trump e Xi Jinping no foco; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/09/24/dolar-ibovespa.ghtml
 · UST Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy (CNBC) https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html
 · DI Selic a 13,75% e caindo: onde deixar a reserva de emergência agora (Suno Noticias) https://www.suno.com.br/noticias/selic-caindo-onde-deixar-reserva-emergencia-gss/
-· MRVL Marvell Just Unveiled a 2nm Breakthrough for AI Data Centers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6434a3605094b:0-marvell-just-unveiled-a-2nm-breakthrough-for-ai-data-centers/
-· INTC TD Cowen reiterates Intel stock rating on foundry progress view (Investing.com) https://www.investing.com/news/analyst-ratings/td-cowen-reiterates-intel-stock-rating-on-foundry-progress-view-93CH-4915686
-· JPM Can Private Credit Unlock More Growth for JPMorgan's Card Business? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:c6053a517094b:0-can-private-credit-unlock-more-growth-for-jpmorgan-s-card-business/
-· BAC Can Bank of America Sustain Revenue Growth on Stronger Loans & NII? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:cf4845dc7094b:0-can-bank-of-america-sustain-revenue-growth-on-stronger-loans-nii/
-· AMD AMD's Six-Day Rally Finally Hits a Pause (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:4317e4c28094b:0-amd-s-six-day-rally-finally-hits-a-pause/
-· BRENT Dólar ronda R$ 5,18 e Bolsa cai, com petróleo e política monetária no radar (UOL Economia) https://news.google.com/rss/articles/CBMitAFBVV95cUxNNEpwUmVvQ203WWlCRjNxVndVcWFQQXh5bEExLXc2Q3JwWUl4N3BBVnpDU2JQY0QzNzNRczZ6TzNBdC1EdTdEUEJTckxwWkZ5dHp1V1dGalVSYTdmTHFGUGJDRUx4ZzFxbE1LTndJVTY3X2g1dDNtakI0OFdaVVFyMVlKNWdwelR4UUt0Q01MTGFBd0dWd2NkSG1zN3JNMG5fZGNJZThjVnZPVUJRMjU1Mmg1Zi0?oc=5
-· BRENT Dólar abre influenciado por petróleo e relatório de política monetária do BC (UOL Economia) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQm51YnNCa2libl9mNWQzRDFESnFuc3lrMEo0TUM2M1VEYWV0MVlGMV9OejU1TWpib0V4V0U3UUFyREVoSklTOGlZS3Zocm16WXZDRkJpU3VYd19ZaDltTzNVRU9Hck0xMnVYcVFtdXVwWm1KTTB5NjRTcWxoVGM5OEh5Y3I2TkFWcEtiWS1rVnphV3hRbGFxc005Um4tVC1JSVJkMmpRUklsdkY1N3RtNExxWnpQSUhX?oc=5
-· MU Micron's Memory Boom Is Showing Up in Prices (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxORmNnakE3NThvcjhTUUpWMEs0UUxmQWg3cjExWWxsdHdUSUs3Y0pabTIzR05WVGdPUmRMUkprVlNYdndvOERtdGZtRWUyLW9yVEZyOTR0dXRhNjZZSjJ4Mk10eWlUTHR6aUR6Uk50cW5zS0VadjBLdlNxUEpnTlpkckRlMGpXclFpWkZ0TFFfMnMyTVAyd1BGWVRxSFRNaUo2YUYyNVFKcw?oc=5
-· UST Why Today’s 7-Year Treasury Auction Matters for Bond Yields (Barron's) https://www.barrons.com/articles/seven-year-treasury-auction-bond-yields-fdd4bf3e
-· PETR4 Petrobras atrasa em 1 ano unidades dedicadas à produção de SAF; avança em coprocessamento (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G0YA:0/
-· MU 3 things Micron investors need to watch as the stakes get higher (MarketWatch) https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e
-· PETR4 Petrobras diz que próximo plano de negócios 2027-2031 terá grande foco em transição energética (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/24/petrobras-diz-que-proximo-plano-de-negocios-2027-2031-tera-grande-foco-em-transicao-energetica.ghtml
-· TSLA UBS maintains Tesla stock neutral rating ahead of Q3 deliveries (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-maintains-tesla-stock-neutral-rating-ahead-of-q3-deliveries-93CH-4915654
-· (+90 manchetes; lista completa em eventos/noticias.json)
+· (+103 manchetes; lista completa em eventos/noticias.json)

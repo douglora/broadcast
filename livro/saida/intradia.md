@@ -1,1 +1,1 @@
-16h21 · sem alerta novo · coleta 16h21 OK (UCITS fecharam: VWRA -1,6%, CSPX -1,2%, CNDX -1,3%, VHYA -1,5%)
+17h21 · sem alerta novo · coleta 17h21 OK (UCITS fecharam: VWRA -1,6%, CSPX -1,2%, CNDX -1,3%, VHYA -1,5%)

@@ -2,20 +2,20 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 BABA · Alibaba Group Holding Limited (BABA) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit
-· E05 PETR4 · Petrobras garante diesel para outubro e amplia produção diante de risco de importações
-· E05 MELI34 · Mercado Livre anuncia entrega em até 1 hora em SP e venda de remédios com receita
-· E05 PETR4 · Petrobras conversa com Exxon sobre licença de blocos na Margem Equatorial
-· E05 UST · Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed
-· E05 USDBRL · Ouro fecha em queda com avanço dos juros dos Treasuries e do dólar
-· E05 MELI34 · Mercado Livre vai vender medicamento com receita — incluindo Ozempic
-· E05 NVDA · Former OpenAI data center chief Chris Malone is now at Nvidia - The Information
-· E05 PETR4 · ‘Não há por que falar em injeção de recursos na Braskem’, diz presidente da Petrobras
-· E05 MU · EXCLUSIVE: Micron’s Low P/E May Be Lying to Investors
-· E05 GOOGL · Alphabet Drops Below $350: Buying Opportunity or the Start of Something Worse?
-· E05 BRENT · Brent Climbs Above $107 After Houthi Attack Against Saudi Arabia Sites
-· E05 UST · U.S. Treasury Yields Hit Multiyear Highs on Economic Data, Fed Rate-Boost Expectations
-· E05 UST · Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 BRENT · Dólar sobe a R$ 5,19 e Bolsa cai com petróleo em alta e política monetária no radar
+· E05 USDBRL · Dólar à vista fecha em alta de 0,47%, a R$5,1931 na venda Por Reuters
+· E05 AMZN · Amazon Faces Another Worker Lawsuit. Is Employment Scrutiny Becoming an Investor Risk? (Ready for Vardah)
+· E05 BBDC4 · Cogna (COGN3) ainda pode subir 35%, mas Bradesco BBI faz um alerta para quem está de olho na ação
+· E05 PETR4 · Petrobras amplia vendas de petróleo para Ásia em meio a tensão global
+· E05 PETR4 · Petrobras já tem diesel contratado para outubro, diz Magda Chambriard
+· E05 MELI34 · Mercado Livre anuncia modalidade de entrega de mercadorias em até 1 hora
+· E05 AVGO · Broadcom Falls 2% as $230 Billion AI Target Doubles the Delivery Test
+· E05 BTC · VanEck drops a surprising Bitcoin-bond correlation reality check
+· E05 PLTR · Palantir Slips as Karp Puts Liability Before AI Listings
+· E05 COHR · Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now?
+· E05 NVDA · OpenAI’s former head of data centers joins Nvidia
+· E05 NVDA · Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now
 
 
 Alertas do dia (todos, com status):
@@ -57,7 +57,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
 · entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, C
 · linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
-· linha     F03 BRENT — Brent sobe a US$ 107,08 (+3,9% no dia) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 107,57 (+4,4% no dia) (parcial, intradia)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
 · linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
 · linha     T02 JPM — JPM perdeu a MM50 pela 2ª sessão: US$ 337,53, ainda acima da MM200 (tendência lo
@@ -70,4 +70,4 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+166 notícias só manchete, em noticias.md)
+· (+180 notícias só manchete, em noticias.md)
