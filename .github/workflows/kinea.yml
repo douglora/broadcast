@@ -1,0 +1,99 @@
+name: Kinea (carteira na CVM e cartas do gestor)
+
+# Baixa a carteira mensal dos fundos Kinea na CVM (CDA, dados abertos) e as cartas
+# do gestor em PDF no site da Kinea, extrai o texto e grava em kinea/ no branch
+# `dados`. A sessao do Claude le com `python3 mesa.py kinea`.
+
+on:
+  workflow_dispatch:
+    inputs:
+      meses:
+        description: "Quantos meses de carteira (CDA) buscar na CVM, dos mais novos"
+        required: false
+        default: "12"
+        type: string
+      cartas_desde:
+        description: "Mes de referencia inicial das cartas (AAAA-MM)"
+        required: false
+        default: "2025-07"
+        type: string
+      urls:
+        description: "URLs extras de PDF de carta, separadas por espaco (opcional)"
+        required: false
+        default: ""
+        type: string
+  schedule:
+    # Dia 12 de cada mes, 08h40 em Brasilia: a CDA do mes anterior ja esta na CVM
+    - cron: "40 11 12 * *"
+    # Dias 2 a 6, 09h40 em Brasilia: as cartas do mes saem na primeira semana
+    - cron: "40 12 2-6 * *"
+  push:
+    branches: [main]
+    paths:
+      - "kinea.py"
+      - ".github/workflows/kinea.yml"
+
+permissions:
+  contents: write
+
+# Mesmo grupo do coletor: um push por vez no branch dados
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  kinea:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Abrir o branch de dados
+        uses: actions/checkout@v4
+        with:
+          ref: dados
+          path: dados_branch
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests pandas pypdf
+
+      - name: Coletar carteira e cartas
+        env:
+          MESES: ${{ inputs.meses }}
+          DESDE: ${{ inputs.cartas_desde }}
+          URLS: ${{ inputs.urls }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          ARGS=""
+          # Nas agendas das cartas (dias 2 a 6) a CDA nao muda: so as cartas
+          if [ "$EVENTO" = "schedule" ] && [ "$(date -u +%d)" != "12" ]; then ARGS="--so-cartas"; fi
+          python kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" --urls "$URLS" $ARGS
+
+      - name: Publicar no branch dados
+        run: |
+          cd dados_branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A kinea
+          if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
+          git commit -q -m "Kinea: carteira CDA e cartas do gestor ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase -q && sleep 5
+          done
+
+      - name: Resumo
+        run: |
+          echo "### Kinea" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          m = json.load(open("dados_branch/kinea/manifest.json"))
+          for parte, v in m["partes"].items():
+              print(f"- **{parte}**: `{json.dumps(v, ensure_ascii=False)[:300]}`")
+          for f in m.get("falhas", [])[:20]:
+              print(f"  - falha: {f}")
+          PY

@@ -35,7 +35,7 @@ do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
   faltando ou invalida vira a primeira linha da resposta, nunca silencio.
 - Leia o branch pelo `mesa.py` (`python3 mesa.py ficha TICKER`, `pares`,
   `releases`, `release TICKER 2T25 --grep ...`, `linha TICKER "meta|guidance"`,
-  `decompor TICKER`, `termos`), nao por script avulso: e a leitura
+  `decompor TICKER`, `termos`, `kinea`), nao por script avulso: e a leitura
   padronizada da mesa.
 - Frescor E cobertura antes de escrever, as duas (skill `dados-completos`,
   .claude/skills/dados-completos/SKILL.md): `python3 mesa.py frescor TICKER`
@@ -75,6 +75,10 @@ aberta:
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/comparativos/<grupo>.json`
   (tabela de pares do grupo com medianas; grupos em `pares.py`)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/index.json`
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/kinea/cda.json` e
+  `.../kinea/cartas/index.json` (carteira mensal dos fundos Kinea na CVM, com as
+  construtoras fundo a fundo, e as cartas do gestor na integra, em texto;
+  workflow `kinea.yml`; leitura por `python3 mesa.py kinea`)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/snapshot/<arquivo>.json`
   (quotes, indicators, tesouro, di, cvm, news, tir_all, weekly_summary, manifest)
 
