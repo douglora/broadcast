@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 12h49
+NOTÍCIAS E FATOS · 24/09 13h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 477 veículo fora da lista, 51 sem ativo, 18 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 482 veículo fora da lista, 50 sem ativo, 0 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -126,7 +126,32 @@ Fonte: SEC EDGAR 2026-09-22
 id: E04-BABA-26109625-2026-09-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit…
+PR Newswire · 24/09 13h02 · fonte única · licença: integral
+Do texto:
+  – 24, 2026 /PRNewswire/ -- Hagens Berman Sobol Shapiro LLP urges Alibaba Group Holding Limited (NYSE: BABA) investors who suffered substantial losses submit their losses now.
+  – Alibaba Group Holding Limited, et al., No. 1:26-cv-06654 (S.D.N.Y.), accuses Alibaba and certain of its executive officers of violating the Securities Exchange Act of 1934.
+  – Class Period: June 26, 2025 – June 24, 2026 Lead Plaintiff Deadline: Oct.
+  – The Truth Emerges The truth regarding Alibaba's regulatory exposure and illicit business practices was revealed through a series of partial corrective disclosures: - June 8, 2026: The U.S.
+  – On this news, Alibaba ADSs fell $4.69 per share, or 3.9%, over two trading sessions.
+  – - June 24, 2026: Bloomberg reported that Anthropic alerted U.S.
+Link: https://www.prnewswire.com/news-releases/baba-11-day-deadline-alert-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-shareholder-class-action-lawsuit-before-october-5-2026-lead-plaintiff-deadline-302889406.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no PR Newswire: BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with Substantial Loss…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 24/09 13h02
+id: E05-BABA-a9f3c927d5-2026-09-24 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16% para 14,22%
+UOL Economia · 24/09 12h55 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/24/projecao-de-planejamento-e-fazenda-para-selic-acumulada-2026-passa-de-1416-para-1422.htm
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no UOL Economia: Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16% para 14,22%; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 24/09 12h55
+id: E05-DI-d526cb62a5-2026-09-24 · status: pendente
 
 [ATENÇÃO] E05 · VALE3 · Vale recebe aval da Justiça para retomar mina suspensa após vazamento em MG
 Estadao · 24/09 09h20 · fonte única · licença: manchete
@@ -297,8 +322,14 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (105)
+## OUTRAS NOTÍCIAS (só manchete) (111)
 
+· UST Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know (CNBC) https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html
+· GOOGL BNP Paribas and Google Cloud Announce New Partnership on Agentic AI and Cloud Innovation (PR Newswire) https://www.prnewswire.com/news-releases/bnp-paribas-and-google-cloud-announce-new-partnership-on-agentic-ai-and-cloud-innovation-302888664.html
+· DI Copom aponta desaceleração da economia e defende juros restritivos em ata (Estadao) https://www.estadao.com.br/em-alta/economia/ata-copom-desaceleracao-economia-juros-restritivos/
+· TSLA UBS maintains Tesla stock neutral rating ahead of Q3 deliveries By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/ubs-maintains-tesla-stock-neutral-rating-ahead-of-q3-deliveries-93CH-4881771
+· NVDA NVIDIA Corporation (NVDA) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/NVDA/
+· USDBRL Dólar opera em alta e bate R$ 5,19, com reunião entre Trump e Xi Jinping no foco; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/09/24/dolar-ibovespa.ghtml
 · UST Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy (CNBC) https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html
 · DI Selic a 13,75% e caindo: onde deixar a reserva de emergência agora (Suno Noticias) https://www.suno.com.br/noticias/selic-caindo-onde-deixar-reserva-emergencia-gss/
 · MRVL Marvell Just Unveiled a 2nm Breakthrough for AI Data Centers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6434a3605094b:0-marvell-just-unveiled-a-2nm-breakthrough-for-ai-data-centers/
@@ -353,10 +384,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · VALE3 Momento B3: Log CP, Oncoclínicas, Vale, Hypera e os principais destaques desta quinta-feira (24) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-log-cp-oncoclinicas-vale-hypera-e-os-principais-destaques-desta-quinta-feira-24
 · BTC Bitcoin Drops as Rising Yields and Dollar Weigh on Crypto (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-24/bitcoin-btc-drops-as-rising-yields-and-dollar-weigh-on-crypto
 · BAC Bank of America: A Decent Value Play Amid A Sharp Selloff (Upgrade) (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4949357-bank-of-america-decent-value-play-amid-sharp-selloff-upgrade
-· AMD AMD: AI Agents Give Its Memory Advantage A Much Bigger Market (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949356-amd-ai-agents-give-its-memory-advantage-a-much-bigger-market
-· BTC Bitcoin’s $100K Breakout Could Be Its 2008 Oil Moment, Mike McGlone Warns (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-100k-breakout-could-2008-105215079.html
-· USDBRL Encontro de Xi Jinping e Donald Trump divide agenda com relatório de política monetária e pesquisas eleitorais; Ibovespa em dólar cai nesta quinta-fe… (Money Times) https://www.moneytimes.com.br/encontro-de-xi-jinping-e-donald-trump-divide-agenda-com-relatorio-de-politica-monetaria-e-pesquisas-eleitorais-ibovespa-em-dolar-cai-nesta-quinta-feira-24-rens/
-· UST U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens (The Wall Street Journal) https://www.wsj.com/finance/u-s-treasury-yields-hover-close-to-multiyear-highs-a9126b6e
-· UST Spot Gold Falls to $4,267.43 as Treasury Yields and Rate Expectations Rise (Yahoo Finance) https://uk.finance.yahoo.com/news/spot-gold-falls-4-267-095759881.html
-· BRENT Gold Prices Decline as Markets Assess Higher Oil Prices and Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-prices-decline-markets-assess-095608720.html
-· (+45 manchetes; lista completa em eventos/noticias.json)
+· (+51 manchetes; lista completa em eventos/noticias.json)
