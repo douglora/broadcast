@@ -960,7 +960,8 @@ class Coleta:
         parcial = any(not (self.series_info.get(a.id) or {}).get("fresco", True) for a in eua)
         coleta_dia = relogios.brt(self.agora).date()
         hora_txt = relogios.fmt_brt(self.agora) + ("" if coleta_dia == self.hoje else f" de {fmt.data_br(coleta_dia.isoformat())}")
-        agenda_l = render.agenda(self.calendario, self.hoje, extras=render.agenda_extras(self.eventos.get("agenda") or {}, self.calendario))
+        agenda_l = render.agenda(self.calendario, self.hoje, extras=render.agenda_extras(self.eventos.get("agenda") or {}, self.calendario),
+                                 incluir_hoje=(self.modo == "manha"))
         a_txt = ("" if self.modo == "intradia" else
                  render.bloco_a(self.hoje, relogios_txt, do_dia, [], mov, curvas_l, agenda_l,
                                 lacunas, fontes, parcial=parcial, slot=self.modo, hora=hora_txt))
