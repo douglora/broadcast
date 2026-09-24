@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-09-24T01:29:44Z",
+ "gerado_em": "2026-09-24T01:45:59Z",
  "partes": {
   "cartas": {
-   "em": "2026-09-24T01:34:37Z",
+   "em": "2026-09-24T01:51:57Z",
    "resultado": {
     "cartas": 43,
     "metodos": {
@@ -25,7 +25,7 @@
    }
   },
   "documentos": {
-   "em": "2026-09-24T01:35:26Z",
+   "em": "2026-09-24T01:52:15Z",
    "resultado": {
     "pdfs": 14,
     "posts": 0,
@@ -33,18 +33,18 @@
    }
   },
   "videos": {
-   "em": "2026-09-24T01:40:38Z",
+   "em": "2026-09-24T01:53:22Z",
    "resultado": {
-    "videos": 37,
+    "videos": 6,
     "com_legenda": 0,
-    "erros": 13,
-    "fora_do_tema": 16,
+    "erros": 6,
+    "fora_do_tema": 4,
     "listagem": "yt-dlp"
    }
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
  ],
  "rodou": [
   "cartas",

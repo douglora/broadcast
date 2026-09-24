@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-09-24T01:40:38Z",
+ "gerado_em": "2026-09-24T01:53:22Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
- "fora_do_tema": 16,
+ "fora_do_tema": 4,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
   {
@@ -13,7 +13,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
   },
   {
    "id": "tpHBNW5ZLCc",
@@ -23,7 +23,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
   },
   {
    "id": "2kiNjyZxmq0",
@@ -33,7 +33,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
   },
   {
    "id": "kvh6MnqHKAY",
@@ -43,7 +43,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
   },
   {
    "id": "wAhbls4vkoo",
@@ -53,7 +53,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
   },
   {
    "id": "514VxHdelNQ",
@@ -63,392 +63,11 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "VhHDQtDG2S0",
-   "titulo": "Guerra EUA e Irã: qual o verdadeiro impacto? | Live Economia e Mercados ref. Fevereiro/2026",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=VhHDQtDG2S0",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "k60tlpSlocE",
-   "titulo": "A Erosão das Instituições e o Enfraquecimento do Dólar | Live Economia e Mercados ref. Janeiro/2026",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=k60tlpSlocE",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "klGNIPXwwWI",
-   "titulo": "Cartas a um Jovem Poeta | Live Economia e Mercados ref. Dezembro/2025",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=klGNIPXwwWI",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "DCvfNkXIC2c",
-   "titulo": "A Ilíada | Live Economia e Mercados ref. Novembro/2025",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=DCvfNkXIC2c",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "40E8hwSkztw",
-   "titulo": "O Fim da História e o Último Homem  | Live Economia e Mercados ref. Outubro/2025",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=40E8hwSkztw",
-   "data": null,
-   "descricao": "Receba a apresentação utilizada na live: https://www.kinea.com.br/livemensal/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de todos os conteúdos da Kinea: https://kinea.me/3KrOUkb\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\n\nSiga a Kinea no Linkedin:   / kinea-investimentos  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo...\nKinea Chronos: https://www.kinea.com.br/fundos/fundo...\nKinea Apolo: https://www.kinea.com.br/fundos/fundo...\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-...\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea...\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "_t09ws4qcZw",
-   "titulo": "A Odisseia | Live Economia e Mercados ref. Setembro/2025",
-   "aba": "streams",
-   "url": "https://www.youtube.com/watch?v=_t09ws4qcZw",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "1KCLxigyGxk",
-   "titulo": "Quem manda nos juros no Brasil? | Kafé com Kinea #58 com Gustavo Loyola",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=1KCLxigyGxk",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "XNKlvKgDbt4",
-   "titulo": "A Bolsa Brasileira Realmente Está Barata? | Resumo Kinea Insights",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=XNKlvKgDbt4",
-   "data": null,
-   "descricao": "A Bolsa brasileira está mesmo barata ou é uma ilusão dos múltiplos? Neste vídeo, Danilo Vasconcelos, analista de ações da Kinea, analisa o atual cenário do mercado acionário no Brasil, o impacto dos juros reais elevados no lucro das empresas e quais setores (como utilities e construção civil de baixa renda) oferecem mais previsibilidade.\n\nAssista ao vídeo Kinea Insights - O guia do mochileiro das galáxias:    • Um guia para o investidor da bolsa brasile...  \n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-i...\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "01R-xcr5OOA",
-   "titulo": "Um guia para o investidor da bolsa brasileira | Kinea Insights - O guia do mochileiro das galáxias",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=01R-xcr5OOA",
-   "data": null,
-   "descricao": "No novo Kinea Insights, exploramos como as escolhas do Brasil a partir de 2027 podem definir o rumo da nossa bolsa e onde estão as oportunidades.\nMúltiplos baixos, sozinhos, não significam oportunidade. Juros reais, crescimento dos lucros, composição da bolsa e prêmio de risco ajudam a explicar o aparente desconto.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos, Leandro Souza, Head de Research de Ações, Danilo Vasconcelos e Antonio Martins -  Analistas de ações.\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-i...\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "zMxIb6ODMWI",
-   "titulo": "Dívida Pública: O Desafio do Próximo Presidente no Brasil | Kinea Expresso #05",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=zMxIb6ODMWI",
-   "data": null,
-   "descricao": "",
-   "coleta": 2,
-   "erro": "android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
-  },
-  {
-   "id": "Ucxgs7iI7EU",
-   "titulo": "Como a tecnologia está transformando a assessoria de investimentos | Conexão Kinea",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=Ucxgs7iI7EU",
-   "data": null,
-   "descricao": "Assessoria de investimentos está passando por uma transformação estrutural no Brasil. Tecnologia, inteligência artificial e novos modelos de remuneração estão redefinindo a relação entre profissionais, plataformas e clientes.\n\nNeste episódio do Conexão Kinea, Ivan conversa com Julio, sócio da XP, sobre a evolução da atividade de assessoria nos últimos anos e os desafios que devem moldar a próxima década. A conversa aborda a ampliação da arquitetura aberta, o avanço do planejamento financeiro e patrimonial, o uso de CRM e dados para personalizar o atendimento e o papel da inteligência artificial na produtividade dos assessores.\n\nO debate também explora os diferentes formatos de relacionamento e remuneração, além da crescente importância de transparência, governança e reputação no mercado de investimentos. Para gestores, assessores e profissionais do setor, o episódio traz uma visão prática sobre como atender um cliente mais informado, exigente e com demandas financeiras cada vez mais complexas.\n\n\nConheça os fundos da Kinea: https://www.kinea.com.br\n\n#KineaInvestimentos #AssessoriaDeInvestimentos #MercadoFinanceiro #InteligenciaArtificial #PlanejamentoFinanceiro",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "U1FfkTXr0CI",
-   "titulo": "IA: Por que os modelos mais baratos podem mudar tudo? | Corte da Live Economia e Mercados - Ago/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=U1FfkTXr0CI",
-   "data": null,
-   "descricao": "Assista a live na íntegra: https://youtube.com/live/zYBbPDmHp70\n\nReceba a apresentação utilizada na live: https://www.kinea.com.br/livemensal/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de todos os conteúdos da Kinea: https://kinea.me/3KrOUkb\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\n\nSiga a Kinea no Linkedin:   / kinea-investimentos  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo...\nKinea Chronos: https://www.kinea.com.br/fundos/fundo...\nKinea Apolo: https://www.kinea.com.br/fundos/fundo...\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-...\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea...\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "8JfTXxD9E9s",
-   "titulo": "Carteira Valoriza Mesmo com Volatilidade | KNHF - Ago/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=8JfTXxD9E9s",
-   "data": null,
-   "descricao": "Fundos imobiliários caíram forte em agosto, e o KNHF não ficou imune: enquanto o IFIX recuou 1,47% no mês — em meio a uma sequência histórica de onze quedas consecutivas do Ibovespa, a pior desde 2023, puxada pela indefinição fiscal das eleições no Brasil e pela pressão de commodities e juros no exterior — a cota de mercado do KNHF caiu 2,69%. Neste vídeo, a gestão explica por que esse movimento reflete um prêmio de risco embutido pelo mercado, e não uma piora nos fundamentos: a cota patrimonial do fundo se valorizou 1,10% no período, ampliando o desconto entre preço de mercado e valor real da carteira — hoje, com cerca de 40% do portfólio em CRIs IPCA+ carregando próximo de IPCA+12,80% a.a. e outros 16% em CDI+6,20% a.a. no preço atual de mercado. O time também detalha as movimentações na carteira de CRI e FoF, a ausência de vacância nas lajes corporativas na Faria Lima, o avanço no pagamento estruturado do Edifício São Luís e a manutenção da distribuição de R$ 1,00 por cota, a ser paga em 11/09. Se você é cotista ou investidor de FIIs, entenda por que a correção do IFIX pode representar uma oportunidade de entrada com desconto.\n\nPor Yago Costa, do time de Relacionamento com Investidores.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o KNHF11, acesse: https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nBusque por nosso perfil @kineainvestimentos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "Dh2grrQ_rrM",
-   "titulo": "Fundo Vende Ativo com Lucro de 36% | KNRI e KORE - Ago/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=Dh2grrQ_rrM",
-   "data": null,
-   "descricao": "Fundo vende ativo com lucro de 36% sobre o laudo de avaliação: no update mensal de agosto de 2026, o KNRI (Kinea Renda Imobiliária) vendeu o galpão PIB Sumaré por R$ 26 milhões, enquanto o KORE (Kinea Oportunidades Real Estate) registrou novas locações nos edifícios Alameda Santos e Joaquim Floriano. O resultado combinado foi uma redução relevante nos indicadores de vacância física e financeira dos dois fundos imobiliários, com os rendimentos mantidos em R$ 1,10 por cota no KNRI e R$ 0,60 por cota no KORE, este último negociado com desconto no mercado secundário e dividend yield elevado na visão da gestão.\n\nPor Alessandro Estevam, integrante da equipe de gestão do KORE11 e KNRI11.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo em:\nKinea Renda (KNRI11): https://www.kinea.com.br/fundos/fundo...  \nKinea Oportunidades em Real Estate (KORE11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "kBaFVuJhvEs",
-   "titulo": "Juros americanos sobem, eleição se aproxima: como o KFOF no mês | KFOF - Ago/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=kBaFVuJhvEs",
-   "data": null,
-   "descricao": "Analisamos os principais fatores que movimentaram o mercado imobiliário em agosto de 2026, com destaque para a pressão do preço do petróleo, o discurso mais restritivo do Fed nos EUA e o impacto do cenário eleitoral brasileiro nas curvas de juros e no câmbio. Explicamos como a gestão do KFOF11 reagiu a esse ambiente de maior volatilidade, ajustando a posição em CRIs e mantendo uma postura seletiva no caixa para aproveitar o desconto patrimonial atual, além de detalharmos a distribuição de rendimentos e o guidance para o encerramento do ano.\n\nPor Pedro Massafelli, do time de gestão dos fundos imobiliários.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo em:\nKinea Fundo de Fundos FII (KFOF11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br\n \nBusque por nosso perfil @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "rvLiGCCGdOY",
-   "titulo": "Ibovespa Cai e Recupera Tudo | Fundos de ações - Ago/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=rvLiGCCGdOY",
-   "data": null,
-   "descricao": "Ibovespa encerrou agosto de 2026 praticamente estável, mas o mês foi marcado por duas quinzenas opostas: uma queda de 6% no início, com o pregão de 11/08 caindo 2,5%, a maior queda diária em cinco meses, em meio ao ruído de saída de capital estrangeiro, seguida por uma forte recuperação que zerou as perdas e manteve a alta acumulada em mais de 10% no ano. Lá fora, o S&P 500 subiu 2,5%, mas com dispersão relevante entre os setores, enquanto Kevin Warsh, presidente do Federal Reserve, reforçou o compromisso com a meta de inflação de 2% mesmo com condições financeiras ainda frouxas, e os lucros do segundo trimestre das empresas americanas cresceram cerca de 30%, mostrando que a força dos resultados vai além da inteligência artificial. No Brasil, o Copom cortou a Selic para 14% no quarto corte consecutivo, mantendo tom contracionista, enquanto a temporada de resultados decepcionou e o cenário eleitoral esquentou, com o gap entre os dois principais candidatos se comprimindo rumo a uma disputa presidencial apertada. Os FIAs da Kinea fecharam agosto em linha com o Ibovespa, sem destaques setoriais relevantes, e para setembro a atenção segue no espaço de corte do Copom, nos juros longos americanos e na aceleração da campanha eleitoral. \n\nPor Rafael Oliveira, gestor dos fundos de ações da Kinea.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no LinkedIn:\n  / kinea-investimentos  \n \nMais informações sobre os fundos de ações da Kinea em:\nKinea Gama: https://www.kinea.com.br/fundos/fundo...\nKinea Prev Ações: https://www.kinea.com.br/fundos/fundo...\nKinea Prev Ações XP: https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "FITFg5gD-Oc",
-   "titulo": "Eleição, legados fiscais e o preço das decisões do passado | Carta do Gestor - Ref Ago/26",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=FITFg5gD-Oc",
-   "data": null,
-   "descricao": "Neste mês mergulhamos nos principais temas que estão moldando o mercado financeiro global e brasileiro. Comparamos os desafios fiscais atuais com legados de decisões passadas que ainda assombram as projeções econômicas, analisando como o cenário pós eleições deve ditar o ritmo dos ajustes necessários no Brasil. No plano internacional, discutimos o impacto dos investimentos massivos em inteligência artificial sobre os juros americanos e como as tensões geopolíticas envolvendo Rússia e Irã continuam pressionando o preço de commodities essenciais como o petróleo. Além disso, detalhamos nossas estratégias de portfólio na Kinea Investimentos, explicando por que decidimos retomar posições em ativos de proteção como o ouro diante das incertezas globais. Leia a carta com a análise completa para entender como estamos posicionando nossos fundos para os próximos meses.\n\nBalanço mensal do mês de agosto de 2026 dos fundos multimercados da Kinea.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos da Kinea.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\nSiga a Kinea no Linkedin:   / kinea-investimentos  \n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo... \nKinea Chronos: https://www.kinea.com.br/fundos/fundo... \nKinea Apolo: https://www.kinea.com.br/fundos/fundo...\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-...\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea...\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestiementos no Instagram: \n  / kineainvestimentos  \n\nSiga também nosso canal de Cortes:    / @corteskinea  \n\nPara ler a carta do gestor do mês, acesse:\nhttps://www.kinea.com.br/blog",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "dCwe7PTNnSU",
-   "titulo": "O Raio-X do Endividamento e das Bets no Brasil | Corte do Kinea Expresso #04",
-   "aba": "videos",
-   "url": "https://www.youtube.com/watch?v=dCwe7PTNnSU",
-   "data": null,
-   "descricao": "Entenda como o alto nível de endividamento e o crescimento explosivo das apostas esportivas, as famosas bets, estão impactando a economia brasileira e a saúde financeira das famílias. Neste episódio do Kinea Expresso, analisamos os dados alarmantes sobre como as dívidas no cartão de crédito e a falta de educação financeira criam um cenário desafiador, onde muitos brasileiros recorrem ao jogo na tentativa ilusória de quitar débitos. Discutimos também as implicações sociais desse fenômeno, a dificuldade de discutir a situação fiscal do país em anos eleitorais e como a mudança no mercado de trabalho e nas relações sociais alimenta um sentimento de revolta.\n\nAssista o programa na íntegra:    • A Eleição de 2026 já está decidida? | Kine...  \n\nPor Ruy Alves, Sócio e Gestor de Investimentos e Daniela Lima, Economista-Chefe Brasil.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nInscreva-se para receber as informações sobre os próximos episódios do Kafé com Kinea:\nhttps://www.kinea.com.br/lp-kafe-com-...\n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "7cPcutBfW5c",
-   "titulo": "Crédito Privado Kinea - Resumo Mensal ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=7cPcutBfW5c",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 dos fundos de Crédito Privado da Kinea.\n\nPor Ivan Fernandes, gestor dos fundos de Crédito Privado da Kinea.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/ \n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos \n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\nSiga a Kinea no Linkedin:   / kinea-investimentos   \n\nMais informações sobre os fundos de Crédito Privado da Kinea em:\nKinea Cred Privado: https://www.kinea.com.br/fundos/fundo...  \nKinea Prev Andes: https://www.kinea.com.br/fundos/fundo... \nKinea Alpes Prev: https://www.kinea.com.br/fundos/fundo... \nKinea Andes: https://www.kinea.com.br/fundos/kinea...  \nKinea Oportunidade: https://www.kinea.com.br/fundos/kinea...  \n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/ \nrelacionamento@kinea.com.br \n\nBusque por @kineainvestimentos no Instagram:  \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "Ba0eA9RRhO8",
-   "titulo": "Fundo Oportunidade Agro - FIAGRO (KOPA11) - Resumo Mensal ref. junho.25",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=Ba0eA9RRhO8",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2025 para o fundo Kinea Oportunidade Agro, KOPA11, um dos  FIAGROs da Kinea.\n\nPor Victor Graça, integrante do time de gestão dos Fiagros da Kinea.\n\nConfira o painel interativo dos fundos de CRI e CRA da Kinea: https://kinea.com.br/painel-interativo\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo:\nhttps://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por nosso perfil @kineainvestiementos no Instagram: \n  / kineainvestimentos  \n\n#AGRO\n#FIAGRO\n#KOPA11\n#KNCA11",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "C7c_jPk_sw8",
-   "titulo": "Fundos de Tijolo da Kinea (KORE11 e KNRI11) - Resumo Mensal ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=C7c_jPk_sw8",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 dos fundos Kinea Oportunidades em Real Estate (KORE11) e Kinea Renda (KNRI11).\n\nPor Alessandro Estevam, integrante da equipe de gestão do KORE11 e KNRI11.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo em:\nKinea Renda (KNRI11): https://www.kinea.com.br/fundos/fundo...  \nKinea Oportunidades em Real Estate (KORE11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por nosso perfil @kineainvestimentos no Instagram: \n  / balanço   mensal do mês de fevereiro de 2026 dos fundos Kinea Oportunidades em Real Estate (KORE11) e Kinea Renda (KNRI11).\n\nPor Alessandro Estevam, integrante da equipe de gestão do KORE11 e KNRI11.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo em:\nKinea Renda (KNRI11): https://www.kinea.com.br/fundos/fundo...  \nKinea Oportunidades em Real Estate (KORE11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por nosso perfil @kineainvestimentos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "CHhvgnB4J7U",
-   "titulo": "KLOG11 - Resumo Mensal do Kinea Logístico ref. Março.24",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=CHhvgnB4J7U",
-   "data": null,
-   "descricao": "Balanço de acompanhamento de andamento das obras do projeto de desenvolvimento logístico do fundo KLOG11 ref. Março de 2024.\n\nPor Marcel Chalem, integrante do time de gestão do KLOG11.\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo em:\nKinea Renda (KLOG11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por nosso perfil @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "ErKbwhxoOgY",
-   "titulo": "Fundo Multifamily Atlanta US - Resumo trimestral ref. jan, fev e mar/26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=ErKbwhxoOgY",
-   "data": null,
-   "descricao": "Balanço do primeiro trimestre de 2026 do fundo Multifamily Atlanta US.\n\nPor Daniel Malheiros, Head de Investimentos Imobiliários Internacional.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por nosso perfil @kineainvestimentos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "EwQJ7PabRK0",
-   "titulo": "Fundos de CRIs (KNCR11, KNIP11, KNHY11, KNSC11, KNUQ11 e KCRE11) - Resumo ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=EwQJ7PabRK0",
-   "data": null,
-   "descricao": "Balanço mensal do mês de Novembro de 2024 dos fundos de CRIs (KNCR11, KNIP11, KNHY11, KNSC11, KNUQ11 e KCRE11) da Kinea.\n\nPor Pedro Bruder, da equipe de gestão dos fundos de CRI da Kinea.\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre os fundos de CRI da Kinea em:\nKinea Rendimentos (KNCR11): https://www.kinea.com.br/fundos/fundo...\nKinea Índices de Preços (KNIP11): https://www.kinea.com.br/fundos/fundo...\nKinea High Yield (KNHY11): https://www.kinea.com.br/fundos/fundo...\nKinea Securities (KNSC11): https://www.kinea.com.br/fundos/fundo...\nKinea Creditas (KCRE11): https://www.kinea.com.br/fundos/fundo...\nKinea Hedgefund (KNHF11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por nosso perfil @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "GZWdac-8qE8",
-   "titulo": "Fundos de Ações Kinea - Resumo Mensal ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=GZWdac-8qE8",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 dos fundos de ações da Kinea.\n\nPor Rafael Oliveira, gestor dos fundos de ações da Kinea.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no LinkedIn:\n  / kinea-investimentos  \n \nMais informações sobre os fundos de ações da Kinea em:\nKinea Gama: https://www.kinea.com.br/fundos/fundo...\nKinea Prev Ações: https://www.kinea.com.br/fundos/fundo...\nKinea Prev Ações XP: https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "GdDxyGyrYxs",
-   "titulo": "Fundo Kinea Hedge Fund - (KNHF11) - Resumo Mensal ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=GdDxyGyrYxs",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 do fundos imobiliário multi estratégia da Kinea, o Kinea Hedge Fund, KNHF11.\n\nPor Yago Costa, do time de Relacionamento com Investidores.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o KNHF11, acesse: https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nBusque por nosso perfil @kineainvestimentos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "Magxna_b8fI",
-   "titulo": "KFOF11 - Resumo Mensal do Kinea FOF FII ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=Magxna_b8fI",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 do fundo Kinea Fundo de Fundos FII (KFOF11).\n\nPor Lucas Simon, gestor dos fundos imobiliários.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundo em:\nKinea Fundo de Fundos FII (KFOF11): https://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br\n \nBusque por nosso perfil @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "Ngi-9OPxDyI",
-   "titulo": "Fundos de Infraestrutura (KDIF11 e KNDI11) - Resumo Mensal ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=Ngi-9OPxDyI",
-   "data": null,
-   "descricao": "Balanço mensal do mês de maio de 2026 dos fundos de Infraestrutura da Kinea, o KDIF11 e o KNDI11. \n\nPor Aymar Almeida, sócio e gestor do time Kinea Infraestrutura.\n\nConheça nosso novo canal de Cortes:    / @corteskinea   \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\nSiga a Kinea no Linkedin:   / kinea-investimentos  \n\nMais informações sobre o fundo em:\nKinea Infra (KDIF11): https://www.kinea.com.br/fundos/infra... \nKinea Estratégia Infra CDI (KNDI11): https://www.kinea.com.br/fundos/kinea...\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br\n\nAlém disso, para ter novidades em primeira mão, acesse também nosso novo grupo Kinea Investimentos no Telegram. https://t.me/kineainvestimentos\n\nBusque por @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "n-5yfrPbUEQ",
-   "titulo": "Fundos Multimercados Kinea - Resumo Mensal ref. junho.26 - Carta: Apollo 13",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=n-5yfrPbUEQ",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 dos fundos multimercados da Kinea.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos da Kinea.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\nSiga a Kinea no Linkedin:   / kinea-investimentos  \n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo... \nKinea Chronos: https://www.kinea.com.br/fundos/fundo... \nKinea Apolo: https://www.kinea.com.br/fundos/fundo...\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-...\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea...\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestiementos no Instagram: \n  / kineainvestimentos  \n\nSiga também nosso canal de Cortes:    / @corteskinea  \n\nPara ler a carta do gestor do mês, acesse:\nhttps://www.kinea.com.br/blog",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "sl8yg8RYmiY",
-   "titulo": "FIAGROs da Kinea (KNCA11 e KDOL11) - Resumo ref. julho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=sl8yg8RYmiY",
-   "data": null,
-   "descricao": "Recompra de cotas, dividendos e novidades do KNCA11 e do KDOL11, os Fiagros da Kinea, marcam as atualizações de julho de 2026: o KNCA11 distribuirá R$1,00 por cota (pagamento em 13/08), um rendimento isento de Imposto de Renda de 1,11% ao mês sobre a cota de fechamento, encerrando o mês com reservas acumuladas de R$0,70 por cota e carteira 100% adimplente, diversificada entre mais de 30 operações do agronegócio (55% pós-fixadas, 42% em IPCA e 3% pré-fixadas); diante do deságio de aproximadamente 10% da cota frente ao valor patrimonial, a gestão convocará uma Assembleia Geral Extraordinária para incluir no regulamento do fundo a possibilidade de recompra de cotas próprias, seguindo as diretrizes da CVM de maio de 2025 (comunicação prévia ao mercado, preço abaixo do valor patrimonial e cancelamento das cotas recompradas); já o KDOL11, o Fiagro em dólar da Kinea, distribuirá R$0,45 por cota em linha com o rendimento de seus ativos, mantendo operações saudáveis e seu diferencial de expor o investidor à variação cambial do dólar frente ao real de forma isenta de Imposto de Renda, somada a um prêmio de crédito. #KineaInvestimentos #Fiagro #KNCA11 #KDOL11 #RecompraDeCotas\n\nPor Felipe Greco, integrante do time de gestão dos Fiagros da Kinea.\n\nAcesse a comunidade da Kinea no WhatsApp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n \nMais informações sobre os fundos Kinea em:\nhttps://www.kinea.com.br\n \nSiga a Kinea no Linkedin:\n  / kinea-investimentos  \n \nMais informações sobre o fundos de CRA da Kinea:\nhttps://www.kinea.com.br/fundos/kinea...\n\nMais informações sobre o fundo Kinea Agro Income (KDOL11):\nhttps://www.kinea.com.br/fundos/fundo...\n \nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco\nrelacionamento@kinea.com.br\n \nBusque por nosso perfil @kineainvestiementos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
-  },
-  {
-   "id": "u-T13h7CJjc",
-   "titulo": "Fundos Renda Fixa Kinea - Resumo Mensal ref. junho.26",
-   "aba": "site",
-   "url": "https://www.youtube.com/watch?v=u-T13h7CJjc",
-   "data": null,
-   "descricao": "Balanço mensal do mês de junho de 2026 dos fundos de Renda Fixa da Kinea.\n\nPor Denis Ferrari, gestor dos fundos de renda fixa da Kinea.\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\nSiga a Kinea no Linkedin:   / kinea-investimentos  \n\nMais informações sobre os fundos de renda fixa Kinea em:\nKinea RF Absoluto: https://www.kinea.com.br/fundos/fundo...\nKinea Prev RF: https://www.kinea.com.br/fundos/prev-...\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br\n\nBusque por @kineainvestimentos no Instagram: \n  / kineainvestimentos  ",
-   "coleta": 2,
-   "duracao_min": null,
-   "capitulos": [],
-   "ao_vivo": false,
-   "legenda": "sem legenda"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
   }
  ],
  "log": [
-  "rss: RuntimeError: HTTP 404"
+  "rss: RuntimeError: HTTP 404",
+  "parei em VhHDQtDG2S0: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }
