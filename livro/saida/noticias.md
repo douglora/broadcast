@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 11h21
+NOTÍCIAS E FATOS · 24/09 12h21
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 475 veículo fora da lista, 48 sem ativo, 7 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 469 veículo fora da lista, 50 sem ativo, 11 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -297,8 +297,20 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (83)
+## OUTRAS NOTÍCIAS (só manchete) (95)
 
+· UST Why Today’s 7-Year Treasury Auction Matters for Bond Yields (Barron's) https://www.barrons.com/articles/seven-year-treasury-auction-bond-yields-fdd4bf3e
+· PETR4 Petrobras atrasa em 1 ano unidades dedicadas à produção de SAF; avança em coprocessamento (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G0YA:0/
+· MU 3 things Micron investors need to watch as the stakes get higher (MarketWatch) https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e
+· PETR4 Petrobras diz que próximo plano de negócios 2027-2031 terá grande foco em transição energética (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/24/petrobras-diz-que-proximo-plano-de-negocios-2027-2031-tera-grande-foco-em-transicao-energetica.ghtml
+· TSLA UBS maintains Tesla stock neutral rating ahead of Q3 deliveries (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-maintains-tesla-stock-neutral-rating-ahead-of-q3-deliveries-93CH-4915654
+· INTC TD Cowen reiterates Intel stock rating on foundry progress view (Investing.com) https://in.investing.com/news/stock-market-news/td-cowen-reiterates-intel-stock-rating-on-foundry-progress-view-93CH-5605293
+· NVDA NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidias-279b-supply-commitments-secure-134100685.html
+· USDBRL Tempo real: Ibovespa cai com exterior e eleições no radar; dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-24-9-26-apsa-lils/
+· GOOGL Alphabet Or Meta: Whose AI Build Would You Rather Fund? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-meta-whose-ai-build-131430107.html
+· BTC Bullish clears longest-dated bitcoin options trade expiring in 2028 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:7b6e5c86d094b:0-bullish-clears-longest-dated-bitcoin-options-trade-expiring-in-2028/
+· ETH Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/tom-lee-agrees-ethereum-5-125230869.html
+· VALE3 Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24) (Money Times) https://news.google.com/rss/articles/CBMisgFBVV95cUxORTc2R3IwclVyanBVQ2pzZ1dLcW5rMGhES3l3T19xMWh0a2JvckpSWTYwSEkyLWxZTmpZNG1zX1Q5d1FnNmF2UkdUMURUcUx4UjZxOGlkbnpYeUR5UW9uZXpOeWpIZkJFUzNnNnZ1Wjd5XzhsX2dleGhYQWp6cGxoZ29TaWo1V0NiWm5CeVlyMDRDMWxRN05jTGFTbnpxM3BrckFwSk1ySmRXN2FwN0ZHQTVn?oc=5
 · ETH Current price of Ethereum for September 24, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-24-2026/
 · BTC Current price of Bitcoin for September 24, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-24-2026/
 · GOOGL Alphabet: The Gemini-Cloud Divergence Hides A $1 Trillion Opportunity (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949414-alphabet-the-gemini-cloud-divergence-hides-a-1-trillion-opportunity
@@ -347,16 +359,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · BTC Bitcoin Drops to $84K as Bond Yields Hit 5.11%: What Next? (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:699d2da2e094b:0-bitcoin-drops-to-84k-as-bond-yields-hit-5-11-what-next/
 · BABA What Does Alibaba (BABA) Facing A Securities Fraud Probe Mean Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-alibaba-baba-facing-securities-211806119.html
 · MELI34 Mercado Livre Racing aposta em estratégias e sintonia de duplas para prova Endurance da Stock Car em Brasília (UOL Economia) https://motorsport.uol.com.br/stockcar-br/news/mercado-livre-racing-aposta-em-estrategias-e-sintonia-de-duplas-para-prova-endurance-da-stock-car-e/10858367/
-· USDBRL Dólar à vista sobe 1,28% em meio a aversão global a risco (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/dolar-a-vista-sobe-128percent-em-meio-a-aversao-global-a-risco.ghtml
-· USDBRL Dólar sobe a R$ 5,16 com Treasuries e cenário eleitoral (Money Times) https://www.moneytimes.com.br/dolar-23-9-26-apsa/
-· PETR4 Declínio de produção do pré-sal precisa ser compensado, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/09/23/declinio-de-producao-do-pre-sal-precisa-ser-compensado-diz-presidente-da-petrobras.ghtml
-· PETR4 Projeto de gás na Colômbia deve aparecer na curva de produção a partir de 2031, diz Petrobras (Valor Economico) https://news.google.com/rss/articles/CBMi8wFBVV95cUxQTFhvcmtYR3Z2bXJtRGNYYUJhWWJSZ3RFQ1NlZTdxY1NveTRRa245WWV0clNwNHlkTVp0NXNxZlpvUDVIXzBWbTd2dC1lVnk2TzBXUGppaDBaRWFWdllZbm9pNVktTVI2bHVWUHNyVXc1a0p0UExwYVFVV1VXcmxiUTNGQ3JkTnBzX1ROYjVWMkhnWG1iWGJLWjhnZnM4V2VkRzg5QUlrRVZpeXg1WkZXblRVVUt0dEw3MVpobUVEd1VGRWZYZ0hCelRSZUFpcGFqdl95a3F1LUFhZkJnU05PWEU3N2RsOUVuYXhPTGpzTGQ2bUnSAfMBQVVfeXFMUExYb3JrWEd2dm1ybURjWGFCYVliUmd0RUNTZWU3cWNTb3k0UWtuOVlldHJTcDR5ZE1adDVzcWZab1A1SF8wVm03dnQtZVZ5Nk8wV1BqaWgwWkVhVnZZWW5vaTVZLU1SNmx1VlBzclV3NWtKdFBMcGFRVVdVV3JsYlEzRkNyZE5wc19UTmI1VjJIZ1htYlhiS1o4Z2ZzOFdlZEc4OUFJa0VWaXl4NVpGV25UVVVLdHRMNzFaaG1FRHdVRkVmWGdIQnpUUmVBaXBhanZfeWtxdS1BYWZCZ1NOT1hFNzdkbDlFbmF4T0xqc0xkNm1J?oc=5
-· USDBRL Ouro fecha em queda pressionado por alta do dólar e dos juros dos Treasurie (CNN Brasil) https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQlM5REdEV25IcmtUT2YzRXFqT0FRTjBPaWpzcmczdlhlckgyV0xVQzhEeW5nNGcwWlI3MGNPSUdOVndXWFhRVDJnT3ZzUnk3UTJ6ZU82MmsteG10dDBSYnZFTGYyYVNEZS05UnFDS1I3UUNacDE4UUw1QXRMMXRzY3l5emZMUEtBazhCdU50c19rSXZjRFNUYlppMU5sTXV0d0VnN1RCaW05eFBBNlRMODJyeC04VHVMR3l1OVluc2NENW5QaFRsRw?oc=5
-· KLBN4 Suzano (SUZB3) x Klabin (KLBN11): BTG escolhe ação para surfar 'miniciclo' da celulose e vê potencial de 50% (Money Times) https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2ZHdklJTnpjd3I5aHUxZ3FLaEpUTmlqblVkWmpwN3JBZElrcHlrYXVhS2YtUTlPWUc0Z1dGR3JYdDNWNFR5RmpleHMxUzNKbktZYWVkNkVvYWdmLXQ4bDBTN183LUNxOTFrbHJxeVlqRDJGZHdWMGNtNFU5aVpRZmVaVGUwbFYwbVF5OFZsdTZ4c3lGd0FZTU1jS0dCLThrSHF0X0JsTlg3TnhrWVQ4NzJnYXI2dw?oc=5
-· ITUB4 Economia perde força, mas esta ação pode se beneficiar do cenário, diz Itaú BBA (Estadao) https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZEFpN1p0ZGp6Z3F3VFBCdGU3Skw0RDAxS2JrUzNlRFExUm5pZ2d3cm9tY3AtVjhCVjZyTi1nUkZ4QjFseHljRzY3MXdLcWd1OGlJc3JZWGlxZHBnYkt6X3BWTTJybEU0a0FVMlpSUEh4TmZROEtUdTcxSmFqYXh6cDZGU1RtdGpqemQyTENxdjQxc1Y3dFNiY291ZWlITmQ4UWF0eUpiTXhBNFBnNEp1NnVLZWZiOUFweFRMMFZnZXpYdGtialZlQjlXTVpkQWZW0gHQAUFVX3lxTE5kQWk3WnRkanpncXdUUEJ0ZTdKTDREMDFLYmtTM2VEUTFSbmlnZ3dyb21jcC1WOEJWNnJOLWdSRnhCMWx4eWNHNjcxd0txZ3U4aUlzcllYaXFkcGdiS3pfcFZNMnJsRTRrQVUyWlJQSHhOZlE4S1R1NzFKYWpheHpwNkZTVG10amp6ZDJMQ3F2NDFzVjd0U2Jjb3VlaUhOZDhRYXR5SmJNeEE0UGc0SnU2dUtlZmI5QXB4VEwwVmdlelh0a2JqVmVCOVdNWmRBZlY?oc=5
-· MU Citi expects Micron stock to rally into this event (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxOOHBRcjdaTnJLQzRSMjExR256d2JxMEVhTXQ0SEphb0RmSVZUZEhvQWxMZzRBZ2w5TW1tLVQ5bFhET3o5eXdKMElpUmtGTDRyUEk1eVZsZ1NKWEE3amc0ajhTZHU3TS03RC1LMkc4d3dhRDVhbXZtN3l4cEdjb1dvQ0o3YndBWU0?oc=5
-· TESOURO Tesouro Direto hoje: Taxas estendem altas e acompanham Treasuries no exterior; confira a cotação nesta quarta-feira (23) (Money Times) https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbW5oYTlZcTBiSXZxR2s5enZXcGZSc3ZIZWZ5M2VJd0liUkppeE1CNzNVSFVtVFpmTFNxM3hQUVJERk1Pc2FTbHNZYi0taDg5b09DYUc0a090VlIycWk5UllwV25KX3VfckNuUmJpeG5nME5VbEJRd3VVdU85N044eS1RTlFGUDNHNDRaMER2QUlSaW9aSU5lVGE2akpWd1hMZFVfWGd5OXNXclJ4RGhwV0hpVUFFUVBtSmhnTzE0ekk0TWhYVGJaY2Fob21NeUstQjJfbjhxdjBaQ2RtdmZveXYxNmxuWlFHRkE?oc=5
-· BAC Bank of America’s Unrealized Bond Losses Could Top $90 Billion on Surging Yields (Barron's) https://www.barrons.com/articles/bank-of-america-stock-bond-losses-edae54c9
-· USDBRL Ibovespa cai 0,86% e dólar dispara 1,28% com pressão externa e eleição (Exame) https://exame.com/invest/mercados/ibovespa-cai-086-e-dolar-dispara-128-com-pressao-externa-e-eleicao/
-· TESOURO É hora de comprar títulos prefixados no Tesouro Direto, diz XP; investimento deve bater o CDI nos próximos anos (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/e-hora-de-comprar-titulos-prefixados-no-tesouro-direto-diz-xp-investimento-deve-bater-o-cdi-nos-proximos-anos-mlim/
-· (+23 manchetes; lista completa em eventos/noticias.json)
+· (+35 manchetes; lista completa em eventos/noticias.json)

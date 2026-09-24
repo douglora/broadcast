@@ -2,19 +2,19 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 ETH · Current price of Ethereum for September 24, 2026
-· E05 BTC · Current price of Bitcoin for September 24, 2026
-· E05 GOOGL · Alphabet: The Gemini-Cloud Divergence Hides A $1 Trillion Opportunity (NASDAQ:GOOG)
-· E05 NVDA · Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck
-· E05 AMD · AMD: The AI Spending Cycle Could Hit A Wall (NASDAQ:AMD)
-· E05 BTC · Teucrium Commodity Trust resumes accepting redemptions for 7RCC Spot Bitcoin and Carbon Credit Futures ETF
-· E05 BRENT · Update: Rising Treasury Yields, Oil Prices Drag Down US Equity Futures Pre-Bell
-· E05 JPM · Can Private Credit Unlock More Growth for JPMorgan's Card Business?
-· E05 USDBRL · Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta
-· E05 KO · Is Coca-Cola (KO) Outperforming Other Consumer Staples Stocks This Year?
-· E05 PLTR · Palantir Just Hit a One-Year High. Here's What's Driving It
-· E05 NVDA · NVIDIA Corporation (NVDA) Stock Price, News, Quote & History
-· E05 MU · Micron Stock Could Rise Another 50%. Here's How.
+· F03 Brent sobe a US$ 107,05 (+3,9% no dia) (parcial, intradia)
+· E05 UST · Why Today’s 7-Year Treasury Auction Matters for Bond Yields
+· E05 PETR4 · Petrobras atrasa em 1 ano unidades dedicadas à produção de SAF; avança em coprocessamento
+· E05 MU · 3 things Micron investors need to watch as the stakes get higher
+· E05 PETR4 · Petrobras diz que próximo plano de negócios 2027-2031 terá grande foco em transição energética
+· E05 TSLA · UBS maintains Tesla stock neutral rating ahead of Q3 deliveries
+· E05 INTC · TD Cowen reiterates Intel stock rating on foundry progress view
+· E05 NVDA · NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway?
+· E05 USDBRL · Tempo real: Ibovespa cai com exterior e eleições no radar; dólar sobe
+· E05 GOOGL · Alphabet Or Meta: Whose AI Build Would You Rather Fund?
+· E05 BTC · Bullish clears longest-dated bitcoin options trade expiring in 2028
+· E05 ETH · Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally
+· E05 VALE3 · Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24)
 
 
 Alertas do dia (todos, com status):
@@ -51,6 +51,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A açã
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
 · entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, C
+· linha     F03 BRENT — Brent sobe a US$ 107,05 (+3,9% no dia) (parcial, intradia)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
 · linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
 · linha     T02 JPM — JPM perdeu a MM50 pela 2ª sessão: US$ 337,53, ainda acima da MM200 (tendência lo
@@ -63,4 +64,4 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+99 notícias só manchete, em noticias.md)
+· (+111 notícias só manchete, em noticias.md)
