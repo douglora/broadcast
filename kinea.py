@@ -581,11 +581,17 @@ RX_POSICOES = re.compile(r"PRINCIPAIS\s+POSI[CÇ][OÕ]ES|POSICIONAMENTO\s+EM\s+A
 RX_YOUTUBE = re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|live/)|youtu\.be/)([\w-]{11})")
 # Clientes do YouTube tentados em ordem: o padrao do yt-dlp e os alternativos. No Actions o YouTube
 # costuma listar a legenda e so entrega-la com PO token (provedor bgutil, iniciado pelo workflow).
-CLIENTES_YT = [None, ["mweb"], ["web"], ["tv"], ["web_safari"], ["android_vr"]]
+CLIENTES_YT = [None, ["mweb"], ["android_vr"]]
+# Para baixar so o audio: o android_vr nao pede PO token para o arquivo
+CLIENTES_AUDIO = [["android_vr"], ["tv"], None]
+MODELO_WHISPER = os.environ.get("KINEA_WHISPER", "small")
 # Videos de fundo listado (FII, CRI, agro, infra, credito) nao falam de acao: ficam fora
 RX_VIDEO_FORA = re.compile(r"\bK[A-Z]{2,4}11\b|\bFII|Fiagro|\bCRI\b|Multifamily|Cr[eé]dito Privado|Private Credit|Renda Fixa|"
                            r"Fixed Income|Infraestrutura|Infrastructure|Imobili|Real Estate|Assembleia|Extraordin|Buyback|"
                            r"Recompra|Agro|Alternativ", re.I)
+# Ordem da coleta: primeiro o que a mesa le (relatorio, live mensal, fundos de acoes, carta, Expresso)
+RX_VIDEO_PRIORIDADE = re.compile(r"Insights|Economia e Mercados|Economy and Markets|Fundos de a[cç][oõ]es|Equity|"
+                                 r"Carta do Gestor|Letter|Expresso", re.I)
 RX_VIDEO_DENTRO = re.compile(r"Economia e Mercados|Economy and Markets|Multimercado|Multi-Strategy|A[cç][oõ]es|Equity|"
                              r"Expresso|Kaf[eé]|Insights|Carta|Letter|Bolsa|Stock", re.I)
 
@@ -949,6 +955,38 @@ def texto_dos_segmentos(segs, janela=30):
     return "\n".join(saida)
 
 
+def transcrever_audio(vid, pasta_tmp, modelo):
+    """Plano C: baixa so o audio do video e transcreve com o Whisper (faster-whisper, na CPU do Actions).
+    Devolve [(segundo, texto)]."""
+    url = f"https://www.youtube.com/watch?v={vid}"
+    arquivo, ultimo = None, "sem tentativa"
+    for clientes in CLIENTES_AUDIO:
+        for f in os.listdir(pasta_tmp):
+            if f.startswith(vid):
+                os.remove(os.path.join(pasta_tmp, f))
+        try:
+            with _ydl({"skip_download": False, "format": "bestaudio[abr<=96]/bestaudio/worst",
+                       "outtmpl": os.path.join(pasta_tmp, "%(id)s.audio.%(ext)s"), "ignore_no_formats_error": False},
+                      clientes) as y:
+                y.extract_info(url, download=True)
+        except Exception as e:
+            ultimo = f"{'/'.join(clientes or ['padrao'])}: {type(e).__name__}: {str(e)[:160]}"
+            continue
+        feitos = [os.path.join(pasta_tmp, f) for f in os.listdir(pasta_tmp) if f.startswith(vid + ".audio.")]
+        if feitos:
+            arquivo = feitos[0]
+            break
+    if not arquivo:
+        raise RuntimeError(f"audio: {ultimo}")
+    if not modelo[0]:
+        from faster_whisper import WhisperModel
+        modelo[0] = WhisperModel(MODELO_WHISPER, device="cpu", compute_type="int8", cpu_threads=os.cpu_count() or 4)
+    segmentos, _ = modelo[0].transcribe(arquivo, language="pt", vad_filter=True, beam_size=1)
+    segs = [(int(sg.start), sg.text.strip()) for sg in segmentos]
+    os.remove(arquivo)
+    return segs
+
+
 def videos_do_site(log):
     """IDs de video embutidos na pagina de videos do site da Kinea (lista curada pela gestora)."""
     try:
@@ -963,7 +1001,7 @@ def _fora_do_tema(titulo):
     return bool(RX_VIDEO_FORA.search(t)) and not RX_VIDEO_DENTRO.search(t)
 
 
-def coletar_videos(saida, canal, n, dias, falhas):
+def coletar_videos(saida, canal, n, dias, falhas, minutos_audio=0):
     pasta = os.path.join(saida, "videos")
     os.makedirs(pasta, exist_ok=True)
     antigo = {}
@@ -980,13 +1018,15 @@ def coletar_videos(saida, canal, n, dias, falhas):
         lista, origem = list(rss.values()), "rss"
     vistos = {v["id"] for v in lista}
     lista += [{"id": v, "titulo": None, "aba": "site"} for v in videos_do_site(log) if v not in vistos]
+    lista.sort(key=lambda it: 0 if RX_VIDEO_PRIORIDADE.search((rss.get(it["id"]) or {}).get("titulo") or it.get("titulo") or "") else 1)
     print(f"== videos: {len(lista)} listados ({origem}, rss com {len(rss)}) em {canal}", flush=True)
     limite = (datetime.date.today() - datetime.timedelta(days=dias)).isoformat()
-    velhos_na_aba, videos, fora, falhas_seguidas = set(), [], 0, 0
+    videos, fora, falhas_seguidas = [], 0, 0
+    modelo, fim_audio = [None], time.time() + 60 * minutos_audio
 
     def grava():
         # Grava a cada video: se o Actions cortar a coleta no meio, o que ja veio fica
-        guardados = videos + [v for k, v in antigo.items() if k not in {x["id"] for x in videos} and v.get("chars")]
+        guardados = videos + [v for k, v in antigo.items() if k not in {x["id"] for x in videos}]
         guardados.sort(key=lambda v: v.get("data") or "", reverse=True)
         with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
             json.dump({"gerado_em": agora(), "canal": canal, "listagem": origem, "fora_do_tema": fora,
@@ -1005,8 +1045,6 @@ def coletar_videos(saida, canal, n, dias, falhas):
             v = antigo.get(vid)
             if v and (v.get("chars") or (v.get("legenda") == "sem legenda" and v.get("coleta") == 2)):
                 videos.append(v)
-                continue
-            if aba in velhos_na_aba:
                 continue
             if falhas_seguidas >= 6:
                 # O YouTube esta recusando todo pedido: insistir so gasta o tempo do Actions
@@ -1048,9 +1086,19 @@ def coletar_videos(saida, canal, n, dias, falhas):
                         entrada["erro"] = f"painel: {erro_painel} | yt-dlp: nenhuma legenda listada"
                 except Exception as e:
                     entrada["erro"] = f"painel: {erro_painel} | yt-dlp: {str(e)[:200]}"
+            # 3) Sem legenda nenhuma: o audio, transcrito pelo Whisper, enquanto houver tempo (so video do tema)
+            if not texto and not vtt and time.time() < fim_audio and RX_VIDEO_DENTRO.search(entrada.get("titulo") or ""):
+                try:
+                    t0 = time.time()
+                    segs = transcrever_audio(vid, tmp, modelo)
+                    if segs:
+                        texto, tipo, lingua = texto_dos_segmentos(segs), f"transcricao do audio (whisper {MODELO_WHISPER})", "pt"
+                        entrada["transcrito_em_s"] = round(time.time() - t0)
+                        if not entrada.get("duracao_min"):
+                            entrada["duracao_min"] = round(segs[-1][0] / 60)
+                except Exception as e:
+                    entrada["erro"] = (entrada.get("erro") or "") + f" | {str(e)[:200]}"
             if entrada.get("data") and entrada["data"] < limite:
-                if aba != "site":
-                    velhos_na_aba.add(aba)  # a aba vem do mais novo ao mais antigo: o resto e mais velho ainda
                 continue
             if vtt:
                 texto = texto_da_legenda(vtt)
@@ -1070,9 +1118,11 @@ def coletar_videos(saida, canal, n, dias, falhas):
                   f"{entrada.get('legenda') or 'falhou'} {entrada.get('chars', 0):,} chars "
                   f"{(entrada.get('erro') or '')[:120]}", flush=True)
             time.sleep(2)
-    # Os que ja estavam guardados e sairam da lista dos mais novos continuam (ate 120 videos)
+    # Os que ja estavam guardados continuam: os que sairam da lista dos mais novos, se tem texto, e os que
+    # a coleta nao chegou a visitar (parada por falhas seguidas), sempre
     ids = {v["id"] for v in videos}
-    videos += [v for k, v in antigo.items() if k not in ids and v.get("chars")]
+    listados = {item["id"] for item in lista}
+    videos += [v for k, v in antigo.items() if k not in ids and (v.get("chars") or k in listados)]
     videos.sort(key=lambda v: v.get("data") or "", reverse=True)
     videos = videos[:120]
     no_indice = {os.path.basename(v["arquivo"]) for v in videos if v.get("arquivo")}
@@ -1106,6 +1156,8 @@ def main(argv=None):
     ap.add_argument("--videos", type=int, default=20, help="quantos videos mais novos por aba do canal (ao vivo e videos)")
     ap.add_argument("--videos-dias", type=int, default=200, help="ignora video mais velho que isso")
     ap.add_argument("--docs-desde", default="2026-01", help="mes inicial dos documentos avulsos do site (AAAA-MM)")
+    ap.add_argument("--minutos-audio", type=int, default=0,
+                    help="tempo maximo para transcrever audio de video sem legenda (Whisper); 0 desliga")
     a = ap.parse_args(argv)
     partes = {p.strip() for p in a.partes.split(",") if p.strip()}
     if a.so_cartas:
@@ -1146,7 +1198,7 @@ def main(argv=None):
         registra("cartas", lambda: coletar_cartas(a.saida, a.cartas_desde, a.urls.split(), falhas, familias))
     if "midia" in partes:
         registra("documentos", lambda: coletar_documentos(a.saida, a.docs_desde, falhas))
-        registra("videos", lambda: coletar_videos(a.saida, a.canal, a.videos, a.videos_dias, falhas))
+        registra("videos", lambda: coletar_videos(a.saida, a.canal, a.videos, a.videos_dias, falhas, a.minutos_audio))
     manifest["falhas"] = falhas
     with open(os.path.join(a.saida, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
