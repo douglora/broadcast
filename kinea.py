@@ -11,22 +11,32 @@ com `python3 mesa.py kinea`.
                                 as maiores posicoes em bolsa
     kinea/cartas/index.json     cartas do gestor achadas (fundo, mes, familia, url, paginas)
     kinea/cartas/<arquivo>.txt  texto integral de cada carta, extraido do PDF
+    kinea/videos/index.json     videos do canal no YouTube (lives mensais, Kinea Expresso, podcasts):
+                                titulo, data, descricao e a legenda em texto com marca de tempo
+    kinea/videos/<data>_<id>.txt
+    kinea/docs/index.json       PDFs do site que nao sao carta (apresentacao da live, relatorios) e
+                                posts do blog que falam do tema, com o texto
+    kinea/imagens/*.jpg         paginas de "principais posicoes" das cartas e das lives em imagem:
+                                ali as empresas aparecem como logotipo e o texto do PDF nao traz o nome
     kinea/manifest.json         o que rodou, o que achou e o que falhou
 
 Uso:
-    python kinea.py --saida dados_branch/kinea                       # 12 meses de carteira + cartas desde 2025-07
+    python kinea.py --saida dados_branch/kinea                       # 12 meses de carteira + cartas desde 2025-07 + midia
     python kinea.py --saida dados_branch/kinea --meses 6 --cartas-desde 2026-01
-    python kinea.py --saida /tmp/k --so-cartas --urls "https://www.kinea.com.br/wp-content/uploads/2026/09/Carta-do-Gestor-Prev-Atlas-2026-08.pdf"
+    python kinea.py --saida /tmp/k --partes cartas --urls "https://www.kinea.com.br/wp-content/uploads/2026/09/Carta-do-Gestor-Prev-Atlas-2026-08.pdf"
+    python kinea.py --saida /tmp/k --partes midia --videos 10
 
 Fontes: dados abertos da CVM (Composicao e Diversificacao das Aplicacoes, a CDA
-mensal de todo fundo) e o site da Kinea (www.kinea.com.br), onde as cartas saem
-em PDF. Nada aqui e opiniao: e copia do que a CVM e a gestora publicaram.
-Cada parte falha sozinha e o manifest registra o motivo.
+mensal de todo fundo), o site da Kinea (www.kinea.com.br), onde as cartas e as
+apresentacoes saem em PDF, e o canal da Kinea no YouTube (legenda publicada
+pelo proprio YouTube). Nada aqui e opiniao: e copia do que a CVM e a gestora
+publicaram. Cada parte falha sozinha e o manifest registra o motivo.
 """
 
 import argparse
 import datetime
 import hashlib
+import html
 import io
 import json
 import os
@@ -36,6 +46,7 @@ import tempfile
 import time
 import unicodedata
 import zipfile
+from urllib.parse import quote
 
 import requests
 
@@ -466,7 +477,9 @@ def selecionar_cartas(achadas, desde, familias, por_mes=POR_MES):
     for (fam, mes), itens in grupos.items():
         itens.sort(key=lambda x: (x[0], x[1]))
         limite = None if fam == "informada" else por_mes.get(fam, 2)
-        escolhidas.extend((mes, url, meta) for _, url, meta in itens[:limite])
+        # A primeira do grupo representa o mes: dela sai a pagina de posicoes em imagem
+        escolhidas.extend((mes, url, dict(meta, representante=(i == 0 and fam != "informada")))
+                          for i, (_, url, meta) in enumerate(itens[:limite]))
     escolhidas.sort(key=lambda x: (x[0], x[1]), reverse=True)
     return escolhidas
 
@@ -496,30 +509,41 @@ def coletar_cartas(saida, desde, urls_extras, falhas, familias=("multimercado", 
     print(f"== cartas: {len(achadas)} PDFs achados {metodos}")
     escolhidas = selecionar_cartas(achadas, desde, set(familias))
     print(f"   escolhidas {len(escolhidas)} (familias {sorted(familias)}, ate {POR_MES} por mes)")
+    pasta_img = os.path.join(saida, "imagens", "cartas")
+    os.makedirs(pasta_img, exist_ok=True)
     cartas, textos = [], {}
     for mes, url, meta in escolhidas[:max_cartas]:
         arquivo = re.sub(r"[^A-Za-z0-9_.-]+", "_", os.path.basename(url.split("?")[0]))[:120]
         arquivo = re.sub(r"\.pdf$", ".txt", arquivo, flags=re.I)
         destino = os.path.join(pasta, arquivo)
         velho = antigo.get(url)
+        conteudo = None
         if velho and os.path.exists(destino) and velho.get("chars"):
-            cartas.append(velho)
-            continue
-        try:
-            r = http_get(url, timeout=120, educado=True)
-            texto, n_pag = texto_do_pdf(r.content)
-        except Exception as e:
-            falhas.append(f"carta {url}: {e}")
-            continue
-        with open(destino, "w", encoding="utf-8") as f:
-            f.write(texto)
-        h = hashlib.sha1(re.sub(r"\s+", " ", texto).encode("utf-8")).hexdigest()[:16]
-        fundo = fundo_da_carta(url)
-        primeira = next((l.strip() for l in texto.split("\n") if len(l.strip()) > 8), "")[:140]
-        cartas.append({"arquivo": f"kinea/cartas/{arquivo}", "url": url, "fundo": fundo, "familia": familia(fundo),
+            entrada = velho
+        else:
+            try:
+                conteudo = http_get(url, timeout=120, educado=True).content
+                texto, n_pag = texto_do_pdf(conteudo)
+            except Exception as e:
+                falhas.append(f"carta {url}: {e}")
+                continue
+            with open(destino, "w", encoding="utf-8") as f:
+                f.write(texto)
+            h = hashlib.sha1(re.sub(r"\s+", " ", texto).encode("utf-8")).hexdigest()[:16]
+            fundo = fundo_da_carta(url)
+            primeira = next((l.strip() for l in texto.split("\n") if len(l.strip()) > 8), "")[:140]
+            entrada = {"arquivo": f"kinea/cartas/{arquivo}", "url": url, "fundo": fundo, "familia": familia(fundo),
                        "mes_ref": mes or None, "paginas": n_pag, "chars": len(texto), "sha1_texto": h,
-                       "titulo": primeira, "descoberta": meta["descoberta"], "baixado_em": agora()})
-        print(f"  {mes or '?'} {fundo}: {n_pag} p., {len(texto):,} chars")
+                       "titulo": primeira, "descoberta": meta["descoberta"], "baixado_em": agora()}
+            print(f"  {mes or '?'} {fundo}: {n_pag} p., {len(texto):,} chars")
+        if meta.get("representante") and "imagens" not in entrada:
+            try:
+                if conteudo is None:
+                    conteudo = http_get(url, timeout=120, educado=True).content
+                entrada["imagens"] = paginas_de_posicoes(conteudo, arquivo[:-4], pasta_img, "kinea/imagens/cartas")
+            except Exception as e:
+                falhas.append(f"imagens da carta {url}: {type(e).__name__}: {e}")
+        cartas.append(entrada)
     for c in cartas:
         textos.setdefault(c["sha1_texto"], c["arquivo"])
     for c in cartas:
@@ -530,11 +554,380 @@ def coletar_cartas(saida, desde, urls_extras, falhas, familias=("multimercado", 
     for nome in os.listdir(pasta):
         if nome.endswith(".txt") and nome not in no_indice:
             os.remove(os.path.join(pasta, nome))
+    usadas = {os.path.basename(i["arquivo"]) for c in cartas for i in c.get("imagens") or []}
+    for nome in os.listdir(pasta_img):
+        if nome not in usadas:
+            os.remove(os.path.join(pasta_img, nome))
     idx = {"gerado_em": agora(), "fonte": f"{SITE} (PDF da Carta do Gestor, texto extraido com pypdf)",
            "desde": desde, "cartas": cartas, "metodos": metodos, "log": log[:60]}
     with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=1)
     return {"cartas": len(cartas), "metodos": metodos, "meses": sorted({c.get("mes_ref") for c in cartas if c.get("mes_ref")})}
+
+
+# ---------------------------------------------------------------------------
+# Midia: paginas de posicoes em imagem, documentos avulsos do site e videos do
+# canal no YouTube com a legenda em texto
+# ---------------------------------------------------------------------------
+
+CANAL = os.environ.get("KINEA_CANAL", "https://www.youtube.com/@KineaInvestimentos")
+# PDFs do site que nao sao carta: apresentacao da live mensal, relatorios de research
+TERMOS_DOCS = ["live", "mochileiro", "research", "estudo", "panorama", "cenario"]
+RX_DOC_UTIL = re.compile(r"live|mochileiro|research|estudo|panorama|cenario", re.I)
+# Posts do blog que valem o texto (a Kinea publica relatorio como post, alem do PDF)
+TERMOS_POSTS = ["mochileiro", "minha casa", "construtoras", "live economia", "eleicao", "bolsa"]
+# Paginas em que as posicoes aparecem como logotipo (o texto do PDF nao traz o nome da empresa)
+RX_POSICOES = re.compile(r"PRINCIPAIS\s+POSI[CÇ][OÕ]ES|POSICIONAMENTO\s+EM\s+A[CÇ][OÕ]ES|\bConstrutoras\b", re.I)
+RX_YOUTUBE = re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|live/)|youtu\.be/)([\w-]{11})")
+# Clientes do YouTube tentados em ordem: o padrao do yt-dlp e, se o YouTube pedir login, os alternativos
+CLIENTES_YT = [None, ["tv"], ["web_safari"], ["mweb"], ["android_vr"]]
+
+
+def paginas_de_posicoes(conteudo, base, pasta_img, prefixo, max_paginas=6, largura=1400):
+    """Renderiza em JPEG as paginas de posicoes do PDF. Devolve [{pagina, arquivo}], vazio se nao houver."""
+    import pymupdf
+    doc = pymupdf.open(stream=conteudo, filetype="pdf")
+    feitas = []
+    for i, pag in enumerate(doc):
+        if len(feitas) >= max_paginas:
+            break
+        if not RX_POSICOES.search(pag.get_text() or ""):
+            continue
+        z = largura / max(pag.rect.width, 1)
+        pix = pag.get_pixmap(matrix=pymupdf.Matrix(z, z), alpha=False)
+        nome = f"{base}-p{i + 1:02d}.jpg"
+        with open(os.path.join(pasta_img, nome), "wb") as f:
+            f.write(pix.tobytes("jpeg", jpg_quality=80))
+        feitas.append({"pagina": i + 1, "arquivo": f"{prefixo}/{nome}"})
+    doc.close()
+    return feitas
+
+
+def texto_do_html(h):
+    h = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", h or "")
+    h = re.sub(r"(?i)<br\s*/?>|</p>|</li>|</h\d>|</div>", "\n", h)
+    t = html.unescape(re.sub(r"<[^>]+>", " ", h))
+    t = re.sub(r"[ \t\xa0]+", " ", t)
+    return re.sub(r"\n\s*\n+", "\n\n", t).strip()
+
+
+def _wp_json(caminho, log):
+    try:
+        itens = http_get(f"{SITE}/wp-json/wp/v2/{caminho}", timeout=60, educado=True).json()
+        return itens if isinstance(itens, list) else []
+    except Exception as e:
+        log.append(f"wp-json {caminho[:80]}: {e}")
+        return []
+
+
+def descobrir_documentos(desde, log):
+    """PDFs que nao sao carta e posts do blog, pela busca do WordPress. Devolve (pdfs, posts)."""
+    pdfs, posts = {}, {}
+    for termo in TERMOS_DOCS:
+        for pagina in range(1, 4):
+            itens = _wp_json(f"media?search={quote(termo)}&per_page=100&page={pagina}&mime_type=application/pdf", log)
+            for it in itens:
+                src = it.get("source_url") or ""
+                data = (it.get("date") or "")[:10]
+                titulo = html.unescape(re.sub(r"<[^>]+>", "", (it.get("title") or {}).get("rendered") or ""))
+                if (not src.lower().split("?")[0].endswith(".pdf") or _e_carta(src) or data[:7] < desde
+                        or src in pdfs or not RX_DOC_UTIL.search(_sem_acento(os.path.basename(src) + " " + titulo))):
+                    continue
+                pdfs[src] = {"url": src, "publicado_em": data, "titulo": titulo.strip(), "achado_por": f"busca '{termo}'"}
+            if len(itens) < 100:
+                break
+    for termo in TERMOS_POSTS:
+        itens = _wp_json(f"posts?search={quote(termo)}&per_page=30&_fields=id,date,link,title,content", log)
+        for it in itens:
+            data = (it.get("date") or "")[:10]
+            link = it.get("link") or ""
+            if not link or data[:7] < desde or link in posts:
+                continue
+            corpo = (it.get("content") or {}).get("rendered") or ""
+            titulo = html.unescape(re.sub(r"<[^>]+>", "", (it.get("title") or {}).get("rendered") or "")).strip()
+            posts[link] = {"url": link, "publicado_em": data, "titulo": titulo, "achado_por": f"busca '{termo}'",
+                           "texto": texto_do_html(corpo), "videos": sorted(set(RX_YOUTUBE.findall(corpo)))}
+            for href in RX_PDF.findall(corpo):
+                href = _absoluta(href)
+                if not _e_carta(href) and href not in pdfs:
+                    pdfs[href] = {"url": href, "publicado_em": data, "titulo": titulo, "achado_por": f"post {link}"}
+    return pdfs, posts
+
+
+def _nome_arquivo(url, sufixo=""):
+    nome = re.sub(r"[^A-Za-z0-9_.-]+", "_", os.path.basename(url.rstrip("/").split("?")[0]))[:100] or "doc"
+    return re.sub(r"\.pdf$", "", nome, flags=re.I) + sufixo
+
+
+def coletar_documentos(saida, desde, falhas):
+    pasta = os.path.join(saida, "docs")
+    pasta_img = os.path.join(saida, "imagens", "docs")
+    os.makedirs(pasta, exist_ok=True)
+    os.makedirs(pasta_img, exist_ok=True)
+    antigo = {}
+    try:
+        antigo = {d["url"]: d for d in json.load(open(os.path.join(pasta, "index.json"), encoding="utf-8"))["docs"]}
+    except Exception:
+        pass
+    log = []
+    pdfs, posts = descobrir_documentos(desde, log)
+    print(f"== documentos: {len(pdfs)} PDFs e {len(posts)} posts desde {desde}")
+    docs = []
+    for url, meta in sorted(pdfs.items(), key=lambda x: x[1]["publicado_em"], reverse=True)[:40]:
+        # O mesmo nome de arquivo volta todo mes (Apresentacao-Live-Mensal.pdf): a data entra no nome
+        arquivo = f"{meta['publicado_em']}_{_nome_arquivo(url)}"
+        destino = os.path.join(pasta, arquivo + ".txt")
+        velho = antigo.get(url)
+        if velho and os.path.exists(destino) and velho.get("chars") and "imagens" in velho:
+            docs.append(velho)
+            continue
+        try:
+            conteudo = http_get(url, timeout=120, educado=True).content
+            texto, n_pag = texto_do_pdf(conteudo)
+        except Exception as e:
+            falhas.append(f"doc {url}: {e}")
+            continue
+        with open(destino, "w", encoding="utf-8") as f:
+            f.write(texto)
+        entrada = dict(meta, tipo="pdf", arquivo=f"kinea/docs/{arquivo}.txt", paginas=n_pag, chars=len(texto),
+                       baixado_em=agora())
+        try:
+            entrada["imagens"] = paginas_de_posicoes(conteudo, arquivo, pasta_img, "kinea/imagens/docs")
+        except Exception as e:
+            falhas.append(f"imagens do doc {url}: {type(e).__name__}: {e}")
+        docs.append(entrada)
+        print(f"  {meta['publicado_em']} {meta['titulo'][:60]}: {n_pag} p., {len(entrada.get('imagens') or [])} pag. de posicoes")
+    for url, meta in sorted(posts.items(), key=lambda x: x[1]["publicado_em"], reverse=True)[:40]:
+        arquivo = f"{meta['publicado_em']}_post_{_nome_arquivo(url)}"
+        texto = meta.pop("texto")
+        with open(os.path.join(pasta, arquivo + ".txt"), "w", encoding="utf-8") as f:
+            f.write(f"# {meta['titulo']}\n# {url} | {meta['publicado_em']}\n\n{texto}")
+        docs.append(dict(meta, tipo="post", arquivo=f"kinea/docs/{arquivo}.txt", chars=len(texto)))
+    no_indice = {os.path.basename(d["arquivo"]) for d in docs}
+    for nome in os.listdir(pasta):
+        if nome.endswith(".txt") and nome not in no_indice:
+            os.remove(os.path.join(pasta, nome))
+    usadas = {os.path.basename(i["arquivo"]) for d in docs for i in d.get("imagens") or []}
+    for nome in os.listdir(pasta_img):
+        if nome not in usadas:
+            os.remove(os.path.join(pasta_img, nome))
+    docs.sort(key=lambda d: d.get("publicado_em") or "", reverse=True)
+    with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
+        json.dump({"gerado_em": agora(), "fonte": f"{SITE} (busca do WordPress: {', '.join(TERMOS_DOCS + TERMOS_POSTS)})",
+                   "desde": desde, "docs": docs, "log": log[:40]}, f, ensure_ascii=False, indent=1)
+    return {"pdfs": sum(1 for d in docs if d["tipo"] == "pdf"), "posts": sum(1 for d in docs if d["tipo"] == "post"),
+            "imagens": len(usadas)}
+
+
+def _hms(seg):
+    return f"{seg // 3600:02d}:{seg % 3600 // 60:02d}:{seg % 60:02d}"
+
+
+RX_TEMPO_VTT = re.compile(r"^(\d{2,}):(\d{2}):(\d{2})[.,]\d{3}\s+-->")
+
+
+def texto_da_legenda(vtt, janela=30):
+    """VTT do YouTube -> texto corrido, uma linha a cada ~30 s com a marca de tempo do inicio.
+    A legenda automatica repete a linha anterior em cada bloco (rolagem): cada linha entra uma vez."""
+    saida, grupo, grupo_t, recentes = [], [], None, []
+    # So linha vazia separa blocos: a legenda automatica abre cada bloco com uma linha de um espaco
+    for bloco in re.split(r"\n{2,}", (vtt or "").replace("\r", "")):
+        t, linhas = None, []
+        for l in bloco.strip().split("\n"):
+            m = RX_TEMPO_VTT.match(l.strip())
+            if m:
+                t = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
+            elif t is not None:
+                l = html.unescape(re.sub(r"<[^>]+>", "", l)).strip()
+                if l:
+                    linhas.append(l)
+        if t is None:
+            continue
+        for l in linhas:
+            if l in recentes:
+                continue
+            recentes = (recentes + [l])[-3:]
+            if grupo and t - grupo_t >= janela:
+                saida.append(f"[{_hms(grupo_t)}] {' '.join(grupo)}")
+                grupo = []
+            if not grupo:
+                grupo_t = t
+            grupo.append(l)
+    if grupo:
+        saida.append(f"[{_hms(grupo_t)}] {' '.join(grupo)}")
+    return "\n".join(saida)
+
+
+def _ydl(extra, clientes=None):
+    import yt_dlp
+    opts = {"quiet": True, "no_warnings": True, "skip_download": True, "socket_timeout": 30, "retries": 3,
+            "ignore_no_formats_error": True, "http_headers": {"Accept-Language": "pt-BR,pt;q=0.9"}}
+    opts.update(extra)
+    if clientes:
+        opts["extractor_args"] = {"youtube": {"player_client": clientes}}
+    return yt_dlp.YoutubeDL(opts)
+
+
+def listar_videos(canal, n, log):
+    """Os n mais novos de cada aba do canal (ao vivo e videos), sem baixar nada."""
+    try:
+        import yt_dlp  # noqa: F401
+    except ImportError:
+        log.append("yt-dlp nao instalado")
+        return []
+    vistos, lista = set(), []
+    for aba in ("streams", "videos"):
+        try:
+            with _ydl({"extract_flat": "in_playlist", "playlistend": n}) as y:
+                info = y.extract_info(f"{canal.rstrip('/')}/{aba}", download=False)
+        except Exception as e:
+            log.append(f"lista {aba}: {type(e).__name__}: {str(e)[:200]}")
+            continue
+        for e in (info or {}).get("entries") or []:
+            if e.get("id") and e["id"] not in vistos:
+                vistos.add(e["id"])
+                lista.append({"id": e["id"], "titulo": e.get("title"), "aba": aba})
+    return lista
+
+
+def videos_do_rss(canal, log):
+    """Plano B quando a listagem falha: o feed RSS do canal (15 mais novos, com descricao)."""
+    try:
+        pagina = http_get(canal, timeout=60).text
+        cid = re.search(r'"(?:externalId|channelId)":"(UC[\w-]{22})"', pagina) or re.search(r"channel/(UC[\w-]{22})", pagina)
+        xml = http_get(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid.group(1)}", timeout=60).text
+    except Exception as e:
+        log.append(f"rss: {type(e).__name__}: {str(e)[:200]}")
+        return []
+    lista = []
+    for bloco in re.findall(r"(?s)<entry>(.*?)</entry>", xml):
+        vid = re.search(r"<yt:videoId>([\w-]{11})</yt:videoId>", bloco)
+        if not vid:
+            continue
+        tit = re.search(r"(?s)<title>(.*?)</title>", bloco)
+        pub = re.search(r"<published>([\d-]{10})", bloco)
+        desc = re.search(r"(?s)<media:description>(.*?)</media:description>", bloco)
+        lista.append({"id": vid.group(1), "titulo": html.unescape(tit.group(1)) if tit else None, "aba": "rss",
+                      "data": pub.group(1) if pub else None,
+                      "descricao": html.unescape(desc.group(1))[:1500] if desc else ""})
+    return lista
+
+
+def legenda_do_video(vid, pasta_tmp):
+    """Metadados e legenda em portugues (a manual se houver, senao a automatica). Devolve (info, vtt, tipo, lingua)."""
+    url = f"https://www.youtube.com/watch?v={vid}"
+    ultimo = "sem tentativa"
+    for clientes in CLIENTES_YT:
+        for f in os.listdir(pasta_tmp):
+            if f.startswith(vid):
+                os.remove(os.path.join(pasta_tmp, f))
+        try:
+            with _ydl({"writesubtitles": True, "writeautomaticsub": True, "subtitleslangs": ["pt.*"],
+                       "subtitlesformat": "vtt", "outtmpl": os.path.join(pasta_tmp, "%(id)s.%(ext)s"),
+                       "sleep_interval_subtitles": 1}, clientes) as y:
+                info = y.extract_info(url, download=True)
+        except Exception as e:
+            ultimo = f"{'/'.join(clientes or ['padrao'])}: {type(e).__name__}: {str(e)[:220]}"
+            continue
+        manuais = set((info.get("subtitles") or {}).keys())
+        achados = {f.split(".")[-2]: os.path.join(pasta_tmp, f) for f in os.listdir(pasta_tmp)
+                   if f.startswith(vid + ".") and f.endswith(".vtt")}
+        ordem = sorted(achados, key=lambda l: (l not in manuais, l != "pt-orig", l != "pt", l))
+        if ordem:
+            lingua = ordem[0]
+            with open(achados[lingua], encoding="utf-8", errors="replace") as f:
+                return info, f.read(), ("manual" if lingua in manuais else "automatica"), lingua
+        if info.get("automatic_captions") or info.get("subtitles"):
+            ultimo = f"{'/'.join(clientes or ['padrao'])}: legenda listada mas nao baixada"
+            continue
+        return info, None, None, None
+    raise RuntimeError(ultimo)
+
+
+def videos_do_site(log):
+    """IDs de video embutidos na pagina de videos do site da Kinea (lista curada pela gestora)."""
+    try:
+        return sorted(set(RX_YOUTUBE.findall(http_get(f"{SITE}/videos/", timeout=60, educado=True).text)))
+    except Exception as e:
+        log.append(f"pagina de videos do site: {e}")
+        return []
+
+
+def coletar_videos(saida, canal, n, dias, falhas):
+    pasta = os.path.join(saida, "videos")
+    os.makedirs(pasta, exist_ok=True)
+    antigo = {}
+    try:
+        antigo = {v["id"]: v for v in json.load(open(os.path.join(pasta, "index.json"), encoding="utf-8"))["videos"]}
+    except Exception:
+        pass
+    log = []
+    lista = listar_videos(canal, n, log)
+    origem = "yt-dlp"
+    if not lista:
+        lista, origem = videos_do_rss(canal, log), "rss"
+    vistos = {v["id"] for v in lista}
+    lista += [{"id": v, "titulo": None, "aba": "site"} for v in videos_do_site(log) if v not in vistos]
+    print(f"== videos: {len(lista)} listados ({origem}) em {canal}")
+    limite = (datetime.date.today() - datetime.timedelta(days=dias)).isoformat()
+    velhos_na_aba, videos = set(), []
+    with tempfile.TemporaryDirectory() as tmp:
+        for item in lista:
+            vid, aba = item["id"], item["aba"]
+            v = antigo.get(vid)
+            if v and (v.get("chars") or v.get("legenda") == "sem legenda"):
+                videos.append(v)
+                continue
+            if aba in velhos_na_aba:
+                continue
+            entrada = {"id": vid, "titulo": item.get("titulo"), "aba": aba, "url": f"https://www.youtube.com/watch?v={vid}",
+                       "data": item.get("data"), "descricao": item.get("descricao", "")}
+            try:
+                info, vtt, tipo, lingua = legenda_do_video(vid, tmp)
+                d = info.get("upload_date") or info.get("release_date") or ""
+                entrada.update({"titulo": info.get("title") or entrada["titulo"],
+                                "data": f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else entrada["data"],
+                                "duracao_min": round((info.get("duration") or 0) / 60),
+                                "descricao": (info.get("description") or entrada["descricao"] or "")[:1500],
+                                "ao_vivo": info.get("was_live") or info.get("live_status") in ("was_live", "post_live")})
+            except Exception as e:
+                entrada["erro"] = str(e)[:300]
+                vtt = tipo = lingua = None
+            if entrada.get("data") and entrada["data"] < limite:
+                if aba != "site":
+                    velhos_na_aba.add(aba)  # a aba vem do mais novo ao mais antigo: o resto e mais velho ainda
+                continue
+            if vtt:
+                texto = texto_da_legenda(vtt)
+                arquivo = f"{entrada.get('data') or 'sem-data'}_{vid}.txt"
+                with open(os.path.join(pasta, arquivo), "w", encoding="utf-8") as f:
+                    f.write(f"# {entrada['titulo']}\n# {entrada['url']} | {entrada.get('data')} | "
+                            f"{entrada.get('duracao_min', '?')} min | legenda {tipo} ({lingua})\n\n{texto}\n")
+                entrada.update({"arquivo": f"kinea/videos/{arquivo}", "legenda": tipo, "lingua": lingua, "chars": len(texto)})
+            elif "erro" not in entrada:
+                entrada["legenda"] = "sem legenda"
+            videos.append(entrada)
+            print(f"  {entrada.get('data') or '?'} {str(entrada.get('titulo'))[:70]}: "
+                  f"{entrada.get('legenda') or 'falhou'} {entrada.get('chars', 0):,} chars")
+            time.sleep(2)
+    # Os que ja estavam guardados e sairam da lista dos mais novos continuam (ate 120 videos)
+    ids = {v["id"] for v in videos}
+    videos += [v for k, v in antigo.items() if k not in ids and v.get("chars")]
+    videos.sort(key=lambda v: v.get("data") or "", reverse=True)
+    videos = videos[:120]
+    no_indice = {os.path.basename(v["arquivo"]) for v in videos if v.get("arquivo")}
+    for nome in os.listdir(pasta):
+        if nome.endswith(".txt") and nome not in no_indice:
+            os.remove(os.path.join(pasta, nome))
+    erros = [v for v in videos if v.get("erro")]
+    if erros and not any(v.get("chars") for v in videos):
+        falhas.append(f"videos: nenhuma legenda baixada; ultimo erro: {erros[0]['erro'][:200]}")
+    with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
+        json.dump({"gerado_em": agora(), "canal": canal, "listagem": origem, "fonte": "YouTube (legenda publicada pelo "
+                   "proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
+                   "videos": videos, "log": log[:40]}, f, ensure_ascii=False, indent=1)
+    return {"videos": len(videos), "com_legenda": sum(1 for v in videos if v.get("chars")), "erros": len(erros),
+            "listagem": origem}
 
 
 def main(argv=None):
@@ -546,28 +939,54 @@ def main(argv=None):
     ap.add_argument("--cartas-desde", default="2025-07", help="mes de referencia inicial das cartas (AAAA-MM)")
     ap.add_argument("--urls", default="", help="URLs extras de PDF de carta, separadas por espaco")
     ap.add_argument("--familias", default="multimercado,acoes", help="familias de carta a guardar (multimercado, acoes, renda_fixa, infra, outros)")
-    ap.add_argument("--so-cartas", action="store_true")
-    ap.add_argument("--so-cda", action="store_true")
+    ap.add_argument("--partes", default="cda,cartas,midia", help="o que coletar: cda, cartas, midia (videos, documentos, imagens)")
+    ap.add_argument("--so-cartas", action="store_true", help="atalho antigo para --partes cartas")
+    ap.add_argument("--so-cda", action="store_true", help="atalho antigo para --partes cda")
+    ap.add_argument("--canal", default=CANAL, help="canal da Kinea no YouTube")
+    ap.add_argument("--videos", type=int, default=20, help="quantos videos mais novos por aba do canal (ao vivo e videos)")
+    ap.add_argument("--videos-dias", type=int, default=200, help="ignora video mais velho que isso")
+    ap.add_argument("--docs-desde", default="2026-01", help="mes inicial dos documentos avulsos do site (AAAA-MM)")
     a = ap.parse_args(argv)
+    partes = {p.strip() for p in a.partes.split(",") if p.strip()}
+    if a.so_cartas:
+        partes = {"cartas"}
+    if a.so_cda:
+        partes = {"cda"}
     os.makedirs(a.saida, exist_ok=True)
     dados_dir = a.dados or os.path.dirname(os.path.abspath(a.saida.rstrip("/")))
     alvo = [t.strip().upper() for t in re.split(r"[,\s]+", a.tickers) if t.strip()]
-    falhas, manifest = [], {"gerado_em": agora(), "partes": {}}
-    if not a.so_cartas:
-        cda = coletar_cda(a.meses, alvo, dados_dir, falhas)
-        if cda:
+    # O manifest guarda a ultima rodada de cada parte: rodar so as cartas nao apaga o registro da CDA
+    try:
+        manifest = json.load(open(os.path.join(a.saida, "manifest.json"), encoding="utf-8"))
+    except Exception:
+        manifest = {}
+    manifest.setdefault("partes", {})
+    manifest.update({"gerado_em": agora(), "rodou": sorted(partes)})
+    falhas = []
+
+    def registra(nome, fn):
+        try:
+            r = fn()
+        except Exception as e:
+            falhas.append(f"{nome}: {type(e).__name__}: {e}")
+            r = "falhou"
+        manifest["partes"][nome] = {"em": agora(), "resultado": r}
+
+    if "cda" in partes:
+        def _cda():
+            cda = coletar_cda(a.meses, alvo, dados_dir, falhas)
+            if not cda:
+                return "falhou"
             with open(os.path.join(a.saida, "cda.json"), "w", encoding="utf-8") as f:
                 json.dump(cda, f, ensure_ascii=False, separators=(",", ":"))
-            manifest["partes"]["cda"] = {"meses": cda["meses"], "posicoes": len(cda["posicoes"])}
-        else:
-            manifest["partes"]["cda"] = "falhou"
-    if not a.so_cda:
-        try:
-            familias = tuple(f.strip() for f in a.familias.split(",") if f.strip())
-            manifest["partes"]["cartas"] = coletar_cartas(a.saida, a.cartas_desde, a.urls.split(), falhas, familias)
-        except Exception as e:
-            falhas.append(f"cartas: {type(e).__name__}: {e}")
-            manifest["partes"]["cartas"] = "falhou"
+            return {"meses": cda["meses"], "posicoes": len(cda["posicoes"])}
+        registra("cda", _cda)
+    if "cartas" in partes:
+        familias = tuple(f.strip() for f in a.familias.split(",") if f.strip())
+        registra("cartas", lambda: coletar_cartas(a.saida, a.cartas_desde, a.urls.split(), falhas, familias))
+    if "midia" in partes:
+        registra("documentos", lambda: coletar_documentos(a.saida, a.docs_desde, falhas))
+        registra("videos", lambda: coletar_videos(a.saida, a.canal, a.videos, a.videos_dias, falhas))
     manifest["falhas"] = falhas
     with open(os.path.join(a.saida, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)

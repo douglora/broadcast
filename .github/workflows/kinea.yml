@@ -1,8 +1,9 @@
-name: Kinea (carteira na CVM e cartas do gestor)
+name: Kinea (carteira na CVM, cartas do gestor e videos)
 
-# Baixa a carteira mensal dos fundos Kinea na CVM (CDA, dados abertos) e as cartas
-# do gestor em PDF no site da Kinea, extrai o texto e grava em kinea/ no branch
-# `dados`. A sessao do Claude le com `python3 mesa.py kinea`.
+# Baixa a carteira mensal dos fundos Kinea na CVM (CDA, dados abertos), as cartas
+# do gestor e as apresentacoes em PDF no site da Kinea, e a legenda dos videos do
+# canal no YouTube; extrai o texto, renderiza as paginas de posicoes em imagem e
+# grava em kinea/ no branch `dados`. A sessao do Claude le com `python3 mesa.py kinea`.
 
 on:
   workflow_dispatch:
@@ -22,11 +23,23 @@ on:
         required: false
         default: ""
         type: string
+      partes:
+        description: "O que coletar: cda, cartas, midia (videos do canal, apresentacoes, paginas de posicoes)"
+        required: false
+        default: "cda,cartas,midia"
+        type: string
+      videos:
+        description: "Quantos videos mais novos por aba do canal (ao vivo e videos)"
+        required: false
+        default: "20"
+        type: string
   schedule:
     # Dia 12 de cada mes, 08h40 em Brasilia: a CDA do mes anterior ja esta na CVM
     - cron: "40 11 12 * *"
     # Dias 2 a 6, 09h40 em Brasilia: as cartas do mes saem na primeira semana
     - cron: "40 12 2-6 * *"
+    # Segunda-feira, 10h10 em Brasilia: videos novos do canal (Kinea Expresso, podcasts, lives)
+    - cron: "10 13 * * 1"
   push:
     branches: [main]
     paths:
@@ -58,22 +71,29 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Instalar dependencias
-        run: pip install requests pandas pypdf
+      # O YouTube exige um interpretador de JavaScript para o yt-dlp ler a pagina do video
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
 
-      - name: Coletar carteira e cartas
+      - name: Instalar dependencias
+        run: pip install requests pandas pypdf pymupdf "yt-dlp[default]"
+
+      - name: Coletar carteira, cartas e midia
         env:
           MESES: ${{ inputs.meses }}
           DESDE: ${{ inputs.cartas_desde }}
           URLS: ${{ inputs.urls }}
+          PARTES: ${{ inputs.partes }}
+          VIDEOS: ${{ inputs.videos }}
           EVENTO: ${{ github.event_name }}
         run: |
-          ARGS=""
-          # Nas agendas das cartas (dias 2 a 6) a CDA nao muda: so as cartas. Push de codigo tambem so refaz as
-          # cartas; a carteira da CVM (15 min) roda no dia 12 ou no disparo manual.
-          if [ "$EVENTO" = "schedule" ] && [ "$(date -u +%d)" != "12" ]; then ARGS="--so-cartas"; fi
-          if [ "$EVENTO" = "push" ]; then ARGS="--so-cartas"; fi
-          python kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" --urls "$URLS" $ARGS
+          # Nas agendas das cartas (dias 2 a 6) e na de segunda a CDA nao muda: so cartas e midia. Push de codigo
+          # tambem; a carteira da CVM (15 min) roda no dia 12 ou no disparo manual.
+          if [ "$EVENTO" = "schedule" ] && [ "$(date -u +%d)" != "12" ]; then PARTES="cartas,midia"; fi
+          if [ "$EVENTO" = "push" ]; then PARTES="cartas,midia"; fi
+          python kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" \
+            --urls "$URLS" --partes "${PARTES:-cda,cartas,midia}" --videos "${VIDEOS:-20}"
 
       - name: Publicar no branch dados
         run: |
@@ -82,7 +102,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A kinea
           if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
-          git commit -q -m "Kinea: carteira CDA e cartas do gestor ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git commit -q -m "Kinea: carteira CDA, cartas e videos ($(date -u +%Y-%m-%dT%H:%MZ))"
           for i in 1 2 3; do
             git push && break
             git pull --rebase -q && sleep 5

@@ -78,7 +78,13 @@ aberta:
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/kinea/cda.json` e
   `.../kinea/cartas/index.json` (carteira mensal dos fundos Kinea na CVM, com as
   construtoras fundo a fundo, e as cartas do gestor na integra, em texto;
-  workflow `kinea.yml`; leitura por `python3 mesa.py kinea`)
+  workflow `kinea.yml`; leitura por `python3 mesa.py kinea`), mais
+  `.../kinea/videos/index.json` (legenda dos videos do canal no YouTube, com o
+  minuto de cada fala: `mesa.py kinea videos --grep`), `.../kinea/docs/index.json`
+  (apresentacao da live mensal, relatorios e posts do site) e `.../kinea/imagens/`
+  (paginas de "principais posicoes" das cartas e das lives em imagem: ali as
+  empresas aparecem como logotipo e o texto do PDF nao traz o nome;
+  `mesa.py kinea imagens`)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/snapshot/<arquivo>.json`
   (quotes, indicators, tesouro, di, cvm, news, tir_all, weekly_summary, manifest)
 
