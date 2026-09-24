@@ -141,10 +141,13 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
      linha do turno, com o numero entregue e o certo. O runner faz isso sozinho na manha
      e no fechamento para alerta de preco (F01-F06, T05) E para a linha da tabela dos
      drivers e dos destaques do slot anterior ("CORRECAO tabela · BRENT 23/09: saiu
-     -1,4% a 97,83; o certo e +3,9% a 103,08"): o card "Correcao de alertas ja enviados"
-     vem no topo dos cards (`leitura_insumos.correcoes`), a faixa no topo do painel e a
-     primeira parte do `push_sugerido`. Voce cola o card, abre a resposta com ele e manda
-     o push (passo 6). Erro que so esta no SEU texto (uma frase da Leitura de ontem):
+     -1,4% a 97,83; o certo e +3,9% a 103,08"). Alerta do mesmo dia que uma rodada
+     anterior registrou e que o portao de agora segura sai da lista e vira "RETIRADO"
+     ("RETIRADO T05 · MMM 23/09: o alerta dizia ...; nao vale, variacao de 2 pregoes").
+     O card "Correcao do que ja foi enviado" vem no topo dos cards
+     (`leitura_insumos.correcoes`), a faixa no topo do painel e a primeira parte do
+     `push_sugerido`. Voce cola o card, abre a resposta com ele e manda o push (passo 6);
+     nao cite na Leitura o alerta retirado. Erro que so esta no SEU texto (uma frase da Leitura de ontem):
      voce escreve a CORRECAO na primeira linha; nao edite o painel a mao alem da troca
      do marcador da leitura.
    - **R7.** Antes de ler qualquer .md de `livro/saida`, confira a data: `git log -1

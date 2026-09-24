@@ -548,7 +548,7 @@ def _faixa_correcoes(ins: dict) -> str:
     if not itens:
         return ""
     linhas = "".join(f"<span>{_e(c['texto'])}</span>" for c in itens)
-    return f'<div class="correcao">Correção de alertas já enviados{linhas}</div>'
+    return f'<div class="correcao">Correção do que já foi enviado{linhas}</div>'
 
 
 def _nota_brent_reais(ins: dict) -> str:

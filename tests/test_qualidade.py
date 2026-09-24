@@ -238,8 +238,10 @@ def test_destaques_nao_levam_dia_de_dois_pregoes(universo):
     assert [i for i, _ in m["altas"]] == ["PLTR"] and [i for i, _ in m["baixas"]] == ["BABA"]
 
 
-def _fake(series_info):
-    return types.SimpleNamespace(series_info=series_info, falhas={}, REGRAS_DO_DIA=coletar.Coleta.REGRAS_DO_DIA)
+def _fake(series_info, **kw):
+    f = types.SimpleNamespace(series_info=series_info, falhas={}, REGRAS_DO_DIA=coletar.Coleta.REGRAS_DO_DIA, **kw)
+    f._motivo_portao = types.MethodType(coletar.Coleta._motivo_portao, f)
+    return f
 
 
 def test_portao_segura_alerta_de_serie_nao_confirmada_e_de_dois_pregoes():
@@ -401,3 +403,122 @@ def test_linha_a_confirmar_nao_mostra_numero_nenhum(universo):
     info = {"fresco": True, "qualidade": {"status": qa.NAO_CONFIRMADO, "motivos": ["x"], "descartar_ultima": False}}
     linha = cards._linha(a, j, info)
     assert "5,0999" not in linha and "-0,2" not in linha and linha.count("a confirmar") >= 3
+
+
+def _fila_23_09():
+    base = {"status": "entregue", "canal": "mensagem", "slot": "fechamento", "gerado_em": "2026-09-24T00:03:00Z",
+            "data": "2026-09-23"}
+    return {
+        "T05-MMM-alta-2026-09-23": {**base, "id": "T05-MMM-alta-2026-09-23", "regra": "T05", "ativo": "MMM",
+                                    "familia": "preco", "severidade": "atencao",
+                                    "titulo": "MMM +3,2% no dia a US$ 170,30: movimento de 2,8 desvios"},
+        "T05-KLBN4-queda-2026-09-23": {**base, "id": "T05-KLBN4-queda-2026-09-23", "regra": "T05", "ativo": "KLBN4",
+                                       "familia": "preco", "severidade": "critico", "titulo": "KLBN4 -3,2% no dia"},
+        "S01-SISTEMA-fechamento-2026-09-23": {**base, "id": "S01-SISTEMA-fechamento-2026-09-23", "regra": "S01",
+                                              "ativo": "SISTEMA", "familia": "sistema", "severidade": "atencao",
+                                              "titulo": "coleta do slot fechamento saiu incompleta: bcb 4 de 5"},
+    }
+
+
+def test_alerta_de_rodada_anterior_que_o_portao_agora_segura_vira_retirado(tmp_path):
+    from livro.estado import Repositorio
+    repo = Repositorio(str(tmp_path))
+    repo.fila = _fila_23_09()
+    si = {"MMM": {"qualidade": {"status": qa.OK, "dia_pregoes": 2, "sem_barra": ["2026-09-22"], "data_barra": "2026-09-23"}},
+          "KLBN4": {"qualidade": {"status": qa.OK, "data_barra": "2026-09-23"}}}
+    f = _fake(si, hoje=date(2026, 9, 23), modo="fechamento")
+    ret = coletar.Coleta.revisar_do_dia(f, repo, [])
+    assert [r["ativo"] for r in ret] == ["MMM"] and ret[0]["tipo"] == "retirado"
+    assert ret[0]["texto"].startswith("RETIRADO T05 · MMM 23/09: o alerta dizia “MMM +3,2% no dia")
+    assert "variação de 2 pregões (sem 22/09)" in ret[0]["texto"]
+    mmm = repo.fila["T05-MMM-alta-2026-09-23"]
+    assert mmm["segurado"] and mmm["status"] == "retirado" and "segurado" not in repo.fila["T05-KLBN4-queda-2026-09-23"]
+    # retirado e terminal: nao volta como pendente, nem com a barra recuperada, nem vira CORRECAO
+    assert "T05-MMM-alta-2026-09-23" not in [p["id"] for p in repo.pendentes()]
+    si["MMM"]["qualidade"] = {"status": qa.OK, "dia_pregoes": 1, "data_barra": "2026-09-23"}
+    assert coletar.Coleta.revisar_do_dia(f, repo, [], {ret[0]["original"]: "2026-09-23"}) == []
+    assert mmm["segurado"] and mmm["status"] == "retirado"
+    # a coleta de agora nao repetiu a falha do S01 do mesmo slot: superado; volta se a falha voltar
+    assert repo.fila["S01-SISTEMA-fechamento-2026-09-23"]["superado"] is True
+    coletar.Coleta.revisar_do_dia(f, repo, [Alerta("S01", "SISTEMA", "atencao", "sistema", "x", tag="fechamento",
+                                                   data="2026-09-23")])
+    assert "superado" not in repo.fila["S01-SISTEMA-fechamento-2026-09-23"]
+
+
+def test_revisao_nao_retira_alerta_do_intradia_nem_devolve_sem_redisparo(tmp_path):
+    from livro.estado import Repositorio
+    repo = Repositorio(str(tmp_path))
+    base = {"status": "pendente", "canal": "mensagem", "gerado_em": "2026-09-24T14:05:00Z", "data": "2026-09-24"}
+    repo.fila = {
+        "F01-USDBRL-alta-2026-09-24": {**base, "id": "F01-USDBRL-alta-2026-09-24", "regra": "F01", "ativo": "USDBRL",
+                                       "familia": "cambio", "slot": "intradia", "severidade": "critico",
+                                       "titulo": "Dólar +1,4% a R$ 5,23 (parcial, intradia)"},
+        "T05-KLBN4-queda-2026-09-24": {**base, "id": "T05-KLBN4-queda-2026-09-24", "regra": "T05", "ativo": "KLBN4",
+                                       "familia": "preco", "slot": "fechamento", "canal": "info", "status": "linha",
+                                       "severidade": "info", "titulo": "KLBN4 -3,2%", "segurado": "KLBN4: barra parcial"}}
+    si = {"USDBRL": {"qualidade": {"status": qa.NAO_CONFIRMADO, "motivos": ["fechamento das 17h indisponível"],
+                                   "data_barra": "2026-09-24"}},
+          "KLBN4": {"qualidade": {"status": qa.OK, "data_barra": "2026-09-24"}}}
+    f = _fake(si, hoje=date(2026, 9, 24), modo="fechamento")
+    assert coletar.Coleta.revisar_do_dia(f, repo, []) == []
+    assert "segurado" not in repo.fila["F01-USDBRL-alta-2026-09-24"]
+    # dado bom de novo, mas a regra nao redisparou: continua fora (o numero gravado e o velho)
+    assert repo.fila["T05-KLBN4-queda-2026-09-24"]["segurado"]
+    coletar.Coleta.revisar_do_dia(f, repo, [Alerta("T05", "KLBN4", "info", "preco", "KLBN4 -3,1%", tag="queda",
+                                                   data="2026-09-24")])
+    assert "segurado" not in repo.fila["T05-KLBN4-queda-2026-09-24"]
+    # no intradia a revisao de preco nao roda
+    f.modo = "intradia"
+    repo.fila["T05-KLBN4-queda-2026-09-24"]["segurado"] = "x"
+    coletar.Coleta.revisar_do_dia(f, repo, [])
+    assert repo.fila["T05-KLBN4-queda-2026-09-24"]["segurado"] == "x"
+
+
+def test_s01_repete_enquanto_a_falha_continua(universo, limiares):
+    from livro.sinais.base import Contexto, Estado
+    from livro.sinais.sistema import S01FalhaDados
+    ctx = Contexto(universo=universo, limiares=limiares, hoje=date(2026, 9, 23), slot="fechamento", series={},
+                   series_info={}, curvas={}, macro={}, falhas={"bcb": "BCB devolveu 4 de 5"}, eventos={})
+    est = Estado()
+    a1, a2 = S01FalhaDados().avaliar(ctx, est), S01FalhaDados().avaliar(ctx, est)
+    assert a1 and a2 and a1[0].id == a2[0].id == "S01-SISTEMA-fechamento-2026-09-23"
+
+
+def test_push_da_manha_leva_o_retirado():
+    f = types.SimpleNamespace(modo="fechamento", hoje=date(2026, 9, 23))
+    ins = {"correcoes": [{"tipo": "retirado", "regra": "T05", "ativo": "MMM", "data": "2026-09-23",
+                          "var_entregue": None, "var_certa": None}]}
+    txt = coletar.Coleta._push_fechamento(f, [], {}, ins)
+    assert txt.startswith("Fechamento 23/09: RETIRADO T05 MMM 23/09") and len(txt) < 200
+
+
+def test_aviso_de_participacao_registrado_antes_do_parser_e_relido(tmp_path, universo):
+    import shutil
+    from livro.estado import Repositorio
+    os.makedirs(tmp_path / "noticias" / "corpo")
+    shutil.copy(os.path.join(FIX, "CVM-DIRR3-1570676.json"), tmp_path / "noticias" / "corpo" / "CVM-DIRR3-1570676.json")
+    repo = Repositorio(str(tmp_path))
+    velho = {"id": "E03-DIRR3-1570676-2026-09-23", "regra": "E03", "ativo": "DIRR3", "familia": "evento",
+             "severidade": "atencao", "status": "entregue", "canal": "mensagem", "data": "2026-09-23",
+             "gerado_em": "2026-09-24T00:03:00Z",
+             "titulo": "DIRR3 · Comunicado ao Mercado: Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na 50",
+             "corpo": ["CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante"],
+             "por_que": "comunicado ao mercado costuma responder a noticia ou a oficio",
+             "dados": {"id_item": "CVM-DIRR3-1570676", "categoria": "Comunicado ao Mercado",
+                       "manchete": "Comunicado ao Mercado: Recebeu correspondência da BlackRock"}}
+    repo.fila = {velho["id"]: dict(velho)}
+    f = types.SimpleNamespace(hoje=date(2026, 9, 23), saida=str(tmp_path), u=universo)
+    assert coletar.Coleta.reler_participacao(f, repo) == 1
+    e = repo.fila[velho["id"]]
+    assert e["titulo"].startswith("DIRR3 · Participação relevante: BlackRock passou a ter 5,08% em 18/09")
+    assert e["titulo_inicial"] == velho["titulo"] and e["status"] == "entregue" and e["severidade"] == "atencao"
+    assert "Resolução CVM 44" in e["por_que"] and e["dados"]["participacao"]["percentual"] == 5.082
+    assert "Direcional Engenharia" in e["como_falar"]
+    # o texto gravado (noticias.md, reapresentacao) tambem foi refeito
+    assert "Participação relevante: BlackRock" in e["texto"] and "Resolução CVM 44" in e["texto"]
+    assert "responder a noticia" not in e["texto"]
+    assert coletar.Coleta.reler_participacao(f, repo) == 0          # ja relido
+    # e o "por que mexeu" passa a ler a participacao
+    from livro import atribuicao as at
+    d = at._docs_do_dia({}, [e], "2026-09-23")["DIRR3"][0][1]
+    assert d["participacao"]["detentor"] == "BlackRock"

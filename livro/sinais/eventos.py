@@ -106,6 +106,19 @@ class E05Noticia(Regra):
         return saida
 
 
+def textos_participacao(part: dict, rotulo: str, nome: str) -> tuple[str, str, str]:
+    """Titulo, por que importa e como falar de um aviso de participacao relevante.
+    Usado pelo E03 e pelo runner para refazer um alerta registrado antes do parser."""
+    resumo_p = atribuicao.texto_participacao(part)
+    titulo = f"{rotulo} · Participação relevante: {resumo_p}"
+    quando = f" até {_data_br(part['data_cruzamento'])}" if part.get("data_cruzamento") else ""
+    por_que = ("quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); "
+               + ("o objetivo declarado é só investimento e não muda controle; " if part.get("objetivo_investimento") else "")
+               + f"o fluxo de compra ou venda já aconteceu{quando}, não no dia do aviso")
+    como = f"{resumo_p} na {nome}; é aviso de participação, não fato relevante"
+    return titulo, por_que, como
+
+
 class E03CVM(Regra):
     id = "E03"
 
@@ -134,14 +147,7 @@ class E03CVM(Regra):
             # Fato Relevante (venda do controlador, por exemplo) continua Fato Relevante
             part = atribuicao.participacao(d) if cat != "Fato Relevante" else None
             if part:
-                resumo_p = atribuicao.texto_participacao(part)
-                titulo = f"{ctx.rotulo(ativo)} · Participação relevante: {resumo_p}"
-                quando = f" até {_data_br(part['data_cruzamento'])}" if part.get("data_cruzamento") else ""
-                por_que = ("quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); "
-                           + ("o objetivo declarado é só investimento e não muda controle; " if part.get("objetivo_investimento") else "")
-                           + f"o fluxo de compra ou venda já aconteceu{quando}, não no dia do aviso")
-                como = (f"{resumo_p} na {_nome_curto(ctx, ativo, d.get('empresa'))}; é aviso de participação, "
-                        "não fato relevante")
+                titulo, por_que, como = textos_participacao(part, ctx.rotulo(ativo), _nome_curto(ctx, ativo, d.get("empresa")))
             saida.append(Alerta(
                 regra=self.id, ativo=ativo, severidade=("info" if part else d.get("severidade", "info")), familia="evento",
                 titulo=titulo, tag=str(d.get("protocolo") or "x"),

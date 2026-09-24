@@ -144,10 +144,16 @@ def _card_correcoes(ins: dict) -> str:
     itens = ins.get("correcoes") or []
     if not itens:
         return ""
-    L = ["### Correção de alertas já enviados", ""]
+    L = ["### Correção do que já foi enviado", ""]
     L += [f"- **{_esc(c['texto'])}**" for c in itens]
-    L += ["", "*O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou "
-              "barra parcial); o certo vem da série já corrigida.*"]
+    notas = []
+    if any(c.get("tipo") != "retirado" for c in itens):
+        notas.append("O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou "
+                     "barra parcial); o certo vem da série já corrigida.")
+    if any(c.get("tipo") == "retirado" for c in itens):
+        notas.append("RETIRADO: o alerta dependia de uma variação que o portão de qualidade não aceita (dois "
+                     "pregões, barra parcial ou dado não confirmado); não há número certo para pôr no lugar.")
+    L += ["", "*" + " ".join(notas) + "*"]
     return "\n".join(L)
 
 

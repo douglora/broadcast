@@ -83,6 +83,14 @@ def participacao(doc: dict) -> dict | None:
     m = re.search(r"correspond[eê]ncia d[ao]s? ([A-Z][\w&.,' -]{2,60}?)(?:\s*\(|,| sediad| com sede| inscrit| comunicando| informando)", plano)
     if m:
         out["detentor"] = m.group(1).strip(" ,")
+    # o aviso e de TERCEIRO sobre a companhia ("recebeu correspondencia da BlackRock");
+    # comunicado em que a propria companhia compra fatia de outra empresa cita o mesmo
+    # art. 12 e nao e isto
+    terceiro = re.search(r"correspond[eê]ncia|foi informad[ao]|(?:informou|comunicou|notificou) [àa] Companhia", plano, re.I)
+    propria = re.search(r"\b(?:a|esta)\s+Companhia\b[^.]{0,80}?\b(?:concluiu|adquiriu|celebrou|passou a deter|passa a deter|"
+                        r"passando a deter)", plano, re.I)
+    if not terceiro or (propria and not out.get("detentor")):
+        return None
     m = re.search(r"(\d{1,3}(?:[.,]\d{3})+|\d+)\s+a[cç][oõ]es\s+ordin[aá]rias", plano, re.I)
     if m:
         out["quantidade"] = int(re.sub(r"\D", "", m.group(1)))

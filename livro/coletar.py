@@ -30,7 +30,7 @@ from livro.sinais import tecnicas2 as r_tec2
 from livro.sinais import fx_commod as r_fx
 from livro.sinais import sistema as r_sis
 from livro.sinais import tecnicas as r_tec
-from livro.sinais.base import Contexto
+from livro.sinais.base import Alerta, Contexto
 from livro.universo import gravar_json, ler_json
 
 SLOT_ROTULO = {"intradia": "intradia", "fechamento": "Fechamento 18h", "manha": "Manhã 08h30",
@@ -722,23 +722,7 @@ class Coleta:
             if a.familia in ("evento", "noticia", "sistema", "curva"):
                 passam.append(a)           # noticia, fato relevante e curva nao dependem da barra do Yahoo
                 continue
-            ids = [a.ativo] + [x for x in ((a.dados or {}).get("par") or []) if isinstance(x, str)]
-            motivo, suspeita = None, None
-            for i in ids:
-                info = self.series_info.get(i)
-                if not info:
-                    continue
-                q = info.get("qualidade") or {}
-                if q.get("status") == qa.NAO_CONFIRMADO and not q.get("descartar_ultima"):
-                    motivo = f"{i}: {(q.get('motivos') or ['dado não confirmado'])[0]}"
-                elif a.regra in self.REGRAS_DO_DIA and q.get("dia_pregoes", 1) > 1:
-                    motivo = f"{i}: variação de {q['dia_pregoes']} pregões (sem {', '.join(fmt.data_br(x) for x in q.get('sem_barra', []))})"
-                elif a.regra in self.REGRAS_DO_DIA and q.get("parcial") and a.familia != "cripto":
-                    motivo = f"{i}: barra parcial"
-                elif q.get("status") == qa.SUSPEITO:
-                    suspeita = (q.get("motivos") or ["dado a confirmar"])[0]
-                if motivo:
-                    break
+            motivo, suspeita = self._motivo_portao(a.regra, a.familia, a.ativo, a.dados)
             if motivo:
                 segurados.append(f"{a.regra} {a.ativo} ({motivo})")
                 continue
@@ -751,6 +735,120 @@ class Coleta:
             self.falhas["alertas_segurados"] = ("alertas não emitidos por dado não confirmado: "
                                                 + "; ".join(segurados[:8]))
         return passam
+
+    def _motivo_portao(self, regra: str, familia: str, ativo: str, dados: dict | None) -> tuple[str | None, str | None]:
+        """(motivo para segurar, suspeita) de um alerta de preco contra a qualidade atual."""
+        ids = [ativo] + [x for x in ((dados or {}).get("par") or []) if isinstance(x, str)]
+        motivo, suspeita = None, None
+        for i in ids:
+            info = self.series_info.get(i)
+            if not info:
+                continue
+            q = info.get("qualidade") or {}
+            if q.get("status") == qa.NAO_CONFIRMADO and not q.get("descartar_ultima"):
+                motivo = f"{i}: {(q.get('motivos') or ['dado não confirmado'])[0]}"
+            elif regra in self.REGRAS_DO_DIA and q.get("dia_pregoes", 1) > 1:
+                motivo = f"{i}: variação de {q['dia_pregoes']} pregões (sem {', '.join(fmt.data_br(x) for x in q.get('sem_barra', []))})"
+            elif regra in self.REGRAS_DO_DIA and q.get("parcial") and familia != "cripto":
+                motivo = f"{i}: barra parcial"
+            elif q.get("status") == qa.SUSPEITO:
+                suspeita = (q.get("motivos") or ["dado a confirmar"])[0]
+            if motivo:
+                break
+        return motivo, suspeita
+
+    def revisar_do_dia(self, repo: Repositorio, alertas: list, ja_corrigidos: dict | None = None) -> list[dict]:
+        """Alerta registrado mais cedo no mesmo dia passa de novo pelo portao.
+
+        Em 23/09 a rodada das 20h59 (antes do portao) registrou "MMM +3,2% no dia"; eram
+        dois pregoes. A rodada seguinte segurou o T05, mas o alerta velho continuava na
+        fila e no card. Aqui ele sai da lista do dia (campo `segurado`) e, se ja tinha
+        saido como mensagem, vira RETIRADO na faixa de correcao, uma vez so, e fica com
+        status `retirado` (terminal: nao volta como pendente, nem como alerta do dia, nem
+        como CORRECAO do reconferir). O S01 do mesmo slot que a coleta de agora nao
+        repete (falha resolvida) fica `superado`."""
+        ja = ja_corrigidos or {}
+        s01_agora = any(a.regra == "S01" for a in alertas)
+        reemitidos = {a.id for a in alertas}
+        retirados = []
+        for e in repo.do_dia(self.hoje.isoformat()):
+            fam = e.get("familia")
+            if e.get("regra") == "S01":
+                if e.get("slot") == self.modo and str(e.get("id", "")).startswith(f"S01-SISTEMA-{self.modo}-"):
+                    if s01_agora:
+                        e.pop("superado", None)
+                    else:
+                        e["superado"] = True
+                continue
+            # alerta de preco so se revisa na manha e no fechamento, com barra encerrada
+            if self.modo not in ("manha", "fechamento"):
+                continue
+            if fam in ("evento", "noticia", "sistema", "curva") or not e.get("ativo") or e.get("status") == "retirado":
+                continue
+            # alerta nascido no intradia era parcial por definicao: a falta do fechamento
+            # nao desmente a cotacao das 11h (mesma regra do reconferir)
+            if e.get("slot") == "intradia" or "(parcial" in str(e.get("titulo") or ""):
+                continue
+            # so julga com a barra de que o alerta fala: a coleta de agora pode avaliar
+            # outra barra (ou nenhuma) e nao pode retirar nem devolver o alerta
+            q = (self.series_info.get(e["ativo"]) or {}).get("qualidade") or {}
+            if not q or q.get("data_barra") != str(e.get("data") or "")[:10]:
+                continue
+            motivo, _ = self._motivo_portao(e.get("regra"), fam, e["ativo"], e.get("dados"))
+            if not motivo:
+                # so volta a valer se a regra redisparou agora (o _atualizar refez o numero)
+                if e["id"] in reemitidos:
+                    e.pop("segurado", None)
+                continue
+            e["segurado"] = motivo
+            if e.get("canal") != "mensagem":
+                continue
+            e["status"] = "retirado"
+            chave = f"retirado:{e['id']}"
+            if chave in ja:
+                continue
+            retirados.append({
+                "id": f"{e['id']}-retirado", "original": chave, "tipo": "retirado", "regra": e.get("regra"),
+                "ativo": e["ativo"], "data": e.get("data"), "var_entregue": None, "var_certa": None,
+                "titulo_entregue": e.get("titulo"),
+                "texto": (f"RETIRADO {e.get('regra')} · {e['ativo']} {fmt.data_br(e.get('data'))}: o alerta dizia "
+                          f"“{e.get('titulo')}”; não vale, {motivo.split(': ', 1)[-1]}"),
+            })
+        return retirados
+
+    def reler_participacao(self, repo: Repositorio) -> int:
+        """Aviso de participacao registrado antes do parser (DIRR3 em 23/09, 09h50) fica
+        com o titulo cru do IPE e o "por que importa" de comunicado comum. O corpo do
+        documento esta em noticias/corpo/<id>.json: le, reconhece a participacao e refaz
+        titulo, por que e como falar. Estado de entrega e severidade ficam como estavam."""
+        from livro.sinais.eventos import textos_participacao
+        n = 0
+        for e in repo.do_dia(self.hoje.isoformat()):
+            dd = e.get("dados") or {}
+            if (e.get("regra") != "E03" or dd.get("participacao") or dd.get("categoria") == "Fato Relevante"
+                    or not dd.get("id_item")):
+                continue
+            corpo = ler_json(os.path.join(self.saida, "noticias", "corpo", f"{dd['id_item']}.json"), {}) or {}
+            if not corpo.get("texto"):
+                continue
+            tipo = " ".join(str(x) for x in (e.get("corpo") or [])[:1])
+            p = atribuicao.participacao({"categoria": dd.get("categoria"), "tipo": tipo,
+                                         "assunto": corpo.get("titulo") or dd.get("manchete"), "texto": corpo["texto"]})
+            if not p:
+                continue
+            obj = self.u.por_id(e.get("ativo"))
+            import re as _re
+            nome = _re.sub(r"\s+(ON|PN|PNA|PNB|UNT|UNIT)(\b.*)?$", "", obj.nome) if obj and obj.nome else e.get("ativo")
+            titulo, por_que, como = textos_participacao(p, e.get("ativo"), nome)
+            e.setdefault("titulo_inicial", e.get("titulo"))
+            e.update({"titulo": titulo, "por_que": por_que, "como_falar": como,
+                      "dados": {**dd, "participacao": p, "manchete": titulo.split(" · ", 1)[-1]}})
+            # o texto gravado (noticias.md, reapresentacao) sai do mesmo Alerta.texto()
+            campos = ("regra", "ativo", "severidade", "familia", "titulo", "tag", "data", "corpo", "por_que",
+                      "como_falar", "anula", "fonte", "ativos_afetados", "dados")
+            e["texto"] = Alerta(**{k: e[k] for k in campos if e.get(k) is not None}).texto()
+            n += 1
+        return n
 
     # ------------------------------------------------------------ render
     def renderizar(self, ctx: Contexto, resultado: dict, repo: Repositorio) -> dict:
@@ -796,7 +894,10 @@ class Coleta:
         for id_, ev in eventos_prox.items():
             if id_ in janelas:
                 janelas[id_]["proximo_evento"] = ev
-        do_dia = repo.do_dia(self.hoje.isoformat(), relogios.brt(self.agora).date().isoformat())
+        # o que o portao de agora segurou (ou a falha que a coleta de agora nao repete)
+        # nao aparece como alerta do dia; o retirado ja saiu na faixa de correcao
+        do_dia = [a for a in repo.do_dia(self.hoje.isoformat(), relogios.brt(self.agora).date().isoformat())
+                  if not a.get("segurado") and not a.get("superado")]
         rot = SLOT_ROTULO.get(self.modo, self.modo)
         alertas_txt = render.alertas_md(resultado, do_dia, rot)
         with open(os.path.join(saida, "alertas.md"), "w", encoding="utf-8") as f:
@@ -968,7 +1069,8 @@ class Coleta:
         """Texto do push (< 200 caracteres): curva, criticos, movers, contagem. Encurta por
         partes inteiras, nunca no meio de uma palavra."""
         # na manha o push nao se chama "Fechamento": os precos sao do pregao anterior
-        corr = [f"CORREÇÃO {c['ativo']} {fmt.data_br(c['data'])} {fmt.pct(c['var_certa'])}, não {fmt.pct(c['var_entregue'])}"
+        corr = [(f"RETIRADO {c['regra']} {c['ativo']} {fmt.data_br(c['data'])}" if c.get("tipo") == "retirado" else
+                 f"CORREÇÃO {c['ativo']} {fmt.data_br(c['data'])} {fmt.pct(c['var_certa'])}, não {fmt.pct(c['var_entregue'])}")
                 for c in (ins.get("correcoes") or [])][:2]
         cab = (f"Manhã {fmt.data_br(self.hoje.isoformat())} (pregão de "
                f"{fmt.data_br(relogios.dia_util_anterior('B3', self.hoje).isoformat())}):"
@@ -1062,8 +1164,22 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
         if e and a.id not in ids_novos and (a.dados or {}).get("atualizado") and not (e.get("dados") or {}).get("texto_disponivel"):
             e.update({"titulo": a.titulo, "corpo": a.corpo, "como_falar": a.como_falar, "texto": a.texto(), "dados": a.dados})
             e["enriquecido_em"] = c.agora.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # antes de reapresentar: aviso de participacao registrado antes do parser e relido,
+    # e o alerta do dia que o portao de agora segura sai (RETIRADO se ja foi mensagem)
+    try:
+        n_part = c.reler_participacao(repo)
+        if n_part:
+            _log(f"participação relevante relida do corpo: {n_part}")
+    except Exception as e:
+        c.falhas["participacao"] = f"{type(e).__name__}: {str(e)[:80]}"
+    retirados = []
+    try:
+        retirados = c.revisar_do_dia(repo, alertas, dict(repo.regras.get("correcoes_feitas") or {}))
+    except Exception as e:
+        c.falhas["revisar_do_dia"] = f"{type(e).__name__}: {str(e)[:80]}"
     # reapresenta so o que ja saiu como mensagem (o que virou linha nao volta a disputar o teto)
-    pendentes = [p for p in repo.pendentes() if p["id"] not in ids_novos and p.get("canal", "mensagem") == "mensagem"]
+    pendentes = [p for p in repo.pendentes() if p["id"] not in ids_novos and p.get("canal", "mensagem") == "mensagem"
+                 and not p.get("segurado") and not p.get("superado")]
     for p in pendentes:
         p["reapresentado"] = p.get("reapresentado", 0) + 1
     # teto diario conta mensagens ja emitidas hoje (uma por grupo), nao alertas registrados
@@ -1095,7 +1211,7 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
         # alerta ja entregue que a serie corrigida desmente vira CORRECAO, uma vez so
         try:
             feitas = dict(repo.regras.get("correcoes_feitas") or {})
-            c.correcoes = reconferir.reconferir(repo.fila, c.series, c.series_info, c.u, c.hoje, feitas)
+            c.correcoes = retirados + reconferir.reconferir(repo.fila, c.series, c.series_info, c.u, c.hoje, feitas)
             # numero de TABELA do fechamento/manha anterior (o fechamento.json no disco
             # ainda e o do slot anterior neste ponto): drivers e destaques publicados
             anterior = ler_json(os.path.join(saida, "saida", "fechamento.json"), {}) or {}
@@ -1105,7 +1221,9 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
                                              [i for i in dict.fromkeys(publicados) if c.u.por_id(i)], feitas)
             # o que mais importa primeiro: sinal invertido, depois o mais recente
             c.correcoes.sort(key=lambda x: x["data"], reverse=True)
-            c.correcoes.sort(key=lambda x: x["var_entregue"] * x["var_certa"] >= 0)   # estavel: invertidos primeiro
+            # estavel: sinal invertido primeiro, depois o retirado e o resto
+            c.correcoes.sort(key=lambda x: (0 if (x.get("var_entregue") or 0) * (x.get("var_certa") or 0) < 0
+                                            else 1 if x.get("tipo") == "retirado" else 2))
             for x in c.correcoes:
                 feitas[x["original"]] = c.hoje.isoformat()
             corte = (c.hoje - relogios.timedelta(days=30)).isoformat()
