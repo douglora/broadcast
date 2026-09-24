@@ -579,8 +579,15 @@ TERMOS_POSTS = ["mochileiro", "minha casa", "construtoras", "live economia", "el
 # Paginas em que as posicoes aparecem como logotipo (o texto do PDF nao traz o nome da empresa)
 RX_POSICOES = re.compile(r"PRINCIPAIS\s+POSI[CÇ][OÕ]ES|POSICIONAMENTO\s+EM\s+A[CÇ][OÕ]ES|\bConstrutoras\b", re.I)
 RX_YOUTUBE = re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|live/)|youtu\.be/)([\w-]{11})")
-# Clientes do YouTube tentados em ordem: o padrao do yt-dlp e, se o YouTube pedir login, os alternativos
-CLIENTES_YT = [None, ["tv"], ["web_safari"], ["mweb"], ["android_vr"]]
+# Clientes do YouTube tentados em ordem: o padrao do yt-dlp e os alternativos. No Actions o YouTube
+# costuma listar a legenda e so entrega-la com PO token (provedor bgutil, iniciado pelo workflow).
+CLIENTES_YT = [None, ["mweb"], ["web"], ["tv"], ["web_safari"], ["android_vr"]]
+# Videos de fundo listado (FII, CRI, agro, infra, credito) nao falam de acao: ficam fora
+RX_VIDEO_FORA = re.compile(r"\bK[A-Z]{2,4}11\b|\bFII|Fiagro|\bCRI\b|Multifamily|Cr[eé]dito Privado|Private Credit|Renda Fixa|"
+                           r"Fixed Income|Infraestrutura|Infrastructure|Imobili|Real Estate|Assembleia|Extraordin|Buyback|"
+                           r"Recompra|Agro|Alternativ", re.I)
+RX_VIDEO_DENTRO = re.compile(r"Economia e Mercados|Economy and Markets|Multimercado|Multi-Strategy|A[cç][oõ]es|Equity|"
+                             r"Expresso|Kaf[eé]|Insights|Carta|Letter|Bolsa|Stock", re.I)
 
 
 def paginas_de_posicoes(conteudo, base, pasta_img, prefixo, max_paginas=6, largura=1400):
@@ -620,16 +627,32 @@ def _wp_json(caminho, log):
         return []
 
 
+def _rendered(v):
+    """Campo do WordPress que costuma vir como {"rendered": ...}, mas pode vir texto ou lista."""
+    if isinstance(v, dict):
+        return _rendered(v.get("rendered") or v.get("raw") or "")
+    if isinstance(v, list):
+        return " ".join(_rendered(x) for x in v)
+    return v if isinstance(v, str) else ""
+
+
+def _itens_dict(itens, onde, log):
+    bons = [it for it in itens if isinstance(it, dict)]
+    if len(bons) < len(itens):
+        log.append(f"{onde}: {len(itens) - len(bons)} itens fora do formato ({type(itens[0]).__name__})")
+    return bons
+
+
 def descobrir_documentos(desde, log):
     """PDFs que nao sao carta e posts do blog, pela busca do WordPress. Devolve (pdfs, posts)."""
     pdfs, posts = {}, {}
     for termo in TERMOS_DOCS:
         for pagina in range(1, 4):
             itens = _wp_json(f"media?search={quote(termo)}&per_page=100&page={pagina}&mime_type=application/pdf", log)
-            for it in itens:
-                src = it.get("source_url") or ""
-                data = (it.get("date") or "")[:10]
-                titulo = html.unescape(re.sub(r"<[^>]+>", "", (it.get("title") or {}).get("rendered") or ""))
+            for it in _itens_dict(itens, f"media '{termo}'", log):
+                src = _rendered(it.get("source_url"))
+                data = _rendered(it.get("date"))[:10]
+                titulo = html.unescape(re.sub(r"<[^>]+>", "", _rendered(it.get("title"))))
                 if (not src.lower().split("?")[0].endswith(".pdf") or _e_carta(src) or data[:7] < desde
                         or src in pdfs or not RX_DOC_UTIL.search(_sem_acento(os.path.basename(src) + " " + titulo))):
                     continue
@@ -638,13 +661,13 @@ def descobrir_documentos(desde, log):
                 break
     for termo in TERMOS_POSTS:
         itens = _wp_json(f"posts?search={quote(termo)}&per_page=30&_fields=id,date,link,title,content", log)
-        for it in itens:
-            data = (it.get("date") or "")[:10]
-            link = it.get("link") or ""
+        for it in _itens_dict(itens, f"posts '{termo}'", log):
+            data = _rendered(it.get("date"))[:10]
+            link = _rendered(it.get("link"))
             if not link or data[:7] < desde or link in posts:
                 continue
-            corpo = (it.get("content") or {}).get("rendered") or ""
-            titulo = html.unescape(re.sub(r"<[^>]+>", "", (it.get("title") or {}).get("rendered") or "")).strip()
+            corpo = _rendered(it.get("content"))
+            titulo = html.unescape(re.sub(r"<[^>]+>", "", _rendered(it.get("title")))).strip()
             posts[link] = {"url": link, "publicado_em": data, "titulo": titulo, "achado_por": f"busca '{termo}'",
                            "texto": texto_do_html(corpo), "videos": sorted(set(RX_YOUTUBE.findall(corpo)))}
             for href in RX_PDF.findall(corpo):
@@ -763,8 +786,10 @@ def _ydl(extra, clientes=None):
     opts = {"quiet": True, "no_warnings": True, "skip_download": True, "socket_timeout": 30, "retries": 3,
             "ignore_no_formats_error": True, "http_headers": {"Accept-Language": "pt-BR,pt;q=0.9"}}
     opts.update(extra)
+    # Titulo e descricao no idioma original (sem isso o YouTube traduz para o ingles no servidor dos EUA)
+    opts["extractor_args"] = {"youtube": {"lang": ["pt"]}}
     if clientes:
-        opts["extractor_args"] = {"youtube": {"player_client": clientes}}
+        opts["extractor_args"]["youtube"]["player_client"] = clientes
     return yt_dlp.YoutubeDL(opts)
 
 
@@ -791,7 +816,7 @@ def listar_videos(canal, n, log):
 
 
 def videos_do_rss(canal, log):
-    """Plano B quando a listagem falha: o feed RSS do canal (15 mais novos, com descricao)."""
+    """Feed RSS do canal: os 15 mais novos com titulo e descricao originais (e o plano B se a listagem falhar)."""
     try:
         pagina = http_get(canal, timeout=60).text
         cid = re.search(r'"(?:externalId|channelId)":"(UC[\w-]{22})"', pagina) or re.search(r"channel/(UC[\w-]{22})", pagina)
@@ -809,15 +834,17 @@ def videos_do_rss(canal, log):
         desc = re.search(r"(?s)<media:description>(.*?)</media:description>", bloco)
         lista.append({"id": vid.group(1), "titulo": html.unescape(tit.group(1)) if tit else None, "aba": "rss",
                       "data": pub.group(1) if pub else None,
-                      "descricao": html.unescape(desc.group(1))[:1500] if desc else ""})
+                      "descricao": html.unescape(desc.group(1))[:3000] if desc else ""})
     return lista
 
 
 def legenda_do_video(vid, pasta_tmp):
-    """Metadados e legenda em portugues (a manual se houver, senao a automatica). Devolve (info, vtt, tipo, lingua)."""
+    """Metadados e legenda em portugues (a manual se houver, senao a automatica). Devolve (info, vtt, tipo, lingua).
+    So conclui "sem legenda" quando nenhum cliente lista legenda; legenda listada e nao entregue vira erro."""
     url = f"https://www.youtube.com/watch?v={vid}"
-    ultimo = "sem tentativa"
+    ultimo, melhor, listada = "sem tentativa", None, False
     for clientes in CLIENTES_YT:
+        nome = "/".join(clientes or ["padrao"])
         for f in os.listdir(pasta_tmp):
             if f.startswith(vid):
                 os.remove(os.path.join(pasta_tmp, f))
@@ -827,8 +854,10 @@ def legenda_do_video(vid, pasta_tmp):
                        "sleep_interval_subtitles": 1}, clientes) as y:
                 info = y.extract_info(url, download=True)
         except Exception as e:
-            ultimo = f"{'/'.join(clientes or ['padrao'])}: {type(e).__name__}: {str(e)[:220]}"
+            ultimo = f"{nome}: {type(e).__name__}: {str(e)[:220]}"
             continue
+        if melhor is None or (info.get("duration") and not melhor.get("duration")):
+            melhor = info
         manuais = set((info.get("subtitles") or {}).keys())
         achados = {f.split(".")[-2]: os.path.join(pasta_tmp, f) for f in os.listdir(pasta_tmp)
                    if f.startswith(vid + ".") and f.endswith(".vtt")}
@@ -838,9 +867,12 @@ def legenda_do_video(vid, pasta_tmp):
             with open(achados[lingua], encoding="utf-8", errors="replace") as f:
                 return info, f.read(), ("manual" if lingua in manuais else "automatica"), lingua
         if info.get("automatic_captions") or info.get("subtitles"):
-            ultimo = f"{'/'.join(clientes or ['padrao'])}: legenda listada mas nao baixada"
-            continue
-        return info, None, None, None
+            listada = True
+            ultimo = f"{nome}: legenda listada mas nao entregue (o YouTube pede PO token)"
+        else:
+            ultimo = f"{nome}: nenhuma legenda listada"
+    if melhor is not None and not listada:
+        return melhor, None, None, None
     raise RuntimeError(ultimo)
 
 
@@ -851,6 +883,11 @@ def videos_do_site(log):
     except Exception as e:
         log.append(f"pagina de videos do site: {e}")
         return []
+
+
+def _fora_do_tema(titulo):
+    t = titulo or ""
+    return bool(RX_VIDEO_FORA.search(t)) and not RX_VIDEO_DENTRO.search(t)
 
 
 def coletar_videos(saida, canal, n, dias, falhas):
@@ -864,31 +901,41 @@ def coletar_videos(saida, canal, n, dias, falhas):
     log = []
     lista = listar_videos(canal, n, log)
     origem = "yt-dlp"
+    # O RSS do canal traz titulo e descricao originais (sem traducao) dos 15 mais novos
+    rss = {v["id"]: v for v in videos_do_rss(canal, log)}
     if not lista:
-        lista, origem = videos_do_rss(canal, log), "rss"
+        lista, origem = list(rss.values()), "rss"
     vistos = {v["id"] for v in lista}
     lista += [{"id": v, "titulo": None, "aba": "site"} for v in videos_do_site(log) if v not in vistos]
-    print(f"== videos: {len(lista)} listados ({origem}) em {canal}")
+    print(f"== videos: {len(lista)} listados ({origem}, rss com {len(rss)}) em {canal}", flush=True)
     limite = (datetime.date.today() - datetime.timedelta(days=dias)).isoformat()
-    velhos_na_aba, videos = set(), []
+    velhos_na_aba, videos, fora = set(), [], 0
     with tempfile.TemporaryDirectory() as tmp:
         for item in lista:
             vid, aba = item["id"], item["aba"]
+            r = rss.get(vid) or {}
+            titulo = r.get("titulo") or item.get("titulo")
+            if _fora_do_tema(titulo):
+                fora += 1
+                continue
             v = antigo.get(vid)
-            if v and (v.get("chars") or v.get("legenda") == "sem legenda"):
+            if v and (v.get("chars") or (v.get("legenda") == "sem legenda" and v.get("coleta") == 2)):
                 videos.append(v)
                 continue
             if aba in velhos_na_aba:
                 continue
-            entrada = {"id": vid, "titulo": item.get("titulo"), "aba": aba, "url": f"https://www.youtube.com/watch?v={vid}",
-                       "data": item.get("data"), "descricao": item.get("descricao", "")}
+            entrada = {"id": vid, "titulo": titulo, "aba": aba, "url": f"https://www.youtube.com/watch?v={vid}",
+                       "data": r.get("data") or item.get("data"), "descricao": r.get("descricao") or item.get("descricao", ""),
+                       "coleta": 2}
             try:
                 info, vtt, tipo, lingua = legenda_do_video(vid, tmp)
                 d = info.get("upload_date") or info.get("release_date") or ""
-                entrada.update({"titulo": info.get("title") or entrada["titulo"],
+                entrada.update({"titulo": r.get("titulo") or info.get("title") or entrada["titulo"],
                                 "data": f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else entrada["data"],
-                                "duracao_min": round((info.get("duration") or 0) / 60),
-                                "descricao": (info.get("description") or entrada["descricao"] or "")[:1500],
+                                "duracao_min": round((info.get("duration") or 0) / 60) or None,
+                                "descricao": (r.get("descricao") or info.get("description") or entrada["descricao"] or "")[:3000],
+                                "capitulos": [{"t": int(c.get("start_time") or 0), "titulo": c.get("title")}
+                                              for c in info.get("chapters") or []],
                                 "ao_vivo": info.get("was_live") or info.get("live_status") in ("was_live", "post_live")})
             except Exception as e:
                 entrada["erro"] = str(e)[:300]
@@ -902,13 +949,14 @@ def coletar_videos(saida, canal, n, dias, falhas):
                 arquivo = f"{entrada.get('data') or 'sem-data'}_{vid}.txt"
                 with open(os.path.join(pasta, arquivo), "w", encoding="utf-8") as f:
                     f.write(f"# {entrada['titulo']}\n# {entrada['url']} | {entrada.get('data')} | "
-                            f"{entrada.get('duracao_min', '?')} min | legenda {tipo} ({lingua})\n\n{texto}\n")
+                            f"{entrada.get('duracao_min') or '?'} min | legenda {tipo} ({lingua})\n\n{texto}\n")
                 entrada.update({"arquivo": f"kinea/videos/{arquivo}", "legenda": tipo, "lingua": lingua, "chars": len(texto)})
             elif "erro" not in entrada:
                 entrada["legenda"] = "sem legenda"
             videos.append(entrada)
             print(f"  {entrada.get('data') or '?'} {str(entrada.get('titulo'))[:70]}: "
-                  f"{entrada.get('legenda') or 'falhou'} {entrada.get('chars', 0):,} chars")
+                  f"{entrada.get('legenda') or 'falhou'} {entrada.get('chars', 0):,} chars "
+                  f"{(entrada.get('erro') or '')[:120]}", flush=True)
             time.sleep(2)
     # Os que ja estavam guardados e sairam da lista dos mais novos continuam (ate 120 videos)
     ids = {v["id"] for v in videos}
@@ -923,11 +971,11 @@ def coletar_videos(saida, canal, n, dias, falhas):
     if erros and not any(v.get("chars") for v in videos):
         falhas.append(f"videos: nenhuma legenda baixada; ultimo erro: {erros[0]['erro'][:200]}")
     with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
-        json.dump({"gerado_em": agora(), "canal": canal, "listagem": origem, "fonte": "YouTube (legenda publicada pelo "
-                   "proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
-                   "videos": videos, "log": log[:40]}, f, ensure_ascii=False, indent=1)
+        json.dump({"gerado_em": agora(), "canal": canal, "listagem": origem, "fora_do_tema": fora,
+                   "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina "
+                            "e pode errar nome proprio)", "videos": videos, "log": log[:40]}, f, ensure_ascii=False, indent=1)
     return {"videos": len(videos), "com_legenda": sum(1 for v in videos if v.get("chars")), "erros": len(erros),
-            "listagem": origem}
+            "fora_do_tema": fora, "listagem": origem}
 
 
 def main(argv=None):
