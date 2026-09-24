@@ -1,464 +1,128 @@
-NOTÍCIAS E FATOS · 21/09 17h21
+NOTÍCIAS E FATOS · 23/09 20h59
 
-Pernas: noticias ok 17 novas (14 consultas; descartadas: 367 veículo fora da lista, 24 sem ativo, 6 teto) · cvm ok 0 novos de 3 (2 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 22 novas (17 consultas; descartadas: 442 veículo fora da lista, 28 sem ativo, 119 teto) · cvm ok 7 novos de 7 (5 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
-[ATENÇÃO] E03 · PETR4 · Fato Relevante: Petrobras informa sobre adesão à nova subvenção econômica
-CVM · entregue 2026-09-19
+[ATENÇÃO] E03 · DIRR3 · Comunicado ao Mercado: Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na 50 Hudson Yards, Cidade de Nova Iorque, Estado de Nova Iorque 10001, Estados Uni…
+CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
 Do documento:
-  – A efetiva assinatura do termo de adesão ficará condicionada à publicação e à análise  do regulamento previsto na MP nº 1.391/2026, necessário à operacionalização da subvenção econômica.
-Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1569745&numSequencia=1094451&numVersao=1
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: PETR4
-Como falar: 'a Petrobras publicou fato relevante sobre Petrobras informa sobre adesão à nova subvenção econômica'
-Fonte: CVM 19/09
-id: E03-PETR4-e405cd4e-2026-09-19 · status: entregue · íntegra disponível
-
-[INFO] E03 · PETR4 · Comunicado ao Mercado: Petrobras recebe nova parcela de Subvenção Econômica à Gasolina
-CVM · entregue 2026-09-19 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1569746&numSequencia=1094452&numVersao=1
+  – Belo Horizonte, September 23, 2026    Paulo Henrique Martins de Sousa  CFO and IR Officer                                                TEXT - 52579528v1 6947.34
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570676
 Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: DIRR3
+Como falar: 'a Direcional Engenharia publicou comunicado ao mercado sobre Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na…'
+Fonte: CVM 23/09
+id: E03-DIRR3-1570676-2026-09-23 · status: pendente · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
+Estadao · 23/09 15h32 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: PETR4
-Como falar: 'a Petrobras publicou comunicado ao mercado sobre Petrobras recebe nova parcela de Subvenção Econômica à Gasolina'
-Fonte: CVM 19/09
-id: E03-PETR4-43caabd0-2026-09-19 · status: linha
+Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 23/09 15h32
+id: E05-PETR4-e08bd2d8fb-2026-09-23 · status: pendente
 
-[INFO] E03 · ALUP4 · Comunicado ao Mercado: Apresentação Corporativa 2T26
-CVM · entregue 2026-09-18 · Apresentações a analistas/agentes do mercado
-Link: https://www.rad.cvm.gov.br/ENET/frmDownloadDocumento.aspx?Tela=ext&descTipo=IPE&CodigoInstituicao=1&numProtocolo=1569440&numSequencia=1094146&numVersao=1
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: ALUP4
-Como falar: 'a Alupar publicou comunicado ao mercado sobre Apresentação Corporativa 2T26'
-Fonte: CVM 18/09
-id: E03-ALUP4-f3bf8877-2026-09-18 · status: linha
-
-
-## NOTÍCIAS COM MATERIALIDADE (27)
-
-[ATENÇÃO] E05 · BAC · Bank of America Corporation 4.125% DP PFD PP declares $0.2578 dividend
-TradingView (Reuters) · 21/09 16h21 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:eefe7d15f094b:0-bank-of-america-corporation-4-125-dp-pfd-pp-declares-0-2578-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BAC
-Como falar: 'saiu no TradingView (Reuters): Bank of America Corporation 4.125% DP PFD PP declares $0.2578 dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 21/09 16h21
-id: E05-BAC-931427aa78-2026-09-21 · status: pendente
-
-[ATENÇÃO] E05 · BAC · Bank of America Corp Depositary Shs Repr Non-Cum Perp Red Pfd Registered Shs Ser -HH- declares $0.3672 dividend
-TradingView (Reuters) · 21/09 16h20 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:fa4a892b5094b:0-bank-of-america-corp-depositary-shs-repr-non-cum-perp-red-pfd-registered-shs-ser-hh-declares-0-3672-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BAC
-Como falar: 'saiu no TradingView (Reuters): Bank of America Corp Depositary Shs Repr Non-Cum Perp Red Pfd Registered Shs Ser -HH- dec…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 21/09 16h20
-id: E05-BAC-20f4ca2218-2026-09-21 · status: pendente
-
-[ATENÇÃO] E05 · DI · Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
-Estadao · 21/09 08h49 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/boletim-focus-hoje-mercado-eleva-projecao-para-a-inflacao-de-2026-e-se-afasta-da-meta-do-bc/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Estadao: Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta se…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 21/09 08h49
-id: E05-DI-f36cb8e84e-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
-InfoMoney · 21/09 11h00 · fonte única · licença: resumo
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A ação ficou cara demais para comprar agora?
+Seu Dinheiro · 23/09 14h27 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
-  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
-  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
-  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
-  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
-  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
-Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
+  – Petrobras (PETR4) caminha para um dos maiores dividendos do mundo.
+  – É basicamente esse o retrato que o UBS BB traçou da Petrobras (PETR4).
+  – O banco suíço subiu o preço-alvo de PETR3 e PETR4 de R$ 60 para R$ 62 por ação, e o dos ADRs, as ações da estatal negociadas em Nova York, de US$ 22,00 para US$ 23,00.
+  – Considerando os valores de fechamento na B3 e na Nyse na véspera do relatório, os novos valores representam potenciais de valorização relevante, de 28,3% e 21,5%, respectivamente, — sem contar os dividendos.
+  – Em números absolutos, o UBS BB espera dividendo por ação de R$ 5,07 em 2026 e R$ 6,60 em 2027.
+  – Leia Também Para efeito de comparação, olhando a tabela de projeções do banco, o dividend yield sobe de forma consistente até 2030, quando pode chegar a 15,3%.
+Link: https://www.seudinheiro.com/2026/empresas/petrobras-petr4-caminha-para-um-dos-maiores-dividendos-do-mundo-a-acao-ficou-cara-demais-para-comprar-agora-ccgg/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: VALE3
-Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-2d9e087dd4-2026-09-21 · status: entregue
+Ativos: PETR4
+Como falar: 'saiu no Seu Dinheiro: Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A ação ficou cara dema…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 23/09 14h27
+id: E05-PETR4-b4f8e1c440-2026-09-23 · status: pendente
 
-[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
-InfoMoney · 21/09 08h30 · + Valor Economico · licença: resumo
+[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz UBS BB; veja potencial para dividendos
+Money Times · 23/09 12h42 · fonte única · licença: integral
+Do texto:
+  – Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz UBS BB; veja potencial para dividendos O UBS BB mantém uma visão otimista para as ações da Petrobras (PETR4) e reforçou a recomendação de compra n…
+  – Esses fatores combinados com uma política clara de dividendos trimestrais diretamente vinculada ao seu fluxo de caixa, resulta em um dividend yield de 10% a 11% em 2026, aumentando para 13% a 14% em 2027, mesmo após a f…
+  – Diante disso, o banco suíço aumentou o preço-alvo para PETR4 de R$ 60 para R$ 62 nos próximos 12 meses, o que implica em um potencial de valorização de 28% sobre o preço de fechamento anterior.
+  – Para os ADRs da companhia, negociados na Bolsa de Nova York (Nyse), a elevação foi de US$ 22 para US$ 23 por ação PBR, o que representa potencial alta de cerca de 11% sobre os níveis atuais.
+  – Nesta quarta-feira (23), as ações da estatal operam em forte alta com o barril do Brent acima de US$ 100.
+  – Por volta de 12h (horário de Brasília), PETR4 registrava alta de 2,21%, a R$ 49,42, sendo o papel mais negociado da B3.
+Link: https://www.moneytimes.com.br/petrobras-petr4-e-a-companhia-mais-bem-posicionada-no-cenario-de-petroleo-elevado-diz-ubs-bb-lils/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Money Times: Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz UBS BB; veja pot…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 23/09 12h42
+id: E05-PETR4-ee248cda40-2026-09-23 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · PETR4 · Petrobras tem petróleo forte, produção e dividendos altos – UBS BB recomenda compra
+InfoMoney · 23/09 10h08 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
-  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
-  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
-  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
-  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
-  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
-Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 08h30
-id: E05-DI-0bda952c58-2026-09-21 · status: entregue
+  – Estatal abre leque, mas petróleo segue no centro da tese Na véspera, as ações preferenciais da Petrobras fecharam a R$48,35 e os papéis ordinários foram cotados a R$53,20.
+  – Em 2026, ambos acumulam valorizações de 66,76% e 72,55%, respectivamente.
+  – Dados recentes mostraram produção de aproximadamente 2,89 milhões de barris por dia em agosto, reforçando a visão de que a estatal pode encerrar 2026 acima das metas oficiais.
+  – Continua depois da publicidade O banco projeta produção média de 2,73 milhões de barris por dia em 2026, acima da meta de 2,5 milhões de barris apresentada pela companhia, e de 2,84 milhões de barris diários em 2027, ta…
+  – Segundo o relatório, a ação negocia a cerca de 3,6 vezes lucro projetado para 2026 e com yield de dividendos superior ao observado em grande parte das companhias internacionais do setor.
+Link: https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-tem-petroleo-forte-producao-e-dividendos-altos-ubs-bb-recomenda-compra/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no InfoMoney: Petrobras tem petróleo forte, produção e dividendos altos – UBS BB recomenda compra; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 23/09 10h08
+id: E05-PETR4-cbb80ee5a8-2026-09-23 · status: linha
 
-[ATENÇÃO] E05 · NVDA · Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going concern’ worries
-Fortune · 21/09 07h25 · fonte única · licença: manchete
-Link: https://fortune.com/2026/09/21/nscale-35-billion-ipo-nvidia-going-concern/
-Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+[ATENÇÃO] E05 · PETR4 · Ação da Petrobras ainda tem fôlego após alta em 2026, diz UBS; dividendos podem chegar a 14%
+Estadao · 23/09 10h07 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/acao-da-petrobras-ainda-tem-folego-apos-alta-em-2026-diz-ubs-dividendos-podem-chegar-a-14/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Estadao: Ação da Petrobras ainda tem fôlego após alta em 2026, diz UBS; dividendos podem chegar a…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 23/09 10h07
+id: E05-PETR4-fda852cdcb-2026-09-23 · status: linha
+
+[ATENÇÃO] E05 · NVDA · Nscale’s $35 billion IPO is heavily dependent on ByteDance’s access to Nvidia’s chips
+Fortune · 23/09 07h33 · fonte única · licença: manchete
+Link: https://fortune.com/2026/09/23/nscale-35-billion-ipo-bytedance-nvidia-chips/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
 Ativos: NVDA
-Como falar: 'saiu no Fortune: Money-losing Nscale’s $35 billion IPO includes a $3 billion deal with Nvidia and ‘going c…; confirmar o número no texto antes de repassar'
-Fonte: Fortune 21/09 07h25
-id: E05-NVDA-827d707f95-2026-09-21 · status: entregue
+Como falar: 'saiu no Fortune: Nscale’s $35 billion IPO is heavily dependent on ByteDance’s access to Nvidia’s chips; confirmar o número no texto antes de repassar'
+Fonte: Fortune 23/09 07h33
+id: E05-NVDA-ee6fe18620-2026-09-23 · status: linha
 
-[ATENÇÃO] E05 · DI · Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026
-Exame · 21/09 08h47 · fonte única · licença: resumo
+[ATENÇÃO] E05 · BRENT · Brent Stays Below $100 as Saudi Pipeline Restart Adds to Oil Supply Outlook
+Yahoo Finance · 23/09 06h41 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Banco Central: o órgão divulgou nesta segunda-feira, 21, o boletim Focus (Marcello Casal Jr/Agência Brasil) Publicado em 21 de setembro de 2026 às 08h46.
-  – Última atualização em 21 de setembro de 2026 às 08h46.
-  – O mercado financeiro elevou de 4,90% para 4,92% a projeção para o IPCA de 2026, enquanto reduziu de 1,89% para 1,88% a expectativa para o crescimento do PIB e de 13,75% para 13,50% a previsão para a Selic.
-  – A estimativa para o dólar permaneceu em R$ 5,20.
-  – Os números fazem parte do Boletim Focus, divulgado pelo Banco Central nesta segunda-feira, 21.
-  – Nesta edição, as quatro principais estimativas para 2026 tiveram comportamentos distintos: a inflação subiu, enquanto PIB e Selic recuaram e o câmbio ficou estável.
-Link: https://exame.com/brasil/boletim-focus-mercado-eleva-projecao-de-inflacao-e-reduz-do-pib-e-selic-em-2026/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Exame: Boletim Focus: mercado eleva projeção de inflação e reduz do PIB e Selic em 2026; confirmar o número no texto antes de repassar'
-Fonte: Exame 21/09 08h47
-id: E05-DI-d95af5283e-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
-eixos · 21/09 07h02 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – EDIÇÃO APRESENTADA POR: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi A conta das subvenções aos combustíveis adotadas pelo governo federal para lidar com a alta interna…
-  – Apenas a Petrobras já recebeu R$ 9,9 bilhões no âmbito dos auxílios para o diesel, gasolina e gás liquefeito de petróleo (GLP).
-  – - O montante total foi divulgado pela estatal na sexta (18/9), após o recebimento de uma parcela de R$ 448 milhões, referente à comercialização de gasolina entre 16 e 31 de julho, nos termos da Medida Provisória nº 1.35…
-  – O valor, portanto, ainda não considera as novas medidas anunciadas pelo governo no dia 9 de setembro, com a isenção de tributos para a gasolina e o aumento do auxílio do diesel.
-  – - O conselho de administração da estatal confirmou na sexta-feira (18) a adesão ao subsídio adicional de R$ 1 por litro de diesel.
-  – - O preço de paridade de importação (PPI) do diesel está batendo recordes em setembro, com o litro a R$ 6,51 em média na semana entre 7 e 11 de setembro, segundo cálculos da ANP com base em informações da S&P Global Com…
-Link: https://eixos.com.br/newsletters/comece-seu-dia/conta-das-subvencoes-cresce-diesel-importado-bate-recorde-petrobras-ja-recebeu-quase-r-10-bi/
+  – Brent crude futures were up 0.16%, or 16 cents, at $99.41 a barrel at 08:09 GMT.
+  – West Texas Intermediate futures declined 0.55%, or 50 cents, to $90.02.
+  – Brent reached $97.36 during the previous session, its lowest price since September 8.
+  – WTI fell to its lowest level since September 1 earlier on Wednesday.
+  – The pipeline had been closed on September 11 after drone attacks, interrupting crude loadings at the Red Sea port of Yanbu.
+  – The route has been used to redirect approximately 4 million barrels per day of Saudi crude to Yanbu following disruptions to shipments through the Strait of Hormuz.
+Link: https://uk.finance.yahoo.com/news/brent-stays-below-100-saudi-094153601.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no eixos: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$…; confirmar o número no texto antes de repassar'
-Fonte: eixos 21/09 07h02
-id: E05-PETR4-1a0983d1ec-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
-InfoMoney · 21/09 11h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
-  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
-  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
-  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
-  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
-  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
-Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: VALE3
-Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-b94e858857-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
-Money Times · 21/09 10h55 · fonte única · licença: integral
-Do texto:
-  – Vale (VALE3): IPO da unidade de metais básicos deve acontecer?
-  – Por enquanto, o IPO da VBM segue “apenas ” com uma opção no longo prazo.
-  – “A execução continua sendo a prioridade, enquanto o crescimento da VBM pode ser financiado sem adicionar pressão à estrutura de capital do grupo”, afirmaram os analistas Lucas Laghi, Guilherme Nippes e Fernanda Urbano,…
-  – Produção da VBM Os analistas do Itaú BBA destacaram que, segundo a administração, a produção de cobre pela VBM deve aumentar de 380 mil toneladas por ano para aproximadamente 500 mil toneladas por ano, até 2030, e 700 m…
-  – Alemão poderia iniciar a construção em 2027 ou 2028, adicionando 15 a 20 mil toneladas por ano até 2030 e outras aproximadamente 65 mil toneladas por ano entre 2030 e 2035.
-  – O Southern Hub (118 e Cristalino) e Paulo Afonso viriam na sequência, todos aproveitando a infraestrutura existente e apresentando risco de execução relativamente baixo.
-Link: https://www.moneytimes.com.br/vale-vale3-ipo-da-unidade-de-metais-basicos-vai-acontecer-o-que-disse-o-ceo-gustavo-pimenta-a-analistas-lils/
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: VALE3
-Como falar: 'saiu no Money Times: Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Piment…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 21/09 10h55
-id: E05-VALE3-8a851833ac-2026-09-21 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
-Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
-  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
-  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
-  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
-  – As ações passaram a ser negociadas sem o direito em 02 de junho.
-  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
-Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/amp/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 21/09 08h55
-id: E05-PETR4-a37a2e94eb-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
-InfoMoney · 21/09 08h30 · + Valor Economico, Exame · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
-  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
-  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
-  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
-  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
-  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
-Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 08h30
-id: E05-DI-754e9d123b-2026-09-21 · status: linha
-
-[ATENÇÃO] E05 · DI · Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
-Estadao · 21/09 10h58 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/boletim-focus-hoje-mercado-eleva-projecao-para-a-inflacao-de-2026-e-se-afasta-da-meta-do-bc/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Estadao: Mercado corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta se…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 21/09 10h58
-id: E05-DI-417e639573-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · MMM · Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend
-TradingView (Reuters) · 21/09 08h28 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:902517ea196c2:0-weekly-recap-august-748m-catastrophe-losses-and-29-3m-preferred-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: MMM
-Como falar: 'saiu no TradingView (Reuters): Weekly Recap: August $748M catastrophe losses and $29.3M preferred dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 21/09 08h28
-id: E05-MMM-ccaec046ca-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
-Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Bloomberg — Economistas revisaram para baixo suas previsões para a taxa básica de juros no final de 2026, à medida que a economia passa por um arrefecimento gradual às vésperas das eleições presidenciais de outubro.
-  – A Selic cairá para 13,5%, ante os 13,75% previstos anteriormente, de acordo com o Relatório Focus, pesquisa semanal com analistas publicada pelo Banco Central nesta segunda-feira (21).
-  – Os economistas mantiveram suas previsões para 2027 e 2028 em 12% e 10,50%, respectivamente.
-  – Os membros do Comitê de Política Monetária do Banco Central realizaram um corte de um quarto de ponto na taxa na semana passada, levando a Selic a 13,75% e prolongando um ciclo que reduziu os custos dos empréstimos em 1…
-  – Leia também: Mercado reduz projeção para a Selic no fim de 2026 e vê inflação mais controlada Os planos dos candidatos para lidar com o aumento da dívida pública e dos gastos são fundamentais para as perspectivas fiscai…
-  – Veja mais em bloomberg.com ©2026 Bloomberg L.P.
-Link: https://www.bloomberglinea.com.br/brasil/mercado-ve-espaco-para-mais-cortes-e-reduz-projecao-da-selic-para-135-em-2026/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
-Fonte: Bloomberg Linea 21/09 10h56
-id: E05-DI-04cf063213-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · DI · Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%
-Suno Noticias · 21/09 10h18 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50% A mediana do Boletim Focus para a taxa Selic no fim de 2026 caiu de 13,75% para 13,50%, depois de seis semanas de estabilidade.
-  – Considerando só as 77 estimativas atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a mediana para a Selic no fim deste ano diminuiu de 13,56% para 13,50%.
-  – Os dados forma divulgados nesta segunda-feira, 21.
-  – A estimativa intermediária do Boletim Focus para a taxa Selic no fim de 2027 seguiu em 12,00% pela 14ª semana seguida.
-  – Levando em conta apenas as 76 estimativas atualizadas nos últimos cinco dias úteis, a mediana também continuou em 12,00%.
-  – Na última quarta-feira, 16, o Comitê de Política Monetária (Copom) do Banco Central reduziu a Selic em mais 0,25 ponto porcentual, de 14,00% para 13,75% ao ano.
-Link: https://www.suno.com.br/noticias/selic-no-fim-de-2026-21092026-boletim-focus-go/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no Suno Noticias: Boletim Focus corta projeção para Selic no fim de 2026 de 13,75% para 13,50%; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 21/09 10h18
-id: E05-DI-fae7fbb037-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
-Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
-  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
-  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
-  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
-  – As ações passaram a ser negociadas sem o direito em 02 de junho.
-  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
-Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/amp/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 21/09 08h55
-id: E05-PETR4-3723b4e228-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · ITUB4 · BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027
-Investing.com · 21/09 11h08 · fonte única · licença: manchete
-Link: https://br.investing.com/news/general-news/bmob3-itau-bba-sobe-precoalvo-de-bemobi-e-ve-dividendo-de-quase-9-em-2027-2070880
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Investing.com: BMOB3: Itaú BBA sobe preço-alvo de Bemobi e vê dividendo de quase 9% em 2027; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 21/09 11h08
-id: E05-ITUB4-de73e33281-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos
-InfoMoney · 21/09 11h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Segundo a administração da Vale, mais de 120 milhões de toneladas anuais de oferta de minério operam com prejuízo de caixa quando os preços ficam entre US$ 90 e US$ 95 por tonelada.
-  – A expectativa é de queda de cerca de 10 milhões de toneladas na produção de aço da China em 2026, limitando o espaço para uma recuperação dos preços do minério.
-  – Entre 70% e 75% dos volumes estão protegidos por contratos de longo prazo, reduzindo a exposição aos preços do mercado à vista.
-  – Para 2026, a companhia está totalmente protegida e avalia alternativas de hedge para 2027.
-  – Continua depois da publicidade A estratégia da Vale continua baseada em “valor sobre volume”.
-  – Em outra direção, o Bradesco BBI mantém recomendação de compra e preço-alvo de US$ 19 para o ADR da Vale.
-Link: https://www.infomoney.com.br/mercados/vale-vale3-mira-cobre-enquanto-minerio-perde-forca-e-dividendos-ficam-mais-contidos/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: VALE3
-Como falar: 'saiu no InfoMoney: Vale (VALE3) mira cobre enquanto minério perde força e dividendos ficam mais contidos; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 11h00
-id: E05-VALE3-b9126c460a-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · DI · Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026
-Bloomberg Linea · 21/09 10h56 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Bloomberg — Economistas revisaram para baixo suas previsões para a taxa básica de juros no final de 2026, à medida que a economia passa por um arrefecimento gradual às vésperas das eleições presidenciais de outubro.
-  – A Selic cairá para 13,5%, ante os 13,75% previstos anteriormente, de acordo com o Relatório Focus, pesquisa semanal com analistas publicada pelo Banco Central nesta segunda-feira (21).
-  – Os economistas mantiveram suas previsões para 2027 e 2028 em 12% e 10,50%, respectivamente.
-  – Os membros do Comitê de Política Monetária do Banco Central realizaram um corte de um quarto de ponto na taxa na semana passada, levando a Selic a 13,75% e prolongando um ciclo que reduziu os custos dos empréstimos em 1…
-  – Leia também: Mercado reduz projeção para a Selic no fim de 2026 e vê inflação mais controlada Os planos dos candidatos para lidar com o aumento da dívida pública e dos gastos são fundamentais para as perspectivas fiscai…
-  – Veja mais em bloomberg.com ©2026 Bloomberg L.P.
-Link: https://www.bloomberglinea.com.br/brasil/mercado-ve-espaco-para-mais-cortes-e-reduz-projecao-da-selic-para-135-em-2026/
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no Bloomberg Linea: Mercado vê espaço para mais cortes e reduz projeção da Selic para 13,5% em 2026; confirmar o número no texto antes de repassar'
-Fonte: Bloomberg Linea 21/09 10h56
-id: E05-DI-aad421b7ad-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · VALE3 · Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Pimenta disse a analistas
-Money Times · 21/09 10h55 · fonte única · licença: integral
-Do texto:
-  – Vale (VALE3): IPO da unidade de metais básicos deve acontecer?
-  – Por enquanto, o IPO da VBM segue “apenas ” com uma opção no longo prazo.
-  – “A execução continua sendo a prioridade, enquanto o crescimento da VBM pode ser financiado sem adicionar pressão à estrutura de capital do grupo”, afirmaram os analistas Lucas Laghi, Guilherme Nippes e Fernanda Urbano,…
-  – Produção da VBM Os analistas do Itaú BBA destacaram que, segundo a administração, a produção de cobre pela VBM deve aumentar de 380 mil toneladas por ano para aproximadamente 500 mil toneladas por ano, até 2030, e 700 m…
-  – Alemão poderia iniciar a construção em 2027 ou 2028, adicionando 15 a 20 mil toneladas por ano até 2030 e outras aproximadamente 65 mil toneladas por ano entre 2030 e 2035.
-  – O Southern Hub (118 e Cristalino) e Paulo Afonso viriam na sequência, todos aproveitando a infraestrutura existente e apresentando risco de execução relativamente baixo.
-Link: https://www.moneytimes.com.br/vale-vale3-ipo-da-unidade-de-metais-basicos-vai-acontecer-o-que-disse-o-ceo-gustavo-pimenta-a-analistas-lils/
-Por que importa: troca no comando reabre a discussao de estrategia e de alocacao de capital
-Ativos: VALE3
-Como falar: 'saiu no Money Times: Vale (VALE3): IPO da unidade de metais básicos deve acontecer? O que o CEO Gustavo Piment…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 21/09 10h55
-id: E05-VALE3-5c68b2c00a-2026-09-21 · status: linha · íntegra disponível
-
-[ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes
-Suno Noticias · 21/09 08h55 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes As empresas Petrobras (PETR4) e Multiplan (MULT3) vão pagar nesta segunda-feira dividendos aos seus acionistas.
-  – Contando com os dividendos da Petrobras e da Multiplan, um total 2 empresas pagarão proventos hoje, 21/09.
-  – Os acionistas da Petrobras vão receber R$ 0,3504 por ação, enquanto os da Multiplan receberão R$ 0,2455 por ação.
-  – Apenas os investidores com ações da Petrobras no dia 01/06 terão direito de receber os rendimentos.
-  – As ações passaram a ser negociadas sem o direito em 02 de junho.
-  – No caso da Multiplan, a data de corte foi o dia 26 de setembro, e as ações passaram a ser negociadas sem direito aos dividendos em 29.
-Link: https://www.suno.com.br/noticias/a-petrobras-petr4-agenda-dividendos-21092026/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Suno Noticias: Petrobras (PETR4) e Multiplan (MULT3) pagam dividendos nesta segunda; veja detalhes; confirmar o número no texto antes de repassar'
-Fonte: Suno Noticias 21/09 08h55
-id: E05-PETR4-c5420464aa-2026-09-21 · status: linha
-
-[ATENÇÃO] E05 · DI · Mercado corta corta projeção para Selic e eleva para inflação de 2026: o boletim Focus desta semana
-Estadao · 21/09 09h58 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/boletim-focus-hoje-mercado-eleva-projecao-para-a-inflacao-de-2026-e-se-afasta-da-meta-do-bc/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no Estadao: Mercado corta corta projeção para Selic e eleva para inflação de 2026: o boletim Focus de…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 21/09 09h58
-id: E05-DI-675524c8d1-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · DI · Mercado reduz projeção para a Selic e prevê mais um corte para este ano
-O Globo · 21/09 08h39 · + UOL Economia · licença: manchete
-Link: https://oglobo.globo.com/blogs/miriam-leitao/post/2026/09/mercado-reduz-projecao-para-a-selic-e-preve-mais-um-corte-para-este-ano.ghtml
-Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
-Ativos: DI
-Como falar: 'saiu no O Globo: Mercado reduz projeção para a Selic e prevê mais um corte para este ano; confirmar o número no texto antes de repassar'
-Fonte: O Globo 21/09 08h39
-id: E05-DI-9a4ab2642f-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · DI · Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação
-InfoMoney · 21/09 08h30 · + Valor Economico, Exame · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Publicidade O mercado financeiro reduziu a projeção para a Selic ao fim de 2026, de 13,75% para 13,50%, enquanto elevou a estimativa para o IPCA deste ano, de 4,90% para 4,92%, segundo o Boletim Focus divulgado pelo Ban…
-  – Inflação A projeção para o IPCA de 2026 subiu de 4,90% para 4,92%.
-  – Para 2027, a estimativa permaneceu em 4,30% pela primeira semana.
-  – Para 2028, a projeção ficou em 3,80% pela oitava semana consecutiva, enquanto para 2029 permaneceu em 3,50% pela 55ª semana seguida.
-  – Para o IGP-M, a projeção para 2026 subiu de 4,54% para 4,73%.
-  – Para 2027, a estimativa ficou em 4,11% pela segunda semana consecutiva.
-Link: https://www.infomoney.com.br/economia/boletim-focus-projecoes-21092026/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: DI
-Como falar: 'saiu no InfoMoney: Boletim Focus reduz projeção da Selic para 13,50% em 2026 e eleva inflação; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 21/09 08h30
-id: E05-DI-2ed7973ad5-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · MMM · Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps
-TradingView (Reuters) · 21/09 08h28 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:b23e9462ff0d5:0-weekly-recap-0-25-dividend-10m-buyback-and-vnb-loan-at-3m-sofr-210bps/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: MMM
-Como falar: 'saiu no TradingView (Reuters): Weekly Recap: $0.25 dividend & $10M buyback and VNB loan at 3M SOFR+210bps; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 21/09 08h28
-id: E05-MMM-fe3c9274d4-2026-09-21 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi
-eixos · 21/09 07h02 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – EDIÇÃO APRESENTADA POR: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$ 10 bi A conta das subvenções aos combustíveis adotadas pelo governo federal para lidar com a alta interna…
-  – Apenas a Petrobras já recebeu R$ 9,9 bilhões no âmbito dos auxílios para o diesel, gasolina e gás liquefeito de petróleo (GLP).
-  – - O montante total foi divulgado pela estatal na sexta (18/9), após o recebimento de uma parcela de R$ 448 milhões, referente à comercialização de gasolina entre 16 e 31 de julho, nos termos da Medida Provisória nº 1.35…
-  – O valor, portanto, ainda não considera as novas medidas anunciadas pelo governo no dia 9 de setembro, com a isenção de tributos para a gasolina e o aumento do auxílio do diesel.
-  – - O conselho de administração da estatal confirmou na sexta-feira (18) a adesão ao subsídio adicional de R$ 1 por litro de diesel.
-  – - O preço de paridade de importação (PPI) do diesel está batendo recordes em setembro, com o litro a R$ 6,51 em média na semana entre 7 e 11 de setembro, segundo cálculos da ANP com base em informações da S&P Global Com…
-Link: https://eixos.com.br/newsletters/comece-seu-dia/conta-das-subvencoes-cresce-diesel-importado-bate-recorde-petrobras-ja-recebeu-quase-r-10-bi/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no eixos: Conta das subvenções cresce: diesel importado bate recorde; Petrobras já recebeu quase R$…; confirmar o número no texto antes de repassar'
-Fonte: eixos 21/09 07h02
-id: E05-PETR4-73c518db3c-2026-09-21 · status: linha
+Ativos: BRENT
+Como falar: 'saiu no Yahoo Finance: Brent Stays Below $100 as Saudi Pipeline Restart Adds to Oil Supply Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 23/09 06h41
+id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (149)
+## OUTRAS NOTÍCIAS (só manchete) (15)
 
-· DI Ata do Copom d relatório de política monetária serão destaques na semana (UOL Economia) https://economia.uol.com.br/colunas/por-dentro-da-bolsa/2026/09/21/ata-do-copom-politica-monetaria-e-ipca-15-sao-os-destaques-da-semana.htm
-· UST Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat (Reuters) https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/
-· BAC Buy these high-quality dividend stocks with plenty of free cash flow, Bank of America says (CNBC) https://www.cnbc.com/2026/09/21/buy-these-high-quality-dividend-stocks-with-plenty-of-free-cash-flow.html
-· VALE3 Agência de Comunicação - Nosso potencial de destravar valor está no que já temos”, diz CEO da Vale (Estadao) https://bluestudio.estadao.com.br/agencia-de-comunicacao/agencia-minera-brasil/nosso-potencial-de-destravar-valor-esta-no-que-ja-temos-diz-ceo-da-vale/
-· DI Selic, El Niño, FIIs e ETFs: os assuntos que chamaram a atenção dos investidores na semana (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/selic-el-nino-fiis-e-etfs-os-assuntos-que-chamaram-a-atencao-dos-investidores-na-semana/
-· PETR4 Acordo com Petrobras foi bom para a PPSA e permitirá leilão de gás da União a US$ 5 MMBTU, diz Paroli (eixos) https://eixos.com.br/videos-e-podcasts/ao-vivo/acordo-com-petrobras-foi-bom-para-a-ppsa-e-permitira-leilao-de-gas-da-uniao-a-us-5-mmbtu-diz-paroli/
-· ITUB4 Itaú, Bradesco ou Banco do Brasil: BofA escolhe seu favorito na B3 — e deixa uma ação de escanteio (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/itau-bradesco-ou-banco-do-brasil-bofa-escolhe-seu-favorito-na-b3-e-deixa-uma-acao-de-escanteio-miql/
-· BTC Bitcoin Jumps Above $86,000 to 8-Month High (The Wall Street Journal) https://www.wsj.com/finance/currencies/bitcoin-jumps-above-85-000-to-8-month-high-050f3578
-· MU HBM Sold Out Through 2027. Micron’s Customers Are Begging. Can Anything Go Wrong? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/hbm-sold-2027-micron-customers-184556564.html
-· BBAS3 Banco do Brasil (BBAS3) salta 26%, mas mercado ainda vê “longo caminho” para recuperação (Suno Noticias) https://www.suno.com.br/noticias/banco-do-brasil-bbas3-acoes-recuperacao-credito-mt/
-· DI Opinião | Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
-· VALE3 Vale (VALE3): Frete caro acende alerta para setor, mas mineradora mantém custos competitivos, dizem analistas (Money Times) https://www.moneytimes.com.br/vale-vale3-frete-caro-acende-alerta-para-setor-mas-vale-mantem-custos-competitivos-dizem-analistas-lils/
-· BTC Bitcoin hits 8-month high amid millions in short liquidations (Yahoo Finance) https://au.finance.yahoo.com/news/bitcoin-hits-8-month-high-162444671.html
-· VALE3 Vale (VALE3) faz investimento estratégico em minério na região de Carajás ao comprar 30% da Ligga (Money Times) https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEIzWG1aejRvS0V4aDF0T25ObVVWR09PMlNrRS1KUWh1TFZ6WlVVREluZFFvV19QOVBtVEtCTEVNV3BwQUplby1ILUlLcXNEMTQyYTNEQ0tJTzdTS0pDSVhJcjJhek9EVXZRNUFnVVZ6MlRhOHMtc2hIMkN3aGluU3J3UUI2bzlMTHl4SnlkWW5hSGRiSjVvOUMzRjZjVVQzdG9pT2NFM2Z2YUU0SUlWOTU4bXB1TXhieC1R?oc=5
-· EQTL3 PRESIDENTE DA PETROBRÁS DESTACA MARGEM EQUATORIAL, GÁS NA COLÔMBIA E PRODUÇÃO DE DIESEL NA ABERTURA DA ROG.e (Petronoticias) https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV2daUjZONmNYTjVaRENFTkV3UWxDZWtidTlvUmc3ei1zb0JrdGJfYzlub2FISldEbGZ4c3JUNnRmYWMtWWxoR1dzYUNCWW5qaW1LeEFGaUhOTkVPZHZ6blVWTUZKTUI3LVEya1pHSHp5eGtoWlN6RE9wMDJoTFptbzA5eFkxalZfZkNQNlFLbTVQT2I0RTZPTzQ5RXh6UjVBQ2pqQnhqRTdTNWx4ZGpqaHgxNlE3YzROODNTY0lTSmZGZ0VqLVNaSHdGREc5ckJEMVVB?oc=5
-· BBDC4 R$ 10 bilhões no caixa: Bradesco (BBDC4) prepara crescimento sem abrir mão da rentabilidade (Money Times) https://www.moneytimes.com.br/r-10-bilhoes-no-caixa-bradesco-bbdc4-prepara-crescimento-sem-abrir-mao-da-rentabilidade-rnda/
-· BABA Alibaba Deadline: BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit Filed by The Rosen Law Firm (PR Newswire) https://www.prnewswire.com/news-releases/alibaba-deadline-baba-investors-have-opportunity-to-lead-alibaba-group-holding-limited-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302884244.html
-· DI Opinião | Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
-· BRENT Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 2% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-sobe-com-petroleo-em-4-queda-seguida-e-encontro-entre-trump-e-xi-no-radar/
-· MU Micron's 343% Growth Boom Is Already Over, I/O Fund Says — Now Comes the Hard Part (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:c76687315094b:0-micron-s-343-growth-boom-is-already-over-i-o-fund-says-now-comes-the-hard-part/
-· ITUB4 Itaú BBA vê economia de R$ 398 milhões em possível união entre Yduqs e Afya (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/itau-bba-ve-economia-de-r-398-milhoes-em-possivel-uniao-entre-yduqs-e-afya/
-· NVDA Nvidia CEO Makes Rare Admission on AI Data Centers (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-makes-rare-admission-150733414.html
-· PETR4 Brasil está “em linha” com Acordo de Paris, diz presidente da Petrobras (Poder360) https://www.poder360.com.br/poder-energia/brasil-esta-em-linha-com-acordo-de-paris-diz-presidente-da-petrobras/
-· ITUB4 Itaú BBA vê Brasil como ‘anti-IA’ para fundos globais, mas fiscal ainda limita apostas (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/itau-bba-ve-brasil-como-anti-ia-para-fundos-globais-mas-fiscal-ainda-limita-apostas/
-· VALE3 Vale faz investimento estratégico em minério de ferro na região de Carajás ao comprar 30% da Ligga (Estadao) https://www.estadao.com.br/economia/negocios/vale-faz-investimento-estrategico-em-minerio-de-ferro-na-regiao-de-carajas-ao-comprar-30-da-ligga/
-· DI Mercado precifica mais um corte na Selic em 2026 (Poder360) https://www.poder360.com.br/poder-economia/mercado-precifica-mais-um-corte-na-selic-em-2026/
-· USDBRL Dólar hoje cai a R$ 5,10, e cenário eleitoral entra no radar do câmbio (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dolar-hoje-cai-a-r-510-e-cenario-eleitoral-entra-no-radar-do-cambio/
-· VALE3 BTG vê retorno de 30% para ações da Vale, mas alerta para falta de gatilhos no curto prazo (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/btg-ve-retorno-de-30-para-acoes-da-vale-mas-alerta-para-falta-de-gatilhos-no-curto-prazo/
-· BRENT Ibovespa sobe mais de 1% com Boletim Focus, petróleo em baixa e pesquisas eleitorais em foco (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-comeca-semana-com-petroleo-acima-de-us-100-e-nova-pesquisa-eleitoral-no-radar/
-· BRENT Dólar opera em queda, com foco em recuo do petróleo e reunião entre Trump e Xi Jinping; Ibovespa sobe (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTFB3aEJzdnc2ZDdQaDhtckxxbzY3dzVZWmxKeEVYWk1qbVJoZmJDZ1hzc056TlU5MUQ5OFdzWjFROFpjWUdjdFRzekE5Q1ctbXE0VjFjb0RhaGRBa2FndkpuVERjZHVyaHVMY0QxelVsam9ndHB3QUNHUNIBhwFBVV95cUxOeFZxdGxqbGFhVURGSGF1SnpyZDVIZHBHSmlZWHRqR0RHZWFnR3F5OGhOaXJ2Z3dUZlNad2M2WE5kekpBeTM2UWtrazhzX0lYV3hrcE5BdGdvS05vLXVpeXRwWjNYckJRUzRpSXBWZ2JmczhlZHcwdjNrWmN2eUVxdno2TUZlRUk?oc=5
-· PETR4 Petrobras quer autossuficiência no diesel e novas reservas de petróleo, diz Magda Chambriard (O Globo) https://oglobo.globo.com/google/amp/economia/negocios/noticia/2026/09/21/petrobras-quer-autossuficiencia-no-diesel-e-novas-reservas-de-petroleo-diz-magda-chambriard.ghtml
-· PETR4 Petrobras (PETR4) e MPF entram em briga pela exploração de petróleo na Foz do Amazonas. Qual é o impasse? (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/petrobras-petr4-e-mpf-entram-em-briga-pela-exploracao-de-petroleo-na-foz-do-amazonas-qual-e-o-impasse-giov/
-· BBDC4 Bradesco (BBDC4) está prestes a receber R$ 10 bilhões para crescer, mas não vai acelerar: “Não queremos voo de galinha”, diz CFO (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/bradesco-bbdc4-esta-prestes-a-receber-r-10-bilhoes-para-crescer-mas-nao-vai-acelerar-nao-queremos-voo-de-galinha-diz-cfo-miql/
-· EQTL3 MAIOR EDIÇÃO DA ROG.e COMEÇA HOJE NA ESTEIRA DA DESCOBERTA DA PETROBRÁS NA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/maior-edicao-da-rog-e-comeca-hoje-na-esteira-da-descoberta-da-petrobras-na-margem-equatorial/
-· DI Copom navega cenário de incertezas (Estadao) https://www.estadao.com.br/economia/fernando-dantas/copom-navega-cenario-de-incertezas/
-· ITUB4 Itaú BBA vê combinação rara de crescimento e retorno ao acionista nesta small cap (Money Times) https://www.moneytimes.com.br/itau-bba-ve-combinacao-rara-de-crescimento-e-retorno-ao-acionista-nesta-small-cap/
-· SAPR4 Serviços da Sanepar impulsionam Paraná ao topo do Ranking de Eficiência dos Estados - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/parana/servicos-da-sanepar-impulsionam-parana-ao-topo-do-ranking-de-eficiencia-dos-estados-1147869
-· UST Two-Year U.S. Treasury Yield Reaches New Multi-Year High (The Wall Street Journal) https://www.wsj.com/finance/investing/two-year-u-s-treasury-yield-reaches-new-multi-year-high-99d3112b
-· ITUB4 Itaú e Bradesco são favoritos do BofA entre bancos brasileiros; BB fica para trás (InfoMoney) https://www.infomoney.com.br/mercados/itau-e-bradesco-sao-favoritos-do-bofa-entre-bancos-brasileiros-bb-fica-para-tras/
-· NVDA Worried About An AI Bubble? Buy Nvidia Anyway (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4948357-worried-about-an-ai-bubble-buy-nvidia-anyway
-· MU Micron Walks Into the Biggest Earnings Setup of the AI Memory Cycle (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-walks-biggest-earnings-setup-160053722.html
-· USDBRL Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-21092026/
-· BAC Bank of America CEO Sparks Bank Stock Selloff With One Small Word (Barron's) https://www.barrons.com/articles/bank-of-america-ceo-stock-selloff-d260ee22
-· MU Micron Stock Pops on Fresh Memory-Chip Price Data (Barron's) https://www.barrons.com/articles/micron-stock-price-memory-chips-15d74f8e
-· PETR4 CEO: Petrobras terá que ampliar atuação em renováveis para manter relevância até 2050 (InfoMoney) https://www.infomoney.com.br/mercados/ceo-petrobras-tera-que-ampliar-atuacao-em-renovaveis-para-manter-relevancia-ate-2050/
-· PETR4 Ainda queremos atingir autossuficiência de diesel no Brasil, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/21/ainda-queremos-atingir-autossuficiencia-de-diesel-no-brasil-diz-presidente-da-petrobras.ghtml
-· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (GlobeNewswire) https://news.google.com/rss/articles/CBMiiwJBVV95cUxPLTFKbnY5LTlmWkNqYVBpV2RDMWdSVmFiLU5rdVR3VUgwcEh1ZDl1RnFzcTVJNERGY2RZSHZuRjFmOWJiY0x3SE5MZWFVc0EwNlVMUmN4My04VEFmQjhadzBKbFNXSUZFejF4OVZ5TWZWeWkyb1dPZzdWakdXcWN1OXhHRi1vUjRBcHg5SDVVazU1a19SbGJhNU8ydFpDWmczQi0zZERfT2hMR29BdnlnNDJRemV0aFBxUW9Tb1VuekZmUGZtVE1SZHRNMjRlaXlwZmxhQzdLd2k4bG1URy1xZ0dxYkVFcFB5V3REWUctMjZ5Zk9MeFhlcnVWUm1MRnBadV9QVWxfdnlLbkU?oc=5
-· BTC Bitcoin Jumps Above $85,000 to 8-Month High (The Wall Street Journal) https://news.google.com/rss/articles/CBMilAFBVV95cUxPbm1ocHJySVRjNEFTTk9TQnk2bGJReXFfc3VvcEk4Q3ZwaElWZFptS2FvSUFVNWJsU2p6Q2RUU3BoNWdWNUpyMHVYbzNEZ3dVajlKY2YzSnNBdC1sWDlJV3lIOXBOa0ZqeWYtU01Yemw3WFFIeDVVRTE1b0lUUDFwZWtVM2xQSy1iUzNvMktrWkFKaFhm?oc=5
-· BRENT Ibovespa sobe mais de 1% com Boletim Focus, petróleo em baixa e pesquisas eleitorais em foco (Estadao) https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWXBQaFVvaGhLNkVYMnpDWDkyOFQwc1BYYldxVi03TE1HcFRPWkc1NUQ0dV9HSjRvYlVnc2tCZDBDUkhINHBhakhqRURXclQyLUQ1a1luTzN3Z2VFTHk3SjBabVRHLUlSc0JSV2JZMGY2eEtzeHVNMWtKd0c1RVcyR2M1eDBfRU9TRHpPM3hoMjN4bTU2OFEzcXN2MkhzTVpXUGVpUG1oS1BrbHctYmZySVdrRjlXcEQxUzQ2QXExN3FuZ0dNblhxOGN6eWNJc0ZZb2M0eGpHVDE2TkZrRGhGQ0RqX27SAeoBQVVfeXFMTzBWRTRsS1hra0JIallVYTcyNVZhUXVDaTVsMTZhaFdRQ3NGenlaTi1WX3RyYUhOc0I5VkV1UEJISllpLUxmVDVMeEh3SENDZGRianRjZC1KRmh4bDRBN1JiLUFvUlcwd3VUV0VRZGNSOERwdHJrSUlPNDhGdkZ2SVc2Vld5bmczM3JPb3JpWjJKOXhOU2swaHpNNDZMZGl1ZkFnMHpheDZGbGRGdGREaEN4MEhtTjZSRlAxX1U1Y04yQ2hFT2ZabmdPUnB6dDh2NUhWaHh6TXE1VmRnYVA4VnZYalZsWEhhcGR3?oc=5
-· BTC Michael Saylor’s Strategy buys Bitcoin again as surprise rally pushes price above $85,000 (Fortune) https://fortune.com/2026/09/21/michael-saylors-strategy-bitcoin-surprise-rally-price-85000/
-· MU Where Will Micron Stock Be in 1 Year? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/where-micron-stock-1-165500649.html
-· NVDA Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4948369-nvidia-one-of-5-ai-stocks-down-big-relative-to-earnings
-· BRENT Dow Jones hoje sobe com petróleo em queda; Nasdaq dispara mais de 2% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-sobe-com-petroleo-em-4-queda-seguida-e-encontro-entre-trump-e-xi-no-radar/
-· VALE3 Vale (VALE3): Frete caro acende alerta para setor, mas Vale mantém custos competitivos, dizem analistas (Money Times) https://www.moneytimes.com.br/vale-vale3-frete-caro-acende-alerta-para-setor-mas-vale-mantem-custos-competitivos-dizem-analistas-lils/
-· BTC Bitcoin price tags $86K as analysis sees crypto in ‘new bull market’ (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:3ec8b1c6f094b:0-bitcoin-price-tags-86k-as-analysis-sees-crypto-in-new-bull-market/
-· ETH Current price of Ethereum for September 21, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-21-2026/
-· BTC Current price of Bitcoin for September 21, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-21-2026/
-· BTC Why Are Strategy (MSTR) Shares Climbing On 24 7 Trading And Bitcoin Plans? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-strategy-mstr-shares-climbing-161346947.html
-· BABA Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:d48f530d8094b:0-microsoft-vs-alibaba-which-cloud-ai-stock-is-better-positioned/
-· PETR4 Petrobras (PETR4) anuncia descobertas relevantes de gás a desenvolver na Colômbia (Suno Noticias) https://www.suno.com.br/noticias/petrobras-anuncia-descobertas-relevantes-gas-colombia-petr4-go/amp/
-· (+89 manchetes; lista completa em eventos/noticias.json)
+· DI Análise: Selic cai, mas investir segue caro no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/blogs/patricia-ellen/economia/money/mercado/analise-selic-cai-mas-investir-segue-caro-no-brasil/
+· SBSP3 Privatização da Sabesp prejudicou saneamento e abastecimento de água em SP, diz Marina Silva (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/23/privatizacao-da-sabesp-prejudicou-saneamento-e-abastecimento-de-agua-em-sp-diz-marina-silva.htm
+· USDBRL Com dólar casado ainda sob pressão, BC anuncia novo leilão de linha (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/com-dolar-casado-ainda-sob-pressao-bc-anuncia-novo-leilao-de-linha-de-us-1-bi.ghtml
+· PLTR Palantir's CEO just sent a message Silicon Valley won't ignore (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantirs-ceo-just-sent-message-221700521.html
+· INTC Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-intel-names-major-outside-220701284.html
+· USDBRL Ibovespa cai 0,86% com temor de inflação nos Estados Unidos; dólar sobe a R$ 5,17 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ibovespa-cai-086-com-temor-de-inflacao-nos-estados-unidos-dolar-sobe-a-r-517/
+· USDBRL R$ 4,50 ou R$ 5,80? O gatilho que vai definir o preço do dólar depois das eleições (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/r-450-ou-r-580-o-gatilho-que-vai-definir-o-preco-do-dolar-depois-das-eleicoes-ccgg/
+· UST Treasury Yields Spike on Rate-Hike Fears as Oil Climbs (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-09-23/treasury-yields-spike-on-rate-hike-fears-as-oil-climbs
+· UST Gold slides as rate hike expectations boost Treasury yields to multiyear highs (GLD:NYSEARCA) (Seeking Alpha) https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUxwZTNjS3Bid1dSeVpCckhBQUoxd1FOdl9iMExfY01NenViQ0dyYjAwbHZkMnBySUk4aVdMTllOWHItWHdtbTFwbkRfZ1YtajFPa0Y2VmpuekJWREtVajFKdUVWMW0yem5EV2ZZUHVYdWpJSFJmSWN1dlVYOFd1NEFTTlM3NDZmQnhwYXRiSC1XYVVWVTZscHpIQjhXSFAyRU9DcHc5ZHV6d3NURko4VFNDWHFfdVE?oc=5
+· GOOGL S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes — AMZN, GOOGL, NFLX, SPCX, RKLB In Focus (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxQN3E5Mk5oS3NyQTZJRFlBQ093dlBwX1JvanFreVZnWDJTcWJSWlF4c2ZoSmc0Um1kM1o0Uk1SaW9DcjBOLTh1OWFJYThoV1ZoSmotVjVCYmt4Qk1UTlp1Y1dsWVlLSHpZTVBQRXFfZjB2MS1Tb3hjNVI1LXJiMnVLMTdmcF9GM0M5V1ZQR2tkOA?oc=5
+· SMAL11 Global Industrial apresenta plano de crescimento em conferência de small caps (Investing.com) https://news.google.com/rss/articles/CBMizAFBVV95cUxPVktNWlF3WnlOQUhaVDJFYnI4N2lCMnp4aGVMSzdlUkJZSFVvRHNtQXQtdlUybVRkbkVhdmI5UnFqdFh0RVgwRjByc1hIaXNBQnhJclVTVUFtMmNWN196S2xyaExib1JGd1QtUVJmbEtVWnA0SVlSS2ZaSG1VMkp4Vk01Ty1VZTltNXFKbU5EN09sUnZhNnNiRGMtejhXWGZISmlaN1dtRVBtSEh5emNIcUNXTU1ydWd2VGJ1X0ZLTWtVNmVmQW1OdklnQ1I?oc=5
+· UST Update: US Equity Indexes Retreat as Blockbuster Private Sector Growth Lifts Treasury Yields, Fed Rate-Increase Bets (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxOdlk2ZzBJbHQ5ZUYxVGxhcFM3RjJTUldPY2J3UEFCeGRaWm95THduSXp1MzA1WnVwMDQ5czFEMHhnRW5YVGpzbDhEZ3FhVlctM3RYaW9rZEJFazlVZUxyYWJoMVZ1NmFGWHlHaHJlVld2S1ZUT05xMWg2bHdPNEV5QXhqSVNQQjBFdFdkOWgzR0xmN3dONkxFZFJlclJoYXR3d2laag?oc=5
+· PLTR Palantir’s stock sees its highest close of the year, sealing a dramatic comeback (MarketWatch) https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ2ZIWm9ZSDlHX1Vsa1MyRjliWi14am1ZbkV0SkdaUU8yellIR3VHTzl2N2k5Z1l4dHpsZ2ExRkktYWU5aGNSbWVQSTBMb3pUYzFMdnhDT2xVYzIwS2NRTE1IZWdnWDlpbnF3QVRrTTEzVXBCcVd6MlEwSXpPdUFta2swS1BKbUdhTDFBVTdFMkcxSV9NWXA2ZlVydWpYUk1JYjBCc0EtUUlOSEMwMUI0N2stQVAycExBNzY4c1BNUmVyS0dQ?oc=5
+· MU Top Research Reports for Micron, Costco & Interactive Brokers (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2JRTFdQaHBXeWgxNXJfMGJoUzhHVEVsUk1ZUXVSMXpFYVFlX1VsUHIxS3dnQjRfdVRpcnhLVDd0SHJXZE9VNUQxLS1aVXV5TTc1aUdrdjVSZGZhQUp2bEJFZ2R5c3FJN0JrbE9oR0lDMFJIY3R5WXlRd29PM2FLemRhNjFuVXFVeFZv?oc=5
+· UST The 10-Year Treasury Is Back Above 5%. Here Comes the Pain. (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTJYaDZCTHlIM3RRRWJCTmxucklFZklGNnVpVlN3dEp5NXZYT3BsSWV6cTJSenpNSDNjT1FPbC1qbFlrekdSS3RoOHM1Zk1pWEpCelB3d1ZqY3hKbHlzTzlZdjRJa1hqbHJkZHlxVWJFdDA5Yy0yQ3REV29QMGNmdXFKckJXdTUyV2E1STIyaWM3Mms?oc=5
