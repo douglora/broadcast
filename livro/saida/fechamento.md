@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 23/09 · 23h26 BRT
-Relógios: Yahoo 23h26 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 23/09 · 23h53 BRT
+Relógios: Yahoo 23h53 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 23/09
 
-ALERTAS DO DIA (38 · 6 críticos)
+ALERTAS DO DIA (37 · 6 críticos)
 [CRÍTICO] C07 UST ABRIU: 2y +14 bps · 10y +15 bps ·
           30y +11 bps (23/09)
 [CRÍTICO] T05 KLBN4 -3,2% no dia a R$ 3,68:
@@ -26,7 +26,7 @@ ALERTAS DO DIA (38 · 6 críticos)
 [ATENÇÃO] T05 USDBRL +1,3% no dia a R$ 5,1664:
           movimento de 2,8 desvios para uma vol de
           20 dias de 7% a.a.
-(+30 em alertas.md)
+(+29 em alertas.md)
 
 ALTAS  BRENT +3,9% · PLTR +3,7% · PETR4 +2,6% · IGV
        +1,3% · USDBRL +1,3%
@@ -38,10 +38,9 @@ NOTÍCIAS E FATOS (6 com materialidade · noticias.md)
   e eleva preço-alvo (CNN Brasil)
 · MU Micron earnings outlook: what to watch ahead of
   the September 30 report (Investing.com)
-· DIRR3 Comunicado ao Mercado: Recebeu
-  correspondência da BlackRock, Inc. (“BlackRock”),
-  sediada na 50 Hudson Yards, Cidade de Nova Iorque,
-  Estado de Nova Iorque 10001, Estados Uni… (CVM)
+· DIRR3 Participação relevante: BlackRock passou a
+  ter 5,08% em 18/09 (objetivo: só investimento)
+  (CVM)
 · PETR4 Dividendos da semana: Petrobras paga R$ 4,5
   bilhões e CPFL lidera valor por ação (Estadao)
 · PETR4 Petrobras (PETR4) caminha para um dos
@@ -205,6 +204,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 711 CNY/t (2026-09-24).
-Celulose: proxy SHFE SP (fibra longa) 4.912 CNY/t;
+Minério: proxy Dalian 712 CNY/t (2026-09-24).
+Celulose: proxy SHFE SP (fibra longa) 4.918 CNY/t;
 BHKP sem série diária.

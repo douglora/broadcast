@@ -1,15 +1,12 @@
-## Fechamento do livro · qua 23/09 · 23h26 BRT
+## Fechamento do livro · qua 23/09 · 23h53 BRT
 
 ---
 
-### Correção de alertas já enviados
+### Correção do que já foi enviado
 
-- **CORREÇÃO tabela · BRENT 23/09: saiu -1,4% a 97,83; o certo é +3,9% a 103,08 (sinal invertido)**
-- **CORREÇÃO tabela · USDBRL 23/09: saiu -0,2% a 5,0999; o certo é +1,3% a 5,1664 (sinal invertido)**
-- **CORREÇÃO F03 · BRENT 18/09: saiu -5,3% a 99,29; o certo é -0,9% a 103,87**
-- **CORREÇÃO T05 · MRVE3 18/09: saiu -8,4% a 5,23; o certo é -3,7% a 5,23**
+- **RETIRADO T05 · MMM 23/09: o alerta dizia “MMM +3,2% no dia a US$ 170,30: movimento de 2,8 desvios para uma vol de 20 dias de 18% a.a.”; não vale, variação de 2 pregões (sem 22/09)**
 
-*O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou barra parcial); o certo vem da série já corrigida.*
+*RETIRADO: o alerta dependia de uma variação que o portão de qualidade não aceita (dois pregões, barra parcial ou dado não confirmado); não há número certo para pôr no lugar.*
 
 ---
 
@@ -17,7 +14,7 @@
 
 ---
 
-### Alertas do dia · 9 (2 críticos)
+### Alertas do dia · 8 (2 críticos)
 
 > **CRÍTICO · C07 · UST** — UST ABRIU: 2y +14 bps · 10y +15 bps · 30y +11 bps (23/09)
 > 2y 4,85 · 10y 5,11 · 30y 5,40 · 2s10s +26 bps
@@ -30,11 +27,10 @@
 
 - **C03 · DI** DI em nível: F28 cruzou 13,50% (para cima, agora 13,57%) · F35 cruzou 14,00% (para cima, agora 14,04%)
 - **T05 · GOOGL** GOOGL -3,8% no dia a US$ 337,83: movimento de 2,6 desvios para uma vol de 20 dias de 24% a.a.
-- **T05 · MMM** MMM +3,2% no dia a US$ 170,30: movimento de 2,8 desvios para uma vol de 20 dias de 18% a.a.
 - **T10 · META** META no máximo de força relativa em 63 sessões contra SPX: +31% vs +0,7% em 20 sessões (+32% relativo)
 - **T10 · VALE3** VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -9,2% vs +8,1% em 20 sessões (-14% relativo)
 - **T11 · META** META descolou à frente de GOOGL: +31% vs -2,6% em 20 sessões (z 3,0 em 252 sessões, 2º dia)
-- **S01 · SISTEMA** coleta do slot fechamento saiu incompleta: 14 séries sem cotação do dia: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01 · bcb: BCB devolveu 4 de 5 séries (faltaram ptax_venda)
+- **S01 · SISTEMA** coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01 · tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09 (taxas não são as de hoje)
 
 *Mais 23 sinais de baixa prioridade em `alertas.md`.*
 
@@ -56,7 +52,7 @@
 | **GOOGL** | -3,8% | notícia a conferir (Yahoo Finance): S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes — AMZN, GOOGL, NF | notícia (conferir) |
 | **PLTR** | +3,7% | notícia a conferir (Barron's): Palantir Could Be Big Winner as Air Traffic Control Goes AI. The Stock Is Rising. | notícia (conferir) |
 | **EWY** | -3,6% | investigar antes de comentar | sem causa no dado |
-| **DIRR3** | -3,4% | andou com o setor: construtoras de baixa renda -3,4% (mediana), DI F30 +12 bps; Comunicado ao Mercado na CVM: Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na 5 | setorial |
+| **DIRR3** | -3,4% | andou com o setor: construtoras de baixa renda -3,4% (mediana), DI F30 +12 bps; aviso de participação: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento); não costuma explicar o preço do dia | setorial |
 | **KLBN4** | -3,2% | notícia a conferir (Money Times): Suzano (SUZB3) x Klabin (KLBN11): BTG escolhe ação para surfar 'miniciclo' da celulose e v | notícia (conferir) |
 | **COHR** | -3,2% | investigar antes de comentar | sem causa no dado |
 
@@ -226,11 +222,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 647 | -1,9 | - | - | 24/09 |
+| **Celulose fibra longa** | 648 | -1,9 | - | - | 24/09 |
 | **Minerio de ferro Dalian** | 94 | -0,4 | - | - | 24/09 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.912 a USD/CNY 6,72 = US$ 731/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 711 a USD/CNY 6,72 = US$ 106/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.918 a USD/CNY 6,71 = US$ 732/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 712 a USD/CNY 6,71 = US$ 106/t com IVA
 
 ---
 
@@ -277,8 +273,8 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
   *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 - **MU** Micron earnings outlook: what to watch ahead of the September 30 report (Investing.com · 23/09) [abrir a fonte](https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385)
   *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-- **DIRR3** Comunicado ao Mercado: Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na 50 Hudson Yards, Cidade de Nova Iorque, Estado de Nova Iorque 10001, Estados Uni… (CVM · 23/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570676)
-  *Por que importa:* comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+- **DIRR3** Participação relevante: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento) (CVM · 23/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570676)
+  *Por que importa:* quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o objetivo declarado é só investimento e não muda controle; o fluxo de compra ou venda já aconteceu até 18/09, não no dia do aviso
 - **PETR4** Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação (Estadao · 23/09) [abrir a fonte](https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-petrobras-paga-r-45-bilhoes-e-cpfl-lidera-valor-por-acao/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **PETR4** Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A ação ficou cara demais para comprar agora? (Seu Dinheiro · 23/09) [abrir a fonte](https://www.seudinheiro.com/2026/empresas/petrobras-petr4-caminha-para-um-dos-maiores-dividendos-do-mundo-a-acao-ficou-cara-demais-para-comprar-agora-ccgg/)
@@ -306,11 +302,11 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 23h26 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 23/09
+**Relógios:** Yahoo 23h53 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 23/09
 **Lacunas:** VWRA sem barra de 23/09 (última 22/09); CSPX sem barra de 23/09 (última 22/09); CNDX sem barra de 23/09 (última 22/09); VHYA sem barra de 23/09 (última 22/09); WUTI sem barra de 23/09 (última 22/09); RBOT sem barra de 23/09 (última 22/09); IUAA sem barra de 23/09 (última 22/09); IB01 sem barra de 23/09 (última 22/09); QNTM sem barra de 23/09 (última 22/09); QANT sem barra de 23/09 (última 22/09); WQTM sem barra de 23/09 (última 22/09); sem barra de 22/09 no Yahoo, variação do dia cobre 2 pregões: XLK, VGT, BOTZ, WQTMUS, QTUM, REMX, GFS, KO, CVX, MMM, MCHI, DXY; tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09 (taxas não são as de hoje); alertas_segurados: alertas não emitidos por dado não confirmado: T05 MMM (MMM: variação de 2 pregões (sem 22/09)).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
-Minério: proxy Dalian 711 CNY/t (2026-09-24).
-Celulose: proxy SHFE SP (fibra longa) 4.912 CNY/t; BHKP sem série diária.
+Minério: proxy Dalian 712 CNY/t (2026-09-24).
+Celulose: proxy SHFE SP (fibra longa) 4.918 CNY/t; BHKP sem série diária.
 **Fontes:** Yahoo Finance · B3 Boletim Diário · Tesouro Transparente · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*

@@ -1,17 +1,17 @@
-NOTÍCIAS E FATOS · 23/09 23h26
+NOTÍCIAS E FATOS · 23/09 23h53
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 454 veículo fora da lista, 28 sem ativo, 19 teto) · cvm ok 0 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 1 novas (18 consultas; descartadas: 455 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 0 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
-[ATENÇÃO] E03 · DIRR3 · Comunicado ao Mercado: Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na 50 Hudson Yards, Cidade de Nova Iorque, Estado de Nova Iorque 10001, Estados Uni…
+[ATENÇÃO] E03 · DIRR3 · Participação relevante: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento)
 CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
 Do documento:
   – Belo Horizonte, September 23, 2026    Paulo Henrique Martins de Sousa  CFO and IR Officer                                                TEXT - 52579528v1 6947.34
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570676
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Por que importa: quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); o objetivo declarado é só investimento e não muda controle; o fluxo de compra ou venda já aconteceu até 18/09, não no dia do aviso
 Ativos: DIRR3
-Como falar: 'a Direcional Engenharia publicou comunicado ao mercado sobre Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na…'
+Como falar: 'BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento) na Direcional Engenharia; é aviso de participação, não fato relevante'
 Fonte: CVM 23/09
 id: E03-DIRR3-1570676-2026-09-23 · status: entregue · íntegra disponível
 
@@ -140,8 +140,9 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (37)
+## OUTRAS NOTÍCIAS (só manchete) (38)
 
+· BTC 'BTC still has room to catch up': Bitcoin's $80,000 breakout draws institutional demand as analysts weigh durability (The Block) https://www.theblock.co/news/markets/2026-09-23-bitcoin-breakout-etf-inflows-analysts-k33-nexo-resistance-416182
 · BABA What Does Alibaba (BABA) Facing A Securities Fraud Probe Mean Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-alibaba-baba-facing-securities-211806119.html
 · MELI34 Mercado Livre Racing aposta em estratégias e sintonia de duplas para prova Endurance da Stock Car em Brasília (UOL Economia) https://motorsport.uol.com.br/stockcar-br/news/mercado-livre-racing-aposta-em-estrategias-e-sintonia-de-duplas-para-prova-endurance-da-stock-car-e/10858367/
 · USDBRL Dólar à vista sobe 1,28% em meio a aversão global a risco (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/dolar-a-vista-sobe-128percent-em-meio-a-aversao-global-a-risco.ghtml
