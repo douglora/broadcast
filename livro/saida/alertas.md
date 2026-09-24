@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] T08 · 3 ativos: COHR, EWY, BBAS3
+(pendente de slot anterior) [CRÍTICO] T08 · 3 ativos: COHR, EWY, BBAS3
 · COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) a US$ 290,61
   1m +0,9% · 6m +19% · 12m +173%
 · EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a US$ 182,53
@@ -10,12 +10,12 @@ ALERTAS · Fechamento 18h
 Por que importa: -30% do pico é o limiar que a indústria chama de queda de -30% do pico; recuperar o pico exige +47%
 Como falar: 'o cliente sente a queda no extrato; a conversa é sobre a tese, não sobre o preço de hoje'
 Fonte: Yahoo Finance fech. 24/09
-Push: [CRÍTICO] COHR entrou em queda de -30% do pico | EWY entrou em queda de -15% do pico | BBAS3 entrou em bear técnico · detalhe na sessão
 ids: T08-COHR--30-2026-09-24, T08-EWY--15-2026-09-24, T08-BBAS3--20-2026-09-24
 
 Info (só linha no Fechamento):
-· E05 MU · What's Going On With Micron Technology Stock Thursday?
-· E05 BAC · Bank of America Corporation (BAC) Stock forecasts
+· E05 PLTR · Rosenblatt Has Message For Palantir Stock Investors
+· E05 UST · Treasury Yields Hit 5%: The Hidden Duration In Your ETF Portfolio
+· E05 NOK · Nokia Oyj (NOK) Stock Price, News, Quote & History
 · T04 IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) fechou na mínima de 52 semanas: US$ 5,59, -2,5% em 1m e -1,4% em 12m
 · T01 KLBN4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 3,58 vs MM200 R$ 3,67 (-2,3%)
 · T05 ALUP4 -3,6% no dia a R$ 10,40: movimento de 3,0 desvios para uma vol de 20 dias de 19% a.a.
@@ -62,4 +62,4 @@ Alertas do dia (todos, com status):
 · linha     T10 ALUP4 — ALUP4 no mínimo de força relativa em 63 sessões contra IBOV: -5,5% vs +5,4% em 2
 · linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
 · linha     F03 BRENT — Brent sobe a US$ 107,03 (+3,8% no dia)
-· (+138 notícias só manchete, em noticias.md)
+· (+141 notícias só manchete, em noticias.md)

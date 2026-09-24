@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 18h19
+NOTÍCIAS E FATOS · 24/09 18h24
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 465 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 3 novas (18 consultas; descartadas: 466 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -142,8 +142,11 @@ Fonte: TradingView (Reuters) 24/09 04h15
 id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (133)
+## OUTRAS NOTÍCIAS (só manchete) (136)
 
+· PLTR Rosenblatt Has Message For Palantir Stock Investors (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fcd657612094b:0-rosenblatt-has-message-for-palantir-stock-investors/
+· UST Treasury Yields Hit 5%: The Hidden Duration In Your ETF Portfolio (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:06ee79955094b:0-treasury-yields-hit-5-the-hidden-duration-in-your-etf-portfolio/
+· NOK Nokia Oyj (NOK) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NOK/
 · MU What's Going On With Micron Technology Stock Thursday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:a3c925273094b:0
 · BAC Bank of America Corporation (BAC) Stock forecasts (Yahoo Finance) https://au.finance.yahoo.com/research/reports/MS_0P000000PA_AnalystReport_1790119323000
 · CVX Chevron: Buy On Long-Term Signals And Forget About It (NYSE:CVX) (Seeking Alpha) https://seekingalpha.com/article/4949576-chevron-buy-on-long-term-signals-and-forget-about-it
@@ -201,7 +204,4 @@ id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 · UST Midday Need to Know: Treasury yields climb, GoDaddy jumps & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4646754-midday-need-to-know-treasury-yields-climb-godaddy-jumps-more
 · BTC Crypto for Advisors:The hidden costs of holding your own bitcoin (CoinDesk) https://www.coindesk.com/coindesk-indices/2026/09/24/crypto-for-advisors-the-hidden-costs-of-holding-your-own-bitcoin
 · TSLA Tesla's Biggest Semi Deal Yet: Is TSLA Stock a Buy Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:94f0418f9094b:0-tesla-s-biggest-semi-deal-yet-is-tsla-stock-a-buy-now/
-· BTC Current price of Bitcoin for Sept. 24, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZkFVX3lxTE5acVI0RXl6QzNHRzhQeGhGZEpJOUpzbGRDTHVoc0hLeEt6aldVOTdtcVR4RERJYTl5eDlIWXE2UDZUNmtBd0txTTdLXzcycnd5SkFZUXl0U2dPVGIwdVpQZmlzMEgxZw?oc=5
-· NVDA NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYWl2NEltMGhmNGVNejN0SzlrbThJQVpuSnVOYzFmZTUtTjR1WTFMclUwRGliTFBEUkd4T3JndlpMZTdGUUVKVEU4Q2hZNVhQWGFrRjh3ZXFxZ2QyWURMSXlQaTZ0TFZJMjdEckhKTEZTV2d0Sy0xVWJLdG8tQ3RZY1h4N1hkTXBPbjhWWmhpT1phWmtaN0lBcFhscjdhSURVS25zd0Y5S0pjQzlaZ0pmeGdwbjI1enpaSTRwelBILUw?oc=5
-· BRENT Dólar avança e Bolsa cai com petróleo em alta e juros dos EUA no radar dos investidores (Folha de S.Paulo) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVG5vOW5kTHlheUN2ajhfQi1qTThMUjl4QjJaU0phQ0I1b3pNYXNlT1Y5MmI0LWs1dUgyYTkxQUtwZ201OWpVSDBVLXRiNFFKTVFEWmdqV3hiYW4zMXVjZTdsdGN3SmpXWW82ejJlSkZCOGFka2MwbC1YZndTRmlkNmllNnpseDVMb1dPU3NoQk96WTE1ejRMOUZfSHMyb3ZQaV9DeDJTVEJaWW1ZVXRYVDRYR3NhVEczQ3Y2VEREVTJqdTg?oc=5
-· (+73 manchetes; lista completa em eventos/noticias.json)
+· (+76 manchetes; lista completa em eventos/noticias.json)
