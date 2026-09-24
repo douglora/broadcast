@@ -69,8 +69,10 @@ jobs:
           EVENTO: ${{ github.event_name }}
         run: |
           ARGS=""
-          # Nas agendas das cartas (dias 2 a 6) a CDA nao muda: so as cartas
+          # Nas agendas das cartas (dias 2 a 6) a CDA nao muda: so as cartas. Push de codigo tambem so refaz as
+          # cartas; a carteira da CVM (15 min) roda no dia 12 ou no disparo manual.
           if [ "$EVENTO" = "schedule" ] && [ "$(date -u +%d)" != "12" ]; then ARGS="--so-cartas"; fi
+          if [ "$EVENTO" = "push" ]; then ARGS="--so-cartas"; fi
           python kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" --urls "$URLS" $ARGS
 
       - name: Publicar no branch dados
