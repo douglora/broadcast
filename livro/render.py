@@ -11,6 +11,7 @@ import textwrap
 from datetime import date, timedelta
 
 from livro import fmt
+from livro import qualidade as qa
 from livro import indicadores as ind
 from livro import relogios
 
@@ -24,9 +25,10 @@ def quebrar(texto: str, indent: str = "  ", largura: int = LARGURA) -> list[str]
 
 
 # ---------------------------------------------------------------- BLOCO B
-def linha_tabela(a, j: dict, modo: str = "completo") -> str:
+def linha_tabela(a, j: dict, modo: str = "completo", marcado: bool = False) -> str:
     ultimo = fmt.preco(j.get("ultimo"), a.decimais)
-    ident = a.id[:6]
+    # "*" = ver LACUNAS; vai DENTRO da coluna do ticker para a linha nao passar de 52
+    ident = (a.id[:5] + "*") if marcado else a.id[:6]
     if modo == "celular":
         apelido = (a.apelido or "")[:6]
         cols = [j.get("dia"), j.get("1s"), j.get("1m"), j.get("ytd")]
@@ -58,9 +60,9 @@ def bloco_b(universo, janelas: dict, series_info: dict, modo: str = "completo") 
             if not j:
                 lacunas.append(f"{a.id} sem série")
                 continue
-            l = linha_tabela(a, j, modo)
+            rot, ocultar = qa.marcador(j, info)
+            l = linha_tabela(a, {**j, "dia": None} if ocultar else j, modo, marcado=bool(rot))
             if info.get("esperado_hoje") and not info.get("fresco", True):
-                l = l.rstrip() + " *"
                 lacunas.append(f"{a.id} sem barra de {fmt.data_br(info.get('esperado'))} (última {fmt.data_br(j.get('data'))})")
             linhas.append(l)
     return "\n".join(linhas), lacunas
@@ -123,11 +125,16 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
             if not h:
                 continue
             d1 = ind.bps(h[-1][1], h[-2][1]) if len(h) > 1 else None
+            if len(h) > 1:
+                # o "delta" do Tesouro e entre as duas ultimas datas-base, nao "no dia"
+                ins["tesouro_base_anterior"] = h[-2][0]
             item = f"{t.get('apelido', tid)} {fmt.taxa(h[-1][1])} ({fmt.bps(d1)})"
             (pre if "prefixado" in t.get("tipo", "").lower() else ipca).append(item)
             ins.setdefault("tesouro", {})[tid] = {"taxa": h[-1][1], "delta": d1, "pu": h[-1][2],
                                                   "apelido": t.get("apelido", tid), "tipo": t.get("tipo", "")}
-        linhas += quebrar(f"TD (base {fmt.data_br(base)}) " + " · ".join(pre + ipca), indent="    ")
+        ant = ins.get("tesouro_base_anterior")
+        linhas += quebrar(f"TD (base {fmt.data_br(base)}"
+                          + (f", Δ desde {fmt.data_br(ant)}" if ant else "") + ") " + " · ".join(pre + ipca), indent="    ")
         ins["tesouro_base"] = base
         # breakevens
         bes = []
@@ -169,9 +176,9 @@ def curvas_linhas(curvas: dict, universo, macro: dict, regime: dict, hoje: date)
         lacunas.append("UST sem dado")
     if regime:
         vix = regime.get("vix")
-        txt = f"Regime: score risco {regime.get('score', 0)}/6"
+        txt = f"Regime: score risco {regime.get('score', 0)} de {regime.get('avaliados', 6)}"
         if vix is not None:
-            txt = f"Regime: VIX {fmt.num(vix, 1)} ({fmt.pct(regime.get('vix_var'))}) · score risco {regime.get('score', 0)}/6"
+            txt = f"Regime: VIX {fmt.num(vix, 1)} ({fmt.pct(regime.get('vix_var'))}) · score risco {regime.get('score', 0)} de {regime.get('avaliados', 6)}"
         if regime.get("regime_vol"):
             txt += " · regime de vol LIGADO"
         linhas += quebrar(txt, indent="    ")
@@ -196,9 +203,15 @@ def agenda_extras(agenda_json: dict, calendario: dict) -> list[tuple]:
     return out
 
 
-def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("alta", "media"), extras: list | None = None) -> list[str]:
+def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("alta", "media"), extras: list | None = None,
+           dias_empresas: int = 14) -> list[str]:
+    """Macro nos proximos `dias`; resultado e data-com dos ativos do livro em ate
+    `dias_empresas` corridos (~10 pregoes): o resultado da MU em 30/09 so aparecia a
+    partir de 24/09 com a janela unica de 6 dias."""
     fim = hoje + timedelta(days=dias)
-    itens = [(d, t) for d, t in (extras or []) if hoje < d <= fim]
+    fim_emp = hoje + timedelta(days=dias_empresas)
+    e_empresa = lambda t: (" resultado " in t) or (" ex-dividendo " in t)
+    itens = [(d, t) for d, t in (extras or []) if hoje < d <= (fim_emp if e_empresa(t) else fim)]
     for e in calendario.get("eventos_macro") or []:
         d = relogios._d(e["data"])
         if hoje < d <= fim:
@@ -208,7 +221,7 @@ def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("
             itens.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())}{hora} {e['evento']}{sufixo}"))
     for r in calendario.get("resultados") or []:
         d = relogios._d(r["data"])
-        if hoje < d <= fim:
+        if hoje < d <= fim_emp:
             quando = {"apos_ny": "após NY", "antes_ny": "antes de NY", "apos_b3": "após B3", "madrugada": "madrugada"}.get(r.get("quando"), "")
             conf = "confirmado" if r.get("confirmado") else "estimado"
             itens.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())} resultado {r['ticker']} ({quando}, {conf})"))
@@ -219,8 +232,11 @@ def agenda(calendario: dict, hoje: date, dias: int = 6, so_confianca: tuple = ("
                 itens.append((d, f"{fmt.dia_semana(d)} {fmt.data_br(d.isoformat())} {rec['hora_brt']} {rec['evento']}"))
             d += timedelta(days=1)
     itens.sort(key=lambda x: x[0])
+    # teto por tipo, para a agenda de empresas nao expulsar o Copom (e vice-versa)
+    macro = [x for x in itens if not e_empresa(x[1])][:8]
+    emp = [x for x in itens if e_empresa(x[1])][:8]
     out = []
-    for _, t in itens[:10]:
+    for _, t in sorted(macro + emp, key=lambda x: x[0]):
         out += quebrar(t, indent="    ")
     return out
 
@@ -359,7 +375,10 @@ def fmt_rotulo(sev: str | None) -> str:
 
 
 def movers(janelas: dict, universo, n: int = 5) -> dict:
-    itens = [(i, j["dia"]) for i, j in janelas.items() if j.get("dia") is not None and universo.por_id(i) and not universo.por_id(i).proxy]
+    # so entra quem tem "dia" de verdade: um pregao, dado confirmado, barra de hoje
+    # (em 23/09 MMM +3,2% e GFS -4,4% eram dois pregoes e foram parar no push)
+    itens = [(i, j["dia"]) for i, j in janelas.items() if j.get("dia") is not None and j.get("dia_confirmado", True)
+             and universo.por_id(i) and not universo.por_id(i).proxy]
     itens.sort(key=lambda x: x[1], reverse=True)
     return {"altas": [x for x in itens[:n] if x[1] > 0], "baixas": [x for x in sorted(itens, key=lambda x: x[1])[:n] if x[1] < 0]}
 

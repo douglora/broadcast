@@ -35,8 +35,10 @@ def preparar_sessao(cli: Cliente) -> str | None:
     return None
 
 
-def parse_chart(payload: dict, simbolo: str) -> dict:
-    """JSON do chart v8 -> {barras, eventos, meta}. Barras sem close sao descartadas."""
+def parse_chart(payload: dict, simbolo: str, diario: bool = True) -> dict:
+    """JSON do chart v8 -> {barras, eventos, meta}. Barras sem close sao descartadas.
+    Com diario=False (graficos de minutos), devolve tambem `_intradia` = [[ts, close]]
+    e nao mexe em datas repetidas, que ali sao a regra."""
     res = (payload.get("chart") or {}).get("result") or []
     if not res:
         erro = ((payload.get("chart") or {}).get("error") or {}).get("description", "sem result")
@@ -49,6 +51,7 @@ def parse_chart(payload: dict, simbolo: str) -> dict:
     q = ((r.get("indicators") or {}).get("quote") or [{}])[0]
     adj = ((r.get("indicators") or {}).get("adjclose") or [{}])[0].get("adjclose") or []
     barras = []
+    redatadas = []
     for i, ts in enumerate(stamps):
         close = (q.get("close") or [None] * len(stamps))[i]
         if close is None:
@@ -60,6 +63,14 @@ def parse_chart(payload: dict, simbolo: str) -> dict:
             arr = q.get(nome) or []
             return arr[i] if i < len(arr) else None
 
+        if diario and barras and barras[-1][0] == d:
+            # Duas barras com a MESMA data: a primeira e o pregao liquidado e a segunda
+            # e a sessao seguinte, que em futuros e no DXY reabre as 18h de Nova York
+            # (visto em 23/09 no BZX26.NYM: 103,08 com volume 47 mil e depois 101,94
+            # com volume 958, as duas "de 23/09"). A segunda pertence ao proximo dia
+            # util; antes, o dict por data guardava so a ultima e o livro publicava o toco.
+            d = _proximo_dia_util(d)
+            redatadas.append(d)
         barras.append([d, v("open"), v("high"), v("low"), float(close), float(aj), v("volume")])
     ev = r.get("events") or {}
     dividendos = sorted(
@@ -68,13 +79,16 @@ def parse_chart(payload: dict, simbolo: str) -> dict:
     splits = sorted(
         [[datetime.fromtimestamp(int(x.get("date", 0)), zona).date().isoformat(), x.get("splitRatio")]
          for x in (ev.get("splits") or {}).values() if x.get("date")])
-    return {
+    out = {
         "simbolo": simbolo,
         "moeda": meta.get("currency"),
         "tz": tz,
         "meta": {
             "regularMarketPrice": meta.get("regularMarketPrice"),
-            "previousClose": meta.get("previousClose") or meta.get("chartPreviousClose"),
+            # sem fallback: o chartPreviousClose e o fechamento ANTES da janela pedida
+            # (no BZ=F saia 73,9 como "fechamento anterior")
+            "previousClose": meta.get("previousClose"),
+            "chartPreviousClose": meta.get("chartPreviousClose"),
             "marketState": meta.get("marketState"),
             "regularMarketTime": meta.get("regularMarketTime"),
             "exchangeName": meta.get("exchangeName") or meta.get("fullExchangeName"),
@@ -83,6 +97,21 @@ def parse_chart(payload: dict, simbolo: str) -> dict:
         "barras": barras,
         "eventos": {"dividendos": dividendos, "splits": splits},
     }
+    if redatadas:
+        out["barras_redatadas"] = redatadas
+    if not diario:
+        closes = q.get("close") or []
+        out["_intradia"] = [[ts, float(closes[i])] for i, ts in enumerate(stamps)
+                            if i < len(closes) and closes[i] is not None]
+    return out
+
+
+def _proximo_dia_util(iso: str) -> str:
+    from datetime import date, timedelta
+    d = date.fromisoformat(iso) + timedelta(days=1)
+    while d.weekday() >= 5:
+        d += timedelta(days=1)
+    return d.isoformat()
 
 
 def baixar_serie(cli: Cliente, simbolo: str, rng: str = "2y", crumb: str | None = None,
@@ -99,7 +128,9 @@ def baixar_serie(cli: Cliente, simbolo: str, rng: str = "2y", crumb: str | None 
             ultimo_erro = e
             continue
         if r.status == 200:
-            dados = parse_chart(r.json(), simbolo)
+            dados = parse_chart(r.json(), simbolo, diario=intervalo == "1d")
+            if not intervalo.endswith("m"):
+                dados.pop("_intradia", None)     # semanal: nao guarda o bruto
             dados["coletado_em"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             return dados
         ultimo_erro = HttpError(r.status, r.text, url)
@@ -138,6 +169,43 @@ def _reprecificada(antigas: list[list], novas: list[list], limiar: float = REPRE
     return m if m > limiar else None
 
 
+def _mediana(xs):
+    import statistics
+    xs = [x for x in xs if x]
+    return statistics.median(xs) if xs else 0.0
+
+
+def barra_sa(b: list, ref: list[list]) -> bool:
+    """Barra coerente: abertura e fechamento dentro da maxima e da minima (0,1%) e,
+    quando a serie tem volume, volume >= 5% da mediana das barras de referencia.
+    Barra so com fechamento (O/H/L vazios ou zero) conta como sa."""
+    try:
+        o, h, l, c, vol = b[1], b[2], b[3], b[4], b[6]
+    except (IndexError, TypeError):
+        return False
+    if None not in (o, h, l, c) and h and l and h >= l:
+        tol = 0.001
+        if c > h * (1 + tol) or c < l * (1 - tol) or o > h * (1 + tol) or o < l * (1 - tol):
+            return False
+    med = _mediana([x[6] for x in ref if len(x) > 6])
+    if med and vol and vol < 0.05 * med:
+        return False
+    return True
+
+
+def troca_de_contrato(antiga: list, nova: list, tol: float = 0.002) -> bool:
+    """Futuro, mesma data: as duas barras nao cabem no mesmo pregao (a maxima nova
+    abaixo da antiga ou a minima nova acima), sinal de que o continuo trocou de
+    vencimento no meio do caminho."""
+    try:
+        ha, la, hn, ln = antiga[2], antiga[3], nova[2], nova[3]
+    except (IndexError, TypeError):
+        return False
+    if None in (ha, la, hn, ln) or not ha or not la:
+        return False
+    return hn < ha * (1 - tol) or ln > la * (1 + tol)
+
+
 def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS) -> dict | None:
     """Une as barras por data: a coleta nova vence na mesma data, mas NENHUMA barra ja
     guardada e descartada.
@@ -154,10 +222,29 @@ def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS
         if dif is not None:
             return {**nova, "reprecificada": round(dif, 4)}
         por_data = {b[0]: b for b in antigas}
-        por_data.update({b[0]: b for b in (nova.get("barras") or [])})
+        rejeitadas = []
+        futuro = str((nova.get("meta") or {}).get("instrumentType") or "").upper() == "FUTURE" \
+            or str(nova.get("simbolo") or "").endswith("=F")
+        ref = [b for b in antigas[-21:]]
+        for b in (nova.get("barras") or []):
+            velha = por_data.get(b[0])
+            if velha is not None and not barra_sa(b, ref) and barra_sa(velha, ref):
+                # a coleta nova trouxe uma barra podre (OHLC incoerente, toco de volume)
+                # para uma data que ja tinha barra boa: fica a boa (18/09 do Brent
+                # virou 104,09/100,14/97,81/99,29, abertura acima da maxima)
+                rejeitadas.append(b[0])
+                continue
+            if velha is not None and futuro and barra_sa(velha, ref) and troca_de_contrato(velha, b):
+                # a guardada e sa e a nova nao cabe no mesmo pregao: o continuo trocou de
+                # vencimento; fica a guardada (se a guardada e podre, a nova entra acima)
+                rejeitadas.append(b[0])
+                continue
+            por_data[b[0]] = b
         barras = [por_data[k] for k in sorted(por_data)][-max_barras:]
         datas_novas = {x[0] for x in (nova.get("barras") or [])}
         out = {**nova, "barras": barras}
+        if rejeitadas:
+            out["revisoes_rejeitadas"] = rejeitadas[-10:]
         # So e anomalia quando a barra MAIS RECENTE veio do historico: e o caso que o
         # docstring descreve. No intradia a coleta e range=5d, entao centenas de datas
         # antigas ficam fora da janela por construcao - contar isso fazia o log dizer
@@ -170,6 +257,26 @@ def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS
         antiga["reaproveitada"] = True
         return antiga
     return None
+
+
+def fechamentos_intradia(cli: Cliente, simbolo: str, hora_corte: str = "17:00",
+                         tz_corte: str = "America/Sao_Paulo", crumb: str | None = None) -> dict:
+    """{data: [preco, 'hh:mm']}: ultimo negocio ate `hora_corte` (fuso `tz_corte`) de
+    cada dia, a partir do grafico de 15 minutos dos ultimos 5 dias.
+
+    A barra DIARIA do USDBRL=X no Yahoo nao presta para o fechamento: em 23/09 a
+    barra "de 23/09" fechava em 5,0999 (o numero da vespera) e a de 24/09 abria em
+    5,1625; o dolar tinha subido 1,28%. O dolar a vista no Brasil fecha as 17h."""
+    d = baixar_serie(cli, simbolo, "5d", crumb, intervalo="15m")
+    hh, mm = (int(x) for x in hora_corte.split(":"))
+    z = ZoneInfo(tz_corte)
+    out: dict = {}
+    for b in d.get("_intradia") or []:
+        ts, preco = b
+        t = datetime.fromtimestamp(ts, z)
+        if (t.hour, t.minute) <= (hh, mm) and t.weekday() < 5:
+            out[t.date().isoformat()] = [preco, f"{t:%H:%M}"]
+    return out
 
 
 def sonda(simbolos: list[str], cli: Cliente | None = None) -> dict:
@@ -187,6 +294,8 @@ def sonda(simbolos: list[str], cli: Cliente | None = None) -> dict:
                 "tem_volume": any(x[6] for x in b[-20:]) if b else False,
                 "adj_diferente": any(x[4] != x[5] for x in b) if b else False,
                 "marketState": d["meta"].get("marketState"),
+                # as 3 ultimas barras: para conferir contrato explicito e toco sem outro run
+                "ultimas": [[x[0], x[4], x[6]] for x in b[-3:]],
             }
         except HttpError as e:
             out["simbolos"][s] = {"status": f"HTTP {e.status}" if e.status else "rede", "detalhe": e.body}

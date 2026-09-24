@@ -98,6 +98,64 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
    resposta e "coleta falhou as HHhMM (<step>)" + link do run, e nada mais.
 3. **Leitura.** Leia so os `.md` do slot (e `fechamento.json` filtrado por
    `python3 -c` para `leitura_insumos`, nunca o JSON inteiro).
+3b. **Portao de qualidade (antes de escrever QUALQUER numero).** Em 23/09 o livro
+   publicou Brent -1,4% (foi +3,9%) e dolar -0,2% (foi +1,3%), e a sessao construiu
+   em cima deles duas "divergencias" que nao existiam. Frescor por horario nao basta:
+   o runner pode gravar numero podre com a data de hoje. Regras:
+
+   - **R0.** Rode `python3 -m livro.portao` (drivers) e `python3 -m livro.portao <IDS>`
+     para todo ativo que voce vai citar. Leia tambem `fechamento.json -> qualidade` e
+     `-> drivers` (e `manifest.qualidade`). Serie fora de `ok`, ou com "dia nao e um
+     pregao", NAO entra na tese.
+   - **R1.** Ativo citado com numero na tese tem de estar ok. Os demais vao numa linha
+     propria no topo: "A confirmar: USDBRL (barra de 23/09 nao bate com a abertura
+     seguinte)". Nunca no corpo da tese, nunca no push.
+   - **R2.** Driver macro (Brent, minerio, dolar, DXY, UST, DI) usado para explicar
+     outro ativo precisa estar ok em `drivers`, com a MESMA data de barra do ativo
+     explicado e variacao de um pregao so. Faltando, a frase causal e proibida;
+     escreva "sem fechamento confirmado do <driver> de dd/mm".
+   - **R3.** Frase de divergencia ("apesar de", "na contramao", "descolou", "A subiu
+     com B caindo", "o real ficou firme com o dolar forte la fora") exige as duas
+     pernas ok E confirmacao externa (R4) quando uma perna e commodity ou cambio.
+     Divergencia forte entre produtor e commodity (PETR4, CVX, UGPA3 contra Brent) e
+     PRIMEIRO suspeita de dado: diga "conferir Brent" antes de qualquer tese.
+   - **R4.** Numero extremo precisa de WebSearch rotulado antes de entrar na Leitura
+     ou no push: commodity com |dia| >= 3%, cambio >= 1%, z >= 3, qualquer alerta
+     critico de F0x, ou driver fora de ok. Vale na manha e no fechamento; no intradia
+     so para alerta critico. A materia so conta se a data for a do pregao em questao.
+     Escreva com a fonte: "Brent +3,9% a US$ 103,08 (Reuters/CNBC, 23/09)". Se a fonte
+     externa diverge do runner em mais de 1 p.p., diga os dois, registre em LACUNAS e
+     nao use o numero do runner. Numero da web so entra quando o runner marcou a serie
+     como nao ok, sempre com veiculo e data, e nunca substitui serie ok.
+   - **R5.** "Dia" so e dia com um pregao. O card ja escreve "_(2 pregoes)_",
+     "_(dia dd/mm)_", "_(parcial)_", "_(D-1, dd/mm)_" ou "a confirmar": repita o rotulo
+     se citar o numero, ou omita.
+   - **R6.** Alerta ja entregue que o dado atual desmente (sinal invertido, nivel nao
+     atingido, sequencia quebrada) vira "CORRECAO:" na primeira linha do turno, com o
+     numero entregue e o certo. No painel, faixa de correcao no topo e selo "numero
+     errado · ver correcao" na linha.
+   - **R7.** Antes de ler qualquer .md de `livro/saida`, confira a data: `git log -1
+     --format=%ad origin/dados -- livro/saida/<arquivo>`. Arquivo de outro dia ou de
+     outro slot nao e lido como atual.
+   - **R8.** Rotulos de tempo: Tesouro Direto e sempre "base dd/mm" com o delta
+     "dd/mm->dd/mm", nunca "no dia" (o card ja traz); se o manifest disser "atrasada",
+     isso vai para LACUNAS. DI e UST so "fecharam" com ajuste/CMT D0. Minerio (TIO=F)
+     e D-1. Nunca chame de "Fechamento" um push da manha.
+   - **R9.** Slot que nao rodou e lacuna declarada na primeira linha: "sem fechamento
+     em 22/09 (livro nao rodou)". Confira com `git log origin/dados --since=<ontem>
+     --format='%h %ad %s' --date=iso -- livro/saida/manifest.json`.
+   - **R10.** Documento CVM se descreve pelo que e: aviso de participacao relevante
+     (art. 12 da Res. CVM 44) nao e fato relevante; diga quem, quanto, data do
+     cruzamento, data da divulgacao e objetivo declarado (o runner ja extrai em
+     `dados.participacao`). Nunca ligue um documento a um movimento de preco sem olhar
+     antes o setor e o fator: use o card "Por que mexeu" e "Setores do dia" (CURY3
+     -3,8% em 23/09 foi setor + DI, nao documento). Noticia de homonimo nunca e causa
+     (Augusto Cury, candidato, nao e a CURY3).
+
+   O Brent do livro sai do contrato do 1o vencimento (`series_info.BRENT.contrato`,
+   ex.: "nov/26 (BZX26.NYM)"); o dolar do dia e o ultimo negocio ate 17h
+   (`series_info.USDBRL.fechamento_17h`). Se `manifest.pernas.brent_contratos` ou
+   `cambio_17h` disserem falha, o numero correspondente sai "a confirmar" e R4 vale.
 4. **Narrar.** Ver o formato por slot abaixo. Colar os cards exatamente como
    estao; substituir o marcador da leitura pelo seu texto: `[[LEITURA_DA_MESA]]`
    nos cards e no painel, `<<LEITURA_DA_MESA>>` no BLOCO A monoespacado do
@@ -310,3 +368,10 @@ lacuna declarada; run com `startup_failure` -> leia a anotacao e diga a causa.
 - [ ] Sem compre/venda; "Como falar" descritivo
 - [ ] Ids narrados anotados para o ack do proximo turno
 - [ ] Noticia sem "Do texto" narrada como manchete + link, nunca com conteudo inventado
+- [ ] Rodei `python3 -m livro.portao` (R0); nenhum numero de serie fora de ok na tese
+- [ ] Toda frase causal tem driver ok, mesma data e um pregao so (R2)
+- [ ] Divergencia so com as duas pernas ok e confirmacao externa quando commodity/cambio (R3)
+- [ ] Extremo de commodity/cambio confirmado por WebSearch com veiculo e data do pregao (R4)
+- [ ] "Dia" de dois pregoes, barra parcial, D-1 ou "a confirmar" rotulados como o card rotula (R5)
+- [ ] Alerta entregue e desmentido virou CORRECAO na primeira linha (R6)
+- [ ] .md lido e do slot e do dia certos; slot que nao rodou declarado (R7, R9)

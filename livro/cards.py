@@ -12,6 +12,8 @@ import re
 from datetime import date
 
 from livro import fmt
+from livro import qualidade as qa
+from livro import atribuicao
 
 MARCADOR_LEITURA = "[[LEITURA_DA_MESA]]"
 COLUNAS = ("dia", "1s", "1m", "3m", "6m", "1a", "ytd", "5a")
@@ -39,13 +41,16 @@ def _v(x) -> str:
 
 
 def _linha(a, j: dict, info: dict) -> str:
-    atraso = ""
-    if info.get("esperado_hoje") and not info.get("fresco", True):
-        # a coluna "dia" desta linha e de outro pregao: dizer qual, e nao um simbolo
-        atraso = f" _(dia {fmt.data_br(j.get('data'))})_"
+    # a coluna "dia" desta linha nao e o pregao de hoje, ou nao e um pregao so, ou o
+    # valor nao bateu: dizer em palavras, nunca com simbolo (portao em livro/qualidade.py)
+    rot, ocultar = qa.marcador(j, info)
+    atraso = f" _({rot})_" if rot else ""
+    extra = " · ".join(x for x in (j.get("extremo_52s"), j.get("proximo_evento")) if x)
+    if extra:
+        atraso += f" · {_esc(extra)}"
     celulas = [f"**{_esc(a.id)}** {_esc(nome_curto(a))}{atraso}",
                _esc(fmt.preco(j.get("ultimo"), a.decimais)),
-               f"**{_v(j.get('dia'))}**"]
+               "a confirmar" if ocultar else f"**{_v(j.get('dia'))}**"]
     celulas += [_v(j.get(c)) for c in COLUNAS[1:]]
     return "| " + " | ".join(celulas) + " |"
 
@@ -92,19 +97,63 @@ def _card_alertas(do_dia: list[dict]) -> str:
     return "\n".join(L)
 
 
-def _card_destaques(movers: dict) -> str:
+def _card_destaques(movers: dict, janelas: dict | None = None) -> str:
     L = ["### Destaques do dia", ""]
+    janelas = janelas or {}
     for chave, rot in (("altas", "Altas"), ("baixas", "Baixas")):
         itens = movers.get(chave) or []
         if itens:
-            L.append(f"**{rot}** " + " · ".join(f"{_esc(i)} {fmt.pct(v)}" for i, v in itens))
+            def um(i, v):
+                ctx = atribuicao.contexto_curto(janelas.get(i) or {})
+                return f"{_esc(i)} {fmt.pct(v)}" + (f" ({_esc(ctx)})" if ctx else "")
+            L.append(f"**{rot}** " + " · ".join(um(i, v) for i, v in itens))
     return "\n".join(L) if len(L) > 2 else ""
 
 
-def _tabela_taxas(titulo: str, quando: str, linhas: list[tuple], rodape: str = "") -> str:
+def _card_setores(ins: dict) -> str:
+    """O setor todo andou ou so o papel? Mediana do dia por cesta, placar e quem destoou."""
+    setores = ins.get("setores") or []
+    if not setores:
+        return ""
+    L = ["### Setores do dia", "", "| Setor | mediana | subiram/caíram | quem destoou |", "|---|---:|---:|---|"]
+    for c in setores:
+        nome = c["titulo"] + (f" · {c['fator']}" if c.get("fator") else "")
+        d = c["destoou"]
+        quem = f"{_esc(d['id'])} {fmt.pct(d['dia'])}" if d else "ninguém (todos a menos de 1 p.p.)"
+        L.append(f"| {_esc(nome)} | {fmt.pct(c['mediana'])} | {c['subiram']}/{c['cairam']} | {quem} |")
+    return "\n".join(L)
+
+
+def _card_por_que(ins: dict) -> str:
+    """Por que mexeu: as camadas que o dado sustenta, sem somar efeitos e sem inventar causa."""
+    itens = ins.get("por_que_mexeu") or []
+    if not itens:
+        return ""
+    L = ["### Por que mexeu", "", "| Ativo | dia | explicação | grau |", "|---|---:|---|---|"]
+    for x in itens:
+        L.append(f"| **{_esc(x['id'])}** | {fmt.pct(x['dia'])} | {_esc(x['explicacao'])} | {_esc(x['grau'])} |")
+    L += ["", "*Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato "
+              "relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*"]
+    return "\n".join(L)
+
+
+def _linha_brent_reais(ins: dict) -> str:
+    b = ins.get("brent_reais") or {}
+    if not b:
+        return ""
+    if b.get("a_confirmar"):
+        return f"**Brent em reais:** a confirmar ({_esc(b['a_confirmar'])} sem fechamento confirmado)."
+    partes = [f"R$ {fmt.num(b['valor'], 2)} por barril ({fmt.data_br(b['data'])})"]
+    for k, rot in (("dia", "dia"), ("1m", "1 mês"), ("ytd", "no ano")):
+        if b.get(k) is not None:
+            partes.append(f"{rot} {fmt.pct(b[k])}")
+    return "**Brent em reais:** " + " · ".join(partes) + " (Brent do 1º vencimento × dólar)."
+
+
+def _tabela_taxas(titulo: str, quando: str, linhas: list[tuple], rodape: str = "", col_delta: str = "Δ dia") -> str:
     if not linhas:
         return ""
-    cab = f"| {_esc(titulo)}{' · ' + _esc(quando) if quando else ''} | taxa | Δ dia |"
+    cab = f"| {_esc(titulo)}{' · ' + _esc(quando) if quando else ''} | taxa | {_esc(col_delta)} |"
     out = [cab, "|---|---:|---:|"]
     out += [f"| {_esc(r)} | {_esc(t)} | {_esc(d)} |" for r, t, d in linhas]
     if rodape:
@@ -168,7 +217,11 @@ def _card_curvas(ins: dict) -> str:
             if foc.get("mediana"):
                 rod += f" · Focus IPCA {foc.get('ano')} {fmt.taxa(foc['mediana'])}%"
         base = f"base {fmt.data_br(ins.get('tesouro_base'))}" if ins.get("tesouro_base") else ""
-        partes.append(_tabela_taxas("Tesouro Direto", base, linhas, rod))
+        ant = ins.get("tesouro_base_anterior")
+        # Tesouro nao tem "dia": a variacao e entre duas datas-base (em 23/09 o card
+        # dizia "Δ dia" sobre 17->18/09, cinco dias antes)
+        col = (f"Δ {fmt.data_br(ant)}→{fmt.data_br(ins.get('tesouro_base'))}" if ant and ins.get("tesouro_base") else "Δ")
+        partes.append(_tabela_taxas("Tesouro Direto", base, linhas, rod, col_delta=col))
     ust = ins.get("ust") or {}
     if ust.get("10y") is not None:
         d = ust.get("deltas") or {}
@@ -183,7 +236,7 @@ def _card_curvas(ins: dict) -> str:
         itens = []
         if reg.get("vix") is not None:
             itens.append(f"VIX {fmt.num(reg['vix'], 1)} ({fmt.pct(reg.get('vix_var'))})")
-        itens.append(f"score de risco {reg.get('score', 0)}/6")
+        itens.append(f"score de risco {reg.get('score', 0)} de {reg.get('avaliados', 6)}")
         if reg.get("regime_vol"):
             itens.append("**regime de vol LIGADO**")
         partes.append("**Regime** " + " · ".join(itens))
@@ -269,8 +322,14 @@ def cards_md(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, 
     rotulo = "Manhã do livro" if slot == "manha" else "Fechamento do livro"
     cab = (f"## {rotulo} · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora_txt} BRT"
            + (" · PARCIAL" if parcial else ""))
-    blocos = [_card_bloco(universo, b, janelas, series_info) for b in universo.blocos]
-    partes = [cab, MARCADOR_LEITURA, _card_alertas(do_dia), _card_destaques(movers),
+    blocos = []
+    for b in universo.blocos:
+        txt = _card_bloco(universo, b, janelas, series_info)
+        if txt and b["id"] == "macro" and _linha_brent_reais(ins):
+            txt += "\n\n" + _linha_brent_reais(ins)
+        blocos.append(txt)
+    partes = [cab, MARCADOR_LEITURA, _card_alertas(do_dia), _card_destaques(movers, janelas),
+              _card_por_que(ins), _card_setores(ins),
               *blocos, _card_commodities(em_dolar), _card_curvas(ins),
               _card_noticias(do_dia), _card_agenda(agenda_l),
               _rodape(universo, relogios_txt, lacunas, notas, fontes)]

@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
-from livro import relogios
+from livro import atribuicao, relogios
 from livro.sinais.base import Alerta, Contexto, Estado, Regra
 
 MAX_MANCHETE = 150
@@ -126,15 +126,30 @@ class E03CVM(Regra):
                 corpo += _resumo(resumo_fiel("", d["texto"], MAX_RESUMO), "Do documento")
             if d.get("link"):
                 corpo.append(f"Link: {d['link']}")
+            titulo = f"{ctx.rotulo(ativo)} · {cat}: {assunto}"
+            por_que = POR_QUE_CVM.get(cat, "documento da companhia na CVM")
+            como = f"a {_nome_curto(ctx, ativo, d.get('empresa'))} publicou {cat.lower()} sobre {_corta(assunto, 70)}"
+            # aviso de participacao relevante (BlackRock na DIRR3 em 23/09): nao e fato
+            # relevante e nao costuma explicar o preco do dia; dizer quem, quanto e quando
+            part = atribuicao.participacao(d)
+            if part:
+                resumo_p = atribuicao.texto_participacao(part)
+                titulo = f"{ctx.rotulo(ativo)} · Participação relevante: {resumo_p}"
+                quando = f" até {_data_br(part['data_cruzamento'])}" if part.get("data_cruzamento") else ""
+                por_que = ("quem cruza 5% de uma companhia tem de avisar (Resolução CVM 44, art. 12); "
+                           + ("o objetivo declarado é só investimento e não muda controle; " if part.get("objetivo_investimento") else "")
+                           + f"o fluxo de compra ou venda já aconteceu{quando}, não no dia do aviso")
+                como = (f"{resumo_p} na {_nome_curto(ctx, ativo, d.get('empresa'))}; é aviso de participação, "
+                        "não fato relevante")
             saida.append(Alerta(
-                regra=self.id, ativo=ativo, severidade=d.get("severidade", "info"), familia="evento",
-                titulo=f"{ctx.rotulo(ativo)} · {cat}: {assunto}", tag=str(d.get("protocolo") or "x"),
-                data=d.get("data", ""), corpo=corpo, por_que=POR_QUE_CVM.get(cat, "documento da companhia na CVM"),
-                como_falar=f"a {_nome_curto(ctx, ativo, d.get('empresa'))} publicou {cat.lower()} sobre {_corta(assunto, 70)}",
+                regra=self.id, ativo=ativo, severidade=("info" if part else d.get("severidade", "info")), familia="evento",
+                titulo=titulo, tag=str(d.get("protocolo") or "x"),
+                data=d.get("data", ""), corpo=corpo, por_que=por_que,
+                como_falar=como,
                 fonte=f"CVM {_data_br(d.get('data', ''))}", ativos_afetados=ativo,
                 dados={"id_item": d.get("id"), "url": d.get("link"), "licenca": "integral", "veiculo": "CVM",
                        "texto_disponivel": bool(d.get("texto")), "categoria": cat, "manchete": f"{cat}: {assunto}", "ativos": [ativo],
-                       "atualizado": bool(d.get("atualizado"))},
+                       "atualizado": bool(d.get("atualizado")), **({"participacao": part} if part else {})},
             ))
         return saida
 

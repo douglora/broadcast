@@ -79,6 +79,7 @@ class Universo:
             self.ativos.append(at)
         self.benchmarks: list[Benchmark] = [Benchmark(**b) for b in cfg.get("benchmarks", [])]
         self.pares: list[dict] = cfg.get("pares", [])
+        self.cestas: list[dict] = cfg.get("cestas", [])
         self.curvas: dict = cfg.get("curvas", {})
         self.proxies: dict = cfg.get("proxies", {})
         self.sugestoes: list[dict] = cfg.get("sugestoes_ucits", [])
