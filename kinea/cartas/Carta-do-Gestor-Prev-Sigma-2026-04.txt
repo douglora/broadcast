@@ -1,0 +1,1172 @@
+[p. 1] Abril de 2026 | Carta do Gestor
+CARTA
+DO GESTOR
+Abril 2026
+Acesse kinea.com.br
+1
+O ENIGMA DE ORMUZ: AMEAÇA OU OPORTUNIDADE?
+
+[p. 2] Abril de 2026 | Carta do Gestor
+O filme A Chegada, dirigido por Denis Villeneuve, conta a história da linguista 
+Louise Banks, convocada para decifrar a linguagem de alienígenas que chegam à Terra 
+em naves misteriosas. 
+— Louise Banks, em A Chegada
+“Se você aprender a língua deles,
+você começa a pensar como eles.”
+2
+Fonte: Gerado por I.A.
+Diante do desconhecido, o mundo reage com medo. As potências se armam, 
+suspeitam umas das outras e passam a interpretar cada sinal como ameaça. A tarefa 
+de Louise não é apenas traduzir palavras, mas construir entendimento suficiente para 
+impedir que a falta de comunicação produza guerra.
+A analogia com o momento atual no Oriente Médio nos parece direta. O Irã 
+representa, para o Ocidente, o papel do ator difícil de decifrar: um país cuja linguagem 
+política, histórica e estratégica muitas vezes é lida pela ótica da ameaça. 
+REDE DE INFLUÊNCIA DO IRÃ NO ORIENTE MÉDIO
+Fonte: Kinea AI, Kinea
+
+[p. 3] Abril de 2026 | Carta do Gestor
+3
+Ambas as partes respondem com desconfiança, memória de conflitos passados 
+e receio de intenções ocultas. Forma-se, assim, um ciclo conhecido: cada movimento 
+defensivo de um lado é percebido como ofensivo pelo outro.
+Fonte: OFAC / US Treasury, Centcom, AIEA
+ESTOQUE DE URÂNIO DO IRÃ POR NÍVEL DE ENRIQUECIMENTO | kg
+Esse medo não surge no vazio. O Irã carrega décadas de sanções, intervenções 
+externas e disputas regionais. Para Teerã, seu programa nuclear e sua rede de 
+influência regional funcionam como instrumentos de dissuasão. 
+SANÇÕES ECONÔMICAS ATUAIS AO IRÃ
+Fonte: AIEA, ISIS.
+
+[p. 4] Abril de 2026 | Carta do Gestor
+4
+Para o Ocidente, esses mesmos instrumentos são fontes permanentes de 
+instabilidade. O processo de negociação em curso é, portanto, um esforço de 
+tradução: transformar desconfiança em compromisso verificável, ruído em 
+monitoramento e medo em cooperação.
+Nesta carta, discutimos onde ativos de risco, sendo o petróleo o principal deles, 
+devem se estabilizar em diferentes cenários, o que isso implica para juros globais, e 
+como, em paralelo, a inteligência artificial vai consolidando uma nova escassez: a de 
+capacidade computacional.
+AÇÕES: TOKENS SÃO O NOVO PETRÓLEO DIGITAL
+Abril reforçou uma tese que já vinha ganhando força: o principal gargalo da 
+inteligência artificial deixou de estar no desenvolvimento dos modelos e passou a 
+estar na infraestrutura que a sustenta. 
+O episódio envolvendo a Anthropic foi emblemático. A companhia enfrentou 
+limitações reais de capacidade após a alta de utilização de seus modelos, 
+evidenciando que a restrição de oferta já afeta até os playersmais avançados.
+PAUTA DA NEGOCIAÇÃO ENTRE EUA E IRÃ
+Fonte: Kinea AI, Kinea Research
+
+[p. 5] Abril de 2026 | Carta do Gestor
+5
+LIMITAÇÕES DE CAPACIDADE ENFRENTADAS PELA ANTHROPIC
+Fonte: Anthropic blog (25/Abr) · Postmortem Anthropic (20/Abr) · CNBC · Business Insider · BBC · Broadcom SEC filing
+DEZ 2025
+CEO critica
+Investimento excessivo
+Dario Amodei diz que rivais 
+assumem risco excessivo em 
+infraestrutura.
+FEV 2026
+Bloqueio Trump
+→ nº1 App Store
+Onda massiva de 
+usuários após confronto 
+com governo americano.
+4 MAR 2026
+Esforço reduzido
+para médio
+Redução silenciosa do 
+nível de raciocínio do 
+Claude Code
+MAR 2026
+Quedas e limitação de 
+uso
+Múltiplas quedas de serviço. 
+Limites mais rígidos em 
+horários de pico.
+26 MAR 2026
+Bug descarta
+raciocínio
+Falha faz modelo descartar 
+histórico durante sessão. 
+Claude 'esquece'.
+16 ABR 2026
+Limite de 25
+palavras
+Instrução interna limita 
+respostas entre chamadas de 
+ferramenta.
+22 ABR 2026
+Code fora
+do plano Pro
+Remoção do Claude Code 
+para assinantes $20/mês.
+25 ABR 2026
+Acordo Google
+3,5 GW TPUs
+Capacidade só em 
+2027. Escassez 
+projetada até ~2029.
+Esse episódio validou, em retrospecto, a estratégia agressiva da OpenAI de 
+garantir capacidade cedo e em escala. Mais do que uma disputa entre modelos, o 
+mercado voltou a enxergar a inteligência artificial como uma corrida por ativos físicos 
+escassos: energia, data centers, semicondutores, memória e equipamentos. Não por 
+acaso, esse aperto recolocou em evidência o chamado infra trade, evidenciado pelo 
+forte desempenho de semicondutores no período.
+DESEMPENHO DE SEMICONDUTORES* VERSUS S&P 500 | %
+Fonte: FactSet *VanEck semiconductors (SMH)
+jan/26 fev/26 mar/26 abr/26 mai/26
+0%
+10%
+20%
+30%
+40%
+50%
+SMH
+S&P 500
+O acordo entre Bloom Energy e Oracle ajuda a sintetizar esse momento. Ele 
+mostra que a pressão por computação já não é uma abstração tecnológica; ela está se 
+convertendo em contratos físicos de energia em escala de gigawatts.
+
+[p. 6] Abril de 2026 | Carta do Gestor
+6
+CRESCIMENTO DE CONTRATOS DE ENERGIA DEDICADOS A DATA 
+CENTERS | GW
+Fonte: Kinea
+1,9
+0,4 0,8 1,0
+2,5 2,6
+6,6 7,0
+2,5 2,8
+Amazon 
+AWS
+mar/24
+Meta
+abr/25
+Microsoft
+set/25
+Google
+out/25
+Meta
+dez/25
+Meta
+jan/26
+Meta
+jan/26
+Meta
+mar/26
+Microsoft
+abr/26
+Oracle
+abr/26
+Ao mesmo tempo, a difusão da IA começa a produzir efeitos mais tangíveis no 
+mercado de trabalho. Parte importante do setor de tecnologia tradicional vem 
+cortando custos e redirecionando recursos para capexintensivo em IA, enquanto 
+empresas nativas dessa nova onda seguem expandindo. O ponto central é que 
+estamos vendo, cada vez mais claramente, uma substituição de gasto com pessoas 
+por gasto com máquinas.
+EMPRESA EVENTO CORTE % QUADRO
+CAPEX IA 
+2026
+Microsoft
+Primeiro programa de aposentadoria voluntária em 51 anos: ~8.750 
+elegíveis (7% do quadro nos EUA, regra "idade + anos de casa >= 70"). 
+Capexem IA estimado em US$160 bi no ano fiscal 2026.
+~8.750 7% US$160 bi
+Meta
+Demissão de ~8.000 funcionários (10% do quadro) a partir de 20/mai. 
+Indenização: 16 semanas + 2/ano de casa + 18 meses de plano de 
+saúde. Capexem IA 2026: US$115-135 bi.
+~8.000 10% US$125 bi
+Oracle
+20-30 mil demissões (~18% do quadro global) via e-mail às 6h do dia 
+31/mar, sem aviso. Cortes liberam US$8-10 bi para bancar US$50 bi 
+em capexde I.A.
+20-30 mil ~18% US$50 bi
+Fonte: Business Insider, Barron’s,, Forbes
+A implicação para os mercados nos parece direta. A liderança entre modelos 
+pode ser questionada, mas a escassez de infraestrutura é objetiva. Em um ambiente 
+em que capacidade computacional se torna um ativo físico raro, os vencedores mais 
+consistentes tendem a estar na base da cadeia, capturando valor independentemente 
+de quem lidere a fronteira tecnológica.
+REDUÇÕES RECENTES DE QUADRO DE FUNCIONÁRIOS DAS BIG TECHS
+
+[p. 7] Abril de 2026 | Carta do Gestor
+7
+TABELA DE POSICIONAMENTO EM AÇÕES
+Mercados Desenvolvidos Mercados Emergentes
+Semis Yield
+Megacaps Dolarizadas DomésticasUrânio Industrial
+ Construtoras
+U-U CN
+Se nas ações o tema central foi a escassez de capacidade computacional, nas 
+commodities o eixo continua sendo a escassez de ativos físicos. Abril trouxe avanços 
+importantes na direção de uma distensão no Oriente Médio, mas a normalização do 
+fluxo ainda não ocorreu, e a fragilidade da trégua mantém o mercado em estado de 
+alerta.
+COMMODITIES: O RETORNO DO VALOR DA ESCASSEZ
+FLUXO DIÁRIO DE PETRÓLEO NO ESTREITO DE ORMUZ | MPBD
+Fonte: KPLR
+0
+5
+10
+15
+20
+25
+30
+fev/26 mar/26 abr/26
+Arábia Saudita
+Irã
+Iraque
+Emirados Árabes Unidos
+Kuwait
+Catar
+Outros
+
+[p. 8] Abril de 2026 | Carta do Gestor
+8
+O petróleo segue sendo a variável central para o equilíbrio macro global. Ele 
+responde por cerca de um terço da energia consumida no planeta e é insumo direto 
+para transporte, indústria e cadeias logísticas. Por isso, a normalização do fluxo por 
+Ormuz é fundamental não apenas para expectativas inflacionárias, mas para o 
+funcionamento da própria economia global.
+GERAÇÃO GLOBAL DE ENERGIA PRIMÁRIA POR FONTE | %
+42% 48% 40% 39% 37% 33% 29%
+15%
+17%
+19% 21% 21% 22% 22%
+37% 27% 28% 26% 28% 28%
+24%
+0% 6%
+6% 7% 7% 6% 6%
+0% 7% 16%
+0%6%
+1965
+2%
+1975
+1%
+5%
+1985
+1%
+1995
+2%
+6%
+2005
+4%
+2015
+6%4%
+2024
+Petróleo
+Gás
+Carvão
+Nuclear
+Hidro
+Renováveis
+Quanto mais tempo persistirmos com um déficit próximo de 9 milhões de barris 
+por dia, mais o choque deixa de ser apenas de preço e passa a ser de quantidade. 
+Nesse cenário, a restrição começa a atingir diretamente a atividade, sobretudo na Ásia 
+e na Europa, regiões mais dependentes de importações e mais expostas a essa rota. 
+Estados Unidos e Brasil, por outro lado, tendem a mostrar resiliência relativa maior.
+PETRÓLEO IMPORTADO DE ORMUZ POR PAÍS/REGIÃO | MPBD
+Fonte: Kinea, AI, KPLER
+Américas África Europa Índia China Ásia (ex 
+China e Índia)
+0,6 0,7 1,1
+2,5
+4,8
+7,5
+Fonte: BP, Energy institute, our world in data
+
+[p. 9] Abril de 2026 | Carta do Gestor
+9
+Como discutimos em nosso Kinea Insights inspirado em Duna, mesmo após uma 
+eventual reabertura do estreito, o processo de normalização não é imediato. Há 
+defasagens operacionais importantes: religamento de poços, recomposição de 
+estoques, reorganização logística e reprecificação ao longo da cadeia. Esse intervalo 
+pode durar semanas e é suficiente para amplificar efeitos sobre a atividade real.
+MESES PARA A NORMALIZAÇÃO DA PRODUÇÃO APÓS 
+INTERRUPÇÕES RELEVANTES DE OFERTA | % DA PRODUÇÃO
+Fonte: Kinea AI, EIA
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+140%
+160%
+0 3 6 9 12 15 18
+Oriente Médio: COVID-19
+Arábia Saudita: Ataque de Abqaiq
+Cazaquistão: Apagões de Energia e Paralisações Portuárias
+Líbia: Guerra Civil
+Irã: Acordo Nuclear
+Sendo assim, os contratos mais curtos têm sido pressionados pela baixa 
+disponibilidade do ativo físico, cujos estoques caminham rapidamente para os 
+menores níveis da história recente. Esse cenário cria uma convexidade para a 
+distribuição de preços: conforme o fechamento do estreito se estende, aumenta-se o 
+risco de faltar petróleo e, consequentemente, o preço do ativo subir de forma não 
+linear.
+ESTOQUES GLOBAIS OBSERVÁVEIS DE PETRÓLEO BRUTO E 
+REFINADOS | MILHÕES DE BARRIS (TOTAL LIQUIDS)
+Fonte: Morgan Stanley, Kinea
+7.600
+7.800
+8.000
+8.200
+8.400
+8.600
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez
+2026
+2025
+2024
+2023
+2022
+
+[p. 10] Abril de 2026 | Carta do Gestor
+10
+No médio prazo, pelo novo equilíbrio estrutural, estimamos que o preço do barril 
+de petróleo deva convergir para cerca de US$ 70 por barril, US$ 15 dólares acima do 
+que estimávamos no pré-guerra, onde a necessidade de estoques estratégicos e 
+prêmio de risco não eram tão latentes. Isso mesmo considerando um provável 
+aumento de oferta OPEP, acentuado pela saída dos Emirados Árabes do grupo. Ou 
+seja, o curto prazo continua sendo ditado pelo mercado físico; o longo prazo, pelo 
+equilíbrio estrutural.
+Além do choque imediato no petróleo, existem importantes efeitos de segunda 
+ordem. Em alumínio, por exemplo, parte da capacidade produtiva relevante foi 
+fisicamente afetada, e sua recuperação não será rápida. 
+PREÇO DO ALUMÍNIO NA LME | US$/T
+Fonte: Bloomberg, LME
+BALANÇA DE ALUMÍNIO ESTIMADA 
+PRÉ-GUERRA E PÓS-GUERRA | KT
+2200
+2400
+2600
+2800
+3000
+3200
+3400
+3600
+3800
+abr/25 jul/25 out/25 jan/26 abr/26
++16%
+-1.200
+-1.000
+-800
+-600
+-400
+-200
+0
+200
+400
+600
+jun/25 dez/25 jun/26 dez/26
+jan/26
+abr/26
+Fonte: CRU, Kinea
+Trata-se de perda de oferta real, não de mera volatilidade de preço. O mesmo 
+vale para fertilizantes: a ruptura do fluxo em uma janela sensível do calendário 
+agrícola pode afetar decisões de aplicação e, por consequência, produtividade futura.
+Início da 
+Guerra
+PREÇO DA UREIA (MESES DE PLANTIO EM DESTAQUE)
+Fonte: Bloomberg
+0
+500
+1000
+jan fev mar abr mai jun jul ago set out nov dez
+Min-Max (2010-2025)
+Média (2010-2025) 2025
+2026
+
+[p. 11] Abril de 2026 | Carta do Gestor
+11
+A mensagem central é simples: cessar-fogo ajuda a destravar logística, mas não 
+recompõe ativos destruídos. O choque, portanto, se propaga no tempo.
+É justamente por isso que o mundo volta a precificar o valor da escassez. 
+Petróleo, alumínio, fertilizantes, ouro e até capacidade computacional compartilham 
+hoje uma característica comum: oferta restrita por motivos distintos, mas 
+simultâneos. Depois de décadas marcadas por eficiência, globalização e abundância, 
+ativos físicos voltam ao centro da formação de preços globais.
+Fonte: Bloomberg, Trading Economics, World Banking. 
+Gerado por I.A.
+O choque recente em petróleo e insumos industriais interrompe, ao menos 
+temporariamente, uma das principais avenidas de desinflação nos Estados Unidos. 
+Depois de um longo período em que o mercado começava a se sentir mais confortável 
+com a convergência da inflação no 2º semestre, uma vez aliviado o impacto das 
+tarifas, a alta das commodities recoloca incerteza justamente sobre esse processo.
+ESTADOS UNIDOS: MENOS LINEARIDADE PARA OS JUROS
+
+[p. 12] Abril de 2026 | Carta do Gestor
+0
+1
+2
+3
+4
+1T26 2T26 3T26 4T26
+Pré Pós-Guerra
+12
+TRAJETÓRIA DE INFLAÇÃO DOS EUA PRÉ/PÓS GUERRA | VARIAÇÃO 
+TRIMESTRAL ANUALIZADA DO CPI
+Fonte: Bloomberg
+No mercado de trabalho, a volatilidade elevada dos dados mensais de emprego 
+chama a atenção. Embora seja difícil confiar a valor de face, o conjunto das métricas 
+mostra estabilização do mercado de trabalho, ainda que em níveis baixos. 
+EMPREGO PRIVADO NOS EUA | MÉDIA MÓVEL DE 3 MESES DA VARIAÇÃO 
+MENSAL EM MILHARES
+-50
+0
+50
+100
+150
+200
+jun-24 ago-24 out-24 dez-24 fev-25 abr-25 jun-25 ago-25 out-25 dez-25 fev-26 abr-26
+ADP Payroll Privado
+Fonte: Bloomberg
+Apesar da estabilização incipiente, estudos do próprio Fed apontam para uma 
+revisão do emprego de equilíbrio (breakeven) para baixo. Nesse sentido, cria-se uma 
+curiosa assimetria onde o emprego pode crescer pouco e mesmo assim gerar queda 
+no desemprego, dada a imigração muito fraca.
+
+[p. 13] Abril de 2026 | Carta do Gestor
+13
+BREAKEVEN* DO PAYROLL DOS EUA | VARIAÇÃO MENSAL EM MILHARES
+Fonte: FED
+* Variação mensal de contratação líquida tal que mantém a taxa de desemprego constante.
+-200
+0
+200
+400
+60 65 70 75 80 85 90 95 00 05 10 15 20 25
+Breakeven - variação do emprego Intervalo de Confiança
+Esse debate ganha relevância adicional diante da transição de liderança no Fed
+nos próximos trimestres. Se o emprego perder tração e os ganhos de produtividade 
+permanecerem elevados, a discussão sobre cortes voltará com força, especialmente 
+dado o viés prévio expressado publicamente pelo futuro governorKevin Warsh¹. 
+Assim, o choque atual não elimina a possibilidade de afrouxamento monetário; 
+apenas torna seu timingmenos óbvio e muito mais dependente da resolução dos 
+choques exógenos.
+¹A aprovação de Warsh como novo presidente do Fed segue dependente do Senado. O processo está no 
+Comitê Bancário, em que o Senador Republicano Tom Tillis expressa oposição à aprovação enquanto estiver 
+em curso o processo do Departamento de Justiça contra Jerome Powell. O mandato de Powell como 
+presidente, por sua vez, acaba em maio. Mas, enquanto não houver aprovação do substituto, pode ser que ele 
+continue à frente do Fed. Também é incerta sua saída do comitê, ainda que fora da função de presidente, uma 
+vez que seu mandato vai até 2028.
+CURVA DE JUROS DOS EUA ANTES E DEPOIS DO CHOQUE DE 
+COMMODITIES | %
+Fonte: Bloomberg
+2,8
+3
+3,2
+3,4
+3,6
+3,8
+abr/26 jun/26 ago/26 out/26 dez/26 fev/27 abr/27 jun/27
+26/02/2026 27/04/2026
+
+[p. 14] Abril de 2026 | Carta do Gestor
+14
+Fora dos EUA, conseguimos ver mais claramente oportunidades em juros. 
+Seguimos vendo valor em posições aplicadas em economias como a Suécia, onde a 
+inflação parte de nível muito abaixo da meta – com espaço para absorção do choque 
+de energia. Além disso, a recuperação que se desenhava, partindo de uma economia 
+ainda muito abaixo do seu potencial, já dá sinais de perda de tração. 
+INFLAÇÃO ABAIXO DA META | 
+INFLAÇÃO E NÚCLEO A/A
+Fonte: Reuters
+ENFRAQUECIMENTO DA ATIVIDADE | 
+HIATO DO PRODUTO TRIMESTRAL E RIKSBANK 
+(ESQ.) E PIB MENSAL (DIR.)
+Fonte: Riksbank e Elaboração Própria
+-5%
+0%
+5%
+10%
+15%
+jan-01
+jun-03
+nov-05
+abr-08
+set-10
+fev-13
+jul-15
+dez-17
+mai-20
+out-22
+mar-25
+CPIF Core meta
+95
+100
+-3
+-1
+1
+2016 2018 2020 2022 2024 2026
+Hiato do produto
+Hiato do produto - estimado via PIB mensal
+Projeção 
+Riksbank
+Interessante destacar como a Suécia tem sensibilidade elevada à reprecificação 
+das curvas de juros, com o perfil de crédito na economia – em especial hipotecas –
+muito flutuante. Sobre um consumidor muito alavancado, a recuperação do consumo 
+fica em risco, acentuando um baixo repasse do choque de energia para o núcleo da 
+inflação. Razões análogas justificam também nossas posições aplicadas na Nova 
+Zelândia.
+PERÍODO MÉDIO DE JUROS FIXOS | ANOS
+Fonte: Riksbank
+0
+5
+10
+15
+20
+25
+EUA Bélgica Alemanha Dinamarca Holanda Itália Grécia Reino
+Unido
+Suécia Espanha
+
+[p. 15] Abril de 2026 | Carta do Gestor
+15
+Em paralelo, permanecemos construtivos no yuan, em um contexto em que a 
+arquitetura dos petrodólares passa a ser gradualmente questionada e a 
+internacionalização da moeda chinesa ganha espaço.
+Sistema de Funcionamento de 
+Petrodólares
+“Autoridades dos Emirados disseram a 
+autoridades dos EUA que, se houver falta de 
+dólares nos Emirados Árabes Unidos, o país 
+será obrigado a usar yuan ou outras 
+moedas”
+Wall Street Journal
+PAGAMENTO EM YUAN EM TRANSAÇÕES INTERNACIONAIS | RMB 
+EM TRILHÕES (ESQ.) E MÉDIA MÓVEL  DE PARTICIPAÇÕES % (DIR.)
+Fonte: Riksbank
+0
+20
+40
+60
+80
+0
+2
+4
+6
+8
+10
+13 14 15 16 17 18 19 20 21 22 23 24 25 26
+RMB em trilhões Partipação de RMB %
+Fonte: Kinea
+Fonte: Wall Street Journal
+Fonte: Xinhua
+
+[p. 16] Abril de 2026 | Carta do Gestor
+16
+DIFERENCIAL DE JUROS 
+DO MÉXICO COM EUA | 
+DIFERENCIAL DE JUROS NOMINAL 
+MX/US
+Fonte: Reuters
+DIFERENCIAL DE JUROS DA 
+EUROPA COM EUA E EURO | 
+DIFERENCIAL DE JUROS REAL US/EU 
+2 ANOS (ESQ.) E EUR/USD (DIR.)
+Fonte: Reuters
+0%
+2%
+4%
+6%
+8%
+10%
+2005 2010 2015 2020 2025
+0,95
+1,05
+1,15
+1,25
+-3
+-1
+1
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+Dif. Juro Real US/EU 2 anos
+EUR/USD
+“A atual pressão inflacionária 
+provém principalmente do 
+componente não núcleo da inflação 
+e, portanto, não é influenciada 
+pela política monetáriado Banco 
+Central”
+Omar Mejía, Banxico
+COM JUROS ELEVADOS E MELHORIA NOS TERMOS DE TROCA, A 
+MOEDA É O DESTAQUE NO BRASIL
+No Brasil, o real continua sendo um dos principais destaques. Nossa moeda tem 
+tido bom desempenho tanto em relação ao dólar quanto em relação aos pares 
+emergentes.  
+Como exportador líquido de petróleo, o país é um dos emergentes que mais tem 
+se beneficiado com o choque positivo de termos de troca decorrentes do conflito no Irã.
+MOEDAS VS. USD | BASE 100 EM 02/FEV
+Fonte: Bloomberg
+BALANÇA COMERCIAL PETRÓLEO E 
+COMBUSTÍVEIS 2025 | % DO PIB
+Fonte: Kinea
+94
+96
+98
+100
+102
+104
+106
+108
+110
+02/fev 02/mar 02/abr
+BRL MXN CLP COP ZAR
+Início 
+Guerra
+-4,0% -3,9%
+-1,2%
+1,5%
+-6%
+-4%
+-2%
+0%
+2%
+África do
+Sul
+Chile México Brasil
+Na ponta vendida, temos o peso mexicano e moedas europeias (Euro e Libra). No 
+caso do peso, o diferencial de juros está historicamente baixo e o Banxico segue forçando 
+cortes no seu guidance, o que deve seguir reduzindo a atratividade do carrego dessa 
+moeda. No euro, o balanço entre curva precificada para o ECB e inflação implícita a partir 
+do choque de energia também parece implicar uma depreciação necessária adicional.
+Fonte: Presidencia de La República
+
+[p. 17] Abril de 2026 | Carta do Gestor
+17
+O Brasil se destaca também na perspectiva de aumento de produção de 
+petróleo bruto. Até 2028, seremos a maior contribuição marginal de aumento de 
+produção de petróleo fora da OPEP, com 762 mbp/d, quase 60% do aumento de 
+produção de países não-OPEP. 
+Fonte: Morgan Stanley, Energy Aspects, Kinea
+AUMENTO PRODUÇÃO PETRÓLEO DE 2025 A 2028 EM MBP/D, 
+NÃO OPEP
+Antes mesmo da Guerra, o Brasil já havia voltado ao foco de atenção dos 
+estrangeiros em um movimento de alocação global a ativos de risco e o choque de 
+petróleo intensificou esse interesse. 
+Adicionalmente, nosso diferencial de juros segue muito elevado, mesmo com o 
+início de redução da Selic pelo Copom. Esse fator contribui ainda mais para o apetite 
+global em relação à nossa moeda. 
+1.310
+548
+762
+454
+296
+221
+217
+151
+90
+88
+-16
+-16
+-21
+-27
+-35
+-36
+-39
+-44
+-140
+-156
+-216
+-223
+(400) (200) - 200 400 600 800 1.000 1.200 1.400
+TOTAL
+Total ex Brasil
+Brasil
+Guiana
+Canadá
+Argentina
+Catar
+EUA
+Uganda
+Suriname
+Egito
+Tailândia
+Índia
+Malásia
+Omã
+Indonésia
+Reino Unido
+Colômbia
+China
+Noruega
+Rússia
+México
+
+[p. 18] Abril de 2026 | Carta do Gestor
+18
+JUROS REAIS BRASIL VS. OUTRAS ECONOMIAS | TAXA BÁSICA –
+INFLAÇÃO AO CONSUMIDOR, EM % A/A
+Fonte: Bloomberg
+11
+2,2 2 1,3 1,3 0,9 1 0,8 0,3 0,3
+-0,6 -0,6-5
+0
+5
+10
+15
+Brasil México Chile Tailândia Indonésia Peru China Taiwan Coreia do
+Sul
+EUA UE Japão
+O Banco Central tem preservado a flexibilidade e mantido um discurso 
+cauteloso, evitando sinalizações excessivamente explícitas sobre os próximos passos 
+em meio à incerteza do contexto da guerra. Caso o Copom precise adotar uma postura 
+ainda mais cautelosa, esse diferencial tende a permanecer por mais tempo, 
+reforçando o canal de carrego como suporte adicional.
+Por outro lado, a inflação corrente trouxe novamente surpresas altistas, as 
+maiores em três anos. 
+SURPRESA – DELTA IPCA REALIZADO VS. EXPECTATIVA FOCUS | 
+EM BPS (15 DIAS ANTES DA DIVULGAÇÃO)
+Fonte: Bacen, IBGE e Kinea
+-40
+-20
+0
+20
+40
+60
+80
+jan/14
+ago/14
+mar/15
+out/15
+mai/16
+dez/16
+jul/17
+fev/18
+set/18
+abr/19
+nov/19
+jun/20
+jan/21
+ago/21
+mar/22
+out/22
+mai/23
+dez/23
+jul/24
+fev/25
+set/25
+Surpresa ±2std
+
+[p. 19] Abril de 2026 | Carta do Gestor
+19
+Boa parte da surpresa se concentrou em passagens aéreas, representando 40 
+bps dos 70 bps, sem relação com a Guerra. Vale lembrar que o IBGE coleta esses 
+preços com dois meses de antecedência, ou seja, a leitura de março reflete preços 
+capturados em janeiro. As coletas privadas, que historicamente têm boa correlação 
+com o IPCA, descolaram nesse período, mas acreditamos que o movimento é pontual. 
+PASSAGEM AÉREA IPCA | EM % A/M
+Fonte: IBGE, Fontes diversas
+A outra parte da surpresa decorre já de efeitos da guerra. Mesmo sem reajuste 
+da Petrobras, o preço da gasolina ao consumidor tem subido mais do que o preço do 
+importado sugeriria, levando, assim, as margens da distribuição às máximas recentes. 
+GASOLINA: MARGEM E 
+DISTRIBUIÇÃO/PREÇO FINAL | EM %
+Fonte: ANP, Bloomberg e Kinea
+CONTRIBUIÇÃO DOS CUSTOS DE 
+GASOLINA
+Fonte: ANP, Bloomberg e Kinea
+5%
+7%
+9%
+11%
+13%
+15%
+17%
+19%
+21%
+23%
+25%
+jan/21
+jul/21
+jan/22
+jul/22
+jan/23
+jul/23
+jan/24
+jul/24
+jan/25
+jul/25
+jan/26
+R$ 1,45 R$ 1,45 
+R$ 0,43 R$ 0,56 
+R$ 0,62 R$ 0,62 
+R$ 1,01 R$ 0,89 
+R$ 1,57 R$ 1,57 
+R$ 1,15 R$ 1,58 
+R$ 6,30 R$ 6,75 
+ R$ -
+ R$ 1,00
+ R$ 2,00
+ R$ 3,00
+ R$ 4,00
+ R$ 5,00
+ R$ 6,00
+ R$ 7,00
+Pré guerra 12/04 - 18/04
+Gasolina Petro Gasolina Internacional
+Imposto federal gasolina Anidro
+Imposto anidro ICMS
+Margem e distribuição Preço ANP
+-30
+-10
+10
+30 IPCA Coleta
+
+[p. 20] Abril de 2026 | Carta do Gestor
+20
+O choque de petróleo sem dúvida trouxe pressões adicionais para a inflação, e 
+voltaremos a ver pressões em itens com impacto direto, como combustível e 
+alimentos. Em função disso, revisamos nosso IPCA do ano de 4,0% para 4,56%. 
+Por outro lado, a boa performance do BRL e seus efeitos na inflação não devem
+ser ignorados. Um BRL no patamar pré-guerra implicaria um IPCA mais próximo de 
+4,9% do que dos 4,56% que trabalhamos.  
+Desde o início da guerra, a moeda já apreciou 6,5% e, com isso, traz viés baixista 
+relevante, principalmente para bens industriais. Dado o ambiente ainda muito incerto, 
+acreditamos que o mercado não incorporou o BRL de 5,0 em suas projeções de 
+inflação. O Focus, por exemplo, tem R$ 5,25 para dezembro. Caso o real permaneça 
+constante em R$ 5,0 até dezembro, poderíamos ter um IPCA cerca de 27 bps menor 
+do que aquele sugerido no Focus nesse ano. 
+EVOLUÇÃO PREÇO COMMODITIES 
+EM REAIS | 19/FEV = 100
+Fonte: Bloomberg
+EVOLUÇÃO IPCA  | 
+% A.A.
+Fonte: IBGE e Kinea
+100
+120
+140
+160
+180
+100
+102
+104
+106
+108
+110
+112
+fev/26
+mar/26
+mar/26
+mar/26
+mar/26
+abr/26
+abr/26
+abr/26
+abr/26
+CRB Raw industrial CRB Food Brent
+O principal risco para esse cenário é um agravamento dos conflitos no Oriente 
+Médio. Caso as tensões se intensifiquem e o Brent supere USD 150 por barril, o 
+ambiente de apetite a risco que tem sustentado a valorização do BRL dificilmente se 
+manteria. Movimentos de aversão a risco tendem a penalizar de forma mais intensa 
+moedas de high beta, categoria na qual o BRL se enquadra.
+Temos posição comprada no BRL em nosso portfólio contra moedas europeias, 
+e, como proteção para essa posição, estamos vendidos no peso mexicano. 
+No mercado de Bolsa, o fluxo de estrangeiros vem surpreendendo 
+positivamente. Até abril desse ano, já haviam entrado R$ 63 bilhões, mais do que o 
+dobro do observado no ano passado inteiro. 
+2,8
+3,3
+3,8
+4,3
+4,8
+5,3
+fev/26
+mar/26
+abr/26
+mai/26
+jun/26
+jul/26
+ago/26
+set/26
+out/26
+nov/26
+dez/26
+Projeção pré guerra
+Projeção Kinea (BRL = 5.0)
+Projeção Kinea (BRL = 5.25)
+
+[p. 21] Abril de 2026 | Carta do Gestor
+21
+FLUXO ESTRANGEIRO ACUMULADO NA BOLSA | BILHÕES DE BRL
+Fonte: B3
+mai/25 jul/25 set/25 nov/25 jan/26 mar/26
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Média de +100 
+milhões BRL por dia
+Média de +900 
+milhões BRL por dia
+Como exportador líquido de petróleo e grande produtor de alimentos e minerais, 
+o país captura parte importante da melhora dos termos de troca. Isso tem sustentado 
+o fluxo externo, reforça a moeda e melhora o pano de fundo para a bolsa doméstica.
+DESEMPENHO DESDE O INÍCIO DO ANO | NÍVEL, BASE 100 = 01/01/2026
+Fonte: Bloomberg. *: PETR4, VALE3, GGBR4, PRIO3, BRAV3, RECV3, SLCE3, SMTO3, SUZB3, KLBN11 e USIM5
+8
+9
+10
+11
+12
+13
+14
+95
+100
+105
+110
+115
+120
+125
+26/abr01/mar04/jan 18/jan 15/fev 15/mar 29/mar01/fev 12/abr
+Termo de troca
+Ibovespa Commodities*
+No contexto atual, gostamos do setor de distribuição de combustíveis. Aliado ao 
+aumento de margem já citado, a operação Carbono Oculto intensificou o combate aos 
+irregulares, beneficiando as empresas listadas. O setor também se mostra resiliente à 
+guerra do Irã, com as maiores empresas ganhando participação de mercado via 
+capacidade logística de importação de derivados em detrimento das distribuidoras 
+independentes.
+O ciclo de corte de juros iniciado pelo Copom, ainda que mais tímido do que o 
+esperado pré-conflitos, também deve impulsionar os preços das ações locais, 
+principalmente em ativos com maior sensibilidade à variação de juros, como utilidades 
+públicas, que além disso, devem ter forte crescimento de lucro e dividendos e com 
+receitas indexadas à inflação.
+
+[p. 22] Abril de 2026 | Carta do Gestor
+22
+COMPOSIÇÃO DO RETORNO ANUALIZADO ESPERADO ENTRE 
+2026 – 28 
+Fonte: Kinea
+26.3%
+2.0%
+Equatorial
+21.0%
+7.2%
+Copel
+18.7%
+7.3%
+Axia
+17.5%
+6.7%
+Sabesp
+15.2%
+5.2%
+Motiva
+28,3% 28,2% 25,9% 24,2%
+20,4%
+Dividendo
+Crescimento de lucros
+A combinação de juros reais ainda elevados, carrego atrativo e um cenário 
+político ainda em aberto mantém uma assimetria favorável para ativos domésticos. 
+Esse equilíbrio, ainda que frágil e sujeito a mudanças, ajuda a sustentar a leitura 
+construtiva para ações brasileiras.
+CONCLUSÃO
+Em A Chegada, a grande revelação não está apenas na linguagem dos 
+alienígenas, mas na percepção de que entendimento muda a forma como se enxerga 
+o tempo, o risco e o outro. O que parecia ameaça pode revelar oportunidade. O que 
+parecia inevitável pode, de repente, deixar de ser.
+O momento atual carrega ecos dessa narrativa. A construção de um canal de 
+diálogo entre Irã e Ocidente não elimina riscos, mas reduz incertezas. E, em mercados, 
+essa diferença é decisiva.
+
+[p. 23] Abril de 2026 | Carta do Gestor
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de
+investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM. Os fundos de condomínio
+aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de informações complementares. Estes documentos podem ser
+consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou
+vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da
+regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam
+estratégias com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado,
+obrigando o cotista a aportar recursos adicionais para cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada
+não garante a rentabilidade futura e fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os
+Fundos de Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na obrigatoriedade do cotista
+aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são condomínios fechados em que as cotas não são
+resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de
+sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de
+erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de
+perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado
+como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das
+informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita,
+a integridade, confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu
+conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras
+informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+23
+Se a negociação avançar, o mundo poderá sair de um regime dominado pelo 
+prêmio geopolítico imediato para outro em que a discussão volta a girar em torno dos 
+fundamentos: o nível de equilíbrio do petróleo, o espaço para cortes de juros, a 
+reprecificação das commodities e a continuidade do ciclo de investimentos em 
+infraestrutura de inteligência artificial.
+Entretanto, devemos estar preparados para um cenário no qual as partes 
+continuem a divergir e a linguagem não convirja com relação aos dois principais 
+pontos de atrito: a abertura do estreito de Ormuz e a questão nuclear.
+Consideramos esse cenário como uma possibilidade real, embora de menor 
+probabilidade, e, para esse caso, commodities, na nossa visão, continuam sendo o 
+melhor hedgepara ativos de risco.
+Estamos sempre à disposição de nossos clientes e parceiros.
+Kinea Investimentos
+
+[p. 24] Abril de 2026 | Carta do Gestor
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de
+investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM. Os fundos de condomínio
+aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de informações complementares. Estes documentos podem ser
+consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou
+vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da
+regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam
+estratégias com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado,
+obrigando o cotista a aportar recursos adicionais para cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada
+não garante a rentabilidade futura e fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os
+Fundos de Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na obrigatoriedade do cotista
+aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são condomínios fechados em que as cotas não são
+resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de
+sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de
+erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de
+perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado
+como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das
+informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita,
+a integridade, confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu
+conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras
+informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+24
+image.png
+PALAVRA DO GESTOR SOBRE A PERFORMANCE DO MÊS
+COMMODITIES
+Resultado positivo. Mantivemos posições compradas,
+principalmente, como proteção para as posições em ações e
+juros, buscando proteger o portfólio contra cenários de maior
+pressão inflacionária, risco geopolítico ou choques de oferta.
+As principais posições compradas estão em petróleo, parte
+via futuros e parte via opções, além de milho e açúcar. No
+milho, seguimos atentos ao clima mais seco do que o
+esperado no Brasil e à possibilidade de menor área plantada
+nos Estados Unidos, em função de restrições ligadas à
+disponibilidade e custo de fertilizantes. No açúcar, mantemos
+exposição comprada diante da possibilidade de um El Niño na
+segunda metade do ano, que poderia afetar a safra da Índia.
+AÇÕES
+Resultado positivo. A principal contribuição positiva veio de
+tecnologia, em que mantínhamos exposição via opções na
+Nasdaq e ações ligadas à infraestrutura necessária para o
+desenvolvimento de inteligência artificial (IA). No tema de IA,
+temos ações em semicondutores, TSMC, cloud e nomes
+associados a eletrificação. No Brasil, seguimos com posições
+compradas via opções em índices, além de posições
+específicas em setores que avaliamos como bem-
+posicionados, como elétricas, saneamento, aeroespacial e
+distribuição de combustíveis.
+JUROS E INFLAÇÃO
+Resultado neutro. O mercado precifica uma queda muito
+gradual dos juros até aproximadamente 13,75% no Brasil. No
+curto prazo, o mercado deve seguir reagindo aos
+desdobramentos da guerra no Irã. Mas, nos preços da curva
+de petróleo atual, vemos uma Selic mais baixa do que
+precificado e, consequentemente, mantemos posições para
+queda de juros. No mercado internacional, estamos
+atualmente posicionados para juros mais baixos na Suécia e,
+em menor escala, Nova Zelândia. Ambos os países têm
+desemprego alto e medidas subjacentes de inflação contidas.
+Na ponta contrária, temos posições para juros mais altos no
+Chile, geografia que sofre bastante com o choque de
+petróleo.
+MOEDAS E CUPOM CAMBIAL
+Resultado positivo. Atualmente, estamos comprados em
+Real. O país é exportador líquido de petróleo, tem juros altos
+e os desenvolvimentos políticos têm sido favoráveis para
+aumentar a probabilidade de reformas econômicas em 2027.
+Na ponta vendida, temos as moedas europeias, que sofrem
+com o petróleo alto, e o peso mexicano, que tem os juros
+bem mais baixos do que o Brasil.
+
+[p. 25] Abril de 2026 | Carta do Gestor
+25
+CNPJ: 41.504.602/0001-63 - Brasilprev Kinea Sigma Prev FIM
+RESULTADO DA GESTÃO*
+Rentabilidade 
+do fundo desde 
+seu início
+Retorno por Estratégia
+HISTÓRICO DE RENTABILIDADE*
+ANO 2022 2023 2024 2025 2026 abr/26 Início
+FUNDO 15,56% 14,15% 11,51% 15,95% 3,21% 3,16% 82,30%
+CDI 12,37% 13,05% 10,87% 14,31% 4,54% 1,09% 73,97%
+% CDI 125,80% 108,44% 105,87% 111,46% 70,61% 289,59% 111,25%
+Pior mês
+Melhor mês
+mar/26 (-2.37%)
+mai/25 (3.36%)
+Número de meses positivos
+Número de meses negativos
+image.png
+Patrimônio Líquido Médio 
+(12 meses)
+Patrimônio Líquido Atual
+51
+8
+R$ 3.271.055.643
+R$ 3.374.475.944
+Início do fundo
+04/Jun/2021
+1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
+2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
+TAXA DE
+PERFORMANCE²:
+D+0
+TAXA
+DE SAÍDA:
+Não possui
+APLICAÇÃO 
+INICIAL:
+Sujeito às 
+regras do 
+distribuidor.
+TAXA DE 
+ADM:
+17% do que 
+exceder 100% 
+do CDI
+PAGAMENTO 
+RESGATE:
+D+2 dias úteis 
+da conversão 
+de cotas
+2,0% a.a.
+COTA 
+RESGATE:
+82,30%
+73,97%
+-10,0%
+0,0%
+10,0%
+20,0%
+30,0%
+40,0%
+50,0%
+60,0%
+70,0%
+80,0%
+90,0%
+jun-21 nov-21 abr-22 set-22 fev-23 jul-23 dez-23 mai-24 out-24 mar-25 ago-25 jan-26
+Prev Sigma CDI
+* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo BRASILPREV KINEA SIGMA PREV FUNDO DE INVESTIMENTO MULTIMERCADO CNPJ: 
+41.504.602/0001-63, que NÃO está disponível ao cliente final. Para consultar as informações referente ao seu fundo, acesse o sit e do distribuidor.

@@ -1,0 +1,1459 @@
+[p. 1] Fevereiro de 2026 | Carta do Gestor
+CARTA
+DO GESTOR
+Fevereiro 2026
+Acesse kinea.com.br
+1
+
+[p. 2] Fevereiro de 2026 | Carta do Gestor
+Game of Thrones, série produzida pela HBO e exibida entre 2011 e 2019, 
+tornou-se um fenômeno cultural global ao adaptar a saga literária de George R. R. 
+Martin para a televisão com uma combinação rara de política, guerra, intriga dinástica 
+e fantasia épica. A série conquistou 59 prêmios Emmy — recorde para uma produção 
+dramática — e redefiniu o padrão de escala e ambição da TV moderna.
+— Daenerys Targaryen, em Game of Thrones
+“Quando meus dragões estiverem
+crescidos… devastaremos exércitos e
+queimaremos cidades até o chão.”
+2
+No centro dessa narrativa estão os dragões, criaturas míticas que simbolizam 
+poder absoluto e ruptura de paradigma. Em Game of Thrones, a volta dos dragões não 
+é apenas um elemento fantástico — é a reintrodução de uma força capaz de 
+reprecificar toda a ordem política e militar.
+É essa mudança de paradigma que utilizamos como analogia para entender o 
+momento atual da Inteligência Artificial nos mercados globais.
+O NASCIMENTO DOS DRAGÕES: CAPEX E SUPREMACIA EM I.A.
+Em Game of Thrones, é Daenerys Targaryen quem traz os dragões de volta à 
+vida após séculos de extinção. Nascidos do fogo, eles não são apenas criaturas 
+míticas, mas instrumentos de ruptura histórica.
+Em um mundo onde o poder era definido por exércitos, muralhas e alianças 
+políticas, a existência dos dragões muda a lógica do jogo: castelos deixam de ser 
+inexpugnáveis, batalhas deixam de ser simétricas.
+A partir daquele momento, a dinâmica de poder em Westeros é reprecificada, 
+não porque os dragões sejam numerosos, mas porque sua simples existência redefine 
+o que é possível no campo de batalha e na política.
+Em Westeros, dragões são raros e caros de criar. Em nosso mundo, a aceleração 
+do CAPEX em Inteligência Artificial representa, na prática, o custo de criar dragões. 
+Fonte: Gerado por I.A.
+
+[p. 3] Fevereiro de 2026 | Carta do Gestor
+3
+Durante a última temporada de resultados, o mercado foi surpreendido pela 
+reaceleração do CAPEX das grandes empresas de tecnologia. O forte crescimento da 
+Anthropic e a expansão da base de usuários do ChatGPT reacenderam a corrida por 
+supremacia em modelos e infraestrutura.
+CAPEX DAS GRANDES EMPRESAS 
+DE TECNOLOGIA | BILHÕES USD
+RECEITA RECORRENTE ANUALIZADA 
+DA ANTHROPIC |  BILHÕES USD
+Fonte: Relatório das companhias e  Kinea Fonte: Kinea
+250
+500
+750
+0
+15 16 17 18 19 20 21 22 23 24 25
+200
+180
+153
+60 30
+26E
+25 31 44 67 72 97 130 159 159
+250
+428
+748
+125
+Amazon
+Alphabet
+Microsoft
+Meta
+Oracle
+CoreWeave
+dez/23 dez/24 mar/25 mai/25 jun/25 jul/25 dez/25 fev/26
+0
+1
+2
+3
+4
+5
+10
+14
+Google, Meta, Amazon e Microsoft passaram a investir praticamente 100% de 
+seu fluxo de caixa operacional, recorrendo inclusive à emissão de dívida para 
+sustentar o ritmo de expansão.
+CAPEX EM RELAÇÃO AO FLUXO DE CAIXA OPERACIONAL DAS BIG 
+TECHS AO LONGO DO TEMPO | %
+Fonte: FactSect
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+140%
+2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026E
+Amazon
+Alphabet
+Meta
+Microsoft
+
+[p. 4] Fevereiro de 2026 | Carta do Gestor
+4
+Durante meses, o mercado discutiu o investimento; neste mês, começou a 
+sentir o fogo. À medida que agentes de I.A. ganham autonomia, com soluções como 
+Claude Co-work e Openclaw assumindo tarefas complexas, a dinâmica competitiva 
+muda de patamar.
+UTILIZAÇÕES DE AGENTES ATRAVÉS DA ANTRHOPIC | %
+Fonte: Anthropic e Kinea
+50%
+9%
+7%
+4%
+4%
+4%
+4%
+3%
+2%
+2%
+2%
+2%
+2%
+1%
+1%
+1%
+1%
+Engenharia de software
+Automação de back-office
+Outros
+Marketing e redação
+Vendas e CRM
+Finanças e contabilidade
+Análise de dados e BI
+Pesquisa acadêmica
+Cibersegurança
+Atendimento ao cliente
+Jogos e mídia interativa
+Criação de documentos e apresentações
+Educação e tutoria
+Operações de e-commerce
+Medicina e saúde
+Jurídico
+Viagens e logística
+O primeiro castelo a sentir o calor foi o software tradicional. A possibilidade de 
+agentes substituírem aplicações clássicas deixou de ser cenário distante e passou a 
+ser hipótese concreta. Moats baseados em código proprietário e base instalada 
+começaram a ser questionados.
+DESEMPENHO DAS EMPRESAS DE SOFTWARE | % SHARE PRICE
+Fonte: FactSect
+11/jan 18/jan 25/jan 1/feb
+-20%
+-30%
+-10%
+-40%
+0%
+15/feb
+10%
+8/feb4/jan
+Salesforce
+Workday
+ServiceNow
+Adobe
+Intuit
+
+[p. 5] Fevereiro de 2026 | Carta do Gestor
+5
+Outros setores também passaram por reavaliação: seguros, viagens online, 
+logística e serviços corporativos. Quando agentes conseguem executar tarefas 
+complexas com custo marginal próximo de zero, estruturas construídas ao longo de 
+décadas tornam-se vulneráveis.
+SETORES AFETADOS PELA EXPECTATIVA DE CRESCIMENTO DOS AGENTES
+Fonte: Kinea Research
+Data
+30 Jan 2026
+Segmentação Símbolos % Variação no dia
+Jogos
+Games alavancados
+APP, RBLX, 
+TTWO, U -16%
+3 Fev 2026
+Software (jurídico)
+Tecnologia jurídica 
+(Legal Tech)
+LZ, TRI, WKL -16%
+9 Fev 2026 Corretoras 
+de seguros
+AON, AJG, 
+WTW, MRSH -10%
+10 Fev 2026 Gestoras de 
+patrimônio LPL, RJF, SCHW -8%
+Motivo
+Projeto Genie
+Plugin jurídico do Claude
+OAI aprova primeiro 
+app de seguro com IA
+Altruist lança funcionalidade de 
+planejamento tributário com IA
+11 Fev 2026 Administradoras 
+de imóveis
+BXP, CBRE, 
+JLL, SLG -10% I.A. deve substituir parte 
+dos empregos de executivos
+12 Fev 2026 Logística CHRW, LSTR, 
+JBHT, RXO -19% RIME observa que pode 
+processar 400% mais carga
+20 Fev 2026 Cibersegurança CRWD, PANW, NET -7% Claude Code Security
+Parte dos investidores reagiu diversificando portfólios para setores e geografias 
+menos expostos à I.A.. Mercados emergentes e segmentos fora das grandes 
+plataformas americanas apresentaram performance superior no curto prazo.
+DESEMPENHO DOS ÍNDICES | %
+Fonte: FactSect
+11/jan 25/jan 08/fev 22/fev
+-5%
+0%
+5%
+10%
+15%
+20%
+25%
+Consumo básico - S&P 500
+Petróleo e gás - S&P 500
+Mecados emergentes - MSCI
+Europa - MSCI
+S&P 500
+Japão - MSCI
+
+[p. 6] Fevereiro de 2026 | Carta do Gestor
+6
+Nossa preferência de investimentos está concentrada nas áreas de escassez: 
+GPUs, memória e equipamentos para semicondutores, que são, na analogia, os 
+verdadeiros criadores e alimentadores de dragões. 
+No ciclo atual de I.A., quem controla os insumos críticos controla a capacidade 
+de gerar poder. GPUs de última geração, HBM escassa e semicaps que ampliam a 
+fronteira de produção são os ativos estratégicos de um mundo onde os dragões 
+digitais estão nascendo. Em um ambiente de disrupção acelerada, preferimos estar 
+expostos a quem fornece o fogo, e não aos castelos que podem derreter.
+Fonte: Kinea Research
+Empresa Escassez
+Escassez de capacidade de produção de DRAM/NAND 
+avançada em um oligopólio global de poucos fabricantes
+Escassez de players com escala e tecnologia para atuar 
+ao mesmo tempo em memória e foundry avançado
+Escassez de capacidade de fabricação em nós de ponta 
+(3nm/5nm), praticamente monopolizada pela empresa
+Constellation Energy Escassez de usinas nucleares já construídas e 
+licenciadas, oferecendo energia firme e limpa nos EUA
+Talen Escassez de fornecimento de energia firme dedicada a 
+data centers, especialmente a partir de ativos nucleares
+Vistra Escassez de geradoras com grande portfólio em 
+mercados desregulados, capturando picos de preço
+GE Vernova e Siemens Energy Escassez de tecnologia e base instalada em turbinas de gás
+Micron
+Samsung
+TSMC
+Ainda assim, entendemos que o mercado não está valorizando corretamente as 
+Magnificent Seven. Em meio ao receio com o volume de CAPEX e às dúvidas sobre o 
+retorno de curto prazo, parte dos investidores passou a enxergar apenas o custo de 
+alimentar os dragões, e não o poder estratégico que eles conferem.
+PREÇO | % CRESCIMENTO LUCRO POR AÇÃO |  %
+Fonte: Bloomberg Fonte: Bloomberg
+10/jan
+-4%
+-5%
+-3%
+-6%
+-2%
+-7%
+-1%
+19/fev
+0%
+09/fev
+1%
+30/jan
+2%
+20/jan31/dez
+0,4%
+-6,6%
+24% 23%
+20% 19%
+12%
+14%
+16%
+13%
+2025 2026E 2027E 2028E
+Mag7
+S&P 500
+S&P 500
+Mag7
+
+[p. 7] Fevereiro de 2026 | Carta do Gestor
+7
+As MAG-7 não são apenas 
+compradoras de infraestrutura; são 
+donas dos ecossistemas, da distribuição, 
+dos dados e da capacidade de 
+monetização em escala global. Se os 
+dragões redefinem o campo de batalha, 
+são essas companhias que os 
+comandam. A assimetria pode estar 
+justamente na subestimação da 
+velocidade com que transformarão 
+investimento em domínio econômico 
+duradouro, além das participações 
+relevantes que possuem em líderes de 
+I.A., como Anthropic e OpenAI.
+Fonte: Kinea Research
+Empresa
+Microsoft
+Participação
+27% da OpenAI e 
+1% da Anthropic
+Amazon 17% da Anthropic
+Google 14% da Anthropic
+Nvidia 4% da OpenAI e 
+2.5% da Anthropic
+Mercados Desenvolvidos Mercados Emergentes
+Aeroespacial Semis Yield
+Megacaps Dolarizadas DomésticasEletrificação Utilities
+Industrial
+Construtoras
+Software
+IGV
+Urânio
+U-U CN
+PRINCIPAIS POSIÇÕES LONG E SHORT
+Fonte: Kinea
+A economia norte-americana voltou a mostrar sinais de força, com números 
+mais sólidos no último non-farm payroll, e continuidade do volume baixo de 
+demissões, desafiando as expectativas mais pessimistas.
+ESTADOS UNIDOS: VIRADA CÍCLICA, EMPREGO E CAPITAL 
+TECNOLÓGICO
+
+[p. 8] Fevereiro de 2026 | Carta do Gestor
+8
+VARIAÇÃO DO EMPREGO NOS EUA | 
+VARIAÇÃO MENSAL EM MILHARES
+PEDIDOS INICIAIS DE SEGURO-
+DESEMPREGO | EM MILHARES
+Fonte: LSEG Fonte: LSEG
+130
+-200
+-100
+0
+100
+200
+300
+400
+2023 2024 2025 2026
+206
+180
+200
+220
+240
+260
+280
+2023 2024 2025 2026
+Apesar de uma desaceleração no PIB do 4º trimestre, em grande medida em 
+função do shutdown do governo, o crescimento subjacente permanece saudável, 
+sustentado por consumo de serviços e investimentos intensivos em I.A.. E, 
+especialmente com os cortes do Fed do ano passado e a entrada dos rebates fiscais, a 
+tendência é que a virada cíclica continue.
+COMPOSIÇÃO DO PIB 4T25 | 
+CONTRIBUIÇÃO % VARIAÇÃO TRIMESTRAL 
+ANUALIZADA
+INVESTIMENTO EM TECNLOGIA E 
+DEMANDA PRIVADA DOMÉSTICA | % 
+VARIAÇÃO TRIMESTRAL ANUALIZADA
+Fonte: LSEG Fonte: Bloomberg
+1,59
+0,4
+0,17
+0,21 0,08
+-0,01-0,06-0,07
+-0,9
+1,4
+PCE Serviços
+IPP
+Equipamentos
+Estoque
+Export-Import
+PCE Bens
+Residencial
+Estrutura
+Governo
+PIB
+0,0
+0,5
+1,0
+1,5
+2,0
+2,5
+3,0
+0,00%
+1,00%
+2,00%
+3,00%
+4,00%
+5,00%
+mar/23 set/23 mar/24 set/24 mar/25 set/25
+Investimento em Tecnologia
+Demais Componentes
+Demanda Privada Doméstica q/q saar
+
+[p. 9] Fevereiro de 2026 | Carta do Gestor
+9
+Trata-se de um ciclo peculiar. Diferentemente de expansões baseadas apenas 
+em consumo, este momento combina produtividade tecnológica com forte formação 
+de capital. O dragão não apenas destrói castelos; ele também impulsiona crescimento. 
+Alguns setores mostram claramente essa dicotomia, como serviços profissionais.
+GDP VS. EMPREGO: PROF & BUSINESS
+Fonte: Bloomberg
+O mercado também parece começar a querer precificar um choque 
+desinflacionário vindo da automação. As taxas longas dos Estados Unidos vêm 
+fechando recentemente, refletindo a visão predominante de que a I.A. trará aumento 
+do desemprego — especialmente no setor de serviços qualificados, gerando menor 
+crescimento e menor pressão inflacionária estrutural.
+JUROS A 10 ANOS DOS EUA | %
+DESEMPENHO DAS EMPRESAS DE 
+SOFTWARE | %
+Fonte: LSEG Fonte: Bloomberg
+4,00
+4,05
+4,10
+4,15
+4,20
+4,25
+4,30
+01/jan 15/jan 29/jan 12/fev
+18/jan 1/feb
+-20%
+-30%
+-10%
+-40%
+0%
+15/feb
+10%
+4/jan
+Salesforce
+Workday
+ServiceNow
+Adobe
+Intuit
+-20
+0
+20
+40
+60
+80
+-0,5%
+0,0%
+0,5%
+1,0%
+1,5%
+2,0%
+Q1
+2006
+Q1
+2008
+Q1
+2010
+Q1
+2012
+Q1
+2014
+Q1
+2016
+Q1
+2018
+Q1
+2020
+Q1
+2022
+Q1
+2024
+Q1
+2026
+Professional, Business PROFESSIONAL & BUSINESS SVSPIB Emprego
+
+[p. 10] Fevereiro de 2026 | Carta do Gestor
+10
+A questão mais relevante hoje é, portanto, qual o horizonte – e tamanho -
+desse potencial impacto versus sinais de inflexão cíclica que tendem a puxar o 
+mercado de trabalho. O ponto de partida é um PIB que deve se sustentar em torno de 
+3% no 1º semestre e de 2% no 2º semestre. Historicamente, são números sugestivos 
+de geração de emprego muito mais forte do que a atual.
+PIB E EMPREGO DOS ESTADOS UNIDOS | PIB % VARIAÇÃO ANUAL (ESQUERDA) 
+E PAYROLL VARIAÇÃO ANUAL MENSALIZADA (DIREITA)
+Fonte: LSEG
+-100
+100
+300
+-1%
+1%
+3%
+5%
+75 78 81 84 87 90 93 96 99 02 05 08 11 14 17 20 23
+PIB Payroll
+Como diz o membro central do comitê do Fed, Chris Waller, seria a primeira vez 
+na carreira dele que ele veria a economia crescendo dessa forma com emprego 
+praticamente zero. “Nem sei como pensar sobre isso”.
+Apesar de ser um fenômeno recente e em curso, nossa leitura é otimista. Em 
+um primeiro momento, a revolução da I.A. tende a ser intensiva em investimento e 
+infraestrutura, demandando construção de data centers, expansão energética, redes, 
+engenharia e integração corporativa, ou seja, mais empregos em outros setores.
+INVESTIMENTOS EM TI EM RAZÃO DO PIB | %
+Fonte: BEA
+3,0%
+4,0%
+5,0%
+6,0%
+2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+[p. 11] Fevereiro de 2026 | Carta do Gestor
+11
+Além disso, também será necessário intensificar o trabalho humano associado à 
+difusão dessas tecnologias, que vão precisar de intermediários para seu uso ser 
+exposto às empresas de modo geral. De fato, o que se percebe é que as vagas de 
+profissões associadas – que seriam os primeiros na fila para deslocamento de I.A. –
+voltaram a aumentar recentemente. 
+POSTAGEM DE EMPREGOS INDEED | ÍNDICE
+Fonte: FRED
+Outro fator comumente subestimado é que há ganhos de produtividade 
+associados e novas funções que surgem em episódios de grandes rupturas 
+tecnológicas. Se uma nova tecnologia amplia a produtividade e o PIB, a tendência é 
+que mais renda vá buscar novas aplicações e demandas. Vale lembrar que boa parte 
+das profissões existentes hoje não existiam há 80 anos.
+PROFISSÕES QUE NÃO EXISTIAM ANTES DE 1940 | EMPREGO EM MILHÕES
+100
+120
+60
+70
+jan/24 abr/24 jul/24 out/24 jan/25 abr/25 jul/25 out/25 jan/26
+Software Development Média Software
+Total Job Postings Média Total
+A médio prazo, a exposição de ocupações sensíveis a I.A. e a aceleração de 
+adoção pelas empresas pode gerar um cenário mais disruptivo para o emprego. Mas, 
+ainda assim, nos parece improvável um cenário de alta rápida e sustentada do 
+desemprego.
+0
+25
+50
+75
+100
+125
+150
+175
+200 Ocupações que não existiam antes de 1940
+Ocupações que existiam em 1940
+Fonte: Goldman Sachs
+
+[p. 12] Fevereiro de 2026 | Carta do Gestor
+12
+CENÁRIO DE DESEMPREGO POR I.A. | PICO DE IMPACTO NO DESEMPREGO EM 
+PONTOS PERCENTUAIS
+Fonte: Goldman Sachs
+0
+0,5
+1
+1,5
+2
+2,5
+3
+Base Adoção Rápida Maior Dispersão Adoção Rápida + Maior
+Dispersão
+Nesse sentido, a desaceleração recente do mercado de trabalho é real, mas nos 
+parece predominantemente função da incerteza gerada no primeiro ano do governo 
+Trump, com tarifas e riscos geopolíticos que agora começam a se acomodar.
+INDICADOR DE EMPREGO ISM | ÍNDICE
+Fonte: LSEG
+40,0
+45,0
+50,0
+55,0
+60,0
+65,0
+2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+ISM Emprego Manufatura ISM Emprego Serviços
+Acreditamos que a virada cíclica da economia deve se sobrepor. Com a 
+dissipação de incertezas, esperamos que os números de emprego voltem a 
+surpreender positivamente – ajudados por setores como lazer, manufatura e 
+construção.
+
+[p. 13] Fevereiro de 2026 | Carta do Gestor
+13
+Para o horizonte do Fed, seguimos achando que há uma assimetria para baixo 
+na taxa de desemprego. E, vale lembrar, a inflação de serviços continua resiliente 
+excluindo a parte de aluguéis. Em contexto de escassez de mão de obra, setores 
+cíclicos poderiam criar um risco de reaceleração, impedindo que o Fed entregue os 
+cortes precificados para o 2º semestre e pressionando novamente a curva americana.
+-75
+-50
+-25
+0
+25
+50
+fev/24 jun/24 out/24 fev/25 jun/25 out/25
+Manufaturas, variação mensal de emprego
+TOTAL DE EMPREGOS PRIVADOS
+Fonte: FRED Fonte: FRED
+Serviços 
+Profissionais
+16,58%
+Lazer
+12,55%
+Manufaturas
+9,30%
+Outras 
+Categorias
+61,57%
+-50
+-25
+0
+25
+50
+75
+fev/24 jun/24 out/24 fev/25 jun/25 out/25
+Serviços Profissionais, variação mensal de 
+emprego
+-50
+-25
+0
+25
+50
+75
+fev/24 jun/24 out/24 fev/25 jun/25 out/25
+Lazer, variação mensal de emprego
+NÚCLEO DE SERVIÇOS EX-HOUSING 
+PCE | %
+SALÁRIO DE LAZER E HOSPITALIDADE  |  
+MÉDIA MÓVEL TRIMESTRAL ANUALIZADA
+Fonte: FRED Fonte: FRED
+-2%
+3%
+8%
+16 17 18 19 20 21 22 23 24 25 26
+1%
+2%
+3%
+4%
+5%
+6%
+16 17 18 19 20 21 22 23 24 25 26
+
+[p. 14] Fevereiro de 2026 | Carta do Gestor
+14
+A aguardada decisão da Suprema Corte confirmou a limitação à autoridade 
+presidencial para imposição de tarifas via emergência nacional (IEEPA). O governo 
+Trump rapidamente implementou sua brecha constitucional de tarifar em 15% todos os 
+países, com base na seção 122, além de ter aberto investigações em outras frentes. 
+NOVO CAPÍTULO DAS TARIFAS E PORQUE GOSTAMOS DE ASIA FX
+Seção Tarifa Justificativa
+Prazo de 
+Divulgação até 
+Implementação
+Usos passados e atuais
+Seção 
+122 Até 15%
+Grande déficit no balanço de 
+pagamentos que pode ameaçar a 
+estabilidade do dólar
+Nenhum Não utilizado
+Seção 
+338 Até 50% Parceiros comerciais discriminam 
+as exportações dos EUA Vários meses Não utilizado
+Seção 
+301
+Sem limite 
+claro
+Nação estrangeira possui 
+práticas injustas de comércio 12-13 meses
+Aplicado a produtos 
+específicos chineses no 
+Trump 1, ~60%
+Seção 
+232
+Usualmente 
+entre 25 e 
+50% / Sem 
+limite claro
+Excesso de importação de bens 
+que ameaçam a segurança 
+nacional
+~375 dias
+Aço, alumínio, carros e cobre; 
+Tarifas anunciadas de 
+semicondutores, 
+farmacêuticos, madeira e 
+etc.
+Seção 
+201
+Sem limite 
+claro
+Importação específica que causa 
+danos a indústria doméstica ~6 a 9 meses Aplicado a máquinas de lavar 
+e painéis solares no Trump 1
+Fonte: Morgan Stanley
+A tendência é que, ao longo do tempo, praticamente toda a receita das tarifas 
+seja compensada por outras vias constitucionais mais sólidas. Embora seja 
+conveniente uma redução de inflação às vésperas das midterm elections, a 
+necessidade de receitas fiscais e a crença nas tarifas como meio de balancear o 
+comércio segue cláusula pétrea do modelo mental do governo Trump.
+CENÁRIO DE TARIFAS | TARIFA MÉDIA PONDERADA %
+Fonte: Global Trade Alert
+1,4
+1,4
+1,4
+1,4
+5,3
+5,3
+5,3
+5,3
+1,5
+1,5
+1,5
+1,5
+2,3 1,6 3,2
+3,3
+4,9
+0,0 2,0 4,0 6,0 8,0 10,0 12,0 14,0 16,0 18,0
+Pré-decisão Corte
+Pós-decisão
+S122 10%
+S122 15%
+HTS Baseline Section 232 Section 301 Emergency IEEPA Top-up IEEPA S122
+
+[p. 15] Fevereiro de 2026 | Carta do Gestor
+15
+Dois são os aspectos interessantes desse desenvolvimento. Primeiro, ele ocorre 
+após vermos os dados de dezembro evidenciando o impacto das tarifas na inflação 
+ainda no seu auge. Janeiro tende a ser outro mês de pressão também nessa frente e a 
+tentativa rápida do governo de compensar a decisão deve evitar uma queda rápida 
+dessa frente de inflação.
+PCE NÚCEO DE BENS | %
+Fonte: YouGov
+1,97%
+-5%
+0%
+5%
+10%
+2019 2020 2021 2022 2023 2024 2025 2026
+PCE Projeção
+Em segundo lugar, a decisão da Suprema Corte reduz cenários de cauda, na 
+medida em que o escopo de uso das tarifas se torna menos arbitrário. E ocorre às 
+vésperas de viagem importante de Trump para a China. 
+A China tem dado vários indícios de que gostaria de ampliar o uso global do 
+yuan como moeda de reserva. A rigor, antes das novas investigações americanas, a 
+derrubada do IEEPA deixa os asiáticos – em especial a China – em melhor posição 
+relativa. E a viagem de Trump vem a calhar: reduz a probabilidade de novos fatores 
+irritantes nas frentes comerciais, dando alívio de curto prazo para o comércio asiático.  
+REDUÇÃO NA TARIFA MÉDIA 
+PONDERADA |  P.P
+Fonte: Financial Times Fonte: Global Trade Alert
+-7,1
+-5,6
+-2,8
+-2 -1,7 -1,3
+CNH IND VNM THA MYS TWN
+“A China deve estabelecer uma moeda 
+poderosa, utilizada no comércio 
+internacional e alcançar o status de 
+moeda de reserva global.”
+Xi Jinping
+15
+
+[p. 16] Fevereiro de 2026 | Carta do Gestor
+16
+Estamos comprados no yuan. Além dos fatores supracitados, a tendência é que 
+a reciclagem de superávits comerciais crescentes e o ganho de importância como 
+moeda de reserva reduzam o ímpeto do PBOC de evitar uma apreciação a qualquer 
+custo.
+SALDO DA BALANÇA COMERCIAL 
+CHINESA | ACUMULADO 12 MESES EM 
+BILHÕES DE DÓLARES
+PERFORMANCE CNH |  
+CNH/USD
+Fonte: LSEG Fonte: LSEG
+6,2
+6,4
+6,6
+6,8
+7,0
+7,2
+7,4
+16 17 18 19 20 21 22 23 24 25 26
+0
+200
+400
+600
+800
+1.000
+1.200
+06 08 10 12 14 16 18 20 22 24 26
+Por fim, temos também posições no won sul-coreano, especialmente como 
+proteção para posições compradas em tecnologia. A depreciação constante do won no 
+último ano esteve muito ligada aos outflows de residentes para as empresas de 
+tecnologia norte-americanas, portanto sensíveis às viradas de narrativa na bolsa 
+americana.
+FLUXO DE EQUITIES E MOEDA DA COREIA DO SUL | FLUXO (ESQUERDA) E 
+KRW/USD (DIREITA)
+Fonte: Bloomberg
+1300
+1400
+1500
+-5,0
+5,0
+15,0
+jan/24 mai/24 set/24 jan/25 mai/25 set/25 jan/26
+Fluxo de Equities Moeda
+Os vetores domésticos também parecem apontar para virada: a Coreia do Sul 
+concentra exportações de semicondutores e memória, esta última no centro da 
+narrativa de escassez; e o governo passou a dificultar os incentivos para enviar capital 
+ao exterior, reduzindo a atratividade fiscal desses fluxos para fora do país.
+
+[p. 17] Fevereiro de 2026 | Carta do Gestor
+17
+POPULARIDADE DE KEIR STARMER | %
+Fonte: YouGov
+0,0
+50,0
+100,0
+2020 2021 2022 2023 2024 2025
+Favorável Desfavorável
+No Brasil, o mercado já precifica aproximadamente 300 pontos-base de cortes 
+de juros, com início esperado para março.
+BRASIL: CORTES DE JUROS E INCERTEZA POLÍTICA
+CURVA DE JUROS NOMINAL FORWARD | EM % A.A.
+Fonte: Bloomberg
+11,5
+12,5
+13,5
+14,5
+15,5
+mar/26
+jun/26
+set/26
+dez/26
+mar/27
+jun/27
+set/27
+dez/27
+mar/28
+jun/28
+set/28
+dez/28
+mar/29
+jun/29
+set/29
+dez/29
+mar/30
+jun/30
+set/30
+dez/30
+23.Fev 30.Dez
+Vemos a taxa de juros em patamar bastante restritivo. Desde a última alta de 
+Selic, o juro real subiu 120 pontos-base com a desinflação observada no período.
+Gostamos de comprar essas moedas asiáticas especialmente com funding nas 
+europeias, em especial a libra esterlina. Já mencionamos anteriormente que as 
+surpresas relativas de PIB europeu tendem a não se repetir este ano, e surpresas de 
+PIB americano podem ser relevantes. Além disso, o Reino Unido tem posição frágil de 
+economia, e agora enfrenta um crescente questionamento sobre a estabilidade do seu 
+Primeiro-Ministro, em meio às dificuldades de equilibrar economia e escândalos de 
+seu gabinete. Zeramos a posição aplicada em juros, mas mantemos a venda de libra.
+
+[p. 18] Fevereiro de 2026 | Carta do Gestor
+18
+CURVA DE JUROS REAL | EM % A.A.
+Fonte: BACEN, IBGE e KINEA
+Nossa expectativa é de cortes de 50 pontos-base por reunião, com 
+possibilidade de aceleração caso haja sinais mais evidentes de desaceleração no 
+mercado de trabalho. 
+Acreditamos que a inflação irá atingir patamares próximos de 3% em meados do 
+ano.  Se a inflação de bens e alimentos tem mostrado comportamento mais benigno, 
+a inflação de serviços – em especial aqueles intensivos em mão de obra permanece 
+pressionada. 
+Uma virada mais clara no mercado de trabalho pode trazer confiança para o BC 
+intensificar o ciclo. 
+IPCA: INFLAÇÃO DE BENS VS. 
+SERVIÇOS
+TAXA DE DESEMPREGO |  
+%, DESSAZ
+Fonte: IBGE E BC Fonte: IBGE e Kinea
+-5
+0
+5
+10
+15
+20
+jul/99 fev/04 set/08 abr/13 nov/17 jun/22
+Industriais Subjacentes
+Serviços intensivos em mão de obra
+5,42%
+6,3%
+4,0%
+6,0%
+8,0%
+10,0%
+12,0%
+14,0%
+16,0%
+mar/12 jul/14 nov/16 mar/19 jul/21 nov/23
+Original
+Com taxa de participação de mai/25
+-4
+-2
+0
+2
+4
+6
+8
+10
+12
+14
+fev/04 fev/06 fev/08 fev/10 fev/12 fev/14 fev/16 fev/18 fev/20 fev/22 fev/24 fev/26
+Juros real: Selic - Núcleo de inflação do BC (mm3m saar)
+
+[p. 19] Fevereiro de 2026 | Carta do Gestor
+19
+Os fluxos globais direcionados ao Brasil neste início de ano sustentaram a 
+performance dos ativos locais, e, embora ajudem no trabalho do BC de desinflação, 
+ainda pouco refletem o idiossincrático. 
+FLUXO DE CÂMBIO ACUMULADO ATÉ FEVEREIRO | USD MI
+Fonte: BACEN
+-50.000
+-30.000
+-10.000
+10.000
+fev/21 set/21 abr/22 nov/22 jun/23 jan/24 ago/24 mar/25 out/25
+Saldo acumulado em 12 meses
+DESEMPENHO DAS MOEDAS DE 
+DIVERSAS GEOGRAFIAS EM 2025 | 
+BASE 100 = 01/01/2026
+DESEMPENHO DAS BOLSAS DE 
+DIVERSAS GEOGRAFIAS EM 2025 | 
+BASE 100 = 01/01/2026
+Fonte: Bloomberg Fonte: Bloomberg
+93
+94
+95
+96
+97
+98
+99
+100
+101
+02/jan 12/jan 22/jan 01/fev 11/fev 21/fev
+USDBRL USDZAR
+USDMXN USDCLP
+01/feb
+110
+01/mar
+112
+96
+114
+98
+116
+100
+118
+102
+120
+104
+122
+106
+124
+01/jan
+108
+Brasil
+Chile
+México
+Emergentes
+MSCI Mundo
+S&P 500
+Chama-nos atenção o fato de que a popularidade do presidente ter voltado a 
+cair em fevereiro, mesmo após a entrada em vigor dos cortes de imposto de renda 
+para a faixa até R$ 7,3 mil mensais e o baixo nível da inflação de alimentos.
+
+[p. 20] Fevereiro de 2026 | Carta do Gestor
+20
+INFLAÇÃO DE ALIMENTOS NO DOMICÍLIO
+Fonte: IBGE e Kinea
+-10
+0
+10
+20
+30
+40
+jan/14 jan/16 jan/18 jan/20 jan/22 jan/24 jan/26
+a/a MM3m ajustada sazonalmente
+Os escândalos envolvendo o banco Master remetem a população a temas em 
+que o governo tem imagem negativa, e podem ter pesado na avaliação do governo. 
+AVALIAÇÃO DE GOVERNO LULA III | LÍQUIDO ÓTIMO/BOM – RUIM/PÉSSIMO DO 
+AGREGADOR KINEA
+Fonte: Kinea
+-20
+0
+20
+fev/23 jun/23 out/23 fev/24 jun/24 out/24 fev/25 jun/25 out/25 fev/26
+Janela de 15 dias Janela de 100 dias
+Ainda a 8 meses do pleito, acreditamos que o pêndulo eleitoral irá se mover 
+algumas vezes a favor do governo, e em outras contra. Julgamos estar em um 
+momento contra. 
+Seguimos com posições aplicadas em juros curtos e comprados taticamente em 
+BRL. 
+Em ações brasileiras, passamos a trabalhar vendidos em índices, entendendo 
+que a elevação recente de preços não encontra respaldo proporcional na evolução dos 
+lucros. Mantemos posições específicas em utilities, no programa habitacional e na 
+Embraer, mas protegemos a carteira com posições táticas vendidas.
+
+[p. 21] Fevereiro de 2026 | Carta do Gestor
+21
+DESEMPENHO VS. CRESCIMENTO DO LPA PRÓXIMOS 12 MESES | %
+Fonte: Bloomberg
+01/mar/26
+0%
+10%
+20%
+30%
+40%
+50%
+01/mar/25 01/mai/25 01/jul/25 01/set/25 01/nov/25 01/jan/26
+Ibovespa
+Lucro por Ação
+COMMODITIES: ENTRE TENSÃO GEOPOLÍTICA E EXCESSO DE 
+OFERTA
+Com o ataque dos Estados Unidos ao Irã no fim de fevereiro, o mercado passou 
+a monitorar de perto os desdobramentos do conflito e seus impactos no petróleo. 
+Nossa leitura é que o mercado segue estruturalmente sobreofertado, mas os preços 
+incorporam um prêmio geopolítico relevante.
+Tópico EUA Irã Conciliação
+Estoque de Urânio Acabar totalmente com 
+estoques Aberto a debate Enviar para a Rússia estoque de 
+Urânio enriquecido
+Enriquecimento de 
+Urânio
+Sem enriquecimento 
+doméstico em território 
+iraniano
+Não quer abrir mão de 
+enriquecimento doméstico
+Limitar ou talvez suspender 
+temporariamente; consórcio 
+regional entre países; 
+monitoramento da agência 
+nuclear
+Programa de Mísseis
+Desmantelamento do 
+programa de mísseis 
+capazes de atingir Israel
+Não quer tratar assuntos 
+fora do Nuclear
+Possível que fique fora das 
+negociações
+Grupos terroristas Fim do financiamento a 
+grupos terroristas da região
+Não quer tratar assuntos 
+fora do Nuclear
+Possível que fique fora das 
+negociações
+Fonte: Kinea Research
+Entendemos que, uma vez dissipado o risco geopolítico, o potencial de queda 
+pode ser relevante, dada a elevada oferta e as sinalizações da OPEP sobre possível 
+aumento de produção.
+
+[p. 22] Fevereiro de 2026 | Carta do Gestor
+22
+EXPORTAÇÃO GLOBAL DE 
+PETRÓLEO POR MAR | MBPD
+ESTOQUE DE PETRÓLEO NO MAR |  
+MB
+Fonte: Kinea e Kpler Fonte: Kinea e Kpler
+jan/25 mar/25 mai/25 jul/25 set/25 nov/25 jan/26
+59
+60
+61
+62
+63
+64
+65
+66
+67
++2,5
+2023
+2024
+2025
+2026
+jan/25 mar/25 mai/25 jul/25 set/25 nov/25 jan/26
+1.400
+1.450
+1.500
+1.550
+1.600
+1.650
+1.700
+1.750 2023
+2024
+2025
+2026
+No segmento de metais, reduzimos exposição. Saímos de ouro e demais metais 
+preciosos diante da intensificação de movimentos especulativos — especialmente na 
+China — que, em nossa avaliação, distorceram os preços em relação aos 
+fundamentos.
+VOLUME SEMANAL DE TRADING DE 
+CONTRATOS FUTUROS DE METAIS 
+NA SHFE | MILHÕES DE CONTRATOS
+VALORIZAÇÃO DOS METAIS EM 
+RELAÇÃO AO PERCENTIL 90 DA 
+CURVA DE CUSTO | %
+Fonte: Bloomberg, Shanghai Futures Exchange Fonte: Wood Mack, Morgan Stanley e Kinea
+0,0
+2,5
+5,0
+7,5
+10,0
+12,5
+15,0
+Jan/25
+Fev/25
+Mar/25
+Abr/25
+Mai/25
+Jun/25
+Jul/25
+Ago/25
+Set/25
+Out/25
+Nov/25
+Dez/25
+Jan/26
+Fev/26
+Cobre
+Alumínio
+Zinco
+Níquel
+Estanho
+Chumbo
+23%
+51%
+83%
+141%
+292%
+18%
+5%
+25%
+47% 39%
+0%
+50%
+100%
+150%
+200%
+250%
+300%
+Níquel Alumínio Zinco Cobre Ouro
+Atualmente
+Média
+
+[p. 23] Fevereiro de 2026 | Carta do Gestor
+23
+Nos metais industriais, vemos o minério de ferro em ambiente de sobreoferta, 
+pressionado pela dinâmica estrutural mais fraca do setor imobiliário chinês, enquanto 
+o cobre negocia acima dos fundamentos, impulsionado por acumulação de estoques 
+nos Estados Unidos por receio de tarifas comerciais.
+ESTOQUE DE MINÉRIO DE FERRO 
+NOS PRINCIPAIS PORTOS DA CHINA | 
+MT
+ESTOQUE DE COBRE NA BOLSA DE 
+CHICAGO |  KT
+Fonte: WIND e Mysteel Fonte: Bloomberg
+40
+60
+80
+100
+120
+140
+160
+180
+2012 2014 2016 2018 2020 2022 2024 2026 2012 2014 2016 2018 2020 2022 2024 2026
+0
+100
+200
+300
+400
+500
+600
+O alumínio apresenta melhor assimetria potencial de alta, mas sua elevada 
+correlação com o cobre reduz a atratividade tática no curto prazo. Preferimos 
+permanecer à margem.
+No complexo agrícola, mantemos posição vendida tanto em grãos quanto em 
+soft commodities, refletindo nossa leitura de um mercado amplamente sobreofertado. 
+Após sucessivas boas safras globais — sem quebras relevantes — os estoques 
+permanecem confortáveis.
+PRODUÇÃO DE CAFÉ | MILHÕES DE SACAS
+Fonte: Kinea
+32
+75
+2021
+63
+28
+73
+2022
+66
+28
+75
+2023
+65
+28
+81
+2024
+6454
+83
+2025
+73
+31
+84
+2026
+Brasil
+Vietnam
+Outros
+161 164 169 173 176 188
+30
+
+[p. 24] Fevereiro de 2026 | Carta do Gestor
+24
+A ausência de eventos climáticos extremos como El Niño ou La Niña reforça 
+esse pano de fundo benigno. Seguimos vendidos em trigo, milho, soja, algodão, açúcar 
+e café, entendendo que o balanço risco-retorno ainda favorece preços mais 
+acomodados.
+ESTOQUES DE TRIGO NOS 8 MAIORES EXPORTADORES | MILHÕES DE 
+TONELADAS
+Fonte: Kinea
+58
+72 71 71
+92 94
+21/22 22/23 23/24 24/25 25/26 26/27
+Estoques G8
+CONCLUSÃO: O MUNDO DEPOIS DO FOGO
+Como em Game of Thrones, a questão não é se os dragões existem — mas 
+como iremos lidar com eles. Daenerys enfrentou o fogo para trazê-los de volta à vida, 
+assumindo riscos que poucos estariam dispostos a correr.
+
+[p. 25] Fevereiro de 2026 | Carta do Gestor
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de
+investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM. Os fundos de condomínio
+aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de informações complementares. Estes documentos podem ser
+consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou
+vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da
+regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam
+estratégias com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado,
+obrigando o cotista a aportar recursos adicionais para cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada
+não garante a rentabilidade futura e fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os
+Fundos de Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na obrigatoriedade do cotista
+aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são condomínios fechados em que as cotas não são
+resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de
+sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de
+erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de
+perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado
+como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das
+informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita,
+a integridade, confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu
+conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras
+informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+25
+Nesta nova economia moldada pela Inteligência Artificial, precisaremos 
+enfrentar nossos próprios desafios — tecnológicos, estratégicos e intelectuais —
+para manter relevância em um mundo em transformação. Ignorar os dragões não é 
+uma estratégia sustentável.
+Será preciso entender sua natureza, alinhar-se a eles e aprender a montá-los 
+— não para destruir indiscriminadamente, mas para canalizar seu poder com 
+disciplina e visão de longo prazo.
+Em tempos de mudança estrutural, sobreviver não é resistir ao fogo. É saber 
+controlá-lo.
+Estamos sempre à disposição de nossos clientes e parceiros.
+Kinea Investimentos
+
+[p. 26] Fevereiro de 2026 | Carta do Gestor
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de
+investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM. Os fundos de condomínio
+aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de informações complementares. Estes documentos podem ser
+consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou
+vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da
+regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam
+estratégias com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado,
+obrigando o cotista a aportar recursos adicionais para cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada
+não garante a rentabilidade futura e fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os
+Fundos de Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na obrigatoriedade do cotista
+aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são condomínios fechados em que as cotas não são
+resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de
+sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de
+erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de
+perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado
+como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das
+informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita,
+a integridade, confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu
+conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras
+informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+26
+image.png
+PALAVRA DO GESTOR SOBRE A PERFORMANCE DO MÊS
+JUROS E INFLAÇÃO
+Resultado negativo. Tivemos ganhos nos juros brasileiros com a
+queda da curva. O mercado precifica atualmente aproximadamente
+3 pontos percentuais de corte (Selic indo de 15% para 12%), achamos
+que a assimetria de riscos é para um corte mais rápido ou mais
+longo do que o atualmente precificado. Os primeiros sinais de
+atividade no início de 2026 estão mais fracos do que o esperado: o
+dólar segue caindo e a oposição vem subindo nas pesquisas
+eleitorais. No mercado internacional, tivemos resultado negativo
+por conta da nossa posição para altas na curva de juros americana.
+O mercado está com receio de que a revolução de inteligência
+artificial (I.A.) venha a aumentar o desemprego. Concentramos
+nossa posição nos juros curtos, pois os EUA devem crescer próximo
+a 3% em 2026 e, ao contrário da expectativa, o impulso cíclico no
+mercado de trabalho deve se sobrepor ao efeito de I.A. Em outras
+geografias, saímos da nossa posição no Reino Unido após os
+ganhos recentes e seguimos posicionados para juros mais baixos no
+México.
+COMMODITIES
+Resultado negativo. O petróleo apresentou leve alta em função da
+intensificação das tensões geopolíticas envolvendo o Irã, o que
+elevou os prêmios de risco, ainda que os indicadores do mercado
+físico apontem para um cenário de oferta relativamente mais
+confortável. Mantemos posição vendida, porém com menor
+magnitude, enquanto aguardamos maior clareza sobre o
+desdobramento do conflito. Seguimos sem exposição relevante em
+metais, dado o ambiente de elevada volatilidade. De forma geral,
+avaliamos que os fundamentos de cobre e minério de ferro se
+encontram mais frágeis no curto prazo, especialmente diante de
+sinais de arrefecimento da demanda chinesa. Em grãos e soft
+commodities, continuamos observando um cenário de oferta
+abundante. Nesse contexto, ampliamos nossa posição vendida em
+milho, sustentados pelo bom desenvolvimento da safrinha
+brasileira e pela perspectiva de manutenção de um quadro
+confortável de estoques.
+MOEDAS E CUPOM CAMBIAL
+Resultado positivo. Estamos vendidos nas moedas europeias contra
+o dólar, o Real, o Won coreano e o yuan chinês. Principais pontos de
+cada moeda:1/ Gostamos do Real, devido ao nível de juros e ao
+ambiente global de pouca volatilidade;2/ o Won coreano se
+beneficia do ciclo de memória e semicondutores;3/ a China tem o
+maior superávit em conta corrente da história e o governo deseja
+transformar o yuan em uma moeda de reserva;4/ Mas estamos
+pessimistas no Euro e na Libra em relação ao dólar. Os EUA devem
+ter maiores surpresas de crescimento e juros do que o continente
+europeu.
+AÇÕES
+Resultado positivo. O ambiente para mercados internacionais foi
+desafiador, marcado por elevada volatilidade em nomes específicos,
+refletindo a percepção crescente de disrupção provocada pela
+inteligência artificial (I.A.) em setores como software, serviços
+financeiros e transportes.Mantemos exposição comprada
+principalmente em segmentos onde identificamos restrição de
+oferta frente ao avanço estrutural da demanda associada à I.A.,
+como memória, energia e determinados segmentos industriais.
+Adicionalmente, entendemos que o mercado tem subestimado o
+protagonismo das grandes empresas de tecnologia norte-
+americanas na liderança dessa transformação estrutural, motivo
+pelo qual seguimos com posições compradas nessas companhias.
+No Brasil, permanecemos com exposição líquida neutra, mas
+tivemos ganhos nas posições relativas. A forte performance recente
+da bolsa foi impulsionada predominantemente por fluxo externo,
+beneficiando-se de forma mais intensa as empresas de maior
+capitalização. Nosso posicionamento atual privilegia nomes
+domésticos específicos, mantendo hedge no índice, refletindo nossa
+avaliação de assimetria entre fundamentos microeconômicos e o
+movimento técnico recente.
+CRÉDITO PRIVADO
+Resultado neutro. Em crédito privado local, o IDA-DI terminou o
+mês em 101,24% do CDI, uma abertura de cerca de 5 bps. O mês de
+fevereiro foi marcado pela abertura de spreads em Raízen, CSN e
+Hapvida. Conjuntamente, estes três papéis trouxeram performance
+ruim para a indústria, e consequentemente, houve aceleração dos
+fluxos de resgate dos fundos. Em paralelo, esperamos uma
+aceleração no volume de transações primárias a partir de março.
+Estes fatores combinados indicam a possibilidade de passarmos por
+um período de abertura de spreads de crédito. Entretanto,
+acreditamos que este movimento, se ocorrer, tende a ser limitado
+em magnitude e de curta duração, dado o baixo nível de alocação
+em crédito da indústria de fundos atualmente, e o desejo dos
+gestores de alocar em papéis com spreads mais altos. Em crédito
+offshore, o spread médio das empresas da América Latina sofreu
+forte abertura também devido, principalmente, aos movimentos de
+spread de Raízen e CSN. Entretanto, excluindo o efeito destes dois
+emissores, o restante do mercado performou bem devido ao
+ambiente externo favorável a risco que prevaleceu ao longo do mês.
+Nossa carteira de bonds teve retorno levemente negativo no mês.
+
+[p. 27] Fevereiro de 2026 | Carta do Gestor
+27
+CNPJ: 34.687.633/0001-31 - Cód. Subclasse: HWEDP1746020253 - Subclasse II do Kinea Apolo FIM
+RESULTADO DA GESTÃO*
+Rentabilidade 
+do fundo desde 
+seu início
+Retorno por Estratégia
+HISTÓRICO DE RENTABILIDADE*
+ANO 2022 2023 2024 2025 2026 fev/26 Início
+FUNDO 12,87% 13,05% 10,71% 14,62% 2,21% 0,88% 77,39%
+CDI 12,37% 13,05% 10,87% 14,31% 2,17% 1,00% 77,16%
+% CDI 104,01% 100,02% 98,45% 102,14% 101,59% 88,44% 100,30%
+Pior mês
+Melhor mês
+mar/20 (-3.17%)
+mai/25 (1.74%)
+Número de meses positivos
+Número de meses negativos
+image.png
+Patrimônio Líquido Médio 
+(12 meses)
+Patrimônio Líquido Atual
+71
+5
+R$ 2.372.035.005
+R$ 2.502.002.500
+Início do fundo
+29/Nov/2019
+1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
+2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
+TAXA DE
+PERFORMANCE²:
+D+0
+TAXA
+DE SAÍDA:
+Não há.
+APLICAÇÃO 
+INICIAL:
+Sujeito às 
+regras do 
+distribuidor.
+TAXA DE 
+ADM:
+25% do que 
+exceder 100% 
+do CDI
+PAGAMENTO 
+RESGATE:
+D+1 dia útil da 
+conversão de 
+cotas
+0,8% a.a.
+COTA 
+RESGATE:
+77,39%
+77,16%
+-10,0%
+0,0%
+10,0%
+20,0%
+30,0%
+40,0%
+50,0%
+60,0%
+70,0%
+80,0%
+90,0%
+nov-19 jun-20 jan-21 ago-21 mar-22 out-22 mai-23 dez-23 jul-24 fev-25 set-25
+Apolo - Itaú CDI
+* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE II DO KINEA APOLO FUNDO DE INVESTIMENTO FINANCEIRO MULT RESP 
+LIMITADA CNPJ: 34.687.633/0001-31 Cód. Subclasse: HWEDP1746020253, que NÃO está disponível ao cliente final. Para consultar as i nformações referente ao seu fundo, acesse o site do 
+distribuidor.
