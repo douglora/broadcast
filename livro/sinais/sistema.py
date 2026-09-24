@@ -28,10 +28,9 @@ class S01FalhaDados(Regra):
         if not problemas:
             return []
         hoje = ctx.hoje.isoformat()
-        chave = f"S01:{ctx.slot}"
-        if estado.ultima_data(chave) == hoje:
-            return []
-        estado.marcar(chave, hoje)
+        # sem guarda de "uma vez por slot": o id S01-SISTEMA-<slot>-<data> ja deduplica no
+        # registro (nao manda mensagem de novo) e a reemissao e o que diz ao runner que a
+        # falha continua; sem ela, a 2a rodada do slot escondia a falha como resolvida
         return [Alerta(self.id, "SISTEMA", "atencao", "sistema",
                        f"coleta do slot {ctx.slot} saiu incompleta: " + " · ".join(problemas), tag=ctx.slot, data=hoje,
                        corpo=["O que fiz: entreguei as seções disponíveis; as pernas que falharam estão em LACUNAS."],
