@@ -152,3 +152,18 @@ def test_barras_recuperadas_so_quando_falta_o_ultimo_pregao():
     antiga2 = {"barras": [["2026-09-18", 1, 1, 1, 1, 1, 10], ["2026-09-21", 1, 1, 1, 1, 1, 10]]}
     nova2 = {"barras": [["2026-09-17", 2, 2, 2, 2, 2, 20], ["2026-09-18", 2, 2, 2, 2, 2, 20]], "moeda": "USD"}
     assert yahoo.mesclar(antiga2, nova2)["barras_recuperadas"] == ["2026-09-21"]
+
+
+def test_cury_candidato_nao_vira_noticia_da_construtora():
+    """23/09: 'Cury cancela participacao em debate da Veja; evento tera Caiado e Zema'
+    (Augusto Cury, candidato a presidente) virou noticia da CURY3."""
+    import yaml
+    from livro.fontes.noticias import atribuir
+    cfg = yaml.safe_load(open("config/fontes_noticias.yaml", encoding="utf-8"))
+    at = lambda t: atribuir(t, "", cfg["casar"], cfg.get("excluir"), cfg.get("previsor_macro"), cfg.get("excluir_global"))
+    assert "CURY3" not in at("Cury cancela participação em debate da Veja; evento terá Caiado e Zema")
+    assert "CURY3" not in at("Augusto Cury sobe na pesquisa Quaest")
+    assert "CURY3" not in at("Zema e Cury trocam críticas em sabatina")
+    assert "CURY3" in at("Cury (CURY3) cai 4% com juros futuros em alta")
+    assert "CURY3" in at("Construtora Cury bate recorde de lançamentos no 3T26")
+    assert "CURY3" in at("Cury, Direcional e MRV: o que esperar das construtoras de baixa renda")
