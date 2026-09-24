@@ -1,0 +1,910 @@
+[p. 1] D R .  S T R A N G E L O V E
+Irã, Ucrânia, I.A. e a eleição brasileira:
+As quatro guerras que definirão o mercado
+kinea.com.br
+J U L H O  2 0 2 6
+
+[p. 2] | D R .  S T R A N G E L O V E
+Lançado em 1964 e dirigido por Stanley Kubrick, Dr. Strangelove é uma
+sátira sobre um mundo que se aproxima da destruição nuclear, não porque
+seus líderes desejem a guerra, mas porque os mecanismos criados para evitar
+o conflito acabam tornando a escalada quase impossível de interromper.
+No filme, um general norte-americano ordena unilateralmente um
+ataque contra a União Soviética. Enquanto o governo tenta cancelar a missão,
+descobre que os soviéticos construíram uma “Máquina do Juízo Final”,
+programada para responder automaticamente a qualquer agressão com um
+devastador contra-ataque nuclear. Cada personagem possui uma justificativa
+aparentemente racional para suas decisões, mas a interação entre elas conduz
+a um desfecho completamente irracional.
+O mundo atual guarda semelhanças desconfortáveis com a Sala de
+Guerra de Kubrick. Estados Unidos e Irã testam os limites um do outro; Rússia
+e Ucrânia permanecem em uma guerra na qual o custo de recuar parece
+maior que o de continuar; no Brasil, a eleição transforma o orçamento e a
+política monetária em instrumentos de disputa; e, na tecnologia, empresas
+investem somas crescentes em inteligência artificial porque nenhuma pode
+correr o risco de parar e ficar para trás.
+Nesta carta, discutiremos porque a negociação ainda parece ser o
+desfecho mais provável para os conflitos militares, enquanto a corrida
+tecnológica se aproxima de uma máquina que seus próprios criadores já não
+conseguem desligar. Enquanto isso, o Brasil trata sua bomba fiscal com
+despreocupação, embora ela tenha que ser desarmada em 2027.
+— Presidente Merkin Muffley, 
+em Dr. Fantástico (1964)
+“Senhores, vocês não podem 
+brigar aqui. Esta é a Sala de 
+Guerra!”
+2
+Fonte: Gerado por I.A.
+
+[p. 3] | D R .  S T R A N G E L O V E
+3
+BOLSA: DESTRUIÇÃO MUTUAMENTE ASSEGURADA
+DESEMPENHO DAS EMPRESAS DE I.A. E DE S&P 500 EX -
+TECNOLOGIA NO ANO | %
+O fator dominante da bolsa global continua sendo a inteligência artificial.
+Nos últimos meses, porém, o mercado americano apresentou uma dicotomia
+curiosa: má performance das empresas da cadeia de I.A. e boa performance
+dos demais setores. Ou seja: mesmo com as dúvidas sobre o complexo de I.A.,
+o mercado segue confortável com a saúde das empresas norte-americanas.
+jan fev mar abr mai jun jul
+-10%
+0%
+10%
+20%
+30% I.A.
+S&P 500 ex-tecnologia
+Fonte: Factset
+A corrida de capex das grandes empresas de tecnologia passou a operar
+sob a lógica que Kubrick satirizou: a da destruição mutuamente assegurada.
+Nos conflitos militares, o aumento dos custos acaba criando incentivos à
+negociação. Na Inteligência Artificial, ocorre o contrário.
+Nenhuma empresa pode parar de gastar. Quem interromper os
+investimentos corre o risco de ficar para trás e ver seu negócio se tornar
+irrelevante. A corrida se converte, assim, em uma máquina que ninguém
+consegue desligar.
+Os questionamentos sobre essa máquina começaram pela pergunta que
+exploramos em nosso Kinea Insights Devoradores de Estrelas: como um capex
+que já supera US$ 1 trilhão será monetizado? Após a má performance das
+Magnificent 7 em junho, julho foi o mês da correção dos semicondutores, com
+o mercado pondo em dúvida a durabilidade desse ciclo de investimento.
+
+[p. 4] | D R .  S T R A N G E L O V E
+4
+CORREÇÃO DOS SEMICONDUTORES EM JULHO | %
+Fonte: Factset
+-20%
+-15%
+-10%
+-5%
+0%
+05/jul 12/jul 19/jul 26/jul
+Semicondutores
+Nasdaq -16%
+O desenvolvimento do modelo chinês Kimi, com benchmarks
+semelhantes aos dos melhores modelos americanos, adicionou combustível às
+dúvidas. Se a vantagem tecnológica que justificava os múltiplos é menor do
+que se imaginava, a capacidade de monetizar tamanho investimento também
+é.
+Ainda assim, a máquina de gastos não pode parar. Nenhuma empresa
+quer ser a primeira a reduzir seus investimentos e correr o risco de ficar para
+trás.
+INTELIGÊNCIA DOS MODELOS DE I.A. 
+Fonte: Artificial AnalysIs
+
+[p. 5] | D R .  S T R A N G E L O V E
+5
+Nossa visão permanece a mesma: a exposição ao setor deve se
+concentrar nos gargalos físicos de difícil solução, equipamentos para
+semicondutores, TSMC e memória, evitando as áreas de maior
+commoditização e oferta crescente, como modelos e hyperscalers. Em uma
+corrida armamentista, preferimos ser donos do arsenal, não dos exércitos.
+Entretanto, reconhecemos que essa função de investimento em
+semicondutores começou a apresentar limitações claras durante o mês de
+julho. A garantia de dívida que a Nvidia teve que oferecer para datacenters da
+OpenAI, juntamente com emissões de dívida com baixo grau de cobertura por
+parte da Amazon e da BlackRock, nos chamam a atenção para os limites de
+crescimento de infraestrutura.
+CDS DAS HYPERSCALERS | ORACLE (DIR.) E OUTRAS EMPRESAS (ESQ.)
+Fonte: Factset
+100
+120
+140
+160
+180
+200
+220
+jan/26 mar/26 mai/26 jul/26
+20
+40
+60
+80
+100 ORCL
+AMZN
+MSFT
+META
+GOOGL
+NVDA
+AAPL
+Fora da tecnologia, mantemos exposição ao setor financeiro após uma
+boa temporada de resultados dos bancos: crescimento forte de carteira,
+inadimplência baixa e margens inflexionando. Também vemos nos setores de
+saúde e biotecnologia áreas de crescimento a múltiplos razoáveis.
+
+[p. 6] | D R .  S T R A N G E L O V E
+6
+CRESCIMENTO ANUAL DO GASTO 
+EM CARTÕES NOS EUA | %
+BAIXAS PARA PREJUÍZO DOS 
+BANCOS AMERICANOS | %
+Fonte: JP Morgan, Wells Fargo, Bank of America, Citibank e US Bancorp
+6%
+5% 5%
+6%
+5% 6%
+7%
+6%
+8%
+10%
+1T24 2T24 3T24 4T24 1T25 2T25 3T25 4T25 1T26 2T26
+3%
+4%
+5%
+6%
+jul/24 jan/25 jul/25 jan/26
+No Brasil, nossa exposição permanece concentrada nas construtoras do
+Minha Casa Minha Vida e em utilities. Nos dois setores, vemos a combinação
+de dividendos elevados e crescimento de lucros.
+DIVIDEND YIELD E CRESCIMENTO DE LUCROS DE 
+CONSTRUTORAS DE BAIXA RENDA E UTILITIES VS. IBOV | %
+Fonte: Kinea Research
+7% 14% 7% 11% 11% 6% 7%
+6%
+20% 31% 23% 24%
+23% 17% 28%
+39% 42%
+36%
+IBOV CURY3-
+BR
+TEND3-
+BR
+DIRR3-
+BR
+Baixa 
+renda
+SBSP3-
+BR
+CPLE3-
+BR
+0%
+ENEV3-
+BR
+1%
+EQTL3-
+BR
+2%
+ORVR3-
+BR
+1%
+Utilities
+13%
+33%
+38%
+34% 35%
+29%
+23%
+28%
+40%
+44%
+38%
+Crescimento médio anualizado LPA 26-28 Yield de dividendos próximos 12 meses
+COMMODITIES: DUAS GUERRAS, UMA ENGRENAGEM
+Após uma trégua em junho e a breve reabertura de Ormuz, cerca de 100
+milhões de barris que estavam presos no Golfo puderam fluir para o mercado
+global. No entanto, Estados Unidos e Irã voltaram a trocar ataques e, com a
+volta das hostilidades, o fluxo de Ormuz novamente foi interrompido.
+
+[p. 7] | D R .  S T R A N G E L O V E
+7
+FLUXOS DE PETRÓLEO E REFINADOS PELO ESTREITO DE 
+ORMUZ E BRENT | MBPD (ESQ.) E USD/BBL (DIR.)
+Fonte: KPLER, Bloomberg
+40
+60
+80
+100
+1200
+5
+10
+15
+20
+25
+30
+fev/26 mar/26 abr/26 mai/26 jun/26 jul/26
+Arábia Saudita
+Emirados Árabes Unidos
+Irã
+Iraque
+Kuwait
+Outros
+Brent
+A primeira rodada de ataques não atingiu seus objetivos e terminou em
+um Memorando de Entendimento. A segunda tampouco alterou o equilíbrio
+estratégico e parece ter esbarrado em limitações de recursos militares.
+A geografia ajuda a explicar o impasse. Os Estados Unidos operam a
+cerca de 10 mil quilômetros de distância, enquanto o Irã possui
+aproximadamente 2 mil quilômetros de costa e capacidade de interromper o
+fluxo de petróleo no Golfo Pérsico.
+A nova escalada, portanto, não alterou nossa leitura: a negociação
+continua sendo o desfecho mais provável.
+Até que a negociação avance, o mercado continuará dependente da
+capacidade da China de postergar suas compras. O colchão de barris
+acumulado por Pequim segue sendo o principal amortecedor de um mercado
+com estoques baixos e pouca folga.
+ESTOQUES OCDE COMERCIAIS + ESTRATÉGICOS DE 
+PETRÓLEO | ESTOQUES MENSAIS VS. FAIXA DE CINCO ANOS
+Fonte: Energy Aspects
+1700
+1800
+1900
+2000
+2100
+2200
+2300
+2400
+2500
+2600
+Jan Fev Mar Abr Mai Jun Jul Ago Set Out Nov Dez
+Faixa 5 Anos (2021-2025)
+Média 5 Anos 2025
+2026 (Real)
+
+[p. 8] | D R .  S T R A N G E L O V E
+8
+A combinação dos conflitos no Golfo e na Ucrânia exerce pressão
+adicional sobre os destilados. A restrição em Ormuz reduz a oferta de
+petróleo, enquanto os ataques ucranianos comprometem a capacidade de
+refino russa.
+MAPA DOS ATAQUES 
+UCRANIANOS A REFINARIAS 
+RUSSAS
+Fonte: Imagem gerada por IA, Kpler e Energy Aspects
+REFINO NA RÚSSIA ABAIXO DA 
+FAIXA SAZONAL | REFINO MENSAL 
+VS. FAIXA DE 5 ANOS
+Por isso, os bancos centrais estão mais preocupados com diesel e
+gasolina do que com o próprio petróleo. São os derivados que alimentam o
+frete, a agricultura e a indústria e, portanto, transmitem o choque para a
+inflação de bens.
+DESCOLAMENTO DOS DERIVADOS VS. BRENT | BASE 100 = 
+JAN/26
+Fonte: Bloomberg
+fev/26 mar/26 abr/26 mai/26 jun/26 jul/26
+120
+160
+200
+Diesel
+Gasolina
+Brent
+3,0
+3,5
+4,0
+4,5
+5,0
+5,5
+6,0
+6,5
+Jan Mar May Jul Sep Nov
+Faixa sazonal 2025
+2026 Média
+Mai Set
+
+[p. 9] | D R .  S T R A N G E L O V E
+9
+Embora a negociação pareça ser o desfecho mais provável para os dois
+conflitos, isso não significa que esteja próxima. Até que surjam sinais mais
+claros de acordos, é difícil apostar na normalização dos cracks.
+Não apostamos em guerras permanentes, mas reconhecemos que o
+caminho até a negociação ainda pode envolver novas escaladas e choques de
+oferta. No filme de Kubrick, o destino do mundo cabia a poucos homens em
+uma sala; no mercado de petróleo de 2026, decisões individuais também
+produzem consequências globais.
+GRÃOS: O RISCO VOLTA AO MAR NEGRO
+O acirramento do conflito entre Rússia e Ucrânia também voltou a
+pressionar os grãos. A região do Mar Negro tem participação relevante na
+produção e nas exportações globais de milho e trigo, o que trouxe incerteza
+renovada sobre a oferta.
+MÉDIA DA PARTICIPAÇÃO NA EXPORTAÇÃO GLOBAL DE 
+2019 A 2026 | %
+Fonte: USDA
+13%
+8%
+2%
+21%
+Milho Trigo
+15%
+29%
+Rússia
+Ucrânia
+A esse ingrediente geopolítico somaram-se outros dois: preços que se
+encontravam deprimidos após anos de oferta abundante e uma piora do clima
+na Europa e nos Estados Unidos. A combinação produziu uma elevação
+relevante nos preços dos grãos em julho.
+
+[p. 10] | D R .  S T R A N G E L O V E
+10
+PREÇOS DE TRIGO E MILHO | USD
+Fonte: Bloomberg
+jan/22 jul/22 jan/23 jul/23 jan/24 jul/24 jan/25 jul/25 jan/26 jul/26
+200
+400
+600
+800
+1.000
+1.200
+1.400
+Milho Trigo
+ÁREA DE PLANTAÇÕES DE MILHO EM CONDIÇÕES BOAS 
+OU MUITO BOAS NA FRANÇA POR SEMANA DO ANO | %
+Fonte: USDA
+20%
+40%
+60%
+80%
+100%
+10 15 20 25 30 35 40 45
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+Embora a negociação ainda pareça ser o desfecho mais provável para a
+guerra, o caminho até ela pode trazer novas interrupções na oferta do Mar
+Negro. Ainda vemos tendência altista em grãos, pois os preços ainda
+incorporam pouco prêmio para esse risco e para um clima mais desafiador.
+BRASIL: CAVALGANDO A BOMBA
+No Brasil, o mês foi morno do ponto de vista doméstico. A nova escalada
+na guerra voltou a pressionar os preços de energia. Isso reduziu o ímpeto das
+revisões baixistas para a inflação de 2026, apesar das surpresas benignas de
+curto prazo e do real bem-comportado.
+
+[p. 11] | D R .  S T R A N G E L O V E
+11
+PREÇO DO PETRÓLEO BRENT EM REAIS E INFLAÇÃO AO 
+PRODUTOR DE BENS FINAIS (IPA) | VAR. ACUMULADA 3 MESES, 
+ANUALIZADA (%)
+Para o Copom, as sinalizações do Banco Central apontam que a barra
+para não entregar o próximo corte é alta. O tamanho do ciclo, contudo,
+dependerá da resposta da atividade à medida que a flexibilização avance.
+CURVA DE JUROS FORWARD | EM % A.A.
+No campo fiscal, o governo conseguiu segurar algumas pautas-bomba
+que tiveram origem no Senado. Ainda assim, a lista de bondades oriundas do
+próprio Executivo é extensa. Como o Major Kong na cena mais icônica do
+filme, cavalgando a bomba, chapéu na mão, o governo segue com o pé no
+acelerador, rumo a outubro, sem grande preocupação com o ponto de
+impacto.
+-40
+10
+60
+110
+-20
+30
+80
+jan/19
+mai/19
+set/19
+jan/20
+mai/20
+set/20
+jan/21
+mai/21
+set/21
+jan/22
+mai/22
+set/22
+jan/23
+mai/23
+set/23
+jan/24
+mai/24
+set/24
+jan/25
+mai/25
+set/25
+jan/26
+mai/26
+set/26
+IPA Bens finais mm3m dessaz. anual Brent em reais acumulado 3m
+Fonte: Bloomberg *Brent e BRL constante até final do ano
+13
+13,5
+14
+14,5
+15
+15,5
+jul/26
+out/26
+jan/27
+abr/27
+jul/27
+out/27
+jan/28
+abr/28
+jul/28
+out/28
+jan/29
+abr/29
+jul/29
+out/29
+jan/30
+abr/30
+jul/30
+out/30
+jan/31
+abr/31
+jul/31
+out/31
+jan/32
+24.jul 30.jun
+Fonte: Bloomberg
+
+[p. 12] | D R .  S T R A N G E L O V E
+12
+MEDIDAS FISCAIS COM 
+IMPACTO EM 2026
+Fonte: Ministério da Fazenda, Tesouro Nacional e Kinea
+IMPULSO FISCAL E PARAFISCAL | 
+DELTA ANUAL, EM P.P. DO PIB
+Programa Status Δ 25-26
+(R$ bi)
+Δ 25-26
+% PIB
+TOTAL 141,5 1,0%
+Isenção IRPF Início: jan/26 31,0 0,2%
+Move Brasil 1 e 2 
+(caminhões)
+Jan-abr/26 e mai-
+ago/26 29,7 0,2%
+Consignado Início: mai/25 24,0 0,2%
+Novo Modelo de 
+Crédito Imobiliário Início: out/25 22,3 0,2%
+Desenrola 2.0 + FGTS Início: maio/26 10,5 0,1%
+Reforma Casa Brasil Início: nov/25 12,9 0,1%
+Move Aplicativo Início: jul/26 7,4 0,1%
+MCMV – Faixa 3 e 4 Início: 1S26 (faixa 
+4) / 2S26 (faixa 3) 6,5 0,0%
+Luz do Povo Início: jul/25 4,3 0,0%
+Move Combustível Saques: jan/26, 
+fev/26, mai/26 4,2 0,0%
+Gás do Povo Início: nov/25 1,6 0,0%
+Restrições Saque 
+Aniversário Início: nov/25 -12,5 -0,1%
+Nossa visão permanece: seja qual for o governo eleito neste ano, o
+desafio fiscal terá de ser enfrentado em 2027. Mesmo um eventual Lula IV
+deverá se mostrar mais moderado que neste ano no campo fiscal. Moderação
+que, somada à desaceleração do
+Nas próximas semanas, começa
+a campanha eleitoral, período que
+costuma trazer mais volatilidade aos
+mercados domésticos. Nesse
+ambiente, seguimos com posições
+pequenas e táticas em juros,
+aguardando melhor visibilidade para
+ampliar o risco doméstico. Fonte: IBGE
+INFLAÇÃO DE SERVIÇOS 
+INTENSIVOS EM MÃO DE 
+OBRA E SALÁRIO NOMINAL | 
+EM % A.A.
+emprego e da atividade, hoje os
+principais vetores da inflação de
+serviços, abriria espaço para mais
+cortes de juros em 2027.
+-3
+2
+7
+12
+17
+-3
+2
+7
+12
+17
+jan/13
+jan/14
+jan/15
+jan/16
+jan/17
+jan/18
+jan/19
+jan/20
+jan/21
+jan/22
+jan/23
+jan/24
+jan/25
+jan/26
+Serviços intensivos em mão de
+obra
+Salário nominal
+-3%
+-2%
+-1%
+0%
+1%
+2%
+3%
+05 08 11 14 17 20 23 26
+Parafiscal eleição
+Desembolso BNDES
+Precatório
+Empresas ex precatório
+Famílias ex precatório
+Impacto fiscal ampliado
+
+[p. 13] | D R .  S T R A N G E L O V E
+13
+ESTADOS UNIDOS: A DISSUASÃO PRECISA SER ANUNCIADA
+Nos Estados Unidos, o mês foi de grande expectativa em torno do Fed.
+Kevin Warsh iniciou seu mandato com tom mais firme e, na sequência, vários
+membros do comitê condicionaram a manutenção dos juros à continuidade
+de números benignos de inflação. O mercado passou o mês medindo cada
+palavra e cada dado.
+PRECIFICAÇÃO DA REUNIÃO DE DEZEMBRO/2026 DO FED 
+AO LONGO DO MÊS | %
+Fonte: Bloomberg
+Warsh FOMC
+Divulgação 
+Payroll
+Retorno Conflito Irã
+Divulgação CPI
+3,80
+3,85
+3,90
+3,95
+4,00
+4,05
+4,10
+13/jun 20/jun 27/jun 04/jul 11/jul 18/jul 25/jul
+O início do mandato contou com aliados. A trégua após a primeira
+rodada de ataques no Oriente Médio reduziu a inflação implícita, enquanto os
+juros reais subiram de forma substancial, com o mercado realizando parte do
+aperto pelo Fed. Ao mesmo tempo, números menos estrondosos de payroll
+sugerem um mercado de trabalho sem sobreaquecimento.
+INFLAÇÃO IMPLÍCITA DOS EUA | 
+%
+JUROS REAIS NA CURVA 
+AMERICANA | %
+Fonte: Bloomberg
+1,50
+2,00
+2,50
+3,00
+3,50
+jan/24 jun/24 nov/24 abr/25 set/25 fev/26 jul/26
+Implícita 2 anos Implícita 5 anos
+0,00
+0,50
+1,00
+1,50
+2,00
+2,50
+3,00
+jan/24 jun/24 nov/24 abr/25 set/25 fev/26 jul/26
+Juros Real 2 anos Juros Real 5 anos
+Fonte: Bloomberg
+
+[p. 14] | D R .  S T R A N G E L O V E
+14
+No balanço de riscos para uma eventual alta de juros imediata, a inflação
+do mês foi uma grande surpresa baixista. Embora sua composição sugira um
+resultado pouco sustentável para o ritmo subjacente, o número foi suficiente
+para retirar a urgência imediata de altas pelo Fed.
+NÚCLEO DA INFLAÇÃO DOS EUA | SAZONALIDADE DA VARIAÇÃO 
+MENSAL EM %
+Fonte: BLS
+-0,5%
+0,0%
+0,5%
+1,0%
+1 2 3 4 5 6 7 8 9 10 11 12
+Desvio Padrão 2025 2026 Média 2015-24
+QUEBRAS DE INFLAÇÃO COM DEFLAÇÃO | SAZONALIDADE DA 
+VARIAÇÃO MENSAL EM %
+Fonte: BLS
+-4%
+-2%
+0%
+2%
+4%
+6%
+1 2 3 4 5 6 7 8 9 10 11 12
+Seguro de Carro
+-1%
+0%
+1%
+1%
+2%
+1 2 3 4 5 6 7 8 9 10 11 12
+Serviços Médicos
+-4%
+-2%
+0%
+2%
+4%
+1 2 3 4 5 6 7 8 9 10 11 12
+Serviços de Telefone
+-10%
+-5%
+0%
+5%
+10%
+1 2 3 4 5 6 7 8 9 10 11 12
+Hotéis e Acomodações
+Paralelamente, a retomada do conflito no Irã devolveu o petróleo a níveis
+mais altos, com os preços de refinados de volta para perto das máximas.
+Warsh vive, assim, o dilema entre um dado benigno que olha para trás e um
+choque de combustíveis que olha para frente, sobre uma economia que
+cresce em torno do seu potencial.
+
+[p. 15] | D R .  S T R A N G E L O V E
+15
+INFLAÇÃO DOS ESTADOS UNIDOS E GASOLINA E DIESEL 
+NO VAREJO | VAR. ANUAL DA INFLAÇÃO EM % (ESQ.) E VAR. ANUAL DA 
+GASOLINA E DO DIESEL EM % (DIR.) 
+-60%
+-10%
+40%
+-3%
+2%
+7%
+12%
+2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+CPI Gasolina no Varejo Diesel no Varejo
+Nesse contexto, o Fed aguarda sinais mais consistentes sobre a
+trajetória da inflação. Aqui, a lição de Kubrick é literal: no filme, a Máquina do
+Juízo Final falha porque foi mantida em segredo. A dissuasão só funciona
+quando é crível e anunciada.
+Warsh busca construir essa credibilidade. Para isso, precisa convencer o
+mercado de que reagirá antes que um choque temporário de combustíveis
+contamine a inflação subjacente, que há muitos anos já está descolada da
+meta. E, independentemente do choque atual, ainda precisa contar com o
+imponderável para que a trajetória da economia naturalmente coloque a
+inflação em trajetória sustentada de volta para a meta.
+Por isso, ainda esperamos novas altas de juros nos Estados Unidos neste
+ano: a economia segue sólida e a inflação, acima da meta. Contudo, como a
+inflação tende a rodar em um patamar mais aceitável em 2027, abaixo de 3%,
+o Fed deve priorizar apenas ajustes ao invés de movimentos agressivos.
+Seguimos com uma carteira de moedas vendida em peso mexicano e
+moedas europeias, como já explicado em cartas anteriores. Aumentamos,
+porém, as posições compradas em moedas asiáticas, com destaque para o
+won sul-coreano e o iene japonês, reduzindo posições compradas em dólar,
+dado o CPI mais baixo que tira urgência dessa alta do Fed.
+Fonte: BLS, EIA
+
+[p. 16] | D R .  S T R A N G E L O V E
+16
+A Coreia do Sul ilustra, em termos macroeconômicos, o avanço da
+Inteligência Artificial. As exportações das gigantes de memória e
+semicondutores Samsung e Hynix levaram o superávit em conta corrente a
+mais de 20% do PIB. Se antes isso não se refletia necessariamente em um
+influxo de dólares, agora as empresas devem aumentar a internalização de
+receitas, dado o aumento do volume de investimentos no país e as mudanças
+regulatórias.
+Ao mesmo tempo, a perspectiva de novas altas de juros pelo BOK,
+diante do crescimento e da inflação mais fortes, deve reduzir o diferencial de
+juros em relação aos Estados Unidos e tornar o carrego do won mais atrativo.
+CONTA CORRENTE DA COREIA 
+DO SUL| SALDO MENSAL ANUALIZADO 
+EM % DO PIB
+DIFERENCIAL DE JUROS 
+PROJETADO VS US A PARTIR DA 
+CURVA | %
+Fonte: BOK, Bloomberg
+-5%
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+2015 2017 2019 2021 2023 2025
+0,00
+1,00
+2,00
+3,00
+4,00
+5,00
+6,00
+7,00
+2015 2017 2019 2021 2023 2025 2027
+Coreia do Sul EUA
+Curva Coreia Curva EUA
+Fonte: BOK, Bloomberg
+CONCLUSÃO: COMO APRENDEMOS A CONVIVER COM A 
+BOMBA
+A genialidade de Dr. Strangelove está em seu subtítulo: como aprendi a
+parar de me preocupar e amar a bomba. Kubrick entendeu que o absurdo da
+Guerra Fria não era apenas a possibilidade do apocalipse, mas a naturalidade
+com que o mundo aprendeu a conviver com esse risco. Os mercados de 2026
+vivem um aprendizado semelhante.
+
+[p. 17] | D R .  S T R A N G E L O V E
+Kinea Investimentos
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de
+fundos de investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários –
+CVM. Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de
+informações complementares. Estes documentos podem ser consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de
+tratamento tributário de longo prazo para os fundos que informam buscar este tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o
+Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões
+ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento
+da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam estratégias com derivativos como parte de sua política de investimento,
+que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigando o cotista a aportar recursos adicionais para
+cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada não garante a rentabilidade futura e
+fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os Fundos de
+Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na
+obrigatoriedade do cotista aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são
+condomínios fechados em que as cotas não são resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções
+refletem o atual julgamento do responsável pelo seu conteúdo na data de sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e
+suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3)
+Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento
+administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado como oferta ou solicitação de compra ou venda de valores
+mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das informações aqui contidas foram obtidas
+com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita, a integridade,
+confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de
+seu conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da
+Kinea. Quaisquer outras informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+No petróleo, as novas escaladas restringem a oferta de destilados e
+deslocam a atenção dos bancos centrais do barril para o diesel. Nos grãos, a
+guerra ameaça a oferta do Mar Negro em um momento de preços deprimidos
+e clima adverso. No Brasil, o governo cavalga a bomba fiscal rumo a outubro;
+nos Estados Unidos, Warsh busca construir credibilidade no combate à
+inflação.
+Tanto no Golfo quanto na Ucrânia, a negociação ainda parece ser o
+desfecho mais provável, embora o caminho até ela possa envolver novas
+escaladas. Na Inteligência Artificial, a dinâmica é diferente: nenhuma empresa
+pode reduzir seus investimentos antes das concorrentes. A máquina já parece
+girar por conta própria e, possivelmente, só será parada pelo mercado de
+dívida.
+No filme, os personagens falham porque cada um enxerga apenas a sua
+sala. Investir em 2026 exige o oposto: entender como conflitos, preços e
+decisões se relacionam e onde, em meio ao ruído, permanece a assimetria.
+Estamos sempre à disposição de nossos clientes e parceiros.
+
+[p. 18] | D R .  S T R A N G E L O V E
+PALAVRA DO GESTOR SOBRE A PERFORMANCE DO MÊS
+JUROS E INFLAÇÃO
+Resultado negativo. Com o pico dos estímulos
+fiscais, um consumidor endividado e uma política
+monetária contracionista, devemos ver uma
+desaceleração gradual da atividade econômica ao
+longo do tempo. A inflação tem vindo benigna,
+mas pode ser mais resiliente devido a choques
+como El Niño e a provável aprovação da PEC 6x1.
+O Banco Central deve seguir cortando os juros
+gradualmente e vemos espaço para taxas abaixo
+do precificado. No mercado internacional,
+estamos atualmente posicionados para juros mais
+baixos no México e, em menor escala, na Nova
+Zelândia e no Reino Unido. O México tem
+apresentado inflações em linha com a média
+histórica e a atividade segue fraca. Na ponta
+contrária, temos posições para juros mais altos
+nos EUA. O mercado de trabalho americano tem
+melhorado e, junto com uma inflação resiliente,
+aumentado a chance de o FED ter que reverter os
+cortes feitos no ano passado.
+MOEDAS E CUPOM CAMBIAL
+Resultado positivo. Estamos comprados em won
+coreano, dólar, real, yuan chinês e iene. Vendidos
+em euro, dólar australiano e franco suíço. A
+principal posição é na moeda coreana. O país tem,
+na ponta, mais de 25% de superávit em conta
+corrente, um ciclo robusto de crescimento puxado
+por inteligência artificial, e os juros estão subindo.
+Temos uma posição líquida comprada em dólar
+(principalmente contra o dólar australiano) como
+proteção para o Fundo.
+AÇÕES
+Resultado negativo. No exterior, o principal
+detrator foi a exposição à tecnologia com a
+correção em semicondutores. No lado positivo, os
+ganhos com os setores de saúde e financeiro.
+Aproveitamos a correção para aumentar a posição
+em semicondutores, diminuindo nos setores de
+saúde e financeiro.No Brasil, o resultado também
+foi negativo, refletindo principalmente o
+desempenho fraco de posições ligadas à
+economia doméstica, como Minha Casa Minha
+Vida e utilidades públicas. Mantivemos o
+posicionamento em virtude de crescimento,
+baixos múltiplos e dividendos elevados.
+COMMODITIES
+Resultado positivo. Mantivemos posições
+compradas em petróleo e em grãos, beneficiadas
+tanto pelo cenário geopolítico quanto pela piora
+das condições climáticas na Europa e nos Estados
+Unidos ao longo de julho. As dificuldades de
+exportação de grãos na região da Rússia e da
+Ucrânia também contribuíram para esse cenário.
+Essas posições foram reduzidas no final do
+mês.Atualmente, mantemos posições compradas
+em ouro, metais industriais, como cobre e
+alumínio, e também em boi gordo, após a forte
+correção recente do ativo.
+K I N E A . C O M . B R
+Este material de divulgaçãofoi elaborado pela Kinea (Kinea InvestimentosLtda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de investimentos. Os fundos são supervisionadose fiscalizados pela Comissão de Valores
+Mobiliários – CVM (Serviço de atendimento ao Cidadão em www.cvm.gov.br). Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Leia o regulamento e demais documentos legais do fundo antes de investir. Estes documentos podem ser consultados no site da CVM em (www.cvm.gov.br) ou no site dos respectivos Administradoresdos fundos. Fundos com menos de 6 meses de histórico não podem ter
+sua rentabilidadeexibida. É recomendadapara a avaliação de performance dos fundos de investimento, a análise de, no mínimo, 12 meses. Os Fundos de Investimentoda Kinea podem apresentar um alto grau de volatilidade e risco. A rentabilidadepassada não garante a rentabilidadefutura. Fundos de
+investimentonão são garantidospela Instituição Administradora,ou por qualquer mecanismode seguro, ou ainda pelo Fundo Garantidorde Créditos – FGC. As rentabilidadesdivulgadasnão são líquidas de impostos. Alguns fundos informam no regulamento que utilizam estratégiascom derivativoscomo
+parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigandoo cotista a aportar recursos adicionaispara cobertura do fundo. Os Fundos de Investimentoem Participações(FIP) são
+condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado,
+acarretando a obrigatoriedadede o cotista aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário (FII) são condomínios fechados em que as cotas não são resgatáveis onde os cotistas podem ter dificuldadeem alienar suas cotas no
+mercado secundário. Os Fundos de Investimento em Direitos Creditórios (FIDC) são condomínios abertos ou fechados, sendo que: (i) quando condomínios abertos, o resgate das cotas está condicionadoà disponibilidadede caixa do fundo; e (ii) quando condomínios fechados, em que as cotas não são
+resgatáveis, os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. Os Fundos de Investimento em Participações (FIP), Fundos de Investimento Imobiliário (FII) e Fundos de Investimento em Direitos Creditórios (FIDC) seguem a Res. CVM 175. Os fundos da Kinea não são
+registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam
+consideradas como U.S. Persons para fins da regulamentaçãode mercado de capitais norte-americana. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções
+utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de erros; (2) Não é possível garantir que os cenários obtidos venham efetivamentea ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado
+nem de exposição máxima de perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado como oferta ou solicitação de compra ou venda de valores
+mobiliários, instrumento financeiroou de participaçãoem qualquer estratégia de negócios específica,qualquer que seja a jurisdição. Algumas das informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradasconfiáveis. O Grupo Itaú Unibanco e a Kinea não
+declaram ou garantem, de forma expressa ou implícita, a integridade,confiabilidadeou exatidão de tais informações e se eximem de qualquer responsabilidadepor quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu conteúdo. Esse material não pode ser
+reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail:
+relacionamento@kinea.com.br.
+
+[p. 19] | D R .  S T R A N G E L O V E
+RESULTADO DA GESTÃO*
+Rentabilidade 
+do fundo desde 
+seu início.
+224,31%
+184,60%
+-50%
+0%
+50%
+100%
+150%
+200%
+250%
+jun/15 jun/16 jun/17 jun/18 jun/19 jun/20 jun/21 jun/22 jun/23 jun/24 jun/25 jun/26
+Chronos - Espelhos CDI
+RETORNO POR ESTRATÉGIAS
+ 12 MESES
+ANO 2022 2023 2024 2025 2026 jul/26 Início
+FUNDO 13,67% 12,40% 9,80% 14,58% 5,87% 0,30% 224,31%
+CDI 12,37% 13,05% 10,87% 14,31% 8,14% 1,22% 184,60%
+% CDI 110,51% 95,05% 90,12% 101,87% 72,09% 24,87% 121,51%
+HISTÓRICO DE RENTABILIDADE*
+K I N E A . C O M . B R
+INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
+PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
+Não possui
+APLICAÇÃO INICIAL
+Sujeito às regras do distribuidor.
+112
+22
+MESES POSITIVOS:              
+MESES NEGATIVOS:   08/Jun/2015 R$ 1.544.241 1,5% a.a. 20% do que exceder 100% 
+do CDI
+Público em geral Superar o CDI com vol. de 
+3% a 5% a.a..
+D+5 dias úteis da solicitação D+1 dia útil da conversão de 
+cotas
+R$ 1.607.704
+1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
+2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
+* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE II DO KINEA CHRONOS FUNDO DE 
+INVESTIMENTO FINANCEIRO MULTIMERCADO RESP LIMITADA CNPJ: 21.624.757/0001 -26 Cód. Subclasse: ZCEBZ1744744534, que NÃO está dispon ível ao 
+cliente final. Para consultar as informações referente ao seu fundo, acesse o site do distribuidor.
+Chronos - Espelhos (Sub II)
+Julho 2026
+21.624.757/0001-26CNPJ:
+Cód. Subclasse: ZCEBZ1744744534
+MULTIMERCADO

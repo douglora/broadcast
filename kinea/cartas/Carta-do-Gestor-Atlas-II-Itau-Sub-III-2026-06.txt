@@ -1,0 +1,1199 @@
+[p. 1] Junho de 2026 | Carta do Gestor
+CARTA
+DO GESTOR
+Junho 2026
+Acesse kinea.com.br
+1
+MUDANÇA DE RUMO NOS JUROS, GUERRA E CORRIDA DE IA
+
+[p. 2] Junho de 2026 | Carta do Gestor
+— Apollo 13 reportando-se à base em Houston
+“Houston, temos um problema.”
+2
+Fonte: Gerado por I.A.
+Lançado em 1995, dirigido por Ron Howard e estrelado por Tom Hanks, 
+“Apollo 13” conta a história real da missão espacial americana que deveria levar três 
+astronautas à Lua. O filme se tornou uma das grandes narrativas modernas sobre 
+crise, improviso e mudança de rota. A missão original era pousar na Lua. Mas, depois 
+de uma explosão no módulo de serviço, o objetivo mudou completamente: sobreviver, 
+economizar energia, recalcular a trajetória e trazer a tripulação de volta à Terra.
+Essa é a analogia que nos parece mais adequada para o momento atual dos 
+mercados. Em várias frentes, a missão mudou. O plano original era um mundo de 
+inflação convergindo, juros caindo e tecnologia gerando caixa. Mas os últimos meses 
+mostraram que a trajetória ficou mais complexa. 
+Nos Estados Unidos, a inflação segue acima da meta há tempo demais. A 
+nova gestão do Fed, sob Kevin Warsh, deixou uma mensagem clara: “Houston, we have
+a problem”. A inflação não pode continuar sendo tratada como um desvio temporário. 
+Se “inflação é uma escolha”, como disse Warsh, o Fed talvez precise escolher uma 
+política monetária mais dura para trazer a nave de volta à Terra. Isso significa 
+condições financeiras mais apertadas, juros americanos mais altos e dólar mais forte.
+INFLAÇÃO ANUAL DOS EUA |
+%
+Fonte: BEA
+INFLAÇÃO ACUMULADA DOS EUA |
+ÍNDICE 100 = JAN/2020
+Fonte: Reuters
+-2%
+4%
+9%
+14%
+1960 1968 1976 1984 1992 2000 2008 2016 2024
+Inflação
+Inflação excluindo alimentos e energia
+98
+108
+118
+128
+2020 2021 2022 2023 2024 2025 2026
+Meta
+Inflação
+Inflação excluindo alimentos e energia
+
+[p. 3] Junho de 2026 | Carta do Gestor
+3
+SELIC VS. NÚCLEO DE INFLAÇÃO
+Fonte: Bloomberg
+No Brasil, o problema é diferente, mas igualmente relevante. A Selic em 14%-
+15% deveria ser uma taxa emergencial. O que chama atenção é que, mesmo nesse 
+nível, o Banco Central não consegue iniciar um ciclo consistente de cortes. A economia 
+segue aquecida, a inflação de serviços permanece pressionada, o mercado de trabalho 
+continua apertado e o fiscal voltou a adicionar risco. O Brasil também precisa 
+recalcular sua rota.
+A geopolítica trouxe uma terceira mudança de rota. Na guerra, Trump 
+também precisou abandonar o plano original e buscar um “memorandumof 
+understanding”. Era a forma de evitar que a crise escalasse para um cenário de maior 
+ruptura no petróleo e no Estreito de Ormuz. O mercado, porém, pode ter desligado o 
+botão de emergência rápido demais. O petróleo voltou a se acomodar, mas o risco 
+geopolítico não desapareceu, ele apenas saiu do preço. Como na Apollo 13, uma 
+estabilização temporária não significa que a nave voltou ao curso original.
+PREÇO DO PETRÓLEO VS. PRÊMIO FÍSICO | USD
+Fonte: Bloomberg
+-2
+0
+2
+4
+6
+8
+10
+12
+14
+60
+80
+100
+120
+jul/25 set/25 nov/25 jan/26 mai/26 jul/26mar/26
+Brent
+Prêmio físico
+-3
+2
+7
+12
+0
+10
+20
+jan/20 jan/21 jan/22 jan/23 jan/24 jan/25 jan/26
+Selic Núcleos IPCA (dessaz., média 3m, anualizado)
+Deterioração BRL por aumento do risco 
+fiscal e ambiente externo mais adverso
+Surpresa com inflação corrente, guerra e 
+deterioração de expectativas. parafiscal
+
+[p. 4] Junho de 2026 | Carta do Gestor
+4
+E há ainda uma quarta dimensão, quase irônica: a entrada da SpaceX. A 
+empresa que simboliza a nova era dos foguetes agora passa a simbolizar também 
+uma nova fase da inteligência artificial. Ao se tornar uma empresa listada, 
+combinando foguetes, satélites, conectividade, data centers e IA, a SpaceX muda o 
+cenário competitivo da tecnologia. 
+O mercado hoje olha para uma nova geração de empresas de IA que 
+prometem levar a economia para outra órbita. Mas, para o investidor, a pergunta 
+continua sendo a mesma: quanta energia será consumida no caminho? No caso da IA, 
+a tecnologia é real, mas o capex é gigantesco, o freecash flow está sendo pressionado 
+e o retorno sobre o capital ainda precisa ser provado.
+FLUXO DE CAIXA DAS PRINCIPAIS EMPRESAS DE TECNOLOGIA |  
+BILHÕES USD
+Fonte: FactSect
+Spacex Meta Amazon Google Microsoft TSMC BroadcomMicron SK 
+Hynix
+Samsung NVIDIA
+-48 -43 -11 -11
+0
+-3
+Oracle
+17 20 25
+67 44 48 68 50
+90
+41
+97 97
+166 143
+226 203
+277
+-12
+2026
+2027
+Hyperscalers Semis
+A carta deste mês trata dessas mudanças de rota. Nos Estados Unidos, o Fed
+pode ter que abandonar o plano de cortes. No Brasil, o Banco Central pode ter que 
+manter juros emergenciais por mais tempo. Na geopolítica, o mercado pode ter 
+precificado a paz rápido demais. E, em tecnologia, a entrada da SpaceX no mercado 
+público pode transformar a corrida de IA em uma disputa ainda mais intensa por 
+capital.
+A Apollo 13 voltou para casa porque abandonou o plano original e aceitou 
+corrigir a rota; essa também nos parece a realidade atual dos mercados em diversas 
+frentes.
+
+[p. 5] Junho de 2026 | Carta do Gestor
+5
+ESTADOS UNIDOS: INFLAÇÃO É UMA ESCOLHA
+Nos Estados Unidos, a inflação tem rodado acima da meta desde a Covid-19. 
+Por muito tempo, o Fed tolerou essa inflação mais alta na expectativa de que ela 
+convergisse gradualmente. Essa convergência aconteceu parcialmente, mas não o 
+suficiente.
+A chegada de Kevin Warsh muda a mensagem. O novo presidente assume 
+com uma comunicação mais clara: inflação acima da meta é, em alguma medida, uma 
+escolha. E manter a inflação persistentemente acima de 2% deixou de ser uma escolha 
+aceitável.
+Fonte: Bloomberg
+Imagem gerada por IA.
+“Esse comitê irá entregar estabilidade de 
+preços.”
+“O compromissode cumprir essa metaé 
+forte, unânimee inequívoco.”
+Kevin Warsh, na coletiva de 
+imprensa do FOMC
+“Ficamos aquém dessa meta por cinco anos, 
+e vamos corrigir isso.”
+Essa mudança importa porque levar a inflação de volta para 2% exige aperto 
+das condições financeiras. Não basta esperar. No estado atual da economia 
+americana, é difícil enxergar a inflação convergindo plenamente para a meta com a 
+política monetária atual.
+O desemprego voltou a cair, o mercado de trabalho segue resiliente e os 
+payrollssurpreenderam positivamente nos últimos trimestres. Ao mesmo tempo, o 
+core PCE segue acima de 3%, inclusive nas nossas projeções. A economia não parece 
+fraca o suficiente para entregar, sozinha, a convergência inflacionária desejada pelo 
+Fed.
+
+[p. 6] Junho de 2026 | Carta do Gestor
+6
+DESEMPREGO EUA |
+%
+Fonte: Reuters, Kinea
+EMPREGO (PAYROLL) |
+VAR. MENSAL E MÉDIA 3 MESES
+CORE PCE | VARIAÇÃO 
+ANUAL
+3,3
+3,5
+3,7
+3,9
+4,1
+4,3
+4,5
+jan/23 jan/24 jan/25 jan/26
+-200
+-100
+0
+100
+200
+300
+jan/25 jul/25 jan/26
+Consenso BBG
+Média 3 meses
+0%
+2%
+4%
+6%
+jul/20 jan/22 jul/23 jan/25 jul/26
+Projeção
+Core PCE
+Meta
+A questão, portanto, não é apenas se o Fed vai subir juros. A questão é 
+quando e com qual intensidade ele precisará apertar as condições financeiras para 
+recuperar credibilidade. Se o objetivo é reconstruir credibilidade, é melhor agir mais 
+cedo do que mais tarde.
+DOT PLOT SEP/FOMC DO 
+JUROS EUA |
+%
+Fonte: SEP, FOMC, Bloomberg, Atlanta FED
+CURVA DE JUROS EUA 
+PRÉ/PÓS FOMC |
+%
+JUROS PRESCRITO POR 
+MODELO DE REGRA DE 
+TAYLOR DO ATLANTA 
+FED | %
+2,75
+3,00
+3,25
+3,50
+3,75
+4,00
+4,25
+4,50
+2026 2027
+3,6
+3,8
+4
+4,2
+jun/26 dez/26 jun/27
+Antes do
+FOMC
+Depois do
+FOMC -2,0
+3,0
+8,0
+2000 2006 2012 2018 2024
+Regra de Taylor
+Taxa de Juros
+Essa mudança também tem implicações para o dólar. Uma política monetária 
+mais apertada nos Estados Unidos tende a favorecer a moeda americana, 
+especialmente depois de um período longo de depreciação. O dólar mais forte 
+também ajuda o Fed pelo canal da inflação importada.
+
+[p. 7] Junho de 2026 | Carta do Gestor
+7
+DXY |
+ÍNDICE
+Fonte: Reuters, Bloomberg
+DÓLAR E DIFERENCIAL DE 
+JUROS COM EUROPA |
+USD$ (ESQ.) E % (DIR.)
+DXY E PREÇOS 
+IMPORTADOS | VARIAÇÃO 
+ANUAL
+95
+100
+105
+110
+jan/25 jun/25 nov/25 abr/26
+-3,0
+-2,0
+-1,0
+0,0
+1,0
+0,95
+1,00
+1,05
+1,10
+1,15
+1,20
+1,25
+jun/20 jun/22 jun/24 jun/26
+EUR/USD
+Dif. Juro Real EUA/EUR 2 anos
+-2%
+-1%
+0%
+1%
+2%
+3%
+4%
+-20%
+-10%
+0%
+10%
+20%
+30%
+jan/10 jan/15 jan/20 jan/25
+DXY
+Preços Importados (Bens
+Consumidores ex-Veículos)
+A nossa posição comprada em dólar reflete essa combinação. Crescimento 
+relativo melhor nos Estados Unidos, diferencial de juros mais favorável, surpresas 
+econômicas mais fortes e um Fed mais comprometido com a meta de inflação 
+formam um ambiente positivo para o dólar, especialmente contra moedas europeias e 
+contra o peso mexicano.
+PROJEÇÃO DE PIB 
+ESTADOS UNIDOS E 
+PARES | %
+Fonte: Bloomberg, Reuters
+DIFERENCIAL DE JUROS 5 
+ANOS EUA VS. PARES |
+%
+SURPRESA RELATIVA DE 
+ATIVIDADE EUA VS. 
+EUROPA | ÍNDICE
+0,0
+1,0
+2,0
+3,0
+2026 2027
+Estados Unidos Canadá
+Zona do Euro Alemanha
+França Reino Unido
+4
+4,5
+5
+5,5
+mar/26 abr/26 mai/26 jun/26
+México
+-0,5
+0
+0,5
+mar/26 abr/26 mai/26 jun/26
+Nova Zelândia
+-2
+-1,5
+-1
+mar/26 abr/26 mai/26 jun/26
+Suécia -80
+-30
+20
+70
+jan/25 jul/25 jan/26
+EUA Europa
+Fora dos Estados Unidos, a dinâmica é diferente. Em muitos países, a pressão 
+inflacionária recente estava mais ligada ao choque de petróleo e energia do que a uma 
+economia doméstica excessivamente aquecida. Com a resolução da guerra e a queda 
+do petróleo, esse componente começa a aliviar.
+
+[p. 8] Junho de 2026 | Carta do Gestor
+8
+Por isso, aumentamos posições aplicadas fora dos Estados Unidos, 
+principalmente em México, Suécia e Nova Zelândia. Nesses países, a combinação de 
+atividade mais fraca, inflação mais dependente de energia e bancos centrais menos 
+pressionados cria uma assimetria diferente da americana.
+TRAJETÓRIA DE JUROS 
+DO MÉXICO (CURVA) | %
+Fonte: Bloomberg, Riskbank, BusinessNZ, StatsNZD
+TRAJETÓRIA DE JUROS DA 
+SUÉCIA (RISKBANK) | %
+PMI E PIB NOVA 
+ZELÂNCIA | VAR. ANUAL % 
+(ESQ.) E ÍNDICE (DIR.)
+4%
+6%
+8%
+10%
+12%
+jan/22 set/23 mai/25 jan/27
+0
+1
+2
+3
+4
+5
+jan/22 set/23 mai/25 jan/27
+30
+40
+50
+60
+70
+-6%
+-1%
+4%
+9%
+2008 2012 2016 2020 2024
+O Brasil sobe juros, mas não consegue cortá-los de volta para níveis normais. 
+O que antes parecia uma taxa emergencial começa a se parecer com uma nova taxa 
+de equilíbrio.
+Parte do problema está no fiscal. A política fiscal segue expansionista, o 
+orçamento continua rígido e novas medidas de gasto, renúncia ou transferência de 
+renda mantêm a demanda aquecida. O resultado é uma economia com desemprego 
+baixo, crédito à pessoa física ainda estendido e inflação de serviços resistente.
+BRASIL: A TAXA QUE NÃO CONSEGUE VOLTAR PARA CASA
+CONCESSÃO PESSOA 
+FÍSICA | A PREÇOS CONSTANTES, 
+JAN/20 = 100MM3M
+Fonte: BCB, MCM
+TAXA DE OCUPAÇÃO |
+OCUPADOS EM % DA POPULAÇÃO 
+ATIVA
+INFLAÇÃO DE SERVIÇOS 
+INTENSIVOS EM MÃO DE OBRA 
+VS. SALÁRIO NOMINAL | EM % 
+A.A.
+-3
+2
+7
+12
+17
+22
+-3
+2
+7
+12
+17
+mar/16 mar/21 mar/26
+Intensivos mão de obra
+Salário nominal
+47%
+49%
+51%
+53%
+55%
+57%
+59%
+61%
+jan/00 jan/07 jan/14 jan/21
+50
+100
+150
+200
+jan-20 jan-22 jan-24 jan-26
+Núcleo PF
+Linhas endividamento
+Meio de pgto
++15%
+
+[p. 9] Junho de 2026 | Carta do Gestor
+9
+As chamadas “pautas-bomba” agravam esse quadro. Elas podem ser 
+populares no curto prazo, mas aumentam a percepção de risco fiscal, pressionam a 
+curva de juros e reduzem a capacidade do Banco Central de cortar a Selic.
+MEDIDAS FISCAIS COM IMPACTO EM 2026
+Fonte: BTG
+Programa Status Δ 25-26
+(R$ bi)
+Δ 25-26
+% PIB
+TOTAL 141,5 1%
+Isenção IRPF Início: jan/26 31,0 0,2%
+Move Brasil 1 e 2 (caminhões) Jan-abr/26 e mai-ago/26 29,7 0,2%
+Consignado Início: mai/25 24,0 0,2%
+Novo Modelo de Crédito Imobiliário Início: out/25 22,3 0,2%
+Desenrola 2.0 + FGTS Início: maio/26 10,5 0,1%
+Reforma Casa Brasil Início: nov/25 12,9 0,1%
+Move Aplicativo Início: jul/26 7,4 0,1%
+MCMV – Faixa 3 e 4 Início: 1S26 (faixa 4) / 2S26 (faixa 
+3) 6,5 0,0%
+Luz do Povo Início: jul/25 4,3 0,0%
+Move Combustível Saques: jan/26, fev/26, mai/26 4,2 0,0%
+Gás do Povo Início: nov/25 1,6 0,0%
+Restrições Saque Aniversário Início: nov/25 -12,5 -0,1%
+A discussão sobre o fim da escala 6x1 entra nessa mesma lógica. A redução 
+de jornada pode ter mérito social, mas, se implementada em um mercado de trabalho 
+já apertado e sem aumento correspondente de produtividade, eleva o custo unitário 
+do trabalho. E o resultado é o repasse desse custo para o consumidor final.
+6X1: MATRIZ SETORIAL | TAMANHO DO 
+CÍRCULO PROPORCIONAL AO TAMANHO DO 
+SETOR NO PIB 
+Fonte: TRU/IBGE 2021, PNAD Contínua  |  Elaboração: Kinea
+TABELA IMPACTO INFLAÇÃO | EM 
+BPS
+Ganho
+Produtividade
+↓ %Repasse →
+0% 20% 40% 55% 80%
+100%
+integral
+100 0 0 0 0 0 0
+75 0 9 19 26 37 47
+50 0 20 39 54 78 97
+25 0 30 59 81 118 148
+0 0 40 79 109 159 199
+Ganho de produtividade
+Repasse para o Consumidor final
+
+[p. 10] Junho de 2026 | Carta do Gestor
+10
+O problema brasileiro fica ainda mais difícil em um mundo de Fed mais duro. 
+Juros americanos mais altos, dólar mais forte e condições financeiras globais mais 
+apertadas reduzem a liberdade do Banco Central brasileiro. Quando o real fica 
+vulnerável, o câmbio vira o canal de transmissão externo da nossa fragilidade 
+doméstica.
+SELIC VS. FED FUNDS: EM APENAS DUAS 
+OCASIÕES O BRASIL CONSEGUIU CORTAR JUROS 
+COM FED SUBINDO
+Fonte: FRED, BCB
+BRL REAL EFETIVO VS. USD
+Fonte: Bloomberg
+-1
+1
+3
+5
+7
+9
+0
+5
+10
+15
+20
+25
+30
+jan/00 jan/05 jan/10 jan/15 jan/20 jan/25
+Selic Meta (%) Fed Funds (%)
+A consequência das nossas fragilidades é que, mesmo quando o choque 
+externo melhora, o Brasil não consegue capturar integralmente esse alívio. Outros 
+países reprecificam suas curvas para baixo mais rapidamente. O Brasil fica para trás 
+porque o problema não é apenas petróleo, guerra ou Fed. É fiscal, mercado de 
+trabalho, crédito, câmbio e prêmio de risco estrutural.
+VARIAÇÃO SWAP 2 ANOS NO MÊS DE JUNHO |  EM P.P.
+Fonte: Bloomberg
+-1
+-0,5
+0
+0,5
+1
+75
+85
+95
+105
+115
+125
+2,5
+3,5
+4,5
+5,5
+6,5
+jan/00 jan/05 jan/10 jan/15 jan/20 jan/25
+BRL reer a preços de 24/jun USD REER
+
+[p. 11] Junho de 2026 | Carta do Gestor
+11
+No mês de junho, o mercado chegou a precificar o fim do ciclo de calibração, 
+em função de surpresas altistas com inflação de curto prazo e medidas populistas 
+parafiscais do governo. Acreditamos, contudo, que as próximas estão em aberto . A 
+continuidade do ciclo irá depender de uma combinação de fatores, que envolvem 
+surpresas baixistas com atividade e um ambiente externo estável.
+CURVA FUTURA DE JUROS NOMINAL |  EM % A.A.
+Fonte: Bloomberg
+14
+12
+11,5
+12,5
+13,5
+14,5
+15,5
+mar/26 nov/26 jul/27 mar/28 nov/28 jul/29 mar/30 nov/30 jul/31
+30/06/2026 27/02/2026
+Seguimos acreditando que o próximo movimento deve ser de queda, e não de 
+alta. As principais medidas de expansão fiscal que vemos este ano terão impacto 
+menor no PIB do ano que vem.
+Adicionalmente, os governos costumam fazer o dever de casa no início do 
+mandato. Em nossa visão, um eventual primeiro ano de Lula IV seria mais parecido do 
+ponto de vista fiscal com o terceiro ano de Lula III, do que com este último ano de 
+mandato. E, sem o impulso fiscal positivo, os juros restritivos terão efeitos mais 
+evidentes na economia. 
+TAXA REAL DE JUROS |  SELIC – NÚCLEO INFLAÇÃO (MM3M), EM % A.A.
+Fonte: Bloomberg
+-5
+0
+5
+10
+15
+20
+00 02 04 06 08 10 12 14 16 18 20 22 24 26
+
+[p. 12] Junho de 2026 | Carta do Gestor
+12
+No momento estamos táticos em ativos brasileiros. Temos posições 
+aplicadas em juros curtos pelo viés baixista de inflação, mas protegidos via inclinação. 
+Não temos exposição ao real no momento.  Na bolsa, mantemos investimentos em 
+setores específicos como MCMV, utilidades públicas e aeroespacial. 
+AÇÕES: DA APOLLO 13 À SPACEX
+Em ações, o principal evento do mês foi a chegada da SpaceX ao mercado. Se 
+a Apollo 13 simboliza a emergência e a necessidade de corrigir rota, a SpaceX
+representa a nova fronteira da corrida tecnológica na qual o foguete retorna em 
+segurança de ré à sua base.
+Mas, para o mercado, a SpaceX não é apenas uma empresa espacial. Ela 
+passa a ser também uma nova empresa listada de inteligência artificial: tem o Grok, 
+tem infraestrutura de hyperscaler, vende capacidade computacional para terceiros e 
+comprou a Cursor para reforçar sua presença em codinge modelos aplicados.
+HYPERSCALE DA SPACEX VS. 
+CONCORRENTES
+Fonte: Yipit, MS, Bernstein
+MARKET SHARE DOS 
+HYPERSCALERS
+Fonte: Synergy Research
+US$ bi GPUs Capex
+2025 ARR IaaS
+SpaceX
+320k 
+(+220k em 
+construção)
+10 28
+AWS 2.5-3.5M 130 67
+Azure 2-3M 88 35
+GCP 1.5-2.5M 92 28
+Oracle 700k 21 13
+CoreWeave 650k 15 8
+Essa entrada muda a discussão competitiva. Até pouco tempo atrás, o 
+mercado via hyperscalecomo um oligopólio de poucos vencedores. Agora, a 
+competição aumenta: AWS, Azure, Google, Oracle, CoreWeave, Neoclouds, Meta e 
+SpaceX. Quanto mais competidores entram, mais difícil fica defender preço, margem e 
+retorno sobre capital.
+Ao mesmo tempo, o ciclo de capex de IA está consumindo quase todo o fluxo 
+de caixa das grandes empresas. O investimento em infraestrutura de IA pode se 
+aproximar de US$ 1 trilhão, e o mercado já começa a ver as primeiras emissões de 
+capital. Nossa expectativa é que Amazon, Microsoft, Meta e outros hyperscalers
+também precisem acessar capital.
+
+[p. 13] Junho de 2026 | Carta do Gestor
+13
+FLUXO DE CAIXA DAS HYPERSCALERS |  BILHÕES USD
+Fonte: FactSect
+Isso torna mais difícil a progressão de preços das ações. Em um ambiente de 
+muita emissão, capex crescente e retorno ainda incerto, o mercado tende a questionar 
+múltiplos. O problema deixa de ser apenas crescimento. Passa a ser retorno sobre 
+capital.
+Também seguimos cautelosos com liderança de modelos. A Anthropic
+mantém posição forte, mas a liderança tecnológica muda rapidamente. O episódio do 
+Fable 5 mostrou como modelos podem gerar riscos regulatórios, reputacionais e 
+políticos. E a trajetória recente do Gemini reforça o ponto: um modelo pode sair de 
+liderança para posição secundária em poucos meses.
+Spacex Meta Amazon Google Microsoft
+11 8
+-17
+-48 -43
+0
+-5
+-14 -11
+-11
+44
+54
+Oracle
+0
+-3
+32 33
+8
+-12
+17
+69
+73 73
+20 25
+67
+70 77
+67
+4446
+2023
+2024
+2025
+2026
+2027
+RANKING HISTÓRICO DE MODELOS DE IA
+Fonte: Artificial Analysis
+
+[p. 14] Junho de 2026 | Carta do Gestor
+14
+Por isso, temos evitado estar excessivamente expostos tanto a hyperscalers
+quanto a empresas puras de modelo. A competição está aumentando, a necessidade 
+de capital está crescendo e a vantagem competitiva parece menos estável do que o 
+mercado precificava.
+Nosso posicionamento continua em semicondutores. É ali que vemos maior 
+escassez, maior visibilidade de demanda e melhor captura de valor no curto prazo. 
+Memória, semicaps, GPUs e, em alguns casos, CPUs continuam sendo gargalos da 
+cadeia. Mesmo com competição entre modelos e hyperscalers, todos eles precisam 
+comprar chips, equipamentos, memória e capacidade de fabricação.
+CADEIA DE VALOR DA INTELIGÊNCIA ARTIFICIAL
+Fonte: Kinea Research
+No Brasil, seguimos com posições limitadas. Juros elevados, proximidade da 
+eleição e prêmio de risco fiscal reduzem a atratividade do índice como um todo. 
+Mantemos exposição mais seletiva em construtoras (Minha Casa, Minha Vida), utilities
+e Embraer.
+Mercados Desenvolvidos Mercados Emergentes
+Semis Yield
+Dolarizadas Financials
+ Construtoras
+SMH
+Financials
+KBWB
+Industrials
+XLI
+Biotech
+IBB
+XBI
+Energy
+Energy
+XLE
+
+[p. 15] Junho de 2026 | Carta do Gestor
+jan/26 fev/26 mar/26 abr/26 mai/26 jun/26
+60
+75
+90
+105
+120 -33%
+15
+Em commodities, a mensagem principal é que o mercado parece ter retirado 
+o prêmio de risco rápido demais. A nave parece mais tranquila, mas a rota ainda não 
+foi concluída.
+O primeiro exemplo é o petróleo. Durante o fechamento do Estreito de 
+Ormuz, o preço se manteve surpreendentemente comportado. Parte disso se explica 
+pela redução das compras chinesas, que ajudou a equalizar temporariamente o 
+balanço global de oferta e demanda.
+COMMODITIES: O PAINEL ACALMOU, MAS A MISSÃO AINDA NÃO 
+ACABOU
+BALANÇA COMERCIAL DE PETRÓLEO ESTIMADA MAIO | MBPD
+Fonte: Kinea, KPLER, Energy Aspects
+2
+-2
+Superavit 
+pré-existente
+12
+Perda de 
+produção após 
+fechamento 
+de Ormuz
+2
+Queda Demanda 
+ex-china
+4
+Redução líquida 
+de compras da 
+China
+2
+Reservas 
+estratégicas
+1
+Petróleo no mar Déficit global 
+comercial 
+ex-china
+Com começo de uma reabertura do estreito e a negociação do memorando de 
+entendimento, o mercado rapidamente retirou o prêmio de risco. O problema é que o 
+preço passou a considerar uma normalização quase completa, enquanto a negociação 
+entre Estados Unidos e Irã ainda carrega riscos relevantes nos próximos 60 dias.
+COMPORTAMENTO DO BRENT 
+PERANTE O CONFLITO | USD
+Fonte: Bloomberg 
+FLUXO DE PETRÓLEO E 
+REFINADOS PELO ESTREITO DE 
+ORMUZ | MBPD
+Fonte: KPLER
+0
+5
+10
+15
+20
+25
+30
+mar/26 abr/26 mai/26 jun/26
+Irã
+Emirados Árabes Unidos
+Arábia Saudita
+Iraque
+Kuwait
+Outros
+28 de 
+fevereiro: 
+Início da 
+Guerra
+16 de junho: 
+MOU/acordo 
+US-Irã
+
+[p. 16] Junho de 2026 | Carta do Gestor
+16
+Além disso, existe uma questão operacional importante. Quase 100 milhões 
+de barris que ficaram em navios dentro do Golfo estão voltando rapidamente a 
+circular pelo mundo. Produtores que antes sugeriam prazos maiores para retomada 
+de oferta também estão encurtando estes prazos e sugerindo maior otimismo.
+ESTOQUES FLUTUANTES NO 
+GOLFO | MB
+Fonte: KPLER
+REVISÕES DE PRODUÇÃO APÓS 
+REABERTURA DE ORMUZ NO GOLFO
+Fonte: Reuters, KUNA, The National
+1
+3 3
+3
+5 4
+3
+5
+4
+4
+3
+3
+4
+1
+3
+4
+1
+2
+6
+6
+5
+4
+4
+5
+7
+7
+8
+8
+7
+7
+8
+7 4
+3
+4
+5
+5
+53
+98 91
+90
+107
+101
+84
+54
+52
+50
+50
+jun/25 ago/25 nov/25 jan/26 mar/26 jun/26
+12
+76
+84
+80
+65
+61
+Por isso, estamos neutros em petróleo. O preço spotjá normalizou boa parte 
+do choque, mas ainda há riscos geopolíticos relevantes. A assimetria, para nós, está 
+menos no petróleo curto e mais na venda de produtores de petróleo e petróleo longo 
+que continuaram negociando em preços elevados para um mundo que deve reverter a 
+um superávit relevante com a normalização de Ormuz.
+PREÇO DO PETRÓLEO VS. PREÇO DOS PRODUTORES |  BASE 100 = JAN/26
+Fonte: Bloomberg (brent curto = CO1 COMDTY. brent longo = CO12 COMDTY)
+80
+100
+120
+140
+160
+180
+jul/25 set/25 nov/25 jan/26 mar/26 mai/26
+Brent (longo)
+Brent (curto)
+XLE (ETF de energia)
+
+[p. 17] Junho de 2026 | Carta do Gestor
+17
+Nos grãos, a dinâmica foi parecida. A melhora das condições climáticas nos 
+Estados Unidos e a expectativa de reabertura de Ormuz, que reduz o risco sobre o 
+fluxo de fertilizantes, levaram a uma queda acentuada dos preços, principalmente do 
+milho, ao longo de junho.
+PREÇO DOS GRÃOS DURANTE O ANO |  BASE 100 = JAN/26
+Fonte: Bloomberg
+90
+100
+110
+120
+130
+fev/26 mar/26 abr/26 mai/26 jun/26
+80
+100
+120
+140
+160
+180
+200Soja
+Milho
+Brent
+O milho hoje negocia apenas um pouco acima do custo de produção, que 
+estimamos na casa de US$ 4 por bushel. Quando o preço se aproxima do custo, o 
+downsidecomeça a ficar mais limitado, enquanto qualquer frustração climática pode 
+reconstruir prêmio rapidamente.
+PREÇO DO MILHO VS. CUSTO DE PRODUÇÃO | USD
+Fonte: USDA
+200
+400
+600
+800
+2010 2012 2014 2016 2018 2020 2022 2024 2026
+-10%
+Milho
+Custo Fixo + Variável
+
+[p. 18] Junho de 2026 | Carta do Gestor
+18
+CALENDÁRIO AGRÍCOLA DO MILHO AMERICANO
+Fonte: USDA NASS Crop progress – média de 5 anos, Cinturão de milho
+Por isso, preferimos estar comprados em milho. A queda recente retirou o 
+prêmio de risco, o preço voltou para próximo do custo de produção e o período crítico 
+ainda está à frente. A assimetria, neste momento, é mais altista do que baixista.
+Essa visão também vale para grãos e softcommodities de forma mais ampla. 
+O mercado parece confortável demais com o cenário climático, ao mesmo tempo em 
+que cresce a probabilidade de El Niño no segundo semestre.
+PROBABILIDADE DE EL NIÑO NO SEGUNDO SEMESTRE | %
+Fonte: NOAA
+11% 1% 7%
+26%
+48%
+62% 63%
+45%
+24%
+86%
+9%
+36%
+43%
+36%
+27% 25%
+33%
+35%58%
+46%
+26%
+14% 9% 10%
+16%
+28%
+31%
+10% 2% 2% 11%1% 2% 2%
+0%
+0%
+maio-julho
+1%
+junho-
+agosto
+julho-
+setembro
+0%5%
+agosto-
+outubro
+0%
+setembro-
+novembro
+0%
+novembro-
+janeiro
+outubro-
+dezembro
+dezembro-
+fevereiro
+0%
+janeiro-
+março
+2% 4%3%
+El Niño muito forte El Niño forte El Niño moderado El Niño fraco Neutro
+O problema é que ainda estamos antes do período mais crítico da safra 
+americana. A polinização do milho ocorre em julho e é uma das janelas mais sensíveis 
+do ciclo. O mercado está precificando um desfecho benigno antes de atravessar a fase 
+mais importante da lavoura.
+
+[p. 19] Junho de 2026 | Carta do Gestor
+19
+CONCLUSÃO
+Soja
+Aplicado Cesta compradaCesta comprada Cesta Comprada
+Juros Ações CommoditiesMoedas
+Tomado Cesta vendidaCesta vendida Cesta vendida
+I.A. Yield
+Construção
+civil
+China
+Desenvolvidos Emergentes
+Desenvolvidos Emergentes
+Açúcar
+Reino 
+Unido
+México
+EUA
+Brasil
+Ouro
+Milho
+Aeroespa
+cial
+União 
+Europeia
+MéxicoÍndices
+Financeiras
+Austrália
+Biotecno
+logia
+Industriais
+EUA
+Nova Zelândia
+A missão mudou. O mercado começou o mês imaginando que a normalização 
+do risco geopolítico levaria a uma nova rodada de queda de juros ao redor do planeta e 
+à compressão dos prêmios de risco. A reabertura de Ormuz, a queda do petróleo e o 
+alívio nas commodities pareciam recolocar a nave na rota original.
+Entretanto, como na Apollo 13, novos acidentes ocorreram no meio do 
+caminho e exigem um repaginação da missão. Nos Estados Unidos, Kevin Warsh
+recolocou a inflação de 2% no centro do painel do Fed. No Brasil, a Selic segue presa 
+em patamar elevado, e a taxa de equilíbrio parece ter se deslocado para cima.
+O resultado é um mundo menos simples do que parecia no começo do mês. A 
+geopolítica melhorou, mas a política monetária ficou mais difícil. As commodities 
+devolveram prêmio de risco, mas ainda há riscos no petróleo e no clima. A inteligência 
+artificial segue como fronteira de crescimento, mas agora com mais competição, mais 
+capex e maior necessidade de financiamento.
+Por isso, nosso portfólio segue construído para um ambiente em que a 
+emergência diminuiu, mas a missão ainda não acabou. Preferimos o dólar a moedas 
+vulneráveis, juros aplicados fora dos Estados Unidos, cautela com Brasil, neutralidade 
+em petróleo com preferência por vender produtores, exposição comprada em milho e 
+preferência por semicondutores dentro da cadeia de IA.
+
+[p. 20] Junho de 2026 | Carta do Gestor
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de
+investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM. Os fundos de condomínio
+aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de informações complementares. Estes documentos podem ser
+consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou
+vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da
+regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam
+estratégias com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado,
+obrigando o cotista a aportar recursos adicionais para cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada
+não garante a rentabilidade futura e fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os
+Fundos de Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na obrigatoriedade do cotista
+aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são condomínios fechados em que as cotas não são
+resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de
+sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de
+erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de
+perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado
+como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das
+informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita,
+a integridade, confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu
+conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras
+informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+20
+A Apollo 13 voltou para casa porque abandonou o plano original e aceitou 
+corrigir a rota. O mesmo vale para os mercados. A missão mudou. Não estamos mais 
+no mundo de inflação convergindo automaticamente, juros caindo em linha reta e 
+tecnologia gerando caixa sem necessidade de capital. Estamos em um ambiente em 
+que o Fed pode precisar apertar novamente, o Brasil pode manter juros emergenciais 
+por mais tempo e a inteligência artificial pode consumir mais caixa antes de entregar 
+retorno.
+Estamos sempre à disposição de nossos clientes e parceiros.
+Kinea Investimentos
+
+[p. 21] Junho de 2026 | Carta do Gestor
+Este material de divulgação foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de
+investimentos. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM (Serviço de atendimento ao Cidadão em www.cvm.gov.br). Os fundos de condomínio aberto e não destinados a
+investidores qualificados possuem lâminas de informações essenciais. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este tratamento no regulamento. Leia o regulamento e demais
+documentos legais do fundo antes de investir. Estes documentos podem ser consultados no site da CVM em (www.cvm.gov.br) ou no site dos respectivos Administradores dos fundos. Fundos com menos de 6 meses de histórico
+não podem ter sua rentabilidade exibida. É recomendada para a avaliação de performance dos fundos de investimento, a análise de, no mínimo, 12 meses. Os Fundos de Investimento da Kinea podem apresentar um alto grau de
+volatilidade e risco. A rentabilidade passada não garante a rentabilidade futura. Fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor
+de Créditos – FGC. As rentabilidades divulgadas não são líquidas de impostos. Alguns fundos informam no regulamento que utilizam estratégias com derivativos como parte de sua política de investimento, que da forma que são
+adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigando o cotista a aportar recursos adicionais para cobertura do fundo. Os Fundos de Investimento em
+Participações (FIP) são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em
+perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando a obrigatoriedade de o cotista aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos
+de Investimento Imobiliário (FII) são condomínios fechados em que as cotas não são resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. Os Fundos de Investimento em Direitos
+Creditórios (FIDC) são condomínios abertos ou fechados, sendo que: (i) quando condomínios abertos, o resgate das cotas está condicionado à disponibilidade de caixa do fundo; e (ii) quando condomínios fechados, em que as cotas
+não são resgatáveis, os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. Os Fundos de Investimento em Participações (FIP), Fundos de Investimento Imobiliário (FII) e Fundos de Investimento em
+Direitos Creditórios (FIDC) seguem a Res. CVM 175. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou
+vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da regulamentação de mercado
+de capitais norte-americana. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções
+utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não
+configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores
+ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de participação em qualquer estratégia de
+negócios específica, qualquer que seja a jurisdição. Algumas das informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não
+declaram ou garantem, de forma expressa ou implícita, a integridade, confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer
+da utilização desse material e de seu conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea.
+Quaisquer outras informações ou esclarecimentossobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: relacionamento@kinea.com.br.
+21
+image.png
+PALAVRA DO GESTOR SOBRE A PERFORMANCE DO MÊS
+AÇÕES
+Resultado positivo. As ações globais foram pressionadas pela
+mudança de direção do banco central americano e pela
+fraqueza das ações de tecnologia, especialmente as MAG7. O
+mercado passou a reconhecer com mais clareza que o forte
+capex em inteligência artificial tem gerado pressão relevante
+sobre o fluxo de caixa dessas empresas. No fundo, reduzimos
+a exposição direta à IA, mantendo foco em semicondutores
+selecionados, principalmente TSMC, e ampliamos a
+diversificação para setores como industriais, biotech,
+financials e small caps nos EUA. No Brasil, mantivemos foco
+em setores domésticos, como Minha Casa Minha Vida e
+utilidades públicas, considerando os preços mais atraentes
+após a recente correção do mercado, o que nos faz manter
+uma posição comprada. Além disso, carregamos posições
+vendidas em empresas de commodities, em um ambiente
+mais desafiador para o petróleo e metais.
+COMMODITIES
+Resultado negativo. Não capturamos a reação do petróleo
+dentro de commodities, tendo preferido vender ações de
+produtoras de petróleo. Também fomos impactados pela
+queda das agrícolas. A posição comprada em agrícolas
+refletia a expectativa de riscos ligados ao El Niño e à safra
+norte-americana, que não se materializaram no período.
+Ainda assim, avaliamos que os riscos para o segundo
+semestre seguem subdimensionados, razão pela qual
+mantemos posições compradas em milho e açúcar. Também
+voltamos a carregar uma posição comprada modesta em
+ouro.
+JUROS E INFLAÇÃO
+Resultado negativo. A curva de juros brasileira seguiu tendo
+aumentos com temores fiscais e riscos inflacionários, mas
+entendemos que a inflação deve moderar e surpreender o
+consenso para baixo nos próximos meses com números
+menores em alimentos e industriais. O fiscal deve seguir
+sendo fonte de fragilidade, principalmente se o fluxo para
+emergentes diminuir. Consequentemente, estamos com
+posições para juros mais baixos nos prazos curtos e para
+maiores inclinações na curva. No mercado internacional
+estamos atualmente posicionados para juros mais baixos no
+México e, em menor escala, na Nova Zelândia. O México tem
+apresentado inflações em linha com a média histórica e a
+atividade segue fraca. Na ponta contrária, temos posições
+para juros mais altos nos EUA. O mercado de trabalho
+americano tem melhorado e, junto com uma inflação
+resiliente, aumentado a chance do FED ter que reverter os
+cortes feitos no ano passado.
+MOEDAS E CUPOM CAMBIAL
+Resultado positivo. Estamos comprados em dólar e yuan
+chinês. Vendidos em euro, libra e dólar australiano. A
+economia americana tem apresentado resultados
+econômicos mais resilientes do que outras geografias,
+puxada pelo ciclo de investimentos em inteligência artificial.
+Além disso, o mercado de trabalho tem melhorado e a
+inflação está resiliente, o que aumenta a probabilidade de o
+banco central americano ter que subir juros.
+
+[p. 22] Junho de 2026 | Carta do Gestor
+22
+CNPJ: 29.762.315/0001-58 - Cód. Subclasse: LRTPA1746555728 - Subclasse III do Kinea Atlas II FIM
+RESULTADO DA GESTÃO*
+Rentabilidade 
+do fundo desde 
+seu início
+Retorno por Estratégia
+HISTÓRICO DE RENTABILIDADE*
+ANO 2022 2023 2024 2025 2026 jun/26 Início
+FUNDO 15,48% 13,23% 10,34% 15,80% 5,26% 1,81% 193,22%
+CDI 12,37% 13,05% 10,87% 14,31% 6,85% 1,12% 128,97%
+% CDI 125,11% 101,40% 95,12% 110,39% 76,80% 161,60% 149,82%
+Pior mês
+Melhor mês
+mar/20 (-5.60%)
+jul/17 (4.77%)
+Número de meses positivos
+Número de meses negativos
+image.png
+Patrimônio Líquido Médio 
+(12 meses)
+Patrimônio Líquido Atual
+94
+21
+R$ 313.219.463
+R$ 313.158.692
+Início do fundo
+29/Dez/2016
+1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
+2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
+TAXA DE
+PERFORMANCE²:
+D+10 dias 
+úteis da 
+solicitação
+TAXA
+DE SAÍDA:
+Não possui
+APLICAÇÃO 
+INICIAL:
+Sujeito às 
+regras do 
+distribuidor.
+TAXA DE 
+ADM:
+20% do que 
+exceder 100% 
+do CDI
+PAGAMENTO 
+RESGATE:
+D+1 dia útil da 
+conversão de 
+cotas
+2,0% a.a.
+COTA 
+RESGATE:
+193,22%
+128,97%
+-50,0%
+0,0%
+50,0%
+100,0%
+150,0%
+200,0%
+250,0%
+dez-16 dez-17 dez-18 dez-19 dez-20 dez-21 dez-22 dez-23 dez-24 dez-25
+Atlas II - Itaú CDI
+* As informações AQUI dispostas, incluindo rentabilidade, data de início, etc, dizem respeito ao fundo SUBCLASSE III DO KINEA ATLAS II FUNDO DE INVESTIMENTO FINANCEIRO 
+MULTIMERCADO RESP LIMITADA CNPJ: 29.762.315/0001-58 Cód. Subclasse: LRTPA1746555728, que NÃO está disponível ao cliente final. Para consultar as informações referente ao seu 
+fundo, acesse o site do distribuidor.
+** O fundo Kinea Atlas foi cindido em Kinea Atlas e Kinea Atlas II no dia 09/04/2018.
