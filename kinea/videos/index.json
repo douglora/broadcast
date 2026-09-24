@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-09-24T02:05:10Z",
+ "gerado_em": "2026-09-24T02:56:51Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
@@ -14,6 +14,32 @@
    "descricao": "",
    "coleta": 2,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zYBbPDmHp70: Faça login para confirmar que você não é um bot"
+  },
+  {
+   "id": "XNKlvKgDbt4",
+   "titulo": "A Bolsa Brasileira Realmente Está Barata? | Resumo Kinea Insights",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=XNKlvKgDbt4",
+   "data": null,
+   "descricao": "A Bolsa brasileira está mesmo barata ou é uma ilusão dos múltiplos? Neste vídeo, Danilo Vasconcelos, analista de ações da Kinea, analisa o atual cenário do mercado acionário no Brasil, o impacto dos juros reais elevados no lucro das empresas e quais setores (como utilities e construção civil de baixa renda) oferecem mais previsibilidade.\n\nAssista ao vídeo Kinea Insights - O guia do mochileiro das galáxias:    • Um guia para o investidor da bolsa brasile...  \n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-i...\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] XNKlvKgDbt4: Faça login para confirmar que você não é um bot"
+  },
+  {
+   "id": "01R-xcr5OOA",
+   "titulo": "Um guia para o investidor da bolsa brasileira | Kinea Insights - O guia do mochileiro das galáxias",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=01R-xcr5OOA",
+   "data": null,
+   "descricao": "No novo Kinea Insights, exploramos como as escolhas do Brasil a partir de 2027 podem definir o rumo da nossa bolsa e onde estão as oportunidades.\nMúltiplos baixos, sozinhos, não significam oportunidade. Juros reais, crescimento dos lucros, composição da bolsa e prêmio de risco ajudam a explicar o aparente desconto.\n\nPor Ruy Alves, Sócio e Gestor de Investimentos, Leandro Souza, Head de Research de Ações, Danilo Vasconcelos e Antonio Martins -  Analistas de ações.\n\nPara ler este conteúdo, acesse o blog da kinea em: https://www.kinea.com.br/blog/kinea-i...\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de tudo: https://kinea.me/3KrOUkb  \n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nAcesse as redes da Kinea e fique por dentro das novidades, clicando aqui: https://linktr.ee/kineainvestimentos\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/",
+   "coleta": 2,
+   "duracao_min": null,
+   "capitulos": [],
+   "ao_vivo": false,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] 01R-xcr5OOA: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "tpHBNW5ZLCc",
@@ -34,6 +60,240 @@
    "descricao": "",
    "coleta": 2,
    "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2kiNjyZxmq0: Faça login para confirmar que você não é um bot"
+  },
+  {
+   "id": "zMxIb6ODMWI",
+   "titulo": "Dívida Pública: O Desafio do Próximo Presidente no Brasil | Kinea Expresso #05",
+   "aba": "videos",
+   "url": "https://www.youtube.com/watch?v=zMxIb6ODMWI",
+   "data": null,
+   "descricao": "",
+   "coleta": 2,
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zMxIb6ODMWI: Faça login para confirmar que você não é um bot"
+  },
+  {
+   "id": "U1FfkTXr0CI",
+   "titulo": "IA: Por que os modelos mais baratos podem mudar tudo? | Corte da Live Economia e Mercados - Ago/26",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=U1FfkTXr0CI",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "VhHDQtDG2S0",
+   "titulo": "Guerra EUA e Irã: qual o verdadeiro impacto? | Live Economia e Mercados ref. Fevereiro/2026",
+   "aba": "streams",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=VhHDQtDG2S0",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "k60tlpSlocE",
+   "titulo": "A Erosão das Instituições e o Enfraquecimento do Dólar | Live Economia e Mercados ref. Janeiro/2026",
+   "aba": "streams",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=k60tlpSlocE",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "klGNIPXwwWI",
+   "titulo": "Cartas a um Jovem Poeta | Live Economia e Mercados ref. Dezembro/2025",
+   "aba": "streams",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=klGNIPXwwWI",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "DCvfNkXIC2c",
+   "titulo": "A Ilíada | Live Economia e Mercados ref. Novembro/2025",
+   "aba": "streams",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=DCvfNkXIC2c",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "rvLiGCCGdOY",
+   "titulo": "Ibovespa Cai e Recupera Tudo | Fundos de ações - Ago/26",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=rvLiGCCGdOY",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "40E8hwSkztw",
+   "titulo": "O Fim da História e o Último Homem  | Live Economia e Mercados ref. Outubro/2025",
+   "aba": "streams",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=40E8hwSkztw",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "FITFg5gD-Oc",
+   "titulo": "Eleição, legados fiscais e o preço das decisões do passado | Carta do Gestor - Ref Ago/26",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=FITFg5gD-Oc",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "_t09ws4qcZw",
+   "titulo": "A Odisseia | Live Economia e Mercados ref. Setembro/2025",
+   "aba": "streams",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=_t09ws4qcZw",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "dCwe7PTNnSU",
+   "titulo": "O Raio-X do Endividamento e das Bets no Brasil | Corte do Kinea Expresso #04",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=dCwe7PTNnSU",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "1KCLxigyGxk",
+   "titulo": "Quem manda nos juros no Brasil? | Kafé com Kinea #58 com Gustavo Loyola",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=1KCLxigyGxk",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "7cPcutBfW5c",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=7cPcutBfW5c",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "Ba0eA9RRhO8",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=Ba0eA9RRhO8",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "C7c_jPk_sw8",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=C7c_jPk_sw8",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "CHhvgnB4J7U",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=CHhvgnB4J7U",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "ErKbwhxoOgY",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=ErKbwhxoOgY",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "EwQJ7PabRK0",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=EwQJ7PabRK0",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "Ucxgs7iI7EU",
+   "titulo": "Como a tecnologia está transformando a assessoria de investimentos | Conexão Kinea",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=Ucxgs7iI7EU",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "GZWdac-8qE8",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=GZWdac-8qE8",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "GdDxyGyrYxs",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=GdDxyGyrYxs",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "Magxna_b8fI",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=Magxna_b8fI",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "8JfTXxD9E9s",
+   "titulo": "Carteira Valoriza Mesmo com Volatilidade | KNHF - Ago/26",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=8JfTXxD9E9s",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "Ngi-9OPxDyI",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=Ngi-9OPxDyI",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "Dh2grrQ_rrM",
+   "titulo": "Fundo Vende Ativo com Lucro de 36% | KNRI e KORE - Ago/26",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=Dh2grrQ_rrM",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "n-5yfrPbUEQ",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=n-5yfrPbUEQ",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "kBaFVuJhvEs",
+   "titulo": "Juros americanos sobem, eleição se aproxima: como o KFOF no mês | KFOF - Ago/26",
+   "aba": "videos",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=kBaFVuJhvEs",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "sl8yg8RYmiY",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=sl8yg8RYmiY",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
+  },
+  {
+   "id": "u-T13h7CJjc",
+   "titulo": null,
+   "aba": "site",
+   "coleta": 2,
+   "url": "https://www.youtube.com/watch?v=u-T13h7CJjc",
+   "erro": "nao tentado nesta rodada: o YouTube recusou os anteriores"
   },
   {
    "id": "kvh6MnqHKAY",
@@ -67,6 +327,7 @@
   }
  ],
  "log": [
-  "parei em VhHDQtDG2S0: 6 videos seguidos sem legenda por erro do YouTube"
+  "rss: RuntimeError: HTTP 404",
+  "parei em kvh6MnqHKAY: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }
