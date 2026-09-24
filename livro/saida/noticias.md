@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 12h21
+NOTÍCIAS E FATOS · 24/09 12h49
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 469 veículo fora da lista, 50 sem ativo, 11 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 477 veículo fora da lista, 51 sem ativo, 18 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -297,8 +297,18 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (95)
+## OUTRAS NOTÍCIAS (só manchete) (105)
 
+· UST Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy (CNBC) https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html
+· DI Selic a 13,75% e caindo: onde deixar a reserva de emergência agora (Suno Noticias) https://www.suno.com.br/noticias/selic-caindo-onde-deixar-reserva-emergencia-gss/
+· MRVL Marvell Just Unveiled a 2nm Breakthrough for AI Data Centers (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6434a3605094b:0-marvell-just-unveiled-a-2nm-breakthrough-for-ai-data-centers/
+· INTC TD Cowen reiterates Intel stock rating on foundry progress view (Investing.com) https://www.investing.com/news/analyst-ratings/td-cowen-reiterates-intel-stock-rating-on-foundry-progress-view-93CH-4915686
+· JPM Can Private Credit Unlock More Growth for JPMorgan's Card Business? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:c6053a517094b:0-can-private-credit-unlock-more-growth-for-jpmorgan-s-card-business/
+· BAC Can Bank of America Sustain Revenue Growth on Stronger Loans & NII? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:cf4845dc7094b:0-can-bank-of-america-sustain-revenue-growth-on-stronger-loans-nii/
+· AMD AMD's Six-Day Rally Finally Hits a Pause (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:4317e4c28094b:0-amd-s-six-day-rally-finally-hits-a-pause/
+· BRENT Dólar ronda R$ 5,18 e Bolsa cai, com petróleo e política monetária no radar (UOL Economia) https://news.google.com/rss/articles/CBMitAFBVV95cUxNNEpwUmVvQ203WWlCRjNxVndVcWFQQXh5bEExLXc2Q3JwWUl4N3BBVnpDU2JQY0QzNzNRczZ6TzNBdC1EdTdEUEJTckxwWkZ5dHp1V1dGalVSYTdmTHFGUGJDRUx4ZzFxbE1LTndJVTY3X2g1dDNtakI0OFdaVVFyMVlKNWdwelR4UUt0Q01MTGFBd0dWd2NkSG1zN3JNMG5fZGNJZThjVnZPVUJRMjU1Mmg1Zi0?oc=5
+· BRENT Dólar abre influenciado por petróleo e relatório de política monetária do BC (UOL Economia) https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQm51YnNCa2libl9mNWQzRDFESnFuc3lrMEo0TUM2M1VEYWV0MVlGMV9OejU1TWpib0V4V0U3UUFyREVoSklTOGlZS3Zocm16WXZDRkJpU3VYd19ZaDltTzNVRU9Hck0xMnVYcVFtdXVwWm1KTTB5NjRTcWxoVGM5OEh5Y3I2TkFWcEtiWS1rVnphV3hRbGFxc005Um4tVC1JSVJkMmpRUklsdkY1N3RtNExxWnpQSUhX?oc=5
+· MU Micron's Memory Boom Is Showing Up in Prices (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxORmNnakE3NThvcjhTUUpWMEs0UUxmQWg3cjExWWxsdHdUSUs3Y0pabTIzR05WVGdPUmRMUkprVlNYdndvOERtdGZtRWUyLW9yVEZyOTR0dXRhNjZZSjJ4Mk10eWlUTHR6aUR6Uk50cW5zS0VadjBLdlNxUEpnTlpkckRlMGpXclFpWkZ0TFFfMnMyTVAyd1BGWVRxSFRNaUo2YUYyNVFKcw?oc=5
 · UST Why Today’s 7-Year Treasury Auction Matters for Bond Yields (Barron's) https://www.barrons.com/articles/seven-year-treasury-auction-bond-yields-fdd4bf3e
 · PETR4 Petrobras atrasa em 1 ano unidades dedicadas à produção de SAF; avança em coprocessamento (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G0YA:0/
 · MU 3 things Micron investors need to watch as the stakes get higher (MarketWatch) https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e
@@ -349,14 +359,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · UST U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens (The Wall Street Journal) https://www.wsj.com/finance/u-s-treasury-yields-hover-close-to-multiyear-highs-a9126b6e
 · UST Spot Gold Falls to $4,267.43 as Treasury Yields and Rate Expectations Rise (Yahoo Finance) https://uk.finance.yahoo.com/news/spot-gold-falls-4-267-095759881.html
 · BRENT Gold Prices Decline as Markets Assess Higher Oil Prices and Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-prices-decline-markets-assess-095608720.html
-· UST Why the runaway 10-year yield is triggering this bad memory for investors (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxQbjVhakdVVUFySU16VGNSLWFqSTlYU1A0bGpxZGE3NzhPbWpZdlpRbTlPc255amlrbjhuRXg3Y1pkUkdSekVWRm9sdHFWTkdmYkZTY3J4TG9jbVZHcmh5QnZOVVVZUmNZZUMxTHdYWUlrZlVWdWoxWldDTnRqbHB5VEN3UXVZZVVOTG1DOUU2OGVMeU50R0FaNldhM1RGQ3hUOTA4ejE2U1dyOWVBc3dJSEJRTlozNFB2WXlGdk5VUGhlXzcwV2tscElR?oc=5
-· BTC Bitcoin ETFs add $347M as BTC falls below $84K after topping $87K (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixAFBVV95cUxNV0N1QTE5enczUmJwaVFCZjZvaXBxTTc4blR6R3pjUDMtbGlLbGR1VlJiWEoyQ2VUSXNON0xIUVhRVVdsVTd3eHhwd2Qzb3VSazVmTkNiblBPSnJrdkIwcDg3aXRsWG52Z0tPdE1YdWFmZHYtYXVWLXRfYlNNV0hGaG9fMW5RdUF4aEJ0cjUzN3lDQXYyUGgxUWNOc2w2MWNaX3RndTN2NFFpN1pLMVhKSHdvMWZYZ3AyM3V4b2F6YnY2djct?oc=5
-· MU Zacks Earnings Trends Highlights: Micron, Nvidia and Alphabet (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWFNQmJNalIzTzJmWWlBVlFUSmhENG9xXzlHWmVBR1E4bXVfVE9BM0ZRVFV1UDhSWVZLdjhEZl90bDJOaG81NGRMMUFuXzl2RnBpM1RDY0h3VERMTUhhNThDZVo4WlVEaDVCS0l6NTVXNFh6ZXN0WDhMMWg1TDlqM1NqVXl5Vlp5NGIzWlZoNnJiME5kVjdSUVVCRi1ycTZfUkNwc0pFMA?oc=5
-· GOOGL Pine Labs Announces Strategic Collaboration With Google Cloud In India (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYnY5U0czZi1KNlhaY3RJYmJqVlZNdnk4MEZZX2ZUbXVEaU1RZWttbUdyX21IYTh0TW1PZzQ3SVdtMVYyN1hxcHZNdHBOS3pxeUt5NTY0N1ZfNnNQS1BkSk5KNURzeEVJS05uQkFrMWFIbDlJOWNCUlhYblVMZFRPcTlvQzljMmdmYUh3cTlNRDc2WERtS3FleGo2a1pmVmo5V29mUHZyZWQ3WkgyQ2IyMGVFLUhsNmdZOTNCYzBkQUNiRWx2RHR4dHVVem5UZVZsUXVlZ29uYw?oc=5
-· BRENT Wall Street ends down as oil prices, Treasury yields rise (Reuters) https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2eVNmNXVqbVVESE8zMENLbUxnMUIzdFUxUEZXU09lU0h3WmR6eXp1c1R5bTQ0TmxwME56TGFCaF93LW9mNXRIdF85bURtaWxWTzRWNg?oc=5
-· BTC 'BTC still has room to catch up': Bitcoin's $80,000 breakout draws institutional demand as analysts weigh durability (The Block) https://www.theblock.co/news/markets/2026-09-23-bitcoin-breakout-etf-inflows-analysts-k33-nexo-resistance-416182
-· UST Japan's 10-year bond yield hits 30-year high after US Treasury selloff (Reuters) https://www.reuters.com/world/asia-pacific/japans-10-year-bond-yield-hits-30-year-high-after-us-treasury-selloff-2026-09-24/
-· BTC Bitcoin Drops to $84K as Bond Yields Hit 5.11%: What Next? (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:699d2da2e094b:0-bitcoin-drops-to-84k-as-bond-yields-hit-5-11-what-next/
-· BABA What Does Alibaba (BABA) Facing A Securities Fraud Probe Mean Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-alibaba-baba-facing-securities-211806119.html
-· MELI34 Mercado Livre Racing aposta em estratégias e sintonia de duplas para prova Endurance da Stock Car em Brasília (UOL Economia) https://motorsport.uol.com.br/stockcar-br/news/mercado-livre-racing-aposta-em-estrategias-e-sintonia-de-duplas-para-prova-endurance-da-stock-car-e/10858367/
-· (+35 manchetes; lista completa em eventos/noticias.json)
+· (+45 manchetes; lista completa em eventos/noticias.json)

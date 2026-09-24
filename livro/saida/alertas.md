@@ -1,21 +1,21 @@
-ALERTAS · intradia
+ALERTAS · Manhã 08h30
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· F03 Brent sobe a US$ 107,05 (+3,9% no dia) (parcial, intradia)
-· E05 UST · Why Today’s 7-Year Treasury Auction Matters for Bond Yields
-· E05 PETR4 · Petrobras atrasa em 1 ano unidades dedicadas à produção de SAF; avança em coprocessamento
-· E05 MU · 3 things Micron investors need to watch as the stakes get higher
-· E05 PETR4 · Petrobras diz que próximo plano de negócios 2027-2031 terá grande foco em transição energética
-· E05 TSLA · UBS maintains Tesla stock neutral rating ahead of Q3 deliveries
+· T02 VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) perdeu a MM50 pela 2ª sessão: US$ 105,60, ainda acima da MM200 (tendência longa preservada)
+· E05 UST · Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy
+· E05 DI · Selic a 13,75% e caindo: onde deixar a reserva de emergência agora
+· E05 MRVL · Marvell Just Unveiled a 2nm Breakthrough for AI Data Centers
 · E05 INTC · TD Cowen reiterates Intel stock rating on foundry progress view
-· E05 NVDA · NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway?
-· E05 USDBRL · Tempo real: Ibovespa cai com exterior e eleições no radar; dólar sobe
-· E05 GOOGL · Alphabet Or Meta: Whose AI Build Would You Rather Fund?
-· E05 BTC · Bullish clears longest-dated bitcoin options trade expiring in 2028
-· E05 ETH · Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally
-· E05 VALE3 · Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24)
+· E05 JPM · Can Private Credit Unlock More Growth for JPMorgan's Card Business?
+· E05 BAC · Can Bank of America Sustain Revenue Growth on Stronger Loans & NII?
+· E05 AMD · AMD's Six-Day Rally Finally Hits a Pause
+· E05 BRENT · Dólar ronda R$ 5,18 e Bolsa cai, com petróleo e política monetária no radar
+· E05 BRENT · Dólar abre influenciado por petróleo e relatório de política monetária do BC
+· E05 MU · Micron's Memory Boom Is Showing Up in Prices
+· T04 IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) fechou na mínima de 52 semanas: US$ 5,59, -2,5% em 1m e -1,4% em 12m
 
+Suprimidos pelo teto (viram linha do Fechamento): T04-IUAA-minima-2026-09-24 (teto de atenção)
 
 Alertas do dia (todos, com status):
 · entregue  C07 UST — UST ABRIU: 2y +14 bps · 10y +15 bps · 30y +11 bps (23/09)
@@ -24,6 +24,7 @@ Alertas do dia (todos, com status):
 · linha     T08 MCHI — MCHI entrou em bear técnico: -21% do pico de 52s (US$ 66,99 em 02/10) a US$ 53,1
 · linha     T08 VALE3 — VALE3 entrou em bear técnico: -21% do pico de 52s (R$ 90,09 em 11/02) a R$ 71,48
 · linha     T08 MELI34 — MELI34 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 111,29 em 25/09)
+· linha     T04 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) fechou na mínima de 52 sema
 · entregue  E05 VALE3 — VALE3 · Vale recebe aval da Justiça para retomar mina suspensa após vazamento em
 · entregue  E05 VALE3 — VALE3 · Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica apó
 · entregue  E05 BAC — BAC · BofA to Hire 1,000 Additional Apprentices and Invest $150 Million in Workf
@@ -51,6 +52,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A açã
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
 · entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, C
+· linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
 · linha     F03 BRENT — Brent sobe a US$ 107,05 (+3,9% no dia) (parcial, intradia)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
 · linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
@@ -64,4 +66,4 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+111 notícias só manchete, em noticias.md)
+· (+121 notícias só manchete, em noticias.md)

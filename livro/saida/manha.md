@@ -1,10 +1,10 @@
 BLOCO A
 ```
-MANHÃ DO LIVRO · qui 24/09 · 08h29 BRT (curvas D-1)
-Relógios: Yahoo 08h29 · DI ajuste 23/09 · Tesouro
+MANHÃ DO LIVRO · qui 24/09 · 12h49 BRT (curvas D-1)
+Relógios: Yahoo 12h49 · DI ajuste 23/09 · Tesouro
   base 18/09 · UST CMT 23/09 · PTAX 23/09
 
-ALERTAS DO DIA (42 · 6 críticos)
+ALERTAS DO DIA (48 · 6 críticos)
 [CRÍTICO] C07 UST ABRIU: 2y +14 bps · 10y +15 bps ·
           30y +11 bps (23/09)
 [CRÍTICO] T05 KLBN4 -3,2% no dia a R$ 3,68:
@@ -21,19 +21,30 @@ ALERTAS DO DIA (42 · 6 críticos)
 [CRÍTICO] T08 MELI34 entrou em queda de -30% do
           pico: -31% do pico de 52s (R$ 111,29 em
           25/09) a R$ 77,19
-[ATENÇÃO] T09 CURY3 -3,8% com volume 2,7x a mediana
-          de 20 sessões, a R$ 27,30
-[ATENÇÃO] E05 UST · 10-Year Treasury Yield Reaches
-          5.142% as Markets Reassess Fed Rate
-          Outlook
-(+34 em alertas.md)
+[ATENÇÃO] T04 IUAA (iShares US Aggregate Bond UCITS
+          ETF USD (Acc)) fechou na mínima de 52
+          semanas: US$ 5,59, -2,5% em 1m e -1,4% em
+          12m
+[ATENÇÃO] E05 VALE3 · Vale recebe aval da Justiça
+          para retomar mina suspensa após vazamento
+          em MG
+(+40 em alertas.md)
 
 ALTAS  BRENT +3,9% · PLTR +3,7% · PETR4 +2,6% · IGV
        +1,3% · USDBRL +1,3%
 BAIXAS BABA -4,7% · CURY3 -3,8% · GOOGL -3,8% · EWY
        -3,6% · DIRR3 -3,4%
 
-NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
+NOTÍCIAS E FATOS (12 com materialidade ·
+  noticias.md)
+· VALE3 Vale recebe aval da Justiça para retomar
+  mina suspensa após vazamento em MG (Estadao)
+· VALE3 Vale (VALE3) inicia retomada parcial de
+  operações na Mina de Fábrica após aval da Justiça
+  (Money Times)
+· BAC BofA to Hire 1,000 Additional Apprentices and
+  Invest $150 Million in Workforce Development
+  across the U.S. (TradingView (Reuters))
 · UST 10-Year Treasury Yield Reaches 5.142% as
   Markets Reassess Fed Rate Outlook (Yahoo Finance)
 · NVDA Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC;
@@ -41,16 +52,7 @@ NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
   (Reuters))
 · PETR4 UBS BB reitera compra para ação da Petrobras
   e eleva preço-alvo (CNN Brasil)
-· MU Micron earnings outlook: what to watch ahead of
-  the September 30 report (Investing.com)
-· DIRR3 Participação relevante: BlackRock passou a
-  ter 5,08% em 18/09 (objetivo: só investimento)
-  (CVM)
-· AXIA3 Fato Relevante: O seu Conselho de
-  Administração aprovou , nesta data, o resgate de
-  70.716.228 ações preferenciais classe “C” (“PNC”),
-  equivalente a R$ 3,9 bilhões e… (CVM)
-  (+3)
+  (+6)
 
 CURVAS · taxa (Δ bps)
 DI (ajuste 23/09, Δ dia·sem bps) F28 13,57 (+9·-11)
@@ -72,6 +74,9 @@ LEITURA DA MESA
 <<LEITURA_DA_MESA>>
 
 AGENDA
+qui 24/09 09:00 Relatorio de Politica Monetaria 3T26
+    (BCB)
+qui 24/09 11:00 Leilao do Tesouro: NTN-B
 sex 25/09 09:00 IPCA-15 de setembro (IBGE)
 seg 28/09 08:25 Relatorio Focus (BCB)
 ter 29/09 11:00 Leilao do Tesouro: LTN/NTN-F
@@ -83,15 +88,20 @@ sex 02/10 ex-dividendo BBDC4 R$ 0,02 (último
 ter 06/10 ex-dividendo JPM US$ 1,50 (último
     provento, Yahoo)
 
-LACUNAS: sem barra de 22/09 no Yahoo, variação do
-  dia cobre 2 pregões: XLK, VGT, BOTZ, WQTMUS, QTUM,
-  REMX, GFS, KO, CVX, MMM, MCHI, DXY; tesouro:
-  Tesouro Transparente com data-base 18/09; faltam
-  21/09, 22/09, 23/09 (taxas não são as de hoje);
-  bcb: BCB devolveu 4 de 5 séries (faltaram
-  ipca_mes); alertas_segurados: alertas não emitidos
-  por dado não confirmado: T05 MMM (MMM: variação de
-  2 pregões (sem 22/09)).
+LACUNAS: sem barra de 23/09 no Yahoo, variação do
+  dia cobre 2 pregões: VWRA, CSPX, CNDX, VHYA, WUTI,
+  RBOT, IUAA, IB01, QNTM, QANT, WQTM; sem barra de
+  22/09 no Yahoo, variação do dia cobre 2 pregões:
+  XLK, VGT, BOTZ, WQTMUS, QTUM, REMX, GFS, KO, CVX,
+  MMM, MCHI, DXY; tesouro: Tesouro Transparente com
+  data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas
+  não são as de hoje); alertas_segurados: alertas
+  não emitidos por dado não confirmado: T05 WUTI
+  (WUTI: variação de 2 pregões (sem 23/09)); T05
+  IUAA (IUAA: variação de 2 pregões (sem 23/09));
+  T05 MMM (MMM: variação de 2 pregões (sem 22/09));
+  T09 QANT (QANT: variação de 2 pregões (sem
+  23/09)).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -100,14 +110,14 @@ BLOCO B
 ```
 VARIAÇÃO %         últ  dia   1s   1m   6m   1a  YTD
 UCITS (USD)
-VWRA*  Mundo    194,96 +0,3 +2,1 +0,4  +17  +19  +14
-CSPX*  S&P500   837,05 +0,4 +2,3 +1,1  +18  +17  +13
-CNDX*  Nasdaq    1.760 +1,1 +5,7 +4,5  +27  +24  +20
-VHYA*  AltDiv   107,06 -0,3 -0,4 -1,8  +12  +22  +15
-WUTI*  Utilit    66,71 -0,1 -0,1 -3,7 -5,9 +6,5 +0,8
-RBOT*  Robot     21,93 +1,0 +6,9 +1,9  +41  +38  +34
-IUAA*  RF EUA     5,64 -0,2 +0,1 -1,0 -1,1 -0,5 -1,9
-IB01*  T-bill   121,84  0,0  0,0 +0,2 +1,8 +3,7 +2,5
+VWRA*  Mundo    192,00 -1,5 -0,2 -1,1  +16  +17  +13
+CSPX*  S&P500   827,13 -1,2 +0,5 +0,1  +18  +16  +12
+CNDX*  Nasdaq    1.737 -1,3 +2,8 +3,5  +27  +23  +18
+VHYA*  AltDiv   105,60 -1,4 -1,9 -3,4  +10  +21  +14
+WUTI*  Utilit    64,90 -2,7 -3,7 -6,6 -8,1 +2,4 -1,9
+RBOT*  Robot     21,65 -1,3 +3,4 +1,1  +40  +37  +33
+IUAA*  RF EUA     5,59 -0,9 -1,2 -2,5 -1,8 -1,4 -2,8
+IB01*  T-bill   121,88  0,0  0,0 +0,2 +1,8 +3,6 +2,5
 ETFs EUA (USD)
 SPY    S&P 500  767,81 -0,7 +2,1 +0,8  +17  +17  +13
 QQQ    Nasdaq   741,21 -0,8 +5,3 +5,0  +26  +24  +21
@@ -118,9 +128,9 @@ VGT*   Tech VG  125,60  0,0 +5,6 +7,9  +40  +35  +34
 IGV    Softwar  108,10 +1,3 +3,0 +5,5  +34 -7,1 +2,3
 BOTZ*  Robotic   35,29 -1,5 +1,6 +0,1 +2,7 -0,6 -2,5
 Temáticos: quântica e metais (USD)
-QNTM*  Quantum   29,61 -0,3 +2,5 +0,5  +28  +16  +18
-QANT*  Quantum    6,24  0,0 +3,8 +1,0  +36    -  +24
-WQTM*  Quantum   38,29 -0,3 +6,5 -0,5  +30  +26  +28
+QNTM*  Quantum   29,33 -1,0 +0,5 +0,2  +30  +13  +17
+QANT*  Quantum    6,16 -1,4 +0,4 +0,5  +38    -  +22
+WQTM*  Quantum   37,29 -2,6 -0,4 -2,5  +29  +20  +25
 WQTMU* Quantum   32,17 -1,9 +3,6 -0,3  +24    -  +24
 QTUM*  Quantum  152,45 -0,4 +6,4 +3,7  +37  +45  +40
 REMX*  TerrasR   68,76 -2,1 +1,7  -14  -23  +14 -7,0

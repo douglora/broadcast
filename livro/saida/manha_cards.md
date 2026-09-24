@@ -1,4 +1,4 @@
-## Manhã do livro · qui 24/09 · 08h29 BRT
+## Manhã do livro · qui 24/09 · 12h49 BRT
 
 ---
 
@@ -24,7 +24,7 @@
 - **T11 · META** META descolou à frente de GOOGL: +31% vs -2,6% em 20 sessões (z 3,0 em 252 sessões, 2º dia)
 - **S01 · SISTEMA** coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01 · tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09 (taxas não são as de hoje)
 
-*Mais 25 sinais de baixa prioridade em `alertas.md`.*
+*Mais 28 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
@@ -67,14 +67,14 @@
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **VWRA** Vanguard FTSE All-World _(dia 22/09)_ | 194,96 | **+0,3** | +2,1 | +0,4 | +4,5 | +17 | +19 | +14 | +71 |
-| **CSPX** iShares Core S&P 500 _(dia 22/09)_ | 837,05 | **+0,4** | +2,3 | +1,1 | +5,4 | +18 | +17 | +13 | +85 |
-| **CNDX** iShares NASDAQ 100 _(dia 22/09)_ | 1.760 | **+1,1** | +5,7 | +4,5 | +4,0 | +27 | +24 | +20 | +105 |
-| **VHYA** Vanguard FTSE All-World High Dividend Yield _(dia 22/09)_ | 107,06 | **-0,3** | -0,4 | -1,8 | +3,9 | +12 | +22 | +15 | +76 |
-| **WUTI** State Street SPDR MSCI World Utilities _(dia 22/09)_ | 66,71 | **-0,1** | -0,1 | -3,7 | -6,0 | -5,9 | +6,5 | +0,8 | +49 |
-| **RBOT** iShares Automation & Robotics _(dia 22/09)_ | 21,93 | **+1,0** | +6,9 | +1,9 | +4,4 | +41 | +38 | +34 | +58 |
-| **IUAA** iShares US Aggregate Bond _(dia 22/09)_ | 5,64 | **-0,2** | +0,1 | -1,0 | -1,8 | -1,1 | -0,5 | -1,9 | -3,1 |
-| **IB01** iShares $ Treasury Bond 0-1yr _(dia 22/09)_ | 121,84 | **0,0** | 0,0 | +0,2 | +0,9 | +1,8 | +3,7 | +2,5 | +19 |
+| **VWRA** Vanguard FTSE All-World _(2 pregões)_ | 192,00 | **-1,5** | -0,2 | -1,1 | +2,7 | +16 | +17 | +13 | +69 |
+| **CSPX** iShares Core S&P 500 _(2 pregões)_ | 827,13 | **-1,2** | +0,5 | +0,1 | +4,2 | +18 | +16 | +12 | +83 |
+| **CNDX** iShares NASDAQ 100 _(2 pregões)_ | 1.737 | **-1,3** | +2,8 | +3,5 | +3,0 | +27 | +23 | +18 | +102 |
+| **VHYA** Vanguard FTSE All-World High Dividend Yield _(2 pregões)_ | 105,60 | **-1,4** | -1,9 | -3,4 | +1,9 | +10 | +21 | +14 | +74 |
+| **WUTI** State Street SPDR MSCI World Utilities _(2 pregões)_ | 64,90 | **-2,7** | -3,7 | -6,6 | -9,9 | -8,1 | +2,4 | -1,9 | +45 |
+| **RBOT** iShares Automation & Robotics _(2 pregões)_ | 21,65 | **-1,3** | +3,4 | +1,1 | +2,3 | +40 | +37 | +33 | +56 |
+| **IUAA** iShares US Aggregate Bond _(2 pregões)_ | 5,59 | **-0,9** | -1,2 | -2,5 | -3,3 | -1,8 | -1,4 | -2,8 | -4,0 |
+| **IB01** iShares $ Treasury Bond 0-1yr _(2 pregões)_ | 121,88 | **0,0** | 0,0 | +0,2 | +0,9 | +1,8 | +3,6 | +2,5 | +19 |
 
 Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · **CSPX** iShares Core S&P 500 UCITS ETF USD (Acc) · **CNDX** iShares NASDAQ 100 UCITS ETF USD (Acc) · **VHYA** Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating · **WUTI** State Street SPDR MSCI World Utilities UCITS ETF (USD) · **RBOT** iShares Automation & Robotics UCITS ETF USD (Acc) · **IUAA** iShares US Aggregate Bond UCITS ETF USD (Acc) · **IB01** iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc).
 
@@ -99,9 +99,9 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **QNTM** VanEck Quantum Computing _(dia 22/09)_ | 29,61 | **-0,3** | +2,5 | +0,5 | -4,7 | +28 | +16 | +18 | - |
-| **QANT** iShares Quantum Computing _(dia 22/09)_ | 6,24 | **0,0** | +3,8 | +1,0 | -4,6 | +36 | - | +24 | - |
-| **WQTM** WisdomTree Quantum Computing _(dia 22/09)_ | 38,29 | **-0,3** | +6,5 | -0,5 | -10 | +30 | +26 | +28 | - |
+| **QNTM** VanEck Quantum Computing _(2 pregões)_ | 29,33 | **-1,0** | +0,5 | +0,2 | -2,8 | +30 | +13 | +17 | - |
+| **QANT** iShares Quantum Computing _(2 pregões)_ | 6,16 | **-1,4** | +0,4 | +0,5 | -1,7 | +38 | - | +22 | - |
+| **WQTM** WisdomTree Quantum Computing _(2 pregões)_ | 37,29 | **-2,6** | -0,4 | -2,5 | -9,6 | +29 | +20 | +25 | - |
 | **WQTMUS** WisdomTree Quantum Computing Fund _(2 pregões)_ | 32,17 | **-1,9** | +3,6 | -0,3 | -12 | +24 | - | +24 | - |
 | **QTUM** Defiance Quantum ETF _(2 pregões)_ | 152,45 | **-0,4** | +6,4 | +3,7 | -4,7 | +37 | +45 | +40 | +204 |
 | **REMX** VanEck Rare Earth & Strategic Metals ETF _(2 pregões)_ | 68,76 | **-2,1** | +1,7 | -14 | -24 | -23 | +14 | -7,0 | -30 |
@@ -214,7 +214,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 644 | -0,2 | - | - | 24/09 |
+| **Celulose fibra longa** | 644 | -0,3 | - | - | 24/09 |
 | **Minerio de ferro Dalian** | 94 | +0,1 | - | - | 24/09 |
 
 - **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.874 a USD/CNY 6,70 = US$ 727/t com IVA
@@ -259,8 +259,14 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ---
 
-### Notícias e fatos · 9
+### Notícias e fatos · 12
 
+- **VALE3** Vale recebe aval da Justiça para retomar mina suspensa após vazamento em MG (Estadao · 24/09) [abrir a fonte](https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-recebe-aval-da-justica-para-retomar-mina-suspensa-apos-vazamento-em-mg/)
+  *Por que importa:* contingencia muda o risco e pode virar provisao; olhar valor e prazo
+- **VALE3** Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica após aval da Justiça (Money Times · 24/09) [abrir a fonte](https://www.moneytimes.com.br/vale-vale3-inicia-retomada-parcial-de-operacoes-na-mina-de-fabrica-apos-aval-da-justica-lmrs/)
+  *Por que importa:* contingencia muda o risco e pode virar provisao; olhar valor e prazo
+- **BAC** BofA to Hire 1,000 Additional Apprentices and Invest $150 Million in Workforce Development across the U.S. (TradingView (Reuters) · 24/09) [abrir a fonte](https://www.tradingview.com/news/prnewswire:56bb3734f7640:0-bofa-to-hire-1-000-additional-apprentices-and-invest-150-million-in-workforce-development-across-the-u-s/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **UST** 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook (Yahoo Finance · 24/09) [abrir a fonte](https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-reaches-5-095033695.html)
   *Por que importa:* decisao de politica monetaria reprecifica toda a curva e o cambio
 - **NVDA** Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal (TradingView (Reuters) · 24/09) [abrir a fonte](https://www.tradingview.com/news/tradingview:c3429d1e3ed40:0-key-facts-nvidia-nvda-96-2b-92-5-dc-25x-dividend-china-minimal/)
@@ -286,6 +292,8 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Agenda
 
+- **qui 24/09** 09:00 — Relatorio de Politica Monetaria 3T26 (BCB)
+- **qui 24/09** 11:00 — Leilao do Tesouro: NTN-B
 - **sex 25/09** 09:00 — IPCA-15 de setembro (IBGE)
 - **seg 28/09** 08:25 — Relatorio Focus (BCB)
 - **ter 29/09** 11:00 — Leilao do Tesouro: LTN/NTN-F
@@ -298,8 +306,8 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 08h29 · DI ajuste 23/09 · Tesouro base 18/09 · UST CMT 23/09 · PTAX 23/09
-**Lacunas:** sem barra de 22/09 no Yahoo, variação do dia cobre 2 pregões: XLK, VGT, BOTZ, WQTMUS, QTUM, REMX, GFS, KO, CVX, MMM, MCHI, DXY; tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas não são as de hoje); bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes); alertas_segurados: alertas não emitidos por dado não confirmado: T05 MMM (MMM: variação de 2 pregões (sem 22/09)).
+**Relógios:** Yahoo 12h49 · DI ajuste 23/09 · Tesouro base 18/09 · UST CMT 23/09 · PTAX 23/09
+**Lacunas:** sem barra de 23/09 no Yahoo, variação do dia cobre 2 pregões: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01, QNTM, QANT, WQTM; sem barra de 22/09 no Yahoo, variação do dia cobre 2 pregões: XLK, VGT, BOTZ, WQTMUS, QTUM, REMX, GFS, KO, CVX, MMM, MCHI, DXY; tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas não são as de hoje); alertas_segurados: alertas não emitidos por dado não confirmado: T05 WUTI (WUTI: variação de 2 pregões (sem 23/09)); T05 IUAA (IUAA: variação de 2 pregões (sem 23/09)); T05 MMM (MMM: variação de 2 pregões (sem 22/09)); T09 QANT (QANT: variação de 2 pregões (sem 23/09)).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 714 CNY/t (2026-09-24).
