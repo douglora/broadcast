@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 23/09 23h53
+NOTÍCIAS E FATOS · 24/09 08h29
 
-Pernas: noticias ok 1 novas (18 consultas; descartadas: 455 veículo fora da lista, 31 sem ativo, 0 teto) · cvm ok 0 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 462 veículo fora da lista, 37 sem ativo, 45 teto) · cvm ok 0 novos de 8 (5 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
 [ATENÇÃO] E03 · DIRR3 · Participação relevante: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento)
 CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -15,6 +15,22 @@ Como falar: 'BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento) 
 Fonte: CVM 23/09
 id: E03-DIRR3-1570676-2026-09-23 · status: entregue · íntegra disponível
 
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou , nesta data, o resgate de 70.716.228 ações preferenciais classe “C” (“PNC”), equivalente a R$ 3,9 bilhões e…
+CVM · entregue 22/09/2026 07:40
+Do documento:
+  – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 23 de setembro de 2026.
+  – • Data ex-direitos: a partir de 24 de setembro de 2026 as ações PNC passarão a ser negociadas ex- direitos.
+  – • Valor total do resgate: R$ 3,9 bilhões.
+  – • Valor do resgate da ação PNC: R$ 55,15 por ação, correspondente a cotação d e fechamento das  ações ordinárias de emissão da Companhia no pregão do dia 21 de setembro de 2026.
+  – • Tratamento tributário para investidores não residentes: informações sobre o tratamento tributário  aplicável ao resgate, em especial para investidores não residentes (“INRs”), encontram-se detalhadas n o  Aviso aos Ac…
+  – O período para  manifestação será de 28 a 30 de setembro de 2026 inclusive.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570292
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou , nesta data, o resgate de 70…'
+Fonte: CVM 22/09
+id: E03-AXIA3-1570292-2026-09-22 · status: expirado · íntegra disponível
+
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 23/09/2026 21:25 · Outros Comunicados Não Considerados Fatos Relevantes
 Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571025
@@ -24,8 +40,109 @@ Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não
 Fonte: CVM 23/09
 id: E03-VALE3-1571025-2026-09-23 · status: linha
 
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 22/09/2026 20:21 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570636
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 22/09
+id: E03-PETR4-1570636-2026-09-22 · status: linha
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+[INFO] E03 · ITUB4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 22/09/2026 18:15 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570579
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ITUB4
+Como falar: 'a Itau Unibanco publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 22/09
+id: E03-ITUB4-1570579-2026-09-22 · status: linha
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Esclarecimentos sobre questionamentos da CVM/B3
+CVM · entregue 22/09/2026 08:43 · Esclarecimentos sobre questionamentos da CVM/B3
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570300
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Esclarecimentos sobre questionamentos da CVM/B3'
+Fonte: CVM 22/09
+id: E03-VALE3-1570300-2026-09-22 · status: linha
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 22/09/2026 07:41 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570293
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 22/09
+id: E03-AXIA3-1570293-2026-09-22 · status: linha
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 21/09/2026 19:43 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570241
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 21/09
+id: E03-AXIA3-1570241-2026-09-21 · status: linha
+
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[INFO] E04 · TSM · 6-K: 6-K
+SEC EDGAR · aceito 24/09 03h02 · 6-K
+Do documento:
+  – 6-K  1  tsm-monthend6kx20260924.htm  6-K  1934 Act Registration No. 1-14700   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – The changes in the shareholdings of TSMC board of directors, executive officers and shareholders who own more than 10% of total outstanding common shares of TSMC:   Title Name Number of shares held as of Changes   7/31/…
+  – Tien 18,051 19,051 1,000   Vice President Lipen Yuan 6,650 9,000 2,350   Note: Shareholdings include shares held by the related parties.
+  – The changes in the pledge of TSMC common shares by TSMC board of directors, executive officers and shareholders who own more than 10% of total outstanding common shares of TSMC: None.
+  – The capital appropriations approved by TSMC board of directors:   (1) Machinery equipment for advanced technology capacity: US$16,035 million.
+  – (2) Machinery equipment for advanced packaging, mature and/or specialty technology capacity: US$4,791 million.
+Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000660/tsm-monthend6kx20260924.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: TSM
+Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-09-24
+id: E04-TSM-26000660-2026-09-24 · status: linha · íntegra disponível
+
+[INFO] E04 · BABA · 6-K: 6-K
+SEC EDGAR · aceito 22/09 17h01 · FORM 6-K
+Do documento:
+  – 6-K  1  tm2625915d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ALIBABA GROUP HOLDING LIMITED   Date: September 22, 2026   By:   /s/ Kevin Jinwei ZHANG   Name:   Kevin Jinwei ZHANG   Title:   Company Secretary   3
+Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926109625/tm2625915d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: BABA
+Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-09-22
+id: E04-BABA-26109625-2026-09-22 · status: linha · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · UST · 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook
+Yahoo Finance · 24/09 06h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The 10-year Treasury yield climbed to 5.142%, reaching its highest level since July 2007 after recording its largest one-day increase since April 2025 in the previous session.
+  – Longer-dated debt also came under pressure, with the 30-year Treasury yield rising to 5.443%, its highest level since 2004.
+  – The two-year yield, which is sensitive to changes in monetary policy expectations, increased to 4.908%.
+  – That was its highest level since May 2024 and followed its largest daily rise since March 2026.
+  – Iranian President Masoud Pezeshkian said the country would "never surrender." U.S.
+  – President Donald Trump had previously used a United Nations address to threaten to "annihilate" Iran if the conflict escalated.
+Link: https://finance.yahoo.com/economy/policy/articles/10-treasury-yield-reaches-5-095033695.html
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no Yahoo Finance: 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 24/09 06h50
+id: E05-UST-b75a5406c7-2026-09-24 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal
+TradingView (Reuters) · 24/09 04h15 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:c3429d1e3ed40:0-key-facts-nvidia-nvda-96-2b-92-5-dc-25x-dividend-china-minimal/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 24/09 04h15
+id: E05-NVDA-5498c1ecc9-2026-09-24 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · UBS BB reitera compra para ação da Petrobras e eleva preço-alvo
 CNN Brasil · 23/09 10h31 · fonte única · licença: resumo
@@ -38,7 +155,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no CNN Brasil: UBS BB reitera compra para ação da Petrobras e eleva preço-alvo; confirmar o número no texto antes de repassar'
 Fonte: CNN Brasil 23/09 10h31
-id: E05-PETR4-c4a9f94f5a-2026-09-23 · status: pendente
+id: E05-PETR4-c4a9f94f5a-2026-09-23 · status: expirado
 
 [ATENÇÃO] E05 · MU · Micron earnings outlook: what to watch ahead of the September 30 report
 Investing.com · 23/09 06h20 · fonte única · licença: manchete
@@ -47,7 +164,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Investing.com: Micron earnings outlook: what to watch ahead of the September 30 report; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 23/09 06h20
-id: E05-MU-e903b46e6c-2026-09-23 · status: pendente
+id: E05-MU-e903b46e6c-2026-09-23 · status: expirado
 
 [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
 Estadao · 23/09 15h32 · fonte única · licença: manchete
@@ -140,9 +257,26 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (38)
+## OUTRAS NOTÍCIAS (só manchete) (55)
 
+· VALE3 Agenda de empresas: Afya e Yduqs assinam acordo de fusão; Vale retoma operação na Mina de Fábrica (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/24/agenda-de-empresas-afya-e-yduqs-assinam-acordo-de-fusao-vale-retoma-operacao-na-mina-de-fabrica.ghtml
+· VALE3 Momento B3: Log CP, Oncoclínicas, Vale, Hypera e os principais destaques desta quinta-feira (24) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-log-cp-oncoclinicas-vale-hypera-e-os-principais-destaques-desta-quinta-feira-24
+· BTC Bitcoin Drops as Rising Yields and Dollar Weigh on Crypto (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-24/bitcoin-btc-drops-as-rising-yields-and-dollar-weigh-on-crypto
+· BAC Bank of America: A Decent Value Play Amid A Sharp Selloff (Upgrade) (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4949357-bank-of-america-decent-value-play-amid-sharp-selloff-upgrade
+· AMD AMD: AI Agents Give Its Memory Advantage A Much Bigger Market (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949356-amd-ai-agents-give-its-memory-advantage-a-much-bigger-market
+· BTC Bitcoin’s $100K Breakout Could Be Its 2008 Oil Moment, Mike McGlone Warns (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-100k-breakout-could-2008-105215079.html
+· USDBRL Encontro de Xi Jinping e Donald Trump divide agenda com relatório de política monetária e pesquisas eleitorais; Ibovespa em dólar cai nesta quinta-fe… (Money Times) https://www.moneytimes.com.br/encontro-de-xi-jinping-e-donald-trump-divide-agenda-com-relatorio-de-politica-monetaria-e-pesquisas-eleitorais-ibovespa-em-dolar-cai-nesta-quinta-feira-24-rens/
+· UST U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens (The Wall Street Journal) https://www.wsj.com/finance/u-s-treasury-yields-hover-close-to-multiyear-highs-a9126b6e
+· UST Spot Gold Falls to $4,267.43 as Treasury Yields and Rate Expectations Rise (Yahoo Finance) https://uk.finance.yahoo.com/news/spot-gold-falls-4-267-095759881.html
+· BRENT Gold Prices Decline as Markets Assess Higher Oil Prices and Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-prices-decline-markets-assess-095608720.html
+· UST Why the runaway 10-year yield is triggering this bad memory for investors (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxQbjVhakdVVUFySU16VGNSLWFqSTlYU1A0bGpxZGE3NzhPbWpZdlpRbTlPc255amlrbjhuRXg3Y1pkUkdSekVWRm9sdHFWTkdmYkZTY3J4TG9jbVZHcmh5QnZOVVVZUmNZZUMxTHdYWUlrZlVWdWoxWldDTnRqbHB5VEN3UXVZZVVOTG1DOUU2OGVMeU50R0FaNldhM1RGQ3hUOTA4ejE2U1dyOWVBc3dJSEJRTlozNFB2WXlGdk5VUGhlXzcwV2tscElR?oc=5
+· BTC Bitcoin ETFs add $347M as BTC falls below $84K after topping $87K (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixAFBVV95cUxNV0N1QTE5enczUmJwaVFCZjZvaXBxTTc4blR6R3pjUDMtbGlLbGR1VlJiWEoyQ2VUSXNON0xIUVhRVVdsVTd3eHhwd2Qzb3VSazVmTkNiblBPSnJrdkIwcDg3aXRsWG52Z0tPdE1YdWFmZHYtYXVWLXRfYlNNV0hGaG9fMW5RdUF4aEJ0cjUzN3lDQXYyUGgxUWNOc2w2MWNaX3RndTN2NFFpN1pLMVhKSHdvMWZYZ3AyM3V4b2F6YnY2djct?oc=5
+· MU Zacks Earnings Trends Highlights: Micron, Nvidia and Alphabet (Yahoo Finance) https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWFNQmJNalIzTzJmWWlBVlFUSmhENG9xXzlHWmVBR1E4bXVfVE9BM0ZRVFV1UDhSWVZLdjhEZl90bDJOaG81NGRMMUFuXzl2RnBpM1RDY0h3VERMTUhhNThDZVo4WlVEaDVCS0l6NTVXNFh6ZXN0WDhMMWg1TDlqM1NqVXl5Vlp5NGIzWlZoNnJiME5kVjdSUVVCRi1ycTZfUkNwc0pFMA?oc=5
+· GOOGL Pine Labs Announces Strategic Collaboration With Google Cloud In India (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYnY5U0czZi1KNlhaY3RJYmJqVlZNdnk4MEZZX2ZUbXVEaU1RZWttbUdyX21IYTh0TW1PZzQ3SVdtMVYyN1hxcHZNdHBOS3pxeUt5NTY0N1ZfNnNQS1BkSk5KNURzeEVJS05uQkFrMWFIbDlJOWNCUlhYblVMZFRPcTlvQzljMmdmYUh3cTlNRDc2WERtS3FleGo2a1pmVmo5V29mUHZyZWQ3WkgyQ2IyMGVFLUhsNmdZOTNCYzBkQUNiRWx2RHR4dHVVem5UZVZsUXVlZ29uYw?oc=5
+· BRENT Wall Street ends down as oil prices, Treasury yields rise (Reuters) https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2eVNmNXVqbVVESE8zMENLbUxnMUIzdFUxUEZXU09lU0h3WmR6eXp1c1R5bTQ0TmxwME56TGFCaF93LW9mNXRIdF85bURtaWxWTzRWNg?oc=5
 · BTC 'BTC still has room to catch up': Bitcoin's $80,000 breakout draws institutional demand as analysts weigh durability (The Block) https://www.theblock.co/news/markets/2026-09-23-bitcoin-breakout-etf-inflows-analysts-k33-nexo-resistance-416182
+· UST Japan's 10-year bond yield hits 30-year high after US Treasury selloff (Reuters) https://www.reuters.com/world/asia-pacific/japans-10-year-bond-yield-hits-30-year-high-after-us-treasury-selloff-2026-09-24/
+· BTC Bitcoin Drops to $84K as Bond Yields Hit 5.11%: What Next? (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:699d2da2e094b:0-bitcoin-drops-to-84k-as-bond-yields-hit-5-11-what-next/
 · BABA What Does Alibaba (BABA) Facing A Securities Fraud Probe Mean Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-alibaba-baba-facing-securities-211806119.html
 · MELI34 Mercado Livre Racing aposta em estratégias e sintonia de duplas para prova Endurance da Stock Car em Brasília (UOL Economia) https://motorsport.uol.com.br/stockcar-br/news/mercado-livre-racing-aposta-em-estrategias-e-sintonia-de-duplas-para-prova-endurance-da-stock-car-e/10858367/
 · USDBRL Dólar à vista sobe 1,28% em meio a aversão global a risco (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/dolar-a-vista-sobe-128percent-em-meio-a-aversao-global-a-risco.ghtml
