@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-09-24T01:15:18Z",
+ "gerado_em": "2026-09-24T01:29:44Z",
  "partes": {
   "cartas": {
-   "em": "2026-09-24T01:20:43Z",
+   "em": "2026-09-24T01:34:37Z",
    "resultado": {
     "cartas": 43,
     "metodos": {
@@ -25,22 +25,26 @@
    }
   },
   "documentos": {
-   "em": "2026-09-24T01:20:56Z",
-   "resultado": "falhou"
+   "em": "2026-09-24T01:35:26Z",
+   "resultado": {
+    "pdfs": 14,
+    "posts": 0,
+    "imagens": 19
+   }
   },
   "videos": {
-   "em": "2026-09-24T01:24:38Z",
+   "em": "2026-09-24T01:40:38Z",
    "resultado": {
-    "videos": 47,
+    "videos": 37,
     "com_legenda": 0,
-    "erros": 16,
+    "erros": 13,
+    "fora_do_tema": 16,
     "listagem": "yt-dlp"
    }
   }
  },
  "falhas": [
-  "documentos: AttributeError: 'list' object has no attribute 'get'",
-  "videos: nenhuma legenda baixada; ultimo erro: android_vr: legenda listada mas nao baixada"
+  "videos: nenhuma legenda baixada; ultimo erro: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
  ],
  "rodou": [
   "cartas",
