@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-09-24T00:28:18Z",
+ "gerado_em": "2026-09-24T01:20:43Z",
  "fonte": "https://www.kinea.com.br (PDF da Carta do Gestor, texto extraido com pypdf)",
  "desde": "2025-07",
  "cartas": [
@@ -27,7 +27,8 @@
    "sha1_texto": "ce309c8396bacfb7",
    "titulo": "[p. 1] Fundo de ações",
    "descoberta": "wp-json",
-   "baixado_em": "2026-09-24T00:11:35Z"
+   "baixado_em": "2026-09-24T00:11:35Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Gama-Alocadores-Sub-IV-2026-08.txt",
@@ -79,7 +80,17 @@
    "sha1_texto": "6f530759a6e995b8",
    "titulo": "[p. 1] A  H O R A  D O  P E S A D E L O",
    "descoberta": "wp-json",
-   "baixado_em": "2026-09-24T00:12:29Z"
+   "baixado_em": "2026-09-24T00:12:29Z",
+   "imagens": [
+    {
+     "pagina": 17,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Atlas-Geral-Sub-I-2026-08-p17.jpg"
+    },
+    {
+     "pagina": 23,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Atlas-Geral-Sub-I-2026-08-p23.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Apolo-Geral-Sub-I-2026-08.txt",
@@ -105,7 +116,13 @@
    "sha1_texto": "e88e094c56e1e825",
    "titulo": "[p. 1] D R .  S T R A N G E L O V E",
    "descoberta": "wp-json",
-   "baixado_em": "2026-09-24T00:14:07Z"
+   "baixado_em": "2026-09-24T00:14:07Z",
+   "imagens": [
+    {
+     "pagina": 6,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Chronos-Alocadores-Sub-II-2026-07-p06.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Sigma-2026-06.txt",
@@ -131,7 +148,13 @@
    "sha1_texto": "f4c88c6b3268b5ca",
    "titulo": "[p. 1] Junho de 2026 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:14:38Z"
+   "baixado_em": "2026-09-24T00:14:38Z",
+   "imagens": [
+    {
+     "pagina": 14,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-06-p14.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-06.txt",
@@ -144,7 +167,8 @@
    "sha1_texto": "f9f7d1973040a785",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:14:45Z"
+   "baixado_em": "2026-09-24T00:14:45Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-06.txt",
@@ -196,7 +220,17 @@
    "sha1_texto": "a3889fc7cd62d3e3",
    "titulo": "[p. 1] Maio de 2026 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:15:02Z"
+   "baixado_em": "2026-09-24T00:15:02Z",
+   "imagens": [
+    {
+     "pagina": 16,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-05-p16.jpg"
+    },
+    {
+     "pagina": 21,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-05-p21.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-05.txt",
@@ -209,7 +243,8 @@
    "sha1_texto": "a64a599c178f5cef",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:15:09Z"
+   "baixado_em": "2026-09-24T00:15:09Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-05.txt",
@@ -261,7 +296,17 @@
    "sha1_texto": "15a6e472607a6176",
    "titulo": "[p. 1] Abril de 2026 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:27Z"
+   "baixado_em": "2026-09-24T00:27:27Z",
+   "imagens": [
+    {
+     "pagina": 7,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-04-p07.jpg"
+    },
+    {
+     "pagina": 24,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-04-p24.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-04.txt",
@@ -274,7 +319,8 @@
    "sha1_texto": "6891a93b076807c6",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:28Z"
+   "baixado_em": "2026-09-24T00:27:28Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-04.txt",
@@ -326,7 +372,17 @@
    "sha1_texto": "aa3770efd3ab9e63",
    "titulo": "[p. 1] Março de 2026 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:38Z"
+   "baixado_em": "2026-09-24T00:27:38Z",
+   "imagens": [
+    {
+     "pagina": 21,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-03-p21.jpg"
+    },
+    {
+     "pagina": 23,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-03-p23.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-03.txt",
@@ -339,7 +395,13 @@
    "sha1_texto": "607270980d571ebe",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:39Z"
+   "baixado_em": "2026-09-24T00:27:39Z",
+   "imagens": [
+    {
+     "pagina": 2,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Acoes-2026-03-p02.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-03.txt",
@@ -391,7 +453,13 @@
    "sha1_texto": "0ea69583a5059655",
    "titulo": "[p. 1] Fevereiro de 2026 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:49Z"
+   "baixado_em": "2026-09-24T00:27:49Z",
+   "imagens": [
+    {
+     "pagina": 7,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-02-p07.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-02.txt",
@@ -404,7 +472,8 @@
    "sha1_texto": "0315b77d462661a0",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:27:51Z"
+   "baixado_em": "2026-09-24T00:27:51Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-02.txt",
@@ -456,7 +525,17 @@
    "sha1_texto": "f6f17b8c8eef41f0",
    "titulo": "[p. 1] Janeiro de 2026 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:01Z"
+   "baixado_em": "2026-09-24T00:28:01Z",
+   "imagens": [
+    {
+     "pagina": 17,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-01-p17.jpg"
+    },
+    {
+     "pagina": 20,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Sigma-2026-01-p20.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2026-01.txt",
@@ -469,7 +548,13 @@
    "sha1_texto": "bf25077cc3e00ac5",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:02Z"
+   "baixado_em": "2026-09-24T00:28:02Z",
+   "imagens": [
+    {
+     "pagina": 2,
+     "arquivo": "kinea/imagens/cartas/Carta-do-Gestor-Prev-Acoes-2026-01-p02.jpg"
+    }
+   ]
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2026-01.txt",
@@ -521,7 +606,8 @@
    "sha1_texto": "5bc1314df5a99b93",
    "titulo": "[p. 1] Dezembro de 2025 | Carta do Gestor",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:12Z"
+   "baixado_em": "2026-09-24T00:28:12Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Prev-Acoes-2025-12.txt",
@@ -534,7 +620,8 @@
    "sha1_texto": "e0740c8c26b692d7",
    "titulo": "[p. 1] Não Corporativo",
    "descoberta": "padrao",
-   "baixado_em": "2026-09-24T00:28:14Z"
+   "baixado_em": "2026-09-24T00:28:14Z",
+   "imagens": []
   },
   {
    "arquivo": "kinea/cartas/Carta-do-Gestor-Atlas-II-Itau-Sub-III-2025-12.txt",

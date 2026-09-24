@@ -1,26 +1,49 @@
 {
- "gerado_em": "2026-09-24T00:22:26Z",
+ "gerado_em": "2026-09-24T01:15:18Z",
  "partes": {
   "cartas": {
-   "cartas": 43,
-   "metodos": {
-    "wp-json": 599,
-    "categoria": 0,
-    "padrao": 63,
-    "informadas": 0
-   },
-   "meses": [
-    "2025-12",
-    "2026-01",
-    "2026-02",
-    "2026-03",
-    "2026-04",
-    "2026-05",
-    "2026-06",
-    "2026-07",
-    "2026-08"
-   ]
+   "em": "2026-09-24T01:20:43Z",
+   "resultado": {
+    "cartas": 43,
+    "metodos": {
+     "wp-json": 599,
+     "categoria": 0,
+     "padrao": 63,
+     "informadas": 0
+    },
+    "meses": [
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ]
+   }
+  },
+  "documentos": {
+   "em": "2026-09-24T01:20:56Z",
+   "resultado": "falhou"
+  },
+  "videos": {
+   "em": "2026-09-24T01:24:38Z",
+   "resultado": {
+    "videos": 47,
+    "com_legenda": 0,
+    "erros": 16,
+    "listagem": "yt-dlp"
+   }
   }
  },
- "falhas": []
+ "falhas": [
+  "documentos: AttributeError: 'list' object has no attribute 'get'",
+  "videos: nenhuma legenda baixada; ultimo erro: android_vr: legenda listada mas nao baixada"
+ ],
+ "rodou": [
+  "cartas",
+  "midia"
+ ]
 }
