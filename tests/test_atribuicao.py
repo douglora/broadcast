@@ -125,6 +125,19 @@ def test_agenda_de_empresas_enxerga_dez_pregoes():
     assert "resultado MU" not in " ".join(render.agenda(cal, date(2026, 9, 14)))    # 16 dias: fora
 
 
+def test_agenda_da_manha_mostra_os_eventos_de_hoje():
+    # 24/09: a manha comecou em "sex 25/09" e perdeu o RPM das 09:00 e o leilao das 11:00
+    cal = {"eventos_macro": [{"data": date(2026, 9, 24), "hora_brt": "09:00",
+                              "evento": "Relatorio de Politica Monetaria 3T26 (BCB)", "confianca": "media"}],
+           "recorrentes": [{"dia_semana": 3, "hora_brt": "11:00", "evento": "Leilao do Tesouro: NTN-B"}],
+           "resultados": []}
+    manha = " ".join(render.agenda(cal, date(2026, 9, 24), incluir_hoje=True))
+    assert "24/09 09:00 Relatorio de Politica Monetaria" in manha
+    assert "24/09 11:00 Leilao do Tesouro: NTN-B" in manha
+    fechamento = " ".join(render.agenda(cal, date(2026, 9, 24)))
+    assert "Relatorio de Politica Monetaria" not in fechamento and "24/09" not in fechamento
+
+
 def test_participacao_de_venda_e_de_total_com_derivativos():
     venda = {"texto": "recebeu correspondência da Gestora X, comunicando que alienou ações e suas participações "
                       "passaram a ser inferiores a 5%, representando 4,95% do capital, configurando alienação de participação"}
