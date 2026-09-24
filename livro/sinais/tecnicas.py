@@ -360,10 +360,21 @@ class T13Regime(Regra):
         vix_df = ctx.series.get("VIX")
         vix = float(vix_df["close"].iloc[-1]) if vix_df is not None and len(vix_df) else None
         vix_ant = float(vix_df["close"].iloc[-2]) if vix_df is not None and len(vix_df) > 1 else None
+        # sem a barra de D-1 a "variacao do dia" do VIX cobre dois pregoes: o nivel vale,
+        # a variacao e o cruzamento de degrau nao
+        if "VIX" in ctx.series_info and not qa.dia_valido(ctx.series_info.get("VIX")):
+            vix_ant = None
+            self._fora.append("VIX (variação)")
         vix_var = (vix / vix_ant - 1.0) if vix and vix_ant else None
         dxy = self._var(ctx, "DXY")
         brl = self._var(ctx, "USDBRL")
         btc = self._var(ctx, "BTC")
+        if btc is None and ((ctx.series_info.get("BTC") or {}).get("qualidade") or {}).get("parcial"):
+            # no fechamento das 18h o dia UTC do BTC ainda nao acabou: usa o ultimo dia fechado
+            df = ctx.series.get("BTC")
+            if df is not None and len(df) > 2:
+                btc = float(df["close"].iloc[-2] / df["close"].iloc[-3] - 1.0)
+                self._fora = [x for x in self._fora if x != "BTC"]
         ust10 = (ctx.curvas.get("ust") or {}).get("delta_bps", {}).get("10y")
         f35 = (ctx.curvas.get("di") or {}).get("delta_bps", {}).get("DI1F35")
         pontos = 0

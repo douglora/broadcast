@@ -9,7 +9,8 @@ declarada e a serie anterior (ja no branch dados) e preservada."""
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+import re
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 from livro.http import Cliente, HttpError, com_rodadas
@@ -52,6 +53,15 @@ def parse_chart(payload: dict, simbolo: str, diario: bool = True) -> dict:
     adj = ((r.get("indicators") or {}).get("adjclose") or [{}])[0].get("adjclose") or []
     barras = []
     redatadas = []
+    # so futuro e indice da ICE negociam a noite com sessao nova as 18h de Nova York;
+    # cambio e acao tambem mandam duas linhas do mesmo dia (a diaria e a viva), e ai a
+    # ULTIMA vence, como sempre foi (revisao de 23/09: redatar o USDBRL criava barra
+    # fantasma no dia seguinte e cegava o portao)
+    tipo = str(meta.get("instrumentType") or "").upper()
+    bolsa = str(meta.get("exchangeName") or "").upper()
+    noturno = (tipo == "FUTURE" or simbolo.endswith("=F") or bolsa in ("NYB", "ICE", "NYM", "CMX")
+               or bool(re.match(r"^[A-Z]{1,4}[FGHJKMNQUVXZ]\d{2}\.(NYM|CMX|CBT|CME|NYB)$", simbolo)))
+    reabre = {"America/New_York": 18, "America/Chicago": 17}.get(tz)
     for i, ts in enumerate(stamps):
         close = (q.get("close") or [None] * len(stamps))[i]
         if close is None:
@@ -63,15 +73,19 @@ def parse_chart(payload: dict, simbolo: str, diario: bool = True) -> dict:
             arr = q.get(nome) or []
             return arr[i] if i < len(arr) else None
 
+        nova = [d, v("open"), v("high"), v("low"), float(close), float(aj), v("volume")]
         if diario and barras and barras[-1][0] == d:
-            # Duas barras com a MESMA data: a primeira e o pregao liquidado e a segunda
-            # e a sessao seguinte, que em futuros e no DXY reabre as 18h de Nova York
-            # (visto em 23/09 no BZX26.NYM: 103,08 com volume 47 mil e depois 101,94
-            # com volume 958, as duas "de 23/09"). A segunda pertence ao proximo dia
-            # util; antes, o dict por data guardava so a ultima e o livro publicava o toco.
-            d = _proximo_dia_util(d)
-            redatadas.append(d)
-        barras.append([d, v("open"), v("high"), v("low"), float(close), float(aj), v("volume")])
+            hora_local = datetime.fromtimestamp(ts, zona).hour
+            if noturno and reabre is not None and hora_local >= reabre:
+                # Futuro/ICE, segunda linha da mesma data depois das 18h ET: e a sessao
+                # seguinte (23/09 no BZX26.NYM: 103,08 com volume 47 mil e depois 101,94
+                # com volume 958, as duas "de 23/09"). Pertence ao proximo dia util.
+                nova[0] = _proximo_dia_util(d)
+                redatadas.append(nova[0])
+            else:
+                barras[-1] = nova          # mesma sessao: a linha mais nova vence
+                continue
+        barras.append(nova)
     ev = r.get("events") or {}
     dividendos = sorted(
         [[datetime.fromtimestamp(int(x.get("date", 0)), zona).date().isoformat(), x.get("amount")]
@@ -103,6 +117,23 @@ def parse_chart(payload: dict, simbolo: str, diario: bool = True) -> dict:
         closes = q.get("close") or []
         out["_intradia"] = [[ts, float(closes[i])] for i, ts in enumerate(stamps)
                             if i < len(closes) and closes[i] is not None]
+    return out
+
+
+def normalizar_datas(barras: list[list], noturno: bool) -> list[list]:
+    """Datas repetidas num arquivo ja gravado (o parser antigo guardava as duas linhas
+    "de 23/09" do BZX26.NYM). Futuro/ICE: a segunda e a sessao seguinte e vai para o
+    proximo dia util; resto: a mais nova vence. Mesma regra do parse_chart."""
+    out: list[list] = []
+    for b in barras or []:
+        if out and out[-1][0] == b[0]:
+            if noturno:
+                out.append([_proximo_dia_util(b[0]), *b[1:]])
+            else:
+                out[-1] = b
+            continue
+        out.append(b)
+    out.sort(key=lambda x: x[0])
     return out
 
 
@@ -224,7 +255,8 @@ def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS
         por_data = {b[0]: b for b in antigas}
         rejeitadas = []
         futuro = str((nova.get("meta") or {}).get("instrumentType") or "").upper() == "FUTURE" \
-            or str(nova.get("simbolo") or "").endswith("=F")
+            or str(nova.get("simbolo") or "").endswith("=F") \
+            or str((nova.get("meta") or {}).get("exchangeName") or "").upper() in ("NYB", "ICE", "NYM", "CMX")
         ref = [b for b in antigas[-21:]]
         for b in (nova.get("barras") or []):
             velha = por_data.get(b[0])
@@ -260,23 +292,28 @@ def mesclar(antiga: dict | None, nova: dict | None, max_barras: int = MAX_BARRAS
 
 
 def fechamentos_intradia(cli: Cliente, simbolo: str, hora_corte: str = "17:00",
-                         tz_corte: str = "America/Sao_Paulo", crumb: str | None = None) -> dict:
+                         tz_corte: str = "America/Sao_Paulo", crumb: str | None = None, rng: str = "5d") -> dict:
     """{data: [preco, 'hh:mm']}: ultimo negocio ate `hora_corte` (fuso `tz_corte`) de
     cada dia, a partir do grafico de 15 minutos dos ultimos 5 dias.
 
     A barra DIARIA do USDBRL=X no Yahoo nao presta para o fechamento: em 23/09 a
     barra "de 23/09" fechava em 5,0999 (o numero da vespera) e a de 24/09 abria em
     5,1625; o dolar tinha subido 1,28%. O dolar a vista no Brasil fecha as 17h."""
-    d = baixar_serie(cli, simbolo, "5d", crumb, intervalo="15m")
+    d = baixar_serie(cli, simbolo, rng, crumb, intervalo="15m")
     hh, mm = (int(x) for x in hora_corte.split(":"))
     z = ZoneInfo(tz_corte)
     out: dict = {}
     for b in d.get("_intradia") or []:
         ts, preco = b
         t = datetime.fromtimestamp(ts, z)
-        if (t.hour, t.minute) <= (hh, mm) and t.weekday() < 5:
-            out[t.date().isoformat()] = [preco, f"{t:%H:%M}"]
-    return out
+        # a barra de 15 min que COMECA antes do corte e a ultima que termina ate ele (a
+        # das 16h45 fecha as 17h00); o rotulo e a hora em que a barra termina
+        if (t.hour, t.minute) < (hh, mm) and t.weekday() < 5:
+            fim = t + timedelta(minutes=15)
+            out[t.date().isoformat()] = [preco, f"{fim:%H:%M}"]
+    # dia sem negocio na ultima meia hora antes do corte nao e fechamento
+    minimo = f"{(hh * 60 + mm - 30) // 60:02d}:{(hh * 60 + mm - 30) % 60:02d}"
+    return {k: x for k, x in out.items() if x[1] > minimo}
 
 
 def sonda(simbolos: list[str], cli: Cliente | None = None) -> dict:

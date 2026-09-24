@@ -123,3 +123,26 @@ def test_agenda_de_empresas_enxerga_dez_pregoes():
     linhas = " ".join(render.agenda(cal, date(2026, 9, 18)))
     assert "resultado MU" in linhas                       # 12 dias a frente
     assert "resultado MU" not in " ".join(render.agenda(cal, date(2026, 9, 14)))    # 16 dias: fora
+
+
+def test_participacao_de_venda_e_de_total_com_derivativos():
+    venda = {"texto": "recebeu correspondência da Gestora X, comunicando que alienou ações e suas participações "
+                      "passaram a ser inferiores a 5%, representando 4,95% do capital, configurando alienação de participação"}
+    p = at.participacao({**venda, "tipo": "Aquisição/Alienação de Participação Acionária Relevante"})
+    assert p["direcao"] == "reduziu" and p["percentual"] == 4.95 and p["detentor"] == "Gestora X"
+    assert at.texto_participacao(p).startswith("Gestora X reduziu para 4,95%")
+    deriv = {"texto": "participação acionária relevante: 0,90% em ações e 5,15% em derivativos, totalizando 6,05% do capital"}
+    assert at.participacao(deriv)["percentual"] == 6.05
+
+
+def test_fato_relevante_nao_vira_aviso_de_participacao(universo, limiares):
+    from datetime import date as _d
+    from livro.sinais import eventos
+    from livro.sinais.base import Contexto, Estado
+    doc = {"ativo": "DIRR3", "categoria": "Fato Relevante", "assunto": "Venda de participação acionária relevante do controlador",
+           "data": "2026-09-23", "protocolo": "1", "severidade": "atencao",
+           "texto": "O controlador comunicou a alienação de participação acionária relevante de 10%."}
+    ctx = Contexto(universo=universo, limiares=limiares, hoje=_d(2026, 9, 23), slot="fechamento", series={},
+                   series_info={}, curvas={}, macro={}, falhas={}, eventos={"cvm": [doc]})
+    a = eventos.E03CVM().avaliar(ctx, Estado())[0]
+    assert "Fato Relevante" in a.titulo and a.severidade == "atencao" and "participacao" not in a.dados

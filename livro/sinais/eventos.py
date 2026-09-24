@@ -131,7 +131,8 @@ class E03CVM(Regra):
             como = f"a {_nome_curto(ctx, ativo, d.get('empresa'))} publicou {cat.lower()} sobre {_corta(assunto, 70)}"
             # aviso de participacao relevante (BlackRock na DIRR3 em 23/09): nao e fato
             # relevante e nao costuma explicar o preco do dia; dizer quem, quanto e quando
-            part = atribuicao.participacao(d)
+            # Fato Relevante (venda do controlador, por exemplo) continua Fato Relevante
+            part = atribuicao.participacao(d) if cat != "Fato Relevante" else None
             if part:
                 resumo_p = atribuicao.texto_participacao(part)
                 titulo = f"{ctx.rotulo(ativo)} · Participação relevante: {resumo_p}"

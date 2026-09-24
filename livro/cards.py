@@ -48,10 +48,12 @@ def _linha(a, j: dict, info: dict) -> str:
     extra = " · ".join(x for x in (j.get("extremo_52s"), j.get("proximo_evento")) if x)
     if extra:
         atraso += f" · {_esc(extra)}"
+    # "a confirmar": o ultimo preco e as janelas saem da mesma barra que o portao
+    # recusou, entao nenhum numero da linha e mostrado
     celulas = [f"**{_esc(a.id)}** {_esc(nome_curto(a))}{atraso}",
-               _esc(fmt.preco(j.get("ultimo"), a.decimais)),
+               "a confirmar" if ocultar else _esc(fmt.preco(j.get("ultimo"), a.decimais)),
                "a confirmar" if ocultar else f"**{_v(j.get('dia'))}**"]
-    celulas += [_v(j.get(c)) for c in COLUNAS[1:]]
+    celulas += ["-" if ocultar else _v(j.get(c)) for c in COLUNAS[1:]]
     return "| " + " | ".join(celulas) + " |"
 
 

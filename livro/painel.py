@@ -245,7 +245,8 @@ def _linha_ativo(a, j: dict, info: dict) -> str:
     atraso = ""
     if rot:
         motivos = "; ".join(((info.get("qualidade") or {}).get("motivos") or [])[:2])
-        titulo = motivos or f"sem barra de {fmt.data_br(info.get('esperado'))} — ultima {fmt.data_br(j.get('data'))}"
+        titulo = motivos or ("minério CME liquida com um pregão de atraso" if rot.startswith("D-1")
+                             else f"sem barra de {fmt.data_br(info.get('esperado'))} — ultima {fmt.data_br(j.get('data'))}")
         atraso = f'<span class="atraso" title="{_e(titulo)}">{_e(rot)}</span>'
     nome = f'<span class="nm">{_e(nome_curto(a))}</span>' if a.nome and a.nome != a.apelido else ""
     for x in (j.get("extremo_52s"), j.get("proximo_evento")):
@@ -254,11 +255,10 @@ def _linha_ativo(a, j: dict, info: dict) -> str:
     return (
         "<tr>"
         f'<th scope="row"><span class="tk">{_e(a.id)}</span>{nome}{atraso}</th>'
-        f'<td class="n ult">{_e(fmt.preco(j.get("ultimo"), a.decimais))}</td>'
+        f'<td class="n ult">{"a confirmar" if ocultar else _e(fmt.preco(j.get("ultimo"), a.decimais))}</td>'
         f'<td class="n dia {_sinal(dia)}"><span class="barra" style="--w:{_larg(dia)}%"></span>'
         f'<span class="v">{"a confirmar" if ocultar else _e(fmt.pct(dia))}</span></td>'
-        + _cel(j.get("1s")) + _cel(j.get("1m")) + _cel(j.get("3m"))
-        + _cel(j.get("6m")) + _cel(j.get("1a")) + _cel(j.get("ytd")) + _cel(j.get("5a")) +
+        + "".join(_cel(None if ocultar else j.get(k)) for k in ("1s", "1m", "3m", "6m", "1a", "ytd", "5a")) +
         "</tr>"
     )
 
@@ -518,7 +518,7 @@ def _cartao_por_que(ins: dict) -> str:
         f'<tr><th scope="row"><span class="tk">{_e(x["id"])}</span></th>'
         f'<td class="n dia {_sinal(x["dia"])}"><span class="v">{_e(fmt.pct(x["dia"]))}</span></td>'
         f'<td class="txt">{_e(x["explicacao"])}</td><td class="txt grau">{_e(x["grau"])}</td></tr>' for x in itens)
-    return ('<section class="cartao largo porque"><h2>Por que mexeu<span class="conta">camadas que o dado sustenta, '
+    return ('<section class="cartao largo porque-mexeu"><h2>Por que mexeu<span class="conta">camadas que o dado sustenta, '
             'sem somar efeitos</span></h2><div class="rolagem"><table><thead><tr><th scope="col">Ativo</th>'
             '<th scope="col">dia</th><th scope="col">explicação</th><th scope="col">grau</th></tr></thead>'
             f'<tbody>{linhas}</tbody></table></div></section>')
@@ -528,15 +528,18 @@ def _cartao_setores(ins: dict) -> str:
     setores = ins.get("setores") or []
     if not setores:
         return ""
+    def destoou(c):
+        d = c["destoou"]
+        return f"destoou: {d['id']} {fmt.pct(d['dia'])}" if d else "ninguém destoou"
+    # 3 colunas: quem destoou vai dentro da celula do setor (no celular nao rola de lado)
     linhas = "".join(
-        f'<tr><th scope="row">{_e(c["titulo"])}<span class="nm">{_e(c.get("fator") or "")}</span></th>'
+        f'<tr><th scope="row">{_e(c["titulo"])}<span class="nm">{_e(" · ".join(x for x in (c.get("fator"), destoou(c)) if x))}</span></th>'
         f'<td class="n dia {_sinal(c["mediana"])}"><span class="v">{_e(fmt.pct(c["mediana"]))}</span></td>'
-        f'<td class="n">{c["subiram"]}/{c["cairam"]}</td>'
-        f'<td class="txt">{(_e(c["destoou"]["id"]) + " " + _e(fmt.pct(c["destoou"]["dia"]))) if c["destoou"] else "ninguém"}</td></tr>'
+        f'<td class="n">{c["subiram"]}/{c["cairam"]}</td></tr>'
         for c in setores)
     return ('<section class="cartao largo setores"><h2>Setores do dia<span class="conta">o setor todo andou ou só o papel?</span></h2>'
             '<div class="rolagem"><table><thead><tr><th scope="col">Setor</th><th scope="col">mediana</th>'
-            '<th scope="col">subiram/caíram</th><th scope="col">quem destoou</th></tr></thead>'
+            '<th scope="col">subiram/caíram</th></tr></thead>'
             f'<tbody>{linhas}</tbody></table></div></section>')
 
 

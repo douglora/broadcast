@@ -23,12 +23,18 @@ MAX_POR_QUE = 8
 
 
 # ------------------------------------------------------------ setores
-def _rotulo_fator(fator: str | None, ins: dict, janelas: dict) -> str:
+def _rotulo_fator(fator: str | None, ins: dict, janelas: dict, data: str | None = None) -> str:
     if not fator:
         return ""
     if fator.startswith("DI1F"):
-        d = ((ins.get("di") or {}).get("deltas") or {}).get(fator)
-        return f"DI F{fator[4:]} {fmt.bps(d)} bps" if d is not None else ""
+        di = ins.get("di") or {}
+        d = (di.get("deltas") or {}).get(fator)
+        if d is None:
+            return ""
+        # ajuste de outro pregao (intradia, ou B3 atrasada) nao explica o movimento de hoje
+        if data and di.get("ultimo") and di["ultimo"] != data:
+            return f"DI F{fator[4:]} {fmt.bps(d)} bps (ajuste de {fmt.data_br(di['ultimo'])})"
+        return f"DI F{fator[4:]} {fmt.bps(d)} bps"
     j = janelas.get(fator) or {}
     if j.get("dia") is not None and j.get("dia_confirmado", True):
         return f"{fator} {fmt.pct(j['dia'])}"
@@ -42,6 +48,8 @@ def cestas(universo, janelas: dict, ins: dict) -> list[dict]:
     for c in getattr(universo, "cestas", []) or []:
         membros = [(m, janelas[m]["dia"]) for m in c.get("membros", [])
                    if m in janelas and janelas[m].get("dia") is not None and janelas[m].get("dia_confirmado", True)]
+        datas = sorted({janelas[m].get("data") for m, _ in membros if janelas[m].get("data")})
+        data_cesta = datas[-1] if datas else None
         fora = [m for m in c.get("membros", []) if m not in dict(membros)]
         if len(membros) < 3:
             continue
@@ -52,7 +60,7 @@ def cestas(universo, janelas: dict, ins: dict) -> list[dict]:
         out.append({"id": c["id"], "titulo": c.get("titulo", c["id"]), "n": len(membros), "mediana": med,
                     "subiram": sum(1 for _, v in membros if v > 0), "cairam": sum(1 for _, v in membros if v < 0),
                     "destoou": ({"id": destoou[0], "dia": destoou[1], "desvio": destoou[1] - med} if destoou[0] else {}),
-                    "fator": _rotulo_fator(c.get("fator"), ins, janelas), "membros": membros, "fora": fora,
+                    "fator": _rotulo_fator(c.get("fator"), ins, janelas, data_cesta), "membros": membros, "fora": fora,
                     "no_livro": [m for m, _ in membros if universo.por_id(m)]})
     return out
 
@@ -72,13 +80,22 @@ def participacao(doc: dict) -> dict | None:
         return None
     plano = re.sub(r"\s+", " ", txt)
     out = {"subtipo": "participacao_relevante"}
-    m = re.search(r"correspond[eê]ncia d[ao]s? ([A-Z][\w&.,' -]{2,60}?)(?:\s*\(|,| sediad| com sede| inscrit)", plano)
+    m = re.search(r"correspond[eê]ncia d[ao]s? ([A-Z][\w&.,' -]{2,60}?)(?:\s*\(|,| sediad| com sede| inscrit| comunicando| informando)", plano)
     if m:
         out["detentor"] = m.group(1).strip(" ,")
     m = re.search(r"(\d{1,3}(?:[.,]\d{3})+|\d+)\s+a[cç][oõ]es\s+ordin[aá]rias", plano, re.I)
     if m:
         out["quantidade"] = int(re.sub(r"\D", "", m.group(1)))
-    m = re.search(r"(?:aproximadamente|cerca de)?\s*(\d{1,2}[.,]\d{1,3})\s*%", plano)
+    # o percentual que vale e o da posicao depois da operacao ("passaram a ser",
+    # "representando", "totalizando"), nao o primeiro numero com % do texto
+    m = None
+    for padrao in (r"totalizando[^%]{0,80}?(\d{1,2}[.,]\d{1,3})\s*%",
+                   r"(?:passaram a ser|passou a deter|passou a ser|representando)[^%]{0,120}?(\d{1,2}[.,]\d{1,3})\s*%",
+                   r"(\d{1,2}[.,]\d{1,3})\s*%"):
+        achados = list(re.finditer(padrao, plano, re.I))
+        if achados:
+            m = achados[-1] if padrao.startswith("totalizando") else achados[0]
+            break
     if m:
         out["percentual"] = float(m.group(1).replace(",", "."))
     m = re.search(r"em\s+(\d{1,2})\s+de\s+([a-zç ]{4,12}?)\s+de\s+(\d{4})", plano, re.I)
@@ -90,11 +107,13 @@ def participacao(doc: dict) -> dict | None:
     # "Aquisicao/Alienacao de Participacao" e fazia a BlackRock "reduzir" na DIRR3
     corpo = re.sub(r"\s+", " ", str(doc.get("texto") or doc.get("assunto") or ""))
     corpo = re.sub(r"aquisi[cç][aã]o\s*/\s*aliena[cç][aã]o", "", corpo, flags=re.I)
-    if re.search(r"configurando aliena|aliena[cç][aã]o de participa|redu[cç][aã]o de participa|reduziu|"
-                 r"passaram a ser inferiores|inferior a 5", corpo, re.I):
+    if re.search(r"configurando aliena|aliena[cç][aã]o de participa|redu[cç][aã]o de participa|reduziu|alienou|"
+                 r"vendeu|reduzid[ao]|opera[cç][õo]es de venda|passa(?:ram|ou) a ser inferior", corpo, re.I):
         out["direcao"] = "reduziu"
     elif re.search(r"configurando aquisi|aquisi[cç][aã]o de participa|passaram a ser de|atingiu|ultrapass", corpo, re.I):
         out["direcao"] = "aumentou"
+    if out.get("percentual") is not None and out["percentual"] < 5 and out.get("direcao") != "aumentou":
+        out["direcao"] = "reduziu"
     out["objetivo_investimento"] = bool(re.search(r"estritamente de investimento|n[aã]o objetiva(ndo)? altera[cç][aã]o do controle", plano, re.I))
     return out
 
@@ -103,7 +122,7 @@ def texto_participacao(p: dict) -> str:
     quem = p.get("detentor") or "gestor"
     pct = f"{fmt.num(p['percentual'], 2)}%" if p.get("percentual") is not None else "participação relevante"
     quando = f" em {fmt.data_br(p['data_cruzamento'])}" if p.get("data_cruzamento") else ""
-    verbo = "reduziu para" if p.get("direcao") == "reduziu" else "passou a ter"
+    verbo = {"reduziu": "reduziu para", "aumentou": "passou a ter"}.get(p.get("direcao"), "informou participação de")
     return f"{quem} {verbo} {pct}{quando}" + (" (objetivo: só investimento)" if p.get("objetivo_investimento") else "")
 
 
@@ -141,7 +160,7 @@ def por_que_mexeu(universo, janelas: dict, setores: list[dict], eventos: dict, d
     docs = _docs_do_dia(eventos, do_dia, hoje_iso)
     noticias = {}
     for a in do_dia or []:
-        if a.get("regra") == "E05" and a.get("ativo"):
+        if a.get("regra") == "E05" and a.get("ativo") and str(a.get("data") or "")[:10] == hoje_iso:
             noticias.setdefault(a["ativo"], []).append(a)
     t05 = {a.get("ativo") for a in do_dia or [] if a.get("regra") == "T05"}
     cesta_de = {}
@@ -163,17 +182,19 @@ def por_que_mexeu(universo, janelas: dict, setores: list[dict], eventos: dict, d
         s = cesta_de.get(a.id)
         if s and s["n"] >= 3:
             med = s["mediana"]
-            junto = (med * dia > 0) and abs(dia - med) <= max(0.015, 0.5 * abs(dia))
+            # mesmo criterio do "quem destoou" do card de setores: ate 1 p.p. da mediana
+            junto = (med * dia > 0) and abs(dia - med) < 0.01 and (s.get("destoou") or {}).get("id") != a.id
             txt = f"{s['titulo'].lower()} {fmt.pct(med)} (mediana)" + (f", {s['fator']}" if s.get("fator") else "")
             if junto:
                 camadas.append("andou com o setor: " + txt)
                 grau = grau or "setorial"
             else:
-                camadas.append(f"descolou do setor ({txt}; diferença {fmt.pct(dia - med)})")
+                camadas.append(f"descolou do setor ({txt}; {fmt.num((dia - med) * 100, 1)} p.p. da mediana)")
         b = pares.get(a.id)
         if b:
             jb = janelas.get(b) or {}
-            if jb.get("dia") is not None and jb.get("dia_confirmado", True) and abs(jb["dia"]) >= 0.01:
+            mesma_data = not jb.get("data") or not j.get("data") or jb.get("data") == j.get("data")
+            if jb.get("dia") is not None and jb.get("dia_confirmado", True) and abs(jb["dia"]) >= 0.01 and mesma_data:
                 if jb["dia"] * dia > 0:
                     camadas.append(f"acompanhou o {universo.por_id(b).apelido if universo.por_id(b) else b} ({fmt.pct(jb['dia'])})")
                     grau = grau or "driver"
@@ -182,17 +203,21 @@ def por_que_mexeu(universo, janelas: dict, setores: list[dict], eventos: dict, d
         for tipo, d in docs.get(a.id, []):
             if tipo == "cvm":
                 p = d.get("participacao") or participacao(d)
-                if p:
+                if p and d.get("categoria") != "Fato Relevante":
                     camadas.append("aviso de participação: " + texto_participacao(p) + "; não costuma explicar o preço do dia")
                 else:
-                    camadas.append(f"{d.get('categoria', 'documento')} na CVM: {str(d.get('assunto') or d.get('tipo') or '')[:70]}")
+                    assunto = str(d.get("assunto") or d.get("tipo") or "").split(": ", 1)[-1]
+                    camadas.append(f"{d.get('categoria', 'documento')} na CVM: {assunto[:70]}")
                     if d.get("categoria") == "Fato Relevante":
                         grau = "documento"
             else:
                 camadas.append(f"{d.get('form', '8-K')} na SEC: {', '.join(d.get('itens_rotulo') or [])[:70]}")
                 grau = grau or "documento"
         for n in noticias.get(a.id, [])[:1]:
-            camadas.append("notícia: " + str((n.get("dados") or {}).get("manchete") or n.get("titulo") or "")[:90])
+            dd = n.get("dados") or {}
+            veiculo = dd.get("veiculo") or ""
+            camadas.append("notícia a conferir" + (f" ({veiculo})" if veiculo else "") + ": "
+                           + str(dd.get("manchete") or n.get("titulo") or "")[:90])
             grau = grau or "notícia (conferir)"
         if not camadas or grau is None:
             if not any(c.startswith(("andou com", "acompanhou")) for c in camadas):

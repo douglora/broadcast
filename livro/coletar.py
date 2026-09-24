@@ -86,7 +86,14 @@ class Coleta:
         a = self.u.por_id("BRENT")
         if a is None or _p(a, "contrato_explicito") != "brent":
             return []
-        return futuros.simbolos_para(relogios.brt(self.agora).date())
+        # o vigente da data REPORTADA (na manha de 01/10 o pregao e o de 30/09, ainda X26)
+        # e o de hoje, para a rolagem nao pegar a serie de surpresa
+        out = []
+        for d in (self.ate("BRENT"), relogios.brt(self.agora).date()):
+            for simb in futuros.simbolos_para(d):
+                if simb not in out:
+                    out.append(simb)
+        return out
 
     def coletar_series(self) -> None:
         simbolos = self.u.simbolos_yahoo() + self.simbolos_extra
@@ -130,9 +137,14 @@ class Coleta:
         if falhas_livro:
             self.falhas["yahoo"] = f"{len(falhas_livro)} símbolos falharam ({', '.join(list(falhas_livro.values())[:3])})"
         if contratos:
-            vig = [c for c in contratos if novas.get(c)]
-            self.pernas["brent_contratos"] = (f"ok {', '.join(vig)}" if vig else
-                                              f"falha: {', '.join(f'{k} {v}' for k, v in falhas.items() if k in contratos)}")
+            vigente = futuros.simbolo_brent(futuros.contrato_vigente(self.ate("BRENT")))
+            if novas.get(vigente):
+                self.pernas["brent_contratos"] = f"ok {vigente} (vigente)" + (
+                    f"; também {', '.join(c for c in contratos if c != vigente and novas.get(c))}" if len(contratos) > 1 else "")
+            else:
+                self.pernas["brent_contratos"] = f"falha {vigente} (vigente): {falhas.get(vigente, 'sem resposta')}"
+                self.falhas["brent_contrato"] = (f"contrato vigente do Brent ({vigente}) não veio; "
+                                                 "a variação do dia usa a série guardada e pode estar velha")
         if rejeitadas:
             self.pernas["yahoo"] += f"; barras podres recusadas (ficou a guardada): {'; '.join(rejeitadas[:4])}"
         self._fechar_cambio()
@@ -159,15 +171,20 @@ class Coleta:
         for a in alvos:
             hora = str(_p(a, "fechamento_intradia"))
             hh, mm = (int(x) for x in hora.split(":"))
-            try:
-                fech = yahoo.fechamentos_intradia(cli, a.yahoo, hora, crumb=crumb)
-            except Exception as e:
-                rel.append(f"{a.id} falha {type(e).__name__}: {str(e)[:60]}")
-                continue
             d = self._carregar_serie_local(a.yahoo)
             if not d:
                 continue
             guard = dict(d.get("fechamentos_17h") or {})
+            # primeira vez (ou historico curto): 1 mes de 15 min, para 1 semana e 1 mes
+            # tambem sairem com o fechamento das 17h nas duas pontas
+            rng = "1mo" if len(guard) < 20 else "5d"
+            try:
+                fech = yahoo.fechamentos_intradia(cli, a.yahoo, hora, crumb=crumb, rng=rng)
+            except Exception as e:
+                rel.append(f"{a.id} falha {type(e).__name__}: {str(e)[:60]}")
+                self.falhas["cambio_17h"] = (f"{a.id}: fechamento das 17h não veio ({type(e).__name__}); "
+                                             "sem ele o dólar do dia fica a confirmar")
+                continue
             novos = 0
             for data, (preco, hhmm) in sorted(fech.items()):
                 if data == agora_brt.date().isoformat() and (agora_brt.hour, agora_brt.minute) < (hh, mm):
@@ -305,10 +322,11 @@ class Coleta:
         barras = d.get("barras") or []
         if obj.id != "BRENT" or _p(obj, "contrato_explicito") != "brent":
             return barras, {}
-        cod = futuros.contrato_vigente(relogios.brt(self.agora).date())
+        cod = futuros.contrato_vigente(self.ate("BRENT"))
         simb = futuros.simbolo_brent(cod)
         c = self._carregar_serie_local(simb) or {}
-        bc = c.get("barras") or []
+        bc = yahoo.normalizar_datas(c.get("barras") or [], noturno=True)
+        c = {**c, "barras": bc}
         if len(bc) < 5:
             return barras, {"contrato": f"{simb} indisponível; série contínua BZ=F (a conferir)"}
         # trava: contrato e continuo tem de estar na mesma ordem de grandeza
@@ -330,6 +348,8 @@ class Coleta:
                 self.series_info[obj.id] = {"ausente": True, "esperado_hoje": True}
                 continue
             mercado = self._mercado(obj)
+            noturno = qa.e_futuro(d, s) or mercado == "ICE"
+            d = {**d, "barras": yahoo.normalizar_datas(d.get("barras") or [], noturno)}
             barras, extra = self._barras_brent(d, obj)
             dados_q = extra.pop("_dados_contrato", None) or d
             # cambio: o fechamento das 17h (15 minutos) vale por cima da barra diaria
@@ -354,8 +374,18 @@ class Coleta:
                       if extra.get("contrato", "").startswith(tuple(futuros.MESES_PT)) else s)
             v = qa.avaliar({**dados_q, "barras": barras}, simb_q, mercado, classe, self.agora, ate,
                            confirmadas={k: x[1] for k, x in f17.items()})
+            if (_p(obj, "fechamento_intradia") and self.modo == "fechamento" and v.data_barra == ate.isoformat()
+                    and ate.isoformat() not in f17 and not v.descartar_ultima):
+                # sem o fechamento das 17h de hoje, a barra diaria do Yahoo nao vale
+                # (23/09: guardava o numero da vespera)
+                v.piorar(qa.NAO_CONFIRMADO, f"fechamento das 17h de {fmt.data_br(ate.isoformat())} indisponível; "
+                                            "a barra diária do Yahoo não confirma o dólar do dia")
             if v.descartar_ultima:
-                barras = [b for b in barras if b[0] != v.data_barra]
+                # descarta pela POSICAO: a ultima barra ate `ate` (duas barras com a mesma
+                # data, como no BZX26 gravado pelo parser antigo, levavam a boa junto)
+                idx = max((k for k, b in enumerate(barras) if b[0] <= ate.isoformat()), default=None)
+                if idx is not None and barras[idx][0] == v.data_barra:
+                    barras = barras[:idx] + barras[idx + 1:]
             df = ind.para_df(barras)
             if len(df) == 0:
                 self.series_info[obj.id] = {"ausente": True, "esperado_hoje": True}
@@ -744,7 +774,7 @@ class Coleta:
                 j["dia_confirmado"] = qa.dia_valido(info)
                 # contexto do movimento: volume contra a media, onde fechou na amplitude,
                 # extremo de 52 semanas (so com barra completa e dia confirmado)
-                if j["dia_confirmado"] and a.classe in ("acao", "etf", "bdr"):
+                if j["dia_confirmado"] and a.classe in ("acao", "etf", "bdr") and self.modo in ("manha", "fechamento"):
                     j.update(atribuicao.qualidade_dia(self.series[a.id], ate_a))
                 if j["dia_confirmado"]:
                     ext = atribuicao.extremo_52s(self.series[a.id], ate_a)
@@ -753,13 +783,15 @@ class Coleta:
                 janelas[a.id] = j
         # referencias das cestas setoriais (benchmarks), com o mesmo portao
         janelas_ref = {}
-        for c in getattr(self.u, "cestas", []) or []:
-            for m in list(c.get("membros", [])) + ([c["fator"]] if c.get("fator") and not str(c["fator"]).startswith("DI1F") else []):
-                if m in janelas or m in janelas_ref or m not in self.series:
-                    continue
-                jr = ind.janelas(self.series[m], ate=self.ate(m))
-                jr["dia_confirmado"] = qa.dia_valido(self.series_info.get(m))
-                janelas_ref[m] = jr
+        ref_ids = [m for c in (getattr(self.u, "cestas", []) or [])
+                   for m in list(c.get("membros", [])) + ([c["fator"]] if c.get("fator") and not str(c["fator"]).startswith("DI1F") else [])]
+        ref_ids += [d for d in qa.DRIVERS if self.u.bench(d)]      # IBOV, SPX, VIX para os drivers
+        for m in ref_ids:
+            if m in janelas or m in janelas_ref or m not in self.series:
+                continue
+            jr = ind.janelas(self.series[m], ate=self.ate(m))
+            jr["dia_confirmado"] = qa.dia_valido(self.series_info.get(m))
+            janelas_ref[m] = jr
         eventos_prox = self._proximos_eventos()
         for id_, ev in eventos_prox.items():
             if id_ in janelas:
@@ -797,8 +829,19 @@ class Coleta:
             self.falhas["insumos_mesa"] = f"{type(e).__name__}: {str(e)[:80]}"
         try:
             ins["setores"] = atribuicao.cestas(self.u, {**janelas, **janelas_ref}, ins)
+            # na manha, o pregao explicado e o de ontem: documento e noticia de ontem
+            pregao = (relogios.data_referencia("B3", self.agora) if self.modo == "manha" else self.hoje).isoformat()
+            # noticia ja registrada passa de novo pelo filtro de hoje (homonimo como o
+            # Augusto Cury nao vira causa da CURY3 so porque entrou antes do filtro)
+            cfg_n = uni.carregar_yaml("fontes_noticias.yaml")
+            def _ainda_casa(a):
+                if a.get("regra") != "E05" or not a.get("ativo"):
+                    return True
+                t = str((a.get("dados") or {}).get("manchete") or a.get("titulo") or "")
+                return a["ativo"] in noticias.atribuir(t, "", cfg_n.get("casar") or {}, cfg_n.get("excluir"),
+                                                       cfg_n.get("previsor_macro"), cfg_n.get("excluir_global"))
             ins["por_que_mexeu"] = atribuicao.por_que_mexeu(self.u, janelas, ins["setores"], self.eventos,
-                                                            do_dia, self.hoje.isoformat())
+                                                            [a for a in do_dia if _ainda_casa(a)], pregao)
             ins["brent_reais"] = atribuicao.brent_reais(janelas)
             ins["correcoes"] = self.correcoes
         except Exception as e:
@@ -844,7 +887,7 @@ class Coleta:
                 "janelas": janelas, "series_info": self.series_info, "movers": mov, "leitura_insumos": ins,
                 "alertas_do_dia": do_dia, "lacunas": lacunas, "relogios": relogios_txt,
                 "push_sugerido": self._push_fechamento(do_dia, mov, ins),
-                "qualidade": qa.resumo(self.series_info), "drivers": qa.drivers(self.series_info, janelas),
+                "qualidade": qa.resumo(self.series_info), "drivers": qa.drivers(self.series_info, {**janelas, **janelas_ref}),
             })
             # cards em markdown: o que a sessao cola no chat as 18h40 (escolha do Douglas)
             nome_cards = "manha_cards.md" if self.modo == "manha" else "fechamento_cards.md"
@@ -1053,6 +1096,16 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
         try:
             feitas = dict(repo.regras.get("correcoes_feitas") or {})
             c.correcoes = reconferir.reconferir(repo.fila, c.series, c.series_info, c.u, c.hoje, feitas)
+            # numero de TABELA do fechamento/manha anterior (o fechamento.json no disco
+            # ainda e o do slot anterior neste ponto): drivers e destaques publicados
+            anterior = ler_json(os.path.join(saida, "saida", "fechamento.json"), {}) or {}
+            publicados = list(qa.DRIVERS) + [i for i, _ in ((anterior.get("movers") or {}).get("altas") or [])
+                                             + ((anterior.get("movers") or {}).get("baixas") or [])]
+            c.correcoes += reconferir.tabela(anterior, c.series, c.series_info, c.u,
+                                             [i for i in dict.fromkeys(publicados) if c.u.por_id(i)], feitas)
+            # o que mais importa primeiro: sinal invertido, depois o mais recente
+            c.correcoes.sort(key=lambda x: x["data"], reverse=True)
+            c.correcoes.sort(key=lambda x: x["var_entregue"] * x["var_certa"] >= 0)   # estavel: invertidos primeiro
             for x in c.correcoes:
                 feitas[x["original"]] = c.hoje.isoformat()
             corte = (c.hoje - relogios.timedelta(days=30)).isoformat()

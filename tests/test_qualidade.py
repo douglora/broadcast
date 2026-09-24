@@ -147,7 +147,28 @@ def test_fechamentos_das_17h_pegam_o_ultimo_negocio_ate_o_corte(monkeypatch):
     monkeypatch.setattr(yahoo, "baixar_serie", lambda *a, **k: {
         "_intradia": [[ts(16, 30), 5.160], [ts(16, 45), 5.165], [ts(17, 0), 5.1689], [ts(17, 15), 5.171]]})
     out = yahoo.fechamentos_intradia(None, "USDBRL=X", "17:00")
-    assert out == {"2026-09-23": [5.1689, "17:00"]}
+    # a barra que comeca as 16h45 e a ultima que termina ate as 17h; a das 17h fecha as 17h15
+    assert out == {"2026-09-23": [5.165, "17:00"]}
+    # dia cujo ultimo negocio foi antes das 16h30 nao vale como fechamento
+    monkeypatch.setattr(yahoo, "baixar_serie", lambda *a, **k: {"_intradia": [[ts(15, 0), 5.15]]})
+    assert yahoo.fechamentos_intradia(None, "USDBRL=X", "17:00") == {}
+
+
+def test_parser_nao_cria_barra_fantasma_no_cambio():
+    """O Yahoo manda a linha diaria e a linha viva do MESMO dia no cambio (3ecabba,
+    18/09: 5,1241 e 5,1421). A ultima vence; nada vai para o dia seguinte."""
+    lon = ZoneInfo("Europe/London")
+    stamps = [int(datetime(2026, 9, 17, 0, 0, tzinfo=lon).timestamp()),
+              int(datetime(2026, 9, 18, 0, 0, tzinfo=lon).timestamp()),
+              int(datetime(2026, 9, 18, 23, 39, tzinfo=lon).timestamp())]
+    q = {"open": [5.15, 5.124, 5.1245], "high": [5.17, 5.1646, 5.1658], "low": [5.12, 5.1178, 5.1196],
+         "close": [5.1509, 5.1241, 5.1421], "volume": [0, 0, 0]}
+    payload = {"chart": {"result": [{"meta": {"exchangeTimezoneName": "Europe/London", "instrumentType": "CURRENCY",
+                                              "exchangeName": "CCY"}, "timestamp": stamps,
+                                     "indicators": {"quote": [q], "adjclose": [{"adjclose": q["close"]}]}}]}}
+    out = yahoo.parse_chart(payload, "USDBRL=X")
+    assert [b[0] for b in out["barras"]] == ["2026-09-17", "2026-09-18"] and out["barras"][-1][4] == 5.1421
+    assert "barras_redatadas" not in out
 
 
 def test_domingo_do_cambio_sai_ou_vira_sexta():
@@ -302,3 +323,81 @@ def test_correcao_do_alerta_de_brent_de_18_09(universo):
     fila_ok = {"k": {**fila["F03-BRENT-queda-2026-09-18"], "id": "k", "dados": {"close": 103.87, "var": -0.0091}}}
     assert reconferir.reconferir(fila_ok, series, {}, universo, date(2026, 9, 24)) == []
     assert reconferir.reconferir(fila, series, {}, universo, date(2026, 10, 5)) == []
+
+
+# ------------------------------------------------------------ achados da revisao adversarial
+def test_toco_da_noite_e_pego_tambem_na_manha_seguinte():
+    """DXY: barra 'de 23/09' feita da sessao da noite, lida na manha de 24/09 (a cotacao
+    ja e de outro dia civil)."""
+    d = fx("DXY_dados.json")
+    d = {**d, "meta": {**d["meta"], "regularMarketTime": int(datetime(2026, 9, 24, 7, 10, tzinfo=ZoneInfo("America/New_York")).timestamp())}}
+    v = qa.avaliar(d, "DX-Y.NYB", "ICE", "indice", datetime(2026, 9, 24, 11, 20, tzinfo=timezone.utc), D23)
+    assert v.descartar_ultima and v.data_barra == "2026-09-23"
+
+
+def test_serie_sem_amplitude_nao_vira_foto():
+    """TIO=F publica maxima = minima quase sempre: uma barra com amplitude no meio nao
+    pode transformar as normais em 'foto de um instante'."""
+    barras = [[f"2026-08-{d:02d}", 97.0, 97.0, 97.0, 97.0, 97.0, 0] for d in range(3, 29) if date(2026, 8, d).weekday() < 5]
+    barras[5] = [barras[5][0], 97.0, 98.0, 96.5, 97.2, 97.2, 0]
+    barras.append(["2026-08-31", 97.1, 97.1, 97.1, 97.1, 97.1, 0])
+    v = qa.avaliar({"barras": barras, "tz": "America/New_York"}, "TIO=F", "NYSE", "commodity",
+                   datetime(2026, 9, 1, 12, tzinfo=timezone.utc), date(2026, 8, 31))
+    assert not v.descartar_ultima and v.status == qa.OK
+
+
+def test_leilao_de_fechamento_de_ucits_nao_e_suspeito():
+    barras = [[f"2026-09-{d:02d}", 100, 101, 99, 100, 100, 1000] for d in (14, 15, 16, 17, 18, 21, 22)]
+    barras.append(["2026-09-23", 100.2, 100.6, 100.0, 100.8, 100.8, 1000])     # fechamento 0,2% acima da maxima
+    v = qa.avaliar({"barras": barras, "tz": "Europe/London"}, "CNDX.L", "LSE", "etf", NOITE_23, D23)
+    assert v.status == qa.OK and any("leilão" in m for m in v.motivos)
+
+
+def test_regime_nao_usa_variacao_do_vix_de_dois_pregoes(universo, limiares):
+    import pandas as pd
+    from livro.sinais import tecnicas
+    from livro.sinais.base import Contexto, Estado
+    idx = pd.to_datetime(["2026-09-18", "2026-09-21", "2026-09-23"])
+    vix = pd.DataFrame({"open": [15, 18, 21], "high": [15, 18, 21], "low": [15, 18, 21], "close": [15.0, 18.0, 21.0],
+                        "adj": [15.0, 18.0, 21.0], "volume": [0, 0, 0]}, index=idx)
+    si = {"VIX": {"fresco": True, "qualidade": {"status": qa.OK, "dia_pregoes": 2, "sem_barra": ["2026-09-22"]}}}
+    ctx = Contexto(universo=universo, limiares=limiares, hoje=D23, slot="fechamento", series={"VIX": vix},
+                   series_info=si, curvas={}, macro={}, falhas={})
+    al = tecnicas.T13Regime().avaliar(ctx, Estado())
+    assert not any("VIX cruzou" in a.titulo for a in al)          # 18 -> 21 cobre dois pregoes
+    assert ctx.regime["vix"] == 21.0 and ctx.regime["vix_var"] is None
+
+
+def test_correcao_de_tabela_do_brent_de_23_09(universo):
+    from livro import reconferir
+    x26 = _redatar(fx("BZX26_dados.json"))
+    barras, _ = futuros.emendar(fx("BZ_F_1cc16f1.json")["barras"], x26["barras"], "X26")
+    series = {"BRENT": ind.para_df([b for b in barras if b[0] <= "2026-09-23"])}
+    anterior = {"janelas": {"BRENT": {"data": "2026-09-23", "ultimo": 97.83, "dia": -0.0143}}}
+    c = reconferir.tabela(anterior, series, {"BRENT": {"qualidade": {"status": qa.OK}}}, universo, ["BRENT"])
+    assert len(c) == 1 and "saiu -1,4% a 97,83; o certo é +3,9% a 103,08 (sinal invertido)" in c[0]["texto"]
+    # o que saiu "a confirmar" nao foi afirmado e nao e corrigido
+    anterior["janelas"]["BRENT"]["dia_confirmado"] = False
+    assert reconferir.tabela(anterior, series, {}, universo, ["BRENT"]) == []
+
+
+def test_reconferir_ignora_alerta_parcial_do_intradia_e_aceita_expirado(universo):
+    from livro import reconferir
+    x26 = _redatar(fx("BZX26_dados.json"))
+    barras, _ = futuros.emendar(fx("BZ_F_1cc16f1.json")["barras"], x26["barras"], "X26")
+    series = {"BRENT": ind.para_df([b for b in barras if b[0] <= "2026-09-23"])}
+    base = {"regra": "F03", "ativo": "BRENT", "data": "2026-09-18", "canal": "mensagem", "dados": {"close": 99.29, "var": -0.0528}}
+    intradia = {"a": {**base, "id": "a", "status": "entregue", "slot": "intradia", "titulo": "Brent cai (parcial, intradia)"}}
+    assert reconferir.reconferir(intradia, series, {}, universo, date(2026, 9, 24)) == []
+    expirado = {"b": {**base, "id": "b", "status": "expirado", "slot": "fechamento", "titulo": "Brent cai"}}
+    assert len(reconferir.reconferir(expirado, series, {}, universo, date(2026, 9, 24))) == 1
+
+
+def test_linha_a_confirmar_nao_mostra_numero_nenhum(universo):
+    from livro import cards
+    a = universo.por_id("USDBRL")
+    j = {"ultimo": 5.0999, "dia": -0.0021, "1s": -0.008, "1m": -0.007, "3m": -0.019, "6m": -0.025, "1a": -0.044, "ytd": -0.069,
+         "data": "2026-09-23"}
+    info = {"fresco": True, "qualidade": {"status": qa.NAO_CONFIRMADO, "motivos": ["x"], "descartar_ultima": False}}
+    linha = cards._linha(a, j, info)
+    assert "5,0999" not in linha and "-0,2" not in linha and linha.count("a confirmar") >= 3

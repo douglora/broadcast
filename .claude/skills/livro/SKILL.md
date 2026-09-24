@@ -104,16 +104,20 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
    o runner pode gravar numero podre com a data de hoje. Regras:
 
    - **R0.** Rode `python3 -m livro.portao` (drivers) e `python3 -m livro.portao <IDS>`
-     para todo ativo que voce vai citar. Leia tambem `fechamento.json -> qualidade` e
-     `-> drivers` (e `manifest.qualidade`). Serie fora de `ok`, ou com "dia nao e um
-     pregao", NAO entra na tese.
+     para todo ativo que voce vai citar (`--todos` lista o universo inteiro fora de ok).
+     Leia tambem `fechamento.json -> qualidade` e `-> drivers` (e `manifest.qualidade`).
+     Serie fora de `ok`, ou com "dia nao e um pregao", NAO entra na tese. Se o
+     `fechamento.json` nao tiver a chave `drivers`, o runner que rodou e anterior ao
+     portao: trate TODO driver como "a confirmar" e aplique R4.
    - **R1.** Ativo citado com numero na tese tem de estar ok. Os demais vao numa linha
      propria no topo: "A confirmar: USDBRL (barra de 23/09 nao bate com a abertura
      seguinte)". Nunca no corpo da tese, nunca no push.
-   - **R2.** Driver macro (Brent, minerio, dolar, DXY, UST, DI) usado para explicar
-     outro ativo precisa estar ok em `drivers`, com a MESMA data de barra do ativo
-     explicado e variacao de um pregao so. Faltando, a frase causal e proibida;
-     escreva "sem fechamento confirmado do <driver> de dd/mm".
+   - **R2.** Driver de preco (Brent, minerio, dolar, DXY, IBOV, SPX, VIX, BTC) usado para
+     explicar outro ativo precisa estar ok em `drivers`, com a MESMA data de barra do
+     ativo explicado e variacao de um pregao so. Curva (DI, UST) vale pela
+     `leitura_insumos.di/ust`: so "fechou/abriu hoje" com rotulo D0 (ajuste B3 ou CMT do
+     dia); com outra data, diga a data. Faltando, a frase causal e proibida; escreva
+     "sem fechamento confirmado do <driver> de dd/mm".
    - **R3.** Frase de divergencia ("apesar de", "na contramao", "descolou", "A subiu
      com B caindo", "o real ficou firme com o dolar forte la fora") exige as duas
      pernas ok E confirmacao externa (R4) quando uma perna e commodity ou cambio.
@@ -124,20 +128,25 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
      critico de F0x, ou driver fora de ok. Vale na manha e no fechamento; no intradia
      so para alerta critico. A materia so conta se a data for a do pregao em questao.
      Escreva com a fonte: "Brent +3,9% a US$ 103,08 (Reuters/CNBC, 23/09)". Se a fonte
-     externa diverge do runner em mais de 1 p.p., diga os dois, registre em LACUNAS e
-     nao use o numero do runner. Numero da web so entra quando o runner marcou a serie
-     como nao ok, sempre com veiculo e data, e nunca substitui serie ok.
+     externa diverge do runner em mais de 1 p.p., diga os dois numa linha propria no
+     topo ("A confirmar: BRENT, runner -1,4% x Reuters +3,9%") e nao cite o numero do
+     runner na Leitura. Os cards sao colados sem edicao (nenhum numero deles e
+     mudado a mao); a divergencia fica nessa linha de cima. Numero da web so entra
+     quando o runner marcou a serie como nao ok, sempre com veiculo e data, e nunca
+     substitui serie ok.
    - **R5.** "Dia" so e dia com um pregao. O card ja escreve "_(2 pregoes)_",
      "_(dia dd/mm)_", "_(parcial)_", "_(D-1, dd/mm)_" ou "a confirmar": repita o rotulo
      se citar o numero, ou omita.
-   - **R6.** Alerta ja entregue que o dado atual desmente vira "CORRECAO:" na primeira
-     linha do turno, com o numero entregue e o certo. Para alerta de preco (F01-F06,
-     T05) o runner ja faz isso sozinho na manha e no fechamento: o card "Correcao de
-     alertas ja enviados" vem no topo dos cards (`leitura_insumos.correcoes`), a faixa
-     no painel e a primeira parte do push. Voce cola o card e abre a resposta com ele.
-     Erro que o runner nao pega (texto seu, nivel nao atingido, sequencia quebrada):
-     voce escreve a CORRECAO, e no painel poe a faixa no topo e o selo "numero errado ·
-     ver correcao" na linha.
+   - **R6.** Numero ja publicado que o dado atual desmente vira "CORRECAO:" na primeira
+     linha do turno, com o numero entregue e o certo. O runner faz isso sozinho na manha
+     e no fechamento para alerta de preco (F01-F06, T05) E para a linha da tabela dos
+     drivers e dos destaques do slot anterior ("CORRECAO tabela · BRENT 23/09: saiu
+     -1,4% a 97,83; o certo e +3,9% a 103,08"): o card "Correcao de alertas ja enviados"
+     vem no topo dos cards (`leitura_insumos.correcoes`), a faixa no topo do painel e a
+     primeira parte do `push_sugerido`. Voce cola o card, abre a resposta com ele e manda
+     o push (passo 6). Erro que so esta no SEU texto (uma frase da Leitura de ontem):
+     voce escreve a CORRECAO na primeira linha; nao edite o painel a mao alem da troca
+     do marcador da leitura.
    - **R7.** Antes de ler qualquer .md de `livro/saida`, confira a data: `git log -1
      --format=%ad origin/dados -- livro/saida/<arquivo>`. Arquivo de outro dia ou de
      outro slot nao e lido como atual.
@@ -172,8 +181,9 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
    foram entregues e o turno nao trava por causa do painel.
 6. **Push.** `PushNotification` (< 200 caracteres, sem markdown) com o texto de
    `Push:` do alertas.md quando houver alerta critico ou de atencao no slot, e com o
-   `push_sugerido` do fechamento.json no Fechamento. Nunca para info. Maximo 1 push
-   por turno (agrupe).
+   `push_sugerido` do fechamento.json no Fechamento. Em QUALQUER slot, se
+   `leitura_insumos.correcoes` nao estiver vazio, o push e o `push_sugerido` (que abre
+   com a correcao). Nunca para info. Maximo 1 push por turno (agrupe).
 7. **Ack.** Os ids que voce narrou neste turno entram em `ids_entregues` no
    PROXIMO disparo (passo 2). Nao dispare um run so para o ack.
 

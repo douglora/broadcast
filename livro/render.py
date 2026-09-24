@@ -61,7 +61,8 @@ def bloco_b(universo, janelas: dict, series_info: dict, modo: str = "completo") 
                 lacunas.append(f"{a.id} sem série")
                 continue
             rot, ocultar = qa.marcador(j, info)
-            l = linha_tabela(a, {**j, "dia": None} if ocultar else j, modo, marcado=bool(rot))
+            vazio = {k: None for k in ("ultimo", "dia", "1s", "1m", "3m", "6m", "1a", "ytd")}
+            l = linha_tabela(a, {**j, **vazio} if ocultar else j, modo, marcado=bool(rot))
             if info.get("esperado_hoje") and not info.get("fresco", True):
                 lacunas.append(f"{a.id} sem barra de {fmt.data_br(info.get('esperado'))} (última {fmt.data_br(j.get('data'))})")
             linhas.append(l)
@@ -317,7 +318,7 @@ def bloco_a(hoje: date, relogios_txt: str, do_dia: list[dict], em_vigor: list[st
             parcial: bool = False, exemplo: bool = False, slot: str = "fechamento", hora: str = "") -> str:
     L = []
     if slot == "manha":
-        L.append(f"MANHÃ DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '09h30'} BRT (curvas de D-1)")
+        L.append(f"MANHÃ DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '08h30'} BRT (curvas D-1)")
     else:
         L.append(f"FECHAMENTO DO LIVRO · {fmt.dia_semana(hoje)} {fmt.data_br(hoje.isoformat())} · {hora or '18h40'} BRT" + (" · PARCIAL" if parcial else ""))
     L += quebrar("Relógios: " + relogios_txt, indent="  ")

@@ -202,9 +202,14 @@ def avaliar(dados: dict, simbolo: str, mercado: str, classe: str = "",
 
     # 1) toco: a barra "de D" e o comeco da sessao seguinte (Globex reabre as 18h ET)
     dt_meta, rmp = _meta_local(dados)
-    if continuo_eua and e_a_ultima and dt_meta is not None and dt_meta.date().isoformat() == u[0]:
-        reabre = REABERTURA_FUTURO.get(str(dados.get("tz")))
-        if reabre is not None and dt_meta.hour >= reabre:
+    reabre = REABERTURA_FUTURO.get(str(dados.get("tz")))
+    if continuo_eua and e_a_ultima and dt_meta is not None and reabre is not None:
+        # a cotacao do Yahoo e posterior a reabertura (18h ET) do dia da barra: a ultima
+        # barra, que carrega essa cotacao, ja e a sessao seguinte. Vale tambem na manha
+        # seguinte (a cotacao e de outro dia civil e a barra toco continua datada de D)
+        reabertura_d = datetime.combine(date.fromisoformat(u[0]), datetime.min.time().replace(hour=reabre),
+                                        tzinfo=dt_meta.tzinfo)
+        if dt_meta >= reabertura_d:
             v.piorar(NAO_CONFIRMADO, f"barra de {_br(u[0])} é o início da sessão seguinte "
                                      f"(última cotação {dt_meta:%H:%M} de {_cidade(dados)})")
             v.descartar_ultima = True
@@ -222,15 +227,24 @@ def avaliar(dados: dict, simbolo: str, mercado: str, classe: str = "",
         fora = (c > h * (1 + TOL_OHLC) or c < l * (1 - TOL_OHLC)
                 or o > h * (1 + TOL_OHLC) or o < l * (1 - TOL_OHLC))
         if fora:
+            so_leilao = (o >= l * (1 - TOL_OHLC) and o <= h * (1 + TOL_OHLC)
+                         and max(c / h - 1, 1 - c / l) <= 0.005)
             if futuro:
                 v.piorar(NAO_CONFIRMADO, f"barra de {_br(u[0])} incoerente (abertura ou fechamento fora da máxima e da mínima): mistura de contratos")
                 v.descartar_ultima = True
+            elif so_leilao and mercado in ("LSE", "AMS", "B3"):
+                # o fechamento de leilao fica fora da faixa negociada no continuo (UCITS
+                # em Londres e Amsterda em 7 a 15% dos pregoes): e normal, so anota
+                v.motivos.append(f"fechamento de leilão de {_br(u[0])} fora da faixa negociada (até 0,5%)")
             else:
                 v.piorar(SUSPEITO, f"barra de {_br(u[0])} incoerente (fechamento fora da máxima e da mínima)")
 
     # 3) foto de um instante: amplitude minima em indice, commodity ou cambio
-    med_amp = _mediana([(_num(b[2]) or 0) - (_num(b[3]) or 0) for b in anteriores
-                        if _num(b[2]) is not None and _num(b[3]) is not None])
+    amps = [(_num(b[2]) or 0) - (_num(b[3]) or 0) for b in anteriores
+            if _num(b[2]) is not None and _num(b[3]) is not None]
+    # serie que nao tem amplitude (TIO=F publica maxima = minima quase sempre) nao passa
+    # por esta regra: a mediana so vale com pelo menos metade das barras com amplitude
+    med_amp = statistics.median(amps) if amps and sum(1 for x in amps if x > 0) * 2 >= len(amps) else 0.0
     if not provisoria and med_amp and h is not None and l is not None and (h - l) < AMPLITUDE_FOTO * med_amp:
         if classe in ("indice", "commodity") or futuro:
             v.piorar(NAO_CONFIRMADO, f"barra de {_br(u[0])} com amplitude de {h - l:.3f} "
