@@ -31,6 +31,9 @@ on:
         default: ""
         type: string
   schedule:
+    # O GitHub so registra o agendamento a partir de um push que mexe neste arquivo.
+    # Em 24/09 os agendamentos do repositorio pararam depois do bloqueio de email
+    # (runs "BuildFailed" ate 23/09); este bloco foi regravado para registrar de novo.
     # Intradia: 13h05-20h05 UTC = 10h05-17h05 BRT, hora em hora, dias uteis
     - cron: "5 13-20 * * 1-5"
     # Fechamento: 21h05 UTC = 18h05 BRT, DEPOIS do fechamento da B3 (18h00).
