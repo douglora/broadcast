@@ -182,6 +182,9 @@ td.dia .v{position:relative;}
 .alerta-nota{border-left:2px solid var(--atencao);padding-left:10px;}
 .aviso{font-size:11.5px;font-style:italic;color:var(--fraco);margin-top:14px;}
 .atraso.evento{color:var(--mesa);margin-left:4px;}
+.correcao{background:#8C1C13;color:#fff;padding:14px 18px;border-radius:6px;font-weight:600;line-height:1.45}
+.correcao span{display:block;font-weight:400;opacity:.93;margin-top:4px;font-size:.93em}
+.errado{display:inline-block;font-size:9.5px;color:#fff;background:var(--baixa);border-radius:2px;padding:1px 5px;margin-top:4px;letter-spacing:.04em;text-transform:uppercase}
 .mv .ctx{display:block;font-size:10.5px;font-weight:400;color:var(--fraco);white-space:normal;}
 td.txt{font-size:13px;color:var(--meio);text-align:left;white-space:normal;padding:7px 10px;min-width:18ch;}
 td.grau{font-family:var(--mono);font-size:11px;min-width:9ch;}
@@ -537,6 +540,14 @@ def _cartao_setores(ins: dict) -> str:
             f'<tbody>{linhas}</tbody></table></div></section>')
 
 
+def _faixa_correcoes(ins: dict) -> str:
+    itens = ins.get("correcoes") or []
+    if not itens:
+        return ""
+    linhas = "".join(f"<span>{_e(c['texto'])}</span>" for c in itens)
+    return f'<div class="correcao">Correção de alertas já enviados{linhas}</div>'
+
+
 def _nota_brent_reais(ins: dict) -> str:
     b = ins.get("brent_reais") or {}
     if not b:
@@ -588,6 +599,7 @@ def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, ja
             c = c.replace("</section>", _nota_brent_reais(ins) + "</section>", 1) if c.endswith("</section>") else c + _nota_brent_reais(ins)
         cartoes += c
     corpo = (
+        _faixa_correcoes(ins) +
         f'<header class="topo"><div class="faixa">'
         f'<span class="marca">Livro monitorado</span>'
         f'<span class="quando">{_e(fmt.dia_semana(hoje))} {_e(fmt.data_br(hoje.isoformat(), True))}</span>'

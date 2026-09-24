@@ -15,7 +15,7 @@ import os
 import time
 from datetime import datetime, timezone
 
-from livro import atribuicao, cards, fmt, insumos, painel, politica, relogios, render
+from livro import atribuicao, cards, fmt, insumos, painel, politica, reconferir, relogios, render
 from livro import indicadores as ind
 from livro import qualidade as qa
 from livro import universo as uni
@@ -70,6 +70,7 @@ class Coleta:
         self.curvas: dict = {}
         self.macro: dict = {}
         self.eventos: dict = {}
+        self.correcoes: list = []
         self.inicio = time.time()
         for sub in ("series", "series_longo", "curvas", "macro", "estado", "saida", "sonda", "eventos", "noticias/corpo"):
             os.makedirs(os.path.join(saida, sub), exist_ok=True)
@@ -799,6 +800,7 @@ class Coleta:
             ins["por_que_mexeu"] = atribuicao.por_que_mexeu(self.u, janelas, ins["setores"], self.eventos,
                                                             do_dia, self.hoje.isoformat())
             ins["brent_reais"] = atribuicao.brent_reais(janelas)
+            ins["correcoes"] = self.correcoes
         except Exception as e:
             self.falhas["insumos_setores"] = f"{type(e).__name__}: {str(e)[:80]}"
         b_txt, lacunas_b = render.bloco_b(self.u, janelas, self.series_info, "completo")
@@ -923,6 +925,8 @@ class Coleta:
         """Texto do push (< 200 caracteres): curva, criticos, movers, contagem. Encurta por
         partes inteiras, nunca no meio de uma palavra."""
         # na manha o push nao se chama "Fechamento": os precos sao do pregao anterior
+        corr = [f"CORREÇÃO {c['ativo']} {fmt.data_br(c['data'])} {fmt.pct(c['var_certa'])}, não {fmt.pct(c['var_entregue'])}"
+                for c in (ins.get("correcoes") or [])][:2]
         cab = (f"Manhã {fmt.data_br(self.hoje.isoformat())} (pregão de "
                f"{fmt.data_br(relogios.dia_util_anterior('B3', self.hoje).isoformat())}):"
                if self.modo == "manha" else f"Fechamento {fmt.data_br(self.hoje.isoformat())}:")
@@ -950,6 +954,7 @@ class Coleta:
         def montar(ps: list[str]) -> str:
             return (cab + " " + "; ".join(ps) + ". " + fim) if ps else (cab + " " + fim)
 
+        partes = corr + partes
         txt = montar(partes + extras)
         if len(txt) > 195:
             txt = montar(partes)
@@ -1043,6 +1048,17 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
         if e and e.get("canal") != "mensagem":
             e["canal"] = "info"
             e["status"] = "linha"
+    if modo in ("manha", "fechamento"):
+        # alerta ja entregue que a serie corrigida desmente vira CORRECAO, uma vez so
+        try:
+            feitas = dict(repo.regras.get("correcoes_feitas") or {})
+            c.correcoes = reconferir.reconferir(repo.fila, c.series, c.series_info, c.u, c.hoje, feitas)
+            for x in c.correcoes:
+                feitas[x["original"]] = c.hoje.isoformat()
+            corte = (c.hoje - relogios.timedelta(days=30)).isoformat()
+            repo.regras.set("correcoes_feitas", {k: v for k, v in feitas.items() if v >= corte})
+        except Exception as e:
+            c.falhas["reconferir"] = f"{type(e).__name__}: {str(e)[:80]}"
     repo.expirar()
     repo.podar()
     repo.salvar()
@@ -1054,4 +1070,5 @@ def executar(modo: str, saida: str, ids_entregues: str = "", run_id: str = "", d
                                    "criticos": sum(1 for m in resultado["mensagens"] if m["severidade"] == "critico"),
                                    "ids": ids_msgs, "pendentes": len(repo.pendentes()), "suprimidos": len(resultado["suprimidos"])},
                        "render": info, "regime": ctx.regime, "ack": n_ack,
+                       "correcoes": [x["id"] for x in c.correcoes],
                        "push": [m["push"] for m in resultado["mensagens"] if m.get("push")]})

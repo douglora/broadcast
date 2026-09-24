@@ -137,6 +137,18 @@ def _card_por_que(ins: dict) -> str:
     return "\n".join(L)
 
 
+def _card_correcoes(ins: dict) -> str:
+    """Alerta ja entregue que a serie corrigida desmente: primeira coisa do turno."""
+    itens = ins.get("correcoes") or []
+    if not itens:
+        return ""
+    L = ["### Correção de alertas já enviados", ""]
+    L += [f"- **{_esc(c['texto'])}**" for c in itens]
+    L += ["", "*O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou "
+              "barra parcial); o certo vem da série já corrigida.*"]
+    return "\n".join(L)
+
+
 def _linha_brent_reais(ins: dict) -> str:
     b = ins.get("brent_reais") or {}
     if not b:
@@ -328,7 +340,7 @@ def cards_md(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, 
         if txt and b["id"] == "macro" and _linha_brent_reais(ins):
             txt += "\n\n" + _linha_brent_reais(ins)
         blocos.append(txt)
-    partes = [cab, MARCADOR_LEITURA, _card_alertas(do_dia), _card_destaques(movers, janelas),
+    partes = [cab, _card_correcoes(ins), MARCADOR_LEITURA, _card_alertas(do_dia), _card_destaques(movers, janelas),
               _card_por_que(ins), _card_setores(ins),
               *blocos, _card_commodities(em_dolar), _card_curvas(ins),
               _card_noticias(do_dia), _card_agenda(agenda_l),

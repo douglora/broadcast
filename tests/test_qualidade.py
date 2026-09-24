@@ -281,3 +281,24 @@ def test_di_da_manha_espera_o_ajuste_de_ontem(universo, limiares):
                        macro={}, falhas={})
         curvas.C01DIMovimento().avaliar(ctx, Estado())
         assert ("di" in ctx.falhas) is falha, slot
+
+
+def test_correcao_do_alerta_de_brent_de_18_09(universo):
+    """F03 CRITICO entregue em 18/09: '-5,3% a US$ 99,29'. A serie corrigida (contrato
+    de novembro) diz -0,9% a 103,87: sai CORRECAO uma vez; na segunda vez, nao."""
+    from livro import reconferir
+    x26 = _redatar(fx("BZX26_dados.json"))
+    barras, _ = futuros.emendar(fx("BZ_F_1cc16f1.json")["barras"], x26["barras"], "X26")
+    series = {"BRENT": ind.para_df([b for b in barras if b[0] <= "2026-09-23"])}
+    fila = {"F03-BRENT-queda-2026-09-18": {
+        "id": "F03-BRENT-queda-2026-09-18", "regra": "F03", "ativo": "BRENT", "data": "2026-09-18",
+        "status": "entregue", "canal": "mensagem", "severidade": "critico", "titulo": "Brent cai a US$ 99,29 (-5,3%)",
+        "dados": {"close": 99.29, "var": -0.0528}}}
+    c = reconferir.reconferir(fila, series, {}, universo, date(2026, 9, 24))
+    assert len(c) == 1 and round(c[0]["var_certa"] * 100, 2) == -0.91 and round(c[0]["close_certo"], 2) == 103.87
+    assert "o certo é -0,9% a 103,87" in c[0]["texto"]
+    assert reconferir.reconferir(fila, series, {}, universo, date(2026, 9, 24), {"F03-BRENT-queda-2026-09-18": "2026-09-24"}) == []
+    # alerta certo nao gera correcao; alerta velho demais tambem nao
+    fila_ok = {"k": {**fila["F03-BRENT-queda-2026-09-18"], "id": "k", "dados": {"close": 103.87, "var": -0.0091}}}
+    assert reconferir.reconferir(fila_ok, series, {}, universo, date(2026, 9, 24)) == []
+    assert reconferir.reconferir(fila, series, {}, universo, date(2026, 10, 5)) == []
