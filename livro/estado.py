@@ -16,6 +16,20 @@ def agora_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _data_brt(iso: str) -> str:
+    """'2026-09-24T00:03:00Z' -> '2026-09-23' (a data de Brasilia do instante)."""
+    if not iso:
+        return ""
+    try:
+        from zoneinfo import ZoneInfo
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(ZoneInfo("America/Sao_Paulo")).date().isoformat()
+    except ValueError:
+        return iso[:10]
+
+
 def _inverso(s: str) -> tuple:
     """Chave que ordena strings ao contrario (mais recente primeiro)."""
     return tuple(-ord(c) for c in s)
@@ -101,11 +115,24 @@ class Repositorio:
 
         Fato relevante e filing carregam a data do documento, que pode ser anterior
         ao pregao (um 8-K de 09/09 achado em 19/09). Sem a data da coleta, o que foi
-        descoberto hoje sobre um documento antigo ficava de fora do digest."""
+        descoberto hoje sobre um documento antigo ficava de fora do digest.
+
+        So documento e noticia entram pela data da coleta, e ela e contada em BRT: em
+        24/09 o fechamento das 21h de 23/09 (00h03 UTC de 24/09) entrou como "do dia"
+        de 24/09, os alertas de ontem apareceram no card de hoje e ocuparam o teto
+        diario, que suprimiu os tres criticos de 24/09."""
         alvos = {d for d in datas if d}
+
+        def entra(v: dict) -> bool:
+            if v.get("data") in alvos:
+                return True
+            if v.get("familia") not in (None, "evento", "noticia"):
+                return False
+            return _data_brt(v.get("gerado_em", "")) in alvos
+
         # severidade primeiro e, dentro dela, o mais recente na frente: num digest o
         # que acabou de aparecer e o que interessa, nao o que entrou na fila de manha
-        return sorted([v for v in self.fila.values() if v.get("data") in alvos or v.get("gerado_em", "")[:10] in alvos],
+        return sorted([v for v in self.fila.values() if entra(v)],
                       key=lambda v: ({"critico": 0, "atencao": 1, "info": 2}.get(v.get("severidade"), 3),
                                      _inverso(v.get("gerado_em", ""))))
 
