@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 23/09 20h59
+NOTÍCIAS E FATOS · 23/09 21h31
 
-Pernas: noticias ok 22 novas (17 consultas; descartadas: 442 veículo fora da lista, 28 sem ativo, 119 teto) · cvm ok 7 novos de 7 (5 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 439 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 1 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · DIRR3 · Comunicado ao Mercado: Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na 50 Hudson Yards, Cidade de Nova Iorque, Estado de Nova Iorque 10001, Estados Uni…
 CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -13,7 +13,16 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: DIRR3
 Como falar: 'a Direcional Engenharia publicou comunicado ao mercado sobre Recebeu correspondência da BlackRock, Inc. (“BlackRock”), sediada na…'
 Fonte: CVM 23/09
-id: E03-DIRR3-1570676-2026-09-23 · status: pendente · íntegra disponível
+id: E03-DIRR3-1570676-2026-09-23 · status: entregue · íntegra disponível
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 23/09/2026 21:25 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571025
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 23/09
+id: E03-VALE3-1571025-2026-09-23 · status: linha
 
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
@@ -25,7 +34,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Estadao: Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação; confirmar o número no texto antes de repassar'
 Fonte: Estadao 23/09 15h32
-id: E05-PETR4-e08bd2d8fb-2026-09-23 · status: pendente
+id: E05-PETR4-e08bd2d8fb-2026-09-23 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A ação ficou cara demais para comprar agora?
 Seu Dinheiro · 23/09 14h27 · fonte única · licença: resumo
@@ -41,7 +50,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Seu Dinheiro: Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A ação ficou cara dema…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 23/09 14h27
-id: E05-PETR4-b4f8e1c440-2026-09-23 · status: pendente
+id: E05-PETR4-b4f8e1c440-2026-09-23 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz UBS BB; veja potencial para dividendos
 Money Times · 23/09 12h42 · fonte única · licença: integral
@@ -57,7 +66,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4 · BRENT
 Como falar: 'saiu no Money Times: Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz UBS BB; veja pot…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 23/09 12h42
-id: E05-PETR4-ee248cda40-2026-09-23 · status: pendente · íntegra disponível
+id: E05-PETR4-ee248cda40-2026-09-23 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · PETR4 · Petrobras tem petróleo forte, produção e dividendos altos – UBS BB recomenda compra
 InfoMoney · 23/09 10h08 · fonte única · licença: resumo
@@ -109,8 +118,19 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (15)
+## OUTRAS NOTÍCIAS (só manchete) (26)
 
+· BAC Bank of America’s Unrealized Bond Losses Could Top $90 Billion on Surging Yields (Barron's) https://www.barrons.com/articles/bank-of-america-stock-bond-losses-edae54c9
+· USDBRL Ibovespa cai 0,86% e dólar dispara 1,28% com pressão externa e eleição (Exame) https://exame.com/invest/mercados/ibovespa-cai-086-e-dolar-dispara-128-com-pressao-externa-e-eleicao/
+· TESOURO É hora de comprar títulos prefixados no Tesouro Direto, diz XP; investimento deve bater o CDI nos próximos anos (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/e-hora-de-comprar-titulos-prefixados-no-tesouro-direto-diz-xp-investimento-deve-bater-o-cdi-nos-proximos-anos-mlim/
+· MRVL Buy Marvell Stock, On Semi, Semtech to Ride the AI Data-Center Boom. Here's Why. (Barron's) https://www.barrons.com/articles/buy-marvell-stock-on-semi-semtech-ai-data-center-935843a8
+· PLTR Palantir Could Be Big Winner as Air Traffic Control Goes AI. The Stock Is Rising. (Barron's) https://www.barrons.com/articles/palantir-stock-ai-faa-air-traffic-control-373cce03
+· CURY3 Cury cancela participação em debate da Veja; evento terá Caiado e Zema (UOL Economia) https://www.bol.uol.com.br/noticias/2026/09/23/cury-cancela-participacao-em-debate-da-veja-evento-tera-caiado-e-zema.htm
+· UST US Treasury Five-Year Yields Breach 5% for First Time Since 2007 (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-23/us-treasury-five-year-yields-breach-5-for-first-time-since-2007
+· TSLA Tesla vs. SpaceX: Why Fitch Favors Musk’s Rockets Over His Robots (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:efdd3b355094b:0
+· BTC Why Is Bitcoin Cash’s Price Rising After a 30% Surge? (Barron's) https://www.barrons.com/articles/bitcoin-cash-price-bch-crypto-cme-futures-70097ed8
+· TSLA Tesla CEO Elon Musk Confronts China Tariffs at Xi-Trump Dinner (Barron's) https://www.barrons.com/articles/tesla-stock-elon-musk-trump-xi-bc8d493b
+· JPM JP Morgan Chase & Co. (JPM) Stock Forecasts (Yahoo Finance) https://ca.finance.yahoo.com/research/reports/MS_0P0000031C_AnalystReport_1790119985000
 · DI Análise: Selic cai, mas investir segue caro no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/blogs/patricia-ellen/economia/money/mercado/analise-selic-cai-mas-investir-segue-caro-no-brasil/
 · SBSP3 Privatização da Sabesp prejudicou saneamento e abastecimento de água em SP, diz Marina Silva (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/23/privatizacao-da-sabesp-prejudicou-saneamento-e-abastecimento-de-agua-em-sp-diz-marina-silva.htm
 · USDBRL Com dólar casado ainda sob pressão, BC anuncia novo leilão de linha (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/com-dolar-casado-ainda-sob-pressao-bc-anuncia-novo-leilao-de-linha-de-us-1-bi.ghtml

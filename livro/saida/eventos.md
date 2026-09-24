@@ -1,81 +1,67 @@
 ALERTAS · eventos
 
-[ATENÇÃO] E04 · MELI34 · 8-K: 1.01 acordo material assinado, 7.01 Regulation FD
-SEC EDGAR · aceito 10/09 11h19 · 8-K
+(pendente de slot anterior) [ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou , nesta data, o resgate de 70.716.228 ações preferenciais classe “C” (“PNC”), equivalente a R$ 3,9 bilhões e…
+CVM · entregue 22/09/2026 07:40
 Do documento:
-  – Employer Identification Number)  WTC Free Zone  Dr. Luis Bonavita 1294, Of.
-  – On September 9, 2026, MercadoLibre, Inc. (the “Company”) and its subsidiaries MercadoLibre S.R.L., Mercado Livre Brasil Ltda.,  DeRemate.com de México, S.
-  – The foregoing description of certain terms of the Underwriting Agreement is not complete and is qualified in its entirety by the  Underwriting Agreement, which is attached as Exhibit 1.1 to this Current Report on Form 8…
-  – Item 7.01   Regulation FD Disclosure.
-  – On September 9, 2026, the Company issued a press release announcing the pricing of the Notes in a public offering.
-  – A copy of the press release is attached hereto as Exhibit 99.1 and is incorporated into this Item 7.01 by reference.
-Link: https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm
-Por que importa: acordo material muda receita, alavancagem ou estrategia; olhar contraparte e valor
-Ativos: MELI34
-Como falar: 'a MELI protocolou 8-K na SEC (1.01 acordo material assinado, 7.01 Regulation FD)'
-Fonte: SEC EDGAR 2026-09-10
-Push: eventos: 2 alertas de atenção — E04 MELI34, E04 AMZN · detalhe na sessão
-ids: E04-MELI34-26036136-2026-09-10
-
-[ATENÇÃO] E04 · AMZN · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
-SEC EDGAR · aceito 09/09 17h28 · 8-K
-Do documento:
-  – ☐   Table of Contents   TABLE OF CONTENTS   ITEM 5.02.
-  – 3   SIGNATURES   4   Table of Contents   ITEM 5.02.
-  – On September 8, 2026, the Board of Directors of Amazon.com, Inc. (the “Company”) elected Kevin R.
-  – Mandia has served as Chief Executive Officer of Armadin, Inc., a cybersecurity company he founded, since September 2025.
-  – Mandia has also served as General Partner of Ballistic Ventures, a venture capital firm he co-founded, since June 2024 and previously served as Strategic Partner from December 2021 to June 2024.
-  – He served as Chief Executive Officer of Mandiant, Inc., a cybersecurity firm acquired by Google LLC in September 2022, from June 2016 to July 2024 and as a director from February 2016 to September 2022.
-Link: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm
-Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
-Ativos: AMZN
-Como falar: 'a AMZN protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
-Fonte: SEC EDGAR 2026-09-09
-ids: E04-AMZN-26000036-2026-09-09
+  – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 23 de setembro de 2026.
+  – • Data ex-direitos: a partir de 24 de setembro de 2026 as ações PNC passarão a ser negociadas ex- direitos.
+  – • Valor total do resgate: R$ 3,9 bilhões.
+  – • Valor do resgate da ação PNC: R$ 55,15 por ação, correspondente a cotação d e fechamento das  ações ordinárias de emissão da Companhia no pregão do dia 21 de setembro de 2026.
+  – • Tratamento tributário para investidores não residentes: informações sobre o tratamento tributário  aplicável ao resgate, em especial para investidores não residentes (“INRs”), encontram-se detalhadas n o  Aviso aos Ac…
+  – O período para  manifestação será de 28 a 30 de setembro de 2026 inclusive.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1570292
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou , nesta data, o resgate de 70…'
+Fonte: CVM 22/09
+ids: E03-AXIA3-1570292-2026-09-22
 
 Info (só linha no Fechamento):
-· E04 AMZN · 8-K: 8.01 outros eventos
-· E04 MELI34 · 8-K: 8.01 outros eventos
-· E04 MMM · 8-K: 8.01 outros eventos
-· E04 TSM · 6-K: 6-K
-· E04 NOK · 6-K: 6-K
-· E04 BABA · 6-K: 6-K
-· E05 UST · U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 BAC · Bank of America’s Unrealized Bond Losses Could Top $90 Billion on Surging Yields
+· E05 USDBRL · Ibovespa cai 0,86% e dólar dispara 1,28% com pressão externa e eleição
+· E05 TESOURO · É hora de comprar títulos prefixados no Tesouro Direto, diz XP; investimento deve bater o CDI nos próximos anos
+· E05 MRVL · Buy Marvell Stock, On Semi, Semtech to Ride the AI Data-Center Boom. Here's Why.
+· E05 PLTR · Palantir Could Be Big Winner as Air Traffic Control Goes AI. The Stock Is Rising.
+· E05 CURY3 · Cury cancela participação em debate da Veja; evento terá Caiado e Zema
+· E05 UST · US Treasury Five-Year Yields Breach 5% for First Time Since 2007
+· E05 TSLA · Tesla vs. SpaceX: Why Fitch Favors Musk’s Rockets Over His Robots
+· E05 BTC · Why Is Bitcoin Cash’s Price Rising After a 30% Surge?
+· E05 TSLA · Tesla CEO Elon Musk Confronts China Tariffs at Xi-Trump Dinner
+· E05 JPM · JP Morgan Chase & Co. (JPM) Stock Forecasts
 
 
 Alertas do dia (todos, com status):
-· entregue  T05 MRVE3 — MRVE3 -8,4% no dia a R$ 5,23: movimento de 3,0 desvios para uma vol de 20 dias d
-· entregue  F03 BRENT — Brent cai a US$ 98,77 (-5,8% no dia · cruzou US$ 100)
-· entregue  C05 TESOURO — Pre 2032 FECHA 15 bps (PU +0,7%) (base 17/09)
-· entregue  T04 DIRR3 — DIRR3 fechou na mínima de 52 semanas: R$ 10,05, -4,4% em 1m e -28% em 12m
-· entregue  T05 BTC — BTC +6,2% no dia a US$ 81.155: movimento de 3,0 desvios para uma vol de 20 dias 
-· entregue  T05 ETH — ETH +7,1% no dia a US$ 2.621: movimento de 3,2 desvios para uma vol de 20 dias d
-· entregue  T08 BAC — BAC entrou em correção: -11% do pico de 52s (US$ 64,81 em 12/08) a US$ 57,73
-· entregue  F06 ETH — ETH sobe a US$ 2.621 (+7,1% em 24h · cruzou US$ 2.500)
-· entregue  S01 SISTEMA — coleta do slot backfill saiu incompleta: 3 séries sem cotação do dia: WUTI, MINE
-· entregue  T08 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) entrou em correção
-· entregue  E05 AMZN — AMZN · Prime Video’s Off Campus TV Show Lands Amazon a Big Lawsuit, Here’s Why
-· entregue  E05 VALE3 — VALE3 · Novo hotel em São José dos Campos terá investimento de R$ 70 milhões
-· entregue  E05 BTC — BTC · Fortuna Hedged Bitcoin ETF (HBTC) Dividend Yield 2026, Date & History
-· entregue  E05 NVDA — NVDA · Nvidia-Backed Data Center Firm Nscale Files Publicly for US IPO
-· entregue  E05 BBDC4 — BBDC4 · Até onde a Selic pode cair em 2026? Bradesco revisa projeção e aponta co
-· expirado  E03 SBSP3 — SBSP3 · Fato Relevante: COMPANHIA DE SANEAMENTO BÁSICO
-· linha     T10 BBAS3 — BBAS3 no máximo de força relativa em 63 sessões contra IBOV: +29% vs +10% em 20 
-· linha     T10 DIRR3 — DIRR3 no mínimo de força relativa em 63 sessões contra IBOV: -4,4% vs +10% em 20
-· linha     T11 BBAS3 — BBAS3 descolou à frente de ITUB4: +29% vs +10% em 20 sessões (z 3,3 em 252 sessõ
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: 25 séries sem cotação do dia: VWRA, C
-· linha     C06 TESOURO — Inflação implícita: implícita 2029 +21 bps na semana · implícita 2029 cruzou 6,0
-· entregue  T04 IB01 — IB01 (iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc)) fechou na máxima de 52 
-· entregue  T04 UGPA3 — UGPA3 fechou na máxima de 52 semanas: R$ 39,13, +19% em 1m e +99% em 12m
-· entregue  F06 BTC — BTC sobe a US$ 81.155 (cruzou US$ 80.000)
-· linha     C08 UST — UST 2s10s +25 bps: na mínima de 252 pregões (18/09)
-· linha     T02 VALE3 — VALE3 perdeu a MM50 pela 2ª sessão: R$ 73,37, já abaixo da MM200 (confirma tendê
-· linha     T02 SBSP3 — SBSP3 retomou a MM50 pela 2ª sessão: R$ 27,31, já abaixo da MM200 (confirma tend
-· linha     T02 MU — MU retomou a MM50 pela 2ª sessão: US$ 1.016, acima da MM200 (tendência longa pre
-· linha     T02 NVDA — NVDA retomou a MM50 pela 2ª sessão: US$ 222,27, acima da MM200 (tendência longa 
-· linha     T02 TSM — TSM retomou a MM50 e retomou a MM100 pela 2ª sessão: US$ 434,67, acima da MM200 
-· linha     T02 MMM — MMM retomou a MM100 pela 2ª sessão: US$ 165,89, acima da MM200 (tendência longa 
-· linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 349,54, acima da MM200 (tendência longa
-· linha     T02 NOK — NOK retomou a MM50 pela 2ª sessão: US$ 10,68, acima da MM200 (tendência longa pr
-· (+632 notícias só manchete, em noticias.md)
+· entregue  C07 UST — UST ABRIU: 2y +14 bps · 10y +15 bps · 30y +11 bps (23/09)
+· entregue  T05 KLBN4 — KLBN4 -3,2% no dia a R$ 3,68: movimento de 3,7 desvios para uma vol de 20 dias d
+· linha     T08 AVGO — AVGO entrou em queda de -25% do pico: -26% do pico de 52s (US$ 481,57 em 02/06) 
+· linha     T08 MCHI — MCHI entrou em bear técnico: -21% do pico de 52s (US$ 66,99 em 02/10) a US$ 53,1
+· linha     T08 VALE3 — VALE3 entrou em bear técnico: -21% do pico de 52s (R$ 90,09 em 11/02) a R$ 71,48
+· linha     T08 MELI34 — MELI34 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 111,29 em 25/09)
+· entregue  C03 DI — DI em nível: F28 cruzou 13,50% (para cima, agora 13,57%) · F35 cruzou 14,00% (pa
+· entregue  T05 GOOGL — GOOGL -3,8% no dia a US$ 337,83: movimento de 2,6 desvios para uma vol de 20 dia
+· entregue  T05 MMM — MMM +3,2% no dia a US$ 170,30: movimento de 2,8 desvios para uma vol de 20 dias 
+· linha     T08 AMZN — AMZN entrou em correção: -12% do pico de 52s (US$ 284,02 em 03/08) a US$ 249,27
+· linha     T08 KLBN4 — KLBN4 entrou em correção: -12% do pico de 52s (R$ 4,18 em 11/02) a R$ 3,68
+· entregue  T10 META — META no máximo de força relativa em 63 sessões contra SPX: +31% vs +0,7% em 20 s
+· entregue  T10 VALE3 — VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -9,2% vs +8,1% em 2
+· entregue  T11 META — META descolou à frente de GOOGL: +31% vs -2,6% em 20 sessões (z 3,0 em 252 sessõ
+· entregue  E03 DIRR3 — DIRR3 · Comunicado ao Mercado: Recebeu correspondência da BlackRock, Inc. (“Blac
+· entregue  E05 PETR4 — PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor 
+· entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A açã
+· entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
+· entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 14 séries sem cotação do dia: VWRA, C
+· linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
+· linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
+· linha     T02 JPM — JPM perdeu a MM50 pela 2ª sessão: US$ 337,53, ainda acima da MM200 (tendência lo
+· linha     T02 BAC — BAC perdeu a MM100 pela 2ª sessão: US$ 56,00, ainda acima da MM200 (tendência lo
+· linha     T02 USDBRL — USDBRL perdeu a MM50 pela 2ª sessão: R$ 5,0999, já abaixo da MM200 (confirma ten
+· linha     T02 DXY — DXY retomou a MM50 pela 2ª sessão: US$ 101,13, acima da MM200 (tendência longa p
+· linha     T10 PLTR — PLTR no máximo de força relativa em 63 sessões contra SPX: +11% vs +0,7% em 20 s
+· linha     T10 BAC — BAC no mínimo de força relativa em 63 sessões contra SPX: -9,8% vs +0,7% em 20 s
+· linha     T10 UGPA3 — UGPA3 no máximo de força relativa em 63 sessões contra IBOV: +18% vs +8,1% em 20
+· linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
+· linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
+· linha     F06 ETH — ETH cai a US$ 2.684 (cruzou US$ 2.750)
+· (+32 notícias só manchete, em noticias.md)
 
