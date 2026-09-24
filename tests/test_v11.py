@@ -78,6 +78,25 @@ def test_t11_par_descola_por_dois_dias(universo, limiares):
     assert al and al[0].ativo == "PETR4" and "descolou à frente de" in al[0].titulo and "BRENT" in al[0].ativos_afetados
 
 
+def test_t11_pares_de_setor_nao_chama_todo_mundo_de_banco(universo, limiares):
+    """23/09: o alerta 'META descolou a frente de GOOGL' saiu com o texto 'dois bancos
+    com o mesmo balanco macro'. Dos 8 pares `pares_setor` do config, so 2 sao bancos;
+    os outros sao semis e plataformas."""
+    import random
+    random.seed(11)
+    base = [100.0]
+    for _ in range(320):
+        base.append(base[-1] * (1 + random.gauss(0, 0.01)))
+    a, b = list(base), list(base)
+    for i in range(1, 25):
+        a[-i] = a[-i] * (1 + 0.012 * (25 - i))
+    ctx = contexto(universo, limiares, {"META": serie(a), "GOOGL": serie(b)})
+    al = tecnicas2.T11Pares().avaliar(ctx, Estado())
+    assert al and al[0].ativo == "META"
+    assert "banco" not in al[0].por_que.lower(), al[0].por_que
+    assert "mesmo setor" in al[0].por_que
+
+
 def test_t12_sequencia_de_8_altas(universo, limiares):
     vals = [100.0] * 20 + [100 + i * 0.5 for i in range(1, 9)]
     ctx = contexto(universo, limiares, {"KO": serie(vals)})

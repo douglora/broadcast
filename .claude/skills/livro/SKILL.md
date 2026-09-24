@@ -1,6 +1,6 @@
 ---
 name: livro
-description: Turnos de rotina e pedidos sob demanda do livro monitorado do Douglas (assessor). Dispara nas Routines (manha 08h30, intradia de hora em hora, fechamento 18h00 BRT) e quando ele escrever "livro", "fechamento", "fechamento agora", "alertas", "curto", "celular", "tecnica <TICKER>", "integra <id>", "recriar rotinas", "pausar o livro". Le o que o GitHub Actions gravou no branch `dados` (pasta livro/), dispara o workflow quando o dado esta velho, e escreve a camada de analista (Leitura da Mesa, "como falar") sem calcular regra nem inventar numero.
+description: Turnos de rotina e pedidos sob demanda do livro monitorado do Douglas (assessor). Dispara nas Routines (manha 08h31, intradia de hora em hora, fechamento 18h11 BRT) e quando ele escrever "livro", "fechamento", "fechamento agora", "alertas", "curto", "celular", "tecnica <TICKER>", "integra <id>", "recriar rotinas", "pausar o livro". Le o que o GitHub Actions gravou no branch `dados` (pasta livro/), dispara o workflow quando o dado esta velho, e escreve a camada de analista (Leitura da Mesa, "como falar") sem calcular regra nem inventar numero.
 ---
 
 # Livro monitorado (turno de rotina)
@@ -256,23 +256,50 @@ tem slot `fechamento`, abra com "Fechamento de ontem nao saiu (motivo)".
 - Depois de 02/11 (NY fecha 18h BRT): o Fechamento das 18h00 pode trazer os EUA
   "parcial"; a manha fecha o numero. Nao mude o cron sem o Douglas pedir.
 
+## Quem dispara o que (a rotina roda sozinha)
+
+Sao dois relogios independentes, e o segundo chega sempre alguns minutos depois
+do primeiro. O objetivo e que a sessao SO LEIA E NARRE no caso normal:
+
+| Slot | 1. Coleta (cron do Actions, `livro.yml`) | 2. Turno da sessao (Routine) |
+|---|---|---|
+| Manha | 08h20 BRT (`20 11 * * 1-5`) | 08h31 BRT (`31 11 * * 1-5`) |
+| Intradia | 10h05 a 17h05 (`5 13-20 * * 1-5`) | 10h20 a 17h20 (`20 13-20 * * 1-5`) |
+| Fechamento | 18h05 BRT (`5 21 * * 1-5`) | 18h11 BRT (`11 21 * * 1-5`) |
+
+O cron do Actions e o caminho principal: ele grava no branch `dados` sem depender
+de sessao nenhuma. A Routine acorda depois, confere o frescor e, na maioria dos
+dias, so le. **Disparar o workflow e o plano B**, para quando o cron do GitHub
+atrasar (acontece) ou falhar - nao e o primeiro passo do turno.
+
+Cuidado ao mexer no cron das Routines: minuto 0 e minuto 30 recebem um
+deslocamento do servidor (o horario real sai dezenas de minutos depois do
+pedido). Os minutos usados acima (31, 20, 11) disparam no horario exato.
+
 ## Prompts das Routines (copiar ao criar)
 
-- livro-manha (`31 11 * * 1-5` = 08h30 BRT): "Turno de rotina do livro monitorado,
-  slot MANHA (08h30 BRT). Siga a skill `livro` (.claude/skills/livro/SKILL.md):
-  frescor -> disparo modo=manha com ids_entregues do turno anterior -> espera ->
-  cole manha_cards.md com a sua leitura no marcador, dizendo que os precos sao do
-  pregao anterior (B3 abre 10h) e que as curvas sao as oficiais de D-1 -> push so
-  se critico/atencao. Dead-man do Fechamento de ontem primeiro."
+- livro-manha (`31 11 * * 1-5` = 08h31 BRT): "Turno de rotina do livro monitorado,
+  slot MANHA (08h31 BRT). O workflow ja roda sozinho as 08h20: na maioria dos dias
+  o dado ja esta la e voce so le. Siga a skill `livro`: dead-man do Fechamento de
+  ontem primeiro -> frescor -> SO SE estiver velho, disparo modo=manha com
+  ids_entregues do turno anterior e espera -> cole manha_cards.md com a sua leitura
+  no marcador, dizendo que os precos sao do pregao anterior (B3 abre 10h) e que as
+  curvas sao as oficiais de D-1 -> republique o painel -> push so se critico/atencao."
 - livro-intradia (`20 13-20 * * 1-5`): "Turno de rotina do livro monitorado, slot
-  INTRADIA. Siga a skill `livro`: frescor (20 min) -> disparo modo=intradia com
-  ids_entregues -> espera -> se intradia.md e a linha 'sem alerta novo', responda so
-  essa linha; senao cole os alertas e faca o push agrupado."
-- livro-fechamento (`0 21 * * 1-5`): "Turno de rotina do livro monitorado, slot
-  FECHAMENTO (18h00 BRT). Siga a skill `livro`: frescor (gerado_em depois das 18h00) -> disparo
-  modo=fechamento com ids_entregues -> espera ate 5 ciclos -> cole
-  fechamento_cards.md com a sua LEITURA DA MESA no marcador -> PushNotification
-  com push_sugerido. Sexta: linha SEMANA."
+  INTRADIA. O workflow ja roda as :05. Siga a skill `livro`: frescor (20 min) -> SO
+  SE estiver velho, disparo modo=intradia com ids_entregues e espera -> se
+  intradia.md e a linha 'sem alerta novo', responda so essa linha; senao cole os
+  alertas e faca o push agrupado."
+- livro-fechamento (`11 21 * * 1-5` = 18h11 BRT): "Turno de rotina do livro
+  monitorado, slot FECHAMENTO (18h11 BRT). O workflow ja roda sozinho as 18h05.
+  Siga a skill `livro`: frescor (`gerado_em_brt` POSTERIOR as 18h00) -> SO SE
+  estiver velho, disparo modo=fechamento com ids_entregues e espera ate 8 min ->
+  cole fechamento_cards.md com a sua LEITURA DA MESA no marcador -> republique o
+  painel -> PushNotification com push_sugerido. Sexta: linha SEMANA."
+
+Em todos: falha nunca vira silencio. `git fetch` com 503 -> CDN com `?nocache=`;
+sem a ferramenta do GitHub -> entregue o ultimo dado com o horario em destaque e a
+lacuna declarada; run com `startup_failure` -> leia a anotacao e diga a causa.
 
 ## Checklist antes de responder
 

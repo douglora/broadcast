@@ -154,3 +154,13 @@ def test_rotulo_por_slot(universo):
         h = pagina(universo, slot=slot)
         assert f"<h1>{rotulo}</h1>" in h, slot
         assert h.startswith("<title>Livro monitorado</title>"), slot
+
+
+def test_selo_de_barra_velha_mostra_o_dia_no_proprio_selo(universo):
+    """O selo dizia so 'sem barra de hoje': quem olha no celular nao sabe de que
+    pregao e o numero ao lado. Passa a dizer o dia."""
+    info = {"VWRA": {"esperado_hoje": True, "fresco": False, "esperado": "2026-09-23"}}
+    h = pagina(universo, series_info=info)
+    assert '>dia 18/09</span>' in h
+    assert 'sem barra de hoje' not in h
+    assert 'title="sem barra de 23/09' in h, "o title tem de guardar o dia esperado"
