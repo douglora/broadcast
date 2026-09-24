@@ -88,7 +88,8 @@ consultas:
   - {id: br_bancos, lang: pt-BR, q: '(Itaú OR Itau OR Bradesco OR "Banco do Brasil" OR Itaúsa OR Itausa) (resultado OR lucro OR dividendos OR JCP OR guidance OR "fato relevante" OR provisão OR inadimplência OR CEO OR aquisição)'}
   - {id: br_petro_vale, lang: pt-BR, q: '(Petrobras OR Vale OR Ultrapar OR Ipiranga) (resultado OR dividendos OR "fato relevante" OR preço OR produção OR minério OR acordo OR multa OR conselho OR CEO OR investimento)'}
   - {id: br_utilities, lang: pt-BR, q: '(Equatorial OR Sanepar OR Alupar OR Sabesp OR Axia OR Eletrobras) (resultado OR dividendos OR "fato relevante" OR leilão OR tarifa OR concessão OR aquisição OR Aneel OR Arsesp OR privatização)'}
-  - {id: br_outros, lang: pt-BR, q: '(Klabin OR "Mercado Livre" OR Direcional OR MRV OR "small caps") (resultado OR dividendos OR "fato relevante" OR celulose OR lançamentos OR "Minha Casa" OR guidance OR aquisição)'}
+  - {id: br_outros, lang: pt-BR, q: '(Klabin OR "Mercado Livre" OR "small caps") (resultado OR dividendos OR "fato relevante" OR celulose OR guidance OR aquisição)'}
+  - {id: br_construtoras, lang: pt-BR, q: '(Cury OR Direcional OR MRV OR construtoras OR incorporadoras) (resultado OR prévia OR lançamentos OR vendas OR "Minha Casa" OR FGTS OR "fato relevante" OR dividendos OR guidance OR participação OR oferta)'}
   - {id: br_macro, lang: pt-BR, q: '(Copom OR Selic OR "Banco Central" OR IPCA OR "Tesouro Direto" OR "curva de juros" OR "risco fiscal") (decisão OR ata OR alta OR corte OR projeção OR leilão OR déficit)'}
   - {id: br_cambio, lang: pt-BR, q: '(dólar OR câmbio OR "real brasileiro") (fecha OR abre OR sobe OR cai OR "Banco Central" OR leilão OR fluxo)'}
   - {id: us_semis, lang: en-US, q: '(Micron OR Nvidia OR TSMC OR "Taiwan Semiconductor") (earnings OR guidance OR revenue OR "data center" OR HBM OR export OR tariff OR outlook)'}
@@ -121,6 +122,7 @@ casar:
   MELI34: ['(?i)\bMercado ?Livre\b', '(?i)\bMercadoLibre\b', 'MELI34', '\bMELI\b']
   DIRR3: ['(?i)\bDirecional\b', 'DIRR3']
   MRVE3: ['\bMRV\b', 'MRVE3']
+  CURY3: ['(?i)\bCury\b', 'CURY3']
   SMAL11: ['SMAL11', '(?i)\bsmall caps?\b']
   MU: ['(?i)\bMicron\b', '\bMU\b(?= (stock|shares))']
   NVDA: ['(?i)\bNvidia\b', '\bNVDA\b']
@@ -251,6 +253,7 @@ cvm:
   SBSP3: {codigo: 14443, nomes: ["SANEAMENTO BASICO EST SAO PAULO SABESP", "SABESP"]}
   DIRR3: {codigo: 21350, nomes: ["DIRECIONAL ENGENHARIA"]}
   MRVE3: {codigo: 20915, nomes: ["MRV ENGENHARIA"]}
+  CURY3: {codigo: 25100, nomes: ["CURY CONSTRUTORA E INCORPORADORA"]}
 cvm_categorias:
   "Fato Relevante": atencao
   "Comunicado ao Mercado": info
