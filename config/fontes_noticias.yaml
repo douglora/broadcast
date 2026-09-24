@@ -174,6 +174,11 @@ excluir:
   BTC: ['(?i)\bBitcoin (ETF|Cash|Gold|Depot|Magazine)\b(?!.*(price|pre[cç]o|inflow|outflow))', '(?i)^Crypto News', '(?i)\b(presale|meme ?coins?|DeFi exchange|airdrop|token launch|100x|pre-?venda)\b']
   ETH: ['(?i)^Crypto News', '(?i)\b(presale|meme ?coins?|DeFi exchange|airdrop|token launch|100x|pre-?venda)\b']
   DI: ['(?i)\bCopom\b.*\bata\b.*\bassembleia\b']
+  # Augusto Cury e candidato a presidente em 2026 (Avante): em 23/09 'Cury cancela
+  # participacao em debate da Veja' virou noticia da CURY3. Tira a construtora quando a
+  # manchete e de campanha; 'Cury (CURY3) cai' e 'construtora Cury' continuam casando.
+  CURY3: ['(?i)\bAugusto Cury\b', '(?i)\bCury\b[^.]{0,80}\b(debate|candidat[oa]|presidenci|campanha|Avante|elei[cç][aã]o|eleitor|pesquisa (eleitoral|Quaest|Datafolha|AtlasIntel)|Caiado|Zema|Lula|Fl[aá]vio Bolsonaro|Renan Santos)',
+          '(?i)\b(debate|candidat[oa]|presidenci|campanha|Avante|Caiado|Zema|Lula|Bolsonaro)\b[^.]{0,80}\bCury\b']
   # Banco como CASA DE ANALISE, nao como assunto: 'Itau BBA sobe preco-alvo de Bemobi'
   # fala da Bemobi. Casa so o braco de research (Itau BBA, Bradesco BBI, BB Investimentos),
   # entao 'Safra corta preco-alvo de Itau' (banco como alvo) continua atribuindo ao banco.
