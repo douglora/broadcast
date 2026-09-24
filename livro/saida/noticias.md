@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 18h24
+NOTÍCIAS E FATOS · 24/09 20h50
 
-Pernas: noticias ok 3 novas (18 consultas; descartadas: 466 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 461 veículo fora da lista, 52 sem ativo, 18 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -142,8 +142,22 @@ Fonte: TradingView (Reuters) 24/09 04h15
 id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (136)
+## OUTRAS NOTÍCIAS (só manchete) (150)
 
+· ETH Ethereum Breaks a Year-Long Pattern. The Chart Still Has One Warning (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-breaks-long-pattern-chart-231143967.html
+· BTC Will Bitcoin Price Breakout Towards $100,000? One Candle Will Decide This Week (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-breakout-towards-100-225509630.html
+· USDBRL Ibovespa fecha em queda com cenário eleitoral e pressão externa; dólar sobe a R$ 5,20 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ibovespa-fecha-em-queda-com-cenario-eleitoral-e-pressao-externa-dolar-sobe-a-r-520/
+· VALE3 Vale (VALE3) quer dobrar produção de cobre até 2034 sem depender de M&A, diz CFO (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-quer-dobrar-producao-de-cobre-ate-2034-sem-depender-de-ma-diz-cfo/
+· MELI34 Farmácias caem até 8% na Bolsa após Mercado Livre anunciar venda de remédios (Exame) https://exame.com/invest/mercados/farmacias-caem-ate-8-na-bolsa-apos-mercado-livre-anunciar-venda-de-remedios/
+· VALE3 Ibovespa cai quase 1% com Vale (VALE3) e bancos; dólar vai a R$ 5,19 (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-24-setembro-vale-bancos-dolar-mt/
+· BABA INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Alibaba Group Holding Limited of Class Action Lawsuit and Upc… (PR Newswire) https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-alibaba-group-holding-limited-of-class-action-lawsuit-and-upcoming-deadlines--baba-302889790.html
+· BRENT # Ibovespa e dólar hoje: IPCA-15, alta do petróleo e piora fiscal no radar (Investing.com) https://br.investing.com/news/stock-market-news/-ibovespa-e-dolar-hoje-ipca15-alta-do-petroleo-e-piora-fiscal-no-radar-2074777
+· EQTL3 Aneel aprova reajuste da Equatorial PA (CanalEnergia) https://www.canalenergia.com.br/noticias/53356071/aneel-aprova-reajuste-da-equatorial-pa
+· UST Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market (MarketWatch) https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3
+· MU Micron (MU) Stock Looks Cheap. But Is AI Growth Already Priced In? (Yahoo Finance) https://sg.finance.yahoo.com/news/micron-mu-stock-looks-cheap-211634616.html
+· ITUB4 Ação em disparada de 500%: Com ROE de quase dois Itaú, Tenda (TEND3) é caso 'raro' na bolsa, diz CFO (Money Times) https://www.moneytimes.com.br/acao-em-disparada-de-500-com-roe-de-quase-dois-itau-tenda-tend3-e-caso-raro-na-bolsa-diz-cfo-rnda/
+· BTC Glassnode identifies first Bitcoin bear market without price drop below realized price (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:510b540fb094b:0-glassnode-identifies-first-bitcoin-bear-market-without-price-drop-below-realized-price/
+· UST Top Bond Strategies When Treasury Yields Rise: Short-Term, Corporate, and Muni Options (Barron's) https://www.barrons.com/articles/treasury-high-yield-bond-market-d4a362ef
 · PLTR Rosenblatt Has Message For Palantir Stock Investors (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fcd657612094b:0-rosenblatt-has-message-for-palantir-stock-investors/
 · UST Treasury Yields Hit 5%: The Hidden Duration In Your ETF Portfolio (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:06ee79955094b:0-treasury-yields-hit-5-the-hidden-duration-in-your-etf-portfolio/
 · NOK Nokia Oyj (NOK) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NOK/
@@ -190,18 +204,4 @@ id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 · MU Micron Is Winning By Losing The HBM Race (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4949504-micron-is-winning-by-losing-the-hbm-race
 · PETR4 Petrobras está prestes a atingir produção de 3 mi bpd de petróleo, diz CEO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G12C:0/
 · MU Micron Stock Gets a Big Wall Street Boost Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-gets-big-wall-163541132.html
-· GOOGL Alphabet: Something Big Is Coming (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949261-alphabet-something-big-is-coming
-· MU Prediction: Micron Stock Will Double Within 2 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-double-within-135000938.html
-· NVDA NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:a3cfd54ee094b:0-nvidia-s-279b-supply-commitments-can-these-secure-its-growth-runway/
-· JPM Can Private Credit Unlock More Growth for JPMorgan's Card Business? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkdJM21XcF85Y19OVHphb2MyeWhaREtVT2p2RmNIekNURzd4UGhGeWYwUU9Ic3Exc3dFRl9EY3k5LWpzVUcxcWZWbm5iX2lFdEJNYXZBdVBLaWNBOTY2MmQ3aHFFM3dUMlJKMTBGY1NWeEg4MkpwSG12TFhsZ1VUcUZhbW0yM284MGNRanRpY3FpWFczcHdFcEpGZWk0MHVETVBLSGFub2pkd25xUkRqVVFENDBTbnZYV0ZyTlVvZw?oc=5
-· ETH Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxOa1RGd1lleXJkZ3luX2NQbVlaRnJyLUFjU3FCVG9ocFBzVFlJTGhnZjhvMFpLak0yTDVpb0M3aXI3X3dIb3JtSmxkclNIdFg1THRPcWNwYkRjT0Q0c0JXZW55S3NVWXVrLUwybG1ENktvWV8tUnY2QU96YzktSlF6TEYxMnRNVUZGOFY5cGNHd0xfYTBF?oc=5
-· GOOGL BNP Paribas expands Google Cloud pact to support agentic AI (BNPQF:OTCMKTS) (Seeking Alpha) https://seekingalpha.com/news/4646791-bnp-paribas-expands-google-cloud-pact-to-support-agentic-ai
-· PETR4 Petrobras vê consenso para acordo da Braskem com credores (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-ve-consenso-para-acordo-da-braskem-com-credores
-· GOOGL The Mutual Group Selects Nativeorange to Power Next Generation Underwriting Workbench Built with Google Cloud (Business Wire) https://www.businesswire.com/news/home/20260924718331/en/The-Mutual-Group-Selects-Nativeorange-to-Power-Next-Generation-Underwriting-Workbench-Built-with-Google-Cloud
-· INTC Meta’s AI Agents Are Putting CPUs In Data Centers, But That’s Not Bullish For Intel (INTC) (Seeking Alpha) https://seekingalpha.com/article/4949490-meta-ai-agents-are-putting-cpus-in-data-centers-but-thats-not-bullish-for-intel
-· GOOGL BNP Paribas And Google Cloud Announce New Partnership (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_TUAKNZDC:0-bnp-paribas-and-google-cloud-announce-new-partnership/
-· GOOGL BNP Paribas to keep sensitive data off public cloud despite Google deal (Reuters) https://www.reuters.com/legal/litigation/bnp-paribas-keep-sensitive-data-off-public-cloud-despite-google-deal-2026-09-24/
-· UST Midday Need to Know: Treasury yields climb, GoDaddy jumps & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4646754-midday-need-to-know-treasury-yields-climb-godaddy-jumps-more
-· BTC Crypto for Advisors:The hidden costs of holding your own bitcoin (CoinDesk) https://www.coindesk.com/coindesk-indices/2026/09/24/crypto-for-advisors-the-hidden-costs-of-holding-your-own-bitcoin
-· TSLA Tesla's Biggest Semi Deal Yet: Is TSLA Stock a Buy Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:94f0418f9094b:0-tesla-s-biggest-semi-deal-yet-is-tsla-stock-a-buy-now/
-· (+76 manchetes; lista completa em eventos/noticias.json)
+· (+90 manchetes; lista completa em eventos/noticias.json)

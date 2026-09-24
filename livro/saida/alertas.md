@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] T08 · 3 ativos: COHR, EWY, BBAS3
 · COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) a US$ 290,61
@@ -13,9 +13,21 @@ Fonte: Yahoo Finance fech. 24/09
 ids: T08-COHR--30-2026-09-24, T08-EWY--15-2026-09-24, T08-BBAS3--20-2026-09-24
 
 Info (só linha no Fechamento):
-· E05 PLTR · Rosenblatt Has Message For Palantir Stock Investors
-· E05 UST · Treasury Yields Hit 5%: The Hidden Duration In Your ETF Portfolio
-· E05 NOK · Nokia Oyj (NOK) Stock Price, News, Quote & History
+· T07 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) entrou em sobrevendido: RSI14 25 a US$ 64,85
+· E05 ETH · Ethereum Breaks a Year-Long Pattern. The Chart Still Has One Warning
+· E05 BTC · Will Bitcoin Price Breakout Towards $100,000? One Candle Will Decide This Week
+· E05 USDBRL · Ibovespa fecha em queda com cenário eleitoral e pressão externa; dólar sobe a R$ 5,20
+· E05 VALE3 · Vale (VALE3) quer dobrar produção de cobre até 2034 sem depender de M&A, diz CFO
+· E05 MELI34 · Farmácias caem até 8% na Bolsa após Mercado Livre anunciar venda de remédios
+· E05 VALE3 · Ibovespa cai quase 1% com Vale (VALE3) e bancos; dólar vai a R$ 5,19
+· E05 BABA · INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Alibaba Group Holding Limited of Class Action Lawsuit and Upc…
+· E05 BRENT · # Ibovespa e dólar hoje: IPCA-15, alta do petróleo e piora fiscal no radar
+· E05 EQTL3 · Aneel aprova reajuste da Equatorial PA
+· E05 UST · Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market
+· E05 MU · Micron (MU) Stock Looks Cheap. But Is AI Growth Already Priced In?
+· E05 ITUB4 · Ação em disparada de 500%: Com ROE de quase dois Itaú, Tenda (TEND3) é caso 'raro' na bolsa, diz CFO
+· E05 BTC · Glassnode identifies first Bitcoin bear market without price drop below realized price
+· E05 UST · Top Bond Strategies When Treasury Yields Rise: Short-Term, Corporate, and Muni Options
 · T04 IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) fechou na mínima de 52 semanas: US$ 5,59, -2,5% em 1m e -1,4% em 12m
 · T01 KLBN4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 3,58 vs MM200 R$ 3,67 (-2,3%)
 · T05 ALUP4 -3,6% no dia a R$ 10,40: movimento de 3,0 desvios para uma vol de 20 dias de 19% a.a.
@@ -30,11 +42,11 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): T04-IUAA-minima-2026-09-24 (teto de atenção), T01-KLBN4-perda-2026-09-24 (teto de atenção), T05-ALUP4-queda-2026-09-24 (teto de atenção), T02-AMZN-perdeu_perdeu-2026-09-24 (teto de atenção), T06-KLBN4-queda-2026-09-24 (teto de atenção), T09-ALUP4-queda-2026-09-24 (teto de atenção), T10-REMX-mínimo-2026-09-24 (teto de atenção), T10-AMD-máximo-2026-09-24 (teto de atenção), T10-INTC-máximo-2026-09-24 (teto de atenção), T10-MELI34-mínimo-2026-09-24 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  T08 COHR — COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) 
-· pendente  T08 BBAS3 — BBAS3 entrou em bear técnico: -22% do pico de 52s (R$ 27,58 em 25/02) a R$ 21,54
+· expirado  T08 COHR — COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) 
+· expirado  T08 BBAS3 — BBAS3 entrou em bear técnico: -22% do pico de 52s (R$ 27,58 em 25/02) a R$ 21,54
 · linha     T01 KLBN4 — KLBN4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 3,58 vs MM200 R$ 3,6
 · linha     T05 ALUP4 — ALUP4 -3,6% no dia a R$ 10,40: movimento de 3,0 desvios para uma vol de 20 dias 
-· pendente  T08 EWY — EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a
+· expirado  T08 EWY — EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a
 · linha     T02 AMZN — AMZN perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 249,38, ainda acima da M
 · linha     T06 KLBN4 — KLBN4 -7,7% em 5 sessões a R$ 3,58: movimento de 3,2 desvios para a vol de 20 di
 · linha     T09 ALUP4 — ALUP4 -3,6% com volume 3,9x a mediana de 20 sessões, a R$ 10,40
@@ -53,6 +65,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 UST — UST · 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook
 · entregue  E05 NVDA — NVDA · Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal
 · linha     S01 SISTEMA — coleta do slot manha saiu incompleta: tesouro: Tesouro Transparente com data-bas
+· linha     T07 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)) entrou em sobreven
 · linha     T01 AXIA3 — AXIA3 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 54,47 vs MM200 R$ 55
 · linha     T04 AMD — AMD fechou na máxima de 52 semanas: US$ 629,26, +31% em 1m e +291% em 12m
 · linha     T04 META — META fechou na máxima de 52 semanas: US$ 777,59, +37% em 1m e +2,6% em 12m
@@ -62,4 +75,4 @@ Alertas do dia (todos, com status):
 · linha     T10 ALUP4 — ALUP4 no mínimo de força relativa em 63 sessões contra IBOV: -5,5% vs +5,4% em 2
 · linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
 · linha     F03 BRENT — Brent sobe a US$ 107,03 (+3,8% no dia)
-· (+141 notícias só manchete, em noticias.md)
+· (+155 notícias só manchete, em noticias.md)

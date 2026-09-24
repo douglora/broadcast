@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 24/09 · 18h19 BRT
-Relógios: Yahoo 18h19 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qui 24/09 · 20h50 BRT
+Relógios: Yahoo 20h50 · DI ajuste D0 · Tesouro base
   18/09 · UST CMT D0 · PTAX 24/09
 
-ALERTAS DO DIA (32 · 2 críticos)
+ALERTAS DO DIA (33 · 2 críticos)
 [CRÍTICO] T08 COHR entrou em queda de -30% do pico:
           -32% do pico de 52s (US$ 426,89 em 02/06)
           a US$ 290,61
@@ -27,10 +27,10 @@ ALERTAS DO DIA (32 · 2 críticos)
           dias
 [ATENÇÃO] T09 ALUP4 -3,6% com volume 3,9x a mediana
           de 20 sessões, a R$ 10,40
-(+24 em alertas.md)
+(+25 em alertas.md)
 
-ALTAS  META +4,5% · INTC +3,9% · BRENT +3,8% · AMD
-       +2,4% · GFS +1,4%
+ALTAS  META +4,5% · INTC +3,9% · AMD +2,4% · GFS
+       +1,4% · GOOGL +1,3%
 BAIXAS ALUP4 -3,6% · COHR -3,3% · BBAS3 -2,8% ·
        KLBN4 -2,7% · REMX -2,7%
 
@@ -69,7 +69,7 @@ TD (base 18/09, Δ desde 17/09) Pre 2029 13,85 (+4) ·
     (descasado) 6,06% vs Focus IPCA 2027 4,30%
 UST (D0) 2y 4,87 (+2) · 10y 5,18 (+7) · 30y 5,47
     (+7) · 2s10s +31 (+5)
-Regime: VIX 15,7 (+3,2%) · score risco 0 de 6
+Regime: VIX 15,7 (+3,2%) · score risco 0 de 5
 
 LEITURA DA MESA
 <<LEITURA_DA_MESA>>
@@ -86,15 +86,16 @@ sex 02/10 ex-dividendo BBDC4 R$ 0,02 (último
 ter 06/10 ex-dividendo JPM US$ 1,50 (último
     provento, Yahoo)
 
-LACUNAS: sem barra de 23/09 no Yahoo, variação do
-  dia cobre 2 pregões: VWRA, CSPX, CNDX, VHYA, WUTI,
-  RBOT, IUAA, IB01, QNTM, QANT, WQTM; tesouro:
-  Tesouro Transparente com data-base 18/09; faltam
-  21/09, 22/09, 23/09 (taxas não são as de hoje);
-  alertas_segurados: alertas não emitidos por dado
-  não confirmado: T05 WUTI (WUTI: variação de 2
-  pregões (sem 23/09)); T05 IUAA (IUAA: variação de
-  2 pregões (sem 23/09)).
+LACUNAS: DXY sem barra de 24/09 (última 23/09);
+  BRENT sem barra de 24/09 (última 23/09); DXY:
+  barra de 24/09 é o início da sessão seguinte
+  (última cotação 18:04 de Nova York); barra
+  descartada, fica a de 23/09; BRENT: barra de 24/09
+  é o início da sessão seguinte (última cotação
+  19:40 de Nova York); barra descartada, fica a de
+  23/09; tesouro: Tesouro Transparente com data-base
+  18/09; faltam 21/09, 22/09, 23/09 (taxas não são
+  as de hoje).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -103,14 +104,14 @@ BLOCO B
 ```
 VARIAÇÃO %         últ  dia   1s   1m   6m   1a  YTD
 UCITS (USD)
-VWRA*  Mundo    191,92 -1,6 -0,3 -1,2  +16  +17  +12
-CSPX*  S&P500   827,33 -1,2 +0,5 +0,1  +18  +16  +12
-CNDX*  Nasdaq    1.738 -1,3 +2,8 +3,6  +27  +24  +18
-VHYA*  AltDiv   105,50 -1,5 -2,0 -3,5  +10  +21  +14
-WUTI*  Utilit    64,85 -2,8 -3,8 -6,7 -8,2 +2,3 -2,0
-RBOT*  Robot     21,66 -1,3 +3,4 +1,1  +40  +37  +33
-IUAA*  RF EUA     5,59 -1,0 -1,2 -2,5 -1,8 -1,4 -2,9
-IB01*  T-bill   121,92 +0,1  0,0 +0,2 +1,8 +3,7 +2,6
+VWRA   Mundo    191,92 -0,9 -0,3 -1,2  +16  +17  +12
+CSPX   S&P500   827,33 -0,6 +0,5 +0,1  +18  +16  +12
+CNDX   Nasdaq    1.738 -0,8 +2,8 +3,6  +27  +24  +18
+VHYA   AltDiv   105,50 -0,8 -2,0 -3,5  +10  +21  +14
+WUTI   Utilit    64,85 -0,8 -3,8 -6,7 -8,2 +2,3 -2,0
+RBOT   Robot     21,66 -1,1 +3,4 +1,1  +40  +37  +33
+IUAA   RF EUA     5,59 -0,6 -1,2 -2,5 -1,8 -1,4 -2,9
+IB01   T-bill   121,92  0,0  0,0 +0,2 +1,8 +3,7 +2,6
 ETFs EUA (USD)
 SPY    S&P 500  767,18 -0,1 +0,9 +0,4  +20  +17  +13
 QQQ    Nasdaq   741,10  0,0 +3,5 +4,4  +29  +25  +21
@@ -121,9 +122,9 @@ VGT    Tech VG  125,19 -0,3 +3,1 +6,5  +44  +36  +33
 IGV    Softwar  107,15 -0,9 +1,3 +5,2  +34 -7,0 +1,4
 BOTZ   Robotic   35,22 -0,2 +0,3 -1,8 +5,9 +0,8 -2,7
 Temáticos: quântica e metais (USD)
-QNTM*  Quantum   29,27 -1,1 +0,3  0,0  +30  +13  +17
-QANT*  Quantum    6,14 -1,6 +0,2 +0,3  +38    -  +22
-WQTM*  Quantum   37,28 -2,7 -0,5 -2,5  +29  +20  +25
+QNTM   Quantum   29,27 -1,3 +0,3  0,0  +30  +13  +17
+QANT   Quantum    6,14 -1,8 +0,2 +0,3  +38    -  +22
+WQTM   Quantum   37,28 -1,9 -0,5 -2,5  +29  +20  +25
 WQTMUS Quantum   32,42 +0,8 +0,9 -1,5  +31    -  +25
 QTUM   Quantum  152,47  0,0 +3,9 +2,5  +42  +45  +40
 REMX   TerrasR   66,93 -2,7 -3,1  -15  -21 +4,7 -9,5
@@ -178,10 +179,10 @@ MRVE3  MRV        5,22 -0,4 -3,9 -4,4  -35  -34  -33
 CURY3  Cury      27,44 +0,5 -5,1  -16  -20 -4,5  -11
 Macro
 USDBRL USD/BRL  5,1913 +0,5 +1,0 +1,0 -0,9 -1,7 -5,2
-DXY    DXY      101,26 +0,2 +1,0 +2,4 +1,4 +3,5 +3,0
-BRENT  Brent    107,03 +3,8 +2,1  +23 -0,9  +54  +76
-BTC*   BTC      84.397  0,0  +10 +7,4  +23  -26 -3,6
-ETH*   ETH       2.688 +0,1 +9,8  +10  +31  -35 -9,4
+DXY*   DXY      101,10 +0,7 +0,8 +2,1 +1,5 +3,9 +2,9
+BRENT* Brent    103,08 +3,9 -2,6  +14 +0,8  +52  +69
+BTC*   BTC      84.381  0,0  +10 +7,4  +23  -26 -3,6
+ETH*   ETH       2.689 +0,2 +9,9  +10  +31  -35 -9,4
 MINER* Minerio   97,24 -0,1 -0,2 +2,0 -8,3 -7,8 -9,2
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

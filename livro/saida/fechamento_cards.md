@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 24/09 · 18h19 BRT
+## Fechamento do livro · qui 24/09 · 20h50 BRT
 
 ---
 
@@ -20,13 +20,13 @@
 
 - **T08 · EWY** EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a US$ 182,53
 
-*Mais 21 sinais de baixa prioridade em `alertas.md`.*
+*Mais 22 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
-**Altas** META +4,5% (vol 1,6x · fechou na máxima · máxima de 52 semanas) · INTC +3,9% (fechou na máxima) · BRENT +3,8% · AMD +2,4% (fechou na máxima · máxima de 52 semanas) · GFS +1,4% (fechou na máxima)
+**Altas** META +4,5% (vol 1,6x · fechou na máxima · máxima de 52 semanas) · INTC +3,9% (fechou na máxima) · AMD +2,4% (fechou na máxima · máxima de 52 semanas) · GFS +1,4% (fechou na máxima) · GOOGL +1,3% (fechou na máxima)
 **Baixas** ALUP4 -3,6% (vol 3,8x · fechou na mínima) · COHR -3,3% (fechou na mínima) · BBAS3 -2,8% (fechou na mínima) · KLBN4 -2,7% (fechou na mínima) · REMX -2,7%
 
 ---
@@ -42,7 +42,7 @@
 | **BBAS3** | -2,8% | descolou do setor (bancos -1,3% (mediana), DI F28 +9 bps; -1,6 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **KLBN4** | -2,7% | investigar antes de comentar | sem causa no dado |
 | **REMX** | -2,7% | investigar antes de comentar | sem causa no dado |
-| **MELI34** | -2,4% | notícia a conferir (Estadao): Mercado Livre anuncia modalidade de entrega de mercadorias em até 1 hora | notícia (conferir) |
+| **MELI34** | -2,4% | notícia a conferir (Exame): Farmácias caem até 8% na Bolsa após Mercado Livre anunciar venda de remédios | notícia (conferir) |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
 
@@ -63,14 +63,14 @@
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **VWRA** Vanguard FTSE All-World _(2 pregões)_ | 191,92 | **-1,6** | -0,3 | -1,2 | +2,7 | +16 | +17 | +12 | +68 |
-| **CSPX** iShares Core S&P 500 _(2 pregões)_ | 827,33 | **-1,2** | +0,5 | +0,1 | +4,2 | +18 | +16 | +12 | +83 |
-| **CNDX** iShares NASDAQ 100 _(2 pregões)_ | 1.738 | **-1,3** | +2,8 | +3,6 | +3,1 | +27 | +24 | +18 | +102 |
-| **VHYA** Vanguard FTSE All-World High Dividend Yield _(2 pregões)_ | 105,50 | **-1,5** | -2,0 | -3,5 | +1,8 | +10 | +21 | +14 | +73 |
-| **WUTI** State Street SPDR MSCI World Utilities _(2 pregões)_ | 64,85 | **-2,8** | -3,8 | -6,7 | -10 | -8,2 | +2,3 | -2,0 | +45 |
-| **RBOT** iShares Automation & Robotics _(2 pregões)_ | 21,66 | **-1,3** | +3,4 | +1,1 | +2,3 | +40 | +37 | +33 | +56 |
-| **IUAA** iShares US Aggregate Bond _(2 pregões)_ | 5,59 | **-1,0** | -1,2 | -2,5 | -3,4 | -1,8 | -1,4 | -2,9 | -4,1 |
-| **IB01** iShares $ Treasury Bond 0-1yr _(2 pregões)_ | 121,92 | **+0,1** | 0,0 | +0,2 | +0,9 | +1,8 | +3,7 | +2,6 | +19 |
+| **VWRA** Vanguard FTSE All-World | 191,92 | **-0,9** | -0,3 | -1,2 | +2,7 | +16 | +17 | +12 | +68 |
+| **CSPX** iShares Core S&P 500 | 827,33 | **-0,6** | +0,5 | +0,1 | +4,2 | +18 | +16 | +12 | +83 |
+| **CNDX** iShares NASDAQ 100 | 1.738 | **-0,8** | +2,8 | +3,6 | +3,1 | +27 | +24 | +18 | +102 |
+| **VHYA** Vanguard FTSE All-World High Dividend Yield | 105,50 | **-0,8** | -2,0 | -3,5 | +1,8 | +10 | +21 | +14 | +73 |
+| **WUTI** State Street SPDR MSCI World Utilities | 64,85 | **-0,8** | -3,8 | -6,7 | -10 | -8,2 | +2,3 | -2,0 | +45 |
+| **RBOT** iShares Automation & Robotics | 21,66 | **-1,1** | +3,4 | +1,1 | +2,3 | +40 | +37 | +33 | +56 |
+| **IUAA** iShares US Aggregate Bond · mínima de 52 semanas | 5,59 | **-0,6** | -1,2 | -2,5 | -3,4 | -1,8 | -1,4 | -2,9 | -4,1 |
+| **IB01** iShares $ Treasury Bond 0-1yr · máxima de 52 semanas | 121,92 | **0,0** | 0,0 | +0,2 | +0,9 | +1,8 | +3,7 | +2,6 | +19 |
 
 Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · **CSPX** iShares Core S&P 500 UCITS ETF USD (Acc) · **CNDX** iShares NASDAQ 100 UCITS ETF USD (Acc) · **VHYA** Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating · **WUTI** State Street SPDR MSCI World Utilities UCITS ETF (USD) · **RBOT** iShares Automation & Robotics UCITS ETF USD (Acc) · **IUAA** iShares US Aggregate Bond UCITS ETF USD (Acc) · **IB01** iShares $ Treasury Bond 0-1yr UCITS ETF USD (Acc).
 
@@ -95,9 +95,9 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **QNTM** VanEck Quantum Computing _(2 pregões)_ | 29,27 | **-1,1** | +0,3 | 0,0 | -3,0 | +30 | +13 | +17 | - |
-| **QANT** iShares Quantum Computing _(2 pregões)_ | 6,14 | **-1,6** | +0,2 | +0,3 | -1,9 | +38 | - | +22 | - |
-| **WQTM** WisdomTree Quantum Computing _(2 pregões)_ | 37,28 | **-2,7** | -0,5 | -2,5 | -9,6 | +29 | +20 | +25 | - |
+| **QNTM** VanEck Quantum Computing | 29,27 | **-1,3** | +0,3 | 0,0 | -3,0 | +30 | +13 | +17 | - |
+| **QANT** iShares Quantum Computing | 6,14 | **-1,8** | +0,2 | +0,3 | -1,9 | +38 | - | +22 | - |
+| **WQTM** WisdomTree Quantum Computing | 37,28 | **-1,9** | -0,5 | -2,5 | -9,6 | +29 | +20 | +25 | - |
 | **WQTMUS** WisdomTree Quantum Computing Fund | 32,42 | **+0,8** | +0,9 | -1,5 | -11 | +31 | - | +25 | - |
 | **QTUM** Defiance Quantum ETF | 152,47 | **0,0** | +3,9 | +2,5 | -4,8 | +42 | +45 | +40 | +204 |
 | **REMX** VanEck Rare Earth & Strategic Metals ETF | 66,93 | **-2,7** | -3,1 | -15 | -25 | -21 | +4,7 | -9,5 | -32 |
@@ -196,13 +196,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,1913 | **+0,5** | +1,0 | +1,0 | -0,3 | -0,9 | -1,7 | -5,2 | -2,1 |
-| **DXY** Indice Dolar DXY | 101,26 | **+0,2** | +1,0 | +2,4 | -0,2 | +1,4 | +3,5 | +3,0 | +8,5 |
-| **BRENT** Petroleo Brent | 107,03 | **+3,8** | +2,1 | +23 | +42 | -0,9 | +54 | +76 | +37 |
-| **BTC** Bitcoin _(parcial)_ | 84.397 | **0,0** | +10 | +7,4 | +41 | +23 | -26 | -3,6 | +95 |
-| **ETH** Ethereum _(parcial)_ | 2.688 | **+0,1** | +9,8 | +10 | +72 | +31 | -35 | -9,4 | -12 |
+| **DXY** Indice Dolar DXY _(dia 23/09)_ | 101,10 | **+0,7** | +0,8 | +2,1 | -0,5 | +1,5 | +3,9 | +2,9 | +8,3 |
+| **BRENT** Petroleo Brent _(dia 23/09)_ | 103,08 | **+3,9** | -2,6 | +14 | +40 | +0,8 | +52 | +69 | +32 |
+| **BTC** Bitcoin _(parcial)_ | 84.381 | **0,0** | +10 | +7,4 | +41 | +23 | -26 | -3,6 | +95 |
+| **ETH** Ethereum _(parcial)_ | 2.689 | **+0,2** | +9,9 | +10 | +72 | +31 | -35 | -9,4 | -12 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 23/09)_ | 97,24 | **-0,1** | -0,2 | +2,0 | -3,3 | -8,3 | -7,8 | -9,2 | -19 |
 
-**Brent em reais:** R$ 555,62 por barril (24/09) · dia +4,3% · 1 mês +24% · no ano +67% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -251,7 +251,7 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 2s10s +31 bps (+5 no dia)
 
-**Regime** VIX 15,7 (+3,2%) · score de risco 0 de 6
+**Regime** VIX 15,7 (+3,2%) · score de risco 0 de 5
 
 ---
 
@@ -292,8 +292,8 @@ Inflação implícita 2029 6,04% · 2032 6,14% · 2031/32 (descasado) 6,06% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h19 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 24/09
-**Lacunas:** sem barra de 23/09 no Yahoo, variação do dia cobre 2 pregões: VWRA, CSPX, CNDX, VHYA, WUTI, RBOT, IUAA, IB01, QNTM, QANT, WQTM; tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas não são as de hoje); alertas_segurados: alertas não emitidos por dado não confirmado: T05 WUTI (WUTI: variação de 2 pregões (sem 23/09)); T05 IUAA (IUAA: variação de 2 pregões (sem 23/09)).
+**Relógios:** Yahoo 20h50 · DI ajuste D0 · Tesouro base 18/09 · UST CMT D0 · PTAX 24/09
+**Lacunas:** DXY sem barra de 24/09 (última 23/09); BRENT sem barra de 24/09 (última 23/09); DXY: barra de 24/09 é o início da sessão seguinte (última cotação 18:04 de Nova York); barra descartada, fica a de 23/09; BRENT: barra de 24/09 é o início da sessão seguinte (última cotação 19:40 de Nova York); barra descartada, fica a de 23/09; tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas não são as de hoje).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 714 CNY/t (2026-09-24).

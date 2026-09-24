@@ -1,14 +1,14 @@
 ```
 VARIAÇÃO %       últ  dia   1s   1m  YTD
 UCITS (USD)
-VWRA*  Mundo  191,92 -1,6 -0,3 -1,2  +12
-CSPX*  S&P500 827,33 -1,2 +0,5 +0,1  +12
-CNDX*  Nasdaq  1.738 -1,3 +2,8 +3,6  +18
-VHYA*  AltDiv 105,50 -1,5 -2,0 -3,5  +14
-WUTI*  Utilit  64,85 -2,8 -3,8 -6,7 -2,0
-RBOT*  Robot   21,66 -1,3 +3,4 +1,1  +33
-IUAA*  RF EUA   5,59 -1,0 -1,2 -2,5 -2,9
-IB01*  T-bill 121,92 +0,1  0,0 +0,2 +2,6
+VWRA   Mundo  191,92 -0,9 -0,3 -1,2  +12
+CSPX   S&P500 827,33 -0,6 +0,5 +0,1  +12
+CNDX   Nasdaq  1.738 -0,8 +2,8 +3,6  +18
+VHYA   AltDiv 105,50 -0,8 -2,0 -3,5  +14
+WUTI   Utilit  64,85 -0,8 -3,8 -6,7 -2,0
+RBOT   Robot   21,66 -1,1 +3,4 +1,1  +33
+IUAA   RF EUA   5,59 -0,6 -1,2 -2,5 -2,9
+IB01   T-bill 121,92  0,0  0,0 +0,2 +2,6
 ETFs EUA (USD)
 SPY    S&P 50 767,18 -0,1 +0,9 +0,4  +13
 QQQ    Nasdaq 741,10  0,0 +3,5 +4,4  +21
@@ -19,9 +19,9 @@ VGT    Tech V 125,19 -0,3 +3,1 +6,5  +33
 IGV    Softwa 107,15 -0,9 +1,3 +5,2 +1,4
 BOTZ   Roboti  35,22 -0,2 +0,3 -1,8 -2,7
 Temáticos: quântica e metais (USD)
-QNTM*  Quantu  29,27 -1,1 +0,3  0,0  +17
-QANT*  Quantu   6,14 -1,6 +0,2 +0,3  +22
-WQTM*  Quantu  37,28 -2,7 -0,5 -2,5  +25
+QNTM   Quantu  29,27 -1,3 +0,3  0,0  +17
+QANT   Quantu   6,14 -1,8 +0,2 +0,3  +22
+WQTM   Quantu  37,28 -1,9 -0,5 -2,5  +25
 WQTMUS Quantu  32,42 +0,8 +0,9 -1,5  +25
 QTUM   Quantu 152,47  0,0 +3,9 +2,5  +40
 REMX   Terras  66,93 -2,7 -3,1  -15 -9,5
@@ -76,10 +76,10 @@ MRVE3  MRV      5,22 -0,4 -3,9 -4,4  -33
 CURY3  Cury    27,44 +0,5 -5,1  -16  -11
 Macro
 USDBRL USD/BR 5,1913 +0,5 +1,0 +1,0 -5,2
-DXY    DXY    101,26 +0,2 +1,0 +2,4 +3,0
-BRENT  Brent  107,03 +3,8 +2,1  +23  +76
-BTC*   BTC    84.397  0,0  +10 +7,4 -3,6
-ETH*   ETH     2.688 +0,1 +9,8  +10 -9,4
+DXY*   DXY    101,10 +0,7 +0,8 +2,1 +2,9
+BRENT* Brent  103,08 +3,9 -2,6  +14  +69
+BTC*   BTC    84.381  0,0  +10 +7,4 -3,6
+ETH*   ETH     2.689 +0,2 +9,9  +10 -9,4
 MINER* Mineri  97,24 -0,1 -0,2 +2,0 -9,2
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
