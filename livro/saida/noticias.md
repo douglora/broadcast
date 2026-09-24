@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 14h21
+NOTÍCIAS E FATOS · 24/09 14h49
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 465 veículo fora da lista, 57 sem ativo, 3 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 468 veículo fora da lista, 56 sem ativo, 12 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -338,8 +338,17 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (123)
+## OUTRAS NOTÍCIAS (só manchete) (132)
 
+· INTC Intel Shares Rise as Agentic AI Keeps CPUs in the Loop (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:85bd34471094b:0-intel-shares-rise-as-agentic-ai-keeps-cpus-in-the-loop/
+· MU Micron Is Winning By Losing The HBM Race (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4949504-micron-is-winning-by-losing-the-hbm-race
+· PETR4 Petrobras está prestes a atingir produção de 3 mi bpd de petróleo, diz CEO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G12C:0/
+· MU Micron Stock Gets a Big Wall Street Boost Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-gets-big-wall-163541132.html
+· GOOGL Alphabet: Something Big Is Coming (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949261-alphabet-something-big-is-coming
+· MU Prediction: Micron Stock Will Double Within 2 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-double-within-135000938.html
+· NVDA NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:a3cfd54ee094b:0-nvidia-s-279b-supply-commitments-can-these-secure-its-growth-runway/
+· JPM Can Private Credit Unlock More Growth for JPMorgan's Card Business? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkdJM21XcF85Y19OVHphb2MyeWhaREtVT2p2RmNIekNURzd4UGhGeWYwUU9Ic3Exc3dFRl9EY3k5LWpzVUcxcWZWbm5iX2lFdEJNYXZBdVBLaWNBOTY2MmQ3aHFFM3dUMlJKMTBGY1NWeEg4MkpwSG12TFhsZ1VUcUZhbW0yM284MGNRanRpY3FpWFczcHdFcEpGZWk0MHVETVBLSGFub2pkd25xUkRqVVFENDBTbnZYV0ZyTlVvZw?oc=5
+· ETH Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxOa1RGd1lleXJkZ3luX2NQbVlaRnJyLUFjU3FCVG9ocFBzVFlJTGhnZjhvMFpLak0yTDVpb0M3aXI3X3dIb3JtSmxkclNIdFg1THRPcWNwYkRjT0Q0c0JXZW55S3NVWXVrLUwybG1ENktvWV8tUnY2QU96YzktSlF6TEYxMnRNVUZGOFY5cGNHd0xfYTBF?oc=5
 · GOOGL BNP Paribas expands Google Cloud pact to support agentic AI (BNPQF:OTCMKTS) (Seeking Alpha) https://seekingalpha.com/news/4646791-bnp-paribas-expands-google-cloud-pact-to-support-agentic-ai
 · PETR4 Petrobras vê consenso para acordo da Braskem com credores (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-ve-consenso-para-acordo-da-braskem-com-credores
 · GOOGL The Mutual Group Selects Nativeorange to Power Next Generation Underwriting Workbench Built with Google Cloud (Business Wire) https://www.businesswire.com/news/home/20260924718331/en/The-Mutual-Group-Selects-Nativeorange-to-Power-Next-Generation-Underwriting-Workbench-Built-with-Google-Cloud
@@ -391,13 +400,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24092026/
 · KO Is Coca-Cola (KO) Outperforming Other Consumer Staples Stocks This Year? (Yahoo Finance) https://uk.finance.yahoo.com/news/coca-cola-ko-outperforming-other-124003164.html
 · PLTR Palantir Just Hit a One-Year High. Here's What's Driving It (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3654a10f2094b:0-palantir-just-hit-a-one-year-high-here-s-what-s-driving-it/
-· NVDA NVIDIA Corporation (NVDA) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NVDA/
-· MU Micron Stock Could Rise Another 50%. Here's How. (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxOY0Vvc1NGa3ViUmlaaE5OYVoyUlV4djNHLWoxNjlnTWo1RW1iOEhjSllqTUd2RjZVUDFLUXBnUUJPeWpDb1JzWHFaQzdtNDk0SnRFaG9Rb1pKTG05MXJ6bjAxeTN6b3U0ZkpHaG1HeDZPVk05dkRzcUZ2SjhvQm5VR01haw?oc=5
-· LITE Lumentum president Yuen sells $1.42m in stock By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/lumentum-president-yuen-sells-142m-in-stock-93CH-4851872
-· BRENT Dólar sobe com petróleo em alta e juros dos EUA no radar dos investidores (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-sobe-com-petroleo-em-alta-e-juros-dos-eua-no-radar-dos-investidores.shtml
-· GOOGL SentinelOne Extends Wayfinder Threat Hunting's Continuous Coverage to AWS, Azure, and Google Cloud (Business Wire) https://www.businesswire.com/news/home/20260924339917/en/SentinelOne-Extends-Wayfinder-Threat-Huntings-Continuous-Coverage-to-AWS-Azure-and-Google-Cloud
-· AMD AMD CEO Shares Trump-Xi Expectations at IMPERIA Summit: NYSE Content Update (PR Newswire) https://www.prnewswire.com/news-releases/amd-ceo-shares-trump-xi-expectations-at-imperia-summit-nyse-content-update-302889273.html
-· USDBRL Dólar sobe ante real sob influência do exterior e antes de nova pesquisa (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/09/24/dolar-sobe-ante-real-sob-influencia-do-exterior-e-antes-de-nova-pesquisa.htm
-· VALE3 Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24) (Money Times) https://www.moneytimes.com.br/yduqs-yduq3-vale-vale3-oncoclinicas-e-outros-destaques-desta-quinta-feira-24-lmrs/
-· NVDA Nvidia Snaps 5-Day Winning Streak After $300 Million Insider Sale (Yahoo Finance) https://sg.finance.yahoo.com/news/nvidia-snaps-5-day-winning-124417060.html
-· (+63 manchetes; lista completa em eventos/noticias.json)
+· (+72 manchetes; lista completa em eventos/noticias.json)

@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?
 Yahoo Finance · 24/09 07h29 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Tigress Financial analyst Ivan Feinseth echoed this sentiment on September 17, citing strong Search momentum, rising Cloud growth, and margin expansion in second-quarter results.
@@ -14,22 +14,18 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: GOOGL
 Como falar: 'saiu no Yahoo Finance: Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 24/09 07h29
-Push: [ATENÇÃO] GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 · detalhe na sessão
 ids: E05-GOOGL-e7f0c0a360-2026-09-24
 
 Info (só linha no Fechamento):
-· E05 GOOGL · BNP Paribas expands Google Cloud pact to support agentic AI (BNPQF:OTCMKTS)
-· E05 PETR4 · Petrobras vê consenso para acordo da Braskem com credores
-· E05 GOOGL · The Mutual Group Selects Nativeorange to Power Next Generation Underwriting Workbench Built with Google Cloud
-· E05 INTC · Meta’s AI Agents Are Putting CPUs In Data Centers, But That’s Not Bullish For Intel (INTC)
-· E05 GOOGL · BNP Paribas And Google Cloud Announce New Partnership
-· E05 GOOGL · BNP Paribas to keep sensitive data off public cloud despite Google deal
-· E05 UST · Midday Need to Know: Treasury yields climb, GoDaddy jumps & more (SPY:NYSEARCA)
-· E05 BTC · Crypto for Advisors:The hidden costs of holding your own bitcoin
-· E05 TSLA · Tesla's Biggest Semi Deal Yet: Is TSLA Stock a Buy Now?
-· E05 BTC · Current price of Bitcoin for Sept. 24, 2026
+· E05 INTC · Intel Shares Rise as Agentic AI Keeps CPUs in the Loop
+· E05 MU · Micron Is Winning By Losing The HBM Race (NASDAQ:MU)
+· E05 PETR4 · Petrobras está prestes a atingir produção de 3 mi bpd de petróleo, diz CEO
+· E05 MU · Micron Stock Gets a Big Wall Street Boost Ahead of Earnings
+· E05 GOOGL · Alphabet: Something Big Is Coming (NASDAQ:GOOG)
+· E05 MU · Prediction: Micron Stock Will Double Within 2 Years
 · E05 NVDA · NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway?
-· E05 BRENT · Dólar avança e Bolsa cai com petróleo em alta e juros dos EUA no radar dos investidores
+· E05 JPM · Can Private Credit Unlock More Growth for JPMorgan's Card Business?
+· E05 ETH · Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally
 
 
 Alertas do dia (todos, com status):
@@ -71,7 +67,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
 · entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, C
 · linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
-· linha     F03 BRENT — Brent sobe a US$ 108,10 (+4,9% no dia) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 106,98 (+3,8% no dia) (parcial, intradia)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
 · linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
 · linha     T02 JPM — JPM perdeu a MM50 pela 2ª sessão: US$ 337,53, ainda acima da MM200 (tendência lo
@@ -84,5 +80,5 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+139 notícias só manchete, em noticias.md)
+· (+148 notícias só manchete, em noticias.md)
 
