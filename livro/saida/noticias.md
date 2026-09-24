@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 24/09 08h29
+NOTÍCIAS E FATOS · 24/09 10h22
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 462 veículo fora da lista, 37 sem ativo, 45 teto) · cvm ok 0 novos de 8 (5 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 460 veículo fora da lista, 48 sem ativo, 25 teto) · cvm ok 1 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
 [ATENÇÃO] E03 · DIRR3 · Participação relevante: BlackRock passou a ter 5,08% em 18/09 (objetivo: só investimento)
 CVM · entregue 23/09/2026 09:50 · Aquisição/Alienação de Participação Acionária Relevante / Declaração de Aquisição de Participação Acionária Relevante
@@ -30,6 +30,15 @@ Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou , nesta data, o resgate de 70…'
 Fonte: CVM 22/09
 id: E03-AXIA3-1570292-2026-09-22 · status: expirado · íntegra disponível
+
+[INFO] E03 · MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 24/09/2026 09:31 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571066
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: MRVE3
+Como falar: 'a MRV publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 24/09
+id: E03-MRVE3-1571066-2026-09-24 · status: linha
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 23/09/2026 21:25 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -117,7 +126,38 @@ Fonte: SEC EDGAR 2026-09-22
 id: E04-BABA-26109625-2026-09-22 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · VALE3 · Vale recebe aval da Justiça para retomar mina suspensa após vazamento em MG
+Estadao · 24/09 09h20 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-recebe-aval-da-justica-para-retomar-mina-suspensa-apos-vazamento-em-mg/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Vale recebe aval da Justiça para retomar mina suspensa após vazamento em MG; confirmar o número no texto antes de repassar'
+Fonte: Estadao 24/09 09h20
+id: E05-VALE3-10a7c1284b-2026-09-24 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica após aval da Justiça
+Money Times · 24/09 08h40 · + InfoMoney, ADVFN · licença: integral
+Do texto:
+  – A operação possui capacidade atual de aproximadamente 2 milhões de toneladas de minério de ferro por ano e plano de expansão para 8 milhões de toneladas anuais.
+  – O projeto de expansão está previsto para entrar em operação em junho de 2028 e contempla nova planta de beneficiamento, obras de infraestrutura e a implantação de solução ferroviária.
+  – A transação também contempla a celebração de contrato de longo prazo para a compra exclusiva, pela Vale, de 100% do minério de ferro sinter feed produzido pela Ligga.
+Link: https://www.moneytimes.com.br/vale-vale3-inicia-retomada-parcial-de-operacoes-na-mina-de-fabrica-apos-aval-da-justica-lmrs/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Vale (VALE3) inicia retomada parcial de operações na Mina de Fábrica após aval da Justiça; confirmar o número no texto antes de repassar'
+Fonte: Money Times 24/09 08h40
+id: E05-VALE3-80acab581d-2026-09-24 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · BAC · BofA to Hire 1,000 Additional Apprentices and Invest $150 Million in Workforce Development across the U.S.
+TradingView (Reuters) · 24/09 08h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/prnewswire:56bb3734f7640:0-bofa-to-hire-1-000-additional-apprentices-and-invest-150-million-in-workforce-development-across-the-u-s/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BAC
+Como falar: 'saiu no TradingView (Reuters): BofA to Hire 1,000 Additional Apprentices and Invest $150 Million in Workforce Developmen…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 24/09 08h00
+id: E05-BAC-8d04bca33a-2026-09-24 · status: pendente
 
 [ATENÇÃO] E05 · UST · 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook
 Yahoo Finance · 24/09 06h50 · fonte única · licença: resumo
@@ -133,7 +173,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: UST
 Como falar: 'saiu no Yahoo Finance: 10-Year Treasury Yield Reaches 5.142% as Markets Reassess Fed Rate Outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 24/09 06h50
-id: E05-UST-b75a5406c7-2026-09-24 · status: pendente
+id: E05-UST-b75a5406c7-2026-09-24 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal
 TradingView (Reuters) · 24/09 04h15 · fonte única · licença: manchete
@@ -142,7 +182,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): Key facts: NVIDIA (NVDA) $96.2B; 92.5% DC; 25x dividend; China minimal; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 24/09 04h15
-id: E05-NVDA-5498c1ecc9-2026-09-24 · status: pendente
+id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · UBS BB reitera compra para ação da Petrobras e eleva preço-alvo
 CNN Brasil · 23/09 10h31 · fonte única · licença: resumo
@@ -155,7 +195,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: PETR4
 Como falar: 'saiu no CNN Brasil: UBS BB reitera compra para ação da Petrobras e eleva preço-alvo; confirmar o número no texto antes de repassar'
 Fonte: CNN Brasil 23/09 10h31
-id: E05-PETR4-c4a9f94f5a-2026-09-23 · status: expirado
+id: E05-PETR4-c4a9f94f5a-2026-09-23 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron earnings outlook: what to watch ahead of the September 30 report
 Investing.com · 23/09 06h20 · fonte única · licença: manchete
@@ -164,7 +204,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Investing.com: Micron earnings outlook: what to watch ahead of the September 30 report; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 23/09 06h20
-id: E05-MU-e903b46e6c-2026-09-23 · status: expirado
+id: E05-MU-e903b46e6c-2026-09-23 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
 Estadao · 23/09 15h32 · fonte única · licença: manchete
@@ -257,8 +297,23 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (55)
+## OUTRAS NOTÍCIAS (só manchete) (70)
 
+· LITE Lumentum president Yuen sells $1.42m in stock By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/lumentum-president-yuen-sells-142m-in-stock-93CH-4851872
+· BRENT Dólar sobe com petróleo em alta e juros dos EUA no radar dos investidores (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-sobe-com-petroleo-em-alta-e-juros-dos-eua-no-radar-dos-investidores.shtml
+· GOOGL SentinelOne Extends Wayfinder Threat Hunting's Continuous Coverage to AWS, Azure, and Google Cloud (Business Wire) https://www.businesswire.com/news/home/20260924339917/en/SentinelOne-Extends-Wayfinder-Threat-Huntings-Continuous-Coverage-to-AWS-Azure-and-Google-Cloud
+· AMD AMD CEO Shares Trump-Xi Expectations at IMPERIA Summit: NYSE Content Update (PR Newswire) https://www.prnewswire.com/news-releases/amd-ceo-shares-trump-xi-expectations-at-imperia-summit-nyse-content-update-302889273.html
+· USDBRL Dólar sobe ante real sob influência do exterior e antes de nova pesquisa (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/09/24/dolar-sobe-ante-real-sob-influencia-do-exterior-e-antes-de-nova-pesquisa.htm
+· VALE3 Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24) (Money Times) https://www.moneytimes.com.br/yduqs-yduq3-vale-vale3-oncoclinicas-e-outros-destaques-desta-quinta-feira-24-lmrs/
+· NVDA Nvidia Snaps 5-Day Winning Streak After $300 Million Insider Sale (Yahoo Finance) https://sg.finance.yahoo.com/news/nvidia-snaps-5-day-winning-124417060.html
+· USDBRL Dólar abre em alta com mercado repercutindo relatório de política monetária (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-24-setembro-2026/
+· UST Xi arrives in D.C., Treasury yields hit multiyear highs, McDonald's growth plan and more in Morning Squawk (CNBC) https://www.cnbc.com/2026/09/24/5-things-to-know-before-the-stock-market-opens.html
+· USDBRL Dólar hoje sobe em linha com exterior, com Trump-Xi e relatório do BC no radar (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-24092026/
+· USDBRL Ibovespa futuro cai com projeções do BC, cenário eleitoral e exterior; dólar sobe (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-24-9-26-lils/
+· USDBRL Dólar à vista sobe, em linha com o fortalecimento global da moeda americana (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/24/dolar-a-vista-sobe-em-linha-com-o-fortalecimento-global-da-moeda-americana.ghtml
+· AMD AMD's Six-Day Rally Finally Hits a Pause (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTl4SGNTUXNKWkFJZWU3Yjlabm1BaC04V2Z3T292S3BlNnkxS2VUMTZWQTBRR2NzZHhpazN3eW82RmpKZ1huQ3F1V2pydDRrVnFLWnNYaV9XM2FlN2FtNzFUVWVUckJ1ekRDck43U1E3TEs4allxNmh6X2x4S2lFeE01UXMxemNBU0VtSEZxWTljNHZ6bkZxUVRBLWRRcmxIQUE?oc=5
+· BRENT Dólar sobe a R$ 5,18, com petróleo e relatório de política monetária no dia (UOL Economia) https://news.google.com/rss/articles/CBMitAFBVV95cUxNNEpwUmVvQ203WWlCRjNxVndVcWFQQXh5bEExLXc2Q3JwWUl4N3BBVnpDU2JQY0QzNzNRczZ6TzNBdC1EdTdEUEJTckxwWkZ5dHp1V1dGalVSYTdmTHFGUGJDRUx4ZzFxbE1LTndJVTY3X2g1dDNtakI0OFdaVVFyMVlKNWdwelR4UUt0Q01MTGFBd0dWd2NkSG1zN3JNMG5fZGNJZThjVnZPVUJRMjU1Mmg1Zi0?oc=5
+· MU Micron's Memory Boom Is Showing Up in Prices (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxORmNnakE3NThvcjhTUUpWMEs0UUxmQWg3cjExWWxsdHdUSUs3Y0pabTIzR05WVGdPUmRMUkprVlNYdndvOERtdGZtRWUyLW9yVEZyOTR0dXRhNjZZSjJ4Mk10eWlUTHR6aUR6Uk50cW5zS0VadjBLdlNxUEpnTlpkckRlMGpXclFpWkZ0TFFfMnMyTVAyd1BGWVRxSFRNaUo2YUYyNVFKcw?oc=5
 · VALE3 Agenda de empresas: Afya e Yduqs assinam acordo de fusão; Vale retoma operação na Mina de Fábrica (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/24/agenda-de-empresas-afya-e-yduqs-assinam-acordo-de-fusao-vale-retoma-operacao-na-mina-de-fabrica.ghtml
 · VALE3 Momento B3: Log CP, Oncoclínicas, Vale, Hypera e os principais destaques desta quinta-feira (24) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-log-cp-oncoclinicas-vale-hypera-e-os-principais-destaques-desta-quinta-feira-24
 · BTC Bitcoin Drops as Rising Yields and Dollar Weigh on Crypto (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-24/bitcoin-btc-drops-as-rising-yields-and-dollar-weigh-on-crypto
@@ -304,13 +359,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · USDBRL Com dólar casado ainda sob pressão, BC anuncia novo leilão de linha (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/com-dolar-casado-ainda-sob-pressao-bc-anuncia-novo-leilao-de-linha-de-us-1-bi.ghtml
 · PLTR Palantir's CEO just sent a message Silicon Valley won't ignore (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantirs-ceo-just-sent-message-221700521.html
 · INTC Prediction: Intel Names a Major Outside Customer for Its Next Factory Process Before 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-intel-names-major-outside-220701284.html
-· USDBRL Ibovespa cai 0,86% com temor de inflação nos Estados Unidos; dólar sobe a R$ 5,17 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ibovespa-cai-086-com-temor-de-inflacao-nos-estados-unidos-dolar-sobe-a-r-517/
-· USDBRL R$ 4,50 ou R$ 5,80? O gatilho que vai definir o preço do dólar depois das eleições (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/r-450-ou-r-580-o-gatilho-que-vai-definir-o-preco-do-dolar-depois-das-eleicoes-ccgg/
-· UST Treasury Yields Spike on Rate-Hike Fears as Oil Climbs (Bloomberg) https://www.bloomberg.com/news/newsletters/2026-09-23/treasury-yields-spike-on-rate-hike-fears-as-oil-climbs
-· UST Gold slides as rate hike expectations boost Treasury yields to multiyear highs (GLD:NYSEARCA) (Seeking Alpha) https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUxwZTNjS3Bid1dSeVpCckhBQUoxd1FOdl9iMExfY01NenViQ0dyYjAwbHZkMnBySUk4aVdMTllOWHItWHdtbTFwbkRfZ1YtajFPa0Y2VmpuekJWREtVajFKdUVWMW0yem5EV2ZZUHVYdWpJSFJmSWN1dlVYOFd1NEFTTlM3NDZmQnhwYXRiSC1XYVVWVTZscHpIQjhXSFAyRU9DcHc5ZHV6d3NURko4VFNDWHFfdVE?oc=5
-· GOOGL S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes — AMZN, GOOGL, NFLX, SPCX, RKLB In Focus (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxQN3E5Mk5oS3NyQTZJRFlBQ093dlBwX1JvanFreVZnWDJTcWJSWlF4c2ZoSmc0Um1kM1o0Uk1SaW9DcjBOLTh1OWFJYThoV1ZoSmotVjVCYmt4Qk1UTlp1Y1dsWVlLSHpZTVBQRXFfZjB2MS1Tb3hjNVI1LXJiMnVLMTdmcF9GM0M5V1ZQR2tkOA?oc=5
-· SMAL11 Global Industrial apresenta plano de crescimento em conferência de small caps (Investing.com) https://news.google.com/rss/articles/CBMizAFBVV95cUxPVktNWlF3WnlOQUhaVDJFYnI4N2lCMnp4aGVMSzdlUkJZSFVvRHNtQXQtdlUybVRkbkVhdmI5UnFqdFh0RVgwRjByc1hIaXNBQnhJclVTVUFtMmNWN196S2xyaExib1JGd1QtUVJmbEtVWnA0SVlSS2ZaSG1VMkp4Vk01Ty1VZTltNXFKbU5EN09sUnZhNnNiRGMtejhXWGZISmlaN1dtRVBtSEh5emNIcUNXTU1ydWd2VGJ1X0ZLTWtVNmVmQW1OdklnQ1I?oc=5
-· UST Update: US Equity Indexes Retreat as Blockbuster Private Sector Growth Lifts Treasury Yields, Fed Rate-Increase Bets (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxOdlk2ZzBJbHQ5ZUYxVGxhcFM3RjJTUldPY2J3UEFCeGRaWm95THduSXp1MzA1WnVwMDQ5czFEMHhnRW5YVGpzbDhEZ3FhVlctM3RYaW9rZEJFazlVZUxyYWJoMVZ1NmFGWHlHaHJlVld2S1ZUT05xMWg2bHdPNEV5QXhqSVNQQjBFdFdkOWgzR0xmN3dONkxFZFJlclJoYXR3d2laag?oc=5
-· PLTR Palantir’s stock sees its highest close of the year, sealing a dramatic comeback (MarketWatch) https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ2ZIWm9ZSDlHX1Vsa1MyRjliWi14am1ZbkV0SkdaUU8yellIR3VHTzl2N2k5Z1l4dHpsZ2ExRkktYWU5aGNSbWVQSTBMb3pUYzFMdnhDT2xVYzIwS2NRTE1IZWdnWDlpbnF3QVRrTTEzVXBCcVd6MlEwSXpPdUFta2swS1BKbUdhTDFBVTdFMkcxSV9NWXA2ZlVydWpYUk1JYjBCc0EtUUlOSEMwMUI0N2stQVAycExBNzY4c1BNUmVyS0dQ?oc=5
-· MU Top Research Reports for Micron, Costco & Interactive Brokers (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2JRTFdQaHBXeWgxNXJfMGJoUzhHVEVsUk1ZUXVSMXpFYVFlX1VsUHIxS3dnQjRfdVRpcnhLVDd0SHJXZE9VNUQxLS1aVXV5TTc1aUdrdjVSZGZhQUp2bEJFZ2R5c3FJN0JrbE9oR0lDMFJIY3R5WXlRd29PM2FLemRhNjFuVXFVeFZv?oc=5
-· UST The 10-Year Treasury Is Back Above 5%. Here Comes the Pain. (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTJYaDZCTHlIM3RRRWJCTmxucklFZklGNnVpVlN3dEp5NXZYT3BsSWV6cTJSenpNSDNjT1FPbC1qbFlrekdSS3RoOHM1Zk1pWEpCelB3d1ZqY3hKbHlzTzlZdjRJa1hqbHJkZHlxVWJFdDA5Yy0yQ3REV29QMGNmdXFKckJXdTUyV2E1STIyaWM3Mms?oc=5
+· (+10 manchetes; lista completa em eventos/noticias.json)
