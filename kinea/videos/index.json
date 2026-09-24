@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-09-24T01:53:22Z",
+ "gerado_em": "2026-09-24T02:05:10Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
- "fora_do_tema": 4,
+ "fora_do_tema": 0,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
   {
@@ -13,7 +13,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zYBbPDmHp70: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "tpHBNW5ZLCc",
@@ -23,7 +23,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] tpHBNW5ZLCc: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "2kiNjyZxmq0",
@@ -33,7 +33,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2kiNjyZxmq0: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "kvh6MnqHKAY",
@@ -43,7 +43,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] kvh6MnqHKAY: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "wAhbls4vkoo",
@@ -53,7 +53,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] wAhbls4vkoo: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "514VxHdelNQ",
@@ -63,11 +63,10 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token)"
+   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 514VxHdelNQ: Faça login para confirmar que você não é um bot"
   }
  ],
  "log": [
-  "rss: RuntimeError: HTTP 404",
   "parei em VhHDQtDG2S0: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }
