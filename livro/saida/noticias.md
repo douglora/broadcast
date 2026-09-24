@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 15h21
+NOTÍCIAS E FATOS · 24/09 16h21
 
-Pernas: noticias ok 4 novas (18 consultas; descartadas: 435 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 463 veículo fora da lista, 54 sem ativo, 12 teto) · cvm ok 0 novos de 9 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (9)
 
@@ -338,8 +338,22 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (136)
+## OUTRAS NOTÍCIAS (só manchete) (150)
 
+· BABA Alibaba Group Holding Limited (BABA) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit (PR Newswire) https://www.prnewswire.com/news-releases/alibaba-group-holding-limited-baba-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302888770.html
+· PETR4 Petrobras garante diesel para outubro e amplia produção diante de risco de importações (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-garante-diesel-para-outubro-e-amplia-producao-diante-de-risco-de-importacoes
+· MELI34 Mercado Livre anuncia entrega em até 1 hora em SP e venda de remédios com receita (InfoMoney) https://www.infomoney.com.br/business/mercado-livre-anuncia-entrega-em-ate-1-hora-em-sp-e-venda-de-remedios-com-receita/
+· PETR4 Petrobras conversa com Exxon sobre licença de blocos na Margem Equatorial (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-conversa-com-exxon-para-pedido-de-licenca-nos-blocos-em-parceria-na-foz-diz-diretora/
+· UST Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed (CNBC) https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html
+· USDBRL Ouro fecha em queda com avanço dos juros dos Treasuries e do dólar (CNN Brasil) https://www.cnnbrasil.com.br/economia/ouro-fecha-em-queda-com-avanco-dos-juros-dos-treasuries-e-do-dolar/
+· MELI34 Mercado Livre vai vender medicamento com receita — incluindo Ozempic (Exame) https://exame.com/invest/mercados/mercado-livre-vai-vender-medicamento-com-receita-incluindo-ozempic/
+· NVDA Former OpenAI data center chief Chris Malone is now at Nvidia - The Information (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45G157:0-former-openai-data-center-chief-chris-malone-is-now-at-nvidia-the-information/
+· PETR4 ‘Não há por que falar em injeção de recursos na Braskem’, diz presidente da Petrobras (Estadao) https://www.estadao.com.br/economia/negocios/nao-ha-por-que-falar-em-injecao-de-recursos-na-braskem-diz-presidente-da-petrobras/
+· MU EXCLUSIVE: Micron’s Low P/E May Be Lying to Investors (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3daa1c902094b:0-exclusive-micron-s-low-p-e-may-be-lying-to-investors/
+· GOOGL Alphabet Drops Below $350: Buying Opportunity or the Start of Something Worse? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-drops-below-350-buying-170833426.html
+· BRENT Brent Climbs Above $107 After Houthi Attack Against Saudi Arabia Sites (The Wall Street Journal) https://www.wsj.com/finance/commodities-futures/oil-falls-on-larger-than-expected-build-in-u-s-inventories-12eb501b
+· UST U.S. Treasury Yields Hit Multiyear Highs on Economic Data, Fed Rate-Boost Expectations (The Wall Street Journal) https://news.google.com/rss/articles/CBMikAFBVV95cUxObTFzZ3lYSmd4bGVKQk5TLXBfM3ZvRUtoM04xcXJfOHl2Z21ReW0wNjM4N3RXS00xZ2dGS082ZW1CQ1dtMzF4MXpKUFYxUUZ5ZWxxUkdDLWVQYjEtQlVTSm5tdzdFZGFrVVp4RHFvTzlVcENLc1FmXzRQYVhtU2psTXpMWDJlZXBOZ0FFTzhJV3k?oc=5
+· UST Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know (CNBC) https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTdZbFM4VjNCY2xYWXU3dnFoMGlIMEF0YW8xTm1sNElsbTlXVzBxTEkwOW5Tek1pZ0Jrdk45SHVBU19LVU1XdVVjSF96VGVZQXhXc0thQVJ4QmxqMDFKLXdoek01aXZnek9zMUZzMlZKSi1sb1o4MzdXcVZtWHZuUWQwSV9YQ2lZbGo0ZzVB0gGTAUFVX3lxTE14VmR6d2JuQ1gtMGx6dTlXMWNPd0wweUZOVkpJT1VrSjJ4Nlc4ZTdJbXlpdE5ucWlyZUdLZEU1OVhxUzlDWTZrajV1Nzd4OG1lQ1V0YkppakNKYTMxV0czcmlJaDFqT0hEMmt5ZHkyUHpsLXBvSjBuOEJ0RHBpLWZYdXdEdWx2bnE3YnFGTHBsN0RoVQ?oc=5
 · BBDC4 Cogna perde força no radar do Bradesco BBI e outra ação de educação ganha vantagem (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/cogna-perde-forca-no-radar-do-bradesco-bbi-e-outra-acao-de-educacao-ganha-vantagem/
 · PETR4 Petrobras descarta ampliar participação na Braskem e diz que aporte cabe a todos os acionistas (eixos) https://eixos.com.br/empresas/petrobras-descarta-ampliar-participacao-na-braskem-e-diz-que-aporte-cabe-a-todos-os-acionistas/
 · BTC Bitcoin Bets Go Into Overdrive As MSTR, Leveraged ETFs Surge (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:6dfdc0223094b:0-bitcoin-bets-go-into-overdrive-as-mstr-leveraged-etfs-surge/
@@ -386,18 +400,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · MU 3 things Micron investors need to watch as the stakes get higher (MarketWatch) https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e
 · PETR4 Petrobras diz que próximo plano de negócios 2027-2031 terá grande foco em transição energética (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/24/petrobras-diz-que-proximo-plano-de-negocios-2027-2031-tera-grande-foco-em-transicao-energetica.ghtml
 · TSLA UBS maintains Tesla stock neutral rating ahead of Q3 deliveries (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-maintains-tesla-stock-neutral-rating-ahead-of-q3-deliveries-93CH-4915654
-· INTC TD Cowen reiterates Intel stock rating on foundry progress view (Investing.com) https://in.investing.com/news/stock-market-news/td-cowen-reiterates-intel-stock-rating-on-foundry-progress-view-93CH-5605293
-· NVDA NVIDIA's $279B Supply Commitments: Can These Secure Its Growth Runway? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nvidias-279b-supply-commitments-secure-134100685.html
-· USDBRL Tempo real: Ibovespa cai com exterior e eleições no radar; dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-24-9-26-apsa-lils/
-· GOOGL Alphabet Or Meta: Whose AI Build Would You Rather Fund? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/alphabet-meta-whose-ai-build-131430107.html
-· BTC Bullish clears longest-dated bitcoin options trade expiring in 2028 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:7b6e5c86d094b:0-bullish-clears-longest-dated-bitcoin-options-trade-expiring-in-2028/
-· ETH Tom Lee Agrees Ethereum 5-Year Consolidation Is the Launchpad for a Mega Price Rally (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/tom-lee-agrees-ethereum-5-125230869.html
-· VALE3 Yduqs (YDUQ3), Vale (VALE3), Oncoclínicas (ONCO3) e outros destaques desta quinta-feira (24) (Money Times) https://news.google.com/rss/articles/CBMisgFBVV95cUxORTc2R3IwclVyanBVQ2pzZ1dLcW5rMGhES3l3T19xMWh0a2JvckpSWTYwSEkyLWxZTmpZNG1zX1Q5d1FnNmF2UkdUMURUcUx4UjZxOGlkbnpYeUR5UW9uZXpOeWpIZkJFUzNnNnZ1Wjd5XzhsX2dleGhYQWp6cGxoZ29TaWo1V0NiWm5CeVlyMDRDMWxRN05jTGFTbnpxM3BrckFwSk1ySmRXN2FwN0ZHQTVn?oc=5
-· ETH Current price of Ethereum for September 24, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-24-2026/
-· BTC Current price of Bitcoin for September 24, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-24-2026/
-· GOOGL Alphabet: The Gemini-Cloud Divergence Hides A $1 Trillion Opportunity (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949414-alphabet-the-gemini-cloud-divergence-hides-a-1-trillion-opportunity
-· NVDA Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-leads-tech-stocks-lower-as-treasury-yields-surge-alphacheck-133744347.html
-· AMD AMD: The AI Spending Cycle Could Hit A Wall (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949407-amd-the-ai-spending-cycle-could-hit-a-wall
-· BTC Teucrium Commodity Trust resumes accepting redemptions for 7RCC Spot Bitcoin and Carbon Credit Futures ETF (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:bf0df3d6a66c2:0-teucrium-commodity-trust-resumes-accepting-redemptions-for-7rcc-spot-bitcoin-and-carbon-credit-futures-etf/
-· BRENT Update: Rising Treasury Yields, Oil Prices Drag Down US Equity Futures Pre-Bell (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/rising-treasury-yields-oil-prices-130200426.html
-· (+76 manchetes; lista completa em eventos/noticias.json)
+· (+90 manchetes; lista completa em eventos/noticias.json)
