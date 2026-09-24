@@ -201,6 +201,7 @@ ativos:
   - {id: RARA11, nome: "Investo Terras Raras e Metais Estrategicos (feeder do REMX)", apelido: TerrasRaras, bloco: br, classe: etf, yahoo: RARA11.SA, moeda: BRL, mercado: B3, benchmark: IBOV, banda_mm: 0.015, piso_retorno: 0.03, o_que_negocia: "Primeiro ETF de terras raras da B3 (Investo); replica o REMX, taxa 0,5% a.a.", sem_pregao_diario: true, nota: "Estreou em 26/06/2026: janelas de 6 meses, 1 ano e no ano ficam vazias ate completar historico. RARA11 = REMX x USD/BRL. Pouco liquido (44 pregoes com negocio nos primeiros 60), entao dia sem barra e normal e nao conta como falha de coleta."}
   - {id: DIRR3, nome: "Direcional Engenharia ON", apelido: Direc, bloco: br, classe: acao, yahoo: DIRR3.SA, moeda: BRL, mercado: B3, benchmark: IBOV}
   - {id: MRVE3, nome: "MRV ON", apelido: MRV, bloco: br, classe: acao, yahoo: MRVE3.SA, moeda: BRL, mercado: B3, benchmark: IBOV}
+  - {id: CURY3, nome: "Cury Construtora e Incorporadora ON", apelido: Cury, bloco: br, classe: acao, yahoo: CURY3.SA, moeda: BRL, mercado: B3, benchmark: IBOV, o_que_negocia: "Incorporadora de baixa renda (Minha Casa Minha Vida faixas 3 e 4) em Sao Paulo e Rio; controle compartilhado entre a familia Cury e a Cyrela."}
 
   # ---------------- Macro (cambio, commodities, cripto) ----------------
   - {id: USDBRL, nome: "Dolar/Real (spot)", apelido: USD/BRL, bloco: macro, classe: fx, yahoo: "USDBRL=X", moeda: BRL, mercado: FX, benchmark: DXY, banda_mm: 0.003, piso_sigma: 0.004, piso_retorno: 0.007, decimais: 4}
@@ -252,6 +253,7 @@ pares:
   - {a: IGV, b: XLK, tipo: etf_etf}
   - {a: BOTZ, b: SOX, tipo: etf_indice}
   - {a: META, b: GOOGL, tipo: pares_setor}
+  - {a: CURY3, b: DIRR3, tipo: pares_setor}
   - {a: RARA11, b: REMX, tipo: feeder_fundo}
   - {a: RARA11, b: USDBRL, tipo: feeder_cambio}
   - {a: WQTM, b: WQTMUS, tipo: ucits_vs_eua}
