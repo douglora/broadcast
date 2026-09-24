@@ -46,7 +46,9 @@
       "WebFetch(domain:api.github.com)",
       "Read",
       "Glob",
-      "Grep"
+      "Grep",
+      "Bash(python3 -m livro.portao:*)",
+      "Bash(python3 -m livro.portao)"
     ],
     "deny": [
       "Bash(git push origin dados:*)",

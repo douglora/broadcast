@@ -9,6 +9,7 @@ import math
 import pandas as pd
 
 from livro import fmt
+from livro import qualidade as qa
 from livro import indicadores as ind
 from livro.sinais.base import Alerta, Contexto, Estado, Regra
 
@@ -342,6 +343,11 @@ class T13Regime(Regra):
     familia = "regime"
 
     def _var(self, ctx, id_, n=1):
+        # componente so conta com dia de verdade: em 23/09 o placar leu "DXY +0,7%"
+        # (dois pregoes, sem 22/09) e o dolar com o fechamento da vespera
+        if id_ in ctx.series_info and not qa.dia_valido(ctx.series_info.get(id_)):
+            self._fora.append(id_)
+            return None
         df = ctx.series.get(id_)
         if df is None or len(df) < n + 1:
             return None
@@ -350,13 +356,25 @@ class T13Regime(Regra):
     def avaliar(self, ctx, estado):
         L = ctx.limiares.get("T13_REGIME") or {}
         comp = L.get("componentes") or {}
+        self._fora = []
         vix_df = ctx.series.get("VIX")
         vix = float(vix_df["close"].iloc[-1]) if vix_df is not None and len(vix_df) else None
         vix_ant = float(vix_df["close"].iloc[-2]) if vix_df is not None and len(vix_df) > 1 else None
+        # sem a barra de D-1 a "variacao do dia" do VIX cobre dois pregoes: o nivel vale,
+        # a variacao e o cruzamento de degrau nao
+        if "VIX" in ctx.series_info and not qa.dia_valido(ctx.series_info.get("VIX")):
+            vix_ant = None
+            self._fora.append("VIX (variação)")
         vix_var = (vix / vix_ant - 1.0) if vix and vix_ant else None
         dxy = self._var(ctx, "DXY")
         brl = self._var(ctx, "USDBRL")
         btc = self._var(ctx, "BTC")
+        if btc is None and ((ctx.series_info.get("BTC") or {}).get("qualidade") or {}).get("parcial"):
+            # no fechamento das 18h o dia UTC do BTC ainda nao acabou: usa o ultimo dia fechado
+            df = ctx.series.get("BTC")
+            if df is not None and len(df) > 2:
+                btc = float(df["close"].iloc[-2] / df["close"].iloc[-3] - 1.0)
+                self._fora = [x for x in self._fora if x != "BTC"]
         ust10 = (ctx.curvas.get("ust") or {}).get("delta_bps", {}).get("10y")
         f35 = (ctx.curvas.get("di") or {}).get("delta_bps", {}).get("DI1F35")
         pontos = 0
@@ -391,7 +409,9 @@ class T13Regime(Regra):
             if v20 and v252 and v20 >= rv.get("razao_vol", 1.5) * v252:
                 n_vol += 1
         regime_vol = bool((vix is not None and vix >= rv.get("vix_minimo", 25)) or n_vol >= rv.get("ativos_minimos", 5))
+        avaliados = sum(x is not None for x in (vix, dxy, ust10, brl, f35, btc))
         ctx.regime = {"vix": vix, "vix_var": vix_var, "score": pontos, "detalhes": detalhes, "regime_vol": regime_vol,
+                      "avaliados": avaliados, "fora": list(self._fora),
                       "ativos_vol_alta": n_vol, "acrescimo_sigma": rv.get("acrescimo_sigma", 0.5) if regime_vol else 0.0}
         out = []
         hoje = ctx.hoje.isoformat()
@@ -415,7 +435,7 @@ class T13Regime(Regra):
             if st.get("score_data") != hoje:
                 sev = "critico" if pontos >= 6 else "atencao"
                 out.append(Alerta(self.id, "MERCADO", sev, "regime",
-                                  f"Dia de risk-off ({pontos}/6): " + " · ".join(detalhes), tag=f"score{pontos}", data=hoje,
+                                  f"Dia de risk-off ({pontos} de {avaliados}): " + " · ".join(detalhes), tag=f"score{pontos}", data=hoje,
                                   por_que="todos os canais de aversão ligados ao mesmo tempo: é venda de ativo de risco, não notícia setorial",
                                   como_falar="o dia foi de mercado, não de empresa; a carteira caiu junto com tudo",
                                   fonte=f"Yahoo, B3, Treasury.gov, fech. {fmt.data_br(hoje)}", dados={"score": pontos}))

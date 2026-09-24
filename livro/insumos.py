@@ -73,7 +73,9 @@ def por_bloco(universo, janelas: dict) -> list[dict]:
             continue
         linha = {"id": b["id"], "titulo": b["titulo"], "n": len(ativos)}
         for k in ("dia", "1m", "3m", "ytd"):
-            vs = sorted(v for v in (janelas[a.id].get(k) for a in ativos) if v is not None)
+            # mediana do DIA so com quem tem dia de verdade (um pregao, dado confirmado)
+            vs = sorted(v for v in (janelas[a.id].get(k) for a in ativos
+                                    if k != "dia" or janelas[a.id].get("dia_confirmado", True)) if v is not None)
             if vs:
                 meio = len(vs) // 2
                 linha[k] = vs[meio] if len(vs) % 2 else (vs[meio - 1] + vs[meio]) / 2

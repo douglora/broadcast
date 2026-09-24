@@ -88,6 +88,24 @@ def retorno_em(df, dias: int, ate: date | None = None, col: str = "adj"):
     return float(ultimo[col] / ref[col] - 1)
 
 
+def retorno_longo(df_longo, df_diario, dias: int, ate: date | None = None, col: str = "adj"):
+    """Janela longa (5 anos) com a base na serie SEMANAL e o numerador na ultima barra
+    DIARIA ate `ate`. A semanal da semana corrente pode ser um toco (em 23/09 a
+    semanal do Brent era a sessao seguinte, 97,83); a diaria ja passou pelo portao."""
+    if df_longo is None or len(df_longo) == 0 or df_diario is None or len(df_diario) == 0:
+        return None
+    d = df_diario.loc[:pd.Timestamp(ate)] if ate is not None else df_diario
+    if len(d) == 0:
+        return None
+    fim = d.index[-1]
+    ref = _ref(df_longo, fim - pd.Timedelta(days=dias))
+    if ref is None or not ref[col]:
+        return None
+    if df_longo.index[0] > fim - pd.Timedelta(days=dias * 0.9):
+        return None
+    return float(d[col].iloc[-1] / ref[col] - 1)
+
+
 # ---------------------------------------------------------------- tecnicos
 def mm(s: pd.Series, n: int) -> pd.Series:
     return s.rolling(n, min_periods=n).mean()

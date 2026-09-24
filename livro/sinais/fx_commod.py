@@ -5,6 +5,7 @@ from __future__ import annotations
 import math
 
 from livro import fmt
+from livro import qualidade as qa
 from livro import indicadores as ind
 from livro.sinais.base import Alerta, Contexto, Estado, Regra
 
@@ -138,16 +139,21 @@ class F03Brent(Regra):
         titulo = f"Brent {'sobe' if r and r > 0 else 'cai'} a US$ {fmt.num(close)} ({' · '.join(gatilhos[:3])})"
         corpo = []
         brl = ctx.series.get("USDBRL")
-        if brl is not None and len(brl) > 1:
+        # "em reais" e "no dia" dos pares so com dado confirmado e do mesmo pregao
+        # (23/09: o dolar estava parado na vespera e o CVX cobria dois pregoes)
+        df_b = ctx.series.get("BRENT")
+        data_b = df_b.index[-1] if df_b is not None and len(df_b) else None
+        if (brl is not None and len(brl) > 1 and qa.dia_valido(ctx.series_info.get("USDBRL"))
+                and data_b is not None and brl.index[-1] == data_b):
             em_reais = close * float(brl["close"].iloc[-1])
             ant_reais = ant * float(brl["close"].iloc[-2])
             corpo.append(f"Em reais: R$ {fmt.num(em_reais, 0)}/barril ({fmt.pct(em_reais / ant_reais - 1)})")
         for ativo in ("PETR4", "CVX", "UGPA3"):
             d = ctx.series.get(ativo)
             v = _var(d)
-            if v is not None:
+            if v is not None and qa.dia_valido(ctx.series_info.get(ativo)):
                 corpo.append(f"{ativo} {fmt.pct(v)} no dia")
-        por_que = ("queda do barril reduz receita de exportação e paridade de importação; PETR4 tende a cair menos pela política de preços" if r and r < 0
+        por_que = ("barril mais barato reduz a receita em dólar das produtoras e alivia a inflação via combustíveis" if r and r < 0
                    else "barril mais caro amplia receita em dólar das produtoras e pressiona o IPCA via combustíveis")
         falar = ("o petróleo caiu forte; para a Petrobras o efeito é diluído pela política de preços" if r and r < 0
                  else "o petróleo subiu: bom para Petrobras e Chevron, ruim para inflação e para a Ultrapar")

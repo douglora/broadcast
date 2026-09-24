@@ -13,6 +13,8 @@ import re
 from datetime import date
 
 from livro import fmt
+from livro import qualidade as qa
+from livro import atribuicao
 
 MARCADOR_LEITURA = "[[LEITURA_DA_MESA]]"
 
@@ -179,6 +181,13 @@ td.dia .v{position:relative;}
 .rodape .lacuna b{color:var(--atencao);}
 .alerta-nota{border-left:2px solid var(--atencao);padding-left:10px;}
 .aviso{font-size:11.5px;font-style:italic;color:var(--fraco);margin-top:14px;}
+.atraso.evento{color:var(--mesa);margin-left:4px;}
+.correcao{background:#8C1C13;color:#fff;padding:14px 18px;border-radius:6px;font-weight:600;line-height:1.45}
+.correcao span{display:block;font-weight:400;opacity:.93;margin-top:4px;font-size:.93em}
+.errado{display:inline-block;font-size:9.5px;color:#fff;background:var(--baixa);border-radius:2px;padding:1px 5px;margin-top:4px;letter-spacing:.04em;text-transform:uppercase}
+.mv .ctx{display:block;font-size:10.5px;font-weight:400;color:var(--fraco);white-space:normal;}
+td.txt{font-size:13px;color:var(--meio);text-align:left;white-space:normal;padding:7px 10px;min-width:18ch;}
+td.grau{font-family:var(--mono);font-size:11px;min-width:9ch;}
 
 @media (max-width:620px){
   body{padding-inline:14px;padding-block:18px 36px;}
@@ -229,20 +238,27 @@ def nome_curto(a) -> str:
 
 
 def _linha_ativo(a, j: dict, info: dict) -> str:
-    dia = j.get("dia")
+    # mesmo vocabulario do card (livro/qualidade.py): "dia dd/mm", "2 pregões",
+    # "parcial", "D-1", ou "dado a confirmar" sem numero
+    rot, ocultar = qa.marcador(j, info)
+    dia = None if ocultar else j.get("dia")
     atraso = ""
-    if info.get("esperado_hoje") and not info.get("fresco", True):
-        atraso = (f'<span class="atraso" title="sem barra de {_e(fmt.data_br(info.get("esperado")))}'
-                  f' — ultima {_e(fmt.data_br(j.get("data")))}">dia {_e(fmt.data_br(j.get("data")))}</span>')
+    if rot:
+        motivos = "; ".join(((info.get("qualidade") or {}).get("motivos") or [])[:2])
+        titulo = motivos or ("minério CME liquida com um pregão de atraso" if rot.startswith("D-1")
+                             else f"sem barra de {fmt.data_br(info.get('esperado'))} — ultima {fmt.data_br(j.get('data'))}")
+        atraso = f'<span class="atraso" title="{_e(titulo)}">{_e(rot)}</span>'
     nome = f'<span class="nm">{_e(nome_curto(a))}</span>' if a.nome and a.nome != a.apelido else ""
+    for x in (j.get("extremo_52s"), j.get("proximo_evento")):
+        if x:
+            atraso += f'<span class="atraso evento">{_e(x)}</span>'
     return (
         "<tr>"
         f'<th scope="row"><span class="tk">{_e(a.id)}</span>{nome}{atraso}</th>'
-        f'<td class="n ult">{_e(fmt.preco(j.get("ultimo"), a.decimais))}</td>'
+        f'<td class="n ult">{"a confirmar" if ocultar else _e(fmt.preco(j.get("ultimo"), a.decimais))}</td>'
         f'<td class="n dia {_sinal(dia)}"><span class="barra" style="--w:{_larg(dia)}%"></span>'
-        f'<span class="v">{_e(fmt.pct(dia))}</span></td>'
-        + _cel(j.get("1s")) + _cel(j.get("1m")) + _cel(j.get("3m"))
-        + _cel(j.get("6m")) + _cel(j.get("1a")) + _cel(j.get("ytd")) + _cel(j.get("5a")) +
+        f'<span class="v">{"a confirmar" if ocultar else _e(fmt.pct(dia))}</span></td>'
+        + "".join(_cel(None if ocultar else j.get(k)) for k in ("1s", "1m", "3m", "6m", "1a", "ytd", "5a")) +
         "</tr>"
     )
 
@@ -254,7 +270,8 @@ def _cartao_bloco(universo, bloco: dict, janelas: dict, series_info: dict) -> st
     linhas = "".join(_linha_ativo(a, janelas[a.id], series_info.get(a.id) or {}) for a in ativos)
     # como o bloco andou: a mediana resiste ao ativo que disparou sozinho, que e o
     # que se quer saber antes de descer linha a linha
-    dias = sorted(j for j in (janelas[a.id].get("dia") for a in ativos) if j is not None)
+    dias = sorted(j for j in (janelas[a.id].get("dia") for a in ativos
+                              if janelas[a.id].get("dia_confirmado", True)) if j is not None)
     if dias:
         meio = len(dias) // 2
         m = dias[meio] if len(dias) % 2 else (dias[meio - 1] + dias[meio]) / 2
@@ -348,7 +365,9 @@ def _cartao_curvas(ins: dict) -> str:
                 txt += f" · Focus IPCA {foc.get('ano')} {fmt.taxa(foc['mediana'])}%"
             nota = f'<p class="nota">{_e(txt)}</p>'
         base = fmt.data_br(ins.get("tesouro_base")) if ins.get("tesouro_base") else ""
-        partes.append(f'<div class="curva"><h3>Tesouro Direto <span class="quando">base {_e(base)}</span></h3>'
+        ant = fmt.data_br(ins.get("tesouro_base_anterior")) if ins.get("tesouro_base_anterior") else ""
+        quando = f"base {base}" + (f" · Δ desde {ant}" if ant else "")
+        partes.append(f'<div class="curva"><h3>Tesouro Direto <span class="quando">{_e(quando)}</span></h3>'
                       f'<div class="chips">{chips}</div>{nota}</div>')
     ust = ins.get("ust") or {}
     if ust.get("10y") is not None:
@@ -366,7 +385,7 @@ def _cartao_curvas(ins: dict) -> str:
         itens = []
         if vix is not None:
             itens.append(f'VIX {fmt.num(vix, 1)} ({fmt.pct(reg.get("vix_var"))})')
-        itens.append(f'score de risco {reg.get("score", 0)}/6')
+        itens.append(f'score de risco {reg.get("score", 0)} de {reg.get("avaliados", 6)}')
         if reg.get("regime_vol"):
             itens.append("regime de vol LIGADO")
         partes.append(f'<div class="curva regime"><h3>Regime</h3><p class="nota">{_e(" · ".join(itens))}</p></div>')
@@ -474,15 +493,75 @@ def _cartao_agenda(agenda_l: list[str]) -> str:
             f'<ul class="lista-agenda">{"".join(itens)}</ul></section>')
 
 
-def _cartao_movers(movers: dict) -> str:
+def _cartao_movers(movers: dict, janelas: dict | None = None) -> str:
+    janelas = janelas or {}
+
     def lado(chave: str, titulo: str) -> str:
         itens = movers.get(chave) or []
         if not itens:
             return ""
-        chips = "".join(f'<span class="mv {_sinal(v)}"><b>{_e(i)}</b>{_e(fmt.pct(v))}</span>' for i, v in itens)
+        def chip(i, v):
+            ctx = atribuicao.contexto_curto(janelas.get(i) or {})
+            return (f'<span class="mv {_sinal(v)}"><b>{_e(i)}</b>{_e(fmt.pct(v))}'
+                    + (f'<small class="ctx">{_e(ctx)}</small>' if ctx else "") + "</span>")
+        chips = "".join(chip(i, v) for i, v in itens)
         return f'<div class="lado"><h3>{_e(titulo)}</h3><div class="mvs">{chips}</div></div>'
     corpo = lado("altas", "Maiores altas") + lado("baixas", "Maiores baixas")
     return f'<section class="cartao largo movers">{corpo}</section>' if corpo else ""
+
+
+def _cartao_por_que(ins: dict) -> str:
+    itens = ins.get("por_que_mexeu") or []
+    if not itens:
+        return ""
+    linhas = "".join(
+        f'<tr><th scope="row"><span class="tk">{_e(x["id"])}</span></th>'
+        f'<td class="n dia {_sinal(x["dia"])}"><span class="v">{_e(fmt.pct(x["dia"]))}</span></td>'
+        f'<td class="txt">{_e(x["explicacao"])}</td><td class="txt grau">{_e(x["grau"])}</td></tr>' for x in itens)
+    return ('<section class="cartao largo porque-mexeu"><h2>Por que mexeu<span class="conta">camadas que o dado sustenta, '
+            'sem somar efeitos</span></h2><div class="rolagem"><table><thead><tr><th scope="col">Ativo</th>'
+            '<th scope="col">dia</th><th scope="col">explicação</th><th scope="col">grau</th></tr></thead>'
+            f'<tbody>{linhas}</tbody></table></div></section>')
+
+
+def _cartao_setores(ins: dict) -> str:
+    setores = ins.get("setores") or []
+    if not setores:
+        return ""
+    def destoou(c):
+        d = c["destoou"]
+        return f"destoou: {d['id']} {fmt.pct(d['dia'])}" if d else "ninguém destoou"
+    # 3 colunas: quem destoou vai dentro da celula do setor (no celular nao rola de lado)
+    linhas = "".join(
+        f'<tr><th scope="row">{_e(c["titulo"])}<span class="nm">{_e(" · ".join(x for x in (c.get("fator"), destoou(c)) if x))}</span></th>'
+        f'<td class="n dia {_sinal(c["mediana"])}"><span class="v">{_e(fmt.pct(c["mediana"]))}</span></td>'
+        f'<td class="n">{c["subiram"]}/{c["cairam"]}</td></tr>'
+        for c in setores)
+    return ('<section class="cartao largo setores"><h2>Setores do dia<span class="conta">o setor todo andou ou só o papel?</span></h2>'
+            '<div class="rolagem"><table><thead><tr><th scope="col">Setor</th><th scope="col">mediana</th>'
+            '<th scope="col">subiram/caíram</th></tr></thead>'
+            f'<tbody>{linhas}</tbody></table></div></section>')
+
+
+def _faixa_correcoes(ins: dict) -> str:
+    itens = ins.get("correcoes") or []
+    if not itens:
+        return ""
+    linhas = "".join(f"<span>{_e(c['texto'])}</span>" for c in itens)
+    return f'<div class="correcao">Correção de alertas já enviados{linhas}</div>'
+
+
+def _nota_brent_reais(ins: dict) -> str:
+    b = ins.get("brent_reais") or {}
+    if not b:
+        return ""
+    if b.get("a_confirmar"):
+        return f'<p class="nota"><b>Brent em reais:</b> a confirmar ({_e(b["a_confirmar"])} sem fechamento confirmado).</p>'
+    partes = [f"R$ {fmt.num(b['valor'], 2)} por barril"]
+    for k, rot in (("dia", "dia"), ("1m", "1 mês"), ("ytd", "no ano")):
+        if b.get(k) is not None:
+            partes.append(f"{rot} {fmt.pct(b[k])}")
+    return f'<p class="nota"><b>Brent em reais:</b> {_e(" · ".join(partes))} (1º vencimento × dólar).</p>'
 
 
 def _rodape(universo, relogios_txt: str, lacunas: list[str], notas: list[str], fontes: list[str]) -> str:
@@ -516,8 +595,14 @@ def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, ja
            em_dolar: dict | None = None) -> str:
     """HTML completo do painel. O marcador da Leitura da Mesa fica para a sessao."""
     rotulo = {"manha": "Manhã do livro", "intradia": "O livro agora"}.get(slot, "Fechamento do livro")
-    cartoes = "".join(_cartao_bloco(universo, b, janelas, series_info) for b in universo.blocos)
+    cartoes = ""
+    for b in universo.blocos:
+        c = _cartao_bloco(universo, b, janelas, series_info)
+        if c and b["id"] == "macro" and _nota_brent_reais(ins):
+            c = c.replace("</section>", _nota_brent_reais(ins) + "</section>", 1) if c.endswith("</section>") else c + _nota_brent_reais(ins)
+        cartoes += c
     corpo = (
+        _faixa_correcoes(ins) +
         f'<header class="topo"><div class="faixa">'
         f'<span class="marca">Livro monitorado</span>'
         f'<span class="quando">{_e(fmt.dia_semana(hoje))} {_e(fmt.data_br(hoje.isoformat(), True))}</span>'
@@ -526,8 +611,10 @@ def pagina(universo, hoje: date, slot: str, hora_txt: str, relogios_txt: str, ja
         f'<h1>{_e(rotulo)}</h1></header>'
         f'<section class="cartao largo leitura"><h2>Leitura da mesa</h2>'
         f'<div class="texto-leitura">{MARCADOR_LEITURA}</div></section>'
-        + _cartao_movers(movers)
+        + _cartao_movers(movers, janelas)
+        + _cartao_por_que(ins)
         + _cartao_alertas(do_dia)
+        + _cartao_setores(ins)
         + f'<div class="grade">{cartoes}</div>'
         + _cartao_commodities(em_dolar)
         + _cartao_curvas(ins)

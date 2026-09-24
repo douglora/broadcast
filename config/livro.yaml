@@ -204,12 +204,16 @@ ativos:
   - {id: CURY3, nome: "Cury Construtora e Incorporadora ON", apelido: Cury, bloco: br, classe: acao, yahoo: CURY3.SA, moeda: BRL, mercado: B3, benchmark: IBOV, o_que_negocia: "Incorporadora de baixa renda (Minha Casa Minha Vida faixas 3 e 4) em Sao Paulo e Rio; controle compartilhado entre a familia Cury e a Cyrela."}
 
   # ---------------- Macro (cambio, commodities, cripto) ----------------
-  - {id: USDBRL, nome: "Dolar/Real (spot)", apelido: USD/BRL, bloco: macro, classe: fx, yahoo: "USDBRL=X", moeda: BRL, mercado: FX, benchmark: DXY, banda_mm: 0.003, piso_sigma: 0.004, piso_retorno: 0.007, decimais: 4}
+  # fechamento_intradia: o dolar do dia e o ultimo negocio ate as 17h (grafico de 15 min); a barra
+  # diaria do Yahoo guardava o fechamento da vespera (23/09: 5,0999 com o dolar a 5,16)
+  - {id: USDBRL, nome: "Dolar/Real (spot)", apelido: USD/BRL, bloco: macro, classe: fx, yahoo: "USDBRL=X", moeda: BRL, mercado: FX, benchmark: DXY, banda_mm: 0.003, piso_sigma: 0.004, piso_retorno: 0.007, decimais: 4, fechamento_intradia: "17:00"}
   - {id: DXY, nome: "Indice Dolar DXY", apelido: DXY, bloco: macro, classe: indice, yahoo: DX-Y.NYB, moeda: USD, mercado: ICE, benchmark: null, banda_mm: 0.003, piso_sigma: 0.003, piso_retorno: 0.005}
-  - {id: BRENT, nome: "Petroleo Brent (ICE, 1o vencimento)", apelido: Brent, bloco: macro, classe: commodity, yahoo: "BZ=F", moeda: USD, mercado: ICE, benchmark: null, banda_mm: 0.01}
+  # contrato_explicito: o "dia" do Brent sai do contrato do 1o vencimento (BZX26.NYM...), nao do
+  # continuo BZ=F, que troca de vencimento sozinho (erros de 18, 21 e 23/09; livro/fontes/futuros.py)
+  - {id: BRENT, nome: "Petroleo Brent (ICE, 1o vencimento)", apelido: Brent, bloco: macro, classe: commodity, yahoo: "BZ=F", moeda: USD, mercado: ICE, benchmark: null, banda_mm: 0.01, contrato_explicito: brent}
   - {id: BTC, nome: "Bitcoin", apelido: BTC, bloco: macro, classe: cripto, yahoo: BTC-USD, moeda: USD, mercado: CRIPTO, benchmark: CNDX, banda_mm: 0.01, degraus_drawdown: [-20, -30, -50], piso_retorno: 0.04, decimais: 0}
   - {id: ETH, nome: "Ethereum", apelido: ETH, bloco: macro, classe: cripto, yahoo: ETH-USD, moeda: USD, mercado: CRIPTO, benchmark: BTC, banda_mm: 0.01, degraus_drawdown: [-20, -30, -50], piso_retorno: 0.04, decimais: 0}
-  - {id: MINERIO, nome: "Minerio de ferro 62% Fe CFR China (futuro CME liquidado no indice)", apelido: Minerio, bloco: macro, classe: commodity, yahoo: "TIO=F", moeda: USD, mercado: NYSE, benchmark: null, banda_mm: 0.01, proxy: true, nota: "Serie a validar na sonda; se falhar, proxy Dalian (Sina nf_I0) em CNY convertido, sempre rotulado."}
+  - {id: MINERIO, nome: "Minerio de ferro 62% Fe CFR China (futuro CME liquidado no indice)", apelido: Minerio, bloco: macro, classe: commodity, yahoo: "TIO=F", moeda: USD, mercado: NYSE, benchmark: null, banda_mm: 0.01, proxy: true, nota: "Serie a validar na sonda; se falhar, proxy Dalian (Sina nf_I0) em CNY convertido, sempre rotulado.", defasagem_pregoes: 1}
 
 # Serie de referencia (nao entram na tabela; servem a forca relativa, pares e regime)
 benchmarks:
@@ -223,6 +227,19 @@ benchmarks:
   - {id: CNY, nome: "Dolar/Yuan", yahoo: "CNY=X", mercado: FX, moeda: CNY}
   - {id: KRW, nome: "Dolar/Won", yahoo: "KRW=X", mercado: FX, moeda: KRW}
   - {id: UST10Y, nome: "UST 10 anos (Yahoo, intradiario)", yahoo: "^TNX", mercado: NYSE, moeda: USD}
+  # referencias das cestas setoriais (nao entram na tabela; servem a "o setor todo andou?")
+  - {id: TEND3, nome: "Tenda ON (referencia da cesta de baixa renda)", yahoo: TEND3.SA, mercado: B3, moeda: BRL}
+  - {id: PLPL3, nome: "Plano & Plano ON (referencia da cesta de baixa renda)", yahoo: PLPL3.SA, mercado: B3, moeda: BRL}
+
+# Cestas setoriais (card "Setores do dia"): a pergunta e "o setor todo andou ou so o papel?".
+# membros = ids do livro ou dos benchmarks acima; fator = o driver que o card mostra ao lado
+# (vertice do DI ou benchmark), sem somar efeitos. Pedido de 23/09: CURY3 caiu 3,8% com o
+# setor (DIRR3 -3,4%, MRVE3 -1,3%) e o DI abrindo ate 12 bps.
+cestas:
+  - {id: construtoras_mcmv, titulo: "Construtoras de baixa renda", membros: [CURY3, DIRR3, MRVE3, TEND3, PLPL3], fator: DI1F30}
+  - {id: bancos, titulo: "Bancos", membros: [ITUB4, BBDC4, BBAS3, ITSA4], fator: DI1F28}
+  - {id: reguladas, titulo: "Energia e saneamento", membros: [EQTL3, ALUP4, AXIA3, SAPR4, SBSP3], fator: DI1F35}
+  - {id: semis, titulo: "Semicondutores (EUA)", membros: [NVDA, AMD, AVGO, MRVL, INTC, MU, TSM, GFS], fator: SOX}
 
 # Pares com relacao economica (regra T11, v1.1) - a, b, tipo
 pares:

@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 
 from livro import fmt
+from livro import relogios
 from livro import indicadores as ind
 from livro.sinais.base import Alerta, Contexto, Estado, Regra
 
@@ -54,9 +55,14 @@ class C01DIMovimento(Regra):
         if not di.get("historico"):
             return []
         ultimo = di.get("ultimo_pregao")
-        if not ultimo or ultimo < ctx.hoje.isoformat():
-            ctx.falhas.setdefault("di", f"ajuste B3 de {ctx.hoje.isoformat()} ainda não publicado (último {ultimo})")
+        # o ajuste do dia so sai depois do fechamento: na manha e no intradia o esperado e
+        # o de D-1 (antes, toda manha acusava "ajuste de hoje ainda nao publicado")
+        esperado = ctx.hoje if ctx.slot == "fechamento" else relogios.dia_util_anterior("B3", ctx.hoje)
+        if not ultimo or ultimo < esperado.isoformat():
+            ctx.falhas.setdefault("di", f"ajuste B3 de {esperado.isoformat()} ainda não publicado (último {ultimo})")
             return []
+        if ultimo < ctx.hoje.isoformat():
+            return []          # curva de D-1 ja foi avaliada no fechamento de ontem
         linhas, gatilhos, deltas, sev = [], [], {}, "info"
         for c in codigos:
             h = _serie_di(ctx, c)

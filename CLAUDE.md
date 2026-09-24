@@ -126,6 +126,12 @@ Douglas ve no PC e no celular.
   incluido (decisao do Douglas em 21/09: painel sempre atualizado, fixado na barra
   lateral dele). E a mesma pagina no PC e no celular: um Artifact, uma URL.
 - Turno sem novidade = uma linha. Lacuna declarada, nunca placeholder.
+- Portao de qualidade (depois do erro de 23/09: Brent e dolar com o sinal trocado):
+  antes de escrever numero, `python3 -m livro.portao` e `fechamento.json ->
+  qualidade/drivers`. Serie fora de ok nao entra na tese nem no push; divergencia
+  com commodity ou cambio exige confirmacao externa. Numero de busca na web so entra
+  rotulado com veiculo e data, e so quando o runner marcou a serie como nao ok; nunca
+  substitui o runner em serie ok. Regras R0 a R10 na skill `livro`.
 - Regras e limiares: config/limiares.yaml. Calendario e feriados:
   config/calendario.yaml. Nunca "compre/venda" (Resolucao CVM 178).
 - Noticias e fatos: o runner traz manchete, veiculo, hora, resumo fiel e link
