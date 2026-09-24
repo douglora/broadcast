@@ -131,8 +131,17 @@ def test_participacao_de_venda_e_de_total_com_derivativos():
     p = at.participacao({**venda, "tipo": "Aquisição/Alienação de Participação Acionária Relevante"})
     assert p["direcao"] == "reduziu" and p["percentual"] == 4.95 and p["detentor"] == "Gestora X"
     assert at.texto_participacao(p).startswith("Gestora X reduziu para 4,95%")
-    deriv = {"texto": "participação acionária relevante: 0,90% em ações e 5,15% em derivativos, totalizando 6,05% do capital"}
+    deriv = {"texto": "recebeu correspondência do Fundo Y, informando participação acionária relevante: 0,90% em ações "
+                      "e 5,15% em derivativos, totalizando 6,05% do capital"}
     assert at.participacao(deriv)["percentual"] == 6.05
+
+
+def test_companhia_comprando_fatia_de_outra_empresa_nao_e_aviso_de_participacao():
+    doc = {"categoria": "Comunicado ao Mercado", "assunto": "Aquisição de participação na Alfa Energia",
+           "texto": "A Itaúsa S.A. comunica que a Companhia, em 22 de setembro de 2026, concluiu a aquisição de ações "
+                    "ordinárias de emissão da Alfa Energia S.A., passando a deter 12,500% do capital, configurando "
+                    "aquisição de participação acionária relevante, nos termos do artigo 12 da Resolução CVM nº 44/21."}
+    assert at.participacao(doc) is None
 
 
 def test_fato_relevante_nao_vira_aviso_de_participacao(universo, limiares):
