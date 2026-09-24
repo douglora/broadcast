@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 24/09 17h21
+NOTÍCIAS E FATOS · 24/09 18h13
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 461 veículo fora da lista, 51 sem ativo, 8 teto) · cvm ok 1 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 465 veículo fora da lista, 48 sem ativo, 7 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (10)
 
@@ -347,8 +347,14 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (163)
+## OUTRAS NOTÍCIAS (só manchete) (169)
 
+· CVX Chevron: Buy On Long-Term Signals And Forget About It (NYSE:CVX) (Seeking Alpha) https://seekingalpha.com/article/4949576-chevron-buy-on-long-term-signals-and-forget-about-it
+· BTC Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:abcc68eff094b:0-bitcoin-price-steadies-ondo-rallies-as-us-treasury-yields-hit-2007-highs/
+· MU Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-ai-memory-203109541.html
+· USDBRL Ibovespa cai 1% com eleições e expectativa de juros mais altos nos EUA; dólar sobe a R$ 5,19 (Money Times) https://www.moneytimes.com.br/ibovespa-24-9-26-lils/
+· USDBRL Dólar sobe 0,48% e fecha a R$ 5,193; Ibovespa cai (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-048-e-fecha-a-r-5193-ibovespa-cai/
+· INTC SA Asks: Is Intel a buy, hold or sell right now? (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:04b0806dd094b:0-sa-asks-is-intel-a-buy-hold-or-sell-right-now/
 · BRENT Dólar sobe a R$ 5,19 e Bolsa cai com petróleo em alta e política monetária no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/24/dolar-bolsa-fechamento-hoje-24-de-setembro-de-2026.ghtm
 · USDBRL Dólar à vista fecha em alta de 0,47%, a R$5,1931 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-047-a-r51931-na-venda-2074823
 · AMZN Amazon Faces Another Worker Lawsuit. Is Employment Scrutiny Becoming an Investor Risk? (Ready for Vardah) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-faces-another-worker-lawsuit-200857426.html
@@ -403,10 +409,4 @@ id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 · BRENT Dólar avança e Bolsa cai com petróleo em alta e juros dos EUA no radar dos investidores (Folha de S.Paulo) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVG5vOW5kTHlheUN2ajhfQi1qTThMUjl4QjJaU0phQ0I1b3pNYXNlT1Y5MmI0LWs1dUgyYTkxQUtwZ201OWpVSDBVLXRiNFFKTVFEWmdqV3hiYW4zMXVjZTdsdGN3SmpXWW82ejJlSkZCOGFka2MwbC1YZndTRmlkNmllNnpseDVMb1dPU3NoQk96WTE1ejRMOUZfSHMyb3ZQaV9DeDJTVEJaWW1ZVXRYVDRYR3NhVEczQ3Y2VEREVTJqdTg?oc=5
 · UST Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know (CNBC) https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html
 · GOOGL BNP Paribas and Google Cloud Announce New Partnership on Agentic AI and Cloud Innovation (PR Newswire) https://www.prnewswire.com/news-releases/bnp-paribas-and-google-cloud-announce-new-partnership-on-agentic-ai-and-cloud-innovation-302888664.html
-· DI Copom aponta desaceleração da economia e defende juros restritivos em ata (Estadao) https://www.estadao.com.br/em-alta/economia/ata-copom-desaceleracao-economia-juros-restritivos/
-· TSLA UBS maintains Tesla stock neutral rating ahead of Q3 deliveries By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/ubs-maintains-tesla-stock-neutral-rating-ahead-of-q3-deliveries-93CH-4881771
-· NVDA NVIDIA Corporation (NVDA) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/NVDA/
-· USDBRL Dólar opera em alta e bate R$ 5,19, com reunião entre Trump e Xi Jinping no foco; Ibovespa cai (g1) https://g1.globo.com/economia/noticia/2026/09/24/dolar-ibovespa.ghtml
-· UST Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy (CNBC) https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html
-· DI Selic a 13,75% e caindo: onde deixar a reserva de emergência agora (Suno Noticias) https://www.suno.com.br/noticias/selic-caindo-onde-deixar-reserva-emergencia-gss/
-· (+103 manchetes; lista completa em eventos/noticias.json)
+· (+109 manchetes; lista completa em eventos/noticias.json)

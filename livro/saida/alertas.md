@@ -1,30 +1,56 @@
-ALERTAS · intradia
+ALERTAS · Fechamento 18h
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 BRENT · Dólar sobe a R$ 5,19 e Bolsa cai com petróleo em alta e política monetária no radar
-· E05 USDBRL · Dólar à vista fecha em alta de 0,47%, a R$5,1931 na venda Por Reuters
-· E05 AMZN · Amazon Faces Another Worker Lawsuit. Is Employment Scrutiny Becoming an Investor Risk? (Ready for Vardah)
-· E05 BBDC4 · Cogna (COGN3) ainda pode subir 35%, mas Bradesco BBI faz um alerta para quem está de olho na ação
-· E05 PETR4 · Petrobras amplia vendas de petróleo para Ásia em meio a tensão global
-· E05 PETR4 · Petrobras já tem diesel contratado para outubro, diz Magda Chambriard
-· E05 MELI34 · Mercado Livre anuncia modalidade de entrega de mercadorias em até 1 hora
-· E05 AVGO · Broadcom Falls 2% as $230 Billion AI Target Doubles the Delivery Test
-· E05 BTC · VanEck drops a surprising Bitcoin-bond correlation reality check
-· E05 PLTR · Palantir Slips as Karp Puts Liability Before AI Listings
-· E05 COHR · Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now?
-· E05 NVDA · OpenAI’s former head of data centers joins Nvidia
-· E05 NVDA · Marvell vs. NVIDIA: One AI Stock Looks Like the Better Buy Now
+· T01 AXIA3 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 54,47 vs MM200 R$ 55,83 (-2,4%)
+· T04 AMD fechou na máxima de 52 semanas: US$ 629,26, +31% em 1m e +291% em 12m
+· T04 META fechou na máxima de 52 semanas: US$ 777,59, +37% em 1m e +2,6% em 12m
+· T02 BOTZ perdeu a MM50 pela 2ª sessão: US$ 35,22, já abaixo da MM200 (confirma tendência de baixa)
+· T02 SAPR4 perdeu a MM50 pela 2ª sessão: R$ 6,67, já abaixo da MM200 (confirma tendência de baixa)
+· T10 KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -3,5% vs +5,4% em 20 sessões (-8,4% relativo)
+· T10 ALUP4 no mínimo de força relativa em 63 sessões contra IBOV: -5,5% vs +5,4% em 20 sessões (-9,9% relativo)
+· E05 CVX · Chevron: Buy On Long-Term Signals And Forget About It (NYSE:CVX)
+· E05 BTC · Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs
+· E05 MU · Micron vs. Sandisk: Which AI Memory Stock Is the Better Buy?
+· E05 USDBRL · Ibovespa cai 1% com eleições e expectativa de juros mais altos nos EUA; dólar sobe a R$ 5,19
+· E05 USDBRL · Dólar sobe 0,48% e fecha a R$ 5,193; Ibovespa cai
+· E05 INTC · SA Asks: Is Intel a buy, hold or sell right now?
+· T08 COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) a US$ 290,61
+· T08 EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a US$ 182,53
+· T08 BBAS3 entrou em bear técnico: -22% do pico de 52s (R$ 27,58 em 25/02) a R$ 21,54
+· T01 KLBN4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 3,58 vs MM200 R$ 3,67 (-2,3%)
+· T05 ALUP4 -3,6% no dia a R$ 10,40: movimento de 3,0 desvios para uma vol de 20 dias de 19% a.a.
+· T02 AMZN perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 249,38, ainda acima da MM200 (tendência longa preservada)
+· T06 KLBN4 -7,7% em 5 sessões a R$ 3,58: movimento de 3,2 desvios para a vol de 20 dias
+· T09 ALUP4 -3,6% com volume 3,9x a mediana de 20 sessões, a R$ 10,40
+· T10 REMX no mínimo de força relativa em 63 sessões contra SPX: -15% vs +0,3% em 20 sessões (-16% relativo)
+· T10 AMD no máximo de força relativa em 63 sessões contra SOX: +31% vs +7,8% em 20 sessões (+22% relativo)
+· T10 INTC no máximo de força relativa em 63 sessões contra SOX: +44% vs +7,8% em 20 sessões (+35% relativo)
+· T10 MELI34 no mínimo de força relativa em 63 sessões contra IBOV: -10% vs +5,4% em 20 sessões (-16% relativo)
+· S01 coleta do slot fechamento saiu incompleta: tesouro: Tesouro Transparente com data-base 18/09; faltam 21/09, 22/09, 23/09 (taxas não são as de hoje)
 
+Suprimidos pelo teto (viram linha do Fechamento): T08-COHR--30-2026-09-24 (teto diário de críticos), T08-EWY--15-2026-09-24 (teto diário de críticos), T08-BBAS3--20-2026-09-24 (teto diário de críticos), T01-KLBN4-perda-2026-09-24 (teto de atenção), T05-ALUP4-queda-2026-09-24 (teto de atenção), T02-AMZN-perdeu_perdeu-2026-09-24 (teto de atenção), T06-KLBN4-queda-2026-09-24 (teto de atenção), T09-ALUP4-queda-2026-09-24 (teto de atenção), T10-REMX-mínimo-2026-09-24 (teto de atenção), T10-AMD-máximo-2026-09-24 (teto de atenção), T10-INTC-máximo-2026-09-24 (teto de atenção), T10-MELI34-mínimo-2026-09-24 (teto de atenção), S01-SISTEMA-fechamento-2026-09-24 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· linha     T08 COHR — COHR entrou em queda de -30% do pico: -32% do pico de 52s (US$ 426,89 em 02/06) 
+· linha     T08 BBAS3 — BBAS3 entrou em bear técnico: -22% do pico de 52s (R$ 27,58 em 25/02) a R$ 21,54
 · entregue  C07 UST — UST ABRIU: 2y +14 bps · 10y +15 bps · 30y +11 bps (23/09)
 · entregue  T05 KLBN4 — KLBN4 -3,2% no dia a R$ 3,68: movimento de 3,7 desvios para uma vol de 20 dias d
 · linha     T08 AVGO — AVGO entrou em queda de -25% do pico: -26% do pico de 52s (US$ 481,57 em 02/06) 
 · linha     T08 MCHI — MCHI entrou em bear técnico: -21% do pico de 52s (US$ 66,99 em 02/10) a US$ 53,1
 · linha     T08 VALE3 — VALE3 entrou em bear técnico: -21% do pico de 52s (R$ 90,09 em 11/02) a R$ 71,48
 · linha     T08 MELI34 — MELI34 entrou em queda de -30% do pico: -31% do pico de 52s (R$ 111,29 em 25/09)
+· linha     T01 KLBN4 — KLBN4 fechou abaixo da média de 200 dias pela 1ª sessão: R$ 3,58 vs MM200 R$ 3,6
+· linha     T05 ALUP4 — ALUP4 -3,6% no dia a R$ 10,40: movimento de 3,0 desvios para uma vol de 20 dias 
+· linha     T08 EWY — EWY entrou em queda de -15% do pico: -17% do pico de 52s (US$ 219,20 em 18/06) a
+· linha     T02 AMZN — AMZN perdeu a MM50 e perdeu a MM100 pela 2ª sessão: US$ 249,38, ainda acima da M
+· linha     T06 KLBN4 — KLBN4 -7,7% em 5 sessões a R$ 3,58: movimento de 3,2 desvios para a vol de 20 di
+· linha     T09 ALUP4 — ALUP4 -3,6% com volume 3,9x a mediana de 20 sessões, a R$ 10,40
+· linha     T10 REMX — REMX no mínimo de força relativa em 63 sessões contra SPX: -15% vs +0,3% em 20 s
+· linha     T10 AMD — AMD no máximo de força relativa em 63 sessões contra SOX: +31% vs +7,8% em 20 se
+· linha     T10 INTC — INTC no máximo de força relativa em 63 sessões contra SOX: +44% vs +7,8% em 20 s
+· linha     T10 MELI34 — MELI34 no mínimo de força relativa em 63 sessões contra IBOV: -10% vs +5,4% em 2
+· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: tesouro: Tesouro Transparente com dat
 · entregue  E05 GOOGL — GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth.
 · entregue  E05 BABA — BABA · BABA 11-DAY DEADLINE ALERT: Alibaba Group Holding Limited Investors with 
 · entregue  E05 DI — DI · Projeção de Planejamento e Fazenda para Selic acumulada 2026 passa de 14,16
@@ -56,8 +82,15 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) caminha para um dos maiores dividendos do mundo. A açã
 · entregue  E05 PETR4 — PETR4 · Petrobras (PETR4) é a melhor opção para lucrar com alta do petróleo, diz
 · entregue  S01 SISTEMA — coleta do slot fechamento saiu incompleta: 11 séries sem cotação do dia: VWRA, C
+· linha     T01 AXIA3 — AXIA3 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 54,47 vs MM200 R$ 55
+· linha     T04 AMD — AMD fechou na máxima de 52 semanas: US$ 629,26, +31% em 1m e +291% em 12m
+· linha     T04 META — META fechou na máxima de 52 semanas: US$ 777,59, +37% em 1m e +2,6% em 12m
+· linha     T02 BOTZ — BOTZ perdeu a MM50 pela 2ª sessão: US$ 35,22, já abaixo da MM200 (confirma tendê
+· linha     T02 SAPR4 — SAPR4 perdeu a MM50 pela 2ª sessão: R$ 6,67, já abaixo da MM200 (confirma tendên
+· linha     T10 KLBN4 — KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -3,5% vs +5,4% em 2
+· linha     T10 ALUP4 — ALUP4 no mínimo de força relativa em 63 sessões contra IBOV: -5,5% vs +5,4% em 2
 · linha     T02 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) pe
-· linha     F03 BRENT — Brent sobe a US$ 107,57 (+4,4% no dia) (parcial, intradia)
+· linha     F03 BRENT — Brent sobe a US$ 107,03 (+3,8% no dia)
 · linha     T01 AVGO — AVGO fechou abaixo da média de 200 dias pela 1ª sessão: US$ 354,99 vs MM200 US$ 
 · linha     T02 QTUM — QTUM retomou a MM50 pela 2ª sessão: US$ 152,45, acima da MM200 (tendência longa 
 · linha     T02 JPM — JPM perdeu a MM50 pela 2ª sessão: US$ 337,53, ainda acima da MM200 (tendência lo
@@ -70,4 +103,4 @@ Alertas do dia (todos, com status):
 · linha     T12 PLTR — PLTR: 6 altas seguidas (+11% acumulado) a US$ 191,79
 · linha     T12 BRENT — BRENT: 6 quedas seguidas (-10% acumulado) a US$ 97,83
 · linha     F06 ETH — ETH cai a US$ 2.685 (cruzou US$ 2.750)
-· (+180 notícias só manchete, em noticias.md)
+· (+186 notícias só manchete, em noticias.md)
