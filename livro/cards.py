@@ -39,7 +39,10 @@ def _v(x) -> str:
 
 
 def _linha(a, j: dict, info: dict) -> str:
-    atraso = " ·" if (info.get("esperado_hoje") and not info.get("fresco", True)) else ""
+    atraso = ""
+    if info.get("esperado_hoje") and not info.get("fresco", True):
+        # a coluna "dia" desta linha e de outro pregao: dizer qual, e nao um simbolo
+        atraso = f" _(dia {fmt.data_br(j.get('data'))})_"
     celulas = [f"**{_esc(a.id)}** {_esc(nome_curto(a))}{atraso}",
                _esc(fmt.preco(j.get("ultimo"), a.decimais)),
                f"**{_v(j.get('dia'))}**"]

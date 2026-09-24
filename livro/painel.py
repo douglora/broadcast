@@ -233,7 +233,7 @@ def _linha_ativo(a, j: dict, info: dict) -> str:
     atraso = ""
     if info.get("esperado_hoje") and not info.get("fresco", True):
         atraso = (f'<span class="atraso" title="sem barra de {_e(fmt.data_br(info.get("esperado")))}'
-                  f' — ultima {_e(fmt.data_br(j.get("data")))}">sem barra de hoje</span>')
+                  f' — ultima {_e(fmt.data_br(j.get("data")))}">dia {_e(fmt.data_br(j.get("data")))}</span>')
     nome = f'<span class="nm">{_e(nome_curto(a))}</span>' if a.nome and a.nome != a.apelido else ""
     return (
         "<tr>"

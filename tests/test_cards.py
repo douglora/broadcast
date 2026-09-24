@@ -177,3 +177,20 @@ def test_card_avisa_que_o_numero_foi_revisto(universo):
     t = md(universo, do_dia=do_dia)
     assert "Brent cai a US$ 99,29" in t
     assert "Número revisto depois do disparo" in t and "98,77" in t
+
+
+def test_linha_com_barra_velha_diz_o_dia_a_que_a_coluna_se_refere(universo):
+    """23/09: os UCITS de Londres fecharam sem barra do dia e a coluna 'dia' deles
+    era o pregao anterior. O marcador era um ' ·' mudo - o Douglas le no celular e
+    nao decora simbolo. Tem de dizer o dia."""
+    info = {"VWRA": {"esperado_hoje": True, "fresco": False, "esperado": "2026-09-23"}}
+    t = md(universo, series_info=info)
+    assert "_(dia 18/09)_" in t, "a linha velha nao disse de que pregao e a coluna 'dia'"
+    assert " ·" not in t.split("**VWRA**")[1].split("|")[0], "voltou o marcador mudo"
+    # so a linha velha leva o rotulo
+    assert t.count("_(dia 18/09)_") == 1
+
+
+def test_linha_fresca_nao_leva_rotulo_de_dia(universo):
+    t = md(universo, series_info={"VWRA": {"esperado_hoje": True, "fresco": True}})
+    assert "_(dia " not in t

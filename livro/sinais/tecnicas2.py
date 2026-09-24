@@ -291,7 +291,7 @@ class T11Pares(Regra):
             tipo = par.get("tipo", "")
             por_que = {"produtor_commodity": "produtor e commodity andam juntos no médio prazo; o descolamento ou antecipa a commodity ou embute fato da empresa",
                        "distribuidor_commodity": "o distribuidor ganha margem quando o insumo cai; descolar do Brent mostra se o mercado precifica isso",
-                       "pares_setor": "dois bancos com o mesmo balanço macro descolando é história própria: provisão, guidance, evento",
+                       "pares_setor": "dois nomes do mesmo setor, com o mesmo pano de fundo macro, descolando é história própria: resultado, guidance, evento",
                        "holding": "holding e controlada convergem; o desconto que abre demais costuma fechar",
                        "acao_indice": "ação e índice do setor divergindo é sinal de fluxo específico",
                        "etf_indice": "ETF descolando do índice local é câmbio ou fluxo estrangeiro, não a bolsa do país",
