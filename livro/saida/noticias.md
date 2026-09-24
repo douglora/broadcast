@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 23/09 21h31
+NOTÍCIAS E FATOS · 23/09 23h26
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 439 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 1 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 454 veículo fora da lista, 28 sem ativo, 19 teto) · cvm ok 0 novos de 8 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -25,7 +25,29 @@ Fonte: CVM 23/09
 id: E03-VALE3-1571025-2026-09-23 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · PETR4 · UBS BB reitera compra para ação da Petrobras e eleva preço-alvo
+CNN Brasil · 23/09 10h31 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Analistas do UBS BB elevaram o preço-alvo para as ações da Petrobras para R$ 62 ante R$ 60 e reiteraram recomendação de compra para os papéis, citando que a tese de investimento na companhia se destaca sob as perspectiv…
+  – Na véspera, as ações preferenciais da Petrobras fecharam a R$ 48,35 e os papéis ordinários foram cotados a R$ 53,20.
+  – Em 2026, ambos acumulam valorizações de 66,76% e 72,55%, respectivamente.
+Link: https://www.cnnbrasil.com.br/economia/money/negocios/ubs-bb-reitera-compra-para-acao-da-petrobras-e-eleva-preco-alvo/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: PETR4
+Como falar: 'saiu no CNN Brasil: UBS BB reitera compra para ação da Petrobras e eleva preço-alvo; confirmar o número no texto antes de repassar'
+Fonte: CNN Brasil 23/09 10h31
+id: E05-PETR4-c4a9f94f5a-2026-09-23 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron earnings outlook: what to watch ahead of the September 30 report
+Investing.com · 23/09 06h20 · fonte única · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Investing.com: Micron earnings outlook: what to watch ahead of the September 30 report; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 23/09 06h20
+id: E05-MU-e903b46e6c-2026-09-23 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Dividendos da semana: Petrobras paga R$ 4,5 bilhões e CPFL lidera valor por ação
 Estadao · 23/09 15h32 · fonte única · licença: manchete
@@ -118,8 +140,19 @@ Fonte: Yahoo Finance 23/09 06h41
 id: E05-BRENT-9c159e4656-2026-09-23 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (26)
+## OUTRAS NOTÍCIAS (só manchete) (37)
 
+· BABA What Does Alibaba (BABA) Facing A Securities Fraud Probe Mean Now? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-alibaba-baba-facing-securities-211806119.html
+· MELI34 Mercado Livre Racing aposta em estratégias e sintonia de duplas para prova Endurance da Stock Car em Brasília (UOL Economia) https://motorsport.uol.com.br/stockcar-br/news/mercado-livre-racing-aposta-em-estrategias-e-sintonia-de-duplas-para-prova-endurance-da-stock-car-e/10858367/
+· USDBRL Dólar à vista sobe 1,28% em meio a aversão global a risco (Valor Economico) https://valor.globo.com/financas/noticia/2026/09/23/dolar-a-vista-sobe-128percent-em-meio-a-aversao-global-a-risco.ghtml
+· USDBRL Dólar sobe a R$ 5,16 com Treasuries e cenário eleitoral (Money Times) https://www.moneytimes.com.br/dolar-23-9-26-apsa/
+· PETR4 Declínio de produção do pré-sal precisa ser compensado, diz presidente da Petrobras (Valor Economico) https://valor.globo.com/google/amp/empresas/noticia/2026/09/23/declinio-de-producao-do-pre-sal-precisa-ser-compensado-diz-presidente-da-petrobras.ghtml
+· PETR4 Projeto de gás na Colômbia deve aparecer na curva de produção a partir de 2031, diz Petrobras (Valor Economico) https://news.google.com/rss/articles/CBMi8wFBVV95cUxQTFhvcmtYR3Z2bXJtRGNYYUJhWWJSZ3RFQ1NlZTdxY1NveTRRa245WWV0clNwNHlkTVp0NXNxZlpvUDVIXzBWbTd2dC1lVnk2TzBXUGppaDBaRWFWdllZbm9pNVktTVI2bHVWUHNyVXc1a0p0UExwYVFVV1VXcmxiUTNGQ3JkTnBzX1ROYjVWMkhnWG1iWGJLWjhnZnM4V2VkRzg5QUlrRVZpeXg1WkZXblRVVUt0dEw3MVpobUVEd1VGRWZYZ0hCelRSZUFpcGFqdl95a3F1LUFhZkJnU05PWEU3N2RsOUVuYXhPTGpzTGQ2bUnSAfMBQVVfeXFMUExYb3JrWEd2dm1ybURjWGFCYVliUmd0RUNTZWU3cWNTb3k0UWtuOVlldHJTcDR5ZE1adDVzcWZab1A1SF8wVm03dnQtZVZ5Nk8wV1BqaWgwWkVhVnZZWW5vaTVZLU1SNmx1VlBzclV3NWtKdFBMcGFRVVdVV3JsYlEzRkNyZE5wc19UTmI1VjJIZ1htYlhiS1o4Z2ZzOFdlZEc4OUFJa0VWaXl4NVpGV25UVVVLdHRMNzFaaG1FRHdVRkVmWGdIQnpUUmVBaXBhanZfeWtxdS1BYWZCZ1NOT1hFNzdkbDlFbmF4T0xqc0xkNm1J?oc=5
+· USDBRL Ouro fecha em queda pressionado por alta do dólar e dos juros dos Treasurie (CNN Brasil) https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQlM5REdEV25IcmtUT2YzRXFqT0FRTjBPaWpzcmczdlhlckgyV0xVQzhEeW5nNGcwWlI3MGNPSUdOVndXWFhRVDJnT3ZzUnk3UTJ6ZU82MmsteG10dDBSYnZFTGYyYVNEZS05UnFDS1I3UUNacDE4UUw1QXRMMXRzY3l5emZMUEtBazhCdU50c19rSXZjRFNUYlppMU5sTXV0d0VnN1RCaW05eFBBNlRMODJyeC04VHVMR3l1OVluc2NENW5QaFRsRw?oc=5
+· KLBN4 Suzano (SUZB3) x Klabin (KLBN11): BTG escolhe ação para surfar 'miniciclo' da celulose e vê potencial de 50% (Money Times) https://news.google.com/rss/articles/CBMitgFBVV95cUxNV2ZHdklJTnpjd3I5aHUxZ3FLaEpUTmlqblVkWmpwN3JBZElrcHlrYXVhS2YtUTlPWUc0Z1dGR3JYdDNWNFR5RmpleHMxUzNKbktZYWVkNkVvYWdmLXQ4bDBTN183LUNxOTFrbHJxeVlqRDJGZHdWMGNtNFU5aVpRZmVaVGUwbFYwbVF5OFZsdTZ4c3lGd0FZTU1jS0dCLThrSHF0X0JsTlg3TnhrWVQ4NzJnYXI2dw?oc=5
+· ITUB4 Economia perde força, mas esta ação pode se beneficiar do cenário, diz Itaú BBA (Estadao) https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZEFpN1p0ZGp6Z3F3VFBCdGU3Skw0RDAxS2JrUzNlRFExUm5pZ2d3cm9tY3AtVjhCVjZyTi1nUkZ4QjFseHljRzY3MXdLcWd1OGlJc3JZWGlxZHBnYkt6X3BWTTJybEU0a0FVMlpSUEh4TmZROEtUdTcxSmFqYXh6cDZGU1RtdGpqemQyTENxdjQxc1Y3dFNiY291ZWlITmQ4UWF0eUpiTXhBNFBnNEp1NnVLZWZiOUFweFRMMFZnZXpYdGtialZlQjlXTVpkQWZW0gHQAUFVX3lxTE5kQWk3WnRkanpncXdUUEJ0ZTdKTDREMDFLYmtTM2VEUTFSbmlnZ3dyb21jcC1WOEJWNnJOLWdSRnhCMWx4eWNHNjcxd0txZ3U4aUlzcllYaXFkcGdiS3pfcFZNMnJsRTRrQVUyWlJQSHhOZlE4S1R1NzFKYWpheHpwNkZTVG10amp6ZDJMQ3F2NDFzVjd0U2Jjb3VlaUhOZDhRYXR5SmJNeEE0UGc0SnU2dUtlZmI5QXB4VEwwVmdlelh0a2JqVmVCOVdNWmRBZlY?oc=5
+· MU Citi expects Micron stock to rally into this event (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxOOHBRcjdaTnJLQzRSMjExR256d2JxMEVhTXQ0SEphb0RmSVZUZEhvQWxMZzRBZ2w5TW1tLVQ5bFhET3o5eXdKMElpUmtGTDRyUEk1eVZsZ1NKWEE3amc0ajhTZHU3TS03RC1LMkc4d3dhRDVhbXZtN3l4cEdjb1dvQ0o3YndBWU0?oc=5
+· TESOURO Tesouro Direto hoje: Taxas estendem altas e acompanham Treasuries no exterior; confira a cotação nesta quarta-feira (23) (Money Times) https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbW5oYTlZcTBiSXZxR2s5enZXcGZSc3ZIZWZ5M2VJd0liUkppeE1CNzNVSFVtVFpmTFNxM3hQUVJERk1Pc2FTbHNZYi0taDg5b09DYUc0a090VlIycWk5UllwV25KX3VfckNuUmJpeG5nME5VbEJRd3VVdU85N044eS1RTlFGUDNHNDRaMER2QUlSaW9aSU5lVGE2akpWd1hMZFVfWGd5OXNXclJ4RGhwV0hpVUFFUVBtSmhnTzE0ekk0TWhYVGJaY2Fob21NeUstQjJfbjhxdjBaQ2RtdmZveXYxNmxuWlFHRkE?oc=5
 · BAC Bank of America’s Unrealized Bond Losses Could Top $90 Billion on Surging Yields (Barron's) https://www.barrons.com/articles/bank-of-america-stock-bond-losses-edae54c9
 · USDBRL Ibovespa cai 0,86% e dólar dispara 1,28% com pressão externa e eleição (Exame) https://exame.com/invest/mercados/ibovespa-cai-086-e-dolar-dispara-128-com-pressao-externa-e-eleicao/
 · TESOURO É hora de comprar títulos prefixados no Tesouro Direto, diz XP; investimento deve bater o CDI nos próximos anos (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/e-hora-de-comprar-titulos-prefixados-no-tesouro-direto-diz-xp-investimento-deve-bater-o-cdi-nos-proximos-anos-mlim/
