@@ -876,6 +876,79 @@ def legenda_do_video(vid, pasta_tmp):
     raise RuntimeError(ultimo)
 
 
+def _pagina_do_video(vid, sessao):
+    html_ = sessao.get(f"https://www.youtube.com/watch?v={vid}&hl=pt-BR&gl=BR", timeout=60).text
+    meta = {}
+    for chave, rx in (("data", r'"(?:uploadDate|publishDate)":"(\d{4}-\d{2}-\d{2})'),
+                      ("segundos", r'"lengthSeconds":"(\d+)"'),
+                      ("titulo", r'"title":\{"simpleText":"((?:[^"\\]|\\.)*)"'),
+                      ("descricao", r'"shortDescription":"((?:[^"\\]|\\.)*)"')):
+        m = re.search(rx, html_)
+        if m:
+            meta[chave] = json.loads(f'"{m.group(1)}"') if chave in ("titulo", "descricao") else m.group(1)
+    return html_, meta
+
+
+def transcricao_pelo_painel(vid):
+    """Plano B da legenda: o painel "Transcricao" da pagina do video (endpoint get_transcript) e, se ele nao vier,
+    a trilha de legenda listada na pagina. Devolve ([(segundo, texto)], meta)."""
+    sessao = requests.Session()
+    sessao.headers.update({"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9"})
+    sessao.cookies.set("CONSENT", "YES+cb", domain=".youtube.com")
+    html_, meta = _pagina_do_video(vid, sessao)
+    segs, motivo = [], "pagina sem painel de transcricao"
+    m = re.search(r'"getTranscriptEndpoint":\{"params":"([^"]+)"', html_)
+    if m:
+        ver = re.search(r'"INNERTUBE_CLIENT_VERSION":"([^"]+)"', html_)
+        chave = re.search(r'"INNERTUBE_API_KEY":"([^"]+)"', html_)
+        visitante = re.search(r'"VISITOR_DATA":"([^"]+)"', html_)
+        cliente = {"clientName": "WEB", "clientVersion": ver.group(1) if ver else "2.20260901.00.00", "hl": "pt", "gl": "BR"}
+        if visitante:
+            cliente["visitorData"] = visitante.group(1)
+        r = sessao.post("https://www.youtube.com/youtubei/v1/get_transcript" + (f"?key={chave.group(1)}" if chave else ""),
+                        json={"context": {"client": cliente}, "params": m.group(1)}, timeout=60)
+        if r.status_code == 200:
+            def anda(o):
+                if isinstance(o, dict):
+                    t = o.get("transcriptSegmentRenderer")
+                    if t:
+                        texto = "".join(x.get("text", "") for x in (t.get("snippet") or {}).get("runs", []))
+                        segs.append((int(t.get("startMs") or 0) // 1000, texto.strip()))
+                        return
+                    for v in o.values():
+                        anda(v)
+                elif isinstance(o, list):
+                    for v in o:
+                        anda(v)
+            anda(r.json())
+        motivo = f"get_transcript HTTP {r.status_code}, {len(segs)} trechos"
+    if not segs:
+        # A trilha listada na pagina (baseUrl do player); sem PO token o YouTube costuma devolver vazio
+        for url in re.findall(r'"baseUrl":"(https://www\.youtube\.com/api/timedtext[^"]+)"', html_):
+            url = json.loads(f'"{url}"')
+            if "lang=pt" not in url:
+                continue
+            vtt = sessao.get(url + "&fmt=vtt", timeout=60).text
+            if "-->" in vtt:
+                return None, meta, vtt
+        raise RuntimeError(f"painel: {motivo}")
+    return [s_ for s_ in segs if s_[1]], meta, None
+
+
+def texto_dos_segmentos(segs, janela=30):
+    saida, grupo, grupo_t = [], [], None
+    for t, texto in segs:
+        if grupo and t - grupo_t >= janela:
+            saida.append(f"[{_hms(grupo_t)}] {' '.join(grupo)}")
+            grupo = []
+        if not grupo:
+            grupo_t = t
+        grupo.append(texto)
+    if grupo:
+        saida.append(f"[{_hms(grupo_t)}] {' '.join(grupo)}")
+    return "\n".join(saida)
+
+
 def videos_do_site(log):
     """IDs de video embutidos na pagina de videos do site da Kinea (lista curada pela gestora)."""
     try:
@@ -909,7 +982,18 @@ def coletar_videos(saida, canal, n, dias, falhas):
     lista += [{"id": v, "titulo": None, "aba": "site"} for v in videos_do_site(log) if v not in vistos]
     print(f"== videos: {len(lista)} listados ({origem}, rss com {len(rss)}) em {canal}", flush=True)
     limite = (datetime.date.today() - datetime.timedelta(days=dias)).isoformat()
-    velhos_na_aba, videos, fora = set(), [], 0
+    velhos_na_aba, videos, fora, falhas_seguidas = set(), [], 0, 0
+
+    def grava():
+        # Grava a cada video: se o Actions cortar a coleta no meio, o que ja veio fica
+        guardados = videos + [v for k, v in antigo.items() if k not in {x["id"] for x in videos} and v.get("chars")]
+        guardados.sort(key=lambda v: v.get("data") or "", reverse=True)
+        with open(os.path.join(pasta, "index.json"), "w", encoding="utf-8") as f:
+            json.dump({"gerado_em": agora(), "canal": canal, "listagem": origem, "fora_do_tema": fora,
+                       "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina "
+                                "e pode errar nome proprio)", "videos": guardados[:120], "log": log[:40]},
+                      f, ensure_ascii=False, indent=1)
+
     with tempfile.TemporaryDirectory() as tmp:
         for item in lista:
             vid, aba = item["id"], item["aba"]
@@ -924,36 +1008,64 @@ def coletar_videos(saida, canal, n, dias, falhas):
                 continue
             if aba in velhos_na_aba:
                 continue
+            if falhas_seguidas >= 6:
+                # O YouTube esta recusando todo pedido: insistir so gasta o tempo do Actions
+                log.append(f"parei em {vid}: {falhas_seguidas} videos seguidos sem legenda por erro do YouTube")
+                break
             entrada = {"id": vid, "titulo": titulo, "aba": aba, "url": f"https://www.youtube.com/watch?v={vid}",
                        "data": r.get("data") or item.get("data"), "descricao": r.get("descricao") or item.get("descricao", ""),
                        "coleta": 2}
+            texto = vtt = tipo = lingua = None
+            erro_painel = ""
+            # 1) Painel "Transcricao" da pagina do video: duas requisicoes, sem passar pelo player
             try:
-                info, vtt, tipo, lingua = legenda_do_video(vid, tmp)
-                d = info.get("upload_date") or info.get("release_date") or ""
-                entrada.update({"titulo": r.get("titulo") or info.get("title") or entrada["titulo"],
-                                "data": f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else entrada["data"],
-                                "duracao_min": round((info.get("duration") or 0) / 60) or None,
-                                "descricao": (r.get("descricao") or info.get("description") or entrada["descricao"] or "")[:3000],
-                                "capitulos": [{"t": int(c.get("start_time") or 0), "titulo": c.get("title")}
-                                              for c in info.get("chapters") or []],
-                                "ao_vivo": info.get("was_live") or info.get("live_status") in ("was_live", "post_live")})
+                segs, meta, vtt = transcricao_pelo_painel(vid)
+                entrada["data"] = entrada.get("data") or meta.get("data")
+                if meta.get("segundos"):
+                    entrada["duracao_min"] = round(int(meta["segundos"]) / 60)
+                entrada["titulo"] = entrada.get("titulo") or meta.get("titulo")
+                entrada["descricao"] = entrada.get("descricao") or (meta.get("descricao") or "")[:3000]
+                if vtt:
+                    tipo, lingua = "trilha da pagina", "pt"
+                else:
+                    texto, tipo, lingua = texto_dos_segmentos(segs), "painel de transcricao", "pt"
             except Exception as e:
-                entrada["erro"] = str(e)[:300]
-                vtt = tipo = lingua = None
+                erro_painel = str(e)[:160]
+            # 2) Sem o painel, o yt-dlp com os clientes do YouTube (e o PO token do workflow)
+            if not texto and not vtt:
+                try:
+                    info, vtt, tipo, lingua = legenda_do_video(vid, tmp)
+                    d = info.get("upload_date") or info.get("release_date") or ""
+                    entrada.update({"titulo": entrada.get("titulo") or info.get("title"),
+                                    "data": f"{d[:4]}-{d[4:6]}-{d[6:8]}" if len(d) == 8 else entrada.get("data"),
+                                    "duracao_min": entrada.get("duracao_min") or round((info.get("duration") or 0) / 60) or None,
+                                    "descricao": entrada.get("descricao") or (info.get("description") or "")[:3000],
+                                    "capitulos": [{"t": int(c.get("start_time") or 0), "titulo": c.get("title")}
+                                                  for c in info.get("chapters") or []],
+                                    "ao_vivo": info.get("was_live") or info.get("live_status") in ("was_live", "post_live")})
+                    # Sem legenda no player e sem painel na pagina: o video nao tem legenda (nao tenta de novo)
+                    if not vtt and "pagina sem painel" not in erro_painel:
+                        entrada["erro"] = f"painel: {erro_painel} | yt-dlp: nenhuma legenda listada"
+                except Exception as e:
+                    entrada["erro"] = f"painel: {erro_painel} | yt-dlp: {str(e)[:200]}"
             if entrada.get("data") and entrada["data"] < limite:
                 if aba != "site":
                     velhos_na_aba.add(aba)  # a aba vem do mais novo ao mais antigo: o resto e mais velho ainda
                 continue
             if vtt:
                 texto = texto_da_legenda(vtt)
+            if texto:
                 arquivo = f"{entrada.get('data') or 'sem-data'}_{vid}.txt"
                 with open(os.path.join(pasta, arquivo), "w", encoding="utf-8") as f:
                     f.write(f"# {entrada['titulo']}\n# {entrada['url']} | {entrada.get('data')} | "
                             f"{entrada.get('duracao_min') or '?'} min | legenda {tipo} ({lingua})\n\n{texto}\n")
                 entrada.update({"arquivo": f"kinea/videos/{arquivo}", "legenda": tipo, "lingua": lingua, "chars": len(texto)})
+                entrada.pop("erro", None)
             elif "erro" not in entrada:
                 entrada["legenda"] = "sem legenda"
+            falhas_seguidas = falhas_seguidas + 1 if entrada.get("erro") else 0
             videos.append(entrada)
+            grava()
             print(f"  {entrada.get('data') or '?'} {str(entrada.get('titulo'))[:70]}: "
                   f"{entrada.get('legenda') or 'falhou'} {entrada.get('chars', 0):,} chars "
                   f"{(entrada.get('erro') or '')[:120]}", flush=True)

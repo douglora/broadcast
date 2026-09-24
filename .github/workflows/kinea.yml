@@ -87,7 +87,10 @@ jobs:
           docker run -d --name bgutil -p 4416:4416 --init brainicism/bgutil-ytdlp-pot-provider
           for i in $(seq 1 30); do curl -sf http://127.0.0.1:4416/ping && break; sleep 2; done
 
+      # Limite proprio e continue-on-error: se o YouTube travar a coleta, o que ja veio e publicado
       - name: Coletar carteira, cartas e midia
+        timeout-minutes: 45
+        continue-on-error: true
         env:
           MESES: ${{ inputs.meses }}
           DESDE: ${{ inputs.cartas_desde }}
@@ -104,6 +107,7 @@ jobs:
             --urls "$URLS" --partes "${PARTES:-cda,cartas,midia}" --videos "${VIDEOS:-20}"
 
       - name: Publicar no branch dados
+        if: always()
         run: |
           cd dados_branch
           git config user.name "github-actions[bot]"
@@ -117,6 +121,7 @@ jobs:
           done
 
       - name: Resumo
+        if: always()
         run: |
           echo "### Kinea" >> $GITHUB_STEP_SUMMARY
           python - <<'PY' >> $GITHUB_STEP_SUMMARY
