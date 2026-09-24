@@ -1,9 +1,9 @@
 name: Livro monitorado
 
 # Coleta, motor de alertas e render do livro monitorado. Roda no GitHub Actions
-# (internet aberta) e grava em livro/ no branch `dados`. O caminho principal e o
-# workflow_dispatch feito pela rotina da sessao do Claude; os crons abaixo sao
-# rede de seguranca para quando a rotina nao disparar.
+# (internet aberta) e grava em livro/ no branch `dados`. Os crons abaixo sao o
+# caminho principal (manha 08h20, intradia :05, fechamento 18h05 BRT); a rotina
+# da sessao do Claude acorda minutos depois, le e so dispara se o dado atrasou.
 #
 # Kill switch: um arquivo PAUSADO na raiz da main desliga tudo.
 on:
@@ -34,8 +34,7 @@ on:
     # Intradia: 13h05-20h05 UTC = 10h05-17h05 BRT, hora em hora, dias uteis
     - cron: "5 13-20 * * 1-5"
     # Fechamento: 21h05 UTC = 18h05 BRT, DEPOIS do fechamento da B3 (18h00).
-    # A rotina das 21h00 UTC (18h00 BRT) dispara por conta propria e espera o run;
-    # este cron e so rede de seguranca.
+    # E o caminho principal; a rotina da sessao acorda as 18h11 e so le.
     - cron: "5 21 * * 1-5"
     # Manha: 11h20 UTC = 08h20 BRT, para o dado ja estar pronto as 08h30.
     - cron: "20 11 * * 1-5"
@@ -101,11 +100,9 @@ jobs:
         run: |
           MODO="$MODO_INPUT"
           if [ "$EVENTO" = "schedule" ]; then
-            case "$AGENDA" in
-              "28 21 * * 1-5") MODO=fechamento ;;
-              "50 9 * * 1-5")  MODO=manha ;;
-              *)               MODO=intradia ;;
-            esac
+            # O modo sai da HORA UTC do cron (21h = fechamento, 11h = manha, resto =
+            # intradia), nao da string inteira: mudar o minuto nao quebra o modo.
+            MODO=$(python -m livro.agenda_modo "$AGENDA")
           fi
           echo "modo=${MODO:-intradia}" >> "$GITHUB_OUTPUT"
           echo "Modo: ${MODO:-intradia}"
