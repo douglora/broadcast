@@ -105,6 +105,7 @@ jobs:
           if [ "$EVENTO" = "schedule" ]; then
             # O modo sai da HORA UTC do cron (21h = fechamento, 11h = manha, resto =
             # intradia), nao da string inteira: mudar o minuto nao quebra o modo.
+            # Rodada atrasada vale pela hora em que dispara (livro/agenda_modo.py).
             MODO=$(python -m livro.agenda_modo "$AGENDA")
           fi
           echo "modo=${MODO:-intradia}" >> "$GITHUB_OUTPUT"
