@@ -130,10 +130,14 @@ ou a ferramenta `mcp__github__get_file_contents` (ref `dados`).
    - **R5.** "Dia" so e dia com um pregao. O card ja escreve "_(2 pregoes)_",
      "_(dia dd/mm)_", "_(parcial)_", "_(D-1, dd/mm)_" ou "a confirmar": repita o rotulo
      se citar o numero, ou omita.
-   - **R6.** Alerta ja entregue que o dado atual desmente (sinal invertido, nivel nao
-     atingido, sequencia quebrada) vira "CORRECAO:" na primeira linha do turno, com o
-     numero entregue e o certo. No painel, faixa de correcao no topo e selo "numero
-     errado · ver correcao" na linha.
+   - **R6.** Alerta ja entregue que o dado atual desmente vira "CORRECAO:" na primeira
+     linha do turno, com o numero entregue e o certo. Para alerta de preco (F01-F06,
+     T05) o runner ja faz isso sozinho na manha e no fechamento: o card "Correcao de
+     alertas ja enviados" vem no topo dos cards (`leitura_insumos.correcoes`), a faixa
+     no painel e a primeira parte do push. Voce cola o card e abre a resposta com ele.
+     Erro que o runner nao pega (texto seu, nivel nao atingido, sequencia quebrada):
+     voce escreve a CORRECAO, e no painel poe a faixa no topo e o selo "numero errado ·
+     ver correcao" na linha.
    - **R7.** Antes de ler qualquer .md de `livro/saida`, confira a data: `git log -1
      --format=%ad origin/dados -- livro/saida/<arquivo>`. Arquivo de outro dia ou de
      outro slot nao e lido como atual.
