@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 15h21
+NOTÍCIAS E FATOS · 25/09 16h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 439 veículo fora da lista, 45 sem ativo, 2 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 436 veículo fora da lista, 43 sem ativo, 14 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,8 +87,21 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (106)
+## OUTRAS NOTÍCIAS (só manchete) (119)
 
+· USDBRL Café sobe com queda do dólar e arábica atinge máxima em uma semana em NY (CNN Brasil) https://www.cnnbrasil.com.br/agro/cafe-sobe-com-queda-do-dolar-e-arabica-atinge-maxima-em-uma-semana-em-ny/
+· SBSP3 Sabesp recupera terreno na B3 e mira próximos catalisadores após tombo no 2T26 (ADVFN) https://br.advfn.com/jornal/2026/09/sabesp-recupera-terreno-na-b3-e-mira-proximos-catalisadores-apos-tombo-no-2t26
+· MELI34 Mercado Livre (MELI34) vai às farmácias: por que analistas veem potencial, mas mantêm um alerta (Money Times) https://www.moneytimes.com.br/mercado-livre-meli34-avanco-em-farmacias-abre-nova-frente-de-crescimento-mas-pressao-nas-margens-seguem-no-radar-veja-lmrs/
+· GOOGL Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemi… (Yahoo Finance) https://finance.yahoo.com/technology/articles/sundar-pichai-reported-alphabets-cloud-185200432.html
+· DI Inter vê Selic a 13,25% no fim do ano, mas pondera que eleição pode mudar rumo dos juros em 2027 (Money Times) https://www.moneytimes.com.br/inter-ve-selic-a-1325-no-fim-do-ano-mas-pondera-que-eleicao-pode-mudar-rumo-dos-juros-em-2027/
+· PLTR Palantir's Latest $250 Target Comes With a Catch (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3ca0162db094b:0-palantir-s-latest-250-target-comes-with-a-catch/
+· ITUB4 Itaú (ITUB4) vale US$ 9,9 bilhões e é vice-líder na América Latina; veja ranking (Suno Noticias) https://www.suno.com.br/noticias/itau-itub4-marca-mais-valiosa-brasil-ranking-2026-mt/
+· BBDC4 Leilão do Bradesco tem mais de 95 imóveis com até 85% de desconto (Exame) https://exame.com/invest/mercados/leilao-do-bradesco-tem-mais-de-95-imoveis-com-ate-85-de-desconto/
+· AMD Is AMD Stock Priced Right Against Its Chip Peers? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-stock-priced-against-chip-183430014.html
+· BAC Bank of America Harshly Resets Nike Stock Target For 2026 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fc42514ad094b:0-bank-of-america-harshly-resets-nike-stock-target-for-2026/
+· JPM JPMorgan Ultra-Short Income ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh (TradingView (Reuters)) https://www.tradingview.com/symbols/BMFBOVESPA-JPST39/financials-earnings/
+· UST Treasury Bond Yields Resume Their March Higher to End the Week (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQVXNQRmw2N0NQY0pRdDNNZHliZmw1R0g4RWo0YlRUcWpIbXFKdFEyRURRVVM5cy1VaENNQWY1MUF4bVd4QUM2UVVMaFdRSW1fWFdkc0xQakVicVBneXpHd21sOWZWaVBMOGZFQ3Nzb2xDSVlqNDU2VC1hN1hzSUVJbzRhU0Vpbm9ndjVFQXlJcEloaUtnMXZJUlNn?oc=5
+· PETR4 Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras (CNN Brasil) https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY0JXN24yWG5MWXhyNDV0aGVBTDg0UlZweWdraVFTY1A5OUJsYklUNWF5enZ3R3dDcnRFa1FDRkVJMjNBUXhvV2hMY2d4dGdIRHNuYm8wRllMcnpUWFVjTUNzeDZiT005Q3phc0ZRVC1feDdycldRTjJPeXpDLTR5V0p1T0NDUEVNaWRkelFVdFpXYnk4RmZNSkItNGF0S05Zdk1PNGdEc2tGMGNPbGFlMmd5bE90UFgzZ2drSm51azg?oc=5
 · LITE Lumentum’s $40 EPS Bet Changes Everything (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4949823-lumentum-40-eps-bet-changes-everything
 · PETR4 Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras (CNN Brasil) https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/lobista-lulinha-e-marcola-teriam-atuado-por-contrato-na-petrobras/
 · NVDA Nvidia (NVDA) Down 1.5% Since Last Earnings Report: Can It Rebound? (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-nvda-down-1-5-143007586.html
@@ -136,17 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · GOOGL Alphabet's $30 Billion SpaceX Bill Isn't What It Looks Like (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949730-alphabets-30-billion-spacex-bill-isnt-what-it-looks-like
 · BTC Bitcoin holders are cashing out, just not the way they did at prior market tops : Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops
 · MU Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-likely-beat-q4-earnings-112000154.html
-· EQTL3 Shell não prevê atividades exploratórias de curto prazo em Barreirinhas, na Margem Equatorial (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/24/shell-nao-preve-atividades-exploratorias-de-curto-prazo-em-barreirinhas-na-margem-equatorial.htm
-· BRENT Dólar sobe a R$ 5,19 e Bolsa cai, com petróleo e política de juros no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/24/dolar-bolsa-abre-hoje-24-de-setembro-de-2026.ghtm
-· NVDA Nvidia Stock: Here’s How Many AI Chips SpaceX Is Buying. (Barron's) https://www.barrons.com/articles/nvidia-stock-price-spacex-chips-musk-35c62365
-· AMZN Inside the Quantum Race: How Microsoft and Amazon Plan to Own Cloud Ecosystems (Barron's) https://www.barrons.com/articles/microsoft-amazon-quantum-computing-536512fd
-· KLBN4 Suzano (SUZB3) e Klabin (KLBN11): XP contraria BTG e BBI, recomenda as duas — mas tem uma favorita (Money Times) https://www.moneytimes.com.br/suzano-suzb3-e-klabin-klbn11-xp-contraria-btg-e-bbi-recomenda-as-duas-mas-tem-uma-favorita-pads/
-· AMD AMD Is On The Edge… Of One More Inflection (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949772-amd-is-on-the-edge-of-one-more-inflection
-· UST Latam assets head for weekly losses as rising Treasury yields weigh; Brazil inflation tops forecasts (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45H0RM:0-latam-assets-head-for-weekly-losses-as-rising-treasury-yields-weigh-brazil-inflation-tops-forecasts/
-· JPM JPMorgan Says Bitcoin’s Rally Lessens Pressure On Crypto Miners (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-says-bitcoin-rally-lessens-142900102.html
-· PETR4 Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4 e VALE3 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-25092026/
-· COHR What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters? (Yahoo Finance) https://sg.finance.yahoo.com/news/coherent-cohr-really-betting-photonlink-141007657.html
-· TSLA StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/stonex-reiterates-buy-rating-on-tesla-stock-ahead-of-q3-deliveries-93CH-4478313
-· UST Treasury Yield Surge Revives U.S. Debt Crisis Debate (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:25296d55a094b:0-treasury-yield-surge-revives-u-s-debt-crisis-debate/
-· USDBRL Dólar sobe a R$ 5,20 e Bolsa cai após IPCA-15 mostrar inflação mais forte (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/25/dolar-bolsa-abre-hoje-25-de-setembro-de-2026.ghtm
-· (+46 manchetes; lista completa em eventos/noticias.json)
+· (+59 manchetes; lista completa em eventos/noticias.json)

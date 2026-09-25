@@ -2,16 +2,19 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 LITE · Lumentum’s $40 EPS Bet Changes Everything (NASDAQ:LITE)
+· E05 USDBRL · Café sobe com queda do dólar e arábica atinge máxima em uma semana em NY
+· E05 SBSP3 · Sabesp recupera terreno na B3 e mira próximos catalisadores após tombo no 2T26
+· E05 MELI34 · Mercado Livre (MELI34) vai às farmácias: por que analistas veem potencial, mas mantêm um alerta
+· E05 GOOGL · Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemi…
+· E05 DI · Inter vê Selic a 13,25% no fim do ano, mas pondera que eleição pode mudar rumo dos juros em 2027
+· E05 PLTR · Palantir's Latest $250 Target Comes With a Catch
+· E05 ITUB4 · Itaú (ITUB4) vale US$ 9,9 bilhões e é vice-líder na América Latina; veja ranking
+· E05 BBDC4 · Leilão do Bradesco tem mais de 95 imóveis com até 85% de desconto
+· E05 AMD · Is AMD Stock Priced Right Against Its Chip Peers?
+· E05 BAC · Bank of America Harshly Resets Nike Stock Target For 2026
+· E05 JPM · JPMorgan Ultra-Short Income ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh
+· E05 UST · Treasury Bond Yields Resume Their March Higher to End the Week
 · E05 PETR4 · Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras
-· E05 NVDA · Nvidia (NVDA) Down 1.5% Since Last Earnings Report: Can It Rebound?
-· E05 NVDA · What Does NVIDIA Offer That Texas Instruments Does Not?
-· E05 JPM · Genius Sports rallies after JPMorgan initiates at overweight with $8 PT
-· E05 TSLA · Tesla Starts Semi Deliveries Nearly Nine Years After Unveiling
-· E05 BAC · Bank of America Corporation (BAC-PE) Stock Price, News, Quote & History
-· E05 BAC · 'Risks are rising' for Nike's turnaround, Bank of America says. Sell shares now
-· E05 JPM · Lionsgate edges lower premarket after JPMorgan starts coverage at underweight
-· E05 NVDA · The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA
 
 
 Alertas do dia (todos, com status):
@@ -22,4 +25,4 @@ Alertas do dia (todos, com status):
 · entregue  E03 AXIA3 — AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alo
 · entregue  E05 PETR4 — PETR4 · Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça prefer
 · entregue  E05 BABA — BABA · BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that A
-· (+108 notícias só manchete, em noticias.md)
+· (+121 notícias só manchete, em noticias.md)
