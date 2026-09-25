@@ -1,30 +1,14 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] T05 · UGPA3 -5,8% no dia a R$ 36,56: movimento de 3,8 desvios para uma vol de 20 dias de 25% a.a.
+(pendente de slot anterior) [CRÍTICO] T05 · UGPA3 -5,8% no dia a R$ 36,56: movimento de 3,8 desvios para uma vol de 20 dias de 25% a.a.
 1m +9,3% · 6m +33% · YTD +80%
 Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 Como falar: 'o movimento de hoje é atípico para este papel; antes de mexer, saber o motivo'
 Fonte: Yahoo Finance fech. 25/09
-Push: [CRÍTICO] UGPA3 -5,8% no dia a R$ 36,56 · detalhe na sessão
 ids: T05-UGPA3-queda-2026-09-25
 
 Info (só linha no Fechamento):
-· T01 GOOGL retomou a média de 200 dias pela 2ª sessão: US$ 343,92 vs MM200 US$ 337,82 (+1,8%)
-· T01 USDBRL retomou a média de 200 dias pela 2ª sessão: R$ 5,1851 vs MM200 R$ 5,1695 (+0,3%)
-· T02 KLBN4 perdeu a MM50 pela 2ª sessão: R$ 3,58, já abaixo da MM200 (confirma tendência de baixa)
-· T02 ALUP4 perdeu a MM50 pela 2ª sessão: R$ 10,53, ainda acima da MM200 (tendência longa preservada)
-· T12 WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 6 quedas seguidas (-4,2% acumulado) a US$ 64,61
-· E03 ALUP4 · Aviso aos Acionistas: Outros avisos
-· E03 AXIA3 · Aviso aos Acionistas: Outros avisos
-· E05 USDBRL · Ibovespa recua pela 3ª sessão e fecha semana em baixa de 1%; dólar vai a R$ 5,18
-· E05 BRENT · Juros futuros caem em dia de baixa do petróleo e IPCA-15, com eleição em foco
-· E05 DI · Selic não deu conta? Economista-chefe do Inter explica alta do crédito e fala de medidas pelo BC
-· E05 USDBRL · Dólar fecha em leve baixa com eleição, exterior e IPCA-15 no foco
-· E05 KO · The Coca-Cola Company Names Rob Gehring President of North America Operating Unit
-· E05 JPM · JPMorgan Chase (JPM) Stock Could Be Undervalued Based On Capital Returns
-· E05 GOOGL · Alphabet Inc. (GOOG) Stock Price, News, Quote & History
-· E05 GOOGL · Alphabet vs. Apple: Which Consumer AI Tech Stock Has an Edge Now?
-· E05 BTC · MSTR, ASST Stocks Slide With Bitcoin: Strategy Proposes Daily Dividends, Matt Cole Challenges MSCI Rules
+· E05 PLTR · Palantir Co-Founder and FTC Chairman Put AI Accountability in Focus at Reuters Momentum AI Austin 2026
 · C03 DI em nível: F35 cruzou 14,00% (para baixo, agora 13,97%)
 · T01 BBAS3 fechou abaixo da média de 200 dias pela 2ª sessão: R$ 21,59 vs MM200 R$ 21,78 (-0,9%)
 · T08 BRENT entrou em correção: -12% do pico de 52s (US$ 118,35 em 31/03) a US$ 104,37
@@ -48,4 +32,4 @@ Alertas do dia (todos, com status):
 · linha     T02 KLBN4 — KLBN4 perdeu a MM50 pela 2ª sessão: R$ 3,58, já abaixo da MM200 (confirma tendên
 · linha     T02 ALUP4 — ALUP4 perdeu a MM50 pela 2ª sessão: R$ 10,53, ainda acima da MM200 (tendência lo
 · linha     T12 WUTI — WUTI (State Street SPDR MSCI World Utilities UCITS ETF (USD)): 6 quedas seguidas
-· (+142 notícias só manchete, em noticias.md)
+· (+143 notícias só manchete, em noticias.md)

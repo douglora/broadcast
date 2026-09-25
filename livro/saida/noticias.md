@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 18h12
+NOTÍCIAS E FATOS · 25/09 18h24
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 436 veículo fora da lista, 43 sem ativo, 8 teto) · cvm ok 2 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 1 novas (18 consultas; descartadas: 438 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -105,8 +105,9 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (138)
+## OUTRAS NOTÍCIAS (só manchete) (139)
 
+· PLTR Palantir Co-Founder and FTC Chairman Put AI Accountability in Focus at Reuters Momentum AI Austin 2026 (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantir-co-founder-ftc-chairman-210600690.html
 · USDBRL Ibovespa recua pela 3ª sessão e fecha semana em baixa de 1%; dólar vai a R$ 5,18 (Exame) https://exame.com/invest/mercados/ibovespa-ibov-fechamento-25-09-2026/
 · BRENT Juros futuros caem em dia de baixa do petróleo e IPCA-15, com eleição em foco (InfoMoney) https://www.infomoney.com.br/mercados/juros-futuros-caem-em-dia-de-baixa-do-petroleo-e-ipca-15-com-eleicao-em-foco/
 · DI Selic não deu conta? Economista-chefe do Inter explica alta do crédito e fala de medidas pelo BC (Money Times) https://www.moneytimes.com.br/selic-nao-deu-conta-economista-chefe-do-inter-explica-alta-do-credito-e-fala-de-medidas-pelo-bc-jcav/
@@ -166,5 +167,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · MU Micron investors should get ready for a seesaw ride, analyst says (MarketWatch) https://www.marketwatch.com/story/micron-investors-should-get-ready-for-a-seesaw-ride-analyst-says-1c0cc651
 · AXIA3 Axia Energia e Copel podem ganhar, com preços de energia acima das projeções (ADVFN) https://br.advfn.com/jornal/2026/09/axia-energia-e-copel-podem-ganhar-com-precos-de-energia-acima-das-projecoes
 · BTC MSTR, ASST Stocks Slide With Bitcoin: Strategy Proposes Daily Dividends, Matt Cole Challenges MSCI Rules (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:543a92583094b:0-mstr-asst-stocks-slide-with-bitcoin-strategy-proposes-daily-dividends-matt-cole-challenges-msci-rules/
-· TSLA Tesla's Semi Is Finally Moving Into a Bigger Test (Yahoo Finance) https://uk.finance.yahoo.com/news/teslas-semi-finally-moving-bigger-153812645.html
-· (+78 manchetes; lista completa em eventos/noticias.json)
+· (+79 manchetes; lista completa em eventos/noticias.json)
