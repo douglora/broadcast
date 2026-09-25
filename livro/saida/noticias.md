@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 12h21
+NOTÍCIAS E FATOS · 25/09 12h50
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 434 veículo fora da lista, 51 sem ativo, 2 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 435 veículo fora da lista, 53 sem ativo, 0 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,8 +87,17 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (57)
+## OUTRAS NOTÍCIAS (só manchete) (66)
 
+· BRENT Dólar cai com queda dos preços do petróleo; iene se valoriza após declarações do Japão (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45H0TK:0/
+· UST Treasury Yields Back on the Rise (TradingView (Reuters)) https://www.tradingview.com/news/te_news:586974:0-treasury-yields-back-on-the-rise/
+· BTC XRP, Solana Lead Crypto Majors With Bitcoin Stuck Below $85K, BTC ETF Inflows Turning Positive For 2026 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:cc09a2ddf094b:0-xrp-solana-lead-crypto-majors-with-bitcoin-stuck-below-85k-btc-etf-inflows-turning-positive-for-2026/
+· CVX Chevron's Cost Discipline: Turning Efficiency Into Lasting Value (TradingView (Reuters)) https://www.tradingview.com/news/zacks:bfd071af1094b:0-chevron-s-cost-discipline-turning-efficiency-into-lasting-value/
+· GOOGL Alphabet's $30 Billion SpaceX Bill Isn't What It Looks Like (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949730-alphabets-30-billion-spacex-bill-isnt-what-it-looks-like
+· BTC Bitcoin holders are cashing out, just not the way they did at prior market tops : Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops
+· MU Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-likely-beat-q4-earnings-112000154.html
+· EQTL3 Shell não prevê atividades exploratórias de curto prazo em Barreirinhas, na Margem Equatorial (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/24/shell-nao-preve-atividades-exploratorias-de-curto-prazo-em-barreirinhas-na-margem-equatorial.htm
+· BRENT Dólar sobe a R$ 5,19 e Bolsa cai, com petróleo e política de juros no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/24/dolar-bolsa-abre-hoje-24-de-setembro-de-2026.ghtm
 · NVDA Nvidia Stock: Here’s How Many AI Chips SpaceX Is Buying. (Barron's) https://www.barrons.com/articles/nvidia-stock-price-spacex-chips-musk-35c62365
 · AMZN Inside the Quantum Race: How Microsoft and Amazon Plan to Own Cloud Ecosystems (Barron's) https://www.barrons.com/articles/microsoft-amazon-quantum-computing-536512fd
 · KLBN4 Suzano (SUZB3) e Klabin (KLBN11): XP contraria BTG e BBI, recomenda as duas — mas tem uma favorita (Money Times) https://www.moneytimes.com.br/suzano-suzb3-e-klabin-klbn11-xp-contraria-btg-e-bbi-recomenda-as-duas-mas-tem-uma-favorita-pads/
@@ -140,9 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · KO The Coca-Cola Company (KO) latest stock news and headlines (Yahoo Finance) https://au.finance.yahoo.com/quote/KO/news/
 · UST Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus (Yahoo Finance) https://uk.finance.yahoo.com/news/gold-set-weekly-loss-treasury-092238039.html
 · BRENT Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Edge Higher (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-stay-near-multiyear-highs-in-asian-trade-69ae3ed8
-· UST 10-year Treasury yield tops rental cap rate for first time in 20 years (Seeking Alpha) https://seekingalpha.com/news/4646992-10-year-treasury-yield-tops-rental-cap-rate-for-first-time-in-20-years
-· BTC Bitcoin Falls Back Below $85K As Treasury Yields Jump Above 5% (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:76b7fad47094b:0-bitcoin-falls-back-below-85k-as-treasury-yields-jump-above-5/
-· UST U.S. Treasury yields tick higher as global bond rout slows (CNBC) https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html
-· AXIA3 Movida capta R$ 1,3 bi e Axia levanta R$ 1,4 bi (Valor Economico) https://valor.globo.com/google/amp/financas/noticia/2026/09/25/movida-capta-r-13-bi-e-axia-levanta-r-14-bi.ghtml
-· BTC Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxPWFQ3Q25xVXU4d1ZDYmtsV1pCMUpXcVE2Tk81c2VKTTFQUC1TMWlFOWxqZ3lKcGJLVExIdFplODhZUlZwa3kwOEVnTzZOU09EUzFWTUNjSkFfOUFkaFN4dGNFWWlaMXVNMmJJSTI4X0dHV0hqNnJWNk5Tc2hBUjMtc2I4dENZMVZhZGtTdFNsTkRydUtvVmQzUjFmZ29XTG9HSWRXQW43b0VxVGpkMHpVYTdFVGdkS2tHZWVNVkV2S2VIbm1fdmc?oc=5
-· BTC Bitcoin pauses near $84k with focus on rate jitters, Bitget hack (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNY0h2QWdQeFlUQ2pCSmV6QmR3cVI1cnVJVW1aU1QtWGxlMGpSamtPaUhGbzdaN1ZDYm0zQi05ZVJ3ZDJYRHdXaW12THA4WE1Dd2ZvYlFNbjAtdTlhNXpfXzc1Q1NXYjhIOUhjdG5TeHFhc1QtOGJWajRsTFRWMVFpZmkxVFFsekFYbUhtUzFUdEJWOE05c0NSUGJn?oc=5
+· (+6 manchetes; lista completa em eventos/noticias.json)

@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · UST · Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields
+(pendente de slot anterior) [ATENÇÃO] E05 · UST · Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields
 TradingView (Reuters) · 25/09 09h28 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/zacks:bebb37458094b:0-bet-on-these-5-dividend-growth-stocks-amid-rising-treasury-yields/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: UST
 Como falar: 'saiu no TradingView (Reuters): Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/09 09h28
-Push: intradia: 2 alertas de atenção — E05 UST, E05 CVX · detalhe na sessão
 ids: E05-UST-d638899109-2026-09-25
 
-[ATENÇÃO] E05 · CVX · HSBC raises Chevron stock price target to $250 on oil sensitivity
+(pendente de slot anterior) [ATENÇÃO] E05 · CVX · HSBC raises Chevron stock price target to $250 on oil sensitivity
 Investing.com · 25/09 04h36 · fonte única · licença: manchete
 Link: https://uk.investing.com/news/stock-market-news/hsbc-raises-chevron-stock-price-target-to-250-on-oil-sensitivity-93CH-4882656
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
@@ -20,20 +19,15 @@ Fonte: Investing.com 25/09 04h36
 ids: E05-CVX-7ae0502ddd-2026-09-25
 
 Info (só linha no Fechamento):
-· E05 NVDA · Nvidia Stock: Here’s How Many AI Chips SpaceX Is Buying.
-· E05 AMZN · Inside the Quantum Race: How Microsoft and Amazon Plan to Own Cloud Ecosystems
-· E05 KLBN4 · Suzano (SUZB3) e Klabin (KLBN11): XP contraria BTG e BBI, recomenda as duas — mas tem uma favorita
-· E05 AMD · AMD Is On The Edge… Of One More Inflection (NASDAQ:AMD)
-· E05 UST · Latam assets head for weekly losses as rising Treasury yields weigh; Brazil inflation tops forecasts
-· E05 JPM · JPMorgan Says Bitcoin’s Rally Lessens Pressure On Crypto Miners
-· E05 PETR4 · Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4 e VALE3
-· E05 COHR · What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters?
-· E05 TSLA · StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries By Investing.com
-· E05 UST · Treasury Yield Surge Revives U.S. Debt Crisis Debate
-· E05 USDBRL · Dólar sobe a R$ 5,20 e Bolsa cai após IPCA-15 mostrar inflação mais forte
-· E05 BRENT · Mercado fecha semana com IPCA-15, petróleo em alta e crise Vorcaro
-· E05 MELI34 · O que o Mercado Livre (MELI34) fez para derrubar as ações das farmacêuticas?
-· E05 UST · Treasury yields rise again to end a volatile week
+· E05 BRENT · Dólar cai com queda dos preços do petróleo; iene se valoriza após declarações do Japão
+· E05 UST · Treasury Yields Back on the Rise
+· E05 BTC · XRP, Solana Lead Crypto Majors With Bitcoin Stuck Below $85K, BTC ETF Inflows Turning Positive For 2026
+· E05 CVX · Chevron's Cost Discipline: Turning Efficiency Into Lasting Value
+· E05 GOOGL · Alphabet's $30 Billion SpaceX Bill Isn't What It Looks Like (NASDAQ:GOOG)
+· E05 BTC · Bitcoin holders are cashing out, just not the way they did at prior market tops : Crypto Daily
+· E05 MU · Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock?
+· E05 EQTL3 · Shell não prevê atividades exploratórias de curto prazo em Barreirinhas, na Margem Equatorial
+· E05 BRENT · Dólar sobe a R$ 5,19 e Bolsa cai, com petróleo e política de juros no radar
 
 
 Alertas do dia (todos, com status):
@@ -44,5 +38,5 @@ Alertas do dia (todos, com status):
 · entregue  E03 AXIA3 — AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alo
 · entregue  E05 PETR4 — PETR4 · Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça prefer
 · entregue  E05 BABA — BABA · BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that A
-· (+59 notícias só manchete, em noticias.md)
+· (+68 notícias só manchete, em noticias.md)
 
