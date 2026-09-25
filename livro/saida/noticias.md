@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 25/09 17h21
+NOTÍCIAS E FATOS · 25/09 18h12
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 408 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 436 veículo fora da lista, 43 sem ativo, 8 teto) · cvm ok 2 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado do segundo trimestre…
 CVM · entregue 25/09/2026 08:13
@@ -14,6 +14,24 @@ Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
 Fonte: CVM 25/09
 id: E03-AXIA3-1571417-2026-09-25 · status: entregue · íntegra disponível
+
+[INFO] E03 · ALUP4 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 25/09/2026 18:01 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571755
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: ALUP4
+Como falar: 'a Alupar publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 25/09
+id: E03-ALUP4-1571755-2026-09-25 · status: linha
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 25/09/2026 17:35 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571736
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 25/09
+id: E03-AXIA3-1571736-2026-09-25 · status: linha
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 25/09/2026 09:18 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -87,8 +105,17 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (129)
+## OUTRAS NOTÍCIAS (só manchete) (138)
 
+· USDBRL Ibovespa recua pela 3ª sessão e fecha semana em baixa de 1%; dólar vai a R$ 5,18 (Exame) https://exame.com/invest/mercados/ibovespa-ibov-fechamento-25-09-2026/
+· BRENT Juros futuros caem em dia de baixa do petróleo e IPCA-15, com eleição em foco (InfoMoney) https://www.infomoney.com.br/mercados/juros-futuros-caem-em-dia-de-baixa-do-petroleo-e-ipca-15-com-eleicao-em-foco/
+· DI Selic não deu conta? Economista-chefe do Inter explica alta do crédito e fala de medidas pelo BC (Money Times) https://www.moneytimes.com.br/selic-nao-deu-conta-economista-chefe-do-inter-explica-alta-do-credito-e-fala-de-medidas-pelo-bc-jcav/
+· USDBRL Dólar fecha em leve baixa com eleição, exterior e IPCA-15 no foco (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/09/25/dolar-fecha-em-leve-baixa-com-eleicao-exterior-e-ipca-15-no-foco.htm
+· KO The Coca-Cola Company Names Rob Gehring President of North America Operating Unit (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-names-rob-201500147.html
+· JPM JPMorgan Chase (JPM) Stock Could Be Undervalued Based On Capital Returns (Yahoo Finance) https://sg.finance.yahoo.com/news/jpmorgan-chase-jpm-stock-could-201236935.html
+· GOOGL Alphabet Inc. (GOOG) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/GOOG/
+· GOOGL Alphabet vs. Apple: Which Consumer AI Tech Stock Has an Edge Now? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiugFBVV95cUxQQXZKbXNYS0ZwTzJvb21RZjFwZHJ0QXJlN2VvRzJjVE11TXY4c0pYUGhuT0lhU01wMFR4VGFfRWhibVdicXVnaHdEampwODZHZ2g2MnZNSDVEWW9Zc0s0UTZnS1hoQ3hGcjRuUHFUSnFCbVg4T3JUWUc2UUVRZGE1RW9NTFJPbzladHFFSU8zVzAxcDM5Q3VycnBBR1ppVHJCVGcxTnhMSmg4YjZtZjJvYzFDdWZIMFFwUnc?oc=5
+· BTC MSTR, ASST Stocks Slide With Bitcoin: Strategy Proposes Daily Dividends, Matt Cole Challenges MSCI Rules (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXQtZnhXUnZCd01pUlNsLXlGTG9BR2w2SVotcE00Q2dPcnFTQkhnVzhKZ2lrZmRZWnVHSVpXU0ZrUDZlMG5NS243M1hBNVRrdHRzVzdsQTdjWTBodnNuSGpJZ0xpbmNqZ2FoWDNkNmlUbEEwSVlHZWlpUlA1T1hER2Q5b2RqbC1ZbmI0bWJKbkNtaVhzampkSjJ6MA?oc=5
 · PETR4 Ibovespa recua com Petrobras (PETR4) e ignora alívio externo; dólar cai a R$ 5,18 (Money Times) https://www.moneytimes.com.br/ibovespa-25-9-26-lils/
 · USDBRL Dólar cai a R$ 5,18 e Bolsa recua após IPCA-15 mostrar alta da inflação (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/25/dolar-bolsa-fechamento-hoje-25-de-setembro-de-2026.ghtm
 · USDBRL Dólar acompanha exterior e cai a R$ 5,18; moeda tem saldo positivo na semana (Money Times) https://www.moneytimes.com.br/dolar-25-9-26-lils/
@@ -140,13 +167,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · AXIA3 Axia Energia e Copel podem ganhar, com preços de energia acima das projeções (ADVFN) https://br.advfn.com/jornal/2026/09/axia-energia-e-copel-podem-ganhar-com-precos-de-energia-acima-das-projecoes
 · BTC MSTR, ASST Stocks Slide With Bitcoin: Strategy Proposes Daily Dividends, Matt Cole Challenges MSCI Rules (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:543a92583094b:0-mstr-asst-stocks-slide-with-bitcoin-strategy-proposes-daily-dividends-matt-cole-challenges-msci-rules/
 · TSLA Tesla's Semi Is Finally Moving Into a Bigger Test (Yahoo Finance) https://uk.finance.yahoo.com/news/teslas-semi-finally-moving-bigger-153812645.html
-· MU Micron's 279% Rally Is Heading Into a Big Earnings Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:20324a450094b:0-micron-s-279-rally-is-heading-into-a-big-earnings-test/
-· BAC Bank of America Cuts 2027 Luxury Forecast as Q3 Demand Growth Slows (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-cuts-2027-luxury-151500313.html
-· JPM JPMorgan Says Bitcoin’s Rally Lessens Pressure On Crypto Miners (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWpVLVVTQTlnVmZ0R21vLXgzX1NMVThMWkZ4VXhMaWxHOWRES19pZWpySmticDhKZWV0U1d5NjVyYThKVE1RelRaekZkS2ZOTnVNWnQ4MUJXeHY1eTkzd3MxcU9JaDNabWduTm9Ed0NualRuS2xaS1l3dnJQdUlrcUh1eGQ5TDFjWnIya2J1SVVfT0Z3bllFOW56VTA1REl1U3c?oc=5
-· NVDA What Does NVIDIA Offer That Texas Instruments Does Not? (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxOeFRFWUQzT016b1M3TEdzblNndTR3bFBYOF9pUE9FOWxHclNGUWo4N3BSYU1hTmQ5Z2dDV1pTczV5OE8wakIxUjQxaFNYb2xyTm5yOTRFZE94RGo3WEM1Q2FVVndXZHBUaUlMeW5aelBtVnIwRUhEV3RlSkNXTmUyNktOQTFiZ2MyUUdTZHI4bWNuLXF3N3VkYTc1Q25tOVBYWnc?oc=5
-· AMZN Amazon Stock: Is AI Capex Outrunning the Payback? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-stock-ai-capex-outrunning-154022623.html
-· TSLA Tesla’s Optimus Reportedly Hits Production Snags — StoneX Stays Bullish Ahead Of Q3 Vehicle Deliveries (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-optimus-reportedly-hits-production-153553771.html
-· MMM 3M vs. Honeywell: Which Industrial Conglomerate is a Stronger Pick? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-vs-honeywell-industrial-conglomerate-150400473.html
-· JPM JPMorgan Preferreds: The Temptation Of A 54% Redemption Upside (NYSE:JPM.PR.M) (Seeking Alpha) https://seekingalpha.com/article/4949766-jp-morgan-preferreds-the-temptation-of-a-54-percent-redemption-upside
-· UST Mortgage and refinance interest rates today, Friday, September 25, 2026: Rates surge alongside Treasury yields (Yahoo Finance) https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-25-2026-rates-surge-alongside-treasury-yields-100000783.html
-· (+69 manchetes; lista completa em eventos/noticias.json)
+· (+78 manchetes; lista completa em eventos/noticias.json)
