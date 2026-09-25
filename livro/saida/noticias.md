@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 11h22
+NOTÍCIAS E FATOS · 25/09 12h21
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 430 veículo fora da lista, 45 sem ativo, 7 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 434 veículo fora da lista, 51 sem ativo, 2 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -25,7 +25,25 @@ Fonte: CVM 25/09
 id: E03-PETR4-1571419-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (3)
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · UST · Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields
+TradingView (Reuters) · 25/09 09h28 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/zacks:bebb37458094b:0-bet-on-these-5-dividend-growth-stocks-amid-rising-treasury-yields/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: UST
+Como falar: 'saiu no TradingView (Reuters): Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 25/09 09h28
+id: E05-UST-d638899109-2026-09-25 · status: pendente
+
+[ATENÇÃO] E05 · CVX · HSBC raises Chevron stock price target to $250 on oil sensitivity
+Investing.com · 25/09 04h36 · fonte única · licença: manchete
+Link: https://uk.investing.com/news/stock-market-news/hsbc-raises-chevron-stock-price-target-to-250-on-oil-sensitivity-93CH-4882656
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: CVX
+Como falar: 'saiu no Investing.com: HSBC raises Chevron stock price target to $250 on oil sensitivity; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 25/09 04h36
+id: E05-CVX-7ae0502ddd-2026-09-25 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: Goldman eleva preço-alvo e prevê US$ 2,7 bilhões em dividendos
 ADVFN · 25/09 10h11 · fonte única · licença: manchete
@@ -69,8 +87,22 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (43)
+## OUTRAS NOTÍCIAS (só manchete) (57)
 
+· NVDA Nvidia Stock: Here’s How Many AI Chips SpaceX Is Buying. (Barron's) https://www.barrons.com/articles/nvidia-stock-price-spacex-chips-musk-35c62365
+· AMZN Inside the Quantum Race: How Microsoft and Amazon Plan to Own Cloud Ecosystems (Barron's) https://www.barrons.com/articles/microsoft-amazon-quantum-computing-536512fd
+· KLBN4 Suzano (SUZB3) e Klabin (KLBN11): XP contraria BTG e BBI, recomenda as duas — mas tem uma favorita (Money Times) https://www.moneytimes.com.br/suzano-suzb3-e-klabin-klbn11-xp-contraria-btg-e-bbi-recomenda-as-duas-mas-tem-uma-favorita-pads/
+· AMD AMD Is On The Edge… Of One More Inflection (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4949772-amd-is-on-the-edge-of-one-more-inflection
+· UST Latam assets head for weekly losses as rising Treasury yields weigh; Brazil inflation tops forecasts (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45H0RM:0-latam-assets-head-for-weekly-losses-as-rising-treasury-yields-weigh-brazil-inflation-tops-forecasts/
+· JPM JPMorgan Says Bitcoin’s Rally Lessens Pressure On Crypto Miners (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-says-bitcoin-rally-lessens-142900102.html
+· PETR4 Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4 e VALE3 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-25092026/
+· COHR What Is Coherent (COHR) Really Betting On With PhotonLink For AI Datacenters? (Yahoo Finance) https://sg.finance.yahoo.com/news/coherent-cohr-really-betting-photonlink-141007657.html
+· TSLA StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/stonex-reiterates-buy-rating-on-tesla-stock-ahead-of-q3-deliveries-93CH-4478313
+· UST Treasury Yield Surge Revives U.S. Debt Crisis Debate (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:25296d55a094b:0-treasury-yield-surge-revives-u-s-debt-crisis-debate/
+· USDBRL Dólar sobe a R$ 5,20 e Bolsa cai após IPCA-15 mostrar inflação mais forte (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/25/dolar-bolsa-abre-hoje-25-de-setembro-de-2026.ghtm
+· BRENT Mercado fecha semana com IPCA-15, petróleo em alta e crise Vorcaro (Investing.com) https://news.google.com/rss/articles/CBMirAFBVV95cUxNSmFHbzR0dnllOXllZW54Rl9hTlFuYV80NkF5czl5Znd0VzVHc3hyeTgzRlp4eTBhcUxDLTBGclh6b1piUXZXQ0JUamRjbjBzUjltaWZ2eFBjUDZ0UC01bEozdzBzTDhkTkx3SUtlVjZ1N3NPUmxub1JkUW0xYmJaRzQ1dkg5T2FsbllENnYwX3I0aTR4VHRCUVR0T0dkc1NnWV9jai1iZ0Qtbjhf?oc=5
+· MELI34 O que o Mercado Livre (MELI34) fez para derrubar as ações das farmacêuticas? (Money Times) https://news.google.com/rss/articles/CBMirgFBVV95cUxQdk9VVDFZNFY5NnhlQUtRSWNoNEFBZmlqWHJla2YtZXcxcGJEWFJodXRHNzJNMU9HdDA0ZWo0SGE4NHJCbEhKMlBtalVVR0ZKaXF6Z2NJZkJ0YnlYUEtfOHJBTG94ZThMUGc3eG5BRTZwVUxwMkQtdU9nLTBJVGMwRWF1cF9KZmhlWWotbFBydEhlTnktMFAwMndwU2VSZzNDZmI3VDBDLTA3TnRSZUE?oc=5
+· UST Treasury yields rise again to end a volatile week (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTE4xS1pGNzRkMTVWWkk4LVdDdndhTTZ3OEdqd3FqZ1c1R3pMdlR6ZUdJbllYcXJQbWR4WEI1VmlUa2NKalBrZXl6R1U0WkF5R3lBNG9nUnJKLUwzOWs2MEZvN0FJOWppSnl6N3ZjQ3NQRTDSAXZBVV95cUxOeEIwRGVVemdBVTY5UlVRc05WUDFrOThJZUNNTk56NUhLUmIxMFdCSEZiM3VDbjJmWmg1V1VEa0o3WEUyMi1IRFU0NlpuVWJwN0tGUUM3STFnT184cDNpdTRKWmg5TFV5RmdoWlBFNk1RclUteThB?oc=5
 · MELI34 Ozempic no Mercado Livre emagrece as ações da RD Saúde (RADL3) e Pague Menos (PGMN3); bancos explicam o que falta para o Meli bater de frente com as… (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/ozempic-no-mercado-livre-emagrece-as-acoes-da-rd-saude-radl3-e-pague-menos-pgmn3-bancos-explicam-o-que-falta-para-o-meli-bater-de-frente-com-as-grandes-redes-kaes/
 · MU Two Numbers to Watch in Micron’s Earnings Report Next Week (Barron's) https://www.barrons.com/articles/micron-earnings-stock-price-ed735c79
 · AMD AMD CEO Lisa Su is having a September to remember (Yahoo Finance) https://finance.yahoo.com/markets/article/amd-ceo-lisa-su-is-having-a-september-to-remember-135902902.html
