@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 12h50
+NOTÍCIAS E FATOS · 25/09 13h21
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 435 veículo fora da lista, 53 sem ativo, 0 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 439 veículo fora da lista, 54 sem ativo, 0 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -34,7 +34,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: UST
 Como falar: 'saiu no TradingView (Reuters): Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 25/09 09h28
-id: E05-UST-d638899109-2026-09-25 · status: pendente
+id: E05-UST-d638899109-2026-09-25 · status: entregue
 
 [ATENÇÃO] E05 · CVX · HSBC raises Chevron stock price target to $250 on oil sensitivity
 Investing.com · 25/09 04h36 · fonte única · licença: manchete
@@ -43,7 +43,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: CVX
 Como falar: 'saiu no Investing.com: HSBC raises Chevron stock price target to $250 on oil sensitivity; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 25/09 04h36
-id: E05-CVX-7ae0502ddd-2026-09-25 · status: pendente
+id: E05-CVX-7ae0502ddd-2026-09-25 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: Goldman eleva preço-alvo e prevê US$ 2,7 bilhões em dividendos
 ADVFN · 25/09 10h11 · fonte única · licença: manchete
@@ -87,8 +87,16 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (66)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· AMZN Amazon Stock: Is AI Capex Outrunning the Payback? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-stock-ai-capex-outrunning-154022623.html
+· TSLA Tesla’s Optimus Reportedly Hits Production Snags — StoneX Stays Bullish Ahead Of Q3 Vehicle Deliveries (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-optimus-reportedly-hits-production-153553771.html
+· MMM 3M vs. Honeywell: Which Industrial Conglomerate is a Stronger Pick? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-vs-honeywell-industrial-conglomerate-150400473.html
+· JPM JPMorgan Preferreds: The Temptation Of A 54% Redemption Upside (NYSE:JPM.PR.M) (Seeking Alpha) https://seekingalpha.com/article/4949766-jp-morgan-preferreds-the-temptation-of-a-54-percent-redemption-upside
+· UST Mortgage and refinance interest rates today, Friday, September 25, 2026: Rates surge alongside Treasury yields (Yahoo Finance) https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-25-2026-rates-surge-alongside-treasury-yields-100000783.html
+· USDBRL Ibovespa cai a patamar de 182 mil pontos com eleições e IPCA-15; dólar sobe (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-25-setembro-2026/
+· MELI34 Mercado Livre (MELI34) anuncia venda de remédios com retenção de receita — incluindo canetas emagrecedoras (Money Times) https://www.moneytimes.com.br/mercado-livre-meli34-anuncia-venda-de-medicamentos-com-retencao-de-receita-incluindo-canetas-emagrecedoras-lmrs/
+· EQTL3 Shell não prevê atividades exploratórias de curto prazo em Barreirinhas, na Margem Equatorial - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/economia/shell-nao-preve-atividades-exploratorias-de-curto-prazo-em-barreirinhas-na-margem-equatorial-1148944
 · BRENT Dólar cai com queda dos preços do petróleo; iene se valoriza após declarações do Japão (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45H0TK:0/
 · UST Treasury Yields Back on the Rise (TradingView (Reuters)) https://www.tradingview.com/news/te_news:586974:0-treasury-yields-back-on-the-rise/
 · BTC XRP, Solana Lead Crypto Majors With Bitcoin Stuck Below $85K, BTC ETF Inflows Turning Positive For 2026 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:cc09a2ddf094b:0-xrp-solana-lead-crypto-majors-with-bitcoin-stuck-below-85k-btc-etf-inflows-turning-positive-for-2026/
@@ -141,12 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · UST Treasury Yields Are Spiking. Where to Invest in the Bond Market Now. (Barron's) https://news.google.com/rss/articles/CBMilgFBVV95cUxObWxvbzhkRTd6OGRVOGZ2Smtkclk4SDdnMV9QdVUxdDM1c19VQlBpaGZqR2J6aGQ4S1E4N0xnV1lrUGV1RGxtMXFUbFJyZjNpRXNUSkN1Nm13Qno4UmZxUlNwR1RxcUVSdEdtUFVWZ05fYTBMVFgza1ZBQklBWFljZzluS2Z3a3A5R1lxM294QzdxUHhvMFE?oc=5
 · BRENT Dólar abre em baixa, a R$ 5,18, com IPCA-15 e petróleo no radar (UOL Economia) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLXJxWG5DRDhBV2tGRDZkbjZpVmEwVnZHeE5SQ0ZxUi1tRms2QUZzMjdScVZZaUd5bkpjYjFFd08wanBUUmMtalBYY3RvSjZDRlFsZEpwbzk4bm9aa1g3U25NR2wzanc5MGVCdldINy1zSG5TUmRyRWQ3QmJhX3BfR3N5ZzBBd2hqWkpncGh6UUpLSHJ5d215TEZmT0ljV2YtOVZXelM1UHpwV0Y2LWwxekE0UXc1SXh3?oc=5
 · BTC Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000? (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html
-· BTC IBIT options price trading more calmly after Bitcoin rebound (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:1ac244e3d094b:0-ibit-options-price-trading-more-calmly-after-bitcoin-rebound/
-· MELI34 Fundo imobiliário vende galpões e reinveste recursos em projeto para o Mercado Livre; IFIX recua (Money Times) https://www.moneytimes.com.br/fundo-imobiliario-vende-galpoes-e-reinveste-recursos-em-projeto-para-o-mercado-livre-ifix-recua-igdl/
-· BTC Bitcoin, XRP and Solana All Gained Over 10% Last Week, Then Fell Together in a Day. Was That their Peak? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-solana-gained-over-103149346.html
-· USDBRL Veto às bets no Brasil e IPCA-15 fecham semana do mercado local; Ibovespa em dólar sobe nesta sexta-feira (25) (Money Times) https://www.moneytimes.com.br/veto-as-bets-no-brasil-e-ipca-15-fecham-semana-do-mercado-local-ibovespa-em-dolar-sobe-nesta-sexta-feira-25-rens/
-· UST Treasury Yields Edge Lower But Remain at Multi-Year Highs (TradingView (Reuters)) https://www.tradingview.com/news/te_news:586881:0-treasury-yields-edge-lower-but-remain-at-multi-year-highs/
-· KO The Coca-Cola Company (KO) latest stock news and headlines (Yahoo Finance) https://au.finance.yahoo.com/quote/KO/news/
-· UST Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus (Yahoo Finance) https://uk.finance.yahoo.com/news/gold-set-weekly-loss-treasury-092238039.html
-· BRENT Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Edge Higher (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-stay-near-multiyear-highs-in-asian-trade-69ae3ed8
-· (+6 manchetes; lista completa em eventos/noticias.json)
+· (+14 manchetes; lista completa em eventos/noticias.json)
