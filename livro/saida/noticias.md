@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 14h21
+NOTÍCIAS E FATOS · 25/09 14h52
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 438 veículo fora da lista, 53 sem ativo, 27 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 435 veículo fora da lista, 49 sem ativo, 0 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,8 +87,18 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (86)
+## OUTRAS NOTÍCIAS (só manchete) (96)
 
+· ITUB4 XP, Nubank, Itaú, Bradesco, Santander e BTG: dois bancos vão se dar melhor se a Selic cair, segundo o UBS BB (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/xp-nubank-itau-bradesco-santander-e-btg-dois-bancos-vao-se-dar-melhor-se-a-selic-cair-segundo-o-ubs-bb-ccgg/
+· SBSP3 Sabesp (SBSP3) se recupera na B3 após resultado ruim no 2T: chuvas fortes animaram? (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-se-recupera-na-b3-apos-resultado-ruim-no-2t-chuvas-fortes-animaram/
+· UST Treasury Bond Yields Resume Their March Higher to End the Week (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/eurozone-bond-yields-fall-oil-085300416.html
+· MU Micron Stock Flashes Unmistakable Signal Before Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:dd038d1d3094b:0-micron-stock-flashes-unmistakable-signal-before-earnings/
+· MMM 3M vs. Honeywell: Which Industrial Conglomerate is a Stronger Pick? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:8c3698af8094b:0-3m-vs-honeywell-which-industrial-conglomerate-is-a-stronger-pick/
+· NVDA AMD Just Joined Nvidia in the $1 Trillion Club. At $614, Wall Street Is Paying Too Much for a Distant No. 2. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-just-joined-nvidia-1-112300775.html
+· NVDA Elon Musk Aims to Double Colossus 2’s Nvidia Chips by Year-End (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-25/elon-musk-aims-to-double-colossus-2-s-nvidia-chips-by-year-end
+· UST Treasury Yields Touch 20-Year Highs, Fueled by Sticky Inflation, US Debt (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/treasury-yields-touch-20-highs-040100765.html
+· USDBRL Ibovespa cai de olho nos Treasuries e cenário fiscal; dólar sobe para perto de R$5,20 (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45G17X:0/
+· BRENT Oil prices settle up about 3% as Houthi attack on Saudi Arabia lifts supply fears (Reuters) https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5
 · ITUB4 Itaú Unibanco oferece 15 mil bolsas para bootcamp de Java com IA (Valor Economico) https://valor.globo.com/carreira/empregos-oportunidades/post/2026/09/itau-unibanco-oferece-15-mil-bolsas-para-bootcamp-de-java-com-ia.ghtml
 · MELI34 Farmácias ampliam queda na bolsa após avanço do Mercado Livre em remédios com receita (Exame) https://exame.com/invest/mercados/farmacias-ampliam-queda-na-bolsa-apos-avanco-do-mercado-livre-em-remedios-com-receita/
 · UST 10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds (CNBC) https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html
@@ -139,14 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · PETR4 Ibovespa hoje abre em queda com IPCA-15 acima do esperado; Petrobras e Vale caem (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-ipca-15-e-pesquisa-eleitoral-dividem-atencoes-nesta-sexta-feira/
 · UST Latest Treasury sell-off looks overdone, Pantheon says (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:6c75dda48094b:0-latest-treasury-sell-off-looks-overdone-pantheon-says/
 · BTC Simplify Bitcoin Strategy ETF declares monthly distribution of $0.0500 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:c05c30bf4094b:0-simplify-bitcoin-strategy-etf-declares-monthly-distribution-of-0-0500/
-· TSLA StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries (Investing.com) https://in.investing.com/news/stock-market-news/stonex-reiterates-buy-rating-on-tesla-stock-ahead-of-q3-deliveries-93CH-5606688
-· MU Countdown to Micron (MU) Q4 Earnings: A Look at Estimates Beyond Revenue and EPS (Yahoo Finance) https://sg.finance.yahoo.com/news/countdown-micron-mu-q4-earnings-121513849.html
-· UST Treasury Yields Are Spiking. Where to Invest in the Bond Market Now. (Barron's) https://www.barrons.com/articles/treasury-yields-spike-where-to-invest-bond-market-d4a362ef
-· BRENT Mercado fecha semana com IPCA-15, petróleo em alta e crise Vorcaro (Investing.com) https://br.investing.com/analysis/mercado-fecha-semana-com-ipca15-petroleo-em-alta-e-crise-vorcaro-200479833
-· AXIA3 Axia aprova mais R$ 4 bi em alocação de capital para resgate de ações PNC (InfoMoney) https://www.infomoney.com.br/mercados/axia-aprova-mais-r-4-bi-em-alocacao-de-capital-para-resgate-de-acoes-pnc/amp/
-· BRENT Bolsas de Nova York: petróleo cai, mas Brent se segura nos US$ 105 e pressiona Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bolsas-de-nova-york-petroleo-cai-mas-brent-se-segura-nos-us-105-e-pressiona-wall-street/
-· UST Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus (Yahoo Finance) https://news.google.com/rss/articles/CBMihAFBVV95cUxQRzFLdWFTZWhreW0ySTNpQmNGcXhDenhsN2c4TkV3RDFwb0J2WlVHQWJMZVFBRms4SEJ0SjV1Rk9vVFdDWk5FTDRPQmV6b0ZaV1ZOY2NuN2dnYjhla3pudkxJRllwbVJvQTIzTmNZRmU0UHZyWE83dnFCclZQX1BRWFBiRGE?oc=5
-· BTC Whale's Insight: Is Bitcoin's Supercycle Starting? (BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4949763-whales-insight-is-bitcoins-supercycle-starting
-· USDBRL Dólar vai voltar a subir? Itaú mantém projeção e aponta o que pode pressionar o real (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-vai-voltar-a-subir-itau-mantem-projecao-e-aponta-o-que-pode-pressionar-o-real/
-· TESOURO Taxas do Tesouro Direto recuam apesar do IPCA-15 acima do esperado (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-25092026/
-· (+26 manchetes; lista completa em eventos/noticias.json)
+· (+36 manchetes; lista completa em eventos/noticias.json)
