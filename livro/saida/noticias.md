@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 24/09 20h50
+NOTÍCIAS E FATOS · 25/09 08h33
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 461 veículo fora da lista, 52 sem ativo, 18 teto) · cvm ok 0 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 439 veículo fora da lista, 47 sem ativo, 40 teto) · cvm ok 1 novos de 10 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado do segundo trimestre…
+CVM · entregue 25/09/2026 08:13
+Do documento:
+  – Esse montante soma-se aos até R$ 7,7 bilhões aprovados com base  no resultado do primeiro e segundo trimestre de 2026, totalizando até R$ 11,7 bilhões de capital alocável aos  acionistas.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571417
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
+Fonte: CVM 25/09
+id: E03-AXIA3-1571417-2026-09-25 · status: pendente · íntegra disponível
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 24/09/2026 17:00 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -42,7 +53,39 @@ Fonte: SEC EDGAR 2026-09-24
 id: E04-TSM-26000660-2026-09-24 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça preferência na AL
+InfoMoney · 25/09 08h27 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O banco mantém preferência relativa pela Petrobras (PETR3; PETR4) entre as empresas de óleo e gás da América Latina.
+  – Para PETR3, o alvo passou para R$ 62,60, enquanto para PETR4 subiu para R$ 58,50.
+  – Saiba mais: A mudança ocorre após o banco elevar sua estimativa para o Brent em 2027 de US$ 72 para US$ 75 por barril.
+  – Para 2026, a projeção média passou de US$ 85,69 para US$ 91,34.
+  – Com petróleo mais caro, maior produção e melhora das perspectivas para as margens de refino no próximo ano, o Goldman aumentou sua projeção de Ebitda ajustado da Petrobras em 5% para 2026 e em 10% para 2027.
+  – O custo do frete marítimo de petróleo do Brasil para a China disparou para US$ 24 por barril em setembro, ante média de US$ 7 no segundo trimestre e apenas US$ 3 em 2025.
+Link: https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-goldman-ve-dividendo-de-us-27-bi-no-3t-e-reforca-preferencia-na-al/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça preferência na AL; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 25/09 08h27
+id: E05-PETR4-955b2a794f-2026-09-25 · status: pendente
+
+[ATENÇÃO] E05 · BABA · BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that Alibaba Group Holding Limited Investors with Substantial Losses Have Opportun…
+PR Newswire · 24/09 21h10 · fonte única · licença: integral
+Do texto:
+  – Alibaba Group Holding Limited, No. 26-cv-06654 (S.D.N.Y.), the Alibaba class action lawsuit charges Alibaba as well as Alibaba's Chief Executive Officer with violations of the Securities Exchange Act of 1934.
+  – On June 8, 2026, after market hours, the U.S.
+  – On this news, the price of Alibaba's American Depositary Shares ("ADSs") declined nearly 4%, according to the complaint.
+  – Our Firm ranked #1 on the most recent ISS Securities Class Action Services Top 50 Report, recovering more than $916 million for investors in 2025.
+  – This marks our fourth #1 ranking in the past five years.
+  – And in those five years alone, Robbins Geller recovered $8.4 billion for investors – $3.4 billion more than any other law firm.
+Link: https://www.prnewswire.com/news-releases/baba-investor-deadline-robbins-geller-rudman--dowd-llp-announces-that-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-before-october-5-2026-deadline-302888771.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no PR Newswire: BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that Alibaba Group Hol…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 24/09 21h10
+id: E05-BABA-362d4aad5d-2026-09-25 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · GOOGL · Tigress Raises Alphabet (GOOGL) Price Target to $485 as AI Fuels Growth. Can the Momentum Last?
 Yahoo Finance · 24/09 07h29 · fonte única · licença: resumo
@@ -142,8 +185,23 @@ Fonte: TradingView (Reuters) 24/09 04h15
 id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (150)
+## OUTRAS NOTÍCIAS (só manchete) (165)
 
+· BTC Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000? (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html
+· BTC IBIT options price trading more calmly after Bitcoin rebound (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:1ac244e3d094b:0-ibit-options-price-trading-more-calmly-after-bitcoin-rebound/
+· MELI34 Fundo imobiliário vende galpões e reinveste recursos em projeto para o Mercado Livre; IFIX recua (Money Times) https://www.moneytimes.com.br/fundo-imobiliario-vende-galpoes-e-reinveste-recursos-em-projeto-para-o-mercado-livre-ifix-recua-igdl/
+· BTC Bitcoin, XRP and Solana All Gained Over 10% Last Week, Then Fell Together in a Day. Was That their Peak? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-solana-gained-over-103149346.html
+· USDBRL Veto às bets no Brasil e IPCA-15 fecham semana do mercado local; Ibovespa em dólar sobe nesta sexta-feira (25) (Money Times) https://www.moneytimes.com.br/veto-as-bets-no-brasil-e-ipca-15-fecham-semana-do-mercado-local-ibovespa-em-dolar-sobe-nesta-sexta-feira-25-rens/
+· UST Treasury Yields Edge Lower But Remain at Multi-Year Highs (TradingView (Reuters)) https://www.tradingview.com/news/te_news:586881:0-treasury-yields-edge-lower-but-remain-at-multi-year-highs/
+· KO The Coca-Cola Company (KO) latest stock news and headlines (Yahoo Finance) https://au.finance.yahoo.com/quote/KO/news/
+· UST Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus (Yahoo Finance) https://uk.finance.yahoo.com/news/gold-set-weekly-loss-treasury-092238039.html
+· BRENT Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Edge Higher (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-stay-near-multiyear-highs-in-asian-trade-69ae3ed8
+· UST 10-year Treasury yield tops rental cap rate for first time in 20 years (Seeking Alpha) https://seekingalpha.com/news/4646992-10-year-treasury-yield-tops-rental-cap-rate-for-first-time-in-20-years
+· BTC Bitcoin Falls Back Below $85K As Treasury Yields Jump Above 5% (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:76b7fad47094b:0-bitcoin-falls-back-below-85k-as-treasury-yields-jump-above-5/
+· UST U.S. Treasury yields tick higher as global bond rout slows (CNBC) https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html
+· AXIA3 Movida capta R$ 1,3 bi e Axia levanta R$ 1,4 bi (Valor Economico) https://valor.globo.com/google/amp/financas/noticia/2026/09/25/movida-capta-r-13-bi-e-axia-levanta-r-14-bi.ghtml
+· BTC Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxPWFQ3Q25xVXU4d1ZDYmtsV1pCMUpXcVE2Tk81c2VKTTFQUC1TMWlFOWxqZ3lKcGJLVExIdFplODhZUlZwa3kwOEVnTzZOU09EUzFWTUNjSkFfOUFkaFN4dGNFWWlaMXVNMmJJSTI4X0dHV0hqNnJWNk5Tc2hBUjMtc2I4dENZMVZhZGtTdFNsTkRydUtvVmQzUjFmZ29XTG9HSWRXQW43b0VxVGpkMHpVYTdFVGdkS2tHZWVNVkV2S2VIbm1fdmc?oc=5
+· BTC Bitcoin pauses near $84k with focus on rate jitters, Bitget hack (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxNY0h2QWdQeFlUQ2pCSmV6QmR3cVI1cnVJVW1aU1QtWGxlMGpSamtPaUhGbzdaN1ZDYm0zQi05ZVJ3ZDJYRHdXaW12THA4WE1Dd2ZvYlFNbjAtdTlhNXpfXzc1Q1NXYjhIOUhjdG5TeHFhc1QtOGJWajRsTFRWMVFpZmkxVFFsekFYbUhtUzFUdEJWOE05c0NSUGJn?oc=5
 · ETH Ethereum Breaks a Year-Long Pattern. The Chart Still Has One Warning (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-breaks-long-pattern-chart-231143967.html
 · BTC Will Bitcoin Price Breakout Towards $100,000? One Candle Will Decide This Week (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-breakout-towards-100-225509630.html
 · USDBRL Ibovespa fecha em queda com cenário eleitoral e pressão externa; dólar sobe a R$ 5,20 (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/ibovespa-fecha-em-queda-com-cenario-eleitoral-e-pressao-externa-dolar-sobe-a-r-520/
@@ -189,19 +247,4 @@ id: E05-NVDA-5498c1ecc9-2026-09-24 · status: entregue
 · UST Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed (CNBC) https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html
 · USDBRL Ouro fecha em queda com avanço dos juros dos Treasuries e do dólar (CNN Brasil) https://www.cnnbrasil.com.br/economia/ouro-fecha-em-queda-com-avanco-dos-juros-dos-treasuries-e-do-dolar/
 · MELI34 Mercado Livre vai vender medicamento com receita — incluindo Ozempic (Exame) https://exame.com/invest/mercados/mercado-livre-vai-vender-medicamento-com-receita-incluindo-ozempic/
-· NVDA Former OpenAI data center chief Chris Malone is now at Nvidia - The Information (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45G157:0-former-openai-data-center-chief-chris-malone-is-now-at-nvidia-the-information/
-· PETR4 ‘Não há por que falar em injeção de recursos na Braskem’, diz presidente da Petrobras (Estadao) https://www.estadao.com.br/economia/negocios/nao-ha-por-que-falar-em-injecao-de-recursos-na-braskem-diz-presidente-da-petrobras/
-· MU EXCLUSIVE: Micron’s Low P/E May Be Lying to Investors (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3daa1c902094b:0-exclusive-micron-s-low-p-e-may-be-lying-to-investors/
-· GOOGL Alphabet Drops Below $350: Buying Opportunity or the Start of Something Worse? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-drops-below-350-buying-170833426.html
-· BRENT Brent Climbs Above $107 After Houthi Attack Against Saudi Arabia Sites (The Wall Street Journal) https://www.wsj.com/finance/commodities-futures/oil-falls-on-larger-than-expected-build-in-u-s-inventories-12eb501b
-· UST U.S. Treasury Yields Hit Multiyear Highs on Economic Data, Fed Rate-Boost Expectations (The Wall Street Journal) https://news.google.com/rss/articles/CBMikAFBVV95cUxObTFzZ3lYSmd4bGVKQk5TLXBfM3ZvRUtoM04xcXJfOHl2Z21ReW0wNjM4N3RXS00xZ2dGS082ZW1CQ1dtMzF4MXpKUFYxUUZ5ZWxxUkdDLWVQYjEtQlVTSm5tdzdFZGFrVVp4RHFvTzlVcENLc1FmXzRQYVhtU2psTXpMWDJlZXBOZ0FFTzhJV3k?oc=5
-· UST Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know (CNBC) https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTdZbFM4VjNCY2xYWXU3dnFoMGlIMEF0YW8xTm1sNElsbTlXVzBxTEkwOW5Tek1pZ0Jrdk45SHVBU19LVU1XdVVjSF96VGVZQXhXc0thQVJ4QmxqMDFKLXdoek01aXZnek9zMUZzMlZKSi1sb1o4MzdXcVZtWHZuUWQwSV9YQ2lZbGo0ZzVB0gGTAUFVX3lxTE14VmR6d2JuQ1gtMGx6dTlXMWNPd0wweUZOVkpJT1VrSjJ4Nlc4ZTdJbXlpdE5ucWlyZUdLZEU1OVhxUzlDWTZrajV1Nzd4OG1lQ1V0YkppakNKYTMxV0czcmlJaDFqT0hEMmt5ZHkyUHpsLXBvSjBuOEJ0RHBpLWZYdXdEdWx2bnE3YnFGTHBsN0RoVQ?oc=5
-· BBDC4 Cogna perde força no radar do Bradesco BBI e outra ação de educação ganha vantagem (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/cogna-perde-forca-no-radar-do-bradesco-bbi-e-outra-acao-de-educacao-ganha-vantagem/
-· PETR4 Petrobras descarta ampliar participação na Braskem e diz que aporte cabe a todos os acionistas (eixos) https://eixos.com.br/empresas/petrobras-descarta-ampliar-participacao-na-braskem-e-diz-que-aporte-cabe-a-todos-os-acionistas/
-· BTC Bitcoin Bets Go Into Overdrive As MSTR, Leveraged ETFs Surge (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:6dfdc0223094b:0-bitcoin-bets-go-into-overdrive-as-mstr-leveraged-etfs-surge/
-· PLTR Palantir Stock Rises 3% Despite Losing $875 Million FAA AI Deal: Here’s Why (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rises-3-despite-200529861.html
-· INTC Intel Shares Rise as Agentic AI Keeps CPUs in the Loop (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:85bd34471094b:0-intel-shares-rise-as-agentic-ai-keeps-cpus-in-the-loop/
-· MU Micron Is Winning By Losing The HBM Race (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4949504-micron-is-winning-by-losing-the-hbm-race
-· PETR4 Petrobras está prestes a atingir produção de 3 mi bpd de petróleo, diz CEO (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45G12C:0/
-· MU Micron Stock Gets a Big Wall Street Boost Ahead of Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-gets-big-wall-163541132.html
-· (+90 manchetes; lista completa em eventos/noticias.json)
+· (+105 manchetes; lista completa em eventos/noticias.json)
