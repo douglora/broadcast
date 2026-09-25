@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 13h21
+NOTÍCIAS E FATOS · 25/09 14h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 439 veículo fora da lista, 54 sem ativo, 0 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 438 veículo fora da lista, 53 sem ativo, 27 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,8 +87,20 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (86)
 
+· ITUB4 Itaú Unibanco oferece 15 mil bolsas para bootcamp de Java com IA (Valor Economico) https://valor.globo.com/carreira/empregos-oportunidades/post/2026/09/itau-unibanco-oferece-15-mil-bolsas-para-bootcamp-de-java-com-ia.ghtml
+· MELI34 Farmácias ampliam queda na bolsa após avanço do Mercado Livre em remédios com receita (Exame) https://exame.com/invest/mercados/farmacias-ampliam-queda-na-bolsa-apos-avanco-do-mercado-livre-em-remedios-com-receita/
+· UST 10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds (CNBC) https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html
+· AMZN Amazon Wouldn’t Be Doing What It’s Doing if AI Capex Was Going to Fail (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amazon-wouldn-t-doing-doing-163045575.html
+· MU Micron investors should get ready for a seesaw ride, analyst says (MarketWatch) https://www.marketwatch.com/story/micron-investors-should-get-ready-for-a-seesaw-ride-analyst-says-1c0cc651
+· AXIA3 Axia Energia e Copel podem ganhar, com preços de energia acima das projeções (ADVFN) https://br.advfn.com/jornal/2026/09/axia-energia-e-copel-podem-ganhar-com-precos-de-energia-acima-das-projecoes
+· BTC MSTR, ASST Stocks Slide With Bitcoin: Strategy Proposes Daily Dividends, Matt Cole Challenges MSCI Rules (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:543a92583094b:0-mstr-asst-stocks-slide-with-bitcoin-strategy-proposes-daily-dividends-matt-cole-challenges-msci-rules/
+· TSLA Tesla's Semi Is Finally Moving Into a Bigger Test (Yahoo Finance) https://uk.finance.yahoo.com/news/teslas-semi-finally-moving-bigger-153812645.html
+· MU Micron's 279% Rally Is Heading Into a Big Earnings Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:20324a450094b:0-micron-s-279-rally-is-heading-into-a-big-earnings-test/
+· BAC Bank of America Cuts 2027 Luxury Forecast as Q3 Demand Growth Slows (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bank-america-cuts-2027-luxury-151500313.html
+· JPM JPMorgan Says Bitcoin’s Rally Lessens Pressure On Crypto Miners (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWpVLVVTQTlnVmZ0R21vLXgzX1NMVThMWkZ4VXhMaWxHOWRES19pZWpySmticDhKZWV0U1d5NjVyYThKVE1RelRaekZkS2ZOTnVNWnQ4MUJXeHY1eTkzd3MxcU9JaDNabWduTm9Ed0NualRuS2xaS1l3dnJQdUlrcUh1eGQ5TDFjWnIya2J1SVVfT0Z3bllFOW56VTA1REl1U3c?oc=5
+· NVDA What Does NVIDIA Offer That Texas Instruments Does Not? (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxOeFRFWUQzT016b1M3TEdzblNndTR3bFBYOF9pUE9FOWxHclNGUWo4N3BSYU1hTmQ5Z2dDV1pTczV5OE8wakIxUjQxaFNYb2xyTm5yOTRFZE94RGo3WEM1Q2FVVndXZHBUaUlMeW5aelBtVnIwRUhEV3RlSkNXTmUyNktOQTFiZ2MyUUdTZHI4bWNuLXF3N3VkYTc1Q25tOVBYWnc?oc=5
 · AMZN Amazon Stock: Is AI Capex Outrunning the Payback? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-stock-ai-capex-outrunning-154022623.html
 · TSLA Tesla’s Optimus Reportedly Hits Production Snags — StoneX Stays Bullish Ahead Of Q3 Vehicle Deliveries (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-optimus-reportedly-hits-production-153553771.html
 · MMM 3M vs. Honeywell: Which Industrial Conglomerate is a Stronger Pick? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-vs-honeywell-industrial-conglomerate-150400473.html
@@ -137,16 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · BTC Whale's Insight: Is Bitcoin's Supercycle Starting? (BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4949763-whales-insight-is-bitcoins-supercycle-starting
 · USDBRL Dólar vai voltar a subir? Itaú mantém projeção e aponta o que pode pressionar o real (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-vai-voltar-a-subir-itau-mantem-projecao-e-aponta-o-que-pode-pressionar-o-real/
 · TESOURO Taxas do Tesouro Direto recuam apesar do IPCA-15 acima do esperado (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-25092026/
-· BTC Current price of Bitcoin for Sept. 25, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-25-2026/
-· ETH Current price of Ethereum for Sept. 25, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-25-2026/
-· PETR4 Petrobras (PETR4) recebe R$ 2,3 bilhões em nova parcela de subvenção ao diesel (Money Times) https://www.moneytimes.com.br/petrobras-petr4-recebe-r-23-bilhoes-em-nova-parcela-de-subvencao-ao-diesel-lmrs/
-· MELI34 Mercado Livre Farma não substitui compra na farmácia física, avaliam bancos (Exame) https://exame.com/invest/mercados/mercado-livre-farma-nao-substitui-compra-na-farmacia-fisica-avaliam-bancos/
-· UST Market Absorbs Flood Of Treasury Bills As Yields Rise (NYSEARCA:SPY) (Seeking Alpha) https://seekingalpha.com/article/4949738-market-absorbs-flood-of-treasury-bills-as-yields-rise
-· TSM Taiwan Semiconductor: AI CapEx Keeps Climbing, And TSMC Looks Undervalued (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4949681-taiwan-semiconductor-ai-capex-keeps-climbing-and-tsmc-looks-undervalued
-· USDBRL Prévia da inflação fica acima do esperado, mas Ibovespa futuro avança com melhora do humor externo; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-25-9-26-lils/
-· USDBRL Dólar hoje recua com exterior, pesquisa Datafolha e IPCA-15 no radar (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-25092026/
-· UST Treasury Yield Surge Pressures Rate-Sensitive Shares (Seeking Alpha) https://news.google.com/rss/articles/CBMimAFBVV95cUxQVnZreEpjLWpHTzNySW5RMGEzMUVCT1UtQTQ2TGtqR0NJU1pNc2tPcFJhalljaXJmempGQTk0T0NzR1BIdlQyTmlQWVdIN2poQkkwZWpJaHE4dHkwdTFzYXBxTktodWpoUC1nemNvZzZ4V0RlOWsyVldlWGtZcjZpaDd1SXNjMnJzV1MwU1RNbTBSUTgwc21aRw?oc=5
-· UST Treasury Yields Are Spiking. Where to Invest in the Bond Market Now. (Barron's) https://news.google.com/rss/articles/CBMilgFBVV95cUxObWxvbzhkRTd6OGRVOGZ2Smtkclk4SDdnMV9QdVUxdDM1c19VQlBpaGZqR2J6aGQ4S1E4N0xnV1lrUGV1RGxtMXFUbFJyZjNpRXNUSkN1Nm13Qno4UmZxUlNwR1RxcUVSdEdtUFVWZ05fYTBMVFgza1ZBQklBWFljZzluS2Z3a3A5R1lxM294QzdxUHhvMFE?oc=5
-· BRENT Dólar abre em baixa, a R$ 5,18, com IPCA-15 e petróleo no radar (UOL Economia) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLXJxWG5DRDhBV2tGRDZkbjZpVmEwVnZHeE5SQ0ZxUi1tRms2QUZzMjdScVZZaUd5bkpjYjFFd08wanBUUmMtalBYY3RvSjZDRlFsZEpwbzk4bm9aa1g3U25NR2wzanc5MGVCdldINy1zSG5TUmRyRWQ3QmJhX3BfR3N5ZzBBd2hqWkpncGh6UUpLSHJ5d215TEZmT0ljV2YtOVZXelM1UHpwV0Y2LWwxekE0UXc1SXh3?oc=5
-· BTC Bitcoin and ethereum prices today, Friday, September 25, 2026: Is bitcoin finally on a path to $250,000? (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-september-25-2026-is-bitcoin-finally-on-a-path-to-250000-113048042.html
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+26 manchetes; lista completa em eventos/noticias.json)
