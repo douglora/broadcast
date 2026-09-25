@@ -2,19 +2,16 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 USDBRL · Café sobe com queda do dólar e arábica atinge máxima em uma semana em NY
-· E05 SBSP3 · Sabesp recupera terreno na B3 e mira próximos catalisadores após tombo no 2T26
-· E05 MELI34 · Mercado Livre (MELI34) vai às farmácias: por que analistas veem potencial, mas mantêm um alerta
-· E05 GOOGL · Sundar Pichai Reported Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter, With Nearly 90% of the Fortune 100 Using Gemi…
-· E05 DI · Inter vê Selic a 13,25% no fim do ano, mas pondera que eleição pode mudar rumo dos juros em 2027
-· E05 PLTR · Palantir's Latest $250 Target Comes With a Catch
-· E05 ITUB4 · Itaú (ITUB4) vale US$ 9,9 bilhões e é vice-líder na América Latina; veja ranking
-· E05 BBDC4 · Leilão do Bradesco tem mais de 95 imóveis com até 85% de desconto
-· E05 AMD · Is AMD Stock Priced Right Against Its Chip Peers?
-· E05 BAC · Bank of America Harshly Resets Nike Stock Target For 2026
-· E05 JPM · JPMorgan Ultra-Short Income ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh
-· E05 UST · Treasury Bond Yields Resume Their March Higher to End the Week
-· E05 PETR4 · Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras
+· E05 PETR4 · Ibovespa recua com Petrobras (PETR4) e ignora alívio externo; dólar cai a R$ 5,18
+· E05 USDBRL · Dólar cai a R$ 5,18 e Bolsa recua após IPCA-15 mostrar alta da inflação
+· E05 USDBRL · Dólar acompanha exterior e cai a R$ 5,18; moeda tem saldo positivo na semana
+· E05 MRVL · Marvell Technology, Inc. Declares Quarterly Dividend Payment
+· E05 BTC · Bitcoin ETFs Flipped From $5.8 Billion in Outflows to $800 Million in Inflows. Is Now the Time to Buy Bitcoin?
+· E05 INTC · ARM vs. Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Companies
+· E05 JPM · JPMorgan Tweaks Data-Sharing Notices in Battle With Fintechs
+· E05 COHR · Coherent Corp. (COHR) stock price, news, quote and history
+· E05 BAC · 'Risks are rising' for Nike's turnaround, Bank of America says. Sell shares now
+· E05 BRENT · Oil prices slide about 2% as US, Iran explore path out of war
 
 
 Alertas do dia (todos, com status):
@@ -25,4 +22,4 @@ Alertas do dia (todos, com status):
 · entregue  E03 AXIA3 — AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alo
 · entregue  E05 PETR4 — PETR4 · Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça prefer
 · entregue  E05 BABA — BABA · BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that A
-· (+121 notícias só manchete, em noticias.md)
+· (+131 notícias só manchete, em noticias.md)

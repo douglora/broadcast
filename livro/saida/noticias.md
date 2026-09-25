@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 16h21
+NOTÍCIAS E FATOS · 25/09 17h21
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 436 veículo fora da lista, 43 sem ativo, 14 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 408 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,8 +87,18 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (119)
+## OUTRAS NOTÍCIAS (só manchete) (129)
 
+· PETR4 Ibovespa recua com Petrobras (PETR4) e ignora alívio externo; dólar cai a R$ 5,18 (Money Times) https://www.moneytimes.com.br/ibovespa-25-9-26-lils/
+· USDBRL Dólar cai a R$ 5,18 e Bolsa recua após IPCA-15 mostrar alta da inflação (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/25/dolar-bolsa-fechamento-hoje-25-de-setembro-de-2026.ghtm
+· USDBRL Dólar acompanha exterior e cai a R$ 5,18; moeda tem saldo positivo na semana (Money Times) https://www.moneytimes.com.br/dolar-25-9-26-lils/
+· MRVL Marvell Technology, Inc. Declares Quarterly Dividend Payment (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-declares-quarterly-200500234.html
+· BTC Bitcoin ETFs Flipped From $5.8 Billion in Outflows to $800 Million in Inflows. Is Now the Time to Buy Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-flipped-5-8-193929390.html
+· INTC ARM vs. Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Companies (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/arm-vs-intel-revenue-growth-193412195.html
+· JPM JPMorgan Tweaks Data-Sharing Notices in Battle With Fintechs (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-25/jpmorgan-tweaks-data-sharing-notices-in-battle-with-fintechs
+· COHR Coherent Corp. (COHR) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/COHR/
+· BAC 'Risks are rising' for Nike's turnaround, Bank of America says. Sell shares now (CNBC) https://news.google.com/rss/articles/CBMimwFBVV95cUxQRFp2MFBIc0pYSEFOYnBqTnFVa1pITGQ4TEFJMnRlTHc5cTMtaEFOSmItRUwwUjQ0Z2xpTEc4VVZSRm01cXRfMFBnelNsQTNqSzVKZkItZUhDakxxWjNOTk5nUXZUYUVTTVc1cVNQSmFEUE1TOEQtaTlVYmRMampVd0hHM0FpN0kxZTlydW9PRUYtVF93bnFTWDctQQ?oc=5
+· BRENT Oil prices slide about 2% as US, Iran explore path out of war (Reuters) https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5
 · USDBRL Café sobe com queda do dólar e arábica atinge máxima em uma semana em NY (CNN Brasil) https://www.cnnbrasil.com.br/agro/cafe-sobe-com-queda-do-dolar-e-arabica-atinge-maxima-em-uma-semana-em-ny/
 · SBSP3 Sabesp recupera terreno na B3 e mira próximos catalisadores após tombo no 2T26 (ADVFN) https://br.advfn.com/jornal/2026/09/sabesp-recupera-terreno-na-b3-e-mira-proximos-catalisadores-apos-tombo-no-2t26
 · MELI34 Mercado Livre (MELI34) vai às farmácias: por que analistas veem potencial, mas mantêm um alerta (Money Times) https://www.moneytimes.com.br/mercado-livre-meli34-avanco-em-farmacias-abre-nova-frente-de-crescimento-mas-pressao-nas-margens-seguem-no-radar-veja-lmrs/
@@ -139,14 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · MMM 3M vs. Honeywell: Which Industrial Conglomerate is a Stronger Pick? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3m-vs-honeywell-industrial-conglomerate-150400473.html
 · JPM JPMorgan Preferreds: The Temptation Of A 54% Redemption Upside (NYSE:JPM.PR.M) (Seeking Alpha) https://seekingalpha.com/article/4949766-jp-morgan-preferreds-the-temptation-of-a-54-percent-redemption-upside
 · UST Mortgage and refinance interest rates today, Friday, September 25, 2026: Rates surge alongside Treasury yields (Yahoo Finance) https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-september-25-2026-rates-surge-alongside-treasury-yields-100000783.html
-· USDBRL Ibovespa cai a patamar de 182 mil pontos com eleições e IPCA-15; dólar sobe (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-25-setembro-2026/
-· MELI34 Mercado Livre (MELI34) anuncia venda de remédios com retenção de receita — incluindo canetas emagrecedoras (Money Times) https://www.moneytimes.com.br/mercado-livre-meli34-anuncia-venda-de-medicamentos-com-retencao-de-receita-incluindo-canetas-emagrecedoras-lmrs/
-· EQTL3 Shell não prevê atividades exploratórias de curto prazo em Barreirinhas, na Margem Equatorial - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/economia/shell-nao-preve-atividades-exploratorias-de-curto-prazo-em-barreirinhas-na-margem-equatorial-1148944
-· BRENT Dólar cai com queda dos preços do petróleo; iene se valoriza após declarações do Japão (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45H0TK:0/
-· UST Treasury Yields Back on the Rise (TradingView (Reuters)) https://www.tradingview.com/news/te_news:586974:0-treasury-yields-back-on-the-rise/
-· BTC XRP, Solana Lead Crypto Majors With Bitcoin Stuck Below $85K, BTC ETF Inflows Turning Positive For 2026 (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:cc09a2ddf094b:0-xrp-solana-lead-crypto-majors-with-bitcoin-stuck-below-85k-btc-etf-inflows-turning-positive-for-2026/
-· CVX Chevron's Cost Discipline: Turning Efficiency Into Lasting Value (TradingView (Reuters)) https://www.tradingview.com/news/zacks:bfd071af1094b:0-chevron-s-cost-discipline-turning-efficiency-into-lasting-value/
-· GOOGL Alphabet's $30 Billion SpaceX Bill Isn't What It Looks Like (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4949730-alphabets-30-billion-spacex-bill-isnt-what-it-looks-like
-· BTC Bitcoin holders are cashing out, just not the way they did at prior market tops : Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops
-· MU Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-likely-beat-q4-earnings-112000154.html
-· (+59 manchetes; lista completa em eventos/noticias.json)
+· (+69 manchetes; lista completa em eventos/noticias.json)
