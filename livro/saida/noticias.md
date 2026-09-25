@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 10h26
+NOTÍCIAS E FATOS · 25/09 11h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 429 veículo fora da lista, 52 sem ativo, 24 teto) · cvm ok 1 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 430 veículo fora da lista, 45 sem ativo, 7 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -34,7 +34,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no ADVFN: Petrobras: Goldman eleva preço-alvo e prevê US$ 2,7 bilhões em dividendos; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 25/09 10h11
-id: E05-PETR4-88d979f5b8-2026-09-25 · status: pendente
+id: E05-PETR4-88d979f5b8-2026-09-25 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça preferência na AL
 InfoMoney · 25/09 08h27 · fonte única · licença: resumo
@@ -69,8 +69,22 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (29)
+## OUTRAS NOTÍCIAS (só manchete) (43)
 
+· MELI34 Ozempic no Mercado Livre emagrece as ações da RD Saúde (RADL3) e Pague Menos (PGMN3); bancos explicam o que falta para o Meli bater de frente com as… (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/ozempic-no-mercado-livre-emagrece-as-acoes-da-rd-saude-radl3-e-pague-menos-pgmn3-bancos-explicam-o-que-falta-para-o-meli-bater-de-frente-com-as-grandes-redes-kaes/
+· MU Two Numbers to Watch in Micron’s Earnings Report Next Week (Barron's) https://www.barrons.com/articles/micron-earnings-stock-price-ed735c79
+· AMD AMD CEO Lisa Su is having a September to remember (Yahoo Finance) https://finance.yahoo.com/markets/article/amd-ceo-lisa-su-is-having-a-september-to-remember-135902902.html
+· USDBRL Tempo real: Ibovespa cai com IPCA-15 mais forte que o esperado; dólar tem leve alta (Money Times) https://www.moneytimes.com.br/tempo-real-25-9-26-apsa-lils/
+· PETR4 Ibovespa hoje abre em queda com IPCA-15 acima do esperado; Petrobras e Vale caem (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-ipca-15-e-pesquisa-eleitoral-dividem-atencoes-nesta-sexta-feira/
+· UST Latest Treasury sell-off looks overdone, Pantheon says (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:6c75dda48094b:0-latest-treasury-sell-off-looks-overdone-pantheon-says/
+· BTC Simplify Bitcoin Strategy ETF declares monthly distribution of $0.0500 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:c05c30bf4094b:0-simplify-bitcoin-strategy-etf-declares-monthly-distribution-of-0-0500/
+· TSLA StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries (Investing.com) https://in.investing.com/news/stock-market-news/stonex-reiterates-buy-rating-on-tesla-stock-ahead-of-q3-deliveries-93CH-5606688
+· MU Countdown to Micron (MU) Q4 Earnings: A Look at Estimates Beyond Revenue and EPS (Yahoo Finance) https://sg.finance.yahoo.com/news/countdown-micron-mu-q4-earnings-121513849.html
+· UST Treasury Yields Are Spiking. Where to Invest in the Bond Market Now. (Barron's) https://www.barrons.com/articles/treasury-yields-spike-where-to-invest-bond-market-d4a362ef
+· BRENT Mercado fecha semana com IPCA-15, petróleo em alta e crise Vorcaro (Investing.com) https://br.investing.com/analysis/mercado-fecha-semana-com-ipca15-petroleo-em-alta-e-crise-vorcaro-200479833
+· AXIA3 Axia aprova mais R$ 4 bi em alocação de capital para resgate de ações PNC (InfoMoney) https://www.infomoney.com.br/mercados/axia-aprova-mais-r-4-bi-em-alocacao-de-capital-para-resgate-de-acoes-pnc/amp/
+· BRENT Bolsas de Nova York: petróleo cai, mas Brent se segura nos US$ 105 e pressiona Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bolsas-de-nova-york-petroleo-cai-mas-brent-se-segura-nos-us-105-e-pressiona-wall-street/
+· UST Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus (Yahoo Finance) https://news.google.com/rss/articles/CBMihAFBVV95cUxQRzFLdWFTZWhreW0ySTNpQmNGcXhDenhsN2c4TkV3RDFwb0J2WlVHQWJMZVFBRms4SEJ0SjV1Rk9vVFdDWk5FTDRPQmV6b0ZaV1ZOY2NuN2dnYjhla3pudkxJRllwbVJvQTIzTmNZRmU0UHZyWE83dnFCclZQX1BRWFBiRGE?oc=5
 · BTC Whale's Insight: Is Bitcoin's Supercycle Starting? (BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4949763-whales-insight-is-bitcoins-supercycle-starting
 · USDBRL Dólar vai voltar a subir? Itaú mantém projeção e aponta o que pode pressionar o real (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-vai-voltar-a-subir-itau-mantem-projecao-e-aponta-o-que-pode-pressionar-o-real/
 · TESOURO Taxas do Tesouro Direto recuam apesar do IPCA-15 acima do esperado (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-25092026/
