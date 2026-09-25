@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 25/09 14h52
+NOTÍCIAS E FATOS · 25/09 15h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 435 veículo fora da lista, 49 sem ativo, 0 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 439 veículo fora da lista, 45 sem ativo, 2 teto) · cvm ok 0 novos de 11 (6 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,8 +87,18 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (96)
+## OUTRAS NOTÍCIAS (só manchete) (106)
 
+· LITE Lumentum’s $40 EPS Bet Changes Everything (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4949823-lumentum-40-eps-bet-changes-everything
+· PETR4 Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras (CNN Brasil) https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/lobista-lulinha-e-marcola-teriam-atuado-por-contrato-na-petrobras/
+· NVDA Nvidia (NVDA) Down 1.5% Since Last Earnings Report: Can It Rebound? (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-nvda-down-1-5-143007586.html
+· NVDA What Does NVIDIA Offer That Texas Instruments Does Not? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/does-nvidia-offer-texas-instruments-142752053.html
+· JPM Genius Sports rallies after JPMorgan initiates at overweight with $8 PT (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:9a1effd6b094b:0-genius-sports-rallies-after-jpmorgan-initiates-at-overweight-with-8-pt/
+· TSLA Tesla Starts Semi Deliveries Nearly Nine Years After Unveiling (Yahoo Finance) https://ca.finance.yahoo.com/news/tesla-starts-semi-deliveries-nearly-135754870.html
+· BAC Bank of America Corporation (BAC-PE) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/BAC-PE/
+· BAC 'Risks are rising' for Nike's turnaround, Bank of America says. Sell shares now (CNBC) https://www.cnbc.com/2026/09/25/risks-are-rising-for-nikes-turnaround-bank-of-america-says.html
+· JPM Lionsgate edges lower premarket after JPMorgan starts coverage at underweight (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxPX0dNT0tGRHZJRExMSW5fTW1nLTN4MkFRLUR2OEg5WUxLRzFRSXRUMnNQQVZHcmZGbURvUjZJcG1mSHJudEt4bnh5SlQwOWNkZm1pUGJLV1czeFFiazVXcUh3elR4Z2ZNWWFCd1RneUNZLVRkQWFKRE5oeng1aWFkcy1BTmxMY1A5em42bFkxNzY4UW04a1ctSHJUeWNDbkFPTk9ERkQ5dUR5VjU0dE9ZWmlZRFJCX1JCVTFoN1ZBSHBUS0JLNTJQeVlIZXJrYVBObEZtckpfNA?oc=5
+· NVDA The Zacks Analyst Blog Highlights Marvell Technology and NVIDIA (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxQc25LM2s0QnZWNTRVZ2NZN29VUHd0dTVIbVFabVM5emdnZDVzSVc2WmVYblI4UEI0S3JFLXJiMGNkOE1aaGd6eDZGSnJuYWNOOUNrQ3V1WkxUVzZOWnVRanQ4WW1FbHFGSkZWQURlZkd0SGhZck1hbFVGT1c5ME04ZS1KN29LLWZ2eDRGMDlySQ?oc=5
 · ITUB4 XP, Nubank, Itaú, Bradesco, Santander e BTG: dois bancos vão se dar melhor se a Selic cair, segundo o UBS BB (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/xp-nubank-itau-bradesco-santander-e-btg-dois-bancos-vao-se-dar-melhor-se-a-selic-cair-segundo-o-ubs-bb-ccgg/
 · SBSP3 Sabesp (SBSP3) se recupera na B3 após resultado ruim no 2T: chuvas fortes animaram? (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-se-recupera-na-b3-apos-resultado-ruim-no-2t-chuvas-fortes-animaram/
 · UST Treasury Bond Yields Resume Their March Higher to End the Week (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/eurozone-bond-yields-fall-oil-085300416.html
@@ -139,14 +149,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · TSLA StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/stonex-reiterates-buy-rating-on-tesla-stock-ahead-of-q3-deliveries-93CH-4478313
 · UST Treasury Yield Surge Revives U.S. Debt Crisis Debate (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:25296d55a094b:0-treasury-yield-surge-revives-u-s-debt-crisis-debate/
 · USDBRL Dólar sobe a R$ 5,20 e Bolsa cai após IPCA-15 mostrar inflação mais forte (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/25/dolar-bolsa-abre-hoje-25-de-setembro-de-2026.ghtm
-· BRENT Mercado fecha semana com IPCA-15, petróleo em alta e crise Vorcaro (Investing.com) https://news.google.com/rss/articles/CBMirAFBVV95cUxNSmFHbzR0dnllOXllZW54Rl9hTlFuYV80NkF5czl5Znd0VzVHc3hyeTgzRlp4eTBhcUxDLTBGclh6b1piUXZXQ0JUamRjbjBzUjltaWZ2eFBjUDZ0UC01bEozdzBzTDhkTkx3SUtlVjZ1N3NPUmxub1JkUW0xYmJaRzQ1dkg5T2FsbllENnYwX3I0aTR4VHRCUVR0T0dkc1NnWV9jai1iZ0Qtbjhf?oc=5
-· MELI34 O que o Mercado Livre (MELI34) fez para derrubar as ações das farmacêuticas? (Money Times) https://news.google.com/rss/articles/CBMirgFBVV95cUxQdk9VVDFZNFY5NnhlQUtRSWNoNEFBZmlqWHJla2YtZXcxcGJEWFJodXRHNzJNMU9HdDA0ZWo0SGE4NHJCbEhKMlBtalVVR0ZKaXF6Z2NJZkJ0YnlYUEtfOHJBTG94ZThMUGc3eG5BRTZwVUxwMkQtdU9nLTBJVGMwRWF1cF9KZmhlWWotbFBydEhlTnktMFAwMndwU2VSZzNDZmI3VDBDLTA3TnRSZUE?oc=5
-· UST Treasury yields rise again to end a volatile week (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTE4xS1pGNzRkMTVWWkk4LVdDdndhTTZ3OEdqd3FqZ1c1R3pMdlR6ZUdJbllYcXJQbWR4WEI1VmlUa2NKalBrZXl6R1U0WkF5R3lBNG9nUnJKLUwzOWs2MEZvN0FJOWppSnl6N3ZjQ3NQRTDSAXZBVV95cUxOeEIwRGVVemdBVTY5UlVRc05WUDFrOThJZUNNTk56NUhLUmIxMFdCSEZiM3VDbjJmWmg1V1VEa0o3WEUyMi1IRFU0NlpuVWJwN0tGUUM3STFnT184cDNpdTRKWmg5TFV5RmdoWlBFNk1RclUteThB?oc=5
-· MELI34 Ozempic no Mercado Livre emagrece as ações da RD Saúde (RADL3) e Pague Menos (PGMN3); bancos explicam o que falta para o Meli bater de frente com as… (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/ozempic-no-mercado-livre-emagrece-as-acoes-da-rd-saude-radl3-e-pague-menos-pgmn3-bancos-explicam-o-que-falta-para-o-meli-bater-de-frente-com-as-grandes-redes-kaes/
-· MU Two Numbers to Watch in Micron’s Earnings Report Next Week (Barron's) https://www.barrons.com/articles/micron-earnings-stock-price-ed735c79
-· AMD AMD CEO Lisa Su is having a September to remember (Yahoo Finance) https://finance.yahoo.com/markets/article/amd-ceo-lisa-su-is-having-a-september-to-remember-135902902.html
-· USDBRL Tempo real: Ibovespa cai com IPCA-15 mais forte que o esperado; dólar tem leve alta (Money Times) https://www.moneytimes.com.br/tempo-real-25-9-26-apsa-lils/
-· PETR4 Ibovespa hoje abre em queda com IPCA-15 acima do esperado; Petrobras e Vale caem (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-ipca-15-e-pesquisa-eleitoral-dividem-atencoes-nesta-sexta-feira/
-· UST Latest Treasury sell-off looks overdone, Pantheon says (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:6c75dda48094b:0-latest-treasury-sell-off-looks-overdone-pantheon-says/
-· BTC Simplify Bitcoin Strategy ETF declares monthly distribution of $0.0500 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:c05c30bf4094b:0-simplify-bitcoin-strategy-etf-declares-monthly-distribution-of-0-0500/
-· (+36 manchetes; lista completa em eventos/noticias.json)
+· (+46 manchetes; lista completa em eventos/noticias.json)
