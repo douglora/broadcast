@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 25/09 18h24
+NOTÍCIAS E FATOS · 25/09 20h55
 
-Pernas: noticias ok 1 novas (18 consultas; descartadas: 438 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 13 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 433 veículo fora da lista, 45 sem ativo, 26 teto) · cvm ok 1 novos de 14 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado do segundo trimestre…
 CVM · entregue 25/09/2026 08:13
@@ -14,6 +14,15 @@ Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
 Fonte: CVM 25/09
 id: E03-AXIA3-1571417-2026-09-25 · status: entregue · íntegra disponível
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 25/09/2026 19:39 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571863
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 25/09
+id: E03-AXIA3-1571863-2026-09-25 · status: linha
 
 [INFO] E03 · ALUP4 · Aviso aos Acionistas: Outros avisos
 CVM · entregue 25/09/2026 18:01 · Outros avisos
@@ -105,8 +114,22 @@ Fonte: PR Newswire 24/09 21h10
 id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (139)
+## OUTRAS NOTÍCIAS (só manchete) (153)
 
+· NVDA Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-add-almost-whole-broadcom-234401557.html
+· BTC River reports 81% of Bitcoin supply inactive for six months as holders tighten their grip (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:012ba2bcf094b:0-river-reports-81-of-bitcoin-supply-inactive-for-six-months-as-holders-tighten-their-grip/
+· CVX Chevron (CVX) Plans a Major Exploration Push: What Investors Need to Know (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-plans-major-exploration-221912979.html
+· USDBRL Ibovespa cai 0,27% e dólar recua a R$ 5,182 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-027-e-dolar-recua-a-r-5182/
+· INTC Is Now the Time to Bet on Intel’s (INTC) Server CPU Comeback and AI Ambitions? (Yahoo Finance) https://au.finance.yahoo.com/news/now-time-bet-intel-intc-221124800.html
+· NVDA Nvidia CEO Pushes Back On The 'AI Apocalypse,' But The Risk Of A Slowdown Remains (Seeking Alpha) https://seekingalpha.com/article/4949862-nvidia-ceo-pushes-back-on-the-ai-apocalypse-but-risk-of-a-slowdown-remains
+· MU Chart Master: Micron technicals ahead of earnings (CNBC) https://www.cnbc.com/video/2026/09/25/chart-master-micron-technicals-ahead-of-earnings.html
+· PETR4 Ibovespa cai pela 3ª sessão seguida com Petrobras (PETR4) e fecha 2ª semana no vermelho (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-25-setembro-petrobras-semana-mt/
+· BAC Stock Market Today, Sept. 25: Nike Downgraded by Bank of America, Shares Flat (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-211433108.html
+· BTC CFTC reports Bitcoin net long position of 2,756 contracts for week of September 22nd (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4359a07ff094b:0-cftc-reports-bitcoin-net-long-position-of-2-756-contracts-for-week-of-september-22nd/
+· PLTR Palantir vs. Snowflake: Which Enterprise AI Stock Better Justifies Its Valuation? (Yahoo Finance) https://au.finance.yahoo.com/news/palantir-vs-snowflake-enterprise-ai-205926979.html
+· PETR4 Ibovespa cai 0,25% com Petrobras nesta sexta e acumula perdas de 0,95% na semana (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-cai-025-com-petrobras-nesta-sexta-e-acumula-perdas-de-095-na-semana/amp/
+· MU Micron investors should get ready for a seesaw ride, analyst says (MarketWatch) https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc3ItbFMza0l5U0hnWWFJbzNJbkhYY2hiak1WWHB3OTZFdWdHUlE2eXNqRElUVlFlNGRRaHpVQ3Vic19MX2pEWWVYeGdJMWtSRzZhWkZnalVTRllLdHl3NWlWYjJnWmZkQnExSDhwWTBJWkJwR3dmeXo1TVMwTEl0cXpXeXJVbGgxMlFNNEI4ZGlNUC15MFJxaFlCTDZFMmEwQm5MTW1EMHpyY3c?oc=5
+· USDBRL Tempo real: Ibovespa perde carona com exterior e cai com IPCA-15; dólar avança a R$ 5,18 (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5OeGJKOTdETG85LXBqR1cta0JXX0tBWFk0R19rQlF2LW05bmVuTWttVDBucFBkV2Y3RXR3YUZITm82Ul90UXZSbWxKOWF5NGU3OXlHSW5xYlVIQTNQU3JwY2drN1ZvRnZnT2NB?oc=5
 · PLTR Palantir Co-Founder and FTC Chairman Put AI Accountability in Focus at Reuters Momentum AI Austin 2026 (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/palantir-co-founder-ftc-chairman-210600690.html
 · USDBRL Ibovespa recua pela 3ª sessão e fecha semana em baixa de 1%; dólar vai a R$ 5,18 (Exame) https://exame.com/invest/mercados/ibovespa-ibov-fechamento-25-09-2026/
 · BRENT Juros futuros caem em dia de baixa do petróleo e IPCA-15, com eleição em foco (InfoMoney) https://www.infomoney.com.br/mercados/juros-futuros-caem-em-dia-de-baixa-do-petroleo-e-ipca-15-com-eleicao-em-foco/
@@ -153,18 +176,4 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · ITUB4 XP, Nubank, Itaú, Bradesco, Santander e BTG: dois bancos vão se dar melhor se a Selic cair, segundo o UBS BB (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/xp-nubank-itau-bradesco-santander-e-btg-dois-bancos-vao-se-dar-melhor-se-a-selic-cair-segundo-o-ubs-bb-ccgg/
 · SBSP3 Sabesp (SBSP3) se recupera na B3 após resultado ruim no 2T: chuvas fortes animaram? (InfoMoney) https://www.infomoney.com.br/mercados/sabesp-sbsp3-se-recupera-na-b3-apos-resultado-ruim-no-2t-chuvas-fortes-animaram/
 · UST Treasury Bond Yields Resume Their March Higher to End the Week (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/eurozone-bond-yields-fall-oil-085300416.html
-· MU Micron Stock Flashes Unmistakable Signal Before Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:dd038d1d3094b:0-micron-stock-flashes-unmistakable-signal-before-earnings/
-· MMM 3M vs. Honeywell: Which Industrial Conglomerate is a Stronger Pick? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:8c3698af8094b:0-3m-vs-honeywell-which-industrial-conglomerate-is-a-stronger-pick/
-· NVDA AMD Just Joined Nvidia in the $1 Trillion Club. At $614, Wall Street Is Paying Too Much for a Distant No. 2. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-just-joined-nvidia-1-112300775.html
-· NVDA Elon Musk Aims to Double Colossus 2’s Nvidia Chips by Year-End (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-25/elon-musk-aims-to-double-colossus-2-s-nvidia-chips-by-year-end
-· UST Treasury Yields Touch 20-Year Highs, Fueled by Sticky Inflation, US Debt (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/treasury-yields-touch-20-highs-040100765.html
-· USDBRL Ibovespa cai de olho nos Treasuries e cenário fiscal; dólar sobe para perto de R$5,20 (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45G17X:0/
-· BRENT Oil prices settle up about 3% as Houthi attack on Saudi Arabia lifts supply fears (Reuters) https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5
-· ITUB4 Itaú Unibanco oferece 15 mil bolsas para bootcamp de Java com IA (Valor Economico) https://valor.globo.com/carreira/empregos-oportunidades/post/2026/09/itau-unibanco-oferece-15-mil-bolsas-para-bootcamp-de-java-com-ia.ghtml
-· MELI34 Farmácias ampliam queda na bolsa após avanço do Mercado Livre em remédios com receita (Exame) https://exame.com/invest/mercados/farmacias-ampliam-queda-na-bolsa-apos-avanco-do-mercado-livre-em-remedios-com-receita/
-· UST 10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds (CNBC) https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html
-· AMZN Amazon Wouldn’t Be Doing What It’s Doing if AI Capex Was Going to Fail (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amazon-wouldn-t-doing-doing-163045575.html
-· MU Micron investors should get ready for a seesaw ride, analyst says (MarketWatch) https://www.marketwatch.com/story/micron-investors-should-get-ready-for-a-seesaw-ride-analyst-says-1c0cc651
-· AXIA3 Axia Energia e Copel podem ganhar, com preços de energia acima das projeções (ADVFN) https://br.advfn.com/jornal/2026/09/axia-energia-e-copel-podem-ganhar-com-precos-de-energia-acima-das-projecoes
-· BTC MSTR, ASST Stocks Slide With Bitcoin: Strategy Proposes Daily Dividends, Matt Cole Challenges MSCI Rules (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:543a92583094b:0-mstr-asst-stocks-slide-with-bitcoin-strategy-proposes-daily-dividends-matt-cole-challenges-msci-rules/
-· (+79 manchetes; lista completa em eventos/noticias.json)
+· (+93 manchetes; lista completa em eventos/noticias.json)

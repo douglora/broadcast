@@ -78,8 +78,8 @@ Macro
 USDBRL USD/BR 5,1851 -0,1 +0,8 +0,6 -5,3
 DXY    DXY    101,04 -0,3 +0,8 +1,9 +2,8
 BRENT  Brent  104,37 -2,1 +0,5  +20  +72
-BTC*   BTC    83.734 -0,8 +3,5 +6,0 -4,3
-ETH*   ETH     2.680 -0,3 +2,6 +6,9 -9,7
+BTC*   BTC    84.039 -0,4 +3,9 +6,3 -4,0
+ETH*   ETH     2.691 +0,1 +3,0 +7,4 -9,3
 MINER* Mineri  97,14 -0,1 -0,3 +1,8 -9,3
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 25/09 · 18h12 BRT
+## Fechamento do livro · sex 25/09 · 20h55 BRT
 
 ---
 
@@ -13,7 +13,7 @@
 > *Por que importa:* acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
 
 
-*Mais 8 sinais de baixa prioridade em `alertas.md`.*
+*Mais 9 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
@@ -30,7 +30,7 @@
 |---|---:|---|---|
 | **UGPA3** | -5,8% | acompanhou o Brent (-2,1%) | driver |
 | **GFS** | +4,1% | descolou do setor (semicondutores (eua) +0,2% (mediana), SOX +1,4%; 3,9 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **INTC** | -3,4% | descolou do setor (semicondutores (eua) +0,2% (mediana), SOX +1,4%; -3,7 p.p. da mediana); notícia a conferir (Yahoo Finance): ARM vs. Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Compa | notícia (conferir) |
+| **INTC** | -3,4% | descolou do setor (semicondutores (eua) +0,2% (mediana), SOX +1,4%; -3,7 p.p. da mediana); notícia a conferir (Yahoo Finance): Is Now the Time to Bet on Intel’s (INTC) Server CPU Comeback and AI Ambitions? | notícia (conferir) |
 | **META** | -3,3% | investigar antes de comentar | sem causa no dado |
 | **QNTM** | +2,9% | investigar antes de comentar | sem causa no dado |
 | **WQTM** | +2,6% | investigar antes de comentar | sem causa no dado |
@@ -191,8 +191,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 5,1851 | **-0,1** | +0,8 | +0,6 | -0,2 | -1,0 | -2,7 | -5,3 | -2,2 |
 | **DXY** Indice Dolar DXY | 101,04 | **-0,3** | +0,8 | +1,9 | -0,3 | +0,9 | +2,5 | +2,8 | +8,3 |
 | **BRENT** Petroleo Brent | 104,37 | **-2,1** | +0,5 | +20 | +45 | -7,3 | +50 | +72 | +34 |
-| **BTC** Bitcoin _(parcial)_ | 83.734 | **-0,8** | +3,5 | +6,0 | +40 | +26 | -23 | -4,3 | +94 |
-| **ETH** Ethereum _(parcial)_ | 2.680 | **-0,3** | +2,6 | +6,9 | +70 | +35 | -31 | -9,7 | -12 |
+| **BTC** Bitcoin _(parcial)_ | 84.039 | **-0,4** | +3,9 | +6,3 | +40 | +27 | -23 | -4,0 | +94 |
+| **ETH** Ethereum _(parcial)_ | 2.691 | **+0,1** | +3,0 | +7,4 | +71 | +35 | -30 | -9,3 | -12 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 24/09)_ | 97,14 | **-0,1** | -0,3 | +1,8 | -3,2 | -8,5 | -8,0 | -9,3 | -19 |
 
 **Brent em reais:** R$ 541,17 por barril (25/09) · dia -2,2% · 1 mês +21% · no ano +62% (Brent do 1º vencimento × dólar).
@@ -283,8 +283,8 @@ Inflação implícita 2029 5,89% · 2032 6,00% · 2031/32 (descasado) 5,93% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 24/09 · UST CMT D0 · PTAX 25/09
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 20h55 · DI ajuste D0 · Tesouro base 24/09 · UST CMT D0 · PTAX 25/09
+**Lacunas:** tesouro: falha: HttpError: HTTP 0 em https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 714 CNY/t (2026-09-24).

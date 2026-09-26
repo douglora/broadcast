@@ -1,13 +1,17 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 25/09 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 25/09 · 20h55 BRT
+Relógios: Yahoo 20h55 · DI ajuste D0 · Tesouro base
   24/09 · UST CMT D0 · PTAX 25/09
 
-ALERTAS DO DIA (16 · 1 crítico)
+ALERTAS DO DIA (17 · 1 crítico)
 [CRÍTICO] T05 UGPA3 -5,8% no dia a R$ 36,56:
           movimento de 3,8 desvios para uma vol de
           20 dias de 25% a.a.
+[ATENÇÃO] S01 coleta do slot fechamento saiu
+          incompleta: tesouro: falha: HttpError:
+          HTTP 0 em
+          https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59
 [ATENÇÃO] C03 DI em nível: F35 cruzou 14,00% (para
           baixo, agora 13,97%)
 [ATENÇÃO] T01 BBAS3 fechou abaixo da média de 200
@@ -22,9 +26,7 @@ ALERTAS DO DIA (16 · 1 crítico)
 [ATENÇÃO] E05 PETR4 · Petrobras: Goldman eleva
           preço-alvo e prevê US$ 2,7 bilhões em
           dividendos
-[ATENÇÃO] M01 Agenda: IPCA-15 de setembro (IBGE)
-          hoje às 09:00 (25/09)
-(+8 em alertas.md)
+(+9 em alertas.md)
 
 ALTAS  GFS +4,1% · QNTM +2,9% · WQTM +2,6% · EWY
        +2,5% · QANT +2,1%
@@ -80,7 +82,8 @@ sex 02/10 ex-dividendo BBDC4 R$ 0,02 (último
 ter 06/10 ex-dividendo JPM US$ 1,50 (último
     provento, Yahoo)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: tesouro: falha: HttpError: HTTP 0 em
+  https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -166,8 +169,8 @@ Macro
 USDBRL USD/BRL  5,1851 -0,1 +0,8 +0,6 -1,0 -2,7 -5,3
 DXY    DXY      101,04 -0,3 +0,8 +1,9 +0,9 +2,5 +2,8
 BRENT  Brent    104,37 -2,1 +0,5  +20 -7,3  +50  +72
-BTC*   BTC      83.734 -0,8 +3,5 +6,0  +26  -23 -4,3
-ETH*   ETH       2.680 -0,3 +2,6 +6,9  +35  -31 -9,7
+BTC*   BTC      84.039 -0,4 +3,9 +6,3  +27  -23 -4,0
+ETH*   ETH       2.691 +0,1 +3,0 +7,4  +35  -30 -9,3
 MINER* Minerio   97,14 -0,1 -0,3 +1,8 -8,5 -8,0 -9,3
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
