@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 11h27
+NOTÍCIAS E FATOS · 28/09 12h23
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 431 veículo fora da lista, 39 sem ativo, 12 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 440 veículo fora da lista, 43 sem ativo, 44 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,41 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · ALUP4 · ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda venda para uma delas
+Money Times · 28/09 12h13 · fonte única · licença: integral
+Do texto:
+  – ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda venda para uma delas O Bradesco BBI elevou o preço-alvo da ISA Energia (ISAE4), de R$ 33 para R$ 34, da Alupar (ALUP11), de R$ 32 para R$ 40, e da T…
+  – As mudanças refletem as estimativas do BBI para o fim de 2027 das empresas de transmissão de energia.
+Link: https://www.moneytimes.com.br/isae4-alup11-taee3-bbi-eleva-preco-alvo-acoes-venda-uma-mlem/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: ALUP4
+Como falar: 'saiu no Money Times: ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda venda para uma del…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 28/09 12h13
+id: E05-ALUP4-ec03a6acc9-2026-09-28 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
+Seeking Alpha · 28/09 11h29 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4647529-tsmc-increases-2nm-wafer-production-outlook-by-20-report
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSM
+Como falar: 'saiu no Seeking Alpha: TSMC increases 2nm wafer production outlook by 20%: report; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 28/09 11h29
+id: E05-TSM-9df24c48f1-2026-09-28 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · Bradesco (BBDC4), Itaú (ITUB4) e mais cinco empresas pagam dividendos nesta semana; veja o calendário
+Money Times · 28/09 10h46 · fonte única · licença: integral
+Do texto:
+  – Bradesco (BBDC4), Itaú (ITUB4) e mais cinco empresas pagam dividendos nesta semana; veja o calendário Na semana de 28 de setembro a 2 de outubro, sete companhias da bolsa brasileira pagam dividendos e juros sobre capita…
+  – Na quinta-feira (30), o Itaú (ITUB3;ITUB4) realiza pagamento de JCP no valor de R$ 0,02 tanto para a ação preferencial quanto ordinária, para os acionistas posicionados em 31 de agosto de 2026.
+  – Também na quinta-feira, o Bradesco (BBDC3;BBDC4) realiza pagamento de JCP no valor de R$ 0,02, com data de corte de 1º de setembro de 2026.
+Link: https://www.moneytimes.com.br/dividendos-da-semana-25-9-26-apsa/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · BBDC4
+Como falar: 'saiu no Money Times: Bradesco (BBDC4), Itaú (ITUB4) e mais cinco empresas pagam dividendos nesta semana; veja…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 28/09 10h46
+id: E05-ITUB4-fa8cfea9e6-2026-09-28 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · MU · Micron's Earnings: Don't Be Misled By The Guidance, Don't Worry, Q4 Should Be Stellar (MU)
 Seeking Alpha · 28/09 10h17 · fonte única · licença: manchete
@@ -63,7 +97,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Seeking Alpha: Micron's Earnings: Don't Be Misled By The Guidance, Don't Worry, Q4 Should Be Stellar (MU); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 28/09 10h17
-id: E05-MU-b29775bf19-2026-09-28 · status: pendente
+id: E05-MU-b29775bf19-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · NVIDIA Flexes Its Cash Muscle With Record $150 Billion Buyback Increase
 TradingView (Reuters) · 28/09 09h25 · fonte única · licença: manchete
@@ -72,7 +106,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: NVDA
 Como falar: 'saiu no TradingView (Reuters): NVIDIA Flexes Its Cash Muscle With Record $150 Billion Buyback Increase; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 28/09 09h25
-id: E05-NVDA-d2df34835f-2026-09-28 · status: pendente
+id: E05-NVDA-d2df34835f-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · ITSA4 · ITSA4: Estratégia Prática de Opções e Dividendos Sintéticos na Itaúsa
 Investing.com · 28/09 10h15 · fonte única · licença: manchete
@@ -191,8 +225,23 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (43)
+## OUTRAS NOTÍCIAS (só manchete) (58)
 
+· PETR4 Novo plano de negócios da Petrobras não mudará muito a carteira de projetos de produção, sinaliza Baruzzi (eixos) https://eixos.com.br/videos-e-podcasts/ao-vivo/novo-plano-de-negocios-da-petrobras-nao-tera-muitas-mudancas-na-carteira-de-projetos-de-producao-sinaliza-baruzzi/
+· AVGO IP Infusion Upends the Economics of Network Transformation With OcNOS Support for the Broadcom Qumran3 Family at SCTE TechExpo 2026 (Business Wire) https://www.businesswire.com/news/home/20260928818996/en/IP-Infusion-Upends-the-Economics-of-Network-Transformation-With-OcNOS-Support-for-the-Broadcom-Qumran3-Family-at-SCTE-TechExpo-2026
+· ALUP4 BBI revisa preços-alvo de ISA, Alupar e Taesa e destaca perfil defensivo do segmento (InfoMoney) https://www.infomoney.com.br/mercados/bbi-revisa-precos-alvo-de-isa-alupar-e-taesa-e-destaca-perfil-defensivo-do-segmento/
+· JPM JPMorgan’s basket of security software stocks outperforms as AI threats mount (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:092faf3e6094b:0-jpmorgan-s-basket-of-security-software-stocks-outperforms-as-ai-threats-mount/
+· EQTL3 Equatorial diz que não há intenção de desinvestimento na Copasa (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/28/equatorial-diz-que-no-h-inteno-de-desinvestimento-na-copasa.ghtml
+· ITUB4 Itaú monta nova frente para disputar os bilhões do esporte e entretenimento (NeoFeed) https://neofeed.com.br/negocios/itau-monta-nova-frente-para-disputar-os-bilhoes-do-esporte-e-entretenimento/
+· NVDA Why Nvidia (NVDA) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:2fad745f4094b:0-why-nvidia-nvda-stock-is-trading-up-today/
+· MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4856302
+· INTC What's next for Intel after the SK Hynix partnership rumors? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxNZXlWN1RDWEJLRFl6M1IyNzNCY2VkbGM1dEoxUW0xLWFjc2p0WXJYQjJDaF9XTHpQaVA0S2hnMnZheG1GSjBVdE43VWlWdzJDeTJHb01IU2JDN2pRTmN4QmYtM29iV3ZySUJsRzRrdUlFOS16TDlnb3F0MWxtSGEyc3NIMFlJNl9OYUxpS3B6dVZuVXlpSHBFRWszWG5YT3E2V25sVHFhdnV2ZzJTMTY3QXBxTGxfMkJMNkZjMHpvdw?oc=5
+· BTC ‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy? (MarketWatch) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlZsOTNPZHZuNkY0Z0J0LVdjNXd2RVpQdUlHN0FRSHRqYlB4UXlKc1MxWlVrbEJoZFFtQ19pNkx4R1FxRjhUSjU2X0V6cmRveGZ6YlMxaURmajJjQ1NlQ21kNkhGcTRVZzhhZloxR05WclA1YjFZeEpQZU04T0J1M1NFV291LXFEaF9QX2dVVFhBZ2JVQU1tWUVSbnAwTnFWMUxVdHRuSktfYnh1WWJ3amJUcjhGcTlv?oc=5
+· USDBRL Tempo real: Ibovespa opera com volatilidade, eleições seguem no radar; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
+· BAC Bank of America Expands "Ask Global Payments Solutions" with New Intelligence Capabilities (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZkpneEthS3BEb3lVSGVkc2RHTTJvSEp3dHF4cDNLbEU0TVZveGwyQ1JERmdUWDd0STczNldRVUFncDJURVRLNU10YURYT1U0UHQ3Wm5SUlg5amFKX3EzQ2NWRjdLc0U1YldJTjhPSElxQmVIV3hNc2NJMkh0X05LWjdzdU1qVTl2bWt1Y0RaV3lscE1WMmk1alJ3VFh3aUo0VDFGX181Zkx1ZUppTXVFd2huZFlVcDliMWR5blN2bFJWRWVGZ1RsV0FHR0wxR2tjaTN1Q0lzNExUWFc2Q2dwMWsxdw?oc=5
+· BAC Bank of America bolsters treasury services by adding AI insights to CashPro (BAC:NYSE) (Seeking Alpha) https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2k0anRNUHZ0RzN3V2pTMElObG94NnlxUEpaczkwYXZJd3RtZndHTHhQbGNPMUR2akJPSUpOUGdTQTlPcmdzWVFTWHdVRVA2a1V6Sm5xOU1EcWZFckZ3VkZINURuRl9Wa0xnVGRBdkRZQkxvcVRkcGwyY1BnWUo1V2hiVDVGWHd0RmhyUHllcDliZG5ZYmNnaEJ5OWdqdVUyS2c1T2lrQmZLaFBxNi1TYTRXNA?oc=5
+· BRENT Dow Slips Over 350 Points, Nasdaq And S&P 500 Also In The Red As Treasury Yields, Crude Oil Prices Rise (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbFNTUDhqV3dBUV92UENXSUNXbG83UlJzZWZtVWlicnhoejFlenlrb0NHemRkVVhPVVRNeGtEUmJReV80VWMzRGlqbmVkRDRvRlNfaW9FWnU3SjUtQUNOYU1ZbktXQ0c3Z0I3bzVpeEZzdmUtcUVNRy1hd1dXNFJxRWhIRERXbkVTcFQ3THFoa3JXZHRhcm5VNEk5T0Eya0VBZVMtQWdrN1RzS1JydnU5eE5GSHhIUWFRNDJ3MkIyZE9xa0hHSV8xVjVXTGxwNVlxd2lOT3M3NjVIdVhfT3M3eW0xalMtM2VtRkRmWnVqbW5RV0sz?oc=5
+· ETH Vitalik Buterin Says Ethereum May Barely Be a Blockchain by 2030 — Could ETH Still Hit $40K? (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPa1o5QjFCYzluNk5iQWpDeEJ5STZ3YlNEal92azlSbGNvY1d4UjM0X3hBQjJROVpYdGl4YW9JQW1yZUZrQXdSQmtCNE1MVzVyTnAwWWZmSnJnMThRUHJQclNpS1pINEg4b0ZZQjVqeG1SelIwb3R6OWpRNTJtNk1zMWZFdlUybnZpVTd3TldmaXBGbTFzUGh4ZlJKcjEwZG8?oc=5
 · BABA BABA Shareholder Alert: October 5, 2026 Lead Plaintiff (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3370002/3080/en/baba-shareholder-alert-october-5-2026-lead-plaintiff-deadline-in-alibaba-group-holding-limited-securities-class-action-contact-levi-korsinsky.html
 · MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4885896
 · USDBRL Ibovespa cai e dólar passa de R$ 5,20 a menos de uma semana para o 1º turno das eleições (Exame) https://exame.com/invest/mercados/ibovespa-cai-e-dolar-passa-de-r-520-a-menos-de-uma-semana-para-o-1o-turno-das-eleicoes/
