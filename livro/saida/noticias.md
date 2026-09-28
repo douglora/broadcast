@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 16h22
+NOTÍCIAS E FATOS · 28/09 17h04
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 431 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 433 veículo fora da lista, 44 sem ativo, 8 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -63,7 +63,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSM
 Como falar: 'saiu no TradingView (Reuters): TSMC increases 2nm wafer production outlook by 20%: report; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 28/09 11h29
-id: E05-TSM-d0a83dd7b7-2026-09-28 · status: pendente
+id: E05-TSM-d0a83dd7b7-2026-09-28 · status: expirado
 
 [ATENÇÃO] E05 · NVDA · Nvidia's board increases chipmaker's share buyback plan by $150 billion
 Yahoo Finance · 28/09 13h12 · fonte única · licença: resumo
@@ -250,8 +250,19 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (106)
+## OUTRAS NOTÍCIAS (só manchete) (117)
 
+· NVDA Nvidia Drops Massive Number on Anthropic AI Spending (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:37d604478094b:0-nvidia-drops-massive-number-on-anthropic-ai-spending/
+· MU Micron Stock Slips Before a $50 Billion Memory Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5cb00037e094b:0-micron-stock-slips-before-a-50-billion-memory-test/
+· PETR4 Ibovespa cai com pressão eleitoral e baixa das bolsas de NY; Vale e Petrobras sobem e limitam perdas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-abre-semana-com-petroleo-abaixo-de-us-100-e-focus/
+· UST US Treasury yields rise with Middle East, rate hike bets in focus (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45K0ZW:0-us-treasury-yields-rise-with-middle-east-rate-hike-bets-in-focus/
+· MU Micron Stock Gets Stunning Price Target Hike Just Before Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:68fa19fb0094b:0-micron-stock-gets-stunning-price-target-hike-just-before-earnings/
+· MU 5-Star Analyst Sees 80% Upside in Micron Stock (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:842ab4284094b:0-5-star-analyst-sees-80-upside-in-micron-stock/
+· UST Market Strategist Kristina Hooper Sees Risk Building Around AI Capex Over Surging Treasury Yields (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:81ee7bf99094b:0-market-strategist-kristina-hooper-sees-risk-building-around-ai-capex-over-surging-treasury-yields/
+· BTC Bitcoin traders chase shorts as rising Treasury yields weigh over gold (CoinDesk) https://www.coindesk.com/markets/2026/09/28/bitcoin-bears-pay-to-bet-on-further-declines-as-futures-positions-near-yearly-lows
+· USDBRL Tempo real: Ibovespa opera com volatilidade, eleições seguem no radar; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
+· TSLA Can This Number Push Tesla Stock Higher? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxOS211SGNBQVJPMXF1Z0JLSkNaRVZaX0VFWERycGF1U3Y0Y20zaDJTYkQ1dTVPazBWM1dQS3Faa0pvSkpkblJDRDVvOHFVbXNlMWNwMlgwZVhVd2x4R1d4SGVWVFhDR2xVMGhNRHRsT3JzWHhIbkQyVnZfT3dWWVlBblVNa3V0bjFTS2s0d3ZxclBZZkhIRkpvZnY3VQ?oc=5
+· USDBRL Ibovespa cai com pesquisas eleitorais e Treasuries; dólar avança a R$ 5,21 (CNN Brasil) https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWF5QmdSTjZDRXFJYkhzSU8wckJvbGg2UlgtbS1jYjl3M1pxRW83VDV1MDY4UWVaVEMxazd6dDl5TEhMWWNjaGs3Tm1LQlJWeC00a0tUa3ZvWDFBaGZjVUlhUVV0SG5nZ3VDZUVxOWsxVjhPb0lKQUFOaUxZNzFvRWhUV0I4QV9HdDY5RFZwbDVobUZoVzNOcTBuQVR1T3J4V3pvRFRR?oc=5
 · MU Micron Stock Gets Stunning Price Target Hike Just Before Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-gets-stunning-price-191458805.html
 · USDBRL Dólar hoje sobe a R$ 5,21 sob influência do exterior e de nova pesquisa (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28092026/
 · BRENT Wall St declines as oil prices, Treasury yields remain elevated (Reuters) https://www.reuters.com/business/wall-st-futures-drop-oil-spikes-after-trump-rejects-iran-peace-proposal-2026-09-28/
@@ -301,15 +312,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · AVGO IP Infusion Upends the Economics of Network Transformation With OcNOS Support for the Broadcom Qumran3 Family at SCTE TechExpo 2026 (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQN3h2TEo5R0dja0RBQ0lENHh5Sy1rMHVNRkNuVmo5eWFvTXZwcS1yN25pYXAtTmRYeWlCWm9YRllFdWNoV1Q1cVNDbzFfSU1LeHVZNzVjM2xfZ1pzSXR2RXd5ZDN5cmxFcDcxTUcyQWJGaGM2VGI0ZExMa041WlFuRjhhckFldHhKWmFrNzlpQTd1LXJDMWdGYmdUbmZtdw?oc=5
 · MRVL Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWl82NUtkaGNvdzJVZXJ1T3BNYnZZcHlreTBQN2dLWmxhSXNlUzVFR3VQMUowbUZzbG9peVRJVVd4d0ozSTFxakFUSmxJOFNBcHJTcWZlYnRQSzBxeTJEZDNwN3dkMmJzQjB3TGpYMWJhN3YxLVpZeWZraE04eFdWYkJmUTdFU2wtSWR6QkVvX2pfT2VnLXRoeDIxcG80a0twYVlTaVpHN3lyMkhyenZSYTlxckVYd01WTUc4WERDaW01ajhHcnk2ZEw2a2F6RFAwMTBZbUprUGpTMVFTTkJqNGtYLWZmakl2?oc=5
 · PETR4 Novo plano de negócios da Petrobras não mudará muito a carteira de projetos de produção, sinaliza Baruzzi (eixos) https://eixos.com.br/videos-e-podcasts/ao-vivo/novo-plano-de-negocios-da-petrobras-nao-tera-muitas-mudancas-na-carteira-de-projetos-de-producao-sinaliza-baruzzi/
-· AVGO IP Infusion Upends the Economics of Network Transformation With OcNOS Support for the Broadcom Qumran3 Family at SCTE TechExpo 2026 (Business Wire) https://www.businesswire.com/news/home/20260928818996/en/IP-Infusion-Upends-the-Economics-of-Network-Transformation-With-OcNOS-Support-for-the-Broadcom-Qumran3-Family-at-SCTE-TechExpo-2026
-· ALUP4 BBI revisa preços-alvo de ISA, Alupar e Taesa e destaca perfil defensivo do segmento (InfoMoney) https://www.infomoney.com.br/mercados/bbi-revisa-precos-alvo-de-isa-alupar-e-taesa-e-destaca-perfil-defensivo-do-segmento/
-· JPM JPMorgan’s basket of security software stocks outperforms as AI threats mount (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:092faf3e6094b:0-jpmorgan-s-basket-of-security-software-stocks-outperforms-as-ai-threats-mount/
-· EQTL3 Equatorial diz que não há intenção de desinvestimento na Copasa (Valor Economico) https://valor.globo.com/empresas/noticia/2026/09/28/equatorial-diz-que-no-h-inteno-de-desinvestimento-na-copasa.ghtml
-· ITUB4 Itaú monta nova frente para disputar os bilhões do esporte e entretenimento (NeoFeed) https://neofeed.com.br/negocios/itau-monta-nova-frente-para-disputar-os-bilhoes-do-esporte-e-entretenimento/
-· NVDA Why Nvidia (NVDA) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:2fad745f4094b:0-why-nvidia-nvda-stock-is-trading-up-today/
-· MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4856302
-· INTC What's next for Intel after the SK Hynix partnership rumors? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxNZXlWN1RDWEJLRFl6M1IyNzNCY2VkbGM1dEoxUW0xLWFjc2p0WXJYQjJDaF9XTHpQaVA0S2hnMnZheG1GSjBVdE43VWlWdzJDeTJHb01IU2JDN2pRTmN4QmYtM29iV3ZySUJsRzRrdUlFOS16TDlnb3F0MWxtSGEyc3NIMFlJNl9OYUxpS3B6dVZuVXlpSHBFRWszWG5YT3E2V25sVHFhdnV2ZzJTMTY3QXBxTGxfMkJMNkZjMHpvdw?oc=5
-· BTC ‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy? (MarketWatch) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlZsOTNPZHZuNkY0Z0J0LVdjNXd2RVpQdUlHN0FRSHRqYlB4UXlKc1MxWlVrbEJoZFFtQ19pNkx4R1FxRjhUSjU2X0V6cmRveGZ6YlMxaURmajJjQ1NlQ21kNkhGcTRVZzhhZloxR05WclA1YjFZeEpQZU04T0J1M1NFV291LXFEaF9QX2dVVFhBZ2JVQU1tWUVSbnAwTnFWMUxVdHRuSktfYnh1WWJ3amJUcjhGcTlv?oc=5
-· USDBRL Tempo real: Ibovespa opera com volatilidade, eleições seguem no radar; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
-· BAC Bank of America Expands "Ask Global Payments Solutions" with New Intelligence Capabilities (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZkpneEthS3BEb3lVSGVkc2RHTTJvSEp3dHF4cDNLbEU0TVZveGwyQ1JERmdUWDd0STczNldRVUFncDJURVRLNU10YURYT1U0UHQ3Wm5SUlg5amFKX3EzQ2NWRjdLc0U1YldJTjhPSElxQmVIV3hNc2NJMkh0X05LWjdzdU1qVTl2bWt1Y0RaV3lscE1WMmk1alJ3VFh3aUo0VDFGX181Zkx1ZUppTXVFd2huZFlVcDliMWR5blN2bFJWRWVGZ1RsV0FHR0wxR2tjaTN1Q0lzNExUWFc2Q2dwMWsxdw?oc=5
-· (+46 manchetes; lista completa em eventos/noticias.json)
+· (+57 manchetes; lista completa em eventos/noticias.json)
