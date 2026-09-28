@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 10h37
+NOTÍCIAS E FATOS · 28/09 11h27
 
-Pernas: noticias ok 20 novas (18 consultas; descartadas: 441 veículo fora da lista, 38 sem ativo, 39 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 431 veículo fora da lista, 39 sem ativo, 12 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,25 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · MU · Micron's Earnings: Don't Be Misled By The Guidance, Don't Worry, Q4 Should Be Stellar (MU)
+Seeking Alpha · 28/09 10h17 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4950242-microns-earnings-dont-be-misled-by-guidance-dont-worry-q4-should-be-stellar
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Seeking Alpha: Micron's Earnings: Don't Be Misled By The Guidance, Don't Worry, Q4 Should Be Stellar (MU); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 28/09 10h17
+id: E05-MU-b29775bf19-2026-09-28 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · NVIDIA Flexes Its Cash Muscle With Record $150 Billion Buyback Increase
+TradingView (Reuters) · 28/09 09h25 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:4dff75ab1094b:0-nvidia-flexes-its-cash-muscle-with-record-150-billion-buyback-increase/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): NVIDIA Flexes Its Cash Muscle With Record $150 Billion Buyback Increase; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 28/09 09h25
+id: E05-NVDA-d2df34835f-2026-09-28 · status: pendente
 
 [ATENÇÃO] E05 · ITSA4 · ITSA4: Estratégia Prática de Opções e Dividendos Sintéticos na Itaúsa
 Investing.com · 28/09 10h15 · fonte única · licença: manchete
@@ -63,7 +81,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITSA4
 Como falar: 'saiu no Investing.com: ITSA4: Estratégia Prática de Opções e Dividendos Sintéticos na Itaúsa; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 28/09 10h15
-id: E05-ITSA4-7e5b136d0a-2026-09-28 · status: pendente
+id: E05-ITSA4-7e5b136d0a-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history
 Yahoo Finance · 28/09 09h13 · fonte única · licença: resumo
@@ -79,7 +97,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 28/09 09h13
-id: E05-NVDA-996f7737cf-2026-09-28 · status: pendente
+id: E05-NVDA-996f7737cf-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · DI · Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona
 Estadao · 28/09 08h41 · fonte única · licença: manchete
@@ -88,7 +106,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Estadao: Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Seli…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 28/09 08h41
-id: E05-DI-7de8c8d601-2026-09-28 · status: pendente
+id: E05-DI-7de8c8d601-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · EQTL3 · Agenda de empresas: Equatorial avalia rescisão de acordo de acionistas da Copasa; Multiplan anuncia JCP
 Valor Economico · 28/09 08h06 · fonte única · licença: resumo
@@ -173,8 +191,21 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (43)
 
+· BABA BABA Shareholder Alert: October 5, 2026 Lead Plaintiff (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3370002/3080/en/baba-shareholder-alert-october-5-2026-lead-plaintiff-deadline-in-alibaba-group-holding-limited-securities-class-action-contact-levi-korsinsky.html
+· MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4885896
+· USDBRL Ibovespa cai e dólar passa de R$ 5,20 a menos de uma semana para o 1º turno das eleições (Exame) https://exame.com/invest/mercados/ibovespa-cai-e-dolar-passa-de-r-520-a-menos-de-uma-semana-para-o-1o-turno-das-eleicoes/
+· BRENT Dólar canadense cai com diferencial de juros e petróleo mais fraco (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-cai-com-diferencial-de-juros-e-petroleo-mais-fraco-2076952
+· ETH Vitalik Buterin Says Ethereum May Barely Be a Blockchain by 2030 — Could ETH Still Hit $40K? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/vitalik-buterin-says-ethereum-may-135215026.html
+· MU Prediction: This Will Be Micron Technology’s Stock Price by the End of 2026 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-technology-stock-price-135201203.html
+· TSLA Tesla Stock: Why Deliveries May Not Matter as Much as the Roadster This Week (Barron's) https://www.barrons.com/articles/tesla-stock-deliveries-ev-4bb9ce44
+· AMD CEO Predicts: “Demand Will Continue to Rise” as AMD and Intel Soar up to 17% Thanks to Muse (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ceo-predicts-demand-continue-rise-133323695.html
+· BTC Bitcoin Price Prediction for 2027: What to Expect After a 42% Surge (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-2027-expect-133032807.html
+· MU Micron Q4: The Market Is Already Looking Beyond 2027 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4950244-micron-q4-the-market-is-already-looking-beyond-2027
+· LITE Lumentum Holdings Inc. (LITE) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE95bHdrbUUyN2c0bExGNEs3UzhlZVA2RGpvZG15VDloQlJwVEl4Q1lBLWowSHBBV3RXVlVzZ0t6SHRnb1pHdzdwUXhSX0EzaHZTZlE?oc=5
+· COHR Are Business Services Stocks Lagging COHERENT CORP (COHR) This Year? (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNZkRJeVNLekpuWU1OYWhhcmNIYXpjX0VrcnNGUzNNS3YxQWNmeEZ4UUtndDViazlHb0VwdGt1ckg4Und4cldkcjFwTGplX2E4b0lxUXEwLXJsT3B0Z3pSQmk1bE5fZlVBNHBIQVRwTWlLRXJUcUFqLWc5MGJ6Q0NlMXNpWnFBcWJmQnNsNmJjbnlMczNJ?oc=5
+· KO Coca-Cola Appoints Monster Energy Executive Rob Gehring to Lead North America Division (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNa3lBMUsxZHlDZXltVDNURWNvcjREbDgtUUtMdV9YMGlrR21NdktqUnQzQkpsbmhodTVWajdRc0NHeGpEczJMM2E3NzUwZjRQM3NiaXFxOW1jRU5VenotQWJQUzlqSnF4bEZtb3pENHBTa29qcmFZUkM0SUV3dUFLMnQ5MEgwdksyZ3A5cG1YOWZtRnFrZHN0MUxrbEFuQ3M?oc=5
 · AMD AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade) (Seeking Alpha) https://seekingalpha.com/article/4950250-amd-ai-momentum-train-unstoppable-but-pausing-accumulation-downgrade
 · JPM JPMorgan Traders Flip to Bullish View on US Stocks (SPY) Ahead of Jobs Report (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-28/jpmorgan-traders-flip-to-bullish-view-on-us-stocks-spy-ahead-of-jobs-report
 · BRENT Tesouro Direto hoje reabre taxas com petróleo de volta a US$ 100; IPCA+ 2032 chega a 7,69% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-reabre-taxas-com-petroleo-de-volta-a-us-100-ipca-2032-chega-a-769/
