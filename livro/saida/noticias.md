@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 15h36
+NOTÍCIAS E FATOS · 28/09 16h22
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 424 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 431 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -250,8 +250,15 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (99)
+## OUTRAS NOTÍCIAS (só manchete) (106)
 
+· MU Micron Stock Gets Stunning Price Target Hike Just Before Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-gets-stunning-price-191458805.html
+· USDBRL Dólar hoje sobe a R$ 5,21 sob influência do exterior e de nova pesquisa (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28092026/
+· BRENT Wall St declines as oil prices, Treasury yields remain elevated (Reuters) https://www.reuters.com/business/wall-st-futures-drop-oil-spikes-after-trump-rejects-iran-peace-proposal-2026-09-28/
+· MU Micron Stock Falls on AI Jitters, But Q4 Earnings Could Spark a Rebound (Barron's) https://www.barrons.com/articles/micron-stock-price-ai-earnings-9aacdfd8
+· UST Gold's lustre dims as Treasury yields surge, markets bet on higher Fed rates (Reuters) https://www.reuters.com/world/india/golds-lustre-dims-treasury-yields-surge-markets-bet-higher-fed-rates-2026-09-28/
+· BRENT Dólar sobe a R$ 5,22 e Bolsa patina, com petróleo e eleições no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/28/dolar-bolsa-abre-hoje-28-de-setembro-de-2026.ghtm
+· GOOGL Thales Expands Collaboration with Google Cloud to Help Secure Agentic AI Workflows (Business Wire) https://www.businesswire.com/news/home/20260928647188/en/Thales-Expands-Collaboration-with-Google-Cloud-to-Help-Secure-Agentic-AI-Workflows
 · NVDA Nvidia: Ramping Up The Buyback (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950338-nvidia-ramping-up-the-buyback
 · TSLA Why Tesla Stock Is Tied to SpaceX Ahead of a Big Week for the EV Maker (Barron's) https://www.barrons.com/articles/tesla-stock-price-deliveries-roadster-spacex-merger-4bb9ce44
 · GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0
@@ -305,11 +312,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · BTC ‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy? (MarketWatch) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlZsOTNPZHZuNkY0Z0J0LVdjNXd2RVpQdUlHN0FRSHRqYlB4UXlKc1MxWlVrbEJoZFFtQ19pNkx4R1FxRjhUSjU2X0V6cmRveGZ6YlMxaURmajJjQ1NlQ21kNkhGcTRVZzhhZloxR05WclA1YjFZeEpQZU04T0J1M1NFV291LXFEaF9QX2dVVFhBZ2JVQU1tWUVSbnAwTnFWMUxVdHRuSktfYnh1WWJ3amJUcjhGcTlv?oc=5
 · USDBRL Tempo real: Ibovespa opera com volatilidade, eleições seguem no radar; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
 · BAC Bank of America Expands "Ask Global Payments Solutions" with New Intelligence Capabilities (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZkpneEthS3BEb3lVSGVkc2RHTTJvSEp3dHF4cDNLbEU0TVZveGwyQ1JERmdUWDd0STczNldRVUFncDJURVRLNU10YURYT1U0UHQ3Wm5SUlg5amFKX3EzQ2NWRjdLc0U1YldJTjhPSElxQmVIV3hNc2NJMkh0X05LWjdzdU1qVTl2bWt1Y0RaV3lscE1WMmk1alJ3VFh3aUo0VDFGX181Zkx1ZUppTXVFd2huZFlVcDliMWR5blN2bFJWRWVGZ1RsV0FHR0wxR2tjaTN1Q0lzNExUWFc2Q2dwMWsxdw?oc=5
-· BAC Bank of America bolsters treasury services by adding AI insights to CashPro (BAC:NYSE) (Seeking Alpha) https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2k0anRNUHZ0RzN3V2pTMElObG94NnlxUEpaczkwYXZJd3RtZndHTHhQbGNPMUR2akJPSUpOUGdTQTlPcmdzWVFTWHdVRVA2a1V6Sm5xOU1EcWZFckZ3VkZINURuRl9Wa0xnVGRBdkRZQkxvcVRkcGwyY1BnWUo1V2hiVDVGWHd0RmhyUHllcDliZG5ZYmNnaEJ5OWdqdVUyS2c1T2lrQmZLaFBxNi1TYTRXNA?oc=5
-· BRENT Dow Slips Over 350 Points, Nasdaq And S&P 500 Also In The Red As Treasury Yields, Crude Oil Prices Rise (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbFNTUDhqV3dBUV92UENXSUNXbG83UlJzZWZtVWlicnhoejFlenlrb0NHemRkVVhPVVRNeGtEUmJReV80VWMzRGlqbmVkRDRvRlNfaW9FWnU3SjUtQUNOYU1ZbktXQ0c3Z0I3bzVpeEZzdmUtcUVNRy1hd1dXNFJxRWhIRERXbkVTcFQ3THFoa3JXZHRhcm5VNEk5T0Eya0VBZVMtQWdrN1RzS1JydnU5eE5GSHhIUWFRNDJ3MkIyZE9xa0hHSV8xVjVXTGxwNVlxd2lOT3M3NjVIdVhfT3M3eW0xalMtM2VtRkRmWnVqbW5RV0sz?oc=5
-· ETH Vitalik Buterin Says Ethereum May Barely Be a Blockchain by 2030 — Could ETH Still Hit $40K? (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPa1o5QjFCYzluNk5iQWpDeEJ5STZ3YlNEal92azlSbGNvY1d4UjM0X3hBQjJROVpYdGl4YW9JQW1yZUZrQXdSQmtCNE1MVzVyTnAwWWZmSnJnMThRUHJQclNpS1pINEg4b0ZZQjVqeG1SelIwb3R6OWpRNTJtNk1zMWZFdlUybnZpVTd3TldmaXBGbTFzUGh4ZlJKcjEwZG8?oc=5
-· BABA BABA Shareholder Alert: October 5, 2026 Lead Plaintiff (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3370002/3080/en/baba-shareholder-alert-october-5-2026-lead-plaintiff-deadline-in-alibaba-group-holding-limited-securities-class-action-contact-levi-korsinsky.html
-· MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4885896
-· USDBRL Ibovespa cai e dólar passa de R$ 5,20 a menos de uma semana para o 1º turno das eleições (Exame) https://exame.com/invest/mercados/ibovespa-cai-e-dolar-passa-de-r-520-a-menos-de-uma-semana-para-o-1o-turno-das-eleicoes/
-· BRENT Dólar canadense cai com diferencial de juros e petróleo mais fraco (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-cai-com-diferencial-de-juros-e-petroleo-mais-fraco-2076952
-· (+39 manchetes; lista completa em eventos/noticias.json)
+· (+46 manchetes; lista completa em eventos/noticias.json)

@@ -1,28 +1,28 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
+(pendente de slot anterior) [ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
 TradingView (Reuters) · 28/09 11h29 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/seekingalpha:6df46bf69094b:0-tsmc-increases-2nm-wafer-production-outlook-by-20-report/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: TSM
 Como falar: 'saiu no TradingView (Reuters): TSMC increases 2nm wafer production outlook by 20%: report; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 28/09 11h29
-Push: [ATENÇÃO] TSM · TSMC increases 2nm wafer production outlook by 20% · detalhe na sessão
 ids: E05-TSM-d0a83dd7b7-2026-09-28
 
 Info (só linha no Fechamento):
-· E05 NVDA · Nvidia: Ramping Up The Buyback (NASDAQ:NVDA)
-· E05 TSLA · Why Tesla Stock Is Tied to SpaceX Ahead of a Big Week for the EV Maker
-· E05 GOOGL · Piper Sandler reiterates Overweight rating on Alphabet, $400 price target
-· E05 GFS · GLOBALFOUNDRIES Inc. (GFS) Stock Price, News, Quote & History
-· E05 MRVL · RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com
-· E05 GOOGL · Piper Sandler sees Google TPU sales hitting $104BN by 2028
-· E05 COHR · Coherent Corp. (COHR) Stock Price, News, Quote & History
-· E05 TSLA · My Tesla Stock Price Prediction Hinges on One Massive Opportunity
-· E05 BRENT · Bond sell-off deepens as oil prices rise
+· E05 MU · Micron Stock Gets Stunning Price Target Hike Just Before Earnings
+· E05 USDBRL · Dólar hoje sobe a R$ 5,21 sob influência do exterior e de nova pesquisa
+· E05 BRENT · Wall St declines as oil prices, Treasury yields remain elevated
+· E05 MU · Micron Stock Falls on AI Jitters, But Q4 Earnings Could Spark a Rebound
+· E05 UST · Gold's lustre dims as Treasury yields surge, markets bet on higher Fed rates
+· E05 BRENT · Dólar sobe a R$ 5,22 e Bolsa patina, com petróleo e eleições no radar
+· E05 GOOGL · Thales Expands Collaboration with Google Cloud to Help Secure Agentic AI Workflows
+· S01 coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram selic_meta)
 
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-intradia-2026-09-28 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · pendente  E05 TSM — TSM · TSMC increases 2nm wafer production outlook by 20%: report
 · entregue  E05 NVDA — NVDA · Nvidia's board increases chipmaker's share buyback plan by $150 billion
 · entregue  E05 ALUP4 — ALUP4 · ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda v
@@ -38,7 +38,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 PETR4 — PETR4 · Maior refinaria da Petrobras registra alta de 12,1% na produção e se apr
 · entregue  E05 UST — UST · Gold Drops More Than 3% as Treasury Yields and Fed Outlook Pressure Prices
 · entregue  E05 ITUB4 — ITUB4 · Dólar a R$ 5,30: Itaú reforça projeção, mas aponta os riscos que podem t
-· linha     F01 USDBRL — Real cai: USD/BRL 5,2158 (cruzou R$ 5,20) (parcial, intradia)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,2195 (cruzou R$ 5,20) (parcial, intradia)
 · linha     F03 BRENT — Brent sobe a US$ 107,50 (+3,0% no dia) (parcial, intradia)
-· (+105 notícias só manchete, em noticias.md)
+· (+112 notícias só manchete, em noticias.md)
 
