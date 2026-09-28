@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-09-24T02:50:43Z",
+ "gerado_em": "2026-09-28T20:07:12Z",
  "partes": {
   "cartas": {
-   "em": "2026-09-24T02:55:40Z",
+   "em": "2026-09-28T20:13:25Z",
    "resultado": {
     "cartas": 43,
     "metodos": {
@@ -25,26 +25,26 @@
    }
   },
   "documentos": {
-   "em": "2026-09-24T02:55:51Z",
+   "em": "2026-09-28T20:13:49Z",
    "resultado": {
-    "pdfs": 14,
+    "pdfs": 15,
     "posts": 0,
     "imagens": 19
    }
   },
   "videos": {
-   "em": "2026-09-24T02:56:51Z",
+   "em": "2026-09-28T20:14:51Z",
    "resultado": {
-    "videos": 37,
+    "videos": 38,
     "com_legenda": 0,
-    "erros": 37,
+    "erros": 38,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] zYBbPDmHp70: Faça l"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] XNKlvKgDbt4: Faça login para confirmar que você não é um bot"
  ],
  "rodou": [
   "cartas",

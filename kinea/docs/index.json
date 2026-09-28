@@ -1,8 +1,20 @@
 {
- "gerado_em": "2026-09-24T02:55:51Z",
+ "gerado_em": "2026-09-28T20:13:49Z",
  "fonte": "https://www.kinea.com.br (busca do WordPress: live, mochileiro, research, estudo, panorama, cenario, mochileiro, minha casa, construtoras, live economia, eleicao, bolsa)",
  "desde": "2026-01",
  "docs": [
+  {
+   "url": "https://www.kinea.com.br/wp-content/uploads/2026/09/Live-Prev-PJ.pdf",
+   "publicado_em": "2026-09-24",
+   "titulo": "Live Prev PJ",
+   "achado_por": "busca 'live'",
+   "tipo": "pdf",
+   "arquivo": "kinea/docs/2026-09-24_Live-Prev-PJ.txt",
+   "paginas": 30,
+   "chars": 20799,
+   "baixado_em": "2026-09-28T20:13:49Z",
+   "imagens": []
+  },
   {
    "url": "https://www.kinea.com.br/wp-content/uploads/2026/09/Kinea-Insights_O-Guia-do-Mochileiro-das-Galaxias.pdf",
    "publicado_em": "2026-09-16",
