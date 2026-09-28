@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 28/09 08h34
+NOTÍCIAS E FATOS · 28/09 10h37
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 457 veículo fora da lista, 39 sem ativo, 48 teto) · cvm ok 5 novos de 10 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 441 veículo fora da lista, 38 sem ativo, 39 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (7)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
 [ATENÇÃO] E03 · AXIA3 · Comunicado ao Mercado: Liquidação da 6ª Emissão de Debêntures da AXIA Energia Sul
 CVM · entregue 2026-09-25 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -13,7 +13,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Liquidação da 6ª Emissão de Debêntures da AXIA Energia Sul'
 Fonte: CVM 25/09
-id: E03-AXIA3-50b45153-2026-09-25 · status: pendente · íntegra disponível
+id: E03-AXIA3-50b45153-2026-09-25 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Aprovação do capital alocável
 CVM · entregue 2026-09-25
@@ -24,18 +24,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Aprovação do capital alocável'
 Fonte: CVM 25/09
-id: E03-AXIA3-1eae1ba0-2026-09-25 · status: pendente · íntegra disponível
-
-[ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado do segundo trimestre…
-CVM · entregue 25/09/2026 08:13
-Do documento:
-  – Esse montante soma-se aos até R$ 7,7 bilhões aprovados com base  no resultado do primeiro e segundo trimestre de 2026, totalizando até R$ 11,7 bilhões de capital alocável aos  acionistas.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571417
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
-Fonte: CVM 25/09
-id: E03-AXIA3-1571417-2026-09-25 · status: entregue · íntegra disponível
+id: E03-AXIA3-1eae1ba0-2026-09-25 · status: entregue · íntegra disponível
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Petrobras recebe nova parcela de Subvenção Econômica ao Diesel
 CVM · entregue 2026-09-25 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -64,17 +53,67 @@ Como falar: 'a Alupar publicou aviso aos acionistas sobre Data de pagamento dos 
 Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
-[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 25/09/2026 19:39 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1571863
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 25/09
-id: E03-AXIA3-1571863-2026-09-25 · status: linha
-
 
 ## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · ITSA4 · ITSA4: Estratégia Prática de Opções e Dividendos Sintéticos na Itaúsa
+Investing.com · 28/09 10h15 · fonte única · licença: manchete
+Link: https://br.investing.com/analysis/itsa4-estrategia-pratica-de-opcoes-e-dividendos-sinteticos-na-itausa-200479868
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITSA4
+Como falar: 'saiu no Investing.com: ITSA4: Estratégia Prática de Opções e Dividendos Sintéticos na Itaúsa; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/09 10h15
+id: E05-ITSA4-7e5b136d0a-2026-09-28 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history
+Yahoo Finance · 28/09 09h13 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The king of AI chips revealed a stunning new $150 billion stock buyback plan on Monday — the largest share repurchase authorization increase in history.
+  – It brings the company's total buyback authorization to $235 billion.
+  – "NVIDIA's growth is being driven by a once-in-a-generation platform shift to AI and accelerated computing," Huang said in a statement.
+  – "Our cash generation gives us the capacity to invest in the technologies that advance this transformation and return capital to shareholders.
+  – Nvidia's forward price-to-earnings (P/E) multiple has declined steadily since August 2024, when artificial intelligence began to take hold, unleashing a boom in the company's stock price and earnings growth.
+  – The forward P/E ratio for Nvidia currently stands at 24 times, not too far removed from the S&P 500's (^GSPC) 20-times multiple, despite the company being one of the fastest-growing companies in corporate America.
+Link: https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 28/09 09h13
+id: E05-NVDA-996f7737cf-2026-09-28 · status: pendente
+
+[ATENÇÃO] E05 · DI · Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona
+Estadao · 28/09 08h41 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/focus-eleva-projecao-para-inflacao-de-2026-e-estimativas-mais-recentes-ja-passam-de-5/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Estadao: Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Seli…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 28/09 08h41
+id: E05-DI-7de8c8d601-2026-09-28 · status: pendente
+
+[ATENÇÃO] E05 · EQTL3 · Agenda de empresas: Equatorial avalia rescisão de acordo de acionistas da Copasa; Multiplan anuncia JCP
+Valor Economico · 28/09 08h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A decisão será levada adiante caso sejam aprovadas, em assembleia geral extraordinária (AGE) marcada para esta segunda-feira (25), as alterações estatutárias que garantem prerrogativas permanentes à ação especial (“gold…
+  – O conselho de administração da Multiplan aprovou o pagamento de juros sobre capital próprio no montante bruto de R$ 139 milhões, o equivalente a R$ 0,28413 por ação.
+  – Riachuelo O conselho de administração da Riachuelo aprovou o creditamento de juros sobre capital próprio (JCP) no montante bruto de R$ 30 milhões, o equivalente a R$ 0,05968 por ação.
+  – A transação poderia ser avaliada entre 8 bilhões e 10 bilhões de libras e seria feita em dinheiro e troca de ações.
+  – Axia A Axia Energia informou que o período para os acionistas manifestarem interesse na conversão de ações preferenciais classe C (PNC) em ações ordinárias ocorrerá entre 28 e 30 de setembro de 2026.
+  – Alupar A Alupar realizará, em 2 de outubro, o pagamento de R$ 69,2 milhões em dividendos aos seus acionistas, conforme deliberação do conselho de administração.
+Link: https://valor.globo.com/google/amp/empresas/noticia/2026/09/28/agenda-de-empresas-equatorial-avalia-rescisao-de-acordo-de-acionistas-da-copasa-multiplan-anuncia-jcp.ghtml
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: EQTL3
+Como falar: 'saiu no Valor Economico: Agenda de empresas: Equatorial avalia rescisão de acordo de acionistas da Copasa; Multipl…; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 28/09 08h06
+id: E05-EQTL3-42a6433187-2026-09-28 · status: linha
+
+[ATENÇÃO] E05 · MU · Micron Earnings Preview: Analysts See Over 350% Revenue Jump As Retail Bulls Bet On Fresh Buyback
+TradingView (Reuters) · 27/09 23h22 · fonte única · licença: manchete
+Link: https://es.tradingview.com/news/stocktwits:54d02f014094b:0-micron-earnings-preview-analysts-see-over-350-revenue-jump-as-retail-bulls-bet-on-fresh-buyback/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): Micron Earnings Preview: Analysts See Over 350% Revenue Jump As Retail Bulls Bet On Fresh…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 27/09 23h22
+id: E05-MU-6fa694b0e7-2026-09-28 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Maior refinaria da Petrobras registra alta de 12,1% na produção e se aproxima de recorde histórico
 g1 · 28/09 07h02 · fonte única · licença: resumo
@@ -90,7 +129,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: PETR4
 Como falar: 'saiu no g1: Maior refinaria da Petrobras registra alta de 12,1% na produção e se aproxima de recorde…; confirmar o número no texto antes de repassar'
 Fonte: g1 28/09 07h02
-id: E05-PETR4-18decbb721-2026-09-28 · status: pendente
+id: E05-PETR4-18decbb721-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · UST · Gold Drops More Than 3% as Treasury Yields and Fed Outlook Pressure Prices
 Yahoo Finance · 28/09 06h53 · fonte única · licença: resumo
@@ -106,7 +145,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: UST
 Como falar: 'saiu no Yahoo Finance: Gold Drops More Than 3% as Treasury Yields and Fed Outlook Pressure Prices; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 28/09 06h53
-id: E05-UST-9d2cc2d8ca-2026-09-28 · status: pendente
+id: E05-UST-9d2cc2d8ca-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Dólar a R$ 5,30: Itaú reforça projeção, mas aponta os riscos que podem tirar o câmbio da rota
 Estadao · 28/09 05h05 · fonte única · licença: manchete
@@ -115,7 +154,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: ITUB4 · USDBRL
 Como falar: 'saiu no Estadao: Dólar a R$ 5,30: Itaú reforça projeção, mas aponta os riscos que podem tirar o câmbio da…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 28/09 05h05
-id: E05-ITUB4-43e88ec765-2026-09-28 · status: pendente
+id: E05-ITUB4-43e88ec765-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Itaúsa (ITSA4) e Bradesco (BBDC4): Veja quem paga dividendos na semana
 Suno Noticias · 27/09 10h25 · fonte única · licença: resumo
@@ -133,68 +172,24 @@ Como falar: 'saiu no Suno Noticias: Itaúsa (ITSA4) e Bradesco (BBDC4): Veja que
 Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
-[ATENÇÃO] E05 · UST · Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields
-TradingView (Reuters) · 25/09 09h28 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/zacks:bebb37458094b:0-bet-on-these-5-dividend-growth-stocks-amid-rising-treasury-yields/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: UST
-Como falar: 'saiu no TradingView (Reuters): Bet on These 5 Dividend Growth Stocks Amid Rising Treasury Yields; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 25/09 09h28
-id: E05-UST-d638899109-2026-09-25 · status: entregue
 
-[ATENÇÃO] E05 · CVX · HSBC raises Chevron stock price target to $250 on oil sensitivity
-Investing.com · 25/09 04h36 · fonte única · licença: manchete
-Link: https://uk.investing.com/news/stock-market-news/hsbc-raises-chevron-stock-price-target-to-250-on-oil-sensitivity-93CH-4882656
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: CVX
-Como falar: 'saiu no Investing.com: HSBC raises Chevron stock price target to $250 on oil sensitivity; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 25/09 04h36
-id: E05-CVX-7ae0502ddd-2026-09-25 · status: entregue
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
-[ATENÇÃO] E05 · PETR4 · Petrobras: Goldman eleva preço-alvo e prevê US$ 2,7 bilhões em dividendos
-ADVFN · 25/09 10h11 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/09/petrobras-goldman-eleva-preco-alvo-e-preve-us-2-7-bilhoes-em-dividendos
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no ADVFN: Petrobras: Goldman eleva preço-alvo e prevê US$ 2,7 bilhões em dividendos; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 25/09 10h11
-id: E05-PETR4-88d979f5b8-2026-09-25 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça preferência na AL
-InfoMoney · 25/09 08h27 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O banco mantém preferência relativa pela Petrobras (PETR3; PETR4) entre as empresas de óleo e gás da América Latina.
-  – Para PETR3, o alvo passou para R$ 62,60, enquanto para PETR4 subiu para R$ 58,50.
-  – Saiba mais: A mudança ocorre após o banco elevar sua estimativa para o Brent em 2027 de US$ 72 para US$ 75 por barril.
-  – Para 2026, a projeção média passou de US$ 85,69 para US$ 91,34.
-  – Com petróleo mais caro, maior produção e melhora das perspectivas para as margens de refino no próximo ano, o Goldman aumentou sua projeção de Ebitda ajustado da Petrobras em 5% para 2026 e em 10% para 2027.
-  – O custo do frete marítimo de petróleo do Brasil para a China disparou para US$ 24 por barril em setembro, ante média de US$ 7 no segundo trimestre e apenas US$ 3 em 2025.
-Link: https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-goldman-ve-dividendo-de-us-27-bi-no-3t-e-reforca-preferencia-na-al/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no InfoMoney: Petrobras: Goldman vê dividendo de US$ 2,7 bi no 3º tri e reforça preferência na AL; confirmar o número no texto antes de repassar'
-Fonte: InfoMoney 25/09 08h27
-id: E05-PETR4-955b2a794f-2026-09-25 · status: entregue
-
-[ATENÇÃO] E05 · BABA · BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that Alibaba Group Holding Limited Investors with Substantial Losses Have Opportun…
-PR Newswire · 24/09 21h10 · fonte única · licença: integral
-Do texto:
-  – Alibaba Group Holding Limited, No. 26-cv-06654 (S.D.N.Y.), the Alibaba class action lawsuit charges Alibaba as well as Alibaba's Chief Executive Officer with violations of the Securities Exchange Act of 1934.
-  – On June 8, 2026, after market hours, the U.S.
-  – On this news, the price of Alibaba's American Depositary Shares ("ADSs") declined nearly 4%, according to the complaint.
-  – Our Firm ranked #1 on the most recent ISS Securities Class Action Services Top 50 Report, recovering more than $916 million for investors in 2025.
-  – This marks our fourth #1 ranking in the past five years.
-  – And in those five years alone, Robbins Geller recovered $8.4 billion for investors – $3.4 billion more than any other law firm.
-Link: https://www.prnewswire.com/news-releases/baba-investor-deadline-robbins-geller-rudman--dowd-llp-announces-that-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-before-october-5-2026-deadline-302888771.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: BABA
-Como falar: 'saiu no PR Newswire: BABA INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that Alibaba Group Hol…; confirmar o número no texto antes de repassar'
-Fonte: PR Newswire 24/09 21h10
-id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
-
-
-## OUTRAS NOTÍCIAS (só manchete) (29)
-
+· AMD AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade) (Seeking Alpha) https://seekingalpha.com/article/4950250-amd-ai-momentum-train-unstoppable-but-pausing-accumulation-downgrade
+· JPM JPMorgan Traders Flip to Bullish View on US Stocks (SPY) Ahead of Jobs Report (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-28/jpmorgan-traders-flip-to-bullish-view-on-us-stocks-spy-ahead-of-jobs-report
+· BRENT Tesouro Direto hoje reabre taxas com petróleo de volta a US$ 100; IPCA+ 2032 chega a 7,69% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-reabre-taxas-com-petroleo-de-volta-a-us-100-ipca-2032-chega-a-769/
+· MU Micron: The Memory Cycle May Never Be The Same (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4950239-micron-the-memory-cycle-may-never-be-the-same
+· USDBRL Mini índice perde média importante e mini-dólar mira os R$ 5.220; o que o BTG Pactual diz sobre os contratos futuros? (Money Times) https://www.moneytimes.com.br/mini-indice-perde-media-importante-e-mini-dolar-mira-os-r-5-220-o-que-o-btg-pactual-indica-sobre-os-contratos-futuros-ceci/
+· JPM Tesla Faces Q3 Delivery Test — JPMorgan Cuts Forecast, Flags Weakness In Two Key Markets (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fc746c20b094b:0-tesla-faces-q3-delivery-test-jpmorgan-cuts-forecast-flags-weakness-in-two-key-markets/
+· ETH Is It Too Late to Buy Ethereum After a 72% Quarter? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/too-buy-ethereum-72-quarter-130017394.html
+· MU Micron Likely to Report Upbeat Quarterly Earnings Amid Favorable Memory Pricing Trends, Wedbush Says (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-likely-report-upbeat-quarterly-125808741.html
+· USDBRL Dólar abre em alta com cautela global e cenário eleitoral brasileiro (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-alta-com-cautela-global-e-cenario-eleitoral-brasileiro.shtml
+· BTC How High Can Bitcoin Go This Cycle? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNW9HVEFraW93TGtjNmUwZU05NnQ2SW9wb3hZY1UxcW9MSXNkc3JsWThhdzU5OXByVmNWb3c5WmhPMEgwUzJneHZia251aWIzSzZrZDI1WkxTWll6M3EwMnNUazNBc2RPendmSlZJSmZON1ItYjJHZi1wb000VGJpOW5na25ia25HWlln?oc=5
+· NVDA Nvidia: The Valuation Has Gotten Too Cheap, I'm Upgrading To A Buy (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkRSMlQ0OUFYVHp1NjlEYU5pSUhuWnczZDBtOHI2cFJoMmM2UkFJTnJucGJiNy1aQTlKbEFXazc5Nklpbm1tWkNpalE2c0lmRTN5NEVnU3ZGejUwUWFyNXJUanNpYTZoU2U3UmlNaWtlUTdaSTltYTBYSzlIdjdmajlLZ3ZiUUpycHM3TU5EU3FVbHVka3U2MmxWT1cxY1AxUHhQN21uTQ?oc=5
+· TSLA Tesla Stock: Deliveries Are Coming but It Looks Like a Being a ‘Miss’ (Barron's) https://news.google.com/rss/articles/CBMidkFVX3lxTE5rdFBpV2FnV3haMXpqVnRuSlhFSVFyOVNqczRudi1UZVZZNk92UUNjcEUzWTZ6b1Z5Zy1EcVNfVWxVWHFnZUh5M0NiS01TUlJYaFNjWDRic0ZWVFpRQzViNXUzWURyenZvdEhkelNNYzQxdVl6aFE?oc=5
+· NVDA Apple and Nvidia Just Delivered a Major Boost for TSMC Chip Business (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxOTWtUWmY2OEtwMmg2TUhXSnBPbncyeDhaWTR0X1NRRTZNZy1LbXJJWmdndng3ekZtcy1vZmkyWXFfZnFXdUdHaXBlMlA1MU5qeEtfRzRNU2ttZ2tCQnBTRnozV0FnZ2hlOWFIQUF3X2tLRE9aSElfbFNTY0xZNFRTcWt3VERoR3V5Rm51QjRtRGpGdnZoX2NoTkxB?oc=5
+· USDBRL Dólar hoje sobe a R$ 5,20 sob influência do exterior e de nova pesquisa (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxNLW5wVndiSFdOdDBiUkZHM3ptVThwYV81Tk5CU1l2LUlMWmRkRzNna3RrckprSmVrV3dsZlhQNHQtdTVLalNBUm0xaC1meWRoVHdUdlN3VHQ0RlVnd0ZTOFFEaXNORmxfS241eXNtWFRyV2JmeUExWS1HYW5ZcldScVVIcmFfeXRjREw3Q2pCbk9xWmZSZENGVFFrNmzSAaIBQVVfeXFMTU5nQTFvTldQMFJDS3ZlRnpnSXB4Zk5TTEdkRUlzOTY3SldyVnhyOWtQQjNOeWEyeVhFMkotd2R3RFJiWjhXZExEWndtMFhCenNTNS1jZHhhQkdQdVQ5QWVxOWg0YjFlSlY2VlRqb056ZUpVRVRGbjlBbWV5TnBwQldnejh4YTdrWXkzSlB0MURieUQzMVpTMjhGQ01udmhYUjR3?oc=5
+· MU Micron Q4 Earnings Preview: What To Expect From Upcoming Report (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1FvS0MzYjdydHllN3lfSFJmbDdHNjc2MzN4TDVxMEJnNi1TbFVLU2h3M1ZzOW5aTExXSzRXcEpEZk05MjEzQWJQN3NkMlFvTnFvN1Y2QmQwMW1UZkViWm5XWGxKRUlRX0VzZjRVNXY5b2NBUmkyMkxZVzlzeGFHVW1DQ2NRc0dNYU96M0EwdkhNYzhONERhZjJISlY4cmxmYU1feTktUmtDQ2dqTWd2VUFqQjNfZ0o1ZVJNcVRxcw?oc=5
 · AMZN Apple and Amazon face revived UK consumer lawsuit over product sales (Reuters) https://www.reuters.com/legal/litigation/apple-amazon-face-revived-uk-consumer-lawsuit-over-product-sales-2026-09-28/
 · BABA 1 WEEK BABA INVESTOR DEADLINE: Alibaba Group Holding (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3369769/0/en/1-week-baba-investor-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-before-october-5-2026-deadline-robbins-g.html
 · NVDA NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-announces-150-billion-share-110000738.html
@@ -210,17 +205,3 @@ id: E05-BABA-362d4aad5d-2026-09-25 · status: entregue · íntegra disponível
 · BRENT Petróleo sobe com impasse no Irã, bolsas caem e mercado aposta em alta de juros nos EUA (Bloomberg Linea) https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMElzSExtYmJ5MGtNd2ZybnhWd1V0bkJoU2VONUZpTG13R2wzUEx4QlZYNFpsd2tYZDBBNXJhYThrTllPdkFyMFFUdTd0WWppeVh5MzhtSXRlRnlQdUxMbmRZXzB4aThJa2puMXF6YXdqRk5IR1lnbnBZZ2FsY29WYXFnYndwQzRIM2dkS19zM1pBcUZsNzdkdkJJYU5RUnJDMU84VWZ4Wm1tOHJELXBnTGFuUy01aWNiSDdVY3JRcEtqVkZtb296d9IB3AFBVV95cUxQV3EwWGpHd3JqX1VlVUNHazZWT3ViaVNMeWU1SHlZaU8yNmJXS1hyME5MU1lrM1RnSkZPMU1mZ0Z4RnJaMF9wRGRpbUFfVmR2MWpoZjIwWUw1UGdZN3phaUtxT1VnT3hyTXZxVHpycUJMdnRuOHZnVnpmdXZ1NTVfUm1LcU5nSGdiV3M2ZzV1dlljSGtGbUw1SXlBQ0lQMTZGWmphTlJfeXlLTWpZUW5JenlrMXlCeVcwYzZCeklGUlRHM0tkb2djenczZmxGZkVaNUlXUkJpN3ctM0tf?oc=5
 · USDBRL Contagem regressiva para as eleições mexe com os mercados e investidores encaram agenda cheia; Ibovespa em dólar cai nesta segunda-feira (28) (Money Times) https://news.google.com/rss/articles/CBMihAJBVV95cUxPNE9YaWFwdmplcWRaM09kSFY5Um5YczFvVDVEc29IWG8zUVI1QzJZNHFlejhrUHkwTzZCRVNINldzZV9LZnZrQjJ0Q19fY2ZmM2VxeDdhOWs2RHJGTjNFMUJySGxXbDQxY1VoQkRpYUlxSnFJeDMxYWR0WjJuVVI0d0hyMDVseEdVWGZPSFFQYmxfN1FzSEVlNHRwQ1JkcExKY1NqRkU1aUhySEN3OGhUYVZGaVJJSnBYaEx5NXFvTVdrelBHWFVIcUpvZEh1NElZSGhvRnMxZ09Nd2VVa0RxSVJYY081emlFbERkY3RobkRMWGNPWFVYdGpEaWFNSGlJV1hJdg?oc=5
 · USDBRL Libra sobe enquanto dados dos EUA testam força do dólar (Investing.com) https://news.google.com/rss/articles/CBMipwFBVV95cUxOR09oMlVaRExSUXpyOVByY25uQ09PeEpPV1Fnd3gxOUlpYjh1bEV1MDU0UUlrYjF3UUFkR3UtUm8yXzBCR3NzRjRzOU9GZGVkdWM4MTJVZ01Qd3V0RjZ0TVh2WEFvSjJCVE9Ra0l5T3M1S21fN25MbUY5RUFXVXdVM0V3N3poSjVtUXJlVzRMX1Bjb3lfWGFuME9wSGxfR0ZQLWVZbGx2aw?oc=5
-· NVDA Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-add-almost-whole-broadcom-234401557.html
-· BTC River reports 81% of Bitcoin supply inactive for six months as holders tighten their grip (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:012ba2bcf094b:0-river-reports-81-of-bitcoin-supply-inactive-for-six-months-as-holders-tighten-their-grip/
-· CVX Chevron (CVX) Plans a Major Exploration Push: What Investors Need to Know (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-cvx-plans-major-exploration-221912979.html
-· USDBRL Ibovespa cai 0,27% e dólar recua a R$ 5,182 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-027-e-dolar-recua-a-r-5182/
-· INTC Is Now the Time to Bet on Intel’s (INTC) Server CPU Comeback and AI Ambitions? (Yahoo Finance) https://au.finance.yahoo.com/news/now-time-bet-intel-intc-221124800.html
-· NVDA Nvidia CEO Pushes Back On The 'AI Apocalypse,' But The Risk Of A Slowdown Remains (Seeking Alpha) https://seekingalpha.com/article/4949862-nvidia-ceo-pushes-back-on-the-ai-apocalypse-but-risk-of-a-slowdown-remains
-· MU Chart Master: Micron technicals ahead of earnings (CNBC) https://www.cnbc.com/video/2026/09/25/chart-master-micron-technicals-ahead-of-earnings.html
-· PETR4 Ibovespa cai pela 3ª sessão seguida com Petrobras (PETR4) e fecha 2ª semana no vermelho (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-25-setembro-petrobras-semana-mt/
-· BAC Stock Market Today, Sept. 25: Nike Downgraded by Bank of America, Shares Flat (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-211433108.html
-· BTC CFTC reports Bitcoin net long position of 2,756 contracts for week of September 22nd (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:4359a07ff094b:0-cftc-reports-bitcoin-net-long-position-of-2-756-contracts-for-week-of-september-22nd/
-· PLTR Palantir vs. Snowflake: Which Enterprise AI Stock Better Justifies Its Valuation? (Yahoo Finance) https://au.finance.yahoo.com/news/palantir-vs-snowflake-enterprise-ai-205926979.html
-· PETR4 Ibovespa cai 0,25% com Petrobras nesta sexta e acumula perdas de 0,95% na semana (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-cai-025-com-petrobras-nesta-sexta-e-acumula-perdas-de-095-na-semana/amp/
-· MU Micron investors should get ready for a seesaw ride, analyst says (MarketWatch) https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc3ItbFMza0l5U0hnWWFJbzNJbkhYY2hiak1WWHB3OTZFdWdHUlE2eXNqRElUVlFlNGRRaHpVQ3Vic19MX2pEWWVYeGdJMWtSRzZhWkZnalVTRllLdHl3NWlWYjJnWmZkQnExSDhwWTBJWkJwR3dmeXo1TVMwTEl0cXpXeXJVbGgxMlFNNEI4ZGlNUC15MFJxaFlCTDZFMmEwQm5MTW1EMHpyY3c?oc=5
-· USDBRL Tempo real: Ibovespa perde carona com exterior e cai com IPCA-15; dólar avança a R$ 5,18 (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5OeGJKOTdETG85LXBqR1cta0JXX0tBWFk0R19rQlF2LW05bmVuTWttVDBucFBkV2Y3RXR3YUZITm82Ul90UXZSbWxKOWF5NGU3OXlHSW5xYlVIQTNQU3JwY2drN1ZvRnZnT2NB?oc=5
