@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 17h04
+NOTÍCIAS E FATOS · 28/09 18h13
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 433 veículo fora da lista, 44 sem ativo, 8 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 425 veículo fora da lista, 44 sem ativo, 10 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,16 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · MU · Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print
+Investing.com · 28/09 15h19 · fonte única · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/micron-earnings-outlook-technicals-key-levels-and-beat-streak-ahead-of-q4-print-93CH-4920991
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Investing.com: Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 28/09 15h19
+id: E05-MU-275cdce391-2026-09-28 · status: pendente
 
 [ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
 TradingView (Reuters) · 28/09 11h29 · fonte única · licença: manchete
@@ -250,8 +259,21 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (117)
+## OUTRAS NOTÍCIAS (só manchete) (130)
 
+· UST Why US Treasury Yields Have Risen Above 5% (Investing.com) https://www.investing.com/analysis/why-us-treasury-yields-have-risen-above-5-200688548
+· USDBRL Dólar sobe 0,85% e fecha a R$ 5,225; Ibovespa cai 0,26% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-085-e-fecha-a-r-5225-ibovespa-cai-026/
+· PETR4 Petróleo encosta em US$ 109 e faz Prio (PRIO3), Petrobras (PETR4) e petroleiras saltarem até 4% (Suno Noticias) https://www.suno.com.br/noticias/petroleo-prio3-petrobras-petr4-acoes-alta-mt/
+· USDBRL Dólar à vista fecha em alta de 0,83%, a R$5,2264 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-083-a-r52264-na-venda-2077269
+· AMZN Amazon (AMZN) vs. Alibaba (BABA): Which AI Bet Is Starting to Pay Off? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amazon-amzn-vs-alibaba-baba-200303828.html
+· JPM Exclusive | Jamie Dimon on how growth can untangle US-China strife, thorny global issues (South China Morning Post) https://www.scmp.com/business/banking-finance/article/3369097/jpmorgans-jamie-dimon-how-growth-can-untangle-us-china-strife-thorny-global-issues
+· BTC Strive Crosses 27,000 BTC After $94.5 Million Bitcoin Purchase (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/strive-crosses-27-000-btc-195400613.html
+· MMM A Look Back at General Industrial Machinery Stocks’ Q2 Earnings: 3M (NYSE:MMM) Vs The Rest Of The Pack (Yahoo Finance) https://ca.finance.yahoo.com/news/look-back-general-industrial-machinery-195036723.html
+· BABA Deadline Alert: Alibaba Group Holding Limited (BABA) (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3370240/34548/en/deadline-alert-alibaba-group-holding-limited-baba-shareholders-who-lost-money-urged-to-contact-glancy-prongay-wolke-rotter-llp-about-securities-fraud-lawsuit.html
+· USDBRL Tempo real: Ibovespa cai com eleições em foco e exterior; dólar sobe a R$ 5,22 (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
+· BAC What Could Bank Of America (BAC) AI Treasury Tools Mean For Clients And Investors? (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxPSjIyQTJjZ3BZTTdCQUFJZG1rNUVXeDJqTWRCUnpxUTlkc0tFYmlVRE1WZXVielpwVmMwX01iamhucGV0TjJVM0RsOEpxbWZZai1jdmpCLWlJQ0NHbC1SWEoyQ2VWdFhJdnFKdWgwanhpeFFEbW5FUi16NmJvbFRKLUY5SDYwVF9La3B5ODUzQXhoVG8?oc=5
+· BTC Bitcoin Holds $83,000 but ETH, XRP, Dogecoin Wobble Despite ETF Demand (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixAFBVV95cUxNTzN4M1R4SGtSRk9YbTlmWlBXdzQ3NUhKODhUclMtelRzbFc3YUp6WHRxVzZkeldOWFl2V0h4QTJUa1l5ZXZlTzFzbllDNE9HLWpSWkRvUnN0R1ZrSk80YUExbkliREZqWVE4VFoyZW9obHhOLUQxVVFUWTh5WFJwR3VMd3pqRHd3cVlhUmp5NzdUaG43SkhnczhEMGNuZndpTEYwcEU0bUZKdkpwVmVKM1BpUFNISGJjZUhubWloUUxEMkRp?oc=5
+· MU Should You Buy, Hold, or Sell Micron Stock Ahead of Q4 Earnings? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZnl4YnRlMDhOb0R5T3g3OUdacV9xbHp3OU83NWhoOFZFZGk4eTNYU3FnaFFfRGJYLUNreFctbHJGRGJTZFM4MzAtU3VIXzh5QTZBMUhESVdkTjVOdUktZ0Y2emRBaUw0b0Z3R0RheEdpV2VhTHdGbWFqVDMxcFg2VmN4NHVOMngyQ0pRQjBoVFRSY2FBYUhsemh2ZnM0SkU0Q0FTUG9Ja1RfekpnZGtpWkVZNGpSTXFJ?oc=5
 · NVDA Nvidia Drops Massive Number on Anthropic AI Spending (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:37d604478094b:0-nvidia-drops-massive-number-on-anthropic-ai-spending/
 · MU Micron Stock Slips Before a $50 Billion Memory Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5cb00037e094b:0-micron-stock-slips-before-a-50-billion-memory-test/
 · PETR4 Ibovespa cai com pressão eleitoral e baixa das bolsas de NY; Vale e Petrobras sobem e limitam perdas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-abre-semana-com-petroleo-abaixo-de-us-100-e-focus/
@@ -299,17 +321,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · MRVL Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxNZGkwSmxaTlVBWllZU3h5djBUZnlTQmZBOVdvY3pDaXU2anFPR0t1R29qeFlyYkVkNmU5ZElTb3paaFlNNTlLdzlnbmZta1cwdkcxNlZad2RoakljU1lyOHM3dERJa0NiTGtITGVGdjZvOVRGRm5zRkU5RDV1NXN0TnAyYWtDWWdhZlZVSElRQjJUbTk5MFluSjZ1Q0Rya0Zl?oc=5
 · GOOGL Prediction: Google’s Next Chapter Could Be Worth Trillions More (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPRDNodXFkZkExY2tiSTV4LUVFR0l6T1lUNEFTbUZjNWdFejdJbDY4a3RvakdKa3FWaFJPQ1B5dnRjZUJ1cTMtWTAwWlhwaWhJNWlkRmlKWm01Vm9MTnlaem5KSnctNWpjYklwTGFXb2VvR0VyOEtzODBDR0pJZVlXai1GaXZ4UFNCZHZGRW1pSWtoTjNaTEpEYUxZZ2FXRlRpWVUw?oc=5
 · ETH Current price of Ethereum for September 28, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-28-2026/
-· ETH Will Ethereum Hit $4,000 Before the End of 2026? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-hit-4-000-end-160027391.html
-· JPM JPMorgan: investidores preferem ações do mercado de capitais em meio às eleições (InfoMoney) https://www.infomoney.com.br/mercados/jpmorgan-investidores-preferem-acoes-do-mercado-de-capitais-antes-das-eleicoes/
-· BTC Current price of Bitcoin for Sept. 28, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-28-2026/
-· MU Micron 'super bull' reiterates $2,000 target ahead of earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/micron-super-bull-reiterates-2000-target-ahead-of-earnings-155636443.html
-· GOOGL Marvell Likely to Lift Fiscal 2029 AI Revenue Estimate by at Least $2 Billion Largely Due to Google Deal, RBC Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-likely-lift-fiscal-2029-155105298.html
-· BTC BitMine’s Ethereum Stack Crosses 6M, While Strategy Taps MSTR Sales To Buy BTC And STRC (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-ethereum-stack-crosses-6m-152546538.html
-· BTC Bitcoin Price 33% Rebound Faces ETF, Rate, and AI Tests (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-33-rebound-faces-152100832.html
-· MRVL Marvell Has Revenue Acceleration Potential in 2027, 2028, RBC Says (Yahoo Finance) https://ca.finance.yahoo.com/news/marvell-revenue-acceleration-potential-2027-151919862.html
-· BTC US Spot Bitcoin ETFs Pull In $2.39B in Biggest Weekly Inflow Since 2025 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/us-spot-bitcoin-etfs-pull-151700018.html
-· KO Coca-Cola Hired Monster’s Americas CEO to Run North America. Here’s Where the Stock Could Go (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-hired-monster-americas-151114030.html
-· AVGO IP Infusion Upends the Economics of Network Transformation With OcNOS Support for the Broadcom Qumran3 Family at SCTE TechExpo 2026 (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQN3h2TEo5R0dja0RBQ0lENHh5Sy1rMHVNRkNuVmo5eWFvTXZwcS1yN25pYXAtTmRYeWlCWm9YRllFdWNoV1Q1cVNDbzFfSU1LeHVZNzVjM2xfZ1pzSXR2RXd5ZDN5cmxFcDcxTUcyQWJGaGM2VGI0ZExMa041WlFuRjhhckFldHhKWmFrNzlpQTd1LXJDMWdGYmdUbmZtdw?oc=5
-· MRVL Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWl82NUtkaGNvdzJVZXJ1T3BNYnZZcHlreTBQN2dLWmxhSXNlUzVFR3VQMUowbUZzbG9peVRJVVd4d0ozSTFxakFUSmxJOFNBcHJTcWZlYnRQSzBxeTJEZDNwN3dkMmJzQjB3TGpYMWJhN3YxLVpZeWZraE04eFdWYkJmUTdFU2wtSWR6QkVvX2pfT2VnLXRoeDIxcG80a0twYVlTaVpHN3lyMkhyenZSYTlxckVYd01WTUc4WERDaW01ajhHcnk2ZEw2a2F6RFAwMTBZbUprUGpTMVFTTkJqNGtYLWZmakl2?oc=5
-· PETR4 Novo plano de negócios da Petrobras não mudará muito a carteira de projetos de produção, sinaliza Baruzzi (eixos) https://eixos.com.br/videos-e-podcasts/ao-vivo/novo-plano-de-negocios-da-petrobras-nao-tera-muitas-mudancas-na-carteira-de-projetos-de-producao-sinaliza-baruzzi/
-· (+57 manchetes; lista completa em eventos/noticias.json)
+· (+70 manchetes; lista completa em eventos/noticias.json)
