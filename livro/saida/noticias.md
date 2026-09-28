@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 14h21
+NOTÍCIAS E FATOS · 28/09 15h22
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 423 veículo fora da lista, 43 sem ativo, 12 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 425 veículo fora da lista, 44 sem ativo, 26 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -70,7 +70,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia's board increases chipmaker's share buyback plan by $150 billion; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 28/09 13h12
-id: E05-NVDA-144bb9c24a-2026-09-28 · status: pendente
+id: E05-NVDA-144bb9c24a-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · ALUP4 · ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda venda para uma delas
 Money Times · 28/09 12h13 · fonte única · licença: integral
@@ -241,8 +241,15 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (83)
+## OUTRAS NOTÍCIAS (só manchete) (90)
 
+· AMD AMD became the first woman-led company worth $1 trillion. Why it matters (Fortune) https://fortune.com/2026/09/28/amd-trillion-dollar-market-cap-stock-lisa-su-woman-led-company/
+· JPM AZO Stock Gets A Target Reduction From JPMorgan – But Analyst Believes It’s Good Time To Add To Positions At Current Levels (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7d6829382094b:0-azo-stock-gets-a-target-reduction-from-jpmorgan-but-analyst-believes-it-s-good-time-to-add-to-positions-at-current-levels/
+· PLTR Palantir Did Not Win the FAA Contract for SMART. Time to Buy the Stock Anyway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-did-not-win-faa-161300032.html
+· GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0-piper-sandler-reiterates-overweight-rating-on-alphabet-400-price-target/
+· BTC BitMine’s Ethereum Stack Crosses 6M, While Strategy Taps MSTR Sales To Buy BTC And STRC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:94610716f094b:0-bitmine-s-ethereum-stack-crosses-6m-while-strategy-taps-mstr-sales-to-buy-btc-and-strc/
+· META Meta Platforms, Inc. (META) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdF9xWW1RaDk2MmNFdk5acnJHSVhGM0dqcF90M081cUplRkpyVjZmakJsdS11TFhOcnVVRnM0T1RXcEo5ZzBITzA1N1BsaWVacVE?oc=5
+· NVDA Why Nvidia (NVDA) Stock Is Trading Up Today (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipAFBVV95cUxQbzEzV0pYOUN4NV9DOFJCcTZ0VUVYT3E1VE0wbEQya0V1VzBLOE42MzBoQTdaaFZ3bkNSUkpEaEJNUGppejdtb1VWQkRBZ3kzX1l0ZTkzb2lFSjFkby1temxWUTVHZHNVNkxwZ2RJVUM3WmozTUpITVVTdjlvMzliT3B4LVJFcWcxUnN6VFVvQkJNUWtFRFVGZDE0RTFVbTR5cFhFRA?oc=5
 · BBDC4 Eleição: 3 cestas de ações para diferentes resultados nas urnas, segundo Bradesco BBI (InfoMoney) https://www.infomoney.com.br/mercados/eleicao-3-cestas-de-acoes-para-diferentes-resultados-nas-urnas-segundo-bradesco-bbi/
 · MU Micron has a chance to set the record straight with its earnings report (MarketWatch) https://www.marketwatch.com/story/micron-has-a-chance-to-set-the-record-straight-with-its-earnings-report-a98fb935
 · BTC Bitcoin: The Beginning Of The Next Bull Market (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4950318-bitcoin-the-beginning-of-the-next-bull-market
@@ -296,11 +303,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · LITE Lumentum Holdings Inc. (LITE) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE95bHdrbUUyN2c0bExGNEs3UzhlZVA2RGpvZG15VDloQlJwVEl4Q1lBLWowSHBBV3RXVlVzZ0t6SHRnb1pHdzdwUXhSX0EzaHZTZlE?oc=5
 · COHR Are Business Services Stocks Lagging COHERENT CORP (COHR) This Year? (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNZkRJeVNLekpuWU1OYWhhcmNIYXpjX0VrcnNGUzNNS3YxQWNmeEZ4UUtndDViazlHb0VwdGt1ckg4Und4cldkcjFwTGplX2E4b0lxUXEwLXJsT3B0Z3pSQmk1bE5fZlVBNHBIQVRwTWlLRXJUcUFqLWc5MGJ6Q0NlMXNpWnFBcWJmQnNsNmJjbnlMczNJ?oc=5
 · KO Coca-Cola Appoints Monster Energy Executive Rob Gehring to Lead North America Division (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNa3lBMUsxZHlDZXltVDNURWNvcjREbDgtUUtMdV9YMGlrR21NdktqUnQzQkpsbmhodTVWajdRc0NHeGpEczJMM2E3NzUwZjRQM3NiaXFxOW1jRU5VenotQWJQUzlqSnF4bEZtb3pENHBTa29qcmFZUkM0SUV3dUFLMnQ5MEgwdksyZ3A5cG1YOWZtRnFrZHN0MUxrbEFuQ3M?oc=5
-· AMD AMD: The AI Momentum Train Looks Unstoppable, But I'm Pausing Accumulation (Downgrade) (Seeking Alpha) https://seekingalpha.com/article/4950250-amd-ai-momentum-train-unstoppable-but-pausing-accumulation-downgrade
-· JPM JPMorgan Traders Flip to Bullish View on US Stocks (SPY) Ahead of Jobs Report (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-28/jpmorgan-traders-flip-to-bullish-view-on-us-stocks-spy-ahead-of-jobs-report
-· BRENT Tesouro Direto hoje reabre taxas com petróleo de volta a US$ 100; IPCA+ 2032 chega a 7,69% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-reabre-taxas-com-petroleo-de-volta-a-us-100-ipca-2032-chega-a-769/
-· MU Micron: The Memory Cycle May Never Be The Same (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4950239-micron-the-memory-cycle-may-never-be-the-same
-· USDBRL Mini índice perde média importante e mini-dólar mira os R$ 5.220; o que o BTG Pactual diz sobre os contratos futuros? (Money Times) https://www.moneytimes.com.br/mini-indice-perde-media-importante-e-mini-dolar-mira-os-r-5-220-o-que-o-btg-pactual-indica-sobre-os-contratos-futuros-ceci/
-· JPM Tesla Faces Q3 Delivery Test — JPMorgan Cuts Forecast, Flags Weakness In Two Key Markets (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fc746c20b094b:0-tesla-faces-q3-delivery-test-jpmorgan-cuts-forecast-flags-weakness-in-two-key-markets/
-· ETH Is It Too Late to Buy Ethereum After a 72% Quarter? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/too-buy-ethereum-72-quarter-130017394.html
-· (+23 manchetes; lista completa em eventos/noticias.json)
+· (+30 manchetes; lista completa em eventos/noticias.json)
