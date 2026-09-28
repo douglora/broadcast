@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 12h23
+NOTÍCIAS E FATOS · 28/09 13h21
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 440 veículo fora da lista, 43 sem ativo, 44 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 435 veículo fora da lista, 47 sem ativo, 23 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -66,7 +66,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: ALUP4
 Como falar: 'saiu no Money Times: ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda venda para uma del…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 28/09 12h13
-id: E05-ALUP4-ec03a6acc9-2026-09-28 · status: pendente · íntegra disponível
+id: E05-ALUP4-ec03a6acc9-2026-09-28 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
 Seeking Alpha · 28/09 11h29 · fonte única · licença: manchete
@@ -75,7 +75,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSM
 Como falar: 'saiu no Seeking Alpha: TSMC increases 2nm wafer production outlook by 20%: report; confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 28/09 11h29
-id: E05-TSM-9df24c48f1-2026-09-28 · status: pendente
+id: E05-TSM-9df24c48f1-2026-09-28 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Bradesco (BBDC4), Itaú (ITUB4) e mais cinco empresas pagam dividendos nesta semana; veja o calendário
 Money Times · 28/09 10h46 · fonte única · licença: integral
@@ -88,7 +88,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4 · BBDC4
 Como falar: 'saiu no Money Times: Bradesco (BBDC4), Itaú (ITUB4) e mais cinco empresas pagam dividendos nesta semana; veja…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 28/09 10h46
-id: E05-ITUB4-fa8cfea9e6-2026-09-28 · status: pendente · íntegra disponível
+id: E05-ITUB4-fa8cfea9e6-2026-09-28 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · MU · Micron's Earnings: Don't Be Misled By The Guidance, Don't Worry, Q4 Should Be Stellar (MU)
 Seeking Alpha · 28/09 10h17 · fonte única · licença: manchete
@@ -225,8 +225,21 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (58)
+## OUTRAS NOTÍCIAS (só manchete) (71)
 
+· ETH Current price of Ethereum for September 28, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-28-2026/
+· ETH Will Ethereum Hit $4,000 Before the End of 2026? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-hit-4-000-end-160027391.html
+· JPM JPMorgan: investidores preferem ações do mercado de capitais em meio às eleições (InfoMoney) https://www.infomoney.com.br/mercados/jpmorgan-investidores-preferem-acoes-do-mercado-de-capitais-antes-das-eleicoes/
+· BTC Current price of Bitcoin for Sept. 28, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-28-2026/
+· MU Micron 'super bull' reiterates $2,000 target ahead of earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/micron-super-bull-reiterates-2000-target-ahead-of-earnings-155636443.html
+· GOOGL Marvell Likely to Lift Fiscal 2029 AI Revenue Estimate by at Least $2 Billion Largely Due to Google Deal, RBC Says (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-likely-lift-fiscal-2029-155105298.html
+· BTC BitMine’s Ethereum Stack Crosses 6M, While Strategy Taps MSTR Sales To Buy BTC And STRC (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-ethereum-stack-crosses-6m-152546538.html
+· BTC Bitcoin Price 33% Rebound Faces ETF, Rate, and AI Tests (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-33-rebound-faces-152100832.html
+· MRVL Marvell Has Revenue Acceleration Potential in 2027, 2028, RBC Says (Yahoo Finance) https://ca.finance.yahoo.com/news/marvell-revenue-acceleration-potential-2027-151919862.html
+· BTC US Spot Bitcoin ETFs Pull In $2.39B in Biggest Weekly Inflow Since 2025 (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/us-spot-bitcoin-etfs-pull-151700018.html
+· KO Coca-Cola Hired Monster’s Americas CEO to Run North America. Here’s Where the Stock Could Go (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-hired-monster-americas-151114030.html
+· AVGO IP Infusion Upends the Economics of Network Transformation With OcNOS Support for the Broadcom Qumran3 Family at SCTE TechExpo 2026 (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQN3h2TEo5R0dja0RBQ0lENHh5Sy1rMHVNRkNuVmo5eWFvTXZwcS1yN25pYXAtTmRYeWlCWm9YRllFdWNoV1Q1cVNDbzFfSU1LeHVZNzVjM2xfZ1pzSXR2RXd5ZDN5cmxFcDcxTUcyQWJGaGM2VGI0ZExMa041WlFuRjhhckFldHhKWmFrNzlpQTd1LXJDMWdGYmdUbmZtdw?oc=5
+· MRVL Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWl82NUtkaGNvdzJVZXJ1T3BNYnZZcHlreTBQN2dLWmxhSXNlUzVFR3VQMUowbUZzbG9peVRJVVd4d0ozSTFxakFUSmxJOFNBcHJTcWZlYnRQSzBxeTJEZDNwN3dkMmJzQjB3TGpYMWJhN3YxLVpZeWZraE04eFdWYkJmUTdFU2wtSWR6QkVvX2pfT2VnLXRoeDIxcG80a0twYVlTaVpHN3lyMkhyenZSYTlxckVYd01WTUc4WERDaW01ajhHcnk2ZEw2a2F6RFAwMTBZbUprUGpTMVFTTkJqNGtYLWZmakl2?oc=5
 · PETR4 Novo plano de negócios da Petrobras não mudará muito a carteira de projetos de produção, sinaliza Baruzzi (eixos) https://eixos.com.br/videos-e-podcasts/ao-vivo/novo-plano-de-negocios-da-petrobras-nao-tera-muitas-mudancas-na-carteira-de-projetos-de-producao-sinaliza-baruzzi/
 · AVGO IP Infusion Upends the Economics of Network Transformation With OcNOS Support for the Broadcom Qumran3 Family at SCTE TechExpo 2026 (Business Wire) https://www.businesswire.com/news/home/20260928818996/en/IP-Infusion-Upends-the-Economics-of-Network-Transformation-With-OcNOS-Support-for-the-Broadcom-Qumran3-Family-at-SCTE-TechExpo-2026
 · ALUP4 BBI revisa preços-alvo de ISA, Alupar e Taesa e destaca perfil defensivo do segmento (InfoMoney) https://www.infomoney.com.br/mercados/bbi-revisa-precos-alvo-de-isa-alupar-e-taesa-e-destaca-perfil-defensivo-do-segmento/
@@ -274,14 +287,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · BABA 1 WEEK BABA INVESTOR DEADLINE: Alibaba Group Holding (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3369769/0/en/1-week-baba-investor-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-before-october-5-2026-deadline-robbins-g.html
 · NVDA NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-announces-150-billion-share-110000738.html
 · BRENT Petróleo dispara e juros voltam ao radar: acompanhe as bolsas de Nova York nesta segunda-feira (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroleo-dispara-e-juros-voltam-ao-radar-acompanhe-as-bolsas-de-nova-york-nesta-segunda-feira/
-· AXIA3 Momento B3: Axia Energia, MBRF, Localiza, Riachuelo e os principais destaques desta segunda-feira (28) (ADVFN) https://br.advfn.com/jornal/2026/09/momento-b3-axia-energia-mbrf-localiza-riachuelo-e-os-principais-destaques-desta-segunda-feira-28
-· BRENT Bolsas recuam pressionadas por petróleo em alta e acima de US$ 100 (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/28/bolsas-mundiais-29-de-setembro-de-2026.ghtm
-· USDBRL Cobre cai ao menor nível em mais de uma semana com dados da China e dólar forte (Investing.com) https://br.investing.com/news/commodities-news/cobre-cai-ao-menor-nivel-em-mais-de-uma-semana-com-dados-da-china-e-dolar-forte-93CH-2076485
-· MU US Equity Investors to Focus on Surging Treasury Yields While Looking Out for Crude Oil Prices, Micron's Results This Week (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-investors-focus-surging-101358726.html
-· META MAG 7 Voices: Jensen Huang, Elon Musk, Mark Zuckerberg Shape A Week Of AI Debate (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:b91f122b5094b:0-mag-7-voices-jensen-huang-elon-musk-mark-zuckerberg-shape-a-week-of-ai-debate/
-· PETR4 O que a experiência da Petrobras ensina ao novo CEO da Ecopetrol (Exame) https://exame.com/insight/a-receita-da-petrobras-para-o-novo-ceo-da-ecopetrol/p
-· PETR4 Juiz condena MPF por ‘má-fé’ em caso da Petrobras na Foz do Amazonas (UOL Economia) https://capitalreset.uol.com.br/transicao-energetica/petroleo-e-gas/juiz-condena-mpf-por-ma-fe-em-caso-da-petrobras-na-foz-do-amazonas/
-· BRENT OPEC Monthly Oil Market Report, September 2026 (Seeking Alpha) https://news.google.com/rss/articles/CBMijwFBVV95cUxOTENKR1UwVjQteDNHZEtKT2FrNng3TUtydlBLUFlSa3RVS29rNDZmbHA5cjhIQ0ZibzFTOUlUS0kwYmkwTUdNc1F2V0FYdkFWaHUxYzB0d3BEZ19XalcwZHdqYjQyT0VCYWF5bVZWZGFmNVZBZHdneVpucWdRdjRKaks2VHdDcjFleW9KWV95OA?oc=5
-· BRENT Petróleo sobe com impasse no Irã, bolsas caem e mercado aposta em alta de juros nos EUA (Bloomberg Linea) https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMElzSExtYmJ5MGtNd2ZybnhWd1V0bkJoU2VONUZpTG13R2wzUEx4QlZYNFpsd2tYZDBBNXJhYThrTllPdkFyMFFUdTd0WWppeVh5MzhtSXRlRnlQdUxMbmRZXzB4aThJa2puMXF6YXdqRk5IR1lnbnBZZ2FsY29WYXFnYndwQzRIM2dkS19zM1pBcUZsNzdkdkJJYU5RUnJDMU84VWZ4Wm1tOHJELXBnTGFuUy01aWNiSDdVY3JRcEtqVkZtb296d9IB3AFBVV95cUxQV3EwWGpHd3JqX1VlVUNHazZWT3ViaVNMeWU1SHlZaU8yNmJXS1hyME5MU1lrM1RnSkZPMU1mZ0Z4RnJaMF9wRGRpbUFfVmR2MWpoZjIwWUw1UGdZN3phaUtxT1VnT3hyTXZxVHpycUJMdnRuOHZnVnpmdXZ1NTVfUm1LcU5nSGdiV3M2ZzV1dlljSGtGbUw1SXlBQ0lQMTZGWmphTlJfeXlLTWpZUW5JenlrMXlCeVcwYzZCeklGUlRHM0tkb2djenczZmxGZkVaNUlXUkJpN3ctM0tf?oc=5
-· USDBRL Contagem regressiva para as eleições mexe com os mercados e investidores encaram agenda cheia; Ibovespa em dólar cai nesta segunda-feira (28) (Money Times) https://news.google.com/rss/articles/CBMihAJBVV95cUxPNE9YaWFwdmplcWRaM09kSFY5Um5YczFvVDVEc29IWG8zUVI1QzJZNHFlejhrUHkwTzZCRVNINldzZV9LZnZrQjJ0Q19fY2ZmM2VxeDdhOWs2RHJGTjNFMUJySGxXbDQxY1VoQkRpYUlxSnFJeDMxYWR0WjJuVVI0d0hyMDVseEdVWGZPSFFQYmxfN1FzSEVlNHRwQ1JkcExKY1NqRkU1aUhySEN3OGhUYVZGaVJJSnBYaEx5NXFvTVdrelBHWFVIcUpvZEh1NElZSGhvRnMxZ09Nd2VVa0RxSVJYY081emlFbERkY3RobkRMWGNPWFVYdGpEaWFNSGlJV1hJdg?oc=5
-· USDBRL Libra sobe enquanto dados dos EUA testam força do dólar (Investing.com) https://news.google.com/rss/articles/CBMipwFBVV95cUxOR09oMlVaRExSUXpyOVByY25uQ09PeEpPV1Fnd3gxOUlpYjh1bEV1MDU0UUlrYjF3UUFkR3UtUm8yXzBCR3NzRjRzOU9GZGVkdWM4MTJVZ01Qd3V0RjZ0TVh2WEFvSjJCVE9Ra0l5T3M1S21fN25MbUY5RUFXVXdVM0V3N3poSjVtUXJlVzRMX1Bjb3lfWGFuME9wSGxfR0ZQLWVZbGx2aw?oc=5
+· (+11 manchetes; lista completa em eventos/noticias.json)
