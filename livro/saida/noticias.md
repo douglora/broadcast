@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 13h21
+NOTÍCIAS E FATOS · 28/09 14h21
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 435 veículo fora da lista, 47 sem ativo, 23 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 423 veículo fora da lista, 43 sem ativo, 12 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,23 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · NVDA · Nvidia's board increases chipmaker's share buyback plan by $150 billion
+Yahoo Finance · 28/09 13h12 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia's board has cleared the way for the company to spend $150 billion more in share buybacks as the chipmaking giant looks to make use of more of its stellar revenue growth fueled by demand for its high-end artificia…
+  – The Santa Clara, California, company said Monday the share buyback increase, which it touted as the largest ever, brings its stock repurchase program to $235 billion.
+  – Nvidia said it expects to "execute" the share buyback plan through its fiscal year that ends in Jan.
+  – "NVIDIA's growth is being driven by a once-in-a-generation platform shift to AI and accelerated computing," said Jensen Huang, Nvidia's founder and CEO.
+  – "Our cash generation gives us the capacity to invest in the technologies that advance this transformation and return capital to shareholders.
+  – This authorization reflects our confidence in the long-term opportunity ahead." Shares in Nvidia climbed 2.3% in morning trading Monday.
+Link: https://ca.finance.yahoo.com/news/nvidias-board-increases-chipmakers-share-161223803.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia's board increases chipmaker's share buyback plan by $150 billion; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 28/09 13h12
+id: E05-NVDA-144bb9c24a-2026-09-28 · status: pendente
 
 [ATENÇÃO] E05 · ALUP4 · ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda venda para uma delas
 Money Times · 28/09 12h13 · fonte única · licença: integral
@@ -225,8 +241,20 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (71)
+## OUTRAS NOTÍCIAS (só manchete) (83)
 
+· BBDC4 Eleição: 3 cestas de ações para diferentes resultados nas urnas, segundo Bradesco BBI (InfoMoney) https://www.infomoney.com.br/mercados/eleicao-3-cestas-de-acoes-para-diferentes-resultados-nas-urnas-segundo-bradesco-bbi/
+· MU Micron has a chance to set the record straight with its earnings report (MarketWatch) https://www.marketwatch.com/story/micron-has-a-chance-to-set-the-record-straight-with-its-earnings-report-a98fb935
+· BTC Bitcoin: The Beginning Of The Next Bull Market (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4950318-bitcoin-the-beginning-of-the-next-bull-market
+· BRENT Dólar supera R$ 5,20 com petróleo e eleições no radar; Ibovespa oscila (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-28-setembro-2026/
+· MU Micron’s Post-Earnings Estimate Hikes May Lag Previous Quarters, Flags Morgan Stanley (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:a54b2dd35094b:0-micron-s-post-earnings-estimate-hikes-may-lag-previous-quarters-flags-morgan-stanley/
+· BRENT Preço do petróleo sobe, após Trump rejeitar proposta de paz do Irã (Agencia Brasil) https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/preco-do-petroleo-sobe-apos-trump-rejeitar-proposta-de-paz-do-ira
+· BTC Polymarket launches 15-minute Bitcoin price markets on US app (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:ac19b6d05094b:0-polymarket-launches-15-minute-bitcoin-price-markets-on-us-app/
+· JPM JPMorgan Weighs $3.8B Construction Loan for Extell UWS Tower (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/jpmorgan-weighs-3-8b-construction-161526015.html
+· MRVL Marvell Has Revenue Acceleration Potential in 2027, 2028, RBC Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/marvell-revenue-acceleration-potential-2027-151919862.html
+· MU Micron's 279% Rally Faces an 8.6% Earnings Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:47400ffa6094b:0-micron-s-279-rally-faces-an-8-6-earnings-test/
+· MRVL Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxNZGkwSmxaTlVBWllZU3h5djBUZnlTQmZBOVdvY3pDaXU2anFPR0t1R29qeFlyYkVkNmU5ZElTb3paaFlNNTlLdzlnbmZta1cwdkcxNlZad2RoakljU1lyOHM3dERJa0NiTGtITGVGdjZvOVRGRm5zRkU5RDV1NXN0TnAyYWtDWWdhZlZVSElRQjJUbTk5MFluSjZ1Q0Rya0Zl?oc=5
+· GOOGL Prediction: Google’s Next Chapter Could Be Worth Trillions More (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPRDNodXFkZkExY2tiSTV4LUVFR0l6T1lUNEFTbUZjNWdFejdJbDY4a3RvakdKa3FWaFJPQ1B5dnRjZUJ1cTMtWTAwWlhwaWhJNWlkRmlKWm01Vm9MTnlaem5KSnctNWpjYklwTGFXb2VvR0VyOEtzODBDR0pJZVlXai1GaXZ4UFNCZHZGRW1pSWtoTjNaTEpEYUxZZ2FXRlRpWVUw?oc=5
 · ETH Current price of Ethereum for September 28, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-28-2026/
 · ETH Will Ethereum Hit $4,000 Before the End of 2026? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-hit-4-000-end-160027391.html
 · JPM JPMorgan: investidores preferem ações do mercado de capitais em meio às eleições (InfoMoney) https://www.infomoney.com.br/mercados/jpmorgan-investidores-preferem-acoes-do-mercado-de-capitais-antes-das-eleicoes/
@@ -275,16 +303,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · USDBRL Mini índice perde média importante e mini-dólar mira os R$ 5.220; o que o BTG Pactual diz sobre os contratos futuros? (Money Times) https://www.moneytimes.com.br/mini-indice-perde-media-importante-e-mini-dolar-mira-os-r-5-220-o-que-o-btg-pactual-indica-sobre-os-contratos-futuros-ceci/
 · JPM Tesla Faces Q3 Delivery Test — JPMorgan Cuts Forecast, Flags Weakness In Two Key Markets (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:fc746c20b094b:0-tesla-faces-q3-delivery-test-jpmorgan-cuts-forecast-flags-weakness-in-two-key-markets/
 · ETH Is It Too Late to Buy Ethereum After a 72% Quarter? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/too-buy-ethereum-72-quarter-130017394.html
-· MU Micron Likely to Report Upbeat Quarterly Earnings Amid Favorable Memory Pricing Trends, Wedbush Says (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-likely-report-upbeat-quarterly-125808741.html
-· USDBRL Dólar abre em alta com cautela global e cenário eleitoral brasileiro (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-alta-com-cautela-global-e-cenario-eleitoral-brasileiro.shtml
-· BTC How High Can Bitcoin Go This Cycle? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNW9HVEFraW93TGtjNmUwZU05NnQ2SW9wb3hZY1UxcW9MSXNkc3JsWThhdzU5OXByVmNWb3c5WmhPMEgwUzJneHZia251aWIzSzZrZDI1WkxTWll6M3EwMnNUazNBc2RPendmSlZJSmZON1ItYjJHZi1wb000VGJpOW5na25ia25HWlln?oc=5
-· NVDA Nvidia: The Valuation Has Gotten Too Cheap, I'm Upgrading To A Buy (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkRSMlQ0OUFYVHp1NjlEYU5pSUhuWnczZDBtOHI2cFJoMmM2UkFJTnJucGJiNy1aQTlKbEFXazc5Nklpbm1tWkNpalE2c0lmRTN5NEVnU3ZGejUwUWFyNXJUanNpYTZoU2U3UmlNaWtlUTdaSTltYTBYSzlIdjdmajlLZ3ZiUUpycHM3TU5EU3FVbHVka3U2MmxWT1cxY1AxUHhQN21uTQ?oc=5
-· TSLA Tesla Stock: Deliveries Are Coming but It Looks Like a Being a ‘Miss’ (Barron's) https://news.google.com/rss/articles/CBMidkFVX3lxTE5rdFBpV2FnV3haMXpqVnRuSlhFSVFyOVNqczRudi1UZVZZNk92UUNjcEUzWTZ6b1Z5Zy1EcVNfVWxVWHFnZUh5M0NiS01TUlJYaFNjWDRic0ZWVFpRQzViNXUzWURyenZvdEhkelNNYzQxdVl6aFE?oc=5
-· NVDA Apple and Nvidia Just Delivered a Major Boost for TSMC Chip Business (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxOTWtUWmY2OEtwMmg2TUhXSnBPbncyeDhaWTR0X1NRRTZNZy1LbXJJWmdndng3ekZtcy1vZmkyWXFfZnFXdUdHaXBlMlA1MU5qeEtfRzRNU2ttZ2tCQnBTRnozV0FnZ2hlOWFIQUF3X2tLRE9aSElfbFNTY0xZNFRTcWt3VERoR3V5Rm51QjRtRGpGdnZoX2NoTkxB?oc=5
-· USDBRL Dólar hoje sobe a R$ 5,20 sob influência do exterior e de nova pesquisa (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxNLW5wVndiSFdOdDBiUkZHM3ptVThwYV81Tk5CU1l2LUlMWmRkRzNna3RrckprSmVrV3dsZlhQNHQtdTVLalNBUm0xaC1meWRoVHdUdlN3VHQ0RlVnd0ZTOFFEaXNORmxfS241eXNtWFRyV2JmeUExWS1HYW5ZcldScVVIcmFfeXRjREw3Q2pCbk9xWmZSZENGVFFrNmzSAaIBQVVfeXFMTU5nQTFvTldQMFJDS3ZlRnpnSXB4Zk5TTEdkRUlzOTY3SldyVnhyOWtQQjNOeWEyeVhFMkotd2R3RFJiWjhXZExEWndtMFhCenNTNS1jZHhhQkdQdVQ5QWVxOWg0YjFlSlY2VlRqb056ZUpVRVRGbjlBbWV5TnBwQldnejh4YTdrWXkzSlB0MURieUQzMVpTMjhGQ01udmhYUjR3?oc=5
-· MU Micron Q4 Earnings Preview: What To Expect From Upcoming Report (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1FvS0MzYjdydHllN3lfSFJmbDdHNjc2MzN4TDVxMEJnNi1TbFVLU2h3M1ZzOW5aTExXSzRXcEpEZk05MjEzQWJQN3NkMlFvTnFvN1Y2QmQwMW1UZkViWm5XWGxKRUlRX0VzZjRVNXY5b2NBUmkyMkxZVzlzeGFHVW1DQ2NRc0dNYU96M0EwdkhNYzhONERhZjJISlY4cmxmYU1feTktUmtDQ2dqTWd2VUFqQjNfZ0o1ZVJNcVRxcw?oc=5
-· AMZN Apple and Amazon face revived UK consumer lawsuit over product sales (Reuters) https://www.reuters.com/legal/litigation/apple-amazon-face-revived-uk-consumer-lawsuit-over-product-sales-2026-09-28/
-· BABA 1 WEEK BABA INVESTOR DEADLINE: Alibaba Group Holding (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3369769/0/en/1-week-baba-investor-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-before-october-5-2026-deadline-robbins-g.html
-· NVDA NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-announces-150-billion-share-110000738.html
-· BRENT Petróleo dispara e juros voltam ao radar: acompanhe as bolsas de Nova York nesta segunda-feira (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroleo-dispara-e-juros-voltam-ao-radar-acompanhe-as-bolsas-de-nova-york-nesta-segunda-feira/
-· (+11 manchetes; lista completa em eventos/noticias.json)
+· (+23 manchetes; lista completa em eventos/noticias.json)
