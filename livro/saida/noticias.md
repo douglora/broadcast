@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 15h22
+NOTÍCIAS E FATOS · 28/09 15h36
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 425 veículo fora da lista, 44 sem ativo, 26 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 424 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,16 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (15)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
+TradingView (Reuters) · 28/09 11h29 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:6df46bf69094b:0-tsmc-increases-2nm-wafer-production-outlook-by-20-report/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): TSMC increases 2nm wafer production outlook by 20%: report; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 28/09 11h29
+id: E05-TSM-d0a83dd7b7-2026-09-28 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · Nvidia's board increases chipmaker's share buyback plan by $150 billion
 Yahoo Finance · 28/09 13h12 · fonte única · licença: resumo
@@ -241,8 +250,17 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (90)
+## OUTRAS NOTÍCIAS (só manchete) (99)
 
+· NVDA Nvidia: Ramping Up The Buyback (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950338-nvidia-ramping-up-the-buyback
+· TSLA Why Tesla Stock Is Tied to SpaceX Ahead of a Big Week for the EV Maker (Barron's) https://www.barrons.com/articles/tesla-stock-price-deliveries-roadster-spacex-merger-4bb9ce44
+· GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0
+· GFS GLOBALFOUNDRIES Inc. (GFS) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/GFS/
+· MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4662256
+· GOOGL Piper Sandler sees Google TPU sales hitting $104BN by 2028 (Yahoo Finance) https://ca.finance.yahoo.com/news/piper-sandler-sees-google-tpu-140017439.html
+· COHR Coherent Corp. (COHR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COHR/
+· TSLA My Tesla Stock Price Prediction Hinges on One Massive Opportunity (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxQa3FLTmMycEtNcEN0VGJSTkp2TmRYZ01ENlV2c1MwTFNMOFFXNUg3aHBzT0JaTlBSaHpZbjBqT1U4b0I2aUdUZTVBRm40Z1hlYXNteWtjWEg1bHN1QkhxQnZlRHB5SmJDR1luc1hTcEZpQmU5RWtCekY4aklQOXJVSWgwdkppTEpxeVhjdlF6aWdCak9hVjNyR0hzRVZPWmYwdVE?oc=5
+· BRENT Bond sell-off deepens as oil prices rise (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5
 · AMD AMD became the first woman-led company worth $1 trillion. Why it matters (Fortune) https://fortune.com/2026/09/28/amd-trillion-dollar-market-cap-stock-lisa-su-woman-led-company/
 · JPM AZO Stock Gets A Target Reduction From JPMorgan – But Analyst Believes It’s Good Time To Add To Positions At Current Levels (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7d6829382094b:0-azo-stock-gets-a-target-reduction-from-jpmorgan-but-analyst-believes-it-s-good-time-to-add-to-positions-at-current-levels/
 · PLTR Palantir Did Not Win the FAA Contract for SMART. Time to Buy the Stock Anyway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-did-not-win-faa-161300032.html
@@ -294,13 +312,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4885896
 · USDBRL Ibovespa cai e dólar passa de R$ 5,20 a menos de uma semana para o 1º turno das eleições (Exame) https://exame.com/invest/mercados/ibovespa-cai-e-dolar-passa-de-r-520-a-menos-de-uma-semana-para-o-1o-turno-das-eleicoes/
 · BRENT Dólar canadense cai com diferencial de juros e petróleo mais fraco (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-cai-com-diferencial-de-juros-e-petroleo-mais-fraco-2076952
-· ETH Vitalik Buterin Says Ethereum May Barely Be a Blockchain by 2030 — Could ETH Still Hit $40K? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/vitalik-buterin-says-ethereum-may-135215026.html
-· MU Prediction: This Will Be Micron Technology’s Stock Price by the End of 2026 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-technology-stock-price-135201203.html
-· TSLA Tesla Stock: Why Deliveries May Not Matter as Much as the Roadster This Week (Barron's) https://www.barrons.com/articles/tesla-stock-deliveries-ev-4bb9ce44
-· AMD CEO Predicts: “Demand Will Continue to Rise” as AMD and Intel Soar up to 17% Thanks to Muse (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ceo-predicts-demand-continue-rise-133323695.html
-· BTC Bitcoin Price Prediction for 2027: What to Expect After a 42% Surge (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-2027-expect-133032807.html
-· MU Micron Q4: The Market Is Already Looking Beyond 2027 (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4950244-micron-q4-the-market-is-already-looking-beyond-2027
-· LITE Lumentum Holdings Inc. (LITE) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE95bHdrbUUyN2c0bExGNEs3UzhlZVA2RGpvZG15VDloQlJwVEl4Q1lBLWowSHBBV3RXVlVzZ0t6SHRnb1pHdzdwUXhSX0EzaHZTZlE?oc=5
-· COHR Are Business Services Stocks Lagging COHERENT CORP (COHR) This Year? (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNZkRJeVNLekpuWU1OYWhhcmNIYXpjX0VrcnNGUzNNS3YxQWNmeEZ4UUtndDViazlHb0VwdGt1ckg4Und4cldkcjFwTGplX2E4b0lxUXEwLXJsT3B0Z3pSQmk1bE5fZlVBNHBIQVRwTWlLRXJUcUFqLWc5MGJ6Q0NlMXNpWnFBcWJmQnNsNmJjbnlMczNJ?oc=5
-· KO Coca-Cola Appoints Monster Energy Executive Rob Gehring to Lead North America Division (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNa3lBMUsxZHlDZXltVDNURWNvcjREbDgtUUtMdV9YMGlrR21NdktqUnQzQkpsbmhodTVWajdRc0NHeGpEczJMM2E3NzUwZjRQM3NiaXFxOW1jRU5VenotQWJQUzlqSnF4bEZtb3pENHBTa29qcmFZUkM0SUV3dUFLMnQ5MEgwdksyZ3A5cG1YOWZtRnFrZHN0MUxrbEFuQ3M?oc=5
-· (+30 manchetes; lista completa em eventos/noticias.json)
+· (+39 manchetes; lista completa em eventos/noticias.json)
