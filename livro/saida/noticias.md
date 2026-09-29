@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/09 12h45
+NOTÍCIAS E FATOS · 29/09 13h21
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 472 veículo fora da lista, 47 sem ativo, 31 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 475 veículo fora da lista, 43 sem ativo, 5 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
 
@@ -18,7 +18,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: AMD · INTC
 Como falar: 'saiu no Yahoo Finance: AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 29/09 11h10
-id: E05-AMD-7625604bd2-2026-09-29 · status: pendente
+id: E05-AMD-7625604bd2-2026-09-29 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação, diz BTG
 Exame · 29/09 10h35 · fonte única · licença: resumo
@@ -34,7 +34,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Exame: Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação, diz BTG; confirmar o número no texto antes de repassar'
 Fonte: Exame 29/09 10h35
-id: E05-PETR4-9d4b7d240c-2026-09-29 · status: pendente
+id: E05-PETR4-9d4b7d240c-2026-09-29 · status: entregue
 
 [ATENÇÃO] E05 · SMAL11 · Small cap da Bolsa pagará R$ 421 milhões em dividendos em duas parcelas; veja quem irá embolsar
 Money Times · 29/09 08h39 · fonte única · licença: integral
@@ -96,8 +96,21 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (49)
+## OUTRAS NOTÍCIAS (só manchete) (62)
 
+· AMD With AMD’s $8.2 billion World Labs deal, Lisa Su and Fei-Fei Li show what a different AI future could look like (Fortune) https://fortune.com/2026/09/29/amd-world-labs-acquisition-lisa-su-fei-fei-li-women-ai-deal/
+· ETH Aztec relaunches zk.money privacy wallet on its Ethereum Layer 2 (The Block) https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174?utm_source=tradingview&utm_medium=rss
+· BBDC4 ‘Não será o fim da indústria’: CEO da Bradesco Asset vê espaço para fundos multimercados (Estadao) https://www.estadao.com.br/einvestidor/direto-da-faria-lima/nao-sera-o-fim-da-industria-ceo-da-bradesco-asset-ve-espaco-para-fundos-multimercados/
+· PLTR Palantir CEO Karp: AI has to work for the warfighter; has to work for enterprises; it has to be safe (CNBC) https://www.cnbc.com/video/2026/09/29/palantir-ceo-karp-ai-has-to-work-for-the-warfighter-has-to-work-for-enterprises-it-has-to-be-safe.html
+· AXIA3 Axia (AXIA3): JPMorgan vê 31% de retorno mesmo após corte no preço-alvo (InfoMoney) https://www.infomoney.com.br/mercados/axia-axia3-jpmorgan-ve-31-de-retorno-mesmo-apos-corte-no-preco-alvo/
+· PETR4 Petrobras fecha acordo para comprar gás dos EUA por mais de 20 anos (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-fecha-acordo-para-comprar-gas-dos-eua-por-mais-de-20-anos
+· UST Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45L0SE:0-dollar-gains-as-treasury-yields-top-5-aussie-slides-after-rba-hike/
+· LITE Why is Lumentum stock surging today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4923052
+· PETR4 Ibovespa cai com pressão da Vale e Petrobras; pesquisa eleitoral e dados de emprego ficam no radar (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-nova-pesquisa-atlas-divide-atencao-com-desemprego-e-contas-publicas/
+· KO The Coca-Cola Company Announces Timing of Third Quarter 2026 Earnings Release (Business Wire) https://www.businesswire.com/news/home/20260929949392/en/The-Coca-Cola-Company-Announces-Timing-of-Third-Quarter-2026-Earnings-Release
+· BRENT Tempo real: Ibovespa recua com baixa do petróleo; dólar cai (Money Times) https://www.moneytimes.com.br/tempo-real-29-9-26-apsa-lils/
+· CVX Chevron (CVX): Is the Recent Decline a Temporary Setback or a Long-Term Opportunity? (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-recent-decline-temporary-133208530.html
+· BAC BAC Gains 17.4% in 6 Months: Should You Invest in the Stock Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:bb7fe0399094b:0-bac-gains-17-4-in-6-months-should-you-invest-in-the-stock-now/
 · MU Micron to report Q4 earnings, as memory boom powers on (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-to-report-q4-earnings-as-memory-boom-powers-on-153230577.html
 · AMD AMD: Path To $1,000 (Rating Upgrade) (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950700-amd-path-to-1000-rating-upgrade
 · GOOGL Magnite's Growth Outlook Improves 'Considerably' After Google Court Ruling, BofA Says (Yahoo Finance) https://ca.finance.yahoo.com/news/magnite-apos-growth-outlook-improves-152402700.html
@@ -145,5 +158,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · BTC Bitcoin ETF inflows of $2.4B tighten supply as exchanges lose 35,800 BTC in a single week (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbklvM2x4dk0wTXJaTndNcUtxUkZOanhFLXZDYmpSTzNUbUJpS05OcUdSZjZfZFFXeVRxR19KRmM5RDl2ZjcxTWptY3FYUnd5TW50ellZOFRoakUtQTdsTklxWXNVTDg5c1ZVUmRlay1OX0NkWWpZbFVPcmlra1prR3drcFdoT2R1RTgyOEhZRmVaYUNQWkN2aVZCWVVwWDJyOUc2V2lmM0RZRzFHMDVfcmRZZ2czOWQ4aWZ5WGhWQTlwSVhrZmZLMXlKNE1wamgzeHE0eVdHVmtKSXdaYUpwYXgzZ25IN1By?oc=5
 · AMZN Australia's CSL taps Amazon's cloud unit to boost research pipeline (Reuters) https://www.reuters.com/business/healthcare-pharmaceuticals/australias-csl-taps-amazons-cloud-unit-boost-research-pipeline-2026-09-29/
 · META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-4886528
-· AMD AMD makes a big bet on the next era of AI with World Labs acquisition (MarketWatch) https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c
-· META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-5609931
+· (+2 manchetes; lista completa em eventos/noticias.json)
