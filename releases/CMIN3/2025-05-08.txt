@@ -1,0 +1,958 @@
+[p. 1]
+RESULTADO TRIMESTRAL 1T25 
+ 
+08 de maio de 2025
+
+[p. 2]
+2
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+São Paulo, 08 de maio de 2025 - A CSN Mineração (“CMIN”) (B3: CMIN3) divulga seus resultados do primeiro trimestre 
+de 2025 (1T25) em Reais, sendo suas demonstrações financeiras consolidadas de acordo com as práticas contábeis adotadas 
+no Brasil emitidas pelo Comitê de Pronunciamentos Contábeis (“CPC”), aprovadas pela Comissão de Valores Mobiliários 
+(“CVM”) e pelo Conselho Federal de Contabilidade (“CFC”) e de acordo com os padrões internacionais de relatórios financeiros 
+(International Financial Reporting Standards - “IFRS”), emitidas pelo International Accounting Standards Board (“IASB”). 
+ 
+Os comentários abordam os resultados consolidados da Companhia no primeiro trimestre de 2025 (1T25) e as comparações 
+são relativas ao quarto trimestre de 2024 (4T24) e ao primeiro trimestre de 2024 (1T24). A cotação do dólar foi de R$ 5,00 em 
+31/03/2024; R$ 6,19 em 31/12/2024 e R$ 5,74 em 31/03/2025. 
+ 
+ 
+Destaques operacionais e financeiros do 1T25 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EFEITO NEGATIVO DO CÂMBIO NO CAIXA 
+EM DÓLAR TROUXE IMPACTO NO LUCRO 
+DO TRIMESTRE 
+ 
+A cotação do dólar foi de R$ 6,19 em 31/12/2024 
+para R$ 5,74 em 31/03/2025 impactando assim o 
+resultado financeiro de maneira expressiva pela 
+valorização cambial. No 1T25, a Companhia 
+registrou prejuízo líquido de R$ 357,3 milhões 
+como resultado direto do impacto negativo de R$ 
+1,05 bilhão da valorização cambial sobre uma 
+posição de caixa em moeda estrangeira de US$ 
+2,4 bilhões. Como aproximadamente 90% do 
+caixa da Companhia está atrelado ao dólar, a 
+valorização do Real verificada no trimestre trouxe 
+um impacto não recorrente para o resultado da 
+Companhia, revertendo, parcialmente, o forte 
+resultado positivo registrado no trimestre e no 
+ano anterior. No 4T24, o resultado cambial tinha 
+sido positivo em R$ 1,13 bilhão e, no ano de 2024, 
+positivo em R$ 1,65 bilhão. 
+ 
+FORTE GERAÇÃO DE CAIXA COMPENSA O 
+IMPACTO DA VARIAÇÃO CAMBIAL E 
+MANTÉM A SÓLIDA POSIÇÃO DE CAIXA 
+LÍQUIDO 
+ 
+Apesar do impacto da variação cambial, o forte 
+EBITDA observado no período permitiu que a 
+Companhia assegurasse uma sólida posição de 
+caixa líquido neste trimestre, com o indicador de 
+alavancagem medido pela relação Dívida 
+Líquida/EBITDA em -0,65x. 
+ 
+CRESCIMENTO DE 27,1% NO EBITDA DO 1T25 
+COMPARADO COM O 1T24 SUPORTADO 
+PELO AUMENTO DE VOLUME E REDUÇÃO DE 
+CUSTOS 
+ 
+O começo do ano foi marcado por um crescimento de 
+volume de produção (incluindo compras de 
+terceiros) de 11,5% frente ao mesmo período de 
+2024 e pela redução de 11,0% no custo C1, que foi de 
+US$ 21,0/t no período. 
+Como consequência, o EBITDA Ajustado da empresa 
+atingiu R$ 1,4 bilhão no 1T25, com margem EBITDA 
+ajustada de 41,8%. 
+ 
+APROVADA A DISTRIBUIÇÃO DE DIVIDENDOS 
+E JCP NO VALOR DE R$ 1,3 BILHÃO 
+ 
+O Conselho de Administração aprovou a distribuição de 
+dividendos e juros sob o capital próprio no montante 
+de R$ 1,3 bilhão, sendo (i) R$ 1,09 bilhão na forma de 
+dividendos intercalares e R$ 210 milhões na forma de 
+juro sob capital próprio. Esse montante se soma aos 
+juros sob capital próprio aprovados em 30 de 
+dezembro de 2024 no valor de R$ 211 milhões, 
+totalizando um montante de R$ 1,5 bilhão a ser 
+distribuído até o final do ano. 
+ 
+ESG 
+ 
+ 
+A CSN Mineração divulgou em 30 de abril de 2025 o 
+seu Relato Integrado de 2024 com destaque para (i) 
+o atingimento da meta de 26% de mulheres na força 
+de trabalho, um ano antes do prazo originalmente 
+estabelecido, o que demonstra todo o engajamento 
+com a diversidade e a inclusão; e (ii) a conclusão do 
+Estudo de Vulnerabilidade Climática, reforçando o 
+compromisso com a gestão de riscos climáticos. 
+Convidamos a acessar o material completo aqui para 
+conhecer os avanços que marcaram o último ano.
+
+[p. 3]
+3
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+Quadro Consolidado – Destaques 
+ 
+ 1 A Receita Líquida Ajustada é calculada a partir da eliminação da parcela da receita atribuída ao frete e seguro marítimo. 
+ 2 O EBITDA Ajustado é calculado a partir do lucro líquido, acrescido das depreciações e amortizações, dos tributos sobre o lucro, do resultado financeiro 
+líquido, outras receitas/despesas operacionais e resultado de equivalência patrimonial. 
+ 
+Resultado Operacional 
+ 
+O 1T25 foi marcado por uma diminuição sazonal no volume de oferta devido aos ciclones observados na Austrália 
+no começo do ano e uma incidência mais forte de chuvas na região Norte do Brasil, enquanto que no lado da 
+demanda, foi possível verificar aumento na utilização de capacidade das siderúrgicas chinesas e um volume de 
+estoques de minério de ferro e de aço abaixo do verificado no final do ano passado, ajudando a sustentar a 
+demanda do produto e a manter o preço acima do patamar de US$100/ton. Além disso, a expectativa de anúncio 
+de novos pacotes de estímulo econômico por parte do governo chinês e a recuperação de estoques antes do ano 
+novo local também foram estímulos que ajudaram a sustentar o preço do minério ao longo do trimestre. No 
+entanto, o recrudescimento das relações comerciais após o anúncio de novas tarifas de importação por parte do 
+governo dos Estados Unidos e a expectativa de redução no nível do PIB mundial acabaram por pressionar o preço 
+do minério no final do trimestre. Nesse cenário, o minério de ferro apresentou uma cotação média de US$ 
+103,6/dmt (Platts, Fe62%, N. China), um patamar estável na comparação com o 4T24 (US$ 103,3/dmt), mas 16,2% 
+abaixo do registrado no 1T24 (US$ 123,6/dmt). 
+ 
+Em relação ao frete marítimo, a rota BCI-C3 (Tubarão-Qingdao) acentuou a trajetória de queda observada no 
+trimestre anterior ao apresentar uma redução de 17,3% no custo médio do frete (US$ 19,1/t no 1T25 contra US$ 
+23,1/t apresentado no 4T24). Contribuiu para essa dinâmica a maior disponibilidade de navios em razão da queda 
+no volume de minério de ferro produzido no período. Adicionalmente, a companhia vem fechando desde o final do 
+ano passado alguns contratos de afretamento (COAs) de modo a reduzir a volatilidade e se beneficiar do ambiente 
+favorável de custo observado no período.
+
+[p. 4]
+4
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+ 
+ Total da Produção (mil toneladas) 
+ 
+ 
+ 
+ A Produção de Minério de Ferro (incluindo compras de terceiros) atingiu o volume de 10.206 mil toneladas no 
+1T25, o que representa um crescimento de 11,5% frente ao mesmo período de 2024, mas uma redução de 7,3% 
+em relação ao 4T24, explicado pela redução no volume de compras. Desta forma, vale destacar que após passar 
+pelo período mais crítico de chuvas sem maiores problemas no processo produtivo, conseguindo inclusive 
+superar de forma significativa a marca do ano passado, a Companhia está bem-posicionada e confiante para 
+atingir seu guidance de produção e compras para o ano, estipulado em um intervalo de 42-43,5 Mton. 
+ 
+ O Volume de Vendas, por sua vez, atingiu 9.640 mil toneladas no 1T25, ficando 10,2% abaixo do volume 
+verificado no quarto trimestre de 2024, o que está em linha com a sazonalidade esperada e a parada de 
+manutenção preventiva do porto no período. Porém, quando comparado com o mesmo período de 2024, 
+percebe-se um crescimento de 5,4% no volume de vendas, o que representa um novo recorde da Companhia 
+para o período. É válido mencionar ainda que 100% dos embarques foram realizados no Tecar, mesmo com a 
+parada de manutenção verificada no período. 
+ 
+Volume de Vendas (mil toneladas)
+
+[p. 5]
+5
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+Resultado Consolidado 
+ 
+ No 1T25, a Receita Líquida Ajustada totalizou R$ 3.412 milhões, um desempenho 12,7% abaixo do registrado 
+no quarto trimestre do ano anterior, como resultado exclusivo da sazonalidade do negócio com o efeito das 
+chuvas no volume transportado. Porém, quando comparado com o 1T24, a receita líquida foi 21,7% superior, 
+refletindo não apenas a melhora operacional, mas também um câmbio mais desvalorizado. Já a Receita Líquida 
+Unitária foi de US$ 61,96 por tonelada no 1T25, um patamar praticamente estável na comparação tanto com o 
+4T24, quanto com o 1T24, mostrando uma menor volatilidade do preço do minério observado no período. 
+ 
+ Por sua vez, o Custo dos Produtos Vendidos foi de R$ 2.238 milhões no 1T25, um crescimento de 5,3% frente 
+ao trimestre anterior, reflexo do aumento no volume de compras de alta qualidade para o mercado interno com 
+elevado custo de transporte rodoviário. Já o custo C1 atingiu US$ 21,0/t no 1T25, o que representa um pequeno 
+aumento de 2,9% em relação ao trimestre anterior, mesmo com uma menor diluição de custos fixos em razão 
+do menor volume. Não obstante, ao se comparar com o 1T24, o custo C1 apresentou queda expressiva de 11,0%, 
+o que reforça a competitividade e resiliência da empresa no mercado transoceânico. 
+ 
+ O Lucro Bruto atingiu R$ 1.174,5 milhões no 1T25, o que representa queda de 34,1% em relação ao trimestre 
+anterior, com uma Margem Bruta de 34,4% (redução de 11,2 p.p. em relação ao 4T24). Essa menor rentabilidade 
+reflete a sazonalidade da operação com um menor volume de vendas e impacto da menor diluição de custos 
+fixos. Porém, na comparação como 1T24, é possível verificar uma expansão de 28,4% no lucro bruto, com uma 
+margem bruta 1,8 p.p. superior. 
+ 
+ No 1T25, as Despesas com Vendas Gerais e Administrativas totalizaram R$ 57,6 milhões e foram 16,9% 
+superiores às registradas no 4T24, como resultado de alguns efeitos pontuais registrados no período. Por sua 
+vez, quando comparado com o mesmo período do ano anterior, percebe-se uma queda de 21,1%, mesmo com 
+um maior volume de minério comercializado. 
+ 
+ O resultado de equivalência patrimonial foi de R$ 37,0 milhões no 1T25, um desempenho 16,4% inferior em 
+relação ao trimestre passado, refletindo a sazonalidade do período com um menor volume de movimentação 
+de cargas na MRS. 
+ 
+ Por sua vez, o Resultado Financeiro foi negativo em R$ 1.315,4 milhões no 1T25, impactado pela forte variação 
+cambial sobre o caixa em dólar da CMIN, e, revertendo parcialmente, o efeito positivo que a desvalorização do 
+Real trouxe no trimestre e ao longo do ano anterior. 
+ 
+ 
+ 
+ No 1T25, a CSN Mineração registrou um prejuízo líquido de R$ 357 milhões , contra um lucro líquido de mais 
+de R$ 2,0 bilhões registrado no trimestre anterior, sendo o impacto da variação cambial no caixa em moeda 
+estrangeira o principal fator para a reversão desse resultado.
+
+[p. 6]
+6
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+ 
+ 
+ No 1T25, o EBITDA Ajustado atingiu R$ 1.427 milhões, com uma margem EBITDA Ajustada trimestral de 41,8%. 
+A menor rentabilidade na comparação com o trimestre anterior, com diferença de 9,8 p.p., se deve 
+principalmente à sazonalidade do período ao combinar queda no volume de embarques com uma menor 
+diluição de custo fixo. Por outro lado, ao se comparar com o 1T24, percebe-se um aumento de 27,0% no EBITDA 
+ajustado do período, refletindo o aumento de volume de vendas, a redução de custo C1, os menores descontos 
+de qualidade, além de fretes marítimos mais baixos. 
+ 
+EBITDA Ajustado e Margem EBITDA (R$ milhões e %) 
+ 
+ 
+¹ A Companhia divulga seu EBITDA Ajustado excluindo as outras receitas (despesas) operacionais e resultado de equivalência patrimonial por entender 
+que não devem ser consideradas no cálculo da geração recorrente de caixa operacional. 
+² A Margem EBITDA Ajustada é calculada a partir da divisão entre o EBITDA Ajustado e a Receita Líquida Ajustada.
+
+[p. 7]
+7
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+Build -up EBITDA Ajustado (R$ Milhões) 
+ 
+ 
+Fluxo de Caixa Ajustado¹ 
+ 
+O Fluxo de Caixa Ajustado no 1T25 totalizou R$ 546 milhões, o que representa um crescimento significativo quando 
+comparado com o trimestre anterior, mesmo com um menor resultado operacional, o que pode ser explicado pelo 
+menor consumo de capital de giro, além de um volume mais baixo de investimentos. 
+ 
+Fluxo de Caixa Livre do 1T25 (R$ Milhões) 
+ 
+ 
+¹ O conceito do fluxo de caixa ajustado é calculado a partir do Ebitda Ajustado, subtraindo-se CAPEX, IR, Resultado Financeiro e variações dos Ativos e Passivos², 
+excluindo-se o efeito dos pré-pagamentos celebrados. 
+² O ∆CCL/Ativos e Passivos é composto pela variação do Capital Circulante Líquido, mais a variação de contas de ativos e passivos de longo prazo e desconsidera 
+a variação líquida de IR e CS. 
+ 
+Endividamento 
+ 
+Em 31/03/2025, a CSN Mineração possuía um total de R$ 14,3 bilhões em disponibilidades, o que representa uma queda 
+de 5,9% em relação ao trimestre anterior e reflete o impacto da variação cambial no caixa em dólar. Não obstante, a 
+Companhia segue com uma sólida posição de caixa líquido ao totalizar R$ 4,0 bilhões no trimestre e com o indicador de 
+alavancagem medido pela relação Dívida Líquida/EBITDA em -0,65x. Esse indicador reforça a sólida estrutura de capital 
+da empresa para fazer frente aos seus projetos de crescimento.
+
+[p. 8]
+8
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+Endividamento (R$ Bilhões) e Dívida Líquida/EBITDA (x) 
+ 
+ 
+Cronograma de Amortização da Dívida (R$ Bilhões) 
+ 
+Nota: ¹ Disponibilidades consideração o caixa e o equivalente de caixa somado com as aplicações de curto prazo 
+ 
+Investimentos 
+ 
+No 1T25, o Capex atingiu R$ 377,0 milhões, o que representa uma redução de 42,8% em relação ao trimestre 
+anterior, como resultado dos menores gastos com manutenção, que a Companhia historicamente concentra no 
+segundo semestre. Por sua vez, quando se observa a linha de expansão de negócios, percebe-se que o ritmo de 
+investimentos segue aquecido com o avanço das obras de infraestrutura da P15, apesar do período com maior 
+pluviometria. 
+ 
+ 
+*Investimentos incluem as aquisições através de empréstimos e financiamentos (valores em R$ MM).
+
+[p. 9]
+9
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+CAPEX (R$ Milhões) 
+ 
+ 
+Capital Circulante Líquido 
+ 
+No 1T25, o Capital Circulante Líquido aplicado ao negócio foi negativo em R$ 188 milhões, o que representa uma 
+estabilidade em relação ao trimestre anterior, com a queda no contas a receber em razão da sazonalidade e da 
+variação cambial sendo compensado pela redução na linha de fornecedores e pelo aumento do estoque. 
+ 
+ 
+ OBS: O cálculo do Capital Circulante Líquido aplicado ao negócio desconsidera os contratos de pré-pagamentos e as respectivas amortizações. 
+ ¹Demais Ativos CCL: Considera adiantamento a empregados e outras contas a receber 
+ ²Demais Passivos CCL: Considera outras contas a pagar, tributos parcelados e outras provisões 
+ ³Estoques: Não considera o efeito da provisão para perdas de estoques/inventários.
+
+[p. 10]
+10 
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+ 
+Dividendos 
+ 
+O Conselho de Administração aprovou, nesta data, a distribuição de dividendos e juros sob o capital próprio no montante 
+de R$ 1,3 bilhão, sendo (i) R$ 1,09 bilhão (correspondendo ao valor por ação de R$ 0.200661094064) na forma de 
+dividendos intercalares e R$ 210 milhões (correspondendo ao valor bruto por ação de R$ 0,0386594768380) na forma 
+de juro sob capital próprio. Esse montante se soma aos juros sob capital próprio aprovados em 30 de dezembro de 2024 
+no valor de R$ 211 milhões (correspondendo ao valor bruto por ação de R$ 0,03895595758). Esses valores por ação 
+foram estimados e podem sofrer variação em razão de eventual alteração do número de ações em tesouraria. Com isso, 
+o total de dividendos e juros sob capital próprio já aprovados totaliza R$ 1,5 bilhão e os pagamentos desses proventos 
+serão realizados até 31 de dezembro de 2025. 
+ 
+ESG – Environmental, Social & Governance 
+ 
+DESEMPENHO ESG 
+Desde o início de 2023, a CSN Mineração passou a adotar um novo formato para a divulgação de suas ações e 
+desempenho ESG, disponibilizando de forma individualizada a sua performance em indicadores ESG. O novo modelo 
+permite que os stakeholders tenham acesso aos principais resultados e indicadores trimestralmente e possam 
+acompanhá-los de forma efetiva e ainda mais ágil. O acesso pode ser feito por meio da central de resultados do site de 
+RI da CSN Mineração: https://ri.csnmineração.com.br/informacoes-financeiras/central-de-resultados/ 
+As informações incluídas neste release foram selecionadas com base na relevância e materialidade para a companhia. 
+Os indicadores quantitativos são apresentados em comparação com o período que melhor representar a métrica para 
+acompanhamento destes. Assim, alguns são comparados com o mesmo trimestre do ano anterior, e outros com a média 
+do período anterior, garantindo um comparativo baseado em sazonalidade e periodicidade. 
+Dados históricos mais detalhados sobre o desempenho e iniciativas da CSN Mineração, podem ser verificados no Relato 
+Integrado 2024, divulgado em abril de 2025 ( https://esg.csn.com.br/nossa-empresa/relatorio-integrado-gri ). A revisão 
+dos indicadores ESG ocorre anualmente para o fechamento do Relatório Integrado, dessa forma, as informações contidas 
+nos releases trimestrais estão passíveis de ajustes decorrentes desse processo. 
+Também é possível acompanhar a performance ESG da CSN Mineração de forma ágil e transparente, em nosso website, 
+por meio do seguinte endereço eletrônico: https://esg.csn.com.br
+
+[p. 11]
+11 
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+ 
+Mercado de Capitais 
+ 
+No primeiro trimestre de 2025, as ações da CSN Mineração registraram valorização de 20,2%, enquanto o Ibovespa 
+apresentou alta de 6,2%. O volume médio diário das ações CMIN3 negociadas na B3 foi de R$ 40,8 milhões no 1T25. 
+ 
+ 
+ 1T25 
+Nº de ações em milhares 5.485.339 
+Valor de Mercado 
+Cotação de Fechamento (R$/ação) 6,19 
+Valor de Mercado (R$ milhões) 33.954 
+Variação no período 
+CMIN3 (BRL) 16,0% 
+Ibovespa (BRL) 6,2% 
+Volume 
+Média diária (mil ações) 7.534 
+Média diária (R$ mil) 40.796 
+Fonte: Bloomberg 
+ 
+ 
+ 
+Teleconferência de Resultados: 
+ 
+Webinar de Apresentação do Resultado do 1T25 Equipe de Relações com Investidores 
+Teleconferência em português com Tradução Simultânea para inglês Pedro Oliva - CFO e Diretor Executivo de RI 
+Pedro Gomes de Souza (pedro.gs@csn.com.br) 
+Mayra Favero Celleguin 
+(mayra.celleguin@csn.com.br) 
+ 
+09 de maio de 2025 
+10h00 (horário de Brasília) 
+09h00 (horário de Nova York) 
+Webinar: clique aqui 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Algumas das afirmações aqui contidas são perspectivas futuras que expressam ou implicam em resultados, performance ou eventos 
+esperados. Essas perspectivas incluem resultados futuros que podem ser influenciados por resultados históricos e pelas afirmações feitas 
+em ‘Perspectivas’. Os atuais resultados, desempenho e eventos podem diferir significativamente das hipóteses e perspectivas e envolvem 
+riscos como: condições gerais e econômicas no Brasil e outros países; níveis de taxa de juros e de câmbio, medidas protecionistas nos EUA, 
+Brasil e outros países, mudanças em leis e regulamentos e fatores competitivos gerais (em base global, regional ou nacional).
+
+[p. 12]
+12 
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/
+
+[p. 13]
+13 
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/ 
+ 
+ 
+A tabela abaixo tem a finalidade de apresentar a demonstração do resultado da Companhia integralmente em base FOB em 
+milhares de reais:
+
+[p. 14]
+14 
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/
+
+[p. 15]
+15 
+RESULTADO 
+1T25 
+ 
+Para mais informações, visite nosso website de RI: https://ri.csnmineracao.com.br/
+
+[p. 16]
+1Q25 EARNINGS RELEASE 
+ 
+May 8, 2025
+
+[p. 17]
+2 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+São Paulo, May 8, 2025 - CSN Mineração ("CMIN") (B3: CMIN3) announces its results for the first quarter of 2025 (1Q25) in 
+Brazilian Reais, with its financial statements being consolidated in accordance with the accounting practices adopted in Brazil 
+issued by the Brazilian Accounting Pronouncements Committee ("CPC"), approved by the Brazilian Securities and Exchange 
+Commission ("CVM") and the Federal Accounting Council ("CFC") and in accordance with the International Financial Reporting 
+Standards ("IFRS"), issued by the International Accounting Standards Board ("IASB"). 
+ 
+The comments address the consolidated results of the Company in the first quarter of 2025 (1Q25) and the comparisons are 
+relative to the fourth quarter of 2024 (4Q24) and the first quarter of 2024 (1Q24). The exchange rate was R$ 5.00 on 
+03/31/2024; R$ 6.19 on 12/31/2024 and R$ 5.74 on 03/31/2025. 
+ 
+1Q25 Operational and Financial Highlights 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NEGATIVE EFFECT OF EXCHANGE RATE ON 
+CASH IN DOLLARS HAD AN IMPACT ON 
+QUARTERLY PROFIT 
+ 
+The dollar exchange rate went from R$ 6.19 on 
+12/31/2024 to R$ 5.74 on 03/31/2025, thus 
+significantly impacting the financial result due to 
+the exchange rate appreciation. In 1Q25, the 
+Company recorded a net loss of R$ 357.3 million 
+as a direct result of the negative impact of R$ 1.05 
+billion from the exchange rate appreciation on a 
+cash position in foreign currency of US$ 2.4 
+billion. Since approximately 90% of the 
+Company's cash is linked to the dollar, the 
+appreciation of the Real observed in the quarter 
+had a non -recurring impact on the Company's 
+result, partially reversing the strong positive 
+result recorded in the last quarter and in the 
+previous year. In 4Q24, the exchange rate result 
+was positive by R$ 1.13 billion and, in 2024, 
+positive by R$ 1.65 billion. 
+ 
+STRONG CASH GENERATION OFFSETS THE 
+IMPACT OF EXCHANGE RATE VARIATION 
+AND MAINTAINS A SOLID NET CASH 
+POSITION 
+ 
+Despite the impact of exchange rate variation, 
+the strong EBITDA observed in the period allowed 
+the Company to ensure a solid net cash position 
+in this quarter, with the leverage indicator 
+measured by the Net Debt/EBITDA ratio at -0.65x. 
+27.1% GROWTH IN EBITDA IN 1Q25 
+COMPARED TO 1Q24 SUPPORTED BY 
+INCREASED VOLUME AND REDUCED COST 
+ 
+The beginning of the year was marked by an 11.5% 
+growth in production volume (including third -party 
+purchases) compared to the same period in 2024 
+and by an 11.0% reduction in C1 costs, which was 
+US$ 21.0/t in the period. 
+As a result, the company's Adjusted EBITDA reached 
+R$ 1.4 billion in 1Q25, with an adjusted EBITDA 
+margin of 41.8%. 
+ 
+DISTRIBUTION OF DIVIDENDS AND INTEREST 
+ON EQUITY IN THE AMOUNT OF R$ 1.3 
+BILLION WAS APPROVED 
+ 
+ 
+The Board of Directors approved the distribution of 
+dividends and interest on equity in the amount of R$ 
+1.3 billion, of which (i) R$ 1.09 billion in the form of 
+interim dividends and R$ 210 million in the form of 
+interest on equity. This amount is in addition to the 
+interest on equity approved on December 30, 2024 
+in the amount of R$ 211 million, totaling an amount 
+of R$ 1.5 billio n to be distributed by the end of the 
+year. 
+ 
+ESG 
+ 
+ 
+On April 30, 2025, CSN Mineração released its 2024 
+Integrated Report, highlighting (i ) the achievement 
+of the target of 26% of women in the workforce, one 
+year ahead of the originally established deadline, 
+which demonstrates the commitment to diversity 
+and inclusion; and (ii) the completion of the Climate 
+Vulnerability Study, reinforcing t he commitment to 
+climate risk management. We invite you to access 
+the full material here to learn about the advances 
+that marked 2024.
+
+[p. 18]
+3 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+ 
+Consolidated Table - Highlights 
+ 
+ 1 Adjusted Net Revenue is calculated by eliminating the portion of revenue attributable to freight and marine insurance. 
+ 2 Adjusted EBITDA is calculated from net income plus depreciation and amortization, income taxes, net financial income, other operating income/expenses and equity income. 
+ 
+Operational Results 
+ 
+1Q25 was marked by a seasonal reduction in supply volumes due to cyclones in Australia at the beginning of the 
+year and increased rainfall in northern Brazil. On the demand side, higher capacity utilization at Chinese steel mills 
+and lower iron ore and ste el inventories compared with the end of last year helped to sustain demand and keep 
+prices above US$100/t. In addition, the expectation of the announcement of new economic stimulus packages by 
+the Chinese government and the recovery of inventories before t he local new year were also stimuli that helped 
+sustain the price of iron ore throughout the quarter. However, rising trade tensions - following the announcement 
+of new US import tariffs - and expectations of a global GDP slowdown put downward pressure on prices towards 
+the end of the quarter. In this context, the average iron ore price was US$ 103.6/dmt (Platts, Fe62%, N. China), 
+virtually stable compared to 4Q24 (US$ 103.3/dmt), but 16.2% lower than in 1Q24 (US$ 123.6/dmt). 
+ 
+In terms of sea freight, the BCI-C3 route (Tubarão-Qingdao) continued its declining trend, with the average freight 
+rate falling 17.3% to US$ 19.1/t in 1Q25 from US$ 23.1/t in 4Q24. This was mainly due to higher vessel availability 
+following a decline in iron ore production. In addition, CSN has been securing charter agreements (COAs) since late 
+last year to reduce volatility and take advantage of the favorable freight cost environment. 
+ 
+Total Production thousand tons)
+
+[p. 19]
+4 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+ 
+• Iron ore production (including third party purchases) reached 10.206 thousand tons in 1Q25, an increase of 
+11.5% compared to the same period last year, but a decrease of 7. 3% compared to 4Q24, mainly due to a 
+reduction in purchased volumes. It is worth noting that despite the most critical rainy season, the company did 
+not experience any major disruptions in its production processes and managed to significantly outperform last 
+year's performance. As a result, CSN remains well positioned and confident to achieve its full year production 
+and purchase guidance of 42 to 43.5 million tons. 
+ 
+• Sales volume, in turn, reached 9,640 thousand tons in 1Q25, 10.2% below the volume recorded in the fourth 
+quarter of 2024, which is in line with the expected seasonality and the port's preventive maintenance stoppage 
+in the period. However, when compared to the same period in 2024, there was a 5.4% increase in sales volume, 
+which represents a new company record for the period. It is also worth mentioning that 100% of shipments 
+were made at Tecar, even with the maintenance stoppage during the period. 
+ 
+Sales volume (thousand tons) 
+ 
+ 
+Consolidated Results 
+ 
+• In 1Q25, Adjusted Net Revenue totaled R$ 3,412 million, down 12.7% from the fourth quarter of the previous 
+year. This decline was entirely due to seasonal factors, particularly the impact of heavy rainfall on transported 
+volumes. Compared to 1Q24, however, net revenue increased by 21.7%, driven by operational improvements 
+and a more favorable exchange rate. Unit Net Revenue stood at US$ 61.96 per ton, remaining virtually stable 
+compared to both 4Q24 and 1Q24, indicating reduced volatility in iron ore prices during the period. 
+ 
+• Cost of Goods Sold (COGS) amounted to R$ 2,238 million in 1Q25, up 5.3% from the previous quarter. This 
+increase reflects a higher volume of high -quality purchases for the domestic market, which involved elevated 
+road transportation costs. C1 costs reached US$ 21.0/t, a modest 2.9% rise compared to 4Q24, despite lower 
+fixed cost dilution due to reduced volume. On a year -over-year basis, C1 costs fell significantly by 11.0%, 
+underscoring the company’s competitiveness and resilience in the transoceanic market. 
+ 
+• Gross Profit totaled R$ 1,174.5 million in 1Q25, a 34.1% decline versus 4Q24, with the Gross Margin dropping 
+11.2 percentage points to 34.4%. This reduction in profitability was primarily driven by seasonal effects, 
+including lower sales volumes and reduced dilution of fixed cost s. However, compared to 1Q24, Gross Profit 
+rose by 28.4%, with a 1.8 percentage point improvement in Gross Margin. 
+ 
+• Selling, General and Administrative Expenses (SG&A) reached R$ 57.6 million in 1Q25, a 16.9% increase over 
+4Q24, mainly due to some one-off effects recorded in the period . Compared to the same period last year, 
+however, SG&A expenses decreased by 21.1%, despite the higher volume of iron ore sold.
+
+[p. 20]
+5 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+• The Equity Income was R$ 37.0 million in 1Q25, down 16.4% from the previous quarter, reflecting the seasonal 
+decline in cargo handling at MRS Logística. 
+ 
+• In turn, the Financial Result was negative by R$ 1,315.4 million in 1Q25, impacted by the strong exchange rate 
+variation on CMIN's cash in dollars, and, partially reversing, the positive effect that the devaluation of the Real 
+brought in the fourth quarter and throughout the previous year. 
+ 
+ 
+ 
+• In 1Q25, CSN Mineração recorded a net loss of R$ 357 million, against a net profit of more than R$ 2.0 billion 
+recorded in the previous quarter, with the impact of the exchange rate variation on cash in foreign currency 
+being the main cause of the reversal of this result. 
+ 
+ 
+ 
+• In 1Q25, Adjusted EBITDA reached R$ 1,427 million, with a quarterly Adjusted EBITDA margin of 41.8%. 
+The lower profitability compared to the previous quarter, with a difference of 9.8 p.p., is mainly due to the 
+seasonality of the period, combining a drop in the volume of shipments with a lower dilution of fixed costs. 
+On the other hand, when comparing with 1Q24, there was a 27.0% increase in adjusted EBITDA for the 
+period, reflecting the increase in sales volume, the reduction in C1 costs, lower quality discounts, as well as 
+lower sea freight.
+
+[p. 21]
+6 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+Adjusted EBITDA and EBITDA Margin (R$ million and %) 
+ 
+¹The Company discloses its Adjusted EBITDA excluding other operating income (expenses) and equity income (expense) because it believes that they should not be considered in the calculation of recurring 
+operating cash generation. 
+² The Adjusted EBITDA Margin is calculated by dividing Adjusted EBITDA by Adjusted Net Revenue. 
+ 
+Build -up Adjusted EBITDA (R$ Million) 
+ 
+ 
+Adjusted Cash Flow¹ 
+ 
+Adjusted Cash Flow in 1Q25 totaled R$ 546 million, which represents significant growth when compared to the 
+previous quarter, even with a lower operating result, which can be explained by the lower consumption of working 
+capital, as well as a lower volume of investments.
+
+[p. 22]
+7 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+1Q25 Free Cash Flow (R$ Million) 
+ 
+¹ The concept of adjusted cash flow is calculated from Adjusted EBITDA, subtracting CAPEX, IR, Financial Result and variations in Assets and Liabilities², excluding the effect of prepayments entered into. 
+²∆ CCL/Assets and Liabilities is made up of the change in Net Working Capital, plus the change in long-term asset and liability accounts and disregards the net change in Income Tax and Social Security. 
+ 
+ 
+Indebtedness 
+ 
+On March 31, 2025, CSN Mineração had a total of R$ 14.3 billion in cash and cash equivalents, representing a 5.9% 
+decrease compared to the previous quarter and reflecting the impact of exchange rate fluctuations on cash in 
+dollars. Nevertheless, the Company continues to have a solid net cash position, totaling R$ 4.0 billion in the quarter 
+and with a leverage indicator measured by the Net Debt/EBITDA ratio at -0.65x. This indicator reinforces the 
+Company's solid capital structure to meet its growth projects. 
+ 
+Indebtedness (R$ Billion) and Net Debt/EBITDA (x)
+
+[p. 23]
+8 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+Debt Principal Amortization Schedule (R$ Billion) 
+ 
+Note: ¹ Cash and cash equivalents taken together with short-term investments 
+ 
+Investments 
+ 
+In 1Q25, Capex amounted to R$ 377.0 million, a decrease of 42.8% compared to the previous quarter, mainly due 
+to lower maintenance expenditures, which are typically concentrated in the second half of the year. Conversely, 
+investments related to business expansion remained strong, mainly due to the continued progress of infrastructure 
+works at the P15 project, despite the challenges posed by higher rainfall during the period. 
+ 
+ 
+*Investments include acquisitions through loans and financing (amounts in R$ MM). 
+ 
+CAPEX (R$ Million)
+
+[p. 24]
+9 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+ 
+Net Working Capital 
+ 
+In 1Q25, the Net Working Capital applied to the business was negative by R$ 188 million, which represents stability 
+in relation to the previous quarter, with the drop in accounts receivable due to seasonality and exchange rate 
+variation being offset by the reduction in the suppliers line and the increase in inventory. 
+ 
+ 
+ 
+ NOTE: The calculation of Net Working Capital applied to the business disregards prepayment contracts and the respective amortizations 
+ ¹Other CCL Assets: Considers advances to employees and other accounts receivable 
+ ²Other CCL Liabilities: Considers other accounts payable, taxes paid in installments and other provisions 
+ Inventories: Does not take into account the effect of the provision for inventory losses. 
+ 
+Dividends 
+ 
+On this date, the Board of Directors approved the distribution of dividends and interest on equity in the amount of 
+R$ 1.3 billion, of which (i) R$ 1.09 billion (corresponding to the amount per share of R$ 0.200661094064) in the 
+form of interim dividends and R$ 210 million (corresponding to the gross amount per share of R$ 0.0386594768380) 
+in the form of interest on equity. This amount is in addition to the interest on equity of R$ 211 million (equivalent 
+to the gross amount per share of R$ 0.03895595758) approved on December 30, 2024. These values per share are 
+estimates and may vary due to changes in the number of shares held in treasury. As a result, the total amount of 
+dividends and interest on equity already approved amounts to R$ 1.5 billion, which will be paid until December 31, 
+2025.
+
+[p. 25]
+10 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+ESG - Environmental, Social & Governance 
+ 
+ESG PERFORMANCE 
+ 
+Since the beginning of 2023, CSN Mineração has adopted a new format for disclosing its ESG actions and 
+performance, making its performance in ESG indicators available on an individualized basis. The new model allows 
+stakeholders to have quarterly access to key results and indicators and to monitor them in an effective and even 
+more agile way. Access can be made through the results center of CSN's IR website : 
+https://ri.csnmineração.com.br/informacoes-financeiras/central-de-resultados/. 
+ 
+The information included in this release has been selected based on its relevance and materiality to the company. 
+Quantitative indicators are presented in comparison with the period that best represents the metric for monitoring 
+them. Thus, some are compar ed with the same quarter of the previous year, and others with the average of the 
+previous period, ensuring a comparison based on seasonality and periodicity. 
+ 
+More detailed historical data on CSN Mineração's performance and initiatives can be found in the 2024 Integrated 
+Report, released in April 2025 ( https://esg.csn.com.br/nossa-empresa/relatorio-integrado-gri ). The review of ESG 
+indicators occurs annually for the closing of the Integrated Report, so the information contained in the quarterly 
+releases is subject to adjustments resulting from this process. 
+ 
+It is also possible to follow CSN Mineração's ESG performance in an agile and transparent manner, on our website, 
+through the following electronic address: https://esg.csn.com.br/en 
+ 
+Capital Markets 
+ 
+In the f irst quarter of 202 5, CSN Mineração shares appreciated by 16.0%, while the Ibovespa rose by 6.2%. The 
+average daily volume of CMIN3 shares traded on B3 was R$ 40.8 million in 1Q25. 
+ 
+ 
+ 1Q25 
+No. of shares in thousands 5,485,339 
+ 
+Closing Price (R$/share) 6.19 
+Market Cap (R$ million) 33,954 
+Change over the period 
+CMIN3 (BRL) 16.0% 
+Ibovespa (BRL) 6.2% 
+Volume 
+Daily average (thousand shares) 7,534 
+Daily average (R$ thousand) 40,796 
+ Fonte: Bloomberg 
+ 
+Earnings Conference Call 
+ 
+1Q25 Results Presentation Webinar Investor Relations Team 
+Conference call in Portuguese with simultaneous translation into English Pedro Oliva - CFO and IR Executive Director 
+Pedro Gomes de Souza (pedro.gs@csn.com.br) 
+Mayra Favero Celleguin 
+(mayra.celleguin@csn.com.br) 
+ 
+May 09, 2025 
+10:00 (Brasilia time) 
+09:00 (New York time) 
+Webinar: click here 
+ 
+Some of the statements contained herein are forward -looking statements that express or imply expected results, performance or events. These 
+outlooks include future results that may be influenced by historical results and by the statements made under 'Outlook'. Actual results, performance 
+and events may differ materially from the assumptions and outlook and involve risks such as: general and economic conditions in Brazil and other 
+countries; interest rate and exchange rate levels; protectionist measures in the US, Brazil and other countries; changes in l aws and regulations; and 
+general competitive factors (on a global, regional or national basis).
+
+[p. 26]
+11 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en
+
+[p. 27]
+12 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en 
+ 
+ 
+ 
+The purpose of the table below is to present the Company’s income statement entirely on a FOB basis in thousands of reais:
+
+[p. 28]
+13 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en
+
+[p. 29]
+14 
+1Q25 
+RESULTS 
+ 
+ 
+For more information, visit our IR website https://ri.csnmineracao.com.br/en
