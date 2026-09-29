@@ -1,8 +1,40 @@
-NOTÍCIAS E FATOS · 29/09 10h29
+NOTÍCIAS E FATOS · 29/09 12h45
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 478 veículo fora da lista, 42 sem ativo, 9 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 472 veículo fora da lista, 47 sem ativo, 31 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · AMD · AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club
+Yahoo Finance · 29/09 11h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read -       Buying AMD on Lisa Su's first day as CEO in 2014 at $3.28 produced an 18,433% total return by late 2026.
+  – -       Investors who bought AMD at the $1 trillion milestone are already underwater, paying 162 times trailing earnings for a proven turnaround.
+  – -       AMD's Data Center revenue hit $6.72 billion in Q2 2026, up 107% year-over-year, making it the credible number two to Nvidia.
+  – -       Read More: Avoid these 13 retirement mistakes before they derail your future (sponsor) Advanced Micro Devices (NASDAQ:AMD) reached a $1 trillion market value for the first time on September 21, 2026.
+  – Settling With Intel Left AMD Fighting for Survival On November 12, 2009, AMD settled its long legal fight with Intel (NASDAQ:INTC), the leading PC processor maker.
+  – Even so, AMD spent the early 2010s as a near-bankruptcy candidate.
+Link: https://finance.yahoo.com/markets/stocks/articles/amd-4-milestones-total-return-141046323.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: AMD · INTC
+Como falar: 'saiu no Yahoo Finance: AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/09 11h10
+id: E05-AMD-7625604bd2-2026-09-29 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação, diz BTG
+Exame · 29/09 10h35 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – (CFOTO/Future Publishing/Getty Images) Publicado em 29 de setembro de 2026 às 09h09.
+  – Última atualização em 29 de setembro de 2026 às 09h37.
+  – O banco mantém recomendação de compra, com preços-alvo de R$ 65 no Brasil e US$ 26 para os ADRs.
+  – O preço-alvo é de US$ 26 para os ADRs negociados em Nova York e R$ 65 por ação no mercado local.
+  – Segundo o BTG, uma queda entre 10% e 15% nas ações levaria a Petrobras para um patamar de valuation considerado atrativo para muitos investidores.
+  – Em um cenário de correção de 15% a 20%, o retorno estimado sobre o fluxo de caixa ao acionista poderia chegar a cerca de 20% a 21,2% nos próximos 12 meses.
+Link: https://exame.com/invest/mercados/petrobras-pode-cair-na-eleicao-mas-dividendo-de-14-deve-segurar-a-acao-diz-btg/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Exame: Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação, diz BTG; confirmar o número no texto antes de repassar'
+Fonte: Exame 29/09 10h35
+id: E05-PETR4-9d4b7d240c-2026-09-29 · status: pendente
 
 [ATENÇÃO] E05 · SMAL11 · Small cap da Bolsa pagará R$ 421 milhões em dividendos em duas parcelas; veja quem irá embolsar
 Money Times · 29/09 08h39 · fonte única · licença: integral
@@ -18,7 +50,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: SMAL11
 Como falar: 'saiu no Money Times: Small cap da Bolsa pagará R$ 421 milhões em dividendos em duas parcelas; veja quem irá em…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 29/09 08h39
-id: E05-SMAL11-e37e825293-2026-09-29 · status: pendente · íntegra disponível
+id: E05-SMAL11-e37e825293-2026-09-29 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
 Investing.com · 29/09 08h26 · fonte única · licença: manchete
@@ -27,7 +59,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: AMD
 Como falar: 'saiu no Investing.com: AMD stock outlook: Is it still a buy at 39x 2027 earnings?; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 29/09 08h26
-id: E05-AMD-bfd204fa7b-2026-09-29 · status: pendente
+id: E05-AMD-bfd204fa7b-2026-09-29 · status: entregue
 
 [ATENÇÃO] E05 · AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
 Investing.com · 29/09 08h24 · fonte única · licença: manchete
@@ -64,8 +96,23 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (34)
+## OUTRAS NOTÍCIAS (só manchete) (49)
 
+· MU Micron to report Q4 earnings, as memory boom powers on (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-to-report-q4-earnings-as-memory-boom-powers-on-153230577.html
+· AMD AMD: Path To $1,000 (Rating Upgrade) (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950700-amd-path-to-1000-rating-upgrade
+· GOOGL Magnite's Growth Outlook Improves 'Considerably' After Google Court Ruling, BofA Says (Yahoo Finance) https://ca.finance.yahoo.com/news/magnite-apos-growth-outlook-improves-152402700.html
+· USDBRL Dólar sobe a R$ 5,22 e Bolsa cai após dados de emprego e de crédito (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/29/dolar-bolsa-abre-hoje-29-de-setembro-de-2026.ghtm
+· MINERIO CSN Is Latest Brazilian Iron Ore Miner to Cut Output on Freight Costs (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-29/csn-is-latest-brazilian-iron-ore-miner-to-cut-output-on-freight-costs
+· ITUB4 Tupy entra em ponto de virada, diz Itaú BBA; banco eleva aposta na ação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tupy-entra-em-ponto-de-virada-diz-itau-bba-banco-eleva-aposta-na-acao/
+· MU Micron Q4 earnings on deck: What to expect (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648047-micron-q4-earnings-on-deck-what-to-expect
+· MU Micron earnings this week could test whether the memory boom has more room to run (CNBC) https://www.cnbc.com/2026/09/29/micron-earnings-this-week-could-test-whether-the-memory-boom-has-more-room-to-run.html
+· LITE Lumentum Climbs 7% as Optics Selloff Reverses a Day After Citi’s $11B Switching Call; Coherent and Corning Rise 5% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-climbs-7-optics-selloff-150052939.html
+· TSLA Tesla's Q3 deliveries loom large as the Roadster slips again (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/teslas-q3-deliveries-loom-large-as-the-roadster-slips-again-145514238.html
+· BBDC4 Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda (Money Times) https://www.moneytimes.com.br/bradesco-asset-selic-pode-ficar-parada-no-inicio-de-2027-com-el-nino-mas-tendencia-e-de-queda/
+· MU What History Says Will Happen If Micron’s Earnings Stars Align (Barron's) https://www.barrons.com/articles/micron-stock-price-earnings-history-025de44d
+· NVDA Nvidia vs. AMD: Which AI Chip Stock Has More Room to Run After AMD's Surge Past $1 Trillion? (Yahoo Finance) https://news.google.com/rss/articles/CBMijgFBVV95cUxQYnhKc2Vib0E1SEd6TXB3NDBoa1VPOFhSVUtuY3pFdDl3VVE0cW5PaEUwMUxGQm85S3JBVVlyVHlYWXJwck5EU1lCNV9PTHVSTUJFT0NiRy1ocHo0emdVODNOVWRReUNva0VRY0l4OVJGMUJxZlBaNU4yOTJ0bW5jN3c2U0JrTnI2cTcwYVBB?oc=5
+· BTC HANetf Launches First Euro-Hedged Bitcoin Fund (The Wall Street Journal) https://news.google.com/rss/articles/CBMimgFBVV95cUxNXy0yUEwzSFVrMFFWU2NyVTdEeHQ0R29zOG4wZkNWcndPU3dhcnFBTnN6d1pOUW5oTWs5QVk1aDh6a0FIVkpRS20wSUF5Uk9XUDA0bEFJamlBLWtORUpZdndTdUpxTnl2dXVESGMyNFVtVFhacWVScnN2VUluLTdTbWxPRDRBNmgyX3g0aXBGOEhCNHQ2T3JCQzBR?oc=5
+· BRENT Petróleo recua com tentativa de acordo entre EUA e Irã; Dow Jones hoje cai (Estadao) https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOVRDQm5wWWtvRlg3cG1GUlZoRW1uX3k1NmtGRWhmaDAwUFp1RlhJeklTaDR0TEhwN1pUSF9QeUhmQzhQeC1INDBNV01HcXlBbUNGdVVHNEMtbnVCbDVpcEVWTzZDdWZBUXkyOWZ2Y3ktNDBsQ1JvSXVOQTlKaGxKNnY3WlAyUGVROXVINTV3LWlKbVRsaGU2MXZVV2FzcWhEM1BnZFFjWWVJS0xjSWNieGdBMkxBSVktUkhRbHh1QjNOcGxwMGRoSXpsN0hpY3M1UG9aMDBRcnFMYWVfdk1XZ1ZPeW9vZlB3Tm5TLVZCNNIB9AFBVV95cUxObW5QajkxSlZZRmZaWm1BZFg5RGxtOFY1WWJwUC1xTHE3WkNpakpMOXV3NXhkNW1EcVRON1R2bjc0MERTcnFJZ2tENEdoU3JXRExwZksweWc0bzVyTjBycGpDSmVIbExMWUFyTG1wZ2g4VGVVRldoaTRaVG5McmMyWlpLV0xxRmhtRDVkUzJEVkV5RnhJSXUwb0pYaURoakl0LVRSQnBIUTJURmhicTRLR2poc3UxSWZhZ3ptdlo4VzBDaFEwQ05CZWNnMW1zVEdIeS1IYU5NVFBseWJQTFNnMzJoTnFxbmtYSEpiNVc2cjQ1aWI2?oc=5
 · VALE3 Swing trade: BB Investimentos recomenda a venda de Vale (VALE3) e Prio (PRIO3) nesta terça (29) (Money Times) https://www.moneytimes.com.br/swing-trade-bb-investimentos-recomenda-a-venda-de-vale-vale3-e-prio-prio3-nesta-terca-29-ceci/
 · USDBRL Dólar abre em queda nesta terça após desemprego apresentar menor índice desde 2012 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-nesta-terca-apos-desemprego-apresentar-menor-indice-desde-2012.shtml
 · JPM MU Stock Gains Ahead Of Q4 Earnings: JPMorgan Sees 'Constructive' Setup Amid Netlist Legal Fight (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6d4694c66094b:0-mu-stock-gains-ahead-of-q4-earnings-jpmorgan-sees-constructive-setup-amid-netlist-legal-fight/
