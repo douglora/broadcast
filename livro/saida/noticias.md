@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 21h20
+NOTÍCIAS E FATOS · 28/09 21h56
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 435 veículo fora da lista, 44 sem ativo, 13 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 438 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -79,7 +79,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Investing.com: Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 28/09 15h19
-id: E05-MU-275cdce391-2026-09-28 · status: pendente
+id: E05-MU-275cdce391-2026-09-28 · status: expirado
 
 [ATENÇÃO] E05 · TSM · TSMC increases 2nm wafer production outlook by 20%: report
 TradingView (Reuters) · 28/09 11h29 · fonte única · licença: manchete
@@ -275,8 +275,17 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (145)
+## OUTRAS NOTÍCIAS (só manchete) (154)
 
+· AMZN Australia's CSL taps Amazon's cloud unit to boost research pipeline (Reuters) https://www.reuters.com/business/healthcare-pharmaceuticals/australias-csl-taps-amazons-cloud-unit-boost-research-pipeline-2026-09-29/
+· META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-4886528
+· AMD AMD makes a big bet on the next era of AI with World Labs acquisition (MarketWatch) https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c
+· GOOGL How Has Alphabet Stock's Story Changed? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-story-changed-193107554.html
+· CVX Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:116e7f390094b:0-strong-refining-will-drive-chevron-exxonmobil-q3-results-analyst/
+· BTC Bitcoin Holds $83,000 but ETH, XRP, Dogecoin Wobble Despite ETF Demand (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:fa4417404094b:0-bitcoin-holds-83-000-but-eth-xrp-dogecoin-wobble-despite-etf-demand/
+· MU Should You Buy, Hold, or Sell Micron Stock Ahead of Q4 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:79ee49cc2094b:0-should-you-buy-hold-or-sell-micron-stock-ahead-of-q4-earnings/
+· BTC Can Bitcoin price deliver an "Uptober"? Charts, catalysts to watch (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:5e6201b0e094b:0-can-bitcoin-price-deliver-an-uptober-charts-catalysts-to-watch/
+· BAC Royal Caribbean Lost 26% in 2 Months: It's Now on 'Sale,' Bank of America Says (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizAFBVV95cUxOTVFhb1BRaV9EYmZMUUFaRWVTdldXYVhUY2VZRlJCblY5SVdNNEhpR0Q3SjhkOWVCS25ieTVPeWYzLUl4Q0NXckRXRkJxY0lUVEdEV21rU3NfTHZSVnZLRnhwT01xcFlNSFU4eElNMVZvU2szY1E4LWh0cmZRaS1qclZBY2NOcTdWSk54eVp5Y3Y3bUlWc3NlR3c3U3ZQUmxheWVHdlpaMEMwSWdqTDhDbXhtS1lvUkxldS00Z3FOYVM0M1RreWtYaFhpUWk?oc=5
 · META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-5609931
 · AMD AMD just spent $8.2 billion to enlist the 'Godmother of AI' (Yahoo Finance) https://finance.yahoo.com/technology/article/amd-just-spent-82-billion-to-enlist-the-godmother-of-ai-230634166.html
 · BABA ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3370331/0/en/alibaba-deadline-rosen-the-first-filing-firm-encourages-alibaba-group-holding-limited-investors-to-secure-counsel-before-important-october-5-deadline-in-securities-class-action-fir.html
@@ -328,13 +337,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0
 · GFS GLOBALFOUNDRIES Inc. (GFS) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/GFS/
 · MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4662256
-· GOOGL Piper Sandler sees Google TPU sales hitting $104BN by 2028 (Yahoo Finance) https://ca.finance.yahoo.com/news/piper-sandler-sees-google-tpu-140017439.html
-· COHR Coherent Corp. (COHR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/COHR/
-· TSLA My Tesla Stock Price Prediction Hinges on One Massive Opportunity (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxQa3FLTmMycEtNcEN0VGJSTkp2TmRYZ01ENlV2c1MwTFNMOFFXNUg3aHBzT0JaTlBSaHpZbjBqT1U4b0I2aUdUZTVBRm40Z1hlYXNteWtjWEg1bHN1QkhxQnZlRHB5SmJDR1luc1hTcEZpQmU5RWtCekY4aklQOXJVSWgwdkppTEpxeVhjdlF6aWdCak9hVjNyR0hzRVZPWmYwdVE?oc=5
-· BRENT Bond sell-off deepens as oil prices rise (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWVDcjI5dWgwWXpWMGhLWm1aMFRlQXUzNlhNekN5amMyYzcxSFdaVVFEVTVoY2hEWDM5N0ZOeEg2Z2ZWY2ZJbXEtbUdnOGtGVUZyOGRtZFpJN3J4aXoyN3BjRGZyOVIzd1o4bHBNc2hxQzlPcGJQQ0cwM21nVDFubXhFWDc?oc=5
-· AMD AMD became the first woman-led company worth $1 trillion. Why it matters (Fortune) https://fortune.com/2026/09/28/amd-trillion-dollar-market-cap-stock-lisa-su-woman-led-company/
-· JPM AZO Stock Gets A Target Reduction From JPMorgan – But Analyst Believes It’s Good Time To Add To Positions At Current Levels (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7d6829382094b:0-azo-stock-gets-a-target-reduction-from-jpmorgan-but-analyst-believes-it-s-good-time-to-add-to-positions-at-current-levels/
-· PLTR Palantir Did Not Win the FAA Contract for SMART. Time to Buy the Stock Anyway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-did-not-win-faa-161300032.html
-· GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0-piper-sandler-reiterates-overweight-rating-on-alphabet-400-price-target/
-· BTC BitMine’s Ethereum Stack Crosses 6M, While Strategy Taps MSTR Sales To Buy BTC And STRC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:94610716f094b:0-bitmine-s-ethereum-stack-crosses-6m-while-strategy-taps-mstr-sales-to-buy-btc-and-strc/
-· (+85 manchetes; lista completa em eventos/noticias.json)
+· (+94 manchetes; lista completa em eventos/noticias.json)

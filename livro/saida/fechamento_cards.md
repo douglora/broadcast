@@ -1,4 +1,4 @@
-## Fechamento do livro · seg 28/09 · 18h13 BRT
+## Fechamento do livro · seg 28/09 · 21h56 BRT
 
 ---
 
@@ -15,13 +15,13 @@
 
 - **C03 · DI** DI em nível: F32 cruzou 14,00% (para cima, agora 14,08%) · F35 cruzou 14,00% (para cima, agora 14,04%)
 
-*Mais 10 sinais de baixa prioridade em `alertas.md`.*
+*Mais 9 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
-**Altas** UGPA3 +2,1% · BRENT +1,7% · NVDA +1,7% · PETR4 +1,4% · KLBN4 +1,1% (fechou na máxima)
+**Altas** UGPA3 +2,1% · NVDA +1,7% · PETR4 +1,4% · KLBN4 +1,1% · CVX +0,9%
 **Baixas** INTC -5,7% · META -4,8% (fechou na mínima) · COHR -4,5% · TSLA -3,9% (fechou na mínima) · MRVL -3,8%
 
 ---
@@ -31,11 +31,11 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **INTC** | -5,7% | descolou do setor (semicondutores (eua) -2,6% (mediana), SOX -1,6%; -3,1 p.p. da mediana); notícia a conferir (TradingView (Reuters)): What's next for Intel after the SK Hynix partnership rumors? | notícia (conferir) |
-| **META** | -4,8% | notícia a conferir (Yahoo Finance): Meta Platforms, Inc. (META) Stock Price, News, Quote & History | notícia (conferir) |
+| **META** | -4,8% | notícia a conferir (Seeking Alpha): Meta Platforms: Ignore The CapEx Fears, Buy The Hidden Ecosystem (NASDAQ:META) | notícia (conferir) |
 | **COHR** | -4,5% | notícia a conferir (Yahoo Finance): Coherent Corp. (COHR) Stock Price, News, Quote & History | notícia (conferir) |
 | **TSLA** | -3,9% | notícia a conferir (Yahoo Finance): Can This Number Push Tesla Stock Higher? | notícia (conferir) |
 | **MRVL** | -3,8% | descolou do setor (semicondutores (eua) -2,6% (mediana), SOX -1,6%; -1,3 p.p. da mediana); notícia a conferir (Investing.com): RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com | notícia (conferir) |
-| **AMD** | -3,6% | descolou do setor (semicondutores (eua) -2,6% (mediana), SOX -1,6%; -1,1 p.p. da mediana); notícia a conferir (Fortune): AMD became the first woman-led company worth $1 trillion. Why it matters | notícia (conferir) |
+| **AMD** | -3,6% | descolou do setor (semicondutores (eua) -2,6% (mediana), SOX -1,6%; -1,1 p.p. da mediana); notícia a conferir (CNBC): AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion | notícia (conferir) |
 | **REMX** | -3,3% | investigar antes de comentar | sem causa no dado |
 | **MU** | -2,6% | andou com o setor: semicondutores (eua) -2,6% (mediana), SOX -1,6%; notícia a conferir (Investing.com): Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print | setorial |
 
@@ -108,7 +108,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **NVDA** NVIDIA | 228,86 | **+1,7** | +0,7 | +5,3 | +18 | +39 | +29 | +23 | +1.008 |
 | **AMD** Advanced Micro Devices | 607,87 | **-3,6** | -1,2 | +31 | +13 | +210 | +281 | +184 | +493 |
 | **AVGO** Broadcom | 349,57 | **-0,9** | -3,6 | -5,0 | -6,0 | +20 | +5,3 | +1,6 | +684 |
-| **MRVL** Marvell Technology | 251,90 | **-3,8** | -2,1 | +16 | -9,3 | +187 | +204 | +197 | +329 |
+| **MRVL** Marvell Technology · data-com 09/10 | 251,90 | **-3,8** | -2,1 | +16 | -9,3 | +187 | +204 | +197 | +329 |
 | **INTC** Intel | 116,03 | **-5,7** | -4,7 | +30 | -12 | +182 | +227 | +214 | +134 |
 | **MU** Micron Technology · resultado 30/09 | 1.054 | **-2,6** | +1,0 | +13 | -8,0 | +228 | +571 | +269 | +1.420 |
 | **TSM** Taiwan Semiconductor Manufacturing | 452,88 | **+0,5** | +1,7 | +8,8 | -0,2 | +44 | +67 | +50 | +340 |
@@ -191,13 +191,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,2256 | **+0,8** | +2,4 | +0,6 | +1,1 | -0,2 | -2,6 | -4,6 | -2,6 |
-| **DXY** Indice Dolar DXY | 101,20 | **+0,2** | +0,8 | +1,5 | +0,1 | +0,7 | +3,1 | +3,0 | +7,6 |
-| **BRENT** Petroleo Brent | 106,12 | **+1,7** | +5,8 | +20 | +45 | -5,9 | +51 | +74 | +34 |
-| **BTC** Bitcoin _(parcial)_ | 83.545 | **-1,1** | -3,5 | +6,8 | +39 | +25 | -25 | -4,5 | +73 |
-| **ETH** Ethereum _(parcial)_ | 2.686 | **0,0** | -3,3 | +9,3 | +67 | +33 | -35 | -9,5 | -21 |
+| **DXY** Indice Dolar DXY _(dia 25/09)_ | 100,97 | **-0,3** | +0,7 | +1,8 | -0,4 | +0,8 | +2,5 | +2,7 | +8,2 |
+| **BRENT** Petroleo Brent _(dia 25/09)_ | 104,32 | **-2,1** | +0,4 | +20 | +45 | -7,3 | +50 | +71 | +34 |
+| **BTC** Bitcoin | 83.545 | **-1,1** | -3,5 | +6,8 | +39 | +25 | -25 | -4,5 | +73 |
+| **ETH** Ethereum | 2.686 | **0,0** | -3,3 | +9,3 | +67 | +33 | -35 | -9,5 | -21 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 25/09)_ | 97,06 | **-0,1** | -0,5 | +1,5 | -3,3 | -8,6 | -8,0 | -9,4 | -19 |
 
-**Brent em reais:** R$ 554,54 por barril (28/09) · dia +2,5% · 1 mês +21% · no ano +66% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -205,7 +205,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 655 | +1,9 | -0,4 | - | 28/09 |
+| **Celulose fibra longa** | 655 | +1,9 | -0,5 | - | 28/09 |
 | **Minerio de ferro Dalian** | 93 | -1,6 | -2,0 | - | 28/09 |
 
 - **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.966 a USD/CNY 6,71 = US$ 740/t com IVA
@@ -246,12 +246,14 @@ Inflação implícita 2029 5,94% · 2032 6,02% · 2031/32 (descasado) 5,96% · F
 
 2s10s +32 bps (-4 no dia)
 
-**Regime** VIX 16,1 (+8,1%) · score de risco 0 de 6
+**Regime** VIX 16,1 (+8,1%) · score de risco 0 de 5
 
 ---
 
-### Notícias e fatos · 16
+### Notícias e fatos · 17
 
+- **AMD** AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion (CNBC · 28/09) [abrir a fonte](https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html)
+  *Por que importa:* aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
 - **MU** Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print (Investing.com · 28/09) [abrir a fonte](https://www.investing.com/news/stock-market-news/micron-earnings-outlook-technicals-key-levels-and-beat-streak-ahead-of-q4-print-93CH-4920991)
   *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 - **TSM** TSMC increases 2nm wafer production outlook by 20%: report (TradingView (Reuters) · 28/09) [abrir a fonte](https://www.tradingview.com/news/seekingalpha:6df46bf69094b:0-tsmc-increases-2nm-wafer-production-outlook-by-20-report/)
@@ -299,13 +301,14 @@ Inflação implícita 2029 5,94% · 2032 6,02% · 2031/32 (descasado) 5,96% · F
 - **sex 02/10** — ex-dividendo BBDC4 R$ 0,02 (último provento, Yahoo)
 - **dom 04/10** — OPEP+ (grupo dos 8): cotas de novembro (a confirmar)
 - **ter 06/10** — ex-dividendo JPM US$ 1,50 (último provento, Yahoo)
+- **sex 09/10** — ex-dividendo MRVL US$ 0,06 (último provento, Yahoo)
 
 ---
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 25/09 · UST CMT D0 · PTAX 28/09
-**Lacunas:** WUTI: barra de 28/09 não bate com a cotação do Yahoo às 16:19 (64,85 contra 64,45, -0.61%); variação do dia a confirmar; QANT: barra de 28/09 não bate com a cotação do Yahoo às 17:15 (6,1500 contra 6,1130, -0.60%); variação do dia a confirmar; bcb: BCB devolveu 4 de 5 séries (faltaram ipca_mes).
+**Relógios:** Yahoo 21h56 · DI ajuste D0 · Tesouro base 25/09 · UST CMT D0 · PTAX 28/09
+**Lacunas:** DXY sem barra de 28/09 (última 25/09); BRENT sem barra de 28/09 (última 25/09); WUTI: barra de 28/09 não bate com a cotação do Yahoo às 16:19 (64,85 contra 64,45, -0.61%); variação do dia a confirmar; QANT: barra de 28/09 não bate com a cotação do Yahoo às 17:15 (6,1500 contra 6,1130, -0.60%); variação do dia a confirmar; DXY: barra de 28/09 é o início da sessão seguinte (última cotação 20:47 de Nova York); barra descartada, fica a de 25/09; BRENT: barra de 28/09 é o início da sessão seguinte (última cotação 20:47 de Nova York); barra descartada, fica a de 25/09.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-28).

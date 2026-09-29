@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C07 UST ABRIU: 2y +11 bps · 10y +28 bps em 5 pregões · 30y cruzou 5,50% (28/09) / C03 DI em nível: F32 cruzou 14,00% (para cima, agora 14,08%) · F35 cruzou 14,00% (para cima, agora 14,04%)
 2y 4,92 · 10y 5,24 · 30y 5,56 · 2s10s +32 bps
@@ -17,7 +17,7 @@ Como falar: 'saiu no Investing.com: Micron earnings outlook: technicals, key lev
 Fonte: Investing.com 28/09 15h19
 ids: E05-MU-275cdce391-2026-09-28
 
-[ATENÇÃO] E05 · AMD · AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion
+(pendente de slot anterior) [ATENÇÃO] E05 · AMD · AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion
 CNBC · 28/09 17h10 · + Bloomberg · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Advanced Micro Devices said Monday that it's agreed to acquire World Labs, the San Francisco-based AI lab founded by industry pioneer Fei-Fei Li, for $8.2 billion.
@@ -31,25 +31,18 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMD
 Como falar: 'saiu no CNBC: AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion; confirmar o número no texto antes de repassar'
 Fonte: CNBC 28/09 17h10
-Push: [ATENÇÃO] AMD · AMD acquiring Fei-Fei Li's World Labs AI firm in deal  · detalhe na sessão
 ids: E05-AMD-582d3528a3-2026-09-28
 
 Info (só linha no Fechamento):
+· E05 AMZN · Australia's CSL taps Amazon's cloud unit to boost research pipeline
 · E05 META · Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com
-· E05 AMD · AMD just spent $8.2 billion to enlist the 'Godmother of AI'
-· E05 BABA · ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages
-· E05 JPM · JPMorgan Securities (Thailand) Ltd Warrant 2025-11.11.26 on Bangkok Airways
-· E05 USDBRL · Dólar sobe para R$ 5,22 e atinge maior nível desde março
-· E05 USDBRL · Em compasso de espera, Bolsa perde força e dólar sobe na reta final do 1º turno
-· E05 AMD · AMD Bolsters AI Vision With $8.2B Acquisition Of Fei-Fei Li’s World Labs, Stock Drops 4%
-· E05 META · Meta Platforms: Ignore The CapEx Fears, Buy The Hidden Ecosystem (NASDAQ:META)
-· E05 NOK · Nokia (NOK) is Getting More Exposure to AI Spending. Is the Opportunity Bigger than it Looks?
-· E05 JPM · Why JPMorgan Chase & Co. (JPM) Dipped More Than Broader Market Today
-· E05 NVDA · Nvidia Just Put a Record $150 Billion Behind Its Own Stock
-· E05 USDBRL · Ibovespa perde 183 mil pontos com eleição no radar; dólar vai a R$ 5,22
-· E05 USDBRL · Dólar valoriza 0,85% e vai a R$ 5,225; Bovespa cai 0,26% e fecha com 182.991 pontos em 28/09/2026
-· E05 USDBRL · Dólar sobe a R$ 5,22, maior valor de fechamento em 6 meses, com exterior e eleição
-· E05 USDBRL · Tempo real: Ibovespa cai com eleições em foco e exterior; dólar sobe a R$ 5,22
+· E05 AMD · AMD makes a big bet on the next era of AI with World Labs acquisition
+· E05 GOOGL · How Has Alphabet Stock's Story Changed?
+· E05 CVX · Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst
+· E05 BTC · Bitcoin Holds $83,000 but ETH, XRP, Dogecoin Wobble Despite ETF Demand
+· E05 MU · Should You Buy, Hold, or Sell Micron Stock Ahead of Q4 Earnings?
+· E05 BTC · Can Bitcoin price deliver an "Uptober"? Charts, catalysts to watch
+· E05 BAC · Royal Caribbean Lost 26% in 2 Months: It's Now on 'Sale,' Bank of America Says
 · T04 DIRR3 fechou na mínima de 52 semanas: R$ 9,70, -11% em 1m e -32% em 12m
 · T08 BOTZ entrou em queda de -15% do pico: -16% do pico de 52s (US$ 41,63 em 13/05) a US$ 35,13
 · T08 INTC entrou em queda de -15% do pico: -18% do pico de 52s (US$ 140,94 em 22/06) a US$ 116,03
@@ -58,15 +51,14 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): T04-DIRR3-minima-2026-09-28 (teto de atenção), T08-BOTZ--15-2026-09-28 (teto de atenção), T08-INTC--15-2026-09-28 (teto de atenção), T06-IUAA-queda-2026-09-28 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C07 UST — UST ABRIU: 2y +11 bps · 10y +28 bps em 5 pregões · 30y cruzou 5,50% (28/09)
+· expirado  C07 UST — UST ABRIU: 2y +11 bps · 10y +28 bps em 5 pregões · 30y cruzou 5,50% (28/09)
 · pendente  E05 AMD — AMD · AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion
-· pendente  C03 DI — DI em nível: F32 cruzou 14,00% (para cima, agora 14,08%) · F35 cruzou 14,00% (pa
+· expirado  C03 DI — DI em nível: F32 cruzou 14,00% (para cima, agora 14,08%) · F35 cruzou 14,00% (pa
 · linha     T04 DIRR3 — DIRR3 fechou na mínima de 52 semanas: R$ 9,70, -11% em 1m e -32% em 12m
 · linha     T08 BOTZ — BOTZ entrou em queda de -15% do pico: -16% do pico de 52s (US$ 41,63 em 13/05) a
 · linha     T08 INTC — INTC entrou em queda de -15% do pico: -18% do pico de 52s (US$ 140,94 em 22/06) 
 · linha     T06 IUAA — IUAA (iShares US Aggregate Bond UCITS ETF USD (Acc)) -1,6% em 5 sessões a US$ 5,
-· pendente  E05 MU — MU · Micron earnings outlook: technicals, key levels, and beat streak ahead of Q
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 4 de 5 séries (falt
+· expirado  E05 MU — MU · Micron earnings outlook: technicals, key levels, and beat streak ahead of Q
 · expirado  E05 TSM — TSM · TSMC increases 2nm wafer production outlook by 20%: report
 · entregue  E05 NVDA — NVDA · Nvidia's board increases chipmaker's share buyback plan by $150 billion
 · entregue  E05 ALUP4 — ALUP4 · ISAE4, ALUP11 e TAEE3: BBI eleva preço-alvo das três ações e recomenda v
@@ -87,4 +79,4 @@ Alertas do dia (todos, com status):
 · linha     T09 WQTM — WQTM -1,8% com volume 45,0x a mediana de 20 sessões, a US$ 37,55
 · linha     F01 USDBRL — Real cai: USD/BRL 5,2256 (cruzou R$ 5,20) (parcial, intradia)
 · linha     F03 BRENT — Brent sobe a US$ 107,50 (+3,0% no dia) (parcial, intradia)
-· (+152 notícias só manchete, em noticias.md)
+· (+161 notícias só manchete, em noticias.md)

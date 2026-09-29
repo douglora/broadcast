@@ -1,12 +1,14 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · seg 28/09 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · seg 28/09 · 21h56 BRT
+Relógios: Yahoo 21h56 · DI ajuste D0 · Tesouro base
   25/09 · UST CMT D0 · PTAX 28/09
 
 ALERTAS DO DIA (28 · 1 crítico)
 [CRÍTICO] C07 UST ABRIU: 2y +11 bps · 10y +28 bps em
           5 pregões · 30y cruzou 5,50% (28/09)
+[ATENÇÃO] E05 AMD · AMD acquiring Fei-Fei Li's World
+          Labs AI firm in deal worth $8.2 billion
 [ATENÇÃO] C03 DI em nível: F32 cruzou 14,00% (para
           cima, agora 14,08%) · F35 cruzou 14,00%
           (para cima, agora 14,04%)
@@ -25,18 +27,17 @@ ALERTAS DO DIA (28 · 1 crítico)
 [ATENÇÃO] E05 MU · Micron earnings outlook:
           technicals, key levels, and beat streak
           ahead of Q4 print
-[ATENÇÃO] S01 coleta do slot fechamento saiu
-          incompleta: bcb: BCB devolveu 4 de 5
-          séries (faltaram ipca_mes)
 (+20 em alertas.md)
 
-ALTAS  UGPA3 +2,1% · BRENT +1,7% · NVDA +1,7% ·
-       PETR4 +1,4% · KLBN4 +1,1%
+ALTAS  UGPA3 +2,1% · NVDA +1,7% · PETR4 +1,4% ·
+       KLBN4 +1,1% · CVX +0,9%
 BAIXAS INTC -5,7% · META -4,8% · COHR -4,5% · TSLA
        -3,9% · MRVL -3,8%
 
-NOTÍCIAS E FATOS (16 com materialidade ·
+NOTÍCIAS E FATOS (17 com materialidade ·
   noticias.md)
+· AMD AMD acquiring Fei-Fei Li's World Labs AI firm
+  in deal worth $8.2 billion (CNBC)
 · MU Micron earnings outlook: technicals, key
   levels, and beat streak ahead of Q4 print
   (Investing.com)
@@ -49,10 +50,7 @@ NOTÍCIAS E FATOS (16 com materialidade ·
   (Money Times)
 · TSM TSMC increases 2nm wafer production outlook by
   20%: report (Seeking Alpha)
-· ITUB4 Bradesco (BBDC4), Itaú (ITUB4) e mais cinco
-  empresas pagam dividendos nesta semana; veja o
-  calendário (Money Times)
-  (+10)
+  (+11)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,66 (+3·+14) F29 13,90
@@ -68,7 +66,7 @@ TD (base 25/09, Δ desde 24/09) Pre 2029 13,91 (+8) ·
     (descasado) 5,96% vs Focus IPCA 2027 4,31%
 UST (D0) 2y 4,92 (+11) · 10y 5,24 (+7) · 30y 5,56
     (+7) · 2s10s +32 (-4)
-Regime: VIX 16,1 (+8,1%) · score risco 0 de 6
+Regime: VIX 16,1 (+8,1%) · score risco 0 de 5
 
 LEITURA DA MESA
 <<LEITURA_DA_MESA>>
@@ -86,14 +84,21 @@ dom 04/10 OPEP+ (grupo dos 8): cotas de novembro (a
     confirmar)
 ter 06/10 ex-dividendo JPM US$ 1,50 (último
     provento, Yahoo)
+sex 09/10 ex-dividendo MRVL US$ 0,06 (último
+    provento, Yahoo)
 
-LACUNAS: WUTI: barra de 28/09 não bate com a cotação
-  do Yahoo às 16:19 (64,85 contra 64,45, -0.61%);
-  variação do dia a confirmar; QANT: barra de 28/09
-  não bate com a cotação do Yahoo às 17:15 (6,1500
-  contra 6,1130, -0.60%); variação do dia a
-  confirmar; bcb: BCB devolveu 4 de 5 séries
-  (faltaram ipca_mes).
+LACUNAS: DXY sem barra de 28/09 (última 25/09);
+  BRENT sem barra de 28/09 (última 25/09); WUTI:
+  barra de 28/09 não bate com a cotação do Yahoo às
+  16:19 (64,85 contra 64,45, -0.61%); variação do
+  dia a confirmar; QANT: barra de 28/09 não bate com
+  a cotação do Yahoo às 17:15 (6,1500 contra 6,1130,
+  -0.60%); variação do dia a confirmar; DXY: barra
+  de 28/09 é o início da sessão seguinte (última
+  cotação 20:47 de Nova York); barra descartada,
+  fica a de 25/09; BRENT: barra de 28/09 é o início
+  da sessão seguinte (última cotação 20:47 de Nova
+  York); barra descartada, fica a de 25/09.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -177,10 +182,10 @@ MRVE3  MRV        5,21 +0,8 -1,0 +0,4  -31  -29  -33
 CURY3  Cury      27,59 +0,1 -5,0  -16  -16 -4,0  -10
 Macro
 USDBRL USD/BRL  5,2256 +0,8 +2,4 +0,6 -0,2 -2,6 -4,6
-DXY    DXY      101,20 +0,2 +0,8 +1,5 +0,7 +3,1 +3,0
-BRENT  Brent    106,12 +1,7 +5,8  +20 -5,9  +51  +74
-BTC*   BTC      83.545 -1,1 -3,5 +6,8  +25  -25 -4,5
-ETH*   ETH       2.686  0,0 -3,3 +9,3  +33  -35 -9,5
+DXY*   DXY      100,97 -0,3 +0,7 +1,8 +0,8 +2,5 +2,7
+BRENT* Brent    104,32 -2,1 +0,4  +20 -7,3  +50  +71
+BTC    BTC      83.545 -1,1 -3,5 +6,8  +25  -25 -4,5
+ETH    ETH       2.686  0,0 -3,3 +9,3  +33  -35 -9,5
 MINER* Minerio   97,06 -0,1 -0,5 +1,5 -8,6 -8,0 -9,4
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
