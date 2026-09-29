@@ -1,0 +1,898 @@
+[p. 1]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+1 
+EARNINGS INSIGHT 
+ 
+ 
+September 25, 2026 
+Key Metrics  
+• Earnings Growth: For Q3 2026, the estimated (year-over-year) earnings growth rate for the S&P 500 is 29.1%. If 
+29.1% is the actual growth rate for the quarter, it will mark the third-straight quarter of earnings growth above 2 5% 
+for the index. 
+• Earnings Revisions: On June 30, the estimated (year-over-year) earnings growth rate for the S&P 500 for Q 3 
+2026 was 26.7%. Four sectors are expected to report higher earnings today (compared to June 30) due to upward 
+revisions to EPS estimates. 
+• Earnings Guidance: For Q3 2026, 44 S&P 500 companies have issued negative EPS guidance and 72 S&P 500 
+companies have issued positive EPS guidance. 
+• Valuation: The forward 12 -month P/E ratio for the S&P 500 is 19.2. This P/E ratio is below the 5-year average 
+(19.8) but above the 10-year average (19.0). 
+• Earnings Scorecard: For Q3 2026 (with 9 S&P 500 companies reporting actual results), 7 S&P 500 compan ies 
+have reported a positive EPS surprise and 6 S&P 500 companies has reported a positive revenue surprise. 
+ 
+  
+To receive this report via e-mail or view other articles with FactSet content, please go to: https://insight.factset.com/ 
+To learn more about the FactSet difference (“Why FactSet?”), please go to: https://www.factset.com/why-factset       
+John Butters  
+VP, Senior Earnings Analyst  
+jbutters@factset.com 
+Media Questions/Requests 
+media_request@factset.com 
+[p. 2]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+2 
+EARNINGS INSIGHT 
+Table of Contents 
+ 
+Commentary 
+Key Metrics              1    
+Table of Contents                        2 
+Topic of the Week: 1                   3    
+Topic of the Week: 2                   6    
+Overview                         9   
+Earnings Revisions                                            10                       
+Earnings Guidance                      12 
+Earnings Growth                      12 
+Revenue Growth                      13  
+Net Profit Margin                      14 
+Forward Estimates & Valuation                                                                                                               15                                                                                                                
+                                                                             
+Charts 
+Q226 Earnings & Revenue Scorecard                  16 
+Q226 Earnings & Revenue Surprises                  17 
+Q226 Earnings & Revenue Growth                   20 
+Q226 Net Profit Margin                    22 
+Q326 EPS Guidance                     23 
+Q326 EPS Revisions                     24 
+Q326 Earnings & Revenue Growth                   25 
+FY26 / FY27 EPS Guidance                    26 
+CY26 Earnings & Revenue Growth                   27 
+CY27 Earnings & Revenue Growth                   28 
+Geographic Revenue Exposure                   29 
+Bottom-Up EPS Estimates                    30 
+Forward 12-Month P/E Ratio                   32 
+Trailing 12-Month P/E Ratio                    34 
+Target & Ratings                     35
+         
+ 
+ 
+[p. 3]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+3 
+EARNINGS INSIGHT 
+Topic of the Week: 1 
+Where Are Analysts Most Optimistic on Ratings for S&P 500 Companies Heading Into Q4? 
+With the start of the fourth quarter approaching, where are analysts most optimistic and pessimistic in terms of their ratings 
+on stocks in the S&P 500? 
+Overall, there are 1 3,097 ratings on stocks in the S&P 500. Of these ratings, 5 9.9% are Buy ratings, 35.5% are Hold 
+ratings, and 4.7% are Sell ratings. The percentage of Buy ratings is above its 5-year (month-end) average of 55.9%, while 
+the percentage of Hold ratings is below its 5-year (month-end) average of 38.6% and the percentage of Sell ratings is also 
+below its 5-year (month-end) average of 5.5%.  
+At the sector level, analysts are most optimistic on t he Communication Services (70%), Information Technology (70%), 
+Materials (64%), Energy (64%), and Health Care (61%) sectors, as these five sectors have the highest percentages of Buy 
+ratings. On the other hand, analysts are most pessimistic on the Consumer Staples (45%) sector, as this sector has the 
+lowest percentage of Buy ratings. The Consumer Staples sector also has the highest percentage of Hold ratings  (47%) 
+and the highest percentage of Sell ratings (7%).  
+The ten S&P 500 companies with the highest percentages of Buy ratings and Sell ratings (with a minimum of 3 ratings) 
+can be found on page 4. 
+Since June 30, the percentage of Buy ratings on S&P 500 companies has increased slightly to 59.9% from 59.7%. At the 
+sector level, seven sectors have recorded an increase in their percentage of Buy ratings over this period, while four sectors 
+have recorded a decrease in their percentage of Buy ratings over this period. 
+It is interesting to note that if 5 9.9% is the final percentage of Buy ratings for the month, it will mar k the highest (month-
+end) percentage of Buy ratings for the S&P 500 going back to at least 2010. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 4]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+4 
+EARNINGS INSIGHT 
+Highest % of Buy Ratings in S&P 500: Top 10 (Source: FactSet) 
+Company Buy Hold Sell 
+Wynn Resorts, Limited 100% 0% 0% 
+Bunge Global SA 100% 0% 0% 
+Qnity Electronics, Inc. 100% 0% 0% 
+EchoStar Corporation Class A 100% 0% 0% 
+Amazon.com, Inc. 97% 3% 0% 
+Arista Networks Inc 97% 3% 0% 
+Microsoft Corporation 97% 3% 0% 
+NVIDIA Corporation 96% 3% 1% 
+BlackRock, Inc. 95% 5% 0% 
+West Pharmaceutical Services, Inc. 95% 5% 0% 
+ 
+Highest % of Sell Ratings in S&P 500: Top 10 (Source: FactSet) 
+Company Buy Hold Sell 
+Lennar Corporation Class A 14% 45% 41% 
+HP Inc. 10% 52% 38% 
+Paramount Skydance Corp. Class B 17% 46% 38% 
+W. R. Berkley Corporation 9% 55% 36% 
+T. Rowe Price Group, Inc. 0% 64% 36% 
+Fastenal Company 29% 38% 33% 
+Aflac Incorporated 17% 50% 33% 
+News Corporation Class B 67% 0% 33% 
+Consolidated Edison, Inc. 11% 58% 32% 
+FactSet Research Systems Inc. 19% 52% 29% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 5]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+5 
+EARNINGS INSIGHT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 6]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+6 
+EARNINGS INSIGHT 
+Topic of the Week: 2 
+Industry Analysts Project 20% Increase in S&P 500 Price Over the Next 12 Months 
+After closing near a record-high value earlier this week, where do industry analysts believe the price of the S&P 500 will 
+go from here? 
+Industry analysts in aggregate predict the S&P 500 will see a price increase of 20.4% over the next twelve months. This 
+percentage is based on the difference between the bottom-up target price and the closing price for the index as of yesterday 
+(September 24). The bottom -up target price is calculated by aggregating the median target price estimates (based on 
+company-level estimates submitted by industry analysts) for all the companies in the index. On September 24, the bottom-
+up target price for the S&P 500 was 9,275.04, which was 20.4% above the closing price of 7,704.13. 
+At the sector level, all 11 sectors are predicted to see a price increase of more than 10%. The Utilities (+28.0%), Consumer 
+Discretionary (+26.0%), and Industrials (+25.1%) sectors are expected to see the largest price increases, as these sectors 
+had the largest upside differences between the bottom-up target price and the closing price on September 24. On the other 
+hand, the Energy (+10.6%) and Health Care (+11.7%) sectors are expected to see the smallest price increases, as these 
+sectors had the smallest upside differences between the bottom-up target price and the closing price on September 24.  
+At the company level, the ten stocks in the S&P 500 (with a minimum of 3 target prices) with the largest upside and 
+downside differences between their median target price and closing price (on September 24) can be found on page 7.  
+Since June 30, the bottom-target price for the S&P 500 has increased by 3.6% (to 9,275.04 from 8,950.58). At the sector 
+level, 8 of 11 sectors have seen an increase in their bottom-up target price over this period, led by the Health Care (+6.8%), 
+Financials (+6.0%), and Information Technology  (+5.9%) sectors. On the other hand, 3 of 11 sectors have recorded a 
+decline in their bottom -up target price over this period, led by the  Communication Services (-3.3%) and Utilities (-1.9%) 
+sectors. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 7]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+7 
+EARNINGS INSIGHT 
+Difference Between Median Target Price & Closing Price: Top 10 (Source: FactSet) 
+Company Target Closing Diff ($) Diff (%) 
+NRG Energy, Inc. 190.00 97.85 92.15 94.2% 
+Fair Isaac Corporation 1530.00 856.48 673.52 78.6% 
+Oracle Corporation 240.00 139.54 100.46 72.0% 
+Wynn Resorts, Limited 134.50 80.19 54.31 67.7% 
+First Solar, Inc. 279.00 172.16 106.84 62.1% 
+CRH public limited company 135.00 83.96 51.04 60.8% 
+AppLovin Corp. Class A 500.00 312.47 187.53 60.0% 
+Albemarle Corporation 172.50 108.25 64.25 59.4% 
+Vistra Corp. 219.00 137.94 81.06 58.8% 
+Axon Enterprise Inc 700.00 445.00 255.00 57.3% 
+ 
+Difference Between Median Target Price & Closing Price: Bottom 10 (Source: FactSet) 
+Company Target Closing Diff ($) Diff (%) 
+Moderna, Inc. 125.00 194.82 -69.82 -35.8% 
+Illumina, Inc. 215.00 273.90 -58.90 -21.5% 
+Skyworks Solutions, Inc. 70.00 87.81 -17.81 -20.3% 
+Revvity, Inc. 128.00 150.68 -22.68 -15.1% 
+Intel Corporation 117.00 127.39 -10.39 -8.2% 
+Lennar Corporation Class A 75.00 81.47 -6.47 -7.9% 
+QUALCOMM Incorporated 180.00 194.26 -14.26 -7.3% 
+Paramount Skydance Corporation Class B 9.50 10.18 -0.68 -6.7% 
+Best Buy Co., Inc. 85.00 91.00 -6.00 -6.6% 
+CrowdStrike Holdings, Inc. Class A 245.00 259.67 -14.67 -5.6% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 8]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+8 
+EARNINGS INSIGHT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 9]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+9 
+EARNINGS INSIGHT 
+Q3 Earnings Season: By The Numbers 
+Overview 
+Heading into the final days of the quarter, analysts and companies have been more optimistic than normal in their earnings 
+outlooks for the third quarter. As a result , estimated earnings for the S&P 500 for the third quarter are higher today 
+compared to expectations at the start of the quarter. In addition, the index is expected to report earnings growth above 
+25% for the third-straight quarter. 
+In terms of estimate revisions for companies in the S&P 500, analysts have increased earnings estimates to date for Q3 
+2026. On a per -share basis, estimated earnings for the third quarter have increased by 1.3% since June 30. In a typical 
+quarter, analysts usually lower earnings estimates during the quarter . Over the past five years (20 quarters), earnings 
+expectations have fallen by 2.2% on average during the quarter. Over the past ten years, (40 quarters), earnings 
+expectations have fallen by 2.5% on average during the quarter. 
+In terms of guidance, both the number and percentage of S&P 500 companies issuing positive EPS guidance for Q3 2026 
+are higher than average. At this point in time, 116 companies in the index have issued EPS guidance for Q3 2026, Of these 
+companies, 44 have issued negative EPS guidance and 72 have issued positive EPS guidance. The number of companies 
+issuing positive EPS guidance is well above the 5 -year average of 4 3 and well above the 10 -year average of 41. T he 
+percentage of S&P 500 companies issuing positive EPS guidance for Q 3 2026 is 62% (72 out of 116), which is also well 
+above the 5-year average of 41% and well above the 10-year average of 42%.  
+Due to the upward revisions to earnings estimates by analysts and the positive EPS guidance issued by companies, the 
+estimated (year-over-year) earnings growth rate for Q3 2026 is higher today relative to the start of the third quarter. As of 
+today, the S&P 500 is expected to report (year -over-year) earnings growth of 29.1%, compared to the estimated (year -
+over-year) earnings growth rate of 26.7% on June 30. 
+If 29.1% is the actual growth rate for the quarter, it will mark the third consecutive quarter of earnings growth above 25% 
+and the eighth consecutive quarter of double-digit earnings growth for the index. 
+All eleven sectors are projected to report year-over-year growth. Five of these eleven sectors are predicted to report double-
+digit growth, led by the Energy, Information Technology, Communication Services, and Materials sectors. 
+In terms of revenues, analysts have also raised their estimates during the quarter. As of today, the S&P 500 is expected 
+to report (year-over-year) revenue growth of 12.1%, compared to the expectations for revenue growth of 10.9% on June 
+30. 
+If 12.1% is the actual revenue growth rate for the quarter, it will mark the third consecutive quarter of double-digit revenue 
+growth for the index. 
+All eleven sectors are projected to report year -over-year growth in revenues, led by the Information Technology , Energy, 
+and Communication Services sectors. 
+For Q4 2026, analysts are calling for earnings growth of 26.8%. For CY 202 6, analysts are predicting (year -over-year) 
+earnings growth of 32.0%. 
+The forward 12-month P/E ratio is 19.2, which is below the 5-year average (19.8) but above the 10-year average (19.0). 
+This P/E ratio is also below the forward P/E ratio of 20.4 recorded at the end of the second quarter (June 30). 
+During the upcoming week, 7 S&P 500 companies (including 1 Dow 30 component) are scheduled to report results for the 
+third quarter. 
+[p. 10]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+10 
+EARNINGS INSIGHT 
+Earnings Revisions: Energy Sector Has Seen Largest Increase in EPS Estimates 
+Slight Increase In Estimated Earnings Growth Rate for Q3 This Week 
+During the past week, the estimated earnings growth rate for the S&P 500 for Q 3 2026 increased slightly to 29.1% from 
+29.0%. Upward revisions to EPS estimates for companies in  the Energy sector, partially offset by downward revisions to 
+EPS estimates for companies in the Financials sector,  were the largest contributor s to the small increase in the overall 
+earnings growth rate for the index during the week. 
+The estimated earnings growth rate for the S&P 500 for Q 3 2026 of 29.1% today is above the estimate of 26.7% at the 
+start of the quarter ( June 30), as estimated earnings for the index of $ 798.2 billion today are 1.9% above the estimate of 
+$783.3 billion at the start of the quarter. Four sectors have recorded a n increase in dollar -level earnings due to upward 
+revisions to earnings estimates, led by the Energy, Information Technology, and Financials sectors. On the other hand, six 
+sectors have recorded a decrease in their dollar -level earnings due to downward revisions to earnings estimates, led by 
+the Materials, Consumer Staples, and Health Care  sectors. One sector (Real Estate) has seen no change in expected 
+earnings since June 30. 
+Energy: Marathon Petroleum Leads Earnings Increase Since June 30 
+The Energy sector has recorded the largest percentage increase in estimated (dollar-level) earnings of all eleven sectors 
+since the start of the quarter at +18.0% (to $55.5 billion from $47.0 billion). Rising oil prices are contributing to the increase 
+in earnings for this sector, as the price of oil has increased by 36% since June 30 (to $94.61 from $69.50). As a result, the 
+estimated (year-over-year) earnings growth rate for the sector has increased to 1 11.4% today from 79.3% on June 30. 
+This sector has also recorded the largest increase in price of all 11 sectors since June 30 at +18.3%. Overall, 9 of the 21 
+companies (43%) in the Energy sector have seen a n increase in their mean EPS estimate during this time. Of these 9 
+companies, 3 have recorded an increase in their mean EPS estimate of more than 10% : Marathon Petroleum (to $22.70 
+from $10.43), Valero Energy ( to $1 8.92 from $9.66), and Phillips 66  (to $ 10.86 from $ 6.38). These three companies , 
+followed by Exxon Mobil (to $3.62 from $3.36) and Chevron ( to $4.65 from $4.34), have been the largest contributor s to 
+the increase in expected (dollar-level) earnings for this sector since June 30. 
+Information Technology: NVIDIA Leads Earnings Increase Since June 30 
+The Information Technology  sector has recorded the second-largest percentage increase in estimated (dollar -level) 
+earnings of all eleven sectors since the start of the quarter at +4.1% (to $257.2 billion from $247.0 billion). As a result, the 
+estimated (year-over-year) earnings growth rate for this sector has increased to 63.5% today from 57.0% on June 30. This 
+sector has also recorded the third-largest increase in price of all 11 sectors since June 30 at +6.4%. Overall, 59 of the 74 
+companies (80%) in the Information Technology sector have seen an increase in their mean EPS estimate during this time. 
+Of these 59 companies, 26 have recorded an increase in their mean EPS estimate of more than 10%, led by Super Micro 
+Computer (to $1.04 from $0.66), Dell Technologies ( to $6.56 from $4.21), Intel (to $0. 39 from $0.26), and Teradyne (to 
+$2.08 from $1.50). NVIDIA (to $2.47 from $2.35), Dell Technologies, Intel, and Cisco Systems (to $1.32 from $1.16) have 
+been the largest contributors to the increase in expected (dollar-level) earnings for this sector since June 30. 
+Financials: JPMorgan Chase Leads Earnings Increase Since June 30 
+The Financials sector has recorded the third-largest percentage increase in estimated (dollar-level) earnings of all eleven 
+sectors since the start of the quarter at +1.9% (to $123.7 billion from $121.3 billion). As a result, the estimated (year-over-
+year) earnings growth rate for this sector has increased to 3.3% today from 1.3% on June 30. This sector has also recorded 
+an increase in price of 1.7% since June 30. Overall, 42 of the 76 companies (55%) in the Financials sector have seen an 
+increase in their mean EPS estimate during this time. Of these 42 companies, 3 have recorded an increase in their mean 
+EPS estimate of more than 10%: Progressive (to $4.15 from $3.65), Robinhood Markets (to $0.52 from $0.46), and Allstate 
+(to $6.53 from $5.84). However, JPMorgan Chase (to $5.85 from $5.49) has been the largest contributor to the increase 
+in expected (dollar-level) earnings for this sector since June 30. 
+[p. 11]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+11 
+EARNINGS INSIGHT 
+Materials: Dow and Newmont Lead Earnings Decrease Since June 30 
+On the other hand, the Materials sector has recorded the largest percentage decrease in estimated (dollar-level) earnings 
+of all eleven sectors since the start of the quarter at -8.9% (to $16.5 billion from $18.1 billion). As a result, the estimated 
+(year-over-year) earnings growth rate for this sector has decreased to 29.7% today from 42.4% on June 30. This sector 
+has recorded a decrease in price of 1.4% since June 30. Overall, 19 of the 25 companies (76%) in the Materials sector 
+have seen a decrease in their mean EPS estimate during this time. Of these 19 companies, 10 have recorded a decrease 
+in their mean EPS estimate of more than 10%, led by Mosaic (to $0.05 from $0.29), Dow (to $0.63 from $1.20), International 
+Paper (to $0.32 from $0.53), and Corteva (to -$0.39 from -$0.28). Dow and Newmont (to $2.16 from $2.50) have been the 
+largest contributors to the decrease in expected (dollar-level) earnings for this sector since June 30. 
+Consumer Staples: Walmart Leads Earnings Decrease Since June 30 
+The Consumer Staples sector has recorded the second-largest percentage decrease in estimated (dollar -level) earnings 
+of all eleven sectors since the start of the quarter at -3.3% (to $37.1 billion from $38.3 billion). As a result, the estimated 
+(year-over-year) earnings growth rate for this sector has decreased to 2.9% today from 6.4% on June 30. This sector has 
+also recorded a decrease in price of 1.1% since June 30. Overall, 23 of the 33 companies (70%) in the Consumer Staples 
+sector have seen a decrease in their mean EPS estimate during this time. Of these  23 companies, 4 have recorded a 
+decrease in their mean EPS estimate of more than 10% : Tyson Foods (to $0. 78 from $1.22), Dollar Tree (to $0.93 from 
+$1.37), Mondelez International (to $0.71 from $0.80), and Kimberly -Clark (to $1.61 from $1.80) . However, Walmart (to 
+$0.64 from $0.68) has been the largest contributor to the decrease in expected (dollar-level) earnings for this sector since 
+June 30. 
+Health Care: Incyte and Pfizer Lead Earnings Decrease Since June 30 
+The Health Care sector has recorded the third-largest percentage decrease in estimated (dollar-level) earnings of all eleven 
+sectors since the start of the quarter at -2.6% (to $ 78.6 billion from $ 80.7 billion). As a result, the estimated (year -over-
+year) earnings growth rate for the sector has decreased to 5.9% today from 8.7% on June 30 . Despite the decrease in 
+earnings, this sector has recorded the second-largest increase in price of all 11 sectors since June 30 at +7.0%. Overall, 
+40 of the 60 companies (67%) in the Health Care sector have seen a decrease in their mean EPS estimate during this 
+time. Of these 40 companies, 5 have recorded a decrease in their mean EPS estimate of more than 10% : Humana (to         
+-$1.00 from -$0.20), Incyte Corporation (to -$2.83 from $2.01), Biogen (to $2.03 from $3.95), Zoetis (to $1.51 from $1.85), 
+and Pfizer (to $0.76 from $0.85). Incyte Corporation, Pfizer, and Johnson & Johnson (to $2.85 from $3.02) have been the 
+largest contributors to the decrease in expected (dollar-level) earnings for this sector since June 30.   
+Index-Level EPS Estimate: 1.3% Increase Since June 30 
+The Q3 bottom-up EPS estimate (which is an aggregation of the median Q 3 earnings estimates for all 500 companies in 
+the index and can be used as a proxy for the earnings of the index) has increased by 1.3% (to $89.76 from $88.64) since 
+June 30. In a typical quarter, analysts usually reduce earnings estimates  during the quarter. Over the past five years (20 
+quarters), earnings expectations have fallen by 2.2% on average during the quarter. Over the past ten years, (40 quarters), 
+earnings expectations have fallen by 2.5% on average during the quarter. Over the past fifteen years (60 quarters), 
+earnings expectations have fallen by 3. 2% on average during the quarter. Over the past twenty years (60 quarters), 
+earnings expectations have fallen by 4.2% on average during the quarter. 
+ 
+ 
+ 
+ 
+[p. 12]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+12 
+EARNINGS INSIGHT 
+Guidance: # of Cos. Issuing Positive EPS Guidance for Q3 is Above Average 
+Quarterly Guidance: # of Cos. Issuing Positive EPS Guidance for Q3 is Above Average 
+At this point in time, 116 companies in the index have issued EPS guidance for Q 3 2026, Of these companies, 44 have 
+issued negative EPS guidance and 72 have issued positive EPS guidance. The number of companies issuing positive EPS 
+guidance is well above the 5 -year average of 43 and well above the 10 -year average of 41. T he percentage of S&P 500 
+companies issuing positive EPS guidance for Q3 2026 is 62% (72 out of 116), which is also well above the 5-year average 
+of 41% and well above the 10-year average of 42%. 
+It should be noted that most of the companies issuing positive EPS guidance for Q3 2026 are in the Information Technology 
+sector. Overall, 44 of the 72 companies (or 6 1%) in the S&P 500 issuing positive EPS guidance for Q 3 2026 are in the 
+Information Technology sector.  
+Annual Guidance: 37% of S&P 500 Companies Issuing Negative Guidance for Current Year 
+At this point in time, 2 69 companies in the index have issued EPS guidance for the current fiscal year (FY 202 6 or FY 
+2027). Of these 2 69 companies, 100 have issued negative EPS guidance and 1 69 have issued positive EPS guidance. 
+The percentage of companies issuing negative EPS guidance is 37% (100 out of 269). 
+The term “guidance” (or “preannouncement”) is defined as a projection or estimate for EPS provided by a company in 
+advance of the company reporting actual results. Guidance is classified as negative if the estimate (or mid-point of a range 
+estimates) provided by a company is lower than the mean EPS estimate the day before the guidance was issued. Guidance 
+is classified as positive if the estimate (or mid -point of a range of estimates) provided by the company is higher than the 
+mean EPS estimate the day before the guidance was issued. 
+Earnings Growth: 29.1% 
+The estimated (year-over-year) earnings growth rate for Q3 2026 is 29.1%, which is above the 5-year average earnings 
+growth rate of 16.4% and above the 10-year average earnings growth rate of 10.3%. If 29.1% is the actual growth rate for 
+the quarter, it will mark the 3rd consecutive quarter of year-over-year earnings growth above 25% and the 8th consecutive 
+quarter of double-digit earnings growth for the index. 
+All eleven sectors are expected to report year-over-year earnings growth , led by the Energy, Information Technology, 
+Communication Services, and Materials sectors. 
+Energy: 2 of 5 Sub-Industries Expected to Report (Y/Y) Earnings Growth Above 100% 
+The Energy sector is expected to report the highest (year-over-year) earnings growth rate of all eleven sectors at 111.4%. 
+Higher year-over-year oil prices are contributing to the year -over-year increase in earnings for this sector, as the average 
+price of oil in Q 3 2026 to date ($ 85.32) is 31% above the average price for oil in Q 3 2025 ($64.97). At the sub -industry 
+level, 4 of the 5 sub-industries are projected to report year -over-year growth in earnings: Oil & Gas Refining & Marketing 
+(427%), Integrated Oil & Gas (106%), Oil & Gas Exploration & Production (52%), and Oil & Gas Storage & Transportation 
+(8%) On the other hand, the Oil & Gas Equipment & Services ( -9%) sub-industry is the only sub -industry in the sector  
+predicted to report a year-over-year decline in earnings. 
+Information Technology: Semiconductors Industry Is Largest Contributor to (Y/Y) Earnings Growth 
+The Information Technology sector is expected to report the second-highest (year-over-year) earnings growth rate of all 
+eleven sectors at 63.5%. At the industry level, all 6 industries in the sector are projected to report year-over-year earnings 
+growth: Semiconductors & Semiconductor Equipment (1 26%), Technology Hardware, Storage, & Peripherals (39%), 
+Communication Services ( 38%), Electronic Equipment, Instruments, & Components ( 38%), Software ( 14%), and IT 
+Services (4%).  
+[p. 13]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+13 
+EARNINGS INSIGHT 
+The Semiconductors & Semiconductor Equipment industry is also expected to be the largest contributor to earnings growth 
+for the sector. If this industry were excluded, the estimated earnings growth rate for the Information Technology sector 
+would fall to 24.2% from 63.5%. 
+Communication Services: Meta Platforms Is Largest Contributor to (Y/Y) Earnings Growth 
+The Communication Services  sector is expected to report the third-highest (year-over-year) earnings growth rate of all 
+eleven sectors at 51.3%. At the industry level, all 5 industries in the sector are projected to report year-over-year earnings 
+growth: Media ( $4.67 billion vs. -$3.93 billion), Entertainment (4 3%), Interactive Media & Services ( 43%), Wireless 
+Telecommunication Services (14%), and Diversified Telecommunication Services (1%). 
+At the company level, Meta Platforms ( $6.77 vs. $1.05) and EchoStar ($0.07 vs. -$44.37) are the largest contributors to 
+earnings growth for the sector. If these two companies were excluded, the estimated earnings growth rate for the 
+Communication Services sector would fall to 11.9% from 51.3%.  
+Materials: All 4 Industries Expected to Report (Y/Y) Earnings Growth 
+The Materials sector is expected to report the fourth-largest (year-over-year) earnings growth of all eleven sectors at 29.7%. 
+At the industry level, all 4 industries in the sector are projected to report (year-over-year) earnings growth: Metals & Mining 
+(50%), Containers & Packaging (45%), Chemicals (22%), and Construction Materials (7%). 
+Revenue Growth: 12.1% 
+The estimated (year-over-year) revenue growth rate for Q 3 2026 is 12.1%, which is above the 5-year average revenue 
+growth rate of 8.7% and above the 10-year average revenue growth rate of 6.3%. If 12.1% is the actual growth rate for the 
+quarter, it will mark the third-straight quarter that the index has reported revenue growth above 10.0%. 
+At the sector level, all eleven sectors are expected to report year-over-year growth in revenues, led by the  Information 
+Technology, Energy, and Communication Services sectors. 
+Information Technology: All 6 Industries Expected to Report (Y/Y) Revenue Growth 
+The Information Technology sector is expected to report the highest (year -over-year) revenue growth rate of all eleven 
+sectors at 39.7%. At the industry level, all 6 industries in the sector are predicted to report year-over-year revenue growth: 
+Semiconductors & Semiconductor Equipment ( 80%), Technology Hardware, Storage, & Peripherals ( 36%), 
+Communication Equipment ( 25%), Electronic Equipment, Instruments, & Components ( 22%), Software  (18%), and IT 
+Services (3%).  
+Energy: All 5 Sub-Industries Expected to Report (Y/Y) Revenue Growth 
+The Energy sector is expected to report the second -highest (year-over-year) revenue growth rate of all eleven sectors at 
+20.3%. Higher year-over-year oil prices are contributing to the year -over-year increase in earnings for this sector , as the 
+average price of oil in Q 3 2026 to date ($85.32) is 31% above the average price for oil in Q 3 2025 ($64.97). At the sub-
+industry level, all 5 sub-industries in the sector are predicted to report year-over-year growth in revenues: Oil & Gas Refining 
+& Marketing (2 3%), Integrated Oil & Gas ( 23%), Oil & Gas Exploration & Production ( 15%), Oil & Gas Storage & 
+Transportation (14%), and Oil & Gas Equipment & Services (3%).  
+Communication Services: All 5 Industries Expected to Report (Y/Y) Revenue Growth 
+The Communication Services  sector is expected to report  the third-highest (year -over-year) revenue growth rate of all 
+eleven sectors at 15.2%. At the industry level, all 5 industries in the sector are projected to report year-over-year revenue 
+growth: Interactive Media & Services  (24%), Media (1 0%), Entertainment ( 9%), Wireless Telecommunication Services 
+(5%), and Diversified Telecommunication Services (less than 1%).  
+[p. 14]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+14 
+EARNINGS INSIGHT 
+Net Profit Margin: 15.0% 
+The estimated net profit margin for the S&P 500 for Q 3 2026 is 15.0%, which is below the previous quarter’s net profit 
+margin of 17.0%, but above the year-ago net profit margin of 13.0% and above the 5-year average of 12.4%. 
+If 15.0% is the actual net profit margin for the quarter, it will mark the second -highest net profit margin reported by the 
+index since FactSet began tracking this metric in 2009. The current record (going back to 2009) is 1 7.0%, which occurred 
+in the previous quarter. 
+At the sector level, six sectors are expected to report a year-over-year increase in their net profit margins in Q 3 2026 
+compared to Q3 2025, led by the Energy (14.3% vs. 8.1%) and Information Technology (32.2% vs. 27.5%) sectors. On the 
+other hand, five sectors are expected to report a year-over-year decrease in their net profit margins in Q3 2026 compared 
+to Q3 2025, led by the Financials (19.7% vs. 20.5%) sector.  
+Eight sectors are expected to report net profit margins in Q 3 2026 that are above their 5 -year averages, led by the  
+Information Technology (3 2.2% vs. 25. 6%) and Energy (1 4.3% vs. 9. 8%) sectors . On the other hand, two sectors are 
+expected to report net profit margins in Q3 2026 that are below their 5-year averages: Real Estate (34.0% vs. 35.6%) and 
+Health Care (8.1% vs. 8.9%). One sector (Consumer Staples) is expected to report a net profit margin for Q3 2026 that is 
+equal to its 5-year average (6.3% vs. 6.3%). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[p. 15]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+15 
+EARNINGS INSIGHT 
+Forward Estimates & Valuation 
+Earnings: S&P 500 Expected to Report Earnings Growth of 32% for CY 2026 
+For the third quarter, S&P 500 companies are expected to report year-over-year growth in earnings of 29.1% and year-
+over-year growth in revenues of 12.1%. 
+For Q4 2026, analysts are projecting earnings growth of 26.8% and revenue growth of 11.9%. 
+For CY 2026, analysts are projecting earnings growth of 32.0% and revenue growth of 12.3%. 
+For Q1 2027, analysts are projecting earnings growth of 18.4% and revenue growth of 11.0%. 
+For Q2 2027, analysts are projecting earnings growth of 1.7% and revenue growth of 7.2%. 
+For CY 2027, analysts are projecting earnings growth of 15.4% and revenue growth of 9.2%. 
+Valuation: Forward P/E Ratio is 19.2, Above the 10-Year Average (19.0) 
+The forward 12-month P/E ratio for the S&P 500 is 19.2. This P/E ratio is below the 5-year average of 19.8 but above the 
+10-year average of 19.0. It is also below the forward 12-month P/E ratio of 20.4 recorded at the end of the second quarter 
+(June 30). Since the end of the second quarter (June 30), the price of the index has increased by 2.7% while the forward 
+12-month EPS estimate has increased by 8.9%. At the sector level, the Consumer Discretionary ( 22.9) and Industrials 
+(22.8) sectors have the highest forward 12 -month P/E ratios, while the Energy (13.3) and Financials (1 4.5) sectors have 
+the lowest forward 12-month P/E ratios. 
+The trailing 12-month P/E ratio is 25.8, which is above the 5-year average of 24.4 and above the 10-year average of 23.6. 
+Targets & Ratings: Analysts Project 20% Increase in Price Over Next 12 Months 
+The bottom-up target price for the S&P 500 is 9,275.04, which is 20.4% above the closing price of 7,704.13. At the sector 
+level, the Utilities (+28.0%), Consumer Discretionary (+26.0%), and Industrials (+25.1%) sectors are expected to see the 
+largest price increases, as these sectors have the largest upside differences between the bottom-up target price and the 
+closing price. On the other hand, the Energy (+10.6%) and Health Care (+11.7%) sectors are expected to see the smallest 
+price increases, as these sectors have the smallest upside differences between the bottom-up target price and the closing 
+price. 
+Overall, there are 1 3,097 ratings on stocks in the S&P 500. Of these 1 3,097 ratings, 59.9% are Buy ratings, 35.5% are 
+Hold ratings, and 4.7% are Sell ratings. At the sector level, the Communication Services ( 70%), Information Technology 
+(70%), Materials (64%), Energy (64%), and Health Care (61%) sectors have the highest percentages of Buy ratings, while 
+the Consumer Staples (45%) sector has the lowest percentage of Buy ratings. 
+Companies Reporting Next Week: 7 
+During the upcoming week, 7 S&P 500 companies (including 1 Dow 30 component) are scheduled to report results for the 
+third quarter. 
+ 
+ 
+ 
+[p. 16]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+16 
+EARNINGS INSIGHT 
+Q2 2026: Scorecard 
+ 
+ 
+ 
+
+[p. 17]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+17 
+EARNINGS INSIGHT 
+Q2 2026: Surprise 
+ 
+ 
+ 
+
+[p. 18]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+18 
+EARNINGS INSIGHT 
+Q2 2026: Surprise 
+ 
+ 
+ 
+
+[p. 19]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+19 
+EARNINGS INSIGHT 
+Q2 2026: Surprise 
+ 
+ 
+ 
+
+[p. 20]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+20 
+EARNINGS INSIGHT 
+Q2 2026: Growth 
+ 
+ 
+ 
+
+[p. 21]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+21 
+EARNINGS INSIGHT 
+Q2 2026: Growth 
+ 
+ 
+ 
+
+[p. 22]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+22 
+EARNINGS INSIGHT 
+Q2 2026: Net Profit Margin 
+ 
+ 
+ 
+
+[p. 23]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+23 
+EARNINGS INSIGHT 
+Q3 2026: Guidance 
+ 
+ 
+ 
+
+[p. 24]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+24 
+EARNINGS INSIGHT 
+Q3 2026: EPS Revisions 
+ 
+ 
+ 
+
+[p. 25]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+25 
+EARNINGS INSIGHT 
+Q3 2026: Growth 
+ 
+ 
+ 
+
+[p. 26]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+26 
+EARNINGS INSIGHT 
+FY 2026 / 2027: EPS Guidance 
+ 
+ 
+ 
+
+[p. 27]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+27 
+EARNINGS INSIGHT 
+CY 2026: Growth 
+ 
+ 
+ 
+
+[p. 28]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+28 
+EARNINGS INSIGHT 
+CY 2027: Growth 
+ 
+ 
+ 
+
+[p. 29]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+29 
+EARNINGS INSIGHT 
+Geographic Revenue Exposure 
+ 
+ 
+ 
+
+[p. 30]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+30 
+EARNINGS INSIGHT 
+Bottom-Up EPS Estimates 
+ 
+ 
+ 
+
+[p. 31]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+31 
+EARNINGS INSIGHT 
+Bottom-Up EPS Estimates: Current & Historical 
+ 
+ 
+ 
+
+[p. 32]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+32 
+EARNINGS INSIGHT 
+Forward 12M P/E Ratio: Sector Level 
+ 
+ 
+ 
+
+[p. 33]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+33 
+EARNINGS INSIGHT 
+Forward 12M P/E Ratio: 10-Years 
+ 
+ 
+ 
+
+[p. 34]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+34 
+EARNINGS INSIGHT 
+Trailing 12M P/E Ratio: 10-Years 
+ 
+ 
+ 
+
+[p. 35]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+35 
+EARNINGS INSIGHT 
+Targets & Ratings 
+ 
+ 
+ 
+
+[p. 36]
+  
+Copyright © 2026 FactSet Research Systems Inc. All rights reserved.    FactSet Research Systems Inc.   www.factset.com 
+ 
+ 
+36 
+EARNINGS INSIGHT 
+Important Notice 
+The information contained in this report is provided “as is” and all representations, warranties, terms and conditions, oral 
+or written, express or implied (by common law, statute or otherwise), in relation to the information are hereby excluded and 
+disclaimed to the fullest extent permitted by law. In particular, FactSet, its affiliates and its suppliers disclaim implied 
+warranties of merchantability and fitness for a particular purpose and make no warranty of accuracy, completeness or 
+reliability of the i nformation. This report is for informational purposes and does not constitute a solicitation or an offer to 
+buy or sell any securities mentioned within it. The information in this report is not investment advice. FactSet, its affilia tes 
+and its suppliers assume no liability for any consequence relating directly or indirectly to any action or inaction taken based 
+on the information contained in this report. 
+FactSet aggregates and redistributes estimates data and does not conduct any independent research. Nothing in our 
+service constitutes investment advice or FactSet recommendations of any kind. Estimates data is provided for information 
+purposes only. 
+FactSet has no relationship with creators of estimates that may reasonably be expected to impair its objective presentation 
+of such estimate or recommendation. FactSet redistributes estimates as promptly as reasonably practicable from research 
+providers. 
+ 
+About FactSet 
+FactSet (NYSE:FDS | NASDAQ:FDS) supercharges financial intelligence, offering enterprise data and information 
+solutions that power our clients to maximize their potential. Our cutting -edge digital platform seamlessly integrates 
+proprietary financial data, client datasets, third -party sources, and flexible technology to deliver tailored solutions across 
+the buy-side, sell-side, wealth management, private equity, and corporate sectors. With over 47 years of expertise, offices 
+in 19 countries, and extensive multi-asset class coverage, we leverage advanced data connectivity alongside AI and next-
+generation tools to streamline workflows, drive productivity, and enable smarter, faster decision-making. Serving more than 
+9,100 global clients and over 247,000 individ ual users, FactSet is a member of the S&P 500 dedicated to innovation and 
+long-term client success. Learn more at www.factset.com and follow us on X and LinkedIn  

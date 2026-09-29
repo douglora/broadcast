@@ -1,0 +1,1932 @@
+[p. 1]
+Lista de UCITS ETFs
+[p. 2]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Ações Ásia Pacífico IJPA iShares Core MSCI Japan IMI UCITS ETF IE00B4L5YX21 7.253 BlackRock 0,12%
+Ações Ásia Pacífico VJPA Vanguard FTSE Japan UCITS ETF (USD) Accumulating IE00BFMXYX26 4.243 Vanguard 0,10%
+Ações Ásia Pacífico CPXJ iShares Core MSCI Pacific ex-Japan UCITS ETF IE00B52MJY50 3.585 BlackRock 0,20%
+Ações Ásia Pacífico VAPU Vanguard FTSE Developed Asia Pacific ex Japan UCITS ETF (USD) Accumulating IE00BK5BQZ41 2.667 Vanguard 0,15%
+Ações Ásia Pacífico SAJP ISHARES MSCI JAPAN SCREENED IE00BFNM3L97 2.305 BlackRock 0,15%
+Ações Ásia Pacífico IJPD ISHARES MSCI JAPAN USD-H ACC IE00BCLWRG39 540 BlackRock 0,64%
+Ações Emergentes EIMI iShares Core MSCI EM IMI UCITS ETF IE00BKM4GZ66 36.994 BlackRock 0,18%
+Ações Emergentes IEMA iShares MSCI EM UCITS ETF USD (Acc) IE00B4L5YC18 7.765 BlackRock 0,18%
+Ações Emergentes SAEM ISHARES MSCI EM IMI SCREENED IE00BFNM3P36 7.081 BlackRock 0,18%
+Ações Emergentes VFEA FTSE Emerging Index USD Net of Tax IE00BK5BR733 5.051 Vanguard 0,17%
+Ações Emergentes NDIA ISHARES MSCI INDIA UCITS ETF IE00BZCQB185 4.844 BlackRock 0,65%
+Ações Emergentes EMXC AMUNDI MSCI EMERGING EX CHINA UCT ETF ACC LU2009202107 4.338 Amundi 0,15%
+Ações Emergentes CNYA ISHARES MSCI CHINA A IE00BQT3WG13 2.469 BlackRock 0,40%
+Ações Emergentes XCS6 Xtrackers MSCI China UCITS ETF 1C LU0514695690 2.026 Xtrackers 0,65%
+Ações Emergentes JREM JPMorgan Global Emerging Markets Research Enhanced Index Equity Active UCITS ETF IE00BF4G6Z54 1.822 JPMorgan 0,30%
+Ações Emergentes FLXC Franklin FTSE China UCITS ETF IE00BHZRR147 1.647 Franklin Templeton 0,19%
+Ações Emergentes XCHA Xtrackers CSI 300 Swap UCITS ETF 1C LU0779800910 1.561 Xtrackers 0,50%
+Ações Emergentes EMVL iShares Edge MSCI EM Value Factor UCITS ETF IE00BG0SKF03 1.365 BlackRock 0,40%
+Ações Emergentes EMMV iShares Edge MSCI EM Minimum Volatility UCITS ETF IE00B8KGV557 320 BlackRock 0,40%
+Ações Emergentes AVEM Avantis Emerging Markets Equity UCITS ETF IE000K975W13 146 Avantis 0,35%
+Ações Emergentes FLXB Franklin FTSE Brazil UCITS ETF IE00BHZRQY00 126 Franklin Templeton 0,19%
+Ações Emergentes EXCN FRANKLIN FTSE EMERGING EX CHINA UCITS ETF IE0006D3PGW3 6 Franklin Templeton 0,11%
+[p. 3]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Ações EUA CSPX iShares Core S&P 500 UCITS ETF IE00B5BMR087 130.780 BlackRock 0,07%
+Ações EUA VUAA Vanguard S&P 500 UCITS ETF (USD) Accumulating IE00BFMXXD54 76.004 Vanguard 0,07%
+Ações EUA SPXS Invesco S&P 500 UCITS ETF Acc IE00B3YCGJ38 48.241 Invesco 0,05%
+Ações EUA SPYL SPDR S&P 500 UCITS ETF (Acc) IE000XZSV718 34.373 State Street 0,03%
+Ações EUA CNDX iShares NASDAQ 100 UCITS ETF IE00B53SZB19 22.452 BlackRock 0,30%
+Ações EUA SASU ISHARES MSCI USA SCREENED UC IE00BFNM3G45 17.718 BlackRock 0,07%
+Ações EUA XDEW Xtrackers S&P 500 Equal Weight UCITS ETF 1C IE00BLNMYC90 12.983 Xtrackers 0,15%
+Ações EUA JREU JPMorgan US Research Enhanced Index Equity Active UCITS ETF IE00BF4G7076 12.582 JPMorgan 0,20%
+Ações EUA MXUS Invesco MSCI USA UCITS ETF IE00B60SX170 7.783 Invesco 0,05%
+Ações EUA EWSX iShares S&P 500 Equal Weight UCITS ETF IE000MLMNYS0 5.476 BlackRock 0,15%
+Ações EUA SPY4 State Street SPDR S&P 400 U.S. Mid Cap UCITS ETF USD Unhedged (Acc) IE00B4YBJ215 5.256 State Street 0,30%
+Ações EUA R2US SPDR® Russell 2000 U.S. Small Cap UCITS ETF (Acc) IE00BJ38QD84 4.807 State Street 0,30%
+Ações EUA CSUS iShares MSCI USA UCITS ETF IE00B52SFT06 3.847 BlackRock 0,03%
+Ações EUA IUVL ISHARES EDGE MSCI USA VALUE IE00BD1F4M44 3.611 BlackRock 0,20%
+Ações EUA JEQA JPMorgan Nasdaq Equity Premium Income Active UCITS ETF IE000N6I8IU2 2.943 JPMorgan 0,35%
+Ações EUA CUSS iShares MSCI USA Small Cap ESG Enhanced CTB UCITS ETF IE00B3VWM098 2.505 BlackRock 0,43%
+Ações EUA CCAU iShares MSCI Canada UCITS ETF IE00B52SF786 2.202 BlackRock 0,48%
+Ações EUA IUQA iShares Edge MSCI USA Quality Factor UCITS ETF IE00BD1F4L37 1.998 BlackRock 0,20%
+Ações EUA FUSA Fidelity US Quality Income UCITS ETF ACC-USD IE00BYXVGY31 1.705 Fidelity 0,25%
+Ações EUA SPMV ISHARES EDGE S&P500 MIN VOL IE00B6SPMN59 1.696 BlackRock 0,20%
+Ações EUA USSC SPDR® MSCI USA Small Cap Value Weighted UCITS ETF IE00BSPLC413 878 State Street 0,30%
+Ações EUA DGRA WisdomTree US Quality Dividend Growth UCITS ETF USD Acc IE00BZ56RG20 839 WisdomTree 0,33%
+Ações EUA IUMO iShares Edge MSCI USA Momentum Factor UCITS ETF IE00BD1F4N50 482 BlackRock 0,20%
+Ações EUA R1VL ISHARES RUSSELL 1000 VALUE IE0002EKOXU6 460 BlackRock 0,18%
+Ações EUA JUSE JPMorgan US Equity Active UCITS ETF IE000RSCXLM4 58 JPMorgan 0,39%
+Ações EUA QGRW WisdomTree US Quality Growth UCITS ETF USD Unhedged Acc IE000YGEAK03 29 WisdomTree 0,33%
+[p. 4]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Ações Europa MEUS Amundi Core Stoxx Europe 600 ETF ACC LU0908500753 17.416 Amundi 0,07%
+Ações Europa ISFD iShares Core FTSE 100 UCITS ETF IE00BYZ28W67 15.073 BlackRock 0,20%
+Ações Europa XMED Xtrackers MSCI Europe UCITS ETF 1C LU0274209237 8.681 Xtrackers 0,12%
+Ações Europa XEOU Xtrackers MSCI Europe UCITS ETF 2C USD Hedged LU1184092051 8.681 Xtrackers 0,30%
+Ações Europa EMUU iShares MSCI EMU USD Hedged UCITS ETF (Acc) IE00BWZN1T31 264 BlackRock 0,38%
+Ações Europa HEDK WisdomTree Europe Equity UCITS ETF IE00BYQCZP72 97 WisdomTree 0,58%
+[p. 5]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Ações Global IWDA iShares Core MSCI World UCITS ETF IE00B4L5Y983 128.828 BlackRock 0,20%
+Ações Global VWRA FTSE All-World UCITS ETF - (USD) Accumulating IE00BK5BQT80 59.105 Vanguard 0,19%
+Ações Global ISAC ISHARES MSCI ACWI IE00B6R52259 27.227 BlackRock 0,20%
+Ações Global SWRD SPDR MSCI World UCITS ETF IE00BFY0GT14 17.782 SPDR 0,12%
+Ações Global VHYA FTSE All-World High Dividend Yield UCITS ETF IE00BK5BR626 11.165 Vanguard 0,29%
+Ações Global ACWD State Street SPDR MSCI All Country World UCITS ETF USD Unhedged (Acc) IE00B44Z5B48 11.111 State Street 0,12%
+Ações Global VHVE FTSE Developed World UCITS ETF - (USD) Accumulating IE00BK5BQV03 9.859 Vanguard 0,12%
+Ações Global WSML ISHARES MSCI WLD SMALL CAP IE00BF4RFH31 7.499 BlackRock 0,35%
+Ações Global SAWD iShares MSCI World Screened UCITS ETF USD (Acc) IE00BFNM3J75 6.271 BlackRock 0,20%
+Ações Global IWVL iShares Edge MSCI World Value Factor UCITS ETF IE00BP3QZB59 5.991 BlackRock 0,25%
+Ações Global EXUS Xtrackers MSCI World ex USA UCITS ETF IE0006WW1TQ4 5.861 Xtrackers 0,15%
+Ações Global IMID SPDR MSCI All Country World Investable Market UCITS ETF (Acc) IE00B3YLTY66 5.240 State Street 0,17%
+Ações Global IWQU iShares Edge MSCI World Quality Factor UCITS ETF IE00BP3QZ601 4.463 BlackRock 0,25%
+Ações Global IWMO iShares Edge MSCI World Momentum Factor UCITS ETF IE00BP3QZ825 3.971 BlackRock 0,25%
+Ações Global MVOL iShares Edge MSCI World Minimum Volatility UCITS ETF IE00B8FHGS14 3.345 BlackRock 0,30%
+Ações Global FWRA Invesco FTSE All-World UCITS ETF Acc IE000716YHJ7 3.187 Invesco 0,15%
+Ações Global ICOM iShares Diversified Commodity Swap UCITS ETF IE00BDFL4P12 2.437 BlackRock 0,19%
+Ações Global IQSA Invesco Global Active ESG Equity UCITS ETF Acc IE00BJQRDN15 2.148 Invesco 0,30%
+Ações Global WDSC SPDR® MSCI World Small Cap UCITS ETF IE00BCBJG560 1.727 State Street 0,45%
+Ações Global JEGA JPMorgan Global Equity Premium Income Active UCITS ETF IE000WX7BVB0 1.522 JPMorgan 0,35%
+Ações Global GGRA WISDOMTREE GLOBAL QUALITY DIVIDEND GROWTH UCITS ETF - USD   ACC IE00BZ56SW52 1.510 WisdomTree 0,38%
+Ações Global IGDA Invesco Dow Jones Islamic Global Developed Markets UCITS ETF Acc IE000UOXRAM8 1.102 Invesco 0,40%
+Ações Global AVGS Avantis Global Small Cap Value UCITS ETF IE0003R87OG3 1.041 Avantis 0,39%
+Ações Global IFSW Ishares IV PLC ISHARES EDGE MSCI WRLD MULTIFACT UCITS IE00BZ0PKT83 781 BlackRock 0,30%
+Ações Global AVGC Avantis Global Equity UCITS ETF IE000RJECXS5 467 Avantis 0,22%
+Ações Global HYGN Global X Hydrogen UCITS ETF USD Accumulating IE0002RPS3K2 20 Global X 0,50%
+[p. 6]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Ações Setores e Temáticas IUIT iShares S&P 500 Information Technology Sector UCITS ETF IE00B3WJKG14 14.060 BlackRock 0,15%
+Ações Setores e Temáticas DFNS VANECK DEFENSE UCITS ETF USD ACC IE000YYE6WK5 8.988 VanEck 0,55%
+Ações Setores e Temáticas XAID Xtrackers (IE) PLC ARTFCL INTEL&BIG DATA UCITS ETF1CUSD ACC IE00BGV5VN51 6.184 Xtrackers 0,35%
+Ações Setores e Temáticas SMH VanEck Semiconductor UCITS ETF IE00BMC38736 4.692 VanEck 0,35%
+Ações Setores e Temáticas XDWT Xtrackers (IE) PLC MSCI WLD INFO TECHNOLOGY UCITS ETF 1C IE00BM67HT60 4.685 Xtrackers 0,25%
+Ações Setores e Temáticas IAUP iShares Gold Producers UCITS ETF IE00B6R52036 4.542 BlackRock 0,55%
+Ações Setores e Temáticas XDWH Xtrackers (IE) PLC X MSCI WORLD HEALTH IE00BM67HK77 3.292 Xtrackers 0,25%
+Ações Setores e Temáticas IUHC iShares S&P 500 Health Care Sector UCITS ETF IE00B43HR379 2.658 BlackRock 0,15%
+Ações Setores e Temáticas USPY L&G Cyber Security UCITS ETF IE00BYPLS672 2.609 L&G 0,69%
+Ações Setores e Temáticas XDW0 Xtrackers MSCI World Energy UCITS ETF 1C IE00BM67HM91 2.272 Xtrackers 0,25%
+Ações Setores e Temáticas NUCL VANECK URANIUM AND NUCLEAR TECHNOLOGIES UCITS ETF A IE000M7V94E1 2.197 VanEck 0,55%
+Ações Setores e Temáticas IUFS ISHARES S&P 500 FINANCIALS SECTOR UCT ETF USD ACC IE00B4JNQZ49 2.051 BlackRock 0,15%
+Ações Setores e Temáticas IUES iShares S&P 500 Energy Sector UCITS ETF (Acc) IE00B42NKQ00 1.631 BlackRock 0,15%
+Ações Setores e Temáticas GRDU First Trust Nasdaq® Clean Edge® Smart Grid Infrastructure UCITS ETF IE000J80JTL1 1.611 First Trust 0,63%
+Ações Setores e Temáticas REMX VanEck Rare Earth and Strategic Metals UCITS ETF A IE0002PG6CA6 1.237 VanEck 0,59%
+Ações Setores e Temáticas JEDI VanEck Space Innovators UCITS ETF IE000YU9K6K2 1.230 VanEck 0,55%
+Ações Setores e Temáticas CIBR First Trust Nasdaq® Cybersecurity UCITS ETF IE00BF16M727 1.216 First Trust 0,60%
+Ações Setores e Temáticas IUUS iShares S&P 500 Utilities Sector UCITS ETF IE00B4KBBD01 1.161 BlackRock 0,15%
+[p. 7]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Ações Setores e Temáticas COPX Global X Copper Miners UCITS ETF USD Accumulating IE0003Z9E2Y3 1.000 Global X 0,55%
+Ações Setores e Temáticas WTAI WisdomTree Artificial Intelligence UCITS ETF – USD Acc IE00BDVPNG13 974 WisdomTree 0,40%
+Ações Setores e Temáticas XDWI Xtrackers (IE) PLC MSCI WLD INDUSTRIALS UCITS ETF 1C IE00BM67HV82 869 Xtrackers 0,25%
+Ações Setores e Temáticas BNKS iShares S&P U.S. Banks UCITS ETF USD (Acc) IE00BD3V0B10 837 BlackRock 0,35%
+Ações Setores e Temáticas XDWS Xtrackers (IE) PLC MSCI WLD CONS STAPLES UCITS ETF 1C IE00BM67HN09 819 Xtrackers 0,25%
+Ações Setores e Temáticas URNU GLOBAL X URANIUM UCITS ETF IE000NDWFGA5 644 Global X 0,65%
+Ações Setores e Temáticas KWEB KraneShares CSI China Internet UCITS ETF USD IE00BFXR7892 607 KraneShares 0,75%
+Ações Setores e Temáticas ISAG iShares Agribusiness UCITS ETF IE00B6R52143 547 BlackRock 0,55%
+Ações Setores e Temáticas QNTM VanEck Quantum Computing UCITS ETF A IE0007Y8Y157 500 VanEck 0,55%
+Ações Setores e Temáticas XWTS Xtrackers (IE) PLC X MSCI WORLD COM SERVICES UCITS ETF 1C IE00BM67HR47 487 Xtrackers 0,25%
+Ações Setores e Temáticas DAPP VanEck Crypto and Blockchain Innovators UCITS ETF IE00BMDKNW35 484 VanEck 0,65%
+Ações Setores e Temáticas SBIO Invesco Nasdaq Biotech UCITS ETF IE00BQ70R696 422 Invesco 0,40%
+Ações Setores e Temáticas URNM SPROTT URANIUM MINERS UCITS ETF ACC IE0005YK6564 371 Sprott  0,85%
+Ações Setores e Temáticas WFIN SPDR® MSCI World Financials UCITS ETF IE00BYTRR970 307 State Street 0,30%
+Ações Setores e Temáticas VPN Global X Data Center REITs & Digital Infrastructure UCITS ETF USD Accumulating IE00BMH5Y327 191 Global X 0,50%
+Ações Setores e Temáticas XRES  Invesco Real Estate S&P US Select Sector UCITS ETF Acc IE00BYM8JD58 144 Invesco 0,14%
+Ações Setores e Temáticas XGEN Xtrackers MSCI Genomic Healthcare Innovation UCITS ETF 1C IE000KD0BZ68 9 Xtrackers 0,30%
+[p. 8]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+Alternativos: Commodities CMOD Invesco Bloomberg Commodity UCITS ETF Acc IE00BD6FTQ80 4.530 Invesco 0,19%
+Alternativos: Commodities ISLN iShares Physical Silver  IE00B4NCWG09 3.194 BlackRock 0,20%
+Alternativos: Commodities OIHV VanEck Oil Services UCITS ETF A IE000NXF88S1 367 VanEck 0,35%
+Mercado Imobiliário DPYA iShares Developed Markets Property Yield UCITS ETF IE00BFM6T921 1.639 BlackRock 0,59%
+Mercado Imobiliário GLRA SPDR® Dow Jones Global Real Estate UCITS ETF (Acc) IE00BH4GR342 385 State Street 0,40%
+RF Curto Prazo FLOA iShares $ Floating Rate Bond UCITS ETF IE00BDFGJ627 4.590 BlackRock 0,10%
+RF Curto Prazo XFFE Xtrackers USD Overnight Rate Swap UCITS ETF 1C LU0321465469 443 Xtrackers 0,10%
+RF Emergentes JPEA iShares J.P. Morgan $ EM Bond UCITS ETF IE00BYXYYK40 7.412 BlackRock 0,45%
+RF Emergentes EMGA ISHARES J.P. MORGAN EM LOCAL GOVT BOND UCITS ETF USD (ACC) IE00BFZPF546 5.284 BlackRock 0,50%
+RF Emergentes EMCA iShares J.P. Morgan $ EM Corp Bond UCITS ETF IE00BFM6TD65 2.958 BlackRock 0,50%
+RF Emergentes VDEA Vanguard USD Emerging Markets Government Bond UCITS ETF IE00BGYWCB81 1.404 Vanguard 0,23%
+RF Global AGGU iShares Core Global Aggregate Bond UCITS ETF IE00BZ043R46 13.597 BlackRock 0,10%
+RF Global CRPA iShares Global Corp Bond UCITS ETF IE00BFM6TB42 4.258 BlackRock 0,20%
+RF Global HYLA iShares Global High Yield Corp Bond UCITS ETF IE00BYWZ0440 2.586 BlackRock 0,50%
+RF Global WIAU iShares Fallen Angels High Yield Corp Bond UCITS ETF IE00BDFJYP58 848 BlackRock 0,50%
+RF Global JGHY JPMorgan ETFs (Ireland) ICAV - Global High Yield Corporate Bond Multi-Factor Active UCITS ETFIE00BKKCKJ46 279 JPMorgan 0,35%
+RF High Yield Desenvolvidos (ex-EUA) HYGU iShares € High Yield Corp Bond UCITS ETF IE00BF3NC260 6.790 BlackRock 0,55%
+[p. 9]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+RF High Yield EUA IHYA iShares $ High Yield Corp Bond UCITS ETF IE00BYXYYL56 5.544 BlackRock 0,50%
+RF High Yield EUA SDHA iShares $ Short Duration High Yield Corp Bond UCITS ETF IE00BZ17CN18 2.511 BlackRock 0,45%
+RF High Yield EUA STYC PIMCO US Short-Term High Yield Corporate Bond UCITS ETF IE00BVZ6SQ11 2.065 PIMCO 0,55%
+RF High Yield EUA JPHY JPMorgan USD High Yield Bond Active UCITS ETF IE000LZI2UH4 341 JPMorgan 0,45%
+RF Investment Grade EUA LQDA iShares $ Corp Bond UCITS ETF IE00BYXYYJ35 8.732 BlackRock 0,20%
+RF Investment Grade EUA SDIA iShares $ Short Duration Corp Bond UCITS ETF IE00BYXYYP94 7.989 BlackRock 0,20%
+RF Investment Grade EUA IUAA iShares US Aggregate Bond UCITS ETF IE00BYXYYM63 5.984 BlackRock 0,25%
+RF Investment Grade EUA VDPA Vanguard USD Corporate Bond UCITS ETF IE00BGYWFK87 4.466 Vanguard 0,07%
+RF Investment Grade EUA VDCA Vanguard USD Corporate 1-3 Year bond UCITS ETF IE00BGYWSV06 2.978 Vanguard 0,09%
+RF Investment Grade EUA ERNA iShares $ Ultrashort Bond UCITS ETF IE00BGCSB447 2.407 BlackRock 0,09%
+RF Investment Grade EUA AT1 INVESCO USD AT1 COCO BOND UCITS ETF ACC IE00BFZPF322 1.582 Invesco 0,39%
+RF Investment Grade EUA D28A iShares iBonds Dec 2028 Term $ Corp UCITS ETF IE0000UJ3480 1.282 BlackRock 0,12%
+RF Investment Grade EUA JPSA JPMorgan USD Ultra-Short Income UCITS ETF IE00BG8BCY43 988 JPMorgan 0,18%
+RF Investment Grade EUA ID29 iShares iBonds Dec 2029 Term $ Corp UCITS ETF IE000QJMYB29 508 BlackRock 0,12%
+RF Investment Grade EUA JAAA Janus Henderson USD AAA CLO Active Core UCITS ETF USD Acc LU2994520851 252 Janus Henderson 0,25%
+RF Investment Grade EUA HLQD iShares $ Corp Bond Interest Rate Hedged UCITS ETF IE00BZ173W74 188 BlackRock 0,25%
+RF Investment Grade EUA JRUB JPMorgan USD Corporate Bond Research Enhanced Index Active UCITS ETF IE00BF59RV63 75 JPMorgan 0,04%
+[p. 10]
+Lista de UCITS ETFs
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+Categoria Ticker Name ISIN AUM (M) Gestora Taxa Adm.
+RF Tesouro Americano IB01 iShares $ Treasury Bond 0-1yr UCITS ETF IE00BGSF1X88 25.223 BlackRock 0,07%
+RF Tesouro Americano IBTA iShares $ Treasury Bond 1-3yr UCITS ETF IE00BYXPSP02 11.906 BlackRock 0,07%
+RF Tesouro Americano CBU7 iShares $ Treasury Bond 3-7yr UCITS ETF IE00B3VWN393 10.195 BlackRock 0,07%
+RF Tesouro Americano VDST Vanguard U.S. Treasury 0-1 Year Bond UCITS ETF (USD) Accumulating IE00BLRPPV00 6.959 Vanguard 0,05%
+RF Tesouro Americano DTLA iShares $ Treasury Bond 20+yr UCITS ETF IE00BFM6TC58 5.507 BlackRock 0,07%
+RF Tesouro Americano IDTP iShares $ TIPS UCITS ETF IE00B1FZSC47 5.241 BlackRock 0,10%
+RF Tesouro Americano U03A iShares $ Treasury Bond 0-3 Month UCITS ETF IE000SSFEUS3 4.868 BlackRock 0,07%
+RF Tesouro Americano CBU0 iShares $ Treasury Bond 7-10yr UCITS ETF IE00B3VWN518 4.711 BlackRock 0,07%
+RF Tesouro Americano IMBA iShares US Mortgage Backed Securities UCITS ETF IE00BYXYYN70 4.112 BlackRock 0,28%
+RF Tesouro Americano VDTA Vanguard USD Treasury Bond UCITS ETF IE00BGYWFS63 2.994 Vanguard 0,05%
+RF Tesouro Americano BB3M JPMorgan Betabuilders US Treasury Bond 0-3 Months UCITS ETF IE00BMD8KM66 1.655 JPMorgan 0,07%
+RF Tesouro Americano XG7U Xtrackers II Global Inflation-Linked Bond UCITS ETF 2C - USD Hedged LU0641007009 852 Xtrackers 0,25%
+RF Tesouro Americano BBTR JPMorgan BetaBuilders US Treasury Bond UCITS ETF IE00BJK9HH50 67 JPMorgan 0,07%
+Alternativos: Ouro IGLN iShares Physical Gold IE00B4ND3602 37.245 BlackRock 0,12%
+[p. 11]
+Descrição 
+[p. 12]
+UCITS ETFs – Ações Ásia Pacífico
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+CPXJ iShares Core MSCI Pacific ex-Japan UCITS ETF
+Gestora: BlackRock
+CPXJ busca acompanhar o índice MSCI Pacific ex Japan. O índice MSCI Pacific 
+acompanha os mercados de ações dos mercados desenvolvidos da região do 
+Pacífico, excluindo o Japão (Focando então em Austrália, Hong Kong, 
+Singapura e Nova Zelândia).
+AUM (USD MM): 3.585
+Taxa Adm.: 0,20%
+IJPA iShares Core MSCI Japan IMI UCITS ETF
+Gestora: BlackRock
+O IJPA busca acompanhar o índice MSCI Japan IMI. O índice MSCI Japan IMI 
+acompanha ações do Japão. Ele abrange títulos nos segmentos de grande, 
+médio e pequeno porte.
+AUM (USD MM): 7.253
+Taxa Adm.: 0,12%
+IJPD ISHARES MSCI JAPAN USD-H ACC
+Gestora: BlackRock
+O ETF iShares MSCI Japan USD Hedged UCITS (IJPD) busca replicar o índice 
+MSCI Japan, que acompanha ações japonesas de grande e médio porte. Ele 
+protege contra variações cambiais do iene para o dólar por meio de 
+derivativos. As maiores exposições por setor: industrial com 23,8% e consumo 
+discricionário com 17,4%. O veículo possui taxa de administração de 0,64% ao 
+ano.
+AUM (USD MM): 540
+Taxa Adm.: 0,64%
+SAJP ISHARES MSCI JAPAN SCREENED
+Gestora: BlackRock
+SAJP acompanha empresas japonesas de grande e médio porte com filtros 
+ESG, excluindo indústrias problemáticas. Cobre setores como tecnologia, 
+industrial, consumo, financeiro e saúde, incluindo fabricantes de eletrônicos, 
+automóvel e serviços financeiros. Proporciona exposição limpa ao mercado 
+acionário japonês alinhada com investimento responsável.
+AUM (USD MM): 2.305
+Taxa Adm.: 0,15%
+[p. 13]
+UCITS ETFs – Ações Ásia Pacífico
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+VJPA Vanguard FTSE Japan UCITS ETF (USD) Accumulating
+Gestora: Vanguard
+VJPA replica o índice FTSE Japan, cobrindo empresas de grande e média 
+capitalização listadas no Japão sem hedge cambial. Oferece exposição ampla 
+à bolsa japonesa com diversificação setorial, sensível ao iene e às políticas do 
+Banco do Japão.
+AUM (USD MM): 4.243
+Taxa Adm.: 0,10%
+VAPU Vanguard FTSE Developed Asia Pacific ex Japan UCITS ETF (USD) Accumulating
+Gestora: Vanguard
+VAPU replica o índice FTSE Developed Asia Pacific ex Japan, investindo em 
+empresas de grande e média capitalização de mercados desenvolvidos da Ásia-
+Pacífico — Austrália, Nova Zelândia, Hong Kong e Cingapura.
+AUM (USD MM): 2.667
+Taxa Adm.: 0,15%
+[p. 14]
+UCITS ETFs – Ações Emergentes
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+AVEM Avantis Emerging Markets Equity UCITS ETF
+Gestora: Avantis
+AVEM replica o índice MSCI Emerging Markets IMI de forma ativa, investindo 
+em empresas de grande, média e pequena capitalização de mercados 
+emergentes em todo o mundo. A estratégia sobrepesa companhias negociadas 
+a valuations mais baixos e com maior rentabilidade, buscando retorno superior 
+ao benchmark. Abrange aproximadamente 99% da capitalização de mercado 
+ajustada de cada país emergente, oferecendo diversificação ampla em uma 
+classe de ativos com alto potencial de crescimento.
+AUM (USD MM): 146
+Taxa Adm.: 0,35%
+CNYA ISHARES MSCI CHINA A
+Gestora: BlackRock
+O ETF iShares MSCI China A UCITS busca replicar o índice MSCI China A 
+Inclusion, que acompanha ações A-Shares chinesas incluídas nos mercados 
+emergentes. O veículo possui uma taxa de administração de 0,40% ao ano. Os 
+principais setores do índice são: financeiro com 22,7%; Tecnologia com 21,4% e 
+Industrial com 14,9%.
+AUM (USD MM): 2.469
+Taxa Adm.: 0,40%
+EIMI iShares Core MSCI EM IMI UCITS ETF
+Gestora: BlackRock
+EIMI busca replicar o índice MSCI Emerging Markets Investable Market (IMI), 
+que agrega ações de empresas de grande, médio e pequeno porte de 
+mercados emergentes globais. O fundo possui cerca de 3.000 ativos, 
+distribuídos em diversos setores como tecnologia, financeiro, consumo, 
+energia, materiais básicos e saúde, abrangendo mais de 24 países, com 
+destaque para China, Taiwan, Índia, Brasil e Coréia do Sul. 
+AUM (USD MM): 36.994
+Taxa Adm.: 0,18%
+EMMV iShares Edge MSCI EM Minimum Volatility UCITS ETF
+Gestora: BlackRock
+EMMV busca oferecer exposição a ações de mercados emergentes com enfoque 
+em baixa volatilidade. O ETF replica o desempenho do índice MSCI Emerging 
+Markets Minimum Volatility, que seleciona empresas com menor oscilação de 
+preços no tempo. A estratégia busca reduzir riscos sem abrir mão da exposição 
+geográfica ampla, adotando gestão passiva e replicação física do índice.
+AUM (USD MM): 320
+Taxa Adm.: 0,40%
+[p. 15]
+UCITS ETFs – Ações Emergentes
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+EMVL iShares Edge MSCI EM Value Factor UCITS ETF
+Gestora: BlackRock
+EMVL é uma alternativa para quem busca exposição a ações de mercados 
+emergentes com foco em empresas de valor (value factor). O ETF tem 
+como objetivo replicar o índice MSCI Emerging Markets Value, que 
+concentra companhias com múltiplos atrativos em relação a lucro, 
+valor contábil e dividendos. A gestão é passiva, e o fundo oferece uma forma 
+eficiente de diversificação entre países com economias em crescimento.
+AUM (USD MM): 1.365
+Taxa Adm.: 0,40%
+FLXC Franklin FTSE China UCITS ETF
+Gestora: Franklin Templeton
+FLXC replica o índice FTSE China 30/18 Capped, que acompanha empresas de 
+grande e média capitalização listadas na China continental e em Hong Kong. 
+Com TER de apenas 0,19%, é uma das opções mais baratas para exposição 
+passiva ao mercado acionário chinês, incluindo ações A, H e ADRs.
+AUM (USD MM): 1.647
+Taxa Adm.: 0,19%
+IEMA iShares MSCI EM UCITS ETF USD (Acc)
+Gestora: BlackRock
+IEMA tem como objetivo replicar a performance do índice MSCI Emerging 
+Markets, englobando cerca de 1.200 empresas de grande e médio porte 
+distribuídas em aproximadamente 24 países emergentes. O portfólio 
+contempla setores como tecnologia, financeiro, consumo, energia e materiais 
+básicos,
+AUM (USD MM): 7.765
+Taxa Adm.: 0,18%
+JREM JPMorgan Global Emerging Markets Research Enhanced Index Equity Active 
+UCITS ETF
+Gestora: JPMorgan
+JREM é um ETF ativo que busca superar mercados emergentes através de 
+análise fundamentalista e pesquisa proprietária. Investe em ações de grande e 
+médio porte de países como China, Índia, Taiwan, Brasil, México e Tailândia. A 
+estratégia ativa permite seleção baseada em qualidade, crescimento e 
+valuation, oferecendo oportunidade de alpha mantendo diversificação setorial 
+e geográfica ampla.
+AUM (USD MM): 1.822
+Taxa Adm.: 0,30%
+[p. 16]
+UCITS ETFs – Ações Emergentes
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+NDIA ISHARES MSCI INDIA UCITS ETF
+Gestora: BlackRock
+O NDIA possui uma exposição as ações large e mid-cap do mercado indiano, 
+buscando replicar seu benchmark, o MSCI India Net TR - in USD, que cobre 
+aproximadamente 85% do mercado de ações indiano. A maior exposição 
+setorial é o setor financeiro com 28,9% de exposição, seguido por consumo 
+discricionário com 13% de exposição. O custo do veículo é de 0,65% ao ano.
+AUM (USD MM): 4.844
+Taxa Adm.: 0,65%
+SAEM ISHARES MSCI EM IMI SCREENED
+Gestora: BlackRock
+SAEM replica o MSCI Emerging Markets Investable Market Index com filtros 
+ESG, oferecendo exposição a empresas de grande, médio e pequeno porte em 
+mercados emergentes. O portfólio inclui China, Índia, Taiwan, Brasil e Coreia do 
+Sul, cobrindo setores como tecnologia, financeiro, consumo, energia e 
+materiais. Os critérios ESG garantem práticas sustentáveis enquanto small caps 
+oferecem potencial de crescimento adicional.
+AUM (USD MM): 7.081
+Taxa Adm.: 0,18%
+VFEA FTSE Emerging Index USD Net of Tax
+Gestora: Vanguard
+O VFEA oferece exposição diversificada a ações de mercados emergentes ao 
+replicar seu benchmark, FTSE Emerging Markets Index, cobrindo large e mid 
+caps com maior peso em China, Taiwan e Índia; o veículo é de acumulação, e 
+tem custo de aproximadamente 0,22% ao ano.
+AUM (USD MM): 5.051
+Taxa Adm.: 0,17%
+XCS6 Xtrackers MSCI China UCITS ETF 1C
+Gestora: Xtrackers
+XCS6 replica o índice MSCI China via replicação física, cobrindo ações A, B, H, 
+ADRs e outros títulos representativos de empresas chinesas de grande e média 
+capitalização. Oferece acesso amplo ao mercado acionário chinês com 
+diversificação entre bolsas de Xangai, Shenzhen e Hong Kong.
+AUM (USD MM): 2.026
+Taxa Adm.: 0,65%
+[p. 17]
+UCITS ETFs – Ações Emergentes
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+EMXC AMUNDI MSCI EMERGING EX CHINA UCT ETF ACC
+Gestora: Amundi
+EMXC replica o índice MSCI Emerging Markets ex China, oferecendo exposição 
+a mercados emergentes como Índia, Brasil, Taiwan, Coreia do Sul e outros, 
+excluindo deliberadamente a China. Permite ao investidor ajustar a alocação 
+em emergentes sem sobreposição com ETFs de China ou com visão de 
+underweight no país.
+AUM (USD MM): 4.338
+Taxa Adm.: 0,15%
+EXCN FRANKLIN FTSE EMERGING EX CHINA UCITS ETF
+Gestora: Franklin Templeton
+EXCN replica o índice FTSE Emerging ex China, similar ao EMXC mas utilizando 
+a metodologia FTSE, com exposição a mercados emergentes globais excluindo 
+empresas chinesas. Oferece alternativa ao EMXC com diferenças de 
+composição em países de fronteira e ponderações regionais.
+AUM (USD MM): 6
+Taxa Adm.: 0,11%
+XCHA Xtrackers CSI 300 Swap UCITS ETF 1C
+Gestora: Xtrackers
+XCHA replica o índice CSI 300 via swap sintético, rastreando as 300 maiores 
+ações A listadas nas bolsas de Xangai e Shenzhen. Oferece acesso ao mercado 
+doméstico chinês com replicação sintética eficiente, ideal para investidores 
+que buscam exposição direta às empresas voltadas ao consumo interno da 
+China.
+AUM (USD MM): 1.561
+Taxa Adm.: 0,50%
+FLXB Franklin FTSE Brazil UCITS ETF
+Gestora: Franklin Templeton
+FLXB replica o índice FTSE Brazil 30/18 Capped, investindo em empresas 
+brasileiras de grande e média capitalização listadas na B3 com limite de 
+concentração por emissor. Com TER de 0,19%, é uma das opções mais baratas 
+para exposição passiva ao Brasil, cobrindo setores como financeiro, 
+commodities, energia e consumo.
+AUM (USD MM): 126
+Taxa Adm.: 0,19%
+[p. 18]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+CCAU iShares MSCI Canada UCITS ETF
+Gestora: BlackRock
+CCAU acompanha o índice MSCI Canada, oferecendo exposição a empresas 
+canadenses de grande e média capitalização. A composição inclui nomes de 
+peso como Royal Bank of Canada, Shopify, TD Bank e Enbridge, com 
+representação significativa nos setores financeiro (37%), energia (17%), 
+materiais básicos (14%) e tecnologia (11%). Adequado para diversificação 
+geográfica com foco em economia desenvolvida rica em recursos naturais.
+AUM (USD MM): 2.202
+Taxa Adm.: 0,48%
+CNDX iShares NASDAQ 100 UCITS ETF
+Gestora: BlackRock
+CNDX replica o NASDAQ 100 reunindo 100 maiores empresas não-financeiras 
+da bolsa NASDAQ com forte concentração em tecnologia. Expõe a líderes como 
+Apple, Microsoft, Nvidia, Amazon, Alphabet e Meta. Comparado ao S&P 500, 
+oferece maior exposição a tecnologia e crescimento com maior volatilidade, 
+ideal para perfil mais agressivo.
+AUM (USD MM): 22.452
+Taxa Adm.: 0,30%
+CSPX iShares Core S&P 500 UCITS ETF
+Gestora: BlackRock
+CSPX replica o S&P 500 com 500 principais empresas americanas de setores 
+como tecnologia, saúde, financeiro, consumo, industrial, energia e utilities. 
+Inclui gigantes como Apple, Microsoft, Amazon, Alphabet, Tesla e JPMorgan 
+Chase. Com acumulação de dividendos e custos reduzidos, é altamente líquido 
+e ideal para ganho de capital.
+AUM (USD MM): 130.780
+Taxa Adm.: 0,07%
+CSUS iShares MSCI USA UCITS ETF
+Gestora: BlackRock
+CSUS acompanha o índice MSCI USA, proporcionando exposição ampla ao 
+mercado acionário norte-americano através de empresas de grande e média 
+capitalização. Oferece diversificação entre todos os setores da economia 
+americana a um custo muito baixo (TER 0,07%). É uma solução eficiente para 
+acesso ao maior e mais líquido mercado de ações do mundo, funcionando como 
+bloco principal de alocação em portfólios globais.
+AUM (USD MM): 3.847
+Taxa Adm.: 0,03%
+[p. 19]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+CUSS iShares MSCI USA Small Cap ESG Enhanced CTB UCITS ETF
+Gestora: BlackRock
+CUSS replica o índice MSCI USA Small Cap ESG Enhanced Focus CTB, 
+reunindo aproximadamente 1.500 ações de empresas americanas de pequena 
+capitalização, com seleção e ponderação baseadas em critérios ambientais, 
+sociais e de governança (ESG) e alinhamento às diretrizes de transição 
+climática da União Europeia.
+AUM (USD MM): 2.505
+Taxa Adm.: 0,43%
+EWSX iShares S&P 500 Equal Weight UCITS ETF
+Gestora: BlackRock
+EWSX busca replicar o índice S&P 500® Equal Weight, incluindo todas as ações 
+do S&P 500 com pesos idênticos — aproximadamente 0,20% para cada 
+empresa. Esse modelo reduz a concentração nas maiores companhias, 
+distribuindo de forma uniforme o impacto de todas no resultado do fundo.
+AUM (USD MM): 5.476
+Taxa Adm.: 0,15%
+IUMO iShares Edge MSCI USA Momentum Factor UCITS ETF
+Gestora: BlackRock
+IUMO segue o índice MSCI USA Momentum, selecionando ações americanas 
+de grande e média capitalização que apresentam tendência de alta recente 
+em seus preços. A estratégia fatorial de momentum busca capturar a 
+persistência de retornos positivos no curto e médio prazo, sobrepesando 
+papéis que demonstraram desempenho superior nos meses anteriores. 
+Indicado para investidores que buscam exposição fatorial com foco em 
+tendências de mercado.
+AUM (USD MM): 482
+Taxa Adm.: 0,20%
+IUQA iShares Edge MSCI USA Quality Factor UCITS ETF
+Gestora: BlackRock
+IUQA replica o índice MSCI USA Sector Neutral Quality, composto por cerca de 
+125 ações de empresas americanas selecionadas por indicadores de 
+qualidade: alto retorno sobre o patrimônio, baixo endividamento e 
+estabilidade nos lucros ao longo do tempo.
+AUM (USD MM): 1.998
+Taxa Adm.: 0,20%
+[p. 20]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IUVL ISHARES EDGE MSCI USA VALUE
+Gestora: BlackRock
+O IUVL oferece exposição a ações de valor dos EUA ao replicar o MSCI USA 
+Enhanced Value Index, selecionando large e mid caps subavaliadas seguindo a 
+filosofia de análise fundamentalista; é um veículo de acumulação, com custo 
+total de 0,20% ao ano.
+AUM (USD MM): 3.611
+Taxa Adm.: 0,20%
+JEQA JPMorgan Nasdaq Equity Premium Income Active UCITS ETF
+Gestora: JPMorgan
+O JEQA possui uma estratégia de gestão ativa de ações focada no setor de 
+tecnologia dos EUA, com uma filosofia de investimento fundamentalista. Em 
+termos de exposição setorial, tecnologia representa cerca de 53% do fundo, 
+seguido com 15% de communication services. O veículo é de acumulação com 
+0,35% de custo ao ano.
+AUM (USD MM): 2.943
+Taxa Adm.: 0,35%
+JREU JPMorgan US Research Enhanced Index Equity Active UCITS ETF
+Gestora: JPMorgan
+O JREU possui uma gestão ativa usando a filosofia de análise fundamentalista, 
+para superar o índice S&P 500. A gestão ativa baseia-se no "enhanced index", 
+ou seja, busca superar o índice com um risco similar. Seu custo total é de 0,20% 
+ao ano.
+AUM (USD MM): 12.582
+Taxa Adm.: 0,20%
+JUSE JPMorgan US Equity Active UCITS ETF
+Gestora: JPMorgan
+O JUSE é um fundo ativo que busca superar o S&P 500 no longo prazo 
+investindo majoritariamente em large caps dos EUA, mantendo pesos setoriais 
+semelhantes ao seu benchmark, o S&P 500; é um veículo de acumulação, com 
+custo total de 0,39% a.a.
+AUM (USD MM): 58
+Taxa Adm.: 0,39%
+[p. 21]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+R1VL ISHARES RUSSELL 1000 VALUE
+Gestora: BlackRock
+O R1VL oferece exposição a ações de valor dos EUA ao replicar o índice Russell 
+1000 Value, focando em large e mid caps com características de valuation 
+mais baixos; é um veículo de acumulação, com custo total de 0,18% ao ano.
+AUM (USD MM): 460
+Taxa Adm.: 0,18%
+R2US SPDR® Russell 2000 U.S. Small Cap UCITS ETF (Acc)
+Gestora: State Street
+O R2US oferece exposição a small caps dos EUA ao replicar o índice de small 
+caps Russell 2000, seu benchmark; é um veículo de acumulação com custo total 
+de 0,30% ao ano.
+AUM (USD MM): 4.807
+Taxa Adm.: 0,30%
+SASU ISHARES MSCI USA SCREENED UC
+Gestora: BlackRock
+SASU replica o MSCI USA ESG Screened Index, oferecendo exposição ao 
+mercado americano excluindo companhias envolvidas em atividades 
+controversas como carvão térmico, tabaco, armas e entretenimento adulto. 
+Mantém composição semelhante ao MSCI USA tradicional, com as principais 
+posições em Nvidia, Microsoft e Apple, mas com filtros ESG que eliminam 
+empresas consideradas problemáticas sob critérios ambientais, sociais e de 
+governança.
+AUM (USD MM): 17.718
+Taxa Adm.: 0,07%
+SPMV ISHARES EDGE S&P500 MIN VOL
+Gestora: BlackRock
+SPMV segue o S&P 500 Minimum Volatility Index, composto por uma carteira 
+otimizada de ações do S&P 500 selecionadas por apresentarem a menor 
+volatilidade absoluta de retornos. A estratégia busca oferecer exposição ao 
+mercado americano com oscilações reduzidas, mantendo diversificação entre 
+setores e respeitando limites de concentração. Indicado para investidores que 
+desejam participar do mercado de ações com perfil de risco mais moderado.
+AUM (USD MM): 1.696
+Taxa Adm.: 0,20%
+[p. 22]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+SPXS Invesco S&P 500 UCITS ETF Acc
+Gestora: Invesco
+O SPXS oferece exposição ao mercado de ações dos EUA ao replicar o S&P 
+500 por meio de réplica sintética via swaps.AUM (USD MM): 48.241
+Taxa Adm.: 0,05%
+USSC SPDR® MSCI USA Small Cap Value Weighted UCITS ETF
+Gestora: State Street
+O SPDR MSCI USA Small Cap Value Weighted UCITS ETF replica o desempenho 
+do índice MSCI USA Small Cap Value Weighted, que seleciona ações de 
+pequenas empresas americanas, ponderando-as por variáveis fundamentais 
+como vendas, lucro, fluxo de caixa e valor contábil. O portfólio é amplo e 
+diversificado, com mais de 1.600 companhias em setores variados como 
+financeiro, consumo, industrial e tecnologia - com baixa concentração na 
+carteira.
+AUM (USD MM): 878
+Taxa Adm.: 0,30%
+VUAA Vanguard S&P 500 UCITS ETF (USD) Accumulating
+Gestora: Vanguard
+VUAA acompanha o S&P 500 reunindo 500 maiores empresas americanas de 
+grande capitalização. Forte exposição em tecnologia, saúde, financeiro e 
+consumo discricionário, incluindo gigantes como Apple, Microsoft, Nvidia e 
+Johnson & Johnson. Com acumulação automática de dividendos, oferece 
+exposição simplificada à maior economia do mundo.
+AUM (USD MM): 76.004
+Taxa Adm.: 0,07%
+XDEW Xtrackers S&P 500 Equal Weight UCITS ETF 1C
+Gestora: Xtrackers
+XDEW tem como benchmark o índice S&P 500 Equal Weight, atribuindo peso 
+igual para cada uma das ações americanas de grande capitalização incluídas na 
+composição do S&P 500, com aproximadamente 0,20% por empresa. Essa 
+abordagem elimina a concentração nas gigantes do índice, distribui de maneira 
+uniforme a influência das companhias e amplia a exposição a nomes menos 
+destacados.
+AUM (USD MM): 12.983
+Taxa Adm.: 0,15%
+[p. 23]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+MXUS Invesco MSCI USA UCITS ETF
+Gestora: Invesco
+MXUS replica o índice MSCI USA, cobrindo empresas de grande e média 
+capitalização listadas nos Estados Unidos. Com cerca de 600 constituintes, 
+oferece exposição ao mercado americano de forma semelhante ao S&P 500, 
+com TER competitivo e estrutura acumulativa.
+AUM (USD MM): 7.783
+Taxa Adm.: 0,05%
+SPYL SPDR S&P 500 UCITS ETF (Acc)
+Gestora: State Street
+SPYL replica o índice S&P 500, que reúne as 500 maiores empresas americanas 
+por capitalização de mercado, com forte concentração em tecnologia (~30%), 
+financeiro e saúde. Uma das opções de menor TER disponíveis para exposição 
+passiva ao mercado americano em formato UCITS acumulativo.
+AUM (USD MM): 34.373
+Taxa Adm.: 0,03%
+FUSA Fidelity US Quality Income UCITS ETF ACC-USD
+Gestora: Fidelity
+FUSA replica o índice Fidelity US Quality Income, que seleciona empresas do 
+mercado americano com base em métricas de qualidade (ROE, endividamento, 
+estabilidade de lucros) e dividendos sustentáveis. Combina fator quality com 
+geração de renda, resultando em portfólio defensivo com viés de value dentro 
+do universo do S&P 500.
+AUM (USD MM): 1.705
+Taxa Adm.: 0,25%
+SPY4 State Street SPDR S&P 400 U.S. Mid Cap UCITS ETF USD Unhedged (Acc)
+Gestora: State Street
+SPY4 replica o índice S&P MidCap 400, que cobre empresas americanas de 
+médio porte com capitalização entre aproximadamente US$ 3 bi e US$ 14 bi. 
+Historicamente associado a maior crescimento que o S&P 500 com mais 
+volatilidade, servindo como complemento a carteiras com exposição a large 
+caps americanas.
+AUM (USD MM): 5.256
+Taxa Adm.: 0,30%
+[p. 24]
+UCITS ETFs – Ações EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+DGRA WisdomTree US Quality Dividend Growth UCITS ETF USD Acc
+Gestora: WisdomTree
+DGRA replica o índice WisdomTree US Quality Dividend Growth, selecionando 
+empresas americanas que combinam alta qualidade (ROE e ROA elevados) 
+com crescimento projetado de lucros e histórico consistente de pagamento de 
+dividendos. Portfólio de compounders americanos com viés de longo prazo.
+AUM (USD MM): 839
+Taxa Adm.: 0,33%
+QGRW WisdomTree US Quality Growth UCITS ETF USD Unhedged Acc
+Gestora: WisdomTree
+QGRW replica o índice WisdomTree US Quality Growth, focando em empresas 
+americanas de alta qualidade e crescimento acelerado de lucros sem exigência 
+de dividendo. Resultado é um portfólio de crescimento puro com filtro de 
+qualidade.
+AUM (USD MM): 29
+Taxa Adm.: 0,33%
+[p. 25]
+UCITS ETFs – Ações Europa
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+EMUU iShares MSCI EMU USD Hedged UCITS ETF (Acc)
+Gestora: BlackRock
+EMUU oferece exposição a ações da zona do euro com hedge cambial para 
+dólar. Inclui empresas de Alemanha, França, Itália, Holanda, Espanha e Áustria 
+em setores como tecnologia, financeiro, industrial, saúde e consumo. O hedge 
+elimina risco cambial, permitindo capturar apenas desempenho das ações.
+AUM (USD MM): 264
+Taxa Adm.: 0,38%
+HEDK WisdomTree Europe Equity UCITS ETF
+Gestora: WisdomTree
+HEDK oferece exposição a ações de mercados desenvolvidos da Europa 
+Ocidental, cobrindo Alemanha, Reino Unido, França, Suíça, Holanda, Itália e 
+Espanha. Diversificado em tecnologia, financeiro, industrial, consumo, saúde, 
+energia e utilities, com estratégia de ponderação que reduz concentração nas 
+maiores companhias, distribuindo impacto de forma equilibrada.
+AUM (USD MM): 97
+Taxa Adm.: 0,58%
+ISFD iShares Core FTSE 100 UCITS ETF
+Gestora: BlackRock
+ISFD replica o FTSE 100 reunindo 100 maiores empresas britânicas de setores 
+como financeiro, energia, consumo, farmacêutica e mineração. Inclui blue 
+chips como HSBC, Barclays, Shell, BP, Unilever e AstraZeneca. Conhecido por 
+dividend yields elevados e exposição a multinacionais, apropriado para renda 
+via dividendos e exposição britânica.
+AUM (USD MM): 15.073
+Taxa Adm.: 0,20%
+MEUS Amundi Core Stoxx Europe 600 ETF ACC
+Gestora: Amundi
+MEUS busca replicar o desempenho do índice STOXX Europe 600, que reúne as 
+600 maiores empresas de 17 países europeus desenvolvidos, promovendo 
+diversificação setorial e regional. O ETF utiliza replicação física completa, e 
+possui aproximadamente 17% do portfólio alocado nas 10 principais empresas. 
+AUM (USD MM): 17.416
+Taxa Adm.: 0,07%
+[p. 26]
+UCITS ETFs – Ações Europa
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+XEOU Xtrackers MSCI Europe UCITS ETF 2C USD Hedged
+Gestora: Xtrackers
+O XEOU busca seguir o índice MSCI Europe (USD Hedged), reunindo cerca de 
+397 empresas de grande e médio porte dos principais mercados desenvolvidos 
+da Europa, como Alemanha, Reino Unido, França, Suíça e Países Baixo. O 
+portfólio é distribuído por diversos setores: tecnologia, saúde, consumo, 
+energia, indústria e finanças, com as principais alocações representando 
+aproximadamente 19% da carteira.
+AUM (USD MM): 8.681
+Taxa Adm.: 0,30%
+XMED Xtrackers MSCI Europe UCITS ETF 1C
+Gestora: Xtrackers
+XMED visa acompanhar o índice MSCI Europe, reunindo cerca de 400 empresas 
+de grande e médio porte de 15 países desenvolvidos do continente europeu. A 
+composição abrange vários setores, incluindo tecnologia, saúde, consumo, 
+energia, indústria e finanças, com peso significativo nos mercados de Alemanha, 
+Reino Unido, França, Suíça.
+AUM (USD MM): 8.681
+Taxa Adm.: 0,12%
+AVGC Avantis Global Equity UCITS ETF
+Gestora: Avantis
+AVGC é um fundo ativamente gerido que visa valorização de capital de longo 
+prazo através de investimentos em ações de empresas de mercados 
+desenvolvidos globalmente. Utiliza o MSCI World IMI como benchmark e 
+investe em companhias de todos os portes de capitalização, priorizando 
+aquelas com valuations mais atrativos e índices de rentabilidade superiores. A 
+carteira mantém cerca de 3.200 posições com forte concentração nos EUA 
+(70%), seguido por Japão, Reino Unido e Canadá.
+AUM (USD MM): 467
+Taxa Adm.: 0,22%
+AVGS Avantis Global Small Cap Value UCITS ETF
+Gestora: Avantis
+AVGS é um ETF de gestão ativa que busca valorização de capital no longo prazo 
+investindo em ações de pequenas empresas de mercados desenvolvidos ao 
+redor do mundo. A estratégia dá ênfase a companhias com baixo valor de 
+mercado e alta lucratividade, visando superar o desempenho do índice MSCI 
+World Small Cap Value ao compor o portfólio.
+AUM (USD MM): 1.041
+Taxa Adm.: 0,39%
+[p. 27]
+UCITS ETFs – Ações Globais
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+EXUS Xtrackers MSCI World ex USA UCITS ETF
+Gestora: Xtrackers
+EXUS acompanha a performance de empresas de mercados desenvolvidos 
+globais, excluindo os Estados Unidos. A carteira reúne companhias de grande e 
+médio porte em países como Japão, Reino Unido, Alemanha, França, Canadá e 
+Austrália, entre outros. Com isso, o ETF reduz a concentração no mercado 
+norte-americano e amplia a diversificação em diferentes geografias e setores 
+das demais economias desenvolvidas.
+AUM (USD MM): 5.861
+Taxa Adm.: 0,15%
+FWRA Invesco FTSE All-World UCITS ETF Acc
+Gestora: Invesco
+FWRA replica o índice FTSE All-World, cobrindo aproximadamente 4.000 
+empresas de grande e média capitalização em mercados desenvolvidos e 
+emergentes. Com concentração em EUA (~60%), Japão e Reino Unido, é um ETF 
+de mercado global amplo.
+AUM (USD MM): 3.187
+Taxa Adm.: 0,15%
+HYGN Global X Hydrogen UCITS ETF USD Accumulating
+Gestora: Global X
+HYGN replica o índice Solactive Global Hydrogen v2, investindo em empresas 
+globais envolvidas na cadeia de valor do hidrogênio — produção, 
+armazenamento, transporte, células de combustível e tecnologias de eletrólise. 
+Fundo temático de alto risco, voltado para investidores com visão de longo 
+prazo na transição energética.
+AUM (USD MM): 20
+Taxa Adm.: 0,50%
+IFSW Ishares IV PLC ISHARES EDGE MSCI WRLD MULTIFACT UCITS
+Gestora: BlackRock
+IFSW acompanha o índice STOXX Developed World Equity Factor Screened, 
+combinando múltiplos fatores de investimento — valor, momentum, qualidade e 
+tamanho — em uma única solução global. Investe em ações de grande 
+capitalização de mercados desenvolvidos, com exposição predominante nos 
+EUA (66%), seguido por Eurozona, Japão e Canadá. Os principais setores 
+incluem tecnologia (28%), serviços financeiros (21%) e consumo cíclico (12%).
+AUM (USD MM): 781
+Taxa Adm.: 0,30%
+[p. 28]
+UCITS ETFs – Ações Globais
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IMID SPDR MSCI All Country World Investable Market UCITS ETF (Acc)
+Gestora: State Street
+IMID replica o índice MSCI ACWI IMI (Investable Market Index), cobrindo 
+empresas de grande, média e pequena capitalização em mercados 
+desenvolvidos e emergentes, com aproximadamente 9.000 constituintes. 
+Oferece a cobertura mais ampla disponível em um único ETF, representando 
+cerca de 99% da capitalização global ajustável.
+AUM (USD MM): 5.240
+Taxa Adm.: 0,17%
+IQSA Invesco Global Active ESG Equity UCITS ETF Acc
+Gestora: Invesco
+IQSA é uma opção de gestão ativa que busca exposição global a ações de 
+empresas com práticas ESG (ambientais, sociais e de governança) e potencial 
+de crescimento sustentável. O ETF é gerido pela Invesco, com uma abordagem 
+que combina análise fundamentalista e critérios ESG para selecionar 
+companhias de diversos setores e regiões.
+AUM (USD MM): 2.148
+Taxa Adm.: 0,30%
+ISAC ISHARES MSCI ACWI
+Gestora: BlackRock
+ISAC acompanha o MSCI ACWI com aproximadamente 3.000 ações de 
+mercados desenvolvidos e emergentes. Oferece exposição verdadeiramente 
+global a países como Estados Unidos, Japão, Alemanha, Reino Unido, China, 
+Índia e Brasil. A diversificação setorial inclui tecnologia, financeiro, saúde, 
+consumo e industrial, capturando crescimento dos emergentes sem abrir mão 
+da estabilidade dos desenvolvidos.
+AUM (USD MM): 27.227
+Taxa Adm.: 0,20%
+IGDA Invesco Dow Jones Islamic Global Developed Markets UCITS ETF Acc
+Gestora: BlackRock
+IGDA replica o índice Dow Jones Islamic Market Developed Markets, composto 
+por empresas de mercados desenvolvidos que atendem aos critérios de 
+conformidade Sharia — excluindo setores como álcool, tabaco, armas, 
+serviços financeiros convencionais e entretenimento adulto. TER de 0,40%, 
+voltado para investidores que buscam diversificação global com filtro religioso 
+islâmico.
+AUM (USD MM): 417
+Taxa Adm.: 0,12%
+[p. 29]
+UCITS ETFs – Ações Globais
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IWDA iShares Core MSCI World UCITS ETF
+Gestora: BlackRock
+IWDA replica o MSCI World Index de 23 países desenvolvidos com mais de 
+1.500 ativos. Possui forte exposição em Estados Unidos, Japão, Reino Unido, 
+Suíça e Alemanha, distribuído em setores como tecnologia, saúde, financeiro e 
+consumo. A política de acumulação reinveste automaticamente dividendos, 
+amplificando o potencial de retorno composto no longo prazo com custos 
+operacionais reduzidos.
+AUM (USD MM): 128.828
+Taxa Adm.: 0,20%
+IWMO iShares Edge MSCI World Momentum Factor UCITS ETF
+Gestora: BlackRock
+O IWMO busca acompanhar a performance do índice MSCI World Momentum, 
+selecionando ações de países desenvolvidos com forte tendência de alta nos 
+preços nos últimos períodos. O portfólio abrange empresas de grande e médio 
+porte de 23 mercados desenvolvidos, utilizando a estratégia de fator 
+momentum para privilegiar nomes que vêm se destacando pelo desempenho 
+recente, refletindo movimentos de mercado e tendências de investimento.
+AUM (USD MM): 3.971
+Taxa Adm.: 0,25%
+IWQU iShares Edge MSCI World Quality Factor UCITS ETF
+Gestora: BlackRock
+IWQU busca replicar o desempenho do índice MSCI World Quality Factor, 
+composto por ações globais de empresas de alta qualidade, com métricas 
+consistentes de rentabilidade, baixo endividamento e estabilidade de lucros. 
+O ETF oferece exposição passiva a mercados desenvolvidos e tende a 
+concentrar maior peso em setores defensivos e de tecnologia.
+AUM (USD MM): 4.463
+Taxa Adm.: 0,25%
+IWVL iShares Edge MSCI World Value Factor UCITS ETF
+Gestora: BlackRock
+IWVL proporciona exposição global a ações de grandes e médias empresas com 
+perfil de valor. O ETF segue o índice MSCI World Value Factor, que reúne 
+companhias de países desenvolvidos consideradas subavaliadas pelos 
+fundamentos. O fundo utiliza replicação física e gestão passiva, oferecendo 
+diversificação setorial e foco em empresas financeiramente sólidas.
+AUM (USD MM): 5.991
+Taxa Adm.: 0,25%
+[p. 30]
+UCITS ETFs – Ações Globais
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+JEGA JPMorgan Global Equity Premium Income Active UCITS ETF
+Gestora: JPMorgan
+O JEGA possui uma estratégia de gestão ativa de ações globais, com uma 
+filosofia de investimento fundamentalista, busca manter um portfólio 
+diversificado e com baixa volatilidade. Sua maior exposição setoria é 
+tecnologia com 19% do portfolio seguido pelo setor financeiro com quase 16%. 
+Já por região, os EUA representam 69% do portfolio enquanto Japão 11%. A taxa 
+de administração é de 0,35% ao ano.
+AUM (USD MM): 1.522
+Taxa Adm.: 0,35%
+MVOL iShares Edge MSCI World Minimum Volatility UCITS ETF
+Gestora: BlackRock
+MVOL é destinado a investidores que buscam exposição ao mercado acionário 
+global com foco em baixa volatilidade. O ETF replica o MSCI World Minimum 
+Volatility Index, composto por empresas de países desenvolvidos que 
+historicamente apresentam menor oscilação de preços. Utiliza replicação física 
+e gestão passiva, visando reduzir o risco total da carteira global.
+AUM (USD MM): 3.345
+Taxa Adm.: 0,30%
+SWRD SPDR MSCI World UCITS ETF
+Gestora: SPDR
+SWRD busca replicar o desempenho do índice MSCI World, composto por 
+ações de large e mid caps de 23 países desenvolvidos, proporcionando uma 
+exposição global diversificada e gestão passiva. O ativo utiliza replicação 
+física e possui um portfólio diversificado, com maior peso no setor de 
+tecnologia e em empresas da América do Norte.
+AUM (USD MM): 17.782
+Taxa Adm.: 0,12%
+VHVE FTSE Developed World UCITS ETF - (USD) Accumulating
+Gestora: Vanguard
+O VHVE acompanha a performance das principais empresas dos mercados 
+desenvolvidos (com maior exposição nos EUA), buscando acompanhar o índice 
+FTSE Developed. A carteira é composta por ações de grande e médio porte em 
+países da América do Norte, Europa e Ásia-Pacífico, cobrindo setores variados 
+como tecnologia, financeiro, industrial e consumo.
+AUM (USD MM): 9.859
+Taxa Adm.: 0,12%
+[p. 31]
+UCITS ETFs – Ações Globais
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+VWRA FTSE All-World UCITS ETF - (USD) Accumulating
+Gestora: Vanguard
+VWRA acompanha o índice FTSE All-World com aproximadamente 4.000 
+ativos de mercados desenvolvidos e emergentes. A maior exposição geográfica 
+concentra-se nos Estados Unidos (cerca de 60%), seguido por Japão, Reino 
+Unido, China e Índia. O fundo adota política de acumulação de dividendos, 
+reinvestindo automaticamente os proventos. É ideal para investidores que 
+buscam exposição global máxima com simplicidade e diversificação em um 
+único instrumento.
+AUM (USD MM): 59.105
+Taxa Adm.: 0,19%
+WDSC SPDR® MSCI World Small Cap UCITS ETF
+Gestora: State Street
+O WDSC busca acompanhar o índice MSCI World Small Cap. O índice MSCI 
+World Small Cap acompanha empresas de pequeno porte em mercados de 
+ações desenvolvidos em todo o mundo. A maior concentração é nos Estados 
+Unidos, seguidos por Japão e Reino Unido.
+AUM (USD MM): 1.727
+Taxa Adm.: 0,45%
+WSML ISHARES MSCI WLD SMALL CAP
+Gestora: BlackRock
+WSML oferece exposição a small caps de países desenvolvidos, replicando seu 
+benchmark, MSCI World Small Cap Index, que possui 60% de exposição aos 
+EUA, seguido por Japão com 13%. O setor com maior representatividade é o 
+industrial com cerca de 20%, seguido pelo financeiro com 15%. O veículo é de 
+acumulação, possui um beta de 1 e uma taxa de administração de 0,35% ao 
+ano.
+AUM (USD MM): 7.499
+Taxa Adm.: 0,35%
+ICOM iShares Diversified Commodity Swap UCITS ETF
+Gestora: BlackRock
+ICOM replica o índice Bloomberg Commodity via contratos de swap (replicação 
+sintética), oferecendo exposição diversificada a uma cesta ampla de 
+commodities — energia, metais e agrícolas. Estrutura de accumulation sem 
+necessidade de rolar futuros diretamente, adequado como hedge de inflação e 
+diversificador de portfólio.
+AUM (USD MM): 2.437
+Taxa Adm.: 0,19%
+[p. 32]
+UCITS ETFs – Ações Globais
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+VHYA FTSE All-World High Dividend Yield UCITS ETF
+Gestora: Vanguard
+VHYA replica o índice FTSE All-World High Dividend Yield, que seleciona 
+empresas de mercados desenvolvidos e emergentes com dividend yield 
+previsto acima da média. Portfólio com viés de value e defensive yield, 
+complementar a ETFs de crescimento, com ampla diversificação geográfica e 
+setorial.
+AUM (USD MM): 11.165
+Taxa Adm.: 0,29%
+GGRA WISDOMTREE GLOBAL QUALITY DIVIDEND GROWTH UCITS ETF - USD   ACC
+Gestora: WisdomTree
+GGRA replica o índice WisdomTree Global Quality Dividend Growth, 
+selecionando empresas de mercados desenvolvidos globais com base em ROE 
+elevado, ROA superior e crescimento esperado de lucros — com ponderação 
+pelo dividendo. Combina qualidade e crescimento de dividendos em uma 
+estratégia multifatorial com viés de compounders de longo prazo.
+AUM (USD MM): 1.510
+Taxa Adm.: 0,38%
+ACWD State Street SPDR MSCI All Country World UCITS ETF USD Unhedged (Acc)
+Gestora: State Street
+ACWD replica o índice MSCI ACWI (All Country World Index), cobrindo cerca 
+de 2.900 empresas de grande e média capitalização em 23 mercados 
+desenvolvidos e 24 emergentes, sem hedge cambial em USD. Referência global 
+de ampla diversificação, utilizado como núcleo (core) de portfólios 
+internacionais.
+AUM (USD MM): 11.111
+Taxa Adm.: 0,12%
+SAWD iShares MSCI World Screened UCITS ETF USD (Acc)
+Gestora: BlackRock
+SAWD replica o índice MSCI World ESG Screened, que parte do universo do 
+MSCI World e exclui empresas envolvidas em controvérsias ESG graves, armas 
+polêmicas e tabaco. Mantém perfil de retorno próximo ao MSCI World com 
+filtros ambientais e sociais básicos, sem tilts de fator significativos.
+AUM (USD MM): 6.271
+Taxa Adm.: 0,20%
+[p. 33]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+CIBR First Trust Nasdaq® Cybersecurity UCITS ETF
+Gestora: First Trust
+CIBR concentra exposição em líderes globais de cibersegurança como Palo 
+Alto Networks, CrowdStrike, Fortinet e Cloudflare. Inclui fornecedores de 
+software e serviços de proteção digital, detecção de ameaças e segurança em 
+nuvem. Ideal para investidores convencidos na crescente demanda por 
+proteção cibernética.
+AUM (USD MM): 1.216
+Taxa Adm.: 0,60%
+DAPP VanEck Crypto and Blockchain Innovators UCITS ETF
+Gestora: VanEck
+DAPP replica o índice MVIS Global Digital Assets Equity, que acompanha 
+empresas globais ativas no ecossistema blockchain e criptoativos — incluindo 
+plataformas de ativos digitais, infraestrutura de blockchain e mineradoras de 
+criptomoedas. Veículo de alta volatilidade com TER de 0,65%, adequado para 
+exposição especulativa ao setor cripto via ações listadas.
+AUM (USD MM): 484
+Taxa Adm.: 0,65%
+GRDU First Trust Nasdaq® Clean Edge® Smart Grid Infrastructure UCITS ETF
+Gestora: First Trust
+GRDU concentra exposição em infraestrutura de redes elétricas inteligentes e 
+transição energética. Inclui companhias globais de tecnologia limpa, energia 
+renovável, armazenamento e automação energética. Alinhado com tendências 
+de eletrificação e descarbonização, apropriado para investidores convencidos 
+no crescimento acelerado de energia limpa.
+AUM (USD MM): 1.611
+Taxa Adm.: 0,63%
+KWEB KraneShares CSI China Internet UCITS ETF USD
+Gestora: KraneShares
+KWEB replica o índice CSI Overseas China Internet, investindo em empresas 
+chinesas de internet listadas em bolsas internacionais — incluindo gigantes 
+como Alibaba, Tencent, JD.com, Meituan e PDD. TER de 0,75%, com alta 
+sensibilidade ao ambiente regulatório da China e à recuperação do consumo 
+doméstico.
+AUM (USD MM): 607
+Taxa Adm.: 0,75%
+[p. 34]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IUES iShares S&P 500 Energy Sector UCITS ETF (Acc)
+Gestora: BlackRock
+IUES replica o índice S&P 500 Capped Energy Sector, investindo em empresas 
+do setor de energia que compõem o S&P 500 — incluindo petróleo, gás, 
+equipamentos e serviços de energia. Exposição setorial concentrada nos EUA, 
+sensível ao ciclo de commodities e preço do petróleo.
+AUM (USD MM): 1.631
+Taxa Adm.: 0,15%
+IUHC iShares S&P 500 Health Care Sector UCITS ETF
+Gestora: BlackRock
+O iShares S&P 500 Health Care Sector UCITS ETF (IUHC) busca replicar o índice 
+S&P 500 Capped 35/20 Health Care Index, que acompanha empresas do setor 
+de saúde dos EUA. Possui taxa de administração de 0,15% ao ano. Dentre os 
+principais segmento dentro do setor de saúde estão: farmacêuticas com 30,7% 
+seguida por equipamentos de saúde com 22,76%.
+AUM (USD MM): 2.658
+Taxa Adm.: 0,15%
+IUIT iShares S&P 500 Information Technology Sector UCITS ETF
+Gestora: BlackRock
+IUIT busca acompanharo desempenho do setor de tecnologia do S&P 500, 
+reunindo ações de empresas americanas líderes em inovação, hardware, 
+software, semicondutores e serviços de TI. O índice S&P 500 Capped 35/20 
+Information Technology orienta a composição da carteira, limitando o peso 
+das empresas mais representativas e diversificando a exposição entre ativos 
+do segmento.
+AUM (USD MM): 14.060
+Taxa Adm.: 0,15%
+IUUS iShares S&P 500 Utilities Sector UCITS ETF
+Gestora: BlackRock
+IUUS oferece exposição ao setor utilities do S&P 500, focando em empresas 
+americanas fornecedoras de energia, gás, água e serviços essenciais. Inclui 
+concessionárias como NextEra Energy, Duke Energy e Southern Company.
+AUM (USD MM): 1.161
+Taxa Adm.: 0,15%
+[p. 35]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+QNTM VanEck Quantum Computing UCITS ETF A
+Gestora: VanEck
+QNTM replica o índice MVIS Global Quantum Computing, investindo em 
+empresas globais envolvidas no desenvolvimento de hardware, software e 
+serviços de computação quântica. Fundo temático de alta concentração e 
+volatilidade elevada, posicionado para investidores com horizonte de longo 
+prazo na fronteira tecnológica.
+AUM (USD MM): 500
+Taxa Adm.: 0,55%
+REMX VanEck Rare Earth and Strategic Metals UCITS ETF A
+Gestora: VanEck
+REMX replica o índice MVIS Global Rare Earth/Strategic Metals, que rastreia as 
+maiores e mais líquidas empresas do setor de mineração de terras raras e 
+metais estratégicos (lítio, cobalto, nióbio, etc.) globalmente. TER de 0,59%, com 
+exposição a insumos críticos para a transição energética e indústria de 
+semicondutores.
+AUM (USD MM): 1.237
+Taxa Adm.: 0,59%
+SBIO Invesco Nasdaq Biotech UCITS ETF
+Gestora: Invesco
+SBIO replica o índice Nasdaq Biotechnology, cobrindo empresas de 
+biotecnologia e farmacêuticas listadas na Nasdaq classificadas como biotech 
+pelo SIC. Portfólio de alta concentração em empresas de P&D com risco 
+binário elevado associado a aprovações regulatórias de medicamentos.
+AUM (USD MM): 422
+Taxa Adm.: 0,40%
+SMH VanEck Semiconductor UCITS ETF
+Gestora: VanEck
+O SMH busca replicar o desempenho do índice MVIS US Listed Semiconductor 
+10% Capped ESG, reunindo as principais empresas mundiais do segmento de 
+semicondutores listadas nos EUA. A carteira é composta por cerca de 25 
+companhias de grande porte envolvidas na produção de chips e equipamentos 
+para a indústria,
+AUM (USD MM): 4.692
+Taxa Adm.: 0,35%
+[p. 36]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+URNU GLOBAL X URANIUM UCITS ETF
+Gestora: Global X
+URNU replica o índice Solactive Global Uranium & Nuclear Components Select, 
+investindo em empresas da cadeia de valor do urânio — extração, 
+enriquecimento e componentes nucleares.
+AUM (USD MM): 644
+Taxa Adm.: 0,65%
+USPY L&G Cyber Security UCITS ETF
+Gestora: L&G
+USPY visa acompanhar o índice ISE Cyber Security®, reunindo empresas globais 
+focadas em tecnologia, software e serviços de proteção digital. A carteira conta 
+com cerca de 34 a 41 companhias, majoritariamente dos Estados Unidos,
+AUM (USD MM): 2.609
+Taxa Adm.: 0,69%
+VPN Global X Data Center REITs & Digital Infrastructure UCITS ETF USD 
+Accumulating
+Gestora: Global X
+VPN replica o índice Solactive Data Center REITs & Digital Infrastructure, 
+investindo em REITs e empresas de infraestrutura digital global — data centers, 
+torres de telecomunicações, fibra óptica e redes de cabos. Exposição híbrida 
+entre imóveis e tecnologia, beneficiando-se do crescimento em computação 
+em nuvem e IA.
+AUM (USD MM): 191
+Taxa Adm.: 0,50%
+WFIN SPDR® MSCI World Financials UCITS ETF
+Gestora: State Street
+WFIN busca acompanhar o índice MSCI World Financials, agregando ações de 
+cerca de 230 empresas do setor financeiro em mercados desenvolvidos. O 
+portfólio é diversificado globalmente, mas tem forte presença nos Estados 
+Unidos (cerca de 55%), seguido por Canadá, Japão e Reino Unido. 
+AUM (USD MM): 307
+Taxa Adm.: 0,30%
+[p. 37]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+WTAI WisdomTree Artificial Intelligence UCITS ETF – USD Acc
+Gestora: WisdomTree
+WTAI replica o índice WisdomTree Artificial Intelligence & Innovation, 
+investindo em empresas globais que desenvolvem ou se beneficiam de 
+tecnologias de inteligência artificial — incluindo infraestrutura, software, 
+robótica e aplicações de IA. Portfólio temático com viés de crescimento e alta 
+concentração em tecnologia.
+AUM (USD MM): 974
+Taxa Adm.: 0,40%
+XAID Xtrackers (IE) PLC ARTFCL INTEL&BIG DATA UCITS ETF1CUSD ACC
+Gestora: Xtrackers
+XAID replica o Nasdaq Global Artificial Intelligence and Big Data Index, 
+investindo em empresas de grande, média e pequena capitalização de 
+mercados desenvolvidos e emergentes com exposição relevante a inteligência 
+artificial, big data e cibersegurança. O índice seleciona até 100 companhias com 
+base em critérios ESG, proporcionando acesso temático a uma das tendências 
+tecnológicas mais transformadoras da atualidade.
+AUM (USD MM): 6.184
+Taxa Adm.: 0,35%
+XDWH Xtrackers (IE) PLC X MSCI WORLD HEALTH
+Gestora: Xtrackers
+XDWH acompanha o MSCI World Health Care Total Return Net Index, 
+proporcionando exposição concentrada ao setor de saúde global. Inclui 
+empresas farmacêuticas, de biotecnologia, equipamentos médicos e serviços 
+de saúde de mercados desenvolvidos, com forte concentração nos EUA (72%) e 
+presença relevante na Europa e Japão. Ideal para posicionamento defensivo 
+com exposição a um setor de crescimento estrutural.
+AUM (USD MM): 3.292
+Taxa Adm.: 0,25%
+XDWI Xtrackers (IE) PLC MSCI WLD INDUSTRIALS UCITS ETF 1C
+Gestora: Xtrackers
+XDWI replica o MSCI World Industrials Total Return Net Index, oferecendo 
+exposição ao setor industrial de mercados desenvolvidos globalmente. A 
+composição abrange fabricantes de equipamentos, empresas aeroespaciais, de 
+defesa, transporte e serviços industriais. Principais posições incluem GE 
+Aerospace, Caterpillar, RTX e Siemens, com diversificação geográfica entre 
+EUA (55%), Eurozona (16%) e Japão (12%).
+AUM (USD MM): 869
+Taxa Adm.: 0,25%
+[p. 38]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+XDWS Xtrackers (IE) PLC MSCI WLD CONS STAPLES UCITS ETF 1C
+Gestora: Xtrackers
+XDWS segue o MSCI World Consumer Staples Total Return Net Index, 
+concentrando exposição em empresas de bens de consumo essenciais de 
+mercados desenvolvidos. Inclui gigantes do setor como Walmart, Costco, 
+Procter & Gamble, Coca-Cola e Nestlé. É uma opção defensiva para momentos 
+de volatilidade, dado o caráter não-cíclico do consumo básico.
+AUM (USD MM): 819
+Taxa Adm.: 0,25%
+XDWT Xtrackers (IE) PLC MSCI WLD INFO TECHNOLOGY UCITS ETF 1C
+Gestora: Xtrackers
+XDWT acompanha o MSCI World Information Technology Index, 
+proporcionando exposição concentrada ao setor de tecnologia de mercados 
+desenvolvidos. O portfólio inclui líderes globais como Apple, Microsoft, Nvidia e 
+semicondutoras, com predominância dos EUA na composição. Adequado para 
+investidores com horizonte de longo prazo e apetite por crescimento e 
+volatilidade elevados.
+AUM (USD MM): 4.685
+Taxa Adm.: 0,25%
+XGEN Xtrackers MSCI Genomic Healthcare Innovation UCITS ETF 1C
+Gestora: Xtrackers
+XGEN é temático focado em inovação em saúde genômica e biotecnologia 
+avançada. Inclui empresas em edição genética, terapia gênica, diagnósticos 
+avançados e bioinformática. Captura exposição a uma das áreas de maior 
+potencial em medicina moderna com diversificação geográfica, apropriado 
+para visão de longo prazo em avanços tecnológicos.
+AUM (USD MM): 9
+Taxa Adm.: 0,30%
+XRES Invesco Real Estate S&P US Select Sector UCITS ETF Acc
+Gestora: Invesco
+XRES replica o S&P Select Sector Capped 20% Real Estate Index, oferecendo 
+exposição concentrada ao setor imobiliário americano através de REITs (Real 
+Estate Investment Trusts) e empresas de real estate. A metodologia limita 
+posições individuais a 20% para manter diversificação adequada. Proporciona 
+acesso ao mercado imobiliário dos EUA de forma líquida e eficiente, capturando 
+renda de aluguéis e valorização de propriedades.
+AUM (USD MM): 144
+Taxa Adm.: 0,14%
+[p. 39]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+XWTS Xtrackers (IE) PLC X MSCI WORLD COM SERVICES UCITS ETF 1C
+Gestora: Xtrackers
+XWTS replica o MSCI World Communication Services 20/35 Custom Index, 
+oferecendo exposição ao setor de serviços de comunicação global. O índice é 
+altamente concentrado em gigantes de mídia e internet como Alphabet (32% 
+das posições entre classes A e C), Meta (16%) e Netflix (9%), além de empresas 
+tradicionais de telecomunicações. Reflete a convergência entre mídia, 
+entretenimento e tecnologia digital.
+AUM (USD MM): 487
+Taxa Adm.: 0,25%
+JEDI VanEck Space Innovators UCITS ETF
+Gestora: VanEck
+JEDI replica o índice MVIS Global Space Industries, investindo em empresas 
+globais com exposição à economia espacial — manufatura de satélites, 
+lançadores, comunicações por satélite, exploração espacial e defesa 
+aeroespacial. Fundo temático de nicho com perfil de crescimento de longo 
+prazo e elevada volatilidade.
+AUM (USD MM): 1.230
+Taxa Adm.: 0,55%
+COPX Global X Copper Miners UCITS ETF USD Accumulating
+Gestora: Global X
+COPX replica o índice Solactive Global Copper Miners, investindo em 
+empresas globais envolvidas na exploração, mineração e refino de cobre. TER 
+de 0,55%, com alta exposição à China como principal demandante e ao ciclo 
+de commodities industriais; beneficiado pela eletrificação e infraestrutura 
+verde.
+AUM (USD MM): 1.000
+Taxa Adm.: 0,55%
+URNM SPROTT URANIUM MINERS UCITS ETF ACC
+Gestora: Sprott
+URNM replica o índice North Shore Global Uranium Mining, investindo 
+exclusivamente em mineradoras de urânio puras (pure-play) globalmente — sem 
+empresas de energia nuclear diversificadas. Portfólio mais concentrado e volátil 
+que o NUCL, com maior sensibilidade ao ciclo de preços do urânio físico.
+AUM (USD MM): 371
+Taxa Adm.: 0,85%
+[p. 40]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IUFS ISHARES S&P 500 FINANCIALS SECTOR UCT ETF USD ACC
+Gestora: BlackRock
+IUFS replica o índice S&P 500 Capped Financials Sector, investindo em 
+empresas financeiras que compõem o S&P 500 — bancos, seguradoras, 
+gestoras de ativos e fintechs. Exposição setorial concentrada nos EUA, sensível 
+ao ciclo de crédito, curva de juros e regulação bancária.
+AUM (USD MM): 2.051
+Taxa Adm.: 0,15%
+DFNS VANECK DEFENSE UCITS ETF USD ACC
+Gestora: VanEck
+DFNS replica o índice MVIS Global Defense, investindo em empresas globais do 
+setor de defesa e segurança — fabricantes de aeronaves militares, mísseis, 
+cibersegurança e tecnologia de defesa. TER de 0,55%, beneficiado pelo 
+aumento dos gastos com defesa nos países da OTAN e escalada de tensões 
+geopolíticas.
+AUM (USD MM): 8.988
+Taxa Adm.: 0,55%
+NUCL VANECK URANIUM AND NUCLEAR TECHNOLOGIES UCITS ETF A
+Gestora: VanEck
+NUCL replica o índice MarketVector Global Uranium and Nuclear Energy 
+Infrastructure, cobrindo 25 empresas envolvidas em toda a cadeia de valor 
+nuclear — mineração de urânio, enriquecimento, construção de usinas e 
+utilities com geração nuclear. TER de 0,55%, posicionado como play na 
+transição energética com base em geração de baixo carbono.
+AUM (USD MM): 2.197
+Taxa Adm.: 0,55%
+XDW0 Xtrackers MSCI World Energy UCITS ETF 1C
+Gestora: Xtrackers
+XDW0 replica o índice MSCI World Energy, investindo em empresas do setor de 
+energia de mercados desenvolvidos — petróleo integrado, gás, refinarias e 
+serviços de energia. Exposição setorial em mercados desenvolvidos globais, 
+sensível ao ciclo do petróleo e às políticas de transição energética.
+AUM (USD MM): 2.272
+Taxa Adm.: 0,25%
+[p. 41]
+UCITS ETFs – Setores e Temáticas
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+ISAG iShares Agribusiness UCITS ETF
+Gestora: BlackRock
+ISAG replica o índice S-Network Global Agri Business, investindo em empresas 
+de todo o agronegócio global — insumos, defensivos, maquinário, 
+processamento de alimentos e distribuição. Vetor de exposição às tendências 
+de segurança alimentar e demanda crescente por proteína em mercados 
+emergentes.
+AUM (USD MM): 547
+Taxa Adm.: 0,55%
+BNKS iShares S&P U.S. Banks UCITS ETF USD (Acc)
+Gestora: BlackRock
+BNKS replica o índice S&P Banks Select Industry, cobrindo bancos comerciais, 
+de investimento e regionais americanos. Exposição concentrada ao setor 
+bancário dos EUA, com sensibilidade direta à curva de juros americana, spreads 
+de crédito e ciclo de concessão de empréstimos.
+AUM (USD MM): 837
+Taxa Adm.: 0,35%
+IAUP iShares Gold Producers UCITS ETF
+Gestora: BlackRock
+IAUP replica o índice S&P Commodity Producers Gold, investindo em 
+mineradoras de ouro de grande e médio porte globalmente. Oferece 
+alavancagem operacional ao preço do ouro — com potencial de retorno 
+superior ao metal físico em cenários de alta, mas também maior volatilidade 
+em quedas.
+AUM (USD MM): 4.542
+Taxa Adm.: 0,55%
+[p. 42]
+UCITS ETFs – Alternativos: Commodities
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+OIHV VanEck Oil Services UCITS ETF A
+Gestora: VanEck
+OIHV replica o índice MVIS Global Oil Services, investindo em empresas 
+globais de serviços de petróleo e gás — perfuração offshore e onshore, 
+equipamentos, geofísica e manutenção de poços. Alta sensibilidade ao nível 
+de capex das petrolíferas e ao ciclo de exploração do setor de E&P.
+AUM (USD MM): 367
+Taxa Adm.: 0,35%
+ISLN iShares Physical Silver
+Gestora: BlackRock
+O ISLN é uma alternativa para quem quer ter exposição ao preço spot da prata, 
+em dólares.AUM (USD MM): 3.194
+Taxa Adm.: 0,20%
+CMOD Invesco Bloomberg Commodity UCITS ETF Acc
+Gestora: Invesco
+CMOD replica o índice Bloomberg Commodity, que oferece exposição 
+diversificada a uma cesta de commodities via futuros — energia, metais 
+preciosos, industriais e agrícolas com ponderações equilibradas. Serve como 
+hedge contra inflação de matérias-primas e diversificador não correlacionado 
+com ações e bonds.
+AUM (USD MM): 4.530
+Taxa Adm.: 0,19%
+[p. 43]
+UCITS ETFs – Alternativos: Ouro
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IGLN iShares Physical Gold
+Gestora: BlackRock
+O IGLN é uma alternativa para quem quer ter exposição ao preço spot do ouro, 
+em dólares.AUM (USD MM): 37.245
+Taxa Adm.: 0,12%
+[p. 44]
+UCITS ETFs – Mercado Imobiliário
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+DPYA iShares Developed Markets Property Yield UCITS ETF
+Gestora: BlackRock
+DPYA oferece exposição a REITs e operadoras imobiliárias globais 
+diversificado por segmento (escritórios, residencial, varejo, industrial) e região. 
+Maior concentração nos EUA (55-60%), seguida por Japão, Reino Unido, 
+Austrália e Europa. Atraente para renda passiva com exposição a crescimento 
+imobiliário internacional.
+AUM (USD MM): 1.639
+Taxa Adm.: 0,59%
+GLRA SPDR® Dow Jones Global Real Estate UCITS ETF (Acc)
+Gestora: State Street
+GLRA acompanha o índice Dow Jones Global Select Real Estate Securities, 
+reunindo cerca de 224 empresas do setor imobiliário em países desenvolvidos e 
+emergentes. O portfólio é amplamente diversificado em REITs (real estate 
+investment trusts) e operadoras imobiliárias, com presença majoritária nos 
+Estados Unidos, seguidos por Japão e Reino Unido (~3,8%).
+AUM (USD MM): 385
+Taxa Adm.: 0,40%
+[p. 45]
+UCITS ETFs – RF Curto Prazo
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+XFFE Xtrackers USD Overnight Rate Swap UCITS ETF 1C
+Gestora: Xtrackers
+XFFE oferece exposição à taxa de juros overnight em dólar, por meio da 
+replicação do USD Overnight Rate Swap Index. O fundo atua no segmento de 
+renda fixa de curtíssimo prazo, com risco de crédito muito baixo e foco em 
+retornos próximos às taxas de liquidez do mercado monetário norte-
+americano. É um instrumento eficiente para gestão de caixa e preservação de 
+capital.
+AUM (USD MM): 443
+Taxa Adm.: 0,10%
+FLOA iShares $ Floating Rate Bond UCITS ETF
+Gestora: BlackRock
+FLOA investe em títulos corporativos e governamentais americanos de taxa 
+flutuante. Cupons variam com taxas de referência resultando em sensibilidade 
+mínima a variações de juros. Captura spread de crédito protegendo contra risco 
+de duration, apropriado em ambientes de incerteza de taxas.
+AUM (USD MM): 4.590
+Taxa Adm.: 0,10%
+[p. 46]
+UCITS ETFs – RF Emergentes
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+EMCA iShares J.P. Morgan $ EM Corp Bond UCITS ETF
+Gestora: BlackRock
+O EMCA oferece exposição a crédito corporativo de mercados emergentes 
+denominado em USD, replicando o J.P. Morgan CEMBI Broad Diversified Core 
+Index (seu benchmark); é um veículo de acumulação com custo total de 0,50% 
+ao ano. O EMCA oferece diversificação em crédito EM com risco de crédito e 
+duration moderados.
+AUM (USD MM): 2.958
+Taxa Adm.: 0,50%
+JPEA iShares J.P. Morgan $ EM Bond UCITS ETF
+Gestora: BlackRock
+JPEA investe em títulos soberanos de mercados emergentes em dólar incluindo 
+Brasil, México, Indonésia, Tailândia e Polônia. Oferece spread de rendimento 
+significativo frente a Treasuries em troca de risco de crédito e político maiores. 
+Diversificação geográfica reduz concentração, apropriado para yield elevado 
+com exposição emergente controlada.
+AUM (USD MM): 7.412
+Taxa Adm.: 0,45%
+VDEA Vanguard USD Emerging Markets Government Bond UCITS ETF
+Gestora: Vanguard
+VDEA oferece exposição a títulos soberanos de mercados emergentes em dólar 
+com diversificação geográfica ampla. Estratégia de replicação passiva garante 
+custos reduzidos. Captura spread significativo frente a Treasuries com risco 
+emergente moderado, apropriado para renda elevada com custos controlados.
+AUM (USD MM): 1.404
+Taxa Adm.: 0,23%
+EMGA ISHARES J.P. MORGAN EM LOCAL GOVT BOND UCITS ETF USD (ACC)
+Gestora: BlackRock
+EMGA replica o índice J.P. Morgan GBI-EM Global Diversified, que reúne títulos 
+de dívida soberana de mercados emergentes emitidos em moeda local. Oferece 
+exposição ao câmbio e às taxas de juros de países como Brasil, México, 
+Indonésia e África do Sul, com elevado potencial de retorno e risco cambial 
+relevante.
+AUM (USD MM): 5.284
+Taxa Adm.: 0,50%
+[p. 47]
+UCITS ETFs – RF Global
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+CRPA iShares Global Corp Bond UCITS ETF
+Gestora: BlackRock
+CRPA busca acompanhar o índice Bloomberg Global Aggregate Corporate, que 
+reúne títulos de dívidas corporativas de grau de investimento emitidos por 
+companhias de diversos países desenvolvidos e emergentes. O fundo possui 
+cerca de 13.151 ativos em carteira, distribuídos em diversos setores e regiões, 
+com aproximadamente metade alocada nos Estados Unidos.
+AUM (USD MM): 4.258
+Taxa Adm.: 0,20%
+HYLA iShares Global High Yield Corp Bond UCITS ETF
+Gestora: BlackRock
+HYLA oferece exposição global a high yield em dólar, euro e libra de emissores 
+desenvolvidos e emergentes. Portfólio diversificado combina high yield 
+americano, europeu e emergente, reduzindo dependência de economia única. 
+Exposição a múltiplas moedas sem hedge adiciona dimensão cambial, 
+apropriado para investidores sofisticados.
+AUM (USD MM): 2.586
+Taxa Adm.: 0,50%
+JGHY JPMorgan ETFs (Ireland) ICAV - Global High Yield Corporate Bond Multi-Factor 
+Active UCITS ETF
+Gestora: JPMorgan
+JGHY é ativo investindo em títulos corporativos high yield globais com análise 
+multifatorial. O gestor avalia qualidade de crédito, liquidez, valuation e 
+tendências setoriais para superar índices. Aceita risco de crédito elevado em 
+troca de spreads significativos, apropriado para investidores com apetite 
+moderado por risco.
+AUM (USD MM): 279
+Taxa Adm.: 0,35%
+WIAU iShares Fallen Angels High Yield Corp Bond UCITS ETF
+Gestora: BlackRock
+WIAU acompanha o índice Bloomberg Global Corporate ex EM Fallen Angels 3% 
+Capped, reunindo cerca de 194 títulos corporativos de alto rendimento emitidos 
+por empresas de mercados desenvolvidos que foram rebaixadas de grau de 
+investimento para high yield ("fallen angels").
+AUM (USD MM): 848
+Taxa Adm.: 0,50%
+[p. 48]
+UCITS ETFs – RF Global
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+AGGU iShares Core Global Aggregate Bond UCITS ETF
+Gestora: BlackRock
+AGGUacompanha o índice Bloomberg Global Aggregate Bond, que reúne 
+títulos de dívida de grau de investimento emitidos por governos, empresas e 
+instituições supranacionais em mercados desenvolvidos e emergentes. O 
+portfólio é formado por cerca de 18.482 ativos, distribuídos amplamente em 
+diferentes regiões e tipos de emissor.
+AUM (USD MM): 13.597
+Taxa Adm.: 0,10%
+[p. 49]
+UCITS ETFs – RF High Yield Desenvolvidos (ex-EUA)
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+HYGU iShares € High Yield Corp Bond UCITS ETF
+Gestora: BlackRock
+HYGU busca replicar o desempenho de um índice de títulos corporativos de 
+alto rendimento em euros, oferecendo exposição ao mercado de high yield 
+europeu. O ETF investe majoritariamente em dívida corporativa de emissores 
+não investment grade, com gestão passiva e diversificação setorial e 
+geográfica, priorizando o equilíbrio entre risco e rentabilidade.
+AUM (USD MM): 6.790
+Taxa Adm.: 0,55%
+[p. 50]
+UCITS ETFs – RF High Yield EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IHYA iShares $ High Yield Corp Bond UCITS ETF
+Gestora: BlackRock
+IHYA oferece exposição a títulos corporativos high yield em dólar de empresas 
+com rating abaixo de investment grade. Por aceitar risco de crédito maior, 
+oferece spreads de rendimento significativos. Diversificado por setor, prazo e 
+emissor para mitigar risco de default. Apropriado para yield elevado com 
+tolerância moderada a risco.
+AUM (USD MM): 5.544
+Taxa Adm.: 0,50%
+JPHY JPMorgan USD High Yield Bond Active UCITS ETF
+Gestora: JPMorgan
+JPHY é ativo em títulos high yield em dólar usando análise quantitativa e 
+fundamentalista. O gestor identifica oportunidades de crédito atraentes 
+monitorando tendências, saúde financeira de emissores e ciclos econômicos. 
+Apropriado para rendimento elevado com gestor profissional selecionando 
+ativos.
+AUM (USD MM): 341
+Taxa Adm.: 0,45%
+SDHA iShares $ Short Duration High Yield Corp Bond UCITS ETF
+Gestora: BlackRock
+O SDHA oferece exposição a crédito high yield em USD de curta duração (0 a 5 
+anos) ao replicar o Markit iBoxx USD Liquid High Yield 0–5 Capped Index 
+(benchmark); é um veículo de acumulação com custo total de 0,45% ao ano, 
+voltado a capturar prêmio de risco de alto rendimento com menor 
+sensibilidade a juros que curvas longas, mas maior risco de crédito.
+AUM (USD MM): 2.511
+Taxa Adm.: 0,45%
+STYC PIMCO US Short-Term High Yield Corporate Bond UCITS ETF
+Gestora: PIMCO
+STYC é gerido ativamente pela PIMCO e investe em títulos corporativos de high 
+yield denominados em USD com prazo inferior a 5 anos. A estratégia combina 
+análise de crédito proprietária com gestão ativa de duration curta, buscando 
+retorno superior ao ICE BofA 0-5 Year US High Yield Index com menor 
+sensibilidade a taxas de juros.
+AUM (USD MM): 2.065
+Taxa Adm.: 0,55%
+[p. 51]
+UCITS ETFs – RF Investment Grade EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+D28A iShares iBonds Dec 2028 Term $ Corp UCITS ETF
+Gestora: BlackRock
+D28A concentra-se em títulos corporativos em dólares com vencimento em 
+dezembro de 2028, buscando oferecer previsibilidade de rendimentos e 
+gestão de duration. O ETF, parte da linha “iBonds”, combina características de 
+fundos de renda fixa e bonds individuais, replicando uma carteira diversificada 
+de crédito corporativo norte-americano de grau de investimento.
+AUM (USD MM): 1.282
+Taxa Adm.: 0,12%
+ERNA iShares $ Ultrashort Bond UCITS ETF
+Gestora: BlackRock
+ERNA acompanha o Markit iBoxx USD Liquid Investment Grade Ultrashort Index, 
+investindo em títulos corporativos em dólar de grau de investimento com 
+vencimentos de curtíssimo prazo (até 3 anos). Oferece rendimentos superiores 
+aos instrumentos do mercado monetário com risco de crédito muito baixo. É 
+uma ferramenta eficiente para gestão de caixa e preservação de capital com 
+rentabilidade atrelada às taxas americanas de curto prazo.
+AUM (USD MM): 2.407
+Taxa Adm.: 0,09%
+HLQD iShares $ Corp Bond Interest Rate Hedged UCITS ETF
+Gestora: BlackRock
+HLQD replica o Markit iBoxx USD Liquid Investment Grade Interest Rate 
+Hedged Index, investindo em bonds corporativos americanos com grau de 
+investimento enquanto realiza hedge do risco de taxa de juros através de 
+derivativos. Essa estrutura isola o prêmio de crédito corporativo, eliminando a 
+sensibilidade às variações nas taxas de juros. Adequado para investidores que 
+buscam exposição a crédito corporativo sem o risco de duration típico de 
+títulos de renda fixa.
+AUM (USD MM): 188
+Taxa Adm.: 0,25%
+ID29 iShares iBonds Dec 2029 Term $ Corp UCITS ETF
+Gestora: BlackRock
+ID29 concentra-se em títulos corporativos em dólares com vencimento em 
+dezembro de 2029, buscando oferecer previsibilidade de rendimentos e gestão 
+de duration. O ETF investe em títulos corporativos denominados em dólares, de 
+emissores com rating elevado, oferecendo uma estratégia de buy-and-hold e 
+distribuição natural do portfólio ao longo do tempo até o vencimento.
+AUM (USD MM): 508
+Taxa Adm.: 0,12%
+[p. 52]
+UCITS ETFs – RF Investment Grade EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IUAA iShares US Aggregate Bond UCITS ETF
+Gestora: BlackRock
+O IUAA oferece exposição ampla ao mercado de renda fixa de grau de 
+investimento dos EUA ao replicar o Bloomberg US Aggregate Bond Index, 
+cobrindo Treasuries, crédito corporativo e títulos securitizados. Veículo de 
+acumulação com um custo total de 0,25% ao ano.
+AUM (USD MM): 5.984
+Taxa Adm.: 0,25%
+JPSA JPMorgan USD Ultra-Short Income UCITS ETF
+Gestora: JPMorgan
+JPSA oferece exposição a títulos de renda fixa de curtíssimo prazo, com maior 
+concentração nos EUA e no segmento corporativo. O benchmark é o ICE 
+BofAML US 3-Month Treasury Bill e o UCITS adota gestão ativa para buscar 
+retornos superiores nesse segmento de ultra-short duration.
+AUM (USD MM): 988
+Taxa Adm.: 0,18%
+JRUB JPMorgan USD Corporate Bond Research Enhanced Index Active UCITS ETF
+Gestora: JPMorgan
+JRUB é um ETF de gestão ativa que investe em títulos corporativos 
+denominados em USD com grau de investimento, utilizando o índice 
+Bloomberg US Corporate como referência. A estratégia aplica pesquisa 
+fundamentalista da JPMorgan para seleção sistemática de emissores, 
+buscando geração de alfa sobre o benchmark com risco de crédito controlado.
+AUM (USD MM): 75
+Taxa Adm.: 0,04%
+LQDA iShares $ Corp Bond UCITS ETF
+Gestora: BlackRock
+LQDA investe em títulos corporativos em dólar com grau de investimento de 
+empresas globais. Portfólio diversificado abrange curto, médio e longo prazo 
+em setores como financeiro, tecnologia, energia, telecomunicação e consumo. 
+Captura spread de crédito mantendo risco controlado, oferecendo melhor 
+rendimento que Treasuries sem risco high yield extremo.
+AUM (USD MM): 8.732
+Taxa Adm.: 0,20%
+[p. 53]
+UCITS ETFs – RF Investment Grade EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+SDIA iShares $ Short Duration Corp Bond UCITS ETF
+Gestora: BlackRock
+O SDIA oferece exposição a títulos corporativos investment grade em USD com 
+vencimentos de 0 a 5 anos, replicando o iBoxx USD Liquid Investment Grade 
+0–5 Index; é um veículo de acumulação com custo total de aproximadamente 
+0,20% ao ano, voltado para compor caixa tático em crédito de curta duração 
+com menor sensibilidade a juros do que curvas longas.
+AUM (USD MM): 7.989
+Taxa Adm.: 0,20%
+VDCA Vanguard USD Corporate 1-3 Year bond UCITS ETF
+Gestora: Vanguard
+O VAGY oferece exposição a crédito corporativo de grau de investimento em 
+dólar de curto prazo (vencimentos de 1 a 3 anos) ao replicar o Bloomberg Global 
+Aggregate Corporate USD 1–3 Index; é um veículo de acumulação, com custo 
+total de 0,09% ao ano, voltado para gestão de liquidez com menor sensibilidade 
+a juros e ampla diversificação por emissores.
+AUM (USD MM): 2.978
+Taxa Adm.: 0,09%
+VDPA Vanguard USD Corporate Bond UCITS ETF
+Gestora: Vanguard
+VDPA replica títulos corporativos americanos com grau de investimento (BBB- 
+ou superior). Portfólio diversificado inclui bonds de diversos setores, prazos e 
+emissores, capturando o mercado de crédito corporativo americano. Custos 
+operacionais reduzidos via replicação passiva, apropriado para melhorar 
+yields frente a Treasuries.
+AUM (USD MM): 4.466
+Taxa Adm.: 0,07%
+[p. 54]
+UCITS ETFs – RF Investment Grade EUA
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+AT1 INVESCO USD AT1 COCO BOND UCITS ETF ACC
+Gestora: Invesco
+AT1 replica o índice Invesco AT1 Capital Bond, investindo em títulos de capital 
+adicional de nível 1 (AT1/CoCo bonds) emitidos por bancos globais em USD. 
+Instrumentos subordinados de alta rentabilidade com risco de conversão ou 
+absorção de perdas, indicados para investidores que buscam prêmio de 
+crédito bancário acima dos bonds sênior.
+AUM (USD MM): 1.582
+Taxa Adm.: 0,39%
+JAAA Janus Henderson USD AAA CLO Active Core UCITS ETF USD Acc
+Gestora: Janus Henderson
+JAAA é um ETF de gestão ativa da Janus Henderson que investe em tranches 
+AAA de CLOs (Collateralized Loan Obligations) denominados em USD. Oferece 
+rendimento superior ao caixa tradicional com risco de crédito muito baixo 
+(tranche sênior), sendo alternativa atraente ao money market para investidores 
+que toleram baixa iliquidez marginal.
+AUM (USD MM): 252
+Taxa Adm.: 0,25%
+[p. 55]
+UCITS ETFs – RF Tesouro Americano
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+BBTR JPMorgan BetaBuilders US Treasury Bond UCITS ETF
+Gestora: JPMorgan
+BBTR oferece exposição ampla a toda curva de Treasuries americanos 
+cobrindo curto, médio e longo prazo. Portfólio diversificado por duration 
+proporciona exposição equilibrada, capturando movimentos da curva como 
+um todo. Apropriado para exposição genérica sem aposta específica em 
+duração.
+AUM (USD MM): 67
+Taxa Adm.: 0,07%
+CBU0 iShares $ Treasury Bond 7-10yr UCITS ETF
+Gestora: BlackRock
+O CBU0 oferece exposição a Treasuries dos EUA de prazo intermediário 
+(vencimentos entre 7 e 10 anos) ao replicar o ICE U.S. Treasury 7–10 Year Bond 
+Index (benchmark); é um veículo de acumulação com custo total de 0,07% ao 
+ano, adequado para gestão de duration média e como componente defensivo 
+em USD.
+AUM (USD MM): 4.711
+Taxa Adm.: 0,07%
+CBU7 iShares $ Treasury Bond 3-7yr UCITS ETF
+Gestora: BlackRock
+CBU7 oferece exposição a Treasuries com vencimento entre 3 e 7 anos. 
+Proporciona duration médio-curto capturando movimentos de taxa com 
+sensibilidade moderada. Oferece rendimento atraente em Treasuries puras, 
+apropriado para segurança com componente defensivo importante em 
+carteiras.
+AUM (USD MM): 10.195
+Taxa Adm.: 0,07%
+DTLA iShares $ Treasury Bond 20+yr UCITS ETF
+Gestora: BlackRock
+O DTLA oferece exposição a Treasuries dos EUA de longo prazo (vencimentos 
+acima de 20 anos) ao replicar o ICE U.S. Treasury 20+ Years Bond Index 
+(benchmark); é um veículo de acumulação com custo total de 0,07% ao ano. Por 
+focar em vencimentos mais longos, o fundo pode apresentar mais volatilidade.
+AUM (USD MM): 5.507
+Taxa Adm.: 0,07%
+[p. 56]
+UCITS ETFs – RF Tesouro Americano
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+IBTA iShares $ Treasury Bond 1-3yr UCITS ETF
+Gestora: BlackRock
+IBTA oferece exposição a Treasuries com vencimento entre 1 e 3 anos. 
+Proporciona duration intermediária capturando yield superior aos curtos 
+prazos com volatilidade controlada. Apropriado para extrair retorno 
+moderado mantendo segurança de crédito.
+AUM (USD MM): 11.906
+Taxa Adm.: 0,07%
+IDTP iShares $ TIPS UCITS ETF
+Gestora: BlackRock
+O iShares $ TIPS UCITS ETF oferece exposição a títulos do Tesouro dos EUA 
+protegidos contra inflação (TIPS). Ele busca replicar o índice Bloomberg US 
+Government Inflation-Linked Bond Index, investindo diretamente nos títulos. O 
+veículo possui um custo de 0,10%.
+AUM (USD MM): 5.241
+Taxa Adm.: 0,10%
+IMBA iShares US Mortgage Backed Securities UCITS ETF
+Gestora: BlackRock
+IMBA replica o índice Bloomberg US Mortgage Backed Securities, composto 
+por títulos garantidos por hipotecas com grau de investimento emitidos por 
+agências governamentais norte-americanas como Fannie Mae, Freddie Mac e 
+Ginnie Mae. Oferece exposição ao mercado de renda fixa securitizada dos 
+EUA, com risco de crédito baixo devido à garantia implícita do governo 
+americano. É uma alternativa defensiva com duration moderada para carteiras 
+de renda fixa.
+AUM (USD MM): 4.112
+Taxa Adm.: 0,28%
+U03A iShares $ Treasury Bond 0-3 Month UCITS ETF
+Gestora: BlackRock
+U03A oferece exposição a Treasuries americanos com vencimento de 0 a 3 
+meses. Funciona como depósito remunerado em dólar com risco de crédito nulo 
+e volatilidade mínima. Apropriado para gestão de caixa, preservação de capital 
+e componente defensivo, com rendimento próximo às taxas overnight.
+AUM (USD MM): 4.868
+Taxa Adm.: 0,07%
+[p. 57]
+UCITS ETFs – RF Tesouro Americano
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+VDTA Vanguard USD Treasury Bond UCITS ETF
+Gestora: Vanguard
+O VDTA oferece exposição ampla a Treasuries dos EUA em todas os 
+vencimentos ao replicar o Bloomberg Global Aggregate US Treasury Float 
+Adjusted Index (benchmark); é um veículo de acumulação com custo total de 
+0,05% ao ano.
+AUM (USD MM): 2.994
+Taxa Adm.: 0,05%
+XG7U Xtrackers II Global Inflation-Linked Bond UCITS ETF 2C - USD Hedged
+Gestora: Xtrackers
+XG7U replica o índice Bloomberg World Government Inflation-Linked Bond, 
+com hedge cambial para USD, investindo em títulos soberanos indexados à 
+inflação emitidos por governos de países desenvolvidos. Proporciona proteção 
+contra inflação global com eliminação do risco cambial, adequado como 
+componente defensivo em carteiras dolarizadas.
+AUM (USD MM): 852
+Taxa Adm.: 0,25%
+BB3M JPMorgan Betabuilders US Treasury Bond 0-3 Months UCITS ETF
+Gestora: JPMorgan
+BB3M replica Treasuries americanos de até 3 meses com perfil similar ao U03A. 
+Investe em bills do Tesouro de curtíssimo prazo com risco nulo e volatilidade 
+reduzida. Equivalente de caixa remunerado, ideal para segurança absoluta e 
+gestão de liquidez de curto prazo.
+AUM (USD MM): 1.655
+Taxa Adm.: 0,07%
+IB01 iShares $ Treasury Bond 0-1yr UCITS ETF
+Gestora: BlackRock
+IB01 oferece exposição a Treasuries americanos com vencimento até 1 ano. 
+Portfólio inclui bills e notas com duração curta e volatilidade reduzida. Oferece 
+rendimento superior aos ultra-short mantendo risco de crédito nulo, 
+apropriado para segurança com retorno modestamente elevado.
+AUM (USD MM): 25.223
+Taxa Adm.: 0,07%
+[p. 58]
+UCITS ETFs – RF Tesouro Americano
+Dados: 31/mar/2026. Os fundos negociados em bolsa (“ETFs”) estão sujeitos à flutuação do mercado e aos riscos de seus investimentos subjacentes. Ao contrário dos fundos mútuos, as ações do ETF são compradas e vendidas a um preço de mercado, que pode ser superior ou inferior ao 
+seu NAV, e não são resgatadas individualmente do fundo. Fonte: Gestoras. Elaboração: Avenue. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras 
+informações importantes. Leia com atenção antes de investir. Por favor, verifique a última página para avisos importantes. 
+VDST Vanguard U.S. Treasury 0-1 Year Bond UCITS ETF (USD) Accumulating
+Gestora: Vanguard
+O VUCF oferece exposição a títulos do Tesouro dos EUA com vencimentos de 0 
+a 1 ano ao replicar o Bloomberg Short Treasury Index (seu benchmark); é um 
+veículo de acumulação com custo total de 0,05% ao ano, voltado a gestão de 
+caixa e preservação de capital em dólar americano com mínima sensibilidade a 
+juros.
+AUM (USD MM): 6.959
+Taxa Adm.: 0,05%
+[p. 59]
+INFORMAÇÕES IMPORTANTES
+Investir em fundos UCITS envolve riscos. Flutuações do mercado, mudanças econômicas e fatores externos podem afetar os retornos, com possíveis perdas, incluindo a redução do capital investido. Embora os fundos 
+UCITS sejam regulamentados, eles ainda estão sujeitos a riscos como restrições de liquidez, volatilidade do mercado, variações nas taxas de juros e influências geopolíticas. O risco cambial também pode impactar 
+investimentos estrangeiros.
+Os fundos UCITS aqui referidos não estão registrados sob o U.S. Investment Company Act of 1940 e os valores mobiliários emitidos pelos fundos não estão registrados sob o United States Securities Act of 1933. Esta não é 
+uma oferta de venda, nem solicitação de uma oferta de compra, os títulos de qualquer fundo nos Estados Unidos, seus territórios, posses ou protetoras sob sua jurisdição nem para nacionais, cidadãos ou residentes em 
+qualquer uma dessas áreas. Antes de investir, considere os objetivos, riscos, taxas e despesas do investimento. Entre em contato com customer@avenue.us para obter um prospecto contendo essas e outras informações 
+importantes. Leia com atenção antes de investir.
+Tenha em mente que não há garantia de que qualquer estratégia será bem sucedida ou lucrativa, nem protegerá contra uma perda. O investimento internacional envolve riscos especiais, incluindo flutuações cambiais, 
+diferentes padrões de contabilidade financeira e possível volatilidade política e econômica. Avenue Securities LLC e suas afiliadas não fornecem aconselhamento jurídico ou tributário. Você deve discutir esses assuntos 
+com o profissional apropriado.
+A Avenue Securities LLC é membro da FINRA e da SIPC. Ela fornece seus serviços exclusivamente nos Estados Unidos. A Avenue Securities LLC não está autorizada pela Comissão de Valores Mobiliários (CVM) a oferecer 
+diretamente serviços de distribuição de valores mobiliários a investidores residentes, domiciliados ou constituídos na República Federativa do Brasil, e tais serviços não foram registrados e não estão sujeitos à supervisão 
+da CVM ou qualquer outro órgão regulador brasileiro. Nada aqui deve ser entendido como uma oferta direta de serviços dirigida a esses investidores. Oferta de serviços intermediada por Avenue Securities DTVM. Veja 
+todos os avisos importantes sobre investimento: https://avenue.us/termos/. 
+As informações aqui contidas são apenas para fins informativos e não são destinadas e não devem ser usadas ou interpretadas como uma oferta de venda, ou uma solicitação de qualquer oferta de compra, títulos de 
+qualquer fundo ou outro produto de investimento em qualquer jurisdição. Nenhuma oferta ou solicitação pode ser feita antes da entrega da documentação definitiva de oferta. As informações neste documento não 
+devem ser usadas, nem interpretadas como recomendação de investimento, tributária, jurídica, financeira ou outros. Antes de tomar qualquer investimento ou decisões financeiras, o investidor deve buscar 
+aconselhamento individualizado de profissionais financeiros, jurídicos, tributários e outros que levem em conta todos os fatos e circunstâncias particulares da própria situação do investidor. As opiniões e demonstrações 
+das tendências do mercado financeiro que se baseiam nas condições atuais do mercado constituem nosso julgamento e estão sujeitos a alterações sem aviso prévio. Acreditamos que as informações fornecidas aqui são 
+confiáveis, mas não devem ser consideradas precisas ou completas. As opiniões e estratégias descritas podem não ser adequadas para todos os investidores.
+Todas as informações são da data indicada.  Quaisquer pontos de vista ou opiniões declaradas estão sujeitas a alterações sem aviso prévio, por qualquer motivo, e a Avenue reserva-se o direito a seu exclusivo critério, a 
+qualquer momento e de tempos em tempos, de adicionar, modificar ou remover qualquer uma das informações sem qualquer aviso prévio a você. A esse respeito, a Avenue se isenta e não se compromete a atualizar ou 
+notificá-lo caso quaisquer pontos de vista, opiniões ou fatos declarados tenham mudado ou posteriormente se tornem imprecisos, exceto na medida exigida em qualquer acordo separado entre você e a Avenue. 
+Os dados são coletados de fontes de terceiros. Embora a Avenue acredite que os dados coletados de fontes de terceiros são confiáveis, ele não revisa tais informações e não pode justificar que sejam precisos, completos 
+ou oportunos. A Avenue não se responsabiliza por quaisquer danos ou perdas decorrentes de qualquer uso desta informação de terceiros.
+OS PRODUTOS DE INVESTIMENTO SÃO: • SEM SEGURO FDIC • SEM GARANTIA BANCÁRIA • PODE PERDER VALOR
+© 2026 Avenue. Todos os direitos reservados.
