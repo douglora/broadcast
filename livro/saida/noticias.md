@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/09 15h32
+NOTÍCIAS E FATOS · 29/09 16h21
 
-Pernas: noticias ok 1 novas (18 consultas; descartadas: 451 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 1 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 448 veículo fora da lista, 46 sem ativo, 4 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
 
@@ -108,8 +108,18 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (91)
+## OUTRAS NOTÍCIAS (só manchete) (101)
 
+· ETH Current price of Ethereum for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-29-2026/
+· BTC Current price of Bitcoin for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-29-2026/
+· MRVL Marvell's Investor Day Could Ignite Another Rerating (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4950776-marvells-investor-day-could-ignite-another-massive-rerating
+· MU Micron options chain skews bullish in run-up to Q4 earnings (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648174-micron-options-chain-skews-bullish-in-run-up-to-q4-earnings
+· USDBRL Com um olho no dólar e outro no plantio, B3 fecha a terça-feira com estabilidade para os futuros do milho (TradingView (Reuters)) https://br.tradingview.com/news/noticiasagricolas:a0c1a5719bc81:0/
+· AVGO Reflecting On Processors and Graphics Chips Stocks’ Q2 Earnings: Broadcom (NASDAQ:AVGO) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/reflecting-processors-graphics-chips-stocks-184002453.html
+· USDBRL Ibovespa vira para leve alta após quatro sessões de queda; dólar segue acima de R$ 5,20 (Exame) https://exame.com/invest/mercados/ibovespa-cai-pela-4a-sessao-seguida-dolar-segue-acima-de-r-520/
+· GOOGL GOOGL's Prospects Ride on AI Initiatives: Can It Beat RDDT and META? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:c9aff0255094b:0-googl-s-prospects-ride-on-ai-initiatives-can-it-beat-rddt-and-meta/
+· UST US 30-year Treasury yield hits highest since 2002 (Financial Times) https://www.ft.com/content/c8693313-7750-40c7-892a-101ab16dec70?syn-25a6b1a6=1
+· TSM TSMC: 2nm Is Moving Into High Gear (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4950690-tsmc-2nm-is-moving-into-high-gear
 · AMD One Market Could Transform AMD’s Growth Story (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/one-market-could-transform-amd-163013833.html
 · BBDC4 Petrobras (PETR4), Bradesco (BBDC4) e mais: quais são as ações preferidas do UBS no Brasil? (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-e-mais-quais-sao-as-acoes-preferidas-do-ubs-no-brasil/
 · LITE Lumentum Stock: I Bought At $800; 2027 Could Change The Story (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4950767-lumentum-stock-i-bought-at-800-2027-could-change-the-story
@@ -160,14 +170,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · ITUB4 Tupy entra em ponto de virada, diz Itaú BBA; banco eleva aposta na ação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tupy-entra-em-ponto-de-virada-diz-itau-bba-banco-eleva-aposta-na-acao/
 · MU Micron Q4 earnings on deck: What to expect (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648047-micron-q4-earnings-on-deck-what-to-expect
 · MU Micron earnings this week could test whether the memory boom has more room to run (CNBC) https://www.cnbc.com/2026/09/29/micron-earnings-this-week-could-test-whether-the-memory-boom-has-more-room-to-run.html
-· LITE Lumentum Climbs 7% as Optics Selloff Reverses a Day After Citi’s $11B Switching Call; Coherent and Corning Rise 5% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-climbs-7-optics-selloff-150052939.html
-· TSLA Tesla's Q3 deliveries loom large as the Roadster slips again (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/teslas-q3-deliveries-loom-large-as-the-roadster-slips-again-145514238.html
-· BBDC4 Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda (Money Times) https://www.moneytimes.com.br/bradesco-asset-selic-pode-ficar-parada-no-inicio-de-2027-com-el-nino-mas-tendencia-e-de-queda/
-· MU What History Says Will Happen If Micron’s Earnings Stars Align (Barron's) https://www.barrons.com/articles/micron-stock-price-earnings-history-025de44d
-· NVDA Nvidia vs. AMD: Which AI Chip Stock Has More Room to Run After AMD's Surge Past $1 Trillion? (Yahoo Finance) https://news.google.com/rss/articles/CBMijgFBVV95cUxQYnhKc2Vib0E1SEd6TXB3NDBoa1VPOFhSVUtuY3pFdDl3VVE0cW5PaEUwMUxGQm85S3JBVVlyVHlYWXJwck5EU1lCNV9PTHVSTUJFT0NiRy1ocHo0emdVODNOVWRReUNva0VRY0l4OVJGMUJxZlBaNU4yOTJ0bW5jN3c2U0JrTnI2cTcwYVBB?oc=5
-· BTC HANetf Launches First Euro-Hedged Bitcoin Fund (The Wall Street Journal) https://news.google.com/rss/articles/CBMimgFBVV95cUxNXy0yUEwzSFVrMFFWU2NyVTdEeHQ0R29zOG4wZkNWcndPU3dhcnFBTnN6d1pOUW5oTWs5QVk1aDh6a0FIVkpRS20wSUF5Uk9XUDA0bEFJamlBLWtORUpZdndTdUpxTnl2dXVESGMyNFVtVFhacWVScnN2VUluLTdTbWxPRDRBNmgyX3g0aXBGOEhCNHQ2T3JCQzBR?oc=5
-· BRENT Petróleo recua com tentativa de acordo entre EUA e Irã; Dow Jones hoje cai (Estadao) https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOVRDQm5wWWtvRlg3cG1GUlZoRW1uX3k1NmtGRWhmaDAwUFp1RlhJeklTaDR0TEhwN1pUSF9QeUhmQzhQeC1INDBNV01HcXlBbUNGdVVHNEMtbnVCbDVpcEVWTzZDdWZBUXkyOWZ2Y3ktNDBsQ1JvSXVOQTlKaGxKNnY3WlAyUGVROXVINTV3LWlKbVRsaGU2MXZVV2FzcWhEM1BnZFFjWWVJS0xjSWNieGdBMkxBSVktUkhRbHh1QjNOcGxwMGRoSXpsN0hpY3M1UG9aMDBRcnFMYWVfdk1XZ1ZPeW9vZlB3Tm5TLVZCNNIB9AFBVV95cUxObW5QajkxSlZZRmZaWm1BZFg5RGxtOFY1WWJwUC1xTHE3WkNpakpMOXV3NXhkNW1EcVRON1R2bjc0MERTcnFJZ2tENEdoU3JXRExwZksweWc0bzVyTjBycGpDSmVIbExMWUFyTG1wZ2g4VGVVRldoaTRaVG5McmMyWlpLV0xxRmhtRDVkUzJEVkV5RnhJSXUwb0pYaURoakl0LVRSQnBIUTJURmhicTRLR2poc3UxSWZhZ3ptdlo4VzBDaFEwQ05CZWNnMW1zVEdIeS1IYU5NVFBseWJQTFNnMzJoTnFxbmtYSEpiNVc2cjQ1aWI2?oc=5
-· VALE3 Swing trade: BB Investimentos recomenda a venda de Vale (VALE3) e Prio (PRIO3) nesta terça (29) (Money Times) https://www.moneytimes.com.br/swing-trade-bb-investimentos-recomenda-a-venda-de-vale-vale3-e-prio-prio3-nesta-terca-29-ceci/
-· USDBRL Dólar abre em queda nesta terça após desemprego apresentar menor índice desde 2012 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-nesta-terca-apos-desemprego-apresentar-menor-indice-desde-2012.shtml
-· JPM MU Stock Gains Ahead Of Q4 Earnings: JPMorgan Sees 'Constructive' Setup Amid Netlist Legal Fight (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6d4694c66094b:0-mu-stock-gains-ahead-of-q4-earnings-jpmorgan-sees-constructive-setup-amid-netlist-legal-fight/
-· (+31 manchetes; lista completa em eventos/noticias.json)
+· (+41 manchetes; lista completa em eventos/noticias.json)
