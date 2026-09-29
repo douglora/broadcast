@@ -28,7 +28,7 @@ import time
 from datetime import date, datetime, timedelta, timezone
 
 from livro.http import Cliente, HttpError
-from livro.fontes.yahoo import HOSTS, baixar_serie, preparar_sessao
+from livro.fontes.yahoo import HOSTS, parse_chart, preparar_sessao
 
 # UCITS da carteira modelo e do universo de IA/infraestrutura, na linha em USD da LSE,
 # mais as linhas antigas (VHYL, VWRL) para cobrir 2018 e as referencias americanas.
@@ -92,12 +92,43 @@ def nome_arquivo(simbolo: str) -> str:
     return simbolo.replace("^", "_").replace("=", "_").replace("/", "_")
 
 
+def baixar_diario(cli: Cliente, simbolo: str, crumb, desde: datetime) -> dict:
+    """Barras diarias por period1/period2. Com range=max o Yahoo devolve barras mensais
+    (visto em 29/09/2026: 193 barras de CSPX.L desde 2010); com datas explicitas vem diario."""
+    params = {"period1": int(desde.timestamp()), "period2": int(time.time()) + 86400, "interval": "1d",
+              "events": "div,split", "includeAdjustedClose": "true"}
+    if crumb:
+        params["crumb"] = crumb
+    ultimo: Exception | None = None
+    for host in HOSTS:
+        url = f"{host}/v8/finance/chart/{simbolo}"
+        try:
+            r = cli.get(url, params=params, timeout=60)
+        except HttpError as e:
+            ultimo = e
+            continue
+        if r.status == 200:
+            d = parse_chart(r.json(), simbolo)
+            d["coletado_em"] = agora()
+            return d
+        ultimo = HttpError(r.status, r.text, url)
+        if r.status not in (429, 500, 502, 503, 504):
+            break
+    raise ultimo or HttpError(0, "sem resposta", simbolo)
+
+
 def series(cli: Cliente, crumb, simbolos: list[str], saida: str, falhas: list) -> dict:
     ok = {}
     for s in simbolos:
+        desde = datetime(1950, 1, 1, tzinfo=timezone.utc) if s in ("^GSPC", "^TNX", "^IRX", "^FVX", "^TYX") \
+            else datetime(2000, 1, 1, tzinfo=timezone.utc)
         for tentativa in range(3):
             try:
-                d = baixar_serie(cli, s, "max", crumb)
+                d = baixar_diario(cli, s, crumb, desde)
+                barras = d["barras"]
+                # confere se veio diario: 60 barras recentes precisam caber em poucos meses
+                if len(barras) >= 60 and len({b[0][:7] for b in barras[-60:]}) > 6:
+                    raise ValueError("serie nao diaria")
                 gravar(os.path.join(saida, "series", nome_arquivo(s) + ".json"), d)
                 b = d["barras"]
                 ok[s] = {"barras": len(b), "de": b[0][0] if b else None, "ate": b[-1][0] if b else None,
