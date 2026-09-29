@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/09 18h13
+NOTÍCIAS E FATOS · 29/09 19h54
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 449 veículo fora da lista, 46 sem ativo, 10 teto) · cvm ok 1 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 439 veículo fora da lista, 45 sem ativo, 17 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -48,7 +48,25 @@ Fonte: SEC EDGAR 2026-09-29
 id: E04-BABA-26111915-2026-09-29 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend
+TradingView (Reuters) · 29/09 18h45 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:6829c2eef094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-303-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ETH
+Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/09 18h45
+id: E05-ETH-c7f855d6c1-2026-09-29 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex, AI push accelerate
+TradingView (Reuters) · 29/09 18h17 · + Reuters · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45L1XJ:0-tesla-lines-up-30-billion-credit-lines-as-capex-ai-push-accelerate/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Tesla lines up $30 billion credit lines as capex, AI push accelerate; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/09 18h17
+id: E05-TSLA-09bae21456-2026-09-29 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate
 Reuters · 29/09 17h47 · fonte única · licença: manchete
@@ -151,8 +169,20 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (122)
+## OUTRAS NOTÍCIAS (só manchete) (134)
 
+· COHR Why Coherent (COHR) Stock Is Up Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-stock-today-222402815.html
+· DI Juros futuros fecham em firme queda com moderação dos Treasuries (Money Times) https://www.moneytimes.com.br/juros-futuros-29-9-26-apsa/
+· UST Treasury Yields Push To Fresh Highs (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-hover-near-recent-highs-375feb34
+· VALE3 UBS BB passa a tesoura nas ações da Vale (VALE3) com novo risco no radar; veja preço-alvo (Money Times) https://www.moneytimes.com.br/ubs-bb-passa-a-tesoura-nas-acoes-da-vale-vale3-com-minerio-de-ferro-e-frete-mais-caros-lils/
+· TSLA EVgo at Lytham Partners: Tesla deal lifts growth outlook (Investing.com) https://www.investing.com/news/transcripts/evgo-at-lytham-partners-tesla-deal-lifts-growth-outlook-93CH-4923658
+· PETR4 Petrobras fecha contrato para comprar gás natural liquefeito dos EUA por 22 anos (Bloomberg Linea) https://www.bloomberglinea.com.br/negocios/petrobras-fecha-contrato-para-comprar-gas-natural-liquefeito-dos-eua-por-22-anos/
+· BTC Bitcoin's Rally Is Real, Glassnode Says: So Why Are Spot Buyers Uninterested? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:7bc260d2a094b:0-bitcoin-s-rally-is-real-glassnode-says-so-why-are-spot-buyers-uninterested/
+· USDBRL Dólar hoje fecha com queda, a R$ 5,21, em sessão volátil e sob influência do exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-29092026/
+· USDBRL Ibovespa reage e fecha em alta de 0,46%; dólar recua a R$ 5,21 (Exame) https://exame.com/invest/mercados/ibovespa-quebra-sequencia-de-perdas-e-fecha-em-alta-de-046-dolar-cai-para-r-521/
+· VALE3 Vale (VALE3) cai abaixo de R$ 70 pela 1ª vez no ano com minério e corte de preço-alvo (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-cai-abaixo-de-r-70-pela-1a-vez-no-ano-com-minerio-e-corte-de-preco-alvo/amp/
+· UST US Equity Markets End Lower After Higher Treasury Yields, Fed Governor's Remarks on Inflation (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxNTG1SbXJIVXUzWnh2SW5MQUw5OFRCLWZzUnhJOURwc283VXhtSW9JVDJCaG5XeDlCVURQSmV6OS1tVVY4Z2hUZ3BudXdJdXhVd3hBdFR3eDFRSS1iSTR2M3JPdnB0VGxPczY1SHJIeWhJb3RTZzNLdDVQRzZJMzM0RUV6Y1RXakUxVS0zRy03OG84REU1QWZj?oc=5
+· VALE3 Vale (VALE3) cai mais de 2% e ameaça perder os R$ 70; o que está derrubando a ação? (Suno Noticias) https://news.google.com/rss/articles/CBMieEFVX3lxTE1SOWU0LW9qdERpRDRLQTRsTEZ1TDJheXlrU1JqN3FqTllyZ3liLXlBZ0hOSzYwMG1qaEZQd0VoeGRPWUZEYnc5N3B0WnhpT2FfS2EzUTdrU1VjLVZkcTUzNW56aFRVOFhic3lqSkhxOEc1eXBYSkV4cdIBfkFVX3lxTE1uRVg5a05SRXVnMW0yRE1sY3hqSF9iVDF5T1R3dWJKVEZJMXd2Z1dkRzZNY3U3V3NyOV9UckVBQl82M0FxMVZIYlpadVBqX01IMF8zUzM2NmxmaUNPczhCVlNJSGpaUC1fOTdPVWlRZGgyczB4dWx3RlpiNWR2dw?oc=5
 · USDBRL Bolsa volta a subir após 4 quedas; dólar cai a R$ 5,217 (Poder360) https://www.poder360.com.br/poder-economia/bolsa-volta-a-subir-apos-4-quedas-dolar-cai-a-r-5217/
 · GOOGL Magnite could be a big winner as DOJ takes aim at Google's ad dominance -- BofA (MGNI:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648193-magnite-could-be-a-big-winner-as-doj-takes-aim-at-googles-ad-dominance---bofa
 · PETR4 Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21 (Money Times) https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/
@@ -201,16 +231,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · JPM JPMorgan appoints Mark O'Donovan as head of human resources, memo says (Reuters) https://www.reuters.com/legal/transactional/jpmorgan-appoints-mark-odonovan-head-human-resources-memo-says-2026-09-29/
 · NVDA Nvidia Stock Buyback Impresses Market Experts: ‘Very Much Like This Move’ (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:402fe5637094b:0-nvidia-stock-buyback-impresses-market-experts-very-much-like-this-move/
 · NVDA Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:824d3fa04094b:0-nvidia-just-put-150-billion-behind-its-stock-is-it-cheap-enough/
-· TSLA Tesla, Inc. Shs Canadian Depositary Receipt Repr Shs Reg S Revenue Breakdown – HAN:TL01 (TradingView (Reuters)) https://www.tradingview.com/symbols/HAN-TL01/financials-segments/
-· MU Why I Wouldn't Own Micron Into The Print - Earnings Preview (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4950654-why-i-wouldnt-own-micron-into-print-earnings-preview
-· ETH Ethereum Price Forecast: ETH Fractal Signals 80% Breakout Setup (Yahoo Finance) https://uk.finance.yahoo.com/news/ethereum-price-forecast-eth-fractal-094350704.html
-· AMD AMD: Why I Say 80x Forward P/E Doesn't Matter This Time (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950731-amd-why-i-say-80x-forward-pe-doesnt-matter-this-time
-· GOOGL Google Cloud Expands Gemini Enterprise Security Agent Catalog With 24 Partner Integrations (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45L1SJ:0-google-cloud-expands-gemini-enterprise-security-agent-catalog-with-24-partner-integrations/
-· AXIA3 Axia: JPMorgan reduz preço-alvo, mas estima retorno de 31% (ADVFN) https://br.advfn.com/jornal/2026/09/axia-jpmorgan-reduz-preco-alvo-mas-estima-retorno-de-31
-· USDBRL Dólar vira para o positivo após taxas dos Treasuries subirem; Ibovespa cai (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45L0QW:0/
-· NVDA Nvidia: A Deep Analysis About The AI CapEx (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950726-nvidia-a-deep-analysis-about-the-ai-capex
-· EQTL3 Copasa privatizada começa a ganhar forma com novo comando vindo da Equatorial (NeoFeed) https://neofeed.com.br/economia/copasa-privatizada-comeca-a-ganhar-forma-com-novo-comando-vindo-da-equatorial/
-· BRENT Dow Jones hoje opera em queda; petróleo recua com tentativa de acordo entre EUA e Irã; (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-no-pre-mercado-em-meio-a-altas-de-petroleo-e-dolar-os-destaques-das-bolsas-de-ny/
-· BTC Bitcoin To $1 Million? Ric Edelman Says A 2% Global Allocation Could Get BTC There (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:83600fd9e094b:0-bitcoin-to-1-million-ric-edelman-says-a-2-global-allocation-could-get-btc-there/
-· NVDA CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD? (Yahoo Finance) https://au.finance.yahoo.com/news/cbrs-backlog-rides-strong-ai-151500299.html
-· (+62 manchetes; lista completa em eventos/noticias.json)
+· (+74 manchetes; lista completa em eventos/noticias.json)
