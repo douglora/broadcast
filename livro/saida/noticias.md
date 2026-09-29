@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/09 14h22
+NOTÍCIAS E FATOS · 29/09 15h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 466 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 451 veículo fora da lista, 47 sem ativo, 6 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
 
@@ -96,8 +96,19 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (79)
+## OUTRAS NOTÍCIAS (só manchete) (90)
 
+· BBDC4 Petrobras (PETR4), Bradesco (BBDC4) e mais: quais são as ações preferidas do UBS no Brasil? (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-e-mais-quais-sao-as-acoes-preferidas-do-ubs-no-brasil/
+· LITE Lumentum Stock: I Bought At $800; 2027 Could Change The Story (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4950767-lumentum-stock-i-bought-at-800-2027-could-change-the-story
+· VALE3 Vale (VALE3) cai 2% e caminha para a menor nível cotação do ano: o que está por trás da queda? (Money Times) https://www.moneytimes.com.br/vale-vale3-cai-2-e-caminha-para-a-menor-nivel-cotacao-do-ano-o-que-esta-por-tras-da-queda-lils/
+· ITUB4 Itaú planeja aumentar participação na Equatorial Energia Distribuição (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/negocios/itau-planeja-aumentar-participacao-na-equatorial-energia-distribuicao/
+· PETR4 Petrobras (PETR4): A variável em que os investidores devem ficar de olho nestas eleições (Money Times) https://www.moneytimes.com.br/petrobras-petr4-a-variavel-que-os-investidores-devem-ficar-de-olho-nestas-eleicoes-lils/
+· MU Micron Stock Gains 1.3% as AI Memory Faces Earnings Reality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9deb8da97094b:0-micron-stock-gains-1-3-as-ai-memory-faces-earnings-reality/
+· AMD AMD: Reasons To Trim, Reasons To Hold, Reasons To Hedge After This Huge Rally (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950745-amd-reasons-to-trim-reasons-to-hold-reasons-to-hedge-after-this-huge-rally
+· BTC Bitcoin traders position for $90K+ calls as ETFs see eight-day inflow streak (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:bf8cfe426094b:0-bitcoin-traders-position-for-90k-calls-as-etfs-see-eight-day-inflow-streak/
+· MU Micron's 269% Rally Is About to Face Four Big Tests (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f42890833094b:0-micron-s-269-rally-is-about-to-face-four-big-tests/
+· NVDA CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:eff957d83094b:0-cbrs-backlog-rides-on-strong-ai-demand-can-it-outpace-nvda-amd/
+· BTC Bitcoin tests long-term holder supply cluster as leverage clears, analysts say (The Block) https://www.theblock.co/news/markets/2026-09-29-bitcoin-tests-long-term-holder-supply-cluster-leverage-clears-analysts-say-417162
 · PETR4 Alckmin defende Gas Release mesmo com pressão contrária da Petrobras (Poder360) https://www.poder360.com.br/poder-governo/alckmin-defende-gas-release-mesmo-com-pressao-contraria-da-petrobras/
 · MU Micron's 269% Rally Is About to Face Four Big Tests (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microns-269-rally-face-four-170359946.html
 · JPM JPMorgan appoints Mark O'Donovan as head of human resources, memo says (Reuters) https://www.reuters.com/legal/transactional/jpmorgan-appoints-mark-odonovan-head-human-resources-memo-says-2026-09-29/
@@ -147,15 +158,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · USDBRL Dólar abre em queda nesta terça após desemprego apresentar menor índice desde 2012 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-nesta-terca-apos-desemprego-apresentar-menor-indice-desde-2012.shtml
 · JPM MU Stock Gains Ahead Of Q4 Earnings: JPMorgan Sees 'Constructive' Setup Amid Netlist Legal Fight (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6d4694c66094b:0-mu-stock-gains-ahead-of-q4-earnings-jpmorgan-sees-constructive-setup-amid-netlist-legal-fight/
 · NVDA Lumentum's outlook brightens on Nvidia's co-packaged optics scale-out: GF (Seeking Alpha) https://seekingalpha.com/news/4647991-lumentums-outlook-brightens-on-nvidias-co-packaged-optics-scale-out-gf
-· UST McDonald's stock and 10-year U.S. Treasury yield are perfect opposites (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:40fee44f9094b:0-mcdonald-s-stock-and-10-year-u-s-treasury-yield-are-perfect-opposites/
-· BTC Altcoin Trading Surges to 4 Times Bitcoin’s Volume — a Warning Sign for BTC (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/altcoin-trading-surges-4-times-124715399.html
-· JPM Jamie Dimon has a plan to revive the West: A 'big, beautiful' deal with Europe (CNBC) https://www.cnbc.com/2026/09/29/jamie-dimon-europe-trade.html
-· USDBRL Ibovespa futuro avança com dados de emprego e eleições em foco; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-29-9-26-lils/
-· USDBRL Dólar cai na abertura com nova pesquisa eleitoral e exterior no foco Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-cai-na-abertura-com-nova-pesquisa-eleitoral-e-exterior-no-foco-2078017
-· TSLA Is Tesla (TSLA) Facing A Bigger Test On Deliveries And Management Focus? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-facing-bigger-test-120736219.html
-· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29092026/
-· USDBRL Dólar abre em queda, com dados de emprego no radar (g1) https://g1.globo.com/economia/noticia/2026/09/29/dolar-ibovespa.ghtml
-· BTC Bitcoin Pioneer Adam Back’s Empire Beset by Hack, Lawsuits (Bloomberg) https://news.google.com/rss/articles/CBMirAFBVV95cUxPNVM1ZWxueEdGYi1PQk4ydjZWZnBXMWNXLUFZMnlxbzNEcjd0WXk0Qmp2RVFuQnZWZGU1ZlBaaXZXOHpwLWZCMEpDZ2hkRG9oRlZsczlVZWk4LTI1aTU3bmdUQnFKcVkySjZpR3BrdFBnWUx5MWJ2TEVpOEsyeUp2SC1OM0RZV21zcDlqam81em9FLURwNGYtaU52WHcycTFWSFF2Z3A3S0s2Zll1?oc=5
-· BTC Rising Bond Yields Stop Bitcoin's Rally. These 3 Indicators Signal It May Resume Soon (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVGVnaHh5OTRqWnFvT3hyQ1JGeEdzYmd3Njk5SVhZU2RldjJ0TXJZWkxuYllybEpEYUFUd2hXUGpYczZMUXRqY09WU0hvXzlMN1hCckdJUU9Mb3pYZVQ5SGFhZVZJNkVWMmdldlFPTS1hZ0FlTFN4Z3FwOGd4YnJxMS1ZSHZXWGl4MHJXamhpUW5VckFjVGtqbnBOTUk5T3BUd0ZMR0g5bGdJN2k0TjEzT0xRQWVaTF9lQnhwTFVENExsNmFHd0pPeGp1OW9YcmpwQUdlQldVZkhIZDA?oc=5
-· JPM PEP Stock Gets A Downgrade From JPMorgan – Firm Flags Frito-Lay Weakness (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnRQUTNaQzVPN2stdEluOXdUMzRaWTc5YTdkT3RrWGtCclFtVmJKQjIyY1NVOGJaM2RKYlJHaUZXRHQwQ0dKY3JxejR6VDBCTnd1MnRIWGt1MWhkbkVMRTdJUXVXcmlVT1VFSFdMWEFibFB2YmZsVW9KekhPT2JnSmd5eHlHX3h3R0l2Umh3N3J1T1pEclJkd1NfMEZNbGM?oc=5
-· (+19 manchetes; lista completa em eventos/noticias.json)
+· (+30 manchetes; lista completa em eventos/noticias.json)

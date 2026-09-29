@@ -2,14 +2,17 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 PETR4 · Alckmin defende Gas Release mesmo com pressão contrária da Petrobras
+· E05 BBDC4 · Petrobras (PETR4), Bradesco (BBDC4) e mais: quais são as ações preferidas do UBS no Brasil?
+· E05 LITE · Lumentum Stock: I Bought At $800; 2027 Could Change The Story (NASDAQ:LITE)
+· E05 VALE3 · Vale (VALE3) cai 2% e caminha para a menor nível cotação do ano: o que está por trás da queda?
+· E05 ITUB4 · Itaú planeja aumentar participação na Equatorial Energia Distribuição
+· E05 PETR4 · Petrobras (PETR4): A variável em que os investidores devem ficar de olho nestas eleições
+· E05 MU · Micron Stock Gains 1.3% as AI Memory Faces Earnings Reality
+· E05 AMD · AMD: Reasons To Trim, Reasons To Hold, Reasons To Hedge After This Huge Rally (NASDAQ:AMD)
+· E05 BTC · Bitcoin traders position for $90K+ calls as ETFs see eight-day inflow streak
 · E05 MU · Micron's 269% Rally Is About to Face Four Big Tests
-· E05 JPM · JPMorgan appoints Mark O'Donovan as head of human resources, memo says
-· E05 NVDA · Nvidia Stock Buyback Impresses Market Experts: ‘Very Much Like This Move’
-· E05 NVDA · Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough?
-· E05 TSLA · Tesla, Inc. Shs Canadian Depositary Receipt Repr Shs Reg S Revenue Breakdown – HAN:TL01
-· E05 MU · Why I Wouldn't Own Micron Into The Print - Earnings Preview (NASDAQ:MU)
-· E05 ETH · Ethereum Price Forecast: ETH Fractal Signals 80% Breakout Setup
+· E05 NVDA · CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD?
+· E05 BTC · Bitcoin tests long-term holder supply cluster as leverage clears, analysts say
 
 
 Alertas do dia (todos, com status):
@@ -21,4 +24,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 AMD — AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
 · entregue  E05 ITUB4 — ITUB4 · Com oferta somada de R$ 24,85 bi de Itaú e BTG, Fiagros "colhem" recorde
 · entregue  E05 NVDA — NVDA · Key facts: NVIDIA raises buyback by $150B; to buy Hugging Face for $13B
-· (+79 notícias só manchete, em noticias.md)
+· (+90 notícias só manchete, em noticias.md)
