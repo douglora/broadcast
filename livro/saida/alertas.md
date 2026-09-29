@@ -2,15 +2,14 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 AMD · AMD: Why I Say 80x Forward P/E Doesn't Matter This Time (NASDAQ:AMD)
-· E05 GOOGL · Google Cloud Expands Gemini Enterprise Security Agent Catalog With 24 Partner Integrations
-· E05 AXIA3 · Axia: JPMorgan reduz preço-alvo, mas estima retorno de 31%
-· E05 USDBRL · Dólar vira para o positivo após taxas dos Treasuries subirem; Ibovespa cai
-· E05 NVDA · Nvidia: A Deep Analysis About The AI CapEx (NASDAQ:NVDA)
-· E05 EQTL3 · Copasa privatizada começa a ganhar forma com novo comando vindo da Equatorial
-· E05 BRENT · Dow Jones hoje opera em queda; petróleo recua com tentativa de acordo entre EUA e Irã;
-· E05 BTC · Bitcoin To $1 Million? Ric Edelman Says A 2% Global Allocation Could Get BTC There
-· E05 NVDA · CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD?
+· E05 PETR4 · Alckmin defende Gas Release mesmo com pressão contrária da Petrobras
+· E05 MU · Micron's 269% Rally Is About to Face Four Big Tests
+· E05 JPM · JPMorgan appoints Mark O'Donovan as head of human resources, memo says
+· E05 NVDA · Nvidia Stock Buyback Impresses Market Experts: ‘Very Much Like This Move’
+· E05 NVDA · Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough?
+· E05 TSLA · Tesla, Inc. Shs Canadian Depositary Receipt Repr Shs Reg S Revenue Breakdown – HAN:TL01
+· E05 MU · Why I Wouldn't Own Micron Into The Print - Earnings Preview (NASDAQ:MU)
+· E05 ETH · Ethereum Price Forecast: ETH Fractal Signals 80% Breakout Setup
 
 
 Alertas do dia (todos, com status):
@@ -22,4 +21,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 AMD — AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
 · entregue  E05 ITUB4 — ITUB4 · Com oferta somada de R$ 24,85 bi de Itaú e BTG, Fiagros "colhem" recorde
 · entregue  E05 NVDA — NVDA · Key facts: NVIDIA raises buyback by $150B; to buy Hugging Face for $13B
-· (+71 notícias só manchete, em noticias.md)
+· (+79 notícias só manchete, em noticias.md)

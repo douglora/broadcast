@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/09 13h54
+NOTÍCIAS E FATOS · 29/09 14h22
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 473 veículo fora da lista, 43 sem ativo, 27 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 466 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
 
@@ -96,8 +96,16 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (71)
+## OUTRAS NOTÍCIAS (só manchete) (79)
 
+· PETR4 Alckmin defende Gas Release mesmo com pressão contrária da Petrobras (Poder360) https://www.poder360.com.br/poder-governo/alckmin-defende-gas-release-mesmo-com-pressao-contraria-da-petrobras/
+· MU Micron's 269% Rally Is About to Face Four Big Tests (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microns-269-rally-face-four-170359946.html
+· JPM JPMorgan appoints Mark O'Donovan as head of human resources, memo says (Reuters) https://www.reuters.com/legal/transactional/jpmorgan-appoints-mark-odonovan-head-human-resources-memo-says-2026-09-29/
+· NVDA Nvidia Stock Buyback Impresses Market Experts: ‘Very Much Like This Move’ (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:402fe5637094b:0-nvidia-stock-buyback-impresses-market-experts-very-much-like-this-move/
+· NVDA Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:824d3fa04094b:0-nvidia-just-put-150-billion-behind-its-stock-is-it-cheap-enough/
+· TSLA Tesla, Inc. Shs Canadian Depositary Receipt Repr Shs Reg S Revenue Breakdown – HAN:TL01 (TradingView (Reuters)) https://www.tradingview.com/symbols/HAN-TL01/financials-segments/
+· MU Why I Wouldn't Own Micron Into The Print - Earnings Preview (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4950654-why-i-wouldnt-own-micron-into-print-earnings-preview
+· ETH Ethereum Price Forecast: ETH Fractal Signals 80% Breakout Setup (Yahoo Finance) https://uk.finance.yahoo.com/news/ethereum-price-forecast-eth-fractal-094350704.html
 · AMD AMD: Why I Say 80x Forward P/E Doesn't Matter This Time (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950731-amd-why-i-say-80x-forward-pe-doesnt-matter-this-time
 · GOOGL Google Cloud Expands Gemini Enterprise Security Agent Catalog With 24 Partner Integrations (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45L1SJ:0-google-cloud-expands-gemini-enterprise-security-agent-catalog-with-24-partner-integrations/
 · AXIA3 Axia: JPMorgan reduz preço-alvo, mas estima retorno de 31% (ADVFN) https://br.advfn.com/jornal/2026/09/axia-jpmorgan-reduz-preco-alvo-mas-estima-retorno-de-31
@@ -150,12 +158,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · BTC Bitcoin Pioneer Adam Back’s Empire Beset by Hack, Lawsuits (Bloomberg) https://news.google.com/rss/articles/CBMirAFBVV95cUxPNVM1ZWxueEdGYi1PQk4ydjZWZnBXMWNXLUFZMnlxbzNEcjd0WXk0Qmp2RVFuQnZWZGU1ZlBaaXZXOHpwLWZCMEpDZ2hkRG9oRlZsczlVZWk4LTI1aTU3bmdUQnFKcVkySjZpR3BrdFBnWUx5MWJ2TEVpOEsyeUp2SC1OM0RZV21zcDlqam81em9FLURwNGYtaU52WHcycTFWSFF2Z3A3S0s2Zll1?oc=5
 · BTC Rising Bond Yields Stop Bitcoin's Rally. These 3 Indicators Signal It May Resume Soon (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVGVnaHh5OTRqWnFvT3hyQ1JGeEdzYmd3Njk5SVhZU2RldjJ0TXJZWkxuYllybEpEYUFUd2hXUGpYczZMUXRqY09WU0hvXzlMN1hCckdJUU9Mb3pYZVQ5SGFhZVZJNkVWMmdldlFPTS1hZ0FlTFN4Z3FwOGd4YnJxMS1ZSHZXWGl4MHJXamhpUW5VckFjVGtqbnBOTUk5T3BUd0ZMR0g5bGdJN2k0TjEzT0xRQWVaTF9lQnhwTFVENExsNmFHd0pPeGp1OW9YcmpwQUdlQldVZkhIZDA?oc=5
 · JPM PEP Stock Gets A Downgrade From JPMorgan – Firm Flags Frito-Lay Weakness (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnRQUTNaQzVPN2stdEluOXdUMzRaWTc5YTdkT3RrWGtCclFtVmJKQjIyY1NVOGJaM2RKYlJHaUZXRHQwQ0dKY3JxejR6VDBCTnd1MnRIWGt1MWhkbkVMRTdJUXVXcmlVT1VFSFdMWEFibFB2YmZsVW9KekhPT2JnSmd5eHlHX3h3R0l2Umh3N3J1T1pEclJkd1NfMEZNbGM?oc=5
-· KLBN4 Suzano ou Klabin? XP mantém compra e aponta qual ação está mais exposta à alta da celulose (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/suzano-ou-klabin-xp-mantem-compra-e-aponta-qual-acao-esta-mais-exposta-a-alta-da-celulose/
-· BTC Bitcoin and ethereum prices today, Tuesday, September 29, 2026: Crypto prices moving higher in early trading (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-29-2026-crypto-prices-moving-higher-in-early-trading-111939975.html
-· MMM 3M Company: Had A Great Run In The Last Three Years, But Too Expensive To Buy Now (Seeking Alpha) https://seekingalpha.com/article/4950572-3m-stock-great-run-last-three-years-too-expensive-buy-now
-· NVDA Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist (CNBC) https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmaker-stock-is-too-cheap-for-huang-to-resist.html
-· MU Micron may be sitting on a 'substantial' surprise (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/micron-may-be-sitting-on-a-substantial-surprise-103953207.html
-· BTC Hyperscale Data Held Approximately $56 Million of Bitcoin, Cash and Restricted Cash as of September 27, 2026, Representing Approximately 153% of the… (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:5e8b2d668e161:0-hyperscale-data-held-approximately-56-million-of-bitcoin-cash-and-restricted-cash-as-of-september-27-2026-representing-approximately-153-of-the-market-capitalization-of-its-common-stock/
-· INTC Intel: An Overlooked Business And A Ticking Clock (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4950596-intel-an-overlooked-business-and-a-ticking-clock
-· BTC Bitcoin-Backed Stablecoin? Michael Saylor Says Digital Dollars Could Offer 7% Yield (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:211068db6094b:0-bitcoin-backed-stablecoin-michael-saylor-says-digital-dollars-could-offer-7-yield/
-· (+11 manchetes; lista completa em eventos/noticias.json)
+· (+19 manchetes; lista completa em eventos/noticias.json)
