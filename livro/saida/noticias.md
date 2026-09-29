@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 21h56
+NOTÍCIAS E FATOS · 29/09 08h33
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 438 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 461 veículo fora da lista, 49 sem ativo, 40 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,41 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
+Investing.com · 29/09 08h24 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/amd-stock-outlook-is-it-still-a-buy-at-39x-2027-earnings-93CH-4857684
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Investing.com: AMD stock outlook: Is it still a buy at 39x 2027 earnings?; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 29/09 08h24
+id: E05-AMD-b6df43dec9-2026-09-29 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · Com oferta somada de R$ 24,85 bi de Itaú e BTG, Fiagros "colhem" recorde de captação
+NeoFeed · 29/09 08h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – De janeiro a agosto, as ofertas desses Fundo de Investimento em Cadeias Agroindustriais somaram R$ 9,9 bilhões, segundo dados da Anbima, superando os R$ 8,85 bilhões captados em todo o ano de 2023, até então o recorde d…
+  – O volume de 2026 já é 54% maior que os R$ 6,43 bilhões captados em todo o ano passado.
+  – Na comparação com o mesmo período de 2025, quando os Fiagros levantaram R$ 2,26 bilhões, o valor é 339% maior.
+  – O número de ofertas acompanha o movimento: foram 85 emissões encerradas em oito meses, contra 57 em todo o ano de 2025.
+  – Itaú e BTG Pactual estão com ofertas de Fiagros em distribuição que podem somar até R$ 24,85 bilhões, mais que o dobro de tudo o que a indústria captou até agosto.
+  – Só no valor-base, as duas emissões equivalem a mais de um quinto do patrimônio de R$ 65,8 bilhões dos Fiagros.
+Link: https://neofeed.com.br/negocios/com-oferta-somada-de-r-2485-bi-de-itau-e-btg-fiagros-colhem-recorde-de-captacao/
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: ITUB4
+Como falar: 'saiu no NeoFeed: Com oferta somada de R$ 24,85 bi de Itaú e BTG, Fiagros "colhem" recorde de captação; confirmar o número no texto antes de repassar'
+Fonte: NeoFeed 29/09 08h00
+id: E05-ITUB4-fe62f4d135-2026-09-29 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Key facts: NVIDIA raises buyback by $150B; to buy Hugging Face for $13B
+TradingView (Reuters) · 29/09 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:ccb6645d38f18:0-key-facts-nvidia-raises-buyback-by-150b-to-buy-hugging-face-for-13b/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): Key facts: NVIDIA raises buyback by $150B; to buy Hugging Face for $13B; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/09 04h00
+id: E05-NVDA-83a7d983ec-2026-09-29 · status: pendente
 
 [ATENÇÃO] E05 · AMD · AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion
 CNBC · 28/09 17h10 · + Bloomberg · licença: resumo
@@ -70,7 +104,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: AMD
 Como falar: 'saiu no CNBC: AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion; confirmar o número no texto antes de repassar'
 Fonte: CNBC 28/09 17h10
-id: E05-AMD-582d3528a3-2026-09-28 · status: pendente
+id: E05-AMD-582d3528a3-2026-09-28 · status: expirado
 
 [ATENÇÃO] E05 · MU · Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print
 Investing.com · 28/09 15h19 · fonte única · licença: manchete
@@ -275,8 +309,23 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (154)
+## OUTRAS NOTÍCIAS (só manchete) (169)
 
+· KLBN4 Suzano ou Klabin? XP mantém compra e aponta qual ação está mais exposta à alta da celulose (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/suzano-ou-klabin-xp-mantem-compra-e-aponta-qual-acao-esta-mais-exposta-a-alta-da-celulose/
+· BTC Bitcoin and ethereum prices today, Tuesday, September 29, 2026: Crypto prices moving higher in early trading (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-29-2026-crypto-prices-moving-higher-in-early-trading-111939975.html
+· MMM 3M Company: Had A Great Run In The Last Three Years, But Too Expensive To Buy Now (Seeking Alpha) https://seekingalpha.com/article/4950572-3m-stock-great-run-last-three-years-too-expensive-buy-now
+· NVDA Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist (CNBC) https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmaker-stock-is-too-cheap-for-huang-to-resist.html
+· MU Micron may be sitting on a 'substantial' surprise (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/micron-may-be-sitting-on-a-substantial-surprise-103953207.html
+· BTC Hyperscale Data Held Approximately $56 Million of Bitcoin, Cash and Restricted Cash as of September 27, 2026, Representing Approximately 153% of the… (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:5e8b2d668e161:0-hyperscale-data-held-approximately-56-million-of-bitcoin-cash-and-restricted-cash-as-of-september-27-2026-representing-approximately-153-of-the-market-capitalization-of-its-common-stock/
+· INTC Intel: An Overlooked Business And A Ticking Clock (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4950596-intel-an-overlooked-business-and-a-ticking-clock
+· BTC Bitcoin-Backed Stablecoin? Michael Saylor Says Digital Dollars Could Offer 7% Yield (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:211068db6094b:0-bitcoin-backed-stablecoin-michael-saylor-says-digital-dollars-could-offer-7-yield/
+· USDBRL Pesquisa Atlas divide espaço com Pnad, Caged e relatório de emprego nos EUA; Ibovespa em dólar cai nesta terça-feira (29) (Money Times) https://www.moneytimes.com.br/pesquisa-atlas-divide-espaco-com-pnad-caged-e-relatorio-de-emprego-nos-eua-ibovespa-em-dolar-cai-nesta-terca-feira-29-rens/
+· UST Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-seven-week-093150030.html
+· NVDA Nvidia (Yahoo Finance) https://sg.finance.yahoo.com/news/nvidia-092454217.html
+· AMD AMD snags AI’s ‘godmother’ (Fortune) https://fortune.com/2026/09/29/amd-snags-worldlabs-fei-fei-li/
+· JPM A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech. (MarketWatch) https://news.google.com/rss/articles/CBMixAFBVV95cUxORGtOR29mbUc3ZFpNeEJaVHh6emxDUDJ1MkE3bXBPMS1NTFdHV0ljR2FaM1VrbUdia05rVkd0T1RsOWtiajk3QU5jU2F0OFM2QWRWV3V0aWk2NWxKLVE4M3MwUWF0VnNuMGx3dEpIcjZwRnd6MTZSeUhoUXAwRDZBTlprdDR3dTVPdndkaFhtbUFoWHhkYmZPYUgwdHdPNjFlTy1rU3pPbi0tSUJaQi1qOTgzUndVZTRCdTlpU3NfTGtHVDNV?oc=5
+· MU Micron Earned More in 3 Months Than Tesla Did in 3 Years. Prediction: It Will Be Worth More Than Tesla Before 2028. (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjRldklBcW9xaVljMHQtaks4dDg1eUFtQVhiZ1VIVFItQS1Ed1NLeTY3anFxc1Z0cWcxdFpTTXZibEhyWlVUT0dlM3NrVGlSVS1tWnlrT2VsRm9XcXhBOElTT3lMQVF0SWxVazJFMU5kblhEWWQyWU4yUjhxQ1pac3JRcTFDUG50ZUJKU281bDlTVDJQa3pV?oc=5
+· BTC Bitcoin ETF inflows of $2.4B tighten supply as exchanges lose 35,800 BTC in a single week (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbklvM2x4dk0wTXJaTndNcUtxUkZOanhFLXZDYmpSTzNUbUJpS05OcUdSZjZfZFFXeVRxR19KRmM5RDl2ZjcxTWptY3FYUnd5TW50ellZOFRoakUtQTdsTklxWXNVTDg5c1ZVUmRlay1OX0NkWWpZbFVPcmlra1prR3drcFdoT2R1RTgyOEhZRmVaYUNQWkN2aVZCWVVwWDJyOUc2V2lmM0RZRzFHMDVfcmRZZ2czOWQ4aWZ5WGhWQTlwSVhrZmZLMXlKNE1wamgzeHE0eVdHVmtKSXdaYUpwYXgzZ25IN1By?oc=5
 · AMZN Australia's CSL taps Amazon's cloud unit to boost research pipeline (Reuters) https://www.reuters.com/business/healthcare-pharmaceuticals/australias-csl-taps-amazons-cloud-unit-boost-research-pipeline-2026-09-29/
 · META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-4886528
 · AMD AMD makes a big bet on the next era of AI with World Labs acquisition (MarketWatch) https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c
@@ -322,19 +371,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · MU 5-Star Analyst Sees 80% Upside in Micron Stock (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:842ab4284094b:0-5-star-analyst-sees-80-upside-in-micron-stock/
 · UST Market Strategist Kristina Hooper Sees Risk Building Around AI Capex Over Surging Treasury Yields (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:81ee7bf99094b:0-market-strategist-kristina-hooper-sees-risk-building-around-ai-capex-over-surging-treasury-yields/
 · BTC Bitcoin traders chase shorts as rising Treasury yields weigh over gold (CoinDesk) https://www.coindesk.com/markets/2026/09/28/bitcoin-bears-pay-to-bet-on-further-declines-as-futures-positions-near-yearly-lows
-· USDBRL Tempo real: Ibovespa opera com volatilidade, eleições seguem no radar; dólar sobe (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
-· TSLA Can This Number Push Tesla Stock Higher? (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxOS211SGNBQVJPMXF1Z0JLSkNaRVZaX0VFWERycGF1U3Y0Y20zaDJTYkQ1dTVPazBWM1dQS3Faa0pvSkpkblJDRDVvOHFVbXNlMWNwMlgwZVhVd2x4R1d4SGVWVFhDR2xVMGhNRHRsT3JzWHhIbkQyVnZfT3dWWVlBblVNa3V0bjFTS2s0d3ZxclBZZkhIRkpvZnY3VQ?oc=5
-· USDBRL Ibovespa cai com pesquisas eleitorais e Treasuries; dólar avança a R$ 5,21 (CNN Brasil) https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWF5QmdSTjZDRXFJYkhzSU8wckJvbGg2UlgtbS1jYjl3M1pxRW83VDV1MDY4UWVaVEMxazd6dDl5TEhMWWNjaGs3Tm1LQlJWeC00a0tUa3ZvWDFBaGZjVUlhUVV0SG5nZ3VDZUVxOWsxVjhPb0lKQUFOaUxZNzFvRWhUV0I4QV9HdDY5RFZwbDVobUZoVzNOcTBuQVR1T3J4V3pvRFRR?oc=5
-· MU Micron Stock Gets Stunning Price Target Hike Just Before Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-gets-stunning-price-191458805.html
-· USDBRL Dólar hoje sobe a R$ 5,21 sob influência do exterior e de nova pesquisa (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28092026/
-· BRENT Wall St declines as oil prices, Treasury yields remain elevated (Reuters) https://www.reuters.com/business/wall-st-futures-drop-oil-spikes-after-trump-rejects-iran-peace-proposal-2026-09-28/
-· MU Micron Stock Falls on AI Jitters, But Q4 Earnings Could Spark a Rebound (Barron's) https://www.barrons.com/articles/micron-stock-price-ai-earnings-9aacdfd8
-· UST Gold's lustre dims as Treasury yields surge, markets bet on higher Fed rates (Reuters) https://www.reuters.com/world/india/golds-lustre-dims-treasury-yields-surge-markets-bet-higher-fed-rates-2026-09-28/
-· BRENT Dólar sobe a R$ 5,22 e Bolsa patina, com petróleo e eleições no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/28/dolar-bolsa-abre-hoje-28-de-setembro-de-2026.ghtm
-· GOOGL Thales Expands Collaboration with Google Cloud to Help Secure Agentic AI Workflows (Business Wire) https://www.businesswire.com/news/home/20260928647188/en/Thales-Expands-Collaboration-with-Google-Cloud-to-Help-Secure-Agentic-AI-Workflows
-· NVDA Nvidia: Ramping Up The Buyback (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950338-nvidia-ramping-up-the-buyback
-· TSLA Why Tesla Stock Is Tied to SpaceX Ahead of a Big Week for the EV Maker (Barron's) https://www.barrons.com/articles/tesla-stock-price-deliveries-roadster-spacex-merger-4bb9ce44
-· GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0
-· GFS GLOBALFOUNDRIES Inc. (GFS) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/GFS/
-· MRVL RBC Capital reiterates Marvell stock rating on AI growth outlook By Investing.com (Investing.com) https://au.investing.com/news/stock-market-news/rbc-capital-reiterates-marvell-stock-rating-on-ai-growth-outlook-93CH-4662256
-· (+94 manchetes; lista completa em eventos/noticias.json)
+· (+109 manchetes; lista completa em eventos/noticias.json)
