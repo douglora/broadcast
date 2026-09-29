@@ -28,7 +28,7 @@ import time
 from datetime import date, datetime, timedelta, timezone
 
 from livro.http import Cliente, HttpError
-from livro.fontes.yahoo import HOSTS, parse_chart, preparar_sessao
+from livro.fontes.yahoo import HOSTS, baixar_serie, parse_chart, preparar_sessao
 
 # UCITS da carteira modelo e do universo de IA/infraestrutura, na linha em USD da LSE,
 # mais as linhas antigas (VHYL, VWRL) para cobrir 2018 e as referencias americanas.
@@ -117,6 +117,21 @@ def baixar_diario(cli: Cliente, simbolo: str, crumb, desde: datetime) -> dict:
     raise ultimo or HttpError(0, "sem resposta", simbolo)
 
 
+def preencher_lacunas(cli: Cliente, simbolo: str, crumb, d: dict) -> None:
+    """Com period1/period2 o Yahoo pulou o pregao de 28/09/2026 em todas as series da LSE
+    enquanto o de 29/09 estava aberto; com range=3mo a barra vem. Completa as datas que
+    faltam no ultimo trimestre sem mexer nas que ja vieram."""
+    try:
+        curto = baixar_serie(cli, simbolo, "3mo", crumb)
+    except Exception:
+        return
+    datas = {b[0] for b in d["barras"]}
+    novas = [b for b in curto["barras"] if b[0] not in datas and b[4] is not None]
+    if novas:
+        d["barras"] = sorted(d["barras"] + novas, key=lambda b: b[0])
+        d["lacunas_preenchidas"] = [b[0] for b in novas]
+
+
 def series(cli: Cliente, crumb, simbolos: list[str], saida: str, falhas: list) -> dict:
     ok = {}
     for s in simbolos:
@@ -129,6 +144,7 @@ def series(cli: Cliente, crumb, simbolos: list[str], saida: str, falhas: list) -
                 # confere se veio diario: 60 barras recentes precisam caber em poucos meses
                 if len(barras) >= 60 and len({b[0][:7] for b in barras[-60:]}) > 6:
                     raise ValueError("serie nao diaria")
+                preencher_lacunas(cli, s, crumb, d)
                 gravar(os.path.join(saida, "series", nome_arquivo(s) + ".json"), d)
                 b = d["barras"]
                 ok[s] = {"barras": len(b), "de": b[0][0] if b else None, "ate": b[-1][0] if b else None,
