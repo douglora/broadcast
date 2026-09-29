@@ -1,6 +1,18 @@
-NOTÍCIAS E FATOS · 29/09 15h21
+NOTÍCIAS E FATOS · 29/09 15h32
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 451 veículo fora da lista, 47 sem ativo, 6 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 1 novas (18 consultas; descartadas: 451 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 1 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 29/09/2026 15:28 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572416
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 29/09
+id: E03-VALE3-1572416-2026-09-29 · status: linha
+
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
 
@@ -96,8 +108,9 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (90)
+## OUTRAS NOTÍCIAS (só manchete) (91)
 
+· AMD One Market Could Transform AMD’s Growth Story (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/one-market-could-transform-amd-163013833.html
 · BBDC4 Petrobras (PETR4), Bradesco (BBDC4) e mais: quais são as ações preferidas do UBS no Brasil? (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-e-mais-quais-sao-as-acoes-preferidas-do-ubs-no-brasil/
 · LITE Lumentum Stock: I Bought At $800; 2027 Could Change The Story (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4950767-lumentum-stock-i-bought-at-800-2027-could-change-the-story
 · VALE3 Vale (VALE3) cai 2% e caminha para a menor nível cotação do ano: o que está por trás da queda? (Money Times) https://www.moneytimes.com.br/vale-vale3-cai-2-e-caminha-para-a-menor-nivel-cotacao-do-ano-o-que-esta-por-tras-da-queda-lils/
@@ -157,5 +170,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · VALE3 Swing trade: BB Investimentos recomenda a venda de Vale (VALE3) e Prio (PRIO3) nesta terça (29) (Money Times) https://www.moneytimes.com.br/swing-trade-bb-investimentos-recomenda-a-venda-de-vale-vale3-e-prio-prio3-nesta-terca-29-ceci/
 · USDBRL Dólar abre em queda nesta terça após desemprego apresentar menor índice desde 2012 (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-nesta-terca-apos-desemprego-apresentar-menor-indice-desde-2012.shtml
 · JPM MU Stock Gains Ahead Of Q4 Earnings: JPMorgan Sees 'Constructive' Setup Amid Netlist Legal Fight (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:6d4694c66094b:0-mu-stock-gains-ahead-of-q4-earnings-jpmorgan-sees-constructive-setup-amid-netlist-legal-fight/
-· NVDA Lumentum's outlook brightens on Nvidia's co-packaged optics scale-out: GF (Seeking Alpha) https://seekingalpha.com/news/4647991-lumentums-outlook-brightens-on-nvidias-co-packaged-optics-scale-out-gf
-· (+30 manchetes; lista completa em eventos/noticias.json)
+· (+31 manchetes; lista completa em eventos/noticias.json)
