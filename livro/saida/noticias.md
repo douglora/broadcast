@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 29/09 17h21
+NOTÍCIAS E FATOS · 29/09 18h13
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 460 veículo fora da lista, 43 sem ativo, 21 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 449 veículo fora da lista, 46 sem ativo, 10 teto) · cvm ok 1 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+
+[INFO] E03 · ALUP4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 29/09/2026 17:42 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572560
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: ALUP4
+Como falar: 'a Alupar publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 29/09
+id: E03-ALUP4-1572560-2026-09-29 · status: linha
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 29/09/2026 17:05 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -39,7 +48,16 @@ Fonte: SEC EDGAR 2026-09-29
 id: E04-BABA-26111915-2026-09-29 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (8)
+
+[ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate
+Reuters · 29/09 17h47 · fonte única · licença: manchete
+Link: https://www.reuters.com/business/autos-transportation/tesla-lines-up-30-billion-credit-lines-capex-robotaxi-push-accelerate-2026-09-29/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Reuters: Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate; confirmar o número no texto antes de repassar'
+Fonte: Reuters 29/09 17h47
+id: E05-TSLA-8c4acd630e-2026-09-29 · status: pendente
 
 [ATENÇÃO] E05 · AMD · AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club
 Yahoo Finance · 29/09 11h10 · fonte única · licença: resumo
@@ -133,8 +151,17 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (113)
+## OUTRAS NOTÍCIAS (só manchete) (122)
 
+· USDBRL Bolsa volta a subir após 4 quedas; dólar cai a R$ 5,217 (Poder360) https://www.poder360.com.br/poder-economia/bolsa-volta-a-subir-apos-4-quedas-dolar-cai-a-r-5217/
+· GOOGL Magnite could be a big winner as DOJ takes aim at Google's ad dominance -- BofA (MGNI:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648193-magnite-could-be-a-big-winner-as-doj-takes-aim-at-googles-ad-dominance---bofa
+· PETR4 Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21 (Money Times) https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/
+· MU What Micron’s next earnings could reveal about the AI chip market (Yahoo Finance) https://finance.yahoo.com/video/micron-next-earnings-could-reveal-202000674.html
+· UST US Equity Markets End Lower After Higher Treasury Yields, Fed Governor's Remarks on Inflation (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201138391.html
+· AMD Could Advanced Micro Devices Stock Help You Become a Millionaire? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-advanced-micro-devices-stock-195200598.html
+· CVX Could $1K in Chevron Stock Have Doubled in 10 Years? Explore Its Track Record (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-1k-chevron-stock-doubled-173404305.html
+· DI Selic cai para 13,75% e impulsiona a economia real (Valor Economico) https://valor.globo.com/google/amp/patrocinado/dino/noticia/2026/09/29/selic-cai-para-1375-e-impulsiona-a-economia-real-1.ghtml
+· LITE Lumentum Holdings Inc. (LITE) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE95bHdrbUUyN2c0bExGNEs3UzhlZVA2RGpvZG15VDloQlJwVEl4Q1lBLWowSHBBV3RXVlVzZ0t6SHRnb1pHdzdwUXhSX0EzaHZTZlE?oc=5
 · USDBRL Dólar à vista fecha em baixa de 0,25%, a R$5,2132 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-025-a-r52132-na-venda-2078595
 · DI Caged mostra mercado de trabalho ainda aquecido e desafiando mais cortes na Selic (InfoMoney) https://www.infomoney.com.br/economia/caged-agosto-brasil-cria-empregos-formais/
 · PLTR Palantir: Buy At An Elite Growth Valuation (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4950788-palantir-buy-at-an-elite-growth-valuation
@@ -186,13 +213,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · BRENT Dow Jones hoje opera em queda; petróleo recua com tentativa de acordo entre EUA e Irã; (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-no-pre-mercado-em-meio-a-altas-de-petroleo-e-dolar-os-destaques-das-bolsas-de-ny/
 · BTC Bitcoin To $1 Million? Ric Edelman Says A 2% Global Allocation Could Get BTC There (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:83600fd9e094b:0-bitcoin-to-1-million-ric-edelman-says-a-2-global-allocation-could-get-btc-there/
 · NVDA CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD? (Yahoo Finance) https://au.finance.yahoo.com/news/cbrs-backlog-rides-strong-ai-151500299.html
-· AMD With AMD’s $8.2 billion World Labs deal, Lisa Su and Fei-Fei Li show what a different AI future could look like (Fortune) https://fortune.com/2026/09/29/amd-world-labs-acquisition-lisa-su-fei-fei-li-women-ai-deal/
-· ETH Aztec relaunches zk.money privacy wallet on its Ethereum Layer 2 (The Block) https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174?utm_source=tradingview&utm_medium=rss
-· BBDC4 ‘Não será o fim da indústria’: CEO da Bradesco Asset vê espaço para fundos multimercados (Estadao) https://www.estadao.com.br/einvestidor/direto-da-faria-lima/nao-sera-o-fim-da-industria-ceo-da-bradesco-asset-ve-espaco-para-fundos-multimercados/
-· PLTR Palantir CEO Karp: AI has to work for the warfighter; has to work for enterprises; it has to be safe (CNBC) https://www.cnbc.com/video/2026/09/29/palantir-ceo-karp-ai-has-to-work-for-the-warfighter-has-to-work-for-enterprises-it-has-to-be-safe.html
-· AXIA3 Axia (AXIA3): JPMorgan vê 31% de retorno mesmo após corte no preço-alvo (InfoMoney) https://www.infomoney.com.br/mercados/axia-axia3-jpmorgan-ve-31-de-retorno-mesmo-apos-corte-no-preco-alvo/
-· PETR4 Petrobras fecha acordo para comprar gás dos EUA por mais de 20 anos (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-fecha-acordo-para-comprar-gas-dos-eua-por-mais-de-20-anos
-· UST Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45L0SE:0-dollar-gains-as-treasury-yields-top-5-aussie-slides-after-rba-hike/
-· LITE Why is Lumentum stock surging today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4923052
-· PETR4 Ibovespa cai com pressão da Vale e Petrobras; pesquisa eleitoral e dados de emprego ficam no radar (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-nova-pesquisa-atlas-divide-atencao-com-desemprego-e-contas-publicas/
-· (+53 manchetes; lista completa em eventos/noticias.json)
+· (+62 manchetes; lista completa em eventos/noticias.json)
