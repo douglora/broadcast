@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 28/09 18h13
+NOTÍCIAS E FATOS · 28/09 21h20
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 425 veículo fora da lista, 44 sem ativo, 10 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 435 veículo fora da lista, 44 sem ativo, 13 teto) · cvm ok 0 novos de 5 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -54,7 +54,23 @@ Fonte: CVM 25/09
 id: E03-ALUP4-88e857a6-2026-09-25 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · AMD · AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion
+CNBC · 28/09 17h10 · + Bloomberg · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Advanced Micro Devices said Monday that it's agreed to acquire World Labs, the San Francisco-based AI lab founded by industry pioneer Fei-Fei Li, for $8.2 billion.
+  – World Labs is developing a so-called world model, which can be used to simulate 3D environments.
+  – In a demo presented by Li and AMD CEO Lisa Su earlier this year, the two executives showed a World Labs model called Marble creating a 3D scene out of a few images.
+  – "Intelligent agents, whether it's robots or vehicles or even tools, can learn inside very rich physics-aware digital worlds before they even need to be deployed into the real one, making them much safer," Li said at the…
+  – In a social media post on Monday, Li called Su a "great friend." "We're unwavering in our mission, and even more excited to continue building a world leading frontier research organization that is durable for the decade…
+  – The acquisition is the chipmaker's second largest on record, following the roughly $50 billion it paid for Xilinx in 2022.
+Link: https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: AMD
+Como falar: 'saiu no CNBC: AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion; confirmar o número no texto antes de repassar'
+Fonte: CNBC 28/09 17h10
+id: E05-AMD-582d3528a3-2026-09-28 · status: pendente
 
 [ATENÇÃO] E05 · MU · Micron earnings outlook: technicals, key levels, and beat streak ahead of Q4 print
 Investing.com · 28/09 15h19 · fonte única · licença: manchete
@@ -259,8 +275,23 @@ Fonte: Suno Noticias 27/09 10h25
 id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (130)
+## OUTRAS NOTÍCIAS (só manchete) (145)
 
+· META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-5609931
+· AMD AMD just spent $8.2 billion to enlist the 'Godmother of AI' (Yahoo Finance) https://finance.yahoo.com/technology/article/amd-just-spent-82-billion-to-enlist-the-godmother-of-ai-230634166.html
+· BABA ALIBABA DEADLINE: ROSEN, THE FIRST FILING FIRM, Encourages (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/28/3370331/0/en/alibaba-deadline-rosen-the-first-filing-firm-encourages-alibaba-group-holding-limited-investors-to-secure-counsel-before-important-october-5-deadline-in-securities-class-action-fir.html
+· JPM JPMorgan Securities (Thailand) Ltd Warrant 2025-11.11.26 on Bangkok Airways (TradingView (Reuters)) https://www.tradingview.com/symbols/SET-BA41C2611T/financials-statistics-and-ratios/price-earnings-fwd/
+· USDBRL Dólar sobe para R$ 5,22 e atinge maior nível desde março (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-sobe-para-r-522-e-atinge-maior-nivel-desde-marco
+· USDBRL Em compasso de espera, Bolsa perde força e dólar sobe na reta final do 1º turno (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-dolar-primeiro-turno-eleicoes-2026-4-pregoes/
+· AMD AMD Bolsters AI Vision With $8.2B Acquisition Of Fei-Fei Li’s World Labs, Stock Drops 4% (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:c0b6118cc094b:0-amd-bolsters-ai-vision-with-8-2b-acquisition-of-fei-fei-li-s-world-labs-stock-drops-4/
+· META Meta Platforms: Ignore The CapEx Fears, Buy The Hidden Ecosystem (NASDAQ:META) (Seeking Alpha) https://seekingalpha.com/article/4950396-meta-platforms-ignore-the-capex-fears-buy-the-hidden-ecosystem
+· NOK Nokia (NOK) is Getting More Exposure to AI Spending. Is the Opportunity Bigger than it Looks? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/nokia-nok-getting-more-exposure-212853072.html
+· JPM Why JPMorgan Chase & Co. (JPM) Dipped More Than Broader Market Today (Yahoo Finance) https://au.finance.yahoo.com/news/why-jpmorgan-chase-co-jpm-204503686.html
+· NVDA Nvidia Just Put a Record $150 Billion Behind Its Own Stock (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2415786b9094b:0-nvidia-just-put-a-record-150-billion-behind-its-own-stock/
+· USDBRL Ibovespa perde 183 mil pontos com eleição no radar; dólar vai a R$ 5,22 (Exame) https://exame.com/invest/mercados/ibovespa-perde-183-mil-pontos-com-eleicao-no-radar-dolar-vai-a-r-522/
+· USDBRL Dólar valoriza 0,85% e vai a R$ 5,225; Bovespa cai 0,26% e fecha com 182.991 pontos em 28/09/2026 (UOL Economia) https://www.uol.com.br/flash/?c=3c14f9ab1e330b5182e1ba9ef802d7920260928
+· USDBRL Dólar sobe a R$ 5,22, maior valor de fechamento em 6 meses, com exterior e eleição (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxNLW5wVndiSFdOdDBiUkZHM3ptVThwYV81Tk5CU1l2LUlMWmRkRzNna3RrckprSmVrV3dsZlhQNHQtdTVLalNBUm0xaC1meWRoVHdUdlN3VHQ0RlVnd0ZTOFFEaXNORmxfS241eXNtWFRyV2JmeUExWS1HYW5ZcldScVVIcmFfeXRjREw3Q2pCbk9xWmZSZENGVFFrNmzSAaIBQVVfeXFMTU5nQTFvTldQMFJDS3ZlRnpnSXB4Zk5TTEdkRUlzOTY3SldyVnhyOWtQQjNOeWEyeVhFMkotd2R3RFJiWjhXZExEWndtMFhCenNTNS1jZHhhQkdQdVQ5QWVxOWg0YjFlSlY2VlRqb056ZUpVRVRGbjlBbWV5TnBwQldnejh4YTdrWXkzSlB0MURieUQzMVpTMjhGQ01udmhYUjR3?oc=5
+· USDBRL Tempo real: Ibovespa cai com eleições em foco e exterior; dólar sobe a R$ 5,22 (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTE5vbDZRRk8yQ0tVV2JDVGlRWlhOakNfWnIwUzhQR2M5SG9rR001LUt5QUlLQ3A3eTBBb2V0cUs5aE92bk1ybkU0LUU4aG1qa1NzeVcwcG5scWQxWnVxT0Zacjd5UGZfRFQ1VFY0?oc=5
 · UST Why US Treasury Yields Have Risen Above 5% (Investing.com) https://www.investing.com/analysis/why-us-treasury-yields-have-risen-above-5-200688548
 · USDBRL Dólar sobe 0,85% e fecha a R$ 5,225; Ibovespa cai 0,26% (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-085-e-fecha-a-r-5225-ibovespa-cai-026/
 · PETR4 Petróleo encosta em US$ 109 e faz Prio (PRIO3), Petrobras (PETR4) e petroleiras saltarem até 4% (Suno Noticias) https://www.suno.com.br/noticias/petroleo-prio3-petrobras-petr4-acoes-alta-mt/
@@ -306,19 +337,4 @@ id: E05-BBDC4-23bdf50012-2026-09-27 · status: linha
 · PLTR Palantir Did Not Win the FAA Contract for SMART. Time to Buy the Stock Anyway? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-did-not-win-faa-161300032.html
 · GOOGL Piper Sandler reiterates Overweight rating on Alphabet, $400 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:b9a8941babbd0:0-piper-sandler-reiterates-overweight-rating-on-alphabet-400-price-target/
 · BTC BitMine’s Ethereum Stack Crosses 6M, While Strategy Taps MSTR Sales To Buy BTC And STRC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:94610716f094b:0-bitmine-s-ethereum-stack-crosses-6m-while-strategy-taps-mstr-sales-to-buy-btc-and-strc/
-· META Meta Platforms, Inc. (META) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NdF9xWW1RaDk2MmNFdk5acnJHSVhGM0dqcF90M081cUplRkpyVjZmakJsdS11TFhOcnVVRnM0T1RXcEo5ZzBITzA1N1BsaWVacVE?oc=5
-· NVDA Why Nvidia (NVDA) Stock Is Trading Up Today (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipAFBVV95cUxQbzEzV0pYOUN4NV9DOFJCcTZ0VUVYT3E1VE0wbEQya0V1VzBLOE42MzBoQTdaaFZ3bkNSUkpEaEJNUGppejdtb1VWQkRBZ3kzX1l0ZTkzb2lFSjFkby1temxWUTVHZHNVNkxwZ2RJVUM3WmozTUpITVVTdjlvMzliT3B4LVJFcWcxUnN6VFVvQkJNUWtFRFVGZDE0RTFVbTR5cFhFRA?oc=5
-· BBDC4 Eleição: 3 cestas de ações para diferentes resultados nas urnas, segundo Bradesco BBI (InfoMoney) https://www.infomoney.com.br/mercados/eleicao-3-cestas-de-acoes-para-diferentes-resultados-nas-urnas-segundo-bradesco-bbi/
-· MU Micron has a chance to set the record straight with its earnings report (MarketWatch) https://www.marketwatch.com/story/micron-has-a-chance-to-set-the-record-straight-with-its-earnings-report-a98fb935
-· BTC Bitcoin: The Beginning Of The Next Bull Market (Cryptocurrency:BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4950318-bitcoin-the-beginning-of-the-next-bull-market
-· BRENT Dólar supera R$ 5,20 com petróleo e eleições no radar; Ibovespa oscila (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-28-setembro-2026/
-· MU Micron’s Post-Earnings Estimate Hikes May Lag Previous Quarters, Flags Morgan Stanley (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:a54b2dd35094b:0-micron-s-post-earnings-estimate-hikes-may-lag-previous-quarters-flags-morgan-stanley/
-· BRENT Preço do petróleo sobe, após Trump rejeitar proposta de paz do Irã (Agencia Brasil) https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/preco-do-petroleo-sobe-apos-trump-rejeitar-proposta-de-paz-do-ira
-· BTC Polymarket launches 15-minute Bitcoin price markets on US app (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:ac19b6d05094b:0-polymarket-launches-15-minute-bitcoin-price-markets-on-us-app/
-· JPM JPMorgan Weighs $3.8B Construction Loan for Extell UWS Tower (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/jpmorgan-weighs-3-8b-construction-161526015.html
-· MRVL Marvell Has Revenue Acceleration Potential in 2027, 2028, RBC Says (Yahoo Finance) https://finance.yahoo.com/technology/articles/marvell-revenue-acceleration-potential-2027-151919862.html
-· MU Micron's 279% Rally Faces an 8.6% Earnings Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:47400ffa6094b:0-micron-s-279-rally-faces-an-8-6-earnings-test/
-· MRVL Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxNZGkwSmxaTlVBWllZU3h5djBUZnlTQmZBOVdvY3pDaXU2anFPR0t1R29qeFlyYkVkNmU5ZElTb3paaFlNNTlLdzlnbmZta1cwdkcxNlZad2RoakljU1lyOHM3dERJa0NiTGtITGVGdjZvOVRGRm5zRkU5RDV1NXN0TnAyYWtDWWdhZlZVSElRQjJUbTk5MFluSjZ1Q0Rya0Zl?oc=5
-· GOOGL Prediction: Google’s Next Chapter Could Be Worth Trillions More (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPRDNodXFkZkExY2tiSTV4LUVFR0l6T1lUNEFTbUZjNWdFejdJbDY4a3RvakdKa3FWaFJPQ1B5dnRjZUJ1cTMtWTAwWlhwaWhJNWlkRmlKWm01Vm9MTnlaem5KSnctNWpjYklwTGFXb2VvR0VyOEtzODBDR0pJZVlXai1GaXZ4UFNCZHZGRW1pSWtoTjNaTEpEYUxZZ2FXRlRpWVUw?oc=5
-· ETH Current price of Ethereum for September 28, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-28-2026/
-· (+70 manchetes; lista completa em eventos/noticias.json)
+· (+85 manchetes; lista completa em eventos/noticias.json)
