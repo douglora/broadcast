@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 29/09 13h21
+NOTÍCIAS E FATOS · 29/09 13h54
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 475 veículo fora da lista, 43 sem ativo, 5 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 473 veículo fora da lista, 43 sem ativo, 27 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
 
@@ -96,8 +96,17 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (62)
+## OUTRAS NOTÍCIAS (só manchete) (71)
 
+· AMD AMD: Why I Say 80x Forward P/E Doesn't Matter This Time (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950731-amd-why-i-say-80x-forward-pe-doesnt-matter-this-time
+· GOOGL Google Cloud Expands Gemini Enterprise Security Agent Catalog With 24 Partner Integrations (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45L1SJ:0-google-cloud-expands-gemini-enterprise-security-agent-catalog-with-24-partner-integrations/
+· AXIA3 Axia: JPMorgan reduz preço-alvo, mas estima retorno de 31% (ADVFN) https://br.advfn.com/jornal/2026/09/axia-jpmorgan-reduz-preco-alvo-mas-estima-retorno-de-31
+· USDBRL Dólar vira para o positivo após taxas dos Treasuries subirem; Ibovespa cai (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45L0QW:0/
+· NVDA Nvidia: A Deep Analysis About The AI CapEx (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950726-nvidia-a-deep-analysis-about-the-ai-capex
+· EQTL3 Copasa privatizada começa a ganhar forma com novo comando vindo da Equatorial (NeoFeed) https://neofeed.com.br/economia/copasa-privatizada-comeca-a-ganhar-forma-com-novo-comando-vindo-da-equatorial/
+· BRENT Dow Jones hoje opera em queda; petróleo recua com tentativa de acordo entre EUA e Irã; (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-no-pre-mercado-em-meio-a-altas-de-petroleo-e-dolar-os-destaques-das-bolsas-de-ny/
+· BTC Bitcoin To $1 Million? Ric Edelman Says A 2% Global Allocation Could Get BTC There (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:83600fd9e094b:0-bitcoin-to-1-million-ric-edelman-says-a-2-global-allocation-could-get-btc-there/
+· NVDA CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD? (Yahoo Finance) https://au.finance.yahoo.com/news/cbrs-backlog-rides-strong-ai-151500299.html
 · AMD With AMD’s $8.2 billion World Labs deal, Lisa Su and Fei-Fei Li show what a different AI future could look like (Fortune) https://fortune.com/2026/09/29/amd-world-labs-acquisition-lisa-su-fei-fei-li-women-ai-deal/
 · ETH Aztec relaunches zk.money privacy wallet on its Ethereum Layer 2 (The Block) https://www.theblock.co/news/defi/2026-09-29-aztec-zk-money-privacy-wallet-ethereum-layer-2-417174?utm_source=tradingview&utm_medium=rss
 · BBDC4 ‘Não será o fim da indústria’: CEO da Bradesco Asset vê espaço para fundos multimercados (Estadao) https://www.estadao.com.br/einvestidor/direto-da-faria-lima/nao-sera-o-fim-da-industria-ceo-da-bradesco-asset-ve-espaco-para-fundos-multimercados/
@@ -149,13 +158,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · BTC Hyperscale Data Held Approximately $56 Million of Bitcoin, Cash and Restricted Cash as of September 27, 2026, Representing Approximately 153% of the… (TradingView (Reuters)) https://www.tradingview.com/news/prnewswire:5e8b2d668e161:0-hyperscale-data-held-approximately-56-million-of-bitcoin-cash-and-restricted-cash-as-of-september-27-2026-representing-approximately-153-of-the-market-capitalization-of-its-common-stock/
 · INTC Intel: An Overlooked Business And A Ticking Clock (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4950596-intel-an-overlooked-business-and-a-ticking-clock
 · BTC Bitcoin-Backed Stablecoin? Michael Saylor Says Digital Dollars Could Offer 7% Yield (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:211068db6094b:0-bitcoin-backed-stablecoin-michael-saylor-says-digital-dollars-could-offer-7-yield/
-· USDBRL Pesquisa Atlas divide espaço com Pnad, Caged e relatório de emprego nos EUA; Ibovespa em dólar cai nesta terça-feira (29) (Money Times) https://www.moneytimes.com.br/pesquisa-atlas-divide-espaco-com-pnad-caged-e-relatorio-de-emprego-nos-eua-ibovespa-em-dolar-cai-nesta-terca-feira-29-rens/
-· UST Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise (Yahoo Finance) https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-seven-week-093150030.html
-· NVDA Nvidia (Yahoo Finance) https://sg.finance.yahoo.com/news/nvidia-092454217.html
-· AMD AMD snags AI’s ‘godmother’ (Fortune) https://fortune.com/2026/09/29/amd-snags-worldlabs-fei-fei-li/
-· JPM A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech. (MarketWatch) https://news.google.com/rss/articles/CBMixAFBVV95cUxORGtOR29mbUc3ZFpNeEJaVHh6emxDUDJ1MkE3bXBPMS1NTFdHV0ljR2FaM1VrbUdia05rVkd0T1RsOWtiajk3QU5jU2F0OFM2QWRWV3V0aWk2NWxKLVE4M3MwUWF0VnNuMGx3dEpIcjZwRnd6MTZSeUhoUXAwRDZBTlprdDR3dTVPdndkaFhtbUFoWHhkYmZPYUgwdHdPNjFlTy1rU3pPbi0tSUJaQi1qOTgzUndVZTRCdTlpU3NfTGtHVDNV?oc=5
-· MU Micron Earned More in 3 Months Than Tesla Did in 3 Years. Prediction: It Will Be Worth More Than Tesla Before 2028. (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjRldklBcW9xaVljMHQtaks4dDg1eUFtQVhiZ1VIVFItQS1Ed1NLeTY3anFxc1Z0cWcxdFpTTXZibEhyWlVUT0dlM3NrVGlSVS1tWnlrT2VsRm9XcXhBOElTT3lMQVF0SWxVazJFMU5kblhEWWQyWU4yUjhxQ1pac3JRcTFDUG50ZUJKU281bDlTVDJQa3pV?oc=5
-· BTC Bitcoin ETF inflows of $2.4B tighten supply as exchanges lose 35,800 BTC in a single week (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbklvM2x4dk0wTXJaTndNcUtxUkZOanhFLXZDYmpSTzNUbUJpS05OcUdSZjZfZFFXeVRxR19KRmM5RDl2ZjcxTWptY3FYUnd5TW50ellZOFRoakUtQTdsTklxWXNVTDg5c1ZVUmRlay1OX0NkWWpZbFVPcmlra1prR3drcFdoT2R1RTgyOEhZRmVaYUNQWkN2aVZCWVVwWDJyOUc2V2lmM0RZRzFHMDVfcmRZZ2czOWQ4aWZ5WGhWQTlwSVhrZmZLMXlKNE1wamgzeHE0eVdHVmtKSXdaYUpwYXgzZ25IN1By?oc=5
-· AMZN Australia's CSL taps Amazon's cloud unit to boost research pipeline (Reuters) https://www.reuters.com/business/healthcare-pharmaceuticals/australias-csl-taps-amazons-cloud-unit-boost-research-pipeline-2026-09-29/
-· META Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/meta-platforms-ceo-mark-zuckerberg-sells-2136m-in-stock-93CH-4886528
-· (+2 manchetes; lista completa em eventos/noticias.json)
+· (+11 manchetes; lista completa em eventos/noticias.json)
