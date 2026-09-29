@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 29/09 16h21
+NOTÍCIAS E FATOS · 29/09 17h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 448 veículo fora da lista, 46 sem ativo, 4 teto) · cvm ok 0 novos de 1 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 460 veículo fora da lista, 43 sem ativo, 21 teto) · cvm ok 1 novos de 2 (2 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 29/09/2026 17:05 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572515
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 29/09
+id: E03-AXIA3-1572515-2026-09-29 · status: linha
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 29/09/2026 15:28 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -12,6 +21,22 @@ Ativos: VALE3
 Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 29/09
 id: E03-VALE3-1572416-2026-09-29 · status: linha
+
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · BABA · 6-K: 6-K
+SEC EDGAR · aceito 29/09 13h01 · FORM 6-K
+Do documento:
+  – 6-K  1  tm2626567d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – We are furnishing our Next Day Disclosure Return dated September 29, 2026 as Exhibit 99.1 of this Current Report on Form 6-K.
+  – ALIBABA GROUP HOLDING LIMITED   Date: September 29, 2026   By:   /s/ Kevin Jinwei ZHANG   Name:   Kevin Jinwei ZHANG   Title:   Company Secretary   4
+Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926111915/tm2626567d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: BABA
+Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-09-29
+id: E04-BABA-26111915-2026-09-29 · status: linha · íntegra disponível
 
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
@@ -108,8 +133,20 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (101)
+## OUTRAS NOTÍCIAS (só manchete) (113)
 
+· USDBRL Dólar à vista fecha em baixa de 0,25%, a R$5,2132 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-025-a-r52132-na-venda-2078595
+· DI Caged mostra mercado de trabalho ainda aquecido e desafiando mais cortes na Selic (InfoMoney) https://www.infomoney.com.br/economia/caged-agosto-brasil-cria-empregos-formais/
+· PLTR Palantir: Buy At An Elite Growth Valuation (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4950788-palantir-buy-at-an-elite-growth-valuation
+· TSLA Tesla's Semi Could Unlock a $17 Billion Software Opportunity (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:29b11bf3b094b:0-tesla-s-semi-could-unlock-a-17-billion-software-opportunity/
+· BTC Grayscale reports Zcash market cap rises to 1.5% of Bitcoin's in one year (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:3bee9d195094b:0-grayscale-reports-zcash-market-cap-rises-to-1-5-of-bitcoin-s-in-one-year/
+· MU JPMorgan Says Micron's Rally May Not Be Over (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c4f70b95d094b:0-jpmorgan-says-micron-s-rally-may-not-be-over/
+· TSM Wells Fargo Spots Unexpected Winner in TSMC's 2nm Race (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:840ac4e5c094b:0-wells-fargo-spots-unexpected-winner-in-tsmc-s-2nm-race/
+· AVGO Broadcom Stock Jumps Nearly 3.2% as $16.7 Billion AI Engine Faces Margin Test (Yahoo Finance) https://ca.finance.yahoo.com/news/broadcom-stock-jumps-nearly-3-184641753.html
+· ETH ETH Can Hit $10,000 If It Lives Up to 'World Computer' Promise, Analyst Argues (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d0f39b0d8094b:0-eth-can-hit-10-000-if-it-lives-up-to-world-computer-promise-analyst-argues/
+· MU Micron Q4 Preview: Market Expert Highlights $1,575 as Stock Price to Watch (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:2b127a341094b:0-micron-q4-preview-market-expert-highlights-1-575-as-stock-price-to-watch/
+· COHR PLTR vs. COHR: Which AI-Driven Tech Stock is a Better Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ff8762e85094b:0-pltr-vs-cohr-which-ai-driven-tech-stock-is-a-better-buy/
+· BRENT Brent Crude Drops as US SPR Release Boosts Supply (TradingView (Reuters)) https://www.tradingview.com/news/te_news:587819:0-brent-crude-drops-as-us-spr-release-boosts-supply/
 · ETH Current price of Ethereum for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-29-2026/
 · BTC Current price of Bitcoin for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-29-2026/
 · MRVL Marvell's Investor Day Could Ignite Another Rerating (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4950776-marvells-investor-day-could-ignite-another-massive-rerating
@@ -158,16 +195,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · UST Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45L0SE:0-dollar-gains-as-treasury-yields-top-5-aussie-slides-after-rba-hike/
 · LITE Why is Lumentum stock surging today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-4923052
 · PETR4 Ibovespa cai com pressão da Vale e Petrobras; pesquisa eleitoral e dados de emprego ficam no radar (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-nova-pesquisa-atlas-divide-atencao-com-desemprego-e-contas-publicas/
-· KO The Coca-Cola Company Announces Timing of Third Quarter 2026 Earnings Release (Business Wire) https://www.businesswire.com/news/home/20260929949392/en/The-Coca-Cola-Company-Announces-Timing-of-Third-Quarter-2026-Earnings-Release
-· BRENT Tempo real: Ibovespa recua com baixa do petróleo; dólar cai (Money Times) https://www.moneytimes.com.br/tempo-real-29-9-26-apsa-lils/
-· CVX Chevron (CVX): Is the Recent Decline a Temporary Setback or a Long-Term Opportunity? (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-recent-decline-temporary-133208530.html
-· BAC BAC Gains 17.4% in 6 Months: Should You Invest in the Stock Now? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:bb7fe0399094b:0-bac-gains-17-4-in-6-months-should-you-invest-in-the-stock-now/
-· MU Micron to report Q4 earnings, as memory boom powers on (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-to-report-q4-earnings-as-memory-boom-powers-on-153230577.html
-· AMD AMD: Path To $1,000 (Rating Upgrade) (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950700-amd-path-to-1000-rating-upgrade
-· GOOGL Magnite's Growth Outlook Improves 'Considerably' After Google Court Ruling, BofA Says (Yahoo Finance) https://ca.finance.yahoo.com/news/magnite-apos-growth-outlook-improves-152402700.html
-· USDBRL Dólar sobe a R$ 5,22 e Bolsa cai após dados de emprego e de crédito (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/29/dolar-bolsa-abre-hoje-29-de-setembro-de-2026.ghtm
-· MINERIO CSN Is Latest Brazilian Iron Ore Miner to Cut Output on Freight Costs (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-29/csn-is-latest-brazilian-iron-ore-miner-to-cut-output-on-freight-costs
-· ITUB4 Tupy entra em ponto de virada, diz Itaú BBA; banco eleva aposta na ação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tupy-entra-em-ponto-de-virada-diz-itau-bba-banco-eleva-aposta-na-acao/
-· MU Micron Q4 earnings on deck: What to expect (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648047-micron-q4-earnings-on-deck-what-to-expect
-· MU Micron earnings this week could test whether the memory boom has more room to run (CNBC) https://www.cnbc.com/2026/09/29/micron-earnings-this-week-could-test-whether-the-memory-boom-has-more-room-to-run.html
-· (+41 manchetes; lista completa em eventos/noticias.json)
+· (+53 manchetes; lista completa em eventos/noticias.json)
