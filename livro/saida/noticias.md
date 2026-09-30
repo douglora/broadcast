@@ -1,8 +1,21 @@
-NOTÍCIAS E FATOS · 30/09 18h12
+NOTÍCIAS E FATOS · 30/09 19h54
 
-Pernas: noticias ok 0 novas (18 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 18 falhas · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 22 novas (18 consultas; descartadas: 434 veículo fora da lista, 38 sem ativo, 24 teto) · cvm ok 3 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco ou Sociedade) comunica aos seus acionistas e ao mercado em geral que o Conselho d…
+CVM · entregue 30/09/2026 18:36
+Do documento:
+  – Serão beneficiados os acionistas que estiverem inscritos nos registros da Sociedade  em 13.10.2026 ( data-base de direito) , e as ações passarão a ser negociadas “ex - direito” aos juros intermediários a partir de 14.10…
+  – Os juros ora aprovados representam, aproximadamente, 19,8 vezes o valor dos juros  mensalmente pagos, líquidos de imposto de renda na fonte, e serão computados no  cálculo dos dividendos obrigatórios do exercício previs…
+  – Cidade de Deus, Osasco, SP, 30 de setembro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572956
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco o…'
+Fonte: CVM 30/09
+id: E03-BBDC4-1572956-2026-09-30 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
 CVM · entregue 30/09/2026 08:22
@@ -25,6 +38,24 @@ Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
 Fonte: CVM 30/09
 id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
+
+[INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 30/09/2026 19:34 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573013
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: PETR4
+Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 30/09
+id: E03-PETR4-1573013-2026-09-30 · status: linha
+
+[INFO] E03 · BBDC4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 30/09/2026 18:40 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572984
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 30/09
+id: E03-BBDC4-1572984-2026-09-30 · status: linha
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 30/09/2026 17:01 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -54,7 +85,92 @@ Fonte: SEC EDGAR 2026-09-30
 id: E04-MU-26000018-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · BBDC4 · Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o "Pix" internacional
+Seu Dinheiro · 30/09 19h34 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O conselho de administração do Bradesco aprovou a distribuição de R$ 3,8 bilhões na forma de juros sobre capital próprio (JCP).
+  – Os valores brutos por ação foram definidos em R$ 0,342389810 por ação ordinária (BBDC3) e R$ 0,376628790 por ação preferencial (BBDC4).
+  – Para garantir o pagamento é preciso estar posicionado nos papéis do banco no fechamento do pregão de 13 de outubro.
+  – A partir do dia 14, as ações passam a ser negociadas na condição "ex-direito".
+  – Leia Também O único detalhe que exige um pouco de paciência do investidor é o prazo de pagamento: o dinheiro cairá na conta até 30 de abril de 2027.
+  – Essa parcela residual, que representa 2,65% do total de ações emitidas no aumento de capital anunciado em julho, vai a leilão na B3 no dia 2 de outubro, às 10h30.
+Link: https://www.seudinheiro.com/2026/empresas/dia-cheio-no-bradesco-bbdc4-de-r-38-bilhoes-em-jcp-a-leilao-de-sobras-de-acoes-ate-o-pix-internacional-ccgg/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no Seu Dinheiro: Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 30/09 19h34
+id: E05-BBDC4-878e32afb9-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook
+Yahoo Finance · 30/09 19h18 · + Investing.com · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Memory giant Micron Technology reported its Q4 2026 earnings on Sept.
+  – 30, 2026, providing the latest insight into how the company is navigating a memory shortage caused by the AI boom.
+  – Last quarter, the company bragged about its pricing power, flexing 84.9% margins and issuing guidance which blew through expectations.
+  – Check back periodically for the latest: This story was originally published by TheStreet on Sep 30, 2026, where it first appeared in the Latest Business & Market News section.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-q4-2026-earnings-call-221852112.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/09 19h18
+id: E05-MU-5ada9f0547-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
+Estadao · 30/09 18h53 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-pagara-r-38-bilhoes-em-jcp-confira-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no Estadao: Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 30/09 18h53
+id: E05-BBDC4-0a605ec2db-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco aprova R$3,8 bi em JCP
+TradingView (Reuters) · 30/09 18h38 · fonte única · licença: manchete
+Link: https://br.tradingview.com/news/reuters.com,2026:newsml_S0N44S06R:0/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no TradingView (Reuters): Bradesco aprova R$3,8 bi em JCP; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/09 18h38
+id: E05-BBDC4-60fe8fcfe5-2026-09-30 · status: linha
+
+[ATENÇÃO] E05 · MU · Micron Outlines Upbeat Outlook, Reports Strong Results as Memory Prices Rise
+Yahoo Finance · 30/09 18h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Micron Technology (MU) provided a fiscal first-quarter outlook above Wall Street's estimates and rep   Upgrade to read this MT Newswires article and get so much more.
+  – A Silver or Gold subscription plan is required to access premium news articles.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-outlines-upbeat-outlook-reports-211449713.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Outlines Upbeat Outlook, Reports Strong Results as Memory Prices Rise; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/09 18h14
+id: E05-MU-4b6c0c6570-2026-09-30 · status: linha
+
+[ATENÇÃO] E05 · MU · Micron reports better-than-expected revenue and earnings, beats on guidance
+CNBC · 30/09 17h15 · fonte única · licença: resumo
+Link: https://www.cnbc.com/video/2026/09/30/micron-reports-better-than-expected-revenue-and-earnings-beats-on-guidance.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no CNBC: Micron reports better-than-expected revenue and earnings, beats on guidance; confirmar o número no texto antes de repassar'
+Fonte: CNBC 30/09 17h15
+id: E05-MU-7eebb8fddb-2026-09-30 · status: linha
+
+[ATENÇÃO] E05 · MU · Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold
+CNBC · 30/09 17h15 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – For the fiscal first quarter, Micron said it expects revenue of about $61.5 billion and adjusted earnings per share of $38.15.
+  – Analysts polled by LSEG had expected $35.40 in adjusted earnings per share on $57 billion in revenue.
+  – Micron's stock has soared more than 500% in the past year, benefiting from a worldwide supply crunch caused by historic levels of demand for memory chips needed for artificial intelligence models and workloads.
+  – Fourth-quarter DRAM revenue increased 343% from a year ago to $39.8 billion, representing 73% of total sales.
+  – That's why Micron is investing $250 billion to build two new campuses for making HBM.
+  – Micron holds the smallest HBM market share of the three, but its market cap has still topped $1.2 trillion.
+Link: https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no CNBC: Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold; confirmar o número no texto antes de repassar'
+Fonte: CNBC 30/09 17h15
+id: E05-MU-f24d946df6-2026-09-30 · status: linha
 
 [ATENÇÃO] E05 · MU · Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ)
 Seeking Alpha · 30/09 17h08 · fonte única · licença: manchete
@@ -204,8 +320,23 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (121)
+## OUTRAS NOTÍCIAS (só manchete) (136)
 
+· NVDA Nvidia Stock Can Top $400 in 5 Years If One Assumption Holds Up (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-top-400-5-223701566.html
+· BBDC4 Bradesco (BBDC4) leva sobras de ações a leilão na B3 após aumento de capital (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-leva-sobras-de-acoes-a-leilao-na-b3-apos-aumento-de-capital/
+· ITUB4 Tenda (TEND3) vai na contramão do Ibovespa e fecha em queda, mas Itaú BBA ainda tem motivos para considerar a ação atrativa (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/tenda-tend3-vai-na-contramao-do-ibovespa-e-fecha-em-queda-mas-itau-bba-ainda-tem-motivos-para-considerar-a-acao-atrativa/
+· BBDC4 Bradesco (BBDC4) pagará R$ 3,8 bilhões em juros sobre o capital próprio; veja quem tem direito (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-pagara-r-38-bilhoes-em-juros-sobre-o-capital-proprio-veja-quem-tem-direito-rnda/
+· LITE Lumentum's Best Opportunity Is Becoming The Laser Inside The AI Network (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4951171-lumentums-best-opportunity-is-becoming-the-laser-inside-the-ai-network
+· UST Update: US Equity Indexes Mixed as Treasury Yields Pile Pressure After Higher Consumer Spending Accompanies Soft Inflation Print (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-211043319.html
+· USDBRL Dólar hoje fecha em queda, a R$ 5,17, mas encerra mês estável (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-30092026/
+· KLBN4 Além da IA: o método desses três jovens para cruzar dados e um montar equity research da Klabin (Exame) https://news.google.com/rss/articles/CBMivwFBVV95cUxPa1p3YUtXTTE2VnNIRTg2TDZOWFZOSW1icEdrRVdpbWEzYmZYdGhsbGpiR3lHZUwyRjB6dzJGZ1JObF9pLVdfM0Y5VGVCam8xdUZCZHNvXzJtLUpNUi1DZllBMXJRSU1ZTEp4X0JaTFByNnU0dXVkaGcweVBpR2tWR1ZnMTY2RnlIQmRzOVhhbzR5T1FwLWxzbTFrRHZIdlZTLUpsWVhlRl9OdGE0aE9WOXh3OTAta2ppMHFxbEcwcw?oc=5
+· MU Micron (MU) Reports Q4 Earnings: What Key Metrics Have to Say (Yahoo Finance) https://news.google.com/rss/articles/CBMihAFBVV95cUxPRmZrSkFqQjVhaGh4VmFmNFc3NkZOeG5qWnZwbjFDVmxTVWhKdElFVEVBR1duOS1CS0FKbGR2Ny04LW50WDd1ZzRUWEpIRWczSE11Rm40dUYtcUl5UVpieklxZUFwVFR5X0lzQ1V5VWpiNmRIbk9RTHRRSTBwdUZzNUVfMDU?oc=5
+· USDBRL Dólar cai 0,81% no dia com eleições no radar e recua 0,10% em setembro (UOL Economia) https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTnJVOW9ESDEtUVJhRGM1d0tLRnA3Q1UtZlNKX2RfRGl1Y2dSSnBwQXdkdFBDaFNyUEZieEV6eEhfenNDMWtwWDI0ZGo0eGNMWWhiTzFZeTZSWGhoZEdaZDIyYjZXd1plQjZHNi1za1hhSHRUZjljSl9MMTRfck8ycFVIdlIzaFZIZTZDMTl4TTM0eThaam0za2FfQlNkRkdJVW1Qa09SZld4VVJPM2xnQ080eGd3ZVZhY3VIbG9JWkVUNHhySFp4QktJQzVyOXUw?oc=5
+· USDBRL Ibovespa sobe 1,37% e dólar cai 0,81% (Poder360) https://news.google.com/rss/articles/CBMigwFBVV95cUxQUmRwMGd1XzBNb0tXaXNNX1oyYmVOWGJpSEZWYXNtR2tZLUhud0RCb2Q3WllLTXpZSlNjZkNHYnhlT1FvMmxHM2lNZTlJMEU0aFcxUm9jQXRydnMtQkFNNHZZSTAzaXFkX1VBbkJXaUFfR09yZ29kLVZhSGdKUkM2Sm1Cbw?oc=5
+· MU Micron Reports Another Beat-and-Raise Earnings. The Stock Is Unchanged. (Barron's) https://news.google.com/rss/articles/CBMieEFVX3lxTE1qYVRkMzJRd2M4d0p5dGJ2X25QblFST0JWbDIwa0JkaE0xLWVPSEgzelliSXEtMDFZVlVPMzFUVDJ4ZlhPWHl6aWQ5S0w5YmtHbkZKc0gwLVFCZUtJUjN5MGVWUkMxamJYRnVJdUxzVEJrUk5ObFpxTQ?oc=5
+· MU AI demand fuels Micron earnings beat (Yahoo Finance) https://news.google.com/rss/articles/CBMihAFBVV95cUxPUWw0T3VYVnZ2eHZYeXVITWM0NTRjSXB3ZVhuVnZsVmlxRkkzRGl5LU1OaHhUcGQ3MFJsRy1wcmdPUXNUYkhNTjhoT19LczB3Z25vRFZiaTNhZ3I3M2ZuVkxaelJHd0dfdjdlSUFQcEIzMmlpdzR3S1B1c25JaC1IaU9uTWo?oc=5
+· USDBRL Dólar e Ibovespa fecham setembro com eleições no radar; o que esperar de outubro? (Estadao) https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRTNXLXdyV3RkcEJidHNJTFk0OHJZSjhFMXVmek5Qc0szcnJoTnFWYk1xREVrS1dsM0gwOGNNcEF0V25kNmk1NmtGbnhVOUtvUjNteGx0TExTNEp6VlBsTWJIV3oyZnIxSXFVMGFSRkxlNGZDanhKc0FTdHQ3UTlzRWtDSkJYR0hzeHpfdWJMN3VmdlJFMzNldjE2eGo2d0NuVmMycG5TN0V4ekp4LVIyMVBPYjI4UlJEcy1TTUJHakh5bVVoZG5XcTJOeUJoRFZpdnNyONIB2gFBVV95cUxPcFhKQ1NTdlR6Z291WHQzR0Mxc1ZMdDFENHBxUWtidmJmbkVqVTBDdG4yYU5oV3RmYjctVGhRR3hrWVFYY0Q4UUJfRmxrWVdCenkxR3lrMFI3UnlONzU2aUZuTl9zOGZMTl9rWEFrbk1UMGlnd05pc0kzRVNMcDR2eUE1THFuRXNaUFBPbzBiTnhNMDdMVURlam1CTWRNYzBKbE1wNmtnZUhmRFV0WWh1VVAtRHEzVlljdGduMWVkb0N6MXE4My1ON0tER3hZUXV1dTNOVUZBMXlRdw?oc=5
+· MU Micron’s AI Boom Just Got Bigger As Revenue Soars 379% (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ0xpbnpFU2V1VjdjWnBobWdwSF9yc2E3bFVjaWNZM3J6aEFXdTNpLTkwZ0trX2tjSGt2Q2VTdWdmdy1TTE93OHdpNmVPUkZnSzV0OXdpNXRJOHJ4d1JJeXZEamRpc2hwUTduS1RRY3h5Uml2am9YOGpnc05hQzNwc0hnd1lYN1EtajBDOQ?oc=5
 · USDBRL Ibovespa sobe 1,4% no dia e acumula alta de 5% em setembro; dólar cai para R$ 5,17 (Exame) https://exame.com/invest/mercados/ibovespa-sobe-14-no-dia-e-acumula-alta-de-5-em-setembro-dolar-cai-para-r-517/
 · MU Micron earnings beat by $2.26, revenue topped estimates (Investing.com) https://ng.investing.com/news/earnings/micron-earnings-beat-by-226-revenue-topped-estimates-2716704
 · USDBRL Dólar à vista fecha em baixa de 0,76%, a R$5,1735 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-076-a-r51735-na-venda-2079960
@@ -251,19 +382,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · NVDA Breakingviews - COMMENTARY: AMD takes an $8 bln leap at Nvidia (Reuters) https://www.reuters.com/commentary/breakingviews/amd-takes-an-8-bln-leap-nvidia-2026-09-30/
 · JPM JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:1055efeb5094b:0-jpmorgan-trades-below-50-day-sma-buy-sell-or-hold-the-stock/
 · MU Micron's Guidance Will Be the Whole Memory Market's Answer (Yahoo Finance) https://ca.finance.yahoo.com/news/microns-guidance-whole-memory-markets-133100324.html
-· TSLA Should You Buy Tesla Stock Before Oct. 2? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUpLUWdIREpiaTdoYlpEa1A5dVV2am5sdWp5d2RtV2x0cTg5dHc3Y3dmQjlOTVhKc1dGNmVBMmJBWlc0ckpSTkREQ3ZNOEFodGc0WHZITy1ZRkJDQjVaSFpEQ0ROejZUQ1hHdmlyVUJPMThUNFlYNk9WQkhRYjlJMjFSRnBaUkYtaUpmTXNocw?oc=5
-· USDBRL Ibovespa futuro cai com eleições em foco; dólar cede à pressão externa e recua (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBVZ09nVVZqS21VS0lLLWFfSzBxLTNiUjVxRWUzbGpHMXZrWFVlbE1IbkYyVmpyVXJtZ20xVWlEYVNzODdGQXhXMFRjM0ZsMFlmMGJ0Q3RrcFY0RTJBNWJVVE9TT2RPWHd1Q0M0?oc=5
-· JPM Price to earnings forward of JPMORGAN EUROPEAN DISCOVERY TR PLC – OTC:JESCF (TradingView (Reuters)) https://news.google.com/rss/articles/CBMinwFBVV95cUxObVgyMDhzNFY0b3J6QmRFT2FuTWQwVFZSWHlSaDhBYTctazgzajhrZXh6UkdmMktkaTExWWY0MWtvU0d1MzI2bExxOUhJUy1KUmJFNjd6YnVSWF96SkZQblpoZVUyNDBlekJxUDh5Z1NzWXV1RGx6QXV0Ui1kZ19zOHF5cms1RlYtODZHZWdkZGFvbkQwRV91WkZsZDcwS0E?oc=5
-· NVDA Nvidia Looks Criminally Cheap (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4951069-nvidia-looks-criminally-cheap
-· MRVL What Is The True Hidden Price Of Marvell Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/true-hidden-price-marvell-stock-141733118.html
-· UST 10-year Treasury yield turns higher as traders look past inflation data, await jobs report (CNBC) https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html
-· VALE3 China ajuda o minério, mas VALE3 não sustenta reação: o que pesa sobre a ação? (InfoMoney) https://www.infomoney.com.br/mercados/vale3-minerio-china-acao-queda-reacao/
-· ETH Current price of Ethereum for Sept. 30, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-30-2026/
-· COHR Is Coherent's PhotonLink Push Reframing Its AI Datacenter Optics Edge For Investors (COHR)? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherents-photonlink-push-reframing-ai-150912363.html
-· MU Micron Earnings Prediction Market Preview: Can the AI Memory Boom Keep Running? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-earnings-prediction-market-preview-143051920.html
-· PETR4 Ibovespa hoje sobe com alta da Vale, Petrobras e bancos; índices de NY avançam após dado de inflação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-inflacao-dos-eua-e-nova-pesquisa-eleitoral-movimentam-o-pregao/
-· AMZN Synopsys, Amazon sign multiyear agreement for custom chips (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:cdb5e0c56094b:0-synopsys-amazon-sign-multiyear-agreement-for-custom-chips/
-· NVDA AMD's World Labs Buyout Boosts AI Prospects: Can It Rival NVDA & AVGO? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:2d0ae1335094b:0-amd-s-world-labs-buyout-boosts-ai-prospects-can-it-rival-nvda-avgo/
-· MU Micron's Guidance Will Be the Whole Memory Market's Answer (TradingView (Reuters)) https://www.tradingview.com/news/zacks:a94567f09094b:0-micron-s-guidance-will-be-the-whole-memory-market-s-answer/
-· UST A Rare Bullish Call on U.S. Treasuries: ETFs to Play (TradingView (Reuters)) https://www.tradingview.com/news/zacks:97dd23993094b:0-a-rare-bullish-call-on-u-s-treasuries-etfs-to-play/
-· (+61 manchetes; lista completa em eventos/noticias.json)
+· (+76 manchetes; lista completa em eventos/noticias.json)
