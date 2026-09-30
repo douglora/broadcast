@@ -1,32 +1,52 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterated)
-Seeking Alpha · 30/09 13h20 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4951077-amazon-anthropics-110-billion-commitment-changes-the-ai-capex-debate
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: AMZN
-Como falar: 'saiu no Seeking Alpha: Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterate…; confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 30/09 13h20
-ids: E05-AMZN-e2d596579d-2026-09-30
+[ATENÇÃO] E05 · BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of October 5, 2026 - BABA
+PR Newswire · 30/09 13h51 · fonte única · licença: integral
+Do texto:
+  – Market Reaction Focus: Alibaba ADSs repriced across three separate trading sessions in June 2026 as a U.S.
+  – Department of Defense designation and allegations of unauthorized AI "distillation" reached the market, in a period the complaint alleges followed materially misleading disclosures.
+  – 30, 2026 /PRNewswire/ -- Levi & Korsinsky, LLP alerts investors in Alibaba Group Holding Limited (NYSE: BABA) that a securities class action is pending on behalf of purchasers of Alibaba securities between June 26, 2025…
+  – BABA ADSs fell $4.69 (approximately 3.9%) over two sessions to close at $115.38, then $2.80 (2.7%) to $99.80, then $4.73 (4.7%) to $95.07, a cumulative decline of roughly 45% from the Class Period high of $173.68 record…
+  – Investors have until October 5, 2026 to seek lead plaintiff status.
+  – How the Market Repriced BABA in June 2026 After the close on June 8, 2026, the U.S.
+Link: https://www.prnewswire.com/news-releases/levi--korsinsky-reminds-alibaba-group-holding-investors-of-the-pending-class-action-lawsuit-with-a-lead-plaintiff-deadline-of-october-5-2026---baba-302894589.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no PR Newswire: Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Laws…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 30/09 13h51
+Push: intradia: 2 alertas de atenção — E05 BABA, E05 MU · detalhe na sessão
+ids: E05-BABA-5fda112688-2026-09-30
 
-(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
-Estadao · 30/09 12h34 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-ubs-corta-preco-alvo-em-r-8-e-aponta-dois-motivos-para-a-revisao/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: VALE3
-Como falar: 'saiu no Estadao: Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão; confirmar o número no texto antes de repassar'
-Fonte: Estadao 30/09 12h34
-ids: E05-VALE3-94ecadebf7-2026-09-30
+[ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
+TradingView (Reuters) · 30/09 13h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:376dffb18094b:0-micron-earnings-could-reach-50-a-quarter-says-susquehanna-analyst-sees-memory-driving-ai-profits/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/09 13h41
+ids: E05-MU-5bd429311a-2026-09-30
 
 Info (só linha no Fechamento):
-· E05 NVDA · Nvidia Looks Criminally Cheap (NASDAQ:NVDA)
-· E05 MRVL · What Is The True Hidden Price Of Marvell Stock?
-· E05 UST · 10-year Treasury yield turns higher as traders look past inflation data, await jobs report
+· E05 USDBRL · Por que o dólar sobe? Entenda o que faz o real e outras moedas perderem valor
+· E05 INTC · 32 Analysts Say Hold on Intel. Here’s What the Numbers Actually Show
+· E05 UST · Update: US Equity Indexes Mixed as Higher Spending, Soft Inflation Print Split Moves in Treasury Yields
+· E05 AMD · AMD: The Scary $1 Trillion Question (NASDAQ:AMD)
+· E05 USDBRL · Tempo real: Ibovespa sobe 1% com dados de inflação nos EUA; dólar cai
+· E05 BRENT · Oil Price Forecasts Jump as Hormuz Disruption Drags On
+· E05 BTC · Bitcoin Jumps on Cool PCE Inflation Data as Bond Yields Hit 20-Year Highs
+· E05 NVDA · Breakingviews - COMMENTARY: AMD takes an $8 bln leap at Nvidia
+· E05 JPM · JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock?
+· E05 MU · Micron's Guidance Will Be the Whole Memory Market's Answer
+· E05 TSLA · Should You Buy Tesla Stock Before Oct. 2?
+· E05 USDBRL · Ibovespa futuro cai com eleições em foco; dólar cede à pressão externa e recua
+· E05 JPM · Price to earnings forward of JPMORGAN EUROPEAN DISCOVERY TR PLC – OTC:JESCF
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 AMZN — AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (
-· pendente  E05 VALE3 — VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
+· pendente  E05 BABA — BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending C
+· pendente  E05 MU — MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees M
+· entregue  E05 AMZN — AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (
+· entregue  E05 VALE3 — VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
 · entregue  E05 SAPR4 — SAPR4 · Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir
 · entregue  E05 AMD — AMD · Hewlett raises Networking outlook, secures $1.2B AMD Helios order, ups Jun
 · entregue  E05 AMD — AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outloo
@@ -36,5 +56,5 @@ Alertas do dia (todos, com status):
 · entregue  E05 MU — MU · Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed
 · entregue  E05 NVDA — NVDA · Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Mil
 · entregue  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accele
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,1795 (cruzou R$ 5,20) (parcial, intradia)
-· (+75 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,1759 (cruzou R$ 5,20) (parcial, intradia)
+· (+88 notícias só manchete, em noticias.md)

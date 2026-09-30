@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 13h49
+NOTÍCIAS E FATOS · 30/09 14h21
 
-Pernas: noticias ok 3 novas (18 consultas; descartadas: 434 veículo fora da lista, 45 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 437 veículo fora da lista, 44 sem ativo, 8 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -27,7 +27,32 @@ Fonte: CVM 30/09
 id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of October 5, 2026 - BABA
+PR Newswire · 30/09 13h51 · fonte única · licença: integral
+Do texto:
+  – Market Reaction Focus: Alibaba ADSs repriced across three separate trading sessions in June 2026 as a U.S.
+  – Department of Defense designation and allegations of unauthorized AI "distillation" reached the market, in a period the complaint alleges followed materially misleading disclosures.
+  – 30, 2026 /PRNewswire/ -- Levi & Korsinsky, LLP alerts investors in Alibaba Group Holding Limited (NYSE: BABA) that a securities class action is pending on behalf of purchasers of Alibaba securities between June 26, 2025…
+  – BABA ADSs fell $4.69 (approximately 3.9%) over two sessions to close at $115.38, then $2.80 (2.7%) to $99.80, then $4.73 (4.7%) to $95.07, a cumulative decline of roughly 45% from the Class Period high of $173.68 record…
+  – Investors have until October 5, 2026 to seek lead plaintiff status.
+  – How the Market Repriced BABA in June 2026 After the close on June 8, 2026, the U.S.
+Link: https://www.prnewswire.com/news-releases/levi--korsinsky-reminds-alibaba-group-holding-investors-of-the-pending-class-action-lawsuit-with-a-lead-plaintiff-deadline-of-october-5-2026---baba-302894589.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no PR Newswire: Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Laws…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 30/09 13h51
+id: E05-BABA-5fda112688-2026-09-30 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
+TradingView (Reuters) · 30/09 13h41 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:376dffb18094b:0-micron-earnings-could-reach-50-a-quarter-says-susquehanna-analyst-sees-memory-driving-ai-profits/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/09 13h41
+id: E05-MU-5bd429311a-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterated)
 Seeking Alpha · 30/09 13h20 · fonte única · licença: manchete
@@ -36,7 +61,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: AMZN
 Como falar: 'saiu no Seeking Alpha: Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterate…; confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 30/09 13h20
-id: E05-AMZN-e2d596579d-2026-09-30 · status: pendente
+id: E05-AMZN-e2d596579d-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
 Estadao · 30/09 12h34 · fonte única · licença: manchete
@@ -45,7 +70,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: VALE3
 Como falar: 'saiu no Estadao: Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão; confirmar o número no texto antes de repassar'
 Fonte: Estadao 30/09 12h34
-id: E05-VALE3-94ecadebf7-2026-09-30 · status: pendente
+id: E05-VALE3-94ecadebf7-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · SAPR4 · Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir de outubro - TNOnline
 UOL Economia · 30/09 11h05 · fonte única · licença: manchete
@@ -111,8 +136,21 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (73)
+## OUTRAS NOTÍCIAS (só manchete) (86)
 
+· USDBRL Por que o dólar sobe? Entenda o que faz o real e outras moedas perderem valor (Suno Noticias) https://www.suno.com.br/noticias/dolar-por-que-sobe-desvalorizacao-moedas-mt/
+· INTC 32 Analysts Say Hold on Intel. Here’s What the Numbers Actually Show (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/32-analysts-hold-intel-numbers-170041819.html
+· UST Update: US Equity Indexes Mixed as Higher Spending, Soft Inflation Print Split Moves in Treasury Yields (Yahoo Finance) https://ca.finance.yahoo.com/news/us-equity-indexes-mixed-higher-163036741.html
+· AMD AMD: The Scary $1 Trillion Question (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4951079-amd-the-scary-1-trillion-question
+· USDBRL Tempo real: Ibovespa sobe 1% com dados de inflação nos EUA; dólar cai (Money Times) https://www.moneytimes.com.br/tempo-real-30-9-26-apsa-lils/
+· BRENT Oil Price Forecasts Jump as Hormuz Disruption Drags On (OilPrice.com) https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html
+· BTC Bitcoin Jumps on Cool PCE Inflation Data as Bond Yields Hit 20-Year Highs (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-jumps-cool-pce-inflation-155025044.html
+· NVDA Breakingviews - COMMENTARY: AMD takes an $8 bln leap at Nvidia (Reuters) https://www.reuters.com/commentary/breakingviews/amd-takes-an-8-bln-leap-nvidia-2026-09-30/
+· JPM JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:1055efeb5094b:0-jpmorgan-trades-below-50-day-sma-buy-sell-or-hold-the-stock/
+· MU Micron's Guidance Will Be the Whole Memory Market's Answer (Yahoo Finance) https://ca.finance.yahoo.com/news/microns-guidance-whole-memory-markets-133100324.html
+· TSLA Should You Buy Tesla Stock Before Oct. 2? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUpLUWdIREpiaTdoYlpEa1A5dVV2am5sdWp5d2RtV2x0cTg5dHc3Y3dmQjlOTVhKc1dGNmVBMmJBWlc0ckpSTkREQ3ZNOEFodGc0WHZITy1ZRkJDQjVaSFpEQ0ROejZUQ1hHdmlyVUJPMThUNFlYNk9WQkhRYjlJMjFSRnBaUkYtaUpmTXNocw?oc=5
+· USDBRL Ibovespa futuro cai com eleições em foco; dólar cede à pressão externa e recua (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBVZ09nVVZqS21VS0lLLWFfSzBxLTNiUjVxRWUzbGpHMXZrWFVlbE1IbkYyVmpyVXJtZ20xVWlEYVNzODdGQXhXMFRjM0ZsMFlmMGJ0Q3RrcFY0RTJBNWJVVE9TT2RPWHd1Q0M0?oc=5
+· JPM Price to earnings forward of JPMORGAN EUROPEAN DISCOVERY TR PLC – OTC:JESCF (TradingView (Reuters)) https://news.google.com/rss/articles/CBMinwFBVV95cUxObVgyMDhzNFY0b3J6QmRFT2FuTWQwVFZSWHlSaDhBYTctazgzajhrZXh6UkdmMktkaTExWWY0MWtvU0d1MzI2bExxOUhJUy1KUmJFNjd6YnVSWF96SkZQblpoZVUyNDBlekJxUDh5Z1NzWXV1RGx6QXV0Ui1kZ19zOHF5cms1RlYtODZHZWdkZGFvbkQwRV91WkZsZDcwS0E?oc=5
 · NVDA Nvidia Looks Criminally Cheap (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4951069-nvidia-looks-criminally-cheap
 · MRVL What Is The True Hidden Price Of Marvell Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/true-hidden-price-marvell-stock-141733118.html
 · UST 10-year Treasury yield turns higher as traders look past inflation data, await jobs report (CNBC) https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html
@@ -160,17 +198,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · MRVL Marvell: Surprisingly Cheaper Than In August, But There's A Catch (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4950979-marvell-surprisingly-cheaper-than-in-august-but-theres-a-catch
 · BRENT Dólar abre em queda com petróleo e dados econômicos dos EUA no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-com-petroleo-e-dados-economicos-dos-eua-no-radar.shtml
 · TSLA What Happens If The Market Severely Punishes Tesla AND SpaceX at The Same Time? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/happens-market-severely-punishes-tesla-124546816.html
-· KO Coca-Cola’s Secret Weapon Isn’t Its Soda (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-secret-weapon-isn-124544317.html
-· PLTR Palantir CEO Alex Karp buys 37,000 acres of Swedish forest (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/palantir-ceo-alex-karp-buys-124540920.html
-· UST Treasury Yields Keep Rising. Can The Economy Keep Up? (Seeking Alpha) https://seekingalpha.com/article/4951010-treasury-yields-keep-rising-can-economy-keep-up
-· USDBRL Dólar tem forte queda após dados de inflação nos EUA (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-30-setembro-2026/
-· NVDA NVDA Stock Eyes Third Straight Monthly Gain: Nvidia Adds Data Center Digital Twin Deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvda-stock-eyes-third-straight-122645287.html
-· USDBRL Dólar abre último dia do mês a R$ 5,21, com dívida do Brasil e PIB dos EUA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/30/dolar-bolsa-abre-hoje-30-de-setembro-de-2026.ghtm
-· USDBRL Ibovespa futuro cai com eleições em foco; dólar cede à pressão externa e recua (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-30-9-26-lils/
-· UGPA3 Ipiranga ‘subiu de patamar’, mas ação da Ultrapar já incorporou boa parte da melhora, diz Ativa (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ipiranga-subiu-de-patamar-mas-acao-da-ultrapar-ja-incorporou-boa-parte-da-melhora-diz-ativa/
-· TSLA Tesla Secures $30 Billion Credit Facility to Fund AI Infrastructure Expansion (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tesla-secures-30-billion-credit-121558313.html
-· MU Micron Stock Could Swing 8% After Today's Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-could-swing-8-121348952.html
-· BTC Bitcoin Is Headed For Its Best Quarter In Nearly 2 Years – But Traders Are Using Less Leverage (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTmRvR0U2cGxCNWJ6OVp6V1ZpUGxOYkNRcXUzSFVnbGFleEphU2k4bzFNZHA5Z3pyczFKOGg4NUVPRUxqV3l1aG0zS0tfOGpoOWI1S19XOWJqREdrTndjQXRkS2dIQ29tYjBwUC1GU3ZLZWVSdThGeUpPUVp1b2xxUzVkRFFGTDJUZHRMUGJNQ2o5d2NBdkhfVzJKV0RFTzFPcGRnTzlmQi03bG1LckhyQU9ZMzVpWWxsU3Z4RU9mdHZvZ3l3TTZFSmJ3MXRSR1J5YVJoZnRILS1UcWQyODZlSUxhVVVDSlhP?oc=5
-· BTC Coinbase: Bitcoin Breakout A Positive Catalyst (NASDAQ:COIN) (Seeking Alpha) https://seekingalpha.com/article/4950954-coinbase-bitcoin-breakout-a-positive-catalyst
-· USDBRL Mercado aguarda PCE e PIB dos EUA enquanto monitora contas públicas no Brasil; Ibovespa em dólar sobe nesta quarta-feira (30) (Money Times) https://www.moneytimes.com.br/mercado-aguarda-pce-e-pib-dos-eua-enquanto-monitora-contas-publicas-no-brasil-ibovespa-em-dolar-sobe-nesta-quarta-feira-30-rens-igdl/
-· (+13 manchetes; lista completa em eventos/noticias.json)
+· (+26 manchetes; lista completa em eventos/noticias.json)
