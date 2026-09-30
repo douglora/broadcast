@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 17h21
+NOTÍCIAS E FATOS · 30/09 18h12
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 441 veículo fora da lista, 41 sem ativo, 20 teto) · cvm ok 1 novos de 7 (4 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 0 novas (18 consultas; descartadas: 0 veículo fora da lista, 0 sem ativo, 0 teto); 18 falhas · cvm ok 0 novos de 7 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -51,7 +51,7 @@ Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; 
 Ativos: MU
 Como falar: 'a MU protocolou 8-K na SEC (2.02 resultado do trimestre)'
 Fonte: SEC EDGAR 2026-09-30
-id: E04-MU-26000018-2026-09-30 · status: pendente · íntegra disponível
+id: E04-MU-26000018-2026-09-30 · status: entregue · íntegra disponível
 
 
 ## NOTÍCIAS COM MATERIALIDADE (14)
@@ -63,7 +63,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Seeking Alpha: Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 30/09 17h08
-id: E05-MU-6227192009-2026-09-30 · status: pendente
+id: E05-MU-6227192009-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook
 Yahoo Finance · 30/09 17h04 · fonte única · licença: resumo
@@ -79,7 +79,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/09 17h04
-id: E05-MU-ada56a7bac-2026-09-30 · status: pendente
+id: E05-MU-ada56a7bac-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
 Yahoo Finance · 30/09 13h41 · fonte única · licença: resumo
