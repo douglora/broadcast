@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 11h21
+NOTÍCIAS E FATOS · 30/09 12h21
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 411 veículo fora da lista, 50 sem ativo, 27 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 431 veículo fora da lista, 44 sem ativo, 20 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -27,7 +27,25 @@ Fonte: CVM 30/09
 id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · SAPR4 · Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir de outubro - TNOnline
+UOL Economia · 30/09 11h05 · fonte única · licença: manchete
+Link: https://tnonline.uol.com.br/noticias/parana/contas-da-sanepar-ganham-novo-visual-e-reducao-de-25-na-tarifa-a-partir-de-outubro-1150637
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: SAPR4
+Como falar: 'saiu no UOL Economia: Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir de outubro - TNO…; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 30/09 11h05
+id: E05-SAPR4-bf199b91a9-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · AMD · Hewlett raises Networking outlook, secures $1.2B AMD Helios order, ups Juniper synergy target
+TradingView (Reuters) · 30/09 08h53 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:2e1493568c641:0-hewlett-raises-networking-outlook-secures-1-2b-amd-helios-order-ups-juniper-synergy-target/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMD
+Como falar: 'saiu no TradingView (Reuters): Hewlett raises Networking outlook, secures $1.2B AMD Helios order, ups Juniper synergy ta…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/09 08h53
+id: E05-AMD-b8e17839af-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outlook
 TradingView (Reuters) · 30/09 09h09 · fonte única · licença: manchete
@@ -36,7 +54,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AMD
 Como falar: 'saiu no TradingView (Reuters): HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outlook; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 30/09 09h09
-id: E05-AMD-83deeb3c94-2026-09-30 · status: pendente
+id: E05-AMD-83deeb3c94-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outlook (HPE:NYSE)
 Seeking Alpha · 30/09 09h09 · fonte única · licença: manchete
@@ -75,8 +93,22 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (44)
+## OUTRAS NOTÍCIAS (só manchete) (58)
 
+· BABA BABA 5-DAY DEADLINE ALERT: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/30/3372157/32716/en/baba-5-day-deadline-alert-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-shareholder-class-action-lawsuit-before-october-5-2026-lead-plain.html
+· MU Micron Stock Rises Ahead of Q4 Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:805c705ac094b:0-micron-stock-rises-ahead-of-q4-earnings/
+· MU We expect Micron's earnings to increase, says Susquehanna’s Mehdi Hosseini (CNBC) https://www.cnbc.com/video/2026/09/30/we-expect-microns-earnings-to-increase-says-sfgs-mehdi-hosseini.html
+· AMD SA analyst upgrades/downgrades: AMD, QCOM, NWL, PLTR (AMD:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648589-sa-analyst-upgradesdowngrades-amd-qcom-nwl-pltr
+· BTC Standard Chartered Still Sees Bitcoin Hitting $100,000 This Year (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/standard-chartered-still-sees-bitcoin-142700062.html
+· MU Micron is crushing it, but so is SanDisk. So why are they still underestimated? (Yahoo Finance) https://finance.yahoo.com/video/micron-is-crushing-it-but-so-is-sandisk-so-why-are-they-still-underestimated-142425792.html
+· INTC Intel's Recovery Has Moved From Survival To Factory Economics (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4951029-intels-recovery-has-moved-from-survival-to-factory-economics
+· MU Micron's 261% Rally Faces a 7.75% Earnings Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f0e31f019094b:0-micron-s-261-rally-faces-a-7-75-earnings-test/
+· ETH Can Ethereum 10x From Here? Walking Through the Math (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-10x-walking-math-140017795.html
+· GOOGL Larridin Announces a New Collaboration with Google Cloud to Help Enterprises Measure and Maximize the Impact of AI (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/larridin-announces-collaboration-google-cloud-140000725.html
+· COHR 3 Reasons Investors Love Coherent (COHR) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-coherent-134913360.html
+· AMD When AMD's CEO and the Chart Say the Same Thing, Pay Attention (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNeUt2NS13MGxodmFibC00MFFxOUlZYnl6SU80UE5mV213RUpCYUszVW9fcjFKRkRRTWxnRDJEaWxnSEtRRXJxOW1aZTZaYU14TTVzbTlVTGZtdS00NHRUSVZIbEtSU0NvTEFXMXlvWmUwcWlQbnJCekZYMU5lWTlTZHFrbUprYzZOUWVYWHlGNVBSOTBB?oc=5
+· MU Micron earnings: Analyst asks the key question (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZTBBTlFyT2E3ZGtfbUQ3TWM3M1BQN0tUclhzaFpBeTFTVXlvcGpTb0w5T1k1RjBJS1dOSTFydE5OSzlVaDBaSVlsT3hjMjF0a042T3cxQlpfQl9HTkZvQ2RrVVA5QktVQXNDaVFKNi1qU1dtR000YU82Wl9ZNDMxM2toLU1CZjVIMVpBSTRJeXdPTGU1cWh5c0cxVGsxbjBPRV9HYkZXaDg?oc=5
+· MU How Micron's earnings results could impact chip ETFs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNOE9ycmRnWVN0dGlJTTRXMzV5T3ZOZEdqaG1BdndvNlZmOUUwb1dkNW4xTEI3R0p2R0FVM3EtY3ZkMkpENnA5LTJxaEtNVEtRZXpXczZCakNvWUJQVUk1US1TWWtrWkxLS0ZCMTBVNkJyeU13VW5WYlpvQzNhRHZzYjhfWGVrQ1plYVQtd2txN3Q2djBYeTl0MkI5MHlfZXc?oc=5
 · MU SanDisk Just Got a 73% Upside Call as Micron Heads Into Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2a6db6bd4094b:0-sandisk-just-got-a-73-upside-call-as-micron-heads-into-earnings/
 · BTC Current price of Bitcoin for Sept. 30, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-30-2026/
 · MU Micron reports Q4 today: Why Lynx Equity sees massive upside (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-reports-q4-today-why-134530180.html
