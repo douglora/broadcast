@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 12h21
+NOTÍCIAS E FATOS · 30/09 13h21
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 431 veículo fora da lista, 44 sem ativo, 20 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 423 veículo fora da lista, 49 sem ativo, 7 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -27,7 +27,25 @@ Fonte: CVM 30/09
 id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterated)
+Seeking Alpha · 30/09 13h20 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4951077-amazon-anthropics-110-billion-commitment-changes-the-ai-capex-debate
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: AMZN
+Como falar: 'saiu no Seeking Alpha: Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterate…; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 30/09 13h20
+id: E05-AMZN-e2d596579d-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
+Estadao · 30/09 12h34 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-ubs-corta-preco-alvo-em-r-8-e-aponta-dois-motivos-para-a-revisao/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão; confirmar o número no texto antes de repassar'
+Fonte: Estadao 30/09 12h34
+id: E05-VALE3-94ecadebf7-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · SAPR4 · Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir de outubro - TNOnline
 UOL Economia · 30/09 11h05 · fonte única · licença: manchete
@@ -36,7 +54,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: SAPR4
 Como falar: 'saiu no UOL Economia: Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir de outubro - TNO…; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 30/09 11h05
-id: E05-SAPR4-bf199b91a9-2026-09-30 · status: pendente
+id: E05-SAPR4-bf199b91a9-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · AMD · Hewlett raises Networking outlook, secures $1.2B AMD Helios order, ups Juniper synergy target
 TradingView (Reuters) · 30/09 08h53 · fonte única · licença: manchete
@@ -45,7 +63,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AMD
 Como falar: 'saiu no TradingView (Reuters): Hewlett raises Networking outlook, secures $1.2B AMD Helios order, ups Juniper synergy ta…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 30/09 08h53
-id: E05-AMD-b8e17839af-2026-09-30 · status: pendente
+id: E05-AMD-b8e17839af-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outlook
 TradingView (Reuters) · 30/09 09h09 · fonte única · licença: manchete
@@ -93,8 +111,20 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (58)
+## OUTRAS NOTÍCIAS (só manchete) (70)
 
+· VALE3 China ajuda o minério, mas VALE3 não sustenta reação: o que pesa sobre a ação? (InfoMoney) https://www.infomoney.com.br/mercados/vale3-minerio-china-acao-queda-reacao/
+· ETH Current price of Ethereum for Sept. 30, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-30-2026/
+· COHR Is Coherent's PhotonLink Push Reframing Its AI Datacenter Optics Edge For Investors (COHR)? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherents-photonlink-push-reframing-ai-150912363.html
+· MU Micron Earnings Prediction Market Preview: Can the AI Memory Boom Keep Running? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-earnings-prediction-market-preview-143051920.html
+· PETR4 Ibovespa hoje sobe com alta da Vale, Petrobras e bancos; índices de NY avançam após dado de inflação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-inflacao-dos-eua-e-nova-pesquisa-eleitoral-movimentam-o-pregao/
+· AMZN Synopsys, Amazon sign multiyear agreement for custom chips (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:cdb5e0c56094b:0-synopsys-amazon-sign-multiyear-agreement-for-custom-chips/
+· NVDA AMD's World Labs Buyout Boosts AI Prospects: Can It Rival NVDA & AVGO? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:2d0ae1335094b:0-amd-s-world-labs-buyout-boosts-ai-prospects-can-it-rival-nvda-avgo/
+· MU Micron's Guidance Will Be the Whole Memory Market's Answer (TradingView (Reuters)) https://www.tradingview.com/news/zacks:a94567f09094b:0-micron-s-guidance-will-be-the-whole-memory-market-s-answer/
+· UST A Rare Bullish Call on U.S. Treasuries: ETFs to Play (TradingView (Reuters)) https://www.tradingview.com/news/zacks:97dd23993094b:0-a-rare-bullish-call-on-u-s-treasuries-etfs-to-play/
+· USDBRL Ibovespa sobe forte em meio a dados de inflação nos EUA; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMipgFBVV95cUxNa2ZNOE9hQnNwV2JNR3dMUUotb0hXV1VfYnVnZW5DaXBIcU9UNVhzSTRSV3pieHlyTEFQcmw3aW5TNkRtTEk5cEdGWUtNLU9sZWJNbzVnUlZOdXRTN3ZZUFFFWjR2UjlTcDQ3SUlLT3liTHRFVkJrV1FpRm9McERkcW9kdkdmdEoxUDZRaVJVclkySW50QWctZ2p1VEQ1c0pHeFZxZklB?oc=5
+· MU Micron Stock Could Swing 8% After Today's Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMigAFBVV95cUxOUlc1QmxoQk5Vd29aMTcxR2FaelNtcDhkaFEyTmk4WWtIcGhqQXhTQ3pIc2luT0RLLXZ1Z3piYVpBa05ZZUY2WElsM0E4Q0JCVGJnSmhPN3haZU56UjZDRl9mS3l5TGFVb01JdU5zaXZsbUFPakdxOGRaNlBiMVpMcw?oc=5
+· LITE Here Are Wednesday’s Top Wall Street Analyst Research Calls: Ally Financial, BankUnited, Ciena Corporation, CoreWeave, Dow, FormFactor, Lumentum Hold… (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOSENnbEM5dHg3UGVEN3ZqNXJpdTlGdGN4UENrVERQZGxic3lQbWROamloczZmc0lzbGk4LXVJVTB4ekF4bGU1LTRxLTQ4VHRWS3p3UHBnOU5VYlN1RTNKQWVsZ3NnUFJ4eWpGQll0ZXBIRnUzSjhkbDE2LW5laVZwZUxsdlVSU29XSDg5UkRvQk1EdFNkek0tX0NxelNzNVk?oc=5
 · BABA BABA 5-DAY DEADLINE ALERT: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/30/3372157/32716/en/baba-5-day-deadline-alert-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-shareholder-class-action-lawsuit-before-october-5-2026-lead-plain.html
 · MU Micron Stock Rises Ahead of Q4 Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:805c705ac094b:0-micron-stock-rises-ahead-of-q4-earnings/
 · MU We expect Micron's earnings to increase, says Susquehanna’s Mehdi Hosseini (CNBC) https://www.cnbc.com/video/2026/09/30/we-expect-microns-earnings-to-increase-says-sfgs-mehdi-hosseini.html
@@ -143,13 +173,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · MELI34 MME altera regras para viabilizar importação de energia do Paraguai no mercado livre (UOL Economia) https://megawhat.uol.com.br/geracao/hidrica/mme-altera-regras-para-viabilizar-importacao-de-energia-do-paraguai-no-mercado-livre/
 · BTC Bitcoin Price Tests $83,000 Ahead of Key PCE Inflation Release (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:aed9991fc094b:0-bitcoin-price-tests-83-000-ahead-of-key-pce-inflation-release/
 · MU MU: Micron Earnings Put the AI Memory Boom to the Test. Here’s What to Watch. (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:562818a95094b:0-mu-micron-earnings-put-the-ai-memory-boom-to-the-test-here-s-what-to-watch/
-· MU Wall Street Futures Advance as Investors Await PCE Inflation and Micron Earnings: Dow Jones, S&P, Nasdaq (Yahoo Finance) https://uk.finance.yahoo.com/news/wall-street-futures-advance-investors-102258686.html
-· BTC Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:31f114cea094b:0-bitcoin-etfs-stretch-3-1b-inflow-streak-as-ether-funds-turn-red/
-· AMD AMD: Expensive, But Growth Is Still Fast Enough To Keep The Bull Case Alive (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950933-amd-expensive-but-growth-is-still-fast-enough-to-keep-the-bull-case-alive
-· MU Here's What a $1,080 Investment in Micron Stock Could Be Worth in 5 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-1-080-investment-micron-100600038.html
-· UST Treasury Yields Fall on Dovish-Leaning Fed Speech; European Yields Follow Suit (The Wall Street Journal) https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171
-· MMM 3M: Q2 Confirms The Turnaround Is Genuine, And The Pullback Looks Bullish (NYSE:MMM) (Seeking Alpha) https://seekingalpha.com/article/4950926-3m-q2-confirms-the-turnaround-is-genuine-and-the-pullback-looks-bullish
-· UST He’s been badmouthing Treasury bonds since 2020, but now ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish (MarketWatch) https://www.marketwatch.com/story/hes-been-badmouthing-treasury-bonds-since-2020-but-now-the-big-fat-cushion-of-5-25-yields-is-turning-this-strategist-bullish-376fafba
-· PETR4 PETR4, BBSA3, SANP11, CMIG4: A onda privatista acabou? (Money Times) https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDhaVUszTjJ5VnBiUjdOeFBnckxBRUctN0NnSTdFWU9LYUdINk5kSjFjYnh1ZTVmX3RlMTd2bk5pVEJkc1E3WFA2OWRZektlbC1mVWJHSXBMNWJjSmQ2UTRZZllWVTgxREd5YUo0UmdQWi15MF9yc05QcTRFczFWYjBlTHJNZmJqV2ttY2VR?oc=5
-· TSM TSMC evaluates potential Texas investment, sources say (Reuters) https://news.google.com/rss/articles/CBMirAFBVV95cUxQbk5sR25ad2FWc2RmSWZua1F3Mi1OR1NtTGx5bi1lQ1I0MHlmSHNyUXRGNUd5WmtOVEFMazFUY0FnM0tHdG8zbUF4QjlsaUNJWHhaZ2RXaWtUZHZhN0QteXRiNFNzb3pWcjA0Ty14cFJPenZhV0xnWktra01NaTNYa2s0Q0pEY0FxS20wV0lleWYzWGstYllNc1c3MFFxLXY1X3F4YjI5LXBhbG1J?oc=5
-· JPM JPMorgan Chase (JPM) Backs Michigan LIFT As Dimon Pushes US Europe Trade Pact (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPVTZyUWpXWWJINzIybDJ6ZnZiRGpydTZXUkhpSEZBRWRLSHZjbGtWNU5NUUUyQWFkN0Y3bUJjRllfMHZ3LWkyeTZyelhNdm0wU3VDREVvYXM4VjFTVmU5VXRfU3ByMTJWam5ibktMYmtRaDQ4dHhQbnI1ZkM0Rk5YRmxIaGpxckVvUWMxVW1UUWFtbG9vWUhPQ2ZvaXRkZUE?oc=5
+· (+10 manchetes; lista completa em eventos/noticias.json)
