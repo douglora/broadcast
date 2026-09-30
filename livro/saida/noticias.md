@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 30/09 08h32
+NOTÍCIAS E FATOS · 30/09 10h24
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 428 veículo fora da lista, 45 sem ativo, 38 teto) · cvm ok 2 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 43 sem ativo, 21 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
 CVM · entregue 30/09/2026 08:22
@@ -13,7 +13,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
 Fonte: CVM 30/09
-id: E03-AXIA3-1572704-2026-09-30 · status: pendente · íntegra disponível
+id: E03-AXIA3-1572704-2026-09-30 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
 CVM · entregue 30/09/2026 08:17
@@ -24,62 +24,19 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
 Fonte: CVM 30/09
-id: E03-AXIA3-1572702-2026-09-30 · status: pendente · íntegra disponível
-
-[INFO] E03 · PETR4 · Aviso aos Acionistas: Outros avisos
-CVM · entregue 29/09/2026 20:42 · Outros avisos
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572673
-Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
-Ativos: PETR4
-Como falar: 'a Petrobras publicou aviso aos acionistas sobre Outros avisos'
-Fonte: CVM 29/09
-id: E03-PETR4-1572673-2026-09-29 · status: linha
-
-[INFO] E03 · ALUP4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 29/09/2026 17:42 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572560
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: ALUP4
-Como falar: 'a Alupar publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 29/09
-id: E03-ALUP4-1572560-2026-09-29 · status: linha
-
-[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 29/09/2026 17:05 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572515
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: AXIA3
-Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 29/09
-id: E03-AXIA3-1572515-2026-09-29 · status: linha
-
-[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-CVM · entregue 29/09/2026 15:28 · Outros Comunicados Não Considerados Fatos Relevantes
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572416
-Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
-Ativos: VALE3
-Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
-Fonte: CVM 29/09
-id: E03-VALE3-1572416-2026-09-29 · status: linha
+id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## NOTÍCIAS COM MATERIALIDADE (4)
 
-[INFO] E04 · BABA · 6-K: 6-K
-SEC EDGAR · aceito 29/09 13h01 · FORM 6-K
-Do documento:
-  – 6-K  1  tm2626567d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
-  – We are furnishing our Next Day Disclosure Return dated September 29, 2026 as Exhibit 99.1 of this Current Report on Form 6-K.
-  – ALIBABA GROUP HOLDING LIMITED   Date: September 29, 2026   By:   /s/ Kevin Jinwei ZHANG   Name:   Kevin Jinwei ZHANG   Title:   Company Secretary   4
-Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926111915/tm2626567d1_6k.htm
-Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
-Ativos: BABA
-Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
-Fonte: SEC EDGAR 2026-09-29
-id: E04-BABA-26111915-2026-09-29 · status: linha · íntegra disponível
-
-
-## NOTÍCIAS COM MATERIALIDADE (15)
+[ATENÇÃO] E05 · AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outlook (HPE:NYSE)
+Seeking Alpha · 30/09 09h09 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4648443-hpe-rises-as-it-wins-12b-amd-helios-order-from-vultr-boosts-2027-outlook
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Seeking Alpha: HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outlook (HPE:NYSE); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 30/09 09h09
+id: E05-AMD-3c5c7faec8-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · MU · Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed
 Investing.com · 30/09 05h56 · fonte única · licença: manchete
@@ -88,7 +45,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Investing.com: Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 30/09 05h56
-id: E05-MU-b0a87ec2f7-2026-09-30 · status: pendente
+id: E05-MU-b0a87ec2f7-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Million of AMD: ARK Invest Also Picks Up Tesla, SpaceX Shares
 TradingView (Reuters) · 29/09 23h49 · fonte única · licença: manchete
@@ -97,7 +54,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: NVDA · AMD · TSLA
 Como falar: 'saiu no TradingView (Reuters): Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Million of AMD: ARK…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/09 23h49
-id: E05-NVDA-f6d0cebe63-2026-09-30 · status: pendente
+id: E05-NVDA-f6d0cebe63-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate By Reuters
 Investing.com · 29/09 18h06 · fonte única · licença: manchete
@@ -106,154 +63,26 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Investing.com: Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate By Reuters; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 29/09 18h06
-id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: pendente
-
-[ATENÇÃO] E05 · TSLA · Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years
-Yahoo Finance · 29/09 19h36 · + Reuters · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – -       Tesla said nothing was drawn at signing and that it does not plan to borrow in 2026.
-  – -       As of June 30, Tesla held $15.22 billion in cash and $28.31 billion in short-term investments.
-  – -       Tesla expects capital expenditure to accelerate in 2026 and years ahead as the company scales its AI and robotics ambitions.
-  – Tesla (TSLA) shares edged marginally higher after hours on Tuesday as the company lined up $30 billion of unused bank credit ahead of major capital expenditures involving its AI and robotics ambitions.
-  – Shares closed near $353, down about 1.3% after a 3.9% drop on Monday and edged up 0.3% after hours.
-  – 29: a $20 billion three-year delayed-draw term loan led by Citibank, plus $8 billion five-year and $2 billion 364-day revolvers led by Wells Fargo.
-Link: https://finance.yahoo.com/markets/stocks/articles/tesla-lines-30-billion-credit-223608219.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Yahoo Finance: Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 29/09 19h36
-id: E05-TSLA-45b662d9fb-2026-09-29 · status: pendente
-
-[ATENÇÃO] E05 · ITUB4 · Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão na lista
-Estadao · 29/09 18h24 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-empresa-da-bolsa-paga-r-20-por-acao-bradesco-itau-e-fleury-estao-na-lista/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4 · BBDC4
-Como falar: 'saiu no Estadao: Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 29/09 18h24
-id: E05-ITUB4-de6bcd3a57-2026-09-29 · status: pendente
-
-[ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend
-TradingView (Reuters) · 29/09 18h45 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/seekingalpha:6829c2eef094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-303-dividend/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ETH
-Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 29/09 18h45
-id: E05-ETH-c7f855d6c1-2026-09-29 · status: expirado
-
-[ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex, AI push accelerate
-TradingView (Reuters) · 29/09 18h17 · + Reuters · licença: manchete
-Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45L1XJ:0-tesla-lines-up-30-billion-credit-lines-as-capex-ai-push-accelerate/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no TradingView (Reuters): Tesla lines up $30 billion credit lines as capex, AI push accelerate; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 29/09 18h17
-id: E05-TSLA-09bae21456-2026-09-29 · status: expirado
-
-[ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate
-Reuters · 29/09 17h47 · fonte única · licença: manchete
-Link: https://www.reuters.com/business/autos-transportation/tesla-lines-up-30-billion-credit-lines-capex-robotaxi-push-accelerate-2026-09-29/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Reuters: Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate; confirmar o número no texto antes de repassar'
-Fonte: Reuters 29/09 17h47
-id: E05-TSLA-8c4acd630e-2026-09-29 · status: expirado
-
-[ATENÇÃO] E05 · AMD · AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club
-Yahoo Finance · 29/09 11h10 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Quick Read -       Buying AMD on Lisa Su's first day as CEO in 2014 at $3.28 produced an 18,433% total return by late 2026.
-  – -       Investors who bought AMD at the $1 trillion milestone are already underwater, paying 162 times trailing earnings for a proven turnaround.
-  – -       AMD's Data Center revenue hit $6.72 billion in Q2 2026, up 107% year-over-year, making it the credible number two to Nvidia.
-  – -       Read More: Avoid these 13 retirement mistakes before they derail your future (sponsor) Advanced Micro Devices (NASDAQ:AMD) reached a $1 trillion market value for the first time on September 21, 2026.
-  – Settling With Intel Left AMD Fighting for Survival On November 12, 2009, AMD settled its long legal fight with Intel (NASDAQ:INTC), the leading PC processor maker.
-  – Even so, AMD spent the early 2010s as a near-bankruptcy candidate.
-Link: https://finance.yahoo.com/markets/stocks/articles/amd-4-milestones-total-return-141046323.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: AMD · INTC
-Como falar: 'saiu no Yahoo Finance: AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 29/09 11h10
-id: E05-AMD-7625604bd2-2026-09-29 · status: entregue
-
-[ATENÇÃO] E05 · PETR4 · Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação, diz BTG
-Exame · 29/09 10h35 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – (CFOTO/Future Publishing/Getty Images) Publicado em 29 de setembro de 2026 às 09h09.
-  – Última atualização em 29 de setembro de 2026 às 09h37.
-  – O banco mantém recomendação de compra, com preços-alvo de R$ 65 no Brasil e US$ 26 para os ADRs.
-  – O preço-alvo é de US$ 26 para os ADRs negociados em Nova York e R$ 65 por ação no mercado local.
-  – Segundo o BTG, uma queda entre 10% e 15% nas ações levaria a Petrobras para um patamar de valuation considerado atrativo para muitos investidores.
-  – Em um cenário de correção de 15% a 20%, o retorno estimado sobre o fluxo de caixa ao acionista poderia chegar a cerca de 20% a 21,2% nos próximos 12 meses.
-Link: https://exame.com/invest/mercados/petrobras-pode-cair-na-eleicao-mas-dividendo-de-14-deve-segurar-a-acao-diz-btg/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: PETR4
-Como falar: 'saiu no Exame: Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação, diz BTG; confirmar o número no texto antes de repassar'
-Fonte: Exame 29/09 10h35
-id: E05-PETR4-9d4b7d240c-2026-09-29 · status: entregue
-
-[ATENÇÃO] E05 · SMAL11 · Small cap da Bolsa pagará R$ 421 milhões em dividendos em duas parcelas; veja quem irá embolsar
-Money Times · 29/09 08h39 · fonte única · licença: integral
-Do texto:
-  – O pagamento se dará em duas parcelas iguais de R$ 210,53 milhões, equivalente a R$ 0,740150001 por ação, mostra o comunicado divulgado na noite de segunda-feira (28).
-  – Vale pontuar que receberão o dividendos acionistas posicionados na companhia ao final de 29 de dezembro de 2025.
-  – Desde o dia 30 de dezembro de 2025, as ações negociam “ex-dividendos”, ou seja, já não é possível garantir uma parcela do provento.
-  – Receba gratuitamente as newsletters do Money Times Lucro da JSL tem queda de 16,6% A JSL registrou lucro líquido ajustado de R$ 30,2 milhões no segundo trimestre de 2026, o que representa uma queda de 16,6% na comparaçã…
-  – A companhia, que é especializada em logística, apurou lucro antes de juros, impostos, depreciação e amortização (Ebitda) ajustado de R$ 494 milhões no período, o que corresponde a uma variação positiva de 0,4% na compar…
-  – Já a receita líquida ficou em R$ 2,5 bilhões, ganho de 4,9% em relação ao mesmo período de 2025.
-Link: https://www.moneytimes.com.br/jsl-small-cap-da-bolsa-pagara-r-421-milhoes-em-dividendos-veja-quem-ira-embolsar-r-074-por-acao-lmrs/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: SMAL11
-Como falar: 'saiu no Money Times: Small cap da Bolsa pagará R$ 421 milhões em dividendos em duas parcelas; veja quem irá em…; confirmar o número no texto antes de repassar'
-Fonte: Money Times 29/09 08h39
-id: E05-SMAL11-e37e825293-2026-09-29 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
-Investing.com · 29/09 08h26 · fonte única · licença: manchete
-Link: https://www.investing.com/news/stock-market-news/amd-stock-outlook-is-it-still-a-buy-at-39x-2027-earnings-93CH-4922323
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMD
-Como falar: 'saiu no Investing.com: AMD stock outlook: Is it still a buy at 39x 2027 earnings?; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 29/09 08h26
-id: E05-AMD-bfd204fa7b-2026-09-29 · status: entregue
-
-[ATENÇÃO] E05 · AMD · AMD stock outlook: Is it still a buy at 39x 2027 earnings?
-Investing.com · 29/09 08h24 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/amd-stock-outlook-is-it-still-a-buy-at-39x-2027-earnings-93CH-4857684
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: AMD
-Como falar: 'saiu no Investing.com: AMD stock outlook: Is it still a buy at 39x 2027 earnings?; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 29/09 08h24
-id: E05-AMD-b6df43dec9-2026-09-29 · status: entregue
-
-[ATENÇÃO] E05 · ITUB4 · Com oferta somada de R$ 24,85 bi de Itaú e BTG, Fiagros "colhem" recorde de captação
-NeoFeed · 29/09 08h00 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – De janeiro a agosto, as ofertas desses Fundo de Investimento em Cadeias Agroindustriais somaram R$ 9,9 bilhões, segundo dados da Anbima, superando os R$ 8,85 bilhões captados em todo o ano de 2023, até então o recorde d…
-  – O volume de 2026 já é 54% maior que os R$ 6,43 bilhões captados em todo o ano passado.
-  – Na comparação com o mesmo período de 2025, quando os Fiagros levantaram R$ 2,26 bilhões, o valor é 339% maior.
-  – O número de ofertas acompanha o movimento: foram 85 emissões encerradas em oito meses, contra 57 em todo o ano de 2025.
-  – Itaú e BTG Pactual estão com ofertas de Fiagros em distribuição que podem somar até R$ 24,85 bilhões, mais que o dobro de tudo o que a indústria captou até agosto.
-  – Só no valor-base, as duas emissões equivalem a mais de um quinto do patrimônio de R$ 65,8 bilhões dos Fiagros.
-Link: https://neofeed.com.br/negocios/com-oferta-somada-de-r-2485-bi-de-itau-e-btg-fiagros-colhem-recorde-de-captacao/
-Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
-Ativos: ITUB4
-Como falar: 'saiu no NeoFeed: Com oferta somada de R$ 24,85 bi de Itaú e BTG, Fiagros "colhem" recorde de captação; confirmar o número no texto antes de repassar'
-Fonte: NeoFeed 29/09 08h00
-id: E05-ITUB4-fe62f4d135-2026-09-29 · status: entregue
-
-[ATENÇÃO] E05 · NVDA · Key facts: NVIDIA raises buyback by $150B; to buy Hugging Face for $13B
-TradingView (Reuters) · 29/09 04h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/tradingview:ccb6645d38f18:0-key-facts-nvidia-raises-buyback-by-150b-to-buy-hugging-face-for-13b/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): Key facts: NVIDIA raises buyback by $150B; to buy Hugging Face for $13B; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 29/09 04h00
-id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
+id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (160)
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
+· BABA ALIBABA GROUP HOLDING LIMITED (BABA) SHAREHOLDER ALERT (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/30/3372000/0/en/alibaba-group-holding-limited-baba-shareholder-alert-bernstein-liebhard-llp-reminds-alibaba-group-holding-limited-investors-of-upcoming-deadline.html
+· MRVL Marvell: Surprisingly Cheaper Than In August, But There's A Catch (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4950979-marvell-surprisingly-cheaper-than-in-august-but-theres-a-catch
+· BRENT Dólar abre em queda com petróleo e dados econômicos dos EUA no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/dolar-abre-em-queda-com-petroleo-e-dados-economicos-dos-eua-no-radar.shtml
+· TSLA What Happens If The Market Severely Punishes Tesla AND SpaceX at The Same Time? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/happens-market-severely-punishes-tesla-124546816.html
+· KO Coca-Cola’s Secret Weapon Isn’t Its Soda (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-secret-weapon-isn-124544317.html
+· PLTR Palantir CEO Alex Karp buys 37,000 acres of Swedish forest (Yahoo Finance) https://finance.yahoo.com/real-estate/articles/palantir-ceo-alex-karp-buys-124540920.html
+· UST Treasury Yields Keep Rising. Can The Economy Keep Up? (Seeking Alpha) https://seekingalpha.com/article/4951010-treasury-yields-keep-rising-can-economy-keep-up
+· USDBRL Dólar tem forte queda após dados de inflação nos EUA (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-30-setembro-2026/
+· NVDA NVDA Stock Eyes Third Straight Monthly Gain: Nvidia Adds Data Center Digital Twin Deal (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvda-stock-eyes-third-straight-122645287.html
+· USDBRL Dólar abre último dia do mês a R$ 5,21, com dívida do Brasil e PIB dos EUA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/30/dolar-bolsa-abre-hoje-30-de-setembro-de-2026.ghtm
+· USDBRL Ibovespa futuro cai com eleições em foco; dólar cede à pressão externa e recua (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-30-9-26-lils/
+· UGPA3 Ipiranga ‘subiu de patamar’, mas ação da Ultrapar já incorporou boa parte da melhora, diz Ativa (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ipiranga-subiu-de-patamar-mas-acao-da-ultrapar-ja-incorporou-boa-parte-da-melhora-diz-ativa/
+· TSLA Tesla Secures $30 Billion Credit Facility to Fund AI Infrastructure Expansion (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tesla-secures-30-billion-credit-121558313.html
+· MU Micron Stock Could Swing 8% After Today's Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-could-swing-8-121348952.html
+· BTC Bitcoin Is Headed For Its Best Quarter In Nearly 2 Years – But Traders Are Using Less Leverage (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTmRvR0U2cGxCNWJ6OVp6V1ZpUGxOYkNRcXUzSFVnbGFleEphU2k4bzFNZHA5Z3pyczFKOGg4NUVPRUxqV3l1aG0zS0tfOGpoOWI1S19XOWJqREdrTndjQXRkS2dIQ29tYjBwUC1GU3ZLZWVSdThGeUpPUVp1b2xxUzVkRFFGTDJUZHRMUGJNQ2o5d2NBdkhfVzJKV0RFTzFPcGRnTzlmQi03bG1LckhyQU9ZMzVpWWxsU3Z4RU9mdHZvZ3l3TTZFSmJ3MXRSR1J5YVJoZnRILS1UcWQyODZlSUxhVVVDSlhP?oc=5
 · BTC Coinbase: Bitcoin Breakout A Positive Catalyst (NASDAQ:COIN) (Seeking Alpha) https://seekingalpha.com/article/4950954-coinbase-bitcoin-breakout-a-positive-catalyst
 · USDBRL Mercado aguarda PCE e PIB dos EUA enquanto monitora contas públicas no Brasil; Ibovespa em dólar sobe nesta quarta-feira (30) (Money Times) https://www.moneytimes.com.br/mercado-aguarda-pce-e-pib-dos-eua-enquanto-monitora-contas-publicas-no-brasil-ibovespa-em-dolar-sobe-nesta-quarta-feira-30-rens-igdl/
 · MELI34 MME altera regras para viabilizar importação de energia do Paraguai no mercado livre (UOL Economia) https://megawhat.uol.com.br/geracao/hidrica/mme-altera-regras-para-viabilizar-importacao-de-energia-do-paraguai-no-mercado-livre/
@@ -269,49 +98,3 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · PETR4 PETR4, BBSA3, SANP11, CMIG4: A onda privatista acabou? (Money Times) https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDhaVUszTjJ5VnBiUjdOeFBnckxBRUctN0NnSTdFWU9LYUdINk5kSjFjYnh1ZTVmX3RlMTd2bk5pVEJkc1E3WFA2OWRZektlbC1mVWJHSXBMNWJjSmQ2UTRZZllWVTgxREd5YUo0UmdQWi15MF9yc05QcTRFczFWYjBlTHJNZmJqV2ttY2VR?oc=5
 · TSM TSMC evaluates potential Texas investment, sources say (Reuters) https://news.google.com/rss/articles/CBMirAFBVV95cUxQbk5sR25ad2FWc2RmSWZua1F3Mi1OR1NtTGx5bi1lQ1I0MHlmSHNyUXRGNUd5WmtOVEFMazFUY0FnM0tHdG8zbUF4QjlsaUNJWHhaZ2RXaWtUZHZhN0QteXRiNFNzb3pWcjA0Ty14cFJPenZhV0xnWktra01NaTNYa2s0Q0pEY0FxS20wV0lleWYzWGstYllNc1c3MFFxLXY1X3F4YjI5LXBhbG1J?oc=5
 · JPM JPMorgan Chase (JPM) Backs Michigan LIFT As Dimon Pushes US Europe Trade Pact (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPVTZyUWpXWWJINzIybDJ6ZnZiRGpydTZXUkhpSEZBRWRLSHZjbGtWNU5NUUUyQWFkN0Y3bUJjRllfMHZ3LWkyeTZyelhNdm0wU3VDREVvYXM4VjFTVmU5VXRfU3ByMTJWam5ibktMYmtRaDQ4dHhQbnI1ZkM0Rk5YRmxIaGpxckVvUWMxVW1UUWFtbG9vWUhPQ2ZvaXRkZUE?oc=5
-· MELI34 Anvisa notifica Mercado Livre após plataforma anunciar venda de remédios dentro do marketplace (Exame) https://exame.com/invest/mercados/anvisa-notifica-mercado-livre-apos-plataforma-anunciar-venda-de-remedios-dentro-do-marketplace/
-· BRENT Brent Holds Losses as Supply Concerns Ease (TradingView (Reuters)) https://www.tradingview.com/news/te_news:587860:0-brent-holds-losses-as-supply-concerns-ease/
-· USDBRL Ibovespa sobe e dólar cai com exterior e política no radar (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45L15D:0/
-· BTC Bitcoin futures notional drops to lowest level in two years (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:0904c24c4094b:0-bitcoin-futures-notional-drops-to-lowest-level-in-two-years/
-· NVDA Nvidia: The Valuation Still Doesn't Match The AI Growth (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950817-nvidia-the-valuation-still-doesnt-match-the-ai-growth
-· BTC Bitcoin, Ethereum, XRP, Dogecoin Hold Firm as Treasury Yield Hits 24-Year High (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d01575a1a094b:0-bitcoin-ethereum-xrp-dogecoin-hold-firm-as-treasury-yield-hits-24-year-high/
-· JPM JPMorgan Reveals the Critical Price Level for Bitcoin Miners (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-reveals-critical-price-level-192726489.html
-· UST US 30-Year Treasury Yield Rises to Highest Level Since 2002 (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-29/us-30-year-treasury-yield-approaches-highest-level-since-2002
-· UST 10-Year Treasury Yield Surges Toward 6%: What It Means for Stocks and Debt Markets (Barron's) https://www.barrons.com/articles/stocks-bonds-treasuries-10-year-yield-b23f586d
-· JPM JPMorgan appoints Mark O'Donovan as head of human resources, memo says (Reuters) https://news.google.com/rss/articles/CBMiugFBVV95cUxPWEczSUpMX0lqbHdVUTZ5emU1QUJub080RzNHTE1tSXo0YWtNYWNEaElUeGRaMzhpdVpqTnZlRVk3aU41X29HS0xuQ3FYclFaTGRJQ3p3OTlLOFNfVDU3TVJKaWtNWktXajBBSzBJQlgxZVZhOUs2bzZ4eVhsWkt6dXB2ck9yVWQxX0M4MzNDcTZYaDdRcUtQXzRsMXE2UWpKYW1FMDljRnFsVVpQVVpNbEJHTXlpMEtMMmc?oc=5
-· KLBN4 Suzano ou Klabin? XP aponta qual ação está mais exposta à alta da celulose (Estadao) https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaW1GREFWTW41dFJIRmZqV2VpVTdCdWxWS2lGTEN2Q0hNN21zU1FyMG9IVUgxY2pZcW1RRVRHS0pKOUVaa0JMb2phMmE0QlUtX3JfeHdGM2w2Wk5uY1FTOVQzVDlvdlVsYjBqLTlwZmpUUWktLXRPcUVWcXFBRVJaMnVOcGhiTENOd3VCMmhxRVZoLWR0VE1HNjFETy1YYmpwR2tXeHZzTTZLN0lTc2NJazh2Xzg5OXk0Vm9PcmF4VjVBYS00eXI2SFJ5NzZZWVlndEkwYUhncnNYTWNwSkRjLTF30gHnAUFVX3lxTE1tc2ppR2ZhcVFYamtEcmwwWnJvS01zUXUzTjVrRV9FR0NpcDNVWkZUQ1FPYlBENlNUVmpjMlhmVkt0VDZPcmZYdzN2X1IzTUx2SUxQSU1tMjhoekRFR3FLVUN5UVMwUWh5NHpEZlFWMl80dG5GOEQ4X1ZqYW1rR0x5cjhfZVhsZXJ5RjJQV2plMXJsSGRPVmZqRzJsQXpSMmVseTdKcTdCaDU5LWJ1S1dUQ1EwRnBYNnJfMnpDcDlzeFV5NzBUdGh5UGlVR3VfdTZwMHljOFp4eTFGZnBpc21wYUxpel9fMA?oc=5
-· COHR Why Coherent (COHR) Stock Is Up Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-stock-today-222402815.html
-· DI Juros futuros fecham em firme queda com moderação dos Treasuries (Money Times) https://www.moneytimes.com.br/juros-futuros-29-9-26-apsa/
-· UST Treasury Yields Push To Fresh Highs (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-hover-near-recent-highs-375feb34
-· VALE3 UBS BB passa a tesoura nas ações da Vale (VALE3) com novo risco no radar; veja preço-alvo (Money Times) https://www.moneytimes.com.br/ubs-bb-passa-a-tesoura-nas-acoes-da-vale-vale3-com-minerio-de-ferro-e-frete-mais-caros-lils/
-· TSLA EVgo at Lytham Partners: Tesla deal lifts growth outlook (Investing.com) https://www.investing.com/news/transcripts/evgo-at-lytham-partners-tesla-deal-lifts-growth-outlook-93CH-4923658
-· PETR4 Petrobras fecha contrato para comprar gás natural liquefeito dos EUA por 22 anos (Bloomberg Linea) https://www.bloomberglinea.com.br/negocios/petrobras-fecha-contrato-para-comprar-gas-natural-liquefeito-dos-eua-por-22-anos/
-· BTC Bitcoin's Rally Is Real, Glassnode Says: So Why Are Spot Buyers Uninterested? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:7bc260d2a094b:0-bitcoin-s-rally-is-real-glassnode-says-so-why-are-spot-buyers-uninterested/
-· USDBRL Dólar hoje fecha com queda, a R$ 5,21, em sessão volátil e sob influência do exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-29092026/
-· USDBRL Ibovespa reage e fecha em alta de 0,46%; dólar recua a R$ 5,21 (Exame) https://exame.com/invest/mercados/ibovespa-quebra-sequencia-de-perdas-e-fecha-em-alta-de-046-dolar-cai-para-r-521/
-· VALE3 Vale (VALE3) cai abaixo de R$ 70 pela 1ª vez no ano com minério e corte de preço-alvo (InfoMoney) https://www.infomoney.com.br/mercados/vale-vale3-cai-abaixo-de-r-70-pela-1a-vez-no-ano-com-minerio-e-corte-de-preco-alvo/amp/
-· UST US Equity Markets End Lower After Higher Treasury Yields, Fed Governor's Remarks on Inflation (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxNTG1SbXJIVXUzWnh2SW5MQUw5OFRCLWZzUnhJOURwc283VXhtSW9JVDJCaG5XeDlCVURQSmV6OS1tVVY4Z2hUZ3BudXdJdXhVd3hBdFR3eDFRSS1iSTR2M3JPdnB0VGxPczY1SHJIeWhJb3RTZzNLdDVQRzZJMzM0RUV6Y1RXakUxVS0zRy03OG84REU1QWZj?oc=5
-· VALE3 Vale (VALE3) cai mais de 2% e ameaça perder os R$ 70; o que está derrubando a ação? (Suno Noticias) https://news.google.com/rss/articles/CBMieEFVX3lxTE1SOWU0LW9qdERpRDRLQTRsTEZ1TDJheXlrU1JqN3FqTllyZ3liLXlBZ0hOSzYwMG1qaEZQd0VoeGRPWUZEYnc5N3B0WnhpT2FfS2EzUTdrU1VjLVZkcTUzNW56aFRVOFhic3lqSkhxOEc1eXBYSkV4cdIBfkFVX3lxTE1uRVg5a05SRXVnMW0yRE1sY3hqSF9iVDF5T1R3dWJKVEZJMXd2Z1dkRzZNY3U3V3NyOV9UckVBQl82M0FxMVZIYlpadVBqX01IMF8zUzM2NmxmaUNPczhCVlNJSGpaUC1fOTdPVWlRZGgyczB4dWx3RlpiNWR2dw?oc=5
-· USDBRL Bolsa volta a subir após 4 quedas; dólar cai a R$ 5,217 (Poder360) https://www.poder360.com.br/poder-economia/bolsa-volta-a-subir-apos-4-quedas-dolar-cai-a-r-5217/
-· GOOGL Magnite could be a big winner as DOJ takes aim at Google's ad dominance -- BofA (MGNI:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648193-magnite-could-be-a-big-winner-as-doj-takes-aim-at-googles-ad-dominance---bofa
-· PETR4 Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21 (Money Times) https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/
-· MU What Micron’s next earnings could reveal about the AI chip market (Yahoo Finance) https://finance.yahoo.com/video/micron-next-earnings-could-reveal-202000674.html
-· UST US Equity Markets End Lower After Higher Treasury Yields, Fed Governor's Remarks on Inflation (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201138391.html
-· AMD Could Advanced Micro Devices Stock Help You Become a Millionaire? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-advanced-micro-devices-stock-195200598.html
-· CVX Could $1K in Chevron Stock Have Doubled in 10 Years? Explore Its Track Record (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-1k-chevron-stock-doubled-173404305.html
-· DI Selic cai para 13,75% e impulsiona a economia real (Valor Economico) https://valor.globo.com/google/amp/patrocinado/dino/noticia/2026/09/29/selic-cai-para-1375-e-impulsiona-a-economia-real-1.ghtml
-· LITE Lumentum Holdings Inc. (LITE) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE95bHdrbUUyN2c0bExGNEs3UzhlZVA2RGpvZG15VDloQlJwVEl4Q1lBLWowSHBBV3RXVlVzZ0t6SHRnb1pHdzdwUXhSX0EzaHZTZlE?oc=5
-· USDBRL Dólar à vista fecha em baixa de 0,25%, a R$5,2132 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-025-a-r52132-na-venda-2078595
-· DI Caged mostra mercado de trabalho ainda aquecido e desafiando mais cortes na Selic (InfoMoney) https://www.infomoney.com.br/economia/caged-agosto-brasil-cria-empregos-formais/
-· PLTR Palantir: Buy At An Elite Growth Valuation (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4950788-palantir-buy-at-an-elite-growth-valuation
-· TSLA Tesla's Semi Could Unlock a $17 Billion Software Opportunity (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:29b11bf3b094b:0-tesla-s-semi-could-unlock-a-17-billion-software-opportunity/
-· BTC Grayscale reports Zcash market cap rises to 1.5% of Bitcoin's in one year (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:3bee9d195094b:0-grayscale-reports-zcash-market-cap-rises-to-1-5-of-bitcoin-s-in-one-year/
-· MU JPMorgan Says Micron's Rally May Not Be Over (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c4f70b95d094b:0-jpmorgan-says-micron-s-rally-may-not-be-over/
-· TSM Wells Fargo Spots Unexpected Winner in TSMC's 2nm Race (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:840ac4e5c094b:0-wells-fargo-spots-unexpected-winner-in-tsmc-s-2nm-race/
-· AVGO Broadcom Stock Jumps Nearly 3.2% as $16.7 Billion AI Engine Faces Margin Test (Yahoo Finance) https://ca.finance.yahoo.com/news/broadcom-stock-jumps-nearly-3-184641753.html
-· ETH ETH Can Hit $10,000 If It Lives Up to 'World Computer' Promise, Analyst Argues (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d0f39b0d8094b:0-eth-can-hit-10-000-if-it-lives-up-to-world-computer-promise-analyst-argues/
-· MU Micron Q4 Preview: Market Expert Highlights $1,575 as Stock Price to Watch (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:2b127a341094b:0-micron-q4-preview-market-expert-highlights-1-575-as-stock-price-to-watch/
-· COHR PLTR vs. COHR: Which AI-Driven Tech Stock is a Better Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ff8762e85094b:0-pltr-vs-cohr-which-ai-driven-tech-stock-is-a-better-buy/
-· BRENT Brent Crude Drops as US SPR Release Boosts Supply (TradingView (Reuters)) https://www.tradingview.com/news/te_news:587819:0-brent-crude-drops-as-us-spr-release-boosts-supply/
-· ETH Current price of Ethereum for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-29-2026/
-· (+100 manchetes; lista completa em eventos/noticias.json)
