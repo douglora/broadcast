@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of October 5, 2026 - BABA
+(pendente de slot anterior) [ATENÇÃO] E05 · BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of October 5, 2026 - BABA
 PR Newswire · 30/09 13h51 · fonte única · licença: integral
 Do texto:
   – Market Reaction Focus: Alibaba ADSs repriced across three separate trading sessions in June 2026 as a U.S.
@@ -14,10 +14,9 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no PR Newswire: Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Laws…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 30/09 13h51
-Push: intradia: 2 alertas de atenção — E05 BABA, E05 MU · detalhe na sessão
 ids: E05-BABA-5fda112688-2026-09-30
 
-[ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
+(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
 TradingView (Reuters) · 30/09 13h41 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/stocktwits:376dffb18094b:0-micron-earnings-could-reach-50-a-quarter-says-susquehanna-analyst-sees-memory-driving-ai-profits/
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -27,19 +26,15 @@ Fonte: TradingView (Reuters) 30/09 13h41
 ids: E05-MU-5bd429311a-2026-09-30
 
 Info (só linha no Fechamento):
-· E05 USDBRL · Por que o dólar sobe? Entenda o que faz o real e outras moedas perderem valor
-· E05 INTC · 32 Analysts Say Hold on Intel. Here’s What the Numbers Actually Show
+· E05 MU · Why Micron Earnings Hold the Key for This Wildly Popular ETF
+· E05 AMD · AMD Just Got a $1,000 Price Target as AI Demand Accelerates
+· E05 PETR4 · Petrobras: P-80 deixa Singapura rumo a Búzios e reforça produção no pré-sal
+· E05 INTC · Intel Stocks Jump as OpenShell Adds Agent Policy Enforcement
 · E05 UST · Update: US Equity Indexes Mixed as Higher Spending, Soft Inflation Print Split Moves in Treasury Yields
-· E05 AMD · AMD: The Scary $1 Trillion Question (NASDAQ:AMD)
-· E05 USDBRL · Tempo real: Ibovespa sobe 1% com dados de inflação nos EUA; dólar cai
-· E05 BRENT · Oil Price Forecasts Jump as Hormuz Disruption Drags On
-· E05 BTC · Bitcoin Jumps on Cool PCE Inflation Data as Bond Yields Hit 20-Year Highs
-· E05 NVDA · Breakingviews - COMMENTARY: AMD takes an $8 bln leap at Nvidia
-· E05 JPM · JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock?
-· E05 MU · Micron's Guidance Will Be the Whole Memory Market's Answer
-· E05 TSLA · Should You Buy Tesla Stock Before Oct. 2?
-· E05 USDBRL · Ibovespa futuro cai com eleições em foco; dólar cede à pressão externa e recua
-· E05 JPM · Price to earnings forward of JPMORGAN EUROPEAN DISCOVERY TR PLC – OTC:JESCF
+· E05 BTC · Bitcoin steadies as soft PCE cools October Fed rate hike bets
+· E05 BABA · Alibaba's AI Spending Ramps Up: Is the Investment Paying Off?
+· E05 NVDA · Price Prediction: 5 Years From Now, This Could Be Nvidia Stock’s Price
+· E05 USDBRL · Dólar tem forte queda após dados de inflação nos EUA
 
 
 Alertas do dia (todos, com status):
@@ -56,6 +51,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 MU — MU · Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed
 · entregue  E05 NVDA — NVDA · Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Mil
 · entregue  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accele
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,1759 (cruzou R$ 5,20) (parcial, intradia)
-· (+88 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,1688 (cruzou R$ 5,20) (parcial, intradia)
+· (+97 notícias só manchete, em noticias.md)
 
