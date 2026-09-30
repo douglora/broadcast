@@ -1,8 +1,30 @@
-NOTÍCIAS E FATOS · 29/09 21h19
+NOTÍCIAS E FATOS · 30/09 08h32
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 443 veículo fora da lista, 47 sem ativo, 4 teto) · cvm ok 1 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 428 veículo fora da lista, 45 sem ativo, 38 teto) · cvm ok 2 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
+CVM · entregue 30/09/2026 08:22
+Do documento:
+  – Esse montante soma-se aos até R$ 7,7 bilhões aprovados  com base no resultado do primeiro e segundo trimestre de 2026, totalizando até R$ 11,7 bilhões de capital  alocável aos acionistas.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572704
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
+Fonte: CVM 30/09
+id: E03-AXIA3-1572704-2026-09-30 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
+CVM · entregue 30/09/2026 08:17
+Do documento:
+  – Esse montante soma-se aos até R$ 7,7 bilhões aprovados  com base no resultado do primeiro e segundo trimestre de 2026, totalizando até R$ 11,7 bilhões de capital  alocável aos acionistas.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572702
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Administração aprovou, nesta data, a alocação de capi…'
+Fonte: CVM 30/09
+id: E03-AXIA3-1572702-2026-09-30 · status: pendente · íntegra disponível
 
 [INFO] E03 · PETR4 · Aviso aos Acionistas: Outros avisos
 CVM · entregue 29/09/2026 20:42 · Outros avisos
@@ -57,7 +79,34 @@ Fonte: SEC EDGAR 2026-09-29
 id: E04-BABA-26111915-2026-09-29 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (15)
+
+[ATENÇÃO] E05 · MU · Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed
+Investing.com · 30/09 05h56 · fonte única · licença: manchete
+Link: https://www.investing.com/analysis/micron-q4-earnings-outlook-could-signal-where-the-ai-chip-market-is-headed-200688643
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Investing.com: Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 30/09 05h56
+id: E05-MU-b0a87ec2f7-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Million of AMD: ARK Invest Also Picks Up Tesla, SpaceX Shares
+TradingView (Reuters) · 29/09 23h49 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:cdf068509094b:0-cathie-wood-goes-big-on-nvidia-after-150-billion-buyback-sells-110-million-of-amd-ark-invest-also-picks-up-tesla-spacex-shares/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: NVDA · AMD · TSLA
+Como falar: 'saiu no TradingView (Reuters): Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Million of AMD: ARK…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 29/09 23h49
+id: E05-NVDA-f6d0cebe63-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate By Reuters
+Investing.com · 29/09 18h06 · fonte única · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/tesla-lines-up-30-billion-credit-lines-as-capex-and-robotaxi-push-accelerate-4923561
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Investing.com: Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate By Reuters; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 29/09 18h06
+id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: pendente
 
 [ATENÇÃO] E05 · TSLA · Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years
 Yahoo Finance · 29/09 19h36 · + Reuters · licença: resumo
@@ -91,7 +140,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ETH
 Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/09 18h45
-id: E05-ETH-c7f855d6c1-2026-09-29 · status: pendente
+id: E05-ETH-c7f855d6c1-2026-09-29 · status: expirado
 
 [ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex, AI push accelerate
 TradingView (Reuters) · 29/09 18h17 · + Reuters · licença: manchete
@@ -100,7 +149,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no TradingView (Reuters): Tesla lines up $30 billion credit lines as capex, AI push accelerate; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/09 18h17
-id: E05-TSLA-09bae21456-2026-09-29 · status: pendente
+id: E05-TSLA-09bae21456-2026-09-29 · status: expirado
 
 [ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate
 Reuters · 29/09 17h47 · fonte única · licença: manchete
@@ -203,8 +252,23 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (145)
+## OUTRAS NOTÍCIAS (só manchete) (160)
 
+· BTC Coinbase: Bitcoin Breakout A Positive Catalyst (NASDAQ:COIN) (Seeking Alpha) https://seekingalpha.com/article/4950954-coinbase-bitcoin-breakout-a-positive-catalyst
+· USDBRL Mercado aguarda PCE e PIB dos EUA enquanto monitora contas públicas no Brasil; Ibovespa em dólar sobe nesta quarta-feira (30) (Money Times) https://www.moneytimes.com.br/mercado-aguarda-pce-e-pib-dos-eua-enquanto-monitora-contas-publicas-no-brasil-ibovespa-em-dolar-sobe-nesta-quarta-feira-30-rens-igdl/
+· MELI34 MME altera regras para viabilizar importação de energia do Paraguai no mercado livre (UOL Economia) https://megawhat.uol.com.br/geracao/hidrica/mme-altera-regras-para-viabilizar-importacao-de-energia-do-paraguai-no-mercado-livre/
+· BTC Bitcoin Price Tests $83,000 Ahead of Key PCE Inflation Release (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:aed9991fc094b:0-bitcoin-price-tests-83-000-ahead-of-key-pce-inflation-release/
+· MU MU: Micron Earnings Put the AI Memory Boom to the Test. Here’s What to Watch. (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:562818a95094b:0-mu-micron-earnings-put-the-ai-memory-boom-to-the-test-here-s-what-to-watch/
+· MU Wall Street Futures Advance as Investors Await PCE Inflation and Micron Earnings: Dow Jones, S&P, Nasdaq (Yahoo Finance) https://uk.finance.yahoo.com/news/wall-street-futures-advance-investors-102258686.html
+· BTC Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:31f114cea094b:0-bitcoin-etfs-stretch-3-1b-inflow-streak-as-ether-funds-turn-red/
+· AMD AMD: Expensive, But Growth Is Still Fast Enough To Keep The Bull Case Alive (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950933-amd-expensive-but-growth-is-still-fast-enough-to-keep-the-bull-case-alive
+· MU Here's What a $1,080 Investment in Micron Stock Could Be Worth in 5 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-1-080-investment-micron-100600038.html
+· UST Treasury Yields Fall on Dovish-Leaning Fed Speech; European Yields Follow Suit (The Wall Street Journal) https://www.wsj.com/economy/central-banking/u-s-treasury-yields-fall-on-dovish-leaning-fed-speech-d6451171
+· MMM 3M: Q2 Confirms The Turnaround Is Genuine, And The Pullback Looks Bullish (NYSE:MMM) (Seeking Alpha) https://seekingalpha.com/article/4950926-3m-q2-confirms-the-turnaround-is-genuine-and-the-pullback-looks-bullish
+· UST He’s been badmouthing Treasury bonds since 2020, but now ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish (MarketWatch) https://www.marketwatch.com/story/hes-been-badmouthing-treasury-bonds-since-2020-but-now-the-big-fat-cushion-of-5-25-yields-is-turning-this-strategist-bullish-376fafba
+· PETR4 PETR4, BBSA3, SANP11, CMIG4: A onda privatista acabou? (Money Times) https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDhaVUszTjJ5VnBiUjdOeFBnckxBRUctN0NnSTdFWU9LYUdINk5kSjFjYnh1ZTVmX3RlMTd2bk5pVEJkc1E3WFA2OWRZektlbC1mVWJHSXBMNWJjSmQ2UTRZZllWVTgxREd5YUo0UmdQWi15MF9yc05QcTRFczFWYjBlTHJNZmJqV2ttY2VR?oc=5
+· TSM TSMC evaluates potential Texas investment, sources say (Reuters) https://news.google.com/rss/articles/CBMirAFBVV95cUxQbk5sR25ad2FWc2RmSWZua1F3Mi1OR1NtTGx5bi1lQ1I0MHlmSHNyUXRGNUd5WmtOVEFMazFUY0FnM0tHdG8zbUF4QjlsaUNJWHhaZ2RXaWtUZHZhN0QteXRiNFNzb3pWcjA0Ty14cFJPenZhV0xnWktra01NaTNYa2s0Q0pEY0FxS20wV0lleWYzWGstYllNc1c3MFFxLXY1X3F4YjI5LXBhbG1J?oc=5
+· JPM JPMorgan Chase (JPM) Backs Michigan LIFT As Dimon Pushes US Europe Trade Pact (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPVTZyUWpXWWJINzIybDJ6ZnZiRGpydTZXUkhpSEZBRWRLSHZjbGtWNU5NUUUyQWFkN0Y3bUJjRllfMHZ3LWkyeTZyelhNdm0wU3VDREVvYXM4VjFTVmU5VXRfU3ByMTJWam5ibktMYmtRaDQ4dHhQbnI1ZkM0Rk5YRmxIaGpxckVvUWMxVW1UUWFtbG9vWUhPQ2ZvaXRkZUE?oc=5
 · MELI34 Anvisa notifica Mercado Livre após plataforma anunciar venda de remédios dentro do marketplace (Exame) https://exame.com/invest/mercados/anvisa-notifica-mercado-livre-apos-plataforma-anunciar-venda-de-remedios-dentro-do-marketplace/
 · BRENT Brent Holds Losses as Supply Concerns Ease (TradingView (Reuters)) https://www.tradingview.com/news/te_news:587860:0-brent-holds-losses-as-supply-concerns-ease/
 · USDBRL Ibovespa sobe e dólar cai com exterior e política no radar (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45L15D:0/
@@ -250,19 +314,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · COHR PLTR vs. COHR: Which AI-Driven Tech Stock is a Better Buy? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ff8762e85094b:0-pltr-vs-cohr-which-ai-driven-tech-stock-is-a-better-buy/
 · BRENT Brent Crude Drops as US SPR Release Boosts Supply (TradingView (Reuters)) https://www.tradingview.com/news/te_news:587819:0-brent-crude-drops-as-us-spr-release-boosts-supply/
 · ETH Current price of Ethereum for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-29-2026/
-· BTC Current price of Bitcoin for Sept. 29, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-29-2026/
-· MRVL Marvell's Investor Day Could Ignite Another Rerating (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4950776-marvells-investor-day-could-ignite-another-massive-rerating
-· MU Micron options chain skews bullish in run-up to Q4 earnings (MU:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648174-micron-options-chain-skews-bullish-in-run-up-to-q4-earnings
-· USDBRL Com um olho no dólar e outro no plantio, B3 fecha a terça-feira com estabilidade para os futuros do milho (TradingView (Reuters)) https://br.tradingview.com/news/noticiasagricolas:a0c1a5719bc81:0/
-· AVGO Reflecting On Processors and Graphics Chips Stocks’ Q2 Earnings: Broadcom (NASDAQ:AVGO) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/reflecting-processors-graphics-chips-stocks-184002453.html
-· USDBRL Ibovespa vira para leve alta após quatro sessões de queda; dólar segue acima de R$ 5,20 (Exame) https://exame.com/invest/mercados/ibovespa-cai-pela-4a-sessao-seguida-dolar-segue-acima-de-r-520/
-· GOOGL GOOGL's Prospects Ride on AI Initiatives: Can It Beat RDDT and META? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:c9aff0255094b:0-googl-s-prospects-ride-on-ai-initiatives-can-it-beat-rddt-and-meta/
-· UST US 30-year Treasury yield hits highest since 2002 (Financial Times) https://www.ft.com/content/c8693313-7750-40c7-892a-101ab16dec70?syn-25a6b1a6=1
-· TSM TSMC: 2nm Is Moving Into High Gear (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4950690-tsmc-2nm-is-moving-into-high-gear
-· AMD One Market Could Transform AMD’s Growth Story (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/one-market-could-transform-amd-163013833.html
-· BBDC4 Petrobras (PETR4), Bradesco (BBDC4) e mais: quais são as ações preferidas do UBS no Brasil? (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-e-mais-quais-sao-as-acoes-preferidas-do-ubs-no-brasil/
-· LITE Lumentum Stock: I Bought At $800; 2027 Could Change The Story (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4950767-lumentum-stock-i-bought-at-800-2027-could-change-the-story
-· VALE3 Vale (VALE3) cai 2% e caminha para a menor nível cotação do ano: o que está por trás da queda? (Money Times) https://www.moneytimes.com.br/vale-vale3-cai-2-e-caminha-para-a-menor-nivel-cotacao-do-ano-o-que-esta-por-tras-da-queda-lils/
-· ITUB4 Itaú planeja aumentar participação na Equatorial Energia Distribuição (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/negocios/itau-planeja-aumentar-participacao-na-equatorial-energia-distribuicao/
-· PETR4 Petrobras (PETR4): A variável em que os investidores devem ficar de olho nestas eleições (Money Times) https://www.moneytimes.com.br/petrobras-petr4-a-variavel-que-os-investidores-devem-ficar-de-olho-nestas-eleicoes-lils/
-· (+85 manchetes; lista completa em eventos/noticias.json)
+· (+100 manchetes; lista completa em eventos/noticias.json)
