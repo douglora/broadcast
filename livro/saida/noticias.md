@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 13h21
+NOTÍCIAS E FATOS · 30/09 13h49
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 423 veículo fora da lista, 49 sem ativo, 7 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 3 novas (18 consultas; descartadas: 434 veículo fora da lista, 45 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -111,8 +111,11 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (70)
+## OUTRAS NOTÍCIAS (só manchete) (73)
 
+· NVDA Nvidia Looks Criminally Cheap (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4951069-nvidia-looks-criminally-cheap
+· MRVL What Is The True Hidden Price Of Marvell Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/true-hidden-price-marvell-stock-141733118.html
+· UST 10-year Treasury yield turns higher as traders look past inflation data, await jobs report (CNBC) https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html
 · VALE3 China ajuda o minério, mas VALE3 não sustenta reação: o que pesa sobre a ação? (InfoMoney) https://www.infomoney.com.br/mercados/vale3-minerio-china-acao-queda-reacao/
 · ETH Current price of Ethereum for Sept. 30, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-09-30-2026/
 · COHR Is Coherent's PhotonLink Push Reframing Its AI Datacenter Optics Edge For Investors (COHR)? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherents-photonlink-push-reframing-ai-150912363.html
@@ -170,7 +173,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · BTC Bitcoin Is Headed For Its Best Quarter In Nearly 2 Years – But Traders Are Using Less Leverage (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTmRvR0U2cGxCNWJ6OVp6V1ZpUGxOYkNRcXUzSFVnbGFleEphU2k4bzFNZHA5Z3pyczFKOGg4NUVPRUxqV3l1aG0zS0tfOGpoOWI1S19XOWJqREdrTndjQXRkS2dIQ29tYjBwUC1GU3ZLZWVSdThGeUpPUVp1b2xxUzVkRFFGTDJUZHRMUGJNQ2o5d2NBdkhfVzJKV0RFTzFPcGRnTzlmQi03bG1LckhyQU9ZMzVpWWxsU3Z4RU9mdHZvZ3l3TTZFSmJ3MXRSR1J5YVJoZnRILS1UcWQyODZlSUxhVVVDSlhP?oc=5
 · BTC Coinbase: Bitcoin Breakout A Positive Catalyst (NASDAQ:COIN) (Seeking Alpha) https://seekingalpha.com/article/4950954-coinbase-bitcoin-breakout-a-positive-catalyst
 · USDBRL Mercado aguarda PCE e PIB dos EUA enquanto monitora contas públicas no Brasil; Ibovespa em dólar sobe nesta quarta-feira (30) (Money Times) https://www.moneytimes.com.br/mercado-aguarda-pce-e-pib-dos-eua-enquanto-monitora-contas-publicas-no-brasil-ibovespa-em-dolar-sobe-nesta-quarta-feira-30-rens-igdl/
-· MELI34 MME altera regras para viabilizar importação de energia do Paraguai no mercado livre (UOL Economia) https://megawhat.uol.com.br/geracao/hidrica/mme-altera-regras-para-viabilizar-importacao-de-energia-do-paraguai-no-mercado-livre/
-· BTC Bitcoin Price Tests $83,000 Ahead of Key PCE Inflation Release (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:aed9991fc094b:0-bitcoin-price-tests-83-000-ahead-of-key-pce-inflation-release/
-· MU MU: Micron Earnings Put the AI Memory Boom to the Test. Here’s What to Watch. (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:562818a95094b:0-mu-micron-earnings-put-the-ai-memory-boom-to-the-test-here-s-what-to-watch/
-· (+10 manchetes; lista completa em eventos/noticias.json)
+· (+13 manchetes; lista completa em eventos/noticias.json)
