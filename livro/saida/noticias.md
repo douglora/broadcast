@@ -1,8 +1,8 @@
-NOTÍCIAS E FATOS · 30/09 16h21
+NOTÍCIAS E FATOS · 30/09 17h21
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 445 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 441 veículo fora da lista, 41 sem ativo, 20 teto) · cvm ok 1 novos de 7 (4 cias casadas) · sec ok 1 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
 CVM · entregue 30/09/2026 08:22
@@ -26,8 +26,60 @@ Como falar: 'a Axia Energia publicou fato relevante sobre Seu Conselho de Admini
 Fonte: CVM 30/09
 id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
 
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 30/09/2026 17:01 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572835
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 30/09
+id: E03-VALE3-1572835-2026-09-30 · status: linha
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[ATENÇÃO] E04 · MU · 8-K: 2.02 resultado do trimestre
+SEC EDGAR · aceito 30/09 13h02 · 8-K
+Do documento:
+  – 0000723125 FALSE 0000723125 2026-09-30 2026-09-30   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of The Securities Exchange Act of 1934   September 30, 2026   Date of Report (date of earliest event reported)   MICRON TECHNOLOGY, INC.
+  – On September 30, 2026 , Micron Technology, Inc. (the "Company", "we" or "our") announced the financial results for our fourth quarter and full year of fiscal 2026 ended September 3, 2026.
+  – The full text of the press release issued in connection with the announcement is attached as Exhibit 99.1 to this Current Report on Form 8-K.
+  – Date: September 30, 2026 By: /s/ Mark Murphy   Name: Mark Murphy   Title: Executive Vice President and Chief Financial Officer
+Link: https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm
+Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
+Ativos: MU
+Como falar: 'a MU protocolou 8-K na SEC (2.02 resultado do trimestre)'
+Fonte: SEC EDGAR 2026-09-30
+id: E04-MU-26000018-2026-09-30 · status: pendente · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · MU · Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ)
+Seeking Alpha · 30/09 17h08 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4648585-micron-slips-even-as-q4-results-guidance-top-estimates
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Seeking Alpha: Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 30/09 17h08
+id: E05-MU-6227192009-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook
+Yahoo Finance · 30/09 17h04 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Memory giant Micron (MU) reported its fourth quarter earnings after the bell on Wednesday, beating Wall Street's expectations on the top and bottom lines and offering a better-than-anticipated Q1 outlook.
+  – For the quarter, Micron reported earnings per share of $33.42 on revenue of $54.23 billion.
+  – Analysts were looking for EPS of $31.83 and revenue of $51.49 billion, according to Bloomberg analyst consensus estimates.
+  – The company saw EPS of $3.03 and revenue of $11.31 billion in the same quarter last year.
+  – For the second quarter, Micron is projecting revenue of between $60 billon and $63 billion; analysts were calling for $56.77 billion.
+  – Micron's fortunes, along with those of fellow memory chip producers Samsung (005930.KS) and SK Hynix (SKHY), have soared amid sky-high demand driven by the global AI build-out.
+Link: https://finance.yahoo.com/technology/article/micron-tops-q4-estimates-on-top-and-bottom-lines-offers-strong-q1-outlook-153230577.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/09 17h04
+id: E05-MU-ada56a7bac-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
 Yahoo Finance · 30/09 13h41 · fonte única · licença: resumo
@@ -43,7 +95,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/09 13h41
-id: E05-MU-54a41d1fd8-2026-09-30 · status: pendente
+id: E05-MU-54a41d1fd8-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of October 5, 2026 - BABA
 PR Newswire · 30/09 13h51 · fonte única · licença: integral
@@ -152,8 +204,23 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (106)
+## OUTRAS NOTÍCIAS (só manchete) (121)
 
+· USDBRL Ibovespa sobe 1,4% no dia e acumula alta de 5% em setembro; dólar cai para R$ 5,17 (Exame) https://exame.com/invest/mercados/ibovespa-sobe-14-no-dia-e-acumula-alta-de-5-em-setembro-dolar-cai-para-r-517/
+· MU Micron earnings beat by $2.26, revenue topped estimates (Investing.com) https://ng.investing.com/news/earnings/micron-earnings-beat-by-226-revenue-topped-estimates-2716704
+· USDBRL Dólar à vista fecha em baixa de 0,76%, a R$5,1735 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-076-a-r51735-na-venda-2079960
+· MU Micron Forecast Tops Estimates After Demand Outstrips Supply (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-30/micron-forecast-tops-estimates-after-demand-outstrips-supply
+· USDBRL Dólar cai a R$ 5,17 com inflação mais fraca nos EUA; moeda fecha setembro em leve queda (Money Times) https://www.moneytimes.com.br/dolar-30-9-26-lils/
+· USDBRL Dólar cai a R$ 5,17, e Bolsa sobe com dados da economia americana (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/30/dolar-bolsa-fechamento-hoje-30-de-setembro-de-2026.ghtm
+· JPM Eleições 2026: As ações do varejo para ficar de olho, segundo JP Morgan (Money Times) https://www.moneytimes.com.br/eleicoes-2026-as-acoes-do-varejo-para-ficar-de-olho-segundo-jp-morgan-lmrs/
+· USDBRL Abimaq: venda de máquina agrícola cai por dívida e impacto do câmbio em commodity (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/30/abimaq-venda-de-maquina-agricola-cai-por-divida-e-impacto-do-cambio-em-commodity.htm
+· SAPR4 Saiba quem tem direito a desconto de 25% na fatura da Sanepar a partir de outubro - TNOnline (UOL Economia) https://tnonline.uol.com.br/noticias/parana/saiba-quem-tem-direito-a-desconto-de-25-na-fatura-da-sanepar-a-partir-de-outubro-1150714
+· PLTR Was There Any Sign Palantir Stock Would Run? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/sign-palantir-stock-run-192331535.html
+· UST Treasury Yields Hit Fresh Highs (The Wall Street Journal) https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR1h4Wm1PMS0zdk5jczNlaHg3aDlpSXd6Y3hWaFM2MmR6ZkV0cWc2LVdsOTdWbEdrNW85WXNCR08zeDF3TWJLRVpFZEFvTFpxVTEyM2JuM3JNSFdoa1k1NzNXR0xRU0d2ZEptY2pndU9SelM3d0pqcTFMVWtkRFJ1NEc3NU5RbDZ3MHB3dmJ5YzYyU2dBWi1MRW5hZzlzQUZxNm5LMUlMbUh4dw?oc=5
+· ITUB4 Bancos fazem alegria de investidores nesta terça; ITUB4 salta 5% e BBSA3 e BBDC4 também sobem forte (Money Times) https://news.google.com/rss/articles/CBMixwFBVV95cUxPek9iTTJjMjluMzVWRkJOMDZSYjBSMWVkREVNVFdLZHJIQlVHdzNQU1Zhb0ZUbUdVbFluU2dwMWpXTWNLMmFfaC1nRWdoZEM2TlJCeDRZWWdJT19BZUF1X1kwLXlCY3NvSFF3UEdYUHg0TmpTUl9yaFZwMTIyOFlIem56LThfalBwa2ZsVjY3Q2VEVXhDUm5qWFZBMjhveTJUSHV5OFFZYmhPWF94MUZabU4tVzFfMmJnbWN5V2dCeUxtQ3lCZW5V?oc=5
+· UST U.S. 10-year Treasury yield crosses 5.30% to highest since 2002 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNllDWjlhalFWLXJDTUN0bUhXRnlvQXp0Slg4VEZPdUlLd1I0eFZ6M0kxWmdLalQ1RUpqWU9hbEMtUG53UktUcm95Tm9TUUhVZDJ3YkF1MGZsVHJHaG9BSXVKS184dm1fVFBWZWhUdGU2RVNKdk9SMGVNa0hDaS04UzZTWFJvMGZwR3QzRmJRclEwYmhnbGpzTU1McUczUVZOUFpXM2txLWxiV2ZraUhqcXFITWRkdF85d3hlSnRKakpCZw?oc=5
+· AMD AMD Just Got a $1,000 Price Target as AI Demand Accelerates (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiugFBVV95cUxNUW1xV21ZVlBGSnRzMVdFajVCTlFkd0luZjhFbDJtNlMyS2tWTmlqYkdHbXZUUWs5eS1wT09YSEtXekVCYnNtZnYzLXhGRmtvUHNsLW5IQzlsVTR1RlFVR0RCbHhxUEpweG13SURuWjFkbGZDWUNsTm90VG5WdHFyb3paSEplTE0taU0zbW5tN1pOSWNEcm44bnFLYU5lRjREalhRSC1FYU5JSXlNM211NVlVY01UMzdNVHc?oc=5
+· USDBRL Tempo real: Ibovespa sobe 2% com dados de inflação nos EUA; dólar cai (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBMbmNQUFliTDd0cXdOM19RYUhLQjdZS1FKZVROQmVHV1Fza1JvbDdrRUdaSFNxWGczWFNaQXBaWHIzcjB3aXdFcktncDV1bXpkdS03aFIycHJxOEs0QjJCZk92YjdsMHdnQjNB?oc=5
 · MU Cantor Fitzgerald’s CJ Muse on Micron earnings: Expectations are high (CNBC) https://www.cnbc.com/video/2026/09/30/cantor-fitzgeraldas-cj-muse-on-micron-earnings-expectations-are-high.html
 · ITUB4 Bancos fazem alegria de investidores nesta terça; ITUB4 salta 5% e BBSA3 e BBDC4 também sobem forte (Money Times) https://www.moneytimes.com.br/bancos-fazem-alegria-de-investidores-nesta-terca-itub4-salta-5-e-bbsa3-e-bbdc4-tambem-sobem-forte/
 · UST U.S. 10-year Treasury yield crosses 5.30% to highest since 2002 (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4648694-us-10-year-treasury-yield-crosses-530-to-highest-since-2002
@@ -199,19 +266,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · NVDA AMD's World Labs Buyout Boosts AI Prospects: Can It Rival NVDA & AVGO? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:2d0ae1335094b:0-amd-s-world-labs-buyout-boosts-ai-prospects-can-it-rival-nvda-avgo/
 · MU Micron's Guidance Will Be the Whole Memory Market's Answer (TradingView (Reuters)) https://www.tradingview.com/news/zacks:a94567f09094b:0-micron-s-guidance-will-be-the-whole-memory-market-s-answer/
 · UST A Rare Bullish Call on U.S. Treasuries: ETFs to Play (TradingView (Reuters)) https://www.tradingview.com/news/zacks:97dd23993094b:0-a-rare-bullish-call-on-u-s-treasuries-etfs-to-play/
-· USDBRL Ibovespa sobe forte em meio a dados de inflação nos EUA; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMipgFBVV95cUxNa2ZNOE9hQnNwV2JNR3dMUUotb0hXV1VfYnVnZW5DaXBIcU9UNVhzSTRSV3pieHlyTEFQcmw3aW5TNkRtTEk5cEdGWUtNLU9sZWJNbzVnUlZOdXRTN3ZZUFFFWjR2UjlTcDQ3SUlLT3liTHRFVkJrV1FpRm9McERkcW9kdkdmdEoxUDZRaVJVclkySW50QWctZ2p1VEQ1c0pHeFZxZklB?oc=5
-· MU Micron Stock Could Swing 8% After Today's Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMigAFBVV95cUxOUlc1QmxoQk5Vd29aMTcxR2FaelNtcDhkaFEyTmk4WWtIcGhqQXhTQ3pIc2luT0RLLXZ1Z3piYVpBa05ZZUY2WElsM0E4Q0JCVGJnSmhPN3haZU56UjZDRl9mS3l5TGFVb01JdU5zaXZsbUFPakdxOGRaNlBiMVpMcw?oc=5
-· LITE Here Are Wednesday’s Top Wall Street Analyst Research Calls: Ally Financial, BankUnited, Ciena Corporation, CoreWeave, Dow, FormFactor, Lumentum Hold… (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxOSENnbEM5dHg3UGVEN3ZqNXJpdTlGdGN4UENrVERQZGxic3lQbWROamloczZmc0lzbGk4LXVJVTB4ekF4bGU1LTRxLTQ4VHRWS3p3UHBnOU5VYlN1RTNKQWVsZ3NnUFJ4eWpGQll0ZXBIRnUzSjhkbDE2LW5laVZwZUxsdlVSU29XSDg5UkRvQk1EdFNkek0tX0NxelNzNVk?oc=5
-· BABA BABA 5-DAY DEADLINE ALERT: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/09/30/3372157/32716/en/baba-5-day-deadline-alert-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-shareholder-class-action-lawsuit-before-october-5-2026-lead-plain.html
-· MU Micron Stock Rises Ahead of Q4 Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:805c705ac094b:0-micron-stock-rises-ahead-of-q4-earnings/
-· MU We expect Micron's earnings to increase, says Susquehanna’s Mehdi Hosseini (CNBC) https://www.cnbc.com/video/2026/09/30/we-expect-microns-earnings-to-increase-says-sfgs-mehdi-hosseini.html
-· AMD SA analyst upgrades/downgrades: AMD, QCOM, NWL, PLTR (AMD:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4648589-sa-analyst-upgradesdowngrades-amd-qcom-nwl-pltr
-· BTC Standard Chartered Still Sees Bitcoin Hitting $100,000 This Year (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/standard-chartered-still-sees-bitcoin-142700062.html
-· MU Micron is crushing it, but so is SanDisk. So why are they still underestimated? (Yahoo Finance) https://finance.yahoo.com/video/micron-is-crushing-it-but-so-is-sandisk-so-why-are-they-still-underestimated-142425792.html
-· INTC Intel's Recovery Has Moved From Survival To Factory Economics (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4951029-intels-recovery-has-moved-from-survival-to-factory-economics
-· MU Micron's 261% Rally Faces a 7.75% Earnings Test (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f0e31f019094b:0-micron-s-261-rally-faces-a-7-75-earnings-test/
-· ETH Can Ethereum 10x From Here? Walking Through the Math (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-10x-walking-math-140017795.html
-· GOOGL Larridin Announces a New Collaboration with Google Cloud to Help Enterprises Measure and Maximize the Impact of AI (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/larridin-announces-collaboration-google-cloud-140000725.html
-· COHR 3 Reasons Investors Love Coherent (COHR) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-coherent-134913360.html
-· AMD When AMD's CEO and the Chart Say the Same Thing, Pay Attention (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNeUt2NS13MGxodmFibC00MFFxOUlZYnl6SU80UE5mV213RUpCYUszVW9fcjFKRkRRTWxnRDJEaWxnSEtRRXJxOW1aZTZaYU14TTVzbTlVTGZtdS00NHRUSVZIbEtSU0NvTEFXMXlvWmUwcWlQbnJCekZYMU5lWTlTZHFrbUprYzZOUWVYWHlGNVBSOTBB?oc=5
-· (+46 manchetes; lista completa em eventos/noticias.json)
+· (+61 manchetes; lista completa em eventos/noticias.json)
