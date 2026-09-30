@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 15h23
+NOTÍCIAS E FATOS · 30/09 16h21
 
-Pernas: noticias ok 1 novas (18 consultas; descartadas: 444 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 445 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -27,7 +27,23 @@ Fonte: CVM 30/09
 id: E03-AXIA3-1572702-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
+Yahoo Finance · 30/09 13h41 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – -       Hosseini expects Micron to initially reach $30 to $40 in quarterly earnings before potentially moving toward $50.
+  – -       The analyst said he expects Micron to emphasize diversified demand, disciplined capital spending, and its ability to sustain operating margins around 70% during the company's earnings call after market close on…
+  – Micron Technology's (MU) earnings could eventually reach $50 per quarter, which comes to $200 on an annualized basis, if memory continues to play a larger role in the artificial intelligence buildout, according to Susqu…
+  – "I make the argument that compute is actually becoming more commoditized, and it's memory that makes the difference," Hosseini said.
+  – He expects Micron's earnings to initially reach $30 to $40 per quarter before eventually climbing to $50 per quarter, translating to roughly $200 in annualized earnings.
+  – MU stock edged 0.7% higher in midday trade, and was among the top trending tickers on Stocktwits at the time of writing.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-earnings-could-reach-50-164115276.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/09 13h41
+id: E05-MU-54a41d1fd8-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of October 5, 2026 - BABA
 PR Newswire · 30/09 13h51 · fonte única · licença: integral
@@ -136,8 +152,18 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (96)
+## OUTRAS NOTÍCIAS (só manchete) (106)
 
+· MU Cantor Fitzgerald’s CJ Muse on Micron earnings: Expectations are high (CNBC) https://www.cnbc.com/video/2026/09/30/cantor-fitzgeraldas-cj-muse-on-micron-earnings-expectations-are-high.html
+· ITUB4 Bancos fazem alegria de investidores nesta terça; ITUB4 salta 5% e BBSA3 e BBDC4 também sobem forte (Money Times) https://www.moneytimes.com.br/bancos-fazem-alegria-de-investidores-nesta-terca-itub4-salta-5-e-bbsa3-e-bbdc4-tambem-sobem-forte/
+· UST U.S. 10-year Treasury yield crosses 5.30% to highest since 2002 (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4648694-us-10-year-treasury-yield-crosses-530-to-highest-since-2002
+· JPM JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpm-vs-bac-bank-built-181543918.html
+· MU Micron Stock Flashes New Warning Sign Before Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-flashes-warning-sign-180354799.html
+· AMD SA analyst upgrades/downgrades: AMD, QCOM, NWL, PLTR (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:58548f07c094b:0-sa-analyst-upgrades-downgrades-amd-qcom-nwl-pltr/
+· PETR4 Ibovespa ganha força com bancos, Petrobras e eleições; dólar recua para R$ 5,18 (Exame) https://exame.com/invest/mercados/ibovespa-ganha-forca-com-bancos-petrobras-e-eleicoes-dolar-recua-para-r-518/
+· KO Here's What to Expect From Coca-Cola’s Next Earnings Report (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-expect-coca-cola-next-122730213.html
+· UST 10-year Treasury yield are higher as traders look past inflation data, await jobs report (CNBC) https://news.google.com/rss/articles/CBMidEFVX3lxTE5GQlZiZlp1SF9QQThOeTVMdlZRdzFWWmJCQTNscjM0SXpCM1N0NnFqcEI4Uk5ZdVhyak5xQkplS0xseklzSVlNS3IzdUtvRXExNUNZcG1wYU5vVDA1LUlmeVNxdm5vbG5lYXpzQWhTdUFLNTlV0gF6QVVfeXFMTVpOSXVkYm1ua3ZWMy0tUFozWW1DM20zU3h3cExyR3lVckNPb240R1RYTFhJRUNPRkMtOU5pSmpPQTVRa1VYTmNYUnVBMTdpdURWQlJTeF84d1Rsc0xYS3VLZXF1SndfTzZHTXFMeTV2aGZ4X2J6SVlzUGc?oc=5
+· JPM JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE1reGk2UnVKM1I3QlhzQnhJTkRxRTQ0eVFOdEhPSHVRV1h3VnJ5VlFQYWtidlAzZVgyTEFuX183cURwNUVIYnY4TS1nVmtCVFZaSnc?oc=5
 · PETR4 ANP avança para reduzir concentração no mercado de gás apesar de resistência da Petrobras (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/anp-avanca-para-reduzir-concentracao-no-mercado-de-gas-apesar-de-resistencia-da-petrobras.shtml
 · MU Why Micron Earnings Hold the Key for This Wildly Popular ETF (Barron's) https://www.barrons.com/articles/micron-technology-ai-stock-earnings-dram-etf-cfd52805
 · AMD AMD Just Got a $1,000 Price Target as AI Demand Accelerates (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9fd2cdbe2094b:0-amd-just-got-a-1-000-price-target-as-ai-demand-accelerates/
@@ -188,14 +214,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · GOOGL Larridin Announces a New Collaboration with Google Cloud to Help Enterprises Measure and Maximize the Impact of AI (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/larridin-announces-collaboration-google-cloud-140000725.html
 · COHR 3 Reasons Investors Love Coherent (COHR) (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-coherent-134913360.html
 · AMD When AMD's CEO and the Chart Say the Same Thing, Pay Attention (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNeUt2NS13MGxodmFibC00MFFxOUlZYnl6SU80UE5mV213RUpCYUszVW9fcjFKRkRRTWxnRDJEaWxnSEtRRXJxOW1aZTZaYU14TTVzbTlVTGZtdS00NHRUSVZIbEtSU0NvTEFXMXlvWmUwcWlQbnJCekZYMU5lWTlTZHFrbUprYzZOUWVYWHlGNVBSOTBB?oc=5
-· MU Micron earnings: Analyst asks the key question (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZTBBTlFyT2E3ZGtfbUQ3TWM3M1BQN0tUclhzaFpBeTFTVXlvcGpTb0w5T1k1RjBJS1dOSTFydE5OSzlVaDBaSVlsT3hjMjF0a042T3cxQlpfQl9HTkZvQ2RrVVA5QktVQXNDaVFKNi1qU1dtR000YU82Wl9ZNDMxM2toLU1CZjVIMVpBSTRJeXdPTGU1cWh5c0cxVGsxbjBPRV9HYkZXaDg?oc=5
-· MU How Micron's earnings results could impact chip ETFs (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNOE9ycmRnWVN0dGlJTTRXMzV5T3ZOZEdqaG1BdndvNlZmOUUwb1dkNW4xTEI3R0p2R0FVM3EtY3ZkMkpENnA5LTJxaEtNVEtRZXpXczZCakNvWUJQVUk1US1TWWtrWkxLS0ZCMTBVNkJyeU13VW5WYlpvQzNhRHZzYjhfWGVrQ1plYVQtd2txN3Q2djBYeTl0MkI5MHlfZXc?oc=5
-· MU SanDisk Just Got a 73% Upside Call as Micron Heads Into Earnings (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:2a6db6bd4094b:0-sandisk-just-got-a-73-upside-call-as-micron-heads-into-earnings/
-· BTC Current price of Bitcoin for Sept. 30, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-09-30-2026/
-· MU Micron reports Q4 today: Why Lynx Equity sees massive upside (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-reports-q4-today-why-134530180.html
-· MU Micron earnings: Analyst asks the key question (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-earnings-analyst-asks-the-key-question-134446610.html
-· MU How Micron's earnings results could impact chip ETFs (Yahoo Finance) https://finance.yahoo.com/video/how-microns-earnings-results-could-impact-chip-etfs-133632512.html
-· JPM REG - JPMorgan EM G&I Plc - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-09-30:newsml_RSd0321Xa:0-reg-jpmorgan-em-g-i-plc-dividend-declaration/
-· BTC Hayes sets bullish Bitcoin, Ethereum predictions; crypto stocks jump (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:a48a8a69d094b:0-hayes-sets-bullish-bitcoin-ethereum-predictions-crypto-stocks-jump/
-· PLTR Palantir: A Completely Different AI Story (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4950999-palantir-a-completely-different-ai-story
-· (+36 manchetes; lista completa em eventos/noticias.json)
+· (+46 manchetes; lista completa em eventos/noticias.json)
