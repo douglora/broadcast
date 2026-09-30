@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 15h20
+NOTÍCIAS E FATOS · 30/09 15h23
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 447 veículo fora da lista, 43 sem ativo, 7 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 1 novas (18 consultas; descartadas: 444 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 6 (4 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -43,7 +43,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no PR Newswire: Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending Class Action Laws…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 30/09 13h51
-id: E05-BABA-5fda112688-2026-09-30 · status: pendente · íntegra disponível
+id: E05-BABA-5fda112688-2026-09-30 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving AI Profits
 TradingView (Reuters) · 30/09 13h41 · fonte única · licença: manchete
@@ -52,7 +52,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no TradingView (Reuters): Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees Memory Driving…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 30/09 13h41
-id: E05-MU-5bd429311a-2026-09-30 · status: pendente
+id: E05-MU-5bd429311a-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (Rating Reiterated)
 Seeking Alpha · 30/09 13h20 · fonte única · licença: manchete
@@ -136,8 +136,9 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (95)
+## OUTRAS NOTÍCIAS (só manchete) (96)
 
+· PETR4 ANP avança para reduzir concentração no mercado de gás apesar de resistência da Petrobras (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/anp-avanca-para-reduzir-concentracao-no-mercado-de-gas-apesar-de-resistencia-da-petrobras.shtml
 · MU Why Micron Earnings Hold the Key for This Wildly Popular ETF (Barron's) https://www.barrons.com/articles/micron-technology-ai-stock-earnings-dram-etf-cfd52805
 · AMD AMD Just Got a $1,000 Price Target as AI Demand Accelerates (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9fd2cdbe2094b:0-amd-just-got-a-1-000-price-target-as-ai-demand-accelerates/
 · PETR4 Petrobras: P-80 deixa Singapura rumo a Búzios e reforça produção no pré-sal (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-p-80-deixa-singapura-rumo-a-buzios-e-reforca-producao-no-pre-sal
@@ -197,5 +198,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · JPM REG - JPMorgan EM G&I Plc - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-09-30:newsml_RSd0321Xa:0-reg-jpmorgan-em-g-i-plc-dividend-declaration/
 · BTC Hayes sets bullish Bitcoin, Ethereum predictions; crypto stocks jump (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:a48a8a69d094b:0-hayes-sets-bullish-bitcoin-ethereum-predictions-crypto-stocks-jump/
 · PLTR Palantir: A Completely Different AI Story (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4950999-palantir-a-completely-different-ai-story
-· TSLA Should You Buy Tesla Stock Before Oct. 2? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-tesla-stock-oct-2-132000720.html
-· (+35 manchetes; lista completa em eventos/noticias.json)
+· (+36 manchetes; lista completa em eventos/noticias.json)
