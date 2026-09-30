@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 29/09 19h54
+NOTÍCIAS E FATOS · 29/09 21h19
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 439 veículo fora da lista, 45 sem ativo, 17 teto) · cvm ok 0 novos de 3 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 443 veículo fora da lista, 47 sem ativo, 4 teto) · cvm ok 1 novos de 4 (4 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[INFO] E03 · PETR4 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 29/09/2026 20:42 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572673
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: PETR4
+Como falar: 'a Petrobras publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 29/09
+id: E03-PETR4-1572673-2026-09-29 · status: linha
 
 [INFO] E03 · ALUP4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 29/09/2026 17:42 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -48,7 +57,32 @@ Fonte: SEC EDGAR 2026-09-29
 id: E04-BABA-26111915-2026-09-29 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · TSLA · Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years
+Yahoo Finance · 29/09 19h36 · + Reuters · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – -       Tesla said nothing was drawn at signing and that it does not plan to borrow in 2026.
+  – -       As of June 30, Tesla held $15.22 billion in cash and $28.31 billion in short-term investments.
+  – -       Tesla expects capital expenditure to accelerate in 2026 and years ahead as the company scales its AI and robotics ambitions.
+  – Tesla (TSLA) shares edged marginally higher after hours on Tuesday as the company lined up $30 billion of unused bank credit ahead of major capital expenditures involving its AI and robotics ambitions.
+  – Shares closed near $353, down about 1.3% after a 3.9% drop on Monday and edged up 0.3% after hours.
+  – 29: a $20 billion three-year delayed-draw term loan led by Citibank, plus $8 billion five-year and $2 billion 364-day revolvers led by Wells Fargo.
+Link: https://finance.yahoo.com/markets/stocks/articles/tesla-lines-30-billion-credit-223608219.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/09 19h36
+id: E05-TSLA-45b662d9fb-2026-09-29 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão na lista
+Estadao · 29/09 18h24 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-empresa-da-bolsa-paga-r-20-por-acao-bradesco-itau-e-fleury-estao-na-lista/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · BBDC4
+Como falar: 'saiu no Estadao: Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/09 18h24
+id: E05-ITUB4-de6bcd3a57-2026-09-29 · status: pendente
 
 [ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend
 TradingView (Reuters) · 29/09 18h45 · fonte única · licença: manchete
@@ -75,7 +109,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Reuters: Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate; confirmar o número no texto antes de repassar'
 Fonte: Reuters 29/09 17h47
-id: E05-TSLA-8c4acd630e-2026-09-29 · status: pendente
+id: E05-TSLA-8c4acd630e-2026-09-29 · status: expirado
 
 [ATENÇÃO] E05 · AMD · AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club
 Yahoo Finance · 29/09 11h10 · fonte única · licença: resumo
@@ -169,8 +203,19 @@ Fonte: TradingView (Reuters) 29/09 04h00
 id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (134)
+## OUTRAS NOTÍCIAS (só manchete) (145)
 
+· MELI34 Anvisa notifica Mercado Livre após plataforma anunciar venda de remédios dentro do marketplace (Exame) https://exame.com/invest/mercados/anvisa-notifica-mercado-livre-apos-plataforma-anunciar-venda-de-remedios-dentro-do-marketplace/
+· BRENT Brent Holds Losses as Supply Concerns Ease (TradingView (Reuters)) https://www.tradingview.com/news/te_news:587860:0-brent-holds-losses-as-supply-concerns-ease/
+· USDBRL Ibovespa sobe e dólar cai com exterior e política no radar (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45L15D:0/
+· BTC Bitcoin futures notional drops to lowest level in two years (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:0904c24c4094b:0-bitcoin-futures-notional-drops-to-lowest-level-in-two-years/
+· NVDA Nvidia: The Valuation Still Doesn't Match The AI Growth (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4950817-nvidia-the-valuation-still-doesnt-match-the-ai-growth
+· BTC Bitcoin, Ethereum, XRP, Dogecoin Hold Firm as Treasury Yield Hits 24-Year High (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:d01575a1a094b:0-bitcoin-ethereum-xrp-dogecoin-hold-firm-as-treasury-yield-hits-24-year-high/
+· JPM JPMorgan Reveals the Critical Price Level for Bitcoin Miners (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/jpmorgan-reveals-critical-price-level-192726489.html
+· UST US 30-Year Treasury Yield Rises to Highest Level Since 2002 (Bloomberg) https://www.bloomberg.com/news/articles/2026-09-29/us-30-year-treasury-yield-approaches-highest-level-since-2002
+· UST 10-Year Treasury Yield Surges Toward 6%: What It Means for Stocks and Debt Markets (Barron's) https://www.barrons.com/articles/stocks-bonds-treasuries-10-year-yield-b23f586d
+· JPM JPMorgan appoints Mark O'Donovan as head of human resources, memo says (Reuters) https://news.google.com/rss/articles/CBMiugFBVV95cUxPWEczSUpMX0lqbHdVUTZ5emU1QUJub080RzNHTE1tSXo0YWtNYWNEaElUeGRaMzhpdVpqTnZlRVk3aU41X29HS0xuQ3FYclFaTGRJQ3p3OTlLOFNfVDU3TVJKaWtNWktXajBBSzBJQlgxZVZhOUs2bzZ4eVhsWkt6dXB2ck9yVWQxX0M4MzNDcTZYaDdRcUtQXzRsMXE2UWpKYW1FMDljRnFsVVpQVVpNbEJHTXlpMEtMMmc?oc=5
+· KLBN4 Suzano ou Klabin? XP aponta qual ação está mais exposta à alta da celulose (Estadao) https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaW1GREFWTW41dFJIRmZqV2VpVTdCdWxWS2lGTEN2Q0hNN21zU1FyMG9IVUgxY2pZcW1RRVRHS0pKOUVaa0JMb2phMmE0QlUtX3JfeHdGM2w2Wk5uY1FTOVQzVDlvdlVsYjBqLTlwZmpUUWktLXRPcUVWcXFBRVJaMnVOcGhiTENOd3VCMmhxRVZoLWR0VE1HNjFETy1YYmpwR2tXeHZzTTZLN0lTc2NJazh2Xzg5OXk0Vm9PcmF4VjVBYS00eXI2SFJ5NzZZWVlndEkwYUhncnNYTWNwSkRjLTF30gHnAUFVX3lxTE1tc2ppR2ZhcVFYamtEcmwwWnJvS01zUXUzTjVrRV9FR0NpcDNVWkZUQ1FPYlBENlNUVmpjMlhmVkt0VDZPcmZYdzN2X1IzTUx2SUxQSU1tMjhoekRFR3FLVUN5UVMwUWh5NHpEZlFWMl80dG5GOEQ4X1ZqYW1rR0x5cjhfZVhsZXJ5RjJQV2plMXJsSGRPVmZqRzJsQXpSMmVseTdKcTdCaDU5LWJ1S1dUQ1EwRnBYNnJfMnpDcDlzeFV5NzBUdGh5UGlVR3VfdTZwMHljOFp4eTFGZnBpc21wYUxpel9fMA?oc=5
 · COHR Why Coherent (COHR) Stock Is Up Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-stock-today-222402815.html
 · DI Juros futuros fecham em firme queda com moderação dos Treasuries (Money Times) https://www.moneytimes.com.br/juros-futuros-29-9-26-apsa/
 · UST Treasury Yields Push To Fresh Highs (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-hover-near-recent-highs-375feb34
@@ -220,15 +265,4 @@ id: E05-NVDA-83a7d983ec-2026-09-29 · status: entregue
 · VALE3 Vale (VALE3) cai 2% e caminha para a menor nível cotação do ano: o que está por trás da queda? (Money Times) https://www.moneytimes.com.br/vale-vale3-cai-2-e-caminha-para-a-menor-nivel-cotacao-do-ano-o-que-esta-por-tras-da-queda-lils/
 · ITUB4 Itaú planeja aumentar participação na Equatorial Energia Distribuição (UOL Economia) https://megawhat.uol.com.br/economia-e-politica/negocios/itau-planeja-aumentar-participacao-na-equatorial-energia-distribuicao/
 · PETR4 Petrobras (PETR4): A variável em que os investidores devem ficar de olho nestas eleições (Money Times) https://www.moneytimes.com.br/petrobras-petr4-a-variavel-que-os-investidores-devem-ficar-de-olho-nestas-eleicoes-lils/
-· MU Micron Stock Gains 1.3% as AI Memory Faces Earnings Reality (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9deb8da97094b:0-micron-stock-gains-1-3-as-ai-memory-faces-earnings-reality/
-· AMD AMD: Reasons To Trim, Reasons To Hold, Reasons To Hedge After This Huge Rally (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4950745-amd-reasons-to-trim-reasons-to-hold-reasons-to-hedge-after-this-huge-rally
-· BTC Bitcoin traders position for $90K+ calls as ETFs see eight-day inflow streak (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:bf8cfe426094b:0-bitcoin-traders-position-for-90k-calls-as-etfs-see-eight-day-inflow-streak/
-· MU Micron's 269% Rally Is About to Face Four Big Tests (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f42890833094b:0-micron-s-269-rally-is-about-to-face-four-big-tests/
-· NVDA CBRS' Backlog Rides on Strong AI Demand: Can it Outpace NVDA & AMD? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:eff957d83094b:0-cbrs-backlog-rides-on-strong-ai-demand-can-it-outpace-nvda-amd/
-· BTC Bitcoin tests long-term holder supply cluster as leverage clears, analysts say (The Block) https://www.theblock.co/news/markets/2026-09-29-bitcoin-tests-long-term-holder-supply-cluster-leverage-clears-analysts-say-417162
-· PETR4 Alckmin defende Gas Release mesmo com pressão contrária da Petrobras (Poder360) https://www.poder360.com.br/poder-governo/alckmin-defende-gas-release-mesmo-com-pressao-contraria-da-petrobras/
-· MU Micron's 269% Rally Is About to Face Four Big Tests (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/microns-269-rally-face-four-170359946.html
-· JPM JPMorgan appoints Mark O'Donovan as head of human resources, memo says (Reuters) https://www.reuters.com/legal/transactional/jpmorgan-appoints-mark-odonovan-head-human-resources-memo-says-2026-09-29/
-· NVDA Nvidia Stock Buyback Impresses Market Experts: ‘Very Much Like This Move’ (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:402fe5637094b:0-nvidia-stock-buyback-impresses-market-experts-very-much-like-this-move/
-· NVDA Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:824d3fa04094b:0-nvidia-just-put-150-billion-behind-its-stock-is-it-cheap-enough/
-· (+74 manchetes; lista completa em eventos/noticias.json)
+· (+85 manchetes; lista completa em eventos/noticias.json)

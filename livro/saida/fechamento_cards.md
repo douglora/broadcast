@@ -1,4 +1,4 @@
-## Fechamento do livro · ter 29/09 · 18h13 BRT
+## Fechamento do livro · ter 29/09 · 21h19 BRT
 
 ---
 
@@ -10,14 +10,14 @@
 
 Nenhuma regra disparou hoje.
 
-*Mais 6 sinais de baixa prioridade em `alertas.md`.*
+*Mais 5 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
 **Altas** LITE +5,7% (vol 1,4x) · DIRR3 +4,7% (fechou na máxima) · MRVL +4,5% (fechou na máxima) · CURY3 +4,1% (fechou na máxima) · COHR +3,5%
-**Baixas** BRENT -2,5% · VALE3 -2,2% (vol 1,4x · fechou na mínima) · TSLA -1,3% · ALUP4 -1,1% (vol 2,4x) · CVX -1,0% (vol 0,6x)
+**Baixas** VALE3 -2,2% (vol 1,4x · fechou na mínima) · TSLA -1,3% · ALUP4 -1,1% (vol 2,4x) · CVX -1,0% (vol 0,6x) · BABA -0,9%
 
 ---
 
@@ -29,10 +29,10 @@ Nenhuma regra disparou hoje.
 | **DIRR3** | +4,7% | descolou do setor (construtoras de baixa renda +3,3% (mediana), DI F30 -8 bps; 1,5 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **MRVL** | +4,5% | descolou do setor (semicondutores (eua) +0,5% (mediana), SOX +1,3%; 4,0 p.p. da mediana); notícia a conferir (Seeking Alpha): Marvell's Investor Day Could Ignite Another Rerating (NASDAQ:MRVL) | notícia (conferir) |
 | **CURY3** | +4,1% | andou com o setor: construtoras de baixa renda +3,3% (mediana), DI F30 -8 bps | setorial |
-| **COHR** | +3,5% | notícia a conferir (TradingView (Reuters)): PLTR vs. COHR: Which AI-Driven Tech Stock is a Better Buy? | notícia (conferir) |
+| **COHR** | +3,5% | notícia a conferir (Yahoo Finance): Why Coherent (COHR) Stock Is Up Today | notícia (conferir) |
 | **MRVE3** | +3,3% | andou com o setor: construtoras de baixa renda +3,3% (mediana), DI F30 -8 bps | setorial |
 | **META** | +3,2% | notícia a conferir (Investing.com): Meta platforms CEO Mark Zuckerberg sells $21.36m in stock By Investing.com | notícia (conferir) |
-| **UGPA3** | +2,7% | contra o Brent (-2,5%); investigar antes de comentar | sem causa no dado |
+| **UGPA3** | +2,7% | investigar antes de comentar | sem causa no dado |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
 
@@ -186,13 +186,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,2131 | **-0,2** | +2,2 | +0,4 | +0,6 | -1,0 | -2,4 | -4,8 | -2,8 |
-| **DXY** Indice Dolar DXY | 101,39 | **+0,2** | +0,8 | +1,7 | +0,2 | +1,4 | +3,6 | +3,2 | +7,8 |
-| **BRENT** Petroleo Brent | 102,67 | **-2,5** | +3,4 | +17 | +41 | -13 | +51 | +69 | +30 |
-| **BTC** Bitcoin _(parcial)_ | 83.516 | **0,0** | -3,1 | +7,5 | +43 | +22 | -27 | -4,6 | +73 |
-| **ETH** Ethereum _(parcial)_ | 2.688 | **0,0** | -2,4 | +11 | +71 | +28 | -36 | -9,4 | -21 |
+| **DXY** Indice Dolar DXY _(dia 28/09)_ | 101,20 | **+0,2** | +0,8 | +1,5 | +0,1 | +0,7 | +3,1 | +3,0 | +7,6 |
+| **BRENT** Petroleo Brent _(dia 28/09)_ | 105,28 | **+0,9** | +4,9 | +20 | +44 | -6,7 | +50 | +73 | +33 |
+| **BTC** Bitcoin | 83.516 | **0,0** | -3,1 | +7,5 | +43 | +22 | -27 | -4,6 | +73 |
+| **ETH** Ethereum | 2.688 | **0,0** | -2,4 | +11 | +71 | +28 | -36 | -9,4 | -21 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 28/09)_ | 96,92 | **-0,1** | -0,6 | +1,1 | -3,3 | -8,8 | -8,1 | -9,5 | -16 |
 
-**Brent em reais:** R$ 535,23 por barril (29/09) · dia -2,7% · 1 mês +17% · no ano +61% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -200,11 +200,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 652 | -0,4 | -0,9 | - | 29/09 |
-| **Minerio de ferro Dalian** | 93 | +0,7 | -1,3 | - | 29/09 |
+| **Celulose fibra longa** | 651 | -0,5 | -1,0 | - | 29/09 |
+| **Minerio de ferro Dalian** | 93 | +0,6 | -1,4 | - | 29/09 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.938 a USD/CNY 6,70 = US$ 737/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 706 a USD/CNY 6,70 = US$ 105/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.938 a USD/CNY 6,71 = US$ 736/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 706 a USD/CNY 6,71 = US$ 105/t com IVA
 
 ---
 
@@ -241,12 +241,20 @@ Inflação implícita 2029 5,94% · 2032 6,00% · 2031/32 (descasado) 5,94% · F
 
 2s10s +37 bps (+5 no dia)
 
-**Regime** VIX 16,0 (-0,2%) · score de risco 0 de 6
+**Regime** VIX 16,0 (-0,2%) · score de risco 0 de 5
 
 ---
 
-### Notícias e fatos · 9
+### Notícias e fatos · 13
 
+- **TSLA** Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years (Yahoo Finance · 29/09) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/tesla-lines-30-billion-credit-223608219.html)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **ITUB4** Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão na lista (Estadao · 29/09) [abrir a fonte](https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-empresa-da-bolsa-paga-r-20-por-acao-bradesco-itau-e-fleury-estao-na-lista/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **ETH** Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend (TradingView (Reuters) · 29/09) [abrir a fonte](https://www.tradingview.com/news/seekingalpha:6829c2eef094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-303-dividend/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **TSLA** Tesla lines up $30 billion credit lines as capex, AI push accelerate (TradingView (Reuters) · 29/09) [abrir a fonte](https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45L1XJ:0-tesla-lines-up-30-billion-credit-lines-as-capex-ai-push-accelerate/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **TSLA** Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate (Reuters · 29/09) [abrir a fonte](https://www.reuters.com/business/autos-transportation/tesla-lines-up-30-billion-credit-lines-capex-robotaxi-push-accelerate-2026-09-29/)
   *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **AMD** AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Trillion Club (Yahoo Finance · 29/09) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/amd-4-milestones-total-return-141046323.html)
@@ -287,8 +295,8 @@ Inflação implícita 2029 5,94% · 2032 6,00% · 2031/32 (descasado) 5,94% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 28/09 · UST CMT D0 · PTAX 29/09
-**Lacunas:** QANT: barra de 29/09 não bate com a cotação do Yahoo às 17:14 (6,1030 contra 6,0740, -0.48%); variação do dia a confirmar; bcb: BCB devolveu 4 de 5 séries (faltaram cdi_dia).
+**Relógios:** Yahoo 21h19 · DI ajuste D0 · Tesouro base 28/09 · UST CMT D0 · PTAX 29/09
+**Lacunas:** DXY sem barra de 29/09 (última 28/09); BRENT sem barra de 29/09 (última 28/09); QANT: barra de 29/09 não bate com a cotação do Yahoo às 17:14 (6,1030 contra 6,0740, -0.48%); variação do dia a confirmar; DXY: barra de 29/09 é o início da sessão seguinte (última cotação 20:09 de Nova York); barra descartada, fica a de 28/09; BRENT: barra de 29/09 é o início da sessão seguinte (última cotação 19:59 de Nova York); barra descartada, fica a de 28/09.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 706 CNY/t (2026-09-29).

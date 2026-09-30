@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accelerate
 Reuters · 29/09 17h47 · fonte única · licença: manchete
@@ -9,17 +9,16 @@ Como falar: 'saiu no Reuters: Tesla lines up $30 billion credit lines as capex a
 Fonte: Reuters 29/09 17h47
 ids: E05-TSLA-8c4acd630e-2026-09-29
 
-[ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend
+(pendente de slot anterior) [ATENÇÃO] E05 · ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend
 TradingView (Reuters) · 29/09 18h45 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/seekingalpha:6829c2eef094b:0-amplify-ethereum-3-monthly-option-income-etf-declares-0-303-dividend/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 Ativos: ETH
 Como falar: 'saiu no TradingView (Reuters): Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 29/09 18h45
-Push: eventos: 2 alertas de atenção — E05 ETH, E05 TSLA · detalhe na sessão
 ids: E05-ETH-c7f855d6c1-2026-09-29
 
-[ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex, AI push accelerate
+(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Tesla lines up $30 billion credit lines as capex, AI push accelerate
 TradingView (Reuters) · 29/09 18h17 · + Reuters · licença: manchete
 Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45L1XJ:0-tesla-lines-up-30-billion-credit-lines-as-capex-ai-push-accelerate/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -28,31 +27,58 @@ Como falar: 'saiu no TradingView (Reuters): Tesla lines up $30 billion credit li
 Fonte: TradingView (Reuters) 29/09 18h17
 ids: E05-TSLA-09bae21456-2026-09-29
 
+[ATENÇÃO] E05 · TSLA · Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years
+Yahoo Finance · 29/09 19h36 · + Reuters · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – -       Tesla said nothing was drawn at signing and that it does not plan to borrow in 2026.
+  – -       As of June 30, Tesla held $15.22 billion in cash and $28.31 billion in short-term investments.
+  – -       Tesla expects capital expenditure to accelerate in 2026 and years ahead as the company scales its AI and robotics ambitions.
+  – Tesla (TSLA) shares edged marginally higher after hours on Tuesday as the company lined up $30 billion of unused bank credit ahead of major capital expenditures involving its AI and robotics ambitions.
+  – Shares closed near $353, down about 1.3% after a 3.9% drop on Monday and edged up 0.3% after hours.
+  – 29: a $20 billion three-year delayed-draw term loan led by Citibank, plus $8 billion five-year and $2 billion 364-day revolvers led by Wells Fargo.
+Link: https://finance.yahoo.com/markets/stocks/articles/tesla-lines-30-billion-credit-223608219.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 29/09 19h36
+Push: Fechamento 18h: 2 alertas de atenção — E05 TSLA, E05 ITUB4 · detalhe na sessão
+ids: E05-TSLA-45b662d9fb-2026-09-29
+
+[ATENÇÃO] E05 · ITUB4 · Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão na lista
+Estadao · 29/09 18h24 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/onde-investir/dividendos-da-semana-empresa-da-bolsa-paga-r-20-por-acao-bradesco-itau-e-fleury-estao-na-lista/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · BBDC4
+Como falar: 'saiu no Estadao: Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, Itaú e Fleury estão…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 29/09 18h24
+ids: E05-ITUB4-de6bcd3a57-2026-09-29
+
 Info (só linha no Fechamento):
-· E05 COHR · Why Coherent (COHR) Stock Is Up Today
-· E05 DI · Juros futuros fecham em firme queda com moderação dos Treasuries
-· E05 UST · Treasury Yields Push To Fresh Highs
-· E05 VALE3 · UBS BB passa a tesoura nas ações da Vale (VALE3) com novo risco no radar; veja preço-alvo
-· E05 TSLA · EVgo at Lytham Partners: Tesla deal lifts growth outlook
-· E05 PETR4 · Petrobras fecha contrato para comprar gás natural liquefeito dos EUA por 22 anos
-· E05 BTC · Bitcoin's Rally Is Real, Glassnode Says: So Why Are Spot Buyers Uninterested?
-· E05 USDBRL · Dólar hoje fecha com queda, a R$ 5,21, em sessão volátil e sob influência do exterior
-· E05 USDBRL · Ibovespa reage e fecha em alta de 0,46%; dólar recua a R$ 5,21
-· E05 VALE3 · Vale (VALE3) cai abaixo de R$ 70 pela 1ª vez no ano com minério e corte de preço-alvo
-· E05 UST · US Equity Markets End Lower After Higher Treasury Yields, Fed Governor's Remarks on Inflation
-· E05 VALE3 · Vale (VALE3) cai mais de 2% e ameaça perder os R$ 70; o que está derrubando a ação?
+· E03 PETR4 · Aviso aos Acionistas: Outros avisos
+· E05 MELI34 · Anvisa notifica Mercado Livre após plataforma anunciar venda de remédios dentro do marketplace
+· E05 BRENT · Brent Holds Losses as Supply Concerns Ease
+· E05 USDBRL · Ibovespa sobe e dólar cai com exterior e política no radar
+· E05 BTC · Bitcoin futures notional drops to lowest level in two years
+· E05 NVDA · Nvidia: The Valuation Still Doesn't Match The AI Growth (NASDAQ:NVDA)
+· E05 BTC · Bitcoin, Ethereum, XRP, Dogecoin Hold Firm as Treasury Yield Hits 24-Year High
+· E05 JPM · JPMorgan Reveals the Critical Price Level for Bitcoin Miners
+· E05 UST · US 30-Year Treasury Yield Rises to Highest Level Since 2002
+· E05 UST · 10-Year Treasury Yield Surges Toward 6%: What It Means for Stocks and Debt Markets
+· E05 JPM · JPMorgan appoints Mark O'Donovan as head of human resources, memo says
+· E05 KLBN4 · Suzano ou Klabin? XP aponta qual ação está mais exposta à alta da celulose
 · C07 UST ABRIU: 10y +30 bps em 5 pregões (29/09)
 · C03 DI em nível: F30 cruzou 14,00% (para baixo, agora 13,93%)
 
 Suprimidos pelo teto (viram linha do Fechamento): C07-UST-abriu-2026-09-29 (teto de atenção), C03-DI-di-2026-09-29 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  E05 TSLA — TSLA · Tesla Lines Up $30 Billion Credit Backup Ahead Of Heavy Capex Years
+· pendente  E05 ITUB4 — ITUB4 · Dividendos da semana: empresa da Bolsa paga R$ 20 por ação; Bradesco, It
 · pendente  E05 ETH — ETH · Amplify Ethereum 3% Monthly Option Income ETF declares $0.303 dividend
 · pendente  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex, AI push accelerate
 · linha     C07 UST — UST ABRIU: 10y +30 bps em 5 pregões (29/09)
 · linha     C03 DI — DI em nível: F30 cruzou 14,00% (para baixo, agora 13,93%)
-· pendente  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accele
-· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 4 de 5 séries (falt
+· expirado  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accele
 · entregue  E05 AMD — AMD · AMD at 4 Milestones: Total Return From the Intel Settlement to the $1 Tril
 · entregue  E05 PETR4 — PETR4 · Petrobras pode cair na eleição, mas dividendo de 14% deve segurar a ação
 · entregue  E05 SMAL11 — SMAL11 · Small cap da Bolsa pagará R$ 421 milhões em dividendos em duas parcelas
@@ -64,4 +90,4 @@ Alertas do dia (todos, com status):
 · linha     T02 GFS — GFS perdeu a MM50 pela 2ª sessão: US$ 47,86, já abaixo da MM200 (confirma tendên
 · linha     T02 COHR — COHR perdeu a MM50 pela 2ª sessão: US$ 292,21, ainda acima da MM200 (tendência l
 · linha     T09 ALUP4 — ALUP4 -1,1% com volume 2,6x a mediana de 20 sessões, a R$ 10,40
-· (+138 notícias só manchete, em noticias.md)
+· (+150 notícias só manchete, em noticias.md)

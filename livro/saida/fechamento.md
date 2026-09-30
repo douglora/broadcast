@@ -1,10 +1,19 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · ter 29/09 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · ter 29/09 · 21h19 BRT
+Relógios: Yahoo 21h19 · DI ajuste D0 · Tesouro base
   28/09 · UST CMT D0 · PTAX 29/09
 
-ALERTAS DO DIA (15)
+ALERTAS DO DIA (18)
+[ATENÇÃO] E05 TSLA · Tesla Lines Up $30 Billion
+          Credit Backup Ahead Of Heavy Capex Years
+[ATENÇÃO] E05 ITUB4 · Dividendos da semana: empresa
+          da Bolsa paga R$ 20 por ação; Bradesco,
+          Itaú e Fleury estão na lista
+[ATENÇÃO] E05 ETH · Amplify Ethereum 3% Monthly
+          Option Income ETF declares $0.303 dividend
+[ATENÇÃO] E05 TSLA · Tesla lines up $30 billion
+          credit lines as capex, AI push accelerate
 [ATENÇÃO] C07 UST ABRIU: 10y +30 bps em 5 pregões
           (29/09)
 [ATENÇÃO] C03 DI em nível: F30 cruzou 14,00% (para
@@ -12,44 +21,33 @@ ALERTAS DO DIA (15)
 [ATENÇÃO] E05 TSLA · Tesla lines up $30 billion
           credit lines as capex and robotaxi push
           accelerate
-[ATENÇÃO] S01 coleta do slot fechamento saiu
-          incompleta: bcb: BCB devolveu 4 de 5
-          séries (faltaram cdi_dia)
 [ATENÇÃO] E05 AMD · AMD at 4 Milestones: Total
           Return From the Intel Settlement to the $1
           Trillion Club
-[ATENÇÃO] E05 PETR4 · Petrobras pode cair na
-          eleição, mas dividendo de 14% deve segurar
-          a ação, diz BTG
-[ATENÇÃO] E05 SMAL11 · Small cap da Bolsa pagará R$
-          421 milhões em dividendos em duas
-          parcelas; veja quem irá embolsar
-[ATENÇÃO] E05 AMD · AMD stock outlook: Is it still a
-          buy at 39x 2027 earnings?
-(+7 em alertas.md)
+(+10 em alertas.md)
 
 ALTAS  LITE +5,7% · DIRR3 +4,7% · MRVL +4,5% · CURY3
        +4,1% · COHR +3,5%
-BAIXAS BRENT -2,5% · VALE3 -2,2% · TSLA -1,3% ·
-       ALUP4 -1,1% · CVX -1,0%
+BAIXAS VALE3 -2,2% · TSLA -1,3% · ALUP4 -1,1% · CVX
+       -1,0% · BABA -0,9%
 
-NOTÍCIAS E FATOS (9 com materialidade · noticias.md)
+NOTÍCIAS E FATOS (13 com materialidade ·
+  noticias.md)
+· TSLA Tesla Lines Up $30 Billion Credit Backup
+  Ahead Of Heavy Capex Years (Yahoo Finance)
+· ITUB4 Dividendos da semana: empresa da Bolsa paga
+  R$ 20 por ação; Bradesco, Itaú e Fleury estão na
+  lista (Estadao)
+· ETH Amplify Ethereum 3% Monthly Option Income ETF
+  declares $0.303 dividend (TradingView (Reuters))
+· TSLA Tesla lines up $30 billion credit lines as
+  capex, AI push accelerate (TradingView (Reuters))
 · TSLA Tesla lines up $30 billion credit lines as
   capex and robotaxi push accelerate (Reuters)
 · AMD AMD at 4 Milestones: Total Return From the
   Intel Settlement to the $1 Trillion Club (Yahoo
   Finance)
-· PETR4 Petrobras pode cair na eleição, mas
-  dividendo de 14% deve segurar a ação, diz BTG
-  (Exame)
-· SMAL11 Small cap da Bolsa pagará R$ 421 milhões em
-  dividendos em duas parcelas; veja quem irá
-  embolsar (Money Times)
-· AMD AMD stock outlook: Is it still a buy at 39x
-  2027 earnings? (Investing.com)
-· MU MU: resultado sai na próxima sessão (30/09)
-  (agenda)
-  (+3)
+  (+7)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,57 (-9·+9) F29 13,79
@@ -65,7 +63,7 @@ TD (base 28/09, Δ desde 25/09) Pre 2029 13,93 (+2) ·
     (descasado) 5,94% vs Focus IPCA 2027 4,31%
 UST (D0) 2y 4,89 (-3) · 10y 5,26 (+2) · 30y 5,59
     (+3) · 2s10s +37 (+5)
-Regime: VIX 16,0 (-0,2%) · score risco 0 de 6
+Regime: VIX 16,0 (-0,2%) · score risco 0 de 5
 
 LEITURA DA MESA
 <<LEITURA_DA_MESA>>
@@ -87,10 +85,16 @@ sex 09/10 ex-dividendo MRVL US$ 0,06 (último
     provento, Yahoo)
 ter 13/10 resultado JPM (antes de NY, confirmado)
 
-LACUNAS: QANT: barra de 29/09 não bate com a cotação
-  do Yahoo às 17:14 (6,1030 contra 6,0740, -0.48%);
-  variação do dia a confirmar; bcb: BCB devolveu 4
-  de 5 séries (faltaram cdi_dia).
+LACUNAS: DXY sem barra de 29/09 (última 28/09);
+  BRENT sem barra de 29/09 (última 28/09); QANT:
+  barra de 29/09 não bate com a cotação do Yahoo às
+  17:14 (6,1030 contra 6,0740, -0.48%); variação do
+  dia a confirmar; DXY: barra de 29/09 é o início da
+  sessão seguinte (última cotação 20:09 de Nova
+  York); barra descartada, fica a de 28/09; BRENT:
+  barra de 29/09 é o início da sessão seguinte
+  (última cotação 19:59 de Nova York); barra
+  descartada, fica a de 28/09.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -174,10 +178,10 @@ MRVE3  MRV        5,38 +3,3 +1,3 +3,7  -32  -25  -31
 CURY3  Cury      28,72 +4,1 +1,2  -12  -16 -1,3 -6,4
 Macro
 USDBRL USD/BRL  5,2131 -0,2 +2,2 +0,4 -1,0 -2,4 -4,8
-DXY    DXY      101,39 +0,2 +0,8 +1,7 +1,4 +3,6 +3,2
-BRENT  Brent    102,67 -2,5 +3,4  +17  -13  +51  +69
-BTC*   BTC      83.516  0,0 -3,1 +7,5  +22  -27 -4,6
-ETH*   ETH       2.688  0,0 -2,4  +11  +28  -36 -9,4
+DXY*   DXY      101,20 +0,2 +0,8 +1,5 +0,7 +3,1 +3,0
+BRENT* Brent    105,28 +0,9 +4,9  +20 -6,7  +50  +73
+BTC    BTC      83.516  0,0 -3,1 +7,5  +22  -27 -4,6
+ETH    ETH       2.688  0,0 -2,4  +11  +28  -36 -9,4
 MINER* Minerio   96,92 -0,1 -0,6 +1,1 -8,8 -8,1 -9,5
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
