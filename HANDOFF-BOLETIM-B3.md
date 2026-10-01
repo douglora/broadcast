@@ -92,12 +92,16 @@ minuto e a rede cai mais). As rodadas seguintes, de 2 pregoes, levam um minuto e
 
 ## 4. Pendente (precisa do Douglas)
 
+0. **Ate a main receber o codigo**, o disparo manual funciona no branch de desenvolvimento
+   (testado em 01/10, run 36812214611): `gh workflow run boletim-b3.yml --ref
+   claude/magical-hopper-18a6sh -f dias=auto`, ou `actions_run_trigger` com esse `ref`. O merge
+   com a main esta limpo (a main andou 2 commits, em `ferramentas/etf/`, sem conflito).
 1. **Levar para a main e ligar o cron.** Tirar o comentario do bloco `schedule` em
    `boletim-b3.yml` (00h40 e 11h35 UTC, terca a sabado) e tirar o gatilho de push do
    branch de desenvolvimento. Ele pediu para ser consultado antes.
 2. **Routine.** Dois turnos na sessao: 21h50 BRT e 08h50 BRT do dia seguinte. O texto do
    turno e a receita de republicar o painel estao na skill.
-3. **Limpar o branch `dados`.** A rodada do coletor antigo (run 36800131287) gravou 204 MB
+3. **Limpar o branch `dados`.** A rodada do coletor antigo (run 36800131287) gravou 195 MB
    de PDF e texto em `boletim_b3/<data>/pdf/`, `arquivos/` e `descoberta/`. O coletor novo
    nao escreve nessas pastas. Apagar e decisao dele; tirar do historico exige reescrever
    o branch.

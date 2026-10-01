@@ -88,7 +88,8 @@ Sem cache de CDN: `git fetch origin dados` e `git show origin/dados:boletim_b3/<
      novo; se continuar parcial, olhe `boletim status` e diga qual tabela a B3 nao
      publicou (ela informa `aguardando`, `publicando` ou `atrasado`).
 3. **Disparo.** `mcp__github__actions_run_trigger`, `method: run_workflow`,
-   `owner: douglora`, `repo: broadcast`, `workflow_id: boletim-b3.yml`, `ref: main`,
+   `owner: douglora`, `repo: broadcast`, `workflow_id: boletim-b3.yml`, `ref: main`
+   (enquanto o workflow nao estiver na main, `ref: claude/magical-hopper-18a6sh`),
    `inputs: {"data": "", "dias": "auto"}` (`auto` = os 2 ultimos pregoes; 21 se o historico
    estiver curto). A rodada leva de 2 a 3 minutos. Espere com o
    laco em segundo plano (o mesmo da skill `livro`):
