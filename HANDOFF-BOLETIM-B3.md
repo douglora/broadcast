@@ -1,8 +1,8 @@
 # HANDOFF - Agente do Boletim Diario do Mercado (B3)
 
-Atualizado em 30/09/2026, na sessao do notebook (internet aberta). Branch:
-`claude/magical-hopper-18a6sh` (repositorio douglora/broadcast). Substitui o handoff de
-01/10 escrito pela sessao na nuvem, que nao alcancava a B3.
+Atualizado em 01/10/2026, na sessao do notebook (internet aberta). Branch:
+`claude/magical-hopper-18a6sh` (repositorio douglora/broadcast). Substitui o handoff
+anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 
 ## 1. O pedido do Douglas
 
@@ -37,6 +37,12 @@ Atualizado em 30/09/2026, na sessao do notebook (internet aberta). Branch:
   FinalDate, ClientId e Filters), que devolve tudo numa resposta: 92 mil linhas em 5 segundos.
 - O negocio a negocio de renda fixa do proprio pregao e preliminar: a B3 ajusta em D+1 (o de
   29/09 fechou as 11h57 de 30/09).
+- A rede falha de vez em quando (na carga de 21 pregoes feita do notebook, 4 pregoes perderam uma
+  tabela por erro de conexao). Cada requisicao repete em falha passageira (rede, 429, 5xx) e a
+  rodada `auto` refaz, ate 5 por vez, os pregoes da janela que ficaram sem resumo ou com falha de
+  rede (`refeitos` no manifest). HTTP 400 no arquivo de posicoes em aberto e so "ainda nao saiu".
+- "Acoes: medias diarias" (R$ 37 bi em 30/09) e o mercado de acoes inteiro (a vista, opcoes e
+  termo), nao so o a vista (R$ 32,8 bi).
 - API de download: so 5 nomes respondem (TradeInformationConsolidated, ...AfterHours,
   InstrumentsConsolidated, DerivativesOpenPosition, MarginScenarioLiquidAssets).
 - Horario (medido em 11 pregoes): arquivo de negocios "Final" por volta das 20h; fluxo,
@@ -73,9 +79,16 @@ Atualizado em 30/09/2026, na sessao do notebook (internet aberta). Branch:
 | `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron comentado |
 | `mesa.py boletim` | Leitura na sessao: veredito, resumo, ativo, sinais, rf, opcoes, radar, status, tabela, json, painel |
 | `.claude/skills/boletim-b3/SKILL.md` | Regras da leitura, procedimento do turno, receita do painel e texto da Routine |
-| `tests/test_boletim.py` | 39 testes sem rede |
+| `tests/test_boletim.py` | 42 testes sem rede |
 
 Saida no branch `dados`: ver o cabecalho de `boletim_b3.py`.
+
+Painel publicado (Artifact, privado do Douglas): https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc
+Primeira edicao em 01/10/2026 as 00h41, pregao de 30/09 (parcial), lida do branch `dados`.
+
+Validado em producao (branch de desenvolvimento, gatilho de push): a rodada 36809747622 carregou os
+21 pregoes em 9 minutos no Actions, sem falha (cerca de 25 segundos por pregao; no notebook leva um
+minuto e a rede cai mais). As rodadas seguintes, de 2 pregoes, levam um minuto e meio.
 
 ## 4. Pendente (precisa do Douglas)
 

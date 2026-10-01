@@ -1537,7 +1537,7 @@ def boletim(args):
     elif sub == "painel":
         print(f"   {BASE}boletim_b3/painel.html  (sempre o do ultimo pregao coletado: {(manifest or {}).get('ultimo_pregao')})")
         print("   ou: git show origin/dados:boletim_b3/painel.html > painel.html")
-        print("   troque [[LEITURA_DA_MESA]] pela leitura e publique no Artifact do boletim (URL na skill boletim-b3)")
+        print("   troque [[LEITURA_DA_MESA]] pela leitura e republique no Artifact do boletim: https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc")
     elif sub and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) and sub != "--data":
         return _boletim_ativo(sub.upper(), resumo, baixar("boletim_b3/historico.json")) or (0 if ok else 1)
     else:

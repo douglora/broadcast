@@ -50,7 +50,16 @@ NOME_PENDENTE = {
     "InstrumentsConsolidated": "cadastro de instrumentos", "DerivativesOpenPosition": "posições em aberto",
     "BTBLendingOpenPosition": "saldo de aluguel", "BTBLoanBalance": "empréstimos do dia", "BTBTrade": "aluguel por corretora",
     "AnalyticalFramework2": "quadro de posições em aberto", "SharesInvesVolum": "fluxo por investidor",
-    "Trade": "negócios de renda fixa",
+    "Trade": "negócios de renda fixa", "Custody": "custódia de ADR", "FugibleCustody": "custódia fungível",
+    "DIover": "taxa DI do dia", "Register": "registro de renda fixa", "Stock": "estoque de renda fixa",
+    "RepurchaseDealings": "operações compromissadas", "DebenturesBusiness": "negócios de debêntures em bolsa",
+    "PreviaQuadrimestral": "carteira dos índices", "Previa": "prévia dos índices", "IOPV": "valor de referência dos ETFs",
+    "INDEXES": "índices", "DailyAverageStocks": "médias de negociação", "StocksOperationSummary": "resumo das operações",
+    "DailyAverageDerivatives2": "médias de derivativos", "EconomicIndicators": "indicadores econômicos",
+    "ProventionCreditVariable": "proventos", "DeadlineDepositSecurities": "prazos de subscrição", "ForwardMarket": "termo",
+    "IbovespaStockBiggestHighs": "maiores altas do Ibovespa", "IbovespaStockBiggestLow": "maiores baixas do Ibovespa",
+    "InCashMarketBiggestHighs": "maiores altas do mercado", "InCashMarketBiggestLow": "maiores baixas do mercado",
+    "InCash": "mais negociadas", "OptionsPurshase": "calls mais negociadas", "OptionsSelling": "puts mais negociadas",
 }
 ROTULO_RF = {"deb_incentivada": "Debêntures incentivadas", "cri": "CRI", "cra": "CRA"}
 

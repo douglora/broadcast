@@ -146,12 +146,13 @@ Regras do CLAUDE.md valem inteiras: o Douglas le no celular e nao decora sigla.
 O painel e uma pagina so, no formato branco e azul do Douglas, gerada pelo runner
 (`boletim/painel.py`). E um Artifact, uma URL; republique sempre no MESMO:
 
-**URL_DO_ARTIFACT_DO_BOLETIM**
+**https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc**
 
 ```bash
 mkdir -p /tmp/boletim && git show origin/dados:boletim_b3/painel.html > /tmp/boletim/painel.html
 tail -1 /tmp/boletim/painel.html      # <!-- pregao AAAA-MM-DD -->: tem de ser o pregao que voce leu no passo 2
 # escrever a leitura em /tmp/boletim/leitura.html: 3 a 5 paragrafos <p>...</p>, o primeiro comecando por <b>Em uma frase:</b>
+# (cada paragrafo abre com o assunto em negrito: O livro, Posicoes e fluxo, Credito, O que conferir)
 python3 - <<'PY'
 import io
 h = io.open("/tmp/boletim/painel.html", encoding="utf-8").read()

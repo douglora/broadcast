@@ -164,9 +164,10 @@ comunicados). O workflow `.github/workflows/boletim-b3.yml` roda `boletim_b3.py`
 - Leitura por `python3 mesa.py boletim` (veredito ATUAL/VELHO e COMPLETO/PARCIAL na
   primeira linha), `mesa.py boletim TICKER`, `boletim rf`, `boletim opcoes TICKER`,
   `boletim radar`, `boletim sinais`, `boletim status`, `boletim json <bloco>`.
-- A entrega e o painel (`boletim_b3/painel.html`, sempre o do ultimo pregao), publicado no Artifact do
-  boletim em todo turno com a Leitura da Mesa no lugar de `[[LEITURA_DA_MESA]]`; a URL
-  fixa esta na skill. Formato branco e azul do Douglas, so claro.
+- A entrega e o painel (`boletim_b3/painel.html`, sempre o do ultimo pregao), publicado no Artifact
+  https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc em todo turno, com a Leitura da Mesa no lugar de
+  `[[LEITURA_DA_MESA]]`. Um Artifact, uma URL (a receita esta na skill). Formato branco e azul do
+  Douglas, so claro.
 - A sessao nao calcula regra: os sinais saem do runner, com os limiares de
   config/boletim.yaml. Cada numero leva a data que o resumo da; o fluxo por
   investidor sai com dois pregoes de atraso e a rodada da noite e parcial (o painel
