@@ -1,8 +1,26 @@
-NOTÍCIAS E FATOS · 01/10 15h21
+NOTÍCIAS E FATOS · 01/10 15h47
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 430 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 43 sem ativo, 8 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · BABA · SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 5, 2026 in Alibaba Group Holding Limited Lawsuit - BABA
+TradingView (Reuters) · 01/10 11h09 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/prnewswire:0d7fb78cbc03d:0-suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-october-5-2026-in-alibaba-group-holding-limited-lawsuit-baba/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no TradingView (Reuters): SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 5, 2026 in Alibaba…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 01/10 11h09
+id: E05-BABA-7c2c141fcd-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · DI · Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona
+Estadao · 30/09 21h42 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/focus-eleva-projecao-para-inflacao-de-2026-e-estimativas-mais-recentes-ja-passam-de-5/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Estadao: Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Seli…; confirmar o número no texto antes de repassar'
+Fonte: Estadao 30/09 21h42
+id: E05-DI-1f7f27404b-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
 TradingView (Reuters) · 01/10 14h51 · fonte única · licença: manchete
@@ -210,8 +228,22 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (108)
+## OUTRAS NOTÍCIAS (só manchete) (122)
 
+· MU Micron earnings tell us about how much more there is to do in the AI buildout, says Advisors Capital’s JoAnne Feeney (CNBC) https://www.cnbc.com/video/2026/10/01/micron-earnings-tell-us-about-how-much-more-there-is-to-do-in-the-ai-buildout-says-advisors-capitalas-joanne-feeney.html
+· LITE Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html
+· UST Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnE0R3ZfWm50RXh3cnRIWDBSMGtvLVYxaWFsTjZjNkNGcXRrZkZGWHFqV1I0cldtWlFTRHJPMzNhcFZrNXFIYlJYUUZBZFJOLW51cGYyTVQzZDhFOEVJdWltTHJlc0pocjBlOGdzTkVWUzhRQjhkMHJQdUVVSG9odUVGY2FyVGZDbVpLZmxWd1pXcjc1ZkVPbjNXazQ?oc=5
+· BTC It's the Start of Uptober. Will Bitcoin Live Up to It? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxNMHZhZnZRQjJqUzJfS19fdWdUVm10M29oa0xkbTJaUWRvMElqa2E5b01rMzc5WU5VLXJ6UTVDSWw2cFlOVXJOYVhvUzdTa09MczZpb1ZNaGlRaGJlMFdDT1dWYkRVUmZFU0wzMGY2eHNjQkczWFJwU1hCSUlEa0RpbWFuVmRUYzltNnhZb09XallFSDVST1E?oc=5
+· COHR Why Coherent (COHR) Stock Is Trading Up Today (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxPdHRyUGZTVVR6cWd0QlMzOERYak9FV1FkcU5ZSTlxa2pyOXU1M0VQRjBtdDlabkJOcURqUy0zd1c4dF9lMXRBTGNpZVNPamp4WWp1WUViWE9kelZhZVBSMnltVHZid1hMdWZOUkkyZ0wwZlRxbXJwV28xVDEtWXAwY2JLOVdOdUNfVjdEX3IzQ3Bmdk5wemRjTUZQWUNST1NIVFRRRFlNdw?oc=5
+· BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNRzB3QWV1ZGkxUlM1SGZmZ0Q4T0tnbU5rOFhjem5yZXNWNXFqSWZSLW9SbUtjZDU3Q1B5dktlUHZzQWZHRjc3cEtBX2FVV25rQ1VhREtmaUphdkFoOWRwWV9FV3YxZy1CNkdTYS03Qkg2Yk95akY3LVR0ek15UlhQaWRlOElOYUtMRjJFdmVaMjRlc3JlT0JkQ1NWRGVyOU0?oc=5
+· MU Analysts Double Down on Micron Stock After Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPY29vSUl2dUhQUHRDSmQyWlpDaUZZQVp3bDBOd0l1WDVTb3lqbEhKSUdmaFczYld0X3dnalhQY2dHWVpYLUt0bDZCcWw0Snlpd2k4dG8xOWdfSDktTWQyZWFfend0aHFRSlU4LXUxUjlrTVRiTlZPSHdJZ3p3OXpzelhtZVUwdi1mWUhGck9PdW95RmZfUWxtbDdQSDRmeWc?oc=5
+· BRENT Wall Street perde fôlego com petróleo em alta; Dow Jones recua (Estadao) https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWxCbWRuMzJNSnZDb3NGUldpX1N0NHZkWnd4MG1LcllkRTM3Z2c3ekdVYndyam1CT1ZSV2dnNFhsUm05aWhaSDBneml4LV8yMXRSZWFCQUg1QlNsdm5JWS05cWd6QVpNYkZCOE9pc0JqMVZPTmRmc01wcnkzdnh6OUhsNmV1bVdveU1pWGpnTVhoSkVkZEtTMVdOb2ZUMy1pWlFvNlZkVzRZZWxMRHdSNXpvRE1paTR5SV96TjVueWEzbUZTSXJLWm9Pa2N4RnpNNmxiN0FyMlV2d1J5YWliQkZrVlR3ekRJM2VqWVFn0gHzAUFVX3lxTFBFUDU1M2Rxd3EzeVp5Z1dhUFdUdUYxaXdqN3lyNzVLc3NLUWEzWGxSSXpTT0Jnamd3bHNnVUtxb1JsLWFKX0l2aDlmTVJmOGEtRWxxc0wzTGZOVXJMSWhweDAwMWFuLWVLcGNRSTUtZ0RQTmF3Skc2aW80eXIwZlRSRGd5bGN4bk0xY3lxWjdrTEQzc1FqNExfZDNfTDRONTdwSWJzaUNxTjBwUmtLVWw5eHllTEVleGFnLXEzdXI3U3pSSVp0WEwwbEVKRW5ocFl1dUh6WmprdnRmbTBrMTBlUTVxY01qRVlZTW9aMC1zdzVlQQ?oc=5
+· BRENT Bolsa abre estável e dólar ronda R$ 5,18, com eleições e petróleo no radar (UOL Economia) https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmJlQ3JqNzBicG8wbVItTkJtQVRaZDNOUFUxN21zRzVITEFUeUJOYVBFaUE5Vk52aXNtWXJTeFV5aGI4V1BnTjdzRWk3UXlKcXg5UHVoQ2Q5RnhaNTNaTkpxdm1VNDNzTUk5b3NKdnVWTVBXaERpWmRaNFdmUVFjeTRGb3lsZjZHRkw1eDE3cFZxMTlETWplS004MjYxMjc4eXh2N2Vac2hSd0NzS052aVFn?oc=5
+· MU Crushing Expectations: Why Micron Remains Undervalued (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxOZE1sUTd1YTZ3S0pTQXhhaVlTSTZOenFvNDRuVk40S0hINjhBNWlKRjVOVHUtakdtZUtmXzg1R0UxTFNpMWVDcV9XUVVxSDN2SWhwY0tHSFZ1OTVyM09uaS16WjM3Y0I0WmRaSVRCd2FnZmZMUEJ2azgxSUtlTFA4RkJqS0ZHbVFHUzc5bkFPVm5CbWM?oc=5
+· MU Micron Technology Seen With Increasingly Positive Duration Tone, Capital Returns Outlook, UBS Says (Yahoo Finance) https://news.google.com/rss/articles/CBMirgFBVV95cUxNeWFSeUNVUjdkWjRZaTlKNU1xQ093RDloQzE5b2tFUG9wUjZRZnZEVXNZTWNmcnh5VUVEV3VrckpBbW5VQldNSDFKVWxwOUVvcy1BLXE1WG9ZdnNkWTR5WXVLRHp0RHR5azZrWXZjMXJTOExRMHEyV3hadFpNVWZ3ZVVJS21YQkg4UElpdmItR2VOOVJyTjhpUlg1M0R4aUNQSUlPZWhzaWlaaW5VN2c?oc=5
+· BAC What It Actually Takes for Bank of America to Keep Raising Its Dividend (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPa0N6NXBYM1Bid1F6UDhMSS1LWko0WmZsZkJPOWJLV1FBRDFyV25XX05MbDdCTmxUVkJ0V0M4R0VodzF1VXhhTFIyS3JJWDQxcGJHNWxlM2tOOTVYckNxb2hDbGtCV1lvY2RfSlFLeGF6N1RTdWh0UGoxSjFwbGkxUjlSWC1Cb0ItRzh2YWFGQktOU3RRRDRIckV4c0pfZw?oc=5
+· NVDA Nvidia, Intel and 3 More: BofA Reveals 5 Chip Stocks to Own (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUFwNTZ5alM3Ni1MQkZMUktPemNxUjlzM0VmaGt6T3JYaXNCc2x5SzhPaC1pUlJNZ25EQThfUnJMVEZxVzRiYWlhSVJDRHJ3aGh4U0FBMFAyQW9UVHZodXRwVE9nV0FLMUU0UnBfcGVDN0FXVjU3YXoxS2lNR2VYZ2dUeExWZmpIckxsdWhwcnB0T09iNmY5OHpQSVYyMHBqVGx0TTVSclJ3SVgxZlNsNXJjYURMZ24w?oc=5
+· CVX Will Chevron (CVX) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiAFBVV95cUxQczNWemg4dUowQmdITjVqQV80MzRlbWVIUkFrLV9IaWlqWThKNE4yWTBDYmw0NUZ3R1VKUE1DUEpicmRTQ3MxeGpWcDZqUGhFUk5abUM5cVZGN2ZhY1ViR1Q3WW5IWlZSdEVSdWZ3WEpuQlREVDNPV0xLMFJhSngwVjVlU1FEb01Y?oc=5
 · PETR4 Petrobras aumenta o preço do querosene de aviação em 11,8% (Estadao) https://www.estadao.com.br/em-alta/economia/petrobras-aumenta-preco-querosene-aviacao-outubro-2026/
 · BTC Citigroup raises one year Bitcoin forecast to $113,000 (Fortune) http://fortune.com/2026/10/01/citigroup-one-year-bitcoin-forecast-113000/
 · AMD AMD: At All-Time Highs, We're Expanding Our Short Position (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4951428-amd-at-all-time-highs-were-expanding-our-short-position
@@ -258,18 +290,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXN6Y29CQkRQNlcwbXJFMl9RSEJ0ZUtnZ3g1WWl5Z2YwMVdLTVQ0dTNiaXlRNGtoY3R2TlZRWDQ0eUQ0TElGZmZMdFV2ZEFFeFZxYmlGODhObTllem16RnM3RDdMMjZHb0lrRGw0UHVqOElnVFM4a1NrRlU0RjFhbUZ5N1dHNjljdkl2dHdabnZ2bUVXZjVnR3BXQzE2b2RfVFVNcmZ3?oc=5
 · MU With record earnings in the rearview, Micron faces Taiwan strike prospects (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkkzV2dSc2RmQjhMb3hwZ2xRWWphMW5CX2lTdkpqdDJqM3YteHBjaGFLYWhiZlFqX1F1dHBuQkNVSnBPTzNCUDhFVjJMclh3S0FKbXZGNzhWYW1UYkJMMS1paUh0NWJjanZZY1Awd0RMQXh2N3VJa1MwM1ByWXJNeVAxV0g0dHdIbFREbTljcw?oc=5
 · VALE3 Ibovespa passa a cair pressionado por Bolsas de NY e baixa das ações da Vale (Estadao) https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzhKNFdWZi1pYl9nYkt3bzl3eWl6OWVScWx0OFZBZFBOcUVmMTYtZ1hOM0syR2tlYS1seENCOF9jdEVubTRLT2EwaXB0MmNzU2ZTZ21XczFwX2JfOS1LYUx4MmFFcDRXN2tGX2RFTUpNSGZ6ZEp4dS1LaWZoY28zNXNXOWZvbW5JVEx2Qjhkako5SjJDS05UMmNaUUhkNW56b3JtMVhMQnVxa3hxUWhxSGtoYXNEektldHlOa3NEQTBsT0tMNVRV0gHMAUFVX3lxTFBtY2l5VEh3UzVhb2pIanVJTFlfY3BDMlJpTTJtdmVrR1dCVm9YVGJlMGNWM095aXFlcGlzemw4SlhWeVVFcDg1VUJ6bFRleWdOdjRvZ1Z2UWxtWk1RY1Y1NThRbkxyVGhmaE5xVFJPTFhLOG4zTkYweWpOLUFQTkxQQmRZYko1cVZ1QTQyNXJfZFhpQk5Ic1ZFNTdoeGUxcWJZb1F2R3JTbUVRUlU0Ry1mU0VDRG1wOUhwOVpOWjNXVDVXMG5BR2lidk43TQ?oc=5
-· PETR4 Petrobras aumenta preço do querosene de aviação em outubro (g1) https://news.google.com/rss/articles/CBMif0FVX3lxTE5tLURWYVF3aFMzMm1VWFNqQXByeTJDRm9maUZJY1g3cVFtV2c2aGZSaDAtMXZqMm9DU0ktbDFSU0VWOFlEN1F5NnV1dG9icW1BZDBmcEF1UVdDc3VWNkQ3R2JmdEEwbV90elJ3NVJrUks5ZzgxTHFaSm4yOTQyakXSAY4BQVVfeXFMT2dQQUstMGY4SGJaRDB1Y1R3TjRfQ29keklqSU5oN19ON3ZuRnp4bXFFTjloZlFYd3lkTE1IVHZLemtWUGMwaTkzT0xpRERfU1FESVV4V1AwWXo5ZWVtS3lDRHk2cU15Qm9Sa0FZc1IzZFVpZ2pMZ1lVZXA5TTZpWm9kNVpjNFVGMGJXRmtEZw?oc=5
-· MU Broadcom lends Anthropic $42B, Nike releases Caitlin 1s, and Micron earnings takeaways (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxOVlMwTi1kZ1FKRzVpNmMtQTZXU2gtUWsxWGF0M2c3OUMyN3lrQ2NUZ25FMzdyWmFWWExKOXJsR3o5RzEyMlNGMGJTakwzMTVxQUh0Z3RhdVdKS0prd2t3RnVtZkNBcG1EYWlIOVhvclE5NkpnMmVCTmZFNEpESU5obG5jT1pkdHVaMU5HVTlUN3VPWXVnWW1vZkMwaVpMRW44T0kxVVlkNjB0ZmZvSGJfNFo3bWE1cDJLbEQxeG9kWm9QV0YzM3FsRThR?oc=5
-· BRENT Dow Jones hoje: petróleo acima de US$ 100 limita Wall Street, apesar do impulso da IA (Estadao) https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWxCbWRuMzJNSnZDb3NGUldpX1N0NHZkWnd4MG1LcllkRTM3Z2c3ekdVYndyam1CT1ZSV2dnNFhsUm05aWhaSDBneml4LV8yMXRSZWFCQUg1QlNsdm5JWS05cWd6QVpNYkZCOE9pc0JqMVZPTmRmc01wcnkzdnh6OUhsNmV1bVdveU1pWGpnTVhoSkVkZEtTMVdOb2ZUMy1pWlFvNlZkVzRZZWxMRHdSNXpvRE1paTR5SV96TjVueWEzbUZTSXJLWm9Pa2N4RnpNNmxiN0FyMlV2d1J5YWliQkZrVlR3ekRJM2VqWVFn0gHzAUFVX3lxTFBFUDU1M2Rxd3EzeVp5Z1dhUFdUdUYxaXdqN3lyNzVLc3NLUWEzWGxSSXpTT0Jnamd3bHNnVUtxb1JsLWFKX0l2aDlmTVJmOGEtRWxxc0wzTGZOVXJMSWhweDAwMWFuLWVLcGNRSTUtZ0RQTmF3Skc2aW80eXIwZlRSRGd5bGN4bk0xY3lxWjdrTEQzc1FqNExfZDNfTDRONTdwSWJzaUNxTjBwUmtLVWw5eHllTEVleGFnLXEzdXI3U3pSSVp0WEwwbEVKRW5ocFl1dUh6WmprdnRmbTBrMTBlUTVxY01qRVlZTW9aMC1zdzVlQQ?oc=5
-· MU Micron stock dips after earnings despite answer to analyst's key question (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-stock-dips-after-earnings-despite-answer-to-analysts-key-question-134446610.html
-· TSLA Tesla EV Deliveries Set to Drop on Weak US Demand, Aging Lineup (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-01/tesla-ev-deliveries-set-to-drop-on-weak-us-demand-aging-lineup
-· PETR4 Petrobras eleva preço do querosene de aviação em outubro (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-eleva-preco-do-querosene-de-aviacao-em-outubro/
-· NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:5ecde8c14094b:0-nvidia-s-hyperscaler-revenue-could-reach-401b-in-2027-says-analyst-spacex-could-push-barclays-napkin-math-higher/
-· TESOURO Tesouro Direto hoje sobe com pressão externa e IPCA+ 2050 retorna a 7,06%; veja todas as taxas (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-sobe-com-pressao-externa-e-ipca-2050-retorna-a-706-veja-todas-as-taxas/
-· MU With record earnings in the rearview, Micron faces Taiwan strike prospects (Yahoo Finance) https://sg.finance.yahoo.com/news/record-earnings-rearview-micron-faces-144710350.html
-· MU Micron CEO Says ‘We Cannot Fulfill The Demand’ As Supply Tightness Extends Through 2028 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-ceo-says-cannot-fulfill-143757448.html
-· ETH Current price of Ethereum for Oct. 1, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-01-2026/
-· BRENT Bolsa abre estável e dólar ronda R$ 5,18, com eleições e petróleo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/01/dolar-bolsa-abre-hoje-1-de-outubro-de-2026.ghtm
-· BTC Current price of Bitcoin for Oct. 1, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kOTVEbVJ4WGtPVWltaWZFYUU1R1R6eDVTUENEUE51cTRQUnhVY2hoUVE1VTRVUUQzVHJOaXM0Y2ZlbHBNNi1fTDM4WjRETTVJUkw2TTBnLWptQnllS3JDMGQzZUg0NkE?oc=5
-· MU Micron: 6 Business Signals That Worked Last Year And What They Say Now (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmQ5cWplS18tMjAzaDNMMnVNM2NNWS1CbWJxRFUwNDB2VTNLVVZ3a2lpLVk3b1JxNXpKb0RqTTh0dGFwdExIdzJlSW5OZHA5X2VNTHRBVlQ5eTVwelRrQk5vUktYdVotbElUcFBxdHlzQkE4OWVuLTk3SVg4Zzc5U0pITnpBblJkZDhWRUNGVEY4QlpGVVRTclJVamI4cFZTN1puTFpiSU4xMGdObngw?oc=5
-· (+48 manchetes; lista completa em eventos/noticias.json)
+· (+62 manchetes; lista completa em eventos/noticias.json)
