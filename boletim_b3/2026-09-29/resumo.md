@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 29/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-30 11:18 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T14:31:27Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T18:49:02Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -14,11 +14,10 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Pressão vendida.** SAPR4: em 5 pregões o saldo alugado subiu 28,2% e o preço caiu 4,7%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 29/09)_
 - **Crédito: giro.** CRI: R$ 1.758 mi negociados no balcão, 2,6x a média de 19 pregões. _(B3, Trade, 29/09)_
 - **Crédito: giro.** CRA: R$ 1.575 mi negociados no balcão, 4,8x a média de 19 pregões. _(B3, Trade, 29/09)_
-- **Crédito: taxa abriu.** 21L0668716 (Opea Securitizadora, CRI): taxa média abriu 87 pb contra 21/09, para CDI+ 1,28%, em R$ 65,0 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
-- **Crédito: taxa abriu.** IVIAA0 (Concessionaria de Rodovias do Interio…, debênture incentivada): taxa média abriu 50 pb contra 28/09, para IPCA+ 9,73%, em R$ 14,0 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
-- **Crédito: taxa abriu.** 22F0315398 (Riza Securitizadora, CRI): taxa média abriu 44 pb contra 24/09, para CDI+ 0,63%, em R$ 60,5 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
-- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): negociada a IPCA+ 14,28%, 712 pb acima do juro real de mercado de prazo equivalente, em R$ 30,3 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
-- **Crédito: prêmio alto.** ASER12 (Aguas do Sertao, debênture incentivada): negociada a IPCA+ 12,26%, 513 pb acima do juro real de mercado de prazo equivalente, em R$ 12,7 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
+- **Crédito: taxa abriu.** 21L0668716 (Opea Securitizadora, CRI): taxa média dos negócios da B3 abriu 87 pb contra 21/09, para CDI+ 1,28%, em R$ 65,0 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
+- **Crédito: taxa abriu.** 22F0315398 (Riza Securitizadora, CRI): taxa média dos negócios da B3 abriu 44 pb contra 24/09, para CDI+ 0,63%, em R$ 60,5 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
+- **Crédito: taxa abriu.** 25K3753716 (Opea Securitizadora, CRI): taxa média dos negócios da B3 abriu 39 pb contra 24/09, para IPCA+ 9,14%, em R$ 30,5 mi. _(B3, Trade + InstrumentRegistration, 29/09)_
+- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): taxa indicativa da ANBIMA de 29/09 a IPCA+ 14,31%, 669 pb acima do juro real de mercado na duration de 5,3 anos; na B3, negócios de 29/09 a IPCA+ 14,28% em R$ 30,3 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 29/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 370 mi líquidos em 25/09; no mês, até 25/09, saldo de +R$ 9.428 mi. _(B3, SharesInvesVolum, 25/09)_
 - **Juros.** A curva de juros fechou: DI1F29 −11 pb, para 13,79%. _(B3, TradeInformationConsolidated, 29/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (1º), MRVE3 (3º), CURY3 (7º), DIRR3 (9º); maiores baixas do Ibovespa: VALE3 (10º); mais negociadas à vista: VALE3 (1º), PETR4 (2º), BBAS3 (4º), ITUB4 (5º); calls mais negociadas: ITUBL260 (4º); puts mais negociadas: ITUBX625 (1º), BBASW231 (5º). _(B3, tabelas de maiores oscilacoes, 29/09)_
@@ -31,7 +30,8 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** CURY3: saldo alugado de 20,3 mi de ações, 12,6% da quantidade teórica do índice e 4,8 pregões de giro; taxa média do tomador de 9,16% ao ano. _(B3, BTBLendingOpenPosition, 29/09 · 20º pregão seguido)_
 - **Aluguel alto.** DIRR3: saldo alugado de 27,2 mi de ações, 8,3% da quantidade teórica do índice e 2,4 pregões de giro; taxa média do tomador de 0,03% ao ano. _(B3, BTBLendingOpenPosition, 29/09 · 20º pregão seguido)_
 - **Aluguel alto.** MRVE3: saldo alugado de 65,0 mi de ações, 17,3% da quantidade teórica do índice e 5,5 pregões de giro; taxa média do tomador de 12,87% ao ano. _(B3, BTBLendingOpenPosition, 29/09 · 20º pregão seguido)_
-- **Crédito: prêmio alto.** RIS424 (Aguas do Rio 4 Spe, debênture incentivada): negociada a IPCA+ 12,39%, 524 pb acima do juro real de mercado de prazo equivalente, em R$ 8,7 mi. _(B3, Trade + InstrumentRegistration, 29/09 · 2º pregão seguido)_
+- **Crédito: prêmio alto.** RISP24 (Aguas do Rio 1 Spe, debênture incentivada): taxa indicativa da ANBIMA de 29/09 a IPCA+ 12,86%, 536 pb acima do juro real de mercado na duration de 7,3 anos; na B3, negócios de 29/09 a IPCA+ 12,19% em R$ 10,6 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 29/09 · 2º pregão seguido)_
+- **Crédito: prêmio alto.** RIS424 (Aguas do Rio 4 Spe, debênture incentivada): taxa indicativa da ANBIMA de 29/09 a IPCA+ 12,85%, 535 pb acima do juro real de mercado na duration de 7,3 anos; na B3, negócios de 29/09 a IPCA+ 12,39% em R$ 8,7 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 29/09 · 2º pregão seguido)_
 - **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto subiram 22,0% em um pregão, para 1.307.825. _(B3, AnalyticalFramework2, 29/09 · 2º pregão seguido)_
 
 ## Índices
@@ -248,37 +248,46 @@ Posição em aberto: 3,7 bi de calls e 2,9 bi de puts (put/call 0,79); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
+**De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 29/09 (1.291 papéis), com os negócios da B3 de 29/09 ao lado; CRI e CRA só pelos negócios da B3.
+
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,9 bi | IPCA+ 7,86% | +43 pb |
+| Debêntures incentivadas | R$ 1,9 bi | IPCA+ 7,82% | +33 pb |
 | CRI | R$ 1,8 bi | IPCA+ 9,14% e CDI+ 0,93% | +184 pb |
 | CRA | R$ 1,6 bi | IPCA+ 10,10% e CDI+ 2,90% | +276 pb |
 
+Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 29/09) foi IPCA+ 7,86%.
+
 **Papéis acompanhados (config/boletim.yaml)**
 
-| Papel | Taxa do dia | Sobre o juro real | Volume |
+| Papel | Taxa de referência | B3 negócios de 29/09 | Sobre o juro real |
 |---|---:|---:|---:|
-| CGOS16 | IPCA+ 8,13% | +70 pb | R$ 1,3 mi |
-| CGOS28 | IPCA+ 8,31% | +88 pb | R$ 3,9 mi |
+| CGOS16 | IPCA+ 8,09% (ANBIMA indicativa de 29/09) | IPCA+ 8,13%, R$ 1,3 mi | +52 pb na duration |
+| CGOS28 | IPCA+ 8,19% (ANBIMA indicativa de 29/09) | IPCA+ 8,31%, R$ 3,9 mi | +64 pb na duration |
+
+- CGOS16, ANBIMA de 29/09: compra 8,35% e venda 7,84%; PU R$ 1.032,56 (91,2% do par); duration de 6,1 anos; indicativa -11,2 pb contra 28/09.
+- CGOS28, ANBIMA de 29/09: compra 8,32% e venda 7,99%; PU R$ 1.001,22 (91,1% do par); duration de 6,5 anos; indicativa -7,4 pb contra 28/09.
 
 **Debêntures incentivadas mais negociadas**
 
-| Papel | Taxa do dia | Sobre o juro real | Volume |
+| Papel | Taxa de referência | B3 negócios de 29/09 | Sobre o juro real |
 |---|---:|---:|---:|
-| BCPSA5 (Claro S/A) | IPCA+ 7,11% | -31 pb | R$ 86,4 mi |
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,15% pré | - | R$ 67,6 mi |
-| AXSE11 (Axs Energia Unidade 06 S.A.) | sem taxa | - | R$ 57,6 mi |
-| VLIM19 (Vli Multimodal S.A.) | IPCA+ 7,82% | +46 pb | R$ 51,6 mi |
-| ELET14 (Axia Energia S.A.) | IPCA+ 7,62% | -1 pb | R$ 46,1 mi |
-| DESK19 (Desktop S/A) | IPCA+ 7,80% | +21 pb | R$ 40,6 mi |
-| CGOSA2 (Equatorial Goias Distribuido) | IPCA+ 8,25% | +88 pb | R$ 39,8 mi |
-| CERT11 (Concessionaria Ecovias Rapos) | IPCA+ 8,39% | +98 pb | R$ 37,9 mi |
+| BCPSA5 (Claro S/A) | IPCA+ 7,10% (ANBIMA indicativa de 29/09) | IPCA+ 7,11%, R$ 86,4 mi | -30 pb na duration |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,34% pré (ANBIMA indicativa de 29/09) | 14,15% pré, R$ 67,6 mi | - |
+| AXSE11 (Axs Energia Unidade 06 S.A.) | sem taxa | R$ 57,6 mi | - |
+| VLIM19 (Vli Multimodal S.A.) | IPCA+ 7,84% (ANBIMA indicativa de 29/09) | IPCA+ 7,82%, R$ 51,6 mi | +35 pb na duration |
+| ELET14 (Axia Energia S.A.) | IPCA+ 7,53% (ANBIMA indicativa de 29/09) | IPCA+ 7,62%, R$ 46,1 mi | -4 pb na duration |
+| DESK19 (Desktop S/A) | IPCA+ 7,79% (ANBIMA indicativa de 29/09) | IPCA+ 7,80%, R$ 40,6 mi | +16 pb na duration |
+| CGOSA2 (Equatorial Goias Distribuido) | IPCA+ 8,27% (ANBIMA indicativa de 29/09) | IPCA+ 8,25%, R$ 39,8 mi | +75 pb na duration |
+| CERT11 (Concessionaria Ecovias Rapos) | IPCA+ 8,30% (ANBIMA indicativa de 29/09) | IPCA+ 8,39%, R$ 37,9 mi | +88 pb na duration |
 
-**Abriram taxa:** 21L0668716 +87 pb, para CDI+ 1,28% (R$ 65,0 mi); RMGG12 +67 pb, para IPCA+ 8,88% (R$ 3,6 mi); IVIAA0 +50 pb, para IPCA+ 9,73% (R$ 14,0 mi); CRA0240066B +48 pb, para IPCA+ 12,68% (R$ 3,5 mi); 22F0315398 +44 pb, para CDI+ 0,63% (R$ 60,5 mi).
-**Fecharam taxa:** CGEE23 -272 pb, para IPCA+ 14,28% (R$ 30,3 mi); 25E4068927 -253 pb, para CDI+ 1,46% (R$ 17,4 mi); 21D0694886 -137 pb, para IPCA+ 9,23% (R$ 5,5 mi); RISP22 -94 pb, para IPCA+ 12,02% (R$ 5,8 mi); RIS422 -91 pb, para IPCA+ 12,03% (R$ 7,7 mi).
-**Prêmio alto:** CGEE23 a IPCA+ 14,28% (+712 pb), R$ 30,3 mi; RIS424 a IPCA+ 12,39% (+524 pb), R$ 8,7 mi; ASER12 a IPCA+ 12,26% (+513 pb), R$ 12,7 mi; CRA0240066B a IPCA+ 12,68% (+506 pb), R$ 3,5 mi; RISP24 a IPCA+ 12,19% (+504 pb), R$ 10,6 mi.
+**Abriram taxa pela indicativa da ANBIMA:** PRTE12 +29,1 pb contra 28/09, para IPCA+ 6,37% (R$ 15,4 mi); CTGE11 +25,2 pb contra 28/09, para IPCA+ 6,04% (R$ 3,1 mi); IVIAA0 +10,4 pb contra 28/09, para IPCA+ 9,47% (R$ 14,0 mi); EGIE27 +9,8 pb contra 28/09, para IPCA+ 5,74% (R$ 5,2 mi); CPLDC0 +8,7 pb contra 28/09, para IPCA+ 7,76% (R$ 5,0 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** ALGTA4 -22,6 pb contra 28/09, para IPCA+ 8,57% (R$ 4,8 mi); DESK18 -19,1 pb contra 28/09, para IPCA+ 7,65% (R$ 6,8 mi); EPRL12 -19 pb contra 28/09, para IPCA+ 8,68% (R$ 3,1 mi); ARTRA8 -18,3 pb contra 28/09, para IPCA+ 9,96% (R$ 4,1 mi); BARU11 -17,6 pb contra 28/09, para IPCA+ 8,05% (R$ 10,9 mi).
+**Abriram taxa pelos negócios da B3:** 21L0668716 +87 pb contra 21/09, para CDI+ 1,28% (R$ 65,0 mi); RMGG12 +67 pb contra 28/09, para IPCA+ 8,88% (R$ 3,6 mi); CRA0240066B +48 pb contra 11/09, para IPCA+ 12,68% (R$ 3,5 mi); 22F0315398 +44 pb contra 24/09, para CDI+ 0,63% (R$ 60,5 mi); 25K3753716 +39 pb contra 24/09, para IPCA+ 9,14% (R$ 30,5 mi).
+**Fecharam taxa pelos negócios da B3:** 25E4068927 -253 pb contra 09/09, para CDI+ 1,46% (R$ 17,4 mi); 21D0694886 -137 pb contra 18/09, para IPCA+ 9,23% (R$ 5,5 mi); 22G0282361 -28 pb contra 23/09, para CDI+ 0,96% (R$ 4,5 mi); 23K0022041 -20 pb contra 25/09, para 14,99% pré (R$ 5,5 mi); CRA022007EP -14 pb contra 28/09, para IPCA+ 7,71% (R$ 4,6 mi).
+**Prêmio alto:** CGEE23 a IPCA+ 14,31% (ANBIMA indicativa de 29/09), +669 pb na duration, R$ 30,3 mi; RISP24 a IPCA+ 12,86% (ANBIMA indicativa de 29/09), +536 pb na duration, R$ 10,6 mi; RIS424 a IPCA+ 12,85% (ANBIMA indicativa de 29/09), +535 pb na duration, R$ 8,7 mi; RIS422 a IPCA+ 12,77% (ANBIMA indicativa de 29/09), +526 pb na duration, R$ 7,7 mi; RISP22 a IPCA+ 12,75% (ANBIMA indicativa de 29/09), +524 pb na duration, R$ 5,8 mi.
 
-Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

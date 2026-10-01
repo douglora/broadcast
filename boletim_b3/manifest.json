@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-01T14:30:15Z",
+ "gerado_em": "2026-10-01T18:48:26Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -44,14 +44,25 @@
     "ficaram_para_depois": 0,
     "no_cache": 3297
    },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-09-29",
+    "papeis": 1291,
+    "publicado_em": "2026-09-29T19:54:02",
+    "comparado_com": "2026-09-28",
+    "tentativas": {
+     "2026-09-29": "publicado",
+     "2026-09-28": "publicado"
+    }
+   },
    "falhas": {},
-   "segundos": 72
+   "segundos": 36
   },
   "2026-09-30": {
    "completo": true,
    "faltam": [],
    "boletim": "publicado",
-   "sinais": 20,
+   "sinais": 21,
    "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
@@ -60,7 +71,7 @@
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1708,
+    "papeis_no_dia": 1703,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -68,8 +79,19 @@
     "ficaram_para_depois": 0,
     "no_cache": 3297
    },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-09-30",
+    "papeis": 1291,
+    "publicado_em": "2026-09-30T19:56:25",
+    "comparado_com": "2026-09-29",
+    "tentativas": {
+     "2026-09-30": "publicado",
+     "2026-09-29": "publicado"
+    }
+   },
    "falhas": {},
-   "segundos": 29
+   "segundos": 21
   }
  },
  "falhas": [],
