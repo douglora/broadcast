@@ -1,83 +1,61 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E04 · MU · 8-K: 2.02 resultado do trimestre
-SEC EDGAR · aceito 30/09 13h02 · 8-K
-Do documento:
-  – 0000723125 FALSE 0000723125 2026-09-30 2026-09-30   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
-  – 20549   FORM 8-K   CURRENT REPORT   Pursuant to Section 13 or 15(d) of The Securities Exchange Act of 1934   September 30, 2026   Date of Report (date of earliest event reported)   MICRON TECHNOLOGY, INC.
-  – On September 30, 2026 , Micron Technology, Inc. (the "Company", "we" or "our") announced the financial results for our fourth quarter and full year of fiscal 2026 ended September 3, 2026.
-  – The full text of the press release issued in connection with the announcement is attached as Exhibit 99.1 to this Current Report on Form 8-K.
-  – Date: September 30, 2026 By: /s/ Mark Murphy   Name: Mark Murphy   Title: Executive Vice President and Chief Financial Officer
-Link: https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm
-Por que importa: resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
-Ativos: MU
-Como falar: 'a MU protocolou 8-K na SEC (2.02 resultado do trimestre)'
-Fonte: SEC EDGAR 2026-09-30
-Push: intradia: 3 alertas de atenção — E04 MU, E05 MU, E05 MU · detalhe na sessão
-ids: E04-MU-26000018-2026-09-30
+[ATENÇÃO] E05 · ITUB4 · Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos, segundo Ágora Investimentos
+Money Times · 01/10 09h23 · fonte única · licença: integral
+Do texto:
+  – Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos, segundo Ágora Investimentos A Ágora Investimentos não realizou mudanças na carteira recomendada de dividendos para o mês de outubro.
+  – Dessa maneira, o portfólio segue composto pela Allos (ALOS3), Copasa (CSMG3), Caixa Seguridade (CXSE3), ISA Energia (ISAE4) e Itaú (ITUB4).
+  – A expectativa de retorno médio via dividendos de 8,4% para os próximos 12 meses, medido pelo dividend yield (rendimento de dividendo) médio da carteira.
+  – Em setembro, até o dia 28, a seleção da Ágora registrou desempenho positivo de 4,2%, ante avanço de 3,1% do Ibovespa (IBOV), principal índice da Bolsa brasileira.
+  – Com alavancagem controlada em 1,7 vez a dívida líquida/Ebitda e distribuição mensal de proventos, a Allosoferece carrego relevante.
+Link: https://www.moneytimes.com.br/itau-itub4-isa-energia-isae4-e-mais-3-acoes-para-buscar-dividendos-segundo-agora-investimentos-lmrs/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Money Times: Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos, segundo Ágora In…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 01/10 09h23
+Push: intradia: 2 alertas de atenção — E05 ITUB4, E05 AMZN · detalhe na sessão
+ids: E05-ITUB4-8c3e440e2c-2026-10-01
 
-[ATENÇÃO] E05 · MU · Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ)
-Seeking Alpha · 30/09 17h08 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4648585-micron-slips-even-as-q4-results-guidance-top-estimates
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no Seeking Alpha: Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 30/09 17h08
-ids: E05-MU-6227192009-2026-09-30
-
-[ATENÇÃO] E05 · MU · Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook
-Yahoo Finance · 30/09 17h04 · fonte única · licença: resumo
+[ATENÇÃO] E05 · AMZN · Amazon Raised Its 2026 Capex Guide to $220 Billion. Here’s What Drove the Increase
+Yahoo Finance · 01/10 08h40 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Memory giant Micron (MU) reported its fourth quarter earnings after the bell on Wednesday, beating Wall Street's expectations on the top and bottom lines and offering a better-than-anticipated Q1 outlook.
-  – For the quarter, Micron reported earnings per share of $33.42 on revenue of $54.23 billion.
-  – Analysts were looking for EPS of $31.83 and revenue of $51.49 billion, according to Bloomberg analyst consensus estimates.
-  – The company saw EPS of $3.03 and revenue of $11.31 billion in the same quarter last year.
-  – For the second quarter, Micron is projecting revenue of between $60 billon and $63 billion; analysts were calling for $56.77 billion.
-  – Micron's fortunes, along with those of fellow memory chip producers Samsung (005930.KS) and SK Hynix (SKHY), have soared amid sky-high demand driven by the global AI build-out.
-Link: https://finance.yahoo.com/technology/article/micron-tops-q4-estimates-on-top-and-bottom-lines-offers-strong-q1-outlook-153230577.html
+  – Key Takeaways -       Amazon raised its 2026 cash capex outlook from about $200 billion to about $220 billion in July, and CEO Andy Jassy tied the increase to higher memory costs.
+  – -       Capex grew from $52.73 billion in 2023 to $131.82 billion in 2025, while cash from operations grew from $84.95 billion to $139.51 billion.
+  – -       AWS revenue grew 36.7% in Q2 with a $496 billion backlog, but Jassy said Amazon will "encounter free cash flow headwinds" until new data centers come online.
+  – Amazon's $20 Billion Capex Raise Came From Memory Prices On the Q2 2026 earnings call, Andy Jassy dropped the number almost in passing.
+  – AWS revenue rose 36.7% to $42.2 billion, and the backlog stands at $496 billion.
+  – Data center capital goes out about two years before servers earn anything, so Amazon will "spend a lot of CapEx and encounter free cash flow headwinds" until those sites are monetized.
+Link: https://finance.yahoo.com/markets/stocks/articles/amazon-raised-2026-capex-guide-114017457.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 30/09 17h04
-ids: E05-MU-ada56a7bac-2026-09-30
+Ativos: AMZN
+Como falar: 'saiu no Yahoo Finance: Amazon Raised Its 2026 Capex Guide to $220 Billion. Here’s What Drove the Increase; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 08h40
+ids: E05-AMZN-bcb75c50cd-2026-10-01
 
 Info (só linha no Fechamento):
-· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 USDBRL · Ibovespa sobe 1,4% no dia e acumula alta de 5% em setembro; dólar cai para R$ 5,17
-· E05 MU · Micron earnings beat by $2.26, revenue topped estimates
-· E05 USDBRL · Dólar à vista fecha em baixa de 0,76%, a R$5,1735 na venda Por Reuters
-· E05 MU · Micron Forecast Tops Estimates After Demand Outstrips Supply
-· E05 USDBRL · Dólar cai a R$ 5,17 com inflação mais fraca nos EUA; moeda fecha setembro em leve queda
-· E05 USDBRL · Dólar cai a R$ 5,17, e Bolsa sobe com dados da economia americana
-· E05 JPM · Eleições 2026: As ações do varejo para ficar de olho, segundo JP Morgan
-· E05 USDBRL · Abimaq: venda de máquina agrícola cai por dívida e impacto do câmbio em commodity
-· E05 SAPR4 · Saiba quem tem direito a desconto de 25% na fatura da Sanepar a partir de outubro - TNOnline
-· E05 PLTR · Was There Any Sign Palantir Stock Would Run?
-· E05 UST · Treasury Yields Hit Fresh Highs
-· E05 ITUB4 · Bancos fazem alegria de investidores nesta terça; ITUB4 salta 5% e BBSA3 e BBDC4 também sobem forte
-· E05 UST · U.S. 10-year Treasury yield crosses 5.30% to highest since 2002
-· E05 AMD · AMD Just Got a $1,000 Price Target as AI Demand Accelerates
-· E05 USDBRL · Tempo real: Ibovespa sobe 2% com dados de inflação nos EUA; dólar cai
+· E05 AMZN · Kodiak AI selects AWS as primary cloud provider for autonomous trucks
+· E05 USDBRL · Dólar abre perto da estabilidade antes de nova pesquisa Datafolha e debate presidencial
+· E05 USDBRL · Dólar inicia dia em alta acompanhando guerra no Oriente Médio
+· E05 BBAS3 · Petrobras e Banco do Brasil: quanto a eleição ainda mexe com as estatais da Bolsa
+· E05 MU · The Dow's rough month, Micron's revenue surge, Google launches Gemini 4 and more in Morning Squawk
+· E05 USDBRL · Ibovespa futuro avança com exterior e expectativa para debate de presidenciáveis; dólar sobe
+· E05 AVGO · Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says
+· E05 USDBRL · Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta
+· E05 USDBRL · Dólar sobe sob influência do exterior com mercado à espera de nova pesquisa eleitoral Por Reuters
+· E05 BBDC4 · Embraer (EMBJ3), Bradesco (BBDC4), Nubank e outros destaques desta quinta-feira (1)
+· E05 BRENT · Dólar abre outubro a R$ 5,19, com eleições e petróleo no radar
+· E05 VALE3 · Vale sustenta grau de investimento mesmo com minério mais barato e custos maiores, diz Moody’s
+· E05 UST · 10-year Treasury yield posts biggest monthly gain since 2022: Chart of the Day
+· E05 JPM · REG - JPMorgan UK Sml Cap - Dividend Declaration
+· E05 BRENT · Dólar abre sessão desta quinta-feira, de olho nos preços do petróleo e cenário político brasileiro
 
 
 Alertas do dia (todos, com status):
-· pendente  E04 MU — MU · 8-K: 2.02 resultado do trimestre
-· pendente  E05 MU — MU · Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ)
-· pendente  E05 MU — MU · Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook
-· entregue  E05 MU — MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees M
-· entregue  E05 BABA — BABA · Levi & Korsinsky Reminds Alibaba Group Holding Investors of the Pending C
-· entregue  E05 MU — MU · Micron Earnings Could Reach $50 A Quarter, Says Susquehanna: Analyst Sees M
-· entregue  E05 AMZN — AMZN · Amazon: Anthropic's $110 Billion Commitment Changes The AI Capex Debate (
-· entregue  E05 VALE3 — VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
-· entregue  E05 SAPR4 — SAPR4 · Contas da Sanepar ganham novo visual e redução de 25% na tarifa a partir
-· entregue  E05 AMD — AMD · Hewlett raises Networking outlook, secures $1.2B AMD Helios order, ups Jun
-· entregue  E05 AMD — AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outloo
-· entregue  E05 AMD — AMD · HPE rises as it wins $1.2B AMD Helios order from Vultr, boosts 2027 outloo
-· entregue  E03 AXIA3 — AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alo
-· entregue  E03 AXIA3 — AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alo
-· entregue  E05 MU — MU · Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed
-· entregue  E05 NVDA — NVDA · Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Mil
-· entregue  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accele
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,1717 (cruzou R$ 5,20) (parcial, intradia)
-· (+124 notícias só manchete, em noticias.md)
+· pendente  E05 ITUB4 — ITUB4 · Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos,
+· pendente  E05 AMZN — AMZN · Amazon Raised Its 2026 Capex Guide to $220 Billion. Here’s What Drove the
+· entregue  E05 ITUB4 — ITUB4 · Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agen
+· entregue  E05 JPM — JPM · Key facts: META's Muse launch; $140B 2024 capex; JPMorgan $920 PT
+· entregue  E05 AMD — AMD · HPE stock closes at record high on growing networking orders, $1.2 billion
+· entregue  E05 BABA — BABA · MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substa
+· (+34 notícias só manchete, em noticias.md)
 
