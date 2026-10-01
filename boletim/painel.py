@@ -201,7 +201,8 @@ svg [data-tip]:hover,svg [data-tip]:focus{opacity:.78;outline:none}
 .tile .pe{font-size:11.5px;color:var(--mut)}
 .listas{display:flex;flex-direction:column;gap:4px;font-size:13.5px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;background:var(--card);white-space:nowrap}
+/* chip curto fica numa linha; chip longo quebra dentro do card em vez de alargar a pagina no celular */
+.chip{font-size:12.5px;border:1px solid var(--line);border-radius:14px;padding:2px 10px;background:var(--card);max-width:100%}
 .disclaimer{padding:12px 14px;background:#f2f2f2;border-radius:6px;font-style:italic;color:var(--mut);font-size:13px}
 .rodape{font-size:13px;color:var(--mut)}
 .rodape ul{margin:6px 0;padding-left:20px}
@@ -1239,7 +1240,7 @@ def _renda_fixa(r: dict) -> str:
                            (f'<span class="{cls(-(l["premio_dap_pb"]))}">{n(l["premio_dap_pb"], 0, True)} pb</span>' if l.get("premio_dap_pb") is not None else "–")
                            + (f'<span class="peq">taxa {n(var, 0, True)} pb vs {dm(l.get("comparado_com"))}</span>' if var is not None else ""),
                            (l.get("vencimento") or "–")[:4] + (f'<span class="peq">{n(l.get("prazo_anos"), 1)} anos</span>' if l.get("prazo_anos") else ""),
-                           "R$ " + compacto(l.get("volume_rs")) + f'<span class="peq">{n(l.get("negocios"), 0)} negócios</span>'])
+                           "R$ " + compacto(l.get("volume_rs")) + f'<span class="peq">{n(l.get("negocios"), 0)} {"negócio" if l.get("negocios") == 1 else "negócios"}</span>'])
         return tabela(["Papel e emissor", "Taxa do dia", "Sobre o juro real", "Vencimento", "Volume"], linhas, ["", "n", "n", "n", "n"])
 
     meus = rf.get("acompanhados") or []
@@ -1278,7 +1279,7 @@ def _renda_fixa(r: dict) -> str:
                  'sobre o juro real, ou CDI + 5% ou mais. Em volume pequeno o preço pode ser de um negócio isolado.</p>'
                  + tabela(["Papel", "Taxa do dia", "Sobre o juro real", "Volume"], linhas, ["", "n", "n", "n"]) + "</div>")
     if rf.get("emissores_incentivadas"):
-        linhas = [[e(nome_curto(x["emissor"], 36)) + f'<span class="peq">{n(x["papeis"], 0)} {"papel" if x["papeis"] == 1 else "papéis"} · {n(x["negocios"], 0)} negócios</span>',
+        linhas = [[e(nome_curto(x["emissor"], 36)) + f'<span class="peq">{n(x["papeis"], 0)} {"papel" if x["papeis"] == 1 else "papéis"} · {n(x["negocios"], 0)} {"negócio" if x["negocios"] == 1 else "negócios"}</span>',
                    (f'IPCA+ {n(x["taxa_ipca_media"], 2)}%') if x.get("taxa_ipca_media") is not None else "–",
                    (n(x["premio_dap_medio_pb"], 0, True) + " pb") if x.get("premio_dap_medio_pb") is not None else "–",
                    "R$ " + compacto(x.get("volume_rs"))] for x in rf["emissores_incentivadas"][:8]]

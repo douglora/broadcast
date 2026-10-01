@@ -560,6 +560,9 @@ def test_painel_e_autocontido_tem_o_marcador_e_segue_a_paleta_clara():
         assert trecho in h, trecho
     assert "AESLD2" in h and "IPCA+ 7,50%" in h and "Curva de crédito das debêntures incentivadas" in h
     assert "None" not in h and "nan" not in h.lower().replace("financ", "")                 # nenhum buraco vazou para a tela
+    # celular: etiqueta longa quebra dentro do card (em 30/09/2026 as do radar de aluguel alargavam a pagina em 66 px)
+    regra = h.split(".chip{", 1)[1].split("}", 1)[0]
+    assert "max-width:100%" in regra and "nowrap" not in regra
 
 
 def test_painel_parcial_empresta_o_aluguel_do_pregao_anterior_com_a_data_no_card():
