@@ -309,6 +309,36 @@ def test_mesa_boletim_veredito_atual_velho_e_ausente():
     assert not ok and "VELHO (esperado 2026-09-30)" in linha
 
 
+def test_mesa_boletim_parcial_mostra_aluguel_e_opcoes_do_pregao_anterior_com_a_data(capsys):
+    import mesa
+    venc = {"vencimento": "2026-10-16", "dias_uteis": 12, "posicao_call": 100.0, "posicao_put": 80.0, "strikes_call": [[8.3, 60.0]],
+            "strikes_put": [[5.4, 50.0]], "parede_call": {"strike": 8.3, "posicao": 60.0, "distancia_pct": 5.0},
+            "parede_put": {"strike": 5.4, "posicao": 50.0, "distancia_pct": -4.0}, "dor_maxima": 5.5, "dor_maxima_dist_pct": 0.5}
+    ontem = {"pregao": "2026-09-29", "situacao": {"completo": True},
+             "ativos": {"MRVE3": {"aluguel": {"saldo_qtd": 64964248, "saldo_rs": 346998400.0, "pct_free_float": 17.34, "taxa_tomador_media": 12.87},
+                                  "opcoes": {"posicao_call": 100.0, "posicao_put": 80.0, "put_call": 0.8, "vencimentos": [venc]}}},
+             "radar": {"aluguel_total_rs": 171.8e9, "aluguel_float": [{"ativo": "MOVI3", "pct_free_float": 24.4}]},
+             "opcoes_mercado": {"put_call": 0.79, "put_call_volume": 0.64, "por_ativo": [{"ativo": "BBAS3", "call": 398e6, "put": 322e6, "put_call": 0.81}]}}
+    hoje = {"pregao": "2026-09-30", "situacao": {"completo": False}, "sinais": [],
+            "ativos": {"MRVE3": {"nome": "MRV ON", "negocios": {"fechamento": 5.47, "oscilacao_pct": 1.67},
+                                 "opcoes": {"volume_call_rs": 0.9e6, "volume_put_rs": 1.7e6}}},
+            "radar": {"universo": 154, "volume": [{"ativo": "ISAE4", "volume_x_media": 12.4}]}}
+    assert mesa._boletim_ativo("MRVE3", hoje, {}, ontem) == 0
+    tela = capsys.readouterr().out
+    assert "2026-09-29)" + mesa.EMPRESTADO in tela and "17,34" in tela and "12,87% a.a." in tela           # aluguel de ontem, com a data
+    assert "volume do dia (2026-09-30): call R$ 0,9 mi" in tela and "vencimento 2026-10-16" in tela     # volume de hoje, posicao de ontem
+    assert mesa._boletim_opcoes("MRVE3", hoje, {}, ontem) == 0
+    tela = capsys.readouterr().out
+    assert "opcoes de MRVE3 em 2026-09-29" in tela and mesa.EMPRESTADO in tela and "teto (maior call acima do preco): 8,30" in tela
+    assert mesa._boletim_radar(hoje, ontem) == 0
+    tela = capsys.readouterr().out
+    assert "aluguel total R$ 171,8 bi em 2026-09-29" in tela and "ISAE4 12,4x" in tela and "MOVI3 24,4%" in tela and "opcoes de 2026-09-29" in tela
+    # sem o pregao anterior (ou com o pregao completo) nada e emprestado e o aluguel sai como ainda nao publicado
+    assert mesa._boletim_radar(hoje) == 0
+    tela = capsys.readouterr().out
+    assert "aluguel ainda nao publicado pela B3" in tela and mesa.EMPRESTADO not in tela
+
+
 # ------------------------------------------------------------------ renda fixa (boletim/renda_fixa.py)
 
 from boletim import mercado, painel, renda_fixa        # noqa: E402

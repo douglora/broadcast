@@ -1300,8 +1300,14 @@ def veredito_boletim(manifest, resumo, agora=None):
     return "BOLETIM B3: " + " | ".join(partes), atual
 
 
-def _boletim_ativo(tk, resumo, hist):
+EMPRESTADO = "  [POSICAO DO PREGAO ANTERIOR: a B3 publica a deste pregao de madrugada]"
+
+
+def _boletim_ativo(tk, resumo, hist, anterior=None):
+    """`anterior` e o resumo do pregao de antes: na rodada da noite a B3 ainda nao publicou aluguel nem
+    posicoes em aberto, e a leitura mostra os do pregao anterior, com a data."""
     a = (resumo.get("ativos") or {}).get(tk)
+    ant = ((anterior or {}).get("ativos") or {}).get(tk) or {}
     if not a:
         print(f"   {tk} nao esta no livro da B3 (config/livro.yaml). No livro: {', '.join(resumo.get('ativos') or {})}")
         return 1
@@ -1314,17 +1320,24 @@ def _boletim_ativo(tk, resumo, hist):
         print(f"   volume R$ {fmt((g.get('volume_rs') or 0) / 1e6, 1)} mi | {fmt(g.get('negocios'), 0)} negocios | "
               f"media de {g.get('pregoes_na_media', 0)} pregoes R$ {fmt((g.get('volume_media_rs') or 0) / 1e6, 1) if g.get('volume_media_rs') else '-'} mi"
               f" | dia/media {fmt(g.get('volume_x_media'), 2) if g.get('volume_x_media') else '-'}x")
-    g = a.get("aluguel")
+    g, de = a.get("aluguel"), resumo["pregao"]
+    if not g and ant.get("aluguel"):
+        g, de = ant["aluguel"], anterior["pregao"]
     if g:
-        print("-- aluguel de acoes (B3 BTBLendingOpenPosition e BTBLoanBalance)")
+        print(f"-- aluguel de acoes (B3 BTBLendingOpenPosition e BTBLoanBalance, {de})" + ("" if de == resumo["pregao"] else EMPRESTADO))
         print(f"   saldo {fmt((g.get('saldo_qtd') or 0) / 1e6, 2)} mi de acoes (R$ {fmt((g.get('saldo_rs') or 0) / 1e6, 1)} mi)"
               f" | % do free float {fmt(g.get('pct_free_float'), 2)} | pregoes de giro {fmt(g.get('pregoes_para_cobrir'), 1)}")
         print(f"   variacao: dia {fmt(g.get('var_dia_pct'), 2)}% | 5 pregoes {fmt(g.get('var_5d_pct'), 2)}%"
               f" | taxa do tomador {fmt(g.get('taxa_tomador_media'), 2)}% a.a. (max {fmt(g.get('taxa_tomador_max'), 2)}%)")
         print(f"   emprestimos do dia: {fmt(g.get('novos_contratos'), 0)} contratos, {fmt((g.get('novos_qtd') or 0) / 1e6, 2)} mi de acoes")
-    g = a.get("opcoes")
+    g, de = a.get("opcoes"), resumo["pregao"]
+    if g and not g.get("vencimentos"):
+        print(f"-- opcoes, volume do dia ({de}): call R$ {fmt((g.get('volume_call_rs') or 0) / 1e6, 1)} mi, put R$ {fmt((g.get('volume_put_rs') or 0) / 1e6, 1)} mi")
+        g = None
+    if not g and (ant.get("opcoes") or {}).get("vencimentos"):
+        g, de = ant["opcoes"], anterior["pregao"]
     if g:
-        print("-- opcoes (B3 DerivativesOpenPosition + InstrumentsConsolidated)")
+        print(f"-- opcoes (B3 DerivativesOpenPosition + InstrumentsConsolidated, {de})" + ("" if de == resumo["pregao"] else EMPRESTADO))
         print(f"   posicao em aberto: call {fmt(g.get('posicao_call'), 0)} | put {fmt(g.get('posicao_put'), 0)} | put/call {fmt(g.get('put_call'), 2)}"
               f" | volume do dia: call R$ {fmt((g.get('volume_call_rs') or 0) / 1e6, 1)} mi, put R$ {fmt((g.get('volume_put_rs') or 0) / 1e6, 1)} mi")
         for v in g.get("vencimentos") or []:
@@ -1385,13 +1398,22 @@ def _boletim_rf(resumo):
     return 0
 
 
-def _boletim_opcoes(tk, resumo, hist=None):
-    o = ((resumo.get("ativos") or {}).get(tk) or {}).get("opcoes") or (resumo.get("opcoes_extras") or {}).get(tk)
+def _boletim_opcoes(tk, resumo, hist=None, anterior=None):
+    def bloco(r):
+        return ((r.get("ativos") or {}).get(tk) or {}).get("opcoes") or (r.get("opcoes_extras") or {}).get(tk)
+    o, de = bloco(resumo), resumo["pregao"]
+    velho = bloco(anterior) if anterior else None
+    if not (o or {}).get("vencimentos") and (velho or {}).get("vencimentos"):
+        # rodada da noite: a posicao em aberto do pregao ainda nao saiu; vale a do pregao anterior, com a data
+        if o:
+            print(f"\n== opcoes de {tk}, volume de {de}: call R$ {fmt((o.get('volume_call_rs') or 0) / 1e6, 1)} mi | put R$ {fmt((o.get('volume_put_rs') or 0) / 1e6, 1)} mi"
+                  f" | fechamento do ativo {fmt(((resumo.get('ativos') or {}).get(tk) or {}).get('negocios', {}).get('fechamento'), 2)}")
+        o, de = velho, anterior["pregao"]
     if not o:
         print(f"   sem opcoes de {tk} no resumo. Disponiveis: "
               + ", ".join([k for k, a in (resumo.get('ativos') or {}).items() if a.get('opcoes')] + list(resumo.get('opcoes_extras') or {})))
         return 1
-    print(f"\n== opcoes de {tk} em {resumo['pregao']} (B3 DerivativesOpenPosition + InstrumentsConsolidated + negocios)")
+    print(f"\n== opcoes de {tk} em {de} (B3 DerivativesOpenPosition + InstrumentsConsolidated + negocios)" + ("" if de == resumo["pregao"] else EMPRESTADO))
     print(f"   preco {fmt(o.get('preco'), 2)} | posicao: call {fmt(o.get('posicao_call'), 0)} put {fmt(o.get('posicao_put'), 0)}"
           f" | put/call {fmt(o.get('put_call'), 2)} (anterior {fmt(o.get('put_call_anterior'), 2)})"
           f" | a descoberto: call {fmt(o.get('descoberta_call_pct'), 0)}% put {fmt(o.get('descoberta_put_pct'), 0)}%")
@@ -1450,19 +1472,36 @@ def _boletim_fluxo(hist):
     return 0
 
 
-def _boletim_radar(resumo):
+def _boletim_radar(resumo, anterior=None):
     rad, om, corr = resumo.get("radar") or {}, resumo.get("opcoes_mercado") or {}, resumo.get("aluguel_corretoras") or {}
+    velho = anterior or {}
+    # rodada da noite: aluguel e posicoes em aberto do pregao ainda nao sairam; valem os do pregao anterior, com a data
+    alug, de_alug = rad, resumo["pregao"]
+    if not rad.get("aluguel_total_rs") and (velho.get("radar") or {}).get("aluguel_total_rs"):
+        alug, de_alug = velho["radar"], velho["pregao"]
+    if not om.get("por_ativo") and (velho.get("opcoes_mercado") or {}).get("por_ativo"):
+        om, de_om = velho["opcoes_mercado"], velho["pregao"]
+    else:
+        de_om = resumo["pregao"]
+    total = (f"aluguel total R$ {fmt(alug['aluguel_total_rs'] / 1e9, 1)} bi em {de_alug}" if alug.get("aluguel_total_rs")
+             else "aluguel ainda nao publicado pela B3")
     print(f"\n== radar do mercado em {resumo['pregao']}: universo {rad.get('universo')} ({rad.get('fonte_universo')}),"
-          f" {rad.get('pregoes_no_historico')} pregoes de historico; aluguel total R$ {fmt((rad.get('aluguel_total_rs') or 0) / 1e9, 1)} bi")
-    campos = (("volume", "volume fora do padrao", "volume_x_media", "x"), ("aluguel_float", "mais alugadas (% das acoes)", "pct_free_float", "%"),
+          f" {rad.get('pregoes_no_historico')} pregoes de historico; {total}")
+    if rad.get("volume"):
+        print("-- volume fora do padrao: " + ", ".join(f"{l['ativo']} {fmt(l.get('volume_x_media'), 1)}x" for l in rad["volume"]))
+    campos = (("aluguel_float", "mais alugadas (% das acoes)", "pct_free_float", "%"),
               ("aluguel_taxa", "aluguel mais caro (% a.a.)", "taxa", "%"), ("aluguel_alta", "saldo alugado que mais subiu no dia", "aluguel_var_dia_pct", "%"),
               ("aluguel_queda", "saldo alugado que mais caiu no dia", "aluguel_var_dia_pct", "%"),
               ("vendidos_pressionados", "vendidos sob pressao (preco em 5 pregoes)", "preco_5d_pct", "%"),
               ("aposta_vendida_crescendo", "aposta vendida crescendo (aluguel em 5 pregoes)", "aluguel_var_5d_pct", "%"))
+    if de_alug != resumo["pregao"]:
+        print(f"-- aluguel de {de_alug}" + EMPRESTADO)
     for chave, titulo, campo, un in campos:
-        if rad.get(chave):
-            print(f"-- {titulo}: " + ", ".join(f"{l['ativo']} {fmt(l.get(campo), 1)}{un}" for l in rad[chave]))
+        if alug.get(chave):
+            print(f"-- {titulo}: " + ", ".join(f"{l['ativo']} {fmt(l.get(campo), 1)}{un}" for l in alug[chave]))
     if om.get("por_ativo"):
+        if de_om != resumo["pregao"]:
+            print(f"-- opcoes de {de_om}" + EMPRESTADO)
         print(f"-- opcoes: put/call do mercado {fmt(om.get('put_call'), 2)} na posicao e {fmt(om.get('put_call_volume'), 2)} no volume")
         print("   por ativo (call mi / put mi / put-call): " + "; ".join(
             f"{a['ativo']} {fmt(a['call'] / 1e6, 0)}/{fmt(a['put'] / 1e6, 0)}/{fmt(a.get('put_call'), 2)}" for a in om["por_ativo"]))
@@ -1488,6 +1527,13 @@ def boletim(args):
     print(linha)
     if not resumo:
         return 1
+
+    def anterior():
+        """Resumo do pregao anterior, so quando este e parcial (aluguel e posicoes em aberto ainda nao sairam)."""
+        if resumo["situacao"]["completo"]:
+            return None
+        antes = [d for d in sorted((baixar("boletim_b3/historico.json") or {}).get("pregoes") or {}) if d < pregao]
+        return baixar(f"boletim_b3/{antes[-1]}/resumo.json") if antes else None
     if sub == "sinais":
         for s in resumo.get("sinais") or []:
             print(f"- [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  (B3 {s['fonte']}, {s['data']})")
@@ -1524,11 +1570,11 @@ def boletim(args):
     elif sub == "rf":
         return _boletim_rf(resumo) or (0 if ok else 1)
     elif sub == "opcoes" and len(args) >= 2:
-        return _boletim_opcoes(args[1].upper(), resumo, baixar("boletim_b3/historico.json")) or (0 if ok else 1)
+        return _boletim_opcoes(args[1].upper(), resumo, baixar("boletim_b3/historico.json"), anterior()) or (0 if ok else 1)
     elif sub == "fluxo":
         return _boletim_fluxo(baixar("boletim_b3/historico.json")) or (0 if ok else 1)
     elif sub == "radar":
-        return _boletim_radar(resumo) or (0 if ok else 1)
+        return _boletim_radar(resumo, anterior()) or (0 if ok else 1)
     elif sub == "json":
         if len(args) >= 2 and args[1] in resumo:
             print(json.dumps(resumo[args[1]], ensure_ascii=False, indent=1))
@@ -1539,7 +1585,7 @@ def boletim(args):
         print("   ou: git show origin/dados:boletim_b3/painel.html > painel.html")
         print("   troque [[LEITURA_DA_MESA]] pela leitura e republique no Artifact do boletim: https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc")
     elif sub and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) and sub != "--data":
-        return _boletim_ativo(sub.upper(), resumo, baixar("boletim_b3/historico.json")) or (0 if ok else 1)
+        return _boletim_ativo(sub.upper(), resumo, baixar("boletim_b3/historico.json"), anterior()) or (0 if ok else 1)
     else:
         print()
         print(baixar(f"boletim_b3/{pregao}/resumo.md", texto=True) or "!! resumo.md ausente")

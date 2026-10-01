@@ -33,7 +33,9 @@ evidencia, em portugues do Brasil, e (3) republicar o painel no Artifact.
   noticia: entra so se mudou de tamanho ou se sustenta a tese do dia.
 - PARCIAL nao e erro: a rodada da noite nao tem aluguel nem posicoes em aberto, que a
   B3 publica de madrugada. Diga "parcial, falta X" na primeira linha. Nunca escreva o
-  aluguel de D-1 como se fosse de D.
+  aluguel de D-1 como se fosse de D. Na rodada parcial, `mesa.py boletim TICKER`,
+  `boletim opcoes TICKER` e `boletim radar` mostram a posicao do pregao anterior com a
+  marca `[POSICAO DO PREGAO ANTERIOR ...]` e a data: cite com essa data.
 - Renda fixa do pregao corrente e PRELIMINAR ate a B3 ajustar o balcao (perto do meio-dia
   de D+1): o resumo traz `renda_fixa.preliminar` e a fonte dos sinais diz "(preliminar)".
   Diga isso sempre que citar taxa ou volume do dia. Taxa de papel com volume pequeno pode

@@ -79,7 +79,7 @@ anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 | `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron comentado |
 | `mesa.py boletim` | Leitura na sessao: veredito, resumo, ativo, sinais, rf, opcoes, radar, status, tabela, json, painel |
 | `.claude/skills/boletim-b3/SKILL.md` | Regras da leitura, procedimento do turno, receita do painel e texto da Routine |
-| `tests/test_boletim.py` | 42 testes sem rede |
+| `tests/test_boletim.py` | 43 testes sem rede |
 
 Saida no branch `dados`: ver o cabecalho de `boletim_b3.py`.
 
