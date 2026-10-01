@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Mostra as opções de compra mais negociadas, indicando as ações com maior interesse dos investidores."],
  "situacao": "republicado",
- "atualizado_em": "2026-09-30T23:10:34.247",
+ "atualizado_em": "2026-10-01T00:42:26.583",
  "truncada": false,
  "linhas": [
   ["IBOVK185", "2026-11-18", 185000, 34418.0925, 2.738569870254796],

@@ -2,7 +2,7 @@
  "pregao": "2026-09-30",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-01T00:35:38.117",
+ "atualizado_em": "2026-10-01T00:42:49.89",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T00:35:38.117",
+   "atualizado_em": "2026-10-01T00:45:38.11",
    "arquivo": "BDI_02_20260930.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02_20260930.pdf"
   },
@@ -52,9 +52,9 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-09-30T23:40:38.007",
+   "atualizado_em": "2026-10-01T00:45:38.11",
    "arquivo": "BDI_02-3_20260930.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02-3_20260930.pdf"
   },
@@ -94,7 +94,7 @@
    "pai": 4,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-01T00:32:27.643",
+   "atualizado_em": "2026-10-01T00:42:13.05",
    "arquivo": "",
    "pdf": ""
   },
