@@ -1,8 +1,36 @@
-NOTÍCIAS E FATOS · 01/10 16h22
+NOTÍCIAS E FATOS · 01/10 17h22
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 435 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 439 veículo fora da lista, 43 sem ativo, 3 teto) · cvm ok 1 novos de 11 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (20)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 01/10/2026 17:09 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573328
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 01/10
+id: E03-AXIA3-1573328-2026-10-01 · status: linha
+
+
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · MU · Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips, SK Hynix Drifts
+Yahoo Finance · 01/10 11h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – -       The Roundhill Memory ETF gained 0.4% even as Micron and Western Digital sold off, keeping the broader memory sector nearly flat.
+  – -       JPMorgan's Harlan Sur called it a decisive beat-and-raise, with Micron's 268% year-to-date run explaining why a strong quarter still triggers sellers.
+  – Micron shares are down 3% to $1,034.34 this morning, a quiet but telling reaction to a report that topped forecasts.
+  – Meanwhile, Western Digital (NASDAQ:WDC) stock is sliding 2% to $447.50, moving lower alongside Micron stock.
+  – SK Hynix (NASDAQ:SKHY) shares are nearly unchanged at $183.73.
+  – The Roundhill Memory ETF (CBOE:DRAM) is down 1% to $59.89, holding comparatively steady despite the drop in Micron stock.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-slips-3-despite-record-141636340.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 11h16
+id: E05-MU-9341a20a71-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Agenda de empresas: Cade aprova compra de fatia do Assaí; Petrobras recebe parcela de subvenção
 Valor Economico · 01/10 08h27 · fonte única · licença: resumo
@@ -18,7 +46,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: PETR4
 Como falar: 'saiu no Valor Economico: Agenda de empresas: Cade aprova compra de fatia do Assaí; Petrobras recebe parcela de sub…; confirmar o número no texto antes de repassar'
 Fonte: Valor Economico 01/10 08h27
-id: E05-PETR4-725f496aff-2026-10-01 · status: pendente
+id: E05-PETR4-725f496aff-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · BABA · SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 5, 2026 in Alibaba Group Holding Limited Lawsuit - BABA
 TradingView (Reuters) · 01/10 11h09 · fonte única · licença: manchete
@@ -27,7 +55,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no TradingView (Reuters): SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 5, 2026 in Alibaba…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 01/10 11h09
-id: E05-BABA-7c2c141fcd-2026-10-01 · status: pendente
+id: E05-BABA-7c2c141fcd-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · DI · Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona
 Estadao · 30/09 21h42 · fonte única · licença: manchete
@@ -36,7 +64,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Estadao: Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Seli…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 30/09 21h42
-id: E05-DI-1f7f27404b-2026-10-01 · status: pendente
+id: E05-DI-1f7f27404b-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
 TradingView (Reuters) · 01/10 14h51 · fonte única · licença: manchete
@@ -244,8 +272,20 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (132)
+## OUTRAS NOTÍCIAS (só manchete) (144)
 
+· USDBRL Dólar à vista fecha em alta de 0,97%, a R$5,2239 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/01/dolar-a-vista-fecha-em-alta-de-097-a-r52239-na-venda.htm
+· USDBRL Dólar sobe a R$ 5,22 com aversão a risco global e eleições em foco (Money Times) https://www.moneytimes.com.br/dolar-1-10-26-lils/
+· PLTR Andy Burnham searches for UK alternative to Palantir (Financial Times) https://www.ft.com/content/9a6e17fe-55e4-4a6d-8761-8346ec765ba9?syn-25a6b1a6=1
+· VALE3 Vale sobe hoje, mas acumula perdas em 2026; veja o o que pressiona as ações (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/vale-sobe-hoje-mas-acumula-perdas-em-2026-veja-o-o-que-pressiona-as-acoes/
+· PETR4 Tempo real: Ibovespa acompanha melhora externa e firma alta com Petrobras (PETR4); dólar sobe e supera R$ 5,20 (Money Times) https://www.moneytimes.com.br/tempo-real-1-10-26-apsa-lils/
+· MU Micron Is Keeping Shareholders Happy (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMigwFBVV95cUxPYm9Ha1FCMnBlVnM5MnJNX1dYTzRWeTVQeW9UNE5iUUh3WGxZZEhiOGpzLThmWGlQSUs3ZVFnTkR1VVRZMUsyYURUQWhWMjBYTUZCT2JUcEJFVGdETnB3d21Gc3lpVk4xVFFSbXc2Vlk0T3M3aF9mSURxV1B3enNwVWFhSQ?oc=5
+· MU Stock Market Today: S&P 500 Slips as Micron Fails to Impress, 10-Year Yields Ease to 5.25% (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYVFPYkQ0SFN6S3M1SE5uck5GQUdCendQcGdKOFJwb2VTUnNGYTBhWk52MDA2cWNHVEg4VjBrZER6VWNjTTNNZ2M0ak1yeTBNZ3JwM1h5V0lOLXJUdzlsNEEtTlo3S2x5UVJKdWczZWlLQzJXaHJQbGhOTTRabEk1em96dE43eE5mTVA4eFZ2LUNVTWV5M19tNHNwN2JZdDViZlhmQkE2SjJ3R3NBOFNzcmJrTWQtaUpNcG4tM2hENWlsaGkzYm01bjRacktrMFhONC1SMEJrM3Z3clZsMGc0?oc=5
+· MU Analysts Double Down on Micron Stock After Earnings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMisAFBVV95cUxPTkFiejN0WnhQb05wVDhxMmZxb0FGOVFoZTdDRGFpVTNoMGtiZjZ4M203VnNDZkY2TUphRjlSd3pTU2M0dVZsUy0tNG9VUUl1eUZlMkg5RnhoUXktS3QtTHFzekR0Z0lxRHg1VHBLenlOQmpKcVJvcjhPSVhqaXVORzdNQzFNbEllTG9jeFFtNWlFTzkzaUZFRThjYkF3dGduUk1PNnBjdTNOb2Y2c2o3MA?oc=5
+· GOOGL Trump Sends Strong Signal on Google's New Gemini Model (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxON04zUTRYOTVmbTc1NFhNUXotU1p5d2JYckJIUHR3cko3UU5VR0ZRekZIZHdxSXRBU3Q0TkVlUnE0Y1FtS212RG1icmhOLVlFbEJiV3hQczdTdy1tb2h2QjdNUlFac2Z5TlBSbk5GQl9COHNmeFY0YldGUUxPTzlEOWw1d3ZHdEVVbUd1WXJKSkVZc3lHVVU5WmJmTFM4ZXVEOHpJQW9tSC1TLWdwSHo3MlluVXc?oc=5
+· BRENT Bolsa reage e dólar sobe a R$ 5,23 influenciados por eleições e petróleo (UOL Economia) https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmJlQ3JqNzBicG8wbVItTkJtQVRaZDNOUFUxN21zRzVITEFUeUJOYVBFaUE5Vk52aXNtWXJTeFV5aGI4V1BnTjdzRWk3UXlKcXg5UHVoQ2Q5RnhaNTNaTkpxdm1VNDNzTUk5b3NKdnVWTVBXaERpWmRaNFdmUVFjeTRGb3lsZjZHRkw1eDE3cFZxMTlETWplS004MjYxMjc4eXh2N2Vac2hSd0NzS052aVFn?oc=5
+· USDBRL Dólar hoje sobe mais de 1% e ultrapassa R$ 5,20 por cautela com Treasuries (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmJ2bUNIWXJxWmoxcWRKMW9laDU5akNjM2RHY1pRdmRmdUtfemdyZWphaTBpZWtlRy1zWE5oWXZ6aGRwd243Z1RTU09Qd1BoeEVidVNCRC13MnhxaG1EMlZTWmpKeDJIX3JLOXpocXE2LXl6d2hoSEl2UzdLV3RTTWdrbUgzRnR0SzNBNWtVZEJzT1VVZWw0UjBNcnLSAaIBQVVfeXFMUHB2MjRkdHJIczJRQVE1SFg3RzBBV0FkZW9HRUNqZDR5ZjZWNTR3Vlc0aUJ5WnBPcmtmaHlES2JrTzQ4cERJdVkzbm9Yand4RHgyNUxkaWNDNkVFNWlWQUU2T3VRV1lYcEtZNWtMRXg1YW9uUWZ1Qi1uQ0JuZDI1Sy0yYTN4U1ZORzZtSFFuLXNnTjBVZFJBU1FTbmpNaTB5TDB3?oc=5
+· TSLA Tesla’s delivery report is just around the corner. Expect a sales drop. (MarketWatch) https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGhjTXpHNVZUcW5kUzVkcmJrM0QzUzBJUXpxUDB0OFdWM1IxX0dNd0IyQlRRcmVEcGRCeTRvRTFrcFhUckRBLVNmMnlyZUZ4M2d6NkhCVUNkOU1GUGpkYUVOakt0Vk93QThfc1htaEdEZXZfSThqOW5wT2RFN0pjZlJyU2tTenh1eHIzUDQyaHpzLW9USnktZG1GX042QUdmS0RDQVpwY20wZjBheThnYQ?oc=5
 · COHR Why is Coherent stock surging today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-4928152
 · ITUB4 'Vou bater muito': Conversas de Vorcaro com publicitário mostram orquestração de ataques midiáticos contra o Itaú (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/01/conversas-de-vorcaro-com-publicitrio-mostram-orquestrao-de-ataques-miditicos-contra-o-ita.ghtml
 · BTC Bitcoin could repeat a 400% rally, analyst spots familiar cycle pattern (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-could-repeat-400-rally-185624964.html
@@ -294,16 +334,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/citi-hikes-bitcoin-ethereum-price-164116897.html
 · MU Micron Revenue Surges 379%: 4 Top AI Chip Stocks (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4951414-micron-revenue-surges-379-percent-4-top-ai-chip-stocks
 · UST Global bond rout deepens, pushes US Treasury yields to 24-year peak (Reuters) https://www.reuters.com/business/bonds-teeter-after-us-treasuries-worst-quarter-since-1994-2026-10-01/
-· TSLA Tesla’s delivery report is just around the corner. Expect a sales drop. (MarketWatch) https://www.marketwatch.com/story/teslas-delivery-report-is-just-around-the-corner-expect-a-sales-drop-45d5503b
-· AMZN Amazon Inks $1B SNPS Deal to Power AWS Custom Chips: Should You Hold? (Yahoo Finance) https://au.finance.yahoo.com/news/amazon-inks-1b-snps-deal-153700037.html
-· PETR4 Petrobras (PETR4) eleva preço do querosene de aviação em 11% em em outubro (Money Times) https://www.moneytimes.com.br/petrobras-petr4-eleva-preco-do-querosene-de-aviacao-em-11-em-em-outubro-lils/
-· CVX Will Chevron (CVX) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-beat-estimates-again-151003072.html
-· KO Why Coca-Cola (KO) is Poised to Beat Earnings Estimates Again (Yahoo Finance) https://au.finance.yahoo.com/news/why-coca-cola-ko-poised-151003573.html
-· JPM Will JPMorgan Chase & Co. (JPM) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMigAFBVV95cUxPa2lkOXdablFkU01vV040TVpsUGxIV1VNQ2hDN0FfUjNPUTA4UWY1ZmNyeElDR1lWRndPSjBFRm5KZ2g1OW1zeXYtdTVXa3pSLWgtWi0yb01KMzRidVg3eUhuR3Q4Y1BVMWRSMXN0bHUtZ05VV1RORUp0TmdLNUQxSQ?oc=5
-· UST Wall Street dips as surging Treasury yields outweigh software gains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
-· BTC Bitcoin Whales Dump $2.52B, ETH Whales Buy $162M: What About XRP? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU3lkbFNGRVpwOHhNdmlOWHEzdjFwRHZFZ3lFWkw2X2E2djRSUTlIcDByQzlEWHd6bWJ4NnhOV0tHM2pnSmwtVnJkb1JlU3FOZi1ia0FraWtEYmdzZ2tELS1waTF0bk9zcW1qUkRHakVMNWxoSWZod0dEQVkzUWc1SUFOVWhCVF9TZVRlRmxEYlNSOURjQXRiNWEwRUZhZERuS0VXWUwwd2R4bTZEa3J1ODU2Q3BiWHZVS1JB?oc=5
-· USDBRL Dólar avança e Bolsa cai antes de nova pesquisa Datafolha e com alta dos Treasuries (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
-· USDBRL Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman (Bloomberg Linea) https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGdTRXVWTEcxU0xCaE5mX2tpLU9hcVpSZFpWWXc0aE1MVDVSMUpDNi0zeUhyQXhnN1ZRd25KV25MY0gxbjVvTnU4ZFhjR1NaTkR5empiNmcxTlllSzd6WmJqcDJ1X19SX1h4aGxUdFk4NTFuVXYzOEQ0Ukw1WU9CRXJsLUJZbjRiWTBXd3BETEJ2ak9JbXBOMjFUSVdTMW1xa2N1ZTJlZW5aUDJKbTRydTFBN3NYeUJiM2FNU1M3c2JUU2fSAdcBQVVfeXFMT09TWlJDU0VFMFZnQnZoV0JpcVN5VDZUbHF0SnltQ1JwSl95Z1RVeHlsdU9zdEZjMDBZTmZKUnZJNW5UR3NlcXk3T1pFQ1ByV1p3RGdDUVhtWVlpT0xxajJfamFTTk1TQURlRHVSNXI5WmVibE5XdWNrZVlPM1dBVE1GZlhnX2VibGhOZ3I5dGctTWZPNzl1dllpR0tua0paVFZ4VDlIWE5Yc2Q4RVdfWThhRXA1NTlnblMzYkw5dnYxWVhpRDhrRXZMQVlweWZjUEdBaGk4dDg?oc=5
-· JPM REG - JPMorgan China G&I - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-10-01:newsml_RSA2979Xa:0-reg-jpmorgan-china-g-i-dividend-declaration/
-· USDBRL Dólar hoje sobe mais de 1% e ultrapassa R$ 5,20 por cautela com Treasuries (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-01102026/
-· (+72 manchetes; lista completa em eventos/noticias.json)
+· (+84 manchetes; lista completa em eventos/noticias.json)
