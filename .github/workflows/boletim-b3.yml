@@ -31,20 +31,15 @@ on:
         required: false
         default: false
         type: boolean
-  # AGENDAMENTO DESLIGADO ate o Douglas confirmar. Para ligar, tire o comentario das tres
-  # linhas abaixo (o GitHub so registra o agendamento a partir de um push na main que mexa
-  # neste arquivo). UTC: 00h40 = 21h40 BRT do pregao; 11h35 = 08h35 BRT do dia seguinte.
-  # Terca a sabado em UTC porque 00h40 UTC de terca e a noite de segunda em Brasilia.
-  # schedule:
-  #   - cron: "40 0 * * 2-6"
-  #   - cron: "35 11 * * 2-6"
-  push:
-    branches: [claude/magical-hopper-18a6sh]
-    paths:
-      - "boletim_b3.py"
-      - "boletim/**"
-      - "config/boletim.yaml"
-      - ".github/workflows/boletim-b3.yml"
+  # Agendamento ligado em 01/10/2026, com o ok do Douglas. O GitHub so agenda a partir da main.
+  # UTC: 00h40 = 21h40 BRT do pregao; 11h35 = 08h35 BRT do dia seguinte. Terca a sabado em UTC
+  # porque 00h40 UTC de terca e a noite de segunda em Brasilia; a rodada da manha de sabado
+  # completa o pregao de sexta. Feriado da B3 nao gasta nada: a rodada so refaz os 2 ultimos
+  # pregoes, que ja estao la. O cron do GitHub atrasa de vez em quando: a Routine da sessao
+  # (21h50 e 08h50 BRT) confere o frescor e dispara esta rodada se ela nao tiver acontecido.
+  schedule:
+    - cron: "40 0 * * 2-6"
+    - cron: "35 11 * * 2-6"
 
 permissions:
   contents: write

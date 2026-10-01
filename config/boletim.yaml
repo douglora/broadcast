@@ -60,7 +60,9 @@ opcoes_extras: [IBOV11, BOVA11]
 # Renda fixa de balcao: so o que o Douglas opera (debentures incentivadas, CRI e CRA)
 renda_fixa:
   # papeis acompanhados pelo codigo IF (ex.: [AESLD2, VLIM29]); aparecem mesmo fora dos mais negociados
-  papeis: []
+  # 01/10/2026: Equatorial Goias com vencimento em 2036 (CGOS16, 6a emissao, 15/05/2036; CGOS28, 8a emissao,
+  # 2a serie, 15/09/2036). O Douglas comprou uma delas para cliente a IPCA+8,40%; as duas ficam ate ele dizer qual.
+  papeis: [CGOS16, CGOS28]
   # quantos papeis por classe na tabela dos mais negociados
   top: 20
   # abaixo deste volume no dia a taxa media do papel nao entra na curva nem no premio medio

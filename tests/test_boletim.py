@@ -279,10 +279,11 @@ def test_workflow_nunca_manda_pdf_para_o_branch_dados():
     assert "path: pdf_artefato" in txt and "':!boletim_b3/**/*.pdf'" in txt
 
 
-def test_agendamento_quando_ligado_e_noite_do_pregao_e_manha_seguinte():
+def test_agendamento_e_noite_do_pregao_e_manha_seguinte_e_nao_ha_gatilho_de_push():
     _, gatilhos = _workflow()
     crons = [c["cron"] for c in gatilhos.get("schedule") or []]
-    assert crons in ([], ["40 0 * * 2-6", "35 11 * * 2-6"]), crons
+    assert crons == ["40 0 * * 2-6", "35 11 * * 2-6"], crons          # 21h40 BRT do pregao e 08h35 BRT do dia seguinte
+    assert "push" not in gatilhos and "workflow_dispatch" in gatilhos   # em producao so o relogio e o disparo manual
 
 
 def test_pregao_padrao_e_o_ultimo_fechado():

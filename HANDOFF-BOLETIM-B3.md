@@ -1,7 +1,7 @@
 # HANDOFF - Agente do Boletim Diario do Mercado (B3)
 
-Atualizado em 01/10/2026, na sessao do notebook (internet aberta). Branch:
-`claude/magical-hopper-18a6sh` (repositorio douglora/broadcast). Substitui o handoff
+Atualizado em 01/10/2026, na sessao do notebook (internet aberta). Codigo na `main` do
+repositorio douglora/broadcast (desenvolvido no branch `claude/magical-hopper-18a6sh`). Substitui o handoff
 anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 
 ## 1. O pedido do Douglas
@@ -76,7 +76,7 @@ anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 | `boletim/painel.py` | `painel.html`: a pagina do Artifact (formato branco e azul, graficos em SVG, sem biblioteca externa) |
 | `boletim_b3.py` | Entrada: `--saida --data --dias (numero ou auto) --series --pdf --so-painel`. Um pregao leva cerca de um minuto |
 | `config/boletim.yaml` | Grupos do livro, futuros, indices, carteiras, paridades, opcoes extras, renda fixa, radar e limiares |
-| `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron comentado |
+| `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron ligado: 21h40 e 08h35 BRT |
 | `mesa.py boletim` | Leitura na sessao: veredito, resumo, ativo, sinais, rf, opcoes, radar, status, tabela, json, painel |
 | `.claude/skills/boletim-b3/SKILL.md` | Regras da leitura, procedimento do turno, receita do painel e texto da Routine |
 | `tests/test_boletim.py` | 43 testes sem rede |
@@ -90,23 +90,28 @@ Validado em producao (branch de desenvolvimento, gatilho de push): a rodada 3680
 21 pregoes em 9 minutos no Actions, sem falha (cerca de 25 segundos por pregao; no notebook leva um
 minuto e a rede cai mais). As rodadas seguintes, de 2 pregoes, levam um minuto e meio.
 
-## 4. Pendente (precisa do Douglas)
+## 4. Em producao desde 01/10/2026 (com o ok do Douglas) e o que ainda depende dele
 
-0. **Ate a main receber o codigo**, o disparo manual funciona no branch de desenvolvimento
-   (testado em 01/10, run 36812214611): `gh workflow run boletim-b3.yml --ref
-   claude/magical-hopper-18a6sh -f dias=auto`, ou `actions_run_trigger` com esse `ref`. O merge
-   com a main esta limpo (a main andou 2 commits, em `ferramentas/etf/`, sem conflito).
-1. **Levar para a main e ligar o cron.** Tirar o comentario do bloco `schedule` em
-   `boletim-b3.yml` (00h40 e 11h35 UTC, terca a sabado) e tirar o gatilho de push do
-   branch de desenvolvimento. Ele pediu para ser consultado antes.
-2. **Routine.** Dois turnos na sessao: 21h50 BRT e 08h50 BRT do dia seguinte. O texto do
-   turno e a receita de republicar o painel estao na skill.
+Feito em 01/10/2026, depois de ele escrever "pode levar pra main, ligar o cron e criar a routine":
+
+- **Main e cron.** O codigo esta na main e o agendamento do `boletim-b3.yml` esta ligado: 00h40 UTC
+  (21h40 BRT do pregao) e 11h35 UTC (08h35 BRT do dia seguinte), de terca a sabado em UTC. O gatilho
+  de push do branch de desenvolvimento saiu; sobram o relogio e o disparo manual
+  (`gh workflow run boletim-b3.yml --ref main -f dias=auto`, ou `actions_run_trigger` com `ref: main`).
+- **Routine.** Dois turnos por pregao, 21h50 BRT e 08h50 BRT do dia seguinte; nomes, ids e o texto
+  do turno estao na secao "Routine" da skill `boletim-b3`.
+- **Papeis acompanhados.** `config/boletim.yaml > renda_fixa > papeis` tem CGOS16 e CGOS28
+  (Equatorial Goias, vencimento em 2036): ele comprou uma delas para cliente em 01/10 a IPCA+8,40%.
+  Falta ele dizer qual das duas e passar o resto da prateleira.
+
+Ainda depende dele:
+
 3. **Limpar o branch `dados`.** A rodada do coletor antigo (run 36800131287) gravou 195 MB
    de PDF e texto em `boletim_b3/<data>/pdf/`, `arquivos/` e `descoberta/`. O coletor novo
    nao escreve nessas pastas. Apagar e decisao dele; tirar do historico exige reescrever
    o branch.
-4. **Papeis de renda fixa acompanhados.** `config/boletim.yaml > renda_fixa > papeis`
-   esta vazio: se ele passar os codigos da prateleira, entram numa tabela propria.
+4. **Resto da prateleira de renda fixa.** Os demais codigos que ele acompanha entram em
+   `config/boletim.yaml > renda_fixa > papeis` e ganham linha propria no painel.
 
 ## 5. Ideias que a validacao abriu (fora do escopo atual)
 
