@@ -164,22 +164,73 @@ io.open("/tmp/boletim/painel_pub.html", "w", encoding="utf-8").write(h.replace("
 PY
 ```
 
-Publicar com a ferramenta `Artifact`, passando `url` (a de cima) e
+Publicar com a ferramenta `Artifact` em dois passos: primeiro `action: read` com a `url`
+de cima (a ferramenta recusa atualizar um artefato que a conversa ainda nao leu nem
+publicou), depois publicar passando a mesma `url` e
 `file_path: /tmp/boletim/painel_pub.html`; sem `icon` (o Artifact ja tem o dele). Nao
 edite o painel a mao alem da troca do marcador: numero errado se corrige no runner.
 A Leitura da Mesa do painel e a mesma da resposta: sem "compre/venda", com a data de
 cada numero que nao for do pregao, e dizendo "parcial" quando for.
 
-## Routine
+## Routine (ligada em 01/10/2026, com o ok do Douglas)
 
-Dois turnos por pregao, minutos depois dos crons do workflow (`boletim-b3.yml`):
+Dois turnos por pregao, dez a quinze minutos depois dos crons do workflow
+(`boletim-b3.yml`). Cada turno e uma sessao nova na nuvem, clonada da `main`: a skill e o
+`mesa.py` valem sempre na versao mais recente, e a sessao nao guarda memoria do turno
+anterior (o que ficou para conferir esta na Leitura da Mesa do painel publicado).
 
-- 21h50 BRT, dias uteis: leitura parcial (negocios, fluxo, indices, futuros, renda
-  fixa, ETFs). O painel mostra aluguel e opcoes do pregao anterior, com a data no card.
-- 08h50 BRT do dia seguinte: leitura completa (aluguel, corretoras, opcoes, posicoes
-  em aberto, ADR).
+| Routine | Quando (BRT) | Cron | O que encontra |
+|---|---|---|---|
+| `boletim-b3-noite` | 21h50, segunda a sexta | `CRON_TZ=America/Sao_Paulo 50 21 * * 1-5` | rodada das 21h40: pregao de hoje, PARCIAL |
+| `boletim-b3-manha` | 08h50, terca a sabado | `CRON_TZ=America/Sao_Paulo 50 8 * * 2-6` | rodada das 08h35: pregao de ontem, COMPLETO |
 
-Texto do turno: "Boletim da B3: use a skill boletim-b3. Rode python3 mesa.py skills e
-python3 mesa.py boletim, confira frescor e completude, dispare boletim-b3.yml se estiver
-velho, escreva a Leitura da Mesa e republique o painel no Artifact do boletim. Dia sem
-sinal novo e uma linha, mas o painel e republicado mesmo assim."
+O cron do Actions e o caminho principal: grava no branch `dados` sem depender de sessao.
+A Routine acorda depois, confere e, na maioria dos dias, so le. **Disparar o workflow e o
+plano B**, para quando o cron do GitHub atrasar ou falhar.
+
+### Turno da noite (21h50 BRT)
+
+1. `python3 mesa.py skills` e `python3 mesa.py boletim`. A primeira linha tem de dizer o
+   pregao de HOJE e ATUAL. PARCIAL e o normal: aluguel, posicoes em aberto e opcoes saem
+   de madrugada.
+2. VELHO ou AUSENTE: disparo (passo 3 do procedimento) e espera. Hoje nao teve pregao
+   (feriado da B3): uma linha dizendo isso, sem republicar.
+3. `mesa.py boletim sinais`, `boletim rf`, `boletim radar`; para o que foi noticia,
+   `boletim TICKER` e `boletim opcoes TICKER`. Aluguel e opcoes vem do pregao anterior,
+   marcados `[POSICAO DO PREGAO ANTERIOR ...]`: cite com essa data.
+4. Leitura da Mesa em 5 paragrafos: **Em uma frase**; **O livro**; **Posicoes de DD/MM e
+   fluxo**; **Credito (preliminar)**; **O que conferir na edicao da manha**. Republique o
+   painel.
+
+### Turno da manha (08h50 BRT)
+
+1. `python3 mesa.py skills` e `python3 mesa.py boletim`. A primeira linha tem de dizer o
+   ULTIMO pregao e COMPLETO.
+2. PARCIAL depois das 09h00: disparo e espera; se continuar, `boletim status` e diga qual
+   tabela a B3 nao publicou. Ontem nao teve pregao: uma linha, sem republicar.
+3. Leia no painel publicado (`Artifact`, `action: read`) o paragrafo "O que conferir na
+   edicao da manha" da noite anterior e responda a cada item com o dado de hoje
+   (`boletim TICKER`, `boletim opcoes TICKER`, `boletim radar`, `boletim fluxo`).
+4. Leitura da Mesa em 5 paragrafos: **Em uma frase**; **Aluguel**; **Opcoes e futuros**;
+   **Credito** (o pregao de ontem segue preliminar ate perto do meio-dia; os papeis da
+   lista `renda_fixa.papeis` entram aqui); **O que conferir na edicao desta noite**.
+   Republique o painel.
+
+### Em todo turno
+
+- Resposta no formato desta skill (linha de operacao, Em uma frase, sinais novos, o que
+  conferir, lacunas, link do painel). Dia sem sinal novo e uma linha, mas o painel e
+  republicado mesmo assim.
+- Falha nunca vira silencio: sem dado novo, diga a hora e o link do run, e narre o
+  ultimo pregao disponivel com a data em destaque.
+- `PushNotification` so com sinal novo em ativo do livro, em papel acompanhado de renda
+  fixa ou falha da coleta: uma linha com o fato e o numero.
+
+### Recriar as Routines
+
+`RemoteTrigger` (`action: create`), uma por turno: `cron_expression` da tabela, ambiente
+da nuvem do Douglas, `sources` com `https://github.com/douglora/broadcast` e o prompt
+"Turno de rotina do Boletim da B3, slot NOITE (ou MANHA). Siga a skill `boletim-b3`
+(.claude/skills/boletim-b3/SKILL.md), secao Routine, turno da noite (ou da manha), e
+republique o painel no Artifact do boletim." Pausar: `action: update` com `enabled: false`.
+Nao mude o horario sem o Douglas pedir.
