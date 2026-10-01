@@ -26,6 +26,11 @@ from livro import relogios
 from boletim import FONTE, b3, renda_fixa
 from boletim import mercado as mkt       # `mercado` aqui embaixo e a funcao do giro do dia
 
+# Versao dos dados guardados. Sobe quando uma correcao invalida o historico ja gravado: o coletor
+# descarta historico, serie do mercado e estado de renda fixa de outra versao e refaz a carga.
+#   2  (30/09/2026) tabelas grandes passam a vir pela exportacao; a paginacao repetia e pulava linhas
+VERSAO = 2
+
 RX_FUTURO = re.compile(r"^([A-Z0-9]{3})([FGHJKMNQUVXZ])(\d{2})$")
 RX_ATE = re.compile(r"at[ée] o dia (\d{2})/(\d{2})/(\d{4})", re.I)
 TIPOS_INVESTIDOR = (("estrangeiro", "estrangeiro"), ("institucional", "institucionais"),
@@ -311,7 +316,9 @@ def opcoes(ctx: Contexto, neg: dict, ind: dict) -> tuple[dict, dict]:
                         continue
                     # parede e fora do dinheiro: call acima do preco (teto), put abaixo (piso). Posicao grande
                     # dentro do dinheiro costuma ser operacao estruturada (box, financiamento), nao barreira.
-                    fora = [(k, q) for k, q in v[tipo].items() if (k >= fech if tipo == "call" else k <= fech)]
+                    # ...e strike a mais de `opcoes_grade_pct` do preco (put de 100 com o ativo a 181) tambem nao e barreira.
+                    fora = [(k, q) for k, q in v[tipo].items()
+                            if (k >= fech if tipo == "call" else k <= fech) and abs(k / fech - 1.0) * 100.0 <= grade_pct]
                     if fora:
                         k, q = max(fora, key=lambda kv: kv[1])
                         dist = round((k / fech - 1.0) * 100.0, 2)
@@ -1098,5 +1105,5 @@ def atualizar_historico(hist: dict, resumo: dict, manter: int = 70) -> dict:
     pesos = {tk: a["indice"] for tk, a in resumo["ativos"].items() if a.get("indice")}
     if pesos and (resumo.get("carteira_data") or "") >= (carteira.get("data") or ""):
         carteira = {"data": resumo["carteira_data"], "vigencia": resumo.get("carteira_vigencia"), "ativos": pesos}
-    return {"fonte": FONTE, "atualizado_em": resumo["gerado_em"], "carteira": carteira,
+    return {"fonte": FONTE, "versao": VERSAO, "atualizado_em": resumo["gerado_em"], "carteira": carteira,
             "pregoes": {k: pregoes[k] for k in fica}}

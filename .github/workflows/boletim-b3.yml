@@ -11,7 +11,7 @@ name: Boletim B3 (Boletim Diario do Mercado)
 # Duas rodadas por pregao, as duas refazem os 2 ultimos pregoes (idempotente):
 #   noite  21h40 BRT  negocios, fluxo, indices, futuros, renda fixa, ETFs (a B3 fecha o arquivo por volta das 20h)
 #   manha  08h35 BRT  completa com aluguel, corretoras, posicoes em aberto e derivativos, que saem de madrugada
-# Cada pregao leva de 2 a 3 minutos (o negocio a negocio de renda fixa e de aluguel sao as tabelas grandes).
+# Cada pregao leva cerca de um minuto.
 
 on:
   workflow_dispatch:
@@ -22,9 +22,9 @@ on:
         default: ""
         type: string
       dias:
-        description: "Quantos pregoes, terminando na data (ate 21: e o que a B3 guarda)"
+        description: "Quantos pregoes, terminando na data (ate 21: e o que a B3 guarda); auto = 2, ou 21 se o historico for curto"
         required: false
-        default: "2"
+        default: "auto"
         type: string
       pdf:
         description: "Baixar os cadernos em PDF para o artefato da rodada (fora do git)"
@@ -57,7 +57,7 @@ concurrency:
 jobs:
   boletim:
     runs-on: ubuntu-latest
-    timeout-minutes: 130
+    timeout-minutes: 75
     env:
       TZ: America/Sao_Paulo
     steps:
@@ -77,22 +77,18 @@ jobs:
         run: pip install -r requirements-livro.txt
 
       - name: Coletar e resumir
-        timeout-minutes: 115
+        timeout-minutes: 60
         env:
           DATA: ${{ inputs.data }}
           DIAS: ${{ inputs.dias }}
           PDF: ${{ inputs.pdf }}
           EVENTO: ${{ github.event_name }}
         run: |
-          # Push no branch de desenvolvimento: carga inicial do historico (21 pregoes, cerca de uma hora)
-          # enquanto ele nao existe; depois, so os 2 ultimos pregoes.
-          if [ "$EVENTO" = "push" ]; then
-            TEM=$(python -c "import json; print(len(json.load(open('dados_branch/boletim_b3/historico.json')).get('pregoes', {})))" 2>/dev/null || echo 0)
-            if [ "$TEM" -ge 15 ]; then DIAS=2; else DIAS=21; fi
-          fi
+          # `auto` (padrao do cron, do push e do disparo manual): 2 pregoes; 21 enquanto o historico
+          # tiver menos de 15 pregoes ou for de outra versao dos dados (carga inicial, cerca de 20 minutos).
           EXTRA=""
           if [ "$PDF" = "true" ]; then EXTRA="--pdf pdf_artefato"; fi
-          python -u boletim_b3.py --saida dados_branch/boletim_b3 --data "$DATA" --dias "${DIAS:-2}" \
+          python -u boletim_b3.py --saida dados_branch/boletim_b3 --data "$DATA" --dias "${DIAS:-auto}" \
             --series dados_branch/livro/series $EXTRA
 
       - name: Guardar os PDFs como artefato da rodada

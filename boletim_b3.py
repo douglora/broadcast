@@ -114,14 +114,17 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--saida", default="boletim_b3")
     ap.add_argument("--data", default="", help="AAAA-MM-DD (vazio = ultimo pregao fechado)")
-    ap.add_argument("--dias", type=int, default=1, help="quantos pregoes, terminando na data (ate 21: e o que a B3 guarda)")
+    ap.add_argument("--dias", default="1",
+                    help="quantos pregoes, terminando na data (ate 21: e o que a B3 guarda); `auto` = 2, ou 21 enquanto o "
+                         "historico tiver menos de 15 pregoes da versao atual")
     ap.add_argument("--series", default="", help="pasta livro/series do branch dados, para a paridade com a referencia la fora")
     ap.add_argument("--pdf", default="", help="pasta para baixar os cadernos em PDF do ultimo pregao (artefato; fora do git)")
     ap.add_argument("--so-painel", action="store_true",
                     help="sem rede: refaz resumo.md dos ultimos --dias pregoes guardados e o painel.html do ultimo (ou de --data)")
     a = ap.parse_args(argv)
     if a.so_painel:
-        return refazer_paineis(a.saida, date.fromisoformat(a.data) if a.data else None, max(1, a.dias))
+        return refazer_paineis(a.saida, date.fromisoformat(a.data) if a.data else None,
+                               max(1, int(a.dias) if a.dias.isdigit() else 1))
 
     cli = Cliente()
     cfg = universo.carregar_yaml("boletim.yaml")
@@ -132,8 +135,17 @@ def main(argv=None) -> int:
     rf_cadastro = ler_json(os.path.join(a.saida, "rf_cadastro.json"), {})
     rf_estado = ler_json(os.path.join(a.saida, "rf_estado.json"), {})
     cfg_rf = cfg.get("renda_fixa") or {}
+    if hist and hist.get("versao") != resumo.VERSAO:
+        # historico gravado por uma versao anterior do coletor: os numeros nao sao comparaveis
+        manifest_nota = f"historico da versao {hist.get('versao')} descartado; refeito na versao {resumo.VERSAO}"
+        hist, merc, rf_estado = {}, {}, {}
+    else:
+        manifest_nota = ""
+    n_dias = (2 if len(hist.get("pregoes") or {}) >= 15 else 21) if a.dias == "auto" else int(a.dias)
     manifest: dict = {"gerado_em": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "cliente_http": cli.tipo,
-                      "livro": [x["id"] for x in livro], "pregoes": {}, "falhas": []}
+                      "livro": [x["id"] for x in livro], "pregoes": {}, "falhas": [], "versao": resumo.VERSAO}
+    if manifest_nota:
+        manifest["nota"] = manifest_nota
 
     try:
         cat = b3.catalogo(cli)
@@ -146,7 +158,7 @@ def main(argv=None) -> int:
         manifest["falhas"].append(f"catalogo: {e}")
 
     ultimo = None
-    dias = pregoes(fim, max(1, min(a.dias, 21)))
+    dias = pregoes(fim, max(1, min(n_dias, 21)))
     # posicoes em aberto do pregao anterior ao primeiro: base das maiores mudancas de posicao do dia
     pos_ant, data_ant = None, relogios.dia_util_anterior("B3", dias[0])
     try:

@@ -355,6 +355,11 @@ def test_renda_fixa_classifica_le_a_taxa_pela_convencao_e_mede_o_premio_sobre_o_
     assert rf["cobertura_cadastro_pct"] == 99.5 and rf["papeis_negociados"] == 5
     assert [m["codigo"] for m in rf["maiores_negocios"]][:2] == ["CRA02300V6A", "AESLD2"]
     assert "_linhas" not in rf and "AESLD2" in r["_apoio"]["rf_linhas"]
+    # a tabela do teste foi atualizada as 21h do proprio pregao: a B3 ainda vai ajustar em D+1
+    assert rf["preliminar"] is True
+    b = bruto_rf(linhas)
+    b["tabelas"]["Trade"]["atualizado_em"] = "2026-09-30T11:57:22"
+    assert resumo.montar(b, CFG, LIVRO, {})["renda_fixa"]["preliminar"] is False
 
 
 def test_renda_fixa_mede_abertura_de_taxa_contra_o_ultimo_negocio_visto_e_avisa():
@@ -367,6 +372,7 @@ def test_renda_fixa_mede_abertura_de_taxa_contra_o_ultimo_negocio_visto_e_avisa(
     assert ab["codigo"] == "AESLD2" and ab["var_taxa_pb"] == 40 and ab["comparado_com"] == "2026-09-28"     # nunca contra o proprio dia
     tipos = {s["tipo"]: s for s in r["sinais"]}
     assert "abriu 40 pb contra 28/09" in tipos["rf_abertura"]["texto"] and "IPCA+ 8,21%" in tipos["rf_abertura"]["texto"]
+    assert tipos["rf_abertura"]["fonte"] == "Trade + InstrumentRegistration (preliminar)"
     assert rf["premios_altos"][0]["codigo"] == "RISP24" and rf["premios_altos"][0]["premio_dap_pb"] == 462
     assert "462 pb acima do juro real" in tipos["rf_premio_alto"]["texto"]
     novo = renda_fixa.atualizar_estado(estado, {"_linhas": r["_apoio"]["rf_linhas"]}, D)
@@ -585,3 +591,83 @@ def test_resumo_em_texto_volta_igual_e_tem_um_bloco_por_linha():
     r.pop("_apoio")
     texto = coleta.texto_resumo(r)
     assert json_ok(texto) == json_ok(__import__("json").dumps(r)) and texto.count("\n") == len(r) + 2
+
+
+# ------------------------------------------------------------------ leitura de tabela grande (boletim/b3.py)
+
+class _ClienteFalso:
+    """Devolve a primeira pagina com `paginas` e, na exportacao, a tabela inteira."""
+
+    def __init__(self, paginas, linhas_pagina, linhas_export, status_export=200):
+        self.paginas, self.linhas_pagina, self.linhas_export, self.status_export = paginas, linhas_pagina, linhas_export, status_export
+        self.chamadas = []
+
+    def post(self, url, data=None, **kw):
+        import json
+        from livro.http import Resposta
+        self.chamadas.append(url.rsplit("/bdi/", 1)[1])
+        cols = [{"id": 1, "name": "IdSer", "friendlyNamePt": "Id"}]
+        if url.endswith("/table/export"):
+            assert json.loads(data) == {"Name": "Trade", "Date": D, "FinalDate": D, "ClientId": "", "Filters": {}}
+            corpo = {"name": "Trade", "columns": cols, "values": [[i, None] for i in self.linhas_export], "pageCount": 0}
+            return Resposta(self.status_export, json.dumps(corpo).encode() if self.status_export == 200 else b"")
+        corpo = {"status": 5, "lastUpdateDate": f"{D}T20:24:31", "table": {
+            "name": "Trade", "columns": cols, "values": [[i, None] for i in self.linhas_pagina], "pageCount": self.paginas}}
+        return Resposta(200, json.dumps(corpo).encode())
+
+
+def test_tabela_de_varias_paginas_vem_pela_exportacao_e_nunca_pagina_a_pagina():
+    from datetime import date
+    # a paginacao da B3 repete e pula linhas (30/09/2026: 33.681 linhas, 23.129 negocios unicos); a exportacao traz tudo
+    cli = _ClienteFalso(paginas=3, linhas_pagina=[1, 2, 2], linhas_export=[1, 2, 3, 4, 5])
+    t = b3.tabela(cli, "Trade", date(2026, 9, 29), max_paginas=10)
+    assert [l[0] for l in t["linhas"]] == [1, 2, 3, 4, 5] and t["situacao"] == "republicado" and not t["truncada"]
+    assert cli.chamadas == [f"table/Trade/{D}/{D}/1/1000", "table/export"]          # nenhuma pagina 2 ou 3
+    # uma pagina so: nao precisa exportar
+    cli = _ClienteFalso(paginas=1, linhas_pagina=[1, 2], linhas_export=[])
+    assert len(b3.tabela(cli, "Trade", date(2026, 9, 29))["linhas"]) == 2 and cli.chamadas == [f"table/Trade/{D}/{D}/1/1000"]
+    # acima do teto de paginas a tabela nao e baixada e avisa
+    cli = _ClienteFalso(paginas=2000, linhas_pagina=[1], linhas_export=[1, 2])
+    t = b3.tabela(cli, "Trade", date(2026, 9, 29), max_paginas=120)
+    assert t["truncada"] and len(t["linhas"]) == 1 and len(cli.chamadas) == 1
+
+
+def test_exportacao_que_falha_ou_vem_curta_derruba_a_tabela_em_vez_de_entregar_dado_torto():
+    from datetime import date
+    import pytest
+    with pytest.raises(b3.B3Erro, match="exportacao de Trade"):
+        b3.tabela(_ClienteFalso(3, [1, 2, 3], [], status_export=500), "Trade", date(2026, 9, 29), max_paginas=10)
+    with pytest.raises(b3.B3Erro, match="menos que a primeira pagina"):
+        b3.tabela(_ClienteFalso(3, [1, 2, 3], [1]), "Trade", date(2026, 9, 29), max_paginas=10)
+
+
+def test_historico_de_outra_versao_e_descartado_e_dias_auto_refaz_a_carga(tmp_path, monkeypatch):
+    import json
+    import boletim_b3
+    velho = {"pregoes": {f"2026-09-{d:02d}": {"rf": {"cri": 1.0}} for d in range(1, 21)}}       # sem `versao`: coletor antigo
+    (tmp_path / "historico.json").write_text(json.dumps(velho))
+    (tmp_path / "mercado.json").write_text(json.dumps({"datas": ["2026-09-01"], "ativos": {}}))
+    pedidos = []
+
+    class Parou(Exception):
+        pass
+
+    def falso_pregoes(fim, n):
+        pedidos.append(n)
+        raise Parou()
+    monkeypatch.setattr(boletim_b3, "pregoes", falso_pregoes)
+    monkeypatch.setattr(boletim_b3.b3, "catalogo", lambda cli: [])
+    monkeypatch.setattr(boletim_b3, "Cliente", lambda: type("C", (), {"tipo": "teste"})())
+    try:
+        boletim_b3.main(["--saida", str(tmp_path), "--dias", "auto", "--data", "2026-09-30"])
+    except Parou:
+        pass
+    assert pedidos == [21]                                           # 20 pregoes guardados, mas de outra versao: refaz tudo
+    atual = {"versao": resumo.VERSAO, "pregoes": velho["pregoes"]}
+    (tmp_path / "historico.json").write_text(json.dumps(atual))
+    try:
+        boletim_b3.main(["--saida", str(tmp_path), "--dias", "auto", "--data", "2026-09-30"])
+    except Parou:
+        pass
+    assert pedidos == [21, 2]
+    assert resumo.atualizar_historico({}, resumo.montar(bruto(), CFG, LIVRO, {}))["versao"] == resumo.VERSAO

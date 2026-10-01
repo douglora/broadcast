@@ -34,8 +34,10 @@ evidencia, em portugues do Brasil, e (3) republicar o painel no Artifact.
 - PARCIAL nao e erro: a rodada da noite nao tem aluguel nem posicoes em aberto, que a
   B3 publica de madrugada. Diga "parcial, falta X" na primeira linha. Nunca escreva o
   aluguel de D-1 como se fosse de D.
-- Renda fixa: taxa de papel com volume pequeno pode ser um negocio isolado de pessoa
-  fisica; cite o volume ao lado da taxa. Em CRI e CRA o emissor que a B3 informa e a
+- Renda fixa do pregao corrente e PRELIMINAR ate a B3 ajustar o balcao (perto do meio-dia
+  de D+1): o resumo traz `renda_fixa.preliminar` e a fonte dos sinais diz "(preliminar)".
+  Diga isso sempre que citar taxa ou volume do dia. Taxa de papel com volume pequeno pode
+  ser um negocio isolado de pessoa fisica; cite o volume ao lado da taxa. Em CRI e CRA o emissor que a B3 informa e a
   securitizadora, nao o devedor. O premio sobre o juro real compara por vencimento, nao
   por duration: e aproximacao e vai dito como tal.
 - Corretora no aluguel e intermediario, nao investidor final. Nunca escreva "o banco X
@@ -85,7 +87,8 @@ Sem cache de CDN: `git fetch origin dados` e `git show origin/dados:boletim_b3/<
      publicou (ela informa `aguardando`, `publicando` ou `atrasado`).
 3. **Disparo.** `mcp__github__actions_run_trigger`, `method: run_workflow`,
    `owner: douglora`, `repo: broadcast`, `workflow_id: boletim-b3.yml`, `ref: main`,
-   `inputs: {"data": "", "dias": "2"}`. A rodada leva de 4 a 6 minutos. Espere com o
+   `inputs: {"data": "", "dias": "auto"}` (`auto` = os 2 ultimos pregoes; 21 se o historico
+   estiver curto). A rodada leva de 2 a 3 minutos. Espere com o
    laco em segundo plano (o mesmo da skill `livro`):
 
    ```bash

@@ -21,6 +21,8 @@ import html
 import math
 from datetime import date
 
+from boletim import b3
+
 MARCADOR_LEITURA = "[[LEITURA_DA_MESA]]"
 DIAS = ("segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo")
 MESES = ("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
@@ -290,10 +292,7 @@ def compacto(v, casas: int = 1) -> str:
 
 
 def nome_curto(s: str, limite: int = 34) -> str:
-    s = " ".join(str(s or "").replace(" S.A.", "").replace(" S/A", "").replace(" S.A", "").split()).title()
-    for a, b in ((" De ", " de "), (" Do ", " do "), (" Da ", " da "), (" E ", " e "), (" Dos ", " dos "), (" Das ", " das ")):
-        s = s.replace(a, b)
-    return s if len(s) <= limite else s[:limite - 1].rstrip() + "…"
+    return b3.nome_curto(s, limite)
 
 
 def venc_futuro(tk: str):
@@ -692,7 +691,7 @@ def _kpis(r: dict, ant: dict | None) -> str:
         total = sum((rf.get(c) or {}).get("volume_rs") or 0 for c in ROTULO_RF)
         inc = rf.get("deb_incentivada") or {}
         tile("Crédito isento", n(total / 1e9, 2) + "<small>R$ bi</small>",
-             f"incentivadas a IPCA+{n(inc.get('taxa_ipca_media'), 2)}%" if inc.get("taxa_ipca_media") else "",
+             f"incentivadas a IPCA+{n(inc.get('taxa_ipca_mediana'), 2)}%" if inc.get("taxa_ipca_mediana") else "",
              "debêntures incentivadas, CRI e CRA")
     return f'<div class="kpis">{"".join(tiles)}</div>'
 
@@ -1183,18 +1182,21 @@ def _renda_fixa(r: dict) -> str:
         return ""
     res = rf["resumo"]
     o = ['<section id="renda-fixa"><h2>Renda fixa: debêntures incentivadas, CRI e CRA</h2>']
+    if rf.get("preliminar"):
+        o.append('<p class="sub" style="margin-top:0"><span class="selo parcial">PRELIMINAR</span>A B3 ajusta os negócios de balcão no dia seguinte '
+                 '(o do pregão anterior fechou perto do meio-dia). Volumes e taxas deste pregão ainda podem mudar.</p>')
     tiles = []
     for cl in ("deb_incentivada", "cri", "cra"):
         v = res.get(cl)
         if not v:
             continue
         extras = []
-        if v.get("taxa_ipca_media") is not None:
-            extras.append(f"IPCA+ médio {n(v['taxa_ipca_media'], 2)}%")
-        if v.get("premio_dap_medio_pb") is not None:
-            extras.append(f"{n(v['premio_dap_medio_pb'], 0, True)} pb sobre o juro real")
-        if v.get("premio_cdi_medio") is not None:
-            extras.append(f"CDI+ médio {n(v['premio_cdi_medio'], 2)}%")
+        if v.get("taxa_ipca_mediana") is not None:
+            extras.append(f"IPCA+ mediano {n(v['taxa_ipca_mediana'], 2)}%")
+        if v.get("premio_dap_mediano_pb") is not None:
+            extras.append(f"{n(v['premio_dap_mediano_pb'], 0, True)} pb sobre o juro real")
+        if v.get("premio_cdi_mediano") is not None:
+            extras.append(f"CDI+ mediano {n(v['premio_cdi_mediano'], 2)}%")
         x = v.get("volume_x_media")
         tiles.append(f'<div class="card"><h4>{e(ROTULO_RF[cl])}</h4>'
                      f'<div style="font-size:22px;font-weight:650;margin-top:2px">R$ {compacto(v.get("volume_rs"), 2)}</div>'
@@ -1204,6 +1206,8 @@ def _renda_fixa(r: dict) -> str:
                      + (f'<p class="desc" style="margin-top:4px">Por indexador: '
                         + ", ".join(f"{e(k)} {n(p_, 0)}%" for k, p_ in list((v.get("por_indexador_pct") or {}).items())[:3]) + "</p>") + "</div>")
     o.append(f'<div class="g3">{"".join(tiles)}</div>')
+    o.append('<p class="desc">Mediana das taxas dos papéis negociados acima do volume mínimo: metade saiu acima, metade abaixo. '
+             'Em CRI e CRA o risco de crédito varia muito de papel para papel; a mediana é só o centro do dia.</p>')
     g, fora = svg_dispersao(rf.get("curva") or [], rf.get("dap") or [])
     if g:
         inc = res.get("deb_incentivada") or {}

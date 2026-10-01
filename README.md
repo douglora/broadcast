@@ -276,8 +276,8 @@ que serve tudo sem cadastro: 69 tabelas em JSON, os cadernos em PDF e os arquivo
 CSV da API de download. O sistema segue o desenho do livro:
 
 1. **Runner** (`.github/workflows/boletim-b3.yml` + `boletim_b3.py` + pacote
-   `boletim/`): le a situacao dos cadernos, 47 tabelas e 4 arquivos do pregao (de 2 a
-   3 minutos), cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
+   `boletim/`): le a situacao dos cadernos, 47 tabelas e 4 arquivos do pregao (cerca de
+   um minuto), cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
    no branch `dados`: `<pregao>/resumo.json` (numeros com fonte e data e a lista de
    sinais), `<pregao>/resumo.md` (cards de texto), `<pregao>/status.json` (link de cada
    caderno em PDF na B3), `painel.html` (a pagina do ultimo pregao, que a sessao publica
@@ -310,8 +310,11 @@ CSV da API de download. O sistema segue o desenho do livro:
 Duas rodadas por pregao: 21h40 BRT (negocios, fluxo, indices, futuros, renda fixa,
 ETFs) e 08h35 BRT do dia seguinte (aluguel, corretoras, posicoes em aberto e
 derivativos, que a B3 publica de madrugada). As duas refazem os 2 ultimos pregoes e
-sao idempotentes. Disparo manual: aba Actions > "Boletim B3" > Run workflow (`dias`
+sao idempotentes; a renda fixa do proprio pregao e preliminar ate a B3 ajustar o balcao
+em D+1. Disparo manual: aba Actions > "Boletim B3" > Run workflow (`dias` = `auto`, ou
 ate 21, que e a janela que a B3 guarda; `pdf` baixa os cadernos para o artefato).
+Tabela de mais de uma pagina vem sempre pela exportacao completa da B3: a paginacao
+do aplicativo repete e pula linhas.
 Sem rede: `python boletim_b3.py --saida <pasta> --so-painel` refaz os paineis a partir
 dos resumos guardados.
 

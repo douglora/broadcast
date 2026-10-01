@@ -31,6 +31,12 @@ Atualizado em 30/09/2026, na sessao do notebook (internet aberta). Branch:
   publicada volta vazia, nunca com o dado de D-1. `?filter=<base64 do codigo>` devolve so
   as linhas daquele codigo (casamento exato na coluna-chave); filtro por coluna no corpo
   da 500.
+- A PAGINACAO NAO E CONFIAVEL: em 30/09 a tabela `Trade` lida pagina a pagina trouxe 33.681
+  linhas com so 23.129 negocios unicos (repete e pula linhas; um negocio de R$ 1,1 bi ficou de
+  fora). Tabela de mais de uma pagina vem por `POST /bdi/table/export` (corpo com Name, Date,
+  FinalDate, ClientId e Filters), que devolve tudo numa resposta: 92 mil linhas em 5 segundos.
+- O negocio a negocio de renda fixa do proprio pregao e preliminar: a B3 ajusta em D+1 (o de
+  29/09 fechou as 11h57 de 30/09).
 - API de download: so 5 nomes respondem (TradeInformationConsolidated, ...AfterHours,
   InstrumentsConsolidated, DerivativesOpenPosition, MarginScenarioLiquidAssets).
 - Horario (medido em 11 pregoes): arquivo de negocios "Final" por volta das 20h; fluxo,
@@ -62,12 +68,12 @@ Atualizado em 30/09/2026, na sessao do notebook (internet aberta). Branch:
 | `boletim/renda_fixa.py` | Debentures incentivadas, CRI e CRA: taxa do dia, premio sobre o DAP, quem abriu e fechou taxa |
 | `boletim/render.py` | `resumo.md`: cards de texto com `[[LEITURA_DA_MESA]]` |
 | `boletim/painel.py` | `painel.html`: a pagina do Artifact (formato branco e azul, graficos em SVG, sem biblioteca externa) |
-| `boletim_b3.py` | Entrada: `--saida --data --dias --series --pdf --so-painel`. Um pregao leva de 2 a 3 minutos |
+| `boletim_b3.py` | Entrada: `--saida --data --dias (numero ou auto) --series --pdf --so-painel`. Um pregao leva cerca de um minuto |
 | `config/boletim.yaml` | Grupos do livro, futuros, indices, carteiras, paridades, opcoes extras, renda fixa, radar e limiares |
 | `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron comentado |
 | `mesa.py boletim` | Leitura na sessao: veredito, resumo, ativo, sinais, rf, opcoes, radar, status, tabela, json, painel |
 | `.claude/skills/boletim-b3/SKILL.md` | Regras da leitura, procedimento do turno, receita do painel e texto da Routine |
-| `tests/test_boletim.py` | 36 testes sem rede |
+| `tests/test_boletim.py` | 39 testes sem rede |
 
 Saida no branch `dados`: ver o cabecalho de `boletim_b3.py`.
 

@@ -17,6 +17,11 @@ interpolado no vencimento do papel. E aproximacao: compara por vencimento, nao p
 papel que amortiza tem duration menor que o prazo. O DAP sai do mesmo boletim, na mesma data.
 
 CRI e CRA: o boletim informa a securitizadora como emissor, nao o devedor do lastro.
+
+Preliminar: a B3 ajusta o negocio a negocio de balcao no dia seguinte (em 30/09/2026 o volume de
+incentivadas do dia mudou de R$ 3,6 bi para R$ 2,2 bi entre duas rodadas da noite; o de 29/09
+fechou as 11h57 de 30/09). Ate a tabela ser atualizada depois das 11h de D+1, o bloco leva
+`preliminar: true` e os sinais dizem "(preliminar)" na fonte.
 """
 
 from __future__ import annotations
@@ -24,11 +29,14 @@ from __future__ import annotations
 import re
 from datetime import date
 
+from livro import relogios
+
 from boletim import b3
 
 RX_DAP = re.compile(r"^DAP([FGHJKMNQUVXZ])(\d{2})$")
 MESES = "FGHJKMNQUVXZ"
 EM_FOCO = ("deb_incentivada", "cri", "cra")
+SINGULAR = {"deb_incentivada": "debênture incentivada", "cri": "CRI", "cra": "CRA"}
 ROTULO = {"deb_incentivada": "Debêntures incentivadas", "cri": "CRI", "cra": "CRA",
           "deb_comum": "Debêntures não incentivadas", "deb_sem_cadastro": "Debêntures sem cadastro lido"}
 VALIDOS = ("confirmado", "ajustado b3")
@@ -36,6 +44,14 @@ VALIDOS = ("confirmado", "ajustado b3")
 
 def mil(v, casas: int = 0) -> str:
     return f"{v:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def mediana(xs: list):
+    xs = sorted(x for x in xs if x is not None)
+    if not xs:
+        return None
+    m = len(xs) // 2
+    return xs[m] if len(xs) % 2 else (xs[m - 1] + xs[m]) / 2.0
 
 
 def classe(tipo: str, cad: dict | None) -> str | None:
@@ -141,6 +157,9 @@ def montar(ctx) -> dict:
     piso = cfg.get("volume_minimo_rs", 500000)
     if t.get("truncada"):
         ctx.lacunas.append("Renda fixa: o negócio a negócio passou do teto de páginas; os totais do dia estão incompletos.")
+    ajuste = f"{relogios.proximo_dia_util('B3', ctx.d).isoformat()}T11:00"
+    preliminar = (t.get("atualizado_em") or "") < ajuste
+    fonte_sinal = "Trade + InstrumentRegistration" + (" (preliminar)" if preliminar else "")
     por = agregar(b3.registros(t))
     cadastro = ctx.bruto.get("rf_cadastro") or {}
     estado = ctx.rf_estado
@@ -179,6 +198,11 @@ def montar(ctx) -> dict:
         if ipca:
             v = sum(l["volume_rs"] for l in ipca)
             item["taxa_ipca_media"] = round(sum(l["taxa_media"] * l["volume_rs"] for l in ipca) / v, 2)
+            # a mediana nao se deixa levar por um negocio grande fora da curva
+            item["taxa_ipca_mediana"] = round(mediana([l["taxa_media"] for l in ipca]), 2)
+            med = mediana([l.get("premio_dap_pb") for l in ipca])
+            item["premio_dap_mediano_pb"] = round(med) if med is not None else None
+            item["papeis_ipca"] = len(ipca)
             com_premio = [l for l in ipca if l.get("premio_dap_pb") is not None]
             if com_premio:
                 vp = sum(l["volume_rs"] for l in com_premio)
@@ -187,6 +211,7 @@ def montar(ctx) -> dict:
         if cdi:
             v = sum(l["volume_rs"] for l in cdi)
             item["premio_cdi_medio"] = round(sum(l["taxa_media"] * l["volume_rs"] for l in cdi) / v, 2)
+            item["premio_cdi_mediano"] = round(mediana([l["taxa_media"] for l in cdi]), 2)
         por_conv: dict = {}
         for l in ls:
             por_conv[l["convencao"] or "sem cadastro"] = por_conv.get(l["convencao"] or "sem cadastro", 0.0) + l["volume_rs"]
@@ -197,7 +222,8 @@ def montar(ctx) -> dict:
             item["volume_media_rs"], item["volume_x_media"] = round(m, 0), (round(vol / m, 2) if m else None)
             if cl in EM_FOCO and item["volume_x_media"] and item["volume_x_media"] >= cfg.get("giro_x_media", 2.0):
                 ctx.sinal("rf_giro", None, f"{ROTULO[cl]}: R$ {mil(vol / 1e6)} mi negociados no balcão, "
-                          f"{mil(item['volume_x_media'], 1)}x a média de {len(vols)} pregões.", "Trade", volume_rs=vol)
+                          f"{mil(item['volume_x_media'], 1)}x a média de {len(vols)} pregões.",
+                          "Trade" + (" (preliminar)" if preliminar else ""), volume_rs=vol)
         resumo[cl] = item
 
     top = cfg.get("top", 20)
@@ -221,9 +247,9 @@ def montar(ctx) -> dict:
     for l in [l for l in aberturas if l["volume_rs"] >= piso_sinal][:3]:
         if l["var_taxa_pb"] >= cfg.get("var_taxa_sinal_pb", 30):
             ctx.sinal("rf_abertura", l["codigo"],
-                      f"{l['codigo']} ({l['emissor'].title()[:38]}, {ROTULO[l['classe']].lower()}): taxa média abriu "
+                      f"{l['codigo']} ({b3.nome_curto(l['emissor'], 38)}, {SINGULAR[l['classe']]}): taxa média abriu "
                       f"{l['var_taxa_pb']} pb contra {b3_dm(l['comparado_com'])}, para {l['convencao']} {mil(l['taxa_media'], 2)}%, "
-                      f"em R$ {mil(l['volume_rs'] / 1e6, 1)} mi.", "Trade + InstrumentRegistration",
+                      f"em R$ {mil(l['volume_rs'] / 1e6, 1)} mi.", fonte_sinal,
                       var_taxa_pb=l["var_taxa_pb"], taxa=l["taxa_media"], volume_rs=l["volume_rs"])
 
     # ---- taxas mais altas: onde o mercado esta pedindo premio
@@ -236,9 +262,9 @@ def montar(ctx) -> dict:
             extra = (f", {mil(l['premio_dap_pb'])} pb acima do juro real de mercado de prazo equivalente"
                      if l.get("premio_dap_pb") is not None else "")
             ctx.sinal("rf_premio_alto", l["codigo"],
-                      f"{l['codigo']} ({l['emissor'].title()[:38]}, {ROTULO[l['classe']].lower()}): negociada a "
+                      f"{l['codigo']} ({b3.nome_curto(l['emissor'], 38)}, {SINGULAR[l['classe']]}): negociada a "
                       f"{l['convencao']} {mil(l['taxa_media'], 2)}%{extra}, em R$ {mil(l['volume_rs'] / 1e6, 1)} mi.",
-                      "Trade + InstrumentRegistration", taxa=l["taxa_media"], premio_dap_pb=l.get("premio_dap_pb"),
+                      fonte_sinal, taxa=l["taxa_media"], premio_dap_pb=l.get("premio_dap_pb"),
                       volume_rs=l["volume_rs"])
 
     # ---- emissores e maiores negocios
@@ -297,7 +323,7 @@ def montar(ctx) -> dict:
         acompanhados.append(linhas.get(cod) or {"codigo": cod, "sem_negocio": True})
 
     return {
-        "data": ctx.iso, "fonte": ctx.fonte("Trade"),
+        "data": ctx.iso, "fonte": ctx.fonte("Trade"), "preliminar": preliminar,
         "resumo": resumo, "papeis": papeis, "curva": curva,
         "dap": [[a, tx, tk] for a, tx, tk in dap],
         "aberturas": aberturas, "fechamentos": fechamentos, "premios_altos": estresse,

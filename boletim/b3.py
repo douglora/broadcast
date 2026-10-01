@@ -8,7 +8,10 @@ do aplicativo https://arquivos.b3.com.br/bdi/tabelas, e e dele que saem as rotas
   PDF       GET  /bdi/download/bdi/AAAA-MM-DD/BDI_NN[-S]_AAAAMMDD.pdf
             o completo passa de 50 MB e 1.800 paginas: so o link vai para o branch
   tabela    POST /bdi/table/<Nome>/<data>/<data>/<pagina>/<linhas>   corpo {}
-            JSON tipado; no maximo 1000 linhas por pagina (2000 devolve 400)
+            JSON tipado; no maximo 1000 linhas por pagina (2000 devolve 400). A paginacao repete e
+            pula linhas: so a primeira pagina e usada (situacao, hora, numero de paginas)
+  inteira   POST /bdi/table/export   corpo {"Name", "Date", "FinalDate", "ClientId": "", "Filters": {}}
+            a tabela toda numa resposta (92 mil linhas em 5 s); e por aqui que vem tabela grande
             ?filter=<base64 do codigo em maiusculas> devolve so as linhas daquele codigo
             (casamento exato na coluna-chave; e a caixa de busca do aplicativo)
   catalogo  GET  /bdi/table/classifications     arvore de capitulos e tabelas
@@ -118,25 +121,32 @@ def normalizar(t: dict) -> dict:
 
 
 def tabela(cli: Cliente, nome: str, d: date, max_paginas: int = 1, filtro: str | None = None) -> dict:
-    """Uma tabela do BDI no pregao d. `truncada` avisa quando ha mais paginas que o teto.
-    `filtro` e o codigo exato (ticker, codigo IF) na coluna-chave da tabela."""
+    """Uma tabela do BDI no pregao d, inteira.
+
+    A primeira pagina da a situacao, a hora e o numero de paginas. Tabela de mais de uma pagina
+    vem pela exportacao (`POST /bdi/table/export`), que devolve tudo numa resposta so. A leitura
+    pagina a pagina NAO e confiavel: em 30/09/2026 a tabela `Trade` devolveu 33.681 linhas com so
+    23.129 negocios unicos (linhas repetidas entre paginas e outras de fora, entre elas um negocio
+    de R$ 1,1 bi). `truncada` avisa quando ha mais paginas que o teto e a tabela nao foi baixada.
+    `filtro` e o codigo exato (ticker, codigo IF) na coluna-chave; so vale para a primeira pagina.
+    """
     iso = d.isoformat()
     busca = "?filter=" + base64.b64encode(filtro.upper().encode()).decode() if filtro else ""
-
-    def pagina(n: int) -> dict:
-        r = cli.post(f"{BDI}/table/{nome}/{iso}/{iso}/{n}/{TAKE}{busca}", data="{}", headers=JSON_HEADERS, timeout=90)
-        j = _json(r, f"tabela {nome} pagina {n}")
-        if not isinstance(j.get("table"), dict):
-            raise B3Erro(f"tabela {nome}: resposta sem `table`")
-        return j
-
-    j = pagina(1)
+    r = cli.post(f"{BDI}/table/{nome}/{iso}/{iso}/1/{TAKE}{busca}", data="{}", headers=JSON_HEADERS, timeout=90)
+    j = _json(r, f"tabela {nome}")
+    if not isinstance(j.get("table"), dict):
+        raise B3Erro(f"tabela {nome}: resposta sem `table`")
     out = normalizar(j["table"])
     out["situacao"] = SITUACAO.get(j.get("status"), str(j.get("status")))
     out["atualizado_em"] = j.get("lastUpdateDate")
-    for n in range(2, min(out["paginas"], max_paginas) + 1):
-        out["linhas"].extend(normalizar(pagina(n)["table"])["linhas"])
     out["truncada"] = out["paginas"] > max_paginas
+    if out["paginas"] > 1 and not out["truncada"] and not filtro:
+        corpo = json.dumps({"Name": nome, "Date": iso, "FinalDate": iso, "ClientId": "", "Filters": {}})
+        inteira = _json(cli.post(f"{BDI}/table/export", data=corpo, headers=JSON_HEADERS, timeout=300), f"exportacao de {nome}")
+        linhas = normalizar(inteira)["linhas"]
+        if len(linhas) < len(out["linhas"]):
+            raise B3Erro(f"exportacao de {nome}: {len(linhas)} linhas, menos que a primeira pagina ({len(out['linhas'])})")
+        out["linhas"] = linhas
     return out
 
 
@@ -269,6 +279,14 @@ def sem_acento(s: str) -> str:
 
 
 _RUIDO = re.compile(r"\b(S\.?/?A\.?|CIA\.?|COMPANHIA|HOLDING|PARTICIPACOES|DE|DO|DA|E)\b")
+
+
+def nome_curto(s: str, limite: int = 34) -> str:
+    """'CEMIG DISTRIBUICAO S/A' -> 'Cemig Distribuicao'; corta com reticencias no limite."""
+    s = " ".join(str(s or "").replace(" S.A.", "").replace(" S/A.", "").replace(" S/A", "").replace(" S.A", "").split()).title()
+    for a, b in ((" De ", " de "), (" Do ", " do "), (" Da ", " da "), (" E ", " e "), (" Dos ", " dos "), (" Das ", " das ")):
+        s = s.replace(a, b)
+    return s if len(s) <= limite else s[:limite - 1].rstrip() + "…"
 
 
 def chave_empresa(nome: str) -> str:

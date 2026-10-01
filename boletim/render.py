@@ -122,16 +122,18 @@ def _renda_fixa(r: dict) -> list[str]:
     if not rf.get("resumo"):
         return []
     o = ["## Renda fixa: debêntures incentivadas, CRI e CRA", ""]
+    if rf.get("preliminar"):
+        o += ["**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas deste pregão ainda podem mudar.", ""]
     linhas = []
     for cl, rot in ROTULO_RF.items():
         v = rf["resumo"].get(cl)
         if v:
-            taxas = ([f"IPCA+ {n(v['taxa_ipca_media'])}%"] if v.get("taxa_ipca_media") is not None else []) + \
-                    ([f"CDI+ {n(v['premio_cdi_medio'])}%"] if v.get("premio_cdi_medio") is not None else [])
+            taxas = ([f"IPCA+ {n(v['taxa_ipca_mediana'])}%"] if v.get("taxa_ipca_mediana") is not None else []) + \
+                    ([f"CDI+ {n(v['premio_cdi_mediano'])}%"] if v.get("premio_cdi_mediano") is not None else [])
             taxa = " e ".join(taxas) or "-"
-            premio = (n(v["premio_dap_medio_pb"], 0, True) + " pb") if v.get("premio_dap_medio_pb") is not None else "-"
+            premio = (n(v["premio_dap_mediano_pb"], 0, True) + " pb") if v.get("premio_dap_mediano_pb") is not None else "-"
             linhas.append([rot, "R$ " + compacto(v.get("volume_rs")), taxa, premio])
-    o += tabela(["Classe", "Volume do dia", "Taxa média", "Sobre o juro real"], linhas)
+    o += tabela(["Classe", "Volume do dia", "Taxa mediana", "Sobre o juro real"], linhas)
     meus = [l for l in rf.get("acompanhados") or [] if not l.get("sem_negocio")]
     if meus:
         o += ["**Papéis acompanhados (config/boletim.yaml)**", ""]
@@ -154,7 +156,7 @@ def _renda_fixa(r: dict) -> list[str]:
         o.append("**Prêmio alto:** " + "; ".join(
             f"{l['codigo']} a {_taxa_rf(l)}" + (f" ({n(l['premio_dap_pb'], 0, True)} pb)" if l.get("premio_dap_pb") is not None else "")
             + f", R$ {compacto(l['volume_rs'])}" for l in rf["premios_altos"][:5]) + ".")
-    o += ["", "Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por "
+    o += ["", "Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por "
           "vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.", ""]
     return o
 

@@ -179,8 +179,9 @@ def opcoes_mercado(ctx) -> dict:
         a["do_livro"] = a["ativo"] in ctx.ids
     out = {"posicao_call": total_c, "posicao_put": total_p, "put_call": round(total_p / total_c, 2) if total_c else None,
            "series_com_posicao": len(series), "por_ativo": ativos,
-           # calendario: onde a posicao do mercado vence (as oito datas mais proximas)
-           "por_vencimento": [[v, por_venc[v]["call"], por_venc[v]["put"]] for v in sorted(por_venc)[:8]]}
+           # calendario: onde a posicao do mercado vence (os seis maiores vencimentos, em ordem de data)
+           "por_vencimento": [[v, por_venc[v]["call"], por_venc[v]["put"]] for v in sorted(
+               sorted(por_venc, key=lambda v: -(por_venc[v]["call"] + por_venc[v]["put"]))[:6])]}
     vc = vp = 0.0
     for cod, (under, tipo, _, _) in ctx.opc_todas.items():
         t = ctx.trades.get(cod)
