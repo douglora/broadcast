@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 01/10 15h47
+NOTÍCIAS E FATOS · 01/10 16h22
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 43 sem ativo, 8 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 435 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (20)
+
+[ATENÇÃO] E05 · PETR4 · Agenda de empresas: Cade aprova compra de fatia do Assaí; Petrobras recebe parcela de subvenção
+Valor Economico · 01/10 08h27 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Assaí O Conselho Administrativo de Defesa Econômica (Cade), vinculado ao Ministério da Justiça, aprovou a operação de compra de 11,7% do Assaí por parte dos membros da família dona do Grupo Muffato.
+  – Petrobras A Petrobras recebeu cerca de R$ 1,03 bilhão em novas parcelas dos programas federais de subvenção econômica destinados à comercialização de combustíveis.
+  – Bradesco O Bradesco informou que, terminado o primeiro período de subscrição de sobras do seu aumento de capital, restaram ainda 1.505.454 de ações ordinárias e 14.553.057 ações preferenciais.
+  – Ou seja, o banco vendeu na segunda etapa, divulgada ontem, 48.711.930 papéis ON e 137.610.535 papéis PN.
+  – Ao preço de R$ 15,43 o papel ON e R$ 17,64 o PN, foram levantados R$ 3,179 bilhões.
+  – Iguatemi A Iguatemi concluiu a venda de participações em cinco shoppings ao fundo imobiliário TRX Real Estate pelo valor total de R$ 876,1 milhões.
+Link: https://valor.globo.com/google/amp/empresas/noticia/2026/10/01/agenda-de-empresas-cade-aprova-compra-de-fatia-do-assai-petrobras-recebe-parcela-de-subvencao.ghtml
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: PETR4
+Como falar: 'saiu no Valor Economico: Agenda de empresas: Cade aprova compra de fatia do Assaí; Petrobras recebe parcela de sub…; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 01/10 08h27
+id: E05-PETR4-725f496aff-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · BABA · SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 5, 2026 in Alibaba Group Holding Limited Lawsuit - BABA
 TradingView (Reuters) · 01/10 11h09 · fonte única · licença: manchete
@@ -29,7 +45,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no TradingView (Reuters): Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 01/10 14h51
-id: E05-MU-98c1457072-2026-10-01 · status: pendente
+id: E05-MU-98c1457072-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · Google Prevails in 2 Antitrust Suits. The AI and Search Giant Still Rules the Internet.
 Barron's · 01/10 14h51 · fonte única · licença: manchete
@@ -38,7 +54,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: GOOGL
 Como falar: 'saiu no Barron's: Google Prevails in 2 Antitrust Suits. The AI and Search Giant Still Rules the Internet.; confirmar o número no texto antes de repassar'
 Fonte: Barron's 01/10 14h51
-id: E05-GOOGL-d66538e900-2026-10-01 · status: pendente
+id: E05-GOOGL-d66538e900-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending
 Yahoo Finance · 01/10 12h38 · fonte única · licença: resumo
@@ -49,7 +65,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU · AVGO
 Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Len…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 12h38
-id: E05-MU-ac846b8e4a-2026-10-01 · status: pendente
+id: E05-MU-ac846b8e4a-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Q4: Favorable Outlook As Memory Shortage Persists (NASDAQ:MU)
 Seeking Alpha · 01/10 10h45 · fonte única · licença: manchete
@@ -228,8 +244,18 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (122)
+## OUTRAS NOTÍCIAS (só manchete) (132)
 
+· COHR Why is Coherent stock surging today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-4928152
+· ITUB4 'Vou bater muito': Conversas de Vorcaro com publicitário mostram orquestração de ataques midiáticos contra o Itaú (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/01/conversas-de-vorcaro-com-publicitrio-mostram-orquestrao-de-ataques-miditicos-contra-o-ita.ghtml
+· BTC Bitcoin could repeat a 400% rally, analyst spots familiar cycle pattern (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-could-repeat-400-rally-185624964.html
+· UST Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-treasury-181953431.html
+· UST Wall Street dips as rising Treasury yields outweigh software gains By Reuters (Investing.com) https://www.investing.com/news/economy-news/dow-futures-hit-threemonth-low-as-yields-surge-micron-earnings-offer-support-4926657
+· GOOGL Trump Sends Strong Signal on Google's New Gemini Model (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f2d079733094b:0-trump-sends-strong-signal-on-google-s-new-gemini-model/
+· BABA Alibaba Group Holding Limited (9988.HK) latest stock news and headlines (Yahoo Finance) https://uk.finance.yahoo.com/quote/9988.HK/news/
+· PETR4 Petrobras eleva preço do querosene de aviação em outubro (InfoMoney) https://news.google.com/rss/articles/CBMimwFBVV95cUxOZmJ3WVZDWTd1SE1TeWZpOVhySjdZYXF5UHFNbHNobmpmNWdSYk1TMC1CUXVmN1lpRDVqQWVwT3Etb3JkZzZyUk1Ub25MaWxaVGFGWjJfZ2JzdEJBZV9PVDlLNFVqcEVnZGhwT25nNnItMVZFRzJhVU1JUWpWZDg5RmsxczFLWjVtZ0U4UXJUTW5vTGdJcGhMeWhlMNIBoAFBVV95cUxPSWpqZWFUV3dmQXIzdG5BaXc3RzN1Uzh1UE1Nam9aR3FqTGp1c2IxWVY0bjAzcm03ZWh4UUdYdTBkM3FRaTNUUXIyZVNEYTZNQURuM0Y5Zm42dV81NzJpQnhnTnFZLTFocTE3YkI3akMyam43YjdXUzJLN1BRY2FpdURFOS1xdkdvTG9peFQwVVVpWHU3aWpQc3RkMVdFcUps?oc=5
+· MU Why Micron’s Dazzling Earnings Report Is Barely Moving the Stock (Barron's) https://news.google.com/rss/articles/CBMieEFVX3lxTE1qYVRkMzJRd2M4d0p5dGJ2X25QblFST0JWbDIwa0JkaE0xLWVPSEgzelliSXEtMDFZVlVPMzFUVDJ4ZlhPWHl6aWQ5S0w5YmtHbkZKc0gwLVFCZUtJUjN5MGVWUkMxamJYRnVJdUxzVEJrUk5ObFpxTQ?oc=5
+· USDBRL Dólar e Bolsa avançam antes de nova pesquisa Datafolha e com alta dos Treasuries (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
 · MU Micron earnings tell us about how much more there is to do in the AI buildout, says Advisors Capital’s JoAnne Feeney (CNBC) https://www.cnbc.com/video/2026/10/01/micron-earnings-tell-us-about-how-much-more-there-is-to-do-in-the-ai-buildout-says-advisors-capitalas-joanne-feeney.html
 · LITE Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html
 · UST Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnE0R3ZfWm50RXh3cnRIWDBSMGtvLVYxaWFsTjZjNkNGcXRrZkZGWHFqV1I0cldtWlFTRHJPMzNhcFZrNXFIYlJYUUZBZFJOLW51cGYyTVQzZDhFOEVJdWltTHJlc0pocjBlOGdzTkVWUzhRQjhkMHJQdUVVSG9odUVGY2FyVGZDbVpLZmxWd1pXcjc1ZkVPbjNXazQ?oc=5
@@ -280,14 +306,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · USDBRL Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman (Bloomberg Linea) https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGdTRXVWTEcxU0xCaE5mX2tpLU9hcVpSZFpWWXc0aE1MVDVSMUpDNi0zeUhyQXhnN1ZRd25KV25MY0gxbjVvTnU4ZFhjR1NaTkR5empiNmcxTlllSzd6WmJqcDJ1X19SX1h4aGxUdFk4NTFuVXYzOEQ0Ukw1WU9CRXJsLUJZbjRiWTBXd3BETEJ2ak9JbXBOMjFUSVdTMW1xa2N1ZTJlZW5aUDJKbTRydTFBN3NYeUJiM2FNU1M3c2JUU2fSAdcBQVVfeXFMT09TWlJDU0VFMFZnQnZoV0JpcVN5VDZUbHF0SnltQ1JwSl95Z1RVeHlsdU9zdEZjMDBZTmZKUnZJNW5UR3NlcXk3T1pFQ1ByV1p3RGdDUVhtWVlpT0xxajJfamFTTk1TQURlRHVSNXI5WmVibE5XdWNrZVlPM1dBVE1GZlhnX2VibGhOZ3I5dGctTWZPNzl1dllpR0tua0paVFZ4VDlIWE5Yc2Q4RVdfWThhRXA1NTlnblMzYkw5dnYxWVhpRDhrRXZMQVlweWZjUEdBaGk4dDg?oc=5
 · JPM REG - JPMorgan China G&I - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-10-01:newsml_RSA2979Xa:0-reg-jpmorgan-china-g-i-dividend-declaration/
 · USDBRL Dólar hoje sobe mais de 1% e ultrapassa R$ 5,20 por cautela com Treasuries (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-01102026/
-· MU Micron Technology Seen With Increasingly Positive Duration Tone, Capital Returns Outlook, UBS Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-technology-seen-increasingly-positive-154856670.html
-· PETR4 Petrobras aumenta preço do QAV em 11,8% às distribuidoras (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-aumenta-preco-do-qav-em-118-as-distribuidoras/
-· BAC What It Actually Takes for Bank of America to Keep Raising Its Dividend (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/actually-takes-bank-america-keep-154550775.html
-· NVDA Nvidia, Intel and 3 More: BofA Reveals 5 Chip Stocks to Own (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7b0e040e2094b:0-nvidia-intel-and-3-more-bofa-reveals-5-chip-stocks-to-own/
-· UST Wall Street dips as surging Treasury yields outweigh software gains (Reuters) https://www.reuters.com/business/dow-futures-hit-three-month-low-yields-surge-micron-earnings-offer-support-2026-10-01/
-· BTC Is Bitcoin the Best Bet for Q4? An 'Epic Run' May Be Ahead, Expert Says (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:abd3f25a9094b:0-is-bitcoin-the-best-bet-for-q4-an-epic-run-may-be-ahead-expert-says/
-· LITE Coherent Jumps 10% on PhotonLink Push and Bernstein’s Outperform Start; Lumentum Rises 9%, Corning Advances 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coherent-jumps-10-photonlink-push-145611273.html
-· NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXN6Y29CQkRQNlcwbXJFMl9RSEJ0ZUtnZ3g1WWl5Z2YwMVdLTVQ0dTNiaXlRNGtoY3R2TlZRWDQ0eUQ0TElGZmZMdFV2ZEFFeFZxYmlGODhObTllem16RnM3RDdMMjZHb0lrRGw0UHVqOElnVFM4a1NrRlU0RjFhbUZ5N1dHNjljdkl2dHdabnZ2bUVXZjVnR3BXQzE2b2RfVFVNcmZ3?oc=5
-· MU With record earnings in the rearview, Micron faces Taiwan strike prospects (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkkzV2dSc2RmQjhMb3hwZ2xRWWphMW5CX2lTdkpqdDJqM3YteHBjaGFLYWhiZlFqX1F1dHBuQkNVSnBPTzNCUDhFVjJMclh3S0FKbXZGNzhWYW1UYkJMMS1paUh0NWJjanZZY1Awd0RMQXh2N3VJa1MwM1ByWXJNeVAxV0g0dHdIbFREbTljcw?oc=5
-· VALE3 Ibovespa passa a cair pressionado por Bolsas de NY e baixa das ações da Vale (Estadao) https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzhKNFdWZi1pYl9nYkt3bzl3eWl6OWVScWx0OFZBZFBOcUVmMTYtZ1hOM0syR2tlYS1seENCOF9jdEVubTRLT2EwaXB0MmNzU2ZTZ21XczFwX2JfOS1LYUx4MmFFcDRXN2tGX2RFTUpNSGZ6ZEp4dS1LaWZoY28zNXNXOWZvbW5JVEx2Qjhkako5SjJDS05UMmNaUUhkNW56b3JtMVhMQnVxa3hxUWhxSGtoYXNEektldHlOa3NEQTBsT0tMNVRV0gHMAUFVX3lxTFBtY2l5VEh3UzVhb2pIanVJTFlfY3BDMlJpTTJtdmVrR1dCVm9YVGJlMGNWM095aXFlcGlzemw4SlhWeVVFcDg1VUJ6bFRleWdOdjRvZ1Z2UWxtWk1RY1Y1NThRbkxyVGhmaE5xVFJPTFhLOG4zTkYweWpOLUFQTkxQQmRZYko1cVZ1QTQyNXJfZFhpQk5Ic1ZFNTdoeGUxcWJZb1F2R3JTbUVRUlU0Ry1mU0VDRG1wOUhwOVpOWjNXVDVXMG5BR2lidk43TQ?oc=5
-· (+62 manchetes; lista completa em eventos/noticias.json)
+· (+72 manchetes; lista completa em eventos/noticias.json)
