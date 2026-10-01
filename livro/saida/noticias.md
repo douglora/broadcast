@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 01/10 17h22
+NOTÍCIAS E FATOS · 01/10 18h13
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 439 veículo fora da lista, 43 sem ativo, 3 teto) · cvm ok 1 novos de 11 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 445 veículo fora da lista, 38 sem ativo, 10 teto) · cvm ok 1 novos de 12 (6 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[INFO] E03 · MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 01/10/2026 18:00 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573397
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: MRVE3
+Como falar: 'a MRV publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 01/10
+id: E03-MRVE3-1573397-2026-10-01 · status: linha
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 01/10/2026 17:09 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -14,7 +23,39 @@ Fonte: CVM 01/10
 id: E03-AXIA3-1573328-2026-10-01 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## NOTÍCIAS COM MATERIALIDADE (23)
+
+[ATENÇÃO] E05 · ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos dividendos
+Seu Dinheiro · 01/10 17h49 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Devido a contratos de longo prazo e à previsibilidade de receitas, as companhias costumam aparecer entre as favoritas dos analistas para o pagamento de dividendos como é o caso da CPFL (CPFE3), segundo o Itaú BBA.
+  – Para o Itaú BBA, o preço-alvo do papel CPFE3 até o fim de 2027 é de R$ 52,50.
+  – Em relação ao último fechamento (30), o potencial lucrativo é de 15%.
+  – Desde o início de 2026, o papel acumula queda de 13,36%, mas o Itaú BBA reforça a recomendação de compra.
+  – A CPFL acredita ter direito a uma compensação bilionária por uma discussão que se arrasta há mais de 20 anos.
+  – A cifra pode chegar a R$ 6 bilhões, mas ainda não existem detalhes de quando e como esse dinheiro chegaria à elétrica.
+Link: https://www.seudinheiro.com/2026/empresas/enquanto-tres-gatilhos-nao-fazem-preco-na-cpfl-cpfe3-itau-bba-defende-a-compra-pelos-dividendos-veja-o-potencial-giov/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Seu Dinheiro: Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos d…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 01/10 17h49
+id: E05-ITUB4-d2c755d90a-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
+Yahoo Finance · 01/10 14h51 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Micron Technology (NASDAQ:MU), the AI-memory and storage producer, reported a blockbuster quarter, yet shares traded at $1,049.77, down approximately 1.44% at 12pm ET on October 1.
+  – Fiscal fourth-quarter revenue hit $54.23 billion, up roughly 379% from a year earlier.
+  – The valuation picture shows the stock sitting 58.68% above its $661.58 GF Value estimatea hefty premium that leaves little room for disappointment.
+  – According to Reuters, financial commitments under Micron's long-term supply agreements reached $32 billion.
+  – Management expects current-quarter revenue of $61.5 billion, plus or minus $1.5 billion.
+  – That midpoint would deliver another 13.4% increase from the latest quarter.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-stocks-drop-61-5-175117088.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 14h51
+id: E05-MU-1474c75fd3-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · MU · Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips, SK Hynix Drifts
 Yahoo Finance · 01/10 11h16 · fonte única · licença: resumo
@@ -30,7 +71,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 11h16
-id: E05-MU-9341a20a71-2026-10-01 · status: pendente
+id: E05-MU-9341a20a71-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Agenda de empresas: Cade aprova compra de fatia do Assaí; Petrobras recebe parcela de subvenção
 Valor Economico · 01/10 08h27 · fonte única · licença: resumo
@@ -272,8 +313,19 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (144)
+## OUTRAS NOTÍCIAS (só manchete) (155)
 
+· PETR4 Petrobras eleva preço médio do querosene de aviação em 11,76% (Poder360) https://www.poder360.com.br/poder-energia/petrobras-eleva-preco-medio-do-querosene-de-aviacao-em-1176/
+· UST Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market (MarketWatch) https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d
+· PETR4 Ibovespa avança com Petrobras (PETR4) e melhora do humor externo; dólar sobe a R$ 5,22 (Money Times) https://www.moneytimes.com.br/ibovespa-1-10-26-lils/
+· USDBRL Dólar à vista fecha em forte alta em meio a maior risco global (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/01/dolar-a-vista-fecha-em-forte-alta-em-meio-a-maior-risco-global.ghtml
+· USDBRL Dólar acompanha o exterior e sobe quase 1% ante o real Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-097-a-r52239-na-venda-2081269
+· UST Update: US Equity Indexes Rise as Treasury Yields Slump Amid Sliding Probability of Fed Rate Increase in October (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-rise-treasury-194320637.html
+· LITE Why is Lumentum stock surging today? (Investing.com) https://in.investing.com/news/stock-market-news/why-is-lumentum-stock-surging-today-93CH-5615475
+· BTC Citigroup raises one year Bitcoin forecast to $113,000 (Fortune) https://news.google.com/rss/articles/CBMif0FVX3lxTE1IdXhBb19NY2pEc2xDRVJHemRtQ1lSV010RTFVTWpHNlB5S0R1VUNkOGZsb3NiMUd4WmJlVnNvOWtXUFpaNkx4UkpIU00yd2R0LWMtWWQ4c296bkk5SW14aHJVbWRUOWhYZVhqekVqbUYtUFRPZkNjWXZuNU5YaFk?oc=5
+· VALE3 VALE3 testa região decisiva: o que pode definir os próximos passos da ação (InfoMoney) https://news.google.com/rss/articles/CBMif0FVX3lxTE02dGNGWUJMVzBkREU5cWJsdUs5emtEbFFYSWtIOWVkM3ZlaDRjNTJsLWJ2dDBuQ0NybnpXcVJqOGVlZEVMRUtpX3VIQ3E5QUpJZVE5UXVOWEUwREUwQXREbExuajcwUU9WX21QbVhtcEFhTFU2ZFlFTHhnWVA5SmPSAYQBQVVfeXFMTU9saUxMbDZoRXJzUXNSd21VVjBfdkpoTHZTeWJfS1J6aFk1ekpweTMwMXdqdE9CVTN1Z0FFSDVCSll4OEh4NVpIQXcxNUpkaW1rSkZ5RGR5VUE5aFVDN2RTREI5WlQtdlJGVGY3Tk1KNWI5NUFCdUk2emRzeW1ZeEF2aUxq?oc=5
+· MU Analysts Double Down on Micron Stock After Earnings (TradingView (Reuters)) https://news.google.com/rss/articles/CBMisAFBVV95cUxPTkFiejN0WnhQb05wVDhxMmZxb0FGOVFoZTdDRGFpVTNoMGtiZjZ4M203VnNDZkY2TUphRjlSd3pTU2M0dVZsUy0tNG9VUUl1eUZlMkg5RnhoUXktS3QtTHFzekR0Z0lxRHg1VHBLenlOQmpKcVJvcjhPSVhqaXVORzdNQzFNbEllTG9jeFFtNWlFTzkzaUZFRThjYkF3dGduUk1PNnBjdTNOb2Y2c2o3MA?oc=5
+· NOK Nokia, ICEYE Plan Sovereign Satellite Networks for Governments, Defense (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixwFBVV95cUxQLW5laTBJLTk2RmxBVzZNVWlDVmtTQVpRZnU1VlVWQzVoc3pjbksxaDRCZHZPM3g5Ty1OcGRUejlMZ1IwTE8zOWJLMlltUENoVnl1QnZ6TV9uc3owR1E2MnJhd1N2Y3dTcURXU1RabEg0X2Z0TlRFZTFweU5FVXYzWDFjX2JQbWFjNHlvUXdPVXdDU0pENG9yTl9WWjFPeG9wR0tHQjlZZjUyRDdJQkJpYmZHYlZPRjdmdjZNbHlXdGdCRHVja1lJ?oc=5
 · USDBRL Dólar à vista fecha em alta de 0,97%, a R$5,2239 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/01/dolar-a-vista-fecha-em-alta-de-097-a-r52239-na-venda.htm
 · USDBRL Dólar sobe a R$ 5,22 com aversão a risco global e eleições em foco (Money Times) https://www.moneytimes.com.br/dolar-1-10-26-lils/
 · PLTR Andy Burnham searches for UK alternative to Palantir (Financial Times) https://www.ft.com/content/9a6e17fe-55e4-4a6d-8761-8346ec765ba9?syn-25a6b1a6=1
@@ -323,15 +375,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · BRENT Brent oil rises back above $100 as Chinese refiners reportedly ban October fuel exports (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTE5yODZYTkUzZ09LMVducjBvQ1czQUc2WFdZNmVuUUpDVnpZMEJfMGhpWkkzQlRLUGprcDNielYycW8xYU5peDhhcy1pbzNJUVo1YkV0MjktUVliQ3NTc1ZNOXpDSUtubXZIYnBGOS04NDTSAXZBVV95cUxOQU83cmR3ZHl6YWl1V2RNcFRXbzJqRkFKZktLMkVobTBKMGxibmxDcEQwWjFqdXFQcFozSUVpVUhvZF85SDNCQzZxVk42RjdTWXdWcXd6SkNmWWlLVy1iT0l0NHlRUHNJOG5UZEQ5NlhoMHNmWnVB?oc=5
 · UST Global bond rout deepens, pushes US Treasury yields to 24-year peak (Reuters) https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5
 · UST Wall Street dips as surging Treasury yields outweigh software gains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
-· LITE Coherent Jumps 10% on PhotonLink Push and Bernstein’s Outperform Start; Lumentum Rises 9%, Corning Advances 3% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXN2QVdlN1l2cGJfVW4wbW9kWUlleUR1bGtLSW5oUVB6OEFoeVROT3AxeDBpcl9oTHRQLUczWHNxd3lRTFI2NHNvamlBVGU2dURvY25jLUJyNFlUcDBXMEFQb3dhbmswXzBxN2l1cUlxZUJfcVc3RlBtVUJ2dGtPelczb1FyTS1RWnhTUm5fdzVhSmdaWXNsYVN1QnpvNm8?oc=5
-· NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXN6Y29CQkRQNlcwbXJFMl9RSEJ0ZUtnZ3g1WWl5Z2YwMVdLTVQ0dTNiaXlRNGtoY3R2TlZRWDQ0eUQ0TElGZmZMdFV2ZEFFeFZxYmlGODhObTllem16RnM3RDdMMjZHb0lrRGw0UHVqOElnVFM4a1NrRlU0RjFhbUZ5N1dHNjljdkl2dHdabnZ2bUVXZjVnR3BXQzE2b2RfVFVNcmZ3?oc=5
-· UST Watch Odd Lots: Why Are Global Bond and US Treasury Yields Rising? (Bloomberg) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV0dJbVJjSWVFRGJ3S3RNVWVkTTl3UzdfZVlPektoWGZPYVl4dVdQb05NSkM5WjBOUkF2eWlsUkRzY2FkWGxvbC14S0UydkRVR0hibXZVcXA4MGJHVlFxOXNNT09MdzVXYm95SmIwYWlzNkU2dkFWakluNVJlR2o2anAyS3NJWnJXYXotY0JZdXd3QVVjRkJudHlxaGxHMG12eF9VanRIQ1ZaN3M?oc=5
-· MU Broadcom lends Anthropic $42B, Nike releases Caitlin 1s, and Micron earnings takeaways (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxQOUl6R3ZTSHU1TVROOTFLMDhlMWhjTDRiWm9mWTJ6V0plQkJlaG9WU1ItUnVieTZtTG5XSmVPZ1BxUGJnVHhvOHZlM2o1alN5RDNldll6U0ZOdEw1VkI2V3RDVjF3OUdJRDh5aGlJb0VfNC1fbzVwaGZXLTA4WUxhMDVyaGx4WlU?oc=5
-· JPM JPMorgan ETFs (Ireland) ICAV: Dividend Declaration (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXJfZHBaWTVFVXloTmRZNTk3Uk02bVRHQVpFTjRkaUhMNlEwSGZYVGxrdWFOWTdHam9RaWNrZFFnR2c4VUNlZURLVVFpMFl1a0syZ1ZxWHJ0VER5WTRsNjEtWkt6ZHpoNm5mcVJPS3VLYVVNVVdvNjM2Y3B5U2JGdk1Rcnd2OXNLQm5pcnJELWlPS3BocElTQm1aaVNnMjJFbVE?oc=5
-· USDBRL Dólar avança e Bolsa cai antes de nova pesquisa Datafolha e com alta dos Treasuries (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
-· COHR Coherent’s Next AI Growth Engine Is Emerging (NYSE:COHR) (Seeking Alpha) https://seekingalpha.com/article/4951422-coherents-next-ai-growth-engine-is-emerging
-· COHR Why Coherent (COHR) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:7f9bc9578094b:0-why-coherent-cohr-stock-is-trading-up-today/
-· BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/citi-hikes-bitcoin-ethereum-price-164116897.html
-· MU Micron Revenue Surges 379%: 4 Top AI Chip Stocks (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4951414-micron-revenue-surges-379-percent-4-top-ai-chip-stocks
-· UST Global bond rout deepens, pushes US Treasury yields to 24-year peak (Reuters) https://www.reuters.com/business/bonds-teeter-after-us-treasuries-worst-quarter-since-1994-2026-10-01/
-· (+84 manchetes; lista completa em eventos/noticias.json)
+· (+95 manchetes; lista completa em eventos/noticias.json)
