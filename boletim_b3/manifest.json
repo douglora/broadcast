@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-01T03:40:29Z",
+ "gerado_em": "2026-10-01T03:43:27Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -45,7 +45,7 @@
     "no_cache": 3297
    },
    "falhas": {},
-   "segundos": 21
+   "segundos": 22
   },
   "2026-09-30": {
    "completo": false,
@@ -75,7 +75,7 @@
    "falhas": {
     "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
    },
-   "segundos": 18
+   "segundos": 29
   }
  },
  "falhas": [],
