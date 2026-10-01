@@ -1,0 +1,17 @@
+A seção traz informações de volume financeiro e quantidade de contratos referentes aos Certificados de Operações Estruturadas (COE), com base nas emissões.
+Estoque
+COEs (Certificados de Operações Estruturadas) são instrumentos emitidos por instituições financeiras que combinam diferentes ativos.
+Esta tabela traz informações sobre quantidade e valor dos COEs que estão atualmente disponíveis para negociação no mercado.
+Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no  Glossário
+Instrumento financeiro Quantidade contratos Volume financeiro (R$)
+COE 428.748 104.795.084.716,07
+Registro
+COEs (Certificados de Operações Estruturadas) são instrumentos emitidos por instituições financeiras que combinam diferentes ativos.
+Esta tabela traz os COEs registrados na B3, incluindo detalhes sobre cada emissão, como características, condições e datas de emissão.
+Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no Glossário
+Instrumento financeiro Quantidade contratos Volume financeiro (R$)
+COE 715 252.584.824,05
+Boletim Diário do Mercado
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 186
+Coe
+1

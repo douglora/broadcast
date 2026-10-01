@@ -1,0 +1,58 @@
+{
+ "gerado_em": "2026-10-01T01:14:40Z",
+ "cliente_http": "curl_cffi",
+ "partes": {
+  "descoberta": {
+   "paginas": {
+    "https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/boletim-diario/boletim-diario-do-mercado/": 200,
+    "https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/boletins-diarios/pesquisa-por-pregao/pesquisa-por-pregao/": 200,
+    "https://arquivos.b3.com.br/bdi/": 200,
+    "https://arquivos.b3.com.br/bdi/tabelas?lang=pt-BR": 200,
+    "https://www.googletagmanager.com/ns.html?id=GTM-NXGFHZ4": 200,
+    "https://atendimento.b3.com.br/$sn-va-web-client-app.do?sysparm_branding_key=sap&amp;sysparm_portal=atendimento": 200
+   },
+   "scripts": 11,
+   "falhas": []
+  }
+ },
+ "pregoes": {
+  "2026-09-30": {
+   "cadernos": [
+    "BDI_02",
+    "BDI_02-0",
+    "BDI_02-1",
+    "BDI_02-3",
+    "BDI_03-1",
+    "BDI_04-2"
+   ],
+   "arquivos": [
+    "InstrumentsConsolidated",
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ]
+  },
+  "2026-09-29": {
+   "cadernos": [
+    "BDI_00",
+    "BDI_02",
+    "BDI_02-0",
+    "BDI_02-1",
+    "BDI_02-3",
+    "BDI_03-1",
+    "BDI_03-3",
+    "BDI_03-4",
+    "BDI_04-1",
+    "BDI_04-2",
+    "BDI_04-3"
+   ],
+   "arquivos": [
+    "DerivativesOpenPosition",
+    "InstrumentsConsolidated",
+    "MarginScenarioLiquidAssets",
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ]
+  }
+ },
+ "falhas": []
+}

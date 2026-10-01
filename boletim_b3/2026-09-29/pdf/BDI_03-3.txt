@@ -1,0 +1,1407 @@
+São contratos financeiros negociados diretamente entre as partes envolvidas, geralmente através de instituições financeiras, e podem incluir uma variedade de instrumentos.
+Estoque com CCP
+Transações liquidadas por meio de uma Câmara de Compensação Central (CCP), que atua como intermediária. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no
+Glossário
+Instrumento financeiro Quantidade contratos Volume financeiro (R$)
+Opção 539.849 95.719.032.974,71
+Swap 18.111 44.931.769.377,31
+Termo 136 1.186.034.831,68
+Estoque sem CCP
+Transações realizadas diretamente entre as partes, sem a intermediação de uma Câmara de Compensação Central (CCP). Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão
+disponíveis no Glossário
+Instrumento financeiro Quantidade contratos Volume financeiro (R$)
+BOX 79 4.777.262.465,70
+Opção Flexível 418.116 814.733.513.934,53
+Swap 192.423 2.892.403.618.543,82
+Termo 125.770 1.505.555.894.166,22
+Opções flexíveis
+Lista as opções flexíveis de derivativos de renda fixa, destacando suas características e volumes negociados. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no
+Glossário
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+A1MD4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 1 43.670,00 21,98 431,39
+A1MD4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 3 187.384,00 19,83 467,87
+AAPL4 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 2 287.250,00 3,43 89,91
+ABEV3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 15.200,00 0,61 15,88
+ABEV3 Compra Opção Flexível de Compra de Ações e Units 22/02/2027 1 2.280.000,00 0,41 16,50
+ABEV3 Compra Opção Flexível de Compra de Ações e Units 24/10/2028 1 1.520.000,00 1,82 18,32
+ABEV3 Compra Opção Flexível de Compra de Ações e Units 09/11/2026 1 16.720,00 0,40 15,27
+ABEV3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 1 25.840,00 1,02 17,56
+ALOS3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 4 74.282,00 0,85 29,85
+ALOS3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 34.284,00 0,86 29,87
+ALOS3 Compra Opção Flexível de Compra de Ações e Units 02/07/2027 1 114.280,00 3,12 31,65
+ALOS3 Compra Opção Flexível de Compra de Ações e Units 02/10/2028 3 188.562,00 3,24 38,26
+ALPA4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 19.936,00 0,42 14,80
+ALUP Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 12.620,00 0,37 33,38
+AMZO4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 19 1.245.241,00 3,21 75,83
+AMZO4 Compra Opção Flexível de Compra de Ações e Units 07/10/2027 4 221.687,00 4,50 73,14
+AMZO4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 2 64.500,00 1,16 68,06
+AMZO4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 10 827.794,00 1,92 66,92
+ASAI3 Compra Opção Flexível de Compra de Ações e Units 29/09/2028 1 44.880,00 1,26 10,54
+ASAI3 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 2 47.736,00 0,21 11,85
+ASML4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 3 53.981,00 5,24 180,98
+ASML4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 79.195,00 8,73 183,25
+ASML4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 62.104,00 5,24 181,68
+AURA3 Compra Opção Flexível de Compra de Ações e Units 30/11/2026 19 9.640.850,00 4,16 148,20
+AURA3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 2 57.036,00 7,65 205,53
+AVGO4 Compra Opção Flexível de Compra de Ações e Units 30/11/2026 5 996.766,00 0,80 27,94
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 16 1.197.680,00 3,02 61,98
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 16 1.328.336,00 0,97 56,69
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 13/01/2028 1 201.428,00 2,56 71,24
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 29/09/2027 2 65.328,00 1,64 67,95
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 20 642.392,00 4,81 58,03
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 11/04/2028 4 794.824,00 1,37 63,98
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 20/10/2026 1 103.436,00 1,57 55,90
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 26/10/2026 2 76.216,00 1,69 55,35
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 5 157.876,00 5,30 63,02
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 22/12/2026 2 65.328,00 2,01 59,87
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 02/07/2027 1 130.656,00 5,08 60,28
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 9 590.130,00 2,28 58,25
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 3 81.660,00 1,82 56,54
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 1 70.718,00 2,74 59,13
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 11 952.972,00 1,55 58,24
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 20 2.694.780,00 1,58 57,28
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 10/02/2027 1 38.108,00 2,28 61,38
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 3 65.328,00 1,46 63,07
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 2 81.660,00 1,35 61,96
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 25/04/2029 1 424.632,00 6,03 65,76
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 27/10/2028 3 54.440,00 6,30 73,15
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 17/11/2026 3 604.284,00 2,28 54,80
+AXIA3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 1 48.996,00 2,20 58,09
+AZZA3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 1.552,00 1,05 18,01
+B3SA3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 38.852,00 0,36 19,75
+B3SA3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 4 116.556,00 0,52 18,85
+B3SA3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 4 105.960,00 0,22 18,78
+B3SA3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 75.938,00 3,13 20,59
+B3SA3 Compra Opção Flexível de Compra de Ações e Units 02/04/2027 2 120.088,00 0,27 18,36
+BABA4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 2.022,00 0,30 20,77
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 4 128.941,00 1,33 22,93
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 10/11/2026 8 567.336,00 0,90 24,91
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 30/11/2026 2 83.811,00 0,95 24,24
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 24/11/2026 1 107.450,00 0,95 22,48
+Boletim Diário do Mercado
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 186
+Derivativos de balcão
+1
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 02/07/2027 3 322.350,00 1,97 24,43
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 04/11/2026 1 279.370,00 0,73 23,94
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 17 528.654,00 0,66 23,02
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 9 285.817,00 1,10 24,37
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 1 23.639,00 1,10 23,37
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 8 285.817,00 1,29 24,91
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 10 614.614,00 1,55 24,79
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 22/12/2026 1 49.427,00 0,86 23,36
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 28/01/2027 6 202.006,00 0,49 24,25
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 02/10/2028 2 227.794,00 2,64 29,26
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 06/10/2026 2 68.768,00 0,28 22,92
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 29/10/2026 1 244.986,00 1,06 22,92
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 03/05/2027 2 300.860,00 1,01 23,36
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 01/03/2027 1 30.086,00 1,61 24,24
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 06/09/2027 1 242.837,00 3,09 22,04
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 45 3.107.454,00 0,85 23,21
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 7 380.373,00 0,77 25,18
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 21/12/2026 2 32.235,00 0,81 26,45
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 07/01/2027 1 47.278,00 1,18 23,14
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 2 15.043,00 0,55 23,15
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 15/12/2026 4 655.445,00 1,23 24,79
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 108 9.234.253,00 1,28 24,74
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 27.937,00 0,66 23,48
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 11/11/2026 4 1.091.692,00 1,46 23,14
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 9 240.688,00 1,66 24,56
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 29/03/2027 1 103.152,00 0,88 25,13
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 1 23.639,00 0,80 24,24
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 07/12/2026 4 1.138.970,00 1,41 24,25
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 14 666.190,00 1,16 24,11
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 18/12/2026 8 309.456,00 1,27 24,80
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 05/11/2026 8 1.353.870,00 1,28 23,14
+BBAS3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 3 103.152,00 1,37 24,25
+BBDC3 Compra Opção Flexível de Compra de Ações e Units 18/12/2026 1 24.976,00 0,44 17,84
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 07/12/2026 1 40.618,00 0,87 17,78
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 12 660.484,00 0,75 19,15
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 1 2.472.400,00 1,50 17,75
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 13 911.256,00 1,04 19,02
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 30/11/2026 1 17.660,00 0,62 18,94
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 28/10/2027 1 10.596,00 1,39 20,62
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 19/09/2028 2 35.320,00 2,07 23,36
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 63.576,00 0,40 20,34
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 2 914.788,00 0,71 18,82
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 18/01/2027 2 2.649.000,00 0,67 18,50
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 6 1.232.668,00 0,93 18,93
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 09/12/2026 14 7.883.424,00 4,26 13,90
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 19 1.368.650,00 1,37 17,19
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 3 120.088,00 0,32 19,00
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 27/11/2026 3 455.628,00 2,04 17,78
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 3 273.730,00 0,53 18,25
+BBDC4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 5 203.796,00 0,29 19,73
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 03/09/2027 2 7.676,00 4,61 38,76
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 29/09/2028 2 15.352,00 2,71 38,76
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 11/04/2028 2 383.800,00 0,97 43,05
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 3.838,00 3,88 40,31
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 2 575.700,00 5,96 33,31
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 57.570,00 2,64 44,96
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 2 49.894,00 1,39 43,09
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 49.894,00 0,49 39,92
+BBSE3 Compra Opção Flexível de Compra de Ações e Units 07/01/2027 1 76.760,00 0,91 40,70
+BCPX9 Compra Opção Flexível de Compra de Ações e Units 22/03/2028 2 384.420,00 2,92 47,95
+BEEF3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 4 437.090,00 0,04 4,40
+BEEF3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 2 48.120,00 0,05 4,17
+BOVV Compra Opção Flexível de Compra de Ações e Units 04/10/2027 1 92.169,00 18,98 197,32
+BOVX Compra Opção Flexível de Compra de Ações e Units 17/11/2026 1 31.977,00 1,24 18,91
+BOVX Compra Opção Flexível de Compra de Ações e Units 21/09/2029 7 325.338,00 1,72 28,74
+BOVX Compra Opção Flexível de Compra de Ações e Units 01/11/2027 1 9.405,00 1,03 22,12
+BOVX Compra Opção Flexível de Compra de Ações e Units 01/12/2026 2 75.240,00 0,66 20,33
+BOVX Compra Opção Flexível de Compra de Ações e Units 11/11/2026 17 2.865.629,00 0,91 19,86
+BOVX Compra Opção Flexível de Compra de Ações e Units 18/12/2026 22 7.235.642,00 0,46 21,28
+BOVX Compra Opção Flexível de Compra de Ações e Units 28/09/2028 3 141.075,00 1,12 24,96
+BOVX Compra Opção Flexível de Compra de Ações e Units 09/11/2026 1 70.538,00 0,46 19,57
+BOVX Compra Opção Flexível de Compra de Ações e Units 29/09/2028 1 92.169,00 1,10 25,15
+BOVX Compra Opção Flexível de Compra de Ações e Units 16/11/2026 8 293.436,00 0,91 19,29
+BOVX Compra Opção Flexível de Compra de Ações e Units 13/12/2027 4 442.788,00 0,63 28,37
+BOVX Compra Opção Flexível de Compra de Ações e Units 18/01/2027 4 1.391.940,00 0,42 21,56
+BOVX Compra Opção Flexível de Compra de Ações e Units 18/11/2026 2 90.288,00 0,35 21,28
+BOVX Compra Opção Flexível de Compra de Ações e Units 08/10/2027 2 15.612,00 0,82 21,75
+BOVX Compra Opção Flexível de Compra de Ações e Units 24/11/2026 10 2.655.972,00 0,42 20,81
+BOVX Compra Opção Flexível de Compra de Ações e Units 03/05/2027 2 4.790.061,00 0,94 21,05
+BOVX Compra Opção Flexível de Compra de Ações e Units 17/12/2026 6 1.357.894,00 1,32 19,86
+BOVX Compra Opção Flexível de Compra de Ações e Units 11/10/2028 5 39.971,00 1,11 25,24
+BOVX Compra Opção Flexível de Compra de Ações e Units 01/10/2029 8 268.644,00 1,31 28,74
+BPAC Compra Opção Flexível de Compra de Ações e Units 06/09/2027 1 80.925,00 10,87 56,56
+BPAC Compra Opção Flexível de Compra de Ações e Units 02/12/2026 4 647.400,00 3,10 68,00
+BPAC Compra Opção Flexível de Compra de Ações e Units 04/01/2028 18 2.306.985,00 3,59 66,01
+BPAC Compra Opção Flexível de Compra de Ações e Units 01/10/2027 12 311.250,00 3,37 68,49
+BPAC Compra Opção Flexível de Compra de Ações e Units 25/09/2029 1 49.800,00 9,29 95,17
+BPAC Compra Opção Flexível de Compra de Ações e Units 22/12/2026 1 12.450,00 2,56 69,13
+BPAC Compra Opção Flexível de Compra de Ações e Units 27/04/2027 1 43.575,00 4,07 71,02
+BPAC Compra Opção Flexível de Compra de Ações e Units 01/04/2027 1 43.575,00 5,11 69,14
+BPAC Compra Opção Flexível de Compra de Ações e Units 08/09/2028 2 74.700,00 9,58 82,38
+BPAC Compra Opção Flexível de Compra de Ações e Units 04/10/2027 6 286.350,00 5,98 66,65
+BPAC Compra Opção Flexível de Compra de Ações e Units 27/09/2029 1 18.675,00 10,88 95,53
+BPAC Compra Opção Flexível de Compra de Ações e Units 10/11/2026 6 37.350,00 2,52 72,28
+BPAC Compra Opção Flexível de Compra de Ações e Units 16/11/2026 5 74.700,00 1,89 65,56
+BPAC Compra Opção Flexível de Compra de Ações e Units 30/03/2027 3 118.275,00 3,72 70,82
+BPAC Compra Opção Flexível de Compra de Ações e Units 12/01/2027 2 180.525,00 3,55 65,36
+BPAC Compra Opção Flexível de Compra de Ações e Units 03/10/2028 20 1.518.900,00 7,45 73,32
+BPAC Compra Opção Flexível de Compra de Ações e Units 05/04/2027 6 417.075,00 3,03 74,10
+BPAC Compra Opção Flexível de Compra de Ações e Units 29/01/2027 1 31.125,00 7,04 62,85
+BPAC Compra Opção Flexível de Compra de Ações e Units 15/10/2026 18 572.700,00 1,50 64,96
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1862
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+BPAC Compra Opção Flexível de Compra de Ações e Units 01/10/2029 5 292.575,00 7,49 74,75
+BPAC Compra Opção Flexível de Compra de Ações e Units 31/03/2028 2 43.575,00 7,11 77,31
+BPAC Compra Opção Flexível de Compra de Ações e Units 30/10/2026 11 722.100,00 1,26 66,21
+BPAC Compra Opção Flexível de Compra de Ações e Units 30/09/2027 17 1.232.550,00 5,75 66,28
+BPAC Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 149.400,00 7,34 57,93
+BPAC Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 24.900,00 2,62 66,31
+BPAC Compra Opção Flexível de Compra de Ações e Units 02/02/2027 2 121.388,00 1,68 74,62
+BRAP4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 164.720,00 0,28 21,51
+BRAP4 Compra Opção Flexível de Compra de Ações e Units 07/12/2026 2 65.888,00 0,81 20,24
+BSIL9 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 33.893,00 1,35 46,83
+CEAB3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 264.702,00 2,68 14,46
+CEAB3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 942.000,00 0,66 9,50
+CHIP Compra Opção Flexível de Compra de Ações e Units 01/10/2029 2 578.550,00 3,65 38,81
+CMIG4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 19.512,00 0,44 11,40
+CMIG4 Compra Opção Flexível de Compra de Ações e Units 04/01/2027 1 13.008,00 0,24 11,51
+CMIG4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 542.000,00 0,41 10,95
+CMIG4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 298.100,00 0,11 11,71
+CMIN3 Compra Opção Flexível de Compra de Ações e Units 14/01/2027 12 1.118.070,00 0,41 5,24
+CMIN3 Compra Opção Flexível de Compra de Ações e Units 01/02/2027 1 55.550,00 0,40 5,24
+COCA4 Compra Opção Flexível de Compra de Ações e Units 29/10/2026 46 1.677.312,00 1,64 87,17
+COGN3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 2 41.567,00 0,07 2,29
+CPLE3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 357.504,00 0,41 16,25
+CPLE3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 1 20.384,00 0,79 16,23
+CPLE3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 3 166.208,00 0,43 16,81
+CPLE3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 1 36.064,00 1,20 18,11
+CPLE3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 1 31.360,00 0,07 17,32
+CSAN3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 29.920,00 0,05 4,27
+CSAN3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 504.900,00 0,50 4,71
+CSMG3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 33.828,00 1,16 59,78
+CSNA3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 293.510,00 1,81 8,21
+CSNA3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 29.950,00 0,08 5,82
+CSNA3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 59.900,00 0,08 5,72
+CURY3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 8 99.324,00 0,36 29,73
+CURY3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 4 132.432,00 0,50 32,13
+CURY3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 1 11.036,00 3,95 33,03
+CURY3 Compra Opção Flexível de Compra de Ações e Units 07/10/2026 2 71.734,00 0,29 29,87
+CURY3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 11.036,00 2,08 29,58
+CURY3 Compra Opção Flexível de Compra de Ações e Units 17/11/2026 4 1.202.924,00 1,08 30,88
+CURY3 Compra Opção Flexível de Compra de Ações e Units 22/09/2027 1 8.277,00 3,43 33,03
+CURY3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 9 1.244.309,00 3,31 35,43
+CVCB3 Compra Opção Flexível de Compra de Ações e Units 14/10/2026 2 14.700,00 0,07 1,48
+CXSE3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 32.176,00 0,14 20,71
+CXSE3 Compra Opção Flexível de Compra de Ações e Units 28/12/2026 1 8.044,00 0,52 21,72
+CXSE3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 2 12.066,00 1,38 23,13
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 1 119.889,00 1,36 30,39
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 03/11/2026 3 809.165,00 1,03 28,62
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 23.879,00 0,38 27,13
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 10 565.089,00 0,57 27,50
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 10/11/2026 8 530.600,00 1,17 31,20
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 29/01/2027 3 23.877,00 4,32 27,13
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 26/01/2027 2 37.142,00 1,62 33,10
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 16 278.565,00 0,81 28,46
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 23/12/2026 2 100.814,00 0,97 28,22
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 3 76.937,00 0,76 30,35
+CYRE3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 79.749,00 0,81 29,36
+DIRR3 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 1 67.822,00 0,51 11,38
+DIRR3 Compra Opção Flexível de Compra de Ações e Units 04/11/2027 4 38.800,00 0,25 11,94
+DIRR3 Compra Opção Flexível de Compra de Ações e Units 05/10/2027 1 19.400,00 1,22 11,89
+DIRR3 Compra Opção Flexível de Compra de Ações e Units 25/09/2029 1 46.560,00 2,05 15,38
+DIRR3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 6 54.320,00 0,15 10,96
+DIRR3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 98.940,00 0,51 10,59
+ECOR3 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 2 6.928,00 0,21 9,20
+ECOR3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 5 238.150,00 0,50 9,84
+EGIE3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 40.418,00 1,17 30,31
+EGIE3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 4 150.124,00 0,53 30,60
+EGIE3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 46.192,00 1,46 32,05
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 21/08/2029 1 10.044,00 18,82 150,25
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 8 301.320,00 10,95 108,57
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 1 40.176,00 5,03 102,47
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 11/04/2028 2 301.320,00 2,51 119,07
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 25/09/2029 3 40.176,00 17,64 154,21
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 03/08/2027 14 677.970,00 8,15 108,57
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 13 492.156,00 15,91 152,70
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 01/02/2027 1 100.440,00 5,22 108,50
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 10 1.426.248,00 7,62 110,01
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 2 30.132,00 6,60 107,69
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 2 80.352,00 2,01 106,31
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 4 135.594,00 4,12 117,61
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 29/04/2027 1 20.088,00 6,46 115,53
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 401.760,00 7,50 95,00
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 16/10/2026 126 6.088.668,00 2,44 118,55
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 2 70.308,00 6,13 110,51
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 03/12/2026 1 10.044,00 2,06 107,49
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 28/09/2029 2 160.704,00 17,39 153,70
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 15/02/2027 2 4.379.184,00 22,96 71,33
+EMBJ3 Compra Opção Flexível de Compra de Ações e Units 06/09/2027 2 361.584,00 28,90 74,51
+ENEV3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 3 53.500,00 1,40 27,91
+ENEV3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 176.550,00 0,56 28,70
+ENEV3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 802.500,00 1,04 29,81
+ENEV3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 8 278.200,00 0,71 28,00
+ENEV3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 40.125,00 1,08 28,18
+ENGI Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 10.180,00 1,56 53,55
+ENGI Compra Opção Flexível de Compra de Ações e Units 29/12/2026 10 223.960,00 2,22 56,15
+ENGI Compra Opção Flexível de Compra de Ações e Units 30/10/2026 10 651.520,00 1,18 53,93
+ENGI Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 111.980,00 2,52 56,29
+ENGI Compra Opção Flexível de Compra de Ações e Units 15/10/2026 2 20.360,00 0,65 54,56
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 27.384,00 3,25 45,74
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 23/11/2026 1 97.800,00 0,93 40,96
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 2 97.800,00 1,61 42,39
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 15/12/2026 1 1.944.264,00 1,19 42,36
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 62.592,00 6,96 45,74
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1863
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 6 43.032,00 1,19 40,73
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 27/11/2026 11 907.584,00 4,57 39,77
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 6 195.600,00 1,17 41,56
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 10/09/2029 2 133.008,00 4,96 51,70
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 11.736,00 3,50 45,74
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 27/10/2026 1 3.047.448,00 1,78 39,77
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 5 179.952,00 0,56 42,91
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 8 422.496,00 1,22 41,97
+EQTL3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 8 238.632,00 1,11 41,64
+FBC Compra Opção Flexível de Compra de BOVA11 30/03/2027 8 295.134,00 13,24 194,71
+FBC Compra Opção Flexível de Compra de BOVA11 24/11/2026 2 245.406,00 12,68 199,16
+FBC Compra Opção Flexível de Compra de BOVA11 17/12/2026 2 144.144,00 10,50 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 15/10/2026 2 45.513.468,00 0,88 196,48
+FBC Compra Opção Flexível de Compra de BOVA11 01/10/2029 3 288.288,00 29,93 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 10/11/2026 4 72.072,00 5,16 199,16
+FBC Compra Opção Flexível de Compra de BOVA11 29/12/2026 4 72.072,00 2,72 183,77
+FBC Compra Opção Flexível de Compra de BOVA11 05/04/2027 1 481.081,00 11,23 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 26/10/2028 1 126.126,00 17,20 199,16
+FBC Compra Opção Flexível de Compra de BOVA11 09/12/2026 6 3.387.384,00 4,54 199,16
+FBC Compra Opção Flexível de Compra de BOVA11 06/10/2028 5 473.874,00 7,24 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 02/03/2027 8 424.864,00 18,10 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 13/10/2026 8 273.874,00 1,54 192,82
+FBC Compra Opção Flexível de Compra de BOVA11 18/12/2026 11 3.271.348,00 11,02 185,99
+FBC Compra Opção Flexível de Compra de BOVA11 16/10/2026 12 2.990.988,00 1,49 194,27
+FBC Compra Opção Flexível de Compra de BOVA11 01/12/2026 1 450.450,00 10,86 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 19/11/2026 4 1.405.404,00 4,57 194,63
+FBC Compra Opção Flexível de Compra de BOVA11 24/08/2027 1 55.856,00 23,19 193,72
+FBC Compra Opção Flexível de Compra de BOVA11 22/09/2027 4 421.620,00 22,79 130,00
+FBC Compra Opção Flexível de Compra de BOVA11 28/10/2026 4 513.872,00 25,61 130,00
+FBC Compra Opção Flexível de Compra de BOVA11 23/11/2026 5 6.707.740,00 2,83 200,78
+FBC Compra Opção Flexível de Compra de BOVA11 04/01/2028 4 229.730,00 14,61 193,24
+FBC Compra Opção Flexível de Compra de BOVA11 07/10/2027 1 19.820,00 7,24 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 09/11/2026 14 3.044.320,00 5,36 190,11
+FBC Compra Opção Flexível de Compra de BOVA11 29/09/2028 2 972.972,00 12,67 181,05
+FBC Compra Opção Flexível de Compra de BOVA11 11/12/2026 14 2.320.718,00 4,65 199,16
+FBC Compra Opção Flexível de Compra de BOVA11 04/03/2027 4 481.081,00 6,79 187,20
+FCI Compra Opção Flexível de Compra de IBOVESPA 29/10/2026 4 1.463.928,00 6.095,80 186.000,00
+FLRY3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 1 49.312,00 1,93 25,33
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 4 286.027,00 2,30 25,76
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 5.018,00 0,73 25,08
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 5 286.026,00 1,29 25,61
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 5 90.324,00 0,44 25,40
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 361.296,00 0,82 25,13
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 09/11/2026 1 17.563,00 0,80 24,20
+GGBR4 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 112.905,00 4,24 27,83
+GMAT3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 3 95.545,00 0,15 5,21
+GMCO4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 41.604,00 2,74 111,41
+GOAU4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 2 224.000,00 0,54 11,26
+GOAU4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 20.160,00 0,32 11,17
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 59.556,00 2,04 152,60
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 5 152.612,00 7,41 174,96
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 2 75.934,00 3,86 163,99
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 2 59.556,00 2,67 156,66
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 19.505,00 14,82 148,27
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 1 59.556,00 4,45 153,99
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 02/03/2027 28 1.372.471,00 14,82 155,69
+GOGL4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 68.638,00 3,00 155,31
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 29/09/2028 2 13.398,00 1,58 22,55
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 04/09/2028 1 98.252,00 1,72 30,44
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 2 223.300,00 3,95 22,55
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 04/06/2027 4 386.756,00 1,31 23,47
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 07/10/2027 1 20.097,00 1,50 25,27
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 2 43.454,00 1,13 26,16
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 163.009,00 1,47 22,55
+GOLD1 Compra Opção Flexível de Compra de Ações e Units 06/10/2028 3 288.280,00 3,01 27,07
+GSGI4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 15.952,00 2,40 164,59
+HAPV3 Compra Opção Flexível de Compra de Ações e Units 14/10/2026 4 54.848,00 0,31 6,62
+HASH Compra Opção Flexível de Compra de Ações e Units 29/09/2028 2 285.250,00 3,99 57,00
+IGTI Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 36.316,00 0,78 26,98
+IGTI Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 72.632,00 1,52 25,72
+IGTI Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 62.256,00 0,46 27,38
+INBR2 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 5 1.009.964,00 0,49 27,34
+ISAE4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 16.074,00 1,07 27,78
+ISAE4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 4 460.788,00 2,72 24,28
+ISAE4 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 2 3.755.958,00 2,69 24,49
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 04/11/2026 2 99.450,00 4,12 108,63
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 25/02/2028 2 40.592,00 6,31 136,30
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 7 287.899,00 3,03 105,00
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 40.592,00 2,02 118,78
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 29.429,00 5,05 116,11
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 2 58.858,00 4,87 113,13
+ITLC4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 7 214.428,00 5,05 119,14
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 21/10/2027 1 11.160,00 0,90 16,38
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 23/03/2027 1 111.600,00 0,70 15,10
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 1 41.850,00 0,21 15,58
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 29/04/2027 1 51.615,00 0,71 15,79
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 1 55.800,00 0,57 14,87
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 225.990,00 0,40 14,61
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 1 26.505,00 0,45 15,58
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 160.425,00 0,14 14,97
+ITSA4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 20.925,00 0,57 14,73
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 29/09/2028 1 187.695,00 4,44 46,53
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 22/12/2026 4 241.918,00 1,32 46,53
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 1 98.978,00 2,12 47,38
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 20/09/2028 1 29.197,00 3,71 55,61
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 5 75.078,00 1,37 44,20
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 02/10/2028 1 16.684,00 4,42 56,05
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 30/04/2027 2 33.368,00 1,63 44,04
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 26/10/2026 2 16.684,00 1,20 42,72
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 03/05/2027 1 100.104,00 1,72 47,16
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 2 41.710,00 1,59 43,99
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1864
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 30/11/2026 2 125.130,00 2,73 42,30
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 11/04/2028 2 517.204,00 1,06 47,75
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 29/09/2027 2 75.078,00 1,21 46,53
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 13/04/2027 4 166.840,00 2,08 45,35
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 20/01/2027 10 554.743,00 1,55 44,92
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 37.539,00 7,40 48,65
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 4 350.280,00 3,28 40,59
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 01/11/2027 2 120.959,00 4,76 40,81
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 25.026,00 3,26 48,65
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 11 821.687,00 2,12 46,53
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 3 1.338.808,00 23,79 20,33
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 10/10/2028 17 400.416,00 4,31 56,26
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 11 467.152,00 1,02 45,21
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 6 1.671.695,00 1,87 45,28
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 21 1.376.430,00 0,87 44,03
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 1 158.498,00 1,27 48,22
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 2 367.048,00 1,28 46,54
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 26/10/2027 1 33.368,00 2,45 44,84
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 4 108.446,00 0,53 45,24
+ITUB4 Compra Opção Flexível de Compra de Ações e Units 27/10/2026 1 3.023.975,00 1,73 42,30
+IVVB Compra Opção Flexível de Compra de Ações e Units 06/10/2028 3 369.195,00 18,05 451,53
+IVVB Compra Opção Flexível de Compra de Ações e Units 01/10/2029 2 90.600,00 44,02 451,53
+IVVB Compra Opção Flexível de Compra de Ações e Units 30/03/2027 4 543.600,00 19,87 456,05
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 24.120,00 2,37 61,62
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 01/02/2027 3 144.720,00 5,87 59,25
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 11 539.143,00 0,89 61,60
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 1 72.360,00 2,96 62,75
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 8 699.179,00 2,38 62,22
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 14 8.157.444,00 2,19 67,77
+JBSS2 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 24.120,00 2,81 62,76
+JHSF3 Compra Opção Flexível de Compra de Ações e Units 02/10/2028 3 525.968,00 1,87 15,47
+JHSF3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 5 47.712,00 0,31 12,58
+JHSF3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 37.488,00 0,12 12,61
+JHSF3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 1 32.944,00 2,14 17,68
+JHSF3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 9 187.440,00 0,36 12,13
+JPMC4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 8 175.400,00 3,33 187,19
+JPMC4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 140.320,00 3,94 194,81
+KLBN Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 5.548,00 1,82 18,88
+KLBN Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 71.409,00 0,14 18,82
+KLBN Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 128.170,00 0,38 18,82
+KLBN Compra Opção Flexível de Compra de Ações e Units 30/09/2027 2 69.578,00 0,64 20,10
+KLBN Compra Opção Flexível de Compra de Ações e Units 30/12/2026 2 6.250.668,00 1,59 17,84
+LILY4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 110.684,00 4,66 217,50
+LILY4 Compra Opção Flexível de Compra de Ações e Units 02/03/2027 7 282.905,00 20,66 212,85
+LILY4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 33.660,00 10,33 216,99
+LILY4 Compra Opção Flexível de Compra de Ações e Units 07/10/2027 2 487.547,00 15,50 235,18
+LILY4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 6 315.946,00 22,12 223,32
+LILY4 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 4 260.190,00 6,15 235,72
+LREN3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 1 7.812,00 0,35 12,59
+LREN3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 42.408,00 0,34 12,04
+LREN3 Compra Opção Flexível de Compra de Ações e Units 15/12/2026 1 17.856,00 0,69 11,80
+LREN3 Compra Opção Flexível de Compra de Ações e Units 29/10/2026 1 156.240,00 0,23 11,79
+LREN3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 44.640,00 0,75 12,54
+LWSA3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 2 55.948,00 0,08 4,80
+LWSA3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 4 71.708,00 0,14 4,31
+LWSA3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 3 33.096,00 0,15 4,22
+M1RN4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 15.489,00 0,81 57,08
+M1TA4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 32.733,00 6,88 144,48
+M1TA4 Compra Opção Flexível de Compra de Ações e Units 13/11/2026 1 119.754,00 3,76 147,85
+M1TA4 Compra Opção Flexível de Compra de Ações e Units 02/03/2027 5 253.212,00 13,76 144,48
+M1TA4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 13.306,00 4,13 143,52
+M1TA4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 5 280.092,00 6,88 162,37
+M1TA4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 6 129.201,00 4,73 142,08
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 4 235.640,00 1,03 18,95
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 07/03/2028 1 24.080,00 1,59 22,75
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 5 56.760,00 0,37 17,80
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 72.240,00 1,29 18,54
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 01/11/2027 2 118.680,00 1,07 17,69
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 8.600,00 0,51 18,83
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 01/07/2027 2 856.560,00 2,14 19,94
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 13.760,00 0,51 18,44
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 7 555.560,00 0,95 18,94
+MBRF3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 8 2.211.920,00 0,55 18,28
+MELI4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 7.420,00 3,76 79,02
+MELI4 Compra Opção Flexível de Compra de Ações e Units 25/11/2027 10 474.880,00 2,08 88,05
+MELI4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 7 283.146,00 2,14 80,64
+MELI4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 6 89.040,00 1,19 80,99
+MGLU3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 26.400,00 0,13 8,18
+MGLU3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 30.360,00 0,20 7,77
+MGLU3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 287.100,00 0,49 6,99
+MGLU3 Compra Opção Flexível de Compra de Ações e Units 03/11/2026 8 633.600,00 0,38 7,10
+MGLU3 Compra Opção Flexível de Compra de Ações e Units 10/04/2028 2 166.320,00 0,16 9,46
+MGLU3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 2 36.300,00 0,20 7,28
+MOVI3 Compra Opção Flexível de Compra de Ações e Units 28/10/2026 7 1.691.448,00 0,17 9,71
+MOVI3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 54.534,00 0,21 10,85
+MOVI3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 78.672,00 0,14 10,28
+MRVE3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 3 67.209,00 0,16 5,69
+MRVE3 Compra Opção Flexível de Compra de Ações e Units 28/09/2029 2 245.912,00 1,44 8,23
+MRVE3 Compra Opção Flexível de Compra de Ações e Units 03/11/2026 2 979.480,00 0,48 5,85
+MRVE3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 2 67.730,00 0,19 5,92
+MSFT4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 3 89.968,00 1,90 115,14
+MULT3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 18.162,00 1,67 32,87
+MULT3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 6 260.322,00 0,92 31,46
+MUTC4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 4 861.711,00 46,59 1.099,52
+MUTC4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 134.186,00 46,59 1.006,34
+MUTC4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 24 70.238.617,00 61,87 985,26
+MUTC4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 1 182.566,00 27,95 1.022,18
+NASD Compra Opção Flexível de Compra de Ações e Units 04/10/2027 2 53.592,00 2,20 22,93
+NASD Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 219.252,00 2,20 22,04
+NASD Compra Opção Flexível de Compra de Ações e Units 06/10/2028 5 944.680,00 2,61 24,83
+NASD Compra Opção Flexível de Compra de Ações e Units 26/10/2028 3 336.600,00 2,29 24,68
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1865
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+NATU3 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 2 991.738,00 0,25 6,95
+NFLX4 Compra Opção Flexível de Compra de Ações e Units 01/11/2027 2 49.749,00 0,37 7,62
+NFLX4 Compra Opção Flexível de Compra de Ações e Units 27/10/2028 1 98.056,00 0,95 8,43
+NFLX4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 19.215,00 0,22 7,58
+NFLX4 Compra Opção Flexível de Compra de Ações e Units 26/11/2027 4 77.868,00 0,21 8,80
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 4 206.070,00 0,53 27,80
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 12.390,00 0,74 25,54
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 4 452.383,00 1,24 27,70
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 26/10/2026 3 1.092.798,00 0,49 25,47
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 17 845.940,00 1,68 27,33
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 4 104.993,00 1,43 27,43
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 33.676,00 1,24 25,97
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 2.478,00 0,37 25,78
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 3 339.784,00 1,03 26,14
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 02/03/2027 60 3.347.333,00 2,48 25,97
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 198.240,00 0,31 25,30
+NVDC4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 5 326.774,00 0,96 25,99
+OFC Compra Opção Flexível de Compra de Dólar 20/10/2026 1 2.815.128,00 0,11 5,23
+OFC Compra Opção Flexível de Compra de Dólar 29/09/2027 1 11.836.571,00 0,23 5,80
+OFC Compra Opção Flexível de Compra de Dólar 17/12/2026 6 969.654,00 0,15 5,50
+OFC Compra Opção Flexível de Compra de Dólar 01/07/2027 1 2.606.600,00 0,18 5,15
+OFC Compra Opção Flexível de Compra de Dólar 01/12/2026 2 5.291.398,00 0,14 5,40
+ORCL4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 47.183,00 3,62 127,10
+ORCL4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 3 76.541,00 6,04 142,43
+ORCL4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 2 31.106,00 3,62 122,88
+PAGS4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 3 27.960,00 0,22 9,98
+PAGS4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 33.552,00 0,12 10,12
+PETR3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 1 16.203,00 5,11 62,17
+PETR3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 1.620.300,00 3,09 62,71
+PETR3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 21.604,00 2,72 54,60
+PETR3 Compra Opção Flexível de Compra de Ações e Units 31/03/2027 1 129.624,00 15,10 40,54
+PETR4 Compra Opção Flexível de Compra de Ações e Units 27/10/2027 1 29.232,00 4,09 57,01
+PETR4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 3 68.402,00 1,97 51,58
+PETR4 Compra Opção Flexível de Compra de Ações e Units 29/09/2028 2 19.488,00 3,44 49,10
+PETR4 Compra Opção Flexível de Compra de Ações e Units 02/04/2027 1 501.816,00 1,23 51,57
+PETR4 Compra Opção Flexível de Compra de Ações e Units 09/11/2026 1 14.616,00 1,89 49,10
+PETR4 Compra Opção Flexível de Compra de Ações e Units 05/07/2027 2 58.464,00 3,28 51,34
+PETR4 Compra Opção Flexível de Compra de Ações e Units 26/10/2027 1 63.336,00 2,95 52,05
+PETR4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 11 160.776,00 2,09 53,64
+PETR4 Compra Opção Flexível de Compra de Ações e Units 18/12/2026 1 1.120.560,00 13,04 36,09
+PETR4 Compra Opção Flexível de Compra de Ações e Units 27/01/2027 1 1.461.600,00 1,50 55,00
+PETR4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 11 1.412.880,00 1,56 51,33
+PETR4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 496.944,00 0,61 50,33
+PETR4 Compra Opção Flexível de Compra de Ações e Units 26/10/2028 1 209.496,00 5,40 54,01
+PETR4 Compra Opção Flexível de Compra de Ações e Units 18/01/2027 1 487.200,00 14,54 35,20
+PETR4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 29.232,00 0,49 53,42
+PETR4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 3 7.434.672,00 2,47 56,89
+PETR4 Compra Opção Flexível de Compra de Ações e Units 04/11/2026 1 243.600,00 1,48 50,61
+PETR4 Compra Opção Flexível de Compra de Ações e Units 29/09/2027 6 370.272,00 3,98 56,96
+PETR4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 3 199.752,00 0,72 50,63
+PETR4 Compra Opção Flexível de Compra de Ações e Units 11/04/2028 4 1.792.896,00 1,23 55,90
+PRIO3 Compra Opção Flexível de Compra de Ações e Units 19/10/2027 1 6.163,00 5,84 71,46
+PRIO3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 2 86.282,00 1,54 67,88
+PRIO3 Compra Opção Flexível de Compra de Ações e Units 30/11/2026 2 147.912,00 2,93 61,60
+PRIO3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 3 332.802,00 4,11 66,29
+PRIO3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 55.467,00 1,82 64,06
+PRIO3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 154.075,00 1,54 67,76
+PYPL4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 39.348,00 0,42 14,41
+QCOM4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 3 55.348,00 2,44 85,45
+RADL3 Compra Opção Flexível de Compra de Ações e Units 21/12/2026 3 1.254.570,00 0,70 20,65
+RADL3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 1 194.370,00 0,71 20,70
+RADL3 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 1 81.282,00 1,42 19,95
+RADL3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 100.719,00 1,60 22,10
+RADL3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 17 653.790,00 0,49 18,86
+RADL3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 17.670,00 0,73 18,87
+RADL3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 14.136,00 0,29 19,22
+RADL3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 3 75.981,00 0,54 19,16
+RADL3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 120.156,00 0,36 20,02
+RAIL3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 1 88.256,00 1,10 18,35
+RAIL3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 133.960,00 0,33 16,50
+RAPT4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 23.750,00 0,07 5,11
+RDOR3 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 2 166.030,00 1,88 42,00
+RDOR3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 2 266.037,00 1,13 38,63
+RDOR3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 52.458,00 0,88 39,35
+RDOR3 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 4 311.040,00 1,77 40,63
+RDOR3 Compra Opção Flexível de Compra de Ações e Units 26/09/2028 1 11.241,00 5,44 49,88
+RDOR3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 22.482,00 0,71 37,50
+RECV3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 74.052,00 0,15 11,64
+RENT3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 4 327.058,00 2,36 41,02
+RENT3 Compra Opção Flexível de Compra de Ações e Units 11/11/2026 3 764.403,00 2,38 40,46
+RENT3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 11 365.088,00 0,79 42,94
+RENT3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 5 513.405,00 1,06 41,29
+RENT3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 2 30.424,00 2,00 46,63
+RENT3 Compra Opção Flexível de Compra de Ações e Units 08/12/2026 1 7.606,00 4,83 38,53
+RENT3 Compra Opção Flexível de Compra de Ações e Units 26/10/2026 1 7.606,00 1,16 40,46
+RENT3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 4 76.060,00 2,41 42,39
+RENT3 Compra Opção Flexível de Compra de Ações e Units 29/03/2027 3 273.816,00 1,66 43,54
+RENT3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 8 281.422,00 0,71 40,11
+RENT3 Compra Opção Flexível de Compra de Ações e Units 29/01/2027 2 19.015,00 6,06 38,53
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 2 79.575,00 0,37 11,22
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 8 205.729,00 0,21 11,51
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 6 862.423,00 0,16 11,34
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 115.650,00 0,43 11,32
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 6 808.482,00 0,39 11,98
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 3 12.732,00 0,21 11,47
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 3 165.516,00 0,37 11,12
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 8 609.282,00 0,47 11,63
+ROXO4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 16.976,00 0,17 11,09
+SANB Compra Opção Flexível de Compra de Ações e Units 30/12/2026 2 2.185.184,00 2,71 27,50
+SBFG3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 12.304,00 0,11 8,87
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 03/05/2027 10 377.175,00 1,33 30,31
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1866
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 29/09/2027 1 74.900,00 1,95 31,12
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 9 104.325,00 0,81 27,77
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 01/02/2027 1 21.400,00 1,34 29,22
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 3 42.800,00 1,68 29,06
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 10/11/2026 12 684.800,00 0,96 31,12
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 18 671.429,00 1,38 28,86
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 27/11/2026 2 676.775,00 0,60 27,06
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 2 312.387,00 1,36 29,16
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 26.750,00 0,54 28,20
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 13 866.700,00 0,63 28,94
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 31 2.410.175,00 1,13 28,08
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 26/10/2027 2 80.250,00 1,46 28,68
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 15/12/2026 1 32.100,00 1,22 28,14
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 3 96.300,00 2,06 31,87
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 16/02/2027 6 107.000,00 1,37 29,22
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 01/02/2028 1 98.975,00 2,74 32,61
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 10 337.050,00 0,49 29,14
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 20/09/2027 1 344.808,00 1,36 30,31
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 10/10/2028 9 160.500,00 3,24 35,99
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 12 644.675,00 1,16 28,95
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 12/01/2027 4 214.000,00 1,36 28,14
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 4 56.175,00 2,52 31,12
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 03/11/2026 4 353.100,00 0,28 28,69
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 1 26.750,00 1,76 29,77
+SBSP3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 4 64.200,00 1,39 29,36
+SMALL Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 141.700,00 1,10 120,10
+SMALL Compra Opção Flexível de Compra de Ações e Units 09/11/2026 1 30.520,00 4,10 114,04
+SMALL Compra Opção Flexível de Compra de Ações e Units 29/09/2028 1 29.975,00 8,92 144,74
+SMALL Compra Opção Flexível de Compra de Ações e Units 02/10/2028 1 34.335,00 8,19 146,38
+SMALL Compra Opção Flexível de Compra de Ações e Units 01/12/2026 8 256.150,00 5,65 117,88
+SMALL Compra Opção Flexível de Compra de Ações e Units 11/11/2026 9 4.481.099,00 6,84 115,13
+SMALL Compra Opção Flexível de Compra de Ações e Units 06/10/2028 1 101.915,00 4,37 109,65
+SMALL Compra Opção Flexível de Compra de Ações e Units 30/10/2026 4 267.922,00 5,48 115,14
+SMALL Compra Opção Flexível de Compra de Ações e Units 05/11/2026 1 359.700,00 7,12 109,65
+SMALL Compra Opção Flexível de Compra de Ações e Units 29/11/2027 1 98.100,00 5,84 137,06
+SMALL Compra Opção Flexível de Compra de Ações e Units 16/10/2026 2 590.780,00 1,02 123,47
+SMALL Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 109.000,00 6,24 128,27
+SMALL Compra Opção Flexível de Compra de Ações e Units 16/12/2026 2 283.400,00 6,16 117,88
+SMALL Compra Opção Flexível de Compra de Ações e Units 04/10/2027 4 106.711,00 5,48 120,62
+SMALL Compra Opção Flexível de Compra de Ações e Units 01/10/2027 1 31.610,00 4,87 132,68
+SMFT3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 4 30.294,00 0,46 17,60
+SMFT3 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 1 151.470,00 0,84 18,40
+SMFT3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 23.562,00 0,99 16,76
+SMTO3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 13.240,00 0,88 18,45
+SMTO3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 2 6.131,00 0,88 18,63
+SPCX4 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 2 10.110,00 2,60 54,85
+SPCX4 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 1 23.809,00 2,60 55,63
+SPCX4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 181.980,00 0,78 54,21
+SPCX4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 290.056,00 1,56 54,85
+SPCX4 Compra Opção Flexível de Compra de Ações e Units 06/10/2028 7 376.600,00 8,06 67,60
+SPCX4 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 1 55.605,00 0,83 53,48
+STOC4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 49.322,00 2,68 48,60
+SUZB3 Compra Opção Flexível de Compra de Ações e Units 04/01/2028 10 741.854,00 4,21 47,05
+SUZB3 Compra Opção Flexível de Compra de Ações e Units 01/03/2027 1 26.814,00 1,08 50,58
+SUZB3 Compra Opção Flexível de Compra de Ações e Units 28/09/2027 2 71.504,00 1,60 50,14
+SUZB3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 1 13.407,00 1,48 44,37
+SUZB3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 125.132,00 0,61 46,79
+SUZB3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 5 151.946,00 1,25 45,57
+TAEE Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 32.176,00 1,19 43,40
+TAEE Compra Opção Flexível de Compra de Ações e Units 29/01/2027 1 12.066,00 4,36 40,56
+TAEE Compra Opção Flexível de Compra de Ações e Units 30/12/2026 2 9.202.336,00 4,81 36,38
+TASA4 Compra Opção Flexível de Compra de Ações e Units 23/12/2026 4 1.455.420,00 0,94 7,78
+TEND3 Compra Opção Flexível de Compra de Ações e Units 02/12/2026 4 285.200,00 1,87 31,18
+TEND3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 2 85.560,00 0,55 31,31
+TEND3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 14.260,00 1,55 28,70
+TEND3 Compra Opção Flexível de Compra de Ações e Units 01/02/2027 2 205.344,00 0,68 30,89
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 21/12/2026 1 8.495.000,00 0,52 41,00
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 8 679.600,00 0,59 36,56
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 27/10/2026 2 10.482.830,00 1,30 36,46
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 33.980,00 1,04 35,93
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 18/01/2027 1 8.495.000,00 0,78 41,00
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 15/10/2026 8 108.736,00 1,73 35,51
+TOTS3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 13.592,00 1,39 36,03
+TSLA4 Compra Opção Flexível de Compra de Ações e Units 26/10/2026 12 3.026.920,00 1,39 60,16
+TSLA4 Compra Opção Flexível de Compra de Ações e Units 22/10/2026 1 2.794.080,00 1,50 59,73
+TSLA4 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 23.284,00 0,87 58,58
+TSLA4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 1 99.772,00 1,74 60,17
+TSLA4 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 4 119.098,00 2,89 60,17
+TSMC4 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 11 723.045,00 20,34 328,14
+TSMC4 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 2 69.030,00 8,95 307,55
+TSMC4 Compra Opção Flexível de Compra de Ações e Units 02/03/2027 18 930.135,00 29,84 313,22
+TSMC4 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 2 59.000,00 8,58 322,32
+TSMC4 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 16 1.168.200,00 14,69 321,12
+UGPA3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 1 14.936,00 1,15 39,74
+USIM5 Compra Opção Flexível de Compra de Ações e Units 02/02/2027 2 60.900,00 0,34 7,66
+VALE3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 4 2.319.816,00 8,74 62,22
+VALE3 Compra Opção Flexível de Compra de Ações e Units 15/10/2027 1 28.464,00 5,14 80,47
+VALE3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 5 163.668,00 8,03 77,93
+VALE3 Compra Opção Flexível de Compra de Ações e Units 28/01/2027 2 42.696,00 1,04 71,70
+VALE3 Compra Opção Flexível de Compra de Ações e Units 29/03/2027 3 64.044,00 2,08 77,96
+VALE3 Compra Opção Flexível de Compra de Ações e Units 01/04/2027 1 604.860,00 11,68 63,00
+VALE3 Compra Opção Flexível de Compra de Ações e Units 04/10/2027 4 148.012,00 5,34 76,09
+VALE3 Compra Opção Flexível de Compra de Ações e Units 26/10/2027 1 28.464,00 4,32 73,79
+VALE3 Compra Opção Flexível de Compra de Ações e Units 22/02/2027 2 569.280,00 2,31 87,58
+VALE3 Compra Opção Flexível de Compra de Ações e Units 18/12/2026 1 249.060,00 4,59 73,09
+VALE3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 13 3.437.028,00 12,86 57,98
+VALE3 Compra Opção Flexível de Compra de Ações e Units 15/12/2026 2 868.152,00 1,84 78,31
+VALE3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 12 1.067.400,00 3,10 73,31
+VALE3 Compra Opção Flexível de Compra de Ações e Units 22/03/2027 3 405.469,00 3,22 74,39
+VALE3 Compra Opção Flexível de Compra de Ações e Units 30/09/2027 5 362.916,00 2,58 78,53
+VALE3 Compra Opção Flexível de Compra de Ações e Units 03/05/2027 1 35.580,00 3,30 77,96
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1867
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+VALE3 Compra Opção Flexível de Compra de Ações e Units 11/04/2028 2 213.480,00 1,74 79,37
+VALE3 Compra Opção Flexível de Compra de Ações e Units 02/04/2027 1 391.380,00 1,39 76,58
+VALE3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 31 1.907.088,00 1,15 73,96
+VALE3 Compra Opção Flexível de Compra de Ações e Units 01/10/2029 2 85.392,00 9,64 92,86
+VALE3 Compra Opção Flexível de Compra de Ações e Units 18/01/2027 1 711.600,00 11,64 60,81
+VALE3 Compra Opção Flexível de Compra de Ações e Units 16/11/2026 5 597.744,00 0,71 73,05
+VALE3 Compra Opção Flexível de Compra de Ações e Units 18/05/2027 2 71.160,00 2,41 72,74
+VALE3 Compra Opção Flexível de Compra de Ações e Units 01/02/2027 1 185.016,00 1,85 75,18
+VALE3 Compra Opção Flexível de Compra de Ações e Units 05/01/2027 3 284.640,00 3,06 69,61
+VALE3 Compra Opção Flexível de Compra de Ações e Units 22/11/2027 1 23.482.800,00 13,99 65,00
+VALE3 Compra Opção Flexível de Compra de Ações e Units 26/09/2028 2 49.812,00 7,47 92,58
+VALE3 Compra Opção Flexível de Compra de Ações e Units 23/02/2027 1 711.600,00 1,00 99,03
+VALE3 Compra Opção Flexível de Compra de Ações e Units 04/03/2027 2 194.267,00 3,65 72,34
+VALE3 Compra Opção Flexível de Compra de Ações e Units 29/09/2028 2 92.508,00 6,33 69,61
+VALE3 Compra Opção Flexível de Compra de Ações e Units 13/04/2027 1 14.232,00 3,70 74,62
+VALE3 Compra Opção Flexível de Compra de Ações e Units 02/07/2027 1 135.204,00 6,43 76,57
+VALE3 Compra Opção Flexível de Compra de Ações e Units 20/01/2027 4 256.176,00 2,30 73,93
+VALE3 Compra Opção Flexível de Compra de Ações e Units 26/10/2026 2 42.696,00 1,39 71,00
+VALE3 Compra Opção Flexível de Compra de Ações e Units 18/11/2026 28 1.650.912,00 2,43 73,09
+VALE3 Compra Opção Flexível de Compra de Ações e Units 03/10/2028 1 135.204,00 5,22 76,57
+VALE3 Compra Opção Flexível de Compra de Ações e Units 05/04/2027 2 917.964,00 4,08 72,44
+VAMO3 Compra Opção Flexível de Compra de Ações e Units 28/10/2026 1 155.925,00 0,07 4,16
+VBBR3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 319.704,00 0,73 39,71
+VBBR3 Compra Opção Flexível de Compra de Ações e Units 04/01/2027 1 167.464,00 1,04 39,86
+VBBR3 Compra Opção Flexível de Compra de Ações e Units 17/11/2026 1 64.702,00 1,20 40,24
+VIVA3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 17.808,00 0,32 25,42
+VIVA3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 2 48.972,00 0,32 24,19
+VIVA3 Compra Opção Flexível de Compra de Ações e Units 01/10/2027 2 17.808,00 1,57 25,24
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 06/09/2028 1 35.084,00 6,52 65,88
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 22/12/2026 1 45.108,00 2,19 52,80
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 05/07/2027 1 25.060,00 4,01 54,87
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 30/03/2027 1 10.024.000,00 5,29 47,00
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 29/12/2026 4 160.384,00 1,13 52,03
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 07/08/2029 1 25.060,00 6,55 75,94
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 01/12/2026 3 120.288,00 0,91 52,05
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 07/01/2027 1 50.120,00 1,21 52,80
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 30/10/2026 3 165.396,00 1,49 51,87
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 27/07/2027 1 25.060.000,00 25,48 25,00
+WEGE3 Compra Opção Flexível de Compra de Ações e Units 30/12/2026 1 15.036,00 0,57 55,32
+A1MD4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 3 187.384,00 19,83 396,50
+A1MD4 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 1 43.670,00 21,98 431,39
+ABEV3 Venda Opção Flexível de Venda de Ações e Units 24/10/2028 2 3.040.000,00 0,15 15,27
+ABEV3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 15.200,00 0,15 15,27
+ABEV3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 1 25.840,00 1,02 15,27
+ALOS3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 3 57.140,00 0,86 29,74
+ALOS3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 34.284,00 0,86 29,87
+ALOS3 Venda Opção Flexível de Venda de Ações e Units 02/10/2028 6 377.124,00 1,63 25,90
+ALPA4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 19.936,00 0,42 14,80
+AMZO4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 10 827.794,00 1,88 66,92
+AMZO4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 19 1.245.241,00 3,21 64,26
+AMZO4 Venda Opção Flexível de Venda de Ações e Units 07/10/2027 4 221.687,00 4,50 64,26
+AMZO4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 2 64.500,00 0,64 68,06
+ASAI3 Venda Opção Flexível de Venda de Ações e Units 29/09/2028 2 89.760,00 0,11 10,54
+ASML4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 79.195,00 8,73 174,52
+ASML4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 3 53.981,00 5,24 180,98
+ASML4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 62.104,00 5,24 181,68
+AURA3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 1 38.024,00 2,65 138,50
+AURA3 Venda Opção Flexível de Venda de Ações e Units 30/11/2026 19 9.640.850,00 4,16 148,20
+AVGO4 Venda Opção Flexível de Venda de Ações e Units 30/11/2026 5 996.766,00 0,80 27,94
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 11/04/2028 2 794.824,00 0,27 54,80
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 10/02/2027 2 76.216,00 2,46 52,61
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 3 81.660,00 1,65 53,61
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 36 1.088.800,00 2,74 54,80
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 16 1.197.680,00 3,02 61,98
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 25/04/2029 1 424.632,00 0,55 65,76
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 11 952.972,00 1,38 58,24
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 8 1.279.340,00 1,44 57,48
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 1 70.718,00 2,74 59,13
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 31/03/2027 3 65.328,00 0,55 49,32
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 5 92.548,00 2,84 53,99
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 27/10/2028 6 108.880,00 3,34 50,69
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 30/12/2026 1 48.996,00 2,20 58,09
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 9 590.130,00 2,28 58,25
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 22/12/2026 3 114.324,00 2,05 51,90
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 13/01/2028 2 402.856,00 1,57 49,32
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 16 1.328.336,00 0,84 56,69
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 2 65.328,00 0,55 49,32
+AXIA3 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 1 54.440,00 0,93 54,80
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 4 116.556,00 0,33 18,85
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 2 38.852,00 0,18 19,75
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 06/01/2027 1 98.649,00 1,52 17,90
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 2 151.876,00 0,18 17,90
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 4 105.960,00 0,18 18,78
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 02/04/2027 1 60.044,00 0,18 17,90
+B3SA3 Venda Opção Flexível de Venda de Ações e Units 05/01/2027 14 243.882,00 1,85 17,66
+BABA4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 2.022,00 0,20 20,77
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 6 193.410,00 0,22 25,14
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 31/03/2027 2 15.043,00 0,55 22,04
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 16/02/2027 1 131.089,00 2,74 22,04
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 3 354.585,00 0,55 23,48
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 30/11/2026 2 83.811,00 0,95 24,24
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 27/11/2026 3 1.278.655,00 0,74 22,04
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 4 171.920,00 0,29 22,71
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 1 19.341,00 0,22 24,60
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 27.937,00 0,66 23,48
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 28/01/2027 3 101.003,00 0,22 22,04
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 29/03/2027 1 103.152,00 0,22 19,84
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 3 77.364,00 1,16 23,36
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 12 294.413,00 1,28 21,51
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 3 66.619,00 2,02 23,37
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 17 528.654,00 0,66 23,02
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1868
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 03/05/2027 1 150.430,00 0,93 24,68
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 06/10/2026 2 68.768,00 0,36 21,27
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 2 47.278,00 0,55 22,71
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 02/10/2028 4 455.588,00 1,38 19,91
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 35 1.897.567,00 0,66 23,48
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 4 38.682,00 2,53 22,04
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 02/07/2027 3 322.350,00 1,97 20,94
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 22/12/2026 2 98.854,00 1,36 21,16
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 01/03/2027 1 30.086,00 1,61 21,16
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 10 745.703,00 0,66 23,83
+BBAS3 Venda Opção Flexível de Venda de Ações e Units 01/04/2027 8 285.817,00 1,29 24,91
+BBDC3 Venda Opção Flexível de Venda de Ações e Units 18/12/2026 2 49.952,00 0,75 15,26
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 06/01/2027 1 101.262,00 1,20 17,78
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 28/10/2027 1 10.596,00 1,39 16,89
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 12 1.101.984,00 0,45 18,78
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 30/11/2026 1 17.660,00 0,62 18,94
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 5 277.262,00 0,25 18,70
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 3 533.332,00 0,56 18,97
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 19/09/2028 4 70.640,00 1,04 16,00
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 3 120.088,00 0,18 19,00
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 3 273.730,00 0,53 18,25
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 2 12.008,00 1,34 16,45
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 12 660.484,00 0,75 19,15
+BBDC4 Venda Opção Flexível de Venda de Ações e Units 05/01/2027 14 247.492,00 1,54 17,66
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 01/04/2027 2 260.984,00 0,98 35,86
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 4 115.140,00 1,43 35,86
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 15/12/2026 2 199.576,00 1,01 34,89
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 1 3.838,00 2,50 38,76
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 03/09/2027 2 15.352,00 2,31 38,37
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 3 61.408,00 1,13 37,31
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 29/09/2028 4 30.704,00 0,39 38,76
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 11/04/2028 1 383.800,00 0,19 38,76
+BBSE3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 3.838,00 3,88 36,82
+BCPX9 Venda Opção Flexível de Venda de Ações e Units 22/03/2028 4 768.840,00 0,44 44,40
+BEEF3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 4 437.090,00 0,04 4,40
+BEEF3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 2 48.120,00 0,04 4,17
+BEEF3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 4 830.070,00 0,10 3,68
+BOVV Venda Opção Flexível de Venda de Ações e Units 04/10/2027 1 184.337,00 9,49 189,73
+BOVX Venda Opção Flexível de Venda de Ações e Units 21/09/2029 14 650.676,00 0,86 21,28
+BOVX Venda Opção Flexível de Venda de Ações e Units 29/09/2027 1 54.549,00 0,83 18,91
+BOVX Venda Opção Flexível de Venda de Ações e Units 17/11/2026 3 110.979,00 0,61 18,24
+BOVX Venda Opção Flexível de Venda de Ações e Units 01/11/2027 2 18.810,00 0,52 18,91
+BOVX Venda Opção Flexível de Venda de Ações e Units 28/09/2028 3 141.075,00 1,12 18,91
+BOVX Venda Opção Flexível de Venda de Ações e Units 01/10/2027 2 268.249,00 1,13 18,91
+BOVX Venda Opção Flexível de Venda de Ações e Units 11/10/2028 5 39.971,00 1,11 18,91
+BOVX Venda Opção Flexível de Venda de Ações e Units 15/12/2026 4 57.370,00 0,51 17,49
+BOVX Venda Opção Flexível de Venda de Ações e Units 29/09/2028 1 92.169,00 1,10 18,91
+BOVX Venda Opção Flexível de Venda de Ações e Units 13/12/2027 4 442.788,00 0,34 16,07
+BOVX Venda Opção Flexível de Venda de Ações e Units 01/10/2029 9 284.538,00 1,24 18,70
+BOVX Venda Opção Flexível de Venda de Ações e Units 08/10/2027 2 15.612,00 0,82 17,96
+BPAC Venda Opção Flexível de Venda de Ações e Units 01/12/2026 2 37.350,00 3,13 65,16
+BPAC Venda Opção Flexível de Venda de Ações e Units 02/02/2027 1 80.925,00 0,50 62,85
+BPAC Venda Opção Flexível de Venda de Ações e Units 08/09/2028 2 74.700,00 9,58 72,28
+BPAC Venda Opção Flexível de Venda de Ações e Units 31/03/2028 2 43.575,00 7,11 59,71
+BPAC Venda Opção Flexível de Venda de Ações e Units 03/10/2028 11 852.825,00 8,31 62,85
+BPAC Venda Opção Flexível de Venda de Ações e Units 16/11/2026 5 74.700,00 1,89 65,56
+BPAC Venda Opção Flexível de Venda de Ações e Units 27/09/2029 1 18.675,00 10,88 75,42
+BPAC Venda Opção Flexível de Venda de Ações e Units 29/12/2026 2 24.900,00 0,63 67,50
+BPAC Venda Opção Flexível de Venda de Ações e Units 30/10/2026 5 572.700,00 0,66 66,32
+BPAC Venda Opção Flexível de Venda de Ações e Units 30/09/2027 32 2.172.525,00 3,26 64,80
+BPAC Venda Opção Flexível de Venda de Ações e Units 25/09/2029 2 99.600,00 4,65 62,85
+BPAC Venda Opção Flexível de Venda de Ações e Units 15/10/2026 18 572.700,00 1,40 64,96
+BPAC Venda Opção Flexível de Venda de Ações e Units 12/01/2027 4 361.050,00 3,42 59,71
+BPAC Venda Opção Flexível de Venda de Ações e Units 01/10/2029 10 585.150,00 1,16 61,85
+BPAC Venda Opção Flexível de Venda de Ações e Units 05/04/2027 6 417.075,00 3,03 74,10
+BPAC Venda Opção Flexível de Venda de Ações e Units 30/03/2027 5 211.650,00 2,52 55,92
+BPAC Venda Opção Flexível de Venda de Ações e Units 04/10/2027 5 255.225,00 2,65 66,19
+BPAC Venda Opção Flexível de Venda de Ações e Units 01/04/2027 2 87.150,00 3,36 56,57
+BPAC Venda Opção Flexível de Venda de Ações e Units 01/10/2027 6 155.625,00 2,74 74,13
+BPAC Venda Opção Flexível de Venda de Ações e Units 04/01/2028 9 1.153.493,00 1,45 62,85
+BPAC Venda Opção Flexível de Venda de Ações e Units 02/12/2026 4 647.400,00 3,10 68,00
+BPAC Venda Opção Flexível de Venda de Ações e Units 22/12/2026 1 12.450,00 2,56 69,13
+BPAC Venda Opção Flexível de Venda de Ações e Units 27/04/2027 1 43.575,00 4,07 71,02
+BRAV3 Venda Opção Flexível de Venda de Ações e Units 09/10/2026 16 20.215.776,00 0,84 19,14
+BSIL9 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 33.893,00 1,35 46,83
+CEAB3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 1 264.702,00 2,68 11,22
+CHIP Venda Opção Flexível de Venda de Ações e Units 01/10/2029 2 578.550,00 0,39 38,81
+CMIG4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 298.100,00 0,11 11,71
+CMIG4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 19.512,00 0,11 10,96
+CMIN3 Venda Opção Flexível de Venda de Ações e Units 01/02/2027 2 111.100,00 0,33 4,29
+COGN3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 2 41.567,00 0,07 2,29
+CPLE3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 2 72.128,00 0,68 14,57
+CPLE3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 8 150.528,00 0,57 14,68
+CPLE3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 25.088,00 0,16 15,75
+CSNA3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 59.900,00 0,05 5,72
+CSNA3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 29.950,00 0,05 5,82
+CSNA3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 1 293.510,00 1,81 6,37
+CURY3 Venda Opção Flexível de Venda de Ações e Units 22/09/2027 1 8.277,00 3,43 27,28
+CURY3 Venda Opção Flexível de Venda de Ações e Units 07/10/2026 2 71.734,00 0,32 27,71
+CURY3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 4 146.227,00 1,86 34,69
+CURY3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 1 11.036,00 3,95 28,72
+CURY3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 8 99.324,00 0,29 29,73
+CXSE3 Venda Opção Flexível de Venda de Ações e Units 28/12/2026 2 16.088,00 0,62 19,61
+CXSE3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 4 24.132,00 0,73 18,60
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 4 47.754,00 0,14 27,13
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 03/11/2026 3 809.165,00 0,54 28,62
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 23/12/2026 1 50.407,00 0,78 29,30
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 79.749,00 0,81 29,36
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 7 299.789,00 0,33 27,82
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 3 76.937,00 0,27 30,35
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 16 278.565,00 0,81 28,46
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1869
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 3 18.571,00 4,38 27,13
+CYRE3 Venda Opção Flexível de Venda de Ações e Units 20/09/2027 1 119.889,00 1,36 27,13
+DIRR3 Venda Opção Flexível de Venda de Ações e Units 20/09/2027 1 67.822,00 0,51 10,16
+DIRR3 Venda Opção Flexível de Venda de Ações e Units 25/09/2029 2 93.120,00 1,03 10,16
+DIRR3 Venda Opção Flexível de Venda de Ações e Units 05/10/2027 1 19.400,00 1,22 9,14
+ECOR3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 5 238.150,00 0,50 9,84
+ECOR3 Venda Opção Flexível de Venda de Ações e Units 05/01/2027 14 229.908,00 1,16 8,66
+ECOR3 Venda Opção Flexível de Venda de Ações e Units 06/01/2027 1 96.585,00 1,00 8,67
+ECOR3 Venda Opção Flexível de Venda de Ações e Units 31/03/2027 2 6.928,00 0,21 8,67
+EGIE3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 46.192,00 0,29 29,14
+EGIE3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 40.418,00 0,29 29,14
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 70.308,00 0,57 91,85
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 27/11/2026 2 522.288,00 2,89 100,46
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 03/08/2027 7 903.960,00 1,72 100,46
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 13 492.156,00 15,91 100,46
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 2 80.352,00 1,00 106,31
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 29/04/2027 2 40.176,00 6,18 95,44
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 2 90.396,00 2,26 100,46
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 21/08/2029 1 10.044,00 18,82 120,55
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 8 401.760,00 4,07 106,54
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 2 80.352,00 7,55 97,95
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 28/09/2029 2 160.704,00 17,39 110,51
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 15/02/2027 4 8.758.368,00 5,02 100,46
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 25/09/2029 6 80.352,00 8,82 106,11
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 10 1.426.248,00 5,85 110,01
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 01/02/2027 1 100.440,00 5,22 95,44
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 11/04/2028 1 301.320,00 0,50 100,46
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 2 30.132,00 6,60 95,44
+EMBJ3 Venda Opção Flexível de Venda de Ações e Units 30/12/2026 3 281.232,00 4,30 100,46
+ENEV3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 40.125,00 0,27 27,10
+ENEV3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 802.500,00 0,27 27,10
+ENEV3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 4 176.550,00 0,27 28,70
+ENEV3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 6 240.750,00 0,45 27,93
+ENGI Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 10.180,00 1,56 53,55
+ENGI Venda Opção Flexível de Venda de Ações e Units 30/10/2026 10 651.520,00 0,99 53,93
+ENGI Venda Opção Flexível de Venda de Ações e Units 01/10/2027 1 55.990,00 1,63 60,70
+ENGI Venda Opção Flexível de Venda de Ações e Units 15/10/2026 2 20.360,00 0,52 54,56
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 6 43.032,00 1,19 40,73
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 15/12/2026 1 1.944.264,00 1,19 42,36
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 6 207.336,00 1,10 41,62
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 23.472,00 2,03 35,80
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 4 54.768,00 2,19 36,79
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 10/09/2029 2 133.008,00 2,16 35,79
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 06/10/2026 2 70.416,00 0,90 39,77
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 2 97.800,00 1,61 42,39
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 2 250.368,00 1,00 42,66
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 5 179.952,00 0,47 42,91
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 2 125.184,00 0,40 39,77
+EQTL3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 6 195.600,00 0,50 36,11
+FBP Venda Opção Flexível de Venda de BOVA11 04/03/2027 2 320.720,00 2,84 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 11/12/2026 2 154.954,00 3,85 167,47
+FBP Venda Opção Flexível de Venda de BOVA11 30/03/2027 2 92.252,00 12,67 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 14/12/2026 2 129.730,00 10,86 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 01/10/2029 6 576.576,00 1,81 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 02/03/2027 16 849.728,00 9,05 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 19/11/2026 2 396.396,00 2,28 162,95
+FBP Venda Opção Flexível de Venda de BOVA11 06/10/2028 10 947.748,00 3,62 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 23/11/2026 3 6.045.040,00 2,67 161,47
+FBP Venda Opção Flexível de Venda de BOVA11 28/01/2027 1 540.540,00 5,30 172,00
+FBP Venda Opção Flexível de Venda de BOVA11 28/10/2026 4 513.872,00 25,61 130,00
+FBP Venda Opção Flexível de Venda de BOVA11 22/09/2027 4 421.620,00 22,79 130,00
+FBP Venda Opção Flexível de Venda de BOVA11 21/12/2026 1 792.792,00 7,53 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 18/12/2026 1 216.216,00 7,69 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 24/08/2027 1 55.856,00 9,49 168,38
+FBP Venda Opção Flexível de Venda de BOVA11 13/10/2026 8 273.874,00 1,14 169,28
+FBP Venda Opção Flexível de Venda de BOVA11 01/12/2026 1 18.018,00 4,16 172,00
+FBP Venda Opção Flexível de Venda de BOVA11 26/10/2028 2 252.252,00 1,81 190,11
+FBP Venda Opção Flexível de Venda de BOVA11 04/01/2028 4 306.306,00 6,21 190,20
+FBP Venda Opção Flexível de Venda de BOVA11 29/09/2028 4 1.945.944,00 1,81 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 07/10/2027 2 39.640,00 3,62 181,05
+FBP Venda Opção Flexível de Venda de BOVA11 09/03/2027 2 216.216,00 7,55 181,05
+FLRY3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 2 98.624,00 1,26 20,38
+GGBR4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 3 278.499,00 1,37 25,81
+GGBR4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 5 90.324,00 0,24 25,40
+GGBR4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 4 451.620,00 1,82 23,42
+GGBR4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 5.018,00 0,73 25,08
+GGBR4 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 2 225.810,00 0,24 24,20
+GGBR4 Venda Opção Flexível de Venda de Ações e Units 01/04/2027 2 235.846,00 0,85 22,39
+GMAT3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 3 95.545,00 0,15 5,21
+GMCO4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 41.604,00 1,05 111,41
+GOAU4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 20.160,00 0,32 11,17
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 09/10/2026 2 59.556,00 3,37 148,27
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 5 152.612,00 7,41 148,27
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 25/01/2027 6 1.429.344,00 6,07 151,98
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 68.638,00 2,52 155,31
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 2 59.556,00 1,48 156,66
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 1 50.623,00 3,01 148,27
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 02/03/2027 56 2.744.942,00 7,41 148,27
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 39.010,00 7,41 148,27
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 1 59.556,00 1,48 153,99
+GOGL4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 3 59.556,00 1,48 152,60
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 326.018,00 0,23 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 06/10/2028 3 288.280,00 3,01 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 04/09/2028 1 98.252,00 1,72 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 4 446.600,00 0,23 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 04/06/2027 2 386.756,00 0,33 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 2 43.454,00 1,13 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 29/09/2028 4 26.796,00 0,23 22,55
+GOLD1 Venda Opção Flexível de Venda de Ações e Units 07/10/2027 1 20.097,00 1,50 22,55
+GSGI4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 15.952,00 1,60 164,59
+HASH Venda Opção Flexível de Venda de Ações e Units 29/09/2028 4 570.500,00 0,57 57,00
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 18610
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+IGTI Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 36.316,00 0,78 26,98
+IGTI Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 62.256,00 0,26 27,38
+INBR2 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 5 1.009.964,00 0,27 27,34
+ISAE4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 16.074,00 0,27 26,71
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 7 287.899,00 3,03 105,00
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 25/02/2028 1 20.296,00 1,01 100,96
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 04/11/2026 2 99.450,00 3,87 108,63
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 7 214.428,00 5,05 100,96
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 1 58.858,00 3,05 100,96
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 29.429,00 5,05 100,96
+ITLC4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 40.592,00 1,01 118,78
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 192.510,00 0,42 14,56
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 160.425,00 0,14 14,97
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 2 53.010,00 0,50 13,67
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 20.925,00 0,14 14,16
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 23/03/2027 1 111.600,00 0,70 13,45
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 21/10/2027 1 11.160,00 0,90 13,45
+ITSA4 Venda Opção Flexível de Venda de Ações e Units 29/04/2027 2 103.230,00 0,55 13,45
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 31/03/2027 1 158.498,00 0,42 38,07
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 4 704.023,00 2,12 44,67
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 27/10/2026 8 11.178.280,00 5,51 48,47
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 8 321.167,00 1,37 44,62
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 14 921.791,00 0,64 44,08
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 4 108.446,00 0,42 45,24
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 30/12/2026 1 45.881,00 1,65 44,63
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 29/09/2028 2 375.390,00 0,42 44,42
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 12.513,00 1,98 42,30
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 01/11/2027 1 8.342,00 3,34 42,30
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 3 29.197,00 2,83 41,09
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 03/05/2027 1 100.104,00 1,72 47,16
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 20/09/2027 1 98.978,00 2,12 42,30
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 22/12/2026 8 483.836,00 0,72 37,01
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 02/10/2028 2 33.368,00 2,25 39,13
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 5 75.078,00 1,37 44,20
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 30/04/2027 1 16.684,00 1,89 40,19
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 11 821.687,00 2,12 46,53
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 20/09/2028 1 29.197,00 3,71 40,19
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 10/10/2028 34 800.832,00 2,17 38,07
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 13/04/2027 4 166.840,00 2,08 40,19
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 11/04/2028 1 517.204,00 0,21 42,30
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 2 75.078,00 0,21 38,07
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 2 75.078,00 0,42 42,30
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 20/01/2027 10 554.743,00 1,55 44,92
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 2 29.197,00 0,95 44,71
+ITUB4 Venda Opção Flexível de Venda de Ações e Units 26/10/2027 1 33.368,00 0,42 44,84
+IVVB Venda Opção Flexível de Venda de Ações e Units 30/03/2027 4 543.600,00 16,71 426,70
+IVVB Venda Opção Flexível de Venda de Ações e Units 06/10/2028 6 738.390,00 9,03 451,53
+IVVB Venda Opção Flexível de Venda de Ações e Units 18/03/2027 2 90.600,00 15,96 451,53
+IVVB Venda Opção Flexível de Venda de Ações e Units 01/10/2029 4 181.200,00 4,52 451,53
+JBSS2 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 2 24.120,00 1,92 61,65
+JBSS2 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 14 8.157.444,00 2,19 67,77
+JBSS2 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 24.120,00 0,59 59,25
+JBSS2 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 11 539.143,00 0,69 61,60
+JBSS2 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 2 144.720,00 1,48 61,00
+JBSS2 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 4 132.359,00 1,50 62,25
+JHSF3 Venda Opção Flexível de Venda de Ações e Units 02/10/2028 3 525.968,00 1,87 11,63
+JHSF3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 103.376,00 0,12 12,25
+JHSF3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 1 32.944,00 2,14 11,63
+JHSF3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 37.488,00 0,12 12,61
+JHSF3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 5 47.712,00 0,12 12,58
+KLBN Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 69.578,00 0,18 18,27
+KLBN Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 5.548,00 1,82 18,88
+LILY4 Venda Opção Flexível de Venda de Ações e Units 02/03/2027 14 565.810,00 10,33 206,65
+LILY4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 110.684,00 4,66 217,50
+LILY4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 33.660,00 10,33 206,65
+LILY4 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 2 173.460,00 4,69 206,65
+LILY4 Venda Opção Flexível de Venda de Ações e Units 07/10/2027 2 487.547,00 15,50 206,65
+LILY4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 3 210.630,00 22,72 206,65
+LREN3 Venda Opção Flexível de Venda de Ações e Units 15/12/2026 2 35.712,00 0,49 9,93
+LREN3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 3 42.408,00 0,34 12,04
+LREN3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 1 7.812,00 0,11 12,59
+LREN3 Venda Opção Flexível de Venda de Ações e Units 29/10/2026 1 156.240,00 0,11 11,79
+LREN3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 1 22.320,00 0,73 13,73
+LWSA3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 13.396,00 0,04 4,26
+LWSA3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 31.520,00 0,04 4,30
+M1RN4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 15.489,00 0,54 57,08
+M1TA4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 5 280.092,00 6,88 137,60
+M1TA4 Venda Opção Flexível de Venda de Ações e Units 13/11/2026 1 119.754,00 2,75 147,85
+M1TA4 Venda Opção Flexível de Venda de Ações e Units 02/03/2027 10 506.424,00 6,88 137,60
+M1TA4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 4 100.993,00 4,13 141,79
+M1TA4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 13.306,00 4,13 143,52
+M1TA4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 32.733,00 6,88 137,60
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 5 285.520,00 0,85 18,58
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 01/11/2027 1 79.120,00 0,17 16,85
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 1 36.120,00 1,25 20,22
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 5 56.760,00 0,34 17,80
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 13.760,00 0,51 18,44
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 6 1.926.400,00 0,51 18,30
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 6 288.960,00 0,34 18,00
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 8.600,00 0,17 18,83
+MBRF3 Venda Opção Flexível de Venda de Ações e Units 07/03/2028 1 24.080,00 1,59 22,75
+MCDC4 Venda Opção Flexível de Venda de Ações e Units 14/10/2026 186 3.382.052,00 1,13 51,61
+MELI4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 3 170.660,00 0,75 81,96
+MELI4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 7.420,00 3,76 75,25
+MGLU3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 30.360,00 0,20 7,77
+MGLU3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 49.500,00 0,07 7,75
+MGLU3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 2 36.300,00 0,20 7,28
+MGLU3 Venda Opção Flexível de Venda de Ações e Units 10/04/2028 1 166.320,00 0,03 6,63
+MOVI3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 78.672,00 0,09 10,28
+MOVI3 Venda Opção Flexível de Venda de Ações e Units 28/10/2026 7 1.691.448,00 0,09 9,71
+MOVI3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 54.534,00 0,14 10,85
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 18611
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+MRVE3 Venda Opção Flexível de Venda de Ações e Units 03/11/2026 2 979.480,00 0,48 5,85
+MRVE3 Venda Opção Flexível de Venda de Ações e Units 28/09/2029 2 245.912,00 1,44 5,92
+MRVE3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 3 67.209,00 0,16 5,69
+MRVE3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 67.730,00 0,05 5,38
+MSFT4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 3 89.968,00 1,69 115,14
+MULT3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 18.162,00 1,67 29,13
+MULT3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 6 260.322,00 0,92 31,46
+MUTC4 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 1 182.566,00 27,95 1.022,18
+MUTC4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 4 861.711,00 46,59 931,79
+MUTC4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 3 483.799,00 24,43 969,73
+MUTC4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 134.186,00 46,59 931,79
+NASD Venda Opção Flexível de Venda de Ações e Units 06/10/2028 8 1.095.160,00 2,25 22,04
+NASD Venda Opção Flexível de Venda de Ações e Units 26/10/2028 6 673.200,00 0,22 23,36
+NASD Venda Opção Flexível de Venda de Ações e Units 30/09/2027 8 438.504,00 1,10 22,04
+NASD Venda Opção Flexível de Venda de Ações e Units 04/10/2027 2 107.184,00 1,10 22,04
+NATU3 Venda Opção Flexível de Venda de Ações e Units 31/03/2027 1 495.869,00 0,07 6,55
+NFLX4 Venda Opção Flexível de Venda de Ações e Units 27/10/2028 2 196.112,00 0,07 7,33
+NFLX4 Venda Opção Flexível de Venda de Ações e Units 01/11/2027 1 33.166,00 0,07 7,33
+NFLX4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 19.215,00 0,22 7,58
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 12.390,00 0,25 25,54
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 2 137.380,00 0,30 24,73
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 02/03/2027 120 6.694.666,00 1,24 24,73
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 198.240,00 0,25 25,30
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 3 237.244,00 0,41 24,73
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 1 59.720,00 1,24 26,81
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 3 140.007,00 0,36 25,16
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 2.478,00 0,25 25,78
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 33.676,00 1,24 24,73
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 13 581.042,00 1,86 24,73
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 20/09/2027 4 452.383,00 1,24 24,73
+NVDC4 Venda Opção Flexível de Venda de Ações e Units 26/10/2026 3 1.092.798,00 0,25 25,47
+OFV Venda Opção Flexível de Venda de Dólar 01/07/2027 1 2.606.600,00 0,05 4,80
+OFV Venda Opção Flexível de Venda de Dólar 28/09/2028 4 20.852.800,00 0,10 4,90
+ORCL4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 47.183,00 3,62 127,10
+ORCL4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 3 76.541,00 6,04 120,70
+ORCL4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 2 31.106,00 3,62 122,88
+PAGS4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 33.552,00 0,09 10,12
+PAGS4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 3 27.960,00 0,09 9,98
+PETR3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 2 32.406,00 3,33 49,47
+PETR3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 2 3.240.600,00 2,89 50,82
+PETR4 Venda Opção Flexível de Venda de Ações e Units 26/10/2027 1 63.336,00 0,49 52,05
+PETR4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 29.232,00 0,49 53,42
+PETR4 Venda Opção Flexível de Venda de Ações e Units 04/01/2027 14 662.592,00 1,80 45,42
+PETR4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 18 1.646.736,00 1,29 46,65
+PETR4 Venda Opção Flexível de Venda de Ações e Units 01/02/2027 2 136.416,00 3,23 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 5 248.472,00 1,45 51,46
+PETR4 Venda Opção Flexível de Venda de Ações e Units 26/10/2028 2 418.992,00 0,49 51,56
+PETR4 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 11 190.008,00 1,11 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 05/07/2027 1 29.232,00 1,51 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 1 100.461,00 3,60 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 14 249.641,00 4,55 48,72
+PETR4 Venda Opção Flexível de Venda de Ações e Units 27/10/2027 1 29.232,00 4,09 46,64
+PETR4 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 1 48.720,00 2,32 52,14
+PETR4 Venda Opção Flexível de Venda de Ações e Units 29/09/2028 4 38.976,00 0,49 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 02/04/2027 1 501.816,00 1,23 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 11/04/2028 2 1.792.896,00 0,24 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 27/11/2026 2 628.488,00 1,19 49,10
+PETR4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 3 14.664.720,00 3,69 46,17
+PETR4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 3 199.752,00 0,61 50,63
+PETR4 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 12 740.544,00 2,43 44,19
+PETR4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 4.872,00 2,85 49,10
+PRIO3 Venda Opção Flexível de Venda de Ações e Units 27/10/2026 8 24.652.000,00 6,50 69,24
+PRIO3 Venda Opção Flexível de Venda de Ações e Units 19/10/2027 2 12.326,00 3,91 55,44
+PRIO3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 154.075,00 1,54 61,60
+PSSA3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 9.400,00 0,84 45,81
+PYPL4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 39.348,00 0,42 14,41
+QCOM4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 3 55.348,00 2,44 85,45
+RADL3 Venda Opção Flexível de Venda de Ações e Units 30/12/2026 1 194.370,00 0,71 20,70
+RADL3 Venda Opção Flexível de Venda de Ações e Units 01/04/2027 1 81.282,00 1,42 19,95
+RADL3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 3 136.059,00 1,20 18,44
+RADL3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 3 75.981,00 0,54 19,16
+RADL3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 9 229.710,00 0,35 18,63
+RADL3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 14.136,00 0,18 19,22
+RADL3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 17.670,00 0,18 18,14
+RADL3 Venda Opção Flexível de Venda de Ações e Units 21/12/2026 3 1.254.570,00 0,70 20,65
+RAIL3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 121.352,00 0,16 16,48
+RAIL3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 1 88.256,00 1,10 18,35
+RAPT4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 23.750,00 0,05 5,11
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 2 266.037,00 1,13 38,63
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 26/09/2028 2 22.482,00 3,00 32,82
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 20/09/2027 2 166.030,00 1,88 37,50
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 27/10/2026 8 11.990.400,00 5,50 43,84
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 29.976,00 0,38 39,32
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 2 224.858,00 1,88 40,65
+RDOR3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 4 44.964,00 0,19 37,50
+RENT3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 2 60.848,00 0,39 43,45
+RENT3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 5 513.405,00 1,02 41,29
+RENT3 Venda Opção Flexível de Venda de Ações e Units 29/03/2027 3 273.816,00 0,39 34,68
+RENT3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 2 38.030,00 2,39 46,24
+RENT3 Venda Opção Flexível de Venda de Ações e Units 05/01/2027 14 239.859,00 4,63 38,03
+RENT3 Venda Opção Flexível de Venda de Ações e Units 26/10/2026 1 7.606,00 1,16 40,46
+RENT3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 6 250.998,00 0,39 40,14
+RENT3 Venda Opção Flexível de Venda de Ações e Units 06/01/2027 1 96.824,00 3,93 38,53
+RENT3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 11 365.088,00 0,39 42,94
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 53.050,00 0,11 10,69
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 6 862.423,00 0,11 11,34
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 6 193.104,00 0,23 11,07
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 3 404.241,00 0,19 10,69
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 3 12.732,00 0,11 11,47
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 01/04/2027 3 165.516,00 0,05 9,62
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 9 667.372,00 0,38 11,55
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 18612
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 16.976,00 0,11 11,09
+ROXO4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 8 205.729,00 0,19 11,51
+SAPR Venda Opção Flexível de Venda de Ações e Units 28/10/2026 34 462.560,00 0,74 28,00
+SBFG3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 12.304,00 0,08 8,87
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 20/09/2027 1 344.808,00 1,36 27,06
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 12 644.675,00 1,16 28,95
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 03/05/2027 10 377.175,00 1,33 30,31
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 10 337.050,00 0,27 29,14
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 01/04/2027 2 53.500,00 1,27 25,03
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 3 42.800,00 1,68 26,05
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 11 778.425,00 0,54 28,16
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 12/01/2027 8 428.000,00 1,21 25,71
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 01/02/2027 1 21.400,00 1,34 29,22
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 6 85.600,00 1,65 27,06
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 01/02/2028 1 98.975,00 2,74 27,06
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 28/09/2027 2 32.100,00 1,06 31,66
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 10/10/2028 18 321.000,00 1,63 23,68
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 26/10/2027 2 80.250,00 0,27 28,68
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 16/02/2027 6 107.000,00 1,37 29,22
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 15/12/2026 2 64.200,00 0,68 23,68
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 5 144.450,00 1,60 27,38
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 26.750,00 0,27 28,20
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 16 422.650,00 0,59 28,18
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 2 312.387,00 1,36 29,16
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 11 823.900,00 0,49 28,51
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 9 104.325,00 0,81 27,77
+SBSP3 Venda Opção Flexível de Venda de Ações e Units 29/09/2027 1 74.900,00 1,95 24,35
+SMALL Venda Opção Flexível de Venda de Ações e Units 04/10/2027 4 106.711,00 5,48 120,62
+SMALL Venda Opção Flexível de Venda de Ações e Units 29/09/2028 1 29.975,00 8,92 109,65
+SMALL Venda Opção Flexível de Venda de Ações e Units 02/10/2028 1 34.335,00 8,19 109,65
+SMALL Venda Opção Flexível de Venda de Ações e Units 06/10/2028 2 203.830,00 2,19 109,65
+SMALL Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 141.700,00 1,10 120,10
+SMALL Venda Opção Flexível de Venda de Ações e Units 30/09/2027 4 109.000,00 6,24 117,74
+SMALL Venda Opção Flexível de Venda de Ações e Units 01/10/2027 1 31.610,00 4,87 132,68
+SMALL Venda Opção Flexível de Venda de Ações e Units 16/02/2027 1 180.940,00 11,51 109,65
+SMALL Venda Opção Flexível de Venda de Ações e Units 29/11/2027 2 196.200,00 5,90 104,17
+SMFT3 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 1 151.470,00 0,84 18,40
+SMFT3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 2 20.196,00 0,17 16,76
+SMFT3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 23.562,00 0,51 16,76
+SMTO3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 4 12.262,00 1,32 16,26
+SPCX4 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 23.809,00 2,60 51,99
+SPCX4 Venda Opção Flexível de Venda de Ações e Units 06/10/2028 7 376.600,00 8,06 51,99
+SPCX4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 181.980,00 0,52 54,21
+SPCX4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 290.056,00 1,56 54,85
+SPCX4 Venda Opção Flexível de Venda de Ações e Units 15/10/2026 1 55.605,00 0,52 53,48
+SPCX4 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 3 15.165,00 3,47 49,39
+STOC4 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 49.322,00 1,46 48,60
+SUZB3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 4 102.787,00 1,33 45,51
+SUZB3 Venda Opção Flexível de Venda de Ações e Units 04/01/2028 8 741.854,00 1,30 45,72
+SUZB3 Venda Opção Flexível de Venda de Ações e Units 01/03/2027 1 26.814,00 1,08 39,93
+TAEE Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 8.044,00 2,64 40,56
+TASA4 Venda Opção Flexível de Venda de Ações e Units 23/12/2026 4 1.455.420,00 0,50 7,78
+TEND3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 2 85.560,00 0,27 31,31
+TEND3 Venda Opção Flexível de Venda de Ações e Units 17/11/2026 4 1.140.800,00 1,33 28,15
+TEND3 Venda Opção Flexível de Venda de Ações e Units 02/12/2026 4 285.200,00 1,87 31,18
+TEND3 Venda Opção Flexível de Venda de Ações e Units 01/02/2027 1 205.344,00 0,29 27,33
+TOTS3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 1 13.592,00 0,35 34,64
+TOTS3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 4 231.064,00 0,71 36,25
+TOTS3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 33.980,00 1,04 35,93
+TSLA4 Venda Opção Flexível de Venda de Ações e Units 22/10/2026 1 2.794.080,00 0,58 59,73
+TSLA4 Venda Opção Flexível de Venda de Ações e Units 26/10/2026 12 3.026.920,00 0,58 60,16
+TSLA4 Venda Opção Flexível de Venda de Ações e Units 27/10/2026 22 239.824,00 1,61 49,18
+TSLA4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 1 99.772,00 1,74 60,17
+TSMC4 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 7 481.145,00 23,97 298,30
+TSMC4 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 1 29.500,00 3,98 298,30
+TSMC4 Venda Opção Flexível de Venda de Ações e Units 02/03/2027 36 1.860.270,00 14,92 298,30
+TSMC4 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 2 69.030,00 8,95 307,55
+TSMC4 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 12 867.890,00 5,65 306,20
+UGPA3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 3.734,00 2,35 38,35
+UGPA3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 1 14.936,00 1,15 39,74
+USIM5 Venda Opção Flexível de Venda de Ações e Units 02/02/2027 2 60.900,00 0,34 7,66
+VALE3 Venda Opção Flexível de Venda de Ações e Units 15/12/2026 2 85.392,00 1,96 62,65
+VALE3 Venda Opção Flexível de Venda de Ações e Units 30/09/2027 1 106.740,00 5,42 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 16/10/2026 2 71.160,00 1,80 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 26/10/2027 1 28.464,00 0,70 73,79
+VALE3 Venda Opção Flexível de Venda de Ações e Units 04/10/2027 2 227.712,00 1,94 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 28/01/2027 2 42.696,00 0,35 62,65
+VALE3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 2 28.464,00 3,09 62,65
+VALE3 Venda Opção Flexível de Venda de Ações e Units 29/03/2027 3 64.044,00 0,70 62,65
+VALE3 Venda Opção Flexível de Venda de Ações e Units 15/10/2027 1 28.464,00 5,14 66,13
+VALE3 Venda Opção Flexível de Venda de Ações e Units 30/12/2026 1 49.812,00 2,21 73,44
+VALE3 Venda Opção Flexível de Venda de Ações e Units 26/09/2028 4 99.624,00 3,79 63,35
+VALE3 Venda Opção Flexível de Venda de Ações e Units 29/09/2028 2 185.016,00 0,35 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 08/12/2026 4 213.480,00 1,73 66,13
+VALE3 Venda Opção Flexível de Venda de Ações e Units 20/01/2027 4 256.176,00 2,30 73,93
+VALE3 Venda Opção Flexível de Venda de Ações e Units 04/03/2027 1 298.872,00 1,06 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 1 14.232,00 2,75 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 30/03/2027 30 1.650.912,00 1,32 75,18
+VALE3 Venda Opção Flexível de Venda de Ações e Units 11/04/2028 1 213.480,00 0,34 69,61
+VALE3 Venda Opção Flexível de Venda de Ações e Units 18/05/2027 2 71.160,00 1,19 72,74
+VALE3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 1 56.928,00 0,70 72,76
+VALE3 Venda Opção Flexível de Venda de Ações e Units 16/11/2026 5 597.744,00 0,70 73,05
+VALE3 Venda Opção Flexível de Venda de Ações e Units 05/04/2027 2 1.223.952,00 1,14 71,74
+VALE3 Venda Opção Flexível de Venda de Ações e Units 03/10/2028 1 135.204,00 0,35 76,57
+VALE3 Venda Opção Flexível de Venda de Ações e Units 22/03/2027 1 252.333,00 3,49 74,62
+VALE3 Venda Opção Flexível de Venda de Ações e Units 01/10/2029 3 128.088,00 2,83 67,29
+VALE3 Venda Opção Flexível de Venda de Ações e Units 13/04/2027 1 14.232,00 3,70 66,13
+VALE3 Venda Opção Flexível de Venda de Ações e Units 03/05/2027 1 35.580,00 3,30 77,96
+VAMO3 Venda Opção Flexível de Venda de Ações e Units 28/10/2026 1 155.925,00 0,04 4,16
+VBBR3 Venda Opção Flexível de Venda de Ações e Units 17/11/2026 1 64.702,00 0,76 40,24
+VBBR3 Venda Opção Flexível de Venda de Ações e Units 27/11/2026 2 685.080,00 0,86 37,96
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 18613
+
+Código IF Tipo de opção Opção Vencimento Número de negócios Volume (R$) Prêmio médio (R$) Preço exercício médio (R$)
+VBBR3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 3 319.704,00 0,38 39,71
+VIVA3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 48.972,00 0,23 24,19
+VIVA3 Venda Opção Flexível de Venda de Ações e Units 01/10/2027 1 8.904,00 1,44 27,43
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 07/08/2029 1 25.060,00 6,55 57,83
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 22/12/2026 1 45.108,00 2,19 49,28
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 01/12/2026 4 155.372,00 0,89 51,65
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 15/12/2026 2 90.216,00 1,49 45,26
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 29/12/2026 3 130.312,00 0,50 52,43
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 30/10/2026 2 55.132,00 1,51 52,00
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 05/07/2027 1 25.060,00 4,01 50,29
+WEGE3 Venda Opção Flexível de Venda de Ações e Units 06/09/2028 1 35.084,00 6,52 58,84
+Registro com CCP
+Detalha as operações de derivativos de renda fixa registradas junto à Câmara de Compensação Central (CCP), incluindo volumes. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão
+disponíveis no Glossário
+Instrumento financeiro Quantidade contratos Volume financeiro (R$)
+Opção 5.646 891.005.933,53
+Swap 35 7.042.879,00
+Termo 4 7.096.835,00
+Registro sem CCP
+Resume as operações de derivativos de renda fixa realizadas fora do registro da Câmara de Compensação Central (CCP). Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão
+disponíveis no Glossário
+Instrumento financeiro Quantidade contratos Volume financeiro (R$)
+BOX 1 347.239.945,00
+Opção Flexível 4.195 14.451.120.423,21
+Swap 1.262 15.067.624.307,53
+Termo 2.042 43.574.781.849,75
+Swap
+Informações sobre contratos de swap de renda fixa, incluindo volumes e tipos de operações realizadas. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no
+Glossário
+Código IF Vencimento Número de negócios Volume (R$) Taxa média diária
+DI1 x PRE 03/01/2033 3 2.970.000 16,20
+DI1 x PRE 29/09/2033 1 250.000 17,15
+DI1 x PRE 02/01/2035 1 80.879 14,44
+DI1 x PRE 29/08/2036 1 150.000 16,35
+DI1 x PRE 29/09/2036 25 2.432.000 16,74
+DI1 x PRE 02/01/2037 1 1.000.000 13,70
+DI1 x PRE 23/09/2041 2 110.000 13,73
+DI1 x PRE 30/09/2041 1 50.000 13,80
+Termo eletrônico
+Mostra os contratos de termo eletrônico de renda fixa, destacando volumes e características das operações. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no
+Glossário
+Código IF Vencimento Número de negócios Volume (R$) Volume (US$)
+Termo de Taxa de Câmbio 29/10/2026 1 170.056 32.575
+Termo de Taxa de Câmbio 29/12/2026 1 2.085.280 399.448
+Termo de Taxa de Câmbio 27/01/2027 1 1.563.960 299.586
+Termo de Taxa de Câmbio 29/03/2027 1 3.127.920 599.172
+Boletim Diário do Mercado
+Derivativos de balcão
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 18614

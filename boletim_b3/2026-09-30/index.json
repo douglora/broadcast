@@ -1,0 +1,155 @@
+{
+ "pregao": "2026-09-30",
+ "coletado_em": "2026-10-01T01:14:45Z",
+ "cadernos": {
+  "BDI_02": {
+   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02_20260930.pdf",
+   "bytes": 27400303,
+   "paginas": 181,
+   "last_modified": null,
+   "titulo": "Boletim Diário do Mercado REFERENTE A QUARTA-FEIRA - 30 DE SETEMBRO DE 2026 - Nº 187 Indicadores e informativos 1 Distribuição dos locais de formação de lotes café tipo 4/5 Panorama geográfico sobre onde se localizam os lotes de café"
+  },
+  "BDI_02-0": {
+   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02-0_20260930.pdf",
+   "bytes": 27343210,
+   "paginas": 174,
+   "last_modified": null,
+   "titulo": "Seleção de informações que ajuda a avaliar o desempenho do mercado de renda variável, com índices, participações e estatísticas. Boletim Diário do Mercado REFERENTE A QUARTA-FEIRA - 30 DE SETEMBRO DE 2026 - Nº 187 Renda variável 1 Indicador"
+  },
+  "BDI_02-1": {
+   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02-1_20260930.pdf",
+   "bytes": 12441671,
+   "paginas": 769,
+   "last_modified": null,
+   "titulo": "Apresenta informações concisas e relevantes sobre ações específicas ou o conjunto que ajuda a entender o mercado de ações. Ações - resumo das operações Informações sobre as operações realizadas pelas empresas negociadas na bolsa, em período"
+  },
+  "BDI_02-3": {
+   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02-3_20260930.pdf",
+   "bytes": 69611,
+   "paginas": 1,
+   "last_modified": null,
+   "titulo": "Boletim Diário do Mercado REFERENTE A QUARTA-FEIRA - 30 DE SETEMBRO DE 2026 - Nº 187 Maiores oscilações 1"
+  },
+  "BDI_03-1": {
+   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_03-1_20260930.pdf",
+   "bytes": 97268,
+   "paginas": 2,
+   "last_modified": null,
+   "titulo": "Visão consolidada e resumida das posições e transações de derivativos de uma entidade ou mercado específicos. Código para meses de vencimento Janeiro Fevereiro Março Abril Maio Junho F G H J K M Julho Agosto Setembro Outubro Novembro Dezemb"
+  },
+  "BDI_04-2": {
+   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_04-2_20260930.pdf",
+   "bytes": 69738,
+   "paginas": 1,
+   "last_modified": null,
+   "titulo": "Boletim Diário do Mercado REFERENTE A QUARTA-FEIRA - 30 DE SETEMBRO DE 2026 - Nº 187 Empréstimos de ativos 1"
+  }
+ },
+ "sondas_sem_arquivo": {
+  "HTTP 500": 137
+ },
+ "arquivos": {
+  "TradeInformationConsolidated": {
+   "bytes": 5494086,
+   "tipo": "csv",
+   "linhas": 82999,
+   "token_resposta": {
+    "redirectUrl": "~/download?token=ank0Uml5UC9YdmQ5aVgvdVdpek8xQT09T1pUM0VWWEF0S3JFUTkvNjdDUXlzMXVLVXNEczZJNVlkd3NDSWZoLzlycUtDa1ZJSFJ2ZjNPeElVQmtkRnliOFdGSU81OU15N3hSME1QbHpSUkVBeWlGbmlEMU9Rb1NXWktoM1o5Q2lVdXJUZ0RkTks2ZTNTVTVndko1RXYyMVR1R1ZNdnBDTm1Tdm81blJWWFVNQnhUblFyanRGaWlQMjEzZ2hPa0FnR3I4UmRYSzFsTXhoK2haOHhSK3RyV2RVcG1sZmpvbFUwUnJYYlcrSTF4ZWJFUURLcTNrTm5mZnFNTld2M1M0Y1ZodjRsTWYyRThYY25uQlF6NEt3djdJSk84M2pxVDVSRkxpelpxQU5Zamt3Mnc9PQ",
+    "file": {
+     "name": "TradeInformationConsolidatedFile_20260930_1",
+     "extension": ".csv"
+    }
+   },
+   "content_type": "application/octet-stream",
+   "disposition": "attachment; size=5494086; filename=TradeInformationConsolidatedFile_20260930_1.csv",
+   "cabecalho": [
+    "Status do Arquivo: Final",
+    "RptDt;TckrSymb;ISIN;SgmtNm;MinPric;MaxPric;TradAvrgPric;LastPric;OscnPctg;AdjstdQt;AdjstdQtTax;RefPric;TradQty;FinInstrmQty;NtlFinVol",
+    "2026-09-30;10BK11;BR10BKCTF006;FORWARD;53,14;53,46;53,44;53,14;-0,11;;;;4;168;8978,36"
+   ],
+   "amostra": [
+    "2026-09-30;3PRE11;BR3PRECTF003;FORWARD;53,45;53,49;53,47;53,45;0,11;;;;3;410;21926,74",
+    "2026-09-30;5PRE11;BR5PRECTF008;FORWARD;52,33;52,69;52,59;52,44;0,05;;;;172;27663;1455022,37",
+    "2026-09-30;A1AP34;BRA1APBDR001;CASH;12,51;12,93;12,61;12,54;-3,01;;;;15;380;4791,88",
+    "2026-09-30;A1CR34;BRA1CRBDR003;CASH;219,14;223;221,67;219,14;0,61;;;;7;12;2660,1",
+    "2026-09-30;A1DC34;BRA1DCBDR003;CASH;43,5;43,72;43,69;43,71;1,19;;;;3;11;480,67"
+   ],
+   "gravado": "so amostra (grande demais para o branch)"
+  },
+  "TradeInformationConsolidatedAfterHours": {
+   "bytes": 52667,
+   "tipo": "csv",
+   "linhas": 834,
+   "token_resposta": {
+    "redirectUrl": "~/download?token=MTJqUFJKQlJmVnhtTHJob0RWUEIrQT09akR0SGkzL0tpbEdtQTZZRURzL0wwZEx2QTdQYlhSQW1qSXdYNk1nby92ZmY0Y1REaHFRQ0IyMTF2VXExK1JFYjhaWmdGbVRQN3Fpbjk3bVpwWnhuVFQrVEtob2JjK2dQbXNPN0haSUZHT3MzWUZ4ZWxsdjdoZmFzSlVhZVdnS0drcC9JVTNyUEhuajV6ZmtPcUI3S1NOSEtMR1FQWjZUdU9lTDUxc0dlWGovL0ZzUkVJWXE0Qko3V0psR2dMRGpjZnpkTEFEWTE0enlGcFV3dDJlTmlzYkRjUVNGdURndWorUmVhRXBUWFRpWW1WcWlXclp2b0J5VVIyMmNYSThLOU9jVUsvMm83Rk5HUlVac1ZzYzdwK3c9PQ",
+    "file": {
+     "name": "TradeInformationConsolidatedAfterHoursFile_20260930_1",
+     "extension": ".csv"
+    }
+   },
+   "content_type": "application/octet-stream",
+   "disposition": "attachment; size=52667; filename=TradeInformationConsolidatedAfterHoursFile_20260930_1.csv",
+   "cabecalho": [
+    "Status do Arquivo: Final",
+    "RptDt;TckrSymb;ISIN;SgmtNm;MinPric;MaxPric;TradAvrgPric;LastPric;OscnPctg;AdjstdQt;AdjstdQtTax;RefPric;TradQty;FinInstrmQty;NtlFinVol",
+    "2026-09-30;A1KA34;BRA1KABDR002;CASH;;;46,10;;;;;;3;150;6915"
+   ],
+   "amostra": [
+    "2026-09-30;A1MD34;BRA1MDBDR002;CASH;;;396,00;;;;;;11;300;118800",
+    "2026-09-30;A1MT34;BRA1MTBDR008;CASH;;;265,53;;;;;;2;7;1858,68",
+    "2026-09-30;A1PP34;BRA1PPBDR009;CASH;;;47,12;;;;;;3;7;329,85",
+    "2026-09-30;AAGR11;BRAAGRCTF017;CASH;;;110,01;;;;;;1;4;440,04",
+    "2026-09-30;AAPL34;BRAAPLBDR004;CASH;;;85,85;;;;;;20;694;59579,95"
+   ],
+   "gravado": "inteiro"
+  },
+  "InstrumentsConsolidated": {
+   "bytes": 20366625,
+   "tipo": "csv",
+   "linhas": 90454,
+   "token_resposta": {
+    "redirectUrl": "~/download?token=S05IKzNiZnk2cjZSWHd4dk1LVmRGQT09cUYxUnYxbWExWmdRS0o1ekpqRk5ZRUFDeVlobW9ZUkJHK01ldDRiOWFLTThLaHJKdDN4Mm1Ed3VMODBZOWEzWWcyNytDNDYzUi9PaG8xc2lJaDY5cmdBbi83NnNObE01S3V5TWt5UkVRR3BieXA2eVRVcCtVL0JSK2U5ZTVVZUNBQmFXODFaalpURFFTMXU2cXpDU0ZUYVFZK2NKQUZSSlg0OTFxZmxyOTNSRFRzMVQxOUtIalJCdUwxQ3hrbHBoR1VpTCsxMUJwRG5saHJQZ3ZXWm42Qy9ScEZSVUIwRDV1R1M2WloxK0xMUkhKWFN5eHlyUU1mL29uQ0w1MTJDRWFqNzE5Z0hTdUR0ZlBKY2p2Vkd1UXc9PQ",
+    "file": {
+     "name": "InstrumentsConsolidatedFile_20260930_1",
+     "extension": ".csv"
+    }
+   },
+   "content_type": "application/octet-stream",
+   "disposition": "attachment; size=20366625; filename=InstrumentsConsolidatedFile_20260930_1.csv",
+   "cabecalho": [
+    "Status do Arquivo: Final",
+    "RptDt;TckrSymb;Asst;AsstDesc;SgmtNm;MktNm;SctyCtgyNm;XprtnDt;XprtnCd;TradgStartDt;TradgEndDt;BaseCd;ConvsCritNm;MtrtyDtTrgtPt;ReqrdConvsInd;ISIN;CFICd;DlvryNtceStartDt;DlvryNtceEndDt;OptnTp;CtrctMltplr;AsstQtnQty;AllcnRndLot;TradgCcy;DlvryTpNm;WdrwlDays;WrkgDays;ClnrDays;RlvrBasePricNm;OpngFutrPosDay;SdTpCd1;UndrlygTckrSymb1;SdTpCd2;UndrlygTckrSymb2;PureGoldWght;ExrcPric;OptnStyle;ValTpNm;PrmUpfrntInd;OpngPosLmtDt;DstrbtnId;PricFctr;DaysToSttlm;SrsTpNm;PrtcnFlg;AutomtcExrcInd;SpcfctnCd;CrpnNm;CorpActnStartDt;CtdyTrtmntTpNm;MktCptlstn;CorpGovnLvlNm",
+    "2026-09-30;003H11;003H;003H;CASH;EQUITY-CASH;FUNDS;;;9999-12-31;9999-12-31;;;;;BR003HCTF006;CICGRY;;;;;;1;BRL;;;;;;;;;;;;;;;;;100;1;2;;;;CI;KINEA CO-INVESTIMENTO FDO INV IMOB;9999-12-31;FUNGIBLE;15000;"
+   ],
+   "amostra": [
+    "2026-09-30;03BK11;03BK;03BK;FORWARD;FIXED INCOME;FIXED INCOME TRADABLE INSTRUMENT T1;;;2026-07-30;9999-12-31;;;;;BR03BKCTF019;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;",
+    "2026-09-30;03BKETF11H;03BK;03BK;ETF PRIMARY MARKET;FIXED INCOME;ETF PRIMARY MARKET� GROSS SETTLEMENT;;;2026-07-30;9999-12-31;;;;;BR03BKCTF019;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;",
+    "2026-09-30;0FEA11;0FEA;0FEA;CASH;EQUITY-CASH;FUNDS;;;9999-12-31;9999-12-31;;;;;BR0FEACTF006;CICGRY;;;;;;1;BRL;;;;;;;;;;;;;;;;;100;1;2;;;;CI;SPIM FUNDO DE INVESTIMENTO IMOBILI�RIO;9999-12-31;FUNGIBLE;1631616;",
+    "2026-09-30;10BK11;10BK;10BK;FORWARD;FIXED INCOME;FIXED INCOME TRADABLE INSTRUMENT T1;;;2026-07-30;9999-12-31;;;;;BR10BKCTF006;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;",
+    "2026-09-30;10BKETF11H;10BK;10BK;ETF PRIMARY MARKET;FIXED INCOME;ETF PRIMARY MARKET� GROSS SETTLEMENT;;;2026-07-30;9999-12-31;;;;;BR10BKCTF006;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;"
+   ],
+   "gravado": "so amostra (grande demais para o branch)"
+  }
+ },
+ "arquivos_falhas": {
+  "LendingOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "LendingTradesConsolidated": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "DerivativesOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "EconomicIndicatorPrice": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "OTCTradeInformationConsolidated": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "OTCInstrumentsConsolidated": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "MarginScenarioLiquidAssets": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "PriceReport": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "IndexComposition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "InvestorParticipation": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "ParticipantsTradeInformation": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "OptionsOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "SecuritiesLendingPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "LoanBalance": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "ForwardOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "FutureOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "SwapOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "DailyBulletin": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
+  "BDI": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques"
+ }
+}

@@ -1,0 +1,107 @@
+Visão abrangente de significativas movimentações, com foco nas oscilações de derivativos e ações do IBOVESPA, que permite melhor compreensão do comportamento do mercado.
+Ações do IBOVESPA - maiores altas
+Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período.
+Ação Preço (R$) Oscilação (%)
+AZZA3 ON      NM 17,15 10,50↑
+DIRR3 ON      NM 10,16 4,74↑
+COGN3 ON      NM 2,20 4,26↑
+CURY3 ON      NM 28,72 4,09↑
+VAMO3 ON      NM 4,00 3,89↑
+VIVA3 ON      NM 23,05 3,54↑
+ASAI3 ON      NM 10,54 3,33↑
+MRVE3 ON      NM 5,38 3,26↑
+FLRY3 ON      NM 22,03 2,75↑
+UGPA3 ON      NM 38,35 2,70↑
+Ações do IBOVESPA - maiores baixas
+Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período.
+Ação Preço (R$) Oscilação (%)
+CSNA3 ON 5,40 9,84↓
+CMIN3 ON      N2 4,76 5,74↓
+TEND3 ON      NM 27,33 4,17↓
+YDUQ3 ON      NM 10,41 4,14↓
+GGBR4 PN      N1 24,20 3,54↓
+GOAU4 PN      N1 10,82 3,39↓
+HYPE3 ON  EJ  NM 23,73 2,79↓
+NATU3 ON      NM 6,55 2,38↓
+BEEF3 ON      NM 3,92 2,24↓
+VALE3 ON      NM 69,61 2,17↓
+Ações mais negociadas - a termo
+Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas.
+Ação Prazo Volume (R$) mil Participação (%)
+ORIZON      ON      NM ON      NM 171 10.560 26,47
+TREND OURO HCI CI 360 5.120 3,95
+PETROBRAS   PN      N2 PN      N2 30 1.947 1,76
+FII TRX REALCI CI 62 1.330 0,79
+MICRON TECHNDRN DRN 16 4.956 0,23
+Boletim Diário do Mercado
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 186
+Maiores oscilações
+1
+
+Ações mais negociadas - à vista
+Indica as ações que tiveram maior volume de negociação no mercado à vista, refletindo interesse do investidor.
+Ação Volume (R$) mil Participação (%)
+VALE3 ON      NM 2.033.591 8,08
+PETR4 PN      N2 1.174.017 4,66
+B3SA3 ON  EJ  NM 999.059 3,97
+BBAS3 ON      NM 814.702 3,24
+ITUB4 PN      N1 742.967 2,95
+Ações mais negociadas - opções de compra
+Mostra as opções de compra mais negociadas, indicando as ações com maior interesse dos investidores. 
+Opções Vencimento Preço exercício (R$) Volume (R$) mil Participação (%)
+IBOVL189 dez/2026 190.000,00 15.732 1,52
+IBOVK185 nov/2026 185.000,00 11.000 1,06
+IBOVJ185 out/2026 185.000,00 10.061 0,97
+ITUBL260 dez/2026 26,03 47.432 4,58
+IBOVL174 dez/2026 175.000,00 20.238 1,95
+IBOVL189 dez/2026 190.000,00 15.732 1,52
+IBOVK185 nov/2026 185.000,00 11.000 1,06
+IBOVJ185 out/2026 185.000,00 10.061 0,97
+IBOVL174 dez/2026 175.000,00 20.238 1,95
+ITUBL260 dez/2026 26,03 47.432 4,58
+Ações mais negociadas - opções de venda
+Apresenta as opções de venda mais ativas, refletindo as ações que atraem maior volume de negociação.
+Opções Vencimento Preço exercício (R$) Volume (R$) mil Participação (%)
+ITUBX625 dez/2026 61,79 50.498 4,88
+ITUBX625 dez/2026 61,79 50.498 4,88
+IBOVW185 nov/2026 185.000,00 25.310 2,44
+IBOVW175 nov/2026 175.000,00 12.815 1,24
+IBOVV181 out/2026 181.000,00 10.377 1,00
+BBASW231 nov/2026 23,04 5.900 0,57
+IBOVW175 nov/2026 175.000,00 12.815 1,24
+BBASW231 nov/2026 23,04 5.900 0,57
+IBOVW185 nov/2026 185.000,00 25.310 2,44
+IBOVV181 out/2026 181.000,00 10.377 1,00
+Mercado à vista - maiores altas
+Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances.
+Ação Preço (R$) Oscilação (%)
+CNES11 CI 2,30 31,42↑
+IBCR11 CI 54,40 26,51↑
+HGAG11 CI 13,84 25,81↑
+AZTE11 BNS ORD 0,11 22,22↑
+XRXB34 DRN 19,99 19,62↑
+REME11 CI 89,96 15,30↑
+C1CL34 DRN 131,42 13,13↑
+GFSA12 BNS ORD NM 0,09 12,50↑
+AZZA3 ON      NM 17,15 10,50↑
+LJQQ3 ON      NM 1,41 10,15↑
+Boletim Diário do Mercado
+Maiores oscilações
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1862
+
+Mercado à vista - maiores baixas
+Mostra as maiores desvalorizações de ativos no mercado à vista num período.
+Ação Preço (R$) Oscilação (%)
+RCFA11 CI 0,07 76,66↓
+F2IC34 DRN 73,00 25,42↓
+DAMT11 CI 28,39 21,13↓
+O1DF34 DRN 45,96 19,49↓
+BALM3 ON 22,00 15,38↓
+C1AB34 DRN 0,29 14,70↓
+H1BA34 DRN 79,84 13,72↓
+AADA39 DRE 22,85 13,64↓
+FSRF11 CI 0,07 12,50↓
+SJAU11 CI 1,46 11,51↓
+Boletim Diário do Mercado
+Maiores oscilações
+REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 1863
