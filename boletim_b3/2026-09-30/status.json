@@ -2,7 +2,7 @@
  "pregao": "2026-09-30",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-01T00:25:38.227",
+ "atualizado_em": "2026-10-01T00:33:02.15",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T00:25:38.227",
+   "atualizado_em": "2026-10-01T00:35:38.117",
    "arquivo": "BDI_02_20260930.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-30/BDI_02_20260930.pdf"
   },
@@ -94,7 +94,7 @@
    "pai": 4,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-01T00:22:31.213",
+   "atualizado_em": "2026-10-01T00:32:27.643",
    "arquivo": "",
    "pdf": ""
   },

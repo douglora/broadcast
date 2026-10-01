@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 30/09/2026 (quarta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:34:23Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:38:11Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -152,7 +152,7 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 | CEED19 (Companhia Estadual De Distri) | IPCA+ 8,38% | +95 pb | R$ 64,3 mi |
 
 **Abriram taxa:** 23I1270600 +223 pb, para CDI+ 3,50% (R$ 18,5 mi); CRA020003PY +145 pb, para IPCA+ 13,77% (R$ 8,6 mi); SUMI17 +102 pb, para IPCA+ 14,97% (R$ 23,7 mi); ETEN12 +63 pb, para IPCA+ 6,93% (R$ 3,3 mi); ERDVC3 +46 pb, para IPCA+ 8,88% (R$ 9,0 mi).
-**Fecharam taxa:** 25F1669254 -94 pb, para IPCA+ 9,52% (R$ 18,3 mi); CRA0220073P -45 pb, para IPCA+ 12,91% (R$ 5,6 mi); 21L0668716 -40 pb, para CDI+ 0,87% (R$ 6,5 mi); EGIE27 -38 pb, para IPCA+ 5,68% (R$ 4,3 mi); CRA02300GCY -38 pb, para CDI+ 0,08% (R$ 3,4 mi).
+**Fecharam taxa:** 25F1669254 -94 pb, para IPCA+ 9,52% (R$ 18,3 mi); CRA0220073P -45 pb, para IPCA+ 12,91% (R$ 5,6 mi); 21L0668716 -40 pb, para CDI+ 0,87% (R$ 6,5 mi); CRA02300GCY -38 pb, para CDI+ 0,08% (R$ 3,4 mi); EGIE27 -38 pb, para IPCA+ 5,68% (R$ 4,3 mi).
 **Prêmio alto:** SUMI17 a IPCA+ 14,97% (+734 pb), R$ 23,7 mi; CRA020003PY a IPCA+ 13,77% (+615 pb), R$ 8,6 mi; CRA02300ASX a CDI+ 5,60%, R$ 18,0 mi; CRA0220073P a IPCA+ 12,91% (+546 pb), R$ 5,6 mi; CRA021000RX a IPCA+ 12,69% (+538 pb), R$ 3,0 mi.
 
 Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.

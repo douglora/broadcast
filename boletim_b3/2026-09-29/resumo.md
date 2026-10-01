@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 29/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-30 11:18 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:33:51Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:37:50Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
