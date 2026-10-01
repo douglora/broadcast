@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 01/10 14h21
+NOTÍCIAS E FATOS · 01/10 14h23
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 420 veículo fora da lista, 37 sem ativo, 3 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 427 veículo fora da lista, 36 sem ativo, 23 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (13)
 
@@ -172,8 +172,15 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (96)
 
+· UST Wall Street dips as surging Treasury yields outweigh software gains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
+· LITE Coherent Jumps 10% on PhotonLink Push and Bernstein’s Outperform Start; Lumentum Rises 9%, Corning Advances 3% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXN2QVdlN1l2cGJfVW4wbW9kWUlleUR1bGtLSW5oUVB6OEFoeVROT3AxeDBpcl9oTHRQLUczWHNxd3lRTFI2NHNvamlBVGU2dURvY25jLUJyNFlUcDBXMEFQb3dhbmswXzBxN2l1cUlxZUJfcVc3RlBtVUJ2dGtPelczb1FyTS1RWnhTUm5fdzVhSmdaWXNsYVN1QnpvNm8?oc=5
+· NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXN6Y29CQkRQNlcwbXJFMl9RSEJ0ZUtnZ3g1WWl5Z2YwMVdLTVQ0dTNiaXlRNGtoY3R2TlZRWDQ0eUQ0TElGZmZMdFV2ZEFFeFZxYmlGODhObTllem16RnM3RDdMMjZHb0lrRGw0UHVqOElnVFM4a1NrRlU0RjFhbUZ5N1dHNjljdkl2dHdabnZ2bUVXZjVnR3BXQzE2b2RfVFVNcmZ3?oc=5
+· UST Watch Odd Lots: Why Are Global Bond and US Treasury Yields Rising? (Bloomberg) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV0dJbVJjSWVFRGJ3S3RNVWVkTTl3UzdfZVlPektoWGZPYVl4dVdQb05NSkM5WjBOUkF2eWlsUkRzY2FkWGxvbC14S0UydkRVR0hibXZVcXA4MGJHVlFxOXNNT09MdzVXYm95SmIwYWlzNkU2dkFWakluNVJlR2o2anAyS3NJWnJXYXotY0JZdXd3QVVjRkJudHlxaGxHMG12eF9VanRIQ1ZaN3M?oc=5
+· MU Broadcom lends Anthropic $42B, Nike releases Caitlin 1s, and Micron earnings takeaways (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxQOUl6R3ZTSHU1TVROOTFLMDhlMWhjTDRiWm9mWTJ6V0plQkJlaG9WU1ItUnVieTZtTG5XSmVPZ1BxUGJnVHhvOHZlM2o1alN5RDNldll6U0ZOdEw1VkI2V3RDVjF3OUdJRDh5aGlJb0VfNC1fbzVwaGZXLTA4WUxhMDVyaGx4WlU?oc=5
+· JPM JPMorgan ETFs (Ireland) ICAV: Dividend Declaration (Yahoo Finance) https://news.google.com/rss/articles/CBMiogFBVV95cUxPQXJfZHBaWTVFVXloTmRZNTk3Uk02bVRHQVpFTjRkaUhMNlEwSGZYVGxrdWFOWTdHam9RaWNrZFFnR2c4VUNlZURLVVFpMFl1a0syZ1ZxWHJ0VER5WTRsNjEtWkt6ZHpoNm5mcVJPS3VLYVVNVVdvNjM2Y3B5U2JGdk1Rcnd2OXNLQm5pcnJELWlPS3BocElTQm1aaVNnMjJFbVE?oc=5
+· USDBRL Dólar avança e Bolsa cai antes de nova pesquisa Datafolha e com alta dos Treasuries (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
 · COHR Coherent’s Next AI Growth Engine Is Emerging (NYSE:COHR) (Seeking Alpha) https://seekingalpha.com/article/4951422-coherents-next-ai-growth-engine-is-emerging
 · COHR Why Coherent (COHR) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:7f9bc9578094b:0-why-coherent-cohr-stock-is-trading-up-today/
 · BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/citi-hikes-bitcoin-ethereum-price-164116897.html
@@ -227,11 +234,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · PETR4 Ibovespa abre outubro em alta com ajuda da Petrobras; índices de NY também avançam (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-abre-outubro-as-vesperas-da-eleicao-pmi-dos-eua-marca-agenda/
 · BBDC4 Bradesco anuncia leilão na B3 com sobras dos R$ 10 bilhões de aumento de capital; entenda a operação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-anuncia-leilao-na-b3-com-sobras-dos-r-10-bilhoes-de-aumento-de-capital-entenda-a-operacao/
 · AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://www.investing.com/news/company-news/kodiak-ai-selects-aws-as-primary-cloud-provider-for-autonomous-trucks-93CH-4927506
-· JPM JPMorgan ETFs (Ireland) ICAV: Dividend Declaration (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-etfs-ireland-icav-dividend-131000985.html
-· NVDA Nvidia Knows It Could Trigger a Credit Risk Shock and Collapse Markets (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmxpMVhBSmhDUGJ2cVFMY2JYLS1CaGxyNTFpS0Y4LWp2SXpPdVVldU1IWmFkRThUSkFvRHljYVFSZk5xSW1sTklmMnd1ZjVtQnA4VXYwMG1fVzZwb1FjbzZyUFlFWlphT29fR0wxc3BFZ0NUUTY2Ty1VdTkwT2NRQnRxc2RsYXFuOUY0akNjQnJnRXdRNm16QmRIdTdISjQ?oc=5
-· AVGO The Only Way I Stop Adding Broadcom is an AI Collapse (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOT1VPcHVGM2kzUVUzdHhIQWlNVDlDY25VRERvVkcwYUhNV2VXamYwNVVacjk1bjJ1ZlhRbEU0TWN1ODZIUWtDQnExMzFWQjI3RjY2YndyLVMxRDVhTExCcTZseE51RFJ5M0c1OFR2aU1qLXN3cW5JcDZRU1V6cHljNkV3NldBUnN4VmYxZ1FSUmcyTnJHcVVpTA?oc=5
-· USDBRL Dólar inicia dia em alta acompanhando guerra no Oriente Médio (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVdZNlVFUVVDWEViVGFZeVkxdmNObWFQSkNFaWN3dTVPZ2ZFQktWTTFJOXE5WkJlNjh2OGRDQnpBaDV6bzdqWnpybmZaT1pIRGE3U1ZVV0h4Sjd0M045allsLUxSa0xMRFY1UGdWWWZ4SEZDX20tb3hlZVJSbGxzTjJ6NEhNRlZXakthWENBVnp2ODVqZGYtT2JKc0lJS01sdE5V?oc=5
-· USDBRL Venda de máquinas agrícolas cai 22,4% até agosto por câmbio e endividamento (CNN Brasil) https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2JBQXVjbl9yOVVGcTU1OGdOQjhDTGhWeEk1cGdQX3k0UzVzNG8wU0JSbFJmdExaWDU0dGFLcHItZkRqcnlTaTMyRWRQQ2sxc0RnaFBfT015QjZhdm9mSGZjY0RfaU9qODNIQnNBMlB0UDd1bjFIanE2dmJRS3dJckdRczQwaTZTUjBtbFNFWW9sams1Q2pGWDJUbWdGdjV4MHJiUnlLM0Ryd0Vt?oc=5
-· AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://in.investing.com/news/stock-market-news/kodiak-ai-selects-aws-as-primary-cloud-provider-for-autonomous-trucks-93CH-5614980
-· USDBRL Dólar abre perto da estabilidade antes de nova pesquisa Datafolha e debate presidencial (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-perto-da-estabilidade-antes-de-nova-pesquisa-datafolha-e-debate-presidencial.shtml
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+36 manchetes; lista completa em eventos/noticias.json)
