@@ -36,6 +36,7 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py boletim rf                   # renda fixa: debentures incentivadas, CRI e CRA (taxa do dia, premio, quem abriu e fechou)
     python3 mesa.py boletim opcoes PETR4         # opcoes do ativo: vencimentos, posicao por strike, paredes, dor maxima, series que mudaram
     python3 mesa.py boletim radar                # mercado inteiro: mais alugadas, aluguel mais caro, volume anormal, opcoes, corretoras
+    python3 mesa.py boletim fluxo                # compras menos vendas por tipo de investidor, dia a dia, nos pregoes guardados
     python3 mesa.py boletim json renda_fixa      # um bloco do resumo em JSON, para outro agente consumir (sem argumento, lista os blocos)
     python3 mesa.py boletim painel               # endereco do painel.html do pregao (o que a sessao publica como Artifact)
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
@@ -1384,7 +1385,7 @@ def _boletim_rf(resumo):
     return 0
 
 
-def _boletim_opcoes(tk, resumo):
+def _boletim_opcoes(tk, resumo, hist=None):
     o = ((resumo.get("ativos") or {}).get(tk) or {}).get("opcoes") or (resumo.get("opcoes_extras") or {}).get(tk)
     if not o:
         print(f"   sem opcoes de {tk} no resumo. Disponiveis: "
@@ -1411,11 +1412,41 @@ def _boletim_opcoes(tk, resumo):
             print(f"-- {titulo}")
             for m in o[chave]:
                 print(f"   {m['codigo']:12s} {m['tipo']:4s} strike {fmt(m.get('strike'), 2):>8s} venc {m.get('vencimento')} var {fmt(m['variacao'], 0):>12s} -> {fmt(m.get('posicao'), 0)}")
+    serie = []
+    for d in sorted((hist or {}).get("pregoes") or {}):
+        x = hist["pregoes"][d]
+        par = ((x.get("ativos") or {}).get(tk) or {}).get("opc") or (x.get("opcoes_extras") or {}).get(tk)
+        if par and par[0]:
+            serie.append(f"{d[5:]} {fmt(par[1] / par[0], 2)}")
+    if serie:
+        print("-- put/call da posicao em aberto, pregao a pregao: " + "; ".join(serie[-20:]))
     if o.get("mais_negociadas"):
         print("-- mais negociadas no dia")
         for m in o["mais_negociadas"]:
             print(f"   {m['codigo']:12s} {m['tipo']:4s} strike {fmt(m.get('strike'), 2):>8s} venc {m.get('vencimento')} ultimo {fmt(m.get('ultimo'), 2)}"
                   f" ({fmt(m.get('oscilacao_pct'), 1)}%) R$ {fmt((m.get('volume_rs') or 0) / 1e3, 0)} mil")
+    return 0
+
+
+def _boletim_fluxo(hist):
+    """Saldo por tipo de investidor, dia a dia: diferenca entre os acumulados do mes que a B3 divulga."""
+    acum = {}
+    for d in sorted((hist or {}).get("pregoes") or {}):
+        f = hist["pregoes"][d].get("fluxo") or {}
+        if f.get("ate"):
+            acum[f["ate"]] = f.get("saldo") or {}
+    if len(acum) < 2:
+        print("   historico com menos de dois acumulados: o saldo por dia ainda nao da para tirar")
+        return 1
+    tipos = ("estrangeiro", "institucional", "pessoa_fisica", "inst_financeira", "outros")
+    print("\n== fluxo por tipo de investidor, R$ milhoes, compras menos vendas (B3 SharesInvesVolum; todos os mercados; sai com 2 pregoes de atraso)")
+    print(f"   {'dia':10s} " + " ".join(f"{t[:13]:>14s}" for t in tipos) + f" {'estr. no mes':>14s}")
+    datas = sorted(acum)
+    for i, d in enumerate(datas[1:], 1):
+        ant = datas[i - 1]
+        mesmo = ant[:7] == d[:7]
+        dia = [(acum[d].get(t) - (acum[ant].get(t) or 0 if mesmo else 0)) if acum[d].get(t) is not None else None for t in tipos]
+        print(f"   {d:10s} " + " ".join(f"{fmt(v, 0):>14s}" for v in dia) + f" {fmt(acum[d].get('estrangeiro'), 0):>14s}")
     return 0
 
 
@@ -1471,6 +1502,9 @@ def boletim(args):
         for f in (manifest or {}).get("falhas") or []:
             print(f"   rodada: {f}")
         print(f"   publicadas com atraso: {', '.join(resumo['situacao'].get('publicadas_com_atraso') or []) or 'nenhuma'}")
+        guardados = sorted((baixar("boletim_b3/historico.json") or {}).get("pregoes") or {})
+        if guardados:
+            print(f"\n== pregoes no historico: {len(guardados)}, de {guardados[0]} a {guardados[-1]}")
     elif sub == "tabela" and len(args) >= 2:
         t = baixar(f"boletim_b3/{pregao}/tabelas/{args[1]}.json")
         if not t:
@@ -1489,7 +1523,9 @@ def boletim(args):
     elif sub == "rf":
         return _boletim_rf(resumo) or (0 if ok else 1)
     elif sub == "opcoes" and len(args) >= 2:
-        return _boletim_opcoes(args[1].upper(), resumo) or (0 if ok else 1)
+        return _boletim_opcoes(args[1].upper(), resumo, baixar("boletim_b3/historico.json")) or (0 if ok else 1)
+    elif sub == "fluxo":
+        return _boletim_fluxo(baixar("boletim_b3/historico.json")) or (0 if ok else 1)
     elif sub == "radar":
         return _boletim_radar(resumo) or (0 if ok else 1)
     elif sub == "json":
