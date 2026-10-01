@@ -1,0 +1,418 @@
+{
+ "pregao": "2026-09-18",
+ "coletado_em": "2026-10-01T03:11:06Z",
+ "tabelas": {
+  "SharesInvesVolum": {
+   "titulo": "Participação dos investidores",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T06:10:42.79",
+   "sla": "20:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "SharesInvesVolumMonthly": {
+   "titulo": "Participação dos investidores mensal",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T00:00:00",
+   "sla": null,
+   "linhas": 5,
+   "truncada": false
+  },
+  "EconomicIndicators": {
+   "titulo": "Indicadores econômicos",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-21T10:56:43.15",
+   "sla": "8:00:00",
+   "linhas": 433,
+   "truncada": false
+  },
+  "HistoricalExchange": {
+   "titulo": "Histórico de taxas de câmbio (Resolução BCB nº 120)",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T16:11:30.91",
+   "sla": "21:00:00",
+   "linhas": 3,
+   "truncada": false
+  },
+  "INDEXES": {
+   "titulo": "Evolução dos índices",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T00:02:06.537",
+   "sla": "20:00:00",
+   "linhas": 99,
+   "truncada": false
+  },
+  "DailyAverageStocks": {
+   "titulo": "Ações",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T22:50:23.18",
+   "sla": "20:00:00",
+   "linhas": 9,
+   "truncada": false
+  },
+  "StocksOperationSummary": {
+   "titulo": "Ações - resumo das operações",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T22:50:23.617",
+   "sla": "20:00:00",
+   "linhas": 59,
+   "truncada": false
+  },
+  "AverageChart": {
+   "titulo": "Médias diárias – volume em um ano (R$ em milhões)",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-18T22:51:34.163",
+   "sla": "20:00:00",
+   "linhas": 13,
+   "truncada": false
+  },
+  "IOPV": {
+   "titulo": "Comportamento dos valores de referência das cotas dos ETFs (IOPV)",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T17:40:02.78",
+   "sla": "20:00:00",
+   "linhas": 68,
+   "truncada": false
+  },
+  "ForwardMarket": {
+   "titulo": "Mercado a termo",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T22:50:19.757",
+   "sla": "20:00:00",
+   "linhas": 167,
+   "truncada": false
+  },
+  "NegotiStrategi": {
+   "titulo": "Negociação de estratégias",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T18:42:52.723",
+   "sla": "20:00:00",
+   "linhas": 124,
+   "truncada": false
+  },
+  "IbovespaStockBiggestHighs": {
+   "titulo": "Ações do IBOVESPA - maiores altas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T23:30:24.83",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "IbovespaStockBiggestLow": {
+   "titulo": "Ações do IBOVESPA - maiores baixas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T23:30:24.887",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "InCashMarketBiggestHighs": {
+   "titulo": "Mercado à vista - maiores altas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T19:00:24.05",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "InCashMarketBiggestLow": {
+   "titulo": "Mercado à vista - maiores baixas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T19:00:24.237",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "InCash": {
+   "titulo": "Ações mais negociadas - à vista",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-19T00:11:54.727",
+   "sla": "8:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "Forward": {
+   "titulo": "Ações mais negociadas - a termo",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T19:02:20.48",
+   "sla": "8:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "OptionsPurshase": {
+   "titulo": "Ações mais negociadas - opções de compra",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-19T00:22:29.17",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "OptionsSelling": {
+   "titulo": "Ações mais negociadas - opções de venda",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-19T00:22:39.737",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "DailyAverageDerivatives2": {
+   "titulo": "Derivativos",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-21T00:42:12.423",
+   "sla": "6:00:00",
+   "linhas": 9,
+   "truncada": false
+  },
+  "DerivativesOperation2": {
+   "titulo": "Derivativos - resumo das operações",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-21T00:43:05.513",
+   "sla": "8:00:00",
+   "linhas": 96,
+   "truncada": false
+  },
+  "DerivativesMtM": {
+   "titulo": "Derivativos - mark to market",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-09-18T20:00:38.013",
+   "sla": "20:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "AnalyticalFramework2": {
+   "titulo": "Quadro analítico das posições em aberto",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-09-21T08:05:38.457",
+   "sla": "8:00:00",
+   "linhas": 69,
+   "truncada": false
+  },
+  "SwapFlex": {
+   "titulo": "Swap",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T22:50:51.667",
+   "sla": "3:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "EletronicTerm": {
+   "titulo": "Termo eletrônico",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T22:50:51.56",
+   "sla": "3:00:00",
+   "linhas": 2,
+   "truncada": false
+  },
+  "OTCRegistrationWCCP": {
+   "titulo": "Registro sem CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:43:09.913",
+   "sla": "8:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "OTCRegistrationCCP": {
+   "titulo": "Registro com CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:43:10.58",
+   "sla": "8:00:00",
+   "linhas": 3,
+   "truncada": false
+  },
+  "OTCInventoryWCCP": {
+   "titulo": "Estoque sem CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:43:10.633",
+   "sla": "8:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "OTCInventoryCCP": {
+   "titulo": "Estoque com CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:43:09.99",
+   "sla": "8:00:00",
+   "linhas": 3,
+   "truncada": false
+  },
+  "ProventionCreditVariable": {
+   "titulo": "Crédito de proventos",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T21:00:49.44",
+   "sla": "00:00:00",
+   "linhas": 20,
+   "truncada": false
+  },
+  "Custody": {
+   "titulo": "Ações custodiadas - programa de ADR",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T02:12:01.977",
+   "sla": "7:00:00",
+   "linhas": 63,
+   "truncada": false
+  },
+  "FugibleCustody": {
+   "titulo": "Custódia fungível",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-18T21:40:33.87",
+   "sla": "00:00:00",
+   "linhas": 6,
+   "truncada": false
+  },
+  "DeadlineDepositSecurities": {
+   "titulo": "Prazo para depósito de títulos",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T00:01:05.907",
+   "sla": "00:00:00",
+   "linhas": 24,
+   "truncada": false
+  },
+  "COERegistration": {
+   "titulo": "Registro",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:43:09.913",
+   "sla": "8:00:00",
+   "linhas": 1,
+   "truncada": false
+  },
+  "COEInventory": {
+   "titulo": "Estoque",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:43:10.06",
+   "sla": "8:00:00",
+   "linhas": 1,
+   "truncada": false
+  },
+  "DebenturesBusiness": {
+   "titulo": "Negócios de VM de renda fixa realizados no Puma",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T22:50:41.583",
+   "sla": "20:00:00",
+   "linhas": 67,
+   "truncada": false
+  },
+  "SaleOff": {
+   "titulo": "Liquidação",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T04:42:33.883",
+   "sla": "8:00:00",
+   "linhas": 47,
+   "truncada": false
+  },
+  "Stock": {
+   "titulo": "Estoque",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T04:53:33.88",
+   "sla": "8:00:00",
+   "linhas": 44,
+   "truncada": false
+  },
+  "Register": {
+   "titulo": "Registro",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T04:54:04.977",
+   "sla": "8:00:00",
+   "linhas": 17,
+   "truncada": false
+  },
+  "RepurchaseDealings": {
+   "titulo": "Negociações compromissadas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T04:42:54.04",
+   "sla": "8:00:00",
+   "linhas": 6,
+   "truncada": false
+  },
+  "DIover": {
+   "titulo": "DI over",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:12:58.84",
+   "sla": "8:00:00",
+   "linhas": 1,
+   "truncada": false
+  },
+  "BTBLendingOpenPosition": {
+   "titulo": "Posições em aberto",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-21T00:43:33.21",
+   "sla": "8:00:00",
+   "linhas": 2919,
+   "truncada": false
+  },
+  "BTBLoanBalance": {
+   "titulo": "Empréstimos registrados",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-19T03:34:50.163",
+   "sla": "8:00:00",
+   "linhas": 4698,
+   "truncada": false
+  },
+  "PreviaQuadrimestral": {
+   "titulo": "Composição das carteiras de índices",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-18T23:31:21.513",
+   "sla": "21:00:00",
+   "linhas": 2253,
+   "truncada": false
+  },
+  "Previa": {
+   "titulo": "Prévia das carteiras teóricas de índices",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-18T00:02:05.693",
+   "sla": "21:00:00",
+   "linhas": 0,
+   "truncada": false
+  },
+  "Trade": {
+   "titulo": "Negócio a negócio",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-21T11:52:52.25",
+   "sla": "18:00:00",
+   "linhas": 30642,
+   "truncada": false
+  },
+  "BTBTrade": {
+   "titulo": "Negócios",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-09-18T21:00:38.18",
+   "sla": "21:00:00",
+   "linhas": 41623,
+   "truncada": false
+  }
+ },
+ "arquivos": {
+  "TradeInformationConsolidated": {
+   "arquivo": "TradeInformationConsolidatedFile_20260918_1",
+   "bytes": 6422575,
+   "linhas": 97747,
+   "estado": "Final"
+  },
+  "TradeInformationConsolidatedAfterHours": {
+   "arquivo": "TradeInformationConsolidatedAfterHoursFile_20260918_1",
+   "bytes": 41086,
+   "linhas": 654,
+   "estado": "Final"
+  },
+  "InstrumentsConsolidated": {
+   "arquivo": "InstrumentsConsolidatedFile_20260918_1",
+   "bytes": 23746419,
+   "linhas": 105279,
+   "estado": "Final"
+  },
+  "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20260918_1",
+   "bytes": 3402385,
+   "linhas": 42909,
+   "estado": null
+  }
+ },
+ "falhas": {},
+ "rf_cadastro": {
+  "papeis_no_dia": 1516,
+  "consultados": 48,
+  "achados": 46,
+  "sem_cadastro": 2,
+  "erros": 0,
+  "ficaram_para_depois": 0,
+  "no_cache": 2952
+ }
+}

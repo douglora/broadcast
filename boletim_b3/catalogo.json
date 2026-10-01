@@ -1,0 +1,554 @@
+[
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "EletronicTerm",
+  "titulo": "Termo eletrônico",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "FlexibleOptions",
+  "titulo": "Opções flexíveis",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "OTCInventoryCCP",
+  "titulo": "Estoque com CCP",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "OTCInventoryWCCP",
+  "titulo": "Estoque sem CCP",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "OTCRegistrationCCP",
+  "titulo": "Registro com CCP",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "OTCRegistrationWCCP",
+  "titulo": "Registro sem CCP",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de balcão",
+  "capitulo_id": "a6d920af-fd00-4c25-9398-8abb96441d60",
+  "tabela": "SwapFlex",
+  "titulo": "Swap",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de bolsa",
+  "capitulo_id": "15e17436-a160-495a-a159-bdffcc76dfa3",
+  "tabela": "AnalyticalFramework2",
+  "titulo": "Quadro analítico das posições em aberto",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de bolsa",
+  "capitulo_id": "15e17436-a160-495a-a159-bdffcc76dfa3",
+  "tabela": "ConsolidatedTradesDerivatives",
+  "titulo": "Negócios consolidados do pregão",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de bolsa",
+  "capitulo_id": "15e17436-a160-495a-a159-bdffcc76dfa3",
+  "tabela": "ConsolidatedTradesDerivativesAfter",
+  "titulo": "Negócios consolidados do pregão não regular",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de bolsa",
+  "capitulo_id": "15e17436-a160-495a-a159-bdffcc76dfa3",
+  "tabela": "InstrumentsDerivatives",
+  "titulo": "Cadastro de instrumentos",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de bolsa",
+  "capitulo_id": "15e17436-a160-495a-a159-bdffcc76dfa3",
+  "tabela": "OpenPositionsEquities",
+  "titulo": "Posições em aberto",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Derivativos de bolsa",
+  "capitulo_id": "15e17436-a160-495a-a159-bdffcc76dfa3",
+  "tabela": "TickByTickDerivatives",
+  "titulo": "Negócio a negócio",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Resumo",
+  "capitulo_id": "aa9db3b0-3f31-4cf6-9953-54e8f8336e05",
+  "tabela": "DailyAverageDerivatives2",
+  "titulo": "Derivativos",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Resumo",
+  "capitulo_id": "aa9db3b0-3f31-4cf6-9953-54e8f8336e05",
+  "tabela": "DerivativesMtM",
+  "titulo": "Derivativos - mark to market",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Derivativos > Resumo",
+  "capitulo_id": "aa9db3b0-3f31-4cf6-9953-54e8f8336e05",
+  "tabela": "DerivativesOperation2",
+  "titulo": "Derivativos - resumo das operações",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > COE",
+  "capitulo_id": "1813cc19-7bcf-4576-aafb-b416ab2ee50f",
+  "tabela": "COEInventory",
+  "titulo": "Estoque",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > COE",
+  "capitulo_id": "1813cc19-7bcf-4576-aafb-b416ab2ee50f",
+  "tabela": "COERegistration",
+  "titulo": "Registro",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Clearing e depositária",
+  "capitulo_id": "afd2fb86-8128-4cef-be34-d9d88c0ff01c",
+  "tabela": "Custody",
+  "titulo": "Ações custodiadas - programa de ADR",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Clearing e depositária",
+  "capitulo_id": "afd2fb86-8128-4cef-be34-d9d88c0ff01c",
+  "tabela": "DeadlineDepositSecurities",
+  "titulo": "Prazo para depósito de títulos",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Clearing e depositária",
+  "capitulo_id": "afd2fb86-8128-4cef-be34-d9d88c0ff01c",
+  "tabela": "FugibleCustody",
+  "titulo": "Custódia fungível",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Clearing e depositária",
+  "capitulo_id": "afd2fb86-8128-4cef-be34-d9d88c0ff01c",
+  "tabela": "ProventionCreditVariable",
+  "titulo": "Crédito de proventos",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Empréstimos de ativos",
+  "capitulo_id": "f0934590-4838-4903-93eb-e703f94ccad0",
+  "tabela": "BTBLendingOpenPosition",
+  "titulo": "Posições em aberto",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Empréstimos de ativos",
+  "capitulo_id": "f0934590-4838-4903-93eb-e703f94ccad0",
+  "tabela": "BTBLoanBalance",
+  "titulo": "Empréstimos registrados",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Empréstimos de ativos",
+  "capitulo_id": "f0934590-4838-4903-93eb-e703f94ccad0",
+  "tabela": "BTBTrade",
+  "titulo": "Negócios",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Outros dados > Empréstimos de ativos",
+  "capitulo_id": "f0934590-4838-4903-93eb-e703f94ccad0",
+  "tabela": "Renewals",
+  "titulo": "Renovações",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "ConsolidatedRecords",
+  "titulo": "Negociação consolidada",
+  "historico": true,
+  "limite": "M-18"
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "DIover",
+  "titulo": "DI over",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "DebenturesBusiness",
+  "titulo": "Negócios de VM de renda fixa realizados no Puma",
+  "historico": true,
+  "limite": "M-18"
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "InstrumentRegistration",
+  "titulo": "Cadastro de instrumentos",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "Register",
+  "titulo": "Registro",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "Repodebenture",
+  "titulo": "Debêntures negociações compromissadas",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "RepurchaseDealings",
+  "titulo": "Negociações compromissadas",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "SaleOff",
+  "titulo": "Liquidação",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "Stock",
+  "titulo": "Estoque",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "TDA",
+  "titulo": "TDA - Valores nominais",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda fixa",
+  "capitulo_id": "f5df8af6-5836-4075-8b49-164480e788f8",
+  "tabela": "Trade",
+  "titulo": "Negócio a negócio",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "CNLDistrionCoffeLocation",
+  "titulo": "Distribuição dos locais de formação de lotes café Conilon",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "CNLHarvestCoffeApprov",
+  "titulo": "Estatísticas de safras dos lotes de cafés certificados - aprovados - café Conilon",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "CNLValidLotsSettle",
+  "titulo": "Lotes válidos para a liquidação de contratos - café Conilon",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "DistrionCoffeLocation",
+  "titulo": "Distribuição dos locais de formação de lotes café tipo 4/5",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "EconomicIndicators",
+  "titulo": "Indicadores econômicos",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "HarvestCoffeApprov",
+  "titulo": "Estatísticas de safras dos lotes de cafés certificados - aprovados - café Arábica 4/5",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "HistoricalExchange",
+  "titulo": "Histórico de taxas de câmbio (Resolução BCB nº 120)",
+  "historico": true,
+  "limite": "PDC_ANO-5"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "INDEXES",
+  "titulo": "Evolução dos índices",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "Previa",
+  "titulo": "Prévia das carteiras teóricas de índices",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "PreviaQuadrimestral",
+  "titulo": "Composição das carteiras de índices",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "SharesInvesVolum",
+  "titulo": "Participação dos investidores",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "SharesInvesVolumMonthly",
+  "titulo": "Participação dos investidores mensal",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Indicadores e informativos",
+  "capitulo_id": "aeaccfe3-e492-40c4-9359-f9d6d2ef3ed9",
+  "tabela": "ValidLotsSettle",
+  "titulo": "Lotes válidos para a liquidação de contratos - café Arábica",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "Forward",
+  "titulo": "Ações mais negociadas - a termo",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "IbovespaStockBiggestHighs",
+  "titulo": "Ações do IBOVESPA - maiores altas",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "IbovespaStockBiggestLow",
+  "titulo": "Ações do IBOVESPA - maiores baixas",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "InCash",
+  "titulo": "Ações mais negociadas - à vista",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "InCashMarketBiggestHighs",
+  "titulo": "Mercado à vista - maiores altas",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "InCashMarketBiggestLow",
+  "titulo": "Mercado à vista - maiores baixas",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "OptionsPurshase",
+  "titulo": "Ações mais negociadas - opções de compra",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Maiores oscilações",
+  "capitulo_id": "eb9eb88e-6a0a-4fb0-a701-45c6058bca33",
+  "tabela": "OptionsSelling",
+  "titulo": "Ações mais negociadas - opções de venda",
+  "historico": false,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "AverageChart",
+  "titulo": "Médias diárias – volume em um ano (R$ em milhões)",
+  "historico": true,
+  "limite": ""
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "ConsolidatedTradesEquities",
+  "titulo": "Negócios consolidados do pregão",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "ConsolidatedTradesRVAfter",
+  "titulo": "Negócios consolidados do pregão não regular",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "DailyAverageStocks",
+  "titulo": "Ações",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "ForwardMarket",
+  "titulo": "Mercado a termo",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "IOPV",
+  "titulo": "Comportamento dos valores de referência das cotas dos ETFs (IOPV)",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "InstrumentsEquities",
+  "titulo": "Cadastro de instrumentos",
+  "historico": true,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "MarginScenarios",
+  "titulo": "Cenários de margem para ativos líquidos",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "NegotiStrategi",
+  "titulo": "Negociação de estratégias",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "StocksOperationSummary",
+  "titulo": "Ações - resumo das operações",
+  "historico": false,
+  "limite": "D-21"
+ },
+ {
+  "capitulo": "Renda variável > Resumo de ações",
+  "capitulo_id": "7b1adb82-a8be-4d9d-8fcf-335da462fc25",
+  "tabela": "TickByTickVariableIncome",
+  "titulo": "Negócio a negócio",
+  "historico": false,
+  "limite": "D-21"
+ }
+]

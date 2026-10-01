@@ -1,0 +1,122 @@
+{
+ "pregao": "2026-09-08",
+ "situacao": "publicado",
+ "errata": true,
+ "atualizado_em": "2026-09-08T00:00:00",
+ "completo": {
+  "arquivo": "BDI_00_20260810.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_00_20260810.pdf"
+ },
+ "cadernos": [
+  {
+   "id": 1,
+   "nome": "Renda fixa",
+   "pai": null,
+   "situacao": "publicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T06:22:37.84",
+   "arquivo": "",
+   "pdf": ""
+  },
+  {
+   "id": 20,
+   "nome": "Renda variável",
+   "pai": null,
+   "situacao": "republicado",
+   "errata": false,
+   "atualizado_em": "2026-09-08T15:13:57.41",
+   "arquivo": "BDI_02-0_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_02-0_20260908.pdf"
+  },
+  {
+   "id": 21,
+   "nome": "Resumo de ações",
+   "pai": 20,
+   "situacao": "publicado",
+   "errata": false,
+   "atualizado_em": "2026-09-08T19:19:07.337",
+   "arquivo": "",
+   "pdf": ""
+  },
+  {
+   "id": 2,
+   "nome": "Indicadores e informativos",
+   "pai": 20,
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-09-09T10:53:23.39",
+   "arquivo": "",
+   "pdf": ""
+  },
+  {
+   "id": 23,
+   "nome": "Maiores oscilações",
+   "pai": 20,
+   "situacao": "republicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T03:25:38.22",
+   "arquivo": "BDI_02-3_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_02-3_20260908.pdf"
+  },
+  {
+   "id": 31,
+   "nome": "Resumo",
+   "pai": 3,
+   "situacao": "republicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T00:45:38.093",
+   "arquivo": "BDI_03-1_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_03-1_20260908.pdf"
+  },
+  {
+   "id": 33,
+   "nome": "Derivativos de balcão",
+   "pai": 3,
+   "situacao": "publicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T01:25:38.097",
+   "arquivo": "BDI_03-3_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_03-3_20260908.pdf"
+  },
+  {
+   "id": 34,
+   "nome": "Derivativos de bolsa",
+   "pai": 3,
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-09-08T00:00:00",
+   "arquivo": "BDI_03-4_20260901.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_03-4_20260901.pdf"
+  },
+  {
+   "id": 41,
+   "nome": "Clearing e depositária",
+   "pai": 4,
+   "situacao": "publicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T01:55:38.14",
+   "arquivo": "BDI_04-1_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_04-1_20260908.pdf"
+  },
+  {
+   "id": 42,
+   "nome": "Empréstimos de ativos",
+   "pai": 4,
+   "situacao": "republicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T04:15:38.09",
+   "arquivo": "BDI_04-2_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_04-2_20260908.pdf"
+  },
+  {
+   "id": 43,
+   "nome": "COE",
+   "pai": 4,
+   "situacao": "publicado",
+   "errata": false,
+   "atualizado_em": "2026-09-09T01:25:38.097",
+   "arquivo": "BDI_04-3_20260908.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-08/BDI_04-3_20260908.pdf"
+  }
+ ]
+}
