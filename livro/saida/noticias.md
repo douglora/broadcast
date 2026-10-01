@@ -1,8 +1,28 @@
-NOTÍCIAS E FATOS · 01/10 13h21
+NOTÍCIAS E FATOS · 01/10 14h21
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 426 veículo fora da lista, 39 sem ativo, 5 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 17 novas (18 consultas; descartadas: 420 veículo fora da lista, 37 sem ativo, 3 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · SAPR4 · Conta de água da Sanepar fica 25% mais barata na tarifa mínima
+g1 · 01/10 14h06 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A companhia começou a aplicar um desconto de 25% na tarifa mínima de consumo.
+Link: https://g1.globo.com/pr/norte-noroeste/videos-meio-dia-parana-londrina/video/conta-de-agua-da-sanepar-fica-25-mais-barata-na-tarifa-minima-15010842.ghtml
+Por que importa: tarifa ou sancao muda margem e acesso a mercado
+Ativos: SAPR4
+Como falar: 'saiu no g1: Conta de água da Sanepar fica 25% mais barata na tarifa mínima; confirmar o número no texto antes de repassar'
+Fonte: g1 01/10 14h06
+id: E05-SAPR4-1a2266bdc3-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · MU · Goldman Sachs Raises Micron Stock Price Target After Earnings
+TradingView (Reuters) · 01/10 12h32 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:f6bea17cf094b:0-goldman-sachs-raises-micron-stock-price-target-after-earnings/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): Goldman Sachs Raises Micron Stock Price Target After Earnings; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 01/10 12h32
+id: E05-MU-372314fd54-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · MU · Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending
 Yahoo Finance · 01/10 12h38 · fonte única · licença: resumo
@@ -13,7 +33,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU · AVGO
 Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Len…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 12h38
-id: E05-MU-8903da9c8d-2026-10-01 · status: pendente
+id: E05-MU-8903da9c8d-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron analysts stay bullish after another beat and raise as memory demand outlook extends into 2027
 Yahoo Finance · 01/10 12h18 · fonte única · licença: resumo
@@ -29,7 +49,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron analysts stay bullish after another beat and raise as memory demand outlook extend…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 12h18
-id: E05-MU-6f997efdb4-2026-10-01 · status: pendente
+id: E05-MU-6f997efdb4-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · UST · Treasury 10-Year Yield Hits Highest Since 2002 on Rate Outlook
 Yahoo Finance · 01/10 04h29 · + CNBC · licença: resumo
@@ -43,7 +63,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: UST
 Como falar: 'saiu no Yahoo Finance: Treasury 10-Year Yield Hits Highest Since 2002 on Rate Outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 04h29
-id: E05-UST-b04be41c12-2026-10-01 · status: pendente
+id: E05-UST-b04be41c12-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco aprova R$ 3,8 bilhões em JCP; veja quem tem direito
 ADVFN · 01/10 11h25 · fonte única · licença: manchete
@@ -152,8 +172,23 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· COHR Coherent’s Next AI Growth Engine Is Emerging (NYSE:COHR) (Seeking Alpha) https://seekingalpha.com/article/4951422-coherents-next-ai-growth-engine-is-emerging
+· COHR Why Coherent (COHR) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:7f9bc9578094b:0-why-coherent-cohr-stock-is-trading-up-today/
+· BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/citi-hikes-bitcoin-ethereum-price-164116897.html
+· MU Micron Revenue Surges 379%: 4 Top AI Chip Stocks (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4951414-micron-revenue-surges-379-percent-4-top-ai-chip-stocks
+· UST Global bond rout deepens, pushes US Treasury yields to 24-year peak (Reuters) https://www.reuters.com/business/bonds-teeter-after-us-treasuries-worst-quarter-since-1994-2026-10-01/
+· TSLA Tesla’s delivery report is just around the corner. Expect a sales drop. (MarketWatch) https://www.marketwatch.com/story/teslas-delivery-report-is-just-around-the-corner-expect-a-sales-drop-45d5503b
+· AMZN Amazon Inks $1B SNPS Deal to Power AWS Custom Chips: Should You Hold? (Yahoo Finance) https://au.finance.yahoo.com/news/amazon-inks-1b-snps-deal-153700037.html
+· PETR4 Petrobras (PETR4) eleva preço do querosene de aviação em 11% em em outubro (Money Times) https://www.moneytimes.com.br/petrobras-petr4-eleva-preco-do-querosene-de-aviacao-em-11-em-em-outubro-lils/
+· CVX Will Chevron (CVX) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://ca.finance.yahoo.com/news/chevron-cvx-beat-estimates-again-151003072.html
+· KO Why Coca-Cola (KO) is Poised to Beat Earnings Estimates Again (Yahoo Finance) https://au.finance.yahoo.com/news/why-coca-cola-ko-poised-151003573.html
+· JPM Will JPMorgan Chase & Co. (JPM) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMigAFBVV95cUxPa2lkOXdablFkU01vV040TVpsUGxIV1VNQ2hDN0FfUjNPUTA4UWY1ZmNyeElDR1lWRndPSjBFRm5KZ2g1OW1zeXYtdTVXa3pSLWgtWi0yb01KMzRidVg3eUhuR3Q4Y1BVMWRSMXN0bHUtZ05VV1RORUp0TmdLNUQxSQ?oc=5
+· UST Wall Street dips as surging Treasury yields outweigh software gains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
+· BTC Bitcoin Whales Dump $2.52B, ETH Whales Buy $162M: What About XRP? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU3lkbFNGRVpwOHhNdmlOWHEzdjFwRHZFZ3lFWkw2X2E2djRSUTlIcDByQzlEWHd6bWJ4NnhOV0tHM2pnSmwtVnJkb1JlU3FOZi1ia0FraWtEYmdzZ2tELS1waTF0bk9zcW1qUkRHakVMNWxoSWZod0dEQVkzUWc1SUFOVWhCVF9TZVRlRmxEYlNSOURjQXRiNWEwRUZhZERuS0VXWUwwd2R4bTZEa3J1ODU2Q3BiWHZVS1JB?oc=5
+· USDBRL Dólar avança e Bolsa cai antes de nova pesquisa Datafolha e com alta dos Treasuries (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
+· USDBRL Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman (Bloomberg Linea) https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGdTRXVWTEcxU0xCaE5mX2tpLU9hcVpSZFpWWXc0aE1MVDVSMUpDNi0zeUhyQXhnN1ZRd25KV25MY0gxbjVvTnU4ZFhjR1NaTkR5empiNmcxTlllSzd6WmJqcDJ1X19SX1h4aGxUdFk4NTFuVXYzOEQ0Ukw1WU9CRXJsLUJZbjRiWTBXd3BETEJ2ak9JbXBOMjFUSVdTMW1xa2N1ZTJlZW5aUDJKbTRydTFBN3NYeUJiM2FNU1M3c2JUU2fSAdcBQVVfeXFMT09TWlJDU0VFMFZnQnZoV0JpcVN5VDZUbHF0SnltQ1JwSl95Z1RVeHlsdU9zdEZjMDBZTmZKUnZJNW5UR3NlcXk3T1pFQ1ByV1p3RGdDUVhtWVlpT0xxajJfamFTTk1TQURlRHVSNXI5WmVibE5XdWNrZVlPM1dBVE1GZlhnX2VibGhOZ3I5dGctTWZPNzl1dllpR0tua0paVFZ4VDlIWE5Yc2Q4RVdfWThhRXA1NTlnblMzYkw5dnYxWVhpRDhrRXZMQVlweWZjUEdBaGk4dDg?oc=5
 · JPM REG - JPMorgan China G&I - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-10-01:newsml_RSA2979Xa:0-reg-jpmorgan-china-g-i-dividend-declaration/
 · USDBRL Dólar hoje sobe mais de 1% e ultrapassa R$ 5,20 por cautela com Treasuries (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-01102026/
 · MU Micron Technology Seen With Increasingly Positive Duration Tone, Capital Returns Outlook, UBS Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-technology-seen-increasingly-positive-154856670.html
@@ -199,19 +234,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · USDBRL Venda de máquinas agrícolas cai 22,4% até agosto por câmbio e endividamento (CNN Brasil) https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2JBQXVjbl9yOVVGcTU1OGdOQjhDTGhWeEk1cGdQX3k0UzVzNG8wU0JSbFJmdExaWDU0dGFLcHItZkRqcnlTaTMyRWRQQ2sxc0RnaFBfT015QjZhdm9mSGZjY0RfaU9qODNIQnNBMlB0UDd1bjFIanE2dmJRS3dJckdRczQwaTZTUjBtbFNFWW9sams1Q2pGWDJUbWdGdjV4MHJiUnlLM0Ryd0Vt?oc=5
 · AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://in.investing.com/news/stock-market-news/kodiak-ai-selects-aws-as-primary-cloud-provider-for-autonomous-trucks-93CH-5614980
 · USDBRL Dólar abre perto da estabilidade antes de nova pesquisa Datafolha e debate presidencial (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-perto-da-estabilidade-antes-de-nova-pesquisa-datafolha-e-debate-presidencial.shtml
-· USDBRL Dólar inicia dia em alta acompanhando guerra no Oriente Médio (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-1-outubro-2026/
-· BBAS3 Petrobras e Banco do Brasil: quanto a eleição ainda mexe com as estatais da Bolsa (Exame) https://exame.com/invest/mercados/petrobras-e-banco-do-brasil-quanto-a-eleicao-ainda-mexe-com-as-estatais-da-bolsa/
-· MU The Dow's rough month, Micron's revenue surge, Google launches Gemini 4 and more in Morning Squawk (CNBC) https://www.cnbc.com/2026/10/01/5-things-to-know-before-the-stock-market-opens.html
-· USDBRL Ibovespa futuro avança com exterior e expectativa para debate de presidenciáveis; dólar sobe (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-1-10-26-lils/
-· AVGO Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says (CNBC) https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html
-· USDBRL Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01102026/
-· USDBRL Dólar sobe sob influência do exterior com mercado à espera de nova pesquisa eleitoral Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-sobe-sob-influencia-do-exterior-com-mercado-a-espera-de-nova-pesquisa-eleitoral-2080685
-· BBDC4 Embraer (EMBJ3), Bradesco (BBDC4), Nubank e outros destaques desta quinta-feira (1) (Money Times) https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ0lBRnhLY1c5cGVZTHJZOHZSR2hRQUN2RWVyaklhcHpJdkc1am5ONnFoclB6aTJCQUpGXzdHU2xvWXRPaHl2dENPQzA5WENWUFVSNVM3dzh1aVJ4dmM3VXRCaU05WmE5OW94dTd6U3lxQ1V2dnpYVWtNQWIxejJNaTFiUy1ORWZuR0M2bU1TSFZrblJoU19WX2VKVnZydDdCU2VMTC13?oc=5
-· BRENT Dólar abre outubro a R$ 5,19, com eleições e petróleo no radar (UOL Economia) https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmJlQ3JqNzBicG8wbVItTkJtQVRaZDNOUFUxN21zRzVITEFUeUJOYVBFaUE5Vk52aXNtWXJTeFV5aGI4V1BnTjdzRWk3UXlKcXg5UHVoQ2Q5RnhaNTNaTkpxdm1VNDNzTUk5b3NKdnVWTVBXaERpWmRaNFdmUVFjeTRGb3lsZjZHRkw1eDE3cFZxMTlETWplS004MjYxMjc4eXh2N2Vac2hSd0NzS052aVFn?oc=5
-· VALE3 Vale sustenta grau de investimento mesmo com minério mais barato e custos maiores, diz Moody’s (Estadao) https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWTZoT3RpVjBEQ2U2UVd4MXplRmhpQkRFLV9qOExlb1Mxd0hrdjRlMWdHX0ItX3hfNzIzc3hsZE1DUTVNVjdSVTR3Q3B0ZWN5QVhLT0NmWkFyc2U5OW0xYkZGR0pWRXl6LUZ4M2NPN2h1MVFPRmdzZlJ0VzZ1VUYwdVYwSWN2MjZOMEhNUTF0eThsVjVsVDRRR0xmYzM2ZDVlZF9fTGNoMjZub3hjckJ5djdnWFdvZzZHV0VXSW5SX2dObUNTWTRHbVdLWjdadmxQZFJSdzBjbmlEajJvQmY4UEVfdjNMLUJpeVhn0gHrAUFVX3lxTE1ZNmhPdGlWMERDZTZRV3gxemVGaGlCREUtX2o4TGVvUzF3SGt2NGUxZ0dfQi1feF83MjNzeGxkTUNRNU1WN1JVNHdDcHRlY3lBWEtPQ2ZaQXJzZTk5bTFiRkZHSlZFeXotRngzY083aHUxUU9GZ3NmUnRXNnVVRjB1VjBJY3YyNk4wSE1RMXR5OGxWNWxUNFFHTGZjMzZkNWVkX19MY2gyNm5veGNyQnl2N2dYV29nNkdXRVdJblJfZ05tQ1NZNEdtV0taN1p2bFBkUlJ3MGNuaURqMm9CZjhQRV92M0wtQml5WGc?oc=5
-· UST 10-year Treasury yield posts biggest monthly gain since 2022: Chart of the Day (Yahoo Finance) https://news.google.com/rss/articles/CBMizwFBVV95cUxOTG9BdUdnWURzdTJMalAtbHVkUlRIM1dIQ2VEMnlZaVB6dWxlaW13UXNIZFRvMC1hQkstcGFHUDU4SXY5dVM3ZHF3Y0pNV24zWUZwQ0dyM3JTbTQyMUxkbWRvQ2UwT2pDNGk4MUtqek5oSFdvVERtb1EtaG1FVEJrQm8tMnlWdC1ra0U2bmhVTDFXZWUwTUNGQ1gzTHRvZFFRVTBTLUM1VzRDY2lPSTcxV0dVLWhhZ2syVi1McExsaFJpaDE5S1Q3eHJXNXlleVU?oc=5
-· JPM REG - JPMorgan UK Sml Cap - Dividend Declaration (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivAFBVV95cUxNV3l1dno2M1ZVd1N0dUZ0bVlTZE43RnVCb3BOcVVZWkxXRnlodGRHTmF5bmpwekN2XzZPZnYyVlc3OTBORFUtYzJ2UXljczhLRTdiZG85TTU5OHU5WHhZTmw5WWpyeXpTVGdwRHAxN041dWdmSWgzQTFwT3NCUkdyOWlidThkeTVnTy1TSFFmSlNKTGw4aFFjUm11TTZoY1FYeDQ4eW45Q2lROXBIS1llbkoybzhKWFUzd2VQcA?oc=5
-· BRENT Dólar abre sessão desta quinta-feira, de olho nos preços do petróleo e cenário político brasileiro (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE5uM3FfY2FDZHp3am8wVGhfUGljZWFKZHRaVHdyYk1odjktZ29mVUxZZ1RQczhIX1diU21TU3AyUFNxeWoyU3NSbjY5MDM2Ymg2YTVZR3c4NmxVRi03M1pVRUpkMzlMUi1aMmpKRG9mOU9YSllkX2h2SNIBhwFBVV95cUxNTFQ2YjVQQUNfUFJidnZiLVBmcmo3Q2N1a2RVMWhBb3preU8xMV80T3R3TXNNNXpKQzRfLWdBTVpVMGZMcEdiV2dwMmY0R0RtMGdWbDVnUHV3VzE5Q1RCeE53UG5zNVNwUjRXSUdOMDlDSHNaVFlfZlNHTTFZRTdTak5VY2tYTUU?oc=5
-· BBDC4 Assaí, Bradesco, Desktop, Panvel, JSL, Dasa e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/assai-bradesco-desktop-panvel-jsl-dasa-e-mais-acoes-para-acompanhar-hoje/
-· BTC Bitcoin and ethereum prices today, Thursday, October 1, 2026: Not much price movement this morning, but Citigroup says that will change (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-1-2026-not-much-price-movement-this-morning-but-citigroup-says-that-will-change-113313201.html
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
