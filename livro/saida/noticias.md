@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 01/10 11h21
+NOTÍCIAS E FATOS · 01/10 12h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 422 veículo fora da lista, 38 sem ativo, 9 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 427 veículo fora da lista, 37 sem ativo, 11 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (8)
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco aprova R$ 3,8 bilhões em JCP; veja quem tem direito
+ADVFN · 01/10 11h25 · fonte única · licença: manchete
+Link: https://br.advfn.com/noticias/PAPERBR/2026/artigo/99414307
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no ADVFN: Bradesco aprova R$ 3,8 bilhões em JCP; veja quem tem direito; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 01/10 11h25
+id: E05-BBDC4-1dabb7bd2b-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos, segundo Ágora Investimentos
 Money Times · 01/10 09h23 · fonte única · licença: integral
@@ -102,8 +111,22 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (59)
 
+· MU Micron stock dips after earnings despite answer to analyst's key question (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-stock-dips-after-earnings-despite-answer-to-analysts-key-question-134446610.html
+· TSLA Tesla EV Deliveries Set to Drop on Weak US Demand, Aging Lineup (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-01/tesla-ev-deliveries-set-to-drop-on-weak-us-demand-aging-lineup
+· PETR4 Petrobras eleva preço do querosene de aviação em outubro (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-eleva-preco-do-querosene-de-aviacao-em-outubro/
+· NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:5ecde8c14094b:0-nvidia-s-hyperscaler-revenue-could-reach-401b-in-2027-says-analyst-spacex-could-push-barclays-napkin-math-higher/
+· TESOURO Tesouro Direto hoje sobe com pressão externa e IPCA+ 2050 retorna a 7,06%; veja todas as taxas (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-sobe-com-pressao-externa-e-ipca-2050-retorna-a-706-veja-todas-as-taxas/
+· MU With record earnings in the rearview, Micron faces Taiwan strike prospects (Yahoo Finance) https://sg.finance.yahoo.com/news/record-earnings-rearview-micron-faces-144710350.html
+· MU Micron CEO Says ‘We Cannot Fulfill The Demand’ As Supply Tightness Extends Through 2028 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-ceo-says-cannot-fulfill-143757448.html
+· ETH Current price of Ethereum for Oct. 1, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-01-2026/
+· BRENT Bolsa abre estável e dólar ronda R$ 5,18, com eleições e petróleo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/01/dolar-bolsa-abre-hoje-1-de-outubro-de-2026.ghtm
+· BTC Current price of Bitcoin for Oct. 1, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kOTVEbVJ4WGtPVWltaWZFYUU1R1R6eDVTUENEUE51cTRQUnhVY2hoUVE1VTRVUUQzVHJOaXM0Y2ZlbHBNNi1fTDM4WjRETTVJUkw2TTBnLWptQnllS3JDMGQzZUg0NkE?oc=5
+· MU Micron: 6 Business Signals That Worked Last Year And What They Say Now (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmQ5cWplS18tMjAzaDNMMnVNM2NNWS1CbWJxRFUwNDB2VTNLVVZ3a2lpLVk3b1JxNXpKb0RqTTh0dGFwdExIdzJlSW5OZHA5X2VNTHRBVlQ5eTVwelRrQk5vUktYdVotbElUcFBxdHlzQkE4OWVuLTk3SVg4Zzc5U0pITnpBblJkZDhWRUNGVEY4QlpGVVRTclJVamI4cFZTN1puTFpiSU4xMGdObngw?oc=5
+· USDBRL Dólar cai com Flávio e sobe com Lula (Investing.com) https://news.google.com/rss/articles/CBMihwFBVV95cUxOY1ljWlh6SXRKaXBZWUFGTzJrOXZ4RjRIMHBzRHNtSlp0TG1ZZm80WVZmdWhFSVVGVzR3cjBXOS1ZTVYycGZwWi1TTWlybFFYX29hWkQzMzRmSUx4cGpqcTE3ZjFNZ2l1b0hmT2tZaXZDeV8xVU43OUFTajNaRnBudUVGbGI2Mlk?oc=5
+· AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://news.google.com/rss/articles/CBMiygFBVV95cUxNRi12TFQ5MEdPdWhfSy1odnBUcnRhRnR6OE1NNHZZVFA3S0FQajBGY3ZkR1oyT0ZaanRHdUFVVnVaaHBOQ1VQQl90bWFEbWxBX3E0SWRDZk9ndTN0czdCMno5NlpoVkV6SGNMQmhYcV9INDY5NlNDZ2dfNjFYUEdLckpjcjd1VVhuN0gzSzhoM2ZKZUE1MXU1RFBRTzl6MWtDTTJZYnQ4d0p3dDRFMDNvZ3NKTHMyeG5Tc184R0I3VENhT3RKY2pwQ19B?oc=5
+· USDBRL Dólar e Bolsa avançam antes de nova pesquisa Datafolha e debate presidencial (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
 · PETR4 Petrobras aumenta preço do querosene de aviação em outubro (g1) https://g1.globo.com/economia/noticia/2026/10/01/petrobras-querosene.ghtml
 · BTC Bitcoin closes Q3 up 44%, marking its best quarter since Q1 2024 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d2c9e5adb094b:0-bitcoin-closes-q3-up-44-marking-its-best-quarter-since-q1-2024/
 · USDBRL Ibovespa sobe com últimas pesquisas antes das eleições; dólar segue abaixo de R$ 5,20 (Exame) https://exame.com/invest/mercados/ibovespa-ibov-hoje-01-10-2026/
