@@ -1,8 +1,46 @@
-NOTÍCIAS E FATOS · 01/10 14h23
+NOTÍCIAS E FATOS · 01/10 15h21
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 427 veículo fora da lista, 36 sem ativo, 23 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 430 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
+TradingView (Reuters) · 01/10 14h51 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/gurufocus:1dec23bc1094b:0-micron-stocks-drop-as-61-5-billion-outlook-meets-a-high-bar/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no TradingView (Reuters): Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 01/10 14h51
+id: E05-MU-98c1457072-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · GOOGL · Google Prevails in 2 Antitrust Suits. The AI and Search Giant Still Rules the Internet.
+Barron's · 01/10 14h51 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/google-ai-antitrust-suits-chegg-penske-media-68e7d017
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Barron's: Google Prevails in 2 Antitrust Suits. The AI and Search Giant Still Rules the Internet.; confirmar o número no texto antes de repassar'
+Fonte: Barron's 01/10 14h51
+id: E05-GOOGL-d66538e900-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · MU · Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending
+Yahoo Finance · 01/10 12h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending All three major US stock indexes were down in late-morning trading as Treasury…
+Link: https://ca.finance.yahoo.com/news/top-midday-stories-micron-shares-153823197.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU · AVGO
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Len…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 12h38
+id: E05-MU-ac846b8e4a-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron Q4: Favorable Outlook As Memory Shortage Persists (NASDAQ:MU)
+Seeking Alpha · 01/10 10h45 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4951328-micron-q4-favorable-outlook-as-memory-shortage-persists
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Seeking Alpha: Micron Q4: Favorable Outlook As Memory Shortage Persists (NASDAQ:MU); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 01/10 10h45
+id: E05-MU-decd0d5f5e-2026-10-01 · status: linha
 
 [ATENÇÃO] E05 · SAPR4 · Conta de água da Sanepar fica 25% mais barata na tarifa mínima
 g1 · 01/10 14h06 · fonte única · licença: resumo
@@ -13,7 +51,7 @@ Por que importa: tarifa ou sancao muda margem e acesso a mercado
 Ativos: SAPR4
 Como falar: 'saiu no g1: Conta de água da Sanepar fica 25% mais barata na tarifa mínima; confirmar o número no texto antes de repassar'
 Fonte: g1 01/10 14h06
-id: E05-SAPR4-1a2266bdc3-2026-10-01 · status: pendente
+id: E05-SAPR4-1a2266bdc3-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Goldman Sachs Raises Micron Stock Price Target After Earnings
 TradingView (Reuters) · 01/10 12h32 · fonte única · licença: manchete
@@ -22,7 +60,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no TradingView (Reuters): Goldman Sachs Raises Micron Stock Price Target After Earnings; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 01/10 12h32
-id: E05-MU-372314fd54-2026-10-01 · status: pendente
+id: E05-MU-372314fd54-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending
 Yahoo Finance · 01/10 12h38 · fonte única · licença: resumo
@@ -172,8 +210,20 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (96)
+## OUTRAS NOTÍCIAS (só manchete) (108)
 
+· PETR4 Petrobras aumenta o preço do querosene de aviação em 11,8% (Estadao) https://www.estadao.com.br/em-alta/economia/petrobras-aumenta-preco-querosene-aviacao-outubro-2026/
+· BTC Citigroup raises one year Bitcoin forecast to $113,000 (Fortune) http://fortune.com/2026/10/01/citigroup-one-year-bitcoin-forecast-113000/
+· AMD AMD: At All-Time Highs, We're Expanding Our Short Position (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4951428-amd-at-all-time-highs-were-expanding-our-short-position
+· BTC Bitcoin buyers clear the $85K sell wall, opening a path for upside (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:78dc0d345094b:0-bitcoin-buyers-clear-the-85k-sell-wall-opening-a-path-for-upside/
+· VALE3 Vale (VALE3), Suzano (SUZB3) e mais: As ações recomendadas pelo Andbank com potencial de alta de até 49% (Money Times) https://www.moneytimes.com.br/val-vale3-suzano-suzb3-e-mais-as-acoes-recomendadas-pelo-andbank-com-potencial-de-alta-de-ate-49-jcav/
+· VALE3 VALE3 testa região decisiva: o que pode definir os próximos passos da ação (InfoMoney) https://www.infomoney.com.br/mercados/vale3-hoje-analise-acoes-01-10-2026/
+· BTC It's the Start of Uptober. Will Bitcoin Live Up to It? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/start-uptober-bitcoin-live-171144639.html
+· MU Stock Market Today: S&P 500 Slips as Micron Fails to Impress, 10-Year Yields Ease to 5.25% (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:2e1fd44ac094b:0-stock-market-today-s-p-500-slips-as-micron-fails-to-impress-10-year-yields-ease-to-5-25/
+· BTC Fund Winners and Losers: Bitcoin Battered Bonds in the Third Quarter (Barron's) https://news.google.com/rss/articles/CBMibkFVX3lxTE5tNEk5c2M2cGhFbmkweDBmbHR4cTBvODlsa1FndTVZeVF1aDVUcDZkc3FJSUhlVHNxY3ZPMVZMYW5qRE9nbmFGYS02TkI3eS1UTWpRaWpPaDVWQ0dYQUQ1WWtjR1VVeThWdm9NM3JB?oc=5
+· VALE3 Vale resiste ao minério mais fraco: Moody’s reforça rating e vê dívida da mineradora sob controle (Estadao) https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdzVVRHpHOTdRd1dLalg1czhpcHNscWRucGs0QmVxbnp2VkJGQkdfR0JtWTYxQjc3TzBrMlRNdUJOdWNlWVRvNllCNDMwbHpYS19uWWZiZTlPV2NWVjZ1Q2YyZHNVU0pVeWJha05iOGROMUhMN2dTbE0tdHlsMy1SQnByN2Q4UmRxbW1hWklNTDAyNVlIU2l1N3B4bDF6QWJUaTZzN252OWtKRVVfZUFOMXBLejhHSHpmSnMzV2RGRC0tV3haS2pPQ3hoaUN4TGpNWmE1dnBPQW9UTmhtNzJhN0F6bC1JQdIB6wFBVV95cUxNWTZoT3RpVjBEQ2U2UVd4MXplRmhpQkRFLV9qOExlb1Mxd0hrdjRlMWdHX0ItX3hfNzIzc3hsZE1DUTVNVjdSVTR3Q3B0ZWN5QVhLT0NmWkFyc2U5OW0xYkZGR0pWRXl6LUZ4M2NPN2h1MVFPRmdzZlJ0VzZ1VUYwdVYwSWN2MjZOMEhNUTF0eThsVjVsVDRRR0xmYzM2ZDVlZF9fTGNoMjZub3hjckJ5djdnWFdvZzZHV0VXSW5SX2dObUNTWTRHbVdLWjdadmxQZFJSdzBjbmlEajJvQmY4UEVfdjNMLUJpeVhn?oc=5
+· BRENT Brent oil rises back above $100 as Chinese refiners reportedly ban October fuel exports (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTE5yODZYTkUzZ09LMVducjBvQ1czQUc2WFdZNmVuUUpDVnpZMEJfMGhpWkkzQlRLUGprcDNielYycW8xYU5peDhhcy1pbzNJUVo1YkV0MjktUVliQ3NTc1ZNOXpDSUtubXZIYnBGOS04NDTSAXZBVV95cUxOQU83cmR3ZHl6YWl1V2RNcFRXbzJqRkFKZktLMkVobTBKMGxibmxDcEQwWjFqdXFQcFozSUVpVUhvZF85SDNCQzZxVk42RjdTWXdWcXd6SkNmWWlLVy1iT0l0NHlRUHNJOG5UZEQ5NlhoMHNmWnVB?oc=5
+· UST Global bond rout deepens, pushes US Treasury yields to 24-year peak (Reuters) https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5
 · UST Wall Street dips as surging Treasury yields outweigh software gains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
 · LITE Coherent Jumps 10% on PhotonLink Push and Bernstein’s Outperform Start; Lumentum Rises 9%, Corning Advances 3% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXN2QVdlN1l2cGJfVW4wbW9kWUlleUR1bGtLSW5oUVB6OEFoeVROT3AxeDBpcl9oTHRQLUczWHNxd3lRTFI2NHNvamlBVGU2dURvY25jLUJyNFlUcDBXMEFQb3dhbmswXzBxN2l1cUlxZUJfcVc3RlBtVUJ2dGtPelczb1FyTS1RWnhTUm5fdzVhSmdaWXNsYVN1QnpvNm8?oc=5
 · NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXN6Y29CQkRQNlcwbXJFMl9RSEJ0ZUtnZ3g1WWl5Z2YwMVdLTVQ0dTNiaXlRNGtoY3R2TlZRWDQ0eUQ0TElGZmZMdFV2ZEFFeFZxYmlGODhObTllem16RnM3RDdMMjZHb0lrRGw0UHVqOElnVFM4a1NrRlU0RjFhbUZ5N1dHNjljdkl2dHdabnZ2bUVXZjVnR3BXQzE2b2RfVFVNcmZ3?oc=5
@@ -222,16 +272,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · BRENT Bolsa abre estável e dólar ronda R$ 5,18, com eleições e petróleo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/01/dolar-bolsa-abre-hoje-1-de-outubro-de-2026.ghtm
 · BTC Current price of Bitcoin for Oct. 1, 2026 (Fortune) https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kOTVEbVJ4WGtPVWltaWZFYUU1R1R6eDVTUENEUE51cTRQUnhVY2hoUVE1VTRVUUQzVHJOaXM0Y2ZlbHBNNi1fTDM4WjRETTVJUkw2TTBnLWptQnllS3JDMGQzZUg0NkE?oc=5
 · MU Micron: 6 Business Signals That Worked Last Year And What They Say Now (NASDAQ:MU) (Seeking Alpha) https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmQ5cWplS18tMjAzaDNMMnVNM2NNWS1CbWJxRFUwNDB2VTNLVVZ3a2lpLVk3b1JxNXpKb0RqTTh0dGFwdExIdzJlSW5OZHA5X2VNTHRBVlQ5eTVwelRrQk5vUktYdVotbElUcFBxdHlzQkE4OWVuLTk3SVg4Zzc5U0pITnpBblJkZDhWRUNGVEY4QlpGVVRTclJVamI4cFZTN1puTFpiSU4xMGdObngw?oc=5
-· USDBRL Dólar cai com Flávio e sobe com Lula (Investing.com) https://news.google.com/rss/articles/CBMihwFBVV95cUxOY1ljWlh6SXRKaXBZWUFGTzJrOXZ4RjRIMHBzRHNtSlp0TG1ZZm80WVZmdWhFSVVGVzR3cjBXOS1ZTVYycGZwWi1TTWlybFFYX29hWkQzMzRmSUx4cGpqcTE3ZjFNZ2l1b0hmT2tZaXZDeV8xVU43OUFTajNaRnBudUVGbGI2Mlk?oc=5
-· AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://news.google.com/rss/articles/CBMiygFBVV95cUxNRi12TFQ5MEdPdWhfSy1odnBUcnRhRnR6OE1NNHZZVFA3S0FQajBGY3ZkR1oyT0ZaanRHdUFVVnVaaHBOQ1VQQl90bWFEbWxBX3E0SWRDZk9ndTN0czdCMno5NlpoVkV6SGNMQmhYcV9INDY5NlNDZ2dfNjFYUEdLckpjcjd1VVhuN0gzSzhoM2ZKZUE1MXU1RFBRTzl6MWtDTTJZYnQ4d0p3dDRFMDNvZ3NKTHMyeG5Tc184R0I3VENhT3RKY2pwQ19B?oc=5
-· USDBRL Dólar e Bolsa avançam antes de nova pesquisa Datafolha e debate presidencial (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
-· PETR4 Petrobras aumenta preço do querosene de aviação em outubro (g1) https://g1.globo.com/economia/noticia/2026/10/01/petrobras-querosene.ghtml
-· BTC Bitcoin closes Q3 up 44%, marking its best quarter since Q1 2024 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d2c9e5adb094b:0-bitcoin-closes-q3-up-44-marking-its-best-quarter-since-q1-2024/
-· USDBRL Ibovespa sobe com últimas pesquisas antes das eleições; dólar segue abaixo de R$ 5,20 (Exame) https://exame.com/invest/mercados/ibovespa-ibov-hoje-01-10-2026/
-· UST 10-Year Treasury yield touches highest level since 2002: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/10-year-treasury-yield-touches-highest-level-since-2002-alphacheck-135255038.html
-· NVDA Fresh data suggests upside to Nvidia’s hyperscaler revenue: Barclays (Investing.com) https://www.investing.com/news/stock-market-news/fresh-data-suggests-upside-to-nvidias-hyperscaler-revenue-barclays-4927619
-· BTC Current price of Bitcoin for Oct. 1, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-01-2026/
-· PETR4 Ibovespa abre outubro em alta com ajuda da Petrobras; índices de NY também avançam (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-abre-outubro-as-vesperas-da-eleicao-pmi-dos-eua-marca-agenda/
-· BBDC4 Bradesco anuncia leilão na B3 com sobras dos R$ 10 bilhões de aumento de capital; entenda a operação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-anuncia-leilao-na-b3-com-sobras-dos-r-10-bilhoes-de-aumento-de-capital-entenda-a-operacao/
-· AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://www.investing.com/news/company-news/kodiak-ai-selects-aws-as-primary-cloud-provider-for-autonomous-trucks-93CH-4927506
-· (+36 manchetes; lista completa em eventos/noticias.json)
+· (+48 manchetes; lista completa em eventos/noticias.json)
