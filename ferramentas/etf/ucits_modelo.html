@@ -1,0 +1,672 @@
+<title>Entrada nos UCITS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<style>
+/* Layout: uma coluna de leitura em papel branco; secoes separadas por fio, destaques em fundo quase branco. Tema claro unico, a pedido (fundo branco). */
+:root{
+  color-scheme: light;
+  --papel:#FFFFFF; --tinta:#15171C; --meio:#454852; --fraco:#71747D;
+  --linha:#EBE9E4; --linha-forte:#D4D1C8; --leve:#F6F5F1; --mesa:#16324F;
+  --alta:#0A6B45; --baixa:#A5190F; --atencao:#8A5200;
+  --preco:#16324F; --mm50:#B7791F; --mm200:#9AA1AC; --rsi:#15171C; --grade:#F0EEE9;
+  --l1:#16324F; --l2:#B7791F; --vhya:#16324F; --vwra:#A3A9B3;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --serif:Newsreader,Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+body{background:var(--papel);color:var(--tinta);font-family:var(--sans);font-size:15px;line-height:1.55;
+  padding-inline:18px;padding-block:28px 56px;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;}
+main{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:0;}
+h1,h2,h3{margin:0;text-wrap:balance;}
+p{margin:0;}
+a{color:var(--mesa);text-underline-offset:2px;}
+a:focus-visible,.grafico:focus-visible{outline:2px solid var(--mesa);outline-offset:3px;}
+b,strong{font-weight:600;}
+ul{margin:0;padding-left:18px;}
+li+li{margin-top:6px;}
+
+/* cabecalho */
+.topo{padding-bottom:18px;border-bottom:2px solid var(--tinta);}
+.faixa{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fraco);}
+.faixa .marca{color:var(--mesa);font-weight:600;}
+.faixa .hora{text-transform:none;letter-spacing:.02em;margin-left:auto;}
+.topo h1{font-family:var(--serif);font-size:clamp(34px,7vw,50px);font-weight:500;letter-spacing:-.02em;line-height:1.02;margin-top:12px;}
+.topo .fina{font-family:var(--serif);font-size:18px;line-height:1.5;color:var(--meio);margin-top:10px;max-width:62ch;}
+.operou{font-family:var(--mono);font-size:11.5px;line-height:1.6;color:var(--fraco);margin-top:14px;max-width:110ch;}
+.operou b{color:var(--mesa);font-weight:600;}
+
+/* secoes */
+section{padding-block:30px 6px;border-top:1px solid var(--linha-forte);}
+.topo+section{border-top:0;}
+.olho{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--mesa);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;}
+.olho .conta{margin-left:auto;color:var(--fraco);letter-spacing:.02em;text-transform:none;}
+section>h2{font-family:var(--serif);font-size:clamp(24px,4.4vw,31px);font-weight:500;letter-spacing:-.012em;line-height:1.15;margin:8px 0 16px;max-width:30ch;}
+h3{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--fraco);margin:26px 0 10px;}
+.corpo{font-size:15px;line-height:1.62;max-width:72ch;}
+.corpo+.corpo{margin-top:10px;}
+.lista{font-size:14.5px;line-height:1.55;max-width:76ch;}
+.lista li::marker{color:var(--fraco);}
+.nota{font-size:12.5px;color:var(--fraco);margin-top:10px;max-width:84ch;line-height:1.5;}
+.web{font-family:var(--mono);font-size:10px;letter-spacing:.03em;color:var(--atencao);border:1px solid currentColor;border-radius:2px;padding:0 4px;white-space:nowrap;vertical-align:1px;}
+.leitura{background:var(--leve);padding:22px 24px;margin-top:22px;}
+.frase{font-family:var(--serif);font-size:22px;line-height:1.4;font-weight:500;max-width:48ch;letter-spacing:-.005em;}
+.frase::before{content:"Em uma frase";display:block;font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--fraco);margin-bottom:8px;}
+.texto-leitura{font-family:var(--serif);font-size:17.5px;line-height:1.62;max-width:66ch;margin-top:16px;display:flex;flex-direction:column;gap:12px;}
+.opina{border-left:2px solid var(--mesa);padding:2px 0 2px 16px;margin-top:14px;max-width:72ch;font-size:14.5px;line-height:1.6;}
+.opina b{color:var(--mesa);}
+
+/* vereditos */
+.ver{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border-radius:2px;white-space:nowrap;color:#fff;background:var(--c);}
+.v-sim{--c:var(--alta);} .v-parc{--c:var(--atencao);} .v-nao{--c:var(--baixa);} .v-cx{--c:var(--fraco);}
+.tk{font-family:var(--mono);font-weight:600;font-size:14px;letter-spacing:.02em;}
+.regra{font-size:13.5px;color:var(--meio);max-width:84ch;}
+
+/* tabelas */
+.rolagem{overflow-x:auto;max-width:100%;}
+table{width:100%;border-collapse:collapse;font-size:13.5px;}
+thead th{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--fraco);text-align:right;padding:0 10px 9px;white-space:nowrap;vertical-align:bottom;}
+thead th:first-child{text-align:left;padding-left:0;}
+thead th.e{text-align:left;}
+thead tr{border-bottom:1px solid var(--linha-forte);}
+tbody th{text-align:left;font-weight:600;padding:10px 12px 10px 0;vertical-align:top;}
+tbody tr+tr th,tbody tr+tr td{border-top:1px solid var(--linha);}
+td.n{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;text-align:right;padding:10px;white-space:nowrap;color:var(--tinta);vertical-align:top;}
+td.t{font-size:13.5px;line-height:1.5;color:var(--meio);padding:10px;vertical-align:top;min-width:18ch;}
+td.t b{color:var(--tinta);font-weight:600;}
+td.vv{padding:10px;vertical-align:top;}
+.sub{display:block;font-weight:400;font-size:11.5px;color:var(--fraco);line-height:1.35;margin-top:3px;font-family:var(--sans);}
+td.n .sub{font-family:var(--mono);}
+.sub.f{color:var(--mesa);font-weight:600;font-size:12.5px;}
+table.valida td.n{padding:8px 9px;}
+tr.hoje th,tr.hoje td{background:var(--leve);}
+
+/* cartoes dos ETFs de IA */
+.etfs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:1px;background:var(--linha);border:1px solid var(--linha);}
+.etf{background:var(--papel);padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px;min-width:0;}
+.etf header{display:flex;align-items:center;justify-content:space-between;gap:8px;}
+.etf .nome{font-size:13.5px;font-weight:600;line-height:1.35;}
+.etf .top{font-size:12.5px;color:var(--meio);line-height:1.45;}
+.etf dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:5px 12px;margin:4px 0 0;font-size:12px;line-height:1.35;}
+.etf dt{color:var(--fraco);}
+.etf dd{margin:0;font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--tinta);overflow-wrap:anywhere;}
+.etf .papel{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--meio);margin-top:auto;padding-top:6px;border-top:1px solid var(--linha);}
+
+/* blocos de dois lados e planos */
+.dois{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:18px 28px;}
+.dois>div{min-width:0;}
+.caixa-leve{background:var(--leve);padding:16px 18px;}
+.caixa-leve h4{margin:0 0 8px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--mesa);}
+.plano{list-style:none;padding:0;margin:0;counter-reset:p;display:flex;flex-direction:column;gap:0;max-width:78ch;}
+.plano li{counter-increment:p;display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;padding:10px 0;border-top:1px solid var(--linha);font-size:14.5px;line-height:1.5;margin:0;}
+.plano li:first-child{border-top:0;}
+.plano li::before{content:counter(p);font-family:var(--mono);font-weight:600;font-size:13px;color:var(--mesa);border:1px solid var(--linha-forte);width:24px;height:24px;display:flex;align-items:center;justify-content:center;border-radius:50%;}
+.plano li.inv::before{content:"×";color:var(--baixa);}
+.grupos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:14px;}
+.grupo{border-top:3px solid var(--c);padding-top:10px;}
+.grupo h4{margin:0 0 8px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--c);}
+.grupo p{font-size:13.5px;line-height:1.55;color:var(--meio);}
+.grupo p+p{margin-top:6px;}
+.grupo b{font-family:var(--mono);color:var(--tinta);}
+
+/* graficos */
+.painel{margin-top:6px;}
+.legenda{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--fraco);margin:4px 0 8px;}
+.legenda span{display:inline-flex;align-items:center;gap:6px;}
+.legenda span::before{content:"";width:16px;height:2px;background:var(--c);}
+.legenda span.tr::before{background:repeating-linear-gradient(90deg,var(--c) 0 4px,transparent 4px 7px);}
+.grafico{position:relative;width:100%;}
+.grafico svg{display:block;width:100%;overflow:visible;}
+.g-grade{stroke:var(--grade);stroke-width:1;fill:none;}
+.g-base{stroke:var(--linha-forte);stroke-width:1;fill:none;}
+.g-eixo{fill:var(--fraco);font-family:var(--mono);font-size:10.5px;}
+.g-rot{fill:var(--tinta);font-family:var(--mono);font-size:11px;font-weight:600;}
+.g-rot2{fill:var(--fraco);font-family:var(--mono);font-size:10.5px;}
+.g-rot2.ent{fill:var(--alta);} .g-rot2.ref{fill:var(--atencao);} .g-rot2.inv{fill:var(--baixa);}
+.g-nivel{stroke:var(--fraco);stroke-width:1;fill:none;stroke-dasharray:3 3;}
+.g-nivel.ent{stroke:var(--alta);} .g-nivel.ref{stroke:var(--atencao);} .g-nivel.inv{stroke:var(--baixa);}
+.g-faixa{stroke:var(--linha-forte);stroke-width:1;fill:none;}
+.g-mira{stroke:var(--fraco);stroke-width:1;fill:none;}
+.g-lin{fill:none;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round;}
+.g-lin.forte{stroke-width:2;}
+.s-preco{stroke:var(--preco);} .s-mm50{stroke:var(--mm50);} .s-mm200{stroke:var(--mm200);} .s-rsi{stroke:var(--rsi);stroke-width:1.3;}
+.s-l1{stroke:var(--l1);} .s-l2{stroke:var(--l2);} .s-vhya{stroke:var(--vhya);} .s-vwra{stroke:var(--vwra);}
+.f-preco{fill:var(--preco);} .f-mm50{fill:var(--mm50);} .f-mm200{fill:var(--mm200);} .f-rsi{fill:var(--rsi);}
+.f-l1{fill:var(--l1);} .f-l2{fill:var(--l2);} .f-vhya{fill:var(--vhya);} .f-vwra{fill:var(--vwra);}
+.t-mm50{fill:var(--mm50);} .t-mm200{fill:var(--fraco);} .t-l2{fill:var(--l2);} .t-vwra{fill:var(--fraco);}
+.g-anel{stroke:var(--papel);stroke-width:2;}
+.halo{paint-order:stroke;stroke:var(--papel);stroke-width:3px;stroke-linejoin:round;}
+.dica{position:absolute;top:0;left:0;pointer-events:none;background:var(--papel);border:1px solid var(--linha-forte);border-radius:3px;padding:7px 9px;font-size:12px;line-height:1.35;box-shadow:0 2px 10px rgba(20,24,32,.10);min-width:140px;z-index:2;}
+.dica .d{font-family:var(--mono);font-size:10.5px;color:var(--fraco);margin-bottom:3px;}
+.dica .r{display:flex;align-items:center;gap:7px;white-space:nowrap;}
+.dica .r i{width:12px;height:2px;border-radius:1px;background:var(--c);flex:none;}
+.dica .r b{font-family:var(--mono);font-weight:600;font-variant-numeric:tabular-nums;}
+.dica .r span{color:var(--fraco);}
+.rsi-rot{font-family:var(--mono);font-size:10px;color:var(--fraco);letter-spacing:.06em;text-transform:uppercase;margin-top:6px;}
+
+/* termos, fontes, rodape */
+.termos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:8px 28px;font-size:13px;line-height:1.5;color:var(--meio);}
+.termos b{color:var(--tinta);}
+.fontes{font-size:12.5px;line-height:1.55;color:var(--meio);max-width:96ch;}
+.fontes li{overflow-wrap:anywhere;}
+.rodape{margin-top:34px;padding-top:14px;border-top:2px solid var(--tinta);font-size:13px;color:var(--meio);display:flex;flex-direction:column;gap:4px;}
+.rodape b{color:var(--tinta);}
+
+/* celular: tabelas de texto viram fichas */
+@media (max-width:640px){
+  body{font-size:14.5px;}
+  .faixa .hora{margin-left:0;}
+  .leitura{padding:18px 16px;}
+  .frase{font-size:19.5px;}
+  .texto-leitura{font-size:16.5px;}
+  table.fichas thead{display:none;}
+  table.fichas,table.fichas tbody,table.fichas tr,table.fichas th,table.fichas td{display:block;width:100%;}
+  table.fichas tr{padding:10px 0;border-top:1px solid var(--linha);}
+  table.fichas tbody tr:first-child{border-top:0;}
+  table.fichas tbody tr+tr th,table.fichas tbody tr+tr td{border-top:0;}
+  table.fichas th,table.fichas td{padding:2px 0!important;text-align:left!important;white-space:normal!important;}
+  table.fichas td[data-r]::before{content:attr(data-r);display:block;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--fraco);margin-top:6px;}
+  .ver-tab thead{display:none;}
+  .ver-tab,.ver-tab tbody,.ver-tab tr{display:block;width:100%;}
+  .ver-tab tr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;padding:12px 0;border-top:1px solid var(--linha);}
+  .ver-tab tbody tr:first-child{border-top:0;}
+  .ver-tab tbody tr+tr th,.ver-tab tbody tr+tr td{border-top:0;}
+  .ver-tab th{padding:0!important;}
+  .ver-tab td.n{padding:0;text-align:right;}
+  .ver-tab td.vv{grid-column:1 / -1;padding:2px 0 0;}
+  .ver-tab td.t{grid-column:1 / -1;padding:2px 0 0;min-width:0;}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto;}}
+</style>
+
+<main>
+<header class="topo">
+  <div class="faixa"><span class="marca">Broadcast · mesa de análise</span><span>UCITS na LSE · linha em dólar de acumulação</span><span class="hora">fechamento da LSE em 29/09/2026 · juros e EUA até 28/09</span></div>
+  <h1>Entrada nos UCITS</h1>
+  <p class="fina">CSPX, VHYA e IA com o Fed subindo e o Treasury de 10 anos a 5,24%: onde entrar, em quantas parcelas e onde a tese cai.</p>
+  <p class="operou"><b>Operou:</b> coletor <b>etfs.py</b> no GitHub Actions, com seis coletas em 29/09 (séries diárias, cotação com bid e ask, carteiras do Yahoo e do justETF, FRED, curva do Tesouro dos EUA, FactSet, lista da Avenue). Também: pesquisa na web, marcada como tal, e <b>mesa.py skills</b> (tudo operando). As skills de ação da mesa (analise-ativo, deep-search) não se aplicam a ETF.</p>
+</header>
+
+<section>
+  <div class="leitura">
+    <p class="frase">A carteira pode entrar já em VHYA, DGRA, IJPD, XEOU e VDCA. O CSPX entra em três parcelas, porque o S&amp;P não tem folga de valuation contra o Treasury. A IA entra pelo XAID, com 3% na moderada. O SMH fica para a arrojada, depois da Micron. Ouro e CBU7 caem pelo mesmo motivo, o juro real, e entram por gatilho.</p>
+    <div class="texto-leitura">
+      <p>O S&amp;P 500 está caro contra o título, não contra a própria história. O P/L projetado é de 19,2 vezes, abaixo da média de cinco anos (19,8). Mas o lucro sobre o preço (5,21%) empata com o Treasury de 10 anos (5,24%). Não há prêmio para correr o risco da ação. Quem sustenta o preço é o lucro: cresce 29% no 3º trimestre e está sendo revisado para cima.</p>
+      <p>O risco está no calendário de 2027, não no de outubro. O consenso vê o crescimento do lucro caindo de 26,8% no 4º trimestre para 1,7% no 2º trimestre de 2027. A curva já cobra do Fed mais juros em 2027 do que o próprio Fed desenha. É a combinação de 2018: Fed subindo no pico do crescimento do lucro, com a alta concentrada em poucas ações.</p>
+      <p>Onde discordo de você, em quatro pontos:</p>
+      <ul>
+        <li>IWVL não é compra hoje: 13,6% da carteira é Micron, que divulga amanhã.</li>
+        <li>O XDEW caindo é a parte barata do S&amp;P, não um alerta.</li>
+        <li>Duas altas do Fed surpreendem a ponta curta da curva, que embute cerca de 1,4.</li>
+        <li>O CBU7, com o 5 anos na máxima desde 2007, merece parcelas pelo carrego, mesmo contra a regra.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="veredito">
+  <div class="olho"><span>Veredito por ETF</span><span class="conta">preço de fechamento em US$ · regra na seção 4</span></div>
+  <h2>Uma linha por ETF, com os níveis</h2>
+  <p class="regra">Pela regra: <span class="ver v-sim">Entrada agora</span> (tendência de alta, com pullback, sem esticar), <span class="ver v-parc">Em parcelas</span> e <span class="ver v-nao">Esperar</span>. Chamo de <b>Entrada agora</b> o que você chamou de "Comprar agora": o veredito é técnico, e a recomendação ao cliente é sua.</p>
+  @@VEREDITOS@@
+</section>
+
+<section id="conferencia">
+  <div class="olho"><span>Conferência</span><span class="conta">macro e snapshot técnico</span></div>
+  <h2>O macro confere, com três correções</h2>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Item</th><th class="e">Você escreveu</th><th class="e">Conferido</th><th class="e">Fonte</th></tr></thead>
+    <tbody>
+      <tr><th>Fed</th><td class="t" data-r="Você escreveu">+0,25 em 16/09, a 3,75–4,00%</td><td class="t" data-r="Conferido"><b>Confere.</b> Decisão de 12 a 0, primeira alta desde jul/2023. Quem conduz é Kevin Warsh, na presidência desde 22/05.</td><td class="t" data-r="Fonte">FRED (DFEDTARU/L); Fed 16/09 <span class="web">web</span></td></tr>
+      <tr><th>Gráfico de pontos</th><td class="t" data-r="Você escreveu">—</td><td class="t" data-r="Conferido">Mediana de <b>4,1% no fim de 2026</b> (mais uma alta, não duas) e 4,1% no fim de 2027. 16 dos 18 pontos veem ao menos mais uma alta.</td><td class="t" data-r="Fonte">Fed e FRED Blog, 16/09 <span class="web">web</span></td></tr>
+      <tr><th>Curva do Treasury, 28/09</th><td class="t" data-r="Você escreveu">1a 4,53 · 2a 4,94 · 5a 5,07 · 10a 5,24 · 30a 5,56</td><td class="t" data-r="Conferido"><b>1a 4,59</b> · <b>2a 4,92</b> · <b>5a 5,06</b> · 10a 5,24 · 30a 5,56. O 10 anos está 2 bp abaixo do pico de fechamento de 12/06/2007 (5,26%). O 5 anos está na máxima desde 2007 (o pico de 2023 foi 4,95%).</td><td class="t" data-r="Fonte">Tesouro dos EUA, curva par de 28/09; FRED</td></tr>
+      <tr><th>Juro real</th><td class="t" data-r="Você escreveu">—</td><td class="t" data-r="Conferido">O 10 anos indexado à inflação está em <b>2,83%</b> (25/09), o maior em dez anos; era 1,80% um ano antes. A inflação implícita é de 2,34%.</td><td class="t" data-r="Fonte">FRED (DFII10, T10YIE)</td></tr>
+      <tr><th>Michigan, 12 meses</th><td class="t" data-r="Você escreveu">4,6%</td><td class="t" data-r="Conferido"><b>Confere</b> (leitura final de setembro). Era 4,0% em agosto e 3,4% antes da guerra. A expectativa de 5 anos está em 3,4%.</td><td class="t" data-r="Fonte">CNN e Quartz, 25/09 <span class="web">web</span>; FRED (MICH) até agosto</td></tr>
+      <tr><th>BCE e BoJ</th><td class="t" data-r="Você escreveu">2,50% e 1,25%</td><td class="t" data-r="Conferido"><b>Conferem.</b> BCE subiu em 10/09; BoJ em 18/09, o maior juro desde 1995.</td><td class="t" data-r="Fonte">FRED (ECBDFR); BoJ <span class="web">web</span></td></tr>
+      <tr><th>S&amp;P 500</th><td class="t" data-r="Você escreveu">7.684; +12% no ano</td><td class="t" data-r="Conferido"><b>Confere:</b> 7.683,69 em 28/09 e +12,2% no ano. Está 1,5% abaixo da máxima de fechamento de 13/08 (7.799).</td><td class="t" data-r="Fonte">FRED (SP500); Yahoo</td></tr>
+      <tr><th>Spreads de crédito</th><td class="t" data-r="Você escreveu">High yield 2,80 pp (percentil 24); IG 0,79</td><td class="t" data-r="Conferido">High yield a <b>2,93 pp em 25/09</b>, percentil 42 da década (era 2,67 um mês antes; 2,80 foi o dado de 24/09). IG a 0,81 (percentil 31). A taxa total do high yield é 7,87%, percentil 90.</td><td class="t" data-r="Fonte">FRED (ICE BofA)</td></tr>
+      <tr><th>Ouro</th><td class="t" data-r="Você escreveu">~US$ 4.141</td><td class="t" data-r="Conferido">Futuro na Comex a US$ 4.168 (28/09) e 4.192 (29/09). Está 21% abaixo da máxima de fechamento de 29/01 (5.318).</td><td class="t" data-r="Fonte">Yahoo (GC=F)</td></tr>
+      <tr><th>Petróleo</th><td class="t" data-r="Você escreveu">alto, guerra EUA–Irã</td><td class="t" data-r="Conferido">Brent de novembro a US$ 105,28 em 28/09 (vence em 30/09); dezembro a US$ 97,83. O prêmio de guerra está no vencimento curto.</td><td class="t" data-r="Fonte">Yahoo e livro monitorado; CNBC 28/09 <span class="web">web</span></td></tr>
+      <tr><th>Capex de IA</th><td class="t" data-r="Você escreveu">US$ 720–745 bi em 2026; mais de 1 tri em 2027</td><td class="t" data-r="Conferido">2026 confere. Para 2027, o consenso dos quatro está em <b>~US$ 935 bi</b>. O "mais de 1 tri" é projeção de JPMorgan e Goldman (este inclui cinco empresas).</td><td class="t" data-r="Fonte">CNBC e empresas, jul/2026; I/O Fund; Goldman <span class="web">web</span></td></tr>
+      <tr><th>Caixa livre e dívida</th><td class="t" data-r="Você escreveu">caixa livre negativo; dívida ~32% do capex</td><td class="t" data-r="Conferido"><b>Confere.</b> Alphabet: −US$ 5,9 bi no 2T26, o primeiro trimestre negativo desde 2004. Amazon: −US$ 7,6 bi em 12 meses. Dívida: 32% do capex nos 12 meses até meados de 2026, contra 9% no ano fiscal de 2024.</td><td class="t" data-r="Fonte">8-K da Alphabet; RI da Amazon; FactSet Insight, 23/07 <span class="web">web</span></td></tr>
+      <tr><th>Oracle</th><td class="t" data-r="Você escreveu">BBB- em julho</td><td class="t" data-r="Conferido"><b>Confere:</b> S&amp;P rebaixou em 09/07/2026. A Moody's está com perspectiva negativa.</td><td class="t" data-r="Fonte">S&amp;P Global Ratings <span class="web">web</span></td></tr>
+      <tr><th>Micron, 30/09</th><td class="t" data-r="Você escreveu">~US$ 50 bi de receita</td><td class="t" data-r="Conferido"><b>Confere.</b> Guidance de US$ 50,0 bi (±1,0); consenso de US$ 50,9 a 51,2 bi. Lucro por ação guiado em US$ 31 (±1), margem bruta de ~86%.</td><td class="t" data-r="Fonte">Micron (RI); Zacks <span class="web">web</span></td></tr>
+      <tr><th>GE Vernova e Vertiv</th><td class="t" data-r="Você escreveu">US$ 2,4 bi no 1T26; backlog de 15 bi</td><td class="t" data-r="Conferido">GE Vernova confere, e somou mais US$ 2,7 bi no 2T26. O backlog de US$ 15 bi da Vertiv é de dez/2025; o de 2026 não foi divulgado.</td><td class="t" data-r="Fonte">GE Vernova, 22/04 e 22/07; 8-K da Vertiv, 11/02 <span class="web">web</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Seu snapshot, refeito com o fechamento</h3>
+  <p class="regra">Em cima, o seu número (10h, pregão aberto). Embaixo, em azul, o fechamento de 29/09. Tudo confere dentro de décimos; as diferenças vêm do horário do preço e da janela usada no retorno de 12 meses.</p>
+  <div class="rolagem"><table class="valida">
+    <thead><tr><th>ETF</th><th>Preço</th><th>Máx. 52s</th><th>vs MM50</th><th>vs MM200</th><th>RSI 14</th><th>1 mês</th><th>12 meses</th><th>Vol. 3m</th></tr></thead>
+    <tbody>
+@@VALIDA@@
+    </tbody>
+  </table></div>
+  <ul class="lista nota">
+    <li>O <b>fiftyTwoWeekHigh</b> do CSPX.L no Yahoo (888,76) é um tick errado, e ele também aparece na barra diária. A máxima de fechamento é <b>838,69</b> (14/08).</li>
+    <li>Durante o pregão de 29/09, o Yahoo omitiu o pregão de 28/09 nas séries da LSE. Completei com o livro monitorado (CSPX, VHYA, VWRA, CNDX, IB01, QNTM) e com o fechamento anterior da cotação nos demais. O coletor agora faz isso sozinho.</li>
+    <li>O CBU7 fez a mínima de 52 semanas em 28/09 (139,46) e fechou 29/09 a 139,56.</li>
+    <li>Não recebi o PDF "Seleção UCITS". As conclusões de cinco anos são as suas; se mandar o PDF, eu confiro.</li>
+  </ul>
+</section>
+
+<section id="cspx">
+  <div class="olho"><span>1 · CSPX</span><span class="conta">827,29 · −1,4% da máxima de fechamento</span></div>
+  <h2>Entrada aceitável, não ótima: três parcelas</h2>
+  <div class="painel">
+    <div class="legenda"><span style="--c:var(--preco)">CSPX</span><span style="--c:var(--mm50)">média de 50 dias</span><span style="--c:var(--mm200)">média de 200 dias</span><span class="tr" style="--c:var(--alta)">entrada</span><span class="tr" style="--c:var(--atencao)">reforço</span><span class="tr" style="--c:var(--baixa)">invalidação</span></div>
+    <div class="grafico" id="g-CSPX" tabindex="0" aria-label="CSPX em dólar com médias de 50 e 200 dias e níveis de entrada, reforço e invalidação, de agosto de 2025 a setembro de 2026"></div>
+    <p class="rsi-rot">RSI de 14 dias</p>
+    <div class="grafico" id="r-CSPX" tabindex="0" aria-label="RSI de 14 dias do CSPX"></div>
+  </div>
+
+  <h3>Técnica diária e semanal</h3>
+  <ul class="lista">
+    <li><b>Tendência primária de alta, confirmada.</b> MM50 em 824,2, acima da MM100 (814,3), acima da MM200 (776,2). As três sobem: +1,1%, +1,5% e +1,3% em 20 pregões. No semanal, o preço está acima da média de 40 semanas (779,6), que sobe.</li>
+    <li><b>Curto prazo lateral, entre 818 e 839, desde 14/08.</b> Três topos: 838,69, 836,87 e 837,05. O último fundo (818,15, em 15/09) ficou abaixo do anterior (824,96).</li>
+    <li><b>Momento neutro, não virando.</b> RSI em 50,0. O histograma do MACD caiu de 0,55 para 0,02 em cinco pregões, e no semanal está negativo (−2,07). Corrijo sua leitura: o MACD está perdendo força, não virando positivo.</li>
+    <li><b>Volume sem convicção.</b> Média de 102 mil cotas em 20 pregões, 24% abaixo da média de um ano (135 mil).</li>
+    <li><b>Suportes:</b> 818–824 (fundo de 15/09 e MM50); 803–814 (23,6% de Fibonacci da alta de 30/03 a 14/08, e MM100); 794–800 (fundos de junho e julho); 781 (38,2%); 776 (MM200). <b>Resistência:</b> 839. Rompida, a altura do lateral projeta cerca de 860. Confirmo seus níveis.</li>
+  </ul>
+
+  <h3>Largura de mercado</h3>
+  <div class="legenda"><span style="--c:var(--l1)">XDEW / CSPX (LSE)</span><span style="--c:var(--l2)">RSP / SPY (EUA)</span></div>
+  <div class="grafico" id="g-largura" tabindex="0" aria-label="Razão entre S&amp;P 500 de peso igual e S&amp;P 500 por valor de mercado, base 100 em junho de 2025"></div>
+  <ul class="lista">
+    <li>O XDEW (S&amp;P 500 de peso igual) perdeu 4,3 pp para o CSPX em um mês e 8,0 pp em seis meses. A razão entre os dois está 4,2% abaixo da própria MM200, na mínima desde 15/05. Nos EUA, RSP contra SPY mostra o mesmo: −4,4 pp em um mês, mínima desde 18/05.</li>
+    <li>48,9% das ações do S&amp;P estão acima da própria MM200. É o nível mais baixo com o índice perto do recorde desde abril de 2000 <span class="web">web · Backtest, fonte única</span>.</li>
+    <li>Leitura: o índice depende de poucas ações. Isso não é sinal de topo sozinho, mas tira a margem de erro. Se as gigantes corrigirem, o resto do índice não segura.</li>
+  </ul>
+
+  <h3>Valuation e prêmio de risco</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Medida</th><th>Hoje</th><th class="e">Referência</th></tr></thead>
+    <tbody>
+      <tr><th>P/L projetado para 12 meses</th><td class="n" data-r="Hoje">19,2x</td><td class="t" data-r="Referência">média de 5 anos: 19,8x; de 10 anos: 19,0x (FactSet, 25/09)</td></tr>
+      <tr><th>P/L dos últimos 12 meses</th><td class="n" data-r="Hoje">25,8x</td><td class="t" data-r="Referência">média de 5 anos: 24,4x; de 10 anos: 23,6x</td></tr>
+      <tr><th>Lucro sobre preço projetado, menos Treasury de 10 anos</th><td class="n" data-r="Hoje">−0,03 pp</td><td class="t" data-r="Referência">5,21% contra 5,24%: o prêmio por correr o risco da ação é zero</td></tr>
+      <tr><th>Lucro sobre preço passado, menos juro real</th><td class="n" data-r="Hoje">~1,0 pp</td><td class="t" data-r="Referência">3,9% contra 2,83%. A Fortune calcula ~1% (29/09) <span class="web">web</span>; no critério do JPMorgan, é o menor prêmio desde 2002 <span class="web">web</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="opina">O S&amp;P não está caro contra a própria média de P/L. Está caro contra o Treasury. Com prêmio de risco zero, <b>não sobra amortecedor</b>: se o 10 anos passar do pico de 2007 (5,26%), o ajuste vem pelo múltiplo.</p>
+
+  <h3>Revisões de lucro para a temporada do 3º trimestre</h3>
+  <ul class="lista">
+    <li>O crescimento esperado do lucro no 3T26 é de <b>29,1%</b> (era 26,7% em 30/06). O lucro por ação estimado subiu 1,3% durante o trimestre. Na média de cinco anos, ele cai 2,2% nesse período.</li>
+    <li>72 das 116 empresas que deram guidance deram guidance positivo (62%), contra 41% na média de cinco anos. A maior parte é de tecnologia, cujo lucro deve crescer 63,5% no 3T.</li>
+    <li>A receita deve crescer 12,1%, e a margem líquida esperada é de 15,0%. A temporada abre com o JPMorgan em 13/10.</li>
+    <li><b>A trajetória desacelera:</b> +26,8% no 4T26, +18,4% no 1T27, +1,7% no 2T27; 2027 inteiro, +15,4%.</li>
+    <li>Parte do lucro de 2026 é ganho contábil com participações (Amazon na Anthropic, Alphabet na SpaceX). No 2T26, sem Alphabet e Amazon, o crescimento cairia de 47,4% para 28,8% <span class="web">web · FactSet e Axios, número incerto</span>. É essa base que derruba o 2T27.</li>
+  </ul>
+  <p class="opina">A temporada tende a ajudar, porque revisão para cima e guidance positivo são raros nesta fase do trimestre. O problema vem depois: <b>o mercado vai olhar 2027</b>, e o 1º semestre de 2027 cresce pouco.</p>
+
+  <h3>Sazonalidade (S&amp;P 500 desde 1950, cálculo da mesa)</h3>
+  <ul class="lista">
+    <li>Outubro: média de +0,90%, mediana de +1,03%, positivo em 59% dos anos. O pior foi 1987 (−21,8%).</li>
+    <li>Outubro em ano de eleição de meio de mandato: +3,14%, positivo em 72% dos 18 casos. A Carson dá +3,0% e 73,7% <span class="web">web · Fortune, 23/09</span>.</li>
+    <li>4º trimestre em ano de meio de mandato: +6,72%, positivo em 83%. A exceção foi <b>2018 (−14,0%)</b>.</li>
+    <li>12 meses depois de 30/09 em ano de meio de mandato: +20,5%, positivo em 89%. A eleição é em 03/11.</li>
+  </ul>
+
+  <h3>Cenário: Fed +0,25 em outubro e +0,25 em dezembro</h3>
+  <div class="dois">
+    <div class="caixa-leve">
+      <h4>O que já está no preço</h4>
+      <ul class="lista">
+        <li>Alta em 28/10: de 64% a 72% de chance nos futuros (CME FedWatch, de 25 a 28/09) <span class="web">web</span>.</li>
+        <li>Dezembro: os futuros embutem cerca de 4,2%, ou seja, uma alta cheia e parte da segunda <span class="web">web</span>.</li>
+        <li>Pontos do Fed: 4,1% no fim de 2026 e no fim de 2027.</li>
+        <li>Curva: 1 ano a 4,59% e 2 anos a 4,92% (28/09). O 2 anos já embute juro acima de 4,50% em 2027, acima do que o Fed desenha.</li>
+      </ul>
+    </div>
+    <div class="caixa-leve">
+      <h4>O que seria surpresa</h4>
+      <ul class="lista">
+        <li>O seu cenário (4,25–4,50% em dezembro) fica 0,15 a 0,20 pp acima dos futuros e uma alta acima dos pontos. <b>Surpreende a ponta curta; não surpreende o 2 anos.</b> Concordo em parte com você.</li>
+        <li>A surpresa que mexe no CSPX:
+          <ul>
+            <li>pontos de dezembro com alta em 2027 (mediana acima de 4,4%);</li>
+            <li>alta de 0,50 pp numa reunião;</li>
+            <li>10 anos fechando acima de 5,26%, o pico de 2007;</li>
+            <li>Brent acima de US$ 110 com a expectativa de 5 anos do Michigan acima de 3,5%.</li>
+          </ul>
+        </li>
+        <li>Surpresa para o outro lado: pausa em outubro (28% a 36% nos futuros). Ajuda CBU7, ouro e VHYA.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="nota">Desde 2019, nas 40 semanas em que o 10 anos subiu 0,15 pp ou mais, o CSPX caiu 0,50% em média, e o VHYA 0,74% (regressão semanal da mesa). Juro subindo por crescimento não derruba ação. Juro subindo por inflação, derruba.</p>
+
+  <h3>2004–06, 2018 e 2022, contra hoje</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Episódio</th><th class="e">Juro de 10 anos</th><th>S&amp;P 500</th><th>CSPX · VHYA · VWRA</th></tr></thead>
+    <tbody>
+      <tr><th>2004–06<span class="sub">Fed de 1% a 5,25% em 17 altas</span></th><td class="t" data-r="Juro de 10 anos">4,70% → 5,14% (máx. 5,24%)</td><td class="n" data-r="S&amp;P 500">+11,8%<span class="sub">queda máx. −7,7%</span></td><td class="n" data-r="CSPX · VHYA · VWRA">os três não existiam</td></tr>
+      <tr><th>2018, de 20/09 a 24/12<span class="sub">Fed subindo e vendendo títulos</span></th><td class="t" data-r="Juro de 10 anos">3,08% → 3,23% → 2,75%</td><td class="n" data-r="S&amp;P 500">−19,8%</td><td class="n" data-r="CSPX · VHYA · VWRA">−17,6% · −12,4% · −15,9%</td></tr>
+      <tr><th>2022, de 03/01 a 12/10<span class="sub">choque de inflação</span></th><td class="t" data-r="Juro de 10 anos">1,63% → 3,90%</td><td class="n" data-r="S&amp;P 500">−25,4%</td><td class="n" data-r="CSPX · VHYA · VWRA">−24,2% · −19,2% · −26,0%</td></tr>
+      <tr><th>2023, de 31/07 a 27/10<span class="sub">10 anos passa de 5%</span></th><td class="t" data-r="Juro de 10 anos">3,97% → 4,98% (19/10)</td><td class="n" data-r="S&amp;P 500">−10,3%</td><td class="n" data-r="CSPX · VHYA · VWRA">−9,3% · −9,3% · −10,2%</td></tr>
+      <tr class="hoje"><th>Hoje<span class="sub">Fed subindo desde 16/09</span></th><td class="t" data-r="Juro de 10 anos">5,24% (28/09), o nível do pico de 2006</td><td class="n" data-r="S&amp;P 500">−1,5%<span class="sub">da máxima de 13/08</span></td><td class="n" data-r="CSPX · VHYA · VWRA">−1,4% · −4,4% · −1,9%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota">Retorno total em dólar. Antes de 2019, VHYA e VWRA são medidos pelas linhas de distribuição em dólar do mesmo fundo (VHYD e VWRD). O S&amp;P 500 é o índice de preço. O 2023 é um episódio que acrescentei: é o precedente mais próximo de um 10 anos passando de 5%.</p>
+  <p class="opina">Concordo que hoje lembra mais 2018: Fed subindo com o lucro no pico de crescimento e a alta concentrada em poucas ações. A diferença a favor é a revisão de lucro, que está subindo. A diferença contra é o ponto de partida: o 10 anos já está no nível de 2006 e o prêmio de risco é zero. <b>Meu caso-base é 2023</b>: correção de 5% a 10% se o 10 anos romper 5,26%, sem virar 2022. A cauda é 2018: pontos de dezembro com alta em 2027 e decepção com o capex nos balanços do fim de outubro.</p>
+
+  <h3>Plano em parcelas</h3>
+  <ol class="plano">
+    <li><span><b>1/3 em 818–824</b>, com ordem limitada em 824 (fundo de 15/09 e MM50). Fechou hoje a 827,29, a menos de 1% da faixa.</span></li>
+    <li><span><b>1/3 em 803–814</b> (23,6% de Fibonacci e MM100), <b>ou no fechamento acima de 839</b>, o rompimento, com alvo técnico perto de 860.</span></li>
+    <li><span><b>1/3 depois do Fed de 09/12</b>, com os pontos de 2027 na mão, ou em 781–794 se o preço chegar lá antes.</span></li>
+    <li class="inv"><span><b>Invalidação: semana fechando abaixo de 794</b> (fundos de junho e julho). Abaixo disso, a série de fundos ascendentes quebra e a MM200 (776) entra em jogo; as parcelas param.</span></li>
+  </ol>
+  <p class="nota">Confirmo o seu plano. Acrescentei a invalidação e a alternativa em 781–794 para a terceira parcela.</p>
+</section>
+
+<section id="vhya">
+  <div class="olho"><span>2 · VHYA</span><span class="conta">105,10 · −4,4% da máxima de fechamento</span></div>
+  <h2>Melhor entrada que o CSPX, mas não está barato contra a própria história</h2>
+  <div class="painel">
+    <div class="legenda"><span style="--c:var(--preco)">VHYA</span><span style="--c:var(--mm50)">média de 50 dias</span><span style="--c:var(--mm200)">média de 200 dias</span><span class="tr" style="--c:var(--atencao)">reforço</span><span class="tr" style="--c:var(--baixa)">invalidação</span></div>
+    <div class="grafico" id="g-VHYA" tabindex="0" aria-label="VHYA em dólar com médias de 50 e 200 dias e níveis de reforço e invalidação"></div>
+    <p class="rsi-rot">RSI de 14 dias</p>
+    <div class="grafico" id="r-VHYA" tabindex="0" aria-label="RSI de 14 dias do VHYA"></div>
+  </div>
+
+  <h3>Carteira contra o VWRA</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Item</th><th class="e">VHYA</th><th class="e">VWRA</th></tr></thead>
+    <tbody>
+      <tr><th>Peso das 10 maiores (31/08)</th><td class="t" data-r="VHYA"><b>11,3%</b></td><td class="t" data-r="VWRA">23,6%</td></tr>
+      <tr><th>10 maiores</th><td class="t" data-r="VHYA">JPMorgan 2,1 · Exxon 1,5 · J&amp;J 1,4 · AbbVie 1,0 · Cisco 1,0 · BofA 0,9 · Chevron 0,9 · Merck 0,8 · HSBC 0,8 · UnitedHealth 0,8</td><td class="t" data-r="VWRA">Nvidia 4,8 · Apple 4,2 · Microsoft 3,5 · Amazon 2,3 · Alphabet 1,9 · TSMC 1,7 · Broadcom 1,6 · Alphabet C 1,4 · Meta 1,2 · Micron 1,0</td></tr>
+      <tr><th>Setores (Morningstar)</th><td class="t" data-r="VHYA">financeiro 30,2 · indústria 11,8 · saúde 11,6 · energia 9,0 · tecnologia 8,4 · consumo básico 8,3 · consumo cíclico 6,8 · materiais 5,1 · utilities 5,0</td><td class="t" data-r="VWRA">tecnologia 31,7 · financeiro 16,8 · indústria 10,3 · consumo cíclico 8,8 · saúde 8,4 · comunicação 7,7 · consumo básico 4,6 · energia 4,0</td></tr>
+      <tr><th>Países (31/08)</th><td class="t" data-r="VHYA">EUA 38,7 · Japão 9,3 · Reino Unido 6,4 · Suíça 4,5 · outros 41,1</td><td class="t" data-r="VWRA">EUA 59,8 · Japão 6,0 · Taiwan 3,3 · Reino Unido 3,3 · outros 27,7</td></tr>
+      <tr><th>Número de ações (31/08)</th><td class="t" data-r="VHYA">2.364 <span class="web">web · Vanguard</span></td><td class="t" data-r="VWRA">3.784 <span class="web">web · Vanguard</span></td></tr>
+      <tr><th>Dividend yield de 12 meses</th><td class="t" data-r="VHYA"><b>2,56%</b> (média desde 2015: 3,23%)</td><td class="t" data-r="VWRA">1,32% (média: 1,79%)</td></tr>
+      <tr><th>P/L da carteira</th><td class="t" data-r="VHYA"><b>16,7x</b></td><td class="t" data-r="VWRA">21,0x</td></tr>
+      <tr><th>P/VP da carteira</th><td class="t" data-r="VHYA"><b>2,15x</b></td><td class="t" data-r="VWRA">3,44x</td></tr>
+      <tr><th>Taxa e tamanho</th><td class="t" data-r="VHYA">0,29% · US$ 14,8 bi (todas as classes)</td><td class="t" data-r="VWRA">US$ 85,3 bi</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota">Carteiras e países: justETF, 31/08. Setores, P/L e P/VP: Morningstar via Yahoo, coletados em 29/09. Dividend yield: proventos dos últimos 12 meses das linhas de distribuição em dólar (VHYD e VWRD) sobre o preço, cálculo da mesa. O HL dá 2,56% para o VHYA em 30/06 <span class="web">web</span>; bate.</p>
+
+  <h3>Dividend yield de 12 meses desde 2014</h3>
+  <div class="legenda"><span style="--c:var(--vhya)">VHYA (via VHYD)</span><span style="--c:var(--vwra)">VWRA (via VWRD)</span></div>
+  <div class="grafico" id="g-dy" tabindex="0" aria-label="Dividend yield de 12 meses do VHYA e do VWRA, mensal, de 2014 a 2026"></div>
+  <p class="opina">O yield de 2,56% é o <b>percentil 5 desde 2015</b>: a média é 3,23%, e o máximo foi 4,40% em setembro de 2022. O fundo subiu 19,2% em 12 meses, e os proventos não acompanharam. Contra o VWRA, a diferença de yield (1,24 pp) está abaixo da média (1,43 pp). Resumo: o VHYA é barato contra o VWRA (P/L 20% menor), não contra ele mesmo, e rende menos da metade do Treasury de 10 anos. P/L e P/VP históricos do fundo não estão no branch; o yield dos proventos é o termômetro histórico que dá para medir com dado primário.</p>
+
+  <h3>Sensibilidade a juros e dólar (semanal, desde 2019)</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Medida</th><th>VHYA</th><th>VWRA</th><th>CSPX</th></tr></thead>
+    <tbody>
+      <tr><th>Semanas com dólar +1% ou mais (36)</th><td class="n" data-r="VHYA">−1,98%</td><td class="n" data-r="VWRA">−1,95%</td><td class="n" data-r="CSPX">−1,53%</td></tr>
+      <tr><th>Semanas com 10 anos +0,15 pp ou mais (40)</th><td class="n" data-r="VHYA">−0,74%</td><td class="n" data-r="VWRA">−0,72%</td><td class="n" data-r="CSPX">−0,50%</td></tr>
+      <tr><th>Semanas com 10 anos −0,15 pp ou mais (38)</th><td class="n" data-r="VHYA">−0,47%</td><td class="n" data-r="VWRA">−0,42%</td><td class="n" data-r="CSPX">−0,41%</td></tr>
+      <tr><th>Beta ao índice do dólar (por +1%)</th><td class="n" data-r="VHYA">−1,24</td><td class="n" data-r="VWRA">−1,27</td><td class="n" data-r="CSPX">−1,08</td></tr>
+      <tr><th>Beta ao 10 anos (por +1 pp)</th><td class="n" data-r="VHYA">+2,30</td><td class="n" data-r="VWRA">+1,69</td><td class="n" data-r="CSPX">+1,57</td></tr>
+    </tbody>
+  </table></div>
+  <p class="opina">No curto prazo, o inimigo do VHYA é o dólar, não o juro: 61% da carteira está fora dos EUA. O índice do dólar está em 101,4, a 0,2% da máxima de 52 semanas (101,6, em 24/06). Se romper, o pullback do VHYA pode ir aos 50% de Fibonacci (102,5). Quando o juro sobe por crescimento, os bancos (30% do fundo) ajudam: é por isso que o beta ao 10 anos é positivo.</p>
+
+  <h3>2018 e 2022</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Período</th><th>VHYA</th><th>VWRA</th><th>CSPX</th></tr></thead>
+    <tbody>
+      <tr><th>4º tri de 2018 (20/09 a 24/12)</th><td class="n" data-r="VHYA"><b>−12,4%</b></td><td class="n" data-r="VWRA">−15,9%</td><td class="n" data-r="CSPX">−17,6%</td></tr>
+      <tr><th>2018 inteiro</th><td class="n" data-r="VHYA">−11,7%</td><td class="n" data-r="VWRA">−9,7%</td><td class="n" data-r="CSPX"><b>−5,5%</b></td></tr>
+      <tr><th>2022 (03/01 a 12/10)</th><td class="n" data-r="VHYA"><b>−19,2%</b></td><td class="n" data-r="VWRA">−26,0%</td><td class="n" data-r="CSPX">−24,2%</td></tr>
+      <tr><th>Covid (19/02 a 23/03/2020)</th><td class="n" data-r="VHYA">−34,9%</td><td class="n" data-r="VWRA">−33,8%</td><td class="n" data-r="CSPX">−33,9%</td></tr>
+      <tr><th>10 anos a 5% (31/07 a 27/10/2023)</th><td class="n" data-r="VHYA">−9,3%</td><td class="n" data-r="VWRA">−10,2%</td><td class="n" data-r="CSPX">−9,3%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota">O VHYA protege quando a queda vem de tecnologia cara ou de inflação (4º tri de 2018 e 2022). Não protege em crise de liquidez (2020) nem em ano de dólar forte (2018 inteiro).</p>
+
+  <h3>Níveis</h3>
+  <ol class="plano">
+    <li><span><b>Metade agora.</b> Fechou a 105,10: perdeu hoje a MM100 (105,5), está na banda inferior de Bollinger (104,8), com RSI 32,9. O MACD ainda não virou.</span></li>
+    <li><span><b>Metade em 104,0–104,7</b>, ou na virada do MACD. A faixa junta o fundo de 20/07 (104,68), a mínima de 60 pregões (103,96, em 08/07) e os 38,2% de Fibonacci da alta de 30/03 a 03/09 (104,4). Se o dólar romper 101,6, espere a segunda metade em 102,5.</span></li>
+    <li class="inv"><span><b>Invalidação: semana abaixo da MM200 (101,6).</b> A MM200 sobe 1,8% em 20 pregões, mais rápido que a do CSPX (1,3%). Confirmo sua leitura e seu plano.</span></li>
+  </ol>
+</section>
+
+<section id="ia">
+  <div class="olho"><span>3 · IA na lista da Avenue</span><span class="conta">12 ETFs e um de controle</span></div>
+  <h2>XAID na moderada; SMH só na arrojada, depois da Micron</h2>
+  <p class="corpo">A carteira moderada já tem IA sem nenhum ETF temático. Pelos pesos dos fundos, são 1,9% em Nvidia (via CSPX e DGRA) e 1,1% em Micron (via CSPX e IWVL). A pergunta é quanto acrescentar e por onde.</p>
+  <div class="etfs" style="margin-top:16px">
+@@CARDS_IA@@
+  </div>
+  <p class="nota">Carteiras pelo Yahoo/Morningstar (29/09), conferidas com o justETF (31/08). Tamanho em euro, pelo justETF (IUUS pelo Yahoo, em dólar). "Top 10 em ações do S&amp;P 500" é quanto do fundo, pelas 10 maiores posições, está em empresas que o CSPX já tem. Correlação e beta são semanais, contra o CSPX. Spread medido às 11h08 de Brasília, com o pregão aberto. Um agregador mostra outra carteira para o XAID (Samsung, Micron e SK hynix no topo, sem data) <span class="web">web</span>: confira a carteira diária no site da Xtrackers antes da ordem. Fora da lista da Avenue (data-base 31/03), vale conhecer o iShares AI Infrastructure (AINF): taxa de 0,35%, US$ 1,4 bi, lançado em dez/2024; Applied, KLA, Intel e AMD no topo, Nvidia fora das 10 maiores <span class="web">web</span>. Confira se a Avenue já oferece.</p>
+
+  <h3>Catalisadores com data</h3>
+  <ul class="lista">
+    <li><b>30/09, depois do fechamento: Micron.</b> Guidance de US$ 50,0 bi de receita e margem bruta de ~86%; consenso de US$ 50,9 a 51,2 bi. Mexe em SMH (11% de Micron), IWVL (13,6%), IUVL (21%) e EMVL (Samsung e SK hynix).</li>
+    <li><b>13/10:</b> JPMorgan abre a temporada de balanços.</li>
+    <li><b>27 a 29/10</b> (datas ainda não confirmadas pelas empresas): Microsoft, Alphabet, Meta e Amazon. É a primeira leitura do capex de 2027: o consenso dos quatro está em ~US$ 935 bi, contra US$ 720–745 bi em 2026 <span class="web">web</span>.</li>
+    <li><b>28/10:</b> Fed. <b>03/11:</b> eleição de meio de mandato.</li>
+    <li><b>Novembro</b> (entre 17 e 25/11, não confirmado): Nvidia, com guidance de US$ 108 bi de receita no trimestre <span class="web">web</span>.</li>
+    <li><b>09/12:</b> Fed, com pontos novos.</li>
+  </ul>
+
+  <h3>Riscos</h3>
+  <ul class="lista">
+    <li><b>Capex pago com dívida.</b> 32% do capex dos hyperscalers já é dívida, contra 9% no ano fiscal de 2024. O Treasury de 10 anos está a 5,24% e o high yield a 7,87%. A Alphabet teve caixa livre negativo no 2T26, o primeiro desde 2004. A Amazon ficou negativa em 12 meses, e a Oracle caiu para BBB-. Se o custo da dívida subir, o capex de 2027 é o primeiro a ser revisto, e quem recebe esse capex é o SMH.</li>
+    <li><b>Pico de ciclo em memória.</b> A Micron guia margem bruta de ~86%. Memória é cíclica: margem recorde costuma ser o ponto de maior risco, não de menor.</li>
+    <li><b>Valuation.</b> P/L das carteiras: SMH 37,5x, XDWT 33,2x, IUIT 32,6x, CNDX 29,4x. O CSPX está a 25,1x e o XAID a 22,5x.</li>
+    <li><b>Concentração.</b> IUIT e XDWT têm mais de 50% em três nomes. Somados ao CSPX, a mesma Nvidia aparece duas vezes.</li>
+    <li><b>A perna de energia já corrigiu.</b> Utilities (IUUS) −16%, urânio (URNU) −34%, NUCL −30%. Vistra e Constellation estão 33% e 34% abaixo da máxima. Juro de 5% pesa em utility. Ponto a favor: o IUUS teve correlação negativa com o CSPX no último ano (−0,10).</li>
+  </ul>
+
+  <h3>Escolha e tamanho</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Perfil</th><th class="e">O que entra</th><th class="e">De onde sai</th><th class="e">Como entrar</th></tr></thead>
+    <tbody>
+      <tr><th>Moderada</th><td class="t" data-r="O que entra"><b>XAID 3%</b></td><td class="t" data-r="De onde sai">CSPX de 18 para 16; IWVL de 6 para 5</td><td class="t" data-r="Como entrar">Metade depois da Micron, em 240–245. Metade em 234,6–237,3, ou depois dos balanços de 27–29/10. Invalida com semana abaixo de 232,85.</td></tr>
+      <tr><th>Arrojada</th><td class="t" data-r="O que entra"><b>XAID 4% e SMH 3%</b></td><td class="t" data-r="De onde sai">CSPX −4 pp e IWVL −3 pp (a Micron está nos dois)</td><td class="t" data-r="Como entrar">SMH só a partir de 01/10: metade em 106,7–107,9, metade em 101,6–102,1. Invalida com semana abaixo de 101,6.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="opina"><b>Por que XAID, e não IUIT ou CNDX.</b> No XAID, a maior posição pesa 5,9% (no IUIT, 18,8%). Ele tem Coreia (7%) e caiu menos que o SMH e o WTAI no pior momento: −41% em 2021–22, contra −45% e −48%. Não é IA pura: 40% do fundo está em ações do S&amp;P 500, e a correlação com o CSPX é 0,83. É uma inclinação da carteira para as plataformas de IA, e por isso o tamanho é 3%, tirado do próprio CSPX. Concordo com o veículo; reduzo o tamanho de 4% para 3%.</p>
+  <p class="opina"><b>Por que o SMH só na arrojada.</b> É o fornecedor direto do capex: Nvidia, Micron, AMD, TSMC, Broadcom e ASML, cerca de 10% cada. Tem correlação menor com o CSPX (0,70), mas volatilidade de 46% e queda de 45% em 2021–22. Concordo com você: só depois da Micron.</p>
+  <div class="painel">
+    <div class="legenda"><span style="--c:var(--preco)">XAID</span><span style="--c:var(--mm50)">média de 50 dias</span><span style="--c:var(--mm200)">média de 200 dias</span><span class="tr" style="--c:var(--alta)">entrada</span><span class="tr" style="--c:var(--atencao)">reforço</span><span class="tr" style="--c:var(--baixa)">invalidação</span></div>
+    <div class="grafico" id="g-XAID" tabindex="0" aria-label="XAID em dólar com médias de 50 e 200 dias e níveis de entrada, reforço e invalidação"></div>
+    <p class="rsi-rot">RSI de 14 dias</p>
+    <div class="grafico" id="r-XAID" tabindex="0" aria-label="RSI de 14 dias do XAID"></div>
+  </div>
+  <p class="nota">XAID a 247,55: 3,4% abaixo da máxima de fechamento (256,35, em 02/06), 18,2% acima da MM200 (por isso "esticado"). A série de fundos sobe: 215,2 → 232,85 → 240,2. RSI 56,6. O MACD perdeu força (histograma de 0,71 para 0,04 em três pregões).</p>
+</section>
+
+<section id="ranking">
+  <div class="olho"><span>4 · Ranking de entrada</span><span class="conta">35 ETFs · fechamento de 29/09</span></div>
+  <h2>Regra explícita, três grupos e onde discordo</h2>
+  <div class="caixa-leve">
+    <h4>A regra, escrita antes de olhar os números</h4>
+    <ul class="lista">
+      <li><b>Tendência de alta:</b> preço acima da MM200, MM200 subindo em 20 pregões e MM50 acima da MM200.</li>
+      <li><b>Pullback:</b> de 2% a 10% abaixo da máxima de fechamento de 52 semanas, ou RSI abaixo de 45. Queda maior que 10% é correção, não pullback.</li>
+      <li><b>Sem esticar:</b> menos de 5% acima da MM50, RSI abaixo de 65 e menos de 15% acima da MM200.</li>
+      <li><b>Entrada agora</b> quando valem as três condições.</li>
+      <li><b>Em parcelas</b> quando há qualquer um destes casos:
+        <ul>
+          <li>tendência de alta sem pullback;</li>
+          <li>preço esticado;</li>
+          <li>correção de 10% a 20%;</li>
+          <li>volatilidade de 3 meses acima de 35%;</li>
+          <li>evento binário na semana (ação com 10% ou mais do fundo divulgando resultado).</li>
+        </ul>
+      </li>
+      <li><b>Esperar</b> quando o preço está abaixo da MM200 em queda, a MM50 está abaixo da MM200 com o preço abaixo dela, ou a queda passa de 20%.</li>
+    </ul>
+  </div>
+  <div class="grupos" style="margin-top:18px">
+    <div class="grupo" style="--c:var(--alta)"><h4>Entrada agora</h4>
+      <p><b>VHYA DGRA IJPD XEOU VDCA</b>: da carteira.</p>
+      <p><b>XDEW</b>: o S&amp;P de peso igual.</p>
+      <p><b>CMOD IUES</b>: commodities e energia, proteção no cenário de petróleo.</p>
+      <p><b>R2US</b> passa na regra, mas deixo de fora: small caps sofrem mais com o Fed subindo.</p></div>
+    <div class="grupo" style="--c:var(--atencao)"><h4>Em parcelas</h4>
+      <p>Sem pullback: <b>CSPX VWRA CNDX</b>.</p>
+      <p>Esticados: <b>XAID IUIT XDWT CIBR</b>.</p>
+      <p>Micron em 30/09: <b>IWVL IUVL EMVL SMH</b>.</p>
+      <p>Volatilidade acima de 35%: <b>WTAI COPX USPY</b>.</p>
+      <p>Correção de 10% a 20%: <b>GRDU VPN QNTM</b>.</p>
+      <p>Tendência indefinida: <b>STYC</b>. <b>IB01</b> é caixa, fora da regra.</p></div>
+    <div class="grupo" style="--c:var(--baixa)"><h4>Esperar</h4>
+      <p><b>IGLN CBU7</b>: juro real subindo.</p>
+      <p><b>NUCL URNU IUUS</b>: a energia da IA, em tendência de baixa.</p>
+      <p><b>DFNS REMX</b>: quedas de 22% e 41%.</p>
+      <p>No CBU7 eu faço exceção pelo carrego (seção 5).</p></div>
+  </div>
+
+  <h3>Onde discordo de você</h3>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>Ativo</th><th class="e">Você</th><th class="e">Eu</th><th class="e">Por quê</th></tr></thead>
+    <tbody>
+      <tr><th>IWVL</th><td class="t" data-r="Você">comprar agora, com peso menor</td><td class="t" data-r="Eu"><b>parcelas, depois de 30/09</b></td><td class="t" data-r="Por quê">13,6% é Micron. O fator valor virou uma aposta em memória, e o IUVL (21%) mais ainda.</td></tr>
+      <tr><th>XDEW</th><td class="t" data-r="Você">alerta de largura</td><td class="t" data-r="Eu"><b>entrada agora</b></td><td class="t" data-r="Por quê">RSI 26,8, acima de uma MM200 que sobe, P/L de 21,4x contra 25,1x do CSPX. É a parte barata do S&amp;P.</td></tr>
+      <tr><th>Fed</th><td class="t" data-r="Você">duas altas não surpreendem</td><td class="t" data-r="Eu"><b>surpreendem a ponta curta</b></td><td class="t" data-r="Por quê">Os futuros embutem ~1,4 alta até dezembro, e os pontos do Fed, uma. Para o 2 anos, você tem razão.</td></tr>
+      <tr><th>CSPX</th><td class="t" data-r="Você">MACD virando positivo</td><td class="t" data-r="Eu"><b>MACD perdendo força</b></td><td class="t" data-r="Por quê">Histograma de 0,55 para 0,02 em cinco pregões; negativo no semanal. O plano não muda.</td></tr>
+      <tr><th>CBU7</th><td class="t" data-r="Você">tendência de baixa</td><td class="t" data-r="Eu"><b>parcelas, pelo carrego</b></td><td class="t" data-r="Por quê">5 anos a 5,06%, a máxima desde 2007, com o 2 anos cobrando mais juros do que os pontos do Fed (seção 5).</td></tr>
+      <tr><th>XAID</th><td class="t" data-r="Você">4% na moderada</td><td class="t" data-r="Eu"><b>3%</b></td><td class="t" data-r="Por quê">40% do fundo está em ações que o CSPX já tem; a correlação é 0,83.</td></tr>
+      <tr><th>VPN</th><td class="t" data-r="Você">esperar</td><td class="t" data-r="Eu">parcelas pequenas</td><td class="t" data-r="Por quê">Está 1,4% acima de uma MM200 que sobe: é correção, não tendência de baixa. Mesmo assim, fica fora da escolha de IA.</td></tr>
+      <tr><th>GRDU</th><td class="t" data-r="Você">lateral</td><td class="t" data-r="Eu">parcelas</td><td class="t" data-r="Por quê">Fechou 10,5% abaixo da máxima: saiu do pullback para a correção, com a MM50 caindo.</td></tr>
+      <tr><th>CNDX</th><td class="t" data-r="Você">esticado</td><td class="t" data-r="Eu">sem pullback</td><td class="t" data-r="Por quê">3,3% acima da MM50 e RSI de 58,9: pela regra, não está esticado; está na máxima. Na prática, o mesmo: parcelas.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="carteira">
+  <div class="olho"><span>5 · Carteira modelo</span><span class="conta">cliente moderado, longo prazo</span></div>
+  <h2>Mudaria pouco: IA entra com 3%; ouro e CBU7, por gatilho</h2>
+  <div class="rolagem"><table class="fichas">
+    <thead><tr><th>ETF</th><th>Hoje</th><th>Proposto</th><th class="e">O que fazer agora</th></tr></thead>
+    <tbody>
+      <tr><th>CSPX</th><td class="n" data-r="Hoje">18%</td><td class="n" data-r="Proposto"><b>16%</b></td><td class="t" data-r="O que fazer agora">1/3 em 818–824</td></tr>
+      <tr><th>VHYA</th><td class="n" data-r="Hoje">12%</td><td class="n" data-r="Proposto">12%</td><td class="t" data-r="O que fazer agora">metade agora</td></tr>
+      <tr><th>DGRA</th><td class="n" data-r="Hoje">8%</td><td class="n" data-r="Proposto">8%</td><td class="t" data-r="O que fazer agora">agora</td></tr>
+      <tr><th>IWVL</th><td class="n" data-r="Hoje">6%</td><td class="n" data-r="Proposto"><b>5%</b></td><td class="t" data-r="O que fazer agora">depois da Micron (30/09)</td></tr>
+      <tr><th>XEOU</th><td class="n" data-r="Hoje">5%</td><td class="n" data-r="Proposto">5%</td><td class="t" data-r="O que fazer agora">agora</td></tr>
+      <tr><th>IJPD</th><td class="n" data-r="Hoje">4%</td><td class="n" data-r="Proposto">4%</td><td class="t" data-r="O que fazer agora">agora</td></tr>
+      <tr><th>QNTM</th><td class="n" data-r="Hoje">2%</td><td class="n" data-r="Proposto">2%</td><td class="t" data-r="O que fazer agora">em 28,5–29,0</td></tr>
+      <tr><th>XAID</th><td class="n" data-r="Hoje">—</td><td class="n" data-r="Proposto"><b>3%</b></td><td class="t" data-r="O que fazer agora">metade depois da Micron, em 240–245</td></tr>
+      <tr><th>VDCA</th><td class="n" data-r="Hoje">11%</td><td class="n" data-r="Proposto">11%</td><td class="t" data-r="O que fazer agora">agora</td></tr>
+      <tr><th>CBU7</th><td class="n" data-r="Hoje">10%</td><td class="n" data-r="Proposto">10% (alvo)</td><td class="t" data-r="O que fazer agora">1/3 depois do payroll de 02/10; o resto espera no IB01</td></tr>
+      <tr><th>IB01</th><td class="n" data-r="Hoje">8%</td><td class="n" data-r="Proposto">8%</td><td class="t" data-r="O que fazer agora">recebe o que espera gatilho</td></tr>
+      <tr><th>STYC</th><td class="n" data-r="Hoje">8%</td><td class="n" data-r="Proposto">8%</td><td class="t" data-r="O que fazer agora">metade agora</td></tr>
+      <tr><th>IGLN</th><td class="n" data-r="Hoje">8%</td><td class="n" data-r="Proposto">8% (alvo)</td><td class="t" data-r="O que fazer agora">nada hoje; entra por gatilho</td></tr>
+      <tr class="hoje"><th>Total</th><td class="n" data-r="Hoje">ações 55 · RF 37 · ouro 8</td><td class="n" data-r="Proposto">55 · 37 · 8</td><td class="t" data-r="O que fazer agora">taxa média de 0,217% para 0,223% ao ano</td></tr>
+    </tbody>
+  </table></div>
+  <p class="opina">Não mexo em VHYA e DGRA: foram os mais resilientes em 2018 e 2022 e estão em ponto de entrada. Se quiser reduzir a concentração em gigantes, troque de 2 a 3 pp do CSPX por XDEW: é a mesma bolsa, a P/L de 21,4x, e está em ponto de entrada.</p>
+
+  <h3>IGLN e CBU7 caem pelo mesmo motivo</h3>
+  <p class="corpo">Os dois diversificadores da carteira estão caindo juntos porque o juro real subiu. O 10 anos indexado à inflação foi de 1,80% para 2,83% em um ano, e o dólar está na máxima de 52 semanas. Desde 2019, cada 1 pp a mais no 10 anos tirou 2,7% do IGLN e 4,2% do CBU7 (regressão semanal). Nas semanas em que o 10 anos caiu 0,15 pp ou mais, o ouro subiu 1,20% e o CBU7 1,12%, em média. Os dois viram quando o juro virar, e o gatilho é o mesmo.</p>
+  <div class="dois" style="margin-top:14px">
+    <div class="caixa-leve">
+      <h4>IGLN · 80,67 · esperar</h4>
+      <ul class="lista">
+        <li>21,6% abaixo da máxima de fechamento (102,85, em 02/03). Abaixo da MM50 (83,8) e da MM200 (88,0), com RSI 36,3, na banda inferior de Bollinger.</li>
+        <li>Suportes: 77,8 (fundo triplo de junho e julho) e 76,5 (50% de Fibonacci da alta de 2025–26). A mínima de 52 semanas é 74,3 (29/09/2025).</li>
+        <li>Em 2022, o IGLN caiu 8,0%; o CBU7, 10,4%; o CSPX, 24,2%. Continua sendo o melhor seguro para choque de inflação, que é o risco deste cenário.</li>
+        <li><b>Plano:</b> mantenho o alvo de 8% e não compro hoje.
+          <ul>
+            <li>1/3 no fechamento acima de 83,8 (concordo com você);</li>
+            <li>1/3 acima de 88,0;</li>
+            <li>1/3 se testar 76,5–77,8 e a semana fechar acima de 77,8.</li>
+          </ul>
+          Enquanto isso, o dinheiro fica no IB01, rendendo cerca de 4,3%.</li>
+      </ul>
+    </div>
+    <div class="caixa-leve">
+      <h4>CBU7 · 139,56 · parcelas pelo carrego</h4>
+      <ul class="lista">
+        <li>Fechou na mínima de 52 semanas, com RSI 25,1, abaixo das quatro médias. Pela regra, esperar.</li>
+        <li><b>Por que faço exceção:</b>
+          <ul>
+            <li>a curva de 3 a 7 anos paga de 5,01% a 5,15% (28/09), e a duração efetiva do fundo é de ~4,2 anos (medida pela regressão). Em 12 meses, ele só perde dinheiro se o juro subir mais de ~1,2 pp;</li>
+            <li>o 2 anos a 4,92% já cobra mais juros do que os pontos do Fed (4,1%). Se o Fed ficar no que desenhou, o 5 anos cai.</li>
+          </ul>
+        </li>
+        <li><b>O risco é 2022:</b> o juro subiu 2,3 pp e o CBU7 caiu 10,4%. Contra o IB01 a folga é pequena: o CBU7 rende cerca de 0,8 pp a mais e perde para ele se o 5 anos subir mais de ~0,2 pp em um ano.</li>
+        <li><b>Plano:</b> alvo de 10%, montado em três partes, com o resto no IB01.
+          <ul>
+            <li>1/3 depois do payroll de setembro (sexta, 02/10), se o 5 anos ficar abaixo de 5,10%;</li>
+            <li>1/3 com o CBU7 fechando acima da MM20 (141,1);</li>
+            <li>1/3 depois do Fed de 09/12, ou antes se o 5 anos chegar a 5,40% (CBU7 perto de 137,5).</li>
+          </ul>
+          Pausa se o núcleo da inflação acelerar.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="notas">
+  <div class="olho"><span>Notas práticas</span></div>
+  <ul class="lista" style="margin-top:10px">
+    <li>Na Avenue, UCITS só aceita <b>ordem limitada</b>. Ponha o preço do nível, não o último negócio.</li>
+    <li>Pregão da LSE: <b>das 4h às 12h30 de Brasília até 23/10</b>, e das 5h às 13h30 a partir de 26/10, quando termina o horário de verão britânico (25/10).</li>
+    <li>Nos ETFs de ações americanas, o spread costuma fechar depois da abertura de Nova York (10h30 de Brasília até 23/10), quando o formador de mercado consegue se proteger. Os mais largos às 11h08 de Brasília: NUCL 0,30%, USPY 0,27%, QNTM 0,24%, VPN 0,18%, GRDU 0,18%, DGRA 0,15%, IJPD 0,15%.</li>
+    <li>Corretagem de 0,25%, com mínimo de US$ 5. Ordens abaixo de US$ 2.000 pagam proporcionalmente mais.</li>
+    <li>Use sempre a <b>linha em USD de acumulação</b> (CSPX, VHYA, VWRA, XAID, SMH). VHYL e VWRL são em libra; VHYD e VWRD, em dólar, distribuem proventos.</li>
+    <li>No Yahoo, o campo fiftyTwoWeekHigh do CSPX.L traz um tick errado (888,76). Use máximas de fechamento: 838,69.</li>
+  </ul>
+</section>
+
+<section id="termos">
+  <div class="olho"><span>Termos desta nota</span></div>
+  <div class="termos" style="margin-top:12px">
+    <p><b>MM50, MM200:</b> média dos últimos 50 ou 200 fechamentos. Preço acima de uma MM200 que sobe é tendência de alta.</p>
+    <p><b>RSI:</b> índice de força relativa, de 0 a 100. Abaixo de 30, vendido demais; acima de 70, comprado demais.</p>
+    <p><b>MACD:</b> diferença entre médias rápidas e lentas. O histograma mostra se o impulso ganha ou perde força.</p>
+    <p><b>Bollinger:</b> faixa de dois desvios em torno da média de 20 dias. Tocar a banda inferior é esticar para baixo.</p>
+    <p><b>Fibonacci:</b> recuos de 23,6%, 38,2%, 50% e 61,8% de uma alta, usados como suportes.</p>
+    <p><b>Pullback:</b> recuo curto dentro de uma tendência de alta. Aqui, de 2% a 10% da máxima.</p>
+    <p><b>P/L projetado:</b> preço sobre o lucro esperado para os próximos 12 meses.</p>
+    <p><b>Prêmio de risco:</b> quanto a ação rende a mais que o título do governo, medido pelo lucro sobre o preço.</p>
+    <p><b>Juro real:</b> juro do título indexado à inflação. É o custo de oportunidade do ouro.</p>
+    <p><b>Spread high yield:</b> quanto a dívida de empresa de risco paga acima do Treasury.</p>
+    <p><b>Duração:</b> quanto o preço de um fundo de títulos cai para cada 1 pp de alta no juro.</p>
+    <p><b>Carrego:</b> o que o título rende parado, antes de o preço mexer.</p>
+    <p><b>Correlação e beta:</b> quanto dois ativos andam juntos, e quanto um anda para cada 1% do outro.</p>
+    <p><b>TER:</b> taxa anual total do ETF, já descontada da cota.</p>
+    <p><b>Gráfico de pontos:</b> a projeção de juro de cada membro do Fed.</p>
+    <p><b>Dividend yield:</b> proventos de 12 meses sobre o preço.</p>
+  </div>
+</section>
+
+<section id="fontes">
+  <div class="olho"><span>Fontes, com data</span></div>
+  <ul class="fontes" style="margin-top:12px">
+    <li><b>Preços e séries diárias:</b> Yahoo Finance, via coletor etfs.py no GitHub Actions (branch dados, pasta etfs/). Fechamento da LSE em 29/09/2026, coleta das 16h05 UTC. O pregão de 28/09 vem do livro monitorado ou do fechamento anterior da cotação v7.</li>
+    <li><b>Bid, ask e volume médio de 3 meses:</b> cotação v7 do Yahoo, 29/09/2026, 14h08 UTC, pregão aberto.</li>
+    <li><b>Carteiras, taxa, tamanho e índice:</b> justETF (carteira de 31/08/2026); Yahoo/Morningstar (holdings, P/L e P/VP da carteira), 29/09/2026; carteira diária do SPY, State Street, 28/09/2026.</li>
+    <li><b>Lista de UCITS da Avenue:</b> data-base 31/03/2026 (<a href="https://avenue.us/assets/pdf/Lista_UCITS_ETFs.pdf" target="_blank" rel="noopener">PDF</a>).</li>
+    <li><b>Juros:</b> curva par do Tesouro dos EUA, 28/09/2026; FRED (DGS3MO a DGS30, DFII10, T10YIE, ICE BofA HY e IG, DFEDTARU/L, ECBDFR, SP500, MICH), até 25 a 28/09/2026.</li>
+    <li><b>Lucros:</b> FactSet Earnings Insight de 25/09/2026 e de 18/09/2026 (<a href="https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_092526.pdf" target="_blank" rel="noopener">PDF</a>).</li>
+    <li><b>Cálculos da mesa:</b> técnica e regra de entrada, episódios de 2004–06, 2018, 2022 e 2023, sazonalidade (S&amp;P 500 desde 1950), sensibilidades semanais desde 2019, dividend yield pelos proventos do VHYD e do VWRD, sobreposição com a carteira do SPY.</li>
+    <li><b>Busca na web, 29/09/2026, não é fonte primária:</b>
+      <ul>
+        <li>Fed: <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm" target="_blank" rel="noopener">comunicado de 16/09</a>; pontos pelo <a href="https://fredblog.stlouisfed.org/2026/09/fomc-summary-of-economic-projections-september-2026/" target="_blank" rel="noopener">FRED Blog</a>; posse de Warsh (<a href="https://www.cbsnews.com/news/kevin-warsh-sworn-in-federal-reserve-chair/" target="_blank" rel="noopener">CBS</a>).</li>
+        <li>FedWatch: <a href="https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html" target="_blank" rel="noopener">CNBC, 26/09</a> e Avalon Capital.</li>
+        <li>Michigan: <a href="https://www.cnn.com/2026/09/25/economy/us-consumer-sentiment-final-september" target="_blank" rel="noopener">CNN, 25/09</a>.</li>
+        <li>Brent: <a href="https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html" target="_blank" rel="noopener">CNBC, 28/09</a>.</li>
+        <li>Capex e caixa livre: CNBC e empresas, jul/2026; <a href="https://insight.factset.com/hyperscalers-tap-external-financing-as-ai-capex-outruns-cash-flow" target="_blank" rel="noopener">FactSet Insight, 23/07</a>; 8-K da Alphabet; RI da Amazon.</li>
+        <li>Oracle: <a href="https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101695609" target="_blank" rel="noopener">S&amp;P Global Ratings, 09/07</a>.</li>
+        <li>Micron: <a href="https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx" target="_blank" rel="noopener">RI</a> e Zacks.</li>
+        <li>GE Vernova: releases de 22/04 e 22/07. Vertiv: 8-K de 11/02.</li>
+        <li>Prêmio de risco: <a href="https://fortune.com/2026/09/29/equity-risk-premium-investing-stocks-versus-bonds/" target="_blank" rel="noopener">Fortune, 29/09</a>; JPMorgan (data não confirmada).</li>
+        <li>Sazonalidade: <a href="https://fortune.com/2026/09/23/in-midterm-years-october-usually-best-month-for-stocks-gains-78-9-of-the-time/" target="_blank" rel="noopener">Fortune, 23/09</a>.</li>
+        <li>Largura: <a href="https://backtest.substack.com/p/s-and-p-500-near-a-record-high-but" target="_blank" rel="noopener">Backtest</a> (fonte única).</li>
+        <li>Carteira do VHYA: factsheet da Vanguard, 31/08.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<footer class="rodape">
+  <p><b>Material informativo, sem recomendação individual; checar adequação ao perfil do cliente.</b></p>
+  <p>Análise para uso interno do assessor; não constitui recomendação de investimento (Resolução CVM 178).</p>
+</footer>
+</main>
+
+<script type="application/json" id="dados">@@DADOS@@</script>
+<script>
+@@JS@@
+</script>
