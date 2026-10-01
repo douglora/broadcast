@@ -17,3 +17,6 @@ vendor/
 # Saida local do livro (testes e execucao offline)
 livro_out/
 .pytest_cache/
+
+# Saida das analises de ETF (dado de mercado: nao versionar)
+ferramentas/etf/saida/
