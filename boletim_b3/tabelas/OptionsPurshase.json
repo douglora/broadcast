@@ -1,0 +1,24 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "OptionsPurshase",
+ "titulo": "Ações mais negociadas - opções de compra",
+ "sla": "8:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
+ "texto": ["Mostra as opções de compra mais negociadas, indicando as ações com maior interesse dos investidores."],
+ "situacao": "republicado",
+ "atualizado_em": "2026-09-30T23:10:34.247",
+ "truncada": false,
+ "linhas": [
+  ["IBOVK185", "2026-11-18", 185000, 34418.0925, 2.738569870254796],
+  ["IBOVK200", "2026-11-18", 200000, 33287.25, 2.6485912870865507],
+  ["IBOVK194", "2026-11-18", 194000, 19824.516, 1.5773919548267856],
+  ["IBOVK190", "2026-11-18", 190000, 13355.64565, 1.0626785541612898],
+  ["IBOVK185", "2026-11-18T20:59:59", 185000, 34418.0925, 2.7371746457430928],
+  ["IBOVK200", "2026-11-18T20:59:59", 200000, 33287.25, 2.647241904138405],
+  ["IBOVK194", "2026-11-18T20:59:59", 194000, 19824.516, 1.5765883178833422],
+  ["ISAEL292", "2026-12-18", 29.29, 14056.483, 1.1178727837958715],
+  ["IBOVK190", "2026-11-18T20:59:59", 190000, 13355.64565, 1.062137149253958],
+  ["ISAEL292", "2026-12-18T20:59:59", 29.29, 14056.483, 1.1178727837958715]
+ ]
+}

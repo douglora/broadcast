@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 03/09/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-04 13:01 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T02:58:01Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:18:35Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (29)
+## Sinais do dia (30)
 
 **Novos hoje**
 
@@ -18,10 +18,11 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Parede de opções.** VALE3 fechou a 78,45 com o vencimento de 18/09 a 10 dias úteis e a maior posição em aberto de put em 76,89 (2.556.700 opções, -2,0% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 03/09)_
 - **Posição em opções.** SMAL11: a call SMALJ124 (strike 124,00, vencimento 16/10) ganhou 838.111 opções em aberto no dia, para 3.269.597. _(B3, DerivativesOpenPosition, 03/09)_
 - **Aluguel mudou.** BBDC4: saldo alugado subiu 10,2% em um pregão, para 282,1 mi de ações, com o preço em +0,22% no dia. _(B3, BTBLendingOpenPosition, 03/09)_
-- **Crédito: taxa abriu.** 21H1078700 (Opea Securitizadora S/A, cri): taxa média abriu 121 pb contra 02/09, para IPCA+ 12,04%, em R$ 9,0 mi. _(B3, Trade + InstrumentRegistration, 03/09)_
-- **Crédito: taxa abriu.** PLSB1A (Autopista Litoral Sul S/A., debêntures incentivadas): taxa média abriu 37 pb contra 02/09, para IPCA+ 10,25%, em R$ 5,8 mi. _(B3, Trade + InstrumentRegistration, 03/09)_
-- **Crédito: prêmio alto.** SUMI19 (Giga Mais Fibra Telecomunicacoes S.A., debêntures incentivadas): negociada a IPCA+ 14,11%, 623 pb acima do juro real de mercado de prazo equivalente, em R$ 12,1 mi. _(B3, Trade + InstrumentRegistration, 03/09)_
-- **Crédito: prêmio alto.** CRA02300S35 (Eco Securitizadora De Direitos Credito, cra): negociada a IPCA+ 13,12%, 519 pb acima do juro real de mercado de prazo equivalente, em R$ 6,0 mi. _(B3, Trade + InstrumentRegistration, 03/09)_
+- **Crédito: taxa abriu.** 21H1078700 (Opea Securitizadora, CRI): taxa média abriu 148 pb contra 02/09, para IPCA+ 12,32%, em R$ 10,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 03/09)_
+- **Crédito: taxa abriu.** CRA019001E7 (Vert Companhia Securitizadora, CRA): taxa média abriu 37 pb contra 02/09, para IPCA+ 7,56%, em R$ 11,9 mi. _(B3, Trade + InstrumentRegistration (preliminar), 03/09)_
+- **Crédito: taxa abriu.** PLSB1A (Autopista Litoral Sul, debênture incentivada): taxa média abriu 35 pb contra 02/09, para IPCA+ 10,23%, em R$ 5,1 mi. _(B3, Trade + InstrumentRegistration (preliminar), 03/09)_
+- **Crédito: prêmio alto.** SUMI19 (Giga Mais Fibra Telecomunicacoes, debênture incentivada): negociada a IPCA+ 14,11%, 623 pb acima do juro real de mercado de prazo equivalente, em R$ 8,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 03/09)_
+- **Crédito: prêmio alto.** CONX12 (Alares Internet Participacoes, debênture incentivada): negociada a IPCA+ 13,51%, 570 pb acima do juro real de mercado de prazo equivalente, em R$ 10,1 mi. _(B3, Trade + InstrumentRegistration (preliminar), 03/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 811 mi líquidos em 01/09; no mês, até 01/09, saldo de +R$ 811 mi. _(B3, SharesInvesVolum, 01/09)_
 - **Provento.** UGPA3: crédito de dividendo de R$ 1,0000 por ação em 03/09. _(B3, ProventionCreditVariable, 03/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores baixas do Ibovespa: VALE3 (2º), CURY3 (3º), PETR4 (10º); mais negociadas à vista: VALE3 (1º), PETR4 (2º), ITUB4 (3º), BBDC4 (4º), BBAS3 (5º); calls mais negociadas: PETRI469 (4º); puts mais negociadas: BBDCV20 (4º). _(B3, tabelas de maiores oscilacoes, 03/09)_
@@ -38,7 +39,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** MRVE3: saldo alugado de 73,8 mi de ações, 19,7% da quantidade teórica do índice e 5,5 pregões de giro; taxa média do tomador de 28,97% ao ano. _(B3, BTBLendingOpenPosition, 03/09 · 3º pregão seguido)_
 - **Aluguel alto.** PETR4: saldo alugado de 289,2 mi de ações, 6,6% da quantidade teórica do índice e 5,6 pregões de giro; taxa média do tomador de 0,06% ao ano. _(B3, BTBLendingOpenPosition, 03/09 · 3º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 5,54% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 03/09 · 3º pregão seguido)_
-- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora S.A., cra): negociada a IPCA+ 12,89%, 522 pb acima do juro real de mercado de prazo equivalente, em R$ 18,6 mi. _(B3, Trade + InstrumentRegistration, 03/09 · 3º pregão seguido)_
+- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora, CRA): negociada a IPCA+ 12,91%, 524 pb acima do juro real de mercado de prazo equivalente, em R$ 18,0 mi. _(B3, Trade + InstrumentRegistration (preliminar), 03/09 · 2º pregão seguido)_
 - **Subscrição.** BBDC4: direito de subscrição em aberto, prazo final 03/09. _(B3, FugibleCustody, 03/09 · 3º pregão seguido)_
 - **Prévia de índice.** 3ª prévia do Ibovespa publicada: entram ninguém; saem AXIA6, BRKM5, RECV3, SLCE3. Nenhum ativo do livro entra ou sai. _(B3, Previa, 03/09 · 3º pregão seguido)_
 
@@ -177,13 +178,13 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+10,5%) | 34,24 (-12,0%) | 0,80 |
 | ITUB4 (18/09) | 44,53 (+6,2%) | 39,28 (-6,3%) | 0,83 |
 | BBDC4 (18/09) | 18,51 (+4,0%) | 16,51 (-7,2%) | 0,70 |
-| PETR4 (18/09) | 47,92 (+0,8%) | 36,67 (-22,9%) | 1,05 |
+| PETR4 (18/09) | 47,92 (+0,8%) | 41,67 (-12,4%) | 1,05 |
 | VALE3 (18/09) | 81,39 (+3,8%) | 76,89 (-2,0%) | 0,81 |
 | MELI34 (18/09) | 85,00 (+0,8%) | 83,00 (-1,6%) | 0,91 |
-| UGPA3 (18/09) | 37,00 (+1,5%) | 27,50 (-24,6%) | 0,96 |
+| UGPA3 (18/09) | 37,00 (+1,5%) | 30,00 (-17,7%) | 0,96 |
 | AXIA3 (18/09) | 56,00 (+0,5%) | 54,00 (-3,1%) | 0,92 |
 | ITSA4 (18/09) | 13,81 (+0,5%) | 13,56 (-1,3%) | 0,72 |
-| BBAS3 (18/09) | 33,95 (+51,2%) | 17,45 (-22,3%) | 0,80 |
+| BBAS3 (18/09) | 25,20 (+12,2%) | 19,20 (-14,5%) | 0,80 |
 | SBSP3 (18/09) | 28,01 (+6,7%) | 24,76 (-5,7%) | 0,92 |
 | SMAL11 (18/09) | 120,00 (+8,1%) | 97,00 (-12,7%) | 0,71 |
 | DIRR3 (18/09) | 12,21 (+6,5%) | 11,21 (-2,3%) | 0,81 |
@@ -250,30 +251,32 @@ Posição em aberto: 3,7 bi de calls e 3,2 bi de puts (put/call 0,88); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas deste pregão ainda podem mudar.
+
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,7 bi | IPCA+ 8,28% | +66 pb |
-| CRI | R$ 535,1 mi | IPCA+ 10,99% e CDI+ 1,59% | +322 pb |
-| CRA | R$ 365,8 mi | IPCA+ 10,75% e CDI+ 2,31% | +291 pb |
+| Debêntures incentivadas | R$ 1,9 bi | IPCA+ 7,86% | +22 pb |
+| CRI | R$ 540,6 mi | IPCA+ 9,34% e CDI+ 1,07% | +166 pb |
+| CRA | R$ 347,2 mi | IPCA+ 11,58% e CDI+ 2,84% | +320 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| AXIA28 (Axia Energia S.A.) | IPCA+ 7,50% | -9 pb | R$ 123,0 mi |
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,24% pré | - | R$ 109,9 mi |
-| AXIAA1 (Axia Energia S.A.) | IPCA+ 7,50% | -6 pb | R$ 42,4 mi |
-| CRTR12 (Epr Triangulo S.A) | IPCA+ 8,77% | +137 pb | R$ 40,9 mi |
-| ENMTG8 (Energisa Mato Grosso - Distr) | IPCA+ 7,87% | +47 pb | R$ 40,0 mi |
-| MGPRA0 (Concessao Metroviaria Do Rio) | sem taxa | - | R$ 34,5 mi |
-| CDES11 (Vports Autoridade Portuaria ) | IPCA+ 7,83% | +38 pb | R$ 29,2 mi |
-| ENMTF8 (Energisa Mato Grosso - Distr) | IPCA+ 7,93% | +35 pb | R$ 28,4 mi |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,26% pré | - | R$ 210,0 mi |
+| AXIA28 (Axia Energia S.A.) | IPCA+ 7,50% | -9 pb | R$ 82,1 mi |
+| AXIAA1 (Axia Energia S.A.) | IPCA+ 7,50% | -6 pb | R$ 81,7 mi |
+| ENMTG8 (Energisa Mato Grosso - Distr) | IPCA+ 7,86% | +46 pb | R$ 40,0 mi |
+| CDES11 (Vports Autoridade Portuaria ) | IPCA+ 7,81% | +36 pb | R$ 37,4 mi |
+| CRTR12 (Epr Triangulo S.A) | IPCA+ 8,78% | +138 pb | R$ 31,2 mi |
+| GSTS24 (Aguas De Teresina Saneamento) | IPCA+ 10,37% | +287 pb | R$ 28,4 mi |
+| MGPRA0 (Concessao Metroviaria Do Rio) | sem taxa | - | R$ 25,5 mi |
 
-**Abriram taxa:** 21H1078700 +121 pb, para IPCA+ 12,04% (R$ 9,0 mi); APRB18 +43 pb, para IPCA+ 8,96% (R$ 3,4 mi); PLSB1A +37 pb, para IPCA+ 10,25% (R$ 5,8 mi); CRA02300RS5 +30 pb, para CDI+ 4,08% (R$ 3,6 mi); 21H1078699 +27 pb, para IPCA+ 11,12% (R$ 5,0 mi).
-**Fecharam taxa:** CRA024000B8 -169 pb, para 17,94% pré (R$ 14,4 mi); CRA02300SPD -105 pb, para 17,80% pré (R$ 20,1 mi); ENAT23 -73 pb, para 14,44% pré (R$ 3,8 mi); 21G0065100 -48 pb, para IPCA+ 8,18% (R$ 3,5 mi); MRSAB3 -39 pb, para IPCA+ 7,37% (R$ 3,8 mi).
-**Prêmio alto:** SUMI19 a IPCA+ 14,11% (+623 pb), R$ 12,1 mi; CONX12 a IPCA+ 13,49% (+568 pb), R$ 4,8 mi; CRA021000RX a IPCA+ 12,89% (+522 pb), R$ 18,6 mi; CRA02300S35 a IPCA+ 13,12% (+519 pb), R$ 6,0 mi; CRA0220073P a IPCA+ 12,84% (+504 pb), R$ 5,7 mi.
+**Abriram taxa:** 21H1078700 +148 pb, para IPCA+ 12,32% (R$ 10,7 mi); CRA019001E7 +37 pb, para IPCA+ 7,56% (R$ 11,9 mi); PLSB1A +35 pb, para IPCA+ 10,23% (R$ 5,1 mi); 21H1078699 +35 pb, para IPCA+ 11,13% (R$ 5,5 mi); CEEBD1 +31 pb, para 14,26% pré (R$ 210,0 mi).
+**Fecharam taxa:** CRA024000B8 -179 pb, para 17,89% pré (R$ 14,2 mi); CRA02300SPD -113 pb, para 17,81% pré (R$ 10,5 mi); ENAT23 -61 pb, para 14,57% pré (R$ 3,1 mi); CTGE15 -53 pb, para IPCA+ 7,47% (R$ 3,5 mi); CRA024002S2 -36 pb, para 18,27% pré (R$ 3,0 mi).
+**Prêmio alto:** 22K0934880 a IPCA+ 23,53% (+1.567 pb), R$ 3,3 mi; SUMI19 a IPCA+ 14,11% (+623 pb), R$ 8,7 mi; CONX12 a IPCA+ 13,51% (+570 pb), R$ 10,1 mi; CRA021000RX a IPCA+ 12,91% (+524 pb), R$ 18,0 mi; CRA02300S35 a IPCA+ 13,17% (+524 pb), R$ 6,0 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

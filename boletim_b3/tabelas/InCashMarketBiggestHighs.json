@@ -1,0 +1,24 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "InCashMarketBiggestHighs",
+ "titulo": "Mercado à vista - maiores altas",
+ "sla": "8:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
+ "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-09-30T18:50:12.84",
+ "truncada": false,
+ "linhas": [
+  ["BHIA3", "ON      NM", 1.22, 14.01],
+  ["BRIP11", "CI", 400, 14.28],
+  ["AZUL97", "UNT     N2", 4.49, 14.54],
+  ["CRPT11", "CI", 15.62, 14.93],
+  ["CTAX3", "ON", 1.83, 18.83],
+  ["RECD11", "CI", 7, 21.1],
+  ["KNRE11", "CI", 0.25, 25],
+  ["A1PD34", "DRN ED", 81.99, 35.98],
+  ["RCFA11", "CI", 0.11, 57.14],
+  ["TOKY11", "BNS ORD NM", 0.5, 92.3]
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "pregao": "2026-09-04",
- "coletado_em": "2026-10-01T02:58:01Z",
+ "coletado_em": "2026-10-01T03:18:35Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -407,12 +407,12 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1548,
-  "consultados": 180,
-  "achados": 180,
+  "papeis_no_dia": 1657,
+  "consultados": 7,
+  "achados": 7,
   "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
-  "no_cache": 2229
+  "no_cache": 3029
  }
 }

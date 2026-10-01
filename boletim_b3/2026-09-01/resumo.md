@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 01/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-02 10:03 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T02:51:53Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:17:51Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -20,9 +20,9 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** PETR4: saldo alugado de 315,1 mi de ações, 7,1% da quantidade teórica do índice e 6,3 pregões de giro; taxa média do tomador de 0,08% ao ano. _(B3, BTBLendingOpenPosition, 01/09)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 5,64% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 01/09)_
 - **Aluguel alto.** UGPA3: saldo alugado de 54,3 mi de ações, 5,1% da quantidade teórica do índice e 3,4 pregões de giro; taxa média do tomador de 0,18% ao ano. _(B3, BTBLendingOpenPosition, 01/09)_
-- **Crédito: prêmio alto.** TEPA13 (Brasil Tecnologia E Participacao S.A., debêntures incentivadas): negociada a IPCA+ 17,19%, 916 pb acima do juro real de mercado de prazo equivalente, em R$ 5,9 mi. _(B3, Trade + InstrumentRegistration, 01/09)_
-- **Crédito: prêmio alto.** 22J0306937 (Vert Companhia  Securitizadora, cri): negociada a IPCA+ 13,63%, 564 pb acima do juro real de mercado de prazo equivalente, em R$ 6,7 mi. _(B3, Trade + InstrumentRegistration, 01/09)_
-- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora S.A., cra): negociada a IPCA+ 12,66%, 489 pb acima do juro real de mercado de prazo equivalente, em R$ 7,8 mi. _(B3, Trade + InstrumentRegistration, 01/09)_
+- **Crédito: prêmio alto.** TEPA13 (Brasil Tecnologia e Participacao, debênture incentivada): negociada a IPCA+ 16,97%, 894 pb acima do juro real de mercado de prazo equivalente, em R$ 11,6 mi. _(B3, Trade + InstrumentRegistration, 01/09)_
+- **Crédito: prêmio alto.** 22J0306937 (Vert Companhia Securitizadora, CRI): negociada a IPCA+ 13,59%, 560 pb acima do juro real de mercado de prazo equivalente, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration, 01/09)_
+- **Crédito: prêmio alto.** 19I0739706 (Riza Securitizadora, CRI): negociada a CDI+ 5,45%, em R$ 7,6 mi. _(B3, Trade + InstrumentRegistration, 01/09)_
 - **Provento.** ITUB4: crédito de juros sobre capital próprio de R$ 0,0182 por ação em 01/09. _(B3, ProventionCreditVariable, 01/09)_
 - **Provento.** BBDC4: crédito de juros sobre capital próprio de R$ 0,0190 por ação em 01/09. _(B3, ProventionCreditVariable, 01/09)_
 - **Provento.** BBAS3: atualizacao com prazo de depósito de títulos em 02/09. _(B3, DeadlineDepositSecurities, 01/09)_
@@ -167,10 +167,10 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+15,9%) | 34,24 (-7,7%) | 0,96 |
 | ITUB4 (18/09) | 44,53 (+11,7%) | 39,28 (-1,5%) | 0,79 |
 | BBDC4 (18/09) | 18,53 (+6,5%) | 16,53 (-5,0%) | 0,67 |
-| PETR4 (18/09) | 47,92 (+2,2%) | 36,67 (-21,8%) | 1,04 |
+| PETR4 (18/09) | 47,92 (+2,2%) | 41,67 (-11,1%) | 1,04 |
 | VALE3 (18/09) | 81,39 (+4,0%) | 76,89 (-1,8%) | 0,83 |
 | MELI34 (18/09) | 85,00 (+1,6%) | 83,00 (-0,8%) | 0,91 |
-| UGPA3 (18/09) | 37,00 (+4,8%) | 27,50 (-22,1%) | 0,96 |
+| UGPA3 (18/09) | 37,00 (+4,8%) | 30,00 (-15,0%) | 0,96 |
 | AXIA3 (18/09) | 56,00 (+4,2%) | 51,00 (-5,1%) | 0,90 |
 | ITSA4 (18/09) | 13,81 (+4,7%) | 13,06 (-1,0%) | 0,70 |
 | BBAS3 (18/09) | 22,06 (+4,0%) | 17,56 (-17,2%) | 0,78 |
@@ -238,28 +238,28 @@ Posição em aberto: 3,4 bi de calls e 3,0 bi de puts (put/call 0,90); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 883,2 mi | IPCA+ 8,23% | +44 pb |
-| CRI | R$ 817,0 mi | IPCA+ 11,69% e CDI+ 1,81% | +370 pb |
-| CRA | R$ 387,1 mi | IPCA+ 11,72% e CDI+ 3,07% | +403 pb |
+| Debêntures incentivadas | R$ 960,9 mi | IPCA+ 7,96% | +9 pb |
+| CRI | R$ 594,9 mi | IPCA+ 9,50% e CDI+ 1,00% | +152 pb |
+| CRA | R$ 363,8 mi | IPCA+ 11,34% e CDI+ 3,35% | +359 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| TRPLB7 (Isa Energia Brasil S.A.) | IPCA+ 7,39% | -19 pb | R$ 34,0 mi |
-| CPGTC0 (Copel Geracao E Transmissao ) | IPCA+ 7,66% | -3 pb | R$ 33,1 mi |
-| TBCR18 (Transbrasiliana Concessionar) | sem taxa | - | R$ 30,0 mi |
-| TRPLB4 (Isa Energia Brasil S.A.) | IPCA+ 7,42% | -19 pb | R$ 23,4 mi |
-| ENEVA4 (Eneva S.A.) | IPCA+ 7,96% | +19 pb | R$ 21,9 mi |
-| CEEBD2 (Cia. De Eletric. Do Est. Da ) | IPCA+ 7,95% | +16 pb | R$ 21,2 mi |
+| TRPLB7 (Isa Energia Brasil S.A.) | IPCA+ 7,39% | -19 pb | R$ 45,4 mi |
+| COMT11 (Concessionaria De Rodovia Su) | IPCA+ 7,72% | -35 pb | R$ 32,2 mi |
+| VALEC1 (Vale S/A) | IPCA+ 7,03% | -80 pb | R$ 27,4 mi |
+| TRPLB4 (Isa Energia Brasil S.A.) | IPCA+ 7,42% | -20 pb | R$ 23,0 mi |
+| CPGTC0 (Copel Geracao E Transmissao ) | IPCA+ 7,66% | -2 pb | R$ 22,0 mi |
 | SBSPI8 (Cia Saneamento Basico Est. S) | IPCA+ 7,50% | -27 pb | R$ 21,1 mi |
-| CPLDC0 (Copel  Distribuicao S/A) | IPCA+ 7,67% | +1 pb | R$ 20,2 mi |
+| VLIM14 (Vli Multimodal S.A.) | IPCA+ 7,68% | -39 pb | R$ 20,7 mi |
+| ACRC11 (Atlas Luiz Carlos Comerciali) | sem taxa | - | R$ 20,3 mi |
 
-**Prêmio alto:** TEPA13 a IPCA+ 17,19% (+916 pb), R$ 5,9 mi; 22J0306937 a IPCA+ 13,63% (+564 pb), R$ 6,7 mi; 19I0739706 a CDI+ 5,45%, R$ 3,8 mi; CRA021000RX a IPCA+ 12,66% (+489 pb), R$ 7,8 mi; CRA0220073P a IPCA+ 12,32% (+435 pb), R$ 55,3 mi.
+**Prêmio alto:** TEPA13 a IPCA+ 16,97% (+894 pb), R$ 11,6 mi; 22J0306937 a IPCA+ 13,59% (+560 pb), R$ 5,7 mi; 19I0739706 a CDI+ 5,45%, R$ 7,6 mi; CRA021000RX a IPCA+ 12,77% (+500 pb), R$ 7,0 mi; CRA0220073P a IPCA+ 12,39% (+443 pb), R$ 30,9 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

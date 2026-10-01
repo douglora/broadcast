@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 08/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-08 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:01:34Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:19:20Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (30)
+## Sinais do dia (29)
 
 **Novos hoje**
 
@@ -16,14 +16,13 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Posição em opções.** SBSP3: a call SBSPK351 (strike 35,13, vencimento 19/11) ganhou 6.983.300 opções em aberto no dia, para 7.000.500. _(B3, DerivativesOpenPosition, 08/09)_
 - **Posição em opções.** SMAL11: a call SMALJ130 (strike 130,00, vencimento 16/10) ganhou 934.862 opções em aberto no dia, para 1.872.410. _(B3, DerivativesOpenPosition, 08/09)_
 - **Aluguel mudou.** UGPA3: saldo alugado caiu 17,2% em um pregão, para 46,3 mi de ações, com o preço em +1,65% no dia. _(B3, BTBLendingOpenPosition, 08/09)_
-- **Crédito: taxa abriu.** SBSPK8 (Cia Saneamento Basico Est. Sp - Sabesp, debêntures incentivadas): taxa média abriu 40 pb contra 04/09, para IPCA+ 7,27%, em R$ 122,6 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
-- **Crédito: prêmio alto.** CMIN12 (Csn Mineracao S.A., debêntures incentivadas): negociada a IPCA+ 14,75%, 703 pb acima do juro real de mercado de prazo equivalente, em R$ 5,2 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
-- **Crédito: prêmio alto.** CRA020002H1 (Vert Companhia  Securitizadora, cra): negociada a IPCA+ 12,70%, 496 pb acima do juro real de mercado de prazo equivalente, em R$ 5,8 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
+- **Crédito: taxa abriu.** CRA021000RY (Riza Securitizadora, CRA): taxa média abriu 129 pb contra 02/09, para IPCA+ 12,18%, em R$ 10,5 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
+- **Crédito: taxa abriu.** SBSPK8 (Cia Saneamento Basico Est. Sp - Sabesp, debênture incentivada): taxa média abriu 39 pb contra 04/09, para IPCA+ 7,27%, em R$ 122,6 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
+- **Crédito: taxa abriu.** PETR17 (Petroleo Brasileiro - Petrobras, debênture incentivada): taxa média abriu 30 pb contra 04/09, para IPCA+ 6,76%, em R$ 5,6 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
+- **Crédito: prêmio alto.** CMIN12 (Csn Mineracao, debênture incentivada): negociada a IPCA+ 14,75%, 703 pb acima do juro real de mercado de prazo equivalente, em R$ 5,2 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
+- **Crédito: prêmio alto.** CRA020002H1 (Vert Companhia Securitizadora, CRA): negociada a IPCA+ 12,70%, 496 pb acima do juro real de mercado de prazo equivalente, em R$ 5,8 mi. _(B3, Trade + InstrumentRegistration, 08/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 1.743 mi líquidos em 03/09; no mês, até 03/09, saldo de +R$ 3.945 mi. _(B3, SharesInvesVolum, 03/09)_
-- **Juros.** DI1F29: taxa de ajuste fechou 15 pontos-base, para 13,71%. _(B3, TradeInformationConsolidated, 08/09)_
-- **Juros.** DI1F30: taxa de ajuste fechou 18 pontos-base, para 13,84%. _(B3, TradeInformationConsolidated, 08/09)_
-- **Juros.** DI1F32: taxa de ajuste fechou 21 pontos-base, para 13,97%. _(B3, TradeInformationConsolidated, 08/09)_
-- **Juros.** DI1F35: taxa de ajuste fechou 21 pontos-base, para 14,02%. _(B3, TradeInformationConsolidated, 08/09)_
+- **Juros.** A curva de juros fechou: DI1F29 −15 pb, para 13,71%, DI1F30 −18 pb, para 13,84%, DI1F32 −21 pb, para 13,97%, DI1F35 −21 pb, para 14,02%. _(B3, TradeInformationConsolidated, 08/09)_
 - **Provento.** CURY3: crédito de dividendo de R$ 0,6168 por ação em 08/09. _(B3, ProventionCreditVariable, 08/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: MRVE3 (10º); maiores baixas do Ibovespa: DIRR3 (10º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), SBSP3 (3º), AXIA3 (4º); puts mais negociadas: AXIAW54 (3º). _(B3, tabelas de maiores oscilacoes, 08/09)_
 
@@ -41,7 +40,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** MRVE3: saldo alugado de 71,7 mi de ações, 19,1% da quantidade teórica do índice e 6,1 pregões de giro; taxa média do tomador de 27,82% ao ano. _(B3, BTBLendingOpenPosition, 08/09 · 5º pregão seguido)_
 - **Aluguel alto.** PETR4: saldo alugado de 281,3 mi de ações, 6,4% da quantidade teórica do índice e 6,4 pregões de giro; taxa média do tomador de 0,05% ao ano. _(B3, BTBLendingOpenPosition, 08/09 · 5º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 5,33% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 08/09 · 5º pregão seguido)_
-- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora S.A., cri): negociada a CDI+ 16,13%, em R$ 5,3 mi. _(B3, Trade + InstrumentRegistration, 08/09 · 2º pregão seguido)_
+- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora, CRI): negociada a CDI+ 16,13%, em R$ 5,3 mi. _(B3, Trade + InstrumentRegistration, 08/09 · 2º pregão seguido)_
 
 ## Índices
 
@@ -178,13 +177,13 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+9,5%) | 34,24 (-12,8%) | 0,79 |
 | ITUB4 (18/09) | 44,53 (+5,0%) | 39,28 (-7,4%) | 0,70 |
 | BBDC4 (18/09) | 18,51 (+1,6%) | 16,51 (-9,4%) | 0,72 |
-| PETR4 (18/09) | 59,42 (+23,6%) | 36,67 (-23,8%) | 1,05 |
+| PETR4 (18/09) | 50,92 (+5,9%) | 42,42 (-11,8%) | 1,05 |
 | VALE3 (18/09) | 81,39 (+3,0%) | 76,89 (-2,7%) | 0,79 |
 | MELI34 (18/09) | 85,00 (+4,4%) | 79,00 (-3,0%) | 0,88 |
-| UGPA3 (18/09) | 38,25 (+0,6%) | 27,50 (-27,7%) | 0,96 |
+| UGPA3 (18/09) | 38,25 (+0,6%) | 32,75 (-13,9%) | 0,96 |
 | AXIA3 (18/09) | 56,50 (+0,7%) | 56,00 (-0,2%) | 1,03 |
 | ITSA4 (18/09) | 15,92 (+12,2%) | 13,81 (-2,7%) | 0,73 |
-| BBAS3 (18/09) | 33,95 (+50,2%) | 17,45 (-22,8%) | 0,81 |
+| BBAS3 (18/09) | 23,45 (+3,8%) | 19,20 (-15,0%) | 0,81 |
 | SBSP3 (18/09) | 28,01 (+4,4%) | 24,76 (-7,7%) | 0,75 |
 | SMAL11 (18/09) | 120,00 (+7,4%) | 97,00 (-13,2%) | 0,64 |
 | DIRR3 (18/09) | 12,21 (+6,8%) | 11,21 (-1,9%) | 0,80 |
@@ -251,11 +250,11 @@ Posição em aberto: 3,8 bi de calls e 3,3 bi de puts (put/call 0,87); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,5 bi | IPCA+ 7,79% | +34 pb |
-| CRI | R$ 528,6 mi | IPCA+ 9,85% e CDI+ 3,88% | +237 pb |
-| CRA | R$ 434,2 mi | IPCA+ 11,52% e CDI+ 2,15% | +390 pb |
+| Debêntures incentivadas | R$ 1,5 bi | IPCA+ 7,69% | +9 pb |
+| CRI | R$ 528,6 mi | IPCA+ 9,47% e CDI+ 1,14% | +175 pb |
+| CRA | R$ 434,2 mi | IPCA+ 11,78% e CDI+ 1,62% | +424 pb |
 
 **Debêntures incentivadas mais negociadas**
 
@@ -270,11 +269,11 @@ Posição em aberto: 3,8 bi de calls e 3,3 bi de puts (put/call 0,87); no volume
 | AXSE11 (Axs Energia Unidade 06 S.A.) | sem taxa | - | R$ 43,3 mi |
 | EPRL12 (Epr Litoral Pioneiro S.A.) | IPCA+ 8,63% | +130 pb | R$ 40,3 mi |
 
-**Abriram taxa:** 21H1078699 +79 pb, para IPCA+ 11,77% (R$ 3,2 mi); 21K0001812 +49 pb, para IPCA+ 22,45% (R$ 4,9 mi); PLSB1A +46 pb, para IPCA+ 10,50% (R$ 3,3 mi); SBSPK8 +40 pb, para IPCA+ 7,27% (R$ 122,6 mi); PETR17 +28 pb, para IPCA+ 6,76% (R$ 5,6 mi).
-**Fecharam taxa:** CRA022007KG -175 pb, para CDI+ 1,75% (R$ 8,0 mi); 23K0022041 -97 pb, para 14,78% pré (R$ 16,6 mi); CRA021000RY -96 pb, para IPCA+ 12,18% (R$ 10,5 mi); 22K0934871 -81 pb, para CDI+ 16,13% (R$ 5,3 mi); CRA0220073P -80 pb, para IPCA+ 12,09% (R$ 92,8 mi).
+**Abriram taxa:** CRA021000RY +129 pb, para IPCA+ 12,18% (R$ 10,5 mi); 21H1078699 +70 pb, para IPCA+ 11,77% (R$ 3,2 mi); 21K0001812 +49 pb, para IPCA+ 22,45% (R$ 4,9 mi); PLSB1A +41 pb, para IPCA+ 10,50% (R$ 3,3 mi); SBSPK8 +39 pb, para IPCA+ 7,27% (R$ 122,6 mi).
+**Fecharam taxa:** CRA022007KG -136 pb, para CDI+ 1,75% (R$ 8,0 mi); CRA0220073P -84 pb, para IPCA+ 12,09% (R$ 92,8 mi); CMIN12 -79 pb, para IPCA+ 14,75% (R$ 5,2 mi); 22K0934871 -76 pb, para CDI+ 16,13% (R$ 5,3 mi); CRA021000RX -67 pb, para IPCA+ 12,08% (R$ 92,8 mi).
 **Prêmio alto:** 22K0934871 a CDI+ 16,13%, R$ 5,3 mi; 21K0001812 a IPCA+ 22,45% (+1.472 pb), R$ 4,9 mi; CMIN12 a IPCA+ 14,75% (+703 pb), R$ 5,2 mi; CRA020002H1 a IPCA+ 12,70% (+496 pb), R$ 5,8 mi; ELPLA7 a IPCA+ 12,33% (+460 pb), R$ 4,6 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

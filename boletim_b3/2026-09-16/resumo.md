@@ -1,24 +1,23 @@
 # Boletim da B3: pregão de 16/09/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-17 08:04 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:10:06Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:21:40Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (23)
+## Sinais do dia (22)
 
 **Novos hoje**
 
 - **Volume fora do padrão.** VALE3 girou 2,4x a média de 10 pregões (R$ 3.833 mi contra R$ 1.579 mi), com o preço em -2,14% no dia. _(B3, TradeInformationConsolidated, 16/09)_
 - **Parede de opções.** PETR4 fechou a 48,65 com o vencimento de 18/09 a 2 dias úteis e a maior posição em aberto de call em 49,92 (7.646.800 opções, +2,6% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 16/09)_
 - **Posição em opções.** AXIA3: a put AXIAW480 (strike 48,00, vencimento 19/11) ganhou 2.006.100 opções em aberto no dia, para 2.131.000. _(B3, DerivativesOpenPosition, 16/09)_
-- **Crédito: taxa abriu.** RISP12 (Aguas Do Rio 1 Spe S.A, debêntures incentivadas): taxa média abriu 206 pb contra 15/09, para IPCA+ 14,08%, em R$ 26,9 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
-- **Crédito: taxa abriu.** SUMI17 (Giga Mais Fibra Telecomunicacoes S.A., debêntures incentivadas): taxa média abriu 79 pb contra 09/09, para IPCA+ 14,59%, em R$ 31,3 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
-- **Crédito: taxa abriu.** AXIA18 (Axia Energia S.A., debêntures incentivadas): taxa média abriu 53 pb contra 15/09, para IPCA+ 7,46%, em R$ 22,1 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
-- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora S.A., cri): negociada a CDI+ 14,74%, em R$ 5,4 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
+- **Crédito: taxa abriu.** RISP12 (Aguas do Rio 1 Spe, debênture incentivada): taxa média abriu 204 pb contra 15/09, para IPCA+ 14,06%, em R$ 17,2 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
+- **Crédito: taxa abriu.** SUMI17 (Giga Mais Fibra Telecomunicacoes, debênture incentivada): taxa média abriu 69 pb contra 09/09, para IPCA+ 14,49%, em R$ 22,5 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
+- **Crédito: taxa abriu.** AXIA18 (Axia Energia, debênture incentivada): taxa média abriu 51 pb contra 15/09, para IPCA+ 7,45%, em R$ 22,0 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
+- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora, CRI): negociada a CDI+ 14,96%, em R$ 5,8 mi. _(B3, Trade + InstrumentRegistration, 16/09)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 325 mi líquidos em 14/09; no mês, até 14/09, saldo de +R$ 7.002 mi. _(B3, SharesInvesVolum, 14/09)_
-- **Juros.** DI1F32: taxa de ajuste fechou 10 pontos-base, para 14,20%. _(B3, TradeInformationConsolidated, 16/09)_
-- **Juros.** DI1F35: taxa de ajuste fechou 12 pontos-base, para 14,24%. _(B3, TradeInformationConsolidated, 16/09)_
+- **Juros.** A curva de juros fechou: DI1F32 −10 pb, para 14,20%, DI1F35 −12 pb, para 14,24%. _(B3, TradeInformationConsolidated, 16/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: BBAS3 (4º); maiores baixas do Ibovespa: PETR4 (3º), CURY3 (6º), VALE3 (7º); mais negociadas à vista: VALE3 (2º), PETR4 (3º), ITUB4 (4º); puts mais negociadas: BBASV113 (4º), BBASU108 (5º), VALEU771 (6º). _(B3, tabelas de maiores oscilacoes, 16/09)_
 
 **Já vinham de pregões anteriores**
@@ -169,16 +168,16 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+8,7%) | 34,24 (-13,4%) | 0,78 |
 | ITUB4 (18/09) | 44,53 (+4,5%) | 39,03 (-8,4%) | 0,73 |
 | BBDC4 (18/09) | 18,51 (+1,6%) | 16,51 (-9,3%) | 0,77 |
-| PETR4 (18/09) | 49,92 (+2,6%) | 36,67 (-24,6%) | 1,06 |
+| PETR4 (18/09) | 49,92 (+2,6%) | 42,42 (-12,8%) | 1,06 |
 | VALE3 (18/09) | 81,39 (+11,5%) | 70,39 (-3,6%) | 0,80 |
 | MELI34 (18/09) | 85,00 (+7,2%) | 79,00 (-0,4%) | 1,01 |
-| UGPA3 (18/09) | 42,50 (+9,2%) | 27,50 (-29,4%) | 0,94 |
+| UGPA3 (18/09) | 42,50 (+9,2%) | 32,75 (-15,9%) | 0,94 |
 | AXIA3 (18/09) | 56,00 (+1,4%) | 54,00 (-2,2%) | 1,01 |
 | ITSA4 (18/09) | 15,92 (+12,1%) | 13,81 (-2,8%) | 0,74 |
-| BBAS3 (18/09) | 33,95 (+49,5%) | 17,45 (-23,2%) | 0,90 |
+| BBAS3 (18/09) | 23,45 (+3,3%) | 19,20 (-15,5%) | 0,90 |
 | SBSP3 (18/09) | 28,01 (+3,4%) | 24,76 (-8,6%) | 0,72 |
 | SMAL11 (18/09) | 118,00 (+7,0%) | 97,00 (-12,1%) | 0,63 |
-| DIRR3 (18/09) | 12,21 (+21,1%) | 9,17 (-9,0%) | 0,86 |
+| DIRR3 (18/09) | 11,71 (+16,2%) | 9,17 (-9,0%) | 0,86 |
 | MRVE3 (18/09) | 6,00 (+5,1%) | 4,65 (-18,6%) | 1,07 |
 | CURY3 (18/09) | 32,37 (+6,2%) | 28,12 (-7,7%) | 1,10 |
 
@@ -245,30 +244,30 @@ Posição em aberto: 4,2 bi de calls e 3,7 bi de puts (put/call 0,89); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,0 bi | IPCA+ 9,34% | - |
-| CRI | R$ 355,5 mi | IPCA+ 10,11% e CDI+ 3,56% | - |
-| CRA | R$ 435,5 mi | IPCA+ 10,30% e CDI+ 3,42% | - |
+| Debêntures incentivadas | R$ 1,1 bi | IPCA+ 7,72% | - |
+| CRI | R$ 381,6 mi | IPCA+ 8,35% e CDI+ 0,90% | - |
+| CRA | R$ 383,5 mi | IPCA+ 11,16% e CDI+ 2,65% | - |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| CGOSA0 (Equatorial Goias Distribuido) | IPCA+ 8,04% | - | R$ 80,2 mi |
-| EGIEA6 (Engie Brasil Energia Sa) | IPCA+ 7,41% | - | R$ 50,2 mi |
-| SUMI17 (Giga Mais Fibra Telecomunica) | IPCA+ 14,59% | - | R$ 31,3 mi |
-| TEPA13 (Brasil Tecnologia E Particip) | IPCA+ 25,23% | - | R$ 30,5 mi |
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 13,80% pré | - | R$ 30,4 mi |
+| ALUP18 (Alupar Investimento S/A) | IPCA+ 7,22% | - | R$ 45,3 mi |
+| CHSF13 (Companhia Hidro Eletrica Do ) | IPCA+ 7,38% | - | R$ 43,9 mi |
+| CGOSA0 (Equatorial Goias Distribuido) | IPCA+ 8,03% | - | R$ 40,1 mi |
+| EGIEA6 (Engie Brasil Energia Sa) | IPCA+ 7,42% | - | R$ 38,9 mi |
+| CESE32 (Eneva S.A.) | IPCA+ 7,57% | - | R$ 31,9 mi |
 | RLMS13 (Concessionaria Das Rodovias ) | IPCA+ 8,47% | - | R$ 29,7 mi |
-| CHSF13 (Companhia Hidro Eletrica Do ) | IPCA+ 7,38% | - | R$ 27,1 mi |
-| RISP12 (Aguas Do Rio 1 Spe S.A) | IPCA+ 14,08% | - | R$ 26,9 mi |
+| TEPA13 (Brasil Tecnologia E Particip) | IPCA+ 25,55% | - | R$ 28,9 mi |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 13,75% pré | - | R$ 26,9 mi |
 
-**Abriram taxa:** RISP12 +206 pb, para IPCA+ 14,08% (R$ 26,9 mi); 22K0934880 +157 pb, para IPCA+ 21,07% (R$ 3,1 mi); SUMI17 +79 pb, para IPCA+ 14,59% (R$ 31,3 mi); CRA02300796 +54 pb, para IPCA+ 12,19% (R$ 3,8 mi); CRA021001PQ +53 pb, para IPCA+ 12,85% (R$ 3,2 mi).
-**Fecharam taxa:** 22K0934871 -254 pb, para CDI+ 14,74% (R$ 5,4 mi); TEPA12 -112 pb, para IPCA+ 28,34% (R$ 10,8 mi); CRA024001Q9 -98 pb, para 17,45% pré (R$ 3,6 mi); CRA022001E2 -88 pb, para IPCA+ 11,74% (R$ 3,1 mi); CRA024004SA -62 pb, para IPCA+ 8,77% (R$ 5,3 mi).
-**Prêmio alto:** 22K0934871 a CDI+ 14,74%, R$ 5,4 mi.
+**Abriram taxa:** RISP12 +204 pb, para IPCA+ 14,06% (R$ 17,2 mi); 22K0934880 +160 pb, para IPCA+ 21,12% (R$ 3,1 mi); SUMI17 +69 pb, para IPCA+ 14,49% (R$ 22,5 mi); AXIA18 +51 pb, para IPCA+ 7,45% (R$ 22,0 mi); CRA02300796 +46 pb, para IPCA+ 12,02% (R$ 3,2 mi).
+**Fecharam taxa:** TEPA12 -249 pb, para IPCA+ 26,97% (R$ 13,0 mi); 22K0934871 -228 pb, para CDI+ 14,96% (R$ 5,8 mi); 22G1414303 -141 pb, para IPCA+ 11,05% (R$ 3,3 mi); CRA024001Q9 -116 pb, para 17,38% pré (R$ 3,2 mi); SUMI19 -82 pb, para IPCA+ 13,30% (R$ 3,4 mi).
+**Prêmio alto:** 22K0934871 a CDI+ 14,96%, R$ 5,8 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

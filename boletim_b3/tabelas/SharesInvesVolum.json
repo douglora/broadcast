@@ -1,0 +1,19 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "SharesInvesVolum",
+ "titulo": "Participação dos investidores",
+ "sla": "20:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "TckrSymb", "titulo": "Tipos de investidores"}, {"nome": "Purchase", "titulo": "Compras (R$) mil"}, {"nome": "Sales", "titulo": "Participação (%)"}, {"nome": "Partmil", "titulo": "Vendas (R$) mil"}, {"nome": "PartPer", "titulo": "Participação (%)"}],
+ "texto": ["Contribuição de diferentes perfis de investidores no volume total de negociações realizadas na B3. Dados acumulados do início do mês até o dia 28/09/2026."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-09-30T06:10:20.607",
+ "truncada": false,
+ "linhas": [
+  ["Institucionais", 151962677, 11.97, 159633925, 12.57],
+  ["Instituições Financeiras", 17481893, 1.38, 18791382, 1.48],
+  ["Investidor Estrangeiro", 395618061, 31.16, 386048230, 30.41],
+  ["Investidores Individuais", 66442844, 5.23, 66891057, 5.27],
+  ["Outros", 3304724, 0.26, 3445606, 0.27]
+ ]
+}

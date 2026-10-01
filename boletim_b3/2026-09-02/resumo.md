@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 02/09/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-04 00:12 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T02:55:46Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:18:11Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (33)
+## Sinais do dia (29)
 
 **Novos hoje**
 
@@ -13,16 +13,13 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** BBDC4: saldo alugado de 256,0 mi de ações, 5,0% da quantidade teórica do índice e 3,8 pregões de giro; taxa média do tomador de 0,03% ao ano. _(B3, BTBLendingOpenPosition, 02/09)_
 - **Aluguel mudou.** MRVE3: saldo alugado caiu 11,2% em um pregão, para 76,9 mi de ações, com o preço em +2,52% no dia. _(B3, BTBLendingOpenPosition, 02/09)_
 - **Aluguel mudou.** VALE3: saldo alugado caiu 15,2% em um pregão, para 130,5 mi de ações, com o preço em +3,19% no dia. _(B3, BTBLendingOpenPosition, 02/09)_
-- **Crédito: taxa abriu.** EGIEA4 (Engie Brasil Energia Sa, debêntures incentivadas): taxa média abriu 52 pb contra 01/09, para Pré 13,88%, em R$ 65,6 mi. _(B3, Trade + InstrumentRegistration, 02/09)_
-- **Crédito: taxa abriu.** ELET42 (Axia Energia S.A., debêntures incentivadas): taxa média abriu 38 pb contra 01/09, para IPCA+ 7,46%, em R$ 23,6 mi. _(B3, Trade + InstrumentRegistration, 02/09)_
-- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual De Geracao De Energ, debêntures incentivadas): negociada a IPCA+ 14,18%, 670 pb acima do juro real de mercado de prazo equivalente, em R$ 17,3 mi. _(B3, Trade + InstrumentRegistration, 02/09)_
-- **Crédito: prêmio alto.** TUPW21 (Tupi Energias Renovaveis S.A., debêntures incentivadas): negociada a IPCA+ 12,63%, 500 pb acima do juro real de mercado de prazo equivalente, em R$ 6,9 mi. _(B3, Trade + InstrumentRegistration, 02/09)_
+- **Crédito: taxa abriu.** EGIEA4 (Engie Brasil Energia Sa, debênture incentivada): taxa média abriu 44 pb contra 01/09, para Pré 13,88%, em R$ 57,9 mi. _(B3, Trade + InstrumentRegistration (preliminar), 02/09)_
+- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): negociada a IPCA+ 14,18%, 670 pb acima do juro real de mercado de prazo equivalente, em R$ 11,5 mi. _(B3, Trade + InstrumentRegistration (preliminar), 02/09)_
+- **Crédito: prêmio alto.** NTEN11 (Norte Energia, debênture incentivada): negociada a IPCA+ 13,27%, 530 pb acima do juro real de mercado de prazo equivalente, em R$ 5,9 mi. _(B3, Trade + InstrumentRegistration (preliminar), 02/09)_
+- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora, CRA): negociada a IPCA+ 12,96%, 522 pb acima do juro real de mercado de prazo equivalente, em R$ 26,2 mi. _(B3, Trade + InstrumentRegistration (preliminar), 02/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 458 mi líquidos em 31/08; no mês, até 31/08, saldo de -R$ 18.117 mi. _(B3, SharesInvesVolum, 31/08)_
 - **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto subiram 19,4% em um pregão, para 830.004. _(B3, AnalyticalFramework2, 02/09)_
-- **Juros.** DI1F29: taxa de ajuste fechou 14 pontos-base, para 13,97%. _(B3, TradeInformationConsolidated, 02/09)_
-- **Juros.** DI1F30: taxa de ajuste fechou 16 pontos-base, para 14,15%. _(B3, TradeInformationConsolidated, 02/09)_
-- **Juros.** DI1F32: taxa de ajuste fechou 17 pontos-base, para 14,31%. _(B3, TradeInformationConsolidated, 02/09)_
-- **Juros.** DI1F35: taxa de ajuste fechou 14 pontos-base, para 14,37%. _(B3, TradeInformationConsolidated, 02/09)_
+- **Juros.** A curva de juros fechou: DI1F29 −14 pb, para 13,97%, DI1F30 −16 pb, para 14,15%, DI1F32 −17 pb, para 14,31%, DI1F35 −14 pb, para 14,37%. _(B3, TradeInformationConsolidated, 02/09)_
 - **Provento.** VALE3: crédito de juros sobre capital próprio de R$ 1,5687 por ação em 02/09. _(B3, ProventionCreditVariable, 02/09)_
 - **Provento.** VALE3: crédito de dividendo de R$ 0,4620 por ação em 02/09. _(B3, ProventionCreditVariable, 02/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: BBAS3 (1º); mais negociadas à vista: VALE3 (1º), PETR4 (2º), ITUB4 (3º), BBDC4 (4º), BBAS3 (5º); puts mais negociadas: BBDCV20 (5º). _(B3, tabelas de maiores oscilacoes, 02/09)_
@@ -39,7 +36,6 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** PETR4: saldo alugado de 290,8 mi de ações, 6,6% da quantidade teórica do índice e 5,6 pregões de giro; taxa média do tomador de 0,08% ao ano. _(B3, BTBLendingOpenPosition, 02/09 · 2º pregão seguido)_
 - **Aluguel caro.** SMAL11: taxa média do tomador no aluguel em 5,61% ao ano: papel disputado por vendidos. _(B3, BTBLoanBalance, 02/09 · 2º pregão seguido)_
 - **Aluguel alto.** UGPA3: saldo alugado de 56,9 mi de ações, 5,3% da quantidade teórica do índice e 3,6 pregões de giro; taxa média do tomador de 0,18% ao ano. _(B3, BTBLendingOpenPosition, 02/09 · 2º pregão seguido)_
-- **Crédito: prêmio alto.** CRA021000RX (Riza Securitizadora S.A., cra): negociada a IPCA+ 12,95%, 521 pb acima do juro real de mercado de prazo equivalente, em R$ 25,7 mi. _(B3, Trade + InstrumentRegistration, 02/09 · 2º pregão seguido)_
 - **Provento.** BBDC4: juros sobre capital próprio com prazo de depósito de títulos em 03/09. _(B3, DeadlineDepositSecurities, 02/09 · 2º pregão seguido)_
 - **Provento.** BBAS3: rendimento com prazo de depósito de títulos em 03/09. _(B3, DeadlineDepositSecurities, 02/09 · 2º pregão seguido)_
 - **Provento.** BBAS3: juros sobre capital próprio com prazo de depósito de títulos em 03/09. _(B3, DeadlineDepositSecurities, 02/09 · 2º pregão seguido)_
@@ -181,13 +177,13 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+12,0%) | 34,24 (-10,8%) | 0,79 |
 | ITUB4 (18/09) | 44,53 (+7,5%) | 39,28 (-5,1%) | 0,82 |
 | BBDC4 (18/09) | 18,51 (+4,3%) | 16,51 (-7,0%) | 0,67 |
-| PETR4 (18/09) | 59,42 (+23,3%) | 36,67 (-23,9%) | 1,03 |
+| PETR4 (18/09) | 50,42 (+4,6%) | 41,67 (-13,6%) | 1,03 |
 | VALE3 (18/09) | 81,39 (+0,7%) | 76,89 (-4,8%) | 0,83 |
 | MELI34 (18/09) | 85,00 (+0,1%) | 83,00 (-2,2%) | 0,91 |
-| UGPA3 (18/09) | 37,00 (+0,7%) | 27,50 (-25,1%) | 0,97 |
+| UGPA3 (18/09) | 37,00 (+0,7%) | 30,00 (-18,3%) | 0,97 |
 | AXIA3 (18/09) | 56,00 (+0,8%) | 54,00 (-2,8%) | 0,93 |
 | ITSA4 (18/09) | 13,81 (+1,2%) | 13,56 (-0,7%) | 0,70 |
-| BBAS3 (18/09) | 33,95 (+52,5%) | 17,45 (-21,6%) | 0,80 |
+| BBAS3 (18/09) | 25,20 (+13,2%) | 19,20 (-13,8%) | 0,80 |
 | SBSP3 (18/09) | 28,01 (+7,1%) | 24,76 (-5,3%) | 0,91 |
 | SMAL11 (18/09) | 120,00 (+8,2%) | 97,00 (-12,5%) | 0,73 |
 | DIRR3 (18/09) | 12,21 (+6,5%) | 11,21 (-2,2%) | 0,84 |
@@ -254,30 +250,32 @@ Posição em aberto: 3,5 bi de calls e 3,1 bi de puts (put/call 0,88); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas deste pregão ainda podem mudar.
+
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 2,8 bi | IPCA+ 7,95% | +26 pb |
-| CRI | R$ 742,5 mi | IPCA+ 10,00% e CDI+ 1,68% | +223 pb |
-| CRA | R$ 370,8 mi | IPCA+ 11,04% e CDI+ 2,75% | +315 pb |
+| Debêntures incentivadas | R$ 3,2 bi | IPCA+ 7,88% | +11 pb |
+| CRI | R$ 740,5 mi | IPCA+ 9,11% e CDI+ 1,01% | +128 pb |
+| CRA | R$ 378,6 mi | IPCA+ 11,05% e CDI+ 1,77% | +286 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| AESLD2 (Rge Sul Distribuidora De Ene) | IPCA+ 7,66% | -1 pb | R$ 218,6 mi |
-| AESLC2 (Rge Sul Distribuidora De Ene) | IPCA+ 7,66% | -24 pb | R$ 193,3 mi |
-| CPJG18 (Companhia Jaguari De Energia) | IPCA+ 7,65% | -2 pb | R$ 149,9 mi |
-| CSRNA1 (Companhia Energetica Do Rio ) | IPCA+ 7,60% | -18 pb | R$ 78,0 mi |
-| COMT11 (Concessionaria De Rodovia Su) | IPCA+ 7,68% | -32 pb | R$ 69,5 mi |
-| EGIEA4 (Engie Brasil Energia Sa) | 13,88% pré | - | R$ 65,6 mi |
-| MGPRA0 (Concessao Metroviaria Do Rio) | sem taxa | - | R$ 63,8 mi |
-| CPLDC0 (Copel  Distribuicao S/A) | IPCA+ 7,63% | +4 pb | R$ 59,3 mi |
+| AESLD2 (Rge Sul Distribuidora De Ene) | IPCA+ 7,66% | -1 pb | R$ 404,9 mi |
+| AESLC2 (Rge Sul Distribuidora De Ene) | IPCA+ 7,66% | -24 pb | R$ 383,4 mi |
+| CPJG18 (Companhia Jaguari De Energia) | IPCA+ 7,65% | -2 pb | R$ 109,9 mi |
+| CSRNA1 (Companhia Energetica Do Rio ) | IPCA+ 7,60% | -18 pb | R$ 77,6 mi |
+| CPLDC0 (Copel  Distribuicao S/A) | IPCA+ 7,63% | +4 pb | R$ 72,5 mi |
+| COMT11 (Concessionaria De Rodovia Su) | IPCA+ 7,68% | -32 pb | R$ 69,8 mi |
+| EGIEA4 (Engie Brasil Energia Sa) | 13,88% pré | - | R$ 57,9 mi |
+| AURP12 (Auren Operacoes S.A.) | IPCA+ 8,06% | +32 pb | R$ 55,9 mi |
 
-**Abriram taxa:** EGIEA4 +52 pb, para 13,88% pré (R$ 65,6 mi); ELET42 +38 pb, para IPCA+ 7,46% (R$ 23,6 mi); SBSPJ8 +32 pb, para IPCA+ 7,34% (R$ 4,1 mi); CRA021000RX +29 pb, para IPCA+ 12,95% (R$ 25,7 mi); AXIA18 +29 pb, para IPCA+ 7,53% (R$ 3,4 mi).
-**Fecharam taxa:** RISP22 -246 pb, para IPCA+ 11,42% (R$ 10,4 mi); CRA0190066O -182 pb, para IPCA+ 12,59% (R$ 3,2 mi); NTEN11 -100 pb, para IPCA+ 13,13% (R$ 4,7 mi); CRA024002S2 -95 pb, para 18,51% pré (R$ 3,3 mi); CRA0240086H -95 pb, para CDI+ 2,87% (R$ 3,8 mi).
-**Prêmio alto:** CGEE23 a IPCA+ 14,18% (+670 pb), R$ 17,3 mi; CRA021000RX a IPCA+ 12,95% (+521 pb), R$ 25,7 mi; NTEN11 a IPCA+ 13,13% (+516 pb), R$ 4,7 mi; TUPW21 a IPCA+ 12,63% (+500 pb), R$ 6,9 mi; CRA0190066O a IPCA+ 12,59% (+492 pb), R$ 3,2 mi.
+**Abriram taxa:** EGIEA4 +44 pb, para 13,88% pré (R$ 57,9 mi); ELET42 +29 pb, para IPCA+ 7,46% (R$ 23,4 mi); AXIA18 +20 pb, para IPCA+ 7,56% (R$ 4,8 mi); 22G0282290 +18 pb, para CDI+ 1,03% (R$ 3,4 mi); CRA021000RX +18 pb, para IPCA+ 12,96% (R$ 26,2 mi).
+**Fecharam taxa:** CRA0190066O -167 pb, para IPCA+ 12,60% (R$ 3,3 mi); NTEN11 -89 pb, para IPCA+ 13,27% (R$ 5,9 mi); CRA021000RY -88 pb, para IPCA+ 10,89% (R$ 4,8 mi); 22I0970804 -69 pb, para IPCA+ 9,26% (R$ 3,6 mi); CRA0240086H -66 pb, para CDI+ 2,90% (R$ 4,4 mi).
+**Prêmio alto:** CGEE23 a IPCA+ 14,18% (+670 pb), R$ 11,5 mi; NTEN11 a IPCA+ 13,27% (+530 pb), R$ 5,9 mi; CRA021000RX a IPCA+ 12,96% (+522 pb), R$ 26,2 mi; TUPW21 a IPCA+ 12,63% (+500 pb), R$ 6,9 mi; CRA0190066O a IPCA+ 12,60% (+492 pb), R$ 3,3 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

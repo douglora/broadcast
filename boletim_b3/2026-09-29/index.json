@@ -1,242 +1,418 @@
 {
  "pregao": "2026-09-29",
- "coletado_em": "2026-10-01T01:16:59Z",
- "cadernos": {
-  "BDI_00": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_00_20260929.pdf",
-   "bytes": 51157520,
-   "paginas": 1855,
-   "last_modified": null,
-   "titulo": "Boletim Diário do Mercado REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 186 Fechamento do IBOVESPA: 183.827,00 +0,45% Derivativos Total com minis 50.289.382 Total sem minis 30.156.125 Ações Volume negociado 26.885.913.168 Quantidade"
+ "coletado_em": "2026-10-01T03:25:39Z",
+ "tabelas": {
+  "SharesInvesVolum": {
+   "titulo": "Participação dos investidores",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T06:20:22.63",
+   "sla": "20:00:00",
+   "linhas": 5,
+   "truncada": false
   },
-  "BDI_02": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_02_20260929.pdf",
-   "bytes": 27611081,
-   "paginas": 214,
-   "last_modified": null,
-   "titulo": "Boletim Diário do Mercado REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 186 Indicadores e informativos 1 Composição das carteiras de índices Distribuição e quantidade das ações que compõem os principais índices do mercado. Para Sete"
+  "SharesInvesVolumMonthly": {
+   "titulo": "Participação dos investidores mensal",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T00:00:00",
+   "sla": null,
+   "linhas": 5,
+   "truncada": false
   },
-  "BDI_02-0": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_02-0_20260929.pdf",
-   "bytes": 72427,
-   "paginas": 1,
-   "last_modified": null,
-   "titulo": "Seleção de informações que ajuda a avaliar o desempenho do mercado de renda variável, com índices, participações e estatísticas. Boletim Diário do Mercado REFERENTE A TERÇA-FEIRA - 29 DE SETEMBRO DE 2026 - Nº 186 Renda variável 1"
+  "EconomicIndicators": {
+   "titulo": "Indicadores econômicos",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-30T10:53:02.633",
+   "sla": "8:00:00",
+   "linhas": 430,
+   "truncada": false
   },
-  "BDI_02-1": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_02-1_20260929.pdf",
-   "bytes": 12126212,
-   "paginas": 761,
-   "last_modified": null,
-   "titulo": "Apresenta informações concisas e relevantes sobre ações específicas ou o conjunto que ajuda a entender o mercado de ações. Ações - resumo das operações Informações sobre as operações realizadas pelas empresas negociadas na bolsa, em período"
+  "HistoricalExchange": {
+   "titulo": "Histórico de taxas de câmbio (Resolução BCB nº 120)",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T16:11:15",
+   "sla": "21:00:00",
+   "linhas": 3,
+   "truncada": false
   },
-  "BDI_02-3": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_02-3_20260929.pdf",
-   "bytes": 90027,
-   "paginas": 3,
-   "last_modified": null,
-   "titulo": "Visão abrangente de significativas movimentações, com foco nas oscilações de derivativos e ações do IBOVESPA, que permite melhor compreensão do comportamento do mercado. Ações do IBOVESPA - maiores altas Lista as ações do IBOVESPA com os ma"
+  "INDEXES": {
+   "titulo": "Evolução dos índices",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T00:11:17.84",
+   "sla": "20:00:00",
+   "linhas": 99,
+   "truncada": false
   },
-  "BDI_03-1": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_03-1_20260929.pdf",
-   "bytes": 98404,
-   "paginas": 2,
-   "last_modified": null,
-   "titulo": "Visão consolidada e resumida das posições e transações de derivativos de uma entidade ou mercado específicos. Código para meses de vencimento Janeiro Fevereiro Março Abril Maio Junho F G H J K M Julho Agosto Setembro Outubro Novembro Dezemb"
+  "DailyAverageStocks": {
+   "titulo": "Ações",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T20:50:22.54",
+   "sla": "20:00:00",
+   "linhas": 9,
+   "truncada": false
   },
-  "BDI_03-3": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_03-3_20260929.pdf",
-   "bytes": 217527,
-   "paginas": 14,
-   "last_modified": null,
-   "titulo": "São contratos financeiros negociados diretamente entre as partes envolvidas, geralmente através de instituições financeiras, e podem incluir uma variedade de instrumentos. Estoque com CCP Transações liquidadas por meio de uma Câmara de Comp"
+  "StocksOperationSummary": {
+   "titulo": "Ações - resumo das operações",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T20:50:23.04",
+   "sla": "20:00:00",
+   "linhas": 57,
+   "truncada": false
   },
-  "BDI_03-4": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_03-4_20260929.pdf",
-   "bytes": 8587679,
-   "paginas": 572,
-   "last_modified": null,
-   "titulo": "Visão abrangente sobre contratos financeiros que envolvem ativos de renda variável, como ações e índices. Negócios consolidados do pregão Resume as transações realizadas em derivativos durante um pregão, incluindo volumes e valores. Os deta"
+  "AverageChart": {
+   "titulo": "Médias diárias – volume em um ano (R$ em milhões)",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-29T20:51:36.207",
+   "sla": "20:00:00",
+   "linhas": 13,
+   "truncada": false
   },
-  "BDI_04-1": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_04-1_20260929.pdf",
-   "bytes": 95044,
-   "paginas": 3,
-   "last_modified": null,
-   "titulo": "Clearing é o processo de liquidação das transações financeiras, onde as operações são confirmadas, os saldos são ajustados e os pagamentos são processados; e de Depositária, uma instituição responsável pela guarda, administração e registro "
+  "IOPV": {
+   "titulo": "Comportamento dos valores de referência das cotas dos ETFs (IOPV)",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T17:50:14.763",
+   "sla": "20:00:00",
+   "linhas": 68,
+   "truncada": false
   },
-  "BDI_04-2": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_04-2_20260929.pdf",
-   "bytes": 1083262,
-   "paginas": 98,
-   "last_modified": null,
-   "titulo": "Informa sobre disponibilidade e condições de empréstimos de ativos financeiros, ajudando investidores que buscam rendimentos adicionais ao emprestar suas ações. Empréstimos registrados Informações detalhadas sobre empréstimos de ativos que "
+  "ForwardMarket": {
+   "titulo": "Mercado a termo",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T20:50:03.963",
+   "sla": "20:00:00",
+   "linhas": 119,
+   "truncada": false
   },
-  "BDI_04-3": {
-   "url": "https://arquivos.b3.com.br/bdi/download/bdi/2026-09-29/BDI_04-3_20260929.pdf",
-   "bytes": 77747,
-   "paginas": 1,
-   "last_modified": null,
-   "titulo": "A seção traz informações de volume financeiro e quantidade de contratos referentes aos Certificados de Operações Estruturadas (COE), com base nas emissões. Estoque COEs (Certificados de Operações Estruturadas) são instrumentos emitidos por "
+  "NegotiStrategi": {
+   "titulo": "Negociação de estratégias",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T18:26:18.897",
+   "sla": "20:00:00",
+   "linhas": 47,
+   "truncada": false
+  },
+  "IbovespaStockBiggestHighs": {
+   "titulo": "Ações do IBOVESPA - maiores altas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T23:30:30.033",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "IbovespaStockBiggestLow": {
+   "titulo": "Ações do IBOVESPA - maiores baixas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T23:30:30.04",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "InCashMarketBiggestHighs": {
+   "titulo": "Mercado à vista - maiores altas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T18:50:14.677",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "InCashMarketBiggestLow": {
+   "titulo": "Mercado à vista - maiores baixas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T18:50:16.5",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "InCash": {
+   "titulo": "Ações mais negociadas - à vista",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-29T20:20:32.003",
+   "sla": "8:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "Forward": {
+   "titulo": "Ações mais negociadas - a termo",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T18:51:55.783",
+   "sla": "8:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "OptionsPurshase": {
+   "titulo": "Ações mais negociadas - opções de compra",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-30T00:42:19.567",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "OptionsSelling": {
+   "titulo": "Ações mais negociadas - opções de venda",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-30T00:42:26.307",
+   "sla": "8:00:00",
+   "linhas": 10,
+   "truncada": false
+  },
+  "DailyAverageDerivatives2": {
+   "titulo": "Derivativos",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-29T22:40:22.36",
+   "sla": "6:00:00",
+   "linhas": 9,
+   "truncada": false
+  },
+  "DerivativesOperation2": {
+   "titulo": "Derivativos - resumo das operações",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-29T22:41:05.827",
+   "sla": "8:00:00",
+   "linhas": 108,
+   "truncada": false
+  },
+  "DerivativesMtM": {
+   "titulo": "Derivativos - mark to market",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-09-29T20:00:38.01",
+   "sla": "20:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "AnalyticalFramework2": {
+   "titulo": "Quadro analítico das posições em aberto",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-09-30T08:05:38.6",
+   "sla": "8:00:00",
+   "linhas": 72,
+   "truncada": false
+  },
+  "SwapFlex": {
+   "titulo": "Swap",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T22:30:44.78",
+   "sla": "3:00:00",
+   "linhas": 8,
+   "truncada": false
+  },
+  "EletronicTerm": {
+   "titulo": "Termo eletrônico",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T22:30:44.717",
+   "sla": "3:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "OTCRegistrationWCCP": {
+   "titulo": "Registro sem CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:43:06.903",
+   "sla": "8:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "OTCRegistrationCCP": {
+   "titulo": "Registro com CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:43:06.88",
+   "sla": "8:00:00",
+   "linhas": 3,
+   "truncada": false
+  },
+  "OTCInventoryWCCP": {
+   "titulo": "Estoque sem CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:43:07.173",
+   "sla": "8:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
+  "OTCInventoryCCP": {
+   "titulo": "Estoque com CCP",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:43:07.183",
+   "sla": "8:00:00",
+   "linhas": 3,
+   "truncada": false
+  },
+  "ProventionCreditVariable": {
+   "titulo": "Crédito de proventos",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T21:00:24.89",
+   "sla": "00:00:00",
+   "linhas": 11,
+   "truncada": false
+  },
+  "Custody": {
+   "titulo": "Ações custodiadas - programa de ADR",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T01:52:14.917",
+   "sla": "7:00:00",
+   "linhas": 64,
+   "truncada": false
+  },
+  "FugibleCustody": {
+   "titulo": "Custódia fungível",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-29T20:40:56.673",
+   "sla": "00:00:00",
+   "linhas": 9,
+   "truncada": false
+  },
+  "DeadlineDepositSecurities": {
+   "titulo": "Prazo para depósito de títulos",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T00:10:25.887",
+   "sla": "00:00:00",
+   "linhas": 50,
+   "truncada": false
+  },
+  "COERegistration": {
+   "titulo": "Registro",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:43:07.433",
+   "sla": "8:00:00",
+   "linhas": 1,
+   "truncada": false
+  },
+  "COEInventory": {
+   "titulo": "Estoque",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:43:07.433",
+   "sla": "8:00:00",
+   "linhas": 1,
+   "truncada": false
+  },
+  "DebenturesBusiness": {
+   "titulo": "Negócios de VM de renda fixa realizados no Puma",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T20:50:29.567",
+   "sla": "20:00:00",
+   "linhas": 68,
+   "truncada": false
+  },
+  "SaleOff": {
+   "titulo": "Liquidação",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:52:38.207",
+   "sla": "8:00:00",
+   "linhas": 46,
+   "truncada": false
+  },
+  "Stock": {
+   "titulo": "Estoque",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T04:52:42.413",
+   "sla": "8:00:00",
+   "linhas": 43,
+   "truncada": false
+  },
+  "Register": {
+   "titulo": "Registro",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T04:33:04.62",
+   "sla": "8:00:00",
+   "linhas": 19,
+   "truncada": false
+  },
+  "RepurchaseDealings": {
+   "titulo": "Negociações compromissadas",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:52:57.51",
+   "sla": "8:00:00",
+   "linhas": 9,
+   "truncada": false
+  },
+  "DIover": {
+   "titulo": "DI over",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T00:03:17.013",
+   "sla": "8:00:00",
+   "linhas": 1,
+   "truncada": false
+  },
+  "BTBLendingOpenPosition": {
+   "titulo": "Posições em aberto",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T04:43:12.06",
+   "sla": "8:00:00",
+   "linhas": 2946,
+   "truncada": false
+  },
+  "BTBLoanBalance": {
+   "titulo": "Empréstimos registrados",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-30T03:33:14.873",
+   "sla": "8:00:00",
+   "linhas": 4704,
+   "truncada": false
+  },
+  "PreviaQuadrimestral": {
+   "titulo": "Composição das carteiras de índices",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-29T23:31:32.75",
+   "sla": "21:00:00",
+   "linhas": 2253,
+   "truncada": false
+  },
+  "Previa": {
+   "titulo": "Prévia das carteiras teóricas de índices",
+   "situacao": "publicado",
+   "atualizado_em": "2026-09-29T00:11:17.573",
+   "sla": "21:00:00",
+   "linhas": 0,
+   "truncada": false
+  },
+  "Trade": {
+   "titulo": "Negócio a negócio",
+   "situacao": "republicado",
+   "atualizado_em": "2026-09-30T11:57:22.317",
+   "sla": "18:00:00",
+   "linhas": 39700,
+   "truncada": false
+  },
+  "BTBTrade": {
+   "titulo": "Negócios",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-09-29T21:00:38.013",
+   "sla": "21:00:00",
+   "linhas": 38408,
+   "truncada": false
   }
- },
- "sondas_sem_arquivo": {
-  "HTTP 500": 132
  },
  "arquivos": {
   "TradeInformationConsolidated": {
+   "arquivo": "TradeInformationConsolidatedFile_20260929_1",
    "bytes": 5083707,
-   "tipo": "csv",
-   "linhas": 77400,
-   "token_resposta": {
-    "redirectUrl": "~/download?token=WjZBY1lXZm5tLzN0amR5eGhkWFk0dz09VU1tYm52emp2ajhGRUxVMHlvVyt3ZmtOcG9WdGRnaDIzaWhSS3BmNkFCeEFqV3R6eFdOSzMzQUpibVZtVVEyZkFxUzVCTDB0c3RBNktqS0VxMkdpd3VscWRsMk9yNEVYTTNsbHljQW9rUWFTc0NtQnVMODZiOXEyTmQyci9JUWZpRFI4R1YzeUhVTnZxN0plTEhidWFmek14aUFFZmhuMkZpZUZSdlhHa29oL0NCZDcxd2VISW5mZlpoQ0huL2pYRDI0RFFWdlZwK3RxcEpGeEVSaE0rVEZMSjE1OE1ORHdVQUFJSldsaDkxN05zVkxVcVQ3bDQ1aVk3MlVTMmhFMEY1OXlRaGdBSTJISHpqcUZlUENFU3c9PQ",
-    "file": {
-     "name": "TradeInformationConsolidatedFile_20260929_1",
-     "extension": ".csv"
-    }
-   },
-   "content_type": "application/octet-stream",
-   "disposition": "attachment; filename=TradeInformationConsolidatedFile_20260929_1.csv; size=5083707",
-   "cabecalho": [
-    "Status do Arquivo: Final",
-    "RptDt;TckrSymb;ISIN;SgmtNm;MinPric;MaxPric;TradAvrgPric;LastPric;OscnPctg;AdjstdQt;AdjstdQtTax;RefPric;TradQty;FinInstrmQty;NtlFinVol",
-    "2026-09-29;03BK11;BR03BKCTF019;FORWARD;51,75;51,77;51,75;51,77;0,31;;;;4;891;46109,27"
-   ],
-   "amostra": [
-    "2026-09-29;10BK11;BR10BKCTF006;FORWARD;53,04;53,2;53,05;53,2;1,17;;;;2;220;11672",
-    "2026-09-29;3PRE11;BR3PRECTF003;FORWARD;53,39;53,39;53,39;53,39;0,24;;;;1;95;5072,05",
-    "2026-09-29;5PRE11;BR5PRECTF008;FORWARD;52,25;52,43;52,32;52,41;0,36;;;;223;12329;640639,36",
-    "2026-09-29;A1AP34;BRA1APBDR001;CASH;12,93;13,12;13,02;12,93;-0,23;;;;9;205;2669,99",
-    "2026-09-29;A1EG34;BRA1EGBDR002;CASH;45,7;45,85;45,7;45,7;-1,29;;;;3;81;3701,85"
-   ],
-   "gravado": "so amostra (grande demais para o branch)"
+   "linhas": 77398,
+   "estado": "Final"
   },
   "TradeInformationConsolidatedAfterHours": {
+   "arquivo": "TradeInformationConsolidatedAfterHoursFile_20260929_1",
    "bytes": 49696,
-   "tipo": "csv",
-   "linhas": 789,
-   "token_resposta": {
-    "redirectUrl": "~/download?token=eU1yZ0Q2SzU1NzdielRqUmdWSlJ0Zz09TTFYcERseWhEcDFDa1EzaWZ2M0d4R1k2bU4yOHBBS2V3cnJiUFBqU3NDUXBUTkRCV0JacnhTNzBTWmp5L2tzcW14M0NybjlCUThocThhSGdPSDVkS200NGtVSHBZWE1DNEVBU0FJazJPdVBsTGJhcnhtK2hZWm0vVVJmV0dZVEtmNVhPWXRUcXVSaVl5UElnVnpCQVFtcjRqU0Y5bVZ5Rk5hVGVPWTRTNlZiWVpTT2l3M2R5cXJZallqaEJXVTNZdGI5RUV5UVFadDJRVCtrVjVRTEUvSXhIQlBHS2l1eitJS1RFV3M0Ymtyd2h2NE5CTm14YkxCMGhnYi9Sd3pybmptSlh3eGI5MWJCeTFrWFlGdStkUlE9PQ",
-    "file": {
-     "name": "TradeInformationConsolidatedAfterHoursFile_20260929_1",
-     "extension": ".csv"
-    }
-   },
-   "content_type": "application/octet-stream",
-   "disposition": "attachment; filename=TradeInformationConsolidatedAfterHoursFile_20260929_1.csv; size=49696",
-   "cabecalho": [
-    "Status do Arquivo: Final",
-    "RptDt;TckrSymb;ISIN;SgmtNm;MinPric;MaxPric;TradAvrgPric;LastPric;OscnPctg;AdjstdQt;AdjstdQtTax;RefPric;TradQty;FinInstrmQty;NtlFinVol",
-    "2026-09-29;A1LB34;BRA1LBBDR008;CASH;;;23,20;;;;;;2;15;348"
-   ],
-   "amostra": [
-    "2026-09-29;A1MD34;BRA1MDBDR002;CASH;;;395,60;;;;;;2;401;158637,05",
-    "2026-09-29;A1MT34;BRA1MTBDR008;CASH;;;266,45;;;;;;5;58;15453,94",
-    "2026-09-29;A2FY34;BRA2FYBDR000;CASH;;;31,01;;;;;;2;150;4651,5",
-    "2026-09-29;AAPL34;BRAAPLBDR004;CASH;;;85,75;;;;;;26;2977;255281,76",
-    "2026-09-29;AAZQ11;BRAAZQCTF001;CASH;;;6,63;;;;;;17;1427;9459,15"
-   ],
-   "gravado": "inteiro"
+   "linhas": 787,
+   "estado": "Final"
   },
   "InstrumentsConsolidated": {
+   "arquivo": "InstrumentsConsolidatedFile_20260929_1",
    "bytes": 20208263,
-   "tipo": "csv",
-   "linhas": 89782,
-   "token_resposta": {
-    "redirectUrl": "~/download?token=WE9FR1RFY1NOdXNhV2JmMGVjNG1LUT09OGYrTXdUWE0rZVJqa1VDMHAwMG9yL0lpNlBsdFVpT3dKVUFRSmJKVWZudUJBQmQxaDRsQmRPY1IrQkQ5TmxBT0JqT1phc1lHb1M1YllVeVBmOWR4cEs3eEJkNlZNSXhGWnljSVBYWTBiRVFnc1VDckloSS81VFNMZDBna25CUlVPMTFVcnRjK3F0OGtoclgrUTk0RlZhWVpKM1RWc3dnQU1vOHg2N3IydUdnbmx5R1RzUUd5VGxFVEhHdU5MZUd1QzBmaWVMdnZEK0tjRVJja0t5YzZPMVR6REdFNnh1ZGt4ZDdPd3ArWXd1SDhWZzR4YjhuSCtxQjBydjhTOGhORHV5d2hDaTBnMHVyUTZyR3BkTno1c1E9PQ",
-    "file": {
-     "name": "InstrumentsConsolidatedFile_20260929_1",
-     "extension": ".csv"
-    }
-   },
-   "content_type": "application/octet-stream",
-   "disposition": "attachment; size=20208263; filename=InstrumentsConsolidatedFile_20260929_1.csv",
-   "cabecalho": [
-    "Status do Arquivo: Final",
-    "RptDt;TckrSymb;Asst;AsstDesc;SgmtNm;MktNm;SctyCtgyNm;XprtnDt;XprtnCd;TradgStartDt;TradgEndDt;BaseCd;ConvsCritNm;MtrtyDtTrgtPt;ReqrdConvsInd;ISIN;CFICd;DlvryNtceStartDt;DlvryNtceEndDt;OptnTp;CtrctMltplr;AsstQtnQty;AllcnRndLot;TradgCcy;DlvryTpNm;WdrwlDays;WrkgDays;ClnrDays;RlvrBasePricNm;OpngFutrPosDay;SdTpCd1;UndrlygTckrSymb1;SdTpCd2;UndrlygTckrSymb2;PureGoldWght;ExrcPric;OptnStyle;ValTpNm;PrmUpfrntInd;OpngPosLmtDt;DstrbtnId;PricFctr;DaysToSttlm;SrsTpNm;PrtcnFlg;AutomtcExrcInd;SpcfctnCd;CrpnNm;CorpActnStartDt;CtdyTrtmntTpNm;MktCptlstn;CorpGovnLvlNm",
-    "2026-09-29;003H11;003H;003H;CASH;EQUITY-CASH;FUNDS;;;9999-12-31;9999-12-31;;;;;BR003HCTF006;CICGRY;;;;;;1;BRL;;;;;;;;;;;;;;;;;100;1;2;;;;CI;KINEA CO-INVESTIMENTO FDO INV IMOB;9999-12-31;FUNGIBLE;15000;"
-   ],
-   "amostra": [
-    "2026-09-29;03BK11;03BK;03BK;FORWARD;FIXED INCOME;FIXED INCOME TRADABLE INSTRUMENT T1;;;2026-07-30;9999-12-31;;;;;BR03BKCTF019;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;",
-    "2026-09-29;03BKETF11H;03BK;03BK;ETF PRIMARY MARKET;FIXED INCOME;ETF PRIMARY MARKET� GROSS SETTLEMENT;;;2026-07-30;9999-12-31;;;;;BR03BKCTF019;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;",
-    "2026-09-29;0FEA11;0FEA;0FEA;CASH;EQUITY-CASH;FUNDS;;;9999-12-31;9999-12-31;;;;;BR0FEACTF006;CICGRY;;;;;;1;BRL;;;;;;;;;;;;;;;;;100;1;2;;;;CI;SPIM FUNDO DE INVESTIMENTO IMOBILI�RIO;9999-12-31;FUNGIBLE;1631616;",
-    "2026-09-29;10BK11;10BK;10BK;FORWARD;FIXED INCOME;FIXED INCOME TRADABLE INSTRUMENT T1;;;2026-07-30;9999-12-31;;;;;BR10BKCTF006;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;",
-    "2026-09-29;10BKETF11H;10BK;10BK;ETF PRIMARY MARKET;FIXED INCOME;ETF PRIMARY MARKET� GROSS SETTLEMENT;;;2026-07-30;9999-12-31;;;;;BR10BKCTF006;;;;;;;1;BRL;;;;;;;;;;;;;;;;;;1;1;;;;;;;;;"
-   ],
-   "gravado": "so amostra (grande demais para o branch)"
+   "linhas": 89780,
+   "estado": "Final"
   },
   "DerivativesOpenPosition": {
+   "arquivo": "DerivativesOpenPositionFile_20260929_1",
    "bytes": 3596456,
-   "tipo": "csv",
-   "linhas": 45126,
-   "token_resposta": {
-    "redirectUrl": "~/download?token=d0lVc0M2Y0x6U1NQWjNtdS83dkd3Zz09WFRPZnNBYzZRVnkrMmY4MWExOFVTdzd2VmdGUU5aUktoeVAvM2hRbnBxOCtGcmtNNFBZL2Jwdmh6Nk44MVZZWkE4cnp1MkRtcnhJMnNsNEl4RkxBdGpBM0FXSGR3ZmQrT2sxVm9Wdm9hUlBqcE15VXhYSUZxb2lHVzg0NmNla3JsdXRKUXIvZklCY0FxejRSNnlpRXBxNFBjMGIzOVNhSDJBUjNrVUQyU0RDR2U4aGJCMXpwME5Rd2F4RzM1S3dQek1KNllvemdsRlFnUnF0NEpNdC95bDZhR2d2ajRsRng5aUxBNkw4TUcyTUtKZTVHMDQvQzA3RXFKbnNoUXhWV0xXQ2ptcG8wQkFPZU5jVU9SSlQ5RVE9PQ",
-    "file": {
-     "name": "DerivativesOpenPositionFile_20260929_1",
-     "extension": ".csv"
-    }
-   },
-   "content_type": "application/octet-stream",
-   "disposition": "attachment; size=3596456; filename=DerivativesOpenPositionFile_20260929_1.csv",
-   "cabecalho": [
-    "RptDt;TckrSymb;ISIN;Asst;XprtnCd;SgmtNm;OpnIntrst;VartnOpnIntrst;DstrbtnId;CvrdQty;TtlBlckdPos;UcvrdQty;TtlPos;BrrwrQty;LndrQty;CurQty;FwdPric",
-    "2026-09-29;A1MD34T;BRA1MDTNR003;A1MD;;EQUITY FORWARD;2;;;;;;;;;300;104298,89",
-    "2026-09-29;A1MDJ305;BRA1MD9J01G2;A1MD;;EQUITY CALL;;;101;280;0;0;280;1;1;;"
-   ],
-   "amostra": [
-    "2026-09-29;A1MDL340;BRA1MD9L0138;A1MD;;EQUITY CALL;;;101;0;0;1000;1000;1;1;;",
-    "2026-09-29;A1MDL345;BRA1MD9L0120;A1MD;;EQUITY CALL;;;101;0;0;1000;1000;1;1;;",
-    "2026-09-29;AALR3T;BRAALRTNO008;AALR;;EQUITY FORWARD;6;;;;;;;;;213900;740059,56",
-    "2026-09-29;AAPL34T;BRAAPLTNR005;AAPL;;EQUITY FORWARD;1;;;;;;;;;1000;76890",
-    "2026-09-29;AAPLB659;BRAAPL9B00E7;AAPL;;EQUITY CALL;;;154;100;0;0;100;3;1;;"
-   ],
-   "gravado": "so amostra (grande demais para o branch)"
-  },
-  "MarginScenarioLiquidAssets": {
-   "bytes": 5043241,
-   "tipo": "csv",
-   "linhas": 130864,
-   "token_resposta": {
-    "redirectUrl": "~/download?token=cFIwcDNMck5USTl5bGRXeXZmc0N6Zz09SEUrTGJRV2Q5KzZyR1VUZW05NThHSVZrd0lsK0d6a1hVTDJYUWlUVmJVVkljU0pxRXZEM01ibmNPNWdHVU9iUWZmQzlvSlNUWXpXK21YYWNPQ3JXd1hwYno1VDk1TE8xRG0wYi9WUUlsTVczMkMxVHlyT1ZKV1FrQUpBUjBzMFA3VlZWS3Yvb0MreU9qN0NjbS9kcU8vVS8yanFuRDRrYzBTVVd2Ym9iQko3OFpSa2RlOWVYNGtsNDliUVZLUkZDVk0va1RqTVptUzVXSHNMSWNzNStNa1NPdjlYa0FyQTJ0V3RqY3Q1RlFaSzdkK0EwbzVFRjYvdFJnZE1ONVhnc25nMDZYNStYY3I1SkdHbHRDbmNYNnc9PQ",
-    "file": {
-     "name": "MarginScenarioLiquidAssetsFile_20260929_1",
-     "extension": ".csv"
-    }
-   },
-   "content_type": "application/octet-stream",
-   "disposition": "attachment; size=5043241; filename=MarginScenarioLiquidAssetsFile_20260929_1.csv",
-   "cabecalho": [
-    "RptDt;PRFNm;VrtxCd;ScnroId;PRFVal;TpShck",
-    "2026-09-29;03BKETF11;100;9998;51,8787;M",
-    "2026-09-29;03BKETF11;100;9999;53,1419;M"
-   ],
-   "amostra": [
-    "2026-09-29;03BKETF11;100;10000;50,6828;M",
-    "2026-09-29;10BKETF11;100;9998;53,3117;M",
-    "2026-09-29;10BKETF11;100;9999;54,6098;M",
-    "2026-09-29;10BKETF11;100;10000;52,0828;M",
-    "2026-09-29;3PREETF11;100;9998;53,5021;M"
-   ],
-   "gravado": "so amostra (grande demais para o branch)"
+   "linhas": 45125,
+   "estado": null
   }
  },
- "arquivos_falhas": {
-  "LendingOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "LendingTradesConsolidated": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "EconomicIndicatorPrice": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "OTCTradeInformationConsolidated": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "OTCInstrumentsConsolidated": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "PriceReport": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "IndexComposition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "InvestorParticipation": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "ParticipantsTradeInformation": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "OptionsOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "SecuritiesLendingPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "LoanBalance": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "ForwardOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "FutureOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "SwapOpenPosition": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "DailyBulletin": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques",
-  "BDI": "token HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"Bad Reques"
+ "falhas": {},
+ "rf_cadastro": {
+  "papeis_no_dia": 1707,
+  "consultados": 39,
+  "achados": 37,
+  "sem_cadastro": 2,
+  "erros": 0,
+  "ficaram_para_depois": 0,
+  "no_cache": 3241
  }
 }

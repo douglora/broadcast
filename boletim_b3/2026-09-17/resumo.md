@@ -1,21 +1,20 @@
 # Boletim da B3: pregão de 17/09/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-18 08:03 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:11:06Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:22:04Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (15)
+## Sinais do dia (14)
 
 **Novos hoje**
 
 - **Volume fora do padrão.** CURY3 girou 2,6x a média de 11 pregões (R$ 254 mi contra R$ 99 mi), com o preço em -5,15% no dia. _(B3, TradeInformationConsolidated, 17/09)_
-- **Crédito: taxa abriu.** CRA022001E2 (Eco Securitizadora De Direitos Credito, cra): taxa média abriu 79 pb contra 16/09, para IPCA+ 12,53%, em R$ 5,1 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
-- **Crédito: taxa abriu.** ENERC7 (Energisa Mato Grosso Do Sul - Distribu, debêntures incentivadas): taxa média abriu 78 pb contra 08/09, para IPCA+ 7,90%, em R$ 10,7 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
-- **Crédito: taxa abriu.** BTEL13 (V.Tal - Rede Neutra De Telecomunicacoe, debêntures incentivadas): taxa média abriu 71 pb contra 16/09, para Pré 16,05%, em R$ 5,5 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
-- **Crédito: prêmio alto.** RISP12 (Aguas Do Rio 1 Spe S.A, debêntures incentivadas): negociada a IPCA+ 14,01%, 645 pb acima do juro real de mercado de prazo equivalente, em R$ 6,6 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
-- **Crédito: prêmio alto.** CRA0220073P (Riza Securitizadora S.A., cra): negociada a IPCA+ 12,58%, 514 pb acima do juro real de mercado de prazo equivalente, em R$ 6,2 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
-- **Crédito: prêmio alto.** CRA022001E2 (Eco Securitizadora De Direitos Credito, cra): negociada a IPCA+ 12,53%, 514 pb acima do juro real de mercado de prazo equivalente, em R$ 5,1 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
+- **Crédito: taxa abriu.** ENERC7 (Energisa Mato Grosso do Sul - Distrib…, debênture incentivada): taxa média abriu 80 pb contra 08/09, para IPCA+ 7,91%, em R$ 11,1 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
+- **Crédito: taxa abriu.** BTEL13 (V.Tal - Rede Neutra de Telecomunicaco…, debênture incentivada): taxa média abriu 49 pb contra 16/09, para Pré 16,11%, em R$ 9,4 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
+- **Crédito: taxa abriu.** CGOSA2 (Equatorial Goias Distribuidora de Ene…, debênture incentivada): taxa média abriu 42 pb contra 16/09, para IPCA+ 8,05%, em R$ 58,7 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
+- **Crédito: prêmio alto.** CRA0220073P (Riza Securitizadora, CRA): negociada a IPCA+ 12,60%, 516 pb acima do juro real de mercado de prazo equivalente, em R$ 7,2 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
+- **Crédito: prêmio alto.** ELPLB9 (Eletropaulo Metropol. Eletr. de S.P., debênture incentivada): negociada a IPCA+ 12,47%, 494 pb acima do juro real de mercado de prazo equivalente, em R$ 156,8 mi. _(B3, Trade + InstrumentRegistration, 17/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 250 mi líquidos em 15/09; no mês, até 15/09, saldo de +R$ 7.251 mi. _(B3, SharesInvesVolum, 15/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: VALE3 (4º); maiores baixas do Ibovespa: CURY3 (2º), MRVE3 (5º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º), BBDC4 (4º); puts mais negociadas: BBASV113 (2º), BBASU108 (3º). _(B3, tabelas de maiores oscilacoes, 17/09)_
 
@@ -199,30 +198,30 @@ ADR = recibo da ação negociado em Nova York. Ações entrando no programa indi
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,6 bi | IPCA+ 8,46% | +103 pb |
-| CRI | R$ 319,4 mi | IPCA+ 9,77% e CDI+ 2,66% | +229 pb |
-| CRA | R$ 355,9 mi | IPCA+ 10,05% e CDI+ 2,56% | +249 pb |
+| Debêntures incentivadas | R$ 1,6 bi | IPCA+ 7,73% | +25 pb |
+| CRI | R$ 309,0 mi | IPCA+ 9,06% e CDI+ 1,21% | +156 pb |
+| CRA | R$ 344,0 mi | IPCA+ 10,41% e CDI+ 1,57% | +325 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| ELPLB9 (Eletropaulo Metropol. Eletr.) | IPCA+ 12,47% | +494 pb | R$ 173,6 mi |
-| VBBRA0 (Vibra Energia S.A) | IPCA+ 7,91% | +41 pb | R$ 114,4 mi |
-| CGOSA2 (Equatorial Goias Distribuido) | IPCA+ 8,05% | +62 pb | R$ 60,9 mi |
-| SAELB8 (Energisa Paraiba - Distribui) | IPCA+ 8,04% | +54 pb | R$ 57,7 mi |
+| ELPLB9 (Eletropaulo Metropol. Eletr.) | IPCA+ 12,47% | +494 pb | R$ 156,8 mi |
+| VBBRA0 (Vibra Energia S.A) | IPCA+ 7,92% | +41 pb | R$ 113,7 mi |
+| CGOSA2 (Equatorial Goias Distribuido) | IPCA+ 8,05% | +63 pb | R$ 58,7 mi |
 | DESK19 (Desktop S/A) | IPCA+ 7,72% | +11 pb | R$ 53,8 mi |
-| CGOSA0 (Equatorial Goias Distribuido) | IPCA+ 8,01% | +57 pb | R$ 48,9 mi |
-| MGPRA0 (Concessao Metroviaria Do Rio) | IPCA+ 8,75% | +143 pb | R$ 45,0 mi |
-| EGIEA6 (Engie Brasil Energia Sa) | IPCA+ 7,37% | -6 pb | R$ 41,5 mi |
+| SAELB8 (Energisa Paraiba - Distribui) | IPCA+ 8,04% | +54 pb | R$ 48,6 mi |
+| ELET14 (Axia Energia S.A.) | IPCA+ 7,28% | -30 pb | R$ 44,6 mi |
+| CGOSA0 (Equatorial Goias Distribuido) | IPCA+ 8,01% | +57 pb | R$ 41,6 mi |
+| EGIEA6 (Engie Brasil Energia Sa) | IPCA+ 7,36% | -6 pb | R$ 40,8 mi |
 
-**Abriram taxa:** CRA022001E2 +79 pb, para IPCA+ 12,53% (R$ 5,1 mi); ENERC7 +78 pb, para IPCA+ 7,90% (R$ 10,7 mi); BTEL13 +71 pb, para 16,05% pré (R$ 5,5 mi); CGASA2 +49 pb, para IPCA+ 7,58% (R$ 3,1 mi); ECER12 +41 pb, para IPCA+ 6,99% (R$ 5,4 mi).
-**Fecharam taxa:** CRA024002ML -105 pb, para IPCA+ 11,99% (R$ 4,6 mi); APRB18 -94 pb, para IPCA+ 8,28% (R$ 11,1 mi); CRA022000XF -62 pb, para IPCA+ 12,72% (R$ 5,5 mi); CRA024001QA -61 pb, para IPCA+ 10,60% (R$ 3,3 mi); RISP14 -54 pb, para IPCA+ 12,28% (R$ 3,6 mi).
-**Prêmio alto:** RISP12 a IPCA+ 14,01% (+645 pb), R$ 6,6 mi; CRA021000RX a IPCA+ 12,49% (+527 pb), R$ 4,3 mi; CRA0220073P a IPCA+ 12,58% (+514 pb), R$ 6,2 mi; CRA022001E2 a IPCA+ 12,53% (+514 pb), R$ 5,1 mi; CRA022000XF a IPCA+ 12,72% (+513 pb), R$ 5,5 mi.
+**Abriram taxa:** ENERC7 +80 pb, para IPCA+ 7,91% (R$ 11,1 mi); CRA0190066O +78 pb, para IPCA+ 13,80% (R$ 3,6 mi); CRA022001E2 +69 pb, para IPCA+ 12,45% (R$ 3,8 mi); PLSB1A +60 pb, para IPCA+ 10,34% (R$ 3,2 mi); BTEL13 +49 pb, para 16,11% pré (R$ 9,4 mi).
+**Fecharam taxa:** RSAN26 -200 pb, para IPCA+ 9,38% (R$ 3,6 mi); APRB18 -88 pb, para IPCA+ 8,30% (R$ 8,1 mi); CRA024001QA -60 pb, para IPCA+ 10,63% (R$ 3,4 mi); 24A2720884 -59 pb, para CDI+ 3,29% (R$ 3,5 mi); 21C0483517 -52 pb, para IPCA+ 7,85% (R$ 6,3 mi).
+**Prêmio alto:** CRA0190066O a IPCA+ 13,80% (+664 pb), R$ 3,6 mi; RISP12 a IPCA+ 13,89% (+634 pb), R$ 4,1 mi; CRA022000XF a IPCA+ 12,83% (+524 pb), R$ 4,0 mi; CRA021000RX a IPCA+ 12,44% (+521 pb), R$ 3,8 mi; CRA0220073P a IPCA+ 12,60% (+516 pb), R$ 7,2 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

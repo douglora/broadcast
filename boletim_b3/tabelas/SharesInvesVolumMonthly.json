@@ -1,0 +1,19 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "SharesInvesVolumMonthly",
+ "titulo": "Participação dos investidores mensal",
+ "sla": null,
+ "paginas": 1,
+ "colunas": [{"nome": "TckrSymb", "titulo": "Tipos de investidores"}, {"nome": "VistaRS", "titulo": "À vista: R$"}, {"nome": "VistaPart", "titulo": "À vista: (%)"}, {"nome": "TermRS", "titulo": "A termo: R$"}, {"nome": "TermPart", "titulo": "A termo: (%)"}, {"nome": "OptionsRS", "titulo": "Opções: R$"}, {"nome": "OptionsPart", "titulo": "Opções: (%)"}, {"nome": "OptionsExerciseRS", "titulo": "Exercícios de opções: R$"}, {"nome": "OptionsExercisePart", "titulo": "Exercícios de opções: (%)"}, {"nome": "BlockRS", "titulo": "Blocos: R$"}, {"nome": "BlockPart", "titulo": "Blocos: (%)"}, {"nome": "GeneralTotalRS", "titulo": "Total geral: R$"}, {"nome": "GeneralTotalPart", "titulo": "Total geral: (%)"}],
+ "texto": ["Contribuição de diferentes perfis de investidores no volume total de negociações realizadas na B3 no mês anterior. Total de dados acumulados (Compras + Vendas) por tipo de Mercado do mês anterior (Agosto)."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-09-30T00:00:00",
+ "truncada": false,
+ "linhas": [
+  ["Institucionais", 274811942485, 25, 3210659580, 76, 12864823128, 24, 33764364596, 31, 9119407696, 47, 333771197484, 26],
+  ["Investidor Estrangeiro", 638327183953, 59, 46241061, 1, 27878352759, 52, 63957965295, 58, 9247364536, 47, 739457107604, 58],
+  ["Investidores Individuais", 123153694029, 11, 668835312, 16, 10048287771, 19, 3815054755, 3, 38466011, 0, 137724337879, 11],
+  ["Outros", 10306380095, 1, 49762243, 1, 566538537, 1, 96250735, 0, 15075372, 0, 11034006982, 1],
+  ["Instituições Financeiras", 33313752342, 3, 226608860, 5, 2438916616, 5, 8561564487, 8, 1188830948, 6, 45729673253, 4]
+ ]
+}

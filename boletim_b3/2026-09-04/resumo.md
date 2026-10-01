@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 04/09/2026 (sexta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-04 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:00:01Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:18:59Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -14,12 +14,12 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Posição em opções.** VALE3: a call VALEI834W2 (strike 81,70, vencimento 11/09) ganhou 596.200 opções em aberto no dia, para 1.471.600. _(B3, DerivativesOpenPosition, 04/09)_
 - **Aluguel mudou.** DIRR3: saldo alugado subiu 11,0% em um pregão, para 35,6 mi de ações, com o preço em -0,08% no dia. _(B3, BTBLendingOpenPosition, 04/09)_
 - **Aluguel alto.** UGPA3: saldo alugado de 55,9 mi de ações, 5,2% da quantidade teórica do índice e 4,1 pregões de giro; taxa média do tomador de 0,03% ao ano. _(B3, BTBLendingOpenPosition, 04/09)_
-- **Crédito: taxa abriu.** 22K0934871 (Riza Securitizadora S.A., cri): taxa média abriu 647 pb contra 03/09, para CDI+ 16,95%, em R$ 19,8 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
-- **Crédito: taxa abriu.** CGEE23 (Companhia Estadual De Geracao De Energ, debêntures incentivadas): taxa média abriu 275 pb contra 02/09, para IPCA+ 16,92%, em R$ 211,2 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
-- **Crédito: taxa abriu.** 23F2455004 (Opea Securitizadora S/A, cri): taxa média abriu 271 pb contra 03/09, para Pré 18,56%, em R$ 6,3 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
-- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora S.A., cri): negociada a CDI+ 16,95%, em R$ 19,8 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
-- **Crédito: prêmio alto.** TEPA12 (Brasil Tecnologia E Participacao S.A., debêntures incentivadas): negociada a IPCA+ 21,43%, 1.354 pb acima do juro real de mercado de prazo equivalente, em R$ 5,2 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
-- **Crédito: prêmio alto.** CGEE13 (Companhia Estadual De Geracao De Energ, debêntures incentivadas): negociada a IPCA+ 17,00%, 961 pb acima do juro real de mercado de prazo equivalente, em R$ 188,5 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
+- **Crédito: taxa abriu.** 22K0934871 (Riza Securitizadora, CRI): taxa média abriu 706 pb contra 03/09, para CDI+ 16,89%, em R$ 18,9 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
+- **Crédito: taxa abriu.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): taxa média abriu 277 pb contra 02/09, para IPCA+ 16,94%, em R$ 141,3 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
+- **Crédito: taxa abriu.** 23F2455004 (Opea Securitizadora, CRI): taxa média abriu 196 pb contra 03/09, para Pré 17,86%, em R$ 6,5 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
+- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora, CRI): negociada a CDI+ 16,89%, em R$ 18,9 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
+- **Crédito: prêmio alto.** CGEE13 (Companhia Estadual de Geracao de Ener…, debênture incentivada): negociada a IPCA+ 17,00%, 961 pb acima do juro real de mercado de prazo equivalente, em R$ 125,8 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
+- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): negociada a IPCA+ 16,94%, 956 pb acima do juro real de mercado de prazo equivalente, em R$ 141,3 mi. _(B3, Trade + InstrumentRegistration, 04/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 1.390 mi líquidos em 02/09; no mês, até 02/09, saldo de +R$ 2.201 mi. _(B3, SharesInvesVolum, 02/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (5º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º), BBDC4 (4º), AXIA3 (5º); calls mais negociadas: PETRI439 (2º), ITUBK454 (3º); puts mais negociadas: PETRU492 (4º). _(B3, tabelas de maiores oscilacoes, 04/09)_
 
@@ -177,13 +177,13 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+9,8%) | 34,24 (-12,6%) | 0,79 |
 | ITUB4 (18/09) | 44,53 (+6,2%) | 39,03 (-6,9%) | 0,69 |
 | BBDC4 (18/09) | 18,51 (+3,4%) | 16,51 (-7,8%) | 0,69 |
-| PETR4 (18/09) | 47,92 (+1,7%) | 36,67 (-22,2%) | 1,06 |
+| PETR4 (18/09) | 47,92 (+1,7%) | 42,42 (-10,0%) | 1,06 |
 | VALE3 (18/09) | 81,39 (+3,5%) | 75,39 (-4,1%) | 0,79 |
 | MELI34 (18/09) | 85,00 (+0,8%) | 83,00 (-1,6%) | 0,89 |
-| UGPA3 (18/09) | 38,25 (+2,2%) | 27,50 (-26,5%) | 0,94 |
+| UGPA3 (18/09) | 38,25 (+2,2%) | 30,00 (-19,8%) | 0,94 |
 | AXIA3 (18/09) | 56,00 (+1,3%) | 54,00 (-2,3%) | 0,92 |
 | ITSA4 (18/09) | 14,06 (+0,8%) | 13,81 (-1,0%) | 0,73 |
-| BBAS3 (18/09) | 33,95 (+50,8%) | 17,45 (-22,5%) | 0,80 |
+| BBAS3 (18/09) | 25,20 (+11,9%) | 19,20 (-14,7%) | 0,80 |
 | SBSP3 (18/09) | 28,01 (+5,6%) | 24,76 (-6,7%) | 0,93 |
 | SMAL11 (18/09) | 120,00 (+8,1%) | 97,00 (-12,6%) | 0,68 |
 | DIRR3 (18/09) | 12,21 (+6,5%) | 11,21 (-2,2%) | 0,81 |
@@ -250,30 +250,30 @@ Posição em aberto: 3,7 bi de calls e 3,2 bi de puts (put/call 0,88); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 2,7 bi | IPCA+ 9,50% | +198 pb |
-| CRI | R$ 838,4 mi | IPCA+ 11,74% e CDI+ 5,14% | +393 pb |
-| CRA | R$ 413,2 mi | IPCA+ 11,49% e CDI+ 3,68% | +369 pb |
+| Debêntures incentivadas | R$ 2,4 bi | IPCA+ 7,80% | +17 pb |
+| CRI | R$ 869,1 mi | IPCA+ 9,35% e CDI+ 1,15% | +162 pb |
+| CRA | R$ 377,2 mi | IPCA+ 11,64% e CDI+ 3,18% | +378 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| ISAEB2 (Isa Energia Brasil S.A.) | IPCA+ 7,19% | -20 pb | R$ 367,4 mi |
-| CGEE23 (Companhia Estadual De Geraca) | IPCA+ 16,92% | +954 pb | R$ 211,2 mi |
-| CGEE13 (Companhia Estadual De Geraca) | IPCA+ 17,00% | +961 pb | R$ 188,5 mi |
-| ISAEC2 (Isa Energia Brasil S.A.) | IPCA+ 7,23% | -16 pb | R$ 120,8 mi |
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,12% pré | - | R$ 66,3 mi |
-| VLIM16 (Vli Multimodal S.A.) | IPCA+ 7,64% | -4 pb | R$ 63,7 mi |
+| ISAEB2 (Isa Energia Brasil S.A.) | IPCA+ 7,19% | -20 pb | R$ 360,0 mi |
+| CGEE23 (Companhia Estadual De Geraca) | IPCA+ 16,94% | +956 pb | R$ 141,3 mi |
+| CGEE13 (Companhia Estadual De Geraca) | IPCA+ 17,00% | +961 pb | R$ 125,8 mi |
+| ISAEC2 (Isa Energia Brasil S.A.) | IPCA+ 7,23% | -16 pb | R$ 117,0 mi |
 | VLIM18 (Vli Multimodal S.A.) | IPCA+ 7,57% | -4 pb | R$ 62,2 mi |
-| GSTS24 (Aguas De Teresina Saneamento) | IPCA+ 10,39% | +289 pb | R$ 56,2 mi |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,08% pré | - | R$ 49,4 mi |
+| GSTS24 (Aguas De Teresina Saneamento) | IPCA+ 10,39% | +289 pb | R$ 48,5 mi |
+| EQPA18 (Equatorial Para Distribuidor) | IPCA+ 7,79% | +27 pb | R$ 47,3 mi |
 
-**Abriram taxa:** 22K0934871 +647 pb, para CDI+ 16,95% (R$ 19,8 mi); CGEE23 +275 pb, para IPCA+ 16,92% (R$ 211,2 mi); 23F2455004 +271 pb, para 18,56% pré (R$ 6,3 mi); 22G1414303 +172 pb, para IPCA+ 12,22% (R$ 6,7 mi); CRA0190066O +110 pb, para IPCA+ 14,67% (R$ 3,6 mi).
-**Fecharam taxa:** CRA0210012Z -4.138 pb, para IPCA+ 13,41% (R$ 4,2 mi); CMGDB4 -36 pb, para IPCA+ 7,54% (R$ 19,8 mi); CRA025007KK -33 pb, para 15,13% pré (R$ 5,6 mi); 23I0013002 -30 pb, para CDI+ 1,03% (R$ 4,4 mi); CRA021002SO -30 pb, para IPCA+ 8,24% (R$ 5,6 mi).
-**Prêmio alto:** 22K0934871 a CDI+ 16,95%, R$ 19,8 mi; TEPA12 a IPCA+ 21,43% (+1.354 pb), R$ 5,2 mi; CGEE13 a IPCA+ 17,00% (+961 pb), R$ 188,5 mi; CGEE23 a IPCA+ 16,92% (+954 pb), R$ 211,2 mi; CRA0190066O a IPCA+ 14,67% (+709 pb), R$ 3,6 mi.
+**Abriram taxa:** 22K0934871 +706 pb, para CDI+ 16,89% (R$ 18,9 mi); CGEE23 +277 pb, para IPCA+ 16,94% (R$ 141,3 mi); 23F2455004 +196 pb, para 17,86% pré (R$ 6,5 mi); 22G1414303 +175 pb, para IPCA+ 12,30% (R$ 4,4 mi); CRA022007KG +144 pb, para CDI+ 3,11% (R$ 5,9 mi).
+**Fecharam taxa:** ENTV12 -36 pb, para IPCA+ 7,84% (R$ 3,0 mi); CRA025007KK -32 pb, para 15,16% pré (R$ 5,0 mi); CMGDB4 -29 pb, para IPCA+ 7,54% (R$ 19,8 mi); CASN34 -27 pb, para IPCA+ 8,72% (R$ 3,9 mi); ETBA12 -26 pb, para IPCA+ 7,18% (R$ 6,3 mi).
+**Prêmio alto:** 22K0934871 a CDI+ 16,89%, R$ 18,9 mi; TEPA12 a IPCA+ 21,43% (+1.354 pb), R$ 3,2 mi; CGEE13 a IPCA+ 17,00% (+961 pb), R$ 125,8 mi; CGEE23 a IPCA+ 16,94% (+956 pb), R$ 141,3 mi; SUMI18 a IPCA+ 14,36% (+649 pb), R$ 4,0 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

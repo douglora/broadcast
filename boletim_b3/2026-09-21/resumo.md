@@ -1,27 +1,25 @@
 # Boletim da B3: pregão de 21/09/2026 (segunda)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-21 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:14:31Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:22:54Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (22)
+## Sinais do dia (20)
 
 **Novos hoje**
 
 - **Volume fora do padrão.** SMAL11 girou 2,1x a média de 13 pregões (R$ 573 mi contra R$ 267 mi), com o preço em +2,10% no dia. _(B3, TradeInformationConsolidated, 21/09)_
 - **Posição em opções.** SMAL11: a call SMALJ120 (strike 120,00, vencimento 16/10) ganhou 3.338.497 opções em aberto no dia, para 4.093.778. _(B3, DerivativesOpenPosition, 21/09)_
 - **Posição em opções.** SBSP3: a call SBSPL314 (strike 31,49, vencimento 18/12) ganhou 7.286.000 opções em aberto no dia, para 7.286.000. _(B3, DerivativesOpenPosition, 21/09)_
-- **Crédito: taxa abriu.** RIS424 (Aguas Do Rio 4 Spe S.A, debêntures incentivadas): taxa média abriu 93 pb contra 15/09, para IPCA+ 12,31%, em R$ 22,6 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
-- **Crédito: taxa abriu.** RISP24 (Aguas Do Rio 1 Spe S.A, debêntures incentivadas): taxa média abriu 45 pb contra 09/09, para IPCA+ 12,25%, em R$ 11,3 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
-- **Crédito: prêmio alto.** CRA0190066O (Eco Securitizadora De Direitos Credito, cra): negociada a IPCA+ 12,48%, 528 pb acima do juro real de mercado de prazo equivalente, em R$ 6,1 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
-- **Crédito: prêmio alto.** RIS424 (Aguas Do Rio 4 Spe S.A, debêntures incentivadas): negociada a IPCA+ 12,31%, 499 pb acima do juro real de mercado de prazo equivalente, em R$ 22,6 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
-- **Crédito: prêmio alto.** RISP24 (Aguas Do Rio 1 Spe S.A, debêntures incentivadas): negociada a IPCA+ 12,25%, 492 pb acima do juro real de mercado de prazo equivalente, em R$ 11,3 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
+- **Crédito: taxa abriu.** RIS424 (Aguas do Rio 4 Spe, debênture incentivada): taxa média abriu 93 pb contra 15/09, para IPCA+ 12,32%, em R$ 22,6 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
+- **Crédito: taxa abriu.** IGSN15 (Igua Saneamento, debênture incentivada): taxa média abriu 49 pb contra 11/09, para IPCA+ 11,72%, em R$ 15,0 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
+- **Crédito: taxa abriu.** RISP24 (Aguas do Rio 1 Spe, debênture incentivada): taxa média abriu 46 pb contra 09/09, para IPCA+ 12,25%, em R$ 7,6 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
+- **Crédito: prêmio alto.** CRA0190066O (Eco Securitizadora de Direitos Credit…, CRA): negociada a IPCA+ 12,67%, 547 pb acima do juro real de mercado de prazo equivalente, em R$ 5,2 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
+- **Crédito: prêmio alto.** RIS424 (Aguas do Rio 4 Spe, debênture incentivada): negociada a IPCA+ 12,32%, 499 pb acima do juro real de mercado de prazo equivalente, em R$ 22,6 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
+- **Crédito: prêmio alto.** RISP24 (Aguas do Rio 1 Spe, debênture incentivada): negociada a IPCA+ 12,25%, 493 pb acima do juro real de mercado de prazo equivalente, em R$ 7,6 mi. _(B3, Trade + InstrumentRegistration, 21/09)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 690 mi líquidos em 17/09; no mês, até 17/09, saldo de +R$ 5.598 mi. _(B3, SharesInvesVolum, 17/09)_
-- **Juros.** DI1F29: taxa de ajuste fechou 12 pontos-base, para 13,71%. _(B3, TradeInformationConsolidated, 21/09)_
-- **Juros.** DI1F30: taxa de ajuste fechou 12 pontos-base, para 13,85%. _(B3, TradeInformationConsolidated, 21/09)_
-- **Juros.** DI1F32: taxa de ajuste fechou 12 pontos-base, para 13,99%. _(B3, TradeInformationConsolidated, 21/09)_
-- **Juros.** DI1F35: taxa de ajuste fechou 13 pontos-base, para 14,03%. _(B3, TradeInformationConsolidated, 21/09)_
+- **Juros.** A curva de juros fechou: DI1F29 −12 pb, para 13,71%, DI1F30 −12 pb, para 13,85%, DI1F32 −12 pb, para 13,99%, DI1F35 −13 pb, para 14,03%. _(B3, TradeInformationConsolidated, 21/09)_
 - **Provento.** PETR4: crédito de juros sobre capital próprio de R$ 0,3505 por ação em 21/09. _(B3, ProventionCreditVariable, 21/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores baixas do Ibovespa: VALE3 (10º); mais negociadas à vista: PETR4 (1º), BBAS3 (2º), BBDC4 (3º), VALE3 (4º), AXIA3 (5º); calls mais negociadas: UGPAA300 (4º), BBDCA169 (5º). _(B3, tabelas de maiores oscilacoes, 21/09)_
 
@@ -179,8 +177,8 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | BBAS3 (16/10) | 23,29 (+1,3%) | 21,29 (-7,4%) | 0,75 |
 | SBSP3 (16/10) | 32,93 (+17,9%) | 26,68 (-4,5%) | 0,50 |
 | SMAL11 (16/10) | 130,00 (+16,1%) | 106,00 (-5,4%) | 0,25 |
-| DIRR3 (16/10) | 13,04 (+28,1%) | 9,99 (-1,9%) | 1,10 |
-| MRVE3 (16/10) | 8,30 (+57,8%) | 5,00 (-4,9%) | 1,00 |
+| DIRR3 (16/10) | 11,29 (+10,9%) | 9,99 (-1,9%) | 1,10 |
+| MRVE3 (16/10) | 6,10 (+16,0%) | 5,00 (-4,9%) | 1,00 |
 | CURY3 (16/10) | 32,62 (+12,3%) | 28,12 (-3,2%) | 1,24 |
 
 Parede = strike (preço de exercício) com a maior posição em aberto fora do dinheiro: call acima do preço (teto), put abaixo (piso); distância é contra o fechamento. Put/call = posição em aberto de puts dividida pela de calls, todos os vencimentos. Call = opção de compra; put = de venda.
@@ -247,30 +245,30 @@ Posição em aberto: 3,0 bi de calls e 2,5 bi de puts (put/call 0,82); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,1 bi | IPCA+ 8,37% | +92 pb |
-| CRI | R$ 737,2 mi | IPCA+ 9,95% e CDI+ 1,00% | +246 pb |
-| CRA | R$ 327,0 mi | IPCA+ 9,67% e CDI+ 2,06% | +214 pb |
+| Debêntures incentivadas | R$ 1,2 bi | IPCA+ 7,70% | +18 pb |
+| CRI | R$ 744,4 mi | IPCA+ 9,12% e CDI+ 0,86% | +177 pb |
+| CRA | R$ 327,4 mi | IPCA+ 10,11% e CDI+ 1,25% | +299 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,10% pré | - | R$ 109,3 mi |
-| MOTVB9 (Motiva Infraestrutura De Mob) | IPCA+ 7,61% | +14 pb | R$ 47,5 mi |
-| IRJS14 (Igua Rio De Janeiro S.A.) | IPCA+ 11,73% | +442 pb | R$ 33,4 mi |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 14,16% pré | - | R$ 155,9 mi |
+| VLIM18 (Vli Multimodal S.A.) | IPCA+ 7,64% | +11 pb | R$ 52,2 mi |
+| MOTVB9 (Motiva Infraestrutura De Mob) | IPCA+ 7,61% | +14 pb | R$ 42,6 mi |
+| IRJS14 (Igua Rio De Janeiro S.A.) | IPCA+ 11,73% | +442 pb | R$ 33,0 mi |
 | AESLC2 (Rge Sul Distribuidora De Ene) | IPCA+ 7,40% | -20 pb | R$ 30,1 mi |
-| EQPAA1 (Equatorial Para Distribuidor) | IPCA+ 7,99% | +53 pb | R$ 28,5 mi |
-| RIS424 (Aguas Do Rio 4 Spe S.A) | IPCA+ 12,31% | +499 pb | R$ 22,6 mi |
+| AURP13 (Auren Operacoes S.A.) | IPCA+ 7,91% | +43 pb | R$ 22,8 mi |
+| RIS424 (Aguas Do Rio 4 Spe S.A) | IPCA+ 12,32% | +499 pb | R$ 22,6 mi |
 | VLIM14 (Vli Multimodal S.A.) | IPCA+ 7,21% | -42 pb | R$ 22,4 mi |
-| AXIA19 (Axia Energia S.A.) | IPCA+ 7,61% | +10 pb | R$ 22,3 mi |
 
-**Abriram taxa:** GASC15 +111 pb, para IPCA+ 9,50% (R$ 3,8 mi); RIS424 +93 pb, para IPCA+ 12,31% (R$ 22,6 mi); 21H1078699 +60 pb, para IPCA+ 11,08% (R$ 4,2 mi); RISP24 +45 pb, para IPCA+ 12,25% (R$ 11,3 mi); ENEV39 +30 pb, para IPCA+ 7,88% (R$ 3,3 mi).
-**Fecharam taxa:** CRA0190066O -129 pb, para IPCA+ 12,48% (R$ 6,1 mi); CRA02500AHU -120 pb, para 15,33% pré (R$ 6,6 mi); CRA024001Q9 -67 pb, para 17,26% pré (R$ 4,7 mi); PEJA13 -60 pb, para 13,35% pré (R$ 3,2 mi); CRA02200819 -53 pb, para IPCA+ 9,49% (R$ 3,1 mi).
-**Prêmio alto:** CRA021000RX a IPCA+ 12,71% (+546 pb), R$ 4,1 mi; CRA0190066O a IPCA+ 12,48% (+528 pb), R$ 6,1 mi; CRA0220073P a IPCA+ 12,55% (+510 pb), R$ 3,1 mi; RIS424 a IPCA+ 12,31% (+499 pb), R$ 22,6 mi; RISP24 a IPCA+ 12,25% (+492 pb), R$ 11,3 mi.
+**Abriram taxa:** RIS424 +93 pb, para IPCA+ 12,32% (R$ 22,6 mi); IGSN15 +49 pb, para IPCA+ 11,72% (R$ 15,0 mi); 21H1078699 +48 pb, para IPCA+ 11,08% (R$ 4,4 mi); RISP24 +46 pb, para IPCA+ 12,25% (R$ 7,6 mi); CEEBD1 +44 pb, para 14,16% pré (R$ 155,9 mi).
+**Fecharam taxa:** CRA0190066O -147 pb, para IPCA+ 12,67% (R$ 5,2 mi); CRA02500AHU -66 pb, para 15,45% pré (R$ 5,1 mi); CRA023002GX -49 pb, para CDI+ 1,56% (R$ 4,4 mi); CRA024001Q9 -45 pb, para 17,23% pré (R$ 6,2 mi); PLSB1A -41 pb, para IPCA+ 9,84% (R$ 4,1 mi).
+**Prêmio alto:** CRA0190066O a IPCA+ 12,67% (+547 pb), R$ 5,2 mi; CRA021000RX a IPCA+ 12,64% (+538 pb), R$ 4,0 mi; CRA0220073P a IPCA+ 12,53% (+508 pb), R$ 3,0 mi; RIS424 a IPCA+ 12,32% (+499 pb), R$ 22,6 mi; RISP24 a IPCA+ 12,25% (+493 pb), R$ 7,6 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

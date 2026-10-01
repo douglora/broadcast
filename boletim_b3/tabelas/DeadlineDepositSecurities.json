@@ -1,0 +1,32 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "DeadlineDepositSecurities",
+ "titulo": "Prazo para depósito de títulos",
+ "sla": "00:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "UpdateDate", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Empresa"}, {"nome": "Code", "titulo": "Código IF"}, {"nome": "Earnings", "titulo": "Tipo de provento"}],
+ "texto": ["Informações sobre prazos estabelecidos para depósito de títulos financeiros em uma instituição de custódia. Os detentores de títulos representativos de ações, com direito aos proventos envolvendo as empresas abaixo relacionadas, poderão efetuar o depósito junto à Custódia nos seguintes prazos."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-09-30T00:00:32.567",
+ "truncada": false,
+ "linhas": [
+  ["2026-10-01", "AIR PRODUCTS & CHEMICALS INC", "BRA1PDBDR005 127", "DIVIDENDO"],
+  ["2026-10-01", "BLAU FARMACÊUTICA S.A.", "BRBLAUACNOR8 122", "JUROS SOBRE CAPITAL PRÓPRIO"],
+  ["2026-10-01", "CAPITÂNIA HBC RENDA URBANA FDO INV IMOB RESP LTDA.", "BRCPURCTF004 125", "SUBSCRIÇÃO"],
+  ["2026-10-01", "CARDINAL HEALTH INC", "BRC1AHBDR006 127", "DIVIDENDO"],
+  ["2026-10-01", "FDO INV IMOB DESENV ESCRITÓRIOS BOUTIQUE RESP LIM", "BREGDBR23M18 100", "ATUALIZACAO"],
+  ["2026-10-01", "INGREDION INCORPORATED", "BRI2NGBDR003 117", "DIVIDENDO"],
+  ["2026-10-01", "MARSH & MCLENNAN COS INC", "BRM1MCBDR000 127", "DIVIDENDO"],
+  ["2026-10-01", "PEGASYSTEMS INC", "BRP2EGBDR003 120", "DIVIDENDO"],
+  ["2026-10-01", "QUANTA SERVICES INC", "BRQ1UABDR003 127", "DIVIDENDO"],
+  ["2026-10-01", "RAYMOND JAMES FINANCIAL INC", "BRR1JFBDR004 128", "DIVIDENDO"],
+  ["2026-10-01", "ROMI S.A.", "BRROMIACNOR8 202", "JUROS SOBRE CAPITAL PRÓPRIO"],
+  ["2026-10-01", "SPGM II - FUNDO DE INVESTIMENTO IMOB  RESP LIM", "BRSPG2CTF013 113", "RENDIMENTO"],
+  ["2026-10-01", "SPGM II - FUNDO DE INVESTIMENTO IMOB  RESP LIM", "BRSPG2CTF021 110", "RENDIMENTO"],
+  ["2026-10-01", "STATE STREET CORP", "BRS1TTBDR003 127", "DIVIDENDO"],
+  ["2026-10-01", "THE CAMPBELLS COMPANY", "BRC1PBBDR007 126", "DIVIDENDO"],
+  ["2026-10-01", "THE PROGRESSIVE CORP", "BRP1GRBDR007 128", "DIVIDENDO"],
+  ["2026-10-01", "U.S. BANCORP", "BRUSBCBDR003 147", "DIVIDENDO"],
+  ["2026-10-01", "XEROX HOLDINGS CORPORATION", "BRXRXBBDR005 155", "DIVIDENDO"]
+ ]
+}

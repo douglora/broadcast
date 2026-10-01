@@ -1,0 +1,19 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "Forward",
+ "titulo": "Ações mais negociadas - a termo",
+ "sla": "8:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
+ "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-09-30T18:51:06.85",
+ "truncada": false,
+ "linhas": [
+  ["COMPASS     ON      NM", "ON      NM", 58, 23.21, 440000, 10212.4, 6.1048722708099135],
+  ["LOJAS RENNERON  EJ  NM", "ON  EJ  NM", 30, 11.91, 471000, 5609.61, 6.534988271707887],
+  ["CEA MODAS   ON      NM", "ON      NM", 58, 10.28, 500000, 5140, 6.937354853193082],
+  ["ORIZON      ON      NM", "ON      NM", 170, 18.55, 645100, 11966.605, 8.950575231589717],
+  ["MOVIDA      ON      NM", "ON      NM", 16, 9.92, 2326575, 23079.624, 32.2805527351354]
+ ]
+}

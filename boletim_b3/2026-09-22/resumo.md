@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 22/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-23 11:05 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:16:06Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:23:18Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -16,11 +16,11 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel mudou.** PETR4: saldo alugado caiu 38,1% em um pregão, para 194,5 mi de ações, com o preço em +0,72% no dia. _(B3, BTBLendingOpenPosition, 22/09)_
 - **Aluguel mudou.** SMAL11: saldo alugado caiu 16,0% em um pregão, para 12,9 mi de ações, com o preço em +0,03% no dia. _(B3, BTBLendingOpenPosition, 22/09)_
 - **Aluguel mudou.** UGPA3: saldo alugado caiu 20,7% em um pregão, para 34,0 mi de ações, com o preço em +1,70% no dia. _(B3, BTBLendingOpenPosition, 22/09)_
-- **Crédito: taxa abriu.** LTTE15 (Linhas De Taubate Transmissora De Ener, debêntures incentivadas): taxa média abriu 75 pb contra 15/09, para IPCA+ 8,29%, em R$ 5,8 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
-- **Crédito: taxa abriu.** HGLB23 (Highline Do Brasil Ii Infraestrutura D, debêntures incentivadas): taxa média abriu 36 pb contra 18/09, para IPCA+ 12,05%, em R$ 6,9 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
-- **Crédito: taxa abriu.** BLMN12 (Belo Monte Transmissora De Energia Spe, debêntures incentivadas): taxa média abriu 36 pb contra 17/09, para IPCA+ 7,53%, em R$ 7,0 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
-- **Crédito: prêmio alto.** HGLB23 (Highline Do Brasil Ii Infraestrutura D, debêntures incentivadas): negociada a IPCA+ 12,05%, 451 pb acima do juro real de mercado de prazo equivalente, em R$ 6,9 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
-- **Crédito: prêmio alto.** IRJS15 (Igua Rio De Janeiro S.A., debêntures incentivadas): negociada a IPCA+ 11,76%, 447 pb acima do juro real de mercado de prazo equivalente, em R$ 29,2 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
+- **Crédito: taxa abriu.** LTTE15 (Linhas de Taubate Transmissora de Ene…, debênture incentivada): taxa média abriu 74 pb contra 15/09, para IPCA+ 8,28%, em R$ 5,9 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
+- **Crédito: taxa abriu.** SBSPJ8 (Cia Saneamento Basico Est. Sp - Sabesp, debênture incentivada): taxa média abriu 35 pb contra 17/09, para IPCA+ 7,49%, em R$ 15,1 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
+- **Crédito: taxa abriu.** BLMN12 (Belo Monte Transmissora de Energia Spe, debênture incentivada): taxa média abriu 35 pb contra 17/09, para IPCA+ 7,52%, em R$ 7,1 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
+- **Crédito: prêmio alto.** IRJS15 (Igua Rio de Janeiro, debênture incentivada): negociada a IPCA+ 11,75%, 446 pb acima do juro real de mercado de prazo equivalente, em R$ 19,6 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
+- **Crédito: prêmio alto.** HGLB23 (Highline do Brasil Ii Infraestrutura…, debênture incentivada): negociada a IPCA+ 11,86%, 432 pb acima do juro real de mercado de prazo equivalente, em R$ 12,5 mi. _(B3, Trade + InstrumentRegistration, 22/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 3.633 mi líquidos em 18/09; no mês, até 18/09, saldo de +R$ 9.230 mi. _(B3, SharesInvesVolum, 18/09)_
 - **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto subiram 12,4% em um pregão, para 1.045.715. _(B3, AnalyticalFramework2, 22/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (1º); maiores baixas do Ibovespa: CURY3 (2º), BBAS3 (8º), SBSP3 (9º); mais negociadas à vista: PETR4 (1º), VALE3 (3º), BBAS3 (4º), ITUB4 (5º); calls mais negociadas: PETRK500 (3º), SBSPJ294 (5º). _(B3, tabelas de maiores oscilacoes, 22/09)_
@@ -179,8 +179,8 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | BBAS3 (16/10) | 23,29 (+2,7%) | 21,29 (-6,1%) | 0,73 |
 | SBSP3 (16/10) | 31,93 (+15,9%) | 26,68 (-3,2%) | 0,28 |
 | SMAL11 (16/10) | 130,00 (+16,0%) | 106,00 (-5,4%) | 0,25 |
-| DIRR3 (16/10) | 13,04 (+27,5%) | 9,99 (-2,4%) | 1,11 |
-| MRVE3 (16/10) | 8,30 (+56,3%) | 5,00 (-5,8%) | 0,87 |
+| DIRR3 (16/10) | 10,79 (+5,5%) | 9,99 (-2,4%) | 1,11 |
+| MRVE3 (16/10) | 6,10 (+14,9%) | 5,00 (-5,8%) | 0,87 |
 | CURY3 (16/10) | 32,62 (+14,9%) | 28,12 (-0,9%) | 1,19 |
 
 Parede = strike (preço de exercício) com a maior posição em aberto fora do dinheiro: call acima do preço (teto), put abaixo (piso); distância é contra o fechamento. Put/call = posição em aberto de puts dividida pela de calls, todos os vencimentos. Call = opção de compra; put = de venda.
@@ -246,30 +246,30 @@ Posição em aberto: 3,3 bi de calls e 2,6 bi de puts (put/call 0,79); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,4 bi | IPCA+ 7,80% | +32 pb |
-| CRI | R$ 463,5 mi | IPCA+ 9,27% e CDI+ 2,56% | +169 pb |
-| CRA | R$ 315,2 mi | IPCA+ 10,47% e CDI+ 2,76% | +266 pb |
+| Debêntures incentivadas | R$ 1,4 bi | IPCA+ 7,61% | +10 pb |
+| CRI | R$ 464,6 mi | IPCA+ 8,60% e CDI+ 1,14% | +105 pb |
+| CRA | R$ 322,7 mi | IPCA+ 10,54% e CDI+ 3,32% | +236 pb |
 
 **Debêntures incentivadas mais negociadas**
 
 | Papel | Taxa do dia | Sobre o juro real | Volume |
 |---|---:|---:|---:|
-| CMGTA1 (Cemig Geracao E Transmissao ) | IPCA+ 7,65% | +21 pb | R$ 80,3 mi |
-| ULFT14 (Ultrafertil S/A.) | IPCA+ 7,73% | +22 pb | R$ 51,7 mi |
-| VLIM14 (Vli Multimodal S.A.) | IPCA+ 7,19% | -46 pb | R$ 51,5 mi |
-| AXIAA1 (Axia Energia S.A.) | IPCA+ 7,63% | +15 pb | R$ 44,8 mi |
-| CGOSA2 (Equatorial Goias Distribuido) | IPCA+ 8,19% | +76 pb | R$ 37,7 mi |
-| CHSF13 (Companhia Hidro Eletrica Do ) | IPCA+ 7,43% | -22 pb | R$ 34,2 mi |
-| NEOE16 (Neoenergia S/A) | IPCA+ 7,37% | -14 pb | R$ 32,3 mi |
-| RDOE18 (Concessionaria Do Rodoanel O) | IPCA+ 7,38% | -27 pb | R$ 29,3 mi |
+| CMGTA1 (Cemig Geracao E Transmissao ) | IPCA+ 7,65% | +22 pb | R$ 53,6 mi |
+| ULFT14 (Ultrafertil S/A.) | IPCA+ 7,73% | +22 pb | R$ 51,8 mi |
+| AXIAA1 (Axia Energia S.A.) | IPCA+ 7,63% | +15 pb | R$ 47,2 mi |
+| CHSF13 (Companhia Hidro Eletrica Do ) | IPCA+ 7,41% | -24 pb | R$ 43,2 mi |
+| VLIM14 (Vli Multimodal S.A.) | IPCA+ 7,19% | -46 pb | R$ 40,1 mi |
+| CGOSA2 (Equatorial Goias Distribuido) | IPCA+ 8,18% | +76 pb | R$ 38,6 mi |
+| NEOE16 (Neoenergia S/A) | IPCA+ 7,37% | -14 pb | R$ 26,1 mi |
+| CPLDA1 (Copel  Distribuicao S/A) | IPCA+ 7,64% | +22 pb | R$ 24,0 mi |
 
-**Abriram taxa:** LTTE15 +75 pb, para IPCA+ 8,29% (R$ 5,8 mi); CRA021000RX +50 pb, para IPCA+ 13,21% (R$ 4,4 mi); VLIM29 +43 pb, para IPCA+ 7,83% (R$ 5,0 mi); HGLB23 +36 pb, para IPCA+ 12,05% (R$ 6,9 mi); BLMN12 +36 pb, para IPCA+ 7,53% (R$ 7,0 mi).
-**Fecharam taxa:** 22E1314836 -218 pb, para IPCA+ 9,59% (R$ 6,7 mi); 23F2455004 -88 pb, para 17,42% pré (R$ 3,1 mi); CRA02300TSF -46 pb, para 13,26% pré (R$ 3,9 mi); CEEBD1 -40 pb, para 13,71% pré (R$ 18,8 mi); SBSPB6 -39 pb, para IPCA+ 6,47% (R$ 22,6 mi).
-**Prêmio alto:** CRA021000RX a IPCA+ 13,21% (+590 pb), R$ 4,4 mi; CRA02200C6Y a IPCA+ 12,72% (+517 pb), R$ 3,1 mi; CRA0220073P a IPCA+ 12,47% (+495 pb), R$ 3,1 mi; HGLB23 a IPCA+ 12,05% (+451 pb), R$ 6,9 mi; IRJS15 a IPCA+ 11,76% (+447 pb), R$ 29,2 mi.
+**Abriram taxa:** LTTE15 +74 pb, para IPCA+ 8,28% (R$ 5,9 mi); CRA021000RX +55 pb, para IPCA+ 13,19% (R$ 4,3 mi); VLIM29 +43 pb, para IPCA+ 7,83% (R$ 5,0 mi); VALEC0 +37 pb, para IPCA+ 7,05% (R$ 3,4 mi); SBSPJ8 +35 pb, para IPCA+ 7,49% (R$ 15,1 mi).
+**Fecharam taxa:** 22E1314836 -218 pb, para IPCA+ 9,62% (R$ 6,8 mi); CEEBD1 -51 pb, para 13,64% pré (R$ 21,2 mi); SBSPB6 -40 pb, para IPCA+ 6,47% (R$ 22,7 mi); SBSPK8 -32 pb, para IPCA+ 6,89% (R$ 4,3 mi); CMTR29 -32 pb, para IPCA+ 7,17% (R$ 19,6 mi).
+**Prêmio alto:** CMIN11 a IPCA+ 14,02% (+637 pb), R$ 3,8 mi; CRA021000RX a IPCA+ 13,19% (+588 pb), R$ 4,3 mi; ORIG11 a IPCA+ 12,14% (+464 pb), R$ 3,1 mi; IRJS15 a IPCA+ 11,75% (+446 pb), R$ 19,6 mi; HGLB23 a IPCA+ 11,86% (+432 pb), R$ 12,5 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 

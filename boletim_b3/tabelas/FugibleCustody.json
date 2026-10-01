@@ -1,0 +1,23 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "FugibleCustody",
+ "titulo": "Custódia fungível",
+ "sla": "00:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "SbscrptnDeadline", "titulo": "Prazo final subscrição"}, {"nome": "DeadlineAssgnmnt", "titulo": "Prazo final cessão"}, {"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "IsinOrigin", "titulo": "Código ISIN origem"}, {"nome": "IsinRight", "titulo": "Código ISIN direito"}, {"nome": "IsinSbscrptn", "titulo": "Código ISIN subscrição"}],
+ "texto": ["Informações sobre ativos que estão sob custódia, mas não são de propriedade do investidor. O objetivo é fornecer transparência sobre a gestão de ativos que pertencem a terceiros, garantindo controle e rastreabilidade. Os agentes de custódia que pretenderem exercer o direito de subscrição e/ou solicitar cessão de direitos da(s) empresa(s) abaixo relacionada(s) deverão manifestar-se nos prazos mencionados."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-09-30T00:00:32.833",
+ "truncada": false,
+ "linhas": [
+  ["2026-10-01", "2026-10-01", "ITAU CREDITO IMOBILIARIO CDI FII RESP LIM", "BRICDICTF012 107", "BRICDID02M12 107", "BRICDIR10M16 108"],
+  ["2026-10-01", "2026-10-01", "XP MALLS FDO INV IMOB FII RESP LIM", "BRXPMLCTF000 214", "BRXPMLD15M17 214", "BRXPMLR47M13 215"],
+  ["2026-10-02", "2026-10-02", "FII EDIF. ALMIRANTE BARROSO RESP LIM", "BRFAMBCTF018 319", "BRFAMBD04M11 319", "BRFAMBR07M12 320"],
+  ["2026-10-08", "2026-10-08", "V2 RENDA IMOBILIÁRIA FII RESP LIM", "BRVVRICTF007 142", "BRVVRID04M14 142", "BRVVRIR06M16 143"],
+  ["2026-10-09", "2026-10-09", "JACARANDÁ 02 FUND INV IMOB FII - RESP LIMITADA", "BRJCDBCTF007 100", "BRJCDBD01M19 100", "BRJCDBR01M13 101"],
+  ["2026-10-13", "2026-10-13", "CAPITÂNIA OFFICE FII - FDO DE INV IMOB", "BRCPOFCTF002 131", "BRCPOFD04M11 131", "BRCPOFR15M12 132"],
+  ["2026-10-14", "2026-10-14", "CAPITÂNIA HBC RENDA URBANA FDO INV IMOB RESP LTDA.", "BRCPURCTF004 125", "BRCPURD03M10 125", "BRCPURR05M12 126"],
+  ["2026-10-19", "2026-10-19", "FII REC RECEBIVEIS IMOBILIARIOS RESP LIM", "BRRECRCTF004 174", "BRRECRD07M14 174", "BRRECRR14M19 175"],
+  ["2026-10-26", "2026-10-26", "BIOMM S.A.", "BRBIOMACNOR2 113", "BRBIOMD01M15 113", "BRBIOMDBS004 100"]
+ ]
+}

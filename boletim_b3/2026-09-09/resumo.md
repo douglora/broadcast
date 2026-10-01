@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 09/09/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-09 00:00 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:03:15Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:19:46Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (26)
+## Sinais do dia (22)
 
 **Novos hoje**
 
@@ -14,10 +14,10 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Posição em opções.** PETR4: a call PETRI19 (strike 48,67, vencimento 18/09) ganhou 6.299.200 opções em aberto no dia, para 7.113.100. _(B3, DerivativesOpenPosition, 09/09)_
 - **Posição em opções.** BBAS3: a put BBASU213W4 (strike 21,20, vencimento 25/09) ganhou 13.116.800 opções em aberto no dia, para 13.122.600. _(B3, DerivativesOpenPosition, 09/09)_
 - **Aluguel mudou.** DIRR3: saldo alugado caiu 10,5% em um pregão, para 30,8 mi de ações, com o preço em -4,37% no dia. _(B3, BTBLendingOpenPosition, 09/09)_
-- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual De Geracao De Energ, debêntures incentivadas): negociada a IPCA+ 17,00%, 964 pb acima do juro real de mercado de prazo equivalente, em R$ 14,9 mi. _(B3, Trade + InstrumentRegistration, 09/09)_
-- **Crédito: prêmio alto.** SUMI17 (Giga Mais Fibra Telecomunicacoes S.A., debêntures incentivadas): negociada a IPCA+ 13,80%, 602 pb acima do juro real de mercado de prazo equivalente, em R$ 11,7 mi. _(B3, Trade + InstrumentRegistration, 09/09)_
+- **Crédito: prêmio alto.** CGEE23 (Companhia Estadual de Geracao de Ener…, debênture incentivada): negociada a IPCA+ 17,00%, 964 pb acima do juro real de mercado de prazo equivalente, em R$ 14,9 mi. _(B3, Trade + InstrumentRegistration, 09/09)_
+- **Crédito: prêmio alto.** SUMI17 (Giga Mais Fibra Telecomunicacoes, debênture incentivada): negociada a IPCA+ 13,80%, 602 pb acima do juro real de mercado de prazo equivalente, em R$ 11,7 mi. _(B3, Trade + InstrumentRegistration, 09/09)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 1.393 mi líquidos em 04/09; no mês, até 04/09, saldo de +R$ 5.338 mi. _(B3, SharesInvesVolum, 04/09)_
-- **Juros.** DI1F28: taxa de ajuste abriu 11 pontos-base, para 13,63%. _(B3, TradeInformationConsolidated, 09/09)_
+- **Juros.** A curva de juros abriu: DI1F28 +11 pb, para 13,63%, DI1F29 +16 pb, para 13,86%, DI1F30 +18 pb, para 14,02%, DI1F32 +20 pb, para 14,17%, DI1F35 +19 pb, para 14,21%. _(B3, TradeInformationConsolidated, 09/09)_
 - **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: UGPA3 (4º); maiores baixas do Ibovespa: DIRR3 (4º), CURY3 (6º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), ITUB4 (3º); calls mais negociadas: BBASI181 (1º). _(B3, tabelas de maiores oscilacoes, 09/09)_
 
 **Já vinham de pregões anteriores**
@@ -33,11 +33,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Aluguel alto.** DIRR3: saldo alugado de 30,8 mi de ações, 9,4% da quantidade teórica do índice e 3,3 pregões de giro; taxa média do tomador de 0,04% ao ano. _(B3, BTBLendingOpenPosition, 09/09 · 6º pregão seguido)_
 - **Aluguel alto.** MRVE3: saldo alugado de 71,1 mi de ações, 19,0% da quantidade teórica do índice e 6,5 pregões de giro; taxa média do tomador de 26,50% ao ano. _(B3, BTBLendingOpenPosition, 09/09 · 6º pregão seguido)_
 - **Aluguel alto.** PETR4: saldo alugado de 280,5 mi de ações, 6,4% da quantidade teórica do índice e 6,5 pregões de giro; taxa média do tomador de 0,05% ao ano. _(B3, BTBLendingOpenPosition, 09/09 · 6º pregão seguido)_
-- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora S.A., cri): negociada a CDI+ 16,25%, em R$ 10,0 mi. _(B3, Trade + InstrumentRegistration, 09/09 · 3º pregão seguido)_
-- **Juros.** DI1F29: taxa de ajuste abriu 16 pontos-base, para 13,86%. _(B3, TradeInformationConsolidated, 09/09 · 2º pregão seguido)_
-- **Juros.** DI1F30: taxa de ajuste abriu 18 pontos-base, para 14,02%. _(B3, TradeInformationConsolidated, 09/09 · 2º pregão seguido)_
-- **Juros.** DI1F32: taxa de ajuste abriu 20 pontos-base, para 14,17%. _(B3, TradeInformationConsolidated, 09/09 · 2º pregão seguido)_
-- **Juros.** DI1F35: taxa de ajuste abriu 19 pontos-base, para 14,21%. _(B3, TradeInformationConsolidated, 09/09 · 2º pregão seguido)_
+- **Crédito: prêmio alto.** 22K0934871 (Riza Securitizadora, CRI): negociada a CDI+ 16,25%, em R$ 10,0 mi. _(B3, Trade + InstrumentRegistration, 09/09 · 3º pregão seguido)_
 
 ## Índices
 
@@ -174,13 +170,13 @@ Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vend
 | EQTL3 (18/09) | 42,99 (+10,8%) | 34,24 (-11,8%) | 0,79 |
 | ITUB4 (18/09) | 44,53 (+7,1%) | 39,03 (-6,2%) | 0,70 |
 | BBDC4 (18/09) | 18,51 (+4,0%) | 16,51 (-7,2%) | 0,73 |
-| PETR4 (18/09) | 48,67 (+0,5%) | 36,67 (-24,3%) | 1,04 |
+| PETR4 (18/09) | 48,67 (+0,5%) | 42,42 (-12,4%) | 1,04 |
 | VALE3 (18/09) | 81,39 (+2,9%) | 76,89 (-2,8%) | 0,81 |
 | MELI34 (18/09) | 85,00 (+6,4%) | 79,00 (-1,1%) | 0,86 |
-| UGPA3 (18/09) | 42,50 (+10,7%) | 27,50 (-28,4%) | 0,95 |
+| UGPA3 (18/09) | 42,50 (+10,7%) | 32,75 (-14,7%) | 0,95 |
 | AXIA3 (18/09) | 56,00 (+1,7%) | 54,00 (-2,0%) | 1,02 |
 | ITSA4 (18/09) | 14,06 (+1,1%) | 13,81 (-0,7%) | 0,72 |
-| BBAS3 (18/09) | 33,95 (+53,1%) | 17,45 (-21,3%) | 0,88 |
+| BBAS3 (18/09) | 23,45 (+5,7%) | 19,20 (-13,4%) | 0,88 |
 | SBSP3 (18/09) | 28,01 (+4,9%) | 24,76 (-7,3%) | 0,75 |
 | SMAL11 (18/09) | 120,00 (+8,9%) | 97,00 (-12,0%) | 0,68 |
 | DIRR3 (18/09) | 12,21 (+11,7%) | 10,21 (-6,6%) | 0,84 |
@@ -248,11 +244,11 @@ Posição em aberto: 3,9 bi de calls e 3,4 bi de puts (put/call 0,88); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-| Classe | Volume do dia | Taxa média | Sobre o juro real |
+| Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,4 bi | IPCA+ 8,18% | +61 pb |
-| CRI | R$ 513,9 mi | IPCA+ 10,22% e CDI+ 4,11% | +257 pb |
-| CRA | R$ 374,4 mi | IPCA+ 10,55% e CDI+ 3,03% | +282 pb |
+| Debêntures incentivadas | R$ 1,4 bi | IPCA+ 7,67% | +8 pb |
+| CRI | R$ 513,9 mi | IPCA+ 9,31% e CDI+ 1,24% | +162 pb |
+| CRA | R$ 374,4 mi | IPCA+ 11,53% e CDI+ 3,46% | +364 pb |
 
 **Debêntures incentivadas mais negociadas**
 
@@ -268,10 +264,10 @@ Posição em aberto: 3,9 bi de calls e 3,4 bi de puts (put/call 0,88); no volume
 | FRAG14 (Ferrari Agroindustria S/A) | IPCA+ 8,55% | +77 pb | R$ 29,4 mi |
 
 **Abriram taxa:** CRA0220073P +63 pb, para IPCA+ 12,72% (R$ 3,7 mi); CRA0190066O +57 pb, para IPCA+ 14,03% (R$ 3,3 mi); CRA021002SO +36 pb, para IPCA+ 8,44% (R$ 3,4 mi); 24E1835896 +28 pb, para IPCA+ 8,33% (R$ 3,1 mi); CRA022007EP +18 pb, para IPCA+ 7,62% (R$ 9,7 mi).
-**Fecharam taxa:** SBSPK8 -55 pb, para IPCA+ 6,72% (R$ 3,0 mi); CLAG13 -52 pb, para IPCA+ 8,91% (R$ 9,7 mi); FRAG14 -45 pb, para IPCA+ 8,55% (R$ 29,4 mi); CRA019003JY -43 pb, para IPCA+ 6,90% (R$ 3,2 mi); NEOE16 -40 pb, para IPCA+ 7,42% (R$ 10,3 mi).
+**Fecharam taxa:** SBSPK8 -55 pb, para IPCA+ 6,72% (R$ 3,0 mi); CLAG13 -53 pb, para IPCA+ 8,91% (R$ 9,7 mi); FRAG14 -45 pb, para IPCA+ 8,55% (R$ 29,4 mi); CRA019003JY -43 pb, para IPCA+ 6,90% (R$ 3,2 mi); NEOE16 -40 pb, para IPCA+ 7,42% (R$ 10,3 mi).
 **Prêmio alto:** 22K0934871 a CDI+ 16,25%, R$ 10,0 mi; CGEE23 a IPCA+ 17,00% (+964 pb), R$ 14,9 mi; CGEE13 a IPCA+ 17,00% (+964 pb), R$ 3,7 mi; VERO25 a IPCA+ 14,59% (+682 pb), R$ 3,0 mi; CRA0190066O a IPCA+ 14,03% (+653 pb), R$ 3,3 mi.
 
-Taxa média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
+Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.
 
 ## Eventos e comunicados
 
