@@ -14,6 +14,22 @@ A taxa vem na convencao do proprio papel, na B3 e na ANBIMA:
   % do CDI  indexado ao DI por percentual: a taxa e o percentual do CDI
   Pre       prefixado: taxa nominal
 
+Em DI a taxa do negocio vem na convencao que o cadastro do papel descreve, e e ele quem decide a leitura:
+  DI + taxa (100% do indexador e taxa de emissao maior que zero): premio sobre o CDI, por mais alta que seja;
+  percentual do DI (percentual diferente de 100, sem taxa): percentual do CDI, por mais baixa que seja.
+Ate 01/10/2026 so a grandeza da taxa decidia (acima de 30, percentual do CDI), e errava nas duas pontas. Papel
+em DI + taxa que negocia em estresse sai acima de 30: BRKMA6 (DI + 1,75%) fez R$ 15,0 mi a 54,33 em 30/09/2026
+com o PU a 44% do par, e isso e CDI + 54,33%. E negocio fora de preco em papel de percentual sai abaixo de 30:
+o CRI 25G5827604 (109% do DI) saiu a 1,94 em 29/09 com o PU 45% acima dos outros negocios do dia, e isso e
+1,94% do CDI, nao premio. Medido nos 21 pregoes de 01/09 a 30/09/2026 (12.204 leituras de papel em DI): 66
+erradas. 65 em 12 papeis de DI + taxa (4 debentures, 7 CRA e 1 CRI), lidas como percentual: em 10 deles a taxa
+varia muito de um negocio para outro e o preco cai quando ela sobe (correlacao de -0,90 a -1,00 entre taxa e
+PU); os outros 2 so negociaram numa faixa estreita, acima de 30. E 1 em papel de percentual, lida como premio.
+Nas 544 debentures em DI que tambem estao no arquivo da ANBIMA, o cadastro deu a convencao dela em todas.
+A grandeza da taxa so decide quando o cadastro nao decide: 100% do indexador sem taxa (papel a 100% do CDI),
+percentual com taxa, sem percentual, ou percentual de ate 30 (cadastro torto). Nesses papeis os 3.796 negocios
+com taxa do periodo sairam todos acima de 30, entre 83 e 149.
+
 Duas taxas por debenture, cada uma com fonte e data:
   negocios do dia  media dos negocios da B3 ponderada pelo volume (`taxa_media`). Em papel com muito
                    negocio pequeno ela pende para a taxa do varejo, que compra a taxa menor: medido
@@ -61,6 +77,7 @@ ROTULO = {"deb_incentivada": "Debêntures incentivadas", "cri": "CRI", "cra": "C
 ROTULO_FONTE = {"anbima": "ANBIMA indicativa", "b3": "B3 negócios"}
 VALIDOS = ("confirmado", "ajustado b3")
 COM_VARIACAO = ("IPCA+", "CDI+", "Pré")       # convencoes em que a diferenca entre duas taxas e ponto-base de taxa
+CORTE_PCT_CDI = 30.0                          # papel em DI cujo cadastro nao decide: taxa acima disto e percentual do CDI
 
 
 def mil(v, casas: int = 0) -> str:
@@ -93,15 +110,27 @@ def classe(tipo: str, cad: dict | None) -> str | None:
 
 
 def convencao(cad: dict | None, taxa) -> str | None:
-    """Como ler a taxa do negocio, pelo indexador do cadastro."""
+    """Como ler a taxa do negocio, pelo indexador do cadastro. A B3 da a taxa na convencao do proprio papel: em DI
+    o cadastro diz se ela e premio sobre o CDI ou percentual do CDI, e a grandeza da taxa so decide quando ele nao diz."""
     idx = ((cad or {}).get("indexador") or "").upper()
     if not idx:
         return None
     if idx in ("DI", "CDI", "SELIC"):
-        pct = (cad or {}).get("pct_indexador")
-        if taxa is not None and taxa > 30:
+        pct, emissao = b3.num(cad.get("pct_indexador")), b3.num(cad.get("taxa"))
+        com_taxa = (emissao or 0) > 0
+        # DI + taxa: a taxa do negocio e o premio sobre o CDI, por mais alta que seja. Papel em estresse negocia acima
+        # de 30 (BRKMA6 a 54,33 em 30/09/2026, com o PU a 44% do par) e nao vira percentual do CDI
+        if pct == 100 and com_taxa:
+            return "CDI+"
+        # Percentual do DI, sem taxa: a taxa do negocio e percentual do CDI, por mais baixa que seja. Negocio fora de
+        # preco sai abaixo de 30 (25G5827604, 109% do DI, a 1,94 em 29/09/2026, com o PU 45% acima dos outros negocios
+        # do dia) e nao vira premio. Percentual de ate 30 no cadastro (ha papel com 1 e com 3) e cadastro torto: nao decide
+        if pct not in (None, 100) and pct > CORTE_PCT_CDI and not com_taxa:
             return "% do CDI"
-        if taxa is None and pct not in (None, 100, 100.0) and not (cad or {}).get("taxa"):
+        # O cadastro nao decide (100% sem taxa, percentual com taxa, sem percentual): vale a grandeza da taxa
+        if taxa is not None and taxa > CORTE_PCT_CDI:
+            return "% do CDI"
+        if taxa is None and pct not in (None, 100) and not com_taxa:
             return "% do CDI"
         return "CDI+"
     if idx.startswith("PRE"):

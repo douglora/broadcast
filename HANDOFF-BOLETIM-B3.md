@@ -4,9 +4,11 @@ Atualizado em 01/10/2026, na sessao do notebook (internet aberta). Codigo na `ma
 repositorio douglora/broadcast (desenvolvido no branch `claude/magical-hopper-18a6sh`). Substitui o handoff
 anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 
-Ultima mudanca (01/10/2026, a tarde): a renda fixa passou a comparar debentures pela taxa
-indicativa da ANBIMA, com a taxa dos negocios da B3 ao lado. O porque e o que foi medido estao na
-secao 2.1; o que falta conferir, na secao 4.
+Ultimas mudancas (01/10/2026, a tarde): (1) a renda fixa passou a comparar debentures pela taxa
+indicativa da ANBIMA, com a taxa dos negocios da B3 ao lado (secao 2.1); (2) em papel de DI, quem diz
+se a taxa e premio sobre o CDI ou percentual do CDI passou a ser o cadastro, e papel em estresse deixou
+de ser lido como percentual do CDI (secao 2.2; esta espera o ok do Douglas para ir a `main`). O que
+falta conferir e o que depende dele ficam na secao 4.
 
 ## 1. O pedido do Douglas
 
@@ -127,6 +129,89 @@ O que mudou no resumo (`renda_fixa`, formato na skill `boletim-b3`):
   procurar a ANBIMA (a rodada seguinte tenta de novo). A falha fica em `index.json > anbima`, fora de `falhas`, para nao mandar a rodada
   refazer a coleta da B3 de pregao antigo.
 
+### 2.2 Papel em DI: premio sobre o CDI ou percentual do CDI (01/10/2026)
+
+O problema. A taxa do negocio de balcao vem na convencao do papel, e em DI ha duas: premio sobre o CDI
+(DI + taxa) e percentual do CDI. `renda_fixa.convencao()` decidia so pela grandeza da taxa: acima de 30,
+percentual do CDI. O corte nasceu por causa de CRI e CRA a 98% ou 105% do CDI, e errava nas duas pontas:
+
+- Papel em DI + taxa que negocia em estresse sai acima de 30. BRKMA6 (Braskem, DI + 1,75%) fez 14 negocios
+  e R$ 15,0 mi a 54,33 em 30/09, e a taxa era lida como "54,3% do CDI". E CDI + 54,33%: o PU estava a 44%
+  do par (arquivo da ANBIMA) e, no mesmo mes, o papel saiu a 115 com o PU a 265 e a 54 com o PU a 470
+  (taxa maior, preco menor). O corte ainda fazia o mesmo papel trocar de leitura de um dia para o outro:
+  CSNAA1 a 29,12 em 30/09 e a 50,06 em 22/09; o CRA022008C2 a 29,30 e a 30,10 com o PU em 410 nos dois dias.
+- Negocio fora de preco em papel de percentual do CDI sai abaixo de 30. O CRI 25G5827604 (109% do DI) saiu
+  a 1,35 em 28/09 com o PU a 1.453, contra 110 e 113,1 com o PU a 1.001 e a 991 no mesmo dia. E 1,35% do
+  CDI de um negocio 46% acima do preco dos outros, e a media do dia (20,42) era lida como "CDI + 20,42%".
+
+Onde o erro aparecia. Debenture nao incentivada nao tem linha propria no painel, no `resumo.md` nem no
+`mesa.py boletim rf`: a BRKMA6 errava os totais da classe (`renda_fixa.resumo.deb_comum` e a linha da
+classe no `boletim rf`). CRI e CRA tem linha propria, mas as leituras erradas do periodo ficaram todas
+abaixo dos volumes minimos das listas e dos sinais.
+
+O que foi medido (bruto real dos 21 pregoes de 01/09 a 30/09/2026: 33.787 linhas de papel por pregao,
+12.204 delas em DI, de 1.524 papeis; 13 arquivos da ANBIMA, de 14/09 a 30/09):
+
+- A B3 da a taxa na convencao que o cadastro do papel descreve. Dos 57.681 negocios com taxa em papel de
+  DI + taxa (100% do indexador e taxa de emissao maior que zero), 191 sairam acima de 30, todos em 12
+  papeis em estresse. Dos 41.517 em papel de percentual do DI (percentual diferente de 100, sem taxa), 8
+  sairam ate 30, todos em 3 CRI e todos com o PU de 18% a 46% acima dos outros negocios do mesmo dia.
+- 66 leituras erradas (pregao x papel). 65 em papel de DI + taxa, lidas como percentual: 40 em 4 debentures
+  nao incentivadas (BRKMA6, BRKMA8, CSNAA1 e AGAU13, R$ 59,0 mi), 24 em 7 CRA (R$ 1,7 mi) e 1 em 1 CRI. E 1
+  em papel de percentual, lida como premio (o CRI de 28/09). Nenhuma de CRI ou CRA passou de R$ 0,5 mi no
+  dia. Nenhuma debenture incentivada em DI negociou no periodo.
+- Prova pelo preco nos 12 papeis de DI + taxa: em 10 a taxa varia muito de um negocio para outro e a
+  correlacao entre taxa e PU fica entre -0,90 e -1,00 (preco cai quando a taxa sobe: e premio); 8 deles
+  negociaram dos dois lados do corte. Os outros 2 (CRA023002XL e CRA02300EI9, 12 negocios, R$ 28 mil) so
+  negociaram numa faixa estreita, acima de 30, e valem pelo cadastro.
+- ANBIMA: nas 21 leituras erradas de debenture em pregao com arquivo, ela escreve o indice como "DI +
+  taxa". Nas 544 debentures em DI que estao no cadastro lido e nos arquivos, o cadastro sozinho da a mesma
+  convencao que ela em todas (541 em DI + taxa, 3 em percentual do DI).
+- Cadastro que nao decide: 25 papeis (21 a 100% do indexador sem taxa, 3 com percentual de 1 ou de 3, que
+  e cadastro torto, e 1 sem percentual). Os 3.796 negocios com taxa desses papeis sairam todos entre 83 e
+  149: percentual do CDI, e ali o corte acerta.
+
+A regra nova. O cadastro decide nos dois sentidos. DI + taxa: a taxa do negocio e premio sobre o CDI, por
+mais alta que seja. Percentual do DI sem taxa (percentual acima de 30): e percentual do CDI, por mais baixa
+que seja. So quando o cadastro nao decide vale o corte de antes (acima de 30, percentual do CDI). A
+convencao do arquivo da ANBIMA nao entrou na regra: o cadastro chega ao mesmo resultado, vale tambem para
+CRI e CRA (que a ANBIMA nao lista), para debenture fora do arquivo e para pregao sem arquivo, e as duas
+fontes continuam se conferindo (quando a ANBIMA e a B3 leem a taxa de jeitos diferentes o papel leva
+`anbima.convencao` e as taxas nao se comparam).
+
+O que mudou no resumo (mesmo bruto, codigo de antes contra o de depois, nos 21 pregoes):
+
+- 66 leituras mudaram (65 de `% do CDI` para `CDI+`, 1 no sentido contrario); as outras 33.721 linhas
+  ficaram iguais. Das 2.986 leituras de CRI e CRA que eram percentual do CDI, 25 viraram premio (as de DI +
+  taxa em estresse) e 2.961 ficaram como estavam. `resumo.md` e `painel.html` sairam identicos nos 21
+  pregoes, e nenhuma lista nem sinal mudou;
+- `renda_fixa.resumo.deb_comum`: a media de CDI+ subiu em 4 pregoes (30/09: de 1,17% para 1,62%; 24/09: de
+  1,34% para 1,56%; 04/09: de 1,23% para 1,45%; 02/09: de 1,10% para 1,39%) e a mediana quase nao mexeu
+  (0,99% em 30/09, antes e depois); a fatia `% do CDI` de `por_indexador_pct` caiu (30/09: de 0,8% para
+  0,0%). Em CRA so `por_indexador_pct` mexeu, 0,1 ou 0,2 ponto em 5 pregoes;
+- a media ponderada pelo volume agora carrega o papel em estresse: `mesa.py boletim rf` passou a mostrar a
+  mediana de CDI+ ao lado da media em toda classe, e a skill manda usar a mediana;
+- debenture em estresse voltou a falar a lingua da ANBIMA, e quando ha indicativa ela e a referencia
+  (CSNAA1 em 7 pregoes: indicativa perto de CDI + 17%, negocios pequenos na B3 de CDI + 38% a CDI + 51%).
+
+O que passa a poder aparecer nas classes em foco (nos 21 pregoes nenhum caso chegou ao volume minimo):
+
+- CRI ou CRA em DI + taxa negociando em estresse com R$ 3 mi ou mais entra em `premios_altos` como `CDI+`
+  (antes ficava escondido como percentual do CDI), e da sinal com R$ 5 mi;
+- premio sobre o CDI tem variacao em pontos-base (percentual do CDI nao tem), entao esse papel tambem entra
+  em quem abriu e quem fechou taxa. Papel em estresse alterna entre a taxa de emissao e a do estresse de um
+  dia para o outro (CRA02400CI3: 5,00 em 25/09, 34,02 em 29/09 com R$ 213 mil, 5,00 em 30/09 com R$ 297
+  mil): a abertura de um dia e o fechamento do seguinte sao negocios de natureza diferente, nao o mercado
+  mudando de ideia;
+- CRI ou CRA de percentual do CDI com negocio fora de preco deixa de poder entrar em `premios_altos` como
+  se pagasse premio sobre o CDI (a media de 28/09 do 25G5827604 sairia como "CDI + 20,42%").
+
+O que a regra nao resolve. Negocio fora de preco continua dentro da media do dia: o 25G5827604 fechou 29/09
+com media de 71,6% do CDI (R$ 276 mil a 1,94% e R$ 489 mil a 110% e a 113,1%). E limite da media dos
+negocios, o mesmo do lote pequeno do varejo; `taxa_min` e `taxa_max` do papel mostram a distancia. E tres
+cadastros que parecem DI + taxa ficam fora da regra e seguem pelo corte: PLII11 (sem percentual, taxa 2,5)
+e os CRI 26E3429212 e 26F2438121 (percentual 1, taxas 3,4 e 4,05). Nenhum negociou com taxa no periodo.
+
 ## 3. O que esta no branch
 
 | Arquivo | O que faz |
@@ -136,7 +221,7 @@ O que mudou no resumo (`renda_fixa`, formato na skill `boletim-b3`):
 | `boletim/coleta.py` | O que se busca de cada pregao (47 tabelas, 4 arquivos, cadastro de renda fixa em paralelo, taxas indicativas da ANBIMA) e o que fica gravado |
 | `boletim/resumo.py` | `resumo.json`: numeros com fonte e data, cruzados com o livro, opcoes em profundidade, sinais e historico |
 | `boletim/mercado.py` | Radar do IBrA (volume e aluguel), opcoes do mercado inteiro, corretoras no aluguel, serie `mercado.json` |
-| `boletim/renda_fixa.py` | Debentures incentivadas, CRI e CRA: taxa de referencia de cada papel (indicativa da ANBIMA ou negocios da B3), premio sobre o DAP na duration ou no vencimento, quem abriu e fechou taxa |
+| `boletim/renda_fixa.py` | Debentures incentivadas, CRI e CRA: como ler a taxa de cada papel (em DI, premio sobre o CDI ou percentual do CDI, pelo cadastro), taxa de referencia (indicativa da ANBIMA ou negocios da B3), premio sobre o DAP na duration ou no vencimento, quem abriu e fechou taxa |
 | `boletim/render.py` | `resumo.md`: cards de texto com `[[LEITURA_DA_MESA]]` |
 | `boletim/painel.py` | `painel.html`: a pagina do Artifact (formato branco e azul, graficos em SVG, sem biblioteca externa) |
 | `boletim_b3.py` | Entrada: `--saida --data --dias (numero ou auto) --series --pdf --so-painel`. Um pregao leva cerca de um minuto |
@@ -144,7 +229,7 @@ O que mudou no resumo (`renda_fixa`, formato na skill `boletim-b3`):
 | `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron ligado: 21h40 e 08h35 BRT |
 | `mesa.py boletim` | Leitura na sessao: veredito, resumo, ativo, sinais, rf, opcoes, radar, status, tabela, json, painel |
 | `.claude/skills/boletim-b3/SKILL.md` | Regras da leitura, procedimento do turno, receita do painel e texto da Routine |
-| `tests/test_boletim.py` | 67 testes sem rede (24 deles da ANBIMA e da taxa de referencia) |
+| `tests/test_boletim.py` | 69 testes sem rede (24 deles da ANBIMA e da taxa de referencia, 2 da leitura do papel em DI) |
 
 Saida no branch `dados`: ver o cabecalho de `boletim_b3.py`.
 
@@ -188,6 +273,11 @@ Ainda depende dele:
    o branch.
 4. **Resto da prateleira de renda fixa.** Os demais codigos que ele acompanha entram em
    `config/boletim.yaml > renda_fixa > papeis` e ganham linha propria no painel.
+5. **Ok para levar a `main` a leitura do papel em DI (secao 2.2).** Em 01/10/2026 as 17h10 a mudanca
+   estava so no branch `claude/magical-hopper-18a6sh`, um commit a frente da `main` (que ja tinha a
+   ANBIMA, 70ea8088). Ate o ok, o cron e os turnos da Routine seguem decidindo a leitura so pela
+   grandeza da taxa. Se `git log origin/main --oneline -3` ja mostrar o commit "Le a taxa de papel em DI
+   pela convencao do cadastro", este item esta resolvido.
 
 ## 5. Ideias que a validacao abriu (fora do escopo atual)
 

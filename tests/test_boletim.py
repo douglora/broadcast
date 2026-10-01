@@ -397,6 +397,94 @@ def test_renda_fixa_classifica_le_a_taxa_pela_convencao_e_mede_o_premio_sobre_o_
     assert resumo.montar(b, CFG, LIVRO, {})["renda_fixa"]["preliminar"] is False
 
 
+# Em DI a taxa do negocio vem na convencao do cadastro, e so a grandeza dela decidia a leitura (acima de 30, percentual do CDI).
+# Medido em 01/10/2026 no bruto de 21 pregoes. Papel em DI + taxa em estresse sai acima de 30: BRKMA6 (DI + 1,75%) fez 14 negocios
+# e R$ 15,0 mi a 54,33 em 30/09, com o PU a 44% do par; CSNAA1 (DI + 1,65%) saiu a 29,12 num dia e a 50,06 em outro; o CRA02400CI3
+# (DI + 5%) a 5,00 com o PU a 652 e a 37,48 com o PU a 509. E negocio fora de preco em papel de percentual sai abaixo de 30: o CRI
+# 25G5827604 (109% do DI) saiu a 1,35 em 28/09 com o PU a 1.453, contra 110 e 113,1 com o PU a 1.001 e a 991. Cadastros reais.
+CADASTRO_DI = {
+    "BRKMA6": {"tipo": "DEB", "incentivada": False, "indexador": "DI", "pct_indexador": 100, "taxa": 1.75, "vencimento": "2029-05-12"},
+    "CSNAA1": {"tipo": "DEB", "incentivada": False, "indexador": "DI", "pct_indexador": 100, "taxa": 1.65, "vencimento": "2028-11-10"},
+    "AALM12": {"tipo": "DEB", "incentivada": False, "indexador": "DI", "pct_indexador": 100, "taxa": 1.6, "vencimento": "2030-10-02"},
+    "KLBNA2": {"tipo": "DEB", "incentivada": False, "indexador": "DI", "pct_indexador": 114.65, "taxa": None, "vencimento": "2029-03-19"},
+    "DMCA11": {"tipo": "DEB", "incentivada": False, "indexador": "DI", "pct_indexador": 100, "taxa": None, "vencimento": "2030-04-10"},
+    "25G5827604": {"tipo": "CRI", "incentivada": False, "indexador": "DI", "pct_indexador": 109, "taxa": 0, "vencimento": "2029-12-19"},
+    "CRA02400CI3": {"tipo": "CRA", "incentivada": False, "indexador": "DI", "pct_indexador": 100, "taxa": 5, "vencimento": "2028-11-21"},
+    "CRA024004H7": {"tipo": "CRA", "incentivada": False, "indexador": "DI", "pct_indexador": 100, "taxa": 0, "vencimento": "2029-04-12"},
+}
+NEGOCIOS_BRKMA6 = [neg_rf("DEB", "BRKMA6", "BRASKEM S/A", 2275, 1.07e6, 54.3298) for _ in range(14)]
+
+
+def test_em_di_o_cadastro_decide_se_a_taxa_e_premio_sobre_o_cdi_ou_percentual_do_cdi(capsys):
+    import mesa
+    conv = renda_fixa.convencao
+    brkm, csna, cra = CADASTRO_DI["BRKMA6"], CADASTRO_DI["CSNAA1"], CADASTRO_DI["CRA02400CI3"]
+    # o cadastro diz DI + taxa: a taxa do negocio e premio sobre o CDI dos dois lados do corte de 30
+    assert [conv(brkm, t) for t in (1.9, 54.3298, 115.6776)] == ["CDI+"] * 3
+    assert conv(csna, 29.1166) == conv(csna, 50.0633) == "CDI+"                # o papel nao troca de leitura de um dia para o outro
+    assert conv(cra, 5.0) == conv(cra, 37.4796) == "CDI+"                      # vale igual para CRI e CRA com DI + taxa no cadastro
+    # o cadastro diz percentual do DI, sem taxa: a taxa do negocio e percentual do CDI dos dois lados do corte
+    assert conv(CADASTRO["24H1684874"], 98.16) == conv(CADASTRO["24H1684874"], 14.4487) == "% do CDI"      # 97,5% do indexador
+    assert conv(CADASTRO_DI["KLBNA2"], 102.94) == conv(CADASTRO_DI["KLBNA2"], None) == "% do CDI"
+    cri = CADASTRO_DI["25G5827604"]
+    assert conv(cri, 113.1) == conv(cri, 1.35) == "% do CDI"                   # negocio fora de preco nao vira premio sobre o CDI
+    # o cadastro nao decide: ai, e so ai, vale a grandeza da taxa, e o corte e 30
+    cem = CADASTRO_DI["CRA024004H7"]                                           # 100% do indexador sem taxa
+    assert [conv(cem, t) for t in (101.2, 45.0, 30.01)] == ["% do CDI"] * 3 and conv(CADASTRO_DI["DMCA11"], 148.96) == "% do CDI"
+    assert [conv(cem, t) for t in (30.0, 12.0, 0.9, None)] == ["CDI+"] * 4
+    hibrido = {"indexador": "DI", "pct_indexador": 110, "taxa": 1.0}           # percentual com taxa
+    plii = {"indexador": "DI", "pct_indexador": None, "taxa": 2.5}             # PLII11: sem percentual
+    assert conv(hibrido, 50.0) == conv(plii, 50.0) == "% do CDI" and conv(hibrido, 2.0) == conv(plii, 2.6) == "CDI+"
+    torto = {"indexador": "DI", "pct_indexador": 3, "taxa": None}              # 26H3987638: "3% do DI" nao e remuneracao
+    assert (conv(torto, 3.1), conv(torto, 104.0), conv(torto, None)) == ("CDI+", "% do CDI", "% do CDI")
+    # numero que chegar como texto no cadastro nao derruba o pregao
+    assert conv({"indexador": "DI", "pct_indexador": "100", "taxa": "1,75"}, 54.3298) == "CDI+"
+    assert conv({"indexador": "DI", "pct_indexador": "109", "taxa": ""}, 1.35) == "% do CDI"
+
+    linhas = NEGOCIOS_BRKMA6 + [
+        neg_rf("DEB", "CSNAA2", "COMPANHIA SIDERURGICA NACIONAL", 5000, 5e6, 1.20),
+        neg_rf("DEB", "AALM12", "AURA ALMAS MINERACAO S.A.", 4000, 4e6, 0.75),
+        neg_rf("DEB", "CSNAA1", "COMPANHIA SIDERURGICA NACIONAL", 12, 7572.6, 51.2123),
+        neg_rf("CRI", "24H1684874", "RIZA SECURITIZADORA S.A.", 2000, 2e6, 98.16),
+        # um negocio grande fora de preco puxa a media do CRI de 109% do DI para 6,85: nao e CDI + 6,85%
+        neg_rf("CRI", "25G5827604", "RIZA SECURITIZADORA S.A.", 4000, 5.8e6, 1.35),
+        neg_rf("CRI", "25G5827604", "RIZA SECURITIZADORA S.A.", 300, 0.3e6, 113.1),
+        neg_rf("CRA", "CRA024004H7", "RIZA SECURITIZADORA S.A.", 3000, 3.2e6, 101.2),
+        neg_rf("CRA", "CRA02400CI3", "CANAL COMPANHIA DE SECURITIZACAO", 12000, 6e6, 37.4796)]
+    b = bruto_rf(linhas)
+    b["rf_cadastro"].update(CADASTRO_DI)
+    # o CRA saiu a 5,00, a taxa de emissao, no ultimo pregao em que negociou
+    r = resumo.montar(b, CFG, LIVRO, {}, rf_estado={"CRA02400CI3": [["2026-09-28", 5.0, 652.0]]})
+    rf, todos = r["renda_fixa"], r["_apoio"]["rf_linhas"]
+    assert todos["BRKMA6"]["convencao"] == todos["CSNAA1"]["convencao"] == "CDI+" and todos["BRKMA6"]["taxa_media"] == 54.3298
+    com = rf["resumo"]["deb_comum"]
+    assert com["por_indexador_pct"] == {"CDI+": 100.0}                         # os R$ 15,0 mi da BRKMA6 nao viram "% do CDI"
+    # a media ponderada pelo volume carrega o papel em estresse (R$ 15,0 mi a 54,33 em R$ 24,0 mi); a mediana e o centro do dia
+    assert com["premio_cdi_medio"] == 34.31 and com["premio_cdi_mediano"] == 1.2
+    assert {m["convencao"] for m in rf["maiores_negocios"] if m["codigo"] == "BRKMA6"} == {"CDI+"}
+    # CRI e CRA de percentual do CDI seguem percentual, mesmo com a media do dia abaixo de 30...
+    assert [(l["codigo"], l["convencao"], l["taxa_media"]) for l in rf["papeis"]["cri"]] == [
+        ("25G5827604", "% do CDI", 6.8459), ("24H1684874", "% do CDI", 98.16)]
+    assert rf["resumo"]["cri"]["por_indexador_pct"] == {"% do CDI": 100.0} and "premio_cdi_medio" not in rf["resumo"]["cri"]
+    # ...e o CRA com DI + taxa no cadastro passa a aparecer como estresse: so ele, nao o CRI de negocio fora de preco
+    assert [(l["codigo"], l["convencao"]) for l in rf["papeis"]["cra"]] == [("CRA02400CI3", "CDI+"), ("CRA024004H7", "% do CDI")]
+    assert rf["resumo"]["cra"]["por_indexador_pct"] == {"CDI+": 65.2, "% do CDI": 34.8} and rf["resumo"]["cra"]["premio_cdi_medio"] == 37.48
+    assert [l["codigo"] for l in rf["premios_altos"]] == ["CRA02400CI3"]
+    textos = {s["tipo"]: s["texto"] for s in r["sinais"] if s["tipo"].startswith("rf_")}
+    assert textos["rf_premio_alto"] == "CRA02400CI3 (Canal Companhia de Securitizacao, CRA): negociada a CDI+ 37,48%, em R$ 6,0 mi."
+    # premio sobre o CDI tem variacao em pontos-base: o papel que sai da taxa de emissao para o estresse entra em quem abriu taxa
+    assert [(l["codigo"], l["var_taxa_pb"], l["comparado_com"]) for l in rf["aberturas"]] == [("CRA02400CI3", 3248, "2026-09-28")]
+    assert textos["rf_abertura"] == ("CRA02400CI3 (Canal Companhia de Securitizacao, CRA): taxa média dos negócios da B3 abriu 3.248 pb "
+                                     "contra 28/09, para CDI+ 37,48%, em R$ 6,0 mi.")
+    assert len([s for s in r["sinais"] if s["tipo"].startswith("rf_")]) == 2
+    r.pop("_apoio")
+    assert mesa._boletim_rf(r) == 0
+    tela = capsys.readouterr().out
+    classe = next(l for l in tela.splitlines() if l.strip().startswith("debentures nao incentivadas"))
+    assert "| CDI+ mediano 1,20% medio 34,31% |" in classe                     # a linha da classe mostra as duas
+    assert "CDI+ 37,48%" in tela and "6,8% do CDI" in tela and "CDI+ 6,85%" not in tela and "37,5% do CDI" not in tela
+
+
 def test_renda_fixa_mede_abertura_de_taxa_contra_o_ultimo_negocio_visto_e_avisa():
     linhas = [neg_rf("DEB", "AESLD2", "RGE SUL DISTRIBUIDORA DE ENERGIA S/A", 30000, 30e6, 8.21),
               neg_rf("DEB", "RISP24", "AGUAS DO RIO 1 SPE S.A", 20000, 27e6, 12.06)]
@@ -1227,6 +1315,40 @@ def test_indicativa_em_outra_convencao_ou_sem_taxa_nao_substitui_a_dos_negocios(
     assert renda_fixa.referencia({"codigo": "X", "sem_negocio": True}, D) == {}
     assert renda_fixa.rotulo_fonte(cgos["ref"]) == "B3 negócios de 29/09"
     assert renda_fixa.rotulo_fonte({"fonte": "anbima", "data": "2026-09-30"}) == "ANBIMA indicativa de 30/09"
+
+
+# As duas linhas como a ANBIMA publicou em 30/09/2026: a BRKMA6 sem taxa (so o PU, a 44% do par) e a CSNAA1 com indicativa.
+ANBIMA_ESTRESSE = (ANBIMA_TXT
+                   + "BRKMA6@BRASKEM S/A (*)@12/05/2029@DI + 1,75%@--@--@--@--@--@--@470,622409@44,3826@N/D@35@\n"
+                   + "CSNAA1@COMPANHIA SIDERÚRGICA NACIONAL (*) (**)@10/11/2028@DI + 1,65%@--@17@17,0439@0,2372@16,8067@17,2812"
+                     "@875,78364@82,5742@335,23@@\n")
+
+
+def test_debenture_em_di_mais_taxa_em_estresse_fala_a_lingua_da_anbima_e_a_indicativa_vale(capsys):
+    import mesa
+    hoje = anbima.ler(ANBIMA_ESTRESSE)
+    antes = {c: dict(p, indicativa=17.0739) if c == "CSNAA1" else p for c, p in hoje.items()}
+    cfg = dict(CFG, renda_fixa=dict(CFG["renda_fixa"], papeis=["CSNAA1", "BRKMA6"]))
+    linhas = NEGOCIOS_BRKMA6 + [neg_rf("DEB", "CSNAA1", "COMPANHIA SIDERURGICA NACIONAL", 12, 7572.6, 51.2123)]
+    r = resumo.montar(bruto_2036(linhas, anbima_do_pregao(hoje, antes=antes), CADASTRO_DI), cfg, LIVRO, {})
+    r.pop("_apoio")
+    csna, brkm = r["renda_fixa"]["acompanhados"]
+    # 51,21 lido como percentual do CDI nao falava a lingua da ANBIMA (DI + 1,65%), e a indicativa ficava de fora da referencia
+    assert csna["convencao"] == "CDI+" and "convencao" not in csna["anbima"] and csna["taxa_media"] == 51.2123
+    assert csna["ref"] == {"taxa": 17.0439, "fonte": "anbima", "data": D, "var_pb": -3.0, "var_contra": "2026-09-28"}
+    # a ANBIMA lista a BRKMA6 sem taxa: vale a dos negocios, lida como premio sobre o CDI, e o PU em % do par fica guardado
+    assert brkm["convencao"] == "CDI+" and "convencao" not in brkm["anbima"] and brkm["anbima"]["pct_pu_par"] == 44.3826
+    assert brkm["ref"] == {"taxa": 54.3298, "fonte": "b3", "data": D}
+    assert mesa._boletim_rf(r) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA indicativa de 29/09: CDI+ 17,04%" in tela and "B3 negocios de 29/09: CDI+ 51,21%" in tela
+    assert "B3 negocios de 29/09: CDI+ 54,33%" in tela and "CONVENCAO DIFERENTE" not in tela and "do CDI" not in tela
+    md = render.markdown(r)
+    assert "| CSNAA1 | CDI+ 17,04% (ANBIMA indicativa de 29/09) | CDI+ 51,21%, R$ 7,6 mil | - |" in md
+    assert "| BRKMA6 | CDI+ 54,33% (B3 negócios de 29/09) | R$ 15,0 mi | - |" in md
+    assert "- BRKMA6, ANBIMA de 29/09: PU R$ 470,62 (44,4% do par)." in md and "convenção diferente" not in md
+    ficha = _secao_rf(painel.pagina(r, {})).split("Papéis que você acompanha", 1)[1].split("Mais negociados do dia", 1)[0]
+    assert "CDI+ 17,04%" in ficha and "CDI+ 54,33%" in ficha and "do CDI" not in ficha
 
 
 def test_dap_da_indicativa_de_outro_pregao_vem_do_resumo_guardado_daquele_pregao(tmp_path):

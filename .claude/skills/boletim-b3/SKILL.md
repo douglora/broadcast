@@ -128,7 +128,7 @@ Sem cache de CDN: `git fetch origin dados` e `git show origin/dados:boletim_b3/<
 | Negocios (`TradeInformationConsolidated`) | Fechamento, oscilacao, volume e numero de negocios de cada ativo | Volume acima de 2x a media de 20 pregoes sem noticia e o sinal; com noticia, e a confirmacao |
 | Opcoes (`DerivativesOpenPosition` + cadastro) | Posicao em aberto por strike e vencimento, put/call, parcela a descoberto, dor maxima, series que mais ganharam e perderam posicao | Parede = strike de maior posicao fora do dinheiro (call acima do preco e teto, put abaixo e piso); perto do vencimento o preco costuma ser atraido ou travado por ela. Serie bem dentro do dinheiro ganhando posicao, ou call e put no mesmo strike, e operacao estruturada, nao aposta de direcao |
 | Futuros e quadro (`AnalyticalFramework2`) | Ajuste e taxa do DI, DAP, dolar e indice; contratos em aberto por mercado; calls e puts de dolar | DI abrindo com construtoras (CURY3, DIRR3, MRVE3) e utilities caindo e o cruzamento classico; contratos em aberto subindo com preco andando = posicao nova, nao zeragem |
-| Renda fixa (`Trade` + `InstrumentRegistration`, e a taxa indicativa da ANBIMA nas debentures) | Debentures incentivadas, CRI e CRA: taxa de referencia de cada papel (`ref`), taxa dos negocios do dia ao lado, premio sobre o DAP, quem abriu e quem fechou taxa, emissores; nos papeis acompanhados, tambem compra, venda, PU e duration | Curva de credito incentivado do dia (taxa x prazo medio contra o juro real); indicativa abrindo 30 pb de um dia para o outro e o mercado repricando o risco; premio acima de 300 pb e estresse; negocios do dia muito abaixo da indicativa e varejo comprando caro |
+| Renda fixa (`Trade` + `InstrumentRegistration`, e a taxa indicativa da ANBIMA nas debentures) | Debentures incentivadas, CRI e CRA: taxa de referencia de cada papel (`ref`), taxa dos negocios do dia ao lado, premio sobre o DAP, quem abriu e quem fechou taxa, emissores; nos papeis acompanhados, tambem compra, venda, PU e duration | Curva de credito incentivado do dia (taxa x prazo medio contra o juro real); indicativa abrindo 30 pb de um dia para o outro e o mercado repricando o risco; premio acima de 300 pb sobre o juro real, ou de 5% sobre o CDI em papel de DI + taxa, e estresse; negocios do dia muito abaixo da indicativa e varejo comprando caro |
 | ETFs (`IOPV` + cadastro) | Valor de referencia da cota e numero de cotas emitidas | Premio ou desconto do SMAL11 sobre a cota; criacao de cotas = dinheiro novo entrando. RARA11 nao tem IOPV no boletim: a paridade sai contra o REMX x cambio |
 | ADR (`Custody`) | Acoes de cada empresa custodiadas no programa de ADR | Variacao do saldo = fluxo pelo recibo em Nova York |
 | Carteiras e previas (`PreviaQuadrimestral`, `Previa`) | Peso de cada acao no Ibovespa e nos setoriais; previas da proxima carteira | Entrada, saida ou mudanca de peso de ativo do livro vira alerta: fundo passivo compra e vende na virada |
@@ -178,6 +178,26 @@ Como escrever:
 - Debenture com duration abaixo de um ano aparece sem premio sobre o juro real: o DAP de menos de
   um ano nao serve de referencia. E limite do metodo, nao falha; nao complete com conta propria.
   Papel em percentual do CDI tambem nao tem variacao em pontos-base.
+- Papel em DI: `convencao` diz se a taxa e premio sobre o CDI (`CDI+`) ou percentual do CDI (`% do CDI`).
+  O runner decide pelo cadastro da B3, nos dois sentidos; nunca converta uma leitura na outra.
+  - DI + taxa no cadastro: a taxa do negocio e premio por mais alta que seja. Um `CDI+ 37,48%` num CRA nao
+    e erro de leitura nem percentual do CDI: e papel negociando em estresse (medido em 01/10/2026: BRKMA6,
+    DI + 1,75%, saiu a CDI + 54,33% em 30/09 com o PU a 44% do par). Escreva como estresse, com o volume ao
+    lado e, quando o papel tiver o bloco `anbima`, o PU em % do par (`anbima.pct_pu_par`). Em debenture
+    incentivada, CRI e CRA, premio de 5% ou mais sobre o CDI com R$ 3 mi ou mais no dia entra em
+    `premios_altos` (limiares em config/boletim.yaml).
+  - Papel em estresse alterna, de um dia para o outro, entre negocio na taxa de emissao e negocio na taxa
+    do estresse (CRA02400CI3: 5,00 em 25/09, 34,02 em 29/09, 5,00 em 30/09). Em CRI e CRA, abertura ou
+    fechamento de milhares de pontos-base pelos negocios da B3 e essa alternancia: diga as duas taxas e os
+    dois dias, nao "o mercado repricou".
+  - Percentual do DI no cadastro: a taxa e percentual do CDI por mais baixa que seja. Media do dia muito
+    abaixo de 100% do CDI (`taxa_min` longe de `taxa_max`) e negocio fora de preco puxando a media, nao
+    premio nem estresse: o CRI 25G5827604 (109% do DI) saiu a 1,94% do CDI em 29/09 com o PU 45% acima dos
+    outros negocios do dia. Diga a faixa (`taxa_min` a `taxa_max`), nao a media.
+- A media de CDI+ de uma classe e ponderada pelo volume, e um papel em estresse a puxa sozinho (debentures
+  nao incentivadas em 30/09/2026: media 1,62%, mediana 0,99%). Para dizer onde esta o premio da classe use
+  a mediana (`premio_cdi_mediano`; `boletim rf` mostra as duas); a media so entra com o papel que a puxou
+  escrito ao lado.
 - Papel acompanhado (`renda_fixa.papeis` em config/boletim.yaml) aparece pela indicativa mesmo
   sem negocio no dia e da sinal (`rf_abertura`) quando ela abre 30 pb ou mais, com qualquer giro.
 - Negocios do dia muito abaixo da indicativa, em muitos negocios pequenos, e o varejo pagando

@@ -1431,13 +1431,13 @@ def _boletim_rf(resumo):
     for cl, v in rf["resumo"].items():
         print(f"   {nomes.get(cl, cl):28s} R$ {fmt((v.get('volume_rs') or 0) / 1e6, 1):>9s} mi | {v.get('negocios')} negocios em {v.get('papeis')} papeis"
               f" | IPCA+ mediano {fmt(v.get('taxa_ipca_mediana'), 2)}% medio {fmt(v.get('taxa_ipca_media'), 2)}% | premio s/ DAP {fmt(v.get('premio_dap_medio_pb'), 0)} pb"
-              f" | CDI+ medio {fmt(v.get('premio_cdi_medio'), 2)}% | x media {fmt(v.get('volume_x_media'), 2)}")
+              f" | CDI+ mediano {fmt(v.get('premio_cdi_mediano'), 2)}% medio {fmt(v.get('premio_cdi_medio'), 2)}% | x media {fmt(v.get('volume_x_media'), 2)}")
         de, nd = v.get("taxa_fontes") or {}, v.get("negocios_do_dia") or {}
         if de:
             origem = (f"ANBIMA indicativa de {_dm(anb.get('data'))} em {de['anbima']} de {sum(de.values())} papeis" if de.get("anbima")
                       else f"B3 negocios de {_dm(pregao)}")
             ao_lado = (f" | pelos negocios do dia (B3 {_dm(pregao)}): IPCA+ mediano {fmt(nd.get('taxa_ipca_mediana'), 2)}% medio {fmt(nd.get('taxa_ipca_media'), 2)}%"
-                       f", CDI+ medio {fmt(nd.get('premio_cdi_medio'), 2)}%" if nd else "")
+                       f", CDI+ mediano {fmt(nd.get('premio_cdi_mediano'), 2)}% medio {fmt(nd.get('premio_cdi_medio'), 2)}%" if nd else "")
             print(f"   {'':28s} taxa: {origem}{ao_lado}")
     meus = rf.get("acompanhados") or []
     if meus:
