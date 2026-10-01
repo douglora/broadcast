@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 21h29
+NOTÍCIAS E FATOS · 01/10 08h35
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 34 sem ativo, 8 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 437 veículo fora da lista, 40 sem ativo, 44 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -15,7 +15,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco o…'
 Fonte: CVM 30/09
-id: E03-BBDC4-1572956-2026-09-30 · status: pendente · íntegra disponível
+id: E03-BBDC4-1572956-2026-09-30 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E03 · AXIA3 · Fato Relevante: Seu Conselho de Administração aprovou, nesta data, a alocação de capital adicional de até R$ 4,0 bilhões referente ao resultado parcial do segundo se…
 CVM · entregue 30/09/2026 08:22
@@ -46,7 +46,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: PETR4
 Como falar: 'a Petrobras publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 30/09
-id: E03-PETR4-1573013-2026-09-30 · status: linha
+id: E03-PETR4-1573013-2026-09-30 · status: entregue
 
 [INFO] E03 · BBDC4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 30/09/2026 18:40 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -55,7 +55,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 30/09
-id: E03-BBDC4-1572984-2026-09-30 · status: linha
+id: E03-BBDC4-1572984-2026-09-30 · status: entregue
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 30/09/2026 17:01 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -64,7 +64,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: VALE3
 Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 30/09
-id: E03-VALE3-1572835-2026-09-30 · status: linha
+id: E03-VALE3-1572835-2026-09-30 · status: entregue
 
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
@@ -85,7 +85,57 @@ Fonte: SEC EDGAR 2026-09-30
 id: E04-MU-26000018-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (23)
+## NOTÍCIAS COM MATERIALIDADE (27)
+
+[ATENÇÃO] E05 · ITUB4 · Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agenda
+InfoMoney · 01/10 05h00 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Publicidade Pelo menos 24 empresas listadas na B3 vão distribuir dividendos e juros sobre capital próprio (JCP) em outubro, segundo levantamento do Research da XP.
+  – Entre os destaques do mês estão Ambev, B3 e Lojas Renner, além da JSL, que paga o maior valor por ação da agenda.
+  – A JSL distribui R$ 0,7401 por ação em dividendos no dia 2, aos investidores que tinham JSLG3 em carteira até 29 de dezembro de 2025.
+  – A Ambev (ABEV3) paga JCP de R$ 0,1185 por ação no dia 6, referente a posições de 18 de dezembro de 2025.
+  – No dia 7, a B3 (B3SA3) concentra três parcelas de JCP que somam R$ 0,3011 por ação.
+  – A Lojas Renner (LREN3) distribui R$ 0,2407 por ação em JCP no dia 14.
+Link: https://www.infomoney.com.br/onde-investir/ambev-b3-itau-e-mais-empresas-pagam-dividendos-em-outubro-veja-a-agenda/amp/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no InfoMoney: Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agenda; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 01/10 05h00
+id: E05-ITUB4-184a7b3008-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · JPM · Key facts: META's Muse launch; $140B 2024 capex; JPMorgan $920 PT
+TradingView (Reuters) · 01/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:fccd1128c707d:0-key-facts-meta-s-muse-launch-140b-2024-capex-jpmorgan-920-pt/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM · META
+Como falar: 'saiu no TradingView (Reuters): Key facts: META's Muse launch; $140B 2024 capex; JPMorgan $920 PT; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 01/10 04h00
+id: E05-JPM-6df2dd99bf-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · AMD · HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios order
+Yahoo Finance · 30/09 18h12 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Hewlett Packard Enterprise (HPE) stock closed at a record high price of $63.89 on Wednesday after shares jumped nearly 4% in the day's trading session.
+  – Year to date, the stock has surged 166%.
+  – "Demand is continuing to outpace supply.
+  – It's no doubt that we continue to be in a supply-constrained environment," Hewlett Packard Enterprise CFO Marie Myers told Yahoo Finance on Wednesday.
+  – The company also raised its fiscal year 2027 revenue growth outlook for the segment and now sees a growth rate in the high-teens to low-20s range.
+  – Networking segment operating margins are forecast in the mid-to-high 20s percent range.
+Link: https://finance.yahoo.com/markets/stocks/article/hpe-stock-closes-at-record-high-on-growing-networking-orders-12-billion-amd-helios-order-211204477.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Yahoo Finance: HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios ord…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/09 18h12
+id: E05-AMD-d446b9c915-2026-09-30 · status: pendente
+
+[ATENÇÃO] E05 · EWY · Stock market prediction for tomorrow: Sensex, Nifty outlook for Thursday | Kospi, Taiwan cues to watch | 1 Oct 2026
+TradingView (Reuters) · 30/09 11h04 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/moodys:3f45482a4648e:0-stock-market-prediction-for-tomorrow-sensex-nifty-outlook-for-thursday-kospi-taiwan-cues-to-watch-1-oct-2026/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: EWY
+Como falar: 'saiu no TradingView (Reuters): Stock market prediction for tomorrow: Sensex, Nifty outlook for Thursday | Kospi, Taiwan…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 30/09 11h04
+id: E05-EWY-752ae63371-2026-09-30 · status: linha
 
 [ATENÇÃO] E05 · BABA · MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller R…
 PR Newswire · 30/09 21h00 · fonte única · licença: integral
@@ -101,7 +151,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no PR Newswire: MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Hav…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 30/09 21h00
-id: E05-BABA-19205b4b00-2026-10-01 · status: pendente · íntegra disponível
+id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · MU · Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.
 Barron's · 30/09 19h24 · fonte única · licença: manchete
@@ -110,7 +160,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Barron's: Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.; confirmar o número no texto antes de repassar'
 Fonte: Barron's 30/09 19h24
-id: E05-MU-01fe39c174-2026-09-30 · status: pendente
+id: E05-MU-01fe39c174-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o "Pix" internacional
 Seu Dinheiro · 30/09 19h34 · fonte única · licença: resumo
@@ -126,7 +176,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBDC4
 Como falar: 'saiu no Seu Dinheiro: Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 30/09 19h34
-id: E05-BBDC4-878e32afb9-2026-09-30 · status: pendente
+id: E05-BBDC4-878e32afb9-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook
 Yahoo Finance · 30/09 19h18 · + Investing.com · licença: resumo
@@ -140,7 +190,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/09 19h18
-id: E05-MU-5ada9f0547-2026-09-30 · status: pendente
+id: E05-MU-5ada9f0547-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
 Estadao · 30/09 18h53 · fonte única · licença: manchete
@@ -149,7 +199,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBDC4
 Como falar: 'saiu no Estadao: Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação; confirmar o número no texto antes de repassar'
 Fonte: Estadao 30/09 18h53
-id: E05-BBDC4-0a605ec2db-2026-09-30 · status: pendente
+id: E05-BBDC4-0a605ec2db-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco aprova R$3,8 bi em JCP
 TradingView (Reuters) · 30/09 18h38 · fonte única · licença: manchete
@@ -158,7 +208,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBDC4
 Como falar: 'saiu no TradingView (Reuters): Bradesco aprova R$3,8 bi em JCP; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 30/09 18h38
-id: E05-BBDC4-60fe8fcfe5-2026-09-30 · status: linha
+id: E05-BBDC4-60fe8fcfe5-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Outlines Upbeat Outlook, Reports Strong Results as Memory Prices Rise
 Yahoo Finance · 30/09 18h14 · fonte única · licença: resumo
@@ -170,7 +220,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Outlines Upbeat Outlook, Reports Strong Results as Memory Prices Rise; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 30/09 18h14
-id: E05-MU-4b6c0c6570-2026-09-30 · status: linha
+id: E05-MU-4b6c0c6570-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron reports better-than-expected revenue and earnings, beats on guidance
 CNBC · 30/09 17h15 · fonte única · licença: resumo
@@ -179,7 +229,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no CNBC: Micron reports better-than-expected revenue and earnings, beats on guidance; confirmar o número no texto antes de repassar'
 Fonte: CNBC 30/09 17h15
-id: E05-MU-7eebb8fddb-2026-09-30 · status: linha
+id: E05-MU-7eebb8fddb-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold
 CNBC · 30/09 17h15 · fonte única · licença: resumo
@@ -195,7 +245,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU
 Como falar: 'saiu no CNBC: Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold; confirmar o número no texto antes de repassar'
 Fonte: CNBC 30/09 17h15
-id: E05-MU-f24d946df6-2026-09-30 · status: linha
+id: E05-MU-f24d946df6-2026-09-30 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ)
 Seeking Alpha · 30/09 17h08 · fonte única · licença: manchete
@@ -345,8 +395,23 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (150)
+## OUTRAS NOTÍCIAS (só manchete) (165)
 
+· BBDC4 Assaí, Bradesco, Desktop, Panvel, JSL, Dasa e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/assai-bradesco-desktop-panvel-jsl-dasa-e-mais-acoes-para-acompanhar-hoje/
+· BTC Bitcoin and ethereum prices today, Thursday, October 1, 2026: Not much price movement this morning, but Citigroup says that will change (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-1-2026-not-much-price-movement-this-morning-but-citigroup-says-that-will-change-113313201.html
+· TSLA Tesla Trades at 350 Times Earnings. Here's What Has to Be True for That to Make Sense. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-trades-350-times-earnings-112000500.html
+· BRENT Dow Jones hoje cai com petróleo acima de US$ 100 e juros dos EUA nas máximas no 1º pregão de outubro (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-acima-de-us-100-e-juros-dos-eua-nas-maximas-no-1-pregao-de-outubro/
+· MU Why Micron’s 87% Gross Margin Is a Problem (Barron's) https://www.barrons.com/articles/micron-stock-price-gross-margin-e9d62ae0
+· BTC Bitcoin just landed a surprising new bull (Yahoo Finance) https://finance.yahoo.com/markets/crypto/article/bitcoin-just-landed-a-surprising-new-bull-104334737.html
+· BTC Bitcoin holds above $83K as rally on lower US inflation data fades (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:d53b6e6cd094b:0-bitcoin-holds-above-83k-as-rally-on-lower-us-inflation-data-fades/
+· MU Micron keeps the memory party going (Fortune) https://fortune.com/2026/10/01/micron-earnings-memory-boom/
+· USDBRL Debate no Globo e Datafolha dividem atenção do investidor com dados de atividade econômica; Ibovespa em dólar cai nesta quinta-feira (1) (Money Times) https://news.google.com/rss/articles/CBMigAJBVV95cUxNNEZLVnE5ZjdyNDhmOWlDbk1nSGFuUUpRUy02c01sMjRUbFVwRTBwQlFvT1dwZXQ2QU1xbllBZ1gzUFhnSG9rN1FWVXNjZTJoY3MzLTQ1eVFzamZudHJiUkJRdWdiMXdZMndmenNFYWxYSG94dTZiakplQklQdEc0RXdsT0IxZlBJMlBhbHZDcDY5bjI1LUttaGZPeUg4bU1YQWN2ck5sSDBCbWUyZkFSUWREZE1xVkRyRG5TaEhmRjV2Z3YtSTZXMUU0ZmItOWtXSVgxc1ZMOFZqTjkzU28tQ0txU3lKUlBiS2p0dkpRZWw5dWVsMHM4Q2tNUi1jZjhi?oc=5
+· MU Nvidia, AMD and Intel rise on Micron earnings, so why is MU stock falling? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixwFBVV95cUxQYTFkRE8yOVJoSm1TenlIZlFYeGc5dFV4QllFNDVHWXYwVHowWWYtMnhGOENwTktoODJaQTRNOGFaMVRzSVJXMjFXVjhvWkpWTUVDYWJkSUczN2NKa3Y4QmJ3ZWdHNWJiSUx1alpsZmlZaGs2bnJ0NlVHeUVmeFNtUVA4eUpXbzV1dXlxdC16ZjhqcmRYczdiR3ZDTlBnTmw4Z0RRb29lZjJFaUY3TlIwLWh3M25uNUc0T21kLW5RWTFEbUZrckJn?oc=5
+· LITE Lumentum Announces Speaker Lineup at 2026 OCP Global Summit (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxPNm1nUHFkQ25zV1JwM25IM25XcUhBUFYwa0lpeDNWM2Y2N0VrckdoQjRnNldzQndsa0J5MEVZNmlCbUN5QU5qYy0xOVFETm4tbU5MQ1R0OW5EYm5nWWszRnZQMXpzRzlnVjlyTDlRbzJfcUdOYXlkN0VVTzdCVHd3TERxMUpBRDkyNjd2SXkxWmw?oc=5
+· UST Gold Edges Lower as Treasury Yields and Dollar Offset Softer US Inflation Data (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxQLU82WWJBTS1OQmUwSlBoQ3YtNzB5MzJmUmVuQy1vSzhpd3hRZ19ueVd1bTdURFRfUTBfNXp2MWdlTm9sNThicDZRbjRnLXRxa052ck1sYl9oYUpvQmhYa3pldEI4SUxraUtaZUJzb3ZLbXV3ZGJ5MnJjMDl1WWRRUWVwYnE1YXlqT05KMGlvMUlSUWtybVByUGU5Y3R0T2NOakNQOQ?oc=5
+· MU US Futures Mixed as Micron Outlook and Nike Results Take Focus: Dow Jones, S&P, Nasdaq, Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQYmxKXy1NQkpOcHpkaWkxLTJTOTRxUnUzOXZlTlpLWkJRd2R5ZUZ4TjFtTlh0WWxQdnlscnZ0alNKMXZyRWtWblQzUGJsQnMzYWtMQklwTGlheEdjSi1CUHFfZEJrMWFETVY4anhaYTVYOVNnNlVuYjl6T1ZPanZxeU91NDJiRm5ETTF6ZkkzaGtkUjhwMTZHbTNoQWc?oc=5
+· MU Dow futures hit three-month low as yields surge, Micron earnings offer support (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
+· MU Micron just blew Wall Street away again—here's what's next (Yahoo Finance) https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUm1mVGJRV1dJMXJTalR1S3hMSXdjaDlKcnk1b2xUWmJ2WWlJcXUyUWVDTEJfUjNBYWY5amZfRkVXNUU2LTY3WExVNlpmZ2drTFJmclFaY1NEY3NwRVJiLTU4b3ZJQlRnQTFVMkI4UzRtZTRnMWp6WFFFY0lPMlBFUXVFR0FNemRYOWpuY3h0b1ZJMEpfTE1HOWtQdHRZWkNEQXllMFR2UHlnTERndmM0b1R1aF9sVnplVzhn?oc=5
 · MU We're raising our Micron price target after an incredible quarter and robust guidance (CNBC) https://www.cnbc.com/2026/09/30/were-raising-our-micron-price-target-after-an-incredible-quarter-and-robust-outlook.html
 · LITE Lumentum president Yuen sells $764,365 in company stock (Investing.com) https://www.investing.com/news/insider-trading-news/lumentum-president-yuen-sells-764365-in-company-stock-93CH-4926093
 · MU Micron’s Revenue More Than Quadrupled. Here’s What Comes Next for the AI Chipmaker. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/micron-revenue-more-quadrupled-comes-231401715.html
@@ -392,19 +457,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · AMD AMD Just Got a $1,000 Price Target as AI Demand Accelerates (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiugFBVV95cUxNUW1xV21ZVlBGSnRzMVdFajVCTlFkd0luZjhFbDJtNlMyS2tWTmlqYkdHbXZUUWs5eS1wT09YSEtXekVCYnNtZnYzLXhGRmtvUHNsLW5IQzlsVTR1RlFVR0RCbHhxUEpweG13SURuWjFkbGZDWUNsTm90VG5WdHFyb3paSEplTE0taU0zbW5tN1pOSWNEcm44bnFLYU5lRjREalhRSC1FYU5JSXlNM211NVlVY01UMzdNVHc?oc=5
 · USDBRL Tempo real: Ibovespa sobe 2% com dados de inflação nos EUA; dólar cai (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBMbmNQUFliTDd0cXdOM19RYUhLQjdZS1FKZVROQmVHV1Fza1JvbDdrRUdaSFNxWGczWFNaQXBaWHIzcjB3aXdFcktncDV1bXpkdS03aFIycHJxOEs0QjJCZk92YjdsMHdnQjNB?oc=5
 · MU Cantor Fitzgerald’s CJ Muse on Micron earnings: Expectations are high (CNBC) https://www.cnbc.com/video/2026/09/30/cantor-fitzgeraldas-cj-muse-on-micron-earnings-expectations-are-high.html
-· ITUB4 Bancos fazem alegria de investidores nesta terça; ITUB4 salta 5% e BBSA3 e BBDC4 também sobem forte (Money Times) https://www.moneytimes.com.br/bancos-fazem-alegria-de-investidores-nesta-terca-itub4-salta-5-e-bbsa3-e-bbdc4-tambem-sobem-forte/
-· UST U.S. 10-year Treasury yield crosses 5.30% to highest since 2002 (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4648694-us-10-year-treasury-yield-crosses-530-to-highest-since-2002
-· JPM JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpm-vs-bac-bank-built-181543918.html
-· MU Micron Stock Flashes New Warning Sign Before Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stock-flashes-warning-sign-180354799.html
-· AMD SA analyst upgrades/downgrades: AMD, QCOM, NWL, PLTR (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:58548f07c094b:0-sa-analyst-upgrades-downgrades-amd-qcom-nwl-pltr/
-· PETR4 Ibovespa ganha força com bancos, Petrobras e eleições; dólar recua para R$ 5,18 (Exame) https://exame.com/invest/mercados/ibovespa-ganha-forca-com-bancos-petrobras-e-eleicoes-dolar-recua-para-r-518/
-· KO Here's What to Expect From Coca-Cola’s Next Earnings Report (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-expect-coca-cola-next-122730213.html
-· UST 10-year Treasury yield are higher as traders look past inflation data, await jobs report (CNBC) https://news.google.com/rss/articles/CBMidEFVX3lxTE5GQlZiZlp1SF9QQThOeTVMdlZRdzFWWmJCQTNscjM0SXpCM1N0NnFqcEI4Uk5ZdVhyak5xQkplS0xseklzSVlNS3IzdUtvRXExNUNZcG1wYU5vVDA1LUlmeVNxdm5vbG5lYXpzQWhTdUFLNTlV0gF6QVVfeXFMTVpOSXVkYm1ua3ZWMy0tUFozWW1DM20zU3h3cExyR3lVckNPb240R1RYTFhJRUNPRkMtOU5pSmpPQTVRa1VYTmNYUnVBMTdpdURWQlJTeF84d1Rsc0xYS3VLZXF1SndfTzZHTXFMeTV2aGZ4X2J6SVlzUGc?oc=5
-· JPM JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE1reGk2UnVKM1I3QlhzQnhJTkRxRTQ0eVFOdEhPSHVRV1h3VnJ5VlFQYWtidlAzZVgyTEFuX183cURwNUVIYnY4TS1nVmtCVFZaSnc?oc=5
-· PETR4 ANP avança para reduzir concentração no mercado de gás apesar de resistência da Petrobras (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/09/anp-avanca-para-reduzir-concentracao-no-mercado-de-gas-apesar-de-resistencia-da-petrobras.shtml
-· MU Why Micron Earnings Hold the Key for This Wildly Popular ETF (Barron's) https://www.barrons.com/articles/micron-technology-ai-stock-earnings-dram-etf-cfd52805
-· AMD AMD Just Got a $1,000 Price Target as AI Demand Accelerates (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9fd2cdbe2094b:0-amd-just-got-a-1-000-price-target-as-ai-demand-accelerates/
-· PETR4 Petrobras: P-80 deixa Singapura rumo a Búzios e reforça produção no pré-sal (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-p-80-deixa-singapura-rumo-a-buzios-e-reforca-producao-no-pre-sal
-· INTC Intel Stocks Jump as OpenShell Adds Agent Policy Enforcement (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9f15feb11094b:0-intel-stocks-jump-as-openshell-adds-agent-policy-enforcement/
-· UST Update: US Equity Indexes Mixed as Higher Spending, Soft Inflation Print Split Moves in Treasury Yields (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-mixed-higher-172230640.html
-· (+90 manchetes; lista completa em eventos/noticias.json)
+· (+105 manchetes; lista completa em eventos/noticias.json)

@@ -1,118 +1,95 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
-(pendente de slot anterior) [ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco ou Sociedade) comunica aos seus acionistas e ao mercado em geral que o Conselho d…
-CVM · entregue 30/09/2026 18:36
-Do documento:
-  – Serão beneficiados os acionistas que estiverem inscritos nos registros da Sociedade  em 13.10.2026 ( data-base de direito) , e as ações passarão a ser negociadas “ex - direito” aos juros intermediários a partir de 14.10…
-  – Os juros ora aprovados representam, aproximadamente, 19,8 vezes o valor dos juros  mensalmente pagos, líquidos de imposto de renda na fonte, e serão computados no  cálculo dos dividendos obrigatórios do exercício previs…
-  – Cidade de Deus, Osasco, SP, 30 de setembro de 2026.
-Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572956
-Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
-Ativos: BBDC4
-Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco o…'
-Fonte: CVM 30/09
-ids: E03-BBDC4-1572956-2026-09-30
+[ATENÇÃO] CURVA · C04 IPCA+ 2035 volta abaixo de 7,50% real: 7,43% (-11 bps), base 30/09 / C03 Prefixado em nível: Pre 2031 cruzou 14,00% (agora 13,97%)
+PU R$ 2.570,41; cada 10 bps move ~0,8% do PU
+Desde 2010, 8% dos dias tiveram taxa maior neste título
+Por que importa: juro real acima de 6-7% é o argumento central do assessor brasileiro para renda fixa; cada 0,50 pp muda o discurso
+Como falar: 'o juro real cedeu abaixo de 7,50%: quem comprou nos níveis maiores está marcando ganho'
+Fonte: Tesouro Transparente, base 30/09
+Push: Manhã 08h30: 4 alertas de atenção — curva IPCA2035,TESOURO, E05 ITUB4, E05 JPM, E05 AMD · detalhe na sessão
+ids: C04-IPCA2035-baixo_7.5-2026-09-30, C03-TESOURO-td-2026-09-30
 
-(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o "Pix" internacional
-Seu Dinheiro · 30/09 19h34 · fonte única · licença: resumo
+[ATENÇÃO] E05 · ITUB4 · Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agenda
+InfoMoney · 01/10 05h00 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – O conselho de administração do Bradesco aprovou a distribuição de R$ 3,8 bilhões na forma de juros sobre capital próprio (JCP).
-  – Os valores brutos por ação foram definidos em R$ 0,342389810 por ação ordinária (BBDC3) e R$ 0,376628790 por ação preferencial (BBDC4).
-  – Para garantir o pagamento é preciso estar posicionado nos papéis do banco no fechamento do pregão de 13 de outubro.
-  – A partir do dia 14, as ações passam a ser negociadas na condição "ex-direito".
-  – Leia Também O único detalhe que exige um pouco de paciência do investidor é o prazo de pagamento: o dinheiro cairá na conta até 30 de abril de 2027.
-  – Essa parcela residual, que representa 2,65% do total de ações emitidas no aumento de capital anunciado em julho, vai a leilão na B3 no dia 2 de outubro, às 10h30.
-Link: https://www.seudinheiro.com/2026/empresas/dia-cheio-no-bradesco-bbdc4-de-r-38-bilhoes-em-jcp-a-leilao-de-sobras-de-acoes-ate-o-pix-internacional-ccgg/
+  – Publicidade Pelo menos 24 empresas listadas na B3 vão distribuir dividendos e juros sobre capital próprio (JCP) em outubro, segundo levantamento do Research da XP.
+  – Entre os destaques do mês estão Ambev, B3 e Lojas Renner, além da JSL, que paga o maior valor por ação da agenda.
+  – A JSL distribui R$ 0,7401 por ação em dividendos no dia 2, aos investidores que tinham JSLG3 em carteira até 29 de dezembro de 2025.
+  – A Ambev (ABEV3) paga JCP de R$ 0,1185 por ação no dia 6, referente a posições de 18 de dezembro de 2025.
+  – No dia 7, a B3 (B3SA3) concentra três parcelas de JCP que somam R$ 0,3011 por ação.
+  – A Lojas Renner (LREN3) distribui R$ 0,2407 por ação em JCP no dia 14.
+Link: https://www.infomoney.com.br/onde-investir/ambev-b3-itau-e-mais-empresas-pagam-dividendos-em-outubro-veja-a-agenda/amp/
 Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBDC4
-Como falar: 'saiu no Seu Dinheiro: Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 30/09 19h34
-ids: E05-BBDC4-878e32afb9-2026-09-30
+Ativos: ITUB4
+Como falar: 'saiu no InfoMoney: Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agenda; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 01/10 05h00
+ids: E05-ITUB4-184a7b3008-2026-10-01
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook
-Yahoo Finance · 30/09 19h18 · + Investing.com · licença: resumo
+[ATENÇÃO] E05 · JPM · Key facts: META's Muse launch; $140B 2024 capex; JPMorgan $920 PT
+TradingView (Reuters) · 01/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:fccd1128c707d:0-key-facts-meta-s-muse-launch-140b-2024-capex-jpmorgan-920-pt/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM · META
+Como falar: 'saiu no TradingView (Reuters): Key facts: META's Muse launch; $140B 2024 capex; JPMorgan $920 PT; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 01/10 04h00
+ids: E05-JPM-6df2dd99bf-2026-10-01
+
+[ATENÇÃO] E05 · AMD · HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios order
+Yahoo Finance · 30/09 18h12 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
-  – Memory giant Micron Technology reported its Q4 2026 earnings on Sept.
-  – 30, 2026, providing the latest insight into how the company is navigating a memory shortage caused by the AI boom.
-  – Last quarter, the company bragged about its pricing power, flexing 84.9% margins and issuing guidance which blew through expectations.
-  – Check back periodically for the latest: This story was originally published by TheStreet on Sep 30, 2026, where it first appeared in the Latest Business & Market News section.
-Link: https://finance.yahoo.com/markets/stocks/articles/micron-q4-2026-earnings-call-221852112.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: MU
-Como falar: 'saiu no Yahoo Finance: Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 30/09 19h18
-ids: E05-MU-5ada9f0547-2026-09-30
-
-(pendente de slot anterior) [ATENÇÃO] E05 · BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
-Estadao · 30/09 18h53 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-pagara-r-38-bilhoes-em-jcp-confira-valor-por-acao/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: BBDC4
-Como falar: 'saiu no Estadao: Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação; confirmar o número no texto antes de repassar'
-Fonte: Estadao 30/09 18h53
-ids: E05-BBDC4-0a605ec2db-2026-09-30
-
-[ATENÇÃO] E05 · BABA · MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller R…
-PR Newswire · 30/09 21h00 · fonte única · licença: integral
-Do texto:
-  – Alibaba Group Holding Limited, No. 26-cv-06654 (S.D.N.Y.), the Alibaba class action lawsuit charges Alibaba and Alibaba's Chief Executive Officer with violations of the Securities Exchange Act of 1934.
-  – On June 8, 2026, after market hours, the U.S.
-  – On this news, the price of Alibaba's American Depositary Shares ("ADSs") declined nearly 4%, according to the complaint.
-  – Our Firm ranked #1 on the most recent ISS Securities Class Action Services Top 50 Report, recovering more than $916 million for investors in 2025.
-  – This marks our fourth #1 ranking in the past five years.
-  – And in those five years alone, Robbins Geller recovered $8.4 billion for investors – $3.4 billion more than any other law firm.
-Link: https://www.prnewswire.com/news-releases/monday-baba-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-robbins-geller-rudman--dowd-llp-announces-302893967.html
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: BABA
-Como falar: 'saiu no PR Newswire: MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Hav…; confirmar o número no texto antes de repassar'
-Fonte: PR Newswire 30/09 21h00
-Push: Fechamento 18h: 2 alertas de atenção — E05 BABA, E05 MU · detalhe na sessão
-ids: E05-BABA-19205b4b00-2026-10-01
-
-[ATENÇÃO] E05 · MU · Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.
-Barron's · 30/09 19h24 · fonte única · licença: manchete
-Link: https://www.barrons.com/articles/micron-earnings-stock-price-6c25895f
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: MU
-Como falar: 'saiu no Barron's: Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.; confirmar o número no texto antes de repassar'
-Fonte: Barron's 30/09 19h24
-ids: E05-MU-01fe39c174-2026-09-30
+  – Hewlett Packard Enterprise (HPE) stock closed at a record high price of $63.89 on Wednesday after shares jumped nearly 4% in the day's trading session.
+  – Year to date, the stock has surged 166%.
+  – "Demand is continuing to outpace supply.
+  – It's no doubt that we continue to be in a supply-constrained environment," Hewlett Packard Enterprise CFO Marie Myers told Yahoo Finance on Wednesday.
+  – The company also raised its fiscal year 2027 revenue growth outlook for the segment and now sees a growth rate in the high-teens to low-20s range.
+  – Networking segment operating margins are forecast in the mid-to-high 20s percent range.
+Link: https://finance.yahoo.com/markets/stocks/article/hpe-stock-closes-at-record-high-on-growing-networking-orders-12-billion-amd-helios-order-211204477.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AMD
+Como falar: 'saiu no Yahoo Finance: HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios ord…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 30/09 18h12
+ids: E05-AMD-d446b9c915-2026-09-30
 
 Info (só linha no Fechamento):
-· E05 MU · We're raising our Micron price target after an incredible quarter and robust guidance
-· E05 LITE · Lumentum president Yuen sells $764,365 in company stock
-· E05 MU · Micron’s Revenue More Than Quadrupled. Here’s What Comes Next for the AI Chipmaker.
-· E05 MU · Micron Technology Q4 Earnings Call Highlights
-· E05 USDBRL · Dólar cai para R$ 5,17 e acumula recuo de 0,15% em setembro
-· E05 BBDC4 · Bradesco (BBDC4) aprova proventos no valor de R$ 3,8 bi; veja quem tem direito
-· E05 ITUB4 · Ibovespa dispara 1,37% e fecha setembro em festa; ITUB4 e BBAS3 saltam quase 5%
-· E05 VALE3 · China ajuda o minério, e VALE3 fecha em alta, mas longe da máxima: o que pesou?
-· E05 KLBN4 · Além da IA: o método desses três jovens para cruzar dados e um montar equity research da Klabin
-· E05 USDBRL · Dólar e Ibovespa fecham setembro com eleições no radar; o que esperar de outubro?
-· E05 ITUB4 · Ibovespa hoje sobe 1,3% com apoio de bancos; Itaú deu salto de quase R$ 19 bi em valor de mercado
-· E05 MU · Watch Micron Beats Estimates as AI Data Center Revenue Surges | Closing Bell
-· E05 ITSA4 · (ITSA4) - ATENCAO PARA O CALL - PRECO R$ 7,20
-· E05 MU · Cantor Fitzgerald’s CJ Muse on Micron earnings: Expectations are high
-· T05 ITUB4 +4,7% no dia a R$ 44,28: movimento de 3,3 desvios para uma vol de 20 dias de 22% a.a.
-· T05 BBDC4 +4,1% no dia a R$ 18,51: movimento de 2,6 desvios para uma vol de 20 dias de 24% a.a.
-· T08 MMM entrou em correção: -11% do pico de 52s (US$ 183,78 em 12/08) a US$ 164,15
-· T09 ITUB4 +4,7% com volume 3,2x a mediana de 20 sessões, a R$ 44,28
-· T10 AVGO no mínimo de força relativa em 63 sessões contra SOX: -4,8% vs +12% em 20 sessões (-15% relativo)
+· C06 Inflação implícita: implícita 2029 +245 bps acima do Focus · implícita 2032 +254 bps acima do Focus · implícita 2031/32 (descasado) +249 bps acima do Focus
+· E02 BBDC4 fica ex-dividendo em 02/10: R$ 0,02 (0,10% do preço)
+· M01 Agenda: Payroll de setembro (BLS) amanhã às 09:30 (02/10)
+· E05 BBDC4 · Assaí, Bradesco, Desktop, Panvel, JSL, Dasa e mais ações para acompanhar hoje
+· E05 BTC · Bitcoin and ethereum prices today, Thursday, October 1, 2026: Not much price movement this morning, but Citigroup says that will change
+· E05 TSLA · Tesla Trades at 350 Times Earnings. Here's What Has to Be True for That to Make Sense.
+· E05 BRENT · Dow Jones hoje cai com petróleo acima de US$ 100 e juros dos EUA nas máximas no 1º pregão de outubro
+· E05 MU · Why Micron’s 87% Gross Margin Is a Problem
+· E05 BTC · Bitcoin just landed a surprising new bull
+· E05 BTC · Bitcoin holds above $83K as rally on lower US inflation data fades
+· E05 MU · Micron keeps the memory party going
+· E05 USDBRL · Debate no Globo e Datafolha dividem atenção do investidor com dados de atividade econômica; Ibovespa em dólar cai nesta quinta-feira (1)
+· E05 MU · Nvidia, AMD and Intel rise on Micron earnings, so why is MU stock falling?
+· E05 LITE · Lumentum Announces Speaker Lineup at 2026 OCP Global Summit
+· E05 UST · Gold Edges Lower as Treasury Yields and Dollar Offset Softer US Inflation Data
+· E05 MU · US Futures Mixed as Micron Outlook and Nike Results Take Focus: Dow Jones, S&P, Nasdaq, Wall Street
+· E05 MU · Dow futures hit three-month low as yields surge, Micron earnings offer support
+· E05 MU · Micron just blew Wall Street away again—here's what's next
+· E05 EWY · Stock market prediction for tomorrow: Sensex, Nifty outlook for Thursday | Kospi, Taiwan cues to watch | 1 Oct 2026
 
-Suprimidos pelo teto (viram linha do Fechamento): T05-ITUB4-alta-2026-09-30 (teto de atenção), T05-BBDC4-alta-2026-09-30 (teto de atenção), T08-MMM--10-2026-09-30 (teto de atenção), T09-ITUB4-alta-2026-09-30 (teto de atenção), T10-AVGO-mínimo-2026-09-30 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): E05-EWY-752ae63371-2026-09-30 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· pendente  E05 BABA — BABA · MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substa
-· pendente  E05 MU — MU · Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.
-· pendente  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A
-· pendente  E05 BBDC4 — BBDC4 · Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobr
-· pendente  E05 MU — MU · Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook
-· pendente  E05 BBDC4 — BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
-· linha     T05 ITUB4 — ITUB4 +4,7% no dia a R$ 44,28: movimento de 3,3 desvios para uma vol de 20 dias 
-· linha     T05 BBDC4 — BBDC4 +4,1% no dia a R$ 18,51: movimento de 2,6 desvios para uma vol de 20 dias 
-· linha     T08 MMM — MMM entrou em correção: -11% do pico de 52s (US$ 183,78 em 12/08) a US$ 164,15
-· linha     T09 ITUB4 — ITUB4 +4,7% com volume 3,2x a mediana de 20 sessões, a R$ 44,28
-· linha     T10 AVGO — AVGO no mínimo de força relativa em 63 sessões contra SOX: -4,8% vs +12% em 20 s
+· pendente  C04 IPCA2035 — IPCA+ 2035 volta abaixo de 7,50% real: 7,43% (-11 bps), base 30/09
+· pendente  C03 TESOURO — Prefixado em nível: Pre 2031 cruzou 14,00% (agora 13,97%)
+· pendente  E05 ITUB4 — ITUB4 · Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agen
+· pendente  E05 JPM — JPM · Key facts: META's Muse launch; $140B 2024 capex; JPMorgan $920 PT
+· pendente  E05 AMD — AMD · HPE stock closes at record high on growing networking orders, $1.2 billion
+· entregue  E05 BABA — BABA · MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substa
+· entregue  E05 MU — MU · Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.
+· entregue  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A
+· entregue  E05 BBDC4 — BBDC4 · Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobr
+· entregue  E05 MU — MU · Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook
+· entregue  E05 BBDC4 — BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
+· entregue  T05 ITUB4 — ITUB4 +4,7% no dia a R$ 44,28: movimento de 3,3 desvios para uma vol de 20 dias 
+· entregue  T05 BBDC4 — BBDC4 +4,1% no dia a R$ 18,51: movimento de 2,6 desvios para uma vol de 20 dias 
+· entregue  T08 MMM — MMM entrou em correção: -11% do pico de 52s (US$ 183,78 em 12/08) a US$ 164,15
+· entregue  T09 ITUB4 — ITUB4 +4,7% com volume 3,2x a mediana de 20 sessões, a R$ 44,28
+· entregue  T10 AVGO — AVGO no mínimo de força relativa em 63 sessões contra SOX: -4,8% vs +12% em 20 s
 · entregue  E04 MU — MU · 8-K: 2.02 resultado do trimestre
 · entregue  E05 MU — MU · Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ)
 · entregue  E05 MU — MU · Micron tops Q4 estimates on top and bottom lines, offers strong Q1 outlook
@@ -130,13 +107,14 @@ Alertas do dia (todos, com status):
 · entregue  E05 MU — MU · Micron Q4 Earnings Outlook Could Signal Where the AI Chip Market Is Headed
 · entregue  E05 NVDA — NVDA · Cathie Wood Goes Big on Nvidia After $150 Billion Buyback, Sells $110 Mil
 · entregue  E05 TSLA — TSLA · Tesla lines up $30 billion credit lines as capex and robotaxi push accele
-· linha     T01 EQTL3 — EQTL3 retomou a média de 200 dias pela 1ª sessão: R$ 40,65 vs MM200 R$ 39,66 (+2
-· linha     T01 ITUB4 — ITUB4 retomou a média de 200 dias pela 2ª sessão: R$ 44,28 vs MM200 R$ 41,71 (+6
-· linha     T01 BBAS3 — BBAS3 retomou a média de 200 dias pela 2ª sessão: R$ 23,07 vs MM200 R$ 21,80 (+5
-· linha     T02 KO — KO perdeu a MM50 pela 2ª sessão: US$ 86,08, ainda acima da MM200 (tendência long
-· linha     T02 BBDC4 — BBDC4 retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 18,51, acima da MM200 
-· linha     T02 MRVE3 — MRVE3 retomou a MM100 pela 2ª sessão: R$ 5,47, ainda abaixo da MM200 (repique de
-· linha     T07 BAC — BAC entrou em sobrevendido: RSI14 24 a US$ 54,43
-· linha     T12 BABA — BABA: 6 quedas seguidas (-7,5% acumulado) a US$ 107,54
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,1717 (cruzou R$ 5,20) (parcial, intradia)
-· (+159 notícias só manchete, em noticias.md)
+· linha     C06 TESOURO — Inflação implícita: implícita 2029 +245 bps acima do Focus · implícita 2032 +254
+· entregue  T01 EQTL3 — EQTL3 retomou a média de 200 dias pela 1ª sessão: R$ 40,65 vs MM200 R$ 39,66 (+2
+· entregue  T01 ITUB4 — ITUB4 retomou a média de 200 dias pela 2ª sessão: R$ 44,28 vs MM200 R$ 41,71 (+6
+· entregue  T01 BBAS3 — BBAS3 retomou a média de 200 dias pela 2ª sessão: R$ 23,07 vs MM200 R$ 21,80 (+5
+· entregue  T02 KO — KO perdeu a MM50 pela 2ª sessão: US$ 86,08, ainda acima da MM200 (tendência long
+· entregue  T02 BBDC4 — BBDC4 retomou a MM50 e retomou a MM100 pela 2ª sessão: R$ 18,51, acima da MM200 
+· entregue  T02 MRVE3 — MRVE3 retomou a MM100 pela 2ª sessão: R$ 5,47, ainda abaixo da MM200 (repique de
+· entregue  T07 BAC — BAC entrou em sobrevendido: RSI14 24 a US$ 54,43
+· entregue  T12 BABA — BABA: 6 quedas seguidas (-7,5% acumulado) a US$ 107,54
+· entregue  F01 USDBRL — Real sobe: USD/BRL 5,1717 (cruzou R$ 5,20) (parcial, intradia)
+· (+177 notícias só manchete, em noticias.md)
