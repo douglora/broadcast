@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[ATENÇÃO] E05 · ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos dividendos
+(pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos dividendos
 Seu Dinheiro · 01/10 17h49 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Devido a contratos de longo prazo e à previsibilidade de receitas, as companhias costumam aparecer entre as favoritas dos analistas para o pagamento de dividendos como é o caso da CPFL (CPFE3), segundo o Itaú BBA.
@@ -14,10 +14,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Seu Dinheiro: Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos d…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 01/10 17h49
-Push: Fechamento 18h: 2 alertas de atenção — E05 ITUB4, E05 MU · detalhe na sessão
 ids: E05-ITUB4-d2c755d90a-2026-10-01
 
-[ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
+(pendente de slot anterior) [ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
 Yahoo Finance · 01/10 14h51 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Micron Technology (NASDAQ:MU), the AI-memory and storage producer, reported a blockbuster quarter, yet shares traded at $1,049.77, down approximately 1.44% at 12pm ET on October 1.
@@ -34,24 +33,24 @@ Fonte: Yahoo Finance 01/10 14h51
 ids: E05-MU-1474c75fd3-2026-10-01
 
 Info (só linha no Fechamento):
-· T01 COHR retomou a média de 200 dias pela 1ª sessão: US$ 319,19 vs MM200 US$ 288,23 (+11%)
-· T01 BBDC4 retomou a média de 200 dias pela 2ª sessão: R$ 18,57 vs MM200 R$ 18,27 (+1,6%)
-· T04 VGT fechou na máxima de 52 semanas: US$ 127,01, +7,0% em 1m e +36% em 12m
-· T04 DXY fechou na máxima de 52 semanas: US$ 102,04, +2,4% em 1m e +4,4% em 12m
-· T02 MELI34 perdeu a MM100 pela 2ª sessão: R$ 73,35, já abaixo da MM200 (confirma tendência de baixa)
-· T10 BOTZ no mínimo de força relativa em 63 sessões contra SOX: +0,7% vs +13% em 20 sessões (-11% relativo)
-· E03 MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+· E05 DI · Juros futuros têm firme alta com cautela eleitoral
+· E05 USDBRL · Dólar fecha acima de R$ 5,22 em dia de mal-estar global
+· E05 NVDA · Nvidia (NVDA) Stock Gets Fair Value Boost As AI Demand And Analyst Views Shift
+· E05 VALE3 · Vale (VALE3): Passará a divulgar relatório de vendas junto com resultados
+· E05 COHR · Why Coherent (COHR) Stock Is Trading Up Today
+· E05 UST · Update: US Equity Indexes Edge Up as Treasury Yields Fall From Highest in Two Decades After October Fed Rate-Increase Bets Drop
+· E05 GOOGL · How Much Must Google Cloud Be Worth to Justify Alphabet’s Valuation?
+· E05 TSLA · Tesla starts Semi production 6 years late, says new plant can build 50,000 trucks a year
+· E05 BTC · Bitcoin Analyst: 'Only Michael Saylor' Can Do Strategy's Treasury Model
 · E05 PETR4 · Petrobras eleva preço médio do querosene de aviação em 11,76%
-· E05 UST · Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market
 · E05 PETR4 · Ibovespa avança com Petrobras (PETR4) e melhora do humor externo; dólar sobe a R$ 5,22
-· E05 USDBRL · Dólar à vista fecha em forte alta em meio a maior risco global
-· E05 USDBRL · Dólar acompanha o exterior e sobe quase 1% ante o real Por Reuters
-· E05 UST · Update: US Equity Indexes Rise as Treasury Yields Slump Amid Sliding Probability of Fed Rate Increase in October
-· E05 LITE · Why is Lumentum stock surging today?
-· E05 BTC · Citigroup raises one year Bitcoin forecast to $113,000
-· E05 VALE3 · VALE3 testa região decisiva: o que pode definir os próximos passos da ação
-· E05 MU · Analysts Double Down on Micron Stock After Earnings
-· E05 NOK · Nokia, ICEYE Plan Sovereign Satellite Networks for Governments, Defense
+· E05 USDBRL · Dólar hoje sobe cerca de 1% e supera R$ 5,20 com eleições e busca global por divisa
+· E05 UST · Equities rebound to close higher as surging Treasury yields recede
+· E05 USDBRL · Dólar sobe a R$ 5,22 com aversão a risco global e eleições em foco
+· E05 PLTR · Andy Burnham searches for UK alternative to Palantir
 · C07 UST FECHOU: 2y -10 bps (01/10)
 · C02 Inclinação da curva DI: F35-F28 +12 bps no dia: bear steepening (longo abriu mais)
 · C03 DI em nível: F32 cruzou 14,00% (para cima, agora 14,09%) · F35 cruzou 14,00% (para cima, agora 14,11%)
@@ -101,4 +100,4 @@ Alertas do dia (todos, com status):
 · linha     T10 BOTZ — BOTZ no mínimo de força relativa em 63 sessões contra SOX: +0,7% vs +13% em 20 s
 · linha     F01 USDBRL — Real cai: USD/BRL 5,2192 (cruzou R$ 5,20) (parcial, intradia)
 · linha     F03 BRENT — Brent sobe a US$ 102,21 (+4,3% no dia · cruzou US$ 100)
-· (+161 notícias só manchete, em noticias.md)
+· (+179 notícias só manchete, em noticias.md)

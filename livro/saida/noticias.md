@@ -1,8 +1,35 @@
-NOTÍCIAS E FATOS · 01/10 18h13
+NOTÍCIAS E FATOS · 01/10 20h04
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 445 veículo fora da lista, 38 sem ativo, 10 teto) · cvm ok 1 novos de 12 (6 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 444 veículo fora da lista, 42 sem ativo, 16 teto) · cvm ok 3 novos de 15 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
+
+[INFO] E03 · UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 01/10/2026 19:57 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573488
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: UGPA3
+Como falar: 'a Ultrapar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 01/10
+id: E03-UGPA3-1573488-2026-10-01 · status: linha
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 01/10/2026 19:12 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573469
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 01/10
+id: E03-AXIA3-1573469-2026-10-01 · status: linha
+
+[INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 01/10/2026 18:45 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573453
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: VALE3
+Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 01/10
+id: E03-VALE3-1573453-2026-10-01 · status: linha
 
 [INFO] E03 · MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 01/10/2026 18:00 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -313,8 +340,23 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (155)
+## OUTRAS NOTÍCIAS (só manchete) (170)
 
+· DI Juros futuros têm firme alta com cautela eleitoral (Money Times) https://www.moneytimes.com.br/juros-futuros-1-10-26-apsa/
+· USDBRL Dólar fecha acima de R$ 5,22 em dia de mal-estar global (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-acima-de-r-522-em-dia-de-mal-estar-global
+· NVDA Nvidia (NVDA) Stock Gets Fair Value Boost As AI Demand And Analyst Views Shift (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-nvda-stock-gets-fair-220550617.html
+· VALE3 Vale (VALE3): Passará a divulgar relatório de vendas junto com resultados (Money Times) https://www.moneytimes.com.br/vale-vale3-passara-a-divulgar-relatorio-de-vendas-junto-com-resultados/
+· COHR Why Coherent (COHR) Stock Is Trading Up Today (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-stock-trading-215707276.html
+· UST Update: US Equity Indexes Edge Up as Treasury Yields Fall From Highest in Two Decades After October Fed Rate-Increase Bets Drop (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-edge-treasury-212442043.html
+· GOOGL How Much Must Google Cloud Be Worth to Justify Alphabet’s Valuation? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/much-must-google-cloud-worth-211643123.html
+· TSLA Tesla starts Semi production 6 years late, says new plant can build 50,000 trucks a year (Yahoo Finance) https://uk.finance.yahoo.com/news/tesla-starts-semi-production-6-211500303.html
+· BTC Bitcoin Analyst: 'Only Michael Saylor' Can Do Strategy's Treasury Model (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:5e01852b4094b:0-bitcoin-analyst-only-michael-saylor-can-do-strategy-s-treasury-model/
+· PETR4 Petrobras eleva preço médio do querosene de aviação em 11,76% (Poder360) https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlRlcnVKazVMY1Z0OXJiUWhzbzIzRTBudlQzQnBHa3dodFhucm9YZjY5ZU12WjhLUFJvaEdvaVk0UDhvT0FibTVKSjZjdmN0S0o0Yk1XRHhHaUJ5dWZDU1lnVUVXQW9Td3BycG96QU9xaEUxeVFvMU5aRXlDa1FVYkFKUzJ4cWZTZ3FybDFsNmxrQnZTU0gwbi1ZandKSFVqUU9iVA?oc=5
+· PETR4 Ibovespa avança com Petrobras (PETR4) e melhora do humor externo; dólar sobe a R$ 5,22 (Money Times) https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BeWJEWWRfazJmdUR4aTFTZGFkUHpCYlBBMk93ZzFJQ0g4LUhCd191NDNRNnNXRWNYUXJfR2dOZFJ0OGt6TW5MSWVUVkp6bF8wWVh0YkprdVNXcTZNOEVzYmpn?oc=5
+· USDBRL Dólar hoje sobe cerca de 1% e supera R$ 5,20 com eleições e busca global por divisa (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmJ2bUNIWXJxWmoxcWRKMW9laDU5akNjM2RHY1pRdmRmdUtfemdyZWphaTBpZWtlRy1zWE5oWXZ6aGRwd243Z1RTU09Qd1BoeEVidVNCRC13MnhxaG1EMlZTWmpKeDJIX3JLOXpocXE2LXl6d2hoSEl2UzdLV3RTTWdrbUgzRnR0SzNBNWtVZEJzT1VVZWw0UjBNcnLSAaIBQVVfeXFMUHB2MjRkdHJIczJRQVE1SFg3RzBBV0FkZW9HRUNqZDR5ZjZWNTR3Vlc0aUJ5WnBPcmtmaHlES2JrTzQ4cERJdVkzbm9Yand4RHgyNUxkaWNDNkVFNWlWQUU2T3VRV1lYcEtZNWtMRXg1YW9uUWZ1Qi1uQ0JuZDI1Sy0yYTN4U1ZORzZtSFFuLXNnTjBVZFJBU1FTbmpNaTB5TDB3?oc=5
+· UST Equities rebound to close higher as surging Treasury yields recede (Reuters) https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NWcmpRdnNhV0szWEh4QVRhcF83OVVJSy1jY1BoOFZDb2ZGanhFd3VtQWp5bFJxa2kwRUZJaWExeXF0UmE0NS1vUVpjdWpoc1N4dUUzZ1AtT0ZyNkZBTjU2bmVSSTVjZVRUMmg3YmR2V3FVWXAwWk5lUWlNLVdSSUVRc1NoZEc3R1RrUVpxcnlEOHRmaHRlUjA4ZkVfekc2UGowc2J5T1AxanRxNUNieWw5cS00U3lEaGVN?oc=5
+· USDBRL Dólar sobe a R$ 5,22 com aversão a risco global e eleições em foco (Money Times) https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZSTlmbnkyV2ZmQ202Mkh3dk8wY2swZU56M0lmU2QzWG5kOFpfWHJHRGtOcUNIZGpDREJQWm5wYldrWlA3RWFVYlNURnl4TnNRWXM1ZXp3OGU1bG9pT1E?oc=5
+· PLTR Andy Burnham searches for UK alternative to Palantir (Financial Times) https://news.google.com/rss/articles/CBMihAFBVV95cUxPMnVpV1ltT0k5MHB4Y085LUlFSlpJZkVsYVdMdzU3bWJKVnc2Z25RZXBpVXd3aDhfOUhtZGtfUDdOOFhVSGl6OThfbDhFQWpuSExLcklOMjY5OHVvRlVEQzg1SG9JWVZJbnpkaUZYdE5pdXFhWkdTc0ROcWVFMnVNY0x5Tlo?oc=5
 · PETR4 Petrobras eleva preço médio do querosene de aviação em 11,76% (Poder360) https://www.poder360.com.br/poder-energia/petrobras-eleva-preco-medio-do-querosene-de-aviacao-em-1176/
 · UST Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market (MarketWatch) https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d
 · PETR4 Ibovespa avança com Petrobras (PETR4) e melhora do humor externo; dólar sobe a R$ 5,22 (Money Times) https://www.moneytimes.com.br/ibovespa-1-10-26-lils/
@@ -360,19 +402,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · MU Crushing Expectations: Why Micron Remains Undervalued (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxOZE1sUTd1YTZ3S0pTQXhhaVlTSTZOenFvNDRuVk40S0hINjhBNWlKRjVOVHUtakdtZUtmXzg1R0UxTFNpMWVDcV9XUVVxSDN2SWhwY0tHSFZ1OTVyM09uaS16WjM3Y0I0WmRaSVRCd2FnZmZMUEJ2azgxSUtlTFA4RkJqS0ZHbVFHUzc5bkFPVm5CbWM?oc=5
 · MU Micron Technology Seen With Increasingly Positive Duration Tone, Capital Returns Outlook, UBS Says (Yahoo Finance) https://news.google.com/rss/articles/CBMirgFBVV95cUxNeWFSeUNVUjdkWjRZaTlKNU1xQ093RDloQzE5b2tFUG9wUjZRZnZEVXNZTWNmcnh5VUVEV3VrckpBbW5VQldNSDFKVWxwOUVvcy1BLXE1WG9ZdnNkWTR5WXVLRHp0RHR5azZrWXZjMXJTOExRMHEyV3hadFpNVWZ3ZVVJS21YQkg4UElpdmItR2VOOVJyTjhpUlg1M0R4aUNQSUlPZWhzaWlaaW5VN2c?oc=5
 · BAC What It Actually Takes for Bank of America to Keep Raising Its Dividend (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPa0N6NXBYM1Bid1F6UDhMSS1LWko0WmZsZkJPOWJLV1FBRDFyV25XX05MbDdCTmxUVkJ0V0M4R0VodzF1VXhhTFIyS3JJWDQxcGJHNWxlM2tOOTVYckNxb2hDbGtCV1lvY2RfSlFLeGF6N1RTdWh0UGoxSjFwbGkxUjlSWC1Cb0ItRzh2YWFGQktOU3RRRDRIckV4c0pfZw?oc=5
-· NVDA Nvidia, Intel and 3 More: BofA Reveals 5 Chip Stocks to Own (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUFwNTZ5alM3Ni1MQkZMUktPemNxUjlzM0VmaGt6T3JYaXNCc2x5SzhPaC1pUlJNZ25EQThfUnJMVEZxVzRiYWlhSVJDRHJ3aGh4U0FBMFAyQW9UVHZodXRwVE9nV0FLMUU0UnBfcGVDN0FXVjU3YXoxS2lNR2VYZ2dUeExWZmpIckxsdWhwcnB0T09iNmY5OHpQSVYyMHBqVGx0TTVSclJ3SVgxZlNsNXJjYURMZ24w?oc=5
-· CVX Will Chevron (CVX) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiAFBVV95cUxQczNWemg4dUowQmdITjVqQV80MzRlbWVIUkFrLV9IaWlqWThKNE4yWTBDYmw0NUZ3R1VKUE1DUEpicmRTQ3MxeGpWcDZqUGhFUk5abUM5cVZGN2ZhY1ViR1Q3WW5IWlZSdEVSdWZ3WEpuQlREVDNPV0xLMFJhSngwVjVlU1FEb01Y?oc=5
-· PETR4 Petrobras aumenta o preço do querosene de aviação em 11,8% (Estadao) https://www.estadao.com.br/em-alta/economia/petrobras-aumenta-preco-querosene-aviacao-outubro-2026/
-· BTC Citigroup raises one year Bitcoin forecast to $113,000 (Fortune) http://fortune.com/2026/10/01/citigroup-one-year-bitcoin-forecast-113000/
-· AMD AMD: At All-Time Highs, We're Expanding Our Short Position (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4951428-amd-at-all-time-highs-were-expanding-our-short-position
-· BTC Bitcoin buyers clear the $85K sell wall, opening a path for upside (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:78dc0d345094b:0-bitcoin-buyers-clear-the-85k-sell-wall-opening-a-path-for-upside/
-· VALE3 Vale (VALE3), Suzano (SUZB3) e mais: As ações recomendadas pelo Andbank com potencial de alta de até 49% (Money Times) https://www.moneytimes.com.br/val-vale3-suzano-suzb3-e-mais-as-acoes-recomendadas-pelo-andbank-com-potencial-de-alta-de-ate-49-jcav/
-· VALE3 VALE3 testa região decisiva: o que pode definir os próximos passos da ação (InfoMoney) https://www.infomoney.com.br/mercados/vale3-hoje-analise-acoes-01-10-2026/
-· BTC It's the Start of Uptober. Will Bitcoin Live Up to It? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/start-uptober-bitcoin-live-171144639.html
-· MU Stock Market Today: S&P 500 Slips as Micron Fails to Impress, 10-Year Yields Ease to 5.25% (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:2e1fd44ac094b:0-stock-market-today-s-p-500-slips-as-micron-fails-to-impress-10-year-yields-ease-to-5-25/
-· BTC Fund Winners and Losers: Bitcoin Battered Bonds in the Third Quarter (Barron's) https://news.google.com/rss/articles/CBMibkFVX3lxTE5tNEk5c2M2cGhFbmkweDBmbHR4cTBvODlsa1FndTVZeVF1aDVUcDZkc3FJSUhlVHNxY3ZPMVZMYW5qRE9nbmFGYS02TkI3eS1UTWpRaWpPaDVWQ0dYQUQ1WWtjR1VVeThWdm9NM3JB?oc=5
-· VALE3 Vale resiste ao minério mais fraco: Moody’s reforça rating e vê dívida da mineradora sob controle (Estadao) https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdzVVRHpHOTdRd1dLalg1czhpcHNscWRucGs0QmVxbnp2VkJGQkdfR0JtWTYxQjc3TzBrMlRNdUJOdWNlWVRvNllCNDMwbHpYS19uWWZiZTlPV2NWVjZ1Q2YyZHNVU0pVeWJha05iOGROMUhMN2dTbE0tdHlsMy1SQnByN2Q4UmRxbW1hWklNTDAyNVlIU2l1N3B4bDF6QWJUaTZzN252OWtKRVVfZUFOMXBLejhHSHpmSnMzV2RGRC0tV3haS2pPQ3hoaUN4TGpNWmE1dnBPQW9UTmhtNzJhN0F6bC1JQdIB6wFBVV95cUxNWTZoT3RpVjBEQ2U2UVd4MXplRmhpQkRFLV9qOExlb1Mxd0hrdjRlMWdHX0ItX3hfNzIzc3hsZE1DUTVNVjdSVTR3Q3B0ZWN5QVhLT0NmWkFyc2U5OW0xYkZGR0pWRXl6LUZ4M2NPN2h1MVFPRmdzZlJ0VzZ1VUYwdVYwSWN2MjZOMEhNUTF0eThsVjVsVDRRR0xmYzM2ZDVlZF9fTGNoMjZub3hjckJ5djdnWFdvZzZHV0VXSW5SX2dObUNTWTRHbVdLWjdadmxQZFJSdzBjbmlEajJvQmY4UEVfdjNMLUJpeVhn?oc=5
-· BRENT Brent oil rises back above $100 as Chinese refiners reportedly ban October fuel exports (CNBC) https://news.google.com/rss/articles/CBMicEFVX3lxTE5yODZYTkUzZ09LMVducjBvQ1czQUc2WFdZNmVuUUpDVnpZMEJfMGhpWkkzQlRLUGprcDNielYycW8xYU5peDhhcy1pbzNJUVo1YkV0MjktUVliQ3NTc1ZNOXpDSUtubXZIYnBGOS04NDTSAXZBVV95cUxOQU83cmR3ZHl6YWl1V2RNcFRXbzJqRkFKZktLMkVobTBKMGxibmxDcEQwWjFqdXFQcFozSUVpVUhvZF85SDNCQzZxVk42RjdTWXdWcXd6SkNmWWlLVy1iT0l0NHlRUHNJOG5UZEQ5NlhoMHNmWnVB?oc=5
-· UST Global bond rout deepens, pushes US Treasury yields to 24-year peak (Reuters) https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5
-· UST Wall Street dips as surging Treasury yields outweigh software gains (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
-· (+95 manchetes; lista completa em eventos/noticias.json)
+· (+110 manchetes; lista completa em eventos/noticias.json)
