@@ -123,7 +123,9 @@ class Contexto:
     def arq(self, nome: str):
         regs = self.bruto["arquivos"].get(nome)
         if regs is None:
-            self.pendentes[nome] = "falhou: " + (self.bruto["index"]["falhas"].get(nome) or "sem resposta")
+            falha = self.bruto["index"]["falhas"].get(nome) or "sem resposta"
+            # a API de download responde 400 enquanto o arquivo do pregao nao foi liberado: e espera, nao erro
+            self.pendentes[nome] = "aguardando" if "token HTTP 400" in falha else "falhou: " + falha
         return regs
 
     def fonte(self, nome: str, data: str | None = None) -> dict:

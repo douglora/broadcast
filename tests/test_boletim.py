@@ -154,10 +154,14 @@ def test_tabela_aguardando_vira_pendente_e_atrasada_com_linha_vale():
         "AnalyticalFramework2": tab("AnalyticalFramework2", ["DateRef", "TckrSymb", "Asst", "OpnIntrst", "RefValue"],
                                     [[D, "Dólar Comercial - futuro", "DOL", 1307825, 341877277.19]], situacao="atrasado"),
     }
-    r = resumo.montar(bruto(tabelas, falhas={"BTBLoanBalance": "HTTP 500"}), CFG, LIVRO, {})
+    r = resumo.montar(bruto(tabelas, falhas={"BTBLoanBalance": "HTTP 500",
+                                             "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"}),
+                      CFG, LIVRO, {})
     sit = r["situacao"]
     assert sit["pendentes"]["BTBLendingOpenPosition"] == "aguardando"
     assert sit["pendentes"]["BTBLoanBalance"].startswith("falhou: HTTP 500")
+    # a API de download responde 400 enquanto a B3 nao libera o arquivo da madrugada: e espera, nao erro
+    assert sit["pendentes"]["DerivativesOpenPosition"] == "aguardando" and "DerivativesOpenPosition" in sit["faltam"]
     assert sit["publicadas_com_atraso"] == ["AnalyticalFramework2"] and not sit["completo"]
     assert "BTBLendingOpenPosition" in sit["faltam"] and "AnalyticalFramework2" not in sit["faltam"]
     assert r["derivativos"]["quadro"]["DOL"]["contratos"] == 1307825
