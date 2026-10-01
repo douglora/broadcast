@@ -1,53 +1,62 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 30/09 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 30/09 · 21h29 BRT
+Relógios: Yahoo 21h29 · DI ajuste D0 · Tesouro base
   29/09 · UST CMT D0 · PTAX 30/09
 
-ALERTAS DO DIA (31)
+ALERTAS DO DIA (37)
+[ATENÇÃO] E05 BABA · MONDAY BABA DEADLINE: Alibaba
+          Group Holding Limited Investors with
+          Substantial Losses Have Opportunity to
+          Lead Class Action Lawsuit, Robbins Geller
+          R…
+[ATENÇÃO] E05 MU · Micron Reports Another Dazzling
+          Earnings Quarter. The Stock Isn’t Moving.
+[ATENÇÃO] E03 BBDC4 · Fato Relevante: Página 1 de 1
+          Banco Bradesco S.A. o O Banco Bradesco
+          S.A. (Bradesco ou Sociedade) comunica aos
+          seus acionistas e ao mercado em geral que
+          o Conselho d…
+[ATENÇÃO] E05 BBDC4 · Dia cheio no Bradesco (BBDC4):
+          de R$ 3,8 bilhões em JCP a leilão de
+          sobras de ações até o "Pix" internacional
+[ATENÇÃO] E05 MU · Micron Q4 2026 Earnings Call:
+          Live Updates of $MU Earnings, Outlook
+[ATENÇÃO] E05 BBDC4 · Bradesco pagará R$ 3,8 bilhões
+          em JCP; confira valor por ação
 [ATENÇÃO] T05 ITUB4 +4,7% no dia a R$ 44,28:
           movimento de 3,3 desvios para uma vol de
           20 dias de 22% a.a.
 [ATENÇÃO] T05 BBDC4 +4,1% no dia a R$ 18,51:
           movimento de 2,6 desvios para uma vol de
           20 dias de 24% a.a.
-[ATENÇÃO] T08 MMM entrou em correção: -11% do pico
-          de 52s (US$ 183,78 em 12/08) a US$ 164,15
-[ATENÇÃO] T09 ITUB4 +4,7% com volume 3,2x a mediana
-          de 20 sessões, a R$ 44,28
-[ATENÇÃO] T10 AVGO no mínimo de força relativa em 63
-          sessões contra SOX: -4,8% vs +12% em 20
-          sessões (-15% relativo)
-[ATENÇÃO] E04 MU · 8-K: 2.02 resultado do trimestre
-[ATENÇÃO] E05 MU · Micron slips even as Q4 results,
-          guidance top estimates (MU:NASDAQ)
-[ATENÇÃO] E05 MU · Micron tops Q4 estimates on top
-          and bottom lines, offers strong Q1 outlook
-(+23 em alertas.md)
+(+29 em alertas.md)
 
 ALTAS  ITUB4 +4,7% · BBAS3 +4,7% · BBDC4 +4,1% ·
        INTC +3,7% · ITSA4 +3,1%
 BAIXAS CURY3 -3,4% · MMM -2,6% · EWY -2,3% · NOK
        -2,1% · META -1,8%
 
-NOTÍCIAS E FATOS (17 com materialidade ·
+NOTÍCIAS E FATOS (23 com materialidade ·
   noticias.md)
-· MU 8-K: 2.02 resultado do trimestre (SEC)
-· MU Micron slips even as Q4 results, guidance top
-  estimates (MU:NASDAQ) (Seeking Alpha)
-· MU Micron tops Q4 estimates on top and bottom
-  lines, offers strong Q1 outlook (Yahoo Finance)
-· MU Micron Earnings Could Reach $50 A Quarter, Says
-  Susquehanna: Analyst Sees Memory Driving AI
-  Profits (Yahoo Finance)
-· BABA Levi & Korsinsky Reminds Alibaba Group
-  Holding Investors of the Pending Class Action
-  Lawsuit With a Lead Plaintiff Deadline of October
-  5, 2026 - BABA (PR Newswire)
-· MU Micron Earnings Could Reach $50 A Quarter, Says
-  Susquehanna: Analyst Sees Memory Driving AI
-  Profits (TradingView (Reuters))
-  (+11)
+· BABA MONDAY BABA DEADLINE: Alibaba Group Holding
+  Limited Investors with Substantial Losses Have
+  Opportunity to Lead Class Action Lawsuit, Robbins
+  Geller R… (PR Newswire)
+· MU Micron Reports Another Dazzling Earnings
+  Quarter. The Stock Isn’t Moving. (Barron's)
+· BBDC4 Fato Relevante: Página 1 de 1 Banco Bradesco
+  S.A. o O Banco Bradesco S.A. (Bradesco ou
+  Sociedade) comunica aos seus acionistas e ao
+  mercado em geral que o Conselho d… (CVM)
+· BBDC4 Dia cheio no Bradesco (BBDC4): de R$ 3,8
+  bilhões em JCP a leilão de sobras de ações até o
+  "Pix" internacional (Seu Dinheiro)
+· MU Micron Q4 2026 Earnings Call: Live Updates of
+  $MU Earnings, Outlook (Yahoo Finance)
+· BBDC4 Bradesco pagará R$ 3,8 bilhões em JCP;
+  confira valor por ação (Estadao)
+  (+17)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,55 (-2·-2) F29 13,76
@@ -63,7 +72,7 @@ TD (base 29/09, Δ desde 28/09) Pre 2029 13,87 (-6) ·
     (descasado) 5,97% vs Focus IPCA 2027 4,31%
 UST (D0) 2y 4,88 (-1) · 10y 5,29 (+3) · 30y 5,64
     (+5) · 2s10s +41 (+4)
-Regime: VIX 16,3 (+1,9%) · score risco 0 de 6
+Regime: VIX 16,3 (+1,9%) · score risco 0 de 5
 
 LEITURA DA MESA
 <<LEITURA_DA_MESA>>
@@ -86,10 +95,13 @@ sex 09/10 ex-dividendo MRVL US$ 0,06 (último
 ter 13/10 resultado JPM (antes de NY, confirmado)
 qua 14/10 resultado BAC (antes de NY, confirmado)
 
-LACUNAS: BRENT sem barra de 30/09 (última 29/09);
-  BRENT: barra de 30/09 com volume 1.394 (mediana
-  49.136): não é o pregão inteiro; barra descartada,
-  fica a de 29/09.
+LACUNAS: DXY sem barra de 30/09 (última 29/09);
+  BRENT sem barra de 30/09 (última 29/09); DXY:
+  barra de 30/09 é o início da sessão seguinte
+  (última cotação 20:20 de Nova York); barra
+  descartada, fica a de 29/09; BRENT: barra de 30/09
+  com volume 1.394 (mediana 49.136): não é o pregão
+  inteiro; barra descartada, fica a de 29/09.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -173,10 +185,10 @@ MRVE3  MRV        5,47 +1,7 +4,4 -0,7  -32  -27  -30
 CURY3  Cury      27,74 -3,4 +1,6  -15  -22 -7,0 -9,6
 Macro
 USDBRL USD/BRL  5,1717 -0,8 +0,1 -0,2 -0,4 -2,8 -5,6
-DXY    DXY      101,46 +0,1 +0,4 +2,0 +1,8 +3,8 +3,2
+DXY*   DXY      101,37 +0,2 +0,8 +1,7 +1,4 +3,5 +3,1
 BRENT* Brent    102,59 -2,6 +3,4  +16  -13  +51  +69
-BTC*   BTC      83.724 +0,1 -0,8 +6,6  +23  -27 -4,3
-ETH*   ETH       2.684 +0,3  0,0 +8,8  +25  -35 -9,5
+BTC    BTC      83.724 +0,1 -0,8 +6,6  +23  -27 -4,3
+ETH    ETH       2.684 +0,3  0,0 +8,8  +25  -35 -9,5
 MINER* Minerio   96,73 -0,2 -0,6 +0,9 -9,1 -8,2 -9,7
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

@@ -1,4 +1,4 @@
-## Fechamento do livro · qua 30/09 · 18h12 BRT
+## Fechamento do livro · qua 30/09 · 21h29 BRT
 
 ---
 
@@ -25,12 +25,12 @@ Nenhuma regra disparou hoje.
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **ITUB4** | +4,7% | andou com o setor: bancos +4,4% (mediana), DI F28 -2 bps; notícia a conferir (Money Times): Bancos fazem alegria de investidores nesta terça; ITUB4 salta 5% e BBSA3 e BBDC4 também so | setorial |
+| **ITUB4** | +4,7% | andou com o setor: bancos +4,4% (mediana), DI F28 -2 bps; notícia a conferir (Suno Noticias): Ibovespa dispara 1,37% e fecha setembro em festa; ITUB4 e BBAS3 saltam quase 5% | setorial |
 | **BBAS3** | +4,7% | andou com o setor: bancos +4,4% (mediana), DI F28 -2 bps | setorial |
-| **BBDC4** | +4,1% | andou com o setor: bancos +4,4% (mediana), DI F28 -2 bps | setorial |
+| **BBDC4** | +4,1% | andou com o setor: bancos +4,4% (mediana), DI F28 -2 bps; Fato Relevante na CVM: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco ou; Comunicado ao Mercado na CVM: Outros Comunicados Não Considerados Fatos Relevantes; notícia a conferir (Seu Dinheiro): Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o | documento |
 | **INTC** | +3,7% | descolou do setor (semicondutores (eua) +0,2% (mediana), SOX 0,0%; 3,5 p.p. da mediana); notícia a conferir (TradingView (Reuters)): Intel Stocks Jump as OpenShell Adds Agent Policy Enforcement | notícia (conferir) |
 | **CURY3** | -3,4% | descolou do setor (construtoras de baixa renda -0,7% (mediana), DI F30 -4 bps; -2,7 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **ITSA4** | +3,1% | descolou do setor (bancos +4,4% (mediana), DI F28 -2 bps; -1,3 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **ITSA4** | +3,1% | descolou do setor (bancos +4,4% (mediana), DI F28 -2 bps; -1,3 p.p. da mediana); notícia a conferir (ADVFN): (ITSA4) - ATENCAO PARA O CALL - PRECO R$ 7,20 | notícia (conferir) |
 | **MMM** | -2,6% | notícia a conferir (Seeking Alpha): 3M: Q2 Confirms The Turnaround Is Genuine, And The Pullback Looks Bullish (NYSE:MMM) | notícia (conferir) |
 | **EWY** | -2,3% | investigar antes de comentar | sem causa no dado |
 
@@ -186,10 +186,10 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,1717 | **-0,8** | +0,1 | -0,2 | -0,1 | -0,4 | -2,8 | -5,6 | -3,6 |
-| **DXY** Indice Dolar DXY | 101,46 | **+0,1** | +0,4 | +2,0 | +0,1 | +1,8 | +3,8 | +3,2 | +7,9 |
+| **DXY** Indice Dolar DXY _(dia 29/09)_ | 101,37 | **+0,2** | +0,8 | +1,7 | +0,2 | +1,4 | +3,5 | +3,1 | +7,8 |
 | **BRENT** Petroleo Brent _(dia 29/09)_ | 102,59 | **-2,6** | +3,4 | +16 | +41 | -13 | +51 | +69 | +29 |
-| **BTC** Bitcoin _(parcial)_ | 83.724 | **+0,1** | -0,8 | +6,6 | +40 | +23 | -27 | -4,3 | +74 |
-| **ETH** Ethereum _(parcial)_ | 2.684 | **+0,3** | 0,0 | +8,8 | +67 | +25 | -35 | -9,5 | -21 |
+| **BTC** Bitcoin | 83.724 | **+0,1** | -0,8 | +6,6 | +40 | +23 | -27 | -4,3 | +74 |
+| **ETH** Ethereum | 2.684 | **+0,3** | 0,0 | +8,8 | +67 | +25 | -35 | -9,5 | -21 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 29/09)_ | 96,73 | **-0,2** | -0,6 | +0,9 | -3,5 | -9,1 | -8,2 | -9,7 | -16 |
 
 **Brent em reais:** a confirmar (Brent sem fechamento confirmado).
@@ -200,8 +200,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 649 | -0,4 | +0,6 | - | 30/09 |
-| **Minerio de ferro Dalian** | 93 | -0,3 | -1,4 | - | 30/09 |
+| **Celulose fibra longa** | 649 | -0,4 | +0,5 | - | 30/09 |
+| **Minerio de ferro Dalian** | 93 | -0,4 | -1,5 | - | 30/09 |
 
 - **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.912 a USD/CNY 6,70 = US$ 733/t com IVA
 - **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 702 a USD/CNY 6,70 = US$ 105/t com IVA
@@ -241,12 +241,24 @@ Inflação implícita 2029 5,97% · 2032 6,01% · 2031/32 (descasado) 5,97% · F
 
 2s10s +41 bps (+4 no dia)
 
-**Regime** VIX 16,3 (+1,9%) · score de risco 0 de 6
+**Regime** VIX 16,3 (+1,9%) · score de risco 0 de 5
 
 ---
 
-### Notícias e fatos · 17
+### Notícias e fatos · 23
 
+- **BABA** MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller R… (PR Newswire · 01/10) [abrir a fonte](https://www.prnewswire.com/news-releases/monday-baba-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-robbins-geller-rudman--dowd-llp-announces-302893967.html)
+  *Por que importa:* contingencia muda o risco e pode virar provisao; olhar valor e prazo
+- **MU** Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving. (Barron's · 30/09) [abrir a fonte](https://www.barrons.com/articles/micron-earnings-stock-price-6c25895f)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **BBDC4** Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o O Banco Bradesco S.A. (Bradesco ou Sociedade) comunica aos seus acionistas e ao mercado em geral que o Conselho d… (CVM · 30/09) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1572956)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+- **BBDC4** Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o "Pix" internacional (Seu Dinheiro · 30/09) [abrir a fonte](https://www.seudinheiro.com/2026/empresas/dia-cheio-no-bradesco-bbdc4-de-r-38-bilhoes-em-jcp-a-leilao-de-sobras-de-acoes-ate-o-pix-internacional-ccgg/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **MU** Micron Q4 2026 Earnings Call: Live Updates of $MU Earnings, Outlook (Yahoo Finance · 30/09) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/micron-q4-2026-earnings-call-221852112.html)
+  *Por que importa:* resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+- **BBDC4** Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação (Estadao · 30/09) [abrir a fonte](https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-pagara-r-38-bilhoes-em-jcp-confira-valor-por-acao/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **MU** 8-K: 2.02 resultado do trimestre (SEC · 30/09) [abrir a fonte](https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm)
   *Por que importa:* resultado do trimestre reprecifica lucro, guidance e multiplo; comparar com o consenso
 - **MU** Micron slips even as Q4 results, guidance top estimates (MU:NASDAQ) (Seeking Alpha · 30/09) [abrir a fonte](https://seekingalpha.com/news/4648585-micron-slips-even-as-q4-results-guidance-top-estimates)
@@ -304,8 +316,8 @@ Inflação implícita 2029 5,97% · 2032 6,01% · 2031/32 (descasado) 5,97% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 29/09 · UST CMT D0 · PTAX 30/09
-**Lacunas:** BRENT sem barra de 30/09 (última 29/09); BRENT: barra de 30/09 com volume 1.394 (mediana 49.136): não é o pregão inteiro; barra descartada, fica a de 29/09.
+**Relógios:** Yahoo 21h29 · DI ajuste D0 · Tesouro base 29/09 · UST CMT D0 · PTAX 30/09
+**Lacunas:** DXY sem barra de 30/09 (última 29/09); BRENT sem barra de 30/09 (última 29/09); DXY: barra de 30/09 é o início da sessão seguinte (última cotação 20:20 de Nova York); barra descartada, fica a de 29/09; BRENT: barra de 30/09 com volume 1.394 (mediana 49.136): não é o pregão inteiro; barra descartada, fica a de 29/09.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-30).

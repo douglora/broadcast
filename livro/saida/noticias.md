@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 30/09 19h54
+NOTÍCIAS E FATOS · 30/09 21h29
 
-Pernas: noticias ok 22 novas (18 consultas; descartadas: 434 veículo fora da lista, 38 sem ativo, 24 teto) · cvm ok 3 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 34 sem ativo, 8 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
 
@@ -85,7 +85,32 @@ Fonte: SEC EDGAR 2026-09-30
 id: E04-MU-26000018-2026-09-30 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## NOTÍCIAS COM MATERIALIDADE (23)
+
+[ATENÇÃO] E05 · BABA · MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller R…
+PR Newswire · 30/09 21h00 · fonte única · licença: integral
+Do texto:
+  – Alibaba Group Holding Limited, No. 26-cv-06654 (S.D.N.Y.), the Alibaba class action lawsuit charges Alibaba and Alibaba's Chief Executive Officer with violations of the Securities Exchange Act of 1934.
+  – On June 8, 2026, after market hours, the U.S.
+  – On this news, the price of Alibaba's American Depositary Shares ("ADSs") declined nearly 4%, according to the complaint.
+  – Our Firm ranked #1 on the most recent ISS Securities Class Action Services Top 50 Report, recovering more than $916 million for investors in 2025.
+  – This marks our fourth #1 ranking in the past five years.
+  – And in those five years alone, Robbins Geller recovered $8.4 billion for investors – $3.4 billion more than any other law firm.
+Link: https://www.prnewswire.com/news-releases/monday-baba-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-robbins-geller-rudman--dowd-llp-announces-302893967.html
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: BABA
+Como falar: 'saiu no PR Newswire: MONDAY BABA DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Hav…; confirmar o número no texto antes de repassar'
+Fonte: PR Newswire 30/09 21h00
+id: E05-BABA-19205b4b00-2026-10-01 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · MU · Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.
+Barron's · 30/09 19h24 · fonte única · licença: manchete
+Link: https://www.barrons.com/articles/micron-earnings-stock-price-6c25895f
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Barron's: Micron Reports Another Dazzling Earnings Quarter. The Stock Isn’t Moving.; confirmar o número no texto antes de repassar'
+Fonte: Barron's 30/09 19h24
+id: E05-MU-01fe39c174-2026-09-30 · status: pendente
 
 [ATENÇÃO] E05 · BBDC4 · Dia cheio no Bradesco (BBDC4): de R$ 3,8 bilhões em JCP a leilão de sobras de ações até o "Pix" internacional
 Seu Dinheiro · 30/09 19h34 · fonte única · licença: resumo
@@ -320,8 +345,22 @@ Fonte: Investing.com 29/09 18h06
 id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (136)
+## OUTRAS NOTÍCIAS (só manchete) (150)
 
+· MU We're raising our Micron price target after an incredible quarter and robust guidance (CNBC) https://www.cnbc.com/2026/09/30/were-raising-our-micron-price-target-after-an-incredible-quarter-and-robust-outlook.html
+· LITE Lumentum president Yuen sells $764,365 in company stock (Investing.com) https://www.investing.com/news/insider-trading-news/lumentum-president-yuen-sells-764365-in-company-stock-93CH-4926093
+· MU Micron’s Revenue More Than Quadrupled. Here’s What Comes Next for the AI Chipmaker. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/micron-revenue-more-quadrupled-comes-231401715.html
+· MU Micron Technology Q4 Earnings Call Highlights (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-technology-q4-earnings-call-230239520.html
+· USDBRL Dólar cai para R$ 5,17 e acumula recuo de 0,15% em setembro (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-para-r-517-e-acumula-recuo-de-015-em-setembro
+· BBDC4 Bradesco (BBDC4) aprova proventos no valor de R$ 3,8 bi; veja quem tem direito (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-aprova-proventos-no-valor-de-r-38-bi-veja-quem-tem-direito/
+· ITUB4 Ibovespa dispara 1,37% e fecha setembro em festa; ITUB4 e BBAS3 saltam quase 5% (Suno Noticias) https://www.suno.com.br/noticias/ibovespa-hoje-30-setembro-itub4-bbas3-mglu3-mt/amp/
+· VALE3 China ajuda o minério, e VALE3 fecha em alta, mas longe da máxima: o que pesou? (InfoMoney) https://news.google.com/rss/articles/CBMiggFBVV95cUxNbWlDQ2JPa3F4ZnVQR05zR21vRlc3UHpoX1Z1eWlpSWpxVjA3eGRmRHJOVFBpdVZ3LVNJMnc3NW1iZlhsYm9SMGtua2FfZDZPc2pYd0tzdEtVdFRWRHVyYWJxcHVGeHVyZGh1Um5BX2hadGxGUTJxZ0xabUdFTkU2dVl30gGHAUFVX3lxTFA3cVVYYUd5QTBFUWxITkpKSmF3ZnRJY1ZXVG5SSGRxY3NOdTVrc0F1UnMxWUstejQ4ZXB1Y2ZLbU1HZktPZmpkZC1VNy1DbXlNdGxzRDYyYWFXUE9vSlQ4SlpybUdNdUhTMUswTl9ERlloOFdmdGYyMzNpakVxNXQtYjBMcDlXUQ?oc=5
+· KLBN4 Além da IA: o método desses três jovens para cruzar dados e um montar equity research da Klabin (Exame) https://news.google.com/rss/articles/CBMivwFBVV95cUxPa1p3YUtXTTE2VnNIRTg2TDZOWFZOSW1icEdrRVdpbWEzYmZYdGhsbGpiR3lHZUwyRjB6dzJGZ1JObF9pLVdfM0Y5VGVCam8xdUZCZHNvXzJtLUpNUi1DZllBMXJRSU1ZTEp4X0JaTFByNnU0dXVkaGcweVBpR2tWR1ZnMTY2RnlIQmRzOVhhbzR5T1FwLWxzbTFrRHZIdlZTLUpsWVhlRl9OdGE0aE9WOXh3OTAta2ppMHFxbEcwcw?oc=5
+· USDBRL Dólar e Ibovespa fecham setembro com eleições no radar; o que esperar de outubro? (Estadao) https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRTNXLXdyV3RkcEJidHNJTFk0OHJZSjhFMXVmek5Qc0szcnJoTnFWYk1xREVrS1dsM0gwOGNNcEF0V25kNmk1NmtGbnhVOUtvUjNteGx0TExTNEp6VlBsTWJIV3oyZnIxSXFVMGFSRkxlNGZDanhKc0FTdHQ3UTlzRWtDSkJYR0hzeHpfdWJMN3VmdlJFMzNldjE2eGo2d0NuVmMycG5TN0V4ekp4LVIyMVBPYjI4UlJEcy1TTUJHakh5bVVoZG5XcTJOeUJoRFZpdnNyONIB2gFBVV95cUxPcFhKQ1NTdlR6Z291WHQzR0Mxc1ZMdDFENHBxUWtidmJmbkVqVTBDdG4yYU5oV3RmYjctVGhRR3hrWVFYY0Q4UUJfRmxrWVdCenkxR3lrMFI3UnlONzU2aUZuTl9zOGZMTl9rWEFrbk1UMGlnd05pc0kzRVNMcDR2eUE1THFuRXNaUFBPbzBiTnhNMDdMVURlam1CTWRNYzBKbE1wNmtnZUhmRFV0WWh1VVAtRHEzVlljdGduMWVkb0N6MXE4My1ON0tER3hZUXV1dTNOVUZBMXlRdw?oc=5
+· ITUB4 Ibovespa hoje sobe 1,3% com apoio de bancos; Itaú deu salto de quase R$ 19 bi em valor de mercado (Estadao) https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcGFhTS1KQUhHLU5NV2tycG5UT2ZaOENGNXZKc3N1ZDQybkJZZjVacjQ1T0pzOXRIbmxvbFNUUEJTWUQzQ0Z0eGJZcTRLNzVvVHFzSlFZb1lmaVRzdlVma1V0Tk9LeTc5VWpvemd0SVoyWlBDZEJ6TUpkdFRZeGdMWE8taS13VU1xZW9hNVdXRXdOWFFUMmJzZF9QQmZpSE5KT1lneEItRERGcjEzaV9lcDU3cUlxN3g3WGdWeTBxcUl3YVF3ZWkyamxmcFJORHRX0gHWAUFVX3lxTFAxTXVVZlpUWFh0WEZkS2N0UjRBX0dVaGJWVkxiOGlKQk1CRnVYWThRckdJRDR2b2xjRTg3WEZhbG5xVmNFVU5LbVd1Sk44aXN0WFl6YmJkZW15R3ZyZ2dXa3U0NENqczZzZEFqck8tOW9vdmlOeGJKcGxsUFZab28wdktKQzR1RndCZjFWMTM4MHJKLTdkaWdCUXNEUklvNWZzV3luN3BHUVRBanlUMjdIRXhUMHpneXFLWXVqcG44bWtabGZUSGhWWUFRQjZQdzZQZHNwMWc?oc=5
+· MU Watch Micron Beats Estimates as AI Data Center Revenue Surges | Closing Bell (Bloomberg) https://news.google.com/rss/articles/CBMilAFBVV95cUxPbW5qMllpcEJmMmZHdGJ0V2tXdnZlQUdGSTc2NGkydmYtM1ZiV1NESUdTZ3NEVGEyMHowR1d1V0FRem1uMnVhS3UwcWtTbDlTODZueFhNYVRfajBld1RLaHJLQ2FTTFhKZUtsM3gtYmJKaFFLMzJRQWZZVWNrYW9FZ0FnakpPZ1RNeWIwQWpkeTRMLUJl?oc=5
+· ITSA4 (ITSA4) - ATENCAO PARA O CALL - PRECO R$ 7,20 (ADVFN) https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHRTMzQUJ6akp1NGowSm55VU4tT19LZE15UExyS05OTHVXVzg4VENCZGIwU2xXUlBtX0pyRHM1NDJwYjZoLXpjUm5sU0ZsQlphTUpCc2lITE95SXJ6N0RwME5fc1I?oc=5
+· MU Cantor Fitzgerald’s CJ Muse on Micron earnings: Expectations are high (CNBC) https://news.google.com/rss/articles/CBMisAFBVV95cUxOX3UwTmxXbzRwSVMzVjluS1dkd295V1oyMHZHU0JWUDM4dkZtSWk4MGR0b19DSXdtakVseUstMTl0b1JubzFPc1laRV9WWlo3WnUzRjJFWjc3b29BMDhOcUV5dUZZZG1URl95cERXTWNqbExibkV1SE1vWFdpUjNrRG5ybV90ZEpDc240dm1DckVFN0FtNnFKS0c4SXExZWRoSDBfbXZaRURWOThNcXk0eQ?oc=5
 · NVDA Nvidia Stock Can Top $400 in 5 Years If One Assumption Holds Up (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-top-400-5-223701566.html
 · BBDC4 Bradesco (BBDC4) leva sobras de ações a leilão na B3 após aumento de capital (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-leva-sobras-de-acoes-a-leilao-na-b3-apos-aumento-de-capital/
 · ITUB4 Tenda (TEND3) vai na contramão do Ibovespa e fecha em queda, mas Itaú BBA ainda tem motivos para considerar a ação atrativa (Seu Dinheiro) https://www.seudinheiro.com/2026/economia/tenda-tend3-vai-na-contramao-do-ibovespa-e-fecha-em-queda-mas-itau-bba-ainda-tem-motivos-para-considerar-a-acao-atrativa/
@@ -368,18 +407,4 @@ id: E05-TSLA-c2ad6cce7d-2026-09-29 · status: entregue
 · PETR4 Petrobras: P-80 deixa Singapura rumo a Búzios e reforça produção no pré-sal (ADVFN) https://br.advfn.com/jornal/2026/09/petrobras-p-80-deixa-singapura-rumo-a-buzios-e-reforca-producao-no-pre-sal
 · INTC Intel Stocks Jump as OpenShell Adds Agent Policy Enforcement (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:9f15feb11094b:0-intel-stocks-jump-as-openshell-adds-agent-policy-enforcement/
 · UST Update: US Equity Indexes Mixed as Higher Spending, Soft Inflation Print Split Moves in Treasury Yields (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-mixed-higher-172230640.html
-· BTC Bitcoin steadies as soft PCE cools October Fed rate hike bets (The Block) https://www.theblock.co/news/markets/2026-09-30-bitcoin-pce-inflation-october-rate-hike-417335
-· BABA Alibaba's AI Spending Ramps Up: Is the Investment Paying Off? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:053c5ee4e094b:0-alibaba-s-ai-spending-ramps-up-is-the-investment-paying-off/
-· NVDA Price Prediction: 5 Years From Now, This Could Be Nvidia Stock’s Price (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/price-prediction-5-years-now-143002820.html
-· USDBRL Dólar tem forte queda após dados de inflação nos EUA (CNN Brasil) https://news.google.com/rss/articles/CBMipgFBVV95cUxNa2ZNOE9hQnNwV2JNR3dMUUotb0hXV1VfYnVnZW5DaXBIcU9UNVhzSTRSV3pieHlyTEFQcmw3aW5TNkRtTEk5cEdGWUtNLU9sZWJNbzVnUlZOdXRTN3ZZUFFFWjR2UjlTcDQ3SUlLT3liTHRFVkJrV1FpRm9McERkcW9kdkdmdEoxUDZRaVJVclkySW50QWctZ2p1VEQ1c0pHeFZxZklB?oc=5
-· USDBRL Por que o dólar sobe? Entenda o que faz o real e outras moedas perderem valor (Suno Noticias) https://www.suno.com.br/noticias/dolar-por-que-sobe-desvalorizacao-moedas-mt/
-· INTC 32 Analysts Say Hold on Intel. Here’s What the Numbers Actually Show (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/32-analysts-hold-intel-numbers-170041819.html
-· UST Update: US Equity Indexes Mixed as Higher Spending, Soft Inflation Print Split Moves in Treasury Yields (Yahoo Finance) https://ca.finance.yahoo.com/news/us-equity-indexes-mixed-higher-163036741.html
-· AMD AMD: The Scary $1 Trillion Question (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4951079-amd-the-scary-1-trillion-question
-· USDBRL Tempo real: Ibovespa sobe 1% com dados de inflação nos EUA; dólar cai (Money Times) https://www.moneytimes.com.br/tempo-real-30-9-26-apsa-lils/
-· BRENT Oil Price Forecasts Jump as Hormuz Disruption Drags On (OilPrice.com) https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html
-· BTC Bitcoin Jumps on Cool PCE Inflation Data as Bond Yields Hit 20-Year Highs (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-jumps-cool-pce-inflation-155025044.html
-· NVDA Breakingviews - COMMENTARY: AMD takes an $8 bln leap at Nvidia (Reuters) https://www.reuters.com/commentary/breakingviews/amd-takes-an-8-bln-leap-nvidia-2026-09-30/
-· JPM JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:1055efeb5094b:0-jpmorgan-trades-below-50-day-sma-buy-sell-or-hold-the-stock/
-· MU Micron's Guidance Will Be the Whole Memory Market's Answer (Yahoo Finance) https://ca.finance.yahoo.com/news/microns-guidance-whole-memory-markets-133100324.html
-· (+76 manchetes; lista completa em eventos/noticias.json)
+· (+90 manchetes; lista completa em eventos/noticias.json)
