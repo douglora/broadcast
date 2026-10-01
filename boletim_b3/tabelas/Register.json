@@ -1,0 +1,31 @@
+{
+ "pregao": "2026-09-30",
+ "nome": "Register",
+ "titulo": "Registro",
+ "sla": "8:00:00",
+ "paginas": 1,
+ "colunas": [{"nome": "RptDt", "titulo": "Data referência"}, {"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "QuantityInstrument", "titulo": "Número de instrumentos"}, {"nome": "RegisterVolume", "titulo": "Volume financeiro"}],
+ "texto": ["Traz quantidade e volume financeiro de instrumentos de renda fixa que foram registrados em um sistema ou plataforma específica, como a B3. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/08/10/78/EB/8E2AB9109B5E99B9AC094EA8/Glossario_Registro_balcao.pdf\">Glossário</a>.", "Os dados anteriores a 11/12/2025 estarão disponíveis na aba Volume Depositado, em <a href=\"https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/renda-fixa/\">Histórico</a>.", "A partir de 01/07/2026, a divulgação dos dados passa a contemplar o registro dos instrumentos CDBV, DIRA, DIRB, DIRG, DIRP, IECI, IECP, LCD, LCIV, LFSC LFSN e LFV."],
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-01T04:53:57.273",
+ "truncada": false,
+ "linhas": [
+  ["2026-09-30", "LFSN", 2, 800000],
+  ["2026-09-30", "CCI", 203, 144536993.2],
+  ["2026-09-30", "LCI", 10066, 856245728.54],
+  ["2026-09-30", "LIG", 73, 10514040],
+  ["2026-09-30", "LAM", 3, 2497546.65],
+  ["2026-09-30", "CCB", 329217, 3941508958.2],
+  ["2026-09-30", "LCA", 6027, 1823463098.36],
+  ["2026-09-30", "CDAWA", 21, 0],
+  ["2026-09-30", "RDB", 2702249, 12682278661.34],
+  ["2026-09-30", "CCCB", 38, 447407363.87],
+  ["2026-09-30", "LC", 7, 721710],
+  ["2026-09-30", "CDB", 3886658, 74157844623.84],
+  ["2026-09-30", "LF", 130, 455248178.48],
+  ["2026-09-30", "CDBV", 33, 11880684],
+  ["2026-09-30", "CPR", 956, 1269869204.86],
+  ["2026-09-30", "DI", 361, 11640440678.9],
+  ["2026-09-30", "LFSC", 1, 5600000]
+ ]
+}

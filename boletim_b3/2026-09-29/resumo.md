@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 29/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-30 11:18 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:49:31Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T14:31:27Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -253,6 +253,13 @@ Posição em aberto: 3,7 bi de calls e 2,9 bi de puts (put/call 0,79); no volume
 | Debêntures incentivadas | R$ 1,9 bi | IPCA+ 7,86% | +43 pb |
 | CRI | R$ 1,8 bi | IPCA+ 9,14% e CDI+ 0,93% | +184 pb |
 | CRA | R$ 1,6 bi | IPCA+ 10,10% e CDI+ 2,90% | +276 pb |
+
+**Papéis acompanhados (config/boletim.yaml)**
+
+| Papel | Taxa do dia | Sobre o juro real | Volume |
+|---|---:|---:|---:|
+| CGOS16 | IPCA+ 8,13% | +70 pb | R$ 1,3 mi |
+| CGOS28 | IPCA+ 8,31% | +88 pb | R$ 3,9 mi |
 
 **Debêntures incentivadas mais negociadas**
 
