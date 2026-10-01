@@ -277,7 +277,8 @@ CSV da API de download. O sistema segue o desenho do livro:
 
 1. **Runner** (`.github/workflows/boletim-b3.yml` + `boletim_b3.py` + pacote
    `boletim/`): le a situacao dos cadernos, 47 tabelas e 4 arquivos do pregao (cerca de
-   um minuto), cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
+   um minuto) e, fora da B3, o arquivo diario de taxas indicativas de debentures da ANBIMA
+   (`boletim/anbima.py`); cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
    no branch `dados`: `<pregao>/resumo.json` (numeros com fonte e data e a lista de
    sinais), `<pregao>/resumo.md` (cards de texto), `<pregao>/status.json` (link de cada
    caderno em PDF na B3), `painel.html` (a pagina do ultimo pregao, que a sessao publica
@@ -300,6 +301,10 @@ CSV da API de download. O sistema segue o desenho do livro:
    - renda fixa de balcao so no que o Douglas opera: debentures incentivadas, CRI e
      CRA, com a taxa de cada negocio cruzada com o cadastro (incentivada, indexador,
      vencimento), premio sobre o juro real (DAP), quem abriu e quem fechou taxa.
+     Debenture se compara pela taxa indicativa da ANBIMA (com compra, venda, PU e
+     duration), e a media dos negocios da B3 fica ao lado: em papel com muito negocio
+     pequeno ela pende para a taxa do varejo. Cada taxa sai com a fonte e o dia
+     ("ANBIMA indicativa de DD/MM" ou "B3 negocios de DD/MM"); CRI e CRA so tem a B3.
    Limiares em `config/boletim.yaml`.
 3. **Sessao do Claude** (skill `.claude/skills/boletim-b3/SKILL.md`):
    `python3 mesa.py boletim` imprime o veredito (ATUAL ou VELHO, COMPLETO ou
@@ -315,10 +320,15 @@ em D+1. Disparo manual: aba Actions > "Boletim B3" > Run workflow (`dias` = `aut
 ate 21, que e a janela que a B3 guarda; `pdf` baixa os cadernos para o artefato).
 Tabela de mais de uma pagina vem sempre pela exportacao completa da B3: a paginacao
 do aplicativo repete e pula linhas.
+A ANBIMA publica o arquivo do dia entre 19h40 e 20h30; se a rodada chegar antes (HTTP
+404), vale o do pregao anterior, com a data dele escrita, e a rodada seguinte completa.
+Sem a ANBIMA (site fora do ar, formato novo) a renda fixa sai so com os negocios da B3
+e o resumo declara a lacuna.
 Sem rede: `python boletim_b3.py --saida <pasta> --so-painel` refaz os paineis a partir
-dos resumos guardados.
+dos resumos guardados. Testes: `python3 -m pytest tests/test_boletim.py -q` (67, sem rede).
 
-O que o boletim nao tem: posicao em aberto de derivativos por tipo de investidor.
+O que o boletim nao tem: posicao em aberto de derivativos por tipo de investidor; taxa
+indicativa de CRI e CRA (o arquivo da ANBIMA so traz debentures).
 
 ---
 

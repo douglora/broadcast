@@ -6,7 +6,8 @@ compacto, que sustenta media de 20 pregoes e variacao de um dia para o outro).
 Regras da casa que este modulo cumpre:
 - Nenhum numero sem fonte e data: cada bloco leva `fonte` (tabela ou arquivo da B3) e a data
   a que o numero se refere, que nem sempre e a do pregao (o fluxo por investidor sai com dois
-  pregoes de atraso; a carteira de indice vale por quadrimestre).
+  pregoes de atraso; a carteira de indice vale por quadrimestre). Na renda fixa a taxa de
+  debenture vem de duas fontes, B3 e ANBIMA, e cada papel diz qual vale e de que dia e (`ref`).
 - Lacuna declarada, nunca placeholder: o que a B3 ainda nao publicou vai para `pendentes`
   com a situacao que ela informa; o que nao existe no boletim vai para `lacunas`.
 - A sessao nao calcula regra: os sinais saem daqui, com os limiares de config/boletim.yaml.
@@ -164,9 +165,12 @@ class Contexto:
                 break
         return out
 
-    def sinal(self, tipo: str, ativo: str | None, texto: str, fonte: str, data: str | None = None, **nums):
-        self.sinais.append({"tipo": tipo, "ativo": ativo, "texto": texto,
-                            "fonte": fonte, "data": data or self.iso, "numeros": nums})
+    def sinal(self, tipo: str, ativo: str | None, texto: str, fonte: str, data: str | None = None,
+              origem: str | None = None, **nums):
+        s = {"tipo": tipo, "ativo": ativo, "texto": texto, "fonte": fonte, "data": data or self.iso, "numeros": nums}
+        if origem:                      # de quem e o dado quando nao e so da B3 (taxa indicativa da ANBIMA)
+            s["origem"] = origem
+        self.sinais.append(s)
 
 
 # ------------------------------------------------------------------ negocios e cadastro
@@ -891,6 +895,22 @@ def informativos(ctx: Contexto) -> list:
     return out
 
 
+def renda_fixa_do_pregao(ctx: Contexto) -> dict:
+    """Bloco `renda_fixa`. A taxa indicativa da ANBIMA e enriquecimento: se o cruzamento com ela quebrar
+    (dado em formato que ninguem previu), o bloco sai so com os negocios da B3 e a lacuna fica escrita,
+    em vez de o pregao inteiro ficar sem resumo."""
+    if not ctx.bruto.get("anbima"):
+        return renda_fixa.montar(ctx)
+    sinais, lacunas = len(ctx.sinais), len(ctx.lacunas)
+    try:
+        return renda_fixa.montar(ctx)
+    except Exception as e:
+        del ctx.sinais[sinais:], ctx.lacunas[lacunas:]          # o que a tentativa ja tinha escrito sai junto
+        ctx.bruto["anbima"] = {"pregao": ctx.iso, "situacao": "falhou", "arquivo": None, "anterior": None,
+                               "erro": f"cruzamento com os negocios: {type(e).__name__}: {e}"[:160]}
+        return renda_fixa.montar(ctx)
+
+
 def renda_fixa_puma(ctx: Contexto) -> dict:
     """Papeis de renda fixa negociados na plataforma eletronica (Puma): os de maior volume."""
     t = ctx.tab("DebenturesBusiness")
@@ -980,7 +1000,7 @@ def montar(bruto: dict, cfg: dict, livro: list[dict], hist: dict, series_dir: st
     for chave in ("aluguel_alta", "aluguel_float", "aluguel_taxa", "vendidos_pressionados", "aposta_vendida_crescendo"):
         em_destaque |= {l["ativo"] for l in rad.get(chave) or []}
     corr = mkt.corretoras(ctx, sorted(em_destaque))
-    rf = renda_fixa.montar(ctx)
+    rf = renda_fixa_do_pregao(ctx)
     rf_linhas = rf.pop("_linhas", {}) if rf else {}
     flx = fluxo(ctx)
     mer = mercado(ctx)

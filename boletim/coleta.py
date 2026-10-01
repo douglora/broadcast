@@ -3,7 +3,8 @@
 Gravado no branch `dados` (so texto e JSON; PDF nunca, o completo passa de 50 MB):
 
   boletim_b3/<AAAA-MM-DD>/status.json   cadernos: situacao, hora e link do PDF
-  boletim_b3/<AAAA-MM-DD>/index.json    tabelas e arquivos: situacao, hora, linhas, falhas
+  boletim_b3/<AAAA-MM-DD>/index.json    tabelas e arquivos: situacao, hora, linhas, falhas; e a leitura
+                                        da ANBIMA (de que dia e o arquivo de taxas indicativas)
   boletim_b3/tabelas/<Nome>.json        tabelas pequenas, inteiras, do ultimo pregao coletado
                                         (cada arquivo diz de que pregao e; uma linha por registro)
 
@@ -22,7 +23,7 @@ from datetime import date
 
 from livro.http import Cliente, HttpError
 
-from boletim import b3, renda_fixa
+from boletim import anbima, b3, renda_fixa
 
 # (nome, paginas no maximo). Guardadas inteiras em tabelas/<Nome>.json.
 INTEIRAS = (
@@ -144,12 +145,15 @@ def texto_cadastro(cache: dict) -> str:
 
 
 def coletar_pregao(cli: Cliente, d: date, pasta: str | None, pausa: float = 0.12, log=print,
-                   rf_cadastro: dict | None = None, max_cadastros: int = 2500, pasta_tabelas: str | None = None) -> dict:
+                   rf_cadastro: dict | None = None, max_cadastros: int = 2500, pasta_tabelas: str | None = None,
+                   anbima_cache: dict | None = None, anbima_dias_atras: int = 3) -> dict:
     """Busca tudo de um pregao. Devolve o bruto em memoria e grava status, index e tabelas.
 
     bruto = {pregao, status, tabelas{nome: tab}, arquivos{nome: [registros]}, informativos[],
-             rf_cadastro{codigo: cadastro}, index{tabelas{}, arquivos{}, falhas{}}}
+             rf_cadastro{codigo: cadastro}, anbima{situacao, arquivo, anterior},
+             index{tabelas{}, arquivos{}, falhas{}, anbima{}}}
     `rf_cadastro` e o cache de cadastro de renda fixa; e completado aqui e devolvido no bruto.
+    `anbima_cache` guarda os arquivos de taxa indicativa que a rodada ja leu (None = nao le a ANBIMA).
     """
     bruto: dict = {"pregao": d.isoformat(), "status": None, "tabelas": {}, "arquivos": {}, "informativos": []}
     index: dict = {"pregao": d.isoformat(), "coletado_em": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
@@ -209,6 +213,17 @@ def coletar_pregao(cli: Cliente, d: date, pasta: str | None, pausa: float = 0.12
             index["rf_cadastro"] = cadastros_rf(d, negocios_rf, bruto["rf_cadastro"], max_cadastros)
         except Exception as e:      # o cadastro e enriquecimento: sem ele a renda fixa sai sem classe, mas sai
             index["falhas"]["rf_cadastro"] = f"{type(e).__name__}: {e}"[:160]
+
+    if anbima_cache is not None:
+        # Taxa indicativa das debentures. Fica fora de `falhas` de proposito: arquivo que ainda nao saiu
+        # (404) e espera, e falha da ANBIMA nao pode mandar a rodada refazer a coleta da B3 de pregao antigo.
+        # Sem ela a renda fixa sai so com os negocios da B3, e o resumo declara a lacuna.
+        try:
+            bruto["anbima"] = anbima.do_pregao(cli, d, anbima_cache, anbima_dias_atras)
+        except Exception as e:
+            bruto["anbima"] = {"pregao": d.isoformat(), "situacao": "falhou", "arquivo": None, "anterior": None,
+                               "erro": f"{type(e).__name__}: {e}"[:160]}
+        index["anbima"] = anbima.situacao(bruto["anbima"])
 
     bruto["index"] = index
     if pasta:

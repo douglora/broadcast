@@ -33,7 +33,7 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py boletim sinais               # so os sinais, novos e repetidos
     python3 mesa.py boletim status               # cadernos em PDF (links), tabelas pendentes e falhas da ultima rodada
     python3 mesa.py boletim tabela IOPV          # uma tabela do ultimo pregao como a B3 publicou
-    python3 mesa.py boletim rf                   # renda fixa: debentures incentivadas, CRI e CRA (taxa do dia, premio, quem abriu e fechou)
+    python3 mesa.py boletim rf                   # renda fixa: debentures incentivadas, CRI e CRA (indicativa da ANBIMA e negocios da B3, com fonte e dia; premio; quem abriu e fechou)
     python3 mesa.py boletim opcoes PETR4         # opcoes do ativo: vencimentos, posicao por strike, paredes, dor maxima, series que mudaram
     python3 mesa.py boletim radar                # mercado inteiro: mais alugadas, aluguel mais caro, volume anormal, opcoes, corretoras
     python3 mesa.py boletim fluxo                # compras menos vendas por tipo de investidor, dia a dia, nos pregoes guardados
@@ -1351,7 +1351,7 @@ def _boletim_ativo(tk, resumo, hist, anterior=None):
     sinais = [s for s in resumo.get("sinais") or [] if s.get("ativo") == tk]
     print(f"-- sinais ({len(sinais)})")
     for s in sinais:
-        print(f"   [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  (B3 {s['fonte']}, {s['data']})")
+        print(f"   [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  ({s.get('origem') or 'B3'} {s['fonte']}, {s['data']})")
     if hist:
         print("-- ultimos pregoes (historico compacto)")
         print(f"   {'pregao':10s} {'fech':>8s} {'dia %':>7s} {'vol R$ mi':>10s} {'alug mi':>9s} {'taxa %':>7s}")
@@ -1362,8 +1362,7 @@ def _boletim_ativo(tk, resumo, hist, anterior=None):
     return 0
 
 
-def _taxa_rf(l):
-    t, c = l.get("taxa_media"), l.get("convencao")
+def _taxa(t, c):
     if t is None:
         return "sem taxa"
     if c == "% do CDI":
@@ -1371,29 +1370,141 @@ def _taxa_rf(l):
     return f"{fmt(t, 2)}% pre" if c == "Pré" else f"{c or ''} {fmt(t, 2)}%"
 
 
+def _taxa_rf(l):
+    """A taxa dos negocios do dia na B3."""
+    return _taxa(l.get("taxa_media"), l.get("convencao"))
+
+
+def _dm(iso):
+    return f"{str(iso)[8:10]}/{str(iso)[5:7]}" if iso else "-"
+
+
+def _pb(v):
+    """Pontos-base com sinal; a indicativa da ANBIMA anda em decimos."""
+    if v is None:
+        return "-"
+    if not v:
+        return "0"
+    return f"{v:+.0f}" if float(v).is_integer() else f"{v:+.1f}".replace(".", ",")
+
+
+def _ref_rf(l, pregao):
+    """Taxa que vale para comparar o papel (`ref` do resumo): a indicativa da ANBIMA quando ha, senao a dos
+    negocios da B3. Resumo gravado antes de a ANBIMA entrar (01/10/2026) nao tem `ref`: ali so havia os negocios."""
+    if l.get("ref"):
+        return l["ref"]
+    if l.get("taxa_media") is None:
+        return {}
+    return {"taxa": l["taxa_media"], "fonte": "b3", "data": pregao, "premio_dap_pb": l.get("premio_dap_pb"),
+            "premio_base": "vencimento" if l.get("premio_dap_pb") is not None else None,
+            "var_pb": l.get("var_taxa_pb"), "var_contra": l.get("comparado_com")}
+
+
+def _fonte_rf(ref):
+    """'ANBIMA indicativa de 30/09' ou 'B3 negocios de 30/09': de onde vem a taxa e de que dia."""
+    return f"{'ANBIMA indicativa' if ref.get('fonte') == 'anbima' else 'B3 negocios'} de {_dm(ref.get('data'))}"
+
+
 def _boletim_rf(resumo):
     rf = resumo.get("renda_fixa") or {}
     if not rf.get("resumo"):
         print("   renda fixa ausente neste pregao (tabela Trade da B3 nao veio)")
         return 1
+    pregao, anb = resumo["pregao"], rf.get("anbima") or {}
     nomes = {"deb_incentivada": "debentures incentivadas", "cri": "CRI", "cra": "CRA", "deb_comum": "debentures nao incentivadas"}
-    print(f"\n== renda fixa de balcao em {rf['data']} (B3 Trade + InstrumentRegistration; cadastro lido para {rf.get('cobertura_cadastro_pct')}% do volume)")
+    print(f"\n== renda fixa de balcao em {rf['data']}: de onde vem cada taxa")
+    print(f"   B3 negocios de {_dm(pregao)}: tabelas Trade + InstrumentRegistration" + (" [PRELIMINAR: a B3 ajusta o balcao em D+1]" if rf.get("preliminar") else "")
+          + f"; cadastro lido para {rf.get('cobertura_cadastro_pct')}% do volume. E a media dos negocios ponderada pelo volume.")
+    if anb.get("data"):
+        print(f"   ANBIMA indicativa de {_dm(anb['data'])}: {anb.get('papeis')} debentures, arquivo publicado em {anb.get('publicado_em') or '?'}"
+              f"; variacao contra {_dm(anb.get('comparado_com'))}; cobre {fmt(anb.get('cobertura_incentivadas_pct'), 0)}% do volume de incentivadas do dia"
+              + ("" if anb["data"] == pregao else f"  [ARQUIVO DE OUTRO PREGAO: o de {_dm(pregao)} "
+                 + ("nao pode ser lido" if (anb.get("tentativas") or {}).get(pregao) in ("falhou", "nao tentado") else "nao estava no site")
+                 + " na coleta; sem variacao do dia pela indicativa]"))
+    elif anb:
+        print(f"   ANBIMA: sem taxa indicativa nesta rodada ({anb.get('situacao')}" + (f": {anb['erro']}" if anb.get("erro") else "")
+              + "); debentures pelos negocios da B3")
+    else:
+        print("   ANBIMA: este resumo e de antes de a taxa indicativa entrar no boletim; so negocios da B3")
+    print("   taxa ref = a que vale para comparar papel com papel: indicativa da ANBIMA nas debentures que ela acompanha; negocios da B3 nos demais (CRI e CRA sempre)")
+    print("\n-- por classe (mediana e media das taxas de referencia dos papeis acima do volume minimo)")
     for cl, v in rf["resumo"].items():
         print(f"   {nomes.get(cl, cl):28s} R$ {fmt((v.get('volume_rs') or 0) / 1e6, 1):>9s} mi | {v.get('negocios')} negocios em {v.get('papeis')} papeis"
-              f" | IPCA+ medio {fmt(v.get('taxa_ipca_media'), 2)}% | premio s/ DAP {fmt(v.get('premio_dap_medio_pb'), 0)} pb"
+              f" | IPCA+ mediano {fmt(v.get('taxa_ipca_mediana'), 2)}% medio {fmt(v.get('taxa_ipca_media'), 2)}% | premio s/ DAP {fmt(v.get('premio_dap_medio_pb'), 0)} pb"
               f" | CDI+ medio {fmt(v.get('premio_cdi_medio'), 2)}% | x media {fmt(v.get('volume_x_media'), 2)}")
+        de, nd = v.get("taxa_fontes") or {}, v.get("negocios_do_dia") or {}
+        if de:
+            origem = (f"ANBIMA indicativa de {_dm(anb.get('data'))} em {de['anbima']} de {sum(de.values())} papeis" if de.get("anbima")
+                      else f"B3 negocios de {_dm(pregao)}")
+            ao_lado = (f" | pelos negocios do dia (B3 {_dm(pregao)}): IPCA+ mediano {fmt(nd.get('taxa_ipca_mediana'), 2)}% medio {fmt(nd.get('taxa_ipca_media'), 2)}%"
+                       f", CDI+ medio {fmt(nd.get('premio_cdi_medio'), 2)}%" if nd else "")
+            print(f"   {'':28s} taxa: {origem}{ao_lado}")
+    meus = rf.get("acompanhados") or []
+    if meus:
+        print("\n-- papeis acompanhados (config/boletim.yaml > renda_fixa > papeis)")
+    for l in meus:
+        ref, a = _ref_rf(l, pregao), l.get("anbima") or {}
+        print(f"   {l['codigo']}  {(l.get('emissor') or '')[:48]}  vencimento {l.get('vencimento') or '-'}")
+        if a:
+            # a taxa da ANBIMA vai na convencao da ANBIMA; `anbima.convencao` so vem quando ela difere da que a B3 le
+            conv = a.get("convencao") or l.get("convencao")
+            if a.get("var_pb") is not None:
+                var = f"var {_pb(a['var_pb'])} pb contra {_dm(a.get('comparado_com'))}"
+            elif a.get("indicativa") is None:
+                var = "var: papel sem taxa neste arquivo"
+            elif not anb.get("comparado_com"):
+                var = "var: sem o arquivo anterior"
+            else:
+                var = f"var: sem medida contra {_dm(anb.get('comparado_com'))} (papel sem taxa naquele arquivo, ou taxa em percentual do CDI)"
+            print(f"      ANBIMA indicativa de {_dm(a.get('data'))}: {_taxa(a.get('indicativa'), conv)} | compra {fmt(a.get('compra'), 2)}% venda {fmt(a.get('venda'), 2)}%"
+                  f" | PU {fmt(a.get('pu'), 2)} ({fmt(a.get('pct_pu_par'), 2)}% do par) | duration {fmt(a.get('duration_du'), 0)} dias uteis ({fmt(a.get('duration_anos'), 2)} anos)"
+                  f" | {var}")
+            if a.get("convencao"):
+                print(f"      [CONVENCAO DIFERENTE: a ANBIMA escreve a taxa em {a['convencao']} e a B3 em {l.get('convencao')}; nao se comparam, vale a dos negocios]")
+            curta = bool(a.get("duration_anos")) and a["duration_anos"] < 1.0
+            print(f"      premio da indicativa sobre o DAP de {_dm(a.get('data'))}: {_pb(a.get('premio_dap_duration_pb'))} pb na duration"
+                  + (" (prazo medio abaixo de um ano: sem premio na duration)" if curta else "") + f" | {_pb(a.get('premio_dap_pb'))} pb no vencimento")
+        if l.get("sem_negocio"):
+            print(f"      B3 negocios de {_dm(pregao)}: sem negocio")
+        else:
+            print(f"      B3 negocios de {_dm(pregao)}: {_taxa_rf(l)} (min {fmt(l.get('taxa_min'), 2)} max {fmt(l.get('taxa_max'), 2)}) | R$ {fmt((l.get('volume_rs') or 0) / 1e6, 2)} mi em {l.get('negocios')} negocios"
+                  f" | premio no vencimento {_pb(l.get('premio_dap_pb'))} pb | var {_pb(l.get('var_taxa_pb'))} pb contra {_dm(l.get('comparado_com'))}")
+        if ref:
+            print(f"      vale para comparar: {_fonte_rf(ref)}")
+        else:
+            falta = {"falhou": "a leitura da ANBIMA falhou nesta rodada", "ausente": "nao havia arquivo da ANBIMA nesta rodada",
+                     "nao coletado": "a ANBIMA nao foi coletada nesta rodada"}.get(anb.get("situacao"))
+            if not falta and anb:
+                falta = "o papel esta sem taxa no arquivo da ANBIMA" if a else "o papel nao esta no arquivo da ANBIMA"
+            print("      sem taxa de referencia neste pregao: sem negocio na B3" + (f" e {falta}" if falta else ""))
     for cl in ("deb_incentivada", "cri", "cra"):
-        print(f"\n-- {nomes[cl]}: mais negociados")
-        print(f"   {'codigo':12s} {'emissor':30s} {'taxa do dia':>16s} {'emissao':>8s} {'premio pb':>9s} {'var pb':>7s} {'venc':>10s} {'R$ mi':>8s} {'neg':>5s}")
+        print(f"\n-- {nomes[cl]}: mais negociados (premio pb: sobre o DAP, na duration [dur] ou no vencimento [venc]; var pb: da taxa ref)")
+        print(f"   {'codigo':12s} {'emissor':26s} {'taxa ref':>14s}  {'fonte e dia':26s} {'negocios B3':>14s} {'emissao':>8s} {'premio pb':>10s} {'var pb':>7s} {'venc':>10s} {'R$ mi':>8s} {'neg':>5s}")
         for l in (rf.get("papeis") or {}).get(cl) or []:
-            print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa_rf(l):>16s} {fmt(l.get('taxa_emissao'), 2):>8s} {fmt(l.get('premio_dap_pb'), 0):>9s}"
-                  f" {fmt(l.get('var_taxa_pb'), 0):>7s} {str(l.get('vencimento') or '-'):>10s} {fmt(l['volume_rs'] / 1e6, 1):>8s} {l['negocios']:>5d}")
-    for chave, titulo in (("aberturas", "abriram taxa"), ("fechamentos", "fecharam taxa"), ("premios_altos", "premio alto")):
-        if rf.get(chave):
-            print(f"\n-- {titulo}")
-            for l in rf[chave]:
-                print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa_rf(l):>16s} var {fmt(l.get('var_taxa_pb'), 0):>5s} pb (vs {l.get('comparado_com') or '-'})"
-                      f" premio {fmt(l.get('premio_dap_pb'), 0):>5s} pb | R$ {fmt(l['volume_rs'] / 1e6, 1)} mi")
+            ref = _ref_rf(l, pregao)
+            base = {"duration": " dur", "vencimento": " venc"}.get(ref.get("premio_base"), "")
+            print(f"   {l['codigo']:12s} {l['emissor'][:26]:26s} {_taxa(ref.get('taxa'), l.get('convencao')):>14s}  {(_fonte_rf(ref) if ref else '-'):26s}"
+                  f" {(_taxa_rf(l) if ref.get('fonte') == 'anbima' else '='):>14s} {fmt(l.get('taxa_emissao'), 2):>8s} {_pb(ref.get('premio_dap_pb')) + base:>10s}"
+                  f" {_pb(ref.get('var_pb')):>7s} {str(l.get('vencimento') or '-'):>10s} {fmt(l['volume_rs'] / 1e6, 1):>8s} {l['negocios']:>5d}")
+    for fonte, rotulo in (("anbima", f"pela indicativa da ANBIMA de {_dm(anb.get('data'))} contra {_dm(anb.get('comparado_com'))}"),
+                          ("b3", f"pelos negocios da B3 de {_dm(pregao)} contra o ultimo pregao com volume")):
+        for chave, titulo in (("aberturas", "abriram taxa"), ("fechamentos", "fecharam taxa")):
+            itens = [l for l in rf.get(chave) or [] if _ref_rf(l, pregao).get("fonte") == fonte]
+            if itens:
+                print(f"\n-- {titulo} {rotulo}")
+            for l in itens:
+                ref = _ref_rf(l, pregao)
+                print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa(ref.get('taxa'), l.get('convencao')):>16s} var {_pb(ref.get('var_pb')):>6s} pb (vs {_dm(ref.get('var_contra'))})"
+                      f" premio {_pb(ref.get('premio_dap_pb')):>5s} pb | R$ {fmt(l['volume_rs'] / 1e6, 1)} mi na B3")
+    if anb.get("situacao") == "anterior":
+        print(f"\n-- abertura e fechamento pela indicativa: sem medida, a rodada nao tinha o arquivo da ANBIMA de {_dm(pregao)}")
+    if rf.get("premios_altos"):
+        print("\n-- premio alto (pela taxa de referencia)")
+        for l in rf["premios_altos"]:
+            ref = _ref_rf(l, pregao)
+            base = {"duration": " na duration", "vencimento": " no vencimento"}.get(ref.get("premio_base"), "")
+            print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa(ref.get('taxa'), l.get('convencao')):>16s} [{_fonte_rf(ref)}]"
+                  f" premio {_pb(ref.get('premio_dap_pb')):>5s} pb{base} | R$ {fmt(l['volume_rs'] / 1e6, 1)} mi na B3")
     print(f"\n   {rf.get('nota')}")
     return 0
 
@@ -1536,7 +1647,7 @@ def boletim(args):
         return baixar(f"boletim_b3/{antes[-1]}/resumo.json") if antes else None
     if sub == "sinais":
         for s in resumo.get("sinais") or []:
-            print(f"- [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  (B3 {s['fonte']}, {s['data']})")
+            print(f"- [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  ({s.get('origem') or 'B3'} {s['fonte']}, {s['data']})")
     elif sub == "status":
         st = baixar(f"boletim_b3/{pregao}/status.json") or {}
         print(f"\n== cadernos do boletim de {pregao}: {st.get('situacao')} em {st.get('atualizado_em')}")
@@ -1548,6 +1659,13 @@ def boletim(args):
         for f in (manifest or {}).get("falhas") or []:
             print(f"   rodada: {f}")
         print(f"   publicadas com atraso: {', '.join(resumo['situacao'].get('publicadas_com_atraso') or []) or 'nenhuma'}")
+        anb = (resumo.get("renda_fixa") or {}).get("anbima")
+        if anb:
+            # 404 da ANBIMA e arquivo que ainda nao saiu (espera), nao falha: vale o do pregao anterior, com a data
+            print(f"   ANBIMA (taxa indicativa de debentures): {anb.get('situacao')}"
+                  + (f", arquivo de {anb['data']} publicado em {anb.get('publicado_em') or '?'}" if anb.get("data") else "")
+                  + (f" | tentativas: {json.dumps(anb['tentativas'], ensure_ascii=False)}" if anb.get("tentativas") else "")
+                  + (f" | erro: {anb['erro']}" if anb.get("erro") else ""))
         guardados = sorted((baixar("boletim_b3/historico.json") or {}).get("pregoes") or {})
         if guardados:
             print(f"\n== pregoes no historico: {len(guardados)}, de {guardados[0]} a {guardados[-1]}")

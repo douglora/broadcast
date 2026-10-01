@@ -10,6 +10,8 @@ from __future__ import annotations
 
 from datetime import date
 
+from boletim import renda_fixa
+
 DIAS = ("segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo")
 ROTULO_INVESTIDOR = {"estrangeiro": "Estrangeiro", "institucional": "Institucional (fundos)",
                      "pessoa_fisica": "Pessoa física", "inst_financeira": "Bancos e corretoras", "outros": "Outros"}
@@ -74,7 +76,8 @@ def _sinais(r: dict) -> list[str]:
         o += [f"**{titulo}**", ""]
         for s in grupo:
             seg = f" · {s['pregoes_seguidos']}º pregão seguido" if s.get("pregoes_seguidos", 1) > 1 else ""
-            o.append(f"- **{ROTULO_SINAL.get(s['tipo'], s['tipo'])}.** {s['texto']} _(B3, {s['fonte']}, {dm(s['data'])}{seg})_")
+            o.append(f"- **{ROTULO_SINAL.get(s['tipo'], s['tipo'])}.** {s['texto']} "
+                     f"_({s.get('origem') or 'B3'}, {s['fonte']}, {dm(s['data'])}{seg})_")
         o.append("")
     return o
 
@@ -108,8 +111,7 @@ def compacto(v) -> str:
     return n(v, 0)
 
 
-def _taxa_rf(l: dict) -> str:
-    t, c = l.get("taxa_media"), l.get("convencao")
+def _taxa(t, c) -> str:
     if t is None:
         return "sem taxa"
     if c == "% do CDI":
@@ -117,13 +119,58 @@ def _taxa_rf(l: dict) -> str:
     return f"{n(t, 2)}% pré" if c == "Pré" else f"{c or ''} {n(t, 2)}%"
 
 
+def _taxa_rf(l: dict) -> str:
+    """A taxa dos negocios do dia na B3."""
+    return _taxa(l.get("taxa_media"), l.get("convencao"))
+
+
+def _pb(v) -> str:
+    """Pontos-base com sinal: inteiro quando e inteiro, uma casa quando nao (a indicativa anda em decimos)."""
+    return ("0" if not v else n(v, 0 if float(v).is_integer() else 1, True)) + " pb"
+
+
 def _renda_fixa(r: dict) -> list[str]:
     rf = r.get("renda_fixa") or {}
     if not rf.get("resumo"):
         return []
+    pregao, anb = r["pregao"], rf.get("anbima") or {}
+    b3_de = f"B3 negócios de {dm(pregao)}"
+
+    def ref_de(l: dict) -> dict:
+        return renda_fixa.referencia(l, pregao)
+
+    def referencia(l: dict) -> str:
+        """'IPCA+ 8,19% (ANBIMA indicativa de 30/09)': a taxa que vale para o papel, com a fonte e o dia."""
+        ref = ref_de(l)
+        return f"{_taxa(ref.get('taxa'), l.get('convencao'))} ({renda_fixa.rotulo_fonte(ref)})" if ref else "sem taxa"
+
+    def premio(l: dict) -> str:
+        ref = ref_de(l)
+        if ref.get("premio_dap_pb") is None:
+            return "-"
+        return _pb(ref["premio_dap_pb"]) + (" na duration" if ref.get("premio_base") == "duration" else " no vencimento")
+
+    def negocios(l: dict) -> str:
+        """Os negocios do dia na B3, ao lado da indicativa; sem ela a taxa dos negocios ja e a referencia."""
+        if l.get("sem_negocio"):
+            return "sem negócio"
+        giro = "R$ " + compacto(l.get("volume_rs"))
+        return f"{_taxa_rf(l)}, {giro}" if ref_de(l).get("fonte") == "anbima" else giro
+
     o = ["## Renda fixa: debêntures incentivadas, CRI e CRA", ""]
     if rf.get("preliminar"):
-        o += ["**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas deste pregão ainda podem mudar.", ""]
+        o += ["**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.", ""]
+    if anb.get("data"):
+        fonte = (f"**De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de {dm(anb['data'])} ({n(anb.get('papeis'), 0)} papéis), "
+                 f"com os negócios da B3 de {dm(pregao)} ao lado; CRI e CRA só pelos negócios da B3.")
+        if anb["data"] != pregao:
+            fonte += f" Sem o arquivo da ANBIMA de {dm(pregao)} até esta coleta: a variação do dia pela indicativa não foi medida."
+    elif anb:
+        fonte = (f"**De onde vem cada taxa:** sem taxa indicativa da ANBIMA nesta rodada ({anb.get('situacao')}); "
+                 f"debêntures, CRI e CRA pelos negócios da B3 de {dm(pregao)}.")
+    else:
+        fonte = f"**De onde vem cada taxa:** negócios da B3 de {dm(pregao)}."
+    o += [fonte, ""]
     linhas = []
     for cl, rot in ROTULO_RF.items():
         v = rf["resumo"].get(cl)
@@ -131,33 +178,61 @@ def _renda_fixa(r: dict) -> list[str]:
             taxas = ([f"IPCA+ {n(v['taxa_ipca_mediana'])}%"] if v.get("taxa_ipca_mediana") is not None else []) + \
                     ([f"CDI+ {n(v['premio_cdi_mediano'])}%"] if v.get("premio_cdi_mediano") is not None else [])
             taxa = " e ".join(taxas) or "-"
-            premio = (n(v["premio_dap_mediano_pb"], 0, True) + " pb") if v.get("premio_dap_mediano_pb") is not None else "-"
-            linhas.append([rot, "R$ " + compacto(v.get("volume_rs")), taxa, premio])
+            premio_cl = (n(v["premio_dap_mediano_pb"], 0, True) + " pb") if v.get("premio_dap_mediano_pb") is not None else "-"
+            linhas.append([rot, "R$ " + compacto(v.get("volume_rs")), taxa, premio_cl])
     o += tabela(["Classe", "Volume do dia", "Taxa mediana", "Sobre o juro real"], linhas)
-    meus = [l for l in rf.get("acompanhados") or [] if not l.get("sem_negocio")]
-    if meus:
+    do_dia = (rf["resumo"].get("deb_incentivada") or {}).get("negocios_do_dia") or {}
+    if do_dia.get("taxa_ipca_mediana") is not None:
+        o += [f"Nas incentivadas, a mediana pelos negócios do dia ({b3_de}) foi IPCA+ {n(do_dia['taxa_ipca_mediana'])}%.", ""]
+    todos = rf.get("acompanhados") or []
+    meus = [l for l in todos if ref_de(l) or not l.get("sem_negocio")]
+    if todos:
         o += ["**Papéis acompanhados (config/boletim.yaml)**", ""]
-        o += tabela(["Papel", "Taxa do dia", "Sobre o juro real", "Volume"],
-                    [[l["codigo"], _taxa_rf(l), (n(l["premio_dap_pb"], 0, True) + " pb") if l.get("premio_dap_pb") is not None else "-",
-                      "R$ " + compacto(l.get("volume_rs"))] for l in meus])
+    if meus:
+        o += tabela(["Papel", "Taxa de referência", b3_de, "Sobre o juro real"],
+                    [[l["codigo"], referencia(l), negocios(l), premio(l)] for l in meus])
+    itens = []
+    for l in todos:
+        a = l.get("anbima")
+        if not a:
+            continue
+        if a.get("convencao"):          # so vem quando a ANBIMA e a B3 leem a taxa de jeitos diferentes
+            itens.append(f"- {l['codigo']}, ANBIMA de {dm(a.get('data'))}: indicativa a {_taxa(a.get('indicativa'), a['convencao'])}, em convenção "
+                         f"diferente da dos negócios da B3 ({l.get('convencao')}); as duas taxas não se comparam e vale a dos negócios.")
+            continue
+        do_cdi = " do CDI" if l.get("convencao") == "% do CDI" else ""
+        partes = [f"compra {n(a['compra'])}%{do_cdi} e venda {n(a['venda'])}%{do_cdi}" if a.get("compra") is not None and a.get("venda") is not None else "",
+                  f"PU R$ {n(a['pu'])}" + (f" ({n(a['pct_pu_par'], 1)}% do par)" if a.get("pct_pu_par") is not None else "") if a.get("pu") is not None else "",
+                  (f"duration de {n(a['duration_anos'], 1)} anos" if a["duration_anos"] >= 1.0
+                   else f"duration de {n(a['duration_anos'], 2)} ano (curta demais para medir o prêmio sobre o DAP)") if a.get("duration_anos") else "",
+                  f"indicativa {_pb(a['var_pb'])} contra {dm(a.get('comparado_com'))}" if a.get("var_pb") is not None else ""]
+        partes = [x for x in partes if x]
+        itens.append(f"- {l['codigo']}, ANBIMA de {dm(a.get('data'))}: " + ("; ".join(partes) + "." if partes else "o arquivo lista o papel sem taxa nem preço."))
+    if itens:
+        o += itens + [""]
+    sem = [l["codigo"] for l in todos if l not in meus]
+    if sem:
+        o += [f"Sem negócio neste pregão e sem taxa indicativa: {', '.join(sem)}.", ""]
     top = (rf.get("papeis") or {}).get("deb_incentivada") or []
     if top:
         o += ["**Debêntures incentivadas mais negociadas**", ""]
-        o += tabela(["Papel", "Taxa do dia", "Sobre o juro real", "Volume"],
-                    [[f"{l['codigo']} ({l['emissor'].title()[:28]})", _taxa_rf(l),
-                      (n(l["premio_dap_pb"], 0, True) + " pb") if l.get("premio_dap_pb") is not None else "-",
-                      "R$ " + compacto(l.get("volume_rs"))] for l in top[:8]])
-    for chave, titulo in (("aberturas", "Abriram taxa"), ("fechamentos", "Fecharam taxa")):
-        itens = rf.get(chave) or []
-        if itens:
-            o.append(f"**{titulo}:** " + "; ".join(
-                f"{l['codigo']} {n(l['var_taxa_pb'], 0, True)} pb, para {_taxa_rf(l)} (R$ {compacto(l['volume_rs'])})" for l in itens[:5]) + ".")
+        o += tabela(["Papel", "Taxa de referência", b3_de, "Sobre o juro real"],
+                    [[f"{l['codigo']} ({l['emissor'].title()[:28]})", referencia(l), negocios(l), premio(l)] for l in top[:8]])
+    for fonte_mov, rotulo in (("anbima", "pela indicativa da ANBIMA"), ("b3", "pelos negócios da B3")):
+        for chave, titulo in (("aberturas", "Abriram taxa"), ("fechamentos", "Fecharam taxa")):
+            itens = [l for l in rf.get(chave) or [] if ref_de(l).get("fonte") == fonte_mov]
+            if itens:
+                o.append(f"**{titulo} {rotulo}:** " + "; ".join(
+                    f"{l['codigo']} {_pb(ref_de(l)['var_pb'])} contra {dm(ref_de(l).get('var_contra'))}, para "
+                    f"{_taxa(ref_de(l).get('taxa'), l.get('convencao'))} (R$ {compacto(l['volume_rs'])})" for l in itens[:5]) + ".")
     if rf.get("premios_altos"):
         o.append("**Prêmio alto:** " + "; ".join(
-            f"{l['codigo']} a {_taxa_rf(l)}" + (f" ({n(l['premio_dap_pb'], 0, True)} pb)" if l.get("premio_dap_pb") is not None else "")
+            f"{l['codigo']} a {referencia(l)}" + (f", {premio(l)}" if ref_de(l).get("premio_dap_pb") is not None else "")
             + f", R$ {compacto(l['volume_rs'])}" for l in rf["premios_altos"][:5]) + ".")
-    o += ["", "Por classe, mediana dos papéis; por papel, média do dia ponderada pelo volume. Juro real = DAP (cupom de IPCA) no vencimento do papel; compara por "
-          "vencimento, não por duration. Em CRI e CRA a B3 informa a securitizadora.", ""]
+    o += ["", "Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; "
+          "nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration "
+          "do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a "
+          "securitizadora.", ""]
     return o
 
 

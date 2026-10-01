@@ -71,6 +71,9 @@ renda_fixa:
   estado_volume_minimo_rs: 1000000
   # volume minimo para um papel aparecer em "abriu taxa", "fechou taxa" e "premios altos"
   movimento_volume_minimo_rs: 3000000
+  # variacao da taxa, em pontos-base, abaixo da qual o papel nao abriu nem fechou: ficou parado
+  # (a indicativa da ANBIMA anda em decimos de ponto-base; -0,4 pb nao e fechamento)
+  movimento_minimo_pb: 1.0
   # e para virar sinal
   sinal_volume_minimo_rs: 5000000
   var_taxa_sinal_pb: 30
@@ -82,6 +85,17 @@ renda_fixa:
   curva_pontos: 140
   # consultas ao cadastro da B3 por rodada (a primeira carga pede cerca de 1.700)
   cadastros_por_rodada: 2500
+  # Taxa indicativa de debentures da ANBIMA (boletim/anbima.py): e a referencia para comparar papel com
+  # papel; a media dos negocios da B3 pende para a taxa do varejo e fica ao lado, como "negocios do dia".
+  # So debentures: CRI e CRA seguem so com a B3. Os limiares acima valem para as duas fontes: var_taxa_sinal_pb
+  # mede a indicativa de um arquivo para o seguinte (de 14/09 a 30/09/2026, 1% das variacoes diarias das
+  # debentures em IPCA+ ficou acima de +30 pb); papel da lista `papeis` avisa pela indicativa mesmo com giro
+  # pequeno ou sem negocio no dia.
+  anbima:
+    ativo: true
+    # se o arquivo do pregao ainda nao saiu (404) ou nao pode ser lido, quantos dias uteis para tras procurar
+    # o mais recente. O arquivo anterior, base da variacao, e sempre procurado ao menos um dia util antes.
+    dias_atras: 3
 
 # Radar da renda variavel inteira (universo: IBrA mais o livro)
 radar:

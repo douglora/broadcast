@@ -17,12 +17,16 @@ grava em boletim_b3/ no branch dados:
   boletim_b3/<AAAA-MM-DD>/status.json          cadernos em PDF: situacao, hora e link (o PDF nao e gravado)
   boletim_b3/<AAAA-MM-DD>/index.json           tabelas e arquivos: situacao, hora, linhas, falhas
 
-Por pregao fica so o resumo (cerca de 230 KB); painel e tabelas sao um arquivo so, sempre do
+Por pregao fica so o resumo (cerca de 270 KB); painel e tabelas sao um arquivo so, sempre do
 ultimo pregao, para o branch nao crescer 1 MB por dia.
 
 Duas rodadas por pregao, as duas idempotentes: a da noite pega negocios, fluxo e indices; a da
 manha seguinte completa com aluguel, posicoes em aberto e derivativos, que a B3 publica de
 madrugada. Rotas e formatos: boletim/b3.py. Leitura na sessao: `python3 mesa.py boletim`.
+
+Fora da B3 so entra a taxa indicativa de debentures da ANBIMA (boletim/anbima.py): um arquivo de
+texto por dia, lido a cada rodada e nao guardado; o que fica no resumo e a indicativa dos papeis
+que aparecem no bloco de renda fixa, com a data do arquivo.
 
 Uso: python boletim_b3.py --saida dados_branch/boletim_b3 [--data AAAA-MM-DD] [--dias 1]
                           [--series dados_branch/livro/series] [--pdf pasta]
@@ -97,6 +101,16 @@ def a_refazer(saida: str, janela: list[date], maximo: int = 5) -> list[date]:
             if idx.get("arquivos") or any(t.get("linhas") for t in (idx.get("tabelas") or {}).values()):
                 out.append(d)
     return sorted(out[:maximo])
+
+
+def dap_da_indicativa(saida: str, bruto: dict) -> None:
+    """Quando a ANBIMA ainda nao publicou o arquivo do pregao, vale o de um pregao anterior, e o premio
+    dessas indicativas e medido contra o juro real da mesma data: a curva do DAP guardada no resumo
+    daquele pregao. Sem o resumo, a indicativa sai sem premio e o resumo declara a lacuna."""
+    anb = bruto.get("anbima") or {}
+    data = (anb.get("arquivo") or {}).get("data")
+    if data and data != bruto["pregao"]:
+        anb["dap"] = (ler_json(os.path.join(saida, data, "resumo.json"), {}).get("renda_fixa") or {}).get("dap") or []
 
 
 def baixar_pdfs(cli: Cliente, status: dict, pasta: str) -> list[str]:
@@ -190,6 +204,8 @@ def main(argv=None) -> int:
             manifest["refeitos"] = [d.isoformat() for d in refeitos]
             dias = refeitos + dias
     pos_ant, data_ant = None, None
+    cfg_anbima = cfg_rf.get("anbima") or {}
+    anbima_cache: dict | None = {} if cfg_anbima.get("ativo", True) else None      # arquivos da ANBIMA ja lidos na rodada
     for d in dias:
         pasta = os.path.join(a.saida, d.isoformat())
         t0 = time.time()
@@ -204,10 +220,12 @@ def main(argv=None) -> int:
         try:
             bruto = coleta.coletar_pregao(cli, d, pasta, rf_cadastro=rf_cadastro,
                                           max_cadastros=cfg_rf.get("cadastros_por_rodada", 2500),
-                                          pasta_tabelas=os.path.join(a.saida, "tabelas") if d == dias[-1] else None)
+                                          pasta_tabelas=os.path.join(a.saida, "tabelas") if d == dias[-1] else None,
+                                          anbima_cache=anbima_cache, anbima_dias_atras=cfg_anbima.get("dias_atras", 3))
             # o cadastro custa centenas de consultas: grava logo, antes de qualquer coisa poder quebrar
             coleta.gravar(os.path.join(a.saida, "rf_cadastro.json"), coleta.texto_cadastro(rf_cadastro))
             bruto["pos_anterior"], bruto["pos_anterior_data"] = pos_ant, data_ant.isoformat()
+            dap_da_indicativa(a.saida, bruto)
             res = resumo.montar(bruto, cfg, livro, hist, a.series or None, merc, rf_estado)
         except Exception as e:      # um pregao que quebra nao derruba os outros
             manifest["falhas"].append(f"{d}: {type(e).__name__}: {e}")
@@ -224,14 +242,19 @@ def main(argv=None) -> int:
         rf_estado = renda_fixa.atualizar_estado(rf_estado, {"_linhas": apoio["rf_linhas"]}, d.isoformat(),
                                                 cfg_rf.get("estado_volume_minimo_rs", 1000000))
         coleta.gravar(os.path.join(pasta, "resumo.json"), coleta.texto_resumo(res))
-        coleta.gravar(os.path.join(pasta, "resumo.md"), render.markdown(res))
-        anterior = ler_json(os.path.join(a.saida, relogios.dia_util_anterior("B3", d).isoformat(), "resumo.json"), None)
-        coleta.gravar(os.path.join(a.saida, "painel.html"), painel.pagina(res, hist, anterior))
+        try:
+            coleta.gravar(os.path.join(pasta, "resumo.md"), render.markdown(res))
+            anterior = ler_json(os.path.join(a.saida, relogios.dia_util_anterior("B3", d).isoformat(), "resumo.json"), None)
+            coleta.gravar(os.path.join(a.saida, "painel.html"), painel.pagina(res, hist, anterior))
+        except Exception as e:
+            # o resumo ja esta gravado: texto ou painel que quebra nao leva junto o historico e o manifest. O painel
+            # que fica e o da rodada anterior (a ultima linha dele diz de que pregao e) e a falha vai para o manifest.
+            manifest["falhas"].append(f"{d}: resumo.md ou painel.html: {type(e).__name__}: {e}")
         manifest["pregoes"][d.isoformat()] = {
             "completo": res["situacao"]["completo"], "faltam": res["situacao"]["faltam"],
             "boletim": res["situacao"]["boletim"], "sinais": len(res["sinais"]),
             "tabelas": len(bruto["index"]["tabelas"]), "arquivos": sorted(bruto["index"]["arquivos"]),
-            "rf_cadastro": bruto["index"].get("rf_cadastro"),
+            "rf_cadastro": bruto["index"].get("rf_cadastro"), "anbima": bruto["index"].get("anbima"),
             "falhas": bruto["index"]["falhas"], "segundos": round(time.time() - t0)}
         ultimo = (d, bruto)
         # grava a cada pregao: rodada longa interrompida nao perde o que ja veio

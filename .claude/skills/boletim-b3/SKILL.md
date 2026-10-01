@@ -1,6 +1,6 @@
 ---
 name: boletim-b3
-description: Leitura do Boletim Diario do Mercado da B3 (BDI) cruzada com o livro do Douglas, entregue em painel (Artifact). Dispara na Routine do boletim (noite, depois da rodada das 21h40 BRT, e manha, depois da rodada das 08h35) e quando ele escrever "boletim", "boletim da B3", "BDI", "painel do boletim", "fluxo estrangeiro", "fluxo por investidor", "quem comprou", "aluguel de PETR4", "aluguel de acoes", "BTC", "vendidos", "short", "corretoras no aluguel", "posicao em aberto", "parede de opcoes", "strikes", "put/call", "dor maxima", "opcoes de PETR4", "IOPV", "ADR", "previa do Ibovespa", "debentures incentivadas", "CRI", "CRA", "credito privado no balcao", "taxa da debenture X", "quem abriu taxa" ou pedir o que a B3 publicou no fechamento. Le o que o GitHub Actions gravou em boletim_b3/ no branch `dados` (python3 mesa.py boletim), confere frescor e completude, dispara o workflow boletim-b3.yml quando o dado esta velho, escreve a Leitura da Mesa em cima dos sinais que o runner calculou e republica o painel no Artifact, sem calcular regra, sem inventar numero e sem "compre/venda".
+description: Leitura do Boletim Diario do Mercado da B3 (BDI) cruzada com o livro do Douglas, entregue em painel (Artifact). Dispara na Routine do boletim (noite, depois da rodada das 21h40 BRT, e manha, depois da rodada das 08h35) e quando ele escrever "boletim", "boletim da B3", "BDI", "painel do boletim", "fluxo estrangeiro", "fluxo por investidor", "quem comprou", "aluguel de PETR4", "aluguel de acoes", "BTC", "vendidos", "short", "corretoras no aluguel", "posicao em aberto", "parede de opcoes", "strikes", "put/call", "dor maxima", "opcoes de PETR4", "IOPV", "ADR", "previa do Ibovespa", "debentures incentivadas", "CRI", "CRA", "credito privado no balcao", "taxa da debenture X", "taxa indicativa", "indicativa da ANBIMA", "quem abriu taxa" ou pedir o que a B3 publicou no fechamento. Le o que o GitHub Actions gravou em boletim_b3/ no branch `dados` (python3 mesa.py boletim), confere frescor e completude, dispara o workflow boletim-b3.yml quando o dado esta velho, escreve a Leitura da Mesa em cima dos sinais que o runner calculou e republica o painel no Artifact, sem calcular regra, sem inventar numero e sem "compre/venda".
 ---
 
 # Boletim Diario do Mercado da B3 (leitura da mesa)
@@ -16,6 +16,10 @@ o livro (config/livro.yaml, ativos com mercado B3) e calculou os sinais com os l
 de config/boletim.yaml. O trabalho desta skill e (1) garantir que o dado e do pregao
 certo e dizer se esta completo, (2) escrever a Leitura da Mesa: opinativa, com
 evidencia, em portugues do Brasil, e (3) republicar o painel no Artifact.
+
+Uma fonte so vem de fora da B3: a taxa indicativa de debentures da ANBIMA (arquivo diario
+do mercado secundario), que o mesmo runner le. E ela, e nao a media dos negocios da B3,
+que vale para comparar uma debenture com outra (secao "Taxa de debenture" abaixo).
 
 ## Regras que nao se negociam
 
@@ -38,10 +42,15 @@ evidencia, em portugues do Brasil, e (3) republicar o painel no Artifact.
   marca `[POSICAO DO PREGAO ANTERIOR ...]` e a data: cite com essa data.
 - Renda fixa do pregao corrente e PRELIMINAR ate a B3 ajustar o balcao (perto do meio-dia
   de D+1): o resumo traz `renda_fixa.preliminar` e a fonte dos sinais diz "(preliminar)".
-  Diga isso sempre que citar taxa ou volume do dia. Taxa de papel com volume pequeno pode
-  ser um negocio isolado de pessoa fisica; cite o volume ao lado da taxa. Em CRI e CRA o emissor que a B3 informa e a
-  securitizadora, nao o devedor. O premio sobre o juro real compara por vencimento, nao
-  por duration: e aproximacao e vai dito como tal.
+  Diga isso sempre que citar taxa ou volume dos negocios do dia. Em CRI e CRA o emissor que
+  a B3 informa e a securitizadora, nao o devedor.
+- Toda taxa de renda fixa sai com a fonte e o dia: "ANBIMA indicativa de DD/MM" ou
+  "B3 negocios de DD/MM". Debenture se compara pela indicativa (o campo `ref` de cada
+  papel ja diz qual das duas vale); a taxa dos negocios da B3 entra ao lado, com esse
+  nome e com o volume, e NUNCA sozinha para dizer que um emissor paga mais que outro:
+  em papel com muito negocio pequeno ela pende para a taxa do varejo. CRI e CRA so tem os
+  negocios da B3. O premio sobre o juro real vem com a base escrita: "na duration" (com a
+  indicativa) ou "no vencimento" (sem ela, e ai e aproximacao e vai dito como tal).
 - Corretora no aluguel e intermediario, nao investidor final. Nunca escreva "o banco X
   esta vendido em Y"; escreva "o lado tomador de Y passou X% pela corretora Z".
 
@@ -55,7 +64,7 @@ evidencia, em portugues do Brasil, e (3) republicar o painel no Artifact.
 | `<pregao>/resumo.md` | a mesma leitura em cards de texto, para colar na sessao |
 | `<pregao>/resumo.json` | os numeros, com fonte e data por bloco, e a lista `sinais` |
 | `<pregao>/status.json` | cadernos em PDF: situacao, hora e link na B3 (o PDF nao e gravado: o completo passa de 50 MB) |
-| `<pregao>/index.json` | cada tabela e arquivo: situacao na B3, hora, linhas, falhas |
+| `<pregao>/index.json` | cada tabela e arquivo: situacao na B3, hora, linhas, falhas; e `anbima`: de que dia e o arquivo de taxas indicativas e o que cada tentativa respondeu |
 | `historico.json` | serie compacta do livro nos ultimos 70 pregoes (media de volume, aluguel, futuros, fluxo, put/call) |
 | `mercado.json` | fechamento, volume e saldo alugado do IBrA nos ultimos 26 pregoes (radar) |
 | `rf_cadastro.json`, `rf_estado.json` | cadastro dos papeis de renda fixa ja vistos e as ultimas taxas por papel |
@@ -66,7 +75,7 @@ Leitura canonica:
 python3 mesa.py boletim                 # veredito + resumo.md do ultimo pregao
 python3 mesa.py boletim PETR4           # o ativo no boletim e os ultimos 12 pregoes
 python3 mesa.py boletim sinais          # so os sinais
-python3 mesa.py boletim rf              # debentures incentivadas, CRI e CRA: taxa do dia, premio, quem abriu e fechou
+python3 mesa.py boletim rf              # debentures incentivadas, CRI e CRA: de onde vem cada taxa (ANBIMA indicativa ou B3 negocios, com o dia), papeis acompanhados, premio, quem abriu e fechou
 python3 mesa.py boletim opcoes PETR4    # vencimentos, posicao por strike, paredes, dor maxima, series que mudaram
 python3 mesa.py boletim radar           # mercado inteiro: aluguel, volume, opcoes, corretoras
 python3 mesa.py boletim status          # cadernos, pendencias e falhas
@@ -119,7 +128,7 @@ Sem cache de CDN: `git fetch origin dados` e `git show origin/dados:boletim_b3/<
 | Negocios (`TradeInformationConsolidated`) | Fechamento, oscilacao, volume e numero de negocios de cada ativo | Volume acima de 2x a media de 20 pregoes sem noticia e o sinal; com noticia, e a confirmacao |
 | Opcoes (`DerivativesOpenPosition` + cadastro) | Posicao em aberto por strike e vencimento, put/call, parcela a descoberto, dor maxima, series que mais ganharam e perderam posicao | Parede = strike de maior posicao fora do dinheiro (call acima do preco e teto, put abaixo e piso); perto do vencimento o preco costuma ser atraido ou travado por ela. Serie bem dentro do dinheiro ganhando posicao, ou call e put no mesmo strike, e operacao estruturada, nao aposta de direcao |
 | Futuros e quadro (`AnalyticalFramework2`) | Ajuste e taxa do DI, DAP, dolar e indice; contratos em aberto por mercado; calls e puts de dolar | DI abrindo com construtoras (CURY3, DIRR3, MRVE3) e utilities caindo e o cruzamento classico; contratos em aberto subindo com preco andando = posicao nova, nao zeragem |
-| Renda fixa (`Trade` + `InstrumentRegistration`) | Debentures incentivadas, CRI e CRA: taxa de cada negocio, taxa media do papel, premio sobre o DAP, quem abriu e quem fechou taxa, emissores | Curva de credito incentivado do dia (taxa x prazo contra o juro real); papel abrindo taxa com volume e o mercado repricando o risco; premio acima de 300 pb e estresse |
+| Renda fixa (`Trade` + `InstrumentRegistration`, e a taxa indicativa da ANBIMA nas debentures) | Debentures incentivadas, CRI e CRA: taxa de referencia de cada papel (`ref`), taxa dos negocios do dia ao lado, premio sobre o DAP, quem abriu e quem fechou taxa, emissores; nos papeis acompanhados, tambem compra, venda, PU e duration | Curva de credito incentivado do dia (taxa x prazo medio contra o juro real); indicativa abrindo 30 pb de um dia para o outro e o mercado repricando o risco; premio acima de 300 pb e estresse; negocios do dia muito abaixo da indicativa e varejo comprando caro |
 | ETFs (`IOPV` + cadastro) | Valor de referencia da cota e numero de cotas emitidas | Premio ou desconto do SMAL11 sobre a cota; criacao de cotas = dinheiro novo entrando. RARA11 nao tem IOPV no boletim: a paridade sai contra o REMX x cambio |
 | ADR (`Custody`) | Acoes de cada empresa custodiadas no programa de ADR | Variacao do saldo = fluxo pelo recibo em Nova York |
 | Carteiras e previas (`PreviaQuadrimestral`, `Previa`) | Peso de cada acao no Ibovespa e nos setoriais; previas da proxima carteira | Entrada, saida ou mudanca de peso de ativo do livro vira alerta: fundo passivo compra e vende na virada |
@@ -128,6 +137,51 @@ Sem cache de CDN: `git fetch origin dados` e `git show origin/dados:boletim_b3/<
 O que o boletim NAO tem (lacuna fixa, nao procure de novo): posicao em aberto de
 derivativos por tipo de investidor. O "estrangeiro comprado em dolar futuro" nao sai
 daqui; o que ha e o total de contratos por mercado.
+
+## Taxa de debenture: ANBIMA indicativa e B3 negocios
+
+Por que duas taxas. A B3 publica cada negocio de balcao, e a media do dia ponderada pelo
+volume junta o lote de R$ 5 mil da pessoa fisica com o de R$ 5 milhoes do fundo; o varejo
+compra a taxa menor. Medido em 01/10/2026: na media de 5 pregoes da B3, EQPA18 (Equatorial
+Para, 2036) saia a IPCA+7,70% e CGOS16 (Equatorial Goias, 2036) a 8,16%, 46 pontos-base de
+diferenca que nao existiam (indicativas da ANBIMA de 30/09: 8,16% e 8,19%). No pregao de
+30/09, entre 129 incentivadas com as duas taxas, uma em cada cinco teve a media dos negocios
+a 17 pb ou mais da indicativa (de -100 a +113 pb).
+
+O que o resumo traz de cada papel (`boletim rf`, `boletim json renda_fixa`):
+
+| Campo | O que e | Fonte e dia |
+|---|---|---|
+| `ref` | a taxa que vale para comparar: `taxa`, `premio_dap_pb` com `premio_base` (duration ou vencimento), `var_pb` contra `var_contra` | o que estiver em `ref.fonte` (anbima ou b3) e `ref.data` |
+| `anbima` | indicativa, compra, venda, PU, % do par, duration em dias uteis e em anos, premio nas duas bases, variacao contra o arquivo anterior | ANBIMA, no dia de `anbima.data` |
+| `taxa_media`, `taxa_min`, `taxa_max`, `volume_rs`, `negocios` | os negocios do dia | B3 `Trade`, no pregao |
+
+`ref` e decidido pelo runner: a indicativa quando a ANBIMA acompanha o papel, a media dos
+negocios quando nao acompanha (CRI, CRA e debenture fora do arquivo). Curva de credito,
+medianas por classe, premios altos e quem abriu e fechou taxa saem de `ref`.
+
+Como escrever:
+
+- Com as duas, nesta ordem: "CGOS16: indicativa da ANBIMA de 30/09 a IPCA+8,19% (compra 8,49%,
+  venda 7,98%), 59 pb acima do juro real na duration de 6,1 anos; na B3, negocios de 30/09 a
+  IPCA+8,22% em R$ 3,2 mi."
+- Abertura e fechamento de debenture so pela indicativa (`ref.var_pb` com `ref.fonte` anbima).
+  A variacao da media dos negocios (`var_taxa_pb`) pode vir so da mistura de lote pequeno e
+  lote grande: sozinha nao e noticia.
+- `renda_fixa.anbima` diz de que dia e o arquivo. `situacao: anterior` quer dizer que o arquivo
+  do pregao nao tinha saido na coleta (a ANBIMA publica entre 19h40 e 20h30; o 404 e espera, nao
+  erro): as taxas sao as do dia escrito, a variacao do dia fica sem medida e a rodada seguinte
+  completa. Escreva a data. `falhou` ou `ausente`: sem indicativa nesta rodada, tudo pelos
+  negocios da B3, e isso abre o paragrafo de credito.
+- CRI e CRA nao estao no arquivo da ANBIMA: so negocios da B3, premio por vencimento, sempre com
+  o volume ao lado. Taxa com volume pequeno pode ser um negocio isolado de pessoa fisica.
+- Debenture com duration abaixo de um ano aparece sem premio sobre o juro real: o DAP de menos de
+  um ano nao serve de referencia. E limite do metodo, nao falha; nao complete com conta propria.
+  Papel em percentual do CDI tambem nao tem variacao em pontos-base.
+- Papel acompanhado (`renda_fixa.papeis` em config/boletim.yaml) aparece pela indicativa mesmo
+  sem negocio no dia e da sinal (`rf_abertura`) quando ela abre 30 pb ou mais, com qualquer giro.
+- Negocios do dia muito abaixo da indicativa, em muitos negocios pequenos, e o varejo pagando
+  mais caro que o mercado profissional: e fato para a Leitura, com os dois numeros.
 
 ## Formato da resposta na sessao
 
@@ -199,22 +253,27 @@ plano B**, para quando o cron do GitHub atrasar ou falhar.
    `boletim TICKER` e `boletim opcoes TICKER`. Aluguel e opcoes vem do pregao anterior,
    marcados `[POSICAO DO PREGAO ANTERIOR ...]`: cite com essa data.
 4. Leitura da Mesa em 5 paragrafos: **Em uma frase**; **O livro**; **Posicoes de DD/MM e
-   fluxo**; **Credito (preliminar)**; **O que conferir na edicao da manha**. Republique o
-   painel.
+   fluxo**; **Credito (preliminar)**; **O que conferir na edicao da manha**. No credito, a
+   taxa de debenture e a indicativa da ANBIMA com o dia dela (`boletim rf` diz qual arquivo
+   veio; se for o do pregao anterior, escreva isso) e os negocios da B3 ao lado. Republique
+   o painel.
 
 ### Turno da manha (08h50 BRT)
 
 1. `python3 mesa.py skills` e `python3 mesa.py boletim`. A primeira linha tem de dizer o
    ULTIMO pregao e COMPLETO.
 2. PARCIAL depois das 09h00: disparo e espera; se continuar, `boletim status` e diga qual
-   tabela a B3 nao publicou. Ontem nao teve pregao: uma linha, sem republicar.
+   tabela a B3 nao publicou. Ontem nao teve pregao: uma linha, sem republicar. O mesmo
+   `boletim status` tem a linha da ANBIMA: de manha o arquivo de ontem ja saiu; se ela
+   disser `anterior`, `ausente` ou `falhou`, isso vai para as lacunas da resposta.
 3. Leia no painel publicado (`Artifact`, `action: read`) o paragrafo "O que conferir na
    edicao da manha" da noite anterior e responda a cada item com o dado de hoje
    (`boletim TICKER`, `boletim opcoes TICKER`, `boletim radar`, `boletim fluxo`).
 4. Leitura da Mesa em 5 paragrafos: **Em uma frase**; **Aluguel**; **Opcoes e futuros**;
-   **Credito** (o pregao de ontem segue preliminar ate perto do meio-dia; os papeis da
-   lista `renda_fixa.papeis` entram aqui); **O que conferir na edicao desta noite**.
-   Republique o painel.
+   **Credito** (os negocios da B3 de ontem seguem preliminares ate perto do meio-dia; a
+   indicativa da ANBIMA de ontem ja e a final; os papeis da lista `renda_fixa.papeis` entram
+   aqui, com indicativa, compra, venda e os negocios do dia); **O que conferir na edicao
+   desta noite**. Republique o painel.
 
 ### Em todo turno
 

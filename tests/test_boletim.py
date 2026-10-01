@@ -804,3 +804,762 @@ def test_dias_auto_refaz_o_buraco_da_janela_e_busca_a_posicao_anterior_de_cada_p
     coletados.clear()
     boletim_b3.main(["--saida", str(tmp_path), "--dias", "1", "--data", "2026-09-30"])
     assert coletados == ["2026-09-30"]
+
+
+# ------------------------------------------------------------------ taxa indicativa da ANBIMA (boletim/anbima.py)
+
+from boletim import anbima        # noqa: E402
+
+# Linhas do arquivo de 30/09/2026 como a ANBIMA publicou: titulo, linha em branco, cabecalho e uma debenture por linha.
+ANBIMA_TXT = "\n".join([
+    "ANBIMA - Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais", "",
+    "Código@Nome@Repac./  Venc.@Índice/ Correção@Taxa de Compra@Taxa de Venda@Taxa Indicativa@Desvio Padrão"
+    "@Intervalo Indicativo Minimo@Intervalo Indicativo Máximo@PU@% PU Par / % VNE@Duration@% Reune@Referência NTN-B",
+    "ABSP12@AGUAS DE BOMBINHAS SANEAMENTO SPE S.A. (*) (**)@15/10/2026@DI + 1,95%@--@--@--@--@--@--@N/D@N/D@N/D@@",
+    "AEGE16@EQUIPAV SANEAMENTO S.A. (*) (**)@11/03/2034@DI + 3,9%@7,0501@4@5,4784@0,1485@5,3299@5,6271@957,678788@94,9469@859,14@@",
+    "CGOS16@EQUATORIAL GOIAS DISTRIBUIDORA DE ENERGIA S.A. (*)@15/05/2036@IPCA + 6,4895%@8,4875@7,9828@8,1894@0,085@8,1044@8,2745"
+    "@1027,553709@90,6615@1544,4@@15/05/2035",
+    "CGOS28@EQUATORIAL GOIAS DISTRIBUIDORA DE ENERGIA S.A. (*)@15/09/2036@IPCA + 6,6493%@8,3863@8,0699@8,2311@0,1023@8,1289@8,3335"
+    "@999,149414@90,8754@1623,09@15@15/05/2035",
+    "EQPA18@EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A. (*)@15/12/2036@IPCA + 7,7477%@8,4517@7,9168@8,1553@0,0858@8,0695@8,2411"
+    "@1082,129302@97,6454@1585,81@@15/05/2035",
+    "KLBNA2@KLABIN S.A.@19/06/2029@114,65% do DI@105,1@103,9@104,5@0,2@104,3@104,7@1.010,25@100,2@610@@",
+    "ENMTC4@ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S.A. (*)@15/05/2032@PREFIXADO 13,7%@14,5609@13,9189@14,3552@0,1484"
+    "@14,2068@14,5038@1026,801941@97,7788@982,27@10@"]) + "\n"
+CADASTRO_2036 = {
+    "CGOS16": {"tipo": "DEB", "incentivada": True, "indexador": "IPCA", "pct_indexador": None, "taxa": 6.48, "vencimento": "2036-05-15"},
+    "CGOS28": {"tipo": "DEB", "incentivada": True, "indexador": "IPCA", "pct_indexador": None, "taxa": 6.64, "vencimento": "2036-09-15"},
+    "EQPA18": {"tipo": "DEB", "incentivada": True, "indexador": "IPCA", "pct_indexador": None, "taxa": 7.74, "vencimento": "2036-12-15"},
+}
+GOIAS, PARA = "EQUATORIAL GOIAS DISTRIBUIDORA DE ENERGIA S.A.", "EQUATORIAL PARA DISTRIBUIDORA DE ENERGIA S.A."
+
+
+class _Anbima:
+    """O servidor da ANBIMA de mentira: {AAMMDD: texto, codigo HTTP ou excecao}. Dia que nao esta aqui responde 404."""
+
+    def __init__(self, dias):
+        self.dias, self.pedidos = dias, []
+
+    def get(self, url, **kw):
+        from livro.http import Resposta
+        assert url.startswith("https://www.anbima.com.br/informacoes/merc-sec-debentures/arqs/db") and url.endswith(".txt")
+        dia = url[-10:-4]
+        self.pedidos.append(dia)
+        x = self.dias.get(dia, 404)
+        if isinstance(x, Exception):
+            raise x
+        if isinstance(x, int):
+            return Resposta(x, b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"><html><title>404 - File or directory not found.</title></html>')
+        return Resposta(200, x.encode("latin-1"), {"last-modified": "Wed, 30 Sep 2026 22:56:25 GMT"})
+
+
+def test_anbima_le_o_arquivo_pelo_titulo_das_colunas_com_virgula_decimal_traco_e_nd():
+    p = anbima.ler(ANBIMA_TXT.encode("latin-1").decode("latin-1"))          # o arquivo vem em latin-1
+    assert list(p) == ["ABSP12", "AEGE16", "CGOS16", "CGOS28", "EQPA18", "KLBNA2", "ENMTC4"]
+    c = p["CGOS16"]
+    assert c["nome"] == GOIAS                                                # as marcas (*) e (**) saem do nome
+    assert (c["indicativa"], c["compra"], c["venda"], c["desvio"]) == (8.1894, 8.4875, 7.9828, 0.085)
+    assert (c["pu"], c["pct_pu_par"], c["duration_du"], c["pct_reune"]) == (1027.553709, 90.6615, 1544.4, None)
+    assert (c["repac_venc"], c["ntnb_ref"], c["convencao"], c["taxa_emissao"]) == ("2036-05-15", "2035-05-15", "IPCA+", 6.4895)
+    assert p["CGOS28"]["pct_reune"] == 15.0
+    # `--` e `N/D` sao papel que a ANBIMA lista sem taxa nem preco: nulo, nunca zero
+    assert all(p["ABSP12"][k] is None for k in ("compra", "venda", "indicativa", "pu", "pct_pu_par", "duration_du"))
+    assert p["AEGE16"]["venda"] == 4.0 and p["AEGE16"]["convencao"] == "CDI+" and p["AEGE16"]["taxa_emissao"] == 3.9
+    assert (p["KLBNA2"]["convencao"], p["KLBNA2"]["taxa_emissao"], p["KLBNA2"]["indicativa"], p["KLBNA2"]["pu"]) == ("% do CDI", 114.65, 104.5, 1010.25)
+    assert (p["ENMTC4"]["convencao"], p["ENMTC4"]["taxa_emissao"], p["ENMTC4"]["ntnb_ref"]) == ("Pré", 13.7, None)
+    # a mesma convencao que a renda fixa da ao negocio da B3: as duas taxas so se comparam quando falam a mesma lingua
+    assert renda_fixa.convencao(CADASTRO_2036["CGOS16"], 8.2) == c["convencao"]
+    # so vira numero o que e numero no formato do arquivo: `inf`, `nan` e notacao cientifica nao entram no resumo
+    assert [anbima._num(v) for v in ("inf", "nan", "1e3", "12,", ",5", "abc")] == [None] * 6 and anbima._num("-0,25") == -0.25
+    torto = anbima.ler(ANBIMA_TXT.replace("@1544,4@", "@inf@"))["CGOS16"]
+    assert torto["duration_du"] is None and torto["indicativa"] == 8.1894
+    # coluna nova ou fora de ordem nao troca um numero por outro: a leitura e pelo titulo
+    outra_ordem = "Taxa Indicativa@Coluna Nova@Código@Índice/ Correção\n8,1894@x@CGOS16@IPCA + 6,4895%\n"
+    assert anbima.ler(outra_ordem)["CGOS16"]["indicativa"] == 8.1894 and anbima.ler(outra_ordem)["CGOS16"]["compra"] is None
+
+
+def test_anbima_pagina_de_erro_ou_formato_novo_nao_vira_dado():
+    import pytest
+    with pytest.raises(anbima.AnbimaErro, match="sem o cabecalho"):
+        anbima.ler("<!DOCTYPE html><html><title>404 - File or directory not found.</title></html>")
+    with pytest.raises(anbima.AnbimaErro, match="sem a coluna indicativa"):
+        anbima.ler("Código@Nome@Índice/ Correção@Taxa\nCGOS16@X@IPCA + 6%@8,19\n")
+    with pytest.raises(anbima.AnbimaErro, match="sem nenhuma debenture"):
+        anbima.ler(ANBIMA_TXT.split("ABSP12")[0])
+
+
+def test_anbima_404_e_arquivo_que_ainda_nao_saiu_e_vale_o_anterior_com_a_data_dele():
+    from datetime import date
+    cli = _Anbima({"260929": ANBIMA_TXT, "260928": ANBIMA_TXT, "260925": ANBIMA_TXT})        # o de 30/09 ainda nao foi publicado
+    cache = {}
+    ontem = anbima.do_pregao(cli, date(2026, 9, 29), cache, pausas=())
+    assert ontem["situacao"] == "publicado" and ontem["arquivo"]["data"] == "2026-09-29" and ontem["anterior"]["data"] == "2026-09-28"
+    assert ontem["arquivo"]["publicado_em"] == "2026-09-30T19:56:25"            # Last-Modified na hora de Brasilia
+    assert ontem["arquivo"]["url"].endswith("/arqs/db260929.txt") and ontem["arquivo"]["papeis"]["CGOS16"]["indicativa"] == 8.1894
+    hoje = anbima.do_pregao(cli, date(2026, 9, 30), cache, pausas=())
+    assert hoje["situacao"] == "anterior" and "erro" not in hoje                 # 404 e espera, nao e erro
+    assert hoje["arquivo"]["data"] == "2026-09-29" and hoje["anterior"]["data"] == "2026-09-28"
+    assert hoje["tentativas"] == {"2026-09-30": "nao publicado", "2026-09-29": "publicado", "2026-09-28": "publicado"}
+    assert cli.pedidos == ["260929", "260928", "260930"]                         # cada arquivo e pedido uma vez so na rodada
+    assert anbima.situacao(hoje) == {"situacao": "anterior", "data": "2026-09-29", "papeis": 7, "publicado_em": "2026-09-30T19:56:25",
+                                     "comparado_com": "2026-09-28", "tentativas": hoje["tentativas"]}
+    # segunda-feira sem arquivo: o anterior e o de sexta, e o que vem antes dele e o de quinta (nao ha: 404)
+    cli = _Anbima({"260925": ANBIMA_TXT})
+    seg = anbima.do_pregao(cli, date(2026, 9, 28), {}, dias_atras=2, pausas=())
+    assert seg["arquivo"]["data"] == "2026-09-25" and seg["anterior"] is None and cli.pedidos == ["260928", "260925", "260924", "260923"]
+    # nada na janela: ausente, sem erro
+    vazio = anbima.do_pregao(_Anbima({}), date(2026, 9, 30), {}, dias_atras=1, pausas=())
+    assert vazio["situacao"] == "ausente" and vazio["arquivo"] is None and "erro" not in vazio
+    assert vazio["tentativas"] == {"2026-09-30": "nao publicado", "2026-09-29": "nao publicado"}
+
+
+def test_anbima_falha_de_leitura_cai_para_o_arquivo_anterior_e_site_fora_do_ar_nao_e_tentado_a_cada_pregao():
+    from datetime import date
+    import pytest
+    from livro.http import HttpError
+    caiu = HttpError(0, "ConnectionError", "u")
+    # o arquivo do dia nao pode ser lido, mas o de ontem a rodada ja tem: vale o de ontem, com a data dele e o motivo
+    cli = _Anbima({"260930": caiu, "260929": ANBIMA_TXT, "260928": ANBIMA_TXT})
+    cache = {}
+    anbima.do_pregao(cli, date(2026, 9, 29), cache, pausas=())
+    r = anbima.do_pregao(cli, date(2026, 9, 30), cache, pausas=())
+    assert r["situacao"] == "anterior" and r["arquivo"]["data"] == "2026-09-29" and r["anterior"]["data"] == "2026-09-28"
+    assert r["erro"] == "arquivo de 2026-09-30: falha de rede"
+    assert r["tentativas"] == {"2026-09-30": "falhou", "2026-09-29": "publicado", "2026-09-28": "publicado"}
+    anbima.do_pregao(cli, date(2026, 9, 30), cache, pausas=())
+    assert cli.pedidos == ["260929", "260928", "260930"]                         # o que falhou nao e pedido de novo na rodada
+    # nenhum arquivo ao alcance: falhou, com o motivo
+    cli = _Anbima({"260929": caiu, "260930": caiu})
+    cache = {}
+    r = anbima.do_pregao(cli, date(2026, 9, 29), cache, pausas=())
+    assert r["situacao"] == "falhou" and r["arquivo"] is None and r["erro"] == "arquivo de 2026-09-29: falha de rede"
+    assert r["tentativas"] == {"2026-09-29": "falhou", "2026-09-28": "nao publicado", "2026-09-25": "nao publicado", "2026-09-24": "nao publicado"}
+    r = anbima.do_pregao(cli, date(2026, 9, 30), cache, pausas=())
+    assert r["situacao"] == "falhou" and r["erro"] == "arquivo de 2026-09-30: falha de rede"
+    assert r["tentativas"] == {"2026-09-30": "falhou", "2026-09-29": "falhou", "2026-09-28": "nao publicado", "2026-09-25": "nao publicado"}
+    # dois arquivos sem resposta da rede: a ANBIMA esta fora do ar e a rodada para de procurar (a rodada seguinte tenta)
+    pedidos = list(cli.pedidos)
+    r = anbima.do_pregao(cli, date(2026, 10, 1), cache, pausas=())
+    assert r["situacao"] == "falhou" and r["tentativas"]["2026-10-01"] == "nao tentado" and cli.pedidos == pedidos
+    assert r["erro"] == "arquivo de 2026-09-30: falha de rede"
+    r = anbima.do_pregao(cli, date(2026, 10, 6), cache, pausas=())                 # longe dos que falharam: nada e tentado
+    assert r["situacao"] == "falhou" and set(r["tentativas"].values()) == {"nao tentado"} and cli.pedidos == pedidos
+    assert r["erro"] == "sem resposta da rede em outros arquivos da rodada; este ficou sem tentativa"
+    # codigo HTTP e pagina no lugar do arquivo respondem na hora: sao falha, mas nao desligam a ANBIMA para a rodada
+    cli = _Anbima({"260930": 503, "260929": 403, "260928": "<html>manutencao</html>"})
+    cache = {}
+    r = anbima.do_pregao(cli, date(2026, 9, 30), cache, pausas=())
+    assert r["situacao"] == "falhou" and r["erro"] == "arquivo de 2026-09-30: HTTP 503"
+    assert r["tentativas"] == {"2026-09-30": "falhou", "2026-09-29": "falhou", "2026-09-28": "falhou", "2026-09-25": "nao publicado"}
+    assert cache[anbima._FALHAS]["sem_rede"] == 0 and "sem o cabecalho" in cache[anbima._FALHAS]["motivos"]["2026-09-28"]
+    # o arquivo anterior falhou: a variacao sai contra o que vier antes dele, com a data dele, e o motivo fica anotado
+    cli = _Anbima({"260928": caiu, "260925": ANBIMA_TXT, "260929": ANBIMA_TXT, "260930": ANBIMA_TXT})
+    cache = {}
+    r = anbima.do_pregao(cli, date(2026, 9, 29), cache, pausas=())
+    assert r["situacao"] == "publicado" and r["anterior"]["data"] == "2026-09-25" and r["erro"] == "arquivo de 2026-09-28: falha de rede"
+    r = anbima.do_pregao(cli, date(2026, 9, 30), cache, pausas=())
+    assert r["situacao"] == "publicado" and r["anterior"]["data"] == "2026-09-29" and "erro" not in r
+    # `dias_atras` zero nao procura arquivo mais antigo para o pregao, mas o anterior (base da variacao) e sempre procurado
+    cli = _Anbima({"260929": ANBIMA_TXT, "260930": ANBIMA_TXT})
+    r = anbima.do_pregao(cli, date(2026, 9, 30), {}, dias_atras=0, pausas=())
+    assert r["situacao"] == "publicado" and r["anterior"]["data"] == "2026-09-29"
+    assert anbima.do_pregao(_Anbima({"260929": ANBIMA_TXT}), date(2026, 9, 30), {}, dias_atras=0, pausas=())["situacao"] == "ausente"
+    # falha passageira e tentada de novo antes de desistir (uma vez so: o arquivo e enriquecimento)
+    quedas = [HttpError(0, "ConnectionError", "u")]
+
+    class Instavel(_Anbima):
+        def get(self, url, **kw):
+            if quedas:
+                raise quedas.pop()
+            return super().get(url, **kw)
+    assert anbima.baixar(Instavel({"260930": ANBIMA_TXT}), date(2026, 9, 30), pausas=(0.0,))["papeis"]["EQPA18"]["indicativa"] == 8.1553
+    quedas.append(HttpError(0, "ConnectionError", "u"))
+    with pytest.raises(HttpError):
+        anbima.baixar(Instavel({"260930": ANBIMA_TXT}), date(2026, 9, 30), pausas=())
+    assert len(anbima.PAUSAS) == 1
+
+
+def test_coleta_guarda_a_anbima_fora_das_falhas_para_nao_mandar_refazer_a_b3(monkeypatch, tmp_path):
+    import json
+    from datetime import date
+    import boletim_b3
+
+    def sem_rede(*a, **k):
+        raise b3.B3Erro("sem rede no teste")
+    for nome in ("situacao_cadernos", "tabela", "arquivo", "capitulos"):
+        monkeypatch.setattr(coleta.b3, nome, sem_rede)
+    pedidos = []
+
+    def falso(cli, d, cache, dias_atras):
+        pedidos.append((d.isoformat(), dias_atras))
+        return {"pregao": d.isoformat(), "situacao": "falhou", "arquivo": None, "anterior": None,
+                "tentativas": {d.isoformat(): "falhou"}, "erro": "arquivo de 2026-09-29: falha de rede"}
+    monkeypatch.setattr(coleta.anbima, "do_pregao", falso)
+    pasta = tmp_path / "2026-09-29"
+    b = coleta.coletar_pregao(object(), date(2026, 9, 29), str(pasta), pausa=0, log=lambda *a: None, anbima_cache={}, anbima_dias_atras=2)
+    assert pedidos == [("2026-09-29", 2)] and b["anbima"]["situacao"] == "falhou"
+    idx = json.loads((pasta / "index.json").read_text())
+    assert idx["anbima"] == {"situacao": "falhou", "tentativas": {"2026-09-29": "falhou"}, "erro": "arquivo de 2026-09-29: falha de rede"}
+    assert "anbima" not in idx["falhas"] and "Trade" in idx["falhas"]
+    # ...e por isso um pregao antigo em que so a ANBIMA falhou nao entra na lista de pregoes a refazer
+    idx["falhas"], idx["tabelas"] = {}, {"X": {"linhas": 5}}
+    (pasta / "index.json").write_text(json.dumps(idx))
+    (pasta / "resumo.json").write_text("{}")
+    assert boletim_b3.a_refazer(str(tmp_path), [date(2026, 9, 29)]) == []
+    # sem o cache (config com a ANBIMA desligada) ela nem e consultada
+    b = coleta.coletar_pregao(object(), date(2026, 9, 29), None, pausa=0, log=lambda *a: None)
+    assert "anbima" not in b and "anbima" not in b["index"] and len(pedidos) == 1
+
+
+# ------------------------------------------------------------------ renda fixa com a indicativa (boletim/renda_fixa.py)
+
+def anbima_do_pregao(papeis, data=D, antes=None, data_antes="2026-09-28", situacao="publicado", **extra):
+    """O que a coleta deixa em bruto['anbima']: o arquivo que vale para o pregao e o publicado antes dele."""
+    return dict({"pregao": D, "situacao": situacao,
+                 "arquivo": {"data": data, "papeis": papeis, "publicado_em": f"{data}T19:56:25", "url": f"https://anbima/db{data}.txt"},
+                 "anterior": {"data": data_antes, "papeis": antes} if antes is not None else None,
+                 "tentativas": {data: "publicado"}}, **extra)
+
+
+def indicativas(**delta):
+    """As indicativas do arquivo de teste e as do dia anterior: `delta` e quanto cada papel abriu, em pontos-base."""
+    hoje = anbima.ler(ANBIMA_TXT)
+    antes = {c: dict(p, indicativa=round(p["indicativa"] - delta.get(c, 0.0) / 100.0, 4) if p["indicativa"] is not None else None)
+             for c, p in hoje.items()}
+    return hoje, antes
+
+
+def bruto_2036(linhas, anb=None, cadastro=None):
+    b = bruto_rf(linhas)
+    b["rf_cadastro"].update(cadastro or CADASTRO_2036)
+    if anb is not None:
+        b["anbima"] = anb
+    return b
+
+
+# O caso medido em 01/10/2026: na EQPA18 muito negocio pequeno a taxa baixa puxa a media para 7,70%; a CGOS16 sai a 8,16%.
+NEGOCIOS_2036 = [neg_rf("DEB", "EQPA18", PARA, 250, 250e3, 7.60) for _ in range(8)] + [
+    neg_rf("DEB", "EQPA18", PARA, 500, 500e3, 8.10), neg_rf("DEB", "CGOS16", GOIAS, 3000, 3e6, 8.16)]
+
+
+def test_indicativa_da_anbima_e_a_referencia_e_a_taxa_dos_negocios_fica_ao_lado():
+    hoje, antes = indicativas(CGOS16=9.7, EQPA18=11.0)
+    r = resumo.montar(bruto_2036(NEGOCIOS_2036, anbima_do_pregao(hoje, antes=antes)), CFG, LIVRO, {})
+    rf = r["renda_fixa"]
+    eqpa, cgos = (next(l for l in rf["papeis"]["deb_incentivada"] if l["codigo"] == c) for c in ("EQPA18", "CGOS16"))
+    # pelos negocios da B3 as duas estariam a 46 pontos-base uma da outra; pela indicativa, a 3
+    assert (eqpa["taxa_media"], cgos["taxa_media"]) == (7.7, 8.16) and eqpa["negocios"] == 9
+    assert eqpa["ref"] == {"taxa": 8.1553, "fonte": "anbima", "data": D, "premio_dap_pb": 60, "premio_base": "duration",
+                           "var_pb": 11.0, "var_contra": "2026-09-28"}
+    assert cgos["ref"]["taxa"] == 8.1894 and round((cgos["ref"]["taxa"] - eqpa["ref"]["taxa"]) * 100) == 3
+    # o que a ANBIMA publicou do papel fica guardado, com a data do arquivo
+    a = cgos["anbima"]
+    assert {k: a[k] for k in ("data", "indicativa", "compra", "venda", "pu", "duration_du", "duration_anos")} == {
+        "data": D, "indicativa": 8.1894, "compra": 8.4875, "venda": 7.9828, "pu": 1027.553709, "duration_du": 1544.4, "duration_anos": 6.13}
+    assert (a["pct_pu_par"], a["desvio"], a["repac_venc"], a["ntnb_ref"], a["var_pb"], a["comparado_com"]) == (
+        90.6615, 0.085, "2036-05-15", "2035-05-15", 9.7, "2026-09-28")
+    # premio sobre o DAP: 7,63% em mai/31 (4,62 anos) e 7,44% em mai/35 (8,62 anos). Na duration de 6,13 anos o juro real e
+    # 7,56%; no vencimento (9,62 anos, alem do ultimo vertice) e 7,44%. Papel que amortiza: os dois numeros nao sao o mesmo
+    assert (a["premio_dap_duration_pb"], a["premio_dap_pb"]) == (63, 75) and cgos["ref"]["premio_dap_pb"] == 63
+    # a taxa dos negocios tambem ganha o premio na duration; o campo antigo segue por vencimento
+    assert (cgos["premio_dap_pb"], cgos["premio_dap_duration_pb"]) == (72, 60)
+    assert (eqpa["premio_dap_pb"], eqpa["premio_dap_duration_pb"]) == (26, 15)
+    # a classe usa a referencia e guarda a dos negocios ao lado
+    inc = rf["resumo"]["deb_incentivada"]
+    assert inc["taxa_fontes"] == {"anbima": 2} and inc["taxa_ipca_mediana"] == 8.17 and inc["premio_dap_mediano_pb"] == 62
+    assert inc["negocios_do_dia"]["taxa_ipca_mediana"] == 7.93 and inc["negocios_do_dia"]["premio_dap_mediano_pb"] == 49
+    # a curva de credito usa a indicativa e o prazo medio; a taxa dos negocios vai junto para a dica do grafico
+    ponto = next(p for p in rf["curva"] if p["codigo"] == "EQPA18")
+    assert ponto == {"codigo": "EQPA18", "emissor": PARA, "anos": 6.29, "taxa": 8.1553, "volume_rs": 2.5e6, "premio_dap_pb": 60,
+                     "fonte": "anbima", "base": "duration", "taxa_b3": 7.7}
+    meta = rf["anbima"]
+    assert (meta["situacao"], meta["data"], meta["comparado_com"], meta["papeis"], meta["cobertura_incentivadas_pct"]) == (
+        "publicado", D, "2026-09-28", 7, 100.0) and "dap" not in meta
+    assert not any("ANBIMA" in x for x in r["lacunas"])
+    # a referencia de quem nao negociou abaixo de 30 pb nao vira sinal
+    assert not [s for s in r["sinais"] if s["tipo"] == "rf_abertura"]
+
+
+def test_abertura_de_taxa_vem_da_indicativa_e_cri_e_cra_seguem_pelos_negocios():
+    cad = dict(CADASTRO_2036, **{"24IPCA": {"tipo": "CRI", "incentivada": False, "indexador": "IPCA", "pct_indexador": None,
+                                             "taxa": 8.0, "vencimento": "2034-08-17"}})
+    linhas = [neg_rf("DEB", "EQPA18", PARA, 250, 250e3, 7.60) for _ in range(8)] + [
+        neg_rf("DEB", "EQPA18", PARA, 5000, 5e6, 8.10), neg_rf("DEB", "CGOS16", GOIAS, 6000, 6e6, 8.19),
+        neg_rf("DEB", "CGOS28", GOIAS, 4000, 4e6, 8.20), neg_rf("CRI", "24IPCA", "OPEA SECURITIZADORA S/A", 7000, 7e6, 9.40)]
+    # nos negocios a EQPA18 "abre" 45 pb contra o ultimo pregao (mudou a mistura de negocio pequeno e grande);
+    # na indicativa ela andou 3,1 pb. Quem abriu de verdade foi a CGOS16: 35 pb na indicativa
+    estado = {"EQPA18": [["2026-09-28", 7.51, 1000.0]], "CGOS16": [["2026-09-28", 8.17, 1000.0]], "24IPCA": [["2026-09-28", 9.00, 1000.0]]}
+    hoje, antes = indicativas(EQPA18=3.1, CGOS16=35.0, CGOS28=0.4)
+    r = resumo.montar(bruto_2036(linhas, anbima_do_pregao(hoje, antes=antes), cad), CFG, LIVRO, {}, rf_estado=estado)
+    rf = r["renda_fixa"]
+    eqpa = next(l for l in rf["papeis"]["deb_incentivada"] if l["codigo"] == "EQPA18")
+    assert eqpa["var_taxa_pb"] == 45 and eqpa["ref"]["var_pb"] == 3.1            # as duas medidas ficam; a que vale e a da indicativa
+    # primeiro os medidos pela indicativa, depois os medidos pelos negocios; 0,4 pb e taxa parada, nao abertura
+    assert [(l["codigo"], l["ref"]["fonte"], l["ref"]["var_pb"]) for l in rf["aberturas"]] == [
+        ("CGOS16", "anbima", 35.0), ("EQPA18", "anbima", 3.1), ("24IPCA", "b3", 40)]
+    assert rf["fechamentos"] == []
+    sinais = [s for s in r["sinais"] if s["tipo"] == "rf_abertura"]
+    assert [(s["ativo"], s.get("origem"), s["data"]) for s in sinais] == [("CGOS16", "ANBIMA", D), ("24IPCA", None, D)]
+    assert sinais[0]["texto"] == ("CGOS16 (Equatorial Goias Distribuidora de Ene…, debênture incentivada): a taxa indicativa da ANBIMA "
+                                  "abriu 35 pb de 28/09 para 29/09, para IPCA+ 8,19%; na B3, negócios de 29/09 a IPCA+ 8,19% em R$ 6,0 mi.")
+    assert sinais[0]["fonte"] == "taxa indicativa de debêntures" and sinais[0]["numeros"]["var_taxa_pb"] == 35.0
+    assert "taxa média dos negócios da B3 abriu 40 pb contra 28/09" in sinais[1]["texto"] and sinais[1]["fonte"].startswith("Trade")
+    assert "(ANBIMA, taxa indicativa de debêntures, 29/09)" in render.markdown(r) and "(B3, Trade + InstrumentRegistration" in render.markdown(r)
+
+
+def test_papel_acompanhado_aparece_pela_indicativa_mesmo_sem_negocio_e_avisa_sem_depender_do_giro():
+    cfg = dict(CFG, renda_fixa=dict(CFG["renda_fixa"], papeis=["CGOS28", "CGOS16", "NAOTEM11"]))
+    hoje, antes = indicativas(CGOS28=31.0, CGOS16=-2.0)
+    linhas = [neg_rf("DEB", "CGOS16", GOIAS, 300, 300e3, 7.56)]                  # um negocio pequeno; a CGOS28 nem negociou
+    r = resumo.montar(bruto_2036(linhas, anbima_do_pregao(hoje, antes=antes)), cfg, LIVRO, {})
+    c28, c16, fora = r["renda_fixa"]["acompanhados"]
+    assert c28["sem_negocio"] and c28["negocios"] == 0 and c28["taxa_media"] is None and c28["classe"] == "deb_incentivada"
+    assert c28["emissor"] == GOIAS and c28["vencimento"] == "2036-09-15" and c28["convencao"] == "IPCA+"
+    assert c28["ref"] == {"taxa": 8.2311, "fonte": "anbima", "data": D, "premio_dap_pb": 69, "premio_base": "duration",
+                          "var_pb": 31.0, "var_contra": "2026-09-28"}
+    assert c28["anbima"]["pu"] == 999.149414 and c28["anbima"]["duration_anos"] == 6.44
+    assert "sem_negocio" not in c16 and c16["taxa_media"] == 7.56 and c16["ref"]["taxa"] == 8.1894 and c16["ref"]["var_pb"] == -2.0
+    assert fora == {"codigo": "NAOTEM11", "sem_negocio": True}                  # fora da B3 e da ANBIMA: lacuna, nao linha inventada
+    s = [s for s in r["sinais"] if s["tipo"] == "rf_abertura"]
+    assert len(s) == 1 and s[0]["ativo"] == "CGOS28" and s[0]["origem"] == "ANBIMA"
+    assert s[0]["texto"].endswith("abriu 31 pb de 28/09 para 29/09, para IPCA+ 8,23%; sem negócio na B3 em 29/09.")
+    # quem nao negociou nao entra nos totais do dia nem na curva
+    assert r["renda_fixa"]["resumo"]["deb_incentivada"]["papeis"] == 1 and r["renda_fixa"]["papeis_negociados"] == 1
+    assert r["renda_fixa"]["curva"] == []                                        # a CGOS16 ficou abaixo do volume minimo
+
+
+def test_arquivo_da_anbima_de_outro_pregao_leva_a_data_dele_e_nao_mede_a_variacao_do_dia():
+    hoje, antes = indicativas(CGOS16=35.0)
+    dap_de_ontem = [[1.88, 7.40, "DAPQ28"], [4.62, 7.60, "DAPK31"], [8.62, 7.50, "DAPK35"]]
+    anb = anbima_do_pregao(hoje, data="2026-09-28", antes=antes, data_antes="2026-09-25", situacao="anterior", dap=dap_de_ontem)
+    b = bruto_2036(NEGOCIOS_2036, anb)
+    b["index"]["coletado_em"] = "2026-09-30T00:41:00Z"                           # a rodada das 21h40 do proprio pregao
+    r = resumo.montar(b, CFG, LIVRO, {})
+    rf = r["renda_fixa"]
+    cgos = next(l for l in rf["papeis"]["deb_incentivada"] if l["codigo"] == "CGOS16")
+    # vale a indicativa de 28/09, com a data; o premio e contra o DAP de 28/09 (7,56% em 6,13 anos), nao contra o de hoje
+    assert cgos["ref"] == {"taxa": 8.1894, "fonte": "anbima", "data": "2026-09-28", "premio_dap_pb": 63, "premio_base": "duration"}
+    assert cgos["anbima"]["var_pb"] == 35.0 and cgos["anbima"]["comparado_com"] == "2026-09-25"      # fica guardada, com as datas dela
+    assert rf["aberturas"] == [] and not [s for s in r["sinais"] if s["tipo"] == "rf_abertura"]      # a de 28/09 ja foi contada em 28/09
+    assert rf["anbima"]["situacao"] == "anterior" and rf["anbima"]["data"] == "2026-09-28" and rf["anbima"]["dap"] == dap_de_ontem
+    assert any("o arquivo de taxas indicativas de 29/09 ainda não foi publicado; as debêntures usam as indicativas de 28/09" in x
+               for x in r["lacunas"])
+    # a rodada da manha seguinte ainda pode estar esperando; dias depois, o arquivo ja saiu do site
+    b["index"]["coletado_em"] = "2026-09-30T11:36:00Z"
+    assert any("de 29/09 não tinha sido publicado até esta coleta; as debêntures usam as indicativas de 28/09, e a variação do dia pela "
+               "indicativa fica sem medida até ele chegar." in x for x in resumo.montar(b, CFG, LIVRO, {})["lacunas"])
+    b["index"]["coletado_em"] = "2026-10-05T12:00:00Z"
+    assert any("de 29/09 não está no site da ANBIMA (ela guarda poucos dias); as debêntures usam as indicativas de 28/09, e a variação do "
+               "dia pela indicativa não foi medida." in x for x in resumo.montar(b, CFG, LIVRO, {})["lacunas"])
+    # o arquivo do pregao existia mas nao pode ser lido: o motivo e a falha, nao a espera
+    b["anbima"] = dict(anb, tentativas={D: "falhou", "2026-09-28": "publicado"}, erro="arquivo de 2026-09-29: HTTP 403")
+    assert any("de 29/09 não pôde ser lido (arquivo de 2026-09-29: HTTP 403); as debêntures usam as indicativas de 28/09" in x
+               for x in resumo.montar(b, CFG, LIVRO, {})["lacunas"])
+    # sem a curva do DAP daquela data a indicativa sai sem premio, e isso fica escrito
+    r = resumo.montar(bruto_2036(NEGOCIOS_2036, dict(anb, dap=None)), CFG, LIVRO, {})
+    cgos = next(l for l in r["renda_fixa"]["papeis"]["deb_incentivada"] if l["codigo"] == "CGOS16")
+    assert cgos["ref"] == {"taxa": 8.1894, "fonte": "anbima", "data": "2026-09-28"}
+    assert any("sem a curva do DAP de 28/09" in x for x in r["lacunas"]) and "dap" not in r["renda_fixa"]["anbima"]
+
+
+def test_sem_anbima_a_renda_fixa_volta_para_os_negocios_da_b3_e_declara_a_lacuna():
+    falhou = {"pregao": D, "situacao": "falhou", "arquivo": None, "anterior": None, "tentativas": {D: "falhou"},
+              "erro": "arquivo de 2026-09-29: falha de rede"}
+    r = resumo.montar(bruto_2036(NEGOCIOS_2036, falhou), CFG, LIVRO, {})
+    rf = r["renda_fixa"]
+    eqpa = next(l for l in rf["papeis"]["deb_incentivada"] if l["codigo"] == "EQPA18")
+    assert eqpa["ref"] == {"taxa": 7.7, "fonte": "b3", "data": D, "premio_dap_pb": 26, "premio_base": "vencimento"} and "anbima" not in eqpa
+    assert rf["resumo"]["deb_incentivada"]["taxa_fontes"] == {"b3": 2} and "negocios_do_dia" not in rf["resumo"]["deb_incentivada"]
+    assert rf["anbima"] == {"fonte": anbima.FONTE, "pedido": D, "situacao": "falhou", "tentativas": {D: "falhou"},
+                            "erro": "arquivo de 2026-09-29: falha de rede"}
+    assert any(x == "ANBIMA: a leitura das taxas indicativas falhou nesta rodada (arquivo de 2026-09-29: falha de rede); "
+                    "debêntures pelos negócios da B3." for x in r["lacunas"])
+    assert {p["fonte"] for p in rf["curva"]} == {"b3"} and {p["base"] for p in rf["curva"]} == {"vencimento"}
+    ausente = {"pregao": D, "situacao": "ausente", "arquivo": None, "anterior": None, "tentativas": {D: "nao publicado"}}
+    r = resumo.montar(bruto_2036(NEGOCIOS_2036, ausente), CFG, LIVRO, {})
+    assert any("sem arquivo de taxas indicativas de 29/09 nem dos 3 dias úteis anteriores" in x for x in r["lacunas"])
+    # rodada que nao consultou a ANBIMA (config desligada): tambem fica dito
+    r = resumo.montar(bruto_2036(NEGOCIOS_2036), CFG, LIVRO, {})
+    assert r["renda_fixa"]["anbima"]["situacao"] == "nao coletado" and any("não coletadas nesta rodada" in x for x in r["lacunas"])
+    # arquivo do dia sem o anterior: ha taxa de referencia, nao ha variacao
+    hoje, _ = indicativas()
+    r = resumo.montar(bruto_2036(NEGOCIOS_2036, anbima_do_pregao(hoje)), CFG, LIVRO, {})
+    cgos = next(l for l in r["renda_fixa"]["papeis"]["deb_incentivada"] if l["codigo"] == "CGOS16")
+    assert cgos["ref"]["fonte"] == "anbima" and "var_pb" not in cgos["ref"] and any("sem o arquivo anterior ao de 29/09" in x for x in r["lacunas"])
+
+
+def test_se_o_cruzamento_com_a_anbima_quebrar_o_pregao_sai_so_com_a_b3_e_nao_fica_sem_resumo(monkeypatch):
+    hoje, antes = indicativas(CGOS16=35.0)
+    hoje["EQPA18"]["repac_venc"] = "31/02/2036"                                  # um dado torto que a leitura deixou passar
+
+    def quebra(*a, **k):
+        raise TypeError("campo inesperado")
+    monkeypatch.setattr(renda_fixa, "indicativa", quebra)
+    linhas = NEGOCIOS_2036 + [neg_rf("DEB", "CGOS16", GOIAS, 6000, 6e6, 8.16)]
+    r = resumo.montar(bruto_2036(linhas, anbima_do_pregao(hoje, antes=antes)), CFG, LIVRO, {})
+    rf = r["renda_fixa"]
+    assert rf["anbima"]["situacao"] == "falhou" and rf["anbima"]["erro"] == "cruzamento com os negocios: TypeError: campo inesperado"
+    assert {l["ref"]["fonte"] for l in rf["papeis"]["deb_incentivada"]} == {"b3"} and rf["resumo"]["deb_incentivada"]["volume_rs"] == 11.5e6
+    lacunas = [x for x in r["lacunas"] if "ANBIMA" in x]
+    assert lacunas == ["ANBIMA: a leitura das taxas indicativas falhou nesta rodada (cruzamento com os negocios: TypeError: campo inesperado); "
+                       "debêntures pelos negócios da B3."]                       # uma vez so: a tentativa que quebrou nao deixa rastro
+    assert not [s for s in r["sinais"] if s.get("origem")]
+    # a leitura do arquivo ja recusa data que nao existe, em vez de deixar o resumo tropecar nela
+    assert anbima._data("31/02/2036") is None and anbima._data("15/05/2036") == "2036-05-15" and anbima._data("") is None
+
+
+def test_indicativa_em_outra_convencao_ou_sem_taxa_nao_substitui_a_dos_negocios():
+    hoje, antes = indicativas()
+    # o cadastro da B3 diz DI e o arquivo da ANBIMA diz IPCA: as duas taxas nao falam a mesma lingua
+    cad = dict(CADASTRO_2036, CGOS16=dict(CADASTRO_2036["CGOS16"], indexador="DI", pct_indexador=100),
+               ABSP12={"tipo": "DEB", "incentivada": True, "indexador": "DI", "pct_indexador": 100, "taxa": 1.95, "vencimento": "2026-10-15"})
+    linhas = [neg_rf("DEB", "CGOS16", GOIAS, 3000, 3e6, 1.20), neg_rf("DEB", "ABSP12", "AGUAS DE BOMBINHAS", 1000, 1e6, 2.10)]
+    rf = resumo.montar(bruto_2036(linhas, anbima_do_pregao(hoje, antes=antes), cad), CFG, LIVRO, {})["renda_fixa"]
+    cgos, absp = (next(l for l in rf["papeis"]["deb_incentivada"] if l["codigo"] == c) for c in ("CGOS16", "ABSP12"))
+    assert cgos["convencao"] == "CDI+" and cgos["ref"] == {"taxa": 1.2, "fonte": "b3", "data": D}
+    assert cgos["anbima"]["indicativa"] == 8.1894 and cgos["anbima"]["convencao"] == "IPCA+"        # guardada, mas nao usada
+    # a ANBIMA lista o papel com `--`: nao ha indicativa, vale a taxa dos negocios
+    assert absp["anbima"]["indicativa"] is None and absp["anbima"]["pu"] is None and absp["ref"]["fonte"] == "b3"
+    # resumo gravado antes de a ANBIMA entrar nao tem `ref`: a leitura monta a referencia com os negocios do proprio pregao
+    antigo = {"codigo": "X", "taxa_media": 7.81, "premio_dap_pb": 37, "var_taxa_pb": 40, "comparado_com": "2026-09-28"}
+    assert renda_fixa.referencia(antigo, D) == {"taxa": 7.81, "fonte": "b3", "data": D, "premio_dap_pb": 37, "premio_base": "vencimento",
+                                                "var_pb": 40, "var_contra": "2026-09-28"}
+    assert renda_fixa.referencia({"codigo": "X", "sem_negocio": True}, D) == {}
+    assert renda_fixa.rotulo_fonte(cgos["ref"]) == "B3 negócios de 29/09"
+    assert renda_fixa.rotulo_fonte({"fonte": "anbima", "data": "2026-09-30"}) == "ANBIMA indicativa de 30/09"
+
+
+def test_dap_da_indicativa_de_outro_pregao_vem_do_resumo_guardado_daquele_pregao(tmp_path):
+    import json
+    import boletim_b3
+    (tmp_path / "2026-09-28").mkdir()
+    (tmp_path / "2026-09-28" / "resumo.json").write_text(json.dumps({"renda_fixa": {"dap": [[1.88, 7.4, "DAPQ28"], [4.62, 7.6, "DAPK31"]]}}))
+    b = {"pregao": D, "anbima": {"situacao": "anterior", "arquivo": {"data": "2026-09-28", "papeis": {}}}}
+    boletim_b3.dap_da_indicativa(str(tmp_path), b)
+    assert b["anbima"]["dap"] == [[1.88, 7.4, "DAPQ28"], [4.62, 7.6, "DAPK31"]]
+    # arquivo do proprio pregao usa o DAP do proprio pregao: nada a buscar; sem o resumo guardado, lista vazia e a lacuna sai no resumo
+    b = {"pregao": D, "anbima": {"situacao": "publicado", "arquivo": {"data": D, "papeis": {}}}}
+    boletim_b3.dap_da_indicativa(str(tmp_path), b)
+    assert "dap" not in b["anbima"]
+    b = {"pregao": D, "anbima": {"situacao": "anterior", "arquivo": {"data": "2026-09-25", "papeis": {}}}}
+    boletim_b3.dap_da_indicativa(str(tmp_path), b)
+    assert b["anbima"]["dap"] == []
+    boletim_b3.dap_da_indicativa(str(tmp_path), {"pregao": D})                   # rodada sem ANBIMA nao quebra
+
+
+# Casos de borda achados na revisao de 01/10/2026: prazo medio abaixo de um ano, indicativa sem duration, taxa em
+# percentual do CDI, papel que a ANBIMA lista sem taxa e papel fora dos dois lugares.
+ANBIMA_BORDAS = (ANBIMA_TXT
+                 + "CTGE11@CTG BRASIL GERACAO S.A. (*)@15/11/2028@IPCA + 5,5%@6,2@5,9@6,0604@0,05@6,0104@6,1104@512,3@99,1@242,07@@15/08/2028\n"
+                 + "SEMD11@SEM DURATION S.A.@15/05/2033@IPCA + 6%@8,1@7,9@8,0@0,05@7,95@8,05@1000@99@N/D@@\n"
+                 + "RISP24@AGUAS DO RIO 1 SPE S.A (*)@15/09/2042@IPCA + 7,69%@12,3@11,9@12,06@0,2@11,86@12,26@1350,5@80,1@2000@@15/05/2035\n")
+CADASTRO_BORDAS = dict(
+    CADASTRO_2036, RISP24=CADASTRO["RISP24"],
+    CTGE11={"tipo": "DEB", "incentivada": True, "indexador": "IPCA", "pct_indexador": None, "taxa": 5.5, "vencimento": "2028-11-15"},
+    SEMD11={"tipo": "DEB", "incentivada": True, "indexador": "IPCA", "pct_indexador": None, "taxa": 6.0, "vencimento": "2033-05-15"},
+    KLBNA2={"tipo": "DEB", "incentivada": False, "indexador": "DI", "pct_indexador": 114.65, "taxa": 0, "vencimento": "2029-06-19"})
+NEGOCIOS_BORDAS = [neg_rf("DEB", "CTGE11", "CTG BRASIL GERACAO S.A.", 4000, 4e6, 6.10), neg_rf("DEB", "SEMD11", "SEM DURATION S.A.", 4000, 4e6, 8.05),
+                   neg_rf("DEB", "CGOS16", GOIAS, 3000, 3e6, 8.16), neg_rf("DEB", "RISP24", "AGUAS DO RIO 1 SPE S.A", 20000, 27e6, 12.50)]
+
+
+def _resumo_bordas(**anb):
+    cfg = dict(CFG, renda_fixa=dict(CFG["renda_fixa"], papeis=["CTGE11", "KLBNA2", "ABSP12", "NAOTEM11"]))
+    hoje = anbima.ler(ANBIMA_BORDAS)
+    # a KLBNA2 sobe 0,40 ponto de percentual do CDI de um arquivo para o outro; o resto fica parado
+    antes = {c: dict(p, indicativa=round(p["indicativa"] - 0.4, 4) if c == "KLBNA2" else p["indicativa"]) for c, p in hoje.items()}
+    bloco = anbima_do_pregao(hoje, antes=antes, **anb) if anb.get("situacao") != "falhou" else dict(
+        {"pregao": D, "arquivo": None, "anterior": None}, **anb)
+    r = resumo.montar(bruto_2036(NEGOCIOS_BORDAS, bloco, CADASTRO_BORDAS), cfg, LIVRO, {})
+    r.pop("_apoio")
+    return r
+
+
+def test_premio_da_indicativa_e_na_duration_e_prazo_medio_abaixo_de_um_ano_fica_sem_premio():
+    r = _resumo_bordas()
+    rf = r["renda_fixa"]
+    por = {l["codigo"]: l for l in rf["papeis"]["deb_incentivada"]}
+    # CTGE11: prazo medio de 0,96 ano e Repac./Venc. a 2,1 anos. O DAP nao serve de referencia abaixo de um ano: o papel
+    # fica sem premio, em vez de ganhar o do vencimento (-135 pb contra o DAP de 2,1 anos) com o rotulo de "duration"
+    ctge = por["CTGE11"]
+    assert ctge["anbima"]["duration_anos"] == 0.96 and "premio_dap_duration_pb" not in ctge["anbima"] and ctge["anbima"]["premio_dap_pb"] == -135
+    assert ctge["ref"] == {"taxa": 6.0604, "fonte": "anbima", "data": D, "var_pb": 0.0, "var_contra": "2026-09-28"}
+    # SEMD11: a ANBIMA deu a taxa e nao deu a duration (N/D): ai vale o vencimento, e `premio_base` diz isso
+    assert por["SEMD11"]["anbima"]["duration_anos"] is None
+    assert (por["SEMD11"]["ref"]["premio_dap_pb"], por["SEMD11"]["ref"]["premio_base"]) == (47, "vencimento")
+    assert (por["RISP24"]["ref"]["premio_dap_pb"], por["RISP24"]["ref"]["premio_base"]) == (459, "duration")
+    # curva: a indicativa vai no prazo medio (mesmo curto, sem premio); sem duration o ponto nao tem lugar no eixo
+    assert [(p["codigo"], p["anos"], p["base"], p["premio_dap_pb"]) for p in rf["curva"]] == [
+        ("RISP24", 7.94, "duration", 459), ("CTGE11", 0.96, "duration", None), ("CGOS16", 6.13, "duration", 63)]
+    # a mediana de premio da classe sai dos tres papeis que tem premio: 47, 63 e 459
+    assert rf["resumo"]["deb_incentivada"]["premio_dap_mediano_pb"] == 63 and rf["resumo"]["deb_incentivada"]["papeis_ipca"] == 4
+    s = _secao_rf(painel.pagina(r, {}))
+    assert '–<span class="peq">prazo médio abaixo de um ano</span>' in s                    # na tabela, a lacuna com o motivo
+    assert "prazo médio de 0,96 ano: curto demais para o DAP servir de referência" in s     # na ficha do papel acompanhado
+    assert '<span class="peq">no vencimento</span>' in s
+    g, _ = painel.svg_dispersao(rf["curva"] + [dict(rf["curva"][0], codigo="OUTRO11", anos=5.0)], rf["dap"], {"anbima": D, "b3": D, "dap": D})
+    assert "IPCA + 6,06% · ANBIMA indicativa de 29/09|prazo médio de 0,96 anos (duration)|B3 negócios de 29/09: IPCA + 6,10%, R$ 4,0 mi" in g
+    md = render.markdown(r)
+    assert "| CTGE11 | IPCA+ 6,06% (ANBIMA indicativa de 29/09) | IPCA+ 6,10%, R$ 4,0 mi | - |" in md
+    assert "duration de 0,96 ano (curta demais para medir o prêmio sobre o DAP); indicativa 0 pb contra 28/09." in md
+    assert "IPCA+ 8,00% (ANBIMA indicativa de 29/09) | IPCA+ 8,05%, R$ 4,0 mi | +47 pb no vencimento |" in md
+
+
+def test_taxa_em_percentual_do_cdi_nao_tem_variacao_em_pontos_base_nem_sinal_de_abertura(capsys):
+    import mesa
+    r = _resumo_bordas()
+    klbn = next(l for l in r["renda_fixa"]["acompanhados"] if l["codigo"] == "KLBNA2")
+    # 104,10% -> 104,50% do CDI: 0,40 ponto de percentual do CDI nao e "40 pb" de taxa
+    assert klbn["convencao"] == "% do CDI" and klbn["ref"] == {"taxa": 104.5, "fonte": "anbima", "data": D}
+    assert "var_pb" not in klbn["anbima"] and not [s for s in r["sinais"] if s["tipo"] == "rf_abertura"]
+    s = _secao_rf(painel.pagina(r, {}))
+    assert '<div class="val">104,5% do CDI</div><div class="pe">ANBIMA indicativa de 29/09</div>' in s
+    assert "em % do CDI · a quanto o mercado compra e a quanto vende · ANBIMA de 29/09" in s
+    assert "- KLBNA2, ANBIMA de 29/09: compra 105,10% do CDI e venda 103,90% do CDI; PU R$ 1.010,25 (100,2% do par); duration de 2,4 anos." in render.markdown(r)
+    assert mesa._boletim_rf(r) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA indicativa de 29/09: 104,5% do CDI" in tela
+    assert "var: sem medida contra 28/09 (papel sem taxa naquele arquivo, ou taxa em percentual do CDI)" in tela
+
+
+def test_papel_acompanhado_sem_taxa_nenhuma_e_declarado_com_o_motivo_certo_nas_tres_leituras(capsys):
+    import mesa
+    r = _resumo_bordas()
+    md = render.markdown(r)
+    assert "- ABSP12, ANBIMA de 29/09: o arquivo lista o papel sem taxa nem preço." in md         # nunca o item vazio
+    assert "Sem negócio neste pregão e sem taxa indicativa: ABSP12, NAOTEM11." in md             # o papel nao some do texto
+    assert "Sem negócio neste pregão e sem taxa indicativa: ABSP12, NAOTEM11." in _secao_rf(painel.pagina(r, {}))
+    assert mesa._boletim_rf(r) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA indicativa de 29/09: sem taxa" in tela and "var: papel sem taxa neste arquivo" in tela
+    assert "sem taxa de referencia neste pregao: sem negocio na B3 e o papel esta sem taxa no arquivo da ANBIMA" in tela
+    assert "sem taxa de referencia neste pregao: sem negocio na B3 e o papel nao esta no arquivo da ANBIMA" in tela
+    assert "prazo medio abaixo de um ano: sem premio na duration" in tela and "| -135 pb no vencimento" in tela
+    # com a leitura da ANBIMA em falha, o motivo e a falha: nao se diz que o papel esta fora do arquivo
+    fora = _resumo_bordas(situacao="falhou", erro="arquivo de 2026-09-29: HTTP 403")
+    assert mesa._boletim_rf(fora) == 0
+    tela = capsys.readouterr().out
+    assert tela.count("sem taxa de referencia neste pregao: sem negocio na B3 e a leitura da ANBIMA falhou nesta rodada") == 3
+    assert "fora do arquivo" not in tela and "nao esta no arquivo" not in tela
+    assert "Sem negócio neste pregão e sem taxa indicativa: KLBNA2, ABSP12, NAOTEM11." in render.markdown(fora)
+
+
+def test_sinal_de_premio_alto_com_arquivo_de_outro_pregao_diz_o_dia_da_indicativa_e_o_dia_dos_negocios():
+    r = _resumo_bordas(data="2026-09-28", data_antes="2026-09-25", situacao="anterior",
+                       tentativas={D: "nao publicado", "2026-09-28": "publicado", "2026-09-25": "publicado"},
+                       dap=[[1.88, 7.40, "DAPQ28"], [4.62, 7.60, "DAPK31"], [8.62, 7.50, "DAPK35"]])
+    s = next(s for s in r["sinais"] if s["tipo"] == "rf_premio_alto")
+    assert s["texto"] == ("RISP24 (Aguas do Rio 1 Spe, debênture incentivada): taxa indicativa da ANBIMA de 28/09 a IPCA+ 12,06%, 454 pb acima "
+                          "do juro real de mercado na duration de 7,9 anos; na B3, negócios de 29/09 a IPCA+ 12,50% em R$ 27,0 mi.")
+    assert (s["data"], s["origem"]) == ("2026-09-28", "ANBIMA e B3")                              # a data do sinal e a da indicativa
+
+
+def test_indicativa_em_outra_convencao_e_escrita_na_convencao_da_anbima(capsys):
+    import mesa
+    hoje, antes = indicativas()
+    cfg = dict(CFG, renda_fixa=dict(CFG["renda_fixa"], papeis=["CGOS16"]))
+    cad = dict(CADASTRO_2036, CGOS16=dict(CADASTRO_2036["CGOS16"], indexador="DI", pct_indexador=100))
+    r = resumo.montar(bruto_2036([neg_rf("DEB", "CGOS16", GOIAS, 3000, 3e6, 1.20)], anbima_do_pregao(hoje, antes=antes), cad), cfg, LIVRO, {})
+    r.pop("_apoio")
+    assert mesa._boletim_rf(r) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA indicativa de 29/09: IPCA+ 8,19%" in tela and "ANBIMA indicativa de 29/09: CDI+ 8,19%" not in tela
+    assert "[CONVENCAO DIFERENTE: a ANBIMA escreve a taxa em IPCA+ e a B3 em CDI+; nao se comparam, vale a dos negocios]" in tela
+    assert "vale para comparar: B3 negocios de 29/09" in tela
+    assert ("- CGOS16, ANBIMA de 29/09: indicativa a IPCA+ 8,19%, em convenção diferente da dos negócios da B3 (CDI+); as duas taxas não se "
+            "comparam e vale a dos negócios.") in render.markdown(r)
+    ficha = _secao_rf(painel.pagina(r, {})).split("Papéis que você acompanha", 1)[1].split("Mais negociados do dia", 1)[0]
+    assert "CDI+ 1,20%" in ficha and "8,19" not in ficha and "Compra · venda" not in ficha       # a ficha fica so com a taxa que vale
+
+
+def test_texto_ou_painel_que_quebra_nao_leva_junto_o_resumo_o_historico_e_o_manifest(tmp_path, monkeypatch):
+    import json
+    import boletim_b3
+    hoje, antes = indicativas()
+
+    def falsa_coleta(cli, d, pasta, **kw):
+        return bruto_2036(NEGOCIOS_2036, anbima_do_pregao(hoje, antes=antes))
+
+    def sem_arquivo(cli, nome, d):
+        raise b3.B3Erro("sem arquivo")
+
+    def quebra(*a, **k):
+        raise OverflowError("cannot convert float infinity to integer")
+    monkeypatch.setattr(boletim_b3.coleta, "coletar_pregao", falsa_coleta)
+    monkeypatch.setattr(boletim_b3.b3, "arquivo", sem_arquivo)
+    monkeypatch.setattr(boletim_b3.b3, "catalogo", lambda cli: [])
+    monkeypatch.setattr(boletim_b3, "Cliente", lambda: type("C", (), {"tipo": "teste"})())
+    monkeypatch.setattr(boletim_b3.painel, "pagina", quebra)
+    assert boletim_b3.main(["--saida", str(tmp_path), "--dias", "1", "--data", D]) == 0
+    manifest = json.loads((tmp_path / "manifest.json").read_text())
+    assert manifest["ultimo_pregao"] == D and D in manifest["pregoes"]
+    assert any(f.startswith(f"{D}: resumo.md ou painel.html: OverflowError") for f in manifest["falhas"])
+    assert json.loads((tmp_path / D / "resumo.json").read_text())["renda_fixa"]["anbima"]["situacao"] == "publicado"
+    assert D in json.loads((tmp_path / "historico.json").read_text())["pregoes"] and not (tmp_path / "painel.html").exists()
+
+
+# ------------------------------------------------------------------ fonte e dia de cada taxa na tela
+
+def _resumo_2036(anb="publicado"):
+    cfg = dict(CFG, renda_fixa=dict(CFG["renda_fixa"], papeis=["CGOS16", "CGOS28"]))
+    cad = dict(CADASTRO_2036, **{"24IPCA": {"tipo": "CRI", "incentivada": False, "indexador": "IPCA", "pct_indexador": None,
+                                             "taxa": 8.0, "vencimento": "2034-08-17"}})
+    for i in range(4):
+        cad[f"DEBX{i}"] = {"tipo": "DEB", "incentivada": True, "indexador": "IPCA", "pct_indexador": None, "taxa": 6.0,
+                           "vencimento": f"20{31 + i}-05-15"}
+    linhas = NEGOCIOS_2036 + [neg_rf("DEB", f"DEBX{i}", "EMISSOR X", 4000, 4e6, 7.6 + i * 0.2) for i in range(4)] + [
+        neg_rf("CRI", "24IPCA", "OPEA SECURITIZADORA S/A", 7000, 7e6, 9.40)]
+    hoje, antes = indicativas(CGOS16=35.0, EQPA18=-12.5)
+    estado = {"24IPCA": [["2026-09-28", 9.00, 1000.0]], "DEBX3": [["2026-09-28", 8.50, 1000.0]]}
+    if anb == "publicado":
+        bloco = anbima_do_pregao(hoje, antes=antes)
+    elif anb == "anterior":
+        bloco = anbima_do_pregao(hoje, data="2026-09-28", antes=antes, data_antes="2026-09-25", situacao="anterior",
+                                 dap=[[1.88, 7.40, "DAPQ28"], [4.62, 7.60, "DAPK31"], [8.62, 7.50, "DAPK35"]])
+    else:
+        bloco = {"pregao": D, "situacao": "falhou", "arquivo": None, "anterior": None, "erro": "arquivo de 2026-09-29: falha de rede"}
+    r = resumo.montar(bruto_2036(linhas, bloco, cad), cfg, LIVRO, {}, rf_estado=estado)
+    r.pop("_apoio")
+    return r
+
+
+def _secao_rf(h):
+    return h.split('<section id="renda-fixa">', 1)[1].split("</section>", 1)[0]
+
+
+def test_painel_diz_de_onde_vem_cada_taxa_anbima_indicativa_ou_b3_negocios_com_o_dia():
+    r = _resumo_2036()
+    h = painel.pagina(r, {})
+    s = _secao_rf(h)
+    assert '<span class="tag">ANBIMA indicativa de 29/09</span> Debêntures: taxa de referência do mercado profissional, de 7 papéis' in s
+    assert "no arquivo publicado em 29/09 às 19h56" in s and "Cobre 26% do volume de incentivadas negociado no dia." in s
+    assert '<span class="tag">B3 negócios de 29/09</span> CRI e CRA, e a taxa dos negócios do dia das debêntures' in s
+    # papel acompanhado: a indicativa, compra e venda, PU, duration e, ao lado, os negocios do dia
+    ficha = s.split("Papéis que você acompanha", 1)[1].split("Mais negociados do dia", 1)[0]
+    for trecho in ("IPCA+ 8,19%", "ANBIMA indicativa de 29/09 · +35 pb vs 28/09", "8,49% · 7,98%", "ANBIMA de 29/09", "R$ 1.027,55",
+                   "90,7% do valor ao par", "contra o DAP de 29/09 na duration de 6,1 anos", "+75 pb no vencimento",
+                   '<div class="rot">B3 negócios de 29/09</div><div class="val">IPCA+ 8,16%</div>', "R$ 3,0 mi em 1 negócio",
+                   '<span class="mut">sem negócio</span>', "vence em 15/09/2036"):
+        assert trecho in ficha, trecho
+    # tabela dos mais negociados: referencia com a fonte, e os negocios do dia ao lado
+    tabela = s.split("Mais negociados do dia", 1)[1]
+    assert "<th class=\"n\">Taxa de referência</th><th class=\"n\">B3 negócios de 29/09</th>" in tabela
+    assert 'IPCA+ 8,16%<span class="peq">ANBIMA indicativa de 29/09</span>' in tabela        # EQPA18 pela indicativa (8,1553)
+    assert 'IPCA+ 7,70%<span class="peq">R$ 2,5 mi · 9 negócios</span>' in tabela           # ...e pelos negocios
+    assert 'IPCA+ 7,60%<span class="peq">B3 negócios de 29/09</span>' in tabela             # DEBX0 nao esta no arquivo da ANBIMA
+    assert '<span class="peq">na duration de 6,3 anos</span>' in tabela and '<span class="peq">no vencimento</span>' in tabela
+    # quem abriu e fechou: um card por fonte
+    assert 'Debêntures: quem abriu e quem fechou taxa <span class="tag">ANBIMA indicativa de 29/09</span>' in s
+    assert "Variação da taxa indicativa da ANBIMA de 28/09 para 29/09" in s
+    assert 'CRI, CRA e debêntures sem indicativa: quem abriu e quem fechou taxa <span class="tag">B3 negócios de 29/09</span>' in s
+    # grafico: circulo cheio para a indicativa, vazado para quem so tem negocio; a dica diz a fonte e o dia
+    assert "ANBIMA indicativa de 29/09, no prazo médio" in s and "B3 negócios de 29/09, no vencimento" in s
+    assert "IPCA + 8,16% · ANBIMA indicativa de 29/09|prazo médio de 6,3 anos (duration)|+60 pb sobre o DAP|B3 negócios de 29/09: IPCA + 7,70%, R$ 2,5 mi" in s
+    assert s.count('stroke="#c2702a"') == 4 and "IPCA + 7,60% · B3 negócios de 29/09|4,6 anos até o vencimento" in s
+    # indicador do topo, numeros ao lado da curva e emissores tambem dizem a fonte e o dia; a mediana e a media misturam as duas
+    assert "volume na B3; taxa: ANBIMA indicativa de 29/09 (B3 negócios onde não há)" in h
+    assert '<div class="pe">ANBIMA indicativa de 29/09; B3 negócios de 29/09 onde não há; ponderada pelo volume na B3</div>' in s
+    assert "cada taxa contra o DAP do seu dia: na duration com a indicativa, no vencimento sem ela" in s
+    assert '<span class="peq">ANBIMA indicativa de 29/09 em 1 de 1 série</span>' in s and '<span class="peq">B3 negócios de 29/09</span>' in s
+    # sinal e rodape dizem de quem e o dado
+    assert '<span class="ref">ANBIMA · taxa indicativa de debêntures · 29/09</span>' in h
+    assert "Taxas indicativas de debêntures: ANBIMA, mercado secundário de debêntures" in h and "dados públicos da B3 e da ANBIMA" in h
+    assert "None" not in h and "nan" not in h.lower().replace("financ", "")
+
+
+def test_painel_com_anbima_atrasada_ou_fora_do_ar_mostra_a_data_certa_e_a_lacuna():
+    tarde = _resumo_2036("anterior")
+    s = _secao_rf(painel.pagina(tarde, {}))
+    assert '<span class="tag velho">ANBIMA indicativa de 28/09</span>' in s                  # etiqueta amarela: dado de outro pregao
+    assert "Sem o arquivo de 29/09 até esta coleta: a variação do dia pela indicativa não foi medida." in s
+    assert "A variação do dia pela taxa indicativa sai quando a ANBIMA publicar o arquivo de 29/09" in s
+    assert "contra o DAP de 28/09 na duration de 6,1 anos" in s and "juro real de mercado (DAP de 28/09)" in s
+    assert "ANBIMA indicativa de 29/09" not in s
+    fora = _resumo_2036("fora")
+    h = painel.pagina(fora, {})
+    s = _secao_rf(h)
+    assert '<span class="tag velho">ANBIMA sem indicativa</span> Taxa indicativa das debêntures: a leitura falhou nesta rodada.' in s
+    assert '<span class="tag">B3 negócios de 29/09</span> Debêntures, CRI e CRA' in s and "ANBIMA indicativa de" not in s
+    assert 'Quem abriu e quem fechou taxa <span class="tag">B3 negócios de 29/09</span>' in s and 'stroke="#c2702a"' not in s
+    assert "ANBIMA: a leitura das taxas indicativas falhou nesta rodada" in h and "dados públicos da B3. Não" in h
+
+
+def test_resumo_de_antes_da_anbima_continua_legivel_no_painel_no_texto_e_no_mesa(capsys):
+    import copy
+    import mesa
+    r = copy.deepcopy(_resumo_2036("fora"))
+    rf = r["renda_fixa"]
+    rf.pop("anbima")                                                                # o formato gravado ate 01/10/2026
+
+    def limpa(x):
+        if isinstance(x, dict):
+            for k in ("ref", "anbima", "fonte", "base", "taxa_fontes", "negocios_do_dia", "sem_negocio"):
+                if k != "fonte" or "anos" in x:
+                    x.pop(k, None)
+            for v in x.values():
+                limpa(v)
+        elif isinstance(x, list):
+            for v in x:
+                limpa(v)
+    limpa(rf)
+    assert rf["fonte"]["tabela"] == "Trade" and "ref" not in rf["papeis"]["deb_incentivada"][0]
+    s = _secao_rf(painel.pagina(r, {}))
+    assert "B3 negócios de 29/09" in s and "ANBIMA" not in s and 'IPCA+ 7,70%<span class="peq">B3 negócios de 29/09</span>' in s
+    md = render.markdown(r)
+    assert "**De onde vem cada taxa:** negócios da B3 de 29/09." in md and "IPCA+ 7,70% (B3 negócios de 29/09)" in md
+    assert mesa._boletim_rf(r) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA: este resumo e de antes de a taxa indicativa entrar no boletim; so negocios da B3" in tela
+    assert "B3 negocios de 29/09" in tela and "ANBIMA indicativa" not in tela.replace("taxa ref = a que vale", "").split("\n-- por classe")[1]
+
+
+def test_resumo_em_texto_diz_a_fonte_de_cada_taxa_em_tabelas_de_ate_4_colunas():
+    md = render.markdown(_resumo_2036())
+    assert ("**De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 29/09 (7 papéis), com os negócios da B3 de 29/09 "
+            "ao lado; CRI e CRA só pelos negócios da B3.") in md
+    assert "| Papel | Taxa de referência | B3 negócios de 29/09 | Sobre o juro real |" in md
+    assert "| CGOS16 | IPCA+ 8,19% (ANBIMA indicativa de 29/09) | IPCA+ 8,16%, R$ 3,0 mi | +63 pb na duration |" in md
+    assert "| CGOS28 | IPCA+ 8,23% (ANBIMA indicativa de 29/09) | sem negócio | +69 pb na duration |" in md
+    assert ("- CGOS16, ANBIMA de 29/09: compra 8,49% e venda 7,98%; PU R$ 1.027,55 (90,7% do par); duration de 6,1 anos; "
+            "indicativa +35 pb contra 28/09.") in md
+    # DEBX0 vence em mai/31, em cima do vertice de 7,63% do DAP: 7,60% fica 3 pb abaixo do juro real
+    assert "| DEBX0 (Emissor X) | IPCA+ 7,60% (B3 negócios de 29/09) | R$ 4,0 mi | -3 pb no vencimento |" in md
+    assert "- CGOS28, ANBIMA de 29/09: compra 8,39% e venda 8,07%; PU R$ 999,15 (90,9% do par); duration de 6,4 anos; indicativa 0 pb contra 28/09." in md
+    assert "**Abriram taxa pela indicativa da ANBIMA:** CGOS16 +35 pb contra 28/09, para IPCA+ 8,19% (R$ 3,0 mi)." in md
+    assert "**Abriram taxa pelos negócios da B3:** 24IPCA +40 pb contra 28/09, para IPCA+ 9,40% (R$ 7,0 mi)." in md
+    assert "**Fecharam taxa pelos negócios da B3:** DEBX3 −30 pb" in md or "**Fecharam taxa pelos negócios da B3:** DEBX3 -30 pb" in md
+    assert "Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 29/09) foi IPCA+" in md
+    for linha in md.splitlines():
+        if linha.startswith("|"):
+            assert linha.count("|") <= 5, linha
+    tarde = render.markdown(_resumo_2036("anterior"))
+    assert "pela taxa indicativa da ANBIMA de 28/09" in tarde and "Sem o arquivo da ANBIMA de 29/09 até esta coleta" in tarde
+    assert "sem taxa indicativa da ANBIMA nesta rodada (falhou)" in render.markdown(_resumo_2036("fora"))
+
+
+def test_mesa_boletim_rf_mostra_a_fonte_e_o_dia_de_cada_taxa(capsys):
+    import mesa
+    assert mesa._boletim_rf(_resumo_2036()) == 0
+    tela = capsys.readouterr().out
+    assert "B3 negocios de 29/09: tabelas Trade + InstrumentRegistration [PRELIMINAR" in tela
+    assert "ANBIMA indicativa de 29/09: 7 debentures, arquivo publicado em 2026-09-29T19:56:25; variacao contra 28/09" in tela
+    # papel acompanhado: indicativa, compra, venda, PU, duration, premio nas duas bases e os negocios do dia
+    assert ("ANBIMA indicativa de 29/09: IPCA+ 8,19% | compra 8,49% venda 7,98% | PU 1.027,55 (90,66% do par) | duration 1.544 dias uteis "
+            "(6,13 anos) | var +35 pb contra 28/09") in tela
+    assert "premio da indicativa sobre o DAP de 29/09: +63 pb na duration | +75 pb no vencimento" in tela
+    assert "B3 negocios de 29/09: IPCA+ 8,16% (min 8,16 max 8,16) | R$ 3,00 mi em 1 negocios" in tela
+    assert "B3 negocios de 29/09: sem negocio" in tela and "vale para comparar: ANBIMA indicativa de 29/09" in tela
+    # tabela: a taxa de referencia com a fonte e, ao lado, a dos negocios
+    linha = next(l for l in tela.splitlines() if l.strip().startswith("EQPA18"))
+    assert "IPCA+ 8,16%  ANBIMA indicativa de 29/09" in linha and "IPCA+ 7,70%" in linha and "+60 dur" in linha and "-12,5" in linha
+    linha = next(l for l in tela.splitlines() if l.strip().startswith("DEBX0"))
+    assert "IPCA+ 7,60%  B3 negocios de 29/09" in linha and " = " in linha and "venc" in linha
+    assert "-- abriram taxa pela indicativa da ANBIMA de 29/09 contra 28/09" in tela
+    assert "-- abriram taxa pelos negocios da B3 de 29/09 contra o ultimo pregao com volume" in tela
+    assert mesa._boletim_rf(_resumo_2036("anterior")) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA indicativa de 28/09" in tela and "[ARQUIVO DE OUTRO PREGAO: o de 29/09 nao estava no site na coleta" in tela
+    assert "abertura e fechamento pela indicativa: sem medida, a rodada nao tinha o arquivo da ANBIMA de 29/09" in tela
+    assert mesa._boletim_rf(_resumo_2036("fora")) == 0
+    tela = capsys.readouterr().out
+    assert "ANBIMA: sem taxa indicativa nesta rodada (falhou: arquivo de 2026-09-29: falha de rede); debentures pelos negocios da B3" in tela
+    assert "vale para comparar: B3 negocios de 29/09" in tela

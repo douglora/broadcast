@@ -92,7 +92,8 @@ aberta:
   (o do ultimo pregao), `.../boletim_b3/historico.json` e `mercado.json` (Boletim Diario do Mercado da B3
   cruzado com os ativos B3 do livro: fluxo por tipo de investidor, aluguel de acoes e
   corretoras, radar do IBrA, volume contra a media, opcoes por strike, futuros,
-  debentures incentivadas, CRI e CRA com taxa do dia, IOPV dos ETFs, ADR, proventos e
+  debentures incentivadas, CRI e CRA com a taxa dos negocios do dia e, nas debentures, a
+  taxa indicativa da ANBIMA, IOPV dos ETFs, ADR, proventos e
   comunicados; workflow `boletim-b3.yml`; leitura por `python3 mesa.py boletim`)
 
 Para atualizar um ativo com os pares: dispare `coletar-dados.yml` no ref
@@ -172,9 +173,13 @@ comunicados). O workflow `.github/workflows/boletim-b3.yml` roda `boletim_b3.py`
   config/boletim.yaml. Cada numero leva a data que o resumo da; o fluxo por
   investidor sai com dois pregoes de atraso e a rodada da noite e parcial (o painel
   mostra aluguel e opcoes do pregao anterior, com a data no card).
-- Renda fixa so no que ele opera: debentures incentivadas, CRI e CRA. Taxa com volume
-  pequeno pode ser negocio isolado; em CRI e CRA a B3 informa a securitizadora; o
-  premio sobre o DAP compara por vencimento, nao por duration.
+- Renda fixa so no que ele opera: debentures incentivadas, CRI e CRA. Toda taxa sai com
+  a fonte e o dia: "ANBIMA indicativa de DD/MM" ou "B3 negocios de DD/MM". Debenture se
+  compara pela indicativa da ANBIMA (o `ref` de cada papel no resumo), com o premio
+  sobre o DAP na duration; a media dos negocios da B3 vai ao lado e nunca sozinha, porque
+  em papel com muito negocio pequeno ela pende para a taxa do varejo. CRI e CRA so tem
+  os negocios da B3 (premio por vencimento, aproximacao); taxa com volume pequeno pode
+  ser negocio isolado, e a B3 informa a securitizadora, nao o devedor.
 - Corretora no aluguel e intermediario, nao investidor final.
 - Lacuna fixa: o boletim nao traz posicao em aberto de derivativos por tipo de
   investidor. PDF do boletim nao vai para o git (o completo passa de 50 MB); o

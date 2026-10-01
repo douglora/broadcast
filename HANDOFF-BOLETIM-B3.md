@@ -4,6 +4,10 @@ Atualizado em 01/10/2026, na sessao do notebook (internet aberta). Codigo na `ma
 repositorio douglora/broadcast (desenvolvido no branch `claude/magical-hopper-18a6sh`). Substitui o handoff
 anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 
+Ultima mudanca (01/10/2026, a tarde): a renda fixa passou a comparar debentures pela taxa
+indicativa da ANBIMA, com a taxa dos negocios da B3 ao lado. O porque e o que foi medido estao na
+secao 2.1; o que falta conferir, na secao 4.
+
 ## 1. O pedido do Douglas
 
 1. Um agente com laco diario, logo apos a B3 publicar o Boletim Diario do Mercado, que
@@ -63,15 +67,76 @@ anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 - Aluguel negocio a negocio (`BTBTrade`): de 38 mil a mais de 90 mil emprestimos por dia,
   com corretora doadora e tomadora.
 
+### 2.1 Taxa de debenture: a media dos negocios da B3 engana, a indicativa da ANBIMA nao (01/10/2026)
+
+O problema. O bloco de renda fixa comparava debentures pela taxa media dos negocios de balcao da B3
+(`Trade`), ponderada pelo volume. Em papel com muito negocio pequeno essa media pende para a taxa
+do varejo, que compra a taxa menor. Medido: na media de 5 pregoes da B3, EQPA18 (Equatorial Para,
+2036) saia a IPCA+7,70% e CGOS16 (Equatorial Goias, 2036) a 8,16%, 46 pontos-base de diferenca;
+pela indicativa da ANBIMA de 30/09 as duas estavam em 8,16% e 8,19%. No pregao de 30/09, entre 129
+incentivadas com as duas taxas, uma em cada cinco teve a media dos negocios a 17 pb ou mais da
+indicativa (de -100 a +113 pb). Na edicao da manha de 01/10 (pregao de 30/09) a lista "quem abriu
+e quem fechou taxa" pela B3 trazia SUMI17 com +102 pb (indicativa: +43), ETEN12 com +63
+(indicativa: +1) e CEED19 com +44 (indicativa: +14), e tres debentures "fechando" de 29 a 38 pb
+(EGIE27, RUMOA6, CEPEA6) que, pela indicativa, abriram de 1 a 6 pb.
+
+A fonte. Arquivo diario do mercado secundario de debentures da ANBIMA, sem cadastro:
+`https://www.anbima.com.br/informacoes/merc-sec-debentures/arqs/dbAAMMDD.txt`.
+
+- Texto em latin-1, campos separados por `@`, virgula decimal, `--` e `N/D` onde nao ha taxa ou
+  preco. Colunas: Codigo, Nome, Repac./Venc., Indice/Correcao, Taxa de Compra, Taxa de Venda, Taxa
+  Indicativa, Desvio Padrao, Intervalo Indicativo Minimo e Maximo, PU, % PU Par / % VNE, Duration
+  (dias uteis), % Reune, Referencia NTN-B. A data nao vem dentro do arquivo: e a do nome.
+- 1.291 debentures em 30/09 (661 em IPCA, 602 em DI + taxa, 22 prefixadas, 5 em % do DI, 1 em
+  IGP-M); 65 delas sem taxa (`--`). So debentures: CRI e CRA nao tem indicativa neste arquivo.
+- Hora de publicacao (Last-Modified dos 13 arquivos no servidor): de 19h42 a 20h26 de Brasilia
+  (o de 15/09 foi regravado na noite seguinte). A rodada das 21h40 costuma ja encontrar o
+  arquivo do pregao.
+- Arquivo que nao existe responde HTTP 404 com pagina HTML: e "ainda nao publicado", nao erro.
+  A pagina da ANBIMA diz que ficam os ultimos 5 dias uteis; o servidor tinha 13 (14/09 a 30/09) e
+  ja dava 404 em 10/09 e 11/09. Historico longo nao se refaz.
+- A convencao do indice bateu com o cadastro da B3 nos 1.202 papeis presentes nos dois. Em 14
+  papeis a data de Repac./Venc. nao e o vencimento do cadastro; em 12 deles vem antes (repactuacao
+  ou resgate): a taxa da ANBIMA vale ate essa data, mais um motivo para medir o premio na duration.
+- 11 papeis em IPCA tinham duration abaixo de um ano com vencimento a mais de um ano (amortizam
+  cedo). O DAP de menos de um ano carrega a inflacao dos proximos meses e nao serve de referencia:
+  esses papeis ficam sem premio, em vez de ganhar o do vencimento.
+- A indicativa em IPCA+ anda pouco de um dia para o outro: em 7.564 variacoes diarias de 14/09 a
+  30/09, 90% ficaram em ate 13 pb em modulo e 1% passou de +30 pb. O limiar do sinal de
+  abertura (30 pb) ficou o mesmo para as duas fontes. Em papel de percentual do CDI a variacao
+  nao e medida: a diferenca entre dois percentuais nao e ponto-base de taxa.
+
+O que mudou no resumo (`renda_fixa`, formato na skill `boletim-b3`):
+
+- cada debenture guarda `anbima` (indicativa, compra, venda, PU, % do par, duration, com a data do
+  arquivo) e `ref`, a taxa que vale para comparar: a indicativa quando ha, a dos negocios quando nao
+  ha. A taxa dos negocios continua em `taxa_media`, e as telas a chamam de "B3 negocios de DD/MM";
+- premio sobre o DAP medido tambem na duration (`premio_base: duration`), contra o DAP da mesma
+  data da taxa; duration abaixo de um ano fica sem premio, e so quando a ANBIMA nao da a duration
+  vale o vencimento. CRI e CRA seguem por vencimento;
+- curva de credito, medianas por classe, premios altos, emissores e quem abriu e fechou taxa saem
+  de `ref`. A variacao pela indicativa e de um arquivo da ANBIMA para o seguinte; abaixo de 1 pb
+  o papel ficou parado;
+- papel acompanhado aparece pela indicativa mesmo sem negocio no dia e da sinal de abertura com
+  qualquer giro;
+- arquivo do pregao ainda nao publicado, ou que nao pode ser lido: vale o mais recente (ate 3 dias
+  uteis antes), com a data dele na tela, o premio contra o DAP daquela data e a variacao do dia
+  declarada como lacuna, com o motivo;
+- ANBIMA fora do ar, com formato novo ou com dado que quebre o cruzamento: tudo volta para os
+  negocios da B3 e a lacuna fica escrita. Dois arquivos sem resposta da rede e a rodada para de
+  procurar a ANBIMA (a rodada seguinte tenta de novo). A falha fica em `index.json > anbima`, fora de `falhas`, para nao mandar a rodada
+  refazer a coleta da B3 de pregao antigo.
+
 ## 3. O que esta no branch
 
 | Arquivo | O que faz |
 |---|---|
 | `boletim/b3.py` | Rotas da B3: situacao dos cadernos, tabelas (com filtro), catalogo, comunicados, arquivos CSV, cadastro de balcao |
-| `boletim/coleta.py` | O que se busca de cada pregao (47 tabelas, 4 arquivos, cadastro de renda fixa em paralelo) e o que fica gravado |
+| `boletim/anbima.py` | Arquivo diario de taxas indicativas de debentures da ANBIMA: leitura pelo titulo das colunas, 404 como "ainda nao publicado", o arquivo que vale para o pregao e o anterior a ele |
+| `boletim/coleta.py` | O que se busca de cada pregao (47 tabelas, 4 arquivos, cadastro de renda fixa em paralelo, taxas indicativas da ANBIMA) e o que fica gravado |
 | `boletim/resumo.py` | `resumo.json`: numeros com fonte e data, cruzados com o livro, opcoes em profundidade, sinais e historico |
 | `boletim/mercado.py` | Radar do IBrA (volume e aluguel), opcoes do mercado inteiro, corretoras no aluguel, serie `mercado.json` |
-| `boletim/renda_fixa.py` | Debentures incentivadas, CRI e CRA: taxa do dia, premio sobre o DAP, quem abriu e fechou taxa |
+| `boletim/renda_fixa.py` | Debentures incentivadas, CRI e CRA: taxa de referencia de cada papel (indicativa da ANBIMA ou negocios da B3), premio sobre o DAP na duration ou no vencimento, quem abriu e fechou taxa |
 | `boletim/render.py` | `resumo.md`: cards de texto com `[[LEITURA_DA_MESA]]` |
 | `boletim/painel.py` | `painel.html`: a pagina do Artifact (formato branco e azul, graficos em SVG, sem biblioteca externa) |
 | `boletim_b3.py` | Entrada: `--saida --data --dias (numero ou auto) --series --pdf --so-painel`. Um pregao leva cerca de um minuto |
@@ -79,7 +144,7 @@ anterior, escrito pela sessao na nuvem, que nao alcancava a B3.
 | `.github/workflows/boletim-b3.yml` | Roda no Actions e grava em `boletim_b3/` no branch `dados`. Cron ligado: 21h40 e 08h35 BRT |
 | `mesa.py boletim` | Leitura na sessao: veredito, resumo, ativo, sinais, rf, opcoes, radar, status, tabela, json, painel |
 | `.claude/skills/boletim-b3/SKILL.md` | Regras da leitura, procedimento do turno, receita do painel e texto da Routine |
-| `tests/test_boletim.py` | 43 testes sem rede |
+| `tests/test_boletim.py` | 67 testes sem rede (24 deles da ANBIMA e da taxa de referencia) |
 
 Saida no branch `dados`: ver o cabecalho de `boletim_b3.py`.
 
@@ -104,6 +169,17 @@ Feito em 01/10/2026, depois de ele escrever "pode levar pra main, ligar o cron e
   (Equatorial Goias, vencimento em 2036): ele comprou uma delas para cliente em 01/10 a IPCA+8,40%.
   Falta ele dizer qual das duas e passar o resto da prateleira.
 
+A conferir na primeira rodada do Actions com a ANBIMA (o que foi validado em 01/10 saiu do
+notebook; nao da para saber de fora se o site da ANBIMA atende os enderecos do GitHub):
+
+- `python3 mesa.py boletim status` traz a linha `ANBIMA (taxa indicativa de debentures)`. O
+  esperado e `publicado, arquivo de <pregao>`. `anterior` de noite e so atraso da ANBIMA; `falhou`
+  com HTTP 403 ou falha de rede em rodadas seguidas quer dizer que o Actions nao alcanca o site, e
+  ai o boletim segue so com os negocios da B3 (lacuna escrita) ate se achar outro caminho.
+- Os resumos de antes de 01/10 continuam no formato antigo (so negocios); o painel, o texto e o
+  `mesa.py` leem os dois. Para trazer a indicativa dos pregoes que a ANBIMA ainda guarda, disparo
+  manual com `dias` entre 3 e 13.
+
 Ainda depende dele:
 
 3. **Limpar o branch `dados`.** A rodada do coletor antigo (run 36800131287) gravou 195 MB
@@ -120,7 +196,12 @@ Ainda depende dele:
 - `Renewals`: renovacoes de aluguel (quem esta rolando posicao vendida).
 - `MarginScenarios`: cenarios de margem da B3 por ativo (o estresse que a clearing usa).
 - Rating e devedor do CRI/CRA nao estao na B3: cruzar com ANBIMA ou com a securitizadora.
-- Duration em vez de vencimento no premio sobre o DAP (exige o fluxo de amortizacao).
+- Taxa indicativa de CRI e CRA: o arquivo diario da ANBIMA so traz debentures; CRI e CRA seguem
+  pelos negocios da B3, com premio por vencimento (duration exigiria o fluxo de amortizacao).
+- Premio contra a NTN-B de referencia que a propria ANBIMA aponta para cada debenture (coluna
+  Referencia NTN-B, guardada em `anbima.ntnb_ref`), em vez do DAP.
+- Serie da indicativa dos papeis acompanhados (hoje o resumo de cada pregao guarda a do dia; o
+  grafico de varios dias pediria um arquivo de apoio).
 
 ## 6. Regras da casa que o agente herda
 

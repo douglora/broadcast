@@ -8,6 +8,10 @@ name: Boletim B3 (Boletim Diario do Mercado)
 # So texto e JSON vao para o branch. PDF nunca: o boletim completo passa de 50 MB por pregao.
 # Quem quiser os cadernos marca `pdf` no disparo manual e baixa o artefato da rodada.
 #
+# Fora da B3 a rodada le so o arquivo diario de taxas indicativas de debentures da ANBIMA
+# (boletim/anbima.py), que sai entre 19h40 e 20h30. Se ainda nao saiu (HTTP 404) vale o do pregao
+# anterior, com a data dele; se a ANBIMA nao responder, a renda fixa sai so com os negocios da B3.
+#
 # Duas rodadas por pregao, as duas refazem os 2 ultimos pregoes (idempotente):
 #   noite  21h40 BRT  negocios, fluxo, indices, futuros, renda fixa, ETFs (a B3 fecha o arquivo por volta das 20h)
 #   manha  08h35 BRT  completa com aluguel, corretoras, posicoes em aberto e derivativos, que saem de madrugada
@@ -124,6 +128,10 @@ jobs:
                   print(f"- **{d}**: {estado}, {v.get('sinais')} sinais, {v.get('tabelas')} tabelas, {v.get('segundos')}s")
                   for nome, erro in (v.get("falhas") or {}).items():
                       print(f"  - falha em {nome}: {erro}")
+                  a = v.get("anbima") or {}
+                  if a:
+                      print(f"  - ANBIMA (taxa indicativa): {a.get('situacao')}" + (f", arquivo de {a['data']}" if a.get("data") else "")
+                            + (f" ({a['erro']})" if a.get("erro") else ""))
               if m.get("refeitos"):
                   print(f"- refeitos por buraco ou falha de rede em rodada anterior: {', '.join(m['refeitos'])}")
               if m.get("catalogo_mudou"):
