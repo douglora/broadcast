@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 01/10 10h25
+NOTÍCIAS E FATOS · 01/10 11h21
 
-Pernas: noticias ok 17 novas (18 consultas; descartadas: 419 veículo fora da lista, 36 sem ativo, 31 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 422 veículo fora da lista, 38 sem ativo, 9 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (7)
 
@@ -17,7 +17,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Money Times: Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos, segundo Ágora In…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 01/10 09h23
-id: E05-ITUB4-8c3e440e2c-2026-10-01 · status: pendente · íntegra disponível
+id: E05-ITUB4-8c3e440e2c-2026-10-01 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · AMZN · Amazon Raised Its 2026 Capex Guide to $220 Billion. Here’s What Drove the Increase
 Yahoo Finance · 01/10 08h40 · fonte única · licença: resumo
@@ -33,7 +33,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AMZN
 Como falar: 'saiu no Yahoo Finance: Amazon Raised Its 2026 Capex Guide to $220 Billion. Here’s What Drove the Increase; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 08h40
-id: E05-AMZN-bcb75c50cd-2026-10-01 · status: pendente
+id: E05-AMZN-bcb75c50cd-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Ambev, B3, Itaú e mais empresas pagam dividendos em outubro; veja a agenda
 InfoMoney · 01/10 05h00 · fonte única · licença: resumo
@@ -102,8 +102,22 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (31)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· PETR4 Petrobras aumenta preço do querosene de aviação em outubro (g1) https://g1.globo.com/economia/noticia/2026/10/01/petrobras-querosene.ghtml
+· BTC Bitcoin closes Q3 up 44%, marking its best quarter since Q1 2024 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:d2c9e5adb094b:0-bitcoin-closes-q3-up-44-marking-its-best-quarter-since-q1-2024/
+· USDBRL Ibovespa sobe com últimas pesquisas antes das eleições; dólar segue abaixo de R$ 5,20 (Exame) https://exame.com/invest/mercados/ibovespa-ibov-hoje-01-10-2026/
+· UST 10-Year Treasury yield touches highest level since 2002: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/10-year-treasury-yield-touches-highest-level-since-2002-alphacheck-135255038.html
+· NVDA Fresh data suggests upside to Nvidia’s hyperscaler revenue: Barclays (Investing.com) https://www.investing.com/news/stock-market-news/fresh-data-suggests-upside-to-nvidias-hyperscaler-revenue-barclays-4927619
+· BTC Current price of Bitcoin for Oct. 1, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-01-2026/
+· PETR4 Ibovespa abre outubro em alta com ajuda da Petrobras; índices de NY também avançam (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-abre-outubro-as-vesperas-da-eleicao-pmi-dos-eua-marca-agenda/
+· BBDC4 Bradesco anuncia leilão na B3 com sobras dos R$ 10 bilhões de aumento de capital; entenda a operação (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-anuncia-leilao-na-b3-com-sobras-dos-r-10-bilhoes-de-aumento-de-capital-entenda-a-operacao/
+· AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://www.investing.com/news/company-news/kodiak-ai-selects-aws-as-primary-cloud-provider-for-autonomous-trucks-93CH-4927506
+· JPM JPMorgan ETFs (Ireland) ICAV: Dividend Declaration (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgan-etfs-ireland-icav-dividend-131000985.html
+· NVDA Nvidia Knows It Could Trigger a Credit Risk Shock and Collapse Markets (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmxpMVhBSmhDUGJ2cVFMY2JYLS1CaGxyNTFpS0Y4LWp2SXpPdVVldU1IWmFkRThUSkFvRHljYVFSZk5xSW1sTklmMnd1ZjVtQnA4VXYwMG1fVzZwb1FjbzZyUFlFWlphT29fR0wxc3BFZ0NUUTY2Ty1VdTkwT2NRQnRxc2RsYXFuOUY0akNjQnJnRXdRNm16QmRIdTdISjQ?oc=5
+· AVGO The Only Way I Stop Adding Broadcom is an AI Collapse (Yahoo Finance) https://news.google.com/rss/articles/CBMimAFBVV95cUxOT1VPcHVGM2kzUVUzdHhIQWlNVDlDY25VRERvVkcwYUhNV2VXamYwNVVacjk1bjJ1ZlhRbEU0TWN1ODZIUWtDQnExMzFWQjI3RjY2YndyLVMxRDVhTExCcTZseE51RFJ5M0c1OFR2aU1qLXN3cW5JcDZRU1V6cHljNkV3NldBUnN4VmYxZ1FSUmcyTnJHcVVpTA?oc=5
+· USDBRL Dólar inicia dia em alta acompanhando guerra no Oriente Médio (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVdZNlVFUVVDWEViVGFZeVkxdmNObWFQSkNFaWN3dTVPZ2ZFQktWTTFJOXE5WkJlNjh2OGRDQnpBaDV6bzdqWnpybmZaT1pIRGE3U1ZVV0h4Sjd0M045allsLUxSa0xMRFY1UGdWWWZ4SEZDX20tb3hlZVJSbGxzTjJ6NEhNRlZXakthWENBVnp2ODVqZGYtT2JKc0lJS01sdE5V?oc=5
+· USDBRL Venda de máquinas agrícolas cai 22,4% até agosto por câmbio e endividamento (CNN Brasil) https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2JBQXVjbl9yOVVGcTU1OGdOQjhDTGhWeEk1cGdQX3k0UzVzNG8wU0JSbFJmdExaWDU0dGFLcHItZkRqcnlTaTMyRWRQQ2sxc0RnaFBfT015QjZhdm9mSGZjY0RfaU9qODNIQnNBMlB0UDd1bjFIanE2dmJRS3dJckdRczQwaTZTUjBtbFNFWW9sams1Q2pGWDJUbWdGdjV4MHJiUnlLM0Ryd0Vt?oc=5
 · AMZN Kodiak AI selects AWS as primary cloud provider for autonomous trucks (Investing.com) https://in.investing.com/news/stock-market-news/kodiak-ai-selects-aws-as-primary-cloud-provider-for-autonomous-trucks-93CH-5614980
 · USDBRL Dólar abre perto da estabilidade antes de nova pesquisa Datafolha e debate presidencial (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-perto-da-estabilidade-antes-de-nova-pesquisa-datafolha-e-debate-presidencial.shtml
 · USDBRL Dólar inicia dia em alta acompanhando guerra no Oriente Médio (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-1-outubro-2026/
