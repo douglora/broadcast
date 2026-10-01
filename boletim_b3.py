@@ -10,12 +10,15 @@ grava em boletim_b3/ no branch dados:
   boletim_b3/rf_cadastro.json                  cadastro dos papeis de renda fixa ja vistos (incentivada, indexador, vencimento)
   boletim_b3/rf_estado.json                    ultimas taxas negociadas por papel (abertura e fechamento de taxa)
   boletim_b3/catalogo.json                     tabelas que o BDI expoe hoje (acusa tabela nova ou removida)
+  boletim_b3/painel.html                       o ultimo pregao em pagina; e o que a sessao publica como Artifact
+  boletim_b3/tabelas/<Nome>.json               tabelas pequenas do ultimo pregao, inteiras
   boletim_b3/<AAAA-MM-DD>/resumo.json          numeros com fonte e data, cruzados com o livro, e os sinais
   boletim_b3/<AAAA-MM-DD>/resumo.md            a mesma leitura em texto, pronta para a sessao
-  boletim_b3/<AAAA-MM-DD>/painel.html          a mesma leitura em pagina, que a sessao publica como Artifact
   boletim_b3/<AAAA-MM-DD>/status.json          cadernos em PDF: situacao, hora e link (o PDF nao e gravado)
   boletim_b3/<AAAA-MM-DD>/index.json           tabelas e arquivos: situacao, hora, linhas, falhas
-  boletim_b3/<AAAA-MM-DD>/tabelas/<Nome>.json  tabelas pequenas, inteiras
+
+Por pregao fica so o resumo (cerca de 230 KB); painel e tabelas sao um arquivo so, sempre do
+ultimo pregao, para o branch nao crescer 1 MB por dia.
 
 Duas rodadas por pregao, as duas idempotentes: a da noite pega negocios, fluxo e indices; a da
 manha seguinte completa com aluguel, posicoes em aberto e derivativos, que a B3 publica de
@@ -90,7 +93,8 @@ def baixar_pdfs(cli: Cliente, status: dict, pasta: str) -> list[str]:
 
 
 def refazer_paineis(saida: str, fim: date | None, n: int) -> int:
-    """Refaz resumo.md e painel.html a partir dos resumo.json guardados. Nao vai a B3."""
+    """Refaz resumo.md dos ultimos `n` pregoes guardados e o painel.html do ultimo deles (ou de `fim`).
+    Nao vai a B3."""
     hist = ler_json(os.path.join(saida, "historico.json"), {})
     dias = sorted(d for d in os.listdir(saida) if len(d) == 10 and os.path.exists(os.path.join(saida, d, "resumo.json"))
                   and (fim is None or d <= fim.isoformat()))
@@ -100,8 +104,9 @@ def refazer_paineis(saida: str, fim: date | None, n: int) -> int:
         res = ler_json(os.path.join(saida, d, "resumo.json"), None)
         anterior = ler_json(os.path.join(saida, dias[i - 1], "resumo.json"), None) if i else None
         coleta.gravar(os.path.join(saida, d, "resumo.md"), render.markdown(res))
-        coleta.gravar(os.path.join(saida, d, "painel.html"), painel.pagina(res, hist, anterior))
-        print(f"{d}: painel refeito")
+        if d == dias[-1]:
+            coleta.gravar(os.path.join(saida, "painel.html"), painel.pagina(res, hist, anterior))
+        print(f"{d}: resumo.md refeito" + (" e painel.html" if d == dias[-1] else ""))
     return 0
 
 
@@ -112,7 +117,8 @@ def main(argv=None) -> int:
     ap.add_argument("--dias", type=int, default=1, help="quantos pregoes, terminando na data (ate 21: e o que a B3 guarda)")
     ap.add_argument("--series", default="", help="pasta livro/series do branch dados, para a paridade com a referencia la fora")
     ap.add_argument("--pdf", default="", help="pasta para baixar os cadernos em PDF do ultimo pregao (artefato; fora do git)")
-    ap.add_argument("--so-painel", action="store_true", help="so refaz resumo.md e painel.html dos pregoes ja guardados (sem rede)")
+    ap.add_argument("--so-painel", action="store_true",
+                    help="sem rede: refaz resumo.md dos ultimos --dias pregoes guardados e o painel.html do ultimo (ou de --data)")
     a = ap.parse_args(argv)
     if a.so_painel:
         return refazer_paineis(a.saida, date.fromisoformat(a.data) if a.data else None, max(1, a.dias))
@@ -152,7 +158,8 @@ def main(argv=None) -> int:
         t0 = time.time()
         try:
             bruto = coleta.coletar_pregao(cli, d, pasta, rf_cadastro=rf_cadastro,
-                                          max_cadastros=cfg_rf.get("cadastros_por_rodada", 2500))
+                                          max_cadastros=cfg_rf.get("cadastros_por_rodada", 2500),
+                                          pasta_tabelas=os.path.join(a.saida, "tabelas") if d == dias[-1] else None)
             # o cadastro custa centenas de consultas: grava logo, antes de qualquer coisa poder quebrar
             coleta.gravar(os.path.join(a.saida, "rf_cadastro.json"), coleta.texto_cadastro(rf_cadastro))
             bruto["pos_anterior"], bruto["pos_anterior_data"] = pos_ant, data_ant.isoformat()
@@ -170,11 +177,11 @@ def main(argv=None) -> int:
         hist = resumo.atualizar_historico(hist, res, cfg.get("historico_pregoes", 70))
         merc = mercado.atualizar(merc, d.isoformat(), apoio["mercado_hoje"], apoio["teorica"], cfg.get("mercado_pregoes", 26))
         rf_estado = renda_fixa.atualizar_estado(rf_estado, {"_linhas": apoio["rf_linhas"]}, d.isoformat(),
-                                                cfg_rf.get("volume_minimo_rs", 500000))
+                                                cfg_rf.get("estado_volume_minimo_rs", 1000000))
         coleta.gravar(os.path.join(pasta, "resumo.json"), coleta.texto_resumo(res))
         coleta.gravar(os.path.join(pasta, "resumo.md"), render.markdown(res))
         anterior = ler_json(os.path.join(a.saida, relogios.dia_util_anterior("B3", d).isoformat(), "resumo.json"), None)
-        coleta.gravar(os.path.join(pasta, "painel.html"), painel.pagina(res, hist, anterior))
+        coleta.gravar(os.path.join(a.saida, "painel.html"), painel.pagina(res, hist, anterior))
         manifest["pregoes"][d.isoformat()] = {
             "completo": res["situacao"]["completo"], "faltam": res["situacao"]["faltam"],
             "boletim": res["situacao"]["boletim"], "sinais": len(res["sinais"]),

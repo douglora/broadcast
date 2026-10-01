@@ -46,12 +46,12 @@ evidencia, em portugues do Brasil, e (3) republicar o painel no Artifact.
 | Caminho | O que e |
 |---|---|
 | `manifest.json` | ultima rodada: `ultimo_pregao`, completo ou parcial por pregao, falhas, `catalogo_mudou` |
-| `<pregao>/painel.html` | a pagina que a sessao publica como Artifact, com o marcador `[[LEITURA_DA_MESA]]` |
+| `painel.html` | a pagina do ULTIMO pregao coletado, que a sessao publica como Artifact, com o marcador `[[LEITURA_DA_MESA]]`; a ultima linha do arquivo diz de que pregao e |
+| `tabelas/<Nome>.json` | tabelas pequenas do ultimo pregao, inteiras, como a B3 publicou (cada uma traz o campo `pregao`) |
 | `<pregao>/resumo.md` | a mesma leitura em cards de texto, para colar na sessao |
 | `<pregao>/resumo.json` | os numeros, com fonte e data por bloco, e a lista `sinais` |
 | `<pregao>/status.json` | cadernos em PDF: situacao, hora e link na B3 (o PDF nao e gravado: o completo passa de 50 MB) |
 | `<pregao>/index.json` | cada tabela e arquivo: situacao na B3, hora, linhas, falhas |
-| `<pregao>/tabelas/<Nome>.json` | tabelas pequenas inteiras, como a B3 publicou |
 | `historico.json` | serie compacta do livro nos ultimos 70 pregoes (media de volume, aluguel, futuros, fluxo, put/call) |
 | `mercado.json` | fechamento, volume e saldo alugado do IBrA nos ultimos 26 pregoes (radar) |
 | `rf_cadastro.json`, `rf_estado.json` | cadastro dos papeis de renda fixa ja vistos e as ultimas taxas por papel |
@@ -146,7 +146,8 @@ O painel e uma pagina so, no formato branco e azul do Douglas, gerada pelo runne
 **URL_DO_ARTIFACT_DO_BOLETIM**
 
 ```bash
-mkdir -p /tmp/boletim && git show origin/dados:boletim_b3/<pregao>/painel.html > /tmp/boletim/painel.html
+mkdir -p /tmp/boletim && git show origin/dados:boletim_b3/painel.html > /tmp/boletim/painel.html
+tail -1 /tmp/boletim/painel.html      # <!-- pregao AAAA-MM-DD -->: tem de ser o pregao que voce leu no passo 2
 # escrever a leitura em /tmp/boletim/leitura.html: 3 a 5 paragrafos <p>...</p>, o primeiro comecando por <b>Em uma frase:</b>
 python3 - <<'PY'
 import io

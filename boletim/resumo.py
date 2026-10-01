@@ -446,8 +446,8 @@ def _aluguel_sinais(ctx: Contexto, tk: str, a: dict, n: dict) -> None:
         if taxa is not None:
             texto += f"; taxa média do tomador de {mil(taxa, 2)}% ao ano"
         texto += "."
-        if p5 is not None and p5 >= lim.get("preco_var_5d_pct", 3.0):
-            texto += (f" O preço subiu {mil(p5, 1)}% em 5 pregões: aluguel alto com preço subindo é o quadro em que o "
+        if p5 is not None and p5 >= lim.get("preco_var_5d_pct", 3.0) and (taxa or 0) >= lim.get("aluguel_taxa_pressao", 2.0):
+            texto += (f" O preço subiu {mil(p5, 1)}% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o "
                       f"vendido costuma ser forçado a recomprar.")
         ctx.sinal("aluguel_alto", tk, texto, fonte, pct_free_float=ff, pregoes_para_cobrir=a.get("pregoes_para_cobrir"),
                   taxa_tomador_media=taxa, preco_var_5d_pct=p5)
@@ -845,7 +845,8 @@ def termo_e_after(ctx: Contexto, neg: dict) -> tuple[dict, dict]:
                     "var_sobre_fechamento_pct": pct(medio, fech)}
             after[tk] = item
             v = item["var_sobre_fechamento_pct"]
-            if v is not None and abs(v) >= ctx.lim.get("after_var_pct", 1.0):
+            if (v is not None and abs(v) >= ctx.lim.get("after_var_pct", 1.0)
+                    and (item["volume_rs"] or 0) >= ctx.lim.get("after_volume_minimo_rs", 100000)):
                 ctx.sinal("after_market", tk, f"{tk}: preço médio do after market a {brp(v)} do fechamento "
                           f"(R$ {mil(medio, 2)} contra R$ {mil(fech, 2)}), em R$ {mil((item['volume_rs'] or 0) / 1e3)} mil.",
                           "TradeInformationConsolidatedAfterHours", var_pct=v, volume_rs=item["volume_rs"])

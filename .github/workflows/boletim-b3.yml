@@ -84,8 +84,12 @@ jobs:
           PDF: ${{ inputs.pdf }}
           EVENTO: ${{ github.event_name }}
         run: |
-          # Push no branch de desenvolvimento = carga inicial do historico (21 pregoes, cerca de uma hora)
-          if [ "$EVENTO" = "push" ]; then DIAS=21; fi
+          # Push no branch de desenvolvimento: carga inicial do historico (21 pregoes, cerca de uma hora)
+          # enquanto ele nao existe; depois, so os 2 ultimos pregoes.
+          if [ "$EVENTO" = "push" ]; then
+            TEM=$(python -c "import json; print(len(json.load(open('dados_branch/boletim_b3/historico.json')).get('pregoes', {})))" 2>/dev/null || echo 0)
+            if [ "$TEM" -ge 15 ]; then DIAS=2; else DIAS=21; fi
+          fi
           EXTRA=""
           if [ "$PDF" = "true" ]; then EXTRA="--pdf pdf_artefato"; fi
           python -u boletim_b3.py --saida dados_branch/boletim_b3 --data "$DATA" --dias "${DIAS:-2}" \

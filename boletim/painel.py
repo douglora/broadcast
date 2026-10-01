@@ -1056,7 +1056,7 @@ def _painel_opcao(tk: str, o_: dict, hist: dict, pregao: str, data_pos: str, do_
     if venc and venc.get("dor_maxima"):
         tile("Dor máxima", n(venc["dor_maxima"], casas),
              f"{n(venc.get('dor_maxima_dist_pct'), 1, True)}% do preço · venc. {dm(venc['vencimento'])}")
-    s = [f'<div data-painel="opcoes" data-id="{e(tk)}"><div class="tiles">{"".join(tiles)}</div><div class="duo">']
+    s = [f'<div data-painel="opcoes" data-id="{e(tk)}" role="tabpanel" aria-label="Opções de {e(tk)}"><div class="tiles">{"".join(tiles)}</div><div class="duo">']
     # ---- esquerda: o grafico
     s.append("<div>")
     if venc and venc.get("grade"):
@@ -1120,7 +1120,7 @@ def _opcoes(r: dict, ant: dict | None, hist: dict) -> str:
     o = ['<section id="opcoes"><h2>Opções</h2>']
     if todos:
         ordem = sorted(todos, key=lambda tk: (todos[tk][1], -((todos[tk][0].get("posicao_call") or 0) + (todos[tk][0].get("posicao_put") or 0))))
-        botoes = "".join(f'<button type="button" data-aba="{e(tk)}">{e("Ibovespa" if tk.startswith("IBOV") else tk)}</button>' for tk in ordem)
+        botoes = "".join(f'<button type="button" role="tab" data-aba="{e(tk)}">{e("Ibovespa" if tk.startswith("IBOV") else tk)}</button>' for tk in ordem)
         o.append(f'<div class="card"><h3>Posição em aberto por ativo</h3><p class="desc">Índice e ETF do Ibovespa primeiro, depois os ativos do livro '
                  'pela ordem de tamanho da posição. Escolha o ativo.</p>'
                  f'<div class="abas" data-abas="opcoes" role="tablist" style="margin-bottom:12px">{botoes}</div>')
@@ -1240,12 +1240,12 @@ def _renda_fixa(r: dict) -> str:
 
     abas = [(cl, ROTULO_RF[cl]) for cl in ("deb_incentivada", "cri", "cra") if (rf.get("papeis") or {}).get(cl)]
     if abas:
-        botoes = "".join(f'<button type="button" data-aba="{cl}">{e(rot)}</button>' for cl, rot in abas)
+        botoes = "".join(f'<button type="button" role="tab" data-aba="{cl}">{e(rot)}</button>' for cl, rot in abas)
         o.append('<div class="card"><h3>Mais negociados do dia</h3><p class="desc">Taxa média ponderada pelo volume; ao lado, a taxa da emissão. '
                  'Em CRI e CRA o emissor que a B3 informa é a securitizadora.</p>'
                  f'<div class="abas" data-abas="rf" role="tablist" style="margin-bottom:8px">{botoes}</div>')
         for cl, _ in abas:
-            o.append(f'<div data-painel="rf" data-id="{cl}">{tab_papeis(rf["papeis"][cl])}</div>')
+            o.append(f'<div data-painel="rf" data-id="{cl}" role="tabpanel">{tab_papeis(rf["papeis"][cl])}</div>')
         o.append("</div>")
     o.append('<div class="g2">')
     if rf.get("aberturas") or rf.get("fechamentos"):

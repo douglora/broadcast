@@ -169,7 +169,8 @@ def test_parede_de_opcoes_ignora_semanal_vazia_e_da_um_sinal_por_ativo():
             "SpcfctnCd": "PN      N2", "SctyCtgyNm": "SHARES", "MktCptlstn": "5446501379"}]
     pos = []
     for cod, tipo, venc, strike, oi in (("PETRJ1", "Call", "2026-10-02", "49,5", 50), ("PETRJ2", "Call", "2026-10-09", "50", 900000),
-                                         ("PETRV1", "Put", "2026-10-09", "47", 600000), ("PETRK1", "Call", "2026-11-19", "55", 400000)):
+                                         ("PETRV1", "Put", "2026-10-09", "48", 600000), ("PETRK1", "Call", "2026-11-19", "55", 400000),
+                                         ("PETRV2", "Put", "2026-10-09", "44", 500000)):
         cad.append({"TckrSymb": cod, "Asst": "PETR4", "SgmtNm": "EQUITY CALL" if tipo == "Call" else "EQUITY PUT",
                     "SctyCtgyNm": "OPTION ON EQUITIES", "XprtnDt": venc, "ExrcPric": strike, "OptnStyle": "AMER"})
         pos.append({"RptDt": D, "TckrSymb": cod, "TtlPos": str(oi)})
@@ -179,9 +180,10 @@ def test_parede_de_opcoes_ignora_semanal_vazia_e_da_um_sinal_por_ativo():
     o = r["ativos"]["PETR4"]["opcoes"]
     assert [v["vencimento"] for v in o["vencimentos"]] == ["2026-10-09", "2026-11-19"]      # a semanal de 02/10 ficou de fora
     assert o["vencimentos"][0]["parede_call"] == {"strike": 50.0, "posicao": 900000.0, "distancia_pct": 1.83}
-    assert o["put_call"] == 0.46
+    assert o["put_call"] == 0.85
     sinais = [s for s in r["sinais"] if s["tipo"] == "opcoes_parede"]
-    assert len(sinais) == 1 and "call em 50,00" in sinais[0]["texto"] and "put em 47,00" in sinais[0]["texto"]
+    # a put de 48 esta a 2,2% do preco e entra; a de 44 (10% abaixo) e parede, mas longe demais para virar sinal
+    assert len(sinais) == 1 and "call em 50,00" in sinais[0]["texto"] and "put em 48,00" in sinais[0]["texto"]
     assert sinais[0]["numeros"]["dias_uteis"] == 8 and "a 8 dias úteis" in sinais[0]["texto"]
 
 

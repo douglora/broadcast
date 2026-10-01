@@ -2,9 +2,10 @@
 
 Gravado no branch `dados` (so texto e JSON; PDF nunca, o completo passa de 50 MB):
 
-  boletim_b3/<AAAA-MM-DD>/status.json          cadernos: situacao, hora e link do PDF
-  boletim_b3/<AAAA-MM-DD>/index.json           tabelas e arquivos: situacao, hora, linhas, falhas
-  boletim_b3/<AAAA-MM-DD>/tabelas/<Nome>.json  tabelas pequenas, inteiras (uma linha por registro)
+  boletim_b3/<AAAA-MM-DD>/status.json   cadernos: situacao, hora e link do PDF
+  boletim_b3/<AAAA-MM-DD>/index.json    tabelas e arquivos: situacao, hora, linhas, falhas
+  boletim_b3/tabelas/<Nome>.json        tabelas pequenas, inteiras, do ultimo pregao coletado
+                                        (cada arquivo diz de que pregao e; uma linha por registro)
 
 As tabelas grandes (negocios, cadastro, posicoes em aberto, aluguel, carteiras de indice)
 sao lidas em memoria e so o recorte do livro vai para o resumo: boletim/resumo.py.
@@ -143,7 +144,7 @@ def texto_cadastro(cache: dict) -> str:
 
 
 def coletar_pregao(cli: Cliente, d: date, pasta: str | None, pausa: float = 0.12, log=print,
-                   rf_cadastro: dict | None = None, max_cadastros: int = 2500) -> dict:
+                   rf_cadastro: dict | None = None, max_cadastros: int = 2500, pasta_tabelas: str | None = None) -> dict:
     """Busca tudo de um pregao. Devolve o bruto em memoria e grava status, index e tabelas.
 
     bruto = {pregao, status, tabelas{nome: tab}, arquivos{nome: [registros]}, informativos[],
@@ -171,8 +172,9 @@ def coletar_pregao(cli: Cliente, d: date, pasta: str | None, pausa: float = 0.12
         index["tabelas"][nome] = {"titulo": tab["titulo"], "situacao": tab["situacao"], "atualizado_em": tab["atualizado_em"],
                                   "sla": tab["sla"], "linhas": n, "truncada": tab["truncada"]}
         bruto["tabelas"][nome] = tab
-        if pasta and n and (nome, paginas) in INTEIRAS:
-            gravar(os.path.join(pasta, "tabelas", f"{nome}.json"), texto_tabela(tab))
+        # so com a tabela ja publicada: uma rodada cedo demais nao troca o dado bom de ontem por um vazio de hoje
+        if pasta_tabelas and n and (nome, paginas) in INTEIRAS:
+            gravar(os.path.join(pasta_tabelas, f"{nome}.json"), texto_tabela(dict({"pregao": d.isoformat()}, **tab)))
 
     for nome in ARQUIVOS:
         try:

@@ -63,10 +63,12 @@ renda_fixa:
   papeis: []
   # quantos papeis por classe na tabela dos mais negociados
   top: 20
-  # abaixo deste volume no dia a taxa media do papel nao entra em curva, premio nem variacao
+  # abaixo deste volume no dia a taxa media do papel nao entra na curva nem no premio medio
   volume_minimo_rs: 500000
+  # a taxa do dia so vira referencia para os proximos pregoes acima deste volume
+  estado_volume_minimo_rs: 1000000
   # volume minimo para um papel aparecer em "abriu taxa", "fechou taxa" e "premios altos"
-  movimento_volume_minimo_rs: 1000000
+  movimento_volume_minimo_rs: 3000000
   # e para virar sinal
   sinal_volume_minimo_rs: 5000000
   var_taxa_sinal_pb: 30
@@ -114,10 +116,12 @@ limiares:
   aluguel_taxa_alta: 5.0
   # preco em 5 pregoes para cruzar com o aluguel
   preco_var_5d_pct: 3.0
+  # aluguel alto so pressiona o vendido quando tambem e caro: taxa minima para a frase de recompra
+  aluguel_taxa_pressao: 2.0
   # ETF: fechamento contra o valor de referencia da cota (IOPV)
   etf_premio_pct: 0.5
   # opcoes: parede = strike de maior posicao em aberto; "perto" = distancia do preco
-  opcoes_dist_parede_pct: 5.0
+  opcoes_dist_parede_pct: 3.0
   opcoes_dias_uteis_venc: 10
   opcoes_vencimentos: 2
   # vencimento so conta se tiver esta fatia da posicao em aberto do ativo (tira serie semanal vazia)
@@ -134,6 +138,8 @@ limiares:
   di_var_bps: 10.0
   # after market: preco medio do after contra o fechamento
   after_var_pct: 1.0
+  # ...e so com este volume no after (um negocio de R$ 300 nao e sinal)
+  after_volume_minimo_rs: 100000
   # paridade: descolamento do dia entre o ativo local e referencia x cambio
   paridade_desvio_pct: 1.5
 

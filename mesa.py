@@ -32,13 +32,13 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py boletim PETR4                # o ativo no boletim: negocios, aluguel, opcoes por strike, ADR, indice e os ultimos pregoes
     python3 mesa.py boletim sinais               # so os sinais, novos e repetidos
     python3 mesa.py boletim status               # cadernos em PDF (links), tabelas pendentes e falhas da ultima rodada
-    python3 mesa.py boletim tabela IOPV          # uma tabela do boletim como a B3 publicou
+    python3 mesa.py boletim tabela IOPV          # uma tabela do ultimo pregao como a B3 publicou
     python3 mesa.py boletim rf                   # renda fixa: debentures incentivadas, CRI e CRA (taxa do dia, premio, quem abriu e fechou)
     python3 mesa.py boletim opcoes PETR4         # opcoes do ativo: vencimentos, posicao por strike, paredes, dor maxima, series que mudaram
     python3 mesa.py boletim radar                # mercado inteiro: mais alugadas, aluguel mais caro, volume anormal, opcoes, corretoras
     python3 mesa.py boletim fluxo                # compras menos vendas por tipo de investidor, dia a dia, nos pregoes guardados
     python3 mesa.py boletim json renda_fixa      # um bloco do resumo em JSON, para outro agente consumir (sem argumento, lista os blocos)
-    python3 mesa.py boletim painel               # endereco do painel.html do pregao (o que a sessao publica como Artifact)
+    python3 mesa.py boletim painel               # endereco do painel.html do ultimo pregao (o que a sessao publica como Artifact)
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
 Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
@@ -1506,10 +1506,11 @@ def boletim(args):
         if guardados:
             print(f"\n== pregoes no historico: {len(guardados)}, de {guardados[0]} a {guardados[-1]}")
     elif sub == "tabela" and len(args) >= 2:
-        t = baixar(f"boletim_b3/{pregao}/tabelas/{args[1]}.json")
+        t = baixar(f"boletim_b3/tabelas/{args[1]}.json")
         if not t:
-            print(f"   tabela {args[1]} nao foi gravada em {pregao}; as gravadas estao em boletim_b3/{pregao}/index.json")
+            print(f"   tabela {args[1]} nao esta em boletim_b3/tabelas/; as coletadas estao em boletim_b3/{pregao}/index.json")
             return 1
+        print(f"   pregao da tabela: {t.get('pregao')}" + ("" if t.get("pregao") == pregao else f"  (ATENCAO: nao e o pregao {pregao})"))
 
         def mostra(t, recuo=""):
             print(f"{recuo}== {t.get('nome')} | {t.get('titulo')} | {t.get('situacao', '')} {t.get('atualizado_em', '')}")
@@ -1534,8 +1535,8 @@ def boletim(args):
         else:
             print("   blocos do resumo: " + ", ".join(resumo))
     elif sub == "painel":
-        print(f"   {BASE}boletim_b3/{pregao}/painel.html")
-        print(f"   ou: git show origin/dados:boletim_b3/{pregao}/painel.html > painel.html")
+        print(f"   {BASE}boletim_b3/painel.html  (sempre o do ultimo pregao coletado: {(manifest or {}).get('ultimo_pregao')})")
+        print("   ou: git show origin/dados:boletim_b3/painel.html > painel.html")
         print("   troque [[LEITURA_DA_MESA]] pela leitura e publique no Artifact do boletim (URL na skill boletim-b3)")
     elif sub and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) and sub != "--data":
         return _boletim_ativo(sub.upper(), resumo, baixar("boletim_b3/historico.json")) or (0 if ok else 1)

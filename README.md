@@ -279,9 +279,9 @@ CSV da API de download. O sistema segue o desenho do livro:
    `boletim/`): le a situacao dos cadernos, 47 tabelas e 4 arquivos do pregao (de 2 a
    3 minutos), cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
    no branch `dados`: `<pregao>/resumo.json` (numeros com fonte e data e a lista de
-   sinais), `<pregao>/resumo.md` (cards de texto), `<pregao>/painel.html` (a pagina que
-   a sessao publica como Artifact), `<pregao>/tabelas/` (tabelas pequenas inteiras),
-   `<pregao>/status.json` (link de cada caderno em PDF na B3) e os arquivos de apoio
+   sinais), `<pregao>/resumo.md` (cards de texto), `<pregao>/status.json` (link de cada
+   caderno em PDF na B3), `painel.html` (a pagina do ultimo pregao, que a sessao publica
+   como Artifact), `tabelas/` (tabelas pequenas do ultimo pregao) e os arquivos de apoio
    `historico.json` (70 pregoes do livro), `mercado.json` (26 pregoes do IBrA),
    `rf_cadastro.json` e `rf_estado.json` (renda fixa). PDF nao vai para o git: o
    boletim completo passa de 50 MB e 1.800 paginas por pregao.

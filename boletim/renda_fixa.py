@@ -213,7 +213,7 @@ def montar(ctx) -> dict:
     curva = sorted(curva, key=lambda x: -x["volume_rs"])[:cfg.get("curva_pontos", 140)]
 
     # ---- quem abriu e quem fechou taxa contra o ultimo negocio visto
-    piso_mov = cfg.get("movimento_volume_minimo_rs", 1000000)
+    piso_mov = cfg.get("movimento_volume_minimo_rs", 3000000)
     mov = [l for l in foco if l.get("var_taxa_pb") is not None and l["volume_rs"] >= piso_mov]
     aberturas = sorted((l for l in mov if l["var_taxa_pb"] > 0), key=lambda l: -l["var_taxa_pb"])[:8]
     fechamentos = sorted((l for l in mov if l["var_taxa_pb"] < 0), key=lambda l: l["var_taxa_pb"])[:8]
