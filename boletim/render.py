@@ -220,12 +220,17 @@ def markdown(r: dict) -> str:
     if linhas:
         o += ["## Índices", ""] + tabela(["Índice", "Fechamento", "Dia", "No mês"], linhas)
     if mer.get("dia"):
-        o += ["## Giro do mercado à vista", ""]
+        o += ["## Giro do mercado de ações", ""]
         o += tabela(["", "Dia", "Média do mês", "Dia / média"],
                     [["Volume (R$ mi)", n(mer["dia"].get("volume_mi"), 0), n((mer.get("media_mes") or {}).get("volume_mi"), 0),
                       n(mer.get("volume_x_media_mes")) + "x"],
                      ["Negócios (mil)", n((mer["dia"].get("negocios") or 0) / 1e3, 0),
                       n(((mer.get("media_mes") or {}).get("negocios") or 0) / 1e3, 0), "-"]])
+        seg = mer.get("segmentos") or {}
+        partes = [f"{rot} R$ {n(seg[k].get('volume_mi'), 0)} mi" for k, rot in
+                  (("a_vista", "à vista"), ("opcoes", "opções"), ("termo", "termo"), ("after_market", "after market")) if seg.get(k)]
+        if partes:
+            o += ["Mercado de ações = à vista, opções e termo (médias diárias da B3). No dia: " + ", ".join(partes) + ".", ""]
 
     # ---- fluxo
     f = r.get("fluxo") or {}

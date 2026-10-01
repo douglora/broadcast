@@ -672,7 +672,7 @@ def _kpis(r: dict, ant: dict | None) -> str:
         tile(f"Juro real: DAP {rotulo_futuro(tk)}", n(v.get("taxa"), 2) + "<small>%</small>", delta, "cupom de IPCA")
     if mer.get("dia"):
         x = mer.get("volume_x_media_mes")
-        tile("Giro à vista", n((mer["dia"].get("volume_mi") or 0) / 1000.0, 1) + "<small>R$ bi</small>",
+        tile("Giro do mercado de ações", n((mer["dia"].get("volume_mi") or 0) / 1000.0, 1) + "<small>R$ bi</small>",
              f"{n(x, 2)}x a média do mês" if x else "", f"{n((mer['dia'].get('negocios') or 0) / 1e6, 2)} mi de negócios")
     f = r.get("fluxo") or {}
     est = (f.get("acumulado_no_mes") or {}).get("estrangeiro")
@@ -736,10 +736,10 @@ def _mercado(r: dict) -> str:
     seg = mer.get("segmentos") or {}
     linhas = []
     if mer.get("dia"):
-        linhas.append(["Mercado à vista (dia)", n(mer["dia"].get("volume_mi"), 0), n((mer["dia"].get("negocios") or 0) / 1e3, 0)])
+        linhas.append(["Mercado de ações (dia)", n(mer["dia"].get("volume_mi"), 0), n((mer["dia"].get("negocios") or 0) / 1e3, 0)])
         if mer.get("media_mes"):
             linhas.append(["Média do mês", n(mer["media_mes"].get("volume_mi"), 0), n((mer["media_mes"].get("negocios") or 0) / 1e3, 0)])
-    for chave, rot in (("opcoes", "Opções"), ("termo", "Termo"), ("after_market", "After market")):
+    for chave, rot in (("a_vista", "À vista"), ("opcoes", "Opções"), ("termo", "Termo"), ("after_market", "After market")):
         if seg.get(chave):
             linhas.append([rot, n(seg[chave].get("volume_mi"), 0), n((seg[chave].get("negocios") or 0) / 1e3, 0)])
     o.append(tabela(["Segmento", "Volume (R$ mi)", "Negócios (mil)"], linhas, ["", "n", "n"]))

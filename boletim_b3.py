@@ -33,6 +33,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from datetime import date, timedelta
@@ -76,6 +77,28 @@ def ler_json(caminho: str, padrao):
         return padrao
 
 
+PASSAGEIRA = re.compile(r"HTTP (0|429|5\d\d)\b|^rede")       # falha de rede ou do servidor, nao de dado que ainda nao saiu
+
+
+def a_refazer(saida: str, janela: list[date], maximo: int = 5) -> list[date]:
+    """Pregoes da janela que ficaram sem resumo (rodada que nao aconteceu) ou com falha passageira
+    numa tabela ou arquivo. A rodada automatica os refaz enquanto a B3 ainda os guarda (21 pregoes),
+    do mais novo para o mais velho, ate `maximo` por rodada."""
+    out = []
+    for d in reversed(janela):
+        pasta = os.path.join(saida, d.isoformat())
+        idx = ler_json(os.path.join(pasta, "index.json"), None)
+        if idx is None:                                                     # nunca coletado
+            out.append(d)
+        elif any(PASSAGEIRA.search(str(m)) for m in (idx.get("falhas") or {}).values()):
+            out.append(d)
+        elif not os.path.exists(os.path.join(pasta, "resumo.json")):
+            # sem resumo com dado na mao: o resumo quebrou. Sem dado nenhum e dia sem pregao: nao insiste
+            if idx.get("arquivos") or any(t.get("linhas") for t in (idx.get("tabelas") or {}).values()):
+                out.append(d)
+    return sorted(out[:maximo])
+
+
 def baixar_pdfs(cli: Cliente, status: dict, pasta: str) -> list[str]:
     """Cadernos em PDF para o artefato da rodada (nunca para o branch dados)."""
     baixados = []
@@ -116,7 +139,8 @@ def main(argv=None) -> int:
     ap.add_argument("--data", default="", help="AAAA-MM-DD (vazio = ultimo pregao fechado)")
     ap.add_argument("--dias", default="1",
                     help="quantos pregoes, terminando na data (ate 21: e o que a B3 guarda); `auto` = 2, ou 21 enquanto o "
-                         "historico tiver menos de 15 pregoes da versao atual")
+                         "historico tiver menos de 15 pregoes da versao atual, mais os pregoes da janela que ficaram "
+                         "sem resumo ou com falha de rede")
     ap.add_argument("--series", default="", help="pasta livro/series do branch dados, para a paridade com a referencia la fora")
     ap.add_argument("--pdf", default="", help="pasta para baixar os cadernos em PDF do ultimo pregao (artefato; fora do git)")
     ap.add_argument("--so-painel", action="store_true",
@@ -159,15 +183,24 @@ def main(argv=None) -> int:
 
     ultimo = None
     dias = pregoes(fim, max(1, min(n_dias, 21)))
-    # posicoes em aberto do pregao anterior ao primeiro: base das maiores mudancas de posicao do dia
-    pos_ant, data_ant = None, relogios.dia_util_anterior("B3", dias[0])
-    try:
-        pos_ant = b3.ler_csv(b3.arquivo(cli, "DerivativesOpenPosition", data_ant)[0])[1]
-    except (b3.B3Erro, HttpError) as e:
-        manifest["falhas"].append(f"posicoes em aberto de {data_ant}: {e}")
+    if a.dias == "auto" and len(dias) < 21:
+        # conserto: pregao da janela da B3 que ficou sem resumo ou com falha de rede entra de novo
+        refeitos = a_refazer(a.saida, pregoes(fim, 21)[:-len(dias)])
+        if refeitos:
+            manifest["refeitos"] = [d.isoformat() for d in refeitos]
+            dias = refeitos + dias
+    pos_ant, data_ant = None, None
     for d in dias:
         pasta = os.path.join(a.saida, d.isoformat())
         t0 = time.time()
+        # posicoes em aberto do pregao anterior: base das maiores mudancas de posicao do dia
+        ant = relogios.dia_util_anterior("B3", d)
+        if data_ant != ant:
+            pos_ant, data_ant = None, ant
+            try:
+                pos_ant = b3.ler_csv(b3.arquivo(cli, "DerivativesOpenPosition", ant)[0])[1]
+            except (b3.B3Erro, HttpError) as e:
+                manifest["falhas"].append(f"posicoes em aberto de {ant}: {e}")
         try:
             bruto = coleta.coletar_pregao(cli, d, pasta, rf_cadastro=rf_cadastro,
                                           max_cadastros=cfg_rf.get("cadastros_por_rodada", 2500),

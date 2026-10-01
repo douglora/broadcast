@@ -33,10 +33,11 @@ import io
 import json
 import os
 import re
+import time
 import unicodedata
 from datetime import date
 
-from livro.http import Cliente, HttpError
+from livro.http import RETRYABLE, Cliente, HttpError
 
 BDI = "https://arquivos.b3.com.br/bdi"
 PDF_URL = BDI + "/download/bdi/{iso}/{arquivo}"
@@ -49,6 +50,7 @@ SITUACAO = {0: "indefinido", 1: "aguardando", 2: "publicando", 3: "atrasado",
             4: "publicado", 5: "republicado", 6: "ignorado"}
 PRONTA = ("publicado", "republicado")
 JSON_HEADERS = {"Content-Type": "application/json", "Accept": "application/json"}
+PAUSAS = (4.0, 15.0)       # novas tentativas de uma requisicao, so quando a falha e passageira
 
 
 class B3Erro(Exception):
@@ -60,6 +62,22 @@ def _data(v):
     if isinstance(v, str) and len(v) >= 19 and v[10:19] == "T00:00:00" and v[4] == "-":
         return v[:10]
     return v
+
+
+def _pedir(fn, pausas: tuple = PAUSAS, dormir=time.sleep):
+    """Faz a requisicao `fn()` e repete, depois de cada pausa, quando a falha e passageira: rede
+    (HttpError de codigo 0), 429 ou 5xx. Codigo definitivo (400 de arquivo que ainda nao saiu) volta
+    na hora. Em 01/10/2026 a exportacao de `Trade` caiu por rede num pregao de 21 e deixou o dia sem
+    renda fixa: uma segunda tentativa resolve."""
+    for espera in (*pausas, None):
+        try:
+            r = fn()
+            if r.status not in RETRYABLE or espera is None:
+                return r
+        except HttpError as e:
+            if e.status != 0 or espera is None:
+                raise
+        dormir(espera)
 
 
 def _json(r, onde: str):
@@ -77,7 +95,7 @@ def _json(r, onde: str):
 
 def situacao_cadernos(cli: Cliente, d: date) -> dict:
     """Cadernos do pregao: situacao, hora da ultima atualizacao e link do PDF."""
-    j = _json(cli.get(f"{BDI}/download/status", params={"dateRef": d.isoformat()}, timeout=40), "status")
+    j = _json(_pedir(lambda: cli.get(f"{BDI}/download/status", params={"dateRef": d.isoformat()}, timeout=40)), "status")
 
     def link(url: str):
         nome = os.path.basename(url or "")
@@ -120,7 +138,8 @@ def normalizar(t: dict) -> dict:
     return out
 
 
-def tabela(cli: Cliente, nome: str, d: date, max_paginas: int = 1, filtro: str | None = None) -> dict:
+def tabela(cli: Cliente, nome: str, d: date, max_paginas: int = 1, filtro: str | None = None,
+           pausas: tuple = PAUSAS) -> dict:
     """Uma tabela do BDI no pregao d, inteira.
 
     A primeira pagina da a situacao, a hora e o numero de paginas. Tabela de mais de uma pagina
@@ -129,10 +148,12 @@ def tabela(cli: Cliente, nome: str, d: date, max_paginas: int = 1, filtro: str |
     23.129 negocios unicos (linhas repetidas entre paginas e outras de fora, entre elas um negocio
     de R$ 1,1 bi). `truncada` avisa quando ha mais paginas que o teto e a tabela nao foi baixada.
     `filtro` e o codigo exato (ticker, codigo IF) na coluna-chave; so vale para a primeira pagina.
+    `pausas` sao as novas tentativas em falha passageira (vazio = uma tentativa so).
     """
     iso = d.isoformat()
     busca = "?filter=" + base64.b64encode(filtro.upper().encode()).decode() if filtro else ""
-    r = cli.post(f"{BDI}/table/{nome}/{iso}/{iso}/1/{TAKE}{busca}", data="{}", headers=JSON_HEADERS, timeout=90)
+    r = _pedir(lambda: cli.post(f"{BDI}/table/{nome}/{iso}/{iso}/1/{TAKE}{busca}", data="{}", headers=JSON_HEADERS,
+                                timeout=90), pausas)
     j = _json(r, f"tabela {nome}")
     if not isinstance(j.get("table"), dict):
         raise B3Erro(f"tabela {nome}: resposta sem `table`")
@@ -142,7 +163,8 @@ def tabela(cli: Cliente, nome: str, d: date, max_paginas: int = 1, filtro: str |
     out["truncada"] = out["paginas"] > max_paginas
     if out["paginas"] > 1 and not out["truncada"] and not filtro:
         corpo = json.dumps({"Name": nome, "Date": iso, "FinalDate": iso, "ClientId": "", "Filters": {}})
-        inteira = _json(cli.post(f"{BDI}/table/export", data=corpo, headers=JSON_HEADERS, timeout=300), f"exportacao de {nome}")
+        inteira = _json(_pedir(lambda: cli.post(f"{BDI}/table/export", data=corpo, headers=JSON_HEADERS, timeout=300), pausas),
+                        f"exportacao de {nome}")
         linhas = normalizar(inteira)["linhas"]
         if len(linhas) < len(out["linhas"]):
             raise B3Erro(f"exportacao de {nome}: {len(linhas)} linhas, menos que a primeira pagina ({len(out['linhas'])})")
@@ -178,7 +200,8 @@ def folhas(tab: dict):
 def cadastro_balcao(cli: Cliente, codigo: str, d: date) -> dict | None:
     """Cadastro de um papel de renda fixa de balcao (debenture, CRI, CRA) pelo codigo IF.
     E daqui que sai se a debenture e incentivada (Lei 12.431), o indexador e o vencimento."""
-    for r in registros(tabela(cli, "InstrumentRegistration", d, filtro=codigo)):
+    # sem nova tentativa: sao milhares de consultas e o papel que falha entra na proxima rodada
+    for r in registros(tabela(cli, "InstrumentRegistration", d, filtro=codigo, pausas=())):
         if (r.get("TckrSymb") or "").upper() == codigo.upper():
             # so o que a leitura usa: o cache guarda milhares de papeis
             return {"tipo": r.get("InstrumentType"), "incentivada": str(r.get("Encouraged")).lower() == "true",
@@ -189,7 +212,7 @@ def cadastro_balcao(cli: Cliente, codigo: str, d: date) -> dict | None:
 
 def catalogo(cli: Cliente) -> list[dict]:
     """Capitulos e tabelas que o BDI expoe hoje. Serve para notar tabela nova ou removida."""
-    j = _json(cli.get(f"{BDI}/table/classifications", timeout=60), "classifications")
+    j = _json(_pedir(lambda: cli.get(f"{BDI}/table/classifications", timeout=60)), "classifications")
     por_id = {c.get("id"): c for c in j}
 
     def caminho(c):
@@ -209,14 +232,14 @@ def catalogo(cli: Cliente) -> list[dict]:
 
 
 def capitulos(cli: Cliente) -> list[dict]:
-    j = _json(cli.get(f"{BDI}/table/classifications", timeout=60), "classifications")
+    j = _json(_pedir(lambda: cli.get(f"{BDI}/table/classifications", timeout=60)), "classifications")
     return [{"id": c.get("id"), "nome": c.get("name")} for c in j]
 
 
 def informativos(cli: Cliente, capitulo_id: str, d: date) -> list[dict]:
     """Leiloes, comunicados e editais anexados a um capitulo no pregao."""
-    j = _json(cli.get(f"{BDI}/table/classification/{capitulo_id}/informations",
-                      params={"date": d.isoformat()}, timeout=40), "informations")
+    j = _json(_pedir(lambda: cli.get(f"{BDI}/table/classification/{capitulo_id}/informations",
+                                     params={"date": d.isoformat()}, timeout=40)), "informations")
     out = []
     for s in j.get("sections") or []:
         for i in s.get("informations") or []:
@@ -231,7 +254,7 @@ def informativos(cli: Cliente, capitulo_id: str, d: date) -> list[dict]:
 
 def arquivo(cli: Cliente, nome: str, d: date) -> tuple[str, dict]:
     """CSV da API de download. Devolve (texto, meta). Levanta B3Erro se o dia nao tem o arquivo."""
-    r = cli.get(TOKEN_URL, params={"fileName": nome, "date": d.isoformat()}, timeout=40)
+    r = _pedir(lambda: cli.get(TOKEN_URL, params={"fileName": nome, "date": d.isoformat()}, timeout=40))
     if r.status != 200:
         raise B3Erro(f"arquivo {nome}: token HTTP {r.status}")
     try:
@@ -240,7 +263,7 @@ def arquivo(cli: Cliente, nome: str, d: date) -> tuple[str, dict]:
         raise B3Erro(f"arquivo {nome}: token nao e JSON")
     if not corpo.get("token"):
         raise B3Erro(f"arquivo {nome}: sem token")
-    r2 = cli.get(DOWNLOAD_URL, params={"token": corpo["token"]}, timeout=240)
+    r2 = _pedir(lambda: cli.get(DOWNLOAD_URL, params={"token": corpo["token"]}, timeout=240))
     if r2.status != 200:
         raise B3Erro(f"arquivo {nome}: download HTTP {r2.status}")
     try:

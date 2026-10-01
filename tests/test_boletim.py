@@ -636,9 +636,67 @@ def test_exportacao_que_falha_ou_vem_curta_derruba_a_tabela_em_vez_de_entregar_d
     from datetime import date
     import pytest
     with pytest.raises(b3.B3Erro, match="exportacao de Trade"):
-        b3.tabela(_ClienteFalso(3, [1, 2, 3], [], status_export=500), "Trade", date(2026, 9, 29), max_paginas=10)
+        b3.tabela(_ClienteFalso(3, [1, 2, 3], [], status_export=500), "Trade", date(2026, 9, 29), max_paginas=10, pausas=())
     with pytest.raises(b3.B3Erro, match="menos que a primeira pagina"):
         b3.tabela(_ClienteFalso(3, [1, 2, 3], [1]), "Trade", date(2026, 9, 29), max_paginas=10)
+
+
+def test_falha_passageira_e_tentada_de_novo_e_codigo_definitivo_volta_na_hora():
+    import pytest
+    from livro.http import HttpError, Resposta
+    esperas = []
+    # a rede cai, depois o servidor responde 503, depois vem o dado (01/10/2026: a exportacao de Trade caiu por rede)
+    fila = [HttpError(0, "ConnectionError", "u"), Resposta(503, b""), Resposta(200, b"{}")]
+
+    def fn():
+        x = fila.pop(0)
+        if isinstance(x, Exception):
+            raise x
+        return x
+    assert b3._pedir(fn, (1.0, 2.0), esperas.append).status == 200 and esperas == [1.0, 2.0]
+    # 400 e a B3 dizendo que o arquivo ainda nao saiu: nao adianta insistir
+    esperas.clear()
+    assert b3._pedir(lambda: Resposta(400, b""), (1.0, 2.0), esperas.append).status == 400 and esperas == []
+    # acabaram as tentativas: a falha de rede sobe e o 5xx volta como veio
+    def cai():
+        raise HttpError(0, "ConnectionError", "u")
+    with pytest.raises(HttpError):
+        b3._pedir(cai, (1.0,), esperas.append)
+    assert b3._pedir(lambda: Resposta(500, b""), (1.0,), esperas.append).status == 500 and esperas == [1.0, 1.0]
+    # a exportacao que cai uma vez e tentada de novo e a tabela vem inteira
+    cli = _ClienteFalso(paginas=3, linhas_pagina=[1, 2, 2], linhas_export=[1, 2, 3])
+    original, quedas = cli.post, [1]
+
+    def post(url, data=None, **kw):
+        if url.endswith("/table/export") and quedas:
+            quedas.pop()
+            raise HttpError(0, "ConnectionError", url)
+        return original(url, data=data, **kw)
+    cli.post = post
+    from datetime import date
+    assert len(b3.tabela(cli, "Trade", date(2026, 9, 29), max_paginas=10, pausas=(0.0,))["linhas"]) == 3
+
+
+def test_rodada_automatica_refaz_pregao_sem_resumo_ou_com_falha_de_rede(tmp_path):
+    import json
+    from datetime import date
+    import boletim_b3
+
+    def pregao(dia, falhas=None, com_resumo=True, linhas=10):
+        p = tmp_path / dia
+        p.mkdir()
+        (p / "index.json").write_text(json.dumps({"tabelas": {"X": {"linhas": linhas}}, "arquivos": {}, "falhas": falhas or {}}))
+        if com_resumo:
+            (p / "resumo.json").write_text("{}")
+    pregao("2026-09-21")                                                                    # inteiro
+    pregao("2026-09-22", {"Trade": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/export"})  # rede: refaz
+    pregao("2026-09-23", {"DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"})   # a B3 nao publicou
+    pregao("2026-09-24", com_resumo=False)                                                  # coletou e o resumo quebrou: refaz
+    pregao("2026-09-25", com_resumo=False, linhas=0)                                        # dia sem pregao: nao insiste
+    pregao("2026-09-29", {"IOPV": "tabela IOPV: HTTP 503"})                                 # servidor: refaz
+    janela = [date(2026, 9, d) for d in (21, 22, 23, 24, 25, 28, 29)]                       # 28/09 nunca foi coletado
+    assert [d.day for d in boletim_b3.a_refazer(str(tmp_path), janela)] == [22, 24, 28, 29]
+    assert [d.day for d in boletim_b3.a_refazer(str(tmp_path), janela, maximo=2)] == [28, 29]     # os mais novos primeiro
 
 
 def test_historico_de_outra_versao_e_descartado_e_dias_auto_refaz_a_carga(tmp_path, monkeypatch):
@@ -671,3 +729,40 @@ def test_historico_de_outra_versao_e_descartado_e_dias_auto_refaz_a_carga(tmp_pa
         pass
     assert pedidos == [21, 2]
     assert resumo.atualizar_historico({}, resumo.montar(bruto(), CFG, LIVRO, {}))["versao"] == resumo.VERSAO
+
+
+def test_dias_auto_refaz_o_buraco_da_janela_e_busca_a_posicao_anterior_de_cada_pregao(tmp_path, monkeypatch):
+    import json
+    from datetime import date
+    import boletim_b3
+    janela = boletim_b3.pregoes(date(2026, 9, 30), 21)
+    hist = {"versao": resumo.VERSAO, "pregoes": {d.isoformat(): {} for d in janela}}
+    (tmp_path / "historico.json").write_text(json.dumps(hist))
+    for d in janela[:-2]:
+        p = tmp_path / d.isoformat()
+        p.mkdir()
+        falhas = {"Trade": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/export"} if d == date(2026, 9, 16) else {}
+        (p / "index.json").write_text(json.dumps({"tabelas": {"X": {"linhas": 5}}, "arquivos": {}, "falhas": falhas}))
+        (p / "resumo.json").write_text("{}")
+    coletados, posicoes = [], []
+
+    def falsa_coleta(cli, d, pasta, **kw):
+        coletados.append(d.isoformat())
+        raise RuntimeError("parou aqui")                  # o teste so quer saber que pregoes a rodada pediu
+
+    def falso_arquivo(cli, nome, d):
+        posicoes.append(d.isoformat())
+        raise b3.B3Erro("sem arquivo")
+    monkeypatch.setattr(boletim_b3.coleta, "coletar_pregao", falsa_coleta)
+    monkeypatch.setattr(boletim_b3.b3, "arquivo", falso_arquivo)
+    monkeypatch.setattr(boletim_b3.b3, "catalogo", lambda cli: [])
+    monkeypatch.setattr(boletim_b3, "Cliente", lambda: type("C", (), {"tipo": "teste"})())
+    assert boletim_b3.main(["--saida", str(tmp_path), "--dias", "auto", "--data", "2026-09-30"]) == 1
+    assert coletados == ["2026-09-16", "2026-09-29", "2026-09-30"]
+    # a base das mudancas de posicao e sempre o pregao imediatamente anterior, mesmo com a lista salteada
+    assert posicoes == ["2026-09-15", "2026-09-28", "2026-09-29"]
+    assert json.loads((tmp_path / "manifest.json").read_text())["refeitos"] == ["2026-09-16"]
+    # com numero de dias explicito nao ha conserto: so o que foi pedido
+    coletados.clear()
+    boletim_b3.main(["--saida", str(tmp_path), "--dias", "1", "--data", "2026-09-30"])
+    assert coletados == ["2026-09-30"]

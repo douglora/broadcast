@@ -129,6 +129,8 @@ jobs:
                   print(f"- **{d}**: {estado}, {v.get('sinais')} sinais, {v.get('tabelas')} tabelas, {v.get('segundos')}s")
                   for nome, erro in (v.get("falhas") or {}).items():
                       print(f"  - falha em {nome}: {erro}")
+              if m.get("refeitos"):
+                  print(f"- refeitos por buraco ou falha de rede em rodada anterior: {', '.join(m['refeitos'])}")
               if m.get("catalogo_mudou"):
                   print(f"- **catalogo da B3 mudou**: `{json.dumps(m['catalogo_mudou'], ensure_ascii=False)}`")
               for f in m.get("falhas", [])[:20]:
