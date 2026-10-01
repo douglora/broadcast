@@ -1,34 +1,49 @@
 name: Boletim B3 (Boletim Diario do Mercado)
 
-# Baixa o Boletim Diario do Mercado da B3 (cadernos em PDF e arquivos CSV da API de
-# download) e grava em boletim_b3/ no branch `dados`. A sessao do Claude nao alcanca
-# a B3; o Actions alcanca. Leitura na sessao: `git show origin/dados:boletim_b3/...`.
+# Le o Boletim Diario do Mercado da B3 (tabelas do aplicativo do BDI e arquivos da API de
+# download), cruza com o livro e grava em boletim_b3/ no branch `dados`: resumo, sinais e o
+# painel.html que a sessao publica como Artifact. A sessao do Claude na nuvem nao alcanca a
+# B3; o Actions alcanca. Leitura na sessao: `python3 mesa.py boletim`.
 #
-# FASE DE VALIDACAO: sem cron. O push no branch de desenvolvimento dispara a rodada de
-# descoberta; o cron diario entra quando a descoberta confirmar arquivos e horario.
+# So texto e JSON vao para o branch. PDF nunca: o boletim completo passa de 50 MB por pregao.
+# Quem quiser os cadernos marca `pdf` no disparo manual e baixa o artefato da rodada.
+#
+# Duas rodadas por pregao, as duas refazem os 2 ultimos pregoes (idempotente):
+#   noite  21h40 BRT  negocios, fluxo, indices, futuros, renda fixa, ETFs (a B3 fecha o arquivo por volta das 20h)
+#   manha  08h35 BRT  completa com aluguel, corretoras, posicoes em aberto e derivativos, que saem de madrugada
+# Cada pregao leva de 2 a 3 minutos (o negocio a negocio de renda fixa e de aluguel sao as tabelas grandes).
 
 on:
   workflow_dispatch:
     inputs:
       data:
-        description: "Pregao AAAA-MM-DD (vazio = ultimo pregao B3)"
+        description: "Pregao AAAA-MM-DD (vazio = ultimo pregao fechado)"
         required: false
         default: ""
         type: string
       dias:
-        description: "Quantos pregoes para tras, a partir da data"
+        description: "Quantos pregoes, terminando na data (ate 21: e o que a B3 guarda)"
         required: false
-        default: "1"
+        default: "2"
         type: string
-      partes:
-        description: "descoberta,pdf,arquivos"
+      pdf:
+        description: "Baixar os cadernos em PDF para o artefato da rodada (fora do git)"
         required: false
-        default: "descoberta,pdf,arquivos"
-        type: string
+        default: false
+        type: boolean
+  # AGENDAMENTO DESLIGADO ate o Douglas confirmar. Para ligar, tire o comentario das tres
+  # linhas abaixo (o GitHub so registra o agendamento a partir de um push na main que mexa
+  # neste arquivo). UTC: 00h40 = 21h40 BRT do pregao; 11h35 = 08h35 BRT do dia seguinte.
+  # Terca a sabado em UTC porque 00h40 UTC de terca e a noite de segunda em Brasilia.
+  # schedule:
+  #   - cron: "40 0 * * 2-6"
+  #   - cron: "35 11 * * 2-6"
   push:
     branches: [claude/magical-hopper-18a6sh]
     paths:
       - "boletim_b3.py"
+      - "boletim/**"
+      - "config/boletim.yaml"
       - ".github/workflows/boletim-b3.yml"
 
 permissions:
@@ -42,7 +57,9 @@ concurrency:
 jobs:
   boletim:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 130
+    env:
+      TZ: America/Sao_Paulo
     steps:
       - uses: actions/checkout@v4
 
@@ -59,27 +76,28 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements-livro.txt
 
-      - name: Coletar
-        timeout-minutes: 20
-        continue-on-error: true
+      - name: Coletar e resumir
+        timeout-minutes: 115
         env:
           DATA: ${{ inputs.data }}
           DIAS: ${{ inputs.dias }}
-          PARTES: ${{ inputs.partes }}
+          PDF: ${{ inputs.pdf }}
           EVENTO: ${{ github.event_name }}
         run: |
-          # Push no branch de desenvolvimento = rodada de descoberta, dois pregoes
-          if [ "$EVENTO" = "push" ]; then DIAS=2; PARTES="descoberta,pdf,arquivos"; fi
-          python -u boletim_b3.py --saida dados_branch/boletim_b3 --data "$DATA" \
-            --dias "${DIAS:-1}" --partes "${PARTES:-descoberta,pdf,arquivos}"
+          # Push no branch de desenvolvimento = carga inicial do historico (21 pregoes, cerca de uma hora)
+          if [ "$EVENTO" = "push" ]; then DIAS=21; fi
+          EXTRA=""
+          if [ "$PDF" = "true" ]; then EXTRA="--pdf pdf_artefato"; fi
+          python -u boletim_b3.py --saida dados_branch/boletim_b3 --data "$DATA" --dias "${DIAS:-2}" \
+            --series dados_branch/livro/series $EXTRA
 
       - name: Guardar os PDFs como artefato da rodada
-        if: always()
+        if: always() && inputs.pdf
         uses: actions/upload-artifact@v4
         with:
-          name: boletim-b3-${{ github.run_id }}
-          path: dados_branch/boletim_b3
-          retention-days: 30
+          name: boletim-b3-pdf-${{ github.run_id }}
+          path: pdf_artefato
+          retention-days: 14
           if-no-files-found: ignore
 
       - name: Publicar no branch dados
@@ -88,9 +106,10 @@ jobs:
           cd dados_branch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A boletim_b3
+          # so o que o coletor escreve: resumo, tabelas, indices e o historico. PDF fica de fora.
+          git add -A -- boletim_b3 ':!boletim_b3/**/*.pdf'
           if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
-          git commit -q -m "Boletim B3: cadernos e arquivos do pregao ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git commit -q -m "Boletim B3: resumo e tabelas do pregao ($(date -u +%Y-%m-%dT%H:%MZ))"
           for i in 1 2 3; do
             git push && break
             git pull --rebase -q && sleep 5
@@ -105,10 +124,13 @@ jobs:
           p = "dados_branch/boletim_b3/manifest.json"
           if os.path.exists(p):
               m = json.load(open(p))
-              for parte, v in m["partes"].items():
-                  print(f"- **{parte}**: `{json.dumps(v, ensure_ascii=False)[:400]}`")
-              for d, v in m["pregoes"].items():
-                  print(f"- **{d}**: cadernos {v['cadernos']} | arquivos {v['arquivos']}")
+              for d, v in m.get("pregoes", {}).items():
+                  estado = "completo" if v.get("completo") else "parcial (falta " + ", ".join(v.get("faltam", [])) + ")"
+                  print(f"- **{d}**: {estado}, {v.get('sinais')} sinais, {v.get('tabelas')} tabelas, {v.get('segundos')}s")
+                  for nome, erro in (v.get("falhas") or {}).items():
+                      print(f"  - falha em {nome}: {erro}")
+              if m.get("catalogo_mudou"):
+                  print(f"- **catalogo da B3 mudou**: `{json.dumps(m['catalogo_mudou'], ensure_ascii=False)}`")
               for f in m.get("falhas", [])[:20]:
-                  print(f"  - falha: {f}")
+                  print(f"- falha: {f}")
           PY

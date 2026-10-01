@@ -1,307 +1,200 @@
 #!/usr/bin/env python3
 """Coletor do Boletim Diario do Mercado da B3 (BDI).
 
-Roda no GitHub Actions (internet aberta; a sessao do Claude nao alcanca a B3) e
+Roda no GitHub Actions (internet aberta; a sessao do Claude na nuvem nao alcanca a B3) e
 grava em boletim_b3/ no branch dados:
 
-  boletim_b3/<AAAA-MM-DD>/pdf/BDI_<NN>[-<S>].pdf   cadernos do boletim, como a B3 publica
-  boletim_b3/<AAAA-MM-DD>/pdf/BDI_<NN>[-<S>].txt   texto extraido de cada caderno
-  boletim_b3/<AAAA-MM-DD>/arquivos/<Nome>.csv      arquivos do boletim (api/download), quando pequenos
-  boletim_b3/<AAAA-MM-DD>/index.json               o que veio do pregao: cadernos, arquivos, tamanhos, horas
-  boletim_b3/descoberta/                           paginas e endpoints que a B3 expoe (validacao do coletor)
-  boletim_b3/manifest.json                         ultima rodada: o que veio e o que falhou
+  boletim_b3/manifest.json                     ultima rodada: pregoes, situacao, falhas
+  boletim_b3/historico.json                    serie compacta dos ultimos pregoes do livro (medias e variacoes)
+  boletim_b3/mercado.json                      fechamento, volume e saldo alugado do IBrA nos ultimos pregoes (radar)
+  boletim_b3/rf_cadastro.json                  cadastro dos papeis de renda fixa ja vistos (incentivada, indexador, vencimento)
+  boletim_b3/rf_estado.json                    ultimas taxas negociadas por papel (abertura e fechamento de taxa)
+  boletim_b3/catalogo.json                     tabelas que o BDI expoe hoje (acusa tabela nova ou removida)
+  boletim_b3/<AAAA-MM-DD>/resumo.json          numeros com fonte e data, cruzados com o livro, e os sinais
+  boletim_b3/<AAAA-MM-DD>/resumo.md            a mesma leitura em texto, pronta para a sessao
+  boletim_b3/<AAAA-MM-DD>/painel.html          a mesma leitura em pagina, que a sessao publica como Artifact
+  boletim_b3/<AAAA-MM-DD>/status.json          cadernos em PDF: situacao, hora e link (o PDF nao e gravado)
+  boletim_b3/<AAAA-MM-DD>/index.json           tabelas e arquivos: situacao, hora, linhas, falhas
+  boletim_b3/<AAAA-MM-DD>/tabelas/<Nome>.json  tabelas pequenas, inteiras
 
-URLs (B3, sem cadastro):
-  pagina   https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/boletim-diario/boletim-diario-do-mercado/
-  cadernos https://arquivos.b3.com.br/bdi/download/bdi/AAAA-MM-DD/BDI_NN[-S]_AAAAMMDD.pdf
-  arquivos https://arquivos.b3.com.br/api/download/requestname?fileName=<Nome>&date=AAAA-MM-DD -> token
-           https://arquivos.b3.com.br/api/download/?token=<token> -> CSV ';'
+Duas rodadas por pregao, as duas idempotentes: a da noite pega negocios, fluxo e indices; a da
+manha seguinte completa com aluguel, posicoes em aberto e derivativos, que a B3 publica de
+madrugada. Rotas e formatos: boletim/b3.py. Leitura na sessao: `python3 mesa.py boletim`.
 
-A sessao do Claude le com `python3 mesa.py boletim`.
-Uso: python boletim_b3.py --saida dados_branch/boletim_b3 [--data AAAA-MM-DD] [--dias 1] [--partes descoberta,pdf,arquivos]
+Uso: python boletim_b3.py --saida dados_branch/boletim_b3 [--data AAAA-MM-DD] [--dias 1]
+                          [--series dados_branch/livro/series] [--pdf pasta]
 """
 
 from __future__ import annotations
 
 import argparse
-import io
 import json
 import os
-import re
 import sys
 import time
-from datetime import date, datetime, timedelta, timezone
-from urllib.parse import urljoin
+from datetime import date, timedelta
 
-from livro import relogios
+from livro import relogios, universo
 from livro.http import Cliente, HttpError
 
-PAGINA = ("https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/"
-          "consultas/boletim-diario/boletim-diario-do-mercado/")
-PESQUISA = ("https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/"
-            "historico/boletins-diarios/pesquisa-por-pregao/pesquisa-por-pregao/")
-BDI_SPA = ("https://arquivos.b3.com.br/bdi/", "https://arquivos.b3.com.br/bdi/tabelas?lang=pt-BR")
-PDF_URL = "https://arquivos.b3.com.br/bdi/download/bdi/{iso}/{nome}_{compacta}.pdf"
-TOKEN_URL = "https://arquivos.b3.com.br/api/download/requestname"
-DOWNLOAD_URL = "https://arquivos.b3.com.br/api/download/"
-
-# Cadernos: BDI_NN e as secoes BDI_NN-S. Vistos em 2025/26: 01, 02, 02-0, 03-1, 03-3, 03-4, 05, 07.
-CADERNOS = range(0, 13)
-SECOES = range(0, 10)
-
-# Arquivos do boletim pela API de download. TradeInformationConsolidated ja e usado
-# pelo livro (DI futuro); os demais sao candidatos que a rodada de descoberta valida.
-ARQUIVOS = (
-    "TradeInformationConsolidated", "TradeInformationConsolidatedAfterHours", "InstrumentsConsolidated",
-    "LendingOpenPosition", "LendingTradesConsolidated", "DerivativesOpenPosition", "EconomicIndicatorPrice",
-    "OTCTradeInformationConsolidated", "OTCInstrumentsConsolidated", "MarginScenarioLiquidAssets",
-    "PriceReport", "IndexComposition", "InvestorParticipation", "ParticipantsTradeInformation",
-    "OptionsOpenPosition", "SecuritiesLendingPosition", "LoanBalance", "ForwardOpenPosition",
-    "FutureOpenPosition", "SwapOpenPosition", "DailyBulletin", "BDI",
-)
-LIMITE_CSV_INTEIRO = 3_000_000      # acima disso grava so cabecalho e amostra
-RX_URL = re.compile(r"""(?:https?:)?//[^\s"'<>()\\]+|["'](/[A-Za-z0-9_\-./{}$?=&:]{3,})["']""")
-RX_PALAVRAS = re.compile(r"bdi|download|table|tabela|api/|csv|pdf|xlsx|zip|token|requestname", re.I)
+from boletim import b3, coleta, mercado, painel, render, renda_fixa, resumo
 
 
-def agora() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-
-def gravar(caminho: str, conteudo, binario: bool = False) -> None:
-    os.makedirs(os.path.dirname(caminho), exist_ok=True)
-    if binario:
-        with open(caminho, "wb") as f:
-            f.write(conteudo)
-    else:
-        with open(caminho, "w", encoding="utf-8") as f:
-            f.write(conteudo if isinstance(conteudo, str) else json.dumps(conteudo, ensure_ascii=False, indent=1))
-
-
-def texto_pdf(dados: bytes) -> tuple[str, int]:
-    try:
-        from pypdf import PdfReader
-        leitor = PdfReader(io.BytesIO(dados))
-        paginas = [(p.extract_text() or "") for p in leitor.pages]
-        return "\n\f\n".join(paginas), len(paginas)
-    except Exception as e:
-        return f"[texto ilegivel: {type(e).__name__}: {e}]", 0
-
-
-def pregoes(data_ini: date, n: int) -> list[date]:
-    """n pregoes B3 terminando em data_ini (ou no dia util anterior), do mais novo ao mais velho."""
-    out, d = [], relogios.ultimo_dia_util("B3", data_ini)
+def pregoes(fim: date, n: int) -> list[date]:
+    """n pregoes B3 terminando em `fim` (ou no dia util anterior), do mais velho ao mais novo."""
+    out, d = [], relogios.ultimo_dia_util("B3", fim)
     while len(out) < n:
         out.append(d)
         d = relogios.dia_util_anterior("B3", d)
-    return out
+    return out[::-1]
 
 
-# ------------------------------------------------------------------ descoberta
-
-def _urls(texto: str, base: str) -> list[str]:
-    achados = set()
-    for m in RX_URL.finditer(texto):
-        u = m.group(1) or m.group(0)
-        if u.startswith("//"):
-            u = "https:" + u
-        if RX_PALAVRAS.search(u):
-            achados.add(urljoin(base, u) if u.startswith("/") else u)
-    return sorted(achados)
+def pregao_padrao(agora=None) -> date:
+    """Pregao que a B3 ja fechou: hoje a partir das 18h30 de Brasilia, senao o dia util anterior.
+    A rodada da manha seguinte cai no pregao de ontem, que e o que ela vem completar."""
+    local = (agora or relogios.agora_utc()).astimezone(relogios.BRT)
+    hoje = local.date()
+    if relogios.eh_dia_util("B3", hoje) and (local.hour, local.minute) >= (18, 30):
+        return hoje
+    return relogios.ultimo_dia_util("B3", hoje - timedelta(days=1))
 
 
-def _strings_js(js: str) -> list[str]:
-    """Literais de string do bundle que parecem rota, tabela ou arquivo."""
-    lits = set(re.findall(r"""["'`]([^"'`\n]{3,160})["'`]""", js))
-    return sorted(s for s in lits if RX_PALAVRAS.search(s) or re.fullmatch(r"[A-Z][A-Za-z]{6,60}", s))
+def livro_b3() -> list[dict]:
+    """Ativos do livro negociados na B3 (config/livro.yaml)."""
+    return [{"id": a.id, "nome": a.nome, "classe": a.classe} for a in universo.carregar().ativos
+            if a.mercado == "B3" and a.ativo]
 
 
-def _janelas(js: str, termo: str, raio: int = 220, max_n: int = 40) -> list[str]:
-    out = []
-    for m in re.finditer(re.escape(termo), js):
-        out.append(js[max(0, m.start() - raio): m.end() + raio].replace("\n", " "))
-        if len(out) >= max_n:
-            break
-    return out
-
-
-def descobrir(cli: Cliente, saida: str) -> dict:
-    """Abre a pagina do boletim e o aplicativo do BDI, segue iframes e scripts e guarda
-    as rotas que aparecem. E o que valida o coletor quando a B3 muda o site."""
-    pasta = os.path.join(saida, "descoberta")
-    rel: dict = {"paginas": {}, "scripts": {}, "falhas": []}
-    fila = [PAGINA, PESQUISA, *BDI_SPA]
-    vistas: set = set()
-    while fila and len(vistas) < 12:
-        url = fila.pop(0)
-        if url in vistas:
-            continue
-        vistas.add(url)
-        try:
-            r = cli.get(url, headers={"Accept": "text/html,application/xhtml+xml,*/*"}, timeout=40)
-        except HttpError as e:
-            rel["falhas"].append(f"{url}: {e.body[:120]}")
-            continue
-        html = r.text
-        nome = re.sub(r"[^A-Za-z0-9]+", "_", url.split("//", 1)[-1])[:90]
-        gravar(os.path.join(pasta, f"{nome}.html"), html)
-        iframes = [urljoin(r.url or url, s) for s in re.findall(r"<iframe[^>]+src=[\"']([^\"']+)", html, re.I)]
-        scripts = [urljoin(r.url or url, s) for s in re.findall(r"<script[^>]+src=[\"']([^\"']+)", html, re.I)]
-        rel["paginas"][url] = {"status": r.status, "url_final": r.url, "bytes": len(r.content),
-                               "titulo": (re.search(r"<title>(.*?)</title>", html, re.S | re.I) or [None, ""])[1].strip()[:200],
-                               "iframes": iframes, "scripts": scripts, "urls": _urls(html, r.url or url)[:300]}
-        fila.extend(i for i in iframes if i not in vistas)
-        for s in scripts:
-            if "arquivos.b3.com.br" not in s and "boletim" not in s.lower() and "bdi" not in s.lower():
-                continue
-            if s in rel["scripts"]:
-                continue
-            try:
-                rs = cli.get(s, timeout=60)
-            except HttpError as e:
-                rel["falhas"].append(f"{s}: {e.body[:120]}")
-                continue
-            js = rs.text
-            info = {"status": rs.status, "bytes": len(rs.content), "urls": _urls(js, s)[:400],
-                    "strings": _strings_js(js)[:1500]}
-            for termo in ("table", "download", "requestname", "/bdi", "api/", ".pdf", ".csv"):
-                info[f"perto_de:{termo}"] = _janelas(js, termo)
-            rel["scripts"][s] = info
-    gravar(os.path.join(pasta, "descoberta.json"), rel)
-    return {"paginas": {u: v["status"] for u, v in rel["paginas"].items()},
-            "scripts": len(rel["scripts"]), "falhas": rel["falhas"][:10]}
-
-
-# ------------------------------------------------------------------ cadernos em PDF
-
-def _baixar_pdf(cli: Cliente, d: date, nome: str):
-    url = PDF_URL.format(iso=d.isoformat(), nome=nome, compacta=d.strftime("%Y%m%d"))
+def ler_json(caminho: str, padrao):
     try:
-        r = cli.get(url, headers={"Accept": "application/pdf,*/*"}, timeout=60)
-    except HttpError as e:
-        return url, None, f"rede: {e.body[:60]}"
-    if r.status != 200:
-        return url, None, f"HTTP {r.status}"
-    if not r.content.startswith(b"%PDF"):
-        return url, None, f"nao e PDF ({r.headers.get('content-type', '?')}, {len(r.content)} bytes)"
-    return url, r, None
+        with open(caminho, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return padrao
 
 
-def cadernos(cli: Cliente, d: date, pasta: str, espaco: float = 0.15) -> dict:
-    """Testa BDI_NN e BDI_NN-S do pregao; grava PDF e texto do que existir."""
-    achados, sondas = {}, {}
-    candidatos = []
-    for nn in CADERNOS:
-        candidatos.append(f"BDI_{nn:02d}")
-        candidatos.extend(f"BDI_{nn:02d}-{s}" for s in SECOES)
-    for nome in candidatos:
-        url, r, erro = _baixar_pdf(cli, d, nome)
-        time.sleep(espaco)
-        if erro:
-            sondas[nome] = erro
+def baixar_pdfs(cli: Cliente, status: dict, pasta: str) -> list[str]:
+    """Cadernos em PDF para o artefato da rodada (nunca para o branch dados)."""
+    baixados = []
+    for c in [status.get("completo") or {}] + (status.get("cadernos") or []):
+        if not c.get("pdf"):
             continue
-        texto, paginas = texto_pdf(r.content)
-        gravar(os.path.join(pasta, "pdf", f"{nome}.pdf"), r.content, binario=True)
-        gravar(os.path.join(pasta, "pdf", f"{nome}.txt"), texto)
-        titulo = " ".join(texto.strip().split()[:40])[:240]
-        achados[nome] = {"url": url, "bytes": len(r.content), "paginas": paginas,
-                         "last_modified": r.headers.get("last-modified"), "titulo": titulo}
-    erros = {}
-    for v in sondas.values():
-        erros[v] = erros.get(v, 0) + 1
-    return {"cadernos": achados, "sondas_sem_arquivo": erros}
-
-
-# ------------------------------------------------------------------ arquivos da API de download
-
-def _arquivo(cli: Cliente, nome: str, d: date):
-    r = cli.get(TOKEN_URL, params={"fileName": nome, "date": d.isoformat()}, timeout=40)
-    if r.status != 200:
-        return None, f"token HTTP {r.status}: {r.text[:80]}"
-    try:
-        corpo = r.json() or {}
-    except Exception:
-        return None, f"token nao e JSON: {r.text[:80]}"
-    token = corpo.get("token")
-    if not token:
-        return None, f"sem token: {json.dumps(corpo)[:120]}"
-    r2 = cli.get(DOWNLOAD_URL, params={"token": token}, timeout=180)
-    if r2.status != 200:
-        return None, f"download HTTP {r2.status}"
-    return (r2, corpo), None
-
-
-def arquivos(cli: Cliente, d: date, pasta: str, nomes=ARQUIVOS) -> dict:
-    achados, falhas = {}, {}
-    for nome in nomes:
         try:
-            res, erro = _arquivo(cli, nome, d)
-        except HttpError as e:
-            res, erro = None, f"rede: {e.body[:60]}"
-        if erro:
-            falhas[nome] = erro
+            r = cli.get(c["pdf"], headers={"Accept": "application/pdf,*/*"}, timeout=300)
+        except HttpError:
             continue
-        r, corpo = res
-        bruto = r.content
-        ext = "zip" if bruto[:2] == b"PK" else "csv"
-        texto = bruto.decode("utf-8-sig", errors="replace") if ext == "csv" else ""
-        linhas = texto.splitlines() if texto else []
-        info = {"bytes": len(bruto), "tipo": ext, "linhas": len(linhas), "token_resposta": {k: v for k, v in corpo.items() if k != "token"},
-                "content_type": r.headers.get("content-type"), "disposition": r.headers.get("content-disposition"),
-                "cabecalho": linhas[:3], "amostra": linhas[3:8]}
-        if ext == "csv" and len(bruto) <= LIMITE_CSV_INTEIRO:
-            gravar(os.path.join(pasta, "arquivos", f"{nome}.csv"), texto)
-            info["gravado"] = "inteiro"
-        else:
-            info["gravado"] = "so amostra (grande demais para o branch)"
-        achados[nome] = info
-        time.sleep(0.3)
-    return {"arquivos": achados, "falhas": falhas}
+        if r.status == 200 and r.content.startswith(b"%PDF"):
+            coleta.gravar(os.path.join(pasta, c["arquivo"]), r.content, binario=True)
+            baixados.append(c["arquivo"])
+    return baixados
 
 
-# ------------------------------------------------------------------ principal
+def refazer_paineis(saida: str, fim: date | None, n: int) -> int:
+    """Refaz resumo.md e painel.html a partir dos resumo.json guardados. Nao vai a B3."""
+    hist = ler_json(os.path.join(saida, "historico.json"), {})
+    dias = sorted(d for d in os.listdir(saida) if len(d) == 10 and os.path.exists(os.path.join(saida, d, "resumo.json"))
+                  and (fim is None or d <= fim.isoformat()))
+    for i, d in enumerate(dias):
+        if d not in dias[-n:]:
+            continue
+        res = ler_json(os.path.join(saida, d, "resumo.json"), None)
+        anterior = ler_json(os.path.join(saida, dias[i - 1], "resumo.json"), None) if i else None
+        coleta.gravar(os.path.join(saida, d, "resumo.md"), render.markdown(res))
+        coleta.gravar(os.path.join(saida, d, "painel.html"), painel.pagina(res, hist, anterior))
+        print(f"{d}: painel refeito")
+    return 0
+
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--saida", default="boletim_b3")
-    ap.add_argument("--data", default="", help="AAAA-MM-DD (vazio = ultimo pregao B3)")
-    ap.add_argument("--dias", type=int, default=1, help="quantos pregoes para tras, a partir da data")
-    ap.add_argument("--partes", default="descoberta,pdf,arquivos")
+    ap.add_argument("--data", default="", help="AAAA-MM-DD (vazio = ultimo pregao fechado)")
+    ap.add_argument("--dias", type=int, default=1, help="quantos pregoes, terminando na data (ate 21: e o que a B3 guarda)")
+    ap.add_argument("--series", default="", help="pasta livro/series do branch dados, para a paridade com a referencia la fora")
+    ap.add_argument("--pdf", default="", help="pasta para baixar os cadernos em PDF do ultimo pregao (artefato; fora do git)")
+    ap.add_argument("--so-painel", action="store_true", help="so refaz resumo.md e painel.html dos pregoes ja guardados (sem rede)")
     a = ap.parse_args(argv)
-    partes = {p.strip() for p in a.partes.split(",") if p.strip()}
+    if a.so_painel:
+        return refazer_paineis(a.saida, date.fromisoformat(a.data) if a.data else None, max(1, a.dias))
+
     cli = Cliente()
-    ini = date.fromisoformat(a.data) if a.data else relogios.data_pregao_b3()
-    manifest = {"gerado_em": agora(), "cliente_http": cli.tipo, "partes": {}, "pregoes": {}, "falhas": []}
+    cfg = universo.carregar_yaml("boletim.yaml")
+    livro = livro_b3()
+    fim = date.fromisoformat(a.data) if a.data else pregao_padrao()
+    hist = ler_json(os.path.join(a.saida, "historico.json"), {})
+    merc = ler_json(os.path.join(a.saida, "mercado.json"), {})
+    rf_cadastro = ler_json(os.path.join(a.saida, "rf_cadastro.json"), {})
+    rf_estado = ler_json(os.path.join(a.saida, "rf_estado.json"), {})
+    cfg_rf = cfg.get("renda_fixa") or {}
+    manifest: dict = {"gerado_em": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "cliente_http": cli.tipo,
+                      "livro": [x["id"] for x in livro], "pregoes": {}, "falhas": []}
 
-    if "descoberta" in partes:
-        try:
-            manifest["partes"]["descoberta"] = descobrir(cli, a.saida)
-        except Exception as e:
-            manifest["falhas"].append(f"descoberta: {type(e).__name__}: {e}")
+    try:
+        cat = b3.catalogo(cli)
+        antigo = {x["tabela"] for x in ler_json(os.path.join(a.saida, "catalogo.json"), [])}
+        agora = {x["tabela"] for x in cat}
+        if antigo and antigo != agora:
+            manifest["catalogo_mudou"] = {"novas": sorted(agora - antigo), "removidas": sorted(antigo - agora)}
+        coleta.gravar(os.path.join(a.saida, "catalogo.json"), cat)
+    except (b3.B3Erro, HttpError) as e:
+        manifest["falhas"].append(f"catalogo: {e}")
 
-    for d in pregoes(ini, max(1, a.dias)):
+    ultimo = None
+    dias = pregoes(fim, max(1, min(a.dias, 21)))
+    # posicoes em aberto do pregao anterior ao primeiro: base das maiores mudancas de posicao do dia
+    pos_ant, data_ant = None, relogios.dia_util_anterior("B3", dias[0])
+    try:
+        pos_ant = b3.ler_csv(b3.arquivo(cli, "DerivativesOpenPosition", data_ant)[0])[1]
+    except (b3.B3Erro, HttpError) as e:
+        manifest["falhas"].append(f"posicoes em aberto de {data_ant}: {e}")
+    for d in dias:
         pasta = os.path.join(a.saida, d.isoformat())
-        idx: dict = {"pregao": d.isoformat(), "coletado_em": agora()}
-        if "pdf" in partes:
-            try:
-                idx.update(cadernos(cli, d, pasta))
-            except Exception as e:
-                manifest["falhas"].append(f"{d} pdf: {type(e).__name__}: {e}")
-        if "arquivos" in partes:
-            try:
-                res = arquivos(cli, d, pasta)
-                idx["arquivos"] = res["arquivos"]
-                idx["arquivos_falhas"] = res["falhas"]
-            except Exception as e:
-                manifest["falhas"].append(f"{d} arquivos: {type(e).__name__}: {e}")
-        gravar(os.path.join(pasta, "index.json"), idx)
-        manifest["pregoes"][d.isoformat()] = {"cadernos": sorted(idx.get("cadernos", {})),
-                                              "arquivos": sorted(idx.get("arquivos", {}))}
-        print(f"{d}: {len(idx.get('cadernos', {}))} cadernos, {len(idx.get('arquivos', {}))} arquivos", flush=True)
+        t0 = time.time()
+        try:
+            bruto = coleta.coletar_pregao(cli, d, pasta, rf_cadastro=rf_cadastro,
+                                          max_cadastros=cfg_rf.get("cadastros_por_rodada", 2500))
+            # o cadastro custa centenas de consultas: grava logo, antes de qualquer coisa poder quebrar
+            coleta.gravar(os.path.join(a.saida, "rf_cadastro.json"), coleta.texto_cadastro(rf_cadastro))
+            bruto["pos_anterior"], bruto["pos_anterior_data"] = pos_ant, data_ant.isoformat()
+            res = resumo.montar(bruto, cfg, livro, hist, a.series or None, merc, rf_estado)
+        except Exception as e:      # um pregao que quebra nao derruba os outros
+            manifest["falhas"].append(f"{d}: {type(e).__name__}: {e}")
+            continue
+        if bruto["arquivos"].get("DerivativesOpenPosition"):
+            pos_ant, data_ant = bruto["arquivos"]["DerivativesOpenPosition"], d
+        sem_dado = not bruto["arquivos"] and not any(t["linhas"] for t in bruto["index"]["tabelas"].values())
+        if sem_dado:
+            manifest["falhas"].append(f"{d}: a B3 nao devolveu nada (feriado, pregao futuro ou fora da janela de 21 dias)")
+            continue
+        apoio = res.pop("_apoio")
+        hist = resumo.atualizar_historico(hist, res, cfg.get("historico_pregoes", 70))
+        merc = mercado.atualizar(merc, d.isoformat(), apoio["mercado_hoje"], apoio["teorica"], cfg.get("mercado_pregoes", 26))
+        rf_estado = renda_fixa.atualizar_estado(rf_estado, {"_linhas": apoio["rf_linhas"]}, d.isoformat(),
+                                                cfg_rf.get("volume_minimo_rs", 500000))
+        coleta.gravar(os.path.join(pasta, "resumo.json"), coleta.texto_resumo(res))
+        coleta.gravar(os.path.join(pasta, "resumo.md"), render.markdown(res))
+        anterior = ler_json(os.path.join(a.saida, relogios.dia_util_anterior("B3", d).isoformat(), "resumo.json"), None)
+        coleta.gravar(os.path.join(pasta, "painel.html"), painel.pagina(res, hist, anterior))
+        manifest["pregoes"][d.isoformat()] = {
+            "completo": res["situacao"]["completo"], "faltam": res["situacao"]["faltam"],
+            "boletim": res["situacao"]["boletim"], "sinais": len(res["sinais"]),
+            "tabelas": len(bruto["index"]["tabelas"]), "arquivos": sorted(bruto["index"]["arquivos"]),
+            "rf_cadastro": bruto["index"].get("rf_cadastro"),
+            "falhas": bruto["index"]["falhas"], "segundos": round(time.time() - t0)}
+        ultimo = (d, bruto)
+        # grava a cada pregao: rodada longa interrompida nao perde o que ja veio
+        compacto = {"ensure_ascii": False, "separators": (",", ":")}
+        coleta.gravar(os.path.join(a.saida, "historico.json"), json.dumps(hist, **compacto))
+        coleta.gravar(os.path.join(a.saida, "mercado.json"), json.dumps(merc, **compacto))
+        coleta.gravar(os.path.join(a.saida, "rf_estado.json"), json.dumps(rf_estado, **compacto))
 
-    gravar(os.path.join(a.saida, "manifest.json"), manifest)
-    print(json.dumps(manifest, ensure_ascii=False, indent=1)[:4000])
-    return 0
+    if ultimo:
+        manifest["ultimo_pregao"] = ultimo[0].isoformat()
+        if a.pdf and ultimo[1].get("status"):
+            manifest["pdf_no_artefato"] = baixar_pdfs(cli, ultimo[1]["status"], a.pdf)
+    coleta.gravar(os.path.join(a.saida, "manifest.json"), manifest)
+    print(json.dumps(manifest, ensure_ascii=False, indent=1)[:6000])
+    return 0 if manifest["pregoes"] else 1
 
 
 if __name__ == "__main__":

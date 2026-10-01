@@ -269,6 +269,56 @@ Testes sem rede: `pip install -r requirements-livro.txt pytest` e
 
 ---
 
+## Boletim Diario do Mercado da B3 (o que a bolsa publica depois do pregao)
+
+A pagina do boletim na B3 e um iframe do aplicativo `https://arquivos.b3.com.br/bdi/`,
+que serve tudo sem cadastro: 69 tabelas em JSON, os cadernos em PDF e os arquivos
+CSV da API de download. O sistema segue o desenho do livro:
+
+1. **Runner** (`.github/workflows/boletim-b3.yml` + `boletim_b3.py` + pacote
+   `boletim/`): le a situacao dos cadernos, 47 tabelas e 4 arquivos do pregao (de 2 a
+   3 minutos), cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
+   no branch `dados`: `<pregao>/resumo.json` (numeros com fonte e data e a lista de
+   sinais), `<pregao>/resumo.md` (cards de texto), `<pregao>/painel.html` (a pagina que
+   a sessao publica como Artifact), `<pregao>/tabelas/` (tabelas pequenas inteiras),
+   `<pregao>/status.json` (link de cada caderno em PDF na B3) e os arquivos de apoio
+   `historico.json` (70 pregoes do livro), `mercado.json` (26 pregoes do IBrA),
+   `rf_cadastro.json` e `rf_estado.json` (renda fixa). PDF nao vai para o git: o
+   boletim completo passa de 50 MB e 1.800 paginas por pregao.
+2. **O que sai**:
+   - renda variavel do livro: volume contra a media de 20 pregoes, aluguel (saldo, % da
+     quantidade teorica do indice, pregoes de giro, taxa do tomador), put/call, ADR,
+     peso nos indices, proventos e comunicados;
+   - renda variavel do mercado inteiro (radar no IBrA): mais alugadas, aluguel mais
+     caro, saldo alugado que mais mexeu, volume fora do padrao, vendidos sob pressao;
+   - aluguel por corretora (doador e tomador de cada emprestimo do dia);
+   - opcoes: posicao em aberto por strike e vencimento, paredes, dor maxima, parcela a
+     descoberto, series que mais ganharam e perderam posicao, no livro, no Ibovespa
+     (IBOV11 e BOVA11) e no mercado inteiro;
+   - fluxo por tipo de investidor (acumulado do mes e saldo do ultimo dia divulgado);
+   - futuros de DI, DAP, dolar e indice, contratos em aberto por mercado, opcoes de dolar;
+   - renda fixa de balcao so no que o Douglas opera: debentures incentivadas, CRI e
+     CRA, com a taxa de cada negocio cruzada com o cadastro (incentivada, indexador,
+     vencimento), premio sobre o juro real (DAP), quem abriu e quem fechou taxa.
+   Limiares em `config/boletim.yaml`.
+3. **Sessao do Claude** (skill `.claude/skills/boletim-b3/SKILL.md`):
+   `python3 mesa.py boletim` imprime o veredito (ATUAL ou VELHO, COMPLETO ou
+   PARCIAL) e a leitura; `mesa.py boletim PETR4`, `boletim rf`, `boletim opcoes
+   PETR4`, `boletim radar`, `boletim sinais`, `boletim status`, `boletim json <bloco>`
+   completam. A sessao escreve a Leitura da Mesa e republica o painel no Artifact.
+
+Duas rodadas por pregao: 21h40 BRT (negocios, fluxo, indices, futuros, renda fixa,
+ETFs) e 08h35 BRT do dia seguinte (aluguel, corretoras, posicoes em aberto e
+derivativos, que a B3 publica de madrugada). As duas refazem os 2 ultimos pregoes e
+sao idempotentes. Disparo manual: aba Actions > "Boletim B3" > Run workflow (`dias`
+ate 21, que e a janela que a B3 guarda; `pdf` baixa os cadernos para o artefato).
+Sem rede: `python boletim_b3.py --saida <pasta> --so-painel` refaz os paineis a partir
+dos resumos guardados.
+
+O que o boletim nao tem: posicao em aberto de derivativos por tipo de investidor.
+
+---
+
 ## Dados gravados em disco
 
 Ficam em `data/`: `watchlist.json`, `alert_history.json`,

@@ -27,6 +27,17 @@ mesmo formato. Substitui os scripts avulsos escritos a cada analise.
     python3 mesa.py kinea video ID --de 38:00 --ate 41:00             # legenda de um video (inteira ou num intervalo)
     python3 mesa.py kinea docs --grep "Cury|MCMV"  # apresentacoes da live, relatorios e posts do site
     python3 mesa.py kinea imagens 2026-08        # paginas de posicoes em imagem (as empresas aparecem como logotipo)
+    python3 mesa.py boletim                      # Boletim Diario da B3 do ultimo pregao: sinais, fluxo, aluguel, opcoes, futuros; VEREDITO ATUAL (0) ou velho (1)
+    python3 mesa.py boletim 2026-09-29           # o mesmo para um pregao guardado
+    python3 mesa.py boletim PETR4                # o ativo no boletim: negocios, aluguel, opcoes por strike, ADR, indice e os ultimos pregoes
+    python3 mesa.py boletim sinais               # so os sinais, novos e repetidos
+    python3 mesa.py boletim status               # cadernos em PDF (links), tabelas pendentes e falhas da ultima rodada
+    python3 mesa.py boletim tabela IOPV          # uma tabela do boletim como a B3 publicou
+    python3 mesa.py boletim rf                   # renda fixa: debentures incentivadas, CRI e CRA (taxa do dia, premio, quem abriu e fechou)
+    python3 mesa.py boletim opcoes PETR4         # opcoes do ativo: vencimentos, posicao por strike, paredes, dor maxima, series que mudaram
+    python3 mesa.py boletim radar                # mercado inteiro: mais alugadas, aluguel mais caro, volume anormal, opcoes, corretoras
+    python3 mesa.py boletim json renda_fixa      # um bloco do resumo em JSON, para outro agente consumir (sem argumento, lista os blocos)
+    python3 mesa.py boletim painel               # endereco do painel.html do pregao (o que a sessao publica como Artifact)
     python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
 
 Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
@@ -1257,8 +1268,249 @@ def kinea_imagens(args):
     return 0
 
 
+# Boletim Diario do Mercado da B3 (boletim_b3.py, workflow boletim-b3.yml)
+# ---------------------------------------------------------------------------
+
+def _pregao_esperado(agora=None):
+    """Ultimo pregao que a rodada da noite (21h40 BRT) ja deveria ter gravado."""
+    brt = datetime.timezone(datetime.timedelta(hours=-3))
+    agora = (agora or datetime.datetime.now(datetime.timezone.utc)).astimezone(brt)
+    d = agora.date() if (agora.hour, agora.minute) >= (21, 40) else agora.date() - datetime.timedelta(days=1)
+    try:
+        from livro import relogios
+        return relogios.ultimo_dia_util("B3", d)
+    except Exception:           # sem pyyaml na sessao: so fim de semana, sem feriado
+        while d.weekday() > 4:
+            d -= datetime.timedelta(days=1)
+        return d
+
+
+def veredito_boletim(manifest, resumo, agora=None):
+    """(linha, ok). ATUAL = e o pregao esperado; COMPLETO = a B3 ja publicou aluguel e posicoes em aberto."""
+    if not manifest or not resumo:
+        return "BOLETIM B3: AUSENTE (boletim_b3/manifest.json nao esta no branch dados: dispare boletim-b3.yml)", False
+    esperado = _pregao_esperado(agora).isoformat()
+    pregao, sit = resumo["pregao"], resumo["situacao"]
+    atual = pregao >= esperado
+    h = _idade_h(resumo.get("gerado_em") or "")
+    partes = [f"pregao {pregao}", "ATUAL" if atual else f"VELHO (esperado {esperado})",
+              "COMPLETO" if sit["completo"] else "PARCIAL (falta: " + ", ".join(sit["faltam"]) + ")",
+              f"{len(resumo.get('sinais') or [])} sinais", f"coleta de {resumo.get('gerado_em', '?')}" + ("" if h is None else f" ({h:.0f}h)")]
+    return "BOLETIM B3: " + " | ".join(partes), atual
+
+
+def _boletim_ativo(tk, resumo, hist):
+    a = (resumo.get("ativos") or {}).get(tk)
+    if not a:
+        print(f"   {tk} nao esta no livro da B3 (config/livro.yaml). No livro: {', '.join(resumo.get('ativos') or {})}")
+        return 1
+    print(f"\n== {tk} no boletim de {resumo['pregao']} ({a.get('nome')})")
+    g = a.get("negocios")
+    if g:
+        print(f"-- negocios (B3 TradeInformationConsolidated, {resumo['pregao']})")
+        print(f"   fechamento R$ {fmt(g.get('fechamento'), 2)} | dia {fmt(g.get('oscilacao_pct'), 2)}% | 5 pregoes {fmt(g.get('var_5d_pct'), 2)}%"
+              f" | min {fmt(g.get('minimo'), 2)} max {fmt(g.get('maximo'), 2)}")
+        print(f"   volume R$ {fmt((g.get('volume_rs') or 0) / 1e6, 1)} mi | {fmt(g.get('negocios'), 0)} negocios | "
+              f"media de {g.get('pregoes_na_media', 0)} pregoes R$ {fmt((g.get('volume_media_rs') or 0) / 1e6, 1) if g.get('volume_media_rs') else '-'} mi"
+              f" | dia/media {fmt(g.get('volume_x_media'), 2) if g.get('volume_x_media') else '-'}x")
+    g = a.get("aluguel")
+    if g:
+        print("-- aluguel de acoes (B3 BTBLendingOpenPosition e BTBLoanBalance)")
+        print(f"   saldo {fmt((g.get('saldo_qtd') or 0) / 1e6, 2)} mi de acoes (R$ {fmt((g.get('saldo_rs') or 0) / 1e6, 1)} mi)"
+              f" | % do free float {fmt(g.get('pct_free_float'), 2)} | pregoes de giro {fmt(g.get('pregoes_para_cobrir'), 1)}")
+        print(f"   variacao: dia {fmt(g.get('var_dia_pct'), 2)}% | 5 pregoes {fmt(g.get('var_5d_pct'), 2)}%"
+              f" | taxa do tomador {fmt(g.get('taxa_tomador_media'), 2)}% a.a. (max {fmt(g.get('taxa_tomador_max'), 2)}%)")
+        print(f"   emprestimos do dia: {fmt(g.get('novos_contratos'), 0)} contratos, {fmt((g.get('novos_qtd') or 0) / 1e6, 2)} mi de acoes")
+    g = a.get("opcoes")
+    if g:
+        print("-- opcoes (B3 DerivativesOpenPosition + InstrumentsConsolidated)")
+        print(f"   posicao em aberto: call {fmt(g.get('posicao_call'), 0)} | put {fmt(g.get('posicao_put'), 0)} | put/call {fmt(g.get('put_call'), 2)}"
+              f" | volume do dia: call R$ {fmt((g.get('volume_call_rs') or 0) / 1e6, 1)} mi, put R$ {fmt((g.get('volume_put_rs') or 0) / 1e6, 1)} mi")
+        for v in g.get("vencimentos") or []:
+            print(f"   vencimento {v['vencimento']} ({v['dias_uteis']} dias uteis): call {fmt(v['posicao_call'], 0)} | put {fmt(v['posicao_put'], 0)}")
+            for tipo in ("call", "put"):
+                print(f"      {tipo:4s} por strike: " + "  ".join(f"{fmt(k, 2)}={fmt(q, 0)}" for k, q in v.get(f"strikes_{tipo}") or []))
+    for chave, titulo in (("indice", "indice (carteira teorica)"), ("etf", "ETF (IOPV e cotas)"), ("adr", "programa de ADR"),
+                          ("termo", "termo"), ("after_market", "after market"), ("cadastro", "cadastro")):
+        if a.get(chave):
+            print(f"-- {titulo}: {json.dumps(a[chave], ensure_ascii=False)}")
+    sinais = [s for s in resumo.get("sinais") or [] if s.get("ativo") == tk]
+    print(f"-- sinais ({len(sinais)})")
+    for s in sinais:
+        print(f"   [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  (B3 {s['fonte']}, {s['data']})")
+    if hist:
+        print("-- ultimos pregoes (historico compacto)")
+        print(f"   {'pregao':10s} {'fech':>8s} {'dia %':>7s} {'vol R$ mi':>10s} {'alug mi':>9s} {'taxa %':>7s}")
+        for d in sorted(hist.get("pregoes") or {})[-12:]:
+            x = (hist["pregoes"][d].get("ativos") or {}).get(tk) or {}
+            print(f"   {d:10s} {fmt(x.get('fech'), 2):>8s} {fmt(x.get('osc'), 2):>7s} {fmt((x.get('vol') or 0) / 1e6, 1) if x.get('vol') else '-':>10s}"
+                  f" {fmt((x.get('alug') or 0) / 1e6, 2) if x.get('alug') else '-':>9s} {fmt(x.get('taxa'), 2):>7s}")
+    return 0
+
+
+def _taxa_rf(l):
+    t, c = l.get("taxa_media"), l.get("convencao")
+    if t is None:
+        return "sem taxa"
+    if c == "% do CDI":
+        return f"{fmt(t, 1)}% do CDI"
+    return f"{fmt(t, 2)}% pre" if c == "Pré" else f"{c or ''} {fmt(t, 2)}%"
+
+
+def _boletim_rf(resumo):
+    rf = resumo.get("renda_fixa") or {}
+    if not rf.get("resumo"):
+        print("   renda fixa ausente neste pregao (tabela Trade da B3 nao veio)")
+        return 1
+    nomes = {"deb_incentivada": "debentures incentivadas", "cri": "CRI", "cra": "CRA", "deb_comum": "debentures nao incentivadas"}
+    print(f"\n== renda fixa de balcao em {rf['data']} (B3 Trade + InstrumentRegistration; cadastro lido para {rf.get('cobertura_cadastro_pct')}% do volume)")
+    for cl, v in rf["resumo"].items():
+        print(f"   {nomes.get(cl, cl):28s} R$ {fmt((v.get('volume_rs') or 0) / 1e6, 1):>9s} mi | {v.get('negocios')} negocios em {v.get('papeis')} papeis"
+              f" | IPCA+ medio {fmt(v.get('taxa_ipca_media'), 2)}% | premio s/ DAP {fmt(v.get('premio_dap_medio_pb'), 0)} pb"
+              f" | CDI+ medio {fmt(v.get('premio_cdi_medio'), 2)}% | x media {fmt(v.get('volume_x_media'), 2)}")
+    for cl in ("deb_incentivada", "cri", "cra"):
+        print(f"\n-- {nomes[cl]}: mais negociados")
+        print(f"   {'codigo':12s} {'emissor':30s} {'taxa do dia':>16s} {'emissao':>8s} {'premio pb':>9s} {'var pb':>7s} {'venc':>10s} {'R$ mi':>8s} {'neg':>5s}")
+        for l in (rf.get("papeis") or {}).get(cl) or []:
+            print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa_rf(l):>16s} {fmt(l.get('taxa_emissao'), 2):>8s} {fmt(l.get('premio_dap_pb'), 0):>9s}"
+                  f" {fmt(l.get('var_taxa_pb'), 0):>7s} {str(l.get('vencimento') or '-'):>10s} {fmt(l['volume_rs'] / 1e6, 1):>8s} {l['negocios']:>5d}")
+    for chave, titulo in (("aberturas", "abriram taxa"), ("fechamentos", "fecharam taxa"), ("premios_altos", "premio alto")):
+        if rf.get(chave):
+            print(f"\n-- {titulo}")
+            for l in rf[chave]:
+                print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa_rf(l):>16s} var {fmt(l.get('var_taxa_pb'), 0):>5s} pb (vs {l.get('comparado_com') or '-'})"
+                      f" premio {fmt(l.get('premio_dap_pb'), 0):>5s} pb | R$ {fmt(l['volume_rs'] / 1e6, 1)} mi")
+    print(f"\n   {rf.get('nota')}")
+    return 0
+
+
+def _boletim_opcoes(tk, resumo):
+    o = ((resumo.get("ativos") or {}).get(tk) or {}).get("opcoes") or (resumo.get("opcoes_extras") or {}).get(tk)
+    if not o:
+        print(f"   sem opcoes de {tk} no resumo. Disponiveis: "
+              + ", ".join([k for k, a in (resumo.get('ativos') or {}).items() if a.get('opcoes')] + list(resumo.get('opcoes_extras') or {})))
+        return 1
+    print(f"\n== opcoes de {tk} em {resumo['pregao']} (B3 DerivativesOpenPosition + InstrumentsConsolidated + negocios)")
+    print(f"   preco {fmt(o.get('preco'), 2)} | posicao: call {fmt(o.get('posicao_call'), 0)} put {fmt(o.get('posicao_put'), 0)}"
+          f" | put/call {fmt(o.get('put_call'), 2)} (anterior {fmt(o.get('put_call_anterior'), 2)})"
+          f" | a descoberto: call {fmt(o.get('descoberta_call_pct'), 0)}% put {fmt(o.get('descoberta_put_pct'), 0)}%")
+    print(f"   volume do dia: call R$ {fmt((o.get('volume_call_rs') or 0) / 1e6, 1)} mi | put R$ {fmt((o.get('volume_put_rs') or 0) / 1e6, 1)} mi")
+    print("-- vencimentos com posicao (data, call, put): " + "; ".join(f"{v[0]} {fmt(v[1], 0)} / {fmt(v[2], 0)}" for v in o.get("todos_vencimentos") or []))
+    for v in o.get("vencimentos") or []:
+        pc_, pp_ = v.get("parede_call") or {}, v.get("parede_put") or {}
+        print(f"-- vencimento {v['vencimento']} ({v['dias_uteis']} dias uteis): call {fmt(v['posicao_call'], 0)} | put {fmt(v['posicao_put'], 0)}"
+              f" | dor maxima {fmt(v.get('dor_maxima'), 2)} ({fmt(v.get('dor_maxima_dist_pct'), 1)}% do preco)")
+        print(f"   teto (maior call acima do preco): {fmt(pc_.get('strike'), 2)} com {fmt(pc_.get('posicao'), 0)} ({fmt(pc_.get('distancia_pct'), 1)}%)"
+              f" | piso (maior put abaixo): {fmt(pp_.get('strike'), 2)} com {fmt(pp_.get('posicao'), 0)} ({fmt(pp_.get('distancia_pct'), 1)}%)")
+        if v.get("grade"):
+            print("   strike: call / put")
+            for k, c, p_ in v["grade"]:
+                print(f"   {fmt(k, 2):>9s}: {fmt(c, 0):>12s} / {fmt(p_, 0):>12s}")
+    for chave, titulo in (("maiores_altas", "series que mais ganharam posicao"), ("maiores_quedas", "series que mais perderam posicao")):
+        if o.get(chave):
+            print(f"-- {titulo}")
+            for m in o[chave]:
+                print(f"   {m['codigo']:12s} {m['tipo']:4s} strike {fmt(m.get('strike'), 2):>8s} venc {m.get('vencimento')} var {fmt(m['variacao'], 0):>12s} -> {fmt(m.get('posicao'), 0)}")
+    if o.get("mais_negociadas"):
+        print("-- mais negociadas no dia")
+        for m in o["mais_negociadas"]:
+            print(f"   {m['codigo']:12s} {m['tipo']:4s} strike {fmt(m.get('strike'), 2):>8s} venc {m.get('vencimento')} ultimo {fmt(m.get('ultimo'), 2)}"
+                  f" ({fmt(m.get('oscilacao_pct'), 1)}%) R$ {fmt((m.get('volume_rs') or 0) / 1e3, 0)} mil")
+    return 0
+
+
+def _boletim_radar(resumo):
+    rad, om, corr = resumo.get("radar") or {}, resumo.get("opcoes_mercado") or {}, resumo.get("aluguel_corretoras") or {}
+    print(f"\n== radar do mercado em {resumo['pregao']}: universo {rad.get('universo')} ({rad.get('fonte_universo')}),"
+          f" {rad.get('pregoes_no_historico')} pregoes de historico; aluguel total R$ {fmt((rad.get('aluguel_total_rs') or 0) / 1e9, 1)} bi")
+    campos = (("volume", "volume fora do padrao", "volume_x_media", "x"), ("aluguel_float", "mais alugadas (% das acoes)", "pct_free_float", "%"),
+              ("aluguel_taxa", "aluguel mais caro (% a.a.)", "taxa", "%"), ("aluguel_alta", "saldo alugado que mais subiu no dia", "aluguel_var_dia_pct", "%"),
+              ("aluguel_queda", "saldo alugado que mais caiu no dia", "aluguel_var_dia_pct", "%"),
+              ("vendidos_pressionados", "vendidos sob pressao (preco em 5 pregoes)", "preco_5d_pct", "%"),
+              ("aposta_vendida_crescendo", "aposta vendida crescendo (aluguel em 5 pregoes)", "aluguel_var_5d_pct", "%"))
+    for chave, titulo, campo, un in campos:
+        if rad.get(chave):
+            print(f"-- {titulo}: " + ", ".join(f"{l['ativo']} {fmt(l.get(campo), 1)}{un}" for l in rad[chave]))
+    if om.get("por_ativo"):
+        print(f"-- opcoes: put/call do mercado {fmt(om.get('put_call'), 2)} na posicao e {fmt(om.get('put_call_volume'), 2)} no volume")
+        print("   por ativo (call mi / put mi / put-call): " + "; ".join(
+            f"{a['ativo']} {fmt(a['call'] / 1e6, 0)}/{fmt(a['put'] / 1e6, 0)}/{fmt(a.get('put_call'), 2)}" for a in om["por_ativo"]))
+        for chave, titulo in (("maiores_altas", "ganharam posicao"), ("maiores_quedas", "perderam posicao")):
+            print(f"   {titulo}: " + "; ".join(f"{m['codigo']} ({m['ativo']} {m['tipo']} {fmt(m.get('strike'), 2)}) {fmt(m['variacao'] / 1e6, 2)} mi" for m in om.get(chave) or []))
+    if corr.get("tomadoras"):
+        print("-- corretoras no aluguel do dia (intermediario): tomadoras " + ", ".join(f"{x[0]} {fmt(x[2], 0)}%" for x in corr["tomadoras"][:6]))
+        print("   doadoras " + ", ".join(f"{x[0]} {fmt(x[2], 0)}%" for x in corr["doadoras"][:6]))
+        for tk, v in (corr.get("ativos") or {}).items():
+            if tk in (resumo.get("ativos") or {}):
+                print(f"   {tk}: {fmt((v.get('quantidade') or 0) / 1e6, 2)} mi de acoes | tomadoras " + ", ".join(f"{a} {fmt(b, 0)}%" for a, b in v.get("tomadoras") or []))
+    return 0
+
+
+def boletim(args):
+    manifest = baixar("boletim_b3/manifest.json")
+    sub = args[0] if args else ""
+    pregao = sub if re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) else (manifest or {}).get("ultimo_pregao")
+    if "--data" in args and args.index("--data") + 1 < len(args):
+        pregao = args[args.index("--data") + 1]
+    resumo = baixar(f"boletim_b3/{pregao}/resumo.json") if pregao else None
+    linha, ok = veredito_boletim(manifest, resumo)
+    print(linha)
+    if not resumo:
+        return 1
+    if sub == "sinais":
+        for s in resumo.get("sinais") or []:
+            print(f"- [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  (B3 {s['fonte']}, {s['data']})")
+    elif sub == "status":
+        st = baixar(f"boletim_b3/{pregao}/status.json") or {}
+        print(f"\n== cadernos do boletim de {pregao}: {st.get('situacao')} em {st.get('atualizado_em')}")
+        for c in [dict(st.get("completo") or {}, nome="Boletim completo", situacao=st.get("situacao"))] + (st.get("cadernos") or []):
+            print(f"   {c.get('nome', ''):32s} {c.get('situacao') or '':12s} {str(c.get('atualizado_em') or '')[:16]:16s} {c.get('pdf') or '(sem PDF)'}")
+        print("\n== pendentes e falhas")
+        for k, v in (resumo["situacao"].get("pendentes") or {}).items():
+            print(f"   {k}: {v}")
+        for f in (manifest or {}).get("falhas") or []:
+            print(f"   rodada: {f}")
+        print(f"   publicadas com atraso: {', '.join(resumo['situacao'].get('publicadas_com_atraso') or []) or 'nenhuma'}")
+    elif sub == "tabela" and len(args) >= 2:
+        t = baixar(f"boletim_b3/{pregao}/tabelas/{args[1]}.json")
+        if not t:
+            print(f"   tabela {args[1]} nao foi gravada em {pregao}; as gravadas estao em boletim_b3/{pregao}/index.json")
+            return 1
+
+        def mostra(t, recuo=""):
+            print(f"{recuo}== {t.get('nome')} | {t.get('titulo')} | {t.get('situacao', '')} {t.get('atualizado_em', '')}")
+            if t.get("linhas"):
+                print(recuo + "   " + " | ".join(c["titulo"] for c in t["colunas"]))
+                for l in t["linhas"][:400]:
+                    print(recuo + "   " + " | ".join("-" if v is None else str(v) for v in l))
+            for f in t.get("filhos") or []:
+                mostra(f, recuo + "  ")
+        mostra(t)
+    elif sub == "rf":
+        return _boletim_rf(resumo) or (0 if ok else 1)
+    elif sub == "opcoes" and len(args) >= 2:
+        return _boletim_opcoes(args[1].upper(), resumo) or (0 if ok else 1)
+    elif sub == "radar":
+        return _boletim_radar(resumo) or (0 if ok else 1)
+    elif sub == "json":
+        if len(args) >= 2 and args[1] in resumo:
+            print(json.dumps(resumo[args[1]], ensure_ascii=False, indent=1))
+        else:
+            print("   blocos do resumo: " + ", ".join(resumo))
+    elif sub == "painel":
+        print(f"   {BASE}boletim_b3/{pregao}/painel.html")
+        print(f"   ou: git show origin/dados:boletim_b3/{pregao}/painel.html > painel.html")
+        print("   troque [[LEITURA_DA_MESA]] pela leitura e publique no Artifact do boletim (URL na skill boletim-b3)")
+    elif sub and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) and sub != "--data":
+        return _boletim_ativo(sub.upper(), resumo, baixar("boletim_b3/historico.json")) or (0 if ok else 1)
+    else:
+        print()
+        print(baixar(f"boletim_b3/{pregao}/resumo.md", texto=True) or "!! resumo.md ausente")
+    return 0 if ok else 1
+
+
 COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor",
-            "cobertura", "termos", "skills", "kinea")
+            "cobertura", "termos", "skills", "kinea", "boletim")
 
 
 def skills():
@@ -1269,6 +1521,7 @@ def skills():
         "deep-search": ["SKILL.md"],
         "dados-completos": ["SKILL.md"],
         "livro": ["SKILL.md"],
+        "boletim-b3": ["SKILL.md"],
     }
     ok = True
     print("== skills da mesa em .claude/skills/")
@@ -1361,6 +1614,8 @@ def main(argv):
         return skills()
     elif cmd == "kinea":
         return kinea(args)
+    elif cmd == "boletim":
+        return boletim(args)
     else:
         print(__doc__)
         return 1

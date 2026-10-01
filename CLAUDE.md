@@ -87,6 +87,13 @@ aberta:
   `mesa.py kinea imagens`)
 - `https://raw.githubusercontent.com/douglora/broadcast/dados/snapshot/<arquivo>.json`
   (quotes, indicators, tesouro, di, cvm, news, tir_all, weekly_summary, manifest)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/boletim_b3/manifest.json`,
+  `.../boletim_b3/<AAAA-MM-DD>/resumo.json`, `resumo.md` e `painel.html`,
+  `.../boletim_b3/historico.json` e `mercado.json` (Boletim Diario do Mercado da B3
+  cruzado com os ativos B3 do livro: fluxo por tipo de investidor, aluguel de acoes e
+  corretoras, radar do IBrA, volume contra a media, opcoes por strike, futuros,
+  debentures incentivadas, CRI e CRA com taxa do dia, IOPV dos ETFs, ADR, proventos e
+  comunicados; workflow `boletim-b3.yml`; leitura por `python3 mesa.py boletim`)
 
 Para atualizar um ativo com os pares: dispare `coletar-dados.yml` no ref
 `main` com os inputs `tickers` e `pares: auto` (ferramenta GitHub
@@ -141,6 +148,36 @@ Douglas ve no PC e no celular.
   "noticias", "fatos" e "integra <id>" estao na skill `livro`.
 - IUAA e o iShares US Aggregate Bond (duration ~6 anos), nao renda fixa
   ultracurta; IB01 e o caixa em dolar. EWY/MCHI sao hipotese.
+
+## Boletim Diario do Mercado da B3
+
+O boletim e o que a propria B3 publica depois do pregao (fluxo, aluguel de acoes,
+posicoes em aberto, opcoes, negocios de renda fixa de balcao, ETFs, proventos,
+comunicados). O workflow `.github/workflows/boletim-b3.yml` roda `boletim_b3.py`
+(pacote `boletim/`) no Actions e grava em `boletim_b3/` no branch `dados`: 21h40 BRT
+(parcial) e 08h35 BRT do dia seguinte (completo, com aluguel e posicoes em aberto).
+
+- Use a skill `boletim-b3` (.claude/skills/boletim-b3/SKILL.md) nos turnos da
+  Routine do boletim e quando ele escrever "boletim", "BDI", "fluxo estrangeiro",
+  "aluguel de X", "vendidos", "parede de opcoes", "opcoes de X", "debentures
+  incentivadas", "CRI", "CRA", "quem abriu taxa", "IOPV", "ADR", "previa do indice".
+- Leitura por `python3 mesa.py boletim` (veredito ATUAL/VELHO e COMPLETO/PARCIAL na
+  primeira linha), `mesa.py boletim TICKER`, `boletim rf`, `boletim opcoes TICKER`,
+  `boletim radar`, `boletim sinais`, `boletim status`, `boletim json <bloco>`.
+- A entrega e o painel (`boletim_b3/<pregao>/painel.html`), publicado no Artifact do
+  boletim em todo turno com a Leitura da Mesa no lugar de `[[LEITURA_DA_MESA]]`; a URL
+  fixa esta na skill. Formato branco e azul do Douglas, so claro.
+- A sessao nao calcula regra: os sinais saem do runner, com os limiares de
+  config/boletim.yaml. Cada numero leva a data que o resumo da; o fluxo por
+  investidor sai com dois pregoes de atraso e a rodada da noite e parcial (o painel
+  mostra aluguel e opcoes do pregao anterior, com a data no card).
+- Renda fixa so no que ele opera: debentures incentivadas, CRI e CRA. Taxa com volume
+  pequeno pode ser negocio isolado; em CRI e CRA a B3 informa a securitizadora; o
+  premio sobre o DAP compara por vencimento, nao por duration.
+- Corretora no aluguel e intermediario, nao investidor final.
+- Lacuna fixa: o boletim nao traz posicao em aberto de derivativos por tipo de
+  investidor. PDF do boletim nao vai para o git (o completo passa de 50 MB); o
+  `status.json` do pregao guarda o link de cada caderno na B3.
 
 ## Ferramentas instaladas
 
