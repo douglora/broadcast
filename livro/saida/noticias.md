@@ -1,8 +1,49 @@
-NOTÍCIAS E FATOS · 01/10 12h22
+NOTÍCIAS E FATOS · 01/10 13h21
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 427 veículo fora da lista, 37 sem ativo, 11 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 426 veículo fora da lista, 39 sem ativo, 5 teto) · cvm ok 0 novos de 10 (5 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · MU · Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending
+Yahoo Finance · 01/10 12h38 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending All three major US stock indexes were down in late-morning trading as Treasury…
+Link: https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-micron-shares-153823197.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU · AVGO
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Len…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 12h38
+id: E05-MU-8903da9c8d-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron analysts stay bullish after another beat and raise as memory demand outlook extends into 2027
+Yahoo Finance · 01/10 12h18 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Management said it sees sequential revenue and gross margin growth every quarter through fiscal 2027.
+  – The company forecast fiscal first-quarter revenue well above expectations on Wednesday, after fourth-quarter revenue surged 379% from a year earlier to $54.23 billion.
+  – The fourth-quarter figure compared with estimates of $51.07 billion.
+  – Adjusted earnings per share came in at $33.42, ahead of the $31.61 estimate, while GAAP earnings per share were $32.87.
+  – Bank of America reiterated its Buy rating and $1,550 price target, calling Micron a top AI pick.
+  – The firm raised its fiscal 2027 and 2028 sales estimates by 20% and 30%, and lifted EPS forecasts to $172 and $198.
+Link: https://ca.finance.yahoo.com/news/micron-analysts-stay-bullish-another-151800357.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron analysts stay bullish after another beat and raise as memory demand outlook extend…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 12h18
+id: E05-MU-6f997efdb4-2026-10-01 · status: pendente
+
+[ATENÇÃO] E05 · UST · Treasury 10-Year Yield Hits Highest Since 2002 on Rate Outlook
+Yahoo Finance · 01/10 04h29 · + CNBC · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – (Bloomberg) -- The US benchmark yield climbed to the highest since 2002 with persistent inflation, massive government borrowing and strong economic growth keeping interest-rate expectations elevated.
+  – Most Read from Bloomberg The yield on the 10-year Treasury note rose as much as four basis points to 5.33%, rising past the 2007 peak, as oil prices rose.
+  – The 30-year rate is also at the highest level since 2002.
+  – Most Read from Bloomberg Businessweek ©2026 Bloomberg L.P.
+Link: https://finance.yahoo.com/economy/policy/articles/treasury-10-yield-hits-highest-072955743.html
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no Yahoo Finance: Treasury 10-Year Yield Hits Highest Since 2002 on Rate Outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 04h29
+id: E05-UST-b04be41c12-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco aprova R$ 3,8 bilhões em JCP; veja quem tem direito
 ADVFN · 01/10 11h25 · fonte única · licença: manchete
@@ -11,7 +52,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBDC4
 Como falar: 'saiu no ADVFN: Bradesco aprova R$ 3,8 bilhões em JCP; veja quem tem direito; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 01/10 11h25
-id: E05-BBDC4-1dabb7bd2b-2026-10-01 · status: pendente
+id: E05-BBDC4-1dabb7bd2b-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Itaú (ITUB4), ISA Energia (ISAE4) e mais 3 ações para buscar dividendos, segundo Ágora Investimentos
 Money Times · 01/10 09h23 · fonte única · licença: integral
@@ -111,8 +152,23 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (59)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· JPM REG - JPMorgan China G&I - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-10-01:newsml_RSA2979Xa:0-reg-jpmorgan-china-g-i-dividend-declaration/
+· USDBRL Dólar hoje sobe mais de 1% e ultrapassa R$ 5,20 por cautela com Treasuries (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-01102026/
+· MU Micron Technology Seen With Increasingly Positive Duration Tone, Capital Returns Outlook, UBS Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-technology-seen-increasingly-positive-154856670.html
+· PETR4 Petrobras aumenta preço do QAV em 11,8% às distribuidoras (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-aumenta-preco-do-qav-em-118-as-distribuidoras/
+· BAC What It Actually Takes for Bank of America to Keep Raising Its Dividend (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/actually-takes-bank-america-keep-154550775.html
+· NVDA Nvidia, Intel and 3 More: BofA Reveals 5 Chip Stocks to Own (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7b0e040e2094b:0-nvidia-intel-and-3-more-bofa-reveals-5-chip-stocks-to-own/
+· UST Wall Street dips as surging Treasury yields outweigh software gains (Reuters) https://www.reuters.com/business/dow-futures-hit-three-month-low-yields-surge-micron-earnings-offer-support-2026-10-01/
+· BTC Is Bitcoin the Best Bet for Q4? An 'Epic Run' May Be Ahead, Expert Says (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:abd3f25a9094b:0-is-bitcoin-the-best-bet-for-q4-an-epic-run-may-be-ahead-expert-says/
+· LITE Coherent Jumps 10% on PhotonLink Push and Bernstein’s Outperform Start; Lumentum Rises 9%, Corning Advances 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coherent-jumps-10-photonlink-push-145611273.html
+· NVDA Nvidia’s Hyperscaler Revenue Could Reach $401B In 2027, Says Analyst: SpaceX Could Push Barclays’ ‘Napkin Math’ Higher (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXN6Y29CQkRQNlcwbXJFMl9RSEJ0ZUtnZ3g1WWl5Z2YwMVdLTVQ0dTNiaXlRNGtoY3R2TlZRWDQ0eUQ0TElGZmZMdFV2ZEFFeFZxYmlGODhObTllem16RnM3RDdMMjZHb0lrRGw0UHVqOElnVFM4a1NrRlU0RjFhbUZ5N1dHNjljdkl2dHdabnZ2bUVXZjVnR3BXQzE2b2RfVFVNcmZ3?oc=5
+· MU With record earnings in the rearview, Micron faces Taiwan strike prospects (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxPTkkzV2dSc2RmQjhMb3hwZ2xRWWphMW5CX2lTdkpqdDJqM3YteHBjaGFLYWhiZlFqX1F1dHBuQkNVSnBPTzNCUDhFVjJMclh3S0FKbXZGNzhWYW1UYkJMMS1paUh0NWJjanZZY1Awd0RMQXh2N3VJa1MwM1ByWXJNeVAxV0g0dHdIbFREbTljcw?oc=5
+· VALE3 Ibovespa passa a cair pressionado por Bolsas de NY e baixa das ações da Vale (Estadao) https://news.google.com/rss/articles/CBMixwFBVV95cUxOYzhKNFdWZi1pYl9nYkt3bzl3eWl6OWVScWx0OFZBZFBOcUVmMTYtZ1hOM0syR2tlYS1seENCOF9jdEVubTRLT2EwaXB0MmNzU2ZTZ21XczFwX2JfOS1LYUx4MmFFcDRXN2tGX2RFTUpNSGZ6ZEp4dS1LaWZoY28zNXNXOWZvbW5JVEx2Qjhkako5SjJDS05UMmNaUUhkNW56b3JtMVhMQnVxa3hxUWhxSGtoYXNEektldHlOa3NEQTBsT0tMNVRV0gHMAUFVX3lxTFBtY2l5VEh3UzVhb2pIanVJTFlfY3BDMlJpTTJtdmVrR1dCVm9YVGJlMGNWM095aXFlcGlzemw4SlhWeVVFcDg1VUJ6bFRleWdOdjRvZ1Z2UWxtWk1RY1Y1NThRbkxyVGhmaE5xVFJPTFhLOG4zTkYweWpOLUFQTkxQQmRZYko1cVZ1QTQyNXJfZFhpQk5Ic1ZFNTdoeGUxcWJZb1F2R3JTbUVRUlU0Ry1mU0VDRG1wOUhwOVpOWjNXVDVXMG5BR2lidk43TQ?oc=5
+· PETR4 Petrobras aumenta preço do querosene de aviação em outubro (g1) https://news.google.com/rss/articles/CBMif0FVX3lxTE5tLURWYVF3aFMzMm1VWFNqQXByeTJDRm9maUZJY1g3cVFtV2c2aGZSaDAtMXZqMm9DU0ktbDFSU0VWOFlEN1F5NnV1dG9icW1BZDBmcEF1UVdDc3VWNkQ3R2JmdEEwbV90elJ3NVJrUks5ZzgxTHFaSm4yOTQyakXSAY4BQVVfeXFMT2dQQUstMGY4SGJaRDB1Y1R3TjRfQ29keklqSU5oN19ON3ZuRnp4bXFFTjloZlFYd3lkTE1IVHZLemtWUGMwaTkzT0xpRERfU1FESVV4V1AwWXo5ZWVtS3lDRHk2cU15Qm9Sa0FZc1IzZFVpZ2pMZ1lVZXA5TTZpWm9kNVpjNFVGMGJXRmtEZw?oc=5
+· MU Broadcom lends Anthropic $42B, Nike releases Caitlin 1s, and Micron earnings takeaways (Yahoo Finance) https://news.google.com/rss/articles/CBMiygFBVV95cUxOVlMwTi1kZ1FKRzVpNmMtQTZXU2gtUWsxWGF0M2c3OUMyN3lrQ2NUZ25FMzdyWmFWWExKOXJsR3o5RzEyMlNGMGJTakwzMTVxQUh0Z3RhdVdKS0prd2t3RnVtZkNBcG1EYWlIOVhvclE5NkpnMmVCTmZFNEpESU5obG5jT1pkdHVaMU5HVTlUN3VPWXVnWW1vZkMwaVpMRW44T0kxVVlkNjB0ZmZvSGJfNFo3bWE1cDJLbEQxeG9kWm9QV0YzM3FsRThR?oc=5
+· BRENT Dow Jones hoje: petróleo acima de US$ 100 limita Wall Street, apesar do impulso da IA (Estadao) https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWxCbWRuMzJNSnZDb3NGUldpX1N0NHZkWnd4MG1LcllkRTM3Z2c3ekdVYndyam1CT1ZSV2dnNFhsUm05aWhaSDBneml4LV8yMXRSZWFCQUg1QlNsdm5JWS05cWd6QVpNYkZCOE9pc0JqMVZPTmRmc01wcnkzdnh6OUhsNmV1bVdveU1pWGpnTVhoSkVkZEtTMVdOb2ZUMy1pWlFvNlZkVzRZZWxMRHdSNXpvRE1paTR5SV96TjVueWEzbUZTSXJLWm9Pa2N4RnpNNmxiN0FyMlV2d1J5YWliQkZrVlR3ekRJM2VqWVFn0gHzAUFVX3lxTFBFUDU1M2Rxd3EzeVp5Z1dhUFdUdUYxaXdqN3lyNzVLc3NLUWEzWGxSSXpTT0Jnamd3bHNnVUtxb1JsLWFKX0l2aDlmTVJmOGEtRWxxc0wzTGZOVXJMSWhweDAwMWFuLWVLcGNRSTUtZ0RQTmF3Skc2aW80eXIwZlRSRGd5bGN4bk0xY3lxWjdrTEQzc1FqNExfZDNfTDRONTdwSWJzaUNxTjBwUmtLVWw5eHllTEVleGFnLXEzdXI3U3pSSVp0WEwwbEVKRW5ocFl1dUh6WmprdnRmbTBrMTBlUTVxY01qRVlZTW9aMC1zdzVlQQ?oc=5
 · MU Micron stock dips after earnings despite answer to analyst's key question (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-stock-dips-after-earnings-despite-answer-to-analysts-key-question-134446610.html
 · TSLA Tesla EV Deliveries Set to Drop on Weak US Demand, Aging Lineup (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-01/tesla-ev-deliveries-set-to-drop-on-weak-us-demand-aging-lineup
 · PETR4 Petrobras eleva preço do querosene de aviação em outubro (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-eleva-preco-do-querosene-de-aviacao-em-outubro/
@@ -158,17 +214,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · BRENT Dólar abre sessão desta quinta-feira, de olho nos preços do petróleo e cenário político brasileiro (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE5uM3FfY2FDZHp3am8wVGhfUGljZWFKZHRaVHdyYk1odjktZ29mVUxZZ1RQczhIX1diU21TU3AyUFNxeWoyU3NSbjY5MDM2Ymg2YTVZR3c4NmxVRi03M1pVRUpkMzlMUi1aMmpKRG9mOU9YSllkX2h2SNIBhwFBVV95cUxNTFQ2YjVQQUNfUFJidnZiLVBmcmo3Q2N1a2RVMWhBb3preU8xMV80T3R3TXNNNXpKQzRfLWdBTVpVMGZMcEdiV2dwMmY0R0RtMGdWbDVnUHV3VzE5Q1RCeE53UG5zNVNwUjRXSUdOMDlDSHNaVFlfZlNHTTFZRTdTak5VY2tYTUU?oc=5
 · BBDC4 Assaí, Bradesco, Desktop, Panvel, JSL, Dasa e mais ações para acompanhar hoje (InfoMoney) https://www.infomoney.com.br/mercados/assai-bradesco-desktop-panvel-jsl-dasa-e-mais-acoes-para-acompanhar-hoje/
 · BTC Bitcoin and ethereum prices today, Thursday, October 1, 2026: Not much price movement this morning, but Citigroup says that will change (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-1-2026-not-much-price-movement-this-morning-but-citigroup-says-that-will-change-113313201.html
-· TSLA Tesla Trades at 350 Times Earnings. Here's What Has to Be True for That to Make Sense. (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-trades-350-times-earnings-112000500.html
-· BRENT Dow Jones hoje cai com petróleo acima de US$ 100 e juros dos EUA nas máximas no 1º pregão de outubro (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-acima-de-us-100-e-juros-dos-eua-nas-maximas-no-1-pregao-de-outubro/
-· MU Why Micron’s 87% Gross Margin Is a Problem (Barron's) https://www.barrons.com/articles/micron-stock-price-gross-margin-e9d62ae0
-· BTC Bitcoin just landed a surprising new bull (Yahoo Finance) https://finance.yahoo.com/markets/crypto/article/bitcoin-just-landed-a-surprising-new-bull-104334737.html
-· BTC Bitcoin holds above $83K as rally on lower US inflation data fades (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:d53b6e6cd094b:0-bitcoin-holds-above-83k-as-rally-on-lower-us-inflation-data-fades/
-· MU Micron keeps the memory party going (Fortune) https://fortune.com/2026/10/01/micron-earnings-memory-boom/
-· USDBRL Debate no Globo e Datafolha dividem atenção do investidor com dados de atividade econômica; Ibovespa em dólar cai nesta quinta-feira (1) (Money Times) https://news.google.com/rss/articles/CBMigAJBVV95cUxNNEZLVnE5ZjdyNDhmOWlDbk1nSGFuUUpRUy02c01sMjRUbFVwRTBwQlFvT1dwZXQ2QU1xbllBZ1gzUFhnSG9rN1FWVXNjZTJoY3MzLTQ1eVFzamZudHJiUkJRdWdiMXdZMndmenNFYWxYSG94dTZiakplQklQdEc0RXdsT0IxZlBJMlBhbHZDcDY5bjI1LUttaGZPeUg4bU1YQWN2ck5sSDBCbWUyZkFSUWREZE1xVkRyRG5TaEhmRjV2Z3YtSTZXMUU0ZmItOWtXSVgxc1ZMOFZqTjkzU28tQ0txU3lKUlBiS2p0dkpRZWw5dWVsMHM4Q2tNUi1jZjhi?oc=5
-· MU Nvidia, AMD and Intel rise on Micron earnings, so why is MU stock falling? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixwFBVV95cUxQYTFkRE8yOVJoSm1TenlIZlFYeGc5dFV4QllFNDVHWXYwVHowWWYtMnhGOENwTktoODJaQTRNOGFaMVRzSVJXMjFXVjhvWkpWTUVDYWJkSUczN2NKa3Y4QmJ3ZWdHNWJiSUx1alpsZmlZaGs2bnJ0NlVHeUVmeFNtUVA4eUpXbzV1dXlxdC16ZjhqcmRYczdiR3ZDTlBnTmw4Z0RRb29lZjJFaUY3TlIwLWh3M25uNUc0T21kLW5RWTFEbUZrckJn?oc=5
-· LITE Lumentum Announces Speaker Lineup at 2026 OCP Global Summit (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxPNm1nUHFkQ25zV1JwM25IM25XcUhBUFYwa0lpeDNWM2Y2N0VrckdoQjRnNldzQndsa0J5MEVZNmlCbUN5QU5qYy0xOVFETm4tbU5MQ1R0OW5EYm5nWWszRnZQMXpzRzlnVjlyTDlRbzJfcUdOYXlkN0VVTzdCVHd3TERxMUpBRDkyNjd2SXkxWmw?oc=5
-· UST Gold Edges Lower as Treasury Yields and Dollar Offset Softer US Inflation Data (Yahoo Finance) https://news.google.com/rss/articles/CBMipAFBVV95cUxQLU82WWJBTS1OQmUwSlBoQ3YtNzB5MzJmUmVuQy1vSzhpd3hRZ19ueVd1bTdURFRfUTBfNXp2MWdlTm9sNThicDZRbjRnLXRxa052ck1sYl9oYUpvQmhYa3pldEI4SUxraUtaZUJzb3ZLbXV3ZGJ5MnJjMDl1WWRRUWVwYnE1YXlqT05KMGlvMUlSUWtybVByUGU5Y3R0T2NOakNQOQ?oc=5
-· MU US Futures Mixed as Micron Outlook and Nike Results Take Focus: Dow Jones, S&P, Nasdaq, Wall Street (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQYmxKXy1NQkpOcHpkaWkxLTJTOTRxUnUzOXZlTlpLWkJRd2R5ZUZ4TjFtTlh0WWxQdnlscnZ0alNKMXZyRWtWblQzUGJsQnMzYWtMQklwTGlheEdjSi1CUHFfZEJrMWFETVY4anhaYTVYOVNnNlVuYjl6T1ZPanZxeU91NDJiRm5ETTF6ZkkzaGtkUjhwMTZHbTNoQWc?oc=5
-· MU Dow futures hit three-month low as yields surge, Micron earnings offer support (Yahoo Finance) https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnk4Mlh4eUlVWkFMRF9fWmlKS2hacmlVZVExa09xVk5nMHllSzRCaS1rbkp4MWZPdkRMTTJSbjd1c0RCeHp4c1ROMlZCSURETU9mYWF5SXZ4c3RUSTVZY3Y2R25DRWY5VDdCM2dpQkJXZkFhcHlSVXQ0VEtLcUprSF91YlFtZTYwMEtiWjljcUwwazI5QUVF?oc=5
-· MU Micron just blew Wall Street away again—here's what's next (Yahoo Finance) https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUm1mVGJRV1dJMXJTalR1S3hMSXdjaDlKcnk1b2xUWmJ2WWlJcXUyUWVDTEJfUjNBYWY5amZfRkVXNUU2LTY3WExVNlpmZ2drTFJmclFaY1NEY3NwRVJiLTU4b3ZJQlRnQTFVMkI4UzRtZTRnMWp6WFFFY0lPMlBFUXVFR0FNemRYOWpuY3h0b1ZJMEpfTE1HOWtQdHRZWkNEQXllMFR2UHlnTERndmM0b1R1aF9sVnplVzhn?oc=5
-· MU We're raising our Micron price target after an incredible quarter and robust guidance (CNBC) https://www.cnbc.com/2026/09/30/were-raising-our-micron-price-target-after-an-incredible-quarter-and-robust-outlook.html
+· (+14 manchetes; lista completa em eventos/noticias.json)
