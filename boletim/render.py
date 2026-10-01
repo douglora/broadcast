@@ -132,6 +132,12 @@ def _renda_fixa(r: dict) -> list[str]:
             premio = (n(v["premio_dap_medio_pb"], 0, True) + " pb") if v.get("premio_dap_medio_pb") is not None else "-"
             linhas.append([rot, "R$ " + compacto(v.get("volume_rs")), taxa, premio])
     o += tabela(["Classe", "Volume do dia", "Taxa média", "Sobre o juro real"], linhas)
+    meus = [l for l in rf.get("acompanhados") or [] if not l.get("sem_negocio")]
+    if meus:
+        o += ["**Papéis acompanhados (config/boletim.yaml)**", ""]
+        o += tabela(["Papel", "Taxa do dia", "Sobre o juro real", "Volume"],
+                    [[l["codigo"], _taxa_rf(l), (n(l["premio_dap_pb"], 0, True) + " pb") if l.get("premio_dap_pb") is not None else "-",
+                      "R$ " + compacto(l.get("volume_rs"))] for l in meus])
     top = (rf.get("papeis") or {}).get("deb_incentivada") or []
     if top:
         o += ["**Debêntures incentivadas mais negociadas**", ""]

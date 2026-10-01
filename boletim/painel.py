@@ -1238,6 +1238,14 @@ def _renda_fixa(r: dict) -> str:
                            "R$ " + compacto(l.get("volume_rs")) + f'<span class="peq">{n(l.get("negocios"), 0)} negócios</span>'])
         return tabela(["Papel e emissor", "Taxa do dia", "Sobre o juro real", "Vencimento", "Volume"], linhas, ["", "n", "n", "n", "n"])
 
+    meus = rf.get("acompanhados") or []
+    if meus:
+        com = [l for l in meus if not l.get("sem_negocio")]
+        sem = [l["codigo"] for l in meus if l.get("sem_negocio")]
+        o.append('<div class="card card-destaque"><h3>Papéis que você acompanha</h3><p class="desc">Lista de config/boletim.yaml '
+                 '(renda_fixa.papeis), mesmo fora dos mais negociados.</p>'
+                 + (tab_papeis(com, len(com)) if com else "")
+                 + (f'<p class="desc" style="margin-top:8px">Sem negócio neste pregão: {e(", ".join(sem))}.</p>' if sem else "") + "</div>")
     abas = [(cl, ROTULO_RF[cl]) for cl in ("deb_incentivada", "cri", "cra") if (rf.get("papeis") or {}).get(cl)]
     if abas:
         botoes = "".join(f'<button type="button" role="tab" data-aba="{cl}">{e(rot)}</button>' for cl, rot in abas)

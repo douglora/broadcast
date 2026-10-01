@@ -33,7 +33,7 @@ TIPOS_INVESTIDOR = (("estrangeiro", "estrangeiro"), ("institucional", "instituci
                     ("outros", "outros"))
 GENERICAS = {"BANCO", "MERCADO", "ISHARES", "INVESTO", "CIA", "COMPANHIA"}
 # sinais que saem todo pregao por natureza: sao a leitura do dia, nao um estado que se arrasta
-DIARIOS = {"fluxo_estrangeiro", "lista_do_dia"}
+DIARIOS = {"fluxo_estrangeiro", "lista_do_dia", "juros"}
 NOME_LISTA = {"maiores_altas_ibov": "maiores altas do Ibovespa", "maiores_baixas_ibov": "maiores baixas do Ibovespa",
               "maiores_altas_mercado": "maiores altas do mercado", "maiores_baixas_mercado": "maiores baixas do mercado",
               "mais_negociadas": "mais negociadas à vista", "opcoes_compra_mais_negociadas": "calls mais negociadas",
@@ -676,11 +676,20 @@ def derivativos(ctx: Contexto) -> dict:
         else:
             fica = set(sorted(itens, key=lambda k: -(itens[k]["contratos"] or 0))[:2])
         out["futuros"][a] = {tk: itens[tk] for tk in sorted(fica, key=_ordem_venc)}
+    # um sinal so para a curva: os vertices andam juntos, e quatro linhas iguais nao sao quatro noticias
+    mexeu = []
     for tk in sorted(vertices, key=_ordem_venc):
-        v = ((out["futuros"].get("DI1") or {}).get(tk) or {}).get("var_bps")
+        item = (out["futuros"].get("DI1") or {}).get(tk) or {}
+        v = item.get("var_bps")
         if v is not None and abs(v) >= ctx.lim.get("di_var_bps", 10.0):
-            ctx.sinal("juros", tk, f"{tk}: taxa de ajuste {'abriu' if v > 0 else 'fechou'} {mil(abs(v))} pontos-base, para "
-                      f"{mil(out['futuros']['DI1'][tk]['taxa'], 2)}%.", "TradeInformationConsolidated", var_bps=v)
+            mexeu.append((tk, v, item["taxa"]))
+    if mexeu:
+        maior = max(mexeu, key=lambda x: abs(x[1]))
+        sentido = "abriu" if maior[1] > 0 else "fechou"
+        ctx.sinal("juros", None,
+                  f"A curva de juros {sentido}: " + ", ".join(
+                      f"{tk} {'+' if v > 0 else '−'}{mil(abs(v))} pb, para {mil(taxa, 2)}%" for tk, v, taxa in mexeu) + ".",
+                  "TradeInformationConsolidated", vertices={tk: v for tk, v, _ in mexeu})
     return out
 
 
