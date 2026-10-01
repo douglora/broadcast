@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 29/09/2026 (terça)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-09-30 11:18 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:26:07Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T03:33:51Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -49,12 +49,14 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 | Fundos imobiliários (IFIX) | 3.740 | +0,09% | -0,59% |
 | BDRs (BDRX) | 28.457 | -0,16% | +2,32% |
 
-## Giro do mercado à vista
+## Giro do mercado de ações
 
 |  | Dia | Média do mês | Dia / média |
 |---|---:|---:|---:|
 | Volume (R$ mi) | 26.886 | 33.056 | 0,81x |
 | Negócios (mil) | 3.338 | 3.735 | - |
+
+Mercado de ações = à vista, opções e termo (médias diárias da B3). No dia: à vista R$ 23.819 mi, opções R$ 1.051 mi, termo R$ 90 mi, after market R$ 55 mi.
 
 ## Fluxo por tipo de investidor (acumulado no mês até 25/09)
 
