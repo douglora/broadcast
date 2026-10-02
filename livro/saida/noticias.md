@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 01/10 20h04
+NOTÍCIAS E FATOS · 01/10 21h40
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 444 veículo fora da lista, 42 sem ativo, 16 teto) · cvm ok 3 novos de 15 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 6 novas (18 consultas; descartadas: 448 veículo fora da lista, 41 sem ativo, 7 teto) · cvm ok 0 novos de 15 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
 
@@ -66,7 +66,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Seu Dinheiro: Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos d…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 01/10 17h49
-id: E05-ITUB4-d2c755d90a-2026-10-01 · status: pendente
+id: E05-ITUB4-d2c755d90a-2026-10-01 · status: expirado
 
 [ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
 Yahoo Finance · 01/10 14h51 · fonte única · licença: resumo
@@ -82,7 +82,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 14h51
-id: E05-MU-1474c75fd3-2026-10-01 · status: pendente
+id: E05-MU-1474c75fd3-2026-10-01 · status: expirado
 
 [ATENÇÃO] E05 · MU · Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips, SK Hynix Drifts
 Yahoo Finance · 01/10 11h16 · fonte única · licença: resumo
@@ -340,8 +340,14 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (170)
+## OUTRAS NOTÍCIAS (só manchete) (176)
 
+· TSLA Tesla Stocks Edge Higher as Europe Registrations Rebound Before Deliveries (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:365db3a35094b:0-tesla-stocks-edge-higher-as-europe-registrations-rebound-before-deliveries/
+· USDBRL Ibovespa sobe e dólar avança a R$5,22 com cautela antes de eleição (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45N18Q:0/
+· AVGO Broadcom: Get Ready For A Breakout (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4951481-broadcom-get-ready-for-a-breakout
+· USDBRL Dólar sobe 0,89% e fecha a R$ 5,220; Ibovespa também teve alta (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-089-e-fecha-a-r-5220-ibovespa-tambem-teve-alta/
+· MU Micron stock rises after blowout earnings and the answer to this analyst's key question (Yahoo Finance) https://finance.yahoo.com/technology/article/micron-stock-rises-after-blowout-earnings-and-the-answer-to-this-analysts-key-question-134446610.html
+· MU Buy Micron Stock After AI Memory Demand Fuels Record Q4 Results? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHBiVkFUYk9tM2pUelFzNVNOVHNPUjQ0cVl4dEE0N0N1aUxSakpXRDlmV2FKNjBmS1VUMHF4Y1NKX2RpcEZrMW83M2ZPMjdqTHRZLS1QWTd6T1k0WFFuUDJtcElpNFZZSzM3TmFReVRYR1h1OEFBYl96Y0R6ZlF4dld4LW8ycUFIc19UdVFyT2tXXzhMN0Z3TkZNM1JwV19vZ0FSQzdDQkpRNXk1ZlFYNm42RVVLZ3lSUDhz?oc=5
 · DI Juros futuros têm firme alta com cautela eleitoral (Money Times) https://www.moneytimes.com.br/juros-futuros-1-10-26-apsa/
 · USDBRL Dólar fecha acima de R$ 5,22 em dia de mal-estar global (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-acima-de-r-522-em-dia-de-mal-estar-global
 · NVDA Nvidia (NVDA) Stock Gets Fair Value Boost As AI Demand And Analyst Views Shift (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-nvda-stock-gets-fair-220550617.html
@@ -396,10 +402,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · BTC It's the Start of Uptober. Will Bitcoin Live Up to It? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxNMHZhZnZRQjJqUzJfS19fdWdUVm10M29oa0xkbTJaUWRvMElqa2E5b01rMzc5WU5VLXJ6UTVDSWw2cFlOVXJOYVhvUzdTa09MczZpb1ZNaGlRaGJlMFdDT1dWYkRVUmZFU0wzMGY2eHNjQkczWFJwU1hCSUlEa0RpbWFuVmRUYzltNnhZb09XallFSDVST1E?oc=5
 · COHR Why Coherent (COHR) Stock Is Trading Up Today (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxPdHRyUGZTVVR6cWd0QlMzOERYak9FV1FkcU5ZSTlxa2pyOXU1M0VQRjBtdDlabkJOcURqUy0zd1c4dF9lMXRBTGNpZVNPamp4WWp1WUViWE9kelZhZVBSMnltVHZid1hMdWZOUkkyZ0wwZlRxbXJwV28xVDEtWXAwY2JLOVdOdUNfVjdEX3IzQ3Bmdk5wemRjTUZQWUNST1NIVFRRRFlNdw?oc=5
 · BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNRzB3QWV1ZGkxUlM1SGZmZ0Q4T0tnbU5rOFhjem5yZXNWNXFqSWZSLW9SbUtjZDU3Q1B5dktlUHZzQWZHRjc3cEtBX2FVV25rQ1VhREtmaUphdkFoOWRwWV9FV3YxZy1CNkdTYS03Qkg2Yk95akY3LVR0ek15UlhQaWRlOElOYUtMRjJFdmVaMjRlc3JlT0JkQ1NWRGVyOU0?oc=5
-· MU Analysts Double Down on Micron Stock After Earnings (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxPY29vSUl2dUhQUHRDSmQyWlpDaUZZQVp3bDBOd0l1WDVTb3lqbEhKSUdmaFczYld0X3dnalhQY2dHWVpYLUt0bDZCcWw0Snlpd2k4dG8xOWdfSDktTWQyZWFfend0aHFRSlU4LXUxUjlrTVRiTlZPSHdJZ3p3OXpzelhtZVUwdi1mWUhGck9PdW95RmZfUWxtbDdQSDRmeWc?oc=5
-· BRENT Wall Street perde fôlego com petróleo em alta; Dow Jones recua (Estadao) https://news.google.com/rss/articles/CBMi7gFBVV95cUxObWxCbWRuMzJNSnZDb3NGUldpX1N0NHZkWnd4MG1LcllkRTM3Z2c3ekdVYndyam1CT1ZSV2dnNFhsUm05aWhaSDBneml4LV8yMXRSZWFCQUg1QlNsdm5JWS05cWd6QVpNYkZCOE9pc0JqMVZPTmRmc01wcnkzdnh6OUhsNmV1bVdveU1pWGpnTVhoSkVkZEtTMVdOb2ZUMy1pWlFvNlZkVzRZZWxMRHdSNXpvRE1paTR5SV96TjVueWEzbUZTSXJLWm9Pa2N4RnpNNmxiN0FyMlV2d1J5YWliQkZrVlR3ekRJM2VqWVFn0gHzAUFVX3lxTFBFUDU1M2Rxd3EzeVp5Z1dhUFdUdUYxaXdqN3lyNzVLc3NLUWEzWGxSSXpTT0Jnamd3bHNnVUtxb1JsLWFKX0l2aDlmTVJmOGEtRWxxc0wzTGZOVXJMSWhweDAwMWFuLWVLcGNRSTUtZ0RQTmF3Skc2aW80eXIwZlRSRGd5bGN4bk0xY3lxWjdrTEQzc1FqNExfZDNfTDRONTdwSWJzaUNxTjBwUmtLVWw5eHllTEVleGFnLXEzdXI3U3pSSVp0WEwwbEVKRW5ocFl1dUh6WmprdnRmbTBrMTBlUTVxY01qRVlZTW9aMC1zdzVlQQ?oc=5
-· BRENT Bolsa abre estável e dólar ronda R$ 5,18, com eleições e petróleo no radar (UOL Economia) https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmJlQ3JqNzBicG8wbVItTkJtQVRaZDNOUFUxN21zRzVITEFUeUJOYVBFaUE5Vk52aXNtWXJTeFV5aGI4V1BnTjdzRWk3UXlKcXg5UHVoQ2Q5RnhaNTNaTkpxdm1VNDNzTUk5b3NKdnVWTVBXaERpWmRaNFdmUVFjeTRGb3lsZjZHRkw1eDE3cFZxMTlETWplS004MjYxMjc4eXh2N2Vac2hSd0NzS052aVFn?oc=5
-· MU Crushing Expectations: Why Micron Remains Undervalued (Yahoo Finance) https://news.google.com/rss/articles/CBMikwFBVV95cUxOZE1sUTd1YTZ3S0pTQXhhaVlTSTZOenFvNDRuVk40S0hINjhBNWlKRjVOVHUtakdtZUtmXzg1R0UxTFNpMWVDcV9XUVVxSDN2SWhwY0tHSFZ1OTVyM09uaS16WjM3Y0I0WmRaSVRCd2FnZmZMUEJ2azgxSUtlTFA4RkJqS0ZHbVFHUzc5bkFPVm5CbWM?oc=5
-· MU Micron Technology Seen With Increasingly Positive Duration Tone, Capital Returns Outlook, UBS Says (Yahoo Finance) https://news.google.com/rss/articles/CBMirgFBVV95cUxNeWFSeUNVUjdkWjRZaTlKNU1xQ093RDloQzE5b2tFUG9wUjZRZnZEVXNZTWNmcnh5VUVEV3VrckpBbW5VQldNSDFKVWxwOUVvcy1BLXE1WG9ZdnNkWTR5WXVLRHp0RHR5azZrWXZjMXJTOExRMHEyV3hadFpNVWZ3ZVVJS21YQkg4UElpdmItR2VOOVJyTjhpUlg1M0R4aUNQSUlPZWhzaWlaaW5VN2c?oc=5
-· BAC What It Actually Takes for Bank of America to Keep Raising Its Dividend (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxPa0N6NXBYM1Bid1F6UDhMSS1LWko0WmZsZkJPOWJLV1FBRDFyV25XX05MbDdCTmxUVkJ0V0M4R0VodzF1VXhhTFIyS3JJWDQxcGJHNWxlM2tOOTVYckNxb2hDbGtCV1lvY2RfSlFLeGF6N1RTdWh0UGoxSjFwbGkxUjlSWC1Cb0ItRzh2YWFGQktOU3RRRDRIckV4c0pfZw?oc=5
-· (+110 manchetes; lista completa em eventos/noticias.json)
+· (+116 manchetes; lista completa em eventos/noticias.json)

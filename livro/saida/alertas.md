@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [ATENÇÃO] E05 · ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos dividendos
 Seu Dinheiro · 01/10 17h49 · fonte única · licença: resumo
@@ -33,24 +33,12 @@ Fonte: Yahoo Finance 01/10 14h51
 ids: E05-MU-1474c75fd3-2026-10-01
 
 Info (só linha no Fechamento):
-· E03 UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
-· E03 AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E03 VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
-· E05 DI · Juros futuros têm firme alta com cautela eleitoral
-· E05 USDBRL · Dólar fecha acima de R$ 5,22 em dia de mal-estar global
-· E05 NVDA · Nvidia (NVDA) Stock Gets Fair Value Boost As AI Demand And Analyst Views Shift
-· E05 VALE3 · Vale (VALE3): Passará a divulgar relatório de vendas junto com resultados
-· E05 COHR · Why Coherent (COHR) Stock Is Trading Up Today
-· E05 UST · Update: US Equity Indexes Edge Up as Treasury Yields Fall From Highest in Two Decades After October Fed Rate-Increase Bets Drop
-· E05 GOOGL · How Much Must Google Cloud Be Worth to Justify Alphabet’s Valuation?
-· E05 TSLA · Tesla starts Semi production 6 years late, says new plant can build 50,000 trucks a year
-· E05 BTC · Bitcoin Analyst: 'Only Michael Saylor' Can Do Strategy's Treasury Model
-· E05 PETR4 · Petrobras eleva preço médio do querosene de aviação em 11,76%
-· E05 PETR4 · Ibovespa avança com Petrobras (PETR4) e melhora do humor externo; dólar sobe a R$ 5,22
-· E05 USDBRL · Dólar hoje sobe cerca de 1% e supera R$ 5,20 com eleições e busca global por divisa
-· E05 UST · Equities rebound to close higher as surging Treasury yields recede
-· E05 USDBRL · Dólar sobe a R$ 5,22 com aversão a risco global e eleições em foco
-· E05 PLTR · Andy Burnham searches for UK alternative to Palantir
+· E05 TSLA · Tesla Stocks Edge Higher as Europe Registrations Rebound Before Deliveries
+· E05 USDBRL · Ibovespa sobe e dólar avança a R$5,22 com cautela antes de eleição
+· E05 AVGO · Broadcom: Get Ready For A Breakout (NASDAQ:AVGO)
+· E05 USDBRL · Dólar sobe 0,89% e fecha a R$ 5,220; Ibovespa também teve alta
+· E05 MU · Micron stock rises after blowout earnings and the answer to this analyst's key question
+· E05 MU · Buy Micron Stock After AI Memory Demand Fuels Record Q4 Results?
 · C07 UST FECHOU: 2y -10 bps (01/10)
 · C02 Inclinação da curva DI: F35-F28 +12 bps no dia: bear steepening (longo abriu mais)
 · C03 DI em nível: F32 cruzou 14,00% (para cima, agora 14,09%) · F35 cruzou 14,00% (para cima, agora 14,11%)
@@ -71,8 +59,8 @@ Alertas do dia (todos, com status):
 · linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 62,95, -17% em 1m e -5,7% em 12m
 · linha     T05 VHYA — VHYA (Vanguard FTSE All-World High Dividend Yield UCITS ETF USD Accumulating) -1
 · linha     T08 ITUB4 — ITUB4 entrou em correção: -11% do pico de 52s (R$ 49,37 em 11/02) a R$ 44,15
-· pendente  E05 ITUB4 — ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende
-· pendente  E05 MU — MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
+· expirado  E05 ITUB4 — ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende
+· expirado  E05 MU — MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
 · entregue  E05 MU — MU · Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Wester
 · entregue  E05 PETR4 — PETR4 · Agenda de empresas: Cade aprova compra de fatia do Assaí; Petrobras rece
 · entregue  E05 BABA — BABA · SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of October 5,
@@ -100,4 +88,4 @@ Alertas do dia (todos, com status):
 · linha     T10 BOTZ — BOTZ no mínimo de força relativa em 63 sessões contra SOX: +0,7% vs +13% em 20 s
 · linha     F01 USDBRL — Real cai: USD/BRL 5,2192 (cruzou R$ 5,20) (parcial, intradia)
 · linha     F03 BRENT — Brent sobe a US$ 102,21 (+4,3% no dia · cruzou US$ 100)
-· (+179 notícias só manchete, em noticias.md)
+· (+185 notícias só manchete, em noticias.md)

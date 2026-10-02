@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 01/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qui 01/10 · 21h40 BRT
+Relógios: Yahoo 21h40 · DI ajuste D0 · Tesouro base
   30/09 · UST CMT D0 · PTAX 01/10
 
 ALERTAS DO DIA (37)
@@ -30,8 +30,8 @@ ALERTAS DO DIA (37)
           de 52s (R$ 49,37 em 11/02) a R$ 44,15
 (+29 em alertas.md)
 
-ALTAS  COHR +11% · LITE +7,7% · BRENT +4,3% · MU
-       +3,0% · NOK +2,3%
+ALTAS  COHR +11% · LITE +7,7% · MU +3,0% · NOK +2,3%
+       · EWY +1,8%
 BAIXAS AVGO -2,1% · REMX -2,0% · GOOGL -1,7% · VHYA
        -1,7% · ITSA4 -1,5%
 
@@ -71,7 +71,7 @@ TD (base 30/09, Δ desde 29/09) Pre 2029 13,76 (-11)
     (descasado) 5,99% vs Focus IPCA 2027 4,31%
 UST (D0) 2y 4,78 (-10) · 10y 5,24 (-5) · 30y 5,61
     (-3) · 2s10s +46 (+5)
-Regime: VIX 16,4 (+0,3%) · score risco 2 de 6
+Regime: VIX 16,4 (+0,3%) · score risco 1 de 5
 
 LEITURA DA MESA
 <<LEITURA_DA_MESA>>
@@ -92,7 +92,14 @@ ter 13/10 resultado JPM (antes de NY, confirmado)
 qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 resultado TSM (madrugada, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY sem barra de 01/10 (última 30/09);
+  BRENT sem barra de 01/10 (última 30/09); DXY:
+  barra de 01/10 é o início da sessão seguinte
+  (última cotação 20:31 de Nova York); barra
+  descartada, fica a de 30/09; BRENT: barra de 01/10
+  é o início da sessão seguinte (última cotação
+  20:30 de Nova York); barra descartada, fica a de
+  30/09.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -176,10 +183,10 @@ MRVE3  MRV        5,45 -0,4 +4,4 -1,6  -31  -26  -30
 CURY3  Cury      27,37 -1,3 -0,3  -15  -21 -8,1  -11
 Macro
 USDBRL USD/BRL  5,2192 +0,9 +0,5 +1,3 +1,3 -1,9 -4,7
-DXY    DXY      102,04 +0,6 +0,7 +2,4 +2,0 +4,4 +3,8
-BRENT  Brent    102,21 +4,3 +2,0 +8,0 -6,3  +56  +68
-BTC*   BTC      84.614 +1,3 +0,3 +9,3  +26  -29 -3,3
-ETH*   ETH       2.695 +0,4 +0,3  +11  +31  -38 -9,2
+DXY*   DXY      101,45 +0,1 +0,3 +2,0 +1,8 +3,8 +3,2
+BRENT* Brent     98,03 +1,9 -0,1 +8,3 -3,1  +46  +61
+BTC    BTC      84.614 +1,3 +0,3 +9,3  +26  -29 -3,3
+ETH    ETH       2.695 +0,4 +0,3  +11  +31  -38 -9,2
 MINER* Minerio   96,59 -0,1 -0,7 +0,6  -10 -8,3 -9,8
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

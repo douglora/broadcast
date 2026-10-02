@@ -1,12 +1,4 @@
-## Fechamento do livro · qui 01/10 · 18h13 BRT
-
----
-
-### Correção do que já foi enviado
-
-- **CORREÇÃO tabela · BRENT 30/09: saiu +0,9% a 103,53; o certo é +1,9% a 98,03**
-
-*O número entregue saiu de barra errada do Yahoo (contrato misturado, pregão faltando ou barra parcial); o certo vem da série já corrigida.*
+## Fechamento do livro · qui 01/10 · 21h40 BRT
 
 ---
 
@@ -24,7 +16,7 @@ Nenhuma regra disparou hoje.
 
 ### Destaques do dia
 
-**Altas** COHR +11% (vol 1,8x · fechou na máxima) · LITE +7,7% (vol 1,6x) · BRENT +4,3% · MU +3,0% (vol 1,8x · fechou na máxima) · NOK +2,3% (fechou na máxima)
+**Altas** COHR +11% (vol 1,8x · fechou na máxima) · LITE +7,7% (vol 1,6x) · MU +3,0% (vol 1,8x · fechou na máxima) · NOK +2,3% (fechou na máxima) · EWY +1,8% (fechou na máxima)
 **Baixas** AVGO -2,1% (fechou na mínima) · REMX -2,0% (vol 1,5x · mínima de 52 semanas) · GOOGL -1,7% · VHYA -1,7% (fechou na mínima) · ITSA4 -1,5%
 
 ---
@@ -33,11 +25,11 @@ Nenhuma regra disparou hoje.
 
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
-| **COHR** | +11% | notícia a conferir (Investing.com): Why is Coherent stock surging today? | notícia (conferir) |
+| **COHR** | +11% | notícia a conferir (Yahoo Finance): Why Coherent (COHR) Stock Is Trading Up Today | notícia (conferir) |
 | **LITE** | +7,7% | notícia a conferir (Investing.com): Why is Lumentum stock surging today? | notícia (conferir) |
 | **MU** | +3,0% | descolou do setor (semicondutores (eua) +0,9% (mediana), SOX +1,6%; 2,2 p.p. da mediana); notícia a conferir (Yahoo Finance): Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar | notícia (conferir) |
 | **NOK** | +2,3% | notícia a conferir (TradingView (Reuters)): Nokia, ICEYE Plan Sovereign Satellite Networks for Governments, Defense | notícia (conferir) |
-| **AVGO** | -2,1% | descolou do setor (semicondutores (eua) +0,9% (mediana), SOX +1,6%; -3,0 p.p. da mediana); notícia a conferir (Yahoo Finance): The Only Way I Stop Adding Broadcom is an AI Collapse | notícia (conferir) |
+| **AVGO** | -2,1% | descolou do setor (semicondutores (eua) +0,9% (mediana), SOX +1,6%; -3,0 p.p. da mediana); notícia a conferir (Seeking Alpha): Broadcom: Get Ready For A Breakout (NASDAQ:AVGO) | notícia (conferir) |
 | **REMX** | -2,0% | investigar antes de comentar | sem causa no dado |
 | **VHYA** | -1,7% | investigar antes de comentar | sem causa no dado |
 
@@ -193,13 +185,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,2192 | **+0,9** | +0,5 | +1,3 | 0,0 | +1,3 | -1,9 | -4,7 | -2,7 |
-| **DXY** Indice Dolar DXY · máxima de 52 semanas | 102,04 | **+0,6** | +0,7 | +2,4 | +1,2 | +2,0 | +4,4 | +3,8 | +8,5 |
-| **BRENT** Petroleo Brent | 102,21 | **+4,3** | +2,0 | +8,0 | +42 | -6,3 | +56 | +68 | +29 |
-| **BTC** Bitcoin _(parcial)_ | 84.614 | **+1,3** | +0,3 | +9,3 | +38 | +26 | -29 | -3,3 | +76 |
-| **ETH** Ethereum _(parcial)_ | 2.695 | **+0,4** | +0,3 | +11 | +59 | +31 | -38 | -9,2 | -21 |
+| **DXY** Indice Dolar DXY _(dia 30/09)_ | 101,45 | **+0,1** | +0,3 | +2,0 | +0,1 | +1,8 | +3,8 | +3,2 | +7,9 |
+| **BRENT** Petroleo Brent _(dia 30/09)_ | 98,03 | **+1,9** | -0,1 | +8,3 | +37 | -3,1 | +46 | +61 | +24 |
+| **BTC** Bitcoin | 84.614 | **+1,3** | +0,3 | +9,3 | +38 | +26 | -29 | -3,3 | +76 |
+| **ETH** Ethereum | 2.695 | **+0,4** | +0,3 | +11 | +59 | +31 | -38 | -9,2 | -21 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 30/09)_ | 96,59 | **-0,1** | -0,7 | +0,6 | -1,8 | -10 | -8,3 | -9,8 | -17 |
 
-**Brent em reais:** R$ 533,45 por barril (01/10) · dia +5,2% · 1 mês +9,4% · no ano +60% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -248,7 +240,7 @@ Inflação implícita 2029 5,95% · 2032 6,04% · 2031/32 (descasado) 5,99% · F
 
 2s10s +46 bps (+5 no dia)
 
-**Regime** VIX 16,4 (+0,3%) · score de risco 2 de 6
+**Regime** VIX 16,4 (+0,3%) · score de risco 1 de 5
 
 ---
 
@@ -318,8 +310,8 @@ Inflação implícita 2029 5,95% · 2032 6,04% · 2031/32 (descasado) 5,99% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 30/09 · UST CMT D0 · PTAX 01/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h40 · DI ajuste D0 · Tesouro base 30/09 · UST CMT D0 · PTAX 01/10
+**Lacunas:** DXY sem barra de 01/10 (última 30/09); BRENT sem barra de 01/10 (última 30/09); DXY: barra de 01/10 é o início da sessão seguinte (última cotação 20:31 de Nova York); barra descartada, fica a de 30/09; BRENT: barra de 01/10 é o início da sessão seguinte (última cotação 20:30 de Nova York); barra descartada, fica a de 30/09.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-30).
