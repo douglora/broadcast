@@ -1,18 +1,17 @@
 {
- "gerado_em": "2026-09-28T20:07:12Z",
+ "gerado_em": "2026-10-02T18:00:53Z",
  "partes": {
   "cartas": {
-   "em": "2026-09-28T20:13:25Z",
+   "em": "2026-10-02T18:06:30Z",
    "resultado": {
-    "cartas": 43,
+    "cartas": 45,
     "metodos": {
-     "wp-json": 599,
+     "wp-json": 699,
      "categoria": 0,
-     "padrao": 63,
+     "padrao": 54,
      "informadas": 0
     },
     "meses": [
-     "2025-12",
      "2026-01",
      "2026-02",
      "2026-03",
@@ -20,12 +19,13 @@
      "2026-05",
      "2026-06",
      "2026-07",
-     "2026-08"
+     "2026-08",
+     "2026-09"
     ]
    }
   },
   "documentos": {
-   "em": "2026-09-28T20:13:49Z",
+   "em": "2026-10-02T18:06:54Z",
    "resultado": {
     "pdfs": 15,
     "posts": 0,
@@ -33,18 +33,18 @@
    }
   },
   "videos": {
-   "em": "2026-09-28T20:14:51Z",
+   "em": "2026-10-02T18:07:55Z",
    "resultado": {
-    "videos": 38,
+    "videos": 39,
     "com_legenda": 0,
-    "erros": 38,
+    "erros": 39,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] XNKlvKgDbt4: Faça login para confirmar que você não é um bot"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] j-XlSMoLhQ8: Faça login para confirmar que você não é um bot"
  ],
  "rodou": [
   "cartas",

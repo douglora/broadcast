@@ -1,0 +1,1175 @@
+[p. 1] H I G H L A N D E R ,  O  G U E R R E I R O  I M O R T A L
+O duelo final da eleição brasileira, um 
+novo Fed e os riscos de I.A.
+kinea.com.br
+S E T E M B R O  2 0 2 6
+
+[p. 2] Só pode haver um vencedor, mas todos pagam o custo das decisões. Quem vencer
+a eleição herda a conta de um ajuste fiscal da ordem de 2% do PIB, e a proposta para
+pagá-la importa mais para os ativos do que o nome do vencedor: quem começa pelo
+fiscal compra tempo para o resto do mandato. Nos Estados Unidos, o Fed ouviu a curva e
+subiu os juros. Em inteligência artificial, pesa a receita dos laboratórios, não o lançamento
+de modelos. Em commodities, duas guerras sem desfecho chegam a todos pelo diesel.
+Trabalhamos com desaceleração no Brasil em 2027 e com uma carteira desenhada para
+atravessar a turbulência com risco controlado.
+IDEIA CENTRAL
+| H I G H L A N D E R
+Em 1986, Highlander levou às telas, com Christopher Lambert no papel
+principal e Sean Connery como seu mentor, a história de Connor MacLeod,
+nascido em um clã das Terras Altas da Escócia em 1518, que descobre pertencer
+a uma estirpe de imortais. São guerreiros que atravessam séculos duelando
+entre si, eliminando-se mutuamente até que os sobreviventes sejam atraídos
+para o Encontro, o confronto final.
+O Brasil chega ao seu Encontro. Ao longo da última década, duas forças
+políticas eliminaram sucessivamente seus concorrentes até que a eleição de
+2026 se resolvesse em um duelo. De um lado, Lula, o guerreiro de muitas
+décadas na política brasileira e presidente incumbente. De outro, Flávio
+Bolsonaro, o jovem desafiante que carrega o nome e a missão do clã. Só pode
+haver um.
+— Highlander (1986)
+“Só pode haver um"
+Fonte: Gerado por I.A.
+2
+
+[p. 3] 44,61
+45,37
+35
+40
+45
+50
+mar/26 abr/26 mai/26 jun/26 jul/26 ago/26 set/26
+Flávio Bolsonaro Lula
+Áudio Vorcaro/ Vídeo Michelle
+Reajuste Bolsa Família, 
+discussão Bets
+AGREGADOR DE SEGUNDO TURNO  |  VOTOS TOTAIS
+Fonte: Kinea, TSE.
+| H I G H L A N D E R
+Cada lado enfrenta uma dificuldade distinta. O incumbente disputa em um
+mundo no qual a incumbência deixou de ser vantagem: redes sociais e
+insatisfação difusa reduziram, em democracias muito diferentes entre si, a
+probabilidade de reeleição de quem está no cargo. O desafiante precisa
+converter rejeição em adesão fora da base consolidada, sobretudo no Sudeste,
+onde se concentra o eleitorado indeciso.
+TODO PARTIDO GOVERNISTA PERDEU VOTOS EM 2024 –
+FATO INÉDITO NA SÉRIE HISTÓRICA |  ELEIÇÕES NACIONAIS EM 
+PAÍSES DESENVOLVIDOS – VARIAÇÃO EM % DE VOTOS VS. ELEIÇÃO ANTERIOR 
+Fonte: Financial Times, Institutos de Pesquisa, Kinea (1910–2024)
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+1945 1955 1965 1975 1985 1995 2005 2015
+Eleição países diferentes
+Média Anual
+Média 2024
+Partido incumbente ganha tamanho/governo
+Partido incumbente perde tamanho/governo
+3
+
+[p. 4] Ano eleiçãoAno pré-
+eleitoral
+Campanha 
+eleitoral
+AVALIAÇÃO DE GOVERNO: COMPARAÇÃO GOVERNO 
+ATUAL VS. DEMAIS NOS ÚLTIMOS 2 ANOS DE GOVERNO  |  
+LÍQUIDO DA AVALIAÇÃO POSITIVA | ÓTIMO/BOM MENOS RUIM/PÉSSIMO
+Fonte: Agregador Kinea; JOTA
+Quem vencer em outubro recebe como recompensa imediata a obrigação
+de promover um dos maiores ajustes fiscais desde a redemocratização.
+O Orçamento enviado ao Congresso no fim de agosto projeta um superávit
+primário apenas simbólico para 2027, com a dívida bruta já no maior nível fora
+do período da pandemia. Nossas simulações indicam que é preciso um resultado
+primário ao redor de 2% do PIB para estabilizar a trajetória da dívida e, com ela,
+abrir espaço para que os juros reais finalmente cedam.
+| H I G H L A N D E R
+TRAJETÓRIA DA DÍVIDA BRUTA PARA DIFERENTES 
+SUPERÁVITS  |  % DO PIB
+Fonte: STN; 4º ano de Lula II projetado
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+40
+jan mar maio jul set nov jan mar maio jul set nov
+2022 Agregador Kinea 2026 Média Governos Anteriores*
+40,0%
+60,0%
+80,0%
+100,0%
+120,0%
+140,0%
+160,0%
+2012 2014 2016 2018 2020 2022 2024 2026 2028 2030 2032 2034 2036 2038 2040
+Primário 2% com juros reais de 5% Primário 1% com juros reais de 5% Primário 1% com juros reais de 7%
+4
+
+[p. 5] 2.786
+1.205
+467
+426
+395
+268 45 2230
+500
+1000
+1500
+2000
+2500
+3000
+Despesa Total 2027
+Previdência
+Pessoal e
+Encargos
+Outras Despesas
+Obrigatórias
+Obrigatórias com
+controle de fluxo
+Discricionárias
+2027
+Emendas
+Parlamentares
+Margem
+Administrável
+8%
+O problema não é apenas de tamanho: é de instrumento. O ajuste terá de
+ser negociado com um Congresso fragmentado que já retém parcela relevante
+do orçamento discricionário, entre emendas parlamentares e investimentos em
+execução. O Executivo herda a responsabilidade pelo resultado sem herdar o
+controle sobre a despesa.
+DECOMPOSIÇÃO DA DESPESA 2027  |  EM R$ BILHÕES
+Fonte PLOA, Câmara dos Deputados, Kinea.
+| H I G H L A N D E R
+Daí o ponto central desta carta para o Brasil. As medidas são impopulares
+e o calendário não perdoa: para produzir efeito em 2027, a maior parte precisa
+ser aprovada no primeiro semestre, com o capital político do eleito ainda
+intacto. As linhas do debate com o Legislativo terão de ser traçadas antes da
+posse, entre o segundo turno, em 25 de outubro, e a virada do ano. Nenhuma
+das duas campanhas apresentou até aqui uma proposta com esse grau de
+detalhe. Para o mercado, a eleição não se encerra em outubro: encerra-se
+quando o vencedor disser, com números, como pretende fechar essa conta.
+Resta uma última simetria com o filme. Em Highlander, o vencedor do
+último duelo recebe um Prêmio, e ele é ambíguo: passa a ouvir o que as pessoas
+de fato querem, através da leitura de seus pensamentos, e paga por isso com a
+própria imortalidade. Nenhum dos dois candidatos disputará a eleição seguinte.
+Na política fiscal, essa mortalidade pode ser uma vantagem: quem não corre
+atrás do mandato seguinte tem menos a perder ao assinar o que precisa ser
+assinado. Que nosso próximo líder se sinta mortal, e sábio, para os desafios que
+virão em 2027.
+5
+
+[p. 6] 3,5
+3,7
+3,9
+4,1
+4,3
+4,5
+4,7
+4,9
+5,1
+5,3
+5,5
+jan/23 jul/23 jan/24 jul/24 jan/25 jul/25 jan/26 jul/26
+3,0
+3,5
+4,0
+4,5
+5,0
+5,5
+6,0
+jan/23 jul/23 jan/24 jul/24 jan/25 jul/25 jan/26 jul/26
+FOMC 
+Setembro
+TREASURY 2Y X FED FUNDS  |  % TREASURY 30Y  |  %
+Fonte: Bloomberg
+| H I G H L A N D E R
+O FED OUVIU A CURVA
+O prêmio que encerra a disputa em Highlander é, antes de tudo, a
+capacidade de ouvir. Mas essa habilidade não pertence apenas ao vencedor do
+último duelo: é a primeira lição que Connor MacLeod recebe de Ramírez, o
+mentor vivido por Sean Connery. Um imortal reconhece a presença de outro
+antes de enxergá-lo, e quem aprende a interpretar esse sinal chega preparado
+ao confronto.
+A curva de juros americana vinha emitindo esse sinal havia meses. A taxa
+de dois anos manteve-se persistentemente acima da taxa básica, e os vértices
+longos seguiram em alta. Era a maneira que o mercado encontrou de afirmar
+que a política monetária estava abaixo do necessário.
+Após um período de ruído e divergência na comunicação do FOMC, Kevin
+Warsh já havia se posicionado para a alta em Jackson Hole. O que veio depois
+retirou dele a alternativa de esperar: payroll forte, CPI acima do esperado e
+elevação no preço do petróleo. A combinação de atividade robusta com
+pressões inflacionárias ditou a decisão, e a primeira alta de sua gestão saiu por
+deliberação unânime, a primeira do Fed desde 2023. Novas altas podem vir nos
+próximos meses, a depender dos dados.
+6
+
+[p. 7] 127
+-200
+-150
+-100
+-50
+0
+50
+100
+150
+200
+250
+set/25 nov/25 jan/26 mar/26 mai/26 jul/26
++ k
+EMPREGO NOS EUA  | VARIAÇÃO 
+MENSAL DO EMPREGO PRIVADO (EM 
+MILHARES)
+NÚCLEO DO PCE REALIZADO E 
+PROJEÇÕES DO FED  | ANO 
+CONTRA ANO (%)
+Fontes: BLS; BEA
+| H I G H L A N D E R
+A resiliência da atividade segue mostrando seus sinais, para além do ciclo
+de investimento em inteligência artificial, e o consumidor segue entregando sua
+parcela, apoiado em um mercado de trabalho com desemprego estável e viés
+de queda.
+5,1
+-1,0
+0,0
+1,0
+2,0
+3,0
+4,0
+5,0
+6,0
+1T23 3T23 1T24 3T24 1T25 3T25 1T26 3T26
+Projeção Atlanta FED
+40
+45
+50
+55
+60
+65
+70
+75
+jan/20 fev/21 mar/22 abr/23 mai/24 jun/25 jul/26
+EUA Zona do Euro
+Reino Unido Japão
+PIB AMERICANO REALIZADO E 
+PROJEÇÃO ATLANTA FED PARA 
+3T26  |  QOQ SAAR (%)
+PMIS DE SERVIÇOS (INCLUINDO 
+FLASH)  |  ÍNDICE
+Fontes: BLS; BEA
+3,40
+2,50
+1,5
+2,0
+2,5
+3,0
+3,5
+4,0
+jan/25 set/25 mai/26 jan/27 set/27
+Núcleo PCE Mediana FED Meta
+2026
+2027
+7
+
+[p. 8] | H I G H L A N D E R
+Essa combinação de fatores – atividade forte, petróleo adicionando à
+inflação e um volume elevado de emissões públicas e privadas – levou o
+rendimento do título de 10 anos acima de 5%, algo também inédito há duas
+décadas. O movimento reflete tanto a necessidade de juros mais altos por mais
+tempo quanto um prêmio de risco um pouco mais alto para o investidor que
+financia o governo.
+0,0
+1,0
+2,0
+3,0
+4,0
+5,0
+6,0
+7,0
+8,0
+9,0
+10,0
+jan/90 jan/96 jan/02 jan/08 jan/14 jan/20 jan/26
+0,0
+1,0
+2,0
+3,0
+4,0
+5,0
+6,0
+-1,8
+-1,2
+-0,6
+0,1
+0,7
+1,3
+1,9
+2,5
+2003 2007 2011 2015 2019 2023
+TP10Y - Kim Wright
+RN10Y - Implícito
+TREASURY 10Y  |  %
+PRÊMIO A TERMO E COMPONENTE 
+ESPERADO (KIM WRIGHT)  |  %
+Fontes: Bloomberg
+A reação dos mercados sugere que a atuação do Fed foi correta: depois da
+alta a volatilidade cedeu e o dólar se fortaleceu. Mas a sequência de eventos nos
+preços de energia e os dados resilientes de atividade acabaram mantendo a
+pressão sobre as curvas de juros longas de todos os países. Seguimos com viés
+comprador de dólar contra europeus, apostando na resiliência e dinamismo
+relativos da economia americana.
+0,2
+0,4
+0,6
+0,8
+jan/26 abr/26 jul/26
+10y-2y
+95
+97
+99
+101
+103
+105
+107
+109
+jan/25 abr/25 jul/25 out/25 jan/26 abr/26 jul/26
+DXY FOMC 
+SetembroFOMC 
+Setembro
+INCLINAÇÃO DA CURVA AMERICANA: 
+TREASURIES 10Y – 2Y  |  %
+DXY  |  %
+Fontes: BLS; BEA
+8
+
+[p. 9] | H I G H L A N D E R
+Na Europa, o Banco Central Europeu promoveu a segunda alta do ciclo,
+movido pelo receio do impacto dos combustíveis sobre a inflação, em ambiente
+de atividade que vem se mostrando resistente ao choque energético. O núcleo
+permanece equilibrado, ainda que acima da meta, mas com expectativa de
+aceleração à frente.
+Nossa divergência com o mercado está na atividade: conseguimos
+entender as fontes de crescimento neste primeiro semestre, mas vemos a
+economia europeia perdendo tração nos próximos trimestres, apesar do suporte
+da manufatura global, dos investimentos em infraestrutura e defesa da Alemanha
+e da resiliência do consumidor, fatores que consideramos incipientes e
+insuficientes.
+-0,6
+-0,4
+-0,2
+0,0
+0,2
+0,4
+0,6
+0,8
+1T25 2T25 3T25 4T25 1T26 2T26
+Balança Comercial (pp)
+Inventários (pp)
+Investimento (pp)
+Consumo do Governo (pp)
+Consumo Privado (pp)
+PIB QoQ EA20 ex. Irlanda (%)
+PIB QoQ EA20 (%)
+1,2
+-0,6
+-0,4
+0,2 0,4
+0
+0,2
+0,4
+0,6
+0,8
+1
+1,2
+1,4
+CONTRIBUIÇÕES PARA O 
+CRESCIMENTO DO PIB REAL DA 
+ZONA DO EURO  |  %
+Fontes: BLS; BEA
+IMPACTO DE UM CHOQUE NA 
+ATIVIDADE DA ZONA DO EURO |  
+% E PP
+9
+
+[p. 10] | H I G H L A N D E R
+Consideramos que uma eventual estabilização do petróleo terá maior
+influência nas expectativas de inflação da Europa em relação aos Estados
+Unidos. Neste contexto, mantemos posições aplicadas em europeus, além do
+México e Nova Zelândia, onde a ociosidade das economias deve sancionar juros
+mais baixos do que o mercado precifica.
+Nas moedas, seguimos comprados, mas reduzimos taticamente as
+posições em won sul-coreano e iene japonês, após a valorização acumulada até
+o início do mês e diante de um Fed mais hawkish, que dá suporte ao dólar. Vale
+dizer que o Banco Central do Japão, apesar de toda a expectativa criada, segue
+sem conseguir surpreender o mercado com a garantia de altas sequenciais. A
+apreciação da moeda no curto prazo fica, portanto, mais sensível a intervenções
+pontuais. Para uma trajetória mais sustentada, seriam necessários movimentos
+mais persistentes do setor privado de repatriação e alocação em ativos
+japoneses frente ao mundo, o que acontece de forma ainda modesta.
+COMEÇAR PELO FISCAL
+Em Highlander, quando um imortal cai, o vencedor absorve de uma só vez
+toda a força acumulada do derrotado, em uma descarga que ele não escolhe
+nem sabe dosar. Herda-se tudo junto, o vigor e as feridas. É assim que se
+apresenta o dia 1º de janeiro de 2027: quem vencer recebe, em um único
+instante, atividade em desaceleração, inflação e Selic elevadas, uma população
+endividada e descontente e a necessidade de um ajuste fiscal capaz de
+reancorar expectativas.
+Para o ano que vem, esperamos desaceleração da atividade. Em nossa
+visão, independentemente de haver ou não alternância de poder, o cenário mais
+provável é de impulso fiscal negativo.
+10
+
+[p. 11] -4,0%
+-3,0%
+-2,0%
+-1,0%
+0,0%
+1,0%
+2,0%
+3,0%
+4,0%
+jan/23 jan/24 jan/25 jan/26 jan/27
+IMPULSO FISCAL AMPLIADO  |  P.P DO PIB
+Fonte: Kinea
+A lógica eleitoral de gastar menos no início do mandato para gastar mais
+no fim deve voltar a ser seguida, um padrão antigo o bastante para ser tratado
+como regularidade, e não como hipótese.
+| H I G H L A N D E R
+1,49%
+4,51%
+5,98%
+7,06%
+12,45%
+-0,69%
+3,37%
+4,56%
+-2,0%
+0,0%
+2,0%
+4,0%
+6,0%
+8,0%
+10,0%
+12,0%
+14,0%
+1º 2º 3º 4º
+Média histórica (exceto Lula III)* Lula III
+CRESCIMENTO DA DESPESA POR ANO DE MANDATO  |  EM 
+%A.A. DEFLACIONADO IPCA
+Fonte: STN, desde 1998,; 4º ano de Lula III projetado
+* Média 2º ano e 3º ano de mandato exceto 2020 e 2021
+PEC 
+transição
+Ajuste fiscal pós estresse dez.24
+ProjeçãoAntecipação precatório e 
+recomposição piso saúde 
+educação. Isenção IR + 
+medidas 
+eleitoreiras
+Redução gradual das 
+medidas
+11
+
+[p. 12] Sem o fiscal com o pé no acelerador, a atividade deve seguir
+desacelerando, refletindo juros ainda muito restritivos e o balanço deteriorado
+das famílias, que já dá sinais de esgotamento. Trabalhamos com PIB de 1,0%,
+inflação de 4,7% e Selic em 12,5% ao fim de 2027. É o cenário com maior massa
+de probabilidade entre os que se abrem depois do pleito, e pressupõe um ajuste
+fiscal anunciado no início do mandato, da ordem de 1,5% do PIB, capaz de
+produzir queda dos juros reais.
+O cenário em que nada é anunciado, ou em que se anuncia uma guinada
+mais populista, traria consigo um choque adverso de expectativas, dificultaria o
+trabalho do Banco Central e, com alta probabilidade, interromperia o ciclo de
+corte da Selic. Já uma nova alta nos parece pouco provável: o patamar da Selic
+confere bom carrego à moeda e reduz a chance de overshoot, e o episódio de
+dezembro de 2024 mostrou a todos os presidenciáveis o custo, em inflação e
+popularidade, de uma guinada populista.
+| H I G H L A N D E R
+-25
+-20
+-15
+-10
+-5
+0
+5
+103,5
+3,7
+3,9
+4,1
+4,3
+4,5
+4,7
+4,9
+5,1
+5,3
+jan/23 jul/23 jan/24 jul/24 jan/25 jul/25 jan/26 jul/26
+Inflação 24 meses Avaliação líquida
+Discussão mudança 
+de meta
+Frustação com pacote fiscal, 
+depreciação BRL e aumento da inflação
+Medidas 
+eleitoreiras
+EXPECTATIVAS DE INFLAÇÃO 24 MESES À FRENTE VS. 
+AVALIAÇÃO DO GOVERNO  |  % A.A. | % DIFERENÇA
+Fonte: Banco Central, Institutos de pesquisa, Bloomberg, Kinea
+Os desafios do próximo presidente são numerosos, e equilibrar todas essas
+demandas não será simples. Mas a ordem importa tanto quanto a força. Se
+atacar o fiscal primeiro, o próximo governo navegará melhor o restante do
+mandato e comprará tempo para endereçar os demais temas.
+12
+
+[p. 13] | H I G H L A N D E R
+ONDE OS JUROS NÃO CHEGAM
+Há um lugar, em Highlander, onde o duelo não acontece. Imortais não
+podem lutar em terreno sagrado, e o confronto que parecia inevitável
+simplesmente não ocorre. O mercado de ações encontrou o seu em setembro. O
+Fed subiu juros e o índice reagiu bem, sustentado pela resiliência das áreas
+menos sensíveis à taxa, com tecnologia à frente.
+Onde os juros alcançam, o desempenho foi ruim: consumo, utilities e
+habitação sofreram os impactos de uma combinação de juros e petróleo mais
+elevados. No agregado, foram as large-caps que seguraram o índice, e dentro
+delas as chamadas Mag-7.
+Fontes: Bloomberg, Kinea
+S&P 500
+105,2
+S&P 500 
+Equal 
+Weight
+99,7
+98
+100
+102
+104
+106
+108
+jun/26 jul/26 ago/26 set/26
+S&P 500 S&P 500 Equal Weight
+-5,8%
+-5,1%
+-5,0%
+-5,0%
+-4,6%
+-2,8%
+-2,4%
+-2,4%
++0,5%
++0,7%
++1,7%
++5,4%
+Utilidade pública
+Materiais
+Imobiliário
+Consumo discricionário
+Financeiro
+Consumo básico
+Energia
+Industriais
+Saúde
+S&P 500
+Comunicação
+Tecnologia
+Setores 
+sensíveis a juros 
+tiveram pior 
+desempenho
+S&P 500 VS. S&P 500 EQUAL 
+WEIGHT |  BASE 100 = 25/06/2026
+SETORES DO S&P 500 (XLS) E 
+S&P 500 EM SETEMBRO |  %
+Inteligência artificial seguiu como o tema dominante, onde as grandes
+empresas de I.A. sugeriram desaceleração dos lançamentos dos seus modelos
+por risco de segurança. O processo não pede uma pausa, mas sim instrumentos
+que tornem os procedimentos de segurança verificáveis e efetivos.
+13
+
+[p. 14] | H I G H L A N D E R
+Em Highlander não existe trégua possível: enquanto valer que só pode
+haver um, quem se contém unilateralmente apenas entrega vantagem a quem
+não se contém. Consideramos, portanto, que a proposta não deve trazer
+efeitos relevantes: competição de modelos abertos, o imperativo de lançar às
+vésperas dos IPOs e a contestação antitruste já em curso devem tornar essa
+proposta inexequível.
+APÓS O PACE THE FRONTIER: SUPERVISÃO, MODELOS E 
+INFRAESTRUTURA POR EMPRESA
+Nossa principal preocupação está no crescimento da receita. Embora
+alguns indicadores mostrem forte expansão no uso de modelos de menor custo
+e dificuldades de monetização entre laboratórios privados, recentes vazamentos
+divulgados pela mídia sugerem números mais robustos para essas empresas,
+especialmente a OpenAI.
+O que importa é que a receita dos laboratórios acelere, dos cerca de US$
+150 bilhões anualizados atuais para algo próximo de US$ 450 bilhões ao fim de
+2027: triplicar em cinco trimestres exige cerca de 25% de crescimento
+sequencial, sem interrupção. Iniciativas como o Muse, da Meta, e o Grok Bot, da
+SpaceX, tentam dar visibilidade ao setor, mas os alvos são esticados. Só
+teremos clareza sobre o real ritmo de crescimento da receita quando as
+empresas divulgarem números auditados.
+Proposta e apoios Modelos Infraestrutura Em negociação
+12/09 12–13/09 16/09 17/09 22/09 23/09 25/09 28/09 29/09
+Anthropic
+OpenAI
+Google
+DeepMind
+xAI
+Amodei 
+publica
+“We Must Pace 
+the Frontier”
+Zerra DC
+Campus de 
+2,16 GW
+Claude 
+Opus 5.5
+Stream/
+Apollo
+Até 1 GW (em
+negociação)
+Akamai
+US$ 11,6 bi em
+CPU (7 anos)
+Claude 
+Sonnet 5.5
+Altman 
+apoia
+GPT-6 Sol 
+e Luna
+Dots + 
+GPT-6.1 
+Sol
+Hassabis 
+apoia
+Musk apoia Grok 4.7 Team Bots
+14
+
+[p. 15] RECEITA DAS HYPERSCALERS  |  
+BILHÕES DE USD
+ANTHROPIC E OPENAI: CAMINHO 
+ATÉ US$450BN DE ARR
+Fontes: Altimeter, Yipit, Kinea
+| H I G H L A N D E R
+No Brasil, construímos posição comprada em bolsa, principalmente via
+EWZ, em virtude da maior possibilidade de uma proposta mais fiscalista vencer
+as eleições. É posição tática, sujeita a alterações conforme o quadro eleitoral
+evolua. Na parcela internacional do portfólio, concentramos nossas posições de
+tecnologia em opções de Nasdaq e compra de índice na Coreia e Taiwan.
+Reduzimos nossa exposição ao setor financeiro e mantemos posição comprada
+em Biotecnologia.
+NOSSO POSICIONAMENTO EM BOLSA
+241
+422
+788
+5 20
+105
+300
+700
+2024 2025 2026E 2027E 2028E 2029E
+1.086
+1.195
+1.300
+1.000
+Capex das hyperscalers
+Receita dos labs de I.A. (OAI,
+Anthropic, SpaceXAI e outros)
+65
+70
+Necessário 
+(21bn/mês)
+450
+Axios 
+(15bn/mês)
+360
+Yipit 
+(3bn/mês)
+180
+set/26 dez/27
+OpenAI (último divulgado)
+Anthropic (último
+divulgado)
+200B 
+ARR
+30B 
+ARR
+7B
+ARR
+450B 
+ARR
+1T 
+ARR
+1.5T 
+ARR
+15
+
+[p. 16] | H I G H L A N D E R
+A CONTA CHEGA PELO DIESEL
+Connor MacLeod não escolhe entrar no jogo. É expulso do próprio clã,
+descobre uma condição que não pediu e é arrastado para uma disputa cujas
+regras não escreveu, travada em lugares que nunca escolheu. Essa é a seção da
+carta em que isso vale ao pé da letra: duas guerras, Irã e Ucrânia, seguem
+ditando o destino das commodities, e o custo delas chega à estrutura de preços
+de quem não tomou parte em nenhuma das duas.
+O componente principal continua sendo o diesel, que liderou a alta dos
+líquidos e opera nos patamares mais elevados do pós-guerra. Os ataques da
+Ucrânia a refinarias russas levaram a Rússia a banir exportações; somada à
+dificuldade de escoamento do Oriente Médio pelo estreito, a combinação
+produziu um aperto agudo, muito superior ao observado na gasolina ou no
+petróleo bruto. Isso preocupa porque o diesel permeia toda a atividade
+econômica de transporte de mercadorias.
+60
+80
+100
+120
+140
+160
+jun/26 jul/26 ago/26 set/26
+Brent
+Gasolina
+Diesel
+10/8: Ataque ao polo de 
+Nizhnekamsk (refinaria 
+Taneco)
+8/7:
+banimento 
+de 
+exportações 
+pela Rússia
+Aumento de 
+ataques 
+ucranianos a 
+refino russo
+0
+1
+2
+3
+4
+5
+6
+7
+S01 S07 S13 S19 S25 S31 S37 S43 S49
+2026
+2025
+Média 2021-2025
+DESEMPENHO DOS DIESEL, 
+GASOLINA E BRENT (ÚLTIMOS 4 
+MESES)  |  BASE 100 = 25/MAI/26
+FLUXO DE EXPORTAÇÃO DE 
+REFINADOS (RÚSSIA + ORIENTE 
+MÉDIO)  |  MBD
+Fontes: Bloomberg, Kinea AI, KPLR
+16
+
+[p. 17] | H I G H L A N D E R
+Embora não tenhamos visão clara sobre a resolução de nenhum dos dois
+conflitos, é importante considerar que o fluxo de petróleo do estreito de Ormuz
+tem se elevado gradualmente ao longo das últimas semanas. Em parte, isso
+parece ser consequência de uma melhor estratégia combinada dos Estados
+Unidos, em prover defesa militar, e dos países do Golfo, em usar sua frota de
+navios para o risco de atravessar o estreito. Isso tem causado uma redução nos
+prêmios físicos nas últimas semanas e nos deixado mais construtivos com
+relação a evitarmos um cenário de cauda para o preço do petróleo.
+EXPORTAÇÕES DE PETRÓLEO 
+BRUTO DE PAÍSES DO GOLFO | 
+MBPD
+PRÊMIO FÍSICO PETRÓLEO DE 
+DUBAI| US$/BBL
+Fonte: Kpler, Bloomberg, Kinea.
+0
+5
+10
+15
+20
+25
+out/25 jan/26 abr/26 jul/26
+Arábia Saudita
+Emirados Árabes Unidos
+Iraque
+Kuwait
+Irã
+Outros
+Nas agrícolas, a guerra da Ucrânia continua a pesar sobre os grãos,
+sobretudo milho e trigo, com a explosão de uma ponte e ataques constantes a
+navios. A trégua proposta pelo presidente Trump para a cessação dos ataques a
+refinarias não produziu frutos até o momento, o que torna menos provável a
+reedição de um corredor de exportação. Soma-se a intensificação do El Niño,
+com mais de 90% de probabilidade de permanência até o início de 2027 e
+chance elevada de evento muito forte: chuva acima da média no Sul e abaixo no
+Centro-Oeste e Sudeste, na janela de plantio. No açúcar, a incerteza vem da
+Índia, um dos principais produtores.
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+jan/26 mar/26 mai/26 jul/26 set/26
+17
+
+[p. 18] | H I G H L A N D E R
+IMPACTO DO EL NIÑO NA PRODUÇÃO POR SAFRA | 
+VARIAÇÃO ESTIMADA DA PRODUÇÃO, %
++1,0% +2,0%
+-5,0% -5,0%
+-15,0%
+-0,7%
++1,5%
+-15,0%
+-3,5%
+-9,0%
+-11,0%
+-18,0%
+-5,0%
+-1,0%
+-20%
+-15%
+-10%
+-5%
+0%
+5%
+Milho Brasil Soja Brasil Café Vietnã Açúcar Índia Trigo Austrália Milho EUA Soja EUA
+El Niño Super El Niño
+RÚSSIA + UCRÂNIA: EXPORTAÇÕES MENSAIS DE TRIGO
+Fonte: Kinea
+Fonte: DBX Commodities, Grains & Oilseeds
+Nas metálicas e preciosas, o cobre apresentou volatilidade em função de
+comentários atribuídos à Casa Branca sobre a instituição de tarifas, mas o preço
+se recuperou. O ouro seguiu com forte demanda da China e dos ETFs, ainda que
+a alta de juros pelo Fed e a ponta longa da curva de juros americana tenham
+contido o metal no mês.
+18
+
+[p. 19] | H I G H L A N D E R
+FLUXO PARA ETFS DE OURO | 
+BILHÕES DE USD
+COMPRAS CHINESAS | 
+TONELADAS
+-100
+0
+100
+200
+300
+400
+500
+600
+700
+jun/25 out/25 fev/26 jun/26 set/26 0
+10
+20
+30
+jan/23 jan/24 jan/25 jan/26
+Fluxo Mensal
+Acumulado China volta a 
+comprar em maior 
+intensidade 
+Fonte: Kinea, WCC
+Em um mercado cujo preço é fixado por duelos alheios, o que se
+administra não é a previsão: é a exposição. Mantemos posição comprada em
+uma cesta composta por agrícolas, petróleo, ouro e cobre, e utilizamos o
+petróleo também como hedge parcial para as posições aplicadas em juros e
+compradas em ações.
+CONCLUSÃO
+SÓ PODE HAVER UM; TODOS PAGAM
+Fonte: Kinea
+19
+
+[p. 20] | H I G H L A N D E R
+Kinea Investimentos
+Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de
+fundos de investimentos. Leia o regulamento e demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de Valores Mobiliários –
+CVM. Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. A descrição do tipo ANBIMA consta no formulário de
+informações complementares. Estes documentos podem ser consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores dos fundos. Não há garantia de
+tratamento tributário de longo prazo para os fundos que informam buscar este tratamento no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o
+Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões
+ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento
+da Kinea podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam estratégias com derivativos como parte de sua política de investimento,
+que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigando o cotista a aportar recursos adicionais para
+cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no mínimo 12 meses. A rentabilidade passada não garante a rentabilidade futura e
+fundos de investimento não são garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos – FGC. Os Fundos de
+Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade
+concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado, acarretando na
+obrigatoriedade do cotista aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são
+condomínios fechados em que as cotas não são resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As opiniões, estimativas e projeções
+refletem o atual julgamento do responsável pelo seu conteúdo na data de sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e
+suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3)
+Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento
+administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado como oferta ou solicitação de compra ou venda de valores
+mobiliários, instrumento financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das informações aqui contidas foram obtidas
+com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita, a integridade,
+confiabilidade ou exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de
+seu conteúdo. Esse material não pode ser reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da
+Kinea. Quaisquer outras informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail: contato@kinea.com.br.
+Highlander termina com um único sobrevivente, mas o filme nunca foi
+sobre ele. É sobre o preço de chegar até ali. Cada seção desta carta descreve
+uma versão desse preço. No Brasil, quem vencer em outubro herda uma conta
+fiscal que não escolheu e um Congresso que retém o instrumento para pagá-
+la. Em inteligência artificial, os laboratórios descobrem que a fronteira não
+admite trégua e que é a receita, não o lançamento de modelos, o que sustenta
+a capacidade contratada. Em commodities, duelos travados por terceiros
+chegam à conta de todos pelo diesel.
+O investidor também compete pelo Prêmio, mas precisa atravessar as
+próprias lutas e permanecer vivo, e próspero, do outro lado. É o que a carteira
+reflete: exposição tática ao Brasil na hipótese de um ajuste anunciado, juros
+aplicados onde o preço não parece condizer com a realidade econômica,
+cautela em inteligência artificial até que a receita volte a acelerar, e uma cesta
+de commodities que funciona como hedge.
+Connor MacLeod não chega ao Encontro por ter lutado todos os duelos
+de quatro séculos. Chega por ter sabido quais evitar, quando recuar para
+terreno sagrado e quando a calmaria era apenas o intervalo entre dois
+confrontos. Em períodos turbulentos, prudência e controle de risco não são o
+oposto da ambição: são o que garante chegar ao dia seguinte para exercê-la.
+Estamos sempre à disposição de nossos clientes e parceiros.
+
+[p. 21] | A  H O R A  D O  P E S A D E L O
+PALAVRA DO GESTOR SOBRE A PERFORMANCE DO MÊS
+COMMODITIES
+Resultado negativo. Tivemos perdas em metais, sobretudo no
+ouro, e em agrícolas. Mantivemos uma pequena posição
+comprada em ouro, apoiados pelos fluxos de entrada em ETFs e
+pelas compras de bancos centrais. No petróleo, a posição
+comprada contribuiu positivamente, mas reduzimos a exposição
+diante do aumento do fluxo pelo Estreito de Ormuz.Em agrícolas,
+os grãos recuaram apesar das dificuldades de transporte no Mar
+Negro, decorrentes da guerra entre Rússia e Ucrânia, e dos riscos
+climáticos associados ao El Niño. Mantivemos posições
+compradas em grãos e em boi gordo.
+CRÉDITO PRIVADO
+Resultado neutro. Em crédito local, setembro foi um mês mais
+desafiador, com o Índice de Debêntures da Anbima abrindo 8 bps.
+Depois de uma série de reestruturações de dívidas em grandes
+empresas nos últimos 12 meses, os investidores estão mais
+sensíveis a notícias negativas, sobretudo quando envolvem
+emissores do segmento mais arriscado (High Yield). Seguimos
+seletivos, com uma carteira de aproximadamente 9% do
+patrimônio em nomes de bom risco/retorno.
+MOEDAS E CUPOM CAMBIAL
+Resultado positivo. Nossas posições compradas em moedas
+asiáticas (won coreano e iene japonês) contra o euro deram
+resultados positivos no mês. Diminuímos as posições taticamente.
+JUROS E INFLAÇÃO
+Resultado negativo. Com um consumidor endividado e uma
+política monetária contracionista, devemos ver uma
+desaceleração gradual da atividade econômica ao longo do
+tempo. Além disso, 2027 deve ter uma política fiscal mais austera.
+Consequentemente, seguimos posicionados para taxas de juros
+abaixo do precificado no Brasil. No mercado internacional,
+aumentamos nossas posições para juros mais baixos. Temos
+posições no Reino Unido, na Zona do euro e na Nova Zelândia. O
+mercado tem precificado ciclos fortes de altas nesses países,
+pressionados pelos preços de energia. Mas a substancial melhora
+nos fluxos no estreito de Ormuz tem diminuído o risco de novas
+rupturas no preço do petróleo.
+AÇÕES
+Resultado negativo. No exterior, a alta da curva de juros norte-
+americana penalizou as posições mais sensíveis a juros,
+especialmente no setor financeiro. A exposição à tecnologia, por
+sua vez, mostrou maior resiliência, com contribuição positiva das
+posições compradas em Nasdaq. Mantivemos a exposição à
+tecnologia e reduzimos parte das posições mais sensíveis a
+juros.No Brasil, o resultado foi ligeiramente positivo, com
+destaque para as posições compradas no índice brasileiro, no
+setor financeiro e em Embraer.
+K I N E A . C O M . B R
+Este material de divulgaçãofoi elaborado pela Kinea (Kinea InvestimentosLtda e Kinea Private Equity Investimentos S.A.), empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de investimentos. Os fundos são supervisionadose fiscalizados pela Comissão de Valores
+Mobiliários – CVM (Serviço de atendimento ao Cidadão em www.cvm.gov.br). Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de informações essenciais. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Leia o regulamento e demais documentos legais do fundo antes de investir. Estes documentos podem ser consultados no site da CVM em (www.cvm.gov.br) ou no site dos respectivos Administradoresdos fundos. Fundos com menos de 6 meses de histórico não podem ter
+sua rentabilidadeexibida. É recomendada para a avaliação de performance dos fundos de investimento, a análise de, no mínimo, 12 meses. Os Fundos de Investimentoda Kinea podem apresentar um alto grau de volatilidade e risco. A rentabilidadepassada não garante a rentabilidadefutura. Fundos de
+investimentonão são garantidospela Instituição Administradora,ou por qualquer mecanismode seguro, ou ainda pelo Fundo Garantidorde Créditos – FGC. As rentabilidadesdivulgadasnão são líquidas de impostos. Alguns fundos informam no regulamento que utilizam estratégiascom derivativos como
+parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigandoo cotista a aportar recursos adicionaispara cobertura do fundo. Os Fundos de Investimentoem Participações(FIP) são
+condomínios fechados em que as cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade concentra a carteira em poucos ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital aplicado,
+acarretando a obrigatoriedadede o cotista aportar recursos adicionais para cobertura do fundo no caso de resultado negativo. Os Fundos de Investimento Imobiliário (FII) são condomínios fechados em que as cotas não são resgatáveis onde os cotistas podem ter dificuldadeem alienar suas cotas no
+mercado secundário. Os Fundos de Investimento em Direitos Creditórios (FIDC) são condomínios abertos ou fechados, sendo que: (i) quando condomínios abertos, o resgate das cotas está condicionadoà disponibilidadede caixa do fundo; e (ii) quando condomínios fechados, em que as cotas não são
+resgatáveis, os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. Os Fundos de Investimento em Participações (FIP), Fundos de Investimento Imobiliário (FII) e Fundos de Investimento em Direitos Creditórios (FIDC) seguem a Res. CVM 175. Os fundos da Kinea não são
+registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou vendidos nos Estados Unidos da América ou em qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam
+consideradas como U.S. Persons para fins da regulamentaçãode mercado de capitais norte-americana. As opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções
+utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de erros; (2) Não é possível garantir que os cenários obtidos venham efetivamentea ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno esperado
+nem de exposição máxima de perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser interpretado como oferta ou solicitação de compra ou venda de valores
+mobiliários, instrumento financeiroou de participaçãoem qualquer estratégia de negócios específica,qualquer que seja a jurisdição. Algumas das informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradasconfiáveis. O Grupo Itaú Unibanco e a Kinea não
+declaram ou garantem, de forma expressa ou implícita, a integridade,confiabilidadeou exatidão de tais informações e se eximem de qualquer responsabilidadepor quaisquer prejuízos, diretos ou indiretos, que venham a decorrer da utilização desse material e de seu conteúdo. Esse material não pode ser
+reproduzido ou redistribuído para qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea. Quaisquer outras informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através do e-mail:
+relacionamento@kinea.com.br.
+| H I G H L A N D E R
+
+[p. 22] | A  H O R A  D O  P E S A D E L O
+RESULTADO DA GESTÃO*
+Rentabilidade do fundo desde seu início.
+90,27%
+91,61%
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+nov/19 mai/20 nov/20 mai/21 nov/21 mai/22 nov/22 mai/23 nov/23 mai/24 nov/24 mai/25 nov/25 mai/26
+Apolo CDI
+ANO 2022 2023 2024 2025 2026 set/26 Início
+FUNDO 12,87% 13,05% 10,71% 14,43% 9,82% 1,11% 90,27%
+CDI 12,37% 13,05% 10,87% 14,31% 10,51% 1,08% 91,61%
+% CDI 104,01% 100,02% 98,45% 100,80% 93,39% 102,08% 98,54%
+HISTÓRICO DE RENTABILIDADE*
+K I N E A . C O M . B R
+Apolo - Geral (Sub I)
+Setembro 2026
+34.687.633/0001-31CNPJ:
+M U L T I M E R C A D O
+14,48%
+0,00%
+0,10%
+0,55%
+-0,38%
+-0,02%
+0,22%
+0,07%
+0,00%
+-0,05%
+-1,07%
+13,90%
+CDI
+Fatores
+Crédito
+Moedas
+Juros
+Inflação
+Ações
+Commodities
+Vol
+Caixa
+Despesas
+Apolo
+1,08%
+0,00%
+0,00%
+0,20%
+-0,04%
+0,00%
+-0,01%
+-0,05%
+0,00%
+-0,02%
+-0,06%
+1,11%
+CDI
+Fatores
+Crédito
+Moedas
+Juros
+Inflação
+Ações
+Commodities
+Vol
+Caixa
+Despesas
+Apolo
+RETORNO POR ESTRATÉGIAS 12 MESES
+Cód Subclasse: XELXE1746019072
+INÍCIO DO FUNDO PL ATUAL PL MÉDIO (12 MESES): TAXA DE ADM¹ TAXA DE PERF.²
+PÚBLICO ALVO OBJETIVO COTA RESGATE PAGAMENTO RESGATE TAXA DE SAÍDA
+Não possui
+APLICAÇÃO INICIAL
+Sujeito às regras do 
+distribuidor.
+78
+5
+MESES POSITIVOS:              
+MESES NEGATIVOS:   29/Nov/2019 R$ 46.530.862 0,8% a.a. 25% do que exceder 100% 
+do CDI
+Público em geral Superar o CDI com vol. de 
+1% a 2% a.a.
+D+0 D+1 dia útil da conversão de 
+cotas
+R$ 49.289.681
+1. Trata-se da taxa de administração considerando as taxas dos fundos da estrutura.
+2. Trata-se da taxa de performance considerando todos os fundos da estrutura.
+
+[p. 23] Este material foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.), empresa do
+Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de investimentos. Leia o regulamento e
+demais documentos legais do fundo antes de investir. Os fundos são supervisionados e fiscalizados pela Comissão de
+Valores Mobiliários – CVM. Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas
+de informações essenciais. A descrição do tipo ANBIMA consta no formulário de informações complementares. Estes
+documentos podem ser consultados no site da CVM http://www.cvm.gov.br/ ou no site dos respectivos Administradores
+dos fundos. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este tratamento
+no regulamento. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act
+de 1940 ou sob o Securities Act de 1933. Não podem ser oferecidos ou vendidos nos Estados Unidos da América ou em
+qualquer um de seus territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como
+U.S. Persons para fins da regulamentação de mercado de capitais norte-americana. Os Fundos de Investimento da Kinea
+podem apresentar um alto grau de volatilidade e risco. Alguns fundos informam no regulamento que utilizam estratégias
+com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em perdas de
+patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigando o cotista a aportar recursos adicionais
+para cobertura do fundo. É recomendada uma avaliação de performance de fundos de investimento em análise de no
+mínimo 12 meses. A rentabilidade passada não garante a rentabilidade futura e fundos de investimento não são garantidos
+pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos –
+FGC. Os Fundos de Investimento em Participações seguem a ICVM 578, portanto são condomínios fechados em que as
+cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade concentra a carteira em poucos
+ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o
+capital aplicado, acarretando na obrigatoriedade do cotista aportar recursos adicionais para cobertura do fundo no caso de
+resultado negativo. Os Fundos de Investimento Imobiliário seguem a ICVM571, portanto são condomínios fechados em que
+as cotas não são resgatáveis onde os cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. As
+opiniões, estimativas e projeções refletem o atual julgamento do responsável pelo seu conteúdo na data de sua divulgação
+e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções utilizam dados históricos e suposições, de forma que
+devem ser realizadas as seguintes advertências: (1) Não estão livres de erros; (2) Não é possível garantir que os cenários
+obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma hipótese, promessa ou garantia de retorno
+esperado nem de exposição máxima de perda; e (4) Não devem ser utilizadas para embasar nenhum procedimento
+administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não constitui nem deve ser
+interpretado como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento financeiro ou de
+participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das informações aqui
+contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O Grupo Itaú
+Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita, a integridade, confiabilidade ou exatidão de
+tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que venham a
+decorrer da utilização desse material e de seu conteúdo. Esse material não pode ser reproduzido ou redistribuído para
+qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea.
+Quaisquer outras informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor,
+através do e-mail: relacionamento@kinea.com.br.
+K I N E A . C O M . B R
+Este material de divulgação foi elaborado pela Kinea (Kinea Investimentos Ltda e Kinea Private Equity Investimentos S.A.),
+empresa do Grupo Itaú Unibanco. A Kinea não comercializa e nem distribui cotas de fundos de investimentos. Os fundos são
+supervisionados e fiscalizados pela Comissão de Valores Mobiliários – CVM (Serviço de atendimento ao Cidadão em
+www.cvm.gov.br). Os fundos de condomínio aberto e não destinados a investidores qualificados possuem lâminas de
+informações essenciais. Não há garantia de tratamento tributário de longo prazo para os fundos que informam buscar este
+tratamento no regulamento. Leia o regulamento e demais documentos legais do fundo antes de investir. Estes documentos
+podem ser consultados no site da CVM em (www.cvm.gov.br) ou no site dos respectivos Administradores dos fundos. Fundos
+com menos de 6 meses de histórico não podem ter sua rentabilidade exibida. É recomendada para a avaliação de performance
+dos fundos de investimento, a análise de, no mínimo, 12 meses. Os Fundos de Investimento da Kinea podem apresentar um alto
+grau de volatilidade e risco. A rentabilidade passada não garante a rentabilidade futura. Fundos de investimento não são
+garantidos pela Instituição Administradora, ou por qualquer mecanismo de seguro, ou ainda pelo Fundo Garantidor de Créditos
+– FGC. As rentabilidades divulgadas não são líquidas de impostos. Alguns fundos informam no regulamento que utilizam
+estratégias com derivativos como parte de sua política de investimento, que da forma que são adotadas, podem resultar em
+perdas de patrimônio financeiro para seus cotistas superiores ao capital aplicado, obrigando o cotista a aportar recursos
+adicionais para cobertura do fundo. Os Fundos de Investimento em Participações (FIP) são condomínios fechados em que as
+cotas somente são resgatadas ao término do prazo de duração do fundo. Esta modalidade concentra a carteira em poucos
+ativos de baixa liquidez, o que pode resultar em perdas de patrimônio financeiro para seus cotistas que podem superar o capital
+aplicado, acarretando a obrigatoriedade de o cotista aportar recursos adicionais para cobertura do fundo no caso de resultado
+negativo. Os Fundos de Investimento Imobiliário (FII) são condomínios fechados em que as cotas não são resgatáveis onde os
+cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. Os Fundos de Investimento em Direitos
+Creditórios (FIDC) são condomínios abertos ou fechados, sendo que: (i) quando condomínios abertos, o resgate das cotas está
+condicionado à disponibilidade de caixa do fundo; e (ii) quando condomínios fechados, em que as cotas não são resgatáveis, os
+cotistas podem ter dificuldade em alienar suas cotas no mercado secundário. Os Fundos de Investimento em Participações
+(FIP), Fundos de Investimento Imobiliário (FII) e Fundos de Investimento em Direitos Creditórios (FIDC) seguem a Res. CVM
+175. Os fundos da Kinea não são registrados nos Estados Unidos da América sob o Investment Company Act de 1940 ou sob o
+Securities Act de 1933. Não podem ser oferecidos ou vendidos nos Estados Unidos da América ou em qualquer um de seus
+territórios, possessões ou áreas sujeitas a sua jurisdição, ou a pessoas que sejam consideradas como U.S. Persons para fins da
+regulamentação de mercado de capitais norte-americana. As opiniões, estimativas e projeções refletem o atual julgamento do
+responsável pelo seu conteúdo na data de sua divulgação e estão, portanto, sujeitas a alterações sem aviso prévio. As projeções
+utilizam dados históricos e suposições, de forma que devem ser realizadas as seguintes advertências: (1) Não estão livres de
+erros; (2) Não é possível garantir que os cenários obtidos venham efetivamente a ocorrer; (3) Não configuram, em nenhuma
+hipótese, promessa ou garantia de retorno esperado nem de exposição máxima de perda; e (4) Não devem ser utilizadas para
+embasar nenhum procedimento administrativo perante órgãos fiscalizadores ou reguladores. Este conteúdo é informativo e não
+constitui nem deve ser interpretado como oferta ou solicitação de compra ou venda de valores mobiliários, instrumento
+financeiro ou de participação em qualquer estratégia de negócios específica, qualquer que seja a jurisdição. Algumas das
+informações aqui contidas foram obtidas com base em dados de mercado e de fontes públicas consideradas confiáveis. O
+Grupo Itaú Unibanco e a Kinea não declaram ou garantem, de forma expressa ou implícita, a integridade, confiabilidade ou
+exatidão de tais informações e se eximem de qualquer responsabilidade por quaisquer prejuízos, diretos ou indiretos, que
+venham a decorrer da utilização desse material e de seu conteúdo. Esse material não pode ser reproduzido ou redistribuído para
+qualquer pessoa, no todo ou em parte, qualquer que seja o propósito, sem o prévio consentimento por escrito da Kinea.
+Quaisquer outras informações ou esclarecimentos sobre o Fundo poderão ser obtidos com o Administrador e o Gestor, através
+do e-mail: relacionamento@kinea.com.br.
