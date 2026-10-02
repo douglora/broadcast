@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 17h21
+NOTÍCIAS E FATOS · 02/10 18h12
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 434 veículo fora da lista, 44 sem ativo, 7 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 436 veículo fora da lista, 43 sem ativo, 6 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,32 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (17)
+## NOTÍCIAS COM MATERIALIDADE (19)
+
+[ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
+Yahoo Finance · 02/10 15h52 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - On The Compound and Friends, Ritholtz Wealth Management's Josh Brown said NVIDIA could generate $360 billion in free cash flow next year, nearly four times its free cash flow in its last fiscal year.
+  – - Brown's $680 billion revenue figure is in line with Wall Street's consensus, and the main risk is that some of today's chip sales are being pulled forward from later years.
+  – - At about 19 times forward earnings, NVIDIA trades at roughly half its 10-year average of 37 times.
+  – 29 episode of The Compound and Friends, the Ritholtz Wealth Management CEO put a number on it: "Next year, it could be $360 billion in free cash flow on $680 billion in revenue." That's more than double the record $150…
+  – (TIKR ran the math on that buyback here.) His co-host Michael Batnick, Ritholtz's director of research, added that NVIDIA's operating earnings over the past 12 months are now above those of Apple (AAPL:NASDAQ): "It's le…
+  – These are not estimates." And yet the stock trades as if those earnings are about to shrink.
+Link: https://finance.yahoo.com/markets/stocks/articles/investor-makes-bold-prediction-nvidia-185249306.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Nex…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/10 15h52
+id: E05-NVDA-e2c7dd5a07-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
+Investing.com · 02/10 13h02 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/lumentum-holdings-inc-stock-hits-alltime-high-at-108575-usd-93CH-4864419
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: LITE
+Como falar: 'saiu no Investing.com: Lumentum Holdings Inc stock hits all-time high at 1085.75 USD; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/10 13h02
+id: E05-LITE-b75ff30ab5-2026-10-02 · status: pendente
 
 [ATENÇÃO] E05 · MU · CLSA raises Micron stock price target on strong memory pricing outlook
 Investing.com · 02/10 06h43 · fonte única · licença: manchete
@@ -41,7 +66,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MU
 Como falar: 'saiu no Investing.com: CLSA raises Micron stock price target on strong memory pricing outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 02/10 06h43
-id: E05-MU-89e4333cec-2026-10-02 · status: pendente
+id: E05-MU-89e4333cec-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU)
 Seeking Alpha · 02/10 16h06 · fonte única · licença: manchete
@@ -260,8 +285,21 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (118)
+## OUTRAS NOTÍCIAS (só manchete) (131)
 
+· USDBRL Dólar fecha quase estável, a R$ 5,2165, com cautela antes das eleições (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/02/dolar-fecha-quase-estavel-a-r-52165-com-cautela-antes-das-eleicoes.htm
+· USDBRL Bolsa sobe e fecha nos 192 mil pontos antes da eleição; dólar cai (Poder360) https://www.poder360.com.br/poder-economia/bolsa-sobe-e-fecha-nos-192-mil-pontos-antes-da-eleicao-dolar-cai/
+· AMD SA Asks: Does AMD still have upside after its latest rally? (Update) (AMD:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4649462-sa-asks-does-amd-still-have-upside-after-its-latest-rally
+· PETR4 Ibovespa salta 2% e volta ao nível de abril com Petrobras (PETR4) e 1º turno das eleições em foco; dólar cai (Money Times) https://www.moneytimes.com.br/ibovespa-2-10-26-lils/
+· UST US Equity Indexes Closed Mixed This Week as Treasury Yields Traded Close to Two-Decade High While October Rate-Hike Bets Slump (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-closed-mixed-202356522.html
+· INTC Intel Stocks Gain 2.1% as High-NA Enters Production (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7cb0d268f094b:0-intel-stocks-gain-2-1-as-high-na-enters-production/
+· AVGO Broadcom Stocks Jump 3.5% as AI Chip Guide Reaches $21.7 Billion (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:910bfed46094b:0-broadcom-stocks-jump-3-5-as-ai-chip-guide-reaches-21-7-billion/
+· UST U.S. Treasury Selloff Resumes After Brief Respite (The Wall Street Journal) https://www.wsj.com/finance/u-s-treasury-yields-steady-as-buyers-resurface-4c139277
+· EQTL3 Brasil amplia Margem Equatorial com base em decisão da ONU; entenda (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-amplia-margem-equatorial-com-base-em-decisao-da-onu-entenda
+· NVDA NVDA Is ‘Best In Breed’ Stock On Sale, Hightower Advisors' Stephanie Link Says (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:f5553d07d094b:0-nvda-is-best-in-breed-stock-on-sale-hightower-advisors-stephanie-link-says/
+· TSLA Tesla shares rise as Q3 deliveries beat production (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxPcE5LTW4yVFVjU3U2Mk9XOFU4MFNaWFVYMWJDeGZuNXpxbWlfTDRMNkFyUEtkbHhNbk9qQ25PVTE5TmJlMDhfUlJobGN5clpLaUdFbUJEVnlpQTl5VXRlY05wdURLZldNQVhXRnhUdFEtWWFRdHBmX2JydDhRWVFnWUt5NjkwdlU?oc=5
+· CVX Chevron Corporation (CHV.F) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HaGdhTVhNRG84QVJ3YkJLSzI0MlA4V2FZQmZGWnNyVHl4M2pCNmZ3SktlbnRlaGs1MU52RW11Znd0UHRIM0VwXy1lTDJJNWhmU1NJ?oc=5
+· NVDA Nvidia Well Positioned as AI Bottleneck Shifts, Morgan Stanley Says (Yahoo Finance) https://news.google.com/rss/articles/CBMijgFBVV95cUxNZWNVQzFSWXo2ZWlxRHM2R21UdmxmMG9jVkl6cTROazh6VWdVV0VUUTdhUlRfOGtkRmxHb2xqYXc2UWJOUTJPclMwcGVaWmszMzNiRS15LTdOYTNIejRYVDJtRERTNzJ3WTFhTTB3OUl1OXZ5TElOTWw4MjUwZGtUTzZMd3hxQW4wTzBvRllR?oc=5
 · USDBRL Dólar à vista fecha em baixa de 0,13%, a R$5,2173 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-013-a-r52173-na-venda-2082305
 · USDBRL Dólar cai a R$ 5,218 e Bolsa tem forte alta com desaceleração americana (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/02/dolar-bolsa-fechamento-hoje-2-de-outubro-de-2026.ghtm
 · USDBRL Dólar tem leve queda e fecha a R$ 5,21 com postura defensiva antes do 1º turno das eleições (Money Times) https://www.moneytimes.com.br/dolar-2-10-26-lils/
@@ -309,17 +347,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · JPM JPMorgan downgrades Hess Midstream stock rating on contract risks By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/jpmorgan-downgrades-hess-midstream-stock-rating-on-contract-risks-93CH-4892873
 · MMM 3M Company (MMM) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2Y1dkSFJlaUw4SXg0SWctYk1UVG9renpEekFUUkxNWU85SjJSd0lQZzBISGs2QkthXy1KM3dYY1VudHhPd0tYSVNwUE5Ia2U2?oc=5
 · TSLA Tesla earnings missed by $0.01, revenue topped estimates (Investing.com) https://www.investing.com/news/earnings/tesla-earnings-missed-by-001-revenue-topped-estimates-4930190
-· UST Treasury Yields Resume Their Rise (TradingView (Reuters)) https://www.tradingview.com/news/te_news:589233:0-treasury-yields-resume-their-rise/
-· MU Micron: A Top AI Chip Stock With Potential To Double On HBM Demand (Seeking Alpha) https://seekingalpha.com/article/4951625-micron-potential-to-double-on-hbm-demand
-· UGPA3 O grito do Ipiranga vai chegar em Xangai (Estadao) https://www.estadao.com.br/cultura/alice-ferraz/o-grito-do-ipiranga-vai-chegar-em-xangai/
-· MU Cramer Says If You Are Shorting Micron You Are “Digging Your Own Grave” After Michael Burry Announces New Bet Against Company (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/cramer-says-shorting-micron-digging-151832015.html
-· PLTR Palantir Stock Rose 60% in Q3. Here’s Why It Still Trades at Roughly Half Its Year-Start Earnings Multiple (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rose-60-q3-151806420.html
-· NVDA Nvidia Well Positioned as AI Bottleneck Shifts, Morgan Stanley Says (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-well-positioned-ai-bottleneck-151204721.html
-· AVGO Why Is Broadcom Inc. (AVGO) Down 3.8% Since Last Earnings Report? (Yahoo Finance) https://au.finance.yahoo.com/news/why-broadcom-inc-avgo-down-143002493.html
-· MRVL Should You Be Worried About Marvell Stock? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWY4bjI0dEV2MlhUMXA1blFFM2ozQUZoYmloaTd6ajE0LXlWMzg4bDM3anRLRWhXNE5TdDVGU0ktY1BhWjN4eUh0NndoTGV5MGdtWUF3UEwtR1oxZVJoMTFWRlZLYXA4clJ1LUFyaGpoOTY5amRsRzIwRVRYTEVLaWgzQWFBLUxnUjFBNEVWcw?oc=5
-· TSLA Tesla stock jumps 5% on better-than-expected vehicle deliveries report (CNBC) https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLTV2TThXeklJVmVnSl9pMDYzQnNoaWVielg0ekwyYTJVemhmRDdKdlpaekRVYXdTcndZNGRyelluczN1MUIxQ3J6M2FDWTQ4dnQwd3c1OEVURkdBUGdQLTBXaE1iUWxXOGFUVlZOLWdscVp0UkFTSEpsWkM3QTRDT3pMdkFlME41OHRn0gGQAUFVX3lxTFBoR1hCMDN2NU1mQ1ZJdFg3XzBQYWJSMzZmQk5aVnlBTTg5YnBfUi1KMm9seGMydVVOU2p1WnloTVVUV25QRXdYT1hwQ1Y4ODlvc0RBcUhwOG9VWUh3OG9CSnJ6N2ZuQUlBUjdWT0xPTnFaN3JHOTdjMk8tZnpWamkwOF9FaHNSUnZHQ1ZpQWkwZQ?oc=5
-· USDBRL Dólar avança e Bolsa oscila com Datafolha e repercussão de dados de emprego dos EUA (Folha de S.Paulo) https://news.google.com/rss/articles/CBMixgFBVV95cUxOMWtpek5RTlp0RS1tY0NxRVFEdUVfaDlidmpKdFVMVC1mQW5BZEgtR3IyNEVwTTQwVzZHUHhxc0g1MFBCYkY1YVFydF9BSjJ0TzVLdGNNU2pMLWJnS3V4X1BhNTJkQ09Hdm1hdXFEYmRTem1vOTZ1VWo2Y0F5emgxamNscXJUV3lNTkhtWlZzSGdveFVVNlFIQVdjTHlUSGZGNzd6OFpOUEdrd2tqaTBKSDZtbjFJUUstTjNqY1pwdUVrQTM1Rnc?oc=5
-· NVDA NVIDIA Announced a Record Buyback Increase This Week — Here's What Else Happened (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZXcxOUdub1d2NzR3SHJrUkRqVXZRd0R2ZkozUlVzdVk2YXFkeG80MElEYTBNQ3VmOVlLRU9xMDg5NnRsX21iRU9xdklubFhSRzdqS2RzVUxzOFh3SnR3Yy1sZmlTdS1kU3hNekZZOUdHUVhJRFRVa285ZFBwU0diendVQWZmVnlMa3BTOTktZmltZ09GVHpIdDJqOURRNk1URWtfdTdBY2hiRmlYb0JENTc0Tk5hd2lPMzhienVvTmNmdVVlMDA1cEJlX3dIdjNLRVdZ?oc=5
-· MU Zacks Investment Ideas feature highlights: Micron and NVIDIA (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNMGlsWWlTSDZGd0tYUjB6LWlZMHZCZXpEYlBZbnFSQTNjWHdqY0FYMm80cC1rdDlkZnlheTdDS21JVEhZWXlEM19Ic1Z6bDBZSzlKaml4Mk1xSzdoYkM4NklWTWxlNHlncWxQMVBsMF8yenF1NXJlQXoyR0lIX1pyWU01MVM1NlhIdDNOX2xQbmJYQ0RC?oc=5
-· UGPA3 Na escassez de capital surgem eventualmente boas oportunidades de aquisição, diz CEO da Ultrapar (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/02/na-escassez-de-capital-surgem-eventualmente-boas-oportunidades-de-aquisicao-diz-ceo-da-ultrapar.ghtml
-· (+58 manchetes; lista completa em eventos/noticias.json)
+· (+71 manchetes; lista completa em eventos/noticias.json)
