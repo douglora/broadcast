@@ -2,7 +2,7 @@
  "pregao": "2026-10-01",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-01T21:45:38.01",
+ "atualizado_em": "2026-10-02T03:04:06.7",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -14,7 +14,7 @@
    "pai": null,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-01T21:00:29.28",
+   "atualizado_em": "2026-10-02T01:03:10.457",
    "arquivo": "",
    "pdf": ""
   },
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T21:45:38.01",
+   "atualizado_em": "2026-10-02T03:05:38.67",
    "arquivo": "BDI_02_20261001.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-01/BDI_02_20261001.pdf"
   },
@@ -52,11 +52,11 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T21:41:58.743",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-02T03:05:38.67",
+   "arquivo": "BDI_02-3_20261001.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-01/BDI_02-3_20261001.pdf"
   },
   {
    "id": 31,
@@ -64,7 +64,7 @@
    "pai": 3,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T20:00:38.013",
+   "atualizado_em": "2026-10-01T22:45:38.01",
    "arquivo": "BDI_03-1_20261001.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-01/BDI_03-1_20261001.pdf"
   },
@@ -72,11 +72,11 @@
    "id": 33,
    "nome": "Derivativos de balcão",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T00:00:38.013",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-02T01:25:38.09",
+   "arquivo": "BDI_03-3_20261001.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-01/BDI_03-3_20261001.pdf"
   },
   {
    "id": 34,
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-01T21:00:38.023",
+   "atualizado_em": "2026-10-02T02:43:06.983",
    "arquivo": "",
    "pdf": ""
   },
@@ -94,7 +94,7 @@
    "pai": 4,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-01T20:40:33.627",
+   "atualizado_em": "2026-10-01T23:00:51.923",
    "arquivo": "",
    "pdf": ""
   },
@@ -112,11 +112,11 @@
    "id": 43,
    "nome": "COE",
    "pai": 4,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-01T00:00:38.013",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-02T01:25:38.09",
+   "arquivo": "BDI_04-3_20261001.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-01/BDI_04-3_20261001.pdf"
   }
  ]
 }

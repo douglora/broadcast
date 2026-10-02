@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 01/10/2026 (quinta)
 
-**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T00:53:09Z (UTC).
+**Situação: PARCIAL.** Ainda sem: saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T06:10:15Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (14)
+## Sinais do dia (17)
 
 **Novos hoje**
 
@@ -17,9 +17,12 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** CRA020002H1 (Vert Companhia Securitizadora, CRA): negociada a IPCA+ 12,49%, 484 pb acima do juro real de mercado de prazo equivalente, em R$ 7,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 01/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 785 mi líquidos em 29/09; no mês, até 29/09, saldo de +R$ 8.784 mi. _(B3, SharesInvesVolum, 29/09)_
 - **Juros.** A curva de juros abriu: DI1F32 +11 pb, para 14,09%, DI1F35 +14 pb, para 14,11%. _(B3, TradeInformationConsolidated, 01/10)_
+- **Provento.** BBDC4: crédito de juros sobre capital próprio de R$ 0,0190 por ação em 01/10. _(B3, ProventionCreditVariable, 01/10)_
+- **Provento.** ITSA4: crédito de juros sobre capital próprio de R$ 0,0242 por ação em 01/10. _(B3, ProventionCreditVariable, 01/10)_
+- **Provento.** ITUB4: crédito de juros sobre capital próprio de R$ 0,0182 por ação em 01/10. _(B3, ProventionCreditVariable, 01/10)_
 - **Provento.** ITUB4: juros sobre capital próprio com prazo de depósito de títulos em 02/10. _(B3, DeadlineDepositSecurities, 01/10)_
 - **Comunicado.** Comunicado no boletim cita BBDC4: LEILÃO ESPECIAL DE SOBRAS DE SUBSCRIÇÃO   DO BANCO BRADESCO S.A.. _(B3, informations, 01/10)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: ITUB4 (1º), VALE3 (2º), BBDC4 (3º), PETR4 (4º); calls mais negociadas: BBDCJ203 (4º); puts mais negociadas: BBDCV6 (1º), BBDCV203 (2º), BBDCV174 (3º), BBDCV202 (4º). _(B3, tabelas de maiores oscilacoes, 01/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores baixas do Ibovespa: ITSA4 (6º), CURY3 (7º); mais negociadas à vista: ITUB4 (1º), VALE3 (2º), BBDC4 (3º), PETR4 (4º); calls mais negociadas: BBDCJ203 (4º); puts mais negociadas: BBDCV6 (1º), BBDCV203 (2º), BBDCV174 (3º), BBDCV202 (4º). _(B3, tabelas de maiores oscilacoes, 01/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -67,16 +70,16 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 
 | Contrato | Ajuste | Variação | Contratos em aberto |
 |---|---:|---:|---:|
-| DI1F27 | 13,564% | +1,2 pb | - |
-| DI1F28 | 13,565% | +1,3 pb | - |
-| DI1F29 | 13,821% | +5,7 pb | - |
-| DI1F30 | 13,970% | +7,8 pb | - |
-| DI1F32 | 14,093% | +10,9 pb | - |
-| DI1F35 | 14,112% | +13,6 pb | - |
-| DAPQ28 | 7,350% | +3,0 pb | - |
-| DAPK31 | 7,650% | +2,0 pb | - |
-| DOLX26 | 5.255,72 | +1,12% | - |
-| INDV26 | 188.007,00 | +0,23% | - |
+| DI1F27 | 13,564% | +1,2 pb | 7.779.659 |
+| DI1F28 | 13,565% | +1,3 pb | 5.221.009 |
+| DI1F29 | 13,821% | +5,7 pb | 3.367.975 |
+| DI1F30 | 13,970% | +7,8 pb | 1.719.761 |
+| DI1F32 | 14,093% | +10,9 pb | 1.418.672 |
+| DI1F35 | 14,112% | +13,6 pb | 806.451 |
+| DAPQ28 | 7,350% | +3,0 pb | 473.093 |
+| DAPK31 | 7,650% | +2,0 pb | 133.762 |
+| DOLX26 | 5.255,72 | +1,12% | 746.030 |
+| INDV26 | 188.007,00 | +0,23% | 175.340 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
 
@@ -177,6 +180,9 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Eventos e comunicados
 
+- BBDC4: juros sobre capital próprio de R$ 0,0190, crédito em 01/10
+- ITSA4: juros sobre capital próprio de R$ 0,0242, crédito em 01/10
+- ITUB4: juros sobre capital próprio de R$ 0,0182, crédito em 01/10
 - ITUB4: juros sobre capital próprio, prazo em 02/10
 - Comunicado (16/09): 1º Leilão da 5ª Distribuição de CEPAC - Linha Verde - Necton
 - Comunicado (30/09): LEILÃO DE VENDA DE AÇÕES ORDINÁRIAS   CONTAX PARTICIPAÇÕES S.A
@@ -203,16 +209,9 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
 - Custody: aguardando
-- DIover: aguardando
-- posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
-- ProventionCreditVariable: aguardando
 - Register: aguardando
-- RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 30/09.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 01/10 de MELI nas séries do livro.
