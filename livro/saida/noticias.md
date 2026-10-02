@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 10h26
+NOTÍCIAS E FATOS · 02/10 11h22
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 419 veículo fora da lista, 46 sem ativo, 36 teto) · cvm ok 2 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 431 veículo fora da lista, 38 sem ativo, 11 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,23 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · NVDA · Nvidia stock hits new all-time high, market cap at $5.7 trillion
+Yahoo Finance · 02/10 11h13 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia (NVDA) stock hit a new all-time intraday high on Friday, eclipsing its prior high of $235.54 a share.
+  – The stock reached $237.55 in early trading, after opening at $236.05.
+  – The company's intraday market cap hit $5.7 trillion.
+  – In its August Q2 earnings report, Nvidia topped Wall Street's already lofty expectations on both the top and bottom lines, reporting revenue of $96.2 billion, and offering a better-than-anticipated outlook for its third…
+  – The company said it expects sales of between $105.8 billion and $110.1 billion.
+  – 2022, with investors regularly questioning whether the market is in an AI bubble and, if so, when it will burst.
+Link: https://sg.finance.yahoo.com/news/nvidia-stock-hits-new-all-time-high-market-cap-at-57-trillion-141332917.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia stock hits new all-time high, market cap at $5.7 trillion; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/10 11h13
+id: E05-NVDA-5bdcc893d4-2026-10-02 · status: pendente
 
 [ATENÇÃO] E05 · MU · Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spend…
 Yahoo Finance · 02/10 09h23 · fonte única · licença: resumo
@@ -43,7 +59,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MU · AVGO
 Como falar: 'saiu no Yahoo Finance: Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Bro…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 09h23
-id: E05-MU-218f49266c-2026-10-02 · status: pendente
+id: E05-MU-218f49266c-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Mais de 8% em dividendos: BTG inclui B3 e reforça apostas em Itaú e Petrobras na carteira de outubro
 Estadao · 02/10 09h01 · fonte única · licença: manchete
@@ -52,7 +68,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4 · PETR4
 Como falar: 'saiu no Estadao: Mais de 8% em dividendos: BTG inclui B3 e reforça apostas em Itaú e Petrobras na carteira…; confirmar o número no texto antes de repassar'
 Fonte: Estadao 02/10 09h01
-id: E05-ITUB4-9330fe2e6b-2026-10-02 · status: pendente
+id: E05-ITUB4-9330fe2e6b-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Amazon Eyes $8 Billion Nvidia Chip Sale to Investors as AI Infrastructure Costs Surge: Report
 TradingView (Reuters) · 02/10 07h00 · fonte única · licença: manchete
@@ -61,7 +77,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA · AMZN
 Como falar: 'saiu no TradingView (Reuters): Amazon Eyes $8 Billion Nvidia Chip Sale to Investors as AI Infrastructure Costs Surge: Re…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 02/10 07h00
-id: E05-NVDA-344bd92766-2026-10-02 · status: pendente
+id: E05-NVDA-344bd92766-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · BTC · SEC Proposes New Rule for Investment Advisers to Hold Bitcoin for Clients: Which Coins Will See Over $100 Trillion in Managed Funds First?
 Yahoo Finance · 01/10 18h40 · fonte única · licença: resumo
@@ -146,8 +162,22 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (44)
 
+· TSLA Tesla Stock: The Vision And The Timeline (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4951598-tesla-stock-vision-and-timeline
+· PETR4 Mais petróleo na Margem Equatorial: Petrobras (PETR4) anuncia nova descoberta e confirma boa qualidade do óleo encontrado em agosto (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/mais-petroleo-na-margem-equatorial-petrobras-petr4-anuncia-nova-descoberta-e-confirma-boa-qualidade-do-oleo-encontrado-em-agosto/
+· UST Tech stocks jump after jobs report miss, Treasury yields ease: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-stocks-jump-after-jobs-report-miss-treasury-yields-ease-alphacheck-134916934.html
+· USDBRL Dólar ronda R$ 5,22 e Bolsa sobe, por eleições no Brasil e emprego nos EUA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/02/dolar-bolsa-abre-hoje-2-de-outubro-de-2026.ghtm
+· TSLA Tesla sustains its EV sales momentum despite US troubles (TechCrunch) https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/
+· TSLA Tesla EV sales beat Wall Street’s expectations again, and the stock jumps (MarketWatch) https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53
+· MU EXCLUSIVE: Micron’s NAND Revenue Surged 526%: Why AI Data Centers Need So Much Storage (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/exclusive-micron-nand-revenue-surged-132856015.html
+· TSLA Tesla Q3 deliveries top estimates, shares rise 1.9% By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/tesla-q3-deliveries-top-estimates-shares-rise-19-4488415
+· BTC Bitcoin rises for third straight week on strong ETF demand (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-rises-third-straight-week-131938690.html
+· TSLA Tesla Is Winning the New EV Race. Here’s How. (Barron's) https://www.barrons.com/articles/tesla-delivery-results-d05dff64
+· TSLA Tesla Third Quarter 2026 Production, Deliveries & Deployments (Yahoo Finance) https://uk.finance.yahoo.com/news/tesla-third-quarter-2026-production-130600521.html
+· PETR4 Pressão no custo dos voos: Petrobras encarece querosene de aviação em 11,8% (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/pressao-no-custo-dos-voos-petrobras-encarece-querosene-de-aviacao-em-118/
+· NVDA NVDA Stock Is Back As Morgan Stanley’s Top Pick – All AI Trends Play To Nvidia’s ‘Strengths,’ Says Analyst (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvda-stock-back-morgan-stanley-124934015.html
+· NVDA How Serious Is Alphabet’s Threat to Nvidia? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQVGk3T0hfU3ltYzlQWk9LMGxiUVM1NWZEVDlnWUp0V1VVbkNXWUFyby1BeEZjREpieTdVTGVmbHpIQUdUYnZ5aGppbVFrbmV2VWxyRUFaV25MdWRTa3l5ZGpJNzFGNUhvNE9uY1V1SkZRZVVyaTBacndpYzFBcjBFbHQxY1NKeFZ6RXpaMjF0LUt3dVRDbzNjcmFR?oc=5
 · TSLA Tesla deliveries fall 2% as US consumers buy fewer electric vehicles (Financial Times) https://www.ft.com/content/78ed6ae8-1948-4259-be3e-0b3fe4af3663?syn-25a6b1a6=1
 · TSLA Tesla stock rises as company reports Q3 deliveries that top analyst estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-rises-as-company-reports-q3-deliveries-that-top-analyst-estimates-145514238.html
 · TSLA Tesla smashes third-quarter deliveries expectation as Europe demand recovers (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4649764-tesla-smashes-third-quarter-deliveries-expectation-as-europe-demand-recovers
