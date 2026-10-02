@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 14h21
+NOTÍCIAS E FATOS · 02/10 15h19
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 430 veículo fora da lista, 48 sem ativo, 2 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 433 veículo fora da lista, 41 sem ativo, 10 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,23 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · ITUB4 · Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro
+Money Times · 02/10 15h02 · fonte única · licença: integral
+Do texto:
+  – Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro O Itaú BBA realizou algumas mudanças na sua carteira recomendada de dividendos para outubro, composta atualmente por cinco ações.
+  – B3 (B3SA3) entrou nas indicações no lugar da Axia Energia (AXIA3), em uma troca que busca aproveitar uma possível recuperação da atividade no mercado de capitais a partir do quarto trimestre.
+  – Para 2027, a expectativa é de que as ações da B3 entreguem um dividend yield de aproximadamente 6%.
+  – A B3 é responsável pela principal infraestrutura do mercado de capitais brasileiro, com operações que incluem negociação, registro, compensação, liquidação e depósito centralizado de ativos, aponta o BBA.
+  – “Seu modelo de negócios combina receitas recorrentes de infraestrutura com exposição ao volume de negociação e à atividade de emissão e registro de instrumentos financeiros”, avaliam.
+  – A Carteira Dividendos do Itaú BBA registrou valorização de 4,3% em setembro, desempenho 0,7 ponto percentual (p.p.) abaixo do avanço do Ibovespa no período.
+Link: https://www.moneytimes.com.br/dividendos-de-ate-6-veja-a-nova-aposta-da-carteira-recomendada-do-itau-bba-em-outubro-ceci/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4
+Como falar: 'saiu no Money Times: Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro; confirmar o número no texto antes de repassar'
+Fonte: Money Times 02/10 15h02
+id: E05-ITUB4-6ac9800b8c-2026-10-02 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
 Yahoo Finance · 02/10 12h20 · fonte única · licença: resumo
@@ -210,8 +226,15 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (96)
 
+· NVDA Nvidia Stock Has Become Deeply Undervalued, But Watch Out For Accounts Receivable (NVDA) (Seeking Alpha) https://seekingalpha.com/article/4951661-nvidia-stock-has-become-deeply-undervalued-but-watch-out-for-accounts-receivable
+· DI Comprar apartamento para alugar ainda vale a pena? Compare com Tesouro Selic e IPCA+ 7% (Estadao) https://www.estadao.com.br/em-alta/einvestidor/financas-pessoais/comprar-apartamento-para-alugar-ainda-vale-a-pena-compare-com-tesouro-selic-e-ipca-7/
+· UST Treasury yields reverse higher after an earlier retreat against payrolls data (Seeking Alpha) https://seekingalpha.com/news/4649817-treasury-yields-retreat-after-the-softer-september-payrolls-report
+· TSLA Tesla Stocks Jump 5.43% as Deliveries Clear Company Consensus (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-jump-5-43-170853865.html
+· BRENT Platts backfills WTI-ICE Brent futures spreads at Singapore close for Oct 1-2 (S&P Global) https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/100226-platts-backfills-wti-ice-brent-futures-spreads-at-singapore-close-for-oct-1-2
+· TSLA Tesla Stock Jumps After Deliveries Top Estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-deliveries-top-153623339.html
+· AMZN Amazon.com, Inc. (AMZN) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FUDFQenF3VGxzbElPQUNQOWFWdmw4VkhoVlY1b1gyRVRaa2Noem9BbzJWbkt2Yi1xS0pLdWVHYTdOakpJUG5ueERzRjFQc0ZFUGc?oc=5
 · USDBRL Ações sobem e dólar cai após dados sobre de trabalho dos EUA; rendimentos dos títulos sobem (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45O0YL:0/
 · BTC Bitcoin Heads Higher on Macro Moves: Where Does BTC Go Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-heads-higher-macro-moves-164552302.html
 · TSLA Why Tesla (TSLA) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:c96c9fb8a094b:0-why-tesla-tsla-stock-is-trading-up-today/
@@ -265,11 +288,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · TSLA Tesla EV sales beat Wall Street’s expectations again, and the stock jumps (MarketWatch) https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53
 · MU EXCLUSIVE: Micron’s NAND Revenue Surged 526%: Why AI Data Centers Need So Much Storage (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/exclusive-micron-nand-revenue-surged-132856015.html
 · TSLA Tesla Q3 deliveries top estimates, shares rise 1.9% By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/tesla-q3-deliveries-top-estimates-shares-rise-19-4488415
-· BTC Bitcoin rises for third straight week on strong ETF demand (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-rises-third-straight-week-131938690.html
-· TSLA Tesla Is Winning the New EV Race. Here’s How. (Barron's) https://www.barrons.com/articles/tesla-delivery-results-d05dff64
-· TSLA Tesla Third Quarter 2026 Production, Deliveries & Deployments (Yahoo Finance) https://uk.finance.yahoo.com/news/tesla-third-quarter-2026-production-130600521.html
-· PETR4 Pressão no custo dos voos: Petrobras encarece querosene de aviação em 11,8% (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/pressao-no-custo-dos-voos-petrobras-encarece-querosene-de-aviacao-em-118/
-· NVDA NVDA Stock Is Back As Morgan Stanley’s Top Pick – All AI Trends Play To Nvidia’s ‘Strengths,’ Says Analyst (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvda-stock-back-morgan-stanley-124934015.html
-· NVDA How Serious Is Alphabet’s Threat to Nvidia? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQVGk3T0hfU3ltYzlQWk9LMGxiUVM1NWZEVDlnWUp0V1VVbkNXWUFyby1BeEZjREpieTdVTGVmbHpIQUdUYnZ5aGppbVFrbmV2VWxyRUFaV25MdWRTa3l5ZGpJNzFGNUhvNE9uY1V1SkZRZVVyaTBacndpYzFBcjBFbHQxY1NKeFZ6RXpaMjF0LUt3dVRDbzNjcmFR?oc=5
-· TSLA Tesla deliveries fall 2% as US consumers buy fewer electric vehicles (Financial Times) https://www.ft.com/content/78ed6ae8-1948-4259-be3e-0b3fe4af3663?syn-25a6b1a6=1
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+36 manchetes; lista completa em eventos/noticias.json)
