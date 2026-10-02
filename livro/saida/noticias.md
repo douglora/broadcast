@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 11h22
+NOTÍCIAS E FATOS · 02/10 12h21
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 431 veículo fora da lista, 38 sem ativo, 11 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 436 veículo fora da lista, 42 sem ativo, 15 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -48,7 +48,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Nvidia stock hits new all-time high, market cap at $5.7 trillion; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 11h13
-id: E05-NVDA-5bdcc893d4-2026-10-02 · status: pendente
+id: E05-NVDA-5bdcc893d4-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · MU · Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spend…
 Yahoo Finance · 02/10 09h23 · fonte única · licença: resumo
@@ -162,8 +162,23 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (44)
+## OUTRAS NOTÍCIAS (só manchete) (59)
 
+· UGPA3 Na escassez de capital surgem eventualmente boas oportunidades de aquisição, diz CEO da Ultrapar (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/02/na-escassez-de-capital-surgem-eventualmente-boas-oportunidades-de-aquisicao-diz-ceo-da-ultrapar.ghtml
+· EQTL3 A AGÊNCIA NACIONAL DO PETRÓLEO APROVOU A DELIMITAÇÃO DE 11 NOVOS SETORES EXPLORATÓRIOS NAS BACIAS DA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/a-agencia-nacional-do-petroleo-aprovou-a-delimitacao-de-11-novos-setores-exploratorios-nas-bacias-da-margem-equatorial/
+· TSLA Tesla Surges 5% as 486,532 Deliveries Top Company Consensus; Rivian Slides 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-surges-5-486-532-145042966.html
+· TSLA Tesla Q3 Deliveries Beat Street Estimate, Gene Munster Says ‘EV Winter’ Is Thawing — Sees 15% Growth In Full Year 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-deliveries-beat-street-144012325.html
+· TSM TSMC Stock: Resolving The Valuation Conundrum (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4951614-tsmc-resolving-the-valuation-conundrum
+· TSLA Tesla Stock Jumps 6% on Delivery Beat: Will Earnings Back It Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-6-delivery-143224380.html
+· BABA MONDAY BABA DEADLINE: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/02/3373884/0/en/monday-baba-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-rgrd-law.html
+· JPM REG - JPMorgan India G&I - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-10-02:newsml_RSB4779Xa:0-reg-jpmorgan-india-g-i-dividend-declaration/
+· AMZN Amazon Is Both Landlord And Shareholder In Anthropic’s Giant Cloud Bet (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amazon-both-landlord-shareholder-anthropic-142325070.html
+· MU Micron Stock: More Great Earnings Don't Change Our Mind (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4951608-micron-more-great-earnings-dont-change-our-mind
+· EQTL3 ANP aprova configuração de 501 novos blocos na Margem Equatorial (eixos) https://eixos.com.br/petroleo-e-gas/anp-aprova-configuracao-de-501-novos-blocos-na-margem-equatorial/
+· USDBRL Tempo real: Ibovespa cai e destoa de exterior positivo com payroll; dólar volta a ganhar força (Money Times) https://www.moneytimes.com.br/tempo-real-2-10-26-apsa-lils/
+· ETH Current price of Ethereum for Oct. 2, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-02-2026/
+· TSLA Tesla quarterly deliveries beat as Europe demand recovers (Reuters) https://www.reuters.com/business/autos-transportation/tesla-posts-stronger-than-expected-quarterly-deliveries-2026-10-02/
+· TSLA Tesla Q3 2026 vehicle deliveries beat Wall Street estimates (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNaUFWMHBMNDh4Z25DWTB6bEtUV3dZRE05UDdSWlg5MmpRWG51NmJ1SmhKaG1nM3VqNEI2RHppM0ZSUWtpUGw2UnIyZ0N3c1dRTXVzVEloSEZZOGw4T04wSVVDRVlzM01ZRmZ5MmJjZDh6b19OQmZ3NVY3VGFXUUVvMFVYNTgyT2hDNXZmSlh0Sjc1T2ZiaGRqa1p0d3d0dw?oc=5
 · TSLA Tesla Stock: The Vision And The Timeline (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4951598-tesla-stock-vision-and-timeline
 · PETR4 Mais petróleo na Margem Equatorial: Petrobras (PETR4) anuncia nova descoberta e confirma boa qualidade do óleo encontrado em agosto (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/mais-petroleo-na-margem-equatorial-petrobras-petr4-anuncia-nova-descoberta-e-confirma-boa-qualidade-do-oleo-encontrado-em-agosto/
 · UST Tech stocks jump after jobs report miss, Treasury yields ease: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-stocks-jump-after-jobs-report-miss-treasury-yields-ease-alphacheck-134916934.html
