@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 15h19
+NOTÍCIAS E FATOS · 02/10 16h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 433 veículo fora da lista, 41 sem ativo, 10 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 430 veículo fora da lista, 45 sem ativo, 1 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,32 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU)
+Seeking Alpha · 02/10 16h06 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4951668-micron-the-50-billion-capex-misconception-why-the-memory-floor-is-rising
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MU
+Como falar: 'saiu no Seeking Alpha: Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 02/10 16h06
+id: E05-MU-c1e73932c4-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · AVGO · Broadcom Bets $102 Billion on Anthropic Chips
+Yahoo Finance · 02/10 15h35 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Key Takeaways - Broadcom is reportedly raising $60 billion to fund chips for Anthropic, on top of a loan of up to $42 billion to lease Broadcom's chips.
+  – - $60 billion of new debt alone would nearly double the $66.5 billion of total debt Broadcom carried at the end of fiscal 2025.
+  – - Analysts expect revenue to rise from $63.9 billion in fiscal 2025 to $272 billion by fiscal 2028, and Anthropic's IPO, reportedly as early as mid-November, is the next thing to watch.
+  – Broadcom has started lining up $60 billion to finance chips for Anthropic, according to Bloomberg.
+  – That's on top of a loan of up to $42 billion that Broadcom would provide to Anthropic to lease its chips, a deal TIKR covered earlier.
+  – Put those two figures together, and you're looking at $102 billion.
+Link: https://finance.yahoo.com/technology/ai/articles/broadcom-bets-102-billion-anthropic-183557853.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: AVGO
+Como falar: 'saiu no Yahoo Finance: Broadcom Bets $102 Billion on Anthropic Chips; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/10 15h35
+id: E05-AVGO-6cbf4d3ba5-2026-10-02 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro
 Money Times · 02/10 15h02 · fonte única · licença: integral
@@ -48,7 +73,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Money Times: Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro; confirmar o número no texto antes de repassar'
 Fonte: Money Times 02/10 15h02
-id: E05-ITUB4-6ac9800b8c-2026-10-02 · status: pendente · íntegra disponível
+id: E05-ITUB4-6ac9800b8c-2026-10-02 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
 Yahoo Finance · 02/10 12h20 · fonte única · licença: resumo
@@ -226,8 +251,16 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (96)
+## OUTRAS NOTÍCIAS (só manchete) (104)
 
+· TSLA Former Tesla President Says Car Sales Are Funding the Longer Road to Robots and Cybercabs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/former-tesla-president-says-car-185750586.html
+· DI Corte na Selic em novembro é posto em xeque na curva de juros às vésperas do primeiro turno (Money Times) https://www.moneytimes.com.br/corte-na-selic-em-novembro-e-posto-em-xeque-com-as-vesperas-do-primeiro-turno-na-curva-de-juros-lils/
+· JPM Hess Midstream cut to Sell equivalent at J.P. Morgan on MVC step-downs, uncertain outlook (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:fc60794fa094b:0-hess-midstream-cut-to-sell-equivalent-at-j-p-morgan-on-mvc-step-downs-uncertain-outlook/
+· TSLA Tesla Stocks Jump 5.43% as Deliveries Clear Company Consensus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b36175720094b:0-tesla-stocks-jump-5-43-as-deliveries-clear-company-consensus/
+· BTC Strategy Stock Drops Despite Bitcoin Breaking $87,000 (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:50d7e1f0f094b:0
+· UST Treasury yields retreat after the softer September payrolls report (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRC1Yei1ZVlZoRndyVC0tdW9id3U1REo2Q3ZyZXZsa3ZsWHhNaFJBd0Zhc1hSanBFMkhTSlkxenh2QXp1THJxRmtnZEt5dWF4N05iR0dVVW1Vc0l2VlVzVDhFcjc2QlFHbFFYVXRKT3Z1YkJ0d2xHZjJOdU0wMU1vQ1Z1LTJOSlVBWGowc0dseFo3Tkl4MnR2SnZDV0h0SS1XVEN6TVN2Y2xOQlMxb2d6Mzd4WW9WWEdmLURJWjItcENIbGVLSDk2VQ?oc=5
+· USDBRL Ibovespa renova máxima e atinge 190 mil pontos; dólar sobe (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxNN05mT0JQT1pTSTlTaERXcEJIZ3NQQ2ZHdzhleUxscTUwRjgwRWRtQlB0LUpnZFZGVExlcVM1M013d0tablJxZm1VREg1XzdEZDkzX2l4TFFJdmVQS2h4c3ctSGM5akk3QmtuVXRMZ0R1OVI5Nno1dWlKZEJ4SlRKU1Q4eUlreV92UjFkd01OSjRadTlQanR0NlNGUjNvOVhTU2pV?oc=5
+· JPM JPMorgan downgrades Hess Midstream stock rating on contract risks By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMixAFBVV95cUxPclg0dXppNEk1Q1JRcDNEWnA2V2R2YmpONFFNQzF1R3c1QUpQTHVva3dCd252YWxVdHBFRFNzcjdmcW5Wa0tobVRQZ3Q5bXh1MzhucFRFeWVGU0RpZm5sZ2NwTC15Nl9nR1ZnUElSUTVNUDlYSDcwZW9ldVRRMjQxcWRETm1NNHRRekY5YVdUMXFDQ3ZPQTlKQkllWnBmWDlBRUFYOGhlVVNsZjhSNy1nbUpCVXlBT0ktV3l0ZDZ1cmlfbi1w?oc=5
 · NVDA Nvidia Stock Has Become Deeply Undervalued, But Watch Out For Accounts Receivable (NVDA) (Seeking Alpha) https://seekingalpha.com/article/4951661-nvidia-stock-has-become-deeply-undervalued-but-watch-out-for-accounts-receivable
 · DI Comprar apartamento para alugar ainda vale a pena? Compare com Tesouro Selic e IPCA+ 7% (Estadao) https://www.estadao.com.br/em-alta/einvestidor/financas-pessoais/comprar-apartamento-para-alugar-ainda-vale-a-pena-compare-com-tesouro-selic-e-ipca-7/
 · UST Treasury yields reverse higher after an earlier retreat against payrolls data (Seeking Alpha) https://seekingalpha.com/news/4649817-treasury-yields-retreat-after-the-softer-september-payrolls-report
@@ -280,12 +313,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · ETH Current price of Ethereum for Oct. 2, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-02-2026/
 · TSLA Tesla quarterly deliveries beat as Europe demand recovers (Reuters) https://www.reuters.com/business/autos-transportation/tesla-posts-stronger-than-expected-quarterly-deliveries-2026-10-02/
 · TSLA Tesla Q3 2026 vehicle deliveries beat Wall Street estimates (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNaUFWMHBMNDh4Z25DWTB6bEtUV3dZRE05UDdSWlg5MmpRWG51NmJ1SmhKaG1nM3VqNEI2RHppM0ZSUWtpUGw2UnIyZ0N3c1dRTXVzVEloSEZZOGw4T04wSVVDRVlzM01ZRmZ5MmJjZDh6b19OQmZ3NVY3VGFXUUVvMFVYNTgyT2hDNXZmSlh0Sjc1T2ZiaGRqa1p0d3d0dw?oc=5
-· TSLA Tesla Stock: The Vision And The Timeline (NASDAQ:TSLA) (Seeking Alpha) https://seekingalpha.com/article/4951598-tesla-stock-vision-and-timeline
-· PETR4 Mais petróleo na Margem Equatorial: Petrobras (PETR4) anuncia nova descoberta e confirma boa qualidade do óleo encontrado em agosto (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/mais-petroleo-na-margem-equatorial-petrobras-petr4-anuncia-nova-descoberta-e-confirma-boa-qualidade-do-oleo-encontrado-em-agosto/
-· UST Tech stocks jump after jobs report miss, Treasury yields ease: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/tech-stocks-jump-after-jobs-report-miss-treasury-yields-ease-alphacheck-134916934.html
-· USDBRL Dólar ronda R$ 5,22 e Bolsa sobe, por eleições no Brasil e emprego nos EUA (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/02/dolar-bolsa-abre-hoje-2-de-outubro-de-2026.ghtm
-· TSLA Tesla sustains its EV sales momentum despite US troubles (TechCrunch) https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/
-· TSLA Tesla EV sales beat Wall Street’s expectations again, and the stock jumps (MarketWatch) https://www.marketwatch.com/story/tesla-ev-sales-beat-wall-streets-expectations-again-and-the-stock-jumps-294a4f53
-· MU EXCLUSIVE: Micron’s NAND Revenue Surged 526%: Why AI Data Centers Need So Much Storage (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/exclusive-micron-nand-revenue-surged-132856015.html
-· TSLA Tesla Q3 deliveries top estimates, shares rise 1.9% By Investing.com (Investing.com) https://za.investing.com/news/stock-market-news/tesla-q3-deliveries-top-estimates-shares-rise-19-4488415
-· (+36 manchetes; lista completa em eventos/noticias.json)
+· (+44 manchetes; lista completa em eventos/noticias.json)
