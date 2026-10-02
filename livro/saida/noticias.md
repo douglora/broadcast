@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 12h21
+NOTÍCIAS E FATOS · 02/10 13h21
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 436 veículo fora da lista, 42 sem ativo, 15 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 437 veículo fora da lista, 45 sem ativo, 9 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,55 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
+Yahoo Finance · 02/10 12h20 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Right now, you can scoop up shares while they're off about 15%, which is normally a pretty good buying opportunity.
+  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
+  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
+  – For 2026, Alphabet projects data center capital expenditures between $195 billion and $205 billion.
+  – This is how the majority of people interact with AI right now, and it drives monetization of search results at a similar rate, which is why a mature platform like Google Search was able to grow its revenue at a respecta…
+  – Alphabet is seeing simply incredible demand and has a $514 billion backlog.
+Link: https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-down-15-time-152000382.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: GOOGL
+Como falar: 'saiu no Yahoo Finance: Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/10 12h20
+id: E05-GOOGL-9e4a9f55af-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesla Rises 2%
+Yahoo Finance · 02/10 10h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read -       Rivian delivered 19,248 vehicles in Q3, hitting its own target and reaffirming full-year guidance, sending RIVN shares up 2% to $15.
+  – -       Tesla's 0.8% gain mirrors the broader S&P 500 rise, while the flat EV ETF signals Rivian's in-line quarter sparked no sector-wide enthusiasm.
+  – -       Rivian's Q4 delivery pace now carries the full weight of validating annual targets, with earnings later this month revealing margins and cost progress.
+  – Shares of Rivian are at $15.31, up 4% in morning trading.
+  – Meanwhile, Tesla (NASDAQ:TSLA) stock is up 2% to $360.70, a smaller gain that keeps the larger electric vehicle maker moving in the same direction as Rivian.
+  – The Global X Autonomous & Electric Vehicles ETF (NASDAQ:DRIV) is practically unchanged at $33.06, a sign the reaction to Rivian's report is staying narrow.
+Link: https://finance.yahoo.com/markets/stocks/articles/rivian-jumps-4-delivering-19-133049040.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesl…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/10 10h30
+id: E05-TSLA-b18d9da36c-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan turbina preço-alvo para ação
+Seu Dinheiro · 01/10 17h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Em relatório, o JP Morgan manteve a recomendação overweight (equivalente à compra) elevou o preço-alvo das ações do IRB, de R$ 68 para R$ 80 até dezembro de 2027.
+  – A nova cifra implica um potencial de valorização de até 28,3% frente ao último fechamento.
+  – "Acreditamos que a medida altera estruturalmente o ambiente competitivo da indústria de resseguros”, dizem os analistas, que preveem que a mudança permita que o IRB recupere competitividade, amplie os negócios e gere ma…
+  – IRB Brasil (IRBR3): menos impostos, mais espaço para crescer A nova lei, aprovada nesta semana, prevê reduzir a alíquota da Contribuição Social sobre o Lucro Líquido (CSLL) das resseguradoras locais de 15% para 9% a par…
+  – O texto também estabelece a eliminação gradual de uma alíquota adicional de 10% do Imposto de Renda da Pessoa Jurídica (IRPJ), a partir de 2030, além de mudanças nas regras de utilização de ativos fiscais diferidos.
+  – O banco projeta que os prêmios emitidos — indicador que representa o volume de negócios contratados — cresçam 6% em 2027 e 8% em 2028.
+Link: https://www.seudinheiro.com/2026/empresas/irb-brasil-irbr3-mudanca-tributaria-abre-caminho-para-dividendos-generosos-jp-morgan-turbina-preco-alvo-para-acao-miql/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: JPM
+Como falar: 'saiu no Seu Dinheiro: IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 01/10 17h29
+id: E05-JPM-b8e61470e6-2026-10-01 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · Nvidia stock hits new all-time high, market cap at $5.7 trillion
 Yahoo Finance · 02/10 11h13 · fonte única · licença: resumo
@@ -162,8 +210,21 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (59)
+## OUTRAS NOTÍCIAS (só manchete) (72)
 
+· TSLA Tesla earnings missed by $0.01, revenue topped estimates (Investing.com) https://www.investing.com/news/earnings/tesla-earnings-missed-by-001-revenue-topped-estimates-4930190
+· UST Treasury Yields Resume Their Rise (TradingView (Reuters)) https://www.tradingview.com/news/te_news:589233:0-treasury-yields-resume-their-rise/
+· MU Micron: A Top AI Chip Stock With Potential To Double On HBM Demand (Seeking Alpha) https://seekingalpha.com/article/4951625-micron-potential-to-double-on-hbm-demand
+· UGPA3 O grito do Ipiranga vai chegar em Xangai (Estadao) https://www.estadao.com.br/cultura/alice-ferraz/o-grito-do-ipiranga-vai-chegar-em-xangai/
+· MU Cramer Says If You Are Shorting Micron You Are “Digging Your Own Grave” After Michael Burry Announces New Bet Against Company (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/cramer-says-shorting-micron-digging-151832015.html
+· PLTR Palantir Stock Rose 60% in Q3. Here’s Why It Still Trades at Roughly Half Its Year-Start Earnings Multiple (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/palantir-stock-rose-60-q3-151806420.html
+· NVDA Nvidia Well Positioned as AI Bottleneck Shifts, Morgan Stanley Says (Yahoo Finance) https://ca.finance.yahoo.com/news/nvidia-well-positioned-ai-bottleneck-151204721.html
+· AVGO Why Is Broadcom Inc. (AVGO) Down 3.8% Since Last Earnings Report? (Yahoo Finance) https://au.finance.yahoo.com/news/why-broadcom-inc-avgo-down-143002493.html
+· MRVL Should You Be Worried About Marvell Stock? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWY4bjI0dEV2MlhUMXA1blFFM2ozQUZoYmloaTd6ajE0LXlWMzg4bDM3anRLRWhXNE5TdDVGU0ktY1BhWjN4eUh0NndoTGV5MGdtWUF3UEwtR1oxZVJoMTFWRlZLYXA4clJ1LUFyaGpoOTY5amRsRzIwRVRYTEVLaWgzQWFBLUxnUjFBNEVWcw?oc=5
+· TSLA Tesla stock jumps 5% on better-than-expected vehicle deliveries report (CNBC) https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLTV2TThXeklJVmVnSl9pMDYzQnNoaWVielg0ekwyYTJVemhmRDdKdlpaekRVYXdTcndZNGRyelluczN1MUIxQ3J6M2FDWTQ4dnQwd3c1OEVURkdBUGdQLTBXaE1iUWxXOGFUVlZOLWdscVp0UkFTSEpsWkM3QTRDT3pMdkFlME41OHRn0gGQAUFVX3lxTFBoR1hCMDN2NU1mQ1ZJdFg3XzBQYWJSMzZmQk5aVnlBTTg5YnBfUi1KMm9seGMydVVOU2p1WnloTVVUV25QRXdYT1hwQ1Y4ODlvc0RBcUhwOG9VWUh3OG9CSnJ6N2ZuQUlBUjdWT0xPTnFaN3JHOTdjMk8tZnpWamkwOF9FaHNSUnZHQ1ZpQWkwZQ?oc=5
+· USDBRL Dólar avança e Bolsa oscila com Datafolha e repercussão de dados de emprego dos EUA (Folha de S.Paulo) https://news.google.com/rss/articles/CBMixgFBVV95cUxOMWtpek5RTlp0RS1tY0NxRVFEdUVfaDlidmpKdFVMVC1mQW5BZEgtR3IyNEVwTTQwVzZHUHhxc0g1MFBCYkY1YVFydF9BSjJ0TzVLdGNNU2pMLWJnS3V4X1BhNTJkQ09Hdm1hdXFEYmRTem1vOTZ1VWo2Y0F5emgxamNscXJUV3lNTkhtWlZzSGdveFVVNlFIQVdjTHlUSGZGNzd6OFpOUEdrd2tqaTBKSDZtbjFJUUstTjNqY1pwdUVrQTM1Rnc?oc=5
+· NVDA NVIDIA Announced a Record Buyback Increase This Week — Here's What Else Happened (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZXcxOUdub1d2NzR3SHJrUkRqVXZRd0R2ZkozUlVzdVk2YXFkeG80MElEYTBNQ3VmOVlLRU9xMDg5NnRsX21iRU9xdklubFhSRzdqS2RzVUxzOFh3SnR3Yy1sZmlTdS1kU3hNekZZOUdHUVhJRFRVa285ZFBwU0diendVQWZmVnlMa3BTOTktZmltZ09GVHpIdDJqOURRNk1URWtfdTdBY2hiRmlYb0JENTc0Tk5hd2lPMzhienVvTmNmdVVlMDA1cEJlX3dIdjNLRVdZ?oc=5
+· MU Zacks Investment Ideas feature highlights: Micron and NVIDIA (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNMGlsWWlTSDZGd0tYUjB6LWlZMHZCZXpEYlBZbnFSQTNjWHdqY0FYMm80cC1rdDlkZnlheTdDS21JVEhZWXlEM19Ic1Z6bDBZSzlKaml4Mk1xSzdoYkM4NklWTWxlNHlncWxQMVBsMF8yenF1NXJlQXoyR0lIX1pyWU01MVM1NlhIdDNOX2xQbmJYQ0RC?oc=5
 · UGPA3 Na escassez de capital surgem eventualmente boas oportunidades de aquisição, diz CEO da Ultrapar (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/02/na-escassez-de-capital-surgem-eventualmente-boas-oportunidades-de-aquisicao-diz-ceo-da-ultrapar.ghtml
 · EQTL3 A AGÊNCIA NACIONAL DO PETRÓLEO APROVOU A DELIMITAÇÃO DE 11 NOVOS SETORES EXPLORATÓRIOS NAS BACIAS DA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/a-agencia-nacional-do-petroleo-aprovou-a-delimitacao-de-11-novos-setores-exploratorios-nas-bacias-da-margem-equatorial/
 · TSLA Tesla Surges 5% as 486,532 Deliveries Top Company Consensus; Rivian Slides 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-surges-5-486-532-145042966.html
@@ -211,15 +272,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · BTC Bitcoin and ethereum prices today, Friday, October 2, 2026: Crypto prices surging ahead of September jobs report (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html
 · UGPA3 O “capital paciente” da Ultrapar: os planos da dona da Ipiranga mirando 2031 (Brazil Journal) https://braziljournal.com/o-capital-paciente-da-ultrapar-os-planos-da-dona-da-ipiranga-mirando-2031/
 · AXIA3 Momento B3: Axia Energia, Marisa Lojas, Fleury, MRV e os principais destaques desta sexta-feira (02) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-marisa-lojas-fleury-mrv-e-os-principais-destaques-desta-sexta-feira-02
-· AMZN Microsoft, Amazon Cloud Arms Set to Face Deeper Scrutiny Under EU’s Tech Rules (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-02/microsoft-amazon-cloud-arms-set-to-face-deeper-scrutiny-under-eu-s-tech-rules
-· BTC Citi Predicts Bitcoin Will Hit $113,000 and Ether Will Reach $3,028: Why a Bigger Upside for Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/citi-predicts-bitcoin-hit-113-110036251.html
-· AVGO UBS reiterates Broadcom stock Buy rating on AI revenue outlook (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-reiterates-broadcom-stock-buy-rating-on-ai-revenue-outlook-93CH-4929392
-· PETR4 Por que você deveria ter Petrobras (PETR4) na carteira — independente de quem ganhar as eleições? (Seu Dinheiro) https://www.seudinheiro.com/2026/colunistas/por-que-voce-deveria-ter-petrobras-petr4-na-carteira-independente-de-quem-ganhar-as-eleicoes-ccgg/
-· USDBRL Último pregão antes das eleições tem pesquisa industrial e payroll como pano de fundo; Ibovespa em dólar sobe nesta sexta-feira (2) (Money Times) https://www.moneytimes.com.br/ultimo-pregao-antes-das-eleicoes-tem-pesquisa-industrial-e-payroll-como-pano-de-fundo-ibovespa-em-dolar-sobe-nesta-sexta-feira-2-rens/
-· NVDA What Could Send NVIDIA Stock Higher? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-send-nvidia-stock-higher-095356605.html
-· BTC Bitcoin reaches for $87K as short liquidations top $120M (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:258bf9b6d094b:0-bitcoin-reaches-for-87k-as-short-liquidations-top-120m/
-· BTC Bitcoin Rises for Third Straight Week on Strong ETF Demand (Bloomberg) https://news.google.com/rss/articles/CBMiugFBVV95cUxQbjEyeS1oMXB6QUtYRkcyaDJyYUdUOTRaWW1SdHBmb2J0d3FUZ080U0p4SHIzOFlUaDRMWUZWbHZoQjEzX3VaUDJlR1pYcXFZUTVqMlNKY2xubzN1TFZydVpsMjE4eC1mTmM5SDhPRWNYTTJlWVhyZ1dkVTBVeFZIZGpwNGdqeDFINHhNZ2liOWJ4TjZkWUFpUXFRU2ZfWHJOQ1VxOW5oYWprOFU4dDhyOGEwQUhDamZGNEE?oc=5
-· USDBRL Libra sobe levemente enquanto dólar mantém ganhos antes do payroll (Investing.com) https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWRWSG84cTJrdVZNdUNwYmpvdkp1dkV1SnRqTUJrQmVTb3FodnhmTTVkdkt4bmVqZE9JbFlZZEVacFN0enNDR0tBZkREeXI4MHh6VzF1ZV9Tck9xdWF3eEJyaW1NNVN1eUtSY0lWTHRHTXM3cldnLTVsclY1ZklHbkFHdGt4d0VIc3I1czMyV0llQzVaNzVXTGZtY2ZaZ1d0ZEwyN205N0l3R29nWkhpa2JuRlJDUQ?oc=5
-· PETR4 Eleições mudam o mapa das carteiras para outubro e Petrobras ganha espaço; veja as recomendações (Estadao) https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbm9obVVNXzl4cVgwZElTSktYOVBhenQ2cGVYSWNmQldjZjZTa1BwUDVybHZlLWk1TGNyUzhTenVhNFFmOXBEOVdOR25kR2NCbkk3U1U5M2RST1pVWDRpUWY0dFdJbi05NllGbEFHdWlveVdMWFhzQ2RBX0Yyc1M0QW42eG5jZy1GU0hfOW9zbVBneThXVWljZWZVTTZhNk5HbC1pcUltcEpNLXlqcXJVb1Z3ZmlCWm5hcmZ5TkJtUDQyTHpkeTFhNzBsbGRjTDVRV2lnSkJVb3ZSTUxYeW9rbmN0Z9IB6AFBVV95cUxQMjhLUHEwTTQ4QUhOZU00TkhJUHdjd09pWHNWYWtfZ216cUZzLXNxZk92dDBtNzVYNDg3SmV1ai13YmZQTWVIZ3dsdWI4M3dadlY2eUtkSHlVM1FGQ045ZlVMQzExSzlQOFE2aU5WU0NmUXB6N2JXTVRrRWRZbjhLZ2hEdE5DZ0pUb1JNd3plT1hGWS1ybnNmZ0NBbFlEX3oza1ZnMmFaQU9RcHdLa3FDY0ZtV0NuVlVBdThFb1dHbHNrRVg2NGx3RF9YeW5TdzZuU2pTMEYwUkQzanJBdlpuaDRXVWZpM21n?oc=5
-· BTC Bitcoin ETFs kick off ‘Uptober’ with $103M inflow (TradingView (Reuters)) https://news.google.com/rss/articles/CBMirwFBVV95cUxOVEVPOF93NUxFREM4QkFKM2JDaHhJT1BaM0MyUnRzTGJBQXdESmxvRnROb0lYUU1Yclk2TWphTFBLMmw0Mm9nUWNsWFo5MEw4eVh0aUZUMW4yRlFnaTN6ZlhYSkMyWEFpcG1nU25WLVRzLWVkLWFGVkRCYnBGTl80aktqMVVUcVNpN2dFaGJjd0IxMlkzVF95VkRlR2ZmV1RNMkhabDcyZFNMMnZ0NFhB?oc=5
-· PETR4 À prova das urnas? Quanto a eleição pode mudar a Petrobras (e as suas ações) (InfoMoney) https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDRvQ3NGMURaZmZFNmtfOGRIdGprRnZGcEtYNHV3Qk0wSVJqQm14VFZvRUUwN196NVc1QXU4emN3R1h2akQyU1dxN0k2SVAySU5JR1R5aTgwaWJDakpWLWprbFRxT1A3SUNlY1lLWjFqQ25YSkpqV00tNUJjcHFNcEVveXAySDRTaGwzWTFqRDc2MGtsbnZscWtyaVIwcm5haU44LUI1YjNTV1B5NmUtSEhNdi02bHRwWXFRUmhid1HSAcYBQVVfeXFMTXhQcV9sNG9sSFl3M1RKWHYzMExMMk1DXzZJTHJEckUzc296UUFqcU1uZXExYTdEajJzeTJBTFJuWkZrbWNnOXI3eVpXSFhQY2o2U0pNYzNHSk56VU4xR2VRdmJSVV9vOXNITncyck1wYVJjVm84ZnVEcEItUU1waU5rYlpoV1dhaVhHbzRteUJ6M09KZDJzMmxMOERlaFF4ZVgtZnRWckdtU3NTQnZ4X3Y3dVlDa284WTFnZ09WQTMzT3ZDZG53?oc=5
+· (+12 manchetes; lista completa em eventos/noticias.json)
