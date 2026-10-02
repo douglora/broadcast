@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 30/09/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-01 09:46 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T12:02:21Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T13:14:19Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -262,9 +262,23 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 30/09) foi I
 |---|---:|---:|---:|
 | CGOS16 | IPCA+ 8,19% (ANBIMA indicativa de 30/09) | IPCA+ 8,22%, R$ 3,2 mi | +59 pb na duration |
 | CGOS28 | IPCA+ 8,23% (ANBIMA indicativa de 30/09) | IPCA+ 7,56%, R$ 328,7 mil | +66 pb na duration |
+| 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 14,78% (B3 negócios de 30/09) | R$ 1,3 mi | +739 pb no vencimento |
+| CRA025003UZ (Cooxupé (% do CDI, única série)) | 122,5% do CDI (B3 negócios de 30/09) | R$ 5,0 mil | - |
+| CRA024007K9 (Cooxupé (CDI+, única série)) | CDI+ 2,65% (B3 negócios de 30/09) | R$ 101,6 mil | - |
+| CRA0240099F (Vale do Tijuco (IPCA, única série)) | IPCA+ 12,81% (B3 negócios de 30/09) | R$ 201,8 mil | +530 pb no vencimento |
+| CRA025007KK (Eldorado Celulose (prefixado, única série)) | 14,98% pré (B3 negócios de 30/09) | R$ 1,1 mi | - |
+| CERT11 | IPCA+ 8,30% (ANBIMA indicativa de 30/09) | IPCA+ 8,37%, R$ 6,0 mi | +90 pb na duration |
+| CRA020002H1 (BRF (IPCA, série a confirmar)) | IPCA+ 12,32% (B3 negócios de 30/09) | R$ 804,5 mil | +471 pb no vencimento |
+| CRA0240005O (Cereal (IPCA, série a confirmar)) | IPCA+ 9,49% (B3 negócios de 30/09) | R$ 51,5 mil | +211 pb no vencimento |
+| CRA0220073P (Minerva (IPCA, série a confirmar)) | IPCA+ 12,91% (B3 negócios de 30/09) | R$ 5,6 mi | +546 pb no vencimento |
+| CRA025002S3 (Minerva (prefixado, série a confirmar)) | 18,83% pré (B3 negócios de 30/09) | R$ 2,7 mi | - |
+| CRA02300G7D (Marfrig (prefixado, série a confirmar)) | 17,19% pré (B3 negócios de 30/09) | R$ 458,8 mil | - |
+| ERDVB4 (Ecorodovias Concessões (IPCA, série a confirmar)) | IPCA+ 8,87% (ANBIMA indicativa de 30/09) | IPCA+ 8,85%, R$ 1,5 mi | +125 pb na duration |
 
 - CGOS16, ANBIMA de 30/09: compra 8,49% e venda 7,98%; PU R$ 1.027,55 (90,7% do par); duration de 6,1 anos; indicativa +9,7 pb contra 29/09.
 - CGOS28, ANBIMA de 30/09: compra 8,39% e venda 8,07%; PU R$ 999,15 (90,9% do par); duration de 6,4 anos; indicativa +4,6 pb contra 29/09.
+- CERT11, ANBIMA de 30/09: compra 8,41% e venda 8,16%; PU R$ 1.205,65 (99,7% do par); duration de 2,4 anos; indicativa 0 pb contra 29/09.
+- ERDVB4, ANBIMA de 30/09: compra 9,13% e venda 8,72%; PU R$ 1.035,33 (91,8% do par); duration de 5,2 anos; indicativa +5,6 pb contra 29/09.
 
 **Debêntures incentivadas mais negociadas**
 

@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 01/10/2026 (quinta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-02 07:55 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T12:02:58Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T13:14:49Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -29,7 +29,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: taxa abriu.** 25K3397285 (Opea Securitizadora, CRI): taxa média dos negócios da B3 abriu 127 pb contra 16/09, para Pré 17,50%, em R$ 33,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 01/10)_
 - **Crédito: taxa abriu.** 21K0001807 (Opea Securitizadora, CRI): taxa média dos negócios da B3 abriu 30 pb contra 30/09, para IPCA+ 8,36%, em R$ 6,3 mi. _(B3, Trade + InstrumentRegistration (preliminar), 01/10)_
 - **Crédito: prêmio alto.** SUMI19 (Giga Mais Fibra Telecomunicacoes, debênture incentivada): taxa indicativa da ANBIMA de 01/10 a IPCA+ 14,13%, 647 pb acima do juro real de mercado na duration de 3,8 anos; na B3, negócios de 01/10 a IPCA+ 14,07% em R$ 9,0 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 01/10)_
-- **Crédito: prêmio alto.** CRA020002H1 (Vert Companhia Securitizadora, CRA): negociada a IPCA+ 12,49%, 484 pb acima do juro real de mercado de prazo equivalente, em R$ 7,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 01/10)_
+- **Crédito: prêmio alto.** CRA020002H1 (BRF (IPCA, série a confirmar), CRA): negociada a IPCA+ 12,49%, 484 pb acima do juro real de mercado de prazo equivalente, em R$ 7,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 01/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 785 mi líquidos em 29/09; no mês, até 29/09, saldo de +R$ 8.784 mi. _(B3, SharesInvesVolum, 29/09)_
 - **Posição em aberto.** TAXA MÉDIA DE DEPÓSITOS INTERFINANCEIROS DE UM DIA - futuro: contratos em aberto caíram 12,1% em um pregão, para 40.680.300. _(B3, AnalyticalFramework2, 01/10)_
 - **Juros.** A curva de juros abriu: DI1F32 +11 pb, para 14,09%, DI1F35 +14 pb, para 14,11%. _(B3, TradeInformationConsolidated, 01/10)_
@@ -283,9 +283,23 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 01/10) foi I
 |---|---:|---:|---:|
 | CGOS16 | IPCA+ 8,25% (ANBIMA indicativa de 01/10) | IPCA+ 8,47%, R$ 662,2 mil | +64 pb na duration |
 | CGOS28 | IPCA+ 8,26% (ANBIMA indicativa de 01/10) | IPCA+ 8,14%, R$ 1,5 mi | +68 pb na duration |
+| 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 15,06% (B3 negócios de 01/10) | R$ 1,8 mi | +764 pb no vencimento |
+| CRA025003UZ (Cooxupé (% do CDI, única série)) | 117,2% do CDI (B3 negócios de 01/10) | R$ 379,2 mil | - |
+| CRA024007K9 (Cooxupé (CDI+, única série)) | CDI+ 1,47% (B3 negócios de 01/10) | R$ 98,9 mil | - |
+| CRA0240099F (Vale do Tijuco (IPCA, única série)) | IPCA+ 11,41% (B3 negócios de 01/10) | R$ 293,5 mil | +387 pb no vencimento |
+| CRA025007KK (Eldorado Celulose (prefixado, única série)) | 15,00% pré (B3 negócios de 01/10) | R$ 2,0 mi | - |
+| CERT11 | IPCA+ 8,33% (ANBIMA indicativa de 01/10) | IPCA+ 8,31%, R$ 3,4 mi | +91 pb na duration |
+| CRA020002H1 (BRF (IPCA, série a confirmar)) | IPCA+ 12,49% (B3 negócios de 01/10) | R$ 7,6 mi | +484 pb no vencimento |
+| CRA0240005O (Cereal (IPCA, série a confirmar)) | IPCA+ 9,18% (B3 negócios de 01/10) | R$ 134,8 mil | +178 pb no vencimento |
+| CRA0220073P (Minerva (IPCA, série a confirmar)) | IPCA+ 12,76% (B3 negócios de 01/10) | R$ 4,4 mi | +528 pb no vencimento |
+| CRA025002S3 (Minerva (prefixado, série a confirmar)) | 18,60% pré (B3 negócios de 01/10) | R$ 1,3 mi | - |
+| CRA02300G7D (Marfrig (prefixado, série a confirmar)) | 16,26% pré (B3 negócios de 01/10) | R$ 393,0 mil | - |
+| ERDVB4 (Ecorodovias Concessões (IPCA, série a confirmar)) | IPCA+ 8,91% (ANBIMA indicativa de 01/10) | IPCA+ 8,87%, R$ 2,9 mi | +127 pb na duration |
 
 - CGOS16, ANBIMA de 01/10: compra 8,54% e venda 8,17%; PU R$ 1.024,67 (90,4% do par); duration de 6,1 anos; indicativa +6,1 pb contra 30/09.
 - CGOS28, ANBIMA de 01/10: compra 8,43% e venda 8,10%; PU R$ 998,19 (90,7% do par); duration de 6,4 anos; indicativa +2,7 pb contra 30/09.
+- CERT11, ANBIMA de 01/10: compra 8,46% e venda 8,26%; PU R$ 1.205,59 (99,7% do par); duration de 2,4 anos; indicativa +3,2 pb contra 30/09.
+- ERDVB4, ANBIMA de 01/10: compra 9,11% e venda 8,78%; PU R$ 1.033,98 (91,6% do par); duration de 5,2 anos; indicativa +4,1 pb contra 30/09.
 
 **Debêntures incentivadas mais negociadas**
 

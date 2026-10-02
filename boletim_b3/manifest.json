@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-02T12:00:47Z",
+ "gerado_em": "2026-10-02T13:13:47Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -56,7 +56,7 @@
     }
    },
    "falhas": {},
-   "segundos": 94
+   "segundos": 31
   },
   "2026-10-01": {
    "completo": true,
@@ -91,7 +91,7 @@
     }
    },
    "falhas": {},
-   "segundos": 37
+   "segundos": 30
   }
  },
  "falhas": [],
