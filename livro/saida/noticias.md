@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 01/10 21h40
+NOTÍCIAS E FATOS · 02/10 08h33
 
-Pernas: noticias ok 6 novas (18 consultas; descartadas: 448 veículo fora da lista, 41 sem ativo, 7 teto) · cvm ok 0 novos de 15 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 435 veículo fora da lista, 46 sem ativo, 40 teto) · cvm ok 1 novos de 16 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (5)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (6)
+
+[INFO] E03 · UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 02/10/2026 08:09 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573534
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: UGPA3
+Como falar: 'a Ultrapar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 02/10
+id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 [INFO] E03 · UGPA3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 01/10/2026 19:57 · Apresentações a analistas/agentes do mercado
@@ -11,7 +20,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: UGPA3
 Como falar: 'a Ultrapar publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
 Fonte: CVM 01/10
-id: E03-UGPA3-1573488-2026-10-01 · status: linha
+id: E03-UGPA3-1573488-2026-10-01 · status: entregue
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 01/10/2026 19:12 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -20,7 +29,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 01/10
-id: E03-AXIA3-1573469-2026-10-01 · status: linha
+id: E03-AXIA3-1573469-2026-10-01 · status: entregue
 
 [INFO] E03 · VALE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 01/10/2026 18:45 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -29,7 +38,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: VALE3
 Como falar: 'a Vale publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 01/10
-id: E03-VALE3-1573453-2026-10-01 · status: linha
+id: E03-VALE3-1573453-2026-10-01 · status: entregue
 
 [INFO] E03 · MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 01/10/2026 18:00 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -38,7 +47,7 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: MRVE3
 Como falar: 'a MRV publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 01/10
-id: E03-MRVE3-1573397-2026-10-01 · status: linha
+id: E03-MRVE3-1573397-2026-10-01 · status: entregue
 
 [INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 01/10/2026 17:09 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -47,10 +56,76 @@ Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; 
 Ativos: AXIA3
 Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
 Fonte: CVM 01/10
-id: E03-AXIA3-1573328-2026-10-01 · status: linha
+id: E03-AXIA3-1573328-2026-10-01 · status: entregue
 
 
-## NOTÍCIAS COM MATERIALIDADE (23)
+## NOTÍCIAS COM MATERIALIDADE (28)
+
+[ATENÇÃO] E05 · GOOGL · Barclays upgrades USA Today stock rating on Google antitrust ruling
+Investing.com · 02/10 06h43 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/barclays-upgrades-usa-today-stock-rating-on-google-antitrust-ruling-93CH-4929200
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: GOOGL
+Como falar: 'saiu no Investing.com: Barclays upgrades USA Today stock rating on Google antitrust ruling; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/10 06h43
+id: E05-GOOGL-1ade8b2d4d-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · CVX · Chevron And 2 Other Top Oil And Gas Dividend Stocks
+Yahoo Finance · 02/10 05h09 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The midstream stocks in this article are only a sample, and the full screen surfaced 77 more US pipeline and storage operators with equally compelling stories that are not covered below.
+  – Upstream in the US and overseas generated about US$52.6b and US$55.1b of revenue respectively, with US and international downstream contributing roughly US$82.5b and US$78.8b.
+  – The business has a market value of about US$400.6b.
+  – Enbridge generates most of its revenue from Liquids Pipelines at about CA$63.6b.
+  – Gas Distribution and Storage contribute roughly CA$11.2b, Gas Transmission around CA$6.8b, and Renewable Power Generation about CA$634m.
+  – The group carries a market value near CA$147.4b.
+Link: https://finance.yahoo.com/energy/articles/chevron-2-other-top-oil-080927283.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: CVX
+Como falar: 'saiu no Yahoo Finance: Chevron And 2 Other Top Oil And Gas Dividend Stocks; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 02/10 05h09
+id: E05-CVX-7e8df59096-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · MU · Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For AI Agents
+TradingView (Reuters) · 02/10 04h11 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:94efec12f094b:0-stocktwits-ai-roundup-micron-s-blowout-quarter-nvidia-s-150b-buyback-and-the-race-for-ai-agents/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: MU · NVDA
+Como falar: 'saiu no TradingView (Reuters): Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 02/10 04h11
+id: E05-MU-e02df72bfa-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · MU · Goldman Sachs Raises Micron Stock Price Target After Earnings
+Yahoo Finance · 01/10 12h32 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Goldman Sachs raised its price target for Micron Technology (NASDAQ:MU) to $1,250 from $1,100 while keeping a Neutral rating after the memory-chip maker posted quarterly results above Wall Street expectations, according…
+  – Micron reported fiscal fourth-quarter revenue of $54.23 billion and adjusted earnings of $33.42 per share.
+  – Revenue was up from $11.32 billion a year earlier, while adjusted earnings rose from $3.03 per share.
+  – GuruFocus has detected 5 Warning Signs with MU.
+  – Micron now has 26 long-term agreements covering about 35% of projected revenue through fiscal 2030, with about 75% carrying structured pricing.
+  – Goldman expects additional industry supply could pressure high-bandwidth memory pricing in 2028.
+Link: https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-raises-micron-stock-153237756.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Goldman Sachs Raises Micron Stock Price Target After Earnings; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 12h32
+id: E05-MU-fbd00487f5-2026-10-01 · status: linha
+
+[ATENÇÃO] E05 · UST · Treasury Yields Are Above 5%. These 4 Dividend Stocks Still Make the Cut
+Yahoo Finance · 01/10 11h15 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read -       Realty Income (O) has raised its monthly dividend 136 consecutive times, and Verizon (VZ) grew free cash flow 27% year over year to cover its payout.
+  – -       CEO Albert Bourla publicly committed to maintaining Pfizer's 6% dividend even under stressed scenarios, though no dividend growth is expected until 2029.
+  – (Sponsor) The 10-year Treasury yield reached 5.26% on September 29, its highest level of the past year.
+  – Realty Income: 136 Monthly Raises and Still Climbing Realty Income (NYSE:O) yields 5.68% at a share price of $54.44.
+  – Its latest monthly dividend of $0.2715 per share pays on October 15, and the annualized forward dividend stands at $3.258 per share.
+  – Dividend safety: Realty Income raised its full-year 2026 AFFO (adjusted funds from operations, the REIT version of cash earnings) guidance to $4.44 to $4.45 per share, which easily covers the forward payout.
+Link: https://finance.yahoo.com/markets/stocks/articles/treasury-yields-above-5-4-141505876.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: UST
+Como falar: 'saiu no Yahoo Finance: Treasury Yields Are Above 5%. These 4 Dividend Stocks Still Make the Cut; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 01/10 11h15
+id: E05-UST-428863997e-2026-10-01 · status: linha
 
 [ATENÇÃO] E05 · ITUB4 · Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos dividendos
 Seu Dinheiro · 01/10 17h49 · fonte única · licença: resumo
@@ -66,7 +141,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4
 Como falar: 'saiu no Seu Dinheiro: Enquanto três gatilhos não fazem preço na CPFL (CPFE3), Itaú BBA defende a compra pelos d…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 01/10 17h49
-id: E05-ITUB4-d2c755d90a-2026-10-01 · status: expirado
+id: E05-ITUB4-d2c755d90a-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar
 Yahoo Finance · 01/10 14h51 · fonte única · licença: resumo
@@ -82,7 +157,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Yahoo Finance: Micron Stocks Drop as $61.5 Billion Outlook Meets a High Bar; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 01/10 14h51
-id: E05-MU-1474c75fd3-2026-10-01 · status: expirado
+id: E05-MU-1474c75fd3-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Slips 3% Despite Record Quarter and Above-Consensus Guidance; Western Digital Dips, SK Hynix Drifts
 Yahoo Finance · 01/10 11h16 · fonte única · licença: resumo
@@ -170,7 +245,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Seeking Alpha: Micron Q4: Favorable Outlook As Memory Shortage Persists (NASDAQ:MU); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 01/10 10h45
-id: E05-MU-decd0d5f5e-2026-10-01 · status: linha
+id: E05-MU-decd0d5f5e-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · SAPR4 · Conta de água da Sanepar fica 25% mais barata na tarifa mínima
 g1 · 01/10 14h06 · fonte única · licença: resumo
@@ -340,8 +415,23 @@ Fonte: PR Newswire 30/09 21h00
 id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (176)
+## OUTRAS NOTÍCIAS (só manchete) (191)
 
+· BTC Bitcoin and ethereum prices today, Friday, October 2, 2026: Crypto prices surging ahead of September jobs report (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html
+· UGPA3 O “capital paciente” da Ultrapar: os planos da dona da Ipiranga mirando 2031 (Brazil Journal) https://braziljournal.com/o-capital-paciente-da-ultrapar-os-planos-da-dona-da-ipiranga-mirando-2031/
+· AXIA3 Momento B3: Axia Energia, Marisa Lojas, Fleury, MRV e os principais destaques desta sexta-feira (02) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-marisa-lojas-fleury-mrv-e-os-principais-destaques-desta-sexta-feira-02
+· AMZN Microsoft, Amazon Cloud Arms Set to Face Deeper Scrutiny Under EU’s Tech Rules (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-02/microsoft-amazon-cloud-arms-set-to-face-deeper-scrutiny-under-eu-s-tech-rules
+· BTC Citi Predicts Bitcoin Will Hit $113,000 and Ether Will Reach $3,028: Why a Bigger Upside for Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/citi-predicts-bitcoin-hit-113-110036251.html
+· AVGO UBS reiterates Broadcom stock Buy rating on AI revenue outlook (Investing.com) https://www.investing.com/news/analyst-ratings/ubs-reiterates-broadcom-stock-buy-rating-on-ai-revenue-outlook-93CH-4929392
+· PETR4 Por que você deveria ter Petrobras (PETR4) na carteira — independente de quem ganhar as eleições? (Seu Dinheiro) https://www.seudinheiro.com/2026/colunistas/por-que-voce-deveria-ter-petrobras-petr4-na-carteira-independente-de-quem-ganhar-as-eleicoes-ccgg/
+· USDBRL Último pregão antes das eleições tem pesquisa industrial e payroll como pano de fundo; Ibovespa em dólar sobe nesta sexta-feira (2) (Money Times) https://www.moneytimes.com.br/ultimo-pregao-antes-das-eleicoes-tem-pesquisa-industrial-e-payroll-como-pano-de-fundo-ibovespa-em-dolar-sobe-nesta-sexta-feira-2-rens/
+· NVDA What Could Send NVIDIA Stock Higher? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/could-send-nvidia-stock-higher-095356605.html
+· BTC Bitcoin reaches for $87K as short liquidations top $120M (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:258bf9b6d094b:0-bitcoin-reaches-for-87k-as-short-liquidations-top-120m/
+· BTC Bitcoin Rises for Third Straight Week on Strong ETF Demand (Bloomberg) https://news.google.com/rss/articles/CBMiugFBVV95cUxQbjEyeS1oMXB6QUtYRkcyaDJyYUdUOTRaWW1SdHBmb2J0d3FUZ080U0p4SHIzOFlUaDRMWUZWbHZoQjEzX3VaUDJlR1pYcXFZUTVqMlNKY2xubzN1TFZydVpsMjE4eC1mTmM5SDhPRWNYTTJlWVhyZ1dkVTBVeFZIZGpwNGdqeDFINHhNZ2liOWJ4TjZkWUFpUXFRU2ZfWHJOQ1VxOW5oYWprOFU4dDhyOGEwQUhDamZGNEE?oc=5
+· USDBRL Libra sobe levemente enquanto dólar mantém ganhos antes do payroll (Investing.com) https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWRWSG84cTJrdVZNdUNwYmpvdkp1dkV1SnRqTUJrQmVTb3FodnhmTTVkdkt4bmVqZE9JbFlZZEVacFN0enNDR0tBZkREeXI4MHh6VzF1ZV9Tck9xdWF3eEJyaW1NNVN1eUtSY0lWTHRHTXM3cldnLTVsclY1ZklHbkFHdGt4d0VIc3I1czMyV0llQzVaNzVXTGZtY2ZaZ1d0ZEwyN205N0l3R29nWkhpa2JuRlJDUQ?oc=5
+· PETR4 Eleições mudam o mapa das carteiras para outubro e Petrobras ganha espaço; veja as recomendações (Estadao) https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbm9obVVNXzl4cVgwZElTSktYOVBhenQ2cGVYSWNmQldjZjZTa1BwUDVybHZlLWk1TGNyUzhTenVhNFFmOXBEOVdOR25kR2NCbkk3U1U5M2RST1pVWDRpUWY0dFdJbi05NllGbEFHdWlveVdMWFhzQ2RBX0Yyc1M0QW42eG5jZy1GU0hfOW9zbVBneThXVWljZWZVTTZhNk5HbC1pcUltcEpNLXlqcXJVb1Z3ZmlCWm5hcmZ5TkJtUDQyTHpkeTFhNzBsbGRjTDVRV2lnSkJVb3ZSTUxYeW9rbmN0Z9IB6AFBVV95cUxQMjhLUHEwTTQ4QUhOZU00TkhJUHdjd09pWHNWYWtfZ216cUZzLXNxZk92dDBtNzVYNDg3SmV1ai13YmZQTWVIZ3dsdWI4M3dadlY2eUtkSHlVM1FGQ045ZlVMQzExSzlQOFE2aU5WU0NmUXB6N2JXTVRrRWRZbjhLZ2hEdE5DZ0pUb1JNd3plT1hGWS1ybnNmZ0NBbFlEX3oza1ZnMmFaQU9RcHdLa3FDY0ZtV0NuVlVBdThFb1dHbHNrRVg2NGx3RF9YeW5TdzZuU2pTMEYwUkQzanJBdlpuaDRXVWZpM21n?oc=5
+· BTC Bitcoin ETFs kick off ‘Uptober’ with $103M inflow (TradingView (Reuters)) https://news.google.com/rss/articles/CBMirwFBVV95cUxOVEVPOF93NUxFREM4QkFKM2JDaHhJT1BaM0MyUnRzTGJBQXdESmxvRnROb0lYUU1Yclk2TWphTFBLMmw0Mm9nUWNsWFo5MEw4eVh0aUZUMW4yRlFnaTN6ZlhYSkMyWEFpcG1nU25WLVRzLWVkLWFGVkRCYnBGTl80aktqMVVUcVNpN2dFaGJjd0IxMlkzVF95VkRlR2ZmV1RNMkhabDcyZFNMMnZ0NFhB?oc=5
+· PETR4 À prova das urnas? Quanto a eleição pode mudar a Petrobras (e as suas ações) (InfoMoney) https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDRvQ3NGMURaZmZFNmtfOGRIdGprRnZGcEtYNHV3Qk0wSVJqQm14VFZvRUUwN196NVc1QXU4emN3R1h2akQyU1dxN0k2SVAySU5JR1R5aTgwaWJDakpWLWprbFRxT1A3SUNlY1lLWjFqQ25YSkpqV00tNUJjcHFNcEVveXAySDRTaGwzWTFqRDc2MGtsbnZscWtyaVIwcm5haU44LUI1YjNTV1B5NmUtSEhNdi02bHRwWXFRUmhid1HSAcYBQVVfeXFMTXhQcV9sNG9sSFl3M1RKWHYzMExMMk1DXzZJTHJEckUzc296UUFqcU1uZXExYTdEajJzeTJBTFJuWkZrbWNnOXI3eVpXSFhQY2o2U0pNYzNHSk56VU4xR2VRdmJSVV9vOXNITncyck1wYVJjVm84ZnVEcEItUU1waU5rYlpoV1dhaVhHbzRteUJ6M09KZDJzMmxMOERlaFF4ZVgtZnRWckdtU3NTQnZ4X3Y3dVlDa284WTFnZ09WQTMzT3ZDZG53?oc=5
 · TSLA Tesla Stocks Edge Higher as Europe Registrations Rebound Before Deliveries (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:365db3a35094b:0-tesla-stocks-edge-higher-as-europe-registrations-rebound-before-deliveries/
 · USDBRL Ibovespa sobe e dólar avança a R$5,22 com cautela antes de eleição (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45N18Q:0/
 · AVGO Broadcom: Get Ready For A Breakout (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4951481-broadcom-get-ready-for-a-breakout
@@ -387,19 +477,4 @@ id: E05-BABA-19205b4b00-2026-10-01 · status: entregue · íntegra disponível
 · USDBRL Dólar hoje sobe mais de 1% e ultrapassa R$ 5,20 por cautela com Treasuries (InfoMoney) https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmJ2bUNIWXJxWmoxcWRKMW9laDU5akNjM2RHY1pRdmRmdUtfemdyZWphaTBpZWtlRy1zWE5oWXZ6aGRwd243Z1RTU09Qd1BoeEVidVNCRC13MnhxaG1EMlZTWmpKeDJIX3JLOXpocXE2LXl6d2hoSEl2UzdLV3RTTWdrbUgzRnR0SzNBNWtVZEJzT1VVZWw0UjBNcnLSAaIBQVVfeXFMUHB2MjRkdHJIczJRQVE1SFg3RzBBV0FkZW9HRUNqZDR5ZjZWNTR3Vlc0aUJ5WnBPcmtmaHlES2JrTzQ4cERJdVkzbm9Yand4RHgyNUxkaWNDNkVFNWlWQUU2T3VRV1lYcEtZNWtMRXg1YW9uUWZ1Qi1uQ0JuZDI1Sy0yYTN4U1ZORzZtSFFuLXNnTjBVZFJBU1FTbmpNaTB5TDB3?oc=5
 · TSLA Tesla’s delivery report is just around the corner. Expect a sales drop. (MarketWatch) https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGhjTXpHNVZUcW5kUzVkcmJrM0QzUzBJUXpxUDB0OFdWM1IxX0dNd0IyQlRRcmVEcGRCeTRvRTFrcFhUckRBLVNmMnlyZUZ4M2d6NkhCVUNkOU1GUGpkYUVOakt0Vk93QThfc1htaEdEZXZfSThqOW5wT2RFN0pjZlJyU2tTenh1eHIzUDQyaHpzLW9USnktZG1GX042QUdmS0RDQVpwY20wZjBheThnYQ?oc=5
 · COHR Why is Coherent stock surging today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-4928152
-· ITUB4 'Vou bater muito': Conversas de Vorcaro com publicitário mostram orquestração de ataques midiáticos contra o Itaú (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/01/conversas-de-vorcaro-com-publicitrio-mostram-orquestrao-de-ataques-miditicos-contra-o-ita.ghtml
-· BTC Bitcoin could repeat a 400% rally, analyst spots familiar cycle pattern (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-could-repeat-400-rally-185624964.html
-· UST Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-treasury-181953431.html
-· UST Wall Street dips as rising Treasury yields outweigh software gains By Reuters (Investing.com) https://www.investing.com/news/economy-news/dow-futures-hit-threemonth-low-as-yields-surge-micron-earnings-offer-support-4926657
-· GOOGL Trump Sends Strong Signal on Google's New Gemini Model (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f2d079733094b:0-trump-sends-strong-signal-on-google-s-new-gemini-model/
-· BABA Alibaba Group Holding Limited (9988.HK) latest stock news and headlines (Yahoo Finance) https://uk.finance.yahoo.com/quote/9988.HK/news/
-· PETR4 Petrobras eleva preço do querosene de aviação em outubro (InfoMoney) https://news.google.com/rss/articles/CBMimwFBVV95cUxOZmJ3WVZDWTd1SE1TeWZpOVhySjdZYXF5UHFNbHNobmpmNWdSYk1TMC1CUXVmN1lpRDVqQWVwT3Etb3JkZzZyUk1Ub25MaWxaVGFGWjJfZ2JzdEJBZV9PVDlLNFVqcEVnZGhwT25nNnItMVZFRzJhVU1JUWpWZDg5RmsxczFLWjVtZ0U4UXJUTW5vTGdJcGhMeWhlMNIBoAFBVV95cUxPSWpqZWFUV3dmQXIzdG5BaXc3RzN1Uzh1UE1Nam9aR3FqTGp1c2IxWVY0bjAzcm03ZWh4UUdYdTBkM3FRaTNUUXIyZVNEYTZNQURuM0Y5Zm42dV81NzJpQnhnTnFZLTFocTE3YkI3akMyam43YjdXUzJLN1BRY2FpdURFOS1xdkdvTG9peFQwVVVpWHU3aWpQc3RkMVdFcUps?oc=5
-· MU Why Micron’s Dazzling Earnings Report Is Barely Moving the Stock (Barron's) https://news.google.com/rss/articles/CBMieEFVX3lxTE1qYVRkMzJRd2M4d0p5dGJ2X25QblFST0JWbDIwa0JkaE0xLWVPSEgzelliSXEtMDFZVlVPMzFUVDJ4ZlhPWHl6aWQ5S0w5YmtHbkZKc0gwLVFCZUtJUjN5MGVWUkMxamJYRnVJdUxzVEJrUk5ObFpxTQ?oc=5
-· USDBRL Dólar e Bolsa avançam antes de nova pesquisa Datafolha e com alta dos Treasuries (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5
-· MU Micron earnings tell us about how much more there is to do in the AI buildout, says Advisors Capital’s JoAnne Feeney (CNBC) https://www.cnbc.com/video/2026/10/01/micron-earnings-tell-us-about-how-much-more-there-is-to-do-in-the-ai-buildout-says-advisors-capitalas-joanne-feeney.html
-· LITE Coherent, Lumentum, and Ciena stocks surge on bullish Wall Street call (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/coherent-lumentum-and-ciena-stocks-surge-on-bullish-wall-street-call-182906439.html
-· UST Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnE0R3ZfWm50RXh3cnRIWDBSMGtvLVYxaWFsTjZjNkNGcXRrZkZGWHFqV1I0cldtWlFTRHJPMzNhcFZrNXFIYlJYUUZBZFJOLW51cGYyTVQzZDhFOEVJdWltTHJlc0pocjBlOGdzTkVWUzhRQjhkMHJQdUVVSG9odUVGY2FyVGZDbVpLZmxWd1pXcjc1ZkVPbjNXazQ?oc=5
-· BTC It's the Start of Uptober. Will Bitcoin Live Up to It? (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxNMHZhZnZRQjJqUzJfS19fdWdUVm10M29oa0xkbTJaUWRvMElqa2E5b01rMzc5WU5VLXJ6UTVDSWw2cFlOVXJOYVhvUzdTa09MczZpb1ZNaGlRaGJlMFdDT1dWYkRVUmZFU0wzMGY2eHNjQkczWFJwU1hCSUlEa0RpbWFuVmRUYzltNnhZb09XallFSDVST1E?oc=5
-· COHR Why Coherent (COHR) Stock Is Trading Up Today (TradingView (Reuters)) https://news.google.com/rss/articles/CBMipwFBVV95cUxPdHRyUGZTVVR6cWd0QlMzOERYak9FV1FkcU5ZSTlxa2pyOXU1M0VQRjBtdDlabkJOcURqUy0zd1c4dF9lMXRBTGNpZVNPamp4WWp1WUViWE9kelZhZVBSMnltVHZid1hMdWZOUkkyZ0wwZlRxbXJwV28xVDEtWXAwY2JLOVdOdUNfVjdEX3IzQ3Bmdk5wemRjTUZQWUNST1NIVFRRRFlNdw?oc=5
-· BTC Citi hikes Bitcoin, Ethereum price targets by over 35% (Yahoo Finance) https://news.google.com/rss/articles/CBMinwFBVV95cUxNRzB3QWV1ZGkxUlM1SGZmZ0Q4T0tnbU5rOFhjem5yZXNWNXFqSWZSLW9SbUtjZDU3Q1B5dktlUHZzQWZHRjc3cEtBX2FVV25rQ1VhREtmaUphdkFoOWRwWV9FV3YxZy1CNkdTYS03Qkg2Yk95akY3LVR0ek15UlhQaWRlOElOYUtMRjJFdmVaMjRlc3JlT0JkQ1NWRGVyOU0?oc=5
-· (+116 manchetes; lista completa em eventos/noticias.json)
+· (+131 manchetes; lista completa em eventos/noticias.json)
