@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-01",
- "coletado_em": "2026-10-02T06:09:37Z",
+ "coletado_em": "2026-10-02T12:02:21Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,9 +21,9 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-02T03:03:03.063",
+   "atualizado_em": "2026-10-02T08:53:05.13",
    "sla": "8:00:00",
-   "linhas": 212,
+   "linhas": 433,
    "truncada": false
   },
   "HistoricalExchange": {
@@ -133,7 +133,7 @@
   "Forward": {
    "titulo": "Ações mais negociadas - a termo",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-02T03:04:06.7",
+   "atualizado_em": "2026-10-02T08:54:24.843",
    "sla": "8:00:00",
    "linhas": 5,
    "truncada": false
@@ -141,7 +141,7 @@
   "OptionsPurshase": {
    "titulo": "Ações mais negociadas - opções de compra",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-01T21:10:44.383",
+   "atualizado_em": "2026-10-02T08:29:26.69",
    "sla": "8:00:00",
    "linhas": 10,
    "truncada": false
@@ -149,7 +149,7 @@
   "OptionsSelling": {
    "titulo": "Ações mais negociadas - opções de venda",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-01T21:31:11.39",
+   "atualizado_em": "2026-10-02T08:35:36.263",
    "sla": "8:00:00",
    "linhas": 10,
    "truncada": false
@@ -157,7 +157,7 @@
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-01T22:40:43.69",
+   "atualizado_em": "2026-10-02T07:41:41.4",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
@@ -165,7 +165,7 @@
   "DerivativesOperation2": {
    "titulo": "Derivativos - resumo das operações",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-01T22:41:22.17",
+   "atualizado_em": "2026-10-02T07:42:33.8",
    "sla": "8:00:00",
    "linhas": 108,
    "truncada": false
@@ -180,10 +180,10 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-01T00:00:38.013",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-02T08:05:38.553",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 71,
    "truncada": false
   },
   "SwapFlex": {
@@ -244,10 +244,10 @@
   },
   "Custody": {
    "titulo": "Ações custodiadas - programa de ADR",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-01T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-02T03:12:30.34",
    "sla": "7:00:00",
-   "linhas": 0,
+   "linhas": 63,
    "truncada": false
   },
   "FugibleCustody": {
@@ -300,18 +300,18 @@
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-01T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-02T05:02:57.323",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 43,
    "truncada": false
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-01T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-02T04:53:10.353",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 20,
    "truncada": false
   },
   "RepurchaseDealings": {
@@ -332,18 +332,18 @@
   },
   "BTBLendingOpenPosition": {
    "titulo": "Posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-01T00:00:38.013",
+   "situacao": "republicado",
+   "atualizado_em": "2026-10-02T04:52:53.98",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 2945,
    "truncada": false
   },
   "BTBLoanBalance": {
    "titulo": "Empréstimos registrados",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-01T00:00:38.013",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-02T03:53:05.273",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4709,
    "truncada": false
   },
   "PreviaQuadrimestral": {
@@ -400,8 +400,8 @@
   },
   "DerivativesOpenPosition": {
    "arquivo": "DerivativesOpenPositionFile_20261001_1",
-   "bytes": 116927,
-   "linhas": 1606,
+   "bytes": 3663398,
+   "linhas": 45895,
    "estado": null
   }
  },
