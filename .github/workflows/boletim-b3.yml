@@ -39,8 +39,9 @@ on:
   # UTC: 00h40 = 21h40 BRT do pregao; 11h35 = 08h35 BRT do dia seguinte. Terca a sabado em UTC
   # porque 00h40 UTC de terca e a noite de segunda em Brasilia; a rodada da manha de sabado
   # completa o pregao de sexta. Feriado da B3 nao gasta nada: a rodada so refaz os 2 ultimos
-  # pregoes, que ja estao la. O cron do GitHub atrasa de vez em quando: a Routine da sessao
-  # (21h50 e 08h50 BRT) confere o frescor e dispara esta rodada se ela nao tiver acontecido.
+  # pregoes, que ja estao la. O cron do GitHub atrasa horas (em 01 e 02/10/2026 a rodada das
+  # 21h40 BRT so rodou as 03h08): quem garante o horario e a Routine da sessao (21h50 e 08h50
+  # BRT), que dispara esta rodada na hora se o dado ainda nao estiver gravado. O cron e a reserva.
   schedule:
     - cron: "40 0 * * 2-6"
     - cron: "35 11 * * 2-6"

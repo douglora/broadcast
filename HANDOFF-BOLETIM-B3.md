@@ -164,7 +164,10 @@ Feito em 01/10/2026, depois de ele escrever "pode levar pra main, ligar o cron e
   de push do branch de desenvolvimento saiu; sobram o relogio e o disparo manual
   (`gh workflow run boletim-b3.yml --ref main -f dias=auto`, ou `actions_run_trigger` com `ref: main`).
 - **Routine.** Dois turnos por pregao, 21h50 BRT e 08h50 BRT do dia seguinte; nomes, ids e o texto
-  do turno estao na secao "Routine" da skill `boletim-b3`.
+  do turno estao na secao "Routine" da skill `boletim-b3`. Desde 02/10/2026 (ok do Douglas) o turno
+  nao espera o cron: se o dado nao esta no branch `dados` ao acordar, dispara a coleta na hora. O
+  cron do GitHub atrasou horas nas duas primeiras rodadas (a das 21h40 de 01/10 rodou as 03h08; a
+  das 08h35 de 02/10 nao tinha rodado as 09h00) e fica como reserva.
 - **Papeis acompanhados.** `config/boletim.yaml > renda_fixa > papeis` tem CGOS16 e CGOS28
   (Equatorial Goias, vencimento em 2036): ele comprou uma delas para cliente em 01/10 a IPCA+8,40%.
   Falta ele dizer qual das duas e passar o resto da prateleira.

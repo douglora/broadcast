@@ -93,9 +93,10 @@ Sem cache de CDN: `git fetch origin dados` e `git show origin/dados:boletim_b3/<
 2. **Frescor e completude.** `python3 mesa.py boletim` imprime na primeira linha
    `BOLETIM B3: pregao AAAA-MM-DD | ATUAL ou VELHO | COMPLETO ou PARCIAL | N sinais`.
    - VELHO ou AUSENTE: dispare o workflow (passo 3) antes de escrever.
-   - PARCIAL de noite: normal. PARCIAL depois das 09h00 do dia seguinte: dispare de
-     novo; se continuar parcial, olhe `boletim status` e diga qual tabela a B3 nao
-     publicou (ela informa `aguardando`, `publicando` ou `atrasado`).
+   - PARCIAL de noite: normal. PARCIAL de manha (do turno das 08h50 em diante): dispare
+     na hora, sem esperar o cron; se continuar parcial depois do disparo, olhe
+     `boletim status` e diga qual tabela a B3 nao publicou (ela informa `aguardando`,
+     `publicando` ou `atrasado`).
 3. **Disparo.** `mcp__github__actions_run_trigger`, `method: run_workflow`,
    `owner: douglora`, `repo: broadcast`, `workflow_id: boletim-b3.yml`, `ref: main`,
    `inputs: {"data": "", "dias": "auto"}` (`auto` = os 2 ultimos pregoes; 21 se o historico
@@ -233,22 +234,26 @@ Dois turnos por pregao, dez a quinze minutos depois dos crons do workflow
 `mesa.py` valem sempre na versao mais recente, e a sessao nao guarda memoria do turno
 anterior (o que ficou para conferir esta na Leitura da Mesa do painel publicado).
 
-| Routine | Quando (BRT) | Cron | O que encontra |
+| Routine | Quando (BRT) | Cron | O que tem de entregar |
 |---|---|---|---|
-| `boletim-b3-noite` | 21h50, segunda a sexta | `CRON_TZ=America/Sao_Paulo 50 21 * * 1-5` | rodada das 21h40: pregao de hoje, PARCIAL |
-| `boletim-b3-manha` | 08h50, terca a sabado | `CRON_TZ=America/Sao_Paulo 50 8 * * 2-6` | rodada das 08h35: pregao de ontem, COMPLETO |
+| `boletim-b3-noite` | 21h50, segunda a sexta | `CRON_TZ=America/Sao_Paulo 50 21 * * 1-5` | pregao de hoje, PARCIAL |
+| `boletim-b3-manha` | 08h50, terca a sabado | `CRON_TZ=America/Sao_Paulo 50 8 * * 2-6` | pregao de ontem, COMPLETO |
 
-O cron do Actions e o caminho principal: grava no branch `dados` sem depender de sessao.
-A Routine acorda depois, confere e, na maioria dos dias, so le. **Disparar o workflow e o
-plano B**, para quando o cron do GitHub atrasar ou falhar.
+**O turno nao espera o cron do GitHub** (decisao do Douglas em 02/10/2026). O agendamento do
+Actions atrasa horas: em 01 e 02/10/2026 a rodada das 21h40 so rodou as 03h08 e a das 08h35
+nao tinha rodado as 09h00. Ao acordar, se o dado que o turno tem de entregar nao esta no
+branch `dados`, dispare o workflow na hora e espere a gravacao (2 a 3 minutos). O cron fica
+de reserva; rodada repetida nao faz mal (a coleta e idempotente e o workflow anda em fila).
+Se o dado ja esta la, nao dispare: so leia.
 
 ### Turno da noite (21h50 BRT)
 
 1. `python3 mesa.py skills` e `python3 mesa.py boletim`. A primeira linha tem de dizer o
    pregao de HOJE e ATUAL. PARCIAL e o normal: aluguel, posicoes em aberto e opcoes saem
    de madrugada.
-2. VELHO ou AUSENTE: disparo (passo 3 do procedimento) e espera. Hoje nao teve pregao
-   (feriado da B3): uma linha dizendo isso, sem republicar.
+2. VELHO ou AUSENTE (o pregao de hoje ainda nao foi gravado): disparo na hora (passo 3
+   do procedimento) e espera. Hoje nao teve pregao (feriado da B3): uma linha dizendo
+   isso, sem disparar nem republicar.
 3. `mesa.py boletim sinais`, `boletim rf`, `boletim radar`; para o que foi noticia,
    `boletim TICKER` e `boletim opcoes TICKER`. Aluguel e opcoes vem do pregao anterior,
    marcados `[POSICAO DO PREGAO ANTERIOR ...]`: cite com essa data.
@@ -262,8 +267,9 @@ plano B**, para quando o cron do GitHub atrasar ou falhar.
 
 1. `python3 mesa.py skills` e `python3 mesa.py boletim`. A primeira linha tem de dizer o
    ULTIMO pregao e COMPLETO.
-2. PARCIAL depois das 09h00: disparo e espera; se continuar, `boletim status` e diga qual
-   tabela a B3 nao publicou. Ontem nao teve pregao: uma linha, sem republicar. O mesmo
+2. Nao esta COMPLETO (PARCIAL, VELHO ou AUSENTE): disparo na hora e espera, sem aguardar
+   o cron das 08h35; se continuar parcial depois do disparo, `boletim status` e diga qual
+   tabela a B3 nao publicou. Ontem nao teve pregao: uma linha, sem disparar nem republicar. O mesmo
    `boletim status` tem a linha da ANBIMA: de manha o arquivo de ontem ja saiu; se ela
    disser `anterior`, `ausente` ou `falhou`, isso vai para as lacunas da resposta.
 3. Leia no painel publicado (`Artifact`, `action: read`) o paragrafo "O que conferir na
