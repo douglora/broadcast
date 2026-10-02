@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 13h21
+NOTÍCIAS E FATOS · 02/10 13h38
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 437 veículo fora da lista, 45 sem ativo, 9 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 436 veículo fora da lista, 47 sem ativo, 1 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -210,8 +210,16 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (72)
+## OUTRAS NOTÍCIAS (só manchete) (80)
 
+· TSLA Oppenheimer reiterates Perform rating on Tesla stock after deliveries beat (Investing.com) https://www.investing.com/news/analyst-ratings/oppenheimer-reiterates-perform-rating-on-tesla-stock-after-deliveries-beat-93CH-4930070
+· TSLA Tesla posts stronger-than-expected quarterly deliveries (Reuters) https://www.reuters.com/article/idUSKBN3VI1B6
+· PETR4 Petrobras (PETR4) informa nova descoberta de petróleo em poço na Foz do Amazonas (Money Times) https://www.moneytimes.com.br/petrobras-petr4-informa-nova-descoberta-de-petroleo-em-poco-na-costa-do-amapa-lmrs/
+· USDBRL Ibovespa tem cautela em última sessão antes das eleições; dólar sobe (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-2-outubro-2026/
+· USDBRL Ibovespa futuro sobe no último pregão antes do primeiro turno das eleições; dólar opera em alta (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-2-10-26-lils/
+· USDBRL Dólar e Ibovespa operam em leve alta, de olho em dados dos EUA e às vésperas das eleições (g1) https://g1.globo.com/economia/noticia/2026/10/02/dolar-ibovespa.ghtml
+· JPM JPMorgan downgrades Hess Midstream stock rating on contract risks By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/jpmorgan-downgrades-hess-midstream-stock-rating-on-contract-risks-93CH-4892873
+· MMM 3M Company (MMM) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2Y1dkSFJlaUw4SXg0SWctYk1UVG9renpEekFUUkxNWU85SjJSd0lQZzBISGs2QkthXy1KM3dYY1VudHhPd0tYSVNwUE5Ia2U2?oc=5
 · TSLA Tesla earnings missed by $0.01, revenue topped estimates (Investing.com) https://www.investing.com/news/earnings/tesla-earnings-missed-by-001-revenue-topped-estimates-4930190
 · UST Treasury Yields Resume Their Rise (TradingView (Reuters)) https://www.tradingview.com/news/te_news:589233:0-treasury-yields-resume-their-rise/
 · MU Micron: A Top AI Chip Stock With Potential To Double On HBM Demand (Seeking Alpha) https://seekingalpha.com/article/4951625-micron-potential-to-double-on-hbm-demand
@@ -264,12 +272,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · MU Micron: It May Get Worse, Not Better (Seeking Alpha) https://seekingalpha.com/article/4951593-micron-it-may-get-worse-not-better
 · AVGO Broadcom: The Anthropic Panic Looks Overblown (Seeking Alpha) https://seekingalpha.com/article/4951563-broadcom-stock-anthropic-panic-looks-overblown
 · USDBRL Dólar abre em queda com Datafolha e repercussão de dados de emprego nos EUA (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-datafolha-e-repercussao-de-dados-de-emprego-nos-eua.shtml
-· PETR4 Querosene de aviação: Petrobras (PETR3; PETR4) aumenta preço em 11,8% (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/pressao-no-custo-dos-voos-petrobras-encarece-querosene-de-aviacao-em-118/
-· UST Treasury yields retreat after the softer September payrolls report (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRC1Yei1ZVlZoRndyVC0tdW9id3U1REo2Q3ZyZXZsa3ZsWHhNaFJBd0Zhc1hSanBFMkhTSlkxenh2QXp1THJxRmtnZEt5dWF4N05iR0dVVW1Vc0l2VlVzVDhFcjc2QlFHbFFYVXRKT3Z1YkJ0d2xHZjJOdU0wMU1vQ1Z1LTJOSlVBWGowc0dseFo3Tkl4MnR2SnZDV0h0SS1XVEN6TVN2Y2xOQlMxb2d6Mzd4WW9WWEdmLURJWjItcENIbGVLSDk2VQ?oc=5
-· PETR4 Petrobras (PETR4) informa nova descoberta de petróleo em poço na costa do Amapá (Money Times) https://news.google.com/rss/articles/CBMiswFBVV95cUxPdVNydWIxVXIxRmhFMW1HcG12eTJjem9SbzduYUtGS1R6Q0p6ZWp4TUlXdzBBdGJwRWJTY1F2MFVzSkQwam1tOWEtRG0wdDFCd1dzTThraUVfdzhpWEVaN0k1TldoVk1WcW1pRjhPQlNFcmZxSnRPLS1RT05ySGM3VTdqTk9DSWlOOXRPaE9QdDB2czVWUHo2dUpZZzF0UkxmV0JnSVFLTGMtel9fYXE1OEJDYw?oc=5
-· BAC Bank Of America Sends Stark Warning To European Stock Investors (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVGNncTBELWpDUmhPU3ZmZ0tnOXBkSDNabWIyTmxpdFpybFg4QlF1Wk1vSER4aGhSNkhjWXo0eVA2TnQ4WU5jb2lGYkdoN2tzRy1zeS0yNzhLWFVyYzZ6MTdHMy1rMV9VUlRYU2ZsenJVWWFCV2I5YTM2Tm9WUUx0a1lldnZfY0tteG9teGpkR0JfU09FUkY4cmVtM3NPaHJucWxtT2R2RzIteVJIVW1JY0k0LWpQMS1Kak9yeVFJMXM?oc=5
-· KO Coca-Cola Investors Get Another Sip of Its Sparkling Dividend (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxOaTlmSW9xdENLV0J3eTE2b28wNWJYcHpidFNleWdIZGROV1o3ZjJ0N28yblU5cFhwZ1lndWtHR1llUkxrWE02YlczSXBzb3ZjVHQ4VG14bU1Fa2FRMk8tc0xDZjBwclBXczZGVTBKcEJKbVRnVHg5WlhvRlZaS29QdU56MFJqSW16RkdmcDJWTDBTc0d0X0pYMlFHQ1U?oc=5
-· BTC Bitcoin and ethereum prices today, Friday, October 2, 2026: Crypto prices surging ahead of September jobs report (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html
-· UGPA3 O “capital paciente” da Ultrapar: os planos da dona da Ipiranga mirando 2031 (Brazil Journal) https://braziljournal.com/o-capital-paciente-da-ultrapar-os-planos-da-dona-da-ipiranga-mirando-2031/
-· AXIA3 Momento B3: Axia Energia, Marisa Lojas, Fleury, MRV e os principais destaques desta sexta-feira (02) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-marisa-lojas-fleury-mrv-e-os-principais-destaques-desta-sexta-feira-02
-· (+12 manchetes; lista completa em eventos/noticias.json)
+· (+20 manchetes; lista completa em eventos/noticias.json)

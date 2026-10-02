@@ -1,6 +1,6 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
+(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
 Yahoo Finance · 02/10 12h20 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Right now, you can scoop up shares while they're off about 15%, which is normally a pretty good buying opportunity.
@@ -14,10 +14,9 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: GOOGL
 Como falar: 'saiu no Yahoo Finance: Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 12h20
-Push: intradia: 3 alertas de atenção — E05 GOOGL, E05 TSLA, E05 JPM · detalhe na sessão
 ids: E05-GOOGL-9e4a9f55af-2026-10-02
 
-[ATENÇÃO] E05 · TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesla Rises 2%
+(pendente de slot anterior) [ATENÇÃO] E05 · TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesla Rises 2%
 Yahoo Finance · 02/10 10h30 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Quick Read -       Rivian delivered 19,248 vehicles in Q3, hitting its own target and reaffirming full-year guidance, sending RIVN shares up 2% to $15.
@@ -33,7 +32,7 @@ Como falar: 'saiu no Yahoo Finance: Rivian Jumps 4% After Delivering 19,248 Vehi
 Fonte: Yahoo Finance 02/10 10h30
 ids: E05-TSLA-b18d9da36c-2026-10-02
 
-[ATENÇÃO] E05 · JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan turbina preço-alvo para ação
+(pendente de slot anterior) [ATENÇÃO] E05 · JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan turbina preço-alvo para ação
 Seu Dinheiro · 01/10 17h29 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Em relatório, o JP Morgan manteve a recomendação overweight (equivalente à compra) elevou o preço-alvo das ações do IRB, de R$ 68 para R$ 80 até dezembro de 2027.
@@ -50,19 +49,14 @@ Fonte: Seu Dinheiro 01/10 17h29
 ids: E05-JPM-b8e61470e6-2026-10-01
 
 Info (só linha no Fechamento):
-· E05 TSLA · Tesla earnings missed by $0.01, revenue topped estimates
-· E05 UST · Treasury Yields Resume Their Rise
-· E05 MU · Micron: A Top AI Chip Stock With Potential To Double On HBM Demand
-· E05 UGPA3 · O grito do Ipiranga vai chegar em Xangai
-· E05 MU · Cramer Says If You Are Shorting Micron You Are “Digging Your Own Grave” After Michael Burry Announces New Bet Against Company
-· E05 PLTR · Palantir Stock Rose 60% in Q3. Here’s Why It Still Trades at Roughly Half Its Year-Start Earnings Multiple
-· E05 NVDA · Nvidia Well Positioned as AI Bottleneck Shifts, Morgan Stanley Says
-· E05 AVGO · Why Is Broadcom Inc. (AVGO) Down 3.8% Since Last Earnings Report?
-· E05 MRVL · Should You Be Worried About Marvell Stock?
-· E05 TSLA · Tesla stock jumps 5% on better-than-expected vehicle deliveries report
-· E05 USDBRL · Dólar avança e Bolsa oscila com Datafolha e repercussão de dados de emprego dos EUA
-· E05 NVDA · NVIDIA Announced a Record Buyback Increase This Week — Here's What Else Happened
-· E05 MU · Zacks Investment Ideas feature highlights: Micron and NVIDIA
+· E05 TSLA · Oppenheimer reiterates Perform rating on Tesla stock after deliveries beat
+· E05 TSLA · Tesla posts stronger-than-expected quarterly deliveries
+· E05 PETR4 · Petrobras (PETR4) informa nova descoberta de petróleo em poço na Foz do Amazonas
+· E05 USDBRL · Ibovespa tem cautela em última sessão antes das eleições; dólar sobe
+· E05 USDBRL · Ibovespa futuro sobe no último pregão antes do primeiro turno das eleições; dólar opera em alta
+· E05 USDBRL · Dólar e Ibovespa operam em leve alta, de olho em dados dos EUA e às vésperas das eleições
+· E05 JPM · JPMorgan downgrades Hess Midstream stock rating on contract risks By Investing.com
+· E05 MMM · 3M Company (MMM) Stock Price, News, Quote & History
 
 
 Alertas do dia (todos, com status):
@@ -78,4 +72,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Chevron And 2 Other Top Oil And Gas Dividend Stocks
 · entregue  E05 MU — MU · Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And
 · linha     F06 BTC — BTC sobe a US$ 86.583 (cruzou US$ 85.000) (parcial, intradia)
-· (+78 notícias só manchete, em noticias.md)
+· (+86 notícias só manchete, em noticias.md)
