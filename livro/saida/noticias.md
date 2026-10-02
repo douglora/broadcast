@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 13h38
+NOTÍCIAS E FATOS · 02/10 14h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 436 veículo fora da lista, 47 sem ativo, 1 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 430 veículo fora da lista, 48 sem ativo, 2 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -48,7 +48,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: GOOGL
 Como falar: 'saiu no Yahoo Finance: Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 12h20
-id: E05-GOOGL-9e4a9f55af-2026-10-02 · status: pendente
+id: E05-GOOGL-9e4a9f55af-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesla Rises 2%
 Yahoo Finance · 02/10 10h30 · fonte única · licença: resumo
@@ -64,7 +64,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesl…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 10h30
-id: E05-TSLA-b18d9da36c-2026-10-02 · status: pendente
+id: E05-TSLA-b18d9da36c-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan turbina preço-alvo para ação
 Seu Dinheiro · 01/10 17h29 · fonte única · licença: resumo
@@ -80,7 +80,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: JPM
 Como falar: 'saiu no Seu Dinheiro: IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 01/10 17h29
-id: E05-JPM-b8e61470e6-2026-10-01 · status: pendente
+id: E05-JPM-b8e61470e6-2026-10-01 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Nvidia stock hits new all-time high, market cap at $5.7 trillion
 Yahoo Finance · 02/10 11h13 · fonte única · licença: resumo
@@ -210,8 +210,17 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (80)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· USDBRL Ações sobem e dólar cai após dados sobre de trabalho dos EUA; rendimentos dos títulos sobem (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45O0YL:0/
+· BTC Bitcoin Heads Higher on Macro Moves: Where Does BTC Go Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-heads-higher-macro-moves-164552302.html
+· TSLA Why Tesla (TSLA) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:c96c9fb8a094b:0-why-tesla-tsla-stock-is-trading-up-today/
+· PETR4 Petrobras anuncia nova descoberta de petróleo, na Foz do Amazonas (ADVFN) https://br.advfn.com/jornal/2026/10/petrobras-anuncia-nova-descoberta-de-petroleo-na-foz-do-amazonas
+· PETR4 Ibovespa volta a subir após chegar perto dos 190 mil pontos; Vale e Petrobras viram (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-chega-ao-ultimo-pregao-antes-da-eleicao-com-payroll-e-petroleo-acima-de-us-100/
+· MU Micron, Crypto and Jobs: The Bull Market Just Got 3 New Catalysts (Yahoo Finance) https://au.finance.yahoo.com/news/micron-crypto-jobs-bull-market-141100322.html
+· BTC Bitcoin Crosses $86,000 on Fed Pause Hopes. Strategy Leads Crypto Stocks Higher. (Barron's) https://www.barrons.com/articles/strategy-stock-bitcoin-price-coinbase-robinhood-0fa6f3fd
+· MU Micron: Slower Memory Content Growth, Faster Capital Return (Seeking Alpha) https://seekingalpha.com/article/4951586-micron-slower-memory-content-growth-faster-capital-return
+· PETR4 Por que você deveria ter Petrobras (PETR4) na carteira — independentemente de quem ganhar as eleições? (Seu Dinheiro) https://news.google.com/rss/articles/CBMi2gFBVV95cUxOalVsUEUyYzFkcDVtN2lhQW1KSGxxQWxBaUFCNGlNLTBDWTJEOTloR0JFWmFhVFBSekJCN2V0cXJnTjA4TnRiT1VyYzdET0JqcGZ1Zks3dFdQXzlWUEtXTWE2NXpydnoyMFYyTkdITTVWNFhEVHVOeE9CdDgtM1Z3eVZUUzBoWEMtYl9EQmNLMXFJaVBYZkg2V2hQVE8zZnlJVy0tc2xlSS0temllZ3BGNHJEc2ZNN0dZdHlBSmJOWFVsUlcxUXpFWnJuY1doazFlSnRBUXZ2Sll6Zw?oc=5
 · TSLA Oppenheimer reiterates Perform rating on Tesla stock after deliveries beat (Investing.com) https://www.investing.com/news/analyst-ratings/oppenheimer-reiterates-perform-rating-on-tesla-stock-after-deliveries-beat-93CH-4930070
 · TSLA Tesla posts stronger-than-expected quarterly deliveries (Reuters) https://www.reuters.com/article/idUSKBN3VI1B6
 · PETR4 Petrobras (PETR4) informa nova descoberta de petróleo em poço na Foz do Amazonas (Money Times) https://www.moneytimes.com.br/petrobras-petr4-informa-nova-descoberta-de-petroleo-em-poco-na-costa-do-amapa-lmrs/
@@ -263,13 +272,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · NVDA NVDA Stock Is Back As Morgan Stanley’s Top Pick – All AI Trends Play To Nvidia’s ‘Strengths,’ Says Analyst (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvda-stock-back-morgan-stanley-124934015.html
 · NVDA How Serious Is Alphabet’s Threat to Nvidia? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxQVGk3T0hfU3ltYzlQWk9LMGxiUVM1NWZEVDlnWUp0V1VVbkNXWUFyby1BeEZjREpieTdVTGVmbHpIQUdUYnZ5aGppbVFrbmV2VWxyRUFaV25MdWRTa3l5ZGpJNzFGNUhvNE9uY1V1SkZRZVVyaTBacndpYzFBcjBFbHQxY1NKeFZ6RXpaMjF0LUt3dVRDbzNjcmFR?oc=5
 · TSLA Tesla deliveries fall 2% as US consumers buy fewer electric vehicles (Financial Times) https://www.ft.com/content/78ed6ae8-1948-4259-be3e-0b3fe4af3663?syn-25a6b1a6=1
-· TSLA Tesla stock rises as company reports Q3 deliveries that top analyst estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/tesla-stock-rises-as-company-reports-q3-deliveries-that-top-analyst-estimates-145514238.html
-· TSLA Tesla smashes third-quarter deliveries expectation as Europe demand recovers (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4649764-tesla-smashes-third-quarter-deliveries-expectation-as-europe-demand-recovers
-· TSLA Tesla Q3 deliveries top estimates, shares rise 1.9% (Investing.com) https://www.investing.com/news/stock-market-news/tesla-q3-deliveries-top-estimates-shares-rise-19-4929902
-· AMZN Amazon's and Microsoft's cloud units set to fall under EU's Digital Markets Act: report (Seeking Alpha) https://seekingalpha.com/news/4649803-amazon-and-microsofts-cloud-units-set-to-fall-under-eus-digital-markets-act-report
-· TSLA Tesla reports 486,532 vehicle deliveries for third quarter, topping expectation (CNBC) https://www.cnbc.com/2026/10/02/tesla-tsla-q3-2026-vehicle-delivery-production.html
-· TSLA Tesla posts stronger-than-expected quarterly deliveries (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45O0R8:0-tesla-posts-stronger-than-expected-quarterly-deliveries/
-· MU Micron: It May Get Worse, Not Better (Seeking Alpha) https://seekingalpha.com/article/4951593-micron-it-may-get-worse-not-better
-· AVGO Broadcom: The Anthropic Panic Looks Overblown (Seeking Alpha) https://seekingalpha.com/article/4951563-broadcom-stock-anthropic-panic-looks-overblown
-· USDBRL Dólar abre em queda com Datafolha e repercussão de dados de emprego nos EUA (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-datafolha-e-repercussao-de-dados-de-emprego-nos-eua.shtml
-· (+20 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
