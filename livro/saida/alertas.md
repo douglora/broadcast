@@ -1,49 +1,41 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU)
-Seeking Alpha · 02/10 16h06 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4951668-micron-the-50-billion-capex-misconception-why-the-memory-floor-is-rising
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+[ATENÇÃO] E05 · MU · CLSA raises Micron stock price target on strong memory pricing outlook
+Investing.com · 02/10 06h43 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/clsa-raises-micron-stock-price-target-on-strong-memory-pricing-outlook-93CH-4929242
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: MU
-Como falar: 'saiu no Seeking Alpha: Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 02/10 16h06
-Push: intradia: 2 alertas de atenção — E05 MU, E05 AVGO · detalhe na sessão
-ids: E05-MU-c1e73932c4-2026-10-02
-
-[ATENÇÃO] E05 · AVGO · Broadcom Bets $102 Billion on Anthropic Chips
-Yahoo Finance · 02/10 15h35 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - Broadcom is reportedly raising $60 billion to fund chips for Anthropic, on top of a loan of up to $42 billion to lease Broadcom's chips.
-  – - $60 billion of new debt alone would nearly double the $66.5 billion of total debt Broadcom carried at the end of fiscal 2025.
-  – - Analysts expect revenue to rise from $63.9 billion in fiscal 2025 to $272 billion by fiscal 2028, and Anthropic's IPO, reportedly as early as mid-November, is the next thing to watch.
-  – Broadcom has started lining up $60 billion to finance chips for Anthropic, according to Bloomberg.
-  – That's on top of a loan of up to $42 billion that Broadcom would provide to Anthropic to lease its chips, a deal TIKR covered earlier.
-  – Put those two figures together, and you're looking at $102 billion.
-Link: https://finance.yahoo.com/technology/ai/articles/broadcom-bets-102-billion-anthropic-183557853.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: AVGO
-Como falar: 'saiu no Yahoo Finance: Broadcom Bets $102 Billion on Anthropic Chips; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 15h35
-ids: E05-AVGO-6cbf4d3ba5-2026-10-02
+Como falar: 'saiu no Investing.com: CLSA raises Micron stock price target on strong memory pricing outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/10 06h43
+Push: [ATENÇÃO] MU · CLSA raises Micron stock price target on strong memory  · detalhe na sessão
+ids: E05-MU-89e4333cec-2026-10-02
 
 Info (só linha no Fechamento):
-· E05 TSLA · Former Tesla President Says Car Sales Are Funding the Longer Road to Robots and Cybercabs
-· E05 DI · Corte na Selic em novembro é posto em xeque na curva de juros às vésperas do primeiro turno
-· E05 JPM · Hess Midstream cut to Sell equivalent at J.P. Morgan on MVC step-downs, uncertain outlook
-· E05 TSLA · Tesla Stocks Jump 5.43% as Deliveries Clear Company Consensus
-· E05 BTC · Strategy Stock Drops Despite Bitcoin Breaking $87,000
-· E05 UST · Treasury yields retreat after the softer September payrolls report
-· E05 USDBRL · Ibovespa renova máxima e atinge 190 mil pontos; dólar sobe
-· E05 JPM · JPMorgan downgrades Hess Midstream stock rating on contract risks By Investing.com
+· E05 USDBRL · Dólar à vista fecha em baixa de 0,13%, a R$5,2173 na venda Por Reuters
+· E05 USDBRL · Dólar cai a R$ 5,218 e Bolsa tem forte alta com desaceleração americana
+· E05 USDBRL · Dólar tem leve queda e fecha a R$ 5,21 com postura defensiva antes do 1º turno das eleições
+· E05 PETR4 · Diretora da Petrobras afirmou descoberta de petróleo no 1º poço, falta comprovar volume
+· E05 PETR4 · CEO: Poço da Petrobras na Foz do Amazonas mostra que há petróleo em 2 profundidades
+· E05 PETR4 · Opções de BOVA11, Petrobras e BB mostram onde o risco está mais caro
+· E05 PETR4 · CEO da Petrobras: Se confirmada expectativa, abrimos nova fronteira exploratória
+· E05 MU · Micron Stocks Slip 1.4% as Record Revenue Meets Cycle Doubts
+· E05 NVDA · I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong?
+· E05 PETR4 · Ibovespa Hoje Ao Vivo: Bolsa recupera os 190 mil pontos, com ajuda de PETR4
+· E05 TSLA · Tesla deliveries fall 2% in Q3
+· E05 BTC · Ethereum Price Faces A Critical $0.040 ETH/BTC Test
+· E05 TSLA · Tesla shares rise as Q3 deliveries beat production
+· E05 CVX · Chevron Corporation (CVX.BA) Stock Price, News, Quote & History
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 MU — MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising
-· pendente  E05 AVGO — AVGO · Broadcom Bets $102 Billion on Anthropic Chips
+· pendente  E05 MU — MU · CLSA raises Micron stock price target on strong memory pricing outlook
+· entregue  E05 MU — MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising
+· entregue  E05 AVGO — AVGO · Broadcom Bets $102 Billion on Anthropic Chips
 · entregue  E05 ITUB4 — ITUB4 · Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú
 · entregue  E05 GOOGL — GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Ti
 · entregue  E05 TSLA — TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Yea
 · entregue  E05 JPM — JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos genero
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · entregue  E05 NVDA — NVDA · Nvidia stock hits new all-time high, market cap at $5.7 trillion
 · entregue  E05 MU — MU · Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings,
 · entregue  E05 ITUB4 — ITUB4 · Mais de 8% em dividendos: BTG inclui B3 e reforça apostas em Itaú e Petr
@@ -53,4 +45,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 CVX — CVX · Chevron And 2 Other Top Oil And Gas Dividend Stocks
 · entregue  E05 MU — MU · Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And
 · linha     F06 BTC — BTC sobe a US$ 86.583 (cruzou US$ 85.000) (parcial, intradia)
-· (+110 notícias só manchete, em noticias.md)
+· (+124 notícias só manchete, em noticias.md)

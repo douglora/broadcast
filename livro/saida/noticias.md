@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 16h21
+NOTÍCIAS E FATOS · 02/10 17h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 430 veículo fora da lista, 45 sem ativo, 1 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 434 veículo fora da lista, 44 sem ativo, 7 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,16 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (17)
+
+[ATENÇÃO] E05 · MU · CLSA raises Micron stock price target on strong memory pricing outlook
+Investing.com · 02/10 06h43 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/clsa-raises-micron-stock-price-target-on-strong-memory-pricing-outlook-93CH-4929242
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MU
+Como falar: 'saiu no Investing.com: CLSA raises Micron stock price target on strong memory pricing outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 02/10 06h43
+id: E05-MU-89e4333cec-2026-10-02 · status: pendente
 
 [ATENÇÃO] E05 · MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU)
 Seeking Alpha · 02/10 16h06 · fonte única · licença: manchete
@@ -41,7 +50,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no Seeking Alpha: Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 02/10 16h06
-id: E05-MU-c1e73932c4-2026-10-02 · status: pendente
+id: E05-MU-c1e73932c4-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · AVGO · Broadcom Bets $102 Billion on Anthropic Chips
 Yahoo Finance · 02/10 15h35 · fonte única · licença: resumo
@@ -57,7 +66,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AVGO
 Como falar: 'saiu no Yahoo Finance: Broadcom Bets $102 Billion on Anthropic Chips; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 15h35
-id: E05-AVGO-6cbf4d3ba5-2026-10-02 · status: pendente
+id: E05-AVGO-6cbf4d3ba5-2026-10-02 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro
 Money Times · 02/10 15h02 · fonte única · licença: integral
@@ -251,8 +260,22 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (104)
+## OUTRAS NOTÍCIAS (só manchete) (118)
 
+· USDBRL Dólar à vista fecha em baixa de 0,13%, a R$5,2173 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-013-a-r52173-na-venda-2082305
+· USDBRL Dólar cai a R$ 5,218 e Bolsa tem forte alta com desaceleração americana (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/02/dolar-bolsa-fechamento-hoje-2-de-outubro-de-2026.ghtm
+· USDBRL Dólar tem leve queda e fecha a R$ 5,21 com postura defensiva antes do 1º turno das eleições (Money Times) https://www.moneytimes.com.br/dolar-2-10-26-lils/
+· PETR4 Diretora da Petrobras afirmou descoberta de petróleo no 1º poço, falta comprovar volume (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/02/diretora-da-petrobras-afirmou-descoberta-de-petroleo-no-1-poco-falta-comprovar-volume.htm
+· PETR4 CEO: Poço da Petrobras na Foz do Amazonas mostra que há petróleo em 2 profundidades (InfoMoney) https://www.infomoney.com.br/mercados/ceo-poco-da-petrobras-na-foz-do-amazonas-mostra-que-ha-petroleo-em-2-profundidades/
+· PETR4 Opções de BOVA11, Petrobras e BB mostram onde o risco está mais caro (InfoMoney) https://www.infomoney.com.br/mercados/opcoes-bova11-petrobras-bb-risco-eleicao/
+· PETR4 CEO da Petrobras: Se confirmada expectativa, abrimos nova fronteira exploratória (InfoMoney) https://www.infomoney.com.br/mercados/ceo-da-petrobras-se-confirmada-expectativa-abrimos-nova-fronteira-exploratoria/
+· MU Micron Stocks Slip 1.4% as Record Revenue Meets Cycle Doubts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:493318ca7094b:0-micron-stocks-slip-1-4-as-record-revenue-meets-cycle-doubts/
+· NVDA I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/sold-nvidia-google-microsoft-over-190531978.html
+· PETR4 Ibovespa Hoje Ao Vivo: Bolsa recupera os 190 mil pontos, com ajuda de PETR4 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02102026/
+· TSLA Tesla deliveries fall 2% in Q3 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-deliveries-fall-2-q3-174827913.html
+· BTC Ethereum Price Faces A Critical $0.040 ETH/BTC Test (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:78899ce58094b:0-ethereum-price-faces-a-critical-0-040-eth-btc-test/
+· TSLA Tesla shares rise as Q3 deliveries beat production (Yahoo Finance) https://news.google.com/rss/articles/CBMihwFBVV95cUxPcE5LTW4yVFVjU3U2Mk9XOFU4MFNaWFVYMWJDeGZuNXpxbWlfTDRMNkFyUEtkbHhNbk9qQ25PVTE5TmJlMDhfUlJobGN5clpLaUdFbUJEVnlpQTl5VXRlY05wdURLZldNQVhXRnhUdFEtWWFRdHBmX2JydDhRWVFnWUt5NjkwdlU?oc=5
+· CVX Chevron Corporation (CVX.BA) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzSHNtMWQ5VFExNnBlZUVhRjhHUnNlc2JjZ0g3Zktzb0wtTkd2U1lLS0FVZWEwc083c3RuenlNWFJpVEhONUZEaE9OUERjUDFYeVhWNA?oc=5
 · TSLA Former Tesla President Says Car Sales Are Funding the Longer Road to Robots and Cybercabs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/former-tesla-president-says-car-185750586.html
 · DI Corte na Selic em novembro é posto em xeque na curva de juros às vésperas do primeiro turno (Money Times) https://www.moneytimes.com.br/corte-na-selic-em-novembro-e-posto-em-xeque-com-as-vesperas-do-primeiro-turno-na-curva-de-juros-lils/
 · JPM Hess Midstream cut to Sell equivalent at J.P. Morgan on MVC step-downs, uncertain outlook (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:fc60794fa094b:0-hess-midstream-cut-to-sell-equivalent-at-j-p-morgan-on-mvc-step-downs-uncertain-outlook/
@@ -299,18 +322,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · NVDA NVIDIA Announced a Record Buyback Increase This Week — Here's What Else Happened (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZXcxOUdub1d2NzR3SHJrUkRqVXZRd0R2ZkozUlVzdVk2YXFkeG80MElEYTBNQ3VmOVlLRU9xMDg5NnRsX21iRU9xdklubFhSRzdqS2RzVUxzOFh3SnR3Yy1sZmlTdS1kU3hNekZZOUdHUVhJRFRVa285ZFBwU0diendVQWZmVnlMa3BTOTktZmltZ09GVHpIdDJqOURRNk1URWtfdTdBY2hiRmlYb0JENTc0Tk5hd2lPMzhienVvTmNmdVVlMDA1cEJlX3dIdjNLRVdZ?oc=5
 · MU Zacks Investment Ideas feature highlights: Micron and NVIDIA (Yahoo Finance) https://news.google.com/rss/articles/CBMilAFBVV95cUxNMGlsWWlTSDZGd0tYUjB6LWlZMHZCZXpEYlBZbnFSQTNjWHdqY0FYMm80cC1rdDlkZnlheTdDS21JVEhZWXlEM19Ic1Z6bDBZSzlKaml4Mk1xSzdoYkM4NklWTWxlNHlncWxQMVBsMF8yenF1NXJlQXoyR0lIX1pyWU01MVM1NlhIdDNOX2xQbmJYQ0RC?oc=5
 · UGPA3 Na escassez de capital surgem eventualmente boas oportunidades de aquisição, diz CEO da Ultrapar (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/02/na-escassez-de-capital-surgem-eventualmente-boas-oportunidades-de-aquisicao-diz-ceo-da-ultrapar.ghtml
-· EQTL3 A AGÊNCIA NACIONAL DO PETRÓLEO APROVOU A DELIMITAÇÃO DE 11 NOVOS SETORES EXPLORATÓRIOS NAS BACIAS DA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/a-agencia-nacional-do-petroleo-aprovou-a-delimitacao-de-11-novos-setores-exploratorios-nas-bacias-da-margem-equatorial/
-· TSLA Tesla Surges 5% as 486,532 Deliveries Top Company Consensus; Rivian Slides 3% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-surges-5-486-532-145042966.html
-· TSLA Tesla Q3 Deliveries Beat Street Estimate, Gene Munster Says ‘EV Winter’ Is Thawing — Sees 15% Growth In Full Year 2027 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-deliveries-beat-street-144012325.html
-· TSM TSMC Stock: Resolving The Valuation Conundrum (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4951614-tsmc-resolving-the-valuation-conundrum
-· TSLA Tesla Stock Jumps 6% on Delivery Beat: Will Earnings Back It Up? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-6-delivery-143224380.html
-· BABA MONDAY BABA DEADLINE: Alibaba Group Holding Limited (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/02/3373884/0/en/monday-baba-deadline-alibaba-group-holding-limited-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-rgrd-law.html
-· JPM REG - JPMorgan India G&I - Dividend Declaration (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026-10-02:newsml_RSB4779Xa:0-reg-jpmorgan-india-g-i-dividend-declaration/
-· AMZN Amazon Is Both Landlord And Shareholder In Anthropic’s Giant Cloud Bet (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amazon-both-landlord-shareholder-anthropic-142325070.html
-· MU Micron Stock: More Great Earnings Don't Change Our Mind (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4951608-micron-more-great-earnings-dont-change-our-mind
-· EQTL3 ANP aprova configuração de 501 novos blocos na Margem Equatorial (eixos) https://eixos.com.br/petroleo-e-gas/anp-aprova-configuracao-de-501-novos-blocos-na-margem-equatorial/
-· USDBRL Tempo real: Ibovespa cai e destoa de exterior positivo com payroll; dólar volta a ganhar força (Money Times) https://www.moneytimes.com.br/tempo-real-2-10-26-apsa-lils/
-· ETH Current price of Ethereum for Oct. 2, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-02-2026/
-· TSLA Tesla quarterly deliveries beat as Europe demand recovers (Reuters) https://www.reuters.com/business/autos-transportation/tesla-posts-stronger-than-expected-quarterly-deliveries-2026-10-02/
-· TSLA Tesla Q3 2026 vehicle deliveries beat Wall Street estimates (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNaUFWMHBMNDh4Z25DWTB6bEtUV3dZRE05UDdSWlg5MmpRWG51NmJ1SmhKaG1nM3VqNEI2RHppM0ZSUWtpUGw2UnIyZ0N3c1dRTXVzVEloSEZZOGw4T04wSVVDRVlzM01ZRmZ5MmJjZDh6b19OQmZ3NVY3VGFXUUVvMFVYNTgyT2hDNXZmSlh0Sjc1T2ZiaGRqa1p0d3d0dw?oc=5
-· (+44 manchetes; lista completa em eventos/noticias.json)
+· (+58 manchetes; lista completa em eventos/noticias.json)
