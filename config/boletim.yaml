@@ -62,7 +62,26 @@ renda_fixa:
   # papeis acompanhados pelo codigo IF (ex.: [AESLD2, VLIM29]); aparecem mesmo fora dos mais negociados
   # 01/10/2026: Equatorial Goias com vencimento em 2036 (CGOS16, 6a emissao, 15/05/2036; CGOS28, 8a emissao,
   # 2a serie, 15/09/2036). O Douglas comprou uma delas para cliente a IPCA+8,40%; as duas ficam ate ele dizer qual.
-  papeis: [CGOS16, CGOS28]
+  # 02/10/2026: carteira de credito de um cliente (print do Douglas, sem codigo nem vencimento). Item = codigo, ou
+  # {codigo, nome}: o `nome` e o devedor, que a B3 nao informa em CRI e CRA (texto de tela: leva acento). Series identificadas pela busca por
+  # devedor da ANBIMA Data. "unica serie" = so ha uma serie daquele devedor com aquele indexador precificada pela
+  # ANBIMA; "a confirmar" = ha varias e entrou a mais negociada na B3 como termometro do devedor, ate ele dizer a serie.
+  # Ainda fora: Eucatex (CRA prefixado nao achado na ANBIMA).
+  papeis:
+    - CGOS16
+    - CGOS28
+    - {codigo: 22B0006022, nome: "MRV (CRI em IPCA, única série)"}
+    - {codigo: CRA025003UZ, nome: "Cooxupé (% do CDI, única série)"}
+    - {codigo: CRA024007K9, nome: "Cooxupé (CDI+, única série)"}
+    - {codigo: CRA0240099F, nome: "Vale do Tijuco (IPCA, única série)"}
+    - {codigo: CRA025007KK, nome: "Eldorado Celulose (prefixado, única série)"}
+    - CERT11
+    - {codigo: CRA020002H1, nome: "BRF (IPCA, série a confirmar)"}
+    - {codigo: CRA0240005O, nome: "Cereal (IPCA, série a confirmar)"}
+    - {codigo: CRA0220073P, nome: "Minerva (IPCA, série a confirmar)"}
+    - {codigo: CRA025002S3, nome: "Minerva (prefixado, série a confirmar)"}
+    - {codigo: CRA02300G7D, nome: "Marfrig (prefixado, série a confirmar)"}
+    - {codigo: ERDVB4, nome: "Ecorodovias Concessões (IPCA, série a confirmar)"}
   # quantos papeis por classe na tabela dos mais negociados
   top: 20
   # abaixo deste volume no dia a taxa media do papel nao entra na curva nem no premio medio

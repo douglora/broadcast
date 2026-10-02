@@ -190,7 +190,7 @@ def _renda_fixa(r: dict) -> list[str]:
         o += ["**Papéis acompanhados (config/boletim.yaml)**", ""]
     if meus:
         o += tabela(["Papel", "Taxa de referência", b3_de, "Sobre o juro real"],
-                    [[l["codigo"], referencia(l), negocios(l), premio(l)] for l in meus])
+                    [[l["codigo"] + (f" ({l['apelido']})" if l.get("apelido") else ""), referencia(l), negocios(l), premio(l)] for l in meus])
     itens = []
     for l in todos:
         a = l.get("anbima")

@@ -1685,3 +1685,24 @@ def test_mesa_boletim_rf_mostra_a_fonte_e_o_dia_de_cada_taxa(capsys):
     tela = capsys.readouterr().out
     assert "ANBIMA: sem taxa indicativa nesta rodada (falhou: arquivo de 2026-09-29: falha de rede); debentures pelos negocios da B3" in tela
     assert "vale para comparar: B3 negocios de 29/09" in tela
+
+
+def test_papel_acompanhado_aceita_apelido_e_mostra_o_devedor_no_lugar_da_securitizadora():
+    # em CRI e CRA a B3 so informa a securitizadora; quem acompanha o papel quer ler o devedor (carteira de 02/10/2026)
+    cfg = dict(CFG, renda_fixa=dict(CFG["renda_fixa"], papeis=["AESLD2", {"codigo": "CRA0240099F", "nome": "Vale do Tijuco (IPCA)"}, {"nome": "sem codigo"}]))
+    b = bruto_rf([neg_rf("CRA", "CRA0240099F", "ECO SECURITIZADORA DE DIREITOS CREDITORIOS DO AGRONEGOCIO S.A.", 300, 293000.0, 11.409),
+                  neg_rf("DEB", "AESLD2", "RGE SUL DISTRIBUIDORA DE ENERGIA S/A", 1000, 1000000.0, 7.5)])
+    b["rf_cadastro"] = dict(CADASTRO, CRA0240099F={"tipo": "CRA", "incentivada": False, "indexador": "IPCA", "pct_indexador": None,
+                                                 "taxa": 8.3558, "vencimento": "2034-10-16"})
+    r = resumo.montar(b, cfg, LIVRO, {})
+    r.pop("_apoio")
+    meus = {l["codigo"]: l for l in r["renda_fixa"]["acompanhados"]}
+    assert list(meus) == ["AESLD2", "CRA0240099F"]                              # item sem codigo e ignorado
+    assert meus["CRA0240099F"]["apelido"] == "Vale do Tijuco (IPCA)" and "apelido" not in meus["AESLD2"]
+    h = painel.pagina(r, historico(12))
+    assert "<b>Vale do Tijuco (IPCA)</b>" in h and "Eco Securitizadora" in h         # devedor em destaque, securitizadora ao lado
+    assert "CRA0240099F (Vale do Tijuco (IPCA))" in render.markdown(r)
+    # a lista de producao e valida: cada item tem codigo
+    for item in CFG["renda_fixa"]["papeis"]:
+        cod = item["codigo"] if isinstance(item, dict) else item
+        assert cod and cod == cod.upper()

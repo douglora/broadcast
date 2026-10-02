@@ -1436,7 +1436,9 @@ def _renda_fixa(r: dict) -> str:
                  (f'{n(a["pct_pu_par"], 1)}% do valor ao par · ' if a.get("pct_pu_par") is not None else "") + f'ANBIMA de {dm(a.get("data"))}')
         if indicativa:
             negocios_do_dia()
-        return (f'<p class="papel"><span class="code">{e(l["codigo"])}</span> <b>{e(nome_curto(l.get("emissor") or "", 44))}</b>'
+        quem = (f'<b>{e(l["apelido"])}</b>' + (f' <span class="mut">· {e(nome_curto(l["emissor"], 30))}</span>' if l.get("emissor") else "")
+                if l.get("apelido") else f'<b>{e(nome_curto(l.get("emissor") or "", 44))}</b>')
+        return (f'<p class="papel"><span class="code">{e(l["codigo"])}</span> {quem}'
                 f' <span class="mut">· {e(renda_fixa.SINGULAR.get(l.get("classe"), "debênture"))}'
                 + (f' · vence em {venc[8:10]}/{venc[5:7]}/{venc[:4]}' if venc else "") + "</span></p>"
                 f'<div class="tiles larg">{"".join(t)}</div>')
