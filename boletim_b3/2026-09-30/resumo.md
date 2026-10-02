@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 30/09/2026 (quarta)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-01 09:46 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-01T18:49:23Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-02T00:52:16Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -226,8 +226,6 @@ ADR = recibo da ação negociado em Nova York. Ações entrando no programa indi
 
 **Volume fora do padrão no mercado:** ISAE4 12,4x (+3,29%), DESK3 3,6x (+0,67%), ITUB4 3,2x (+4,68%), ABCB4 2,8x (+2,77%), PINE4 2,5x (+5,47%), ORVR3 2,5x (+5,52%), ITUB3 2,4x (+3,21%), INTB3 2,3x (-2,14%).
 
-**Corretoras no aluguel do dia** (intermediário, não investidor final): lado tomador BTG Pactual 21%, XP Investimentos 16%, Itau 12%, Tullett Prebon Brasil CVC 11%; lado doador BTG Pactual 22%, XP Investimentos 19%, Itau 15%, Agora 6%.
-
 ## Opções: o mercado inteiro
 
 Posição em aberto: 3,8 bi de calls e 3,0 bi de puts (put/call 0,80); no volume do dia, put/call 0,60.
@@ -310,7 +308,8 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2, BTBTrade.
+- aluguel por corretora: ignorado
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.

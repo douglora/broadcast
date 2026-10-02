@@ -1,5 +1,5 @@
 {
- "pregao": "2026-09-30",
+ "pregao": "2026-10-01",
  "nome": "AverageChart",
  "titulo": "Médias diárias – volume em um ano (R$ em milhões)",
  "sla": "20:00:00",
@@ -7,10 +7,9 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Data"}, {"nome": "LastPric", "titulo": "Médias"}],
  "texto": ["Conjunto de dados médios das transações realizadas com as ações durante um ano."],
  "situacao": "republicado",
- "atualizado_em": "2026-09-30T20:51:33.673",
+ "atualizado_em": "2026-10-01T21:01:34.527",
  "truncada": false,
  "linhas": [
-  ["2025-09-01", "2025-09-01", 22187.4],
   ["2025-10-01", "2025-10-01", 22096.22],
   ["2025-11-01", "2025-11-01", 26099.53],
   ["2025-12-01", "2025-12-01", 27452.91],
@@ -22,6 +21,7 @@
   ["2026-06-01", "2026-06-01", 29508.58],
   ["2026-07-01", "2026-07-01", 22563.57],
   ["2026-08-01", "2026-08-01", 30182.72],
-  ["2026-09-30", "2026-09-30", 33257.91]
+  ["2026-09-01", "2026-09-01", 33266.01],
+  ["2026-10-01", "2026-10-01", 35278.76]
  ]
 }

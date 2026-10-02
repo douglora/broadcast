@@ -1,13 +1,13 @@
 {
- "pregao": "2026-09-30",
+ "pregao": "2026-10-01",
  "nome": "FugibleCustody",
  "titulo": "Custódia fungível",
  "sla": "00:00:00",
  "paginas": 1,
  "colunas": [{"nome": "SbscrptnDeadline", "titulo": "Prazo final subscrição"}, {"nome": "DeadlineAssgnmnt", "titulo": "Prazo final cessão"}, {"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "IsinOrigin", "titulo": "Código ISIN origem"}, {"nome": "IsinRight", "titulo": "Código ISIN direito"}, {"nome": "IsinSbscrptn", "titulo": "Código ISIN subscrição"}],
  "texto": ["Informações sobre ativos que estão sob custódia, mas não são de propriedade do investidor. O objetivo é fornecer transparência sobre a gestão de ativos que pertencem a terceiros, garantindo controle e rastreabilidade. Os agentes de custódia que pretenderem exercer o direito de subscrição e/ou solicitar cessão de direitos da(s) empresa(s) abaixo relacionada(s) deverão manifestar-se nos prazos mencionados."],
- "situacao": "publicado",
- "atualizado_em": "2026-09-30T00:00:32.833",
+ "situacao": "republicado",
+ "atualizado_em": "2026-10-01T20:40:33.627",
  "truncada": false,
  "linhas": [
   ["2026-10-01", "2026-10-01", "ITAU CREDITO IMOBILIARIO CDI FII RESP LIM", "BRICDICTF012 107", "BRICDID02M12 107", "BRICDIR10M16 108"],
@@ -18,6 +18,7 @@
   ["2026-10-13", "2026-10-13", "CAPITÂNIA OFFICE FII - FDO DE INV IMOB", "BRCPOFCTF002 131", "BRCPOFD04M11 131", "BRCPOFR15M12 132"],
   ["2026-10-14", "2026-10-14", "CAPITÂNIA HBC RENDA URBANA FDO INV IMOB RESP LTDA.", "BRCPURCTF004 125", "BRCPURD03M10 125", "BRCPURR05M12 126"],
   ["2026-10-19", "2026-10-19", "FII REC RECEBIVEIS IMOBILIARIOS RESP LIM", "BRRECRCTF004 174", "BRRECRD07M14 174", "BRRECRR14M19 175"],
-  ["2026-10-26", "2026-10-26", "BIOMM S.A.", "BRBIOMACNOR2 113", "BRBIOMD01M15 113", "BRBIOMDBS004 100"]
+  ["2026-10-26", "2026-10-26", "BIOMM S.A.", "BRBIOMACNOR2 113", "BRBIOMD01M15 113", "BRBIOMDBS004 100"],
+  ["2026-10-16", "2026-10-16", "KINEA RENDIMENTOS IMOBILIÁRIOS FII RESP LIM", "BRKNCRCTF000 270", "BRKNCRD04M13 270", "BRKNCRR44M19 271"]
  ]
 }
