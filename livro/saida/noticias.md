@@ -1,8 +1,17 @@
-NOTÍCIAS E FATOS · 02/10 18h12
+NOTÍCIAS E FATOS · 02/10 19h53
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 436 veículo fora da lista, 43 sem ativo, 6 teto) · cvm ok 0 novos de 18 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 437 veículo fora da lista, 40 sem ativo, 3 teto) · cvm ok 1 novos de 19 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
+
+[INFO] E03 · BBDC4 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 02/10/2026 18:20 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1573905
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 02/10
+id: E03-BBDC4-1573905-2026-10-02 · status: linha
 
 [INFO] E03 · PETR4 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
 CVM · entregue 02/10/2026 09:18 · Outros Comunicados Não Considerados Fatos Relevantes
@@ -285,8 +294,21 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (131)
+## OUTRAS NOTÍCIAS (só manchete) (144)
 
+· BBAS3 A ação que fez Petrobras (PETR4) e Banco do Brasil (BBAS3) comerem poeira e dobrou de preço com trade eleitoral de Flávio Bolsonaro (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/a-acao-que-fez-petrobras-petr4-e-banco-do-brasil-bbas3-comerem-poeira-e-dobrou-de-preco-com-trade-eleitoral-de-flavio-bolsonaro-ccgg/
+· PETR4 Foz do Amazonas: Petrobras vai mobilizar sonda para perfuração de outros poços (eixos) https://eixos.com.br/petroleo-e-gas/foz-do-amazonas-petrobras-vai-mobilizar-sonda-para-perfuracao-de-outros-pocos/
+· DI Juros futuros caem com otimismo às vésperas do 1º turno das eleições (Money Times) https://www.moneytimes.com.br/juros-futuros-2-10-26-apsa/
+· TSLA Tesla Q3 deliveries better-than-expected, stock jumps on news (CNBC) https://www.cnbc.com/video/2026/10/02/tesla-q3-deliveries-better-than-expected-stock-jump-on-news.html
+· NVDA Nvidia: Competition Caps The Upside Case (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4951691-nvidia-competition-caps-the-upside-case
+· NVDA US man arrested over alleged $300 million scheme to smuggle Nvidia AI servers to China (South China Morning Post) https://www.scmp.com/news/us/article/3369637/us-man-arrested-over-alleged-300-million-scheme-smuggle-nvidia-ai-servers-china?pgtype=live
+· EQTL3 Viabilidade comercial da Margem Equatorial depende de mais perfurações (CNN Brasil) https://www.cnnbrasil.com.br/infra/viabilidade-comercial-na-margem-equatorial-depende-de-mais-perfuracoes/
+· BABA Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note (Yahoo Finance) https://uk.finance.yahoo.com/news/alibaba-baba-stock-drops-despite-204506900.html
+· NVDA Morgan Stanley Has Strong Message For Nvidia Stock Investors (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f68aecd3d094b:0-morgan-stanley-has-strong-message-for-nvidia-stock-investors/
+· AMZN What Are Amazon Investors Paying for AWS Without Investment Gains? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-investors-paying-aws-without-182654581.html
+· ITUB4 Programa iPhone pra Sempre do Itaú vendeu mais de 100 mil celulares (Estadao) https://www.estadao.com.br/tecmundo/produto-e-review/236452-programa-iphone-pra-sempre-itau-vendeu-100-mil-celulares/
+· BRENT Dated Brent Above $120 Signals a Serious Oil Squeeze (OilPrice.com) https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html
+· AMZN Amazon.com, Inc. (AMZN) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/AMZN/
 · USDBRL Dólar fecha quase estável, a R$ 5,2165, com cautela antes das eleições (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/02/dolar-fecha-quase-estavel-a-r-52165-com-cautela-antes-das-eleicoes.htm
 · USDBRL Bolsa sobe e fecha nos 192 mil pontos antes da eleição; dólar cai (Poder360) https://www.poder360.com.br/poder-economia/bolsa-sobe-e-fecha-nos-192-mil-pontos-antes-da-eleicao-dolar-cai/
 · AMD SA Asks: Does AMD still have upside after its latest rally? (Update) (AMD:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4649462-sa-asks-does-amd-still-have-upside-after-its-latest-rally
@@ -334,17 +356,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · TSLA Why Tesla (TSLA) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:c96c9fb8a094b:0-why-tesla-tsla-stock-is-trading-up-today/
 · PETR4 Petrobras anuncia nova descoberta de petróleo, na Foz do Amazonas (ADVFN) https://br.advfn.com/jornal/2026/10/petrobras-anuncia-nova-descoberta-de-petroleo-na-foz-do-amazonas
 · PETR4 Ibovespa volta a subir após chegar perto dos 190 mil pontos; Vale e Petrobras viram (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-chega-ao-ultimo-pregao-antes-da-eleicao-com-payroll-e-petroleo-acima-de-us-100/
-· MU Micron, Crypto and Jobs: The Bull Market Just Got 3 New Catalysts (Yahoo Finance) https://au.finance.yahoo.com/news/micron-crypto-jobs-bull-market-141100322.html
-· BTC Bitcoin Crosses $86,000 on Fed Pause Hopes. Strategy Leads Crypto Stocks Higher. (Barron's) https://www.barrons.com/articles/strategy-stock-bitcoin-price-coinbase-robinhood-0fa6f3fd
-· MU Micron: Slower Memory Content Growth, Faster Capital Return (Seeking Alpha) https://seekingalpha.com/article/4951586-micron-slower-memory-content-growth-faster-capital-return
-· PETR4 Por que você deveria ter Petrobras (PETR4) na carteira — independentemente de quem ganhar as eleições? (Seu Dinheiro) https://news.google.com/rss/articles/CBMi2gFBVV95cUxOalVsUEUyYzFkcDVtN2lhQW1KSGxxQWxBaUFCNGlNLTBDWTJEOTloR0JFWmFhVFBSekJCN2V0cXJnTjA4TnRiT1VyYzdET0JqcGZ1Zks3dFdQXzlWUEtXTWE2NXpydnoyMFYyTkdITTVWNFhEVHVOeE9CdDgtM1Z3eVZUUzBoWEMtYl9EQmNLMXFJaVBYZkg2V2hQVE8zZnlJVy0tc2xlSS0temllZ3BGNHJEc2ZNN0dZdHlBSmJOWFVsUlcxUXpFWnJuY1doazFlSnRBUXZ2Sll6Zw?oc=5
-· TSLA Oppenheimer reiterates Perform rating on Tesla stock after deliveries beat (Investing.com) https://www.investing.com/news/analyst-ratings/oppenheimer-reiterates-perform-rating-on-tesla-stock-after-deliveries-beat-93CH-4930070
-· TSLA Tesla posts stronger-than-expected quarterly deliveries (Reuters) https://www.reuters.com/article/idUSKBN3VI1B6
-· PETR4 Petrobras (PETR4) informa nova descoberta de petróleo em poço na Foz do Amazonas (Money Times) https://www.moneytimes.com.br/petrobras-petr4-informa-nova-descoberta-de-petroleo-em-poco-na-costa-do-amapa-lmrs/
-· USDBRL Ibovespa tem cautela em última sessão antes das eleições; dólar sobe (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-2-outubro-2026/
-· USDBRL Ibovespa futuro sobe no último pregão antes do primeiro turno das eleições; dólar opera em alta (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-2-10-26-lils/
-· USDBRL Dólar e Ibovespa operam em leve alta, de olho em dados dos EUA e às vésperas das eleições (g1) https://g1.globo.com/economia/noticia/2026/10/02/dolar-ibovespa.ghtml
-· JPM JPMorgan downgrades Hess Midstream stock rating on contract risks By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/jpmorgan-downgrades-hess-midstream-stock-rating-on-contract-risks-93CH-4892873
-· MMM 3M Company (MMM) Stock Price, News, Quote & History (Yahoo Finance) https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2Y1dkSFJlaUw4SXg0SWctYk1UVG9renpEekFUUkxNWU85SjJSd0lQZzBISGs2QkthXy1KM3dYY1VudHhPd0tYSVNwUE5Ia2U2?oc=5
-· TSLA Tesla earnings missed by $0.01, revenue topped estimates (Investing.com) https://www.investing.com/news/earnings/tesla-earnings-missed-by-001-revenue-topped-estimates-4930190
-· (+71 manchetes; lista completa em eventos/noticias.json)
+· (+84 manchetes; lista completa em eventos/noticias.json)

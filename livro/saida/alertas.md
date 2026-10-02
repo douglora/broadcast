@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
+(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
 Yahoo Finance · 02/10 15h52 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Key Takeaways - On The Compound and Friends, Ritholtz Wealth Management's Josh Brown said NVIDIA could generate $360 billion in free cash flow next year, nearly four times its free cash flow in its last fiscal year.
@@ -14,10 +14,9 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Nex…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 15h52
-Push: Fechamento 18h: 2 alertas de atenção — E05 NVDA, E05 LITE · detalhe na sessão
 ids: E05-NVDA-e2c7dd5a07-2026-10-02
 
-[ATENÇÃO] E05 · LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
+(pendente de slot anterior) [ATENÇÃO] E05 · LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
 Investing.com · 02/10 13h02 · fonte única · licença: manchete
 Link: https://ca.investing.com/news/stock-market-news/lumentum-holdings-inc-stock-hits-alltime-high-at-108575-usd-93CH-4864419
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -27,32 +26,20 @@ Fonte: Investing.com 02/10 13h02
 ids: E05-LITE-b75ff30ab5-2026-10-02
 
 Info (só linha no Fechamento):
-· T01 ALUP4 retomou a média de 200 dias pela 2ª sessão: R$ 10,85 vs MM200 R$ 10,54 (+2,9%)
-· T01 AXIA3 retomou a média de 200 dias pela 1ª sessão: R$ 56,90 vs MM200 R$ 55,56 (+2,4%)
-· T01 SMAL11 retomou a média de 200 dias pela 1ª sessão: R$ 116,34 vs MM200 R$ 113,39 (+2,6%)
-· T04 CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) fechou na máxima de 52 semanas: US$ 1.771, +5,8% em 1m e +24% em 12m
-· T04 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) fechou na máxima de 52 semanas: US$ 22,65, +8,7% em 1m e +41% em 12m
-· T04 QQQ fechou na máxima de 52 semanas: US$ 749,58, +5,8% em 1m e +24% em 12m
-· T04 XLK fechou na máxima de 52 semanas: US$ 199,81, +9,0% em 1m e +40% em 12m
-· T04 LITE fechou na máxima de 52 semanas: US$ 1.085, +25% em 1m e +539% em 12m
-· T04 PETR4 fechou na máxima de 52 semanas: R$ 51,17, +6,2% em 1m e +81% em 12m
-· T02 MMM perdeu a MM100 pela 2ª sessão: US$ 161,89, ainda acima da MM200 (tendência longa preservada)
-· T02 EWY retomou a MM100 pela 2ª sessão: US$ 191,88, acima da MM200 (tendência longa preservada)
-· T09 SMAL11 +2,9% com volume 3,4x a mediana de 20 sessões, a R$ 116,34
-· T12 KO: 6 quedas seguidas (-3,4% acumulado) a US$ 85,65
-· E05 USDBRL · Dólar fecha quase estável, a R$ 5,2165, com cautela antes das eleições
-· E05 USDBRL · Bolsa sobe e fecha nos 192 mil pontos antes da eleição; dólar cai
-· E05 AMD · SA Asks: Does AMD still have upside after its latest rally? (Update) (AMD:NASDAQ)
-· E05 PETR4 · Ibovespa salta 2% e volta ao nível de abril com Petrobras (PETR4) e 1º turno das eleições em foco; dólar cai
-· E05 UST · US Equity Indexes Closed Mixed This Week as Treasury Yields Traded Close to Two-Decade High While October Rate-Hike Bets Slump
-· E05 INTC · Intel Stocks Gain 2.1% as High-NA Enters Production
-· E05 AVGO · Broadcom Stocks Jump 3.5% as AI Chip Guide Reaches $21.7 Billion
-· E05 UST · U.S. Treasury Selloff Resumes After Brief Respite
-· E05 EQTL3 · Brasil amplia Margem Equatorial com base em decisão da ONU; entenda
-· E05 NVDA · NVDA Is ‘Best In Breed’ Stock On Sale, Hightower Advisors' Stephanie Link Says
-· E05 TSLA · Tesla shares rise as Q3 deliveries beat production
-· E05 CVX · Chevron Corporation (CHV.F) Stock Price, News, Quote & History
-· E05 NVDA · Nvidia Well Positioned as AI Bottleneck Shifts, Morgan Stanley Says
+· E03 BBDC4 · Aviso aos Acionistas: Outros avisos
+· E05 BBAS3 · A ação que fez Petrobras (PETR4) e Banco do Brasil (BBAS3) comerem poeira e dobrou de preço com trade eleitoral de Flávio Bolsonaro
+· E05 PETR4 · Foz do Amazonas: Petrobras vai mobilizar sonda para perfuração de outros poços
+· E05 DI · Juros futuros caem com otimismo às vésperas do 1º turno das eleições
+· E05 TSLA · Tesla Q3 deliveries better-than-expected, stock jumps on news
+· E05 NVDA · Nvidia: Competition Caps The Upside Case (NASDAQ:NVDA)
+· E05 NVDA · US man arrested over alleged $300 million scheme to smuggle Nvidia AI servers to China
+· E05 EQTL3 · Viabilidade comercial da Margem Equatorial depende de mais perfurações
+· E05 BABA · Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note
+· E05 NVDA · Morgan Stanley Has Strong Message For Nvidia Stock Investors
+· E05 AMZN · What Are Amazon Investors Paying for AWS Without Investment Gains?
+· E05 ITUB4 · Programa iPhone pra Sempre do Itaú vendeu mais de 100 mil celulares
+· E05 BRENT · Dated Brent Above $120 Signals a Serious Oil Squeeze
+· E05 AMZN · Amazon.com, Inc. (AMZN) stock price, news, quote and history
 · C02 Inclinação da curva DI: F35-F28 +28 bps em 5 pregões
 · T05 SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,6 desvios para uma vol de 20 dias de 17% a.a.
 · T09 BBDC4 +3,9% com volume 2,7x a mediana de 20 sessões, a R$ 19,23
@@ -97,4 +84,4 @@ Alertas do dia (todos, com status):
 · linha     T09 SMAL11 — SMAL11 +2,9% com volume 3,4x a mediana de 20 sessões, a R$ 116,34
 · linha     T12 KO — KO: 6 quedas seguidas (-3,4% acumulado) a US$ 85,65
 · linha     F06 BTC — BTC sobe a US$ 86.583 (cruzou US$ 85.000) (parcial, intradia)
-· (+137 notícias só manchete, em noticias.md)
+· (+151 notícias só manchete, em noticias.md)
