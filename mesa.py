@@ -1444,7 +1444,8 @@ def _boletim_rf(resumo):
         print("\n-- papeis acompanhados (config/boletim.yaml > renda_fixa > papeis)")
     for l in meus:
         ref, a = _ref_rf(l, pregao), l.get("anbima") or {}
-        print(f"   {l['codigo']}  {(l.get('emissor') or '')[:48]}  vencimento {l.get('vencimento') or '-'}")
+        quem = (l["apelido"] + " | " if l.get("apelido") else "") + (l.get("emissor") or "")[:48]
+        print(f"   {l['codigo']}  {quem}  vencimento {l.get('vencimento') or '-'}")
         if a:
             # a taxa da ANBIMA vai na convencao da ANBIMA; `anbima.convencao` so vem quando ela difere da que a B3 le
             conv = a.get("convencao") or l.get("convencao")

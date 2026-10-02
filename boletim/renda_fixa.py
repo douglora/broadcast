@@ -447,9 +447,17 @@ def montar(ctx) -> dict:
     foco = [l for l in linhas.values() if l["classe"] in EM_FOCO]
 
     # ---- papeis acompanhados: aparecem mesmo sem negocio no dia quando a ANBIMA traz a indicativa
+    # Item da lista: o codigo, ou {codigo, nome}. O `nome` e o apelido que vai para a tela: em CRI e CRA a B3
+    # so informa a securitizadora, e quem acompanha o papel quer ler o devedor.
     acompanhados = []
-    for cod in cfg.get("papeis") or []:
-        acompanhados.append(linhas.get(cod) or (linha_de(cod, None) if cod in ind else {"codigo": cod, "sem_negocio": True}))
+    for item in cfg.get("papeis") or []:
+        cod, apelido = (item.get("codigo"), item.get("nome")) if isinstance(item, dict) else (item, None)
+        if not cod:
+            continue
+        l = linhas.get(cod) or (linha_de(cod, None) if cod in ind else {"codigo": cod, "sem_negocio": True})
+        if apelido:
+            l["apelido"] = str(apelido)
+        acompanhados.append(l)
 
     # ---- curva de credito incentivado: taxa de referencia x prazo (duration da ANBIMA quando ha)
     curva = []
@@ -481,7 +489,7 @@ def montar(ctx) -> dict:
         fechamentos += sorted((l for l in mov if l["ref"]["var_pb"] <= -parada), key=lambda l: l["ref"]["var_pb"])[:8]
 
     def nome(l: dict) -> str:
-        return f"{l['codigo']} ({b3.nome_curto(l['emissor'], 38)}, {SINGULAR.get(l['classe'], 'debênture')})"
+        return f"{l['codigo']} ({l.get('apelido') or b3.nome_curto(l['emissor'], 38)}, {SINGULAR.get(l['classe'], 'debênture')})"
 
     def negocios_do_dia(l: dict) -> str:
         if l.get("sem_negocio"):
