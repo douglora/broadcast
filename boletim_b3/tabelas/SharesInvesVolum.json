@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-01",
+ "pregao": "2026-10-02",
  "nome": "SharesInvesVolum",
  "titulo": "Participação dos investidores",
  "sla": "20:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Tipos de investidores"}, {"nome": "Purchase", "titulo": "Compras (R$) mil"}, {"nome": "Sales", "titulo": "Participação (%)"}, {"nome": "Partmil", "titulo": "Vendas (R$) mil"}, {"nome": "PartPer", "titulo": "Participação (%)"}],
- "texto": ["Contribuição de diferentes perfis de investidores no volume total de negociações realizadas na B3. Dados acumulados do início do mês até o dia 29/09/2026."],
+ "texto": ["Contribuição de diferentes perfis de investidores no volume total de negociações realizadas na B3. Dados acumulados do início do mês até o dia 30/09/2026."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-01T06:10:30.057",
+ "atualizado_em": "2026-10-02T07:30:31.047",
  "truncada": false,
  "linhas": [
-  ["Institucionais", 157500579, 11.9, 164853351, 12.46],
-  ["Instituições Financeiras", 18489423, 1.4, 19661985, 1.49],
-  ["Investidor Estrangeiro", 412822186, 31.19, 404037698, 30.53],
-  ["Investidores Individuais", 69502865, 5.25, 69662422, 5.26],
-  ["Outros", 3474965, 0.26, 3574562, 0.27]
+  ["Institucionais", 166065537, 11.88, 172964580, 12.37],
+  ["Instituições Financeiras", 19858361, 1.42, 21546139, 1.54],
+  ["Investidor Estrangeiro", 436290918, 31.2, 427184074, 30.55],
+  ["Investidores Individuais", 73282057, 5.24, 73731596, 5.27],
+  ["Outros", 3695432, 0.26, 3765915, 0.27]
  ]
 }

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-01",
+ "pregao": "2026-10-02",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-01T19:00:23.52",
+ "atualizado_em": "2026-10-02T18:50:22.683",
  "truncada": false,
  "linhas": [
-  ["F2IC34", "DRN", 77.77, 13.84],
-  ["S1NP34", "DRN", 64.14, 13.92],
-  ["ECOM3", "ON      NM", 1.4, 14.75],
-  ["K1LA34", "DRN", 52.5, 16.64],
-  ["SEQL3", "ON      NM", 0.07, 16.66],
-  ["RDLI11", "CI", 14, 16.66],
-  ["ACNB34", "DRN", 1124.5, 18.55],
-  ["VVCO11", "CI", 13.91, 38.96],
-  ["FPOR11", "CI", 35.32, 483.8],
-  ["RCFA11", "CI", 0.93, 745.45]
+  ["GFSA3", "ON      NM", 0.27, 12.5],
+  ["PLAS3", "ON", 3.27, 12.75],
+  ["SOND5", "PNA     MP", 89.4, 14.61],
+  ["A2ZT34", "DRN", 16.83, 14.72],
+  ["DAMA11", "CI", 6.54, 14.93],
+  ["BIOM12", "DIR     N2", 4.33, 16.71],
+  ["GFSA12", "BNS ORD NM", 0.11, 22.22],
+  ["AMBP3", "ON      NM", 0.11, 22.22],
+  ["ABUD34", "DRN", 80, 25.72],
+  ["PABY11", "CI", 27.13, 42.86]
  ]
 }
