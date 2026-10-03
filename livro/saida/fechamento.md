@@ -1,14 +1,26 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 02/10 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 02/10 · 21h24 BRT
+Relógios: Yahoo 21h24 · DI ajuste D0 · Tesouro base
   01/10 · UST CMT D0 · PTAX 02/10
 
-ALERTAS DO DIA (36)
+ALERTAS DO DIA (39)
+[ATENÇÃO] E05 GOOGL · GOOGL DEADLINE ALERT: Faruqi &
+          Faruqi, LLP Reminds Alphabet Investors of
+          Securities Class Action Lawsuit Deadline
+          on November 30, 2026
+[ATENÇÃO] E05 NVDA · NVDA Stock Hits Record High
+          After Morgan Stanley Names Nvidia Top
+          Pick, Says AI Trends Play To Its
+          ‘Strengths’
+[ATENÇÃO] S01 coleta do slot fechamento saiu
+          incompleta: bcb: BCB devolveu 0 de 5
+          séries (faltaram ptax_venda, selic_meta,
+          ipca_mes, ipca_12m, cdi_dia)
 [ATENÇÃO] C02 Inclinação da curva DI: F35-F28 +28
           bps em 5 pregões
 [ATENÇÃO] T05 SMAL11 +2,9% no dia a R$ 116,34:
-          movimento de 2,6 desvios para uma vol de
+          movimento de 2,7 desvios para uma vol de
           20 dias de 17% a.a.
 [ATENÇÃO] T09 BBDC4 +3,9% com volume 2,7x a mediana
           de 20 sessões, a R$ 19,23
@@ -17,22 +29,22 @@ ALERTAS DO DIA (36)
 [ATENÇÃO] E05 NVDA · Investor Makes Bold Prediction:
           NVIDIA Could Deliver “$360 Billion in Free
           Cash Flow” Next Year
-[ATENÇÃO] E05 LITE · Lumentum Holdings Inc stock
-          hits all-time high at 1085.75 USD
-[ATENÇÃO] E05 MU · CLSA raises Micron stock price
-          target on strong memory pricing outlook
-[ATENÇÃO] E05 MU · Micron: The $50 Billion CapEx
-          Misconception (Why The Memory Floor Is
-          Rising) (NASDAQ:MU)
-(+28 em alertas.md)
+(+31 em alertas.md)
 
 ALTAS  COHR +5,6% · DIRR3 +4,8% · TSLA +4,7% · SAPR4
        +3,9% · BBDC4 +3,9%
-BAIXAS MU -2,1% · MCHI -1,7% · BABA -1,5% · MMM
-       -0,7% · PLTR -0,7%
+BAIXAS MU -2,1% · MCHI -1,7% · ETH -1,5% · BABA
+       -1,5% · MMM -0,7%
 
-NOTÍCIAS E FATOS (17 com materialidade ·
+NOTÍCIAS E FATOS (19 com materialidade ·
   noticias.md)
+· GOOGL GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP
+  Reminds Alphabet Investors of Securities Class
+  Action Lawsuit Deadline on November 30, 2026
+  (Business Wire)
+· NVDA NVDA Stock Hits Record High After Morgan
+  Stanley Names Nvidia Top Pick, Says AI Trends Play
+  To Its ‘Strengths’ (TradingView (Reuters))
 · NVDA Investor Makes Bold Prediction: NVIDIA Could
   Deliver “$360 Billion in Free Cash Flow” Next Year
   (Yahoo Finance)
@@ -43,12 +55,7 @@ NOTÍCIAS E FATOS (17 com materialidade ·
 · MU Micron: The $50 Billion CapEx Misconception
   (Why The Memory Floor Is Rising) (NASDAQ:MU)
   (Seeking Alpha)
-· AVGO Broadcom Bets $102 Billion on Anthropic Chips
-  (Yahoo Finance)
-· ITUB4 Dividendos de até 6%: veja a nova aposta da
-  carteira recomendada do Itaú BBA em outubro (Money
-  Times)
-  (+11)
+  (+13)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 13,51 (-6·-12) F29 13,75
@@ -85,7 +92,9 @@ qua 14/10 ex-dividendo MU US$ 0,15 (último provento,
 qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 resultado TSM (madrugada, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: bcb: BCB devolveu 0 de 5 séries (faltaram
+  ptax_venda, selic_meta, ipca_mes, ipca_12m,
+  cdi_dia).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -163,7 +172,7 @@ ITSA4  Itausa    14,67 +1,6 +4,9 +7,5 +6,9  +47  +29
 BBAS3  BB        23,72 +2,8 +9,9 +6,6 +2,6  +12  +11
 SBSP3  Sabesp    28,23 +2,4 +4,8 +8,0  -10  +17 +6,6
 SMAL11 SmallC   116,34 +2,9 +5,3 +4,9 -2,9 +8,2 +3,5
-RARA11 TerrasR   14,81 +0,6 -4,1  -15    -    -    -
+RARA11 TerrasR   14,81 +0,7 -4,1  -15    -    -    -
 DIRR3  Direc     10,51 +4,8 +7,2 -8,3  -21  -27  -26
 MRVE3  MRV        5,63 +3,5 +8,9 -0,9  -29  -22  -28
 CURY3  Cury      28,13 +3,0 +2,1  -16  -19 -3,2 -8,3
@@ -171,8 +180,8 @@ Macro
 USDBRL USD/BRL  5,2161 -0,1 +0,6 +2,2 +1,2 -2,1 -4,7
 DXY    DXY      101,92 -0,2 +0,9 +2,4 +1,9 +4,2 +3,7
 BRENT  Brent    102,70 +0,4 +5,4 +7,4 -5,8  +60  +69
-BTC*   BTC      84.505 -0,4 +0,6 +9,3  +26  -30 -3,4
-ETH*   ETH       2.664 -1,5 -1,0  +11  +30  -41  -10
+BTC    BTC      84.505 -0,4 +0,6 +9,3  +26  -30 -3,4
+ETH    ETH       2.664 -1,5 -1,0  +11  +30  -41  -10
 MINER* Minerio   92,10 -4,6 -5,2 -7,3  -14  -11  -14
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 02/10 · 18h12 BRT
+## Fechamento do livro · sex 02/10 · 21h24 BRT
 
 ---
 
@@ -10,14 +10,14 @@
 
 Nenhuma regra disparou hoje.
 
-*Mais 19 sinais de baixa prioridade em `alertas.md`.*
+*Mais 20 sinais de baixa prioridade em `alertas.md`.*
 
 ---
 
 ### Destaques do dia
 
 **Altas** COHR +5,6% (fechou na máxima) · DIRR3 +4,8% (fechou na máxima) · TSLA +4,7% (vol 1,4x) · SAPR4 +3,9% (fechou na máxima) · BBDC4 +3,9% (vol 2,5x · fechou na máxima)
-**Baixas** MU -2,1% (fechou na mínima) · MCHI -1,7% · BABA -1,5% · MMM -0,7% · PLTR -0,7% (fechou na mínima)
+**Baixas** MU -2,1% (fechou na mínima) · MCHI -1,7% · ETH -1,5% · BABA -1,5% · MMM -0,7%
 
 ---
 
@@ -29,7 +29,7 @@ Nenhuma regra disparou hoje.
 | **DIRR3** | +4,8% | descolou do setor (construtoras de baixa renda +3,4% (mediana), DI F30 -6 bps; 1,4 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **TSLA** | +4,7% | notícia a conferir (Yahoo Finance): Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesla | notícia (conferir) |
 | **SAPR4** | +3,9% | descolou do setor (energia e saneamento +2,4% (mediana), DI F35 +2 bps; 1,6 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **BBDC4** | +3,9% | descolou do setor (bancos +2,2% (mediana), DI F28 -6 bps; 1,7 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **BBDC4** | +3,9% | descolou do setor (bancos +2,2% (mediana), DI F28 -6 bps; 1,7 p.p. da mediana); Aviso aos Acionistas na CVM: Outros avisos; investigar antes de comentar | sem causa no dado |
 | **LITE** | +3,8% | notícia a conferir (Investing.com): Lumentum Holdings Inc stock hits all-time high at 1085.75 USD | notícia (conferir) |
 | **MRVE3** | +3,5% | andou com o setor: construtoras de baixa renda +3,4% (mediana), DI F30 -6 bps | setorial |
 | **AVGO** | +3,3% | descolou do setor (semicondutores (eua) +2,3% (mediana), SOX +2,4%; 1,1 p.p. da mediana); notícia a conferir (Yahoo Finance): Broadcom Bets $102 Billion on Anthropic Chips | notícia (conferir) |
@@ -174,7 +174,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **BBAS3** Banco do Brasil ON | 23,72 | **+2,8** | +9,9 | +6,6 | +19 | +2,6 | +12 | +11 | +132 |
 | **SBSP3** Sabesp ON | 28,23 | **+2,4** | +4,8 | +8,0 | -7,0 | -10 | +17 | +6,6 | +331 |
 | **SMAL11** iShares BM&FBOVESPA Small Cap Fundo de Indice | 116,34 | **+2,9** | +5,3 | +4,9 | +6,6 | -2,9 | +8,2 | +3,5 | -11 |
-| **RARA11** Investo Terras Raras e Metais Estrategicos | 14,81 | **+0,6** | -4,1 | -15 | - | - | - | - | - |
+| **RARA11** Investo Terras Raras e Metais Estrategicos | 14,81 | **+0,7** | -4,1 | -15 | - | - | - | - | - |
 | **DIRR3** Direcional Engenharia ON | 10,51 | **+4,8** | +7,2 | -8,3 | -26 | -21 | -27 | -26 | +273 |
 | **MRVE3** MRV ON | 5,63 | **+3,5** | +8,9 | -0,9 | +3,7 | -29 | -22 | -28 | -53 |
 | **CURY3** Cury Construtora e Incorporadora ON | 28,13 | **+3,0** | +2,1 | -16 | -18 | -19 | -3,2 | -8,3 | +501 |
@@ -188,8 +188,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 5,2161 | **-0,1** | +0,6 | +2,2 | -0,1 | +1,2 | -2,1 | -4,7 | -2,8 |
 | **DXY** Indice Dolar DXY | 101,92 | **-0,2** | +0,9 | +2,4 | +1,1 | +1,9 | +4,2 | +3,7 | +8,4 |
 | **BRENT** Petroleo Brent | 102,70 | **+0,4** | +5,4 | +7,4 | +43 | -5,8 | +60 | +69 | +30 |
-| **BTC** Bitcoin _(parcial)_ | 84.505 | **-0,4** | +0,6 | +9,3 | +35 | +26 | -30 | -3,4 | +75 |
-| **ETH** Ethereum _(parcial)_ | 2.664 | **-1,5** | -1,0 | +11 | +52 | +30 | -41 | -10 | -22 |
+| **BTC** Bitcoin | 84.505 | **-0,4** | +0,6 | +9,3 | +35 | +26 | -30 | -3,4 | +75 |
+| **ETH** Ethereum | 2.664 | **-1,5** | -1,0 | +11 | +52 | +30 | -41 | -10 | -22 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 01/10)_ · mínima de 52 semanas | 92,10 | **-4,6** | -5,2 | -7,3 | -6,3 | -14 | -11 | -14 | -20 |
 
 **Brent em reais:** R$ 535,69 por barril (02/10) · dia +0,3% · 1 mês +9,7% · no ano +61% (Brent do 1º vencimento × dólar).
@@ -245,8 +245,12 @@ Inflação implícita 2029 5,99% · 2032 6,04% · 2031/32 (descasado) 5,99% · F
 
 ---
 
-### Notícias e fatos · 17
+### Notícias e fatos · 19
 
+- **GOOGL** GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026 (Business Wire · 02/10) [abrir a fonte](https://www.businesswire.com/news/home/20261002784724/en/GOOGL-DEADLINE-ALERT-Faruqi-Faruqi-LLP-Reminds-Alphabet-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-November-30-2026)
+  *Por que importa:* contingencia muda o risco e pode virar provisao; olhar valor e prazo
+- **NVDA** NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Play To Its ‘Strengths’ (TradingView (Reuters) · 02/10) [abrir a fonte](https://es.tradingview.com/news/stocktwits:1c8da335e094b:0-nvda-stock-hits-record-high-after-morgan-stanley-names-nvidia-top-pick-says-ai-trends-play-to-its-strengths/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **NVDA** Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year (Yahoo Finance · 02/10) [abrir a fonte](https://finance.yahoo.com/markets/stocks/articles/investor-makes-bold-prediction-nvidia-185249306.html)
   *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **LITE** Lumentum Holdings Inc stock hits all-time high at 1085.75 USD (Investing.com · 02/10) [abrir a fonte](https://ca.investing.com/news/stock-market-news/lumentum-holdings-inc-stock-hits-alltime-high-at-108575-usd-93CH-4864419)
@@ -303,8 +307,8 @@ Inflação implícita 2029 5,99% · 2032 6,04% · 2031/32 (descasado) 5,99% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 01/10 · UST CMT D0 · PTAX 02/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h24 · DI ajuste D0 · Tesouro base 01/10 · UST CMT D0 · PTAX 02/10
+**Lacunas:** bcb: BCB devolveu 0 de 5 séries (faltaram ptax_venda, selic_meta, ipca_mes, ipca_12m, cdi_dia).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-30).

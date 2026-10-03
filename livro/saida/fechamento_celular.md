@@ -70,7 +70,7 @@ ITSA4  Itausa  14,67 +1,6 +4,9 +7,5  +29
 BBAS3  BB      23,72 +2,8 +9,9 +6,6  +11
 SBSP3  Sabesp  28,23 +2,4 +4,8 +8,0 +6,6
 SMAL11 SmallC 116,34 +2,9 +5,3 +4,9 +3,5
-RARA11 Terras  14,81 +0,6 -4,1  -15    -
+RARA11 Terras  14,81 +0,7 -4,1  -15    -
 DIRR3  Direc   10,51 +4,8 +7,2 -8,3  -26
 MRVE3  MRV      5,63 +3,5 +8,9 -0,9  -28
 CURY3  Cury    28,13 +3,0 +2,1  -16 -8,3
@@ -78,8 +78,8 @@ Macro
 USDBRL USD/BR 5,2161 -0,1 +0,6 +2,2 -4,7
 DXY    DXY    101,92 -0,2 +0,9 +2,4 +3,7
 BRENT  Brent  102,70 +0,4 +5,4 +7,4  +69
-BTC*   BTC    84.505 -0,4 +0,6 +9,3 -3,4
-ETH*   ETH     2.664 -1,5 -1,0  +11  -10
+BTC    BTC    84.505 -0,4 +0,6 +9,3 -3,4
+ETH    ETH     2.664 -1,5 -1,0  +11  -10
 MINER* Mineri  92,10 -4,6 -5,2 -7,3  -14
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 02/10 19h53
+NOTÍCIAS E FATOS · 02/10 21h24
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 437 veículo fora da lista, 40 sem ativo, 3 teto) · cvm ok 1 novos de 19 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 443 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 19 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (4)
 
@@ -41,7 +41,25 @@ Fonte: CVM 02/10
 id: E03-UGPA3-1573534-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (19)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · GOOGL · GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026
+Business Wire · 02/10 18h11 · fonte única · licença: integral
+Link: https://www.businesswire.com/news/home/20261002784724/en/GOOGL-DEADLINE-ALERT-Faruqi-Faruqi-LLP-Reminds-Alphabet-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-November-30-2026
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Business Wire: GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 02/10 18h11
+id: E05-GOOGL-80c72ad4da-2026-10-02 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Play To Its ‘Strengths’
+TradingView (Reuters) · 02/10 09h49 · fonte única · licença: manchete
+Link: https://es.tradingview.com/news/stocktwits:1c8da335e094b:0-nvda-stock-hits-record-high-after-morgan-stanley-names-nvidia-top-pick-says-ai-trends-play-to-its-strengths/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Pl…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 02/10 09h49
+id: E05-NVDA-39dd8efd39-2026-10-02 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
 Yahoo Finance · 02/10 15h52 · fonte única · licença: resumo
@@ -57,7 +75,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA
 Como falar: 'saiu no Yahoo Finance: Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Nex…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 02/10 15h52
-id: E05-NVDA-e2c7dd5a07-2026-10-02 · status: pendente
+id: E05-NVDA-e2c7dd5a07-2026-10-02 · status: expirado
 
 [ATENÇÃO] E05 · LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
 Investing.com · 02/10 13h02 · fonte única · licença: manchete
@@ -66,7 +84,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: LITE
 Como falar: 'saiu no Investing.com: Lumentum Holdings Inc stock hits all-time high at 1085.75 USD; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 02/10 13h02
-id: E05-LITE-b75ff30ab5-2026-10-02 · status: pendente
+id: E05-LITE-b75ff30ab5-2026-10-02 · status: expirado
 
 [ATENÇÃO] E05 · MU · CLSA raises Micron stock price target on strong memory pricing outlook
 Investing.com · 02/10 06h43 · fonte única · licença: manchete
@@ -294,8 +312,13 @@ Fonte: Yahoo Finance 01/10 11h15
 id: E05-UST-428863997e-2026-10-01 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (144)
+## OUTRAS NOTÍCIAS (só manchete) (149)
 
+· MU Micron And MUU: The Structural Shift Thesis Is Strengthening (Seeking Alpha) https://seekingalpha.com/article/4951695-micron-and-muu-the-structural-shift-thesis-is-strengthening
+· EQTL3 PETROBRÁS VAI PERFURAR NOVOS POÇOS PARA DIMENSIONAR VOLUME DA DESCOBERTA NA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/petrobras-vai-perfurar-novos-pocos-para-dimensionar-volume-da-descoberta-na-margem-equatorial/
+· MU Micron: It's Different This Time - Buy At 6x Earnings Before AI Agents Rerate It (MU) (Seeking Alpha) https://seekingalpha.com/article/4951674-micron-its-different-this-time-buy-at-6x-earnings-before-ai-agents-rerate-it
+· MU Micron Stocks Slip 1.4% as Record Revenue Meets Cycle Doubts (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stocks-slip-1-4-192656106.html
+· CVX Chevron Corporation (CHV.DE) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/CHV.DE/
 · BBAS3 A ação que fez Petrobras (PETR4) e Banco do Brasil (BBAS3) comerem poeira e dobrou de preço com trade eleitoral de Flávio Bolsonaro (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/a-acao-que-fez-petrobras-petr4-e-banco-do-brasil-bbas3-comerem-poeira-e-dobrou-de-preco-com-trade-eleitoral-de-flavio-bolsonaro-ccgg/
 · PETR4 Foz do Amazonas: Petrobras vai mobilizar sonda para perfuração de outros poços (eixos) https://eixos.com.br/petroleo-e-gas/foz-do-amazonas-petrobras-vai-mobilizar-sonda-para-perfuracao-de-outros-pocos/
 · DI Juros futuros caem com otimismo às vésperas do 1º turno das eleições (Money Times) https://www.moneytimes.com.br/juros-futuros-2-10-26-apsa/
@@ -351,9 +374,4 @@ id: E05-UST-428863997e-2026-10-01 · status: linha
 · BRENT Platts backfills WTI-ICE Brent futures spreads at Singapore close for Oct 1-2 (S&P Global) https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/100226-platts-backfills-wti-ice-brent-futures-spreads-at-singapore-close-for-oct-1-2
 · TSLA Tesla Stock Jumps After Deliveries Top Estimates (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-deliveries-top-153623339.html
 · AMZN Amazon.com, Inc. (AMZN) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FUDFQenF3VGxzbElPQUNQOWFWdmw4VkhoVlY1b1gyRVRaa2Noem9BbzJWbkt2Yi1xS0pLdWVHYTdOakpJUG5ueERzRjFQc0ZFUGc?oc=5
-· USDBRL Ações sobem e dólar cai após dados sobre de trabalho dos EUA; rendimentos dos títulos sobem (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45O0YL:0/
-· BTC Bitcoin Heads Higher on Macro Moves: Where Does BTC Go Next? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-heads-higher-macro-moves-164552302.html
-· TSLA Why Tesla (TSLA) Stock Is Trading Up Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:c96c9fb8a094b:0-why-tesla-tsla-stock-is-trading-up-today/
-· PETR4 Petrobras anuncia nova descoberta de petróleo, na Foz do Amazonas (ADVFN) https://br.advfn.com/jornal/2026/10/petrobras-anuncia-nova-descoberta-de-petroleo-na-foz-do-amazonas
-· PETR4 Ibovespa volta a subir após chegar perto dos 190 mil pontos; Vale e Petrobras viram (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-chega-ao-ultimo-pregao-antes-da-eleicao-com-payroll-e-petroleo-acima-de-us-100/
-· (+84 manchetes; lista completa em eventos/noticias.json)
+· (+89 manchetes; lista completa em eventos/noticias.json)

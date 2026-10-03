@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
 Yahoo Finance · 02/10 15h52 · fonte única · licença: resumo
@@ -25,35 +25,49 @@ Como falar: 'saiu no Investing.com: Lumentum Holdings Inc stock hits all-time hi
 Fonte: Investing.com 02/10 13h02
 ids: E05-LITE-b75ff30ab5-2026-10-02
 
+[ATENÇÃO] E05 · GOOGL · GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026
+Business Wire · 02/10 18h11 · fonte única · licença: integral
+Link: https://www.businesswire.com/news/home/20261002784724/en/GOOGL-DEADLINE-ALERT-Faruqi-Faruqi-LLP-Reminds-Alphabet-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-November-30-2026
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Business Wire: GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class…; confirmar o número no texto antes de repassar'
+Fonte: Business Wire 02/10 18h11
+Push: Fechamento 18h: 2 alertas de atenção — E05 GOOGL, E05 NVDA · detalhe na sessão
+ids: E05-GOOGL-80c72ad4da-2026-10-02
+
+[ATENÇÃO] E05 · NVDA · NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Play To Its ‘Strengths’
+TradingView (Reuters) · 02/10 09h49 · fonte única · licença: manchete
+Link: https://es.tradingview.com/news/stocktwits:1c8da335e094b:0-nvda-stock-hits-record-high-after-morgan-stanley-names-nvidia-top-pick-says-ai-trends-play-to-its-strengths/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no TradingView (Reuters): NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Pl…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 02/10 09h49
+ids: E05-NVDA-39dd8efd39-2026-10-02
+
 Info (só linha no Fechamento):
-· E03 BBDC4 · Aviso aos Acionistas: Outros avisos
-· E05 BBAS3 · A ação que fez Petrobras (PETR4) e Banco do Brasil (BBAS3) comerem poeira e dobrou de preço com trade eleitoral de Flávio Bolsonaro
-· E05 PETR4 · Foz do Amazonas: Petrobras vai mobilizar sonda para perfuração de outros poços
-· E05 DI · Juros futuros caem com otimismo às vésperas do 1º turno das eleições
-· E05 TSLA · Tesla Q3 deliveries better-than-expected, stock jumps on news
-· E05 NVDA · Nvidia: Competition Caps The Upside Case (NASDAQ:NVDA)
-· E05 NVDA · US man arrested over alleged $300 million scheme to smuggle Nvidia AI servers to China
-· E05 EQTL3 · Viabilidade comercial da Margem Equatorial depende de mais perfurações
-· E05 BABA · Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note
-· E05 NVDA · Morgan Stanley Has Strong Message For Nvidia Stock Investors
-· E05 AMZN · What Are Amazon Investors Paying for AWS Without Investment Gains?
-· E05 ITUB4 · Programa iPhone pra Sempre do Itaú vendeu mais de 100 mil celulares
-· E05 BRENT · Dated Brent Above $120 Signals a Serious Oil Squeeze
-· E05 AMZN · Amazon.com, Inc. (AMZN) stock price, news, quote and history
+· E05 MU · Micron And MUU: The Structural Shift Thesis Is Strengthening
+· E05 EQTL3 · PETROBRÁS VAI PERFURAR NOVOS POÇOS PARA DIMENSIONAR VOLUME DA DESCOBERTA NA MARGEM EQUATORIAL
+· E05 MU · Micron: It's Different This Time - Buy At 6x Earnings Before AI Agents Rerate It (MU)
+· E05 MU · Micron Stocks Slip 1.4% as Record Revenue Meets Cycle Doubts
+· E05 CVX · Chevron Corporation (CHV.DE) Stock Price, News, Quote & History
+· S01 coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 0 de 5 séries (faltaram ptax_venda, selic_meta, ipca_mes, ipca_12m, cdi_dia)
 · C02 Inclinação da curva DI: F35-F28 +28 bps em 5 pregões
-· T05 SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,6 desvios para uma vol de 20 dias de 17% a.a.
+· T05 SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,7 desvios para uma vol de 20 dias de 17% a.a.
 · T09 BBDC4 +3,9% com volume 2,7x a mediana de 20 sessões, a R$ 19,23
 · T12 BABA: 8 quedas seguidas (-9,0% acumulado) a US$ 105,85
 
-Suprimidos pelo teto (viram linha do Fechamento): C02-DI-inclinacao-2026-10-02 (teto de atenção), T05-SMAL11-alta-2026-10-02 (teto de atenção), T09-BBDC4-alta-2026-10-02 (teto de atenção), T12-BABA-quedas_8-2026-10-02 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): S01-SISTEMA-fechamento-2026-10-02 (teto de atenção), C02-DI-inclinacao-2026-10-02 (teto de atenção), T05-SMAL11-alta-2026-10-02 (teto de atenção), T09-BBDC4-alta-2026-10-02 (teto de atenção), T12-BABA-quedas_8-2026-10-02 (teto de atenção)
 
 Alertas do dia (todos, com status):
+· pendente  E05 GOOGL — GOOGL · GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of
+· pendente  E05 NVDA — NVDA · NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, S
+· linha     S01 SISTEMA — coleta do slot fechamento saiu incompleta: bcb: BCB devolveu 0 de 5 séries (falt
 · linha     C02 DI — Inclinação da curva DI: F35-F28 +28 bps em 5 pregões
-· linha     T05 SMAL11 — SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,6 desvios para uma vol de 20 dia
+· linha     T05 SMAL11 — SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,7 desvios para uma vol de 20 dia
 · linha     T09 BBDC4 — BBDC4 +3,9% com volume 2,7x a mediana de 20 sessões, a R$ 19,23
 · linha     T12 BABA — BABA: 8 quedas seguidas (-9,0% acumulado) a US$ 105,85
-· pendente  E05 NVDA — NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Fre
-· pendente  E05 LITE — LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
+· expirado  E05 NVDA — NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Fre
+· expirado  E05 LITE — LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
 · entregue  E05 MU — MU · CLSA raises Micron stock price target on strong memory pricing outlook
 · entregue  E05 MU — MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising
 · entregue  E05 AVGO — AVGO · Broadcom Bets $102 Billion on Anthropic Chips
@@ -84,4 +98,4 @@ Alertas do dia (todos, com status):
 · linha     T09 SMAL11 — SMAL11 +2,9% com volume 3,4x a mediana de 20 sessões, a R$ 116,34
 · linha     T12 KO — KO: 6 quedas seguidas (-3,4% acumulado) a US$ 85,65
 · linha     F06 BTC — BTC sobe a US$ 86.583 (cruzou US$ 85.000) (parcial, intradia)
-· (+151 notícias só manchete, em noticias.md)
+· (+156 notícias só manchete, em noticias.md)
