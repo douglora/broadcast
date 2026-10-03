@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 02/10/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-03T12:04:26Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-03T15:15:17Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
