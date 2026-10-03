@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-02T21:20:43.03",
+ "atualizado_em": "2026-10-03T06:13:18.743",
  "truncada": false,
  "linhas": [
-  ["ISHARES BOVACI", "CI", 32, 192.25, 23908, 4596.313, 0.5045274096733866],
-  ["PETROBRAS   PN      N2", "PN      N2", 53, 51.35, 50000, 2567.5, 1.0551434868524903],
-  ["INTER CO    DR2", "DR2", 17, 28.53, 119010, 3395.3553, 2.511452527406297],
-  ["TREND OURO HCI", "CI", 60, 51.69, 375961, 19433.42409, 7.933856009210979],
-  ["BRASIL      ON      NM", "ON      NM", 94, 23.94, 1000000, 23940, 21.102869737049804]
+  ["ISHARES BOVACI", "CI", 32, 192.25, 23908, 4596.313, 0.5034649541389502],
+  ["PETROBRAS   PN      N2", "PN      N2", 53, 51.35, 50000, 2567.5, 1.0529215202839015],
+  ["INTER CO    DR2", "DR2", 17, 28.53, 119010, 3395.3553, 2.5061638025797417],
+  ["TREND OURO HCI", "CI", 60, 51.69, 375961, 19433.42409, 7.917148553749116],
+  ["BRASIL      ON      NM", "ON      NM", 94, 23.94, 1000000, 23940, 21.058430405678028]
  ]
 }

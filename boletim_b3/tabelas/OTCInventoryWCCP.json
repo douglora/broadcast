@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-01",
+ "pregao": "2026-10-02",
  "nome": "OTCInventoryWCCP",
  "titulo": "Estoque sem CCP",
  "sla": "8:00:00",
@@ -7,12 +7,12 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "TradQty", "titulo": "Quantidade contratos"}, {"nome": "FinancialVol", "titulo": "Volume financeiro (R$)"}],
  "texto": ["Transações realizadas diretamente entre as partes, sem a intermediação de uma Câmara de Compensação Central (CCP). Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-02T01:22:51.78",
+ "atualizado_em": "2026-10-03T03:22:41.607",
  "truncada": false,
  "linhas": [
-  ["BOX", 79, 4777262465.7],
-  ["Opção Flexível", 420821, 793267995859.93],
-  ["Swap", 192214, 2833343297684.13],
-  ["Termo", 119487, 1290372299507.24]
+  ["BOX", 80, 5177273545.7],
+  ["Opção Flexível", 421423, 798200033527.26],
+  ["Swap", 192363, 2835862813181.58],
+  ["Termo", 118752, 1287040994130.79]
  ]
 }

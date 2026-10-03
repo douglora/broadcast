@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-01",
+ "pregao": "2026-10-02",
  "nome": "RepurchaseDealings",
  "titulo": "Negociações compromissadas",
  "sla": "8:00:00",
@@ -7,15 +7,14 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data referência"}, {"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "AverageTerm", "titulo": "Prazo médio"}, {"nome": "AverageFinancial", "titulo": "Financeiro médio"}, {"nome": "NumberOfDealings", "titulo": "Número de negociações"}, {"nome": "FinancialValue", "titulo": "Volume financeiro"}],
  "texto": ["Apresenta informações sobre negociações compromissadas registradas em uma plataforma ou sistema, como a B3. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/43/10/94/EB/8E2AB9109B5E99B9AC094EA8/Glossario_Negociacoes_Compromissadas_balcao.pdf\">Glossário</a>.", "Os dados anteriores a 11/12/2025 estarão disponíveis na aba Dados Globais, em <a href=\"https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/renda-fixa/\">Histórico</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-02T00:22:51.36",
+ "atualizado_em": "2026-10-03T04:13:01.493",
  "truncada": false,
  "linhas": [
-  ["2026-10-01", "CCB", 180, 1379600.01, 1, 1379600.01],
-  ["2026-10-01", "CRA", 70, 259842.64, 1242, 322724553.76],
-  ["2026-10-01", "CRI", 40, 1071568.26, 1106, 1185154497.04],
-  ["2026-10-01", "DEB", 33, 3395673.17, 14363, 48772053744.08],
-  ["2026-10-01", "LCA", 75, 77407.94, 307, 23764237.12],
-  ["2026-10-01", "LF", 35, 15630150.15, 79, 1234781861.84],
-  ["2026-10-01", "NC", 29, 54096000, 10, 540960000]
+  ["2026-10-02", "CRA", 69, 209697.82, 1084, 227312436.83],
+  ["2026-10-02", "CRI", 47, 613881, 1257, 771648413.13],
+  ["2026-10-02", "DEB", 42, 2322988.29, 13693, 31808678665.24],
+  ["2026-10-02", "LCA", 95, 71021.37, 301, 21377433.27],
+  ["2026-10-02", "LF", 12, 15369798.6, 95, 1460130866.68],
+  ["2026-10-02", "NC", 84, 17209984.51, 9, 154889860.6]
  ]
 }
