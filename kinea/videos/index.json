@@ -1,10 +1,20 @@
 {
- "gerado_em": "2026-10-02T18:07:55Z",
+ "gerado_em": "2026-10-03T16:46:07Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
  "fonte": "YouTube (legenda publicada pelo proprio YouTube; a automatica e transcricao de maquina e pode errar nome proprio)",
  "videos": [
+  {
+   "id": "2Hkb9GcGwV8",
+   "titulo": "Eleição brasileira, um novo Fed e os riscos de I.A. | Live Economia e Mercados ref. Setembro/26",
+   "aba": "streams",
+   "url": "https://www.youtube.com/watch?v=2Hkb9GcGwV8",
+   "data": "2026-10-02",
+   "descricao": "Receba a apresentação utilizada na live: https://www.kinea.com.br/livemensal/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de todos os conteúdos da Kinea: https://kinea.me/3KrOUkb\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\n\nSiga a Kinea no Linkedin: https://www.linkedin.com/company/kinea-investimentos/\n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo-multimercado-atlas-ii/\nKinea Chronos: https://www.kinea.com.br/fundos/fundo-multimercado-chronos/\nKinea Apolo: https://www.kinea.com.br/fundos/fundo-multimercado-apolo/\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-xtr/\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea-prev-apolo-itau/\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br",
+   "coleta": 2,
+   "erro": "painel: painel: pagina sem painel de transcricao | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Este evento ao vivo começará em 3 dias."
+  },
   {
    "id": "j-XlSMoLhQ8",
    "titulo": "Fundos de ações - Ibovespa sobe 3,6% com eleição no radar | Ref. Set/26",
@@ -348,6 +358,6 @@
   }
  ],
  "log": [
-  "parei em 514VxHdelNQ: 6 videos seguidos sem legenda por erro do YouTube"
+  "parei em wAhbls4vkoo: 6 videos seguidos sem legenda por erro do YouTube"
  ]
 }

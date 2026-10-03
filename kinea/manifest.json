@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-10-02T18:00:53Z",
+ "gerado_em": "2026-10-03T16:39:44Z",
  "partes": {
   "cartas": {
-   "em": "2026-10-02T18:06:30Z",
+   "em": "2026-10-03T16:44:44Z",
    "resultado": {
     "cartas": 45,
     "metodos": {
@@ -25,7 +25,7 @@
    }
   },
   "documentos": {
-   "em": "2026-10-02T18:06:54Z",
+   "em": "2026-10-03T16:45:03Z",
    "resultado": {
     "pdfs": 15,
     "posts": 0,
@@ -33,18 +33,18 @@
    }
   },
   "videos": {
-   "em": "2026-10-02T18:07:55Z",
+   "em": "2026-10-03T16:46:07Z",
    "resultado": {
-    "videos": 39,
+    "videos": 40,
     "com_legenda": 0,
-    "erros": 39,
+    "erros": 40,
     "fora_do_tema": 0,
     "listagem": "yt-dlp"
    }
   }
  },
  "falhas": [
-  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: nenhuma legenda listada | audio: padrao: DownloadError: ERROR: [youtube] j-XlSMoLhQ8: Faça login para confirmar que você não é um bot"
+  "videos: nenhuma legenda baixada; ultimo erro: painel: painel: pagina sem painel de transcricao | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Este eve"
  ],
  "rodou": [
   "cartas",
