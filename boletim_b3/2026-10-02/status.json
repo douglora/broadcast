@@ -2,7 +2,7 @@
  "pregao": "2026-10-02",
  "situacao": "publicando",
  "errata": false,
- "atualizado_em": "2026-10-02T21:45:38.013",
+ "atualizado_em": "2026-10-03T02:35:38.013",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -44,7 +44,7 @@
    "pai": 20,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-02T21:45:38.013",
+   "atualizado_em": "2026-10-03T02:35:38.013",
    "arquivo": "BDI_02_20261002.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-02/BDI_02_20261002.pdf"
   },
@@ -52,11 +52,11 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-02T21:20:43.03",
-   "arquivo": "",
-   "pdf": ""
+   "atualizado_em": "2026-10-02T23:45:38.01",
+   "arquivo": "BDI_02-3_20261002.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-02/BDI_02-3_20261002.pdf"
   },
   {
    "id": 31,
@@ -64,7 +64,7 @@
    "pai": 3,
    "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-02T21:45:38.013",
+   "atualizado_em": "2026-10-02T22:45:38.007",
    "arquivo": "BDI_03-1_20261002.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-02/BDI_03-1_20261002.pdf"
   },
@@ -74,7 +74,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-02T00:00:38.01",
+   "atualizado_em": "2026-10-02T22:00:35.183",
    "arquivo": "",
    "pdf": ""
   },
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-02T21:40:11.003",
+   "atualizado_em": "2026-10-02T22:40:25.597",
    "arquivo": "",
    "pdf": ""
   },
@@ -94,7 +94,7 @@
    "pai": 4,
    "situacao": "publicando",
    "errata": false,
-   "atualizado_em": "2026-10-02T00:00:38.01",
+   "atualizado_em": "2026-10-02T23:00:41.627",
    "arquivo": "",
    "pdf": ""
   },

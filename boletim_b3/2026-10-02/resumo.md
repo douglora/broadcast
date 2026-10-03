@@ -1,11 +1,11 @@
 # Boletim da B3: pregão de 02/10/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-03T00:53:53Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-03T05:43:22Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (8)
+## Sinais do dia (9)
 
 **Novos hoje**
 
@@ -13,7 +13,8 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Volume fora do padrão.** SMAL11 girou 3,3x a média de 20 pregões (R$ 1.031 mi contra R$ 312 mi), com o preço em +2,87% no dia. _(B3, TradeInformationConsolidated, 02/10)_
 - **Crédito: prêmio alto.** CRA021001PQ (Opea Securitizadora, CRA): negociada a IPCA+ 12,71%, 540 pb acima do juro real de mercado de prazo equivalente, em R$ 9,3 mi. _(B3, Trade + InstrumentRegistration (preliminar), 02/10)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 322 mi líquidos em 30/09; no mês, até 30/09, saldo de +R$ 9.107 mi. _(B3, SharesInvesVolum, 30/09)_
-- **Listas do dia.** Do livro nas listas do boletim: mais negociadas à vista: PETR4 (1º), VALE3 (2º), BBDC4 (3º), ITUB4 (4º), AXIA3 (5º); calls mais negociadas: SMALJ114 (5º); puts mais negociadas: BBDCV205 (1º). _(B3, tabelas de maiores oscilacoes, 02/10)_
+- **Provento.** ALUP4: crédito de dividendo de R$ 0,0700 por ação em 02/10. _(B3, ProventionCreditVariable, 02/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: DIRR3 (3º); mais negociadas à vista: PETR4 (1º), VALE3 (2º), BBDC4 (3º), ITUB4 (4º), AXIA3 (5º); calls mais negociadas: SMALJ114 (5º); puts mais negociadas: BBDCV205 (1º). _(B3, tabelas de maiores oscilacoes, 02/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -186,6 +187,7 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Eventos e comunicados
 
+- ALUP4: dividendo de R$ 0,0700, crédito em 02/10
 - BBDC4: juros sobre capital próprio, prazo em 05/10
 - Comunicado (16/09): 1º Leilão da 5ª Distribuição de CEPAC - Linha Verde - Necton
 - Comunicado (30/09): LEILÃO DE VENDA DE AÇÕES ORDINÁRIAS   CONTAX PARTICIPAÇÕES S.A
@@ -216,14 +218,10 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - Custody: aguardando
 - DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
-- ProventionCreditVariable: aguardando
 - Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 01/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 02/10 de MELI nas séries do livro.
