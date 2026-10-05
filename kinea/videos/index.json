@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-05T20:58:05Z",
+ "gerado_em": "2026-10-05T21:16:41Z",
  "canal": "https://www.youtube.com/@KineaInvestimentos",
  "listagem": "yt-dlp",
  "fora_do_tema": 0,
@@ -13,7 +13,7 @@
    "data": "2026-10-02",
    "descricao": "Receba a apresentação utilizada na live: https://www.kinea.com.br/livemensal/\n\nAcesse a comunidade da Kinea no Whatsapp e fique por dentro de todos os conteúdos da Kinea: https://kinea.me/3KrOUkb\n\nMais informações sobre os fundos Kinea em: https://www.kinea.com.br/\n\nSiga a Kinea no Linkedin: https://www.linkedin.com/company/kinea-investimentos/\n\nCadastre-se em nossa newsletter e receba as informações da Kinea em primeira mão: https://www.kinea.com.br/newsletter/\n\nMais informações sobre os fundos multimercados Kinea em:\nKinea Atlas (II): https://www.kinea.com.br/fundos/fundo-multimercado-atlas-ii/\nKinea Chronos: https://www.kinea.com.br/fundos/fundo-multimercado-chronos/\nKinea Apolo: https://www.kinea.com.br/fundos/fundo-multimercado-apolo/\nKinea Prev XTR: https://www.kinea.com.br/fundos/prev-xtr/\nKinea Prev MM: https://www.kinea.com.br/fundos/prev/\nKinea Prev Apolo: https://www.kinea.com.br/fundos/kinea-prev-apolo-itau/\n\nFale com a equipe Kinea para tirar dúvidas e saber mais sobre oportunidades de investimento:\nhttps://www.kinea.com.br/fale-conosco/\nrelacionamento@kinea.com.br",
    "coleta": 2,
-   "erro": "painel: painel: pagina sem painel de transcricao | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Este evento ao vivo começará em 23 horas."
+   "erro": "painel: painel: pagina sem painel de transcricao | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] 2Hkb9GcGwV8: Este evento ao vivo começará em 22 horas."
   },
   {
    "id": "j-XlSMoLhQ8",
@@ -92,7 +92,7 @@
    "data": null,
    "descricao": "",
    "coleta": 2,
-   "erro": "painel: painel: get_transcript HTTP 400, 0 trechos | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] kvh6MnqHKAY: Faça login para confirmar que você não é um bot"
+   "erro": "painel: painel: pagina sem painel de transcricao | yt-dlp: android_vr: legenda listada mas nao entregue (o YouTube pede PO token) | audio: padrao: DownloadError: ERROR: [youtube] kvh6MnqHKAY: Faça login para confirmar que você não é um bot"
   },
   {
    "id": "wAhbls4vkoo",
