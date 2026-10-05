@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 14h21
+NOTÍCIAS E FATOS · 05/10 15h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 415 veículo fora da lista, 51 sem ativo, 13 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 441 veículo fora da lista, 54 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -60,7 +60,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Global X Bitcoin Covered Call ETF declares $0.0779 dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 05/10 13h03
-id: E05-BTC-05e5f73620-2026-10-05 · status: pendente
+id: E05-BTC-05e5f73620-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ)
 Seeking Alpha · 05/10 12h22 · fonte única · licença: manchete
@@ -191,8 +191,22 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (83)
+## OUTRAS NOTÍCIAS (só manchete) (97)
 
+· USDBRL Ouro cai com dólar forte e persistência das pressões inflacionárias (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/ouro-cai-com-dolar-forte-e-persistencia-das-pressoes-inflacionarias.ghtml
+· USDBRL Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno (BBC) https://www.bbc.com/portuguese/articles/c933xvxj7dryo
+· AMD AMD Just Got a $700 Price Target as Wall Street Eyes Its Next AI Catalyst (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0b1fd207f094b:0-amd-just-got-a-700-price-target-as-wall-street-eyes-its-next-ai-catalyst/
+· ITUB4 Itaú Unibanco coloca 21 imóveis comerciais em leilão com lances a partir de R$ 95,6 mil (Exame) https://exame.com/mercado-imobiliario/itau-unibanco-coloca-21-imoveis-comerciais-em-leilao-a-partir-de-r-956-mil/
+· BTC The SEC Approves the First 3x Bitcoin and Ether Funds: Understanding the Risks Involved (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/sec-approves-first-3x-bitcoin-175103976.html
+· BBDC4 Bradesco (BBDC4) confirma R$ 10 bilhões em capital; o que muda para quem tem ações? (Suno Noticias) https://www.suno.com.br/noticias/bradesco-bbdc4-aumento-capital-10-bilhoes-mt/
+· UST Nasdaq Continues To Hit Record Highs As Tech Stocks Gain — Treasury Yields Stay Elevated (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:08bbc067d094b:0-nasdaq-continues-to-hit-record-highs-as-tech-stocks-gain-treasury-yields-stay-elevated/
+· GOOGL Google Faces New Antitrust Threat in Key Market (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1938e4920094b:0-google-faces-new-antitrust-threat-in-key-market/
+· UGPA3 Eleições 2026 - Resultado em Ipiranga de Goiás (g1) https://g1.globo.com/politica/eleicoes/2026/video/eleicoes-2026-resultado-em-ipiranga-de-goias-15024418.ghtml
+· BTC Bitcoin's large holders are back in profit, and small wallets never really left (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:5ef02d5c1094b:0-bitcoin-s-large-holders-are-back-in-profit-and-small-wallets-never-really-left/
+· TSLA Tesla deliveries top consensus, but energy storage deployments miss estimates (Yahoo Finance) https://ca.finance.yahoo.com/news/tesla-deliveries-top-consensus-energy-164000071.html
+· UST 10-year yield reversal tracks stronger cyclical payrolls, EPB says (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4650257-10-year-yield-reversal-tracks-stronger-cyclical-payrolls-epb-says
+· AMZN Amazon stock is trading at its lowest valuation ever as a public company, despite AI boom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/amazon-stock-is-trading-at-its-lowest-valuation-ever-as-a-public-company-despite-ai-boom-154718912.html
+· USDBRL Dólar cai mais de 4% e opera abaixo de R$ 5 com Flávio à frente na disputa presidencial (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/dolar-recua-mais-de-4percent-e-vai-abaixo-de-r-5-com-flavio-a-frente-de-lula-no-1-turno.ghtml
 · TSLA Tesla’s Q3 Deliveries Beat UBS’ Estimates — But Energy Storage Miss Keeps This Analyst Neutral (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-deliveries-beat-ubs-170331462.html
 · NVDA Nvidia Is 'Tip Of The Spear' For AI Trade, Says Dan Niles — Warns 'At A Certain Point Either The Bond Market's Wrong Or Stock Market Is Wrong' (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:35fa550bf094b:0-nvidia-is-tip-of-the-spear-for-ai-trade-says-dan-niles-warns-at-a-certain-point-either-the-bond-market-s-wrong-or-stock-market-is-wrong/
 · BTC Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017 (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:c1199c909094b:0-treasury-yields-at-5-threaten-extending-bitcoin-s-best-quarter-since-2017/
@@ -239,18 +253,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · INTC Intel Stock Drops as Elon Musk Signals Setback for the Chip Maker (Barron's) https://www.barrons.com/articles/intel-stock-musk-spacex-tesla-chips-313b87c6
 · BBAS3 Banco do Brasil (BBAS3) dispara 13% após resultado do 1º turno das eleições (InfoMoney) https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-dispara-13-apos-resultado-do-1o-turno-das-eleicoes/
 · CVX Chevron: New All-Time Highs In Sight As Oil Surges (NYSE:CVX) (Seeking Alpha) https://seekingalpha.com/article/4951925-chevron-stock-new-all-time-highs-sight-oil-surges
-· ETH Bitmine Purchases 15,112 Ethereum As Price Strengthens (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-purchases-15-112-ethereum-134200292.html
-· BTC Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-stays-red-bear-131000771.html
-· ETH Ethereum Logs Smallest Year-To-Date Loss Since January As Rally Runs On Thin Leverage (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ff7065b79094b:0-ethereum-logs-smallest-year-to-date-loss-since-january-as-rally-runs-on-thin-leverage/
-· NVDA Nvidia Gets Another AI Demand Signal As Foxconn Sales Hit Record High – Apple Faces Holiday Test (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:af540c947094b:0-nvidia-gets-another-ai-demand-signal-as-foxconn-sales-hit-record-high-apple-faces-holiday-test/
-· JPM Equities Can Withstand Higher Bond Yields As Earnings Stay Firm, Says JPMorgan: Report (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:27dd0d0a7094b:0-equities-can-withstand-higher-bond-yields-as-earnings-stay-firm-says-jpmorgan-report/
-· AMD Cantor Fitzgerald reiterates AMD stock rating on Helios outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-amd-stock-rating-on-helios-outlook-93CH-4865826
-· BTC 'More orange than ever': Michael Saylor's Strategy buys 334 bitcoin for $28.7 million as total holdings top 848,000 BTC (The Block) https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2tLR0RJRmVKcjZwWGNTSXIwcjk2TzFNSmlkZFd1UzA0ZjlxNEg5c3Z5YWRSS3pmcTZ3d3RRMVBNVzRQa1FDV0x1c0JiUUdKbEZ0d2ktcW5RN3FHZkZRNFh5YnhfREF3X01mWUtMekJTWXNZemlBdXpQREtjOEdUWEEyZWI0V3hPNEpVOWduRlhuYzkxZ0NWRjdsUmNjMHlabUJKemFpT1hnVTYtakE?oc=5
-· BTC Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:c7b2c44ac094b:0-bitcoin-price-stays-out-of-the-red-as-this-bear-market-breaks-a-historic-pattern/
-· BTC Michael Saylor’s Strategy Forecasts $20.9B Q3 Digital-Asset Gain As MSTR Bitcoin Stack Hits 848,000 BTC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7df95e390094b:0-michael-saylor-s-strategy-forecasts-20-9b-q3-digital-asset-gain-as-mstr-bitcoin-stack-hits-848-000-btc/
-· ETH Ethereum Logs Smallest Year-To-Date Loss Since January As Rally Runs On Thin Leverage (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-logs-smallest-date-loss-125431360.html
-· USDBRL Dólar cai mais de 4% e fica abaixo dos R$ 5 após 1º turno (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-mais-de-4-e-fica-abaixo-dos-r-5-apos-1o-turno/
-· BBDC4 Petrobras (PETR4), Bradesco (BBDC4) , privatizações e outros destaques desta segunda (5) (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-privatizacoes-e-outros-destaques-desta-segunda-5-ceci/
-· AVGO Here's What a $2,000 Investment in Broadcom Today Could Be Worth by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-2-000-investment-broadcom-124000225.html
-· NVDA Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-drops-4-elon-musk-123422328.html
-· (+23 manchetes; lista completa em eventos/noticias.json)
+· (+37 manchetes; lista completa em eventos/noticias.json)
