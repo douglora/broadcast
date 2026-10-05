@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 16h48
+NOTÍCIAS E FATOS · 05/10 18h27
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 447 veículo fora da lista, 57 sem ativo, 3 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 446 veículo fora da lista, 57 sem ativo, 9 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -51,7 +51,32 @@ Fonte: SEC EDGAR 2026-10-05
 id: E04-CVX-26000188-2026-10-05 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · JPM · É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencial de alta de até 20%
+Money Times · 05/10 14h46 · fonte única · licença: integral
+Do texto:
+  – A casa afirmou que a redução da incerteza política a levou a reavaliar os ativos brasileiros, o que motivou a elevação da recomendação de “neutro”.
+  – “Esse potencial de alta é melhor do que o que qualquer outro mercado da América Latina pode oferecer”, escreveram os estrategistas do JP Morgan em uma nota.
+  – O Ibovespa subia quase 8,52% no início da tarde desta segunda, colocando o principal índice acionário do maior país da América Latina a caminho de seu maior salto em um único dia desde o início da pandemia.
+  – A Petrobras (PETR4), gigante do setor de petróleo, subia 10%, enquanto o banco BTG Pactual (BPAC11) disparou 27,78%.
+  – A previsão surge um dia após o primeiro turno da eleição presidencial, que definiu um segundo turno no dia 25 de outubro entre o senador Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT).
+  – O JP previu que as ações brasileiras poderiam valorizar entre 12% e 20%.
+Link: https://www.moneytimes.com.br/jp-morgan-eleva-recomendacao-para-acoes-brasileiras-apos-1o-turno-e-ve-potencial-de-alta-de-ate-20-igdl/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: JPM
+Como falar: 'saiu no Money Times: É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencia…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 05/10 14h46
+id: E05-JPM-a0e6af6f8a-2026-10-05 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · USDBRL · Bolsa dispara e bate recorde com euforia após resultado das eleições; dólar despenca a R$ 5
+Folha de S.Paulo · 05/10 09h37 · fonte única · licença: manchete
+Link: https://www1.folha.uol.com.br/mercado/2026/10/dolar-despenca-para-abaixo-de-r-5-apos-flavio-bolsonaro-liderar-1o-turno-das-eleicoes.shtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no Folha de S.Paulo: Bolsa dispara e bate recorde com euforia após resultado das eleições; dólar despenca a R$…; confirmar o número no texto antes de repassar'
+Fonte: Folha de S.Paulo 05/10 09h37
+id: E05-USDBRL-e450114ecd-2026-10-05 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
 TradingView (Reuters) · 05/10 13h03 · fonte única · licença: manchete
@@ -191,8 +216,21 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (119)
+## OUTRAS NOTÍCIAS (só manchete) (132)
 
+· BBAS3 De Banco do Brasil (BBSA3) a Sabesp (SBSP3): Os cavalos que esta gestora de ricaços aposta para lucrar no 2º turno (Money Times) https://www.moneytimes.com.br/de-banco-do-brasil-bbsa3-a-sabesp-sbsp3-os-cavalos-que-esta-gestora-de-ricacos-aposta-para-lucrar-no-2o-turno-rnda/
+· INTC Intel: The Turnaround Is Real, But At $119 The Math Fails (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4952073-intel-the-turnaround-is-real-but-at-119-the-math-fails
+· USDBRL Ibovespa renova máxima histórica e dólar fecha em R$ 5 após 1º turno (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-hoje-5-outubro-2026/
+· USDBRL Ibovespa fecha nos 206 mil pontos e dólar tem maior queda em 8 anos após eleição (Exame) https://exame.com/invest/mercados/ibovespa-fecha-nos-206-mil-pontos-e-dolar-tem-maior-queda-em-8-anos-apos-eleicao/
+· PETR4 Petrobras (PETR4) ou Vale (VALE3): qual delas se dá melhor caso Flávio Bolsonaro vença o segundo turno (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/petrobras-petr4-ou-vale-vale3-qual-delas-se-da-melhor-caso-flavio-bolsonaro-venca-o-segundo-turno-ccgg/
+· USDBRL Dólar à vista fecha em baixa de 4,12%, a R$5,0022 na venda (UOL Economia) https://economia.uol.com.br/noticias/reuters/2026/10/05/dolar-a-vista-fecha-em-baixa-de-412-a-r50022-na-venda.htm
+· USDBRL Dólar cai R$ 5 e Bolsa sobe quase 8% após primeiro turno (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/05/fecha-dolar-bolsa-hoje-05-de-outubro-de-2026.ghtm
+· KLBN4 SUZB3, RANI3 ou KLBN11: Citi vê duas ações mais favorecidas em eventual governo Flávio Bolsonaro (Money Times) https://www.moneytimes.com.br/suzb3-rani3-ou-klbn11-citi-ve-duas-acoes-mais-favorecidas-em-eventual-governo-flavio-bolsonaro-pads/
+· GOOGL ALPHABET INC. (GOOG, GOOGL) INVESTOR ALERT: Investors With (GlobeNewswire) https://www.globenewswire.com/news-release/2026/10/05/3374953/0/en/alphabet-inc-goog-googl-investor-alert-investors-with-large-losses-in-alphabet-inc-should-contact-bernstein-liebhard-llp-to-discuss-their-rights.html
+· DI Com Selic a 14,5%, prefixados voltam ao radar dos investidores (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/com-selic-a-145-prefixados-voltam-ao-radar-dos-investidores/
+· AVGO Broadcom Has A New Problem: Anthropic (NASDAQ:AVGO) (Seeking Alpha) https://news.google.com/rss/articles/CBMigwFBVV95cUxOV0pEVWJCMVktd0stYUxOQXRZMzVESTFsZEhuUHZ5Q3NOSUJsRmRfb2NiUDRKS3hVRllUcnVjTDgtTnA2TWJCdUtXUDFmc0R6LTdCV1NVTmxIVXBxRWZmVGhVcmJUemM0VEhQRjR0bk0tVUhDTm1xeGItOS0ycV9aNU9xdw?oc=5
+· BTC Bitcoin Holds Above $85,000 As Treasury Drops Wallet Reporting Plan, CFTC Proposes Crypto Rules (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxNN1NCTVdfdmhnd1djUUJkOHh0eEdEMVF3LXQ0RE4zUWkyeWVWYVJZM3M5Um9CV1dqRXdEaC1XVTc2bXEyNTYzcW8wM2phUXhrZXZDNkpsS0xmZEJiTmx6RkFPTjEyNnZUeERhR3NqdFN0UXpkclJ5bnpKbHViYmtNWFM4R21xRWFBakVJZ0dKV3Y5eWhCeHc?oc=5
+· TSLA Rivian Deliveries Jump 46%, but Its Stock Falls as Tesla Stock Jumps (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxPRDIxTFNHSS13V2c1YTEtUGVES0h3dEQtcnVERFotZG4wcGl0N2hFMnk1Vlh2OWY2UDdCTnQwaVhVQ19ybEdZMjBPMTFuMS1Kb2Q2Zkt6UFU3d0phaHVqRURodnhuSnM1aVV4NExYeUpJYUJsY3hlVkVkSnJoZUxlQnBjRFRnVzN4YnRsLUhFREROTXcwQVY5UEZXSVI?oc=5
 · BBDC4 Petrobras, Cosan, Compass: as favoritas do Bradesco para um Governo Flávio (Brazil Journal) https://braziljournal.com/petrobras-cosan-compass-as-favoritas-do-bradesco-para-um-governo-flavio/
 · PLTR Using PLTY Instead Of Betting On Palantir In The Run-Up To Earnings (NYSEARCA:PLTY) (Seeking Alpha) https://seekingalpha.com/article/4952053-using-plty-instead-of-betting-on-palantir-in-the-run-up-to-earnings
 · SMAL11 Small caps e consumo superam Ibovespa no rali pós-eleição; entenda (Investing.com) https://br.investing.com/news/stock-market-news/small-caps-e-consumo-superam-ibovespa-no-rali-poseleicao-entenda-2083565
@@ -240,17 +278,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · BTC Bitcoin's New Bull Market: No More Boom And Bust (BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4952010-bitcoin-new-bull-market-no-more-boom-bust
 · UST US Equity Indexes Mixed as Treasury Yields Trade at Highest in Two Decades (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-161814234.html
 · MU 25 Analysts Say Buy Micron. Goldman Sachs Is the Lone Hold (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3fdac772a094b:0-25-analysts-say-buy-micron-goldman-sachs-is-the-lone-hold/
-· ETH BMNR Stock Gains Alongside Ethereum After Tom Lee's BitMine Makes One Of Its Smallest Ethereum Purchases Ever (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:d88cf8927094b:0-bmnr-stock-gains-alongside-ethereum-after-tom-lee-s-bitmine-makes-one-of-its-smallest-ethereum-purchases-ever/
-· PLTR Will Palantir Technologies (PLTR) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://ca.finance.yahoo.com/news/palantir-technologies-pltr-beat-estimates-151003144.html
-· GOOGL Will Alphabet (GOOG) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGQ4ajBQY2hJRnBHeFBrdFlQcWdNaTcxdWNWWmYxR2MwNUVYT3ZnaFVTMXE0QkNxck9zUk1UY05yUkxfeURtTk9hNzJkUDRTelFOM2JROWR1bUdzNm51N0RrRHhfYlhVY2NfZmItR243T3FLVEhOaHdHTzlQYW1KTkpCd3dQc0FHMTNv?oc=5
-· VALE3 Vale destoa do Ibovespa em dia de euforia pós-eleição; entenda o que pesa sobre VALE3 (InfoMoney) https://www.infomoney.com.br/mercados/vale3-hoje-analise-acoes-05-10-2026/
-· USDBRL Tempo real: Ibovespa dispara até 9% e bate marca inédita dos 200 mil pontos no 'day after' do 1º turno; dólar opera abaixo de R$ 5 (Money Times) https://www.moneytimes.com.br/tempo-real-5-10-26-apsa-lils/
-· KO Why Wall Street is choosing Coca-Cola stock over PepsiCo ahead of earnings (Yahoo Finance) https://finance.yahoo.com/video/why-wall-street-choosing-coca-152413148.html
-· NVDA Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher (Yahoo Finance) https://finance.yahoo.com/video/sozzi-talks-zscaler-ceo-ai-151212213.html
-· BTC Bitcoin price fails to break higher after best weekly close in eight months (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:4c9c56d9f094b:0-bitcoin-price-fails-to-break-higher-after-best-weekly-close-in-eight-months/
-· GFS GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (GFS:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4650204-globalfoundries-downgraded-by-bnp-paribas-as-firm-sees-growth-drivers-priced-in
-· NVDA NVIDIA Corporation (NVDA) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NVDA/
-· TSM Intel’s Terafab Opportunity Gets Crowded: Musk Confirms Talks With Taiwan Semiconductor (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:e04778321094b:0-intel-s-terafab-opportunity-gets-crowded-musk-confirms-talks-with-taiwan-semiconductor/
-· KO Can Coca-Cola's Balanced Growth Strategy Sustain Momentum? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiswFBVV95cUxPdXllNFBlSkRfeUxLaGtWa095YXNXaDBXMlZtNFdZQnBoQjVlb2k5RGdjNXo2RGE0V1dXSzdBUW5YcDRsYjRLMHBEbk9QTUFqMDB1blY4dmo1cGlQZUJEbTlPTXAtV1ZyaVloN0YyU2l0bGg1QVlndnFlVDRrbGZENEFiN2VkUnJQZUhxcVBJS2ZGSkJVNnR5ckdURHRKVF9QcnVEb2xVd2RBUmgtV0NSOV9lZw?oc=5
-· UST Treasury Market’s Pain Deepens With Bond Yields on Five-Week Surge (Barron's) https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUy0wZmdZUURYSkkwVFdURERRZUoxZFZKdGNyUTRxcHJfRXZpTmtvdmE0NDNucm50SElTbTVaY1pmcFJuQklBZ1dTSTdjamhwT2lzZjdrN29NQ05faG9hRFhudFp0ZFJYLVlVR1lpdnhielRHOXZNeExVN0NYWlhZOXFVZTVUMFh0SXNV?oc=5
-· (+59 manchetes; lista completa em eventos/noticias.json)
+· (+72 manchetes; lista completa em eventos/noticias.json)
