@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 08h34
+NOTÍCIAS E FATOS · 05/10 10h31
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 418 veículo fora da lista, 82 sem ativo, 63 teto) · cvm ok 3 novos de 7 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 439 veículo fora da lista, 70 sem ativo, 33 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -32,7 +32,35 @@ Fonte: CVM 02/10
 id: E03-BBDC4-78167c90-2026-10-02 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[ATENÇÃO] E04 · CVX · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
+SEC EDGAR · aceito 05/10 10h01 · 8-K
+Do documento:
+  – 0000093410 false 0000093410 2026-09-30 2026-09-30   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ☐   Item 5.02   Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+  – (b) On September 30, 2026, the Board of Directors (the “Board”) of Chevron Corporation (”Chevron”) approved certain officer elections.
+  – Bonner, currently Chevron’s Chief Financial Officer, will become President, Oil, Products & Gas, and will no longer serve as Chief Financial Officer, in each case, effective January 1, 2027.
+  – (c) On September 30, 2026, the Board elected Jeff B.
+  – Gustavson to the position of Chief Financial Officer of Chevron, effective January 1, 2027.
+Link: https://www.sec.gov/Archives/edgar/data/93410/000009341026000188/cvx-20260930.htm
+Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategia
+Ativos: CVX
+Como falar: 'a CVX protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
+Fonte: SEC EDGAR 2026-10-05
+id: E04-CVX-26000188-2026-10-05 · status: pendente · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (4)
+
+[ATENÇÃO] E05 · LITE · Stifel raises Lumentum stock price target on laser demand outlook
+Investing.com · 05/10 10h24 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/stifel-raises-lumentum-stock-price-target-on-laser-demand-outlook-93CH-4932162
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: LITE
+Como falar: 'saiu no Investing.com: Stifel raises Lumentum stock price target on laser demand outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 05/10 10h24
+id: E05-LITE-5601609c11-2026-10-05 · status: pendente
 
 [ATENÇÃO] E05 · AMD · AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem
 Yahoo Finance · 04/10 16h01 · fonte única · licença: resumo
@@ -48,7 +76,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: AMD
 Como falar: 'saiu no Yahoo Finance: AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 04/10 16h01
-id: E05-AMD-05c377a74d-2026-10-04 · status: pendente
+id: E05-AMD-05c377a74d-2026-10-04 · status: entregue
 
 [ATENÇÃO] E05 · USDBRL · Eleições podem levar o dólar de volta a R$ 4,86? Veja a projeção dos analistas e o que pode mudar a partir de hoje
 Money Times · 04/10 12h00 · fonte única · licença: integral
@@ -64,7 +92,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no Money Times: Eleições podem levar o dólar de volta a R$ 4,86? Veja a projeção dos analistas e o que po…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 04/10 12h00
-id: E05-USDBRL-67342e8800-2026-10-04 · status: pendente · íntegra disponível
+id: E05-USDBRL-67342e8800-2026-10-04 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BABA · 24 HOUR BABA INVESTOR DEADLINE: Alibaba Group Holding Limited Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit
 PR Newswire · 04/10 12h00 · fonte única · licença: integral
@@ -80,231 +108,26 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: BABA
 Como falar: 'saiu no PR Newswire: 24 HOUR BABA INVESTOR DEADLINE: Alibaba Group Holding Limited Investors with Substantial…; confirmar o número no texto antes de repassar'
 Fonte: PR Newswire 04/10 12h00
-id: E05-BABA-c5e17412c6-2026-10-04 · status: pendente · íntegra disponível
-
-[ATENÇÃO] E05 · GOOGL · GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026
-Business Wire · 02/10 18h11 · fonte única · licença: integral
-Link: https://www.businesswire.com/news/home/20261002784724/en/GOOGL-DEADLINE-ALERT-Faruqi-Faruqi-LLP-Reminds-Alphabet-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-November-30-2026
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: GOOGL
-Como falar: 'saiu no Business Wire: GOOGL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class…; confirmar o número no texto antes de repassar'
-Fonte: Business Wire 02/10 18h11
-id: E05-GOOGL-80c72ad4da-2026-10-02 · status: pendente
-
-[ATENÇÃO] E05 · NVDA · NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Play To Its ‘Strengths’
-TradingView (Reuters) · 02/10 09h49 · fonte única · licença: manchete
-Link: https://es.tradingview.com/news/stocktwits:1c8da335e094b:0-nvda-stock-hits-record-high-after-morgan-stanley-names-nvidia-top-pick-says-ai-trends-play-to-its-strengths/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no TradingView (Reuters): NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Pl…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 02/10 09h49
-id: E05-NVDA-39dd8efd39-2026-10-02 · status: pendente
-
-[ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
-Yahoo Finance · 02/10 15h52 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - On The Compound and Friends, Ritholtz Wealth Management's Josh Brown said NVIDIA could generate $360 billion in free cash flow next year, nearly four times its free cash flow in its last fiscal year.
-  – - Brown's $680 billion revenue figure is in line with Wall Street's consensus, and the main risk is that some of today's chip sales are being pulled forward from later years.
-  – - At about 19 times forward earnings, NVIDIA trades at roughly half its 10-year average of 37 times.
-  – 29 episode of The Compound and Friends, the Ritholtz Wealth Management CEO put a number on it: "Next year, it could be $360 billion in free cash flow on $680 billion in revenue." That's more than double the record $150…
-  – (TIKR ran the math on that buyback here.) His co-host Michael Batnick, Ritholtz's director of research, added that NVIDIA's operating earnings over the past 12 months are now above those of Apple (AAPL:NASDAQ): "It's le…
-  – These are not estimates." And yet the stock trades as if those earnings are about to shrink.
-Link: https://finance.yahoo.com/markets/stocks/articles/investor-makes-bold-prediction-nvidia-185249306.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Nex…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 15h52
-id: E05-NVDA-e2c7dd5a07-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
-Investing.com · 02/10 13h02 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/lumentum-holdings-inc-stock-hits-alltime-high-at-108575-usd-93CH-4864419
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: LITE
-Como falar: 'saiu no Investing.com: Lumentum Holdings Inc stock hits all-time high at 1085.75 USD; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 02/10 13h02
-id: E05-LITE-b75ff30ab5-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · MU · CLSA raises Micron stock price target on strong memory pricing outlook
-Investing.com · 02/10 06h43 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/clsa-raises-micron-stock-price-target-on-strong-memory-pricing-outlook-93CH-4929242
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: MU
-Como falar: 'saiu no Investing.com: CLSA raises Micron stock price target on strong memory pricing outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 02/10 06h43
-id: E05-MU-89e4333cec-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU)
-Seeking Alpha · 02/10 16h06 · fonte única · licença: manchete
-Link: https://seekingalpha.com/article/4951668-micron-the-50-billion-capex-misconception-why-the-memory-floor-is-rising
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MU
-Como falar: 'saiu no Seeking Alpha: Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising) (NASDAQ:MU); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 02/10 16h06
-id: E05-MU-c1e73932c4-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · AVGO · Broadcom Bets $102 Billion on Anthropic Chips
-Yahoo Finance · 02/10 15h35 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - Broadcom is reportedly raising $60 billion to fund chips for Anthropic, on top of a loan of up to $42 billion to lease Broadcom's chips.
-  – - $60 billion of new debt alone would nearly double the $66.5 billion of total debt Broadcom carried at the end of fiscal 2025.
-  – - Analysts expect revenue to rise from $63.9 billion in fiscal 2025 to $272 billion by fiscal 2028, and Anthropic's IPO, reportedly as early as mid-November, is the next thing to watch.
-  – Broadcom has started lining up $60 billion to finance chips for Anthropic, according to Bloomberg.
-  – That's on top of a loan of up to $42 billion that Broadcom would provide to Anthropic to lease its chips, a deal TIKR covered earlier.
-  – Put those two figures together, and you're looking at $102 billion.
-Link: https://finance.yahoo.com/technology/ai/articles/broadcom-bets-102-billion-anthropic-183557853.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: AVGO
-Como falar: 'saiu no Yahoo Finance: Broadcom Bets $102 Billion on Anthropic Chips; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 15h35
-id: E05-AVGO-6cbf4d3ba5-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · ITUB4 · Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro
-Money Times · 02/10 15h02 · fonte única · licença: integral
-Do texto:
-  – Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro O Itaú BBA realizou algumas mudanças na sua carteira recomendada de dividendos para outubro, composta atualmente por cinco ações.
-  – B3 (B3SA3) entrou nas indicações no lugar da Axia Energia (AXIA3), em uma troca que busca aproveitar uma possível recuperação da atividade no mercado de capitais a partir do quarto trimestre.
-  – Para 2027, a expectativa é de que as ações da B3 entreguem um dividend yield de aproximadamente 6%.
-  – A B3 é responsável pela principal infraestrutura do mercado de capitais brasileiro, com operações que incluem negociação, registro, compensação, liquidação e depósito centralizado de ativos, aponta o BBA.
-  – “Seu modelo de negócios combina receitas recorrentes de infraestrutura com exposição ao volume de negociação e à atividade de emissão e registro de instrumentos financeiros”, avaliam.
-  – A Carteira Dividendos do Itaú BBA registrou valorização de 4,3% em setembro, desempenho 0,7 ponto percentual (p.p.) abaixo do avanço do Ibovespa no período.
-Link: https://www.moneytimes.com.br/dividendos-de-ate-6-veja-a-nova-aposta-da-carteira-recomendada-do-itau-bba-em-outubro-ceci/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4
-Como falar: 'saiu no Money Times: Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú BBA em outubro; confirmar o número no texto antes de repassar'
-Fonte: Money Times 02/10 15h02
-id: E05-ITUB4-6ac9800b8c-2026-10-02 · status: entregue · íntegra disponível
-
-[ATENÇÃO] E05 · GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy
-Yahoo Finance · 02/10 12h20 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Right now, you can scoop up shares while they're off about 15%, which is normally a pretty good buying opportunity.
-  – In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia.
-  – For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia.
-  – For 2026, Alphabet projects data center capital expenditures between $195 billion and $205 billion.
-  – This is how the majority of people interact with AI right now, and it drives monetization of search results at a similar rate, which is why a mature platform like Google Search was able to grow its revenue at a respecta…
-  – Alphabet is seeing simply incredible demand and has a $514 billion backlog.
-Link: https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-down-15-time-152000382.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: GOOGL
-Como falar: 'saiu no Yahoo Finance: Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Time to Buy; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 12h20
-id: E05-GOOGL-9e4a9f55af-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesla Rises 2%
-Yahoo Finance · 02/10 10h30 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Quick Read -       Rivian delivered 19,248 vehicles in Q3, hitting its own target and reaffirming full-year guidance, sending RIVN shares up 2% to $15.
-  – -       Tesla's 0.8% gain mirrors the broader S&P 500 rise, while the flat EV ETF signals Rivian's in-line quarter sparked no sector-wide enthusiasm.
-  – -       Rivian's Q4 delivery pace now carries the full weight of validating annual targets, with earnings later this month revealing margins and cost progress.
-  – Shares of Rivian are at $15.31, up 4% in morning trading.
-  – Meanwhile, Tesla (NASDAQ:TSLA) stock is up 2% to $360.70, a smaller gain that keeps the larger electric vehicle maker moving in the same direction as Rivian.
-  – The Global X Autonomous & Electric Vehicles ETF (NASDAQ:DRIV) is practically unchanged at $33.06, a sign the reaction to Rivian's report is staying narrow.
-Link: https://finance.yahoo.com/markets/stocks/articles/rivian-jumps-4-delivering-19-133049040.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: TSLA
-Como falar: 'saiu no Yahoo Finance: Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Year Guidance; Tesl…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 10h30
-id: E05-TSLA-b18d9da36c-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan turbina preço-alvo para ação
-Seu Dinheiro · 01/10 17h29 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Em relatório, o JP Morgan manteve a recomendação overweight (equivalente à compra) elevou o preço-alvo das ações do IRB, de R$ 68 para R$ 80 até dezembro de 2027.
-  – A nova cifra implica um potencial de valorização de até 28,3% frente ao último fechamento.
-  – "Acreditamos que a medida altera estruturalmente o ambiente competitivo da indústria de resseguros”, dizem os analistas, que preveem que a mudança permita que o IRB recupere competitividade, amplie os negócios e gere ma…
-  – IRB Brasil (IRBR3): menos impostos, mais espaço para crescer A nova lei, aprovada nesta semana, prevê reduzir a alíquota da Contribuição Social sobre o Lucro Líquido (CSLL) das resseguradoras locais de 15% para 9% a par…
-  – O texto também estabelece a eliminação gradual de uma alíquota adicional de 10% do Imposto de Renda da Pessoa Jurídica (IRPJ), a partir de 2030, além de mudanças nas regras de utilização de ativos fiscais diferidos.
-  – O banco projeta que os prêmios emitidos — indicador que representa o volume de negócios contratados — cresçam 6% em 2027 e 8% em 2028.
-Link: https://www.seudinheiro.com/2026/empresas/irb-brasil-irbr3-mudanca-tributaria-abre-caminho-para-dividendos-generosos-jp-morgan-turbina-preco-alvo-para-acao-miql/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: JPM
-Como falar: 'saiu no Seu Dinheiro: IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos generosos; JP Morgan…; confirmar o número no texto antes de repassar'
-Fonte: Seu Dinheiro 01/10 17h29
-id: E05-JPM-b8e61470e6-2026-10-01 · status: entregue
-
-[ATENÇÃO] E05 · NVDA · Nvidia stock hits new all-time high, market cap at $5.7 trillion
-Yahoo Finance · 02/10 11h13 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Nvidia (NVDA) stock hit a new all-time intraday high on Friday, eclipsing its prior high of $235.54 a share.
-  – The stock reached $237.55 in early trading, after opening at $236.05.
-  – The company's intraday market cap hit $5.7 trillion.
-  – In its August Q2 earnings report, Nvidia topped Wall Street's already lofty expectations on both the top and bottom lines, reporting revenue of $96.2 billion, and offering a better-than-anticipated outlook for its third…
-  – The company said it expects sales of between $105.8 billion and $110.1 billion.
-  – 2022, with investors regularly questioning whether the market is in an AI bubble and, if so, when it will burst.
-Link: https://sg.finance.yahoo.com/news/nvidia-stock-hits-new-all-time-high-market-cap-at-57-trillion-141332917.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Nvidia stock hits new all-time high, market cap at $5.7 trillion; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 11h13
-id: E05-NVDA-5bdcc893d4-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · MU · Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spend…
-Yahoo Finance · 02/10 09h23 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Broadcom to Lend Anthropic $42 Billion for Infrastructure Spending (Corrects the fifth paragraph to indicate the federal court denied…
-Link: https://finance.yahoo.com/markets/stocks/articles/correction-top-midday-stories-micron-122322424.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: MU · AVGO
-Como falar: 'saiu no Yahoo Finance: Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings, Guidance; Bro…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 09h23
-id: E05-MU-218f49266c-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · ITUB4 · Mais de 8% em dividendos: BTG inclui B3 e reforça apostas em Itaú e Petrobras na carteira de outubro
-Estadao · 02/10 09h01 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/mais-de-8-em-dividendos-btg-inclui-b3-e-reforca-apostas-em-itau-e-petrobras/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: ITUB4 · PETR4
-Como falar: 'saiu no Estadao: Mais de 8% em dividendos: BTG inclui B3 e reforça apostas em Itaú e Petrobras na carteira…; confirmar o número no texto antes de repassar'
-Fonte: Estadao 02/10 09h01
-id: E05-ITUB4-9330fe2e6b-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · NVDA · Amazon Eyes $8 Billion Nvidia Chip Sale to Investors as AI Infrastructure Costs Surge: Report
-TradingView (Reuters) · 02/10 07h00 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/benzinga:730ed9746094b:0-amazon-eyes-8-billion-nvidia-chip-sale-to-investors-as-ai-infrastructure-costs-surge-report/
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA · AMZN
-Como falar: 'saiu no TradingView (Reuters): Amazon Eyes $8 Billion Nvidia Chip Sale to Investors as AI Infrastructure Costs Surge: Re…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 02/10 07h00
-id: E05-NVDA-344bd92766-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · GOOGL · Barclays upgrades USA Today stock rating on Google antitrust ruling
-Investing.com · 02/10 06h43 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/barclays-upgrades-usa-today-stock-rating-on-google-antitrust-ruling-93CH-4929200
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: GOOGL
-Como falar: 'saiu no Investing.com: Barclays upgrades USA Today stock rating on Google antitrust ruling; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 02/10 06h43
-id: E05-GOOGL-1ade8b2d4d-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · CVX · Chevron And 2 Other Top Oil And Gas Dividend Stocks
-Yahoo Finance · 02/10 05h09 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – The midstream stocks in this article are only a sample, and the full screen surfaced 77 more US pipeline and storage operators with equally compelling stories that are not covered below.
-  – Upstream in the US and overseas generated about US$52.6b and US$55.1b of revenue respectively, with US and international downstream contributing roughly US$82.5b and US$78.8b.
-  – The business has a market value of about US$400.6b.
-  – Enbridge generates most of its revenue from Liquids Pipelines at about CA$63.6b.
-  – Gas Distribution and Storage contribute roughly CA$11.2b, Gas Transmission around CA$6.8b, and Renewable Power Generation about CA$634m.
-  – The group carries a market value near CA$147.4b.
-Link: https://finance.yahoo.com/energy/articles/chevron-2-other-top-oil-080927283.html
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: CVX
-Como falar: 'saiu no Yahoo Finance: Chevron And 2 Other Top Oil And Gas Dividend Stocks; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 05h09
-id: E05-CVX-7e8df59096-2026-10-02 · status: entregue
-
-[ATENÇÃO] E05 · MU · Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For AI Agents
-TradingView (Reuters) · 02/10 04h11 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/stocktwits:94efec12f094b:0-stocktwits-ai-roundup-micron-s-blowout-quarter-nvidia-s-150b-buyback-and-the-race-for-ai-agents/
-Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
-Ativos: MU · NVDA
-Como falar: 'saiu no TradingView (Reuters): Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 02/10 04h11
-id: E05-MU-e02df72bfa-2026-10-02 · status: entregue
+id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (20)
+## OUTRAS NOTÍCIAS (só manchete) (30)
 
+· BTC Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:c7b2c44ac094b:0-bitcoin-price-stays-out-of-the-red-as-this-bear-market-breaks-a-historic-pattern/
+· BTC Michael Saylor’s Strategy Forecasts $20.9B Q3 Digital-Asset Gain As MSTR Bitcoin Stack Hits 848,000 BTC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7df95e390094b:0-michael-saylor-s-strategy-forecasts-20-9b-q3-digital-asset-gain-as-mstr-bitcoin-stack-hits-848-000-btc/
+· ETH Ethereum Logs Smallest Year-To-Date Loss Since January As Rally Runs On Thin Leverage (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-logs-smallest-date-loss-125431360.html
+· USDBRL Dólar cai mais de 4% e fica abaixo dos R$ 5 após 1º turno (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-mais-de-4-e-fica-abaixo-dos-r-5-apos-1o-turno/
+· BBDC4 Petrobras (PETR4), Bradesco (BBDC4) , privatizações e outros destaques desta segunda (5) (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-privatizacoes-e-outros-destaques-desta-segunda-5-ceci/
+· AVGO Here's What a $2,000 Investment in Broadcom Today Could Be Worth by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-2-000-investment-broadcom-124000225.html
+· NVDA Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-drops-4-elon-musk-123422328.html
+· PETR4 Bolsa hoje: Petrobras salta 9% em NY e Ibovespa futuro dispara 7% após 1º turno (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-mercado-reage-ao-1-turno-veja-dolar-juros-e-os-sinais-antes-da-abertura-da-bolsa/
+· PLTR The NHS could ditch Palantir. Is now the time to add it to my Stocks and Shares ISA? (Yahoo Finance) https://uk.finance.yahoo.com/news/nhs-could-ditch-palantir-now-122908419.html
+· USDBRL Dólar cai mais de 4% com avanço da extrema direita e aposta em responsabilidade fiscal (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/05/dolar-cai-mais-de-4-com-avanco-da-extrema-direita-e-aposta-em-responsabilidade-fiscal.htm
+· NVDA Cantor Fitzgerald reiterates Nvidia stock rating on growth outlook (Investing.com) https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-reiterates-nvidia-stock-rating-on-growth-outlook-93CH-4932006
+· BBDC4 Bradesco homologa aumento de capital de R$ 10 bilhões, após aprovação do BACEN (ADVFN) https://br.advfn.com/jornal/2026/10/bradesco-homologa-aumento-de-capital-de-r-10-bilhoes-apos-aprovacao-do-bacen
+· NVDA Nvidia Valuation Gets Surprising Take From Top Bank (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:247249e44094b:0-nvidia-valuation-gets-surprising-take-from-top-bank/
+· LITE Rosenblatt maintains Buy rating on Lumentum Holdings, $1300 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:f913d66f78a48:0-rosenblatt-maintains-buy-rating-on-lumentum-holdings-1300-price-target/
+· USDBRL Dólar cai quase 5% após 1º turno das eleições com Flávio Bolsonaro à frente da disputa (Estadao) https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1o5a1FDVU8wZnhpQ2s2NW9zQUhHdFlKa2stZ1pQZGVJVnFLVzNRNG4zUDlUWVplQ0d2dG1Ra2lzWml0MUotdmg1MWhaV3ZVOTN5SXNKYTh2Y1pwaDBCWGFtVks0cmpRZHNub1d5VHN6QURGLUlzZFVGTDlmT1paWkR5ZVhTajJrR21rejMwZEg3eHVtd3NGYTh0VDBvRXBEbk5ZczlCOGJyR3FldENwQmxrWGY3bkZlU2dhNDA4cjlySzlOejNhMjU4NEhHb1FMN2lWV2tkQlhLQ2_SAeABQVVfeXFMUHhkNV9uZS1IUFZ6ZDE3OUxuRU1KeHR3ZlZkM3NDSGNPY3gwbWRtc3JJX2hsdlZDaGswM1RYS1VHb090dmRFOEtXdVVOcWVJOVhsLTRMajNVLWQzUmJQRW5OQkVGeDNUcDRhZmNSSndtWlBFSzBoZjVMd1ZCRmN4eHAyaHpXa2ZlWEhnUmd2dEs1WTA2b0JMdXhpSWRjNjBHNWM1M0pDUnFWdFI1RWp1SGplaXhiRVFuT2tOSE01REdBRmRzVVMwbGp6ZTd5dTJPQklKakRJalJxYUwwb3NoWkc?oc=5
 · LITE Rosenblatt reiterates Lumentum stock Buy on FCC transceiver rules By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/rosenblatt-reiterates-lumentum-stock-buy-on-fcc-transceiver-rules-93CH-4865676
 · BBDC4 Bradesco (BBDC4) conclui leilão de sobras e homologa aumento de capital de R$ 10 bilhões (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-conclui-leilao-de-sobras-e-homologa-aumento-de-capital-de-r-10-bilhoes-lmrs/
 · BRENT OPEC, Allies Hold Oil Output Steady Amid Middle East Tensions (The Wall Street Journal) https://www.wsj.com/business/energy-oil/opec-allies-hold-oil-output-steady-amid-middle-east-tensions-f14767a2
@@ -320,8 +143,3 @@ id: E05-MU-e02df72bfa-2026-10-02 · status: entregue
 · BTC Metaplanet's 44,000 Bitcoin Bet Just Got a New 15% Rule (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNaEZteHVMeEx5a1Q4bGdJR1JiejFfaFlGZkhMbWJSQU1pWld2dnlCZW9PRmZ0WlBnZ3R4MmFxNVFqNEhLVWd2dnpNY3RBSlF5OWtOdDVydXVmQS1oQjJSTkloZVlyV3BFZjZwTVBMUWFCWk03YmdiSHRkUkhjbUQzbEVWRnZ0bGNpOXBWbDFac05JdWdCSVQ1bUZxZw?oc=5
 · USDBRL Euro cai ao menor valor em 17 meses frente ao dólar (Poder360) https://news.google.com/rss/articles/CBMimwFBVV95cUxQTTFwcWZvc3U5dGZBendiRUFxVUllcEVmYzdocjhndGFhbmdVWHd2TVNIQkt3Wkxobl9aNUgxWjJGaVBuUGR3WGZVeFk4UENDbTBsT21VRzh1c0o1OWVoYmhYSTZDb29NY01BVnhyR3ZNOWk4R2EwTU1UQUpRZzRmVG5XYjE1Y21RdFJFNUNiYWdRZWxrNzVSbVdXOA?oc=5
 · INTC Intel Stock Drops as Elon Musk Signals SpaceX, Tesla Setback for the Chip Maker (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxPRWdaazlPODkxRjNvR2VMdWlxbmMtNW1PWllVYjlLZXpNcW50UVJ5UlNFYmI3Nzd4MW1aN0pidWVWODR2UklXT0diSkx3RUtrOGp5MmdvTEhQT2Q0Z2tIY1FCdkNUcTY0ZnlCUC12U2pjOHBZVFZlM0VWQlhGd2hzNjJmOA?oc=5
-· MU Micron And MUU: The Structural Shift Thesis Is Strengthening (Seeking Alpha) https://seekingalpha.com/article/4951695-micron-and-muu-the-structural-shift-thesis-is-strengthening
-· EQTL3 PETROBRÁS VAI PERFURAR NOVOS POÇOS PARA DIMENSIONAR VOLUME DA DESCOBERTA NA MARGEM EQUATORIAL (Petronoticias) https://petronoticias.com.br/petrobras-vai-perfurar-novos-pocos-para-dimensionar-volume-da-descoberta-na-margem-equatorial/
-· MU Micron: It's Different This Time - Buy At 6x Earnings Before AI Agents Rerate It (MU) (Seeking Alpha) https://seekingalpha.com/article/4951674-micron-its-different-this-time-buy-at-6x-earnings-before-ai-agents-rerate-it
-· MU Micron Stocks Slip 1.4% as Record Revenue Meets Cycle Doubts (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-stocks-slip-1-4-192656106.html
-· CVX Chevron Corporation (CHV.DE) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/CHV.DE/
