@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 11h25
+NOTÍCIAS E FATOS · 05/10 12h22
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 433 veículo fora da lista, 62 sem ativo, 13 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 441 veículo fora da lista, 60 sem ativo, 14 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -51,7 +51,23 @@ Fonte: SEC EDGAR 2026-10-05
 id: E04-CVX-26000188-2026-10-05 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (6)
+
+[ATENÇÃO] E05 · BTC · Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferred Stock
+Yahoo Finance · 05/10 11h19 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferred Stock Strive bought 2,000 bitcoin last week, more than in any of its previous four weekly buys, and disclosed a facility to buy back up to $50…
+  – The Dallas-based company disclosed in a Form 8-K on Monday that it paid an average of about $84,422 a coin, including fees and expenses, for purchases made between Sept.
+  – Holdings rose to 29,462 BTC, from 27,462 a week earlier.
+  – "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to ₿29,462," CEO Matt Cole wrote on X.
+  – He said 61.5% of the capital raised came from SATA, the company's variable-rate perpetual preferred stock, and that warrant exercises brought in $56.7 million.
+  – The filing shows SATA shares outstanding up about 1.3 million on the week, to roughly 13.5 million.
+Link: https://finance.yahoo.com/markets/crypto/articles/strive-buys-2-000-bitcoin-141919345.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferred Stock; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 05/10 11h19
+id: E05-BTC-bc21df416b-2026-10-05 · status: pendente
 
 [ATENÇÃO] E05 · ITUB4 · Daycoval escala BB Seguridade (BBSE3), Itaú (ITUB4), Bradesco (BBDC4) e mais sete ações para carteira de dividendos de outubro
 Money Times · 05/10 11h19 · fonte única · licença: integral
@@ -63,7 +79,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: ITUB4 · BBDC4
 Como falar: 'saiu no Money Times: Daycoval escala BB Seguridade (BBSE3), Itaú (ITUB4), Bradesco (BBDC4) e mais sete ações p…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 05/10 11h19
-id: E05-ITUB4-352ac68f8a-2026-10-05 · status: pendente · íntegra disponível
+id: E05-ITUB4-352ac68f8a-2026-10-05 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · LITE · Stifel raises Lumentum stock price target on laser demand outlook
 Investing.com · 05/10 10h24 · fonte única · licença: manchete
@@ -123,8 +139,23 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (42)
+## OUTRAS NOTÍCIAS (só manchete) (57)
 
+· TESOURO Tesouro Direto atrasa abertura após 1º turno; mercado espera queda de juros (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-05102026/amp/
+· NVDA Nvidia Stock Chases Record High as Key Supplier’s Revenue Booms on AI Demand (Barron's) https://www.barrons.com/articles/nvidia-stock-price-record-foxconn-e1dcee95
+· BBAS3 Banco do Brasil (BBAS3) dispara 13% após resultado do 1º turno das eleições (InfoMoney) https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWFhTFRicTE2OG15VElGRGcxbFg2aGFyZGgzcDQxUUZtMGtWV0tnQVE4YndDVDhHQ1RrUV9YRHRNYnRBYVVIbUMtM1FvZUxrcFlVc0EteWk1c25yZElrQmFyMDQxZHNvTWZ2UFRrUVBIelpQXzZUYkNxNFROZDh6bHdFRWJXeEpUbVhCRGs2cWZoT3JwMU9ZVlVKaHh4QmJjcVE4Yml2MmFLTk11RTkyVtIBtgFBVV95cUxOM3htY3dRUzM1Z3lHMHo5NVBuQ2E0bU9abTNWWE9xZWE5LXRKdm53bnl3d2pkRWEyemVyY3d1YWlPVHlFM0dsN2Q5eFk1Qy1Xc1lhUElqV3Y5QmxWd2dZYjUtZUptUHdaR3RMOVBJWkh5UWpQNUpEZzlMR3Q0SzZNZTVvVERnTlRVSWR0QUNOcmJtb0hhempCakVza1Azcm9rZE55YloyVjMtak9Gd0dZTWNISmE5QQ?oc=5
+· MU Analysts Are Bullish on Micron, But Is the Stock Still a Buy? (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQcFY4Zmpsb2pRQlpmN2hQOUkwd2QyUFhKSjJwSF9Bd09STGZSc3NUcmttQkY2U0FycU1tdVVZRHBlaVVGUW5GbkwyNTZrQXFnMzFKSjJmZ29weThTQWwzZjg0UUFQQUJGUmQ2NE1HamJIUmhwdzNwdFA3MS1TdzhqQXJBZFpiSk1udDZ6RA?oc=5
+· INTC Why is Intel stock sliding today? (Investing.com) https://news.google.com/rss/articles/CBMimgFBVV95cUxQSUR2ZmNuRzZuNHo3VmhLTDljYUxLYVJ1aDhwS0Vfbm9uaXc2bkZYbWdPRW13d1EzR0RaeFZQWHdvYjlOWmU0RUxOVHgtY0cySDRtUmxjN0FnUFVLS0xUVlM5WHdfSkNCWlhKNTJJc2hKaldyYnRiMVRfS3dtTDhiS0RxamZWd21kNGlERFlDUWR5N1lmRVFlaXBn?oc=5
+· ITUB4 Itaú BBA troca três ações para enfrentar eleições em outubro; Petrobras tem potencial de alta de 30% (Money Times) https://www.moneytimes.com.br/itau-bba-troca-tres-acoes-para-enfrentar-eleicoes-em-outubro-petrobras-tem-potencial-de-alta-de-30/
+· ITUB4 Opções de Itaú, BB e Petrobras disparam após eleição; Vale cai até 57% (InfoMoney) https://www.infomoney.com.br/mercados/opcoes-itau-bb-petrobras-disparam-apos-eleicao-vale-cai/
+· USDBRL Ibovespa supera 200 mil pontos e dólar cai abaixo de R$5 com euforia do mercado após 1º turno (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45R0H2:0/
+· GOOGL Promevo Launches Insights by Promevo for a Total View of AI Agents, Gemini Enterprise Adoption, and Google Cloud Spend (PR Newswire) https://www.prnewswire.com/news-releases/promevo-launches-insights-by-promevo-for-a-total-view-of-ai-agents-gemini-enterprise-adoption-and-google-cloud-spend-302898038.html
+· MU Goldman Sachs Has a Stark Message for Micron Stock Investors (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fa8df0c74094b:0-goldman-sachs-has-a-stark-message-for-micron-stock-investors/
+· ETH Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-41m-more-ethereum-145417171.html
+· DI Mercado passa a ver corte de 0,50 ponto na Selic em dezembro com resultado do 1º turno da eleição presidencial (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/mercado-passa-a-ver-corte-de-05-ponto-na-selic-em-dezembro-aps-1-turno-das-eleies.ghtml
+· KO 1 Stat That Makes Coca-Cola Hard to Ignore in October (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/1-stat-makes-coca-cola-141400964.html
+· GFS GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:73ed77e60094b:0-globalfoundries-downgraded-by-bnp-paribas-as-firm-sees-growth-drivers-priced-in/
+· BBDC4 Alto Escalão: quem está chegando na Eldorado, novidade no Bradesco e outras movimentações (Estadao) https://www.estadao.com.br/economia/alto-escalao/alto-escalao-quem-esta-chegando-na-eldorado-e-outras-movimentacoes-nas-empresas/
 · USDBRL Dólar cai e opera abaixo de R$ 5 após primeiro turno das eleições (Suno Noticias) https://www.suno.com.br/noticias/dolar-recuo-abaixo-5-reais-pos-eleicao-go/
 · BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (Business Wire) https://www.businesswire.com/news/home/20261005928078/en/BABA-Investors-Have-Opportunity-to-Lead-Alibaba-Group-Holding-Limited-Securities-Fraud-Lawsuit-with-SBS-Law
 · INTC Intel Stock Drops as Elon Musk Signals Setback for the Chip Maker (Barron's) https://www.barrons.com/articles/intel-stock-musk-spacex-tesla-chips-313b87c6
