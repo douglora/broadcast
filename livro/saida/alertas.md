@@ -2,24 +2,21 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 USDBRL · Ouro cai com dólar forte e persistência das pressões inflacionárias
-· E05 USDBRL · Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno
-· E05 AMD · AMD Just Got a $700 Price Target as Wall Street Eyes Its Next AI Catalyst
-· E05 ITUB4 · Itaú Unibanco coloca 21 imóveis comerciais em leilão com lances a partir de R$ 95,6 mil
-· E05 BTC · The SEC Approves the First 3x Bitcoin and Ether Funds: Understanding the Risks Involved
-· E05 BBDC4 · Bradesco (BBDC4) confirma R$ 10 bilhões em capital; o que muda para quem tem ações?
-· E05 UST · Nasdaq Continues To Hit Record Highs As Tech Stocks Gain — Treasury Yields Stay Elevated
-· E05 GOOGL · Google Faces New Antitrust Threat in Key Market
-· E05 UGPA3 · Eleições 2026 - Resultado em Ipiranga de Goiás
-· E05 BTC · Bitcoin's large holders are back in profit, and small wallets never really left
-· E05 TSLA · Tesla deliveries top consensus, but energy storage deployments miss estimates
-· E05 UST · 10-year yield reversal tracks stronger cyclical payrolls, EPB says (US10Y:)
-· E05 AMZN · Amazon stock is trading at its lowest valuation ever as a public company, despite AI boom
-· E05 USDBRL · Dólar cai mais de 4% e opera abaixo de R$ 5 com Flávio à frente na disputa presidencial
+· E05 USDBRL · Dólar cai mais de 4% após 1º turno das eleições com Flávio Bolsonaro à frente da disputa
+· E05 BTC · Bitcoin Is Back at Its September High and Short Sellers Are Stacked Right Above It. What Happens If $88,000 Breaks?
+· E05 BTC · SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading
+· E05 BTC · Bitcoin charges into October: $87K tested, $95K beckons
+· E05 TSLA · SA Asks: What was the biggest takeaway from Tesla's Q3 report? (Update) (TSLA:NASDAQ)
+· E05 PETR4 · PETR4 salta 9%, bate máxima histórica e mira novos níveis no gráfico
+· E05 TSM · Why TSMC’s Talks with Elon Musk Are a Direct Threat to Intel’s Chip Ambitions
+· E05 USDBRL · Ibovespa supera 200 mil pontos e dólar cai abaixo de R$5 com euforia do mercado após 1º turno
+· E05 COHR · Coherent Corp. (COHR) stock price, news, quote and history
+· E05 UST · Treasury yields rise to start the week; traders look ahead to Fed minutes
+· E05 NVDA · Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says
 
 
 Alertas do dia (todos, com status):
-· entregue  F01 USDBRL — Real sobe: USD/BRL 4,9911 (-4,3% no dia · -4,5% em 5 sessões · 6 dias seguidos d
+· entregue  F01 USDBRL — Real sobe: USD/BRL 4,9989 (-4,2% no dia · -4,3% em 5 sessões · 7 dias seguidos d
 · entregue  E05 BTC — BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
 · entregue  E05 NVDA — NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA
 · entregue  E05 USDBRL — USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e F
@@ -32,4 +29,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 USDBRL — USDBRL · Eleições podem levar o dólar de volta a R$ 4,86? Veja a projeção dos an
 · entregue  E05 BABA — BABA · 24 HOUR BABA INVESTOR DEADLINE: Alibaba Group Holding Limited Investors w
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
-· (+102 notícias só manchete, em noticias.md)
+· (+113 notícias só manchete, em noticias.md)

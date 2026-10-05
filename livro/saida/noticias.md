@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 15h22
+NOTÍCIAS E FATOS · 05/10 16h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 441 veículo fora da lista, 54 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 451 veículo fora da lista, 54 sem ativo, 4 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -191,8 +191,19 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (97)
+## OUTRAS NOTÍCIAS (só manchete) (108)
 
+· USDBRL Dólar cai mais de 4% após 1º turno das eleições com Flávio Bolsonaro à frente da disputa (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-cai-quase-5-apos-1-turno-das-eleicoes-com-flavio-bolsonaro-a-frente-da-disputa/
+· BTC Bitcoin Is Back at Its September High and Short Sellers Are Stacked Right Above It. What Happens If $88,000 Breaks? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-back-september-high-short-183750330.html
+· BTC SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/sec-clears-3x-leveraged-bitcoin-181228022.html
+· BTC Bitcoin charges into October: $87K tested, $95K beckons (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:cd846e2d9094b:0-bitcoin-charges-into-october-87k-tested-95k-beckons/
+· TSLA SA Asks: What was the biggest takeaway from Tesla's Q3 report? (Update) (TSLA:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4650043-sa-asks-what-was-the-biggest-takeaway-from-teslas-q3-deliveries-report
+· PETR4 PETR4 salta 9%, bate máxima histórica e mira novos níveis no gráfico (InfoMoney) https://www.infomoney.com.br/mercados/petrobras-petr4-dispara-recorde-alvos-tecnicos/
+· TSM Why TSMC’s Talks with Elon Musk Are a Direct Threat to Intel’s Chip Ambitions (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:5105e9839094b:0-why-tsmc-s-talks-with-elon-musk-are-a-direct-threat-to-intel-s-chip-ambitions/
+· USDBRL Ibovespa supera 200 mil pontos e dólar cai abaixo de R$5 com euforia do mercado após 1º turno (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/05/ibovespa-supera-200-mil-pontos-e-dolar-cai-abaixo-de-r5-com-euforia-do-mercado-apos-1-turno.htm
+· COHR Coherent Corp. (COHR) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/COHR/
+· UST Treasury yields rise to start the week; traders look ahead to Fed minutes (CNBC) https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html
+· NVDA Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-valuations-show-ai-rally-070429645.html
 · USDBRL Ouro cai com dólar forte e persistência das pressões inflacionárias (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/ouro-cai-com-dolar-forte-e-persistencia-das-pressoes-inflacionarias.ghtml
 · USDBRL Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno (BBC) https://www.bbc.com/portuguese/articles/c933xvxj7dryo
 · AMD AMD Just Got a $700 Price Target as Wall Street Eyes Its Next AI Catalyst (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0b1fd207f094b:0-amd-just-got-a-700-price-target-as-wall-street-eyes-its-next-ai-catalyst/
@@ -242,15 +253,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · ITUB4 Opções de Itaú, BB e Petrobras disparam após eleição; Vale cai até 57% (InfoMoney) https://www.infomoney.com.br/mercados/opcoes-itau-bb-petrobras-disparam-apos-eleicao-vale-cai/
 · USDBRL Ibovespa supera 200 mil pontos e dólar cai abaixo de R$5 com euforia do mercado após 1º turno (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45R0H2:0/
 · GOOGL Promevo Launches Insights by Promevo for a Total View of AI Agents, Gemini Enterprise Adoption, and Google Cloud Spend (PR Newswire) https://www.prnewswire.com/news-releases/promevo-launches-insights-by-promevo-for-a-total-view-of-ai-agents-gemini-enterprise-adoption-and-google-cloud-spend-302898038.html
-· MU Goldman Sachs Has a Stark Message for Micron Stock Investors (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:fa8df0c74094b:0-goldman-sachs-has-a-stark-message-for-micron-stock-investors/
-· ETH Bitmine Buys $41M More Ethereum, Reaching 99% of Its 'Alchemy of 5%' Target (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-buys-41m-more-ethereum-145417171.html
-· DI Mercado passa a ver corte de 0,50 ponto na Selic em dezembro com resultado do 1º turno da eleição presidencial (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/mercado-passa-a-ver-corte-de-05-ponto-na-selic-em-dezembro-aps-1-turno-das-eleies.ghtml
-· KO 1 Stat That Makes Coca-Cola Hard to Ignore in October (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/1-stat-makes-coca-cola-141400964.html
-· GFS GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:73ed77e60094b:0-globalfoundries-downgraded-by-bnp-paribas-as-firm-sees-growth-drivers-priced-in/
-· BBDC4 Alto Escalão: quem está chegando na Eldorado, novidade no Bradesco e outras movimentações (Estadao) https://www.estadao.com.br/economia/alto-escalao/alto-escalao-quem-esta-chegando-na-eldorado-e-outras-movimentacoes-nas-empresas/
-· USDBRL Dólar cai e opera abaixo de R$ 5 após primeiro turno das eleições (Suno Noticias) https://www.suno.com.br/noticias/dolar-recuo-abaixo-5-reais-pos-eleicao-go/
-· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (Business Wire) https://www.businesswire.com/news/home/20261005928078/en/BABA-Investors-Have-Opportunity-to-Lead-Alibaba-Group-Holding-Limited-Securities-Fraud-Lawsuit-with-SBS-Law
-· INTC Intel Stock Drops as Elon Musk Signals Setback for the Chip Maker (Barron's) https://www.barrons.com/articles/intel-stock-musk-spacex-tesla-chips-313b87c6
-· BBAS3 Banco do Brasil (BBAS3) dispara 13% após resultado do 1º turno das eleições (InfoMoney) https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-dispara-13-apos-resultado-do-1o-turno-das-eleicoes/
-· CVX Chevron: New All-Time Highs In Sight As Oil Surges (NYSE:CVX) (Seeking Alpha) https://seekingalpha.com/article/4951925-chevron-stock-new-all-time-highs-sight-oil-surges
-· (+37 manchetes; lista completa em eventos/noticias.json)
+· (+48 manchetes; lista completa em eventos/noticias.json)
