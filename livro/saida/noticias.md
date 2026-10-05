@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 13h21
+NOTÍCIAS E FATOS · 05/10 14h21
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 443 veículo fora da lista, 58 sem ativo, 10 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 415 veículo fora da lista, 51 sem ativo, 13 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -51,7 +51,16 @@ Fonte: SEC EDGAR 2026-10-05
 id: E04-CVX-26000188-2026-10-05 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
+TradingView (Reuters) · 05/10 13h03 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:f29a3cad2094b:0-global-x-bitcoin-covered-call-etf-declares-0-0779-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Global X Bitcoin Covered Call ETF declares $0.0779 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 05/10 13h03
+id: E05-BTC-05e5f73620-2026-10-05 · status: pendente
 
 [ATENÇÃO] E05 · NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ)
 Seeking Alpha · 05/10 12h22 · fonte única · licença: manchete
@@ -60,7 +69,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: NVDA · INTC
 Como falar: 'saiu no Seeking Alpha: BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 05/10 12h22
-id: E05-NVDA-4f8cad10a8-2026-10-05 · status: pendente
+id: E05-NVDA-4f8cad10a8-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e Flávio no 2º turno; dólar cai abaixo de R$ 4,95
 g1 · 05/10 09h00 · + O Globo · licença: resumo
@@ -76,7 +85,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no g1: Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e Flávio no 2º turno;…; confirmar o número no texto antes de repassar'
 Fonte: g1 05/10 09h00
-id: E05-USDBRL-1eaca332d5-2026-10-05 · status: pendente
+id: E05-USDBRL-1eaca332d5-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
 Estadao · 04/10 21h37 · fonte única · licença: manchete
@@ -85,7 +94,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: VALE3
 Como falar: 'saiu no Estadao: Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão; confirmar o número no texto antes de repassar'
 Fonte: Estadao 04/10 21h37
-id: E05-VALE3-5503d688e9-2026-10-05 · status: pendente
+id: E05-VALE3-5503d688e9-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
 Estadao · 04/10 14h21 · fonte única · licença: manchete
@@ -182,8 +191,22 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (69)
+## OUTRAS NOTÍCIAS (só manchete) (83)
 
+· TSLA Tesla’s Q3 Deliveries Beat UBS’ Estimates — But Energy Storage Miss Keeps This Analyst Neutral (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-deliveries-beat-ubs-170331462.html
+· NVDA Nvidia Is 'Tip Of The Spear' For AI Trade, Says Dan Niles — Warns 'At A Certain Point Either The Bond Market's Wrong Or Stock Market Is Wrong' (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:35fa550bf094b:0-nvidia-is-tip-of-the-spear-for-ai-trade-says-dan-niles-warns-at-a-certain-point-either-the-bond-market-s-wrong-or-stock-market-is-wrong/
+· BTC Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017 (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:c1199c909094b:0-treasury-yields-at-5-threaten-extending-bitcoin-s-best-quarter-since-2017/
+· ITUB4 ITUB4 passa de R$ 50 pela 1ª vez; até onde ação do Itaú pode subir? (InfoMoney) https://www.infomoney.com.br/mercados/itau-itub4-dispara-recorde-50-reais-ate-onde-pode-subir/
+· GOOGL Google Cloud Announcing Google Cloud Modernize - Blog (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45R16C:0-google-cloud-announcing-google-cloud-modernize-blog/
+· BBAS3 Trade eleitoral: Por que o BTG (BPAC11) salta 27%, o dobro do Banco do Brasil (BBSA3) (Money Times) https://www.moneytimes.com.br/trade-eleitoral-por-que-o-btg-bpac11-salta-27-o-dobro-do-banco-do-brasil-bbsa3/
+· BBDC4 Bradesco homologa aumento de capital de R$ 10 bilhões (Poder360) https://www.poder360.com.br/poder-economia/bradesco-homologa-aumento-de-capital-de-r-10-bilhoes/
+· BBDC4 Bradesco (BBDC4) dispara 14% e supera Ibovespa; entenda a alta (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-dispara-juros-eleicao/
+· BTC Bitcoin's New Bull Market: No More Boom And Bust (BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4952010-bitcoin-new-bull-market-no-more-boom-bust
+· UST US Equity Indexes Mixed as Treasury Yields Trade at Highest in Two Decades (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-161814234.html
+· MU 25 Analysts Say Buy Micron. Goldman Sachs Is the Lone Hold (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3fdac772a094b:0-25-analysts-say-buy-micron-goldman-sachs-is-the-lone-hold/
+· ETH BMNR Stock Gains Alongside Ethereum After Tom Lee's BitMine Makes One Of Its Smallest Ethereum Purchases Ever (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:d88cf8927094b:0-bmnr-stock-gains-alongside-ethereum-after-tom-lee-s-bitmine-makes-one-of-its-smallest-ethereum-purchases-ever/
+· PLTR Will Palantir Technologies (PLTR) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://ca.finance.yahoo.com/news/palantir-technologies-pltr-beat-estimates-151003144.html
+· GOOGL Will Alphabet (GOOG) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGQ4ajBQY2hJRnBHeFBrdFlQcWdNaTcxdWNWWmYxR2MwNUVYT3ZnaFVTMXE0QkNxck9zUk1UY05yUkxfeURtTk9hNzJkUDRTelFOM2JROWR1bUdzNm51N0RrRHhfYlhVY2NfZmItR243T3FLVEhOaHdHTzlQYW1KTkpCd3dQc0FHMTNv?oc=5
 · VALE3 Vale destoa do Ibovespa em dia de euforia pós-eleição; entenda o que pesa sobre VALE3 (InfoMoney) https://www.infomoney.com.br/mercados/vale3-hoje-analise-acoes-05-10-2026/
 · USDBRL Tempo real: Ibovespa dispara até 9% e bate marca inédita dos 200 mil pontos no 'day after' do 1º turno; dólar opera abaixo de R$ 5 (Money Times) https://www.moneytimes.com.br/tempo-real-5-10-26-apsa-lils/
 · KO Why Wall Street is choosing Coca-Cola stock over PepsiCo ahead of earnings (Yahoo Finance) https://finance.yahoo.com/video/why-wall-street-choosing-coca-152413148.html
@@ -230,18 +253,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · BBDC4 Petrobras (PETR4), Bradesco (BBDC4) , privatizações e outros destaques desta segunda (5) (Money Times) https://www.moneytimes.com.br/petrobras-petr4-bradesco-bbdc4-privatizacoes-e-outros-destaques-desta-segunda-5-ceci/
 · AVGO Here's What a $2,000 Investment in Broadcom Today Could Be Worth by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-2-000-investment-broadcom-124000225.html
 · NVDA Intel Drops 4% as Elon Musk Signals Taiwan Semiconductor Could Join Terafab; AMD Slips, NVIDIA Holds Steady (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-drops-4-elon-musk-123422328.html
-· PETR4 Bolsa hoje: Petrobras salta 9% em NY e Ibovespa futuro dispara 7% após 1º turno (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-mercado-reage-ao-1-turno-veja-dolar-juros-e-os-sinais-antes-da-abertura-da-bolsa/
-· PLTR The NHS could ditch Palantir. Is now the time to add it to my Stocks and Shares ISA? (Yahoo Finance) https://uk.finance.yahoo.com/news/nhs-could-ditch-palantir-now-122908419.html
-· USDBRL Dólar cai mais de 4% com avanço da extrema direita e aposta em responsabilidade fiscal (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/05/dolar-cai-mais-de-4-com-avanco-da-extrema-direita-e-aposta-em-responsabilidade-fiscal.htm
-· NVDA Cantor Fitzgerald reiterates Nvidia stock rating on growth outlook (Investing.com) https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-reiterates-nvidia-stock-rating-on-growth-outlook-93CH-4932006
-· BBDC4 Bradesco homologa aumento de capital de R$ 10 bilhões, após aprovação do BACEN (ADVFN) https://br.advfn.com/jornal/2026/10/bradesco-homologa-aumento-de-capital-de-r-10-bilhoes-apos-aprovacao-do-bacen
-· NVDA Nvidia Valuation Gets Surprising Take From Top Bank (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:247249e44094b:0-nvidia-valuation-gets-surprising-take-from-top-bank/
-· LITE Rosenblatt maintains Buy rating on Lumentum Holdings, $1300 price target (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:f913d66f78a48:0-rosenblatt-maintains-buy-rating-on-lumentum-holdings-1300-price-target/
-· USDBRL Dólar cai quase 5% após 1º turno das eleições com Flávio Bolsonaro à frente da disputa (Estadao) https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1o5a1FDVU8wZnhpQ2s2NW9zQUhHdFlKa2stZ1pQZGVJVnFLVzNRNG4zUDlUWVplQ0d2dG1Ra2lzWml0MUotdmg1MWhaV3ZVOTN5SXNKYTh2Y1pwaDBCWGFtVks0cmpRZHNub1d5VHN6QURGLUlzZFVGTDlmT1paWkR5ZVhTajJrR21rejMwZEg3eHVtd3NGYTh0VDBvRXBEbk5ZczlCOGJyR3FldENwQmxrWGY3bkZlU2dhNDA4cjlySzlOejNhMjU4NEhHb1FMN2lWV2tkQlhLQ2_SAeABQVVfeXFMUHhkNV9uZS1IUFZ6ZDE3OUxuRU1KeHR3ZlZkM3NDSGNPY3gwbWRtc3JJX2hsdlZDaGswM1RYS1VHb090dmRFOEtXdVVOcWVJOVhsLTRMajNVLWQzUmJQRW5OQkVGeDNUcDRhZmNSSndtWlBFSzBoZjVMd1ZCRmN4eHAyaHpXa2ZlWEhnUmd2dEs1WTA2b0JMdXhpSWRjNjBHNWM1M0pDUnFWdFI1RWp1SGplaXhiRVFuT2tOSE01REdBRmRzVVMwbGp6ZTd5dTJPQklKakRJalJxYUwwb3NoWkc?oc=5
-· LITE Rosenblatt reiterates Lumentum stock Buy on FCC transceiver rules By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/rosenblatt-reiterates-lumentum-stock-buy-on-fcc-transceiver-rules-93CH-4865676
-· BBDC4 Bradesco (BBDC4) conclui leilão de sobras e homologa aumento de capital de R$ 10 bilhões (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-conclui-leilao-de-sobras-e-homologa-aumento-de-capital-de-r-10-bilhoes-lmrs/
-· BRENT OPEC, Allies Hold Oil Output Steady Amid Middle East Tensions (The Wall Street Journal) https://www.wsj.com/business/energy-oil/opec-allies-hold-oil-output-steady-amid-middle-east-tensions-f14767a2
-· USDBRL Dólar e Bolsa hoje: mercados reagem ao resultado do primeiro turno das eleições 2026 (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/10/05/dolar-e-bolsa-hoje-mercados-reagem-ao-resultado-do-primeiro-turno-das-eleicoes-2026.ghtml
-· GOOGL Polish antitrust watchdog reportedly probes Google over media publisher payments (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:033efad5e094b:0-polish-antitrust-watchdog-reportedly-probes-google-over-media-publisher-payments/
-· BTC Strategy's $6 Billion Bitcoin Safety Net (NASDAQ:MSTR) (Seeking Alpha) https://seekingalpha.com/article/4951941-strategys-6-billion-bitcoin-safety-net
-· (+9 manchetes; lista completa em eventos/noticias.json)
+· (+23 manchetes; lista completa em eventos/noticias.json)

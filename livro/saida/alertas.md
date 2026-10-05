@@ -1,62 +1,38 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ)
-Seeking Alpha · 05/10 12h22 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4650242-bnp-paribas-raises-nvidia-intel-price-targets-on-ai-demand-outlook
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA · INTC
-Como falar: 'saiu no Seeking Alpha: BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 05/10 12h22
-Push: intradia: 3 alertas de atenção — E05 NVDA, E05 USDBRL, E05 VALE3 · detalhe na sessão
-ids: E05-NVDA-4f8cad10a8-2026-10-05
-
-[ATENÇÃO] E05 · USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e Flávio no 2º turno; dólar cai abaixo de R$ 4,95
-g1 · 05/10 09h00 · + O Globo · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – O Ibovespa, principal índice da bolsa brasileira, opera em forte alta nesta segunda-feira (5).
-  – Perto das 12h, o índice subia 8,22%, aos 207.910 pontos.
-  – Mais cedo, o índice superou pela primeira vez a marca dos 209 mil pontos.
-  – O último recorde do índice havia sido em 14 de abril, quando fechou aos 198 mil pontos.
-  – O Ibovespa funciona como uma espécie de termômetro do mercado de ações brasileiro, refletindo o desempenho de algumas das principais empresas negociadas na B3.
-  – O impacto da disputa eleitoral também aparece no dólar, que marcava queda de 4,43% no mesmo horário, cotado a R$ 4,9850.
-Link: https://g1.globo.com/economia/noticia/2026/10/05/dolar-ibovespa.ghtml
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no g1: Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e Flávio no 2º turno;…; confirmar o número no texto antes de repassar'
-Fonte: g1 05/10 09h00
-ids: E05-USDBRL-1eaca332d5-2026-10-05
-
-[ATENÇÃO] E05 · VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
-Estadao · 04/10 21h37 · fonte única · licença: manchete
-Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/vale-ubs-corta-preco-alvo-em-r-8-e-aponta-dois-motivos-para-a-revisao/
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: VALE3
-Como falar: 'saiu no Estadao: Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão; confirmar o número no texto antes de repassar'
-Fonte: Estadao 04/10 21h37
-ids: E05-VALE3-5503d688e9-2026-10-05
+[ATENÇÃO] E05 · BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
+TradingView (Reuters) · 05/10 13h03 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/seekingalpha:f29a3cad2094b:0-global-x-bitcoin-covered-call-etf-declares-0-0779-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Global X Bitcoin Covered Call ETF declares $0.0779 dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 05/10 13h03
+Push: [ATENÇÃO] BTC · Global X Bitcoin Covered Call ETF declares $0.0779 div · detalhe na sessão
+ids: E05-BTC-05e5f73620-2026-10-05
 
 Info (só linha no Fechamento):
-· E05 VALE3 · Vale destoa do Ibovespa em dia de euforia pós-eleição; entenda o que pesa sobre VALE3
-· E05 USDBRL · Tempo real: Ibovespa dispara até 9% e bate marca inédita dos 200 mil pontos no 'day after' do 1º turno; dólar opera abaixo de R$ 5
-· E05 KO · Why Wall Street is choosing Coca-Cola stock over PepsiCo ahead of earnings
-· E05 NVDA · Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher
-· E05 BTC · Bitcoin price fails to break higher after best weekly close in eight months
-· E05 GFS · GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (GFS:NASDAQ)
-· E05 NVDA · NVIDIA Corporation (NVDA) Stock Price, News, Quote & History
-· E05 TSM · Intel’s Terafab Opportunity Gets Crowded: Musk Confirms Talks With Taiwan Semiconductor
-· E05 KO · Can Coca-Cola's Balanced Growth Strategy Sustain Momentum?
-· E05 UST · Treasury Market’s Pain Deepens With Bond Yields on Five-Week Surge
-· E05 USDBRL · Ibovespa bate 200 mil pontos e dólar cai para menos de R$ 5, com euforia após resultado das eleições
-· E05 USDBRL · Dólar despenca para abaixo dos R$5 em meio a euforia com resultado do 1ºturno eleitoral
-· E05 BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
+· E05 TSLA · Tesla’s Q3 Deliveries Beat UBS’ Estimates — But Energy Storage Miss Keeps This Analyst Neutral
+· E05 NVDA · Nvidia Is 'Tip Of The Spear' For AI Trade, Says Dan Niles — Warns 'At A Certain Point Either The Bond Market's Wrong Or Stock Market Is Wrong'
+· E05 BTC · Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017
+· E05 ITUB4 · ITUB4 passa de R$ 50 pela 1ª vez; até onde ação do Itaú pode subir?
+· E05 GOOGL · Google Cloud Announcing Google Cloud Modernize - Blog
+· E05 BBAS3 · Trade eleitoral: Por que o BTG (BPAC11) salta 27%, o dobro do Banco do Brasil (BBSA3)
+· E05 BBDC4 · Bradesco homologa aumento de capital de R$ 10 bilhões
+· E05 BBDC4 · Bradesco (BBDC4) dispara 14% e supera Ibovespa; entenda a alta
+· E05 BTC · Bitcoin's New Bull Market: No More Boom And Bust (BTC-USD)
+· E05 UST · US Equity Indexes Mixed as Treasury Yields Trade at Highest in Two Decades
+· E05 MU · 25 Analysts Say Buy Micron. Goldman Sachs Is the Lone Hold
+· E05 ETH · BMNR Stock Gains Alongside Ethereum After Tom Lee's BitMine Makes One Of Its Smallest Ethereum Purchases Ever
+· E05 PLTR · Will Palantir Technologies (PLTR) Beat Estimates Again in Its Next Earnings Report?
+· E05 GOOGL · Will Alphabet (GOOG) Beat Estimates Again in Its Next Earnings Report?
 
-Suprimidos pelo teto (viram linha do Fechamento): E05-BBDC4-d039ed1696-2026-10-04 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· entregue  F01 USDBRL — Real sobe: USD/BRL 4,9865 (-4,4% no dia · -4,6% em 5 sessões · 4 dias seguidos d
-· pendente  E05 NVDA — NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA
-· pendente  E05 USDBRL — USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e F
-· pendente  E05 VALE3 — VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
+· entregue  F01 USDBRL — Real sobe: USD/BRL 4,9940 (-4,3% no dia · -4,4% em 5 sessões · 5 dias seguidos d
+· pendente  E05 BTC — BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
+· entregue  E05 NVDA — NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA
+· entregue  E05 USDBRL — USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e F
+· entregue  E05 VALE3 — VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
 · entregue  E05 BTC — BTC · Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferr
 · entregue  E05 ITUB4 — ITUB4 · Daycoval escala BB Seguridade (BBSE3), Itaú (ITUB4), Bradesco (BBDC4) e 
 · entregue  E04 CVX — CVX · 8-K: 5.02 entrada ou saida de diretor ou conselheiro
@@ -65,4 +41,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 USDBRL — USDBRL · Eleições podem levar o dólar de volta a R$ 4,86? Veja a projeção dos an
 · entregue  E05 BABA — BABA · 24 HOUR BABA INVESTOR DEADLINE: Alibaba Group Holding Limited Investors w
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
-· (+74 notícias só manchete, em noticias.md)
+· (+88 notícias só manchete, em noticias.md)
