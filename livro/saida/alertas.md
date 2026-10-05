@@ -2,21 +2,21 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· E05 USDBRL · Dólar cai mais de 4% após 1º turno das eleições com Flávio Bolsonaro à frente da disputa
-· E05 BTC · Bitcoin Is Back at Its September High and Short Sellers Are Stacked Right Above It. What Happens If $88,000 Breaks?
-· E05 BTC · SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading
-· E05 BTC · Bitcoin charges into October: $87K tested, $95K beckons
-· E05 TSLA · SA Asks: What was the biggest takeaway from Tesla's Q3 report? (Update) (TSLA:NASDAQ)
-· E05 PETR4 · PETR4 salta 9%, bate máxima histórica e mira novos níveis no gráfico
-· E05 TSM · Why TSMC’s Talks with Elon Musk Are a Direct Threat to Intel’s Chip Ambitions
-· E05 USDBRL · Ibovespa supera 200 mil pontos e dólar cai abaixo de R$5 com euforia do mercado após 1º turno
-· E05 COHR · Coherent Corp. (COHR) stock price, news, quote and history
-· E05 UST · Treasury yields rise to start the week; traders look ahead to Fed minutes
-· E05 NVDA · Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says
+· E05 BBDC4 · Petrobras, Cosan, Compass: as favoritas do Bradesco para um Governo Flávio
+· E05 PLTR · Using PLTY Instead Of Betting On Palantir In The Run-Up To Earnings (NYSEARCA:PLTY)
+· E05 SMAL11 · Small caps e consumo superam Ibovespa no rali pós-eleição; entenda
+· E05 PETR4 · BBI troca distribuidoras por Cosan e reforça aposta em Petrobras após eleição
+· E05 TSLA · Tesla Stocks Rise 1.4% as HSBC Lifts Target but Keeps Reduce
+· E05 BABA · Alibaba Stocks Jump 4% as AI Cloud Growth Reclaims the Narrative
+· E05 BTC · Bitcoin surges 43% in Q3 as Treasury yields hit highest levels since 2007
+· E05 PLTR · Palantir Stock Surges 42% in 3 Months: Is PLTR Worth Buying?
+· E05 USDBRL · Dólar cai abaixo de R$ 5 e Ibovespa sobe 8% a 207 mil pontos após 1º turno
+· E05 GOOGL · Will Alphabet (GOOG) Beat Estimates Again in Its Next Earnings Report?
+· E05 NVDA · Why October 15 Is the Most Important Day for NVIDIA and Broadcom Until Thanksgiving
 
 
 Alertas do dia (todos, com status):
-· entregue  F01 USDBRL — Real sobe: USD/BRL 4,9989 (-4,2% no dia · -4,3% em 5 sessões · 7 dias seguidos d
+· entregue  F01 USDBRL — Real sobe: USD/BRL 5,0018 (-4,1% no dia · -4,3% em 5 sessões · 8 dias seguidos d
 · entregue  E05 BTC — BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
 · entregue  E05 NVDA — NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA
 · entregue  E05 USDBRL — USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e F
@@ -29,4 +29,4 @@ Alertas do dia (todos, com status):
 · entregue  E05 USDBRL — USDBRL · Eleições podem levar o dólar de volta a R$ 4,86? Veja a projeção dos an
 · entregue  E05 BABA — BABA · 24 HOUR BABA INVESTOR DEADLINE: Alibaba Group Holding Limited Investors w
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
-· (+113 notícias só manchete, em noticias.md)
+· (+124 notícias só manchete, em noticias.md)

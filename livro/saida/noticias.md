@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 16h22
+NOTÍCIAS E FATOS · 05/10 16h48
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 451 veículo fora da lista, 54 sem ativo, 4 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 447 veículo fora da lista, 57 sem ativo, 3 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -191,8 +191,19 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (108)
+## OUTRAS NOTÍCIAS (só manchete) (119)
 
+· BBDC4 Petrobras, Cosan, Compass: as favoritas do Bradesco para um Governo Flávio (Brazil Journal) https://braziljournal.com/petrobras-cosan-compass-as-favoritas-do-bradesco-para-um-governo-flavio/
+· PLTR Using PLTY Instead Of Betting On Palantir In The Run-Up To Earnings (NYSEARCA:PLTY) (Seeking Alpha) https://seekingalpha.com/article/4952053-using-plty-instead-of-betting-on-palantir-in-the-run-up-to-earnings
+· SMAL11 Small caps e consumo superam Ibovespa no rali pós-eleição; entenda (Investing.com) https://br.investing.com/news/stock-market-news/small-caps-e-consumo-superam-ibovespa-no-rali-poseleicao-entenda-2083565
+· PETR4 BBI troca distribuidoras por Cosan e reforça aposta em Petrobras após eleição (InfoMoney) https://www.infomoney.com.br/mercados/bbi-troca-distribuidoras-por-cosan-e-reforca-aposta-em-petrobras-apos-eleicao/
+· TSLA Tesla Stocks Rise 1.4% as HSBC Lifts Target but Keeps Reduce (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:086304356094b:0-tesla-stocks-rise-1-4-as-hsbc-lifts-target-but-keeps-reduce/
+· BABA Alibaba Stocks Jump 4% as AI Cloud Growth Reclaims the Narrative (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:b03809805094b:0-alibaba-stocks-jump-4-as-ai-cloud-growth-reclaims-the-narrative/
+· BTC Bitcoin surges 43% in Q3 as Treasury yields hit highest levels since 2007 (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:3392a2011094b:0-bitcoin-surges-43-in-q3-as-treasury-yields-hit-highest-levels-since-2007/
+· PLTR Palantir Stock Surges 42% in 3 Months: Is PLTR Worth Buying? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:ea115d93f094b:0-palantir-stock-surges-42-in-3-months-is-pltr-worth-buying/
+· USDBRL Dólar cai abaixo de R$ 5 e Ibovespa sobe 8% a 207 mil pontos após 1º turno (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/05/dolar-bolsa-abre-hoje-5-de-outubro-de-2026.ghtm
+· GOOGL Will Alphabet (GOOG) Beat Estimates Again in Its Next Earnings Report? (Yahoo Finance) https://au.finance.yahoo.com/news/alphabet-goog-beat-estimates-again-151003661.html
+· NVDA Why October 15 Is the Most Important Day for NVIDIA and Broadcom Until Thanksgiving (Yahoo Finance) https://finance.yahoo.com/technology/articles/why-october-15-most-important-134702753.html
 · USDBRL Dólar cai mais de 4% após 1º turno das eleições com Flávio Bolsonaro à frente da disputa (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-cai-quase-5-apos-1-turno-das-eleicoes-com-flavio-bolsonaro-a-frente-da-disputa/
 · BTC Bitcoin Is Back at Its September High and Short Sellers Are Stacked Right Above It. What Happens If $88,000 Breaks? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-back-september-high-short-183750330.html
 · BTC SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/sec-clears-3x-leveraged-bitcoin-181228022.html
@@ -242,15 +253,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · TSM Intel’s Terafab Opportunity Gets Crowded: Musk Confirms Talks With Taiwan Semiconductor (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:e04778321094b:0-intel-s-terafab-opportunity-gets-crowded-musk-confirms-talks-with-taiwan-semiconductor/
 · KO Can Coca-Cola's Balanced Growth Strategy Sustain Momentum? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiswFBVV95cUxPdXllNFBlSkRfeUxLaGtWa095YXNXaDBXMlZtNFdZQnBoQjVlb2k5RGdjNXo2RGE0V1dXSzdBUW5YcDRsYjRLMHBEbk9QTUFqMDB1blY4dmo1cGlQZUJEbTlPTXAtV1ZyaVloN0YyU2l0bGg1QVlndnFlVDRrbGZENEFiN2VkUnJQZUhxcVBJS2ZGSkJVNnR5ckdURHRKVF9QcnVEb2xVd2RBUmgtV0NSOV9lZw?oc=5
 · UST Treasury Market’s Pain Deepens With Bond Yields on Five-Week Surge (Barron's) https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUy0wZmdZUURYSkkwVFdURERRZUoxZFZKdGNyUTRxcHJfRXZpTmtvdmE0NDNucm50SElTbTVaY1pmcFJuQklBZ1dTSTdjamhwT2lzZjdrN29NQ05faG9hRFhudFp0ZFJYLVlVR1lpdnhielRHOXZNeExVN0NYWlhZOXFVZTVUMFh0SXNV?oc=5
-· USDBRL Ibovespa bate 200 mil pontos e dólar cai para menos de R$ 5, com euforia após resultado das eleições (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ0FlNUdKQktLTGZ0VDdReEtUVFh0VzlKaEpRZ1FLX0lCZDhxdHJXSWZLYVJISUdWYUlwSEJHT1ota090SmZGNjhWUTQ3cUhtLTd5RC1TQUllUnFDUFlmUGFhUHhSRnI5a3Q2WXUwd0kyM1hYeTN2VVhIWWNTM25JNmlleG9QVWVURXBKUWdFeDZFazMxdTl1aExOY0ZDZlQ1QWE4dldNS0MycGdJNFJuOHJrWlV5OVdjRnB1ZVBzVzZFVFFuS0tyU29UZ3BpM2toU1RN?oc=5
-· USDBRL Dólar despenca para abaixo dos R$5 em meio a euforia com resultado do 1ºturno eleitoral (UOL Economia) https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUmxHZzdnUUMxUWMyenFyYnB2YmNteFZ5VzZqb2lnaFFjWXI2ZGI4bzc3THBCTWcxSWN2ampRQ1NkSFB6QUtDd3ZrZmlyWlFSd2gyVUZCWnUzaUJxVEhwVWJYMFhzRElvdWppOVlzU251YmRfQ2RrbmZmNG44YXpBV0F6NjVFckU4TVdtTlJNVlNyRUdFT2Rvd0FWYVFycEQ5MEViYlZ0MUZsMm5VYVd6MWljb1NNbkdzdE1vQldidG5aRXA0WDZyN2dLOW84QzdVOUtRNXhySEJ0ZUhsM3dWM09jNk9sRm5FakZjcUtFUmdkUQ?oc=5
-· TESOURO Tesouro Direto atrasa abertura após 1º turno; mercado espera queda de juros (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-05102026/amp/
-· NVDA Nvidia Stock Chases Record High as Key Supplier’s Revenue Booms on AI Demand (Barron's) https://www.barrons.com/articles/nvidia-stock-price-record-foxconn-e1dcee95
-· BBAS3 Banco do Brasil (BBAS3) dispara 13% após resultado do 1º turno das eleições (InfoMoney) https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWFhTFRicTE2OG15VElGRGcxbFg2aGFyZGgzcDQxUUZtMGtWV0tnQVE4YndDVDhHQ1RrUV9YRHRNYnRBYVVIbUMtM1FvZUxrcFlVc0EteWk1c25yZElrQmFyMDQxZHNvTWZ2UFRrUVBIelpQXzZUYkNxNFROZDh6bHdFRWJXeEpUbVhCRGs2cWZoT3JwMU9ZVlVKaHh4QmJjcVE4Yml2MmFLTk11RTkyVtIBtgFBVV95cUxOM3htY3dRUzM1Z3lHMHo5NVBuQ2E0bU9abTNWWE9xZWE5LXRKdm53bnl3d2pkRWEyemVyY3d1YWlPVHlFM0dsN2Q5eFk1Qy1Xc1lhUElqV3Y5QmxWd2dZYjUtZUptUHdaR3RMOVBJWkh5UWpQNUpEZzlMR3Q0SzZNZTVvVERnTlRVSWR0QUNOcmJtb0hhempCakVza1Azcm9rZE55YloyVjMtak9Gd0dZTWNISmE5QQ?oc=5
-· MU Analysts Are Bullish on Micron, But Is the Stock Still a Buy? (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxQcFY4Zmpsb2pRQlpmN2hQOUkwd2QyUFhKSjJwSF9Bd09STGZSc3NUcmttQkY2U0FycU1tdVVZRHBlaVVGUW5GbkwyNTZrQXFnMzFKSjJmZ29weThTQWwzZjg0UUFQQUJGUmQ2NE1HamJIUmhwdzNwdFA3MS1TdzhqQXJBZFpiSk1udDZ6RA?oc=5
-· INTC Why is Intel stock sliding today? (Investing.com) https://news.google.com/rss/articles/CBMimgFBVV95cUxQSUR2ZmNuRzZuNHo3VmhLTDljYUxLYVJ1aDhwS0Vfbm9uaXc2bkZYbWdPRW13d1EzR0RaeFZQWHdvYjlOWmU0RUxOVHgtY0cySDRtUmxjN0FnUFVLS0xUVlM5WHdfSkNCWlhKNTJJc2hKaldyYnRiMVRfS3dtTDhiS0RxamZWd21kNGlERFlDUWR5N1lmRVFlaXBn?oc=5
-· ITUB4 Itaú BBA troca três ações para enfrentar eleições em outubro; Petrobras tem potencial de alta de 30% (Money Times) https://www.moneytimes.com.br/itau-bba-troca-tres-acoes-para-enfrentar-eleicoes-em-outubro-petrobras-tem-potencial-de-alta-de-30/
-· ITUB4 Opções de Itaú, BB e Petrobras disparam após eleição; Vale cai até 57% (InfoMoney) https://www.infomoney.com.br/mercados/opcoes-itau-bb-petrobras-disparam-apos-eleicao-vale-cai/
-· USDBRL Ibovespa supera 200 mil pontos e dólar cai abaixo de R$5 com euforia do mercado após 1º turno (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45R0H2:0/
-· GOOGL Promevo Launches Insights by Promevo for a Total View of AI Agents, Gemini Enterprise Adoption, and Google Cloud Spend (PR Newswire) https://www.prnewswire.com/news-releases/promevo-launches-insights-by-promevo-for-a-total-view-of-ai-agents-gemini-enterprise-adoption-and-google-cloud-spend-302898038.html
-· (+48 manchetes; lista completa em eventos/noticias.json)
+· (+59 manchetes; lista completa em eventos/noticias.json)
