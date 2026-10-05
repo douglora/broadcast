@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 12h22
+NOTÍCIAS E FATOS · 05/10 13h21
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 441 veículo fora da lista, 60 sem ativo, 14 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 443 veículo fora da lista, 58 sem ativo, 10 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -51,7 +51,50 @@ Fonte: SEC EDGAR 2026-10-05
 id: E04-CVX-26000188-2026-10-05 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (6)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · NVDA · BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ)
+Seeking Alpha · 05/10 12h22 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4650242-bnp-paribas-raises-nvidia-intel-price-targets-on-ai-demand-outlook
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: NVDA · INTC
+Como falar: 'saiu no Seeking Alpha: BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 05/10 12h22
+id: E05-NVDA-4f8cad10a8-2026-10-05 · status: pendente
+
+[ATENÇÃO] E05 · USDBRL · Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e Flávio no 2º turno; dólar cai abaixo de R$ 4,95
+g1 · 05/10 09h00 · + O Globo · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – O Ibovespa, principal índice da bolsa brasileira, opera em forte alta nesta segunda-feira (5).
+  – Perto das 12h, o índice subia 8,22%, aos 207.910 pontos.
+  – Mais cedo, o índice superou pela primeira vez a marca dos 209 mil pontos.
+  – O último recorde do índice havia sido em 14 de abril, quando fechou aos 198 mil pontos.
+  – O Ibovespa funciona como uma espécie de termômetro do mercado de ações brasileiro, refletindo o desempenho de algumas das principais empresas negociadas na B3.
+  – O impacto da disputa eleitoral também aparece no dólar, que marcava queda de 4,43% no mesmo horário, cotado a R$ 4,9850.
+Link: https://g1.globo.com/economia/noticia/2026/10/05/dolar-ibovespa.ghtml
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no g1: Ibovespa dispara e bate recorde de 209 mil pontos, com foco em Lula e Flávio no 2º turno;…; confirmar o número no texto antes de repassar'
+Fonte: g1 05/10 09h00
+id: E05-USDBRL-1eaca332d5-2026-10-05 · status: pendente
+
+[ATENÇÃO] E05 · VALE3 · Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão
+Estadao · 04/10 21h37 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/vale-ubs-corta-preco-alvo-em-r-8-e-aponta-dois-motivos-para-a-revisao/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: VALE3
+Como falar: 'saiu no Estadao: Vale: UBS corta preço-alvo em R$ 8 e aponta dois motivos para a revisão; confirmar o número no texto antes de repassar'
+Fonte: Estadao 04/10 21h37
+id: E05-VALE3-5503d688e9-2026-10-05 · status: pendente
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação
+Estadao · 04/10 14h21 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/bradesco-pagara-r-38-bilhoes-em-jcp-confira-valor-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no Estadao: Bradesco pagará R$ 3,8 bilhões em JCP; confira valor por ação; confirmar o número no texto antes de repassar'
+Fonte: Estadao 04/10 14h21
+id: E05-BBDC4-d039ed1696-2026-10-04 · status: linha
 
 [ATENÇÃO] E05 · BTC · Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferred Stock
 Yahoo Finance · 05/10 11h19 · fonte única · licença: resumo
@@ -67,7 +110,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Strive Buys 2,000 Bitcoin and Discloses a Buyback Facility for Its Preferred Stock; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 05/10 11h19
-id: E05-BTC-bc21df416b-2026-10-05 · status: pendente
+id: E05-BTC-bc21df416b-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Daycoval escala BB Seguridade (BBSE3), Itaú (ITUB4), Bradesco (BBDC4) e mais sete ações para carteira de dividendos de outubro
 Money Times · 05/10 11h19 · fonte única · licença: integral
@@ -139,8 +182,20 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (57)
+## OUTRAS NOTÍCIAS (só manchete) (69)
 
+· VALE3 Vale destoa do Ibovespa em dia de euforia pós-eleição; entenda o que pesa sobre VALE3 (InfoMoney) https://www.infomoney.com.br/mercados/vale3-hoje-analise-acoes-05-10-2026/
+· USDBRL Tempo real: Ibovespa dispara até 9% e bate marca inédita dos 200 mil pontos no 'day after' do 1º turno; dólar opera abaixo de R$ 5 (Money Times) https://www.moneytimes.com.br/tempo-real-5-10-26-apsa-lils/
+· KO Why Wall Street is choosing Coca-Cola stock over PepsiCo ahead of earnings (Yahoo Finance) https://finance.yahoo.com/video/why-wall-street-choosing-coca-152413148.html
+· NVDA Sozzi talks with Zscaler CEO about AI cybersecurity, while Nvidia & AMD stocks rip higher (Yahoo Finance) https://finance.yahoo.com/video/sozzi-talks-zscaler-ceo-ai-151212213.html
+· BTC Bitcoin price fails to break higher after best weekly close in eight months (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:4c9c56d9f094b:0-bitcoin-price-fails-to-break-higher-after-best-weekly-close-in-eight-months/
+· GFS GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (GFS:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4650204-globalfoundries-downgraded-by-bnp-paribas-as-firm-sees-growth-drivers-priced-in
+· NVDA NVIDIA Corporation (NVDA) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/NVDA/
+· TSM Intel’s Terafab Opportunity Gets Crowded: Musk Confirms Talks With Taiwan Semiconductor (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:e04778321094b:0-intel-s-terafab-opportunity-gets-crowded-musk-confirms-talks-with-taiwan-semiconductor/
+· KO Can Coca-Cola's Balanced Growth Strategy Sustain Momentum? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiswFBVV95cUxPdXllNFBlSkRfeUxLaGtWa095YXNXaDBXMlZtNFdZQnBoQjVlb2k5RGdjNXo2RGE0V1dXSzdBUW5YcDRsYjRLMHBEbk9QTUFqMDB1blY4dmo1cGlQZUJEbTlPTXAtV1ZyaVloN0YyU2l0bGg1QVlndnFlVDRrbGZENEFiN2VkUnJQZUhxcVBJS2ZGSkJVNnR5ckdURHRKVF9QcnVEb2xVd2RBUmgtV0NSOV9lZw?oc=5
+· UST Treasury Market’s Pain Deepens With Bond Yields on Five-Week Surge (Barron's) https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUy0wZmdZUURYSkkwVFdURERRZUoxZFZKdGNyUTRxcHJfRXZpTmtvdmE0NDNucm50SElTbTVaY1pmcFJuQklBZ1dTSTdjamhwT2lzZjdrN29NQ05faG9hRFhudFp0ZFJYLVlVR1lpdnhielRHOXZNeExVN0NYWlhZOXFVZTVUMFh0SXNV?oc=5
+· USDBRL Ibovespa bate 200 mil pontos e dólar cai para menos de R$ 5, com euforia após resultado das eleições (Folha de S.Paulo) https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ0FlNUdKQktLTGZ0VDdReEtUVFh0VzlKaEpRZ1FLX0lCZDhxdHJXSWZLYVJISUdWYUlwSEJHT1ota090SmZGNjhWUTQ3cUhtLTd5RC1TQUllUnFDUFlmUGFhUHhSRnI5a3Q2WXUwd0kyM1hYeTN2VVhIWWNTM25JNmlleG9QVWVURXBKUWdFeDZFazMxdTl1aExOY0ZDZlQ1QWE4dldNS0MycGdJNFJuOHJrWlV5OVdjRnB1ZVBzVzZFVFFuS0tyU29UZ3BpM2toU1RN?oc=5
+· USDBRL Dólar despenca para abaixo dos R$5 em meio a euforia com resultado do 1ºturno eleitoral (UOL Economia) https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUmxHZzdnUUMxUWMyenFyYnB2YmNteFZ5VzZqb2lnaFFjWXI2ZGI4bzc3THBCTWcxSWN2ampRQ1NkSFB6QUtDd3ZrZmlyWlFSd2gyVUZCWnUzaUJxVEhwVWJYMFhzRElvdWppOVlzU251YmRfQ2RrbmZmNG44YXpBV0F6NjVFckU4TVdtTlJNVlNyRUdFT2Rvd0FWYVFycEQ5MEViYlZ0MUZsMm5VYVd6MWljb1NNbkdzdE1vQldidG5aRXA0WDZyN2dLOW84QzdVOUtRNXhySEJ0ZUhsM3dWM09jNk9sRm5FakZjcUtFUmdkUQ?oc=5
 · TESOURO Tesouro Direto atrasa abertura após 1º turno; mercado espera queda de juros (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-05102026/amp/
 · NVDA Nvidia Stock Chases Record High as Key Supplier’s Revenue Booms on AI Demand (Barron's) https://www.barrons.com/articles/nvidia-stock-price-record-foxconn-e1dcee95
 · BBAS3 Banco do Brasil (BBAS3) dispara 13% após resultado do 1º turno das eleições (InfoMoney) https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWFhTFRicTE2OG15VElGRGcxbFg2aGFyZGgzcDQxUUZtMGtWV0tnQVE4YndDVDhHQ1RrUV9YRHRNYnRBYVVIbUMtM1FvZUxrcFlVc0EteWk1c25yZElrQmFyMDQxZHNvTWZ2UFRrUVBIelpQXzZUYkNxNFROZDh6bHdFRWJXeEpUbVhCRGs2cWZoT3JwMU9ZVlVKaHh4QmJjcVE4Yml2MmFLTk11RTkyVtIBtgFBVV95cUxOM3htY3dRUzM1Z3lHMHo5NVBuQ2E0bU9abTNWWE9xZWE5LXRKdm53bnl3d2pkRWEyemVyY3d1YWlPVHlFM0dsN2Q5eFk1Qy1Xc1lhUElqV3Y5QmxWd2dZYjUtZUptUHdaR3RMOVBJWkh5UWpQNUpEZzlMR3Q0SzZNZTVvVERnTlRVSWR0QUNOcmJtb0hhempCakVza1Azcm9rZE55YloyVjMtak9Gd0dZTWNISmE5QQ?oc=5
@@ -189,12 +244,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · USDBRL Dólar e Bolsa hoje: mercados reagem ao resultado do primeiro turno das eleições 2026 (O Globo) https://oglobo.globo.com/economia/financas/noticia/2026/10/05/dolar-e-bolsa-hoje-mercados-reagem-ao-resultado-do-primeiro-turno-das-eleicoes-2026.ghtml
 · GOOGL Polish antitrust watchdog reportedly probes Google over media publisher payments (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:033efad5e094b:0-polish-antitrust-watchdog-reportedly-probes-google-over-media-publisher-payments/
 · BTC Strategy's $6 Billion Bitcoin Safety Net (NASDAQ:MSTR) (Seeking Alpha) https://seekingalpha.com/article/4951941-strategys-6-billion-bitcoin-safety-net
-· TSM I’m Loading Up on Taiwan Semiconductor Ahead of Oct. 15 Earnings (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/m-loading-taiwan-semiconductor-ahead-111529120.html
-· ETH Current price of Ethereum for Oct. 5, 2026 (Fortune) http://fortune.com/article/price-of-ethereum-10-05-2026/
-· BTC SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/05/sec-approves-a-3x-fix-for-bitcoin-and-ether-traders-who-miss-the-wild-swings
-· USDBRL Goldman: real pode se fortalecer mais após 1º turno e dólar pode chegar a R$ 4,50 (InfoMoney) https://www.infomoney.com.br/mercados/goldman-real-pode-se-fortalecer-mais-apos-1o-turno-e-dolar-pode-chegar-a-r-450/
-· BBDC4 Bradesco, Unifique, MBRF, Totvs, Porto, Lupo e mais ações para acompanhar nesta 2ª (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-unifique-mbrf-totvs-porto-lupo-e-mais-acoes-para-acompanhar-nesta-2a/
-· UST French, Spanish Bond Yields Rise on Fiscal, Political Uncertainty; Treasury Yields Steady (The Wall Street Journal) https://www.wsj.com/finance/investing/french-bond-yields-stay-elevated-treasury-yields-ease-13103f54
-· BTC Metaplanet's 44,000 Bitcoin Bet Just Got a New 15% Rule (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxNaEZteHVMeEx5a1Q4bGdJR1JiejFfaFlGZkhMbWJSQU1pWld2dnlCZW9PRmZ0WlBnZ3R4MmFxNVFqNEhLVWd2dnpNY3RBSlF5OWtOdDVydXVmQS1oQjJSTkloZVlyV3BFZjZwTVBMUWFCWk03YmdiSHRkUkhjbUQzbEVWRnZ0bGNpOXBWbDFac05JdWdCSVQ1bUZxZw?oc=5
-· USDBRL Euro cai ao menor valor em 17 meses frente ao dólar (Poder360) https://news.google.com/rss/articles/CBMimwFBVV95cUxQTTFwcWZvc3U5dGZBendiRUFxVUllcEVmYzdocjhndGFhbmdVWHd2TVNIQkt3Wkxobl9aNUgxWjJGaVBuUGR3WGZVeFk4UENDbTBsT21VRzh1c0o1OWVoYmhYSTZDb29NY01BVnhyR3ZNOWk4R2EwTU1UQUpRZzRmVG5XYjE1Y21RdFJFNUNiYWdRZWxrNzVSbVdXOA?oc=5
-· INTC Intel Stock Drops as Elon Musk Signals SpaceX, Tesla Setback for the Chip Maker (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxPRWdaazlPODkxRjNvR2VMdWlxbmMtNW1PWllVYjlLZXpNcW50UVJ5UlNFYmI3Nzd4MW1aN0pidWVWODR2UklXT0diSkx3RUtrOGp5MmdvTEhQT2Q0Z2tIY1FCdkNUcTY0ZnlCUC12U2pjOHBZVFZlM0VWQlhGd2hzNjJmOA?oc=5
+· (+9 manchetes; lista completa em eventos/noticias.json)
