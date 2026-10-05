@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 10h31
+NOTÍCIAS E FATOS · 05/10 11h25
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 439 veículo fora da lista, 70 sem ativo, 33 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 433 veículo fora da lista, 62 sem ativo, 13 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -48,10 +48,22 @@ Por que importa: troca de diretor ou conselheiro reabre a discussao de estrategi
 Ativos: CVX
 Como falar: 'a CVX protocolou 8-K na SEC (5.02 entrada ou saida de diretor ou conselheiro)'
 Fonte: SEC EDGAR 2026-10-05
-id: E04-CVX-26000188-2026-10-05 · status: pendente · íntegra disponível
+id: E04-CVX-26000188-2026-10-05 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (4)
+## NOTÍCIAS COM MATERIALIDADE (5)
+
+[ATENÇÃO] E05 · ITUB4 · Daycoval escala BB Seguridade (BBSE3), Itaú (ITUB4), Bradesco (BBDC4) e mais sete ações para carteira de dividendos de outubro
+Money Times · 05/10 11h19 · fonte única · licença: integral
+Do texto:
+  – O portfólio reúne dez ações, todas com peso de 10%, e mantém forte exposição ao setor financeiro.
+  – O segmento responde por 60% da alocação total, seguido por utilidade pública (20%), materiais básicos (10%) e consumo cíclico (10%).
+Link: https://www.moneytimes.com.br/daycoval-escala-bb-seguridade-itau-bradesco-e-mais-sete-acoes-para-carteira-de-dividendos-de-outubro-mlem/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: ITUB4 · BBDC4
+Como falar: 'saiu no Money Times: Daycoval escala BB Seguridade (BBSE3), Itaú (ITUB4), Bradesco (BBDC4) e mais sete ações p…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 05/10 11h19
+id: E05-ITUB4-352ac68f8a-2026-10-05 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · LITE · Stifel raises Lumentum stock price target on laser demand outlook
 Investing.com · 05/10 10h24 · fonte única · licença: manchete
@@ -60,7 +72,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: LITE
 Como falar: 'saiu no Investing.com: Stifel raises Lumentum stock price target on laser demand outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 05/10 10h24
-id: E05-LITE-5601609c11-2026-10-05 · status: pendente
+id: E05-LITE-5601609c11-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · AMD · AMD’s $8.2 Billion AI Bet Comes With a $1 Trillion Valuation Problem
 Yahoo Finance · 04/10 16h01 · fonte única · licença: resumo
@@ -111,8 +123,20 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (42)
 
+· USDBRL Dólar cai e opera abaixo de R$ 5 após primeiro turno das eleições (Suno Noticias) https://www.suno.com.br/noticias/dolar-recuo-abaixo-5-reais-pos-eleicao-go/
+· BABA BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit with SBS Law (Business Wire) https://www.businesswire.com/news/home/20261005928078/en/BABA-Investors-Have-Opportunity-to-Lead-Alibaba-Group-Holding-Limited-Securities-Fraud-Lawsuit-with-SBS-Law
+· INTC Intel Stock Drops as Elon Musk Signals Setback for the Chip Maker (Barron's) https://www.barrons.com/articles/intel-stock-musk-spacex-tesla-chips-313b87c6
+· BBAS3 Banco do Brasil (BBAS3) dispara 13% após resultado do 1º turno das eleições (InfoMoney) https://www.infomoney.com.br/mercados/banco-do-brasil-bbas3-dispara-13-apos-resultado-do-1o-turno-das-eleicoes/
+· CVX Chevron: New All-Time Highs In Sight As Oil Surges (NYSE:CVX) (Seeking Alpha) https://seekingalpha.com/article/4951925-chevron-stock-new-all-time-highs-sight-oil-surges
+· ETH Bitmine Purchases 15,112 Ethereum As Price Strengthens (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-purchases-15-112-ethereum-134200292.html
+· BTC Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-stays-red-bear-131000771.html
+· ETH Ethereum Logs Smallest Year-To-Date Loss Since January As Rally Runs On Thin Leverage (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:ff7065b79094b:0-ethereum-logs-smallest-year-to-date-loss-since-january-as-rally-runs-on-thin-leverage/
+· NVDA Nvidia Gets Another AI Demand Signal As Foxconn Sales Hit Record High – Apple Faces Holiday Test (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:af540c947094b:0-nvidia-gets-another-ai-demand-signal-as-foxconn-sales-hit-record-high-apple-faces-holiday-test/
+· JPM Equities Can Withstand Higher Bond Yields As Earnings Stay Firm, Says JPMorgan: Report (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:27dd0d0a7094b:0-equities-can-withstand-higher-bond-yields-as-earnings-stay-firm-says-jpmorgan-report/
+· AMD Cantor Fitzgerald reiterates AMD stock rating on Helios outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/cantor-fitzgerald-reiterates-amd-stock-rating-on-helios-outlook-93CH-4865826
+· BTC 'More orange than ever': Michael Saylor's Strategy buys 334 bitcoin for $28.7 million as total holdings top 848,000 BTC (The Block) https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2tLR0RJRmVKcjZwWGNTSXIwcjk2TzFNSmlkZFd1UzA0ZjlxNEg5c3Z5YWRSS3pmcTZ3d3RRMVBNVzRQa1FDV0x1c0JiUUdKbEZ0d2ktcW5RN3FHZkZRNFh5YnhfREF3X01mWUtMekJTWXNZemlBdXpQREtjOEdUWEEyZWI0V3hPNEpVOWduRlhuYzkxZ0NWRjdsUmNjMHlabUJKemFpT1hnVTYtakE?oc=5
 · BTC Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern (TradingView (Reuters)) https://www.tradingview.com/news/cryptonews:c7b2c44ac094b:0-bitcoin-price-stays-out-of-the-red-as-this-bear-market-breaks-a-historic-pattern/
 · BTC Michael Saylor’s Strategy Forecasts $20.9B Q3 Digital-Asset Gain As MSTR Bitcoin Stack Hits 848,000 BTC (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:7df95e390094b:0-michael-saylor-s-strategy-forecasts-20-9b-q3-digital-asset-gain-as-mstr-bitcoin-stack-hits-848-000-btc/
 · ETH Ethereum Logs Smallest Year-To-Date Loss Since January As Rally Runs On Thin Leverage (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-logs-smallest-date-loss-125431360.html
