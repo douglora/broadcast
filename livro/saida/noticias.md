@@ -1,8 +1,65 @@
-NOTÍCIAS E FATOS · 06/10 11h24
+NOTÍCIAS E FATOS · 06/10 12h22
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 433 veículo fora da lista, 51 sem ativo, 9 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 431 veículo fora da lista, 43 sem ativo, 6 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (11)
+
+[ATENÇÃO] E05 · GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
+TradingView (Reuters) · 06/10 11h33 · + Reuters · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45S18C:0-google-fights-1-billion-uk-lawsuit-over-app-store-fees-in-latest-big-tech-case/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no TradingView (Reuters): Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 06/10 11h33
+id: E05-GOOGL-3921340e65-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What Doug Petno’s Q3 Guidance Says About the Gap
+Yahoo Finance · 06/10 11h32 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank.
+  – Here’s What Doug Petno’s Q3 Guidance Says About the Gap Key Stats for JPMorgan Stock - Current Price: $332.38 - Target Price (Mid): ~$447 - Street Target: ~$374 - Potential Total Return: ~35% - Annualized IRR: ~7% / yea…
+  – JPMorgan Chase (JPM:NYSE) closed at $332.38 on October 5, up just 3.2% from $322.22 at the end of 2025, even as analysts kept lifting its earnings outlook.
+  – TIKR's next-twelve-months normalized EPS estimate rose from around $21 to around $24 over the same stretch, partly because the 12-month window now reaches into 2027.
+  – As a result, the forward P/E shrank about 11%, to around 14x.
+  – On October 5, BofA cut its target to $400 from $420, and UBS cut to $395 from $400.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-stock-just-3-multiple-143249581.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What Doug Petno’s Q…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 11h32
+id: E05-JPM-568a1ae74b-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sachs
+Yahoo Finance · 06/10 10h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – - Goldman Sachs reiterated a 'Neutral' rating and a $360 price target, implying about 6% downside from current levels.
+  – Ahead of its third-quarter (Q3) earnings scheduled for October 21, Goldman Sachs argued that investors are likely to focus more on the company's outlook for Full Self-Driving (FSD), robotaxi, and Optimus humanoid bots t…
+  – The firm kept its 'Neutral' rating on the stock and a $360 price target, implying about 6% downside from current levels, according to Investing.com.
+  – TSLA shares were up around 1% at the time of writing, tracking its third straight session of gains.
+  – The stock has gained more than 28% since its July low of $297.38.
+  – Spending Ramps Ahead Of Q3 Earnings The company continues to spend heavily on AI.
+Link: https://finance.yahoo.com/markets/stocks/articles/tesla-robotaxis-fsd-optimus-outlook-135634668.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no Yahoo Finance: Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sac…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 10h56
+id: E05-TSLA-c7f9570b37-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · ITUB4 · Não deu nem tempo: Itaú eleva preço-alvo da XP, mas ação 'come' potencial em um dia com efeito Flávio
+Money Times · 05/10 22h34 · fonte única · licença: integral
+Do texto:
+  – Não deu nem tempo: Itaú eleva preço-alvo da XP, mas ação ‘come’ potencial em um dia com efeito Flávio O Itaú BBA elevou o preço-alvo da XP (XP) de US$ 22 para US$ 27 para o fim de 2027 e reiterou a recomendação de compr…
+  – O problema é que o papel simplesmente saltou 30% nesta segunda-feira, a US$ 28,15, em meio ao trade eleitoral e queimou todo o potencial projetado pela corretora.
+  – O banco destaca que a ação negocia com desconto em relação ao próprio histórico e também frente a concorrentes como BTG Pactual (BPAC11) e B3 (B3SA3).
+  – Atualmente, a XP é negociada a 9,6 vezes o preço sobre o lucro (P/L) estimado para os próximos 12 meses, cerca de 9% abaixo da média histórica recente.
+  – Caso o múltiplo avance para aproximadamente 13 vezes, nível equivalente ao limite superior de um desvio-padrão acima da média histórica, o papel teria potencial de valorização de cerca de 34%.
+  – No varejo, o banco observa que investidores pessoas físicas mantêm atualmente cerca de 15,2% de suas carteiras em ações, contra quase 30% em 2020.
+Link: https://www.moneytimes.com.br/nao-deu-nem-tempo-itau-eleva-preco-alvo-da-xp-mas-acao-come-potencial-em-um-dia-com-efeito-flavio/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: ITUB4
+Como falar: 'saiu no Money Times: Não deu nem tempo: Itaú eleva preço-alvo da XP, mas ação 'come' potencial em um dia com e…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 05/10 22h34
+id: E05-ITUB4-d201738d49-2026-10-06 · status: linha · íntegra disponível
 
 [ATENÇÃO] E05 · TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sachs
 TradingView (Reuters) · 06/10 10h56 · fonte única · licença: manchete
@@ -11,7 +68,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no TradingView (Reuters): Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sac…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 06/10 10h56
-id: E05-TSLA-7642dbe1c8-2026-10-06 · status: pendente
+id: E05-TSLA-7642dbe1c8-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividendos da Terra; veja a seleção de outubro
 Money Times · 06/10 10h46 · fonte única · licença: integral
@@ -27,7 +84,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: PETR4
 Como falar: 'saiu no Money Times: BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividendos da Terra; vej…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 06/10 10h46
-id: E05-PETR4-64edf8c60c-2026-10-06 · status: pendente · íntegra disponível
+id: E05-PETR4-64edf8c60c-2026-10-06 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · AMD · Citigroup raises AMD price target on agentic AI demand outlook
 Investing.com · 06/10 10h41 · fonte única · licença: manchete
@@ -36,7 +93,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: AMD
 Como falar: 'saiu no Investing.com: Citigroup raises AMD price target on agentic AI demand outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 06/10 10h41
-id: E05-AMD-69060fcc17-2026-10-06 · status: pendente
+id: E05-AMD-69060fcc17-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · NVDA · Nvidia stock hits record high after Foxconn Q3 2026 revenue surge
 Yahoo Finance · 06/10 09h26 · fonte única · licença: resumo
@@ -103,8 +160,23 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· MU Micron Stock: Memory Revenue Looks More Durable Than The Cycle Suggests (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952254-micron-memory-revenue-looks-more-durable-than-the-cycle-suggests
+· JPM JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more' (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-ceo-jamie-dimon-sharpens-warning-about-a-corporate-credit-squeeze-the-market-will-ask-for-more-151359247.html
+· GOOGL Why Do Investors Like Alphabet (GOOG, GOOGL) Despite AI Search Threats? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-investors-alphabet-goog-googl-150418735.html
+· JPM JPMorgan’s Dimon warns of tenfold rise in cyber risk from AI (Investing.com) https://www.investing.com/news/economy-news/jpmorgans-dimon-warns-of-tenfold-rise-in-cyber-risk-from-ai-4934894
+· ITUB4 Banco gosta de trabalhar com juros abaixo de dois dígitos, o que permite impulsionar a economia, diz CEO do Itaú (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/banco-gosta-de-trabalhar-com-juros-abaixo-de-dois-digitos-o-que-permite-impulsionar-a-economia-diz-ceo-do-itau.ghtml
+· GOOGL Tech Mahindra Expands Agentic AI Readiness With Google Cloud Gemini Enterprise (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45S0TL:0-tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise/
+· MRVL Marvell Stock Surges After CEO Announces Huge Long-Term Revenue Target (Barron's) https://www.barrons.com/articles/marvell-stock-technology-ai-chips-ba886070
+· JPM JPMorgan's Dimon: Anthropic's Mythos raised cybersecurity risks by about 10-fold (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4650569-jpmorgans-dimon-anthropics-mythos-raised-cybersecurity-risks-by-about-10-fold
+· BBAS3 JP Morgan rebaixa Banco do Brasil e ações caem após rali da véspera (UOL Economia) https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHkyWFRWcjdJcnhndHZianVjSGM2dmJZS3M5MEMxdFY0TW9DbV9uMEYtaDhqdGRxeVlkUVJOeDFiWTUzV25NRDh5UFY1U3JidzJuX1p6VjJvQjFYZVhhemlCaHBXTFFXaGw1SHRxX3NfX3prUm50YUZWcGE4a1FpSzRIRzl0aGE0QmlLU2dPX01XbjV2dWtaaGdKVDJlNUk1cW1PQVNzdk9scTRSMWIwWWRjOFdTOW1pYk5RWHZjaFA3dzJwY1E?oc=5
+· MRVL Marvell Technology stock rallies following ambitious investor day targets (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxPeW1qQjF1Q2ZXbldRX2ZlU1pnWVdmYzRMWUo1UFczMG1VLVp3bWV5SkRkVjVxNjhHNUVHMGNWcE1SV0JwMldFYmFzT2hMenRZaVNmMmdSbXlySDVneFNRQlNMM1VSb1hsQVJ4S1l3NkJiZjM0cGUxZ0VUX1RGZU5kVm1jNENScXdodVhIS3l3dkZBNFlJeEE?oc=5
+· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report (Investing.com) https://news.google.com/rss/articles/CBMitgFBVV95cUxPSU5sZVRKbTFzcDRGNjVwMGtac3RsZHo0WndBWkFubjNJRmdjak9kaThhQjRHdENaRV9CakNtUWVDcll6bDNrZjJXYy1kUjZKWFFXV1pKUjc3UElLdkdyUEo2UG5MU2I3Qmk2Q3Y3cWZtYkdkZkJGcjFNejdqWFdBaW5XczVqVG9fS2dWbnp0UmZQV2FCVlFrVzRpME44VFlQT3htUkIzYWlsOXpZYlgwOVhJUTRTQQ?oc=5
+· MRVL Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters) https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDJISmlqQ09tSDQ4NnNJNElrbWtnQlpVZGlrd3NCQjlvVktSMm00UE1JZDBHZGFqOUVUWjUxbU1KcTM4NXBCMDdGSUY4UW9kd202NzFXT0NBTzdFQU5xbmdqMWFYelRYVmNRTnhDNmlpdlJRODVCMHVpZ21XWnRldHVDd3p6RjJlQjRTMWZiMnE3LTVJM1FMZW1yaktxNHNDQnBTc2ZnZ3JZYjVsZnhj?oc=5
+· MRVL Marvell jumps after boosting guidance at investor day (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitwFBVV95cUxNaDkzOG1LX0JmM2lCbzVTTjd2TGNTRnBORTZRcHJ0Z2toVnByYllKbWpoR2RqVW52VWhwRVA3d3M4clZVZDlXcjE3MW1zUEtJM3FPT2FlX2xWN0ZBVHZ4b3dhTHRVVUJwNE1iVEtzM2NiZnlKREdiS05RVXQtbm1aWGVleWFxOEhIV1ZXTnhHRTBMdXNHOXhjTVdIWnN6V3YyZVFQcmpMdlpNcHRpek1rczA1TUlDcjA?oc=5
+· NVDA Nvidia: Smart Money Is Pounding The Table (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZVdDY21waW1RRUFsdFNBZVVOVzhUMWhHSHdOWFQ1MG5tZzN0N0E3N1RuX0xuNUNSVTd0OWtuTlp3MzZMS0ZrSXM0Sng0eWQwcWtYM3pKS3JYbzF2a2pDTjJPVzltU2piXzFqVmVnc3V5bW94QnptdE1sZFBGUXZ4bUtSX1lJeWNN?oc=5
+· PETR4 Tempo real: Ibovespa perde força e cai com Petrobras (PETR4); dólar recua (Money Times) https://news.google.com/rss/articles/CBMibkFVX3lxTE5lZ01PZnZSbGdSWDBUYk1HZElqZ2tCSE5UNUthenZxek1xSjh1NGRxOTJzbXRVM2tYMHpuQnVtN1VicDgxNk5CaVJEbzQwTzhEbFYzckZfMjZXS2ZZVTBKS2doZnVjVlNVLUVIOHl3?oc=5
 · JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report (Investing.com) https://in.investing.com/news/stock-market-news/jpmorgan-shares-may-move-32-on-oct-13-earnings-report-93CH-5620850
 · MRVL Marvell raises 2028 revenue forecast on strong AI data center demand By Reuters (Investing.com) https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830
 · JPM Watch Dimon on AI Boom, Bond Selloff, UK Banks (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video
