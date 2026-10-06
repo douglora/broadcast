@@ -1,20 +1,20 @@
 {
  "pregao": "2026-10-05",
- "situacao": "atrasado",
+ "situacao": "publicado",
  "errata": false,
- "atualizado_em": "2026-10-06T08:43:22.14",
+ "atualizado_em": "2026-10-06T09:24:56",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_00_20261005.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_00_20261005.pdf"
  },
  "cadernos": [
   {
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": true,
-   "atualizado_em": "2026-10-06T08:28:48.4",
+   "atualizado_em": "2026-10-06T09:37:11.983",
    "arquivo": "",
    "pdf": ""
   },
@@ -43,10 +43,10 @@
    "nome": "Indicadores e informativos",
    "pai": 20,
    "situacao": "publicado",
-   "errata": true,
-   "atualizado_em": "2026-10-06T08:43:22.14",
-   "arquivo": "",
-   "pdf": ""
+   "errata": false,
+   "atualizado_em": "2026-10-06T14:10:42.353",
+   "arquivo": "BDI_02_20261005.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_02_20261005.pdf"
   },
   {
    "id": 23,
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-06T08:32:18.083",
+   "atualizado_em": "2026-10-06T14:17:17.72",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,9 +102,9 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": true,
-   "atualizado_em": "2026-10-06T08:43:17.643",
+   "atualizado_em": "2026-10-06T09:14:56.237",
    "arquivo": "",
    "pdf": ""
   },

@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 05/10/2026 (segunda)
 
-**Situação: COMPLETO.** Boletim atrasado pela B3 em 2026-10-06 08:43 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-06T11:57:37Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-06 09:24 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-06T17:24:29Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -29,9 +29,9 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Parede de opções.** SBSP3 fechou a 31,50 com o vencimento de 16/10 a 8 dias úteis e a maior posição em aberto de call em 31,93 (22.120.900 opções, +1,4% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/10)_
 - **Parede de opções.** SMAL11 fechou a 127,19 com o vencimento de 16/10 a 8 dias úteis e a maior posição em aberto de call em 130,00 (6.105.322 opções, +2,2% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 05/10)_
 - **Posição em opções.** VALE3: a call VALEJ773W2 (strike 77,39, vencimento 09/10) ganhou 2.495.500 opções em aberto no dia, para 2.637.100. _(B3, DerivativesOpenPosition, 05/10)_
-- **Crédito: prêmio alto.** CMIN11 (Csn Mineracao, debênture incentivada): taxa indicativa da ANBIMA de 05/10 a IPCA+ 14,70%, 763 pb acima do juro real de mercado na duration de 4,1 anos; na B3, negócios de 05/10 a IPCA+ 14,77% em R$ 7,2 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 05/10)_
 - **Crédito: prêmio alto.** SUMI17 (Giga Mais Fibra Telecomunicacoes, debênture incentivada): taxa indicativa da ANBIMA de 05/10 a IPCA+ 14,24%, 718 pb acima do juro real de mercado na duration de 3,5 anos; na B3, negócios de 05/10 a IPCA+ 14,89% em R$ 62,9 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 05/10)_
 - **Crédito: prêmio alto.** SUMI19 (Giga Mais Fibra Telecomunicacoes, debênture incentivada): taxa indicativa da ANBIMA de 05/10 a IPCA+ 14,09%, 702 pb acima do juro real de mercado na duration de 3,8 anos; na B3, negócios de 05/10 a IPCA+ 14,56% em R$ 8,8 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 05/10)_
+- **Crédito: prêmio alto.** RIS414 (Aguas do Rio 4 Spe, debênture incentivada): taxa indicativa da ANBIMA de 05/10 a IPCA+ 13,48%, 641 pb acima do juro real de mercado na duration de 4,3 anos; na B3, negócios de 05/10 a IPCA+ 13,73% em R$ 9,8 mi. _(ANBIMA e B3, taxa indicativa de debêntures (ANBIMA) e DAP (B3), 05/10)_
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 268 mi líquidos em 01/10; no mês, até 01/10, saldo de +R$ 268 mi. _(B3, SharesInvesVolum, 01/10)_
 - **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto subiram 5,7% em um pregão, para 814.653. _(B3, AnalyticalFramework2, 05/10)_
 - **Juros.** A curva de juros fechou: DI1F27 −12 pb, para 13,41%, DI1F28 −85 pb, para 12,66%, DI1F29 −116 pb, para 12,59%, DI1F30 −129 pb, para 12,62%, DI1F32 −135 pb, para 12,72%, DI1F35 −134 pb, para 12,79%. _(B3, TradeInformationConsolidated, 05/10)_
@@ -266,15 +266,13 @@ Posição em aberto: 4,2 bi de calls e 3,4 bi de puts (put/call 0,82); no volume
 
 ## Renda fixa: debêntures incentivadas, CRI e CRA
 
-**Preliminar:** a B3 ajusta os negócios de balcão no dia seguinte; volumes e taxas dos negócios deste pregão ainda podem mudar.
-
 **De onde vem cada taxa:** debêntures pela taxa indicativa da ANBIMA de 05/10 (1.277 papéis), com os negócios da B3 de 05/10 ao lado; CRI e CRA só pelos negócios da B3.
 
 | Classe | Volume do dia | Taxa mediana | Sobre o juro real |
 |---|---:|---:|---:|
-| Debêntures incentivadas | R$ 1,0 bi | IPCA+ 7,49% | +45 pb |
-| CRI | R$ 388,4 mi | IPCA+ 9,32% e CDI+ 1,23% | +233 pb |
-| CRA | R$ 185,9 mi | IPCA+ 9,17% e CDI+ 4,39% | +217 pb |
+| Debêntures incentivadas | R$ 946,4 mi | IPCA+ 7,50% | +46 pb |
+| CRI | R$ 341,2 mi | IPCA+ 9,35% e CDI+ 1,36% | +239 pb |
+| CRA | R$ 180,2 mi | IPCA+ 9,20% e CDI+ 4,39% | +217 pb |
 
 Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 05/10) foi IPCA+ 7,72%.
 
@@ -282,7 +280,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 05/10) foi I
 
 | Papel | Taxa de referência | B3 negócios de 05/10 | Sobre o juro real |
 |---|---:|---:|---:|
-| CGOS16 | IPCA+ 7,70% (ANBIMA indicativa de 05/10) | IPCA+ 7,85%, R$ 3,1 mi | +69 pb na duration |
+| CGOS16 | IPCA+ 7,70% (ANBIMA indicativa de 05/10) | IPCA+ 7,87%, R$ 2,6 mi | +69 pb na duration |
 | CGOS28 | IPCA+ 7,69% (ANBIMA indicativa de 05/10) | IPCA+ 7,63%, R$ 842,4 mil | +72 pb na duration |
 | 22B0006022 (MRV (CRI em IPCA, única série)) | IPCA+ 13,12% (B3 negócios de 05/10) | R$ 748,6 mil | +617 pb no vencimento |
 | CRA025003UZ (Cooxupé (% do CDI, única série)) | 113,9% do CDI (B3 negócios de 05/10) | R$ 512,7 mil | - |
@@ -308,17 +306,17 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 05/10) foi I
 |---|---:|---:|---:|
 | SUMI17 (Giga Mais Fibra Telecomunica) | IPCA+ 14,24% (ANBIMA indicativa de 05/10) | IPCA+ 14,89%, R$ 62,9 mi | +718 pb na duration |
 | CCPV11 (Concessionaria De Rodovias P) | IPCA+ 7,12% (ANBIMA indicativa de 05/10) | sem taxa, R$ 54,0 mi | +10 pb na duration |
-| PEJA22 (Prio Forte S.A.) | IPCA+ 7,66% (ANBIMA indicativa de 05/10) | IPCA+ 7,72%, R$ 40,9 mi | +61 pb na duration |
 | ENEV18 (Eneva S.A.) | IPCA+ 7,43% (ANBIMA indicativa de 05/10) | IPCA+ 7,57%, R$ 34,2 mi | +36 pb na duration |
-| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 13,95% pré (ANBIMA indicativa de 05/10) | 13,18% pré, R$ 32,7 mi | - |
-| SBSPD4 (Cia Saneamento Basico Est. S) | IPCA+ 7,00% (ANBIMA indicativa de 05/10) | IPCA+ 7,08%, R$ 27,8 mi | +4 pb na duration |
+| PEJA22 (Prio Forte S.A.) | IPCA+ 7,66% (ANBIMA indicativa de 05/10) | IPCA+ 7,72%, R$ 30,9 mi | +61 pb na duration |
 | TAEE26 (Transmissora Alianca De Ener) | IPCA+ 6,98% (ANBIMA indicativa de 05/10) | IPCA+ 7,44%, R$ 27,0 mi | +4 pb na duration |
-| CPLDA1 (Copel  Distribuicao S/A) | IPCA+ 7,45% (ANBIMA indicativa de 05/10) | IPCA+ 7,87%, R$ 25,0 mi | +50 pb na duration |
+| MRSAB3 (Mrs Logistica S/A) | IPCA+ 7,28% (ANBIMA indicativa de 05/10) | IPCA+ 7,41%, R$ 23,6 mi | +34 pb na duration |
+| CEEBD1 (Cia. De Eletric. Do Est. Da ) | 13,95% pré (ANBIMA indicativa de 05/10) | 13,21% pré, R$ 22,7 mi | - |
+| CPLDA1 (Copel  Distribuicao S/A) | IPCA+ 7,45% (ANBIMA indicativa de 05/10) | IPCA+ 7,89%, R$ 22,1 mi | +50 pb na duration |
 
-**Fecharam taxa pela indicativa da ANBIMA:** BTEL23 -63,3 pb contra 02/10, para IPCA+ 9,68% (R$ 3,6 mi); RIS414 -63,3 pb contra 02/10, para IPCA+ 13,48% (R$ 9,8 mi); SBSPE9 -62,1 pb contra 02/10, para IPCA+ 6,95% (R$ 3,9 mi); AXIAA1 -61,4 pb contra 02/10, para IPCA+ 7,23% (R$ 3,5 mi); VBBRA0 -60,6 pb contra 02/10, para IPCA+ 7,50% (R$ 6,1 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** RIS414 -63,3 pb contra 02/10, para IPCA+ 13,48% (R$ 9,8 mi); BTEL23 -63,3 pb contra 02/10, para IPCA+ 9,68% (R$ 3,6 mi); SBSPE9 -62,1 pb contra 02/10, para IPCA+ 6,95% (R$ 3,9 mi); AXIAA1 -61,4 pb contra 02/10, para IPCA+ 7,23% (R$ 3,5 mi); VBBRA0 -60,6 pb contra 02/10, para IPCA+ 7,50% (R$ 6,1 mi).
 **Abriram taxa pelos negócios da B3:** CRA019003JY +22 pb contra 02/10, para IPCA+ 7,57% (R$ 3,1 mi); CRA023003JX +2 pb contra 02/10, para CDI+ 2,23% (R$ 3,5 mi).
-**Fecharam taxa pelos negócios da B3:** CRA02300HWK -149 pb contra 30/09, para 11,96% pré (R$ 3,4 mi); DGDE11 -68 pb contra 29/09, para IPCA+ 8,09% (R$ 3,6 mi); ECOA11 -67 pb contra 29/09, para IPCA+ 7,82% (R$ 3,2 mi); CRA02500B9M -2 pb contra 02/10, para CDI+ 3,24% (R$ 4,4 mi).
-**Prêmio alto:** CMIN11 a IPCA+ 14,70% (ANBIMA indicativa de 05/10), +763 pb na duration, R$ 7,2 mi; SUMI17 a IPCA+ 14,24% (ANBIMA indicativa de 05/10), +718 pb na duration, R$ 62,9 mi; SUMI19 a IPCA+ 14,09% (ANBIMA indicativa de 05/10), +702 pb na duration, R$ 8,8 mi; RIS414 a IPCA+ 13,48% (ANBIMA indicativa de 05/10), +641 pb na duration, R$ 9,8 mi; IRJS15 a IPCA+ 11,09% (ANBIMA indicativa de 05/10), +414 pb na duration, R$ 4,8 mi.
+**Fecharam taxa pelos negócios da B3:** 25F1669254 -308 pb contra 30/09, para IPCA+ 9,38% (R$ 17,9 mi); CRA02300HWK -149 pb contra 30/09, para 11,96% pré (R$ 3,4 mi); DGDE11 -68 pb contra 29/09, para IPCA+ 8,09% (R$ 3,6 mi); ECOA11 -67 pb contra 29/09, para IPCA+ 7,82% (R$ 3,2 mi); CRA02500B9M -2 pb contra 02/10, para CDI+ 3,24% (R$ 4,4 mi).
+**Prêmio alto:** SUMI17 a IPCA+ 14,24% (ANBIMA indicativa de 05/10), +718 pb na duration, R$ 62,9 mi; SUMI19 a IPCA+ 14,09% (ANBIMA indicativa de 05/10), +702 pb na duration, R$ 8,8 mi; RIS414 a IPCA+ 13,48% (ANBIMA indicativa de 05/10), +641 pb na duration, R$ 9,8 mi; IRJS15 a IPCA+ 11,09% (ANBIMA indicativa de 05/10), +414 pb na duration, R$ 4,8 mi.
 
 Por classe, mediana das taxas de referência dos papéis. Taxa de referência: nas debêntures, a indicativa da ANBIMA quando há; nos demais papéis, a média dos negócios da B3 ponderada pelo volume. Juro real = DAP (cupom de IPCA) da mesma data: na duration do papel quando a taxa é a indicativa, no vencimento quando é a dos negócios (aproximação). Em CRI e CRA a B3 informa a securitizadora.
 
@@ -349,3 +347,5 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 05/10 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_00_20261005.pdf
