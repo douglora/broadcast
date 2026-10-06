@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-02",
+ "pregao": "2026-10-05",
  "nome": "ProventionCreditVariable",
  "titulo": "Crédito de proventos",
  "sla": "00:00:00",
@@ -7,19 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-02T23:00:41.627",
+ "atualizado_em": "2026-10-05T21:30:37.34",
  "truncada": false,
  "linhas": [
-  ["ALLOS S.A", "BRALOSACNOR5 125", "DIVIDENDO", null, 0.291918638, "2026-10-02"],
-  ["ALUPAR INVESTIMENTO S/A", "BRALUPACNOR8 128", "DIVIDENDO", null, 0.07, "2026-10-02"],
-  ["ALUPAR INVESTIMENTO S/A", "BRALUPACNPR5 128", "DIVIDENDO", null, 0.07, "2026-10-02"],
-  ["ALUPAR INVESTIMENTO S/A", "BRALUPCDAM15 128", "DIVIDENDO", null, 0.21, "2026-10-02"],
-  ["ASSURANT INC", "BRA1SUBDR003 125", "DIVIDENDO", null, 0.776856061, "2026-10-02"],
-  ["DEL MONTE AJAX FII RESP LIM", "BRDLMTCTF004 166", "RENDIMENTO", null, 0.00081, "2026-10-02"],
-  ["JSL S.A.", "BRJSLGACNOR2 122", "DIVIDENDO", null, 0.740150001, "2026-10-02"],
-  ["META PLATFORMS, INC.", "BRM1TABDR009 110", "DIVIDENDO", null, 0.066202055, "2026-10-02"],
-  ["NEWMONT CORP", "BRN1EMBDR005 126", "DIVIDENDO", null, 0.918001613, "2026-10-02"],
-  ["RYANAIR HOLDINGS PLC", "BRR1YABDR004 106", "DIVIDENDO", null, 0.201134615, "2026-10-02"],
-  ["THE WILLIAMS COS INC", "BRW1MBBDR000 126", "DIVIDENDO", null, 1.853658777, "2026-10-02"]
+  ["BROOKFIELD CORPORATION", "BRB1AMBDR007 128", "DIVIDENDO", null, 0.065701114, "2026-10-05"],
+  ["CANADIAN NATIONAL RAILWAY CO", "BRCNICBDR007 129", "DIVIDENDO", null, 0.100784153, "2026-10-05"],
+  ["CORNING INC", "BRG1LWBDR008 127", "DIVIDENDO", null, 0.245283958, "2026-10-05"],
+  ["GILEAD SCIENCES, INC.", "BRGILDBDR000 142", "DIVIDENDO", null, 0.239444244, "2026-10-05"],
+  ["GOLDMAN SACHS GROUP INC.", "BRGSGIBDR008 164", "DIVIDENDO", null, 0.58400957, "2026-10-05"],
+  ["HARLEY-DAVIDSON INC", "BRH1OGBDR004 126", "DIVIDENDO", null, 0.656985539, "2026-10-05"],
+  ["STMICROELECTRONICS NV", "BRSTMNBDR009 127", "DIVIDENDO", null, 0.382946999, "2026-10-05"],
+  ["T ROWE PRICE GROUP INC", "BRT1ROBDR007 127", "DIVIDENDO", null, 2.277637581, "2026-10-05"],
+  ["WISDOMTREE FLOATING RATE TREASURY FUND", "BRBUSFBDR006 137", "DIVIDENDO", null, 0.1112, "2026-10-05"],
+  ["WISDOMTREE YIELD ENHANCED US AGGREGATE BOND FUND", "BRBAGYBDR004 137", "DIVIDENDO", null, 0.157954545, "2026-10-05"]
  ]
 }

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-02",
+ "pregao": "2026-10-05",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-02T18:50:23.043",
+ "atualizado_em": "2026-10-05T18:55:07.567",
  "truncada": false,
  "linhas": [
-  ["RCFA11", "CI", 0.1, -89.24],
-  ["C1TV34", "DRN EC", 50.4, -49.99],
-  ["FPOR11", "CI", 18, -49.03],
-  ["CTAX3", "ON", 1.2, -34.42],
-  ["FMOF11", "CI", 31, -20.51],
-  ["SJAU11", "CI", 1, -20],
-  ["VJFD11", "CI  ER", 135, -19.8],
-  ["MAPT4", "PN", 2.5, -16.66],
-  ["VIVR12", "BNS ORD NM", 0.06, -14.28],
-  ["RCSL3", "ON", 0.43, -14]
+  ["C1TV34", "DRN EC", 25.2, -50],
+  ["KNCR12", "DIR", 0.44, -46.34],
+  ["VVCO11", "CI", 9.68, -25.53],
+  ["W1YC34", "DRN", 92.9, -22.01],
+  ["TOKY11", "BNS ORD NM", 0.39, -22],
+  ["ABUD34", "DRN", 62.45, -21.93],
+  ["MAPT4", "PN", 2, -20],
+  ["AZUL98", "UNT     N2", 5.95, -16.19],
+  ["SOND5", "PNA     MP", 75.01, -16.09],
+  ["NETE34", "DRN", 59.61, -14.85]
  ]
 }

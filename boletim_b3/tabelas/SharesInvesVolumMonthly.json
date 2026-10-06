@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-01",
+ "pregao": "2026-10-05",
  "nome": "SharesInvesVolumMonthly",
  "titulo": "Participação dos investidores mensal",
  "sla": null,
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Tipos de investidores"}, {"nome": "VistaRS", "titulo": "À vista: R$"}, {"nome": "VistaPart", "titulo": "À vista: (%)"}, {"nome": "TermRS", "titulo": "A termo: R$"}, {"nome": "TermPart", "titulo": "A termo: (%)"}, {"nome": "OptionsRS", "titulo": "Opções: R$"}, {"nome": "OptionsPart", "titulo": "Opções: (%)"}, {"nome": "OptionsExerciseRS", "titulo": "Exercícios de opções: R$"}, {"nome": "OptionsExercisePart", "titulo": "Exercícios de opções: (%)"}, {"nome": "BlockRS", "titulo": "Blocos: R$"}, {"nome": "BlockPart", "titulo": "Blocos: (%)"}, {"nome": "GeneralTotalRS", "titulo": "Total geral: R$"}, {"nome": "GeneralTotalPart", "titulo": "Total geral: (%)"}],
- "texto": ["Contribuição de diferentes perfis de investidores no volume total de negociações realizadas na B3 no mês anterior. Total de dados acumulados (Compras + Vendas) por tipo de Mercado do mês anterior (Agosto)."],
+ "texto": ["Contribuição de diferentes perfis de investidores no volume total de negociações realizadas na B3 no mês anterior. Total de dados acumulados (Compras + Vendas) por tipo de Mercado do mês anterior (Setembro)."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-01T00:00:00",
+ "atualizado_em": "2026-10-05T00:00:00",
  "truncada": false,
  "linhas": [
-  ["Institucionais", 274811942485, 25, 3210659580, 76, 12864823128, 24, 33764364596, 31, 9119407696, 47, 333771197484, 26],
-  ["Investidor Estrangeiro", 638327183953, 59, 46241061, 1, 27878352759, 52, 63957965295, 58, 9247364536, 47, 739457107604, 58],
-  ["Investidores Individuais", 123153694029, 11, 668835312, 16, 10048287771, 19, 3815054755, 3, 38466011, 0, 137724337879, 11],
-  ["Outros", 10306380095, 1, 49762243, 1, 566538537, 1, 96250735, 0, 15075372, 0, 11034006982, 1],
-  ["Instituições Financeiras", 33313752342, 3, 226608860, 5, 2438916616, 5, 8561564487, 8, 1188830948, 6, 45729673253, 4]
+  ["Institucionais", 272560527318, 23, 2656525578, 72, 11329952392, 19, 44766780195, 34, 7716331558, 39, 339030117040, 24],
+  ["Investidor Estrangeiro", 745195902476, 63, 148751304, 4, 32455251782, 55, 74710092051, 57, 10964994081, 56, 863474991694, 62],
+  ["Investidores Individuais", 130147297729, 11, 625443714, 17, 12309829867, 21, 3723686613, 3, 207395152, 1, 147013653075, 11],
+  ["Outros", 6506822152, 1, 149382317, 4, 634516807, 1, 162183334, 0, 8443234, 0, 7461347844, 1],
+  ["Instituições Financeiras", 30203914500, 3, 123261770, 3, 1950666576, 3, 8337625123, 6, 789032034, 4, 41404500004, 3]
  ]
 }

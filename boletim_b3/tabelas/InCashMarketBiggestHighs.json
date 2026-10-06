@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-02",
+ "pregao": "2026-10-05",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-02T18:50:22.683",
+ "atualizado_em": "2026-10-05T18:55:07.093",
  "truncada": false,
  "linhas": [
-  ["GFSA3", "ON      NM", 0.27, 12.5],
-  ["PLAS3", "ON", 3.27, 12.75],
-  ["SOND5", "PNA     MP", 89.4, 14.61],
-  ["A2ZT34", "DRN", 16.83, 14.72],
-  ["DAMA11", "CI", 6.54, 14.93],
-  ["BIOM12", "DIR     N2", 4.33, 16.71],
-  ["GFSA12", "BNS ORD NM", 0.11, 22.22],
-  ["AMBP3", "ON      NM", 0.11, 22.22],
-  ["ABUD34", "DRN", 80, 25.72],
-  ["PABY11", "CI", 27.13, 42.86]
+  ["MGLU3", "ON      NM", 9.45, 24.17],
+  ["MOVI3", "ON      NM", 13.5, 24.42],
+  ["XPBR31", "DR1", 139.61, 24.42],
+  ["ECOR3", "ON      NM", 12.33, 24.67],
+  ["P2TC34", "DRN", 64.27, 25.89],
+  ["LJQQ3", "ON      NM", 1.95, 26.62],
+  ["AMBP3", "ON      NM", 0.15, 36.36],
+  ["AZUL97", "UNT     N2", 5.49, 37.25],
+  ["GSHP3", "ON", 4.47, 61.37],
+  ["RCFA11", "CI", 0.68, 580]
  ]
 }

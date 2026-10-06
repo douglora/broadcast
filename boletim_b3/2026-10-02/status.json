@@ -1,11 +1,11 @@
 {
  "pregao": "2026-10-02",
- "situacao": "publicando",
- "errata": false,
- "atualizado_em": "2026-10-03T10:52:47.18",
+ "situacao": "publicado",
+ "errata": true,
+ "atualizado_em": "2026-10-02T00:00:00",
  "completo": {
-  "arquivo": "",
-  "pdf": ""
+  "arquivo": "BDI_03-4_20260901.pdf",
+  "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-02/BDI_03-4_20260901.pdf"
  },
  "cadernos": [
   {
@@ -13,8 +13,8 @@
    "nome": "Renda fixa",
    "pai": null,
    "situacao": "publicado",
-   "errata": false,
-   "atualizado_em": "2026-10-03T06:21:57.887",
+   "errata": true,
+   "atualizado_em": "2026-10-05T08:26:30.013",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-03T10:52:47.18",
+   "atualizado_em": "2026-10-05T10:54:14.993",
    "arquivo": "",
    "pdf": ""
   },
@@ -52,11 +52,11 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-03T06:13:18.743",
-   "arquivo": "BDI_02-3_20261002.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-02/BDI_02-3_20261002.pdf"
+   "atualizado_em": "2026-10-05T00:42:01.083",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 31,
@@ -82,9 +82,9 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-03T06:22:53.323",
+   "atualizado_em": "2026-10-05T18:30:38.203",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,11 +102,11 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-03T06:12:57.2",
-   "arquivo": "BDI_04-2_20261002.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-02/BDI_04-2_20261002.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-05T08:04:42.457",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 43,
