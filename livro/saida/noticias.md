@@ -1,8 +1,26 @@
-NOTÍCIAS E FATOS · 06/10 17h21
+NOTÍCIAS E FATOS · 06/10 18h13
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 43 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 428 veículo fora da lista, 42 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (23)
+## NOTÍCIAS COM MATERIALIDADE (25)
+
+[ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
+Investing.com · 06/10 17h59 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/evercore-isi-raises-marvell-stock-price-target-on-ai-growth-outlook-93CH-4935208
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MRVL
+Como falar: 'saiu no Investing.com: Evercore ISI raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 06/10 17h59
+id: E05-MRVL-b8fd065ffb-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
+Investing.com · 06/10 17h36 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/marvell-stock-gets-295-target-reiterated-by-raymond-james-on-ai-outlook-93CH-4935181
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Investing.com: Marvell stock gets $295 target reiterated by Raymond James on AI outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 06/10 17h36
+id: E05-MRVL-ff24d4c234-2026-10-06 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Marvell Stock Soars After Raising 2028 Guidance
 Yahoo Finance · 06/10 16h56 · fonte única · licença: resumo
@@ -18,7 +36,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MRVL
 Como falar: 'saiu no Yahoo Finance: Marvell Stock Soars After Raising 2028 Guidance; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/10 16h56
-id: E05-MRVL-cf8c6a0d31-2026-10-06 · status: pendente
+id: E05-MRVL-cf8c6a0d31-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27
 Yahoo Finance · 06/10 12h45 · fonte única · licença: resumo
@@ -300,8 +318,21 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (131)
+## OUTRAS NOTÍCIAS (só manchete) (144)
 
+· USDBRL Dólar cai 0,51% e fecha a R$ 4,976; Ibovespa recua 0,53% (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-051-e-fecha-a-r-4976-ibovespa-recua-053/
+· USDBRL Dólar fecha abaixo de R$ 5,00 pela 1ª vez desde maio com eleição e exterior (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/06/dolar-fecha-abaixo-de-r-500-pela-1-vez-desde-maio-com-eleicao-e-exterior.htm
+· USDBRL ‘Efeito Flávio’ comprime prêmio até no dólar ‘on/off’ e reforça alívio no risco Brasil (Valor Economico) https://valor.globo.com/financas/intraday/post/2026/10/efeito-flavio-comprime-premio-ate-no-dolar-onoff-e-reforca-alivio-no-risco-brasil.ghtml
+· USDBRL Dólar canadense cai perto de mínima de 18 meses apesar de superávit (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-cai-perto-de-minima-de-18-meses-apesar-de-superavit-2084887
+· BRENT Wall Street shares notch records as oil prices stabilize, bond yields retreat (Reuters) https://www.reuters.com/world/china/global-markets-global-markets-2026-10-06/
+· MU Why 1 Veteran Analyst Says Micron Stock Could Nearly Double Soon (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:cc0dfe2f4094b:0-why-1-veteran-analyst-says-micron-stock-could-nearly-double-soon/
+· USDBRL Ibovespa recua com realização de lucros após ‘trade Flávio’; dólar cai a R$ 4,97 (Money Times) https://www.moneytimes.com.br/ibovespa-6-10-26-apsa/
+· ITUB4 Itaú BBA reforça compra para Brasil e aponta 4 ações que ficaram para trás no rali eleitoral (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/itau-bba-reforca-compra-para-brasil-e-aponta-4-acoes-que-ficaram-para-tras-no-rali-eleitoral/
+· AMD Citi Resets AMD Stock Price Target For 2026 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1ce8c6df7094b:0-citi-resets-amd-stock-price-target-for-2026/
+· JPM Jamie Dimon Warns AI Cyber Risks Are ‘Real’ As JPMorgan Banks Anthropic And The AI Boom (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jamie-dimon-warns-ai-cyber-200928687.html
+· ETH 21shares Extends 100% Sponsor Fee Waiver for the 21shares Ethereum Staking ETF (TETH) Through October 8, 2027 (GlobeNewswire) https://news.google.com/rss/articles/CBMiiAJBVV95cUxNS25MOEhSSTMtY2xwOVcwZmFPbFYwT3lObWxSRmxxTmcxMUtsMVVlU3dUb2NZVGtnbXNzQXJPRzNTaFBSYm95VVdER2VEdGxXU0w0bVJodE83U051dWtSTVZIdldBRXJpeEtydHFLam5HczJweUF1anFkb3N3akJ3WGFWSHBPUkVOS05hOVhPQjhoX1RwR0liMzlEU180U05kbFBiWFFwREpPQjJhZl8tMDloMnhYcjBHTGVYMzRqSXQ2MkNfWmIzZzZGajFtUTF1VExiVEUtQVRubzkxTlNuMlRMSEdJRjVpV0hrVzEtb19RVnZEbVNXb1o0NWFYa3hFVFo1Q1dmOTA?oc=5
+· BBDC4 Rali vira o jogo entre os bancos: JPMorgan põe BB sob pressão e vê mais fôlego no Bradesco (Estadao) https://news.google.com/rss/articles/CBMi2wFBVV95cUxONmVfYmduSzZhNmFoNXFUd010VmFGRFFHTmlBbEFZYkZBa3h4SnRQeDVtakE1UG1wcEh6QUxHODltckFNUU5VQW5TTzNBamstTGVLZFBDQ0RRNm5nT0lOTWRTMkpYOXhZdkdYcVpDTWZVa1RKcDJLejRkUEpfczhFOE9XeWtjenhfNktWM0ZkcFlkdWFJYkNoaXZOX00zM29GZDVXVFhRYzdORUZKNlVTZEpMSTAzSDgzbW40LXVsSk8wNkc1UVJxY19WQ1UwaEo1MUhPRHFjdE90ZTDSAeABQVVfeXFMT1VRazFoNUtyTTB2MVNSamJtT2dsS1VHT1lsZEI2YmpOajVVemJmdGhlbHRjQktXMThwak9Fbi0xdnhna1pzdnIwdDk5S2QyTGdxcTFqc19TbkpIX2xXUVEwSFNpc01vYVVLVlpXektoNkpDWDRTTGxHbEd3eDI5Wm1vdEh1c09TNzlMWXBrSG1feGRUYWNFT2Z6UlRpR1o1Uno3dFd6Sy1jVUF1ZTNpOEFaWGpaZ0ZQLUxHSUpCeXlXYmlIMXFsU3JRbHBhd2Z3aUhkcDM0dGNfQlEwbUI2Ukk?oc=5
+· MRVL Marvell's bullish revenue outlook (CNBC) https://news.google.com/rss/articles/CBMigAFBVV95cUxNMmhhWVVBSFR4WV9NMzRCNFptaThNQWJDZzlNbHhkZnJvOFVDS3Brd1hhVF9lQ0hramJ3VHpjak1TdlJ2Q2w0X0gxNGdUZFBkWDI5aS0tNV9rUlIzNU1BSm1ZaFl3NGx1cnM5QzlBOUxKOFFKZjdHRjBqbm1yZkhrLQ?oc=5
 · USDBRL Dólar à vista fecha em baixa de 0,55%, a R$4,9745 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-055-a-r49745-na-venda-2084841
 · INTC Intel to Report Third-Quarter 2026 Financial Results (Business Wire) https://www.businesswire.com/news/home/20261006035488/en/Intel-to-Report-Third-Quarter-2026-Financial-Results
 · USDBRL Dólar cai mais ou é hora de comprar? Com moeda abaixo dos R$ 5, veja o que dizem analistas (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/06/dolar-cai-mais-ou-e-hora-de-comprar.ghtml
@@ -349,17 +380,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · AMD AMD CEO Lisa Su Sounds Alarm as AI Chip Demand Surges (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a5db7731c094b:0-amd-ceo-lisa-su-sounds-alarm-as-ai-chip-demand-surges/
 · UST S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips (Reuters) https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/
 · UGPA3 Resultado das eleições 2026 em Ipiranga de Goiás (GO): votação para presidente na Escola Municipal Damião Barreto Ue-Mun, na 76ª zona eleitoral (g1) https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-de-goias-go-votacao-para-presidente-na-escola-municipal-damiao-barreto-ue-mun-na-76a-zona-eleitoral.ghtml
-· BTC Genius Group Restarts Bitcoin Buying With 10 BTC Purchase (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:d11a98d5f094b:0-genius-group-restarts-bitcoin-buying-with-10-btc-purchase/
-· SMAL11 Eleições acendem o pavio e small caps explodem na Bolsa; veja as mais indicadas (InfoMoney) https://www.infomoney.com.br/onde-investir/eleicoes-acendem-o-pavio-e-small-caps-explodem-na-bolsa-veja-as-mais-indicadas/
-· MU Micron Q4 Blowout: Why The Memory Supercycle Still Has Runway (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952262-micron-q4-blowout-why-memory-supercycle-still-has-runway
-· JPM JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more' (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-ceo-jamie-dimon-sharpens-warning-about-a-corporate-credit-squeeze-the-market-will-ask-for-more-151359247.html
-· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/jpmorgan-shares-may-move-32-on-oct-13-earnings-report-93CH-4868214
-· NVDA ETFs to Buy as NVIDIA Marches Toward $6 Trillion Market Cap (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxQNlh2WVc3ckU2QUx5Unk5bzhiaS1nSGNXYkdPN1hxX1Baa0hhU0VlbjVRbGtpam45U0NMRWtOMURldGtVeWV4NlBUU0pHOFQ2amZ3RDVQdDc3eVp3N0VGTy1USG12c2ZLUUFCUzluZ1dhcG9od09FUHlLRWcweTNIc3oxRVpYb2VES3RYQU40NkFoRDZDTGhoUDBBcXF5V3FnM2JJQlZvcG5WY1RvU3FQOTdSdXk?oc=5
-· MU How Has Micron's Story Changed? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGtPbXc4SHRLcTItR19hU2U0VW9nNHk4cmhyd1YxWGtnVWUzdWh5Z054XzVLQ2J6WjE0N1Z6N21XeGNXdUpEVmw1VjYyYzBtcXJrZm5tWWFWNmFZR3RWODlfNndySFBzR3FBNWMwUUkxejBDQldOMVlKX3J2bVQzRmFZNkluTFR3Z2Vqcmh2MA?oc=5
-· MMM MPC Targets 3M Barrels per day in Q3: Can Strong Throughput Continue? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmxqaXh5ZENXQWE5YVdiNWhFaVlRaXpRaEsxaWhhTE40Q1ZLdGNsd2JxOEpaeS1CMGVwbV9JMGxpOW9QaDhqSlBUbXNfSUF5SWVYWG1GMUNpdmY2ZzNTdW1Vb21XS3VZd25XNUViTzUtOEFQSWt6QWozaGE3VGt0Tm5KcnBYak9XUS1McEdsUHRIeGt3c0ZObnhibGl1NmctUXFmT0k2NDVDLTUybm9vb1RWU09QeHlQbnBwc0hwSko?oc=5
-· MMM 3M Rises 12.9% in the Past Six Months: Is There Still Room to Grow? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivAFBVV95cUxPVjJ0Ylo5MllDaHhmUFRMRG1Db2Z6ZUxhNFZla1ZHbFpmR2MyUjJ0TGQ3VW0tVU1XVnNBbGUwXzJ5RHdBcG1qLVRnNEhkNWV5SGdpRUlGZTBTR1JYV3daNFJBZF9sX1RaLTkzWDRFZUlsaE80QW9OZlhHc0NVMExTd1pNNDRLaDdPMkxkT216c21mSGpGR2t0ZkVEZnJpSzJJbkVKa0ZlRWpaTFN3b0pBY21GQml0RDNpbVRGdA?oc=5
-· UGPA3 Resultado das eleições 2026 em Ipiranga de Goiás (GO): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-de-goias-go-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
-· NVDA Nvidia: Plenty Of Reasons To Worry, But The Stock Keeps Cooking (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952266-nvidia-plenty-of-reasons-to-worry-but-stock-keeps-cooking
-· AVGO Broadcom: When The Story And The Stock Disagree (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952265-broadcom-when-the-story-and-the-stock-disagree
-· MU Micron: The Market Still Doesn’t Get It (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952264-micron-the-market-still-doesnt-get-it
-· (+71 manchetes; lista completa em eventos/noticias.json)
+· (+84 manchetes; lista completa em eventos/noticias.json)
