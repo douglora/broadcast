@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 06/10 15h51
+NOTÍCIAS E FATOS · 06/10 16h21
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 431 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias; falhas ['JPM']
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 435 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## NOTÍCIAS COM MATERIALIDADE (22)
 
@@ -22,7 +22,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Strike launches 3.6% interest on cash, paid out in Bitcoin; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 06/10 13h21
-id: E05-BTC-16b4645ac7-2026-10-06 · status: pendente
+id: E05-BTC-16b4645ac7-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
 Yahoo Finance · 06/10 13h16 · fonte única · licença: resumo
@@ -38,7 +38,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MRVL
 Como falar: 'saiu no Yahoo Finance: Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Re…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/10 13h16
-id: E05-MRVL-1a0c2dc1f4-2026-10-06 · status: pendente
+id: E05-MRVL-1a0c2dc1f4-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50
 InfoMoney · 06/10 08h14 · fonte única · licença: resumo
@@ -54,7 +54,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: USDBRL
 Como falar: 'saiu no InfoMoney: Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 06/10 08h14
-id: E05-USDBRL-d9977e210f-2026-10-06 · status: pendente
+id: E05-USDBRL-d9977e210f-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão
 ADVFN · 06/10 13h41 · fonte única · licença: manchete
@@ -284,8 +284,18 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (106)
+## OUTRAS NOTÍCIAS (só manchete) (116)
 
+· USDBRL Ouro sobe com recuo do dólar e dos rendimentos dos Treasuries (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/ouro-sobe-com-recuo-do-dolar-e-dos-rendimentos-dos-treasuries.ghtml
+· DI Febraban: metade dos bancos prevê corte de 0,25 pp na Selic em novembro e 13,50% no fim do ano (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/06/febraban-metade-dos-bancos-preve-corte-de-025-pp-na-selic-em-novembro-e-1350-no-fim-do-ano.htm
+· MRVL What Marvell's rosy long-term guidance means for our AI chip stocks (CNBC) https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html
+· TSM TSMC Q3 Earnings: Strong AI Demand Sets the Bar High for Growth (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tsmc-q3-earnings-strong-ai-180000931.html
+· UGPA3 Resultado das eleições 2026 em Ipiranga (PR): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/google/amp/pr/parana/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-pr-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
+· USDBRL Bolsa aos 200 mil, dólar abaixo de R$ 5 e DI em queda: onde colocar R$ 10 mil agora? (Exame) https://exame.com/invest/onde-investir/bolsa-aos-200-mil-dolar-abaixo-de-r-5-e-di-em-queda-onde-colocar-r-10-mil-agora/
+· MRVL Ciena stock jumps on positive industry commentary from Marvell, Nokia By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/ciena-stock-jumps-on-positive-industry-commentary-from-marvell-nokia-93CH-4868328
+· BBAS3 JPMorgan rebaixa Banco do Brasil (BBAS3) para venda e ação cai mais de 5% (Suno Noticias) https://www.suno.com.br/noticias/jpmorgan-rebaixa-banco-do-brasil-bbas3-acao-cai-go/amp/
+· GOOGL Alphabet Inc. (GOOG) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/GOOG/
+· MRVL Marvell Technology stock rallies following ambitious investor day targets (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stock-rallies-following-142513133.html
 · BBAS3 Banco do Brasil (BBSA3): O balde de água fria que faz ação despencar 6% nesta terça-feira (6) (Money Times) https://www.moneytimes.com.br/banco-do-brasil-bbsa3-o-balde-de-agua-fria-que-faz-acao-despencar-6-nesta-terca-feira-6-rnda/
 · MRVL Marvell just impressed Wall Street with ‘good numbers plus a better story’ (MarketWatch) https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23
 · UST Update: Big Tech Pushes US Equity Indexes Higher Amid Lower Treasury Yields (Yahoo Finance) https://ca.finance.yahoo.com/news/big-tech-pushes-us-equity-182432745.html
@@ -336,14 +346,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · JPM JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more' (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-ceo-jamie-dimon-sharpens-warning-about-a-corporate-credit-squeeze-the-market-will-ask-for-more-151359247.html
 · GOOGL Why Do Investors Like Alphabet (GOOG, GOOGL) Despite AI Search Threats? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-investors-alphabet-goog-googl-150418735.html
 · JPM JPMorgan’s Dimon warns of tenfold rise in cyber risk from AI (Investing.com) https://www.investing.com/news/economy-news/jpmorgans-dimon-warns-of-tenfold-rise-in-cyber-risk-from-ai-4934894
-· ITUB4 Banco gosta de trabalhar com juros abaixo de dois dígitos, o que permite impulsionar a economia, diz CEO do Itaú (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/banco-gosta-de-trabalhar-com-juros-abaixo-de-dois-digitos-o-que-permite-impulsionar-a-economia-diz-ceo-do-itau.ghtml
-· GOOGL Tech Mahindra Expands Agentic AI Readiness With Google Cloud Gemini Enterprise (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45S0TL:0-tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise/
-· MRVL Marvell Stock Surges After CEO Announces Huge Long-Term Revenue Target (Barron's) https://www.barrons.com/articles/marvell-stock-technology-ai-chips-ba886070
-· JPM JPMorgan's Dimon: Anthropic's Mythos raised cybersecurity risks by about 10-fold (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4650569-jpmorgans-dimon-anthropics-mythos-raised-cybersecurity-risks-by-about-10-fold
-· BBAS3 JP Morgan rebaixa Banco do Brasil e ações caem após rali da véspera (UOL Economia) https://news.google.com/rss/articles/CBMixgFBVV95cUxOZHkyWFRWcjdJcnhndHZianVjSGM2dmJZS3M5MEMxdFY0TW9DbV9uMEYtaDhqdGRxeVlkUVJOeDFiWTUzV25NRDh5UFY1U3JidzJuX1p6VjJvQjFYZVhhemlCaHBXTFFXaGw1SHRxX3NfX3prUm50YUZWcGE4a1FpSzRIRzl0aGE0QmlLU2dPX01XbjV2dWtaaGdKVDJlNUk1cW1PQVNzdk9scTRSMWIwWWRjOFdTOW1pYk5RWHZjaFA3dzJwY1E?oc=5
-· MRVL Marvell Technology stock rallies following ambitious investor day targets (Yahoo Finance) https://news.google.com/rss/articles/CBMilgFBVV95cUxPeW1qQjF1Q2ZXbldRX2ZlU1pnWVdmYzRMWUo1UFczMG1VLVp3bWV5SkRkVjVxNjhHNUVHMGNWcE1SV0JwMldFYmFzT2hMenRZaVNmMmdSbXlySDVneFNRQlNMM1VSb1hsQVJ4S1l3NkJiZjM0cGUxZ0VUX1RGZU5kVm1jNENScXdodVhIS3l3dkZBNFlJeEE?oc=5
-· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report (Investing.com) https://news.google.com/rss/articles/CBMitgFBVV95cUxPSU5sZVRKbTFzcDRGNjVwMGtac3RsZHo0WndBWkFubjNJRmdjak9kaThhQjRHdENaRV9CakNtUWVDcll6bDNrZjJXYy1kUjZKWFFXV1pKUjc3UElLdkdyUEo2UG5MU2I3Qmk2Q3Y3cWZtYkdkZkJGcjFNejdqWFdBaW5XczVqVG9fS2dWbnp0UmZQV2FCVlFrVzRpME44VFlQT3htUkIzYWlsOXpZYlgwOVhJUTRTQQ?oc=5
-· MRVL Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters) https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDJISmlqQ09tSDQ4NnNJNElrbWtnQlpVZGlrd3NCQjlvVktSMm00UE1JZDBHZGFqOUVUWjUxbU1KcTM4NXBCMDdGSUY4UW9kd202NzFXT0NBTzdFQU5xbmdqMWFYelRYVmNRTnhDNmlpdlJRODVCMHVpZ21XWnRldHVDd3p6RjJlQjRTMWZiMnE3LTVJM1FMZW1yaktxNHNDQnBTc2ZnZ3JZYjVsZnhj?oc=5
-· MRVL Marvell jumps after boosting guidance at investor day (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitwFBVV95cUxNaDkzOG1LX0JmM2lCbzVTTjd2TGNTRnBORTZRcHJ0Z2toVnByYllKbWpoR2RqVW52VWhwRVA3d3M4clZVZDlXcjE3MW1zUEtJM3FPT2FlX2xWN0ZBVHZ4b3dhTHRVVUJwNE1iVEtzM2NiZnlKREdiS05RVXQtbm1aWGVleWFxOEhIV1ZXTnhHRTBMdXNHOXhjTVdIWnN6V3YyZVFQcmpMdlpNcHRpek1rczA1TUlDcjA?oc=5
-· NVDA Nvidia: Smart Money Is Pounding The Table (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZVdDY21waW1RRUFsdFNBZVVOVzhUMWhHSHdOWFQ1MG5tZzN0N0E3N1RuX0xuNUNSVTd0OWtuTlp3MzZMS0ZrSXM0Sng0eWQwcWtYM3pKS3JYbzF2a2pDTjJPVzltU2piXzFqVmVnc3V5bW94QnptdE1sZFBGUXZ4bUtSX1lJeWNN?oc=5
-· (+46 manchetes; lista completa em eventos/noticias.json)
+· (+56 manchetes; lista completa em eventos/noticias.json)
