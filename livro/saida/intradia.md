@@ -1,16 +1,15 @@
 ALERTAS · intradia
 
-[ATENÇÃO] E05 · BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
+(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
 TradingView (Reuters) · 06/10 13h21 · fonte única · licença: manchete
 Link: https://www.tradingview.com/news/cryptobriefing:b3d87d790094b:0-strike-launches-3-6-interest-on-cash-paid-out-in-bitcoin/
 Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): Strike launches 3.6% interest on cash, paid out in Bitcoin; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 06/10 13h21
-Push: intradia: 3 alertas de atenção — E05 BTC, E05 MRVL, E05 USDBRL · detalhe na sessão
 ids: E05-BTC-16b4645ac7-2026-10-06
 
-[ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
+(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
 Yahoo Finance · 06/10 13h16 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031 - Marvell targets more than $12 billion in custom revenue in fiscal 2029.
@@ -26,7 +25,7 @@ Como falar: 'saiu no Yahoo Finance: Marvell Investor Day: MRVL Stock Rockets As 
 Fonte: Yahoo Finance 06/10 13h16
 ids: E05-MRVL-1a0c2dc1f4-2026-10-06
 
-[ATENÇÃO] E05 · USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50
+(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50
 InfoMoney · 06/10 08h14 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Após o rali registrado na segunda-feira (5), o banco ainda projeta ganhos de 15% a 20% ou mais até o fim de 2026, além de enxergar espaço para novos avanços em 2027 em direção ao seu cenário otimista de 250 mil pontos p…
@@ -42,21 +41,29 @@ Como falar: 'saiu no InfoMoney: Morgan eleva Brasil a compra, vê Ibovespa até 
 Fonte: InfoMoney 06/10 08h14
 ids: E05-USDBRL-d9977e210f-2026-10-06
 
+[ATENÇÃO] E05 · GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27
+Yahoo Finance · 06/10 12h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27 All three major US stock indexes were up in late-morning trading Tuesday, as oil prices and T…
+Link: https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-google-strikes-154555706.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: GOOGL · MRVL
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 12h45
+Push: [ATENÇÃO] GOOGL · Top Midday Stories · detalhe na sessão
+ids: E05-GOOGL-070d6eeb97-2026-10-06
+
 Info (só linha no Fechamento):
-· E05 BTC · Are Binance Users Selling Ethereum for Bitcoin?
-· E05 MU · Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy (NASDAQ:MU)
-· E05 MU · Micron Stocks Edge Lower as 2027 Memory Peak Tests Record Margins
-· E05 MRVL · Marvell Jumps 10% After Raising Its 2028 Revenue Target
-· E05 USDBRL · Euro cai frente ao dólar: uma crise financeira se aproxima?
-· E05 NVDA · Nvidia Stocks Rise 1.4% as Power Crunch Spares 2027 Forecasts
-· E05 BBAS3 · Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4, VALE3 e BBAS3
-· E05 ITUB4 · Resultado das eleições 2026 em Itaú (RN): como foi a votação no seu local de votação; consulte por zona eleitoral
-· E05 USDBRL · Bitcoin hoje ganha fôlego com alívio no dólar, mas Treasuries podem ditar próximos movimentos
-· E05 BTC · Strive's Matt Cole Says Bitcoin Could Hit $500,000 By The End Of 2030
-· E05 TSLA · Tesla’s Delivery Beat Is Just the ‘Appetizer,’ Analyst Says 2027 Could Be the Main Event
+· E05 BBAS3 · Banco do Brasil (BBSA3): O balde de água fria que faz ação despencar 6% nesta terça-feira (6)
+· E05 MRVL · Marvell just impressed Wall Street with ‘good numbers plus a better story’
+· E05 UST · Update: Big Tech Pushes US Equity Indexes Higher Amid Lower Treasury Yields
+· E05 PLTR · Palantir: Bullish AI Case Has Never Looked More Exciting (NASDAQ:PLTR)
+· E05 TSLA · Tesla Stocks Gain as 486,532 Deliveries Reset the Bar
+· E05 MU · Micron: Wishful Thinking At Its Finest
 
 
 Alertas do dia (todos, com status):
+· pendente  E05 GOOGL — GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Const
 · pendente  E05 BTC — BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
 · pendente  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
 · pendente  E05 USDBRL — USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a 
@@ -65,7 +72,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SP
 · entregue  E05 MRVL — MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 bil
 · entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
 · entregue  E05 JPM — JPM · JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What
 · entregue  E05 TSLA — TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, 
@@ -76,7 +82,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 BTC — BTC · Why bitcoin is down 'just' 32% a year after its record high of $126,000
 · entregue  E05 KO — KO · Want Income for Life? Coca-Cola Has Raised Its Dividend for 64 Straight Yea
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
-· linha     F01 USDBRL — Real sobe: USD/BRL 4,9775 (-4,5% em 5 sessões) (parcial, intradia)
+· linha     F01 USDBRL — Real sobe: USD/BRL 4,9755 (-4,6% em 5 sessões) (parcial, intradia)
 · linha     F03 BRENT — Brent cai a US$ 98,32 (cruzou US$ 100) (parcial, intradia)
-· (+104 notícias só manchete, em noticias.md)
+· (+110 notícias só manchete, em noticias.md)
 

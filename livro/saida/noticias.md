@@ -1,8 +1,19 @@
-NOTÍCIAS E FATOS · 06/10 15h22
+NOTÍCIAS E FATOS · 06/10 15h51
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 437 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 431 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias; falhas ['JPM']
 
-## NOTÍCIAS COM MATERIALIDADE (21)
+## NOTÍCIAS COM MATERIALIDADE (22)
+
+[ATENÇÃO] E05 · GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27
+Yahoo Finance · 06/10 12h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27 All three major US stock indexes were up in late-morning trading Tuesday, as oil prices and T…
+Link: https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-google-strikes-154555706.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: GOOGL · MRVL
+Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 12h45
+id: E05-GOOGL-070d6eeb97-2026-10-06 · status: pendente
 
 [ATENÇÃO] E05 · BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
 TradingView (Reuters) · 06/10 13h21 · fonte única · licença: manchete
@@ -273,8 +284,14 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (100)
+## OUTRAS NOTÍCIAS (só manchete) (106)
 
+· BBAS3 Banco do Brasil (BBSA3): O balde de água fria que faz ação despencar 6% nesta terça-feira (6) (Money Times) https://www.moneytimes.com.br/banco-do-brasil-bbsa3-o-balde-de-agua-fria-que-faz-acao-despencar-6-nesta-terca-feira-6-rnda/
+· MRVL Marvell just impressed Wall Street with ‘good numbers plus a better story’ (MarketWatch) https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23
+· UST Update: Big Tech Pushes US Equity Indexes Higher Amid Lower Treasury Yields (Yahoo Finance) https://ca.finance.yahoo.com/news/big-tech-pushes-us-equity-182432745.html
+· PLTR Palantir: Bullish AI Case Has Never Looked More Exciting (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4952310-palantir-bullish-ai-case-has-never-looked-more-exciting
+· TSLA Tesla Stocks Gain as 486,532 Deliveries Reset the Bar (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d1e6d3fa3094b:0-tesla-stocks-gain-as-486-532-deliveries-reset-the-bar/
+· MU Micron: Wishful Thinking At Its Finest (Seeking Alpha) https://seekingalpha.com/article/4952204-micron-wishful-thinking-at-its-finest
 · BTC Are Binance Users Selling Ethereum for Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/binance-users-selling-ethereum-bitcoin-174840044.html
 · MU Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952306-micron-tighter-market-conditions-through-2028-mean-this-is-a-great-buy
 · MU Micron Stocks Edge Lower as 2027 Memory Peak Tests Record Margins (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d6f9b669b094b:0-micron-stocks-edge-lower-as-2027-memory-peak-tests-record-margins/
@@ -329,10 +346,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · MRVL Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters) https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDJISmlqQ09tSDQ4NnNJNElrbWtnQlpVZGlrd3NCQjlvVktSMm00UE1JZDBHZGFqOUVUWjUxbU1KcTM4NXBCMDdGSUY4UW9kd202NzFXT0NBTzdFQU5xbmdqMWFYelRYVmNRTnhDNmlpdlJRODVCMHVpZ21XWnRldHVDd3p6RjJlQjRTMWZiMnE3LTVJM1FMZW1yaktxNHNDQnBTc2ZnZ3JZYjVsZnhj?oc=5
 · MRVL Marvell jumps after boosting guidance at investor day (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitwFBVV95cUxNaDkzOG1LX0JmM2lCbzVTTjd2TGNTRnBORTZRcHJ0Z2toVnByYllKbWpoR2RqVW52VWhwRVA3d3M4clZVZDlXcjE3MW1zUEtJM3FPT2FlX2xWN0ZBVHZ4b3dhTHRVVUJwNE1iVEtzM2NiZnlKREdiS05RVXQtbm1aWGVleWFxOEhIV1ZXTnhHRTBMdXNHOXhjTVdIWnN6V3YyZVFQcmpMdlpNcHRpek1rczA1TUlDcjA?oc=5
 · NVDA Nvidia: Smart Money Is Pounding The Table (NASDAQ:NVDA) (Seeking Alpha) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZVdDY21waW1RRUFsdFNBZVVOVzhUMWhHSHdOWFQ1MG5tZzN0N0E3N1RuX0xuNUNSVTd0OWtuTlp3MzZMS0ZrSXM0Sng0eWQwcWtYM3pKS3JYbzF2a2pDTjJPVzltU2piXzFqVmVnc3V5bW94QnptdE1sZFBGUXZ4bUtSX1lJeWNN?oc=5
-· PETR4 Tempo real: Ibovespa perde força e cai com Petrobras (PETR4); dólar recua (Money Times) https://news.google.com/rss/articles/CBMibkFVX3lxTE5lZ01PZnZSbGdSWDBUYk1HZElqZ2tCSE5UNUthenZxek1xSjh1NGRxOTJzbXRVM2tYMHpuQnVtN1VicDgxNk5CaVJEbzQwTzhEbFYzckZfMjZXS2ZZVTBKS2doZnVjVlNVLUVIOHl3?oc=5
-· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report (Investing.com) https://in.investing.com/news/stock-market-news/jpmorgan-shares-may-move-32-on-oct-13-earnings-report-93CH-5620850
-· MRVL Marvell raises 2028 revenue forecast on strong AI data center demand By Reuters (Investing.com) https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830
-· JPM Watch Dimon on AI Boom, Bond Selloff, UK Banks (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video
-· JPM Dimon Says a UK Windfall Tax on Domestic Banks Wouldn’t Be Fair (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-06/dimon-says-a-uk-windfall-tax-on-domestic-banks-wouldn-t-be-fair
-· GOOGL Mysten Labs Announces Verifiable Agent Arbiter in Collaboration with Google Cloud (PR Newswire) https://www.prnewswire.com/news-releases/mysten-labs-announces-verifiable-agent-arbiter-in-collaboration-with-google-cloud-302899202.html
-· (+40 manchetes; lista completa em eventos/noticias.json)
+· (+46 manchetes; lista completa em eventos/noticias.json)
