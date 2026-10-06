@@ -1,8 +1,58 @@
-NOTÍCIAS E FATOS · 06/10 10h26
+NOTÍCIAS E FATOS · 06/10 11h24
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 444 veículo fora da lista, 46 sem ativo, 33 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 433 veículo fora da lista, 51 sem ativo, 9 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (3)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sachs
+TradingView (Reuters) · 06/10 10h56 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:e4424ea9b094b:0-tesla-s-robotaxis-fsd-and-optimus-outlook-matter-more-than-q3-earnings-says-goldman-sachs/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sac…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 06/10 10h56
+id: E05-TSLA-7642dbe1c8-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividendos da Terra; veja a seleção de outubro
+Money Times · 06/10 10h46 · fonte única · licença: integral
+Do texto:
+  – BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividendos da Terra; veja a seleção de outubro A Terra Investimentos fez apenas uma alteração na sua carteira recomendada de dividendos para outubro.
+  – A casa retirou Petrobras (PETR4) e incluiu BB Seguridade (BBSE3) no portfólio.
+  – Com a mudança, a carteira passa a ser composta por Itaúsa (ITSA4), Bradespar (BRAP4), Engie Brasil (EGIE3) e Cemig (CMIG4).
+  – Tchau Petrobras (PETR4), olá BB Seguridade (BBSE3) Segundo a Terra, a BB Seguridade mantém um perfil defensivo, elevada rentabilidade e forte capacidade de geração de caixa, além de apresentar exposição aos segmentos de…
+  – A ação apresenta preço-alvo de R$ 43 para os próximos 12 meses, dividend yield estimado em 11,75% e payout atual de 79%, segundo o relatório.
+  – Sobre a Petrobras, a Terra destaca os fortes resultados apresentados no segundo trimestre de 2026, impulsionados pelo aumento da produção, preços mais favoráveis do petróleo e desempenho robusto do refino.
+Link: https://www.moneytimes.com.br/bb-seguridade-bbse3-petrobras-petr4-carteira-dividendos-terra-outubro-mlem/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: PETR4
+Como falar: 'saiu no Money Times: BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividendos da Terra; vej…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 06/10 10h46
+id: E05-PETR4-64edf8c60c-2026-10-06 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · AMD · Citigroup raises AMD price target on agentic AI demand outlook
+Investing.com · 06/10 10h41 · fonte única · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/citigroup-raises-amd-price-target-on-agentic-ai-demand-outlook-93CH-4934742
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: AMD
+Como falar: 'saiu no Investing.com: Citigroup raises AMD price target on agentic AI demand outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 06/10 10h41
+id: E05-AMD-69060fcc17-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · NVDA · Nvidia stock hits record high after Foxconn Q3 2026 revenue surge
+Yahoo Finance · 06/10 09h26 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nvidia stock rose 2.1% to $238.90 on Monday, surpassing its previous all-time closing high of $235.74, reached in May.
+  – The company's market capitalization stands at $5.6 trillion.
+  – Foxconn, formally known as Hon Hai Precision Industry, reported September-quarter revenue of 3.03 trillion New Taiwan dollars ($95.48 billion), up 47% from the same period a year earlier.
+  – Nvidia stock had been trading near its lowest forward earnings multiple in more than a decade, even as revenue and net income were each projected to grow by roughly 90% or more in its current fiscal year.
+  – At Monday's close, Nvidia trades at a forward price-to-earnings ratio of 17.1 times, according to Barron's, citing FactSet.
+  – Separately, Nvidia authorized a $150 billion increase to its share repurchase program last week, bringing the total remaining buyback authorization to $235 billion — the largest such authorization increase in history, t…
+Link: https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-hits-record-high-122653198.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: NVDA
+Como falar: 'saiu no Yahoo Finance: Nvidia stock hits record high after Foxconn Q3 2026 revenue surge; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 09h26
+id: E05-NVDA-4822d01ada-2026-10-06 · status: linha
 
 [ATENÇÃO] E05 · BTC · Bitcoin Investors Pull $3.3B From Binance In 15 Days — But ETF Flows, Futures Positioning Flash Caution
 Yahoo Finance · 06/10 07h20 · + TradingView (Reuters) · licença: resumo
@@ -53,8 +103,23 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (30)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report (Investing.com) https://in.investing.com/news/stock-market-news/jpmorgan-shares-may-move-32-on-oct-13-earnings-report-93CH-5620850
+· MRVL Marvell raises 2028 revenue forecast on strong AI data center demand By Reuters (Investing.com) https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830
+· JPM Watch Dimon on AI Boom, Bond Selloff, UK Banks (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video
+· JPM Dimon Says a UK Windfall Tax on Domestic Banks Wouldn’t Be Fair (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-06/dimon-says-a-uk-windfall-tax-on-domestic-banks-wouldn-t-be-fair
+· GOOGL Mysten Labs Announces Verifiable Agent Arbiter in Collaboration with Google Cloud (PR Newswire) https://www.prnewswire.com/news-releases/mysten-labs-announces-verifiable-agent-arbiter-in-collaboration-with-google-cloud-302899202.html
+· USDBRL Dólar cai a R$ 4,95 e Bolsa abre em alta com euforia de ativos brasileiros (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/06/dolar-bolsa-abre-hoje-6-de-outubro-de-2026.ghtm
+· ETH Ethereum Layer 2 Blast Is Shutting Down: What Happens to Your Coins? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-layer-2-blast-shutting-133036226.html
+· GOOGL Tech Mahindra Expands Agentic AI Readiness with Google Cloud Gemini Enterprise (PR Newswire) https://www.prnewswire.com/news-releases/tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise-302899746.html
+· BTC Strive's Matt Cole Says Bitcoin Could Hit $500,000 By The End Of 2030 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVhWSGRzcEpsTzRvYkYteHpoS29aSXRYRmJ2Y3A5eC02LWNCbkQ0a0J2cDNHRGo5WXNEelM0bnJXNnJDNUZEb0FjYmt2bmRLQTd5Ry1lemk0ajdNbFgzUFc4WHktdU5BV3NoVllWeF9oU0hKdV81ZUxRUmV0X2VhMUw5WmlwUTdsXzFsWHZzZEY0SU5pZWFubWZ5TEFpblN2eVVrQ0s0WDBKd3otZDl3RTlxdHlNbl9ZWFg3eWJ3ckM1ekU5RVAtTA?oc=5
+· USDBRL Dólar cai pela 2ª sessão após euforia do mercado com eleições (Suno Noticias) https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEUwWmFQWGxyd2NnNEdFRDJFazdzandnbE9DSEFXOWtFWkFDT2VOcmpHeEdJT3Vzb3kxdjl0VElDeVlkUkNXWHF1d1g3WHdwSkpfbVBaTzJfVHlGSlo1ajJJb0hwcTA2anMzS1ZaVDM2S1IxRzFQWF9fXzNYcmQta1JXN3V0YXBTcnMyS0ZIZjh1aVdH0gGaAUFVX3lxTE9zZF8yOE4xdExiSkszLVhzUnIyV3ExbEdMWFRpS0hPckE5dVJ5M0lkRVBZbWNydGRGU1V0M3lUUmJITUUzSlg5aGRPTFNrRGZSa1c2TGJBdmw3ZmRBdXY1ejdvYlgydUVidXNNLTY3SUdFSGMzMXBsLU81a2tkZ0oyTHY2alJNUnM2Ty1vZlVDbFAtOEhBMUEtTmc?oc=5
+· INTC Applied Materials, Intel deepen collaboration for AI chipmaking (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV25ZTzFKdUZiS0hNZnMyQnF3ZmZfZ2RLWVNpbC1zY0JxSTVTMHNFZlhIc0V3dGZudVhBcHdSZllZb2p6MlZCTmtmUjlCLUNCUzFXUGtNMFBsdm9wMDJ0V1pzeHNXZG9JUFg3YXRNQmhNTmhFLTdfQUFaN0dSa2ktWnpWSmljVWdZYmJCSlg5MEpMQmhlcVNnWjNIOUFwNnZxYWk0aW8yRk50NUpQQU1pQndOOXhkZFI5Y1Q2YkxPZTh2YWc?oc=5
+· JPM JPMorgan Chase & Co. (JPM) Reports Next Week: Wall Street Expects Earnings Growth (Yahoo Finance) https://news.google.com/rss/articles/CBMihAFBVV95cUxQdlNEUTdMODJRVEo5UzRrbGxfS0J1ZjBXVTkwV1h1SGpXU0tybENHVnIzNzBJdmJ6d1h0emVCSi1HWC1ZYzUwYXpva0RHV3VCT2t4SVR6QV9UVjMxWm1fT25kSzkzM2xIOFh3eDFpLUIwZUcwUFJCYWMtSWh3UFo2NGktSEE?oc=5
+· INTC Intel’s Biggest Opportunity May Be Its Comeback (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPMUlfcDZhSnNsTkgzaGdfeklHc3hETWtvbXFBeDdMZlN6Tkk5RkhDamZJR2NWeHZ1cFp4NU5PSHlrc0xxV0lRRTJqU08zWjF4MFFidlBrdF9mUDhIbHpxQmM1RXNLV0ZOdlN3N1JWVXUzV2haY1lvMHBQbm5BRkVPWFBnX1d5M1dKLVZjLVJhNFRRUjRPc2tTQnNEUFZ2OFEzZ0ZNWjd3?oc=5
+· MU Micron Stock Is Waiting On One Answer (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQaURNTFNsVlo3dHBQN3djUUVvdWFlandURkRzcTUteVZ4Unhjd0tBQTQxcFZQejV1Yl9EZjZLOXdMTW5DVjRTaXZvYi1rLU0wSXdqWGJNM3I4YW1ybFNEdG0xa2c4NmJ4U1pzZWI1NUtmTXZMRDEwOC1rWGhubDBuWjkxWk51T1BhQ1c0WkJBenlnbG41bFRTZHFFbmo?oc=5
+· BBDC4 Resultado das eleições 2026 em Gravataí (RS): votação para presidente no Fundacao Bradesco, na 71ª zona eleitoral (g1) https://news.google.com/rss/articles/CBMimgJBVV95cUxOdnRQOExRdEhJdGFjcTlka2RPcjg1M0d0SEFxOWVZcVhJQXdsWXdPR3EwNnRfMjNBbkNLVmZUUHdTY2RoYUk3UkgyUEp1YjZxWVJrWFdNSUZRY3huT1hWWV9tbVNnVDZVT3pySDFuWE5ieEU4Sl8xcF9wTENxVUl6aUFKYmxpbk1OdE5QTXJDZWVPQWpFWjJUSU50c2dtSWc4cXM4UWtsemJ1enVEYmhaZGNTcHRMUTZNV1QyelNZRVROVlJtcWtKaEVRZF9EYlJxbnZ5ak4yY1NOdVhoZDZaOTNaZzdvSGEtdXdmM0dGdmtVdE5URDBBczNma1NEYmdwUXExVEhnc1ZFR1hHdUJid2ZpTURjaUVoeWfSAagCQVVfeXFMTjhYS2thaDlWQVFKYWF4dWNsREhqRUY2NHluZXdCZHBOQ1lYRW9GY1hzQ1RuZ25EYkUyUF9pWXFsWFhNU0k2QWk3Q1VHa2lZSlQ3NlVDeURZanJyRldtUXNYVHZ2VWhwUXlhQUFoRGZTNXV3UHhQdjctTXVrX3UxbUk2bXQ3cm9GSVlGeXJVUmZPVjFuNE4yOGxWcUdRVy1HNHJwOU1MMGRsYVR1Ml9OanRPZkQtTUhIQU1sQ01Fd1drcVhqUnN1bzNhQUFaaHd1M2syMmhDalc5c3dmdk5ZVi1hdUxhbHp2dElfUzZxZ1prXzBqNG9YdjBDdi1zR0IxUjZCVlNIWnc0WkJrY0dJWkNWVm5GR3BLSzBqeWc0R1pFRkNqYXVXMnk?oc=5
 · BBDC4 JPMorgan rebaixa Banco do Brasil para venda e eleva Bradesco após rali; ações reagem (InfoMoney) https://www.infomoney.com.br/mercados/bbas3-bbdc4-jpmorgan-rebaixa-banco-do-brasil-para-venda-e-eleva-bradesco-a-compra-apos-rali-acoes-reagem/
 · AVGO Broadcom (AVGO) Eyes Huge AI Revenue Growth, Is The Stock Getting Too Pricey? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-eyes-huge-ai-130550397.html
 · USDBRL Dólar abre em queda com rescaldo de repercussão após 1º turno no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-outubro-2026/
