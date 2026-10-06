@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-02",
+ "pregao": "2026-10-05",
  "nome": "DIover",
  "titulo": "DI over",
  "sla": "8:00:00",
@@ -7,9 +7,9 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data referência"}, {"nome": "TckrSymb", "titulo": "Número de operações"}, {"nome": "FinancialVolume", "titulo": "Volume financeiro"}, {"nome": "Average", "titulo": "Média"}, {"nome": "DailyFactor", "titulo": "Fator diário"}, {"nome": "SelicRate", "titulo": "Taxa selic"}],
  "texto": ["O DI Over, ou \"Depósito Interfinanceiro Over\", representa o custo do financiamento entre instituições financeiras e é uma referência importante para a taxa de juros de curto prazo no Brasil. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/6A/F7/3F/35/2654D9101BEEB2D9AC094EA8/Glossario_Taxas_DI_Over_balcao%204.pdf\">Glossário</a>.", "Acesse a calculadora do DI em <a href=\"https://www.calculadorarendafixa.com.br/\">Calculadora de Renda Fixa</a>", "Esta tabela apresenta a série histórica de dados dos últimos 40 anos."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-03T02:42:41.54",
+ "atualizado_em": "2026-10-05T23:41:18.947",
  "truncada": false,
  "linhas": [
-  ["2026-10-02", 12, 2789583, 13.65, 1.00050788, 13.65]
+  ["2026-10-05", 5, 2790129, 13.65, 1.00050788, 13.65]
  ]
 }
