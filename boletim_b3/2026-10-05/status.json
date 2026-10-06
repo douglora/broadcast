@@ -1,8 +1,8 @@
 {
  "pregao": "2026-10-05",
- "situacao": "publicando",
+ "situacao": "atrasado",
  "errata": false,
- "atualizado_em": "2026-10-06T03:42:39.983",
+ "atualizado_em": "2026-10-06T08:43:22.14",
  "completo": {
   "arquivo": "",
   "pdf": ""
@@ -12,9 +12,9 @@
    "id": 1,
    "nome": "Renda fixa",
    "pai": null,
-   "situacao": "publicando",
-   "errata": false,
-   "atualizado_em": "2026-10-06T03:22:56.347",
+   "situacao": "republicado",
+   "errata": true,
+   "atualizado_em": "2026-10-06T08:28:48.4",
    "arquivo": "",
    "pdf": ""
   },
@@ -22,9 +22,9 @@
    "id": 20,
    "nome": "Renda variável",
    "pai": null,
-   "situacao": "publicado",
+   "situacao": "republicado",
    "errata": false,
-   "atualizado_em": "2026-10-05T00:00:38.427",
+   "atualizado_em": "2026-10-06T08:01:41.21",
    "arquivo": "BDI_02-0_20261005.pdf",
    "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_02-0_20261005.pdf"
   },
@@ -34,7 +34,7 @@
    "pai": 20,
    "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-05T19:12:26.76",
+   "atualizado_em": "2026-10-06T06:56:31.547",
    "arquivo": "",
    "pdf": ""
   },
@@ -42,9 +42,9 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "",
-   "errata": false,
-   "atualizado_em": "2026-10-06T03:45:38.1",
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-06T08:43:22.14",
    "arquivo": "",
    "pdf": ""
   },
@@ -52,21 +52,21 @@
    "id": 23,
    "nome": "Maiores oscilações",
    "pai": 20,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-06T03:05:38.917",
-   "arquivo": "BDI_02-3_20261005.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_02-3_20261005.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-06T08:18:29.13",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 31,
    "nome": "Resumo",
    "pai": 3,
-   "situacao": "republicado",
+   "situacao": "publicado",
    "errata": false,
-   "atualizado_em": "2026-10-05T22:45:38.047",
-   "arquivo": "BDI_03-1_20261005.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_03-1_20261005.pdf"
+   "atualizado_em": "2026-10-06T07:43:01.84",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 33,
@@ -82,9 +82,9 @@
    "id": 34,
    "nome": "Derivativos de bolsa",
    "pai": 3,
-   "situacao": "publicando",
+   "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-06T03:03:37.523",
+   "atualizado_em": "2026-10-06T08:32:18.083",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,11 +102,11 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-06T03:05:38.917",
-   "arquivo": "BDI_04-2_20261005.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-05/BDI_04-2_20261005.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-06T08:43:17.643",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 43,

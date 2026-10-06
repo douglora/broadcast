@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-06T06:49:57Z",
+ "gerado_em": "2026-10-06T11:51:57Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -56,16 +56,13 @@
     }
    },
    "falhas": {},
-   "segundos": 33
+   "segundos": 252
   },
   "2026-10-05": {
-   "completo": false,
-   "faltam": [
-    "BTBLoanBalance",
-    "AnalyticalFramework2"
-   ],
-   "boletim": "publicando",
-   "sinais": 41,
+   "completo": true,
+   "faltam": [],
+   "boletim": "atrasado",
+   "sinais": 42,
    "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
@@ -94,7 +91,7 @@
     }
    },
    "falhas": {},
-   "segundos": 29
+   "segundos": 23
   }
  },
  "falhas": [],

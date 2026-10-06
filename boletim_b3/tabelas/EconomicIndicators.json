@@ -7,7 +7,7 @@
  "colunas": [{"nome": "RptDt", "titulo": "Data"}, {"nome": "TckrSymb", "titulo": "Ativo"}, {"nome": "AsstDesc", "titulo": "Descrição do contrato"}, {"nome": "Sgmt", "titulo": "Segmento"}, {"nome": "IndcSymb", "titulo": "Símbolo do indicador"}, {"nome": "IndcDesc", "titulo": "Descrição do indicador"}, {"nome": "IndxVal", "titulo": "Valor"}],
  "texto": ["Dá publicidade aos indicadores do mercado usados para precificar contratos futuros e de opções. O arquivo é disponibilizado diariamente, contendo os valores praticados no dia (D0), em formato CSV. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/31/51/52/94/B502C8107E854EB8AC094EA8/Glossario_Indicadores_economicos.pdf\">Glossário</a>."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-06T03:42:39.983",
+ "atualizado_em": "2026-10-06T08:43:22.14",
  "truncada": false,
  "linhas": [
   ["2026-10-05", "AFS", "Futuro de Rande da África do Sul em USD", "Moedas", "RTDZAW1", "ZAR X USD WMR/C. PRICE", 16.6798],

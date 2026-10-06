@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-05",
- "coletado_em": "2026-10-06T06:50:30Z",
+ "coletado_em": "2026-10-06T11:57:14Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-06T03:42:39.983",
+   "atualizado_em": "2026-10-06T08:43:22.14",
    "sla": "8:00:00",
    "linhas": 431,
    "truncada": false
@@ -141,7 +141,7 @@
   "OptionsPurshase": {
    "titulo": "Ações mais negociadas - opções de compra",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-06T00:42:17.67",
+   "atualizado_em": "2026-10-06T08:18:16.27",
    "sla": "8:00:00",
    "linhas": 10,
    "truncada": false
@@ -149,15 +149,15 @@
   "OptionsSelling": {
    "titulo": "Ações mais negociadas - opções de venda",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-06T00:42:16.7",
+   "atualizado_em": "2026-10-06T08:18:29.13",
    "sla": "8:00:00",
-   "linhas": 10,
+   "linhas": 12,
    "truncada": false
   },
   "DailyAverageDerivatives2": {
    "titulo": "Derivativos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-05T22:40:26.243",
+   "atualizado_em": "2026-10-06T07:42:24.82",
    "sla": "6:00:00",
    "linhas": 9,
    "truncada": false
@@ -165,7 +165,7 @@
   "DerivativesOperation2": {
    "titulo": "Derivativos - resumo das operações",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-05T22:41:02.727",
+   "atualizado_em": "2026-10-06T07:43:01.84",
    "sla": "8:00:00",
    "linhas": 100,
    "truncada": false
@@ -180,10 +180,10 @@
   },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-05T00:00:38.427",
+   "situacao": "atrasado",
+   "atualizado_em": "2026-10-06T08:01:41.21",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 70,
    "truncada": false
   },
   "SwapFlex": {
@@ -300,26 +300,26 @@
   },
   "Stock": {
    "titulo": "Estoque",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-05T00:00:38.427",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-06T05:32:37.29",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 43,
    "truncada": false
   },
   "Register": {
    "titulo": "Registro",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-05T00:00:38.427",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-06T05:03:12.407",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 18,
    "truncada": false
   },
   "RepurchaseDealings": {
    "titulo": "Negociações compromissadas",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-05T00:00:38.427",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-06T03:53:03.157",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 8,
    "truncada": false
   },
   "DIover": {
@@ -333,17 +333,17 @@
   "BTBLendingOpenPosition": {
    "titulo": "Posições em aberto",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-06T03:03:05.163",
+   "atualizado_em": "2026-10-06T08:43:17.643",
    "sla": "8:00:00",
    "linhas": 2951,
    "truncada": false
   },
   "BTBLoanBalance": {
    "titulo": "Empréstimos registrados",
-   "situacao": "aguardando",
-   "atualizado_em": "2026-10-05T00:00:38.427",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-06T03:52:56.353",
    "sla": "8:00:00",
-   "linhas": 0,
+   "linhas": 4713,
    "truncada": false
   },
   "PreviaQuadrimestral": {
