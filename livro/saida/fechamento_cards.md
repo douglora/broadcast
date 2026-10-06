@@ -1,4 +1,4 @@
-## Fechamento do livro · seg 05/10 · 18h27 BRT
+## Fechamento do livro · seg 05/10 · 22h43 BRT
 
 ---
 
@@ -30,8 +30,8 @@
 
 ### Destaques do dia
 
-**Altas** EQTL3 +14% (vol 4,8x · máxima de 52 semanas) · BBDC4 +14% (vol 3,5x · máxima de 52 semanas) · SBSP3 +12% (vol 3,2x) · ITSA4 +12% (vol 3,3x · fechou na máxima · máxima de 52 semanas) · MRVE3 +11% (vol 2,8x)
-**Baixas** USDBRL -4,3% · RARA11 -4,0% (vol 1,8x) · NOK -3,8% (vol 0,5x · fechou na mínima) · GFS -3,2% · INTC -2,6%
+**Altas** EQTL3 +14% (máxima de 52 semanas) · BBDC4 +14% (máxima de 52 semanas) · SBSP3 +12% · ITSA4 +12% (máxima de 52 semanas) · MRVE3 +11%
+**Baixas** USDBRL -4,3% · RARA11 -4,0% · NOK -3,8% (vol 0,5x · fechou na mínima) · GFS -3,2% · INTC -2,6%
 
 ---
 
@@ -200,13 +200,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 4,9914 | **-4,3** | -4,5 | -2,7 | -3,7 | -3,2 | -6,5 | -8,9 | -9,4 |
-| **DXY** Indice Dolar DXY · máxima de 52 semanas | 102,12 | **+0,2** | +0,9 | +3,0 | +1,3 | +2,1 | +4,5 | +3,9 | +8,6 |
-| **BRENT** Petroleo Brent | 100,32 | **-1,9** | +2,5 | +4,2 | +39 | -8,6 | +55 | +65 | +22 |
-| **BTC** Bitcoin _(parcial)_ | 85.829 | **-0,8** | +2,8 | +7,5 | +34 | +25 | -31 | -1,9 | +57 |
-| **ETH** Ethereum _(parcial)_ | 2.714 | **-0,5** | +0,9 | +9,4 | +51 | +29 | -40 | -8,5 | -21 |
+| **DXY** Indice Dolar DXY · máxima de 52 semanas | 102,17 | **+0,2** | +1,0 | +3,0 | +1,3 | +2,2 | +4,6 | +4,0 | +8,6 |
+| **BRENT** Petroleo Brent _(dia 02/10)_ | 102,25 | **-0,1** | +4,9 | +6,9 | +42 | -6,2 | +59 | +68 | +29 |
+| **BTC** Bitcoin | 85.829 | **-0,8** | +2,8 | +7,5 | +34 | +25 | -31 | -1,9 | +57 |
+| **ETH** Ethereum | 2.714 | **-0,5** | +0,9 | +9,4 | +51 | +29 | -40 | -8,5 | -21 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 02/10)_ · mínima de 52 semanas | 91,35 | **-0,8** | -5,9 | -6,5 | -7,0 | -15 | -12 | -15 | -21 |
 
-**Brent em reais:** R$ 500,74 por barril (05/10) · dia -6,1% · 1 mês +1,4% · no ano +50% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -309,8 +309,8 @@ Inflação implícita 2029 6,00% · 2032 6,09% · 2031/32 (descasado) 6,01% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h27 · DI ajuste D0 · Tesouro base 02/10 · UST CMT D0 · PTAX 05/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 22h43 · DI ajuste D0 · Tesouro base 02/10 · UST CMT D0 · PTAX 05/10
+**Lacunas:** BRENT sem barra de 05/10 (última 02/10); BRENT: barra de 05/10 é o início da sessão seguinte (última cotação 21:33 de Nova York); barra descartada, fica a de 02/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-30).

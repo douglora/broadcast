@@ -1,6 +1,6 @@
 ALERTAS · Fechamento 18h
 
-[CRÍTICO] CURVA · C01 A curva FECHOU: F28 -85 bps no dia · F28 -100 bps em 5 pregões · F28 4 pregões seguidos (-101 bps) (ajuste B3 05/10) / C02 Inclinação da curva DI: F35-F28 -49 bps no dia: bull flattening (longo fechou mais) · F30-F28 -44 bps no dia: bull flattening (longo fechou mais) · F30-F28 inverteu (cruzou zero) / C03 DI em nível: F28 cruzou 13,00% (para baixo, agora 12,66%) · F28 cruzou 13,50% (para baixo, agora 12,66%) · F29 cruzou 13,00% (para baixo, agora 12,59%)
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -85 bps no dia · F28 -100 bps em 5 pregões · F28 4 pregões seguidos (-101 bps) (ajuste B3 05/10) / C02 Inclinação da curva DI: F35-F28 -49 bps no dia: bull flattening (longo fechou mais) · F30-F28 -44 bps no dia: bull flattening (longo fechou mais) · F30-F28 inverteu (cruzou zero) / C03 DI em nível: F28 cruzou 13,00% (para baixo, agora 12,66%) · F28 cruzou 13,50% (para baixo, agora 12,66%) · F29 cruzou 13,00% (para baixo, agora 12,59%)
 DI F28 12,66 (-85) · F29 12,59 (-116) · F30 12,62 (-129) · F32 12,72 (-135) · F35 12,79 (-134)
 Inclinação F35-F28 +13 bps (-49)
 F35-F28 +13 bps (-49 dia · -25 5 pregões)
@@ -11,10 +11,9 @@ F30 cruzou 13,50% (para baixo, agora 12,62%)
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
 Fonte: B3 ajuste 05/10 · ajuste B3 05/10
-Push: [CRÍTICO] DI A curva FECHOU | DI Inclinação da curva DI | DI em nível · detalhe na sessão
 ids: C01-DI-fechou-2026-10-05, C02-DI-inclinacao-2026-10-05, C03-DI-di-2026-10-05
 
-[ATENÇÃO] E05 · JPM · É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencial de alta de até 20%
+(pendente de slot anterior) [ATENÇÃO] E05 · JPM · É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencial de alta de até 20%
 Money Times · 05/10 14h46 · fonte única · licença: integral
 Do texto:
   – A casa afirmou que a redução da incerteza política a levou a reavaliar os ativos brasileiros, o que motivou a elevação da recomendação de “neutro”.
@@ -28,10 +27,9 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: JPM
 Como falar: 'saiu no Money Times: É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencia…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 05/10 14h46
-Push: Fechamento 18h: 2 alertas de atenção — E05 JPM, E05 USDBRL · detalhe na sessão
 ids: E05-JPM-a0e6af6f8a-2026-10-05
 
-[ATENÇÃO] E05 · USDBRL · Bolsa dispara e bate recorde com euforia após resultado das eleições; dólar despenca a R$ 5
+(pendente de slot anterior) [ATENÇÃO] E05 · USDBRL · Bolsa dispara e bate recorde com euforia após resultado das eleições; dólar despenca a R$ 5
 Folha de S.Paulo · 05/10 09h37 · fonte única · licença: manchete
 Link: https://www1.folha.uol.com.br/mercado/2026/10/dolar-despenca-para-abaixo-de-r-5-apos-flavio-bolsonaro-liderar-1o-turno-das-eleicoes.shtml
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
@@ -41,44 +39,15 @@ Fonte: Folha de S.Paulo 05/10 09h37
 ids: E05-USDBRL-e450114ecd-2026-10-05
 
 Info (só linha no Fechamento):
-· T01 SBSP3 retomou a média de 200 dias pela 1ª sessão: R$ 31,50 vs MM200 R$ 28,54 (+10%)
-· T01 USDBRL fechou abaixo da média de 200 dias pela 1ª sessão: R$ 4,9914 vs MM200 R$ 5,1587 (-3,2%)
-· T04 NVDA fechou na máxima de 52 semanas: US$ 238,90, +3,8% em 1m e +28% em 12m
-· T04 TSM fechou na máxima de 52 semanas: US$ 485,80, +14% em 1m e +68% em 12m
-· T04 EQTL3 fechou na máxima de 52 semanas: R$ 47,66, +22% em 1m e +37% em 12m
-· T04 ALUP4 fechou na máxima de 52 semanas: R$ 11,59, +6,1% em 1m e +18% em 12m
-· T04 ITUB4 fechou na máxima de 52 semanas: R$ 49,48, +18% em 1m e +44% em 12m
-· T04 BBDC4 fechou na máxima de 52 semanas: R$ 21,84, +22% em 1m e +37% em 12m
-· T04 PETR4 fechou na máxima de 52 semanas: R$ 55,36, +18% em 1m e +96% em 12m
-· T04 ITSA4 fechou na máxima de 52 semanas: R$ 16,36, +17% em 1m e +63% em 12m
-· T02 VWRA (Vanguard FTSE All-World UCITS ETF USD Accumulating) retomou a MM100 pela 2ª sessão: US$ 193,84, acima da MM200 (tendência longa preservada)
-· T02 CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) retomou a MM50 pela 2ª sessão: US$ 837,07, acima da MM200 (tendência longa preservada)
-· T02 SPY retomou a MM50 pela 2ª sessão: US$ 774,83, acima da MM200 (tendência longa preservada)
-· T02 SBSP3 retomou a MM100 pela 2ª sessão: R$ 31,50, acima da MM200 (tendência longa preservada)
-· T07 TSM entrou em sobrecomprado: RSI14 76 a US$ 485,80
-· T07 EQTL3 entrou em sobrecomprado: RSI14 84 a R$ 47,66
-· T07 ITUB4 entrou em sobrecomprado: RSI14 81 a R$ 49,48
-· T07 BBDC4 entrou em sobrecomprado: RSI14 82 a R$ 21,84
-· T07 PETR4 entrou em sobrecomprado: RSI14 79 a R$ 55,36
-· T07 AXIA3 entrou em sobrecomprado: RSI14 76 a R$ 61,38
-· T07 ITSA4 entrou em sobrecomprado: RSI14 81 a R$ 16,36
-· T07 BBAS3 entrou em sobrecomprado: RSI14 79 a R$ 26,33
-· T07 SBSP3 entrou em sobrecomprado: RSI14 80 a R$ 31,50
-· T07 SMAL11 entrou em sobrecomprado: RSI14 82 a R$ 127,19
-· M03 Focus de 02/10: IPCA: 2026 5,01% (+1 bps) · 2027 4,30% (0 bps)
-· E05 BBAS3 · De Banco do Brasil (BBSA3) a Sabesp (SBSP3): Os cavalos que esta gestora de ricaços aposta para lucrar no 2º turno
-· E05 INTC · Intel: The Turnaround Is Real, But At $119 The Math Fails (NASDAQ:INTC)
-· E05 USDBRL · Ibovespa renova máxima histórica e dólar fecha em R$ 5 após 1º turno
-· E05 USDBRL · Ibovespa fecha nos 206 mil pontos e dólar tem maior queda em 8 anos após eleição
-· E05 PETR4 · Petrobras (PETR4) ou Vale (VALE3): qual delas se dá melhor caso Flávio Bolsonaro vença o segundo turno
-· E05 USDBRL · Dólar à vista fecha em baixa de 4,12%, a R$5,0022 na venda
-· E05 USDBRL · Dólar cai R$ 5 e Bolsa sobe quase 8% após primeiro turno
-· E05 KLBN4 · SUZB3, RANI3 ou KLBN11: Citi vê duas ações mais favorecidas em eventual governo Flávio Bolsonaro
-· E05 GOOGL · ALPHABET INC. (GOOG, GOOGL) INVESTOR ALERT: Investors With
-· E05 DI · Com Selic a 14,5%, prefixados voltam ao radar dos investidores
-· E05 AVGO · Broadcom Has A New Problem: Anthropic (NASDAQ:AVGO)
-· E05 BTC · Bitcoin Holds Above $85,000 As Treasury Drops Wallet Reporting Plan, CFTC Proposes Crypto Rules
-· E05 TSLA · Rivian Deliveries Jump 46%, but Its Stock Falls as Tesla Stock Jumps
+· E05 TSLA · LCID Stock Stays Flat After-Hours On Q3 Sales Dip While TSLA, RIVN Beat Estimates
+· E05 DI · Juros futuros têm rali com ‘trade Flávio’ e caem 100 pontos-base
+· E05 VALE3 · Resultado das eleições 2026 em Trizidela do Vale (MA): como foi a votação no 1º turno
+· E05 UST · Can Stocks Stay Resilient With Higher Treasury Yields?
+· E05 USDBRL · Dólar cai a R$ 5, e bolsa sobe quase 8% após primeiro turno
+· E05 BRENT · Wall Street avança com atividade dos EUA acima do esperado e petróleo em queda; dólar ganha força
+· E05 USDBRL · Dólar cai 4,1%, maior baixa diária desde 2018, com Flávio à frente no 1º turno
+· E05 TESOURO · Tesouro Direto vira do avesso após eleições; taxas despencam com vantagem de Flávio nesta segunda (5)
+· E05 USDBRL · Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno
 · T05 EQTL3 +14% no dia a R$ 47,66: movimento de 9,5 desvios para uma vol de 20 dias de 22% a.a.
 · T05 SAPR4 +6,0% no dia a R$ 7,30: movimento de 3,3 desvios para uma vol de 20 dias de 27% a.a.
 · T05 ALUP4 +6,8% no dia a R$ 11,59: movimento de 4,6 desvios para uma vol de 20 dias de 23% a.a.
@@ -207,4 +176,4 @@ Alertas do dia (todos, com status):
 · linha     T07 BBAS3 — BBAS3 entrou em sobrecomprado: RSI14 79 a R$ 26,33
 · linha     T07 SBSP3 — SBSP3 entrou em sobrecomprado: RSI14 80 a R$ 31,50
 · linha     T07 SMAL11 — SMAL11 entrou em sobrecomprado: RSI14 82 a R$ 127,19
-· (+138 notícias só manchete, em noticias.md)
+· (+147 notícias só manchete, em noticias.md)

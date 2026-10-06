@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · seg 05/10 · 18h27 BRT
-Relógios: Yahoo 18h27 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · seg 05/10 · 22h43 BRT
+Relógios: Yahoo 22h43 · DI ajuste D0 · Tesouro base
   02/10 · UST CMT D0 · PTAX 05/10
 
 ALERTAS DO DIA (83 · 24 críticos)
@@ -92,7 +92,10 @@ qua 14/10 ex-dividendo BBDC4 R$ 0,02 (último
 qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 resultado TSM (madrugada, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: BRENT sem barra de 05/10 (última 02/10);
+  BRENT: barra de 05/10 é o início da sessão
+  seguinte (última cotação 21:33 de Nova York);
+  barra descartada, fica a de 02/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -176,10 +179,10 @@ MRVE3  MRV        6,27  +11  +20  +13  -21  -14  -20
 CURY3  Cury      30,04 +6,8 +8,9 -9,5  -13 +2,2 -2,1
 Macro
 USDBRL USD/BRL  4,9914 -4,3 -4,5 -2,7 -3,2 -6,5 -8,9
-DXY    DXY      102,12 +0,2 +0,9 +3,0 +2,1 +4,5 +3,9
-BRENT  Brent    100,32 -1,9 +2,5 +4,2 -8,6  +55  +65
-BTC*   BTC      85.829 -0,8 +2,8 +7,5  +25  -31 -1,9
-ETH*   ETH       2.714 -0,5 +0,9 +9,4  +29  -40 -8,5
+DXY    DXY      102,17 +0,2 +1,0 +3,0 +2,2 +4,6 +4,0
+BRENT* Brent    102,25 -0,1 +4,9 +6,9 -6,2  +59  +68
+BTC    BTC      85.829 -0,8 +2,8 +7,5  +25  -31 -1,9
+ETH    ETH       2.714 -0,5 +0,9 +9,4  +29  -40 -8,5
 MINER* Minerio   91,35 -0,8 -5,9 -6,5  -15  -12  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

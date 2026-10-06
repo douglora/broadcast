@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 18h27
+NOTÍCIAS E FATOS · 05/10 22h43
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 446 veículo fora da lista, 57 sem ativo, 9 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 457 veículo fora da lista, 58 sem ativo, 5 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -216,8 +216,17 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (132)
+## OUTRAS NOTÍCIAS (só manchete) (141)
 
+· TSLA LCID Stock Stays Flat After-Hours On Q3 Sales Dip While TSLA, RIVN Beat Estimates (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4fc77f08c094b:0-lcid-stock-stays-flat-after-hours-on-q3-sales-dip-while-tsla-rivn-beat-estimates/
+· DI Juros futuros têm rali com ‘trade Flávio’ e caem 100 pontos-base (Money Times) https://www.moneytimes.com.br/juros-futuros-5-10-26-apsa/
+· VALE3 Resultado das eleições 2026 em Trizidela do Vale (MA): como foi a votação no 1º turno (g1) https://g1.globo.com/ma/maranhao/eleicoes/2026/noticia/2026/10/05/resultado-das-eleicoes-2026-em-trizidela-do-vale-ma-como-foi-a-votacao-no-1o-turno.ghtml
+· UST Can Stocks Stay Resilient With Higher Treasury Yields? (Seeking Alpha) https://seekingalpha.com/article/4952082-can-stocks-stay-resilient-with-higher-treasury-yields
+· USDBRL Dólar cai a R$ 5, e bolsa sobe quase 8% após primeiro turno (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-5-e-bolsa-sobe-quase-8-apos-primeiro-turno
+· BRENT Wall Street avança com atividade dos EUA acima do esperado e petróleo em queda; dólar ganha força (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/wall-street-perde-folego-com-dolar-forte-antes-de-dados-de-servico-dos-eua-petroleo-opera-misto/
+· USDBRL Dólar cai 4,1%, maior baixa diária desde 2018, com Flávio à frente no 1º turno (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-05102026-primeiro-turno-eleicoes/
+· TESOURO Tesouro Direto vira do avesso após eleições; taxas despencam com vantagem de Flávio nesta segunda (5) (Money Times) https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdUJaOTNWRUJuUVotU0xfSWVPbVJvdmZLbXY0RndMUFNZajB3STlpMkE4VVluMmYxbnpKWXo3Wi1SUG5pRURoeHc1OUFjM1I0MEoyNmZjaV83anZXb3Q1WUwyN2szRkQ0cTF6STI5SDRpZXFTWVhzVHlBVkRTOTMtNmFiY1JhS2F3U0FaR09LZzd4M0twa09SXy1uaUc3MmNmbVJvWTcwbG9EZW9OS0JYVXRSMHZMU0lCc2NQUEN6V2JaY3JHOTVSVA?oc=5
+· USDBRL Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno (BBC) https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSeWZzYWl1Q2YydHNyLU9QS09nUlladTNPVC0tSllaeWhoU0kzN254QXdHSnZnYzRZbW91cDdWSE84T0MybkNvTVhuR2pJOEdIU1YxellTWnU5Y3l0YzFjT3Z5UdIBaEFVX3lxTE1lQUVNbm04WnJFaXQ4UGhwOUY3eUZ4RHgxa2J5WVEwTkV1a05XLXFvajJXSkxnMG4tR2phV0V5WURkM25zTDBxeHJTNDJHRmRYYW94TERVMHRBZ3Nuc1BGS29KYlQ3cWV3?oc=5
 · BBAS3 De Banco do Brasil (BBSA3) a Sabesp (SBSP3): Os cavalos que esta gestora de ricaços aposta para lucrar no 2º turno (Money Times) https://www.moneytimes.com.br/de-banco-do-brasil-bbsa3-a-sabesp-sbsp3-os-cavalos-que-esta-gestora-de-ricacos-aposta-para-lucrar-no-2o-turno-rnda/
 · INTC Intel: The Turnaround Is Real, But At $119 The Math Fails (NASDAQ:INTC) (Seeking Alpha) https://seekingalpha.com/article/4952073-intel-the-turnaround-is-real-but-at-119-the-math-fails
 · USDBRL Ibovespa renova máxima histórica e dólar fecha em R$ 5 após 1º turno (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-hoje-5-outubro-2026/
@@ -269,13 +278,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · USDBRL Dólar cai mais de 4% e opera abaixo de R$ 5 com Flávio à frente na disputa presidencial (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/dolar-recua-mais-de-4percent-e-vai-abaixo-de-r-5-com-flavio-a-frente-de-lula-no-1-turno.ghtml
 · TSLA Tesla’s Q3 Deliveries Beat UBS’ Estimates — But Energy Storage Miss Keeps This Analyst Neutral (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-deliveries-beat-ubs-170331462.html
 · NVDA Nvidia Is 'Tip Of The Spear' For AI Trade, Says Dan Niles — Warns 'At A Certain Point Either The Bond Market's Wrong Or Stock Market Is Wrong' (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:35fa550bf094b:0-nvidia-is-tip-of-the-spear-for-ai-trade-says-dan-niles-warns-at-a-certain-point-either-the-bond-market-s-wrong-or-stock-market-is-wrong/
-· BTC Treasury yields at 5% threaten extending Bitcoin’s best quarter since 2017 (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:c1199c909094b:0-treasury-yields-at-5-threaten-extending-bitcoin-s-best-quarter-since-2017/
-· ITUB4 ITUB4 passa de R$ 50 pela 1ª vez; até onde ação do Itaú pode subir? (InfoMoney) https://www.infomoney.com.br/mercados/itau-itub4-dispara-recorde-50-reais-ate-onde-pode-subir/
-· GOOGL Google Cloud Announcing Google Cloud Modernize - Blog (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45R16C:0-google-cloud-announcing-google-cloud-modernize-blog/
-· BBAS3 Trade eleitoral: Por que o BTG (BPAC11) salta 27%, o dobro do Banco do Brasil (BBSA3) (Money Times) https://www.moneytimes.com.br/trade-eleitoral-por-que-o-btg-bpac11-salta-27-o-dobro-do-banco-do-brasil-bbsa3/
-· BBDC4 Bradesco homologa aumento de capital de R$ 10 bilhões (Poder360) https://www.poder360.com.br/poder-economia/bradesco-homologa-aumento-de-capital-de-r-10-bilhoes/
-· BBDC4 Bradesco (BBDC4) dispara 14% e supera Ibovespa; entenda a alta (InfoMoney) https://www.infomoney.com.br/mercados/bradesco-bbdc4-dispara-juros-eleicao/
-· BTC Bitcoin's New Bull Market: No More Boom And Bust (BTC-USD) (Seeking Alpha) https://seekingalpha.com/article/4952010-bitcoin-new-bull-market-no-more-boom-bust
-· UST US Equity Indexes Mixed as Treasury Yields Trade at Highest in Two Decades (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-treasury-161814234.html
-· MU 25 Analysts Say Buy Micron. Goldman Sachs Is the Lone Hold (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:3fdac772a094b:0-25-analysts-say-buy-micron-goldman-sachs-is-the-lone-hold/
-· (+72 manchetes; lista completa em eventos/noticias.json)
+· (+81 manchetes; lista completa em eventos/noticias.json)
