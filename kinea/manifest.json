@@ -1,8 +1,8 @@
 {
- "gerado_em": "2026-10-05T21:10:52Z",
+ "gerado_em": "2026-10-06T18:35:10Z",
  "partes": {
   "cartas": {
-   "em": "2026-10-05T21:15:17Z",
+   "em": "2026-10-06T18:40:12Z",
    "resultado": {
     "cartas": 45,
     "metodos": {
@@ -25,7 +25,7 @@
    }
   },
   "documentos": {
-   "em": "2026-10-05T21:15:33Z",
+   "em": "2026-10-06T18:40:30Z",
    "resultado": {
     "pdfs": 15,
     "posts": 0,
@@ -33,7 +33,7 @@
    }
   },
   "videos": {
-   "em": "2026-10-05T21:16:41Z",
+   "em": "2026-10-06T18:41:32Z",
    "resultado": {
     "videos": 40,
     "com_legenda": 0,
