@@ -1,8 +1,62 @@
-NOTÍCIAS E FATOS · 06/10 12h22
+NOTÍCIAS E FATOS · 06/10 13h21
 
-Pernas: noticias ok 19 novas (18 consultas; descartadas: 431 veículo fora da lista, 43 sem ativo, 6 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 20 novas (18 consultas; descartadas: 427 veículo fora da lista, 40 sem ativo, 11 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA)
+Seeking Alpha · 06/10 12h57 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4650634-midday-need-to-know-uber-buys-ezcater-marvell-raises-outlook-more
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 06/10 12h57
+id: E05-MRVL-4f7cb81fa2-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 billion
+Yahoo Finance · 06/10 12h50 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – What happened: Marvell Technology (MRVL) stock surged roughly 8% on Tuesday, touching its highest level since June.
+  – What's behind the move: The semiconductor designer raised its revenue guidance for fiscal year 2028, exceeding the average analyst estimate.
+  – "We expect approximately $20 billion in total company revenue in FY28, representing about 67% year-over-year growth," CEO Matt Murphy said during the company's investor day conference on Tuesday.
+  – Marvell had guided to $18 billion in August, while Wall Street had anticipated $18.2 billion for the period, according to Bloomberg data.
+  – The company sees a total addressable AI market expected to reach approximately $400 billion by 2030, driven by custom silicon programs with hyperscalers such as Amazon (AMZN), Google (GOOG, GOOGL), and Microsoft (MSFT).
+  – Earlier this year, Marvell stock rallied sharply after AI chip heavyweight Nvidia (NVDA) CEO Jensen Huang described the chip designer as "the next trillion-dollar company.
+Link: https://finance.yahoo.com/markets/stocks/article/marvell-stock-surges-after-company-raises-2028-revenue-outlook-to-20-billion-155038471.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Yahoo Finance: Marvell stock surges after company raises 2028 revenue outlook to $20 billion; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 12h50
+id: E05-MRVL-59180b6bff-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
+Reuters · 06/10 11h46 · fonte única · licença: manchete
+Link: https://www.reuters.com/business/retail-consumer/google-fights-1-billion-uk-lawsuit-over-app-store-fees-latest-big-tech-case-2026-10-06/
+Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
+Ativos: GOOGL
+Como falar: 'saiu no Reuters: Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case; confirmar o número no texto antes de repassar'
+Fonte: Reuters 06/10 11h46
+id: E05-GOOGL-6a44630be7-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · DI · Copom reduz taxa Selic para 14% ao ano
+Agencia Brasil · 06/10 10h14 · fonte única · licença: integral
+Do texto:
+  – O Banco Central divulgou, nesta terça-feira (11), a ata da reunião do Comitê de Política Monetária que reduziu para 14% ao ano a taxa básica Selic.
+Link: https://agenciabrasil.ebc.com.br/es/node/1699309
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Agencia Brasil: Copom reduz taxa Selic para 14% ao ano; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 06/10 10h14
+id: E05-DI-b21f9e4263-2026-10-06 · status: linha · íntegra disponível
+
+[ATENÇÃO] E05 · GOOGL · Constellation Stock Rises 7% After Google Deal Unlocks $4.3 Billion Nuclear Investment Amid AI Power Boom (UPDATED)
+TradingView (Reuters) · 06/10 08h36 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/benzinga:f9d7b7073094b:0-constellation-stock-rises-7-after-google-deal-unlocks-4-3-billion-nuclear-investment-amid-ai-power-boom-updated/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: GOOGL
+Como falar: 'saiu no TradingView (Reuters): Constellation Stock Rises 7% After Google Deal Unlocks $4.3 Billion Nuclear Investment Am…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 06/10 08h36
+id: E05-GOOGL-d36ea44c29-2026-10-06 · status: linha
 
 [ATENÇÃO] E05 · GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
 TradingView (Reuters) · 06/10 11h33 · + Reuters · licença: manchete
@@ -11,7 +65,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: GOOGL
 Como falar: 'saiu no TradingView (Reuters): Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 06/10 11h33
-id: E05-GOOGL-3921340e65-2026-10-06 · status: pendente
+id: E05-GOOGL-3921340e65-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What Doug Petno’s Q3 Guidance Says About the Gap
 Yahoo Finance · 06/10 11h32 · fonte única · licença: resumo
@@ -27,7 +81,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What Doug Petno’s Q…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/10 11h32
-id: E05-JPM-568a1ae74b-2026-10-06 · status: pendente
+id: E05-JPM-568a1ae74b-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sachs
 Yahoo Finance · 06/10 10h56 · fonte única · licença: resumo
@@ -43,7 +97,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSLA
 Como falar: 'saiu no Yahoo Finance: Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, Says Goldman Sac…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/10 10h56
-id: E05-TSLA-c7f9570b37-2026-10-06 · status: pendente
+id: E05-TSLA-c7f9570b37-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · ITUB4 · Não deu nem tempo: Itaú eleva preço-alvo da XP, mas ação 'come' potencial em um dia com efeito Flávio
 Money Times · 05/10 22h34 · fonte única · licença: integral
@@ -160,8 +214,23 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (60)
+## OUTRAS NOTÍCIAS (só manchete) (75)
 
+· UGPA3 Resultado das eleições 2026 em Ipiranga de Goiás (GO): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-de-goias-go-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
+· NVDA Nvidia: Plenty Of Reasons To Worry, But The Stock Keeps Cooking (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952266-nvidia-plenty-of-reasons-to-worry-but-stock-keeps-cooking
+· AVGO Broadcom: When The Story And The Stock Disagree (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952265-broadcom-when-the-story-and-the-stock-disagree
+· MU Micron: The Market Still Doesn’t Get It (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952264-micron-the-market-still-doesnt-get-it
+· AMD BNP Paribas Just Hiked AMD’s Price Target 60% to $960 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-just-hiked-amd-153143703.html
+· JPM JPMorgan Chase: Expect Q3 Earnings To Reinforce Buy Thesis (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4952259-jpmorgan-chase-expect-q3-earnings-to-reinforce-buy-thesis
+· ITUB4 CEO explica receita para Itaú sofrer menos com inadimplência do que restante do mercado (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/ceo-explica-receita-para-ita-sofrer-menos-com-inadimplncia-do-que-restante-do-mercado.ghtml
+· MRVL Marvell raises 2028 revenue forecast on strong AI data center demand (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S0Y5:0-marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand/
+· BRENT Greve de terceirizados do setor de petróleo chega ao fim em Macaé e na Bacia de Campos (g1) https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTHNhWWd1M0RuTl9Eby15S3h5T2xyRWZKVjEzMkxPY1otQXJKc2dnMWpmYlMtbUUya1NJNVVPTVIyMkVXQzBfWHR0RnZ0WmlEN0d6dnc5VWg1U0J3aFZ0d2ZiQ0dWNldpNmJQRXlfdDVVWFNQcUhzZ1F2YlJ1R3gyVDEtSXdFa01UZDNnaFdqSC03NklTMTRaU2JEYjA4YzMxWTk0TmhTNHRjOTJBdFB0QUlhVmowSmtEZ001Y3ZzUjN5SUtOd0ozbEs1eG41ZFpMaDZNNmxXNEVMRnV1bHFaMjNzOXdEQ3BQYV9IVGpFU1pXYlg0aHfSAfYBQVVfeXFMUExzYVlndTNEbk5fRG8teUt4eU9sckVmSlYxMzJMT2NaLUFySnNnZzFqZmJTLW1FMmtTSTVVT01SMjJFV0MwX1h0dEZ2dFppRDdHenZ3OVVoNVNCd2hWdHdmYkNHVjZXaTZiUEV5X3Q1VVhTUHFIc2dRdmJSdUd4MlQxLUl3RWtNVGQzZ2hXakgtNzZJUzE0WlNiRGIwOGMzMVk5NE5oUzR0YzkyQXRQdEFJYVZqMEprRGdNNWN2c1IzeUlLTndKM2xLNXhuNWRaTGg2TTZsVzRFTEZ1dWxxWjIzczl3RENwUGFfSFRqRVNaV2JYNGh3?oc=5
+· MU Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxORDRyVzB3RHRuN0lmX1JsOFFMdk9QdUJWejVjOHRZQ2JQbk43aGg1T0ZJTlVJdXZ6T1E3TlB0ZkMwZDJSWkVUdC1mZ3ZVdWFQeEp1bE93QU9RZlVPSFdQWlNjaUZ2Y1d5OXlkeFl3YXh3VzFuQWtGa0RmMzNEN0poclQ5WHk5ZlVqSlVlNlZzd2lQNXlqTEw5RnFHaW41a2dkTE1jUF9VV0VSY0UtUmtLZ1lTZTFFLW4xX0xrSDVB?oc=5
+· USDBRL Dólar cai pela 2ª sessão após euforia do mercado com eleições (Suno Noticias) https://news.google.com/rss/articles/CBMimgFBVV95cUxPc2RfMjhOMXRMYkpLMy1Yc1JyMldxMWxHTFhUaUtIT3JBOXVSeTNJZEVQWW1jcnRkRlNVdDN5VFJiSE1FM0pYOWhkT0xTa0RmUmtXNkxiQXZsN2ZkQXV2NXo3b2JYMnVFYnVzTS02N0lHRUhjMzFwbC1PNWtrZGdKMkx2NmpSTVJzNk8tb2ZVQ2xQLThIQTFBLU5n0gGaAUFVX3lxTE9zZF8yOE4xdExiSkszLVhzUnIyV3ExbEdMWFRpS0hPckE5dVJ5M0lkRVBZbWNydGRGU1V0M3lUUmJITUUzSlg5aGRPTFNrRGZSa1c2TGJBdmw3ZmRBdXY1ejdvYlgydUVidXNNLTY3SUdFSGMzMXBsLU81a2tkZ0oyTHY2alJNUnM2Ty1vZlVDbFAtOEhBMUEtTmc?oc=5
+· BBDC4 JPMorgan rebaixa Banco do Brasil para venda e eleva Bradesco após rali; ações reagem (InfoMoney) https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMzBkbkhnNmR4b1pZY0ZFOF8tVUlDd3lMdjF3MzdBczQxcVdCVjZwTHA5dW1yczFWdTNJWVp5MGk3aHFEUzUtT3ZvN29ka1psa0VUTVFVT3RFYkpULThfaTJmWlIyWm5jbFFVeVJSSXZEZHNXRUhNSXFpRkRNTVk4ZzQtVE9oNWJSWE9ObGdNNzJHTW1WT0QzeXZ4M2VGZERaeHhWTEhKa2szeUcyVGxhTDNmdklhTVgxejY2bnZnM2hFM0NRRXVzTUZ5MjhLZDRPZjlGU21wdC1JNFXSAeABQVVfeXFMTjIxMkI2WnZDaVBOUjBtXzYxNjQyQlMzcTlIQ2M0N2ZOdHRIMlRYbzdjZVpYYUhGOTBLa3NSaXdwb3ZjOVZZQzBvZE1xQkk1V25GSGg2NXQ4TUFBSkRmVnFIVTZkQko5ZkZNaFVabEtwUGVYYXJRZDE3Ujd4dnFSODdHVjJyVzVXdjRTRXJGUUNORnpxaU0yV05aNk5vODNOUFkyS1h0cWRoWkF5TXcydElKV21pU3Q3T2hHa21WZE1BTHZ5QzljOUtZZHdObU5iYlVfM1Atc01QU3hoTnNra1A?oc=5
+· AVGO Broadcom (AVGO) Eyes Huge AI Revenue Growth, Is The Stock Getting Too Pricey? (Yahoo Finance) https://news.google.com/rss/articles/CBMigAFBVV95cUxQMGVfbTNtSHpJNDBneVhBbzJjc3AtOUVOZXd1WWNyNWV4TnJfaXQwY2x4YVhLaWhFelBLem1jQ0pkNjFGNFlPYzZSM1FBbDJibE54TWxUdnZkRU4ycG95SldDakp6cXhqM1ZNaTJwODI1SENGNTNOdEJfaGhOUWhXWg?oc=5
+· NVDA Chips Retake Lead: What AMD and Nvidia Are Telling Us About AI (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU2w5M3J3Y0VUMnhvNnRCNUVHWTczaEljYkRLV1NhNVBMTTc5MGRhTjlhUlh3NXMtTFFOZ0JLZnA3cHJOUEpudFJET0VtMlRMSGdRVjRRTDlnd0pDSWZqVF8tb21oRUtSVFZCY3Y5aHNKb2JCaG1OeDNLSlZsMmZqcEJ1RTNCVlJVRGJnWG0zaXBDZ3RBLXlZRkdGSnoxTnBLLWhDd3F6OHF4b1U1QWY1aHRKTDhOQy1K?oc=5
+· USDBRL Ibovespa passa por realização de lucros após rali eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxPMFY4WHRSUEM3Qm5FYWdDZ0Y0bUpRVlUzQnZLc3pJSFluaTJiZXNRU3QtTjlHenZXazI3elRSc1hNVUd3Ymo1aUNreVRiNm9NcmowZkowSFg3d1JpQ2JLSFdpSGIxa2JVRVozcjVwV1NRcGRSY1RhVFJXZ2lDRnZ0cW9ZSmZWOXJ2R05aZWVrYmtnRk1aRkVKaTRvcUNZajRSM1Zn?oc=5
 · MU Micron Stock: Memory Revenue Looks More Durable Than The Cycle Suggests (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952254-micron-memory-revenue-looks-more-durable-than-the-cycle-suggests
 · JPM JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more' (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-ceo-jamie-dimon-sharpens-warning-about-a-corporate-credit-squeeze-the-market-will-ask-for-more-151359247.html
 · GOOGL Why Do Investors Like Alphabet (GOOG, GOOGL) Despite AI Search Threats? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-investors-alphabet-goog-googl-150418735.html
@@ -207,18 +276,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · AMD AMD Just Got a $700 Price Target as Stifel Predicts a 'Beat-and-Raise' (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:500f250f7094b:0-amd-just-got-a-700-price-target-as-stifel-predicts-a-beat-and-raise/
 · SBSP3 Méliuz, Sabesp, Viveo, Dexco e mais ações para acompanhar nesta 3ª (InfoMoney) https://www.infomoney.com.br/mercados/meliuz-sabesp-viveo-dexco-e-mais-acoes-para-acompanhar-nesta-3a/
 · ETH Current price of Ethereum for October 6, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hMkpTN1NtaXJTX1dabzZoVkJ1aU9GSnNBc3pja0lERjVVT3RxQ0p4OG5HdGVjRlFhMGpXQ044bTBabWdOMkNYV3BKd1BmajlhV3F0YTd6aEk5QzRKZ0FfQW51Z2poaDgt?oc=5
-· AMD AMD and Microsoft Haven’t Undertaken Stock Splits for 20+ Years And Investors Shouldn’t Care (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-microsoft-haven-t-undertaken-111522211.html
-· TSLA Goldman Sachs reiterates Tesla stock rating ahead of earnings (Investing.com) https://www.investing.com/news/analyst-ratings/goldman-sachs-reiterates-tesla-stock-rating-ahead-of-earnings-93CH-4933977
-· AMD AMD CEO Lisa Su predicts 'very high' chip demand continuing for next few years (CNBC) https://www.cnbc.com/video/2026/10/06/amd-ceo-lisa-su-predicts-very-high-chip-demand-continuing-for-next-few-years.html
-· BTC Hyperscale Data reports about 220 Bitcoin and $37.4 million in cash (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:7913a0a38094b:0-hyperscale-data-reports-about-220-bitcoin-and-37-4-million-in-cash/
-· BRENT Dow Jones hoje: petróleo cai pelo 3º dia e abre caminho para nova alta em Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-caminho-para-nova-alta-em-wall-street/
-· TSLA As Tesla Deliveries Rebound, Is It a Better Investment Than SpaceX Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-deliveries-rebound-better-investment-103500310.html
-· AMD AMD Plans Substantial Chip Supply Increase in 2027 as AI Demand Grows (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amd-plans-substantial-chip-supply-103406143.html
-· BRENT UBS raises 2026-27 Brent price view on persistent Middle East supply disruptions (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45S0BT:0-ubs-raises-2026-27-brent-price-view-on-persistent-middle-east-supply-disruptions/
-· NVDA Options market points to 50% chance Nvidia hits $6T market cap this month (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxOc2ZSdlRkZDJyX3M3czU0QjF5SzZrMEJMQ2NuU1lIeFBfd3FMRC10QVRIaElNYlNORFd5Vkx3VGFUZUFLbXd4Q095QzJZVEFtLVhtd3FDaVd0UEZRYWUwb2Z0S1dMd0xSXzQwLVMyMElGQm9vTG8yQkp0d3Zpb1J1M3ptcmY0S19BdEg0RFNpN3hrVnY5MHpzelFmWGxTZnBjUnllVUMwbVM0Y2RnSklOY2lfSmdZaHU5YnVjbHRaMm5GZ2NWVGVIdE1LN09uRFk?oc=5
-· BRENT Gold firms as easing oil prices soothe some inflation worries (Investing.com) https://news.google.com/rss/articles/CBMixwFBVV95cUxQRmZaYVlsY3dtMFlmQVBtSk1sV1dUbGNpZVc4cHdWajVFWlh2dWFsaG5BeVJYd0FveGpsX1QzZzFFNjRhQ2JyRXF2VEJpdkZDc3d1LWd3YmF2NEl0VFVJVkdBWXg2ekx6X2VDZ1pHZ0JsUk5XTm1pcDRid0gzMHFsSmdQT0k3bXdfTGp4OFY0aXMtVXFVdU9tWW1JQy1tdDlUSGg4NHZCMlJJVmFUWFJ4QjRSSjZpNjV2b2cwY0dsZXFuNDI3OW1j?oc=5
-· BTC Can Bitcoin's 47% Rebound Hold? What Binance Research's Data Shows (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNeVZ0TzhBc085VXhyeVBjQlg1S3UxT3Z0NDJuazgyUFI4OXdFN1MzcmZHa1hDS0xDY3ZQdnRIU2FQcDQ2bWtBM0Y3SlRIb2JOWmpTczNHelFhRjBDdS1oaUxDakVrQ1BMMl94bHFBd092MHp1Ti1kV0M3Unk4SWxsbjBKUEtsN1dNR1NLamFuUXY4czJTZU9FWkd2Y0hYUQ?oc=5
-· UST U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide (The Wall Street Journal) https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFpfSFJVQXNZSERFMG4yaFVObVdNdkZZay1Td0VpbE14enhKd1g2dW5NNldSWU5VR3FFWHFHRXowZmlmSjNya256OUVMOXVFbFVpRGstSlNWbVpaX2NESWF1QUYyTXBfWldfZVhlcUFxN2NSZG16MW42RkhxOUthMFhzYXFUV2hibENLazMyX19pTVNydXNkMExveWxsWktCQUtFZGcyQWJZcmZNb3RtTkQ3M3lKTkpxcXc?oc=5
-· BTC Binance cold wallet holds nearly 250,000 Bitcoin, ranking first (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmJqUzBaU1lVMW40RnVTamJZaDZQa252RDRQdW1sSV9UUE5UTHk4Z3JuVks3elJPWURsR255MTc1Z3VYcFJNZHJHX0dEUW5TZC1Wc3FETWdCR0FqY2NVSFg3NjhXMHEtckQ2LUtkS0tuODVGclVqcVQzd0I2OUY4UmQwa19OQUhzQWpsemtaa0c4SDI0ZEp2aXhxS3lvTi00VmI3am9IQTJLNVJlYW05VlNCbng2Rmk5RklCaERzMkJNOHU3X0E?oc=5
-· AMD INTC, AMD, MU, SNDK, SOXX: Chips, Memory Stocks Slip Premarket After Sharp October Rally (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd1VSS2tmM0FyN1VRdzNvNlF3Tnl6MWl5MFhHVDl1YmttWlJzYm4xbTZMcnpoX1BoU2l5Y0NzcE9SaVFzbTJvcnUtR2FaMldhMmpHOFl2ZndldkdON0JJbXBhckFYeU9rckpOQ2t0UVRCaXRuTnZvYmxQRVY5am9WbWtFVG1hY2tNNXFqT3V1M1g1UXE3NTk2Y0tZMXhELWg0ejdHZTFoZjlBOTh2SWlpTkczdUthYjIxVHh4aF9UQjlmWnhNeU0xQ0FKWnFldnUwMUdjaHBRN1U3Slk?oc=5
-· NVDA Why Are Nasdaq, Dow Futures Rising Premarket? SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQTczdjcyRk5oblpjRXVxem8yY05VOTNIbF9JSHNDZC1PN2VkNWItR2JNOGZTM2N4NjFPdXExVUNCdTJJU3I0bWZLMW9oYlQ1bS1ndXNMeVltVDR2dXgyenNVeE9yNmgxLURXdW10bXptMGZ5S295Z1lCaGhxU09vbDJ6ZlpsMDRZRnNXbTFTaWhOMXlEdUZjdnhxcV9lTGU0dXFsd3JwdnFTRGJlLWVGWDdZQkhSREpEMmJkMmpSNG1neHllSlNFb0VTTjJMSHhkeXMtMTJ4RQ?oc=5
+· (+15 manchetes; lista completa em eventos/noticias.json)
