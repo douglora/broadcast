@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 05/10 22h43
+NOTÍCIAS E FATOS · 06/10 08h33
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 457 veículo fora da lista, 58 sem ativo, 5 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 18 novas (18 consultas; descartadas: 457 veículo fora da lista, 48 sem ativo, 40 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (3)
 
@@ -51,7 +51,55 @@ Fonte: SEC EDGAR 2026-10-05
 id: E04-CVX-26000188-2026-10-05 · status: entregue · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · BTC · Bitcoin Investors Pull $3.3B From Binance In 15 Days — But ETF Flows, Futures Positioning Flash Caution
+Yahoo Finance · 06/10 07h20 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bitcoin Investors Pull $3.3B From Binance In 15 Days — But ETF Flows, Futures Positioning Flash Caution - More than 40,000 Bitcoin left Binance since Sept.
+  – 20, the strongest withdrawal pace since June 2023, CryptoQuant analyst Darkfost said on Tuesday.
+  – spot Bitcoin ETFs saw a net outflow of roughly $90 million on Monday, SoSoValue data showed.
+  – Over 40,000 BTC worth roughly $3.3 billion has left Binance (BNB) in just 15 days, marking its strongest weekly withdrawal pace since June 2023.
+  – BTC Exchange Exodus The exchange's reserves fell from 704,800 BTC on September 20 to 663,100 BTC, a drop of more than 40,000 coins, according to CryptoQuant analyst Darkfost.
+  – He explained on Tuesday that last week brought the strongest weekly outflows from Binance since June 2023, with about 23,100 coins withdrawn.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-investors-pull-3-3b-102004164.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Investors Pull $3.3B From Binance In 15 Days — But ETF Flows, Futures Positioning…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 07h20
+id: E05-BTC-92ed0710d9-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Why bitcoin is down 'just' 32% a year after its record high of $126,000
+CoinDesk · 06/10 05h27 · + TradingView (Reuters) · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Why bitcoin is down 'just' 32% a year after its record high of $126,000 This shallower decline isn’t limited to the one-year anniversary.
+  – The bear market itself has been milder with past downturns seeing prices plummet 77% to 85%.
+  – - Bitcoin is down 32% a year after its record high – far shallower than the 70%–82% declines seen a year after previous cycle peaks.
+  – A year after hitting a record high above $126,000 on Oct.
+  – 6, 2025, bitcoin is down just 32%, at $85,453.
+  – Exactly a year after the 2013 peak, bitcoin was down 69.7%.
+Link: https://www.coindesk.com/markets/2026/10/06/from-retail-leverage-to-etf-flows-a-year-after-its-record-high-bitcoin-is-down-just-32
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no CoinDesk: Why bitcoin is down 'just' 32% a year after its record high of $126,000; confirmar o número no texto antes de repassar'
+Fonte: CoinDesk 06/10 05h27
+id: E05-BTC-175968a05b-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · KO · Want Income for Life? Coca-Cola Has Raised Its Dividend for 64 Straight Years and Yields 2.5%. Here's Whether It Belongs in Your Portfolio.
+Yahoo Finance · 05/10 16h25 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Coca-Cola Has Raised Its Dividend for 64 Straight Years and Yields 2.5%.
+  – It's raised its dividend annually for 64 straight years, making it a Dividend King that has maintained that streak for at least five decades.
+  – It pays a respectable forward yield of 2.5%.
+  – But with the 10-Year Treasury yield at 5.3%, does it still make sense to invest in Coca-Cola's riskier, lower-yielding stock?
+  – Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.
+  – But according to our analysts, we're only at the end of "Act 1"—the R&D phase.
+Link: https://finance.yahoo.com/markets/stocks/articles/want-income-life-coca-cola-192500612.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Want Income for Life? Coca-Cola Has Raised Its Dividend for 64 Straight Years and Yields…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 05/10 16h25
+id: E05-KO-d4f5ac5b15-2026-10-05 · status: pendente
 
 [ATENÇÃO] E05 · JPM · É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencial de alta de até 20%
 Money Times · 05/10 14h46 · fonte única · licença: integral
@@ -67,7 +115,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: JPM
 Como falar: 'saiu no Money Times: É compra: JP Morgan eleva recomendação para ações brasileiras após 1º turno e vê potencia…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 05/10 14h46
-id: E05-JPM-a0e6af6f8a-2026-10-05 · status: pendente · íntegra disponível
+id: E05-JPM-a0e6af6f8a-2026-10-05 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · USDBRL · Bolsa dispara e bate recorde com euforia após resultado das eleições; dólar despenca a R$ 5
 Folha de S.Paulo · 05/10 09h37 · fonte única · licença: manchete
@@ -76,7 +124,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: USDBRL
 Como falar: 'saiu no Folha de S.Paulo: Bolsa dispara e bate recorde com euforia após resultado das eleições; dólar despenca a R$…; confirmar o número no texto antes de repassar'
 Fonte: Folha de S.Paulo 05/10 09h37
-id: E05-USDBRL-e450114ecd-2026-10-05 · status: pendente
+id: E05-USDBRL-e450114ecd-2026-10-05 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Global X Bitcoin Covered Call ETF declares $0.0779 dividend
 TradingView (Reuters) · 05/10 13h03 · fonte única · licença: manchete
@@ -216,8 +264,23 @@ Fonte: PR Newswire 04/10 12h00
 id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (141)
+## OUTRAS NOTÍCIAS (só manchete) (156)
 
+· AMD AMD and Microsoft Haven’t Undertaken Stock Splits for 20+ Years And Investors Shouldn’t Care (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-microsoft-haven-t-undertaken-111522211.html
+· TSLA Goldman Sachs reiterates Tesla stock rating ahead of earnings (Investing.com) https://www.investing.com/news/analyst-ratings/goldman-sachs-reiterates-tesla-stock-rating-ahead-of-earnings-93CH-4933977
+· AMD AMD CEO Lisa Su predicts 'very high' chip demand continuing for next few years (CNBC) https://www.cnbc.com/video/2026/10/06/amd-ceo-lisa-su-predicts-very-high-chip-demand-continuing-for-next-few-years.html
+· BTC Hyperscale Data reports about 220 Bitcoin and $37.4 million in cash (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:7913a0a38094b:0-hyperscale-data-reports-about-220-bitcoin-and-37-4-million-in-cash/
+· BRENT Dow Jones hoje: petróleo cai pelo 3º dia e abre caminho para nova alta em Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-petroleo-cai-pelo-3-dia-e-abre-caminho-para-nova-alta-em-wall-street/
+· TSLA As Tesla Deliveries Rebound, Is It a Better Investment Than SpaceX Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-deliveries-rebound-better-investment-103500310.html
+· AMD AMD Plans Substantial Chip Supply Increase in 2027 as AI Demand Grows (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/amd-plans-substantial-chip-supply-103406143.html
+· BRENT UBS raises 2026-27 Brent price view on persistent Middle East supply disruptions (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45S0BT:0-ubs-raises-2026-27-brent-price-view-on-persistent-middle-east-supply-disruptions/
+· NVDA Options market points to 50% chance Nvidia hits $6T market cap this month (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxOc2ZSdlRkZDJyX3M3czU0QjF5SzZrMEJMQ2NuU1lIeFBfd3FMRC10QVRIaElNYlNORFd5Vkx3VGFUZUFLbXd4Q095QzJZVEFtLVhtd3FDaVd0UEZRYWUwb2Z0S1dMd0xSXzQwLVMyMElGQm9vTG8yQkp0d3Zpb1J1M3ptcmY0S19BdEg0RFNpN3hrVnY5MHpzelFmWGxTZnBjUnllVUMwbVM0Y2RnSklOY2lfSmdZaHU5YnVjbHRaMm5GZ2NWVGVIdE1LN09uRFk?oc=5
+· BRENT Gold firms as easing oil prices soothe some inflation worries (Investing.com) https://news.google.com/rss/articles/CBMixwFBVV95cUxQRmZaYVlsY3dtMFlmQVBtSk1sV1dUbGNpZVc4cHdWajVFWlh2dWFsaG5BeVJYd0FveGpsX1QzZzFFNjRhQ2JyRXF2VEJpdkZDc3d1LWd3YmF2NEl0VFVJVkdBWXg2ekx6X2VDZ1pHZ0JsUk5XTm1pcDRid0gzMHFsSmdQT0k3bXdfTGp4OFY0aXMtVXFVdU9tWW1JQy1tdDlUSGg4NHZCMlJJVmFUWFJ4QjRSSjZpNjV2b2cwY0dsZXFuNDI3OW1j?oc=5
+· BTC Can Bitcoin's 47% Rebound Hold? What Binance Research's Data Shows (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxNeVZ0TzhBc085VXhyeVBjQlg1S3UxT3Z0NDJuazgyUFI4OXdFN1MzcmZHa1hDS0xDY3ZQdnRIU2FQcDQ2bWtBM0Y3SlRIb2JOWmpTczNHelFhRjBDdS1oaUxDakVrQ1BMMl94bHFBd092MHp1Ti1kV0M3Unk4SWxsbjBKUEtsN1dNR1NLamFuUXY4czJTZU9FWkd2Y0hYUQ?oc=5
+· UST U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide (The Wall Street Journal) https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFpfSFJVQXNZSERFMG4yaFVObVdNdkZZay1Td0VpbE14enhKd1g2dW5NNldSWU5VR3FFWHFHRXowZmlmSjNya256OUVMOXVFbFVpRGstSlNWbVpaX2NESWF1QUYyTXBfWldfZVhlcUFxN2NSZG16MW42RkhxOUthMFhzYXFUV2hibENLazMyX19pTVNydXNkMExveWxsWktCQUtFZGcyQWJZcmZNb3RtTkQ3M3lKTkpxcXc?oc=5
+· BTC Binance cold wallet holds nearly 250,000 Bitcoin, ranking first (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmJqUzBaU1lVMW40RnVTamJZaDZQa252RDRQdW1sSV9UUE5UTHk4Z3JuVks3elJPWURsR255MTc1Z3VYcFJNZHJHX0dEUW5TZC1Wc3FETWdCR0FqY2NVSFg3NjhXMHEtckQ2LUtkS0tuODVGclVqcVQzd0I2OUY4UmQwa19OQUhzQWpsemtaa0c4SDI0ZEp2aXhxS3lvTi00VmI3am9IQTJLNVJlYW05VlNCbng2Rmk5RklCaERzMkJNOHU3X0E?oc=5
+· AMD INTC, AMD, MU, SNDK, SOXX: Chips, Memory Stocks Slip Premarket After Sharp October Rally (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd1VSS2tmM0FyN1VRdzNvNlF3Tnl6MWl5MFhHVDl1YmttWlJzYm4xbTZMcnpoX1BoU2l5Y0NzcE9SaVFzbTJvcnUtR2FaMldhMmpHOFl2ZndldkdON0JJbXBhckFYeU9rckpOQ2t0UVRCaXRuTnZvYmxQRVY5am9WbWtFVG1hY2tNNXFqT3V1M1g1UXE3NTk2Y0tZMXhELWg0ejdHZTFoZjlBOTh2SWlpTkczdUthYjIxVHh4aF9UQjlmWnhNeU0xQ0FKWnFldnUwMUdjaHBRN1U3Slk?oc=5
+· NVDA Why Are Nasdaq, Dow Futures Rising Premarket? SPCX, NVDA, CEG, AMD, ORCL, NOK In Focus (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQTczdjcyRk5oblpjRXVxem8yY05VOTNIbF9JSHNDZC1PN2VkNWItR2JNOGZTM2N4NjFPdXExVUNCdTJJU3I0bWZLMW9oYlQ1bS1ndXNMeVltVDR2dXgyenNVeE9yNmgxLURXdW10bXptMGZ5S295Z1lCaGhxU09vbDJ6ZlpsMDRZRnNXbTFTaWhOMXlEdUZjdnhxcV9lTGU0dXFsd3JwdnFTRGJlLWVGWDdZQkhSREpEMmJkMmpSNG1neHllSlNFb0VTTjJMSHhkeXMtMTJ4RQ?oc=5
 · TSLA LCID Stock Stays Flat After-Hours On Q3 Sales Dip While TSLA, RIVN Beat Estimates (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4fc77f08c094b:0-lcid-stock-stays-flat-after-hours-on-q3-sales-dip-while-tsla-rivn-beat-estimates/
 · DI Juros futuros têm rali com ‘trade Flávio’ e caem 100 pontos-base (Money Times) https://www.moneytimes.com.br/juros-futuros-5-10-26-apsa/
 · VALE3 Resultado das eleições 2026 em Trizidela do Vale (MA): como foi a votação no 1º turno (g1) https://g1.globo.com/ma/maranhao/eleicoes/2026/noticia/2026/10/05/resultado-das-eleicoes-2026-em-trizidela-do-vale-ma-como-foi-a-votacao-no-1o-turno.ghtml
@@ -263,19 +326,4 @@ id: E05-BABA-c5e17412c6-2026-10-04 · status: entregue · íntegra disponível
 · UST Treasury yields rise to start the week; traders look ahead to Fed minutes (CNBC) https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html
 · NVDA Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-valuations-show-ai-rally-070429645.html
 · USDBRL Ouro cai com dólar forte e persistência das pressões inflacionárias (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/ouro-cai-com-dolar-forte-e-persistencia-das-pressoes-inflacionarias.ghtml
-· USDBRL Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno (BBC) https://www.bbc.com/portuguese/articles/c933xvxj7dryo
-· AMD AMD Just Got a $700 Price Target as Wall Street Eyes Its Next AI Catalyst (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0b1fd207f094b:0-amd-just-got-a-700-price-target-as-wall-street-eyes-its-next-ai-catalyst/
-· ITUB4 Itaú Unibanco coloca 21 imóveis comerciais em leilão com lances a partir de R$ 95,6 mil (Exame) https://exame.com/mercado-imobiliario/itau-unibanco-coloca-21-imoveis-comerciais-em-leilao-a-partir-de-r-956-mil/
-· BTC The SEC Approves the First 3x Bitcoin and Ether Funds: Understanding the Risks Involved (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/sec-approves-first-3x-bitcoin-175103976.html
-· BBDC4 Bradesco (BBDC4) confirma R$ 10 bilhões em capital; o que muda para quem tem ações? (Suno Noticias) https://www.suno.com.br/noticias/bradesco-bbdc4-aumento-capital-10-bilhoes-mt/
-· UST Nasdaq Continues To Hit Record Highs As Tech Stocks Gain — Treasury Yields Stay Elevated (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:08bbc067d094b:0-nasdaq-continues-to-hit-record-highs-as-tech-stocks-gain-treasury-yields-stay-elevated/
-· GOOGL Google Faces New Antitrust Threat in Key Market (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1938e4920094b:0-google-faces-new-antitrust-threat-in-key-market/
-· UGPA3 Eleições 2026 - Resultado em Ipiranga de Goiás (g1) https://g1.globo.com/politica/eleicoes/2026/video/eleicoes-2026-resultado-em-ipiranga-de-goias-15024418.ghtml
-· BTC Bitcoin's large holders are back in profit, and small wallets never really left (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:5ef02d5c1094b:0-bitcoin-s-large-holders-are-back-in-profit-and-small-wallets-never-really-left/
-· TSLA Tesla deliveries top consensus, but energy storage deployments miss estimates (Yahoo Finance) https://ca.finance.yahoo.com/news/tesla-deliveries-top-consensus-energy-164000071.html
-· UST 10-year yield reversal tracks stronger cyclical payrolls, EPB says (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4650257-10-year-yield-reversal-tracks-stronger-cyclical-payrolls-epb-says
-· AMZN Amazon stock is trading at its lowest valuation ever as a public company, despite AI boom (Yahoo Finance) https://finance.yahoo.com/markets/stocks/article/amazon-stock-is-trading-at-its-lowest-valuation-ever-as-a-public-company-despite-ai-boom-154718912.html
-· USDBRL Dólar cai mais de 4% e opera abaixo de R$ 5 com Flávio à frente na disputa presidencial (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/05/dolar-recua-mais-de-4percent-e-vai-abaixo-de-r-5-com-flavio-a-frente-de-lula-no-1-turno.ghtml
-· TSLA Tesla’s Q3 Deliveries Beat UBS’ Estimates — But Energy Storage Miss Keeps This Analyst Neutral (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-q3-deliveries-beat-ubs-170331462.html
-· NVDA Nvidia Is 'Tip Of The Spear' For AI Trade, Says Dan Niles — Warns 'At A Certain Point Either The Bond Market's Wrong Or Stock Market Is Wrong' (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:35fa550bf094b:0-nvidia-is-tip-of-the-spear-for-ai-trade-says-dan-niles-warns-at-a-certain-point-either-the-bond-market-s-wrong-or-stock-market-is-wrong/
-· (+81 manchetes; lista completa em eventos/noticias.json)
+· (+96 manchetes; lista completa em eventos/noticias.json)
