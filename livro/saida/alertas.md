@@ -1,81 +1,71 @@
 ALERTAS · intradia
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA)
-Seeking Alpha · 06/10 12h57 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4650634-midday-need-to-know-uber-buys-ezcater-marvell-raises-outlook-more
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Seeking Alpha: Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 06/10 12h57
-ids: E05-MRVL-4f7cb81fa2-2026-10-06
-
-(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 billion
-Yahoo Finance · 06/10 12h50 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – What happened: Marvell Technology (MRVL) stock surged roughly 8% on Tuesday, touching its highest level since June.
-  – What's behind the move: The semiconductor designer raised its revenue guidance for fiscal year 2028, exceeding the average analyst estimate.
-  – "We expect approximately $20 billion in total company revenue in FY28, representing about 67% year-over-year growth," CEO Matt Murphy said during the company's investor day conference on Tuesday.
-  – Marvell had guided to $18 billion in August, while Wall Street had anticipated $18.2 billion for the period, according to Bloomberg data.
-  – The company sees a total addressable AI market expected to reach approximately $400 billion by 2030, driven by custom silicon programs with hyperscalers such as Amazon (AMZN), Google (GOOG, GOOGL), and Microsoft (MSFT).
-  – Earlier this year, Marvell stock rallied sharply after AI chip heavyweight Nvidia (NVDA) CEO Jensen Huang described the chip designer as "the next trillion-dollar company.
-Link: https://finance.yahoo.com/markets/stocks/article/marvell-stock-surges-after-company-raises-2028-revenue-outlook-to-20-billion-155038471.html
-Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Yahoo Finance: Marvell stock surges after company raises 2028 revenue outlook to $20 billion; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 06/10 12h50
-ids: E05-MRVL-59180b6bff-2026-10-06
-
-(pendente de slot anterior) [ATENÇÃO] E05 · GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
-Reuters · 06/10 11h46 · fonte única · licença: manchete
-Link: https://www.reuters.com/business/retail-consumer/google-fights-1-billion-uk-lawsuit-over-app-store-fees-latest-big-tech-case-2026-10-06/
-Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e prazo
-Ativos: GOOGL
-Como falar: 'saiu no Reuters: Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case; confirmar o número no texto antes de repassar'
-Fonte: Reuters 06/10 11h46
-ids: E05-GOOGL-6a44630be7-2026-10-06
-
-[ATENÇÃO] E05 · PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão
-ADVFN · 06/10 13h41 · fonte única · licença: manchete
-Link: https://br.advfn.com/jornal/2026/10/petrobras-conclui-exploracao-no-caribe-colombiano-apos-investimento-de-us-1-bilhao
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: PETR4
-Como falar: 'saiu no ADVFN: Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão; confirmar o número no texto antes de repassar'
-Fonte: ADVFN 06/10 13h41
-Push: intradia: 2 alertas de atenção — E05 PETR4, E05 MRVL · detalhe na sessão
-ids: E05-PETR4-91f18de298-2026-10-06
+[ATENÇÃO] E05 · BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
+TradingView (Reuters) · 06/10 13h21 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:b3d87d790094b:0-strike-launches-3-6-interest-on-cash-paid-out-in-bitcoin/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Strike launches 3.6% interest on cash, paid out in Bitcoin; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 06/10 13h21
+Push: intradia: 3 alertas de atenção — E05 BTC, E05 MRVL, E05 USDBRL · detalhe na sessão
+ids: E05-BTC-16b4645ac7-2026-10-06
 
 [ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
-TradingView (Reuters) · 06/10 13h16 · fonte única · licença: manchete
-Link: https://www.tradingview.com/news/stocktwits:04dfaf3fd094b:0-marvell-investor-day-mrvl-stock-rockets-as-firm-lays-out-path-to-up-to-90b-in-annual-revenue-by-fiscal-2031/
+Yahoo Finance · 06/10 13h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031 - Marvell targets more than $12 billion in custom revenue in fiscal 2029.
+  – - Under Marvell's $80 billion FY31 revenue scenario, the company expects about $37.5 billion to come from its interconnect business.
+  – Marvell Technology Inc. (MRVL) shares jumped nearly 10% on Tuesday after the chipmaker laid out sharply higher long-term revenue targets at its Investor Day, including a path to between $70 billion and $90 billion in an…
+  – The company also raised its fiscal 2028 revenue forecast to about $20 billion from the $18 billion outlook issued in August.
+  – That tops the $18.1 billion analyst consensus tracked by FiscalAI.
+  – Marvell expects roughly $18 billion of fiscal 2028 revenue to come from its data-center business.
+Link: https://finance.yahoo.com/markets/stocks/articles/marvell-investor-day-mrvl-stock-161658862.html
 Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
 Ativos: MRVL
-Como falar: 'saiu no TradingView (Reuters): Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Re…; confirmar o número no texto antes de repassar'
-Fonte: TradingView (Reuters) 06/10 13h16
-ids: E05-MRVL-f6ee80357a-2026-10-06
+Como falar: 'saiu no Yahoo Finance: Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Re…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 13h16
+ids: E05-MRVL-1a0c2dc1f4-2026-10-06
+
+[ATENÇÃO] E05 · USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50
+InfoMoney · 06/10 08h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Após o rali registrado na segunda-feira (5), o banco ainda projeta ganhos de 15% a 20% ou mais até o fim de 2026, além de enxergar espaço para novos avanços em 2027 em direção ao seu cenário otimista de 250 mil pontos p…
+  – No cenário otimista (bull case), a moeda americana poderia chegar a R$ 4,50.
+  – O nível de R$ 4,50, contudo, não é apresentado como cenário-base do banco, uma vez que representa o extremo positivo de uma análise que relaciona diferentes níveis do Ibovespa, múltiplos da Bolsa e câmbio.
+  – No outro extremo, o cenário pessimista contempla dólar a R$ 6 e Ibovespa a 130 mil pontos.
+  – Já o cenário-base é de Ibovespa a 215 mil pontos.
+  – O posicionamento doméstico em ações permanece próximo aos menores níveis históricos, uma vez que as alocações locais em renda variável estão próximas de 5%, ligeiramente acima da mínima histórica de 4,6%, bem abaixo da…
+Link: https://www.infomoney.com.br/mercados/morgan-stanley-eleva-brasil-para-compra-ve-ibovespa-ate-250-mil-e-aposta-em-rotacao-de-acoes/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: USDBRL
+Como falar: 'saiu no InfoMoney: Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 06/10 08h14
+ids: E05-USDBRL-d9977e210f-2026-10-06
 
 Info (só linha no Fechamento):
-· E05 AMZN · Amazon at $250: $1 billion “Built Together” Data Center Push Is Already Backfiring
-· E05 AMD · Cathie Wood Dumps Millions of AMD Stock Amid Massive Rally
-· E05 AMD · AMD CEO Lisa Su Sounds Alarm as AI Chip Demand Surges
-· E05 UST · S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips
-· E05 UGPA3 · Resultado das eleições 2026 em Ipiranga de Goiás (GO): votação para presidente na Escola Municipal Damião Barreto Ue-Mun, na 76ª zona eleitoral
-· E05 BTC · Genius Group Restarts Bitcoin Buying With 10 BTC Purchase
-· E05 SMAL11 · Eleições acendem o pavio e small caps explodem na Bolsa; veja as mais indicadas
-· E05 MU · Micron Q4 Blowout: Why The Memory Supercycle Still Has Runway (NASDAQ:MU)
-· E05 JPM · JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more'
-· E05 JPM · JPMorgan shares may move 3.2% on Oct. 13 earnings report By Investing.com
-· E05 NVDA · ETFs to Buy as NVIDIA Marches Toward $6 Trillion Market Cap
-· E05 MU · How Has Micron's Story Changed?
-· E05 MMM · MPC Targets 3M Barrels per day in Q3: Can Strong Throughput Continue?
-· E05 MMM · 3M Rises 12.9% in the Past Six Months: Is There Still Room to Grow?
+· E05 BTC · Are Binance Users Selling Ethereum for Bitcoin?
+· E05 MU · Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy (NASDAQ:MU)
+· E05 MU · Micron Stocks Edge Lower as 2027 Memory Peak Tests Record Margins
+· E05 MRVL · Marvell Jumps 10% After Raising Its 2028 Revenue Target
+· E05 USDBRL · Euro cai frente ao dólar: uma crise financeira se aproxima?
+· E05 NVDA · Nvidia Stocks Rise 1.4% as Power Crunch Spares 2027 Forecasts
+· E05 BBAS3 · Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4, VALE3 e BBAS3
+· E05 ITUB4 · Resultado das eleições 2026 em Itaú (RN): como foi a votação no seu local de votação; consulte por zona eleitoral
+· E05 USDBRL · Bitcoin hoje ganha fôlego com alívio no dólar, mas Treasuries podem ditar próximos movimentos
+· E05 BTC · Strive's Matt Cole Says Bitcoin Could Hit $500,000 By The End Of 2030
+· E05 TSLA · Tesla’s Delivery Beat Is Just the ‘Appetizer,’ Analyst Says 2027 Could Be the Main Event
 
 
 Alertas do dia (todos, com status):
-· pendente  E05 PETR4 — PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de 
+· pendente  E05 BTC — BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
 · pendente  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
-· pendente  E05 MRVL — MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SP
-· pendente  E05 MRVL — MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 bil
-· pendente  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
+· pendente  E05 USDBRL — USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a 
+· entregue  E05 PETR4 — PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de 
+· entregue  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
+· entregue  E05 MRVL — MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SP
+· entregue  E05 MRVL — MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 bil
+· entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
+· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
 · entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
 · entregue  E05 JPM — JPM · JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What
 · entregue  E05 TSLA — TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, 
@@ -86,6 +76,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 BTC — BTC · Why bitcoin is down 'just' 32% a year after its record high of $126,000
 · entregue  E05 KO — KO · Want Income for Life? Coca-Cola Has Raised Its Dividend for 64 Straight Yea
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
-· linha     F01 USDBRL — Real sobe: USD/BRL 4,9801 (-4,5% em 5 sessões) (parcial, intradia)
+· linha     F01 USDBRL — Real sobe: USD/BRL 4,9775 (-4,5% em 5 sessões) (parcial, intradia)
 · linha     F03 BRENT — Brent cai a US$ 98,32 (cruzou US$ 100) (parcial, intradia)
-· (+93 notícias só manchete, em noticias.md)
+· (+104 notícias só manchete, em noticias.md)

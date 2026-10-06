@@ -1,8 +1,49 @@
-NOTÍCIAS E FATOS · 06/10 14h12
+NOTÍCIAS E FATOS · 06/10 15h22
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 429 veículo fora da lista, 37 sem ativo, 3 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 437 veículo fora da lista, 36 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (21)
+
+[ATENÇÃO] E05 · BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
+TradingView (Reuters) · 06/10 13h21 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:b3d87d790094b:0-strike-launches-3-6-interest-on-cash-paid-out-in-bitcoin/
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): Strike launches 3.6% interest on cash, paid out in Bitcoin; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 06/10 13h21
+id: E05-BTC-16b4645ac7-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
+Yahoo Finance · 06/10 13h16 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031 - Marvell targets more than $12 billion in custom revenue in fiscal 2029.
+  – - Under Marvell's $80 billion FY31 revenue scenario, the company expects about $37.5 billion to come from its interconnect business.
+  – Marvell Technology Inc. (MRVL) shares jumped nearly 10% on Tuesday after the chipmaker laid out sharply higher long-term revenue targets at its Investor Day, including a path to between $70 billion and $90 billion in an…
+  – The company also raised its fiscal 2028 revenue forecast to about $20 billion from the $18 billion outlook issued in August.
+  – That tops the $18.1 billion analyst consensus tracked by FiscalAI.
+  – Marvell expects roughly $18 billion of fiscal 2028 revenue to come from its data-center business.
+Link: https://finance.yahoo.com/markets/stocks/articles/marvell-investor-day-mrvl-stock-161658862.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Yahoo Finance: Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Re…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 13h16
+id: E05-MRVL-1a0c2dc1f4-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50
+InfoMoney · 06/10 08h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Após o rali registrado na segunda-feira (5), o banco ainda projeta ganhos de 15% a 20% ou mais até o fim de 2026, além de enxergar espaço para novos avanços em 2027 em direção ao seu cenário otimista de 250 mil pontos p…
+  – No cenário otimista (bull case), a moeda americana poderia chegar a R$ 4,50.
+  – O nível de R$ 4,50, contudo, não é apresentado como cenário-base do banco, uma vez que representa o extremo positivo de uma análise que relaciona diferentes níveis do Ibovespa, múltiplos da Bolsa e câmbio.
+  – No outro extremo, o cenário pessimista contempla dólar a R$ 6 e Ibovespa a 130 mil pontos.
+  – Já o cenário-base é de Ibovespa a 215 mil pontos.
+  – O posicionamento doméstico em ações permanece próximo aos menores níveis históricos, uma vez que as alocações locais em renda variável estão próximas de 5%, ligeiramente acima da mínima histórica de 4,6%, bem abaixo da…
+Link: https://www.infomoney.com.br/mercados/morgan-stanley-eleva-brasil-para-compra-ve-ibovespa-ate-250-mil-e-aposta-em-rotacao-de-acoes/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: USDBRL
+Como falar: 'saiu no InfoMoney: Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a R$ 4,50; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 06/10 08h14
+id: E05-USDBRL-d9977e210f-2026-10-06 · status: pendente
 
 [ATENÇÃO] E05 · PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão
 ADVFN · 06/10 13h41 · fonte única · licença: manchete
@@ -11,7 +52,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no ADVFN: Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão; confirmar o número no texto antes de repassar'
 Fonte: ADVFN 06/10 13h41
-id: E05-PETR4-91f18de298-2026-10-06 · status: pendente
+id: E05-PETR4-91f18de298-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
 TradingView (Reuters) · 06/10 13h16 · fonte única · licença: manchete
@@ -20,7 +61,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MRVL
 Como falar: 'saiu no TradingView (Reuters): Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Re…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 06/10 13h16
-id: E05-MRVL-f6ee80357a-2026-10-06 · status: pendente
+id: E05-MRVL-f6ee80357a-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA)
 Seeking Alpha · 06/10 12h57 · fonte única · licença: manchete
@@ -29,7 +70,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MRVL
 Como falar: 'saiu no Seeking Alpha: Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 06/10 12h57
-id: E05-MRVL-4f7cb81fa2-2026-10-06 · status: pendente
+id: E05-MRVL-4f7cb81fa2-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 billion
 Yahoo Finance · 06/10 12h50 · fonte única · licença: resumo
@@ -45,7 +86,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MRVL
 Como falar: 'saiu no Yahoo Finance: Marvell stock surges after company raises 2028 revenue outlook to $20 billion; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/10 12h50
-id: E05-MRVL-59180b6bff-2026-10-06 · status: pendente
+id: E05-MRVL-59180b6bff-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case
 Reuters · 06/10 11h46 · fonte única · licença: manchete
@@ -54,7 +95,7 @@ Por que importa: contingencia muda o risco e pode virar provisao; olhar valor e 
 Ativos: GOOGL
 Como falar: 'saiu no Reuters: Google fights £1 billion UK lawsuit over app store fees in latest Big Tech case; confirmar o número no texto antes de repassar'
 Fonte: Reuters 06/10 11h46
-id: E05-GOOGL-6a44630be7-2026-10-06 · status: pendente
+id: E05-GOOGL-6a44630be7-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · DI · Copom reduz taxa Selic para 14% ao ano
 Agencia Brasil · 06/10 10h14 · fonte única · licença: integral
@@ -232,8 +273,19 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (100)
 
+· BTC Are Binance Users Selling Ethereum for Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/binance-users-selling-ethereum-bitcoin-174840044.html
+· MU Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952306-micron-tighter-market-conditions-through-2028-mean-this-is-a-great-buy
+· MU Micron Stocks Edge Lower as 2027 Memory Peak Tests Record Margins (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d6f9b669b094b:0-micron-stocks-edge-lower-as-2027-memory-peak-tests-record-margins/
+· MRVL Marvell Jumps 10% After Raising Its 2028 Revenue Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a2940b00a094b:0-marvell-jumps-10-after-raising-its-2028-revenue-target/
+· USDBRL Euro cai frente ao dólar: uma crise financeira se aproxima? (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/10/06/euro-cai-frente-ao-dolar-uma-crise-financeira-se-aproxima.htm
+· NVDA Nvidia Stocks Rise 1.4% as Power Crunch Spares 2027 Forecasts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:945f77fd2094b:0-nvidia-stocks-rise-1-4-as-power-crunch-spares-2027-forecasts/
+· BBAS3 Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4, VALE3 e BBAS3 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06102026/
+· ITUB4 Resultado das eleições 2026 em Itaú (RN): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/google/amp/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-itau-rn-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
+· USDBRL Bitcoin hoje ganha fôlego com alívio no dólar, mas Treasuries podem ditar próximos movimentos (Estadao) https://www.estadao.com.br/einvestidor/cripto/bitcoin-sobe-com-fed-menos-rigido-e-oferta-global-de-moeda-em-maxima-historica/
+· BTC Strive's Matt Cole Says Bitcoin Could Hit $500,000 By The End Of 2030 (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTl3R2pCdWZWck9jekdmS09nSUJXeGF1TFlXdTZWaldrRWtKT2EzTTJETF9nTV8zbXcwRENUNEVLRzRxY2o5dFozQmFDQ09PWnFBSmk1ZU9WWWk5QkgtNG1MZkRQRmRVaHhYSVVSYm5HUTNpSFVzclBDczkyWms5VzdFeFpiTUNBdnJmQTN5V0JQcDZwSS1GMF9wWQ?oc=5
+· TSLA Tesla’s Delivery Beat Is Just the ‘Appetizer,’ Analyst Says 2027 Could Be the Main Event (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oSVVBTDA3VktiY3diWkpxQlFoSjNOX0tkZDhtLXRvVlhvNG0tYk5MOXVTWnZ5SGpBV0YyVGJDdkU1OHQwOTNMTjRBMmpvZTB4b0p1RVExMEFISnlaTGstZF9KQUc5UW5E?oc=5
 · AMZN Amazon at $250: $1 billion “Built Together” Data Center Push Is Already Backfiring (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-250-1-billion-built-164522208.html
 · AMD Cathie Wood Dumps Millions of AMD Stock Amid Massive Rally (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:585c406c4094b:0-cathie-wood-dumps-millions-of-amd-stock-amid-massive-rally/
 · AMD AMD CEO Lisa Su Sounds Alarm as AI Chip Demand Surges (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a5db7731c094b:0-amd-ceo-lisa-su-sounds-alarm-as-ai-chip-demand-surges/
@@ -283,15 +335,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · JPM Watch Dimon on AI Boom, Bond Selloff, UK Banks (Bloomberg) https://www.bloomberg.com/news/videos/2026-10-06/dimon-weighs-in-on-ai-boom-bond-selloff-and-uk-banks-video
 · JPM Dimon Says a UK Windfall Tax on Domestic Banks Wouldn’t Be Fair (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-06/dimon-says-a-uk-windfall-tax-on-domestic-banks-wouldn-t-be-fair
 · GOOGL Mysten Labs Announces Verifiable Agent Arbiter in Collaboration with Google Cloud (PR Newswire) https://www.prnewswire.com/news-releases/mysten-labs-announces-verifiable-agent-arbiter-in-collaboration-with-google-cloud-302899202.html
-· USDBRL Dólar cai a R$ 4,95 e Bolsa abre em alta com euforia de ativos brasileiros (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/06/dolar-bolsa-abre-hoje-6-de-outubro-de-2026.ghtm
-· ETH Ethereum Layer 2 Blast Is Shutting Down: What Happens to Your Coins? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-layer-2-blast-shutting-133036226.html
-· GOOGL Tech Mahindra Expands Agentic AI Readiness with Google Cloud Gemini Enterprise (PR Newswire) https://www.prnewswire.com/news-releases/tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise-302899746.html
-· BTC Strive's Matt Cole Says Bitcoin Could Hit $500,000 By The End Of 2030 (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVhWSGRzcEpsTzRvYkYteHpoS29aSXRYRmJ2Y3A5eC02LWNCbkQ0a0J2cDNHRGo5WXNEelM0bnJXNnJDNUZEb0FjYmt2bmRLQTd5Ry1lemk0ajdNbFgzUFc4WHktdU5BV3NoVllWeF9oU0hKdV81ZUxRUmV0X2VhMUw5WmlwUTdsXzFsWHZzZEY0SU5pZWFubWZ5TEFpblN2eVVrQ0s0WDBKd3otZDl3RTlxdHlNbl9ZWFg3eWJ3ckM1ekU5RVAtTA?oc=5
-· USDBRL Dólar cai pela 2ª sessão após euforia do mercado com eleições (Suno Noticias) https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEUwWmFQWGxyd2NnNEdFRDJFazdzandnbE9DSEFXOWtFWkFDT2VOcmpHeEdJT3Vzb3kxdjl0VElDeVlkUkNXWHF1d1g3WHdwSkpfbVBaTzJfVHlGSlo1ajJJb0hwcTA2anMzS1ZaVDM2S1IxRzFQWF9fXzNYcmQta1JXN3V0YXBTcnMyS0ZIZjh1aVdH0gGaAUFVX3lxTE9zZF8yOE4xdExiSkszLVhzUnIyV3ExbEdMWFRpS0hPckE5dVJ5M0lkRVBZbWNydGRGU1V0M3lUUmJITUUzSlg5aGRPTFNrRGZSa1c2TGJBdmw3ZmRBdXY1ejdvYlgydUVidXNNLTY3SUdFSGMzMXBsLU81a2tkZ0oyTHY2alJNUnM2Ty1vZlVDbFAtOEhBMUEtTmc?oc=5
-· INTC Applied Materials, Intel deepen collaboration for AI chipmaking (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV25ZTzFKdUZiS0hNZnMyQnF3ZmZfZ2RLWVNpbC1zY0JxSTVTMHNFZlhIc0V3dGZudVhBcHdSZllZb2p6MlZCTmtmUjlCLUNCUzFXUGtNMFBsdm9wMDJ0V1pzeHNXZG9JUFg3YXRNQmhNTmhFLTdfQUFaN0dSa2ktWnpWSmljVWdZYmJCSlg5MEpMQmhlcVNnWjNIOUFwNnZxYWk0aW8yRk50NUpQQU1pQndOOXhkZFI5Y1Q2YkxPZTh2YWc?oc=5
-· JPM JPMorgan Chase & Co. (JPM) Reports Next Week: Wall Street Expects Earnings Growth (Yahoo Finance) https://news.google.com/rss/articles/CBMihAFBVV95cUxQdlNEUTdMODJRVEo5UzRrbGxfS0J1ZjBXVTkwV1h1SGpXU0tybENHVnIzNzBJdmJ6d1h0emVCSi1HWC1ZYzUwYXpva0RHV3VCT2t4SVR6QV9UVjMxWm1fT25kSzkzM2xIOFh3eDFpLUIwZUcwUFJCYWMtSWh3UFo2NGktSEE?oc=5
-· INTC Intel’s Biggest Opportunity May Be Its Comeback (Yahoo Finance) https://news.google.com/rss/articles/CBMipgFBVV95cUxPMUlfcDZhSnNsTkgzaGdfeklHc3hETWtvbXFBeDdMZlN6Tkk5RkhDamZJR2NWeHZ1cFp4NU5PSHlrc0xxV0lRRTJqU08zWjF4MFFidlBrdF9mUDhIbHpxQmM1RXNLV0ZOdlN3N1JWVXUzV2haY1lvMHBQbm5BRkVPWFBnX1d5M1dKLVZjLVJhNFRRUjRPc2tTQnNEUFZ2OFEzZ0ZNWjd3?oc=5
-· MU Micron Stock Is Waiting On One Answer (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQaURNTFNsVlo3dHBQN3djUUVvdWFlandURkRzcTUteVZ4Unhjd0tBQTQxcFZQejV1Yl9EZjZLOXdMTW5DVjRTaXZvYi1rLU0wSXdqWGJNM3I4YW1ybFNEdG0xa2c4NmJ4U1pzZWI1NUtmTXZMRDEwOC1rWGhubDBuWjkxWk51T1BhQ1c0WkJBenlnbG41bFRTZHFFbmo?oc=5
-· BBDC4 Resultado das eleições 2026 em Gravataí (RS): votação para presidente no Fundacao Bradesco, na 71ª zona eleitoral (g1) https://news.google.com/rss/articles/CBMimgJBVV95cUxOdnRQOExRdEhJdGFjcTlka2RPcjg1M0d0SEFxOWVZcVhJQXdsWXdPR3EwNnRfMjNBbkNLVmZUUHdTY2RoYUk3UkgyUEp1YjZxWVJrWFdNSUZRY3huT1hWWV9tbVNnVDZVT3pySDFuWE5ieEU4Sl8xcF9wTENxVUl6aUFKYmxpbk1OdE5QTXJDZWVPQWpFWjJUSU50c2dtSWc4cXM4UWtsemJ1enVEYmhaZGNTcHRMUTZNV1QyelNZRVROVlJtcWtKaEVRZF9EYlJxbnZ5ak4yY1NOdVhoZDZaOTNaZzdvSGEtdXdmM0dGdmtVdE5URDBBczNma1NEYmdwUXExVEhnc1ZFR1hHdUJid2ZpTURjaUVoeWfSAagCQVVfeXFMTjhYS2thaDlWQVFKYWF4dWNsREhqRUY2NHluZXdCZHBOQ1lYRW9GY1hzQ1RuZ25EYkUyUF9pWXFsWFhNU0k2QWk3Q1VHa2lZSlQ3NlVDeURZanJyRldtUXNYVHZ2VWhwUXlhQUFoRGZTNXV3UHhQdjctTXVrX3UxbUk2bXQ3cm9GSVlGeXJVUmZPVjFuNE4yOGxWcUdRVy1HNHJwOU1MMGRsYVR1Ml9OanRPZkQtTUhIQU1sQ01Fd1drcVhqUnN1bzNhQUFaaHd1M2syMmhDalc5c3dmdk5ZVi1hdUxhbHp2dElfUzZxZ1prXzBqNG9YdjBDdi1zR0IxUjZCVlNIWnc0WkJrY0dJWkNWVm5GR3BLSzBqeWc0R1pFRkNqYXVXMnk?oc=5
-· BBDC4 JPMorgan rebaixa Banco do Brasil para venda e eleva Bradesco após rali; ações reagem (InfoMoney) https://www.infomoney.com.br/mercados/bbas3-bbdc4-jpmorgan-rebaixa-banco-do-brasil-para-venda-e-eleva-bradesco-a-compra-apos-rali-acoes-reagem/
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+40 manchetes; lista completa em eventos/noticias.json)
