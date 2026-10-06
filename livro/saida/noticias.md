@@ -1,8 +1,26 @@
-NOTÍCIAS E FATOS · 06/10 13h21
+NOTÍCIAS E FATOS · 06/10 14h12
 
-Pernas: noticias ok 20 novas (18 consultas; descartadas: 427 veículo fora da lista, 40 sem ativo, 11 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 429 veículo fora da lista, 37 sem ativo, 3 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão
+ADVFN · 06/10 13h41 · fonte única · licença: manchete
+Link: https://br.advfn.com/jornal/2026/10/petrobras-conclui-exploracao-no-caribe-colombiano-apos-investimento-de-us-1-bilhao
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no ADVFN: Petrobras conclui exploração no Caribe colombiano, após investimento de US$ 1 bilhão; confirmar o número no texto antes de repassar'
+Fonte: ADVFN 06/10 13h41
+id: E05-PETR4-91f18de298-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Revenue By Fiscal 2031
+TradingView (Reuters) · 06/10 13h16 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:04dfaf3fd094b:0-marvell-investor-day-mrvl-stock-rockets-as-firm-lays-out-path-to-up-to-90b-in-annual-revenue-by-fiscal-2031/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no TradingView (Reuters): Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $90B In Annual Re…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 06/10 13h16
+id: E05-MRVL-f6ee80357a-2026-10-06 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SPY:NYSEARCA)
 Seeking Alpha · 06/10 12h57 · fonte única · licença: manchete
@@ -214,8 +232,22 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (75)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· AMZN Amazon at $250: $1 billion “Built Together” Data Center Push Is Already Backfiring (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-250-1-billion-built-164522208.html
+· AMD Cathie Wood Dumps Millions of AMD Stock Amid Massive Rally (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:585c406c4094b:0-cathie-wood-dumps-millions-of-amd-stock-amid-massive-rally/
+· AMD AMD CEO Lisa Su Sounds Alarm as AI Chip Demand Surges (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a5db7731c094b:0-amd-ceo-lisa-su-sounds-alarm-as-ai-chip-demand-surges/
+· UST S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips (Reuters) https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/
+· UGPA3 Resultado das eleições 2026 em Ipiranga de Goiás (GO): votação para presidente na Escola Municipal Damião Barreto Ue-Mun, na 76ª zona eleitoral (g1) https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-de-goias-go-votacao-para-presidente-na-escola-municipal-damiao-barreto-ue-mun-na-76a-zona-eleitoral.ghtml
+· BTC Genius Group Restarts Bitcoin Buying With 10 BTC Purchase (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:d11a98d5f094b:0-genius-group-restarts-bitcoin-buying-with-10-btc-purchase/
+· SMAL11 Eleições acendem o pavio e small caps explodem na Bolsa; veja as mais indicadas (InfoMoney) https://www.infomoney.com.br/onde-investir/eleicoes-acendem-o-pavio-e-small-caps-explodem-na-bolsa-veja-as-mais-indicadas/
+· MU Micron Q4 Blowout: Why The Memory Supercycle Still Has Runway (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952262-micron-q4-blowout-why-memory-supercycle-still-has-runway
+· JPM JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more' (Yahoo Finance) https://finance.yahoo.com/markets/article/jpmorgan-ceo-jamie-dimon-sharpens-warning-about-a-corporate-credit-squeeze-the-market-will-ask-for-more-151359247.html
+· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/jpmorgan-shares-may-move-32-on-oct-13-earnings-report-93CH-4868214
+· NVDA ETFs to Buy as NVIDIA Marches Toward $6 Trillion Market Cap (TradingView (Reuters)) https://news.google.com/rss/articles/CBMitAFBVV95cUxQNlh2WVc3ckU2QUx5Unk5bzhiaS1nSGNXYkdPN1hxX1Baa0hhU0VlbjVRbGtpam45U0NMRWtOMURldGtVeWV4NlBUU0pHOFQ2amZ3RDVQdDc3eVp3N0VGTy1USG12c2ZLUUFCUzluZ1dhcG9od09FUHlLRWcweTNIc3oxRVpYb2VES3RYQU40NkFoRDZDTGhoUDBBcXF5V3FnM2JJQlZvcG5WY1RvU3FQOTdSdXk?oc=5
+· MU How Has Micron's Story Changed? (Yahoo Finance) https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGtPbXc4SHRLcTItR19hU2U0VW9nNHk4cmhyd1YxWGtnVWUzdWh5Z054XzVLQ2J6WjE0N1Z6N21XeGNXdUpEVmw1VjYyYzBtcXJrZm5tWWFWNmFZR3RWODlfNndySFBzR3FBNWMwUUkxejBDQldOMVlKX3J2bVQzRmFZNkluTFR3Z2Vqcmh2MA?oc=5
+· MMM MPC Targets 3M Barrels per day in Q3: Can Strong Throughput Continue? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmxqaXh5ZENXQWE5YVdiNWhFaVlRaXpRaEsxaWhhTE40Q1ZLdGNsd2JxOEpaeS1CMGVwbV9JMGxpOW9QaDhqSlBUbXNfSUF5SWVYWG1GMUNpdmY2ZzNTdW1Vb21XS3VZd25XNUViTzUtOEFQSWt6QWozaGE3VGt0Tm5KcnBYak9XUS1McEdsUHRIeGt3c0ZObnhibGl1NmctUXFmT0k2NDVDLTUybm9vb1RWU09QeHlQbnBwc0hwSko?oc=5
+· MMM 3M Rises 12.9% in the Past Six Months: Is There Still Room to Grow? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivAFBVV95cUxPVjJ0Ylo5MllDaHhmUFRMRG1Db2Z6ZUxhNFZla1ZHbFpmR2MyUjJ0TGQ3VW0tVU1XVnNBbGUwXzJ5RHdBcG1qLVRnNEhkNWV5SGdpRUlGZTBTR1JYV3daNFJBZF9sX1RaLTkzWDRFZUlsaE80QW9OZlhHc0NVMExTd1pNNDRLaDdPMkxkT216c21mSGpGR2t0ZkVEZnJpSzJJbkVKa0ZlRWpaTFN3b0pBY21GQml0RDNpbVRGdA?oc=5
 · UGPA3 Resultado das eleições 2026 em Ipiranga de Goiás (GO): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-de-goias-go-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
 · NVDA Nvidia: Plenty Of Reasons To Worry, But The Stock Keeps Cooking (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952266-nvidia-plenty-of-reasons-to-worry-but-stock-keeps-cooking
 · AVGO Broadcom: When The Story And The Stock Disagree (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952265-broadcom-when-the-story-and-the-stock-disagree
@@ -262,18 +294,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · MU Micron Stock Is Waiting On One Answer (Yahoo Finance) https://news.google.com/rss/articles/CBMinAFBVV95cUxQaURNTFNsVlo3dHBQN3djUUVvdWFlandURkRzcTUteVZ4Unhjd0tBQTQxcFZQejV1Yl9EZjZLOXdMTW5DVjRTaXZvYi1rLU0wSXdqWGJNM3I4YW1ybFNEdG0xa2c4NmJ4U1pzZWI1NUtmTXZMRDEwOC1rWGhubDBuWjkxWk51T1BhQ1c0WkJBenlnbG41bFRTZHFFbmo?oc=5
 · BBDC4 Resultado das eleições 2026 em Gravataí (RS): votação para presidente no Fundacao Bradesco, na 71ª zona eleitoral (g1) https://news.google.com/rss/articles/CBMimgJBVV95cUxOdnRQOExRdEhJdGFjcTlka2RPcjg1M0d0SEFxOWVZcVhJQXdsWXdPR3EwNnRfMjNBbkNLVmZUUHdTY2RoYUk3UkgyUEp1YjZxWVJrWFdNSUZRY3huT1hWWV9tbVNnVDZVT3pySDFuWE5ieEU4Sl8xcF9wTENxVUl6aUFKYmxpbk1OdE5QTXJDZWVPQWpFWjJUSU50c2dtSWc4cXM4UWtsemJ1enVEYmhaZGNTcHRMUTZNV1QyelNZRVROVlJtcWtKaEVRZF9EYlJxbnZ5ak4yY1NOdVhoZDZaOTNaZzdvSGEtdXdmM0dGdmtVdE5URDBBczNma1NEYmdwUXExVEhnc1ZFR1hHdUJid2ZpTURjaUVoeWfSAagCQVVfeXFMTjhYS2thaDlWQVFKYWF4dWNsREhqRUY2NHluZXdCZHBOQ1lYRW9GY1hzQ1RuZ25EYkUyUF9pWXFsWFhNU0k2QWk3Q1VHa2lZSlQ3NlVDeURZanJyRldtUXNYVHZ2VWhwUXlhQUFoRGZTNXV3UHhQdjctTXVrX3UxbUk2bXQ3cm9GSVlGeXJVUmZPVjFuNE4yOGxWcUdRVy1HNHJwOU1MMGRsYVR1Ml9OanRPZkQtTUhIQU1sQ01Fd1drcVhqUnN1bzNhQUFaaHd1M2syMmhDalc5c3dmdk5ZVi1hdUxhbHp2dElfUzZxZ1prXzBqNG9YdjBDdi1zR0IxUjZCVlNIWnc0WkJrY0dJWkNWVm5GR3BLSzBqeWc0R1pFRkNqYXVXMnk?oc=5
 · BBDC4 JPMorgan rebaixa Banco do Brasil para venda e eleva Bradesco após rali; ações reagem (InfoMoney) https://www.infomoney.com.br/mercados/bbas3-bbdc4-jpmorgan-rebaixa-banco-do-brasil-para-venda-e-eleva-bradesco-a-compra-apos-rali-acoes-reagem/
-· AVGO Broadcom (AVGO) Eyes Huge AI Revenue Growth, Is The Stock Getting Too Pricey? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-eyes-huge-ai-130550397.html
-· USDBRL Dólar abre em queda com rescaldo de repercussão após 1º turno no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-outubro-2026/
-· USDBRL Dólar cai ante o real com eleição e exterior no foco Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-cai-ante-o-real-com-eleicao-e-exterior-no-foco-2084353
-· USDBRL Dólar hoje abre em queda e opera abaixo dos R$ 4,97 (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-06102026/
-· GOOGL Google Launches Google Cloud Modernize (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45S1GX:0-google-launches-google-cloud-modernize/
-· AMD AMD CEO Lisa Su Delivers Urgent Message on AI Chip Demand (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:bb5a25e69094b:0-amd-ceo-lisa-su-delivers-urgent-message-on-ai-chip-demand/
-· USDBRL Dólar abre em queda, com cenário político e balança comercial no radar (g1) https://g1.globo.com/economia/noticia/2026/10/06/dolar-ibovespa.ghtml
-· BAC Bank of America: As Q3 Earnings Near, I'm Cautious About Evolving Risks (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4952134-bank-of-america-as-q3-earnings-near-cautious-of-evolving-risks-maintain-hold
-· USDBRL Dólar abre em queda, abaixo de R$ 5. Até onde vai o rali eleitoral? (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/06/bolsa-e-dolar-hoje-ate-onde-vai-o-rali-eleitoral.ghtml
-· BTC Key facts: Bitcoin vs US Dollar, Spot CFD; ETF -$90M; $190M Liq; OI-3.8% (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:76fb4b6d4e1d4:0-key-facts-bitcoin-vs-us-dollar-spot-cfd-etf-90m-190m-liq-oi-3-8/
-· AMD AMD rises as Citi ups price target as firm sees CPU market hitting $300B by 2030 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:1d676c8c1094b:0-amd-rises-as-citi-ups-price-target-as-firm-sees-cpu-market-hitting-300b-by-2030/
-· AMD AMD Just Got a $700 Price Target as Stifel Predicts a 'Beat-and-Raise' (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:500f250f7094b:0-amd-just-got-a-700-price-target-as-stifel-predicts-a-beat-and-raise/
-· SBSP3 Méliuz, Sabesp, Viveo, Dexco e mais ações para acompanhar nesta 3ª (InfoMoney) https://www.infomoney.com.br/mercados/meliuz-sabesp-viveo-dexco-e-mais-acoes-para-acompanhar-nesta-3a/
-· ETH Current price of Ethereum for October 6, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hMkpTN1NtaXJTX1dabzZoVkJ1aU9GSnNBc3pja0lERjVVT3RxQ0p4OG5HdGVjRlFhMGpXQ044bTBabWdOMkNYV3BKd1BmajlhV3F0YTd6aEk5QzRKZ0FfQW51Z2poaDgt?oc=5
-· (+15 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
