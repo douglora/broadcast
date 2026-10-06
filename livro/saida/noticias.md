@@ -1,8 +1,24 @@
-NOTÍCIAS E FATOS · 06/10 16h21
+NOTÍCIAS E FATOS · 06/10 17h21
 
-Pernas: noticias ok 10 novas (18 consultas; descartadas: 435 veículo fora da lista, 37 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 428 veículo fora da lista, 43 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (22)
+## NOTÍCIAS COM MATERIALIDADE (23)
+
+[ATENÇÃO] E05 · MRVL · Marvell Stock Soars After Raising 2028 Guidance
+Yahoo Finance · 06/10 16h56 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The biggest surprise was not just the fiscal 2028 increase, but Marvell's forecast for as much as $90 billion in annual revenue by fiscal 2031.
+  – GuruFocus has detected 3 Warning Sign with MRVL.
+  – For fiscal 2028, Marvell now expects revenue of about $20 billion, up from its prior $18 billion outlook and above the $18.2 billion analyst consensus.
+  – The company also said customer revenue in fiscal 2029 could rise 200% or more.
+  – Marvell expects total revenue to reach between $70 billion and $90 billion by fiscal 2031, implying an $80 billion midpoint that is dramatically above the roughly $46.9 billion Wall Street consensus cited by Reuters.
+  – The company has secured a major agreement with Alphabet's Google that could generate as much as $120 billion in revenue through 2033 if performance milestones are met.
+Link: https://finance.yahoo.com/markets/stocks/articles/marvell-stock-soars-raising-2028-195651695.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Yahoo Finance: Marvell Stock Soars After Raising 2028 Guidance; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 16h56
+id: E05-MRVL-cf8c6a0d31-2026-10-06 · status: pendente
 
 [ATENÇÃO] E05 · GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell Raises Revenue Guidance for 2026-27
 Yahoo Finance · 06/10 12h45 · fonte única · licença: resumo
@@ -13,7 +29,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: GOOGL · MRVL
 Como falar: 'saiu no Yahoo Finance: Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Constellation; Marvell…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 06/10 12h45
-id: E05-GOOGL-070d6eeb97-2026-10-06 · status: pendente
+id: E05-GOOGL-070d6eeb97-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
 TradingView (Reuters) · 06/10 13h21 · fonte única · licença: manchete
@@ -284,8 +300,23 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (116)
+## OUTRAS NOTÍCIAS (só manchete) (131)
 
+· USDBRL Dólar à vista fecha em baixa de 0,55%, a R$4,9745 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-055-a-r49745-na-venda-2084841
+· INTC Intel to Report Third-Quarter 2026 Financial Results (Business Wire) https://www.businesswire.com/news/home/20261006035488/en/Intel-to-Report-Third-Quarter-2026-Financial-Results
+· USDBRL Dólar cai mais ou é hora de comprar? Com moeda abaixo dos R$ 5, veja o que dizem analistas (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/06/dolar-cai-mais-ou-e-hora-de-comprar.ghtml
+· DI Febraban: bancos preveem corte de 0,25 na Selic em novembro (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/febraban-bancos-preveem-corte-de-025-na-selic-em-novembro/
+· MRVL Marvell Stock Jumps on Massive $20 Billion Revenue Forecast (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d1229407d094b:0-marvell-stock-jumps-on-massive-20-billion-revenue-forecast/
+· NVDA Nvidia Strength Is Masking ‘A Whole Lot of Pain’ in the Broader Market, David Rosenberg Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-strength-masking-whole-lot-194123906.html
+· ITUB4 Resultado das eleições 2026 em Itaú de Minas (MG): votação para presidente na Escola Municipal Engenheiro Jorge Oliva, na 293ª zona eleitoral (g1) https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-itau-de-minas-mg-votacao-para-presidente-na-escola-municipal-engenheiro-jorge-oliva-na-293a-zona-eleitoral.ghtml
+· BBDC4 BBAS3 e BBDC4: JPMorgan rebaixa Banco do Brasil e eleva Bradesco (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/rali-vira-o-jogo-entre-os-bancos-jpmorgan-poe-bb-sob-pressao-e-ve-mais-folego-no-bradesco/
+· MRVL Marvell rides the AI boom, targets $90B in revenue by fiscal 2031 (Yahoo Finance) https://finance.yahoo.com/video/marvell-rides-ai-boom-targets-192654470.html
+· NVDA Sam Altman: Jensen Huang “Selling Picks and Shovels” as NVIDIA Heads for $6 Trillion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/sam-altman-jensen-huang-selling-191250063.html
+· JPM JPMorgan Chase, Capital One, and RBC top AI banks index (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4650666-jpmorgan-chase-capital-one-rbc-top-ai-banks-index
+· BTC Metaplanet Sold 10,000 Bitcoin for $790 Million, Then Bought 11,000 Back for $950 Million. What Was the Point? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/metaplanet-sold-10-000-bitcoin-182436416.html
+· TSLA Tesla Stocks Gain as 486,532 Deliveries Reset the Bar (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-gain-486-532-181326551.html
+· MRVL Ciena stock jumps on positive industry commentary from Marvell, Nokia By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZmkxRzZoeEVRaFVzbkRndEFQdEZfdVozeWZSeGdLdnp3aGVJQjZudENLRWVoZW8ybXkyeUg3UldoMTdCWUMzdGNkSzllcVJjNnJSbXI3d0VzdkFmVjBnaVhmRzNDUUlxc2JiT3RuZzViOHc2UlEzcER1NDlkVXFPei1LckxCaTBfSEI2WDdIUlNvUnlUeVdaTHBiUllsa3FSbldqelVHQzB4SVA5bG8wZEEtc2cyTkFFdjNyMHJjeFRUbG9vdENwOA?oc=5
+· BRENT US EIA hikes oil price forecasts again as Iran war drains global stockpile (Reuters) https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5
 · USDBRL Ouro sobe com recuo do dólar e dos rendimentos dos Treasuries (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/ouro-sobe-com-recuo-do-dolar-e-dos-rendimentos-dos-treasuries.ghtml
 · DI Febraban: metade dos bancos prevê corte de 0,25 pp na Selic em novembro e 13,50% no fim do ano (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/06/febraban-metade-dos-bancos-preve-corte-de-025-pp-na-selic-em-novembro-e-1350-no-fim-do-ano.htm
 · MRVL What Marvell's rosy long-term guidance means for our AI chip stocks (CNBC) https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html
@@ -331,19 +362,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · NVDA Nvidia: Plenty Of Reasons To Worry, But The Stock Keeps Cooking (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952266-nvidia-plenty-of-reasons-to-worry-but-stock-keeps-cooking
 · AVGO Broadcom: When The Story And The Stock Disagree (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952265-broadcom-when-the-story-and-the-stock-disagree
 · MU Micron: The Market Still Doesn’t Get It (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952264-micron-the-market-still-doesnt-get-it
-· AMD BNP Paribas Just Hiked AMD’s Price Target 60% to $960 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/bnp-paribas-just-hiked-amd-153143703.html
-· JPM JPMorgan Chase: Expect Q3 Earnings To Reinforce Buy Thesis (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4952259-jpmorgan-chase-expect-q3-earnings-to-reinforce-buy-thesis
-· ITUB4 CEO explica receita para Itaú sofrer menos com inadimplência do que restante do mercado (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/ceo-explica-receita-para-ita-sofrer-menos-com-inadimplncia-do-que-restante-do-mercado.ghtml
-· MRVL Marvell raises 2028 revenue forecast on strong AI data center demand (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45S0Y5:0-marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand/
-· BRENT Greve de terceirizados do setor de petróleo chega ao fim em Macaé e na Bacia de Campos (g1) https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTHNhWWd1M0RuTl9Eby15S3h5T2xyRWZKVjEzMkxPY1otQXJKc2dnMWpmYlMtbUUya1NJNVVPTVIyMkVXQzBfWHR0RnZ0WmlEN0d6dnc5VWg1U0J3aFZ0d2ZiQ0dWNldpNmJQRXlfdDVVWFNQcUhzZ1F2YlJ1R3gyVDEtSXdFa01UZDNnaFdqSC03NklTMTRaU2JEYjA4YzMxWTk0TmhTNHRjOTJBdFB0QUlhVmowSmtEZ001Y3ZzUjN5SUtOd0ozbEs1eG41ZFpMaDZNNmxXNEVMRnV1bHFaMjNzOXdEQ3BQYV9IVGpFU1pXYlg0aHfSAfYBQVVfeXFMUExzYVlndTNEbk5fRG8teUt4eU9sckVmSlYxMzJMT2NaLUFySnNnZzFqZmJTLW1FMmtTSTVVT01SMjJFV0MwX1h0dEZ2dFppRDdHenZ3OVVoNVNCd2hWdHdmYkNHVjZXaTZiUEV5X3Q1VVhTUHFIc2dRdmJSdUd4MlQxLUl3RWtNVGQzZ2hXakgtNzZJUzE0WlNiRGIwOGMzMVk5NE5oUzR0YzkyQXRQdEFJYVZqMEprRGdNNWN2c1IzeUlLTndKM2xLNXhuNWRaTGg2TTZsVzRFTEZ1dWxxWjIzczl3RENwUGFfSFRqRVNaV2JYNGh3?oc=5
-· MU Is Micron Stock Worth Holding After Its Solid Q4 Earnings Results? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxORDRyVzB3RHRuN0lmX1JsOFFMdk9QdUJWejVjOHRZQ2JQbk43aGg1T0ZJTlVJdXZ6T1E3TlB0ZkMwZDJSWkVUdC1mZ3ZVdWFQeEp1bE93QU9RZlVPSFdQWlNjaUZ2Y1d5OXlkeFl3YXh3VzFuQWtGa0RmMzNEN0poclQ5WHk5ZlVqSlVlNlZzd2lQNXlqTEw5RnFHaW41a2dkTE1jUF9VV0VSY0UtUmtLZ1lTZTFFLW4xX0xrSDVB?oc=5
-· USDBRL Dólar cai pela 2ª sessão após euforia do mercado com eleições (Suno Noticias) https://news.google.com/rss/articles/CBMimgFBVV95cUxPc2RfMjhOMXRMYkpLMy1Yc1JyMldxMWxHTFhUaUtIT3JBOXVSeTNJZEVQWW1jcnRkRlNVdDN5VFJiSE1FM0pYOWhkT0xTa0RmUmtXNkxiQXZsN2ZkQXV2NXo3b2JYMnVFYnVzTS02N0lHRUhjMzFwbC1PNWtrZGdKMkx2NmpSTVJzNk8tb2ZVQ2xQLThIQTFBLU5n0gGaAUFVX3lxTE9zZF8yOE4xdExiSkszLVhzUnIyV3ExbEdMWFRpS0hPckE5dVJ5M0lkRVBZbWNydGRGU1V0M3lUUmJITUUzSlg5aGRPTFNrRGZSa1c2TGJBdmw3ZmRBdXY1ejdvYlgydUVidXNNLTY3SUdFSGMzMXBsLU81a2tkZ0oyTHY2alJNUnM2Ty1vZlVDbFAtOEhBMUEtTmc?oc=5
-· BBDC4 JPMorgan rebaixa Banco do Brasil para venda e eleva Bradesco após rali; ações reagem (InfoMoney) https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMzBkbkhnNmR4b1pZY0ZFOF8tVUlDd3lMdjF3MzdBczQxcVdCVjZwTHA5dW1yczFWdTNJWVp5MGk3aHFEUzUtT3ZvN29ka1psa0VUTVFVT3RFYkpULThfaTJmWlIyWm5jbFFVeVJSSXZEZHNXRUhNSXFpRkRNTVk4ZzQtVE9oNWJSWE9ObGdNNzJHTW1WT0QzeXZ4M2VGZERaeHhWTEhKa2szeUcyVGxhTDNmdklhTVgxejY2bnZnM2hFM0NRRXVzTUZ5MjhLZDRPZjlGU21wdC1JNFXSAeABQVVfeXFMTjIxMkI2WnZDaVBOUjBtXzYxNjQyQlMzcTlIQ2M0N2ZOdHRIMlRYbzdjZVpYYUhGOTBLa3NSaXdwb3ZjOVZZQzBvZE1xQkk1V25GSGg2NXQ4TUFBSkRmVnFIVTZkQko5ZkZNaFVabEtwUGVYYXJRZDE3Ujd4dnFSODdHVjJyVzVXdjRTRXJGUUNORnpxaU0yV05aNk5vODNOUFkyS1h0cWRoWkF5TXcydElKV21pU3Q3T2hHa21WZE1BTHZ5QzljOUtZZHdObU5iYlVfM1Atc01QU3hoTnNra1A?oc=5
-· AVGO Broadcom (AVGO) Eyes Huge AI Revenue Growth, Is The Stock Getting Too Pricey? (Yahoo Finance) https://news.google.com/rss/articles/CBMigAFBVV95cUxQMGVfbTNtSHpJNDBneVhBbzJjc3AtOUVOZXd1WWNyNWV4TnJfaXQwY2x4YVhLaWhFelBLem1jQ0pkNjFGNFlPYzZSM1FBbDJibE54TWxUdnZkRU4ycG95SldDakp6cXhqM1ZNaTJwODI1SENGNTNOdEJfaGhOUWhXWg?oc=5
-· NVDA Chips Retake Lead: What AMD and Nvidia Are Telling Us About AI (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU2w5M3J3Y0VUMnhvNnRCNUVHWTczaEljYkRLV1NhNVBMTTc5MGRhTjlhUlh3NXMtTFFOZ0JLZnA3cHJOUEpudFJET0VtMlRMSGdRVjRRTDlnd0pDSWZqVF8tb21oRUtSVFZCY3Y5aHNKb2JCaG1OeDNLSlZsMmZqcEJ1RTNCVlJVRGJnWG0zaXBDZ3RBLXlZRkdGSnoxTnBLLWhDd3F6OHF4b1U1QWY1aHRKTDhOQy1K?oc=5
-· USDBRL Ibovespa passa por realização de lucros após rali eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxPMFY4WHRSUEM3Qm5FYWdDZ0Y0bUpRVlUzQnZLc3pJSFluaTJiZXNRU3QtTjlHenZXazI3elRSc1hNVUd3Ymo1aUNreVRiNm9NcmowZkowSFg3d1JpQ2JLSFdpSGIxa2JVRVozcjVwV1NRcGRSY1RhVFJXZ2lDRnZ0cW9ZSmZWOXJ2R05aZWVrYmtnRk1aRkVKaTRvcUNZajRSM1Zn?oc=5
-· MU Micron Stock: Memory Revenue Looks More Durable Than The Cycle Suggests (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952254-micron-memory-revenue-looks-more-durable-than-the-cycle-suggests
-· JPM JPMorgan CEO Jamie Dimon sharpens warning about a corporate credit squeeze: 'The market will ask for more' (Yahoo Finance) https://ca.finance.yahoo.com/news/jpmorgan-ceo-jamie-dimon-sharpens-warning-about-a-corporate-credit-squeeze-the-market-will-ask-for-more-151359247.html
-· GOOGL Why Do Investors Like Alphabet (GOOG, GOOGL) Despite AI Search Threats? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/why-investors-alphabet-goog-googl-150418735.html
-· JPM JPMorgan’s Dimon warns of tenfold rise in cyber risk from AI (Investing.com) https://www.investing.com/news/economy-news/jpmorgans-dimon-warns-of-tenfold-rise-in-cyber-risk-from-ai-4934894
-· (+56 manchetes; lista completa em eventos/noticias.json)
+· (+71 manchetes; lista completa em eventos/noticias.json)
