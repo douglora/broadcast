@@ -1,88 +1,127 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [ATENÇÃO] E05 · NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Next Year
-Yahoo Finance · 02/10 15h52 · fonte única · licença: resumo
-Trechos (licença resumo: reescrever, não colar):
-  – Key Takeaways - On The Compound and Friends, Ritholtz Wealth Management's Josh Brown said NVIDIA could generate $360 billion in free cash flow next year, nearly four times its free cash flow in its last fiscal year.
-  – - Brown's $680 billion revenue figure is in line with Wall Street's consensus, and the main risk is that some of today's chip sales are being pulled forward from later years.
-  – - At about 19 times forward earnings, NVIDIA trades at roughly half its 10-year average of 37 times.
-  – 29 episode of The Compound and Friends, the Ritholtz Wealth Management CEO put a number on it: "Next year, it could be $360 billion in free cash flow on $680 billion in revenue." That's more than double the record $150…
-  – (TIKR ran the math on that buyback here.) His co-host Michael Batnick, Ritholtz's director of research, added that NVIDIA's operating earnings over the past 12 months are now above those of Apple (AAPL:NASDAQ): "It's le…
-  – These are not estimates." And yet the stock trades as if those earnings are about to shrink.
-Link: https://finance.yahoo.com/markets/stocks/articles/investor-makes-bold-prediction-nvidia-185249306.html
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: NVDA
-Como falar: 'saiu no Yahoo Finance: Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Free Cash Flow” Nex…; confirmar o número no texto antes de repassar'
-Fonte: Yahoo Finance 02/10 15h52
-ids: E05-NVDA-e2c7dd5a07-2026-10-02
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F29 -133 bps em 5 pregões (ajuste B3 06/10) / C02 Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 pregões / C03 DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252 pregões: 12,46% · F30 na mínima de 252 pregões: 12,52%
+DI F28 12,61 (-5) · F29 12,46 (-13) · F30 12,52 (-10) · F32 12,65 (-7) · F35 12,73 (-6)
+Inclinação F35-F28 +12 bps (-1)
+F35-F28 +12 bps (-1 dia · -31 5 pregões)
+F30-F28 -9 bps (-5 dia · -45 5 pregões)
+F32 na mínima de 252 pregões: 12,65%
+F35 na mínima de 252 pregões: 12,73%
+Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
+Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
+Fonte: B3 ajuste 06/10 · ajuste B3 06/10
+ids: C01-DI-fechou-2026-10-06, C02-DI-inclinacao-2026-10-06, C03-DI-di-2026-10-06
 
-(pendente de slot anterior) [ATENÇÃO] E05 · LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
-Investing.com · 02/10 13h02 · fonte única · licença: manchete
-Link: https://ca.investing.com/news/stock-market-news/lumentum-holdings-inc-stock-hits-alltime-high-at-108575-usd-93CH-4864419
+(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
+Investing.com · 06/10 17h59 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/evercore-isi-raises-marvell-stock-price-target-on-ai-growth-outlook-93CH-4935208
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MRVL
+Como falar: 'saiu no Investing.com: Evercore ISI raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 06/10 17h59
+ids: E05-MRVL-b8fd065ffb-2026-10-06
+
+(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
+Investing.com · 06/10 17h36 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/marvell-stock-gets-295-target-reiterated-by-raymond-james-on-ai-outlook-93CH-4935181
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: LITE
-Como falar: 'saiu no Investing.com: Lumentum Holdings Inc stock hits all-time high at 1085.75 USD; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 02/10 13h02
-ids: E05-LITE-b75ff30ab5-2026-10-02
+Ativos: MRVL
+Como falar: 'saiu no Investing.com: Marvell stock gets $295 target reiterated by Raymond James on AI outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 06/10 17h36
+ids: E05-MRVL-ff24d4c234-2026-10-06
+
+[ATENÇÃO] E05 · USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera
+UOL Economia · 06/10 18h44 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/redacao/2026/10/06/dolar-volta-a-cair-mas-ibovespa-recua-apos-disparada-eleitoral.htm
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no UOL Economia: Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 06/10 18h44
+Push: eventos: 2 alertas de atenção — E05 USDBRL, E05 MRVL · detalhe na sessão
+ids: E05-USDBRL-7d13238b84-2026-10-06
+
+[ATENÇÃO] E05 · MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ)
+Seeking Alpha · 06/10 16h41 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4650703-marvell-stock-flirts-with-300-barrier-after-investor-day-guidance-boost
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 06/10 16h41
+ids: E05-MRVL-b810c97b8f-2026-10-06
 
 Info (só linha no Fechamento):
-· E03 BBDC4 · Aviso aos Acionistas: Outros avisos
-· E05 BBAS3 · A ação que fez Petrobras (PETR4) e Banco do Brasil (BBAS3) comerem poeira e dobrou de preço com trade eleitoral de Flávio Bolsonaro
-· E05 PETR4 · Foz do Amazonas: Petrobras vai mobilizar sonda para perfuração de outros poços
-· E05 DI · Juros futuros caem com otimismo às vésperas do 1º turno das eleições
-· E05 TSLA · Tesla Q3 deliveries better-than-expected, stock jumps on news
-· E05 NVDA · Nvidia: Competition Caps The Upside Case (NASDAQ:NVDA)
-· E05 NVDA · US man arrested over alleged $300 million scheme to smuggle Nvidia AI servers to China
-· E05 EQTL3 · Viabilidade comercial da Margem Equatorial depende de mais perfurações
-· E05 BABA · Alibaba (BABA) Stock Drops Despite Market Gains: Important Facts to Note
-· E05 NVDA · Morgan Stanley Has Strong Message For Nvidia Stock Investors
-· E05 AMZN · What Are Amazon Investors Paying for AWS Without Investment Gains?
-· E05 ITUB4 · Programa iPhone pra Sempre do Itaú vendeu mais de 100 mil celulares
-· E05 BRENT · Dated Brent Above $120 Signals a Serious Oil Squeeze
-· E05 AMZN · Amazon.com, Inc. (AMZN) stock price, news, quote and history
-· C02 Inclinação da curva DI: F35-F28 +28 bps em 5 pregões
-· T05 SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,6 desvios para uma vol de 20 dias de 17% a.a.
-· T09 BBDC4 +3,9% com volume 2,7x a mediana de 20 sessões, a R$ 19,23
-· T12 BABA: 8 quedas seguidas (-9,0% acumulado) a US$ 105,85
+· E04 CVX · 8-K: 7.01 Regulation FD, 8.01 outros eventos
+· E05 ITUB4 · Itaú prevê que todos clientes usarão plataforma de IA até fim do ano
+· E05 USDBRL · Dólar fecha abaixo de R$ 5 pela primeira vez desde maio
+· E05 VALE3 · Vale (VALE3) sob pressão: Citi diz o que está no caminho da mineradora; saiba o que fazer com a ação agora
+· E05 DI · Juros futuros prolonga rali eleitoral nesta terça (6)
+· E05 CVX · Chevron to Shed Hess Midstream Stake in Major Bakken Restructuring
+· E05 CVX · Chevron to divest Hess Midstream stakes, take $3-4B after-tax loss; expects 50% Bakken midstream cost cut
+· E05 CVX · Chevron to Divest its Ownership Interests in Hess Midstream and DJ Basin Crude Midstream Assets
+· E05 KO · Better Dividend Stock: Coca-Cola vs. Realty Income
+· E05 BBAS3 · Banco do Brasil afunda mais de 6% e lidera perdas do Ibovespa hoje; veja maiores altas e baixas
+· E05 ETH · 21shares extends 100% sponsor fee waiver for Ethereum Staking ETF through Oct. 8, 2027
+· E05 AMZN · Kuehne+Nagel Strikes Deal With Amazon For Supply Chain, Cloud Capabilities
+· E05 MRVL · Marvell Stock Rises After CEO Announces Huge Long-Term Revenue Target
+· E05 MRVL · Marvell Stock Jumps on Massive $20 Billion Revenue Forecast
+· E05 ITUB4 · Resultado das eleições 2026 em Itaú de Minas (MG): votação para presidente na Escola Estadual Ary Pimenta Bugelli, na 293ª zona eleitoral
+· T08 AXIA3 entrou em correção: -11% do pico de 52s (R$ 67,15 em 14/04) a R$ 59,48
+· T08 BBAS3 entrou em correção: -11% do pico de 52s (R$ 27,58 em 25/02) a R$ 24,64
+· T09 MRVL +5,8% com volume 3,0x a mediana de 20 sessões, a US$ 287,01
+· T10 MRVL no máximo de força relativa em 63 sessões contra SOX: +27% vs +11% em 20 sessões (+15% relativo)
+· T10 BBDC4 no máximo de força relativa em 63 sessões contra IBOV: +25% vs +9,9% em 20 sessões (+14% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): C02-DI-inclinacao-2026-10-02 (teto de atenção), T05-SMAL11-alta-2026-10-02 (teto de atenção), T09-BBDC4-alta-2026-10-02 (teto de atenção), T12-BABA-quedas_8-2026-10-02 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T08-AXIA3--10-2026-10-06 (teto de atenção), T08-BBAS3--10-2026-10-06 (teto de atenção), T09-MRVL-alta-2026-10-06 (teto de atenção), T10-MRVL-máximo-2026-10-06 (teto de atenção), T10-BBDC4-máximo-2026-10-06 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· linha     C02 DI — Inclinação da curva DI: F35-F28 +28 bps em 5 pregões
-· linha     T05 SMAL11 — SMAL11 +2,9% no dia a R$ 116,34: movimento de 2,6 desvios para uma vol de 20 dia
-· linha     T09 BBDC4 — BBDC4 +3,9% com volume 2,7x a mediana de 20 sessões, a R$ 19,23
-· linha     T12 BABA — BABA: 8 quedas seguidas (-9,0% acumulado) a US$ 105,85
-· pendente  E05 NVDA — NVDA · Investor Makes Bold Prediction: NVIDIA Could Deliver “$360 Billion in Fre
-· pendente  E05 LITE — LITE · Lumentum Holdings Inc stock hits all-time high at 1085.75 USD
-· entregue  E05 MU — MU · CLSA raises Micron stock price target on strong memory pricing outlook
-· entregue  E05 MU — MU · Micron: The $50 Billion CapEx Misconception (Why The Memory Floor Is Rising
-· entregue  E05 AVGO — AVGO · Broadcom Bets $102 Billion on Anthropic Chips
-· entregue  E05 ITUB4 — ITUB4 · Dividendos de até 6%: veja a nova aposta da carteira recomendada do Itaú
-· entregue  E05 GOOGL — GOOGL · Alphabet Stock Is Down 15% From Its All-Time High. Now Is the Perfect Ti
-· entregue  E05 TSLA — TSLA · Rivian Jumps 4% After Delivering 19,248 Vehicles and Reaffirming Full-Yea
-· entregue  E05 JPM — JPM · IRB Brasil (IRBR3): mudança tributária abre caminho para dividendos genero
-· linha     S01 SISTEMA — coleta do slot intradia saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltar
-· entregue  E05 NVDA — NVDA · Nvidia stock hits new all-time high, market cap at $5.7 trillion
-· entregue  E05 MU — MU · Correction: Top Midday Stories: Micron Shares Fall Despite Strong Earnings,
-· entregue  E05 ITUB4 — ITUB4 · Mais de 8% em dividendos: BTG inclui B3 e reforça apostas em Itaú e Petr
-· entregue  E05 NVDA — NVDA · Amazon Eyes $8 Billion Nvidia Chip Sale to Investors as AI Infrastructure
-· entregue  M01 MACRO — Agenda: Payroll de setembro (BLS) hoje às 09:30 (02/10)
-· entregue  E05 GOOGL — GOOGL · Barclays upgrades USA Today stock rating on Google antitrust ruling
-· entregue  E05 CVX — CVX · Chevron And 2 Other Top Oil And Gas Dividend Stocks
-· entregue  E05 MU — MU · Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And
-· linha     T01 ALUP4 — ALUP4 retomou a média de 200 dias pela 2ª sessão: R$ 10,85 vs MM200 R$ 10,54 (+2
-· linha     T01 AXIA3 — AXIA3 retomou a média de 200 dias pela 1ª sessão: R$ 56,90 vs MM200 R$ 55,56 (+2
-· linha     T01 SMAL11 — SMAL11 retomou a média de 200 dias pela 1ª sessão: R$ 116,34 vs MM200 R$ 113,39 
-· linha     T04 CNDX — CNDX (iShares NASDAQ 100 UCITS ETF USD (Acc)) fechou na máxima de 52 semanas: US
-· linha     T04 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)) fechou na máxima de 52 
-· linha     T04 QQQ — QQQ fechou na máxima de 52 semanas: US$ 749,58, +5,8% em 1m e +24% em 12m
-· linha     T04 XLK — XLK fechou na máxima de 52 semanas: US$ 199,81, +9,0% em 1m e +40% em 12m
-· linha     T04 LITE — LITE fechou na máxima de 52 semanas: US$ 1.085, +25% em 1m e +539% em 12m
-· linha     T04 PETR4 — PETR4 fechou na máxima de 52 semanas: R$ 51,17, +6,2% em 1m e +81% em 12m
-· linha     T02 MMM — MMM perdeu a MM100 pela 2ª sessão: US$ 161,89, ainda acima da MM200 (tendência l
-· linha     T02 EWY — EWY retomou a MM100 pela 2ª sessão: US$ 191,88, acima da MM200 (tendência longa 
-· linha     T09 SMAL11 — SMAL11 +2,9% com volume 3,4x a mediana de 20 sessões, a R$ 116,34
-· linha     T12 KO — KO: 6 quedas seguidas (-3,4% acumulado) a US$ 85,65
-· linha     F06 BTC — BTC sobe a US$ 86.583 (cruzou US$ 85.000) (parcial, intradia)
-· (+151 notícias só manchete, em noticias.md)
+· pendente  C01 DI — A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F
+· pendente  E05 USDBRL — USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na vésper
+· pendente  E05 MRVL — MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost 
+· pendente  C02 DI — Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 preg
+· pendente  C03 DI — DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252
+· linha     T08 AXIA3 — AXIA3 entrou em correção: -11% do pico de 52s (R$ 67,15 em 14/04) a R$ 59,48
+· linha     T08 BBAS3 — BBAS3 entrou em correção: -11% do pico de 52s (R$ 27,58 em 25/02) a R$ 24,64
+· linha     T09 MRVL — MRVL +5,8% com volume 3,0x a mediana de 20 sessões, a US$ 287,01
+· linha     T10 MRVL — MRVL no máximo de força relativa em 63 sessões contra SOX: +27% vs +11% em 20 se
+· linha     T10 BBDC4 — BBDC4 no máximo de força relativa em 63 sessões contra IBOV: +25% vs +9,9% em 20
+· pendente  E05 MRVL — MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
+· pendente  E05 MRVL — MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
+· entregue  E05 MRVL — MRVL · Marvell Stock Soars After Raising 2028 Guidance
+· entregue  E05 GOOGL — GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Const
+· entregue  E05 BTC — BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
+· entregue  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
+· entregue  E05 USDBRL — USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a 
+· entregue  E05 PETR4 — PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de 
+· entregue  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
+· entregue  E05 MRVL — MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SP
+· entregue  E05 MRVL — MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 bil
+· entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
+· entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
+· entregue  E05 JPM — JPM · JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What
+· entregue  E05 TSLA — TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, 
+· entregue  E05 TSLA — TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, 
+· entregue  E05 PETR4 — PETR4 · BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividen
+· entregue  E05 AMD — AMD · Citigroup raises AMD price target on agentic AI demand outlook
+· entregue  E05 BTC — BTC · Bitcoin Investors Pull $3.3B From Binance In 15 Days — But ETF Flows, Futu
+· entregue  E05 BTC — BTC · Why bitcoin is down 'just' 32% a year after its record high of $126,000
+· entregue  E05 KO — KO · Want Income for Life? Coca-Cola Has Raised Its Dividend for 64 Straight Yea
+· entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
+· linha     T01 AVGO — AVGO retomou a média de 200 dias pela 1ª sessão: US$ 375,81 vs MM200 US$ 366,64 
+· linha     T04 CSPX — CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) fechou na máxima de 52 semanas: 
+· linha     T04 SPY — SPY fechou na máxima de 52 semanas: US$ 779,09, +1,4% em 1m e +17% em 12m
+· linha     T04 AMD — AMD fechou na máxima de 52 semanas: US$ 649,42, +36% em 1m e +219% em 12m
+· linha     T04 LITE — LITE fechou na máxima de 52 semanas: US$ 1.133, +29% em 1m e +606% em 12m
+· linha     T04 BBDC4 — BBDC4 fechou na máxima de 52 semanas: R$ 22,80, +28% em 1m e +44% em 12m
+· linha     T02 DIRR3 — DIRR3 retomou a MM50 pela 2ª sessão: R$ 11,37, ainda abaixo da MM200 (repique de
+· linha     T10 JPM — JPM no mínimo de força relativa em 63 sessões contra SPX: -6,3% vs +1,9% em 20 s
+· linha     T10 EQTL3 — EQTL3 no máximo de força relativa em 63 sessões contra IBOV: +23% vs +9,9% em 20
+· linha     T12 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)): 6 altas seguidas (+6,4
+· linha     T12 QQQ — QQQ: 6 altas seguidas (+3,1% acumulado) a US$ 759,66
+· linha     T12 EQTL3 — EQTL3: 6 altas seguidas (+23% acumulado) a R$ 48,20
+· linha     T12 BBDC4 — BBDC4: 6 altas seguidas (+29% acumulado) a R$ 22,80
+· linha     T12 SBSP3 — SBSP3: 6 altas seguidas (+20% acumulado) a R$ 32,03
+· linha     T12 SMAL11 — SMAL11: 6 altas seguidas (+18% acumulado) a R$ 128,60
+· linha     F01 USDBRL — Real sobe: USD/BRL 4,9742 (-4,6% em 5 sessões) (parcial, intradia)
+· linha     F03 BRENT — Brent cai a US$ 98,32 (cruzou US$ 100) (parcial, intradia)
+· (+163 notícias só manchete, em noticias.md)
 

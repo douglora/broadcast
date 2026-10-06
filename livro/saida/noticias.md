@@ -1,8 +1,45 @@
-NOTÍCIAS E FATOS · 06/10 18h13
+NOTÍCIAS E FATOS · 06/10 19h57
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 428 veículo fora da lista, 42 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 431 veículo fora da lista, 36 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 1 novos em 3 dias
 
-## NOTÍCIAS COM MATERIALIDADE (25)
+## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+
+[INFO] E04 · CVX · 8-K: 7.01 Regulation FD, 8.01 outros eventos
+SEC EDGAR · aceito 06/10 18h16 · 8-K
+Do documento:
+  – 0000093410 false 0000093410 FALSE 0000093410 2026-10-06 2026-10-06   UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – ☐   Item 7.01 Regulation FD Disclosure.
+  – On October 6, 2026, Chevron Corporation issued a press release announcing that Chevron will divest its ownership interests in Hess Midstream LP ("Hess Midstream") and its DJ Basin crude oil midstream assets.
+  – A copy of the news release is attached hereto and furnished as Exhibit 99.1 to this Current Report on Form 8-K.
+  – As used in this report, terms such as “company,” “Chevron,” “we,” “its” and “our” may refer to Chevron Corporation, one or more of its consolidated subsidiaries, or to all of them taken as a whole.
+  – The transaction is subject to specified terms, including the satisfaction of customary closing conditions and required regulatory approvals, and any closing adjustments, and is expected to close by year-end 2026.
+Link: https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm
+Por que importa: documento da companhia na SEC
+Ativos: CVX
+Como falar: 'a CVX protocolou 8-K na SEC (7.01 Regulation FD, 8.01 outros eventos)'
+Fonte: SEC EDGAR 2026-10-06
+id: E04-CVX-26000192-2026-10-06 · status: linha · íntegra disponível
+
+
+## NOTÍCIAS COM MATERIALIDADE (27)
+
+[ATENÇÃO] E05 · USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera
+UOL Economia · 06/10 18h44 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/redacao/2026/10/06/dolar-volta-a-cair-mas-ibovespa-recua-apos-disparada-eleitoral.htm
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no UOL Economia: Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 06/10 18h44
+id: E05-USDBRL-7d13238b84-2026-10-06 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ)
+Seeking Alpha · 06/10 16h41 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4650703-marvell-stock-flirts-with-300-barrier-after-investor-day-guidance-boost
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 06/10 16h41
+id: E05-MRVL-b810c97b8f-2026-10-06 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
 Investing.com · 06/10 17h59 · fonte única · licença: manchete
@@ -318,8 +355,22 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (144)
+## OUTRAS NOTÍCIAS (só manchete) (158)
 
+· ITUB4 Itaú prevê que todos clientes usarão plataforma de IA até fim do ano (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/itau-preve-que-todos-clientes-usarao-plataforma-de-ia-ate-fim-do-ano/
+· USDBRL Dólar fecha abaixo de R$ 5 pela primeira vez desde maio (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio
+· VALE3 Vale (VALE3) sob pressão: Citi diz o que está no caminho da mineradora; saiba o que fazer com a ação agora (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/vale-vale3-sob-pressao-o-que-leva-o-citi-a-projetar-queda-de-23-no-ebitda-do-terceiro-trimestre-e-o-que-fazer-com-a-acao-bdap/
+· DI Juros futuros prolonga rali eleitoral nesta terça (6) (Money Times) https://www.moneytimes.com.br/juros-futuros-6-10-26-apsa/
+· CVX Chevron to Shed Hess Midstream Stake in Major Bakken Restructuring (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-shed-hess-midstream-stake-213436547.html
+· CVX Chevron to divest Hess Midstream stakes, take $3-4B after-tax loss; expects 50% Bakken midstream cost cut (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:9728e722a2ff0:0-chevron-to-divest-hess-midstream-stakes-take-3-4b-after-tax-loss-expects-50-bakken-midstream-cost-cut/
+· CVX Chevron to Divest its Ownership Interests in Hess Midstream and DJ Basin Crude Midstream Assets (Business Wire) https://www.businesswire.com/news/home/20261006636351/en/Chevron-to-Divest-its-Ownership-Interests-in-Hess-Midstream-and-DJ-Basin-Crude-Midstream-Assets
+· KO Better Dividend Stock: Coca-Cola vs. Realty Income (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-coca-cola-210231316.html
+· BBAS3 Banco do Brasil afunda mais de 6% e lidera perdas do Ibovespa hoje; veja maiores altas e baixas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/banco-do-brasil-afunda-quase-6-e-lidera-perdas-do-ibovespa-hoje-veja-maiores-altas-e-baixas/
+· ETH 21shares extends 100% sponsor fee waiver for Ethereum Staking ETF through Oct. 8, 2027 (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:7e40d18724f7a:0-21shares-extends-100-sponsor-fee-waiver-for-ethereum-staking-etf-through-oct-8-2027/
+· AMZN Kuehne+Nagel Strikes Deal With Amazon For Supply Chain, Cloud Capabilities (The Wall Street Journal) https://www.wsj.com/tech/kuehne-nagel-strikes-deal-with-amazon-for-supply-chain-cloud-capabilities-407c3bfa
+· MRVL Marvell Stock Rises After CEO Announces Huge Long-Term Revenue Target (Barron's) https://news.google.com/rss/articles/CBMigAFBVV95cUxOTU9adUUxVlNEdTZIRHVkNDZUcjFCT19TWm9hemhNNmhSQUVoaFBYQmVtckw3Y3VnV2g3NG1DV1UybDlUYlJvdzE2MFVkTTk1RXFndFdDeldzeWU5ZllkNllMX2hQaVlSOFMzR3ZJVGFRX1JPOHJvN2tBSmQyWjBvcQ?oc=5
+· MRVL Marvell Stock Jumps on Massive $20 Billion Revenue Forecast (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQbVg0RzRHVlgzWV9qZ0hqZG5pbWJuTmgtVTBsejNuUjlWMEFjc3FUVV9FWFVUalpBVmQwY2M2dzY2RHJ4X3JCOHZubnF5ejY0OHZJbVpXcDZrRDliT2pncmZtelBMbjVmQjZhVHpYaG9UalhEbGdmbjRJT1JUWGt0eGZ1M0xKN2lTdno1ZGZQNlVVOFhzeEh2emdEbw?oc=5
+· ITUB4 Resultado das eleições 2026 em Itaú de Minas (MG): votação para presidente na Escola Estadual Ary Pimenta Bugelli, na 293ª zona eleitoral (g1) https://news.google.com/rss/articles/CBMiwgJBVV95cUxOZm1XeEVoVHEzVWNkZ2dDUnphejNkcVNyM3BwRU1UbWNBXy0tQWdkNDgtUW9iQldyZUoxd25RUzhKWE1oRERYR09QbmE2bVR0bzk5Tmx4UFpEbVhGdzNUVWNiamJtUW9ubGN0a2NlanIxZmh3UjdZZmFOZ1dUSEdaeGRUd1NTT2c2OUNzNk15MnNMblJsdzQ2M1YxcTdmSTVJT1h0cnBwMnF6V19IdjRqR2JVNjdlZ3BKbE5LR3lmM2lkMThrVHRKSzc3OG5HYUlhaWxENXpBTGxtQmFzVGRURkQwUFBTRW1tY2VzeldfWFdpV0xwQjR4cURDOGoySlFpTWVuMDhRYk5KUE16aVRSVkxpUGxobmhmTG9qWmUxS2NjZEF1MC1maFo2Z3FfMk9yYVdKd1VPTUl1ME9fQU1YRF930gHCAkFVX3lxTE5mbVd4RWhUcTNVY2RnZ0NSemF6M2RxU3IzcHBFTVRtY0FfLS1BZ2Q0OC1Rb2JCV3JlSjF3blFTOEpYTWhERFhHT1BuYTZtVHRvOTlObHhQWkRtWEZ3M1RVY2JqYm1Rb25sY3RrY2VqcjFmaHdSN1lmYU5nV1RIR1p4ZFR3U1NPZzY5Q3M2TXkyc0xuUmx3NDYzVjFxN2ZJNUlPWHRycHAycXpXX0h2NGpHYlU2N2VncEpsTktHeWYzaWQxOGtUdEpLNzc4bkdhSWFpbEQ1ekFMbG1CYXNUZFRGRDBQUFNFbW1jZXN6V19YV2lXTHBCNHhxREM4ajJKUWlNZW4wOFFiTkpQTXppVFJWTGlQbGhuaGZMb2paZTFLY2NkQXUwLWZoWjZncV8yT3JhV0p3VU9NSXUwT19BTVhEX3c?oc=5
 · USDBRL Dólar cai 0,51% e fecha a R$ 4,976; Ibovespa recua 0,53% (Poder360) https://www.poder360.com.br/poder-economia/dolar-cai-051-e-fecha-a-r-4976-ibovespa-recua-053/
 · USDBRL Dólar fecha abaixo de R$ 5,00 pela 1ª vez desde maio com eleição e exterior (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/06/dolar-fecha-abaixo-de-r-500-pela-1-vez-desde-maio-com-eleicao-e-exterior.htm
 · USDBRL ‘Efeito Flávio’ comprime prêmio até no dólar ‘on/off’ e reforça alívio no risco Brasil (Valor Economico) https://valor.globo.com/financas/intraday/post/2026/10/efeito-flavio-comprime-premio-ate-no-dolar-onoff-e-reforca-alivio-no-risco-brasil.ghtml
@@ -366,18 +417,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · MU Micron: Wishful Thinking At Its Finest (Seeking Alpha) https://seekingalpha.com/article/4952204-micron-wishful-thinking-at-its-finest
 · BTC Are Binance Users Selling Ethereum for Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/binance-users-selling-ethereum-bitcoin-174840044.html
 · MU Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952306-micron-tighter-market-conditions-through-2028-mean-this-is-a-great-buy
-· MU Micron Stocks Edge Lower as 2027 Memory Peak Tests Record Margins (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d6f9b669b094b:0-micron-stocks-edge-lower-as-2027-memory-peak-tests-record-margins/
-· MRVL Marvell Jumps 10% After Raising Its 2028 Revenue Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a2940b00a094b:0-marvell-jumps-10-after-raising-its-2028-revenue-target/
-· USDBRL Euro cai frente ao dólar: uma crise financeira se aproxima? (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/10/06/euro-cai-frente-ao-dolar-uma-crise-financeira-se-aproxima.htm
-· NVDA Nvidia Stocks Rise 1.4% as Power Crunch Spares 2027 Forecasts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:945f77fd2094b:0-nvidia-stocks-rise-1-4-as-power-crunch-spares-2027-forecasts/
-· BBAS3 Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de PETR4, VALE3 e BBAS3 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06102026/
-· ITUB4 Resultado das eleições 2026 em Itaú (RN): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/google/amp/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-itau-rn-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
-· USDBRL Bitcoin hoje ganha fôlego com alívio no dólar, mas Treasuries podem ditar próximos movimentos (Estadao) https://www.estadao.com.br/einvestidor/cripto/bitcoin-sobe-com-fed-menos-rigido-e-oferta-global-de-moeda-em-maxima-historica/
-· BTC Strive's Matt Cole Says Bitcoin Could Hit $500,000 By The End Of 2030 (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTl3R2pCdWZWck9jekdmS09nSUJXeGF1TFlXdTZWaldrRWtKT2EzTTJETF9nTV8zbXcwRENUNEVLRzRxY2o5dFozQmFDQ09PWnFBSmk1ZU9WWWk5QkgtNG1MZkRQRmRVaHhYSVVSYm5HUTNpSFVzclBDczkyWms5VzdFeFpiTUNBdnJmQTN5V0JQcDZwSS1GMF9wWQ?oc=5
-· TSLA Tesla’s Delivery Beat Is Just the ‘Appetizer,’ Analyst Says 2027 Could Be the Main Event (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oSVVBTDA3VktiY3diWkpxQlFoSjNOX0tkZDhtLXRvVlhvNG0tYk5MOXVTWnZ5SGpBV0YyVGJDdkU1OHQwOTNMTjRBMmpvZTB4b0p1RVExMEFISnlaTGstZF9KQUc5UW5E?oc=5
-· AMZN Amazon at $250: $1 billion “Built Together” Data Center Push Is Already Backfiring (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amazon-250-1-billion-built-164522208.html
-· AMD Cathie Wood Dumps Millions of AMD Stock Amid Massive Rally (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:585c406c4094b:0-cathie-wood-dumps-millions-of-amd-stock-amid-massive-rally/
-· AMD AMD CEO Lisa Su Sounds Alarm as AI Chip Demand Surges (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:a5db7731c094b:0-amd-ceo-lisa-su-sounds-alarm-as-ai-chip-demand-surges/
-· UST S&P 500, Nasdaq hit record highs as Treasury yields stall, oil slips (Reuters) https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/
-· UGPA3 Resultado das eleições 2026 em Ipiranga de Goiás (GO): votação para presidente na Escola Municipal Damião Barreto Ue-Mun, na 76ª zona eleitoral (g1) https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-de-goias-go-votacao-para-presidente-na-escola-municipal-damiao-barreto-ue-mun-na-76a-zona-eleitoral.ghtml
-· (+84 manchetes; lista completa em eventos/noticias.json)
+· (+98 manchetes; lista completa em eventos/noticias.json)

@@ -1,6 +1,6 @@
-ALERTAS · Fechamento 18h
+ALERTAS · eventos
 
-[CRÍTICO] CURVA · C01 A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F29 -133 bps em 5 pregões (ajuste B3 06/10) / C02 Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 pregões / C03 DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252 pregões: 12,46% · F30 na mínima de 252 pregões: 12,52%
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F29 -133 bps em 5 pregões (ajuste B3 06/10) / C02 Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 pregões / C03 DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252 pregões: 12,46% · F30 na mínima de 252 pregões: 12,52%
 DI F28 12,61 (-5) · F29 12,46 (-13) · F30 12,52 (-10) · F32 12,65 (-7) · F35 12,73 (-6)
 Inclinação F35-F28 +12 bps (-1)
 F35-F28 +12 bps (-1 dia · -31 5 pregões)
@@ -10,20 +10,18 @@ F35 na mínima de 252 pregões: 12,73%
 Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
 Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
 Fonte: B3 ajuste 06/10 · ajuste B3 06/10
-Push: [CRÍTICO] DI A curva FECHOU | DI Inclinação da curva DI | DI em nível · detalhe na sessão
 ids: C01-DI-fechou-2026-10-06, C02-DI-inclinacao-2026-10-06, C03-DI-di-2026-10-06
 
-[ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
 Investing.com · 06/10 17h59 · fonte única · licença: manchete
 Link: https://www.investing.com/news/analyst-ratings/evercore-isi-raises-marvell-stock-price-target-on-ai-growth-outlook-93CH-4935208
 Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: Evercore ISI raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 06/10 17h59
-Push: Fechamento 18h: 2 alertas de atenção — E05 MRVL, E05 MRVL · detalhe na sessão
 ids: E05-MRVL-b8fd065ffb-2026-10-06
 
-[ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
 Investing.com · 06/10 17h36 · fonte única · licença: manchete
 Link: https://www.investing.com/news/analyst-ratings/marvell-stock-gets-295-target-reiterated-by-raymond-james-on-ai-outlook-93CH-4935181
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
@@ -32,35 +30,41 @@ Como falar: 'saiu no Investing.com: Marvell stock gets $295 target reiterated by
 Fonte: Investing.com 06/10 17h36
 ids: E05-MRVL-ff24d4c234-2026-10-06
 
+[ATENÇÃO] E05 · USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera
+UOL Economia · 06/10 18h44 · fonte única · licença: manchete
+Link: https://economia.uol.com.br/noticias/redacao/2026/10/06/dolar-volta-a-cair-mas-ibovespa-recua-apos-disparada-eleitoral.htm
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no UOL Economia: Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera; confirmar o número no texto antes de repassar'
+Fonte: UOL Economia 06/10 18h44
+Push: eventos: 2 alertas de atenção — E05 USDBRL, E05 MRVL · detalhe na sessão
+ids: E05-USDBRL-7d13238b84-2026-10-06
+
+[ATENÇÃO] E05 · MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ)
+Seeking Alpha · 06/10 16h41 · fonte única · licença: manchete
+Link: https://seekingalpha.com/news/4650703-marvell-stock-flirts-with-300-barrier-after-investor-day-guidance-boost
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ); confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 06/10 16h41
+ids: E05-MRVL-b810c97b8f-2026-10-06
+
 Info (só linha no Fechamento):
-· T01 AVGO retomou a média de 200 dias pela 1ª sessão: US$ 375,81 vs MM200 US$ 366,64 (+2,5%)
-· T04 CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) fechou na máxima de 52 semanas: US$ 845,93, +1,8% em 1m e +17% em 12m
-· T04 SPY fechou na máxima de 52 semanas: US$ 779,09, +1,4% em 1m e +17% em 12m
-· T04 AMD fechou na máxima de 52 semanas: US$ 649,42, +36% em 1m e +219% em 12m
-· T04 LITE fechou na máxima de 52 semanas: US$ 1.133, +29% em 1m e +606% em 12m
-· T04 BBDC4 fechou na máxima de 52 semanas: R$ 22,80, +28% em 1m e +44% em 12m
-· T02 DIRR3 retomou a MM50 pela 2ª sessão: R$ 11,37, ainda abaixo da MM200 (repique dentro da baixa)
-· T10 JPM no mínimo de força relativa em 63 sessões contra SPX: -6,3% vs +1,9% em 20 sessões (-8,0% relativo)
-· T10 EQTL3 no máximo de força relativa em 63 sessões contra IBOV: +23% vs +9,9% em 20 sessões (+12% relativo)
-· T12 RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)): 6 altas seguidas (+6,4% acumulado) a US$ 22,99
-· T12 QQQ: 6 altas seguidas (+3,1% acumulado) a US$ 759,66
-· T12 EQTL3: 6 altas seguidas (+23% acumulado) a R$ 48,20
-· T12 BBDC4: 6 altas seguidas (+29% acumulado) a R$ 22,80
-· T12 SBSP3: 6 altas seguidas (+20% acumulado) a R$ 32,03
-· T12 SMAL11: 6 altas seguidas (+18% acumulado) a R$ 128,60
-· E05 USDBRL · Dólar cai 0,51% e fecha a R$ 4,976; Ibovespa recua 0,53%
-· E05 USDBRL · Dólar fecha abaixo de R$ 5,00 pela 1ª vez desde maio com eleição e exterior
-· E05 USDBRL · ‘Efeito Flávio’ comprime prêmio até no dólar ‘on/off’ e reforça alívio no risco Brasil
-· E05 USDBRL · Dólar canadense cai perto de mínima de 18 meses apesar de superávit
-· E05 BRENT · Wall Street shares notch records as oil prices stabilize, bond yields retreat
-· E05 MU · Why 1 Veteran Analyst Says Micron Stock Could Nearly Double Soon
-· E05 USDBRL · Ibovespa recua com realização de lucros após ‘trade Flávio’; dólar cai a R$ 4,97
-· E05 ITUB4 · Itaú BBA reforça compra para Brasil e aponta 4 ações que ficaram para trás no rali eleitoral
-· E05 AMD · Citi Resets AMD Stock Price Target For 2026
-· E05 JPM · Jamie Dimon Warns AI Cyber Risks Are ‘Real’ As JPMorgan Banks Anthropic And The AI Boom
-· E05 ETH · 21shares Extends 100% Sponsor Fee Waiver for the 21shares Ethereum Staking ETF (TETH) Through October 8, 2027
-· E05 BBDC4 · Rali vira o jogo entre os bancos: JPMorgan põe BB sob pressão e vê mais fôlego no Bradesco
-· E05 MRVL · Marvell's bullish revenue outlook
+· E04 CVX · 8-K: 7.01 Regulation FD, 8.01 outros eventos
+· E05 ITUB4 · Itaú prevê que todos clientes usarão plataforma de IA até fim do ano
+· E05 USDBRL · Dólar fecha abaixo de R$ 5 pela primeira vez desde maio
+· E05 VALE3 · Vale (VALE3) sob pressão: Citi diz o que está no caminho da mineradora; saiba o que fazer com a ação agora
+· E05 DI · Juros futuros prolonga rali eleitoral nesta terça (6)
+· E05 CVX · Chevron to Shed Hess Midstream Stake in Major Bakken Restructuring
+· E05 CVX · Chevron to divest Hess Midstream stakes, take $3-4B after-tax loss; expects 50% Bakken midstream cost cut
+· E05 CVX · Chevron to Divest its Ownership Interests in Hess Midstream and DJ Basin Crude Midstream Assets
+· E05 KO · Better Dividend Stock: Coca-Cola vs. Realty Income
+· E05 BBAS3 · Banco do Brasil afunda mais de 6% e lidera perdas do Ibovespa hoje; veja maiores altas e baixas
+· E05 ETH · 21shares extends 100% sponsor fee waiver for Ethereum Staking ETF through Oct. 8, 2027
+· E05 AMZN · Kuehne+Nagel Strikes Deal With Amazon For Supply Chain, Cloud Capabilities
+· E05 MRVL · Marvell Stock Rises After CEO Announces Huge Long-Term Revenue Target
+· E05 MRVL · Marvell Stock Jumps on Massive $20 Billion Revenue Forecast
+· E05 ITUB4 · Resultado das eleições 2026 em Itaú de Minas (MG): votação para presidente na Escola Estadual Ary Pimenta Bugelli, na 293ª zona eleitoral
 · T08 AXIA3 entrou em correção: -11% do pico de 52s (R$ 67,15 em 14/04) a R$ 59,48
 · T08 BBAS3 entrou em correção: -11% do pico de 52s (R$ 27,58 em 25/02) a R$ 24,64
 · T09 MRVL +5,8% com volume 3,0x a mediana de 20 sessões, a US$ 287,01
@@ -71,6 +75,8 @@ Suprimidos pelo teto (viram linha do Fechamento): T08-AXIA3--10-2026-10-06 (teto
 
 Alertas do dia (todos, com status):
 · pendente  C01 DI — A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F
+· pendente  E05 USDBRL — USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na vésper
+· pendente  E05 MRVL — MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost 
 · pendente  C02 DI — Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 preg
 · pendente  C03 DI — DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252
 · linha     T08 AXIA3 — AXIA3 entrou em correção: -11% do pico de 52s (R$ 67,15 em 14/04) a R$ 59,48
@@ -117,4 +123,4 @@ Alertas do dia (todos, com status):
 · linha     T12 SMAL11 — SMAL11: 6 altas seguidas (+18% acumulado) a R$ 128,60
 · linha     F01 USDBRL — Real sobe: USD/BRL 4,9742 (-4,6% em 5 sessões) (parcial, intradia)
 · linha     F03 BRENT — Brent cai a US$ 98,32 (cruzou US$ 100) (parcial, intradia)
-· (+148 notícias só manchete, em noticias.md)
+· (+163 notícias só manchete, em noticias.md)
