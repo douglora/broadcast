@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-05",
+ "pregao": "2026-10-06",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
@@ -7,13 +7,13 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-06T03:03:01.387",
+ "atualizado_em": "2026-10-06T21:47:52.683",
  "truncada": false,
  "linhas": [
-  ["ISHARES SMALCI", "CI", 91, 132.39, 40000, 5295.599999999999, 0.4264823353149123],
-  ["VALE        ON      NM", "ON      NM", 30, 72.22, 97600, 7048.672, 1.0406168981683863],
-  ["AXIA ENERGIAON      NM", "ON      NM", 182, 65.51, 259600, 17006.396, 2.767870356193781],
-  ["SIMPAR      ON      NM", "ON      NM", 45, 13.02, 564700, 7352.394, 6.020864368808276],
-  ["ITAUUNIBANCOPN  EJ  N1", "PN  EJ  N1", 16, 50.61, 1200000, 60732, 12.794470059447372]
+  ["ISHARES SMALCI", "CI", 90, 134.68, 40500, 5454.54, 0.6802474286647195],
+  ["INTER CO    DR2", "DR2", 16, 35.12, 111300, 3908.8559999999993, 1.8694207113674883],
+  ["BRASIL      ON      NM", "ON      NM", 30, 24.92, 134200, 3344.264, 2.2540544426371696],
+  ["INTER CO    DR2", "DR2", 30, 35.92, 275000, 9878, 4.618964021797479],
+  ["VAMOS       ON      NM", "ON      NM", 22, 6.15, 637000, 3917.55, 10.69920029776361]
  ]
 }

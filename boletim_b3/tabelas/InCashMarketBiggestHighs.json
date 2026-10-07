@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-05",
+ "pregao": "2026-10-06",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-05T18:55:07.093",
+ "atualizado_em": "2026-10-06T19:00:42.86",
  "truncada": false,
  "linhas": [
-  ["MGLU3", "ON      NM", 9.45, 24.17],
-  ["MOVI3", "ON      NM", 13.5, 24.42],
-  ["XPBR31", "DR1", 139.61, 24.42],
-  ["ECOR3", "ON      NM", 12.33, 24.67],
-  ["P2TC34", "DRN", 64.27, 25.89],
-  ["LJQQ3", "ON      NM", 1.95, 26.62],
-  ["AMBP3", "ON      NM", 0.15, 36.36],
-  ["AZUL97", "UNT     N2", 5.49, 37.25],
-  ["GSHP3", "ON", 4.47, 61.37],
-  ["RCFA11", "CI", 0.68, 580]
+  ["VVCO11", "CI", 11, 13.63],
+  ["FSRF11", "CI", 0.08, 14.28],
+  ["APXM11", "CI", 57.5, 14.31],
+  ["PLRI11", "CI", 5.63, 14.66],
+  ["FIVN11", "CI", 3, 15.38],
+  ["LJQQ3", "ON      NM", 2.26, 15.89],
+  ["SEQL3", "ON      NM", 0.07, 16.66],
+  ["SNSY5", "PNA", 2.75, 20.08],
+  ["GFSA3", "ON      NM", 0.4, 21.21],
+  ["FASA3", "ON", 0.34, 30.76]
  ]
 }
