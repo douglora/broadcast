@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 05/10/2026 (segunda)
 
 **Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-06 09:24 (hora de Brasília).
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-07T06:25:37Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-07T11:53:06Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -313,7 +313,7 @@ Nas incentivadas, a mediana pelos negócios do dia (B3 negócios de 05/10) foi I
 | CEEBD1 (Cia. De Eletric. Do Est. Da ) | 13,95% pré (ANBIMA indicativa de 05/10) | 13,21% pré, R$ 22,7 mi | - |
 | CPLDA1 (Copel  Distribuicao S/A) | IPCA+ 7,45% (ANBIMA indicativa de 05/10) | IPCA+ 7,89%, R$ 22,1 mi | +50 pb na duration |
 
-**Fecharam taxa pela indicativa da ANBIMA:** RIS414 -63,3 pb contra 02/10, para IPCA+ 13,48% (R$ 9,8 mi); BTEL23 -63,3 pb contra 02/10, para IPCA+ 9,68% (R$ 3,6 mi); SBSPE9 -62,1 pb contra 02/10, para IPCA+ 6,95% (R$ 3,9 mi); AXIAA1 -61,4 pb contra 02/10, para IPCA+ 7,23% (R$ 3,5 mi); VBBRA0 -60,6 pb contra 02/10, para IPCA+ 7,50% (R$ 6,1 mi).
+**Fecharam taxa pela indicativa da ANBIMA:** BTEL23 -63,3 pb contra 02/10, para IPCA+ 9,68% (R$ 3,6 mi); RIS414 -63,3 pb contra 02/10, para IPCA+ 13,48% (R$ 9,8 mi); SBSPE9 -62,1 pb contra 02/10, para IPCA+ 6,95% (R$ 3,9 mi); AXIAA1 -61,4 pb contra 02/10, para IPCA+ 7,23% (R$ 3,5 mi); VBBRA0 -60,6 pb contra 02/10, para IPCA+ 7,50% (R$ 6,1 mi).
 **Abriram taxa pelos negócios da B3:** CRA019003JY +22 pb contra 02/10, para IPCA+ 7,57% (R$ 3,1 mi); CRA023003JX +2 pb contra 02/10, para CDI+ 2,23% (R$ 3,5 mi).
 **Fecharam taxa pelos negócios da B3:** 25F1669254 -308 pb contra 30/09, para IPCA+ 9,38% (R$ 17,9 mi); CRA02300HWK -149 pb contra 30/09, para 11,96% pré (R$ 3,4 mi); DGDE11 -68 pb contra 29/09, para IPCA+ 8,09% (R$ 3,6 mi); ECOA11 -67 pb contra 29/09, para IPCA+ 7,82% (R$ 3,2 mi); CRA02500B9M -2 pb contra 02/10, para CDI+ 3,24% (R$ 4,4 mi).
 **Prêmio alto:** SUMI17 a IPCA+ 14,24% (ANBIMA indicativa de 05/10), +718 pb na duration, R$ 62,9 mi; SUMI19 a IPCA+ 14,09% (ANBIMA indicativa de 05/10), +702 pb na duration, R$ 8,8 mi; RIS414 a IPCA+ 13,48% (ANBIMA indicativa de 05/10), +641 pb na duration, R$ 9,8 mi; IRJS15 a IPCA+ 11,09% (ANBIMA indicativa de 05/10), +414 pb na duration, R$ 4,8 mi.

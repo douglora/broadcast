@@ -1,17 +1,21 @@
 # Boletim da B3: pregão de 06/10/2026 (terça)
 
-**Situação: PARCIAL.** Ainda sem: saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-07T06:26:05Z (UTC).
+**Situação: COMPLETO.** Boletim publicado pela B3 em 2026-10-07 08:06 (hora de Brasília).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-07T11:54:06Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (26)
+## Sinais do dia (36)
 
 **Novos hoje**
 
 - **Parede de opções.** MELI34 fechou a 77,08 com o vencimento de 16/10 a 7 dias úteis e a maior posição em aberto de call em 78,50 (27.100 opções, +1,8% do preço) e de put em 75,00 (29.250 opções, -2,7% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/10)_
 - **Parede de opções.** UGPA3 fechou a 38,76 com o vencimento de 16/10 a 7 dias úteis e a maior posição em aberto de call em 39,00 (516.300 opções, +0,6% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/10)_
 - **Posição em opções.** ITUB4: a call ITUBJ553 (strike 55,28, vencimento 16/10) ganhou 2.708.800 opções em aberto no dia, para 3.198.700. _(B3, DerivativesOpenPosition, 06/10)_
+- **Aluguel mudou.** EQTL3: saldo alugado subiu 11,0% em um pregão, para 38,9 mi de ações, com o preço em +1,13% no dia. _(B3, BTBLendingOpenPosition, 06/10)_
+- **Aluguel mudou.** ITUB4: saldo alugado subiu 11,4% em um pregão, para 150,3 mi de ações, com o preço em +1,96% no dia. _(B3, BTBLendingOpenPosition, 06/10)_
+- **Aluguel mudou.** PETR4: saldo alugado subiu 11,9% em um pregão, para 215,5 mi de ações, com o preço em -2,78% no dia. _(B3, BTBLendingOpenPosition, 06/10)_
+- **Aluguel mudou.** VALE3: saldo alugado subiu 25,3% em um pregão, para 141,3 mi de ações, com o preço em -1,44% no dia. _(B3, BTBLendingOpenPosition, 06/10)_
 - **Crédito: giro.** Debêntures incentivadas: R$ 5.388 mi negociados no balcão, 3,3x a média de 20 pregões. _(B3, Trade (preliminar), 06/10)_
 - **Crédito: taxa abriu.** CRA021000RX (Riza Securitizadora, CRA): taxa média dos negócios da B3 abriu 34 pb contra 05/10, para IPCA+ 12,54%, em R$ 5,3 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/10)_
 - **Crédito: prêmio alto.** TEPA13 (Brasil Tecnologia e Participacao, debênture incentivada): negociada a IPCA+ 21,85%, 1.490 pb acima do juro real de mercado de prazo equivalente, em R$ 5,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 06/10)_
@@ -37,6 +41,12 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Parede de opções.** VALE3 fechou a 70,37 com o vencimento de 16/10 a 7 dias úteis e a maior posição em aberto de put em 70,14 (6.312.600 opções, -0,3% do preço). _(B3, DerivativesOpenPosition + InstrumentsConsolidated, 06/10 · 4º pregão seguido)_
 - **Posição em opções.** SMAL11: a call SMALL140 (strike 140,00, vencimento 18/12) ganhou 6.402.000 opções em aberto no dia, para 6.904.100. _(B3, DerivativesOpenPosition, 06/10 · 3º pregão seguido)_
 - **Posição em opções.** PETR4: a call PETRJ590 (strike 57,86, vencimento 16/10) ganhou 1.970.300 opções em aberto no dia, para 4.374.200. _(B3, DerivativesOpenPosition, 06/10 · 5º pregão seguido)_
+- **Aluguel alto.** BBAS3: saldo alugado de 339,0 mi de ações, 11,9% da quantidade teórica do índice e 7,2 pregões de giro; taxa média do tomador de 0,03% ao ano. _(B3, BTBLendingOpenPosition, 06/10 · 25º pregão seguido)_
+- **Aluguel alto.** BBDC4: saldo alugado de 426,0 mi de ações, 8,3% da quantidade teórica do índice e 7,8 pregões de giro; taxa média do tomador de 0,49% ao ano. _(B3, BTBLendingOpenPosition, 06/10 · 18º pregão seguido)_
+- **Aluguel alto.** CURY3: saldo alugado de 19,1 mi de ações, 11,8% da quantidade teórica do índice e 4,0 pregões de giro; taxa média do tomador de 4,43% ao ano. O preço subiu 7,2% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 06/10 · 25º pregão seguido)_
+- **Aluguel alto.** DIRR3: saldo alugado de 31,1 mi de ações, 9,5% da quantidade teórica do índice e 2,4 pregões de giro; taxa média do tomador de 0,02% ao ano. _(B3, BTBLendingOpenPosition, 06/10 · 25º pregão seguido)_
+- **Aluguel alto.** MRVE3: saldo alugado de 61,5 mi de ações, 16,4% da quantidade teórica do índice e 4,6 pregões de giro; taxa média do tomador de 9,70% ao ano. O preço subiu 19,0% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 06/10 · 25º pregão seguido)_
+- **Posição em aberto.** Dólar Comercial - futuro: contratos em aberto subiram 7,4% em um pregão, para 874.887. _(B3, AnalyticalFramework2, 06/10 · 2º pregão seguido)_
 - **Paridade.** RARA11 fez -0,07% contra -3,96% de REMX em reais (+0,39% lá fora, câmbio -4,33%): descolamento de +3,89 ponto no dia. _(B3, TradeInformationConsolidated + series do livro, 06/10 · 2º pregão seguido)_
 
 ## Índices
@@ -92,6 +102,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
 
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 187.941 | -0,42% | 38.826 |
+| WIN | 1.253.526 | -1,98% | 51.774 |
+| WDO | 1.763.700 | +11,36% | 88.177 |
+| DOL | 874.887 | +7,39% | 218.705 |
+| DAP | 3.276.228 | +0,06% | 464.331 |
+| DDI | 4.838.998 | +0,52% | 1.132.036 |
+| DI1 | 40.991.865 | +0,62% | 3.347.525 |
+
 ## O livro em blocos
 
 | Grupo | Média do dia | Ativos |
@@ -130,6 +152,32 @@ Juros no mesmo dia: DI1F27 +1,2 pb, DI1F28 -5,0 pb, DI1F29 -13,1 pb, DI1F30 -10,
 | CURY3 | 30,80 | +2,52% | 141 (1,01x) |
 
 x média = volume do dia dividido pela média dos pregões anteriores no histórico (até 20).
+
+## Livro: aluguel de ações
+
+| Ativo | Saldo alugado em mi de ações (% do free float) | Variação no pregão | Taxa do tomador (ao ano) |
+|---|---:|---:|---:|
+| EQTL3 | 38,9 (3,1%) | +10,96% | 0,05% |
+| SAPR4 | 2,2 | -7,23% | 0,06% |
+| KLBN4 | 9,7 | -1,90% | 0,02% |
+| ALUP4 | 0,02 | -9,68% | 0,10% |
+| ITUB4 | 150,3 (2,8%) | +11,45% | 0,05% |
+| BBDC4 | 426,0 (8,3%) | +3,67% | 0,49% |
+| PETR4 | 215,5 (4,9%) | +11,90% | 0,04% |
+| VALE3 | 141,3 (3,8%) | +25,26% | 0,02% |
+| MELI34 | 4,8 | +4,48% | 0,89% |
+| UGPA3 | 30,0 (2,8%) | +3,03% | 0,20% |
+| AXIA3 | 61,3 (2,7%) | +6,69% | 0,03% |
+| ITSA4 | 52,7 (0,9%) | +3,61% | 0,10% |
+| BBAS3 | 339,0 (11,9%) | +3,83% | 0,03% |
+| SBSP3 | 78,0 (2,2%) | +7,41% | 0,06% |
+| SMAL11 | 13,2 | +8,19% | 2,64% |
+| RARA11 | 0,00 | -99,70% | 1,00% |
+| DIRR3 | 31,1 (9,5%) | +0,03% | 0,02% |
+| MRVE3 | 61,5 (16,4%) | +7,20% | 9,70% |
+| CURY3 | 19,1 (11,8%) | +1,86% | 4,43% |
+
+Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
 
 ## Livro: opções (vencimento relevante mais próximo)
 
@@ -173,6 +221,22 @@ Parede = strike (preço de exercício) com a maior posição em aberto fora do d
 | AXIA3 | 48,1 | 2,0% | -1,00 |
 
 ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
+
+## Radar do mercado: aluguel
+
+| Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
+|---|---:|---:|---:|
+| MOVI3 | 27,9% | 3,99% | +54,60% |
+| PLPL3 | 24,0% | 0,48% | +22,52% |
+| TAEE11 | 23,6% | 0,63% | +7,74% |
+| BEEF3 | 23,2% | 4,21% | +14,80% |
+| TTEN3 | 22,6% | 0,55% | +14,48% |
+| EZTC3 | 19,3% | 0,06% | +30,16% |
+
+**Aluguel mais caro (taxa ao ano):** YDUQ3 34,64%, CMIN3 26,50%, AZZA3 16,31%, ECOR3 12,45%, FRAS3 11,84%, MRVE3 9,70%.
+**Saldo alugado que mais subiu no pregão:** SANB11 +45,5%, VALE3 +25,3%, SAUD3 +23,5%, BMOB3 +22,0%, GOAU4 +16,3%, PETR3 +16,0%.
+**Saldo que mais caiu:** CPLE3 -16,4%, ECOR3 -10,3%, SBFG3 -9,5%, VAMO3 -8,8%, MOTV3 -8,5%, LWSA3 -8,3%.
+**Vendidos sob pressão (muito alugadas, preço subindo):** SIMH3 +57,9%, MOVI3 +54,6%, VAMO3 +50,2%, ECOR3 +49,8%, ANIM3 +42,7%, PGMN3 +39,5%.
 
 **Volume fora do padrão no mercado:** CBAV3 4,2x (-0,35%), GMAT3 3,9x (-1,70%), EQTL3 3,0x (+1,13%), EZTC3 2,9x (+3,16%), CXSE3 2,9x (+0,82%), DXCO3 2,8x (+0,73%), SIMH3 2,8x (+9,88%), SMAL11 2,8x (+1,10%).
 
@@ -275,13 +339,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
-- saldo de aluguel: aguardando
-- empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
-- Register: aguardando
-- Stock: aguardando
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 06/10 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-06/BDI_00_20261006.pdf

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-07T06:24:59Z",
+ "gerado_em": "2026-10-07T11:52:26Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -42,7 +42,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3375
+    "no_cache": 3376
    },
    "anbima": {
     "situacao": "publicado",
@@ -56,17 +56,13 @@
     }
    },
    "falhas": {},
-   "segundos": 37
+   "segundos": 40
   },
   "2026-10-06": {
-   "completo": false,
-   "faltam": [
-    "BTBLendingOpenPosition",
-    "BTBLoanBalance",
-    "AnalyticalFramework2"
-   ],
-   "boletim": "publicando",
-   "sinais": 26,
+   "completo": true,
+   "faltam": [],
+   "boletim": "publicado",
+   "sinais": 36,
    "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
@@ -76,8 +72,8 @@
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1575,
-    "consultados": 1,
-    "achados": 1,
+    "consultados": 0,
+    "achados": 0,
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
@@ -95,7 +91,7 @@
     }
    },
    "falhas": {},
-   "segundos": 28
+   "segundos": 60
   }
  },
  "falhas": [],
