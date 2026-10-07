@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 16h17
+NOTÍCIAS E FATOS · 07/10 17h22
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 432 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 428 veículo fora da lista, 45 sem ativo, 4 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -62,7 +62,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no Money Times: Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro; confirmar o número no texto antes de repassar'
 Fonte: Money Times 07/10 14h55
-id: E05-VALE3-f9b2885db0-2026-10-07 · status: pendente · íntegra disponível
+id: E05-VALE3-f9b2885db0-2026-10-07 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BAC · Marvell price target raised by Bank of America on $80 billion sales outlook
 Yahoo Finance · 07/10 14h10 · fonte única · licença: resumo
@@ -78,7 +78,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BAC · MRVL
 Como falar: 'saiu no Yahoo Finance: Marvell price target raised by Bank of America on $80 billion sales outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 07/10 14h10
-id: E05-BAC-217be9ba2d-2026-10-07 · status: pendente
+id: E05-BAC-217be9ba2d-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
 Investing.com · 07/10 11h06 · fonte única · licença: manchete
@@ -87,7 +87,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Investing.com: Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 07/10 11h06
-id: E05-CVX-99ba542c8a-2026-10-07 · status: expirado
+id: E05-CVX-99ba542c8a-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · DI · Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica estável
 Estadao · 07/10 11h35 · fonte única · licença: manchete
@@ -256,8 +256,20 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (117)
+## OUTRAS NOTÍCIAS (só manchete) (129)
 
+· UST U.S. Stocks Fall as Treasury Yields Test Multidecade Highs (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-stocks-fall-as-treasury-yields-test-multidecade-highs-107d696f
+· CVX Hess Midstream Stock Plunges, but the Chevron Deal Has a Silver Lining (Barron's) https://www.barrons.com/articles/hess-midstream-stock-price-chevron-deal-2fccc6f8
+· USDBRL Dólar sobe e volta a R$ 5; Bolsa recua com pressão do exterior (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/07/dolar-sobe-e-volta-a-r-5-bolsa-recua-com-pressao-do-exterior.amp.htm
+· UST Wall Street ends lower, off record highs, as Treasury yields climb (Reuters) https://www.reuters.com/business/wall-st-futures-slip-yields-oil-rebound-fed-minutes-focus-2026-10-07/
+· UST Update: US Equity Indexes Fall After Strong Treasury Auction, Tightening Lean in Fed's September Minutes (Yahoo Finance) https://finance.yahoo.com/economy/policy/articles/us-equity-indexes-fall-strong-195348550.html
+· MRVL Is There A Risk Hiding In Marvell Stock's Rapid Growth? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/risk-hiding-marvell-stocks-rapid-193415154.html
+· BTC Bitcoin crash sends crypto market, stocks into bloodbath: Why? (Seeking Alpha) https://seekingalpha.com/news/4651112-bitcoin-crash-sends-crypto-market-stocks-into-bloodbath-why
+· MU Prediction: Micron Will Have a Larger Market Cap Than Nvidia by 2030 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-micron-larger-market-cap-191100363.html
+· USDBRL Tempo real: Ibovespa cai com bancos e exterior; dólar sobe (Money Times) https://www.moneytimes.com.br/tempo-real-7-10-26-apsa-lils/
+· BRENT Brent Crude Dips on Easing Supply Concerns (TradingView (Reuters)) https://www.tradingview.com/news/te_news:590268:0-brent-crude-dips-on-easing-supply-concerns/
+· GOOGL Can Google's Nuclear Deal Strengthen Constellation Energy's Growth Outlook? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:360cffdc1094b:0-can-google-s-nuclear-deal-strengthen-constellation-energy-s-growth-outlook/
+· BAC Bank of America stock may move 3.4% on earnings next week (Investing.com) https://ng.investing.com/news/stock-market-news/bank-of-america-stock-may-move-34-on-earnings-next-week-93CH-2725833
 · BTC Coinbase premium gap sinks to -$64 as Bitcoin trades at a US discount (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:06f031cb1094b:0-coinbase-premium-gap-sinks-to-64-as-bitcoin-trades-at-a-us-discount/
 · AVGO Broadcom (AVGO) Is Lagging the Market This Year. Is It a Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-lagging-market-buy-184215311.html
 · NVDA SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips (MarketWatch) https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82
@@ -306,16 +318,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · NVDA SpaceX, IREN Both Buy Nvidia Chips: Their AI Margins Couldn't Be More Different (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:a2ac8d609094b:0-spacex-iren-both-buy-nvidia-chips-their-ai-margins-couldn-t-be-more-different/
 · AMZN Airia Now Available on AWS Marketplace With "Deployed on AWS" Designation (Yahoo Finance) https://au.finance.yahoo.com/news/airia-now-available-aws-marketplace-151700754.html
 · MRVL Watch CNBC's full interview with Marvell CEO Matt Murphy (CNBC) https://www.cnbc.com/video/2026/10/07/watch-cnbcs-full-interview-with-marvell-ceo-matt-murphy.html
-· TSLA Tesla, Inc. (TSLA) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/TSLA/
-· LITE Lumentum Holdings Inc. Research & Ratings | LITE (Barron's) https://www.barrons.com/market-data/stocks/lite/research-ratings?countrycode=at&mod=quotes
-· USDBRL Dólar sobe e Ibovespa cai sob influência do exterior, com eleição ainda no foco (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45T0ML:0/
-· BAC Bank Of America: Fed Policy Shift Creates NII Upside (Rating Upgrade) (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4952541-bank-of-america-fed-policy-shift-creates-nii-upside-rating-upgrade
-· INTC Constellation Brands Down on Earnings; Intel Up on Terafab | Stock Movers (Yahoo Finance) https://finance.yahoo.com/video/constellation-brands-down-earnings-intel-153817762.html
-· NVDA NVII: Weekly Nvidia Income With A Plan Attached (BATS:NVII) (Seeking Alpha) https://seekingalpha.com/article/4952536-nvii-weekly-nvidia-income-with-a-plan-attached
-· UST Midday Need to Know: Treasury yields surge, Nestlé lands NBA deal & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4651071-midday-need-to-know-treasury-yields-surge-nestle-lands-nba-deal-more
-· USDBRL Euro cai para perto de mínimas em 17 meses, dólar sobe antes de ata do Fed (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45T0Z2:0/
-· DI “Lua de mel” com a inflação acabou e BC deve cortar Selic “cautelosamente”, diz XP (InfoMoney) https://www.infomoney.com.br/economia/lua-de-mel-com-a-inflacao-acabou-e-bc-deve-cortar-selic-cautelosamente-diz-xp/
-· VALE3 Vale fecha acordo com Ministério Público após omissão de laudo em mina de Mariana (g1) https://g1.globo.com/mg/minas-gerais/noticia/2026/10/07/vale-fecha-acordo-com-ministerio-publico-apos-omissao-de-laudo-em-mina-de-mariana.ghtml
-· MRVL Marvell's Bullish Financial Targets Boost Stock's Long-Term Buy Appeal, Oppenheimer Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-apos-bullish-financial-targets-151115279.html
-· MU Nvidia and Micron are about to dominate earnings season (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-and-micron-are-about-to-dominate-earnings-season-150631365.html
-· (+57 manchetes; lista completa em eventos/noticias.json)
+· (+69 manchetes; lista completa em eventos/noticias.json)
