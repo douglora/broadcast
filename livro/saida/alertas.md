@@ -9,7 +9,7 @@ Como falar: 'saiu no Investing.com: Hess Midstream stock drops on Chevron restru
 Fonte: Investing.com 07/10 11h06
 ids: E05-CVX-99ba542c8a-2026-10-07
 
-[ATENÇÃO] E05 · VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro
+(pendente de slot anterior) [ATENÇÃO] E05 · VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro
 Money Times · 07/10 14h55 · fonte única · licença: integral
 Do texto:
   – Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro A Allos (ALOS3) ultrapassou a Vale (VALE3) em número de recomendações nas carteiras de dividendos de outubro.
@@ -23,10 +23,9 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: VALE3
 Como falar: 'saiu no Money Times: Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro; confirmar o número no texto antes de repassar'
 Fonte: Money Times 07/10 14h55
-Push: intradia: 2 alertas de atenção — E05 VALE3, E05 BAC · detalhe na sessão
 ids: E05-VALE3-f9b2885db0-2026-10-07
 
-[ATENÇÃO] E05 · BAC · Marvell price target raised by Bank of America on $80 billion sales outlook
+(pendente de slot anterior) [ATENÇÃO] E05 · BAC · Marvell price target raised by Bank of America on $80 billion sales outlook
 Yahoo Finance · 07/10 14h10 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Marvell Technology Inc (NASDAQ:MRVL), the networking and custom chip maker, had its price target raised to $400 from $365 by Bank of America (BofA), which kept its 'buy' rating after the analyst day.
@@ -43,26 +42,24 @@ Fonte: Yahoo Finance 07/10 14h10
 ids: E05-BAC-217be9ba2d-2026-10-07
 
 Info (só linha no Fechamento):
-· E05 CVX · Hess Midstream Partners Goes Public-Only, Buys Chevron’s DJ Basin Assets
-· E05 USDBRL · Ouro fecha em queda pressionado por dólar forte e avanço de juros dos Treasuries
-· E05 UST · Update: US Equity Indexes Fall, Treasury Yields Mixed Ahead of Fed Minutes
-· E05 MRVL · ARM vs. Marvell Technology: What Revenue Trends for These Artificial Intelligence Companies Tell Investors
-· E05 MU · Another Micron triple? Where we agree with this wildly bullish call and where we don't
-· E05 VALE3 · Ação da Vale tem 3ª baixa seguida e caminha para fechar o pregão no menor nível desde dezembro
-· E05 BTC · Can You Hold Bitcoin in a Roth IRA? Understanding the Options, Costs, and Rules
-· E05 UST · 10-year auction draws strong demand, sending yields lower
-· E05 DI · Selic 2026: 70% dos bancos veem mais cortes; metade aposta em juros de 13,50%
-· E05 MU · Apple Needs Chips, and “Micron Sets the Price.” Now Micron Is Making More Money than Apple
-· E05 VALE3 · Vale SA (VALE3) Previsões, Preço-Alvo e Projeções de Analistas
-· E05 LITE · Record Earnings Drive Lumentum Shares to New Highs
-· E05 BTC · Bitcoin Price Set for a Boost: Arthur Hayes Bets on an AI Boom Bust
-· E05 UST · 10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears
+· E05 BTC · Coinbase premium gap sinks to -$64 as Bitcoin trades at a US discount
+· E05 AVGO · Broadcom (AVGO) Is Lagging the Market This Year. Is It a Buy?
+· E05 NVDA · SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips
+· E05 BTC · Bitcoin Price Gets A Fresh Treasury Buyback Test
+· E05 GOOGL · Wall Street Says $429 for Alphabet. Our Model Sees $500+
+· E05 VALE3 · Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 205 mil pontos; VALE3 recua 3%
+· E05 PETR4 · Entra Petrobras (PETR4) e Sabesp (SBSP3): Planner indica 10 ações para a carteira de outubro
+· E05 MU · Nvidia, Micron and Other 5 S&P 500 Stocks With +100% Revenue Growth
+· E05 CVX · Chevron Swaps Hess Midstream Stake for 50% Lower Bakken Costs — and a $200 Million Payment
+· E05 ETH · Ethereum news: Tom Lee says Bitmine to soon stop buying ETH
+· E05 UST · US government bonds steady after strong 10-year Treasury auction
+· E05 TSM · INTC Stock Jumps Overnight: CEO Says Intel Will Keep Working With Musk's Terafab Amid TSMC Partnership Buzz
 
 
 Alertas do dia (todos, com status):
 · pendente  E05 VALE3 — VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos anal
 · pendente  E05 BAC — BAC · Marvell price target raised by Bank of America on $80 billion sales outloo
-· pendente  E05 CVX — CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
+· expirado  E05 CVX — CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
 · entregue  E05 DI — DI · Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica est
 · entregue  E05 JPM — JPM · JPMorgan Just Raised Its Dividend 10%. These 4 Stocks Also Can Afford to P
 · entregue  E05 MRVL — MRVL · RBC Capital raises Marvell stock price target on AI growth outlook
@@ -76,6 +73,6 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Piper Sandler raises Marvell stock price target on revenue outlook
 · entregue  E05 BTC — BTC · Bitcoin Falls as $550 Million in Risky Crypto Bets Wiped Out
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
-· linha     F01 USDBRL — Real cai: USD/BRL 5,0012 (-3,3% em 5 sessões) (parcial, intradia)
-· linha     F06 BTC — BTC cai a US$ 83.231 (cruzou US$ 85.000) (parcial, intradia)
-· (+109 notícias só manchete, em noticias.md)
+· linha     F01 USDBRL — Real cai: USD/BRL 5,0058 (-3,2% em 5 sessões) (parcial, intradia)
+· linha     F06 BTC — BTC cai a US$ 83.399 (cruzou US$ 85.000) (parcial, intradia)
+· (+121 notícias só manchete, em noticias.md)

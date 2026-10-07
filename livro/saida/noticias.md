@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 15h21
+NOTÍCIAS E FATOS · 07/10 16h17
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 437 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 432 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -87,7 +87,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Investing.com: Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 07/10 11h06
-id: E05-CVX-99ba542c8a-2026-10-07 · status: pendente
+id: E05-CVX-99ba542c8a-2026-10-07 · status: expirado
 
 [ATENÇÃO] E05 · DI · Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica estável
 Estadao · 07/10 11h35 · fonte única · licença: manchete
@@ -256,8 +256,20 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (105)
+## OUTRAS NOTÍCIAS (só manchete) (117)
 
+· BTC Coinbase premium gap sinks to -$64 as Bitcoin trades at a US discount (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:06f031cb1094b:0-coinbase-premium-gap-sinks-to-64-as-bitcoin-trades-at-a-us-discount/
+· AVGO Broadcom (AVGO) Is Lagging the Market This Year. Is It a Buy? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-lagging-market-buy-184215311.html
+· NVDA SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips (MarketWatch) https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82
+· BTC Bitcoin Price Gets A Fresh Treasury Buyback Test (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:b72f89c39094b:0-bitcoin-price-gets-a-fresh-treasury-buyback-test/
+· GOOGL Wall Street Says $429 for Alphabet. Our Model Sees $500+ (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/wall-street-says-429-alphabet-160054141.html
+· VALE3 Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 205 mil pontos; VALE3 recua 3% (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-07102026/
+· PETR4 Entra Petrobras (PETR4) e Sabesp (SBSP3): Planner indica 10 ações para a carteira de outubro (Money Times) https://www.moneytimes.com.br/entra-petrobras-petr4-e-sabesp-sbsp3-planner-indica-10-acoes-para-a-carteira-de-outubro-lmrs/
+· MU Nvidia, Micron and Other 5 S&P 500 Stocks With +100% Revenue Growth (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:ad8b271fb094b:0-nvidia-micron-and-other-5-s-p-500-stocks-with-100-revenue-growth/
+· CVX Chevron Swaps Hess Midstream Stake for 50% Lower Bakken Costs — and a $200 Million Payment (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:db1d406fd094b:0-chevron-swaps-hess-midstream-stake-for-50-lower-bakken-costs-and-a-200-million-payment/
+· ETH Ethereum news: Tom Lee says Bitmine to soon stop buying ETH (CoinDesk) https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases
+· UST US government bonds steady after strong 10-year Treasury auction (Financial Times) https://www.ft.com/content/33c67aa0-bfdb-457b-84bb-960b4fed94b6?syn-25a6b1a6=1
+· TSM INTC Stock Jumps Overnight: CEO Says Intel Will Keep Working With Musk's Terafab Amid TSMC Partnership Buzz (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intc-stock-jumps-overnight-ceo-074228291.html
 · CVX Hess Midstream Partners Goes Public-Only, Buys Chevron’s DJ Basin Assets (Yahoo Finance) https://finance.yahoo.com/energy/articles/hess-midstream-partners-goes-public-180223396.html
 · USDBRL Ouro fecha em queda pressionado por dólar forte e avanço de juros dos Treasuries (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/07/ouro-fecha-em-queda-pressionado-por-dolar-forte-e-avanco-de-juros-dos-treasuries.htm
 · UST Update: US Equity Indexes Fall, Treasury Yields Mixed Ahead of Fed Minutes (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-175755567.html
@@ -306,16 +318,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · VALE3 Vale fecha acordo com Ministério Público após omissão de laudo em mina de Mariana (g1) https://g1.globo.com/mg/minas-gerais/noticia/2026/10/07/vale-fecha-acordo-com-ministerio-publico-apos-omissao-de-laudo-em-mina-de-mariana.ghtml
 · MRVL Marvell's Bullish Financial Targets Boost Stock's Long-Term Buy Appeal, Oppenheimer Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-apos-bullish-financial-targets-151115279.html
 · MU Nvidia and Micron are about to dominate earnings season (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-and-micron-are-about-to-dominate-earnings-season-150631365.html
-· BTC Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:2621813db094b:0-bitcoin-price-drops-to-82-7k-october-low-as-bond-sell-off-resumes-on-iran-nerves/
-· CVX Hess Midstream shares fall 16% after Chevron agrees to transfer stake and assets (Yahoo Finance) https://finance.yahoo.com/energy/articles/hess-midstream-shares-fall-16-145700918.html
-· CVX Chevron's Portfolio Reshaping Strategy to Unlock Stronger Returns (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxOVmpqRFBwQUdFak1ZaWpxYmNCOFdFYU0weHh3WGNNLU5PUlBPV1FHYXdvV2NvYzRxSXdsYkNydHF0RTlkV2dVbUhVODFUSk8zUHRpN0VkNDc4d2dWdWEzbkpxUVNLRjVzU0dWZ0RHMUpDeDVZb3J2V2RDR2ZlZzRLTnBqeFFpekpwQ245aWFhaHZIN1lSZ2VIbjFtVHVOQms0aER5V25aNVRtSWZDVElZQWQ0VE9fbmNHTlM2S3dR?oc=5
-· BAC Bank of America stock may move 3.4% on earnings next week (Investing.com) https://news.google.com/rss/articles/CBMitwFBVV95cUxOYWs4RmoxUFozUURQNVVsQ2xxdFhMb0hoSndoZEVsc1NGOHNDa3pMQ0UyV0pqeW5uUFgtRERNWnREeEJLZENMQjAyalZqeV8tY0hzMzRQd0xrZF9hbTBVc0JDelQxU1hzcGh6aExsaGs1c25SVFZTaVJmMjhOZEUwN3UxaVZDZkdGWnAtX29SczZ2NGNQR1FrOGJlakxwV2ZwTU9iVlpabmxncHpLRGpYc2JCQkkzN2M?oc=5
-· PETR4 Itaú BBA ainda vê potencial de alta de até 40% para Petrobras (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/07/itau-bba-ainda-ve-potencial-de-alta-de-ate-40-para-petrobras.ghtm
-· PETR4 Petrobras (PETR4) e Prio (PRIO3) estão entre vencedoras de leilão de 7 blocos do pré-sal (Money Times) https://www.moneytimes.com.br/petrobras-petr4-e-prio-prio3-estao-entre-vencedoras-de-leilao-de-7-blocos-do-pre-sal-lils/
-· BBAS3 Gestora de grandes fortunas aposta em Banco do Brasil e mais 3 ativos para lucrar até o 2º turno (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/gestora-de-grandes-fortunas-aposta-em-banco-do-brasil-e-mais-3-ativos-para-lucrar-ate-o-2-turno/
-· MRVL Marvell Technologies CEO Matt Murphy Implied Data Center Revenue Could Top $30 Billion By 2028 - CNBC (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45S22T:0-marvell-technologies-ceo-matt-murphy-implied-data-center-revenue-could-top-30-billion-by-2028-cnbc/
-· UST U.S. Treasury Yields Hit New 24-Year Highs and French Bonds Underperform (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-european-government-bond-yields-rise-french-bonds-underperform-on-budget-worries-c068d9ae
-· GOOGL Nexentis Deploys MitoCareX Computational Drug Discovery Infrastructure on Google Cloud (Yahoo Finance) https://finance.yahoo.com/healthcare/articles/nexentis-deploys-mitocarex-computational-drug-140351203.html
-· AMD AMD Is Up More Than 100X in 10 Years. Can It Repeat That Run? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-more-100x-10-years-140023650.html
-· USDBRL O que os bancos estrangeiros esperam da Bolsa e do dólar após o 1º turno? (InfoMoney) https://www.infomoney.com.br/mercados/o-que-os-bancos-estrangeiros-esperam-da-bolsa-e-do-dolar-apos-1o-turno/
-· (+45 manchetes; lista completa em eventos/noticias.json)
+· (+57 manchetes; lista completa em eventos/noticias.json)
