@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 13h21
+NOTÍCIAS E FATOS · 07/10 14h21
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 433 veículo fora da lista, 41 sem ativo, 9 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 441 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -55,7 +55,7 @@ Por que importa: decisao de politica monetaria reprecifica toda a curva e o camb
 Ativos: DI
 Como falar: 'saiu no Estadao: Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica estável; confirmar o número no texto antes de repassar'
 Fonte: Estadao 07/10 11h35
-id: E05-DI-3cdf6151e1-2026-10-07 · status: pendente
+id: E05-DI-3cdf6151e1-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · JPM · JPMorgan Just Raised Its Dividend 10%. These 4 Stocks Also Can Afford to Pay Much Bigger Dividends
 Yahoo Finance · 07/10 10h45 · fonte única · licença: resumo
@@ -71,7 +71,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: JPM
 Como falar: 'saiu no Yahoo Finance: JPMorgan Just Raised Its Dividend 10%. These 4 Stocks Also Can Afford to Pay Much Bigger…; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 07/10 10h45
-id: E05-JPM-d7dfe4ba3e-2026-10-07 · status: pendente
+id: E05-JPM-d7dfe4ba3e-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · RBC Capital raises Marvell stock price target on AI growth outlook
 Investing.com · 07/10 11h39 · fonte única · licença: manchete
@@ -215,8 +215,20 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (67)
+## OUTRAS NOTÍCIAS (só manchete) (79)
 
+· UST Goodbye TINA? High Treasury yields give investors an alternative to stocks (CNBC) https://www.cnbc.com/make-it/2026/10/07/stocks-vs-bonds-treasury-yields.html
+· GOOGL Alphabet's Cloud Backlog Just Topped $500 Billion. Is Google Cloud About to Overtake Search as the Growth Engine? (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabets-cloud-backlog-just-topped-165900192.html
+· UST US bonds selloff resumes as 10-year, 30-yields hit new 24-year high (Reuters) https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/
+· UST Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale — Danske Reportedly Sees Risk Of 6% As Pressure Builds (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4dc3989ef094b:0-treasury-yields-hit-24-year-highs-ahead-of-39b-10-year-note-sale-danske-reportedly-sees-risk-of-6-as-pressure-builds/
+· MU Micron (MU) Stock Still Looks Expensive Despite Its Huge Five Year Run (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-stock-still-looks-161114308.html
+· BTC The largest challenges to the bitcoin's price right now (Yahoo Finance) https://finance.yahoo.com/video/largest-challenges-bitcoins-price-now-160000772.html
+· GOOGL Alphabet: Betting Big On The Frontier AI Labs (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4952537-alphabet-betting-big-on-the-frontier-ai-labs
+· NVDA SpaceX, IREN Both Buy Nvidia Chips: Their AI Margins Couldn't Be More Different (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:a2ac8d609094b:0-spacex-iren-both-buy-nvidia-chips-their-ai-margins-couldn-t-be-more-different/
+· AMZN Airia Now Available on AWS Marketplace With "Deployed on AWS" Designation (Yahoo Finance) https://au.finance.yahoo.com/news/airia-now-available-aws-marketplace-151700754.html
+· MRVL Watch CNBC's full interview with Marvell CEO Matt Murphy (CNBC) https://www.cnbc.com/video/2026/10/07/watch-cnbcs-full-interview-with-marvell-ceo-matt-murphy.html
+· TSLA Tesla, Inc. (TSLA) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/TSLA/
+· LITE Lumentum Holdings Inc. Research & Ratings | LITE (Barron's) https://www.barrons.com/market-data/stocks/lite/research-ratings?countrycode=at&mod=quotes
 · USDBRL Dólar sobe e Ibovespa cai sob influência do exterior, com eleição ainda no foco (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45T0ML:0/
 · BAC Bank Of America: Fed Policy Shift Creates NII Upside (Rating Upgrade) (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4952541-bank-of-america-fed-policy-shift-creates-nii-upside-rating-upgrade
 · INTC Constellation Brands Down on Earnings; Intel Up on Terafab | Stock Movers (Yahoo Finance) https://finance.yahoo.com/video/constellation-brands-down-earnings-intel-153817762.html
@@ -265,16 +277,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · NVDA NVIDIA or AMD: If I Could Only Own 1 for the Next Decade, This Is It (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-could-only-own-124536893.html
 · BRENT Dólar abre a R$ 5,01, com ata de Fed, petróleo e eleições no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/07/dolar-bolsa-abre-hoje-7-de-outubro-de-2026.ghtm
 · TSM TSMC earnings could cause another round of consensus upgrades (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45T10G:0-tsmc-earnings-could-cause-another-round-of-consensus-upgrades/
-· USDBRL Ibovespa futuro cai com disparada de juros longos nos EUA e à espera de ata do Fed; dólar opera em alta (Money Times) https://www.moneytimes.com.br/ibovespa-futuro-7-10-26-lils/
-· ITSA4 Itaúsa reúne executivos no Panorama e reforça estratégia de longo prazo e gestão do portfólio (ADVFN) https://br.advfn.com/jornal/2026/10/itausa-reune-executivos-no-panorama-e-reforca-estrategia-de-longo-prazo-e-gestao-do-portfolio
-· MRVL Marvell Technology gets praise from Wall Street after investor day (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZDh3aTlOdDlMU0F4eW1uSWN2a1pvaFpORXZDeUc0a0Z0SFgzbzBDaUtJT3JvMWhTSVVaYW1EMERqWkpsRlplblR4OG9OQVlTMlQ3OXk0SnM2ZWZIOGNWZmppMTk5dWhSWEF4dFpiSnpWVWNNdHdpdFZxaENaX3gzc3FLcWlnZVhtSlV2Wm41bmhDcFhkR08zNjBqN3pkUEJ2Rlhsb1c0S0RtallRNVd6SE12T24ybnlNUF9neS04Znp1OHRtLS01RQ?oc=5
-· AXIA3 Axia Energia (AXIA3), OranjeBTC (OBTC3), Grupo Primo e outros destaques desta quarta-feira (7) (Money Times) https://news.google.com/rss/articles/CBMivAFBVV95cUxQb3dwRGhSRm56eEV3VkRXNlpEd2pHQ2JCNmFvU29hdDh4azl5ODlLR1NFUE84UnhCcDk2OFlBdUU1bWJRY09LRHRfd05hdER0ZzNva1Q1UlJPUWNJa3h2SGZ3eFNqRWVGbzlOQ2tZa29KSUxMOEZtcC1PM2l2ajYzSlZ0Q2xkTF9kWUNUczhsWG5IblNsN3gwZmMtTmZVU09SUjdCQmJLOGZMS0Y1NHd6ZkNINGFVS0RrZmY1dw?oc=5
-· BTC Bitcoin and ethereum prices today, Wednesday, October 7, 2026: Crypto prices fade along with risk appetite (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-7-2026-crypto-prices-fade-along-with-risk-appetite-113324902.html
-· ETH Current price of Ethereum for Oct. 7, 2026 (Fortune) http://fortune.com/article/price-of-ethereum-10-07-2026/
-· MRVL Marvell Stock Looks a Great Bet as Stellar Earnings Target Wows Wall Street (Barron's) https://www.barrons.com/articles/marvell-stock-price-earnings-target-d2af1a50
-· AMD Broadcom Owns the Backstage; AMD Fights for the Spotlight (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-owns-backstage-amd-fights-111538285.html
-· AXIA3 Axia Energia (AXIA3) aprova resgate de R$ 4 bilhões em ações PNC e abre prazo para conversão em ordinárias (Money Times) https://www.moneytimes.com.br/axia-energia-axia3-aprova-resgate-de-r-4-bilhoes-em-acoes-pnc-e-abre-prazo-para-conversao-em-ordinarias-lmrs/
-· ITSA4 Momento B3: Axia Energia, IMC, Itaúsa, RD Saúde e os principais destaques desta quarta-feira (07) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-imc-itausa-rd-saude-e-os-principais-destaques-desta-quarta-feira-07
-· BRENT Bitcoin hoje: cotação cai com alta do dólar, dos Treasuries e do petróleo (Estadao) https://www.estadao.com.br/einvestidor/cripto/bitcoin-hoje-cai-abaixo-de-us-84-mil-antes-de-ata-do-fed-o-que-pesa-sobre-a-cripto/
-· UST Treasury Yields Resume Climb (TradingView (Reuters)) https://www.tradingview.com/news/te_news:590184:0-treasury-yields-resume-climb/
-· (+7 manchetes; lista completa em eventos/noticias.json)
+· (+19 manchetes; lista completa em eventos/noticias.json)
