@@ -1,8 +1,49 @@
-NOTÍCIAS E FATOS · 06/10 21h35
+NOTÍCIAS E FATOS · 07/10 08h33
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 437 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 426 veículo fora da lista, 34 sem ativo, 50 teto) · cvm ok 2 novos de 2 (1 cias casadas) · sec ok 1 novos em 3 dias
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+
+[ATENÇÃO] E03 · AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o resgate de 67.249.496 ações preferenciais classe “C” (“PNC”), equivalente a R$ 4 bilhões e 17,…
+CVM · entregue 07/10/2026 07:39
+Do documento:
+  – Os principais termos e condições da operação são os seguintes:  • Data de corte da B3: 08 de outubro de 2026.
+  – • Data ex-direitos: a partir de 09 de outubro de 2026 as ações PNC passarão a ser negociadas ex- direitos.
+  – • Valor total do resgate: R$ 4 bilhões.
+  – • Valor do resgate da ação PNC: R$ 59,48 por ação, correspondente a cotação d e fechamento das  ações ordinárias de emissão da Companhia no pregão do dia 06 de outubro de 2026.
+  – • Tratamento tributário para investidores não residentes: informações sobre o tratamento tributário  aplicável ao resgate, em especial para investidores não residentes (“INRs”), encontram-se detalhadas n o  Aviso aos Ac…
+  – O período para  manifestação será de 14 a 16 de outubro de 2026 inclusive.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1574920
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou fato relevante sobre O seu Conselho de Administração aprovou, nesta data, o resgate de 67.…'
+Fonte: CVM 07/10
+id: E03-AXIA3-1574920-2026-10-07 · status: pendente · íntegra disponível
+
+[INFO] E03 · AXIA3 · Aviso aos Acionistas: Outros avisos
+CVM · entregue 07/10/2026 07:41 · Outros avisos
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1574921
+Por que importa: aviso aos acionistas traz provento, data-com ou evento societario que muda o fluxo ao acionista
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou aviso aos acionistas sobre Outros avisos'
+Fonte: CVM 07/10
+id: E03-AXIA3-1574921-2026-10-07 · status: linha
+
+
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[INFO] E04 · BABA · 6-K: 6-K
+SEC EDGAR · aceito 07/10 07h52 · FORM 6-K
+Do documento:
+  – 6-K  1  tm2627183d1_6k.htm  FORM 6-K  UNITED STATES   SECURITIES AND EXCHANGE COMMISSION   Washington, D.C.
+  – We are furnishing our Monthly Return in respect of September 2026 as Exhibit 99.1 of this Current Report on Form 6-K.
+  – ALIBABA GROUP HOLDING LIMITED   Date: October 7, 2026   By:   /s/ Kevin Jinwei ZHANG   Name:   Kevin Jinwei ZHANG   Title:   Company Secretary   4
+Link: https://www.sec.gov/Archives/edgar/data/1577552/000110465926114191/tm2627183d1_6k.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: BABA
+Como falar: 'a BABA protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-10-07
+id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 [INFO] E04 · CVX · 8-K: 7.01 Regulation FD, 8.01 outros eventos
 SEC EDGAR · aceito 06/10 18h16 · 8-K
@@ -21,7 +62,64 @@ Fonte: SEC EDGAR 2026-10-06
 id: E04-CVX-26000192-2026-10-06 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (27)
+## NOTÍCIAS COM MATERIALIDADE (31)
+
+[ATENÇÃO] E05 · MRVL · Marvell just gave a bullish outlook. It led TD Cowen to upgrade the stock
+CNBC · 07/10 07h54 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – It also raised its price target on shares to $350 from $245, suggesting 22% upside from Tuesday's close.
+  – Shares have jumped 238% year to date, vastly outperforming the overall market as widening use of artificial intelligence has spurred demand for the hardware solutions that power the emerging technology.
+  – MRVL YTD mountain Shares are up 238% year to date.
+  – Marvell held its 2026 investor day in New York City on Tuesday.
+  – There, it raised its revenue outlook to $20 billion from $18 billion and unveiled a long-term revenue target in the range of $70 billion to $90 billion.
+  – "The fundamentals underpinning the target are not as aggressive as they might seem, with management's strategic outlook contemplating a deceleration in both hyperscaler capex and AI infra spending," the analyst wrote.
+Link: https://www.cnbc.com/2026/10/07/marvell-just-gave-a-bullish-outlook-it-led-td-cowen-to-upgrade-the-stock.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: MRVL
+Como falar: 'saiu no CNBC: Marvell just gave a bullish outlook. It led TD Cowen to upgrade the stock; confirmar o número no texto antes de repassar'
+Fonte: CNBC 07/10 07h54
+id: E05-MRVL-f6cd86f9dd-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Piper Sandler raises Marvell stock price target on revenue outlook
+Investing.com · 07/10 07h41 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/piper-sandler-raises-marvell-stock-price-target-on-revenue-outlook-93CH-4936010
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Investing.com: Piper Sandler raises Marvell stock price target on revenue outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 07/10 07h41
+id: E05-MRVL-f17717646d-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Bitcoin Falls as $550 Million in Risky Crypto Bets Wiped Out
+Yahoo Finance · 07/10 06h48 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Other smaller digital assets also fell, with XRP and Solana down 4.2% and 3.3%, respectively.
+  – The retreat accelerated as leveraged bets were unwound, with around $550 million in crypto positions liquidated over the last 24 hours, according to Coinglass data.
+  – "The dip in crypto prices serves as a leverage flush instead of a downward trend, stemming from crowded bets on higher prices being forced out, with most of the liquidations coming from long positions," said Dan Khus, c…
+  – The crypto losses reflected a broader cooling in appetite for risk, as renewed Iranian attacks in the Strait of Hormuz tempered hopes that shipping through the key waterway may return to pre-war levels, pushing Brent cr…
+  – US stocks futures were little changed after the S&P 500 closed at an all-time high in the prior session.
+  – Europe's Stoxx 600 snapped three straight days of gains, while a recovery in bonds also lost steam, with the 10-year Treasury yield climbing above 5.3%.
+Link: https://uk.finance.yahoo.com/news/bitcoin-falls-550-million-risky-094845532.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Falls as $550 Million in Risky Crypto Bets Wiped Out; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 06h48
+id: E05-BTC-69a033c827-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · DI · Copom reduz taxa básica de juros de 14,25% para 14% ao ano
+Agencia Brasil · 06/10 22h53 · fonte única · licença: integral
+Do texto:
+  – A queda foi de 0,25 ponto percentual, levando os juros básicos da economia de 14,25% para 14% ao ano.
+  – O movimento faz parte de um ciclo de cortes iniciado em março, quando a Selic estava no patamar de 15% ao ano.
+  – Desde então, houve quatro reduções de 0,25 ponto cada, totalizando 1 ponto percentual de queda.
+  – A projeção do Banco Central para o IPCA no primeiro trimestre de 2028, o novo horizonte relevante da política monetária, é de 3,2%.
+  – A meta central de inflação no Brasil, estabelecida pelo Conselho Monetário Nacional, é de 3% ao ano, com margem de tolerância de 1,5 ponto percentual para cima ou para baixo.
+  – As expectativas do mercado para a inflação são de 5% em 2026 e 4,2% em 2027.
+Link: https://agenciabrasil.ebc.com.br/de/node/1698840
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Agencia Brasil: Copom reduz taxa básica de juros de 14,25% para 14% ao ano; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 06/10 22h53
+id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 [ATENÇÃO] E05 · USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera
 UOL Economia · 06/10 18h44 · fonte única · licença: manchete
@@ -30,7 +128,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no UOL Economia: Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera; confirmar o número no texto antes de repassar'
 Fonte: UOL Economia 06/10 18h44
-id: E05-USDBRL-7d13238b84-2026-10-06 · status: pendente
+id: E05-USDBRL-7d13238b84-2026-10-06 · status: expirado
 
 [ATENÇÃO] E05 · MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ)
 Seeking Alpha · 06/10 16h41 · fonte única · licença: manchete
@@ -39,7 +137,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MRVL
 Como falar: 'saiu no Seeking Alpha: Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 06/10 16h41
-id: E05-MRVL-b810c97b8f-2026-10-06 · status: pendente
+id: E05-MRVL-b810c97b8f-2026-10-06 · status: expirado
 
 [ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
 Investing.com · 06/10 17h59 · fonte única · licença: manchete
@@ -48,7 +146,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: Evercore ISI raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 06/10 17h59
-id: E05-MRVL-b8fd065ffb-2026-10-06 · status: expirado
+id: E05-MRVL-b8fd065ffb-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
 Investing.com · 06/10 17h36 · fonte única · licença: manchete
@@ -57,7 +155,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: Marvell stock gets $295 target reiterated by Raymond James on AI outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 06/10 17h36
-id: E05-MRVL-ff24d4c234-2026-10-06 · status: expirado
+id: E05-MRVL-ff24d4c234-2026-10-06 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell Stock Soars After Raising 2028 Guidance
 Yahoo Finance · 06/10 16h56 · fonte única · licença: resumo
@@ -355,8 +453,23 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (171)
+## OUTRAS NOTÍCIAS (só manchete) (186)
 
+· BTC Bitcoin and ethereum prices today, Wednesday, October 7, 2026: Crypto prices fade along with risk appetite (Yahoo Finance) https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-7-2026-crypto-prices-fade-along-with-risk-appetite-113324902.html
+· ETH Current price of Ethereum for Oct. 7, 2026 (Fortune) http://fortune.com/article/price-of-ethereum-10-07-2026/
+· MRVL Marvell Stock Looks a Great Bet as Stellar Earnings Target Wows Wall Street (Barron's) https://www.barrons.com/articles/marvell-stock-price-earnings-target-d2af1a50
+· AMD Broadcom Owns the Backstage; AMD Fights for the Spotlight (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcom-owns-backstage-amd-fights-111538285.html
+· AXIA3 Axia Energia (AXIA3) aprova resgate de R$ 4 bilhões em ações PNC e abre prazo para conversão em ordinárias (Money Times) https://www.moneytimes.com.br/axia-energia-axia3-aprova-resgate-de-r-4-bilhoes-em-acoes-pnc-e-abre-prazo-para-conversao-em-ordinarias-lmrs/
+· ITSA4 Momento B3: Axia Energia, IMC, Itaúsa, RD Saúde e os principais destaques desta quarta-feira (07) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-imc-itausa-rd-saude-e-os-principais-destaques-desta-quarta-feira-07
+· BRENT Bitcoin hoje: cotação cai com alta do dólar, dos Treasuries e do petróleo (Estadao) https://www.estadao.com.br/einvestidor/cripto/bitcoin-hoje-cai-abaixo-de-us-84-mil-antes-de-ata-do-fed-o-que-pesa-sobre-a-cripto/
+· UST Treasury Yields Resume Climb (TradingView (Reuters)) https://www.tradingview.com/news/te_news:590184:0-treasury-yields-resume-climb/
+· BTC Bitcoin cost bases point to resistance at $88,000 and support near $82,300 (CoinDesk) https://www.coindesk.com/markets/2026/10/07/bitcoin-s-recovery-stalls-just-short-of-rescuing-its-last-underwater-cohort
+· BRENT Commerzbank Says Treasuries Are Weaker as Brent Price Rises, US Equity Futures Stable (Yahoo Finance) https://ca.finance.yahoo.com/news/commerzbank-says-treasuries-weaker-brent-102847953.html
+· INTC Elon Musk and Intel CEO shore up chipmaker’s role in Terafab project — and here’s what the news is doing to the stock. (MarketWatch) https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR2Z1VXJ2cDgyZUxHZDJGN2lyWXlrWEx0a2tLNHlqUkUwZFRVTks0NzJHMGk1U3F6aldQWXZWMmRXOGhEYWNoa2hlY0d3TU1mR1d1ZEEzcVQwMjZXUjhpdDRWUlF2bTNzVWdWSVVZSG5zcS1BSmZkRzc0NXRRZFBfenhHYjVzZzktUUI4QU9qQlhWTk43MzZaLU5UY0F4YktUY0ExX0xiLURVdW9NLS1wQUhUMWh6NjNtc2ljakZHekJmTFNxb1JWUDVvTEpEZFExOEVhM1V4RWY4SGdGeW9ONVhPaXpucXpOSmwyQw?oc=5
+· USDBRL Mercado avalia ata do Fomc e falas de Durigan em evento hoje; Ibovespa em dólar recua nesta quarta-feira (7) (Money Times) https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeUV4RzBoX3VfMU9GZlN1RkxNa1dlTDFpT2k5eUVCMF91dWtrUGdLUUJnb1czdERuMlZQTENSbEtwN1VpdHRwazlFbU1XZlVaNWQ2Vk12V0dqTkMxTmdKR0k1YjBjazJoakIzY0hhQzM2MXlfRDZNall0b1FOMTJXZVRhcFVSQ2NFZXVuUm9GV3pUaEVTclZiRWFZU2lSZ0NuNDJ0c0E3dEZhakhSS3pZMWcxUlJsd2JGZWVMOS1IMDl1cHN4ZUVmMk9oMXNqYUpkb1oxYXhPbWUtQQ?oc=5
+· UST How US mortgage bonds can trigger a ‘vicious loop’ for Treasury yields (Financial Times) https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZHQ1UXdiRTJwQ3JxV2NwQTV0UC1CWkRIZm9pQTdSYV9kZ2JSSnQ2cmRwZG9WbjVQYV93NVk5Ynl2MzVWYTNLbjdrTjhHUVpXZ0tWVEZrSS1FV3JOY1VnRWNHRUxOS2Jpemp2cUdIRHQ?oc=5
+· BRENT ANP espera leiloar mais de 320 blocos de petróleo nesta quarta (Agencia Brasil) https://news.google.com/rss/articles/CBMivAFBVV95cUxPcDU1REdCaE01Z0tVa1FvVVBvTEJzVVgyaGJHQi02SS1qSFFqOGNGNjVhLVBPbXJWMm1CN2VCYkc0dWE0ZjFiekJDYkoxNzAxRnFqakNpSmxiaU9JTk5LM0d6eXFVVWpWOHpndEtSdy1NMUpETlZkZXpqb3MzNFduNEpzVHZMcWRfQ1d2dHRtc0JaREN3RzRDd1FvaUMzV1RXNUJqcDdMS3k5ZUFqVk93UEExSFhVTnU2Q2VUTQ?oc=5
+· COHR Coherent Corp. (COHR) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RdEl0N0JQVkpCUWkyc1lHYzNJbW44eFduTDR0ZXZVT3FhT2ZGSl9YcW1UdDFhSlBraDloQU4xeVhYQWs0QXFZaTdRRWF0THdROGc?oc=5
 · USDBRL Dólar comercial volta a cair e fecha no menor valor desde 12/05/26 (g1) https://g1.globo.com/jornal-nacional/video/dolar-comercial-volta-a-cair-e-fecha-no-menor-valor-desde-120526-15034231.ghtml
 · USDBRL Ibovespa cai e dólar recua ao menor nível em 5 meses após rali eleitoral (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45S153:0/
 · NVDA Is Nvidia’s (NVDA) Free Cash Flow Keeping Pace With Its Reported Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-free-cash-flow-233904046.html
@@ -402,19 +515,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · USDBRL Dólar cai mais ou é hora de comprar? Com moeda abaixo dos R$ 5, veja o que dizem analistas (O Globo) https://oglobo.globo.com/economia/noticia/2026/10/06/dolar-cai-mais-ou-e-hora-de-comprar.ghtml
 · DI Febraban: bancos preveem corte de 0,25 na Selic em novembro (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/macroeconomia/febraban-bancos-preveem-corte-de-025-na-selic-em-novembro/
 · MRVL Marvell Stock Jumps on Massive $20 Billion Revenue Forecast (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d1229407d094b:0-marvell-stock-jumps-on-massive-20-billion-revenue-forecast/
-· NVDA Nvidia Strength Is Masking ‘A Whole Lot of Pain’ in the Broader Market, David Rosenberg Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-strength-masking-whole-lot-194123906.html
-· ITUB4 Resultado das eleições 2026 em Itaú de Minas (MG): votação para presidente na Escola Municipal Engenheiro Jorge Oliva, na 293ª zona eleitoral (g1) https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-itau-de-minas-mg-votacao-para-presidente-na-escola-municipal-engenheiro-jorge-oliva-na-293a-zona-eleitoral.ghtml
-· BBDC4 BBAS3 e BBDC4: JPMorgan rebaixa Banco do Brasil e eleva Bradesco (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/rali-vira-o-jogo-entre-os-bancos-jpmorgan-poe-bb-sob-pressao-e-ve-mais-folego-no-bradesco/
-· MRVL Marvell rides the AI boom, targets $90B in revenue by fiscal 2031 (Yahoo Finance) https://finance.yahoo.com/video/marvell-rides-ai-boom-targets-192654470.html
-· NVDA Sam Altman: Jensen Huang “Selling Picks and Shovels” as NVIDIA Heads for $6 Trillion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/sam-altman-jensen-huang-selling-191250063.html
-· JPM JPMorgan Chase, Capital One, and RBC top AI banks index (JPM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4650666-jpmorgan-chase-capital-one-rbc-top-ai-banks-index
-· BTC Metaplanet Sold 10,000 Bitcoin for $790 Million, Then Bought 11,000 Back for $950 Million. What Was the Point? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/metaplanet-sold-10-000-bitcoin-182436416.html
-· TSLA Tesla Stocks Gain as 486,532 Deliveries Reset the Bar (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-gain-486-532-181326551.html
-· MRVL Ciena stock jumps on positive industry commentary from Marvell, Nokia By Investing.com (Investing.com) https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZmkxRzZoeEVRaFVzbkRndEFQdEZfdVozeWZSeGdLdnp3aGVJQjZudENLRWVoZW8ybXkyeUg3UldoMTdCWUMzdGNkSzllcVJjNnJSbXI3d0VzdkFmVjBnaVhmRzNDUUlxc2JiT3RuZzViOHc2UlEzcER1NDlkVXFPei1LckxCaTBfSEI2WDdIUlNvUnlUeVdaTHBiUllsa3FSbldqelVHQzB4SVA5bG8wZEEtc2cyTkFFdjNyMHJjeFRUbG9vdENwOA?oc=5
-· BRENT US EIA hikes oil price forecasts again as Iran war drains global stockpile (Reuters) https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5
-· USDBRL Ouro sobe com recuo do dólar e dos rendimentos dos Treasuries (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/06/ouro-sobe-com-recuo-do-dolar-e-dos-rendimentos-dos-treasuries.ghtml
-· DI Febraban: metade dos bancos prevê corte de 0,25 pp na Selic em novembro e 13,50% no fim do ano (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/06/febraban-metade-dos-bancos-preve-corte-de-025-pp-na-selic-em-novembro-e-1350-no-fim-do-ano.htm
-· MRVL What Marvell's rosy long-term guidance means for our AI chip stocks (CNBC) https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html
-· TSM TSMC Q3 Earnings: Strong AI Demand Sets the Bar High for Growth (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tsmc-q3-earnings-strong-ai-180000931.html
-· UGPA3 Resultado das eleições 2026 em Ipiranga (PR): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/google/amp/pr/parana/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-pr-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
-· (+111 manchetes; lista completa em eventos/noticias.json)
+· (+126 manchetes; lista completa em eventos/noticias.json)
