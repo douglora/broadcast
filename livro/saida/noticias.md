@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 17h22
+NOTÍCIAS E FATOS · 07/10 18h13
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 428 veículo fora da lista, 45 sem ativo, 4 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 438 veículo fora da lista, 46 sem ativo, 6 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -256,8 +256,19 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (129)
+## OUTRAS NOTÍCIAS (só manchete) (140)
 
+· USDBRL Ibovespa cai 0,74% e fecha em 204.302 pontos; dólar sobe a R$ 5,011 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-074-e-fecha-em-204-302-pontos-dolar-sobe-a-r-5011/
+· PETR4 Em leilão, Petrobras e Qatar Energy levam 7 blocos na Margem Equatorial (Poder360) https://www.poder360.com.br/poder-energia/em-leilao-petrobras-e-qatar-energy-levam-7-blocos-na-margem-equatorial/
+· BTC Ethereum ETFs Lose $201.9 Million As Bitcoin Funds Return To Inflows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:7766fa8d6094b:0-ethereum-etfs-lose-201-9-million-as-bitcoin-funds-return-to-inflows/
+· PETR4 Allos surpreende e empata com Petrobras entre as ações de dividendos favoritas para outubro (Estadao) https://www.estadao.com.br/em-alta/einvestidor/onde-investir/allos-surpreende-e-empata-com-petrobras-entre-as-acoes-de-dividendos-favoritas-para-outubro/
+· USDBRL Dólar à vista fecha em alta de 0,83%, a R$5,0156 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-083-a-r50156-na-venda-2086060
+· PETR4 Leilão da ANP: Petrobras compra mais de dez blocos na Bacia de Campos; veja quem arrematou outros (Estadao) https://www.estadao.com.br/economia/negocios/leilao-da-anp-petrobras-compra-mais-de-dez-blocos-na-bacia-de-campos-veja-quem-arrematou-outros/
+· USDBRL Dólar sobe com alta dos Treasuries, e mercado acompanha ata do Fed e cenário eleitoral (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-alta-dos-treasuries-e-mercado-acompanha-ata-do-fed-e-cenario-eleitoral
+· GOOGL Alphabet (GOOGL) Stock Looks Reasonable After Its 157% Five Year Run (Yahoo Finance) https://au.finance.yahoo.com/news/alphabet-googl-stock-looks-reasonable-201032665.html
+· DI Juros futuros fecham em queda firme após IPCA abaixo do esperado (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-fecham-em-queda-firme-apos-ipca-abaixo-do-esperado/
+· BTC Bitcoin crash sends crypto market, stocks into bloodbath: Why? (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:2b956542c094b:0-bitcoin-crash-sends-crypto-market-stocks-into-bloodbath-why/
+· USDBRL Dólar fecha em alta, e Bolsa recua com cautela no exterior e cenário eleitoral (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-e-juros-futuros-sobem-em-correcao-apos-euforia-com-resultado-eleitoral.shtml
 · UST U.S. Stocks Fall as Treasury Yields Test Multidecade Highs (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-stocks-fall-as-treasury-yields-test-multidecade-highs-107d696f
 · CVX Hess Midstream Stock Plunges, but the Chevron Deal Has a Silver Lining (Barron's) https://www.barrons.com/articles/hess-midstream-stock-price-chevron-deal-2fccc6f8
 · USDBRL Dólar sobe e volta a R$ 5; Bolsa recua com pressão do exterior (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/07/dolar-sobe-e-volta-a-r-5-bolsa-recua-com-pressao-do-exterior.amp.htm
@@ -307,15 +318,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · ETH Ethereum Drops 5% After Tom Lee Says Bitmine Will Stop Purchases (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-drops-5-tom-lee-134400133.html
 · ITUB4 BBDC4 e ITUB4 batem recordes, enquanto BBAS3 corrige; até onde bancos podem ir? (InfoMoney) https://www.infomoney.com.br/mercados/bbdc4-e-itub4-batem-recordes-enquanto-bbas3-corrige-ate-onde-bancos-podem-ir/
 · NVDA Should You Buy Nvidia Stock in October? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-stock-october-112200803.html
-· VALE3 Resultado das eleições 2026 em Pinheirinho do Vale (RS): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-pinheirinho-do-vale-rs-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
-· UST Goodbye TINA? High Treasury yields give investors an alternative to stocks (CNBC) https://www.cnbc.com/make-it/2026/10/07/stocks-vs-bonds-treasury-yields.html
-· GOOGL Alphabet's Cloud Backlog Just Topped $500 Billion. Is Google Cloud About to Overtake Search as the Growth Engine? (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabets-cloud-backlog-just-topped-165900192.html
-· UST US bonds selloff resumes as 10-year, 30-yields hit new 24-year high (Reuters) https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/
-· UST Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale — Danske Reportedly Sees Risk Of 6% As Pressure Builds (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:4dc3989ef094b:0-treasury-yields-hit-24-year-highs-ahead-of-39b-10-year-note-sale-danske-reportedly-sees-risk-of-6-as-pressure-builds/
-· MU Micron (MU) Stock Still Looks Expensive Despite Its Huge Five Year Run (Yahoo Finance) https://ca.finance.yahoo.com/news/micron-mu-stock-still-looks-161114308.html
-· BTC The largest challenges to the bitcoin's price right now (Yahoo Finance) https://finance.yahoo.com/video/largest-challenges-bitcoins-price-now-160000772.html
-· GOOGL Alphabet: Betting Big On The Frontier AI Labs (NASDAQ:GOOGL) (Seeking Alpha) https://seekingalpha.com/article/4952537-alphabet-betting-big-on-the-frontier-ai-labs
-· NVDA SpaceX, IREN Both Buy Nvidia Chips: Their AI Margins Couldn't Be More Different (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:a2ac8d609094b:0-spacex-iren-both-buy-nvidia-chips-their-ai-margins-couldn-t-be-more-different/
-· AMZN Airia Now Available on AWS Marketplace With "Deployed on AWS" Designation (Yahoo Finance) https://au.finance.yahoo.com/news/airia-now-available-aws-marketplace-151700754.html
-· MRVL Watch CNBC's full interview with Marvell CEO Matt Murphy (CNBC) https://www.cnbc.com/video/2026/10/07/watch-cnbcs-full-interview-with-marvell-ceo-matt-murphy.html
-· (+69 manchetes; lista completa em eventos/noticias.json)
+· (+80 manchetes; lista completa em eventos/noticias.json)
