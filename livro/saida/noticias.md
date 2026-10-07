@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 12h21
+NOTÍCIAS E FATOS · 07/10 13h21
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 451 veículo fora da lista, 38 sem ativo, 3 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 433 veículo fora da lista, 41 sem ativo, 9 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,32 @@ Fonte: SEC EDGAR 2026-10-07
 id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (11)
+## NOTÍCIAS COM MATERIALIDADE (13)
+
+[ATENÇÃO] E05 · DI · Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica estável
+Estadao · 07/10 11h35 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/boletim-focus-projecao-para-a-inflacao-de-2026-volta-a-subir-e-supera-5/
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: DI
+Como falar: 'saiu no Estadao: Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica estável; confirmar o número no texto antes de repassar'
+Fonte: Estadao 07/10 11h35
+id: E05-DI-3cdf6151e1-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · JPM · JPMorgan Just Raised Its Dividend 10%. These 4 Stocks Also Can Afford to Pay Much Bigger Dividends
+Yahoo Finance · 07/10 10h45 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Quick Read - JPMorgan just raised its dividend 10% while still paying out only 28% of earnings, and Visa's even lower 23% payout fuels years of double-digit raises.
+  – - Cisco's AI infrastructure orders hit $9.3 billion, lifting earnings faster than its dividend, while T.
+  – Rowe Price yields 5% at just 10 times earnings.
+  – JPMorgan Chase (NYSE:JPM) just showed how that works: it lifted its quarterly dividend from $1.50 to $1.65, a 10% increase, and the new annual rate still matches only 28.3% of trailing earnings.
+  – Visa: A 23% Payout Ratio Leaves Years of Raises in the Tank Visa (NYSE:V) yields only about 0.72% on its $2.68 annualized dividend at a share price of $370.97.
+  – The payout uses about 22.8% of trailing diluted EPS of $11.75, and Visa's trailing operating margin is 66.1%.
+Link: https://finance.yahoo.com/markets/stocks/articles/jpmorgan-just-raised-dividend-10-134549145.html
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: JPM
+Como falar: 'saiu no Yahoo Finance: JPMorgan Just Raised Its Dividend 10%. These 4 Stocks Also Can Afford to Pay Much Bigger…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 10h45
+id: E05-JPM-d7dfe4ba3e-2026-10-07 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · RBC Capital raises Marvell stock price target on AI growth outlook
 Investing.com · 07/10 11h39 · fonte única · licença: manchete
@@ -55,7 +80,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: RBC Capital raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 07/10 11h39
-id: E05-MRVL-66107b13ee-2026-10-07 · status: pendente
+id: E05-MRVL-66107b13ee-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
 Yahoo Finance · 07/10 11h34 · fonte única · licença: resumo
@@ -71,7 +96,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: CVX
 Como falar: 'saiu no Yahoo Finance: Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 07/10 11h34
-id: E05-CVX-48d3c63753-2026-10-07 · status: pendente
+id: E05-CVX-48d3c63753-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
 Investing.com · 07/10 11h10 · fonte única · licença: manchete
@@ -190,8 +215,22 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (53)
+## OUTRAS NOTÍCIAS (só manchete) (67)
 
+· USDBRL Dólar sobe e Ibovespa cai sob influência do exterior, com eleição ainda no foco (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45T0ML:0/
+· BAC Bank Of America: Fed Policy Shift Creates NII Upside (Rating Upgrade) (NYSE:BAC) (Seeking Alpha) https://seekingalpha.com/article/4952541-bank-of-america-fed-policy-shift-creates-nii-upside-rating-upgrade
+· INTC Constellation Brands Down on Earnings; Intel Up on Terafab | Stock Movers (Yahoo Finance) https://finance.yahoo.com/video/constellation-brands-down-earnings-intel-153817762.html
+· NVDA NVII: Weekly Nvidia Income With A Plan Attached (BATS:NVII) (Seeking Alpha) https://seekingalpha.com/article/4952536-nvii-weekly-nvidia-income-with-a-plan-attached
+· UST Midday Need to Know: Treasury yields surge, Nestlé lands NBA deal & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4651071-midday-need-to-know-treasury-yields-surge-nestle-lands-nba-deal-more
+· USDBRL Euro cai para perto de mínimas em 17 meses, dólar sobe antes de ata do Fed (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45T0Z2:0/
+· DI “Lua de mel” com a inflação acabou e BC deve cortar Selic “cautelosamente”, diz XP (InfoMoney) https://www.infomoney.com.br/economia/lua-de-mel-com-a-inflacao-acabou-e-bc-deve-cortar-selic-cautelosamente-diz-xp/
+· VALE3 Vale fecha acordo com Ministério Público após omissão de laudo em mina de Mariana (g1) https://g1.globo.com/mg/minas-gerais/noticia/2026/10/07/vale-fecha-acordo-com-ministerio-publico-apos-omissao-de-laudo-em-mina-de-mariana.ghtml
+· MRVL Marvell's Bullish Financial Targets Boost Stock's Long-Term Buy Appeal, Oppenheimer Says (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-apos-bullish-financial-targets-151115279.html
+· MU Nvidia and Micron are about to dominate earnings season (Yahoo Finance) https://finance.yahoo.com/markets/article/nvidia-and-micron-are-about-to-dominate-earnings-season-150631365.html
+· BTC Bitcoin price drops to $82.7K October low as bond sell-off resumes on Iran nerves (TradingView (Reuters)) https://www.tradingview.com/news/cointelegraph:2621813db094b:0-bitcoin-price-drops-to-82-7k-october-low-as-bond-sell-off-resumes-on-iran-nerves/
+· CVX Hess Midstream shares fall 16% after Chevron agrees to transfer stake and assets (Yahoo Finance) https://finance.yahoo.com/energy/articles/hess-midstream-shares-fall-16-145700918.html
+· CVX Chevron's Portfolio Reshaping Strategy to Unlock Stronger Returns (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivgFBVV95cUxOVmpqRFBwQUdFak1ZaWpxYmNCOFdFYU0weHh3WGNNLU5PUlBPV1FHYXdvV2NvYzRxSXdsYkNydHF0RTlkV2dVbUhVODFUSk8zUHRpN0VkNDc4d2dWdWEzbkpxUVNLRjVzU0dWZ0RHMUpDeDVZb3J2V2RDR2ZlZzRLTnBqeFFpekpwQ245aWFhaHZIN1lSZ2VIbjFtVHVOQms0aER5V25aNVRtSWZDVElZQWQ0VE9fbmNHTlM2S3dR?oc=5
+· BAC Bank of America stock may move 3.4% on earnings next week (Investing.com) https://news.google.com/rss/articles/CBMitwFBVV95cUxOYWs4RmoxUFozUURQNVVsQ2xxdFhMb0hoSndoZEVsc1NGOHNDa3pMQ0UyV0pqeW5uUFgtRERNWnREeEJLZENMQjAyalZqeV8tY0hzMzRQd0xrZF9hbTBVc0JDelQxU1hzcGh6aExsaGs1c25SVFZTaVJmMjhOZEUwN3UxaVZDZkdGWnAtX29SczZ2NGNQR1FrOGJlakxwV2ZwTU9iVlpabmxncHpLRGpYc2JCQkkzN2M?oc=5
 · PETR4 Itaú BBA ainda vê potencial de alta de até 40% para Petrobras (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/07/itau-bba-ainda-ve-potencial-de-alta-de-ate-40-para-petrobras.ghtm
 · PETR4 Petrobras (PETR4) e Prio (PRIO3) estão entre vencedoras de leilão de 7 blocos do pré-sal (Money Times) https://www.moneytimes.com.br/petrobras-petr4-e-prio-prio3-estao-entre-vencedoras-de-leilao-de-7-blocos-do-pre-sal-lils/
 · BBAS3 Gestora de grandes fortunas aposta em Banco do Brasil e mais 3 ativos para lucrar até o 2º turno (Estadao) https://www.estadao.com.br/einvestidor/onde-investir/gestora-de-grandes-fortunas-aposta-em-banco-do-brasil-e-mais-3-ativos-para-lucrar-ate-o-2-turno/
@@ -238,10 +277,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · ITSA4 Momento B3: Axia Energia, IMC, Itaúsa, RD Saúde e os principais destaques desta quarta-feira (07) (ADVFN) https://br.advfn.com/jornal/2026/10/momento-b3-axia-energia-imc-itausa-rd-saude-e-os-principais-destaques-desta-quarta-feira-07
 · BRENT Bitcoin hoje: cotação cai com alta do dólar, dos Treasuries e do petróleo (Estadao) https://www.estadao.com.br/einvestidor/cripto/bitcoin-hoje-cai-abaixo-de-us-84-mil-antes-de-ata-do-fed-o-que-pesa-sobre-a-cripto/
 · UST Treasury Yields Resume Climb (TradingView (Reuters)) https://www.tradingview.com/news/te_news:590184:0-treasury-yields-resume-climb/
-· BTC Bitcoin cost bases point to resistance at $88,000 and support near $82,300 (CoinDesk) https://www.coindesk.com/markets/2026/10/07/bitcoin-s-recovery-stalls-just-short-of-rescuing-its-last-underwater-cohort
-· BRENT Commerzbank Says Treasuries Are Weaker as Brent Price Rises, US Equity Futures Stable (Yahoo Finance) https://ca.finance.yahoo.com/news/commerzbank-says-treasuries-weaker-brent-102847953.html
-· INTC Elon Musk and Intel CEO shore up chipmaker’s role in Terafab project — and here’s what the news is doing to the stock. (MarketWatch) https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR2Z1VXJ2cDgyZUxHZDJGN2lyWXlrWEx0a2tLNHlqUkUwZFRVTks0NzJHMGk1U3F6aldQWXZWMmRXOGhEYWNoa2hlY0d3TU1mR1d1ZEEzcVQwMjZXUjhpdDRWUlF2bTNzVWdWSVVZSG5zcS1BSmZkRzc0NXRRZFBfenhHYjVzZzktUUI4QU9qQlhWTk43MzZaLU5UY0F4YktUY0ExX0xiLURVdW9NLS1wQUhUMWh6NjNtc2ljakZHekJmTFNxb1JWUDVvTEpEZFExOEVhM1V4RWY4SGdGeW9ONVhPaXpucXpOSmwyQw?oc=5
-· USDBRL Mercado avalia ata do Fomc e falas de Durigan em evento hoje; Ibovespa em dólar recua nesta quarta-feira (7) (Money Times) https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeUV4RzBoX3VfMU9GZlN1RkxNa1dlTDFpT2k5eUVCMF91dWtrUGdLUUJnb1czdERuMlZQTENSbEtwN1VpdHRwazlFbU1XZlVaNWQ2Vk12V0dqTkMxTmdKR0k1YjBjazJoakIzY0hhQzM2MXlfRDZNall0b1FOMTJXZVRhcFVSQ2NFZXVuUm9GV3pUaEVTclZiRWFZU2lSZ0NuNDJ0c0E3dEZhakhSS3pZMWcxUlJsd2JGZWVMOS1IMDl1cHN4ZUVmMk9oMXNqYUpkb1oxYXhPbWUtQQ?oc=5
-· UST How US mortgage bonds can trigger a ‘vicious loop’ for Treasury yields (Financial Times) https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZHQ1UXdiRTJwQ3JxV2NwQTV0UC1CWkRIZm9pQTdSYV9kZ2JSSnQ2cmRwZG9WbjVQYV93NVk5Ynl2MzVWYTNLbjdrTjhHUVpXZ0tWVEZrSS1FV3JOY1VnRWNHRUxOS2Jpemp2cUdIRHQ?oc=5
-· BRENT ANP espera leiloar mais de 320 blocos de petróleo nesta quarta (Agencia Brasil) https://news.google.com/rss/articles/CBMivAFBVV95cUxPcDU1REdCaE01Z0tVa1FvVVBvTEJzVVgyaGJHQi02SS1qSFFqOGNGNjVhLVBPbXJWMm1CN2VCYkc0dWE0ZjFiekJDYkoxNzAxRnFqakNpSmxiaU9JTk5LM0d6eXFVVWpWOHpndEtSdy1NMUpETlZkZXpqb3MzNFduNEpzVHZMcWRfQ1d2dHRtc0JaREN3RzRDd1FvaUMzV1RXNUJqcDdMS3k5ZUFqVk93UEExSFhVTnU2Q2VUTQ?oc=5
-· COHR Coherent Corp. (COHR) stock price, news, quote and history (Yahoo Finance) https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RdEl0N0JQVkpCUWkyc1lHYzNJbW44eFduTDR0ZXZVT3FhT2ZGSl9YcW1UdDFhSlBraDloQU4xeVhYQWs0QXFZaTdRRWF0THdROGc?oc=5
+· (+7 manchetes; lista completa em eventos/noticias.json)
