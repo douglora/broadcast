@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-06",
- "coletado_em": "2026-10-07T11:53:06Z",
+ "coletado_em": "2026-10-07T17:58:12Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-07T08:43:09.333",
+   "atualizado_em": "2026-10-07T10:53:11.597",
    "sla": "8:00:00",
    "linhas": 429,
    "truncada": false
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-06T19:40:34.023",
+   "atualizado_em": "2026-10-07T11:02:05.283",
    "sla": "18:00:00",
-   "linhas": 25916,
+   "linhas": 25938,
    "truncada": false
   },
   "BTBTrade": {
@@ -407,7 +407,7 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1575,
+  "papeis_no_dia": 1559,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,
