@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 14h21
+NOTÍCIAS E FATOS · 07/10 14h49
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 441 veículo fora da lista, 42 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 440 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,16 @@ Fonte: SEC EDGAR 2026-10-07
 id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (13)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
+Investing.com · 07/10 11h06 · fonte única · licença: manchete
+Link: https://www.investing.com/news/stock-market-news/hess-midstream-stock-drops-on-chevron-restructuring-and-lower-2027-outlook-4936939
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Investing.com: Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 07/10 11h06
+id: E05-CVX-99ba542c8a-2026-10-07 · status: pendente
 
 [ATENÇÃO] E05 · DI · Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica estável
 Estadao · 07/10 11h35 · fonte única · licença: manchete
@@ -215,8 +224,20 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (79)
+## OUTRAS NOTÍCIAS (só manchete) (91)
 
+· MRVL Marvell Stock Gets Wave of Analyst Upgrades After Investor Day (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e4d09f9c5094b:0-marvell-stock-gets-wave-of-analyst-upgrades-after-investor-day/
+· PLTR Ives Sees a Clearer AI Bet in Palantir (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8d8186b78094b:0-ives-sees-a-clearer-ai-bet-in-palantir/
+· UST US. TREASURY 10-YEAR NOTE AUCTION SEES 97% OF BIDS TAKEN BY NON-DEALERS, A STRONG OUTCOME (TradingView (Reuters)) https://www.tradingview.com/news/macenews:a76ca6144094b:0-us-treasury-10-year-note-auction-sees-97-of-bids-taken-by-non-dealers-a-strong-outcome/
+· UST US TREASURY 10-YEAR NOTE AUCTION HIGH YIELD 5.300%; BID-COVER RATIO STRONG AT 2.77 (TradingView (Reuters)) https://www.tradingview.com/news/macenews:5bc7cd650094b:0-us-treasury-10-year-note-auction-high-yield-5-300-bid-cover-ratio-strong-at-2-77/
+· MU This AI Stock Exploded 600% in a Year, Beating Nvidia and Micron (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ai-stock-exploded-600-beating-155610884.html
+· COHR Coherent Corp. (COHR) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/COHR/
+· JPM JPMorgan Tops AI Rankings Again: Can Its Spending Boost Returns? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:18b891fe1094b:0-jpmorgan-tops-ai-rankings-again-can-its-spending-boost-returns/
+· GOOGL Google, Unity Launch Platform to Create Video Games From Prompts (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-07/google-unity-launch-platform-to-create-video-games-from-prompts
+· ETH Ethereum Drops 5% After Tom Lee Says Bitmine Will Stop Purchases (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-drops-5-tom-lee-134400133.html
+· ITUB4 BBDC4 e ITUB4 batem recordes, enquanto BBAS3 corrige; até onde bancos podem ir? (InfoMoney) https://www.infomoney.com.br/mercados/bbdc4-e-itub4-batem-recordes-enquanto-bbas3-corrige-ate-onde-bancos-podem-ir/
+· NVDA Should You Buy Nvidia Stock in October? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-stock-october-112200803.html
+· VALE3 Resultado das eleições 2026 em Pinheirinho do Vale (RS): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-pinheirinho-do-vale-rs-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
 · UST Goodbye TINA? High Treasury yields give investors an alternative to stocks (CNBC) https://www.cnbc.com/make-it/2026/10/07/stocks-vs-bonds-treasury-yields.html
 · GOOGL Alphabet's Cloud Backlog Just Topped $500 Billion. Is Google Cloud About to Overtake Search as the Growth Engine? (Yahoo Finance) https://finance.yahoo.com/technology/articles/alphabets-cloud-backlog-just-topped-165900192.html
 · UST US bonds selloff resumes as 10-year, 30-yields hit new 24-year high (Reuters) https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/
@@ -265,16 +286,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · MRVL Marvell Technology gets praise from Wall Street after investor day (MRVL:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4650923-marvell-technology-gets-praise-from-wall-street-after-investor-day
 · AVGO Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcoms-ai-revenue-growing-221-115300078.html
 · MU DA Davidson lifts Micron price target to $3000 on AI memory demand (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixwFBVV95cUxPYlJBcjZ3QTNGRnNGc08tNEpmN0VvNEN3UjkwbmdDS0ZNTF9TazFDdzlRazc3ZzV2eVJieEJqWnZMZlNWbEo1MW9yZlhpdS1TcjQxXzNwVzBJSW4zbXBPT19CbTRCdXd0VzgxVm1NU1NZNkFRdTFqWkEweW9PRGF3cEt0STQtTGJNOHZPbUF2UThfNHM4V3I5UzVXOS1kMzA5UXFVMVJiWHplNjlKWkhZYXJXT3B6UUQ0NkUtSWVLRTYySktWRXRR?oc=5
-· BRENT Commerzbank Says Treasuries Are Weaker as Brent Price Rises, US Equity Futures Stable (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmlwdXh6cmQ3eFNUemtuN2duUzQ2eXNzVjhtTHlVbjA3N3hNOVMwdG5sYlhfT2NJbWJRNk1xRzZtRTJ3Mmw4ODBOS1h5OGRxNUNLdkNqanEtaFQ4bWJwaDVqRHlvQV81YVp0ZzZpalg5eG4xRFZXUW8zcFV0RERtZ25iS1NXWXlMMm1uOG9GSTk4TWJZMndvMXVCZzB3cTRXczZoVFgwREE?oc=5
-· VALE3 Resultado das eleições 2026 em Canudos do Vale (RS): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://news.google.com/rss/articles/CBMitwJBVV95cUxQSDladF9hbjNxVkZQa1k4aVctaDBLVFMtek1WWmE0Sm5IakhRbUVrV0lZU3NLa2l1X2kwR24zZTRrenFGeUZxdFAzNVJ4VjN1WnJqbk9BS2RTUlZvQ0UwZkxiN0lMYW10OGFmZlJub2ZmZ0UtQjNWRTRDMkJTTWdqS184eUtvYm05OGdzN2F3OFZoT1N1WnBUZm84OW45M2x3dFZFY1d6QWxYUVEtWmFvUGpBVllsb0F4bzJpWmdmUmZEX3VTQlRVVUcwTEtCQWlvb0l0NXJFX2xsNkRXb3J2OWNocWhfaF9TRmZlRnNwTFhPX0EzYUhTRElsVEd2cmRvSFk2cm44UW50WWJ5ZktWWDNpWGRscVhDbDNJRk9PeVNYXzNxQnFjODBNNENSZkJJQm1sQVFFZ9IBtwJBVV95cUxQSDladF9hbjNxVkZQa1k4aVctaDBLVFMtek1WWmE0Sm5IakhRbUVrV0lZU3NLa2l1X2kwR24zZTRrenFGeUZxdFAzNVJ4VjN1WnJqbk9BS2RTUlZvQ0UwZkxiN0lMYW10OGFmZlJub2ZmZ0UtQjNWRTRDMkJTTWdqS184eUtvYm05OGdzN2F3OFZoT1N1WnBUZm84OW45M2x3dFZFY1d6QWxYUVEtWmFvUGpBVllsb0F4bzJpWmdmUmZEX3VTQlRVVUcwTEtCQWlvb0l0NXJFX2xsNkRXb3J2OWNocWhfaF9TRmZlRnNwTFhPX0EzYUhTRElsVEd2cmRvSFk2cm44UW50WWJ5ZktWWDNpWGRscVhDbDNJRk9PeVNYXzNxQnFjODBNNENSZkJJQm1sQVFFZw?oc=5
-· USDBRL Dólar abre em alta após forte rali do 1º turno das eleições (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/
-· MRVL Marvell Stock Projects $80 Billion In Revenue, But I'm Not Buying (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952485-marvell-projects-80-billion-in-revenue-but-im-not-buying?source=google_editors_picks
-· TESOURO Taxas longas do Tesouro Direto voltam a subir depois de dois dias de queda (InfoMoney) https://www.infomoney.com.br/onde-investir/taxas-longas-do-tesouro-direto-voltam-a-subir-depois-de-dois-dias-de-queda/
-· UST Yields climb across the curve ahead of the anticipated 10-year auction (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:b68c9c018094b:0-yields-climb-across-the-curve-ahead-of-the-anticipated-10-year-auction/
-· MU Micron’s Latest Earnings Reveal Why the AI Memory Supercycle Could Run for Years (TradingView (Reuters)) https://www.tradingview.com/news/investorplace:186598009094b:0-micron-s-latest-earnings-reveal-why-the-ai-memory-supercycle-could-run-for-years/
-· INTC Intel investors get some reassurance from Elon Musk over a major chip endeavor (MarketWatch) https://www.marketwatch.com/story/elon-musk-and-intel-ceo-shore-up-chipmakers-role-in-terafab-project-and-heres-what-the-news-is-doing-to-the-stock-315d0974
-· AMZN Cloud 2027: Can Oracle’s Fastest-Growing Engine Bridge the AWS Gap? (Yahoo Finance) https://finance.yahoo.com/technology/articles/cloud-2027-oracle-fastest-growing-124540755.html
-· NVDA NVIDIA or AMD: If I Could Only Own 1 for the Next Decade, This Is It (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-could-only-own-124536893.html
-· BRENT Dólar abre a R$ 5,01, com ata de Fed, petróleo e eleições no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/07/dolar-bolsa-abre-hoje-7-de-outubro-de-2026.ghtm
-· TSM TSMC earnings could cause another round of consensus upgrades (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L8N45T10G:0-tsmc-earnings-could-cause-another-round-of-consensus-upgrades/
-· (+19 manchetes; lista completa em eventos/noticias.json)
+· (+31 manchetes; lista completa em eventos/noticias.json)
