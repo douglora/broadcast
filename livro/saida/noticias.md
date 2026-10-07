@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 10h29
+NOTÍCIAS E FATOS · 07/10 11h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 439 veículo fora da lista, 37 sem ativo, 21 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 447 veículo fora da lista, 38 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,57 @@ Fonte: SEC EDGAR 2026-10-07
 id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (5)
+## NOTÍCIAS COM MATERIALIDADE (9)
+
+[ATENÇÃO] E05 · CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
+Investing.com · 07/10 11h10 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/hess-midstream-stock-drops-on-chevron-restructuring-and-lower-2027-outlook-4870060
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: CVX
+Como falar: 'saiu no Investing.com: Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 07/10 11h10
+id: E05-CVX-d75f31b50c-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Cantor Fitzgerald raises Marvell stock price target on revenue outlook
+Investing.com · 07/10 09h31 · fonte única · licença: manchete
+Link: https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-raises-marvell-stock-price-target-on-revenue-outlook-93CH-4936416
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Investing.com: Cantor Fitzgerald raises Marvell stock price target on revenue outlook; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 07/10 09h31
+id: E05-MRVL-960895b882-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · UST · 10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale
+CNBC · 07/10 05h31 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Treasury yields climbed Wednesday, trading back around multiyear highs, as traders braced for the sale of 10-year notes at a time when rising yields have rattled investors around the world.
+  – The benchmark 10-year Treasury was up nearly 8 basis points at 5.35% — its highest level since 2002.
+  – The 30-year Treasury bond rose 8.3 basis points to 5.724%, also reaching a 24-year high.
+  – The 2-year Treasury note yield was up 2.7 basis points to 4.818%.
+  – One basis point equals 0.01%, and yields and prices move in opposite directions.
+  – The Treasury plans to sell $39 billion of 10-year notes in an auction on Wednesday that will test whether yields are now attractive enough to draw buyers or investors will demand an even bigger premium, amid concerns ab…
+Link: https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html
+Por que importa: oferta de acoes ou divida altera a base acionaria ou a alavancagem
+Ativos: UST
+Como falar: 'saiu no CNBC: 10-year Treasury note yield hits highest level since 2002 as traders brace for key bond s…; confirmar o número no texto antes de repassar'
+Fonte: CNBC 07/10 05h31
+id: E05-UST-881242d773-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Bitcoin Price Lags as S&P 500 and Nasdaq Hit Record High
+Yahoo Finance · 06/10 18h53 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Tuesday, September 6, saw US stock markets set new records as the S&P 500 and Nasdaq 100 hit an all-time high.
+  – Meanwhile, Bitcoin's price lagged, dropping back to the $85,000 zone.
+  – Why are Stocks Hitting Records With Yields Above 5%?
+  – AMD climbed 2.8% after CEO Lisa Su signaled strong chip demand, while Amazon added 1.9%.
+  – The 10-year yield, which sets borrowing costs across the economy, eased to about 5.26% after touching 5.33% on Monday.
+  – Brent crude slipped under $100 a barrel as some tankers passed through the Strait of Hormuz, easing inflation fears.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-lags-p-500-215305778.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Price Lags as S&P 500 and Nasdaq Hit Record High; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 06/10 18h53
+id: E05-BTC-29b2ac72a4-2026-10-06 · status: linha
 
 [ATENÇÃO] E05 · MRVL · Susquehanna raises Marvell stock price target on data center growth
 Investing.com · 07/10 09h31 · fonte única · licença: manchete
@@ -55,7 +105,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: Susquehanna raises Marvell stock price target on data center growth; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 07/10 09h31
-id: E05-MRVL-01839c844c-2026-10-07 · status: pendente
+id: E05-MRVL-01839c844c-2026-10-07 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell just gave a bullish outlook. It led TD Cowen to upgrade the stock
 CNBC · 07/10 07h54 · fonte única · licença: resumo
@@ -115,8 +165,20 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (29)
+## OUTRAS NOTÍCIAS (só manchete) (41)
 
+· BAC Bank of America stock may move 3.4% on earnings next week (Investing.com) https://www.investing.com/news/stock-market-news/bank-of-america-stock-may-move-34-on-earnings-next-week-93CH-4936957
+· COHR Why is Coherent stock sliding today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-sliding-today-93CH-4936952
+· USDBRL Ibovespa opera no zero a zero após rali eleitoral; dólar sobe e toca os R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-opera-no-zero-a-zero-apos-rali-eleitoral-dolar-sobe-e-toca-os-r-5/
+· MRVL Marvell CEO: Implied data center revenue could top $30 billion by 2028 (CNBC) https://www.cnbc.com/video/2026/10/07/marvell-ceo-implied-data-center-revenue-could-top-30-billion-by-2028.html
+· TESOURO Tesouro Direto hoje: IPCA+ 2050 sobe a 6,62% com piora externa (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/depois-das-quedas-da-vespera-taxas-longas-do-tesouro-voltam-a-subir-ipca-2050-vai-a-662/
+· TSLA UBS Flags a Bullish Setup in Tesla Stock and Lifts Its Price Target (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ubs-flags-bullish-setup-tesla-133546907.html
+· ETH BitMine Is About to Stop Buying Ethereum: What Happens to ETH Price Then? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-stop-buying-ethereum-happens-130704717.html
+· MRVL Marvell Technology gets praise from Wall Street after investor day (MRVL:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4650923-marvell-technology-gets-praise-from-wall-street-after-investor-day
+· AVGO Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcoms-ai-revenue-growing-221-115300078.html
+· MU DA Davidson lifts Micron price target to $3000 on AI memory demand (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixwFBVV95cUxPYlJBcjZ3QTNGRnNGc08tNEpmN0VvNEN3UjkwbmdDS0ZNTF9TazFDdzlRazc3ZzV2eVJieEJqWnZMZlNWbEo1MW9yZlhpdS1TcjQxXzNwVzBJSW4zbXBPT19CbTRCdXd0VzgxVm1NU1NZNkFRdTFqWkEweW9PRGF3cEt0STQtTGJNOHZPbUF2UThfNHM4V3I5UzVXOS1kMzA5UXFVMVJiWHplNjlKWkhZYXJXT3B6UUQ0NkUtSWVLRTYySktWRXRR?oc=5
+· BRENT Commerzbank Says Treasuries Are Weaker as Brent Price Rises, US Equity Futures Stable (Yahoo Finance) https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmlwdXh6cmQ3eFNUemtuN2duUzQ2eXNzVjhtTHlVbjA3N3hNOVMwdG5sYlhfT2NJbWJRNk1xRzZtRTJ3Mmw4ODBOS1h5OGRxNUNLdkNqanEtaFQ4bWJwaDVqRHlvQV81YVp0ZzZpalg5eG4xRFZXUW8zcFV0RERtZ25iS1NXWXlMMm1uOG9GSTk4TWJZMndvMXVCZzB3cTRXczZoVFgwREE?oc=5
+· VALE3 Resultado das eleições 2026 em Canudos do Vale (RS): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://news.google.com/rss/articles/CBMitwJBVV95cUxQSDladF9hbjNxVkZQa1k4aVctaDBLVFMtek1WWmE0Sm5IakhRbUVrV0lZU3NLa2l1X2kwR24zZTRrenFGeUZxdFAzNVJ4VjN1WnJqbk9BS2RTUlZvQ0UwZkxiN0lMYW10OGFmZlJub2ZmZ0UtQjNWRTRDMkJTTWdqS184eUtvYm05OGdzN2F3OFZoT1N1WnBUZm84OW45M2x3dFZFY1d6QWxYUVEtWmFvUGpBVllsb0F4bzJpWmdmUmZEX3VTQlRVVUcwTEtCQWlvb0l0NXJFX2xsNkRXb3J2OWNocWhfaF9TRmZlRnNwTFhPX0EzYUhTRElsVEd2cmRvSFk2cm44UW50WWJ5ZktWWDNpWGRscVhDbDNJRk9PeVNYXzNxQnFjODBNNENSZkJJQm1sQVFFZ9IBtwJBVV95cUxQSDladF9hbjNxVkZQa1k4aVctaDBLVFMtek1WWmE0Sm5IakhRbUVrV0lZU3NLa2l1X2kwR24zZTRrenFGeUZxdFAzNVJ4VjN1WnJqbk9BS2RTUlZvQ0UwZkxiN0lMYW10OGFmZlJub2ZmZ0UtQjNWRTRDMkJTTWdqS184eUtvYm05OGdzN2F3OFZoT1N1WnBUZm84OW45M2x3dFZFY1d6QWxYUVEtWmFvUGpBVllsb0F4bzJpWmdmUmZEX3VTQlRVVUcwTEtCQWlvb0l0NXJFX2xsNkRXb3J2OWNocWhfaF9TRmZlRnNwTFhPX0EzYUhTRElsVEd2cmRvSFk2cm44UW50WWJ5ZktWWDNpWGRscVhDbDNJRk9PeVNYXzNxQnFjODBNNENSZkJJQm1sQVFFZw?oc=5
 · USDBRL Dólar abre em alta após forte rali do 1º turno das eleições (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/
 · MRVL Marvell Stock Projects $80 Billion In Revenue, But I'm Not Buying (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952485-marvell-projects-80-billion-in-revenue-but-im-not-buying?source=google_editors_picks
 · TESOURO Taxas longas do Tesouro Direto voltam a subir depois de dois dias de queda (InfoMoney) https://www.infomoney.com.br/onde-investir/taxas-longas-do-tesouro-direto-voltam-a-subir-depois-de-dois-dias-de-queda/
