@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 14h49
+NOTÍCIAS E FATOS · 07/10 15h21
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 440 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 437 veículo fora da lista, 40 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,39 @@ Fonte: SEC EDGAR 2026-10-07
 id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (16)
+
+[ATENÇÃO] E05 · VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro
+Money Times · 07/10 14h55 · fonte única · licença: integral
+Do texto:
+  – Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro A Allos (ALOS3) ultrapassou a Vale (VALE3) em número de recomendações nas carteiras de dividendos de outubro.
+  – A Petrobras (PETR4) mantém a liderança, com dez recomendações.
+  – No segundo trimestre de 2026, a receita líquida da Allos cresceu 11,6% na comparação anual.
+  – O Ebitda ajustado avançou 10,5%, para R$ 525 milhões, enquanto as despesas gerais e administrativas recuaram 5,6%.
+  – A ocupação ficou em 96,2%, a inadimplência líquida, em 1,4%, e as vendas cresceram 4,6%, desconsiderando o Shopping Tijuca.
+  – Com dívida líquida equivalente a 1,7 vez o Ebitda e pagamentos mensais de proventos, a companhia oferece, na leitura da corretora, uma combinação favorável para quem busca renda.
+Link: https://www.moneytimes.com.br/dividendos-esta-acao-superou-a-vale-vale3-entre-as-favoritas-dos-analistas-para-outubro/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: VALE3
+Como falar: 'saiu no Money Times: Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro; confirmar o número no texto antes de repassar'
+Fonte: Money Times 07/10 14h55
+id: E05-VALE3-f9b2885db0-2026-10-07 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · BAC · Marvell price target raised by Bank of America on $80 billion sales outlook
+Yahoo Finance · 07/10 14h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Marvell Technology Inc (NASDAQ:MRVL), the networking and custom chip maker, had its price target raised to $400 from $365 by Bank of America (BofA), which kept its 'buy' rating after the analyst day.
+  – Marvell now targets 2030 sales of $70 billion to $90 billion, with a midpoint of about $80 billion, implying a compound annual growth rate (CAGR) above 60% from 2026, versus consensus of $43 billion.
+  – The bank estimates that growth could lift pro forma earnings per share, which excludes certain one-off items, to more than $32 by 2030, against a consensus of $18.
+  – Marvell also raised its calendar 2027 revenue target by 10% to $20 billion.
+  – BofA lifted its pro forma earnings forecasts for financial years 2028 and 2029 by 15% and 26%, to $7.59 and $13.92 per share.
+  – The new price target rests on a multiple of 36 times earnings, up from about 33 times and within Marvell's historical range of 14 to 53 times.
+Link: https://ca.finance.yahoo.com/news/marvell-price-target-raised-bank-171000333.html
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BAC · MRVL
+Como falar: 'saiu no Yahoo Finance: Marvell price target raised by Bank of America on $80 billion sales outlook; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 14h10
+id: E05-BAC-217be9ba2d-2026-10-07 · status: pendente
 
 [ATENÇÃO] E05 · CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
 Investing.com · 07/10 11h06 · fonte única · licença: manchete
@@ -224,8 +256,22 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (91)
+## OUTRAS NOTÍCIAS (só manchete) (105)
 
+· CVX Hess Midstream Partners Goes Public-Only, Buys Chevron’s DJ Basin Assets (Yahoo Finance) https://finance.yahoo.com/energy/articles/hess-midstream-partners-goes-public-180223396.html
+· USDBRL Ouro fecha em queda pressionado por dólar forte e avanço de juros dos Treasuries (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/07/ouro-fecha-em-queda-pressionado-por-dolar-forte-e-avanco-de-juros-dos-treasuries.htm
+· UST Update: US Equity Indexes Fall, Treasury Yields Mixed Ahead of Fed Minutes (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-175755567.html
+· MRVL ARM vs. Marvell Technology: What Revenue Trends for These Artificial Intelligence Companies Tell Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/arm-vs-marvell-technology-revenue-175521547.html
+· MU Another Micron triple? Where we agree with this wildly bullish call and where we don't (CNBC) https://www.cnbc.com/investingclub/2026/10/07/another-micron-triple-where-we-agree-with-this-wildly-bullish-call-and-where-we-dont.html
+· VALE3 Ação da Vale tem 3ª baixa seguida e caminha para fechar o pregão no menor nível desde dezembro (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-vale-tem-3-baixa-seguida-e-caminha-para-fechar-o-pregao-no-menor-nivel-desde-dezembro/
+· BTC Can You Hold Bitcoin in a Roth IRA? Understanding the Options, Costs, and Rules (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/hold-bitcoin-roth-ira-understanding-174723422.html
+· UST 10-year auction draws strong demand, sending yields lower (Seeking Alpha) https://seekingalpha.com/news/4651098-10-year-auction-draws-strong-demand-sending-yields-lower
+· DI Selic 2026: 70% dos bancos veem mais cortes; metade aposta em juros de 13,50% (Suno Noticias) https://www.suno.com.br/noticias/selic-2026-corte-bancos-pesquisa-febraban-mt/amp/
+· MU Apple Needs Chips, and “Micron Sets the Price.” Now Micron Is Making More Money than Apple (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/apple-needs-chips-micron-sets-164437033.html
+· VALE3 Vale SA (VALE3) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/vale-on-VALE3/previsoes
+· LITE Record Earnings Drive Lumentum Shares to New Highs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/record-earnings-drive-lumentum-shares-113814074.html
+· BTC Bitcoin Price Set for a Boost: Arthur Hayes Bets on an AI Boom Bust (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxORWlkUUs5cXV3MEtUZDNDd1NOZVpTamVPX1E3THJZNnFNbExqbnNoQ3dSMnlHanVURlZVTGdPTEZjTGs4SXg0ZmFTVUs3WG9ZcTJndEttSnFzSGlHREUzb2pKaG9nUzdzYXZjN3QwM180TmpDTHlLX0lETlZrWi1WTWNVckFYS1Njb2oxYkY3M0x6WGNRMkVUaFJPaw?oc=5
+· UST 10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears (CNBC) https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5
 · MRVL Marvell Stock Gets Wave of Analyst Upgrades After Investor Day (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e4d09f9c5094b:0-marvell-stock-gets-wave-of-analyst-upgrades-after-investor-day/
 · PLTR Ives Sees a Clearer AI Bet in Palantir (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8d8186b78094b:0-ives-sees-a-clearer-ai-bet-in-palantir/
 · UST US. TREASURY 10-YEAR NOTE AUCTION SEES 97% OF BIDS TAKEN BY NON-DEALERS, A STRONG OUTCOME (TradingView (Reuters)) https://www.tradingview.com/news/macenews:a76ca6144094b:0-us-treasury-10-year-note-auction-sees-97-of-bids-taken-by-non-dealers-a-strong-outcome/
@@ -272,18 +318,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · GOOGL Nexentis Deploys MitoCareX Computational Drug Discovery Infrastructure on Google Cloud (Yahoo Finance) https://finance.yahoo.com/healthcare/articles/nexentis-deploys-mitocarex-computational-drug-140351203.html
 · AMD AMD Is Up More Than 100X in 10 Years. Can It Repeat That Run? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-more-100x-10-years-140023650.html
 · USDBRL O que os bancos estrangeiros esperam da Bolsa e do dólar após o 1º turno? (InfoMoney) https://www.infomoney.com.br/mercados/o-que-os-bancos-estrangeiros-esperam-da-bolsa-e-do-dolar-apos-1o-turno/
-· UST 10-year Treasury yield hits highest level since 2002 as stocks retreat: AlphaCheck (Yahoo Finance) https://finance.yahoo.com/markets/article/10-year-treasury-yield-hits-highest-level-since-2002-as-stocks-retreat-alphacheck-134621987.html
-· AMZN Is Amazon Stock Poised to Rally on AI Services Revenue Expansion? (Yahoo Finance) https://uk.finance.yahoo.com/news/amazon-stock-poised-rally-ai-134000206.html
-· BTC Bitcoin Price Tests $83,500 as Open Interest Rises: Is This Dip Worth Buying? (TradingView (Reuters)) https://news.google.com/rss/articles/CBMizwFBVV95cUxQRFluOU1IYllnVXRpMU8zdGZfR2h1djJ5SjQtMmlBRDkzVl9hWU91dDltY3Z0WjRYNHRIZ1NISUh2WXNYaUY4d1pQWHE0bjhsSUNLX0JqWmdXdXhPU25CMW45WmllVjdoWmV2X2Z1TUFud0pUVWJhYkY5LXVuNU9nb1FFTVMwOEZiR2NWOGRBci1xWDlsV3JubE5zZFlkUnl4aUFMaTNjOFlqVW1URTl6SkF6UE5DV0FEanphYUR5NW4wVzdmLXpFcUM2NlA4UW8?oc=5
-· MRVL Marvell Stock Falls. Why It Still Looks Like a Great Bet After Stellar Earnings Target. (Barron's) https://news.google.com/rss/articles/CBMigwFBVV95cUxQbnRKV0RuWk9Kbjh5Uy1hQmlDOGZVZmlZSHk4eFZKdHd6U0lneUhEN3lob18zYkk3Z0ZkYkI3ZF9nWEU0c2dLM1B6bTlDZXRULTlsZ2l2S2h3STlCNGQ0VlFDdEdUQzFpendWZWZ1UTNaYm53dWxQOFJGRXFZekd1WmlsQQ?oc=5
-· BAC Bank of America stock may move 3.4% on earnings next week (Investing.com) https://www.investing.com/news/stock-market-news/bank-of-america-stock-may-move-34-on-earnings-next-week-93CH-4936957
-· COHR Why is Coherent stock sliding today? (Investing.com) https://www.investing.com/news/stock-market-news/why-is-coherent-stock-sliding-today-93CH-4936952
-· USDBRL Ibovespa opera no zero a zero após rali eleitoral; dólar sobe e toca os R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-opera-no-zero-a-zero-apos-rali-eleitoral-dolar-sobe-e-toca-os-r-5/
-· MRVL Marvell CEO: Implied data center revenue could top $30 billion by 2028 (CNBC) https://www.cnbc.com/video/2026/10/07/marvell-ceo-implied-data-center-revenue-could-top-30-billion-by-2028.html
-· TESOURO Tesouro Direto hoje: IPCA+ 2050 sobe a 6,62% com piora externa (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/depois-das-quedas-da-vespera-taxas-longas-do-tesouro-voltam-a-subir-ipca-2050-vai-a-662/
-· TSLA UBS Flags a Bullish Setup in Tesla Stock and Lifts Its Price Target (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ubs-flags-bullish-setup-tesla-133546907.html
-· ETH BitMine Is About to Stop Buying Ethereum: What Happens to ETH Price Then? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitmine-stop-buying-ethereum-happens-130704717.html
-· MRVL Marvell Technology gets praise from Wall Street after investor day (MRVL:NASDAQ) (Seeking Alpha) https://seekingalpha.com/news/4650923-marvell-technology-gets-praise-from-wall-street-after-investor-day
-· AVGO Broadcom's AI Revenue Is Growing at 221%. Here's Why Custom Chips Could Be a Bigger Business Than GPUs. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/broadcoms-ai-revenue-growing-221-115300078.html
-· MU DA Davidson lifts Micron price target to $3000 on AI memory demand (TradingView (Reuters)) https://news.google.com/rss/articles/CBMixwFBVV95cUxPYlJBcjZ3QTNGRnNGc08tNEpmN0VvNEN3UjkwbmdDS0ZNTF9TazFDdzlRazc3ZzV2eVJieEJqWnZMZlNWbEo1MW9yZlhpdS1TcjQxXzNwVzBJSW4zbXBPT19CbTRCdXd0VzgxVm1NU1NZNkFRdTFqWkEweW9PRGF3cEt0STQtTGJNOHZPbUF2UThfNHM4V3I5UzVXOS1kMzA5UXFVMVJiWHplNjlKWkhZYXJXT3B6UUQ0NkUtSWVLRTYySktWRXRR?oc=5
-· (+31 manchetes; lista completa em eventos/noticias.json)
+· (+45 manchetes; lista completa em eventos/noticias.json)
