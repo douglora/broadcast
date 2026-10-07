@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 06/10 19h57
+NOTÍCIAS E FATOS · 06/10 21h35
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 431 veículo fora da lista, 36 sem ativo, 7 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 437 veículo fora da lista, 35 sem ativo, 0 teto) · cvm ok 0 novos de 0 (0 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -48,7 +48,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: Evercore ISI raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 06/10 17h59
-id: E05-MRVL-b8fd065ffb-2026-10-06 · status: pendente
+id: E05-MRVL-b8fd065ffb-2026-10-06 · status: expirado
 
 [ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
 Investing.com · 06/10 17h36 · fonte única · licença: manchete
@@ -57,7 +57,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MRVL
 Como falar: 'saiu no Investing.com: Marvell stock gets $295 target reiterated by Raymond James on AI outlook; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 06/10 17h36
-id: E05-MRVL-ff24d4c234-2026-10-06 · status: pendente
+id: E05-MRVL-ff24d4c234-2026-10-06 · status: expirado
 
 [ATENÇÃO] E05 · MRVL · Marvell Stock Soars After Raising 2028 Guidance
 Yahoo Finance · 06/10 16h56 · fonte única · licença: resumo
@@ -355,8 +355,21 @@ Fonte: Yahoo Finance 05/10 16h25
 id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 
 
-## OUTRAS NOTÍCIAS (só manchete) (158)
+## OUTRAS NOTÍCIAS (só manchete) (171)
 
+· USDBRL Dólar comercial volta a cair e fecha no menor valor desde 12/05/26 (g1) https://g1.globo.com/jornal-nacional/video/dolar-comercial-volta-a-cair-e-fecha-no-menor-valor-desde-120526-15034231.ghtml
+· USDBRL Ibovespa cai e dólar recua ao menor nível em 5 meses após rali eleitoral (TradingView (Reuters)) https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45S153:0/
+· NVDA Is Nvidia’s (NVDA) Free Cash Flow Keeping Pace With Its Reported Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-free-cash-flow-233904046.html
+· UST COMMENTARY: For Trump’s Treasury, the sting is in the auction ‘tail’: McGeever​ (Reuters) https://www.reuters.com/commentary/reuters-open-interest/trumps-treasury-sting-is-auction-tail-mcgeever-2026-10-06/
+· CVX Chevron to Shed Hess Midstream Stake in Major Bakken Restructuring (OilPrice.com) https://oilprice.com/Company-News/Chevron-to-Shed-Hess-Midstream-Stake-in-Major-Bakken-Restructuring.amp.html
+· USDBRL Dólar hoje volta a cair após tombar mais de 4% com Flávio Bolsonaro à frente no primeiro turno (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-hoje-volta-a-cair-apos-tombar-mais-de-4-com-flavio-bolsonaro-a-frente-no-primeiro-turno/
+· BTC Bitcoin ETFs Are Up: Why Are They Not Selling? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:9d340433d094b:0-bitcoin-etfs-are-up-why-are-they-not-selling/
+· PETR4 Após disparada de 8%, Petrobras perde fôlego com pressão do petróleo e vira para a queda (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/apos-disparada-de-8-petrobras-vira-para-queda-e-perde-folego-com-pressao-do-petroleo/
+· ETH Ethereum Price Prediction: Risk of a Pullback to $2,400 Increases as Volumes Drop (Yahoo Finance) https://sg.finance.yahoo.com/news/ethereum-price-prediction-risk-pullback-190906503.html
+· BRENT Bolsas da Europa fecham em alta com alívio do petróleo (Money Times) https://www.moneytimes.com.br/europa-6-10-26-lils/
+· JPM JPMorgan shares may move 3.2% on Oct. 13 earnings report By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/jpmorgan-shares-may-move-32-on-oct-13-earnings-report-93CH-4897724
+· TESOURO Bye bye, IPCA + 7%: após tombo histórico, Tesouro Direto estende queda nas taxas (Estadao) https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/apos-tombo-historico-tesouro-estende-queda-nas-taxas-e-prefixado-2032-recua-a-1271/
+· TESOURO Prefixados do Tesouro Direto renovam mínimas e caem pelo 2º dia após o 1º turno (InfoMoney) https://news.google.com/rss/articles/CBMikAFBVV95cUxPc1dyZjNnbkU0RVlUWFJzLTNQT19qSkVkZ29MOUtOOWVjNmVZQWF1Z3RTSC10ckNrVE1vazVQbVl4amhVMDdvR1JidVlVNFBrODFlVTdkOFF1ZFhsQTBpMnhrTXdwb3k3TUJweU1NdklObFBVbVFqTkpFSG1PY3o0dlpKNUNiOHp0UUp5Ukd1TVrSAZYBQVVfeXFMT0dCNWppRW9xNVFjQ0UtNG9IWk55cm1ZaXVISXE3OUw5TDFSMmk4NHRoaVA5M2owZjNVell3Snh3RHhwNTdFZG9lY0IyN3c2aW5CYXpGOE05bFlXRDVpWHMzMHN0bU9WYWFidnU5Z05CSmcyZW1TN2lXenNWR1ZXd0tzZGE5QVctdC16X2tjVlBaMWNEenZn?oc=5
 · ITUB4 Itaú prevê que todos clientes usarão plataforma de IA até fim do ano (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/itau-preve-que-todos-clientes-usarao-plataforma-de-ia-ate-fim-do-ano/
 · USDBRL Dólar fecha abaixo de R$ 5 pela primeira vez desde maio (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio
 · VALE3 Vale (VALE3) sob pressão: Citi diz o que está no caminho da mineradora; saiba o que fazer com a ação agora (Seu Dinheiro) https://www.seudinheiro.com/2026/empresas/vale-vale3-sob-pressao-o-que-leva-o-citi-a-projetar-queda-de-23-no-ebitda-do-terceiro-trimestre-e-o-que-fazer-com-a-acao-bdap/
@@ -404,17 +417,4 @@ id: E05-KO-d4f5ac5b15-2026-10-05 · status: entregue
 · MRVL What Marvell's rosy long-term guidance means for our AI chip stocks (CNBC) https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html
 · TSM TSMC Q3 Earnings: Strong AI Demand Sets the Bar High for Growth (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/tsmc-q3-earnings-strong-ai-180000931.html
 · UGPA3 Resultado das eleições 2026 em Ipiranga (PR): como foi a votação no seu local de votação; consulte por zona eleitoral (g1) https://g1.globo.com/google/amp/pr/parana/eleicoes/2026/noticia/2026/10/06/resultado-das-eleicoes-2026-em-ipiranga-pr-como-foi-a-votacao-no-seu-local-de-votacao-consulte-por-zona-eleitoral.ghtml
-· USDBRL Bolsa aos 200 mil, dólar abaixo de R$ 5 e DI em queda: onde colocar R$ 10 mil agora? (Exame) https://exame.com/invest/onde-investir/bolsa-aos-200-mil-dolar-abaixo-de-r-5-e-di-em-queda-onde-colocar-r-10-mil-agora/
-· MRVL Ciena stock jumps on positive industry commentary from Marvell, Nokia By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/ciena-stock-jumps-on-positive-industry-commentary-from-marvell-nokia-93CH-4868328
-· BBAS3 JPMorgan rebaixa Banco do Brasil (BBAS3) para venda e ação cai mais de 5% (Suno Noticias) https://www.suno.com.br/noticias/jpmorgan-rebaixa-banco-do-brasil-bbas3-acao-cai-go/amp/
-· GOOGL Alphabet Inc. (GOOG) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/GOOG/
-· MRVL Marvell Technology stock rallies following ambitious investor day targets (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-technology-stock-rallies-following-142513133.html
-· BBAS3 Banco do Brasil (BBSA3): O balde de água fria que faz ação despencar 6% nesta terça-feira (6) (Money Times) https://www.moneytimes.com.br/banco-do-brasil-bbsa3-o-balde-de-agua-fria-que-faz-acao-despencar-6-nesta-terca-feira-6-rnda/
-· MRVL Marvell just impressed Wall Street with ‘good numbers plus a better story’ (MarketWatch) https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23
-· UST Update: Big Tech Pushes US Equity Indexes Higher Amid Lower Treasury Yields (Yahoo Finance) https://ca.finance.yahoo.com/news/big-tech-pushes-us-equity-182432745.html
-· PLTR Palantir: Bullish AI Case Has Never Looked More Exciting (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4952310-palantir-bullish-ai-case-has-never-looked-more-exciting
-· TSLA Tesla Stocks Gain as 486,532 Deliveries Reset the Bar (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:d1e6d3fa3094b:0-tesla-stocks-gain-as-486-532-deliveries-reset-the-bar/
-· MU Micron: Wishful Thinking At Its Finest (Seeking Alpha) https://seekingalpha.com/article/4952204-micron-wishful-thinking-at-its-finest
-· BTC Are Binance Users Selling Ethereum for Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/binance-users-selling-ethereum-bitcoin-174840044.html
-· MU Micron: Tighter Market Conditions Through 2028 Mean This Is A Great Buy (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4952306-micron-tighter-market-conditions-through-2028-mean-this-is-a-great-buy
-· (+98 manchetes; lista completa em eventos/noticias.json)
+· (+111 manchetes; lista completa em eventos/noticias.json)

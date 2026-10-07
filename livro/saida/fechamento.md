@@ -1,14 +1,20 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · ter 06/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · ter 06/10 · 21h35 BRT
+Relógios: Yahoo 21h35 · DI ajuste D0 · Tesouro base
   05/10 · UST CMT D0 · PTAX 06/10
 
-ALERTAS DO DIA (47 · 1 crítico)
+ALERTAS DO DIA (49 · 1 crítico)
 [CRÍTICO] C01 A curva FECHOU: F28 -96 bps em 5
           pregões · F28 5 pregões seguidos (-106
           bps) · F29 -133 bps em 5 pregões (ajuste
           B3 06/10)
+[ATENÇÃO] E05 USDBRL · Dólar cai e fecha abaixo de
+          R$ 5; Ibovespa recua após recorde na
+          véspera
+[ATENÇÃO] E05 MRVL · Marvell stock flirts with $300
+          barrier after investor-day guidance boost
+          (MRVL:NASDAQ)
 [ATENÇÃO] C02 Inclinação da curva DI: F35-F28 -31
           bps em 5 pregões · F30-F28 -45 bps em 5
           pregões
@@ -22,21 +28,20 @@ ALERTAS DO DIA (47 · 1 crítico)
           de 52s (R$ 27,58 em 25/02) a R$ 24,64
 [ATENÇÃO] T09 MRVL +5,8% com volume 3,0x a mediana
           de 20 sessões, a US$ 287,01
-[ATENÇÃO] T10 MRVL no máximo de força relativa em 63
-          sessões contra SOX: +27% vs +11% em 20
-          sessões (+15% relativo)
-[ATENÇÃO] T10 BBDC4 no máximo de força relativa em
-          63 sessões contra IBOV: +25% vs +9,9% em
-          20 sessões (+14% relativo)
-(+39 em alertas.md)
+(+41 em alertas.md)
 
 ALTAS  NOK +7,5% · MRVL +5,8% · BBDC4 +4,4% · LITE
        +3,8% · AVGO +3,7%
 BAIXAS BBAS3 -6,4% · INTC -3,2% · AXIA3 -3,1% ·
        PETR4 -2,8% · EWY -2,6%
 
-NOTÍCIAS E FATOS (21 com materialidade ·
+NOTÍCIAS E FATOS (23 com materialidade ·
   noticias.md)
+· USDBRL Dólar cai e fecha abaixo de R$ 5; Ibovespa
+  recua após recorde na véspera (UOL Economia)
+· MRVL Marvell stock flirts with $300 barrier after
+  investor-day guidance boost (MRVL:NASDAQ) (Seeking
+  Alpha)
 · MRVL Evercore ISI raises Marvell stock price
   target on AI growth outlook (Investing.com)
 · MRVL Marvell stock gets $295 target reiterated by
@@ -47,12 +52,7 @@ NOTÍCIAS E FATOS (21 com materialidade ·
   Nuclear Power Deal With Constellation; Marvell
   Raises Revenue Guidance for 2026-27 (Yahoo
   Finance)
-· BTC Strike launches 3.6% interest on cash, paid
-  out in Bitcoin (TradingView (Reuters))
-· MRVL Marvell Investor Day: MRVL Stock Rockets As
-  Firm Lays Out Path To Up To $90B In Annual Revenue
-  By Fiscal 2031 (Yahoo Finance)
-  (+15)
+  (+17)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,61 (-5·-96) F29 12,46
@@ -88,7 +88,10 @@ qua 14/10 ex-dividendo BBDC4 R$ 0,02 (último
 qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 resultado TSM (madrugada, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: BRENT sem barra de 06/10 (última 05/10);
+  BRENT: barra de 06/10 é o início da sessão
+  seguinte (última cotação 20:26 de Nova York);
+  barra descartada, fica a de 05/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -141,7 +144,7 @@ PLTR   Palanti  192,07 +1,4 +2,7  +10  +28 +7,0 +8,1
 TSLA   Tesla    380,68 +0,5 +7,9 +7,5 +9,8  -16  -15
 BABA   Alibaba  109,26 -1,4 +1,4 -3,5 -7,9  -41  -25
 EUA · Bancos
-JPM    JPM      331,28 -0,3 -1,1 -7,6  +12 +8,7 +4,3
+JPM    JPM      331,28 +0,2 -0,6 -7,2  +12 +9,2 +4,8
 BAC    BofA      54,09 +0,2 -1,6  -14 +8,7 +9,6 -0,1
 EUA · Consumo, energia e indústria
 KO     Coca      86,17 -0,4 -0,8 -1,6  +15  +34  +26
@@ -172,10 +175,10 @@ MRVE3  MRV        6,40 +2,1  +19  +15  -11  -11  -18
 CURY3  Cury      30,80 +2,5 +7,2 -7,3 -6,5 +6,7 +0,4
 Macro
 USDBRL USD/BRL  4,9742 -0,3 -4,6 -3,0 -3,2 -6,8 -9,2
-DXY    DXY      101,85 -0,3 +0,5 +2,7 +2,2 +3,8 +3,6
-BRENT  Brent    101,15 +0,8 +5,2 +5,1 -7,4  +54  +66
-BTC*   BTC      85.552 -0,3 +2,3 +6,5  +19  -31 -2,2
-ETH*   ETH       2.697 -0,5 +0,8 +7,2  +20  -42 -9,1
+DXY    DXY      101,83 -0,3 +0,5 +2,7 +2,2 +3,8 +3,6
+BRENT* Brent    100,32 -1,9 +2,5 +4,2 -8,6  +55  +65
+BTC    BTC      85.552 -0,3 +2,3 +6,5  +19  -31 -2,2
+ETH    ETH       2.697 -0,5 +0,8 +7,2  +20  -42 -9,1
 MINER* Minerio   91,45 +0,1 -5,6 -8,2  -15  -12  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

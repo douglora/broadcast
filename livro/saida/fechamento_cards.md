@@ -1,4 +1,4 @@
-## Fechamento do livro · ter 06/10 · 18h13 BRT
+## Fechamento do livro · ter 06/10 · 21h35 BRT
 
 ---
 
@@ -33,8 +33,8 @@
 | Ativo | dia | explicação | grau |
 |---|---:|---|---|
 | **NOK** | +7,5% | investigar antes de comentar | sem causa no dado |
-| **BBAS3** | -6,4% | descolou do setor (bancos +1,5% (mediana), DI F28 -5 bps; -7,9 p.p. da mediana); notícia a conferir (Suno Noticias): JPMorgan rebaixa Banco do Brasil (BBAS3) para venda e ação cai mais de 5% | notícia (conferir) |
-| **MRVL** | +5,8% | descolou do setor (semicondutores (eua) +0,1% (mediana), SOX +0,3%; 5,7 p.p. da mediana); notícia a conferir (Investing.com): Evercore ISI raises Marvell stock price target on AI growth outlook | notícia (conferir) |
+| **BBAS3** | -6,4% | descolou do setor (bancos +1,5% (mediana), DI F28 -5 bps; -7,9 p.p. da mediana); notícia a conferir (Estadao): Banco do Brasil afunda mais de 6% e lidera perdas do Ibovespa hoje; veja maiores altas e b | notícia (conferir) |
+| **MRVL** | +5,8% | descolou do setor (semicondutores (eua) +0,1% (mediana), SOX +0,3%; 5,7 p.p. da mediana); notícia a conferir (Seeking Alpha): Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ) | notícia (conferir) |
 | **BBDC4** | +4,4% | descolou do setor (bancos +1,5% (mediana), DI F28 -5 bps; 2,9 p.p. da mediana); notícia a conferir (Estadao): Rali vira o jogo entre os bancos: JPMorgan põe BB sob pressão e vê mais fôlego no Bradesco | notícia (conferir) |
 | **LITE** | +3,8% | investigar antes de comentar | sem causa no dado |
 | **AVGO** | +3,7% | descolou do setor (semicondutores (eua) +0,1% (mediana), SOX +0,3%; 3,5 p.p. da mediana); notícia a conferir (Seeking Alpha): Broadcom: When The Story And The Stock Disagree (NASDAQ:AVGO) | notícia (conferir) |
@@ -138,7 +138,7 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **JPM** JPMorgan Chase · ex-dividendo hoje (US$ 1,50) | 331,28 | **-0,3** | -1,1 | -7,6 | -2,3 | +12 | +8,7 | +4,3 | +119 |
+| **JPM** JPMorgan Chase · ex-dividendo hoje (US$ 1,65) | 331,28 | **+0,2** | -0,6 | -7,2 | -1,9 | +12 | +9,2 | +4,8 | +120 |
 | **BAC** Bank of America · resultado 14/10 | 54,09 | **+0,2** | -1,6 | -14 | -9,2 | +8,7 | +9,6 | -0,1 | +38 |
 
 ---
@@ -193,13 +193,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 4,9742 | **-0,3** | -4,6 | -3,0 | -3,3 | -3,2 | -6,8 | -9,2 | -9,7 |
-| **DXY** Indice Dolar DXY | 101,85 | **-0,3** | +0,5 | +2,7 | +0,7 | +2,2 | +3,8 | +3,6 | +8,3 |
-| **BRENT** Petroleo Brent | 101,15 | **+0,8** | +5,2 | +5,1 | +36 | -7,4 | +54 | +66 | +23 |
-| **BTC** Bitcoin _(parcial)_ | 85.552 | **-0,3** | +2,3 | +6,5 | +35 | +19 | -31 | -2,2 | +56 |
-| **ETH** Ethereum _(parcial)_ | 2.697 | **-0,5** | +0,8 | +7,2 | +52 | +20 | -42 | -9,1 | -21 |
+| **DXY** Indice Dolar DXY | 101,83 | **-0,3** | +0,5 | +2,7 | +0,7 | +2,2 | +3,8 | +3,6 | +8,2 |
+| **BRENT** Petroleo Brent _(dia 05/10)_ | 100,32 | **-1,9** | +2,5 | +4,2 | +39 | -8,6 | +55 | +65 | +22 |
+| **BTC** Bitcoin | 85.552 | **-0,3** | +2,3 | +6,5 | +35 | +19 | -31 | -2,2 | +56 |
+| **ETH** Ethereum | 2.697 | **-0,5** | +0,8 | +7,2 | +52 | +20 | -42 | -9,1 | -21 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 05/10)_ | 91,45 | **+0,1** | -5,6 | -8,2 | -7,0 | -15 | -12 | -15 | -26 |
 
-**Brent em reais:** R$ 503,14 por barril (06/10) · dia +0,5% · 1 mês +1,9% · no ano +51% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -252,8 +252,12 @@ Inflação implícita 2029 5,52% · 2032 5,65% · 2031/32 (descasado) 5,57% · F
 
 ---
 
-### Notícias e fatos · 21
+### Notícias e fatos · 23
 
+- **USDBRL** Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera (UOL Economia · 06/10) [abrir a fonte](https://economia.uol.com.br/noticias/redacao/2026/10/06/dolar-volta-a-cair-mas-ibovespa-recua-apos-disparada-eleitoral.htm)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **MRVL** Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ) (Seeking Alpha · 06/10) [abrir a fonte](https://seekingalpha.com/news/4650703-marvell-stock-flirts-with-300-barrier-after-investor-day-guidance-boost)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **MRVL** Evercore ISI raises Marvell stock price target on AI growth outlook (Investing.com · 06/10) [abrir a fonte](https://www.investing.com/news/analyst-ratings/evercore-isi-raises-marvell-stock-price-target-on-ai-growth-outlook-93CH-4935208)
   *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 - **MRVL** Marvell stock gets $295 target reiterated by Raymond James on AI outlook (Investing.com · 06/10) [abrir a fonte](https://www.investing.com/news/analyst-ratings/marvell-stock-gets-295-target-reiterated-by-raymond-james-on-ai-outlook-93CH-4935181)
@@ -317,8 +321,8 @@ Inflação implícita 2029 5,52% · 2032 5,65% · 2031/32 (descasado) 5,57% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 05/10 · UST CMT D0 · PTAX 06/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h35 · DI ajuste D0 · Tesouro base 05/10 · UST CMT D0 · PTAX 06/10
+**Lacunas:** BRENT sem barra de 06/10 (última 05/10); BRENT: barra de 06/10 é o início da sessão seguinte (última cotação 20:26 de Nova York); barra descartada, fica a de 05/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-30).

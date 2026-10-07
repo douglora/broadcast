@@ -45,7 +45,7 @@ PLTR   Palant 192,07 +1,4 +2,7  +10 +8,1
 TSLA   Tesla  380,68 +0,5 +7,9 +7,5  -15
 BABA   Alibab 109,26 -1,4 +1,4 -3,5  -25
 EUA · Bancos
-JPM    JPM    331,28 -0,3 -1,1 -7,6 +4,3
+JPM    JPM    331,28 +0,2 -0,6 -7,2 +4,8
 BAC    BofA    54,09 +0,2 -1,6  -14 -0,1
 EUA · Consumo, energia e indústria
 KO     Coca    86,17 -0,4 -0,8 -1,6  +26
@@ -76,10 +76,10 @@ MRVE3  MRV      6,40 +2,1  +19  +15  -18
 CURY3  Cury    30,80 +2,5 +7,2 -7,3 +0,4
 Macro
 USDBRL USD/BR 4,9742 -0,3 -4,6 -3,0 -9,2
-DXY    DXY    101,85 -0,3 +0,5 +2,7 +3,6
-BRENT  Brent  101,15 +0,8 +5,2 +5,1  +66
-BTC*   BTC    85.552 -0,3 +2,3 +6,5 -2,2
-ETH*   ETH     2.697 -0,5 +0,8 +7,2 -9,1
+DXY    DXY    101,83 -0,3 +0,5 +2,7 +3,6
+BRENT* Brent  100,32 -1,9 +2,5 +4,2  +65
+BTC    BTC    85.552 -0,3 +2,3 +6,5 -2,2
+ETH    ETH     2.697 -0,5 +0,8 +7,2 -9,1
 MINER* Mineri  91,45 +0,1 -5,6 -8,2  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
