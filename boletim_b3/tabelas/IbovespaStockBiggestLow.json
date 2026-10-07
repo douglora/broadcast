@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-05",
+ "pregao": "2026-10-06",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,15 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-05T23:30:27.57",
+ "atualizado_em": "2026-10-06T23:30:20.863",
  "truncada": false,
  "linhas": [
-  ["SUZB3", "ON      NM", 41.96, -5.38],
-  ["EMBJ3", "ON      NM", 95, -3.3],
-  ["GGBR4", "PN      N1", 25.79, -1.18],
-  ["VALE3", "ON      NM", 71.4, -0.97],
-  ["KLBN11", "UNT     N2", 18.46, -0.85],
-  ["WEGE3", "ON      NM", 51.25, -0.38],
-  ["USIM5", "PNA     N1", 7.46, -0.26]
+  ["BBAS3", "ON      NM", 24.64, -6.41],
+  ["RAIL3", "ON      NM", 18.26, -3.48],
+  ["PRIO3", "ON      NM", 62.05, -3.27],
+  ["AXIA3", "ON      NM", 59.48, -3.09],
+  ["BPAC11", "UNT     N2", 78.62, -2.8],
+  ["PETR4", "PN      N2", 53.82, -2.78],
+  ["ASAI3", "ON      NM", 12.63, -2.69],
+  ["B3SA3", "ON      NM", 22.68, -2.66],
+  ["MGLU3", "ON      NM", 9.24, -2.22],
+  ["BBSE3", "ON      NM", 40.08, -2.22]
  ]
 }

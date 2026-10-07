@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-05",
+ "pregao": "2026-10-06",
  "nome": "EletronicTerm",
  "titulo": "Termo eletrônico",
  "sla": "3:00:00",
@@ -7,9 +7,10 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Código IF"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "NmbrBusinesses", "titulo": "Número de negócios"}, {"nome": "NationalVol", "titulo": "Volume (R$)"}, {"nome": "InternationalVol", "titulo": "Volume (US$)"}],
  "texto": ["Mostra os contratos de termo eletrônico de renda fixa, destacando volumes e características das operações. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-05T22:00:50.037",
+ "atualizado_em": "2026-10-06T22:10:51.69",
  "truncada": false,
  "linhas": [
-  ["Termo de Taxa de Câmbio", "2026-10-20", 1, 403115, 80851]
+  ["Termo de Taxa de Câmbio", "2026-10-27", 1, 165450, 33291],
+  ["Termo de Taxa de Câmbio", "2027-01-07", 1, 18946420, 3812310]
  ]
 }

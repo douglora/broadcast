@@ -430,6 +430,7 @@
  "23L0016209": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 6.39, "tipo": "CRI", "vencimento": "2032-12-23", "visto_em": "2026-09-01"},
  "23L0016211": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 5.48, "tipo": "CRI", "vencimento": "2034-01-16", "visto_em": "2026-09-11"},
  "23L0016646": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 11, "tipo": "CRI", "vencimento": "2028-12-15", "visto_em": "2026-09-01"},
+ "23L0016647": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 9, "tipo": "CRI", "vencimento": "2028-12-15", "visto_em": "2026-10-06"},
  "23L0034406": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 11, "tipo": "CRI", "vencimento": "2033-12-30", "visto_em": "2026-09-24"},
  "23L0034761": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 7.57, "tipo": "CRI", "vencimento": "2038-12-15", "visto_em": "2026-09-01"},
  "23L1279637": {"incentivada": false, "indexador": "IPCA", "pct_indexador": null, "taxa": 9.5, "tipo": "CRI", "vencimento": "2033-12-15", "visto_em": "2026-09-18"},

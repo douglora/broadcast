@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-06T21:47:52.683",
+ "atualizado_em": "2026-10-07T03:23:45.337",
  "truncada": false,
  "linhas": [
   ["ISHARES SMALCI", "CI", 90, 134.68, 40500, 5454.54, 0.6802474286647195],

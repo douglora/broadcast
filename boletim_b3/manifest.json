@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-07T00:51:15Z",
+ "gerado_em": "2026-10-07T06:24:59Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -42,7 +42,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3366
+    "no_cache": 3375
    },
    "anbima": {
     "situacao": "publicado",
@@ -56,32 +56,32 @@
     }
    },
    "falhas": {},
-   "segundos": 141
+   "segundos": 37
   },
   "2026-10-06": {
    "completo": false,
    "faltam": [
-    "DerivativesOpenPosition",
     "BTBLendingOpenPosition",
     "BTBLoanBalance",
     "AnalyticalFramework2"
    ],
    "boletim": "publicando",
-   "sinais": 16,
+   "sinais": 26,
    "tabelas": 47,
    "arquivos": [
+    "DerivativesOpenPosition",
     "InstrumentsConsolidated",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1575,
-    "consultados": 11,
-    "achados": 0,
-    "sem_cadastro": 10,
-    "erros": 1,
+    "consultados": 1,
+    "achados": 1,
+    "sem_cadastro": 0,
+    "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3375
+    "no_cache": 3376
    },
    "anbima": {
     "situacao": "publicado",
@@ -94,10 +94,8 @@
      "2026-10-05": "publicado"
     }
    },
-   "falhas": {
-    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
-   },
-   "segundos": 139
+   "falhas": {},
+   "segundos": 28
   }
  },
  "falhas": [],

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-05",
+ "pregao": "2026-10-06",
  "nome": "IbovespaStockBiggestHighs",
  "titulo": "Ações do IBOVESPA - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA com os maiores percentuais de valorização em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-05T23:30:27.587",
+ "atualizado_em": "2026-10-06T23:30:20.86",
  "truncada": false,
  "linhas": [
-  ["ASAI3", "ON      NM", 12.98, 16.41],
-  ["CYRE3", "ON      NM", 33.14, 18.39],
-  ["SMFT3", "ON      NM", 20.91, 18.6],
-  ["CEAB3", "ON      NM", 12.33, 19.7],
-  ["RENT3", "ON  EJ  NM", 50.06, 20.68],
-  ["VAMO3", "ON      NM", 5.75, 21.3],
-  ["BPAC11", "UNT     N2", 80.89, 22.52],
-  ["B3SA3", "ON      NM", 23.3, 22.63],
-  ["CSAN3", "ON      NM", 5.1, 23.78],
-  ["MGLU3", "ON      NM", 9.45, 24.17]
+  ["SMFT3", "ON      NM", 21.63, 3.44],
+  ["ALOS3", "ON      NM", 34.29, 3.72],
+  ["AZZA3", "ON      NM", 23.08, 4.1],
+  ["BBDC4", "PN  EJ  N1", 22.8, 4.39],
+  ["FLRY3", "ON      NM", 25.35, 4.4],
+  ["YDUQ3", "ON      NM", 13.01, 4.41],
+  ["TOTS3", "ON      NM", 38.46, 4.45],
+  ["VAMO3", "ON      NM", 6.01, 4.52],
+  ["COGN3", "ON      NM", 2.82, 4.83],
+  ["BEEF3", "ON      NM", 4.5, 7.39]
  ]
 }
