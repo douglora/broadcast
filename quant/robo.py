@@ -208,8 +208,14 @@ def dia():
         return 0
     if modo() == "daytrade":
         # day trade nao tem preparacao de manha nem medicao a noite: so o pregao, e zera antes do fim
-        from quant.daytrade import robo as dt
-        log("rotina: modo day trade (mini-indice e mini-dolar, simulacao)")
+        regra = str((ler_json(ARQ_MODO, padrao=None) or {}).get("regra") or "v0")
+        if regra == "fluxo":
+            # regra versao 1: leitura de fluxo (precisa da fita do AutopilotFeed 1.3 no MetaTrader)
+            from quant.daytrade import robo_fluxo as dt
+            log("rotina: modo day trade por leitura de fluxo (mini-indice e mini-dolar, simulacao)")
+        else:
+            from quant.daytrade import robo as dt
+            log("rotina: modo day trade, regra versao 0 (mini-indice e mini-dolar, simulacao)")
         dt.rodar()
         return 0
     hm = lambda: agora_brt().strftime("%H:%M")        # noqa: E731
