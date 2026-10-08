@@ -35,7 +35,7 @@ O QUE E NOSSO (ele recusa dar o numero; escolhas para calibrar com a fita gravad
   - a agressao que confirma (60% em 15 s) e quanto tempo vale uma perda de nivel (20 min);
   - o que e "dia rapido" (vai-e-vem tipico de 1 minuto de 3 pontos ou mais);
   - o MINI-INDICE inteiro: ele opera a sala de dolar. Do indice mostra pouco (stop de 200 e
-    parcial de 100 pontos em 2020, so depois das 10h). Esses numeros foram trazidos ao preco
+    parcial de 100 pontos em lives de 2019 ou 2020, a data nao e dita; so depois das 10h). Esses numeros foram trazidos ao preco
     de hoje e a geometria da entrada veio do dolar, na proporcao do vai-e-vem dos dois.
 
 O QUE FICOU DE FORA: tudo o que depende de saber QUAL CORRETORA esta de cada lado (o ranking
@@ -70,7 +70,7 @@ class ParamAtivo:
     sem_lote_de_robo: bool         # na fonte, descartar negocio abaixo de 10 e exigir lote de instituicao
 
 
-# Mini-dolar: os numeros dele. Mini-indice: os poucos numeros dele de 2020 trazidos ao preco de hoje
+# Mini-dolar: os numeros dele. Mini-indice: os poucos numeros dele (lives de 2019 ou 2020, indice perto de 100 mil) trazidos ao preco de hoje
 # (stop 200 -> 400, parcial 100 -> 200) e a geometria do dolar vezes 60, a razao do vai-e-vem [NOSSO].
 ATIVOS = {
     "WDOFUT": ParamAtivo(stop_min_pts=2.0, stop_teto_pts=5.0, stop_teto_rapido_pts=6.0, folga_stop_pts=1.0,
