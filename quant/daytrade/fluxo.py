@@ -178,6 +178,25 @@ class Fita:
         vals.sort()
         return vals[len(vals) // 2]
 
+    def corrida(self, segundos, ate=None):
+        """O movimento que terminou num extremo, dentro da janela.
+
+        {"alta": {"extremo", "seg_extremo", "origem", "tamanho"}, "baixa": {...}} ou None sem negocio.
+        "alta": o preco mais alto da janela, a ULTIMA vez em que ele foi negociado, e o preco mais baixo
+        visto ANTES dele (de onde a corrida saiu). "baixa" e o espelho.
+        """
+        j = self._janela(segundos, ate)
+        if not j:
+            return None
+        fora = {}
+        for nome, melhor, pior in (("alta", max, min), ("baixa", min, max)):
+            extremo = melhor(x["preco"] for x in j)
+            i_ext = max(i for i, x in enumerate(j) if x["preco"] == extremo)
+            antes = [x["preco"] for x in j[:i_ext + 1]]
+            origem = pior(antes)
+            fora[nome] = {"extremo": extremo, "seg_extremo": j[i_ext]["seg"], "origem": origem, "tamanho": abs(extremo - origem)}
+        return fora
+
     def testes(self, nivel, lado, segundos, ate=None, zona_ticks=1, afasta_ticks=3):
         """Quantas vezes o preco foi ao nivel na janela. Um teste so conta de novo depois de o preco
         se afastar `afasta_ticks` do nivel. lado="compra": nivel e suporte (o preco vem de cima)."""

@@ -23,7 +23,7 @@ import os
 import sys
 import time
 from dataclasses import asdict
-from datetime import datetime
+from datetime import datetime, timezone
 
 from quant.comum import agora_brt, garantir_dir, gravar_atomico, ler_json, log
 from quant.daytrade import chave
@@ -67,6 +67,25 @@ def ajustes_oficiais(codigos, hoje, arquivo=None):
     return fora
 
 
+def hora_da_fita(seg):
+    """O MetaTrader carimba o negocio com a hora de Brasilia escrita como se fosse UTC."""
+    return datetime.fromtimestamp(int(seg), timezone.utc).strftime("%H:%M:%S")
+
+
+def ultimas_da_fita(fita, n=40):
+    """As ultimas linhas da fita, da mais nova para a mais velha: [hora, preco, compra, venda, compra_grande, venda_grande]."""
+    return [[hora_da_fita(x["seg"]), x["preco"], x["compra"], x["venda"], x["compra_grande"], x["venda_grande"]]
+            for x in list(fita.linhas)[-n:][::-1]]
+
+
+def perfil_por_preco(fita, segundos, centro, tick, ticks=20):
+    """Volume por preco na janela, do preco mais alto para o mais baixo: [preco, compra, venda]. So ate `ticks` do centro."""
+    if centro is None:
+        return []
+    fora = [[pr, v["compra"], v["venda"]] for pr, v in fita.por_preco(segundos).items() if abs(pr - centro) <= ticks * tick + 1e-9]
+    return sorted(fora, key=lambda x: -x[0])
+
+
 def spread_do_livro(livro, codigo):
     """Distancia entre a melhor venda e a melhor compra na foto do livro; None se a foto nao traz os dois lados."""
     lado = (livro or {}).get(codigo) or {}
@@ -103,6 +122,7 @@ class RoboFluxo:
             e.lado_dos_niveis = dict(s.get("lado_dos_niveis") or {})
             e.perdas = dict(s.get("perdas") or {})
             e.extremos = dict(s.get("extremos") or {})
+            e.contras = dict(s.get("contras") or {})
             e.ultima_foi_perda = bool(s.get("ultima_foi_perda"))
             if isinstance(s.get("posicao"), dict):
                 e.posicao = ef.PosicaoF(**s["posicao"])
@@ -138,7 +158,7 @@ class RoboFluxo:
 
     def _salvar(self):
         est = {a: {"operacoes": e.operacoes, "ultima_saida_ts": e.ultima_saida_ts, "lado_dos_niveis": e.lado_dos_niveis,
-                   "perdas": e.perdas, "extremos": e.extremos, "ultima_foi_perda": e.ultima_foi_perda,
+                   "perdas": e.perdas, "extremos": e.extremos, "contras": e.contras, "ultima_foi_perda": e.ultima_foi_perda,
                    "posicao": asdict(e.posicao) if e.posicao else None} for a, e in self.estados.items()}
         gravar_atomico(self.arq_estado, json.dumps({
             "desde": self.desde, "estados": est, "operacoes": self.operacoes, "diario": self.diario[-DIARIO_MAX:],
@@ -240,6 +260,12 @@ class RoboFluxo:
         if ev["tipo"] == "entrada":
             self.negocio[a] = 0.0
             m = ev.get("medidas") or {}
+            try:                                             # cada entrada fica guardada com as medidas, para medir depois
+                with open(os.path.join(self.pasta, "sinais.jsonl"), "a", encoding="utf-8") as f:
+                    f.write(json.dumps(dict(ev, quando=agora.isoformat(timespec="seconds"), seg_fita=self.fitas_mini[a].ultimo_seg,
+                                            contrato=self.codigos.get(a)), ensure_ascii=False) + "\n")
+            except OSError:
+                pass
             self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
                         f"por {ev['tecnica']} em {ev['nome_nivel']} ({_pontos(ev['nivel'], a)}); stop {_pontos(ev['stop'], a)}; "
                         f"{(m.get('fracao_a_favor') or 0) * 100:.0f}% da agressão a favor", agora)
@@ -298,8 +324,9 @@ class RoboFluxo:
             if idade > 15.0:
                 continue                                   # preco velho nao dispara nada
             base = self.ajustes.get(a) or self.cot[a]["anterior"]
-            contexto = {"medio": self.cot[a]["medio"], "spread": spread,
+            contexto = {"medio": self.cot[a]["medio"], "spread": spread, "fita_volume": self.fitas_mini[a],
                         "var": (preco / base - 1.0) if base and base > 0 else None}
+            self.cot[a]["var_ajuste"] = contexto["var"]
             for ev in ef.passo(self.estados[a], ts, hora, preco, fita, ef.niveis_do_dia(self.cot[a], self.p), self.p, lote,
                                pode_entrar=self.trava is None and fonte is not None and self.chave["ligado"],
                                feed_ok=True, contexto=contexto):
@@ -342,6 +369,71 @@ class RoboFluxo:
         self._gravar(estado)
         self._salvar()
         return estado
+
+    # ── o que a tela mostra alem do resultado ────────────────
+    def leitura_dos_niveis(self, a, fita, preco):
+        """Para cada nivel perto do preco: de que lado esta, quantos testes, quanto bateram nele e quanto a regra pede."""
+        cfg, tick, p = ef.ATIVOS[a], es.CONTRATOS[a]["tick"], self.p
+        tipico = fita.volume_tipico(p.janela_tipico_s) if fita.linhas else None
+        zona, afasta = max(1, round(cfg.zona_pts / tick)), max(1, round(cfg.afasta_pts / tick))
+        e, fora = self.estados[a], {}
+        for nome, nivel in ef.niveis_do_dia(self.cot.get(a) or {}, p):
+            nivel_t = es.arredondar(nivel, tick)
+            if preco is None or abs(preco - nivel_t) > 3 * cfg.perseguir_pts + 1e-9 or not fita.linhas:
+                continue
+            lado = "compra" if preco >= nivel_t else "venda"
+            ab = fita.absorcao(nivel_t, lado, p.janela_defesa_s, folga_ticks=zona, tolerancia_ticks=1)
+            perda = e.perdas.get(nome)
+            fora[nome] = {"papel": "suporte" if lado == "compra" else "resistência",
+                          "testes": fita.testes(nivel_t, lado, p.janela_defesa_s, zona_ticks=zona, afasta_ticks=afasta),
+                          "testes_min": p.testes_min, "testes_max": p.testes_max,
+                          "agredido": ab["agredido"], "precisa": (p.mult_defesa * tipico) if tipico else None,
+                          "lotes_grandes": ab["rodadas_grandes"], "lotes_grandes_min": p.rodadas_grandes_min if fita.separa_tamanho else None,
+                          "furou": ab["furou"], "perdido": bool(perda), "retestou": bool(perda and perda.get("retestou"))}
+        return fora
+
+    def o_que_espera(self, a, leitura, agora, fonte):
+        """Em frases curtas: por que o robo nao esta entrando agora, ou o que falta no nivel mais perto."""
+        cfg, p, e, c = ef.ATIVOS[a], self.p, self.estados[a], self.cot.get(a) or {}
+        hm, pr = agora.strftime("%H:%M"), c.get("preco")
+        if e.posicao is not None:
+            return ["Com posição aberta: conduzindo pelo stop, pela parcial e pelo stop móvel."]
+        if not self.chave["ligado"]:
+            return ["Desligado por você: não entra."]
+        if self.trava:
+            return ["Parado até amanhã: o limite do dia foi atingido."]
+        if fonte is None:
+            return ["Sem a fita de negócios: sem fluxo o robô não entra."]
+        if hm < cfg.hora_inicio:
+            return [f"Antes do horário deste contrato: entra a partir das {cfg.hora_inicio}."]
+        if hm >= p.hora_ultima_entrada:
+            return [f"Sem novas entradas desde as {p.hora_ultima_entrada}."]
+        if p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1]:
+            return [f"Pausa do dado das 9h30: volta às {p.pausa_dado[1]}."]
+        frases = []
+        espera = p.espera_apos_perda_s if e.ultima_foi_perda else p.espera_apos_saida_s
+        falta = espera - (agora.timestamp() - e.ultima_saida_ts)
+        if e.ultima_saida_ts and falta > 0:
+            frases.append(f"Respirando depois da última saída: mais {int(falta)} s.")
+        if c.get("spread") is not None and c["spread"] >= cfg.spread_max_pts - 1e-9:
+            frases.append(f"Spread aberto ({_pontos(c['spread'], a)} pontos): falta volume, não entra.")
+        if not leitura:
+            frases.append("Nenhum nível perto do preço. Esperando o preço chegar a um nível ou uma corrida esticada.")
+            return frases
+        nome, l = min(leitura.items(), key=lambda kv: abs((pr or 0) - es.arredondar(dict(ef.niveis_do_dia(c, p))[kv[0]], es.CONTRATOS[a]["tick"])))
+        if l["perdido"]:
+            frases.append(f"{nome.capitalize()} foi perdido: esperando o preço voltar ao nível e falhar"
+                          + (" (já voltou; falta sair de novo com agressão a favor)." if l["retestou"] else "."))
+            return frases
+        partes = [f"testes {l['testes']} de {l['testes_min']}"]
+        if l["precisa"]:
+            partes.append(f"volume batido no nível {l['agredido']:.0f} de {l['precisa']:.0f}")
+        if l["lotes_grandes_min"]:
+            partes.append(f"lotes de instituição {l['lotes_grandes']} de {l['lotes_grandes_min']}")
+        frases.append(f"Mais perto: {nome} como {l['papel']}. " + "; ".join(partes) + "."
+                      + (" O nível foi furado nos últimos 15 minutos." if l["furou"] else "")
+                      + (" Testado demais: o robô só opera a perda dele." if l["testes"] > l["testes_max"] else ""))
+        return frases
 
     # ── o estado que a tela le ───────────────────────────────
     def estado(self, agora, retrato, realizado, aberto, fita_ok, lote, pregao):
@@ -403,7 +495,7 @@ class RoboFluxo:
             alerta = "ATENÇÃO: cotações da B3 atrasadas ou paradas (MetaTrader). Com preço velho o robô não entra nem sai."
             avisos.insert(0, alerta)
             texto = alerta + " " + texto
-        instrumentos, ops = [], [dict(o, aberta=False) for o in self.operacoes]
+        instrumentos, ops, posicoes = [], [dict(o, aberta=False) for o in self.operacoes], []
         for a in ATIVOS:
             e, c, k = self.estados[a], self.cot.get(a) or {}, es.CONTRATOS[a]
             f, fonte = self.fita_de(a)
@@ -412,16 +504,34 @@ class RoboFluxo:
             if e.posicao is not None:
                 pts = ef._pontos(e.posicao, pr) if pr is not None else None
                 ab = (pts * k["valor_ponto"] * e.posicao.contratos - 2 * k["custo"] * e.posicao.contratos) if pts is not None else None
+                cfg = ef.ATIVOS[a]
+                sinal_lado = 1.0 if e.posicao.lado == "C" else -1.0
+                parcial_em = None if e.posicao.parcial_feita else e.posicao.entrada + sinal_lado * cfg.parcial_pts
+                if e.posicao.parcial_feita:
+                    passo_txt = f"Parcial feita. Stop em {_pontos(e.posicao.stop, a)}, andando {_pontos(cfg.arrasto_pts, a)} pontos atrás do melhor preço."
+                else:
+                    passo_txt = (f"Parcial de metade em {_pontos(parcial_em, a)}"
+                                 + (f" (faltam {_pontos(abs(parcial_em - pr), a)} pontos)" if pr is not None else "")
+                                 + "; depois o stop vai para o preço de entrada.")
                 pos = dict(asdict(e.posicao), pontos=pts, aberto=ab, alvo=None, risco_pts=abs(e.posicao.entrada - e.posicao.stop),
-                           protegido=e.posicao.parcial_feita)
+                           protegido=e.posicao.parcial_feita, parcial_em=parcial_em,
+                           ha_s=max(0, int(agora.timestamp() - e.posicao.ts_entrada)) if e.posicao.ts_entrada else None,
+                           stop_distancia_pts=abs(pr - e.posicao.stop) if pr is not None else None,
+                           risco_rs=abs(e.posicao.entrada - e.posicao.stop) * k["valor_ponto"] * e.posicao.contratos,
+                           proximo_passo=passo_txt)
+                posicoes.append(dict(pos, ativo=a, nome=k["nome"], contrato=self.codigos.get(a), ultimo=pr))
                 ops.append({"n": len(ops) + 1, "ativo": a, "lado": e.posicao.lado, "contratos": e.posicao.contratos,
                             "entrada": e.posicao.entrada, "hora_entrada": e.posicao.hora, "saida": None, "hora_saida": None,
                             "motivo": None, "stop": e.posicao.stop, "alvo": None, "pontos": pts,
                             "custos": 2 * k["custo"] * e.posicao.contratos, "resultado": ab, "aberta": True,
                             "tecnica": e.posicao.tecnica, "nome_nivel": e.posicao.nome_nivel})
             a15, a60 = f.agressao(15), f.agressao(60)
-            niveis = [{"nome": n, "preco": v, "distancia_pts": (pr - v) if pr is not None else None}
+            leitura = self.leitura_dos_niveis(a, f, pr)
+            niveis = [{"nome": n, "preco": v, "distancia_pts": (pr - v) if pr is not None else None, "leitura": leitura.get(n)}
                       for n, v in ef.niveis_do_dia(c, p)]
+            mini = self.fitas_mini[a]
+            dia = f.agressao(fx.JANELA_MAXIMA_S)
+            corr = f.corrida(p.janela_esticada_s) if f.linhas else None
             cod_fonte = codigo_da_fonte(a, self.codigos.get(a) or "")
             livro = (self.livro or {}).get(cod_fonte if fonte not in (None, "mini") else (self.codigos.get(a) or ""), {})
             fechadas = [o for o in self.operacoes if o["ativo"] == a]
@@ -435,13 +545,23 @@ class RoboFluxo:
                 "risco_pts_agora": ef.ATIVOS[a].stop_teto_rapido_pts if ef.dia_rapido(a, f) else ef.ATIVOS[a].stop_teto_pts,
                 "spread_pts": c.get("spread"),
                 "niveis": niveis,
+                "espera": self.o_que_espera(a, leitura, agora, fonte),
+                "variacao_ajuste": c.get("var_ajuste"),
+                "corrida": None if not corr else {"alta_pts": corr["alta"]["tamanho"], "topo": corr["alta"]["extremo"],
+                                                  "baixa_pts": corr["baixa"]["tamanho"], "fundo": corr["baixa"]["extremo"],
+                                                  "minutos": p.janela_esticada_s // 60, "esticada_pts": ef.ATIVOS[a].esticada_pts},
                 "fluxo": {"fonte": fonte, "contrato_fonte": cod_fonte if fonte not in (None, "mini") else self.codigos.get(a),
                           "sem_lote_de_robo": bool(f.sem_lote_de_robo and f.separa_tamanho), "dia_rapido": ef.dia_rapido(a, f),
                           "vai_e_vem_1min": f.amplitude_tipica(60),
                           "agressao_15s": a15, "agressao_60s": a60, "tipico_30s": f.volume_tipico(p.janela_tipico_s),
                           "tipico_15s": f.volume_tipico(15), "tipico_60s": f.volume_tipico(60),
                           "linhas": len(f.linhas),
-                          "livro_compra": (livro.get("compra") or [])[:5], "livro_venda": (livro.get("venda") or [])[:5]},
+                          "saldo_dia": {"compra": dia["compra"], "venda": dia["venda"], "saldo": dia["saldo"],
+                                        "desde": hora_da_fita(f.linhas[0]["seg"]) if f.linhas else None},
+                          "fita": ultimas_da_fita(f), "fita_mini": ultimas_da_fita(mini) if fonte not in (None, "mini") and mini is not f else [],
+                          "perfil": perfil_por_preco(mini if mini.linhas else f, p.janela_defesa_s, pr, k["tick"]),
+                          "perfil_minutos": p.janela_defesa_s // 60,
+                          "livro_compra": (livro.get("compra") or [])[:10], "livro_venda": (livro.get("venda") or [])[:10]},
                 "posicao": pos, "operacoes_hoje": e.operacoes, "restam": max(p.max_operacoes - e.operacoes, 0),
                 "resultado": sum(float(o["resultado"]) for o in fechadas) + ((pos or {}).get("aberto") or 0.0)})
         finais = [o for o in self.operacoes if o["tipo"] == "saida"]
@@ -471,7 +591,10 @@ class RoboFluxo:
                           "motivo_trava": self.trava,
                           "negocios_perdedores": self.perdas, "lote_hoje": lote,
                           "patrimonio": p.capital + acumulado, "acumulado": acumulado, "dias": len(serie)},
-            "instrumentos": instrumentos, "operacoes": list(reversed(ops)),
+            "instrumentos": instrumentos, "posicoes": posicoes, "operacoes": list(reversed(ops)),
+            "chave": {"ligado": self.chave["ligado"], "desde": self.chave["desde"]},
+            "janela": {"inicio": min(x.hora_inicio for x in ef.ATIVOS.values()), "ultima_entrada": p.hora_ultima_entrada,
+                       "zerar": p.hora_zerar, "motivo": self.janela.get("motivo") or ""},
             "curva": [{"hora": h, "resultado": v} for h, v in self.curva], "serie": serie,
             "diario": list(reversed(self.diario[-DIARIO_MAX:])),
             "fontes": {"cotacoes": "motor do Autopilot Terminal (MetaTrader)",

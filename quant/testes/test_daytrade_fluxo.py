@@ -177,8 +177,9 @@ def test_no_contrato_cheio_a_defesa_pede_lote_de_instituicao():
     com = _cenario_defesa(tamanho_no_nivel=(10, 70, 0, 50))
     s = ef.ler_defesa("WDOFUT", com, 5031.0, AJUSTE, p)
     assert s and s["medidas"]["lotes_grandes_no_nivel"] >= 3
-    # o mini-indice nao pede (a fonte dele nao separa robo de instituicao)
-    assert ef.ATIVOS["WINFUT"].sem_lote_de_robo is False and ef.ATIVOS["WDOFUT"].fonte_fluxo == "DOL"
+    # o dolar le o contrato cheio; o indice le o proprio mini, tambem sem o negocio pequeno
+    assert ef.ATIVOS["WINFUT"].sem_lote_de_robo is True and ef.ATIVOS["WINFUT"].fonte_fluxo == "WIN"
+    assert ef.ATIVOS["WDOFUT"].fonte_fluxo == "DOL"
 
 
 def test_perda_de_nivel_nao_entra_na_primeira_quebra_e_entra_no_reteste():
@@ -250,7 +251,7 @@ def _ate_o_rompimento(e, f, p, batidas):
     return niveis, ts
 
 
-def test_rompimento_depois_de_tres_batidas_e_saida_se_nao_anda():
+def test_rompimento_depois_de_duas_batidas_e_saida_se_nao_anda():
     p = ef.ParamFluxo()
     e = ef.EstadoF("WDOFUT")
     f = fx.Fita("WDOX26", 0.5)
@@ -261,16 +262,16 @@ def test_rompimento_depois_de_tres_batidas_e_saida_se_nao_anda():
     _por(f, T0, 5041.0, 180, 40)
     ev = ef.passo(e, ts, "11:01:00", 5041.0, f, [("máxima do dia", 5041.0), ("preço médio do dia", 5035.0)], p, lote=2)
     pos = e.posicao
-    # compra a mercado em 5.041,5; stop de 4,5 pontos = 5.037,0 (o dele: comprou 43,5 com stop em 39)
+    # compra a mercado em 5.041,5; stop de rompimento de 3 pontos = 5.038,5
     assert ev[0]["tecnica"] == "rompimento" and ev[0]["medidas"]["testes"] == 3
-    assert (pos.entrada, pos.stop) == (5041.5, 5037.0) and e.extremos["max"]["testes"] == 1
+    assert (pos.entrada, pos.stop) == (5041.5, 5038.5) and e.extremos["max"]["testes"] == 1
     # 2 minutos depois o preco nao andou 1 ponto: sai a mercado em 5.041,0 = -0,5 x 10 x 2 - 4,80 = -14,80
     ev = ef.passo(e, ts + 121, "11:03:01", 5041.5, f, niveis, p, lote=2)
     assert ev[0]["motivo"] == "não andou" and ev[0]["resultado"] == pytest.approx(-14.80)
-    # com 2 batidas so, o rompimento nao vira entrada, e o extremo novo recomeca a contagem
+    # com 1 batida so (o extremo nunca foi testado de novo), o rompimento nao vira entrada, e o extremo novo recomeca a contagem
     e2, g = ef.EstadoF("WDOFUT"), fx.Fita("WDOX26", 0.5)
     _fita_de_fundo(g, T0)
-    niveis, ts = _ate_o_rompimento(e2, g, p, batidas=2)
+    niveis, ts = _ate_o_rompimento(e2, g, p, batidas=1)
     _por(g, T0, 5041.0, 180, 40)
     assert ef.passo(e2, ts, "11:01:00", 5041.0, g, niveis, p, lote=2) == []
     assert e2.extremos["max"] == {"nivel": 5041.0, "testes": 1, "fora": False}
@@ -301,6 +302,7 @@ def test_filtros_de_entrada_e_stop_pelo_preco():
     assert ef.calcular_stop("WDOFUT", "C", 5031.5, 5030.0, "defesa", True) == 5028.0       # dia rapido: 2 pontos atras
     assert ef.calcular_stop("WDOFUT", "C", 5036.0, 5030.0, "defesa", True) == 5030.0       # teto de 6
     assert ef.calcular_stop("WINFUT", "C", 207300.0, 207200.0, "defesa", False) == 207140.0   # 60 atras do nivel = 160
+    assert ef.calcular_stop("WINFUT", "C", 207500.0, 207200.0, "defesa", False) == 207250.0   # 360 viram 250 (teto do indice)
     # niveis: a variacao de 1% entra como nivel (5.030 x 1,01 = 5.080,3; x 0,99 = 4.979,7)
     de = dict(ef.niveis_do_dia({"ajuste": 5030.0, "maxima": 5040.0}, p))
     assert de["1% acima do ajuste"] == pytest.approx(5080.3) and de["1% abaixo do ajuste"] == pytest.approx(4979.7)
@@ -486,3 +488,60 @@ def test_ajuste_oficial_da_b3_e_spread_pelo_livro(tmp_path):
     livro = {"WDOX26": {"compra": [(5028.5, 10.0), (5028.0, 40.0)], "venda": [(5029.0, 5.0)]}}
     assert rf.spread_do_livro(livro, "WDOX26") == 0.5 and rf.spread_do_livro(livro, "WINV26") is None
     assert rf.spread_do_livro({"WDOX26": {"compra": [(5029.5, 1.0)], "venda": [(5029.0, 1.0)]}}, "WDOX26") is None   # livro cruzado: foto ruim
+
+
+def _corrida_de_alta(f, topo=5080.0, tamanho=24.0, agressao_no_topo=20):
+    """10 minutos: o dolar sobe `tamanho` pontos com 200 de compra por preco no miolo, chega ao topo com pouca
+    compra, fica 40 s sem renovar e recua 1,5 ponto com venda agredindo."""
+    _fita_de_fundo(f, T0 - 600, preco=topo - tamanho)
+    passos = int(tamanho / 2)
+    for k in range(passos):                                 # sobe 2 pontos a cada 40 s, 200 de compra em cada preco
+        _por(f, T0 - 560 + 40 * k, topo - tamanho + 2.0 * k, 200, 40)
+    _por(f, T0 - 60, topo, agressao_no_topo, 10)            # no topo a compra secou
+    _por(f, T0 - 8, topo - 1.0, 10, 60)
+    _por(f, T0 - 2, topo - 1.5, 20, 90)                     # 150 x 30 de venda em 15 s (83%)
+    return f
+
+
+def test_exaustao_vende_a_corrida_esticada_so_com_o_dia_em_1_por_cento():
+    p = ef.ParamFluxo()
+    f = _corrida_de_alta(fx.Fita("WDOX26", 0.5))
+    c = f.corrida(600)["alta"]
+    assert (c["extremo"], c["origem"], c["tamanho"], c["seg_extremo"]) == (5080.0, 5056.0, 24.0, T0 - 60)
+    e = ef.EstadoF("WDOFUT")
+    # dia em +0,6%: nao opera contra (a regra dele e 1%; abaixo disso, nas lives, perdeu 4 de 5)
+    assert ef.ler_exaustao("WDOFUT", e, f, 5078.5, p, var=0.006) is None
+    s = ef.ler_exaustao("WDOFUT", e, f, 5078.5, p, var=0.011)
+    # corrida de 24 pontos; no topo 20 de compra contra 200 no miolo (10% < 50%); recuo de 1,5; 83% de venda
+    assert s and s["tecnica"] == "exaustão" and s["lado"] == "V" and s["nivel"] == 5080.0
+    assert s["medidas"]["corrida_pts"] == 24.0 and s["medidas"]["agressao_no_extremo"] == 20.0 and s["medidas"]["agressao_no_miolo"] == 200.0
+    ev = ef.passo(e, 1000.0, "10:15:00", 5078.5, f, [], p, lote=2, contexto={"var": 0.011})
+    # vende a mercado em 5.078,0; stop 1 ponto alem do topo = 5.081,0 (3,0 pontos)
+    assert ev[0]["tecnica"] == "exaustão" and (e.posicao.entrada, e.posicao.stop) == (5078.0, 5081.0)
+    assert e.contras["alta"] == {"extremo": 5080.0, "n": 1}
+    # nao vale: corrida curta (14 pontos); compra ainda forte no topo; preco ainda colado no topo; topo feito agora
+    assert ef.ler_exaustao("WDOFUT", ef.EstadoF("WDOFUT"), _corrida_de_alta(fx.Fita("WDOX26", 0.5), tamanho=14.0), 5078.5, p, var=0.011) is None
+    assert ef.ler_exaustao("WDOFUT", ef.EstadoF("WDOFUT"), _corrida_de_alta(fx.Fita("WDOX26", 0.5), agressao_no_topo=150), 5078.5, p, var=0.011) is None
+    assert ef.ler_exaustao("WDOFUT", ef.EstadoF("WDOFUT"), f, 5079.5, p, var=0.011) is None
+    g = _corrida_de_alta(fx.Fita("WDOX26", 0.5))
+    _por(g, T0 - 1, 5080.0, 5, 5)
+    assert ef.ler_exaustao("WDOFUT", ef.EstadoF("WDOFUT"), g, 5078.5, p, var=0.011) is None
+    # no maximo 3 vezes contra o mesmo extremo
+    e3 = ef.EstadoF("WDOFUT")
+    e3.contras["alta"] = {"extremo": 5080.0, "n": 3}
+    assert ef.ler_exaustao("WDOFUT", e3, f, 5078.5, p, var=0.011) is None
+
+
+def test_nivel_testado_demais_nao_e_defesa():
+    p = ef.ParamFluxo()
+    f = _cenario_defesa()                                   # 3 testes: vale
+    assert ef.ler_defesa("WDOFUT", f, 5031.0, AJUSTE, p)["medidas"]["testes"] == 3
+    g = fx.Fita("WDOX26", 0.5, sem_lote_de_robo=True)
+    _fita_de_fundo(g, T0)
+    for k in range(5):                                      # 5 idas ao nivel: ele so opera a perda, nao compra o suporte
+        _por(g, T0 - 200 + 30 * k, 5030.0, 10, 80)
+        _por(g, T0 - 190 + 30 * k, 5032.0, 30, 10)
+    _por(g, T0 - 8, 5030.5, 50, 10)
+    _por(g, T0 - 2, 5031.0, 70, 20)
+    assert g.testes(5030.0, "compra", 900, zona_ticks=1, afasta_ticks=3) == 6
+    assert ef.ler_defesa("WDOFUT", g, 5031.0, AJUSTE, p) is None
