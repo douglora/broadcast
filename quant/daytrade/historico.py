@@ -78,6 +78,8 @@ class Ordem:
     alvo_pts: float | None = None      # sai de tudo aqui (None = sem alvo)
     arrasto_pts: float | None = None   # depois da parcial (ou desde o inicio, se nao ha parcial): stop atras do melhor preco
     motivo: str = ""
+    limite: float | None = None        # ordem PARADA neste preco (sem deslize); None = a mercado na abertura da barra seguinte
+    validade: int = 30                 # por quantas barras de 1 minuto a ordem parada espera
 
 
 @dataclass
@@ -134,10 +136,22 @@ def simular(m1, estrategia, regras: RegrasDoDia | None = None, custos: Custos | 
 def _um_dia(i0, i1, dia, o, h, l, c, horas, hm, est, regras, custos, desl):
     fora = []
     pos = None                      # dict da posicao aberta
+    pendente = None                 # (ordem parada, barra em que vence)
     resultado_dia, perdas, operacoes, livre_em = 0.0, 0, 0, i0
     travado = False
     ctx = {"i0": i0}
     for i in range(i0, i1):
+        if pos is None and pendente is not None:
+            ordem, vence = pendente
+            if i > vence or hm[i] >= regras.ultima_entrada or travado:
+                pendente = None
+            else:
+                # so conta como executada se o preco PASSA do limite por 1 tick: encostar nao garante a vez na fila
+                pegou = (h[i] >= ordem.limite + custos.tick) if ordem.lado == "V" else (l[i] <= ordem.limite - custos.tick)
+                if pegou:
+                    pendente = None
+                    pos = _abrir(ordem, ordem.limite, horas[i], i, regras)
+                    operacoes += 1
         if pos is not None:
             fechou = _conduzir(pos, i, o, h, l, c, hm, regras, custos, desl)
             if fechou:
@@ -158,18 +172,26 @@ def _um_dia(i0, i1, dia, o, h, l, c, horas, hm, est, regras, custos, desl):
             continue
         if not (regras.inicio <= hm[i] < regras.ultima_entrada):
             continue
+        if pendente is not None:
+            continue
         ordem = est.decidir(i, dia, ctx)
         if ordem is None:
             continue
-        entrada = o[i + 1] + (desl if ordem.lado == "C" else -desl)
-        sinal = 1.0 if ordem.lado == "C" else -1.0
-        pos = {"lado": ordem.lado, "sinal": sinal, "entrada": entrada, "hora": horas[i + 1], "motivo": ordem.motivo,
-               "stop": entrada - sinal * ordem.stop_pts, "restam": regras.contratos, "inicial": regras.contratos,
-               "parcial": None if ordem.parcial_pts is None or regras.contratos < 2 else entrada + sinal * ordem.parcial_pts,
-               "alvo": None if ordem.alvo_pts is None else entrada + sinal * ordem.alvo_pts,
-               "arrasto": ordem.arrasto_pts, "melhor": entrada, "soma_pts": 0.0, "aberta_em": i + 1, "parcial_feita": False}
+        if ordem.limite is not None:
+            pendente = (ordem, i + ordem.validade)
+            continue
+        pos = _abrir(ordem, o[i + 1] + (desl if ordem.lado == "C" else -desl), horas[i + 1], i + 1, regras)
         operacoes += 1
     return fora
+
+
+def _abrir(ordem, entrada, hora, barra, regras):
+    sinal = 1.0 if ordem.lado == "C" else -1.0
+    return {"lado": ordem.lado, "sinal": sinal, "entrada": entrada, "hora": hora, "motivo": ordem.motivo,
+            "stop": entrada - sinal * ordem.stop_pts, "restam": regras.contratos, "inicial": regras.contratos,
+            "parcial": None if ordem.parcial_pts is None or regras.contratos < 2 else entrada + sinal * ordem.parcial_pts,
+            "alvo": None if ordem.alvo_pts is None else entrada + sinal * ordem.alvo_pts,
+            "arrasto": ordem.arrasto_pts, "melhor": entrada, "soma_pts": 0.0, "aberta_em": barra, "parcial_feita": False}
 
 
 def _conduzir(pos, i, o, h, l, c, hm, regras, custos, desl):

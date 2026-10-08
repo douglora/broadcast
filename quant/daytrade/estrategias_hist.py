@@ -24,7 +24,9 @@ def media(serie, n, tipo="sma"):
 
 def _fechadas(m1_index, tf, minutos):
     """Para cada barra de 1 minuto, a posicao da ultima barra de `minutos` que ja fechou (-1 se nenhuma)."""
-    fim_m1 = m1_index.values.astype("datetime64[ns]") + np.timedelta64(1, "m")
+    v = m1_index.values.astype("datetime64[ns]")
+    passo = int(np.median(np.diff(v[:2000]).astype("timedelta64[m]").astype(int))) if len(v) > 2 else 1   # a base pode ser de 5 minutos
+    fim_m1 = v + np.timedelta64(max(passo, 1), "m")
     fim_tf = tf.index.values.astype("datetime64[ns]") + np.timedelta64(int(minutos), "m")
     return np.searchsorted(fim_tf, fim_m1, side="right") - 1
 
@@ -281,3 +283,115 @@ class PhiCubeV1(Estrategia):
         if self.saida == "fixo":
             return Ordem(lado, risco, parcial_pts=parcial, alvo_pts=self.alvo_pts, motivo=self.nome)
         return Ordem(lado, risco, parcial_pts=parcial, alvo_pts=self.alvo_r * risco, motivo=self.nome)
+
+
+# ── O que os instrutores do PhiCube FAZEM nas lives (e o Alison tambem): teste de nivel e reacao ─
+class NivelReacao(Estrategia):
+    """O preco vai a um nivel marcado antes, e rejeitado, e a entrada e contra a chegada, com o stop colado
+    atras do nivel e o alvo no nivel seguinte. Serve para as pontas de uma faixa e para o reteste de um nivel
+    perdido (o suporte que virou resistencia): os dois sao "chegou no nivel e voltou".
+
+    niveis   de ontem: maxima, minima, fechamento e ajuste (media das 15h50 as 16h); de hoje: abertura e a
+             maxima e a minima do dia formadas ha pelo menos `idade_extremo` minutos; numeros redondos (de 10 em 10).
+    teste    uma barra do tempo `tempo` encosta no nivel (ate `tol` antes, ate `fura` alem) e FECHA de volta,
+             pelo menos `rejeita` pontos do lado de onde veio.
+    stop     `folga` pontos alem do extremo da barra de teste (ou do nivel); maior que stop_max: nao opera ("stop caro").
+    alvo     o proximo nivel na direcao da operacao, entre alvo_min e alvo_max pontos; sem nivel, `alvo_padrao`.
+    filtro   so entra se o alvo paga pelo menos `rr_min` vezes o risco; com `linhas`, respeita o "proibido vender"
+             (Prisma 6 ou 7 com preco acima das medias no proprio tempo) e o "proibido comprar"."""
+
+    def __init__(self, tempo=4, tol=1.0, fura=2.0, rejeita=1.5, folga=1.0, stop_min=3.0, stop_max=10.0, alvo_min=13.0, alvo_max=40.0,
+                 alvo_padrao=20.0, rr_min=2.0, parcial_r=1.0, idade_extremo=20, redondo=10.0, linhas=False, tipo="mima", nome=None):
+        self.tempo, self.tol, self.fura, self.rejeita, self.folga = tempo, tol, fura, rejeita, folga
+        self.stop_min, self.stop_max, self.alvo_min, self.alvo_max, self.alvo_padrao = stop_min, stop_max, alvo_min, alvo_max, alvo_padrao
+        self.rr_min, self.parcial_r, self.idade_extremo, self.redondo, self.linhas, self.tipo = rr_min, parcial_r, idade_extremo, redondo, linhas, tipo
+        self.nome = nome or f"Teste de nível e reação ({tempo} min)"
+
+    def preparar(self, m1):
+        self.m1 = m1
+        dia = pd.Series(m1.index.date, index=m1.index)
+        por_dia = m1.groupby(m1.index.date).agg(h=("h", "max"), l=("l", "min"), c=("c", "last"), o=("o", "first"))
+        ontem = por_dia.shift(1)
+        self.max_ontem, self.min_ontem, self.fech_ontem = (dia.map(ontem[k]).to_numpy(dtype=float) for k in ("h", "l", "c"))
+        self.abertura = dia.map(por_dia["o"]).to_numpy(dtype=float)
+        self.ajuste = ajuste_de_ontem(m1).to_numpy()
+        d = m1.index.date
+        self.max_dia = m1["h"].groupby(d).cummax().groupby(d).shift(self.idade_extremo).to_numpy()
+        self.min_dia = m1["l"].groupby(d).cummin().groupby(d).shift(self.idade_extremo).to_numpy()
+        s = reamostrar(m1, self.tempo)
+        self.so, self.sh, self.sl, self.sc = (s[k].to_numpy() for k in ("o", "h", "l", "c"))
+        self.is_ = _fechadas(m1.index, s, self.tempo)
+        self.nova_s = np.r_[True, self.is_[1:] != self.is_[:-1]]
+        if self.linhas:
+            ps, ms, _ = prisma(s, self.tipo)
+            acima = ((s["c"] > ms[0]) & (s["c"] > ms[1]) & (s["c"] > ms[2])).to_numpy()
+            abaixo = ((s["c"] < ms[0]) & (s["c"] < ms[1]) & (s["c"] < ms[2])).to_numpy()
+            p = ps.to_numpy()
+            self.proibido_vender, self.proibido_comprar = (p >= 6) & acima, (p >= 0) & (p <= 1) & abaixo
+
+    def niveis(self, i, preco):
+        fixos = [self.max_ontem[i], self.min_ontem[i], self.fech_ontem[i], self.ajuste[i], self.abertura[i], self.max_dia[i], self.min_dia[i]]
+        base = np.floor(preco / self.redondo) * self.redondo
+        fixos += [base - self.redondo, base, base + self.redondo, base + 2 * self.redondo]
+        return sorted({round(float(x) * 2) / 2 for x in fixos if x is not None and not np.isnan(x)})
+
+    def decidir(self, i, dia, ctx):
+        if not self.nova_s[i] or self.is_[i] < 1:
+            return None
+        k = self.is_[i]
+        o, h, l, c = self.so[k], self.sh[k], self.sl[k], self.sc[k]
+        niveis = self.niveis(i, c)
+        for L in niveis:
+            # resistencia: veio de baixo, encostou (ou furou pouco) e fechou de volta
+            if o < L and L - self.tol <= h <= L + self.fura and c <= L - self.rejeita:
+                lado, risco = "V", max(h, L) + self.folga - c
+                alvos = [c - x for x in niveis if self.alvo_min <= c - x <= self.alvo_max]
+            elif o > L and L - self.fura <= l <= L + self.tol and c >= L + self.rejeita:
+                lado, risco = "C", c - (min(l, L) - self.folga)
+                alvos = [x - c for x in niveis if self.alvo_min <= x - c <= self.alvo_max]
+            else:
+                continue
+            if self.linhas and ((lado == "V" and self.proibido_vender[k]) or (lado == "C" and self.proibido_comprar[k])):
+                continue
+            risco = max(risco + 0.5, self.stop_min)            # + meio ponto: a entrada sai 1 tick pior
+            if risco > self.stop_max:
+                continue                                       # stop caro: nao opera
+            alvo = min(alvos) if alvos else self.alvo_padrao
+            if alvo / risco < self.rr_min:
+                continue
+            return Ordem(lado, float(risco), parcial_pts=None if self.parcial_r is None else float(self.parcial_r * risco),
+                         alvo_pts=float(alvo), motivo=f"{self.nome}: nível {L:.1f}")
+        return None
+
+
+class OrdemNoNivel(NivelReacao):
+    """A mesma leitura de niveis, mas com a ordem PARADA no proprio nivel, antes de o preco chegar (como Bo faz numa
+    live: "ordem de venda posta antes da resistencia"). Nao espera a rejeicao: economiza o deslize da entrada e
+    aceita ser atropelada. Entra quando o preco vem na direcao do nivel e esta a ate `distancia` pontos dele."""
+
+    def __init__(self, distancia=3.0, stop_pts=4.0, **kw):
+        super().__init__(**kw)
+        self.distancia, self.stop_fixo = distancia, stop_pts
+        self.nome = kw.get("nome") or "Ordem parada no nível"
+
+    def decidir(self, i, dia, ctx):
+        if not self.nova_s[i] or self.is_[i] < 1:
+            return None
+        k = self.is_[i]
+        o, c = self.so[k], self.sc[k]
+        niveis = self.niveis(i, c)
+        for L in niveis:
+            if 0 < L - c <= self.distancia and c > o:                 # subindo para o nivel: vende nele
+                lado, alvos = "V", [L - x for x in niveis if self.alvo_min <= L - x <= self.alvo_max]
+            elif 0 < c - L <= self.distancia and c < o:               # caindo para o nivel: compra nele
+                lado, alvos = "C", [x - L for x in niveis if self.alvo_min <= x - L <= self.alvo_max]
+            else:
+                continue
+            if self.linhas and ((lado == "V" and self.proibido_vender[k]) or (lado == "C" and self.proibido_comprar[k])):
+                continue
+            alvo = min(alvos) if alvos else self.alvo_padrao
+            if alvo / self.stop_fixo < self.rr_min:
+                continue
+            return Ordem(lado, float(self.stop_fixo), parcial_pts=None if self.parcial_r is None else float(self.parcial_r * self.stop_fixo),
+                         alvo_pts=float(alvo), motivo=f"{self.nome}: nível {L:.1f}", limite=float(L), validade=12)
+        return None
