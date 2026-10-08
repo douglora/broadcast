@@ -1,7 +1,11 @@
 # Dependencias do runner do livro (GitHub Actions). Nao misturar com o
 # requirements.txt do terminal, que o app.py instala no computador do Douglas.
 requests>=2.31
-pandas>=2.2
+# O teto acompanha o quant/requirements.txt: a suite da mesa passa em pandas 2 e 3,
+# mas a do quant quebra em 3, e agora os dois vivem no mesmo repositorio. Sem teto
+# aqui, instalar este arquivo depois do quant sobe o pandas e quebra o quant em
+# silencio — foi o que aconteceu ao montar este ambiente.
+pandas>=2.2,<3
 numpy>=1.26
 pyyaml>=6.0
 curl_cffi>=0.7

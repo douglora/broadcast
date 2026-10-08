@@ -1,5 +1,11 @@
 # Dependencias do pacote quant (o terminal em app.py tem as suas em ../requirements.txt)
-pandas>=2.1
+# TETO MEDIDO, nao precaucao: com pandas 3.0.6 a suite do quant da 8 falhas e 24
+# erros (08/10/2026). O pandas 3 passou a usar datetime de resolucao em segundos
+# em alguns caminhos e microssegundos em outros, e `merge` com chaves de resolucao
+# diferente agora levanta MergeError. Portar e trabalho em 8 arquivos; ate la, teto.
+# O bizdays tambem exige pandas<3, mas nao da para depender disso: o
+# requirements-livro.txt sobe o pandas por cima se instalado depois.
+pandas>=2.1,<3
 numpy>=1.26
 pyarrow>=14
 requests>=2.31
