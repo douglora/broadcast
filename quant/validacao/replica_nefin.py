@@ -374,6 +374,7 @@ def rodar_gate(ini, fim, book_equity=None, retornos=None):
 
 
 def main(argv=None):
+    from quant.validacao import gate
     ap = argparse.ArgumentParser(description="Gate da fase 1: replica WML/HML do NEFIN")
     ap.add_argument("--ini", type=int, default=2008)
     ap.add_argument("--fim", type=int, default=2026)
@@ -383,7 +384,14 @@ def main(argv=None):
     except FileNotFoundError as e:
         print(str(e))
         return 2
+    # O veredito tem de sobrar em disco: `boleta.modo_seguro` bloqueia com
+    # `gate_passou is None`, e sem artefato `rodar_diario --paper` e `campanha --sessao`
+    # nasceriam bloqueados para sempre - nao teriam de onde tirar a aprovacao.
+    corpo = gate.gravar(res, args.ini, args.fim)
     print(json.dumps(res, indent=2, ensure_ascii=False))
+    print(f"\nveredito gravado em {gate.ARQ_GATE}")
+    print(f"impressao do banco: {corpo['impressao_banco'][:16]}... "
+          "(o gate deixa de valer se o banco mudar)")
     return 0 if res["passou"] else 1
 
 

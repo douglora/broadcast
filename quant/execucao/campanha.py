@@ -688,8 +688,11 @@ def main(argv=None):
         print(f"erro anotado: {linha}")
         return 0
     if args.sessao:
+        from quant.validacao import gate
         d = None if args.sessao == "hoje" else args.sessao
-        registro, msg = rodar_do_dia(d, capital=args.capital)
+        passou, motivo_gate = gate.ler()
+        print(motivo_gate)
+        registro, msg = rodar_do_dia(d, capital=args.capital, gate_passou=passou)
         if registro is None:
             print(msg)
             return 2

@@ -469,6 +469,7 @@ def gravar_painel(painel, caminho=ARQ_PAINEL):
 
 
 def main(argv=None):
+    from quant.validacao import gate
     ap = argparse.ArgumentParser(description="Rodada diaria do sistema quant (M14)")
     ap.add_argument("--paper", action="store_true", help="fills simulados (padrao)")
     ap.add_argument("--real", action="store_true", help="usa os fills registrados no livro")
@@ -477,7 +478,12 @@ def main(argv=None):
     ap.add_argument("--seed", type=int, default=7)
     args = ap.parse_args(argv)
     modo = "real" if args.real else "paper"
-    painel = rodar(modo=modo, capital=args.capital, data=args.data, seed=args.seed)
+    # O gate e quem diz se passou, nao uma flag: `modo_seguro` existe para nao aceitar
+    # declaracao humana. Sem artefato, `passou` vem None e a boleta fica bloqueada.
+    passou, motivo_gate = gate.ler()
+    log(motivo_gate)
+    painel = rodar(modo=modo, capital=args.capital, data=args.data, seed=args.seed,
+                   gate_passou=passou)
     caminho = gravar_painel(painel)
     ms = painel["modo_seguro"]
     log(f"painel em {caminho} (origem: {painel['origem']}, modo: {modo})")
