@@ -71,6 +71,8 @@ NOTA_HEDGE = ("Proteção parcial: mini-índice vendido. Entrada simulada no pri
 TOLERANCIA_PRECO_MEDIO = 0.01     # preco medio do ciclo a mais de 1% do ultimo: usa o ultimo
 SALTO_FRACAO_ADTV = 0.25          # salto de volume acima disto do giro medio, de um retrato para o outro, e descartado
 SALTO_JANELA_S = 120.0            # "de um retrato para o outro": leituras a menos de 2 minutos
+FEED_PARADO_S = 10.0              # nenhum papel da B3 com tique novo ha mais que isto, em pregao: feed parado
+FEED_ATRASO_MS = 5000.0           # tique chegando com mais que isto de atraso (mediana): feed atrasado
 
 
 # ─────────────────────────────────────────────────────────────
@@ -255,6 +257,8 @@ class Robo:
         self.sinais = None
         self.ponte = None
         self.ponte_em = 0.0
+        self.feed = {}                            # frescor das cotacoes da B3 no motor (lido de /vivo/saude)
+        self.feed_em = 0.0
         self._recarregar_fita()
 
     # ── persistencia ─────────────────────────────────────────
@@ -317,10 +321,30 @@ class Robo:
             self._marcos_do_dia(agora, fase, hora_envio)
             self._hedge(retrato, agora, fase)
             self._anotar_execucoes(agora)
+        self._frescor_do_feed()
         estado = self.estado(agora, fase, retrato)
         gravar_estado(estado, self.saidas)
         self._salvar()
         return estado
+
+    def _frescor_do_feed(self):
+        """Ha quanto tempo o MetaTrader nao entrega tique novo de papel nenhum, e o atraso do tique.
+
+        Em 08/10/2026 a conexao do MetaTrader com a corretora degradou e as cotacoes passaram a chegar em
+        rajadas, com ate 50 s paradas. O robo nao executa sem negocio novo, mas a tela tem de DIZER que o
+        feed parou em vez de parecer que esta tudo normal. Lido a cada 6 s (o motor ja mede isso).
+        """
+        if time.time() - self.feed_em < 6.0:
+            return
+        self.feed_em = time.time()
+        s = ler_motor("/vivo/saude", self.motor, timeout=2.0)
+        mt5 = next((f for f in ((s or {}).get("fontes") or []) if f.get("id") == "mt5"), None)
+        if not mt5:
+            self.feed = {}
+            return
+        self.feed = {"ok": bool(mt5.get("ok")),
+                     "sem_tique_s": _num((mt5.get("idade_s") or {}).get("menor")),
+                     "atraso_ms": _num((mt5.get("atraso_tique_acima_do_melhor_ms") or {}).get("p50"))}
 
     def _marcos_do_dia(self, agora, fase, hora_envio):
         b = self.boleta_do_dia
@@ -580,6 +604,18 @@ class Robo:
                         f"{n_sem} sem execução.",
             "encerrado": "Pregão encerrado. Medição oficial depois das 20h, com a fita da B3.",
         }
+        parado = _num(self.feed.get("sem_tique_s"))
+        atraso = _num(self.feed.get("atraso_ms"))
+        feed_ruim = fase in ("aguardando_envio", "operando") and (
+            (parado is not None and parado > FEED_PARADO_S) or (atraso is not None and atraso > FEED_ATRASO_MS))
+        if feed_ruim:
+            quanto = (f"sem negócio novo há {parado:.0f} s" if (parado or 0) > FEED_PARADO_S
+                      else f"chegando com {atraso / 1000:.0f} s de atraso")
+            alerta = (f"ATENÇÃO: cotações da B3 {quanto} (MetaTrader). O robô não executa às cegas: "
+                      "espera o negócio chegar.")
+            avisos.insert(0, alerta)
+            for k in ("aguardando_envio", "operando"):
+                textos[k] = alerta + " " + textos[k]
         bloqueios = list(ponte.get("bloqueios") or [])
         pronto = bool(b.get("emitida")) and not bloqueios
         if not b:
@@ -594,8 +630,9 @@ class Robo:
             "gerado": agora.isoformat(timespec="seconds"),
             "vivo": {"ligado": True, "fase": fase, "fase_texto": texto, "desde": self.desde,
                      "batida": agora.isoformat(timespec="seconds"), "intervalo_s": INTERVALO,
-                     "motor": {"ok": retrato is not None,
+                     "motor": {"ok": retrato is not None and not feed_ruim,
                                "idade_s": (retrato or {}).get("mt5_idade_s"),
+                               "b3_sem_tique_s": parado, "b3_atraso_ms": atraso,
                                "mt5": (motor or {}).get("mt5") or (retrato or {}).get("mt5")},
                      "negocios_vistos": s["negocios_vistos"], "com_cotacao": com_cotacao, "de": len(ordens)},
             "modo": p.get("modo") or "paper", "origem": p.get("origem"), "capital": p.get("capital"),
