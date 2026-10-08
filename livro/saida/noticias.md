@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 18h13
+NOTÍCIAS E FATOS · 07/10 21h06
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 438 veículo fora da lista, 46 sem ativo, 6 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 445 veículo fora da lista, 43 sem ativo, 3 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,32 @@ Fonte: SEC EDGAR 2026-10-07
 id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (16)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões
+Estadao · 07/10 19h51 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/economia/negocios/petrobras-domina-leilao-de-petroleo-e-gas-da-anp-com-investimento-de-r-32-bilhoes/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Estadao: Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões; confirmar o número no texto antes de repassar'
+Fonte: Estadao 07/10 19h51
+id: E05-PETR4-5fab9e92b0-2026-10-07 · status: pendente
+
+[ATENÇÃO] E05 · BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
+Yahoo Finance · 07/10 15h13 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
+  – Bitcoin dropped below $84,000 on Wednesday as a sharp crypto market pullback forced hundreds of millions of dollars in leveraged positions to close, with traders betting on higher prices taking most of the losses.
+  – Bitcoin fell as low as about $82,880 after trading as high as roughly $86,700.
+  – The decline triggered $555.6 million in cryptocurrency liquidations over a 24-hour period, according to CoinGlass.
+  – Long positions accounted for $487.2 million of the total, meaning traders who had used leverage to bet on rising prices absorbed most of the forced closures.
+  – Ether fell to around $2,550 during the selloff, while other large digital assets also moved lower.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-84-000-181347561.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 15h13
+id: E05-BTC-b6e3a09e0c-2026-10-07 · status: pendente
 
 [ATENÇÃO] E05 · VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro
 Money Times · 07/10 14h55 · fonte única · licença: integral
@@ -256,8 +281,18 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (140)
+## OUTRAS NOTÍCIAS (só manchete) (150)
 
+· UST U.S. bond market fares better than Europe after strong 10-year Treasury auction (Investing.com) https://www.investing.com/news/forex-news/french-bond-yields-resume-upward-marchfollowing-brief-relief-rally-4935716
+· PETR4 Leilão da ANP arrecada R$ 3 bi; Petrobras leva áreas na Margem Equatorial (CNN Brasil) https://www.cnnbrasil.com.br/infra/leilao-da-anp-arrecada-r-3-bi-petrobras-leva-areas-na-margem-equatorial/
+· MRVL Marvell Technology (MRVL) Lifts 2031 Revenue Goal To $70 Billion To $90 Billion (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-lifts-2031-221553872.html
+· PETR4 Com lances de quase R$3 bi, Petrobras arremata 12 blocos na Bacia de Campos (InfoMoney) https://www.infomoney.com.br/business/com-lances-de-quase-r3-bi-petrobras-arremata-12-blocos-na-bacia-de-campos/
+· BTC Bitcoin's fall sends crypto market, stocks into bloodbath: Why? (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:2b956542c094b:0-bitcoin-s-fall-sends-crypto-market-stocks-into-bloodbath-why/
+· BAC Marvell Stock Is Up 230% This Year: Bank of America Sees a Further 40% Upside (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:e92591816094b:0-marvell-stock-is-up-230-this-year-bank-of-america-sees-a-further-40-upside/
+· MRVL Marvell CEO Says $30B Custom Chip Target Is ‘Not a Stretch’ – Sees Potential For $1 Trillion Valuation (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-ceo-says-30b-custom-153640228.html
+· PETR4 Itaú BBA ainda vê potencial de alta de até 40% para Petrobras (UOL Economia) https://www.bol.uol.com.br/economia/2026/10/07/itau-bba-ainda-ve-potencial-de-alta-de-ate-40-para-petrobras.amp.htm
+· NVDA Lumentum Could See a $3.3 Billion Payoff. Nvidia’s Optics Shift Is Moving Faster Than Expected. (Yahoo Finance) https://news.google.com/rss/articles/CBMikAFBVV95cUxPektUd2JvUUxwOFNuSGo4THFwZk1wclZuQlFtSFM0eXRaWnZNNWFjTkxRZ2pUc19tV2Jjc2VPWjJNTk8wQTZiSUgzOEw3TkpJdjZUbjQxQTZyUWxaeFh3cXRTWUFVX0xya1JEWDN6eWhLX2hqNUJSSjk2cEVsbmlkQmNTd1Rrd3Y3a2VrdUJ4RzI?oc=5
+· TSM TSMC stock just hit a record — and the gains may be only starting (Yahoo Finance) https://news.google.com/rss/articles/CBMixwFBVV95cUxQLVFrdzdVSHM3dkF0MEQyR3diZm8yTGhUakdjbmpDeDBVbGVNbEhuQ2l2enBtQXlTTFBPTnJEVkNZRHFiajBXM2NHZkFTenZDaTllZHljbzlRX2FZX0pjV0J2VDlnVTNoVkdoOHFNdk5kWmFmVVNiSkpIS0lfWm1aVVBhWmVVT2VtOS05eFBIUHRxdU4wTTNVQXBXamJDQ2dDNEp6SVdWMVlMUlhhOGk4LTVya3hZWmg5aGhFOU1GNnBHamZUMVhj?oc=5
 · USDBRL Ibovespa cai 0,74% e fecha em 204.302 pontos; dólar sobe a R$ 5,011 (Poder360) https://www.poder360.com.br/poder-economia/ibovespa-cai-074-e-fecha-em-204-302-pontos-dolar-sobe-a-r-5011/
 · PETR4 Em leilão, Petrobras e Qatar Energy levam 7 blocos na Margem Equatorial (Poder360) https://www.poder360.com.br/poder-energia/em-leilao-petrobras-e-qatar-energy-levam-7-blocos-na-margem-equatorial/
 · BTC Ethereum ETFs Lose $201.9 Million As Bitcoin Funds Return To Inflows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:7766fa8d6094b:0-ethereum-etfs-lose-201-9-million-as-bitcoin-funds-return-to-inflows/
@@ -308,14 +343,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · BTC Bitcoin Price Set for a Boost: Arthur Hayes Bets on an AI Boom Bust (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxORWlkUUs5cXV3MEtUZDNDd1NOZVpTamVPX1E3THJZNnFNbExqbnNoQ3dSMnlHanVURlZVTGdPTEZjTGs4SXg0ZmFTVUs3WG9ZcTJndEttSnFzSGlHREUzb2pKaG9nUzdzYXZjN3QwM180TmpDTHlLX0lETlZrWi1WTWNVckFYS1Njb2oxYkY3M0x6WGNRMkVUaFJPaw?oc=5
 · UST 10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears (CNBC) https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5
 · MRVL Marvell Stock Gets Wave of Analyst Upgrades After Investor Day (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e4d09f9c5094b:0-marvell-stock-gets-wave-of-analyst-upgrades-after-investor-day/
-· PLTR Ives Sees a Clearer AI Bet in Palantir (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8d8186b78094b:0-ives-sees-a-clearer-ai-bet-in-palantir/
-· UST US. TREASURY 10-YEAR NOTE AUCTION SEES 97% OF BIDS TAKEN BY NON-DEALERS, A STRONG OUTCOME (TradingView (Reuters)) https://www.tradingview.com/news/macenews:a76ca6144094b:0-us-treasury-10-year-note-auction-sees-97-of-bids-taken-by-non-dealers-a-strong-outcome/
-· UST US TREASURY 10-YEAR NOTE AUCTION HIGH YIELD 5.300%; BID-COVER RATIO STRONG AT 2.77 (TradingView (Reuters)) https://www.tradingview.com/news/macenews:5bc7cd650094b:0-us-treasury-10-year-note-auction-high-yield-5-300-bid-cover-ratio-strong-at-2-77/
-· MU This AI Stock Exploded 600% in a Year, Beating Nvidia and Micron (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/ai-stock-exploded-600-beating-155610884.html
-· COHR Coherent Corp. (COHR) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/COHR/
-· JPM JPMorgan Tops AI Rankings Again: Can Its Spending Boost Returns? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:18b891fe1094b:0-jpmorgan-tops-ai-rankings-again-can-its-spending-boost-returns/
-· GOOGL Google, Unity Launch Platform to Create Video Games From Prompts (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-07/google-unity-launch-platform-to-create-video-games-from-prompts
-· ETH Ethereum Drops 5% After Tom Lee Says Bitmine Will Stop Purchases (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/ethereum-drops-5-tom-lee-134400133.html
-· ITUB4 BBDC4 e ITUB4 batem recordes, enquanto BBAS3 corrige; até onde bancos podem ir? (InfoMoney) https://www.infomoney.com.br/mercados/bbdc4-e-itub4-batem-recordes-enquanto-bbas3-corrige-ate-onde-bancos-podem-ir/
-· NVDA Should You Buy Nvidia Stock in October? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/buy-nvidia-stock-october-112200803.html
-· (+80 manchetes; lista completa em eventos/noticias.json)
+· (+90 manchetes; lista completa em eventos/noticias.json)

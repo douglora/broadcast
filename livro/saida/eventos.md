@@ -1,127 +1,106 @@
 ALERTAS · eventos
 
-(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F29 -133 bps em 5 pregões (ajuste B3 06/10) / C02 Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 pregões / C03 DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252 pregões: 12,46% · F30 na mínima de 252 pregões: 12,52%
-DI F28 12,61 (-5) · F29 12,46 (-13) · F30 12,52 (-10) · F32 12,65 (-7) · F35 12,73 (-6)
-Inclinação F35-F28 +12 bps (-1)
-F35-F28 +12 bps (-1 dia · -31 5 pregões)
-F30-F28 -9 bps (-5 dia · -45 5 pregões)
-F32 na mínima de 252 pregões: 12,65%
-F35 na mínima de 252 pregões: 12,73%
-Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
-Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
-Fonte: B3 ajuste 06/10 · ajuste B3 06/10
-ids: C01-DI-fechou-2026-10-06, C02-DI-inclinacao-2026-10-06, C03-DI-di-2026-10-06
+(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F29 -133 bps em 5 pregões (ajuste B3 07/10) / C02 Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 pregões
+DI F28 12,59 (-2) · F29 12,43 (-3) · F30 12,51 (-1) · F32 12,70 (+4) · F35 12,78 (+5)
+Inclinação F35-F28 +19 bps (+7)
+F35-F28 +19 bps (+7 dia · -24 5 pregões)
+F30-F28 -8 bps (+1 dia · -42 5 pregões)
+Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
+Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
+Fonte: B3 ajuste 07/10 · ajuste B3 07/10
+ids: C01-DI-abriu-2026-10-07, C02-DI-inclinacao-2026-10-07
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
-Investing.com · 06/10 17h59 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/evercore-isi-raises-marvell-stock-price-target-on-ai-growth-outlook-93CH-4935208
-Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
-Ativos: MRVL
-Como falar: 'saiu no Investing.com: Evercore ISI raises Marvell stock price target on AI growth outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 06/10 17h59
-ids: E05-MRVL-b8fd065ffb-2026-10-06
+(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: SAPR4, ALUP4
+· SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias de 33% a.a.
+  1m +18% · 6m -7,1% · YTD +4,2%
+· ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias de 31% a.a.
+  1m +13% · 6m +11% · YTD +23%
+Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
+Como falar: 'alta fora do padrão; costuma vir de notícia ou de fluxo, e parte dela pode devolver'
+Fonte: Yahoo Finance fech. 07/10
+ids: T05-SAPR4-alta-2026-10-07, T05-ALUP4-alta-2026-10-07
 
-(pendente de slot anterior) [ATENÇÃO] E05 · MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
-Investing.com · 06/10 17h36 · fonte única · licença: manchete
-Link: https://www.investing.com/news/analyst-ratings/marvell-stock-gets-295-target-reiterated-by-raymond-james-on-ai-outlook-93CH-4935181
+[ATENÇÃO] E05 · PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões
+Estadao · 07/10 19h51 · fonte única · licença: manchete
+Link: https://www.estadao.com.br/economia/negocios/petrobras-domina-leilao-de-petroleo-e-gas-da-anp-com-investimento-de-r-32-bilhoes/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Investing.com: Marvell stock gets $295 target reiterated by Raymond James on AI outlook; confirmar o número no texto antes de repassar'
-Fonte: Investing.com 06/10 17h36
-ids: E05-MRVL-ff24d4c234-2026-10-06
+Ativos: PETR4 · BRENT
+Como falar: 'saiu no Estadao: Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões; confirmar o número no texto antes de repassar'
+Fonte: Estadao 07/10 19h51
+Push: eventos: 2 alertas de atenção — E05 PETR4, E05 BTC · detalhe na sessão
+ids: E05-PETR4-5fab9e92b0-2026-10-07
 
-[ATENÇÃO] E05 · USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera
-UOL Economia · 06/10 18h44 · fonte única · licença: manchete
-Link: https://economia.uol.com.br/noticias/redacao/2026/10/06/dolar-volta-a-cair-mas-ibovespa-recua-apos-disparada-eleitoral.htm
+[ATENÇÃO] E05 · BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
+Yahoo Finance · 07/10 15h13 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
+  – Bitcoin dropped below $84,000 on Wednesday as a sharp crypto market pullback forced hundreds of millions of dollars in leveraged positions to close, with traders betting on higher prices taking most of the losses.
+  – Bitcoin fell as low as about $82,880 after trading as high as roughly $86,700.
+  – The decline triggered $555.6 million in cryptocurrency liquidations over a 24-hour period, according to CoinGlass.
+  – Long positions accounted for $487.2 million of the total, meaning traders who had used leverage to bet on rising prices absorbed most of the forced closures.
+  – Ether fell to around $2,550 during the selloff, while other large digital assets also moved lower.
+Link: https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-84-000-181347561.html
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: USDBRL
-Como falar: 'saiu no UOL Economia: Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na véspera; confirmar o número no texto antes de repassar'
-Fonte: UOL Economia 06/10 18h44
-Push: eventos: 2 alertas de atenção — E05 USDBRL, E05 MRVL · detalhe na sessão
-ids: E05-USDBRL-7d13238b84-2026-10-06
-
-[ATENÇÃO] E05 · MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ)
-Seeking Alpha · 06/10 16h41 · fonte única · licença: manchete
-Link: https://seekingalpha.com/news/4650703-marvell-stock-flirts-with-300-barrier-after-investor-day-guidance-boost
-Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
-Ativos: MRVL
-Como falar: 'saiu no Seeking Alpha: Marvell stock flirts with $300 barrier after investor-day guidance boost (MRVL:NASDAQ); confirmar o número no texto antes de repassar'
-Fonte: Seeking Alpha 06/10 16h41
-ids: E05-MRVL-b810c97b8f-2026-10-06
+Ativos: BTC
+Como falar: 'saiu no Yahoo Finance: Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 15h13
+ids: E05-BTC-b6e3a09e0c-2026-10-07
 
 Info (só linha no Fechamento):
-· E04 CVX · 8-K: 7.01 Regulation FD, 8.01 outros eventos
-· E05 ITUB4 · Itaú prevê que todos clientes usarão plataforma de IA até fim do ano
-· E05 USDBRL · Dólar fecha abaixo de R$ 5 pela primeira vez desde maio
-· E05 VALE3 · Vale (VALE3) sob pressão: Citi diz o que está no caminho da mineradora; saiba o que fazer com a ação agora
-· E05 DI · Juros futuros prolonga rali eleitoral nesta terça (6)
-· E05 CVX · Chevron to Shed Hess Midstream Stake in Major Bakken Restructuring
-· E05 CVX · Chevron to divest Hess Midstream stakes, take $3-4B after-tax loss; expects 50% Bakken midstream cost cut
-· E05 CVX · Chevron to Divest its Ownership Interests in Hess Midstream and DJ Basin Crude Midstream Assets
-· E05 KO · Better Dividend Stock: Coca-Cola vs. Realty Income
-· E05 BBAS3 · Banco do Brasil afunda mais de 6% e lidera perdas do Ibovespa hoje; veja maiores altas e baixas
-· E05 ETH · 21shares extends 100% sponsor fee waiver for Ethereum Staking ETF through Oct. 8, 2027
-· E05 AMZN · Kuehne+Nagel Strikes Deal With Amazon For Supply Chain, Cloud Capabilities
-· E05 MRVL · Marvell Stock Rises After CEO Announces Huge Long-Term Revenue Target
-· E05 MRVL · Marvell Stock Jumps on Massive $20 Billion Revenue Forecast
-· E05 ITUB4 · Resultado das eleições 2026 em Itaú de Minas (MG): votação para presidente na Escola Estadual Ary Pimenta Bugelli, na 293ª zona eleitoral
-· T08 AXIA3 entrou em correção: -11% do pico de 52s (R$ 67,15 em 14/04) a R$ 59,48
-· T08 BBAS3 entrou em correção: -11% do pico de 52s (R$ 27,58 em 25/02) a R$ 24,64
-· T09 MRVL +5,8% com volume 3,0x a mediana de 20 sessões, a US$ 287,01
-· T10 MRVL no máximo de força relativa em 63 sessões contra SOX: +27% vs +11% em 20 sessões (+15% relativo)
-· T10 BBDC4 no máximo de força relativa em 63 sessões contra IBOV: +25% vs +9,9% em 20 sessões (+14% relativo)
+· E05 UST · U.S. bond market fares better than Europe after strong 10-year Treasury auction
+· E05 PETR4 · Leilão da ANP arrecada R$ 3 bi; Petrobras leva áreas na Margem Equatorial
+· E05 MRVL · Marvell Technology (MRVL) Lifts 2031 Revenue Goal To $70 Billion To $90 Billion
+· E05 PETR4 · Com lances de quase R$3 bi, Petrobras arremata 12 blocos na Bacia de Campos
+· E05 BTC · Bitcoin's fall sends crypto market, stocks into bloodbath: Why?
+· E05 BAC · Marvell Stock Is Up 230% This Year: Bank of America Sees a Further 40% Upside
+· E05 MRVL · Marvell CEO Says $30B Custom Chip Target Is ‘Not a Stretch’ – Sees Potential For $1 Trillion Valuation
+· E05 PETR4 · Itaú BBA ainda vê potencial de alta de até 40% para Petrobras
+· E05 NVDA · Lumentum Could See a $3.3 Billion Payoff. Nvidia’s Optics Shift Is Moving Faster Than Expected.
+· E05 TSM · TSMC stock just hit a record — and the gains may be only starting
+· T09 BBDC4 -3,7% com volume 2,9x a mediana de 20 sessões, a R$ 21,96
+· T10 BAC no mínimo de força relativa em 63 sessões contra SPX: -15% vs +2,2% em 20 sessões (-16% relativo)
+· T10 VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -13% vs +10% em 20 sessões (-21% relativo)
 
-Suprimidos pelo teto (viram linha do Fechamento): T08-AXIA3--10-2026-10-06 (teto de atenção), T08-BBAS3--10-2026-10-06 (teto de atenção), T09-MRVL-alta-2026-10-06 (teto de atenção), T10-MRVL-máximo-2026-10-06 (teto de atenção), T10-BBDC4-máximo-2026-10-06 (teto de atenção)
+Suprimidos pelo teto (viram linha do Fechamento): T09-BBDC4-queda-2026-10-07 (teto de atenção), T10-BAC-mínimo-2026-10-07 (teto de atenção), T10-VALE3-mínimo-2026-10-07 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva FECHOU: F28 -96 bps em 5 pregões · F28 5 pregões seguidos (-106 bps) · F
-· pendente  E05 USDBRL — USDBRL · Dólar cai e fecha abaixo de R$ 5; Ibovespa recua após recorde na vésper
-· pendente  E05 MRVL — MRVL · Marvell stock flirts with $300 barrier after investor-day guidance boost 
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 -31 bps em 5 pregões · F30-F28 -45 bps em 5 preg
-· pendente  C03 DI — DI em nível: F29 cruzou 12,50% (para baixo, agora 12,46%) · F29 na mínima de 252
-· linha     T08 AXIA3 — AXIA3 entrou em correção: -11% do pico de 52s (R$ 67,15 em 14/04) a R$ 59,48
-· linha     T08 BBAS3 — BBAS3 entrou em correção: -11% do pico de 52s (R$ 27,58 em 25/02) a R$ 24,64
-· linha     T09 MRVL — MRVL +5,8% com volume 3,0x a mediana de 20 sessões, a US$ 287,01
-· linha     T10 MRVL — MRVL no máximo de força relativa em 63 sessões contra SOX: +27% vs +11% em 20 se
-· linha     T10 BBDC4 — BBDC4 no máximo de força relativa em 63 sessões contra IBOV: +25% vs +9,9% em 20
-· pendente  E05 MRVL — MRVL · Evercore ISI raises Marvell stock price target on AI growth outlook
-· pendente  E05 MRVL — MRVL · Marvell stock gets $295 target reiterated by Raymond James on AI outlook
-· entregue  E05 MRVL — MRVL · Marvell Stock Soars After Raising 2028 Guidance
-· entregue  E05 GOOGL — GOOGL · Top Midday Stories: Google Strikes 20-Year Nuclear Power Deal With Const
-· entregue  E05 BTC — BTC · Strike launches 3.6% interest on cash, paid out in Bitcoin
-· entregue  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
-· entregue  E05 USDBRL — USDBRL · Morgan eleva Brasil a compra, vê Ibovespa até 250 mil pontos e dólar a 
-· entregue  E05 PETR4 — PETR4 · Petrobras conclui exploração no Caribe colombiano, após investimento de 
-· entregue  E05 MRVL — MRVL · Marvell Investor Day: MRVL Stock Rockets As Firm Lays Out Path To Up To $
-· entregue  E05 MRVL — MRVL · Midday Need to Know: Uber buys ezCater, Marvell raises outlook & more (SP
-· entregue  E05 MRVL — MRVL · Marvell stock surges after company raises 2028 revenue outlook to $20 bil
-· entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
-· entregue  E05 GOOGL — GOOGL · Google fights £1 billion UK lawsuit over app store fees in latest Big Te
-· entregue  E05 JPM — JPM · JPMorgan Stock Is Up Just 3% This Year as Its Multiple Shrank. Here’s What
-· entregue  E05 TSLA — TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, 
-· entregue  E05 TSLA — TSLA · Tesla’s Robotaxis, FSD And Optimus Outlook Matter More Than Q3 Earnings, 
-· entregue  E05 PETR4 — PETR4 · BB Seguridade (BBSE3) substitui Petrobras (PETR4) na carteira de dividen
-· entregue  E05 AMD — AMD · Citigroup raises AMD price target on agentic AI demand outlook
-· entregue  E05 BTC — BTC · Bitcoin Investors Pull $3.3B From Binance In 15 Days — But ETF Flows, Futu
-· entregue  E05 BTC — BTC · Why bitcoin is down 'just' 32% a year after its record high of $126,000
-· entregue  E05 KO — KO · Want Income for Life? Coca-Cola Has Raised Its Dividend for 64 Straight Yea
-· entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 3 de 5 séries (faltaram 
-· linha     T01 AVGO — AVGO retomou a média de 200 dias pela 1ª sessão: US$ 375,81 vs MM200 US$ 366,64 
-· linha     T04 CSPX — CSPX (iShares Core S&P 500 UCITS ETF USD (Acc)) fechou na máxima de 52 semanas: 
-· linha     T04 SPY — SPY fechou na máxima de 52 semanas: US$ 779,09, +1,4% em 1m e +17% em 12m
-· linha     T04 AMD — AMD fechou na máxima de 52 semanas: US$ 649,42, +36% em 1m e +219% em 12m
-· linha     T04 LITE — LITE fechou na máxima de 52 semanas: US$ 1.133, +29% em 1m e +606% em 12m
-· linha     T04 BBDC4 — BBDC4 fechou na máxima de 52 semanas: R$ 22,80, +28% em 1m e +44% em 12m
-· linha     T02 DIRR3 — DIRR3 retomou a MM50 pela 2ª sessão: R$ 11,37, ainda abaixo da MM200 (repique de
-· linha     T10 JPM — JPM no mínimo de força relativa em 63 sessões contra SPX: -6,3% vs +1,9% em 20 s
-· linha     T10 EQTL3 — EQTL3 no máximo de força relativa em 63 sessões contra IBOV: +23% vs +9,9% em 20
-· linha     T12 RBOT — RBOT (iShares Automation & Robotics UCITS ETF USD (Acc)): 6 altas seguidas (+6,4
-· linha     T12 QQQ — QQQ: 6 altas seguidas (+3,1% acumulado) a US$ 759,66
-· linha     T12 EQTL3 — EQTL3: 6 altas seguidas (+23% acumulado) a R$ 48,20
-· linha     T12 BBDC4 — BBDC4: 6 altas seguidas (+29% acumulado) a R$ 22,80
-· linha     T12 SBSP3 — SBSP3: 6 altas seguidas (+20% acumulado) a R$ 32,03
-· linha     T12 SMAL11 — SMAL11: 6 altas seguidas (+18% acumulado) a R$ 128,60
-· linha     F01 USDBRL — Real sobe: USD/BRL 4,9742 (-4,6% em 5 sessões) (parcial, intradia)
-· linha     F03 BRENT — Brent cai a US$ 98,32 (cruzou US$ 100) (parcial, intradia)
-· (+163 notícias só manchete, em noticias.md)
+· pendente  C01 DI — A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F2
+· pendente  T05 SAPR4 — SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias d
+· pendente  E05 PETR4 — PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 
+· pendente  E05 BTC — BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped 
+· pendente  C02 DI — Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 preg
+· pendente  T05 ALUP4 — ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias 
+· linha     T09 BBDC4 — BBDC4 -3,7% com volume 2,9x a mediana de 20 sessões, a R$ 21,96
+· linha     T10 BAC — BAC no mínimo de força relativa em 63 sessões contra SPX: -15% vs +2,2% em 20 se
+· linha     T10 VALE3 — VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -13% vs +10% em 20 
+· entregue  E05 VALE3 — VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos anal
+· entregue  E05 BAC — BAC · Marvell price target raised by Bank of America on $80 billion sales outloo
+· entregue  E05 CVX — CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
+· entregue  E05 DI — DI · Inflação volta a subir no Focus e supera 5%; projeção para a Selic fica est
+· entregue  E05 JPM — JPM · JPMorgan Just Raised Its Dividend 10%. These 4 Stocks Also Can Afford to P
+· entregue  E05 MRVL — MRVL · RBC Capital raises Marvell stock price target on AI growth outlook
+· entregue  E05 CVX — CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
+· entregue  E05 CVX — CVX · Hess Midstream stock drops on Chevron restructuring and lower 2027 outlook
+· entregue  E05 MRVL — MRVL · Cantor Fitzgerald raises Marvell stock price target on revenue outlook
+· entregue  E05 UST — UST · 10-year Treasury note yield hits highest level since 2002 as traders brace
+· entregue  E05 MRVL — MRVL · Susquehanna raises Marvell stock price target on data center growth
+· entregue  E03 AXIA3 — AXIA3 · Fato Relevante: O seu Conselho de Administração aprovou, nesta data, o r
+· entregue  E05 MRVL — MRVL · Marvell just gave a bullish outlook. It led TD Cowen to upgrade the stock
+· entregue  E05 MRVL — MRVL · Piper Sandler raises Marvell stock price target on revenue outlook
+· entregue  E05 BTC — BTC · Bitcoin Falls as $550 Million in Risky Crypto Bets Wiped Out
+· entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
+· linha     C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,43% · F30 na mínima de 252 pregões
+· linha     T01 SAPR4 — SAPR4 retomou a média de 200 dias pela 1ª sessão: R$ 8,04 vs MM200 R$ 7,62 (+5,5
+· linha     T03 META — META formou golden cross: MM50 US$ 633,08 cruzou acima da MM200 US$ 628,57 pela 
+· linha     T04 ALUP4 — ALUP4 fechou na máxima de 52 semanas: R$ 12,30, +13% em 1m e +31% em 12m
+· linha     T04 SMAL11 — SMAL11 fechou na máxima de 52 semanas: R$ 130,20, +17% em 1m e +25% em 12m
+· linha     T02 GOOGL — GOOGL retomou a MM50 pela 2ª sessão: US$ 350,50, acima da MM200 (tendência longa
+· linha     T02 CURY3 — CURY3 retomou a MM50 pela 2ª sessão: R$ 32,27, acima da MM200 (tendência longa p
+· linha     T07 SAPR4 — SAPR4 entrou em sobrecomprado: RSI14 80 a R$ 8,04
+· linha     T07 ALUP4 — ALUP4 entrou em sobrecomprado: RSI14 75 a R$ 12,30
+· linha     T07 RARA11 — RARA11 entrou em sobrevendido: RSI14 23 a R$ 13,86
+· linha     T09 SMAL11 — SMAL11 +1,2% com volume 4,0x a mediana de 20 sessões, a R$ 130,20
+· linha     F01 USDBRL — Real cai: USD/BRL 5,0156 (-3,0% em 5 sessões · cruzou R$ 5,00) (parcial, intradi
+· linha     F06 BTC — BTC cai a US$ 83.316 (cruzou US$ 85.000)
+· (+154 notícias só manchete, em noticias.md)
 
