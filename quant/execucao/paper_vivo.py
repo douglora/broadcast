@@ -97,9 +97,10 @@ class Sessao:
     sempre funcao da fita inteira acumulada, nunca da ordem em que os lotes chegaram.
     """
 
-    def __init__(self, boleta, participacao_max=paper.MAX_PARTICIPACAO):
+    def __init__(self, boleta, participacao_max=paper.MAX_PARTICIPACAO, reprecificar=False):
         self.boleta = boleta if isinstance(boleta, dict) else {}
         self.participacao_max = participacao_max
+        self.reprecificar = bool(reprecificar)      # o robo ao vivo segue os degraus da boleta
         self._fita = pd.DataFrame(columns=COLUNAS_NEGOCIOS)
         self._fills = pd.DataFrame(columns=paper._colunas_fill())
 
@@ -113,7 +114,8 @@ class Sessao:
                           else partes[0].reset_index(drop=True))
             self._fita = self._fita.sort_values("hora", kind="stable").reset_index(drop=True)
             self._fills = paper.simular(self.boleta, self._fita,
-                                        participacao_max=self.participacao_max)
+                                        participacao_max=self.participacao_max,
+                                        reprecificar=self.reprecificar)
         return self.estado()
 
     def aplicar_mt5(self, tiques, ticker):

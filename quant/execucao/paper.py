@@ -191,7 +191,33 @@ def _tickers_da_ordem(ordem):
     return {t, t + SUFIXO_FRACIONARIO} if ordem.get("fracionario") else {t}
 
 
-def simular(boleta, negocios, participacao_max=MAX_PARTICIPACAO):
+def limites_no_tempo(ordem, horas, reprecificar=False):
+    """Preco limite em vigor na hora de cada negocio.
+
+    Sem `reprecificar` e o `preco_limite` da ordem o dia todo (a regra de sempre). Com ele,
+    cada degrau de `limite_reprecificado` (12:20, 14:20, 16:20 na boleta padrao) passa a
+    valer para os negocios daquela hora em diante: e a boleta como ela esta escrita, e e o
+    que o robo ao vivo executa sozinho. A regra continua UMA so - o vivo e o fechamento
+    chamam esta funcao com o mesmo argumento.
+    """
+    base = _num(ordem.get("preco_limite"))
+    lim = np.full(len(horas), base, dtype=float)
+    if not reprecificar:
+        return lim
+    degraus = []
+    for x in (ordem.get("limite_reprecificado") or []):
+        if not isinstance(x, dict):
+            continue
+        h, pr = str(x.get("hora") or "")[:5], _num(x.get("preco"))
+        if len(h) == 5 and math.isfinite(pr) and pr > 0:
+            degraus.append((h, pr))
+    hh = np.array([str(h)[:5] for h in horas], dtype=object)
+    for h, pr in sorted(degraus):
+        lim[hh >= h] = pr
+    return lim
+
+
+def simular(boleta, negocios, participacao_max=MAX_PARTICIPACAO, reprecificar=False):
     """Casa cada ordem da boleta contra o negocio-a-negocio do dia.
 
     `negocios`: DataFrame com ticker, hora, preco e quantidade (a saida de arquivar_b3,
@@ -232,7 +258,9 @@ def simular(boleta, negocios, participacao_max=MAX_PARTICIPACAO):
         maximo = min(alvo, teto)
         if maximo <= 0:
             continue
-        elegiveis = janela[janela["preco"] <= limite] if lado == "C" else janela[janela["preco"] >= limite]
+        lim = limites_no_tempo(o, janela["hora"].to_numpy(), reprecificar)
+        precos_j = janela["preco"].to_numpy(dtype=float)
+        elegiveis = janela[precos_j <= lim] if lado == "C" else janela[precos_j >= lim]
         if len(elegiveis) == 0:
             continue
         # Consome os negocios elegiveis em ordem cronologica ate `maximo`: o corte e o
