@@ -682,3 +682,109 @@ def test_robo_no_setup_phicube_entra_pelo_sinal_do_grafico_e_comeca_zerado(tmp_p
     assert r.operacoes[-1]["motivo"] == "alvo" and r.operacoes[-1]["saida"] == 5043.5 and r.operacoes[-1]["resultado"] == pytest.approx(117.60)
     assert est["resultado"]["dia"] == pytest.approx(155.20)
     assert os.path.exists(tmp_path / "dt" / "2026-10-08" / "estado_phicube.json") and os.path.exists(tmp_path / "dt" / "2026-10-08" / "estado_fluxo.json")
+
+
+# ── setup de niveis (o que os instrutores fazem nas lives): teste de nivel e reacao ──────────────
+def _dois_dias(hoje_precos):
+    """Ontem: um pregao de 5.000 a 5.040 (maxima 5.040,0, minima 5.000,0, fecha em 5.020,0). Hoje: os fechamentos dados,
+    um por minuto a partir das 9h00, com maxima e minima meio ponto alem."""
+    import numpy as np
+    import pandas as pd
+    ontem = pd.date_range("2026-10-07 09:00", periods=540, freq="min")
+    c1 = np.r_[np.linspace(5010, 5040, 200), np.linspace(5040, 5000, 200), np.linspace(5000, 5020, 140)]
+    c1 = np.round(c1 * 2) / 2
+    hoje = pd.date_range("2026-10-08 09:00", periods=len(hoje_precos), freq="min")
+    c2 = np.array(hoje_precos, dtype=float)
+    c = np.r_[c1, c2]
+    return pd.DataFrame({"o": c, "h": c + 0.5, "l": c - 0.5, "c": c, "n": 10.0, "v": 100.0}, index=ontem.append(hoje))
+
+
+def test_nivel_e_reacao_vende_a_rejeicao_da_maxima_de_ontem():
+    from quant.daytrade import barras as br, estrategias_hist as eh, historico as hist
+    # hoje abre em 5.022 e sobe ate encostar na maxima de ontem (5.040,5 com a sombra); a barra de 4 minutos das 9h28
+    # vai a 5.040,0 e fecha de volta em 5.038,0
+    sobe = [5022.0 + 0.5 * k for k in range(28)]                       # 9h00 a 9h27: 5.022,0 ate 5.035,5
+    teste = [5037.5, 5040.0, 5039.0, 5038.0]                           # 9h28 a 9h31: encosta e volta
+    df = _dois_dias(sobe + teste)
+    est = eh.NivelReacao()
+    est.preparar(df)
+    i = len(df) - 1
+    assert est.nova_s[i] and est.max_ontem[i] == 5040.5
+    nomes = est.niveis_com_nome(i, 5038.0)
+    assert nomes[5040.5] == "máxima de ontem" and nomes[5040.0] == "número redondo" and nomes[5020.0] == "fechamento de ontem"
+    o = est.decidir(i, None, {})
+    # barra: abre 5.037,5, maxima 5.040,5, fecha 5.038,0. Nivel 5.040,0: encostou e fechou 2 pontos abaixo -> vende.
+    # stop 1 ponto acima da maxima da barra = 5.041,5 -> 3,5 de risco + 0,5 do tick = 4,0; alvo: o nivel seguinte a 13+ pontos
+    # abaixo e 5.022,0 (a abertura), 16 pontos. 16 / 4 = 4 vezes o risco.
+    assert o and (o.lado, o.stop_pts, o.alvo_pts, o.parcial_pts, o.nivel) == ("V", 4.0, 16.0, 4.0, 5040.0)
+    assert o.nome_nivel == "número redondo"
+    # ao vivo, sobre as mesmas barras, a ordem e a mesma, com o ajuste oficial entrando como nivel de fora
+    sinal = br.SinalNiveis()
+    leitura, ordem = sinal.atualizar(df, [(5027.758, "ajuste de ontem")])
+    assert leitura["pronto"] and leitura["acima"] == 5040.0 and leitura["abaixo"] == 5030.0
+    assert {"preco": 5028.0, "nome": "ajuste de ontem"} in leitura["niveis"]
+    assert ordem and (ordem.lado, ordem.stop_pts) == ("V", 4.0) and sinal.atualizar(df)[1] is None
+    # sem rejeicao (fechou colado no nivel) nao ha ordem; com o stop caro (sombra longa) tambem nao
+    assert eh.NivelReacao().__class__ and br.SinalNiveis().atualizar(_dois_dias(sobe + [5037.5, 5040.0, 5039.5, 5039.5]))[1] is None
+    caro = _dois_dias(sobe + teste)
+    caro.iloc[-3, caro.columns.get_loc("h")] = 5041.5                 # fura 1,5 ponto: ainda vale, mas o stop iria a 5.042,5
+    assert br.SinalNiveis(stop_max=4.0).atualizar(caro)[1] is None
+    # o simulador com a mesma regra faz o negocio no dia
+    neg = hist.simular(_dois_dias(sobe + teste + [5037.0, 5034.0, 5030.0, 5026.0, 5022.0, 5020.0]), eh.NivelReacao(), hist.RegrasDoDia(), hist.Custos())
+    # vende a 5.036,5 (abertura 5.037,0 menos 1 tick); parcial de 1 em 5.032,5 (+4); alvo de 1 em 5.020,5 (+16): 20 x 10 - 4,80
+    neg = [x for x in neg if str(x.dia) == "2026-10-08"]              # o pregao de ontem, de mentira, tambem gera negocios
+    assert len(neg) == 1 and neg[0].lado == "V" and neg[0].saida == "alvo" and neg[0].resultado == pytest.approx(195.20)
+
+
+def test_minutos_tirados_da_fita_tem_maxima_e_minima():
+    from quant.daytrade import barras as br
+    import pandas as pd
+    f = fx.Fita("WDOX26", 0.5)
+    base = int(pd.Timestamp("2026-10-08 10:15:00").timestamp())       # a fita carimba a hora de Brasilia como se fosse UTC
+    for seg, preco, vol in ((0, 5030.0, 10), (20, 5032.5, 5), (40, 5029.5, 8), (59, 5031.0, 2), (60, 5031.5, 4), (125, 5033.0, 1)):
+        _por(f, base + seg, preco, vol, 0)
+    m = br.minutos_da_fita(f)
+    # o minuto das 10h15 fechou: abre 5.030,0, maxima 5.032,5, minima 5.029,5, fecha 5.031,0, volume 25. O das 10h17 ainda corre.
+    assert m[0] == (pd.Timestamp("2026-10-08 10:15:00"), 5030.0, 5032.5, 5029.5, 5031.0, 25.0)
+    assert [x[0].strftime("%H:%M") for x in m] == ["10:15", "10:16"]
+    assert br.minutos_da_fita(f, depois_de=pd.Timestamp("2026-10-08 10:15:00"))[0][0].strftime("%H:%M") == "10:16"
+    # onde a fita tem o minuto inteiro, ela vale; o resto vem do fechamento do motor
+    juntos = br.juntar_minutos([(pd.Timestamp("2026-10-08 10:14:00"), 5029.0), (pd.Timestamp("2026-10-08 10:15:00"), 5031.0)], m)
+    assert len(juntos) == 3 and len(juntos[0]) == 2 and juntos[1][2] == 5032.5
+
+
+def test_robo_no_setup_de_niveis(tmp_path, monkeypatch):
+    from quant.daytrade import historico as hist
+    rf, _r0, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
+    monkeypatch.setattr(rf, "ATIVOS", ("WDOFUT",))
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos, r.ajustes = {"WDOFUT": "WDOX26"}, {"WDOFUT": 5027.758}
+    leitura = {"pronto": True, "setup": "niveis", "tempo_min": 4, "fechamento": 5038.0, "barra": [5037.5, 5040.5, 5037.0, 5038.0],
+               "niveis": [{"preco": 5022.0, "nome": "abertura"}, {"preco": 5030.0, "nome": "número redondo"},
+                          {"preco": 5040.0, "nome": "máxima de ontem"}], "acima": 5040.0, "abaixo": 5030.0, "barras": 9000}
+    vistos = []
+
+    class Falso:
+        def __init__(self): self.vez = 0
+        def atualizar(self, df, extras=()):
+            self.vez += 1
+            vistos.append(list(extras))
+            return leitura, (hist.Ordem("V", 4.0, parcial_pts=4.0, alvo_pts=16.0, nivel=5040.0, nome_nivel="máxima de ontem") if self.vez == 1 else None)
+    r.sinais_pc["WDOFUT"] = Falso()
+    agora = datetime(2026, 10, 8, 10, 16, 7, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5038.0, agora.timestamp())}})
+    pos = r.estados["WDOFUT"].posicao
+    # vende a mercado em 5.037,5; stop 4 pontos acima = 5.041,5; alvo 16 pontos abaixo = 5.021,5
+    assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.stop, pos.alvo, pos.nome_nivel) == ("nível e reação", "V", 5037.5, 5041.5, 5021.5, "máxima de ontem")
+    assert vistos[0] == [(5027.758, "ajuste de ontem")]                # o ajuste oficial vai para a regra como nivel
+    assert est["regra"] == "niveis" and "níveis" in est["regras"]["nome"] and any("PERDEU" in a for a in est["avisos"])
+    assert [n["nome"] for n in est["instrumentos"][0]["niveis"]] == ["máxima de ontem", "número redondo", "abertura"]
+    assert "teste de máxima de ontem" in r.diario[-1]["texto"] and est["instrumentos"][0]["grafico"]["acima"] == 5040.0
+    # sem posicao, a tela diz o que ele espera
+    r2 = rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt5), setup="niveis")
+    r2.codigos = {"WDOFUT": "WDOX26"}
+    r2.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): (leitura, None)})()
+    amanha = datetime(2026, 10, 9, 10, 16, 7, tzinfo=BRT)
+    est2 = r2.ciclo(amanha, retrato={"q": {"WDOFUT": _cotacao(5036.0, amanha.timestamp())}})
+    espera = est2["instrumentos"][0]["espera"][-1]
+    assert "máxima de ontem em 5.040,0" in espera and "vende" in espera and "número redondo em 5.030,0" in espera and "compra" in espera

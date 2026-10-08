@@ -44,9 +44,11 @@ class Barras:
                 pass
         if os.path.exists(self.arq_proprio):
             try:
-                p = pd.read_csv(self.arq_proprio, sep=";", names=["hora", "c"], parse_dates=["hora"])
-                p = p.dropna().drop_duplicates("hora", keep="last").set_index("hora").sort_index()
-                p = pd.DataFrame({"o": p["c"], "h": p["c"], "l": p["c"], "c": p["c"], "n": 0.0, "v": 0.0})
+                p = pd.read_csv(self.arq_proprio, sep=";", names=["hora", "a", "b", "c", "d", "e"], parse_dates=["hora"])
+                p = p.dropna(subset=["a"]).drop_duplicates("hora", keep="last").set_index("hora").sort_index()
+                inteira = p["d"].notna()                           # linha nova: hora;o;h;l;c;v. Linha antiga: hora;fechamento
+                p = pd.DataFrame({"o": p["a"], "h": p["b"].where(inteira, p["a"]), "l": p["c"].where(inteira, p["a"]),
+                                  "c": p["d"].where(inteira, p["a"]), "n": 0.0, "v": p["e"].where(inteira, 0.0)})
                 partes.append(p)
             except Exception:
                 pass
@@ -59,19 +61,28 @@ class Barras:
     def acrescentar(self, minutos):
         """`minutos`: lista de (hora do minuto como Timestamp sem fuso, fechamento), so minutos JA FECHADOS.
         Guarda os que ainda nao tem. Devolve quantos entraram."""
-        novos = [(t, float(c)) for t, c in minutos if c and (self.ultimo_minuto is None or t > self.ultimo_minuto)]
+        novos = {}
+        for x in minutos:                                    # (hora, fechamento) ou (hora, o, h, l, c, v)
+            t = x[0]
+            if self.ultimo_minuto is not None and t <= self.ultimo_minuto:
+                continue
+            o, h, l, c, v = (x[1], x[1], x[1], x[1], 0.0) if len(x) == 2 else x[1:6]
+            if c and c > 0:
+                novos[t] = (float(o), float(h), float(l), float(c), float(v))
         if not novos:
             return 0
-        novos.sort()
-        add = pd.DataFrame({"o": [c for _t, c in novos], "h": [c for _t, c in novos], "l": [c for _t, c in novos],
-                            "c": [c for _t, c in novos], "n": 0.0, "v": 0.0}, index=pd.DatetimeIndex([t for t, _c in novos], name="hora"))
+        ordem = sorted(novos)
+        add = pd.DataFrame({"o": [novos[t][0] for t in ordem], "h": [novos[t][1] for t in ordem], "l": [novos[t][2] for t in ordem],
+                            "c": [novos[t][3] for t in ordem], "n": 0.0, "v": [novos[t][4] for t in ordem]},
+                           index=pd.DatetimeIndex(ordem, name="hora"))
         self.df = pd.concat([self.df, add]).iloc[-MAXIMO_NA_MEMORIA:]
         self.ultimo_minuto = self.df.index[-1]
         try:
             garantir_dir(os.path.dirname(self.arq_proprio))
             with open(self.arq_proprio, "a", encoding="ascii") as f:
-                for t, c in novos:
-                    f.write(f"{t.strftime('%Y-%m-%d %H:%M:%S')};{c}\n")
+                for t in ordem:
+                    o, h, l, c, v = novos[t]
+                    f.write(f"{t.strftime('%Y-%m-%d %H:%M:%S')};{o};{h};{l};{c};{v}\n")
         except OSError:
             pass
         return len(novos)
@@ -92,6 +103,71 @@ def minutos_do_motor(serie, agora):
         fora[m] = p                                            # o ultimo preco do minuto
     tz = agora.tzinfo
     return [(pd.Timestamp.fromtimestamp(m, tz).tz_localize(None), p) for m, p in sorted(fora.items())]
+
+
+def minutos_da_fita(fita, depois_de=None):
+    """Barras de 1 minuto INTEIRAS (abertura, maxima, minima, fechamento, volume) tiradas da fita de negocios,
+    so dos minutos que ja fecharam no relogio da fita. A hora da fita ja e a de Brasilia."""
+    if fita is None or not fita.linhas:
+        return []
+    minuto_atual = fita.relogio() // 60
+    fora = {}
+    for x in fita.linhas:
+        m = x["seg"] // 60
+        if m >= minuto_atual:
+            continue
+        p, v = x["preco"], x["compra"] + x["venda"] + x.get("indef", 0.0)
+        b = fora.get(m)
+        if b is None:
+            fora[m] = [p, p, p, p, v]
+        else:
+            b[1], b[2], b[3], b[4] = max(b[1], p), min(b[2], p), p, b[4] + v
+    lista = [(pd.Timestamp(m * 60, unit="s"), *b) for m, b in sorted(fora.items())]
+    return [x for x in lista if depois_de is None or x[0] > depois_de]
+
+
+def juntar_minutos(do_motor, da_fita):
+    """Onde a fita tem o minuto inteiro, vale ela; onde nao tem, o fechamento que o motor da."""
+    fora = {x[0]: x for x in do_motor}
+    fora.update({x[0]: x for x in da_fita})
+    return [fora[t] for t in sorted(fora)]
+
+
+class SinalNiveis:
+    """O teste de nivel com reacao (estrategias_hist.NivelReacao), calculado sobre as barras ao vivo."""
+    BARRAS = 8_000                    # basta o pregao de ontem e o de hoje; sobra
+
+    def __init__(self, **parametros):
+        self.est = eh.NivelReacao(**parametros)
+        self.leitura = None
+        self.minuto_decidido = None
+
+    def atualizar(self, df, extras=()):
+        e = self.est
+        d = df.iloc[-self.BARRAS:]
+        if len(d) < 300:
+            self.leitura = {"pronto": False, "motivo": f"faltam barras: {len(d)} de 300 minutos"}
+            return self.leitura, None
+        e.extras = tuple(extras)
+        e.preparar(d)
+        i = len(d) - 1
+        k = int(e.is_[i])
+        if k < 1:
+            self.leitura = {"pronto": False, "motivo": "sem barra fechada"}
+            return self.leitura, None
+        c = float(e.sc[k])
+        com_nome = e.niveis_com_nome(i, c)
+        self.leitura = {"pronto": True, "setup": "niveis", "tempo_min": e.tempo, "fechamento": c,
+                        "barra": [float(e.so[k]), float(e.sh[k]), float(e.sl[k]), c],
+                        "niveis": [{"preco": v, "nome": com_nome[v]} for v in sorted(com_nome)],
+                        "acima": next((v for v in sorted(com_nome) if v > c), None),
+                        "abaixo": next((v for v in sorted(com_nome, reverse=True) if v < c), None),
+                        "barras": int(len(df))}
+        ordem = None
+        if bool(e.nova_s[i]) and self.minuto_decidido != d.index[i]:
+            self.minuto_decidido = d.index[i]
+            ordem = e.decidir(i, d.index[i].date(), {})
+        return self.leitura, ordem
 
 
 class SinalPhiCube:

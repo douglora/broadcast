@@ -329,11 +329,24 @@ class NivelReacao(Estrategia):
             p = ps.to_numpy()
             self.proibido_vender, self.proibido_comprar = (p >= 6) & acima, (p >= 0) & (p <= 1) & abaixo
 
-    def niveis(self, i, preco):
-        fixos = [self.max_ontem[i], self.min_ontem[i], self.fech_ontem[i], self.ajuste[i], self.abertura[i], self.max_dia[i], self.min_dia[i]]
+    extras = ()                                            # niveis de fora: [(valor, nome)], postos pelo robo ao vivo
+
+    def niveis_com_nome(self, i, preco):
+        """{valor arredondado ao tick: nome}. Quando dois niveis caem no mesmo preco, vale o primeiro da lista."""
         base = np.floor(preco / self.redondo) * self.redondo
-        fixos += [base - self.redondo, base, base + self.redondo, base + 2 * self.redondo]
-        return sorted({round(float(x) * 2) / 2 for x in fixos if x is not None and not np.isnan(x)})
+        lista = [(self.ajuste[i], "ajuste de ontem"), *[(v, n) for v, n in self.extras],
+                 (self.max_ontem[i], "máxima de ontem"), (self.min_ontem[i], "mínima de ontem"), (self.fech_ontem[i], "fechamento de ontem"),
+                 (self.abertura[i], "abertura"), (self.max_dia[i], "máxima do dia"), (self.min_dia[i], "mínima do dia"),
+                 *[(base + k * self.redondo, "número redondo") for k in (-1, 0, 1, 2)]]
+        fora = {}
+        for v, nome in lista:
+            if v is None or np.isnan(v):
+                continue
+            fora.setdefault(round(float(v) * 2) / 2, nome)
+        return fora
+
+    def niveis(self, i, preco):
+        return sorted(self.niveis_com_nome(i, preco))
 
     def decidir(self, i, dia, ctx):
         if not self.nova_s[i] or self.is_[i] < 1:
@@ -360,7 +373,8 @@ class NivelReacao(Estrategia):
             if alvo / risco < self.rr_min:
                 continue
             return Ordem(lado, float(risco), parcial_pts=None if self.parcial_r is None else float(self.parcial_r * risco),
-                         alvo_pts=float(alvo), motivo=f"{self.nome}: nível {L:.1f}")
+                         alvo_pts=float(alvo), motivo=f"{self.nome}: nível {L:.1f}", nivel=float(L),
+                         nome_nivel=self.niveis_com_nome(i, c).get(L, "nível"))
         return None
 
 

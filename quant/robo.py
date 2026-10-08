@@ -209,7 +209,7 @@ def dia():
     if modo() == "daytrade":
         # day trade nao tem preparacao de manha nem medicao a noite: so o pregao, e zera antes do fim
         regra = str((ler_json(ARQ_MODO, padrao=None) or {}).get("regra") or "v0")
-        if regra in ("fluxo", "phicube"):
+        if regra in ("fluxo", "phicube", "niveis"):
             # "fluxo": leitura da fita (precisa do AutopilotFeed 1.3 no MetaTrader); "phicube": grafico (medias de Bo Williams)
             from quant.daytrade import robo_fluxo as dt
             log(f"rotina: modo day trade, setup {regra} (simulacao)")

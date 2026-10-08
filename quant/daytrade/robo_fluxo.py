@@ -42,6 +42,12 @@ ARQ_SERIE = os.path.join(DIR_DT, "serie_fluxo.json")
 # historico (estrategias_hist.PhiCubeV1), que e a classe usada ao vivo.
 PHICUBE = {"maior": 15, "menor": 4, "tipo": "mima", "exige_preco": True, "fundo": 5, "stop_min": 2.0, "stop_max": 8.0,
            "saida": "fixo", "alvo_pts": 35.0, "parcial_r": 1.0}
+# o setup "niveis" (escolha do Douglas em 08/10/2026, a "opcao C"): o que os instrutores do PhiCube fazem nas lives.
+# Teste de nivel com reacao no grafico de 4 minutos, stop colado atras do nivel, alvo no nivel seguinte.
+# Sao os parametros do teste historico (estrategias_hist.NivelReacao), que perdeu cerca de R$ 20 por negocio.
+NIVEIS = {"tempo": 4, "tol": 1.0, "fura": 2.0, "rejeita": 1.5, "folga": 1.0, "stop_min": 3.0, "stop_max": 10.0, "alvo_min": 13.0,
+          "alvo_max": 40.0, "alvo_padrao": 20.0, "rr_min": 2.0, "parcial_r": 1.0, "idade_extremo": 20, "redondo": 10.0}
+SETUPS_DE_GRAFICO = ("phicube", "niveis")
 FITA_PARADA_S = 30.0
 # o ajuste OFICIAL dos futuros, que o terminal coleta do boletim diario da B3. O "fechamento anterior" do
 # MetaTrader e o ultimo negocio da noite, nao o ajuste: em 07/10/2026 um era 5.044,0 e o outro 5.027,758
@@ -102,6 +108,31 @@ def spread_do_livro(livro, codigo):
     return v[0][0] - c[0][0]
 
 
+def regras_niveis(p):
+    c = NIVEIS
+    parar = [f"com {ef._rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
+             f"quando devolve {p.devolucao_para:.0%} do lucro que o dia já teve"]
+    if p.meta_dia_rs:
+        parar.append(f"ou ao ganhar {ef._rs(p.meta_dia_rs)} (a sua meta de 1%)")
+    return [
+        "Setup de níveis, só no mini-dólar: é o que os instrutores da sala do PhiCube fazem nas lives, e o mesmo desenho do nível "
+        "defendido e do reteste do método de fluxo, só com preço.",
+        "NÍVEIS: de ontem, o ajuste, a máxima, a mínima e o fechamento; de hoje, a abertura e a máxima e a mínima do dia formadas há "
+        f"pelo menos {c['idade_extremo']} minutos; e os números redondos, de {ef._n(c['redondo'])} em {ef._n(c['redondo'])} pontos.",
+        f"ENTRADA: uma barra de {c['tempo']} minutos encosta no nível (até {ef._n(c['tol'])} ponto antes ou {ef._n(c['fura'])} além) e fecha de volta, "
+        f"pelo menos {ef._n(c['rejeita'])} ponto do lado de onde veio. Veio de baixo e foi rejeitado: vende. Veio de cima e segurou: compra.",
+        f"Stop: {ef._n(c['folga'])} ponto além do extremo da barra de teste, de {ef._n(c['stop_min'])} a {ef._n(c['stop_max'])} pontos. "
+        "Se ficar maior que isso, não opera (\"stop caro\").",
+        f"Alvo: o nível seguinte na direção da operação, entre {ef._n(c['alvo_min'])} e {ef._n(c['alvo_max'])} pontos "
+        f"({ef._n(c['alvo_padrao'])} quando não há nível). Só entra se o alvo paga pelo menos {ef._n(c['rr_min'])} vezes o risco.",
+        f"Condução: metade sai com {ef._n(c['parcial_r'])} vez o risco e o stop vai para o preço de entrada; o resto espera o alvo.",
+        f"Lote: {p.lote_base} contratos de mini-dólar; sobe {p.lote_por_degrau} a cada {ef._rs(p.colchao_por_degrau)} de lucro acumulado (até {p.lote_maximo}).",
+        "Para " + ", ".join(parar) + ".",
+        f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
+        f"e com o spread aberto. Às {p.hora_zerar} zera tudo.",
+    ]
+
+
 def regras_phicube(p):
     c = PHICUBE
     parar = [f"com {ef._rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
@@ -140,7 +171,8 @@ class RoboFluxo:
         self.hoje = str(hoje)
         self.saidas = list(saidas or SAIDAS_PADRAO)
         self.motor = motor
-        self.setup = setup                                       # "fluxo" (leitura da fita) ou "phicube" (grafico)
+        self.setup = setup                                       # "fluxo" (fita), "phicube" ou "niveis" (os dois de grafico)
+        self.grafico = setup in SETUPS_DE_GRAFICO
         self.arq_serie = ARQ_SERIE if setup == "fluxo" else os.path.join(DIR_DT, f"serie_{setup}.json")
         self.p = ef.ParamFluxo()
         self.janela = chave.janela(self.hoje)                   # a janela do dia e do Douglas (pode ter excecao por data)
@@ -185,10 +217,10 @@ class RoboFluxo:
         self.chave = chave.ler()                                 # liga/desliga do Douglas
         self.preparado = False                                   # ja leu contratos e ajuste nesta execucao?
         self.barras, self.sinais_pc, self.leitura_pc, self.ordem_pc, self.minuto_pc = {}, {}, {}, {}, None
-        if setup == "phicube":
+        if self.grafico:
             for a in ATIVOS:
                 self.barras[a] = br.Barras(a, DIR_DT, pasta_mt5)
-                self.sinais_pc[a] = br.SinalPhiCube(eh.PhiCubeV1, **PHICUBE)
+                self.sinais_pc[a] = br.SinalNiveis(**NIVEIS) if setup == "niveis" else br.SinalPhiCube(eh.PhiCubeV1, **PHICUBE)
         self.acumulado_antes = self._acumulado_antes()
 
     # ── persistencia ─────────────────────────────────────────
@@ -313,6 +345,11 @@ class RoboFluxo:
                                             contrato=self.codigos.get(a)), ensure_ascii=False) + "\n")
             except OSError:
                 pass
+            if self.setup == "niveis":
+                self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
+                            f"(teste de {ev['nome_nivel']} em {_pontos(ev['nivel'], a)}, rejeitado); stop {_pontos(ev['stop'], a)}, "
+                            f"alvo a {_pontos(m.get('alvo_pts') or 0, a)} pontos", agora)
+                return
             if self.setup == "phicube":
                 self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
                             f"(PhiCube: tendência de {m.get('tendencia')} em {m.get('maior_min')} minutos e virada em {m.get('menor_min')}); "
@@ -380,7 +417,7 @@ class RoboFluxo:
                         "var": (preco / base - 1.0) if base and base > 0 else None}
             self.cot[a]["var_ajuste"] = contexto["var"]
             pode = self.trava is None and self.chave["ligado"]
-            if self.setup == "phicube":
+            if self.grafico:
                 contexto["sinal"] = self._sinal_phicube(a, agora)        # None na maior parte do tempo; a fita nao decide
             else:
                 pode = pode and fonte is not None                        # leitura de fluxo sem fita nao entra
@@ -435,10 +472,21 @@ class RoboFluxo:
             self.minuto_pc = (a, minuto)
             serie = ler_motor(f"/vivo/intradia?s={a}&dias=1", self.motor, timeout=6.0) or {}
             try:
-                self.barras[a].acrescentar(br.minutos_do_motor(serie, agora))
-                self.leitura_pc[a], ordem = self.sinais_pc[a].atualizar(self.barras[a].df)
+                b = self.barras[a]
+                # o minuto inteiro (abertura, maxima, minima) vem da fita do mini; onde ela nao tem, o fechamento do motor
+                b.acrescentar(br.juntar_minutos(br.minutos_do_motor(serie, agora), br.minutos_da_fita(self.fitas_mini[a], b.ultimo_minuto)))
+                if self.setup == "niveis":
+                    extras = [(self.ajustes[a], "ajuste de ontem")] if self.ajustes.get(a) else []
+                    self.leitura_pc[a], ordem = self.sinais_pc[a].atualizar(b.df, extras)
+                else:
+                    self.leitura_pc[a], ordem = self.sinais_pc[a].atualizar(b.df)
             except Exception as e:                               # barra estragada nao derruba o robo: fica sem sinal e avisa
                 self.leitura_pc[a], ordem = {"pronto": False, "motivo": f"erro nas barras: {type(e).__name__}: {e}"}, None
+            if ordem is not None and self.setup == "niveis":
+                return {"tecnica": "nível e reação", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
+                        "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts, "sem_arrasto": True,
+                        "medidas": {"risco_pts": ordem.stop_pts, "alvo_pts": ordem.alvo_pts,
+                                    "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2), "fracao_a_favor": None}}
             if ordem is not None:
                 l = self.leitura_pc[a]
                 return {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
@@ -477,8 +525,10 @@ class RoboFluxo:
         cfg, p, e, c = ef.ATIVOS[a], self.p, self.estados[a], self.cot.get(a) or {}
         hm, pr = agora.strftime("%H:%M"), c.get("preco")
         if e.posicao is not None:
-            return ["Com posição aberta: conduzindo pelo stop, pela parcial e pelo alvo." if self.setup == "phicube"
+            return ["Com posição aberta: conduzindo pelo stop, pela parcial e pelo alvo." if self.grafico
                     else "Com posição aberta: conduzindo pelo stop, pela parcial e pelo stop móvel."]
+        if self.setup == "niveis":
+            return self._espera_niveis(a, agora)
         if self.setup == "phicube":
             return self._espera_phicube(a, agora)
         if not self.chave["ligado"]:
@@ -516,6 +566,38 @@ class RoboFluxo:
         frases.append(f"Mais perto: {nome} como {l['papel']}. " + "; ".join(partes) + "."
                       + (" O nível foi furado nos últimos 15 minutos." if l["furou"] else "")
                       + (" Testado demais: o robô só opera a perda dele." if l["testes"] > l["testes_max"] else ""))
+        return frases
+
+    def _espera_niveis(self, a, agora):
+        cfg, p, e, c = ef.ATIVOS[a], self.p, self.estados[a], self.cot.get(a) or {}
+        hm, l, pr = agora.strftime("%H:%M"), self.leitura_pc.get(a) or {}, c.get("preco")
+        if not self.chave["ligado"]:
+            return ["Desligado por você: não entra."]
+        if self.trava:
+            return ["Parado até amanhã: o limite do dia foi atingido."]
+        if not l.get("pronto"):
+            return ["Ainda sem leitura do gráfico: " + str(l.get("motivo") or "esperando o primeiro minuto fechar") + "."]
+        frases = []
+        if hm < cfg.hora_inicio:
+            frases.append(f"Antes do horário: entra a partir das {cfg.hora_inicio}.")
+        elif hm >= p.hora_ultima_entrada:
+            frases.append(f"Sem novas entradas desde as {p.hora_ultima_entrada}.")
+        elif p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1]:
+            frases.append(f"Pausa do dado das 9h30: volta às {p.pausa_dado[1]}.")
+        espera = p.espera_apos_perda_s if e.ultima_foi_perda else p.espera_apos_saida_s
+        falta = espera - (agora.timestamp() - e.ultima_saida_ts)
+        if e.ultima_saida_ts and falta > 0:
+            frases.append(f"Respirando depois da última saída: mais {int(falta)} s.")
+        if c.get("spread") is not None and c["spread"] >= cfg.spread_max_pts - 1e-9:
+            frases.append(f"Spread aberto ({_pontos(c['spread'], a)} pontos): não entra.")
+        nomes = {n["preco"]: n["nome"] for n in l["niveis"]}
+        partes = []
+        for chave_, lado in (("acima", "vende"), ("abaixo", "compra")):
+            v = l.get(chave_)
+            if v is not None and pr is not None:
+                partes.append(f"{nomes.get(v, 'nível')} em {_pontos(v, a)} ({'a' if chave_ == 'acima' else 'a'} {_pontos(abs(v - pr), a)} pontos {chave_}: "
+                              f"se o preço encostar e for rejeitado, {lado})")
+        frases.append(f"Esperando o preço testar um nível e voltar, no gráfico de {l['tempo_min']} minutos. Mais perto: " + "; ".join(partes) + ".")
         return frases
 
     def _espera_phicube(self, a, agora):
@@ -577,7 +659,7 @@ class RoboFluxo:
             texto = (f"Perda máxima do dia atingida ({_reais(total)}). Parado até amanhã." if self.trava == "perda"
                      else f"{self.perdas} negócios perdedores no dia ({_reais(total)}). Parado até amanhã.")
         elif hm < inicio:
-            fase, texto = "formando_faixa", (f"Lendo o gráfico da abertura; entradas a partir das {inicio}." if self.setup == "phicube"
+            fase, texto = "formando_faixa", (f"Lendo o gráfico da abertura; entradas a partir das {inicio}." if self.grafico
                                              else f"Lendo o fluxo da abertura; entradas a partir das {inicio}.")
         elif hm >= p.hora_zerar:
             fase, texto = "encerrado", f"Operações encerradas ({p.hora_zerar}). Resultado do dia: {_reais(total)}."
@@ -585,9 +667,17 @@ class RoboFluxo:
             fase, texto = "encerrando", f"Sem novas entradas desde as {p.hora_ultima_entrada}; {abertas} posição(ões) aberta(s) até as {p.hora_zerar}."
         else:
             fase = "operando"
-            texto = (("Lendo o gráfico (PhiCube): " if self.setup == "phicube" else "Lendo o fluxo: ")
+            texto = (("Lendo o gráfico (níveis): " if self.setup == "niveis" else "Lendo o gráfico (PhiCube): " if self.grafico else "Lendo o fluxo: ")
                      + f"{abertas} posição(ões) aberta(s), {len(self.operacoes)} saída(s) e parcial(is), resultado do dia {_reais(total)}.")
-        if self.setup == "phicube":
+        if self.setup == "niveis":
+            avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
+                      "Setup de níveis: o que os instrutores da sala do PhiCube fazem nas lives de day trade. O preço vai a um nível marcado "
+                      "antes, é rejeitado, e o robô entra contra a chegada, com o stop colado atrás do nível e o alvo no nível seguinte.",
+                      "ATENÇÃO: no teste histórico (mini-dólar, 888 pregões de 2023 a 2026, das 9h15 às 13h) esta regra PERDEU cerca de "
+                      "R$ 20 por negócio depois de custos, com 4 a 5 negócios por pregão; antes de custos deu perto de zero. Está no ar "
+                      "por escolha sua, para gerar operações e estudar com a fita quais entradas funcionam. Não é para dinheiro real.",
+                      "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
+        elif self.setup == "phicube":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
                       "Setup PhiCube, de Bo Williams: o Prisma no gráfico de 15 minutos diz o lado, a virada da média de 34 no de 4 minutos "
                       "é o gatilho, e em consolidação o robô fica de fora. É seletivo: no histórico deu 1 entrada a cada 5 pregões nesta janela.",
@@ -610,7 +700,7 @@ class RoboFluxo:
         if em_hora and sem_cheio:
             avisos.insert(1, "Fluxo lido no mini (" + ", ".join(sem_cheio) + "): a fita do contrato cheio não está chegando. "
                           "Ele lê no cheio; no mini os lotes de robô entram na conta.")
-        if em_hora and not fita_ok and self.setup != "phicube":
+        if em_hora and not fita_ok and not self.grafico:
             alerta = ("ATENÇÃO: sem a fita de negócios do MetaTrader (robô 1.3 desligado ou parado). "
                       "Sem fluxo o robô não entra; posição aberta segue com o stop.")
             avisos.insert(0, alerta)
@@ -653,6 +743,10 @@ class RoboFluxo:
             leitura = self.leitura_dos_niveis(a, f, pr)
             niveis = [{"nome": n, "preco": v, "distancia_pts": (pr - v) if pr is not None else None, "leitura": leitura.get(n)}
                       for n, v in ef.niveis_do_dia(c, p)]
+            lg = self.leitura_pc.get(a) or {}
+            if self.setup == "niveis" and lg.get("pronto"):
+                niveis = [{"nome": n["nome"], "preco": n["preco"], "distancia_pts": (pr - n["preco"]) if pr is not None else None, "leitura": None}
+                          for n in sorted(lg["niveis"], key=lambda x: -x["preco"])]
             mini = self.fitas_mini[a]
             dia = f.agressao(fx.JANELA_MAXIMA_S)
             corr = f.corrida(p.janela_esticada_s) if f.linhas else None
@@ -671,6 +765,7 @@ class RoboFluxo:
                 "niveis": niveis,
                 "espera": self.o_que_espera(a, leitura, agora, fonte),
                 "phicube": self.leitura_pc.get(a) if self.setup == "phicube" else None,
+                "grafico": self.leitura_pc.get(a) if self.setup == "niveis" else None,
                 "variacao_ajuste": c.get("var_ajuste"),
                 "corrida": None if not corr else {"alta_pts": corr["alta"]["tamanho"], "topo": corr["alta"]["extremo"],
                                                   "baixa_pts": corr["baixa"]["tamanho"], "fundo": corr["baixa"]["extremo"],
@@ -698,13 +793,16 @@ class RoboFluxo:
             "v": 2, "tipo": "daytrade", "regra": self.setup, "gerado": agora.isoformat(timespec="seconds"),
             "vivo": {"ligado": True, "fase": fase, "fase_texto": texto, "desde": self.desde,
                      "batida": agora.isoformat(timespec="seconds"), "intervalo_s": INTERVALO,
-                     "motor": {"ok": retrato is not None and not feed_ruim and (fita_ok or not em_hora or self.setup == "phicube"),
+                     "motor": {"ok": retrato is not None and not feed_ruim and (fita_ok or not em_hora or self.grafico),
                                "b3_sem_tique_s": parado, "b3_atraso_ms": atraso, "mt5": self.feed.get("mt5"),
                                "fita_ok": fita_ok}},
             "modo": "paper", "origem": "real", "capital": p.capital, "pronto": True, "bloqueios": [], "avisos": avisos,
             "regras": ({"nome": "Setup PhiCube (Bo Williams): Prisma em 15 minutos, virada em 4 minutos (versão 1)",
                         "itens": regras_phicube(p), "parametros": dict(asdict(p), lote_hoje=lote, phicube=PHICUBE)}
                        if self.setup == "phicube" else
+                       {"nome": "Setup de níveis: teste de nível com reação, como nas lives da sala do PhiCube (versão 0)",
+                        "itens": regras_niveis(p), "parametros": dict(asdict(p), lote_hoje=lote, niveis=NIVEIS)}
+                       if self.setup == "niveis" else
                        {"nome": "Leitura de fluxo como Alison Correia ensina: defesa, nível perdido, rompimento e exaustão (versão 1.2)",
                         "itens": ef.regras_em_texto(p), "parametros": dict(asdict(p), lote_hoje=lote)}),
             "resultado": {"dia": total, "dia_pct": total / p.capital if p.capital else None, "realizado": realizado,
@@ -732,7 +830,7 @@ class RoboFluxo:
     def _serie(self, total, n_ops, pregao):
         serie = ler_json(self.arq_serie, padrao=None)
         serie = [x for x in (serie if isinstance(serie, list) else []) if isinstance(x, dict) and x.get("data") != self.hoje]
-        if pregao and (self.ultima_fita or self.operacoes or self.setup == "phicube"):
+        if pregao and (self.ultima_fita or self.operacoes or self.grafico):
             serie.append({"data": self.hoje, "resultado": round(float(total), 2), "operacoes": int(n_ops)})
             try:
                 garantir_dir(DIR_DT)
@@ -769,7 +867,9 @@ def rodar(uma_vez=False, saidas=None, motor=MOTOR, intervalo=INTERVALO, ate=FIM_
             log("ja existe um robo de day trade nesta maquina; este processo sai sem fazer nada")
             return 3
     robo = RoboFluxo(hoje, saidas=saidas, motor=motor, setup=setup)
-    if setup == "phicube":
+    if setup == "niveis":
+        robo.marco("ligado_niveis", "preparo", "Robô de day trade pelo setup de níveis (teste de nível com reação) ligado (simulação), placar zerado.", agora)
+    elif setup == "phicube":
         robo.marco("ligado_phicube", "preparo", "Robô de day trade pelo setup PhiCube ligado (simulação), placar zerado.", agora)
     else:
         robo.marco("ligado_fluxo", "preparo", "Robô de day trade por leitura de fluxo ligado (simulação), regra versão 1.2.", agora)

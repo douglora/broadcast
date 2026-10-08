@@ -80,6 +80,8 @@ class Ordem:
     motivo: str = ""
     limite: float | None = None        # ordem PARADA neste preco (sem deslize); None = a mercado na abertura da barra seguinte
     validade: int = 30                 # por quantas barras de 1 minuto a ordem parada espera
+    nivel: float | None = None         # o nivel que motivou a ordem, e o nome dele (para a tela do robo)
+    nome_nivel: str = ""
 
 
 @dataclass
