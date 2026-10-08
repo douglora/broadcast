@@ -68,7 +68,9 @@ MULTIPLICADOR_WIN = 0.20          # R$ por ponto do mini-indice
 DIARIO_MAX = 200
 NOTA_HEDGE = ("Proteção parcial: mini-índice vendido. Entrada simulada no primeiro preço do contrato "
               "depois do envio da boleta; sem custo de rolagem ainda.")
-TOLERANCIA_PRECO_MEDIO = 0.02     # preco medio do ciclo a mais de 2% do ultimo: usa o ultimo
+TOLERANCIA_PRECO_MEDIO = 0.01     # preco medio do ciclo a mais de 1% do ultimo: usa o ultimo
+SALTO_FRACAO_ADTV = 0.25          # salto de volume acima disto do giro medio, de um retrato para o outro, e descartado
+SALTO_JANELA_S = 120.0            # "de um retrato para o outro": leituras a menos de 2 minutos
 
 
 # ─────────────────────────────────────────────────────────────
@@ -136,11 +138,14 @@ class Leitor:
     estado salvo) usa o volume atual como base e so conta dali em diante.
     """
 
-    def __init__(self, tickers, ultimo=None):
+    def __init__(self, tickers, ultimo=None, adtv=None):
         self.tickers = sorted({str(t).upper() for t in tickers})
         self.ultimo = dict(ultimo or {})          # ticker -> {"v": volume, "fin": financeiro}
         self.precos = {}                          # ticker -> ultimo preco de HOJE
         self.sem_volume = set()
+        self.adtv = dict(adtv or {})              # ticker -> giro medio diario em R$ (da boleta)
+        self.visto_em = {}                        # ticker -> relogio da ultima leitura com volume
+        self.descartes = 0
 
     def negocios(self, retrato, agora):
         q = (retrato or {}).get("q") or {}
@@ -171,11 +176,28 @@ class Leitor:
                 ant = {"v": 0.0, "fin": 0.0} if t in self.sem_volume else {"v": vol, "fin": fin}
             self.ultimo[t] = {"v": vol, "fin": fin}
             dv = vol - (_num(ant.get("v")) or 0.0)
+            ha_pouco = (agora.timestamp() - self.visto_em.get(t, 0.0)) < SALTO_JANELA_S
+            self.visto_em[t] = agora.timestamp()
             if dv <= 0:
                 continue                           # nada novo (ou a sessao recomecou: nova base)
+            if hora[:5] < ABERTURA:
+                continue                           # antes da abertura nao ha negocio: e resto da sessao de ontem
+            giro = self.adtv.get(t)
+            if giro and (ha_pouco or t in self.sem_volume) and dv * preco > SALTO_FRACAO_ADTV * giro:
+                # Um quarto do giro medio do dia em poucos segundos nao e negocio: e o volume de ONTEM que
+                # reaparece com a hora de agora quando o motor reinicia (visto em 08/10/2026, 09h41, VTRU3
+                # com as 831.100 acoes da vespera). Vira linha de base e nao entra na fita.
+                self.descartes += 1
+                self.sem_volume.discard(t)
+                continue
+            self.sem_volume.discard(t)
             p = preco
             fa = _num(ant.get("fin"))
-            if fin is not None and fa is not None and fin > fa:
+            # O preco medio do dia chega arredondado em 6 casas: vezes o volume do dia, o erro do financeiro
+            # do intervalo e da ordem de volume x 1e-6. So vale usar quando esse erro, repartido pelas acoes
+            # do intervalo, fica abaixo de 0,05% do preco; senao o negocio sai no ultimo preco.
+            erro = 1e-6 * vol / dv
+            if fin is not None and fa is not None and fin > fa and erro <= 0.0005 * preco:
                 medio = (fin - fa) / dv
                 if medio > 0 and abs(medio / preco - 1.0) <= TOLERANCIA_PRECO_MEDIO:
                     p = medio
@@ -207,7 +229,8 @@ class Robo:
         tickers = [o.get("ticker") for o in (self.boleta_do_dia.get("ordens") or [])]
         tickers += list(((self.painel.get("carteira") or {}).get("posicoes") and
                          [p.get("ticker") for p in self.painel["carteira"]["posicoes"]]) or [])
-        self.leitor = Leitor([t for t in tickers if t], salvo.get("ultimo"))
+        adtv = {str(o.get("ticker")): _num(o.get("adtv")) for o in (self.boleta_do_dia.get("ordens") or [])}
+        self.leitor = Leitor([t for t in tickers if t], salvo.get("ultimo"), adtv)
         self.diario = list(salvo.get("diario") or [])
         self.hedge = salvo.get("hedge")
         self.executado_ant = dict(salvo.get("executado") or {})
