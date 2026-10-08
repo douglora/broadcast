@@ -301,11 +301,18 @@ def meses_sem_erro(erros, ate=None, conferidos=None):
 # Uma sessao
 # ─────────────────────────────────────────────────────────────
 def rodar_sessao(dados, estado, data, capital, gate_passou=None, negocios=None,
-                 origem="ensaio", estresse=1.0, frescor_dados=None):
+                 origem="ensaio", estresse=1.0, frescor_dados=None, boleta=None,
+                 reprecificar=False):
     """Um pregao inteiro: sinais -> carteira -> boleta -> fills -> posicao.
 
     Devolve (registro da sessao, estado atualizado, boleta, fills). Nunca levanta: sessao
     que nao produz boleta vira uma linha com `emitida=False` e o motivo.
+
+    `boleta`: a boleta que SAIU DE MANHA (o robo guarda a copia do dia). Com ela a sessao
+    nao gera outra: mede a que foi de fato emitida. Gerar de novo a noite, com o COTAHIST
+    do dia ja no banco, poria no limite o fechamento de HOJE - preco que de manha ninguem
+    conhecia - e a taxa de execucao medida seria a de outra boleta.
+    `reprecificar`: segue os degraus de limite da boleta (o que o robo ao vivo faz).
     """
     from quant import carteira as ct
     from quant import rodar_diario as rd
@@ -335,9 +342,12 @@ def rodar_sessao(dados, estado, data, capital, gate_passou=None, negocios=None,
                             patrimonio=estado.get("patrimonio", capital),
                             estresse=estresse, data=data)
     registro["hedge_motivo"] = str(alvo["hedge"].get("motivo") or "")
-    b = bo.gerar(alvo["ordens"], precos, adtv, data, frescor_dados=fres,
-                 gate_passou=gate_passou, caixa_disponivel=estado.get("caixa"),
-                 hedge=alvo.get("hedge"), estresse=estresse)
+    if isinstance(boleta, dict) and boleta.get("ordens") is not None:
+        b = boleta
+    else:
+        b = bo.gerar(alvo["ordens"], precos, adtv, data, frescor_dados=fres,
+                     gate_passou=gate_passou, caixa_disponivel=estado.get("caixa"),
+                     hedge=alvo.get("hedge"), estresse=estresse)
     registro["emitida"] = bool(b.get("emitida"))
     registro["motivo_bloqueio"] = "; ".join(b.get("motivo_bloqueio") or [])
     registro["n_ordens"] = len(b.get("ordens") or [])
@@ -354,7 +364,7 @@ def rodar_sessao(dados, estado, data, capital, gate_passou=None, negocios=None,
 
     if negocios is None:
         negocios = fita_sintetica(dados.get("cotacoes"), data)
-    fills = paper.simular(b, negocios)
+    fills = paper.simular(b, negocios, reprecificar=reprecificar)
     registro["n_fills"] = len(fills)
     # `barras=negocios` e o que faz nascer o slippage contra o VWAP. Sem ele so existe o
     # slippage contra o LIMITE, que e <= 0 por construcao (ordem limitada nunca executa
@@ -631,7 +641,7 @@ def estado_campanha(caminho=ARQ_CONFIG):
 
 
 def rodar_do_dia(data=None, capital=100_000.0, gate_passou=None, dados=None,
-                registrar=True):
+                registrar=True, boleta=None, reprecificar=False):
     """A sessao de um pregao REAL, rodada depois do fechamento.
 
     A boleta sai de manha (`rodar_diario --paper`); os fills so podem ser medidos com a
@@ -655,9 +665,14 @@ def rodar_do_dia(data=None, capital=100_000.0, gate_passou=None, dados=None,
         return None, (f"sem o negocio-a-negocio de {data.date()}: nao da para medir "
                       "execucao nenhuma. Arquive a fita do dia e rode de novo.")
     estado = rd._estado_atual(capital, dados, data.date())
+    ja = carregar_sessoes()
+    if registrar and len(ja) and str(data.date()) in set(ja["data"].astype(str)):
+        # registrar duas vezes dobraria os fills no livro e a posicao do dia seguinte
+        return None, f"a sessao de {data.date()} ja esta registrada; nada foi gravado de novo."
     registro, _estado, _b, fills = rodar_sessao(dados, estado, data, capital,
                                                 gate_passou=gate_passou,
-                                                negocios=negocios, origem="real")
+                                                negocios=negocios, origem="real",
+                                                boleta=boleta, reprecificar=reprecificar)
     if registrar:
         if fills is not None and len(fills):
             paper.registrar(fills)

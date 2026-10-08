@@ -190,6 +190,10 @@ class Robo:
         boleta = self.painel.get("boleta") or {}
         self.boleta_do_dia = boleta if str(boleta.get("data")) == self.hoje else {}
         self.sessao = paper_vivo.Sessao(self.boleta_do_dia, reprecificar=True)
+        if self.boleta_do_dia.get("emitida"):
+            # a copia do dia: a medicao da noite (quant.robo fechar) mede ESTA boleta, nao outra
+            gravar_atomico(os.path.join(self.pasta, "boleta.json"),
+                           json.dumps(self.boleta_do_dia, ensure_ascii=False, indent=1))
         salvo = ler_json(self.arq_estado, padrao=None) or {}
         tickers = [o.get("ticker") for o in (self.boleta_do_dia.get("ordens") or [])]
         tickers += list(((self.painel.get("carteira") or {}).get("posicoes") and
@@ -583,6 +587,20 @@ def rodar(uma_vez=False, saidas=None, motor=MOTOR, intervalo=INTERVALO, ate=None
     agora = agora_brt()
     hoje = agora.strftime("%Y-%m-%d")
     fim = ate or (datetime.strptime(FECHAMENTO, "%H:%M") + timedelta(minutes=40)).strftime("%H:%M")
+    trava = None
+    if not uma_vez:
+        # Um robo so por maquina: dois processos anexariam os mesmos negocios a mesma fita e a
+        # boleta "executaria" em dobro. A trava some sozinha quando o processo morre.
+        import fcntl
+        garantir_dir(DIR_VIVO)
+        trava = open(os.path.join(DIR_VIVO, "robo.trava"), "w")
+        try:
+            fcntl.flock(trava, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError:
+            log("ja existe um robo ao vivo nesta maquina; este processo sai sem fazer nada")
+            return 3
+        trava.write(str(os.getpid()))
+        trava.flush()
     robo, lido_em = None, 0.0
     while True:
         agora = agora_brt()

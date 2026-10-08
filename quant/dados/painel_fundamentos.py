@@ -303,12 +303,74 @@ def datas_de_decisao(ini, fim, hoje=None):
     return sorted(datas)
 
 
+MESES_RECENTE = 18        # janela de datas de decisao do painel recente
+VINTAGES_RECENTE = 10     # ultimos documentos de cada empresa: cobre a janela com folga
+
+
+def recente(hoje=None, meses=MESES_RECENTE, limite_vintages=VINTAGES_RECENTE):
+    """O painel que a rotina diaria precisa, em cerca de um minuto.
+
+    O painel completo (1.200 empresas, todos os vintages desde 2010) leva mais de uma hora e
+    so serve ao backtest. A boleta de hoje precisa das empresas que estiveram no universo nos
+    ultimos meses e dos documentos recentes delas. Este caminho monta so isso e REGRAVA o
+    parquet: quem quiser a historia inteira roda o comando sem `--recente` (e depois os
+    sinais com `--ini 2011`).
+    """
+    fim = pd.Timestamp(hoje or date.today())
+    ini = fim - pd.DateOffset(months=int(meses))
+    cods = None
+    try:
+        from quant import sinais as sg
+        s = sg.carregar()
+        if s is not None and len(s):
+            rec = s[pd.to_datetime(s["data"]) >= fim - pd.DateOffset(months=6)]
+            cods = sorted({int(x) for x in rec["cd_cvm"].dropna().unique()})
+    except Exception as e:
+        log(f"sem painel de sinais para escolher as empresas ({type(e).__name__}); uso a identidade")
+    if not cods:
+        from quant.dados import cotahist, identidade
+        from quant import universo as uni_mod
+        cot = cotahist.carregar(fim.year - 1, fim.year)
+        ident = identidade.carregar_identidade()
+        uni = uni_mod.universo_pit(cotahist.acoes_a_vista(cot, apenas_lote_padrao=True), identidade=ident)
+        from quant.sinais import mapear_empresa
+        cods = sorted({int(x) for x in mapear_empresa(uni, ident)["cd_cvm"].dropna().unique()})
+    df = cf.carregar(range(ini.year - 2, fim.year + 1))
+    if df is None or len(df) == 0:
+        print("sem fundamentos no banco; rode python -m quant.dados.cvm_fundamentos --anos ...")
+        return 2
+    df = df[df["cd_cvm"].isin(cods)]
+    fin = None
+    try:
+        from quant.dados import identidade, setores
+        ident = identidade.carregar_identidade()
+        fin = setores.financeiras(setores.mapa_setores(identidade=ident), ident)
+    except Exception as e:
+        log(f"sem mapa de setores ({e}); nenhuma empresa marcada como financeira")
+    vint = painel_vintages(df, cd_cvms=cods, financeiras=fin, limite_vintages=limite_vintages)
+    datas = [d for d in datas_de_decisao(ini.year, fim.year, hoje=fim) if d >= ini]
+    usadas = [_ts(calendario.pregao_anterior(d)) for d in datas]
+    base = resolver(vint, usadas)
+    if len(base):
+        base["data"] = base["data"].map(dict(zip(usadas, datas)))
+        base = base[base["data"].notna()].sort_values(["data", "cd_cvm"]).reset_index(drop=True)
+    painel = acrescentar_metricas(base)
+    gravar(painel)
+    log(f"painel recente: {len(painel)} linhas, {len(cods)} empresas, {len(datas)} datas "
+        f"({datas[0].date()} a {datas[-1].date()})")
+    return 0 if len(painel) else 1
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Monta o painel point-in-time de fundamentos")
     ap.add_argument("--anos", default="2010-2026", help="anos de DFP/ITR a carregar")
     ap.add_argument("--ini", type=int, default=2011, help="primeiro ano de datas de decisao")
     ap.add_argument("--fim", type=int, default=date.today().year)
+    ap.add_argument("--recente", action="store_true",
+                    help="so as empresas do universo recente e os ultimos vintages (a rotina diaria do robo)")
     args = ap.parse_args(argv)
+    if args.recente:
+        return recente()
     a, b = (args.anos.split("-") + [args.anos])[:2]
     df = cf.carregar(range(int(a), int(b) + 1))
     if df is None or len(df) == 0:

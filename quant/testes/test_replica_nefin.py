@@ -234,7 +234,8 @@ def test_rodar_gate_de_ponta_a_ponta_com_cotahist_sintetico(monkeypatch, base):
                      extra.assign(ticker="TK003F", codbdi="96", tpmerc="020", volume=9e8)], ignore_index=True)
     monkeypatch.setattr(cotahist, "carregar", lambda a, b, **k: cot)
     res = rn.rodar_gate(2020, 2021)
-    assert set(res) == {"WML", "passou"} and res["WML"]["n_meses"] == 24
+    # `limpeza` e o que o gate tirou do dado antes da replica (retorno total limpo): nao e fator
+    assert set(res) - {"limpeza"} == {"WML", "passou"} and res["WML"]["n_meses"] == 24
     assert set(res["WML"]) == {"correlacao", "media_anual_replica", "media_anual_nefin", "diferenca_pp", "n_meses", "passou"}
     assert np.isfinite(res["WML"]["correlacao"]) and res["passou"] is False
     cart = rn.carteiras_wml(rn.retornos_de_cotacoes(cot), cot)

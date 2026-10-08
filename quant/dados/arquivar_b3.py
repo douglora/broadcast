@@ -336,13 +336,14 @@ def carregar_universo(caminho):
         return None
 
 
-def rodar(data=None, saida=DIR_BRUTOS, fontes=("bdi", "negocios", "indices", "ipe"), universo=None):
+def rodar(data=None, saida=DIR_BRUTOS, fontes=("bdi", "negocios", "indices", "ipe"), universo=None,
+          tabelas_bdi=TABELAS_BDI):
     hoje = agora_brt().date()
     data = calendario.ultimo_pregao_ate(data or hoje)
     ref_bdi = calendario.pregao_anterior(data) if data == hoje else data
     resumo = {"data": str(data), "referencia_bdi": str(ref_bdi), "rodado_em": agora_iso(), "fontes": {}}
     if "bdi" in fontes:
-        resumo["fontes"]["bdi"] = arquivar_bdi(ref_bdi, saida)
+        resumo["fontes"]["bdi"] = arquivar_bdi(ref_bdi, saida, tabelas=tabelas_bdi)
     if "negocios" in fontes:
         resumo["fontes"]["negocios"] = arquivar_negocios(data, saida, universo)
         # se o de hoje ainda nao saiu, garante o do pregao anterior (retencao curta)
@@ -373,8 +374,12 @@ def main(argv=None):
     ap.add_argument("--fontes", default="bdi,negocios,indices,ipe")
     ap.add_argument("--universo", default=os.path.join(DIR_QUANT, "universo_atual.txt"),
                     help="lista de tickers (um por linha) para guardar ticks brutos")
+    ap.add_argument("--tabelas", default=",".join(TABELAS_BDI),
+                    help="tabelas do BDI (a BTBTrade, negocio a negocio do aluguel, estoura o tempo "
+                         "da B3 com frequencia: a rotina diaria do robo pede as outras tres)")
     args = ap.parse_args(argv)
-    resumo = rodar(args.data, args.saida, tuple(args.fontes.split(",")), carregar_universo(args.universo))
+    resumo = rodar(args.data, args.saida, tuple(args.fontes.split(",")), carregar_universo(args.universo),
+                   tabelas_bdi=tuple(t for t in args.tabelas.split(",") if t))
     print(json.dumps(resumo, ensure_ascii=False, indent=2))
     return 1 if _falhou(resumo) else 0
 
