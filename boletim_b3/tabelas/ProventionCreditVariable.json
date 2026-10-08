@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-08T03:32:16.293",
+ "atualizado_em": "2026-10-08T08:52:22.387",
  "truncada": false,
  "linhas": [
   ["VINCI ENERGIA FDO INV PART IE RESP LIM", "BRVIGTCTF004 140", "RENDIMENTO", null, 0.27, "2026-10-07"],
