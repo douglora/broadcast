@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F29 -133 bps em 5 pregões (ajuste B3 07/10) / C02 Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 pregões
 DI F28 12,59 (-2) · F29 12,43 (-3) · F30 12,51 (-1) · F32 12,70 (+4) · F35 12,78 (+5)
@@ -20,17 +20,16 @@ Como falar: 'alta fora do padrão; costuma vir de notícia ou de fluxo, e parte 
 Fonte: Yahoo Finance fech. 07/10
 ids: T05-SAPR4-alta-2026-10-07, T05-ALUP4-alta-2026-10-07
 
-[ATENÇÃO] E05 · PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões
+(pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões
 Estadao · 07/10 19h51 · fonte única · licença: manchete
 Link: https://www.estadao.com.br/economia/negocios/petrobras-domina-leilao-de-petroleo-e-gas-da-anp-com-investimento-de-r-32-bilhoes/
 Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
 Ativos: PETR4 · BRENT
 Como falar: 'saiu no Estadao: Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões; confirmar o número no texto antes de repassar'
 Fonte: Estadao 07/10 19h51
-Push: eventos: 2 alertas de atenção — E05 PETR4, E05 BTC · detalhe na sessão
 ids: E05-PETR4-5fab9e92b0-2026-10-07
 
-[ATENÇÃO] E05 · BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
+(pendente de slot anterior) [ATENÇÃO] E05 · BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
 Yahoo Finance · 07/10 15h13 · fonte única · licença: resumo
 Trechos (licença resumo: reescrever, não colar):
   – Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
@@ -47,16 +46,13 @@ Fonte: Yahoo Finance 07/10 15h13
 ids: E05-BTC-b6e3a09e0c-2026-10-07
 
 Info (só linha no Fechamento):
-· E05 UST · U.S. bond market fares better than Europe after strong 10-year Treasury auction
-· E05 PETR4 · Leilão da ANP arrecada R$ 3 bi; Petrobras leva áreas na Margem Equatorial
-· E05 MRVL · Marvell Technology (MRVL) Lifts 2031 Revenue Goal To $70 Billion To $90 Billion
-· E05 PETR4 · Com lances de quase R$3 bi, Petrobras arremata 12 blocos na Bacia de Campos
-· E05 BTC · Bitcoin's fall sends crypto market, stocks into bloodbath: Why?
-· E05 BAC · Marvell Stock Is Up 230% This Year: Bank of America Sees a Further 40% Upside
-· E05 MRVL · Marvell CEO Says $30B Custom Chip Target Is ‘Not a Stretch’ – Sees Potential For $1 Trillion Valuation
-· E05 PETR4 · Itaú BBA ainda vê potencial de alta de até 40% para Petrobras
-· E05 NVDA · Lumentum Could See a $3.3 Billion Payoff. Nvidia’s Optics Shift Is Moving Faster Than Expected.
-· E05 TSM · TSMC stock just hit a record — and the gains may be only starting
+· E05 NVDA · Jensen Huang Said Nvidia Now Has "a Lot Greater Visibility" Into Demand, Letting It Forecast a Full Year Ahead for the First Time Ever. Does That Con…
+· E05 MINERIO · Fortescue says dispute with China’s CMRG hits iron ore sales
+· E05 LITE · Lumentum (LITE) Stock May Be 36% Undervalued After AI Demand News
+· E05 BTC · 10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened?
+· E05 PETR4 · Leilão do pré-sal negocia 7 áreas para Petrobras, Prio, Equinor, Galp, Sinopec e CNOOC
+· E05 META · Meta Platforms, Inc. (META) Stock Price, News, Quote & History
+· E05 UST · Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll
 · T09 BBDC4 -3,7% com volume 2,9x a mediana de 20 sessões, a R$ 21,96
 · T10 BAC no mínimo de força relativa em 63 sessões contra SPX: -15% vs +2,2% em 20 sessões (-16% relativo)
 · T10 VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -13% vs +10% em 20 sessões (-21% relativo)
@@ -64,12 +60,12 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): T09-BBDC4-queda-2026-10-07 (teto de atenção), T10-BAC-mínimo-2026-10-07 (teto de atenção), T10-VALE3-mínimo-2026-10-07 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F2
-· pendente  T05 SAPR4 — SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias d
+· expirado  C01 DI — A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F2
+· expirado  T05 SAPR4 — SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias d
 · pendente  E05 PETR4 — PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 
 · pendente  E05 BTC — BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped 
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 preg
-· pendente  T05 ALUP4 — ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias 
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 preg
+· expirado  T05 ALUP4 — ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias 
 · linha     T09 BBDC4 — BBDC4 -3,7% com volume 2,9x a mediana de 20 sessões, a R$ 21,96
 · linha     T10 BAC — BAC no mínimo de força relativa em 63 sessões contra SPX: -15% vs +2,2% em 20 se
 · linha     T10 VALE3 — VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -13% vs +10% em 20 
@@ -102,4 +98,4 @@ Alertas do dia (todos, com status):
 · linha     T09 SMAL11 — SMAL11 +1,2% com volume 4,0x a mediana de 20 sessões, a R$ 130,20
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0156 (-3,0% em 5 sessões · cruzou R$ 5,00) (parcial, intradi
 · linha     F06 BTC — BTC cai a US$ 83.316 (cruzou US$ 85.000)
-· (+154 notícias só manchete, em noticias.md)
+· (+161 notícias só manchete, em noticias.md)

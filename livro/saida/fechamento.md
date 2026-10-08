@@ -1,10 +1,10 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qua 07/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · qua 07/10 · 21h55 BRT
+Relógios: Yahoo 21h55 · DI ajuste D0 · Tesouro base
   06/10 · UST CMT D0 · PTAX 07/10
 
-ALERTAS DO DIA (36 · 2 críticos)
+ALERTAS DO DIA (38 · 2 críticos)
 [CRÍTICO] C01 A curva ABRIU: F28 -96 bps em 5
           pregões · F28 6 pregões seguidos (-108
           bps) · F29 -133 bps em 5 pregões (ajuste
@@ -12,6 +12,12 @@ ALERTAS DO DIA (36 · 2 críticos)
 [CRÍTICO] T05 SAPR4 +8,4% no dia a R$ 8,04:
           movimento de 3,9 desvios para uma vol de
           20 dias de 33% a.a.
+[ATENÇÃO] E05 PETR4 · Petrobras domina leilão de
+          petróleo e gás da ANP com investimento de
+          R$ 3,2 bilhões
+[ATENÇÃO] E05 BTC · Bitcoin Drops Below $84,000 as
+          Nearly $500 Million in Long Bets Get Wiped
+          Out.
 [ATENÇÃO] C02 Inclinação da curva DI: F35-F28 -24
           bps em 5 pregões · F30-F28 -42 bps em 5
           pregões
@@ -23,21 +29,20 @@ ALERTAS DO DIA (36 · 2 críticos)
 [ATENÇÃO] T10 BAC no mínimo de força relativa em 63
           sessões contra SPX: -15% vs +2,2% em 20
           sessões (-16% relativo)
-[ATENÇÃO] T10 VALE3 no mínimo de força relativa em
-          63 sessões contra IBOV: -13% vs +10% em 20
-          sessões (-21% relativo)
-[ATENÇÃO] E05 VALE3 · Dividendos: Esta ação superou
-          a Vale (VALE3) entre as favoritas dos
-          analistas para outubro
-(+28 em alertas.md)
+(+30 em alertas.md)
 
 ALTAS  SAPR4 +8,4% · ALUP4 +7,9% · CURY3 +4,8% · MU
        +4,1% · DIRR3 +2,5%
-BAIXAS BBDC4 -3,7% · ITSA4 -3,3% · NOK -3,2% · QNTM
-       -3,2% · REMX -3,0%
+BAIXAS ETH -4,7% · BBDC4 -3,7% · ITSA4 -3,3% · NOK
+       -3,2% · QNTM -3,2%
 
-NOTÍCIAS E FATOS (15 com materialidade ·
+NOTÍCIAS E FATOS (17 com materialidade ·
   noticias.md)
+· PETR4 Petrobras domina leilão de petróleo e gás da
+  ANP com investimento de R$ 3,2 bilhões (Estadao)
+· BTC Bitcoin Drops Below $84,000 as Nearly $500
+  Million in Long Bets Get Wiped Out. (Yahoo
+  Finance)
 · VALE3 Dividendos: Esta ação superou a Vale (VALE3)
   entre as favoritas dos analistas para outubro
   (Money Times)
@@ -48,12 +53,7 @@ NOTÍCIAS E FATOS (15 com materialidade ·
   (Investing.com)
 · DI Inflação volta a subir no Focus e supera 5%;
   projeção para a Selic fica estável (Estadao)
-· JPM JPMorgan Just Raised Its Dividend 10%. These 4
-  Stocks Also Can Afford to Pay Much Bigger
-  Dividends (Yahoo Finance)
-· MRVL RBC Capital raises Marvell stock price target
-  on AI growth outlook (Investing.com)
-  (+9)
+  (+11)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,59 (-2·-96) F29 12,43
@@ -69,7 +69,7 @@ TD (base 06/10, Δ desde 05/10) Pre 2029 12,55 (-19)
     (descasado) 5,32% vs Focus IPCA 2027 4,30%
 UST (D0) 2y 4,77 (-2) · 10y 5,28 (+1) · 30y 5,67
     (+3) · 2s10s +51 (+3)
-Regime: VIX 15,1 (+0,5%) · score risco 0 de 6 ·
+Regime: VIX 15,1 (+0,5%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -91,7 +91,14 @@ qua 14/10 resultado BAC (antes de NY, confirmado)
 qui 15/10 resultado TSM (madrugada, estimado)
 qua 21/10 resultado TSLA (Yahoo, estimado)
 
-LACUNAS: nenhuma perna falhou.
+LACUNAS: DXY sem barra de 07/10 (última 06/10);
+  BRENT sem barra de 07/10 (última 06/10); DXY:
+  barra de 07/10 é o início da sessão seguinte
+  (última cotação 20:46 de Nova York); barra
+  descartada, fica a de 06/10; BRENT: barra de 07/10
+  é o início da sessão seguinte (última cotação
+  20:46 de Nova York); barra descartada, fica a de
+  06/10.
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -175,10 +182,10 @@ MRVE3  MRV        6,35 -0,8  +16  +14  -17 +0,6  -18
 CURY3  Cury      32,27 +4,8  +16 -2,8 -6,5  +16 +5,2
 Macro
 USDBRL USD/BRL  5,0156 +0,8 -3,0 -2,2 -2,6 -5,6 -8,4
-DXY    DXY      102,26 +0,4 +0,8 +3,1 +3,2 +3,7 +4,1
-BRENT  Brent    100,95 +0,4 +3,0 +4,9 +6,5  +54  +66
-BTC*   BTC      83.316 -2,6 -0,3 +5,3  +17  -31 -4,8
-ETH*   ETH       2.571 -4,7 -4,2 +3,2  +17  -42  -13
+DXY*   DXY      101,83 -0,3 +0,5 +2,7 +2,2 +3,8 +3,6
+BRENT* Brent    100,58 +0,3 +4,6 +4,5 -8,0  +54  +65
+BTC    BTC      83.316 -2,6 -0,3 +5,3  +17  -31 -4,8
+ETH    ETH       2.571 -4,7 -4,2 +3,2  +17  -42  -13
 MINER* Minerio   91,18 -0,3 -5,7 -8,4  -16  -13  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

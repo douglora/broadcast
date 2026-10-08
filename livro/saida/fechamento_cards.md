@@ -1,4 +1,4 @@
-## Fechamento do livro · qua 07/10 · 18h13 BRT
+## Fechamento do livro · qua 07/10 · 21h55 BRT
 
 ---
 
@@ -27,8 +27,8 @@
 
 ### Destaques do dia
 
-**Altas** SAPR4 +8,4% (vol 6,8x · fechou na máxima) · ALUP4 +7,9% (vol 2,6x · fechou na máxima · máxima de 52 semanas) · CURY3 +4,8% (vol 1,5x) · MU +4,1% (fechou na máxima) · DIRR3 +2,5%
-**Baixas** BBDC4 -3,7% (vol 2,2x · fechou na mínima) · ITSA4 -3,3% (vol 1,6x · fechou na mínima) · NOK -3,2% · QNTM -3,2% (vol 0,5x · fechou na mínima) · REMX -3,0% (vol 2,0x · mínima de 52 semanas)
+**Altas** SAPR4 +8,4% · ALUP4 +7,9% (máxima de 52 semanas) · CURY3 +4,8% · MU +4,1% (fechou na máxima) · DIRR3 +2,5%
+**Baixas** ETH -4,7% · BBDC4 -3,7% · ITSA4 -3,3% · NOK -3,2% · QNTM -3,2% (vol 0,5x · fechou na mínima)
 
 ---
 
@@ -197,13 +197,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0156 | **+0,8** | -3,0 | -2,2 | -3,0 | -2,6 | -5,6 | -8,4 | -8,9 |
-| **DXY** Indice Dolar DXY · máxima de 52 semanas | 102,26 | **+0,4** | +0,8 | +3,1 | +1,2 | +3,2 | +3,7 | +4,1 | +8,7 |
-| **BRENT** Petroleo Brent | 100,95 | **+0,4** | +3,0 | +4,9 | +29 | +6,5 | +54 | +66 | +23 |
-| **BTC** Bitcoin _(parcial)_ | 83.316 | **-2,6** | -0,3 | +5,3 | +34 | +17 | -31 | -4,8 | +52 |
-| **ETH** Ethereum _(parcial)_ | 2.571 | **-4,7** | -4,2 | +3,2 | +48 | +17 | -42 | -13 | -25 |
+| **DXY** Indice Dolar DXY _(dia 06/10)_ | 101,83 | **-0,3** | +0,5 | +2,7 | +0,7 | +2,2 | +3,8 | +3,6 | +8,2 |
+| **BRENT** Petroleo Brent _(dia 06/10)_ | 100,58 | **+0,3** | +4,6 | +4,5 | +36 | -8,0 | +54 | +65 | +22 |
+| **BTC** Bitcoin | 83.316 | **-2,6** | -0,3 | +5,3 | +34 | +17 | -31 | -4,8 | +52 |
+| **ETH** Ethereum | 2.571 | **-4,7** | -4,2 | +3,2 | +48 | +17 | -42 | -13 | -25 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 06/10)_ · mínima de 52 semanas | 91,18 | **-0,3** | -5,7 | -8,4 | -7,0 | -16 | -13 | -15 | -26 |
 
-**Brent em reais:** R$ 506,32 por barril (07/10) · dia +1,2% · 1 mês +2,6% · no ano +52% (Brent do 1º vencimento × dólar).
+**Brent em reais:** a confirmar (Brent sem fechamento confirmado).
 
 ---
 
@@ -252,12 +252,16 @@ Inflação implícita 2029 5,28% · 2032 5,39% · 2031/32 (descasado) 5,32% · F
 
 2s10s +51 bps (+3 no dia)
 
-**Regime** VIX 15,1 (+0,5%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 15,1 (+0,5%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 15
+### Notícias e fatos · 17
 
+- **PETR4** Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões (Estadao · 07/10) [abrir a fonte](https://www.estadao.com.br/economia/negocios/petrobras-domina-leilao-de-petroleo-e-gas-da-anp-com-investimento-de-r-32-bilhoes/)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
+- **BTC** Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out. (Yahoo Finance · 07/10) [abrir a fonte](https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-84-000-181347561.html)
+  *Por que importa:* noticia material sobre um ativo do livro; ler o texto antes de comentar
 - **VALE3** Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro (Money Times · 07/10) [abrir a fonte](https://www.moneytimes.com.br/dividendos-esta-acao-superou-a-vale-vale3-entre-as-favoritas-dos-analistas-para-outubro/)
   *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
 - **BAC** Marvell price target raised by Bank of America on $80 billion sales outlook (Yahoo Finance · 07/10) [abrir a fonte](https://ca.finance.yahoo.com/news/marvell-price-target-raised-bank-171000333.html)
@@ -311,8 +315,8 @@ Inflação implícita 2029 5,28% · 2032 5,39% · 2031/32 (descasado) 5,32% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 06/10 · UST CMT D0 · PTAX 07/10
-**Lacunas:** nenhuma perna falhou.
+**Relógios:** Yahoo 21h55 · DI ajuste D0 · Tesouro base 06/10 · UST CMT D0 · PTAX 07/10
+**Lacunas:** DXY sem barra de 07/10 (última 06/10); BRENT sem barra de 07/10 (última 06/10); DXY: barra de 07/10 é o início da sessão seguinte (última cotação 20:46 de Nova York); barra descartada, fica a de 06/10; BRENT: barra de 07/10 é o início da sessão seguinte (última cotação 20:46 de Nova York); barra descartada, fica a de 06/10.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
 Minério: proxy Dalian 702 CNY/t (2026-09-30).

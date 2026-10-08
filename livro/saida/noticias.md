@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 21h06
+NOTÍCIAS E FATOS · 07/10 21h55
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 445 veículo fora da lista, 43 sem ativo, 3 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 446 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -281,8 +281,15 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (150)
+## OUTRAS NOTÍCIAS (só manchete) (157)
 
+· NVDA Jensen Huang Said Nvidia Now Has "a Lot Greater Visibility" Into Demand, Letting It Forecast a Full Year Ahead for the First Time Ever. Does That Con… (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jensen-huang-said-nvidia-now-002000270.html
+· MINERIO Fortescue says dispute with China’s CMRG hits iron ore sales (Mining.com) https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/
+· LITE Lumentum (LITE) Stock May Be 36% Undervalued After AI Demand News (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-stock-may-36-232014870.html
+· BTC 10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/10x-research-forecast-bitcoin-could-215922682.html
+· PETR4 Leilão do pré-sal negocia 7 áreas para Petrobras, Prio, Equinor, Galp, Sinopec e CNOOC (Money Times) https://www.moneytimes.com.br/leilao-do-pre-sal-negocia-7-areas-para-petrobras-prio-equinor-galp-sinopec-e-cnooc/
+· META Meta Platforms, Inc. (META) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/META/
+· UST Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll (Reuters) https://www.reuters.com/business/lower-us-treasury-yield-view-persists-despite-biggest-quarterly-surge-since-1994-2026-10-07/
 · UST U.S. bond market fares better than Europe after strong 10-year Treasury auction (Investing.com) https://www.investing.com/news/forex-news/french-bond-yields-resume-upward-marchfollowing-brief-relief-rally-4935716
 · PETR4 Leilão da ANP arrecada R$ 3 bi; Petrobras leva áreas na Margem Equatorial (CNN Brasil) https://www.cnnbrasil.com.br/infra/leilao-da-anp-arrecada-r-3-bi-petrobras-leva-areas-na-margem-equatorial/
 · MRVL Marvell Technology (MRVL) Lifts 2031 Revenue Goal To $70 Billion To $90 Billion (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-lifts-2031-221553872.html
@@ -336,11 +343,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · VALE3 Ação da Vale tem 3ª baixa seguida e caminha para fechar o pregão no menor nível desde dezembro (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-vale-tem-3-baixa-seguida-e-caminha-para-fechar-o-pregao-no-menor-nivel-desde-dezembro/
 · BTC Can You Hold Bitcoin in a Roth IRA? Understanding the Options, Costs, and Rules (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/hold-bitcoin-roth-ira-understanding-174723422.html
 · UST 10-year auction draws strong demand, sending yields lower (Seeking Alpha) https://seekingalpha.com/news/4651098-10-year-auction-draws-strong-demand-sending-yields-lower
-· DI Selic 2026: 70% dos bancos veem mais cortes; metade aposta em juros de 13,50% (Suno Noticias) https://www.suno.com.br/noticias/selic-2026-corte-bancos-pesquisa-febraban-mt/amp/
-· MU Apple Needs Chips, and “Micron Sets the Price.” Now Micron Is Making More Money than Apple (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/apple-needs-chips-micron-sets-164437033.html
-· VALE3 Vale SA (VALE3) Previsões, Preço-Alvo e Projeções de Analistas (ADVFN) https://br.advfn.com/bolsa-de-valores/bovespa/vale-on-VALE3/previsoes
-· LITE Record Earnings Drive Lumentum Shares to New Highs (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/record-earnings-drive-lumentum-shares-113814074.html
-· BTC Bitcoin Price Set for a Boost: Arthur Hayes Bets on an AI Boom Bust (Yahoo Finance) https://news.google.com/rss/articles/CBMimwFBVV95cUxORWlkUUs5cXV3MEtUZDNDd1NOZVpTamVPX1E3THJZNnFNbExqbnNoQ3dSMnlHanVURlZVTGdPTEZjTGs4SXg0ZmFTVUs3WG9ZcTJndEttSnFzSGlHREUzb2pKaG9nUzdzYXZjN3QwM180TmpDTHlLX0lETlZrWi1WTWNVckFYS1Njb2oxYkY3M0x6WGNRMkVUaFJPaw?oc=5
-· UST 10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears (CNBC) https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5
-· MRVL Marvell Stock Gets Wave of Analyst Upgrades After Investor Day (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e4d09f9c5094b:0-marvell-stock-gets-wave-of-analyst-upgrades-after-investor-day/
-· (+90 manchetes; lista completa em eventos/noticias.json)
+· (+97 manchetes; lista completa em eventos/noticias.json)
