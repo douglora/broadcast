@@ -127,6 +127,7 @@ class RoboFluxo:
         self.ultima_fita = 0.0                                   # relogio da ultima linha de fita recebida
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
         self.chave = chave.ler()                                 # liga/desliga do Douglas
+        self.preparado = False                                   # ja leu contratos e ajuste nesta execucao?
         self.acumulado_antes = self._acumulado_antes()
 
     # ── persistencia ─────────────────────────────────────────
@@ -265,8 +266,9 @@ class RoboFluxo:
             retrato = ler_motor("/vivo/retrato", self.motor)
         self._frescor()
         pregao = agora.weekday() < 5 and ABERTURA <= hora[:5]
-        if pregao and (len(self.codigos) < len(ATIVOS) or int(ts) % 60 == 0):
+        if pregao and (len(self.codigos) < len(ATIVOS) or int(ts) % 60 == 0 or not self.preparado):
             self.preparar()
+            self.preparado = True
         self.ler_fita()
         fita_ok = (time.time() - self.ultima_fita) <= FITA_PARADA_S if self.ultima_fita else False
         q = (retrato or {}).get("q") or {}
