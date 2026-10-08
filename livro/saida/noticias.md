@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 07/10 21h55
+NOTÍCIAS E FATOS · 08/10 08h32
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 446 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 21 novas (18 consultas; descartadas: 451 veículo fora da lista, 50 sem ativo, 46 teto) · cvm ok 0 novos de 2 (1 cias casadas) · sec ok 1 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -30,7 +30,23 @@ Fonte: CVM 07/10
 id: E03-AXIA3-1574921-2026-10-07 · status: linha
 
 
-## SEC (8-K, 6-K, 10-Q, 10-K) (1)
+## SEC (8-K, 6-K, 10-Q, 10-K) (2)
+
+[INFO] E04 · TSM · 6-K: 6-K
+SEC EDGAR · aceito 08/10 07h12 · 6-K
+Do documento:
+  – Taiwan Semiconductor Manufacturing Company Limited   Date: October 8, 2026 By /s/ Wendell Huang   Wendell Huang   Senior Vice President and Chief Financial Officer   TSMC September 2026 Revenue Report   HSINCHU, Taiwan,…
+  – Revenue for January through September 2026 totaled T$3,898.73 billion, an increase of 41.1 percent compared to the same period in 2025.
+  – Note: “Outstanding” herein means the outstanding balance at the end of Current Month; and “Cumulative” herein represents the accumulated amounts from the beginning of this year till the end of Current Month.
+  – Revenue (in NT$ thousands)   Period Items 2026 2025   Sep.
+  – Net Revenue   511,857,399 330,980,920   Jan.~Sep.
+  – Net Revenue   3,898,726,974 2,762,963,851   2.
+Link: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm
+Por que importa: 6-K e o relatorio de emissor estrangeiro: resultado, provento ou fato relevante do pais de origem
+Ativos: TSM
+Como falar: 'a TSM protocolou 6-K na SEC (6-K)'
+Fonte: SEC EDGAR 2026-10-08
+id: E04-TSM-26000680-2026-10-08 · status: linha · íntegra disponível
 
 [INFO] E04 · BABA · 6-K: 6-K
 SEC EDGAR · aceito 07/10 07h52 · FORM 6-K
@@ -46,7 +62,81 @@ Fonte: SEC EDGAR 2026-10-07
 id: E04-BABA-26114191-2026-10-07 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (18)
+## NOTÍCIAS COM MATERIALIDADE (24)
+
+[ATENÇÃO] E05 · MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company
+Seeking Alpha · 08/10 07h39 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952720-marvells-investor-day-70-90b-fy31-sales-feels-like-a-different-company
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 07h39
+id: E05-MRVL-8e40b5f602-2026-10-08 · status: pendente
+
+[ATENÇÃO] E05 · UST · Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auction
+CNBC · 08/10 06h19 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The benchmark 10-year Treasury yield was 7 basis points higher at 5.35%, near its highest level since 2002.
+  – The 30-year Treasury bond yield rose over 6 basis points to 5.725%, after trading just below a 24-year high in the previous session.
+  – The 2-year Treasury note yield rose 5 basis points to 4.816%.
+  – One basis point is equal to 0.01%, and yields and prices move in opposite directions.
+  – Fed Governor Christopher Waller said on Thursday that more hikes are needed to bring inflation down after around 5-and-a-half years above the central bank's 2% target, but suggested rates did not need to rise immediatel…
+  – "The hikes do not need to come at consecutive meetings," Waller told a Central Bank of Turkey forum in Istanbul.
+Link: https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no CNBC: Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auct…; confirmar o número no texto antes de repassar'
+Fonte: CNBC 08/10 06h19
+id: E05-UST-5785e8a04e-2026-10-08 · status: pendente
+
+[ATENÇÃO] E05 · MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
+Seeking Alpha · 08/10 04h45 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952697-marvell-investor-day-connectivity-lifts-outlook-to-20-billion
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 04h45
+id: E05-MRVL-910acc29de-2026-10-08 · status: pendente
+
+[ATENÇÃO] E05 · TSM · MU, TSM Stocks Dip Overnight As Samsung Forecasts Record $80B Operating Profit In Q3
+TradingView (Reuters) · 08/10 04h26 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/stocktwits:b640ba21f094b:0-mu-tsm-stocks-dip-overnight-as-samsung-forecasts-record-80b-operating-profit-in-q3/
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: TSM
+Como falar: 'saiu no TradingView (Reuters): MU, TSM Stocks Dip Overnight As Samsung Forecasts Record $80B Operating Profit In Q3; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 08/10 04h26
+id: E05-TSM-41e4e32865-2026-10-08 · status: linha
+
+[ATENÇÃO] E05 · KO · Coca-Cola (KO) Raises Its Outlook, Is The Stock Still Undervalued?
+Yahoo Finance · 07/10 23h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Spot opportunities beyond Coca-Cola by reviewing a curated group of consumer-focused businesses that show strong momentum and financial resilience in our 20 high quality undiscovered gems.
+  – See why 527 investors see Coca-Cola as 9% undervalued.
+  – Result: Fair Value of $94.65 (UNDERVALUED) Still, the narrative can crack if GLP 1 drugs permanently curb sugary drink consumption, or if refranchising drags on revenue and earnings more than expected.
+  – KO changes hands at 25.8x earnings, above the global beverage group on 16.6x and above its own fair ratio of 23.4x.
+  – Press into the details yourself, weigh the trade off between the 1 or more risks and the 1 or more rewards that investors are already debating, and ground your own view in the underlying data by testing the 4 key reward…
+Link: https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-raises-outlook-021026402.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: KO
+Como falar: 'saiu no Yahoo Finance: Coca-Cola (KO) Raises Its Outlook, Is The Stock Still Undervalued?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 23h10
+id: E05-KO-6b96c93dbe-2026-10-08 · status: linha
+
+[ATENÇÃO] E05 · MMM · Is 3M (MMM) Undervalued As Product Momentum And Its 2026 Outlook Build?
+Yahoo Finance · 07/10 11h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Scan for other industrials showing similar product driven momentum to 3M by reviewing our curated list of 27 high quality undervalued stocks.
+  – 3M now trades above its recent lows after a powerful three year total shareholder return of about 13x.
+  – The acceleration in new product launches, now at an expected 350 plus in 2026 with 176 launches in the first half and five-year new product sales expected to reach about US$4b, continues to build on 3M's R&D factory mod…
+  – See why 183 investors see 3M as 12% undervalued.
+  – Result: Fair Value of $186.98 (UNDERVALUED) Still, the 3M narrative can break if PFAS and safety related lawsuits demand heavier cash payouts, or if input cost pressure keeps squeezing already contested margins.
+  – Find out about the key risks to this 3M narrative.
+Link: https://finance.yahoo.com/markets/stocks/articles/3m-mmm-undervalued-product-momentum-141050968.html
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MMM
+Como falar: 'saiu no Yahoo Finance: Is 3M (MMM) Undervalued As Product Momentum And Its 2026 Outlook Build?; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 07/10 11h10
+id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 [ATENÇÃO] E05 · PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões
 Estadao · 07/10 19h51 · fonte única · licença: manchete
@@ -55,7 +145,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4 · BRENT
 Como falar: 'saiu no Estadao: Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões; confirmar o número no texto antes de repassar'
 Fonte: Estadao 07/10 19h51
-id: E05-PETR4-5fab9e92b0-2026-10-07 · status: pendente
+id: E05-PETR4-5fab9e92b0-2026-10-07 · status: expirado
 
 [ATENÇÃO] E05 · BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.
 Yahoo Finance · 07/10 15h13 · fonte única · licença: resumo
@@ -71,7 +161,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: BTC
 Como falar: 'saiu no Yahoo Finance: Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped Out.; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 07/10 15h13
-id: E05-BTC-b6e3a09e0c-2026-10-07 · status: pendente
+id: E05-BTC-b6e3a09e0c-2026-10-07 · status: expirado
 
 [ATENÇÃO] E05 · VALE3 · Dividendos: Esta ação superou a Vale (VALE3) entre as favoritas dos analistas para outubro
 Money Times · 07/10 14h55 · fonte única · licença: integral
@@ -281,8 +371,23 @@ Fonte: Agencia Brasil 06/10 22h53
 id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 
 
-## OUTRAS NOTÍCIAS (só manchete) (157)
+## OUTRAS NOTÍCIAS (só manchete) (172)
 
+· BTC Q&A: Bitcoin Funds Are Expanding. HANetf’s Co-CEO Explains Why (The Wall Street Journal) https://www.wsj.com/finance/currencies/q-a-bitcoin-funds-are-expanding-hanetfs-co-ceo-explains-why-3edb2398
+· VALE3 Na cidade onde nasceu a Vale, ele construiu um negócio de R$ 1,8 bilhão bem longe do minério (Exame) https://exame.com/negocios/na-cidade-onde-nasceu-a-vale-ele-construiu-um-negocio-de-r-18-bilhao-bem-longe-do-minerio/
+· BTC Bitcoin ETFs bleed nearly $500 million in one day: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months
+· BBAS3 Banco do Brasil perde espaço para rivais na Bolsa e JPMorgan revela seus favoritos (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/banco-do-brasil-perde-espaco-para-rivais-na-bolsa-e-jpmorgan-revela-seus-favoritos/
+· ETH Current price of Ethereum for Oct. 8, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-08-2026/
+· BTC Current price of Bitcoin for Oct. 8, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-08-2026/
+· CVX Hess: When It Rains It Pours And This Time Chevron Is Raining On Shareholders (HESM) (Seeking Alpha) https://seekingalpha.com/article/4952727-hess-midstream-when-it-rains-it-pours-and-this-time-chevron-is-raining-on-shareholders
+· BTC Ethereum researcher's AI security warning stirs debate as bitcoin extends slide: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto
+· BTC Bitcoin monthly inflows near $5B, but existing holders did most of the lifting (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:12ac7da2a094b:0-bitcoin-monthly-inflows-near-5b-but-existing-holders-did-most-of-the-lifting/
+· USDBRL Primeiras pesquisas após primeiro turno dividem agenda com ata do BCE; Ibovespa em dólar cai nesta quinta-feira (8) (Money Times) https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTEQzZ09ZS3lMMHp5WXgya3R2VnlVMlVDRTNWNlM1SjFSYnh6UkV0MVlKYTVQU18xaU9FS01QeURvUXcwdXNFQVQ5bW1ZVUJNUTQxbjhSNDJhd2xRRG5ULVlILW1pdGJZSDlibzdWNVM1QWhscXc5b1gwaDl3d2YxSXpWTTlQdzVDXzZTaldHS2NDU1lpR29scXJ0ZFl2U0xNWUZHLVp1MVJyOWRuMkR0dkdPVzE5X3VwSnZnemdJTHZHbjVPSUtrNjZrRXd5M0VUTDZSczdMMW9BUEhBdXlZR1VB?oc=5
+· BTC Strategy Stock: Trading Near Bitcoin NAV With Significant Upside (NASDAQ:MSTR) (Seeking Alpha) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLUdqS2taSUdPdEtBdDBOdVc0bnFlbGhJSzNrTlBkUXdRdnlsek1wZmhhMUxWY0hMR3d6R1VjRjg5NzJzekN5ZjlwZ19pYlhoTDE0amw2RWhDRGl4OGFveThEcUdxdmJNMGZFMnJadDVXRXpOODNhMDRyNUc2QjBWZC04cHF3OEc4NnZhelNNQm5PeUtaZ0lwRFVIUFpWRE4xdW8yb0lrTkxha0dtZ19neFp1R2RQNVliaE80?oc=5
+· ETH Where Will Ethereum Be in 2030? (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWRZZHRNUmRTMkpuZUdZWjlONWx4UVZiTjUzLTR1c005TjVIQV9UM3piWGFLSVpVTG44ZmpacWFVdVN4bHU0U19hdGlOM2hSQVprTy1FZ3BUc2duVXduQmhNemtZUEF5dHJJSUhqRnh4WEVIRVM3U1ROcFMxNDRjeWFQSGVBZWFiVm5OSA?oc=5
+· KO Coca-Cola: Reiterating 'Sell' Amid Insider Selling And Steep Valuation (Q3 Earnings Preview) (Seeking Alpha) https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0czaXVoMzFOMlhXSFFMVUdSN2pGT2FwTTVjNG0xQWVIeEQxLXVFZzYwYldhX1ExaE9NSkd1NkRCa1Y3WjQzV08zblF1R3BlZ2pUbWpCZGJ3OFotMXlRN2Y1TFNaNlptRHMtU3lsNmdyNWFWck1QY2VpZVc1YllHVXFtNGFGeVFYa1FnclFMaXdjdjVSSXJ4U3hwSzBpTmVHQ09LYmhDc0drQ3R2MDE5bEtGMkZpRUYtMjhULU1ZeTJxdw?oc=5
+· VALE3 Vale, siderúrgicas, papel e celulose: por que não se animaram com rali? (InfoMoney) https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHQyWWdIcWlTWUNWN2t6UDNhamM1WU1KNEkzRjhUZmVXTFk0a2RmSHdpdzVQYlRkbF83R2EweDFGdnJ4R0tfZUtCV0JtM3Q1RnpsQVhWa3VxREp3Y3I4S2VaUWxjMFMzNUpCQjR2WG5ERUY0WThMTXF2V0ExUmpMUFEyNXVGcXViMzlZRGtNMnZJaEdHaXZuRUhSN2xMdzJYQzZmVHh4UWgwd9IBrwFBVV95cUxPbjB2QzNvcUZLOXF0UjJORlF6aHdCa3hQYWtubVhZemJ3RVJNWEtLZGloWVlHXzAzOG0yTTJzMXZudGhJU3hoTk1tMUZnSkFLLWFXYWt5S2lZdjgyWlVnWHlyNzhocU5DNzNsN3YtdTBpYVM3aFFUMDYyU2d3V1FtMDRyRGppNlByM1FuN1NNdU9SeGptbmJYZ0dLQm9RYldCaG9vMzZGWFJ1Nm9JWWFR?oc=5
+· TSM Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLVp4bkQ5MTV6SS0zc3ZKMEFxTmdqR1FvTUxuYkdFdzFXTVRiemowd0REVUZOUG56aWtZcjhtMEFNUDhpeHBvaDVnemkyLTdYclJocFBneGpfMnJCYlJMa2ZQMGp0ejRQNk51bU9UUDFURzhoYWdOR1cwMGdHWXlNM3FBRUZyNV81MWNDYkotOTNFRGszcW5PNG1STUNjWEdlbmJobjJURHQxcWt3ZndyRVdLNHdjTVVoU0laV0U3clhxMGdSZDc1V2huemhMdkY1eGozWW5XRElBMU45TkE?oc=5
 · NVDA Jensen Huang Said Nvidia Now Has "a Lot Greater Visibility" Into Demand, Letting It Forecast a Full Year Ahead for the First Time Ever. Does That Con… (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jensen-huang-said-nvidia-now-002000270.html
 · MINERIO Fortescue says dispute with China’s CMRG hits iron ore sales (Mining.com) https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/
 · LITE Lumentum (LITE) Stock May Be 36% Undervalued After AI Demand News (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/lumentum-lite-stock-may-36-232014870.html
@@ -328,19 +433,4 @@ id: E05-DI-8187ee916e-2026-10-07 · status: linha · íntegra disponível
 · NVDA SpaceX may chase ‘stunning’ AI returns by taking on a lot of debt to buy Nvidia chips (MarketWatch) https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82
 · BTC Bitcoin Price Gets A Fresh Treasury Buyback Test (TradingView (Reuters)) https://www.tradingview.com/news/coinpedia:b72f89c39094b:0-bitcoin-price-gets-a-fresh-treasury-buyback-test/
 · GOOGL Wall Street Says $429 for Alphabet. Our Model Sees $500+ (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/wall-street-says-429-alphabet-160054141.html
-· VALE3 Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 205 mil pontos; VALE3 recua 3% (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-07102026/
-· PETR4 Entra Petrobras (PETR4) e Sabesp (SBSP3): Planner indica 10 ações para a carteira de outubro (Money Times) https://www.moneytimes.com.br/entra-petrobras-petr4-e-sabesp-sbsp3-planner-indica-10-acoes-para-a-carteira-de-outubro-lmrs/
-· MU Nvidia, Micron and Other 5 S&P 500 Stocks With +100% Revenue Growth (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:ad8b271fb094b:0-nvidia-micron-and-other-5-s-p-500-stocks-with-100-revenue-growth/
-· CVX Chevron Swaps Hess Midstream Stake for 50% Lower Bakken Costs — and a $200 Million Payment (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:db1d406fd094b:0-chevron-swaps-hess-midstream-stake-for-50-lower-bakken-costs-and-a-200-million-payment/
-· ETH Ethereum news: Tom Lee says Bitmine to soon stop buying ETH (CoinDesk) https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases
-· UST US government bonds steady after strong 10-year Treasury auction (Financial Times) https://www.ft.com/content/33c67aa0-bfdb-457b-84bb-960b4fed94b6?syn-25a6b1a6=1
-· TSM INTC Stock Jumps Overnight: CEO Says Intel Will Keep Working With Musk's Terafab Amid TSMC Partnership Buzz (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intc-stock-jumps-overnight-ceo-074228291.html
-· CVX Hess Midstream Partners Goes Public-Only, Buys Chevron’s DJ Basin Assets (Yahoo Finance) https://finance.yahoo.com/energy/articles/hess-midstream-partners-goes-public-180223396.html
-· USDBRL Ouro fecha em queda pressionado por dólar forte e avanço de juros dos Treasuries (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/07/ouro-fecha-em-queda-pressionado-por-dolar-forte-e-avanco-de-juros-dos-treasuries.htm
-· UST Update: US Equity Indexes Fall, Treasury Yields Mixed Ahead of Fed Minutes (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-treasury-175755567.html
-· MRVL ARM vs. Marvell Technology: What Revenue Trends for These Artificial Intelligence Companies Tell Investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/arm-vs-marvell-technology-revenue-175521547.html
-· MU Another Micron triple? Where we agree with this wildly bullish call and where we don't (CNBC) https://www.cnbc.com/investingclub/2026/10/07/another-micron-triple-where-we-agree-with-this-wildly-bullish-call-and-where-we-dont.html
-· VALE3 Ação da Vale tem 3ª baixa seguida e caminha para fechar o pregão no menor nível desde dezembro (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-vale-tem-3-baixa-seguida-e-caminha-para-fechar-o-pregao-no-menor-nivel-desde-dezembro/
-· BTC Can You Hold Bitcoin in a Roth IRA? Understanding the Options, Costs, and Rules (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/hold-bitcoin-roth-ira-understanding-174723422.html
-· UST 10-year auction draws strong demand, sending yields lower (Seeking Alpha) https://seekingalpha.com/news/4651098-10-year-auction-draws-strong-demand-sending-yields-lower
-· (+97 manchetes; lista completa em eventos/noticias.json)
+· (+112 manchetes; lista completa em eventos/noticias.json)

@@ -1,24 +1,15 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
-(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F29 -133 bps em 5 pregões (ajuste B3 07/10) / C02 Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 pregões
-DI F28 12,59 (-2) · F29 12,43 (-3) · F30 12,51 (-1) · F32 12,70 (+4) · F35 12,78 (+5)
-Inclinação F35-F28 +19 bps (+7)
-F35-F28 +19 bps (+7 dia · -24 5 pregões)
-F30-F28 -8 bps (+1 dia · -42 5 pregões)
-Por que importa: a curva é o preço do dinheiro no Brasil; longo abrindo com curto parado é prêmio de risco, não Selic
-Como falar: 'o prefixado longo marcou a mercado para baixo; quem carrega até o vencimento não mudou de taxa'
-Fonte: B3 ajuste 07/10 · ajuste B3 07/10
-ids: C01-DI-abriu-2026-10-07, C02-DI-inclinacao-2026-10-07
-
-(pendente de slot anterior) [CRÍTICO] T05 · 2 ativos: SAPR4, ALUP4
-· SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias de 33% a.a.
-  1m +18% · 6m -7,1% · YTD +4,2%
-· ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias de 31% a.a.
-  1m +13% · 6m +11% · YTD +23%
-Por que importa: acima de 3 desvios o movimento sai do ruído e costuma vir de fato novo ou fluxo forçado
-Como falar: 'alta fora do padrão; costuma vir de notícia ou de fluxo, e parte dela pode devolver'
-Fonte: Yahoo Finance fech. 07/10
-ids: T05-SAPR4-alta-2026-10-07, T05-ALUP4-alta-2026-10-07
+[CRÍTICO] CURVA · C05 IPCA+ 2050 PU -6,4% em 5 datas-base (base 07/10) / C06 Inflação implícita: implícita 2029 -68 bps na semana · implícita 2032 -55 bps na semana · implícita 2031/32 (descasado) -59 bps na semana
+TD Pre 2029 12,55 (0) · Pre 2031 12,72 (+8) · IPCA+ 2032 6,95 (0) · IPCA+ 2035 6,95 (+3) · IPCA+ 2040 6,69 (+5) PU -0,6% · IPCA+ 2050 6,62 (+11) PU -2,4% · IPCA+ 2029 6,91 (0) · Pre 2032 12,82 (+11)
+Implícita 2029: 5,28% (-68 bps na semana) vs Focus IPCA 2029 3,51% (+176 bps)
+Implícita 2032: 5,49% (-55 bps na semana) vs Focus IPCA 2030 3,50% (+199 bps)
+Implícita 2031/32 (descasado): 5,40% (-59 bps na semana) vs Focus IPCA 2030 3,50% (+190 bps)
+Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
+Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
+Fonte: Tesouro Transparente base 07/10; BCB Focus · Tesouro Transparente, base 07/10
+Push: [CRÍTICO] TESOURO IPCA+ 2050 PU -6,4% em 5 datas-base (base 07/10) | TESOURO Inflação implícita · detalhe na sessão
+ids: C05-TESOURO-fechou-2026-10-07, C06-TESOURO-implicita-2026-10-07
 
 (pendente de slot anterior) [ATENÇÃO] E05 · PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 3,2 bilhões
 Estadao · 07/10 19h51 · fonte única · licença: manchete
@@ -45,27 +36,80 @@ Como falar: 'saiu no Yahoo Finance: Bitcoin Drops Below $84,000 as Nearly $500 M
 Fonte: Yahoo Finance 07/10 15h13
 ids: E05-BTC-b6e3a09e0c-2026-10-07
 
-Info (só linha no Fechamento):
-· E05 NVDA · Jensen Huang Said Nvidia Now Has "a Lot Greater Visibility" Into Demand, Letting It Forecast a Full Year Ahead for the First Time Ever. Does That Con…
-· E05 MINERIO · Fortescue says dispute with China’s CMRG hits iron ore sales
-· E05 LITE · Lumentum (LITE) Stock May Be 36% Undervalued After AI Demand News
-· E05 BTC · 10x Research Forecast Bitcoin Could Fall to $46,000, but What Really Happened?
-· E05 PETR4 · Leilão do pré-sal negocia 7 áreas para Petrobras, Prio, Equinor, Galp, Sinopec e CNOOC
-· E05 META · Meta Platforms, Inc. (META) Stock Price, News, Quote & History
-· E05 UST · Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll
-· T09 BBDC4 -3,7% com volume 2,9x a mediana de 20 sessões, a R$ 21,96
-· T10 BAC no mínimo de força relativa em 63 sessões contra SPX: -15% vs +2,2% em 20 sessões (-16% relativo)
-· T10 VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -13% vs +10% em 20 sessões (-21% relativo)
+[ATENÇÃO] E05 · MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company
+Seeking Alpha · 08/10 07h39 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952720-marvells-investor-day-70-90b-fy31-sales-feels-like-a-different-company
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 07h39
+Push: Manhã 08h30: 3 alertas de atenção — E05 MRVL, E05 UST, E05 MRVL · detalhe na sessão
+ids: E05-MRVL-8e40b5f602-2026-10-08
 
-Suprimidos pelo teto (viram linha do Fechamento): T09-BBDC4-queda-2026-10-07 (teto de atenção), T10-BAC-mínimo-2026-10-07 (teto de atenção), T10-VALE3-mínimo-2026-10-07 (teto de atenção)
+[ATENÇÃO] E05 · UST · Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auction
+CNBC · 08/10 06h19 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – The benchmark 10-year Treasury yield was 7 basis points higher at 5.35%, near its highest level since 2002.
+  – The 30-year Treasury bond yield rose over 6 basis points to 5.725%, after trading just below a 24-year high in the previous session.
+  – The 2-year Treasury note yield rose 5 basis points to 4.816%.
+  – One basis point is equal to 0.01%, and yields and prices move in opposite directions.
+  – Fed Governor Christopher Waller said on Thursday that more hikes are needed to bring inflation down after around 5-and-a-half years above the central bank's 2% target, but suggested rates did not need to rise immediatel…
+  – "The hikes do not need to come at consecutive meetings," Waller told a Central Bank of Turkey forum in Istanbul.
+Link: https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html
+Por que importa: decisao de politica monetaria reprecifica toda a curva e o cambio
+Ativos: UST
+Como falar: 'saiu no CNBC: Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auct…; confirmar o número no texto antes de repassar'
+Fonte: CNBC 08/10 06h19
+ids: E05-UST-5785e8a04e-2026-10-08
+
+[ATENÇÃO] E05 · MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
+Seeking Alpha · 08/10 04h45 · fonte única · licença: manchete
+Link: https://seekingalpha.com/article/4952697-marvell-investor-day-connectivity-lifts-outlook-to-20-billion
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: MRVL
+Como falar: 'saiu no Seeking Alpha: Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion; confirmar o número no texto antes de repassar'
+Fonte: Seeking Alpha 08/10 04h45
+ids: E05-MRVL-910acc29de-2026-10-08
+
+Info (só linha no Fechamento):
+· C03 Prefixado em nível: Pre 2029 na mínima de 252 bases: 12,55%
+· E01 JPM: resultado sai em 3 sessões (13/10)
+· E02 MRVL fica ex-dividendo em 09/10: US$ 0,06 (0,02% do preço)
+· M01 Agenda: IPCA de setembro (IBGE) amanhã às 09:00 (09/10)
+· E04 TSM · 6-K: 6-K
+· E05 BTC · Q&A: Bitcoin Funds Are Expanding. HANetf’s Co-CEO Explains Why
+· E05 VALE3 · Na cidade onde nasceu a Vale, ele construiu um negócio de R$ 1,8 bilhão bem longe do minério
+· E05 BTC · Bitcoin ETFs bleed nearly $500 million in one day: Crypto Daily
+· E05 BBAS3 · Banco do Brasil perde espaço para rivais na Bolsa e JPMorgan revela seus favoritos
+· E05 ETH · Current price of Ethereum for Oct. 8, 2026
+· E05 BTC · Current price of Bitcoin for Oct. 8, 2026
+· E05 CVX · Hess: When It Rains It Pours And This Time Chevron Is Raining On Shareholders (HESM)
+· E05 BTC · Ethereum researcher's AI security warning stirs debate as bitcoin extends slide: Crypto Markets Today
+· E05 BTC · Bitcoin monthly inflows near $5B, but existing holders did most of the lifting
+· E05 USDBRL · Primeiras pesquisas após primeiro turno dividem agenda com ata do BCE; Ibovespa em dólar cai nesta quinta-feira (8)
+· E05 BTC · Strategy Stock: Trading Near Bitcoin NAV With Significant Upside (NASDAQ:MSTR)
+· E05 ETH · Where Will Ethereum Be in 2030?
+· E05 KO · Coca-Cola: Reiterating 'Sell' Amid Insider Selling And Steep Valuation (Q3 Earnings Preview)
+· E05 VALE3 · Vale, siderúrgicas, papel e celulose: por que não se animaram com rali?
+· E05 TSM · Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus
+· E05 TSM · MU, TSM Stocks Dip Overnight As Samsung Forecasts Record $80B Operating Profit In Q3
+· E05 KO · Coca-Cola (KO) Raises Its Outlook, Is The Stock Still Undervalued?
+· E05 MMM · Is 3M (MMM) Undervalued As Product Momentum And Its 2026 Outlook Build?
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-TSM-41e4e32865-2026-10-08 (teto de noticias), E05-KO-6b96c93dbe-2026-10-08 (teto de noticias), E05-MMM-d5def19944-2026-10-07 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· expirado  C01 DI — A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F2
-· expirado  T05 SAPR4 — SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias d
-· pendente  E05 PETR4 — PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 
-· pendente  E05 BTC — BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped 
-· expirado  C02 DI — Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 preg
-· expirado  T05 ALUP4 — ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias 
+· pendente  C05 TESOURO — IPCA+ 2050 PU -6,4% em 5 datas-base (base 07/10)
+· entregue  C01 DI — A curva ABRIU: F28 -96 bps em 5 pregões · F28 6 pregões seguidos (-108 bps) · F2
+· entregue  T05 SAPR4 — SAPR4 +8,4% no dia a R$ 8,04: movimento de 3,9 desvios para uma vol de 20 dias d
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 -68 bps na semana · implícita 2032 -55 bps na
+· pendente  E05 MRVL — MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Comp
+· pendente  E05 UST — UST · Treasury yields rise as Fed's Waller says more hikes needed, investors awa
+· pendente  E05 MRVL — MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
+· expirado  E05 PETR4 — PETR4 · Petrobras domina leilão de petróleo e gás da ANP com investimento de R$ 
+· expirado  E05 BTC — BTC · Bitcoin Drops Below $84,000 as Nearly $500 Million in Long Bets Get Wiped 
+· entregue  C02 DI — Inclinação da curva DI: F35-F28 -24 bps em 5 pregões · F30-F28 -42 bps em 5 preg
+· entregue  T05 ALUP4 — ALUP4 +7,9% no dia a R$ 12,30: movimento de 3,9 desvios para uma vol de 20 dias 
 · linha     T09 BBDC4 — BBDC4 -3,7% com volume 2,9x a mediana de 20 sessões, a R$ 21,96
 · linha     T10 BAC — BAC no mínimo de força relativa em 63 sessões contra SPX: -15% vs +2,2% em 20 se
 · linha     T10 VALE3 — VALE3 no mínimo de força relativa em 63 sessões contra IBOV: -13% vs +10% em 20 
@@ -85,6 +129,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Piper Sandler raises Marvell stock price target on revenue outlook
 · entregue  E05 BTC — BTC · Bitcoin Falls as $550 Million in Risky Crypto Bets Wiped Out
 · entregue  S01 SISTEMA — coleta do slot manha saiu incompleta: bcb: BCB devolveu 4 de 5 séries (faltaram 
+· linha     C03 TESOURO — Prefixado em nível: Pre 2029 na mínima de 252 bases: 12,55%
 · linha     C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,43% · F30 na mínima de 252 pregões
 · linha     T01 SAPR4 — SAPR4 retomou a média de 200 dias pela 1ª sessão: R$ 8,04 vs MM200 R$ 7,62 (+5,5
 · linha     T03 META — META formou golden cross: MM50 US$ 633,08 cruzou acima da MM200 US$ 628,57 pela 
@@ -97,5 +142,5 @@ Alertas do dia (todos, com status):
 · linha     T07 RARA11 — RARA11 entrou em sobrevendido: RSI14 23 a R$ 13,86
 · linha     T09 SMAL11 — SMAL11 +1,2% com volume 4,0x a mediana de 20 sessões, a R$ 130,20
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0156 (-3,0% em 5 sessões · cruzou R$ 5,00) (parcial, intradi
-· linha     F06 BTC — BTC cai a US$ 83.316 (cruzou US$ 85.000)
-· (+161 notícias só manchete, em noticias.md)
+· linha     F06 BTC — BTC cai a US$ 83.276 (cruzou US$ 85.000)
+· (+183 notícias só manchete, em noticias.md)
