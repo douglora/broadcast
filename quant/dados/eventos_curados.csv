@@ -1,0 +1,6 @@
+# Curadoria manual de eventos que as APIs da B3/StatusInvest truncam ou omitem.
+# Separador ';', ponto decimal, datas AAAA-MM-DD. fator = multiplicador de quantidade
+# (bonificacao 10% -> 1.10; desdobro 1:2 -> 2.0; grupamento 10:1 -> 0.1); valor = provento bruto por acao.
+# data_ex pode ficar vazia (calculada como o pregao seguinte a data_com). Toda linha deve ter fonte=curadoria e obs com a evidencia.
+ticker;tipo;data_com;data_ex;valor;fator;data_aprov;fonte;carimbo;obs
+SLCE3;BONIFICACAO;2023-05-08;2023-05-09;;1.10;2023-04-27;curadoria;2026-09-07;Bonificacao de 10% em acoes aprovada na AGO/E de 27/04/2023 (1 nova a cada 10), ausente no GetListedSupplementCompany da B3 por truncamento da lista

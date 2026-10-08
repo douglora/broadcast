@@ -1,0 +1,15 @@
+# Curadoria manual de setor por empresa: sobrescreve o SETOR_ATIV do cadastro da CVM.
+# Existe por causa do balde de escape da CVM ("Emp. Adm. Part. - Sem Setor Principal"), onde caem
+# as holdings. Um teto de 25% por setor cumprido por um balde de holdings sem relacao entre si nao
+# restringe nada: Itausa e risco de banco e Bradespar e risco de minerio, no mesmo balde da CVM.
+# Separador ';', linhas iniciadas por '#' sao comentario (nao use '#' nem ';' dentro de obs).
+# cnpj e a chave (so os digitos importam); cd_cvm pode ficar vazio - so serve para achar a empresa
+# quando o CNPJ nao foi anotado. setor tem que ser um bucket de setores.SETORES.
+# Toda linha tem fonte=curadoria e obs com a evidencia, na mesma convencao de honestidade do
+# identidade.OVERRIDES com validado=False: o que foi anotado de memoria diz que foi.
+cnpj;cd_cvm;setor;fonte;obs
+61.532.644/0001-15;;bancos;curadoria;Itausa - holding de controle do Itau Unibanco. O resultado e o risco sao de banco. CNPJ anotado de memoria e classificacao da CVM presumida como Emp. Adm. Part. - conferir contra cad_cia_aberta.csv
+03.847.461/0001-92;;materiais;curadoria;Bradespar - holding cujo ativo relevante e a participacao na Vale. O resultado e o risco sao de minerio de ferro. CNPJ anotado de memoria - conferir contra cad_cia_aberta.csv
+33.256.439/0001-39;;petroleo;curadoria;Ultrapar - Ipiranga (distribuicao de combustiveis) e Ultragaz (GLP). CNPJ anotado de memoria - conferir contra cad_cia_aberta.csv
+07.415.333/0001-20;;industria;curadoria;Simpar - holding de JSL, Movida e Vamos (logistica e locacao de frota). CNPJ anotado de memoria - conferir contra cad_cia_aberta.csv
+50.746.577/0001-15;;petroleo;curadoria;Cosan - holding de Raizen (combustiveis, acucar e alcool), Compass (gas) e Rumo (ferrovia). Bucket ambiguo entre petroleo e consumo, escolhido pela receita de combustivel. CNPJ anotado de memoria - conferir contra cad_cia_aberta.csv

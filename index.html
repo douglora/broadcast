@@ -357,6 +357,21 @@ body{background:var(--bg0);color:var(--text0);font-family:'Nunito Sans','Inter',
 .spinner{display:inline-block;width:9px;height:9px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .6s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .empty{text-align:center;padding:30px 16px;color:var(--text2);font-size:11px}
+
+/* SISTEMA QUANT — card de resumo. A tela cheia mora em /quant (quant.html):
+   um terminal de noticias e um painel de operacao sao coisas diferentes, e
+   misturar os dois atrapalhava os dois. */
+#quant-card{cursor:pointer}
+.qc-row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:5px 2px;border-bottom:1px solid var(--border)}
+.qc-row:last-child{border-bottom:none}
+.qc-k{font-size:8.5px;color:var(--text2);text-transform:uppercase;letter-spacing:.6px;font-weight:700}
+.qc-v{font-size:11px;font-weight:700;font-variant-numeric:tabular-nums;text-align:right}
+.qc-sub{font-size:8.5px;color:var(--text2);font-weight:600}
+.qc-msg{padding:8px 2px;color:var(--text2);font-size:10px;line-height:1.5}
+.qc-alerta{margin-top:6px;padding:5px 7px;border-radius:4px;background:rgba(255,59,48,.10);border-left:3px solid var(--red);color:var(--red);font-size:9px;font-weight:700;line-height:1.4}
+.qlight{display:inline-block;width:8px;height:8px;border-radius:50%;margin-left:5px;vertical-align:middle}
+.qlight-off{opacity:.20}
+
 </style>
 </head>
 <body>
@@ -501,6 +516,10 @@ body{background:var(--bg0);color:var(--text0);font-family:'Nunito Sans','Inter',
     <div class="rsec">
       <div class="rtitle" style="color:var(--green);cursor:pointer" onclick="toggleTirPanel()">RANKING TIR REAL <span style="font-size:8px;color:var(--accent);margin-left:6px">DDM</span></div>
       <div id="tir-ranking" style="max-height:260px;overflow-y:auto"></div>
+    </div>
+    <div class="rsec">
+      <div class="rtitle" style="color:var(--blue)"><a id="quant-link" href="/quant" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">SISTEMA QUANT <span style="font-size:8px;color:var(--accent);margin-left:6px">LOCAL ↗</span></a></div>
+      <div id="quant-card" onclick="abrirPainelQuant()"><div class="qc-msg"><span class="spinner"></span> Carregando...</div></div>
     </div>
   </div>
 </div>
@@ -2233,6 +2252,7 @@ async function init(){
   fetchAlerts();
   fetchWeeklySummary();
   fetchTirRanking();
+  fetchQuant();
   agendarAtualizacoes();
 }
 init();
@@ -2241,10 +2261,83 @@ init();
 function agendarAtualizacoes(){
   if (MODO_ESTATICO) {
     setInterval(()=>{fetchQuotes();fetchNews();fetchCVM();fetchDI();fetchIndicators();
-                     fetchTesouro();fetchWeeklySummary();fetchTirRanking();}, 300_000);
+                     fetchTesouro();fetchWeeklySummary();fetchTirRanking();fetchQuant();}, 300_000);
     return;
   }
-  setInterval(fetchQuotes,90_000);setInterval(fetchQuotesFast,2_000);setInterval(fetchNews,30_000);setInterval(fetchCVM,120_000);setInterval(fetchAlerts,30_000);setInterval(fetchDI,30_000);setInterval(fetchIndicators,60_000);setInterval(fetchSpreads,900_000);setInterval(fetchTesouro,600_000);setInterval(fetchWeeklySummary,180_000);setInterval(fetchTirRanking,300_000);
+  setInterval(fetchQuotes,90_000);setInterval(fetchQuotesFast,2_000);setInterval(fetchNews,30_000);setInterval(fetchCVM,120_000);setInterval(fetchAlerts,30_000);setInterval(fetchDI,30_000);setInterval(fetchIndicators,60_000);setInterval(fetchSpreads,900_000);setInterval(fetchTesouro,600_000);setInterval(fetchWeeklySummary,180_000);setInterval(fetchTirRanking,300_000);setInterval(fetchQuant,300_000);
+}
+
+// ── SISTEMA QUANT (card de resumo) ───────────────────────────
+// A tela cheia mora em /quant (quant.html). Aqui fica so o resumo de quatro linhas
+// que o Douglas olha de passagem — frescor, mes vs CDI, ordens de hoje e o semaforo
+// dos criterios de kill — com o titulo levando para a pagina.
+//
+// O painel.json vive so na maquina do usuario (carteira, P&L e posicao fiscal), entao
+// nao ha entrada para /api/quant/* no retrato estatico: no GitHub Pages este card
+// mostra um aviso, sem link, porque /quant nao existe no site publicado.
+const QUANT_SO_LOCAL='Disponivel apenas no terminal local (python app.py). Carteira, P&amp;L e posicao fiscal nao saem desta maquina.';
+let quantData=null,quantAviso='';
+
+// O card inteiro e clicavel, como era antes da separacao — so que agora abre a pagina
+// em vez de trocar a tela central. Em modo estatico nao abre nada: /quant nao existe no
+// site publicado.
+function abrirPainelQuant(){
+  if(MODO_ESTATICO)return;
+  window.open('/quant','_blank','noopener');
+}
+
+const qpcs=(v,d=2)=>v==null?'--':(v>0?'+':'')+fmt(v*100,d)+'%';
+function qAgo(iso){try{const t=new Date(iso).getTime();if(!isFinite(t))return '--';const s=(Date.now()-t)/1000;if(s<60)return 'agora';if(s<3600)return Math.round(s/60)+'min';if(s<86400)return Math.round(s/3600)+'h';return Math.round(s/86400)+'d';}catch(e){return '--';}}
+
+async function fetchQuant(){
+  if(MODO_ESTATICO){quantData=null;quantAviso=QUANT_SO_LOCAL;renderQuantCard();return;}
+  try{
+    const r=await apiFetch('/api/quant/painel'),d=await r.json();
+    if(!r.ok||d.error){
+      quantData=null;
+      quantAviso=d.comando?`Painel ainda nao gerado. Rode:<br><code style="font-size:9px">${d.comando}</code>`:'Painel quant indisponivel.';
+    }else{quantData=d;quantAviso='';}
+    renderQuantCard();
+  }catch(e){}
+}
+
+function renderQuantCard(){
+  const el=document.getElementById('quant-card');if(!el)return;
+  const link=document.getElementById('quant-link');
+  const d=quantData;
+  if(!d){
+    el.innerHTML=`<div class="qc-msg">${quantAviso||'Carregando...'}</div>`;
+    // em modo estatico o titulo para de ser link e o card perde o cursor: nao ha para onde ir
+    if(MODO_ESTATICO){
+      if(link){link.removeAttribute('href');link.style.cursor='default';}
+      el.style.cursor='default';
+    }
+    return;
+  }
+  const fr=d.frescor||{},chaves=Object.keys(fr);
+  const okFr=chaves.filter(k=>fr[k]&&fr[k].ok).length;
+  const dp=d.desempenho||{},ret=dp.retorno,cdi=dp.cdi;
+  const bo=d.boleta||{},ordens=(bo.ordens||[]).length;
+  const kill=d.kill||[];
+  const nd=kill.filter(k=>k.status==='disparado').length;
+  const na=kill.filter(k=>k.status==='atencao').length;
+  const no=kill.filter(k=>k.status==='ok').length;
+  const luz=(cor,n)=>`<span class="qlight${n?'':' qlight-off'}" style="background:${cor}" title="${n} criterio(s)"></span>`;
+  const seguro=(d.modo_seguro||{}).ativo===true;
+  const gateOk=(d.gate_fase1||{}).passou===true;
+  let h='';
+  h+=`<div class="qc-row"><span class="qc-k">Dado</span><span class="qc-v">ha ${qAgo(d.gerado_em)}<span class="qc-sub"> · ${okFr}/${chaves.length||0} fontes em dia</span></span></div>`;
+  h+=`<div class="qc-row"><span class="qc-k">Mes vs CDI</span><span class="qc-v ${cls(ret)}">${qpcs(ret)}<span class="qc-sub"> · CDI ${qpcs(cdi)}</span></span></div>`;
+  h+=`<div class="qc-row"><span class="qc-k">Boleta</span><span class="qc-v">${bo.emitida?`${ordens} ${ordens===1?'ordem':'ordens'} hoje`:'<span style="color:var(--red)">nao emitida</span>'}</span></div>`;
+  h+=`<div class="qc-row"><span class="qc-k">Kill</span><span class="qc-v">${luz('var(--green)',no)}${luz('var(--yellow)',na)}${luz('var(--red)',nd)}</span></div>`;
+  if(seguro||!gateOk){
+    const m=[];
+    if(seguro)m.push('MODO SEGURO ATIVO');
+    if(!gateOk)m.push('GATE DA FASE 1 NAO PASSOU');
+    h+=`<div class="qc-alerta">${m.join(' · ')}</div>`;
+  }
+  h+=`<div class="qc-msg" style="padding-top:8px">Painel completo em <a href="/quant" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:var(--blue);font-weight:700">/quant</a> — carteira, boleta, fiscal e desempenho.</div>`;
+  el.innerHTML=h;
 }
 </script>
 </body>

@@ -1,0 +1,93 @@
+name: Coletar dados quant
+
+# Arquiva, uma vez por pregao, os dados publicos da B3/CVM que a fonte nao guarda
+# (aluguel do BDI, negocio-a-negocio, carteiras e previas de indice, fatos relevantes
+# com hora de captura). Grava no branch `dados-quant`, nunca no main.
+# Horario: 00:00 UTC de terca a sabado = 21:00 BRT de segunda a sexta, depois do
+# COTAHIST_D (~20:31 BRT) e ja com as tabelas do BDI de D-1 publicadas.
+on:
+  schedule:
+    - cron: "0 0 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Pregao de referencia (AAAA-MM-DD); vazio = ultimo pregao"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coletar-quant
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r quant/requirements.txt
+
+      - name: Trazer o branch de dados (se existir)
+        run: |
+          git fetch origin dados-quant:dados-quant 2>/dev/null || true
+          rm -rf quant/dados_brutos
+          if git show-ref --quiet refs/heads/dados-quant; then
+            git worktree add quant/dados_brutos dados-quant
+          else
+            mkdir -p quant/dados_brutos
+          fi
+
+      - name: Arquivar
+        id: arquivar
+        continue-on-error: true
+        env:
+          DATA_REF: ${{ github.event.inputs.data }}
+        run: |
+          set +e
+          if [ -n "$DATA_REF" ]; then
+            python -m quant.dados.arquivar_b3 --data "$DATA_REF" | tee resumo.json
+          else
+            python -m quant.dados.arquivar_b3 | tee resumo.json
+          fi
+          echo "codigo=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Resumo
+        run: |
+          echo "### Coleta quant" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          tail -c 6000 resumo.json >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Publicar no branch dados-quant
+        run: |
+          cd quant/dados_brutos
+          if [ ! -d .git ] && [ ! -f .git ]; then
+            git init -q
+            git checkout -q -b dados-quant
+            echo "Dados brutos arquivados pelo workflow coletar-quant. Nao editar a mao." > README.md
+          fi
+          git config user.name "coletar-quant"
+          git config user.email "coletar-quant@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nada novo para publicar"
+            exit 0
+          fi
+          git commit -q -m "coleta $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:dados-quant
+
+      - name: Falhar se alguma fonte falhou
+        if: steps.arquivar.outputs.codigo != '0'
+        run: |
+          echo "alguma fonte falhou (veja o resumo); os arquivos que deram certo ja foram publicados"
+          exit 1

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema Quant — painel local</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<script>
+// Chart.js: copia local primeiro, CDN so se ela nao existir. Caminho ABSOLUTO de proposito
+// — o index.html calcula base relativa por causa do /terminal/ do GitHub Pages, mas esta
+// pagina so existe servida pelo app.py, e em /quant/ um './vendor/' viraria /quant/vendor/.
+document.write('<scr'+'ipt src="/vendor/chart.umd.min.js"><\/scr'+'ipt>');
+</script>
+<script>
+if (typeof Chart === 'undefined') {
+  document.write('<scr'+'ipt src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"><\/scr'+'ipt>');
+}
+</script>
+<style>
+:root{
+  --bg0:#f5f5f7;--bg1:#ffffff;--bg2:#f0f0f3;--bg3:#e3e3e8;
+  --border:#d1d1d6;--text0:#1d1d1f;--text1:#48484a;--text2:#8e8e93;
+  --green:#34c759;--red:#ff3b30;--yellow:#ff9f0a;--blue:#007aff;
+  --purple:#af52de;--accent:#1c1c1e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg0);color:var(--text0);font-family:'Nunito Sans','Inter',system-ui,sans-serif;font-size:13px}
+.up{color:var(--green)}.dn{color:var(--red)}.neu{color:var(--text1)}
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#b5b6bc;border-radius:4px}
+::-webkit-scrollbar-thumb:hover{background:#8a8b93}
+.spinner{display:inline-block;width:9px;height:9px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.empty{text-align:center;padding:30px 16px;color:var(--text2);font-size:11px}
+.sptbl{width:100%;border-collapse:collapse;font-size:10px}
+.sptbl th{color:var(--text2);text-align:left;padding:2px 3px;font-size:8.5px;text-transform:uppercase;font-weight:600}
+.sptbl td{padding:2px 3px;border-bottom:1px solid #e8eaed}
+
+/* topo da pagina (o terminal tem masthead; aqui basta uma faixa) */
+#topo{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;
+      background:var(--bg1);border-bottom:2px solid var(--accent)}
+#topo-marca{font-family:'Playfair Display',Georgia,serif;font-size:20px;font-weight:700;line-height:1.1}
+#topo-sub{font-size:9px;color:var(--text2);letter-spacing:.5px;text-transform:uppercase;font-weight:700;margin-top:2px}
+#voltar{font-size:9.5px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--text1);
+        text-decoration:none;border:1px solid var(--border);border-radius:4px;padding:6px 12px;background:var(--bg1);white-space:nowrap}
+#voltar:hover{color:var(--text0);border-color:var(--accent)}
+#folha{max-width:1080px;margin:0 auto;padding:18px}
+
+/* cabecalho do painel (mesmas classes do detalhe de ativo do terminal) */
+.ad-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:16px}
+.ad-title{font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:700}
+.ad-ticker{font-size:11px;color:var(--text2);font-family:monospace;letter-spacing:.5px;margin-top:2px}
+.ad-price-big{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums}
+.ad-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin:14px 0}
+.ad-stat{background:var(--bg1);border:1px solid var(--border);border-radius:5px;padding:8px 10px}
+.ad-stat-label{font-size:8.5px;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px}
+.ad-stat-val{font-size:14px;font-weight:700}
+.ad-section-title{font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px}
+
+/* painel quant */
+.qc-sub{font-size:8.5px;color:var(--text2);font-weight:600}
+.qlight{display:inline-block;width:8px;height:8px;border-radius:50%;margin-left:5px;vertical-align:middle}
+.qbanner{padding:8px 10px;border-radius:5px;font-size:10px;line-height:1.5;margin-bottom:12px;font-weight:600}
+.qbanner-alerta{background:rgba(255,59,48,.10);border-left:3px solid var(--red);color:var(--red)}
+.qbanner-atencao{background:rgba(255,159,10,.12);border-left:3px solid var(--yellow);color:#8a5a00}
+.qbanner-ok{background:rgba(52,199,89,.10);border-left:3px solid var(--green);color:#1b6b33}
+.qtabs{display:flex;border-bottom:1px solid var(--border);margin:14px 0 10px}
+.qtab{flex:1;padding:8px 2px;text-align:center;font-size:8.5px;font-weight:700;color:var(--text2);cursor:pointer;background:none;border:none;border-bottom:2px solid transparent;transition:all .12s;letter-spacing:1px;text-transform:uppercase}
+.qtab:hover{color:var(--text0)}
+.qtab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.qpane{display:none}.qpane.active{display:block}
+.qnote{font-size:9.5px;color:var(--text2);line-height:1.5;margin-top:8px}
+.qsel{color:var(--text2)}
+.qbar{height:6px;border-radius:3px;background:var(--bg3);overflow:hidden;margin:5px 0 3px}
+.qbar>i{display:block;height:100%;background:var(--green)}
+.qbar.cheio>i{background:var(--red)}
+.qsec{margin:18px 0 6px;padding-top:12px;border-top:1px solid var(--border);font-size:8.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text2)}
+#quant-chart-wrap{height:280px;position:relative;margin:6px 0 14px}
+</style>
+</head>
+<body id="pagina-quant">
+
+<div id="topo">
+  <div>
+    <div id="topo-marca">Sistema Quant</div>
+    <div id="topo-sub">Painel local · não sai desta máquina</div>
+  </div>
+  <a id="voltar" href="/">← Terminal</a>
+</div>
+
+<div id="folha">
+  <div id="quant-origem"></div>
+  <div class="ad-header">
+    <div>
+      <div class="ad-title">Painel do dia</div>
+      <div class="ad-ticker" id="quant-sub"></div>
+    </div>
+    <div style="text-align:right">
+      <div class="ad-price-big" id="quant-pat">--</div>
+      <div style="font-size:10px;color:var(--text2)">patrimonio</div>
+    </div>
+  </div>
+  <div class="ad-grid" id="quant-stats"></div>
+  <div class="qtabs" id="abas">
+    <button class="qtab active" data-q="carteira" onclick="trocarAbaQuant('carteira')">CARTEIRA</button>
+    <button class="qtab" data-q="boleta" onclick="trocarAbaQuant('boleta')">BOLETA</button>
+    <button class="qtab" data-q="fiscal" onclick="trocarAbaQuant('fiscal')">FISCAL</button>
+    <button class="qtab" data-q="desempenho" onclick="trocarAbaQuant('desempenho')">DESEMPENHO</button>
+  </div>
+  <div id="qpane-carteira" class="qpane active"></div>
+  <div id="qpane-boleta" class="qpane"></div>
+  <div id="qpane-fiscal" class="qpane"></div>
+  <div id="qpane-desempenho" class="qpane"></div>
+</div>
+
+<script>
+// ── SISTEMA QUANT — pagina propria ───────────────────────────
+// Esta pagina e LOCAL POR CONSTRUCAO. Ela le carteira, P&L e posicao fiscal do
+// quant/saida/painel.json, que nunca sai da maquina, entao nao existe modo estatico aqui:
+// nada de MODO_ESTATICO, lerEstatico ou fallback de retrato. Se o fetch falhar, a pagina
+// diz que precisa do app.py rodando — que e a verdade, e mais curto que replicar a
+// deteccao de ambiente do terminal.
+const SEM_SERVIDOR='Esta pagina so funciona com o terminal local rodando: <code>python3 app.py</code>. '+
+  'Ela le carteira, P&amp;L e posicao fiscal, que nunca saem desta maquina.';
+
+let quantData=null,quantAviso='',quantAba='carteira',quantChart=null;
+const quantCache={boleta:null,fiscal:null,desempenho:null};
+
+// formatadores compartilhados com o terminal (copiados de index.html: fmt, cls, esc)
+const fmt=(v,d=2)=>v==null?'--':Number(v).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
+const cls=(v)=>v>0?'up':v<0?'dn':'neu';
+function esc(s){return s?String(s).replace(/'/g,"\\'").replace(/"/g,'&quot;'):''}
+
+const qbrl=(v)=>v==null?'--':'R$ '+Number(v).toFixed(2);
+const qpc=(v,d=2)=>v==null?'--':fmt(v*100,d)+'%';
+const qpcs=(v,d=2)=>v==null?'--':(v>0?'+':'')+fmt(v*100,d)+'%';
+const qnum=(v,d=0)=>v==null?'--':fmt(v,d);
+function qAgo(iso){try{const t=new Date(iso).getTime();if(!isFinite(t))return '--';const s=(Date.now()-t)/1000;if(s<60)return 'agora';if(s<3600)return Math.round(s/60)+'min';if(s<86400)return Math.round(s/3600)+'h';return Math.round(s/86400)+'d';}catch(e){return '--';}}
+function qData(iso){return iso?String(iso).slice(0,10).split('-').reverse().join('/'):'--';}
+// Nem todo criterio de kill e percentual: universo e contagem, slippage e multiplo.
+// Formatar tudo como % fazia um universo de 33 nomes aparecer como "3.300%".
+function qKill(v,f){
+  if(v==null||!isFinite(v))return '--';
+  if(f==='bool')return v?'sim':'nao';
+  if(f==='pct')return (100*v).toFixed(1).replace('.',',')+'%';
+  if(f==='x')return v.toFixed(2).replace('.',',')+'x';
+  return Math.abs(v-Math.round(v))<1e-9?String(Math.round(v)):Number(v).toFixed(2).replace('.',',');
+}
+function qCorKill(s){return s==='disparado'?'var(--red)':s==='atencao'?'var(--yellow)':'var(--green)';}
+function qVazio(txt){return `<div class="empty">${txt}</div>`;}
+
+// ── busca ────────────────────────────────────────────────────
+async function pedir(rota){
+  const r=await fetch(rota,{cache:'no-store'});
+  let d=null;
+  try{d=await r.json();}catch(e){d=null;}
+  return {ok:r.ok&&d&&!d.error,dados:d};
+}
+
+function avisoDeFalta(d){
+  return (d&&d.comando)
+    ? `Painel ainda nao gerado. Rode:<br><code style="font-size:9px">${d.comando}</code>`
+    : 'Painel quant indisponivel.';
+}
+
+async function fetchQuant(){
+  try{
+    const {ok,dados}=await pedir('/api/quant/painel');
+    if(!ok){quantData=null;quantAviso=avisoDeFalta(dados);}
+    else{quantData=dados;quantAviso='';}
+  }catch(e){quantData=null;quantAviso=SEM_SERVIDOR;}
+  renderQuantView();
+  // a aba aberta tem endpoint proprio: revalida junto com o painel
+  if(quantData&&quantAba!=='carteira')carregarAbaQuant(quantAba,true);
+}
+
+function trocarAbaQuant(nome){
+  quantAba=nome;
+  document.querySelectorAll('#abas .qtab').forEach(b=>b.classList.toggle('active',b.dataset.q===nome));
+  document.querySelectorAll('.qpane').forEach(p=>p.classList.toggle('active',p.id==='qpane-'+nome));
+  carregarAbaQuant(nome,false);
+}
+
+async function carregarAbaQuant(nome,forcar){
+  if(nome==='carteira'){renderQuantCarteira();return;}
+  if(!forcar&&quantCache[nome]){renderQuantAba(nome);return;}
+  const pane=document.getElementById('qpane-'+nome);
+  if(!quantCache[nome])pane.innerHTML=qVazio('<span class="spinner"></span> Carregando...');
+  try{
+    const {ok,dados}=await pedir('/api/quant/'+nome);
+    if(!ok){quantCache[nome]=null;pane.innerHTML=qVazio(avisoDeFalta(dados));return;}
+    quantCache[nome]=dados;renderQuantAba(nome);
+  }catch(e){quantCache[nome]=null;pane.innerHTML=qVazio(SEM_SERVIDOR);}
+}
+
+function renderQuantAba(nome){
+  if(nome==='boleta')renderQuantBoleta();
+  else if(nome==='fiscal')renderQuantFiscal();
+  else if(nome==='desempenho')renderQuantDesempenho();
+}
+
+// ── cabecalho: origem do dado + numeros do topo ──────────────
+function renderQuantView(){
+  const banda=document.getElementById('quant-origem');if(!banda)return;
+  const d=quantData;
+  if(!d){
+    banda.innerHTML=`<div class="qbanner qbanner-atencao">${quantAviso||'Sem painel carregado.'}</div>`;
+    document.getElementById('quant-sub').textContent='';
+    document.getElementById('quant-pat').textContent='--';
+    document.getElementById('quant-stats').innerHTML='';
+    ['carteira','boleta','fiscal','desempenho'].forEach(n=>{
+      const p=document.getElementById('qpane-'+n);if(p)p.innerHTML=qVazio(quantAviso||'Sem painel carregado.');
+    });
+    return;
+  }
+  const sint=(d.origem||'')==='sintetico',gateOk=(d.gate_fase1||{}).passou===true;
+  const seguro=(d.modo_seguro||{}).ativo===true;
+  let h='';
+  if(sint||!gateOk){
+    const p=[];
+    if(sint)p.push('Origem <b>SINTETICA</b>: estes numeros vieram de dados simulados.');
+    if(!gateOk)p.push('O gate da fase 1 <b>nao passou</b>'+((d.gate_fase1||{}).detalhe?` (${(d.gate_fase1||{}).detalhe})`:'')+'.');
+    p.push('<b>Nenhum numero desta tela e resultado de estrategia.</b>');
+    h+=`<div class="qbanner qbanner-alerta">${p.join(' ')}</div>`;
+  }else{
+    h+=`<div class="qbanner qbanner-ok">Origem real · gate da fase 1 aprovado · modo ${d.modo||'--'}.</div>`;
+  }
+  if(seguro){
+    const mot=((d.modo_seguro||{}).motivos||[]);
+    h+=`<div class="qbanner qbanner-atencao"><b>MODO SEGURO ATIVO</b> — nao ha ordem para hoje.${mot.length?' Motivos: '+mot.join('; ')+'.':''}</div>`;
+  }
+  banda.innerHTML=h;
+  const ca=d.carteira||{},dp=d.desempenho||{},fr=d.frescor||{};
+  const chaves=Object.keys(fr),okFr=chaves.filter(k=>fr[k]&&fr[k].ok).length;
+  document.getElementById('quant-sub').textContent=
+    `${(d.modo||'--').toUpperCase()} · gerado ha ${qAgo(d.gerado_em)} · ${okFr}/${chaves.length||0} fontes em dia · desde ${qData(dp.desde)}`;
+  document.getElementById('quant-pat').textContent=qbrl(ca.patrimonio);
+  const est=[
+    ['Retorno',qpcs(dp.retorno),cls(dp.retorno)],
+    ['CDI no periodo',qpcs(dp.cdi),''],
+    ['Excesso sobre CDI',qpcs(dp.excesso),cls(dp.excesso)],
+    ['Ibovespa',qpcs(dp.ibov),cls(dp.ibov)],
+    ['Caixa',qbrl(ca.caixa),''],
+    ['Exposicao',qpc(ca.exposicao,1),''],
+    ['Posicoes',qnum(ca.n_posicoes),''],
+    ['Hedge (contratos)',qnum(ca.contratos_hedge),''],
+  ];
+  document.getElementById('quant-stats').innerHTML=est.map(([k,v,c])=>
+    `<div class="ad-stat"><div class="ad-stat-label">${k}</div><div class="ad-stat-val ${c}">${v}</div></div>`).join('');
+  renderQuantCarteira();
+}
+
+// ── aba CARTEIRA ─────────────────────────────────────────────
+function renderQuantCarteira(){
+  const pane=document.getElementById('qpane-carteira');if(!pane)return;
+  const d=quantData;
+  if(!d){pane.innerHTML=qVazio(quantAviso||'Sem painel carregado.');return;}
+  const ca=d.carteira||{},pos=ca.posicoes||[];
+  let h='';
+  const viol=ca.violacoes||[];
+  if(viol.length)h+=`<div class="qbanner qbanner-alerta"><b>Restricoes violadas:</b> ${viol.join('; ')}.</div>`;
+  h+=`<div class="qnote">Caixa minimo ${qbrl(ca.caixa_minimo)} · posicoes ${qbrl(ca.valor_posicoes)} de ${qbrl(ca.patrimonio)}.</div>`;
+  if(!pos.length){pane.innerHTML=h+qVazio('Sem posicao em carteira.');return;}
+  h+=`<table class="sptbl" style="margin-top:8px"><tr><th>Papel</th><th>Setor</th><th style="text-align:right">Qtd</th><th style="text-align:right">Preco</th><th style="text-align:right">Peso</th><th style="text-align:right">Alvo</th><th style="text-align:right">P&amp;L</th><th style="text-align:right">P&amp;L %</th></tr>`;
+  for(const p of pos){
+    const dif=(p.peso!=null&&p.peso_alvo!=null)?p.peso-p.peso_alvo:null;
+    h+=`<tr><td style="font-weight:700">${p.ticker||'--'}</td>`+
+       `<td class="qsel">${p.setor||'--'}</td>`+
+       `<td style="text-align:right">${qnum(p.qtd)}</td>`+
+       `<td style="text-align:right">${qbrl(p.preco)}</td>`+
+       `<td style="text-align:right;font-weight:700">${qpc(p.peso,1)}</td>`+
+       `<td style="text-align:right" class="qsel">${qpc(p.peso_alvo,1)}${dif==null?'':` <span class="${cls(dif)}">${qpcs(dif,1)}</span>`}</td>`+
+       `<td style="text-align:right" class="${cls(p.pnl)}">${qbrl(p.pnl)}</td>`+
+       `<td style="text-align:right;font-weight:700" class="${cls(p.pnl_pct)}">${qpcs(p.pnl_pct)}</td></tr>`;
+  }
+  h+='</table>';
+  h+=`<div class="qnote">Alvo = peso que a carteira alvo pede; a diferenca ao lado e o quanto a posicao esta acima ou abaixo dele.</div>`;
+  pane.innerHTML=h;
+}
+
+// ── placar da campanha de paper trading (fase 4) ─────────────
+// Mora na aba Boleta porque e onde o usuario esta toda manha. Os rotulos ficam aqui e nao
+// no servidor porque o painel.json carrega dado, nao texto de tela.
+const QPAPER_ROTULO={sessoes:'Pregoes rodados',meses:'Meses de calendario',
+  execucao:'Taxa de execucao',slippage:'Slippage vs modelado',erros:'Erros operacionais',
+  meses_sem_erro:'Meses seguidos sem erro',rolls:'Rolls do mini-indice',
+  rebalances_indice:'Rebalanceamentos de indice',parametros_estaveis:'Parametros intocados'};
+
+function qPaperHTML(p){
+  let h=`<div class="qsec">Campanha de paper trading (fase 4)</div>`;
+  if(!p||!p.sessoes)
+    return h+`<div class="qnote">Campanha nao iniciada. O ensaio sobre o mercado sintetico roda com <code>python3 -m quant.execucao.campanha --ensaio</code>; a campanha de verdade sao 3 a 6 meses de calendario com dado real.</div>`;
+  const ens=(p.origem||'')!=='real';
+  h+=`<div class="qnote">${qnum(p.sessoes)} pregoes de ${qData(p.primeira)} a ${qData(p.ultima)} · ${qnum(p.boletas_emitidas)} boletas emitidas · origem <b>${esc((p.origem||'--').toUpperCase())}</b>.</div>`;
+  if(ens)h+=`<div class="qbanner qbanner-alerta" style="margin-top:8px"><b>ENSAIO</b> — dado sintetico. Prova que o laco fecha, nao que a fase 4 passou.</div>`;
+  const falta=(p.reprovados||[]);
+  h+=`<div class="qbanner ${p.passou?'qbanner-ok':'qbanner-atencao'}" style="margin-top:8px"><b>${p.passou?'FASE 4 APROVADA':'FASE 4 EM ANDAMENTO'}</b>${falta.length?' — falta: '+falta.map(x=>esc(QPAPER_ROTULO[x]||x)).join(', ')+'.':''}</div>`;
+  const cr=p.criterios||[];
+  if(cr.length){
+    h+=`<table class="sptbl"><tr><th>Criterio</th><th style="text-align:right">Agora</th><th style="text-align:right">Gatilho</th><th>Status</th></tr>`;
+    for(const c of cr)
+      h+=`<tr><td>${esc(QPAPER_ROTULO[c.criterio]||c.criterio)}</td>`+
+         `<td style="text-align:right;font-weight:700">${qKill(c.valor,c.formato)}</td>`+
+         `<td style="text-align:right" class="qsel">${qKill(c.gatilho,c.formato)}</td>`+
+         `<td style="font-weight:700;color:${qCorKill(c.status)}">${esc((c.status||'').toUpperCase())}</td></tr>`;
+    h+='</table>';
+  }
+  for(const a of (p.avisos||[]))h+=`<div class="qnote">${esc(a)}</div>`;
+  return h;
+}
+
+// ── versao do sistema (criterio de kill 7) ───────────────────
+// Mudanca de parametro sem versao registrada e o jeito mais silencioso de quebrar a
+// disciplina: por isso ela aparece em vermelho junto do placar, e nao escondida num log.
+function qVersaoHTML(v){
+  let h=`<div class="qsec">Versao do sistema</div>`;
+  if(!v||(!v.vigente&&!v.mudancas_no_ano))
+    return h+`<div class="qnote">Nenhuma versao registrada. Registre a linha de base antes da primeira mudanca — sem ela nao ha contra o que comparar: <code>python3 -m quant.versoes --registrar</code>.</div>`;
+  h+=`<div class="qnote">Vigente <b>${esc(v.vigente||'--')}</b>${v.descricao?' — '+esc(v.descricao):''}${v.desde?' · desde '+qData(v.desde):''} · ${qnum(v.mudancas_no_ano)} de ${qnum(v.limite_ano)} mudancas do ano.</div>`;
+  for(const x of (v.em_paralelo||[]))
+    h+=`<div class="qnote">Em paralelo: <b>${esc(x.id||'--')}</b> ${esc(x.descricao||'')} — vale a partir de ${qData(x.vale_a_partir_de)}; ate la quem manda e a anterior.</div>`;
+  if(v.vigente&&v.config_confere===false){
+    const campos=(v.divergencia||[]).slice(0,6).map(esc).join(', ');
+    h+=`<div class="qbanner qbanner-alerta" style="margin-top:8px"><b>MUDANCA NAO REGISTRADA</b> em ${(v.divergencia||[]).length} parametro(s)${campos?': '+campos:''}. Registre a versao ou desfaca a mudanca.</div>`;
+  }
+  if(v.cadeia_ok===false)
+    h+=`<div class="qbanner qbanner-alerta" style="margin-top:8px"><b>CADEIA DO CHANGELOG QUEBRADA</b> na linha ${qnum(v.cadeia_quebra)}.</div>`;
+  if(v.pode_mudar===false&&v.motivo_bloqueio)
+    h+=`<div class="qnote">${esc(v.motivo_bloqueio)}</div>`;
+  return h;
+}
+
+// ── aba BOLETA ───────────────────────────────────────────────
+function renderQuantBoleta(){
+  const pane=document.getElementById('qpane-boleta');if(!pane)return;
+  const d=quantCache.boleta;if(!d){pane.innerHTML=qVazio('Sem boleta carregada.');return;}
+  const placar=qPaperHTML(d.paper)+qVersaoHTML(d.versao);
+  const bo=d.boleta||{},ordens=bo.ordens||[],seguro=(d.modo_seguro||{}).ativo===true;
+  let h=`<div class="qnote">Boleta ${bo.id?'#'+bo.id:''} de ${qData(bo.data)} · custo estimado ${qbrl(bo.custo_total)}.</div>`;
+  if(bo.emitida!==true){
+    const mot=bo.motivo_bloqueio||(seguro?((d.modo_seguro||{}).motivos||[]):[]);
+    h+=`<div class="qbanner qbanner-alerta"><b>BOLETA NAO EMITIDA</b> — nao existe ordem para hoje.</div>`;
+    h+=mot.length
+      ? `<table class="sptbl"><tr><th>Motivo do bloqueio</th></tr>${mot.map(m=>`<tr><td style="color:var(--red);font-weight:700">${m}</td></tr>`).join('')}</table>`
+      : qVazio('Sem motivo registrado no painel.');
+    pane.innerHTML=h+placar;return;
+  }
+  if(!ordens.length){pane.innerHTML=h+qVazio('Boleta emitida, mas sem ordem para hoje.')+placar;return;}
+  h+=`<table class="sptbl" style="margin-top:8px"><tr><th>Papel</th><th>Lado</th><th style="text-align:right">Qtd</th><th style="text-align:right">Limite</th><th>Validade</th><th>Fatia</th><th style="text-align:right">Custo</th><th>Motivo</th></tr>`;
+  for(const o of ordens){
+    const compra=(o.lado||'').toUpperCase()==='C';
+    h+=`<tr><td style="font-weight:700">${o.ticker||'--'}${o.fracionario?' <span class="qc-sub">frac</span>':''}</td>`+
+       `<td class="${compra?'up':'dn'}" style="font-weight:700">${compra?'COMPRA':'VENDA'}</td>`+
+       `<td style="text-align:right">${qnum(o.qtd)}</td>`+
+       `<td style="text-align:right;font-weight:700">${qbrl(o.preco_limite)}</td>`+
+       `<td class="qsel">${o.validade||'--'}</td>`+
+       `<td class="qsel">${o.fatia||'--'}</td>`+
+       `<td style="text-align:right">${qbrl(o.custo)}</td>`+
+       `<td class="qsel">${o.motivo||'--'}</td></tr>`;
+  }
+  h+='</table>';
+  h+=`<div class="qnote">Fatia = pedaco da ordem enviado hoje, limitado pelo ADTV do papel. Preco limite, validade no dia.</div>`;
+  pane.innerHTML=h+placar;
+}
+
+// ── aba FISCAL ───────────────────────────────────────────────
+function renderQuantFiscal(){
+  const pane=document.getElementById('qpane-fiscal');if(!pane)return;
+  const d=quantCache.fiscal;if(!d){pane.innerHTML=qVazio('Sem dado fiscal carregado.');return;}
+  const f=d.fiscal||{};
+  const teto=20000,vend=f.vendas_acoes_mes,usado=vend==null?null:Math.min(1,Math.max(0,vend/teto));
+  let h=`<div class="qnote">Mes de apuracao ${f.mes||'--'}.</div>`;
+  h+=`<div style="margin:10px 0 14px">`+
+     `<div style="display:flex;justify-content:space-between;font-size:10px;font-weight:700"><span>Isencao de R$ 20.000,00 em vendas de acoes</span><span class="${f.isento===false?'dn':f.isento===true?'up':'neu'}">${f.isento===false?'LIMITE ESTOURADO':f.isento===true?'DENTRO DA ISENCAO':'SEM APURACAO'}</span></div>`+
+     `<div class="qbar${usado!=null&&usado>=1?' cheio':''}"><i style="width:${usado==null?0:(usado*100).toFixed(1)}%"></i></div>`+
+     `<div class="qc-sub">Vendeu ${qbrl(vend)} · folga de ${qbrl(f.isencao_restante)}</div></div>`;
+  const linhas=[
+    ['Lucro comum no mes',qbrl(f.lucro_comum)],
+    ['Lucro day trade no mes',qbrl(f.lucro_day_trade)],
+    ['Prejuizo acumulado (comum)',qbrl(f.prejuizo_acumulado_comum)],
+    ['Prejuizo acumulado (day trade)',qbrl(f.prejuizo_acumulado_day_trade)],
+    ['IRRF ja retido (dedo-duro)',qbrl(f.irrf_retido)],
+    ['DARF acumulado de meses anteriores',qbrl(f.darf_acumulado)],
+  ];
+  h+=`<table class="sptbl"><tr><th>Item</th><th style="text-align:right">Valor</th></tr>`;
+  h+=linhas.map(([k,v])=>`<tr><td>${k}</td><td style="text-align:right;font-weight:700">${v}</td></tr>`).join('');
+  const devido=(f.darf||0)>0;
+  h+=`<tr><td style="font-weight:800">DARF do mes${f.darf_vence?` <span class="qc-sub">vence ${qData(f.darf_vence)}</span>`:''}</td>`+
+     `<td style="text-align:right;font-weight:800" class="${devido?'dn':'neu'}">${qbrl(f.darf)}</td></tr></table>`;
+  h+=`<div class="qbanner qbanner-atencao" style="margin-top:12px"><b>${f.aviso||'calculo de apoio; conferir com contador antes de recolher'}</b></div>`;
+  pane.innerHTML=h;
+}
+
+// ── aba DESEMPENHO ───────────────────────────────────────────
+function renderQuantDesempenho(){
+  const pane=document.getElementById('qpane-desempenho');if(!pane)return;
+  const d=quantCache.desempenho;if(!d){pane.innerHTML=qVazio('Sem desempenho carregado.');return;}
+  const dp=d.desempenho||{},serie=dp.serie||[],kill=d.kill||[];
+  let h=`<div class="qnote">Base 100 desde ${qData(dp.desde)} · vol ${qpc(dp.vol,1)} · drawdown maximo ${qpc(dp.mdd,1)} · giro mensal ${qpc(dp.giro_mensal,1)} · custo ${qpc(dp.custo_aa,2)} a.a.</div>`;
+  h+=serie.length?`<div id="quant-chart-wrap"><canvas id="quant-chart"></canvas></div>`
+                 :qVazio('Sem historico ainda: a serie comeca no primeiro fechamento apurado.');
+  h+=`<div class="ad-section-title" style="margin-top:6px">Criterios de kill</div>`;
+  if(!kill.length){h+=qVazio('Nenhum criterio de kill no painel.');}
+  else{
+    h+=`<table class="sptbl"><tr><th>Criterio</th><th style="text-align:right">Valor</th><th style="text-align:right">Gatilho</th><th>Status</th><th>O que acontece</th></tr>`;
+    for(const k of kill){
+      h+=`<tr><td style="font-weight:700">${k.rotulo||k.criterio||'--'}</td>`+
+         `<td style="text-align:right;font-weight:700">${qKill(k.valor,k.formato)}</td>`+
+         `<td style="text-align:right" class="qsel">${qKill(k.gatilho,k.formato)}</td>`+
+         `<td style="font-weight:700;color:${qCorKill(k.status)}"><span class="qlight" style="background:${qCorKill(k.status)};margin:0 5px 0 0"></span>${(k.status||'--').toUpperCase()}</td>`+
+         `<td class="qsel">${k.descricao||''}</td></tr>`;
+    }
+    h+='</table>';
+  }
+  pane.innerHTML=h;
+  if(quantChart){quantChart.destroy();quantChart=null;}
+  if(!serie.length||typeof Chart==='undefined')return;
+  const cv=document.getElementById('quant-chart');if(!cv)return;
+  const rot=serie.map(p=>String(p.data||'').slice(5));
+  const base=(ch)=>serie.map(p=>p[ch]==null?null:(p[ch]-1)*100);
+  // Chart.js nao resolve var(--...): as cores aqui sao literais.
+  quantChart=new Chart(cv.getContext('2d'),{type:'line',data:{labels:rot,datasets:[
+    {label:'Carteira',data:base('carteira'),borderColor:'#007aff',backgroundColor:'rgba(0,122,255,.07)',borderWidth:2.2,pointRadius:0,fill:true,tension:.25,spanGaps:true},
+    {label:'CDI',data:base('cdi'),borderColor:'#8e8e93',borderWidth:1.6,pointRadius:0,fill:false,borderDash:[5,3],tension:.25,spanGaps:true},
+    {label:'Ibovespa',data:base('ibov'),borderColor:'#af52de',borderWidth:1.6,pointRadius:0,fill:false,tension:.25,spanGaps:true}]},
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:true,position:'bottom',labels:{boxWidth:10,font:{size:10}}},
+               tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${fmt(c.parsed.y,2)}%`}}},
+      scales:{x:{grid:{color:'#d8d9de'},ticks:{color:'#8a8a8a',font:{size:9},maxTicksLimit:12}},
+              y:{grid:{color:'#d8d9de'},ticks:{color:'#8a8a8a',font:{size:9},callback:v=>fmt(v,1)+'%'}}}}});
+}
+
+fetchQuant();
+setInterval(fetchQuant,300000);
+</script>
+</body>
+</html>
