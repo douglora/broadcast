@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 14h22
+NOTÍCIAS E FATOS · 08/10 14h53
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 454 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 451 veículo fora da lista, 50 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -166,8 +166,16 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (81)
+## OUTRAS NOTÍCIAS (só manchete) (89)
 
+· TSLA General Motors vs. Tesla: What Revenue Growth Trends Tell Investors About These Automotive Giants (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/general-motors-vs-tesla-revenue-172509994.html
+· GOOGL Southlight Services Announces Our Strategic Collaboration with Google to Deliver Google Voice Carrier Link Across North America (Yahoo Finance) https://finance.yahoo.com/small-business/articles/southlight-services-announces-strategic-collaboration-172400916.html
+· INTC Intel (INTC): Buy, Sell, or Hold Post Q2 Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-buy-sell-hold-172009957.html
+· NVDA Nvidia: AI’s Lender Of Last Resort (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952853-nvidia-ais-lender-of-last-resort
+· ETH Tom Lee Predicts 'Largest Crypto Bull Market Ever' but ETH Craters 5% (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:41efe35a1094b:0-tom-lee-predicts-largest-crypto-bull-market-ever-but-eth-craters-5/
+· PLTR Palantir Technologies Inc. (PLTR) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/PLTR/
+· PLTR Palantir Gets Goldman Sachs Upgrade as Sovereign AI Opens New Market (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:6b81b4832094b:0
+· TESOURO Ainda tem renda fixa pagando IPCA+ 8% por aí: veja a escolha dos bancões para títulos isentos e Tesouro Direto (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/ainda-tem-renda-fixa-pagando-ipca-8-por-ai-veja-a-escolha-dos-bancoes-para-titulos-isentos-e-tesouro-direto-mlim/
 · PETR4 Petrobras amplia portfólio exploratório com 21 blocos em leilões da ANP, e mira recomposição de reservas (ADVFN) https://br.advfn.com/jornal/2026/10/petrobras-amplia-portfolio-exploratorio-com-21-blocos-em-leiloes-da-anp-e-mira-recomposicao-de-reservas
 · GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (CNBC) https://www.cnbc.com/amp/2026/10/08/google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up.html
 · MRVL Marvell: The Easy Money Is Already Over (Downgrade) (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952807-marvell-the-easy-money-is-already-over-downgrade
@@ -220,12 +228,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · GOOGL Alphabet Stocks Drop Although TPU Sales Escape Google's Cloud (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7df360ef7094b:0-alphabet-stocks-drop-although-tpu-sales-escape-google-s-cloud/
 · GOOGL Alphabet shares rise as Google pushes Gemini deeper into enterprise AI (Yahoo Finance) https://uk.finance.yahoo.com/news/alphabet-shares-rise-google-pushes-131122567.html
 · BRENT Prefixados do Tesouro sobem em dia de alta do petróleo e dos juros globais (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-08102026/
-· AMZN CentralSquare Named 2026 AWS Champion for Removing a Major Barrier to Public Sector Cloud Migration (Business Wire) https://www.businesswire.com/news/home/20261008302728/en/CentralSquare-Named-2026-AWS-Champion-for-Removing-a-Major-Barrier-to-Public-Sector-Cloud-Migration
-· BTC Bitcoin Drops Below $84,000: What Lies Ahead? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-84-000-130026318.html
-· AVGO Broadcom Stocks Edge Lower as Marvell Raises Custom-Chip Stakes (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:f73f02d8b094b:0-broadcom-stocks-edge-lower-as-marvell-raises-custom-chip-stakes/
-· BRENT Dólar abre em alta com disparada do petróleo e cenário eleitoral no radar (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-alta-com-disparada-do-petroleo-e-cenario-eleitoral-no-radar.shtml
-· TSM GlobalFoundries to make key AI chip component for TSMC (Reuters) https://www.reuters.com/world/asia-pacific/globalfoundries-make-key-ai-chip-component-tsmc-2026-10-08/
-· USDBRL Dólar sobe à espera de nova pesquisa eleitoral no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-8-outubro-2026/
-· USDBRL Dólar sobe levemente entre cautela externa e cenário eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/08/dolar-sobe-levemente-entre-cautela-externa-e-cenario-eleitoral.htm
-· AMZN AWS pricing team turns 18-tab Excel model into an AI chatbot to evaluate customer deals, CFO says (Fortune) https://fortune.com/2026/10/08/aws-pricing-team-18-tab-excel-model-into-ai-chatbot-evaluate-customer-deals-cfo/
-· (+21 manchetes; lista completa em eventos/noticias.json)
+· (+29 manchetes; lista completa em eventos/noticias.json)
