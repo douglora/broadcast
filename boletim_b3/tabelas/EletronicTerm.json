@@ -6,8 +6,8 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Código IF"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "NmbrBusinesses", "titulo": "Número de negócios"}, {"nome": "NationalVol", "titulo": "Volume (R$)"}, {"nome": "InternationalVol", "titulo": "Volume (US$)"}],
  "texto": ["Mostra os contratos de termo eletrônico de renda fixa, destacando volumes e características das operações. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
- "situacao": "aguardando",
- "atualizado_em": "2026-10-07T00:00:38.013",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-07T22:28:08.533",
  "truncada": false,
  "linhas": [
   ["Termo de Taxa de Câmbio", "2026-10-20", 1, 993960, 199051],

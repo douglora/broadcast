@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Opções"}, {"nome": "DueDate", "titulo": "Vencimento"}, {"nome": "ExerPric", "titulo": "Preço exercício (R$)"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Mostra as opções de compra mais negociadas, indicando as ações com maior interesse dos investidores."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-07T21:30:46.873",
+ "atualizado_em": "2026-10-08T00:42:07.163",
  "truncada": false,
  "linhas": [
   ["BBASL118", "2026-12-18", 11.7, 91490, 2.3379968846839803],
@@ -16,6 +16,7 @@
   ["IBOVK199", "2026-11-18", 205000, 37257.1784, 0.9520949506100697],
   ["B3SAK186", "2026-11-19T20:59:59", 18.27, 14172.914, 0.362184159786796],
   ["IBOVG20", "2027-07-14T20:59:59", 205000, 59075, 1.5096422118560076],
+  ["B3SAK186", "2026-11-19", 18.27, 14172.914, 0.362184159786796],
   ["BBASL118", "2026-12-18T20:59:59", 11.7, 91490, 2.3379968846839803],
   ["IBOVB15", "2027-02-17T20:59:59", 150000, 68267.928, 1.7445644659288475],
   ["IBOVK199", "2026-11-18T20:59:59", 205000, 37257.1784, 0.9520949506100697]

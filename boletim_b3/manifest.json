@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-08T00:51:12Z",
+ "gerado_em": "2026-10-08T06:37:18Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -24,16 +24,15 @@
  ],
  "pregoes": {
   "2026-10-06": {
-   "completo": false,
-   "faltam": [
-    "TradeInformationConsolidated"
-   ],
+   "completo": true,
+   "faltam": [],
    "boletim": "publicado",
-   "sinais": 14,
-   "tabelas": 44,
+   "sinais": 36,
+   "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
+    "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
@@ -43,7 +42,7 @@
     "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
-    "no_cache": 3376
+    "no_cache": 3402
    },
    "anbima": {
     "situacao": "publicado",
@@ -56,35 +55,29 @@
      "2026-10-05": "publicado"
     }
    },
-   "falhas": {
-    "ForwardMarket": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/ForwardMarket/2026-10-06/2026-10-06/1/1000",
-    "DerivativesMtM": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/DerivativesMtM/2026-10-06/2026-10-06/1/1000",
-    "EletronicTerm": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/EletronicTerm/2026-10-06/2026-10-06/1/1000",
-    "TradeInformationConsolidated": "arquivo TradeInformationConsolidated: download HTTP 504"
-   },
-   "segundos": 2250
+   "falhas": {},
+   "segundos": 26
   },
   "2026-10-07": {
    "completo": false,
    "faltam": [
-    "DerivativesOpenPosition",
-    "BTBLendingOpenPosition",
     "BTBLoanBalance",
     "AnalyticalFramework2"
    ],
    "boletim": "publicando",
-   "sinais": 10,
+   "sinais": 27,
    "tabelas": 47,
    "arquivos": [
+    "DerivativesOpenPosition",
     "InstrumentsConsolidated",
     "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
     "papeis_no_dia": 1702,
-    "consultados": 26,
+    "consultados": 0,
     "achados": 0,
-    "sem_cadastro": 26,
+    "sem_cadastro": 0,
     "erros": 0,
     "ficaram_para_depois": 0,
     "no_cache": 3402
@@ -100,10 +93,8 @@
      "2026-10-06": "publicado"
     }
    },
-   "falhas": {
-    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
-   },
-   "segundos": 65
+   "falhas": {},
+   "segundos": 24
   }
  },
  "falhas": [],

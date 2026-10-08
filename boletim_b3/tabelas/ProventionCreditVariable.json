@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Emissor"}, {"nome": "Code", "titulo": "Código ISIN"}, {"nome": "EarningsType", "titulo": "Tipo de provento"}, {"nome": "DateAge", "titulo": "Data de aprovação"}, {"nome": "Value", "titulo": "Valor (R$)"}, {"nome": "CreditDate", "titulo": "Data de crédito"}],
  "texto": ["Crédito de proventos é o montante recebido por investidores como retorno sobre investimentos em ações ou outros ativos de renda variável. Nesta tabela, estão informações sobre esses rendimentos."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-07T22:20:44.853",
+ "atualizado_em": "2026-10-08T03:32:16.293",
  "truncada": false,
  "linhas": [
   ["VINCI ENERGIA FDO INV PART IE RESP LIM", "BRVIGTCTF004 140", "RENDIMENTO", null, 0.27, "2026-10-07"],
@@ -73,8 +73,8 @@
   ["NU INFRA FIC INCENTIVADO EM INFRAESTRUTURA RF CP", "BRNUIFCTF001 137", "AMORTIZAÇÃO", null, 1, "2026-10-07"],
   ["VBI AGRO – FII RESP LIMITADA", "BRPLAGCTF000 120", "RENDIMENTO", null, 0.68, "2026-10-07"],
   ["ITAÚ FIC FI INVEST FINAN INFRA CDI RF CRED PRIV", "BRIFRIR08M11 127", "RENDIMENTO", null, 1, "2026-10-07"],
-  ["B3 S.A. - BRASIL, BOLSA, BALCÃO", "BRB3SAACNOR6 142", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.15068791747, "2026-10-07"],
   ["B3 S.A. - BRASIL, BOLSA, BALCÃO", "BRB3SAACNOR6 142", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.0759467104, "2026-10-07"],
+  ["B3 S.A. - BRASIL, BOLSA, BALCÃO", "BRB3SAACNOR6 142", "JUROS SOBRE CAPITAL PRÓPRIO", null, 0.15068791747, "2026-10-07"],
   ["VALORA RENDA IMOB FUNDO DE INVES IMOB -RESP LIMIT", "BRVGRICTF008 131", "RENDIMENTO", null, 0.075, "2026-10-07"],
   ["FUNDO DE INVEST IMOB RIZA TERRAX RESP LIM", "BRRZTRCTF003 175", "RENDIMENTO", null, 0.85, "2026-10-07"],
   ["FII HOUSI RESP LIM", "BRHOSICTF009 169", "RENDIMENTO", null, 0.0346, "2026-10-07"],

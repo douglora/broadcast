@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-06",
- "coletado_em": "2026-10-08T00:52:41Z",
+ "coletado_em": "2026-10-08T06:37:19Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -72,6 +72,14 @@
    "atualizado_em": "2026-10-06T17:40:04.527",
    "sla": "20:00:00",
    "linhas": 69,
+   "truncada": false
+  },
+  "ForwardMarket": {
+   "titulo": "Mercado a termo",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-06T21:00:21.663",
+   "sla": "20:00:00",
+   "linhas": 170,
    "truncada": false
   },
   "NegotiStrategi": {
@@ -162,6 +170,14 @@
    "linhas": 111,
    "truncada": false
   },
+  "DerivativesMtM": {
+   "titulo": "Derivativos - mark to market",
+   "situacao": "ignorado",
+   "atualizado_em": "2026-10-06T20:03:36.267",
+   "sla": "20:00:00",
+   "linhas": 4,
+   "truncada": false
+  },
   "AnalyticalFramework2": {
    "titulo": "Quadro analítico das posições em aberto",
    "situacao": "atrasado",
@@ -176,6 +192,14 @@
    "atualizado_em": "2026-10-06T22:10:51.607",
    "sla": "3:00:00",
    "linhas": 1,
+   "truncada": false
+  },
+  "EletronicTerm": {
+   "titulo": "Termo eletrônico",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-06T22:10:51.69",
+   "sla": "3:00:00",
+   "linhas": 2,
    "truncada": false
   },
   "OTCRegistrationWCCP": {
@@ -356,6 +380,12 @@
   }
  },
  "arquivos": {
+  "TradeInformationConsolidated": {
+   "arquivo": "TradeInformationConsolidatedFile_20261006_1",
+   "bytes": 5410261,
+   "linhas": 81319,
+   "estado": "Final"
+  },
   "TradeInformationConsolidatedAfterHours": {
    "arquivo": "TradeInformationConsolidatedAfterHoursFile_20261006_1",
    "bytes": 53247,
@@ -375,12 +405,7 @@
    "estado": null
   }
  },
- "falhas": {
-  "ForwardMarket": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/ForwardMarket/2026-10-06/2026-10-06/1/1000",
-  "DerivativesMtM": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/DerivativesMtM/2026-10-06/2026-10-06/1/1000",
-  "EletronicTerm": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/EletronicTerm/2026-10-06/2026-10-06/1/1000",
-  "TradeInformationConsolidated": "arquivo TradeInformationConsolidated: download HTTP 504"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1559,
   "consultados": 0,
@@ -388,7 +413,7 @@
   "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
-  "no_cache": 3376
+  "no_cache": 3402
  },
  "anbima": {
   "situacao": "publicado",

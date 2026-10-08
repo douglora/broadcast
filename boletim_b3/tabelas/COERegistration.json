@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-06",
+ "pregao": "2026-10-07",
  "nome": "COERegistration",
  "titulo": "Registro",
  "sla": "8:00:00",
@@ -7,9 +7,9 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "TradQty", "titulo": "Quantidade contratos"}, {"nome": "FinancialVol", "titulo": "Volume financeiro (R$)"}],
  "texto": ["COEs (Certificados de Operações Estruturadas) são instrumentos emitidos por instituições financeiras que combinam diferentes ativos. Esta tabela traz os COEs registrados na B3, incluindo detalhes sobre cada emissão, como características, condições e datas de emissão. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/boletim-diario/dados-publicos-de-produtos-listados-e-de-balcao/glossario/\">Glossário</a>"],
  "situacao": "publicado",
- "atualizado_em": "2026-10-07T01:22:46.527",
+ "atualizado_em": "2026-10-08T01:12:32.65",
  "truncada": false,
  "linhas": [
-  ["COE", 694, 96906770]
+  ["COE", 740, 112521038.28]
  ]
 }
