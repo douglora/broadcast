@@ -79,8 +79,11 @@ def gravar(resultado, ini, fim, caminho=ARQ_GATE, hoje=None):
                         "n_meses": v.get("n_meses"),
                         "passou": v.get("passou")}
                     for k, v in resultado.items()
-                    if k != "passou" and isinstance(v, dict)},
+                    if k not in ("passou", "limpeza") and isinstance(v, dict)},
     }
+    if isinstance(resultado.get("limpeza"), dict):
+        # o que foi retirado do dado antes da replica: quem le "aprovado" tem de ver junto
+        corpo["limpeza"] = resultado["limpeza"]
     garantir_dir(os.path.dirname(caminho))
     gravar_json(caminho, corpo)
     return corpo
@@ -125,4 +128,7 @@ def resumo(caminho=ARQ_GATE):
         saida["rodado_em"] = corpo.get("rodado_em")
         saida["janela"] = corpo.get("janela")
         saida["fatores"] = corpo.get("fatores")
+        lim = corpo.get("limpeza")
+        if isinstance(lim, dict):
+            saida["limpeza"] = {k: v for k, v in lim.items() if k != "lista_saltos"}
     return saida

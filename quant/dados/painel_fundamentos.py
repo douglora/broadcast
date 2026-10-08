@@ -280,6 +280,29 @@ def datas_mensais(ini, fim):
     return out
 
 
+def datas_de_decisao(ini, fim, hoje=None):
+    """Fins de mes ja acontecidos mais o ultimo pregao com cotacao no banco.
+
+    O universo (e por isso o painel de sinais) tem uma linha no ULTIMO PREGAO DISPONIVEL do
+    mes corrente, e a juncao com os fundamentos e por data exata. Com so os fins de mes do
+    calendario, o mes corrente ficava com a data futura (30/10 lida em 08/10) e a linha de
+    hoje dos sinais saia sem fundamento nenhum: zero elegiveis, boleta vazia. Foi o que a
+    primeira rodada com dado real mostrou em 08/10/2026.
+    """
+    limite = pd.Timestamp(hoje or date.today())
+    datas = [d for d in datas_mensais(ini, fim) if d <= limite]
+    try:
+        from quant.dados import cotahist
+        cot = cotahist.carregar(limite.year, limite.year, colunas=["data"])
+        if cot is not None and len(cot):
+            ultima = pd.to_datetime(cot["data"]).max().normalize()
+            if ultima <= limite and ultima not in datas:
+                datas.append(ultima)
+    except Exception as e:                                      # sem banco de cotacoes fica so o calendario
+        log(f"sem ultima cotacao para a data corrente ({type(e).__name__})")
+    return sorted(datas)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Monta o painel point-in-time de fundamentos")
     ap.add_argument("--anos", default="2010-2026", help="anos de DFP/ITR a carregar")
@@ -299,7 +322,7 @@ def main(argv=None):
             fin = setores.financeiras(setores.mapa_setores(identidade=ident), ident)
     except Exception as e:                                      # setor e opcional aqui
         log(f"sem mapa de setores ({e}); nenhuma empresa marcada como financeira")
-    datas = datas_mensais(args.ini, args.fim)
+    datas = datas_de_decisao(args.ini, args.fim)
     log(f"painel: {df['cd_cvm'].nunique()} empresas, {len(datas)} datas de decisao")
     painel = painel_ttm(df, datas, financeiras=fin, deslocar=True)
     gravar(painel)

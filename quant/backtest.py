@@ -531,8 +531,8 @@ def carregar_do_banco(ini, fim):
     painel = sg.carregar()
     if painel is None or len(painel) == 0:
         return None
-    ret = sg.painel_retornos(eventos.retorno_total(cot[["ticker", "data", "fec"]],
-                                                   eventos.carregar_eventos(), jcp_liquido=True))
+    ret = sg.painel_retornos(eventos.retorno_total_limpo(cot[["ticker", "data", "fec", "fatcot"]],
+                                                         eventos.carregar_eventos(), jcp_liquido=True))
     taxa = cdi_mod.carregar(permitir_rede=False)
     try:
         fatores = nefin.carregar_fatores()

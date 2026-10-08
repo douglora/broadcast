@@ -131,8 +131,8 @@ def carregar_real(ate=None, anos=ANOS_HISTORICO):
     if cot is None or len(cot) == 0:
         return None
     painel = sg.carregar()
-    ret = sg.painel_retornos(eventos.retorno_total(cot[["ticker", "data", "fec"]],
-                                                   eventos.carregar_eventos(), jcp_liquido=True))
+    ret = sg.painel_retornos(eventos.retorno_total_limpo(cot[["ticker", "data", "fec", "fatcot"]],
+                                                         eventos.carregar_eventos(), jcp_liquido=True))
     taxa = cdi_mod.carregar(permitir_rede=False)
     try:
         fatores = nefin.carregar_fatores()
@@ -371,6 +371,16 @@ def rodar(modo="paper", capital=CAPITAL_PADRAO, data=None, seed=7, gate_passou=N
     fontes = {"cotahist": (dados.get("ultima_cotacao"), 1),
               "sinais": (_ultima(dados.get("sinais"), "data"), 45),
               "cdi": (_ultimo_indice(dados.get("cdi")), 5)}
+    if dados["origem"] == "real":
+        # A boleta exige o BDI do ultimo pregao (FONTES_OBRIGATORIAS) e este bloco nunca o
+        # informava: com banco real, gate aprovado e BDI arquivado, a boleta saia bloqueada
+        # por "BDI ausente" para sempre (primeira rodada real, 08/10/2026).
+        try:
+            from quant.execucao import boleta as bo
+            fontes["bdi"] = (bo._ultima_data_bdi(), 1)
+        except Exception as e:
+            log(f"sem data do BDI ({type(e).__name__}: {e})")
+            fontes["bdi"] = (None, 1)
     fres = frescor(hoje, fontes)
     extras = []
     if dados["origem"] != "real":

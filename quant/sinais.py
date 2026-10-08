@@ -591,9 +591,17 @@ def main(argv=None):
         return 2
     ident = ident_mod.carregar_identidade()
     uni = uni_mod.universo_pit(cotahist.acoes_a_vista(cot, apenas_lote_padrao=True), identidade=ident)
-    ret = painel_retornos(eventos.retorno_total(cot[["ticker", "data", "fec"]], eventos.carregar_eventos()))
+    ret = painel_retornos(eventos.retorno_total_limpo(cot[["ticker", "data", "fec", "fatcot"]], eventos.carregar_eventos()))
     fund = painel_fundamentos.carregar()
-    s = painel(uni, ret, fundamentos=fund, identidade=ident)
+    # Sem o mapa de setores a coluna `setor` sai vazia e o limite por setor da carteira nao
+    # tem o que limitar (foi o que a primeira rodada com dado real mostrou, em 08/10/2026).
+    try:
+        from quant.dados import setores as set_mod
+        mapa = set_mod.mapa_setores(identidade=ident)
+    except Exception as e:
+        log(f"sem mapa de setores ({type(e).__name__}: {e}); a coluna setor fica vazia")
+        mapa = None
+    s = painel(uni, ret, fundamentos=fund, identidade=ident, setores=mapa)
     gravar(s)
     r = resumo(s)
     log(f"sinais: {len(s)} linhas, {r['n_elegivel'].mean():.1f} elegiveis por mes em media")

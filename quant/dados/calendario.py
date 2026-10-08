@@ -30,8 +30,15 @@ def _cal(d):
 
 
 def eh_pregao(d):
+    """Data fora da cobertura dos dois calendarios (provento de 1990, data-sentinela
+    9999-12-31 que a B3 usa em evento sem data) cai na regra do dia de semana: a B3
+    devolve esses registros de verdade, e levantar aqui derrubava a carga inteira de
+    proventos no primeiro papel com historia longa."""
     d = _para_date(d)
-    return bool(_cal(d).isbizday(d))
+    try:
+        return bool(_cal(d).isbizday(d))
+    except Exception:
+        return d.weekday() < 5
 
 
 def pregao_anterior(d):

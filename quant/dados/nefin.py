@@ -19,12 +19,17 @@ import pandas as pd
 from quant.comum import DIR_BRUTOS, garantir_dir, gravar_gzip, gravar_json, http_get, ler_gzip, ler_json, log
 
 REPO = "nefin/nefin.github.io"
-URL_RAW = "https://raw.githubusercontent.com/{repo}/{ref}/static/resources/{caminho}"
+# O site do NEFIN guarda os dados em static/nefindata/ (conferido no repositorio em 08/10/2026:
+# static/resources/, o caminho que estava aqui, nunca existiu e a primeira carga real devolveu 404).
+URL_RAW = "https://raw.githubusercontent.com/{repo}/{ref}/static/nefindata/{caminho}"
 URL_COMMITS_API = "https://api.github.com/repos/{repo}/commits?per_page=1&sha=main"
 URL_COMMITS_ATOM = "https://github.com/{repo}/commits/main.atom"
 
 ARQUIVOS = {
-    "fatores": "risk_factors/nefin_factors.csv",
+    "fatores": "risk-factors/nefin_factors.csv",
+    # Aluguel: o que o NEFIN publica hoje e UMA serie semanal do mercado (loan-fees/loan_fees.csv:
+    # ano, mes, dia, semana_aluguel_100), nao a taxa por papel que o sinal de aluguel espera. Os tres
+    # caminhos abaixo seguem como estavam e respondem 404: o aluguel e opcional e fica declarado ausente.
     "aluguel_taxa": "stock_loans/average_loan_fee.csv",
     "aluguel_short_interest": "stock_loans/average_short_interest.csv",
     "aluguel_days_to_cover": "stock_loans/average_days_to_cover.csv",

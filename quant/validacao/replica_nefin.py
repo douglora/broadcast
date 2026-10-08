@@ -360,8 +360,22 @@ def rodar_gate(ini, fim, book_equity=None, retornos=None):
         raise FileNotFoundError("sem COTAHIST no banco; rode python -m quant.dados.cotahist --anos ...")
     cot = cotahist.acoes_a_vista(cot, apenas_lote_padrao=False)
     alvo = nefin.mensal(nefin.carregar_fatores())
+    limpeza = None
     if retornos is None:
-        retornos = retornos_de_cotacoes(cot)
+        # O gate de verdade roda sobre RETORNO TOTAL LIMPO, o mesmo que os sinais usam. Com o
+        # fechamento cru (o que estava aqui) a primeira rodada real deu correlacao 0,27: cada
+        # desdobramento vira -50% e cada grupamento +900% na perna errada do momentum.
+        from quant.dados import eventos
+        ev = eventos.carregar_eventos()
+        if len(ev):
+            rt = eventos.retorno_total_limpo(cot[["ticker", "data", "fec", "fatcot"]]
+                                             if "fatcot" in cot else cot[["ticker", "data", "fec"]], ev)
+            retornos = rt.pivot(index="data", columns="ticker", values="ret_total").sort_index()
+            limpeza = dict(rt.attrs.get("limpeza") or {})
+            limpeza["eventos"] = int(len(ev))
+        else:
+            retornos = retornos_de_cotacoes(cot)
+            limpeza = {"aviso": "tabela de eventos vazia: replica sobre fechamento cru, sem proventos"}
     diario, mensal = replicar_wml(retornos, cot)
     janela = mensal[(mensal.index.year >= ini) & (mensal.index.year <= fim)]
     out = {"WML": comparar(janela, alvo, "WML")}
@@ -370,6 +384,8 @@ def rodar_gate(ini, fim, book_equity=None, retornos=None):
         janela_h = hml[1][(hml[1].index.year >= ini) & (hml[1].index.year <= fim)]
         out["HML"] = comparar(janela_h, alvo, "HML")
     out["passou"] = all(v["passou"] for k, v in out.items() if k != "passou")
+    if limpeza is not None:
+        out["limpeza"] = limpeza          # depois do `passou`: nao e fator, e o que foi tirado do dado
     return out
 
 
@@ -388,7 +404,10 @@ def main(argv=None):
     # `gate_passou is None`, e sem artefato `rodar_diario --paper` e `campanha --sessao`
     # nasceriam bloqueados para sempre - nao teriam de onde tirar a aprovacao.
     corpo = gate.gravar(res, args.ini, args.fim)
-    print(json.dumps(res, indent=2, ensure_ascii=False))
+    visivel = dict(res)
+    if isinstance(visivel.get("limpeza"), dict) and "lista_saltos" in visivel["limpeza"]:
+        visivel["limpeza"] = {k: v for k, v in visivel["limpeza"].items() if k != "lista_saltos"}
+    print(json.dumps(visivel, indent=2, ensure_ascii=False))
     print(f"\nveredito gravado em {gate.ARQ_GATE}")
     print(f"impressao do banco: {corpo['impressao_banco'][:16]}... "
           "(o gate deixa de valer se o banco mudar)")

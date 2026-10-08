@@ -251,7 +251,7 @@ def normalizar_b3_dividendos(obj, ticker, carimbo=None):
         if math.isnan(valor):
             continue
         linhas.append({
-            "ticker": ticker, "tipo": tipo_de(r.get("label")), "data_com": data_com,
+            "ticker": ticker, "tipo": tipo_de(r.get("corporateAction") or r.get("label")), "data_com": data_com,
             "data_ex": data_ex_de(data_com), "valor": valor, "fator": float("nan"),
             "data_aprov": data_br(r.get("dateApproval") or r.get("approvedOn")), "fonte": "b3",
             "carimbo": carimbo,
@@ -304,7 +304,7 @@ def normalizar_b3_suplemento(obj, ticker, carimbo=None):
             if pd.isna(data_com) or math.isnan(valor):
                 continue
             linhas.append({
-                "ticker": ticker, "tipo": tipo_de(r.get("label")), "data_com": data_com,
+                "ticker": ticker, "tipo": tipo_de(r.get("corporateAction") or r.get("label")), "data_com": data_com,
                 "data_ex": data_ex_de(data_com), "valor": valor, "fator": float("nan"),
                 "data_aprov": data_br(r.get("approvedOn")), "fonte": "b3_suplemento", "carimbo": carimbo,
                 "obs": str(r.get("relatedTo") or "").strip(),
@@ -531,6 +531,68 @@ def retorno_total(precos, eventos, jcp_liquido=False):
 
 
 # ─────────────────────────────────────────────────────────────
+# Retorno total limpo (o que o gate, os sinais e a rodada diaria usam com dado real)
+# ─────────────────────────────────────────────────────────────
+SALTO_MAX = 1.0          # +100% num pregao
+SALTO_MIN = -0.5         # -50% num pregao
+BURACO_DIAS = 60         # dias corridos sem preco: a serie recomeca
+
+
+def retorno_total_limpo(precos, eventos, jcp_liquido=False, salto_max=SALTO_MAX, salto_min=SALTO_MIN,
+                        buraco_dias=BURACO_DIAS):
+    """`retorno_total` com as tres defesas que o dado real pediu na primeira carga (08/10/2026).
+
+    1. PRECO POR ACAO. O COTAHIST cota alguns papeis por lote de mil (`fatcot` = 1000) e o
+       evento da B3 fala em acoes: sem dividir pelo fator de cotacao, o grupamento de 1000:1
+       que acompanha a troca de lote vira -99,9% num dia. Vale quando `precos` traz `fatcot`.
+    2. TICKER REAPROVEITADO. NATU3 negociou ate 2019 e voltou em 2025 como outra companhia: o
+       primeiro retorno depois de um buraco de mais de `buraco_dias` dias corridos compara dois
+       papeis diferentes e sai NaN.
+    3. SALTO SEM EVENTO. Retorno diario acima de `salto_max` ou abaixo de `salto_min` que SOBROU
+       depois dos eventos e, quase sempre, grupamento ou desdobramento que nenhuma fonte trouxe
+       (papel deslistado nao existe mais na API da B3). Sai NaN e entra na lista
+       `attrs["limpeza"]["saltos"]`, que e a fila da curadoria (eventos_curados.csv).
+
+    O PRECO DESTA TERCEIRA DEFESA E CONHECIDO: uma queda real de mais de 50% num dia (AMER3 em
+    12/01/2023) tambem sai. Sao poucos casos e a alternativa medida foi pior: sem o filtro a
+    replica do WML do NEFIN deu correlacao 0,37 e media 27 pontos abaixo; com ele, 0,94 e 1,9
+    ponto abaixo (janela 2008-2026). O numero de observacoes retiradas vai junto no veredito
+    do gate para ninguem ler a aprovacao sem saber do filtro.
+
+    Devolve as mesmas colunas de `retorno_total`; `fator_acum` e recalculado depois da limpeza.
+    """
+    if precos is None or len(precos) == 0:
+        return retorno_total(precos, eventos, jcp_liquido)
+    p = pd.DataFrame({"ticker": precos["ticker"], "data": precos["data"],
+                      "fec": pd.to_numeric(precos["fec"], errors="coerce")})
+    if "fatcot" in precos:
+        fat = pd.to_numeric(precos["fatcot"], errors="coerce")
+        p["fec"] = p["fec"] / fat.where(fat > 0, 1.0).fillna(1.0).to_numpy()
+    rt = retorno_total(p, eventos, jcp_liquido)
+    if len(rt) == 0:
+        return rt
+    rt = rt.sort_values(["ticker", "data"]).reset_index(drop=True)
+    com_preco = rt["ret_preco"].notna()
+    # buraco medido entre dias COM preco: linha sem negocio nao interrompe a contagem
+    ult = rt["data"].where(com_preco).groupby(rt["ticker"]).ffill().groupby(rt["ticker"]).shift(1)
+    buraco = com_preco & ((rt["data"] - ult).dt.days > int(buraco_dias))
+    salto = rt["ret_total"].notna() & ~buraco & ((rt["ret_total"] > salto_max) | (rt["ret_total"] < salto_min))
+    lista = rt.loc[salto, ["ticker", "data", "ret_total"]]
+    rt.loc[buraco | salto, ["ret_preco", "ret_total"]] = np.nan
+    rt["fator_acum"] = (rt["ret_total"].fillna(0.0) + 1.0).groupby(rt["ticker"]).cumprod()
+    rt.attrs["limpeza"] = {
+        "observacoes": int(com_preco.sum()),
+        "buracos": int(buraco.sum()),
+        "saltos": int(salto.sum()),
+        "criterio": f"retorno diario > {salto_max:+.0%} ou < {salto_min:+.0%} sem evento; "
+                    f"buraco > {int(buraco_dias)} dias corridos recomeca a serie",
+        "lista_saltos": [{"ticker": str(t), "data": str(pd.Timestamp(d).date()), "retorno": round(float(r), 4)}
+                         for t, d, r in lista.itertuples(index=False)],
+    }
+    return rt
+
+
+# ─────────────────────────────────────────────────────────────
 # Rede (tolerante) e banco
 # ─────────────────────────────────────────────────────────────
 def _guardar_bruto(pasta, nome, texto):
@@ -626,14 +688,122 @@ def carregar_eventos(caminho=ARQ_PARQUET):
     return pd.read_parquet(caminho)
 
 
+# ─────────────────────────────────────────────────────────────
+# Carga em lote (o passo `eventos` da primeira carga)
+# ─────────────────────────────────────────────────────────────
+VOLUME_MIN_LOTE = 300_000.0     # mediana diaria (R$) num ano qualquer: bem abaixo do corte do universo
+TRABALHADORES_LOTE = 6
+
+
+def papeis_do_lote(volume_min=VOLUME_MIN_LOTE):
+    """Os papeis que precisam de eventos: toda acao ou unit do mercado a vista que algum dia
+    chegou perto do corte de liquidez do universo. Devolve {ticker: nome de pregao mais recente}.
+
+    O corte e frouxo de proposito (um quinto do ADTV minimo do universo): papel que entra e sai
+    do universo precisa de retorno total nos meses em que esteve dentro, e baixar evento de
+    papel que nunca negociou so gasta requisicao.
+    """
+    from quant.dados import cotahist
+    from quant.universo import classificar_papel
+    from datetime import date
+    cot = cotahist.carregar(2005, date.today().year,
+                            colunas=["data", "ticker", "isin", "codbdi", "tpmerc", "nome", "volume"])
+    cot = cot[(cot["tpmerc"].astype(str).str.strip() == "010")
+              & (cot["codbdi"].astype(str).str.strip().str.zfill(2) == "02")]
+    cot = cot.assign(ano=cot["data"].astype(str).str[:4])
+    med = cot.groupby(["ticker", "ano"])["volume"].median().groupby("ticker").max()
+    ult = cot.sort_values("data").groupby("ticker").tail(1).set_index("ticker")
+    fora = {}
+    for tk in med[med >= volume_min].index:
+        r = ult.loc[tk]
+        if classificar_papel(tk, r["isin"], r["codbdi"]) not in ("acao", "unit"):
+            continue
+        fora[str(tk).upper()] = str(r["nome"] or "").strip()
+    return fora
+
+
+def carga_em_lote(papeis=None, trabalhadores=TRABALHADORES_LOTE, com_statusinvest=True):
+    """Baixa B3 (dividendos por nome de pregao + suplemento por emissor) e StatusInvest para
+    todos os papeis e grava banco/eventos.parquet. Devolve (tabela, faltas).
+
+    Uma requisicao por emissor e uma por nome de pregao, nao por ticker: PETR3 e PETR4 saem da
+    mesma resposta. Papel em que nenhuma fonte respondeu entra em `faltas` com o motivo - a
+    conferencia lista, ninguem finge que nao ha evento. StatusInvest que comeca a recusar
+    (bloqueio) e desligado no meio da carga em vez de gastar tres tentativas por papel.
+    """
+    from concurrent.futures import ThreadPoolExecutor
+    papeis = papeis if papeis is not None else papeis_do_lote()
+    carimbo = agora_iso()
+    por_emissor = {}
+    for tk, nome in papeis.items():
+        por_emissor.setdefault(tk[:4], []).append((tk, nome))
+    cur = carregar_curados()
+    estado = {"si_falhas": 0, "si_ligado": bool(com_statusinvest)}
+
+    def um_emissor(item):
+        emissor, lista = item
+        partes, faltas = [], []
+        sup = baixar_b3_suplemento(emissor)
+        div = {}
+        for nome in sorted({n for _t, n in lista if n}):
+            div[nome] = baixar_b3_dividendos(nome)
+        for tk, nome in lista:
+            achou = False
+            d = div.get(nome)
+            if d is not None:
+                partes.append(normalizar_b3_dividendos(d, tk, carimbo)); achou = True
+            if sup is not None:
+                partes.append(normalizar_b3_suplemento(sup, tk, carimbo)); achou = True
+            if estado["si_ligado"]:
+                obj = baixar_statusinvest(tk)
+                if obj is not None:
+                    partes.append(normalizar_statusinvest(obj, tk, carimbo)); achou = True
+                    estado["si_falhas"] = 0
+                else:
+                    estado["si_falhas"] += 1
+                    if estado["si_falhas"] >= 25:
+                        estado["si_ligado"] = False
+                        log("statusinvest: 25 recusas seguidas, desligado nesta carga (seguem as duas fontes da B3)")
+            partes.append(cur[cur["ticker"] == tk])
+            if not achou:
+                faltas.append((tk, "nenhuma fonte respondeu"))
+        return partes, faltas
+
+    partes, faltas, feitos = [], [], 0
+    itens = sorted(por_emissor.items())
+    with ThreadPoolExecutor(max_workers=max(1, int(trabalhadores))) as ex:
+        for ps, fs in ex.map(um_emissor, itens):
+            partes.extend(ps)
+            faltas.extend(fs)
+            feitos += 1
+            if feitos % 50 == 0:
+                log(f"  eventos: {feitos}/{len(itens)} emissores")
+    df = consolidar(*partes)
+    gravar_eventos(df)
+    return df, faltas
+
+
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Baixa proventos/eventos de um ticker e mostra a tabela consolidada")
-    ap.add_argument("ticker")
+    ap = argparse.ArgumentParser(description="Proventos e eventos: um ticker (mostra a tabela) ou, sem ticker, "
+                                             "a carga em lote que grava banco/eventos.parquet")
+    ap.add_argument("ticker", nargs="?", default=None)
     ap.add_argument("--nome", default=None, help="tradingName na B3 (ex.: PETROBRAS)")
     ap.add_argument("--emissor", default=None, help="issuingCompany na B3 (ex.: PETR)")
+    ap.add_argument("--sem-statusinvest", action="store_true", help="so as duas fontes da B3 e a curadoria")
     args = ap.parse_args(argv)
-    df = baixar_eventos(args.ticker.upper(), args.nome, args.emissor)
-    print(df.to_string())
+    if args.ticker:
+        df = baixar_eventos(args.ticker.upper(), args.nome, args.emissor)
+        print(df.to_string())
+        return 0 if len(df) else 1
+    papeis = papeis_do_lote()
+    log(f"eventos em lote: {len(papeis)} papeis, {len({t[:4] for t in papeis})} emissores")
+    df, faltas = carga_em_lote(papeis, com_statusinvest=not args.sem_statusinvest)
+    com = df["ticker"].nunique() if len(df) else 0
+    log(f"eventos: {len(df)} linhas, {com} de {len(papeis)} papeis com evento; "
+        f"por tipo: {df['tipo'].value_counts().to_dict() if len(df) else {}}")
+    if faltas:
+        log(f"  sem resposta de fonte alguma ({len(faltas)}): {', '.join(t for t, _m in faltas[:40])}"
+            + (" ..." if len(faltas) > 40 else ""))
     return 0 if len(df) else 1
 
 
