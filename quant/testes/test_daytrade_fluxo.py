@@ -594,3 +594,91 @@ def test_robo_so_de_dolar_ignora_a_fita_do_indice(tmp_path, monkeypatch):
     est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp()), "WINFUT": _cotacao(207000.0, agora.timestamp())}})
     assert [i["ativo"] for i in est["instrumentos"]] == ["WDOFUT"] and list(r.estados) == ["WDOFUT"]
     assert not any("ndice" in a for a in est["avisos"])
+
+
+# ── setup PhiCube: barras, sinal e robo ──────────────────────────────────────────────────────────
+def _serie_em_alta(minutos=12_000, inclinacao=0.01, onda=1.0, periodo=23):
+    """Barras de 1 minuto subindo devagar, com um vai-e-vem: tendencia de alta no grafico de 15 minutos."""
+    import numpy as np
+    import pandas as pd
+    idx = pd.bdate_range("2026-06-01", periods=minutos // 540 + 2, freq="B")
+    horas = [d + pd.Timedelta(hours=9, minutes=m) for d in idx for m in range(540)][:minutos]
+    t = np.arange(minutos)
+    c = 5000.0 + inclinacao * t + onda * np.sin(2 * np.pi * t / periodo)
+    c = np.round(c * 2) / 2
+    return pd.DataFrame({"o": c, "h": c + 0.5, "l": c - 0.5, "c": c, "n": 10.0, "v": 100.0}, index=pd.DatetimeIndex(horas, name="hora"))
+
+
+def test_phicube_tendencia_em_15_gatilho_em_4_e_o_mesmo_do_teste_historico():
+    from quant.daytrade import barras as br, estrategias_hist as eh, historico as hist
+    df = _serie_em_alta()
+    est = eh.PhiCube(15, 4, "sma")
+    est.preparar(df)
+    # com o preco subindo ha 22 pregoes, o grafico de 15 minutos esta em tendencia de alta no fim da serie
+    # (a media de 34 em 15 minutos fica 2,5 pontos atras do preco; o vai-e-vem de 1 ponto nao chega nela)
+    assert (est.tend[est.ig[-600:]] == 1).mean() > 0.95
+    ordens = [(i, est.decidir(i, None, {})) for i in range(len(df) - 600, len(df))]
+    ordens = [(i, o) for i, o in ordens if o is not None]
+    assert ordens and all(o.lado == "C" for _i, o in ordens)            # so compra em tendencia de alta
+    i, o = ordens[0]
+    assert 2.0 <= o.stop_pts <= 8.0 and o.alvo_pts == pytest.approx(3 * o.stop_pts) and o.parcial_pts == pytest.approx(o.stop_pts)
+    assert est.nova_s[i]                                                # a ordem nasce no minuto em que fecha uma barra de 4
+    # a leitura ao vivo, no mesmo ponto, da a mesma ordem; e so uma vez por barra
+    sinal = br.SinalPhiCube(maior=15, menor=4, tipo="sma")
+    leitura, ordem = sinal.atualizar(df.iloc[:i + 1])
+    assert leitura["pronto"] and leitura["tendencia"] == "alta" and leitura["alinhadas"] and ordem is not None
+    assert (ordem.lado, ordem.stop_pts) == (o.lado, o.stop_pts)
+    assert sinal.atualizar(df.iloc[:i + 1])[1] is None
+    # sem historia suficiente nao ha leitura nem ordem
+    curto, nada = br.SinalPhiCube(maior=15, menor=4).atualizar(df.iloc[:500])
+    assert curto["pronto"] is False and nada is None
+    # o simulador: uma ordem de compra com stop de 4, parcial em +4 e alvo em +12
+    class Uma(hist.Estrategia):
+        def decidir(self, i, dia, ctx):
+            return hist.Ordem("C", 4.0, parcial_pts=4.0, alvo_pts=12.0) if not ctx.get("ja") and not ctx.update(ja=True) else None
+    import pandas as pd
+    horas = pd.date_range("2026-10-08 09:15", periods=8, freq="min")
+    b = pd.DataFrame({"o": [5000, 5000, 5001, 5005, 5008, 5012, 5013, 5013], "h": [5000, 5001, 5005, 5008, 5012, 5013.5, 5013, 5013],
+                      "l": [5000, 4999, 5000, 5004, 5007, 5011, 5012, 5012], "c": [5000, 5001, 5005, 5008, 5012, 5013, 5013, 5013],
+                      "n": 1.0, "v": 1.0}, index=horas).astype(float)
+    neg = hist.simular(b, Uma(), hist.RegrasDoDia(), hist.Custos())
+    # entra a 5.000,5 (abertura + 1 tick); parcial de 1 em 5.004,5 (+4); alvo de 1 em 5.012,5 (+12): 16 pontos x R$ 10 - R$ 4,80
+    assert len(neg) == 1 and neg[0].saida == "alvo" and neg[0].resultado == pytest.approx(155.20)
+
+
+def test_robo_no_setup_phicube_entra_pelo_sinal_do_grafico_e_comeca_zerado(tmp_path, monkeypatch):
+    from quant.daytrade import historico as hist
+    rf, r0, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
+    monkeypatch.setattr(rf, "ATIVOS", ("WDOFUT",))
+    r0.operacoes = [{"tipo": "saida", "ativo": "WDOFUT", "resultado": -74.8, "custos": 4.8}]
+    r0.perdas, r0.trava = 3, "tres_perdas"
+    r0._salvar()                                               # o placar da regra de fluxo: 3 perdedores, travado
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="phicube")
+    r.codigos, r.ajustes = {"WDOFUT": "WDOX26"}, {"WDOFUT": 5030.0}
+    assert r.trava is None and r.perdas == 0 and r.operacoes == []        # setup novo, placar zerado
+    leitura = {"pronto": True, "maior_min": 15, "menor_min": 4, "tipo_media": "sma", "periodos": [34, 144, 610], "tendencia": "alta",
+               "fechamento_maior": 5031.0, "medias_maior": [5029.0, 5025.0, 5015.0], "alinhadas": True, "fechamento_menor": 5031.0,
+               "medias_menor": [5030.5, 5028.0], "lado_menor": "acima", "virou": 1, "barra_menor": "x", "barras": 12000}
+
+    class Falso:
+        def __init__(self): self.vez = 0
+        def atualizar(self, df):
+            self.vez += 1
+            return leitura, (hist.Ordem("C", 4.0, parcial_pts=4.0, alvo_pts=12.0) if self.vez == 1 else None)
+    r.sinais_pc["WDOFUT"] = Falso()
+    agora = datetime(2026, 10, 8, 10, 16, 7, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp())}})    # sem fita nenhuma: o grafico basta
+    pos = r.estados["WDOFUT"].posicao
+    # compra a mercado em 5.031,5; stop 4 pontos = 5.027,5; alvo 3 por 1 = 5.043,5; parcial em +4
+    assert pos and (pos.tecnica, pos.entrada, pos.stop, pos.alvo, pos.parcial_pts, pos.sem_arrasto) == ("phicube", 5031.5, 5027.5, 5043.5, 4.0, True)
+    assert est["regra"] == "phicube" and "PhiCube" in est["regras"]["nome"] and any("PERDEU" in a for a in est["avisos"])
+    assert est["instrumentos"][0]["phicube"]["tendencia"] == "alta" and est["posicoes"][0]["tecnica"] == "phicube"
+    # +4: parcial de 1 (4 x 10 - 2,40 = 37,60) e stop na entrada; depois o alvo em 5.043,5: +12 x 10 - 2,40 = 117,60
+    r.ciclo(agora + timedelta(seconds=30), retrato={"q": {"WDOFUT": _cotacao(5035.5, agora.timestamp() + 30)}})
+    assert r.operacoes[-1]["tipo"] == "parcial" and r.operacoes[-1]["resultado"] == pytest.approx(37.60) and pos.stop == 5031.5
+    r.ciclo(agora + timedelta(seconds=90), retrato={"q": {"WDOFUT": _cotacao(5038.0, agora.timestamp() + 90)}})
+    assert r.estados["WDOFUT"].posicao.stop == 5031.5            # sem stop movel: o resto espera o alvo
+    est = r.ciclo(agora + timedelta(seconds=150), retrato={"q": {"WDOFUT": _cotacao(5044.0, agora.timestamp() + 150)}})
+    assert r.operacoes[-1]["motivo"] == "alvo" and r.operacoes[-1]["saida"] == 5043.5 and r.operacoes[-1]["resultado"] == pytest.approx(117.60)
+    assert est["resultado"]["dia"] == pytest.approx(155.20)
+    assert os.path.exists(tmp_path / "dt" / "2026-10-08" / "estado_phicube.json") and os.path.exists(tmp_path / "dt" / "2026-10-08" / "estado_fluxo.json")

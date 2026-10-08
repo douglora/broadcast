@@ -153,6 +153,9 @@ class PosicaoF:
     parcial_feita: bool = False
     melhor: float = 0.0
     ts_entrada: float = 0.0
+    parcial_pts: float | None = None       # None = a parcial padrao do contrato
+    alvo: float | None = None              # preco em que sai de tudo; None = sem alvo
+    sem_arrasto: bool = False              # True = depois da parcial o stop fica na entrada, sem andar
 
 
 @dataclass
@@ -476,15 +479,19 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
                 and _pontos(pos, pos.melhor) < a.gatilho_pts:
             eventos.append(_fechar(estado, pos, a_mercado, ts, hora, "não andou"))   # rompimento tem que romper
             return eventos
-        if not pos.parcial_feita and _pontos(pos, preco) >= a.parcial_pts:
+        if pos.alvo is not None and (preco >= pos.alvo if pos.lado == "C" else preco <= pos.alvo):
+            eventos.append(_fechar(estado, pos, arredondar(pos.alvo, tick), ts, hora, "alvo"))   # ordem parada: sai no preco
+            return eventos
+        parcial_pts = pos.parcial_pts if pos.parcial_pts is not None else a.parcial_pts
+        if not pos.parcial_feita and _pontos(pos, preco) >= parcial_pts:
             metade = pos.contratos // 2
-            alvo = pos.entrada + a.parcial_pts if pos.lado == "C" else pos.entrada - a.parcial_pts
+            alvo = pos.entrada + parcial_pts if pos.lado == "C" else pos.entrada - parcial_pts
             if metade >= 1:
                 eventos.append(_evento_saida(estado, pos, metade, arredondar(alvo, tick), hora, "parcial", False))
                 pos.contratos -= metade
             pos.parcial_feita = True
             pos.stop = pos.entrada                          # zero a zero
-        if pos.parcial_feita:
+        if pos.parcial_feita and not pos.sem_arrasto:
             movel = pos.melhor - a.arrasto_pts if pos.lado == "C" else pos.melhor + a.arrasto_pts
             movel = arredondar(movel, tick)
             if (pos.lado == "C" and movel > pos.stop) or (pos.lado == "V" and movel < pos.stop):
@@ -502,21 +509,32 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     spread = contexto.get("spread")
     if spread is not None and spread >= a.spread_max_pts - 1e-9:
         return eventos                                      # spread aberto: falta volume, ele nao entra
-    sinal = ler_defesa(estado.ativo, fita, preco, niveis, p, mini) or sinal_perda or sinal_romp \
-        or ler_exaustao(estado.ativo, estado, fita, preco, p, mini, contexto.get("var"))
+    de_fora = "sinal" in contexto                           # setup de grafico: o sinal vem pronto e a fita nao decide a entrada
+    if de_fora:
+        sinal = contexto["sinal"]
+    else:
+        sinal = ler_defesa(estado.ativo, fita, preco, niveis, p, mini) or sinal_perda or sinal_romp \
+            or ler_exaustao(estado.ativo, estado, fita, preco, p, mini, contexto.get("var"))
     if sinal is None:
         return eventos
     lado = sinal["lado"]
     var = contexto.get("var")
-    if var is not None and ((var >= p.variacao_um_lado and lado == "C") or (var <= -p.variacao_um_lado and lado == "V")):
+    if not de_fora and var is not None and ((var >= p.variacao_um_lado and lado == "C") or (var <= -p.variacao_um_lado and lado == "V")):
         return eventos                                      # dia esticado: so opera contra o movimento
     rapido = dia_rapido(estado.ativo, fita)
     entrada = arredondar(preco + tick if lado == "C" else preco - tick, tick)
-    stop = calcular_stop(estado.ativo, lado, entrada, sinal["nivel"], sinal["tecnica"], rapido)
+    if sinal.get("stop_pts"):
+        stop = arredondar(entrada - sinal["stop_pts"] if lado == "C" else entrada + sinal["stop_pts"], tick)
+    else:
+        stop = calcular_stop(estado.ativo, lado, entrada, sinal["nivel"], sinal["tecnica"], rapido)
     n = max(1, int(lote))
+    alvo = None
+    if sinal.get("alvo_pts"):
+        alvo = arredondar(entrada + sinal["alvo_pts"] if lado == "C" else entrada - sinal["alvo_pts"], tick)
     estado.posicao = PosicaoF(lado=lado, contratos=n, entrada=entrada, stop=stop, hora=hora, tecnica=sinal["tecnica"],
                               nivel=sinal["nivel"], nome_nivel=sinal["nome_nivel"], contratos_iniciais=n, melhor=entrada,
-                              ts_entrada=ts)
+                              ts_entrada=ts, parcial_pts=sinal.get("parcial_pts"), alvo=alvo,
+                              sem_arrasto=bool(sinal.get("sem_arrasto")))
     estado.operacoes += 1
     estado.perdas.pop(sinal["nome_nivel"], None)
     if sinal["tecnica"] == "exaustão":                      # conta quantas vezes ja operou contra este mesmo extremo
