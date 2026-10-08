@@ -1077,7 +1077,7 @@ def test_lote_de_partida_vem_da_configuracao_do_douglas(tmp_path, monkeypatch):
     pos = r.estados["WDOFUT"].posicao
     assert pos and pos.contratos == 4 and est["regras"]["parametros"]["lote_hoje"] == 4
     aviso = next(a for a in est["avisos"] if "climax" in a)
-    assert "R$ 30 por negócio com 4 contratos" in aviso and "saiu em 1 dos 177 pregões" in aviso and "-R$ 693" in aviso
+    assert "NÃO se confirmou" in aviso and "PERDEU cerca de R$ 33 por negócio com 4 contratos" in aviso and "nenhuma ganha de 2021 a 2025" in aviso
     # lote absurdo no arquivo fica no teto da regra; sem a chave, o padrao (2)
     (tmp_path / "modo_robo.json").write_text(json.dumps({"lote_base": 50}))
     assert rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt5), setup="niveis").p.lote_base == 8

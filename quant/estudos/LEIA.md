@@ -46,3 +46,28 @@ O dia com as regras do Douglas (meta de R$ 1.000, perda de R$ 1.000, 3 perdas), 
 
 74 dos 177 pregoes nao tem nenhum sinal de manha. Ressalvas: 9 meses de dado (o MetaTrader so entrega 100 mil barras de
 1 minuto), metade do ganho em marco, t perto de 2 depois de olhar 1.200 configuracoes. A meta de 1% ao dia nao sai desta regra.
+
+## 08/10/2026, 18h32: prova fora da amostra (a calibracao NAO se confirmou)
+
+O MetaTrader so entregava 100 mil barras de 1 minuto (2026). Com o limite de barras subido para 1 milhao
+(`quant/saida/historia_longa.py`; `MaxBars` em `config/common.ini`, copia `common.ini.antes_do_historico_longo`) a serie
+WDO$D veio desde 08/10/2021: 699.276 barras, 1.248 pregoes, em `autopilot_historia_WDOSD_M2.csv` (o rotulo M2 e so o nome
+do arquivo; as barras sao de 1 minuto). `2026-10-08_climax_fora_da_amostra.py` roda a configuracao escolhida nos 1.071
+pregoes de antes de 26/01/2026, que a calibracao nunca viu.
+
+| Periodo | Negocios | Acerto | R$ por negocio (2 contratos) |
+|---|---|---|---|
+| 2021 (out a dez) | 89 | 49% | -45,50 |
+| 2022 | 316 | 60% | -4,70 |
+| 2023 | 301 | 55% | -18,20 |
+| 2024 | 239 | 56% | -11,50 |
+| 2025 | 257 | 51% | -29,20 |
+| **2021 a jan/2026 (fora da amostra)** | **1.221** | **56%** | **-16,50 (t -3,6)** |
+| 2026 (a amostra da calibracao) | 183 | 68% | +20,30 |
+
+Das 108 configuracoes de uma grade reduzida (tranco 4 a 8, volume 3 a 5 vezes, alvo 50% a 100%, stop 8 a 15), 107 ganham
+em 2026 e NENHUMA ganha no conjunto 2021-2025, nem em 3 dos 5 anos. Volume maior, que em 2026 melhorava, piora nos outros
+anos. Com as regras do dia e lote 4: -R$ 34,70 por pregao, pior dia -R$ 1.289. A tarde tambem perde (-R$ 24,70 por negocio).
+
+Conclusao: o efeito do climax em 2026 nao e uma vantagem; foi o ano. Nenhuma regra testada ate aqui ganha depois de
+custo. Licao de processo: prova em historico longo ANTES de apresentar calibracao ou mexer no lote.

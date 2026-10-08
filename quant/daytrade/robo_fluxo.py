@@ -65,10 +65,12 @@ NIVEIS = {"tempo": 6, "tol": 1.0, "fura": 2.0, "rejeita": 1.5, "folga": 1.0, "st
 CLIMAX = {"tranco": 5.0, "vol": 3.0, "janela": 30, "minimo": 10, "stop_fixo": 10.0, "alvo_devolve": 0.8, "tempo_max": 20,
           "atraso_max_s": 8, "medir_tranco": 3.0, "medir_vol": 2.5}
 CLIMAX_ESPERA_S = 10.0            # o sinal de climax vale por estes segundos: spread aberto logo depois do tranco fecha em seguida
-# o que a calibracao mediu em 2026 com as regras do dia, por contrato (quant/estudos/LEIA.md): serve so para o texto da tela
-CLIMAX_HISTORICO = {"rs_por_negocio_e_contrato": 7.6, "rs_por_pregao_e_contrato": 6.65, "pregoes": 177,
-                    "rs_por_negocio": {2: 15.1, 4: 30.3, 8: 55.7}, "rs_por_pregao": {2: 13.3, 4: 26.7, 8: 48.8},
-                    "dias_com_a_meta": {2: 0, 4: 1, 8: 5}, "pior_dia": {2: -346, 4: -693, 8: -1386}}
+# PROVA FORA DA AMOSTRA (08/10/2026, 18h32): com as barras de 1 minuto desde out/2021 (quant/estudos/LEIA.md) a mesma
+# configuracao, nos 1.071 pregoes que a calibracao nunca viu, acertou 56% e PERDEU R$ 16,50 por negocio com 2 contratos,
+# em todos os anos de 2021 a 2025. Das 108 configuracoes da grade, 107 ganham em 2026 e NENHUMA ganha em 2021-2025.
+# A calibracao nao se sustenta: o climax segue no ar so para gerar operacoes e medir com a fita, no lote minimo.
+CLIMAX_PROVA = {"pregoes": 1071, "de": "outubro de 2021", "ate": "janeiro de 2026", "acerto": 56, "rs_por_negocio_e_contrato": -8.25,
+                "acerto_2026": 68, "rs_por_negocio_e_contrato_2026": 10.15, "configuracoes": 108, "ganham_2021_2025": 0}
 QUEM_OPERA = {"climax_opera": True, "niveis_opera": False}
 ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
 SETUPS_DE_GRAFICO = ("phicube", "niveis")
@@ -109,19 +111,13 @@ def _relogio_brt(agora):
     return int(datetime(agora.year, agora.month, agora.day, agora.hour, agora.minute, agora.second, tzinfo=timezone.utc).timestamp())
 
 
-def _historico_do_climax(lote, capital):
-    """Frase da tela: o que a calibracao mediu, levado ao lote de partida de hoje."""
-    h = CLIMAX_HISTORICO
-    por_negocio = h["rs_por_negocio"].get(lote, h["rs_por_negocio_e_contrato"] * lote)      # medido nos lotes 2, 4 e 8; nos outros, proporcional
-    por_pregao = h["rs_por_pregao"].get(lote, h["rs_por_pregao_e_contrato"] * lote)
-    texto = (f"cerca de R$ {round(por_negocio)} por negócio com {lote} contratos, perto de R$ {round(por_pregao)} por pregão "
-             f"({str(round(por_pregao / capital * 100, 3)).replace('.', ',')}% do capital).")
-    dias = h["dias_com_a_meta"].get(lote)
-    if dias is not None:
-        texto += (f" A meta de 1% ao dia saiu em {dias} dos {h['pregoes']} pregões com este lote" if dias else
-                  f" A meta de 1% ao dia não saiu em nenhum dos {h['pregoes']} pregões com este lote")
-        texto += f"; o pior dia foi de -R$ {abs(h['pior_dia'][lote]):,}.".replace(",", ".")
-    return texto
+def _historico_do_climax(lote, capital=None):
+    """Frase da tela: o que o historico diz desta configuracao, levado ao lote de partida de hoje."""
+    h = CLIMAX_PROVA
+    return (f"No teste em {h['pregoes']:,} pregões de {h['de']} a {h['ate']}, que a calibração não viu, esta configuração acertou {h['acerto']}% ".replace(",", ".", 1)
+            + f"e PERDEU cerca de R$ {abs(round(h['rs_por_negocio_e_contrato'] * lote + 1e-9))} por negócio com {lote} contratos, em todos os anos. "
+            f"Só 2026 deu positivo (acerto de {h['acerto_2026']}%, cerca de R$ {round(h['rs_por_negocio_e_contrato_2026'] * lote)} por negócio): "
+            f"de {h['configuracoes']} configurações testadas, nenhuma ganha de 2021 a 2025.")
 
 
 def hora_da_fita(seg):
@@ -163,16 +159,14 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
             "Opera o teste de nível; o climax de volume é só medido." if niveis_opera else "As duas leituras estão só sendo medidas: o robô não entra.")
     return [
         "Só mini-dólar, em simulação. " + quem + " Revisão de 08/10/2026: em 888 pregões o teste de nível perdeu o custo da operação "
-        "(cerca de R$ 23 por negócio) e nenhum filtro testado mudou isso; a única leitura que mostrou algo foi o climax de volume.",
+        "(cerca de R$ 23 por negócio) e nenhum filtro testado mudou isso. O climax de volume ganhou em 2026, mas perdeu nos cinco anos "
+        "anteriores: nenhuma das regras testadas ganha depois de custo. O robô opera para gerar operações e medir com a fita.",
         f"CLIMAX DE VOLUME (tape reading na barra): um minuto anda {ef._n(x['tranco'])} pontos ou mais, do abre ao fecha, com volume de "
         f"{ef._n(x['vol'])} vezes ou mais a média dos {x['janela']} minutos anteriores. É gente demais correndo para o mesmo lado: o preço "
         "tende a devolver parte do tranco. O robô entra CONTRA o tranco, na abertura do minuto seguinte.",
         f"Climax, saída: alvo quando o preço devolve {x['alvo_devolve']:.0%} do tranco; stop a {ef._n(x['stop_fixo'])} pontos da entrada; "
-        f"se em {x['tempo_max']} minutos não fez nem um nem outro, sai a mercado. Calibrado em 08/10/2026 sobre 177 pregões de 2026 "
-        f"(manhã): 164 negócios, acertou 2 em cada 3 e deixou cerca de "
-        f"{ef._rs(round(CLIMAX_HISTORICO['rs_por_negocio'].get(p.lote_base, CLIMAX_HISTORICO['rs_por_negocio_e_contrato'] * p.lote_base)))} "
-        f"por negócio com {p.lote_base} contratos; perto de 1 entrada por manhã, e 4 em cada 10 manhãs sem nenhuma. "
-        "São 9 meses de dado e metade do ganho veio de um mês só: é aposta em teste.",
+        f"se em {x['tempo_max']} minutos não fez nem um nem outro, sai a mercado. Perto de 1 entrada por manhã, e 3 a 4 em cada 10 "
+        "manhãs sem nenhuma. " + _historico_do_climax(p.lote_base),
         f"Tranco entre {ef._n(x['medir_tranco'])} e {ef._n(x['tranco'])} pontos, ou volume entre {ef._n(x['medir_vol'])} e {ef._n(x['vol'])} vezes: "
         "o robô não entra, só guarda o sinal para medir (no histórico esses perdem o custo).",
         "TESTE DE NÍVEL (" + ("opera" if niveis_opera else "só medido, não opera") + "): níveis de ontem (ajuste, máxima, mínima, fechamento), "
@@ -892,9 +886,8 @@ class RoboFluxo:
                       + ("Por isso ele deixou de operar e passou a ser só medido, com a leitura da fita em cada sinal."
                          if not self.niveis_opera else "Ele segue operando por escolha sua."),
                       "Quem opera é o climax de volume: tranco de 1 minuto de 5 pontos ou mais com volume de 3 vezes a média ou mais, "
-                      "entrada contra o tranco. Calibrado em 08/10/2026: no histórico de 2026 (177 manhãs) acertou 2 em cada 3 e deixou "
-                      + _historico_do_climax(p.lote_base, p.capital) +
-                      " ATENÇÃO: 9 meses de dado, metade do ganho num mês só; é aposta em teste. Não é para dinheiro real.",
+                      "entrada contra o tranco. ATENÇÃO: a calibração de 08/10/2026 NÃO se confirmou. " + _historico_do_climax(p.lote_base)
+                      + " Está no ar para gerar operações e medir com a leitura da fita, não porque ganha. Não é para dinheiro real.",
                       "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         elif self.setup == "phicube":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
