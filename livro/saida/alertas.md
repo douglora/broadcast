@@ -2,21 +2,20 @@ ALERTAS · intradia
 
 Nenhum alerta novo neste slot.
 Info (só linha no Fechamento):
-· F01 Real sobe: USD/BRL 5,0076 (-4,1% em 5 sessões) (parcial, intradia)
-· E05 PETR4 · Ibovespa retoma alta após correção com Petrobras; dólar ronda R$ 5 após rali eleitoral
-· E05 GOOGL · Alphabet Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Alphabet Inc. Securities Lawsuit - Contact SueWallSt
-· E05 BRENT · Petróleo supera US$ 100 após ataques na Arábia Saudita e pressiona Wall Street
-· E05 GOOGL · Alphabet’s Google Cloud Strategy Is Entering A New Phase (NASDAQ:GOOG)
-· E05 USDBRL · Real sobe 10,19% frente ao dólar; 3ª maior valorização desde 2010
-· E05 AVGO · Broadcom Is Financing Its AI Moat (NASDAQ:AVGO)
-· E05 TSM · TSMC Stock: Global Chip Demand Shows No Signs Of Slowing (NYSE:TSM)
-· E05 UGPA3 · Após alta de 70%, Morgan Stanley rebaixa Vibra e Ultrapar: “precificadas à perfeição”
-· E05 GOOGL · Alphabet Stocks Drop Although TPU Sales Escape Google's Cloud
-· E05 MU · Micron’s Quarterly NAND Revenue Jumped 526%. Here’s Where the Stock Could Go by 2031
-· E05 MRVL · Marvell to Showcase Open AI Infrastructure Solutions at OCP Global Summit 2026
-· E05 CVX · Chevron Stocks Slip as Storm Evacuations Test Gulf Output
-· E05 MRVL · Marvell Stock Just Got a Stunning Price Target Hike on the AI Boom
-· E05 NVDA · Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul
+· E05 GOOGL · Google Cloud introduces Gemini agent for work as AI race heats up
+· E05 ITUB4 · PetroRecôncavo vê produção de gás cair pelo 5º mês seguido e acende alerta no Itaú BBA
+· E05 PETR4 · Tempo real: Ibovespa avança aos 207 mil pontos com Petrobras (PETR4); dólar recua
+· E05 BRENT · Petróleo e urnas pressionam Tesouro Direto hoje: IPCA+ longos e Prefixado 2032 avançam forte
+· E05 AMZN · Amazon Says AWS Commits Up To $50 Million In Cloud Credits For Genesis Mission Expansion
+· E05 USDBRL · BC passa a exigir detalhamento de operações com ativos virtuais com instituições do exterior no mercado de câmbio
+· E05 BRENT · Dólar sobe a R$ 5,02 e Bolsa reage, com eleições e petróleo no dia
+· E05 CVX · Is Hess Midstream (HESM) Undervalued Following Chevron's Deal And Revised Bakken Contracts?
+· E05 SMAL11 · O rali das small caps
+· E05 NVDA · Nvidia: The Top AI Stock Is On Sale (NASDAQ:NVDA)
+· E05 BRENT · Dow Falls Nearly 200 Points, S&P 500 And Nasdaq In Red As Treasury Yields Stay Near 24-Year Highs, Oil Prices Jump
+· E05 PETR4 · Ibovespa Hoje Ao Vivo: Bolsa sobe com PETR4 e testa os 206 mil pontos
+· E05 JPM · JPMorgan's Shares Before Q3 Earnings: Buy Now or Wait for Results?
+· E05 TSM · TSMC Sales Soar 50%. The Stock Is Falling Anyway
 
 
 Alertas do dia (todos, com status):
@@ -27,7 +26,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Comp
 · entregue  E05 UST — UST · Treasury yields rise as Fed's Waller says more hikes needed, investors awa
 · entregue  E05 MRVL — MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
-· linha     F01 USDBRL — Real sobe: USD/BRL 5,0076 (-4,1% em 5 sessões) (parcial, intradia)
+· linha     F01 USDBRL — Real sobe: USD/BRL 5,0064 (-4,1% em 5 sessões) (parcial, intradia)
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0195 (-3,8% em 5 sessões) (parcial, intradia)
-· linha     F03 BRENT — Brent sobe a US$ 104,64 (+4,4% no dia) (parcial, intradia)
-· (+54 notícias só manchete, em noticias.md)
+· linha     F03 BRENT — Brent sobe a US$ 105,44 (+5,2% no dia) (parcial, intradia)
+· (+68 notícias só manchete, em noticias.md)

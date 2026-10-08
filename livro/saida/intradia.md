@@ -1,1 +1,1 @@
-11h22 · sem alerta novo · coleta 11h22 OK
+12h22 · sem alerta novo · coleta 12h22 OK

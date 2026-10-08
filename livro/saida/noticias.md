@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 11h22
+NOTÍCIAS E FATOS · 08/10 12h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 444 veículo fora da lista, 52 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 452 veículo fora da lista, 51 sem ativo, 12 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -157,8 +157,22 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (46)
+## OUTRAS NOTÍCIAS (só manchete) (60)
 
+· GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (Reuters) https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/
+· ITUB4 PetroRecôncavo vê produção de gás cair pelo 5º mês seguido e acende alerta no Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroreconcavo-ve-producao-de-gas-cair-pelo-5-mes-seguido-e-acende-alerta-no-itau-bba/
+· PETR4 Tempo real: Ibovespa avança aos 207 mil pontos com Petrobras (PETR4); dólar recua (Money Times) https://www.moneytimes.com.br/tempo-real-8-10-26-apsa-lils/
+· BRENT Petróleo e urnas pressionam Tesouro Direto hoje: IPCA+ longos e Prefixado 2032 avançam forte (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroleo-e-urnas-pressionam-tesouro-direto-hoje-ipca-longos-e-prefixado-2032-avancam-forte/
+· AMZN Amazon Says AWS Commits Up To $50 Million In Cloud Credits For Genesis Mission Expansion (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45U1Y2:0-amazon-says-aws-commits-up-to-50-million-in-cloud-credits-for-genesis-mission-expansion/
+· USDBRL BC passa a exigir detalhamento de operações com ativos virtuais com instituições do exterior no mercado de câmbio (Valor Economico) https://valor.globo.com/financas/criptomoedas/noticia/2026/10/08/bc-passa-a-exigir-detalhamento-de-operaes-com-ativos-virtuais-com-instituies-do-exterior-no-mercado-de-cmbio.ghtml
+· BRENT Dólar sobe a R$ 5,02 e Bolsa reage, com eleições e petróleo no dia (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/08/dolar-bolsa-abre-hoje-7-de-outubro-de-2026.ghtm
+· CVX Is Hess Midstream (HESM) Undervalued Following Chevron's Deal And Revised Bakken Contracts? (Yahoo Finance) https://sg.finance.yahoo.com/news/hess-midstream-hesm-undervalued-following-141016926.html
+· SMAL11 O rali das small caps (Brazil Journal) https://braziljournal.com/o-rali-das-small-caps/
+· NVDA Nvidia: The Top AI Stock Is On Sale (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952602-nvidia-the-top-ai-stock-is-on-sale
+· BRENT Dow Falls Nearly 200 Points, S&P 500 And Nasdaq In Red As Treasury Yields Stay Near 24-Year Highs, Oil Prices Jump (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:63080c1ee094b:0-dow-falls-nearly-200-points-s-p-500-and-nasdaq-in-red-as-treasury-yields-stay-near-24-year-highs-oil-prices-jump/
+· PETR4 Ibovespa Hoje Ao Vivo: Bolsa sobe com PETR4 e testa os 206 mil pontos (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/
+· JPM JPMorgan's Shares Before Q3 Earnings: Buy Now or Wait for Results? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgans-shares-q3-earnings-buy-133900057.html
+· TSM TSMC Sales Soar 50%. The Stock Is Falling Anyway (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e12db86a1094b:0-tsmc-sales-soar-50-the-stock-is-falling-anyway/
 · PETR4 Ibovespa retoma alta após correção com Petrobras; dólar ronda R$ 5 após rali eleitoral (Exame) https://exame.com/invest/mercados/ibovespa-retoma-alta-apos-correcao-com-petrobras-dolar-ronda-r-5-apos-rali-eleitoral/
 · GOOGL Alphabet Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Alphabet Inc. Securities Lawsuit - Contact SueWallSt (PR Newswire) https://www.prnewswire.com/news-releases/alphabet-shareholder-alert-investors-with-losses-may-seek-to-lead-the-class-action-in-alphabet-inc-securities-lawsuit---contact-suewallst-302902213.html
 · BRENT Petróleo supera US$ 100 após ataques na Arábia Saudita e pressiona Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-acima-dos-us-105-e-ataques-na-arabia-saudita/
