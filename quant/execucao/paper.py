@@ -137,11 +137,20 @@ def normalizar_negocios(negocios):
         log(f"negocios sem as colunas {faltando}; nada a casar")
         return pd.DataFrame(columns=COLUNAS_NEGOCIOS)
     from quant.dados.arquivar_b3 import numero_br
+
+    def numero(x):
+        # Numero que ja e numero NAO passa pelo leitor de texto brasileiro: 5.142 (float, preco medio
+        # com tres casas) viraria o texto "5.142", que `numero_br` le como cinco mil cento e quarenta
+        # e dois. A fita do robo ao vivo e a do MetaTrader chegam em float; so o CSV da B3 vem em texto.
+        if isinstance(x, (int, float, np.integer, np.floating)) and not isinstance(x, bool):
+            return float(x)
+        return numero_br(x)
+
     out = pd.DataFrame({
         "ticker": d[cols["ticker"]].astype(str).str.strip().str.upper(),
         "hora": d[cols["hora"]].map(_hora),
-        "preco": d[cols["preco"]].map(numero_br),
-        "quantidade": d[cols["quantidade"]].map(numero_br),
+        "preco": d[cols["preco"]].map(numero),
+        "quantidade": d[cols["quantidade"]].map(numero),
     })
     if "UpdActn" in d.columns:                    # 'delete' = negocio cancelado
         out = out[~d["UpdActn"].astype(str).str.lower().str.contains("del").values]

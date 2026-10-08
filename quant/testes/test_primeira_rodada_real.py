@@ -193,3 +193,12 @@ def test_fases_do_pregao():
     f = lambda h, m: robo_vivo.fase_do_relogio(datetime(2026, 10, 8, h, m, tzinfo=tz), "10:20")   # noqa: E731
     assert [f(9, 50), f(10, 5), f(10, 20), f(16, 59), f(17, 0)] == [
         "aguardando_abertura", "aguardando_envio", "operando", "operando", "encerrado"]
+
+
+def test_preco_em_float_com_tres_casas_nao_vira_milhar():
+    # 5.142 em float e cinco reais e catorze; em TEXTO brasileiro "5.142" seria cinco mil.
+    d = paper.normalizar_negocios(pd.DataFrame([
+        {"ticker": "GMAT3", "hora": "10:21:00", "preco": 5.142, "quantidade": 1500.0},
+        {"ticker": "GMAT3", "hora": "10:21:02", "preco": "5,15", "quantidade": "1.500"}]))
+    assert d["preco"].tolist() == pytest.approx([5.142, 5.15])
+    assert d["quantidade"].tolist() == [1500.0, 1500.0]
