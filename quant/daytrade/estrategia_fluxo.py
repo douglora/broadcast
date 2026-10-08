@@ -122,6 +122,8 @@ class ParamFluxo:
     mult_defesa: float = 1.5               # [NOSSO]
     janela_confirma_s: int = 15            # [NOSSO]
     fracao_confirma: float = 0.60          # [NOSSO]
+    mult_confirma: float = 0.5             # [NOSSO] a confirmacao so vale com pelo menos metade do volume normal de 15 s ...
+    negocios_confirma: int = 3             # [NOSSO] ... e 3 negocios: um negocio sozinho nao e "o lado que passou a agredir"
     validade_perda_s: int = 1200           # [NOSSO] quanto tempo depois da quebra ainda vale o reteste
     firmeza_perda_s: int = 20              # [NOSSO] a "primeira quebra" que ele nao vende: os primeiros segundos
     mult_perda: float = 1.5                # [NOSSO] agressao que confirma a perda sem reteste
@@ -197,7 +199,30 @@ def dia_rapido(ativo, fita):
     return amp is not None and amp >= ATIVOS[ativo].rapido_pts
 
 
-def ler_defesa(ativo, fita, preco, niveis, p: ParamFluxo):
+def fita_viva(mini, fita):
+    """A fita do mini, se existe e negociou no ultimo meio minuto; senao a propria fita lida."""
+    if mini is not None and mini.linhas and mini.relogio() - mini.ultimo_seg <= 30:
+        return mini
+    return fita
+
+
+def confirmacao(fita, p: ParamFluxo):
+    """Quem agride AGORA (ultimos 15 s do relogio do pregao) e se a amostra basta para dizer alguma coisa.
+
+    A leitura de instituicao (quanto bateram no nivel, com que lote) vem do contrato cheio, como ele faz. Mas
+    em 2026 o dolar cheio negocia pouco: em 08/10 as tres primeiras entradas do robo "confirmaram" com zero ou
+    um negocio do cheio em 15 s. Por isso a confirmacao e lida na fita do mini quando ela existe [NOSSO].
+    """
+    if fita is None or not fita.linhas:
+        return {"vale": False, "fracao_compra": None, "total": 0.0, "negocios": 0, "tipico": None}
+    conf = fita.agressao(p.janela_confirma_s)
+    tipico = fita.volume_tipico(p.janela_confirma_s)
+    vale = conf["fracao_compra"] is not None and tipico is not None \
+        and conf["total"] >= p.mult_confirma * tipico and conf["negocios"] >= p.negocios_confirma
+    return dict(conf, tipico=tipico, vale=vale)
+
+
+def ler_defesa(ativo, fita, preco, niveis, p: ParamFluxo, fita_conf=None):
     """DEFESA de um nivel. Devolve o sinal ou None.
 
     Na janela (15 min) o preco foi ao nivel pelo menos 3 vezes, bateram nele com volume e ele
@@ -208,8 +233,8 @@ def ler_defesa(ativo, fita, preco, niveis, p: ParamFluxo):
         return None
     a, tick = ATIVOS[ativo], CONTRATOS[ativo]["tick"]
     tipico = fita.volume_tipico(p.janela_tipico_s)
-    conf = fita.agressao(p.janela_confirma_s)
-    if tipico is None or conf["fracao_compra"] is None:
+    conf = confirmacao(fita_viva(fita_conf, fita), p)
+    if tipico is None or not conf["vale"]:
         return None
     zona, afasta = max(1, round(a.zona_pts / tick)), max(1, round(a.afasta_pts / tick))
     for nome, nivel in niveis:
@@ -233,7 +258,7 @@ def ler_defesa(ativo, fita, preco, niveis, p: ParamFluxo):
     return None
 
 
-def ler_perda(ativo, estado: EstadoF, fita, ts, preco, niveis, p: ParamFluxo):
+def ler_perda(ativo, estado: EstadoF, fita, ts, preco, niveis, p: ParamFluxo, fita_conf=None):
     """PERDA de nivel, em dois tempos. Roda em todo tique porque guarda de que lado o preco esta.
 
     1) o preco passa para o outro lado do nivel com folga: o nivel esta PERDIDO, mas nao entra
@@ -245,8 +270,9 @@ def ler_perda(ativo, estado: EstadoF, fita, ts, preco, niveis, p: ParamFluxo):
     """
     a, tick = ATIVOS[ativo], CONTRATOS[ativo]["tick"]
     tem_fita = fita is not None and bool(fita.linhas)
-    conf = fita.agressao(p.janela_confirma_s) if tem_fita else None
-    tipico = fita.volume_tipico(p.janela_confirma_s) if tem_fita else None
+    conf = confirmacao(fita_viva(fita_conf, fita), p) if tem_fita else None
+    tipico = conf["tipico"] if conf else None
+    cheio = fita.agressao(p.janela_confirma_s) if tem_fita else None      # lote de instituicao: sempre da fita lida (o cheio)
     sinal = None
     for nome, nivel in niveis:
         if nome not in FIXOS:
@@ -273,26 +299,26 @@ def ler_perda(ativo, estado: EstadoF, fita, ts, preco, niveis, p: ParamFluxo):
         alem = -dist if perda["lado"] == "V" else dist           # quanto o preco esta alem do nivel, a favor da perda
         if alem <= a.zona_pts + 1e-9 and ts - perda["ts"] >= p.firmeza_perda_s:
             perda["retestou"] = True                              # voltou a encostar no nivel perdido
-        if sinal is not None or conf is None or conf["fracao_compra"] is None:
+        if sinal is not None or conf is None or not conf["vale"]:
             continue
         if not (a.gatilho_pts - 1e-9 <= alem <= a.perseguir_pts + 1e-9) or ts - perda["ts"] < p.firmeza_perda_s:
             continue
         favor = (1.0 - conf["fracao_compra"]) if perda["lado"] == "V" else conf["fracao_compra"]
-        grande = conf["venda_grande"] if perda["lado"] == "V" else conf["compra_grande"]
-        confirmacao = None
+        grande = cheio["venda_grande"] if perda["lado"] == "V" else cheio["compra_grande"]
+        como = None
         if perda["retestou"] and favor >= p.fracao_confirma:
-            confirmacao = "reteste"
+            como = "reteste"
         elif tipico is not None and conf["total"] >= p.mult_perda * tipico and favor >= p.fracao_perda \
                 and (grande > 0 or not (a.sem_lote_de_robo and fita.separa_tamanho)):
-            confirmacao = "agressão"
-        if confirmacao:
+            como = "agressão"
+        if como:
             sinal = {"tecnica": "perda de nível", "lado": perda["lado"], "nivel": nivel, "nome_nivel": nome,
-                     "medidas": {"confirmacao": confirmacao, "fracao_a_favor": round(favor, 3), "agredido_15s": conf["total"],
+                     "medidas": {"confirmacao": como, "fracao_a_favor": round(favor, 3), "agredido_15s": conf["total"],
                                  "tipico_15s": tipico, "lote_grande_a_favor": grande}}
     return sinal
 
 
-def ler_rompimento(ativo, estado: EstadoF, fita, preco, niveis, p: ParamFluxo, contexto=None):
+def ler_rompimento(ativo, estado: EstadoF, fita, preco, niveis, p: ParamFluxo, contexto=None, fita_conf=None):
     """ROMPIMENTO da maxima ou da minima do dia depois de varias batidas. Roda em todo tique.
 
     Conta quantas vezes o preco foi ao extremo e voltou. Quando o extremo e rompido com folga:
@@ -302,8 +328,8 @@ def ler_rompimento(ativo, estado: EstadoF, fita, preco, niveis, p: ParamFluxo, c
     a, tick = ATIVOS[ativo], CONTRATOS[ativo]["tick"]
     de = dict(niveis)
     tem_fita = fita is not None and bool(fita.linhas)
-    conf = fita.agressao(p.janela_confirma_s) if tem_fita else None
-    tipico = fita.volume_tipico(p.janela_confirma_s) if tem_fita else None
+    conf = confirmacao(fita_viva(fita_conf, fita), p) if tem_fita else None
+    tipico = conf["tipico"] if conf else None
     medio = (contexto or {}).get("medio") or de.get("preço médio do dia")
     sinal = None
     for chave, sentido in (("max", 1.0), ("min", -1.0)):
@@ -316,7 +342,7 @@ def ler_rompimento(ativo, estado: EstadoF, fita, preco, niveis, p: ParamFluxo, c
         alem = (preco - e["nivel"]) * sentido
         if alem >= a.gatilho_pts - 1e-9:                          # rompeu
             lado = "C" if chave == "max" else "V"
-            favor = None if conf is None or conf["fracao_compra"] is None else \
+            favor = None if conf is None or not conf["vale"] else \
                 (conf["fracao_compra"] if lado == "C" else 1.0 - conf["fracao_compra"])
             do_lado_do_dia = medio is None or (preco > medio if lado == "C" else preco < medio)
             if sinal is None and e["testes"] >= p.testes_rompimento and alem <= a.perseguir_pts + 1e-9 \
@@ -349,16 +375,16 @@ def ler_exaustao(ativo, estado: EstadoF, fita, preco, p: ParamFluxo, fita_volume
     if fita is None or not fita.linhas:
         return None
     a, tick = ATIVOS[ativo], CONTRATOS[ativo]["tick"]
-    corr = fita.corrida(p.janela_esticada_s)
-    conf = fita.agressao(p.janela_confirma_s)
-    if corr is None or conf["fracao_compra"] is None:
+    vol = fita_viva(fita_volume, fita)
+    corr = vol.corrida(p.janela_esticada_s)                 # a corrida e a confirmacao saem da fita mais negociada
+    conf = confirmacao(vol, p)
+    if corr is None or not conf["vale"]:
         return None
-    vol = fita_volume if fita_volume is not None and fita_volume.linhas else fita
     for sentido, lado_op, chave_vol in (("alta", "V", "compra"), ("baixa", "C", "venda")):
         c = corr[sentido]
         if var is None or (var < p.variacao_contra if sentido == "alta" else var > -p.variacao_contra):
             continue
-        if c["tamanho"] < a.esticada_pts - 1e-9 or fita.ultimo_seg - c["seg_extremo"] < p.sem_extremo_novo_s:
+        if c["tamanho"] < a.esticada_pts - 1e-9 or vol.relogio() - c["seg_extremo"] < p.sem_extremo_novo_s:
             continue
         recuo = (c["extremo"] - preco) if sentido == "alta" else (preco - c["extremo"])
         if not (a.gatilho_pts - 1e-9 <= recuo <= a.perseguir_pts + 1e-9):
@@ -430,8 +456,9 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     eventos = []
     pos = estado.posicao
     # os dois leitores que guardam memoria rodam sempre, com ou sem posicao
-    sinal_perda = ler_perda(estado.ativo, estado, fita, ts, preco, niveis, p)
-    sinal_romp = ler_rompimento(estado.ativo, estado, fita, preco, niveis, p, contexto)
+    mini = contexto.get("fita_volume")                      # a fita do mini: confirmacao e volume por preco
+    sinal_perda = ler_perda(estado.ativo, estado, fita, ts, preco, niveis, p, mini)
+    sinal_romp = ler_rompimento(estado.ativo, estado, fita, preco, niveis, p, contexto, mini)
     if pos is not None:
         a_mercado = preco - tick if pos.lado == "C" else preco + tick
         if hora[:5] >= p.hora_zerar:
@@ -475,8 +502,8 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     spread = contexto.get("spread")
     if spread is not None and spread >= a.spread_max_pts - 1e-9:
         return eventos                                      # spread aberto: falta volume, ele nao entra
-    sinal = ler_defesa(estado.ativo, fita, preco, niveis, p) or sinal_perda or sinal_romp \
-        or ler_exaustao(estado.ativo, estado, fita, preco, p, contexto.get("fita_volume"), contexto.get("var"))
+    sinal = ler_defesa(estado.ativo, fita, preco, niveis, p, mini) or sinal_perda or sinal_romp \
+        or ler_exaustao(estado.ativo, estado, fita, preco, p, mini, contexto.get("var"))
     if sinal is None:
         return eventos
     lado = sinal["lado"]

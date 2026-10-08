@@ -219,6 +219,9 @@ class RoboFluxo:
                     n += 1
         if n:
             self.ultima_fita = agora
+        relogio = max((f.ultimo_seg for f in list(self.fitas.values()) + list(self.fitas_mini.values())), default=0)
+        for f in list(self.fitas.values()) + list(self.fitas_mini.values()):
+            f.agora = relogio                              # o "agora" do pregao, pelo contrato que negociou por ultimo
         return n
 
     def fita_de(self, a):

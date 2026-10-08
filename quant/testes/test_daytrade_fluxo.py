@@ -545,3 +545,39 @@ def test_nivel_testado_demais_nao_e_defesa():
     _por(g, T0 - 2, 5031.0, 70, 20)
     assert g.testes(5030.0, "compra", 900, zona_ticks=1, afasta_ticks=3) == 6
     assert ef.ler_defesa("WDOFUT", g, 5031.0, AJUSTE, p) is None
+
+
+def test_confirmacao_usa_o_relogio_do_pregao_e_pede_amostra():
+    p = ef.ParamFluxo()
+    # contrato que negocia pouco: o ultimo negocio foi ha 40 s. Sem o relogio do pregao, "os ultimos 15 s" seriam os dele
+    cheio = fx.Fita("DOLX26", 0.5)
+    _fita_de_fundo(cheio, T0)
+    _por(cheio, T0 - 40, 5031.0, 80, 0)
+    assert cheio.agressao(15)["compra"] == 80.0                    # ancorado no ultimo negocio do proprio simbolo
+    cheio.agora = T0                                               # o robo acerta o relogio pelo contrato que negociou por ultimo
+    assert cheio.relogio() == T0 and cheio.agressao(15)["total"] == 0.0
+    assert ef.confirmacao(cheio, p)["vale"] is False
+    # um negocio sozinho, mesmo grande, nao confirma: pede 3 negocios e metade do volume normal de 15 s
+    um = fx.Fita("DOLX26", 0.5)
+    _fita_de_fundo(um, T0)
+    um.acrescentar(fx.linha_da_fita(f"F;DOLX26;{T0};5031.0;500;0;0;1;500;0;300"))
+    assert ef.confirmacao(um, p)["vale"] is False and ef.confirmacao(um, p)["negocios"] == 1
+    pouco = fx.Fita("WDOX26", 0.5)
+    _fita_de_fundo(pouco, T0)
+    _por(pouco, T0, 5031.0, 60, 10)                                # 70 < metade de 200
+    assert ef.confirmacao(pouco, p)["vale"] is False
+    # o mini vivo confirma no lugar do cheio parado; mini parado ha mais de 30 s nao serve
+    mini = fx.Fita("WDOX26", 0.5)
+    _fita_de_fundo(mini, T0)
+    _por(mini, T0 - 3, 5031.0, 150, 20)
+    mini.agora = T0
+    assert ef.fita_viva(mini, cheio) is mini and ef.confirmacao(mini, p)["vale"] is True
+    mini.agora = T0 + 60
+    assert ef.fita_viva(mini, cheio) is cheio and ef.fita_viva(None, cheio) is cheio
+    # na defesa: a leitura do nivel vem do cheio, a confirmacao do mini. Mini com vendedor agredindo derruba a entrada
+    def_cheio = _cenario_defesa()
+    vendedor = fx.Fita("WDOX26", 0.5)
+    _fita_de_fundo(vendedor, T0)
+    _por(vendedor, T0 - 2, 5031.0, 20, 300)
+    assert ef.ler_defesa("WDOFUT", def_cheio, 5031.0, AJUSTE, p) is not None
+    assert ef.ler_defesa("WDOFUT", def_cheio, 5031.0, AJUSTE, p, vendedor) is None

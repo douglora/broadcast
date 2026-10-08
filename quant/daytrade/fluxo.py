@@ -100,6 +100,12 @@ class Fita:
         # (o lote de 5 e de robo) e os de 50 ou mais ficam marcados como lote de instituicao.
         self.sem_lote_de_robo = bool(sem_lote_de_robo)
         self.separa_tamanho = False           # vira True quando chega a primeira linha com os campos de tamanho
+        # o "agora" do pregao no relogio da fita, que o robo acerta a cada ciclo pelo simbolo mais negociado.
+        # Sem isso, num contrato que negocia pouco "os ultimos 15 segundos" seriam os 15 antes do ultimo negocio.
+        self.agora = 0
+
+    def relogio(self):
+        return max(self.ultimo_seg, int(self.agora or 0))
 
     def acrescentar(self, linha):
         if linha is None or linha["simbolo"] != self.simbolo:
@@ -117,7 +123,7 @@ class Fita:
             self.linhas.popleft()
 
     def _janela(self, segundos, ate=None):
-        ate = self.ultimo_seg if ate is None else int(ate)
+        ate = self.relogio() if ate is None else int(ate)
         ini = ate - int(segundos)
         return [x for x in self.linhas if ini < x["seg"] <= ate]
 
@@ -153,7 +159,7 @@ class Fita:
         e de hora para hora; a mediana das ultimas janelas e a referencia que acompanha o proprio dia.
         Devolve None enquanto nao houver pelo menos 5 janelas com negocio.
         """
-        ate = self.ultimo_seg if ate is None else int(ate)
+        ate = self.relogio() if ate is None else int(ate)
         vals = []
         for k in range(1, int(janelas) + 1):
             a = self.agressao(segundos, ate - k * int(segundos))
@@ -167,7 +173,7 @@ class Fita:
     def amplitude_tipica(self, segundos=60, janelas=15, ate=None):
         """Mediana do vai-e-vem (maximo menos minimo) em janelas seguidas: a "frequencia" do mercado hoje.
         Ele calibra o tamanho do stop por isso: dia que anda muito pede stop mais longo. None sem 5 janelas."""
-        ate = self.ultimo_seg if ate is None else int(ate)
+        ate = self.relogio() if ate is None else int(ate)
         vals = []
         for k in range(int(janelas)):
             a = self.agressao(segundos, ate - k * int(segundos))
