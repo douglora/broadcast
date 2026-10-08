@@ -187,11 +187,30 @@ def fechar(dia=None, com_a_fita_do_robo=False):
     return registro is not None
 
 
+ARQ_MODO = os.path.join(DIR_SAIDA, "modo_robo.json")
+
+
+def modo():
+    """Qual robo esta ligado: "fatores" (carteira de acoes, o padrao) ou "daytrade" (WIN e WDO).
+
+    Em 08/10/2026 o Douglas trocou a estrategia para day trade em mini-indice e mini-dolar. O
+    robo de fatores nao foi apagado: fica pausado, e volta trocando este arquivo.
+    """
+    m = ler_json(ARQ_MODO, padrao=None)
+    return str((m or {}).get("robo") or "fatores")
+
+
 def dia():
     """O dia inteiro. Sai sozinho em fim de semana e feriado da B3."""
     hoje = agora_brt().date()
     if not calendario.eh_pregao(hoje):
         log(f"{hoje} nao e pregao: nada a fazer")
+        return 0
+    if modo() == "daytrade":
+        # day trade nao tem preparacao de manha nem medicao a noite: so o pregao, e zera antes do fim
+        from quant.daytrade import robo as dt
+        log("rotina: modo day trade (mini-indice e mini-dolar, simulacao)")
+        dt.rodar()
         return 0
     hm = lambda: agora_brt().strftime("%H:%M")        # noqa: E731
     if hm() < HORA_FIM_VIVO:
