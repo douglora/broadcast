@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 16h13
+NOTÍCIAS E FATOS · 08/10 17h21
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 460 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 461 veículo fora da lista, 34 sem ativo, 9 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -62,7 +62,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: DI
 Como falar: 'saiu no Seu Dinheiro: XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até…; confirmar o número no texto antes de repassar'
 Fonte: Seu Dinheiro 08/10 16h10
-id: E05-DI-ea3764b6c3-2026-10-08 · status: pendente
+id: E05-DI-ea3764b6c3-2026-10-08 · status: entregue
 
 [ATENÇÃO] E05 · PETR4 · R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras
 InfoMoney · 08/10 15h30 · fonte única · licença: resumo
@@ -78,7 +78,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: PETR4
 Como falar: 'saiu no InfoMoney: R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras; confirmar o número no texto antes de repassar'
 Fonte: InfoMoney 08/10 15h30
-id: E05-PETR4-4f0acfc71e-2026-10-08 · status: pendente
+id: E05-PETR4-4f0acfc71e-2026-10-08 · status: entregue
 
 [ATENÇÃO] E05 · BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
 TradingView (Reuters) · 08/10 12h17 · fonte única · licença: manchete
@@ -198,8 +198,19 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (110)
+## OUTRAS NOTÍCIAS (só manchete) (121)
 
+· UST The 10-Year Treasury Yield May Be About To Hit 6% (Seeking Alpha) https://seekingalpha.com/article/4952860-the-10-year-treasury-yield-may-be-about-to-hit-6-percent
+· USDBRL Dólar à vista fecha em alta de 0,17%, a R$5,0240 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-017-a-r50240-na-venda-2087250
+· USDBRL Dólar sobe na reta final do pregão e fecha a R$ 5,02 (Money Times) https://www.moneytimes.com.br/dolar-8-10-26-lils/
+· JPM JPMorgan Chase CEO Jamie Dimon Just Issued a Blunt Warning About Artificial Intelligence (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jpmorgan-chase-ceo-jamie-dimon-200300359.html
+· JPM JPMorgan is falling into earnings next week. It's paid off to buy the dip (CNBC) https://www.cnbc.com/2026/10/08/jpmorgan-is-falling-into-earnings-next-week-its-paid-off-to-buy-the-dip.html
+· UST Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says (CNBC) https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html
+· BRENT Dólar canadense sobe com rally do petróleo e queda no diferencial de juros (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-sobe-com-rally-do-petroleo-e-queda-no-diferencial-de-juros-2087208
+· PETR4 Petrobras (PETR4) arremata 21 blocos e vai pagar R$ 3,2 bilhões; veja onde (Suno Noticias) https://www.suno.com.br/noticias/petrobras-petr4-leilao-anp-21-blocos-mt/amp/
+· GOOGL Google brings agentic AI to Gemini, starting with businesses (TechCrunch) https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/
+· MU Micron Stock Drops. Why Samsung’s Record Profit Didn’t Give It a Lift. (Barron's) https://www.barrons.com/articles/micron-stock-price-samsung-earnings-openai-2344912c
+· BTC Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-suffer-worst-loss-174605885.html
 · BTC YieldMax Bitcoin Option Income Strategy ETF announces weekly distribution of $0.1658 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:480687c92094b:0-yieldmax-bitcoin-option-income-strategy-etf-announces-weekly-distribution-of-0-1658/
 · UST Bond yields fell, as the Treasury market passed a crucial test of investor confidence (MarketWatch) https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41
 · USDBRL Ouro fecha avança com alívio do dólar e dos Treasuries (Money Times) https://www.moneytimes.com.br/ouro-8-10-26-apsa/
@@ -249,15 +260,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · MMM Will MMM's Safety & Industrial Segment Remain a Core Strength in 2026? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:844906ef1094b:0-will-mmm-s-safety-industrial-segment-remain-a-core-strength-in-2026/
 · TSM TSMC Stocks Drop 2% Despite Citi's NT$4,000 Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:32fda1b2c094b:0-tsmc-stocks-drop-2-despite-citi-s-nt-4-000-target/
 · BAC Bank of America’s EPS Growth Is Expected to Slow From 36% to Single Digits. Here’s What October 14 Needs to Show (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQNkRxNWlNVHR1REc3VVhiWFFaV2FOcjNISVh2bzhZSmVDUmFEeU54VG5rMGc2U1FTa1BXYjl1MzZ2TnZUYU95WHYtVVlZQkRubE9iNndBSEREeE9PWWFLTDJyNUxFeko3eTU5ZkdQS2V5UWZFQUJyWW1oMzVtTmhIS3BocXdNeFVkYnlEOHk4UktyR2RIS2x6Q09iOTNNdw?oc=5
-· BRENT Dólar oscila e Ibovespa sobe, de olho em preços do petróleo e pesquisas eleitorais (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE05TVM4V0pEM212allEODJqbXhLMkZ1MmRLUGk2NWd0ODRaRlExMWlIMTdoNUg5elBRYXRyajFaX1F5U0lJWV9SVXVvTEVjRllfOWRtOElhcURqLXNJeGJIbjRhUW0xeVJQczJZLWpDTF9OaGl4RHVuddIBhwFBVV95cUxNZ1FRTWJaaFgtV2UxNmkwcERmSzFLOVJTWUN4RUVJT2N0Zmo5WlZZQVYxQTdpcU1XVzhpYVFqVHRQS3lVR2tpT1lIN3RpSVVFSTZyVFNKTy1EZDBkZTRpWXVWSDlRNXIxWFhNb1c3WDV3TlRSZ2hmSy01djBNQ0JmN1Z4QkE3bms?oc=5
-· GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (Reuters) https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/
-· ITUB4 PetroRecôncavo vê produção de gás cair pelo 5º mês seguido e acende alerta no Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroreconcavo-ve-producao-de-gas-cair-pelo-5-mes-seguido-e-acende-alerta-no-itau-bba/
-· PETR4 Tempo real: Ibovespa avança aos 207 mil pontos com Petrobras (PETR4); dólar recua (Money Times) https://www.moneytimes.com.br/tempo-real-8-10-26-apsa-lils/
-· BRENT Petróleo e urnas pressionam Tesouro Direto hoje: IPCA+ longos e Prefixado 2032 avançam forte (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroleo-e-urnas-pressionam-tesouro-direto-hoje-ipca-longos-e-prefixado-2032-avancam-forte/
-· AMZN Amazon Says AWS Commits Up To $50 Million In Cloud Credits For Genesis Mission Expansion (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_FWN45U1Y2:0-amazon-says-aws-commits-up-to-50-million-in-cloud-credits-for-genesis-mission-expansion/
-· USDBRL BC passa a exigir detalhamento de operações com ativos virtuais com instituições do exterior no mercado de câmbio (Valor Economico) https://valor.globo.com/financas/criptomoedas/noticia/2026/10/08/bc-passa-a-exigir-detalhamento-de-operaes-com-ativos-virtuais-com-instituies-do-exterior-no-mercado-de-cmbio.ghtml
-· BRENT Dólar sobe a R$ 5,02 e Bolsa reage, com eleições e petróleo no dia (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/08/dolar-bolsa-abre-hoje-7-de-outubro-de-2026.ghtm
-· CVX Is Hess Midstream (HESM) Undervalued Following Chevron's Deal And Revised Bakken Contracts? (Yahoo Finance) https://sg.finance.yahoo.com/news/hess-midstream-hesm-undervalued-following-141016926.html
-· SMAL11 O rali das small caps (Brazil Journal) https://braziljournal.com/o-rali-das-small-caps/
-· NVDA Nvidia: The Top AI Stock Is On Sale (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952602-nvidia-the-top-ai-stock-is-on-sale
-· (+50 manchetes; lista completa em eventos/noticias.json)
+· (+61 manchetes; lista completa em eventos/noticias.json)
