@@ -290,8 +290,9 @@ def test_filtros_de_entrada_e_stop_pelo_preco():
     assert tenta()[0]["tipo"] == "entrada"
     assert tenta(spread=0.5)[0]["tipo"] == "entrada" and tenta(spread=1.0) == []      # spread aberto: falta volume
     assert tenta(var=0.016) == [] and tenta(var=-0.016)[0]["lado"] == "C"            # dolar +1,5%: nao compra
-    assert tenta(hora="09:30:00") == [] and tenta(hora="09:04:00") == []             # dado das 9h30; primeiros minutos
-    assert tenta(hora="15:45:00") == [] and tenta(hora="15:44:59")[0]["tipo"] == "entrada"
+    assert tenta(hora="09:30:00") == [] and tenta(hora="09:14:59") == []             # dado das 9h30; antes das 9h15
+    assert tenta(hora="09:15:00")[0]["tipo"] == "entrada"
+    assert tenta(hora="12:50:00") == [] and tenta(hora="12:49:59")[0]["tipo"] == "entrada"   # janela do Douglas: ate as 13h
     assert ef.passo(ef.EstadoF("WDOFUT"), 1000.0, "10:15:00", 5031.0, _cenario_defesa(), AJUSTE, p, lote=2, pode_entrar=False) == []
     # stop: atras do nivel, minimo de 2, teto de 5 (6 em dia rapido, com a folga dobrada)
     assert ef.calcular_stop("WDOFUT", "C", 5031.5, 5030.0, "defesa", False) == 5029.0      # 1 ponto atras do nivel
@@ -311,8 +312,9 @@ def test_escada_de_lote_e_fim_do_dia():
     # R$ 1.000 de lucro acumulado paga um degrau de 2 contratos; devolveu o lucro, volta; teto de 8
     assert [ef.lote_do_dia(x, p) for x in (-500.0, 0.0, 999.0, 1000.0, 2500.0, 50_000.0)] == [2, 2, 2, 4, 6, 8]
     e = ef.EstadoF("WINFUT")
-    e.posicao = ef.PosicaoF("C", 2, 206000.0, 205880.0, "15:00:00", "defesa", 205950.0, "abertura", 2, False, 206000.0)
-    ev = ef.passo(e, 5000.0, "16:30:00", 206100.0, None, [], p, lote=2)
+    e.posicao = ef.PosicaoF("C", 2, 206000.0, 205880.0, "12:40:00", "defesa", 205950.0, "abertura", 2, False, 206000.0)
+    assert ef.passo(e, 4990.0, "12:59:59", 206100.0, None, [], p, lote=2) == []
+    ev = ef.passo(e, 5000.0, "13:00:00", 206100.0, None, [], p, lote=2)
     # sai a mercado, 1 tick contra: 206.095 = +95 pontos x 0,20 x 2 - 1,20 = 36,80
     assert ev[0]["motivo"] == "fim_do_dia" and ev[0]["resultado"] == pytest.approx(36.80) and e.posicao is None
     regras = ef.regras_em_texto(p)
@@ -345,7 +347,10 @@ def _cotacao(preco, ts, compra=None, venda=None, anterior=5030.0, maxima=5035.0,
 
 
 def _robo(tmp_path, monkeypatch, dia):
+    from quant.daytrade import chave
     from quant.daytrade import robo_fluxo as rf
+    monkeypatch.setattr(chave, "ARQ_CHAVE", str(tmp_path / "chave.json"))   # a chave de verdade e do Douglas
+    monkeypatch.setattr(chave, "ARQ_JANELA", str(tmp_path / "janela.json"))  # e a janela tambem
     monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt"))
     monkeypatch.setattr(rf, "ARQ_SERIE", str(tmp_path / "dt" / "serie_fluxo.json"))
     monkeypatch.setattr(rf, "ler_motor", lambda *a, **k: None)
@@ -415,3 +420,44 @@ def test_robo_para_quando_devolve_20_por_cento_do_lucro_do_dia(tmp_path, monkeyp
     r2.operacoes = [op(60.0), op(-40.0)]
     r2.ciclo(agora, retrato=q)
     assert r2.trava is None
+
+
+def test_chave_do_douglas_desliga_zera_e_religa(tmp_path, monkeypatch):
+    from quant.daytrade import chave
+    arq = str(tmp_path / "chave.json")
+    assert chave.ler(arq)["ligado"] is True                # sem arquivo, vale ligado
+    monkeypatch.setattr(chave, "ARQ_CHAVE", arq)
+    rf, r, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
+    fita = _cenario_defesa()
+    with open(mt5 / "autopilot_fita_20261008.csv", "w") as f:
+        for x in fita.linhas:
+            f.write(_linha(x["seg"], x["preco"], x["compra"], x["venda"], simbolo="DOLX26") + "\n")
+    agora = datetime(2026, 10, 8, 10, 15, 7, tzinfo=BRT)
+    q = {"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp())}}
+    r.ciclo(agora, retrato=q)
+    assert r.estados["WDOFUT"].posicao is not None         # comprado a 5.031,5
+    chave.gravar(False, "pedido do Douglas")
+    est = r.ciclo(agora + timedelta(seconds=1), retrato=q)
+    # zera a mercado em 5.030,5: -1,0 ponto x 10 x 2 - 4,80 = -24,80; fase "desligado"; nao entra de novo
+    assert r.estados["WDOFUT"].posicao is None and r.operacoes[-1]["motivo"] == "desligado"
+    assert r.operacoes[-1]["resultado"] == pytest.approx(-24.80)
+    assert est["vivo"]["fase"] == "desligado" and "DESLIGADO" in est["vivo"]["fase_texto"]
+    est = r.ciclo(agora + timedelta(seconds=400), retrato={"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp() + 400)}})
+    assert r.estados["WDOFUT"].posicao is None
+    chave.gravar(True)
+    assert chave.ler()["ligado"] is True and chave.hora_de({"desde": "2026-10-08T13:20:05-03:00"}) == "13:20 de 08/10"
+
+
+def test_janela_do_douglas_com_excecao_por_data(tmp_path):
+    from quant.daytrade import chave
+    arq = str(tmp_path / "janela.json")
+    assert chave.janela("2026-10-09", arq) == {"inicio": "09:15", "ultima_entrada": "12:50", "zerar": "13:00", "motivo": ""}
+    with open(arq, "w") as f:
+        json.dump({"inicio": "09:15", "ultima_entrada": "12:50", "zerar": "13:00",
+                   "excecoes": {"2026-10-08": {"ultima_entrada": "16:30", "zerar": "17:20", "motivo": "ate o fim do pregao"}}}, f)
+    hoje = chave.janela("2026-10-08", arq)
+    assert (hoje["ultima_entrada"], hoje["zerar"], hoje["motivo"]) == ("16:30", "17:20", "ate o fim do pregao")
+    assert chave.janela("2026-10-09", arq)["zerar"] == "13:00"
+    with open(arq, "w") as f:
+        f.write('{"zerar": "25h", "inicio": 9}')              # lixo: fica o padrao
+    assert chave.janela("2026-10-09", arq)["zerar"] == "13:00" and chave.janela("2026-10-09", arq)["inicio"] == "09:15"

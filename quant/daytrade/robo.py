@@ -28,6 +28,7 @@ from dataclasses import asdict
 from datetime import datetime
 
 from quant.comum import DIR_SAIDA, agora_brt, garantir_dir, gravar_atomico, ler_json, log
+from quant.daytrade import chave
 from quant.daytrade import estrategia as es
 
 MOTOR = os.environ.get("QUANT_MOTOR", "http://127.0.0.1:8930")
@@ -78,6 +79,10 @@ class Robo:
         self.saidas = list(saidas or SAIDAS_PADRAO)
         self.motor = motor
         self.p = parametros or es.Parametros()
+        self.janela = chave.janela(self.hoje)                   # a janela do dia e do Douglas (pode ter excecao por data)
+        if parametros is None:
+            self.p.hora_inicio, self.p.hora_ultima_entrada, self.p.hora_zerar = (
+                self.janela["inicio"], self.janela["ultima_entrada"], self.janela["zerar"])
         self.pasta = os.path.join(DIR_DT, self.hoje)
         garantir_dir(self.pasta)
         self.arq_estado = os.path.join(self.pasta, "estado.json")
@@ -103,6 +108,7 @@ class Robo:
         self.marcos = set(salvo.get("marcos") or [])
         self.aquecido = bool(salvo.get("aquecido"))
         self.cot = {}                                            # ativo -> ultimo vetor visto
+        self.chave = chave.ler()                                 # liga/desliga do Douglas
         self.feed = {}
         self.feed_em = 0.0
 
@@ -202,6 +208,13 @@ class Robo:
         total = realizado + aberto
         limite_perda = -self.p.capital * self.p.perda_maxima_dia
         meta = self.p.capital * self.p.meta_dia
+        self.chave = chave.ler()
+        if not self.chave["ligado"]:                       # o Douglas desligou: zera o que houver e nao entra
+            for a in ATIVOS:
+                c = self.cot.get(a)
+                ev = es.zerar(self.estados[a], ts, hora, c["preco"], "desligado") if c else None
+                if ev:
+                    self._registrar(ev, agora)
         for a in ATIVOS:
             c = q.get(a)
             if not isinstance(c, list) or len(c) <= I_HORA:
@@ -219,7 +232,8 @@ class Robo:
             if not feed_ok:
                 continue                               # preco velho nao dispara stop nem entrada: espera o tique
             e = self.estados[a]
-            eventos = es.passo(e, ts, hora, preco, medio, self.p, pode_entrar=self.trava is None, feed_ok=feed_ok)
+            eventos = es.passo(e, ts, hora, preco, medio, self.p, pode_entrar=self.trava is None and self.chave["ligado"],
+                               feed_ok=feed_ok)
             for ev in eventos:
                 self._registrar(ev, agora)
         # travas do dia: olhadas depois dos tiques, com o resultado ja atualizado
@@ -283,6 +297,10 @@ class Robo:
         abertas = sum(1 for e in self.estados.values() if e.posicao is not None)
         if agora.weekday() >= 5 or hm < ABERTURA:
             fase, texto = "aguardando_abertura", "Aguardando a abertura dos futuros (9h00)."
+        elif not self.chave["ligado"]:
+            fase = "desligado"
+            texto = (f"Robô DESLIGADO por você às {chave.hora_de(self.chave)}. Nada aberto, nenhuma entrada. "
+                     f"Resultado do dia: {_reais(total)}. Para religar: ícone \"Robô - ligar\" na Mesa, ou peça \"ligue o robô\".")
         elif self.trava == "meta":
             fase, texto = "meta_batida", f"Meta do dia atingida ({_reais(total)}). Parado até amanhã."
         elif self.trava == "perda":

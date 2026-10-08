@@ -72,11 +72,11 @@ def test_nao_entra_contra_o_medio_nem_fora_do_horario():
     # antes das 9h30: nada, mesmo rompendo
     e2 = es.EstadoAtivo("WINFUT")
     _faixa(e2, 0, 20, 204200.0, 204500.0)
-    assert es.passo(e2, _ts(9, 20), _hora(9, 20), 204505.0, 204300.0, p) == []
+    assert es.passo(e2, _ts(9, 14), _hora(9, 14), 204505.0, 204300.0, p) == []
     # depois das 16h30: nada
     e3 = es.EstadoAtivo("WINFUT")
     _faixa(e3, 0, 31, 204200.0, 204500.0)
-    assert es.passo(e3, _ts(16, 30), _hora(16, 30), 204505.0, 204300.0, p) == []
+    assert es.passo(e3, _ts(12, 50), _hora(12, 50), 204505.0, 204300.0, p) == []
     # trava do dia disparada: nada
     assert es.passo(e3, _ts(10, 0), _hora(10, 0), 204505.0, 204300.0, p, pode_entrar=False) == []
     # dentro da faixa: nada
@@ -118,7 +118,7 @@ def test_zera_no_fim_do_dia_e_na_trava():
     _faixa(e, 0, 31, 204200.0, 204500.0)
     es.passo(e, _ts(9, 31), _hora(9, 31), 204505.0, 204300.0, p)             # comprado a 204.510, 4 contratos
     # 17h20 com o preco a 204.700: sai a mercado, 1 tick contra (204.695). 185 pontos x 0,20 x 4 = 148,00 - 2,40
-    ev = es.passo(e, _ts(17, 20), _hora(17, 20), 204700.0, 204400.0, p)
+    ev = es.passo(e, _ts(13, 0), _hora(13, 0), 204700.0, 204400.0, p)
     assert ev[0]["motivo"] == "fim_do_dia" and ev[0]["saida"] == 204695.0
     assert ev[0]["resultado"] == pytest.approx(145.60) and e.posicao is None
     # trava do dia: `zerar` fecha a mercado com o motivo dado

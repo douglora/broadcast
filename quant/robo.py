@@ -236,13 +236,20 @@ def dia():
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Rotina diaria do robo quant (simulacao)")
-    ap.add_argument("comando", choices=["dia", "preparar", "vivo", "fechar", "estado"])
+    ap.add_argument("comando", choices=["dia", "preparar", "vivo", "fechar", "estado", "desligar", "ligar"])
     ap.add_argument("--repetir", action="store_true", help="refaz os passos que ja deram certo hoje")
     ap.add_argument("--data", default=None, help="AAAA-MM-DD (para fechar um pregao passado)")
     ap.add_argument("--fita-do-robo", action="store_true",
                     help="com `fechar`: usa a fita que o robo viu ao vivo em vez da oficial da B3")
     args = ap.parse_args(argv)
     d = datetime.strptime(args.data, "%Y-%m-%d").date() if args.data else agora_brt().date()
+    if args.comando in ("desligar", "ligar"):
+        from quant.daytrade import chave
+        d = chave.gravar(args.comando == "ligar", motivo="pedido do Douglas")
+        print(("Robô LIGADO" if d["ligado"] else "Robô DESLIGADO") + f" às {chave.hora_de(d)}. "
+              + ("Ele volta a operar dentro do horário (9h15 às 13h), em simulação." if d["ligado"]
+                 else "Em até 2 segundos ele zera o que estiver aberto e não entra mais até você religar."))
+        return 0
     if args.comando == "dia":
         return dia()
     if args.comando == "preparar":

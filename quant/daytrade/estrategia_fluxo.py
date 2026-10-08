@@ -23,8 +23,10 @@ O QUE E DELE (segunda leitura do canal: aulas longas e lives inteiras, alem dos 
     segue com o stop andando uns 3 pontos atras; nao ha alvo fixo;
   - risco do dia: perda maxima de R$ 1.000 e para; se estava ganhando e devolveu 20% do lucro
     do dia, para; nao opera nos primeiros minutos, cancela tudo antes do dado das 9h30, nao
-    opera com o spread aberto (normal 0,5 ponto), a janela do ajuste e 15h50-16h e depois o
-    mercado fica "largado"; indice so depois que as acoes abrem (10h);
+    opera com o spread aberto (normal 0,5 ponto); indice so depois que as acoes abrem (10h);
+
+O QUE E DO DOUGLAS (decisao dele em 08/10/2026): mini-dolar e mini-indice; meta de 1% ao dia;
+janela das 9h15 as 13h (ultima entrada 12h50, zera as 13h); e a chave liga/desliga (chave.py).
   - lote pequeno (1 a 2 minis), que so cresce com lucro acumulado.
 
 O QUE E NOSSO (ele recusa dar o numero; escolhas para calibrar com a fita gravada, marcadas [NOSSO]):
@@ -73,7 +75,7 @@ class ParamAtivo:
 ATIVOS = {
     "WDOFUT": ParamAtivo(stop_min_pts=2.0, stop_teto_pts=5.0, stop_teto_rapido_pts=6.0, folga_stop_pts=1.0,
                          stop_rompimento_pts=4.5, parcial_pts=2.0, arrasto_pts=3.0, gatilho_pts=1.0, perseguir_pts=3.0,
-                         zona_pts=0.5, afasta_pts=1.5, rapido_pts=3.0, spread_max_pts=1.0, hora_inicio="09:05",
+                         zona_pts=0.5, afasta_pts=1.5, rapido_pts=3.0, spread_max_pts=1.0, hora_inicio="09:15",
                          fonte_fluxo="DOL", sem_lote_de_robo=True),
     "WINFUT": ParamAtivo(stop_min_pts=120.0, stop_teto_pts=400.0, stop_teto_rapido_pts=480.0, folga_stop_pts=60.0,
                          stop_rompimento_pts=270.0, parcial_pts=200.0, arrasto_pts=200.0, gatilho_pts=60.0, perseguir_pts=180.0,
@@ -102,8 +104,8 @@ class ParamFluxo:
     espera_apos_saida_s: int = 120         # dele: "para e respira" depois de cada operacao (o tempo e nosso)
     espera_apos_perda_s: int = 300         # dele: "errou, respira mais"
     pausa_dado: tuple = ("09:28", "09:33") # dele: cancela as ordens 1 minuto antes do dado das 9h30
-    hora_ultima_entrada: str = "15:45"     # dele: 15h50-16h e a janela do ajuste; depois o mercado fica largado
-    hora_zerar: str = "16:30"              # dele: perto das 17h nao ha lote, e perigoso
+    hora_ultima_entrada: str = "12:50"     # do Douglas (08/10): o robo opera das 9h15 as 13h. Bate com ele: as lives
+    hora_zerar: str = "13:00"              # acabam de manha e os maiores stops dele vieram de ficar ate a tarde
     # leitura
     janela_defesa_s: int = 900             # dele: confere o volume por preco dos ultimos 10 a 30 minutos
     testes_min: int = 3                    # dele: 3 testes sem perder o nivel

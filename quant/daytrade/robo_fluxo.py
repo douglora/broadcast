@@ -26,6 +26,7 @@ from dataclasses import asdict
 from datetime import datetime
 
 from quant.comum import agora_brt, garantir_dir, gravar_atomico, ler_json, log
+from quant.daytrade import chave
 from quant.daytrade import estrategia as es
 from quant.daytrade import estrategia_fluxo as ef
 from quant.daytrade import fluxo as fx
@@ -50,6 +51,8 @@ class RoboFluxo:
         self.saidas = list(saidas or SAIDAS_PADRAO)
         self.motor = motor
         self.p = ef.ParamFluxo()
+        self.janela = chave.janela(self.hoje)                   # a janela do dia e do Douglas (pode ter excecao por data)
+        self.p.hora_ultima_entrada, self.p.hora_zerar = self.janela["ultima_entrada"], self.janela["zerar"]
         self.pasta = os.path.join(DIR_DT, self.hoje)
         garantir_dir(self.pasta)
         self.arq_estado = os.path.join(self.pasta, "estado_fluxo.json")
@@ -86,6 +89,7 @@ class RoboFluxo:
         self.fita_em = {}                                        # (ativo, "fonte" | "mini") -> relogio da ultima linha
         self.ultima_fita = 0.0                                   # relogio da ultima linha de fita recebida
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
+        self.chave = chave.ler()                                 # liga/desliga do Douglas
         self.acumulado_antes = self._acumulado_antes()
 
     # ── persistencia ─────────────────────────────────────────
@@ -226,6 +230,13 @@ class RoboFluxo:
         fita_ok = (time.time() - self.ultima_fita) <= FITA_PARADA_S if self.ultima_fita else False
         q = (retrato or {}).get("q") or {}
         lote = ef.lote_do_dia(self.acumulado_antes, self.p)
+        self.chave = chave.ler()
+        if not self.chave["ligado"]:                       # o Douglas desligou: zera o que houver e nao entra
+            for a in ATIVOS:
+                c = self.cot.get(a)
+                ev = ef.zerar(self.estados[a], ts, hora, c["preco"], "desligado") if c else None
+                if ev:
+                    self._registrar(ev, agora)
         for a in ATIVOS:
             c = q.get(a)
             if not isinstance(c, list) or len(c) <= I_HORA:
@@ -248,7 +259,8 @@ class RoboFluxo:
             contexto = {"medio": self.cot[a]["medio"], "spread": spread,
                         "var": (preco / base - 1.0) if base and base > 0 else None}
             for ev in ef.passo(self.estados[a], ts, hora, preco, fita, ef.niveis_do_dia(self.cot[a], self.p), self.p, lote,
-                               pode_entrar=self.trava is None and fonte is not None, feed_ok=True, contexto=contexto):
+                               pode_entrar=self.trava is None and fonte is not None and self.chave["ligado"],
+                               feed_ok=True, contexto=contexto):
                 self._registrar(ev, agora)
         realizado, aberto, _c = self.resultado()
         total = realizado + aberto
@@ -301,6 +313,10 @@ class RoboFluxo:
         abertas = sum(1 for e in self.estados.values() if e.posicao is not None)
         if agora.weekday() >= 5 or hm < ABERTURA:
             fase, texto = "aguardando_abertura", "Aguardando a abertura dos futuros (9h00)."
+        elif not self.chave["ligado"]:
+            fase = "desligado"
+            texto = (f"Robô DESLIGADO por você às {chave.hora_de(self.chave)}. Nada aberto, nenhuma entrada. "
+                     f"Resultado do dia: {_reais(total)}. Para religar: ícone \"Robô - ligar\" na Mesa, ou peça \"ligue o robô\".")
         elif self.trava == "meta":
             fase, texto = "meta_batida", f"Meta do dia atingida ({_reais(total)}). Parado até amanhã."
         elif self.trava == "devolucao":

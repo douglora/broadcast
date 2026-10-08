@@ -46,9 +46,9 @@ class Parametros:
     max_contratos: int = 10
     espera_apos_saida_s: int = 300          # 5 minutos sem nova entrada no mesmo contrato
     janela_volatilidade_min: int = 15       # vai-e-vem dos ultimos 15 minutos define o risco
-    hora_inicio: str = "09:30"              # ate aqui so se forma a faixa de abertura
-    hora_ultima_entrada: str = "16:30"
-    hora_zerar: str = "17:20"
+    hora_inicio: str = "09:15"              # do Douglas (08/10): opera das 9h15 as 13h. Ate aqui so se forma a faixa de abertura
+    hora_ultima_entrada: str = "12:50"
+    hora_zerar: str = "13:00"
     feed_parado_s: float = 15.0             # sem tique novo ha mais que isto: nao entra
 
 
