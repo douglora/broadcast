@@ -550,7 +550,7 @@ def test_nivel_testado_demais_nao_e_defesa():
 def test_confirmacao_usa_o_relogio_do_pregao_e_pede_amostra():
     p = ef.ParamFluxo()
     # contrato que negocia pouco: o ultimo negocio foi ha 40 s. Sem o relogio do pregao, "os ultimos 15 s" seriam os dele
-    cheio = fx.Fita("DOLX26", 0.5)
+    cheio = fx.Fita("WDOX26", 0.5)                               # o simbolo nao importa aqui: so a esparsidade
     _fita_de_fundo(cheio, T0)
     _por(cheio, T0 - 40, 5031.0, 80, 0)
     assert cheio.agressao(15)["compra"] == 80.0                    # ancorado no ultimo negocio do proprio simbolo
@@ -558,9 +558,9 @@ def test_confirmacao_usa_o_relogio_do_pregao_e_pede_amostra():
     assert cheio.relogio() == T0 and cheio.agressao(15)["total"] == 0.0
     assert ef.confirmacao(cheio, p)["vale"] is False
     # um negocio sozinho, mesmo grande, nao confirma: pede 3 negocios e metade do volume normal de 15 s
-    um = fx.Fita("DOLX26", 0.5)
+    um = fx.Fita("WDOX26", 0.5)
     _fita_de_fundo(um, T0)
-    um.acrescentar(fx.linha_da_fita(f"F;DOLX26;{T0};5031.0;500;0;0;1;500;0;300"))
+    um.acrescentar(fx.linha_da_fita(f"F;WDOX26;{T0};5031.0;500;0;0;1;500;0;300"))
     assert ef.confirmacao(um, p)["vale"] is False and ef.confirmacao(um, p)["negocios"] == 1
     pouco = fx.Fita("WDOX26", 0.5)
     _fita_de_fundo(pouco, T0)
