@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 17h21
+NOTÍCIAS E FATOS · 08/10 18h13
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 461 veículo fora da lista, 34 sem ativo, 9 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 458 veículo fora da lista, 35 sem ativo, 14 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -198,8 +198,22 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (121)
+## OUTRAS NOTÍCIAS (só manchete) (135)
 
+· TSLA Tesla Stocks Fall 1.4% as AI Capex Gap Demands Optimus Proof (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-fall-1-4-204645384.html
+· LITE Lumentum: Conquering Connectivity (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4952904-lumentum-conquering-connectivity
+· PETR4 Ibovespa fecha em alta de 1% com Petrobras e pesquisas do 2º turno; dólar vai a R$ 5,02 (Exame) https://exame.com/invest/mercados/ibovespa-fecha-em-alta-de-1-com-petrobras-e-pesquisas-do-2o-turno-dolar-vai-a-r-502/
+· USDBRL Dólar à vista encerra em alta, apesar de fluxo para o país (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/08/dolar-a-vista-encerra-em-alta-apesar-de-fluxo-para-o-pais.ghtml
+· USDBRL Dólar sobe 0,27% e fecha em R$ 5,024; Ibovespa também tem alta (Poder360) https://www.poder360.com.br/poder-economia/dolar-sobe-027-e-fecha-em-r-5024-ibovespa-tambem-tem-alta/
+· USDBRL Dólar sobe com cenário eleitoral e Treasuries pressionando o mercado (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-sobe-com-cenario-eleitoral-e-treasuries-pressionando-o-mercado
+· USDBRL Ibovespa sobe quase 1% com otimismo eleitoral; dólar destoa do exterior e fecha em alta (Money Times) https://www.moneytimes.com.br/ibovespa-sobe-quase-1-com-otimismo-eleitoral-dolar-destoa-do-exterior-e-fecha-em-alta/
+· USDBRL Dólar sobe e fecha acima dos R$ 5, seguindo exterior e à espera de pesquisa eleitoral (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-08102026/
+· UST U.S. Treasury Yields Retreat From Early Highs; Eurozone Yields Remain Elevated (The Wall Street Journal) https://www.wsj.com/finance/investing/u-s-treasury-yields-eurozone-bond-yields-rise-relentlessly-b7d3ba07
+· BRENT Dólar fecha cotado a R$ 5 e Bolsa sobe, com eleições e petróleo (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/08/dolar-ronda-r-5-e-bolsa-consolida-alta-com-eleicoes-e-petroleo-no-dia.htm
+· USDBRL Milho fecha em queda na B3 mesmo com dólar em alta; Chicago recua antes do USDA (TradingView (Reuters)) https://br.tradingview.com/news/noticiasagricolas:baf83bb5abc81:0/
+· NVDA Nvidia Chief Jensen Huang’s Net Worth Falls Below $200 Billion Mark As Tech Stocks Drop (Yahoo Finance) https://uk.finance.yahoo.com/news/nvidia-chief-jensen-huang-net-201013056.html
+· BTC Bitcoin ETFs Bleed $484.9 Million As BlackRock Leads A Broad Day Of Outflows (TradingView (Reuters)) https://www.tradingview.com/news/newsbtc:14107ed70094b:0-bitcoin-etfs-bleed-484-9-million-as-blackrock-leads-a-broad-day-of-outflows/
+· NVDA Why Nvidia (NVDA) Stock Is Trading Lower Today (TradingView (Reuters)) https://www.tradingview.com/news/stockstory:455d4cdcc094b:0-why-nvidia-nvda-stock-is-trading-lower-today/
 · UST The 10-Year Treasury Yield May Be About To Hit 6% (Seeking Alpha) https://seekingalpha.com/article/4952860-the-10-year-treasury-yield-may-be-about-to-hit-6-percent
 · USDBRL Dólar à vista fecha em alta de 0,17%, a R$5,0240 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-alta-de-017-a-r50240-na-venda-2087250
 · USDBRL Dólar sobe na reta final do pregão e fecha a R$ 5,02 (Money Times) https://www.moneytimes.com.br/dolar-8-10-26-lils/
@@ -246,18 +260,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · MU Micron's DRAM Sales Reach $40B: Can AI Demand Drive Growth? (Yahoo Finance) https://ca.finance.yahoo.com/news/microns-dram-sales-reach-40b-125800292.html
 · PLTR What Is Going on With Palantir Tech Stock on Thursday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b31bfbaa6094b:0
 · TSM TSMC Reports 55% Growth in September Revenue (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-reports-55-growth-september-074426463.html
-· UST Brisk $39 Billion Treasury Auction Offers Bond Market Breather (Yahoo Finance) https://finance.yahoo.com/markets/articles/brisk-39-billion-treasury-auction-040100583.html
-· LITE Optics Stocks Tumble as Profit Taking Cuts Into Big Yearly Gains: Applied Optoelectronics Drops 9%, Coherent Falls 5%, Lumentum Slides 4% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-profit-taking-160031296.html
-· MU Nvidia: Micron Just Gave It Away (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952776-nvidia-micron-just-gave-it-away
-· CVX Chevron's Refining Strength, Higher Crude Prices Lift EPS Outlook, UBS Says (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-apos-refining-strength-higher-155708368.html
-· PLTR Palantir: Why The Upgrades Keep Coming Ahead Of The Q3 Earnings Report (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4952826-palantir-why-the-upgrades-keep-coming-ahead-of-the-q3-earnings-report
-· BBAS3 Representante da campanha diz que governo de Flávio Bolsonaro não privatizaria Banco do Brasil, Caixa e Petrobras (g1) https://g1.globo.com/economia/noticia/2026/10/08/representante-da-campanha-diz-que-governo-de-flavio-bolsonaro-nao-privatizaria-banco-do-brasil-caixa-e-petrobras.ghtml
-· GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45U17Y:0-google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up/
-· TSM TSMC Taps GlobalFoundries In $2B AI Chip Deal, Putting GFS Stock On Track To Hit Over 1-Month High (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:144988d06094b:0-tsmc-taps-globalfoundries-in-2b-ai-chip-deal-putting-gfs-stock-on-track-to-hit-over-1-month-high/
-· MU Siebert CIO Says Micron Stock Is a Buy, Just Not Forever (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/siebert-cio-says-micron-stock-150505773.html
-· BTC Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range (The Block) https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052
-· JPM 30-Year Treasury Yield Nears 6%: JPMorgan Flags Small-Cap Risk, Putting These ETFs in Focus (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3c5ad2047094b:0-30-year-treasury-yield-nears-6-jpmorgan-flags-small-cap-risk-putting-these-etfs-in-focus/
-· MMM Will MMM's Safety & Industrial Segment Remain a Core Strength in 2026? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:844906ef1094b:0-will-mmm-s-safety-industrial-segment-remain-a-core-strength-in-2026/
-· TSM TSMC Stocks Drop 2% Despite Citi's NT$4,000 Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:32fda1b2c094b:0-tsmc-stocks-drop-2-despite-citi-s-nt-4-000-target/
-· BAC Bank of America’s EPS Growth Is Expected to Slow From 36% to Single Digits. Here’s What October 14 Needs to Show (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQNkRxNWlNVHR1REc3VVhiWFFaV2FOcjNISVh2bzhZSmVDUmFEeU54VG5rMGc2U1FTa1BXYjl1MzZ2TnZUYU95WHYtVVlZQkRubE9iNndBSEREeE9PWWFLTDJyNUxFeko3eTU5ZkdQS2V5UWZFQUJyWW1oMzVtTmhIS3BocXdNeFVkYnlEOHk4UktyR2RIS2x6Q09iOTNNdw?oc=5
-· (+61 manchetes; lista completa em eventos/noticias.json)
+· (+75 manchetes; lista completa em eventos/noticias.json)
