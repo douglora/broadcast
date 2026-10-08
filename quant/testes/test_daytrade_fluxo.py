@@ -788,3 +788,47 @@ def test_robo_no_setup_de_niveis(tmp_path, monkeypatch):
     est2 = r2.ciclo(amanha, retrato={"q": {"WDOFUT": _cotacao(5036.0, amanha.timestamp())}})
     espera = est2["instrumentos"][0]["espera"][-1]
     assert "máxima de ontem em 5.040,0" in espera and "vende" in espera and "número redondo em 5.030,0" in espera and "compra" in espera
+
+
+def test_fita_e_medida_em_toda_entrada_de_niveis_e_o_relatorio_compara(tmp_path, monkeypatch):
+    from quant.daytrade import historico as hist, medir
+    rf, _r0, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
+    monkeypatch.setattr(rf, "ATIVOS", ("WDOFUT",))
+    # a fita do mini: fundo de 200 por janela e, nos ultimos 15 s, 150 de venda contra 30 de compra (83% de venda)
+    f = fx.Fita("WDOX26", 0.5)
+    _fita_de_fundo(f, T0)
+    _por(f, T0 - 8, 5039.0, 10, 60)
+    _por(f, T0 - 2, 5038.5, 20, 90)
+    with open(mt5 / "autopilot_fita_20261008.csv", "w") as arq:
+        for x in f.linhas:
+            arq.write(_linha(x["seg"], x["preco"], x["compra"], x["venda"], simbolo="WDOX26") + "\n")
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    leitura = {"pronto": True, "setup": "niveis", "tempo_min": 6, "fechamento": 5038.0, "barra": [5037.5, 5040.5, 5037.0, 5038.0],
+               "niveis": [{"preco": 5040.0, "nome": "média de 72 (6 min)"}], "acima": 5040.0, "abaixo": None, "barras": 9000}
+    ordens = [hist.Ordem("V", 4.0, parcial_pts=4.0, alvo_pts=16.0, nivel=5040.0, nome_nivel="média de 72 (6 min)")]
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): (leitura, ordens.pop() if ordens else None)})()
+    agora = datetime(2026, 10, 8, 10, 16, 7, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5038.0, agora.timestamp())}})
+    pos = r.estados["WDOFUT"].posicao
+    assert pos and pos.lado == "V" and "CONFIRMA" in r.diario[-1]["texto"] and "83%" in r.diario[-1]["texto"]
+    sinal = json.loads(open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[-1])
+    fita = sinal["medidas"]["fita"]
+    assert fita["confirmou"] is True and fita["fracao_a_favor"] == pytest.approx(0.833, abs=0.001) and fita["fonte"] == "mini"
+    assert fita["volume_15s"] == 180.0 and fita["amostra_basta"] is True
+    # numa COMPRA no mesmo instante a mesma fita nao confirmaria (17% a favor)
+    assert r.leitura_da_fita("WDOFUT", "C", 5036.0)["confirmou"] is False
+    # o negocio fecha no stop e o relatorio junta entrada e saida: 1 negocio confirmado pela fita, perdedor
+    r.ciclo(agora + timedelta(seconds=30), retrato={"q": {"WDOFUT": _cotacao(5041.5, agora.timestamp() + 30)}})
+    assert r.estados["WDOFUT"].posicao is None
+    n = medir.negocios("niveis", str(tmp_path / "dt"))
+    assert len(n) == 1 and n[0]["confirmou"] is True and n[0]["saida"] == "stop" and n[0]["resultado"] < 0
+    texto = medir.relatorio("niveis", str(tmp_path / "dt"))
+    assert "fita CONFIRMOU a entrada" in texto and "nível: média de 72 (6 min)" in texto and "menos de 100" in texto
+    # as tres medias do Douglas entram como niveis, com nome
+    from quant.daytrade import estrategias_hist as eh
+    e = eh.NivelReacao(**rf.NIVEIS)
+    df = _dois_dias([5022.0 + 0.05 * k for k in range(900)])
+    e.preparar(df)
+    nomes = set(e.niveis_com_nome(len(df) - 1, float(df["c"].iloc[-1])).values())
+    assert {"média de 36 (6 min)", "média de 72 (6 min)", "média de 205 (6 min)"} <= nomes and e.tempo == 6

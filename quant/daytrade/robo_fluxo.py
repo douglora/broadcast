@@ -45,8 +45,12 @@ PHICUBE = {"maior": 15, "menor": 4, "tipo": "mima", "exige_preco": True, "fundo"
 # o setup "niveis" (escolha do Douglas em 08/10/2026, a "opcao C"): o que os instrutores do PhiCube fazem nas lives.
 # Teste de nivel com reacao no grafico de 4 minutos, stop colado atras do nivel, alvo no nivel seguinte.
 # Sao os parametros do teste historico (estrategias_hist.NivelReacao), que perdeu cerca de R$ 20 por negocio.
-NIVEIS = {"tempo": 4, "tol": 1.0, "fura": 2.0, "rejeita": 1.5, "folga": 1.0, "stop_min": 3.0, "stop_max": 10.0, "alvo_min": 13.0,
-          "alvo_max": 40.0, "alvo_padrao": 20.0, "rr_min": 2.0, "parcial_r": 1.0, "idade_extremo": 20, "redondo": 10.0}
+# Em 08/10 (16h) o Douglas pediu para juntar "tape reading em cima de 3 linhas de medias moveis, 205, 72 e 36, grafico de
+# 6 minutos": o teste de nivel passou para o grafico de 6 minutos, as tres medias entraram como niveis, e a fita e MEDIDA
+# em toda entrada (nao filtra ainda: primeiro se mede se a entrada confirmada pela fita rende mais que a nao confirmada).
+NIVEIS = {"tempo": 6, "tol": 1.0, "fura": 2.0, "rejeita": 1.5, "folga": 1.0, "stop_min": 3.0, "stop_max": 10.0, "alvo_min": 13.0,
+          "alvo_max": 40.0, "alvo_padrao": 20.0, "rr_min": 2.0, "parcial_r": 1.0, "idade_extremo": 20, "redondo": 10.0,
+          "medias": (36, 72, 205), "tempo_medias": 6, "tipo_medias": "sma", "medias_como_nivel": True, "filtro_medias": None}
 SETUPS_DE_GRAFICO = ("phicube", "niveis")
 FITA_PARADA_S = 30.0
 # o ajuste OFICIAL dos futuros, que o terminal coleta do boletim diario da B3. O "fechamento anterior" do
@@ -118,7 +122,8 @@ def regras_niveis(p):
         "Setup de níveis, só no mini-dólar: é o que os instrutores da sala do PhiCube fazem nas lives, e o mesmo desenho do nível "
         "defendido e do reteste do método de fluxo, só com preço.",
         "NÍVEIS: de ontem, o ajuste, a máxima, a mínima e o fechamento; de hoje, a abertura e a máxima e a mínima do dia formadas há "
-        f"pelo menos {c['idade_extremo']} minutos; e os números redondos, de {ef._n(c['redondo'])} em {ef._n(c['redondo'])} pontos.",
+        f"pelo menos {c['idade_extremo']} minutos; os números redondos, de {ef._n(c['redondo'])} em {ef._n(c['redondo'])} pontos; e as três médias "
+        f"móveis de {c['medias'][0]}, {c['medias'][1]} e {c['medias'][2]} períodos do gráfico de {c['tempo_medias']} minutos.",
         f"ENTRADA: uma barra de {c['tempo']} minutos encosta no nível (até {ef._n(c['tol'])} ponto antes ou {ef._n(c['fura'])} além) e fecha de volta, "
         f"pelo menos {ef._n(c['rejeita'])} ponto do lado de onde veio. Veio de baixo e foi rejeitado: vende. Veio de cima e segurou: compra.",
         f"Stop: {ef._n(c['folga'])} ponto além do extremo da barra de teste, de {ef._n(c['stop_min'])} a {ef._n(c['stop_max'])} pontos. "
@@ -126,6 +131,9 @@ def regras_niveis(p):
         f"Alvo: o nível seguinte na direção da operação, entre {ef._n(c['alvo_min'])} e {ef._n(c['alvo_max'])} pontos "
         f"({ef._n(c['alvo_padrao'])} quando não há nível). Só entra se o alvo paga pelo menos {ef._n(c['rr_min'])} vezes o risco.",
         f"Condução: metade sai com {ef._n(c['parcial_r'])} vez o risco e o stop vai para o preço de entrada; o resto espera o alvo.",
+        "LEITURA DA FITA: em toda entrada o robô anota o que os negócios mostravam (quem agredia nos últimos 15 segundos, quanto bateram "
+        "no nível, quantas vezes ele foi testado). Por enquanto só mede, não barra a entrada: em algumas semanas dá para saber se a "
+        "entrada que a fita confirma rende mais que a outra.",
         f"Lote: {p.lote_base} contratos de mini-dólar; sobe {p.lote_por_degrau} a cada {ef._rs(p.colchao_por_degrau)} de lucro acumulado (até {p.lote_maximo}).",
         "Para " + ", ".join(parar) + ".",
         f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
@@ -346,9 +354,15 @@ class RoboFluxo:
             except OSError:
                 pass
             if self.setup == "niveis":
+                ft = m.get("fita") or {}
+                if ft.get("confirmou") is None:
+                    da_fita = "fita: sem leitura"
+                else:
+                    da_fita = (f"fita: {(ft.get('fracao_a_favor') or 0) * 100:.0f}% da agressão a favor em 15 s, "
+                               + ("CONFIRMA" if ft["confirmou"] else "não confirma" + ("" if ft.get("amostra_basta") else " (pouco volume)")))
                 self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
                             f"(teste de {ev['nome_nivel']} em {_pontos(ev['nivel'], a)}, rejeitado); stop {_pontos(ev['stop'], a)}, "
-                            f"alvo a {_pontos(m.get('alvo_pts') or 0, a)} pontos", agora)
+                            f"alvo a {_pontos(m.get('alvo_pts') or 0, a)} pontos; {da_fita}", agora)
                 return
             if self.setup == "phicube":
                 self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
@@ -483,10 +497,12 @@ class RoboFluxo:
             except Exception as e:                               # barra estragada nao derruba o robo: fica sem sinal e avisa
                 self.leitura_pc[a], ordem = {"pronto": False, "motivo": f"erro nas barras: {type(e).__name__}: {e}"}, None
             if ordem is not None and self.setup == "niveis":
+                fita = self.leitura_da_fita(a, ordem.lado, ordem.nivel)
                 return {"tecnica": "nível e reação", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
                         "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts, "sem_arrasto": True,
                         "medidas": {"risco_pts": ordem.stop_pts, "alvo_pts": ordem.alvo_pts,
-                                    "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2), "fracao_a_favor": None}}
+                                    "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2),
+                                    "fracao_a_favor": fita.get("fracao_a_favor"), "fita": fita}}
             if ordem is not None:
                 l = self.leitura_pc[a]
                 return {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
@@ -497,6 +513,39 @@ class RoboFluxo:
                                     "medias_maior": l["medias_maior"], "medias_menor": l["medias_menor"],
                                     "risco_pts": ordem.stop_pts, "fracao_a_favor": None}}
         return None
+
+    def leitura_da_fita(self, a, lado, nivel):
+        """O que a fita mostra no instante de uma entrada de grafico. E so MEDIDA, guardada com a operacao: serve para
+        saber, depois de algumas semanas, se a entrada que a fita confirma rende mais que a que ela nao confirma.
+
+        confirmou = nos ultimos 15 s (relogio do pregao) ha amostra que basta e 60% ou mais da agressao e a favor.
+        No nivel: quanto bateram nele nos ultimos 15 minutos sem passar, quantas vezes foi testado e quantos lotes de
+        instituicao (so no contrato cheio)."""
+        try:
+            mini, cheio = self.fitas_mini[a], self.fitas[a]
+            viva = ef.fita_viva(mini, cheio)
+            if not viva.linhas:
+                return {"tem_fita": False, "confirmou": None}
+            conf = ef.confirmacao(viva, self.p)
+            favor = None if conf["fracao_compra"] is None else (conf["fracao_compra"] if lado == "C" else 1.0 - conf["fracao_compra"])
+            min1 = viva.agressao(60)
+            saldo60 = min1["saldo"] if lado == "C" else -min1["saldo"]
+            cfg, tick = ef.ATIVOS[a], es.CONTRATOS[a]["tick"]
+            zona, afasta = max(1, round(cfg.zona_pts / tick)), max(1, round(cfg.afasta_pts / tick))
+            lado_nivel = "compra" if lado == "C" else "venda"
+            nv = es.arredondar(nivel, tick)
+            ab = viva.absorcao(nv, lado_nivel, self.p.janela_defesa_s, folga_ticks=zona, tolerancia_ticks=4)
+            grandes = cheio.absorcao(nv, lado_nivel, self.p.janela_defesa_s, folga_ticks=zona, tolerancia_ticks=4)["rodadas_grandes"] \
+                if cheio.linhas and cheio.separa_tamanho else None
+            return {"tem_fita": True, "fonte": "mini" if viva is mini else ef.ATIVOS[a].fonte_fluxo,
+                    "fracao_a_favor": None if favor is None else round(favor, 3), "volume_15s": conf["total"], "negocios_15s": conf["negocios"],
+                    "tipico_15s": conf["tipico"], "amostra_basta": bool(conf["vale"]),
+                    "confirmou": bool(conf["vale"] and favor is not None and favor >= self.p.fracao_confirma),
+                    "saldo_a_favor_60s": saldo60, "batido_no_nivel_15min": ab["agredido"],
+                    "testes_do_nivel": viva.testes(nv, lado_nivel, self.p.janela_defesa_s, zona_ticks=zona, afasta_ticks=afasta),
+                    "lotes_de_instituicao_no_nivel": grandes}
+        except Exception as e:                                   # medida que falha nao pode derrubar a entrada
+            return {"tem_fita": False, "confirmou": None, "erro": f"{type(e).__name__}: {e}"}
 
     # ── o que a tela mostra alem do resultado ────────────────
     def leitura_dos_niveis(self, a, fita, preco):

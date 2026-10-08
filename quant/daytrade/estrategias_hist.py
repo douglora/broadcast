@@ -301,10 +301,16 @@ class NivelReacao(Estrategia):
              (Prisma 6 ou 7 com preco acima das medias no proprio tempo) e o "proibido comprar"."""
 
     def __init__(self, tempo=4, tol=1.0, fura=2.0, rejeita=1.5, folga=1.0, stop_min=3.0, stop_max=10.0, alvo_min=13.0, alvo_max=40.0,
-                 alvo_padrao=20.0, rr_min=2.0, parcial_r=1.0, idade_extremo=20, redondo=10.0, linhas=False, tipo="mima", nome=None):
+                 alvo_padrao=20.0, rr_min=2.0, parcial_r=1.0, idade_extremo=20, redondo=10.0, linhas=False, tipo="mima", nome=None,
+                 medias=None, tempo_medias=6, tipo_medias="sma", medias_como_nivel=True, filtro_medias=None, so_medias=False):
         self.tempo, self.tol, self.fura, self.rejeita, self.folga = tempo, tol, fura, rejeita, folga
         self.stop_min, self.stop_max, self.alvo_min, self.alvo_max, self.alvo_padrao = stop_min, stop_max, alvo_min, alvo_max, alvo_padrao
         self.rr_min, self.parcial_r, self.idade_extremo, self.redondo, self.linhas, self.tipo = rr_min, parcial_r, idade_extremo, redondo, linhas, tipo
+        # as tres medias do Douglas (36, 72 e 205 no grafico de 6 minutos): entram como niveis e/ou como filtro de lado.
+        # filtro_medias: None (nao filtra); "alinhada" (so opera com as tres em ordem e o preco fora delas, a favor);
+        # "a_favor" (alinhadas mandam o lado; fora de ordem opera os dois); "longa" (so compra acima da mais longa, so vende abaixo).
+        self.medias, self.tempo_medias, self.tipo_medias = tuple(medias or ()), tempo_medias, tipo_medias
+        self.medias_como_nivel, self.filtro_medias, self.so_medias = medias_como_nivel, filtro_medias, so_medias
         self.nome = nome or f"Teste de nível e reação ({tempo} min)"
 
     def preparar(self, m1):
@@ -322,6 +328,21 @@ class NivelReacao(Estrategia):
         self.so, self.sh, self.sl, self.sc = (s[k].to_numpy() for k in ("o", "h", "l", "c"))
         self.is_ = _fechadas(m1.index, s, self.tempo)
         self.nova_s = np.r_[True, self.is_[1:] != self.is_[:-1]]
+        self.valor_medias, self.lado_medias = None, None
+        if self.medias:
+            g = reamostrar(m1, self.tempo_medias)
+            ms_ = [media(g["c"], n, self.tipo_medias) for n in self.medias]
+            ig = _fechadas(m1.index, g, self.tempo_medias)
+            vals = np.vstack([m.to_numpy() for m in ms_])                  # medias x barras do tempo das medias
+            fech = g["c"].to_numpy()
+            ordem_alta = np.all(vals[:-1] > vals[1:], axis=0) & (fech > vals.max(axis=0))
+            ordem_baixa = np.all(vals[:-1] < vals[1:], axis=0) & (fech < vals.min(axis=0))
+            lado = np.where(ordem_alta, 1, np.where(ordem_baixa, -1, 0))
+            longa = np.where(fech > vals[-1], 1, np.where(fech < vals[-1], -1, 0))
+            ok = ig >= 0
+            self.valor_medias = np.where(ok, vals[:, np.clip(ig, 0, None)], np.nan)          # medias x barras de 1 minuto
+            self.lado_medias = np.where(ok, lado[np.clip(ig, 0, None)], 0)
+            self.lado_longa = np.where(ok, longa[np.clip(ig, 0, None)], 0)
         if self.linhas:
             ps, ms, _ = prisma(s, self.tipo)
             acima = ((s["c"] > ms[0]) & (s["c"] > ms[1]) & (s["c"] > ms[2])).to_numpy()
@@ -334,10 +355,16 @@ class NivelReacao(Estrategia):
     def niveis_com_nome(self, i, preco):
         """{valor arredondado ao tick: nome}. Quando dois niveis caem no mesmo preco, vale o primeiro da lista."""
         base = np.floor(preco / self.redondo) * self.redondo
-        lista = [(self.ajuste[i], "ajuste de ontem"), *[(v, n) for v, n in self.extras],
-                 (self.max_ontem[i], "máxima de ontem"), (self.min_ontem[i], "mínima de ontem"), (self.fech_ontem[i], "fechamento de ontem"),
-                 (self.abertura[i], "abertura"), (self.max_dia[i], "máxima do dia"), (self.min_dia[i], "mínima do dia"),
-                 *[(base + k * self.redondo, "número redondo") for k in (-1, 0, 1, 2)]]
+        das_medias = []
+        if self.valor_medias is not None and self.medias_como_nivel:
+            das_medias = [(self.valor_medias[j][i], f"média de {n} ({self.tempo_medias} min)") for j, n in enumerate(self.medias)]
+        lista = [] if self.so_medias else [
+            (self.ajuste[i], "ajuste de ontem"), *[(v, n) for v, n in self.extras],
+            (self.max_ontem[i], "máxima de ontem"), (self.min_ontem[i], "mínima de ontem"), (self.fech_ontem[i], "fechamento de ontem"),
+            (self.abertura[i], "abertura"), (self.max_dia[i], "máxima do dia"), (self.min_dia[i], "mínima do dia")]
+        lista += das_medias
+        if not self.so_medias:
+            lista += [(base + k * self.redondo, "número redondo") for k in (-1, 0, 1, 2)]
         fora = {}
         for v, nome in lista:
             if v is None or np.isnan(v):
@@ -366,6 +393,11 @@ class NivelReacao(Estrategia):
                 continue
             if self.linhas and ((lado == "V" and self.proibido_vender[k]) or (lado == "C" and self.proibido_comprar[k])):
                 continue
+            if self.filtro_medias and self.lado_medias is not None:
+                quer = 1 if lado == "C" else -1
+                lm = self.lado_longa[i] if self.filtro_medias == "longa" else self.lado_medias[i]
+                if (self.filtro_medias in ("alinhada", "longa") and lm != quer) or (self.filtro_medias == "a_favor" and lm == -quer):
+                    continue
             risco = max(risco + 0.5, self.stop_min)            # + meio ponto: a entrada sai 1 tick pior
             if risco > self.stop_max:
                 continue                                       # stop caro: nao opera
