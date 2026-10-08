@@ -91,6 +91,11 @@ def preparar(dia=None, repetir=False):
     dia = dia or agora_brt().date()
     ano = dia.year
     segunda = dia.weekday() == 0
+    if not repetir and _boleta_da_manha(dia) and (_boleta_da_manha(dia) or {}).get("emitida"):
+        # reinicio do robo com a boleta de hoje ja emitida: nada a refazer. Rodar de novo os sinais ou a
+        # boleta no meio do dia nao muda o que ja saiu (o robo fica com a primeira), so gasta tempo.
+        log(f"rotina: a boleta de {dia} ja foi emitida; a preparacao nao roda de novo")
+        return True
     passos = [
         # o anual do ano corrente e regravado pela B3 todo dia: traz o fechamento de ontem
         ("cotacoes", ["-m", "quant.dados.cotahist", "--anos", f"{ano}-{ano}"], 900),

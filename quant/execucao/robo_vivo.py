@@ -220,11 +220,22 @@ class Robo:
         self.arq_estado = os.path.join(self.pasta, "estado.json")
         boleta = self.painel.get("boleta") or {}
         self.boleta_do_dia = boleta if str(boleta.get("data")) == self.hoje else {}
+        # A boleta do dia e a PRIMEIRA que saiu emitida hoje. Se a rodada da manha for refeita com o
+        # pregao andando (dado novo, sinal novo), a boleta nao muda no meio do dia: ordens diferentes
+        # recasadas contra a fita ja vista trocariam execucoes que a tela ja mostrou.
+        arq_copia = os.path.join(self.pasta, "boleta.json")
+        copia = ler_json(arq_copia, padrao=None)
+        if isinstance(copia, dict) and copia.get("emitida") and str(copia.get("data")) == self.hoje:
+            if self.boleta_do_dia.get("emitida") and (
+                    sorted((o.get("ticker"), o.get("lado"), o.get("qtd"), o.get("preco_limite"))
+                           for o in (self.boleta_do_dia.get("ordens") or []))
+                    != sorted((o.get("ticker"), o.get("lado"), o.get("qtd"), o.get("preco_limite"))
+                              for o in (copia.get("ordens") or []))):
+                log("a rodada foi refeita com ordens diferentes; fica valendo a boleta que saiu primeiro hoje")
+            self.boleta_do_dia = copia
+        elif self.boleta_do_dia.get("emitida"):
+            gravar_atomico(arq_copia, json.dumps(self.boleta_do_dia, ensure_ascii=False, indent=1))
         self.sessao = paper_vivo.Sessao(self.boleta_do_dia, reprecificar=True)
-        if self.boleta_do_dia.get("emitida"):
-            # a copia do dia: a medicao da noite (quant.robo fechar) mede ESTA boleta, nao outra
-            gravar_atomico(os.path.join(self.pasta, "boleta.json"),
-                           json.dumps(self.boleta_do_dia, ensure_ascii=False, indent=1))
         salvo = ler_json(self.arq_estado, padrao=None) or {}
         tickers = [o.get("ticker") for o in (self.boleta_do_dia.get("ordens") or [])]
         tickers += list(((self.painel.get("carteira") or {}).get("posicoes") and
