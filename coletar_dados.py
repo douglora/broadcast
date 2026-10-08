@@ -1,0 +1,4283 @@
+#!/usr/bin/env python3
+"""
+Coleta dados de ativos da B3 para a mesa de analise do Claude.
+
+Roda no GitHub Actions (workflow coletar-dados.yml), que tem internet aberta,
+e grava JSONs no branch `dados` deste repositorio. O Claude, numa sessao na
+nuvem sem acesso direto as fontes, le esses JSONs por raw.githubusercontent.com:
+
+    https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/PETR4.json
+    https://raw.githubusercontent.com/douglora/broadcast/dados/snapshot/tesouro.json
+
+Uso:
+    python coletar_dados.py --tickers PETR4,VALE3 --saida dados_out
+    python coletar_dados.py --tickers MELI34 --pares auto --saida dados_out   # ticker + pares + comparativo
+    python coletar_dados.py --snapshot --saida dados_out        # retrato geral do terminal
+    python coletar_dados.py --saida dados_out                    # lista padrao (modelo de TIR)
+
+Fontes por ativo, em ordem de autoridade:
+  1. Demonstracoes oficiais: CVM dados abertos (DFP anual e ITR trimestral,
+     consolidado) para companhias da B3; XBRL da SEC (10-K, 10-Q, 20-F) para
+     papeis dos EUA, ADRs e a acao-mae dos BDRs. Series trimestrais limpas,
+     com o 4T derivado do anual.
+  2. Release de resultados do RI: o mesmo PDF que a empresa publica no site
+     de RI, lido na copia oficial entregue a CVM (IPE, "Press-release") ou a
+     SEC (8-K item 2.02 / 6-K, exhibit 99). Texto integral no JSON, para os
+     KPIs que nao estao nas demonstracoes (GMV, NIMAL, same-store sales,
+     guidance, divida por moeda). Quando a copia da CVM esta atras do ITR
+     mais novo (o IPE do ano corrente ja saiu do ar), a central de resultados
+     do site de RI (ri_fontes.py) completa os trimestres que faltam; o bloco
+     `frescor` do JSON mede essa defasagem.
+  3. Yahoo Finance (cotacao, historico, consenso, noticias), Fundamentus
+     (indicadores no padrao brasileiro), CVM IPE (fatos relevantes), Banco
+     Central (Selic, IPCA, dolar) e o modelo de TIR real deste repositorio.
+Com --pares auto, coleta tambem os pares do grupo (pares.py) e grava
+comparativos/<grupo>.json com multiplos, margens e series oficiais lado a lado.
+Cada fonte falha sozinha: o JSON registra o que respondeu e o que nao.
+"""
+
+import argparse
+import csv
+import html as htmlmod
+import io
+import json
+import math
+import os
+import re
+import shutil
+import sys
+import tempfile
+import time
+import unicodedata
+from datetime import datetime, timedelta, timezone
+from urllib.parse import urljoin
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, BASE_DIR)
+
+import requests  # noqa: E402
+
+import app  # noqa: E402  (reaproveita http_get, IPE_URL, sgs_fetch)
+import pares as PARES_MOD  # noqa: E402  (grupos de pares e acao-mae dos BDRs)
+import tir_real_servidor as TIR  # noqa: E402
+
+UA = app.UA
+GENERICAS = {"S", "A", "SA", "S.A.", "S/A", "HOLDING", "PARTICIPACOES", "CIA", "COMPANHIA",
+             "DO", "DA", "DE", "DOS", "DAS", "E", "ON", "PN", "N1", "N2", "NM", "UNT", "BCO", "BANCO"}
+
+
+def agora():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def nativo(v):
+    """Converte numpy/pandas em tipos JSON; NaN vira None."""
+    try:
+        import numpy as np
+        if isinstance(v, (np.integer,)):
+            return int(v)
+        if isinstance(v, (np.floating,)):
+            v = float(v)
+    except Exception:
+        pass
+    if isinstance(v, float):
+        return None if (math.isnan(v) or math.isinf(v)) else round(v, 6)
+    if hasattr(v, "isoformat"):
+        try:
+            return v.strftime("%Y-%m-%d")
+        except Exception:
+            return str(v)
+    if isinstance(v, (str, int, bool)) or v is None:
+        return v
+    return str(v)
+
+
+def df_para_dict(df, max_colunas=8):
+    """DataFrame de demonstracoes (linhas x periodos) -> {linha: {periodo: valor}}."""
+    if df is None or getattr(df, "empty", True):
+        return {}
+    out = {}
+    cols = list(df.columns)[:max_colunas]
+    for linha in df.index:
+        item = {}
+        for c in cols:
+            val = nativo(df.at[linha, c])
+            if val is not None:
+                item[nativo(c)] = val
+        if item:
+            out[str(linha)] = item
+    return out
+
+
+def normalizar(texto):
+    t = unicodedata.normalize("NFKD", str(texto or "")).encode("ascii", "ignore").decode()
+    t = re.sub(r"[^A-Za-z0-9 ]+", " ", t.upper())
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def nucleo_nome(nome):
+    """'Banco do Brasil S.A.' -> 'BCO BRASIL'; 'Petróleo Brasileiro S.A. - Petrobras' -> 'PETROLEO BRASILEIRO PETROBRAS'."""
+    palavras = [p for p in normalizar(nome).split() if p not in GENERICAS]
+    return " ".join(palavras)
+
+
+# ───────────────────────── Yahoo Finance ─────────────────────────
+CAMPOS_INFO = [
+    "longName", "shortName", "sector", "industry", "website", "longBusinessSummary",
+    "fullTimeEmployees", "currency", "exchange", "currentPrice", "regularMarketPrice",
+    "previousClose", "open", "dayLow", "dayHigh", "fiftyTwoWeekLow", "fiftyTwoWeekHigh",
+    "fiftyDayAverage", "twoHundredDayAverage", "averageVolume", "averageVolume10days",
+    "marketCap", "enterpriseValue", "sharesOutstanding", "floatShares", "beta",
+    "trailingPE", "forwardPE", "priceToBook", "priceToSalesTrailing12Months",
+    "enterpriseToRevenue", "enterpriseToEbitda", "dividendYield", "trailingAnnualDividendRate",
+    "trailingAnnualDividendYield", "payoutRatio", "fiveYearAvgDividendYield",
+    "returnOnEquity", "returnOnAssets", "profitMargins", "grossMargins", "ebitdaMargins",
+    "operatingMargins", "revenueGrowth", "earningsGrowth", "earningsQuarterlyGrowth",
+    "totalRevenue", "ebitda", "netIncomeToCommon", "totalDebt", "totalCash", "debtToEquity",
+    "currentRatio", "freeCashflow", "operatingCashflow", "trailingEps", "forwardEps",
+    "bookValue", "recommendationKey", "recommendationMean", "numberOfAnalystOpinions",
+    "targetMeanPrice", "targetMedianPrice", "targetHighPrice", "targetLowPrice",
+    "earningsTimestamp", "exDividendDate", "lastDividendValue", "lastDividendDate",
+]
+
+
+def eh_simbolo_us(tk):
+    """Ticker so com letras (ate 5, classe opcional) e um papel dos EUA, ex.: MELI, AAPL, BRK-B."""
+    return re.fullmatch(r"[A-Z]{1,5}(-[A-Z])?", tk) is not None
+
+
+def eh_bdr(tk):
+    """BDR da B3: 4 caracteres + 31..39, ex.: MELI34, AAPL34, GOGL35, M1TA34, STOC31."""
+    return re.fullmatch(r"[A-Z][A-Z0-9]{3}3[1-9]", tk) is not None
+
+
+def simbolo_subjacente(tk):
+    """Acao-mae nos EUA de um BDR: excecoes em pares.BDR_SUBJACENTE, senao as 4 letras."""
+    return PARES_MOD.BDR_SUBJACENTE.get(tk, tk[:4])
+
+
+def coletar_yahoo(tk, fontes, simbolo=None):
+    import yfinance as yf
+    simbolo = simbolo or (tk if eh_simbolo_us(tk) else f"{tk}.SA")
+    t = yf.Ticker(simbolo)
+    dados = {"simbolo": simbolo}
+
+    try:
+        info = t.info or {}
+        dados["info"] = {k: nativo(info.get(k)) for k in CAMPOS_INFO if info.get(k) is not None}
+        fontes["yahoo_info"] = "ok" if dados["info"] else "vazio"
+    except Exception as e:
+        fontes["yahoo_info"] = f"falha: {type(e).__name__}: {e}"[:160]
+        dados["info"] = {}
+
+    try:
+        h = t.history(period="1y", interval="1d", auto_adjust=False)
+        fech = [[d.strftime("%Y-%m-%d"), round(float(v), 4)] for d, v in h["Close"].dropna().items()]
+        dados["historico"] = {"fechamentos_diarios": fech}
+        if fech:
+            ultimo = fech[-1][1]
+            def ret(n):
+                if len(fech) > n and fech[-1 - n][1]:
+                    return round(ultimo / fech[-1 - n][1] - 1, 4)
+                return None
+            ano = fech[-1][0][:4]
+            ytd_base = next((c for d, c in fech if d.startswith(ano)), None)
+            dados["retornos"] = {
+                "1m": ret(21), "3m": ret(63), "6m": ret(126),
+                "12m": round(ultimo / fech[0][1] - 1, 4) if fech[0][1] else None,
+                "ytd": round(ultimo / ytd_base - 1, 4) if ytd_base else None,
+                "max_52s": round(max(c for _, c in fech), 4),
+                "min_52s": round(min(c for _, c in fech), 4),
+                "ultimo_fechamento": {"data": fech[-1][0], "preco": ultimo},
+            }
+        fontes["yahoo_historico"] = f"ok ({len(fech)} pregoes)"
+    except Exception as e:
+        fontes["yahoo_historico"] = f"falha: {type(e).__name__}: {e}"[:160]
+
+    try:
+        div = t.dividends
+        corte = datetime.now(timezone.utc) - timedelta(days=730)
+        itens = []
+        for d, v in div.items():
+            d2 = d.to_pydatetime()
+            if d2.tzinfo is None:
+                d2 = d2.replace(tzinfo=timezone.utc)
+            if d2 >= corte:
+                itens.append({"data": d2.strftime("%Y-%m-%d"), "valor": round(float(v), 6)})
+        soma12 = sum(i["valor"] for i in itens
+                     if datetime.strptime(i["data"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                     >= datetime.now(timezone.utc) - timedelta(days=365))
+        dados["dividendos"] = {"ultimos_24m": itens, "soma_12m_por_acao": round(soma12, 6)}
+        fontes["yahoo_dividendos"] = f"ok ({len(itens)} eventos em 24m)"
+    except Exception as e:
+        fontes["yahoo_dividendos"] = f"falha: {type(e).__name__}: {e}"[:160]
+
+    demonstracoes = {}
+    for nome, attr in (("dre_anual", "income_stmt"), ("dre_trimestral", "quarterly_income_stmt"),
+                       ("balanco_anual", "balance_sheet"), ("balanco_trimestral", "quarterly_balance_sheet"),
+                       ("caixa_anual", "cashflow"), ("caixa_trimestral", "quarterly_cashflow")):
+        try:
+            demonstracoes[nome] = df_para_dict(getattr(t, attr))
+            n = len(demonstracoes[nome])
+            fontes[f"yahoo_{nome}"] = f"ok ({n} linhas)" if n else "vazio"
+        except Exception as e:
+            fontes[f"yahoo_{nome}"] = f"falha: {type(e).__name__}: {e}"[:160]
+    dados["demonstracoes"] = demonstracoes
+
+    consenso = {}
+    try:
+        alvo = t.analyst_price_targets
+        if alvo:
+            consenso["preco_alvo"] = {k: nativo(v) for k, v in dict(alvo).items()}
+    except Exception as e:
+        fontes["yahoo_preco_alvo"] = f"falha: {type(e).__name__}"
+    try:
+        rec = t.recommendations
+        if rec is not None and not rec.empty:
+            consenso["recomendacoes"] = [{k: nativo(v) for k, v in row.items()}
+                                         for row in rec.to_dict("records")]
+    except Exception as e:
+        fontes["yahoo_recomendacoes"] = f"falha: {type(e).__name__}"
+    info = dados.get("info", {})
+    for k in ("recommendationKey", "recommendationMean", "numberOfAnalystOpinions",
+              "targetMeanPrice", "targetMedianPrice", "targetHighPrice", "targetLowPrice"):
+        if info.get(k) is not None:
+            consenso[k] = info[k]
+    dados["consenso"] = consenso
+    fontes["yahoo_consenso"] = "ok" if consenso else "vazio"
+
+    try:
+        ed = t.earnings_dates
+        if ed is not None and not ed.empty:
+            hoje = datetime.now(timezone.utc)
+            prox = [nativo(d) for d in ed.index if d.to_pydatetime().replace(tzinfo=timezone.utc) >= hoje]
+            dados["eventos"] = {"datas_de_resultado": sorted(set(prox))[:4]}
+            fontes["yahoo_eventos"] = "ok"
+    except Exception as e:
+        fontes["yahoo_eventos"] = f"falha: {type(e).__name__}"
+
+    try:
+        noticias = []
+        for n in (t.news or [])[:12]:
+            c = n.get("content") or n
+            titulo = c.get("title")
+            link = ((c.get("canonicalUrl") or {}).get("url")) or c.get("link")
+            fonte = ((c.get("provider") or {}).get("displayName")) or c.get("publisher")
+            data = c.get("pubDate") or c.get("providerPublishTime")
+            if titulo:
+                noticias.append({"titulo": titulo, "fonte": fonte, "data": nativo(data), "link": link})
+        dados["noticias_yahoo"] = noticias
+        fontes["yahoo_noticias"] = f"ok ({len(noticias)})"
+    except Exception as e:
+        fontes["yahoo_noticias"] = f"falha: {type(e).__name__}"
+
+    # Multiplos recalculados a partir dos insumos, para cruzar com os prontos
+    try:
+        preco = info.get("currentPrice") or info.get("regularMarketPrice") \
+            or (dados.get("retornos") or {}).get("ultimo_fechamento", {}).get("preco")
+        calc = {"preco_usado": preco}
+        if preco and info.get("trailingEps"):
+            calc["pl_12m"] = round(preco / info["trailingEps"], 2)
+        if preco and info.get("forwardEps"):
+            calc["pl_projetado"] = round(preco / info["forwardEps"], 2)
+        if preco and info.get("bookValue"):
+            calc["pvp"] = round(preco / info["bookValue"], 2)
+        if info.get("enterpriseValue") and info.get("ebitda"):
+            calc["ev_ebitda"] = round(info["enterpriseValue"] / info["ebitda"], 2)
+        if preco and dados.get("dividendos"):
+            calc["dy_12m"] = round(dados["dividendos"]["soma_12m_por_acao"] / preco, 4)
+        if info.get("totalDebt") is not None and info.get("totalCash") is not None:
+            calc["divida_liquida"] = info["totalDebt"] - info["totalCash"]
+            if info.get("ebitda"):
+                calc["divida_liquida_ebitda"] = round(calc["divida_liquida"] / info["ebitda"], 2)
+        dados["multiplos_calculados"] = calc
+    except Exception as e:
+        fontes["multiplos_calculados"] = f"falha: {type(e).__name__}"
+    return dados
+
+
+# ───────────────────────── Fundamentus ─────────────────────────
+PAR_FUNDAMENTUS = re.compile(
+    r'<span class="txt">(.*?)</span>\s*</td>\s*<td class="data[^"]*">\s*<span class="txt">(.*?)</span>', re.S)
+
+
+def _limpar(s):
+    s = re.sub(r"<[^>]+>", "", s or "")
+    return htmlmod.unescape(s).replace("\xa0", " ").strip()
+
+
+def _numero_br(s):
+    s = _limpar(s)
+    if s in ("", "-", "--"):
+        return None
+    pct = s.endswith("%")
+    s = s.rstrip("%").replace(".", "").replace(",", ".")
+    try:
+        v = float(s)
+    except ValueError:
+        return _limpar(s) or None
+    return round(v / 100, 6) if pct else v
+
+
+def coletar_fundamentus(tk, fontes):
+    url = f"https://www.fundamentus.com.br/detalhes.php?papel={tk}"
+    r = app.http_get(url, timeout=20, headers={"Accept-Language": "pt-BR,pt;q=0.9"})
+    if not r:
+        fontes["fundamentus"] = "falha: sem resposta"
+        return {}
+    pares = PAR_FUNDAMENTUS.findall(r.text)
+    out = {}
+    for rotulo, valor in pares:
+        # O rotulo as vezes vem colado ao bloco anterior da tabela ("Dia -2,53% ?P/L"):
+        # fica so a ultima linha, sem o "?" do tooltip.
+        rot = _limpar(rotulo).strip().split("\n")[-1].strip().lstrip("?").strip()
+        if not rot or rot in out:
+            continue
+        out[rot] = _numero_br(valor)
+    if not out:
+        fontes["fundamentus"] = "falha: pagina sem indicadores (bloqueio ou layout novo)"
+        return {}
+    out["_fonte"] = url
+    fontes["fundamentus"] = f"ok ({len(out) - 1} campos)"
+    return out
+
+
+# ───────────────────────── CVM (IPE) ─────────────────────────
+_IPE_CACHE = {}
+
+
+def _linhas_ipe(ano):
+    """Indice IPE do ano, de todas as partes do zip. Cacheado por execucao."""
+    if ano in _IPE_CACHE:
+        return _IPE_CACHE[ano]
+    try:
+        linhas = app.baixar_ipe_linhas(ano)
+    except Exception as e:
+        app.log(f"cvm: IPE {ano} falhou ({e})")
+        linhas = []
+    _IPE_CACHE[ano] = linhas
+    return linhas
+
+
+def coletar_cvm(tk, nomes, fontes, limite=40):
+    """Fatos relevantes e comunicados da CVM para a companhia do ticker."""
+    nucleos = [nucleo_nome(n) for n in nomes if n]
+    nucleos = [n for n in nucleos if n]
+    if not nucleos:
+        fontes["cvm"] = "sem nome de companhia para casar"
+        return {}
+    hoje = datetime.now(timezone.utc)
+    ano = hoje.year
+    # Tres anos de IPE: fatos relevantes usam so a janela recente, mas o historico de releases
+    # precisa de 8 trimestres para tras. Os zips ficam em cache por execucao.
+    linhas, por_ano = [], {}
+    for a in (ano, ano - 1, ano - 2):
+        do_ano = _linhas_ipe(a)
+        por_ano[a] = len(do_ano)
+        linhas += do_ano
+    if not linhas:
+        fontes["cvm"] = "falha: IPE indisponivel"
+        return {}
+    vazios = [str(a) for a, n in por_ano.items() if not n]
+    if vazios:
+        app.log(f"cvm: IPE sem linhas em {', '.join(vazios)} (indice incompleto; documentos desses anos vao faltar)")
+
+    def casa(nome_cvm):
+        """2 = nucleo igual (BANCO DO BRASIL S.A. -> BRASIL); 1 = um e prefixo do outro (BRASIL TECNOLOGIA)."""
+        n = nucleo_nome(nome_cvm)
+        melhor = 0
+        for alvo in nucleos:
+            if n == alvo:
+                return 2
+            if n.startswith(alvo + " ") or alvo.startswith(n + " "):
+                melhor = max(melhor, 1)
+        return melhor
+
+    def casa_fraco(nome_cvm):
+        n = set(nucleo_nome(nome_cvm).split())
+        for alvo in nucleos:
+            palavras = [p for p in alvo.split() if len(p) >= 5]
+            if palavras and all(p in n for p in palavras):
+                return 1
+        return 0
+
+    docs, metodo = [], None
+    for tentativa in (casa, casa_fraco):
+        docs, pontuacao = [], {}
+        for row in linhas:
+            empresa = (row.get("Nome_Companhia") or "").strip()
+            if not empresa:
+                continue
+            nota = pontuacao.get(empresa)
+            if nota is None:
+                nota = pontuacao[empresa] = tentativa(empresa)
+            if not nota:
+                continue
+            docs.append({
+                "empresa": empresa, "_nota": nota,
+                "categoria": (row.get("Categoria") or "").strip(),
+                "tipo": (row.get("Tipo") or "").strip(),
+                "assunto": (row.get("Assunto") or "").strip()[:240],
+                "data": (row.get("Data_Entrega") or "")[:10],
+                "link": (row.get("Link_Download") or "").strip(),
+            })
+        if docs:
+            # Fica a empresa com o melhor casamento; no empate, a que tem mais documentos.
+            # Evita trocar o Banco do Brasil pela Brasil Tecnologia ou o BTG pela BTG Commodities.
+            melhor_nota = max(d["_nota"] for d in docs)
+            contagem = {}
+            for d in docs:
+                if d["_nota"] == melhor_nota:
+                    contagem[d["empresa"]] = contagem.get(d["empresa"], 0) + 1
+            escolhida = max(contagem, key=contagem.get)
+            outras = sorted({d["empresa"] for d in docs if d["empresa"] != escolhida})
+            docs = [{k: v for k, v in d.items() if k != "_nota"} for d in docs if d["empresa"] == escolhida]
+            metodo = tentativa.__name__
+            break
+    docs.sort(key=lambda d: d["data"], reverse=True)
+    corte = (hoje - timedelta(days=365)).strftime("%Y-%m-%d")
+    recentes = [d for d in docs if d["data"] >= corte]
+    fatos = [d for d in recentes if d["categoria"] == "Fato Relevante"][:limite]
+    outros = [d for d in recentes if d["categoria"] != "Fato Relevante"][:limite]
+    # Documentos de resultado dos 3 anos: o release (mesmo PDF do site de RI) e a apresentacao.
+    # Teto alto de proposito: o Itau publica quatro por trimestre (duas apresentacoes, o press
+    # release e a Analise Gerencial), e um teto baixo cortava o historico em menos de 8 trimestres.
+    resultado = [d for d in docs if _eh_documento_resultado(d)][:60]
+    indice = ", ".join(f"{a}: {n} linhas" for a, n in sorted(por_ano.items(), reverse=True))
+    fontes["cvm"] = (f"ok ({len(fatos)} fatos relevantes, {len(outros)} outros, "
+                     f"{len(resultado)} de resultado; casamento {metodo}; "
+                     f"empresa: {docs[0]['empresa']}; indice IPE {indice})") if docs else (
+                     f"sem documentos casados (indice IPE {indice})")
+    codigos = {}
+    for row in linhas:
+        empresa = (row.get("Nome_Companhia") or "").strip()
+        if docs and empresa == docs[0]["empresa"]:
+            codigos[empresa] = (row.get("Codigo_CVM") or "").strip()
+            break
+    return {"fatos_relevantes": fatos, "outros_documentos": outros, "documentos_resultado": resultado,
+            "empresa_escolhida": docs[0]["empresa"] if docs else None,
+            "empresas_casadas": ([docs[0]["empresa"]] + outras) if docs else [],
+            "codigo_cvm": codigos.get(docs[0]["empresa"]) if docs else None}
+
+
+# Documento anual ou societario que as vezes chega com tipo "Press-release": nao e release
+# de trimestre e polui o historico (o "Relatorio da Administracao 2025" do Magalu virou 4T24).
+_RE_NAO_E_RELEASE = re.compile(
+    r"RELATORIO DA ADMINISTRACAO|RELATORIO ANUAL|RELATO INTEGRADO|FORMULARIO DE REFERENCIA|"
+    r"DEMONSTRACOES FINANCEIRAS|RELATORIO DE SUSTENTABILIDADE|RELATORIO DO AUDITOR|"
+    r"POLITICA DE|ESTATUTO|ATA DE|EDITAL|PROSPECTO|CODIGO DE CONDUTA|PARECER")
+_RE_ASSUNTO_RESULTADO = re.compile(
+    r"PRESS RELEASE|RELEASE DE RESULTADO|RELEASE RESULTADO|DIVULGACAO DE RESULTADO|DIVULGACAO DOS RESULTADOS|"
+    r"EARNINGS RELEASE|EARNINGS|INFORMACOES SOBRE O RESULTADO|RESULTADO DO [1-4]|RESULTADOS DO [1-4]|"
+    r"ANALISE GERENCIAL|ANALISE DO DESEMPENHO|COMENTARIO DE DESEMPENHO|RESULTADO [1-4]T|RESULTADOS [1-4]T")
+
+
+def _classe_documento_resultado(d):
+    """'release' (texto de resultados: press-release ou relatorio gerencial), 'apresentacao' ou None."""
+    cat, tipo, assunto = normalizar(d["categoria"]), normalizar(d["tipo"]), normalizar(d["assunto"])
+    if _RE_NAO_E_RELEASE.search(assunto):
+        return None
+    if cat.startswith("DADOS ECONOMICO") and (tipo.startswith("PRESS RELEASE") or tipo.startswith("RELATORIO DE ANALISE GERENCIAL")):
+        return "release"
+    if tipo.startswith("APRESENTACOES A ANALISTAS"):
+        return "apresentacao" if re.search(r"RESULTADO|EARNINGS|RESULTS|[1-4]T\d\d|[1-4]Q\d\d", assunto) else None
+    if cat.startswith("COMUNICADO AO MERCADO") and _RE_ASSUNTO_RESULTADO.search(assunto) \
+            and not re.search(r"\bCALL\b|TELECONFERENCIA|WEBCAST|CONVITE|PERIODO DE SILENCIO|CALENDARIO", assunto):
+        return "release"
+    return None
+
+
+def _eh_documento_resultado(d):
+    return _classe_documento_resultado(d) is not None
+
+
+# ───────────────────────── Release de resultados (RI via CVM e SEC) ─────────────────────────
+# O release que a empresa publica no site de RI e entregue, no mesmo dia, a
+# CVM (IPE, categoria "Dados Economico-Financeiros / Press-release") e, para
+# quem reporta a SEC, como exhibit 99 de um 8-K (item 2.02) ou 6-K. Lemos
+# essa copia oficial: mesmo PDF, sem depender do layout de cada site de RI.
+RELEASE_MAX_CHARS = 150000
+RELEASE_MAX_PAGINAS = 80
+# Quantos releases guardar por ativo (8 trimestres = 2 anos de discurso da gestao)
+RELEASES_POR_ATIVO = 8
+# Teto de tempo, por ativo, gasto baixando releases que ainda nao estao no branch.
+# Estourou, para e completa o historico na proxima coleta.
+RELEASE_ORCAMENTO_S = 150
+
+_RE_TRI_CURTO = re.compile(r"\b([1-4])\s*[TQ]\s*(\d{2})\b")
+_RE_TRI_LONGO = re.compile(r"\b([1-4])\s*O?\s*(?:TRIMESTRE|QUARTER)\s*(?:DE|OF)?\s*(\d{4})\b")
+_RE_TRI_EN = re.compile(r"\b(FIRST|SECOND|THIRD|FOURTH)\s+QUARTER\b.{0,45}?\b(20\d{2})\b")
+_ORDINAL_EN = {"FIRST": 1, "SECOND": 2, "THIRD": 3, "FOURTH": 4}
+
+
+def periodo_release(*textos):
+    """'Release de Resultados 2T26' ou 'second quarter 2026' -> '2T26'. None se nao achar."""
+    for texto in textos:
+        t = normalizar(texto)[:4000]
+        for rx, conv in ((_RE_TRI_CURTO, lambda a, b: (int(a), int(b))),
+                         (_RE_TRI_LONGO, lambda a, b: (int(a), int(b) % 100)),
+                         (_RE_TRI_EN, lambda a, b: (_ORDINAL_EN[a], int(b) % 100))):
+            m = rx.search(t)
+            if m:
+                tri, ano = conv(m.group(1), m.group(2))
+                return f"{tri}T{ano:02d}"
+    return None
+
+
+def trimestre_anterior(data):
+    """'2026-08-05' -> '2T26': o trimestre que fechou antes dessa data."""
+    try:
+        d = datetime.strptime(data[:10], "%Y-%m-%d")
+    except (ValueError, TypeError):
+        return None
+    tri, ano = (d.month - 1) // 3, d.year
+    if tri == 0:
+        tri, ano = 4, ano - 1
+    return f"{tri}T{ano % 100:02d}"
+
+
+def _texto_pdf(conteudo, max_paginas=RELEASE_MAX_PAGINAS):
+    """Texto de um PDF (pypdf), com marcadores de pagina. None se nao der."""
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None, "pypdf nao instalado"
+    try:
+        leitor = PdfReader(io.BytesIO(conteudo))
+        partes, n = [], len(leitor.pages)
+        for i, pagina in enumerate(leitor.pages[:max_paginas]):
+            try:
+                t = pagina.extract_text() or ""
+            except Exception:
+                t = ""
+            t = re.sub(r"[ \t\xa0]+", " ", t)
+            t = re.sub(r"\n{3,}", "\n\n", t).strip()
+            if t:
+                partes.append(f"[p. {i + 1}]\n{t}")
+        return "\n\n".join(partes), f"{n} paginas"
+    except Exception as e:
+        return None, f"pdf ilegivel: {type(e).__name__}"
+
+
+def _html_para_texto(html):
+    t = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html)
+    t = re.sub(r"(?i)<br\s*/?>|</p>|</div>|</tr>|</h\d>|</li>", "\n", t)
+    t = re.sub(r"(?i)</t[dh]>", " | ", t)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = htmlmod.unescape(t).replace("\xa0", " ")
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r" *\n *", "\n", t)
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+
+def _texto_de_download(r):
+    """Texto de uma resposta HTTP que pode ser PDF, zip com PDF, ou HTML."""
+    conteudo = r.content or b""
+    tipo = (r.headers.get("Content-Type") or "").lower()
+    # PDF pela assinatura (a norma admite ate 1024 bytes antes de %PDF) ou pelo Content-Type: um PDF
+    # truncado ou servido com tipo errado cai em _texto_pdf ('pdf ilegivel', falha passageira) em vez
+    # de virar 'formato desconhecido' e ser descartado como se nao fosse release
+    if b"%PDF" in conteudo[:1024] or tipo.startswith("application/pdf"):
+        return _texto_pdf(conteudo)
+    if conteudo[:2] == b"PK":
+        try:
+            import zipfile
+            with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+                pdfs = [n for n in z.namelist() if n.lower().endswith(".pdf")]
+                if pdfs:
+                    return _texto_pdf(z.read(pdfs[0]))
+        except Exception as e:
+            return None, f"zip ilegivel: {type(e).__name__}"
+        return None, "zip sem PDF"
+    if "html" in tipo or b"<html" in conteudo[:2000].lower():
+        return _html_para_texto(r.text), "html"
+    try:
+        return r.content.decode("utf-8"), "texto"
+    except Exception:
+        return None, f"formato desconhecido ({tipo[:40]})"
+
+
+_RE_FALHA_PASSAGEIRA = re.compile(r"^(pypdf nao instalado|pdf ilegivel|zip ilegivel|formato desconhecido)")
+_RE_PAGINA_BLOQUEIO = re.compile(r"(?i)just a moment|checking your browser|attention required|access denied|"
+                                 r"enable javascript and cookies|cf-browser-verification|incapsula|"
+                                 r"request unsuccessful|service unavailable|temporarily unavailable|"
+                                 r"too many requests|(error|erro) 5\d\d")
+
+
+def _falha_passageira(texto, detalhe, curto_passageiro=False):
+    """True quando a reprovacao de um documento pode ser do ambiente ou do servidor, nao do documento.
+
+    Um link gravado em `descartados` no index.json nunca mais e baixado; por isso so vai para la o que
+    e deterministico: zip sem PDF, PDF legivel sem texto nenhum (imagem escaneada) e pagina HTML de
+    verdade que nao e release. 'pypdf nao instalado' (pip falhou no runner), 'pdf ilegivel' (download
+    truncado), 'zip ilegivel', 'formato desconhecido' e, com `curto_passageiro`, texto curto (pagina de
+    erro momentanea ou desafio de WAF com 200 OK) ficam de fora e o link e tentado de novo na proxima
+    coleta. Sem isso um pip que falhasse uma vez apagava o release mais novo de todos os ativos do run."""
+    if texto is None:
+        return bool(_RE_FALHA_PASSAGEIRA.match(detalhe or ""))
+    if not texto and re.match(r"\d+ paginas$", detalhe or ""):
+        return False
+    return curto_passageiro
+
+
+SEC_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+SEC_INDEX_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/index.json"
+SEC_ARQUIVO_URL = "https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{nome}"
+_PALAVRAS_RESULTADO = re.compile(r"(?i)(quarter|trimestre|fiscal year|full[- ]year|results|resultados|earnings)")
+
+
+def _montar_release(texto, detalhe, meta):
+    """Objeto de release: metadados, trimestre e o texto (cortado em RELEASE_MAX_CHARS)."""
+    if not texto:
+        return None
+    texto = texto.strip()
+    cortado = len(texto) > RELEASE_MAX_CHARS
+    periodo = meta.get("periodo") or periodo_release(meta.get("assunto") or "", texto[:4000]) \
+        or trimestre_anterior(meta.get("data"))
+    return {**meta, "periodo": periodo, "detalhe": detalhe, "caracteres_total": len(texto),
+            "cortado": cortado, "texto": texto[:RELEASE_MAX_CHARS]}
+
+
+def _preferencia_release_cvm(d):
+    """Ordem dentro do trimestre: relatorio gerencial, press-release em portugues, sem idioma, ingles, comunicado."""
+    tipo, assunto = normalizar(d["tipo"]), normalizar(d["assunto"])
+    if tipo.startswith("RELATORIO DE ANALISE GERENCIAL"):
+        return 0
+    if tipo.startswith("PRESS RELEASE"):
+        if re.search(r"PORTUGU|\bPT\b|\bPOR\b", assunto):
+            return 0.5
+        return 1 if re.search(r"INGL|ENGL|\bEN\b|ENGLISH", assunto) else 0.7
+    return 2
+
+
+_FIM_DO_TRIMESTRE = {1: "03-31", 2: "06-30", 3: "09-30", 4: "12-31"}
+
+
+def ordem_periodo(periodo):
+    """'2T26' -> (2026, 2), para ordenar; (0, 0) quando nao ha trimestre."""
+    m = re.fullmatch(r"([1-4])T(\d{2})", periodo or "")
+    return (2000 + int(m.group(2)), int(m.group(1))) if m else (0, 0)
+
+
+def _ano_trimestre(rotulo):
+    """'2T26', '2026T2' ou 'CY2026Q2' -> (ano, trimestre). None quando nao e um trimestre.
+
+    Os tres formatos convivem no branch: releases ('2T26'), series da CVM ('2026T2') e da SEC
+    ('CY2026Q2'). Comparar frescor exige le-los todos."""
+    p = str(rotulo or "").strip().upper()
+    m = re.fullmatch(r"([1-4])[TQ](\d{2}|\d{4})", p)
+    if m:
+        ano = int(m.group(2))
+        return (ano if ano > 99 else 2000 + ano, int(m.group(1)))
+    m = re.fullmatch(r"(?:CY)?(\d{4})[TQ]([1-4])", p)
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def defasagem_release(periodo_release, periodo_itr):
+    """Quantos trimestres o release mais novo esta ATRAS do ITR/XBRL mais novo.
+
+    defasagem_release('3T25', '2026T2') == 3; ('2T26', '2026T2') == 0; sem release == 99.
+    Sem ITR legivel nao ha como medir: devolve 0 (quem chama escolhe outra referencia)."""
+    rel = _ano_trimestre(periodo_release)
+    if rel is None:
+        return 99
+    itr = _ano_trimestre(periodo_itr)
+    if itr is None:
+        return 0
+    return max(0, (itr[0] * 4 + itr[1]) - (rel[0] * 4 + rel[1]))
+
+
+def _periodo_plausivel(periodo, data, dias=120):
+    """O trimestre precisa ter fechado nos ultimos `dias` antes da entrega do documento.
+
+    Sem isso, um trimestre citado de passagem no meio de um relatorio anual vira o rotulo
+    do documento inteiro."""
+    ano, tri = ordem_periodo(periodo)
+    if not tri or not data:
+        return False
+    try:
+        fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+        entrega = datetime.strptime(str(data)[:10], "%Y-%m-%d")
+    except ValueError:
+        return False
+    return -10 <= (entrega - fim).days <= dias
+
+
+def _ajustar_periodo(item):
+    """Troca o trimestre implausivel pelo que fechou antes da entrega. Devolve o item."""
+    if not _periodo_plausivel(item.get("periodo"), item.get("data")):
+        item["periodo"] = trimestre_anterior(item.get("data"))
+    return item
+
+
+# Texto menor que isso nao sustenta analise: o trimestre conta como lacuna, nao como coberto.
+RELEASE_MIN_UTIL = 4000
+
+
+def janela_obrigatoria(n=RELEASES_POR_ATIVO, hoje=None, referencia=None):
+    """Os `n` trimestres que a mesa PRECISA ter, do mais novo para o mais antigo.
+
+    A ponta e a MESMA referencia do frescor: o mais novo entre o ITR/XBRL e o trimestre cujo prazo
+    legal de divulgacao ja venceu. Divergir disso cria laco infinito - num ativo que antecipa o ITR, o
+    leitor cobra um trimestre que o coletor nunca vai buscar e a cobertura nunca fecha. Fora essa
+    ponta, a janela vem do calendario, nao do que o coletor achou: e igual para todo ativo."""
+    venc = trimestre_vencido(hoje)
+    par = _ano_trimestre(venc) if venc else None
+    ref = _ano_trimestre(referencia) if referencia else None
+    if ref and (not par or ref > par):
+        par = ref
+    if not par:
+        return []
+    ano, tri = par
+    janela = []
+    for _ in range(max(0, n)):
+        janela.append(f"{tri}T{ano % 100:02d}")
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return janela
+
+
+def release_fraco(r, piso_relativo=0):
+    """(fraco, motivo) de um release do indice: existe, mas nao serve de fonte para a mesa."""
+    if not r:
+        return True, "ausente"
+    n = r.get("caracteres_total") or 0
+    if n < RELEASE_MIN_UTIL:
+        return True, f"texto de {n} caracteres"
+    if piso_relativo and n < piso_relativo:
+        return True, f"texto de {n} caracteres, muito abaixo da mediana do ticker"
+    if str(r.get("classe_sec") or "") == "nao":
+        return True, "documento da SEC classificado como nao-release"
+    if "SEC" in str(r.get("fonte") or "") and not r.get("classe_sec"):
+        return True, "documento da SEC gravado antes do classificador de conteudo; nao conferido"
+    if (r.get("preferencia") or 1) >= 3:
+        return True, "documento nao tem cara de release de resultado"
+    return False, ""
+
+
+
+def periodos_oficiais(dados):
+    """Trimestres com demonstracao oficial (CVM ITR/DFP ou SEC XBRL), como (ano, tri).
+
+    Serve de limite inferior da cobertura: companhia que abriu capital ha um ano nao tem release de
+    3T24 porque nao existia como companhia aberta, e a trava nao pode ficar presa nisso para sempre."""
+    series = []
+    for caminho in (("cvm_demonstracoes", "serie_trimestral"), ("sec_xbrl", "trimestral"),
+                    ("subjacente_us", "sec_xbrl", "trimestral")):
+        no = dados or {}
+        for chave in caminho:
+            no = no.get(chave) if isinstance(no, dict) else None
+        if isinstance(no, dict):
+            series.append(no)
+    achados = set()
+    for serie in series:
+        for linha in serie.values():
+            if isinstance(linha, dict):
+                for periodo, valor in linha.items():
+                    if valor is None:
+                        continue
+                    # a serie da CVM rotula '2026T2' e a da SEC 'CY2026Q2'; o release usa '2T26'
+                    par = _ano_trimestre(periodo) or (ordem_periodo(periodo) if ordem_periodo(periodo) != (0, 0) else None)
+                    if par:
+                        achados.add(par)
+    return achados
+
+
+def cobertura_releases(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None):
+    """Bloco `cobertura`: a janela obrigatoria, o que esta coberto, o que falta e o que esta fraco.
+
+    E o criterio que separa 'tenho o dado' de 'tenho a linha no indice'. Um deep search so pode ser
+    escrito com `completa` verdadeiro, ou com a lacuna declarada na primeira frase. `oficiais` (o
+    conjunto de periodos_oficiais) marca como `nao_aplicavel` o trimestre anterior a existencia da
+    companhia como aberta, que nunca vai ter release."""
+    janela = janela_obrigatoria(n, hoje, referencia)
+    por_periodo = {r.get("periodo"): r for r in (historico or []) if r.get("periodo")}
+    # Piso relativo: release muito menor que a mediana do proprio ticker quase sempre e outro
+    # documento (ITUB4 4T24 tem 6 mil caracteres contra 92 mil dos irmaos). O piso absoluto sozinho
+    # nao pega isso, e um piso absoluto alto derrubaria os 6-K legitimos da Nu, de 8 a 20 mil.
+    piso_relativo = (_mediana([r.get("caracteres_total") for r in (historico or [])]) or 0) * 0.25
+    # So dispensa trimestre quando a serie oficial e longa o bastante para provar quando a companhia
+    # comecou. Serie curta e quase sempre coleta truncada, e dispensar por causa dela esconderia
+    # justamente o buraco que esta trava existe para achar.
+    mais_antigo_oficial = min(oficiais) if (oficiais and len(oficiais) >= 4) else None
+    completos, faltando, fracos, na = [], [], [], []
+    for periodo in janela:
+        r = por_periodo.get(periodo)
+        fraco, motivo = release_fraco(r, piso_relativo)
+        if r is None:
+            if mais_antigo_oficial and ordem_periodo(periodo) < mais_antigo_oficial:
+                na.append(periodo)      # antes da primeira demonstracao oficial: nao existe release
+            else:
+                faltando.append(periodo)
+        elif fraco:
+            fracos.append({"periodo": periodo, "motivo": motivo, "assunto": r.get("assunto")})
+        else:
+            completos.append(periodo)
+    dentro = set(janela)
+    return {"janela": janela, "completos": completos, "faltando": faltando, "fracos": fracos,
+            "nao_aplicavel": na,
+            "fora_da_janela": sorted((p for p in por_periodo if p not in dentro), key=ordem_periodo, reverse=True),
+            "completa": not faltando and not fracos,
+            "nota": ("janela = os trimestres cujo prazo legal de divulgacao ja venceu, do mais novo para o "
+                     f"mais antigo. `faltando` nao tem release guardado; `fracos` tem release guardado que nao "
+                     f"serve de fonte (texto abaixo de {RELEASE_MIN_UTIL} caracteres ou documento que nao e "
+                     "release de resultado). `nao_aplicavel` e trimestre anterior a primeira "
+                     "demonstracao oficial da companhia: nao existe release dele. `completa` e falso "
+                     "se `faltando` ou `fracos` tiver item")}
+
+
+def periodos_a_buscar(historico, n=RELEASES_POR_ATIVO, hoje=None, oficiais=None, referencia=None):
+    """Trimestres da janela que o coletor ainda precisa ir buscar (faltando + fracos)."""
+    c = cobertura_releases(historico, n, hoje, oficiais, referencia)
+    return c["faltando"] + [f["periodo"] for f in c["fracos"]]
+
+
+def _mesclar_historico(anterior, novo, n=RELEASES_POR_ATIVO, hoje=None):
+    """Funde o historico ja gravado no branch com o que esta coleta achou, um documento por trimestre.
+
+    Sem isso, uma coleta parcial (site fora do ar, orcamento estourado, IPE incompleto) reescreve o
+    indice so com o que achou HOJE e apaga do branch trimestres que ja estavam baixados. A janela
+    obrigatoria tem prioridade no corte: um trimestre de fora nunca expulsa um de dentro."""
+    achados = {}
+    for item in list(anterior or []) + list(novo or []):
+        periodo = item.get("periodo")
+        if not periodo:
+            continue
+        if _melhor_release(item, achados.get(periodo)):
+            achados[periodo] = item
+    todos = sorted(achados.values(), key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                   reverse=True)
+    dentro = set(janela_obrigatoria(n, hoje))
+    escolhidos = [r for r in todos if r.get("periodo") in dentro]
+    for r in todos:
+        if len(escolhidos) >= n:
+            break
+        if r.get("periodo") not in dentro:
+            escolhidos.append(r)
+    return sorted(escolhidos, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                  reverse=True)[:n]
+
+
+def _melhor_release(novo, atual):
+    """Mesmo trimestre, dois documentos: origem melhor, depois o entregue mais perto do fechamento
+    do trimestre (o release sai primeiro; relatorio anual e owners' day vem meses depois), depois tamanho."""
+    if atual is None:
+        return True
+    pn, pa = novo.get("preferencia", 1), atual.get("preferencia", 1)
+    if pn != pa:
+        return pn < pa
+    dn, da = novo.get("data") or "9999", atual.get("data") or "9999"
+    if dn != da:
+        return dn < da
+    return (novo.get("caracteres_total") or 0) > (atual.get("caracteres_total") or 0)
+
+
+def _lista_por_periodo(achados, max_releases):
+    """Do trimestre mais novo para o mais antigo."""
+    return sorted(achados.values(),
+                  key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""),
+                  reverse=True)[:max_releases]
+
+
+def _grupos_por_periodo(documentos):
+    """Agrupa por trimestre citado no assunto; sem trimestre, pela data. Mais novo primeiro."""
+    grupos = {}
+    for d in documentos:
+        grupos.setdefault(periodo_release(d["assunto"]) or d["data"], []).append(d)
+    return sorted(grupos.items(), key=lambda kv: max(x["data"] for x in kv[1]), reverse=True)
+
+
+def _resumo_releases(fontes, lista, baixados, reusados, estourou, vazio):
+    if not lista:
+        fontes["release_ri"] = f"{vazio}; orcamento de tempo estourou antes de baixar" if estourou else vazio
+        return lista
+    n = lista[0]
+    rotulo = n.get("assunto") or n.get("formulario") or ""
+    fontes["release_ri"] = (f"ok ({rotulo[:50]}; {n.get('periodo')}; {n.get('data')}; "
+                            f"{n.get('caracteres_total')} caracteres); historico de {len(lista)} releases "
+                            f"({baixados} baixados, {reusados} reusados"
+                            f"{'; orcamento de tempo estourou, completa na proxima coleta' if estourou else ''})")
+    return lista
+
+
+def coletar_releases_cvm(documentos, fontes, conhecidos=None,
+                         max_releases=RELEASES_POR_ATIVO, orcamento_s=RELEASE_ORCAMENTO_S):
+    """Ate `max_releases` releases de resultado entregues a CVM, um por trimestre, mais novo primeiro.
+
+    `conhecidos` mapeia link -> release ja gravado no branch; esse nao e baixado de novo."""
+    conhecidos = conhecidos or {}
+    candidatos = [d for d in documentos if _classe_documento_resultado(d) == "release"]
+    if not candidatos:
+        fontes["release_ri"] = "sem press-release no IPE"
+        return []
+    achados, baixados, reusados = {}, 0, 0
+    t0, estourou = time.monotonic(), False
+    for _, docs in _grupos_por_periodo(candidatos):
+        if len(achados) >= max_releases:
+            break
+        docs = sorted(docs, key=_preferencia_release_cvm)
+        pref = _preferencia_release_cvm(docs[0])
+        # Trimestre ja resolvido por um documento de origem melhor: nem baixa
+        no_assunto = periodo_release(docs[0]["assunto"])
+        if no_assunto and no_assunto in achados and achados[no_assunto].get("preferencia", 1) <= pref:
+            continue
+        item = None
+        ja = next((d for d in docs if conhecidos.get(d["link"])), None)
+        if ja is not None:
+            item = {**conhecidos[ja["link"]], "link": ja["link"]}
+            reusados += 1
+        elif time.monotonic() - t0 > orcamento_s:
+            estourou = True
+            break
+        else:
+            for d in docs[:2]:
+                r = app.http_get(d["link"], timeout=90)
+                if not r:
+                    continue
+                texto, detalhe = _texto_de_download(r)
+                item = _montar_release(texto, detalhe, {
+                    "fonte": "CVM IPE (copia oficial do release publicado no RI)", "empresa": d["empresa"],
+                    "assunto": d["assunto"], "data": d["data"], "link": d["link"],
+                    "preferencia": pref})
+                if item:
+                    baixados += 1
+                    break
+        if not item:
+            continue
+        item.setdefault("preferencia", pref)
+        _ajustar_periodo(item)
+        if _melhor_release(item, achados.get(item["periodo"])):
+            achados[item["periodo"]] = item
+    return _resumo_releases(fontes, _lista_por_periodo(achados, max_releases), baixados, reusados, estourou,
+                            "falha: nao consegui ler nenhum press-release do IPE")
+
+
+# Versao do classificador da rota SEC. Quando ela muda, os descartes gravados no indice sao
+# reconferidos uma vez: a regra antiga reprovava o release de verdade (o arquivo 'nupr1q25_6k.htm' da
+# Nu nao casava em '\bpr\d') e aprovava ata de assembleia pelo rodape juridico.
+CLASSIFICADOR_SEC_V = 2
+
+# O titulo diz que o documento E o resultado do trimestre
+_RE_SEC_RESULTADO = re.compile(
+    r"(?i)reports?\s+(?:its\s+)?(?:record\s+)?(?:first|second|third|fourth|[1-4]q|q[1-4]|full[- ]year|fiscal)"
+    r".{0,80}(?:quarter|results|earnings)"
+    r"|(?:first|second|third|fourth|[1-4]q|q[1-4])[^.\n]{0,60}(?:financial\s+)?results"
+    r"|quarterly results|earnings release|results of operations for|resultados do [1-4][o\u00ba]? trimestre")
+# O titulo diz que o documento e OUTRO fato societario do periodo
+_RE_SEC_SOCIETARIO = re.compile(
+    r"(?i)annual general meeting|extraordinary general meeting|shareholders?.{0,14}meeting"
+    r"|notice of (?:meeting|annual)|voting results|results of [^.\n]{0,30}general meeting"
+    r"|announces?[^.\n]{0,40}dividend|cash dividend|extraordinary dividend|dividend (?:declaration|payment)"
+    r"|share repurchase|buyback|by-?laws|changes? to the board|appointment of|resignation of|election of"
+    r"|divestment|sale of [^.\n]{0,40}(?:stake|business|unit|subsidiary)|acquisition of|merger with"
+    r"|pricing of|offering of|prospectus|credit rating")
+_RE_SEC_DEMONSTRACAO = re.compile(
+    r"(?i)interim (?:condensed )?(?:consolidated )?financial statements|notes to the (?:interim|consolidated) financial"
+    r"|report of independent (?:registered )?public accounting|unaudited condensed consolidated")
+
+
+def classificar_documento_sec(texto, nome="", periodo=None):
+    """('release'|'apresentacao'|'nao', preferencia, motivo) de um documento de 8-K/6-K.
+
+    A rota da SEC nao tinha checagem de CONTEUDO: a nota vinha do nome do arquivo e de frases do
+    cabecalho, e o bonus mais forte disparava em 'This press release contains forward-looking
+    statements', que esta em todo comunicado corporativo. Resultado: ata de assembleia da Nu e aviso
+    de dividendo da StoneCo entraram como release do trimestre, com 2 mil caracteres e nenhum numero
+    de resultado - a 'informacao vazia' que a mesa citava como se fosse a fala da gestao."""
+    cabeca, corpo = texto[:2500], texto[:20000]
+    titulo_ok = bool(_RE_SEC_RESULTADO.search(cabeca))
+    palavras = {m.group(0).lower() for m in _RE_RI_CORPO.finditer(corpo)}
+    numeros = len(_RE_RI_NUMEROS.findall(corpo))        # numeros com unidade de dinheiro
+    densidade = len(re.findall(r"\d[\d.,]{2,}|\d+\s*%", corpo))   # numeros de qualquer tipo
+    if _RE_SEC_SOCIETARIO.search(cabeca) and not titulo_ok:
+        return "nao", None, "comunicado societario (assembleia, dividendo, recompra, M&A), nao release de resultado"
+    if _RE_SEC_DEMONSTRACAO.search(cabeca) and not titulo_ok:
+        return "nao", None, "demonstracoes financeiras intermediarias, nao o release da gestao"
+    # Apresentacao de resultados e fonte legitima da gestao (o historico do INBR32 e feito dela), mas o
+    # slide traz os numeros em tabela, sem a unidade 'milhoes' no texto: aqui a prova e densidade
+    # numerica, nao unidade de dinheiro.
+    if re.search(r"(?i)present|prese|deck|slides", nome or ""):
+        if numeros >= 6 or (densidade >= 40 and (titulo_ok or _trimestres_citados(cabeca))):
+            return "apresentacao", 2, ""
+    # O titulo ja diz que o documento e o resultado do trimestre: basta ter numero, com unidade
+    # (release em texto) ou sem (release que traz a tabela)
+    if titulo_ok and (numeros >= 2 or densidade >= 40):
+        return "release", 0.5, ""
+    # Sem titulo explicito, a prova e o corpo: palavras de resultado e numeros em dinheiro
+    if len(palavras) >= 2 and numeros >= 3:
+        return "release", 0.8, ""
+    if len(palavras) >= 3 and densidade >= 60 and (periodo or _trimestres_citados(cabeca)):
+        return "release", 0.9, ""
+    return "nao", None, (f"sem cara de release de resultado ({len(palavras)} palavra(s) de resultado, "
+                         f"{numeros} numero(s) com unidade, titulo {'bate' if titulo_ok else 'nao bate'})")
+
+
+def _documento_release_sec(cik, acc, nomes, filing, form, conhecidos, descartados):
+    """Dentro de um 8-K/6-K, o documento que e o release de resultados. (item, reusado).
+
+    `descartados` recebe os links que nao sao release, para nao baixa-los de novo na proxima coleta."""
+    primario = filing.get("primaryDocument")
+
+    def nota_nome(n):
+        # Release de texto primeiro; apresentacao de slides depois (vira sopa de numeros no PDF);
+        # relatorio anual, institucional e owners' day nao sao release de trimestre
+        if re.search(r"(?i)annual[-_ ]?report|institutional|owners?[-_ ]?day|20-?f|proxy", n):
+            return 0
+        if re.search(r"(?i)release|press|(?<![a-z0-9])pr\d|pr[1-4]q|[1-4]q\d{2}_", n):
+            return 4
+        if re.search(r"(?i)present|prese|deck|slides", n):
+            return 2
+        if re.search(r"(?i)ex[-_]?99|99[-_.]?1|earnings|results", n):
+            return 3
+        return 0 if n == primario else 1
+
+    docs = [n for n in nomes if n.lower().endswith((".htm", ".html", ".pdf"))
+            and not re.search(r"(?i)^r\d+\.htm|-index|xbrl|_lab|_pre|_cal|_def", n)]
+    docs.sort(key=nota_nome, reverse=True)
+    if form == "8-K":
+        docs = [n for n in docs if nota_nome(n) >= 2] or docs[:1]
+    else:
+        # 6-K: so o exhibit com cara de release ou apresentacao; o principal apenas quando nao ha exhibit
+        docs = [n for n in docs if nota_nome(n) >= 2][:3] or docs[:1]
+    melhor, melhor_pref = None, 9
+    for nome in docs:
+        url = SEC_ARQUIVO_URL.format(cik=cik, acc=acc, nome=nome)
+        if url in conhecidos:
+            if conhecidos[url] is None:
+                continue                      # ja conferido antes: nao e release
+            return {**conhecidos[url], "link": url}, True
+        doc = app.http_get(url, timeout=60, headers=SEC_HEADERS)
+        if not doc:
+            continue
+        texto, detalhe = _texto_de_download(doc)
+        if not texto or len(texto) < 1500:
+            if _falha_passageira(texto, detalhe):
+                app.log(f"SEC {acc}: {nome} sem texto util ({detalhe}); pode ser falha passageira, "
+                        f"nao vai para descartados e sera tentado na proxima coleta")
+            else:
+                descartados.append(url)
+            continue
+        classe, preferencia, motivo = classificar_documento_sec(texto, nome)
+        if classe == "nao":
+            app.log(f"SEC {acc}: {nome} descartado: {motivo}")
+            descartados.append(url)
+            continue
+        if preferencia >= melhor_pref:
+            continue
+        melhor_pref = preferencia
+        melhor = _montar_release(texto, detalhe, {
+            "fonte": f"SEC EDGAR ({form}, exhibit do release publicado no RI)", "formulario": form,
+            "data": filing.get("filingDate"), "periodo_reportado": filing.get("reportDate"),
+            "arquivo_sec": nome, "link": url, "classe_sec": classe, "conteudo_v": CLASSIFICADOR_SEC_V,
+            # preferencia menor = melhor: release de texto antes de apresentacao de slides
+            "preferencia": preferencia})
+    return melhor, False
+
+
+def _janela_de_divulgacao(periodo):
+    """(inicio, fim) em que o release de um trimestre costuma ser publicado: do fim do trimestre ate
+    120 dias depois. Serve para mirar os filings certos em vez de varrer tudo em ordem."""
+    par = ordem_periodo(periodo)
+    if par == (0, 0):
+        return None
+    ano, tri = par
+    try:
+        fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+    except Exception:
+        return None
+    return fim.strftime("%Y-%m-%d"), (fim + timedelta(days=120)).strftime("%Y-%m-%d")
+
+
+def _ordenar_por_faltantes(filings, faltantes):
+    """Filings que caem na janela de divulgacao de um trimestre que FALTA vao para a frente.
+
+    Sem isso a varredura e so cronologica: quem publica muito 6-K (a Nu passa de 40 por ano) empurra
+    o trimestre antigo para fora do orcamento, e ele nunca chega ao branch."""
+    janelas = [j for j in (_janela_de_divulgacao(p) for p in (faltantes or [])) if j]
+    if not janelas:
+        return filings
+    def alvo(f):
+        data = str(f.get("filingDate") or "")
+        return 0 if any(ini <= data <= fim for ini, fim in janelas) else 1
+    return sorted(filings, key=alvo)
+
+
+def coletar_releases_sec(cik, fontes, conhecidos=None, descartados=None,
+                         max_releases=RELEASES_POR_ATIVO, max_filings=200,
+                         orcamento_s=RELEASE_ORCAMENTO_S, faltantes=None):
+    """Ate `max_releases` releases de resultado da SEC (8-K item 2.02 e 6-K), um por trimestre.
+
+    A varredura para quando a JANELA obrigatoria esta coberta, nao quando a contagem de filings
+    estoura: quem publica muito 6-K (a Nu tem mais de 40 por ano) empurrava os trimestres antigos
+    para fora dos 60 filings examinados e eles nunca chegavam ao branch."""
+    conhecidos = conhecidos or {}
+    descartados = descartados if descartados is not None else []
+    if not cik:
+        fontes["release_ri"] = "sem CIK"
+        return []
+    r = app.http_get(SEC_SUBMISSIONS_URL.format(cik=cik), timeout=60, headers=SEC_HEADERS)
+    if not r:
+        fontes["release_ri"] = "falha: submissions da SEC indisponivel"
+        return []
+    try:
+        rec = r.json().get("filings", {}).get("recent", {})
+        filings = [dict(zip(rec.keys(), vals)) for vals in zip(*rec.values())]
+    except Exception:
+        fontes["release_ri"] = "falha: submissions ilegivel"
+        return []
+    achados, baixados, reusados, examinados = {}, 0, 0, 0
+    janela = set(janela_obrigatoria())
+    if faltantes:
+        filings = _ordenar_por_faltantes(filings, faltantes)
+        app.log(f"SEC: varredura priorizando os filings da janela de divulgacao de "
+                f"{', '.join(faltantes[:6])}")
+    t0, estourou = time.monotonic(), False
+    for f in filings:
+        if examinados >= max_filings:
+            break
+        if len(achados) >= max_releases and janela <= set(achados):
+            break
+        form = (f.get("form") or "").upper()
+        if form not in ("8-K", "6-K"):
+            continue
+        if form == "8-K" and "2.02" not in (f.get("items") or ""):
+            continue
+        examinados += 1
+        if time.monotonic() - t0 > orcamento_s:
+            estourou = True
+            break
+        acc = (f.get("accessionNumber") or "").replace("-", "")
+        idx = app.http_get(SEC_INDEX_URL.format(cik=cik, acc=acc), timeout=30, headers=SEC_HEADERS)
+        if not idx:
+            continue
+        try:
+            nomes = [it["name"] for it in idx.json()["directory"]["item"]]
+        except Exception:
+            continue
+        item, reusado = _documento_release_sec(cik, acc, nomes, f, form, conhecidos, descartados)
+        if not item:
+            continue
+        _ajustar_periodo(item)
+        if _melhor_release(item, achados.get(item["periodo"])):
+            achados[item["periodo"]] = item
+        if reusado:
+            reusados += 1
+        else:
+            baixados += 1
+    return _resumo_releases(fontes, _lista_por_periodo(achados, max_releases), baixados, reusados, estourou,
+                            f"sem release de resultados nos ultimos {examinados} 8-K/6-K")
+
+
+# ───────────────── Release de resultados direto no site de RI ─────────────────
+# O IPE da CVM e a copia oficial, mas o indice do ano corrente ja saiu do ar
+# (ipe_cia_aberta_2026 respondeu 404 em 20/09/2026) e o historico parou no 3T25
+# enquanto o ITR ja ia no 2T26. O site de RI da companhia e o caminho
+# complementar: quando o release mais novo esta atras do ITR mais novo, a central
+# de resultados (mapa em ri_fontes.py) e varrida atras dos trimestres que faltam.
+# Tudo aqui roda so no Actions; por isso cada passo deixa uma linha no log.
+RI_MIN_CARACTERES = 2000          # menos que isso nao e release: e pagina de erro ou capa
+RI_MAX_SEM_PERIODO = 4            # links de arquivo sem trimestre no rotulo: poucos, para nao gastar o orcamento
+_RE_RI_CANDIDATO = re.compile(r"RELEASE|RESULTADO|RESULTS|EARNINGS|DIVULGA|\bPRESS")
+# Previa operacional (construtoras publicam ~4 semanas antes do release) nunca e o release: sem este
+# descarte ela seria o unico documento do trimestre na janela entre previa e release, viraria o
+# 'release' do trimestre no branch e trancaria o verdadeiro (ate_periodo) nas coletas seguintes.
+_RE_RI_DESCARTE = re.compile(
+    r"APRESENTA|PRESENTATION|WEBCAST|VIDEO|TRANSCRI|TELECONF|\bCALL\b|AUDIO|PLANILHA|SPREADSHEET|"
+    r"\bXLS|\bZIP\b|INSTITUCIONAL|INSTITUTIONAL|PREVIA|PREVIEW")
+# Demonstracoes contabeis, formularios e relatorios ficam na mesma central, muitas vezes ANTES do
+# release do trimestre (na central em ingles da MZ: 'ITR 2Q26', 'Financial Statements 2Q26'). Nao
+# sao a fala da gestao; so passam se o proprio rotulo disser RELEASE ('Release de Resultados 2T26 (ITR)').
+_RE_RI_DEMONSTRACAO = re.compile(
+    r"\bITRS?\b|\bDFP\b|\bDFS?\b|DEMONSTRA|INFORMACOES TRIMESTRAIS|BALANCO|COMENTARIO DE DESEMPENHO|"
+    r"FINANCIAL STATEMENTS|QUARTERLY INFORMATION|FORMULARIO|\bFRE\b|REFERENCE FORM|"
+    r"RELATORIO ANUAL|ANNUAL REPORT|SUSTENTAB|\bESG\b")
+_RE_RI_ARQUIVO = re.compile(r"(?i)api\.mziq\.com/mzfilemanager|filemanager-cdn\.mziq\.com|\.pdf(?:[?#]|$)")
+_RE_RI_EN = re.compile(r"\bEN\b|ENGLISH|INGL|EARNINGS|\bRESULTS\b")
+_RE_RI_PT = re.compile(r"RELEASE|DIVULGA|\bPT\b|PT BR|PORTUGU")
+_RE_RI_CORPO = re.compile(r"(?i)receita|revenue|ebitda|lucro|net income|destaques|highlights|margem|margin")
+# Numero com unidade de dinheiro: 'R$ 1.234 milhoes', 'R$ milhoes' (cabecalho de tabela), 'US$ 12 million'.
+# A cotacao no menu do site ('DIRR3 R$ 22,10 +1,5%') nao passa: nao tem milhoes/bilhoes.
+_RE_RI_NUMEROS = re.compile(r"(?i)R\$\s*[\d.,]*\s*(?:milh|bilh|\bmi\b|\bbi\b|\bmm\b)|\d[\d.,]*\s*(?:milh|bilh|million|billion)")
+# 'Q2 2026', 'Q2/26', '2T2026': formas que periodo_release nao le e aparecem em rotulo de site
+_RE_TRI_SITE = re.compile(r"\b[TQ]([1-4])\s*(?:FY)?\s*(?:20)?(\d{2})\b|\b([1-4])[TQ]20(\d{2})\b")
+_RE_ANCORA = re.compile(r"(?is)<a\b([^>]*)>(.*?)</a>")
+_RE_HREF = re.compile(r"""(?i)\bhref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))""")
+# Abas e acordeoes: o rotulo da aba (<a href="#painel">2T26</a>, <button data-bs-target="#painel">) e o
+# id do painel que ela abre; <nav>/<select> sao menu, nunca contexto de um link
+_RE_ABA = re.compile(r"(?is)<(a|button)\b([^>]*)>(.*?)</\1>")
+_RE_ABA_ALVO = re.compile(r"""(?i)\b(?:href|data-target|data-bs-target)\s*=\s*["']?#([^"'\s>]+)|\baria-controls\s*=\s*["']([^"'\s>]+)""")
+_RE_ID = re.compile(r"""(?i)\bid\s*=\s*(?:"([^"]*)"|'([^']*)')""")
+_RE_MENU = re.compile(r"(?is)<(nav|select)\b.*?</\1>")
+_RE_TITLE = re.compile(r"""(?i)\btitle\s*=\s*(?:"([^"]*)"|'([^']*)')""")
+_RE_DATA_NUM = re.compile(r"\b(\d{1,2})[/.-](\d{1,2})[/.-](20\d{2})\b")
+_RE_DATA_ISO = re.compile(r"\b(20\d{2})-(\d{2})-(\d{2})\b")
+_RE_DATA_EXT = re.compile(r"(?i)\b(\d{1,2})\s+(?:de\s+)?([a-z]{3})[a-z]*\.?,?\s+(?:de\s+)?(20\d{2})\b")
+_RE_DATA_EN = re.compile(r"(?i)\b([a-z]{3})[a-z]*\.?\s+(\d{1,2}),?\s+(20\d{2})\b")
+_MESES = {"JAN": 1, "FEV": 2, "FEB": 2, "MAR": 3, "ABR": 4, "APR": 4, "MAI": 5, "MAY": 5, "JUN": 6,
+          "JUL": 7, "AGO": 8, "AUG": 8, "SET": 9, "SEP": 9, "OUT": 10, "OCT": 10, "NOV": 11, "DEZ": 12, "DEC": 12}
+
+
+def _mapa_ri():
+    """RI_FONTES de ri_fontes.py: {ticker: {'central': url, 'alternativas': [urls], 'plataforma': 'MZ'}}.
+
+    O valor tambem pode ser so a url da central. Arquivo ausente ou quebrado nao derruba a coleta:
+    vira mapa vazio, com uma linha no log."""
+    try:
+        import ri_fontes
+    except ImportError:
+        return {}
+    except Exception as e:
+        app.log(f"ri_fontes.py ilegivel ({type(e).__name__}: {e}); site de RI desligado nesta coleta")
+        return {}
+    mapa = getattr(ri_fontes, "RI_FONTES", None)
+    return mapa if isinstance(mapa, dict) else {}
+
+
+def _html_da_resposta(r):
+    """HTML como texto. Tenta UTF-8 antes do palpite do requests: sem charset no cabecalho ele assume
+    latin-1 e 'Apresentacao' vira lixo, o que furaria o filtro de descarte."""
+    try:
+        return (r.content or b"").decode("utf-8")
+    except UnicodeDecodeError:
+        return r.text or ""
+
+
+def _texto_em_volta(html, ini, fim, largura=200):
+    """Texto legivel de ate `largura` caracteres antes de [ini] e depois de [fim] no HTML."""
+    antes = html[max(0, ini - 4 * largura):ini]
+    if "<" not in antes.partition(">")[0] and ">" in antes:
+        antes = antes.partition(">")[2]      # o corte caiu no meio de uma tag: joga fora o pedaco
+    depois = html[fim:fim + 4 * largura]
+    return _html_para_texto(antes)[-largura:], _html_para_texto(depois)[:largura]
+
+
+def _href_de(atributos):
+    h = _RE_HREF.search(atributos)
+    return htmlmod.unescape(next(g for g in h.groups() if g is not None)).strip() if h else ""
+
+
+def _tem_link_de_arquivo(trecho):
+    """Ha <a href> para fora da pagina (nao vazio, nao '#', nao javascript:) neste pedaco de HTML?"""
+    for m in _RE_ANCORA.finditer(trecho):
+        h = _href_de(m.group(1)).lower()
+        if h and not h.startswith(("#", "javascript:")):
+            return True
+    return False
+
+
+def _abas_e_paineis(html):
+    """(html com a barra de abas e o menu apagados, {id do painel: trimestre}).
+
+    Aba ou cabecalho de acordeao e <a href="#..."> (ou <a> sem link, ou <button>) cujo rotulo e um
+    trimestre ('2T26'). O id que ela aponta (href, data-target, aria-controls) e o painel: um link de
+    arquivo dentro dele herda esse trimestre, o que resolve abas e acordeoes de uma vez.
+    Duas ou mais dessas abas em sequencia, sem link de arquivo entre elas, sao a BARRA de abas: todos
+    os trimestres listados antes dos paineis. Ela e trocada por espacos (mesmo tamanho, para os
+    deslocamentos dos links nao mudarem), senao o ultimo trimestre da barra, o mais antigo, virava o
+    'contexto' de todo arquivo do primeiro painel. Cabecalho sozinho, seguido dos seus links, fica:
+    e ele o trimestre do acordeao. <nav> e <select> (menu, seletor de trimestre) somem pelo mesmo motivo."""
+    limpo = _RE_MENU.sub(lambda m: " " * len(m.group(0)), html)
+    paineis, abas = {}, []
+    for m in _RE_ABA.finditer(limpo):
+        tag, atributos, corpo = m.group(1), m.group(2), m.group(3)
+        href = _href_de(atributos).lower()
+        if tag == "a" and href and not href.startswith(("#", "javascript:")):
+            continue                          # link de verdade, nao e aba
+        periodo = _periodo_no_site(_html_para_texto(corpo)[:80], "")
+        if not periodo:
+            continue
+        alvo = _RE_ABA_ALVO.search(atributos)
+        alvo_id = next((g for g in alvo.groups() if g), None) if alvo else None
+        if alvo_id:
+            paineis.setdefault(alvo_id, periodo)
+        abas.append((m.start(), m.end()))
+    barras, atual = [], []
+    for ini, fim in abas:
+        if atual and _tem_link_de_arquivo(limpo[atual[-1][1]:ini]):
+            barras.append(atual)
+            atual = []
+        atual.append((ini, fim))
+    if atual:
+        barras.append(atual)
+    pedacos, pos = [], 0
+    for barra in barras:
+        if len(barra) < 2:
+            continue
+        ini, fim = barra[0][0], barra[-1][1]
+        pedacos.append(limpo[pos:ini])
+        pedacos.append(" " * (fim - ini))
+        pos = fim
+    if pedacos:
+        pedacos.append(limpo[pos:])
+        limpo = "".join(pedacos)
+    return limpo, paineis
+
+
+def _links_da_pagina(html, url_base):
+    """[(url absoluta, texto do ancora, texto antes, texto depois, trimestre do painel)] de cada
+    <a href> da pagina. O contexto (antes/depois) vem do HTML sem a barra de abas e sem o menu; o
+    trimestre do painel e o da aba/acordeao que abre o bloco em que o link esta (None fora deles)."""
+    limpo, paineis = _abas_e_paineis(html)
+    ids = [(m.start(), next(g for g in m.groups() if g is not None)) for m in _RE_ID.finditer(limpo)]
+    ids = [(pos, i) for pos, i in ids if i in paineis]
+    links = []
+    for m in _RE_ANCORA.finditer(html):
+        atributos, corpo = m.group(1), m.group(2)
+        href = _href_de(atributos)
+        if not href or href.lower().startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        t = _RE_TITLE.search(atributos)
+        titulo = htmlmod.unescape((t.group(1) or t.group(2) or "")) if t else ""
+        texto = " ".join(x for x in (_html_para_texto(corpo), titulo) if x).strip()
+        antes, depois = _texto_em_volta(limpo, m.start(), m.end())
+        painel = next((paineis[i] for pos, i in reversed(ids) if pos < m.start()), None)
+        links.append((urljoin(url_base, href), texto[:200], antes, depois, painel))
+    return links
+
+
+def _periodo_no_site(texto, url):
+    """Trimestre no rotulo ou na url do link, nas formas da CVM/SEC e nas de site ('Q2 2026')."""
+    p = periodo_release(texto, url)
+    if p:
+        return p
+    for alvo in (texto, url):
+        m = _RE_TRI_SITE.search(normalizar(alvo))
+        if m:
+            tri, ano = (m.group(1), m.group(2)) if m.group(1) else (m.group(3), m.group(4))
+            return f"{int(tri)}T{int(ano):02d}"
+    return None
+
+
+def _periodo_no_contexto(antes, depois):
+    """Trimestre citado perto do link: o ULTIMO antes dele (a linha ou o acordeao em que o link
+    esta), senao o primeiro depois. O primeiro antes seria o da linha de cima. E palpite: o texto
+    vem de _links_da_pagina ja sem a barra de abas e sem o menu, mas quem decide e o documento."""
+    achados = list(_RE_TRI_CURTO.finditer(normalizar(antes))) + list(_RE_TRI_SITE.finditer(normalizar(antes)))
+    if achados:
+        m = max(achados, key=lambda x: x.start())
+        g = [x for x in m.groups() if x is not None]
+        return f"{int(g[0])}T{int(g[1]):02d}"
+    return _periodo_no_site(antes, "") or _periodo_no_site(depois, "")
+
+
+def _sem_acentos(texto):
+    return unicodedata.normalize("NFKD", str(texto or "")).encode("ascii", "ignore").decode()
+
+
+def _datas_no_texto(*textos):
+    """Todas as datas legiveis ('12/08/2026', '2026-08-12', '12 de agosto de 2026', 'August 12, 2026'),
+    na ordem em que aparecem no texto (nao na ordem dos formatos). Sem acento antes de casar: 'marco'
+    com cedilha nao casava e todo release de 4T (publicado em marco) ficava com data estimada."""
+    achadas = []
+    for t in textos:
+        t = _sem_acentos(t)
+        for rx, ordem in ((_RE_DATA_ISO, "amd"), (_RE_DATA_NUM, "dma"), (_RE_DATA_EXT, "dMa"), (_RE_DATA_EN, "Mda")):
+            for m in rx.finditer(t):
+                g = m.groups()
+                try:
+                    if ordem == "amd":
+                        ano, mes, dia = int(g[0]), int(g[1]), int(g[2])
+                    elif ordem == "dma":
+                        dia, mes, ano = int(g[0]), int(g[1]), int(g[2])
+                    elif ordem == "dMa":
+                        dia, mes, ano = int(g[0]), _MESES.get(normalizar(g[1])[:3], 0), int(g[2])
+                    else:
+                        mes, dia, ano = _MESES.get(normalizar(g[0])[:3], 0), int(g[1]), int(g[2])
+                    achadas.append((m.start(), datetime(ano, mes, dia).strftime("%Y-%m-%d")))
+                except ValueError:
+                    continue
+        achadas.sort()
+        if achadas:
+            return [d for _, d in achadas]
+    return []
+
+
+def _data_no_texto(*textos):
+    """Primeira data legivel do primeiro texto que tiver alguma."""
+    datas = _datas_no_texto(*textos)
+    return datas[0] if datas else None
+
+
+def _data_plausivel_no_texto(periodo, *textos):
+    """Primeira data do texto que cabe no trimestre: o cabecalho do release ('Sao Paulo, 07 de maio de
+    2026') costuma vir depois de uma data de comparacao ('acima de 31/03/2025'), e a primeira data do
+    texto nao e necessariamente a da publicacao."""
+    for t in textos:
+        for d in _datas_no_texto(t):
+            if _periodo_plausivel(periodo, d):
+                return d
+    return None
+
+
+def _hoje():
+    """Data de hoje (UTC) como 'AAAA-MM-DD', comparavel com as datas lidas do site."""
+    return agora()[:10]
+
+
+def _trimestre_fechou(periodo, hoje=None):
+    """False quando o fim do trimestre e depois de hoje: 'Divulgacao de Resultados 3T26' em setembro
+    e a agenda do site (Proximos Eventos), nao release. Sem trimestre legivel devolve True (nao decide)."""
+    ano, tri = ordem_periodo(periodo)
+    if not tri:
+        return True
+    return f"{ano}-{_FIM_DO_TRIMESTRE[tri]}" <= (hoje or _hoje())
+
+
+def _data_estimada_release(periodo):
+    """Fim do trimestre + 40 dias (janela tipica de divulgacao) quando o site nao diz a data; nunca
+    depois de hoje, porque um release baixado hoje nao pode ter data futura."""
+    ano, tri = ordem_periodo(periodo)
+    if not tri:
+        return None
+    fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+    return min((fim + timedelta(days=40)).strftime("%Y-%m-%d"), _hoje())
+
+
+def _trimestres_citados(texto):
+    """Todos os trimestres citados no texto, como '2T26' (formas da CVM/SEC e de site: 'Q2 2026')."""
+    t = normalizar(texto)
+    achados = set()
+    for rx, conv in ((_RE_TRI_CURTO, lambda a, b: (int(a), int(b))),
+                     (_RE_TRI_LONGO, lambda a, b: (int(a), int(b) % 100)),
+                     (_RE_TRI_EN, lambda a, b: (_ORDINAL_EN[a], int(b) % 100))):
+        for m in rx.finditer(t):
+            tri, ano = conv(m.group(1), m.group(2))
+            achados.add(f"{tri}T{ano:02d}")
+    for m in _RE_TRI_SITE.finditer(t):
+        tri, ano = (m.group(1), m.group(2)) if m.group(1) else (m.group(3), m.group(4))
+        achados.add(f"{int(tri)}T{int(ano):02d}")
+    return achados
+
+
+def _cara_de_release_html(texto, periodo):
+    """Pagina HTML so vale como release com evidencia forte. Devolve (True, '') ou (False, motivo).
+
+    O tema do site (menu, rodape, widget 'Proximos Eventos') passa de RI_MIN_CARACTERES e traz
+    'Destaques'/'Highlights' no menu, o que enganava a checagem de uma palavra so. Exige: o trimestre
+    do rotulo citado no mesmo trecho em que _montar_release le o trimestre (4000 primeiros
+    caracteres), ao menos duas palavras de resultado distintas e ao menos dois numeros com R$/milhoes."""
+    citados = _trimestres_citados(texto[:4000])
+    if periodo and periodo not in citados:
+        return False, (f"pagina HTML nao cita {periodo} no comeco do texto "
+                       f"(cita {', '.join(sorted(citados, key=ordem_periodo)) or 'nenhum trimestre'})")
+    if not periodo and not citados:
+        return False, "pagina HTML sem trimestre no comeco do texto"
+    trecho = texto[:20000]
+    palavras = {m.group(0).lower() for m in _RE_RI_CORPO.finditer(trecho)}
+    if len(palavras) < 2:
+        return False, (f"pagina HTML com {len(palavras)} palavra(s) de resultado "
+                       f"({', '.join(sorted(palavras)) or 'nenhuma'}); release tem 2 ou mais")
+    numeros = len(_RE_RI_NUMEROS.findall(trecho))
+    if numeros < 2:
+        return False, f"pagina HTML com {numeros} numero(s) em R$/milhoes; release tem 2 ou mais"
+    return True, ""
+
+
+_RE_RI_RELEASE = re.compile(r"RELEASE|\bPRESS|DIVULGA")     # a palavra que diz que o documento E o release
+
+
+def _preferencia_release_site(texto, url):
+    """Convencao de _preferencia_release_cvm (portugues 0.5, sem idioma 0.7, ingles 1) com dois ajustes
+    do site, onde o rotulo e a unica pista.
+
+    Release em ingles ('Earnings Release', 'Press Release EN') vale 0.6, abaixo dos 0.7 sem idioma
+    ('Resultados 2T26'): um documento sem a palavra release nunca deve vencer um release. Arquivo que
+    so entrou por ser MZ/PDF, sem release/resultado/earnings no rotulo nem na url, fica em 1.5: pode
+    completar um trimestre sem release, mas nunca vence um release rotulado."""
+    alvo = f"{normalizar(texto)} {normalizar(url)}"
+    if not _RE_RI_CANDIDATO.search(alvo):
+        return 1.5
+    if _RE_RI_EN.search(alvo):
+        return 0.6 if _RE_RI_RELEASE.search(alvo) else 1
+    return 0.5 if _RE_RI_PT.search(alvo) else 0.7
+
+
+_ROTULO_PLATAFORMA = {"mz": "MZ", "riweb": "RiWeb", "proprio": "site proprio"}
+_RE_MZ_ID = re.compile(r"(?i)mzfilemanager/v2/d/([0-9a-f-]{36})|mziq\.com/published/([0-9a-f-]{36})")
+
+
+def _plataforma_ri(mapa, url):
+    """Rotulo da plataforma para o campo `fonte`: do mapa, senao inferido da url do documento."""
+    p = str(mapa.get("plataforma") or "").lower()
+    if p in _ROTULO_PLATAFORMA:
+        return _ROTULO_PLATAFORMA[p]
+    u = (url or "").lower()
+    if "mziq.com" in u:
+        return "MZ"
+    if "riweb" in u:
+        return "RiWeb"
+    m = re.match(r"https?://([^/]+)", u)
+    return m.group(1) if m else "site"
+
+
+def _sem_fragmento(url):
+    return re.split(r"[?#]", url or "", 1)[0].rstrip("/")
+
+
+def _candidatos_ri(links, pagina=None):
+    """Links da central que parecem release de resultado, com trimestre, data e preferencia.
+
+    Candidato: rotulo ou url com release/resultado/results/earnings/divulga/press, ou arquivo (MZ, PDF).
+    Descarte: apresentacao, webcast, video, transcricao, teleconferencia, planilha, zip, institucional
+    (mas 'release e apresentacao' num so PDF fica); ITR, DFP, demonstracoes financeiras, financial
+    statements, quarterly information e formulario de referencia (mas rotulo com RELEASE fica).
+    Trimestre: rotulo/url, senao a aba/acordeao em que o link esta, senao o texto em volta. Os dois
+    ultimos sao palpite (origem 'contexto'): nunca descartam um arquivo antes do download, e em
+    coletar_releases_ri o documento baixado e quem decide o trimestre.
+    Link de pagina (nao arquivo) so entra com o trimestre no proprio rotulo (o menu 'Central de
+    Resultados' herdaria o trimestre do acordeao vizinho e viraria um falso release) e com
+    preferencia +1: e pagina do site, nao o documento, e nunca vence o arquivo do mesmo trimestre.
+    Trimestre que ainda nao fechou ('Divulgacao de Resultados 3T26' em setembro) e agenda, nao
+    release: fora. Data futura ao lado do link: pagina e agenda (fora); arquivo perde so a data."""
+    por_url, descartados_rotulo = {}, 0
+    propria = _sem_fragmento(pagina)
+    hoje = _hoje()
+    for link in links:
+        url, texto, antes, depois = link[:4]
+        painel = link[4] if len(link) > 4 else None    # tupla antiga, sem o painel, continua valendo
+        if propria and _sem_fragmento(url) == propria:
+            continue
+        alvo = f"{normalizar(texto)} {normalizar(url)}"
+        eh_arquivo = _RE_RI_ARQUIVO.search(url) is not None
+        if not (_RE_RI_CANDIDATO.search(alvo) or eh_arquivo):
+            continue
+        if _RE_RI_DESCARTE.search(alvo) and not ("RELEASE" in alvo and "APRESENTA" in alvo):
+            descartados_rotulo += 1
+            continue
+        if _RE_RI_DEMONSTRACAO.search(alvo) and "RELEASE" not in alvo:
+            descartados_rotulo += 1     # demonstracao contabil ao lado do release: nao e a fala da gestao
+            continue
+        periodo, origem = _periodo_no_site(texto, url), "rotulo"
+        if not periodo:
+            if not eh_arquivo:
+                continue
+            periodo, origem = painel or _periodo_no_contexto(antes, depois), "contexto"
+            if periodo and not _trimestre_fechou(periodo, hoje):
+                # Arquivo nao e release de trimestre aberto: o palpite veio da agenda vizinha, nao dele.
+                # Fica sem trimestre e e baixado como tal; o documento diz o que e.
+                app.log(f"site de RI: '{texto[:60]}' ({url[:90]}): contexto diz {periodo}, trimestre ainda nao "
+                        f"fechou (hoje {hoje}); palpite ignorado, o documento decide")
+                periodo = None
+        if periodo and not _trimestre_fechou(periodo, hoje):
+            descartados_rotulo += 1
+            app.log(f"site de RI: descartou '{texto[:60]}' ({url[:90]}): trimestre {periodo} ainda nao fechou "
+                    f"(hoje {hoje}); e agenda, nao release")
+            continue
+        data = _data_plausivel_no_texto(periodo, texto, antes, depois) if periodo else _data_no_texto(texto, antes, depois)
+        if data and data > hoje:
+            if not eh_arquivo:
+                descartados_rotulo += 1
+                app.log(f"site de RI: descartou '{texto[:60]}' ({url[:90]}): data futura {data}; e agenda, nao release")
+                continue
+            app.log(f"site de RI: '{texto[:60]}' ({url[:90]}) tem data futura {data} ao lado (agenda vizinha?); "
+                    f"data ignorada, sera estimada")
+            data = None
+        # Link de pagina: +1 para nunca vencer o arquivo (PDF) do mesmo trimestre
+        preferencia = _preferencia_release_site(texto, url) + (0 if eh_arquivo else 1)
+        c = {"url": url, "texto": texto, "periodo": periodo, "origem_periodo": origem if periodo else None,
+             "data": data, "arquivo": eh_arquivo, "preferencia": preferencia}
+        atual = por_url.get(url)
+        if atual is None or (not atual["periodo"] and periodo) or \
+                (bool(periodo) == bool(atual["periodo"]) and c["preferencia"] < atual["preferencia"]):
+            por_url[url] = c
+    return list(por_url.values()), descartados_rotulo
+
+
+# ───────────────── Central montada por JavaScript: pistas e rotas de listagem ─────────────────
+# Cury, Plano & Plano e MRV (tema MZ novo) entregam a central de resultados sem nenhum link de
+# documento no HTML: a lista e montada por JavaScript a partir de uma chamada a parte (API do
+# proprio WordPress, admin-ajax, JSON embutido, iframe ou API da MZ). Quando a pagina responde sem
+# candidato, a sondagem (1) le as pistas da pagina e dos scripts do tema, (2) tenta cada rota de
+# listagem que elas apontam, mais as rotas conhecidas (JSON da pagina no WP REST, biblioteca de
+# midia, indice do REST) e a chave `lista` de ri_fontes.py, e (3) alimenta _candidatos_ri com o
+# que a rota devolver (JSON ou HTML). Tudo com prazo curto e sem excecao: a sondagem so acrescenta.
+RI_SONDA_PRAZO_S = 60             # teto da sondagem por pagina sem candidato (dentro do orcamento do ativo)
+RI_SONDA_MAX_JS = 6               # scripts do tema/plugins lidos a procura de URL de API
+RI_SONDA_MAX_ROTAS = 20           # rotas de listagem tentadas por pagina
+RI_SONDA_DUMP_BYTES = 120_000     # script de integracao (cmsint, file-manager) menor que isso vai esmiucado ao log
+RI_SONDA_MAX_BYTES = 3_000_000    # script maior que isso nao e lido
+RI_SONDA_TIMEOUT_S = 20           # por requisicao da sondagem
+
+_RE_SCRIPT_SRC = re.compile(r"""(?i)<script\b[^>]*\bsrc\s*=\s*["']?([^"'\s>]+)""")
+_RE_SCRIPT_INLINE = re.compile(r"(?is)<script\b([^>]*)>(.*?)</script>")
+_RE_SCRIPT_TIPO = re.compile(r"""(?i)\btype\s*=\s*["']?([^"'\s>]+)""")
+_RE_LINK_TAG = re.compile(r"(?i)<link\b([^>]*)>")
+_RE_REL = re.compile(r"""(?i)\brel\s*=\s*["']?([^"'>]+)""")
+_RE_TIPO_ATTR = re.compile(r"""(?i)\btype\s*=\s*["']?([^"'\s>]+)""")
+_RE_IFRAME = re.compile(r"""(?i)<iframe\b[^>]*\bsrc\s*=\s*["']?([^"'\s>]+)""")
+_RE_DATA_ATTR = re.compile(r"""(?i)\b(data-[a-z0-9_-]+)\s*=\s*["']([^"']{4,400})["']""")
+_RE_PISTA = re.compile(r"(?i)wp-json|admin-ajax|mziq|apicatalog|/api/|api\.|\.json\b|filemanager|rest_route|"
+                       r"idcanal|listresultados|documento|document|resultad|result|arquivo|release|earning")
+_RE_URL_EM_TEXTO = re.compile(r"""(?i)["'`]((?:https?:)?//[^"'`\s<>\\]{8,300}|"""
+                              r"""/(?:wp-json|wp-admin/admin-ajax\.php|api/|[a-z0-9_-]+\.aspx)[^"'`\s<>\\]{0,300})["'`]""")
+_RE_ACAO_AJAX = re.compile(r"""(?i)\baction\b["']?\s*[:=]\s*["']([a-z0-9_-]{3,60})["']""")
+_RE_CONFIG_JS = re.compile(r"""(?i)\b(ajax_?url|rest_?url|api_?url|root_?url|base_?url|root|endpoint|nonce|id_?canal|mz_?id|company_?id|empresa_?id)\b["']?\s*[:=]\s*["']([^"'\s]{2,300})["']""")
+_RE_PLACEHOLDER = re.compile(r"[{}$<>\[\]|]|\+\s*$")
+_RE_JS_CORE = re.compile(r"(?i)jquery|wp-includes|wp-emoji|elementor|gtm|gtag|analytics|recaptcha|font|swiper|slick|owl|"
+                         r"bootstrap|polyfill|lazy|cookie|lgpd|modernizr|popper|wow\b|aos\b|lightbox|fancybox|magnific|"
+                         r"isotope|masonry|select2|moment|chart|d3\b|three|gsap|lottie|vimeo|youtube|player|hotjar|"
+                         r"facebook|linkedin|twitter|clarity|tagmanager|pixel|consent|accessib|hand-talk|vlibras")
+_RE_JS_PRIORIDADE = re.compile(r"(?i)mz|result|central|document|\bdoc|file|arquiv|app|main|script|custom|theme|bundle|index")
+_RE_ROTA_INTERESSANTE = re.compile(r"(?i)mz|doc|file|arquiv|result|central|release|publica|download|midia|media")
+_RE_REST_INDICE = re.compile(r"(?i)wp-json/?$|rest_route=/?$")
+_RE_TIPO_TEXTO = re.compile(r"(?i)json|javascript|html|text|xml")
+_RE_ESTATICO = re.compile(r"(?i)\.(?:png|jpe?g|gif|svg|webp|ico|css|woff2?|ttf|eot|otf|mp[34]|avi|mov|zip)(?:[?#]|$)")
+_RE_NS_IRRELEVANTE = re.compile(r"(?i)ithemes-security|simple-history|yoast|wpml|monsterinsights|cptui|otgs|liquidweb|"
+                                r"redirection|wp-site-health|wp-block-editor|wp-abilities|oembed|jetpack|elementor|"
+                                r"contact-form|wpforms|akismet|rankmath|litespeed|wordfence|stock|derivativ|cotac|quote")
+_RE_JS_INTEGRACAO = re.compile(r"(?i)cmsint|file-?manager|mz\.util|mzfile|main\.js")
+_RE_JS_TRECHO = re.compile(r"(?i)ajax\(|fetch\(|getJSON\(|XMLHttpRequest|axios|\burl\s*[:=]|mzfilemanager|origin=|/v2/|"
+                           r"\blang(?:uage)?\b|dataset\.|\.data\(|attr\(\s*['\"]data-|categor|folder|\bdir\b|\bpath\b")
+_RE_JS_LITERAL = re.compile(r"""(["'`])((?:(?!\1)[^\\\n]|\\.){2,200})\1""")
+_RE_INLINE_TRECHO = re.compile(r"(?i)mzfilemanager|cmsint|filemanager|mzfile|mziq\.|\bMZ\b|mz_|central|result")
+_RE_HTML_TRECHO = re.compile(r"""(?i)file-?manager|mz-file|cmsint|mzfile|data-(?:id|category|categoria|dir|path|folder|pasta|list|type|tipo|lang|year|ano|empresa|company)\s*=|class\s*=\s*["'][^"']*(?:result|central|document|arquivo)""")
+_RE_DATA_ATTR_TODOS = re.compile(r"""(?i)\b(data-[a-z0-9_-]+)\s*=\s*["']([^"']{1,300})["']""")
+
+_CHAVES_URL = {"url", "link", "href", "file", "arquivo", "download", "source_url", "guid", "path", "src",
+               "document", "documento", "file_url", "fileurl", "url_arquivo", "urlarquivo", "downloadurl",
+               "download_url", "permalink", "caminho", "linkarquivo", "link_arquivo", "urldownload", "link_url"}
+_CHAVES_TITULO = {"title", "titulo", "name", "nome", "label", "rotulo", "descricao", "description", "text", "texto",
+                  "filename", "file_name", "nome_arquivo", "assunto", "subject", "rendered", "caption", "alt", "slug",
+                  "nomearquivo", "displayname", "display_name", "post_title", "file_title", "document_title",
+                  "nome_documento"}
+_CHAVES_TRIMESTRE = {"periodo", "period", "trimestre", "quarter", "trim", "quarter_name", "nome_trimestre", "file_quarter"}
+_CHAVES_ANO = {"ano", "year", "exercicio", "fiscal_year", "file_year"}
+_RE_DATA_COLADA = re.compile(r"^(20\d{2})(\d{2})(\d{2})$")    # file_published_date da MZ: '20260811'
+
+
+def _parece_url(v):
+    v = (v or "").strip()
+    if not v or " " in v or len(v) > 600:
+        return False
+    return bool(re.match(r"(?i)^(?:https?:)?//[^\s]+$", v)) or (v.startswith("/") and not v.startswith("//") and len(v) > 1)
+
+
+def _raiz_do_site(url):
+    m = re.match(r"(?i)(https?://[^/]+)", url or "")
+    return m.group(1) if m else ""
+
+
+def _pistas_da_pagina(html, url_base):
+    """O que o HTML da central entrega sobre a chamada que monta a lista: scripts (src), URLs
+    com pista em scripts inline, acoes de admin-ajax, config de wp_localize_script (ajax_url, nonce,
+    rest_url), JSON embutido (<script type=application/json>), link do WP REST (rel=https://api.w.org/),
+    JSON da propria pagina (rel=alternate type=application/json), iframes e atributos data-*."""
+    p = {"scripts": [], "inline": [], "acoes": [], "config": [], "json_embutido": [], "rest": None,
+         "pagina_json": None, "iframes": [], "data": [], "ajaxurl": None}
+    for m in _RE_SCRIPT_SRC.finditer(html):
+        p["scripts"].append(urljoin(url_base, htmlmod.unescape(m.group(1))))
+    for m in _RE_SCRIPT_INLINE.finditer(html):
+        atributos, corpo = m.group(1), m.group(2)
+        if not corpo.strip():
+            continue
+        tipo = _RE_SCRIPT_TIPO.search(atributos)
+        tipo = (tipo.group(1) if tipo else "").lower()
+        if "json" in tipo and "ld+json" not in tipo:
+            p["json_embutido"].append(corpo.strip()[:2_000_000])
+            continue
+        if tipo and "javascript" not in tipo and "module" not in tipo:
+            continue
+        for u in _RE_URL_EM_TEXTO.finditer(corpo):
+            s = u.group(1)
+            if _RE_PISTA.search(s):
+                p["inline"].append(s)
+        p["acoes"] += _RE_ACAO_AJAX.findall(corpo)
+        for chave, valor in _RE_CONFIG_JS.findall(corpo):
+            p["config"].append((chave, valor))
+            if chave.lower().replace("_", "") == "ajaxurl" and _parece_url(valor.replace("\\/", "/")):
+                p["ajaxurl"] = urljoin(url_base, valor.replace("\\/", "/"))
+    for m in _RE_LINK_TAG.finditer(html):
+        atributos = m.group(1)
+        rel = _RE_REL.search(atributos)
+        rel = (rel.group(1) if rel else "").lower()
+        href = _href_de(atributos)
+        if not href:
+            continue
+        if "api.w.org" in rel:
+            p["rest"] = urljoin(url_base, href)
+        elif "alternate" in rel:
+            tipo = _RE_TIPO_ATTR.search(atributos)
+            if tipo and "json" in tipo.group(1).lower():
+                p["pagina_json"] = urljoin(url_base, href)
+    for m in _RE_IFRAME.finditer(html):
+        p["iframes"].append(urljoin(url_base, htmlmod.unescape(m.group(1))))
+    for nome, valor in _RE_DATA_ATTR.findall(html):
+        valor = htmlmod.unescape(valor)
+        if _parece_url(valor) or _RE_PISTA.search(valor) or re.search(r"[0-9a-f]{8}-[0-9a-f]{4}-", valor.lower()):
+            p["data"].append((nome.lower(), valor))
+    for chave in ("scripts", "inline", "acoes", "iframes"):
+        p[chave] = list(dict.fromkeys(p[chave]))
+    p["config"] = list(dict.fromkeys(p["config"]))
+    p["data"] = list(dict.fromkeys(p["data"]))
+    # Para o log (uma vez por ativo): o que o inline diz sobre o file manager, todos os data-* do
+    # corpo e o HTML em volta do container da lista. E o que permite escrever a rota certa depois.
+    p["trechos_inline"] = []
+    for m in _RE_SCRIPT_INLINE.finditer(html):
+        corpo = m.group(2)
+        for t in _RE_INLINE_TRECHO.finditer(corpo):
+            ini = max(0, t.start() - 200)
+            p["trechos_inline"].append(re.sub(r"\s+", " ", corpo[ini:t.end() + 300]))
+            if len(p["trechos_inline"]) >= 14:
+                break
+        if len(p["trechos_inline"]) >= 14:
+            break
+    corpo_html = html.split("<body", 1)[-1]
+    p["data_todos"] = list(dict.fromkeys((n.lower(), v) for n, v in _RE_DATA_ATTR_TODOS.findall(corpo_html)))[:60]
+    p["fm"], p["blocos_fm"] = _file_manager_da_pagina(html)
+    p["trechos_html"] = []
+    for t in _RE_HTML_TRECHO.finditer(corpo_html):
+        ini = max(0, t.start() - 300)
+        p["trechos_html"].append(re.sub(r"\s+", " ", corpo_html[ini:t.end() + 500]))
+        if len(p["trechos_html"]) >= 8:
+            break
+    return p
+
+
+_RE_FM_VAR = re.compile(r"""(?i)\bvar\s+(fmId|fmBase|fmName|language|lang|fmLang|year|ano)\s*=\s*["']([^"']*)["']""")
+_RE_FM_CATEGORIA = re.compile(r"""(?is)categories\.push\(\s*\{(.*?)\}\s*\)""")
+_RE_FM_CAMPO = re.compile(r"""(?i)\b(title|internal_name|slug|icon)\s*:\s*["']([^"']*)["']""")
+
+
+def _file_manager_da_pagina(html):
+    """({'id','base','name','language','categorias': [(titulo, internal_name)]}, [blocos inline inteiros])
+    do file manager da MZ (tema mziq_*): a pagina declara var fmId/fmBase/language e monta
+    `categories.push({title, internal_name, icon})`; o script cmsint.js chama a API com isso."""
+    fm = {"id": None, "base": None, "name": None, "language": None, "api_language": None, "categorias": []}
+    blocos = []
+    for m in _RE_SCRIPT_INLINE.finditer(html):
+        corpo = m.group(2)
+        if not re.search(r"(?i)\bfmId\b|categories\.push|\bfmBase\b", corpo):
+            continue
+        blocos.append(re.sub(r"\s+", " ", corpo.strip())[:3000])
+        # configPage = { ..., language: 'pt_BR', //API LANGUAGUE ... }: o idioma que a API entende
+        api = re.search(r"""(?i)\blanguage\s*:\s*["']([a-z]{2}_[A-Z]{2})["']""", corpo)
+        if api and not fm["api_language"]:
+            fm["api_language"] = api.group(1)
+        for nome, valor in _RE_FM_VAR.findall(corpo):
+            chave = {"fmid": "id", "fmbase": "base", "fmname": "name", "language": "language", "lang": "language",
+                     "fmlang": "language", "year": "year", "ano": "year"}[nome.lower()]
+            fm.setdefault(chave, None)
+            if not fm.get(chave):
+                fm[chave] = valor.strip()
+        for cat in _RE_FM_CATEGORIA.findall(corpo):
+            campos = {k.lower(): v for k, v in _RE_FM_CAMPO.findall(cat)}
+            if campos.get("internal_name") or campos.get("slug"):
+                fm["categorias"].append((campos.get("title", ""), campos.get("internal_name") or campos.get("slug")))
+    fm["categorias"] = list(dict.fromkeys(fm["categorias"]))
+    return fm, blocos[:3]
+
+
+def _anos_da_resposta(obj):
+    """Anos numa resposta da rota de anos ({'success': true, 'data': [2026, 2025]} ou variantes)."""
+    achados = set()
+
+    def visitar(v, profundidade=0):
+        if profundidade > 6:
+            return
+        if isinstance(v, bool):
+            return
+        if isinstance(v, (int, float)) and 1990 <= int(v) <= 2100:
+            achados.add(int(v))
+        elif isinstance(v, str) and re.fullmatch(r"(?:19|20)\d{2}", v.strip()):
+            achados.add(int(v.strip()))
+        elif isinstance(v, dict):
+            for vv in v.values():
+                visitar(vv, profundidade + 1)
+        elif isinstance(v, list):
+            for vv in v:
+                visitar(vv, profundidade + 1)
+    visitar(obj)
+    return sorted(achados, reverse=True)
+
+
+def _document_metas(obj):
+    """Lista de documentos numa resposta do file manager: res.data.document_metas, ou a primeira lista
+    de dicionarios com file_title/link_url que houver."""
+    if isinstance(obj, dict):
+        dados = obj.get("data")
+        if isinstance(dados, dict) and isinstance(dados.get("document_metas"), list):
+            return [d for d in dados["document_metas"] if isinstance(d, dict)]
+        if isinstance(dados, list):
+            return [d for d in dados if isinstance(d, dict)]
+        for v in obj.values():
+            if isinstance(v, (dict, list)):
+                achado = _document_metas(v)
+                if achado:
+                    return achado
+        return []
+    if isinstance(obj, list):
+        docs = [d for d in obj if isinstance(d, dict) and any(k in d for k in ("file_title", "link_url", "permalink"))]
+        if docs:
+            return docs
+        for v in obj:
+            if isinstance(v, (dict, list)):
+                achado = _document_metas(v)
+                if achado:
+                    return achado
+    return []
+
+
+def _link_de_meta(d, ano, titulos, url_base):
+    """Um document_meta do file manager -> tupla de link no formato de _links_da_pagina.
+    Rotulo = titulo da categoria (da pagina) + file_title + trimestre (file_quarter + ano pedido),
+    sem repetir o que o file_title ja diz; contexto = ano, data de publicacao (AAAAMMDD -> ISO) e categoria."""
+    url = d.get("link_url") or d.get("permalink") or d.get("url") or d.get("file_url")
+    if not isinstance(url, str) or not _parece_url(url.strip()):
+        return None
+    cat = str(d.get("category_internal_name") or d.get("internal_name") or "")
+    tcat = titulos.get(cat) or titulos.get(cat.strip()) or ""
+    file_title = str(d.get("file_title") or d.get("title") or "").strip()
+    tri = str(d.get("file_quarter") or "").strip()
+    ano_doc = d.get("file_year") or ano
+    try:
+        periodo = f"{tri}T{int(ano_doc) % 100:02d}" if tri in ("1", "2", "3", "4") and ano_doc else ""
+    except (TypeError, ValueError):
+        periodo = ""
+    partes = []
+    # Titulo da categoria so quando o file_title nao diz por si que e release ('Release de Resultado 2T26'
+    # ja diz; 'Resultados' ou '2T26' nao dizem)
+    if tcat and not _RE_RI_RELEASE.search(normalizar(file_title)):
+        partes.append(tcat.strip())
+    partes.append(file_title)
+    if periodo and _periodo_no_site(file_title, "") != periodo:
+        partes.append(periodo)
+    titulo = " ".join(x for x in partes if x)
+    data = str(d.get("file_published_date") or d.get("published_date") or d.get("date") or "").strip()
+    if re.fullmatch(r"20\d{6}", data[:8]):
+        data = _RE_DATA_COLADA.sub(r"\1-\2-\3", data[:8])
+    data = re.sub(r"(\d{4}-\d{2}-\d{2})T\S*", r"\1", data)
+    antes = f"ano {ano_doc} {data} categoria {cat}".strip()
+    return (urljoin(url_base, url.strip()), titulo[:200], antes, "", None)
+
+
+def _listar_cmsint(fm, rotulo):
+    """Documentos do file manager da MZ pelo contrato do cmsint.js (tema mziq_*), o mesmo que o
+    navegador usa na central de resultados:
+      POST <base>/company/<id>/categoryInternalName/document/language/years
+           {categoryInternalNames: [...], language_code: 'pt_BR'}      -> {success, data: [anos]}
+      POST <base>/company/<id>/filter/categories/year/meta
+           {year, categories: [...], language: 'pt_BR', published: true} -> {success, data: {document_metas: [...]}}
+    Cada document_meta traz file_title, link_url (api.mziq.com/mzfilemanager/v2/d/...), file_published_date
+    (AAAAMMDD), file_quarter e internal_name da categoria. Devolve (links, url da rota, resumo)."""
+    base = (fm.get("base") or "https://api.mziq.com/mzfilemanager").rstrip("/")
+    fid = fm.get("id")
+    cats = [c for _, c in fm.get("categorias") or [] if c]
+    titulos = {c: t for t, c in fm.get("categorias") or []}
+    idioma = fm.get("api_language") or "pt_BR"
+    url_anos = f"{base}/company/{fid}/categoryInternalName/document/language/years"
+    r = app.http_post(url_anos, {"categoryInternalNames": cats, "language_code": idioma}, timeout=RI_SONDA_TIMEOUT_S)
+    anos = _anos_da_resposta(_decodificar_json(_html_da_resposta(r))) if r else []
+    ano_hoje = int(_hoje()[:4])
+    if r:
+        app.log(f"{rotulo}: file manager MZ: anos disponiveis {anos or 'nenhum'} para {len(cats)} categorias ({idioma})")
+    else:
+        app.log(f"{rotulo}: file manager MZ: rota de anos sem resposta 200; tenta {ano_hoje} e {ano_hoje - 1}")
+    anos = [a for a in anos if 2000 <= a <= ano_hoje + 1] or [ano_hoje, ano_hoje - 1]
+    anos = sorted(set(anos), reverse=True)[:3]          # 3 anos cobrem os 8 trimestres do historico
+    url_meta = f"{base}/company/{fid}/filter/categories/year/meta"
+    links, total = [], 0
+    for ano in anos:
+        r = app.http_post(url_meta, {"year": ano, "categories": cats, "language": idioma, "published": True},
+                          timeout=RI_SONDA_TIMEOUT_S)
+        if not r:
+            app.log(f"{rotulo}: file manager MZ: {ano} sem resposta 200")
+            continue
+        obj = _decodificar_json(_html_da_resposta(r))
+        metas = _document_metas(obj)
+        if not metas:
+            previa = re.sub(r"\s+", " ", _html_da_resposta(r)[:300])
+            app.log(f"{rotulo}: file manager MZ: {ano}: resposta sem document_metas: {previa}")
+            continue
+        total += len(metas)
+        categorias = sorted({str(m.get("category_internal_name") or m.get("internal_name") or "?").strip() for m in metas})
+        app.log(f"{rotulo}: file manager MZ: {ano}: {len(metas)} documentos em {', '.join(categorias[:10])}")
+        for m in metas[:2]:
+            campos = {k: str(v)[:60] for k, v in m.items() if isinstance(v, (str, int, float)) and k in
+                      ("file_title", "file_published_date", "file_quarter", "file_year", "internal_name",
+                       "category_internal_name", "link_url", "permalink", "language", "published")}
+            app.log(f"{rotulo}:   exemplo: {campos}")
+        for d in metas:
+            link = _link_de_meta(d, ano, titulos, url_meta)
+            if link:
+                links.append(link)
+    return links, url_meta, f"file manager MZ: {total} documentos em {len(anos)} ano(s)"
+
+
+_RE_JS_CHAMADA = re.compile(r"(?i)\$\.(?:ajax|post|get|getJSON)\s*\(|\bajax\s*\(\s*\{|\bfetch\s*\(|XMLHttpRequest|axios\.|"
+                            r"BASE_API\w*\s*=|\b\w*(?:Url|URL)\s*\(\s*(?:fmId|companyId|company|getSelectedCompany)|"
+                            r"CMS_GET_FILES|contentType|JSON\.stringify|\bmethod\s*:|\btype\s*:\s*['\"](?:POST|GET)")
+
+
+def _esmiucar_script(rotulo, nome, texto):
+    """Script de integracao com o file manager (cmsint, file-manager, mz.util, main): literais com
+    cara de caminho e o codigo em volta de cada chamada (ajax/fetch/url/mzfilemanager/origin/v2).
+    So log, limitado: e o que revela a rota e os parametros da listagem."""
+    literais = []
+    for m in _RE_JS_LITERAL.finditer(texto):
+        lit = m.group(2)
+        if re.search(r"(?i)/api|/c/|/company|/filter|/year|/lang|mzfilemanager|byQuarter|byYear|\{0\}", lit):
+            literais.append(lit)
+    literais = list(dict.fromkeys(literais))
+    cabecalho = re.sub(r"\s+", " ", texto[:1500])
+    app.log(f"{rotulo}: script {nome}: cabecalho: {cabecalho}")
+    app.log(f"{rotulo}: script {nome}: {len(literais)} literais de rota: {' | '.join(l[:120] for l in literais[:24])}")
+    trechos, ultimo = [], -1000
+    for m in _RE_JS_CHAMADA.finditer(texto):
+        if m.start() - ultimo < 300:
+            continue
+        ultimo = m.start()
+        ini = max(0, m.start() - 350)
+        trechos.append(re.sub(r"\s+", " ", texto[ini:m.end() + 450]))
+        if len(trechos) >= 18:
+            break
+    app.log(f"{rotulo}: script {nome}: {len(trechos)} trechos em volta de chamadas")
+    for t in trechos:
+        app.log(f"{rotulo}:   chamada: {t[:800]}")
+
+
+def _scripts_do_tema(pistas, url_base):
+    """Scripts que podem conter a chamada da lista: do proprio site em /wp-content/themes|plugins,
+    ou de host da MZ. Bibliotecas conhecidas (jquery, elementor, analytics...) ficam de fora."""
+    raiz = _raiz_do_site(url_base).lower()
+    escolhidos = []
+    for s in pistas["scripts"]:
+        u = s.lower()
+        if _RE_JS_CORE.search(u):
+            continue
+        proprio = raiz and u.startswith(raiz) and ("/wp-content/themes/" in u or "/wp-content/plugins/" in u
+                                                    or "/assets/" in u or "/js/" in u)
+        if proprio or re.search(r"mziq|mzweb|mz-", u):
+            escolhidos.append(s)
+    escolhidos.sort(key=lambda s: (0 if _RE_JS_PRIORIDADE.search(s.rsplit("/", 1)[-1]) else 1, len(s)))
+    return escolhidos[:RI_SONDA_MAX_JS]
+
+
+def _urls_no_script(texto):
+    """URLs e caminhos com pista dentro de um script: {url: True} preservando a ordem."""
+    achados = {}
+    for m in _RE_URL_EM_TEXTO.finditer(texto):
+        s = m.group(1)
+        if _RE_PISTA.search(s):
+            achados[s] = True
+    return list(achados)
+
+
+def _links_de_json(obj, url_base, contexto="", saida=None, profundidade=0):
+    """[(url, texto, antes, depois, None)] de todo campo com cara de link num JSON de listagem.
+    O rotulo e o titulo do mesmo objeto (title/nome/label...), mais o trimestre se o objeto o traz
+    em campo proprio ('periodo': '2T26', ou 'trimestre': 2 + 'ano': 2026); o contexto ('antes')
+    carrega os campos curtos do objeto (data, categoria, pasta) e os titulos dos niveis acima, para
+    a pasta '2T26' de uma arvore valer para os arquivos dentro dela. JSON do WP ({'title':
+    {'rendered': ...}}) e lido do mesmo jeito."""
+    if saida is None:
+        saida = []
+    if profundidade > 14 or len(saida) > 3000:
+        return saida
+    if isinstance(obj, dict):
+        planos = {str(k): v for k, v in obj.items() if isinstance(v, (str, int, float)) and not isinstance(v, bool)}
+        titulo = ""
+        for k, v in planos.items():
+            if k.lower() in _CHAVES_TITULO and isinstance(v, str) and v.strip():
+                titulo = _html_para_texto(v)[:200]
+                break
+        if not titulo:
+            t = obj.get("title") if isinstance(obj.get("title"), dict) else obj.get("titulo") if isinstance(obj.get("titulo"), dict) else None
+            if t and isinstance(t.get("rendered"), str):
+                titulo = _html_para_texto(t["rendered"])[:200]
+        tri, ano = None, None
+        for k, v in planos.items():
+            kl = k.lower()
+            if kl in _CHAVES_TRIMESTRE:
+                if isinstance(v, str) and re.fullmatch(r"[1-4]", v.strip()):
+                    tri = int(v.strip())
+                elif isinstance(v, str) and v.strip():
+                    titulo = f"{titulo} {v.strip()[:20]}".strip()
+                elif isinstance(v, (int, float)) and 1 <= int(v) <= 4:
+                    tri = int(v)
+            elif kl in _CHAVES_ANO and isinstance(v, (int, float, str)) and re.fullmatch(r"20\d{2}", str(v).strip()):
+                ano = int(str(v).strip())
+        if tri and not ano:
+            ano = _ano_do_contexto(contexto)
+        if tri and ano:
+            titulo = f"{titulo} {tri}T{ano % 100:02d}".strip()
+        urls = []
+        for k, v in planos.items():
+            if isinstance(v, str) and (k.lower() in _CHAVES_URL or _parece_url(v)):
+                v2 = v.replace("\\/", "/").strip()
+                if _parece_url(v2):
+                    urls.append(v2)
+        # '2026-08-12T10:00:00' vira '2026-08-12' e '20260812' vira '2026-08-12': colados, _data_no_texto nao le
+        extras = " ".join(_RE_DATA_COLADA.sub(r"\1-\2-\3", re.sub(r"(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}\S*", r"\1", str(v)))[:80]
+                          for k, v in planos.items()
+                          if isinstance(v, (int, float)) or (isinstance(v, str) and len(v) <= 80 and not _parece_url(v)))
+        antes = f"{contexto} {extras}".strip()[:400]
+        for u in urls:
+            saida.append((urljoin(url_base, u), titulo, antes, "", None))
+        filho = f"{contexto} {titulo} {extras}".strip()[:400]
+        for v in obj.values():
+            if isinstance(v, (dict, list)):
+                _links_de_json(v, url_base, filho, saida, profundidade + 1)
+    elif isinstance(obj, list):
+        for v in obj:
+            _links_de_json(v, url_base, contexto, saida, profundidade + 1)
+    return saida
+
+
+def _ano_do_contexto(contexto):
+    """Ano ('2026') citado no contexto dos niveis acima (ex.: a resposta e de 'year/2026')."""
+    m = re.search(r"\b(20\d{2})\b", contexto or "")
+    return int(m.group(1)) if m else None
+
+
+def _decodificar_json(texto):
+    """JSON de uma resposta, tolerando prefixo anti-CSRF (')]}'') e JSONP (callback({...}))."""
+    t = (texto or "").strip()
+    if not t:
+        return None
+    for candidato in (t, t.lstrip(")]}'\n"), re.sub(r"^[\w$.]+\((.*)\);?$", r"\1", t, flags=re.S)):
+        try:
+            v = json.loads(candidato)
+            if isinstance(v, (dict, list)):
+                return v
+        except (ValueError, TypeError):
+            continue
+    return None
+
+
+def _links_da_resposta(r, url):
+    """(tipo, links) do que uma rota devolveu: JSON (arvore percorrida; se for a pagina do WP, o
+    content.rendered tambem e lido como HTML; se for o indice do WP REST, devolve as rotas) ou HTML."""
+    tipo = (r.headers.get("Content-Type") or "").lower()
+    texto = _html_da_resposta(r)
+    obj = _decodificar_json(texto) if ("json" in tipo or texto.lstrip()[:1] in "{[") else None
+    if obj is not None:
+        # O ano pedido na rota ('/year/2026', 'ano=2026') e contexto de todo documento da resposta:
+        # com ele, 'file_quarter': 2 vira o rotulo 2T26
+        m_ano = re.search(r"(?i)(?:year|ano)[/=](20\d{2})\b", url)
+        links = _links_de_json(obj, url, contexto=f"ano {m_ano.group(1)}" if m_ano else "")
+        if isinstance(obj, dict):
+            conteudo = obj.get("content")
+            if isinstance(conteudo, dict) and isinstance(conteudo.get("rendered"), str):
+                links += _links_da_pagina(conteudo["rendered"], url)
+            elif isinstance(conteudo, str) and "<a" in conteudo.lower():
+                links += _links_da_pagina(conteudo, url)
+            # admin-ajax devolvendo {"success": true, "data": "<html>"} ou {"html": "..."}
+            for chave in ("data", "html", "content", "result", "resultado", "body"):
+                v = obj.get(chave)
+                if isinstance(v, str) and "<a" in v.lower():
+                    links += _links_da_pagina(v, url)
+                elif isinstance(v, dict):
+                    for vv in v.values():
+                        if isinstance(vv, str) and "<a" in vv.lower():
+                            links += _links_da_pagina(vv, url)
+        return "json", obj, links
+    if "<a" in texto.lower() or "<html" in texto.lower():
+        return "html", None, _links_da_pagina(texto, url)
+    return tipo[:30] or "desconhecido", None, []
+
+
+def _rotas_do_indice_rest(obj, url_indice):
+    """Rotas interessantes do indice do WP REST ({'namespaces': [...], 'routes': {...}}): as que
+    citam mz/doc/file/result/central/release/media, sem parametro de caminho, com per_page=100."""
+    rotas = obj.get("routes") if isinstance(obj, dict) else None
+    if not isinstance(rotas, dict):
+        return [], []
+    raiz = url_indice.split("wp-json")[0] + "wp-json" if "wp-json" in url_indice else url_indice.rstrip("/")
+    escolhidas = []
+    for rota in rotas:
+        if "(?P<" in rota or rota in ("/", ""):
+            continue
+        if _RE_ROTA_INTERESSANTE.search(rota) and not re.search(r"(?i)/wp/v2/(?:users|comments|settings|themes|plugins|blocks?)", rota):
+            escolhidas.append(raiz + rota + ("&" if "?" in rota else "?") + "per_page=100")
+    namespaces = obj.get("namespaces") if isinstance(obj.get("namespaces"), list) else []
+    escolhidas = [e for e in dict.fromkeys(escolhidas) if not _RE_NS_IRRELEVANTE.search(e.split("wp-json", 1)[-1])]
+    escolhidas.sort(key=lambda e: 0 if re.search(r"(?i)/mz", e.split("wp-json", 1)[-1]) else 1)
+    return escolhidas[:10], [str(n) for n in namespaces]
+
+
+def _rotas_de_listagem(mapa, pistas, url_base, achados_js):
+    """Rotas a tentar, na ordem: `lista` do mapa, JSON da pagina (WP REST), iframes, data-*,
+    URLs com pista dos scripts inline e do tema, biblioteca de midia do WP, indice do WP REST,
+    admin-ajax com as acoes vistas. Placeholders ('${id}', '{0}') ficam so no log."""
+    raiz = _raiz_do_site(url_base)
+    rotas = []
+    for u in (mapa.get("lista") or []) if isinstance(mapa.get("lista"), (list, tuple)) else []:
+        rotas.append(("lista de ri_fontes.py", u))
+    if pistas["pagina_json"]:
+        rotas.append(("JSON da pagina (WP REST)", pistas["pagina_json"]))
+    for u in pistas["iframes"]:
+        if _RE_PISTA.search(u) or "mz" in u.lower():
+            rotas.append(("iframe", u))
+    for nome, valor in pistas["data"]:
+        if _parece_url(valor) and _RE_PISTA.search(valor):
+            rotas.append((f"atributo {nome}", urljoin(url_base, valor)))
+    for s in pistas["inline"]:
+        if not _RE_PLACEHOLDER.search(s):
+            rotas.append(("script inline", urljoin(url_base, s)))
+    for origem, urls in achados_js:
+        for s in urls:
+            if not _RE_PLACEHOLDER.search(s) and re.search(r"(?i)wp-json|admin-ajax|mziq|apicatalog|/api/|\.json\b|\.aspx", s):
+                rotas.append((f"script {origem.rsplit('/', 1)[-1][:40]}", urljoin(url_base, s)))
+    if raiz:
+        rest = (pistas["rest"] or f"{raiz}/wp-json/").rstrip("/")
+        rotas.append(("biblioteca de midia (WP REST)", f"{rest}/wp/v2/media?per_page=100&media_type=application&orderby=date&order=desc"))
+        rotas.append(("indice do WP REST", rest + "/"))
+        ajax = pistas["ajaxurl"] or f"{raiz}/wp-admin/admin-ajax.php"
+        acoes = [a for a in pistas["acoes"] if _RE_ROTA_INTERESSANTE.search(a)][:4]
+        for a in acoes:
+            rotas.append((f"admin-ajax acao {a}", f"{ajax}?action={a}"))
+    # Tema mziq_* (cmsint.js): CMS_GET_FILES = BASE_API_CMS_URL + '/c/' + empresa + '/c/{categoria}/year/{ano}/lang/{idioma}'.
+    # A base exata e o metodo (GET/POST) ainda vem do log; aqui vao os palpites GET mais provaveis, so
+    # para as categorias com cara de release e o ano corrente.
+    fm = pistas.get("fm") or {}
+    fm_id = fm.get("id") or str(mapa.get("mz_id") or "").lower()
+    fm_base = (fm.get("base") or "https://api.mziq.com/mzfilemanager").rstrip("/")
+    idioma = fm.get("language") or "pt-BR"
+    ano = fm.get("year") or _hoje()[:4]
+    cats = [c for _, c in fm.get("categorias") or [] if re.search(r"(?i)release|resultad|result|earning", c)]
+    if fm_id and cats:
+        for cat in cats[:2]:
+            for base in (f"{fm_base}/api", fm_base, f"{fm_base}/api/cms"):
+                rotas.append(("cmsint GET palpite", f"{base}/c/{fm_id}/c/{cat}/year/{ano}/lang/{idioma}"))
+    elif fm_id:
+        for forma in ("l", "d"):
+            rotas.append(("palpite MZ", f"{fm_base}/v2/{forma}/{fm_id}?origin=2"))
+    vistas, unicas = set(), []
+    for origem, u in rotas:
+        u = u.replace("\\/", "/")
+        if u in vistas or not _parece_url(u) or _RE_ESTATICO.search(u):
+            continue
+        # Raiz de servico sem caminho (https://api.mziq.com/mzfilemanager) nao lista nada
+        if re.fullmatch(r"(?i)https?://[^/]+/[a-z_-]*/?", u) and "wp-json" not in u:
+            continue
+        vistas.add(u)
+        unicas.append((origem, u))
+    return unicas
+
+
+def _sondar_central_js(tk, mapa, html, url, rotulo, prazo_s, cache=None):
+    """Central sem candidato: le as pistas, tenta as rotas de listagem e devolve
+    (candidatos, descartados_pelo_rotulo, rota_que_respondeu, resumo). Nunca levanta excecao.
+    `cache` ({url: resultado}) evita repetir scripts e rotas entre as paginas do mesmo ativo."""
+    t0 = time.monotonic()
+    cache = cache if cache is not None else {}
+    resumo = "sem sondagem"
+    try:
+        pistas = _pistas_da_pagina(html, url)
+        tema = _scripts_do_tema(pistas, url)
+        app.log(f"{rotulo}: sondagem da pagina montada por JavaScript: {len(pistas['scripts'])} scripts "
+                f"({len(tema)} do tema/plugins), {len(pistas['inline'])} URLs com pista em scripts inline, "
+                f"{len(pistas['json_embutido'])} JSON embutido, {len(pistas['data'])} data-* com pista, "
+                f"{len(pistas['iframes'])} iframes; WP REST: {pistas['rest'] or 'nao anunciado'}; "
+                f"JSON da pagina: {pistas['pagina_json'] or 'nenhum'}; ajaxurl: {pistas['ajaxurl'] or 'nenhum'}")
+        for s in tema[:RI_SONDA_MAX_JS]:
+            app.log(f"{rotulo}: pista script do tema: {s[:160]}")
+        for s in pistas["inline"][:15]:
+            app.log(f"{rotulo}: pista inline: {s[:200]}")
+        if pistas["acoes"]:
+            app.log(f"{rotulo}: acoes de admin-ajax citadas: {', '.join(pistas['acoes'][:20])}")
+        for chave, valor in pistas["config"][:12]:
+            app.log(f"{rotulo}: pista config: {chave} = {valor[:120]}")
+        for nome, valor in pistas["data"][:12]:
+            app.log(f"{rotulo}: pista {nome} = {valor[:120]}")
+        for u in pistas["iframes"][:6]:
+            app.log(f"{rotulo}: pista iframe: {u[:160]}")
+        if not cache.get("__esmiucado__"):
+            cache["__esmiucado__"] = True
+            for t in pistas["trechos_inline"][:14]:
+                app.log(f"{rotulo}: inline em volta do file manager: {t[:500]}")
+            if pistas["data_todos"]:
+                app.log(f"{rotulo}: data-* do corpo ({len(pistas['data_todos'])}): "
+                        + "; ".join(f"{n}={v[:60]}" for n, v in pistas["data_todos"][:60])[:1500])
+            for t in pistas["trechos_html"][:8]:
+                app.log(f"{rotulo}: HTML em volta da lista: {t[:800]}")
+            fm = pistas.get("fm") or {}
+            if fm.get("id") or fm.get("categorias"):
+                app.log(f"{rotulo}: file manager da MZ na pagina: id {fm.get('id')}, base {fm.get('base')}, idioma "
+                        f"{fm.get('language')}, ano {fm.get('year')}, categorias {fm.get('categorias')}")
+            for b in pistas.get("blocos_fm") or []:
+                app.log(f"{rotulo}: bloco inline do file manager: {b[:3000]}")
+        # JSON embutido na propria pagina: nem precisa de rota
+        for corpo in pistas["json_embutido"][:5]:
+            obj = _decodificar_json(corpo)
+            if obj is None:
+                continue
+            links = _links_de_json(obj, url)
+            cands, fora = _candidatos_ri(links, url)
+            app.log(f"{rotulo}: JSON embutido na pagina: {len(links)} links, {len(cands)} candidatos")
+            if cands:
+                resumo = "JSON embutido na pagina trouxe candidatos"
+                return cands, fora, url, resumo
+        # Tema mziq_* com file manager declarado na pagina (fmId + categorias): usa o contrato do
+        # cmsint.js direto, que e o que o navegador faz. E o caminho de Cury, Plano & Plano e MRV.
+        fm = pistas.get("fm") or {}
+        if fm.get("id") and fm.get("categorias"):
+            chave = ("__cmsint__", fm["id"], fm.get("api_language"))
+            if chave in cache:
+                links, rota, resumo_fm = cache[chave]
+            else:
+                links, rota, resumo_fm = _listar_cmsint(fm, rotulo)
+                cache[chave] = (links, rota, resumo_fm)
+            cands, fora = _candidatos_ri(links, url)
+            app.log(f"{rotulo}: {resumo_fm}; {len(links)} links, {len(cands)} candidatos, {fora} descartados pelo rotulo")
+            if cands:
+                return cands, fora, rota, resumo_fm
+        # Scripts do tema: a URL da chamada costuma estar neles (fetch/ajax), as vezes com placeholder
+        achados_js = []
+        for s in tema:
+            if time.monotonic() - t0 > prazo_s * 0.5:
+                app.log(f"{rotulo}: sondagem: metade do prazo gasta lendo scripts; para de ler")
+                break
+            if s in cache:
+                urls = cache[s]
+            else:
+                r = app.http_get(s, timeout=RI_SONDA_TIMEOUT_S)
+                urls = []
+                if r and len(r.content or b"") <= RI_SONDA_MAX_BYTES:
+                    texto_js = _html_da_resposta(r)
+                    urls = _urls_no_script(texto_js)
+                    nome = s.rsplit('/', 1)[-1][:60]
+                    app.log(f"{rotulo}: script {nome} ({len(r.content)} bytes): {len(urls)} URLs com pista")
+                    for u in urls[:15]:
+                        app.log(f"{rotulo}:   {u[:200]}")
+                    if _RE_JS_INTEGRACAO.search(nome) and len(r.content) <= RI_SONDA_DUMP_BYTES and not cache.get(("__dump__", s)):
+                        cache[("__dump__", s)] = True
+                        _esmiucar_script(rotulo, nome, texto_js)
+                elif r:
+                    app.log(f"{rotulo}: script {s.rsplit('/', 1)[-1][:60]} ignorado ({len(r.content)} bytes, acima do teto)")
+                cache[s] = urls
+            if urls:
+                achados_js.append((s, urls))
+        rotas = _rotas_de_listagem(mapa, pistas, url, achados_js)
+        fila = list(rotas)
+        tentadas, vistas = 0, set()
+        while fila and tentadas < RI_SONDA_MAX_ROTAS:
+            origem, u = fila.pop(0)
+            if u in vistas:
+                continue
+            vistas.add(u)
+            if time.monotonic() - t0 > prazo_s:
+                app.log(f"{rotulo}: sondagem: prazo de {prazo_s:.0f}s estourou com {len(fila) + 1} rotas por tentar")
+                break
+            tentadas += 1
+            if u in cache:
+                r = cache[u]
+            else:
+                r = app.http_get(u, timeout=RI_SONDA_TIMEOUT_S)
+                cache[u] = r
+            if not r:
+                app.log(f"{rotulo}: rota ({origem}) {u[:150]} -> sem resposta 200")
+                continue
+            tipo, obj, links = _links_da_resposta(r, u)
+            cands, fora = _candidatos_ri(links, url)
+            app.log(f"{rotulo}: rota ({origem}) {u[:150]} -> {tipo}, {len(r.content or b'')} bytes, "
+                    f"{len(links)} links, {len(cands)} candidatos, {fora} descartados pelo rotulo")
+            if not cands and "wp-json" not in u:
+                previa = re.sub(r"\s+", " ", _html_da_resposta(r)[:400])
+                app.log(f"{rotulo}:   corpo: {previa}")
+            if tipo == "json" and isinstance(obj, dict) and isinstance(obj.get("routes"), dict):
+                novas, namespaces = _rotas_do_indice_rest(obj, u)
+                app.log(f"{rotulo}: indice do WP REST: namespaces {', '.join(namespaces[:25]) or 'nenhum'}; "
+                        f"{len(novas)} rotas com cara de documento: {'; '.join(n[len(_raiz_do_site(n)):][:80] for n in novas[:10])}")
+                fila = [("rota do indice REST", n) for n in novas] + fila
+            if cands:
+                resumo = f"rota ({origem}) trouxe {len(cands)} candidatos"
+                return cands, fora, u, resumo
+        resumo = f"{tentadas} rotas tentadas, nenhuma trouxe release"
+    except Exception as e:
+        resumo = f"sondagem falhou ({type(e).__name__}: {str(e)[:80]})"
+        app.log(f"{rotulo}: {resumo}")
+    return [], 0, None, resumo
+
+
+# ───────────────── Descobridor da central de resultados (qualquer ticker) ─────────────────
+# ri_fontes.py mapeia 18 companhias a mao. O universo da mesa tem mais de 100 acoes da B3, e com o
+# indice IPE da CVM fora do ar o release so existe no site de RI: sem descobrir a central sozinho, um
+# deep search em qualquer um dos outros ~83 tickers nasce vazio. A regra e da mesa, nao do ativo.
+#
+# A descoberta e barata porque o coletor ja sabe o dominio da companhia: `yahoo.info.website` vem
+# preenchido em 24 dos 25 ativos do branch. Dali saem os candidatos de host, na ordem de acerto medida
+# sobre os 18 ja mapeados (ri.<dominio> acerta 13; os outros 5 caem no rastreio de links). Achada a
+# central, nada mais e preciso: o caminho do file manager da MZ lista a companhia inteira.
+RI_DESCOBERTA_ORCAMENTO_S = 45     # teto de descoberta por ticker
+RI_DESCOBERTA_MAX_GET = 12         # teto de requisicoes por ticker
+RI_DESCOBERTA_TIMEOUT_S = 12       # por requisicao (a pagina da central usa 60)
+RI_RECONFERIR_DIAS = 90            # entrada do cache e reconferida depois disso
+RI_BACKOFF_DIAS = (1, 3, 7, 30)    # ticker sem fonte: espera antes de tentar de novo
+RI_DESCOBERTAS_POR_COLETA = 6      # buscas novas por execucao: o resto espera a proxima
+_descobertas_nesta_coleta = 0      # contador do teto acima (a execucao agendada varre 26 ativos)
+
+_RE_ESQUEMA = re.compile(r"(?i)^[a-z][a-z0-9+.-]*://")
+_RE_HOST = re.compile(r"(?i)^([a-z0-9.-]+\.[a-z]{2,})")
+_RE_LINK_RI = re.compile(r"(?i)relacoes com investidores|relacao com investidores|investor relations|"
+                         r"\brela[cç][oõ]es\b|\binvestidor(?:es)?\b|\bri\b|\bir\b")
+_RE_LINK_CENTRAL = re.compile(r"(?i)central de resultados|results?[ -]cent|divulgacao de resultados|"
+                              r"informacoes financeiras|financial information|resultados trimestrais|"
+                              r"central de downloads|\bresultados\b|\bresults\b|earnings")
+_RE_CAMINHO_RI = re.compile(r"(?i)/(?:ri|ir)(?:/|$)|relacoes-com-investidores|relacao-com-investidores|"
+                            r"investidor|investor-relations|investors?")
+_RE_CAMINHO_CENTRAL = re.compile(r"(?i)central-de-resultados|results-cent|divulgacao-de-resultados|"
+                                 r"informacoes-financeiras|financial-information|resultados-trimestrais|"
+                                 r"central-de-downloads|/resultados|/results|earnings")
+_RE_SETORIAL = re.compile(r"(?i)^(ENGENHARIA|CONSTRUTORA|INCORPORADORA|EMPREENDIMENTOS|INDUSTRIA|INDUSTRIAS|"
+                          r"COMERCIO|DISTRIBUIDORA|ENERGETICA|ENERGIA|TELECOM|TELECOMUNICACOES|LOGISTICA|"
+                          r"TRANSPORTES|ALIMENTOS|SIDERURGICA|MINERACAO|PAPEL|CELULOSE|SEGUROS|SEGURADORA|"
+                          r"FINANCEIRA|INVESTIMENTOS|IMOBILIARIO|IMOBILIARIA|DESENVOLVIMENTO|SERVICOS|"
+                          r"TECNOLOGIA|SAUDE|EDUCACIONAL|EDUCACAO|VAREJO|AGRO|AGROPECUARIA|BRASIL|BRASILEIRA)$")
+
+
+def _get_ri(url, timeout=RI_DESCOBERTA_TIMEOUT_S):
+    """GET da descoberta: (resposta ou None, status, url_final, motivo).
+
+    app.http_get devolve None para tudo que nao e 200 e esconde o redirect. Aqui os tres fatos sao
+    diferentes e cada um decide uma coisa: 404 e host errado, 403 e WAF (o ticker nao pode sumir por
+    isso), e o 301 e justamente o que leva de petrobras.com.br/ri para investidorpetrobras.com.br."""
+    try:
+        r = requests.get(url, headers={"User-Agent": app.UA, "Accept": "text/html,*/*"},
+                         timeout=timeout, allow_redirects=True)
+    except Exception as e:
+        nome, texto = type(e).__name__, str(e)
+        if re.search(r"(?i)nameresolution|gaierror|name or service not known|nodename nor servname|"
+                     r"getaddrinfo|nao resolve", f"{nome} {texto}"):
+            return None, 0, url, "dns"
+        if "Timeout" in nome or "timed out" in texto.lower():
+            return None, 0, url, "timeout"
+        return None, 0, url, f"erro {nome}"
+    final = getattr(r, "url", url) or url
+    if r.status_code != 200:
+        return None, r.status_code, final, f"http {r.status_code}"
+    try:
+        corpo = _html_da_resposta(r)
+    except Exception:
+        corpo = ""
+    if _RE_PAGINA_BLOQUEIO.search(corpo[:3000]):
+        return None, r.status_code, final, "waf"
+    return r, r.status_code, final, "ok"
+
+
+def _dominio_nu(valor):
+    """(host cheio, dominio registravel) de uma URL ou dominio sujo; (None, None) quando nao vira host.
+
+    Aceita o que o mundo real entrega: 'WWW.TENDA.COM', 'HTTP://RI.SIMPAR.COM.BR/PT-BR',
+    'weg.net/institutional/BR/en/', e-mail no lugar de site. Preserva o 'ri.' quando ele ja vem na
+    semente (o Yahoo traz 'https://ri.americanas.io' literalmente)."""
+    v = str(valor or "").strip().lower()
+    if not v:
+        return None, None
+    if "@" in v and "://" not in v:
+        v = v.split("@", 1)[1]
+    v = _RE_ESQUEMA.sub("", v).split("/")[0].split("?")[0].split("#")[0].split(":")[0]
+    if v.startswith("www."):
+        v = v[4:]
+    m = _RE_HOST.match(v)
+    if not m:
+        return None, None
+    host = m.group(1).strip(".")
+    partes = host.split(".")
+    # dominio registravel: 'ri.cury.net' -> 'cury.net'; 'ri.direcional.com.br' -> 'direcional.com.br'
+    if len(partes) >= 3 and partes[-2] in ("com", "net", "org", "gov", "agr", "ind") and len(partes[-1]) == 2:
+        apex = ".".join(partes[-3:])
+    elif len(partes) >= 2:
+        apex = ".".join(partes[-2:])
+    else:
+        apex = host
+    return host, apex
+
+
+def _slugs_do_nome(nomes):
+    """Slugs plausiveis de dominio a partir do nome da companhia, do mais provavel para o menos."""
+    slugs = []
+    for nome in nomes:
+        base = normalizar(nome)
+        if not base:
+            continue
+        com_e = "&" in str(nome) or " E " in f" {base} "
+        base = base.replace("&", " ")
+        if "-" in str(nome):
+            cauda = normalizar(str(nome).rsplit("-", 1)[-1])
+            if cauda:
+                slugs.append(cauda.replace(" ", "").lower())
+        palavras = [p for p in base.split() if p and p not in GENERICAS]
+        uteis = [p for p in palavras if not _RE_SETORIAL.match(p)] or palavras
+        if uteis:
+            slugs.append(uteis[0].lower())
+            slugs.append("".join(uteis).lower())
+            if len(uteis) >= 2:
+                slugs.append("".join(uteis[:2]).lower())
+                if com_e:
+                    # 'PLANO & PLANO' -> planoeplano (o dominio real); sem isso viraria 'planoplano'
+                    slugs.append("e".join(uteis[:2]).lower())
+        if palavras:
+            slugs.append("".join(palavras).lower())
+    vistos, saida = set(), []
+    for s in slugs:
+        s = re.sub(r"[^a-z0-9]", "", s)
+        if 3 <= len(s) <= 30 and s not in vistos:
+            vistos.add(s)
+            saida.append(s)
+    return saida[:6]
+
+
+def _candidatos_host_ri(sementes, nomes, tk):
+    """[(regra, url)] para achar o site de RI, na ordem de acerto medida nos 18 ja mapeados."""
+    cands = []
+
+    def poe(regra, url):
+        if url and (regra, url) not in cands:
+            cands.append((regra, url))
+
+    apexes = []
+    for origem, host, apex in sementes:
+        if not apex:
+            continue
+        if apex not in apexes:
+            apexes.append(apex)
+        if host and host.startswith(("ri.", "ir.", "investidor")):
+            poe(f"semente {origem} ja e de RI", f"https://{host}/")
+    for apex in apexes:
+        poe("ri.<dominio>", f"https://ri.{apex}/")
+    for apex in apexes:
+        marca = apex.split(".")[0]
+        poe("<dominio>/ri", f"https://{apex}/ri")
+        poe("<dominio>/relacoes-com-investidores", f"https://{apex}/relacoes-com-investidores")
+        poe("<dominio>/investidores", f"https://{apex}/investidores")
+        poe("<marca>ri.com.br", f"https://{marca}ri.com.br/")
+        poe("investidor<marca>.com.br", f"https://investidor{marca}.com.br/")
+        poe("investidores.<dominio>", f"https://investidores.{apex}/")
+    for slug in _slugs_do_nome(nomes) + [tk.lower()]:
+        for tld in (".com.br", ".com", ".net"):
+            poe("slug do nome", f"https://ri.{slug}{tld}/")
+    return cands
+
+
+def _identidade_bate(texto, nomes, tk):
+    """A pagina e mesmo da companhia? Evita adotar o RI de outra empresa com nome parecido."""
+    alvo = normalizar(texto[:20000])
+    if tk and tk.upper() in alvo:
+        return True
+    for nome in nomes:
+        palavras = [p for p in normalizar(nome).split() if len(p) >= 5 and p not in GENERICAS
+                    and not _RE_SETORIAL.match(p)]
+        if palavras and all(p in alvo for p in palavras[:2]):
+            return True
+    return False
+
+
+def _parece_central_de_resultados(html, url, nomes, tk):
+    """(True, pista) quando a pagina e a central de resultados da companhia certa."""
+    texto = _html_para_texto(html)
+    if not _identidade_bate(texto, nomes, tk):
+        return False, "pagina nao cita a companhia"
+    fm, _ = _file_manager_da_pagina(html)
+    if fm.get("id") and fm.get("categorias"):
+        cats = ", ".join(c for _, c in fm["categorias"][:4])
+        if re.search(r"(?i)release|resultad|result|earning", cats):
+            return True, f"file manager da MZ declarado na pagina (categorias: {cats[:80]})"
+    cands, _ = _candidatos_ri(_links_da_pagina(html, url), url)
+    com_trimestre = [c for c in cands if c.get("periodo")]
+    if len(com_trimestre) >= 2:
+        return True, f"{len(com_trimestre)} links de release com trimestre no rotulo"
+    if len(cands) >= 3:
+        return True, f"{len(cands)} candidatos a release na pagina"
+    return False, f"{len(cands)} candidato(s) a release, sem file manager"
+
+
+def _links_que_casam(html, url, regex_texto, regex_caminho, limite=6):
+    """Links da pagina cujo rotulo ou caminho falam de RI (ou da central), mais provaveis primeiro."""
+    achados = []
+    for link in _links_da_pagina(html, url):
+        destino, rotulo = link[0], link[1]
+        if not destino or destino.lower().endswith((".pdf", ".zip", ".xlsx", ".jpg", ".png")):
+            continue
+        no_texto = bool(regex_texto.search(normalizar(rotulo))) if rotulo else False
+        no_caminho = bool(regex_caminho.search(destino))
+        if no_texto or no_caminho:
+            achados.append(((0 if (no_texto and no_caminho) else 1), destino, rotulo))
+    achados.sort(key=lambda x: x[0])
+    vistos, saida = set(), []
+    for _, destino, rotulo in achados:
+        chave = _sem_fragmento(destino)
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        saida.append((destino, rotulo))
+    return saida[:limite]
+
+
+def descobrir_central_ri(tk, dados, fontes, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S, bloqueados=None):
+    """Acha sozinho a central de resultados de um ticker sem mapa em ri_fontes.py.
+
+    Devolve uma entrada no formato de RI_FONTES (empresa, central, alternativas, plataforma, mz_id,
+    observacao) ou None. Tres fases, todas com teto de tempo e de requisicoes: candidatos de host a
+    partir do dominio que o coletor ja conhece; se o host responder mas nao for a central, rastreia os
+    links de RI e depois os de central; valida a pagina exigindo que ela cite a companhia."""
+    t0, gets = time.monotonic(), 0
+    info = (dados.get("yahoo") or {}).get("info") or {}
+    nomes = [x for x in ((dados.get("cvm") or {}).get("empresa_escolhida"), info.get("longName"),
+                         info.get("shortName"), (dados.get("fundamentus") or {}).get("Empresa")) if x]
+    sementes = []
+    for origem, valor in (("yahoo", info.get("website")),
+                          ("cvm", (dados.get("cvm") or {}).get("pagina_web"))):
+        host, apex = _dominio_nu(valor)
+        if apex:
+            sementes.append((origem, host, apex))
+    if not sementes and not nomes:
+        app.log(f"{tk}: descoberta de RI: sem dominio e sem nome da companhia; nada a tentar")
+        return None
+    candidatos = _candidatos_host_ri(sementes, nomes, tk)
+    app.log(f"{tk}: descoberta de RI: sementes {[f'{o}:{a}' for o, _, a in sementes] or 'nenhuma'}; "
+            f"{len(candidatos)} candidatos de host")
+    fila = list(candidatos)
+    visitadas = set()
+    bloqueados = bloqueados if bloqueados is not None else []
+    while fila and gets < RI_DESCOBERTA_MAX_GET and time.monotonic() - t0 < orcamento_s:
+        regra, url = fila.pop(0)
+        if _sem_fragmento(url) in visitadas:
+            continue
+        visitadas.add(_sem_fragmento(url))
+        r, status, final, motivo = _get_ri(url)
+        gets += 1
+        if not r:
+            if motivo != "dns":
+                app.log(f"{tk}: descoberta de RI: {url} -> {motivo}")
+            if status in (401, 403, 429) or motivo == "waf":
+                # O host existe e responde: quem barra e o WAF contra IP de datacenter. Nao e host
+                # errado, e fonte bloqueada - o Douglas precisa saber a diferenca para decidir se
+                # mapeia a mao. Nao tentamos contornar bloqueio.
+                bloqueados.append(url)
+            continue
+        html = _html_da_resposta(r)
+        ok, pista = _parece_central_de_resultados(html, final, nomes, tk)
+        app.log(f"{tk}: descoberta de RI: {url} ({regra}) -> 200 em {final[:90]}; "
+                + (f"E A CENTRAL ({pista})" if ok else f"nao e a central ({pista})"))
+        if ok:
+            fm, _ = _file_manager_da_pagina(html)
+            return {"empresa": nomes[0] if nomes else tk,
+                    "central": final,
+                    "alternativas": [],
+                    "plataforma": "mz" if fm.get("id") else "desconhecida",
+                    "mz_id": fm.get("id"),
+                    "observacao": (f"descoberto pelo coletor em {_hoje()} pela regra '{regra}' "
+                                   f"({pista}); semente {sementes[0][0] if sementes else 'nome'}")}
+        # A pagina respondeu mas nao e a central: use os links dela. Central primeiro (e o alvo);
+        # depois os links de RI, que levam a pagina onde a central costuma estar. Vale para qualquer
+        # pagina que respondeu: o site institucional e a home do RI entram pelo mesmo caminho, e foi
+        # por separar os dois casos que o rastreio parava no primeiro clique.
+        novos = []
+        for destino, rotulo in _links_que_casam(html, final, _RE_LINK_CENTRAL, _RE_CAMINHO_CENTRAL):
+            novos.append((f"link '{rotulo[:30]}' -> central", destino))
+        if len(visitadas) <= 4:      # so nos primeiros passos, para o rastreio nao abrir em leque
+            for destino, rotulo in _links_que_casam(html, final, _RE_LINK_RI, _RE_CAMINHO_RI, limite=3):
+                novos.append((f"link '{rotulo[:30]}' -> RI", destino))
+        novos = [(regra_n, u) for regra_n, u in novos if _sem_fragmento(u) not in visitadas]
+        if novos:
+            app.log(f"{tk}: descoberta de RI: {len(novos)} link(s) da pagina entram na fila: "
+                    f"{', '.join(u[:70] for _, u in novos[:4])}")
+            fila = novos + fila
+    if bloqueados:
+        app.log(f"{tk}: descoberta de RI: {len(bloqueados)} endereco(s) existem mas bloquearam o "
+                f"coletor (403/WAF): {', '.join(bloqueados[:3])}; a fonte existe, o robo e que nao passa")
+        fontes["release_ri_site"] = (f"falha: site de RI bloqueia o coletor (403/WAF) em "
+                                     f"{bloqueados[0][:80]}")[:220]
+    app.log(f"{tk}: descoberta de RI: nao achei a central ({gets} requisicoes, "
+            f"{time.monotonic() - t0:.0f}s); o ticker fica sem fonte de release no site de RI")
+    return None
+
+
+# ───────── cache das fontes descobertas, no branch `dados` ─────────
+RI_DESCOBERTOS = "ri_descobertos.json"
+
+
+def carregar_ri_descobertos(saida):
+    """{ticker: entrada} do cache gravado no branch. O job do Actions so commita no branch `dados`,
+    entao o que o coletor aprende mora la; ri_fontes.py, versionado e conferido a mao, vence sempre."""
+    if not saida:
+        return {}
+    try:
+        d = json.load(open(os.path.join(saida, RI_DESCOBERTOS), encoding="utf-8"))
+    except Exception:
+        return {}
+    return d.get("fontes") or {}
+
+
+def gravar_ri_descobertos(saida, cache):
+    if not saida:
+        return
+    try:
+        gravar_json(os.path.join(saida, RI_DESCOBERTOS),
+                    {"atualizado_em": agora(),
+                     "nota": ("centrais de resultados que o coletor descobriu sozinho, a partir do "
+                              "dominio da companhia. ri_fontes.py (no repositorio) vence este arquivo. "
+                              "`sem_fonte` guarda quando a busca falhou, para nao repetir a cada coleta; "
+                              f"entrada boa e reconferida depois de {RI_RECONFERIR_DIAS} dias"),
+                     "fontes": cache})
+    except Exception as e:
+        app.log(f"nao consegui gravar {RI_DESCOBERTOS}: {type(e).__name__}")
+
+
+def _pode_tentar_de_novo(entrada):
+    """Ticker que ja falhou espera 1, 3, 7 e depois 30 dias antes de nova tentativa."""
+    if not entrada or not entrada.get("sem_fonte"):
+        return True
+    try:
+        quando = datetime.strptime(entrada.get("quando", "")[:10], "%Y-%m-%d")
+    except Exception:
+        return True
+    tentativas = int(entrada.get("tentativas") or 1)
+    espera = RI_BACKOFF_DIAS[min(tentativas, len(RI_BACKOFF_DIAS)) - 1]
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - quando).days >= espera
+
+
+def fonte_ri_do_ativo(tk, dados, fontes, saida, orcamento_s=RI_DESCOBERTA_ORCAMENTO_S):
+    """A entrada de RI que vale para este ticker: ri_fontes.py, senao o cache, senao a descoberta.
+
+    Devolve (mapa ou None, origem). E o ponto unico que faz a regra valer para todo ativo: nenhum
+    ticker fica sem fonte de release so por nao ter sido mapeado a mao."""
+    do_arquivo = _mapa_ri().get(tk)
+    if do_arquivo:
+        return (do_arquivo if isinstance(do_arquivo, dict) else {"central": do_arquivo}), "ri_fontes.py"
+    cache = carregar_ri_descobertos(saida)
+    guardada = cache.get(tk)
+    if guardada and guardada.get("central") and (guardada.get("quando", "") >= _dias_atras(RI_RECONFERIR_DIAS)):
+        return guardada, "cache do branch"
+    if not _pode_tentar_de_novo(guardada):
+        app.log(f"{tk}: descoberta de RI adiada (falhou em {guardada.get('quando')}, "
+                f"{guardada.get('tentativas')} tentativa(s))")
+        fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada pelo backoff"
+        return None, "adiada"
+    global _descobertas_nesta_coleta
+    if _descobertas_nesta_coleta >= RI_DESCOBERTAS_POR_COLETA:
+        # A execucao agendada varre a lista inteira; sem teto, uma coleta poderia gastar dezenas de
+        # minutos so descobrindo. O que ficou de fora entra na proxima, sem perder nada.
+        app.log(f"{tk}: descoberta de RI adiada: ja foram {_descobertas_nesta_coleta} buscas nesta "
+                f"coleta (teto {RI_DESCOBERTAS_POR_COLETA}); entra na proxima")
+        fontes["release_ri_site"] = "sem mapa de RI; descoberta adiada para a proxima coleta"
+        return None, "adiada"
+    _descobertas_nesta_coleta += 1
+    achada, bloqueados = None, []
+    try:
+        achada = descobrir_central_ri(tk, dados, fontes, orcamento_s, bloqueados)
+    except Exception as e:
+        app.log(f"{tk}: descoberta de RI quebrou ({type(e).__name__}: {e}); segue sem fonte de site")
+    if achada:
+        cache[tk] = {**achada, "quando": _hoje(), "tentativas": 0, "sem_fonte": False}
+        gravar_ri_descobertos(saida, cache)
+        app.log(f"{tk}: central de resultados DESCOBERTA: {achada['central']} "
+                f"(plataforma {achada['plataforma']}); gravada em {RI_DESCOBERTOS}")
+        return achada, "descoberta"
+    cache[tk] = {"central": None, "quando": _hoje(), "sem_fonte": True,
+                 "tentativas": int((guardada or {}).get("tentativas") or 0) + 1,
+                 "bloqueados": bloqueados[:5],
+                 "observacao": ("site de RI existe mas bloqueia o coletor (403/WAF): mapeie a mao em "
+                                "ri_fontes.py ou aceite a lacuna declarada" if bloqueados else
+                                "coletor nao achou a central; mapeie a mao em ri_fontes.py se for urgente")}
+    gravar_ri_descobertos(saida, cache)
+    return None, "nao achada"
+
+
+def _dias_atras(dias):
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=dias)).strftime("%Y-%m-%d")
+
+
+def coletar_releases_ri(tk, fontes, conhecidos=None, descartados=None, max_releases=RELEASES_POR_ATIVO,
+                        orcamento_s=RELEASE_ORCAMENTO_S, ate_periodo=None, preferencias=None,
+                        faltantes=None, mapa=None):
+    """Releases de resultado lidos direto da central de resultados do site de RI (ri_fontes.py).
+
+    Complementa o IPE da CVM: com `ate_periodo` (o release mais novo que ja existe, ex.: '3T25')
+    so trimestres MAIS NOVOS sao baixados, mais o proprio `ate_periodo` quando o documento da pagina
+    e MELHOR (preferencia menor) que o gravado nesse trimestre, dado por `preferencias`
+    ({periodo: preferencia do release no branch}): e o que troca um documento errado no trimestre
+    mais novo pelo release de verdade na coleta seguinte, em vez de tranca-lo. `conhecidos`
+    (link -> release ja no branch) e reusado; `descartados` recebe os links que nao sao release.
+    Devolve a lista mais novo primeiro."""
+    conhecidos = conhecidos or {}
+    descartados = descartados if descartados is not None else []
+    rotulo = f"{tk}: site de RI"
+    mapa = mapa or _mapa_ri().get(tk)
+    if not mapa:
+        fontes["release_ri_site"] = "sem mapa de RI"
+        app.log(f"{rotulo}: sem entrada em ri_fontes.py; fica so o IPE da CVM")
+        return []
+    if isinstance(mapa, str):
+        mapa = {"central": mapa}
+    paginas = [p for p in dict.fromkeys([mapa.get("central")] + list(mapa.get("alternativas") or [])) if p]
+    if not paginas:
+        fontes["release_ri_site"] = "falha: mapa de RI sem url"
+        return []
+    t0, estourou = time.monotonic(), False
+    candidatos, pagina, motivo, fora_rotulo = [], None, "sem pagina", 0
+    rota_lista, sonda_cache, sondagens = None, {}, []
+    for url in paginas:
+        if time.monotonic() - t0 > orcamento_s:
+            estourou, motivo = True, "orcamento de tempo estourou antes de ler a pagina"
+            break
+        r = app.http_get(url, timeout=60)
+        if not r:
+            motivo = f"pagina indisponivel ({url})"
+            app.log(f"{rotulo}: {url} nao respondeu 200 (status na linha HTTP acima)")
+            continue
+        html = _html_da_resposta(r)
+        links = _links_da_pagina(html, url)
+        # Tema mziq_* com file manager declarado (fmId + categorias): a pagina mostra no maximo o
+        # trimestre corrente; a API lista o historico inteiro. Entra junto com os links do HTML
+        # (Direcional mostrava so o 2T26 e 4T25/1T26 nunca chegavam).
+        fm, _ = _file_manager_da_pagina(html)
+        rota_fm = None
+        if fm.get("id") and fm.get("categorias"):
+            chave = ("__cmsint__", fm["id"], fm.get("api_language"))
+            if chave not in sonda_cache:
+                sonda_cache[chave] = _listar_cmsint(fm, rotulo)
+            links_fm, rota_fm, resumo_fm = sonda_cache[chave]
+            if links_fm:
+                links = links_fm + links
+                app.log(f"{rotulo}: {resumo_fm}; {len(links_fm)} links da API entram junto com os da pagina")
+        cands, fora_rotulo = _candidatos_ri(links, url)
+        app.log(f"{rotulo}: {url} ok ({len(html)} caracteres, {len(links)} links, {len(cands)} candidatos, "
+                f"{fora_rotulo} descartados pelo rotulo)")
+        if cands:
+            candidatos, pagina = cands, url
+            if rota_fm and any(c["url"] in {l[0] for l in sonda_cache[chave][0]} for c in cands):
+                rota_lista = rota_fm
+            break
+        motivo = f"pagina sem link de release ({url}; {len(links)} links; a lista e montada por JavaScript)"
+        app.log(f"{rotulo}: {motivo}")
+        # A lista de documentos vem de uma chamada a parte: sondar a pagina e tentar as rotas
+        prazo = min(RI_SONDA_PRAZO_S, orcamento_s - (time.monotonic() - t0))
+        if prazo <= 0:
+            estourou, motivo = True, "orcamento de tempo estourou antes de sondar a pagina"
+            break
+        cands, fora_rotulo, rota, resumo = _sondar_central_js(tk, mapa, html, url, rotulo, prazo, sonda_cache)
+        sondagens.append(resumo)
+        if cands:
+            candidatos, pagina, rota_lista = cands, url, rota
+            app.log(f"{rotulo}: lista de documentos veio de {rota[:150]} ({len(cands)} candidatos)")
+            break
+    if not candidatos:
+        fontes["release_ri_site"] = (f"falha: {motivo}" + (f"; sondagem: {sondagens[-1]}" if sondagens else ""))[:260]
+        return []
+    plataforma = _plataforma_ri(mapa, next((c["url"] for c in candidatos if c["arquivo"]), pagina))
+    # mz_id do mapa e so conferencia (foi inferido por busca): link de outra conta MZ vai para o log,
+    # nao e rejeitado, para um id errado no mapa nao apagar a fonte inteira
+    mz_id = str(mapa.get("mz_id") or "").lower()
+    if mz_id:
+        outros = {next(g for g in m.groups() if g) for c in candidatos
+                  for m in [_RE_MZ_ID.search(c["url"])] if m and next(g for g in m.groups() if g).lower() != mz_id}
+        if outros:
+            app.log(f"{rotulo}: ATENCAO: links MZ de outra conta que nao o mz_id do mapa ({mz_id[:8]}...): "
+                    f"{', '.join(sorted(o[:8] + '...' for o in outros))}; confira ri_fontes.py se o release vier errado")
+    com = [c for c in candidatos if c["periodo"]]
+    sem = [c for c in candidatos if not c["periodo"] and c["arquivo"]]
+    app.log(f"{rotulo}: trimestres na pagina: "
+            f"{', '.join(sorted({c['periodo'] for c in com}, key=ordem_periodo, reverse=True)) or 'nenhum'}"
+            f"; {len(sem)} arquivos sem trimestre no rotulo; plataforma {plataforma}")
+    corte = ordem_periodo(ate_periodo) if ate_periodo else None
+    # Preferencia do release ja gravado no trimestre do corte; sem `preferencias` ninguem disputa o corte
+    pref_corte = (preferencias or {}).get(ate_periodo) if ate_periodo else None
+    # Trimestres que faltam na janela obrigatoria (buraco no meio, ou documento fraco no lugar do
+    # release). Eles disputam SEMPRE, mesmo sendo mais antigos que a cabeca do historico: era este o
+    # motivo de 1T26 e 4T25 nunca chegarem depois que o 2T26 entrou.
+    faltantes = {p for p in (faltantes or ()) if p}
+    if faltantes:
+        app.log(f"{rotulo}: trimestres pedidos por falta na janela: "
+                f"{', '.join(sorted(faltantes, key=ordem_periodo, reverse=True))}")
+
+    def disputa(periodo, preferencia):
+        # Falta na janela, ou mais novo que o corte, ou o proprio trimestre do corte com documento melhor
+        if periodo in faltantes:
+            return True
+        o = ordem_periodo(periodo)
+        return o > corte or (o == corte and pref_corte is not None and preferencia < pref_corte)
+
+    duvida = []
+    if ate_periodo:
+        # So o trimestre do ROTULO pula o download. O lido do contexto (aba, acordeao, linha vizinha) e
+        # palpite: a barra de abas ja rotulou um release 2T26 como 2T25 e o corte o escondia para sempre.
+        # Quem cai no corte so pelo contexto vai para `duvida`: e baixado (poucos por coleta) e o
+        # documento decide; se for antigo mesmo, vai para descartados e o indice lembra. Cada link
+        # custa um download, uma vez.
+        duvida = [c for c in com if c["origem_periodo"] == "contexto" and not disputa(c["periodo"], c["preferencia"])]
+        ja_cobertos = sorted({c["periodo"] for c in com if c["origem_periodo"] == "rotulo"
+                              and not disputa(c["periodo"], c["preferencia"])}, key=ordem_periodo, reverse=True)
+        com = [c for c in com if disputa(c["periodo"], c["preferencia"])]
+        melhores = [c for c in com if ordem_periodo(c["periodo"]) == corte]
+        app.log(f"{rotulo}: ate {ate_periodo} ja existe ({len(ja_cobertos)} trimestres pulados"
+                f"{f'; {len(melhores)} documento(s) de {ate_periodo} melhor(es) que o gravado, preferencia {pref_corte}, disputam' if melhores else ''}); "
+                f"faltam {', '.join(sorted({c['periodo'] for c in com}, key=ordem_periodo, reverse=True)) or 'nenhum'}"
+                f"{f'; {len(duvida)} arquivo(s) com trimestre so pelo contexto, o documento decide' if duvida else ''}")
+    # Mais novo primeiro; dentro do trimestre, portugues antes do ingles
+    com.sort(key=lambda c: (ordem_periodo(c["periodo"]), -c["preferencia"]), reverse=True)
+    duvida.sort(key=lambda c: (ordem_periodo(c["periodo"]), -c["preferencia"]), reverse=True)
+    # Link ja conferido e descartado nao gasta a cota dos palpites: senao ele trancaria a fila e os
+    # arquivos atras dele nunca seriam baixados
+    duvida = [c for c in duvida if conhecidos.get(c["url"], 1) is not None]
+    sem = [c for c in sem if conhecidos.get(c["url"], 1) is not None]
+    achados, baixados, reusados, novos_descartes, adiados = {}, 0, 0, [], []
+    for c in com + duvida[:RI_MAX_SEM_PERIODO] + sem[:RI_MAX_SEM_PERIODO]:
+        if len(achados) >= max_releases:
+            break
+        p, url = c["periodo"], c["url"]
+        if p and p in achados and achados[p].get("preferencia", 1) <= c["preferencia"]:
+            continue                      # trimestre ja resolvido por documento igual ou melhor: nem baixa
+        if url in conhecidos:
+            if conhecidos[url] is None:
+                continue                  # ja conferido antes: nao e release
+            item = {**conhecidos[url], "link": url}
+            reusados += 1
+        else:
+            if time.monotonic() - t0 > orcamento_s:
+                estourou = True
+                break
+            r = app.http_get(url, timeout=90)
+            if not r:
+                app.log(f"{rotulo}: {p or 'sem trimestre'} nao baixou ({url[:90]}); tenta na proxima coleta")
+                continue                  # falha transitoria: nao vai para descartados
+            texto, detalhe = _texto_de_download(r)
+            tipo = (r.headers.get("Content-Type") or "").lower()
+            if not texto or len(texto) < RI_MIN_CARACTERES:
+                motivo = f"sem texto util ({detalhe}; {len(texto or '')} caracteres)"
+                # Falha do runner (pypdf), download truncado, pagina de erro ou desafio de WAF nao e
+                # veredito sobre o documento: fica em `adiados` e volta a ser tentado na proxima coleta
+                if _falha_passageira(texto, detalhe, curto_passageiro=True):
+                    adiados.append((url, motivo))
+                else:
+                    novos_descartes.append((url, motivo))
+                continue
+            if detalhe == "html":
+                # Pagina do tema do site (menu, rodape, agenda) passa do minimo de caracteres e tem
+                # 'Destaques' no menu: so entra com trimestre, palavras de resultado e numeros
+                ok, porque = _cara_de_release_html(texto, p if c["origem_periodo"] == "rotulo" else None)
+                if not ok:
+                    # So pagina HTML de verdade (link de pagina, Content-Type text/html, sem cara de
+                    # bloqueio) e veredito definitivo; link de arquivo que respondeu HTML e erro do servidor
+                    if c["arquivo"]:
+                        adiados.append((url, f"{porque}; link de arquivo respondeu HTML no lugar do documento"))
+                    elif "html" not in tipo:
+                        adiados.append((url, f"{porque}; Content-Type '{tipo[:40]}' nao e text/html"))
+                    elif _RE_PAGINA_BLOQUEIO.search(texto[:3000]):
+                        adiados.append((url, f"{porque}; pagina de bloqueio ou erro do servidor"))
+                    else:
+                        novos_descartes.append((url, porque))
+                    continue
+            # Trimestre do rotulo vale como o assunto do IPE; o do contexto (linha vizinha) so entra
+            # se o proprio documento nao disser qual trimestre e
+            item = _montar_release(texto, detalhe, {
+                "fonte": f"site de RI ({plataforma})", "tipo": "release site RI", "assunto": c["texto"],
+                "data": c["data"], "link": url, "periodo": p if c["origem_periodo"] == "rotulo" else None,
+                "preferencia": c["preferencia"], "pagina_ri": pagina,
+                **({"lista_ri": rota_lista} if rota_lista else {})})
+            if item and not item.get("periodo"):
+                item["periodo"] = p
+            if not item or not item.get("periodo"):
+                novos_descartes.append((url, "sem trimestre plausivel"))
+                continue
+            if not _trimestre_fechou(item["periodo"]):
+                novos_descartes.append((url, f"trimestre {item['periodo']} ainda nao fechou (hoje {_hoje()}); "
+                                             f"e agenda, nao release"))
+                continue
+            if p and item["periodo"] != p:
+                app.log(f"{rotulo}: contexto dizia {p}, o documento diz {item['periodo']}; fica o documento")
+            if not item.get("data") or not _periodo_plausivel(item["periodo"], item["data"]):
+                # A pagina nao disse a data, ou disse uma implausivel. O cabecalho do proprio
+                # release costuma dizer ("Belo Horizonte, 11 de agosto de 2026"): e a data real,
+                # e vale mais que a estimativa de fim do trimestre + 40 dias.
+                no_texto = _data_plausivel_no_texto(item["periodo"], (item.get("texto") or "")[:2500])
+                if no_texto:
+                    item["data"], item["data_estimada"] = no_texto, False
+            if not item.get("data"):
+                item["data"], item["data_estimada"] = _data_estimada_release(item["periodo"]), True
+            elif not _periodo_plausivel(item["periodo"], item["data"]):
+                item["data"], item["data_estimada"] = _data_estimada_release(item["periodo"]), True
+            baixados += 1
+            app.log(f"{rotulo}: baixou {item['periodo']} ({detalhe}; {item['caracteres_total']} caracteres; "
+                    f"data {item['data']}{' estimada' if item.get('data_estimada') else ''}; {url[:90]})")
+        item.setdefault("preferencia", c["preferencia"])
+        _ajustar_periodo(item)
+        if ate_periodo and not disputa(item["periodo"], item.get("preferencia", 1)):
+            # Este caminho so completa o que falta: um arquivo sem rotulo que se revelou antigo nao
+            # disputa com a copia oficial da CVM (trocaria o arquivo no branch a cada coleta)
+            if url not in conhecidos:
+                # Descarte SO quando o trimestre esta fora da janela obrigatoria: esse e um fato estavel.
+                # Descartar por 'ja coberto ate X' queimava no indice justamente o documento que
+                # preencheria um buraco na proxima coleta, e o descarte se auto-renovava a cada 90 dias.
+                janela = janela_obrigatoria()
+                if janela and ordem_periodo(item["periodo"]) < ordem_periodo(janela[-1]):
+                    novos_descartes.append((url, f"release de {item['periodo']}, fora da janela de "
+                                                 f"{len(janela)} trimestres (ate {janela[-1]})"))
+                else:
+                    app.log(f"{rotulo}: {item['periodo']} ja coberto ate {ate_periodo}; documento nao "
+                            f"descartado (esta na janela e pode servir numa proxima coleta)")
+            continue
+        if _melhor_release(item, achados.get(item["periodo"])):
+            achados[item["periodo"]] = item
+    for url, porque in novos_descartes:
+        descartados.append(url)
+        app.log(f"{rotulo}: descartou {url[:90]}: {porque}")
+    for url, porque in adiados:
+        app.log(f"{rotulo}: adiou {url[:90]}: {porque}; pode ser falha passageira, nao vai para "
+                f"descartados e sera baixado de novo na proxima coleta")
+    lista = _lista_por_periodo(achados, max_releases)
+    periodos = ", ".join(r["periodo"] for r in lista)
+    extra = (f"; {len(adiados)} adiado(s) por falha passageira" if adiados else "") + \
+            ("; orcamento de tempo estourou, completa na proxima coleta" if estourou else "")
+    if lista:
+        fontes["release_ri_site"] = f"ok: {periodos} ({baixados} baixados, {reusados} reusados; {plataforma}{extra})"
+    else:
+        fontes["release_ri_site"] = (f"sem release novo ({len(candidatos)} candidatos na pagina, "
+                                     f"{len(com)} mais novos que {ate_periodo or 'nada'}, "
+                                     f"{len(duvida[:RI_MAX_SEM_PERIODO]) + len(sem[:RI_MAX_SEM_PERIODO])} conferidos pelo documento, "
+                                     f"{len(novos_descartes)} descartados{extra})")
+    app.log(f"{rotulo}: {fontes['release_ri_site']}")
+    return lista
+
+
+# ───────────────── Historico de releases no branch (releases/<TICKER>/) ─────────────────
+DESCARTE_VALIDADE_DIAS = 90       # descarte de link no index.json vale isso; depois o link e conferido de novo
+
+
+def _limite_descarte():
+    """Data ('AAAA-MM-DD') antes da qual um descarte gravado no index.json venceu."""
+    return (datetime.strptime(_hoje(), "%Y-%m-%d") - timedelta(days=DESCARTE_VALIDADE_DIAS)).strftime("%Y-%m-%d")
+
+
+def _reavaliar_sec(saida, entrada):
+    """(ok, motivo) de uma entrada da rota SEC ja gravada, relida do .txt do branch, sem rede.
+
+    Documento errado gravado antes nunca era reconferido: a ata de assembleia da Nu voltaria
+    identica em toda coleta futura, inclusive depois de o classificador ser corrigido. Quando a
+    entrada PASSA, o veredito e carimbado nela (`classe_sec`, `conteudo_v`): sem isso a entrada
+    reaproveitada ficaria marcada como nao conferida para sempre, e a cobertura a contaria como
+    lacuna em toda leitura."""
+    if "SEC" not in str(entrada.get("fonte") or ""):
+        return True, ""
+    if entrada.get("conteudo_v") == CLASSIFICADOR_SEC_V:
+        return str(entrada.get("classe_sec") or "") != "nao", ""
+    arquivo = entrada.get("arquivo")
+    if not arquivo or not saida:
+        return True, ""
+    try:
+        with open(os.path.join(saida, arquivo), encoding="utf-8") as fh:
+            texto = fh.read(60000)
+    except OSError:
+        return True, ""
+    classe, preferencia, motivo = classificar_documento_sec(texto, entrada.get("arquivo_sec") or "",
+                                                            entrada.get("periodo"))
+    if classe == "nao":
+        return False, motivo
+    entrada["classe_sec"], entrada["conteudo_v"] = classe, CLASSIFICADOR_SEC_V
+    if preferencia is not None and entrada.get("preferencia") is None:
+        entrada["preferencia"] = preferencia
+    return True, ""
+
+
+def releases_do_indice(saida, tk):
+    """Lista de releases ja gravados no branch (sem texto, com `arquivo`), mais novo primeiro.
+
+    E a memoria do ativo entre coletas: o historico de hoje comeca dela, nunca do zero."""
+    if not saida:
+        return []
+    caminho = os.path.join(saida, "releases", tk, "index.json")
+    try:
+        idx = json.load(open(caminho, encoding="utf-8"))
+    except Exception:
+        return []
+    lista = []
+    for e in idx.get("releases", []) or []:
+        if not e.get("periodo"):
+            continue
+        if e.get("arquivo") and not os.path.exists(os.path.join(saida, e["arquivo"])):
+            continue          # entrada sem o texto no disco nao vale como cobertura
+        entrada = {k: v for k, v in e.items() if k != "texto"}
+        ok, motivo = _reavaliar_sec(saida, entrada)
+        if not ok:
+            app.log(f"{tk}: {entrada.get('periodo')} guardado nao passa no classificador de hoje "
+                    f"({motivo}); sai do historico e o trimestre volta a ser procurado")
+            continue
+        lista.append(entrada)
+    return sorted(lista, key=lambda r: (ordem_periodo(r.get("periodo")), r.get("data") or ""), reverse=True)
+
+
+def carregar_indice_releases(saida, tk):
+    """{link: entrada} dos releases ja gravados, para nao baixar o mesmo documento de novo."""
+    if not saida:
+        return {}
+    caminho = os.path.join(saida, "releases", tk, "index.json")
+    if not os.path.exists(caminho):
+        return {}
+    try:
+        idx = json.load(open(caminho, encoding="utf-8"))
+    except Exception:
+        return {}
+    conhecidos = {}
+    for e in idx.get("releases", []):
+        if e.get("link") and e.get("arquivo") and os.path.exists(os.path.join(saida, e["arquivo"])):
+            entrada = {k: v for k, v in e.items() if k != "texto"}
+            if entrada.get("data_estimada"):
+                # Entrada guardada com data estimada (fim do trimestre + 40 dias): o cabecalho do
+                # texto guardado costuma trazer a data real. Rederiva aqui, no reuso, para nao
+                # depender de baixar de novo.
+                try:
+                    with open(os.path.join(saida, e["arquivo"]), encoding="utf-8") as fh:
+                        cabeca = fh.read(2500)
+                    no_texto = _data_plausivel_no_texto(entrada.get("periodo"), cabeca)
+                    if no_texto:
+                        entrada["data"], entrada["data_estimada"] = no_texto, False
+                except OSError:
+                    pass
+            ok, motivo = _reavaliar_sec(saida, entrada)
+            if not ok:
+                continue      # nao reusa: sera rebaixado e cai em descartados pelo criterio novo
+            conhecidos[e["link"]] = entrada
+    # Descarte vale DESCARTE_VALIDADE_DIAS; sem data (indice antigo) ou vencido, o link e conferido de
+    # novo: um descarte errado (falha passageira gravada antes desta regra) nao esconde o release para sempre
+    if (idx.get("classificador_sec") or 0) != CLASSIFICADOR_SEC_V and idx.get("descartados"):
+        # O classificador mudou: os descartes da versao anterior sao reconferidos uma vez. Foi a regra
+        # antiga que jogou fora 'nupr1q25_6k.htm' e 'nupr4q24_6k.htm', os releases de verdade da Nu.
+        app.log(f"{tk}: classificador da SEC mudou (v{idx.get('classificador_sec') or 0} -> "
+                f"v{CLASSIFICADOR_SEC_V}); {len(idx.get('descartados') or [])} descarte(s) serao reconferidos")
+        return conhecidos
+    datas, limite, vencidos = idx.get("descartados_em") or {}, _limite_descarte(), 0
+    for link in idx.get("descartados", []):
+        if (datas.get(link) or "") >= limite:
+            conhecidos.setdefault(link, None)   # ja conferido antes: nao e release
+        else:
+            vencidos += 1
+    if vencidos:
+        app.log(f"{tk}: {vencidos} descarte(s) de release sem data ou com mais de {DESCARTE_VALIDADE_DIAS} dias "
+                f"no index.json; esses links serao conferidos de novo")
+    return conhecidos
+
+
+def texto_do_release(saida, entrada):
+    """Texto de um release: do proprio objeto quando acabou de ser baixado, senao do arquivo no branch."""
+    if entrada.get("texto"):
+        return entrada["texto"]
+    arq = os.path.join(saida or "", entrada.get("arquivo") or "")
+    if entrada.get("arquivo") and os.path.exists(arq):
+        try:
+            return open(arq, encoding="utf-8").read()
+        except OSError:
+            return None
+    return None
+
+
+def _releases_do_index_json(pasta):
+    try:
+        return json.load(open(os.path.join(pasta, "index.json"), encoding="utf-8")).get("releases") or []
+    except Exception:
+        return []
+
+
+def gravar_releases(saida, tk, lista, descartados=None):
+    """Grava um .txt por release em releases/<TK>/ mais o index.json. Devolve o indice sem texto."""
+    if not saida or not lista:
+        return []
+    pasta = os.path.join(saida, "releases", tk)
+    os.makedirs(pasta, exist_ok=True)
+    indice, usados = [], set()
+    for r in lista:
+        base = r.get("data") or r.get("periodo") or "sem-data"
+        nome, n = f"{base}.txt", 2
+        while nome in usados:
+            nome, n = f"{base}-{n}.txt", n + 1
+        usados.add(nome)
+        rel = os.path.join("releases", tk, nome)
+        if r.get("texto"):
+            with open(os.path.join(saida, rel), "w", encoding="utf-8") as fh:
+                fh.write(r["texto"])
+        elif r.get("arquivo") and r["arquivo"] != rel and os.path.exists(os.path.join(saida, r["arquivo"])):
+            os.replace(os.path.join(saida, r["arquivo"]), os.path.join(saida, rel))
+        indice.append({**{k: v for k, v in r.items() if k != "texto"}, "arquivo": rel})
+    # Poda dos .txt orfaos. So quando o indice NAO encolheu: uma coleta parcial (site fora do ar,
+    # orcamento estourado, IPE incompleto) chegava aqui com menos releases e apagava do branch o texto
+    # dos trimestres que ela nao redescobriu. Texto perdido nao volta: o IPE nao guarda ano antigo.
+    anteriores = len(_releases_do_index_json(pasta))
+    if len(indice) >= anteriores:
+        for antigo in os.listdir(pasta):
+            if antigo.endswith(".txt") and antigo not in usados:
+                try:
+                    os.remove(os.path.join(pasta, antigo))
+                except OSError:
+                    pass
+    else:
+        app.log(f"{tk}: indice de releases encolheu de {anteriores} para {len(indice)}; poda adiada para "
+                f"nao apagar texto ja baixado")
+    descartados = list(dict.fromkeys(descartados or []))[-80:]
+    # Data de cada descarte (carregar_indice_releases vence os antigos): a data anterior fica enquanto
+    # vale; link novo ou reconferido nesta coleta ganha a data de hoje
+    try:
+        antes = json.load(open(os.path.join(pasta, "index.json"), encoding="utf-8")).get("descartados_em") or {}
+    except Exception:
+        antes = {}
+    limite, hoje = _limite_descarte(), _hoje()
+    descartados_em = {u: antes[u] if (antes.get(u) or "") >= limite else hoje for u in descartados}
+    gravar_json(os.path.join(pasta, "index.json"),
+                {"ticker": tk, "atualizado_em": agora(),
+                 "nota": ("um release por trimestre, do mais novo para o mais antigo; o texto integral "
+                          "esta no .txt indicado em `arquivo`, relativo a raiz do branch `dados`; "
+                          f"`descartados` sao links conferidos que nao sao release, com a data em "
+                          f"`descartados_em` (valem {DESCARTE_VALIDADE_DIAS} dias)"),
+                 "classificador_sec": CLASSIFICADOR_SEC_V,
+                 "releases": indice,
+                 "descartados": descartados, "descartados_em": descartados_em})
+    return indice
+
+
+# ───────────────────────── SEC XBRL (demonstracoes oficiais, EUA) ─────────────────────────
+# Para empresas que reportam a SEC (acoes dos EUA e ADRs de brasileiras), a API
+# companyfacts entrega cada linha das demonstracoes, trimestre a trimestre e
+# ano a ano, direto do XBRL dos 10-Q, 10-K e 20-F. E a fonte oficial.
+SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
+SEC_FACTS_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"
+SEC_HEADERS = {"User-Agent": app.SEC_UA, "Accept-Encoding": "gzip, deflate"}
+
+# ADR nos EUA de empresas da B3 (20-F anual em IFRS)
+ADR_DE_B3 = {
+    "PETR4": "PBR", "PETR3": "PBR", "VALE3": "VALE", "ITUB4": "ITUB", "ITUB3": "ITUB",
+    "BBDC4": "BBD", "BBDC3": "BBDO", "SANB11": "BSBR", "ABEV3": "ABEV", "SUZB3": "SUZ",
+    "GGBR4": "GGB", "SBSP3": "SBS", "CMIG4": "CIG", "CPLE6": "ELP", "BRFS3": "BRFS",
+    "EMBR3": "ERJ", "ELET3": "EBR", "TIMS3": "TIMB", "VIVT3": "VIV", "UGPA3": "UGP",
+    "BRKM5": "BAK", "AZUL4": "AZUL", "CSNA3": "SID", "NTCO3": "NTCO", "PAGS": "PAGS",
+}
+
+# Linhas que interessam, por taxonomia. Chave = nome amigavel; valor = tags candidatas.
+SEC_LINHAS = {
+    "receita": ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax", "SalesRevenueNet", "Revenue"],
+    "custo": ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfSales"],
+    "lucro_bruto": ["GrossProfit"],
+    "despesas_vendas_marketing": ["SellingAndMarketingExpense"],
+    "despesas_gerais_adm": ["GeneralAndAdministrativeExpense"],
+    "pesquisa_desenvolvimento": ["ResearchAndDevelopmentExpense"],
+    "provisao_devedores_duvidosos": ["ProvisionForDoubtfulAccounts", "ProvisionForLoanLossesExpensed"],
+    "ebit": ["OperatingIncomeLoss", "ProfitLossFromOperatingActivities"],
+    "despesa_juros": ["InterestExpense", "InterestExpenseNonoperating", "InterestExpenseDebt", "InterestAndDebtExpense", "FinanceCosts"],
+    "lucro_antes_ir": ["IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest", "ProfitLossBeforeTax"],
+    "imposto_renda": ["IncomeTaxExpenseBenefit", "IncomeTaxExpenseContinuingOperations"],
+    "lucro_liquido": ["NetIncomeLoss", "ProfitLoss", "ProfitLossAttributableToOwnersOfParent"],
+    "lpa_diluido": ["EarningsPerShareDiluted", "DilutedEarningsLossPerShare"],
+    "depreciacao_amortizacao": ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization", "DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss"],
+    "ativo_total": ["Assets"],
+    "caixa": ["CashAndCashEquivalentsAtCarryingValue", "CashAndCashEquivalents"],
+    "patrimonio_liquido": ["StockholdersEquity", "Equity", "EquityAttributableToOwnersOfParent"],
+    "divida_curto_prazo": ["DebtCurrent", "LongTermDebtCurrent", "ShorttermBorrowings", "CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings"],
+    "divida_longo_prazo": ["LongTermDebtNoncurrent", "NoncurrentPortionOfNoncurrentBorrowings"],
+    # LongTermDebt e o total (circulante + nao circulante) em boa parte dos emissores:
+    # fica em linha propria para ninguem somar com divida_curto_prazo. No MELI, o
+    # balanco de 30/06/2026 traz 6.482 circulante + 4.144 nao circulante = 10.626,
+    # que e exatamente o LongTermDebt.
+    "divida_total": ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount", "Borrowings"],
+    "carteira_credito": ["LoansAndLeasesReceivableNetReportedAmount", "NotesReceivableNet", "LoansAndAdvancesToCustomers"],
+    "caixa_operacional": ["NetCashProvidedByUsedInOperatingActivities", "CashFlowsFromUsedInOperatingActivities"],
+    "capex": ["PaymentsToAcquirePropertyPlantAndEquipment", "PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"],
+    "acoes_diluidas": ["WeightedAverageNumberOfDilutedSharesOutstanding", "DilutedWeightedAverageNumberOfShares"],
+    "resultado_financeiro_outros": ["NonoperatingIncomeExpense", "OtherNonoperatingIncomeExpense"],
+    "receita_juros": ["InterestAndDividendIncomeOperating", "InterestIncomeOperating", "InterestRevenueExpenseNet", "InterestIncome"],
+    "dividendos_pagos": ["PaymentsOfDividends", "PaymentsOfDividendsCommonStock", "DividendsPaidClassifiedAsFinancingActivities"],
+    "recompra_acoes": ["PaymentsForRepurchaseOfCommonStock", "PaymentsToAcquireOrRedeemEntitysShares"],
+    "passivo_total": ["Liabilities"],
+    "contas_a_receber": ["AccountsReceivableNetCurrent", "TradeAndOtherCurrentReceivables"],
+    "estoques": ["InventoryNet", "Inventories"],
+}
+# Linhas por acao ou de contagem: nao derivar o 4T por subtracao
+SEC_SEM_DERIVACAO = {"lpa_diluido", "acoes_diluidas"}
+# Quando nenhuma tag padrao tem dado recente, procura na taxonomia propria da
+# empresa (ex.: meli:...) uma tag com esse padrao. tags_usadas registra qual foi.
+SEC_REGEX_FALLBACK = {
+    "despesa_juros": r"^(Interest\w*Expense|InterestAndOtherFinancial|Financial\w*(Expense|Charges|Losses|Costs)|Finance(Cost|Expense))",
+    "resultado_financeiro_outros": r"^(NonoperatingIncomeExpense|OtherNonoperatingIncomeExpense|FinanceIncomeCost|FinancialResult|"
+                                   r"NetFinancial|OtherIncomeExpense|InterestAndOtherFinancial\w*Net)",
+    "divida_curto_prazo": r"^(Debt|Borrowings|LoansPayable|ShortTermBorrowings|LoansAndOtherFinancialLiabilities)\w*Current$",
+    "divida_longo_prazo": r"^(LongTermDebt|Borrowings|LoansPayable|LoansAndOtherFinancialLiabilities)\w*Noncurrent$",
+    "divida_total": r"^(LongTermDebt|Borrowings|LoansPayableAndOtherFinancialLiabilities)$",
+}
+_SEC_TICKERS = {}
+
+
+def _parse_serie_sec(serie):
+    """Uma tag do companyfacts -> (trimestral, anual, instantanea, unidade), so com frames."""
+    unidades = serie.get("units", {})
+    unidade = next((u for u in ("USD", "USD/shares", "shares", "BRL") if u in unidades), None) \
+        or next(iter(unidades.keys()), None)
+    tri, anu, instantanea = {}, {}, False
+    for v in unidades.get(unidade, []) if unidade else []:
+        frame = v.get("frame")
+        if not frame:
+            continue
+        m = re.fullmatch(r"CY(\d{4})(?:Q([1-4]))?(I?)", frame)
+        if not m:
+            continue
+        ano, tri_n, inst = m.groups()
+        if inst:
+            # Saldo instantaneo (balanco): CY2025Q2I = saldo em 30/06/2025
+            instantanea = True
+            if tri_n:
+                tri[f"CY{ano}Q{tri_n}"] = v.get("val")
+                if tri_n == "4":
+                    anu[f"CY{ano}"] = v.get("val")
+            else:
+                anu[f"CY{ano}"] = v.get("val")
+        elif tri_n:
+            tri[frame] = v.get("val")
+        else:
+            anu[frame] = v.get("val")
+    return tri, anu, instantanea, unidade
+
+
+def _ultimo_ano(tri, anu):
+    anos = [int(k[2:6]) for k in list(tri) + list(anu)]
+    return max(anos) if anos else 0
+
+
+def _cik_por_ticker(simbolo):
+    global _SEC_TICKERS
+    if not _SEC_TICKERS:
+        r = app.http_get(SEC_TICKERS_URL, timeout=30, headers=SEC_HEADERS)
+        if r:
+            try:
+                _SEC_TICKERS = {v["ticker"].upper(): int(v["cik_str"]) for v in r.json().values()}
+            except Exception:
+                _SEC_TICKERS = {}
+    return _SEC_TICKERS.get(simbolo.upper())
+
+
+def coletar_sec_xbrl(simbolo, fontes, max_periodos=40):
+    cik = _cik_por_ticker(simbolo)
+    if not cik:
+        fontes["sec_xbrl"] = f"sem CIK para {simbolo}"
+        return {}
+    r = app.http_get(SEC_FACTS_URL.format(cik=cik), timeout=90, headers=SEC_HEADERS)
+    if not r:
+        fontes["sec_xbrl"] = "falha: companyfacts indisponivel"
+        return {}
+    try:
+        facts = r.json().get("facts", {})
+    except Exception:
+        fontes["sec_xbrl"] = "falha: JSON ilegivel"
+        return {}
+    taxonomias = [tx for tx in ("us-gaap", "ifrs-full") if tx in facts]
+    out = {"cik": cik, "taxonomias": taxonomias, "trimestral": {}, "anual": {}, "tags_usadas": {},
+           "unidades": {}, "instantaneas": [], "derivados": {}, "ltm": {}, "desatualizadas": [],
+           "nota": ("trimestral: frames CYyyyyQn do XBRL (3 meses; balanco = saldo no fim do trimestre). "
+                    "O 4T de fluxo e derivado: anual menos 1T+2T+3T (lista em derivados). "
+                    "ltm: soma dos ultimos 4 trimestres consecutivos.")}
+    ano_atual = datetime.now(timezone.utc).year
+    for nome, candidatos in SEC_LINHAS.items():
+        # Entre as tags candidatas, vale a que tem dado mais recente (empresas trocam de tag
+        # ao longo dos anos: o InterestExpense do MELI parou em 2011) e, no empate, a mais longa.
+        # Ordem de desempate: a posicao na lista de candidatas (Revenues antes de
+        # RevenueFromContractWithCustomer, que no MELI exclui a receita de juros do credito);
+        # as tags achadas por regex vem depois de todas, e entre elas vale a mais longa.
+        opcoes = []
+        for ordem, tag in enumerate(candidatos):
+            for tx in taxonomias:
+                if tag in facts.get(tx, {}):
+                    tri, anu, inst, unidade = _parse_serie_sec(facts[tx][tag])
+                    if tri or anu:
+                        opcoes.append((_ultimo_ano(tri, anu), -ordem, tag, tri, anu, inst, unidade))
+                    break
+        if nome in SEC_REGEX_FALLBACK and (not opcoes or max(o[0] for o in opcoes) < ano_atual - 1):
+            rx = re.compile(SEC_REGEX_FALLBACK[nome])
+            for tx, tags in facts.items():
+                if tx == "dei":
+                    continue
+                for tag, serie in tags.items():
+                    if rx.search(tag):
+                        tri, anu, inst, unidade = _parse_serie_sec(serie)
+                        if tri or anu:
+                            opcoes.append((_ultimo_ano(tri, anu), -10000 + len(tri) + len(anu), f"{tx}:{tag}", tri, anu, inst, unidade))
+        if not opcoes:
+            continue
+        opcoes.sort(key=lambda o: (o[0], o[1]), reverse=True)
+        ultimo_ano, _, tag, tri, anu, instantanea, unidade = opcoes[0]
+        if ultimo_ano < ano_atual - 1:
+            # A empresa parou de usar a tag (o InterestExpenseDebt do MELI acaba em 2018):
+            # fica registrado, mas nao entra no LTM nem nas comparacoes.
+            out["desatualizadas"].append(nome)
+        # 4T derivado para linhas de fluxo (DRE e caixa), quando ha o anual e os tres trimestres
+        if not instantanea and nome not in SEC_SEM_DERIVACAO:
+            for chave_ano, total in anu.items():
+                ano = chave_ano[2:]
+                q = [tri.get(f"CY{ano}Q{n}") for n in (1, 2, 3)]
+                if f"CY{ano}Q4" not in tri and total is not None and all(x is not None for x in q):
+                    tri[f"CY{ano}Q4"] = total - sum(q)
+                    out["derivados"].setdefault(nome, []).append(f"CY{ano}Q4")
+        out["trimestral"][nome] = dict(sorted(tri.items())[-max_periodos:])
+        out["anual"][nome] = dict(sorted(anu.items())[-15:])
+        out["tags_usadas"][nome] = tag
+        out["unidades"][nome] = unidade
+        if instantanea:
+            out["instantaneas"].append(nome)
+        elif nome not in SEC_SEM_DERIVACAO and ultimo_ano >= ano_atual - 1:
+            ltm = _ltm(out["trimestral"][nome], lambda k: (int(k[2:6]), int(k[7])))
+            if ltm:
+                out["ltm"][nome] = ltm
+    n = len(out["tags_usadas"])
+    fontes["sec_xbrl"] = f"ok ({n} linhas; CIK {cik}; 4T derivado em {len(out['derivados'])} linhas)" if n else "vazio"
+    return out
+
+
+def _ltm(serie, chave_ordem):
+    """Soma dos ultimos 4 trimestres consecutivos de {rotulo: valor}. None se houver buraco."""
+    itens = [(k, v) for k, v in serie.items() if v is not None]
+    if len(itens) < 4:
+        return None
+    itens.sort(key=lambda kv: chave_ordem(kv[0]))
+    ultimos = itens[-4:]
+    ordens = [chave_ordem(k) for k, _ in ultimos]
+    for a, b in zip(ordens, ordens[1:]):
+        esperado = (a[0] + 1, 1) if a[1] == 4 else (a[0], a[1] + 1)
+        if b != esperado:
+            return None
+    return {"ate": ultimos[-1][0], "valor": round(sum(v for _, v in ultimos), 6),
+            "trimestres": [k for k, _ in ultimos]}
+
+
+# ───────────────────────── CVM ITR/DFP (demonstracoes oficiais, B3) ─────────────────────────
+# Dados abertos da CVM: um zip por ano com todas as companhias. Filtramos pelo
+# codigo CVM da empresa (obtido no IPE) e guardamos as contas principais das
+# demonstracoes consolidadas: DRE, balanco (ativo e passivo) e fluxo de caixa.
+CVM_DFP_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/dfp_cia_aberta_{ano}.zip"
+CVM_ITR_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/DADOS/itr_cia_aberta_{ano}.zip"
+CVM_CONTAS = {
+    "3.01": "receita_liquida", "3.02": "custos", "3.03": "resultado_bruto",
+    "3.04": "despesas_receitas_operacionais", "3.05": "ebit", "3.06": "resultado_financeiro",
+    "3.07": "resultado_antes_ir", "3.08": "imposto_renda", "3.09": "resultado_operacoes_continuadas",
+    "3.11": "lucro_liquido_consolidado", "3.99.02.01": "lpa_diluido_on",
+    "1": "ativo_total", "1.01": "ativo_circulante", "1.01.01": "caixa_equivalentes",
+    "1.01.02": "aplicacoes_financeiras", "1.01.04": "estoques", "1.02": "ativo_nao_circulante",
+    "2.01": "passivo_circulante", "2.01.04": "emprestimos_curto_prazo", "2.02": "passivo_nao_circulante",
+    "2.02.01": "emprestimos_longo_prazo", "2.03": "patrimonio_liquido_consolidado",
+    "6.01": "caixa_operacional", "6.02": "caixa_investimento", "6.03": "caixa_financiamento",
+}
+# Descricao esperada de cada conta mapeada por codigo. Em banco e seguradora o codigo
+# aponta para outra coisa (2.03 e "Provisoes" no Bradesco, "Passivos ao custo amortizado"
+# no Itau): se a descricao nao bate, o valor e descartado em vez de enganar o leitor.
+CVM_ESPERADO = {
+    "ativo_circulante": r"^ATIVO CIRCULANTE", "ativo_nao_circulante": r"^ATIVO NAO CIRCULANTE",
+    "caixa_equivalentes": r"^CAIXA", "aplicacoes_financeiras": r"^APLICACOES FINANCEIRAS", "estoques": r"^ESTOQUES",
+    "passivo_circulante": r"^PASSIVO CIRCULANTE", "passivo_nao_circulante": r"^PASSIVO NAO CIRCULANTE",
+    "emprestimos_curto_prazo": r"^EMPRESTIMOS E FINANCIAMENTOS", "emprestimos_longo_prazo": r"^EMPRESTIMOS E FINANCIAMENTOS",
+    "patrimonio_liquido_consolidado": r"^PATRIMONIO LIQUIDO",
+    "receita_liquida": r"^RECEITA", "custos": r"^(CUSTO|DESPESAS D[AE] INTERMEDIACAO)",
+    "resultado_bruto": r"^RESULTADO BRUTO",
+    # normalizar() troca "/" e parenteses por espaco: "Despesas/Receitas Operacionais" vira "DESPESAS RECEITAS OPERACIONAIS"
+    "despesas_receitas_operacionais": r"(DESPESAS RECEITAS OPERACIONAIS|RECEITAS DESPESAS OPERACIONAIS|DESPESAS E RECEITAS OPERACIONAIS)",
+    "ebit": r"^RESULTADO ANTES DO RESULTADO FINANCEIRO", "resultado_financeiro": r"^RESULTADO FINANCEIRO",
+    "resultado_antes_ir": r"^RESULTADO ANTES DOS TRIBUTOS", "imposto_renda": r"^IMPOSTO DE RENDA",
+    "resultado_operacoes_continuadas": r"^RESULTADO LIQUIDO DAS OPERACOES CONTINUADAS",
+    "lucro_liquido_consolidado": r"^(LUCRO|RESULTADO LIQUIDO)",
+    "caixa_operacional": r"^CAIXA LIQUIDO", "caixa_investimento": r"^CAIXA LIQUIDO", "caixa_financiamento": r"^CAIXA LIQUIDO",
+}
+# Contas reconhecidas pela descricao, para quando o codigo nao serve (plano de instituicao
+# financeira) ou a conta nao tem codigo fixo: chave -> (regex na descricao normalizada,
+# grupo do codigo, profundidade maxima do codigo).
+CVM_SEMANTICAS = {
+    "patrimonio_liquido_consolidado": (r"^PATRIMONIO LIQUIDO", "2", 2),
+    "lucro_liquido_consolidado": (r"^(LUCRO PREJUIZO( LIQUIDO)?( CONSOLIDADO)? DO (PERIODO|EXERCICIO)|"
+                                  r"LUCRO OU PREJUIZO( LIQUIDO)?( CONSOLIDADO)?( DO (PERIODO|EXERCICIO))?|"
+                                  r"LUCRO LIQUIDO( CONSOLIDADO)?( DO (PERIODO|EXERCICIO))?|"
+                                  r"RESULTADO LIQUIDO DO (PERIODO|EXERCICIO))$", "3", 2),
+    "lucro_atribuido_controladores": (r"ATRIBUID[OA] AO?S? (SOCIOS|ACIONISTAS)( D[AEO])?( EMPRESA)? CONTROLADOR(A|ES)|"
+                                      r"ATRIBUIVEL AOS (SOCIOS|ACIONISTAS) CONTROLADOR(A|ES)|^ACIONISTAS CONTROLADORES$", "3", 3),
+    "resultado_antes_ir": (r"^RESULTADO ANTES DOS TRIBUTOS", "3", 2),
+    "imposto_renda": (r"^IMPOSTO DE RENDA E CONTRIBUICAO SOCIAL", "3", 2),
+    "caixa_equivalentes": (r"^CAIXA E EQUIVALENTES", "1", 3),
+    # "Emprestimos e Adiantamentos em Instituicoes Financeiras" e interbancario, nao carteira de
+    # credito: no Inter, a conta 1.02.03.01 com esse nome entrava como carteira e subestimava em
+    # dez vezes. So conta a carteira a clientes.
+    "carteira_credito": (r"^(OPERACOES DE CREDITO(?! E ARRENDAMENTO A INSTITUICOES)|"
+                         r"EMPRESTIMOS E ADIANTAMENTOS (A|AOS) (CLIENTES|COSTUMERS|CUSTOMERS)|"
+                         r"EMPRESTIMOS E RECEBIVEIS(?!.*INSTITUICOES)|CARTEIRA DE CREDITO|"
+                         r"EMPRESTIMOS E FINANCIAMENTOS A CLIENTES|OPERACOES DE CREDITO E ARRENDAMENTO MERCANTIL)", "1", 4),
+    "depositos": (r"^DEPOSITOS( DE CLIENTES)?$", "2", 3),
+}
+_CVM_ZIPS = {}
+
+
+def _profundidade(conta):
+    return conta.count(".") + 1
+
+
+def _csvs_do_zip(url):
+    """{nome_arquivo: linhas(dict)} dos CSVs de um zip da CVM (baixa uma vez por execucao)."""
+    if url in _CVM_ZIPS:
+        return _CVM_ZIPS[url]
+    r = app.http_get(url, timeout=180)
+    arquivos = {}
+    if r:
+        try:
+            import zipfile
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                for nome in z.namelist():
+                    low = nome.lower()
+                    if low.endswith(".csv") and any(k in low for k in ("_dre_con_", "_bpa_con_", "_bpp_con_", "_dfc_mi_con_")):
+                        arquivos[nome] = z.read(nome).decode("latin-1")
+        except Exception as e:
+            print(f"  cvm: zip ilegivel {url[-40:]}: {e}")
+    _CVM_ZIPS[url] = arquivos
+    return arquivos
+
+
+def _demonstracoes_cvm(arquivos, cd_cvm, tipo, descricoes=None, descartadas=None):
+    """Filtra as contas da empresa (ultima versao de cada periodo). tipo = 'dfp' ou 'itr'.
+
+    Cada chave sai de uma conta: a do codigo fixo (CVM_CONTAS) quando a descricao bate com
+    CVM_ESPERADO, senao a conta reconhecida pela descricao (CVM_SEMANTICAS). descricoes recebe
+    "codigo descricao" da conta usada; descartadas, as contas cujo codigo apontava para outra coisa."""
+    candidatos = {}   # (chave, conta) -> {periodo: valor}
+    nomes_conta = {}  # conta -> descricao
+    alvo = str(int(cd_cvm))
+    semanticas = [(chave, re.compile(rx), grupo, prof) for chave, (rx, grupo, prof) in CVM_SEMANTICAS.items()]
+    for nome, texto in arquivos.items():
+        for row in csv.DictReader(io.StringIO(texto), delimiter=";"):
+            try:
+                if str(int(row.get("CD_CVM") or 0)) != alvo:
+                    continue
+            except ValueError:
+                continue
+            if normalizar(row.get("ORDEM_EXERC") or "") != "ULTIMO":
+                continue
+            conta = (row.get("CD_CONTA") or "").strip()
+            ds = (row.get("DS_CONTA") or "").strip()
+            ds_norm = normalizar(ds)
+            chaves = []
+            if conta in CVM_CONTAS:
+                chaves.append(CVM_CONTAS[conta])
+            prof = _profundidade(conta)
+            for chave, rx, grupo, prof_max in semanticas:
+                if prof <= prof_max and (conta == grupo or conta.startswith(grupo + ".")) and rx.search(ds_norm):
+                    if chave not in chaves:
+                        chaves.append(chave)
+            if not chaves:
+                continue
+            nomes_conta[conta] = ds
+            fim = (row.get("DT_FIM_EXERC") or "")[:10]
+            ini = (row.get("DT_INI_EXERC") or "")[:10]
+            try:
+                # A CVM publica a escala como texto ("MIL" ou "UNIDADE"); guardamos em R$ milhoes
+                escala = (row.get("ESCALA_MOEDA") or "").strip().upper()
+                fator = 1000.0 if escala == "MIL" else 1.0
+                valor = float((row.get("VL_CONTA") or "0").replace(",", ".")) * fator / 1e6
+            except ValueError:
+                continue
+            # DRE e DFC do ITR trazem o trimestre (3 meses) e o acumulado no ano:
+            # marcamos o periodo pelo intervalo para nao misturar.
+            periodo = fim if not ini else f"{ini}..{fim}"
+            for chave in chaves:
+                candidatos.setdefault((chave, conta), {})[periodo] = round(valor, 3)
+
+    saida = {}
+    por_chave = {}
+    for (chave, conta), valores in candidatos.items():
+        por_chave.setdefault(chave, []).append((conta, valores))
+    for chave, opcoes in por_chave.items():
+        escolhida = None
+        codigo_fixo = next((c for c, _ in opcoes if CVM_CONTAS.get(c) == chave), None)
+        if codigo_fixo is not None:
+            esperado = CVM_ESPERADO.get(chave)
+            if not esperado or re.search(esperado, normalizar(nomes_conta.get(codigo_fixo, ""))):
+                escolhida = codigo_fixo
+        if escolhida is None:
+            outras = [c for c, _ in opcoes if c != codigo_fixo]
+            if outras:
+                # Conta reconhecida pela descricao: a mais alta na hierarquia, depois a de menor codigo
+                escolhida = sorted(outras, key=lambda c: (_profundidade(c), [int(p) for p in c.split(".")]))[0]
+        if escolhida is None:
+            if descartadas is not None and codigo_fixo is not None and chave not in descartadas:
+                descartadas[chave] = f"{codigo_fixo} {nomes_conta.get(codigo_fixo, '')}"[:90]
+            continue
+        saida[chave] = dict(next(v for c, v in opcoes if c == escolhida))
+        if descricoes is not None and chave not in descricoes:
+            # Nome da conta no plano da empresa: em bancos, 3.01 e "Receitas da
+            # Intermediacao Financeira". O leitor precisa saber de onde veio o numero.
+            descricoes[chave] = f"{escolhida} {nomes_conta.get(escolhida, '')}"[:90]
+    return saida
+
+
+def coletar_cvm_demonstracoes(cd_cvm, fontes):
+    if not cd_cvm:
+        fontes["cvm_demonstracoes"] = "sem codigo CVM (IPE nao casou a empresa)"
+        return {}
+    ano = datetime.now(timezone.utc).year
+    out = {"cd_cvm": cd_cvm, "unidade": "R$ milhoes", "descricao_contas": {}, "descartadas": {},
+           "dfp_anual": {}, "itr_trimestral": {},
+           "serie_trimestral": {}, "serie_anual": {}, "derivados": {}, "ltm": {},
+           "nota": ("dfp_anual e itr_trimestral: contas consolidadas como a CVM publica (periodo 'inicio..fim'; "
+                    "no ITR ha o trimestre de 3 meses e o acumulado no ano). serie_trimestral: cada trimestre "
+                    "com 3 meses (fluxo) ou saldo no fim do trimestre (balanco); o 4T e o anual da DFP menos o "
+                    "acumulado de 9 meses, e trimestres sem linha de 3 meses saem da diferenca dos acumulados "
+                    "(lista em derivados). ltm: soma dos ultimos 4 trimestres consecutivos. descricao_contas: "
+                    "codigo e nome da conta usada em cada chave; descartadas: contas cujo codigo fixo apontava "
+                    "para outra coisa no plano da empresa (bancos) e por isso ficaram de fora.")}
+    for a in (ano - 1, ano - 2, ano - 3):
+        arq = _csvs_do_zip(CVM_DFP_URL.format(ano=a))
+        if arq:
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "dfp", out["descricao_contas"], out["descartadas"]).items():
+                out["dfp_anual"].setdefault(k, {}).update(v)
+    for a in (ano, ano - 1, ano - 2):
+        arq = _csvs_do_zip(CVM_ITR_URL.format(ano=a))
+        if arq:
+            for k, v in _demonstracoes_cvm(arq, cd_cvm, "itr", out["descricao_contas"], out["descartadas"]).items():
+                out["itr_trimestral"].setdefault(k, {}).update(v)
+    for bloco in ("dfp_anual", "itr_trimestral"):
+        for k in out[bloco]:
+            out[bloco][k] = dict(sorted(out[bloco][k].items()))
+    _series_cvm(out)
+    if re.search(r"INTERMEDIACAO", normalizar(out["descricao_contas"].get("receita_liquida", ""))):
+        out["plano_de_contas"] = "instituicao_financeira"
+    else:
+        out["plano_de_contas"] = "geral"
+    n_a, n_t = len(out["dfp_anual"]), len(out["itr_trimestral"])
+    fontes["cvm_demonstracoes"] = (f"ok (DFP: {n_a} contas, ITR: {n_t} contas; serie trimestral: "
+                                   f"{len(out['serie_trimestral'])} contas)") if (n_a or n_t) else "vazio: zips da CVM sem a empresa"
+    return out
+
+
+_FIM_TRIMESTRE = {"03-31": 1, "06-30": 2, "09-30": 3, "12-31": 4}
+
+
+def _series_cvm(out):
+    """Monta serie_trimestral, serie_anual, derivados e ltm a partir de dfp_anual e itr_trimestral."""
+    fluxo, saldo = {}, {}   # fluxo[conta][ano] = {"3m": {fim: v}, "acum": {fim: v}}; saldo[conta][fim] = v
+    for bloco in ("itr_trimestral", "dfp_anual"):
+        for conta, itens in out[bloco].items():
+            for periodo, v in itens.items():
+                if ".." in periodo:
+                    ini, fim = periodo.split("..")
+                    try:
+                        dias = (datetime.strptime(fim, "%Y-%m-%d") - datetime.strptime(ini, "%Y-%m-%d")).days
+                    except ValueError:
+                        continue
+                    ano = fluxo.setdefault(conta, {}).setdefault(fim[:4], {"3m": {}, "acum": {}})
+                    if dias <= 100:
+                        ano["3m"][fim[5:]] = v
+                    if ini[5:] == "01-01":
+                        ano["acum"][fim[5:]] = v
+                else:
+                    saldo.setdefault(conta, {})[periodo] = v
+    for conta, anos in fluxo.items():
+        serie, derivados = {}, []
+        for ano, d in sorted(anos.items()):
+            anterior = None
+            for fim, n in sorted(_FIM_TRIMESTRE.items()):
+                rotulo = f"{ano}T{n}"
+                if fim in d["3m"]:
+                    serie[rotulo] = d["3m"][fim]
+                elif fim in d["acum"] and (n == 1 or anterior is not None):
+                    serie[rotulo] = round(d["acum"][fim] - (anterior or 0.0), 3)
+                    derivados.append(rotulo)
+                if fim in d["acum"]:
+                    anterior = d["acum"][fim]
+                elif rotulo in serie:
+                    anterior = (anterior or 0.0) + serie[rotulo]
+                else:
+                    anterior = None
+            if "12-31" in d["acum"]:
+                out["serie_anual"].setdefault(conta, {})[ano] = d["acum"]["12-31"]
+        if serie:
+            out["serie_trimestral"][conta] = serie
+            if derivados:
+                out["derivados"][conta] = derivados
+            ltm = _ltm(serie, lambda k: (int(k[:4]), int(k[5])))
+            if ltm:
+                out["ltm"][conta] = ltm
+    for conta, itens in saldo.items():
+        serie = {}
+        for fim, v in sorted(itens.items()):
+            n = _FIM_TRIMESTRE.get(fim[5:])
+            if n:
+                serie[f"{fim[:4]}T{n}"] = v
+                if n == 4:
+                    out["serie_anual"].setdefault(conta, {})[fim[:4]] = v
+        if serie:
+            out["serie_trimestral"][conta] = serie
+
+
+# ───────────────────────── Macro e TIR ─────────────────────────
+# Series do BCB que a mesa usa. O CDI mensal (4391) e o acumulado do mes corrente, parcial
+# ate a data: para custo do dinheiro vale o CDI anualizado (4389), que ja e taxa ao ano.
+SERIES_MACRO = {
+    "selic_meta": (432, "Meta Selic (vigente)", "% a.a."),
+    "selic_efetiva": (4390, "Selic efetiva acumulada no mes", "% no mes"),
+    "cdi_anual": (4389, "CDI anualizado (base 252)", "% a.a."),
+    "cdi_mes": (4391, "CDI acumulado no mes corrente, parcial ate a data", "% no mes"),
+    "ipca_12m": (13522, "IPCA acumulado 12 meses", "% a.a."),
+    "ipca_mes": (433, "IPCA mensal", "% no mes"),
+    "dolar_ptax": (1, "Dolar PTAX venda", "R$"),
+}
+
+
+def coletar_macro(fontes):
+    out = {}
+    for chave, (codigo, nome, unidade) in SERIES_MACRO.items():
+        pts = app.sgs_fetch(codigo, 1)
+        if pts:
+            out[chave] = {"nome": nome, "unidade": unidade, **pts[-1]}
+    out["nota"] = ("Para custo do dinheiro use cdi_anual (taxa ao ano). cdi_mes e selic_efetiva sao o acumulado "
+                   "do mes em curso e nao se comparam com taxas anuais. A data de selic_meta e o inicio da vigencia.")
+    fontes["bcb"] = f"ok ({sum(1 for k in out if k != 'nota')} series)" if len(out) > 1 else "falha: sem resposta"
+    return out
+
+
+def tir_modelo(tk, preco, ipca):
+    if tk not in TIR.tickers_cobertos():
+        return {"coberto": False}
+    r = TIR.calcular_tir(tk, preco or 0, ipca) if preco else {"error": "sem preco"}
+    return {"coberto": True, "resultado": r,
+            "insumos": {"lpa_2025e_2026e": TIR.FORWARD_EPS_SAFRA.get(tk),
+                        "payout_historico": TIR.PAYOUT_HISTORICO.get(tk),
+                        "pl_medio_historico": TIR.PL_MEDIO_HISTORICO.get(tk),
+                        "analise": TIR.SAFRA_ANALISE.get(tk)}}
+
+
+# ───────────────────────── Comparativo de pares ─────────────────────────
+def _primeiro(*valores):
+    for v in valores:
+        if v is not None:
+            return v
+    return None
+
+
+def _fracao_dy(v):
+    """dividendYield do Yahoo vem em percentual (7,75) ou fracao (0,0775) conforme a versao."""
+    if v is None:
+        return None
+    return round(v / 100, 6) if v > 1 else round(v, 6)
+
+
+def _ultimos(serie, n):
+    """Ultimos n pares (rotulo, valor) de {rotulo: valor}, em ordem cronologica."""
+    itens = sorted((k, v) for k, v in (serie or {}).items() if v is not None)
+    return itens[-n:]
+
+
+def _oficial(dados):
+    """Resumo das demonstracoes oficiais (CVM ou SEC) para a tabela de pares."""
+    cvm = dados.get("cvm_demonstracoes") or {}
+    sec = _primeiro((dados.get("subjacente_us") or {}).get("sec_xbrl"), dados.get("sec_xbrl"),
+                    dados.get("sec_xbrl_adr")) or {}
+    if cvm.get("serie_trimestral"):
+        st, ltm = cvm["serie_trimestral"], cvm.get("ltm") or {}
+        rec, ebit, ll, pl, fin = ("receita_liquida", "ebit", "lucro_liquido_consolidado",
+                                  "patrimonio_liquido_consolidado", "resultado_financeiro")
+        if not ltm.get("lucro_liquido_consolidado") and ltm.get("lucro_atribuido_controladores"):
+            ll = "lucro_atribuido_controladores"   # plano IFRS de banco: so a linha dos controladores tem 3 meses
+        out = {"fonte": "CVM ITR/DFP consolidado", "unidade": "R$ milhoes",
+               "plano_de_contas": cvm.get("plano_de_contas", "geral"), "conta_lucro": ll}
+    elif sec.get("ltm"):
+        st, ltm = sec["trimestral"], sec.get("ltm") or {}
+        rec, ebit, ll, pl, fin = "receita", "ebit", "lucro_liquido", "patrimonio_liquido", None
+        out = {"fonte": "SEC XBRL (10-Q/10-K/20-F)", "unidade": _moeda_sec(sec), "plano_de_contas": "geral",
+               "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
+    elif (sec.get("anual") or {}).get("receita") or (sec.get("anual") or {}).get("lucro_liquido"):
+        # Emissor estrangeiro (20-F): o XBRL so tem o ano fiscal. Vale o ultimo ano, dito com todas as letras.
+        return _oficial_anual_sec(sec, dados)
+    else:
+        return {}
+    geral = out["plano_de_contas"] == "geral"
+    periodo = (ltm.get(rec) or ltm.get(ll) or {}).get("ate") \
+        or max((v.get("ate") for v in ltm.values() if v and v.get("ate")), default=None)
+    out["ltm_ate"] = periodo
+
+    def valor_ltm(conta):
+        # So entra o LTM que termina no mesmo trimestre da receita: linha parada no tempo fica de fora
+        item = ltm.get(conta)
+        return item["valor"] if item and item.get("ate") == periodo else None
+    for nome, conta in (("receita_ltm", rec), ("ebit_ltm", ebit), ("lucro_ltm", ll), ("resultado_financeiro_ltm", fin)):
+        if conta and valor_ltm(conta) is not None:
+            out[nome] = valor_ltm(conta)
+    if fin is None:
+        # SEC: resultado financeiro = outras receitas/despesas nao operacionais menos a despesa de juros
+        # (positivo = receita, como na CVM). Registra a composicao para o leitor.
+        outros, juros = valor_ltm("resultado_financeiro_outros"), valor_ltm("despesa_juros")
+        if outros is not None or juros is not None:
+            out["resultado_financeiro_ltm"] = round((outros or 0.0) - (juros or 0.0), 6)
+            out["resultado_financeiro_nota"] = ("outros nao operacionais" if outros is not None else "") + \
+                (" menos " if outros is not None and juros is not None else "") + \
+                ("despesa de juros" if juros is not None else "")
+            if juros is not None:
+                out["despesa_juros_ltm"] = juros
+    receita, ebit_v, lucro = out.get("receita_ltm"), out.get("ebit_ltm"), out.get("lucro_ltm")
+    if receita and geral:
+        if ebit_v is not None:
+            out["margem_ebit_ltm"] = round(ebit_v / receita, 4)
+        if lucro is not None:
+            out["margem_liquida_ltm"] = round(lucro / receita, 4)
+    if ebit_v and out.get("resultado_financeiro_ltm") is not None and geral:
+        # Quanto do resultado operacional o custo do dinheiro consome (negativo = despesa)
+        out["resultado_financeiro_sobre_ebit"] = round(out["resultado_financeiro_ltm"] / ebit_v, 3)
+    saldos = _ultimos(st.get(pl), 5)
+    if saldos:
+        out["patrimonio_liquido"] = saldos[-1][1]
+        out["patrimonio_liquido_em"] = saldos[-1][0]
+        if lucro is not None and len(saldos) == 5 and saldos[0][1] and saldos[-1][1]:
+            media = (saldos[0][1] + saldos[-1][1]) / 2
+            if media > 0:
+                out["roe_ltm"] = round(lucro / media, 4)
+    rec_tri = _ultimos(st.get(rec), 12)
+    if len(rec_tri) >= 8:
+        atual = sum(v for _, v in rec_tri[-4:])
+        anterior = sum(v for _, v in rec_tri[-8:-4])
+        if anterior:
+            out["cresc_receita_ltm"] = round(atual / anterior - 1, 4)
+    ll_tri = _ultimos(st.get(ll), 12)
+    if len(ll_tri) >= 8:
+        atual = sum(v for _, v in ll_tri[-4:])
+        anterior = sum(v for _, v in ll_tri[-8:-4])
+        if anterior and anterior > 0 and atual is not None:
+            out["cresc_lucro_ltm"] = round(atual / anterior - 1, 4)
+    out["receita_trimestral"] = dict(rec_tri[-10:])
+    out["lucro_trimestral"] = dict(ll_tri[-10:])
+    if geral:
+        ebit_tri = dict(_ultimos(st.get(ebit), 12))
+        margens = {}
+        for k, v in rec_tri[-10:]:
+            if v and ebit_tri.get(k) is not None:
+                margens[k] = round(ebit_tri[k] / v, 4)
+        out["margem_ebit_trimestral"] = margens
+    return out
+
+
+def _moeda_sec(sec):
+    """Moeda das demonstracoes no XBRL: XP, Stone e PagBank reportam a SEC em reais, nao em dolar."""
+    un = sec.get("unidades") or {}
+    return un.get("receita") or un.get("lucro_liquido") or un.get("patrimonio_liquido") or "USD"
+
+
+def _oficial_anual_sec(sec, dados):
+    """Resumo oficial de quem reporta a SEC so anualmente (20-F): ultimo ano fiscal."""
+    an = sec.get("anual") or {}
+    anos = sorted(set(an.get("receita", {})) | set(an.get("lucro_liquido", {})))
+    if not anos:
+        return {}
+    ano, ant = anos[-1], (anos[-2] if len(anos) > 1 else None)
+    out = {"fonte": "SEC XBRL anual (20-F): ultimo ano fiscal, nao 12 meses correntes", "unidade": _moeda_sec(sec),
+           "plano_de_contas": "geral", "periodicidade": "anual", "ltm_ate": ano,
+           "adr": (dados.get("sec_xbrl_adr") or {}).get("adr")}
+    rec, ebit, luc = an.get("receita", {}).get(ano), an.get("ebit", {}).get(ano), an.get("lucro_liquido", {}).get(ano)
+    if rec is not None:
+        out["receita_ltm"] = rec
+    if ebit is not None:
+        out["ebit_ltm"] = ebit
+    if luc is not None:
+        out["lucro_ltm"] = luc
+    if rec and ebit is not None:
+        out["margem_ebit_ltm"] = round(ebit / rec, 4)
+    if rec and luc is not None:
+        out["margem_liquida_ltm"] = round(luc / rec, 4)
+    pl_a, pl_b = an.get("patrimonio_liquido", {}).get(ano), (an.get("patrimonio_liquido", {}).get(ant) if ant else None)
+    if pl_a:
+        out["patrimonio_liquido"], out["patrimonio_liquido_em"] = pl_a, ano
+        media = (pl_a + pl_b) / 2 if pl_b else pl_a
+        if luc is not None and media > 0:
+            out["roe_ltm"] = round(luc / media, 4)
+    if ant:
+        ra, la = an.get("receita", {}).get(ant), an.get("lucro_liquido", {}).get(ant)
+        if rec and ra:
+            out["cresc_receita_ltm"] = round(rec / ra - 1, 4)
+        if luc is not None and la and la > 0:
+            out["cresc_lucro_ltm"] = round(luc / la - 1, 4)
+    out["receita_anual"] = dict(sorted(an.get("receita", {}).items())[-5:])
+    out["lucro_anual"] = dict(sorted(an.get("lucro_liquido", {}).items())[-5:])
+    return out
+
+
+def linha_comparativa(dados):
+    """Uma linha da tabela de pares a partir do JSON do ativo."""
+    y = dados.get("yahoo") or {}
+    sub = dados.get("subjacente_us") or {}
+    base = (sub.get("yahoo") or y) if sub else y   # BDR: multiplos da acao-mae (mesma empresa, mais liquidez)
+    info, calc = base.get("info") or {}, base.get("multiplos_calculados") or {}
+    fn = {normalizar(k): v for k, v in (dados.get("fundamentus") or {}).items() if isinstance(v, (int, float))}
+    ret = y.get("retornos") or {}
+    preco = _primeiro(info.get("currentPrice"), info.get("regularMarketPrice"), calc.get("preco_usado"))
+    alvo = info.get("targetMeanPrice")
+    linha = {
+        "ticker": dados["ticker"], "nome": (dados.get("identificacao") or {}).get("nome"),
+        "gerado_em": dados.get("gerado_em"), "moeda": info.get("currency"),
+        "simbolo_base": base.get("simbolo"),
+        "preco": preco, "valor_mercado": info.get("marketCap"), "ev": info.get("enterpriseValue"),
+        # Papel da B3: Fundamentus primeiro (padrao brasileiro, consistente no grupo); BDR e EUA: Yahoo da acao-mae
+        "pl_12m": _primeiro(fn.get("P L"), calc.get("pl_12m"), info.get("trailingPE")),
+        "pl_projetado": _primeiro(info.get("forwardPE"), calc.get("pl_projetado")),
+        "pvp": _primeiro(fn.get("P VP"), calc.get("pvp"), info.get("priceToBook")),
+        "ev_ebitda": _primeiro(fn.get("EV EBITDA"), calc.get("ev_ebitda"), info.get("enterpriseToEbitda")),
+        "dy_12m": _primeiro(calc.get("dy_12m"), fn.get("DIV YIELD"), _fracao_dy(info.get("dividendYield"))),
+        "roe": _primeiro(fn.get("ROE"), info.get("returnOnEquity")),
+        "roic": fn.get("ROIC"),
+        "margem_bruta": _primeiro(info.get("grossMargins"), fn.get("MARG BRUTA")),
+        "margem_ebitda": info.get("ebitdaMargins"),
+        "margem_ebit": _primeiro(info.get("operatingMargins"), fn.get("MARG EBIT")),
+        "margem_liquida": _primeiro(info.get("profitMargins"), fn.get("MARG LIQUIDA")),
+        "cresc_receita_yoy": info.get("revenueGrowth"), "cresc_lucro_yoy": info.get("earningsGrowth"),
+        "cresc_receita_5a": fn.get("CRES REC 5A"),
+        "divida_liquida_ebitda": calc.get("divida_liquida_ebitda"),
+        "divida_liquida_pl": _primeiro(fn.get("DIV LIQ PATRIM"),
+                                       round(info["debtToEquity"] / 100, 4) if info.get("debtToEquity") is not None else None),
+        "beta": info.get("beta"),
+        "retorno_12m": ret.get("12m"), "retorno_ytd": ret.get("ytd"),
+        "consenso": {"recomendacao": info.get("recommendationKey"), "n_analistas": info.get("numberOfAnalystOpinions"),
+                     "alvo_medio": alvo, "upside": round(alvo / preco - 1, 4) if (alvo and preco) else None},
+        "tir_real": ((dados.get("tir_modelo") or {}).get("resultado") or {}).get("tir_real"),
+        "oficial": _oficial(dados),
+        "fontes_ok": sum(1 for v in (dados.get("fontes") or {}).values() if str(v).startswith("ok")),
+        "fontes_total": len(dados.get("fontes") or {}),
+    }
+    if sub:
+        linha["preco_bdr_brl"] = (y.get("info") or {}).get("currentPrice")
+        linha["paridade"] = (sub.get("paridade_implicita") or {}).get("bdrs_por_acao")
+    if (dados.get("pares") or {}).get("tipo") == "financeiro":
+        # Banco e seguradora: EV/EBITDA, margens operacionais e divida liquida nao descrevem o negocio
+        for k in _METRICAS_NAO_FINANCEIRAS:
+            linha[k] = None
+    return linha
+
+
+_METRICAS_NAO_FINANCEIRAS = ["ev_ebitda", "margem_bruta", "margem_ebitda", "margem_ebit", "margem_liquida",
+                             "divida_liquida_ebitda", "divida_liquida_pl"]
+
+
+_METRICAS_MEDIANA = ["pl_12m", "pl_projetado", "pvp", "ev_ebitda", "dy_12m", "roe", "roic", "margem_bruta",
+                     "margem_ebitda", "margem_ebit", "margem_liquida", "cresc_receita_yoy", "cresc_lucro_yoy",
+                     "divida_liquida_ebitda", "divida_liquida_pl", "beta", "retorno_12m", "retorno_ytd",
+                     "oficial.margem_ebit_ltm", "oficial.margem_liquida_ltm", "oficial.roe_ltm",
+                     "oficial.cresc_receita_ltm", "oficial.cresc_lucro_ltm", "oficial.resultado_financeiro_sobre_ebit"]
+
+
+def _mediana(valores):
+    v = sorted(x for x in valores if isinstance(x, (int, float)))
+    if not v:
+        return None
+    m = len(v) // 2
+    return round(v[m] if len(v) % 2 else (v[m - 1] + v[m]) / 2, 4)
+
+
+def montar_comparativo(grupo, nome, tipo, linhas, pedidos):
+    """Tabela de pares: linhas por ticker, mediana do grupo e posicao de cada um."""
+    medianas = {}
+    ignorar = set(_METRICAS_NAO_FINANCEIRAS + ["oficial.margem_ebit_ltm", "oficial.margem_liquida_ltm",
+                                                "oficial.resultado_financeiro_sobre_ebit"]) if tipo == "financeiro" else set()
+    for metrica in _METRICAS_MEDIANA:
+        if metrica in ignorar:
+            continue
+        valores = []
+        for ln in linhas:
+            v = ln.get("oficial", {}).get(metrica[8:]) if metrica.startswith("oficial.") else ln.get(metrica)
+            valores.append(v)
+        med = _mediana(valores)
+        if med is not None:
+            medianas[metrica] = {"mediana": med, "n": sum(1 for x in valores if isinstance(x, (int, float)))}
+    return {
+        "grupo": grupo, "nome": nome, "tipo": tipo, "gerado_em": agora(),
+        "tickers_pedidos": pedidos, "tickers": [ln["ticker"] for ln in linhas],
+        "leitura": ("financeiro: compare P/L, P/VP, ROE, DY e lucro oficial; ignore EV/EBITDA e margens. "
+                    "operacional: EV/EBITDA, margens, alavancagem, crescimento e resultado financeiro sobre EBIT. "
+                    "Multiplos de BDR vem da acao-mae nos EUA (simbolo_base); valores oficiais na unidade indicada em oficial.unidade. "
+                    "gerado_em de cada linha mostra a idade do dado; linhas velhas vieram do branch e nao desta coleta."),
+        "linhas": linhas, "medianas": medianas,
+    }
+
+
+# ───────────────────────── Orquestracao ─────────────────────────
+def _itr_mais_novo(dados):
+    """Rotulo do trimestre mais novo nas demonstracoes oficiais: '2026T2' (CVM) ou 'CY2026Q2' (SEC).
+
+    Olha a receita liquida; sem ela, qualquer conta. E a referencia de frescor do release."""
+    blocos = [(dados.get("cvm_demonstracoes") or {}).get("serie_trimestral"),
+              (dados.get("sec_xbrl") or {}).get("trimestral"),
+              ((dados.get("subjacente_us") or {}).get("sec_xbrl") or {}).get("trimestral"),
+              (dados.get("sec_xbrl_adr") or {}).get("trimestral")]
+    for series in blocos:
+        if not series:
+            continue
+        contas = [series["receita_liquida"]] if series.get("receita_liquida") else list(series.values())
+        rotulos = [k for s in contas for k, v in s.items() if v is not None and _ano_trimestre(k)]
+        if rotulos:
+            return max(rotulos, key=_ano_trimestre)
+    return None
+
+
+# Prazo legal de entrega apos o fim do trimestre: ITR em 45 dias (1T a 3T), DFP em 90 dias (4T).
+# E a segunda referencia de frescor: se o proprio ITR atrasar ou o zip da CVM sumir, o release
+# "em dia com o ITR" continua velho para o calendario, e o site de RI precisa ser consultado.
+_PRAZO_DIAS = {1: 45, 2: 45, 3: 45, 4: 90}
+
+
+def trimestre_vencido(hoje=None):
+    """Ultimo trimestre fechado cujo prazo legal de divulgacao ja venceu: '2026T2' (formato da serie CVM).
+
+    Em 21/09/2026 devolve 2026T2 (3T26 so vence em 14/11). None se nao der para calcular."""
+    try:
+        h = datetime.strptime(str(hoje or agora())[:10], "%Y-%m-%d")
+    except ValueError:
+        return None
+    ano, tri = ordem_periodo(trimestre_anterior(h.strftime("%Y-%m-%d")))
+    for _ in range(6):
+        if not tri:
+            return None
+        fim = datetime.strptime(f"{ano}-{_FIM_DO_TRIMESTRE[tri]}", "%Y-%m-%d")
+        if (h - fim).days >= _PRAZO_DIAS[tri]:
+            return f"{ano}T{tri}"
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return None
+
+
+def _referencia_frescor(dados):
+    """(referencia, origem): o mais novo entre o ITR e o trimestre vencido no calendario."""
+    itr = _itr_mais_novo(dados)
+    vencido = trimestre_vencido()
+    candidatos = [(r, o) for r, o in ((itr, "ITR"), (vencido, "calendario")) if r]
+    if not candidatos:
+        return None, None
+    return max(candidatos, key=lambda ro: _ano_trimestre(ro[0]))
+
+
+def _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos, descartados, saida=None):
+    """Quando o release mais novo esta atras da referencia (ITR mais novo ou trimestre vencido no
+    calendario, o que for mais novo), busca no site de RI os trimestres que faltam e mescla com o que
+    a CVM trouxe, um por trimestre."""
+    itr = _itr_mais_novo(dados)
+    mais_novo = historico[0].get("periodo") if historico else None
+    referencia, origem = _referencia_frescor(dados)
+    atraso = defasagem_release(mais_novo, referencia)
+    preferencias = {r.get("periodo"): r.get("preferencia", 1) for r in historico if r.get("periodo")}
+    # Release mais novo que entrou sem a palavra release no rotulo (arquivo avulso da central, 1.5) ou
+    # como documento de outro tipo (2): pode nao ser o release. O site e consultado de novo a cada
+    # coleta ate um release rotulado do mesmo trimestre tomar o lugar dele (preferencias + ate_periodo).
+    fraco = bool(historico) and historico[0].get("preferencia", 1) > 1
+    faltantes = periodos_a_buscar(historico, oficiais=periodos_oficiais(dados),
+                                  referencia=_referencia_frescor(dados)[0])
+    if historico and atraso <= 0 and not fraco and not faltantes:
+        app.log(f"{tk}: release {mais_novo} em dia com o ITR {referencia} e janela completa; "
+                f"site de RI nao consultado")
+        return historico
+    if faltantes and atraso <= 0 and not fraco:
+        app.log(f"{tk}: cabeca em dia ({mais_novo}), mas faltam {', '.join(faltantes)} na janela "
+                f"obrigatoria; consultando o site de RI")
+    elif historico and atraso <= 0:
+        app.log(f"{tk}: release mais novo {mais_novo} em dia com {referencia}, mas entrou sem rotulo de release "
+                f"(preferencia {historico[0].get('preferencia')}); consultando o site de RI atras de um documento melhor")
+    else:
+        app.log(f"{tk}: release mais novo {mais_novo or 'nenhum'} esta {atraso} trimestre(s) atras de "
+                f"{referencia} ({origem}); consultando o site de RI")
+    mapa, origem = fonte_ri_do_ativo(tk, dados, fontes, saida)
+    if mapa and origem != "ri_fontes.py":
+        app.log(f"{tk}: fonte de RI veio da {origem}: {mapa.get('central')}")
+    do_site = coletar_releases_ri(tk, fontes, conhecidos, descartados, ate_periodo=mais_novo,
+                                  preferencias=preferencias, faltantes=faltantes, mapa=mapa)
+    if not do_site:
+        return historico
+    lista = _mesclar_historico(historico, do_site)
+    novos = [r["periodo"] for r in lista if any(r is s for s in do_site)]
+    trocados = [p for p in novos if p in preferencias]
+    if novos:
+        fontes["release_ri"] = (f"{fontes.get('release_ri', '')}; site de RI trouxe {', '.join(novos)}"
+                                f"{' (trocou o documento de ' + ', '.join(trocados) + ')' if trocados else ''}; "
+                                f"mais novo agora: {lista[0].get('periodo')} ({lista[0].get('data')}{' estimada' if lista[0].get('data_estimada') else ''})")[:400]
+    return lista
+
+
+def _frescor(dados, historico, fontes, releases=True):
+    """Bloco `frescor` do JSON: o ITR mais novo, o release mais novo e a distancia entre eles."""
+    itr = _itr_mais_novo(dados)
+    mais_novo = historico[0].get("periodo") if historico else None
+    vencido = trimestre_vencido()
+    return {"itr_mais_novo": itr, "release_mais_novo": mais_novo,
+            "release_data": historico[0].get("data") if historico else None,
+            "release_data_estimada": bool(historico[0].get("data_estimada")) if historico else None,
+            "defasagem_trimestres": defasagem_release(mais_novo, itr) if releases else None,
+            "calendario_vencido": vencido,
+            "defasagem_calendario": defasagem_release(mais_novo, vencido) if (releases and vencido) else None,
+            "itr_atras_do_calendario": (defasagem_release(f"{_ano_trimestre(itr)[1]}T{str(_ano_trimestre(itr)[0])[-2:]}", vencido)
+                                        if (itr and vencido and _ano_trimestre(itr)) else None),
+            "fontes_release": sorted({r.get("fonte") for r in historico if r.get("fonte")}),
+            "site_ri": fontes.get("release_ri_site", "nao consultado"),
+            "nota": ("defasagem_trimestres: quantos trimestres o release mais novo esta atras do ITR/XBRL "
+                     "mais novo (0 = em dia; 99 = sem release; null = coleta sem releases). "
+                     "calendario_vencido: ultimo trimestre cujo prazo legal de divulgacao venceu; "
+                     "defasagem_calendario e itr_atras_do_calendario medem release e ITR contra ele")}
+
+
+def coletar_ativo(tk, macro, releases=True, saida=None):
+    """JSON completo de um ativo. `saida` e a raiz do branch `dados`, onde fica o historico de releases."""
+    fontes = {}
+    dados = {"ticker": tk, "gerado_em": agora(), "fontes": fontes}
+    grupo = PARES_MOD.grupo_de(tk)
+    dados["pares"] = ({"grupo": grupo, "nome": PARES_MOD.PARES[grupo]["nome"], "tipo": PARES_MOD.PARES[grupo]["tipo"],
+                       "tickers": PARES_MOD.PARES[grupo]["tickers"], "comparativo": f"comparativos/{grupo}.json"}
+                      if grupo else {"grupo": None, "tickers": [], "comparativo": None})
+    try:
+        dados["yahoo"] = coletar_yahoo(tk, fontes)
+    except Exception as e:
+        fontes["yahoo"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        dados["yahoo"] = {}
+    if eh_simbolo_us(tk):
+        dados["fundamentus"], dados["cvm"] = {}, {}
+        fontes["fundamentus"] = fontes["cvm"] = "nao se aplica (papel dos EUA)"
+    elif eh_bdr(tk):
+        dados["fundamentus"] = {}
+        fontes["fundamentus"] = "nao se aplica (BDR; indicadores vem da acao-mae em subjacente_us)"
+    else:
+        try:
+            dados["fundamentus"] = coletar_fundamentus(tk, fontes)
+        except Exception as e:
+            fontes["fundamentus"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            dados["fundamentus"] = {}
+    info = (dados.get("yahoo") or {}).get("info") or {}
+    if not eh_simbolo_us(tk):
+        nomes = [info.get("longName"), info.get("shortName"), dados["fundamentus"].get("Empresa")]
+        try:
+            dados["cvm"] = coletar_cvm(tk, nomes, fontes)
+        except Exception as e:
+            fontes["cvm"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            dados["cvm"] = {}
+
+    # Demonstracoes oficiais
+    if eh_simbolo_us(tk):
+        try:
+            dados["sec_xbrl"] = coletar_sec_xbrl(tk, fontes)
+        except Exception as e:
+            fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+    else:
+        try:
+            dados["cvm_demonstracoes"] = coletar_cvm_demonstracoes((dados.get("cvm") or {}).get("codigo_cvm"), fontes)
+        except Exception as e:
+            fontes["cvm_demonstracoes"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        adr = ADR_DE_B3.get(tk)
+        if adr:
+            try:
+                dados["sec_xbrl_adr"] = {"adr": adr, **coletar_sec_xbrl(adr, fontes)}
+            except Exception as e:
+                fontes["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+
+    # Releases de resultado do RI: os ultimos 8 trimestres. O mais novo entra inteiro no JSON
+    # (`release_ri`); todos ficam em releases/<TICKER>/ no branch, indexados em `releases_historico`.
+    historico = []
+    if releases:
+        descartados = []
+        anterior = releases_do_indice(saida, tk)
+        try:
+            conhecidos = carregar_indice_releases(saida, tk)
+            # O que falta na janela orienta a varredura da SEC: sem isso ela e so cronologica
+            faltam = periodos_a_buscar(anterior, oficiais=periodos_oficiais(dados),
+                                       referencia=_referencia_frescor(dados)[0])
+            if eh_simbolo_us(tk):
+                historico = coletar_releases_sec(_cik_por_ticker(tk), fontes, conhecidos, descartados,
+                                                 faltantes=faltam)
+            elif eh_bdr(tk):
+                # O release da acao-mae e o release da empresa
+                historico = coletar_releases_sec(_cik_por_ticker(simbolo_subjacente(tk)), fontes,
+                                                 conhecidos, descartados, faltantes=faltam)
+            else:
+                historico = coletar_releases_cvm((dados.get("cvm") or {}).get("documentos_resultado") or [],
+                                                 fontes, conhecidos)
+                if not historico and ADR_DE_B3.get(tk):
+                    # Sem release na CVM: tenta os 6-K do ADR (mesmo documento, em ingles)
+                    historico = coletar_releases_sec(_cik_por_ticker(ADR_DE_B3[tk]), fontes, conhecidos, descartados)
+                # Release atras do ITR (IPE do ano corrente fora do ar): completa pelo site de RI
+                historico = _completar_pelo_site_ri(tk, dados, fontes, historico, conhecidos,
+                                                    descartados, saida)
+            descartados = [k for k, v in conhecidos.items() if v is None] + descartados
+        except Exception as e:
+            fontes["release_ri"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+        # O historico do branch entra sempre: coleta que achou menos nao apaga o que ja estava la
+        antes = {r.get("periodo") for r in historico}
+        historico = _mesclar_historico(anterior, historico)
+        vindos_do_branch = [r.get("periodo") for r in historico if r.get("periodo") not in antes]
+        if vindos_do_branch:
+            app.log(f"{tk}: {len(vindos_do_branch)} trimestre(s) vieram do indice ja gravado no branch: "
+                    f"{', '.join(vindos_do_branch)}")
+        try:
+            dados["releases_historico"] = gravar_releases(saida, tk, historico, descartados) if saida else \
+                [{k: v for k, v in r.items() if k != "texto"} for r in historico]
+            if historico:
+                dados["release_ri"] = {**historico[0], "texto": texto_do_release(saida, historico[0])}
+            dados["cobertura"] = cobertura_releases(historico, oficiais=periodos_oficiais(dados),
+                                                    referencia=_referencia_frescor(dados)[0])
+            c = dados["cobertura"]
+            app.log(f"{tk}: cobertura da janela: {len(c['completos'])}/{len(c['janela'])} trimestres"
+                    + (f"; faltando {', '.join(c['faltando'])}" if c["faltando"] else "")
+                    + (f"; fracos {', '.join(f['periodo'] for f in c['fracos'])}" if c["fracos"] else ""))
+        except Exception as e:
+            fontes["release_ri"] = f"{fontes.get('release_ri', '')} | falha ao gravar: {type(e).__name__}"[:180]
+
+    # BDR: traz tambem a acao-mae nos EUA (demonstracoes, release e paridade implicita)
+    if eh_bdr(tk):
+        base = simbolo_subjacente(tk)
+        fontes_sub = {}
+        try:
+            sub = coletar_yahoo(base, fontes_sub, simbolo=base)
+            sub_info = sub.get("info") or {}
+            dados["subjacente_us"] = {"simbolo": base, "fontes": fontes_sub, "yahoo": sub}
+            try:
+                dados["subjacente_us"]["sec_xbrl"] = coletar_sec_xbrl(base, fontes_sub)
+            except Exception as e:
+                fontes_sub["sec_xbrl"] = f"falha geral: {type(e).__name__}: {e}"[:160]
+            preco_bdr = info.get("currentPrice") or info.get("regularMarketPrice")
+            preco_us = sub_info.get("currentPrice") or sub_info.get("regularMarketPrice")
+            dolar = (macro.get("dolar_ptax") or {}).get("value")
+            if preco_bdr and preco_us and dolar:
+                dados["subjacente_us"]["paridade_implicita"] = {
+                    "descricao": "quantas BDRs equivalem a 1 acao nos EUA, pelo preco: preco_us x dolar / preco_bdr",
+                    "bdrs_por_acao": round(preco_us * dolar / preco_bdr, 3),
+                    "preco_bdr": preco_bdr, "preco_us": preco_us, "dolar_ptax": dolar,
+                }
+            fontes["subjacente_us"] = f"ok ({base}; {sum(1 for v in fontes_sub.values() if str(v).startswith('ok'))} fontes ok)"
+        except Exception as e:
+            fontes["subjacente_us"] = f"falha: {type(e).__name__}: {e}"[:160]
+    # Frescor: o release mais novo contra o ITR/XBRL mais novo. E o que o deep search confere
+    # antes de escrever; defasagem > 0 e o sinal de que o site de RI precisa entrar (ou de que falhou).
+    try:
+        dados["frescor"] = _frescor(dados, historico, fontes, releases)
+    except Exception as e:
+        dados["frescor"] = {"erro": f"{type(e).__name__}: {e}"[:160]}
+    preco = info.get("currentPrice") or info.get("regularMarketPrice") \
+        or ((dados.get("yahoo") or {}).get("retornos") or {}).get("ultimo_fechamento", {}).get("preco")
+    ipca = (macro.get("ipca_12m") or {}).get("value", 4.5)
+    dados["tir_modelo"] = tir_modelo(tk, preco, ipca)
+    dados["macro"] = macro
+    dados["identificacao"] = {
+        "nome": info.get("longName") or info.get("shortName") or dados["fundamentus"].get("Empresa"),
+        "setor_yahoo": info.get("sector"), "industria_yahoo": info.get("industry"),
+        "setor_fundamentus": dados["fundamentus"].get("Setor"),
+        "subsetor_fundamentus": dados["fundamentus"].get("Subsetor"),
+        "site": info.get("website"),
+    }
+    return dados
+
+
+def gravar_json(caminho, dados):
+    os.makedirs(os.path.dirname(caminho), exist_ok=True)
+    with open(caminho, "w", encoding="utf-8") as f:
+        json.dump(dados, f, ensure_ascii=False, separators=(",", ":"), default=nativo)
+
+
+def snapshot_terminal(saida):
+    """Roda os coletores do terminal (gerar_dados.py) e copia os JSONs para snapshot/."""
+    import gerar_dados
+    tmp = tempfile.mkdtemp(prefix="broadcast_site_")
+    try:
+        gerar_dados.gerar(tmp)
+        destino = os.path.join(saida, "snapshot")
+        if os.path.isdir(destino):
+            shutil.rmtree(destino)
+        shutil.copytree(os.path.join(tmp, "api"), destino)
+        return {"ok": True, "falhas": gerar_dados.resumo.get("falhas", [])}
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--tickers", default="", help="separados por virgula ou espaco; vazio = modelo de TIR")
+    ap.add_argument("--saida", default="dados_out")
+    ap.add_argument("--snapshot", action="store_true", help="tambem grava o retrato geral do terminal")
+    ap.add_argument("--pares", default="nao",
+                    help="auto = coleta os pares do grupo (pares.py) e grava o comparativo; "
+                         "lista de tickers = pares explicitos; nao = so os tickers pedidos")
+    ap.add_argument("--sem-releases", action="store_true", help="nao baixa o release de resultados (mais rapido)")
+    args = ap.parse_args()
+
+    def lista(texto):
+        return [t.strip().upper().replace(".SA", "") for t in re.split(r"[,\s;]+", texto or "") if t.strip()]
+
+    tickers = lista(args.tickers)
+    if not tickers:
+        # Sem lista = lista do modelo de TIR, como o workflow documenta. A condicao antiga tinha
+        # 'and not args.snapshot', e como a execucao agendada passa --snapshot sem tickers, TODO cron
+        # resolvia para zero ativos: o retrato geral era gravado e nenhum ativo era atualizado. Foi por
+        # isso que PETR4, VALE3 e WEGE3 ficaram parados no formato antigo mesmo estando na lista padrao.
+        tickers = TIR.tickers_cobertos()
+    os.makedirs(args.saida, exist_ok=True)
+
+    # Pares: expande a lista e define os grupos dos comparativos
+    pedidos = list(tickers)
+    grupos = {}   # chave -> {"nome", "tipo", "tickers"}
+    modo_pares = (args.pares or "").strip().lower()
+    if modo_pares == "auto":
+        for tk in pedidos:
+            g = PARES_MOD.grupo_de(tk)
+            if g and g not in grupos:
+                grupos[g] = {"nome": PARES_MOD.PARES[g]["nome"], "tipo": PARES_MOD.PARES[g]["tipo"],
+                             "tickers": list(PARES_MOD.PARES[g]["tickers"])}
+    elif modo_pares not in ("", "nao", "no", "false", "0"):
+        extra = lista(args.pares)
+        if pedidos and extra:
+            chave = f"pares_de_{pedidos[0]}"
+            g0 = PARES_MOD.grupo_de(pedidos[0])
+            grupos[chave] = {"nome": f"Pares escolhidos para {pedidos[0]}",
+                             "tipo": PARES_MOD.PARES[g0]["tipo"] if g0 else "operacional",
+                             "tickers": pedidos[:1] + [t for t in extra if t != pedidos[0]]}
+    for g in grupos.values():
+        for tk in g["tickers"]:
+            if tk not in tickers:
+                tickers.append(tk)
+
+    resumo = {"gerado_em": agora(), "tickers": {}, "snapshot": None, "pares": modo_pares or "nao", "comparativos": {}}
+    if args.snapshot:
+        print("Retrato geral do terminal...")
+        try:
+            resumo["snapshot"] = snapshot_terminal(args.saida)
+        except Exception as e:
+            resumo["snapshot"] = {"ok": False, "erro": f"{type(e).__name__}: {e}"[:200]}
+        print("  snapshot:", resumo["snapshot"])
+
+    macro = {}
+    if tickers:
+        fontes_macro = {}
+        macro = coletar_macro(fontes_macro)
+        print("Macro:", fontes_macro)
+
+    coletados = {}
+    for tk in tickers:
+        print(f"Coletando {tk}...")
+        dados = coletar_ativo(tk, macro, releases=not args.sem_releases, saida=args.saida)
+        gravar_json(os.path.join(args.saida, "ativos", f"{tk}.json"), dados)
+        coletados[tk] = dados
+        resumo["tickers"][tk] = dados["fontes"]
+        for k, v in dados["fontes"].items():
+            print(f"  {k}: {v}")
+
+    # Comparativos por grupo: linhas desta coleta e, na falta, o JSON ja existente no branch
+    for chave, g in grupos.items():
+        linhas = []
+        for tk in g["tickers"]:
+            dados = coletados.get(tk)
+            if dados is None:
+                caminho = os.path.join(args.saida, "ativos", f"{tk}.json")
+                if os.path.exists(caminho):
+                    try:
+                        dados = json.load(open(caminho, encoding="utf-8"))
+                    except Exception:
+                        dados = None
+            if dados:
+                try:
+                    linhas.append(linha_comparativa(dados))
+                except Exception as e:
+                    print(f"  comparativo {chave}: {tk} sem linha ({type(e).__name__}: {e})")
+        comp = montar_comparativo(chave, g["nome"], g["tipo"], linhas, [t for t in pedidos if t in g["tickers"]])
+        arquivo = f"comparativos/{chave}.json"
+        gravar_json(os.path.join(args.saida, arquivo), comp)
+        resumo["comparativos"][chave] = {"arquivo": arquivo, "tickers": comp["tickers"], "medianas": len(comp["medianas"])}
+        print(f"Comparativo {chave}: {len(linhas)} linhas, {len(comp['medianas'])} medianas -> {arquivo}")
+
+    # indice acumulado dos ativos ja coletados no branch
+    idx_path = os.path.join(args.saida, "ativos", "index.json")
+    indice = {}
+    if os.path.exists(idx_path):
+        try:
+            indice = json.load(open(idx_path, encoding="utf-8")).get("ativos", {})
+        except Exception:
+            indice = {}
+    for tk in tickers:
+        indice[tk] = {"gerado_em": resumo["gerado_em"], "arquivo": f"ativos/{tk}.json"}
+    gravar_json(idx_path, {"atualizado_em": agora(), "ativos": dict(sorted(indice.items()))})
+    gravar_json(os.path.join(args.saida, "ultima_coleta.json"), resumo)
+    print(f"\n{len(tickers)} ativos gravados em {args.saida}/ativos/")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,184 @@
+# Boletim Diario do Mercado da B3 (BDI): o que o coletor busca e os limiares dos sinais.
+#
+# O universo vem de config/livro.yaml (ativos com mercado B3). Aqui fica so o que e
+# proprio do boletim: grupos para a triangulacao, futuros acompanhados, tabelas e limiares.
+# Rotas e formatos: boletim/b3.py. Validado em 30/09/2026 contra arquivos.b3.com.br/bdi.
+
+versao: 1
+
+# Grupos do livro para ler o dia em bloco (juros x construtoras e utilities, etc.)
+grupos:
+  construtoras: [CURY3, DIRR3, MRVE3]
+  utilities: [EQTL3, SAPR4, SBSP3, ALUP4, AXIA3]
+  bancos: [ITUB4, BBDC4, BBAS3, ITSA4]
+  commodities: [PETR4, VALE3, KLBN4]
+  consumo_e_distribuicao: [UGPA3, MELI34]
+  etfs: [SMAL11, RARA11]
+
+# Futuros financeiros: todo vencimento com negocio no dia entra em resumo.futuros.
+# `curva` marca os que viram vertice (taxa de ajuste e variacao em pontos-base).
+futuros:
+  DI1: {nome: "DI futuro (taxa pre)", curva: true}
+  DAP: {nome: "Cupom de IPCA (DAP)", curva: true}
+  DOL: {nome: "Dolar futuro cheio"}
+  WDO: {nome: "Minidolar"}
+  IND: {nome: "Ibovespa futuro cheio"}
+  WIN: {nome: "Mini-indice"}
+  DDI: {nome: "Cupom cambial (DDI)"}
+  FRC: {nome: "FRA de cupom cambial"}
+
+# Vertices do DI que entram na triangulacao (os mesmos do livro e o curto)
+di_vertices: [DI1F27, DI1F28, DI1F29, DI1F30, DI1F32, DI1F35]
+
+# Mercados do quadro analitico de posicoes em aberto que entram no resumo
+quadro_ativos: [DOL, WDO, DI1, DAP, IND, WIN, DDI, FRC]
+# ...e os que disparam sinal quando os contratos em aberto mudam (mini gira posicao todo dia)
+quadro_sinal: [DOL, DI1, DAP, IND]
+
+# Indices acompanhados (nome como a B3 escreve em "Evolucao dos indices")
+indices: [IBOVESPA, "SMALL CAP", IFINANCEIRO, UTILITIES, IMOBILIARIO, "I DIVIDENDOS", IEE, IMATBASICOS, IFIX, BDRX]
+
+# Carteira teorica: de onde sai o peso no indice e a quantidade teorica (free float)
+carteiras:
+  IBOV: OficialWalletIbovespa
+  IBRA: OficialWalletIbra
+  SMLL: OficialWalletSmll
+  IDIV: OficialWalletIdiv
+  IFNC: OficialWalletIfnc
+  UTIL: OficialWalletUtil
+  IMOB: OficialWalletImob
+  IEE: OficialWalletIee
+
+# Paridade do dia contra a referencia la fora (series que o livro ja grava no branch dados)
+paridades:
+  - {ativo: RARA11, referencia: REMX, cambio: USDBRL_X, nota: "RARA11 replica o REMX; a diferenca do dia e premio ou desconto"}
+  - {ativo: MELI34, referencia: MELI, cambio: USDBRL_X, nota: "BDR de MELI (Nasdaq)"}
+
+# Opcoes alem do livro: indice e o ETF do Ibovespa, que e onde o mercado se protege
+opcoes_extras: [IBOV11, BOVA11]
+
+# Renda fixa de balcao: so o que o Douglas opera (debentures incentivadas, CRI e CRA)
+renda_fixa:
+  # papeis acompanhados pelo codigo IF (ex.: [AESLD2, VLIM29]); aparecem mesmo fora dos mais negociados
+  # 01/10/2026: Equatorial Goias com vencimento em 2036 (CGOS16, 6a emissao, 15/05/2036; CGOS28, 8a emissao,
+  # 2a serie, 15/09/2036). O Douglas comprou uma delas para cliente a IPCA+8,40%; as duas ficam ate ele dizer qual.
+  # 02/10/2026: carteira de credito de um cliente (print do Douglas, sem codigo nem vencimento). Item = codigo, ou
+  # {codigo, nome}: o `nome` e o devedor, que a B3 nao informa em CRI e CRA (texto de tela: leva acento). Series identificadas pela busca por
+  # devedor da ANBIMA Data. "unica serie" = so ha uma serie daquele devedor com aquele indexador precificada pela
+  # ANBIMA; "a confirmar" = ha varias e entrou a mais negociada na B3 como termometro do devedor, ate ele dizer a serie.
+  # Ainda fora: Eucatex (CRA prefixado nao achado na ANBIMA).
+  papeis:
+    - CGOS16
+    - CGOS28
+    - {codigo: 22B0006022, nome: "MRV (CRI em IPCA, única série)"}
+    - {codigo: CRA025003UZ, nome: "Cooxupé (% do CDI, única série)"}
+    - {codigo: CRA024007K9, nome: "Cooxupé (CDI+, única série)"}
+    - {codigo: CRA0240099F, nome: "Vale do Tijuco (IPCA, única série)"}
+    - {codigo: CRA025007KK, nome: "Eldorado Celulose (prefixado, única série)"}
+    - CERT11
+    - {codigo: CRA020002H1, nome: "BRF (IPCA, série a confirmar)"}
+    - {codigo: CRA0240005O, nome: "Cereal (IPCA, série a confirmar)"}
+    - {codigo: CRA0220073P, nome: "Minerva (IPCA, série a confirmar)"}
+    - {codigo: CRA025002S3, nome: "Minerva (prefixado, série a confirmar)"}
+    - {codigo: CRA02300G7D, nome: "Marfrig (prefixado, série a confirmar)"}
+    - {codigo: ERDVB4, nome: "Ecorodovias Concessões (IPCA, série a confirmar)"}
+  # quantos papeis por classe na tabela dos mais negociados
+  top: 20
+  # abaixo deste volume no dia a taxa media do papel nao entra na curva nem no premio medio
+  volume_minimo_rs: 500000
+  # a taxa do dia so vira referencia para os proximos pregoes acima deste volume
+  estado_volume_minimo_rs: 1000000
+  # volume minimo para um papel aparecer em "abriu taxa", "fechou taxa" e "premios altos"
+  movimento_volume_minimo_rs: 3000000
+  # variacao da taxa, em pontos-base, abaixo da qual o papel nao abriu nem fechou: ficou parado
+  # (a indicativa da ANBIMA anda em decimos de ponto-base; -0,4 pb nao e fechamento)
+  movimento_minimo_pb: 1.0
+  # e para virar sinal
+  sinal_volume_minimo_rs: 5000000
+  var_taxa_sinal_pb: 30
+  # premio sobre o juro real de mercado (DAP) que marca papel em estresse, em pontos-base
+  premio_estresse_pb: 300
+  # premio sobre o CDI que marca papel em estresse, em pontos percentuais
+  cdi_estresse: 5.0
+  giro_x_media: 2.0
+  curva_pontos: 140
+  # consultas ao cadastro da B3 por rodada (a primeira carga pede cerca de 1.700)
+  cadastros_por_rodada: 2500
+  # Taxa indicativa de debentures da ANBIMA (boletim/anbima.py): e a referencia para comparar papel com
+  # papel; a media dos negocios da B3 pende para a taxa do varejo e fica ao lado, como "negocios do dia".
+  # So debentures: CRI e CRA seguem so com a B3. Os limiares acima valem para as duas fontes: var_taxa_sinal_pb
+  # mede a indicativa de um arquivo para o seguinte (de 14/09 a 30/09/2026, 1% das variacoes diarias das
+  # debentures em IPCA+ ficou acima de +30 pb); papel da lista `papeis` avisa pela indicativa mesmo com giro
+  # pequeno ou sem negocio no dia.
+  anbima:
+    ativo: true
+    # se o arquivo do pregao ainda nao saiu (404) ou nao pode ser lido, quantos dias uteis para tras procurar
+    # o mais recente. O arquivo anterior, base da variacao, e sempre procurado ao menos um dia util antes.
+    dias_atras: 3
+
+# Radar da renda variavel inteira (universo: IBrA mais o livro)
+radar:
+  volume_x_media: 2.0
+  volume_minimo_rs: 20000000
+  saldo_minimo_rs: 50000000
+  saldo_minimo_float_rs: 20000000
+  aluguel_var_dia_pct: 5.0
+  aluguel_var_5d_pct: 20.0
+  float_alto_pct: 8.0
+  preco_5d_pct: 5.0
+  opcoes_ativos: 12
+
+# Indicadores economicos que entram no resumo (simbolo da B3 -> rotulo)
+indicadores:
+  RTDOLT1: "PTAX800 venda"
+  RTDOLD1: "Dolar B3 D+1 das 16h"
+  RTDOLCL: "Dolar cupom limpo"
+
+limiares:
+  # volume do dia / media dos pregoes anteriores (ate 20); so vale com base minima
+  volume_x_media: 2.0
+  volume_base_minima: 10
+  # volume do dia abaixo disto nao vira sinal (papel sem liquidez dobra de volume por nada)
+  volume_sinal_minimo_rs: 5000000
+  # aluguel de acoes (BTC): variacao do saldo em quantidade
+  aluguel_var_dia_pct: 10.0
+  aluguel_var_5d_pct: 25.0
+  # abaixo deste saldo em reais a variacao percentual do aluguel e ruido
+  aluguel_saldo_minimo_rs: 5000000
+  # saldo alugado / quantidade teorica do indice (aproximacao do free float)
+  aluguel_pct_float_alto: 5.0
+  # taxa media ponderada do tomador, % ao ano
+  aluguel_taxa_alta: 5.0
+  # preco em 5 pregoes para cruzar com o aluguel
+  preco_var_5d_pct: 3.0
+  # aluguel alto so pressiona o vendido quando tambem e caro: taxa minima para a frase de recompra
+  aluguel_taxa_pressao: 2.0
+  # ETF: fechamento contra o valor de referencia da cota (IOPV)
+  etf_premio_pct: 0.5
+  # opcoes: parede = strike de maior posicao em aberto; "perto" = distancia do preco
+  opcoes_dist_parede_pct: 3.0
+  opcoes_dias_uteis_venc: 10
+  opcoes_vencimentos: 2
+  # vencimento so conta se tiver esta fatia da posicao em aberto do ativo (tira serie semanal vazia)
+  opcoes_fatia_minima_pct: 10.0
+  opcoes_strikes: 5
+  # grade do grafico de posicao por strike: distancia maxima do preco e quantos strikes
+  opcoes_grade_pct: 20.0
+  opcoes_grade_strikes: 25
+  # variacao de posicao em aberto de uma serie (quantidade x preco do ativo) que vira sinal
+  opcoes_var_posicao_rs: 30000000
+  # derivativos: variacao dos contratos em aberto de um mercado, de um pregao para o outro
+  quadro_var_pct: 5.0
+  # DI: movimento do vertice em pontos-base que merece linha propria
+  di_var_bps: 10.0
+  # after market: preco medio do after contra o fechamento
+  after_var_pct: 1.0
+  # ...e so com este volume no after (um negocio de R$ 300 nao e sinal)
+  after_volume_minimo_rs: 100000
+  # paridade: descolamento do dia entre o ativo local e referencia x cambio
+  paridade_desvio_pct: 1.5
+
+# Quantos pregoes o historico compacto guarda (media de 20 precisa de folga)
+historico_pregoes: 70
+# ...e a serie do radar (fechamento, volume e aluguel do IBrA)
+mercado_pregoes: 26

@@ -1,0 +1,105 @@
+name: ETFs (UCITS na LSE, referencias nos EUA e macro)
+
+# Coleta sob demanda para a mesa: historico diario e dados dos ETFs no Yahoo, series
+# do FRED, curva do Tesouro, lista UCITS da Avenue, perfis do justETF e estimativas de
+# lucro do S&P 500 (FactSet e S&P). Grava em etfs/ no branch `dados`; a sessao do
+# Claude le com git show origin/dados:etfs/...
+
+on:
+  workflow_dispatch:
+    inputs:
+      simbolos:
+        description: "Simbolos Yahoo, separados por virgula (vazio = lista padrao do etfs.py)"
+        required: false
+        default: ""
+        type: string
+      fred:
+        description: "Series do FRED, separadas por virgula (vazio = lista padrao)"
+        required: false
+        default: ""
+        type: string
+      isins:
+        description: "TICKER=ISIN separados por espaco, para o justETF (opcional)"
+        required: false
+        default: ""
+        type: string
+      docs:
+        description: "nome=url separados por espaco, documentos extras (opcional)"
+        required: false
+        default: ""
+        type: string
+      partes:
+        description: "series,meta,cotacoes,fred,docs,factset,justetf"
+        required: false
+        default: "series,meta,cotacoes,fred,docs,factset,justetf"
+        type: string
+
+permissions:
+  contents: write
+
+# Mesmo grupo do coletor e da Kinea: um push por vez no branch dados
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  etfs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Abrir o branch de dados
+        uses: actions/checkout@v4
+        with:
+          ref: dados
+          path: dados_branch
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-livro.txt
+
+      - name: Coletar
+        timeout-minutes: 30
+        continue-on-error: true
+        env:
+          SIMBOLOS: ${{ inputs.simbolos }}
+          FRED: ${{ inputs.fred }}
+          ISINS: ${{ inputs.isins }}
+          DOCS: ${{ inputs.docs }}
+          PARTES: ${{ inputs.partes }}
+        run: |
+          python -u etfs.py --saida dados_branch/etfs --simbolos "$SIMBOLOS" --fred "$FRED" \
+            --isins "$ISINS" --docs "$DOCS" --partes "${PARTES:-series,meta,cotacoes,fred,docs,factset,justetf}"
+
+      - name: Publicar no branch dados
+        if: always()
+        run: |
+          cd dados_branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A etfs
+          if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
+          git commit -q -m "ETFs: series, dados dos fundos e macro ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase -q && sleep 5
+          done
+
+      - name: Resumo
+        if: always()
+        run: |
+          echo "### ETFs" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, os
+          p = "dados_branch/etfs/manifest.json"
+          if os.path.exists(p):
+              m = json.load(open(p))
+              for parte, v in m["partes"].items():
+                  print(f"- **{parte}**: `{json.dumps(v, ensure_ascii=False)[:300]}`")
+              for f in m.get("falhas", [])[:40]:
+                  print(f"  - falha: {f}")
+          PY

@@ -1,0 +1,202 @@
+# BROADCAST - The Invest Post
+
+Terminal de mercado (Flask + front estatico publicado no GitHub Pages) e mesa
+de analise de ativos do Douglas Lora, assessor de investimentos. Arquitetura
+do terminal: README.md. Plugins financeiros do Claude: GUIA-PLUGINS-CLAUDE.md.
+
+## Mesa de analise: como o Claude se comporta neste repositorio
+
+- Quando o Douglas mandar um ticker da B3 ou BDR, sozinho ou numa frase
+  ("PETR4", "me fala de VALE3", "ITUB4 vs BBDC4", "WEGE3 pos-resultado",
+  "MELI34", "carteira: X, Y"), use a skill `analise-ativo`
+  (.claude/skills/analise-ativo/SKILL.md) e responda como analista senior de
+  sell-side: direto, opinativo com evidencia, em portugues do Brasil, R$.
+- Fonte oficial primeiro, sempre: a skill garante que o coletor puxou as
+  demonstracoes direto da CVM (ITR/DFP) ou da SEC (XBRL) e os 8 ultimos
+  releases de resultado do RI, para o ativo e para os pares do grupo
+  (`pares.py`), antes de qualquer nota. O aprofundamento (trajetoria de
+  margens, custo da divida, geracao de caixa, modelo de negocio, pares contra
+  a mediana, discurso da gestao contra entrega) e obrigatorio.
+- Dados primeiro, texto depois. Nenhum numero sem fonte e data. A hierarquia
+  de fontes esta na skill; agregadores (Yahoo, Fundamentus) so para preco,
+  consenso e conferencia; busca na web e contexto, nunca fonte primaria de
+  numero quando houver JSON do branch `dados`.
+- Quando ele perguntar por que, como, de onde vem, o que o preco exige ou se
+  a gestao entregou o que prometeu, use a skill `deep-search`
+  (.claude/skills/deep-search/SKILL.md): uma pergunta so, ate o fundo, em sete
+  passos (fixa a pergunta, inventaria, decompoe a DRE, varre os 8 releases,
+  faz a conta reversa do preco, testa nos pares, fecha com o que mudaria de
+  ideia). `analise-ativo` cobre o ativo em largura; `deep-search` cava fundo.
+  Deep search quer dizer a janela inteira: sem os 8 trimestres, a lacuna abre
+  a resposta com o nome de cada trimestre que falta.
+- Toda pesquisa comeca por `python3 mesa.py skills` e abre a resposta com uma
+  linha dizendo quais skills operaram e quais comandos do `mesa.py` foram
+  usados. O Douglas pediu essa confirmacao em toda pesquisa (20/09). Skill
+  faltando ou invalida vira a primeira linha da resposta, nunca silencio.
+- Leia o branch pelo `mesa.py` (`python3 mesa.py ficha TICKER`, `pares`,
+  `releases`, `release TICKER 2T25 --grep ...`, `linha TICKER "meta|guidance"`,
+  `decompor TICKER`, `termos`, `kinea`), nao por script avulso: e a leitura
+  padronizada da mesa.
+- Frescor E cobertura antes de escrever, as duas (skill `dados-completos`,
+  .claude/skills/dados-completos/SKILL.md): `python3 mesa.py frescor TICKER`
+  tem de dizer ATUAL e `python3 mesa.py cobertura TICKER` tem de dizer
+  COMPLETA; todo leitor imprime os dois vereditos na primeira linha. Frescor
+  olha a ponta, a referencia sendo o mais novo entre o ITR e o trimestre cujo
+  prazo legal venceu; cobertura olha os 8 trimestres da janela, um a um -
+  indice com 8 linhas e buraco no meio passa no frescor. Trimestre velho,
+  ausente ou ocupado por documento que nao e release de resultado vira a
+  PRIMEIRA frase da resposta, com o trimestre ao lado, nunca silencio. O
+  coletor busca o release na CVM e no site de RI (`ri_fontes.py`); ticker NAO
+  MAPEADO em `ri_fontes.py` se mapeia antes de disparar a coleta.
+- O Douglas le no celular e nao decora sigla: comece com "Em uma frase",
+  tabelas de ate 4 colunas, toda sigla explicada em portugues na primeira
+  vez (glossario em .claude/skills/analise-ativo/GLOSSARIO.md) e a nota fecha
+  com "Termos desta nota" e o menu "Quer aprofundar?".
+- O Claude apresenta, organiza e compara. Recomendacao e responsabilidade
+  regulatoria sao do Douglas (assessor de investimentos, Resolucao CVM 178).
+  Nada aqui e relatorio de analista para distribuicao a clientes.
+- Portugues do Brasil, numeros no formato brasileiro, R$ milhoes salvo aviso.
+
+## Onde estao os dados
+
+Sessoes na nuvem nao alcancam Yahoo, CVM, B3 ou StatusInvest. O que alcanca e
+o GitHub. Por isso os dados vivem no branch `dados`, alimentado pelo workflow
+`.github/workflows/coletar-dados.yml`, que roda no GitHub Actions com internet
+aberta:
+
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`
+  (demonstracoes oficiais em `cvm_demonstracoes` ou `sec_xbrl`, release mais
+  recente do RI em `release_ri`, indice dos 8 em `releases_historico`,
+  acao-mae do BDR em `subjacente_us`, grupo em `pares`)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/releases/<TICKER>/index.json`
+  e `.../releases/<TICKER>/<AAAA-MM-DD>.txt` (os 8 ultimos releases de
+  resultado, um por trimestre, texto integral: e com eles que se cobra o que
+  a gestao prometeu)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/comparativos/<grupo>.json`
+  (tabela de pares do grupo com medianas; grupos em `pares.py`)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/index.json`
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/kinea/cda.json` e
+  `.../kinea/cartas/index.json` (carteira mensal dos fundos Kinea na CVM, com as
+  construtoras fundo a fundo, e as cartas do gestor na integra, em texto;
+  workflow `kinea.yml`; leitura por `python3 mesa.py kinea`), mais
+  `.../kinea/videos/index.json` (legenda dos videos do canal no YouTube, com o
+  minuto de cada fala: `mesa.py kinea videos --grep`), `.../kinea/docs/index.json`
+  (apresentacao da live mensal, relatorios e posts do site) e `.../kinea/imagens/`
+  (paginas de "principais posicoes" das cartas e das lives em imagem: ali as
+  empresas aparecem como logotipo e o texto do PDF nao traz o nome;
+  `mesa.py kinea imagens`)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/snapshot/<arquivo>.json`
+  (quotes, indicators, tesouro, di, cvm, news, tir_all, weekly_summary, manifest)
+- `https://raw.githubusercontent.com/douglora/broadcast/dados/boletim_b3/manifest.json`,
+  `.../boletim_b3/<AAAA-MM-DD>/resumo.json` e `resumo.md`, `.../boletim_b3/painel.html`
+  (o do ultimo pregao), `.../boletim_b3/historico.json` e `mercado.json` (Boletim Diario do Mercado da B3
+  cruzado com os ativos B3 do livro: fluxo por tipo de investidor, aluguel de acoes e
+  corretoras, radar do IBrA, volume contra a media, opcoes por strike, futuros,
+  debentures incentivadas, CRI e CRA com a taxa dos negocios do dia e, nas debentures, a
+  taxa indicativa da ANBIMA, IOPV dos ETFs, ADR, proventos e
+  comunicados; workflow `boletim-b3.yml`; leitura por `python3 mesa.py boletim`)
+
+Para atualizar um ativo com os pares: dispare `coletar-dados.yml` no ref
+`main` com os inputs `tickers` e `pares: auto` (ferramenta GitHub
+`actions_run_trigger`, metodo `run_workflow`), espere terminar (3 a 8 minutos
+com pares e releases) e leia os JSONs. O procedimento completo, com espera e
+verificacao de frescor, esta na skill `analise-ativo`.
+
+Outros insumos: `tir_real_servidor.py` guarda o modelo de TIR real (LPA
+2025E/2026E do research, payout, P/L historico, rating), atualizavel pela skill
+research-updater-tir. `app.py` e o terminal local (porta 5051) e so roda no
+computador do Douglas.
+
+## Livro monitorado (alertas, fechamento diario e noticias nesta sessao)
+
+O "livro" e a lista de ativos que o Douglas acompanha (config/livro.yaml: UCITS
+com nome por extenso, acoes EUA e BR, DI, Tesouro, UST, cambio, commodities,
+cripto). O workflow `.github/workflows/livro.yml` roda no Actions o pacote
+`livro/` (coleta -> indicadores -> regras de alerta -> render) e grava em
+`livro/` no branch `dados`. Routines disparam turnos NESTA sessao (manha 08h30,
+intradia de hora em hora, fechamento 18h00 BRT); a resposta do turno e o que o
+Douglas ve no PC e no celular.
+
+- Use a skill `livro` (.claude/skills/livro/SKILL.md) em todo turno de rotina e
+  quando ele escrever "livro", "fechamento", "alertas", "tecnica X", "curto".
+- A sessao NUNCA calcula regra, NUNCA inventa numero e NUNCA faz push no branch
+  `dados`. Ela le `git show origin/dados:livro/saida/*.md`, dispara o workflow
+  quando o dado esta velho (`actions_run_trigger`, workflow `livro.yml`, ref
+  `main`, inputs `modo` e `ids_entregues`) e escreve a Leitura da Mesa.
+- O Fechamento e entregue NA SESSAO, em cards de markdown (decisao do Douglas em
+  19/09): o runner gera `livro/saida/fechamento_cards.md` (um card por bloco,
+  alertas, curvas, noticias, agenda) e a sessao so troca `[[LEITURA_DA_MESA]]`
+  pela manchete e cola. No fechamento, o dado so vale se foi gerado DEPOIS das
+  18h00 (hora em que a B3 fecha); dado das 17h5x e intradiario. Nada de monoespacado por padrao; BLOCO A/BLOCO B so
+  quando ele pedir "tabela" ou "completo". O mesmo runner gera
+  `livro/saida/painel.html`, publicado no Artifact
+  https://claude.ai/artifact/EnPzCWSa78Rst1GcZsSwu7 em TODO turno, intradia
+  incluido (decisao do Douglas em 21/09: painel sempre atualizado, fixado na barra
+  lateral dele). E a mesma pagina no PC e no celular: um Artifact, uma URL.
+- Turno sem novidade = uma linha. Lacuna declarada, nunca placeholder.
+- Portao de qualidade (depois do erro de 23/09: Brent e dolar com o sinal trocado):
+  antes de escrever numero, `python3 -m livro.portao` e `fechamento.json ->
+  qualidade/drivers`. Serie fora de ok nao entra na tese nem no push; divergencia
+  com commodity ou cambio exige confirmacao externa. Numero de busca na web so entra
+  rotulado com veiculo e data, e so quando o runner marcou a serie como nao ok; nunca
+  substitui o runner em serie ok. Regras R0 a R10 na skill `livro`.
+- Regras e limiares: config/limiares.yaml. Calendario e feriados:
+  config/calendario.yaml. Nunca "compre/venda" (Resolucao CVM 178).
+- Noticias e fatos: o runner traz manchete, veiculo, hora, resumo fiel e link
+  (config/fontes_noticias.yaml define a licenca por veiculo). Texto integral so
+  de fonte primaria (CVM, SEC, release) ou veiculo `integral`; a sessao nunca
+  reproduz nem inventa o conteudo de materia com licenca `resumo`/`manchete`.
+  "noticias", "fatos" e "integra <id>" estao na skill `livro`.
+- IUAA e o iShares US Aggregate Bond (duration ~6 anos), nao renda fixa
+  ultracurta; IB01 e o caixa em dolar. EWY/MCHI sao hipotese.
+
+## Boletim Diario do Mercado da B3
+
+O boletim e o que a propria B3 publica depois do pregao (fluxo, aluguel de acoes,
+posicoes em aberto, opcoes, negocios de renda fixa de balcao, ETFs, proventos,
+comunicados). O workflow `.github/workflows/boletim-b3.yml` roda `boletim_b3.py`
+(pacote `boletim/`) no Actions e grava em `boletim_b3/` no branch `dados`: 21h40 BRT
+(parcial) e 08h35 BRT do dia seguinte (completo, com aluguel e posicoes em aberto).
+
+- Use a skill `boletim-b3` (.claude/skills/boletim-b3/SKILL.md) nos turnos da
+  Routine do boletim e quando ele escrever "boletim", "BDI", "fluxo estrangeiro",
+  "aluguel de X", "vendidos", "parede de opcoes", "opcoes de X", "debentures
+  incentivadas", "CRI", "CRA", "quem abriu taxa", "IOPV", "ADR", "previa do indice".
+- Leitura por `python3 mesa.py boletim` (veredito ATUAL/VELHO e COMPLETO/PARCIAL na
+  primeira linha), `mesa.py boletim TICKER`, `boletim rf`, `boletim opcoes TICKER`,
+  `boletim radar`, `boletim sinais`, `boletim status`, `boletim json <bloco>`.
+- A entrega e o painel (`boletim_b3/painel.html`, sempre o do ultimo pregao), publicado no Artifact
+  https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc em todo turno, com a Leitura da Mesa no lugar de
+  `[[LEITURA_DA_MESA]]`. Um Artifact, uma URL (a receita esta na skill). Formato branco e azul do
+  Douglas, so claro.
+- A sessao nao calcula regra: os sinais saem do runner, com os limiares de
+  config/boletim.yaml. Cada numero leva a data que o resumo da; o fluxo por
+  investidor sai com dois pregoes de atraso e a rodada da noite e parcial (o painel
+  mostra aluguel e opcoes do pregao anterior, com a data no card).
+- Renda fixa so no que ele opera: debentures incentivadas, CRI e CRA. Toda taxa sai com
+  a fonte e o dia: "ANBIMA indicativa de DD/MM" ou "B3 negocios de DD/MM". Debenture se
+  compara pela indicativa da ANBIMA (o `ref` de cada papel no resumo), com o premio
+  sobre o DAP na duration; a media dos negocios da B3 vai ao lado e nunca sozinha, porque
+  em papel com muito negocio pequeno ela pende para a taxa do varejo. CRI e CRA so tem
+  os negocios da B3 (premio por vencimento, aproximacao); taxa com volume pequeno pode
+  ser negocio isolado, e a B3 informa a securitizadora, nao o devedor.
+- Corretora no aluguel e intermediario, nao investidor final.
+- Lacuna fixa: o boletim nao traz posicao em aberto de derivativos por tipo de
+  investidor. PDF do boletim nao vai para o git (o completo passa de 50 MB); o
+  `status.json` do pregao guarda o link de cada caderno na B3.
+
+## Ferramentas instaladas
+
+Plugins: financial-analysis (comps, dcf, 3-statement), equity-research
+(earnings, earnings-preview, thesis, catalysts, screen, sector), agentes
+market-researcher, earnings-reviewer, model-builder e meeting-prep-agent,
+claude-for-financial-advisors. Skills da conta: post-studio (posts para
+Instagram e WhatsApp), research-updater-tir, run-credito-privado, xlsx, docx,
+pptx, pdf.
+
+## Convencoes do repositorio
+
+- Arquivos do repositorio sem acentos (README, scripts, comentarios). As
+  respostas ao Douglas usam acentuacao normal.
+- Commits em portugues, no imperativo curto ("Instala...", "Corrige...").
+- Dados de mercado nunca vao para a main; ficam no branch `dados`.

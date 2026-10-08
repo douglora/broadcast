@@ -11,6 +11,16 @@ spreads de credito privado e ranking de TIR real.
 | `gerar_dados.py`            | Gera o retrato estatico publicado no GitHub Pages             |
 | `tir_real_servidor.py`      | Modelo DDM da TIR real (LPA, payout, P/L, rating)             |
 | `INICIAR-TERMINAL.bat/.command` | Atalhos de duplo clique                                   |
+| `INSTALAR-PLUGINS-CLAUDE.bat/.command` | Instala os plugins financeiros do Claude no computador |
+| `GUIA-PLUGINS-CLAUDE.md`    | Como ativar e usar os plugins de analise e research           |
+| `.claude/`                  | Plugins do Claude Code deste repositorio e hook que os instala |
+| `CLAUDE.md`                 | Regras da mesa de analise para o Claude neste repositorio     |
+| `.claude/skills/analise-ativo/` | Skill: briefing de ativo no padrao de analista senior     |
+| `coletar_dados.py`          | Coleta dados de ativos no GitHub Actions e grava no branch `dados` |
+| `pares.py`                  | Grupos de pares por setor e acao-mae dos BDRs (comparativos)  |
+| `livro/` + `config/livro.yaml` | Livro monitorado: coleta, regras de alerta e fechamento diario (Actions -> branch `dados` -> sessao do Claude) |
+| `.claude/skills/livro/`     | Skill: turnos de rotina do livro (manha, intradia, fechamento) na sessao |
+| `config/fontes_noticias.yaml` | Veiculos e licencas, consultas do Google News, casamento por ativo, CVM e SEC |
 
 ---
 
@@ -50,12 +60,35 @@ python app.py --no-open     # sem abrir o navegador
 ```
 
 Nao precisa instalar nada antes: na primeira execucao o `app.py` instala as
-dependencias que faltarem. Se a porta estiver ocupada por outro programa, ele
+dependencias que faltarem. Se o Python da maquina nao aceitar instalar pacotes
+direto (o caso do Homebrew e do python.org no macOS, que seguem o PEP 668), ele
+cria sozinho um ambiente proprio em `.venv/` e reinicia o servidor la dentro —
+sem pedir nada e sem mexer no Python do sistema. Se a porta estiver ocupada por outro programa, ele
 pega a proxima livre e avisa. Se o BROADCAST ja estiver rodando, so abre o
 navegador em vez de subir um segundo servidor.
 
 O terminal responde em `/terminal`, na raiz e em qualquer outro caminho. So
 os endpoints `/api/*` sao reservados.
+
+### Nao abriu no macOS?
+
+Ao copiar a pasta entre computadores (AirDrop, zip, Drive, pendrive), o macOS
+costuma tirar a permissao de execucao do atalho e marcar o arquivo como
+"baixado da internet" — o duplo clique nao faz nada, ou reclama de
+desenvolvedor nao identificado. Abra o **Terminal** e rode, uma vez:
+
+```bash
+cd ~/Desktop/broadcast          # a pasta onde voce colocou os arquivos
+chmod +x INICIAR-TERMINAL.command
+xattr -d com.apple.quarantine INICIAR-TERMINAL.command 2>/dev/null
+./INICIAR-TERMINAL.command
+```
+
+Depois disso o duplo clique volta a funcionar. Se preferir pular o atalho,
+`python3 app.py` na pasta faz exatamente a mesma coisa.
+
+Se o Mac nao tiver Python, instale com `brew install python` ou baixe em
+https://www.python.org/downloads/.
 
 ### Nao abriu?
 
@@ -129,6 +162,173 @@ cloudflared tunnel --url http://localhost:5051
 Envie a URL gerada aos clientes — eles colam no modal de configuracao.
 Servido pelo proprio `app.py` (local, rede interna ou servidor proprio), o
 terminal usa a mesma origem e nao pede configuracao nenhuma.
+
+---
+
+## Plugins financeiros do Claude
+
+O repositorio vem com os plugins de **Financial Services** da Anthropic
+(DCF, comparaveis, notas de resultado, teses) e o **Claude for Financial
+Advisors** declarados em `.claude/settings.json`. Ao abrir o Claude Code
+nesta pasta, na web ou no computador, um hook de inicio de sessao instala o
+que faltar. Para ter os comandos em qualquer pasta do computador, clique duas
+vezes em `INSTALAR-PLUGINS-CLAUDE.command` (macOS) ou
+`INSTALAR-PLUGINS-CLAUDE.bat` (Windows).
+
+Comandos, fluxos para empresas da B3 e manutencao: **GUIA-PLUGINS-CLAUDE.md**.
+
+---
+
+## Mesa de analise (branch `dados`)
+
+Sessoes do Claude Code na nuvem nao alcancam Yahoo, CVM, SEC ou StatusInvest,
+mas alcancam o GitHub. O workflow `.github/workflows/coletar-dados.yml` roda o
+`coletar_dados.py` no GitHub Actions, com internet aberta, e grava JSONs por
+ativo no branch `dados`. Por ativo, em ordem de autoridade:
+
+1. Demonstracoes oficiais direto da fonte: ITR e DFP consolidados dos dados
+   abertos da CVM (companhias da B3) ou XBRL dos 10-Q, 10-K e 20-F na SEC
+   (papeis dos EUA, ADRs e a acao-mae dos BDRs), com series trimestrais
+   limpas, 4T derivado do anual e LTM.
+2. Releases de resultado do RI, os 8 ultimos trimestres: a copia oficial do
+   PDF que a empresa publica no site de RI, entregue a CVM (IPE,
+   "Press-release" ou "Relatorio de Analise Gerencial") ou a SEC (8-K item
+   2.02 / 6-K, exhibit 99). O mais novo vai inteiro no JSON do ativo; os oito
+   ficam em `releases/<TICKER>/` no branch, um `.txt` por trimestre mais um
+   `index.json`. Cada coleta baixa so o que ainda nao esta la.
+3. Yahoo (cotacao, historico, consenso, noticias), Fundamentus, fatos
+   relevantes da CVM, macro do Banco Central e TIR real do modelo da casa.
+
+Com o input `pares: auto`, o mesmo run coleta os pares do grupo definido em
+`pares.py` e grava `comparativos/<grupo>.json` (multiplos, margens,
+crescimento, alavancagem e series oficiais lado a lado, com medianas). Roda
+a cada duas horas em dias uteis para a lista do modelo de TIR (sem pares) e
+pode ser disparado a mao, pela aba Actions ou pelo proprio Claude.
+
+O Claude le em `https://raw.githubusercontent.com/douglora/broadcast/dados/ativos/<TICKER>.json`,
+`.../dados/comparativos/<grupo>.json` e `.../dados/releases/<TICKER>/index.json`. As regras da mesa estao em
+`CLAUDE.md`; o procedimento de coleta, o aprofundamento obrigatorio e o
+formato da nota, em `.claude/skills/analise-ativo/SKILL.md`. Basta mandar um
+ticker.
+
+---
+
+## Livro monitorado (alertas e fechamento diario na sessao do Claude)
+
+O livro e a lista de ativos que o Douglas acompanha (`config/livro.yaml`, com
+o nome por extenso de cada UCITS). O sistema tem tres pecas:
+
+1. **Runner** (`.github/workflows/livro.yml` + pacote `livro/`): roda no GitHub
+   Actions, coleta Yahoo (series de 2 anos com fechamento ajustado), ajustes do
+   DI na B3 (Boletim Diario), Tesouro Transparente, Treasury.gov (UST), BCB/Focus
+   e proxies asiaticos (Sina), calcula os indicadores e as regras de alerta
+   (`livro/sinais/`: MM200, MM50/MM100, golden/death cross, 52 semanas, movimento
+   anormal do dia e da semana, RSI, volume anormal, forca relativa, pares que
+   descolam, sequencias, drawdown, regime de risco, DI em bps, inclinacao da
+   curva, niveis redondos, inflacao implicita vs Focus, UST e 2s10s, cambio,
+   DXY, Brent, minerio, celulose, cripto, resultado D-3/D-1/D0, ex-dividendo,
+   agenda macro, Focus da segunda, falha de dados), aplica a politica
+   anti-fadiga (`livro/politica.py`)
+   e grava em `livro/` no branch `dados`: `saida/fechamento.md` (BLOCO A e
+   BLOCO B com dia/1s/1m/6m/1a/YTD), `saida/alertas.md`, `saida/intradia.md`,
+   `saida/manha.md`, `saida/noticias.md`, `saida/fechamento_cards.md` (os cards que a
+   sessao cola), `saida/painel.html`, `saida/manifest.json`,
+   `estado/alertas.json` (fila com ack). Noticias e fatos (`livro/fontes/noticias.py`,
+   `cvm.py`, `sec.py` + regras E03/E04/E05): Google News por grupo de ativos com o
+   link do veiculo resolvido, fatos relevantes e comunicados do IPE da CVM com o
+   PDF lido, 8-K/6-K do EDGAR com o documento lido (exige o secret
+   `SEC_USER_AGENT`). Licenca por veiculo em `config/fontes_noticias.yaml`: texto
+   integral so de fonte primaria ou veiculo `integral`; o resto e resumo + link.
+2. **Sessao do Claude** (skill `.claude/skills/livro/SKILL.md`): e a interface.
+   Routines disparam turnos na sessao (08h30, de hora em hora 10h20-17h20 e
+   18h00 BRT); o turno dispara o workflow se o dado estiver velho, le o que o
+   runner gravou e escreve a Leitura da Mesa. A entrega e na propria sessao, em
+   cards de markdown: a sessao troca `[[LEITURA_DA_MESA]]` em
+   `saida/fechamento_cards.md` pela manchete e cola os cards (um por bloco do
+   livro, alertas, curvas, noticias, agenda). BLOCO A/BLOCO B saem sob demanda
+   ("tabela", "completo"). `saida/painel.html` vira uma pagina publicada no
+   mesmo Artifact em todo turno de manha e de fechamento, com a mesma leitura
+   dos cards; no intradia, so a pedido.
+   Push no celular para alerta critico, atencao agrupada e "Fechamento pronto".
+3. **Configs**: `config/livro.yaml` (universo), `config/limiares.yaml` (regras),
+   `config/calendario.yaml` (feriados, horarios, macro, resultados).
+
+Disparo manual: aba Actions > "Livro monitorado" > Run workflow, com `modo`
+(`sonda` mede a cobertura ticker a ticker; `backfill` traz o historico do DI;
+`fechamento` gera o relatorio; `eventos` so noticias, CVM e SEC). Pausar: criar o
+arquivo `PAUSADO` na raiz.
+Pre-requisito que so o dono do repositorio faz: mesclar na `main` (o cron e as
+permissoes da sessao so valem la). O contato que a SEC exige no User-Agent tem
+padrao no proprio `livro.yml`, por URL publica do projeto, sem dado pessoal;
+criar o secret `SEC_USER_AGENT` ("Nome contato@email") troca por um e-mail sem
+po-lo em arquivo de repositorio publico.
+
+Testes sem rede: `pip install -r requirements-livro.txt pytest` e
+`python3 -m pytest tests/ -q`; execucao offline com as fixtures:
+`python3 -m livro.rodar --modo fechamento --saida livro_out --offline tests/fixtures`.
+
+---
+
+## Boletim Diario do Mercado da B3 (o que a bolsa publica depois do pregao)
+
+A pagina do boletim na B3 e um iframe do aplicativo `https://arquivos.b3.com.br/bdi/`,
+que serve tudo sem cadastro: 69 tabelas em JSON, os cadernos em PDF e os arquivos
+CSV da API de download. O sistema segue o desenho do livro:
+
+1. **Runner** (`.github/workflows/boletim-b3.yml` + `boletim_b3.py` + pacote
+   `boletim/`): le a situacao dos cadernos, 47 tabelas e 4 arquivos do pregao (cerca de
+   um minuto) e, fora da B3, o arquivo diario de taxas indicativas de debentures da ANBIMA
+   (`boletim/anbima.py`); cruza com os ativos B3 de `config/livro.yaml` e grava em `boletim_b3/`
+   no branch `dados`: `<pregao>/resumo.json` (numeros com fonte e data e a lista de
+   sinais), `<pregao>/resumo.md` (cards de texto), `<pregao>/status.json` (link de cada
+   caderno em PDF na B3), `painel.html` (a pagina do ultimo pregao, que a sessao publica
+   como Artifact), `tabelas/` (tabelas pequenas do ultimo pregao) e os arquivos de apoio
+   `historico.json` (70 pregoes do livro), `mercado.json` (26 pregoes do IBrA),
+   `rf_cadastro.json` e `rf_estado.json` (renda fixa). PDF nao vai para o git: o
+   boletim completo passa de 50 MB e 1.800 paginas por pregao.
+2. **O que sai**:
+   - renda variavel do livro: volume contra a media de 20 pregoes, aluguel (saldo, % da
+     quantidade teorica do indice, pregoes de giro, taxa do tomador), put/call, ADR,
+     peso nos indices, proventos e comunicados;
+   - renda variavel do mercado inteiro (radar no IBrA): mais alugadas, aluguel mais
+     caro, saldo alugado que mais mexeu, volume fora do padrao, vendidos sob pressao;
+   - aluguel por corretora (doador e tomador de cada emprestimo do dia);
+   - opcoes: posicao em aberto por strike e vencimento, paredes, dor maxima, parcela a
+     descoberto, series que mais ganharam e perderam posicao, no livro, no Ibovespa
+     (IBOV11 e BOVA11) e no mercado inteiro;
+   - fluxo por tipo de investidor (acumulado do mes e saldo do ultimo dia divulgado);
+   - futuros de DI, DAP, dolar e indice, contratos em aberto por mercado, opcoes de dolar;
+   - renda fixa de balcao so no que o Douglas opera: debentures incentivadas, CRI e
+     CRA, com a taxa de cada negocio cruzada com o cadastro (incentivada, indexador,
+     vencimento), premio sobre o juro real (DAP), quem abriu e quem fechou taxa.
+     Debenture se compara pela taxa indicativa da ANBIMA (com compra, venda, PU e
+     duration), e a media dos negocios da B3 fica ao lado: em papel com muito negocio
+     pequeno ela pende para a taxa do varejo. Cada taxa sai com a fonte e o dia
+     ("ANBIMA indicativa de DD/MM" ou "B3 negocios de DD/MM"); CRI e CRA so tem a B3.
+   Limiares em `config/boletim.yaml`.
+3. **Sessao do Claude** (skill `.claude/skills/boletim-b3/SKILL.md`):
+   `python3 mesa.py boletim` imprime o veredito (ATUAL ou VELHO, COMPLETO ou
+   PARCIAL) e a leitura; `mesa.py boletim PETR4`, `boletim rf`, `boletim opcoes
+   PETR4`, `boletim radar`, `boletim sinais`, `boletim status`, `boletim json <bloco>`
+   completam. A sessao escreve a Leitura da Mesa e republica o painel no Artifact.
+
+Duas rodadas por pregao: 21h40 BRT (negocios, fluxo, indices, futuros, renda fixa,
+ETFs) e 08h35 BRT do dia seguinte (aluguel, corretoras, posicoes em aberto e
+derivativos, que a B3 publica de madrugada). As duas refazem os 2 ultimos pregoes e
+sao idempotentes; a renda fixa do proprio pregao e preliminar ate a B3 ajustar o balcao
+em D+1. Disparo manual: aba Actions > "Boletim B3" > Run workflow (`dias` = `auto`, ou
+ate 21, que e a janela que a B3 guarda; `pdf` baixa os cadernos para o artefato).
+Tabela de mais de uma pagina vem sempre pela exportacao completa da B3: a paginacao
+do aplicativo repete e pula linhas.
+A ANBIMA publica o arquivo do dia entre 19h40 e 20h30; se a rodada chegar antes (HTTP
+404), vale o do pregao anterior, com a data dele escrita, e a rodada seguinte completa.
+Sem a ANBIMA (site fora do ar, formato novo) a renda fixa sai so com os negocios da B3
+e o resumo declara a lacuna.
+Sem rede: `python boletim_b3.py --saida <pasta> --so-painel` refaz os paineis a partir
+dos resumos guardados. Testes: `python3 -m pytest tests/test_boletim.py -q` (67, sem rede).
+
+O que o boletim nao tem: posicao em aberto de derivativos por tipo de investidor; taxa
+indicativa de CRI e CRA (o arquivo da ANBIMA so traz debentures).
 
 ---
 

@@ -1,0 +1,1828 @@
+#!/usr/bin/env python3
+"""
+Leitura padronizada da mesa de analise: um comando, uma ficha.
+
+Le o branch `dados` pelo raw.githubusercontent.com (com cache-busting, porque o
+CDN guarda 5 minutos) e imprime o que a skill analise-ativo precisa, sempre no
+mesmo formato. Substitui os scripts avulsos escritos a cada analise.
+
+    python3 mesa.py ficha INBR32                 # cabecalho, valuation, series oficiais, releases, pares, lacunas
+    python3 mesa.py serie INBR32                 # series oficiais completas, uma linha por trimestre
+    python3 mesa.py releases INBR32              # os 8 releases guardados
+    python3 mesa.py release INBR32 2T25          # texto integral de um release
+    python3 mesa.py release INBR32 2T25 --grep "guidance|ROE|meta"   # so as frases que casam
+    python3 mesa.py linha INBR32 "ROE|meta|guidance"  # a mesma busca nos 8 releases, em ordem: o que a gestao disse trimestre a trimestre
+    python3 mesa.py decompor INBR32              # cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao
+    python3 mesa.py pares INBR32                 # comparativo do grupo com medianas
+    python3 mesa.py balanco DIRR3                # alavancagem e caixa do grupo, pelo balanco oficial da CVM
+    python3 mesa.py frescor DIRR3                # idade da coleta e defasagem ITR x release; VEREDITO ATUAL (saida 0) ou velho (saida 1): a trava das skills
+    python3 mesa.py cobertura DIRR3              # a janela de 8 trimestres, um a um: o que falta e o que esta vazio; VEREDITO COMPLETA (saida 0) ou nao (saida 1)
+    python3 mesa.py cobertura DIRR3 --pares      # a mesma janela para todo o grupo de pares (a comparacao contra a mediana exige todos)
+    python3 mesa.py termos ROE NIM P/VP          # glossario em portugues claro
+    python3 mesa.py kinea                        # carteira dos fundos Kinea na CVM (construtoras, mes a mes) e cartas guardadas
+    python3 mesa.py kinea carteira CURY3         # fundo a fundo, com compras e vendas do mes
+    python3 mesa.py kinea cartas --grep "Cury|construtora"   # o que as cartas do gestor dizem, carta a carta
+    python3 mesa.py kinea carta 2026-08 Atlas    # texto integral de uma carta (mes e parte do nome do fundo)
+    python3 mesa.py kinea videos --grep "Minha Casa|Cury|construtora"   # o que a gestao fala nos videos do canal, com minuto e link
+    python3 mesa.py kinea video ID --de 38:00 --ate 41:00             # legenda de um video (inteira ou num intervalo)
+    python3 mesa.py kinea docs --grep "Cury|MCMV"  # apresentacoes da live, relatorios e posts do site
+    python3 mesa.py kinea imagens 2026-08        # paginas de posicoes em imagem (as empresas aparecem como logotipo)
+    python3 mesa.py boletim                      # Boletim Diario da B3 do ultimo pregao: sinais, fluxo, aluguel, opcoes, futuros; VEREDITO ATUAL (0) ou velho (1)
+    python3 mesa.py boletim 2026-09-29           # o mesmo para um pregao guardado
+    python3 mesa.py boletim PETR4                # o ativo no boletim: negocios, aluguel, opcoes por strike, ADR, indice e os ultimos pregoes
+    python3 mesa.py boletim sinais               # so os sinais, novos e repetidos
+    python3 mesa.py boletim status               # cadernos em PDF (links), tabelas pendentes e falhas da ultima rodada
+    python3 mesa.py boletim tabela IOPV          # uma tabela do ultimo pregao como a B3 publicou
+    python3 mesa.py boletim rf                   # renda fixa: debentures incentivadas, CRI e CRA (indicativa da ANBIMA e negocios da B3, com fonte e dia; premio; quem abriu e fechou)
+    python3 mesa.py boletim opcoes PETR4         # opcoes do ativo: vencimentos, posicao por strike, paredes, dor maxima, series que mudaram
+    python3 mesa.py boletim radar                # mercado inteiro: mais alugadas, aluguel mais caro, volume anormal, opcoes, corretoras
+    python3 mesa.py boletim fluxo                # compras menos vendas por tipo de investidor, dia a dia, nos pregoes guardados
+    python3 mesa.py boletim json renda_fixa      # um bloco do resumo em JSON, para outro agente consumir (sem argumento, lista os blocos)
+    python3 mesa.py boletim painel               # endereco do painel.html do ultimo pregao (o que a sessao publica como Artifact)
+    python3 mesa.py skills                       # confere se as skills da mesa estao instaladas e validas
+
+Nada aqui e opiniao: e leitura do que o coletor gravou. Valores sem fonte no
+JSON aparecem como "-", nunca preenchidos.
+"""
+
+import datetime
+import json
+import os
+import re
+import sys
+import time
+import urllib.request
+
+BASE = os.environ.get("MESA_BASE", "https://raw.githubusercontent.com/douglora/broadcast/dados/")
+CACHE = os.path.join(os.environ.get("TMPDIR", "/tmp"), "mesa_cache")
+AQUI = os.path.dirname(os.path.abspath(__file__))
+
+
+def baixar(caminho, texto=False, ttl=120):
+    """Baixa um arquivo do branch dados, com cache curto em disco e cache-busting no CDN."""
+    os.makedirs(CACHE, exist_ok=True)
+    local = os.path.join(CACHE, caminho.replace("/", "__"))
+    if os.path.exists(local) and time.time() - os.path.getmtime(local) < ttl:
+        with open(local, "rb") as f:
+            dados = f.read()
+    else:
+        url = f"{BASE}{caminho}?v={int(time.time() * 1000)}"
+        req = urllib.request.Request(url, headers={"Cache-Control": "no-cache", "Pragma": "no-cache"})
+        try:
+            with urllib.request.urlopen(req, timeout=40) as r:
+                dados = r.read()
+        except Exception as e:
+            print(f"!! {caminho}: {type(e).__name__}: {e}")
+            return None
+        with open(local, "wb") as f:
+            f.write(dados)
+    if texto:
+        return dados.decode("utf-8", "replace")
+    try:
+        return json.loads(dados.decode("utf-8"))
+    except Exception:
+        print(f"!! {caminho}: JSON ilegivel")
+        return None
+
+
+def fmt(v, casas=1, pct=False, mil=False):
+    if v is None:
+        return "-"
+    if isinstance(v, str):
+        return v
+    if pct:
+        return f"{100 * v:.{casas}f}%".replace(".", ",")
+    if mil:
+        return f"{v / 1e6:,.0f} mi".replace(",", ".") if abs(v) >= 1e6 else f"{v:,.0f}".replace(",", ".")
+    return f"{v:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def ordem_periodo(p):
+    """Aceita '2025T4' (series da CVM), '4T25' (releases) e 'CY2025Q4' (SEC) -> (ano, trimestre)."""
+    p = p or ""
+    m = re.fullmatch(r"(\d{4})T([1-4])", p)
+    if m:
+        return (int(m.group(1)), int(m.group(2)))
+    m = re.fullmatch(r"([1-4])T(\d{2})", p)
+    if m:
+        return (2000 + int(m.group(2)), int(m.group(1)))
+    m = re.fullmatch(r"CY(\d{4})Q([1-4])", p)
+    return (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+
+
+def serie_oficial(d):
+    """(fonte, unidade, series trimestrais, ltm, derivados, plano) do bloco oficial que existir."""
+    cvm = d.get("cvm_demonstracoes") or {}
+    sub = d.get("subjacente_us") or {}
+    sec = sub.get("sec_xbrl") or d.get("sec_xbrl") or d.get("sec_xbrl_adr") or {}
+    if cvm.get("serie_trimestral"):
+        return ("CVM ITR/DFP", cvm.get("unidade", "R$ milhoes"), cvm["serie_trimestral"], cvm.get("ltm") or {},
+                cvm.get("derivados") or {}, cvm.get("plano_de_contas", "geral"), cvm.get("descricao_contas") or {})
+    if sec.get("trimestral"):
+        tri = {k: {q: (v / 1e6 if isinstance(v, (int, float)) else v) for q, v in s.items()} for k, s in sec["trimestral"].items()}
+        ltm = {k: {**v, "valor": v["valor"] / 1e6} for k, v in (sec.get("ltm") or {}).items()}
+        return ("SEC XBRL", "US$ milhoes", tri, ltm, sec.get("derivados") or {}, "geral", sec.get("tags_usadas") or {})
+    return (None, None, {}, {}, {}, None, {})
+
+
+LINHAS_GERAL = [("receita_liquida", "receita"), ("ebit", "EBIT"), ("resultado_financeiro", "res. financeiro"),
+                ("lucro_liquido_consolidado", "lucro"), ("patrimonio_liquido_consolidado", "patrimonio"),
+                ("caixa_operacional", "caixa operacional")]
+LINHAS_SEC = [("receita", "receita"), ("lucro_bruto", "lucro bruto"), ("ebit", "EBIT"), ("lucro_liquido", "lucro"),
+              ("patrimonio_liquido", "patrimonio"), ("divida_total", "divida total"), ("caixa", "caixa")]
+LINHAS_BANCO = [("receita_liquida", "rec. intermediacao"), ("resultado_bruto", "res. bruto interm."),
+                ("resultado_antes_ir", "antes dos tributos"), ("lucro_liquido_consolidado", "lucro"),
+                ("lucro_atribuido_controladores", "lucro controladores"), ("patrimonio_liquido_consolidado", "patrimonio"),
+                ("carteira_credito", "carteira de credito"), ("depositos", "depositos"), ("ativo_total", "ativo total")]
+
+
+def imprimir_serie(d, n=8):
+    fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
+    if not fonte:
+        print("  demonstracao oficial: AUSENTE")
+        return
+    linhas = LINHAS_BANCO if plano == "instituicao_financeira" else (LINHAS_SEC if fonte == "SEC XBRL" else LINHAS_GERAL)
+    linhas = [(k, r) for k, r in linhas if k in tri]
+    periodos = sorted({q for k, _ in linhas for q in tri[k]}, key=ordem_periodo)[-n:]
+    print(f"  fonte {fonte} | {unidade} | plano {plano} | D = trimestre derivado do anual")
+    print("  " + f"{'trimestre':11}" + "".join(f"{r[:15]:>17}" for _, r in linhas))
+    for q in periodos:
+        marca = "D" if any(q in der.get(k, []) for k, _ in linhas) else " "
+        print("  " + f"{q:10}{marca}" + "".join(f"{fmt(tri[k].get(q), 0):>17}" for k, _ in linhas))
+    if ltm:
+        print("  12 meses ate " + next(iter(ltm.values())).get("ate", "?") + ": " +
+              " | ".join(f"{r} {fmt(ltm[k]['valor'], 0)}" for k, r in linhas if k in ltm))
+    # margens e ROE quando fazem sentido
+    rec_k = "receita_liquida" if "receita_liquida" in tri else "receita"
+    luc_k = "lucro_liquido_consolidado" if "lucro_liquido_consolidado" in tri else "lucro_liquido"
+    pl_k = "patrimonio_liquido_consolidado" if "patrimonio_liquido_consolidado" in tri else "patrimonio_liquido"
+    ult = periodos[-1] if periodos else None
+    if ult and tri.get(luc_k, {}).get(ult) and tri.get(pl_k, {}).get(ult):
+        print(f"  ROE anualizado do ultimo trimestre: {fmt(4 * tri[luc_k][ult] / tri[pl_k][ult], 1, pct=True)}"
+              f"  (lucro x4 / patrimonio de {ult})")
+    if plano == "instituicao_financeira":
+        print("  banco: nao existe EBIT nem margem operacional aqui; use lucro, ROE, carteira, depositos e o release")
+    elif ult and tri.get(rec_k, {}).get(ult) and tri.get("ebit", {}).get(ult) is not None:
+        serie = [(q, tri["ebit"][q] / tri[rec_k][q]) for q in periodos if tri[rec_k].get(q) and tri.get("ebit", {}).get(q) is not None]
+        print("  margem EBIT por trimestre: " + "  ".join(f"{q} {fmt(m, 1, pct=True)}" for q, m in serie))
+    if descr and plano == "instituicao_financeira":
+        print("  contas usadas: " + "; ".join(f"{k}={v}" for k, v in descr.items() if k in dict(linhas))[:400])
+
+
+def data_release(r):
+    """Data do release como o coletor gravou; sufixo ' (estimada)' quando ele so inferiu
+    (fim do trimestre + 40 dias, campo data_estimada). Data estimada nunca entra na nota como data de divulgacao."""
+    r = r or {}
+    d = r.get("data")
+    return f"{d} (estimada)" if d and r.get("data_estimada") else d
+
+
+def ficha(tk):
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto)."); return
+    print(veredito(tk, d))
+    ident = d.get("identificacao") or {}
+    sub = d.get("subjacente_us") or {}
+    y = (sub.get("yahoo") if sub else d.get("yahoo")) or {}
+    info, calc = y.get("info") or {}, y.get("multiplos_calculados") or {}
+    ret = (d.get("yahoo") or {}).get("retornos") or {}
+    fn = {re.sub(r"[^A-Z0-9 ]+", " ", k.upper()).strip(): v for k, v in (d.get("fundamentus") or {}).items() if isinstance(v, (int, float))}
+    print(f"=== {tk} | {ident.get('nome')} | {ident.get('setor_yahoo')} / {ident.get('industria_yahoo')}")
+    print(f"  coletado em {d.get('gerado_em')} | grupo {(d.get('pares') or {}).get('grupo')} ({(d.get('pares') or {}).get('tipo')})"
+          f" | pares {', '.join((d.get('pares') or {}).get('tickers') or [])}")
+    if sub:
+        par = sub.get("paridade_implicita") or {}
+        print(f"  BDR de {sub.get('simbolo')}: preco BDR R$ {fmt((d.get('yahoo') or {}).get('info', {}).get('currentPrice'), 2)}"
+              f" | acao-mae {info.get('currency')} {fmt(info.get('currentPrice'), 2)} | paridade implicita {fmt(par.get('bdrs_por_acao'), 3)} BDR por acao")
+    print("\n-- preco e multiplos (Yahoo, na data da coleta; Fundamentus quando houver)")
+    print(f"  preco {info.get('currency')} {fmt(info.get('currentPrice'), 2)} | valor de mercado {fmt(info.get('marketCap'), mil=True)}"
+          f" | EV {fmt(info.get('enterpriseValue'), mil=True)}")
+    print(f"  P/L 12m {fmt(fn.get('P L') or info.get('trailingPE'), 1)}x | P/L projetado {fmt(info.get('forwardPE'), 1)}x"
+          f" | P/VP {fmt(fn.get('P VP') or info.get('priceToBook'), 2)}x | EV/EBITDA {fmt(fn.get('EV EBITDA') or info.get('enterpriseToEbitda'), 1)}x")
+    dy = calc.get("dy_12m") if calc.get("dy_12m") is not None else fn.get("DIV YIELD")
+    print(f"  DY 12m {fmt(dy, 1, pct=True)} | ROE (agregador) {fmt(fn.get('ROE') or info.get('returnOnEquity'), 1, pct=True)}"
+          f" | beta {fmt(info.get('beta'), 2)} | div. liquida/EBITDA {fmt(calc.get('divida_liquida_ebitda'), 2)}x")
+    print(f"  retorno: 1m {fmt(ret.get('1m'), 1, pct=True)} | 3m {fmt(ret.get('3m'), 1, pct=True)} | 12m {fmt(ret.get('12m'), 1, pct=True)}"
+          f" | no ano {fmt(ret.get('ytd'), 1, pct=True)} | max 52s {fmt(ret.get('max_52s'), 2)} | min 52s {fmt(ret.get('min_52s'), 2)}")
+    alvo, preco = info.get("targetMeanPrice"), info.get("currentPrice")
+    print(f"  consenso: {info.get('recommendationKey')} | {info.get('numberOfAnalystOpinions')} analistas | alvo medio {fmt(alvo, 2)}"
+          f" ({fmt(alvo / preco - 1, 1, pct=True) if alvo and preco else '-'}) | min {fmt(info.get('targetLowPrice'), 2)} | max {fmt(info.get('targetHighPrice'), 2)}")
+    print("\n-- demonstracoes oficiais (ultimos 8 trimestres)")
+    imprimir_serie(d, 8)
+    print("\n-- releases guardados (releases/%s/)" % tk)
+    for r in d.get("releases_historico") or []:
+        print(f"  {r.get('periodo') or '?':5} {data_release(r)}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:50]:52} {r.get('caracteres_total') or 0:>7} chars")
+    rel = d.get("release_ri") or {}
+    print(f"  mais novo: {rel.get('periodo')} de {data_release(rel)} | {rel.get('fonte')}")
+    mac = d.get("macro") or {}
+    print("\n-- macro (BCB): " + " | ".join(f"{k} {v.get('value')}{'' if v.get('unidade','').startswith('R$') else '%'} ({v.get('date')})"
+                                          for k, v in mac.items() if isinstance(v, dict)))
+    tir = d.get("tir_modelo") or {}
+    if tir.get("coberto"):
+        print(f"  TIR real da casa: {json.dumps(tir.get('resultado'), ensure_ascii=False)[:200]}")
+    else:
+        print("  TIR real da casa: nao cobre este ativo")
+    print("\n-- fontes com problema:")
+    ruins = {k: v for k, v in (d.get("fontes") or {}).items() if not str(v).startswith("ok")}
+    for k, v in ruins.items():
+        print(f"  {k}: {v}")
+    if not ruins:
+        print("  nenhuma")
+    fatos, vistos = [], set()
+    for f in (d.get("cvm") or {}).get("fatos_relevantes") or []:
+        chave = (f["data"], f["assunto"][:60])
+        if chave not in vistos:
+            vistos.add(chave)
+            fatos.append(f)
+    if fatos:
+        print("\n-- fatos relevantes recentes (CVM):")
+        for f in fatos[:5]:
+            print(f"  {f['data']} {f['assunto'][:90]}")
+    ev = (d.get("yahoo") or {}).get("eventos") or {}
+    if ev.get("datas_de_resultado"):
+        print(f"\n-- proximo resultado (Yahoo): {ev['datas_de_resultado'][0]}")
+
+
+def serie(tk):
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito(tk, d))
+        imprimir_serie(d, 12)
+
+
+def releases(tk):
+    idx = baixar(f"releases/{tk}/index.json")
+    if not idx:
+        return
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito(tk, d, idx))
+    print(f"{tk}: {len(idx.get('releases', []))} releases, atualizado em {idx.get('atualizado_em')}")
+    for r in idx.get("releases", []):
+        print(f"  {r.get('periodo') or '?':5} {data_release(r)}  {str(r.get('assunto') or r.get('arquivo_sec') or r.get('formulario'))[:60]:62} {r.get('caracteres_total') or 0:>7} chars  {r.get('arquivo')}")
+
+
+def release(tk, periodo, grep=None, contexto=260):
+    idx = baixar(f"releases/{tk}/index.json")
+    if not idx:
+        return
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito(tk, d, idx))
+    alvo = next((r for r in idx.get("releases", []) if (r.get("periodo") or "").upper() == periodo.upper()), None)
+    if not alvo:
+        print(f"{tk}: nao ha release {periodo}. Existem: {[r.get('periodo') for r in idx.get('releases', [])]}")
+        return
+    texto = baixar(alvo["arquivo"], texto=True)
+    if texto is None:
+        return
+    print(f"== {tk} {alvo.get('periodo')} | {data_release(alvo)} | {alvo.get('assunto') or alvo.get('arquivo_sec')} | {alvo.get('link')}")
+    if not grep:
+        print(texto)
+        return
+    plano = re.sub(r"\s+", " ", texto)
+    rx = re.compile(grep, re.I)
+    vistos, n = set(), 0
+    for m in rx.finditer(plano):
+        ini = max(0, plano.rfind(". ", 0, max(0, m.start() - contexto)) + 2)
+        fim = plano.find(". ", m.end() + contexto)
+        trecho = plano[ini:(fim + 1 if fim > 0 else m.end() + contexto)].strip()
+        chave = trecho[:60]
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        n += 1
+        print(f"\n[{n}] ...{trecho[:900]}")
+        if n >= 25:
+            print("\n(25 trechos; refine o --grep)")
+            break
+    if not n:
+        print("nenhum trecho casou")
+
+
+def _trechos(texto, rx, contexto=200, max_por_release=4, largura=420):
+    """Frases que casam com rx, sem repetir, ja normalizadas em uma linha."""
+    plano = re.sub(r"\s+", " ", texto)
+    saida, vistos = [], set()
+    for m in rx.finditer(plano):
+        ini = max(0, plano.rfind(". ", 0, max(0, m.start() - contexto)) + 2)
+        fim = plano.find(". ", m.end() + contexto)
+        trecho = plano[ini:(fim + 1 if fim > 0 else m.end() + contexto)].strip()
+        chave = re.sub(r"[^a-z0-9]+", "", trecho.lower())[:70]
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        saida.append(trecho[:largura])
+        if len(saida) >= max_por_release:
+            break
+    return saida
+
+
+def linha(tk, padrao, max_por_release=4):
+    """A mesma busca nos 8 releases, do mais antigo ao mais novo: discurso contra entrega em um comando."""
+    idx = baixar(f"releases/{tk}/index.json")
+    if not idx:
+        print(f"{tk}: nenhum release guardado. Dispare a coleta.")
+        return
+    d = baixar(f"ativos/{tk}.json")
+    if d:
+        print(veredito(tk, d))
+    rels = sorted(idx.get("releases", []), key=lambda r: ordem_periodo(r.get("periodo")))
+    rx = re.compile(padrao, re.I)
+    print(f"== {tk}: \"{padrao}\" em {len(rels)} releases, do mais antigo ao mais novo")
+    achou_algum = False
+    for r in rels:
+        texto = baixar(r["arquivo"], texto=True)
+        cab = f"\n-- {r.get('periodo') or '?'} ({data_release(r)}) {str(r.get('assunto') or r.get('arquivo_sec') or '')[:58]}"
+        if texto is None:
+            print(cab + "\n   (texto indisponivel)")
+            continue
+        achados = _trechos(texto, rx, max_por_release=max_por_release)
+        print(cab)
+        if not achados:
+            print("   (nao fala nisso)")
+            continue
+        achou_algum = True
+        for t in achados:
+            print(f"   . {t}")
+    if not achou_algum:
+        print("\nnenhum release fala nisso. Ou o termo esta errado, ou a gestao nunca tocou no assunto: "
+              "as duas leituras valem, diga qual e.")
+    print(f"\n(ate {max_por_release} trechos por release; `mesa.py release {tk} <periodo>` traz o texto inteiro)")
+
+
+ORDEM_DRE = ["receita_liquida", "receita", "custo", "custo_produtos_vendidos", "lucro_bruto", "resultado_bruto",
+             "despesas_operacionais", "despesas_vendas", "despesas_administrativas", "despesas_gerais_administrativas",
+             "despesa_pdd", "provisao_credito", "pesquisa_desenvolvimento", "ebit", "resultado_financeiro",
+             "receita_financeira", "despesa_financeira", "receita_juros", "resultado_financeiro_outros",
+             "resultado_antes_ir", "imposto_renda", "lucro_liquido_consolidado", "lucro_liquido",
+             "lucro_atribuido_controladores"]
+NAO_E_DRE = {"patrimonio_liquido", "patrimonio_liquido_consolidado", "ativo_total", "passivo_total", "caixa",
+             "caixa_equivalentes", "aplicacoes_financeiras", "ativo_circulante", "ativo_nao_circulante",
+             "passivo_circulante", "passivo_nao_circulante", "caixa_operacional", "caixa_investimento",
+             "caixa_financiamento", "capex", "estoques", "contas_a_receber", "divida_total",
+             "divida_curto_prazo", "divida_longo_prazo", "emprestimos_curto_prazo", "emprestimos_longo_prazo",
+             "carteira_credito", "depositos", "dividendos_pagos", "recompra_acoes", "lpa_basico_on",
+             "lpa_diluido_on", "lpa_basico", "lpa_diluido", "acoes_em_circulacao"}
+
+
+def _e_conta_de_resultado(chave, descr):
+    """Na CVM o codigo decide: grupo 3 e a DRE, 3.99 e lucro por acao, 1 e 2 sao balanco."""
+    codigo = str((descr or {}).get(chave) or "").strip()
+    if codigo[:1].isdigit():
+        return codigo.startswith("3.") and not codigo.startswith("3.99")
+    return chave not in NAO_E_DRE
+
+
+def decompor(tk, n=8):
+    """Cada linha da DRE como % da receita, trimestre a trimestre, e quem explica a variacao da margem."""
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        print(f"{tk}: nao esta no branch dados.")
+        return
+    print(veredito(tk, d))
+    fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
+    if not fonte:
+        print("  demonstracao oficial: AUSENTE; sem decomposicao possivel")
+        return
+    base = "receita_liquida" if "receita_liquida" in tri else ("receita" if "receita" in tri else None)
+    if not base:
+        print("  sem linha de receita na serie oficial; use o release")
+        return
+    elegivel = [k for k in tri if k != base and _e_conta_de_resultado(k, descr)]
+    chaves = [k for k in ORDEM_DRE if k in elegivel] + [k for k in sorted(elegivel) if k not in ORDEM_DRE]
+    periodos = sorted([q for q in tri[base] if tri[base].get(q)], key=ordem_periodo)[-n:]
+    if len(periodos) < 2:
+        print("  menos de 2 trimestres com receita; sem decomposicao")
+        return
+    rotulo = "receitas da intermediacao" if plano == "instituicao_financeira" else "receita"
+    print(f"== {tk}: DRE como % da {rotulo} | fonte {fonte} | {unidade} | D = trimestre derivado do anual")
+    if plano == "instituicao_financeira":
+        print("   (banco: a base e a receita da intermediacao financeira, nao ha margem EBIT)")
+    print("   " + f"{'trimestre':11}" + f"{rotulo[:13]:>15}" + "".join(f"{k.replace('_', ' ')[:13]:>15}" for k in chaves))
+    pcts = {}
+    for q in periodos:
+        rec = tri[base][q]
+        marca = "D" if any(q in der.get(k, []) for k in [base] + chaves) else " "
+        cels = []
+        for k in chaves:
+            v = tri[k].get(q)
+            pct = None if v is None or not rec else v / rec
+            pcts.setdefault(k, {})[q] = pct
+            cels.append(fmt(pct, 1, pct=True) if pct is not None else "-")
+        print("   " + f"{q:10}{marca}" + f"{fmt(rec, 0):>15}" + "".join(f"{c:>15}" for c in cels))
+    ini, fim = periodos[0], periodos[-1]
+    print(f"\n-- variacao de {ini} para {fim}, em pontos percentuais da {rotulo}")
+    deltas = []
+    for k in chaves:
+        a, b = pcts[k].get(ini), pcts[k].get(fim)
+        if a is None or b is None:
+            continue
+        deltas.append((abs(b - a), b - a, k, a, b))
+    if not deltas:
+        print("   serie incompleta nas pontas; compare os trimestres que existem na tabela acima")
+    for _, delta, k, a, b in sorted(deltas, reverse=True):
+        sinal = "+" if delta >= 0 else ""
+        print(f"   {k.replace('_', ' ')[:30]:32} {fmt(a, 1, pct=True):>8} -> {fmt(b, 1, pct=True):>8}   {sinal}{fmt(100 * delta, 1)} pp")
+    d_rec = tri[base][fim] / tri[base][ini] - 1
+    print(f"   {'(a receita variou)':32} {' ':>8}    {' ':>8}   {'+' if d_rec >= 0 else ''}{fmt(100 * d_rec, 1)}% em {len(periodos) - 1} trimestres")
+    if descr:
+        usadas = {k: v for k, v in descr.items() if k in chaves or k == base}
+        if usadas:
+            print("\n-- conta oficial por linha: " + "; ".join(f"{k}={v}" for k, v in list(usadas.items())[:14]))
+    print("\nLeia assim: a linha com mais pp de variacao e a que explica a margem. Depois pergunte ao release por que,\n"
+          f"com `mesa.py linha {tk} \"<termo da linha>\"`.")
+
+
+def pares(tk):
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        return
+    arq = (d.get("pares") or {}).get("comparativo")
+    if not arq:
+        print(f"{tk} nao tem grupo em pares.py")
+        return
+    c = baixar(arq)
+    if not c:
+        return
+    fin = c.get("tipo") == "financeiro"
+    print(f"== {c.get('nome')} ({c.get('tipo')}) | gerado {c.get('gerado_em')}")
+    cab = ["ticker", "P/L", "P/L proj", "P/VP", "ROE", "DY", "ret 12m"] + (["lucro ofic", "ROE ofic", "cresc ofic"] if fin
+          else ["EV/EBITDA", "mgEBIT ofic", "cresc ofic", "fin/EBIT"])
+    print("  " + " ".join(f"{h:>12}" for h in cab))
+    for ln in c.get("linhas", []):
+        o = ln.get("oficial") or {}
+        # CVM ja vem em R$ milhoes; SEC vem em dolares inteiros
+        escala = 1e6 if "SEC" in (o.get("fonte") or "") else 1.0
+        moeda = {"USD": "US$", "BRL": "R$", "R$ milhoes": "R$"}.get(o.get("unidade") or "", o.get("unidade") or "")
+        lucro = f"{fmt((o.get('lucro_ltm') or 0) / escala, 0)} {moeda}mi" if o.get("lucro_ltm") is not None else "-"
+        base = [ln["ticker"], fmt(ln.get("pl_12m"), 1), fmt(ln.get("pl_projetado"), 1), fmt(ln.get("pvp"), 2),
+                fmt(ln.get("roe"), 1, pct=True), fmt(ln.get("dy_12m"), 1, pct=True), fmt(ln.get("retorno_12m"), 1, pct=True)]
+        extra = ([lucro, fmt(o.get("roe_ltm"), 1, pct=True), fmt(o.get("cresc_receita_ltm"), 1, pct=True)] if fin
+                 else [fmt(ln.get("ev_ebitda"), 1), fmt(o.get("margem_ebit_ltm"), 1, pct=True), fmt(o.get("cresc_receita_ltm"), 1, pct=True),
+                       fmt(o.get("resultado_financeiro_sobre_ebit"), 2)])
+        print("  " + " ".join(f"{x:>12}" for x in base + extra) + f"   [{(o.get('fonte') or 'sem oficial')[:34]}; ate {o.get('ltm_ate') or '-'}; dado de {ln.get('gerado_em', '')[:10]}]")
+    med = c.get("medianas") or {}
+    print("  medianas: " + " | ".join(f"{k} {fmt(v['mediana'], 2) if 'pl' in k or 'pvp' in k or 'ev' in k else fmt(v['mediana'], 1, pct=True)}"
+                                     for k, v in med.items() if k in ("pl_12m", "pl_projetado", "pvp", "ev_ebitda", "roe", "dy_12m", "retorno_12m", "oficial.roe_ltm", "oficial.margem_ebit_ltm", "oficial.cresc_receita_ltm")))
+
+
+def termos(chaves):
+    caminho = os.path.join(AQUI, ".claude", "skills", "analise-ativo", "GLOSSARIO.md")
+    try:
+        linhas = open(caminho, encoding="utf-8").read().split("\n")
+    except FileNotFoundError:
+        print("glossario nao encontrado:", caminho)
+        return
+    if not chaves:
+        print("\n".join(l for l in linhas if l.startswith("- **")))
+        return
+    for chave in chaves:
+        rx = re.compile(r"\*\*[^*]*\b" + re.escape(chave) + r"\b", re.I)
+        achou = [l for l in linhas if l.startswith("- **") and rx.search(l)]
+        print("\n".join(achou) if achou else f"- {chave}: nao esta no glossario; explique em uma frase e proponha incluir")
+
+
+def _linha_balanco(tk):
+    """Divida, caixa, patrimonio e geracao de caixa de um ticker, direto da demonstracao oficial."""
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        return None
+    fonte, unidade, tri, ltm, der, plano, descr = serie_oficial(d)
+    if not fonte:
+        return {"ticker": tk, "erro": "sem demonstracao oficial"}
+    def ult(chave):
+        s = tri.get(chave) or {}
+        qs = sorted([q for q in s if s[q] is not None], key=ordem_periodo)
+        return (s[qs[-1]], qs[-1]) if qs else (None, None)
+    def soma_ltm(chave):
+        s = tri.get(chave) or {}
+        qs = sorted([q for q in s if s[q] is not None], key=ordem_periodo)[-4:]
+        return sum(s[q] for q in qs) if len(qs) == 4 else None
+    cp, q = ult("emprestimos_curto_prazo" if "emprestimos_curto_prazo" in tri else "divida_curto_prazo")
+    lp, _ = ult("emprestimos_longo_prazo" if "emprestimos_longo_prazo" in tri else "divida_longo_prazo")
+    cx, _ = ult("caixa_equivalentes" if "caixa_equivalentes" in tri else "caixa")
+    ap, _ = ult("aplicacoes_financeiras")
+    pl, _ = ult("patrimonio_liquido_consolidado" if "patrimonio_liquido_consolidado" in tri else "patrimonio_liquido")
+    est, _ = ult("estoques")
+    at, _ = ult("ativo_total")
+    bruta = (cp or 0) + (lp or 0) if (cp is not None or lp is not None) else None
+    liquida = None if bruta is None else bruta - (cx or 0) - (ap or 0)
+    return {"ticker": tk, "periodo": q, "fonte": fonte, "unidade": unidade, "plano": plano, "gerado_em": (d.get("gerado_em") or "")[:10],
+            "divida_bruta": bruta, "caixa": (cx or 0) + (ap or 0), "divida_liquida": liquida,
+            "patrimonio": pl, "estoques": est, "ativo_total": at,
+            "dl_pl": None if not pl or liquida is None else liquida / pl,
+            "ebit_ltm": soma_ltm("ebit"), "lucro_ltm": soma_ltm("lucro_liquido_consolidado") or soma_ltm("lucro_liquido"),
+            "receita_ltm": soma_ltm("receita_liquida") or soma_ltm("receita"),
+            "caixa_op_ltm": soma_ltm("caixa_operacional"),
+            "roe": None if not pl else ((soma_ltm("lucro_liquido_consolidado") or soma_ltm("lucro_liquido") or 0) / pl) or None}
+
+
+def balanco(tk):
+    """Alavancagem do grupo inteiro pelo balanco oficial: o que o multiplo do agregador nao mostra."""
+    d = baixar(f"ativos/{tk}.json")
+    if not d:
+        print(f"{tk}: nao esta no branch dados.")
+        return
+    grupo = (d.get("pares") or {})
+    tickers = grupo.get("tickers") or [tk]
+    print(f"== {grupo.get('nome') or tk}: alavancagem pelo balanco oficial (nao pelo agregador)")
+    print("   Divida liquida = emprestimos de curto + longo prazo, menos caixa e aplicacoes financeiras.")
+    print("   " + f"{'ticker':8}{'periodo':9}" + "".join(f"{h:>15}" for h in
+          ("div. bruta", "caixa", "div. liquida", "patrimonio", "DL/PL", "EBIT 12m", "caixa op 12m", "ROE 12m")))
+    linhas = []
+    for t in tickers:
+        ln = _linha_balanco(t)
+        if not ln:
+            print(f"   {t:8} nao esta no branch")
+            continue
+        if ln.get("erro"):
+            print(f"   {t:8} {ln['erro']}")
+            continue
+        linhas.append(ln)
+        if ln.get("plano") == "instituicao_financeira":
+            print(f"   {t:8} banco: capta por deposito, nao por emprestimo. Alavancagem aqui e ativo/patrimonio"
+                  f" ({fmt((ln['ativo_total'] or 0) / ln['patrimonio'], 1)}x) e capital principal, nao DL/PL.")
+            continue
+        print("   " + f"{t:8}{(ln['periodo'] or '-'):9}" +
+              "".join(f"{v:>15}" for v in (fmt(ln["divida_bruta"], 0), fmt(ln["caixa"], 0), fmt(ln["divida_liquida"], 0),
+                                           fmt(ln["patrimonio"], 0), fmt(ln["dl_pl"], 1, pct=True), fmt(ln["ebit_ltm"], 0),
+                                           fmt(ln["caixa_op_ltm"], 0), fmt(ln["roe"], 1, pct=True))))
+    linhas = [l for l in linhas if l.get("plano") != "instituicao_financeira"]
+    if linhas:
+        us = sorted({l["unidade"] for l in linhas})
+        print(f"   valores em {' e '.join(us)}; DL/PL negativo = caixa liquido (mais caixa que divida)")
+        if len(us) > 1:
+            print("   ATENCAO: moedas diferentes na tabela; so DL/PL e ROE se comparam direto")
+        dls = sorted([l for l in linhas if l["dl_pl"] is not None], key=lambda l: l["dl_pl"])
+        if dls:
+            print(f"   menos alavancada: {dls[0]['ticker']} ({fmt(dls[0]['dl_pl'], 1, pct=True)})"
+                  f" | mais alavancada: {dls[-1]['ticker']} ({fmt(dls[-1]['dl_pl'], 1, pct=True)})")
+        cxs = [l for l in linhas if l["caixa_op_ltm"] is not None]
+        if cxs:
+            queima = [l["ticker"] for l in cxs if l["caixa_op_ltm"] < 0]
+            print(f"   queima caixa nos 12 meses: {', '.join(queima) if queima else 'nenhuma'}")
+    print("   Divida de projeto (SFH) e divida corporativa somam aqui: o release separa as duas, o balanco nao.")
+
+
+def _horas_desde(iso):
+    """Horas entre um carimbo ISO em UTC (como o coletor grava gerado_em) e agora; None se ilegivel."""
+    if not iso:
+        return None
+    try:
+        t = datetime.datetime.strptime(str(iso)[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=datetime.timezone.utc)
+    except ValueError:
+        return None
+    return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() / 3600
+
+
+def _rotulo_curto(par):
+    """(2026, 2) -> '2T26', o formato dos releases."""
+    ano, t = par
+    return f"{t}T{str(ano)[-2:]}" if ano else "?"
+
+
+def _itr_mais_novo(tri):
+    """Trimestre mais recente com receita na serie oficial (CVM ou SEC): (rotulo original, (ano, tri))."""
+    for chave in ("receita_liquida", "receita"):
+        s = tri.get(chave) or {}
+        qs = sorted([q for q in s if s[q] is not None], key=ordem_periodo)
+        if qs:
+            return qs[-1], ordem_periodo(qs[-1])
+    return None, (0, 0)
+
+
+_PRAZO_DIAS = {1: 45, 2: 45, 3: 45, 4: 90}
+_FIM_TRI = {1: "03-31", 2: "06-30", 3: "09-30", 4: "12-31"}
+
+
+def trimestre_vencido(hoje=None):
+    """Ultimo trimestre fechado cujo prazo legal de divulgacao ja venceu (45 dias no 1T a 3T, 90 no 4T).
+
+    E a segunda referencia de frescor: se o ITR atrasar ou o zip da CVM sumir, o release "em dia com o
+    ITR" continua velho para o calendario. Devolve (ano, tri) e a data do vencimento."""
+    h = hoje or datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
+    tri, ano = (h.month - 1) // 3, h.year
+    if tri == 0:
+        tri, ano = 4, ano - 1
+    for _ in range(6):
+        fim = datetime.datetime.strptime(f"{ano}-{_FIM_TRI[tri]}", "%Y-%m-%d")
+        venc = fim + datetime.timedelta(days=_PRAZO_DIAS[tri])
+        if h >= venc:
+            return (ano, tri), venc
+        tri -= 1
+        if tri == 0:
+            tri, ano = 4, ano - 1
+    return (0, 0), None
+
+
+def _eh_b3_sem_bdr(tk):
+    """Companhia da B3 que publica na CVM (nao BDR, nao ticker dos EUA): e o caso que precisa de mapa de RI."""
+    if not re.fullmatch(r"[A-Z]{4}\d{1,2}", tk or ""):
+        return False
+    try:
+        import pares as _p
+        if tk in _p.BDR_SUBJACENTE:
+            return False
+    except Exception:
+        pass
+    return tk[4:] not in ("31", "32", "33", "34", "35", "39")
+
+
+def _mapeado_no_ri(tk):
+    try:
+        import ri_fontes as _r
+        return tk in _r.RI_FONTES
+    except Exception:
+        return False
+
+
+def avaliar_frescor(tk, d):
+    """(motivos, avisos, detalhes) do frescor de um JSON do branch. Motivo = bloqueia; aviso = so alerta."""
+    gerado = d.get("gerado_em")
+    idade = _horas_desde(gerado)
+    agora_brt = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=3)
+    dia_util = agora_brt.weekday() < 5
+    teto = 6 if dia_util else 24
+    fonte, _, tri, _, _, _, _ = serie_oficial(d)
+    itr_rotulo, itr = _itr_mais_novo(tri)
+    rel = d.get("release_ri") or {}
+    hist = d.get("releases_historico") or []
+    primeiro = hist[0] if hist else {}
+    rel_periodo = rel.get("periodo") or primeiro.get("periodo")
+    rel_data = data_release(rel if rel.get("data") else primeiro)
+    rel_fonte = rel.get("fonte") or primeiro.get("fonte")
+    rel_ord = ordem_periodo(rel_periodo)
+    vencido, venc_data = trimestre_vencido()
+    defasagem = None
+    if itr != (0, 0) and rel_ord != (0, 0):
+        defasagem = (itr[0] * 4 + itr[1]) - (rel_ord[0] * 4 + rel_ord[1])
+    atraso_cal = (vencido[0] * 4 + vencido[1]) - (rel_ord[0] * 4 + rel_ord[1]) if (vencido != (0, 0) and rel_ord != (0, 0)) else None
+    itr_cal = (vencido[0] * 4 + vencido[1]) - (itr[0] * 4 + itr[1]) if (vencido != (0, 0) and itr != (0, 0)) else None
+    detalhes = [f"coletado em {gerado or '-'} | idade {fmt(idade, 1) if idade is not None else '-'} h"
+                f" | teto {teto} h ({'dia util' if dia_util else 'fim de semana'}, horario de Brasilia)",
+                (f"ITR mais novo: {itr_rotulo} ({_rotulo_curto(itr)}) | {fonte}" if itr_rotulo
+                 else "ITR mais novo: AUSENTE | sem demonstracao oficial no JSON"),
+                f"release mais novo: {rel_periodo or 'AUSENTE'} | {rel_data or '-'} | {rel_fonte or '-'}",
+                (f"calendario: ultimo trimestre com prazo vencido {_rotulo_curto(vencido)} (venceu em {venc_data:%d/%m/%Y})"
+                 if vencido != (0, 0) else "calendario: nao calculado")]
+    if defasagem is None:
+        detalhes.append("defasagem: nao da para medir (falta ITR ou release)")
+    elif defasagem == 0:
+        detalhes.append("defasagem: 0 trimestre | release e ITR no mesmo trimestre")
+    elif defasagem > 0:
+        detalhes.append(f"defasagem: {defasagem} trimestre(s) | release ATRAS do ITR: a fala da gestao e mais velha que os numeros")
+    else:
+        detalhes.append(f"defasagem: {defasagem} trimestre(s) | release a frente do ITR"
+                        + (" (normal logo apos a divulgacao)" if defasagem == -1 else " (confira o trimestre do release)"))
+    bloco = d.get("frescor")
+    detalhes.append("bloco frescor do coletor: " + (" | ".join(f"{k} {json.dumps(v, ensure_ascii=False)}" for k, v in bloco.items() if k != "nota")
+                    if isinstance(bloco, dict) and bloco else "ausente (JSON gravado antes de o coletor medir frescor)"))
+    motivos, avisos = [], []
+    if defasagem is None:
+        motivos.append("SEM DADO (falta ITR ou release)")
+    elif defasagem > 0:
+        motivos.append(f"RELEASE VELHO ({defasagem} trimestre{'s' if defasagem > 1 else ''} atras do ITR)")
+    elif defasagem <= -2:
+        motivos.append(f"RELEASE ADIANTADO ({-defasagem} trimestres a frente do ITR: trimestre do release suspeito)")
+    if atraso_cal is not None and atraso_cal > 0 and not any(m.startswith("RELEASE VELHO") for m in motivos):
+        motivos.append(f"RELEASE VELHO (calendario: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, release e {rel_periodo})")
+    if itr_cal is not None and itr_cal > 0:
+        motivos.append(f"ITR VELHO (calendario: {_rotulo_curto(vencido)} venceu em {venc_data:%d/%m}, ITR e {_rotulo_curto(itr)})")
+    if idade is None:
+        motivos.append("COLETA VELHA (gerado_em ilegivel)")
+    elif idade > teto:
+        motivos.append(f"COLETA VELHA ({idade:.0f}h)")
+    if _eh_b3_sem_bdr(tk) and not _mapeado_no_ri(tk):
+        avisos.append("site de RI: NAO MAPEADO em ri_fontes.py; com a CVM sem indice, a coleta nao vai achar release novo. "
+                      "Mapeie a central de resultados (WebSearch) e leve a main ANTES de disparar")
+    return motivos, avisos, detalhes
+
+
+JANELA_TRIMESTRES = 8
+COBERTURA_MIN_CHARS = 4000     # abaixo disso o documento nao sustenta analise: conta como lacuna
+_RE_DINHEIRO = re.compile(r"(?i)R\$\s*[\d.,]+|US\$\s*[\d.,]+|\d[\d.,]*\s*(?:milh|bilh|million|billion)")
+
+
+def janela_obrigatoria(d=None, n=JANELA_TRIMESTRES, hoje=None):
+    """Os `n` trimestres que um deep search exige, do mais novo para o mais antigo.
+
+    A ponta e a mesma referencia do frescor: o mais novo entre o ITR/XBRL e o trimestre cujo prazo
+    legal de divulgacao ja venceu. A janela vem do CALENDARIO, nao do que o coletor achou: ela e igual
+    para todo ativo, e e por isso que ela serve de criterio."""
+    vencido, _ = trimestre_vencido(hoje)
+    ponta = vencido
+    if d:
+        try:
+            _, _, tri, _, _, _, _ = serie_oficial(d)
+            _, itr = _itr_mais_novo(tri or {})
+            if itr and itr > ponta:
+                ponta = itr
+        except Exception:
+            pass
+    ano, t = ponta
+    if not ano:
+        return []
+    janela = []
+    for _ in range(max(0, n)):
+        janela.append(f"{t}T{str(ano)[-2:]}")
+        t -= 1
+        if t == 0:
+            t, ano = 4, ano - 1
+    return janela
+
+
+def _mediana(valores):
+    v = sorted(x for x in valores if x)
+    if not v:
+        return 0
+    meio = len(v) // 2
+    return v[meio] if len(v) % 2 else (v[meio - 1] + v[meio]) / 2
+
+
+def _estado_do_release(r, piso_relativo=0):
+    """('ok'|'CURTO'|'FRACO', motivo) de uma entrada do indice de releases.
+
+    Tamanho nao mede o problema sozinho: as demonstracoes auditadas do XP tem 184 mil caracteres e
+    nao sao release. Por isso o estado tambem olha o veredito de conteudo que o coletor gravou
+    (`classe_sec`), e entrada da rota SEC sem esse veredito conta como SUSPEITA, nunca como ok."""
+    chars = r.get("caracteres_total") or 0
+    if chars < COBERTURA_MIN_CHARS:
+        return "CURTO", f"texto de {chars} caracteres"
+    if piso_relativo and chars < piso_relativo:
+        return "CURTO", f"texto de {chars} caracteres, muito abaixo da mediana do ticker"
+    if str(r.get("classe_sec") or "") == "nao":
+        return "FRACO", "documento da SEC classificado como nao-release"
+    if "SEC" in str(r.get("fonte") or "") and not r.get("classe_sec"):
+        return "SUSPEITO", "documento da SEC gravado antes do classificador de conteudo; nao conferido"
+    if (r.get("preferencia") or 1) >= 3:
+        return "FRACO", "documento nao tem cara de release de resultado"
+    return "ok", ""
+
+
+def _periodos_oficiais(d):
+    """Trimestres com demonstracao oficial, como (ano, tri). Limite inferior da cobertura: companhia
+    aberta ha um ano nao tem release de 3T24, e a trava nao pode ficar presa nisso."""
+    try:
+        _, _, tri, _, _, _, _ = serie_oficial(d or {})
+    except Exception:
+        return set()
+    achados = set()
+    for linha in (tri or {}).values():
+        if isinstance(linha, dict):
+            for periodo, valor in linha.items():
+                if valor is not None:
+                    o = ordem_periodo(periodo)
+                    if o != (0, 0):
+                        achados.add(o)
+    return achados
+
+
+def avaliar_cobertura(tk, d=None, idx=None, n=JANELA_TRIMESTRES):
+    """(faltando, fracos, linhas, janela) da janela obrigatoria contra o indice de releases do branch.
+
+    `faltando` = trimestre sem release guardado. `fracos` = trimestre com release guardado que nao
+    serve de fonte (texto curto, ou documento que nao e release de resultado). Os dois bloqueiam:
+    para a mesa, linha no indice nao e dado."""
+    if idx is None:
+        idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
+    janela = janela_obrigatoria(d, n)
+    por_periodo = {(r.get("periodo") or "").upper(): r for r in (idx.get("releases") or [])}
+    piso_relativo = (_mediana([r.get("caracteres_total") for r in (idx.get("releases") or [])]) or 0) * 0.25
+    oficiais = _periodos_oficiais(d)
+    # serie curta e coleta truncada, nao companhia nova: nesse caso nada e dispensado
+    mais_antigo = min(oficiais) if (oficiais and len(oficiais) >= 4) else None
+    faltando, fracos, linhas, na = [], [], [], []
+    for periodo in janela:
+        r = por_periodo.get(periodo)
+        if not r:
+            antes_de_existir = bool(mais_antigo) and ordem_periodo(periodo) < mais_antigo
+            (na if antes_de_existir else faltando).append(periodo)
+            linhas.append({"periodo": periodo, "estado": "n/a" if antes_de_existir else "AUSENTE",
+                           "data": "-", "chars": 0, "fonte": "-", "arquivo": None,
+                           "assunto": "anterior a primeira demonstracao oficial" if antes_de_existir else "-"})
+            continue
+        estado, motivo = _estado_do_release(r, piso_relativo)
+        if estado != "ok":
+            fracos.append({"periodo": periodo, "motivo": motivo,
+                           "assunto": str(r.get("assunto") or "")[:60]})
+        linhas.append({"periodo": periodo, "estado": estado, "data": data_release(r),
+                       "chars": r.get("caracteres_total") or 0,
+                       "assunto": str(r.get("assunto") or r.get("arquivo_sec") or r.get("formulario") or "-")[:52],
+                       "fonte": str(r.get("fonte") or "-")[:34], "arquivo": r.get("arquivo"),
+                       "motivo": motivo})
+    fora = sorted((p for p in por_periodo if p and p not in set(janela)), key=ordem_periodo, reverse=True)
+    return faltando, fracos, linhas, {"janela": janela, "fora": fora, "indice": idx, "nao_aplicavel": na}
+
+
+def veredito_cobertura(tk, d=None, idx=None):
+    """'COBERTURA 8/8' ou 'COBERTURA 6/8, faltam 1T26, 4T25'. Curto: o Douglas le no celular."""
+    faltando, fracos, linhas, extra = avaliar_cobertura(tk, d, idx)
+    total = (len(extra["janela"]) or JANELA_TRIMESTRES) - len(extra.get("nao_aplicavel") or [])
+    ok = total - len(faltando) - len(fracos)
+    if not faltando and not fracos:
+        return f"COBERTURA {ok}/{total}"
+    partes = []
+    if faltando:
+        nomes = faltando[:3] + ([f"+{len(faltando) - 3}"] if len(faltando) > 3 else [])
+        partes.append(("falta " if len(faltando) == 1 else "faltam ") + ", ".join(nomes))
+    if fracos:
+        nomes = [f["periodo"] for f in fracos][:3] + ([f"+{len(fracos) - 3}"] if len(fracos) > 3 else [])
+        partes.append(("vazio em " if len(fracos) == 1 else "vazios em ") + ", ".join(nomes))
+    return f"COBERTURA {ok}/{total}, " + "; ".join(partes)
+
+
+def veredito(tk, d, idx=None):
+    """A primeira linha de todo leitor: frescor E cobertura, nessa ordem, numa linha so.
+
+    Frescor responde 'o dado e de hoje?'; cobertura responde 'o dado esta inteiro?'. O deep search da
+    DIRR3 saiu com 1T26 e 4T25 vazios porque so a primeira pergunta era feita."""
+    try:
+        return f"{veredito_frescor(tk, d)} | {veredito_cobertura(tk, d, idx)}"
+    except Exception as e:
+        return f"{veredito_frescor(tk, d)} | COBERTURA: nao avaliada ({type(e).__name__})"
+
+
+def cobertura(tk, pares_tambem=False):
+    """A janela obrigatoria de trimestres, trimestre a trimestre: o que existe, o que falta e o que
+    esta vazio. E a TRAVA DE COBERTURA das skills: deep search so comeca com saida 0.
+
+    Saida 0 = janela completa (todo trimestre com release de texto util).
+    Saida 1 = falta trimestre ou o documento guardado nao serve: dispare a coleta e repita."""
+    d = baixar(f"ativos/{tk}.json", ttl=0)
+    if not d:
+        print(f"{tk}: nao esta no branch dados. Dispare a coleta (tickers: {tk}, pares: auto).")
+        print("VEREDITO: SEM DADO (ativo fora do branch)")
+        return 1
+    idx = baixar(f"releases/{tk}/index.json", ttl=0) or {}
+    faltando, fracos, linhas, extra = avaliar_cobertura(tk, d, idx)
+    janela = extra["janela"]
+    na = extra.get("nao_aplicavel") or []
+    total = (len(janela) or JANELA_TRIMESTRES) - len(na)
+    ok = total - len(faltando) - len(fracos)
+    print(f"== {tk}: cobertura da janela de {total} trimestres (o que um deep search exige)")
+    print(f"  coletado em {d.get('gerado_em')} | indice de releases atualizado em {idx.get('atualizado_em') or 'nunca'}")
+    if not idx.get("releases"):
+        print(f"  releases/{tk}/index.json ausente ou vazio: nenhum release guardado no branch")
+    print(f"  {'trimestre':10} {'estado':8} {'data':12} {'chars':>8}  documento")
+    for l in linhas:
+        print(f"  {l['periodo']:10} {l['estado']:8} {str(l['data']):12} {l['chars']:>8}  {l['assunto']}"
+              + (f"  [{l.get('motivo')}]" if l.get("motivo") else ""))
+    if na:
+        print(f"  n/a (antes da primeira demonstracao oficial, nao existe release): {', '.join(na)}")
+    if extra["fora"]:
+        print(f"  fora da janela (nao contam): {', '.join(extra['fora'])}")
+    print("VEREDITO: " + ("COMPLETA" if ok == total else veredito_cobertura(tk, d, idx)))
+    if ok != total:
+        print("A SEGUIR:")
+        print(f"  1. dispare coletar-dados.yml (ref main) com tickers: {tk} e pares: auto e espere terminar;")
+        print(f"     o coletor agora vai atras do trimestre que falta mesmo sendo mais antigo que o mais novo.")
+        print(f"  2. repita: python3 mesa.py cobertura {tk}")
+        print("  3. se continuar faltando depois da coleta, a lacuna vira a PRIMEIRA FRASE da resposta,")
+        print("     com o trimestre ao lado, e nenhum numero daquele trimestre e citado.")
+    codigo = 0 if ok == total else 1
+    if codigo == 1:
+        # Saida 2: o coletor com a logica de janela JA rodou neste ativo (ha menos de 24h) e relatou a
+        # mesma lacuna. Repetir a coleta nao vai resolver: ou a fonte nao publica aquele trimestre, ou
+        # o site bloqueia o coletor. A skill para de insistir e declara a lacuna.
+        bloco = d.get("cobertura") or {}
+        idade = _horas_desde(d.get("gerado_em"))
+        mesma = set(bloco.get("faltando") or []) | {f.get("periodo") for f in (bloco.get("fracos") or [])}
+        pedida = set(faltando) | {f["periodo"] for f in fracos}
+        if bloco and idade is not None and idade < 24 and mesma and pedida <= mesma:
+            codigo = 2
+            print("  A coleta mais recente ja tinha essa mesma lacuna: repetir nao resolve.")
+            print("  Declare a lacuna na primeira frase e siga sem citar numero desses trimestres.")
+    if pares_tambem:
+        grupo = _tickers_do_grupo(tk)
+        if grupo:
+            print(f"\n== grupo de pares ({len(grupo)} ativos): a comparacao contra a mediana exige todos")
+            for outro in grupo:
+                if outro == tk:
+                    continue
+                do = baixar(f"ativos/{outro}.json", ttl=0)
+                if not do:
+                    print(f"  {outro:8} SEM DADO (fora do branch)")
+                    codigo = 1
+                    continue
+                f2, fr2, _, e2 = avaliar_cobertura(outro, do)
+                t2 = (len(e2["janela"]) or JANELA_TRIMESTRES) - len(e2.get("nao_aplicavel") or [])
+                def _lista(itens):
+                    nomes = itens[:4] + ([f"+{len(itens) - 4}"] if len(itens) > 4 else [])
+                    return ", ".join(nomes)
+                print(f"  {outro:8} {t2 - len(f2) - len(fr2)}/{t2}" +
+                      (f"  faltam {_lista(f2)}" if f2 else "") +
+                      (f"  vazios {_lista([x['periodo'] for x in fr2])}" if fr2 else ""))
+                if f2 or fr2:
+                    codigo = 1
+    return codigo
+
+
+def _tickers_do_grupo(tk):
+    """Tickers do grupo de pares do ativo (pares.py), incluindo ele."""
+    try:
+        import pares as _p
+    except Exception:
+        return []
+    for g in _p.PARES.values():
+        lista = g.get("tickers") if isinstance(g, dict) else g
+        if tk in (lista or []):
+            return list(lista)
+    return []
+
+
+def veredito_frescor(tk, d):
+    """Uma linha para o topo de qualquer leitor: 'FRESCOR DIRR3: ATUAL' ou os motivos."""
+    motivos, avisos, _ = avaliar_frescor(tk, d)
+    linha = f"FRESCOR {tk}: " + (" | ".join(motivos) if motivos else "ATUAL")
+    if avisos:
+        linha += " | AVISO: " + " | ".join(avisos)
+    return linha
+
+
+def frescor(tk):
+    """Idade da coleta e defasagem entre ITR, calendario e release em um VEREDITO. E a trava das skills.
+
+    Saida 0 = ATUAL (release no trimestre do ITR ou mais novo, ITR e release no trimestre que o calendario
+    exige, e coleta dentro do teto de horas). Saida 1 = RELEASE VELHO, ITR VELHO, RELEASE ADIANTADO,
+    COLETA VELHA ou SEM DADO: a skill dispara a coleta e repete o comando. Le sem cache local.
+    """
+    d = baixar(f"ativos/{tk}.json", ttl=0)
+    if not d:
+        print(f"{tk}: nao esta no branch dados. Dispare a coleta (pares: auto).")
+        print("VEREDITO: SEM DADO (ativo fora do branch)")
+        return 1
+    motivos, avisos, detalhes = avaliar_frescor(tk, d)
+    print(f"== {tk}: frescor do dado no branch dados")
+    for l in detalhes:
+        print("  " + l)
+    for a in avisos:
+        print("  AVISO: " + a)
+    print("VEREDITO: " + (" | ".join(motivos) if motivos else "ATUAL"))
+    return 1 if motivos else 0
+
+
+# ---------------------------------------------------------------------------
+# Kinea: carteira na CVM (CDA) e cartas do gestor (kinea.py, workflow kinea.yml)
+# ---------------------------------------------------------------------------
+
+def _idade_h(iso):
+    try:
+        t = datetime.datetime.strptime(iso[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=datetime.timezone.utc)
+        return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() / 3600
+    except Exception:
+        return None
+
+
+def _pct(v, casas=2):
+    return "-" if v is None else f"{100 * v:.{casas}f}%".replace(".", ",")
+
+
+def _mi(v, casas=1):
+    return "-" if v is None else fmt(v / 1e6, casas)
+
+
+def veredito_kinea(cda, idx):
+    partes = []
+    if cda:
+        h = _idade_h(cda.get("gerado_em") or "")
+        partes.append(f"CDA ate {cda['meses'][-1] if cda.get('meses') else '?'} ({len(cda.get('meses') or [])} meses, "
+                      f"coleta de {cda.get('gerado_em', '?')[:10]}{'' if h is None else f', {h:.0f}h'})")
+    else:
+        partes.append("CDA AUSENTE (kinea/cda.json nao esta no branch: dispare kinea.yml)")
+    if idx:
+        meses = sorted({c.get("mes_ref") for c in idx.get("cartas", []) if c.get("mes_ref")})
+        partes.append(f"cartas {len(idx.get('cartas', []))}, de {meses[0] if meses else '?'} a {meses[-1] if meses else '?'}")
+    else:
+        partes.append("CARTAS AUSENTES (kinea/cartas/index.json nao esta no branch)")
+    return "KINEA: " + " | ".join(partes)
+
+
+def kinea(args):
+    sub = args[0].lower() if args else "resumo"
+    cda = baixar("kinea/cda.json")
+    idx = baixar("kinea/cartas/index.json")
+    print(veredito_kinea(cda, idx))
+    if sub == "resumo":
+        if cda:
+            print("\n== carteira em construtoras, soma dos fundos Kinea (so acao a vista), por mes")
+            emit = cda.get("acoes_emitidas") or {}
+            por_tk = {}
+            for mes, tot in (cda.get("total_por_mes") or {}).items():
+                for tk, v in tot.items():
+                    por_tk.setdefault(tk, {})[mes] = v
+            if not por_tk:
+                print("   nenhum fundo Kinea com construtora na CDA dos meses lidos (posicao zerada ou sob sigilo)")
+            for tk in sorted(por_tk, key=lambda k: -max(x["valor"] for x in por_tk[k].values())):
+                print(f"\n-- {tk} (acoes emitidas: {fmt((emit.get(tk) or 0) / 1e6, 1) + ' mi' if emit.get(tk) else '-'})")
+                print(f"   {'mes':8s} {'acoes':>14s} {'R$ mi':>9s} {'% empresa':>10s} {'fundos':>6s} {'% bolsa Kinea':>13s}")
+                for mes in cda.get("meses", []):
+                    v = por_tk[tk].get(mes)
+                    if not v:
+                        print(f"   {mes:8s} {'sem posicao':>14s}")
+                        continue
+                    print(f"   {mes:8s} {fmt(v['qt'], 0):>14s} {_mi(v['valor']):>9s} {_pct(v.get('pct_empresa')):>10s} "
+                          f"{v['fundos']:>6d} {_pct(v.get('pct_acoes_kinea')):>13s}")
+            print("\n   sem posicao = zerada ou sob sigilo: a CVM deixa o fundo omitir uma posicao da carteira aberta por ate 90 dias")
+            ult = (cda.get("meses") or [None])[-1]
+            if ult:
+                top = (cda.get("maiores_acoes") or {}).get(ult) or []
+                tot = (cda.get("total_acoes") or {}).get(ult)
+                print(f"\n== maiores posicoes em acoes da Kinea em {ult} (total R$ {_mi(tot, 0)} mi)")
+                for tk, v in top[:15]:
+                    print(f"   {tk:7s} R$ {_mi(v):>8s} mi  {_pct(v / tot if tot else None, 1):>6s}")
+                conf = (cda.get("confidenciais") or {}).get(ult)
+                if conf and conf.get("linhas"):
+                    print(f"   sob sigilo em {ult}: {conf['linhas']} linhas, R$ {_mi(conf.get('valor'))} mi "
+                          f"({', '.join(conf.get('aplicacoes') or [])[:120]}) - a CVM publica sem o nome do ativo")
+        if idx:
+            print("\n== cartas guardadas (mais novas primeiro)")
+            for c in idx.get("cartas", [])[:25]:
+                igual = f"  = {c['texto_igual_a'].split('/')[-1]}" if c.get("texto_igual_a") else ""
+                print(f"   {c.get('mes_ref') or '?':8s} {c.get('familia', ''):12s} {str(c.get('fundo'))[:34]:34s} "
+                      f"{c.get('paginas', 0):>3d} p.{igual}")
+            if len(idx.get("cartas", [])) > 25:
+                print(f"   ... mais {len(idx['cartas']) - 25}")
+        return 0
+    if sub == "carteira":
+        if not cda:
+            return 1
+        tk = args[1].upper() if len(args) > 1 else "CURY3"
+        pos = [p for p in cda.get("posicoes", []) if p.get("ticker") == tk]
+        if not pos:
+            print(f"{tk}: nenhum fundo Kinea com a acao nos meses lidos (ou posicao sob sigilo).")
+            return 0
+        print(f"\n== {tk} fundo a fundo (CDA, CVM)")
+        for mes in cda.get("meses", []):
+            linhas = sorted((p for p in pos if p["mes"] == mes), key=lambda p: -(p.get("valor") or 0))
+            if not linhas:
+                continue
+            print(f"\n-- {mes}")
+            for p in linhas:
+                mov = ""
+                if p.get("qt_comprada_mes") or p.get("qt_vendida_mes"):
+                    mov = f" | comprou {fmt(p.get('qt_comprada_mes') or 0, 0)}, vendeu {fmt(p.get('qt_vendida_mes') or 0, 0)}"
+                aviso = "" if p.get("a_vista", True) else f" [{p.get('aplicacao')}]"
+                print(f"   {str(p.get('fundo'))[:52]:52s} {fmt(p.get('qt'), 0):>12s} acoes  R$ {_mi(p.get('valor')):>7s} mi"
+                      f"  {_pct(p.get('pct_pl'))} do PL{mov}{aviso}")
+        return 0
+    if sub in ("cartas", "carta"):
+        if not idx:
+            return 1
+        cartas = idx.get("cartas", [])
+        if sub == "carta":
+            mes = args[1] if len(args) > 1 else None
+            nome = " ".join(args[2:]).lower() if len(args) > 2 else ""
+            alvo = [c for c in cartas if (not mes or c.get("mes_ref") == mes or mes in c.get("arquivo", ""))
+                    and nome in str(c.get("fundo") or "").lower()]
+            if not alvo:
+                print("nenhuma carta com esse mes/fundo; `mesa.py kinea` lista as guardadas")
+                return 1
+            c = alvo[0]
+            texto = baixar(c["arquivo"], texto=True)
+            print(f"== {c.get('fundo')} | {c.get('mes_ref')} | {c.get('paginas')} p. | {c.get('url')}\n")
+            print(texto or "(texto indisponivel)")
+            return 0
+        padrao = args[args.index("--grep") + 1] if "--grep" in args and args.index("--grep") + 1 < len(args) else None
+        if not padrao:
+            print("use: mesa.py kinea cartas --grep \"Cury|construtora\"")
+            return 1
+        rx = re.compile(padrao, re.I)
+        unicas = [c for c in cartas if not c.get("texto_igual_a")]
+        print(f"== \"{padrao}\" em {len(unicas)} textos unicos de carta ({len(cartas)} arquivos), do mais novo ao mais antigo")
+        achou = False
+        for c in unicas:
+            texto = baixar(c["arquivo"], texto=True)
+            if not texto:
+                continue
+            achados = _trechos(texto, rx, max_por_release=3)
+            if not achados:
+                continue
+            achou = True
+            iguais = [x.get("fundo") for x in cartas if x.get("texto_igual_a") == c["arquivo"]]
+            print(f"\n-- {c.get('mes_ref')} {c.get('fundo')}" + (f" (mesmo texto: {', '.join(iguais[:4])})" if iguais else ""))
+            for t in achados:
+                print(f"   . {t}")
+        if not achou:
+            print("\nnenhuma carta guardada fala nisso.")
+        return 0
+    if sub in ("videos", "video"):
+        return kinea_videos(sub, args)
+    if sub in ("docs", "doc"):
+        return kinea_docs(sub, args)
+    if sub == "imagens":
+        return kinea_imagens(args)
+    print("use: mesa.py kinea [carteira TICKER | cartas --grep X | carta AAAA-MM FUNDO | videos [--grep X] | "
+          "video ID [--de MM:SS --ate MM:SS] | docs [--grep X] | doc TRECHO | imagens [FILTRO]]")
+    return 1
+
+
+def _opcao(args, nome):
+    return args[args.index(nome) + 1] if nome in args and args.index(nome) + 1 < len(args) else None
+
+
+def _segundos(marca):
+    """'38:39' ou '1:02:03' ou '[00:38:39]' -> segundos."""
+    partes = [int(x) for x in re.findall(r"\d+", marca or "")][-3:]
+    seg = 0
+    for x in partes:
+        seg = seg * 60 + x
+    return seg
+
+
+def _hms_curto(seg):
+    seg = int(seg or 0)
+    return f"{seg // 3600}:{seg % 3600 // 60:02d}:{seg % 60:02d}" if seg >= 3600 else f"{seg // 60}:{seg % 60:02d}"
+
+
+def kinea_videos(sub, args):
+    vi = baixar("kinea/videos/index.json")
+    if not vi:
+        print("VIDEOS AUSENTES (kinea/videos/index.json nao esta no branch: dispare kinea.yml com partes midia)")
+        return 1
+    videos = vi.get("videos", [])
+    com = [v for v in videos if v.get("arquivo")]
+    h = _idade_h(vi.get("gerado_em") or "")
+    print(f"VIDEOS KINEA: {len(videos)} guardados, {len(com)} com legenda | coleta de {(vi.get('gerado_em') or '?')[:10]}"
+          f"{'' if h is None else f' ({h:.0f}h)'} | listagem {vi.get('listagem')} | {vi.get('canal')}")
+    print("   legenda automatica e transcricao de maquina: nome proprio pode vir errado (Cury -> Curi, Kiri); confira no video")
+    if sub == "video":
+        alvo = " ".join(a for a in args[1:] if not a.startswith("--") and a not in (_opcao(args, "--de"), _opcao(args, "--ate"))).lower()
+        v = next((v for v in com if v["id"].lower() == alvo), None) or next(
+            (v for v in com if alvo and alvo in (v.get("titulo") or "").lower()), None)
+        if not v:
+            print("nenhum video com legenda casa com isso; `mesa.py kinea videos` lista os guardados")
+            return 1
+        texto = baixar(v["arquivo"], texto=True) or ""
+        de, ate = _opcao(args, "--de"), _opcao(args, "--ate")
+        if de or ate:
+            ini, fim = _segundos(de) if de else 0, _segundos(ate) if ate else 10 ** 9
+            linhas = [l for l in texto.splitlines() if not l.startswith("[") or ini <= _segundos(l[:10]) <= fim]
+            texto = "\n".join(linhas)
+        print(f"\n== {v.get('data')} | {v.get('titulo')} | {v.get('url')}")
+        if v.get("capitulos"):
+            print("   capitulos: " + " | ".join(f"{_hms_curto(c['t'])} {c.get('titulo')}" for c in v["capitulos"]))
+        print()
+        print(texto)
+        return 0
+    padrao = _opcao(args, "--grep")
+    if not padrao:
+        print(f"\n   {'data':10s} {'min':>4s}  titulo")
+        for v in videos[:60]:
+            if v.get("arquivo"):
+                marca = f"legenda {v.get('legenda')}, {fmt(v.get('chars', 0), 0)} chars"
+            else:
+                marca = v.get("legenda") or f"falhou: {(v.get('erro') or '')[:60]}"
+            print(f"   {v.get('data') or '?':10s} {str(v.get('duracao_min') or '?'):>4s}  {str(v.get('titulo'))[:64]:64s} | {marca} | {v['id']}")
+        for l in (vi.get("log") or [])[:5]:
+            print(f"   log: {l[:160]}")
+        return 0
+    rx = re.compile(padrao, re.I)
+    print(f"\n== \"{padrao}\" nas legendas e descricoes, do video mais novo ao mais antigo")
+    achou = False
+    for v in videos:
+        texto = baixar(v["arquivo"], texto=True) or "" if v.get("arquivo") else ""
+        linhas = [l for l in texto.splitlines() if l.startswith("[") and rx.search(l)]
+        desc = rx.search(v.get("descricao") or "")
+        caps = [c for c in v.get("capitulos") or [] if rx.search(c.get("titulo") or "")]
+        if not linhas and not desc and not caps:
+            continue
+        achou = True
+        print(f"\n-- {v.get('data')} {v.get('titulo')} ({v.get('duracao_min') or '?'} min) {v.get('url')}"
+              + ("" if v.get("arquivo") else " [sem legenda guardada]"))
+        for c in caps:
+            print(f"   capitulo {_hms_curto(c['t'])} {c.get('titulo')}  [{v['url']}&t={c['t']}s]")
+        if desc:
+            d = v["descricao"]
+            print(f"   descricao: ...{d[max(0, desc.start() - 120):desc.end() + 160]}...".replace("\n", " "))
+        for l in linhas[:15]:
+            seg = _segundos(l[:10])
+            corpo = l[11:]
+            m = rx.search(corpo)
+            trecho = corpo[max(0, m.start() - 220):m.end() + 260] if m else corpo[:480]
+            print(f"   {l[:10]} {trecho}  [{v['url']}&t={seg}s]")
+        if len(linhas) > 15:
+            print(f"   ... mais {len(linhas) - 15} trechos; `mesa.py kinea video {v['id']}` traz a legenda inteira")
+    if not achou:
+        print("\nnenhum video guardado fala nisso (so vale para os que tem legenda; veja a lista sem --grep).")
+    return 0
+
+
+def kinea_docs(sub, args):
+    di = baixar("kinea/docs/index.json")
+    if not di:
+        print("DOCUMENTOS AUSENTES (kinea/docs/index.json nao esta no branch: dispare kinea.yml com partes midia)")
+        return 1
+    docs = di.get("docs", [])
+    print(f"DOCUMENTOS KINEA: {len(docs)} (PDFs e posts do site desde {di.get('desde')}) | coleta de {(di.get('gerado_em') or '?')[:10]}")
+    if sub == "doc":
+        alvo = " ".join(args[1:]).lower()
+        d = next((d for d in docs if alvo and (alvo in (d.get("titulo") or "").lower() or alvo in d.get("arquivo", "").lower())), None)
+        if not d:
+            print("nenhum documento casa com isso; `mesa.py kinea docs` lista os guardados")
+            return 1
+        print(f"\n== {d.get('publicado_em')} | {d.get('titulo')} | {d.get('url')}\n")
+        print(baixar(d["arquivo"], texto=True) or "(texto indisponivel)")
+        return 0
+    padrao = _opcao(args, "--grep")
+    if not padrao:
+        for d in docs:
+            img = f", {len(d['imagens'])} pag. de posicoes em imagem" if d.get("imagens") else ""
+            pag = f"{d.get('paginas')} p." if d.get("paginas") else f"{fmt(d.get('chars', 0), 0)} chars"
+            print(f"   {d.get('publicado_em', '?'):10s} {d.get('tipo', ''):4s} {str(d.get('titulo'))[:60]:60s} {pag}{img}")
+        return 0
+    rx = re.compile(padrao, re.I)
+    print(f"\n== \"{padrao}\" nos documentos, do mais novo ao mais antigo")
+    achou = False
+    for d in docs:
+        texto = baixar(d["arquivo"], texto=True)
+        achados = _trechos(texto or "", rx, max_por_release=4)
+        if not achados:
+            continue
+        achou = True
+        print(f"\n-- {d.get('publicado_em')} {d.get('tipo')} {d.get('titulo')} ({d.get('url')})")
+        for t in achados:
+            print(f"   . {t}")
+    if not achou:
+        print("\nnenhum documento guardado fala nisso.")
+    return 0
+
+
+def kinea_imagens(args):
+    filtro = " ".join(args[1:]).lower()
+    idx = baixar("kinea/cartas/index.json") or {}
+    di = baixar("kinea/docs/index.json") or {}
+    linhas = []
+    for c in idx.get("cartas", []):
+        for i in c.get("imagens") or []:
+            linhas.append((c.get("mes_ref") or "", f"carta {c.get('fundo')}", i))
+    for d in di.get("docs", []):
+        for i in d.get("imagens") or []:
+            linhas.append((d.get("publicado_em") or "", f"{d.get('tipo')} {d.get('titulo')}", i))
+    linhas = [l for l in linhas if not filtro or filtro in (l[0] + " " + l[1] + " " + l[2]["arquivo"]).lower()]
+    print(f"== {len(linhas)} paginas de posicoes em imagem (nelas as empresas aparecem como logotipo; o texto do PDF nao traz o nome)")
+    for quando, onde, i in sorted(linhas, key=lambda l: l[0], reverse=True):
+        print(f"   {quando:10s} {onde[:48]:48s} p. {i['pagina']:>2d}  {BASE}{i['arquivo']}")
+    if linhas:
+        print("   para ver: baixe com curl e abra a imagem (Read); cite a pagina e o mes")
+    return 0
+
+
+# Boletim Diario do Mercado da B3 (boletim_b3.py, workflow boletim-b3.yml)
+# ---------------------------------------------------------------------------
+
+def _pregao_esperado(agora=None):
+    """Ultimo pregao que a rodada da noite (21h40 BRT) ja deveria ter gravado."""
+    brt = datetime.timezone(datetime.timedelta(hours=-3))
+    agora = (agora or datetime.datetime.now(datetime.timezone.utc)).astimezone(brt)
+    d = agora.date() if (agora.hour, agora.minute) >= (21, 40) else agora.date() - datetime.timedelta(days=1)
+    try:
+        from livro import relogios
+        return relogios.ultimo_dia_util("B3", d)
+    except Exception:           # sem pyyaml na sessao: so fim de semana, sem feriado
+        while d.weekday() > 4:
+            d -= datetime.timedelta(days=1)
+        return d
+
+
+def veredito_boletim(manifest, resumo, agora=None):
+    """(linha, ok). ATUAL = e o pregao esperado; COMPLETO = a B3 ja publicou aluguel e posicoes em aberto."""
+    if not manifest or not resumo:
+        return "BOLETIM B3: AUSENTE (boletim_b3/manifest.json nao esta no branch dados: dispare boletim-b3.yml)", False
+    esperado = _pregao_esperado(agora).isoformat()
+    pregao, sit = resumo["pregao"], resumo["situacao"]
+    atual = pregao >= esperado
+    h = _idade_h(resumo.get("gerado_em") or "")
+    partes = [f"pregao {pregao}", "ATUAL" if atual else f"VELHO (esperado {esperado})",
+              "COMPLETO" if sit["completo"] else "PARCIAL (falta: " + ", ".join(sit["faltam"]) + ")",
+              f"{len(resumo.get('sinais') or [])} sinais", f"coleta de {resumo.get('gerado_em', '?')}" + ("" if h is None else f" ({h:.0f}h)")]
+    return "BOLETIM B3: " + " | ".join(partes), atual
+
+
+EMPRESTADO = "  [POSICAO DO PREGAO ANTERIOR: a B3 publica a deste pregao de madrugada]"
+
+
+def _boletim_ativo(tk, resumo, hist, anterior=None):
+    """`anterior` e o resumo do pregao de antes: na rodada da noite a B3 ainda nao publicou aluguel nem
+    posicoes em aberto, e a leitura mostra os do pregao anterior, com a data."""
+    a = (resumo.get("ativos") or {}).get(tk)
+    ant = ((anterior or {}).get("ativos") or {}).get(tk) or {}
+    if not a:
+        print(f"   {tk} nao esta no livro da B3 (config/livro.yaml). No livro: {', '.join(resumo.get('ativos') or {})}")
+        return 1
+    print(f"\n== {tk} no boletim de {resumo['pregao']} ({a.get('nome')})")
+    g = a.get("negocios")
+    if g:
+        print(f"-- negocios (B3 TradeInformationConsolidated, {resumo['pregao']})")
+        print(f"   fechamento R$ {fmt(g.get('fechamento'), 2)} | dia {fmt(g.get('oscilacao_pct'), 2)}% | 5 pregoes {fmt(g.get('var_5d_pct'), 2)}%"
+              f" | min {fmt(g.get('minimo'), 2)} max {fmt(g.get('maximo'), 2)}")
+        print(f"   volume R$ {fmt((g.get('volume_rs') or 0) / 1e6, 1)} mi | {fmt(g.get('negocios'), 0)} negocios | "
+              f"media de {g.get('pregoes_na_media', 0)} pregoes R$ {fmt((g.get('volume_media_rs') or 0) / 1e6, 1) if g.get('volume_media_rs') else '-'} mi"
+              f" | dia/media {fmt(g.get('volume_x_media'), 2) if g.get('volume_x_media') else '-'}x")
+    g, de = a.get("aluguel"), resumo["pregao"]
+    if not g and ant.get("aluguel"):
+        g, de = ant["aluguel"], anterior["pregao"]
+    if g:
+        print(f"-- aluguel de acoes (B3 BTBLendingOpenPosition e BTBLoanBalance, {de})" + ("" if de == resumo["pregao"] else EMPRESTADO))
+        print(f"   saldo {fmt((g.get('saldo_qtd') or 0) / 1e6, 2)} mi de acoes (R$ {fmt((g.get('saldo_rs') or 0) / 1e6, 1)} mi)"
+              f" | % do free float {fmt(g.get('pct_free_float'), 2)} | pregoes de giro {fmt(g.get('pregoes_para_cobrir'), 1)}")
+        print(f"   variacao: dia {fmt(g.get('var_dia_pct'), 2)}% | 5 pregoes {fmt(g.get('var_5d_pct'), 2)}%"
+              f" | taxa do tomador {fmt(g.get('taxa_tomador_media'), 2)}% a.a. (max {fmt(g.get('taxa_tomador_max'), 2)}%)")
+        print(f"   emprestimos do dia: {fmt(g.get('novos_contratos'), 0)} contratos, {fmt((g.get('novos_qtd') or 0) / 1e6, 2)} mi de acoes")
+    g, de = a.get("opcoes"), resumo["pregao"]
+    if g and not g.get("vencimentos"):
+        print(f"-- opcoes, volume do dia ({de}): call R$ {fmt((g.get('volume_call_rs') or 0) / 1e6, 1)} mi, put R$ {fmt((g.get('volume_put_rs') or 0) / 1e6, 1)} mi")
+        g = None
+    if not g and (ant.get("opcoes") or {}).get("vencimentos"):
+        g, de = ant["opcoes"], anterior["pregao"]
+    if g:
+        print(f"-- opcoes (B3 DerivativesOpenPosition + InstrumentsConsolidated, {de})" + ("" if de == resumo["pregao"] else EMPRESTADO))
+        print(f"   posicao em aberto: call {fmt(g.get('posicao_call'), 0)} | put {fmt(g.get('posicao_put'), 0)} | put/call {fmt(g.get('put_call'), 2)}"
+              f" | volume do dia: call R$ {fmt((g.get('volume_call_rs') or 0) / 1e6, 1)} mi, put R$ {fmt((g.get('volume_put_rs') or 0) / 1e6, 1)} mi")
+        for v in g.get("vencimentos") or []:
+            print(f"   vencimento {v['vencimento']} ({v['dias_uteis']} dias uteis): call {fmt(v['posicao_call'], 0)} | put {fmt(v['posicao_put'], 0)}")
+            for tipo in ("call", "put"):
+                print(f"      {tipo:4s} por strike: " + "  ".join(f"{fmt(k, 2)}={fmt(q, 0)}" for k, q in v.get(f"strikes_{tipo}") or []))
+    for chave, titulo in (("indice", "indice (carteira teorica)"), ("etf", "ETF (IOPV e cotas)"), ("adr", "programa de ADR"),
+                          ("termo", "termo"), ("after_market", "after market"), ("cadastro", "cadastro")):
+        if a.get(chave):
+            print(f"-- {titulo}: {json.dumps(a[chave], ensure_ascii=False)}")
+    sinais = [s for s in resumo.get("sinais") or [] if s.get("ativo") == tk]
+    print(f"-- sinais ({len(sinais)})")
+    for s in sinais:
+        print(f"   [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  ({s.get('origem') or 'B3'} {s['fonte']}, {s['data']})")
+    if hist:
+        print("-- ultimos pregoes (historico compacto)")
+        print(f"   {'pregao':10s} {'fech':>8s} {'dia %':>7s} {'vol R$ mi':>10s} {'alug mi':>9s} {'taxa %':>7s}")
+        for d in sorted(hist.get("pregoes") or {})[-12:]:
+            x = (hist["pregoes"][d].get("ativos") or {}).get(tk) or {}
+            print(f"   {d:10s} {fmt(x.get('fech'), 2):>8s} {fmt(x.get('osc'), 2):>7s} {fmt((x.get('vol') or 0) / 1e6, 1) if x.get('vol') else '-':>10s}"
+                  f" {fmt((x.get('alug') or 0) / 1e6, 2) if x.get('alug') else '-':>9s} {fmt(x.get('taxa'), 2):>7s}")
+    return 0
+
+
+def _taxa(t, c):
+    if t is None:
+        return "sem taxa"
+    if c == "% do CDI":
+        return f"{fmt(t, 1)}% do CDI"
+    return f"{fmt(t, 2)}% pre" if c == "Pré" else f"{c or ''} {fmt(t, 2)}%"
+
+
+def _taxa_rf(l):
+    """A taxa dos negocios do dia na B3."""
+    return _taxa(l.get("taxa_media"), l.get("convencao"))
+
+
+def _dm(iso):
+    return f"{str(iso)[8:10]}/{str(iso)[5:7]}" if iso else "-"
+
+
+def _pb(v):
+    """Pontos-base com sinal; a indicativa da ANBIMA anda em decimos."""
+    if v is None:
+        return "-"
+    if not v:
+        return "0"
+    return f"{v:+.0f}" if float(v).is_integer() else f"{v:+.1f}".replace(".", ",")
+
+
+def _ref_rf(l, pregao):
+    """Taxa que vale para comparar o papel (`ref` do resumo): a indicativa da ANBIMA quando ha, senao a dos
+    negocios da B3. Resumo gravado antes de a ANBIMA entrar (01/10/2026) nao tem `ref`: ali so havia os negocios."""
+    if l.get("ref"):
+        return l["ref"]
+    if l.get("taxa_media") is None:
+        return {}
+    return {"taxa": l["taxa_media"], "fonte": "b3", "data": pregao, "premio_dap_pb": l.get("premio_dap_pb"),
+            "premio_base": "vencimento" if l.get("premio_dap_pb") is not None else None,
+            "var_pb": l.get("var_taxa_pb"), "var_contra": l.get("comparado_com")}
+
+
+def _fonte_rf(ref):
+    """'ANBIMA indicativa de 30/09' ou 'B3 negocios de 30/09': de onde vem a taxa e de que dia."""
+    return f"{'ANBIMA indicativa' if ref.get('fonte') == 'anbima' else 'B3 negocios'} de {_dm(ref.get('data'))}"
+
+
+def _boletim_rf(resumo):
+    rf = resumo.get("renda_fixa") or {}
+    if not rf.get("resumo"):
+        print("   renda fixa ausente neste pregao (tabela Trade da B3 nao veio)")
+        return 1
+    pregao, anb = resumo["pregao"], rf.get("anbima") or {}
+    nomes = {"deb_incentivada": "debentures incentivadas", "cri": "CRI", "cra": "CRA", "deb_comum": "debentures nao incentivadas"}
+    print(f"\n== renda fixa de balcao em {rf['data']}: de onde vem cada taxa")
+    print(f"   B3 negocios de {_dm(pregao)}: tabelas Trade + InstrumentRegistration" + (" [PRELIMINAR: a B3 ajusta o balcao em D+1]" if rf.get("preliminar") else "")
+          + f"; cadastro lido para {rf.get('cobertura_cadastro_pct')}% do volume. E a media dos negocios ponderada pelo volume.")
+    if anb.get("data"):
+        print(f"   ANBIMA indicativa de {_dm(anb['data'])}: {anb.get('papeis')} debentures, arquivo publicado em {anb.get('publicado_em') or '?'}"
+              f"; variacao contra {_dm(anb.get('comparado_com'))}; cobre {fmt(anb.get('cobertura_incentivadas_pct'), 0)}% do volume de incentivadas do dia"
+              + ("" if anb["data"] == pregao else f"  [ARQUIVO DE OUTRO PREGAO: o de {_dm(pregao)} "
+                 + ("nao pode ser lido" if (anb.get("tentativas") or {}).get(pregao) in ("falhou", "nao tentado") else "nao estava no site")
+                 + " na coleta; sem variacao do dia pela indicativa]"))
+    elif anb:
+        print(f"   ANBIMA: sem taxa indicativa nesta rodada ({anb.get('situacao')}" + (f": {anb['erro']}" if anb.get("erro") else "")
+              + "); debentures pelos negocios da B3")
+    else:
+        print("   ANBIMA: este resumo e de antes de a taxa indicativa entrar no boletim; so negocios da B3")
+    print("   taxa ref = a que vale para comparar papel com papel: indicativa da ANBIMA nas debentures que ela acompanha; negocios da B3 nos demais (CRI e CRA sempre)")
+    print("\n-- por classe (mediana e media das taxas de referencia dos papeis acima do volume minimo)")
+    for cl, v in rf["resumo"].items():
+        print(f"   {nomes.get(cl, cl):28s} R$ {fmt((v.get('volume_rs') or 0) / 1e6, 1):>9s} mi | {v.get('negocios')} negocios em {v.get('papeis')} papeis"
+              f" | IPCA+ mediano {fmt(v.get('taxa_ipca_mediana'), 2)}% medio {fmt(v.get('taxa_ipca_media'), 2)}% | premio s/ DAP {fmt(v.get('premio_dap_medio_pb'), 0)} pb"
+              f" | CDI+ medio {fmt(v.get('premio_cdi_medio'), 2)}% | x media {fmt(v.get('volume_x_media'), 2)}")
+        de, nd = v.get("taxa_fontes") or {}, v.get("negocios_do_dia") or {}
+        if de:
+            origem = (f"ANBIMA indicativa de {_dm(anb.get('data'))} em {de['anbima']} de {sum(de.values())} papeis" if de.get("anbima")
+                      else f"B3 negocios de {_dm(pregao)}")
+            ao_lado = (f" | pelos negocios do dia (B3 {_dm(pregao)}): IPCA+ mediano {fmt(nd.get('taxa_ipca_mediana'), 2)}% medio {fmt(nd.get('taxa_ipca_media'), 2)}%"
+                       f", CDI+ medio {fmt(nd.get('premio_cdi_medio'), 2)}%" if nd else "")
+            print(f"   {'':28s} taxa: {origem}{ao_lado}")
+    meus = rf.get("acompanhados") or []
+    if meus:
+        print("\n-- papeis acompanhados (config/boletim.yaml > renda_fixa > papeis)")
+    for l in meus:
+        ref, a = _ref_rf(l, pregao), l.get("anbima") or {}
+        quem = (l["apelido"] + " | " if l.get("apelido") else "") + (l.get("emissor") or "")[:48]
+        print(f"   {l['codigo']}  {quem}  vencimento {l.get('vencimento') or '-'}")
+        if a:
+            # a taxa da ANBIMA vai na convencao da ANBIMA; `anbima.convencao` so vem quando ela difere da que a B3 le
+            conv = a.get("convencao") or l.get("convencao")
+            if a.get("var_pb") is not None:
+                var = f"var {_pb(a['var_pb'])} pb contra {_dm(a.get('comparado_com'))}"
+            elif a.get("indicativa") is None:
+                var = "var: papel sem taxa neste arquivo"
+            elif not anb.get("comparado_com"):
+                var = "var: sem o arquivo anterior"
+            else:
+                var = f"var: sem medida contra {_dm(anb.get('comparado_com'))} (papel sem taxa naquele arquivo, ou taxa em percentual do CDI)"
+            print(f"      ANBIMA indicativa de {_dm(a.get('data'))}: {_taxa(a.get('indicativa'), conv)} | compra {fmt(a.get('compra'), 2)}% venda {fmt(a.get('venda'), 2)}%"
+                  f" | PU {fmt(a.get('pu'), 2)} ({fmt(a.get('pct_pu_par'), 2)}% do par) | duration {fmt(a.get('duration_du'), 0)} dias uteis ({fmt(a.get('duration_anos'), 2)} anos)"
+                  f" | {var}")
+            if a.get("convencao"):
+                print(f"      [CONVENCAO DIFERENTE: a ANBIMA escreve a taxa em {a['convencao']} e a B3 em {l.get('convencao')}; nao se comparam, vale a dos negocios]")
+            curta = bool(a.get("duration_anos")) and a["duration_anos"] < 1.0
+            print(f"      premio da indicativa sobre o DAP de {_dm(a.get('data'))}: {_pb(a.get('premio_dap_duration_pb'))} pb na duration"
+                  + (" (prazo medio abaixo de um ano: sem premio na duration)" if curta else "") + f" | {_pb(a.get('premio_dap_pb'))} pb no vencimento")
+        if l.get("sem_negocio"):
+            print(f"      B3 negocios de {_dm(pregao)}: sem negocio")
+        else:
+            print(f"      B3 negocios de {_dm(pregao)}: {_taxa_rf(l)} (min {fmt(l.get('taxa_min'), 2)} max {fmt(l.get('taxa_max'), 2)}) | R$ {fmt((l.get('volume_rs') or 0) / 1e6, 2)} mi em {l.get('negocios')} negocios"
+                  f" | premio no vencimento {_pb(l.get('premio_dap_pb'))} pb | var {_pb(l.get('var_taxa_pb'))} pb contra {_dm(l.get('comparado_com'))}")
+        if ref:
+            print(f"      vale para comparar: {_fonte_rf(ref)}")
+        else:
+            falta = {"falhou": "a leitura da ANBIMA falhou nesta rodada", "ausente": "nao havia arquivo da ANBIMA nesta rodada",
+                     "nao coletado": "a ANBIMA nao foi coletada nesta rodada"}.get(anb.get("situacao"))
+            if not falta and anb:
+                falta = "o papel esta sem taxa no arquivo da ANBIMA" if a else "o papel nao esta no arquivo da ANBIMA"
+            print("      sem taxa de referencia neste pregao: sem negocio na B3" + (f" e {falta}" if falta else ""))
+    for cl in ("deb_incentivada", "cri", "cra"):
+        print(f"\n-- {nomes[cl]}: mais negociados (premio pb: sobre o DAP, na duration [dur] ou no vencimento [venc]; var pb: da taxa ref)")
+        print(f"   {'codigo':12s} {'emissor':26s} {'taxa ref':>14s}  {'fonte e dia':26s} {'negocios B3':>14s} {'emissao':>8s} {'premio pb':>10s} {'var pb':>7s} {'venc':>10s} {'R$ mi':>8s} {'neg':>5s}")
+        for l in (rf.get("papeis") or {}).get(cl) or []:
+            ref = _ref_rf(l, pregao)
+            base = {"duration": " dur", "vencimento": " venc"}.get(ref.get("premio_base"), "")
+            print(f"   {l['codigo']:12s} {l['emissor'][:26]:26s} {_taxa(ref.get('taxa'), l.get('convencao')):>14s}  {(_fonte_rf(ref) if ref else '-'):26s}"
+                  f" {(_taxa_rf(l) if ref.get('fonte') == 'anbima' else '='):>14s} {fmt(l.get('taxa_emissao'), 2):>8s} {_pb(ref.get('premio_dap_pb')) + base:>10s}"
+                  f" {_pb(ref.get('var_pb')):>7s} {str(l.get('vencimento') or '-'):>10s} {fmt(l['volume_rs'] / 1e6, 1):>8s} {l['negocios']:>5d}")
+    for fonte, rotulo in (("anbima", f"pela indicativa da ANBIMA de {_dm(anb.get('data'))} contra {_dm(anb.get('comparado_com'))}"),
+                          ("b3", f"pelos negocios da B3 de {_dm(pregao)} contra o ultimo pregao com volume")):
+        for chave, titulo in (("aberturas", "abriram taxa"), ("fechamentos", "fecharam taxa")):
+            itens = [l for l in rf.get(chave) or [] if _ref_rf(l, pregao).get("fonte") == fonte]
+            if itens:
+                print(f"\n-- {titulo} {rotulo}")
+            for l in itens:
+                ref = _ref_rf(l, pregao)
+                print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa(ref.get('taxa'), l.get('convencao')):>16s} var {_pb(ref.get('var_pb')):>6s} pb (vs {_dm(ref.get('var_contra'))})"
+                      f" premio {_pb(ref.get('premio_dap_pb')):>5s} pb | R$ {fmt(l['volume_rs'] / 1e6, 1)} mi na B3")
+    if anb.get("situacao") == "anterior":
+        print(f"\n-- abertura e fechamento pela indicativa: sem medida, a rodada nao tinha o arquivo da ANBIMA de {_dm(pregao)}")
+    if rf.get("premios_altos"):
+        print("\n-- premio alto (pela taxa de referencia)")
+        for l in rf["premios_altos"]:
+            ref = _ref_rf(l, pregao)
+            base = {"duration": " na duration", "vencimento": " no vencimento"}.get(ref.get("premio_base"), "")
+            print(f"   {l['codigo']:12s} {l['emissor'][:30]:30s} {_taxa(ref.get('taxa'), l.get('convencao')):>16s} [{_fonte_rf(ref)}]"
+                  f" premio {_pb(ref.get('premio_dap_pb')):>5s} pb{base} | R$ {fmt(l['volume_rs'] / 1e6, 1)} mi na B3")
+    print(f"\n   {rf.get('nota')}")
+    return 0
+
+
+def _boletim_opcoes(tk, resumo, hist=None, anterior=None):
+    def bloco(r):
+        return ((r.get("ativos") or {}).get(tk) or {}).get("opcoes") or (r.get("opcoes_extras") or {}).get(tk)
+    o, de = bloco(resumo), resumo["pregao"]
+    velho = bloco(anterior) if anterior else None
+    if not (o or {}).get("vencimentos") and (velho or {}).get("vencimentos"):
+        # rodada da noite: a posicao em aberto do pregao ainda nao saiu; vale a do pregao anterior, com a data
+        if o:
+            print(f"\n== opcoes de {tk}, volume de {de}: call R$ {fmt((o.get('volume_call_rs') or 0) / 1e6, 1)} mi | put R$ {fmt((o.get('volume_put_rs') or 0) / 1e6, 1)} mi"
+                  f" | fechamento do ativo {fmt(((resumo.get('ativos') or {}).get(tk) or {}).get('negocios', {}).get('fechamento'), 2)}")
+        o, de = velho, anterior["pregao"]
+    if not o:
+        print(f"   sem opcoes de {tk} no resumo. Disponiveis: "
+              + ", ".join([k for k, a in (resumo.get('ativos') or {}).items() if a.get('opcoes')] + list(resumo.get('opcoes_extras') or {})))
+        return 1
+    print(f"\n== opcoes de {tk} em {de} (B3 DerivativesOpenPosition + InstrumentsConsolidated + negocios)" + ("" if de == resumo["pregao"] else EMPRESTADO))
+    print(f"   preco {fmt(o.get('preco'), 2)} | posicao: call {fmt(o.get('posicao_call'), 0)} put {fmt(o.get('posicao_put'), 0)}"
+          f" | put/call {fmt(o.get('put_call'), 2)} (anterior {fmt(o.get('put_call_anterior'), 2)})"
+          f" | a descoberto: call {fmt(o.get('descoberta_call_pct'), 0)}% put {fmt(o.get('descoberta_put_pct'), 0)}%")
+    print(f"   volume do dia: call R$ {fmt((o.get('volume_call_rs') or 0) / 1e6, 1)} mi | put R$ {fmt((o.get('volume_put_rs') or 0) / 1e6, 1)} mi")
+    print("-- vencimentos com posicao (data, call, put): " + "; ".join(f"{v[0]} {fmt(v[1], 0)} / {fmt(v[2], 0)}" for v in o.get("todos_vencimentos") or []))
+    for v in o.get("vencimentos") or []:
+        pc_, pp_ = v.get("parede_call") or {}, v.get("parede_put") or {}
+        print(f"-- vencimento {v['vencimento']} ({v['dias_uteis']} dias uteis): call {fmt(v['posicao_call'], 0)} | put {fmt(v['posicao_put'], 0)}"
+              f" | dor maxima {fmt(v.get('dor_maxima'), 2)} ({fmt(v.get('dor_maxima_dist_pct'), 1)}% do preco)")
+        print(f"   teto (maior call acima do preco): {fmt(pc_.get('strike'), 2)} com {fmt(pc_.get('posicao'), 0)} ({fmt(pc_.get('distancia_pct'), 1)}%)"
+              f" | piso (maior put abaixo): {fmt(pp_.get('strike'), 2)} com {fmt(pp_.get('posicao'), 0)} ({fmt(pp_.get('distancia_pct'), 1)}%)")
+        if v.get("grade"):
+            print("   strike: call / put")
+            for k, c, p_ in v["grade"]:
+                print(f"   {fmt(k, 2):>9s}: {fmt(c, 0):>12s} / {fmt(p_, 0):>12s}")
+    for chave, titulo in (("maiores_altas", "series que mais ganharam posicao"), ("maiores_quedas", "series que mais perderam posicao")):
+        if o.get(chave):
+            print(f"-- {titulo}")
+            for m in o[chave]:
+                print(f"   {m['codigo']:12s} {m['tipo']:4s} strike {fmt(m.get('strike'), 2):>8s} venc {m.get('vencimento')} var {fmt(m['variacao'], 0):>12s} -> {fmt(m.get('posicao'), 0)}")
+    serie = []
+    for d in sorted((hist or {}).get("pregoes") or {}):
+        x = hist["pregoes"][d]
+        par = ((x.get("ativos") or {}).get(tk) or {}).get("opc") or (x.get("opcoes_extras") or {}).get(tk)
+        if par and par[0]:
+            serie.append(f"{d[5:]} {fmt(par[1] / par[0], 2)}")
+    if serie:
+        print("-- put/call da posicao em aberto, pregao a pregao: " + "; ".join(serie[-20:]))
+    if o.get("mais_negociadas"):
+        print("-- mais negociadas no dia")
+        for m in o["mais_negociadas"]:
+            print(f"   {m['codigo']:12s} {m['tipo']:4s} strike {fmt(m.get('strike'), 2):>8s} venc {m.get('vencimento')} ultimo {fmt(m.get('ultimo'), 2)}"
+                  f" ({fmt(m.get('oscilacao_pct'), 1)}%) R$ {fmt((m.get('volume_rs') or 0) / 1e3, 0)} mil")
+    return 0
+
+
+def _boletim_fluxo(hist):
+    """Saldo por tipo de investidor, dia a dia: diferenca entre os acumulados do mes que a B3 divulga."""
+    acum = {}
+    for d in sorted((hist or {}).get("pregoes") or {}):
+        f = hist["pregoes"][d].get("fluxo") or {}
+        if f.get("ate"):
+            acum[f["ate"]] = f.get("saldo") or {}
+    if len(acum) < 2:
+        print("   historico com menos de dois acumulados: o saldo por dia ainda nao da para tirar")
+        return 1
+    tipos = ("estrangeiro", "institucional", "pessoa_fisica", "inst_financeira", "outros")
+    print("\n== fluxo por tipo de investidor, R$ milhoes, compras menos vendas (B3 SharesInvesVolum; todos os mercados; sai com 2 pregoes de atraso)")
+    print(f"   {'dia':10s} " + " ".join(f"{t[:13]:>14s}" for t in tipos) + f" {'estr. no mes':>14s}")
+    datas = sorted(acum)
+    for i, d in enumerate(datas[1:], 1):
+        ant = datas[i - 1]
+        mesmo = ant[:7] == d[:7]
+        dia = [(acum[d].get(t) - (acum[ant].get(t) or 0 if mesmo else 0)) if acum[d].get(t) is not None else None for t in tipos]
+        print(f"   {d:10s} " + " ".join(f"{fmt(v, 0):>14s}" for v in dia) + f" {fmt(acum[d].get('estrangeiro'), 0):>14s}")
+    return 0
+
+
+def _boletim_radar(resumo, anterior=None):
+    rad, om, corr = resumo.get("radar") or {}, resumo.get("opcoes_mercado") or {}, resumo.get("aluguel_corretoras") or {}
+    velho = anterior or {}
+    # rodada da noite: aluguel e posicoes em aberto do pregao ainda nao sairam; valem os do pregao anterior, com a data
+    alug, de_alug = rad, resumo["pregao"]
+    if not rad.get("aluguel_total_rs") and (velho.get("radar") or {}).get("aluguel_total_rs"):
+        alug, de_alug = velho["radar"], velho["pregao"]
+    if not om.get("por_ativo") and (velho.get("opcoes_mercado") or {}).get("por_ativo"):
+        om, de_om = velho["opcoes_mercado"], velho["pregao"]
+    else:
+        de_om = resumo["pregao"]
+    total = (f"aluguel total R$ {fmt(alug['aluguel_total_rs'] / 1e9, 1)} bi em {de_alug}" if alug.get("aluguel_total_rs")
+             else "aluguel ainda nao publicado pela B3")
+    print(f"\n== radar do mercado em {resumo['pregao']}: universo {rad.get('universo')} ({rad.get('fonte_universo')}),"
+          f" {rad.get('pregoes_no_historico')} pregoes de historico; {total}")
+    if rad.get("volume"):
+        print("-- volume fora do padrao: " + ", ".join(f"{l['ativo']} {fmt(l.get('volume_x_media'), 1)}x" for l in rad["volume"]))
+    campos = (("aluguel_float", "mais alugadas (% das acoes)", "pct_free_float", "%"),
+              ("aluguel_taxa", "aluguel mais caro (% a.a.)", "taxa", "%"), ("aluguel_alta", "saldo alugado que mais subiu no dia", "aluguel_var_dia_pct", "%"),
+              ("aluguel_queda", "saldo alugado que mais caiu no dia", "aluguel_var_dia_pct", "%"),
+              ("vendidos_pressionados", "vendidos sob pressao (preco em 5 pregoes)", "preco_5d_pct", "%"),
+              ("aposta_vendida_crescendo", "aposta vendida crescendo (aluguel em 5 pregoes)", "aluguel_var_5d_pct", "%"))
+    if de_alug != resumo["pregao"]:
+        print(f"-- aluguel de {de_alug}" + EMPRESTADO)
+    for chave, titulo, campo, un in campos:
+        if alug.get(chave):
+            print(f"-- {titulo}: " + ", ".join(f"{l['ativo']} {fmt(l.get(campo), 1)}{un}" for l in alug[chave]))
+    if om.get("por_ativo"):
+        if de_om != resumo["pregao"]:
+            print(f"-- opcoes de {de_om}" + EMPRESTADO)
+        print(f"-- opcoes: put/call do mercado {fmt(om.get('put_call'), 2)} na posicao e {fmt(om.get('put_call_volume'), 2)} no volume")
+        print("   por ativo (call mi / put mi / put-call): " + "; ".join(
+            f"{a['ativo']} {fmt(a['call'] / 1e6, 0)}/{fmt(a['put'] / 1e6, 0)}/{fmt(a.get('put_call'), 2)}" for a in om["por_ativo"]))
+        for chave, titulo in (("maiores_altas", "ganharam posicao"), ("maiores_quedas", "perderam posicao")):
+            print(f"   {titulo}: " + "; ".join(f"{m['codigo']} ({m['ativo']} {m['tipo']} {fmt(m.get('strike'), 2)}) {fmt(m['variacao'] / 1e6, 2)} mi" for m in om.get(chave) or []))
+    if corr.get("tomadoras"):
+        print("-- corretoras no aluguel do dia (intermediario): tomadoras " + ", ".join(f"{x[0]} {fmt(x[2], 0)}%" for x in corr["tomadoras"][:6]))
+        print("   doadoras " + ", ".join(f"{x[0]} {fmt(x[2], 0)}%" for x in corr["doadoras"][:6]))
+        for tk, v in (corr.get("ativos") or {}).items():
+            if tk in (resumo.get("ativos") or {}):
+                print(f"   {tk}: {fmt((v.get('quantidade') or 0) / 1e6, 2)} mi de acoes | tomadoras " + ", ".join(f"{a} {fmt(b, 0)}%" for a, b in v.get("tomadoras") or []))
+    return 0
+
+
+def boletim(args):
+    manifest = baixar("boletim_b3/manifest.json")
+    sub = args[0] if args else ""
+    pregao = sub if re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) else (manifest or {}).get("ultimo_pregao")
+    if "--data" in args and args.index("--data") + 1 < len(args):
+        pregao = args[args.index("--data") + 1]
+    resumo = baixar(f"boletim_b3/{pregao}/resumo.json") if pregao else None
+    linha, ok = veredito_boletim(manifest, resumo)
+    print(linha)
+    if not resumo:
+        return 1
+
+    def anterior():
+        """Resumo do pregao anterior, so quando este e parcial (aluguel e posicoes em aberto ainda nao sairam)."""
+        if resumo["situacao"]["completo"]:
+            return None
+        antes = [d for d in sorted((baixar("boletim_b3/historico.json") or {}).get("pregoes") or {}) if d < pregao]
+        return baixar(f"boletim_b3/{antes[-1]}/resumo.json") if antes else None
+    if sub == "sinais":
+        for s in resumo.get("sinais") or []:
+            print(f"- [{s['tipo']}, {s.get('pregoes_seguidos', 1)}o pregao] {s['texto']}  ({s.get('origem') or 'B3'} {s['fonte']}, {s['data']})")
+    elif sub == "status":
+        st = baixar(f"boletim_b3/{pregao}/status.json") or {}
+        print(f"\n== cadernos do boletim de {pregao}: {st.get('situacao')} em {st.get('atualizado_em')}")
+        for c in [dict(st.get("completo") or {}, nome="Boletim completo", situacao=st.get("situacao"))] + (st.get("cadernos") or []):
+            print(f"   {c.get('nome', ''):32s} {c.get('situacao') or '':12s} {str(c.get('atualizado_em') or '')[:16]:16s} {c.get('pdf') or '(sem PDF)'}")
+        print("\n== pendentes e falhas")
+        for k, v in (resumo["situacao"].get("pendentes") or {}).items():
+            print(f"   {k}: {v}")
+        for f in (manifest or {}).get("falhas") or []:
+            print(f"   rodada: {f}")
+        print(f"   publicadas com atraso: {', '.join(resumo['situacao'].get('publicadas_com_atraso') or []) or 'nenhuma'}")
+        anb = (resumo.get("renda_fixa") or {}).get("anbima")
+        if anb:
+            # 404 da ANBIMA e arquivo que ainda nao saiu (espera), nao falha: vale o do pregao anterior, com a data
+            print(f"   ANBIMA (taxa indicativa de debentures): {anb.get('situacao')}"
+                  + (f", arquivo de {anb['data']} publicado em {anb.get('publicado_em') or '?'}" if anb.get("data") else "")
+                  + (f" | tentativas: {json.dumps(anb['tentativas'], ensure_ascii=False)}" if anb.get("tentativas") else "")
+                  + (f" | erro: {anb['erro']}" if anb.get("erro") else ""))
+        guardados = sorted((baixar("boletim_b3/historico.json") or {}).get("pregoes") or {})
+        if guardados:
+            print(f"\n== pregoes no historico: {len(guardados)}, de {guardados[0]} a {guardados[-1]}")
+    elif sub == "tabela" and len(args) >= 2:
+        t = baixar(f"boletim_b3/tabelas/{args[1]}.json")
+        if not t:
+            print(f"   tabela {args[1]} nao esta em boletim_b3/tabelas/; as coletadas estao em boletim_b3/{pregao}/index.json")
+            return 1
+        print(f"   pregao da tabela: {t.get('pregao')}" + ("" if t.get("pregao") == pregao else f"  (ATENCAO: nao e o pregao {pregao})"))
+
+        def mostra(t, recuo=""):
+            print(f"{recuo}== {t.get('nome')} | {t.get('titulo')} | {t.get('situacao', '')} {t.get('atualizado_em', '')}")
+            if t.get("linhas"):
+                print(recuo + "   " + " | ".join(c["titulo"] for c in t["colunas"]))
+                for l in t["linhas"][:400]:
+                    print(recuo + "   " + " | ".join("-" if v is None else str(v) for v in l))
+            for f in t.get("filhos") or []:
+                mostra(f, recuo + "  ")
+        mostra(t)
+    elif sub == "rf":
+        return _boletim_rf(resumo) or (0 if ok else 1)
+    elif sub == "opcoes" and len(args) >= 2:
+        return _boletim_opcoes(args[1].upper(), resumo, baixar("boletim_b3/historico.json"), anterior()) or (0 if ok else 1)
+    elif sub == "fluxo":
+        return _boletim_fluxo(baixar("boletim_b3/historico.json")) or (0 if ok else 1)
+    elif sub == "radar":
+        return _boletim_radar(resumo, anterior()) or (0 if ok else 1)
+    elif sub == "json":
+        if len(args) >= 2 and args[1] in resumo:
+            print(json.dumps(resumo[args[1]], ensure_ascii=False, indent=1))
+        else:
+            print("   blocos do resumo: " + ", ".join(resumo))
+    elif sub == "painel":
+        print(f"   {BASE}boletim_b3/painel.html  (sempre o do ultimo pregao coletado: {(manifest or {}).get('ultimo_pregao')})")
+        print("   ou: git show origin/dados:boletim_b3/painel.html > painel.html")
+        print("   troque [[LEITURA_DA_MESA]] pela leitura e republique no Artifact do boletim: https://claude.ai/artifact/LdEMW5YS5WXpqF72qkx3Kc")
+    elif sub and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub) and sub != "--data":
+        return _boletim_ativo(sub.upper(), resumo, baixar("boletim_b3/historico.json"), anterior()) or (0 if ok else 1)
+    else:
+        print()
+        print(baixar(f"boletim_b3/{pregao}/resumo.md", texto=True) or "!! resumo.md ausente")
+    return 0 if ok else 1
+
+
+COMANDOS = ("ficha", "serie", "releases", "release", "linha", "decompor", "pares", "balanco", "frescor",
+            "cobertura", "termos", "skills", "kinea", "boletim")
+
+
+def skills():
+    """Confere se as skills da mesa estao no lugar e validas. Roda antes de toda pesquisa."""
+    base = os.path.join(AQUI, ".claude", "skills")
+    esperadas = {
+        "analise-ativo": ["SKILL.md", "GLOSSARIO.md"],
+        "deep-search": ["SKILL.md"],
+        "dados-completos": ["SKILL.md"],
+        "livro": ["SKILL.md"],
+        "boletim-b3": ["SKILL.md"],
+    }
+    ok = True
+    print("== skills da mesa em .claude/skills/")
+    for nome, arquivos in esperadas.items():
+        for arq in arquivos:
+            caminho = os.path.join(base, nome, arq)
+            if not os.path.exists(caminho):
+                print(f"  FALTA   {nome}/{arq}")
+                ok = False
+                continue
+            texto = open(caminho, encoding="utf-8").read()
+            if arq != "SKILL.md":
+                n = sum(1 for l in texto.split("\n") if l.startswith("- **"))
+                print(f"  ok      {nome}/{arq}  {n} termos")
+                continue
+            m = re.match(r"---\n(.*?)\n---\n", texto, re.S)
+            if not m:
+                print(f"  INVALIDA {nome}/{arq}: sem frontmatter")
+                ok = False
+                continue
+            fm = m.group(1)
+            tem_nome = re.search(r"^name:\s*(\S+)", fm, re.M)
+            tem_desc = re.search(r"^description:\s*\S", fm, re.M)
+            if not tem_nome or not tem_desc:
+                print(f"  INVALIDA {nome}/{arq}: falta name ou description")
+                ok = False
+                continue
+            if tem_nome.group(1) != nome:
+                print(f"  INVALIDA {nome}/{arq}: name '{tem_nome.group(1)}' nao bate com a pasta")
+                ok = False
+                continue
+            print(f"  ok      {nome}/{arq}  {len(texto.split(chr(10)))} linhas, {len(fm)} chars de gatilho")
+    faltando = [c for c in COMANDOS if f'cmd == "{c}"' not in open(os.path.join(AQUI, "mesa.py"), encoding="utf-8").read()]
+    print(f"  ok      mesa.py: {len(COMANDOS)} comandos" if not faltando else f"  FALTA   mesa.py: {faltando}")
+    ok = ok and not faltando
+    try:
+        import pares as _p
+        print(f"  ok      pares.py: {len(_p.PARES)} grupos, {len(_p.BDR_SUBJACENTE)} BDRs mapeados")
+    except Exception as e:
+        print(f"  FALTA   pares.py: {e}")
+        ok = False
+    try:
+        import ri_fontes as _r
+        chaves = {"empresa", "central", "alternativas", "plataforma", "mz_id", "observacao"}
+        opcionais = {"lista"}          # rotas de listagem (JSON/HTML) de central montada por JavaScript
+        ruins = [t for t, v in _r.RI_FONTES.items()
+                 if not isinstance(v, dict) or not chaves <= set(v) or set(v) - chaves - opcionais
+                 or not v.get("central") or ("lista" in v and not isinstance(v["lista"], list))]
+        if ruins:
+            print(f"  INVALIDA ri_fontes.py: entradas fora do esquema: {ruins}")
+            ok = False
+        else:
+            print(f"  ok      ri_fontes.py: {len(_r.RI_FONTES)} companhias com central de resultados mapeada")
+    except Exception as e:
+        print(f"  FALTA   ri_fontes.py: {e}")
+        ok = False
+    print("\n" + ("TUDO OPERANDO" if ok else "HA PENDENCIA ACIMA"))
+    return 0 if ok else 1
+
+
+def main(argv):
+    if len(argv) < 2:
+        print(__doc__)
+        return 1
+    cmd, args = argv[1], argv[2:]
+    if cmd == "ficha" and args:
+        ficha(args[0].upper())
+    elif cmd == "serie" and args:
+        serie(args[0].upper())
+    elif cmd == "releases" and args:
+        releases(args[0].upper())
+    elif cmd == "release" and len(args) >= 2:
+        grep = args[args.index("--grep") + 1] if "--grep" in args and args.index("--grep") + 1 < len(args) else None
+        release(args[0].upper(), args[1], grep)
+    elif cmd == "linha" and len(args) >= 2:
+        linha(args[0].upper(), args[1])
+    elif cmd == "decompor" and args:
+        decompor(args[0].upper())
+    elif cmd == "pares" and args:
+        pares(args[0].upper())
+    elif cmd == "balanco" and args:
+        balanco(args[0].upper())
+    elif cmd == "frescor" and args:
+        return frescor(args[0].upper())
+    elif cmd == "cobertura" and args:
+        return cobertura(args[0].upper(), pares_tambem="--pares" in argv)
+    elif cmd == "termos":
+        termos(args)
+    elif cmd == "skills":
+        return skills()
+    elif cmd == "kinea":
+        return kinea(args)
+    elif cmd == "boletim":
+        return boletim(args)
+    else:
+        print(__doc__)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

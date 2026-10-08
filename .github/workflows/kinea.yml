@@ -1,0 +1,141 @@
+name: Kinea (carteira na CVM, cartas do gestor e videos)
+
+# Baixa a carteira mensal dos fundos Kinea na CVM (CDA, dados abertos), as cartas
+# do gestor e as apresentacoes em PDF no site da Kinea, e a legenda dos videos do
+# canal no YouTube; extrai o texto, renderiza as paginas de posicoes em imagem e
+# grava em kinea/ no branch `dados`. A sessao do Claude le com `python3 mesa.py kinea`.
+
+on:
+  workflow_dispatch:
+    inputs:
+      meses:
+        description: "Quantos meses de carteira (CDA) buscar na CVM, dos mais novos"
+        required: false
+        default: "12"
+        type: string
+      cartas_desde:
+        description: "Mes de referencia inicial das cartas (AAAA-MM)"
+        required: false
+        default: "2025-07"
+        type: string
+      urls:
+        description: "URLs extras de PDF de carta, separadas por espaco (opcional)"
+        required: false
+        default: ""
+        type: string
+      partes:
+        description: "O que coletar: cda, cartas, midia (videos do canal, apresentacoes, paginas de posicoes)"
+        required: false
+        default: "cda,cartas,midia"
+        type: string
+      videos:
+        description: "Quantos videos mais novos por aba do canal (ao vivo e videos)"
+        required: false
+        default: "20"
+        type: string
+      minutos_audio:
+        description: "Minutos para transcrever o audio dos videos sem legenda (Whisper; 0 desliga)"
+        required: false
+        default: "30"
+        type: string
+  schedule:
+    # Dia 12 de cada mes, 08h40 em Brasilia: a CDA do mes anterior ja esta na CVM
+    - cron: "40 11 12 * *"
+    # Dias 2 a 6, 09h40 em Brasilia: as cartas do mes saem na primeira semana
+    - cron: "40 12 2-6 * *"
+    # Segunda-feira, 10h10 em Brasilia: videos novos do canal (Kinea Expresso, podcasts, lives)
+    - cron: "10 13 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "kinea.py"
+      - ".github/workflows/kinea.yml"
+
+permissions:
+  contents: write
+
+# Mesmo grupo do coletor: um push por vez no branch dados
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  kinea:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Abrir o branch de dados
+        uses: actions/checkout@v4
+        with:
+          ref: dados
+          path: dados_branch
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # O YouTube exige um interpretador de JavaScript para o yt-dlp ler a pagina do video
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Instalar dependencias
+        run: pip install requests pandas pypdf pymupdf "yt-dlp[default]" bgutil-ytdlp-pot-provider faster-whisper
+
+      # Provedor de PO token do YouTube: sem ele, no servidor do Actions, o YouTube lista a legenda
+      # do video mas nao entrega. O plugin do yt-dlp (instalado acima) o encontra em 127.0.0.1:4416.
+      - name: Provedor de token do YouTube
+        continue-on-error: true
+        run: |
+          docker run -d --name bgutil -p 4416:4416 --init brainicism/bgutil-ytdlp-pot-provider
+          for i in $(seq 1 30); do curl -sf http://127.0.0.1:4416/ping && break; sleep 2; done
+
+      # Limite proprio e continue-on-error: se o YouTube travar a coleta, o que ja veio e publicado
+      - name: Coletar carteira, cartas e midia
+        timeout-minutes: 55
+        continue-on-error: true
+        env:
+          MESES: ${{ inputs.meses }}
+          DESDE: ${{ inputs.cartas_desde }}
+          URLS: ${{ inputs.urls }}
+          PARTES: ${{ inputs.partes }}
+          VIDEOS: ${{ inputs.videos }}
+          MINUTOS_AUDIO: ${{ inputs.minutos_audio }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          # Nas agendas das cartas (dias 2 a 6) e na de segunda a CDA nao muda: so cartas e midia. Push de codigo
+          # tambem; a carteira da CVM (15 min) roda no dia 12 ou no disparo manual.
+          if [ "$EVENTO" = "schedule" ] && [ "$(date -u +%d)" != "12" ]; then PARTES="cartas,midia"; fi
+          if [ "$EVENTO" = "push" ]; then PARTES="cartas,midia"; fi
+          python -u kinea.py --saida dados_branch/kinea --meses "${MESES:-12}" --cartas-desde "${DESDE:-2025-07}" \
+            --urls "$URLS" --partes "${PARTES:-cda,cartas,midia}" --videos "${VIDEOS:-20}" \
+            --minutos-audio "${MINUTOS_AUDIO:-30}"
+
+      - name: Publicar no branch dados
+        if: always()
+        run: |
+          cd dados_branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A kinea
+          if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
+          git commit -q -m "Kinea: carteira CDA, cartas e videos ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase -q && sleep 5
+          done
+
+      - name: Resumo
+        if: always()
+        run: |
+          echo "### Kinea" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json
+          m = json.load(open("dados_branch/kinea/manifest.json"))
+          for parte, v in m["partes"].items():
+              print(f"- **{parte}**: `{json.dumps(v, ensure_ascii=False)[:300]}`")
+          for f in m.get("falhas", [])[:20]:
+              print(f"  - falha: {f}")
+          PY

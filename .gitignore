@@ -8,15 +8,25 @@ __pycache__/
 # Copia local do Chart.js, baixada na primeira execucao
 vendor/
 
-# Ambiente Python isolado criado pelo PREPARAR-MAC.command / venv manual.
+# Ambiente Python isolado: criado pelo PREPARAR-MAC.command, pelo app.py, ou a mao.
 # Do macOS Sonoma em diante instalar no Python do sistema da erro; o .venv e a saida.
 .venv/
 venv/
 
-# quant: dados brutos e banco derivado ficam fora do main (o CI publica no branch dados-quant)
+# Overrides pessoais do Claude Code (o settings.json compartilhado fica versionado)
+.claude/settings.local.json
+
+# Saida local do livro (testes e execucao offline)
+livro_out/
+.pytest_cache/
+
+# Saida das analises de ETF (dado de mercado: nao versionar)
+ferramentas/etf/saida/
+
+# quant: dado bruto, banco derivado e saida (boleta, carteira, P&L, fiscal) NUNCA vao para
+# o git. A saida e dado pessoal; o banco e reproduzivel da fonte e pesa ~1 GB.
 quant/dados_brutos/
 quant/banco/
 quant/saida/
 quant/universo_atual.txt
 quant/banco_sintetico/
-.pytest_cache/

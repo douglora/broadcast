@@ -33,10 +33,15 @@ import subprocess
 import sys
 import threading
 import time
+import unicodedata
 import webbrowser
+import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+
+# Marca no ambiente para nao reexecutar em circulo ao cair no venv proprio.
+_MARCA_REEXEC = "BROADCAST_VENV_REEXEC"
 
 DEPENDENCIAS = (
     ("flask", "flask"),
@@ -46,16 +51,45 @@ DEPENDENCIAS = (
 )
 
 
-def _garantir_dependencias():
-    """Instala o que faltar na primeira execucao, para nao exigir setup manual."""
+def _pacotes_faltando():
     faltando = []
     for modulo, pacote in DEPENDENCIAS:
         try:
             __import__(modulo)
         except ImportError:
             faltando.append(pacote)
+    return faltando
+
+
+def _python_do_venv(venv_dir):
+    sub = "Scripts" if os.name == "nt" else "bin"
+    nome = "python.exe" if os.name == "nt" else "python"
+    return os.path.join(venv_dir, sub, nome)
+
+
+def _garantir_dependencias():
+    """Instala o que faltar na primeira execucao, para nao exigir setup manual."""
+    faltando = _pacotes_faltando()
     if not faltando:
         return
+
+    venv_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".venv")
+    py_venv = _python_do_venv(venv_dir)
+    ja_reexecutado = bool(os.environ.get(_MARCA_REEXEC))
+    # Reexecutar so faz sentido quando app.py E o programa. Importado como
+    # modulo (gerar_dados.py faz isso), um execv trocaria o processo do chamador
+    # pelo servidor — o gerador nunca terminaria.
+    pode_reexecutar = __name__ == "__main__" and not ja_reexecutado
+
+    # Se o ambiente proprio do projeto ja existe de uma execucao anterior, va
+    # direto para ele, em vez de repetir a instalacao condenada no Python do
+    # sistema a cada abertura.
+    # O python de um venv e um symlink para o interpretador base, entao comparar
+    # executaveis nao diz nada: o que distingue e o prefixo do ambiente ativo.
+    dentro_do_venv = os.path.realpath(sys.prefix) == os.path.realpath(venv_dir)
+    if pode_reexecutar and not dentro_do_venv and os.path.exists(py_venv):
+        os.environ[_MARCA_REEXEC] = "1"
+        os.execv(py_venv, [py_venv, os.path.abspath(__file__)] + sys.argv[1:])
 
     print(f"Instalando dependencias que faltam: {', '.join(faltando)}")
     print("(so acontece na primeira vez)")
@@ -64,18 +98,46 @@ def _garantir_dependencias():
         # Em Python de sistema o pip costuma exigir --user
         subprocess.run(base + ["--user"] + faltando)
 
-    ainda_falta = []
-    for modulo, pacote in DEPENDENCIAS:
-        try:
-            __import__(modulo)
-        except ImportError:
-            ainda_falta.append(pacote)
-    if ainda_falta:
-        print("\nNao consegui instalar: " + ", ".join(ainda_falta))
+    faltando = _pacotes_faltando()
+    if not faltando:
+        print("Dependencias prontas.\n")
+        return
+
+    # Chegou aqui: o pip recusou as duas tentativas. O caso comum e o Python
+    # gerenciado pelo sistema (Homebrew e python.org no macOS, distros Linux),
+    # que so aceita instalar dentro de um ambiente virtual (PEP 668). Entao
+    # criamos um ambiente proprio do projeto e reexecutamos o servidor dentro
+    # dele. A marca no ambiente evita reexecutar em circulo.
+    if not pode_reexecutar:
+        print("\nNao consegui instalar: " + ", ".join(faltando))
         print("Rode manualmente e tente de novo:")
-        print(f"  {sys.executable} -m pip install " + " ".join(ainda_falta))
+        print(f"  {sys.executable} -m pip install " + " ".join(faltando))
         sys.exit(1)
-    print("Dependencias prontas.\n")
+
+    py = py_venv
+    print()
+    print("Este Python nao deixa instalar pacotes direto (PEP 668).")
+    print(f"Criando um ambiente proprio do BROADCAST em {venv_dir}")
+
+    if not os.path.exists(py):
+        if subprocess.run([sys.executable, "-m", "venv", venv_dir]).returncode != 0:
+            print("\nNao consegui criar o ambiente virtual.")
+            print("No macOS/Linux instale o modulo venv e tente de novo:")
+            print(f"  {sys.executable} -m pip install --user virtualenv")
+            sys.exit(1)
+
+    # Instala todas as dependencias no ambiente novo, nao so as que faltavam no
+    # Python do sistema: o que estava la nao existe aqui dentro.
+    todas = [pacote for _, pacote in DEPENDENCIAS]
+    if subprocess.run([py, "-m", "pip", "install", "--quiet"] + todas).returncode != 0:
+        print("\nNao consegui instalar as dependencias no ambiente virtual.")
+        print("Rode manualmente e tente de novo:")
+        print(f"  {py} -m pip install " + " ".join(todas))
+        sys.exit(1)
+
+    print("Ambiente pronto. Reiniciando o servidor dentro dele.\n")
+    os.environ[_MARCA_REEXEC] = "1"
+    os.execv(py, [py, os.path.abspath(__file__)] + sys.argv[1:])
 
 
 _garantir_dependencias()
@@ -155,6 +217,22 @@ def http_get(url, timeout=HTTP_TIMEOUT, headers=None, **kw):
         log(f"HTTP {r.status_code} em {url[:90]}")
     except Exception as e:
         log(f"falha em {url[:90]}: {type(e).__name__}")
+    return None
+
+
+def http_post(url, json_body=None, timeout=HTTP_TIMEOUT, headers=None, **kw):
+    """POST com corpo JSON, tolerante a falha: devolve o Response ou None. Nunca levanta excecao.
+    E o que o file manager da MZ (api.mziq.com/mzfilemanager) exige para listar documentos."""
+    h = {"User-Agent": UA, "Accept": "application/json, */*", "Content-Type": "application/json"}
+    if headers:
+        h.update(headers)
+    try:
+        r = requests.post(url, json=json_body, headers=h, timeout=timeout, **kw)
+        if r.status_code == 200:
+            return r
+        log(f"HTTP {r.status_code} em POST {url[:90]}")
+    except Exception as e:
+        log(f"falha em POST {url[:90]}: {type(e).__name__}")
     return None
 
 
@@ -524,40 +602,131 @@ TD_URL = ("https://www.tesourodireto.com.br/json/br/com/b3/tesourodireto/"
           "service/api/treasurybondsinfo.json")
 
 
-def refresh_tesouro():
-    r = http_get(TD_URL, headers={"Accept": "application/json"})
-    if not r:
-        return
+# Base aberta do Tesouro Transparente: taxas e precos diarios de todos os
+# titulos, CSV com o historico completo (pesado). Usada quando o endpoint do
+# site do Tesouro Direto nao responde (ele passou a devolver 410 em 2026).
+TT_URL = ("https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/"
+          "resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/precotaxatesourodireto.csv")
+
+
+def _sem_acento(texto):
+    return unicodedata.normalize("NFKD", str(texto or "")).encode("ascii", "ignore").decode()
+
+
+def _tesouro_transparente(texto_csv):
+    """Ultimo dia da base do Tesouro Transparente -> (ipca, pre) no formato do painel."""
+    leitor = csv.reader(io.StringIO(texto_csv), delimiter=";")
     try:
-        bonds = r.json()["response"]["TrsrBdTradgList"]
-    except Exception as e:
-        log(f"tesouro: resposta inesperada ({e})")
-        return
+        cab = [_sem_acento(c).lower().strip() for c in next(leitor)]
+    except StopIteration:
+        return [], []
+
+    def col(*chaves):
+        for i, c in enumerate(cab):
+            if all(k in c for k in chaves):
+                return i
+        return None
+
+    i_tipo, i_venc, i_base = col("tipo"), col("vencimento"), col("data", "base")
+    i_tc, i_tv = col("taxa", "compra"), col("taxa", "venda")
+    i_pc, i_pv = col("pu", "compra"), col("pu", "venda")
+    if None in (i_tipo, i_venc, i_base, i_tc):
+        log("tesouro transparente: cabecalho inesperado")
+        return [], []
+
+    def num(s):
+        try:
+            return float(str(s).strip().replace(".", "").replace(",", "."))
+        except Exception:
+            return None
+
+    def data_iso(s):
+        try:
+            return datetime.strptime(str(s).strip()[:10], "%d/%m/%Y").strftime("%Y-%m-%d")
+        except Exception:
+            return None
+
+    minimo = max(i for i in (i_tipo, i_venc, i_base, i_tc))
+    linhas = []
+    for row in leitor:
+        if len(row) <= minimo:
+            continue
+        base = data_iso(row[i_base])
+        if base:
+            linhas.append((base, row))
+    if not linhas:
+        return [], []
+    ultimo = max(b for b, _ in linhas)
 
     ipca, pre = [], []
-    for item in bonds:
-        b = item.get("TrsrBd") or {}
-        name = b.get("nm") or ""
-        rate = b.get("anulInvstmtRate")
-        price = b.get("untrRedVal") or b.get("untrInvstmtVal")
-        mat = b.get("mtrtyDt") or ""
-        if rate is None:
+    for base, row in linhas:
+        if base != ultimo:
             continue
-        row = {
-            "name": name,
-            "maturity": mat[:10],
-            "rate": float(rate),
-            "price": float(price) if price else None,
-        }
-        low = name.lower()
+        tipo = row[i_tipo].strip()
+        venc = data_iso(row[i_venc]) or ""
+        taxa = num(row[i_tc]) or (num(row[i_tv]) if i_tv is not None else None)
+        preco = (num(row[i_pc]) if i_pc is not None else None) or \
+                (num(row[i_pv]) if i_pv is not None else None)
+        if not taxa or not venc:
+            continue
+        linha = {"name": f"{tipo} {venc[:4]}", "maturity": venc,
+                 "rate": round(taxa, 2), "price": preco, "data_base": ultimo}
+        low = tipo.lower()
         if "ipca" in low:
-            ipca.append(row)
+            ipca.append(linha)
         elif "prefixado" in low:
-            pre.append(row)
+            pre.append(linha)
+    ipca.sort(key=lambda x: x["maturity"])
+    pre.sort(key=lambda x: x["maturity"])
+    return ipca, pre
+
+
+def refresh_tesouro():
+    bonds = None
+    r = http_get(TD_URL, headers={"Accept": "application/json"})
+    if r:
+        try:
+            bonds = r.json()["response"]["TrsrBdTradgList"]
+        except Exception as e:
+            log(f"tesouro: resposta inesperada ({e})")
+
+    ipca, pre = [], []
+    fonte = "Tesouro Direto"
+    if bonds:
+        for item in bonds:
+            b = item.get("TrsrBd") or {}
+            name = b.get("nm") or ""
+            rate = b.get("anulInvstmtRate")
+            price = b.get("untrRedVal") or b.get("untrInvstmtVal")
+            mat = b.get("mtrtyDt") or ""
+            if rate is None:
+                continue
+            row = {
+                "name": name,
+                "maturity": mat[:10],
+                "rate": float(rate),
+                "price": float(price) if price else None,
+            }
+            low = name.lower()
+            if "ipca" in low:
+                ipca.append(row)
+            elif "prefixado" in low:
+                pre.append(row)
+    else:
+        # O CSV do Tesouro Transparente traz o historico inteiro (dezenas de MB):
+        # so vale baixar de novo se o dado em cache tiver mais de 4 horas.
+        age = CACHE.age("tesouro")
+        if age is not None and age < 4 * 3600:
+            return
+        r = http_get(TT_URL, timeout=120)
+        if not r:
+            return
+        ipca, pre = _tesouro_transparente(r.content.decode("utf-8-sig", errors="replace"))
+        fonte = "Tesouro Transparente"
 
     if ipca or pre:
-        CACHE.set("tesouro", {"ipca": ipca, "pre": pre, "last_update": utcnow_iso()})
-        log(f"tesouro direto: {len(ipca)} IPCA+, {len(pre)} prefixados")
+        CACHE.set("tesouro", {"ipca": ipca, "pre": pre, "fonte": fonte, "last_update": utcnow_iso()})
+        log(f"tesouro ({fonte}): {len(ipca)} IPCA+, {len(pre)} prefixados")
 
 
 # ─────────────────────────────────────────────────────────────
@@ -878,17 +1047,106 @@ def build_weekly_summary(news):
 # CVM — Fatos Relevantes (portal de dados abertos, arquivo IPE)
 # ─────────────────────────────────────────────────────────────
 IPE_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_{year}.csv"
+IPE_ZIP_URL = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_{year}.zip"
+
+
+def baixar_ipe_linhas(year):
+    """Linhas do IPE do ano, de TODOS os csv do zip.
+
+    A CVM publica o indice de alguns anos partido em varios csv dentro do mesmo
+    zip. Ler so o primeiro faz companhias inteiras sumirem do indice sem erro
+    nenhum: foi o que aconteceu com as construtoras em 2026, presentes no ITR e
+    ausentes do IPE. Cada parte e lida com o proprio cabecalho, porque a ordem
+    das colunas pode mudar entre elas.
+    """
+    linhas, partes = [], 0
+    r = http_get(IPE_ZIP_URL.format(year=year), timeout=90)
+    if not r:
+        # A CVM as vezes publica o ano corrente partido (ipe_cia_aberta_2026_1.zip ...).
+        # Tenta as partes numeradas antes de desistir; para em duas ausencias seguidas.
+        faltas = 0
+        for n in range(1, 13):
+            parte = http_get(IPE_ZIP_URL.format(year=f"{year}_{n}"), timeout=90)
+            if not parte:
+                faltas += 1
+                if faltas >= 2:
+                    break
+                continue
+            faltas = 0
+            try:
+                with zipfile.ZipFile(io.BytesIO(parte.content)) as z:
+                    for nome in sorted(x for x in z.namelist() if x.lower().endswith(".csv")):
+                        linhas += list(csv.DictReader(io.StringIO(z.read(nome).decode("latin-1")), delimiter=";"))
+                        partes += 1
+            except Exception as e:
+                log(f"cvm: IPE {year} parte {n} ilegivel ({e})")
+        if linhas:
+            log(f"cvm: IPE {year} lido de {partes} csv em arquivos numerados, {len(linhas)} linhas")
+            return linhas
+    if r:
+        try:
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                for nome in sorted(n for n in z.namelist() if n.lower().endswith(".csv")):
+                    try:
+                        texto = z.read(nome).decode("latin-1")
+                        lidas = list(csv.DictReader(io.StringIO(texto), delimiter=";"))
+                    except Exception as e:
+                        log(f"cvm: IPE {year}, parte {nome} ilegivel ({e})")
+                        continue
+                    partes += 1
+                    linhas += lidas
+            if linhas:
+                log(f"cvm: IPE {year} lido de {partes} csv, {len(linhas)} linhas")
+                return linhas
+            log(f"cvm: IPE {year} sem linhas em {partes} csv")
+        except Exception as e:
+            log(f"cvm: zip do IPE {year} ilegivel ({e})")
+    r = http_get(IPE_URL.format(year=year), timeout=25)
+    if not r:
+        log(f"cvm: IPE {year} indisponivel")
+        _listar_pasta_ipe(year)
+        return []
+    try:
+        return list(csv.DictReader(io.StringIO(r.content.decode("latin-1")), delimiter=";"))
+    except Exception as e:
+        log(f"cvm: IPE {year} solto ilegivel ({e})")
+        return []
+
+
+def _listar_pasta_ipe(year):
+    """Diagnostico quando o IPE do ano some: o que a pasta da CVM lista para esse ano (o arquivo
+    pode ter mudado de nome ou sumido de vez). Uma linha no log, nunca uma excecao."""
+    try:
+        pasta = IPE_ZIP_URL.rsplit("/", 1)[0] + "/"
+        r = http_get(pasta, timeout=25)
+        if not r:
+            return
+        nomes = sorted(set(re.findall(r'href="([^"]*%s[^"]*)"' % year, r.text or "")))
+        log(f"cvm: pasta do IPE lista para {year}: {', '.join(n[:60] for n in nomes[:12]) or 'nada'}")
+    except Exception as e:
+        log(f"cvm: pasta do IPE ilegivel ({type(e).__name__})")
+
+
+def baixar_ipe(year):
+    """Compatibilidade: o CSV do ano como texto, agora juntando todas as partes."""
+    linhas = baixar_ipe_linhas(year)
+    if not linhas:
+        return None
+    saida = io.StringIO()
+    w = csv.DictWriter(saida, fieldnames=list(linhas[0].keys()), delimiter=";", extrasaction="ignore")
+    w.writeheader()
+    w.writerows(linhas)
+    return saida.getvalue()
 ALERT_HIST_PATH = os.path.join(DATA_DIR, "alert_history.json")
 
 
 def refresh_cvm():
     year = datetime.now(timezone.utc).year
-    r = http_get(IPE_URL.format(year=year), timeout=25)
-    if not r:
+    text = baixar_ipe(year)
+    if not text:
         return
 
     try:
-        text = r.content.decode("latin-1")
         rows = list(csv.DictReader(io.StringIO(text), delimiter=";"))
     except Exception as e:
         log(f"cvm: nao consegui ler o CSV ({e})")

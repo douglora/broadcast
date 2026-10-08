@@ -1,0 +1,73 @@
+{
+  "enabledPlugins": {
+    "financial-analysis@claude-for-financial-services": true,
+    "equity-research@claude-for-financial-services": true,
+    "market-researcher@claude-for-financial-services": true,
+    "earnings-reviewer@claude-for-financial-services": true,
+    "model-builder@claude-for-financial-services": true,
+    "meeting-prep-agent@claude-for-financial-services": true,
+    "claude-for-financial-advisors@claude-for-financial-advisors": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-for-financial-services": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/financial-services"
+      }
+    },
+    "claude-for-financial-advisors": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-for-financial-advisors"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git fetch origin dados:*)",
+      "Bash(git fetch origin dados)",
+      "Bash(git show origin/dados:*)",
+      "Bash(git log:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(curl -sS --max-time 20 https://raw.githubusercontent.com/douglora/broadcast/dados/livro/:*)",
+      "Bash(python3 -c:*)",
+      "Bash(python3 -m pytest:*)",
+      "Bash(python3 -m livro.rodar:*)",
+      "mcp__github__actions_run_trigger",
+      "mcp__github__actions_list",
+      "mcp__github__actions_get",
+      "mcp__github__get_job_logs",
+      "mcp__github__get_file_contents",
+      "PushNotification",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(python3 -m livro.portao:*)",
+      "Bash(python3 -m livro.portao)"
+    ],
+    "deny": [
+      "Bash(git push origin dados:*)",
+      "Bash(git push origin HEAD:dados:*)",
+      "Bash(git push --force:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/INSTALAR-PLUGINS-CLAUDE.command\" --quiet",
+            "timeout": 300
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"proxies": {"SHFE_SP": {"preco": 5480.0, "data": "2026-09-18", "rotulo": "celulose SHFE (fibra longa, CNY/t) - proxy; nao e BHKP", "codigo": "nf_SP0"}, "DCE_I0": {"preco": 735.5, "data": "2026-09-18", "rotulo": "minerio de ferro Dalian (CNY/t) - proxy", "codigo": "nf_I0"}}, "bhkp_semanal": {"valor": 580, "fonte": "Valor (lista Suzano China)", "data": "2026-09-15"}, "falhas": []}

@@ -1,0 +1,142 @@
+name: Boletim B3 (Boletim Diario do Mercado)
+
+# Le o Boletim Diario do Mercado da B3 (tabelas do aplicativo do BDI e arquivos da API de
+# download), cruza com o livro e grava em boletim_b3/ no branch `dados`: resumo, sinais e o
+# painel.html que a sessao publica como Artifact. A sessao do Claude na nuvem nao alcanca a
+# B3; o Actions alcanca. Leitura na sessao: `python3 mesa.py boletim`.
+#
+# So texto e JSON vao para o branch. PDF nunca: o boletim completo passa de 50 MB por pregao.
+# Quem quiser os cadernos marca `pdf` no disparo manual e baixa o artefato da rodada.
+#
+# Fora da B3 a rodada le so o arquivo diario de taxas indicativas de debentures da ANBIMA
+# (boletim/anbima.py), que sai entre 19h40 e 20h30. Se ainda nao saiu (HTTP 404) vale o do pregao
+# anterior, com a data dele; se a ANBIMA nao responder, a renda fixa sai so com os negocios da B3.
+#
+# Duas rodadas por pregao, as duas refazem os 2 ultimos pregoes (idempotente):
+#   noite  21h40 BRT  negocios, fluxo, indices, futuros, renda fixa, ETFs (a B3 fecha o arquivo por volta das 20h)
+#   manha  08h35 BRT  completa com aluguel, corretoras, posicoes em aberto e derivativos, que saem de madrugada
+# Cada pregao leva cerca de um minuto.
+
+on:
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Pregao AAAA-MM-DD (vazio = ultimo pregao fechado)"
+        required: false
+        default: ""
+        type: string
+      dias:
+        description: "Quantos pregoes, terminando na data (ate 21: e o que a B3 guarda); auto = 2, ou 21 se o historico for curto"
+        required: false
+        default: "auto"
+        type: string
+      pdf:
+        description: "Baixar os cadernos em PDF para o artefato da rodada (fora do git)"
+        required: false
+        default: false
+        type: boolean
+  # Agendamento ligado em 01/10/2026, com o ok do Douglas. O GitHub so agenda a partir da main.
+  # UTC: 00h40 = 21h40 BRT do pregao; 11h35 = 08h35 BRT do dia seguinte. Terca a sabado em UTC
+  # porque 00h40 UTC de terca e a noite de segunda em Brasilia; a rodada da manha de sabado
+  # completa o pregao de sexta. Feriado da B3 nao gasta nada: a rodada so refaz os 2 ultimos
+  # pregoes, que ja estao la. O cron do GitHub atrasa horas (em 01 e 02/10/2026 a rodada das
+  # 21h40 BRT so rodou as 03h08): quem garante o horario e a Routine da sessao (21h50 e 08h50
+  # BRT), que dispara esta rodada na hora se o dado ainda nao estiver gravado. O cron e a reserva.
+  schedule:
+    - cron: "40 0 * * 2-6"
+    - cron: "35 11 * * 2-6"
+
+permissions:
+  contents: write
+
+# Mesmo grupo dos outros coletores: um push por vez no branch dados
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  boletim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    env:
+      TZ: America/Sao_Paulo
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Abrir o branch de dados
+        uses: actions/checkout@v4
+        with:
+          ref: dados
+          path: dados_branch
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-livro.txt
+
+      - name: Coletar e resumir
+        timeout-minutes: 60
+        env:
+          DATA: ${{ inputs.data }}
+          DIAS: ${{ inputs.dias }}
+          PDF: ${{ inputs.pdf }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          # `auto` (padrao do cron, do push e do disparo manual): 2 pregoes; 21 enquanto o historico
+          # tiver menos de 15 pregoes ou for de outra versao dos dados (carga inicial, cerca de 20 minutos).
+          EXTRA=""
+          if [ "$PDF" = "true" ]; then EXTRA="--pdf pdf_artefato"; fi
+          python -u boletim_b3.py --saida dados_branch/boletim_b3 --data "$DATA" --dias "${DIAS:-auto}" \
+            --series dados_branch/livro/series $EXTRA
+
+      - name: Guardar os PDFs como artefato da rodada
+        if: always() && inputs.pdf
+        uses: actions/upload-artifact@v4
+        with:
+          name: boletim-b3-pdf-${{ github.run_id }}
+          path: pdf_artefato
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Publicar no branch dados
+        if: always()
+        run: |
+          cd dados_branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # so o que o coletor escreve: resumo, tabelas, indices e o historico. PDF fica de fora.
+          git add -A -- boletim_b3 ':!boletim_b3/**/*.pdf'
+          if git diff --cached --quiet; then echo "Nada novo para gravar"; exit 0; fi
+          git commit -q -m "Boletim B3: resumo e tabelas do pregao ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase -q && sleep 5
+          done
+
+      - name: Resumo
+        if: always()
+        run: |
+          echo "### Boletim B3" >> $GITHUB_STEP_SUMMARY
+          python - <<'PY' >> $GITHUB_STEP_SUMMARY
+          import json, os
+          p = "dados_branch/boletim_b3/manifest.json"
+          if os.path.exists(p):
+              m = json.load(open(p))
+              for d, v in m.get("pregoes", {}).items():
+                  estado = "completo" if v.get("completo") else "parcial (falta " + ", ".join(v.get("faltam", [])) + ")"
+                  print(f"- **{d}**: {estado}, {v.get('sinais')} sinais, {v.get('tabelas')} tabelas, {v.get('segundos')}s")
+                  for nome, erro in (v.get("falhas") or {}).items():
+                      print(f"  - falha em {nome}: {erro}")
+                  a = v.get("anbima") or {}
+                  if a:
+                      print(f"  - ANBIMA (taxa indicativa): {a.get('situacao')}" + (f", arquivo de {a['data']}" if a.get("data") else "")
+                            + (f" ({a['erro']})" if a.get("erro") else ""))
+              if m.get("refeitos"):
+                  print(f"- refeitos por buraco ou falha de rede em rodada anterior: {', '.join(m['refeitos'])}")
+              if m.get("catalogo_mudou"):
+                  print(f"- **catalogo da B3 mudou**: `{json.dumps(m['catalogo_mudou'], ensure_ascii=False)}`")
+              for f in m.get("falhas", [])[:20]:
+                  print(f"- falha: {f}")
+          PY
