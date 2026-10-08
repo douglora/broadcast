@@ -563,8 +563,11 @@ class Robo:
                   "fechamento, com a fita da B3."]
         lim = gate.get("limpeza") or {}
         if lim.get("saltos"):
-            avisos.append(f"Validação aprovada com filtro de dado suspeito: {lim['saltos']} de "
-                          f"{lim.get('observacoes')} retornos diários retirados ({lim.get('criterio')}).")
+            obs = f"{int(lim.get('observacoes') or 0):,}".replace(",", ".")
+            sal = f"{int(lim['saltos']):,}".replace(",", ".")
+            avisos.append(f"Validação aprovada com filtro de dado suspeito: {sal} de {obs} retornos diários "
+                          "retirados (alta de mais de 100% ou queda de mais de 50% num dia sem evento "
+                          "registrado: quase sempre grupamento ou desdobramento que nenhuma fonte trouxe).")
         avisos += self._sinais()["lacunas"]
         avisos += list(b.get("avisos") or [])[:0]          # avisos por ordem ficam no bloco da boleta
         if retrato is None:
