@@ -354,6 +354,7 @@ def _robo(tmp_path, monkeypatch, dia):
     monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt"))
     monkeypatch.setattr(rf, "ARQ_SERIE", str(tmp_path / "dt" / "serie_fluxo.json"))
     monkeypatch.setattr(rf, "ler_motor", lambda *a, **k: None)
+    monkeypatch.setattr(rf, "ARQ_FUTUROS_B3", str(tmp_path / "sem_futuros.json"))
     mt5 = tmp_path / "mt5"
     mt5.mkdir()
     r = rf.RoboFluxo(dia, saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5))
@@ -461,3 +462,27 @@ def test_janela_do_douglas_com_excecao_por_data(tmp_path):
     with open(arq, "w") as f:
         f.write('{"zerar": "25h", "inicio": 9}')              # lixo: fica o padrao
     assert chave.janela("2026-10-09", arq)["zerar"] == "13:00" and chave.janela("2026-10-09", arq)["inicio"] == "09:15"
+
+
+def test_ajuste_oficial_da_b3_e_spread_pelo_livro(tmp_path):
+    from quant.daytrade import robo_fluxo as rf
+    arq = str(tmp_path / "futuros.json")
+    with open(arq, "w") as f:
+        json.dump({"data": "2026-10-07", "familias": [{"contratos": [
+            {"s": "WDOX26", "ajuste": 5027.758, "ajuste_ant": 4999.488, "ult": 5044.0},
+            {"s": "WINV26", "ajuste": 204918.0, "ajuste_ant": 206332.0}]}]}, f)
+    cods = {"WDOFUT": "WDOX26", "WINFUT": "WINV26"}
+    # de manha o arquivo e de ontem: vale o "ajuste" (5.027,758, e nao o ultimo negocio da noite, 5.044,0)
+    assert rf.ajustes_oficiais(cods, "2026-10-08", arq) == {"WDOFUT": (5027.758, "2026-10-07"), "WINFUT": (204918.0, "2026-10-07")}
+    # se o arquivo ja for o de hoje (de noite), o ajuste de ontem e o "ajuste_ant"
+    assert rf.ajustes_oficiais(cods, "2026-10-07", arq)["WDOFUT"][0] == 4999.488
+    # segunda-feira com arquivo de sexta vale; arquivo velho demais nao; arquivo do futuro nao
+    assert rf.ajustes_oficiais(cods, "2026-10-12", arq)["WDOFUT"][0] == 5027.758
+    assert rf.ajustes_oficiais(cods, "2026-10-13", arq) == {} and rf.ajustes_oficiais(cods, "2026-10-06", arq) == {}
+    assert rf.ajustes_oficiais(cods, "2026-10-08", str(tmp_path / "nao_existe.json")) == {}
+    # o nivel entra arredondado ao tick: 5.027,758 -> 5.028,0; e o 1% sai dele
+    de = dict(ef.niveis_do_dia({"ajuste": 5027.758, "anterior": 5044.0}))
+    assert de["ajuste de ontem"] == 5027.758 and de["1% acima do ajuste"] == pytest.approx(5078.03558)
+    livro = {"WDOX26": {"compra": [(5028.5, 10.0), (5028.0, 40.0)], "venda": [(5029.0, 5.0)]}}
+    assert rf.spread_do_livro(livro, "WDOX26") == 0.5 and rf.spread_do_livro(livro, "WINV26") is None
+    assert rf.spread_do_livro({"WDOX26": {"compra": [(5029.5, 1.0)], "venda": [(5029.0, 1.0)]}}, "WDOX26") is None   # livro cruzado: foto ruim

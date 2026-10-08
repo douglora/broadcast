@@ -36,7 +36,44 @@ from quant.daytrade.robo import (ABERTURA, ATIVOS, DIARIO_MAX, DIR_DT, FIM_PROCE
 
 ARQ_SERIE = os.path.join(DIR_DT, "serie_fluxo.json")
 FITA_PARADA_S = 30.0
-I_COMPRA, I_VENDA = 8, 9            # melhor oferta de compra e de venda no vetor de cotacao do motor
+# o ajuste OFICIAL dos futuros, que o terminal coleta do boletim diario da B3. O "fechamento anterior" do
+# MetaTrader e o ultimo negocio da noite, nao o ajuste: em 07/10/2026 um era 5.044,0 e o outro 5.027,758
+ARQ_FUTUROS_B3 = os.path.expanduser(os.environ.get("QUANT_FUTUROS_B3", "~/Desktop/terminal-artefato/cache/out/deriv/futuros.json"))
+
+
+def ajustes_oficiais(codigos, hoje, arquivo=None):
+    """{WDOFUT: (ajuste, data)} do ultimo pregao ANTERIOR a `hoje`, pelo arquivo de futuros do terminal.
+
+    De manha o arquivo e do pregao de ontem (vale "ajuste"); de noite ja e o de hoje (vale "ajuste_ant").
+    Arquivo com mais de 5 dias corridos de atraso e ignorado: ajuste velho como nivel e pior que nenhum.
+    """
+    d = ler_json(arquivo or ARQ_FUTUROS_B3, padrao=None)
+    if not isinstance(d, dict) or not d.get("data"):
+        return {}
+    data = str(d["data"])
+    try:
+        atraso = (datetime.strptime(str(hoje), "%Y-%m-%d") - datetime.strptime(data, "%Y-%m-%d")).days
+    except ValueError:
+        return {}
+    if atraso < 0 or atraso > 5:
+        return {}
+    campo = "ajuste_ant" if atraso == 0 else "ajuste"
+    por_codigo = {str(c.get("s")): c for f in (d.get("familias") or []) for c in (f.get("contratos") or []) if isinstance(c, dict)}
+    fora = {}
+    for a, cod in codigos.items():
+        v = _num((por_codigo.get(cod) or {}).get(campo))
+        if v and v > 0:
+            fora[a] = (v, data if atraso else "pregão anterior")
+    return fora
+
+
+def spread_do_livro(livro, codigo):
+    """Distancia entre a melhor venda e a melhor compra na foto do livro; None se a foto nao traz os dois lados."""
+    lado = (livro or {}).get(codigo) or {}
+    c, v = lado.get("compra") or [], lado.get("venda") or []
+    if not c or not v or v[0][0] < c[0][0]:
+        return None
+    return v[0][0] - c[0][0]
 
 
 def codigo_da_fonte(ativo, codigo_mini):
@@ -134,15 +171,19 @@ class RoboFluxo:
                 self.leitor.pedir(sorted(set(self.codigos.values()) | {codigo_da_fonte(a, c) for a, c in self.codigos.items()}))
             except OSError as e:
                 log(f"nao consegui pedir a fita ao MetaTrader: {e}")
-        try:                                             # ajuste de ontem: coluna 12 da foto do robo do MetaTrader
-            with open(os.path.join(self.leitor.pasta, "autopilot_feed.csv"), "r", encoding="latin-1", errors="ignore") as f:
-                for ln in f:
-                    c = ln.strip().split(";")
-                    for a, cod in self.codigos.items():
-                        if c and c[0] == cod and len(c) > 12 and (_num(c[12]) or 0) > 0:
-                            self.ajustes[a] = _num(c[12])
-        except OSError:
-            pass
+        oficiais = ajustes_oficiais(self.codigos, self.hoje)   # ajuste de ontem: o oficial da B3, pelo terminal
+        for a, (v, _data) in oficiais.items():
+            self.ajustes[a] = v
+        if len(oficiais) < len(self.codigos):
+            try:                                         # sem o oficial: coluna 12 da foto do MetaTrader, quando vem preenchida
+                with open(os.path.join(self.leitor.pasta, "autopilot_feed.csv"), "r", encoding="latin-1", errors="ignore") as f:
+                    for ln in f:
+                        c = ln.strip().split(";")
+                        for a, cod in self.codigos.items():
+                            if a not in oficiais and c and c[0] == cod and len(c) > 12 and (_num(c[12]) or 0) > 0:
+                                self.ajustes[a] = _num(c[12])
+            except OSError:
+                pass
 
     def ler_fita(self):
         mini = {cod: a for a, cod in self.codigos.items()}
@@ -246,8 +287,7 @@ class RoboFluxo:
             if preco is None or preco <= 0 or not de_hoje or not pregao:
                 continue
             idade = ts - ts_tique
-            compra, venda = _num(c[I_COMPRA]) if len(c) > I_VENDA else None, _num(c[I_VENDA]) if len(c) > I_VENDA else None
-            spread = (venda - compra) if compra and venda and venda >= compra > 0 else None
+            spread = spread_do_livro(self.livro, self.codigos.get(a) or "")   # o motor nao traz compra e venda dos futuros
             fita, fonte = self.fita_de(a)
             self.cot[a] = {"preco": preco, "medio": _num(c[I_MEDIO]) if len(c) > I_MEDIO else None, "maxima": _num(c[I_MAX]),
                            "minima": _num(c[I_MIN]), "abertura": _num(c[I_ABE]), "anterior": _num(c[I_ANT]),
@@ -345,6 +385,10 @@ class RoboFluxo:
                   "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         sem_cheio = [es.CONTRATOS[a]["nome"] for a in ATIVOS if (self.cot.get(a) or {}).get("fonte_fluxo") == "mini"
                      and ef.ATIVOS[a].fonte_fluxo != self.codigos.get(a, "")[:3]]
+        sem_ajuste = [es.CONTRATOS[a]["nome"] for a in ATIVOS if a in self.cot and not self.ajustes.get(a)]
+        if em_hora and sem_ajuste:
+            avisos.insert(1, "Sem o ajuste oficial de ontem (" + ", ".join(sem_ajuste) + "): o nível do ajuste ficou de fora e a "
+                          "variação do dia usa o último negócio de ontem.")
         if em_hora and sem_cheio:
             avisos.insert(1, "Fluxo lido no mini (" + ", ".join(sem_cheio) + "): a fita do contrato cheio não está chegando. "
                           "Ele lê no cheio; no mini os lotes de robô entram na conta.")
@@ -477,8 +521,7 @@ def rodar(uma_vez=False, saidas=None, motor=MOTOR, intervalo=INTERVALO, ate=FIM_
     while True:
         agora = agora_brt()
         try:
-            if n % 5 == 0:
-                robo.livro = robo.leitor.livro()
+            robo.livro = robo.leitor.livro() or robo.livro     # foto pela metade: fica a anterior
             robo.ciclo(agora)
         except Exception as e:
             log(f"ciclo falhou: {type(e).__name__}: {e}")
