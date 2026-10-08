@@ -35,7 +35,7 @@ DIR_ROTINA = os.path.join(DIR_SAIDA, "rotina")
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 HORA_VIVO = "09:45"          # o robo ao vivo sobe antes da abertura para pegar a linha de base
-HORA_FIM_VIVO = "18:40"
+HORA_FIM_VIVO = "18:30"
 HORA_FECHAR = "20:30"        # a B3 publica o negocio a negocio no comeco da noite
 HORA_DESISTIR = "23:40"
 ESPERA_FITA_MIN = 20

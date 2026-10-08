@@ -57,12 +57,17 @@ SAIDAS_PADRAO = [os.path.expanduser(p) for p in os.environ.get(
 # Posicoes do vetor de cotacao do motor (coletor/vivo.py do terminal):
 # [ultimo, var%, abertura, max, min, volume, fech. anterior, hora, compra, venda, sessao,
 #  negocios, financeiro, medio, aberto, fech. oficial, ultimo pos-fechamento]
-I_ULT, I_VOL, I_ANT, I_HORA, I_NEG, I_FIN = 0, 5, 6, 7, 11, 12
+I_ULT, I_VOL, I_ANT, I_HORA, I_NEG, I_FIN, I_MEDIO = 0, 5, 6, 7, 11, 12, 13
 
-ABERTURA, FECHAMENTO = "10:00", "18:00"
+# Pregao regular da B3: negociacao continua das 10h00 as 16h55 e leilao de fechamento ate as 17h00.
+# O after-market (ate as 18h) NAO conta para casar ordem: ordem com validade "dia" nao participa dele.
+# O processo segue ate FIM_PROCESSO para a tela fechar com o preco oficial do dia.
+ABERTURA, FECHAMENTO, FIM_PROCESSO = "10:00", "17:00", "18:30"
 ATIVO_HEDGE = "WINFUT"
 MULTIPLICADOR_WIN = 0.20          # R$ por ponto do mini-indice
 DIARIO_MAX = 200
+NOTA_HEDGE = ("Proteção parcial: mini-índice vendido. Entrada simulada no primeiro preço do contrato "
+              "depois do envio da boleta; sem custo de rolagem ainda.")
 TOLERANCIA_PRECO_MEDIO = 0.02     # preco medio do ciclo a mais de 2% do ultimo: usa o ultimo
 
 
@@ -157,6 +162,10 @@ class Leitor:
                 continue
             self.precos[t] = preco
             fin = _num(c[I_FIN]) if len(c) > I_FIN else None
+            if fin is None and len(c) > I_MEDIO and _num(c[I_MEDIO]):
+                # a corretora nem sempre manda o financeiro; o preco medio do dia vezes o volume da o mesmo
+                # acumulado, e a diferenca entre dois retratos continua sendo o financeiro do intervalo
+                fin = _num(c[I_MEDIO]) * vol
             ant = self.ultimo.get(t)
             if ant is None:
                 ant = {"v": 0.0, "fin": 0.0} if t in self.sem_volume else {"v": vol, "fin": fin}
@@ -260,6 +269,8 @@ class Robo:
         emitida = bool(b.get("emitida"))
         if retrato is not None and emitida:
             novos = self.leitor.negocios(retrato, agora)
+            if agora.strftime("%H:%M") >= FECHAMENTO:
+                novos = []                          # after-market: atualiza preco e volume, nao casa ordem
             if novos:
                 self._anexar_fita(novos)
                 self.sessao.aplicar(novos)
@@ -297,7 +308,8 @@ class Robo:
             self.marco("fechamento", "fechamento",
                        f"Pregão encerrado: {t['qtd_executada']} de {t['qtd_pedida']} ações executadas"
                        + (f" ({taxa * 100:.0f}%)" if taxa is not None else "")
-                       + ". A medição oficial sai com a fita da B3, depois das 20h.", agora)
+                       + " (até o leilão de fechamento; o after-market não conta)."
+                       + " A medição oficial sai com a fita da B3, depois das 20h.", agora)
 
     def _hedge(self, retrato, agora, fase):
         h = self.boleta_do_dia.get("hedge")
@@ -312,8 +324,8 @@ class Robo:
                           "motivo": h.get("motivo"), "vencimento": h.get("vencimento"),
                           "preco_entrada": None, "hora": None, "preco_mercado": None, "aberto": None,
                           "multiplicador": MULTIPLICADOR_WIN,
-                          "nota": "Proteção parcial: mini-índice vendido. Entrada simulada no primeiro "
-                                  "preço do contrato depois do envio da boleta; sem custo de rolagem ainda."}
+                          "nota": NOTA_HEDGE}
+        self.hedge["nota"] = NOTA_HEDGE            # o texto e do codigo, nao do estado salvo
         if preco is None or not de_hoje:
             return
         if self.hedge["preco_entrada"] is None and fase == "operando":
@@ -586,7 +598,7 @@ def rodar(uma_vez=False, saidas=None, motor=MOTOR, intervalo=INTERVALO, ate=None
     """Laco do dia. `ate` (HH:MM) encerra o processo; padrao: 40 minutos depois do fechamento."""
     agora = agora_brt()
     hoje = agora.strftime("%Y-%m-%d")
-    fim = ate or (datetime.strptime(FECHAMENTO, "%H:%M") + timedelta(minutes=40)).strftime("%H:%M")
+    fim = ate or FIM_PROCESSO
     trava = None
     if not uma_vez:
         # Um robo so por maquina: dois processos anexariam os mesmos negocios a mesma fita e a
