@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 15h21
+NOTÍCIAS E FATOS · 08/10 16h13
 
-Pernas: noticias ok 11 novas (18 consultas; descartadas: 456 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 460 veículo fora da lista, 42 sem ativo, 2 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,39 @@ Fonte: SEC EDGAR 2026-10-08
 id: E04-TSM-26000680-2026-10-08 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (10)
+## NOTÍCIAS COM MATERIALIDADE (12)
+
+[ATENÇÃO] E05 · DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até 25% de alta
+Seu Dinheiro · 08/10 16h10 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Essa possibilidade levou os analistas a elevarem o preço-alvo da ação de US$ 25 para US$ 37, mantendo a recomendação de compra.
+  – O novo alvo representa um potencial de valorização de 25% em relação ao último fechamento.
+  – Segundo o UBS BB, o net new money — os recursos líquidos que entram na plataforma — chegou a R$ 103 bilhões nos últimos 12 meses, uma média de R$ 26 bilhões por trimestre.
+  – Para os analistas, a queda dos juros pode reduzir a “inércia” dos investidores que hoje encontram retornos elevados em aplicações de baixo risco e estimular uma migração para outros produtos.
+  – Hoje, ações representam cerca de 25% dos ativos sob custódia da XP.
+  – Pelas contas do UBS BB, cada 10 pontos-base de aumento no take rate acrescentaria cerca de R$ 1,3 bilhão às receitas.
+Link: https://www.seudinheiro.com/2026/empresas/xp-xpbr31-pode-ganhar-um-empurrao-da-selic-mais-baixa-ubs-bb-eleva-preco-alvo-e-ve-ate-25-de-alta-miql/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: DI
+Como falar: 'saiu no Seu Dinheiro: XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até…; confirmar o número no texto antes de repassar'
+Fonte: Seu Dinheiro 08/10 16h10
+id: E05-DI-ea3764b6c3-2026-10-08 · status: pendente
+
+[ATENÇÃO] E05 · PETR4 · R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras
+InfoMoney · 08/10 15h30 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Nos dois certames, o 6º Ciclo da Oferta Permanente de Concessão e o 4º Ciclo da Oferta Permanente de Partilha, o governo levantou aproximadamente R$ 3,54 bilhões em bônus de assinatura.
+  – Desse montante, a Petrobras comprometeu cerca de R$ 3,22 bilhões, ou aproximadamente 91% do total.
+  – O desembolso equivale a cerca de 0,44% do valor de mercado da estatal, segundo cálculos da XP.
+  – No total, foram 21 blocos para a Petrobras, sendo 19 na rodada de concessão e outros dois na rodada de partilha.
+  – A companhia garantiu 19 blocos e comprometeu R$ 2,99 bilhões em bônus, equivalentes a 0,4% de seu valor de mercado.
+  – Foram 12 blocos na Bacia de Campos, com participação de 100%, e sete na Bacia do Ceará, na Margem Equatorial, em consórcio com a QatarEnergy, no qual a estatal tem 70%.
+Link: https://www.infomoney.com.br/mercados/petrobras-petr4-tres-bilhoes-estatal-leiloes-da-anp-aposta-em-campos-e-novas-fronteiras/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: PETR4
+Como falar: 'saiu no InfoMoney: R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras; confirmar o número no texto antes de repassar'
+Fonte: InfoMoney 08/10 15h30
+id: E05-PETR4-4f0acfc71e-2026-10-08 · status: pendente
 
 [ATENÇÃO] E05 · BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
 TradingView (Reuters) · 08/10 12h17 · fonte única · licença: manchete
@@ -166,8 +198,18 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (100)
+## OUTRAS NOTÍCIAS (só manchete) (110)
 
+· BTC YieldMax Bitcoin Option Income Strategy ETF announces weekly distribution of $0.1658 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:480687c92094b:0-yieldmax-bitcoin-option-income-strategy-etf-announces-weekly-distribution-of-0-1658/
+· UST Bond yields fell, as the Treasury market passed a crucial test of investor confidence (MarketWatch) https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41
+· USDBRL Ouro fecha avança com alívio do dólar e dos Treasuries (Money Times) https://www.moneytimes.com.br/ouro-8-10-26-apsa/
+· PLTR 'Everybody knows you're out of touch': Palantir CEO Alex Karp says his own exec told him to stop hyping Foundry (Fortune) https://fortune.com/2026/10/08/everybody-knows-youre-out-of-touch-palantir-ceo-alex-karp-says-his-own-exec-told-him-to-stop-hyping-foundry/
+· UST Stock Market Today: S&P 500 Slips as Oil Spikes 5%, 10-Year Yields Near 5.35% (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:483f8f015094b:0-stock-market-today-s-p-500-slips-as-oil-spikes-5-10-year-yields-near-5-35/
+· BTC Is the US Government Selling $1 Billion in Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/us-government-selling-1-billion-163555621.html
+· JPM JPMorgan Chase & Co. (JPM) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/JPM/
+· BRENT Stock Market Today (Oct. 8, 2025): Nasdaq falls on surging oil prices, Treasury yields (Yahoo Finance) https://sg.finance.yahoo.com/news/stock-market-today-oct-8-135028860.html
+· USDBRL Ibovespa avança à espera de nova pesquisa eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxPWTRNeUZCTUJRZmdodXA2ck5ZWFhwOEFuN19fTWZiSm5peEk3eExDa240Y0loWVhNMmtmcWxxOEdDc0hYR0NEN1R3cTRjN1N2UHY3dVVlMVhubWRnMmhmWFk0WEhPWGNuaXpJTmQzVlBvNnJ2cjBFM1dua2d3d042TlFoaDg2YU1mWUpOeE8tdW5NY2VseU0ySW00NF8tMlNjc3JN?oc=5
+· ETH Current price of Ethereum for October 8, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE42MDV6bmVva2ZLNDZoT200RkVSa3MzRkRfaVI3Vjc0RGdFaTRRT3BMSFFaQk1jNVF1cnpyaV9OMUQ2bHpVUm9ObGRWZ0dwRllXM1VScXRzNXo5SGZwQ1FQVkptMVZ4MC1h?oc=5
 · NVDA Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC) https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html
 · BTC Bitcoin price news: BTC falls to $80,000 nearly one year after October 2025 crash (CoinDesk) https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears
 · UST Strong 30-Year Treasury Auction Shows That Bidders Remain Hungry for Bonds (Barron's) https://www.barrons.com/articles/strong-30-year-treasury-auction-shows-that-bidders-remain-hungry-for-bonds-6f69724a
@@ -218,14 +260,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · CVX Is Hess Midstream (HESM) Undervalued Following Chevron's Deal And Revised Bakken Contracts? (Yahoo Finance) https://sg.finance.yahoo.com/news/hess-midstream-hesm-undervalued-following-141016926.html
 · SMAL11 O rali das small caps (Brazil Journal) https://braziljournal.com/o-rali-das-small-caps/
 · NVDA Nvidia: The Top AI Stock Is On Sale (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952602-nvidia-the-top-ai-stock-is-on-sale
-· BRENT Dow Falls Nearly 200 Points, S&P 500 And Nasdaq In Red As Treasury Yields Stay Near 24-Year Highs, Oil Prices Jump (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:63080c1ee094b:0-dow-falls-nearly-200-points-s-p-500-and-nasdaq-in-red-as-treasury-yields-stay-near-24-year-highs-oil-prices-jump/
-· PETR4 Ibovespa Hoje Ao Vivo: Bolsa sobe com PETR4 e testa os 206 mil pontos (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/
-· JPM JPMorgan's Shares Before Q3 Earnings: Buy Now or Wait for Results? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jpmorgans-shares-q3-earnings-buy-133900057.html
-· TSM TSMC Sales Soar 50%. The Stock Is Falling Anyway (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e12db86a1094b:0-tsmc-sales-soar-50-the-stock-is-falling-anyway/
-· PETR4 Ibovespa retoma alta após correção com Petrobras; dólar ronda R$ 5 após rali eleitoral (Exame) https://exame.com/invest/mercados/ibovespa-retoma-alta-apos-correcao-com-petrobras-dolar-ronda-r-5-apos-rali-eleitoral/
-· GOOGL Alphabet Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Alphabet Inc. Securities Lawsuit - Contact SueWallSt (PR Newswire) https://www.prnewswire.com/news-releases/alphabet-shareholder-alert-investors-with-losses-may-seek-to-lead-the-class-action-in-alphabet-inc-securities-lawsuit---contact-suewallst-302902213.html
-· BRENT Petróleo supera US$ 100 após ataques na Arábia Saudita e pressiona Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-acima-dos-us-105-e-ataques-na-arabia-saudita/
-· GOOGL Alphabet’s Google Cloud Strategy Is Entering A New Phase (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4952790-alphabets-google-cloud-strategy-is-entering-a-new-phase
-· USDBRL Real sobe 10,19% frente ao dólar; 3ª maior valorização desde 2010 (Poder360) https://www.poder360.com.br/poder-economia/real-sobe-1019-frente-ao-dolar-3a-maior-valorizacao-desde-2010/
-· AVGO Broadcom Is Financing Its AI Moat (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952775-broadcom-is-financing-its-ai-moat
-· (+40 manchetes; lista completa em eventos/noticias.json)
+· (+50 manchetes; lista completa em eventos/noticias.json)
