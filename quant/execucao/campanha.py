@@ -641,7 +641,7 @@ def estado_campanha(caminho=ARQ_CONFIG):
 
 
 def rodar_do_dia(data=None, capital=100_000.0, gate_passou=None, dados=None,
-                registrar=True, boleta=None, reprecificar=False):
+                registrar=True, boleta=None, reprecificar=False, negocios=None, ate_hora=None):
     """A sessao de um pregao REAL, rodada depois do fechamento.
 
     A boleta sai de manha (`rodar_diario --paper`); os fills so podem ser medidos com a
@@ -660,7 +660,14 @@ def rodar_do_dia(data=None, capital=100_000.0, gate_passou=None, dados=None,
     if dados is None:
         return None, ("sem banco montado: a campanha da fase 4 exige dado real. "
                       "Rode a coleta antes, ou use --ensaio para o ensaio sintetico.")
-    negocios = paper.carregar_negocios(data.date())
+    # `negocios`: fita entregue por quem chama (o robo usa a propria fita do dia quando a B3 nao
+    # publica o arquivo oficial). `ate_hora`: corta a fita (o robo casa ordem so no pregao regular).
+    if negocios is None:
+        negocios = paper.carregar_negocios(data.date())
+    else:
+        negocios = paper.normalizar_negocios(negocios)
+    if negocios is not None and len(negocios) and ate_hora:
+        negocios = negocios[negocios["hora"].astype(str).str[:5] < str(ate_hora)[:5]].reset_index(drop=True)
     if negocios is None or len(negocios) == 0:
         return None, (f"sem o negocio-a-negocio de {data.date()}: nao da para medir "
                       "execucao nenhuma. Arquive a fita do dia e rode de novo.")

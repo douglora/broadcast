@@ -140,9 +140,16 @@ def _boleta_da_manha(dia):
     return b if str(b.get("data")) == str(dia) else None
 
 
-def fechar(dia=None):
-    """Noite: fita oficial, medicao da boleta da manha, fills no livro, linha da campanha."""
-    from quant.execucao import campanha
+def fechar(dia=None, com_a_fita_do_robo=False):
+    """Noite: fita oficial, medicao da boleta da manha, fills no livro, linha da campanha.
+
+    `com_a_fita_do_robo`: ultimo recurso. A B3 nem sempre entrega o negocio a negocio (em
+    08/10/2026 o endereco respondia 504). Sem sessao registrada nao ha posicao amanha e o robo
+    recompraria a carteira inteira; entao, esgotadas as tentativas da noite, a sessao e fechada
+    com a fita que o proprio robo viu ao vivo (derivada do volume acumulado) e a linha do dia
+    fica anotada como tal em `quant/saida/rotina/<data>.json`.
+    """
+    from quant.execucao import campanha, robo_vivo
     from quant.validacao import gate
     dia = dia or agora_brt().date()
     b = _boleta_da_manha(dia)
@@ -159,10 +166,21 @@ def fechar(dia=None):
         log("fechar: sem boleta de hoje para medir (a rodada da manha nao emitiu)")
         return False
     passou, motivo = gate.ler()
-    registro, msg = campanha.rodar_do_dia(dia, gate_passou=passou, boleta=b, reprecificar=True)
+    fita, origem_fita = None, "oficial da B3 (negocio a negocio)"
+    if com_a_fita_do_robo:
+        arq = os.path.join(DIR_SAIDA, "vivo", str(dia), "fita.csv")
+        try:
+            import pandas as pd
+            fita = pd.read_csv(arq, sep=";", dtype={"ticker": str, "hora": str})
+            origem_fita = "do robo (volume acumulado do MetaTrader); a oficial da B3 nao saiu"
+        except Exception as e:
+            log(f"fechar: sem a fita do robo ({type(e).__name__}: {e})")
+            return False
+    registro, msg = campanha.rodar_do_dia(dia, gate_passou=passou, boleta=b, reprecificar=True,
+                                          negocios=fita, ate_hora=robo_vivo.FECHAMENTO)
     estado = _estado(dia)
     estado["passos"]["sessao"] = {"ok": registro is not None, "quando": agora_brt().isoformat(timespec="seconds"),
-                                  "cauda": [msg], "registro": registro}
+                                  "cauda": [msg], "registro": registro, "fita": origem_fita}
     _gravar(dia, estado)
     log(f"fechar: {msg}" + (f" | executou {registro.get('qtd_executada')} de {registro.get('qtd_pedida')}"
                             if registro else ""))
@@ -186,8 +204,8 @@ def dia():
             return 0
         log(f"fita oficial ainda nao saiu; tento de novo em {ESPERA_FITA_MIN} minutos")
         time.sleep(ESPERA_FITA_MIN * 60)
-    log("fechar: a fita oficial nao saiu ate o fim da noite; a sessao de hoje fica sem medicao oficial "
-        "(rode `python -m quant.robo fechar --data AAAA-MM-DD` quando ela sair; a B3 guarda ~20 pregoes)")
+    log("fechar: a fita oficial nao saiu ate o fim da noite; fecho a sessao com a fita que o robo viu ao vivo")
+    fechar(hoje, com_a_fita_do_robo=True)
     return 0          # codigo 0 de proposito: o agendador religa o processo quando ele sai com erro
 
 
@@ -196,6 +214,8 @@ def main(argv=None):
     ap.add_argument("comando", choices=["dia", "preparar", "vivo", "fechar", "estado"])
     ap.add_argument("--repetir", action="store_true", help="refaz os passos que ja deram certo hoje")
     ap.add_argument("--data", default=None, help="AAAA-MM-DD (para fechar um pregao passado)")
+    ap.add_argument("--fita-do-robo", action="store_true",
+                    help="com `fechar`: usa a fita que o robo viu ao vivo em vez da oficial da B3")
     args = ap.parse_args(argv)
     d = datetime.strptime(args.data, "%Y-%m-%d").date() if args.data else agora_brt().date()
     if args.comando == "dia":
@@ -205,7 +225,7 @@ def main(argv=None):
     if args.comando == "vivo":
         return vivo()
     if args.comando == "fechar":
-        return 0 if fechar(d) else 1
+        return 0 if fechar(d, com_a_fita_do_robo=args.fita_do_robo) else 1
     e = _estado(d)
     for nome, x in e["passos"].items():
         print(f"{'ok    ' if x.get('ok') else 'FALHOU'} {nome:12} {x.get('quando', '')}  {x.get('segundos', '')}s")
