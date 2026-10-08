@@ -1,6 +1,6 @@
 {
  "pregao": "2026-10-07",
- "coletado_em": "2026-10-08T11:55:52Z",
+ "coletado_em": "2026-10-08T17:59:15Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
@@ -21,7 +21,7 @@
   "EconomicIndicators": {
    "titulo": "Indicadores econômicos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-08T08:43:03.503",
+   "atualizado_em": "2026-10-08T10:53:28.74",
    "sla": "8:00:00",
    "linhas": 430,
    "truncada": false
@@ -125,7 +125,7 @@
   "InCash": {
    "titulo": "Ações mais negociadas - à vista",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-08T06:41:55.213",
+   "atualizado_em": "2026-10-08T09:55:48.88",
    "sla": "8:00:00",
    "linhas": 5,
    "truncada": false
@@ -237,7 +237,7 @@
   "ProventionCreditVariable": {
    "titulo": "Crédito de proventos",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-08T08:52:22.387",
+   "atualizado_em": "2026-10-08T10:52:48.823",
    "sla": "00:00:00",
    "linhas": 83,
    "truncada": false
@@ -365,9 +365,9 @@
   "Trade": {
    "titulo": "Negócio a negócio",
    "situacao": "republicado",
-   "atualizado_em": "2026-10-07T20:44:49.437",
+   "atualizado_em": "2026-10-08T11:17:38.237",
    "sla": "18:00:00",
-   "linhas": 29126,
+   "linhas": 29134,
    "truncada": false
   },
   "BTBTrade": {
@@ -407,7 +407,7 @@
  },
  "falhas": {},
  "rf_cadastro": {
-  "papeis_no_dia": 1702,
+  "papeis_no_dia": 1699,
   "consultados": 0,
   "achados": 0,
   "sem_cadastro": 0,

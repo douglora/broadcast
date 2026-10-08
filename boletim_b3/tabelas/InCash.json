@@ -7,7 +7,7 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Participation", "titulo": "Participação (%)"}],
  "texto": ["Indica as ações que tiveram maior volume de negociação no mercado à vista, refletindo interesse do investidor."],
  "situacao": "republicado",
- "atualizado_em": "2026-10-08T06:41:55.213",
+ "atualizado_em": "2026-10-08T09:55:48.88",
  "truncada": false,
  "linhas": [
   ["IBOV11", "IBO/", 5642106.31038, 10.004562672380196],
