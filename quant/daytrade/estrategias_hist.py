@@ -358,8 +358,9 @@ class NivelReacao(Estrategia):
         das_medias = []
         if self.valor_medias is not None and self.medias_como_nivel:
             das_medias = [(self.valor_medias[j][i], f"média de {n} ({self.tempo_medias} min)") for j, n in enumerate(self.medias)]
+        tem_oficial = any(n == "ajuste de ontem" for _v, n in self.extras)       # o ajuste oficial vale mais que o calculado das barras
         lista = [] if self.so_medias else [
-            (self.ajuste[i], "ajuste de ontem"), *[(v, n) for v, n in self.extras],
+            *([] if tem_oficial else [(self.ajuste[i], "ajuste de ontem")]), *[(v, n) for v, n in self.extras],
             (self.max_ontem[i], "máxima de ontem"), (self.min_ontem[i], "mínima de ontem"), (self.fech_ontem[i], "fechamento de ontem"),
             (self.abertura[i], "abertura"), (self.max_dia[i], "máxima do dia"), (self.min_dia[i], "mínima do dia")]
         lista += das_medias

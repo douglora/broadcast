@@ -769,14 +769,18 @@ class RoboFluxo:
                 ab = (pts * k["valor_ponto"] * e.posicao.contratos - 2 * k["custo"] * e.posicao.contratos) if pts is not None else None
                 cfg = ef.ATIVOS[a]
                 sinal_lado = 1.0 if e.posicao.lado == "C" else -1.0
-                parcial_em = None if e.posicao.parcial_feita else e.posicao.entrada + sinal_lado * cfg.parcial_pts
-                if e.posicao.parcial_feita:
+                parcial_pts = e.posicao.parcial_pts if e.posicao.parcial_pts is not None else cfg.parcial_pts
+                parcial_em = None if e.posicao.parcial_feita else e.posicao.entrada + sinal_lado * parcial_pts
+                do_alvo = f" Alvo em {_pontos(e.posicao.alvo, a)}." if e.posicao.alvo is not None else ""
+                if e.posicao.parcial_feita and e.posicao.sem_arrasto:
+                    passo_txt = f"Parcial feita. Stop no preço de entrada ({_pontos(e.posicao.stop, a)}); o resto espera o alvo." + do_alvo
+                elif e.posicao.parcial_feita:
                     passo_txt = f"Parcial feita. Stop em {_pontos(e.posicao.stop, a)}, andando {_pontos(cfg.arrasto_pts, a)} pontos atrás do melhor preço."
                 else:
                     passo_txt = (f"Parcial de metade em {_pontos(parcial_em, a)}"
                                  + (f" (faltam {_pontos(abs(parcial_em - pr), a)} pontos)" if pr is not None else "")
-                                 + "; depois o stop vai para o preço de entrada.")
-                pos = dict(asdict(e.posicao), pontos=pts, aberto=ab, alvo=None, risco_pts=abs(e.posicao.entrada - e.posicao.stop),
+                                 + "; depois o stop vai para o preço de entrada." + do_alvo)
+                pos = dict(asdict(e.posicao), pontos=pts, aberto=ab, risco_pts=abs(e.posicao.entrada - e.posicao.stop),
                            protegido=e.posicao.parcial_feita, parcial_em=parcial_em,
                            ha_s=max(0, int(agora.timestamp() - e.posicao.ts_entrada)) if e.posicao.ts_entrada else None,
                            stop_distancia_pts=abs(pr - e.posicao.stop) if pr is not None else None,
@@ -785,7 +789,7 @@ class RoboFluxo:
                 posicoes.append(dict(pos, ativo=a, nome=k["nome"], contrato=self.codigos.get(a), ultimo=pr))
                 ops.append({"n": len(ops) + 1, "ativo": a, "lado": e.posicao.lado, "contratos": e.posicao.contratos,
                             "entrada": e.posicao.entrada, "hora_entrada": e.posicao.hora, "saida": None, "hora_saida": None,
-                            "motivo": None, "stop": e.posicao.stop, "alvo": None, "pontos": pts,
+                            "motivo": None, "stop": e.posicao.stop, "alvo": e.posicao.alvo, "pontos": pts,
                             "custos": 2 * k["custo"] * e.posicao.contratos, "resultado": ab, "aberta": True,
                             "tecnica": e.posicao.tecnica, "nome_nivel": e.posicao.nome_nivel})
             a15, a60 = f.agressao(15), f.agressao(60)
