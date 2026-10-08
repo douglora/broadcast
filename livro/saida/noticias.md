@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 10h26
+NOTÍCIAS E FATOS · 08/10 11h22
 
-Pernas: noticias ok 18 novas (18 consultas; descartadas: 445 veículo fora da lista, 53 sem ativo, 25 teto) · cvm ok 2 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 444 veículo fora da lista, 52 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -15,7 +15,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e…'
 Fonte: CVM 08/10
-id: E03-PETR4-1575304-2026-10-08 · status: pendente · íntegra disponível
+id: E03-PETR4-1575304-2026-10-08 · status: entregue · íntegra disponível
 
 [INFO] E03 · ITSA4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 08/10/2026 09:31 · Apresentações a analistas/agentes do mercado
@@ -55,7 +55,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: MRVL
 Como falar: 'saiu no Seeking Alpha: Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL); confirmar o número no texto antes de repassar'
 Fonte: Seeking Alpha 08/10 09h31
-id: E05-MRVL-03379f2363-2026-10-08 · status: pendente
+id: E05-MRVL-03379f2363-2026-10-08 · status: entregue
 
 [ATENÇÃO] E05 · MU · Micron Rival Samsung's Outlook Gets a $70 Billion Jolt
 TradingView (Reuters) · 08/10 09h17 · fonte única · licença: manchete
@@ -64,7 +64,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: MU
 Como falar: 'saiu no TradingView (Reuters): Micron Rival Samsung's Outlook Gets a $70 Billion Jolt; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 08/10 09h17
-id: E05-MU-2bc160b1e4-2026-10-08 · status: pendente
+id: E05-MU-2bc160b1e4-2026-10-08 · status: entregue
 
 [ATENÇÃO] E05 · TSM · TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast
 Yahoo Finance · 08/10 08h37 · fonte única · licença: resumo
@@ -80,7 +80,7 @@ Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; 
 Ativos: TSM
 Como falar: 'saiu no Yahoo Finance: TSMC Q3 Revenue Tops Its Own Guidance and the 19-Analyst Forecast; confirmar o número no texto antes de repassar'
 Fonte: Yahoo Finance 08/10 08h37
-id: E05-TSM-bd7bd7ed60-2026-10-08 · status: pendente
+id: E05-TSM-bd7bd7ed60-2026-10-08 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Company
 Seeking Alpha · 08/10 07h39 · fonte única · licença: manchete
@@ -157,8 +157,22 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (32)
+## OUTRAS NOTÍCIAS (só manchete) (46)
 
+· PETR4 Ibovespa retoma alta após correção com Petrobras; dólar ronda R$ 5 após rali eleitoral (Exame) https://exame.com/invest/mercados/ibovespa-retoma-alta-apos-correcao-com-petrobras-dolar-ronda-r-5-apos-rali-eleitoral/
+· GOOGL Alphabet Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in Alphabet Inc. Securities Lawsuit - Contact SueWallSt (PR Newswire) https://www.prnewswire.com/news-releases/alphabet-shareholder-alert-investors-with-losses-may-seek-to-lead-the-class-action-in-alphabet-inc-securities-lawsuit---contact-suewallst-302902213.html
+· BRENT Petróleo supera US$ 100 após ataques na Arábia Saudita e pressiona Wall Street (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-cai-com-petroleo-acima-dos-us-105-e-ataques-na-arabia-saudita/
+· GOOGL Alphabet’s Google Cloud Strategy Is Entering A New Phase (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4952790-alphabets-google-cloud-strategy-is-entering-a-new-phase
+· USDBRL Real sobe 10,19% frente ao dólar; 3ª maior valorização desde 2010 (Poder360) https://www.poder360.com.br/poder-economia/real-sobe-1019-frente-ao-dolar-3a-maior-valorizacao-desde-2010/
+· AVGO Broadcom Is Financing Its AI Moat (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952775-broadcom-is-financing-its-ai-moat
+· TSM TSMC Stock: Global Chip Demand Shows No Signs Of Slowing (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4952778-tsmc-global-chip-demand-shows-no-signs-of-slowing
+· UGPA3 Após alta de 70%, Morgan Stanley rebaixa Vibra e Ultrapar: “precificadas à perfeição” (InfoMoney) https://www.infomoney.com.br/mercados/apos-alta-de-70-morgan-stanley-rebaixa-vibra-e-ultrapar-precificadas-a-perfeicao/
+· GOOGL Alphabet Stocks Drop Although TPU Sales Escape Google's Cloud (Yahoo Finance) https://uk.finance.yahoo.com/news/alphabet-stocks-drop-although-tpu-131342768.html
+· MU Micron’s Quarterly NAND Revenue Jumped 526%. Here’s Where the Stock Could Go by 2031 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-quarterly-nand-revenue-jumped-130607262.html
+· MRVL Marvell to Showcase Open AI Infrastructure Solutions at OCP Global Summit 2026 (Business Wire) https://www.businesswire.com/news/home/20261008676830/en/Marvell-to-Showcase-Open-AI-Infrastructure-Solutions-at-OCP-Global-Summit-2026
+· CVX Chevron Stocks Slip as Storm Evacuations Test Gulf Output (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5386a57a9094b:0-chevron-stocks-slip-as-storm-evacuations-test-gulf-output/
+· MRVL Marvell Stock Just Got a Stunning Price Target Hike on the AI Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0dd47febb094b:0-marvell-stock-just-got-a-stunning-price-target-hike-on-the-ai-boom/
+· NVDA Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:1be9c117a094b:0-samsung-s-80b-quarterly-profit-tops-nvidia-amd-s-lisa-su-shops-in-seoul/
 · GOOGL Alphabet Stocks Drop Although TPU Sales Escape Google's Cloud (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7df360ef7094b:0-alphabet-stocks-drop-although-tpu-sales-escape-google-s-cloud/
 · GOOGL Alphabet shares rise as Google pushes Gemini deeper into enterprise AI (Yahoo Finance) https://uk.finance.yahoo.com/news/alphabet-shares-rise-google-pushes-131122567.html
 · BRENT Prefixados do Tesouro sobem em dia de alta do petróleo e dos juros globais (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-08102026/
