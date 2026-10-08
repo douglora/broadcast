@@ -317,6 +317,7 @@ class RoboFluxo:
                 "risco_pts_agora": ef.ATIVOS[a].stop_pts,
                 "niveis": niveis,
                 "fluxo": {"agressao_15s": a15, "agressao_60s": a60, "tipico_30s": f.volume_tipico(p.janela_tipico_s),
+                          "tipico_15s": f.volume_tipico(15), "tipico_60s": f.volume_tipico(60),
                           "linhas": len(f.linhas),
                           "livro_compra": (livro.get("compra") or [])[:5], "livro_venda": (livro.get("venda") or [])[:5]},
                 "posicao": pos, "operacoes_hoje": e.operacoes, "restam": max(p.max_operacoes - e.operacoes, 0),
