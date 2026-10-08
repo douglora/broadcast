@@ -328,6 +328,16 @@ class NivelReacao(Estrategia):
         self.so, self.sh, self.sl, self.sc = (s[k].to_numpy() for k in ("o", "h", "l", "c"))
         self.is_ = _fechadas(m1.index, s, self.tempo)
         self.nova_s = np.r_[True, self.is_[1:] != self.is_[:-1]]
+        # para o estudo: de onde o preco veio (30 e 60 minutos), onde esta na faixa do dia, e o vai-e-vem recente
+        passo = max(1, int(np.median(np.diff(m1.index.values[:2000]).astype("timedelta64[m]").astype(int))) if len(m1) > 2 else 1)
+        c1 = m1["c"]
+        self.veio_30 = (c1 - c1.shift(max(1, 30 // passo))).to_numpy()
+        self.veio_60 = (c1 - c1.shift(max(1, 60 // passo))).to_numpy()
+        self.vwap = vwap_do_dia(m1).to_numpy()
+        self.topo_dia = m1["h"].groupby(d).cummax().to_numpy()
+        self.fundo_dia = m1["l"].groupby(d).cummin().to_numpy()
+        self.vai_e_vem = (m1["h"].rolling(max(2, 30 // passo)).max() - m1["l"].rolling(max(2, 30 // passo)).min()).to_numpy()
+        self.c1 = c1.to_numpy()
         self.valor_medias, self.lado_medias = None, None
         if self.medias:
             g = reamostrar(m1, self.tempo_medias)
@@ -405,9 +415,23 @@ class NivelReacao(Estrategia):
             alvo = min(alvos) if alvos else self.alvo_padrao
             if alvo / risco < self.rr_min:
                 continue
+            q = 1.0 if lado == "C" else -1.0
+            faixa = self.topo_dia[i] - self.fundo_dia[i]
+            toques = ctx.setdefault("toques", {})
+            toques[(L, lado)] = toques.get((L, lado), 0) + 1
+            info = {"nivel": self.niveis_com_nome(i, c).get(L, "nível"), "hora": int(self.m1.index[i].hour), "lado": lado,
+                    "risco": float(risco), "alvo": float(alvo), "rr": float(alvo / risco),
+                    "contra_30": float(-q * self.veio_30[i]) if not np.isnan(self.veio_30[i]) else None,   # quanto o preco correu CONTRA a operacao
+                    "contra_60": float(-q * self.veio_60[i]) if not np.isnan(self.veio_60[i]) else None,
+                    "lado_do_medio": float(q * (c - self.vwap[i])) if not np.isnan(self.vwap[i]) else None,  # > 0: a favor do preco medio do dia
+                    "posicao_na_faixa": float((c - self.fundo_dia[i]) / faixa) if faixa > 0 else None,
+                    "faixa_do_dia": float(faixa), "vai_e_vem_30": float(self.vai_e_vem[i]) if not np.isnan(self.vai_e_vem[i]) else None,
+                    "sombra": float((h - c) if lado == "V" else (c - l)), "toque_numero": toques[(L, lado)],
+                    "lado_medias": int(self.lado_medias[i]) * int(q) if self.lado_medias is not None else None,
+                    "lado_longa": int(self.lado_longa[i]) * int(q) if self.lado_medias is not None else None}
             return Ordem(lado, float(risco), parcial_pts=None if self.parcial_r is None else float(self.parcial_r * risco),
                          alvo_pts=float(alvo), motivo=f"{self.nome}: nível {L:.1f}", nivel=float(L),
-                         nome_nivel=self.niveis_com_nome(i, c).get(L, "nível"))
+                         nome_nivel=info["nivel"], info=info)
         return None
 
 
@@ -442,3 +466,43 @@ class OrdemNoNivel(NivelReacao):
             return Ordem(lado, float(self.stop_fixo), parcial_pts=None if self.parcial_r is None else float(self.parcial_r * self.stop_fixo),
                          alvo_pts=float(alvo), motivo=f"{self.nome}: nível {L:.1f}", limite=float(L), validade=12)
         return None
+
+
+class Climax(Estrategia):
+    """Climax de volume (a "exaustao" de quem le fita, medida na barra): um minuto com tranco - `tranco` pontos ou mais do
+    abre ao fecha - e volume de `vol` vezes ou mais a media dos `janela` minutos anteriores do mesmo dia. Entra CONTRA o
+    tranco na abertura do minuto seguinte. Stop atras do extremo do tranco, com folga, entre stop_min e stop_max; sai no
+    alvo (pontos, ou fracao do tranco devolvida), ou por tempo. Estudo de 08/10/2026: unica leitura de barra com efeito
+    bruto do mesmo sinal nas duas metades de 2026 (quant/estudos/LEIA.md); o efeito e pequeno, perto do custo."""
+
+    def __init__(self, tranco=4.0, vol=3.0, janela=30, folga=1.0, stop_min=3.0, stop_max=8.0, stop_fixo=None, alvo_pts=None,
+                 alvo_devolve=None, parcial_r=None, parcial_devolve=None, tempo_max=20, vol_max=None, nome=None):
+        self.tranco, self.vol, self.janela, self.folga, self.stop_min, self.stop_max = tranco, vol, janela, folga, stop_min, stop_max
+        self.stop_fixo, self.alvo_pts, self.alvo_devolve, self.parcial_r, self.tempo_max, self.vol_max = stop_fixo, alvo_pts, alvo_devolve, parcial_r, tempo_max, vol_max
+        self.parcial_devolve = parcial_devolve                 # parcial quando o preco devolve esta fracao do tranco
+        self.nome = nome or f"Climax de volume (tranco {tranco:g} pts, volume {vol:g}x)"
+
+    def preparar(self, m1):
+        self.m1 = m1
+        dia = m1.index.date
+        base = m1.groupby(dia).v.transform(lambda s: s.shift(1).rolling(self.janela, min_periods=3).mean())
+        self.vrel = (m1.v / base).to_numpy()
+        self.o, self.h, self.l, self.c = (m1[k].to_numpy() for k in ("o", "h", "l", "c"))
+
+    def decidir(self, i, dia, ctx):
+        r = self.c[i] - self.o[i]
+        vr = self.vrel[i]
+        if abs(r) < self.tranco or not (vr >= self.vol) or (self.vol_max and vr >= self.vol_max):
+            return None
+        lado = "V" if r > 0 else "C"
+        extremo = self.h[i] if r > 0 else self.l[i]
+        if self.stop_fixo:
+            risco = self.stop_fixo
+        else:
+            risco = min(max(abs(extremo - self.c[i]) + self.folga, self.stop_min), self.stop_max)
+        alvo = self.alvo_pts if self.alvo_pts else (abs(r) * self.alvo_devolve if self.alvo_devolve else None)
+        parcial = (max(abs(r) * self.parcial_devolve, 1.5) if self.parcial_devolve
+                   else None if self.parcial_r is None else self.parcial_r * risco)
+        return Ordem(lado, stop_pts=risco, alvo_pts=alvo, parcial_pts=parcial,
+                     tempo_max=self.tempo_max, motivo="climax de volume",
+                     info={"tranco": round(float(abs(r)), 1), "volume_x": round(float(vr), 1), "risco": risco, "alvo": alvo})

@@ -355,6 +355,7 @@ def _robo(tmp_path, monkeypatch, dia):
     monkeypatch.setattr(chave, "ARQ_JANELA", str(tmp_path / "janela.json"))  # e a janela tambem
     monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt"))
     monkeypatch.setattr(rf, "ARQ_SERIE", str(tmp_path / "dt" / "serie_fluxo.json"))
+    monkeypatch.setattr(rf, "ARQ_MODO", str(tmp_path / "modo_robo.json"))    # quem opera (climax, niveis) e do Douglas
     monkeypatch.setattr(rf, "ler_motor", lambda *a, **k: None)
     monkeypatch.setattr(rf, "ARQ_FUTUROS_B3", str(tmp_path / "sem_futuros.json"))
     mt5 = tmp_path / "mt5"
@@ -757,6 +758,7 @@ def test_robo_no_setup_de_niveis(tmp_path, monkeypatch):
     from quant.daytrade import historico as hist
     rf, _r0, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
     monkeypatch.setattr(rf, "ATIVOS", ("WDOFUT",))
+    (tmp_path / "modo_robo.json").write_text(json.dumps({"niveis_opera": True}))     # o teste de nivel operando, como em 08/10
     r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
     r.codigos, r.ajustes = {"WDOFUT": "WDOX26"}, {"WDOFUT": 5027.758}
     leitura = {"pronto": True, "setup": "niveis", "tempo_min": 4, "fechamento": 5038.0, "barra": [5037.5, 5040.5, 5037.0, 5038.0],
@@ -777,7 +779,7 @@ def test_robo_no_setup_de_niveis(tmp_path, monkeypatch):
     # vende a mercado em 5.037,5; stop 4 pontos acima = 5.041,5; alvo 16 pontos abaixo = 5.021,5
     assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.stop, pos.alvo, pos.nome_nivel) == ("nível e reação", "V", 5037.5, 5041.5, 5021.5, "máxima de ontem")
     assert vistos[0] == [(5027.758, "ajuste de ontem")]                # o ajuste oficial vai para a regra como nivel
-    assert est["regra"] == "niveis" and "níveis" in est["regras"]["nome"] and any("PERDEU" in a for a in est["avisos"])
+    assert est["regra"] == "niveis" and "níveis" in est["regras"]["nome"] and any("perdeu cerca de" in a for a in est["avisos"])
     assert [n["nome"] for n in est["instrumentos"][0]["niveis"]] == ["máxima de ontem", "número redondo", "abertura"]
     assert "teste de máxima de ontem" in r.diario[-1]["texto"] and est["instrumentos"][0]["grafico"]["acima"] == 5040.0
     # sem posicao, a tela diz o que ele espera
@@ -802,6 +804,7 @@ def test_fita_e_medida_em_toda_entrada_de_niveis_e_o_relatorio_compara(tmp_path,
     with open(mt5 / "autopilot_fita_20261008.csv", "w") as arq:
         for x in f.linhas:
             arq.write(_linha(x["seg"], x["preco"], x["compra"], x["venda"], simbolo="WDOX26") + "\n")
+    (tmp_path / "modo_robo.json").write_text(json.dumps({"niveis_opera": True}))
     r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
     r.codigos = {"WDOFUT": "WDOX26"}
     leitura = {"pronto": True, "setup": "niveis", "tempo_min": 6, "fechamento": 5038.0, "barra": [5037.5, 5040.5, 5037.0, 5038.0],
@@ -832,3 +835,186 @@ def test_fita_e_medida_em_toda_entrada_de_niveis_e_o_relatorio_compara(tmp_path,
     e.preparar(df)
     nomes = set(e.niveis_com_nome(len(df) - 1, float(df["c"].iloc[-1])).values())
     assert {"média de 36 (6 min)", "média de 72 (6 min)", "média de 205 (6 min)"} <= nomes and e.tempo == 6
+
+
+# ── revisao de 08/10/2026: climax de volume opera, teste de nivel so medido, limite do dia unico ──────────────
+def _seg_brt(h, m, sg=0):
+    """A hora de Brasilia na escala da fita (hora de parede carimbada como UTC), em 08/10/2026."""
+    import calendar
+    return calendar.timegm((2026, 10, 8, h, m, sg))
+
+
+def _fita_com_climax(mt5, tranco=5.0, volume=450):
+    """30 minutos mornos (100 contratos por minuto em 5.035,0) e o minuto das 10:15 subindo `tranco` pontos com `volume`."""
+    with open(mt5 / "autopilot_fita_20261008.csv", "w") as arq:
+        for k in range(30):
+            arq.write(_linha(_seg_brt(9, 45 + k, 30) if 45 + k < 60 else _seg_brt(10, k - 15, 30), 5035.0, 50, 50) + "\n")
+        terco = volume // 3
+        arq.write(_linha(_seg_brt(10, 15, 5), 5035.0, terco, 0) + "\n")
+        arq.write(_linha(_seg_brt(10, 15, 30), 5035.0 + tranco / 2, terco, 0) + "\n")
+        arq.write(_linha(_seg_brt(10, 15, 55), 5035.0 + tranco, volume - 2 * terco, 0) + "\n")
+        arq.write(_linha(_seg_brt(10, 16, 1), 5035.0 + tranco, 10, 10) + "\n")
+
+
+def _robo_niveis(tmp_path, monkeypatch, modo=None):
+    rf, _r0, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
+    monkeypatch.setattr(rf, "ATIVOS", ("WDOFUT",))
+    if modo is not None:
+        (tmp_path / "modo_robo.json").write_text(json.dumps(modo))
+    return rf, mt5
+
+
+def test_climax_de_volume_entra_contra_o_tranco_e_sai_por_tempo(tmp_path, monkeypatch):
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_com_climax(mt5)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r.climax_opera is True and r.niveis_opera is False            # o padrao depois da revisao
+    r.codigos = {"WDOFUT": "WDOX26"}
+    leitura = {"pronto": True, "setup": "niveis", "tempo_min": 6, "fechamento": 5040.0, "barra": [5035.0, 5040.0, 5035.0, 5040.0],
+               "niveis": [{"preco": 5050.0, "nome": "número redondo"}], "acima": 5050.0, "abaixo": None, "barras": 9000}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): (leitura, None)})()
+    agora = datetime(2026, 10, 8, 10, 16, 3, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp(), maxima=5040.0)}})
+    pos = r.estados["WDOFUT"].posicao
+    # subiu 5 pontos com 4,5 vezes o volume: VENDE a mercado em 5.039,5; stop 10 acima; alvo quando devolve 60% (3 pontos)
+    assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.stop, pos.alvo, pos.tempo_max_s) == ("climax de volume", "V", 5039.5, 5049.5, 5036.5, 1200.0)
+    lc = est["instrumentos"][0]["climax"]
+    assert lc["pronto"] and lc["minuto"] == "10:15" and lc["tranco"] == 5.0 and lc["volume_x"] == 4.5
+    assert "contra um tranco de 5 pontos com volume de 4.5x" in r.diario[-1]["texto"]
+    linhas = [json.loads(x) for x in open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()]
+    assert [x["tipo"] for x in linhas] == ["sinal", "entrada"] and linhas[0]["opera"] is True and linhas[0]["entrada"] == 5039.5
+    assert any("climax de volume" in x.lower() for x in est["regras"]["itens"])
+    # 19 minutos depois, sem stop nem alvo: segue aberta. Com 20 minutos, sai a mercado por tempo.
+    depois = agora + timedelta(minutes=19)
+    r.ciclo(depois, retrato={"q": {"WDOFUT": _cotacao(5041.0, depois.timestamp(), maxima=5041.0)}})
+    assert r.estados["WDOFUT"].posicao is not None
+    depois = agora + timedelta(minutes=20, seconds=1)
+    r.ciclo(depois, retrato={"q": {"WDOFUT": _cotacao(5041.0, depois.timestamp(), maxima=5041.0)}})
+    assert r.estados["WDOFUT"].posicao is None and r.operacoes[-1]["motivo"] == "tempo esgotado" and r.operacoes[-1]["saida"] == 5041.5
+
+
+def test_climax_nao_entra_com_volume_normal_nem_com_a_fita_atrasada(tmp_path, monkeypatch):
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_com_climax(mt5, tranco=5.0, volume=200)                        # 2 vezes a media: nao e climax
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 8, 10, 16, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp(), maxima=5040.0)}})
+    assert r.estados["WDOFUT"].posicao is None and r.leitura_climax["WDOFUT"]["volume_x"] == 2.0
+    # o mesmo climax, mas lido 40 s depois de o minuto fechar (a fita chegou em rajada): fica guardado como medida, nao entra
+    rf2, mt52 = rf, tmp_path / "mt5b"
+    mt52.mkdir()
+    _fita_com_climax(mt52)
+    monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt2"))
+    r2 = rf2.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt52), setup="niveis")
+    r2.codigos = {"WDOFUT": "WDOX26"}
+    r2.sinais_pc["WDOFUT"] = r.sinais_pc["WDOFUT"]
+    tarde = datetime(2026, 10, 8, 10, 16, 41, tzinfo=BRT)
+    r2.ciclo(tarde, retrato={"q": {"WDOFUT": _cotacao(5040.0, tarde.timestamp(), maxima=5040.0)}})
+    assert r2.estados["WDOFUT"].posicao is None
+    sinal = json.loads(open(tmp_path / "dt2" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[-1])
+    assert sinal["tipo"] == "sinal" and sinal["opera"] is False and sinal["medidas"]["atraso_fita_s"] == 40
+
+
+def test_teste_de_nivel_so_medido_guarda_o_sinal_e_nao_abre_posicao(tmp_path, monkeypatch):
+    from quant.daytrade import historico as hist
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    leitura = {"pronto": True, "setup": "niveis", "tempo_min": 6, "fechamento": 5038.0, "barra": [5037.5, 5040.5, 5037.0, 5038.0],
+               "niveis": [{"preco": 5040.0, "nome": "máxima de ontem"}], "acima": 5040.0, "abaixo": None, "barras": 9000}
+    ordens = [hist.Ordem("V", 4.0, parcial_pts=4.0, alvo_pts=16.0, nivel=5040.0, nome_nivel="máxima de ontem")]
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): (leitura, ordens.pop() if ordens else None)})()
+    agora = datetime(2026, 10, 8, 10, 16, 7, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5038.0, agora.timestamp())}})
+    assert r.estados["WDOFUT"].posicao is None and r.estados["WDOFUT"].operacoes == 0
+    sinal = json.loads(open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[-1])
+    assert (sinal["tipo"], sinal["tecnica"], sinal["opera"], sinal["entrada"], sinal["stop_pts"], sinal["alvo_pts"]) == \
+        ("sinal", "nível e reação", False, 5037.5, 4.0, 16.0)
+    assert "só medindo" in r.diario[-1]["texto"] and "venderia a 5.037,5" in r.diario[-1]["texto"]
+    assert any("só medindo" in f for f in est["instrumentos"][0]["espera"])
+
+
+def test_limite_de_perdas_vale_para_o_dia_mesmo_trocando_de_regra(tmp_path, monkeypatch):
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    pasta = tmp_path / "dt" / "2026-10-08"
+    pasta.mkdir(parents=True, exist_ok=True)
+    ops = [{"ativo": "WDOFUT", "hora_entrada": f"13:4{k}:00", "tipo": "saida", "motivo": "stop", "resultado": -70.0, "custos": 4.8} for k in range(2)]
+    ops += [{"ativo": "WDOFUT", "hora_entrada": "14:13:04", "tipo": "parcial", "resultado": 17.6, "custos": 2.4},
+            {"ativo": "WDOFUT", "hora_entrada": "14:13:04", "tipo": "saida", "motivo": "zero a zero", "resultado": -7.4, "custos": 2.4}]
+    (pasta / "estado_fluxo.json").write_text(json.dumps({"operacoes": ops}))
+    _fita_com_climax(mt5)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r.outras == {"resultado": -129.8, "perdas": 2}               # o negocio com parcial fechou positivo: nao e perda
+    (pasta / "estado_phicube.json").write_text(json.dumps({"operacoes": [
+        {"ativo": "WDOFUT", "hora_entrada": "15:10:00", "tipo": "saida", "motivo": "stop", "resultado": -90.0, "custos": 4.8}]}))
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    assert r.outras["perdas"] == 3
+    agora = datetime(2026, 10, 8, 10, 16, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp(), maxima=5040.0)}})
+    # ha um climax pronto na fita, mas o dia ja tem 3 perdedores em outras regras: nao entra e trava
+    assert r.estados["WDOFUT"].posicao is None and r.trava == "tres_perdas"
+    assert any("em outra regra" in d["texto"] for d in r.diario)
+
+
+def test_barra_inteira_toma_o_lugar_da_que_entrou_so_com_o_fechamento(tmp_path):
+    import pandas as pd
+    from quant.daytrade import barras as br
+    b = br.Barras("WDOFUT", str(tmp_path / "dt"), str(tmp_path / "sem_mt5"))
+    t1, t2 = pd.Timestamp("2026-10-08 10:15"), pd.Timestamp("2026-10-08 10:16")
+    assert b.acrescentar([(t1, 5030.0)]) == 1 and b.df.at[t1, "h"] == 5030.0 and b.df.at[t1, "v"] == 0.0
+    assert b.acrescentar([(t1, 5029.5, 5031.0, 5029.0, 5030.0, 800.0), (t2, 5030.0, 5030.5, 5029.5, 5030.5, 300.0)]) == 2
+    assert (b.df.at[t1, "h"], b.df.at[t1, "l"], b.df.at[t1, "v"]) == (5031.0, 5029.0, 800.0) and len(b.df) == 2
+    assert b.acrescentar([(t1, 5000.0, 5000.0, 5000.0, 5000.0, 9.0)]) == 0      # barra inteira ja guardada nao e trocada
+    de_novo = br.Barras("WDOFUT", str(tmp_path / "dt"), str(tmp_path / "sem_mt5"))
+    assert (de_novo.df.at[t1, "h"], de_novo.df.at[t1, "v"]) == (5031.0, 800.0) and len(de_novo.df) == 2
+
+
+def _dia_com_tranco(depois):
+    """Um pregao: das 9h00 as 9h59 parado em 5.030 com 100 contratos por minuto; as 10h00 sobe 5 pontos com 500; depois, `depois`."""
+    import pandas as pd
+    idx = pd.date_range("2026-10-08 09:00", periods=61 + len(depois), freq="min")
+    o = [5030.0] * 60 + [5030.0] + [x[0] for x in depois]
+    h = [5030.0] * 60 + [5035.0] + [x[1] for x in depois]
+    l = [5030.0] * 60 + [5030.0] + [x[2] for x in depois]
+    c = [5030.0] * 60 + [5035.0] + [x[3] for x in depois]
+    v = [100.0] * 60 + [500.0] + [100.0] * len(depois)
+    return pd.DataFrame({"o": o, "h": h, "l": l, "c": c, "n": 0.0, "v": v}, index=idx)
+
+
+def test_climax_no_historico_alvo_tempo_e_volume_normal():
+    from quant.daytrade import estrategias_hist as eh, historico as hist
+    regras = hist.RegrasDoDia(meta_rs=None, perda_maxima_rs=None, perdas_para_parar=None)
+    est = dict(tranco=4.0, vol=3.0, stop_fixo=10.0, alvo_devolve=0.6, tempo_max=20)
+    # devolve: abre 5.035, vende a 5.034,5 (1 tick contra); alvo 3 pontos abaixo = 5.031,5, batido no terceiro minuto
+    volta = [(5035.0, 5035.0, 5034.0, 5034.0), (5034.0, 5034.0, 5032.5, 5032.5), (5032.5, 5032.5, 5031.0, 5031.0)] + [(5031.0,) * 4] * 30
+    n = hist.simular(_dia_com_tranco(volta), eh.Climax(**est), regras)
+    assert len(n) == 1 and (n[0].lado, n[0].entrada, n[0].saida, n[0].pontos) == ("V", 5034.5, "alvo", 3.0)
+    assert n[0].info["volume_x"] == 5.0 and n[0].resultado == pytest.approx(3.0 * 10 * 2 - 4.8)
+    # nao devolve: 20 minutos depois sai a mercado, 1 tick contra
+    parado = [(5035.0,) * 4] * 40
+    n = hist.simular(_dia_com_tranco(parado), eh.Climax(**est), regras)
+    assert len(n) == 1 and n[0].saida == "tempo" and n[0].pontos == -1.0
+    # o mesmo tranco com volume de 2 vezes a media nao e climax
+    df = _dia_com_tranco(volta)
+    df.iloc[60, df.columns.get_loc("v")] = 200.0
+    assert hist.simular(df, eh.Climax(**est), regras) == []
+
+
+def test_medir_calcula_o_que_o_sinal_guardado_teria_dado(tmp_path):
+    import pandas as pd
+    from quant.daytrade import medir
+    df = _dia_com_tranco([(5035.0, 5035.0, 5034.0, 5034.0), (5034.0, 5034.0, 5031.0, 5031.0)] + [(5031.0,) * 4] * 30)
+    ev = {"tipo": "sinal", "ativo": "WDOFUT", "lado": "V", "entrada": 5034.5, "stop_pts": 10.0, "alvo_pts": 3.0, "parcial_pts": 3.0,
+          "tempo_max_s": 1200.0, "quando": "2026-10-08T10:01:02-03:00"}
+    r = medir.hipotetico(ev, df)
+    assert r["saida"] == "alvo" and r["pontos"] == 3.0 and r["resultado"] == pytest.approx(60.0 - 4.8)
+    # teste de nivel: parcial em 4 pontos (metade), stop vai para a entrada e o resto sai zero a zero
+    ev2 = {"lado": "C", "entrada": 5030.5, "stop_pts": 4.0, "alvo_pts": 16.0, "parcial_pts": 4.0, "quando": "2026-10-08T10:00:10-03:00"}
+    df2 = _dia_com_tranco([(5035.0, 5035.0, 5034.0, 5034.0), (5034.0, 5034.0, 5031.0, 5031.0), (5031.0, 5031.0, 5030.5, 5030.5)] + [(5030.5,) * 4] * 5)
+    r2 = medir.hipotetico(ev2, df2)
+    assert r2["saida"] == "zero a zero" and r2["pontos"] == pytest.approx((4.0 - 0.5) / 2)
+    assert medir.hipotetico(dict(ev, quando="2026-10-09T10:00:00-03:00"), df) is None       # sem barras depois do sinal

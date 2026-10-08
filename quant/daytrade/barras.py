@@ -61,31 +61,43 @@ class Barras:
     def acrescentar(self, minutos):
         """`minutos`: lista de (hora do minuto como Timestamp sem fuso, fechamento), so minutos JA FECHADOS.
         Guarda os que ainda nao tem. Devolve quantos entraram."""
-        novos = {}
+        novos, trocas = {}, {}
         for x in minutos:                                    # (hora, fechamento) ou (hora, o, h, l, c, v)
             t = x[0]
-            if self.ultimo_minuto is not None and t <= self.ultimo_minuto:
-                continue
             o, h, l, c, v = (x[1], x[1], x[1], x[1], 0.0) if len(x) == 2 else x[1:6]
-            if c and c > 0:
-                novos[t] = (float(o), float(h), float(l), float(c), float(v))
+            if not (c and c > 0):
+                continue
+            if self.ultimo_minuto is not None and t <= self.ultimo_minuto:
+                # minuto guardado so com o fechamento (o motor chegou antes de a fita fechar o minuto): a barra inteira
+                # da fita, quando chega, toma o lugar. Sem isso a maxima e a minima do candle ficavam erradas (08/10/2026).
+                if float(v) > 0 and t in self.df.index and float(self.df.at[t, "v"]) == 0.0:
+                    trocas[t] = (float(o), float(h), float(l), float(c), float(v))
+                continue
+            novos[t] = (float(o), float(h), float(l), float(c), float(v))
+        for t, val in trocas.items():
+            self.df.loc[t, ["o", "h", "l", "c", "v"]] = val
+        if trocas:
+            self._gravar_linhas(trocas)                      # o arquivo le a ULTIMA linha de cada minuto
         if not novos:
-            return 0
+            return len(trocas)
         ordem = sorted(novos)
         add = pd.DataFrame({"o": [novos[t][0] for t in ordem], "h": [novos[t][1] for t in ordem], "l": [novos[t][2] for t in ordem],
                             "c": [novos[t][3] for t in ordem], "n": 0.0, "v": [novos[t][4] for t in ordem]},
                            index=pd.DatetimeIndex(ordem, name="hora"))
         self.df = pd.concat([self.df, add]).iloc[-MAXIMO_NA_MEMORIA:]
         self.ultimo_minuto = self.df.index[-1]
+        self._gravar_linhas(novos)
+        return len(novos) + len(trocas)
+
+    def _gravar_linhas(self, barras):
         try:
             garantir_dir(os.path.dirname(self.arq_proprio))
             with open(self.arq_proprio, "a", encoding="ascii") as f:
-                for t in ordem:
-                    o, h, l, c, v = novos[t]
+                for t in sorted(barras):
+                    o, h, l, c, v = barras[t]
                     f.write(f"{t.strftime('%Y-%m-%d %H:%M:%S')};{o};{h};{l};{c};{v}\n")
         except OSError:
             pass
-        return len(novos)
 
 
 def minutos_do_motor(serie, agora):
@@ -168,6 +180,51 @@ class SinalNiveis:
             self.minuto_decidido = d.index[i]
             ordem = e.decidir(i, d.index[i].date(), {})
         return self.leitura, ordem
+
+
+class SinalClimax:
+    """Climax de volume ao vivo (a regra e a de estrategias_hist.Climax), lido direto na fita do mini: no primeiro
+    ciclo depois de um minuto fechar no relogio da fita, mede o tranco desse minuto (do abre ao fecha) e o volume dele
+    contra a media dos minutos anteriores. Tranco com volume de `vol` vezes a media ou mais: ordem CONTRA o tranco."""
+
+    def __init__(self, tranco=4.0, vol=3.0, janela=30, minimo=10, stop_fixo=10.0, alvo_devolve=0.6, tempo_max=20, atraso_max_s=8):
+        self.tranco, self.vol, self.janela, self.minimo = tranco, vol, janela, minimo
+        self.stop_fixo, self.alvo_devolve, self.tempo_max, self.atraso_max_s = stop_fixo, alvo_devolve, tempo_max, atraso_max_s
+        self.minuto_visto = None
+        self.leitura = {"pronto": False, "motivo": "esperando a fita"}
+
+    def atualizar(self, fita):
+        """Devolve (leitura, ordem). A ordem so sai no ciclo em que o minuto acabou de fechar."""
+        if fita is None or not fita.linhas:
+            self.leitura = {"pronto": False, "motivo": "sem fita de negócios"}
+            return self.leitura, None
+        relogio = fita.relogio()
+        m_atual = relogio // 60
+        if self.minuto_visto == m_atual:
+            return self.leitura, None
+        self.minuto_visto = m_atual
+        fechados = minutos_da_fita(fita)
+        ultimo = pd.Timestamp((m_atual - 1) * 60, unit="s")
+        desde = pd.Timestamp((m_atual - 1 - self.janela) * 60, unit="s")
+        barra = next((x for x in reversed(fechados) if x[0] == ultimo), None)
+        antes = [x[5] for x in fechados if desde <= x[0] < ultimo and x[0].date() == ultimo.date() and x[5] > 0]
+        if barra is None or len(antes) < self.minimo:
+            self.leitura = {"pronto": False, "motivo": ("o último minuto não teve negócio" if barra is None else
+                                                        f"faltam minutos de fita para a média de volume: {len(antes)} de {self.minimo}")}
+            return self.leitura, None
+        _t, o, h, l, c, v = barra
+        r, media = c - o, sum(antes) / len(antes)
+        vezes = v / media if media > 0 else 0.0
+        self.leitura = {"pronto": True, "minuto": ultimo.strftime("%H:%M"), "tranco": round(r, 1), "volume": v, "media": round(media, 1),
+                        "volume_x": round(vezes, 2), "pede_tranco": self.tranco, "pede_volume_x": self.vol}
+        if abs(r) < self.tranco or vezes < self.vol or relogio % 60 > self.atraso_max_s:
+            return self.leitura, None
+        lado = "V" if r > 0 else "C"
+        alvo = max(abs(r) * self.alvo_devolve, 1.5)
+        return self.leitura, hist.Ordem(lado, stop_pts=self.stop_fixo, alvo_pts=alvo, parcial_pts=alvo, tempo_max=self.tempo_max,
+                                        motivo="climax de volume", nivel=h if r > 0 else l,
+                                        nome_nivel=f"tranco de {abs(r):g} pontos com volume de {vezes:.1f}x",
+                                        info={"tranco": round(r, 1), "volume_x": round(vezes, 2), "volume": v, "media": round(media, 1)})
 
 
 class SinalPhiCube:

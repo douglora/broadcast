@@ -156,6 +156,7 @@ class PosicaoF:
     parcial_pts: float | None = None       # None = a parcial padrao do contrato
     alvo: float | None = None              # preco em que sai de tudo; None = sem alvo
     sem_arrasto: bool = False              # True = depois da parcial o stop fica na entrada, sem andar
+    tempo_max_s: float | None = None       # passou disso com a posicao aberta, sai a mercado (None = so stop, alvo ou fim da janela)
 
 
 @dataclass
@@ -475,6 +476,9 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
             eventos.append(_fechar(estado, pos, saida, ts, hora, motivo))
             return eventos
         pos.melhor = max(pos.melhor, preco) if pos.lado == "C" else min(pos.melhor, preco)
+        if pos.tempo_max_s and ts - pos.ts_entrada >= pos.tempo_max_s:
+            eventos.append(_fechar(estado, pos, a_mercado, ts, hora, "tempo esgotado"))
+            return eventos
         if pos.tecnica == "rompimento" and not pos.parcial_feita and ts - pos.ts_entrada >= p.tempo_rompimento_s \
                 and _pontos(pos, pos.melhor) < a.gatilho_pts:
             eventos.append(_fechar(estado, pos, a_mercado, ts, hora, "não andou"))   # rompimento tem que romper
@@ -534,7 +538,7 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     estado.posicao = PosicaoF(lado=lado, contratos=n, entrada=entrada, stop=stop, hora=hora, tecnica=sinal["tecnica"],
                               nivel=sinal["nivel"], nome_nivel=sinal["nome_nivel"], contratos_iniciais=n, melhor=entrada,
                               ts_entrada=ts, parcial_pts=sinal.get("parcial_pts"), alvo=alvo,
-                              sem_arrasto=bool(sinal.get("sem_arrasto")))
+                              sem_arrasto=bool(sinal.get("sem_arrasto")), tempo_max_s=sinal.get("tempo_max_s"))
     estado.operacoes += 1
     estado.perdas.pop(sinal["nome_nivel"], None)
     if sinal["tecnica"] == "exaustão":                      # conta quantas vezes ja operou contra este mesmo extremo

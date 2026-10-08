@@ -267,7 +267,9 @@ def ligar(ensaio=False, forcar_hora=False, motor=MOTOR, espera_fita_s=150):
                   else "a fita chegou sem o lado agressor, e sem ele nao ha leitura de fluxo")
         return fim(1, f"A versao 1.3 ficou ligada no MetaTrader, mas NAO troquei a regra do robo: {motivo}. "
                       "Amanha ele segue na regra antiga; rode de novo com o pregao aberto para conferir.")
-    _modo("fluxo")
+    regra_atual = (ler_json(ARQ_MODO, padrao=None) or {}).get("regra")
+    if not regra_atual:                                      # regra escolhida pelo Douglas nao se troca aqui
+        _modo("fluxo")
     try:                                                     # barras de 1 minuto para o teste historico
         with open(os.path.join(fx.PASTA_MT5, "autopilot_historia.txt"), "w", encoding="ascii") as f:
             f.write("WDO$N;1;150000\nWIN$N;1;150000\nDOL$N;1;150000\n")
@@ -275,7 +277,9 @@ def ligar(ensaio=False, forcar_hora=False, motor=MOTOR, espera_fita_s=150):
     except OSError as e:
         passo("pedido de barras de 1 minuto", False, str(e))
     cheio = "com o dolar cheio" if dol.get("linhas", 0) >= 1 else "SEM o dolar cheio (o robo vai ler o mini e avisar)"
-    return fim(0, f"Regra de fluxo LIGADA para o proximo pregao, {cheio}. Fita do mini-dolar: {wdo.get('linhas')} linhas, "
+    regra_txt = (f"Regra '{regra_atual}' mantida (a fita esta pronta para ela)" if regra_atual
+                 else "Regra de fluxo LIGADA para o proximo pregao")
+    return fim(0, f"{regra_txt}, {cheio}. Fita do mini-dolar: {wdo.get('linhas')} linhas, "
                   f"{(wdo.get('com_lado') or 0) * 100:.0f}% do volume com lado agressor.")
 
 

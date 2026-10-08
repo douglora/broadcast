@@ -51,6 +51,16 @@ PHICUBE = {"maior": 15, "menor": 4, "tipo": "mima", "exige_preco": True, "fundo"
 NIVEIS = {"tempo": 6, "tol": 1.0, "fura": 2.0, "rejeita": 1.5, "folga": 1.0, "stop_min": 3.0, "stop_max": 10.0, "alvo_min": 13.0,
           "alvo_max": 40.0, "alvo_padrao": 20.0, "rr_min": 2.0, "parcial_r": 1.0, "idade_extremo": 20, "redondo": 10.0,
           "medias": (36, 72, 205), "tempo_medias": 6, "tipo_medias": "sma", "medias_como_nivel": True, "filtro_medias": None}
+# 08/10/2026, depois do fechamento ("precisa rever e ver onde errou"): estudo em 888 pregoes (quant/estudos/LEIA.md).
+# A entrada de nivel perde o custo (cerca de R$ 23 por negocio) e nenhum filtro testado a salva; a unica leitura de barra
+# com efeito do mesmo sinal nas duas metades e o CLIMAX DE VOLUME (tranco de 1 minuto com volume de 3 vezes a media ou
+# mais: o preco tende a devolver). No simulador ela empata menos o custo (de -R$ 14 a +R$ 7 por negocio), acertando 2 em 3.
+# Por isso, dentro do setup "niveis": quem OPERA e o climax; o teste de nivel continua sendo lido e MEDIDO, com a fita,
+# sem operar. As duas chaves abaixo podem ser trocadas em modo_robo.json ("climax_opera", "niveis_opera").
+CLIMAX = {"tranco": 4.0, "vol": 3.0, "janela": 30, "minimo": 10, "stop_fixo": 10.0, "alvo_devolve": 0.6, "tempo_max": 20,
+          "atraso_max_s": 8}
+QUEM_OPERA = {"climax_opera": True, "niveis_opera": False}
+ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
 SETUPS_DE_GRAFICO = ("phicube", "niveis")
 FITA_PARADA_S = 30.0
 # o ajuste OFICIAL dos futuros, que o terminal coleta do boletim diario da B3. O "fechamento anterior" do
@@ -84,6 +94,11 @@ def ajustes_oficiais(codigos, hoje, arquivo=None):
     return fora
 
 
+def _relogio_brt(agora):
+    """A hora de Brasilia na escala da fita do MetaTrader, que carimba a hora de parede como se fosse UTC."""
+    return int(datetime(agora.year, agora.month, agora.day, agora.hour, agora.minute, agora.second, tzinfo=timezone.utc).timestamp())
+
+
 def hora_da_fita(seg):
     """O MetaTrader carimba o negocio com a hora de Brasilia escrita como se fosse UTC."""
     return datetime.fromtimestamp(int(seg), timezone.utc).strftime("%H:%M:%S")
@@ -112,30 +127,34 @@ def spread_do_livro(livro, codigo):
     return v[0][0] - c[0][0]
 
 
-def regras_niveis(p):
-    c = NIVEIS
+def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_OPERA["niveis_opera"]):
+    c, x = NIVEIS, CLIMAX
     parar = [f"com {ef._rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
              f"quando devolve {p.devolucao_para:.0%} do lucro que o dia já teve"]
     if p.meta_dia_rs:
         parar.append(f"ou ao ganhar {ef._rs(p.meta_dia_rs)} (a sua meta de 1%)")
+    quem = ("Opera o climax de volume; o teste de nível é só medido." if climax_opera and not niveis_opera else
+            "Opera o climax de volume e o teste de nível." if climax_opera else
+            "Opera o teste de nível; o climax de volume é só medido." if niveis_opera else "As duas leituras estão só sendo medidas: o robô não entra.")
     return [
-        "Setup de níveis, só no mini-dólar: é o que os instrutores da sala do PhiCube fazem nas lives, e o mesmo desenho do nível "
-        "defendido e do reteste do método de fluxo, só com preço.",
-        "NÍVEIS: de ontem, o ajuste, a máxima, a mínima e o fechamento; de hoje, a abertura e a máxima e a mínima do dia formadas há "
-        f"pelo menos {c['idade_extremo']} minutos; os números redondos, de {ef._n(c['redondo'])} em {ef._n(c['redondo'])} pontos; e as três médias "
-        f"móveis de {c['medias'][0]}, {c['medias'][1]} e {c['medias'][2]} períodos do gráfico de {c['tempo_medias']} minutos.",
-        f"ENTRADA: uma barra de {c['tempo']} minutos encosta no nível (até {ef._n(c['tol'])} ponto antes ou {ef._n(c['fura'])} além) e fecha de volta, "
-        f"pelo menos {ef._n(c['rejeita'])} ponto do lado de onde veio. Veio de baixo e foi rejeitado: vende. Veio de cima e segurou: compra.",
-        f"Stop: {ef._n(c['folga'])} ponto além do extremo da barra de teste, de {ef._n(c['stop_min'])} a {ef._n(c['stop_max'])} pontos. "
-        "Se ficar maior que isso, não opera (\"stop caro\").",
-        f"Alvo: o nível seguinte na direção da operação, entre {ef._n(c['alvo_min'])} e {ef._n(c['alvo_max'])} pontos "
-        f"({ef._n(c['alvo_padrao'])} quando não há nível). Só entra se o alvo paga pelo menos {ef._n(c['rr_min'])} vezes o risco.",
-        f"Condução: metade sai com {ef._n(c['parcial_r'])} vez o risco e o stop vai para o preço de entrada; o resto espera o alvo.",
-        "LEITURA DA FITA: em toda entrada o robô anota o que os negócios mostravam (quem agredia nos últimos 15 segundos, quanto bateram "
-        "no nível, quantas vezes ele foi testado). Por enquanto só mede, não barra a entrada: em algumas semanas dá para saber se a "
-        "entrada que a fita confirma rende mais que a outra.",
+        "Só mini-dólar, em simulação. " + quem + " Revisão de 08/10/2026: em 888 pregões o teste de nível perdeu o custo da operação "
+        "(cerca de R$ 23 por negócio) e nenhum filtro testado mudou isso; a única leitura que mostrou algo foi o climax de volume.",
+        f"CLIMAX DE VOLUME (tape reading na barra): um minuto anda {ef._n(x['tranco'])} pontos ou mais, do abre ao fecha, com volume de "
+        f"{ef._n(x['vol'])} vezes ou mais a média dos {x['janela']} minutos anteriores. É gente demais correndo para o mesmo lado: o preço "
+        "tende a devolver parte do tranco. O robô entra CONTRA o tranco, na abertura do minuto seguinte.",
+        f"Climax, saída: alvo quando o preço devolve {x['alvo_devolve']:.0%} do tranco; stop a {ef._n(x['stop_fixo'])} pontos da entrada; "
+        f"se em {x['tempo_max']} minutos não fez nem um nem outro, sai a mercado. No histórico de 2026 acertou cerca de 2 em cada 3, "
+        "com ganho pequeno em cada: no dinheiro, empata menos o custo. É a aposta em teste, não é regra vencedora.",
+        "TESTE DE NÍVEL (" + ("opera" if niveis_opera else "só medido, não opera") + "): níveis de ontem (ajuste, máxima, mínima, fechamento), "
+        f"de hoje (abertura, máxima e mínima do dia formadas há {c['idade_extremo']} minutos ou mais), números redondos de {ef._n(c['redondo'])} em "
+        f"{ef._n(c['redondo'])} pontos e as médias de {c['medias'][0]}, {c['medias'][1]} e {c['medias'][2]} do gráfico de {c['tempo_medias']} minutos. "
+        f"Sinal: uma barra de {c['tempo']} minutos encosta no nível e fecha de volta, {ef._n(c['rejeita'])} ponto ou mais do lado de onde veio. "
+        f"Stop de {ef._n(c['stop_min'])} a {ef._n(c['stop_max'])} pontos atrás da barra; alvo no nível seguinte, pagando {ef._n(c['rr_min'])} vezes o risco ou mais.",
+        "MEDIÇÃO: todo sinal das duas leituras fica guardado, o dia inteiro, com o que a fita mostrava (quem agredia nos últimos 15 "
+        "segundos, quanto bateram no nível, lotes de instituição). Com cerca de 100 sinais dá para saber se a fita separa a entrada boa "
+        "da ruim; só então ela vira filtro.",
         f"Lote: {p.lote_base} contratos de mini-dólar; sobe {p.lote_por_degrau} a cada {ef._rs(p.colchao_por_degrau)} de lucro acumulado (até {p.lote_maximo}).",
-        "Para " + ", ".join(parar) + ".",
+        "Para " + ", ".join(parar) + ". O limite vale para o dia inteiro, mesmo que a regra mude no meio do pregão.",
         f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
         f"e com o spread aberto. Às {p.hora_zerar} zera tudo.",
     ]
@@ -229,6 +248,12 @@ class RoboFluxo:
             for a in ATIVOS:
                 self.barras[a] = br.Barras(a, DIR_DT, pasta_mt5)
                 self.sinais_pc[a] = br.SinalNiveis(**NIVEIS) if setup == "niveis" else br.SinalPhiCube(eh.PhiCubeV1, **PHICUBE)
+        modo = ler_json(ARQ_MODO, padrao=None) or {}
+        self.climax_opera = bool(modo.get("climax_opera", QUEM_OPERA["climax_opera"])) and setup == "niveis"
+        self.niveis_opera = bool(modo.get("niveis_opera", QUEM_OPERA["niveis_opera"]))
+        self.climax = {a: br.SinalClimax(**CLIMAX) for a in ATIVOS} if setup == "niveis" else {}
+        self.leitura_climax = {}
+        self.outras = self._outras_regras_do_dia()               # o dia e um so: perdas e resultado das regras que ja rodaram hoje
         self.acumulado_antes = self._acumulado_antes()
 
     # ── persistencia ─────────────────────────────────────────
@@ -236,6 +261,25 @@ class RoboFluxo:
         serie = ler_json(self.arq_serie, padrao=None)
         return sum(float(x.get("resultado") or 0.0) for x in (serie if isinstance(serie, list) else [])
                    if isinstance(x, dict) and x.get("data") != self.hoje)
+
+    def _outras_regras_do_dia(self):
+        """Resultado e negocios perdedores de HOJE nas outras regras (o robo trocou de regra durante o dia). Em 08/10/2026
+        a regra mudou quatro vezes e cada troca zerou a conta das tres perdas: o limite do dia tem de valer para o dia."""
+        resultado, perdas = 0.0, 0
+        for nome in ("estado.json", "estado_fluxo.json", "estado_phicube.json", "estado_niveis.json"):
+            arq = os.path.join(self.pasta, nome)
+            if os.path.abspath(arq) == os.path.abspath(self.arq_estado):
+                continue
+            negocios = {}
+            for o in (ler_json(arq, padrao=None) or {}).get("operacoes") or []:
+                try:
+                    k = (o.get("ativo"), o.get("hora_entrada"))
+                    negocios[k] = negocios.get(k, 0.0) + float(o.get("resultado") or 0.0)
+                except (TypeError, ValueError):
+                    continue
+            resultado += sum(negocios.values())
+            perdas += sum(1 for v in negocios.values() if v < 0)
+        return {"resultado": round(resultado, 2), "perdas": perdas}
 
     def _salvar(self):
         est = {a: {"operacoes": e.operacoes, "ultima_saida_ts": e.ultima_saida_ts, "lado_dos_niveis": e.lado_dos_niveis,
@@ -353,6 +397,11 @@ class RoboFluxo:
                                             contrato=self.codigos.get(a)), ensure_ascii=False) + "\n")
             except OSError:
                 pass
+            if ev.get("tecnica") == "climax de volume":
+                self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
+                            f"contra um {ev['nome_nivel']}; stop {_pontos(ev['stop'], a)}, alvo a {_pontos(m.get('alvo_pts') or 0, a)} pontos, "
+                            f"sai em {m.get('tempo_max_min')} minutos se não andar.", agora)
+                return
             if self.setup == "niveis":
                 ft = m.get("fita") or {}
                 if ft.get("confirmou") is None:
@@ -430,7 +479,8 @@ class RoboFluxo:
             contexto = {"medio": self.cot[a]["medio"], "spread": spread, "fita_volume": self.fitas_mini[a],
                         "var": (preco / base - 1.0) if base and base > 0 else None}
             self.cot[a]["var_ajuste"] = contexto["var"]
-            pode = self.trava is None and self.chave["ligado"]
+            pode = self.trava is None and self.chave["ligado"] \
+                and (self.perdas + self.outras["perdas"]) < self.p.perdas_para_parar      # o limite e do dia, nao da regra
             if self.grafico:
                 contexto["sinal"] = self._sinal_phicube(a, agora)        # None na maior parte do tempo; a fita nao decide
             else:
@@ -443,14 +493,17 @@ class RoboFluxo:
         motivo = None
         self.pico_realizado = max(self.pico_realizado, realizado)
         sem_posicao = all(e.posicao is None for e in self.estados.values())
+        total_dia = total + self.outras["resultado"]             # o dia inteiro, com as regras que ja rodaram hoje
+        perdas_dia = self.perdas + self.outras["perdas"]
         if self.trava is None:
-            if total <= -self.p.perda_maxima_dia_rs:
+            if total_dia <= -self.p.perda_maxima_dia_rs:
                 self.trava, motivo = "perda", "perda_maxima"
-            elif self.p.meta_dia_rs and total >= self.p.meta_dia_rs:
+            elif self.p.meta_dia_rs and total_dia >= self.p.meta_dia_rs:
                 self.trava, motivo = "meta", "meta"
-            elif self.perdas >= self.p.perdas_para_parar and sem_posicao:
+            elif perdas_dia >= self.p.perdas_para_parar and sem_posicao:
                 self.trava = "tres_perdas"
-                self.anotar("trava", f"{self.perdas} negócios perdedores no dia: o robô não entra mais hoje.", agora)
+                de_antes = f" ({self.outras['perdas']} deles em outra regra, mais cedo)" if self.outras["perdas"] else ""
+                self.anotar("trava", f"{perdas_dia} negócios perdedores no dia{de_antes}: o robô não entra mais hoje.", agora)
             elif sem_posicao and self.pico_realizado >= self.p.devolucao_piso_rs \
                     and realizado <= self.pico_realizado * (1.0 - self.p.devolucao_para):
                 self.trava = "devolucao"                         # dele: devolveu 20% do lucro do dia, para
@@ -465,7 +518,9 @@ class RoboFluxo:
             realizado, aberto, _c = self.resultado()
             total = realizado + aberto
             self.anotar("trava", ("Perda máxima do dia atingida" if self.trava == "perda" else "Meta do dia atingida")
-                        + f": {_reais(total)}. Tudo zerado; o robô não entra mais hoje.", agora)
+                        + f": {_reais(total_dia)}"
+                        + (f" (com {_reais(self.outras['resultado'])} das regras de mais cedo)" if self.outras["resultado"] else "")
+                        + ". Tudo zerado; o robô não entra mais hoje.", agora)
         self.pico, self.vale = max(self.pico, total), min(self.vale, total)
         if pregao:
             if self.curva and self.curva[-1][0] == hora[:5]:
@@ -477,18 +532,26 @@ class RoboFluxo:
         self._salvar()
         return estado
 
-    # ── setup PhiCube: barras de 1 minuto e sinal ────────────
+    # ── setups de grafico: barras de 1 minuto e sinal ────────
     def _sinal_phicube(self, a, agora):
-        """Uma vez por minuto fechado: traz os minutos de hoje do motor, refaz as medias e ve se ha ordem.
-        A ordem vale so no ciclo em que nasce: se o robo nao puder entrar agora, ela se perde."""
-        minuto = int(agora.timestamp() // 60)
+        """Uma vez por minuto fechado: traz os minutos de hoje, refaz a leitura e ve se ha ordem.
+        A ordem vale so no ciclo em que nasce: se o robo nao puder entrar agora, ela se perde.
+
+        O minuto que manda e o da FITA quando ela esta viva (ai a barra do minuto que fechou esta inteira, com maxima,
+        minima e volume); so sem fita vale o relogio, com o fechamento que o motor da."""
+        sinal_climax = self._sinal_climax(a, agora) if self.setup == "niveis" else None
+        fita_viva = time.time() - self.fita_em.get((a, "mini"), 0.0) <= FITA_PARADA_S
+        minuto = ("fita", self.fitas_mini[a].relogio() // 60) if fita_viva else ("relogio", int(agora.timestamp() // 60))
+        sinal = None
         if self.minuto_pc != (a, minuto):
             self.minuto_pc = (a, minuto)
             serie = ler_motor(f"/vivo/intradia?s={a}&dias=1", self.motor, timeout=6.0) or {}
             try:
                 b = self.barras[a]
-                # o minuto inteiro (abertura, maxima, minima) vem da fita do mini; onde ela nao tem, o fechamento do motor
-                b.acrescentar(br.juntar_minutos(br.minutos_do_motor(serie, agora), br.minutos_da_fita(self.fitas_mini[a], b.ultimo_minuto)))
+                # o minuto inteiro vem da fita do mini; onde ela nao tem, o fechamento do motor. Os ultimos 15 minutos da
+                # fita vao de novo: barra que entrou so com o fechamento e trocada pela inteira.
+                de = None if b.ultimo_minuto is None else b.ultimo_minuto - br.pd.Timedelta(minutes=15)
+                b.acrescentar(br.juntar_minutos(br.minutos_do_motor(serie, agora), br.minutos_da_fita(self.fitas_mini[a], de)))
                 if self.setup == "niveis":
                     extras = [(self.ajustes[a], "ajuste de ontem")] if self.ajustes.get(a) else []
                     self.leitura_pc[a], ordem = self.sinais_pc[a].atualizar(b.df, extras)
@@ -498,21 +561,67 @@ class RoboFluxo:
                 self.leitura_pc[a], ordem = {"pronto": False, "motivo": f"erro nas barras: {type(e).__name__}: {e}"}, None
             if ordem is not None and self.setup == "niveis":
                 fita = self.leitura_da_fita(a, ordem.lado, ordem.nivel)
-                return {"tecnica": "nível e reação", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
-                        "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts, "sem_arrasto": True,
-                        "medidas": {"risco_pts": ordem.stop_pts, "alvo_pts": ordem.alvo_pts,
-                                    "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2),
-                                    "fracao_a_favor": fita.get("fracao_a_favor"), "fita": fita}}
-            if ordem is not None:
+                sinal = {"tecnica": "nível e reação", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
+                         "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts, "sem_arrasto": True,
+                         "medidas": {"risco_pts": ordem.stop_pts, "alvo_pts": ordem.alvo_pts,
+                                     "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2),
+                                     "fracao_a_favor": fita.get("fracao_a_favor"), "fita": fita}}
+                self._guardar_sinal(a, sinal, agora, opera=self.niveis_opera)
+                if not self.niveis_opera:
+                    sinal = None                                 # so medido: nao vira entrada
+            elif ordem is not None:
                 l = self.leitura_pc[a]
-                return {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
-                        "nome_nivel": f"média de {l['periodos'][0]} em {l['menor_min']} minutos (Prisma {l.get('prisma_maior', '?')})",
-                        "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts,
-                        "sem_arrasto": ordem.arrasto_pts is None,
-                        "medidas": {"tendencia": l["tendencia"], "maior_min": l["maior_min"], "menor_min": l["menor_min"],
-                                    "medias_maior": l["medias_maior"], "medias_menor": l["medias_menor"],
-                                    "risco_pts": ordem.stop_pts, "fracao_a_favor": None}}
-        return None
+                sinal = {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
+                         "nome_nivel": f"média de {l['periodos'][0]} em {l['menor_min']} minutos (Prisma {l.get('prisma_maior', '?')})",
+                         "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts,
+                         "sem_arrasto": ordem.arrasto_pts is None,
+                         "medidas": {"tendencia": l["tendencia"], "maior_min": l["maior_min"], "menor_min": l["menor_min"],
+                                     "medias_maior": l["medias_maior"], "medias_menor": l["medias_menor"],
+                                     "risco_pts": ordem.stop_pts, "fracao_a_favor": None}}
+        return sinal_climax or sinal
+
+    def _sinal_climax(self, a, agora):
+        """Climax de volume, lido na fita do mini a cada ciclo; a ordem nasce no primeiro ciclo do minuto seguinte ao tranco."""
+        try:
+            fita = self.fitas_mini[a]
+            self.leitura_climax[a], ordem = self.climax[a].atualizar(fita)
+            if ordem is None:
+                return None
+            atraso = _relogio_brt(agora) - fita.relogio()        # a fita esta em dia com o relogio? tranco velho nao serve
+            medida = self.leitura_da_fita(a, ordem.lado, ordem.nivel)
+            sinal = {"tecnica": "climax de volume", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
+                     "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts, "sem_arrasto": True,
+                     "tempo_max_s": ordem.tempo_max * 60.0,
+                     "medidas": dict(ordem.info, risco_pts=ordem.stop_pts, alvo_pts=round(ordem.alvo_pts, 2), tempo_max_min=ordem.tempo_max,
+                                     atraso_fita_s=atraso, fracao_a_favor=medida.get("fracao_a_favor"), fita=medida)}
+            em_dia = -5 <= atraso <= 12
+            self._guardar_sinal(a, sinal, agora, opera=self.climax_opera and em_dia)
+            return sinal if self.climax_opera and em_dia else None
+        except Exception as e:                                   # leitura que falha nao derruba o robo
+            self.leitura_climax[a] = {"pronto": False, "motivo": f"erro na leitura do climax: {type(e).__name__}: {e}"}
+            return None
+
+    def _guardar_sinal(self, a, sinal, agora, opera):
+        """Todo sinal fica guardado (operando ou so medindo), o dia inteiro, com o preco e a leitura da fita: e com
+        isso que `medir` calcula depois o que cada entrada teria dado e se a fita separa as boas das ruins."""
+        c = self.cot.get(a) or {}
+        pr, tick = c.get("preco"), es.CONTRATOS[a]["tick"]
+        entrada = None if pr is None else es.arredondar(pr + tick if sinal["lado"] == "C" else pr - tick, tick)
+        try:
+            with open(os.path.join(self.pasta, f"sinais_{self.setup}.jsonl"), "a", encoding="utf-8") as f:
+                f.write(json.dumps({"tipo": "sinal", "ativo": a, "tecnica": sinal["tecnica"], "lado": sinal["lado"], "entrada": entrada,
+                                    "stop_pts": sinal["stop_pts"], "parcial_pts": sinal.get("parcial_pts"), "alvo_pts": sinal.get("alvo_pts"),
+                                    "tempo_max_s": sinal.get("tempo_max_s"), "nivel": sinal["nivel"], "nome_nivel": sinal["nome_nivel"],
+                                    "medidas": sinal.get("medidas"), "opera": bool(opera), "hora": agora.strftime("%H:%M:%S"),
+                                    "quando": agora.isoformat(timespec="seconds"), "seg_fita": self.fitas_mini[a].ultimo_seg,
+                                    "contrato": self.codigos.get(a)}, ensure_ascii=False) + "\n")
+        except OSError:
+            pass
+        if not opera and entrada is not None:
+            ft = (sinal.get("medidas") or {}).get("fita") or {}
+            fita = "sem leitura da fita" if ft.get("confirmou") is None else ("a fita confirma" if ft["confirmou"] else "a fita não confirma")
+            self.anotar("medida", f"{es.CONTRATOS[a]['nome']}: só medindo, sem operar: {sinal['tecnica']} em {sinal['nome_nivel']} "
+                        f"({_pontos(sinal['nivel'], a)}); {'compraria' if sinal['lado'] == 'C' else 'venderia'} a {_pontos(entrada, a)}; {fita}.", agora)
 
     def leitura_da_fita(self, a, lado, nivel):
         """O que a fita mostra no instante de uma entrada de grafico. E so MEDIDA, guardada com a operacao: serve para
@@ -639,6 +748,16 @@ class RoboFluxo:
             frases.append(f"Respirando depois da última saída: mais {int(falta)} s.")
         if c.get("spread") is not None and c["spread"] >= cfg.spread_max_pts - 1e-9:
             frases.append(f"Spread aberto ({_pontos(c['spread'], a)} pontos): não entra.")
+        if self.outras["perdas"] or self.outras["resultado"]:
+            frases.append(f"Hoje, em outra regra mais cedo: {_reais(self.outras['resultado'])} e {self.outras['perdas']} negócio(s) perdedor(es); "
+                          "contam para o limite do dia.")
+        lc = self.leitura_climax.get(a) or {}
+        if lc.get("pronto"):
+            frases.append(f"Climax de volume{'' if self.climax_opera else ' (só medindo)'}: o minuto das {lc['minuto']} andou "
+                          f"{_pontos(abs(lc['tranco']), a)} pontos com volume de {lc['volume_x']:.1f} vezes a média; "
+                          f"entra contra o tranco com {_pontos(lc['pede_tranco'], a)} pontos e {lc['pede_volume_x']:g} vezes ou mais.")
+        else:
+            frases.append("Climax de volume: " + str(lc.get("motivo") or "esperando a fita") + ".")
         nomes = {n["preco"]: n["nome"] for n in l["niveis"]}
         partes = []
         for chave_, lado in (("acima", "vende"), ("abaixo", "compra")):
@@ -646,7 +765,8 @@ class RoboFluxo:
             if v is not None and pr is not None:
                 partes.append(f"{nomes.get(v, 'nível')} em {_pontos(v, a)} ({'a' if chave_ == 'acima' else 'a'} {_pontos(abs(v - pr), a)} pontos {chave_}: "
                               f"se o preço encostar e for rejeitado, {lado})")
-        frases.append(f"Esperando o preço testar um nível e voltar, no gráfico de {l['tempo_min']} minutos. Mais perto: " + "; ".join(partes) + ".")
+        frases.append((f"Esperando o preço testar um nível e voltar, no gráfico de {l['tempo_min']} minutos. Mais perto: " if self.niveis_opera
+                       else f"Teste de nível (só medindo, gráfico de {l['tempo_min']} minutos). Mais perto: ") + "; ".join(partes) + ".")
         return frases
 
     def _espera_phicube(self, a, agora):
@@ -706,7 +826,8 @@ class RoboFluxo:
         elif self.trava in ("perda", "tres_perdas"):
             fase = "perda_maxima"
             texto = (f"Perda máxima do dia atingida ({_reais(total)}). Parado até amanhã." if self.trava == "perda"
-                     else f"{self.perdas} negócios perdedores no dia ({_reais(total)}). Parado até amanhã.")
+                     else f"{self.perdas + self.outras['perdas']} negócios perdedores no dia ({_reais(total + self.outras['resultado'])}"
+                          + (", somando as regras de mais cedo" if self.outras["perdas"] else "") + "). Parado até amanhã.")
         elif hm < inicio:
             fase, texto = "formando_faixa", (f"Lendo o gráfico da abertura; entradas a partir das {inicio}." if self.grafico
                                              else f"Lendo o fluxo da abertura; entradas a partir das {inicio}.")
@@ -716,15 +837,19 @@ class RoboFluxo:
             fase, texto = "encerrando", f"Sem novas entradas desde as {p.hora_ultima_entrada}; {abertas} posição(ões) aberta(s) até as {p.hora_zerar}."
         else:
             fase = "operando"
-            texto = (("Lendo o gráfico (níveis): " if self.setup == "niveis" else "Lendo o gráfico (PhiCube): " if self.grafico else "Lendo o fluxo: ")
+            texto = ((("Lendo a fita (climax de volume) e medindo os níveis: " if self.climax_opera and not self.niveis_opera
+                       else "Lendo o gráfico (níveis): ") if self.setup == "niveis" else "Lendo o gráfico (PhiCube): " if self.grafico else "Lendo o fluxo: ")
                      + f"{abertas} posição(ões) aberta(s), {len(self.operacoes)} saída(s) e parcial(is), resultado do dia {_reais(total)}.")
         if self.setup == "niveis":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
-                      "Setup de níveis: o que os instrutores da sala do PhiCube fazem nas lives de day trade. O preço vai a um nível marcado "
-                      "antes, é rejeitado, e o robô entra contra a chegada, com o stop colado atrás do nível e o alvo no nível seguinte.",
-                      "ATENÇÃO: no teste histórico (mini-dólar, 888 pregões de 2023 a 2026, das 9h15 às 13h) esta regra PERDEU cerca de "
-                      "R$ 20 por negócio depois de custos, com 4 a 5 negócios por pregão; antes de custos deu perto de zero. Está no ar "
-                      "por escolha sua, para gerar operações e estudar com a fita quais entradas funcionam. Não é para dinheiro real.",
+                      "Revisão de 08/10/2026: o teste de nível perdeu cerca de R$ 23 por negócio em 888 pregões (2023 a 2026), e nenhum "
+                      "filtro testado (de onde o preço veio, hora, tipo de nível, lado das médias, insistir no mesmo lado) mudou isso. "
+                      + ("Por isso ele deixou de operar e passou a ser só medido, com a leitura da fita em cada sinal."
+                         if not self.niveis_opera else "Ele segue operando por escolha sua."),
+                      "Quem opera é o climax de volume: tranco de 1 minuto com volume de 3 vezes a média ou mais, entrada contra o tranco. "
+                      "ATENÇÃO: no histórico de 2026 (177 pregões) acertou cerca de 2 em cada 3, mas o resultado ficou entre -R$ 14 e +R$ 7 "
+                      "por negócio, sem diferença estatística de zero, e com cerca de 1 a 2 entradas por manhã. É uma aposta em teste, "
+                      "não uma regra vencedora. Não é para dinheiro real.",
                       "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         elif self.setup == "phicube":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
@@ -819,6 +944,7 @@ class RoboFluxo:
                 "espera": self.o_que_espera(a, leitura, agora, fonte),
                 "phicube": self.leitura_pc.get(a) if self.setup == "phicube" else None,
                 "grafico": self.leitura_pc.get(a) if self.setup == "niveis" else None,
+                "climax": self.leitura_climax.get(a) if self.setup == "niveis" else None,
                 "variacao_ajuste": c.get("var_ajuste"),
                 "corrida": None if not corr else {"alta_pts": corr["alta"]["tamanho"], "topo": corr["alta"]["extremo"],
                                                   "baixa_pts": corr["baixa"]["tamanho"], "fundo": corr["baixa"]["extremo"],
@@ -854,7 +980,9 @@ class RoboFluxo:
                         "itens": regras_phicube(p), "parametros": dict(asdict(p), lote_hoje=lote, phicube=PHICUBE)}
                        if self.setup == "phicube" else
                        {"nome": "Setup de níveis: teste de nível com reação, como nas lives da sala do PhiCube (versão 0)",
-                        "itens": regras_niveis(p), "parametros": dict(asdict(p), lote_hoje=lote, niveis=NIVEIS)}
+                        "itens": regras_niveis(p, self.climax_opera, self.niveis_opera),
+                        "parametros": dict(asdict(p), lote_hoje=lote, niveis=NIVEIS, climax=CLIMAX, climax_opera=self.climax_opera,
+                                           niveis_opera=self.niveis_opera, outras_regras_hoje=self.outras)}
                        if self.setup == "niveis" else
                        {"nome": "Leitura de fluxo como Alison Correia ensina: defesa, nível perdido, rompimento e exaustão (versão 1.2)",
                         "itens": ef.regras_em_texto(p), "parametros": dict(asdict(p), lote_hoje=lote)}),
@@ -922,6 +1050,9 @@ def rodar(uma_vez=False, saidas=None, motor=MOTOR, intervalo=INTERVALO, ate=FIM_
     robo = RoboFluxo(hoje, saidas=saidas, motor=motor, setup=setup)
     if setup == "niveis":
         robo.marco("ligado_niveis", "preparo", "Robô de day trade pelo setup de níveis (teste de nível com reação) ligado (simulação), placar zerado.", agora)
+        robo.marco("climax_" + hoje, "preparo", ("Opera o climax de volume" if robo.climax_opera else "Climax de volume só medido")
+                   + ("; o teste de nível opera." if robo.niveis_opera else "; o teste de nível fica só medido (revisão de 08/10/2026).")
+                   + " O limite do dia vale para o dia inteiro.", agora)
     elif setup == "phicube":
         robo.marco("ligado_phicube", "preparo", "Robô de day trade pelo setup PhiCube ligado (simulação), placar zerado.", agora)
     else:

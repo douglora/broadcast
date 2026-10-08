@@ -82,6 +82,8 @@ class Ordem:
     validade: int = 30                 # por quantas barras de 1 minuto a ordem parada espera
     nivel: float | None = None         # o nivel que motivou a ordem, e o nome dele (para a tela do robo)
     nome_nivel: str = ""
+    info: dict = field(default_factory=dict)   # o que se sabia na hora da entrada (para estudar depois o que separa ganho de perda)
+    tempo_max: int | None = None       # minutos: passou disso com a posicao aberta, sai a mercado (None = so stop, alvo ou fim da janela)
 
 
 @dataclass
@@ -97,6 +99,8 @@ class Negocio:
     resultado: float                   # em reais, liquido de custos
     motivo: str
     saida: str
+    info: dict = field(default_factory=dict)
+    melhor_pts: float = 0.0            # o mais longe que o preco foi a favor, em pontos, enquanto a posicao esteve aberta
 
 
 class Estrategia:
@@ -161,7 +165,8 @@ def _um_dia(i0, i1, dia, o, h, l, c, horas, hm, est, regras, custos, desl):
                 custo = 2 * custos.por_lado_rs * pos["inicial"]
                 res = pos["soma_pts"] * custos.valor_ponto - custo
                 fora.append(Negocio(dia, pos["hora"], horas[i], pos["lado"], pos["inicial"], pos["entrada"],
-                                    pos["entrada"] + (pts if pos["lado"] == "C" else -pts), pts, res, pos["motivo"], fechou))
+                                    pos["entrada"] + (pts if pos["lado"] == "C" else -pts), pts, res, pos["motivo"], fechou,
+                                    pos.get("info") or {}, abs(pos["melhor"] - pos["entrada"])))
                 resultado_dia += res
                 perdas += 1 if res < 0 else 0
                 pos, livre_em = None, i + regras.espera_min
@@ -189,11 +194,12 @@ def _um_dia(i0, i1, dia, o, h, l, c, horas, hm, est, regras, custos, desl):
 
 def _abrir(ordem, entrada, hora, barra, regras):
     sinal = 1.0 if ordem.lado == "C" else -1.0
-    return {"lado": ordem.lado, "sinal": sinal, "entrada": entrada, "hora": hora, "motivo": ordem.motivo,
+    return {"lado": ordem.lado, "sinal": sinal, "entrada": entrada, "hora": hora, "motivo": ordem.motivo, "info": ordem.info,
             "stop": entrada - sinal * ordem.stop_pts, "restam": regras.contratos, "inicial": regras.contratos,
             "parcial": None if ordem.parcial_pts is None or regras.contratos < 2 else entrada + sinal * ordem.parcial_pts,
             "alvo": None if ordem.alvo_pts is None else entrada + sinal * ordem.alvo_pts,
-            "arrasto": ordem.arrasto_pts, "melhor": entrada, "soma_pts": 0.0, "aberta_em": barra, "parcial_feita": False}
+            "arrasto": ordem.arrasto_pts, "melhor": entrada, "soma_pts": 0.0, "aberta_em": barra, "parcial_feita": False,
+            "tempo_max": ordem.tempo_max}
 
 
 def _conduzir(pos, i, o, h, l, c, hm, regras, custos, desl):
@@ -204,6 +210,9 @@ def _conduzir(pos, i, o, h, l, c, hm, regras, custos, desl):
     if hm[i] >= regras.zerar:                              # fim da janela: sai na abertura desta barra, a mercado
         pos["soma_pts"] += s * ((o[i] - s * desl) - pos["entrada"]) * pos["restam"]
         return "fim da janela"
+    if pos.get("tempo_max") and i - pos["aberta_em"] >= pos["tempo_max"]:   # tempo esgotado: sai na abertura desta barra, a mercado
+        pos["soma_pts"] += s * ((o[i] - s * desl) - pos["entrada"]) * pos["restam"]
+        return "tempo"
     pior, melhor = (l[i], h[i]) if s > 0 else (h[i], l[i])
     if (pior <= pos["stop"]) if s > 0 else (pior >= pos["stop"]):   # o stop vem primeiro, sempre
         base = min(o[i], pos["stop"]) if s > 0 else max(o[i], pos["stop"])     # abriu alem do stop: sai na abertura
