@@ -581,3 +581,16 @@ def test_confirmacao_usa_o_relogio_do_pregao_e_pede_amostra():
     _por(vendedor, T0 - 2, 5031.0, 20, 300)
     assert ef.ler_defesa("WDOFUT", def_cheio, 5031.0, AJUSTE, p) is not None
     assert ef.ler_defesa("WDOFUT", def_cheio, 5031.0, AJUSTE, p, vendedor) is None
+
+
+def test_robo_so_de_dolar_ignora_a_fita_do_indice(tmp_path, monkeypatch):
+    rf, r, mt5 = _robo(tmp_path, monkeypatch, "2026-10-08")
+    monkeypatch.setattr(rf, "ATIVOS", ("WDOFUT",))
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5))
+    r.codigos = {"WINFUT": "WINV26", "WDOFUT": "WDOX26"}       # o estado salvo ainda lembra do indice
+    with open(mt5 / "autopilot_fita_20261008.csv", "w") as f:
+        f.write(_linha(T0, 207000.0, 10, 20, simbolo="WINV26") + "\n" + _linha(T0, 5031.0, 10, 20, simbolo="WDOX26") + "\n")
+    agora = datetime(2026, 10, 8, 10, 15, 7, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5031.0, agora.timestamp()), "WINFUT": _cotacao(207000.0, agora.timestamp())}})
+    assert [i["ativo"] for i in est["instrumentos"]] == ["WDOFUT"] and list(r.estados) == ["WDOFUT"]
+    assert not any("ndice" in a for a in est["avisos"])

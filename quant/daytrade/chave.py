@@ -63,3 +63,16 @@ def janela(dia, arquivo=None):
         if origem is not d and origem:
             fora["motivo"] = str(origem.get("motivo") or "exceção do dia")
     return fora
+
+
+# ── quais contratos o robo opera, tambem do Douglas ──────────────────────────────────────────────
+ARQ_ATIVOS = os.path.join(DIR_SAIDA, "ativos_robo.json")
+
+
+def ativos_ligados(todos, arquivo=None):
+    """Os contratos que o robo opera, na ordem de `todos`. Sem arquivo (ou arquivo sem a lista) valem todos."""
+    d = ler_json(arquivo or ARQ_ATIVOS, padrao=None)
+    lista = d.get("ativos") if isinstance(d, dict) else None
+    if not isinstance(lista, list):
+        return tuple(todos)
+    return tuple(a for a in todos if a in lista)

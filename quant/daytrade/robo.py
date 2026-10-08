@@ -39,7 +39,8 @@ SAIDAS_PADRAO = [os.path.expanduser(p) for p in os.environ.get(
     "QUANT_SAIDA",
     "~/Desktop/terminal-artefato/web/d/x/quant.json:~/Desktop/terminal-artefato/cache/out/pagina/quant.json"
 ).split(":") if p]
-ATIVOS = ("WINFUT", "WDOFUT")
+TODOS_OS_ATIVOS = ("WINFUT", "WDOFUT")
+ATIVOS = chave.ativos_ligados(TODOS_OS_ATIVOS)      # o Douglas escolhe quais opera (quant/saida/ativos_robo.json)
 ABERTURA, FIM_PROCESSO = "09:00", "18:30"
 DIARIO_MAX = 300
 # posicoes do vetor de cotacao do motor: ultimo, var%, abertura, maxima, minima, volume,

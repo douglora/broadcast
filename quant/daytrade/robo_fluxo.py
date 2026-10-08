@@ -187,28 +187,30 @@ class RoboFluxo:
                 s = ler_motor(f"/vivo/intradia?s={a}&dias=1", self.motor, timeout=8.0) or {}
                 if s.get("codigo"):
                     self.codigos[a] = str(s["codigo"])
-        if len(self.codigos) == len(ATIVOS):
+        if all(a in self.codigos for a in ATIVOS):
             try:                                         # a fita do mini e a do contrato onde se le o fluxo
-                self.leitor.pedir(sorted(set(self.codigos.values()) | {codigo_da_fonte(a, c) for a, c in self.codigos.items()}))
+                meus = {a: self.codigos[a] for a in ATIVOS}
+                self.leitor.pedir(sorted(set(meus.values()) | {codigo_da_fonte(a, c) for a, c in meus.items()}))
             except OSError as e:
                 log(f"nao consegui pedir a fita ao MetaTrader: {e}")
-        oficiais = ajustes_oficiais(self.codigos, self.hoje)   # ajuste de ontem: o oficial da B3, pelo terminal
+        meus = {a: c for a, c in self.codigos.items() if a in ATIVOS}
+        oficiais = ajustes_oficiais(meus, self.hoje)           # ajuste de ontem: o oficial da B3, pelo terminal
         for a, (v, _data) in oficiais.items():
             self.ajustes[a] = v
-        if len(oficiais) < len(self.codigos):
+        if len(oficiais) < len(meus):
             try:                                         # sem o oficial: coluna 12 da foto do MetaTrader, quando vem preenchida
                 with open(os.path.join(self.leitor.pasta, "autopilot_feed.csv"), "r", encoding="latin-1", errors="ignore") as f:
                     for ln in f:
                         c = ln.strip().split(";")
-                        for a, cod in self.codigos.items():
+                        for a, cod in meus.items():
                             if a not in oficiais and c and c[0] == cod and len(c) > 12 and (_num(c[12]) or 0) > 0:
                                 self.ajustes[a] = _num(c[12])
             except OSError:
                 pass
 
     def ler_fita(self):
-        mini = {cod: a for a, cod in self.codigos.items()}
-        fonte = {codigo_da_fonte(a, cod): a for a, cod in self.codigos.items()}
+        mini = {cod: a for a, cod in self.codigos.items() if a in ATIVOS}
+        fonte = {codigo_da_fonte(a, cod): a for a, cod in self.codigos.items() if a in ATIVOS}
         n, agora = 0, time.time()
         for ln in self.leitor.novas_linhas():
             for de, fitas, tipo in ((fonte, self.fitas, "fonte"), (mini, self.fitas_mini, "mini")):
@@ -295,7 +297,7 @@ class RoboFluxo:
             retrato = ler_motor("/vivo/retrato", self.motor)
         self._frescor()
         pregao = agora.weekday() < 5 and ABERTURA <= hora[:5]
-        if pregao and (len(self.codigos) < len(ATIVOS) or int(ts) % 60 == 0 or not self.preparado):
+        if pregao and (not all(a in self.codigos for a in ATIVOS) or int(ts) % 60 == 0 or not self.preparado):
             self.preparar()
             self.preparado = True
         self.ler_fita()
@@ -441,7 +443,7 @@ class RoboFluxo:
     # ── o estado que a tela le ───────────────────────────────
     def estado(self, agora, retrato, realizado, aberto, fita_ok, lote, pregao):
         p, hm = self.p, agora.strftime("%H:%M")
-        inicio = min(x.hora_inicio for x in ef.ATIVOS.values())
+        inicio = min((ef.ATIVOS[a].hora_inicio for a in ATIVOS), default="09:15")
         total = realizado + aberto
         _r, _a, custos = self.resultado()
         parado, atraso = _num(self.feed.get("sem_tique_s")), _num(self.feed.get("atraso_ms"))
@@ -478,7 +480,7 @@ class RoboFluxo:
                   "Regra tirada do que Alison Correia ensina e faz no canal dele, sem a parte que depende de saber qual corretora está "
                   "de cada lado (o MetaTrader não informa; nas lives ele usa isso em quase toda operação). "
                   "Os limiares de \"muita agressão\" são nossos, ainda sem teste histórico.",
-                  "Mini-índice: adaptação nossa. Ele opera a sala de dólar; do índice mostra pouco.",
+                  *(["Mini-índice: adaptação nossa. Ele opera a sala de dólar; do índice mostra pouco."] if "WINFUT" in ATIVOS else []),
                   "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         sem_cheio = [es.CONTRATOS[a]["nome"] for a in ATIVOS if (self.cot.get(a) or {}).get("fonte_fluxo") == "mini"
                      and ef.ATIVOS[a].fonte_fluxo != self.codigos.get(a, "")[:3]]
@@ -596,7 +598,7 @@ class RoboFluxo:
                           "patrimonio": p.capital + acumulado, "acumulado": acumulado, "dias": len(serie)},
             "instrumentos": instrumentos, "posicoes": posicoes, "operacoes": list(reversed(ops)),
             "chave": {"ligado": self.chave["ligado"], "desde": self.chave["desde"]},
-            "janela": {"inicio": min(x.hora_inicio for x in ef.ATIVOS.values()), "ultima_entrada": p.hora_ultima_entrada,
+            "janela": {"inicio": min((ef.ATIVOS[a].hora_inicio for a in ATIVOS), default="09:15"), "ultima_entrada": p.hora_ultima_entrada,
                        "zerar": p.hora_zerar, "motivo": self.janela.get("motivo") or ""},
             "curva": [{"hora": h, "resultado": v} for h, v in self.curva], "serie": serie,
             "diario": list(reversed(self.diario[-DIARIO_MAX:])),
