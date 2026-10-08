@@ -188,3 +188,96 @@ class NivelPerdido(Estrategia):
             risco = float(min(max(alem + 1.0 + 0.5, 2.0), self.stop_max))
             return Ordem("C" if s > 0 else "V", risco, parcial_pts=self.parcial, alvo_pts=None, arrasto_pts=self.arrasto, motivo=self.nome)
         return None
+
+
+# ── PhiCube, segunda leitura: MIMA reconstruida, ROC e Prisma ────────────────────────────────────
+PHI = (1 + 5 ** 0.5) / 2
+
+
+def mima(serie, n, tipo="mima"):
+    """A media do PhiCube. A formula oficial nao e publicada; `mima` e a reconstrucao de terceiro
+    (2 x EMA curta - EMA longa, com a longa em n x 4,236), que anda mais colada no preco que a EMA.
+    `ema` e o modelo oficial simples ("PhiCube EMA")."""
+    if tipo == "ema":
+        return serie.ewm(span=n, adjust=False, min_periods=n).mean()
+    longa = int(n * PHI ** 3)
+    curta = int(round(2 * n * (1 + PHI ** -6))) - 1
+    return 2 * serie.ewm(span=curta, adjust=False, min_periods=curta).mean() - serie.ewm(span=longa, adjust=False, min_periods=longa).mean()
+
+
+def roc(m):
+    """O ROC do PhiCube: a media menos a media exponencial de 4 dela mesma. Acima de zero, a media sobe."""
+    return m - m.ewm(span=4, adjust=False).mean()
+
+
+def prisma(barras, tipo="mima", periodos=(34, 144, 610)):
+    """De 0 a 7: 1 se a media pequena sobe, mais 2 se a media sobe, mais 4 se a grande sobe. 6 e 7 compra, 0 e 1 venda."""
+    c = barras["c"]
+    ms = [mima(c, n, tipo) for n in periodos]
+    rs = [roc(m) for m in ms]
+    p = (rs[0] > 0).astype(int) + 2 * (rs[1] > 0).astype(int) + 4 * (rs[2] > 0).astype(int)
+    p[rs[2].isna()] = -1
+    return p, ms, rs
+
+
+class PhiCubeV1(Estrategia):
+    """O que os videos mais detalhados descrevem:
+    filtro   no tempo maior, Prisma 6 ou 7 (media e grande subindo) so compra; 0 ou 1 so vende; o resto fica fora.
+             Com `exige_preco`, o preco tambem tem de estar acima (abaixo) das tres medias do tempo maior.
+    gatilho  no tempo menor, o ROC da media de 34 VIRA a favor (passa de negativo a positivo) com as de 144 e 610
+             a favor: o Prisma do tempo menor vai a 7 (ou a 0 na venda). E o "virou" dele.
+    stop     atras do fundo (topo) das ultimas `fundo` barras do tempo menor, entre stop_min e stop_max pontos.
+    saida    `saida="alvo"`: alvo em alvo_r riscos, parcial em parcial_r riscos com stop na entrada;
+             `saida="fixo"`: alvo de alvo_pts pontos (ele cita 35 pontos no dolar), parcial em parcial_r riscos;
+             `saida="movel"`: sem alvo, stop andando arrasto_r riscos atras do melhor preco."""
+
+    def __init__(self, maior=15, menor=4, tipo="mima", exige_preco=True, fundo=5, stop_min=2.0, stop_max=8.0,
+                 saida="alvo", alvo_r=3.0, alvo_pts=35.0, parcial_r=1.0, arrasto_r=1.5, menor_completo=True, nome=None):
+        self.maior, self.menor, self.tipo, self.exige_preco, self.fundo = maior, menor, tipo, exige_preco, fundo
+        self.stop_min, self.stop_max, self.saida = stop_min, stop_max, saida
+        self.alvo_r, self.alvo_pts, self.parcial_r, self.arrasto_r, self.menor_completo = alvo_r, alvo_pts, parcial_r, arrasto_r, menor_completo
+        self.nome = nome or f"PhiCube v1 {maior}/{menor} {tipo} {saida}"
+
+    def preparar(self, m1):
+        self.m1 = m1
+        g = reamostrar(m1, self.maior)
+        pg, mg, _ = prisma(g, self.tipo)
+        lado = np.where(pg >= 6, 1, np.where((pg >= 0) & (pg <= 1), -1, 0))
+        if self.exige_preco:
+            acima = ((g["c"] > mg[0]) & (g["c"] > mg[1]) & (g["c"] > mg[2])).to_numpy()
+            abaixo = ((g["c"] < mg[0]) & (g["c"] < mg[1]) & (g["c"] < mg[2])).to_numpy()
+            lado = np.where((lado == 1) & acima, 1, np.where((lado == -1) & abaixo, -1, 0))
+        self.lado_g = lado
+        s = reamostrar(m1, self.menor)
+        ps, _ms, rs = prisma(s, self.tipo)
+        r34 = rs[0].to_numpy()
+        antes = np.roll(r34, 1)
+        cima, baixo = (r34 > 0) & (antes <= 0), (r34 < 0) & (antes >= 0)
+        if self.menor_completo:
+            cima &= (ps == 7).to_numpy()
+            baixo &= (ps == 0).to_numpy()
+        cima[0] = baixo[0] = False
+        self.virou = np.where(cima, 1, np.where(baixo, -1, 0))
+        self.virou[np.isnan(r34)] = 0
+        self.fundo_min = s["l"].rolling(self.fundo, min_periods=1).min().to_numpy()
+        self.topo_max = s["h"].rolling(self.fundo, min_periods=1).max().to_numpy()
+        self.fech_s = s["c"].to_numpy()
+        self.ig, self.is_ = _fechadas(m1.index, g, self.maior), _fechadas(m1.index, s, self.menor)
+        self.nova_s = np.r_[True, self.is_[1:] != self.is_[:-1]]
+
+    def decidir(self, i, dia, ctx):
+        if not self.nova_s[i] or self.ig[i] < 0 or self.is_[i] < 0:
+            return None
+        t, k = self.lado_g[self.ig[i]], self.is_[i]
+        if t == 0 or self.virou[k] != t:
+            return None
+        ref = self.fech_s[k]
+        risco = (ref - self.fundo_min[k]) if t > 0 else (self.topo_max[k] - ref)
+        risco = float(min(max(risco + 0.5, self.stop_min), self.stop_max))
+        lado = "C" if t > 0 else "V"
+        parcial = None if self.parcial_r is None else self.parcial_r * risco
+        if self.saida == "movel":
+            return Ordem(lado, risco, parcial_pts=parcial, alvo_pts=None, arrasto_pts=self.arrasto_r * risco, motivo=self.nome)
+        if self.saida == "fixo":
+            return Ordem(lado, risco, parcial_pts=parcial, alvo_pts=self.alvo_pts, motivo=self.nome)
+        return Ordem(lado, risco, parcial_pts=parcial, alvo_pts=self.alvo_r * risco, motivo=self.nome)

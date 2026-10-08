@@ -30,16 +30,18 @@ from quant.daytrade import barras as br
 from quant.daytrade import chave
 from quant.daytrade import estrategia as es
 from quant.daytrade import estrategia_fluxo as ef
+from quant.daytrade import estrategias_hist as eh
 from quant.daytrade import fluxo as fx
 from quant.daytrade.robo import (ABERTURA, ATIVOS, DIARIO_MAX, DIR_DT, FIM_PROCESSO, I_ABE, I_ANT, I_HORA, I_MAX,
                                  I_MEDIO, I_MIN, I_ULT, I_VAR, INTERVALO, MOTOR, SAIDAS_PADRAO, _num, _pontos, _reais,
                                  ler_motor)
 
 ARQ_SERIE = os.path.join(DIR_DT, "serie_fluxo.json")
-# o setup PhiCube (decisao do Douglas em 08/10/2026): a receita de day trade que Bo Williams da a quem comeca.
-# Os mesmos parametros do teste historico (estrategias_hist.PhiCube).
-PHICUBE = {"maior": 15, "menor": 4, "tipo": "sma", "periodos": (34, 144, 610), "fundo": 5, "stop_min": 2.0, "stop_max": 8.0,
-           "alvo_r": 3.0, "parcial_r": 1.0}
+# o setup PhiCube (decisao do Douglas em 08/10/2026), na segunda leitura dos videos de Bo Williams: media do metodo
+# reconstruida, Prisma no grafico de 15 minutos e a virada do ROC de 34 no de 4. Os mesmos parametros do teste
+# historico (estrategias_hist.PhiCubeV1), que e a classe usada ao vivo.
+PHICUBE = {"maior": 15, "menor": 4, "tipo": "mima", "exige_preco": True, "fundo": 5, "stop_min": 2.0, "stop_max": 8.0,
+           "saida": "fixo", "alvo_pts": 35.0, "parcial_r": 1.0}
 FITA_PARADA_S = 30.0
 # o ajuste OFICIAL dos futuros, que o terminal coleta do boletim diario da B3. O "fechamento anterior" do
 # MetaTrader e o ultimo negocio da noite, nao o ajuste: em 07/10/2026 um era 5.044,0 e o outro 5.027,758
@@ -107,20 +109,23 @@ def regras_phicube(p):
     if p.meta_dia_rs:
         parar.append(f"ou ao ganhar {ef._rs(p.meta_dia_rs)} (a sua meta de 1%)")
     return [
-        f"Setup PhiCube, de Bo Williams. As três médias móveis de {c['periodos'][0]}, {c['periodos'][1]} e {c['periodos'][2]} períodos no gráfico de "
-        f"{c['maior']} minutos dizem a tendência.",
-        f"TENDÊNCIA DE ALTA: preço acima das três médias e elas em ordem ({c['periodos'][0]} acima da {c['periodos'][1]}, acima da {c['periodos'][2]}). "
-        "De baixa: o espelho. Qualquer outra coisa é consolidação, e em consolidação o robô fica de fora.",
-        f"GATILHO: em tendência de alta, compra quando o gráfico de {c['menor']} minutos vira para cima (fecha acima da média de {c['periodos'][0]} "
-        "depois de ter fechado abaixo). Em tendência de baixa, vende na virada para baixo.",
-        f"Stop: atrás do fundo (ou topo) das últimas {c['fundo']} barras de {c['menor']} minutos, entre {ef._n(c['stop_min'])} e {ef._n(c['stop_max'])} pontos.",
-        f"Saída: metade com {ef._n(c['parcial_r'])} vez o risco, e o stop vai para o preço de entrada; o resto no alvo de {ef._n(c['alvo_r'])} vezes o risco "
-        "(o \"3 por 1\" do método).",
+        "Setup PhiCube, de Bo Williams, só no mini-dólar. As três médias do método (34, 144 e 610 períodos) são calculadas por uma "
+        "reconstrução de terceiros: ele não publica a fórmula.",
+        f"FILTRO, no gráfico de {c['maior']} minutos: o Prisma soma 1 se a média de 34 sobe, 2 se a de 144 sobe e 4 se a de 610 sobe. "
+        "Com 6 ou 7 e o preço acima das três médias, só compra; com 0 ou 1 e o preço abaixo das três, só vende; o resto é consolidação "
+        "e o robô fica de fora.",
+        f"GATILHO, no gráfico de {c['menor']} minutos: a média de 34 vira a favor (deixa de cair e passa a subir, na compra) com as de 144 "
+        "e de 610 já a favor. É o \"virou\" dele.",
+        f"Stop: atrás do fundo (ou topo) das últimas {c['fundo']} barras de {c['menor']} minutos, entre {ef._n(c['stop_min'])} e "
+        f"{ef._n(c['stop_max'])} pontos. Ele só diz \"stop curto, atrás do pivô\"; os limites são nossos.",
+        f"Saída: metade com {ef._n(c['parcial_r'])} vez o risco, e o stop vai para o preço de entrada; o resto no alvo de "
+        f"{ef._n(c['alvo_pts'])} pontos (o exemplo que ele dá no dólar; nas lives os alvos ficam entre 15 e 40).",
         f"Lote: {p.lote_base} contratos de mini-dólar; sobe {p.lote_por_degrau} a cada {ef._rs(p.colchao_por_degrau)} de lucro acumulado (até {p.lote_maximo}).",
         "Para " + ", ".join(parar) + ".",
         f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
         f"e com o spread aberto. Às {p.hora_zerar} zera tudo.",
-        "Ainda não entra: o indicador Santo (falta a fórmula), as linhas de alvo e o Prisma de três tempos.",
+        "Ainda não entra: o indicador Santo (fórmula não publicada), as linhas verdes e vermelhas como alvo, o pivô com reteste "
+        "que os instrutores usam nas lives, e a operação nas pontas de uma consolidação larga.",
     ]
 
 
@@ -183,7 +188,7 @@ class RoboFluxo:
         if setup == "phicube":
             for a in ATIVOS:
                 self.barras[a] = br.Barras(a, DIR_DT, pasta_mt5)
-                self.sinais_pc[a] = br.SinalPhiCube(**PHICUBE)
+                self.sinais_pc[a] = br.SinalPhiCube(eh.PhiCubeV1, **PHICUBE)
         self.acumulado_antes = self._acumulado_antes()
 
     # ── persistencia ─────────────────────────────────────────
@@ -437,7 +442,7 @@ class RoboFluxo:
             if ordem is not None:
                 l = self.leitura_pc[a]
                 return {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
-                        "nome_nivel": f"média de {l['periodos'][0]} em {l['menor_min']} minutos",
+                        "nome_nivel": f"média de {l['periodos'][0]} em {l['menor_min']} minutos (Prisma {l.get('prisma_maior', '?')})",
                         "stop_pts": ordem.stop_pts, "parcial_pts": ordem.parcial_pts, "alvo_pts": ordem.alvo_pts,
                         "sem_arrasto": ordem.arrasto_pts is None,
                         "medidas": {"tendencia": l["tendencia"], "maior_min": l["maior_min"], "menor_min": l["menor_min"],
@@ -531,12 +536,16 @@ class RoboFluxo:
             frases.append(f"Pausa do dado das 9h30: volta às {p.pausa_dado[1]}.")
         m = l["medias_maior"]
         if l["tendencia"] == "consolidação":
-            frases.append(f"Gráfico de {l['maior_min']} minutos em consolidação (preço ou médias fora de ordem): pelo método, fica de fora.")
+            frases.append(f"Gráfico de {l['maior_min']} minutos em consolidação"
+                          + (f" (Prisma {l['prisma_maior']}, de 0 a 7)" if l.get("prisma_maior") is not None else " (preço ou médias fora de ordem)")
+                          + ": pelo método, fica de fora.")
         else:
             lado = "compra" if l["tendencia"] == "alta" else "venda"
             vira = "para cima" if l["tendencia"] == "alta" else "para baixo"
+            agora_menor = (f"a média de 34 está {l['lado_menor']}" if l.get("versao") == 1
+                           else f"o preço está {l['lado_menor']} da média de {l['periodos'][0]}")
             frases.append(f"Gráfico de {l['maior_min']} minutos em tendência de {l['tendencia']}: só {lado}. Esperando o de "
-                          f"{l['menor_min']} minutos virar {vira} (hoje o preço está {l['lado_menor']} da média de {l['periodos'][0]}).")
+                          f"{l['menor_min']} minutos virar {vira} (agora {agora_menor}).")
         frases.append(f"Médias de {l['maior_min']} minutos: {l['periodos'][0]} em {_pontos(m[0], a)}, {l['periodos'][1]} em {_pontos(m[1], a)}, "
                       f"{l['periodos'][2]} em {_pontos(m[2], a)}.")
         return frases
@@ -580,11 +589,11 @@ class RoboFluxo:
                      + f"{abertas} posição(ões) aberta(s), {len(self.operacoes)} saída(s) e parcial(is), resultado do dia {_reais(total)}.")
         if self.setup == "phicube":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
-                      "Setup PhiCube, de Bo Williams, na receita de day trade que ele dá a quem começa: as três médias (34, 144 e 610) "
-                      "no gráfico de 15 minutos dizem a tendência; a virada no de 4 minutos é o gatilho; em consolidação, fica de fora.",
-                      "ATENÇÃO: no teste histórico (mini-dólar, janeiro a outubro de 2026, das 9h15 às 13h) esta versão PERDEU dinheiro "
-                      "depois de custos. Está no ar a pedido, para acompanhar; a leitura dos vídeos de day trade dele ainda vai ajustar "
-                      "o gatilho e o stop.",
+                      "Setup PhiCube, de Bo Williams: o Prisma no gráfico de 15 minutos diz o lado, a virada da média de 34 no de 4 minutos "
+                      "é o gatilho, e em consolidação o robô fica de fora. É seletivo: no histórico deu 1 entrada a cada 5 pregões nesta janela.",
+                      "ATENÇÃO: no teste histórico (mini-dólar, cerca de 100 pregões de 2026, das 9h15 às 13h) esta versão PERDEU dinheiro "
+                      "depois de custos: 19 negócios, R$ 13 de perda média por negócio; antes de custos, ficou perto de zero. A amostra é "
+                      "pequena. Está no ar a pedido, para acompanhar.",
                       "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         else:
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",
@@ -693,7 +702,7 @@ class RoboFluxo:
                                "b3_sem_tique_s": parado, "b3_atraso_ms": atraso, "mt5": self.feed.get("mt5"),
                                "fita_ok": fita_ok}},
             "modo": "paper", "origem": "real", "capital": p.capital, "pronto": True, "bloqueios": [], "avisos": avisos,
-            "regras": ({"nome": "Setup PhiCube (Bo Williams): tendência em 15 minutos, gatilho em 4 minutos (versão 0)",
+            "regras": ({"nome": "Setup PhiCube (Bo Williams): Prisma em 15 minutos, virada em 4 minutos (versão 1)",
                         "itens": regras_phicube(p), "parametros": dict(asdict(p), lote_hoje=lote, phicube=PHICUBE)}
                        if self.setup == "phicube" else
                        {"nome": "Leitura de fluxo como Alison Correia ensina: defesa, nível perdido, rompimento e exaustão (versão 1.2)",

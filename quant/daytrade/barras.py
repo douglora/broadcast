@@ -24,7 +24,7 @@ from quant.daytrade import estrategias_hist as eh
 from quant.daytrade import historico as hist
 
 SERIE_DO_PASSADO = {"WDOFUT": "WDO$D", "WINFUT": "WIN$N"}
-MAXIMO_NA_MEMORIA = 30_000          # barras de 1 minuto: ~55 pregoes, sobra para a media de 610 em 15 minutos
+MAXIMO_NA_MEMORIA = 110_000         # barras de 1 minuto: a media de 610 reconstruida, em 15 minutos, pede 2.583 barras de 15 (72 pregoes)
 
 
 class Barras:
@@ -97,13 +97,15 @@ def minutos_do_motor(serie, agora):
 class SinalPhiCube:
     """Calcula, sobre as barras, a leitura do PhiCube (tendencia no tempo maior, virada no menor) e a ordem."""
 
-    def __init__(self, **parametros):
-        self.est = eh.PhiCube(**parametros)
+    def __init__(self, classe=None, **parametros):
+        self.est = (classe or eh.PhiCube)(**parametros)
         self.leitura = None
         self.minuto_decidido = None
 
     def atualizar(self, df):
         """Refaz as medias e devolve (leitura, ordem). A ordem so sai uma vez por barra do tempo menor."""
+        if isinstance(self.est, eh.PhiCubeV1):
+            return self._atualizar_v1(df)
         e = self.est
         minimo = e.periodos[2] * e.maior
         if len(df) < minimo:
@@ -128,6 +130,43 @@ class SinalPhiCube:
             "alinhadas": bool((medias_g[0] > medias_g[1] > medias_g[2]) or (medias_g[0] < medias_g[1] < medias_g[2])),
             "fechamento_menor": float(s["c"].iloc[k]), "medias_menor": medias_s,
             "lado_menor": "acima" if s["c"].iloc[k] > medias_s[0] else "abaixo",
+            "virou": int(e.virou[k]), "barra_menor": str(s.index[k]), "barras": int(len(df)),
+        }
+        ordem = None
+        if bool(e.nova_s[i]) and self.minuto_decidido != df.index[i]:
+            self.minuto_decidido = df.index[i]
+            ordem = e.decidir(i, df.index[i].date(), {})
+        return self.leitura, ordem
+
+    def _atualizar_v1(self, df):
+        """A leitura do PhiCube pela segunda versao: Prisma (0 a 7) nos dois tempos e a virada do ROC de 34."""
+        e = self.est
+        longa_610 = int(610 * eh.PHI ** 3) if e.tipo == "mima" else 610
+        minimo = longa_610 * e.maior
+        if len(df) < minimo:
+            self.leitura = {"pronto": False, "motivo": f"faltam barras: {len(df)} de {minimo} minutos para a média grande em {e.maior} minutos"}
+            return self.leitura, None
+        e.preparar(df)
+        i = len(df) - 1
+        ig, k = int(e.ig[i]), int(e.is_[i])
+        if ig < 0 or k < 0:
+            self.leitura = {"pronto": False, "motivo": "sem barra fechada"}
+            return self.leitura, None
+        g, s = hist.reamostrar(df, e.maior), hist.reamostrar(df, e.menor)
+        pg, mg, _rg = eh.prisma(g, e.tipo)
+        ps, ms, rs = eh.prisma(s, e.tipo)
+        lado = int(e.lado_g[ig])
+        medias_g = [float(m.iloc[ig]) for m in mg]
+        fech = float(g["c"].iloc[ig])
+        self.leitura = {
+            "pronto": True, "versao": 1, "maior_min": e.maior, "menor_min": e.menor, "tipo_media": e.tipo, "periodos": [34, 144, 610],
+            "tendencia": {1: "alta", -1: "baixa", 0: "consolidação"}[lado],
+            "prisma_maior": int(pg.iloc[ig]), "prisma_menor": int(ps.iloc[k]),
+            "fechamento_maior": fech, "medias_maior": medias_g,
+            "preco_fora_das_medias": bool(fech > max(medias_g) or fech < min(medias_g)),
+            "alinhadas": bool((medias_g[0] > medias_g[1] > medias_g[2]) or (medias_g[0] < medias_g[1] < medias_g[2])),
+            "fechamento_menor": float(s["c"].iloc[k]), "medias_menor": [float(m.iloc[k]) for m in ms[:2]],
+            "lado_menor": "subindo" if float(rs[0].iloc[k]) > 0 else "caindo",
             "virou": int(e.virou[k]), "barra_menor": str(s.index[k]), "barras": int(len(df)),
         }
         ordem = None
