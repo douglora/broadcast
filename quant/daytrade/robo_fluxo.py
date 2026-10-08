@@ -57,8 +57,14 @@ NIVEIS = {"tempo": 6, "tol": 1.0, "fura": 2.0, "rejeita": 1.5, "folga": 1.0, "st
 # mais: o preco tende a devolver). No simulador ela empata menos o custo (de -R$ 14 a +R$ 7 por negocio), acertando 2 em 3.
 # Por isso, dentro do setup "niveis": quem OPERA e o climax; o teste de nivel continua sendo lido e MEDIDO, com a fita,
 # sem operar. As duas chaves abaixo podem ser trocadas em modo_robo.json ("climax_opera", "niveis_opera").
-CLIMAX = {"tranco": 4.0, "vol": 3.0, "janela": 30, "minimo": 10, "stop_fixo": 10.0, "alvo_devolve": 0.6, "tempo_max": 20,
-          "atraso_max_s": 8}
+# CALIBRACAO de 08/10/2026, 17h30 ("ajuste para acertar 2 em 3"): 1.200 configuracoes escolhidas na metade 1 de 2026 e
+# conferidas na metade 2 (quant/estudos/2026-10-08_calibrar_climax.py). Tranco e volume maiores melhoram nas DUAS metades;
+# com tranco >= 5 e volume >= 3x, alvo em 80% do tranco e stop de 10 pontos: 164 negocios em 177 manhas, acerto de 67%,
+# +R$ 15,60 por negocio com 2 contratos (metades: +17,50 e +11,90). A configuracao anterior (4 pontos, alvo de 60%) dava
+# -R$ 4,30. Entre o limiar de medir e o de operar o sinal so fica guardado.
+CLIMAX = {"tranco": 5.0, "vol": 3.0, "janela": 30, "minimo": 10, "stop_fixo": 10.0, "alvo_devolve": 0.8, "tempo_max": 20,
+          "atraso_max_s": 8, "medir_tranco": 3.0, "medir_vol": 2.5}
+CLIMAX_ESPERA_S = 10.0            # o sinal de climax vale por estes segundos: spread aberto logo depois do tranco fecha em seguida
 QUEM_OPERA = {"climax_opera": True, "niveis_opera": False}
 ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
 SETUPS_DE_GRAFICO = ("phicube", "niveis")
@@ -143,8 +149,11 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
         f"{ef._n(x['vol'])} vezes ou mais a média dos {x['janela']} minutos anteriores. É gente demais correndo para o mesmo lado: o preço "
         "tende a devolver parte do tranco. O robô entra CONTRA o tranco, na abertura do minuto seguinte.",
         f"Climax, saída: alvo quando o preço devolve {x['alvo_devolve']:.0%} do tranco; stop a {ef._n(x['stop_fixo'])} pontos da entrada; "
-        f"se em {x['tempo_max']} minutos não fez nem um nem outro, sai a mercado. No histórico de 2026 acertou cerca de 2 em cada 3, "
-        "com ganho pequeno em cada: no dinheiro, empata menos o custo. É a aposta em teste, não é regra vencedora.",
+        f"se em {x['tempo_max']} minutos não fez nem um nem outro, sai a mercado. Calibrado em 08/10/2026 sobre 177 pregões de 2026 "
+        "(manhã): 164 negócios, acertou 2 em cada 3 e deixou cerca de R$ 16 por negócio com 2 contratos; perto de 1 entrada por manhã, "
+        "e 4 em cada 10 manhãs sem nenhuma. São 9 meses de dado e metade do ganho veio de um mês só: é aposta em teste.",
+        f"Tranco entre {ef._n(x['medir_tranco'])} e {ef._n(x['tranco'])} pontos, ou volume entre {ef._n(x['medir_vol'])} e {ef._n(x['vol'])} vezes: "
+        "o robô não entra, só guarda o sinal para medir (no histórico esses perdem o custo).",
         "TESTE DE NÍVEL (" + ("opera" if niveis_opera else "só medido, não opera") + "): níveis de ontem (ajuste, máxima, mínima, fechamento), "
         f"de hoje (abertura, máxima e mínima do dia formadas há {c['idade_extremo']} minutos ou mais), números redondos de {ef._n(c['redondo'])} em "
         f"{ef._n(c['redondo'])} pontos e as médias de {c['medias'][0]}, {c['medias'][1]} e {c['medias'][2]} do gráfico de {c['tempo_medias']} minutos. "
@@ -252,7 +261,7 @@ class RoboFluxo:
         self.climax_opera = bool(modo.get("climax_opera", QUEM_OPERA["climax_opera"])) and setup == "niveis"
         self.niveis_opera = bool(modo.get("niveis_opera", QUEM_OPERA["niveis_opera"]))
         self.climax = {a: br.SinalClimax(**CLIMAX) for a in ATIVOS} if setup == "niveis" else {}
-        self.leitura_climax = {}
+        self.leitura_climax, self.climax_pendente = {}, {}
         self.outras = self._outras_regras_do_dia()               # o dia e um so: perdas e resultado das regras que ja rodaram hoje
         self.acumulado_antes = self._acumulado_antes()
 
@@ -586,7 +595,13 @@ class RoboFluxo:
             fita = self.fitas_mini[a]
             self.leitura_climax[a], ordem = self.climax[a].atualizar(fita)
             if ordem is None:
-                return None
+                pend = self.climax_pendente.get(a)               # o sinal que nasceu ha pouco e ainda nao conseguiu entrar
+                if pend is None:
+                    return None
+                if self.estados[a].posicao is not None or agora.timestamp() > pend[1]:
+                    self.climax_pendente.pop(a, None)
+                    return None
+                return pend[0]
             atraso = _relogio_brt(agora) - fita.relogio()        # a fita esta em dia com o relogio? tranco velho nao serve
             medida = self.leitura_da_fita(a, ordem.lado, ordem.nivel)
             sinal = {"tecnica": "climax de volume", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
@@ -595,13 +610,17 @@ class RoboFluxo:
                      "medidas": dict(ordem.info, risco_pts=ordem.stop_pts, alvo_pts=round(ordem.alvo_pts, 2), tempo_max_min=ordem.tempo_max,
                                      atraso_fita_s=atraso, fracao_a_favor=medida.get("fracao_a_favor"), fita=medida)}
             em_dia = -5 <= atraso <= 12
-            self._guardar_sinal(a, sinal, agora, opera=self.climax_opera and em_dia)
-            return sinal if self.climax_opera and em_dia else None
+            opera = bool(self.climax_opera and em_dia and ordem.info.get("opera", True))
+            self._guardar_sinal(a, sinal, agora, opera=opera, diario=bool(ordem.info.get("opera", True)))
+            if not opera:
+                return None
+            self.climax_pendente[a] = (sinal, agora.timestamp() + CLIMAX_ESPERA_S)
+            return sinal
         except Exception as e:                                   # leitura que falha nao derruba o robo
             self.leitura_climax[a] = {"pronto": False, "motivo": f"erro na leitura do climax: {type(e).__name__}: {e}"}
             return None
 
-    def _guardar_sinal(self, a, sinal, agora, opera):
+    def _guardar_sinal(self, a, sinal, agora, opera, diario=True):
         """Todo sinal fica guardado (operando ou so medindo), o dia inteiro, com o preco e a leitura da fita: e com
         isso que `medir` calcula depois o que cada entrada teria dado e se a fita separa as boas das ruins."""
         c = self.cot.get(a) or {}
@@ -617,7 +636,7 @@ class RoboFluxo:
                                     "contrato": self.codigos.get(a)}, ensure_ascii=False) + "\n")
         except OSError:
             pass
-        if not opera and entrada is not None:
+        if not opera and diario and entrada is not None:
             ft = (sinal.get("medidas") or {}).get("fita") or {}
             fita = "sem leitura da fita" if ft.get("confirmou") is None else ("a fita confirma" if ft["confirmou"] else "a fita não confirma")
             self.anotar("medida", f"{es.CONTRATOS[a]['nome']}: só medindo, sem operar: {sinal['tecnica']} em {sinal['nome_nivel']} "
@@ -846,10 +865,11 @@ class RoboFluxo:
                       "filtro testado (de onde o preço veio, hora, tipo de nível, lado das médias, insistir no mesmo lado) mudou isso. "
                       + ("Por isso ele deixou de operar e passou a ser só medido, com a leitura da fita em cada sinal."
                          if not self.niveis_opera else "Ele segue operando por escolha sua."),
-                      "Quem opera é o climax de volume: tranco de 1 minuto com volume de 3 vezes a média ou mais, entrada contra o tranco. "
-                      "ATENÇÃO: no histórico de 2026 (177 pregões) acertou cerca de 2 em cada 3, mas o resultado ficou entre -R$ 14 e +R$ 7 "
-                      "por negócio, sem diferença estatística de zero, e com cerca de 1 a 2 entradas por manhã. É uma aposta em teste, "
-                      "não uma regra vencedora. Não é para dinheiro real.",
+                      "Quem opera é o climax de volume: tranco de 1 minuto de 5 pontos ou mais com volume de 3 vezes a média ou mais, "
+                      "entrada contra o tranco. Calibrado em 08/10/2026: no histórico de 2026 (177 manhãs) acertou 2 em cada 3 e deixou "
+                      "cerca de R$ 16 por negócio com 2 contratos, perto de R$ 13 por pregão (0,013% do capital). A meta de 1% ao dia "
+                      "não saiu em nenhum dos 177 pregões com este lote. ATENÇÃO: 9 meses de dado, metade do ganho num mês só; é aposta "
+                      "em teste. Não é para dinheiro real.",
                       "Custos da B3 estimados e 1 tick contra nas ordens a mercado; imposto de day trade (20%) não descontado."]
         elif self.setup == "phicube":
             avisos = ["Simulação: nenhuma ordem é enviada à corretora.",

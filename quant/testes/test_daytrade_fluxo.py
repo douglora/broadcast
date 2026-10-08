@@ -876,8 +876,9 @@ def test_climax_de_volume_entra_contra_o_tranco_e_sai_por_tempo(tmp_path, monkey
     agora = datetime(2026, 10, 8, 10, 16, 3, tzinfo=BRT)
     est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp(), maxima=5040.0)}})
     pos = r.estados["WDOFUT"].posicao
-    # subiu 5 pontos com 4,5 vezes o volume: VENDE a mercado em 5.039,5; stop 10 acima; alvo quando devolve 60% (3 pontos)
-    assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.stop, pos.alvo, pos.tempo_max_s) == ("climax de volume", "V", 5039.5, 5049.5, 5036.5, 1200.0)
+    # subiu 5 pontos com 4,5 vezes o volume: VENDE a mercado em 5.039,5; stop 10 acima; alvo quando devolve 80% (4 pontos)
+    assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.stop, pos.alvo, pos.tempo_max_s) == ("climax de volume", "V", 5039.5, 5049.5, 5035.5, 1200.0)
+    assert rf.CLIMAX["tranco"] == 5.0 and rf.CLIMAX["vol"] == 3.0 and rf.CLIMAX["alvo_devolve"] == 0.8      # a calibracao de 08/10
     lc = est["instrumentos"][0]["climax"]
     assert lc["pronto"] and lc["minuto"] == "10:15" and lc["tranco"] == 5.0 and lc["volume_x"] == 4.5
     assert "contra um tranco de 5 pontos com volume de 4.5x" in r.diario[-1]["texto"]
@@ -1018,3 +1019,47 @@ def test_medir_calcula_o_que_o_sinal_guardado_teria_dado(tmp_path):
     r2 = medir.hipotetico(ev2, df2)
     assert r2["saida"] == "zero a zero" and r2["pontos"] == pytest.approx((4.0 - 0.5) / 2)
     assert medir.hipotetico(dict(ev, quando="2026-10-09T10:00:00-03:00"), df) is None       # sem barras depois do sinal
+
+
+def test_climax_fraco_fica_so_medido_e_o_forte_espera_o_spread_fechar(tmp_path, monkeypatch):
+    # tranco de 4 pontos com 4,5 vezes o volume: abaixo dos 5 pontos da calibracao. Guarda o sinal, nao entra, nao suja o diario.
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_com_climax(mt5, tranco=4.0)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 8, 10, 16, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5039.0, agora.timestamp(), maxima=5039.0)}})
+    sinal = json.loads(open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[-1])
+    assert r.estados["WDOFUT"].posicao is None and sinal["tipo"] == "sinal" and sinal["opera"] is False and sinal["medidas"]["opera"] is False
+    assert not any("só medindo" in d["texto"] for d in r.diario)
+    # tranco de 5 pontos, mas o spread esta aberto no primeiro segundo: nao entra; 4 s depois fechou: entra; passados 10 s, desiste
+    monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt2"))
+    mt52 = tmp_path / "mt5b"
+    mt52.mkdir()
+    _fita_com_climax(mt52)
+    r2 = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt52), setup="niveis")
+    r2.codigos = {"WDOFUT": "WDOX26"}
+    r2.sinais_pc["WDOFUT"] = r.sinais_pc["WDOFUT"]
+    aberto = [1.5]
+    monkeypatch.setattr(rf, "spread_do_livro", lambda livro, codigo: aberto[0])
+    r2.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp(), maxima=5040.0)}})
+    assert r2.estados["WDOFUT"].posicao is None and "WDOFUT" in r2.climax_pendente
+    aberto[0] = 0.5
+    depois = agora + timedelta(seconds=4)
+    r2.ciclo(depois, retrato={"q": {"WDOFUT": _cotacao(5039.5, depois.timestamp(), maxima=5040.0)}})
+    pos = r2.estados["WDOFUT"].posicao
+    assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.alvo) == ("climax de volume", "V", 5039.0, 5035.0)
+    monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt3"))
+    mt53 = tmp_path / "mt5c"
+    mt53.mkdir()
+    _fita_com_climax(mt53)
+    r3 = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "q3.json")], pasta_mt5=str(mt53), setup="niveis")
+    r3.codigos = {"WDOFUT": "WDOX26"}
+    r3.sinais_pc["WDOFUT"] = r.sinais_pc["WDOFUT"]
+    aberto[0] = 1.5
+    r3.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5040.0, agora.timestamp(), maxima=5040.0)}})
+    aberto[0] = 0.5
+    tarde = agora + timedelta(seconds=11)
+    r3.ciclo(tarde, retrato={"q": {"WDOFUT": _cotacao(5039.5, tarde.timestamp(), maxima=5040.0)}})
+    assert r3.estados["WDOFUT"].posicao is None and "WDOFUT" not in r3.climax_pendente

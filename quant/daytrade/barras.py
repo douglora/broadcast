@@ -187,8 +187,11 @@ class SinalClimax:
     ciclo depois de um minuto fechar no relogio da fita, mede o tranco desse minuto (do abre ao fecha) e o volume dele
     contra a media dos minutos anteriores. Tranco com volume de `vol` vezes a media ou mais: ordem CONTRA o tranco."""
 
-    def __init__(self, tranco=4.0, vol=3.0, janela=30, minimo=10, stop_fixo=10.0, alvo_devolve=0.6, tempo_max=20, atraso_max_s=8):
+    def __init__(self, tranco=5.0, vol=3.0, janela=30, minimo=10, stop_fixo=10.0, alvo_devolve=0.8, tempo_max=20, atraso_max_s=8,
+                 medir_tranco=None, medir_vol=None):
         self.tranco, self.vol, self.janela, self.minimo = tranco, vol, janela, minimo
+        # abaixo do limiar de operar e acima deste, o sinal sai marcado info["opera"] = False: so para ficar medido
+        self.medir_tranco, self.medir_vol = min(medir_tranco or tranco, tranco), min(medir_vol or vol, vol)
         self.stop_fixo, self.alvo_devolve, self.tempo_max, self.atraso_max_s = stop_fixo, alvo_devolve, tempo_max, atraso_max_s
         self.minuto_visto = None
         self.leitura = {"pronto": False, "motivo": "esperando a fita"}
@@ -217,14 +220,16 @@ class SinalClimax:
         vezes = v / media if media > 0 else 0.0
         self.leitura = {"pronto": True, "minuto": ultimo.strftime("%H:%M"), "tranco": round(r, 1), "volume": v, "media": round(media, 1),
                         "volume_x": round(vezes, 2), "pede_tranco": self.tranco, "pede_volume_x": self.vol}
-        if abs(r) < self.tranco or vezes < self.vol or relogio % 60 > self.atraso_max_s:
+        if abs(r) < self.medir_tranco or vezes < self.medir_vol or relogio % 60 > self.atraso_max_s:
             return self.leitura, None
+        forte = abs(r) >= self.tranco and vezes >= self.vol
         lado = "V" if r > 0 else "C"
         alvo = max(abs(r) * self.alvo_devolve, 1.5)
         return self.leitura, hist.Ordem(lado, stop_pts=self.stop_fixo, alvo_pts=alvo, parcial_pts=alvo, tempo_max=self.tempo_max,
                                         motivo="climax de volume", nivel=h if r > 0 else l,
                                         nome_nivel=f"tranco de {abs(r):g} pontos com volume de {vezes:.1f}x",
-                                        info={"tranco": round(r, 1), "volume_x": round(vezes, 2), "volume": v, "media": round(media, 1)})
+                                        info={"tranco": round(r, 1), "volume_x": round(vezes, 2), "volume": v, "media": round(media, 1),
+                                              "opera": forte})
 
 
 class SinalPhiCube:

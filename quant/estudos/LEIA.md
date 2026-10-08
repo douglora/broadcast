@@ -19,3 +19,30 @@ metades (60% para achar, 40% para confirmar) e contam o resultado depois de cust
 Consequencia no codigo (`quant/daytrade/robo_fluxo.py`): dentro do setup `niveis`, quem opera e o climax de volume
 (`CLIMAX`); o teste de nivel fica so medido; todo sinal e guardado com a leitura da fita e `python -m quant.daytrade.medir`
 calcula o que cada um teria dado.
+
+## 08/10/2026, 17h30: "ajuste para acertar 2 em 3, objetivo de 1% por dia"
+
+`2026-10-08_calibrar_climax.py`: 1.200 configuracoes do climax (tranco 3 a 6 pontos, volume 2,5 a 5 vezes, alvo devolvendo
+40% a 100% do tranco, stop de 6 a 15 pontos, tempo de 10 a 30 minutos), escolhidas na metade 1 de 2026 e conferidas na
+metade 2. O calibrador rapido foi conferido contra o simulador oficial: os negocios em comum tem os mesmos pontos.
+
+| O que | Resultado (manha, 2 contratos, depois de custo) |
+|---|---|
+| Tranco maior | Melhora nas duas metades: 3 pts +3 / -4; 4 pts +8 / +1; 5 pts +10 / +14; 6 pts +17 / +20 (R$ por negocio, media da grade) |
+| Volume maior | Idem: 2,5x +1 / -3; 3x +7 / 0; 4x +12 / +19; 5x +18 / +14 |
+| Escolhida: tranco 5, volume 3x, alvo 80%, stop 10, 20 min | 164 negocios em 177 manhas (0,93 por manha), acerto 67%, +R$ 15,60 por negocio (t 1,5); metades +17,50 e +11,90 |
+| Anterior: tranco 4, alvo 60% | 249 negocios, acerto 69%, -R$ 4,30 por negocio |
+| Sem os sinais de 9h27 a 9h39 (a pausa do dado, que o robo ja faz) | 143 negocios, acerto 69%, +R$ 22,40 (t 2,1) |
+| Por mes (escolhida) | jan -210, fev +226, mar +1.374, abr +452, mai -49, jun +94, jul +685, ago +36, set -44, out -9 |
+| Tarde (13h a 16h30), mesma leitura | Tambem positiva com tranco 5 ou 6 (+14 a +28 por negocio, acerto 61% a 65%) |
+
+O dia com as regras do Douglas (meta de R$ 1.000, perda de R$ 1.000, 3 perdas), 177 pregoes:
+
+| Lote | Media por pregao | Melhor dia | Pior dia | Dias com a meta |
+|---|---|---|---|---|
+| 2 contratos | +R$ 13 (0,013%) | +R$ 613 | -R$ 346 | 0 |
+| 4 contratos | +R$ 27 (0,027%) | +R$ 1.226 | -R$ 693 | 1 |
+| 8 contratos | +R$ 49 (0,049%) | +R$ 1.638 | -R$ 1.386 | 5 |
+
+74 dos 177 pregoes nao tem nenhum sinal de manha. Ressalvas: 9 meses de dado (o MetaTrader so entrega 100 mil barras de
+1 minuto), metade do ganho em marco, t perto de 2 depois de olhar 1.200 configuracoes. A meta de 1% ao dia nao sai desta regra.
