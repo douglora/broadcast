@@ -5,7 +5,11 @@ DE ONDE VEM. O robo do MetaTrader (AutopilotFeed 1.3) grava, para os simbolos de
 `autopilot_tape.txt`:
   - `autopilot_fita_AAAAMMDD.csv`: negocios somados por segundo e por preco, com o lado de
     quem AGREDIU (comprou a mercado ou vendeu a mercado). Linha:
-        F;SIMBOLO;segundo;preco;vol_compra;vol_venda;vol_indef;negocios;maior_compra;maior_venda;idade_ms
+        F;SIMBOLO;segundo;preco;vol_compra;vol_venda;vol_indef;negocios;maior_compra;maior_venda;idade_ms;
+          compra_media;venda_media;compra_grande;venda_grande
+    Os quatro ultimos separam o volume por TAMANHO DO NEGOCIO: "media" soma so negocios de 10
+    contratos ou mais, "grande" so os de 50 ou mais. Quem le fluxo no contrato cheio descarta o
+    lote minimo (5 contratos, "lote de robo") e chama 50 de lote de instituicao.
   - `autopilot_livro.csv`: a foto do livro de ofertas, do melhor preco para o pior:
         L;SIMBOLO;C;preco;qtd;...;V;preco;qtd;...
 
@@ -49,9 +53,12 @@ def linha_da_fita(texto):
     preco = _f(c[3])
     if preco <= 0:
         return None
-    return {"simbolo": c[1], "seg": int(_f(c[2])), "preco": preco, "compra": _f(c[4]), "venda": _f(c[5]),
-            "indef": _f(c[6]), "negocios": int(_f(c[7])), "maior_compra": _f(c[8]), "maior_venda": _f(c[9]),
-            "idade_ms": _f(c[10]) if len(c) > 10 else 0.0}
+    d = {"simbolo": c[1], "seg": int(_f(c[2])), "preco": preco, "compra": _f(c[4]), "venda": _f(c[5]),
+         "indef": _f(c[6]), "negocios": int(_f(c[7])), "maior_compra": _f(c[8]), "maior_venda": _f(c[9]),
+         "idade_ms": _f(c[10]) if len(c) > 10 else 0.0}
+    if len(c) >= 15:                         # fita que separa o tamanho do negocio
+        d.update(compra_media=_f(c[11]), venda_media=_f(c[12]), compra_grande=_f(c[13]), venda_grande=_f(c[14]))
+    return d
 
 
 def ler_livro(texto):
@@ -84,15 +91,25 @@ def ler_livro(texto):
 class Fita:
     """A fita de UM simbolo na memoria, com as medidas por janela."""
 
-    def __init__(self, simbolo, tick):
+    def __init__(self, simbolo, tick, sem_lote_de_robo=False):
         self.simbolo = simbolo
         self.tick = float(tick)
         self.linhas = deque()                 # dicts de linha_da_fita, em ordem de segundo
         self.ultimo_seg = 0
+        # True = le o contrato CHEIO como ele: a agressao so conta negocios de 10 contratos ou mais
+        # (o lote de 5 e de robo) e os de 50 ou mais ficam marcados como lote de instituicao.
+        self.sem_lote_de_robo = bool(sem_lote_de_robo)
+        self.separa_tamanho = False           # vira True quando chega a primeira linha com os campos de tamanho
 
     def acrescentar(self, linha):
         if linha is None or linha["simbolo"] != self.simbolo:
             return
+        if "compra_media" in linha:
+            self.separa_tamanho = True
+            if self.sem_lote_de_robo:
+                linha = dict(linha, compra=linha["compra_media"], venda=linha["venda_media"])
+        linha.setdefault("compra_grande", 0.0)
+        linha.setdefault("venda_grande", 0.0)
         self.linhas.append(linha)
         self.ultimo_seg = max(self.ultimo_seg, linha["seg"])
         limite = self.ultimo_seg - JANELA_MAXIMA_S
@@ -112,6 +129,7 @@ class Fita:
         total = c + v
         return {"compra": c, "venda": v, "saldo": c - v, "total": total,
                 "fracao_compra": (c / total) if total > 0 else None,
+                "compra_grande": sum(x["compra_grande"] for x in j), "venda_grande": sum(x["venda_grande"] for x in j),
                 "negocios": sum(x["negocios"] for x in j),
                 "maior_compra": max((x["maior_compra"] for x in j), default=0.0),
                 "maior_venda": max((x["maior_venda"] for x in j), default=0.0),
@@ -146,36 +164,73 @@ class Fita:
         vals.sort()
         return vals[len(vals) // 2]
 
-    def absorcao(self, nivel, lado, segundos, ate=None, folga_ticks=1):
+    def amplitude_tipica(self, segundos=60, janelas=15, ate=None):
+        """Mediana do vai-e-vem (maximo menos minimo) em janelas seguidas: a "frequencia" do mercado hoje.
+        Ele calibra o tamanho do stop por isso: dia que anda muito pede stop mais longo. None sem 5 janelas."""
+        ate = self.ultimo_seg if ate is None else int(ate)
+        vals = []
+        for k in range(int(janelas)):
+            a = self.agressao(segundos, ate - k * int(segundos))
+            if a["maximo"] is not None:
+                vals.append(a["maximo"] - a["minimo"])
+        if len(vals) < 5:
+            return None
+        vals.sort()
+        return vals[len(vals) // 2]
+
+    def testes(self, nivel, lado, segundos, ate=None, zona_ticks=1, afasta_ticks=3):
+        """Quantas vezes o preco foi ao nivel na janela. Um teste so conta de novo depois de o preco
+        se afastar `afasta_ticks` do nivel. lado="compra": nivel e suporte (o preco vem de cima)."""
+        zona, afasta = zona_ticks * self.tick + 1e-9, afasta_ticks * self.tick - 1e-9
+        n, fora = 0, True
+        for x in self._janela(segundos, ate):
+            d = (x["preco"] - nivel) if lado == "compra" else (nivel - x["preco"])
+            if d <= zona:
+                if fora:
+                    n, fora = n + 1, False
+            elif d >= afasta:
+                fora = True
+        return n
+
+    def absorcao(self, nivel, lado, segundos, ate=None, folga_ticks=1, tolerancia_ticks=0):
         """Mede a defesa de um nivel na janela.
 
         lado="compra": o nivel e um SUPORTE. Conta o volume de quem VENDEU a mercado em precos ate
         `folga_ticks` acima do nivel, e ve se o preco passou para baixo dele. Muita venda agredindo
         e o preco nao perdendo o nivel e o que o leitor de fluxo chama de absorcao (alguem esta
         comprando tudo o que vendem ali). lado="venda" e o espelho, para uma RESISTENCIA.
-        Devolve {"agredido", "contra" (volume que foi a favor do nivel), "furou" (bool), "toques"}.
+        `tolerancia_ticks`: quantos ticks alem do nivel ainda nao contam como perder o nivel.
+        Devolve {"agredido", "contra" (volume que foi a favor do nivel), "furou" (bool), "toques",
+        "rodadas_grandes" (segundos em que um lote de instituicao bateu contra o nivel), "agredido_grande"}.
         """
-        folga = folga_ticks * self.tick
-        agredido = contra = 0.0
+        folga, tol = folga_ticks * self.tick, tolerancia_ticks * self.tick
+        agredido = contra = grande = 0.0
         furou = False
-        segundos_no_nivel = set()
+        segundos_no_nivel, segundos_grandes = set(), set()
         for x in self._janela(segundos, ate):
             p = x["preco"]
             if lado == "compra":
-                if p < nivel - 1e-9:
+                if p < nivel - tol - 1e-9:
                     furou = True
-                if nivel - 1e-9 <= p <= nivel + folga + 1e-9:
+                if nivel - tol - 1e-9 <= p <= nivel + folga + 1e-9:
                     agredido += x["venda"]
                     contra += x["compra"]
                     segundos_no_nivel.add(x["seg"])
+                    if x["venda_grande"] > 0:
+                        grande += x["venda_grande"]
+                        segundos_grandes.add(x["seg"])
             else:
-                if p > nivel + 1e-9:
+                if p > nivel + tol + 1e-9:
                     furou = True
-                if nivel - folga - 1e-9 <= p <= nivel + 1e-9:
+                if nivel - folga - 1e-9 <= p <= nivel + tol + 1e-9:
                     agredido += x["compra"]
                     contra += x["venda"]
                     segundos_no_nivel.add(x["seg"])
-        return {"agredido": agredido, "contra": contra, "furou": furou, "toques": len(segundos_no_nivel)}
+                    if x["compra_grande"] > 0:
+                        grande += x["compra_grande"]
+                        segundos_grandes.add(x["seg"])
+        return {"agredido": agredido, "contra": contra, "furou": furou, "toques": len(segundos_no_nivel),
+                "rodadas_grandes": len(segundos_grandes), "agredido_grande": grande}
 
 
 class Leitor:
