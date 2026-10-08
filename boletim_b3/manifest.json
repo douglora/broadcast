@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-07T17:57:21Z",
+ "gerado_em": "2026-10-08T00:51:12Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -23,51 +23,17 @@
   "CURY3"
  ],
  "pregoes": {
-  "2026-10-05": {
-   "completo": true,
-   "faltam": [],
-   "boletim": "publicado",
-   "sinais": 42,
-   "tabelas": 47,
-   "arquivos": [
-    "DerivativesOpenPosition",
-    "InstrumentsConsolidated",
-    "TradeInformationConsolidated",
-    "TradeInformationConsolidatedAfterHours"
-   ],
-   "rf_cadastro": {
-    "papeis_no_dia": 1430,
-    "consultados": 0,
-    "achados": 0,
-    "sem_cadastro": 0,
-    "erros": 0,
-    "ficaram_para_depois": 0,
-    "no_cache": 3376
-   },
-   "anbima": {
-    "situacao": "publicado",
-    "data": "2026-10-05",
-    "papeis": 1277,
-    "publicado_em": "2026-10-05T20:05:30",
-    "comparado_com": "2026-10-02",
-    "tentativas": {
-     "2026-10-05": "publicado",
-     "2026-10-02": "publicado"
-    }
-   },
-   "falhas": {},
-   "segundos": 51
-  },
   "2026-10-06": {
-   "completo": true,
-   "faltam": [],
+   "completo": false,
+   "faltam": [
+    "TradeInformationConsolidated"
+   ],
    "boletim": "publicado",
-   "sinais": 36,
-   "tabelas": 47,
+   "sinais": 14,
+   "tabelas": 44,
    "arquivos": [
     "DerivativesOpenPosition",
     "InstrumentsConsolidated",
-    "TradeInformationConsolidated",
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
@@ -90,11 +56,57 @@
      "2026-10-05": "publicado"
     }
    },
-   "falhas": {},
-   "segundos": 55
+   "falhas": {
+    "ForwardMarket": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/ForwardMarket/2026-10-06/2026-10-06/1/1000",
+    "DerivativesMtM": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/DerivativesMtM/2026-10-06/2026-10-06/1/1000",
+    "EletronicTerm": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/EletronicTerm/2026-10-06/2026-10-06/1/1000",
+    "TradeInformationConsolidated": "arquivo TradeInformationConsolidated: download HTTP 504"
+   },
+   "segundos": 2250
+  },
+  "2026-10-07": {
+   "completo": false,
+   "faltam": [
+    "DerivativesOpenPosition",
+    "BTBLendingOpenPosition",
+    "BTBLoanBalance",
+    "AnalyticalFramework2"
+   ],
+   "boletim": "publicando",
+   "sinais": 10,
+   "tabelas": 47,
+   "arquivos": [
+    "InstrumentsConsolidated",
+    "TradeInformationConsolidated",
+    "TradeInformationConsolidatedAfterHours"
+   ],
+   "rf_cadastro": {
+    "papeis_no_dia": 1702,
+    "consultados": 26,
+    "achados": 0,
+    "sem_cadastro": 26,
+    "erros": 0,
+    "ficaram_para_depois": 0,
+    "no_cache": 3402
+   },
+   "anbima": {
+    "situacao": "publicado",
+    "data": "2026-10-07",
+    "papeis": 1276,
+    "publicado_em": "2026-10-07T19:56:03",
+    "comparado_com": "2026-10-06",
+    "tentativas": {
+     "2026-10-07": "publicado",
+     "2026-10-06": "publicado"
+    }
+   },
+   "falhas": {
+    "DerivativesOpenPosition": "arquivo DerivativesOpenPosition: token HTTP 400"
+   },
+   "segundos": 65
   }
  },
  "falhas": [],
  "versao": 2,
- "ultimo_pregao": "2026-10-06"
+ "ultimo_pregao": "2026-10-07"
 }

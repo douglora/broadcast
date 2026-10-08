@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-06",
+ "pregao": "2026-10-07",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-07T04:04:06.613",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-07T19:02:08.483",
  "truncada": false,
  "linhas": [
-  ["ISHARES SMALCI", "CI", 90, 134.68, 40500, 5454.54, 0.6802474286647195],
-  ["INTER CO    DR2", "DR2", 16, 35.12, 111300, 3908.8559999999993, 1.8694207113674883],
-  ["BRASIL      ON      NM", "ON      NM", 30, 24.92, 134200, 3344.264, 2.2540544426371696],
-  ["INTER CO    DR2", "DR2", 30, 35.92, 275000, 9878, 4.618964021797479],
-  ["VAMOS       ON      NM", "ON      NM", 22, 6.15, 637000, 3917.55, 10.69920029776361]
+  ["INVESTOUTIL CI", "CI", 30, 142.85, 33000, 4714.05, 0.4124033945048372],
+  ["ISHARES SMALCI", "CI", 90, 133.97, 40000, 5358.8, 0.49988290243010575],
+  ["INTER CO    DR2", "DR2", 16, 36.84, 150000, 5526.000000000001, 1.8745608841128965],
+  ["TENDA       ON      NM", "ON      NM", 114, 31.18, 180000, 5612.4, 2.249473060935476],
+  ["ASSAI       ON      NM", "ON      NM", 90, 12.55, 2000000, 25100, 24.994145121505287]
  ]
 }

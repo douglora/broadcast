@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-06",
+ "pregao": "2026-10-07",
  "nome": "InCashMarketBiggestLow",
  "titulo": "Mercado à vista - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores desvalorizações de ativos no mercado à vista num período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-06T19:00:42.847",
+ "atualizado_em": "2026-10-07T18:54:51.097",
  "truncada": false,
  "linhas": [
-  ["C1TV34", "DRN EC", 17.22, -31.66],
-  ["H1II34", "DRN", 16.99, -27.79],
-  ["KNCR12", "DIR", 0.34, -22.72],
-  ["XRPV39", "DRE", 7.2, -19.55],
-  ["BRKM6", "PNB     N1", 3.72, -19.13],
-  ["BIOM12", "DIR     N2", 4.07, -17.61],
-  ["RECD11", "CI  ER", 5.7, -14.67],
-  ["S1SL34", "DRN", 203.28, -11.79],
-  ["RCFA11", "CI", 0.6, -11.76],
-  ["K1LA34", "DRN", 49.5, -11.6]
+  ["FPOR11", "CI", 9, -50],
+  ["CEDO3", "ON      N1", 6, -33.33],
+  ["A1OS34", "DRN", 277.76, -15.97],
+  ["MNDL3", "ON", 15.8, -14.54],
+  ["OBTC3", "ON", 6.95, -13.23],
+  ["FDES11", "CI", 0.34, -12.82],
+  ["FSRF11", "CI", 0.07, -12.5],
+  ["UPSS34", "DRN", 28.99, -12.15],
+  ["P1UK34", "DRN", 29.46, -10.97],
+  ["BRKM6", "PNB     N1", 3.32, -10.75]
  ]
 }
