@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 12h22
+NOTÍCIAS E FATOS · 08/10 13h21
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 452 veículo fora da lista, 51 sem ativo, 12 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 439 veículo fora da lista, 50 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -46,7 +46,16 @@ Fonte: SEC EDGAR 2026-10-08
 id: E04-TSM-26000680-2026-10-08 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (9)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · BTC · TD Cowen raises Bitcoin price target to $280,000 by 2029
+TradingView (Reuters) · 08/10 12h17 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/cryptobriefing:8e70aff74094b:0-td-cowen-raises-bitcoin-price-target-to-280-000-by-2029/
+Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
+Ativos: BTC
+Como falar: 'saiu no TradingView (Reuters): TD Cowen raises Bitcoin price target to $280,000 by 2029; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 08/10 12h17
+id: E05-BTC-5e96908bfd-2026-10-08 · status: pendente
 
 [ATENÇÃO] E05 · MRVL · Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL)
 Seeking Alpha · 08/10 09h31 · fonte única · licença: manchete
@@ -157,8 +166,22 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (60)
+## OUTRAS NOTÍCIAS (só manchete) (74)
 
+· LITE Optics Stocks Tumble as Profit Taking Cuts Into Big Yearly Gains: Applied Optoelectronics Drops 9%, Coherent Falls 5%, Lumentum Slides 4% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-profit-taking-160031296.html
+· MU Nvidia: Micron Just Gave It Away (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952776-nvidia-micron-just-gave-it-away
+· CVX Chevron's Refining Strength, Higher Crude Prices Lift EPS Outlook, UBS Says (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-apos-refining-strength-higher-155708368.html
+· PLTR Palantir: Why The Upgrades Keep Coming Ahead Of The Q3 Earnings Report (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4952826-palantir-why-the-upgrades-keep-coming-ahead-of-the-q3-earnings-report
+· BBAS3 Representante da campanha diz que governo de Flávio Bolsonaro não privatizaria Banco do Brasil, Caixa e Petrobras (g1) https://g1.globo.com/economia/noticia/2026/10/08/representante-da-campanha-diz-que-governo-de-flavio-bolsonaro-nao-privatizaria-banco-do-brasil-caixa-e-petrobras.ghtml
+· GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L4N45U17Y:0-google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up/
+· TSM TSMC Taps GlobalFoundries In $2B AI Chip Deal, Putting GFS Stock On Track To Hit Over 1-Month High (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:144988d06094b:0-tsmc-taps-globalfoundries-in-2b-ai-chip-deal-putting-gfs-stock-on-track-to-hit-over-1-month-high/
+· MU Siebert CIO Says Micron Stock Is a Buy, Just Not Forever (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/siebert-cio-says-micron-stock-150505773.html
+· BTC Bitcoin pulls back as analysts forecast $80,000-$90,000 Q4 trading range (The Block) https://www.theblock.co/news/markets/2026-10-08-bitcoin-q4-forecast-418052
+· JPM 30-Year Treasury Yield Nears 6%: JPMorgan Flags Small-Cap Risk, Putting These ETFs in Focus (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:3c5ad2047094b:0-30-year-treasury-yield-nears-6-jpmorgan-flags-small-cap-risk-putting-these-etfs-in-focus/
+· MMM Will MMM's Safety & Industrial Segment Remain a Core Strength in 2026? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:844906ef1094b:0-will-mmm-s-safety-industrial-segment-remain-a-core-strength-in-2026/
+· TSM TSMC Stocks Drop 2% Despite Citi's NT$4,000 Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:32fda1b2c094b:0-tsmc-stocks-drop-2-despite-citi-s-nt-4-000-target/
+· BAC Bank of America’s EPS Growth Is Expected to Slow From 36% to Single Digits. Here’s What October 14 Needs to Show (Yahoo Finance) https://news.google.com/rss/articles/CBMingFBVV95cUxQNkRxNWlNVHR1REc3VVhiWFFaV2FOcjNISVh2bzhZSmVDUmFEeU54VG5rMGc2U1FTa1BXYjl1MzZ2TnZUYU95WHYtVVlZQkRubE9iNndBSEREeE9PWWFLTDJyNUxFeko3eTU5ZkdQS2V5UWZFQUJyWW1oMzVtTmhIS3BocXdNeFVkYnlEOHk4UktyR2RIS2x6Q09iOTNNdw?oc=5
+· BRENT Dólar oscila e Ibovespa sobe, de olho em preços do petróleo e pesquisas eleitorais (g1) https://news.google.com/rss/articles/CBMieEFVX3lxTE05TVM4V0pEM212allEODJqbXhLMkZ1MmRLUGk2NWd0ODRaRlExMWlIMTdoNUg5elBRYXRyajFaX1F5U0lJWV9SVXVvTEVjRllfOWRtOElhcURqLXNJeGJIbjRhUW0xeVJQczJZLWpDTF9OaGl4RHVuddIBhwFBVV95cUxNZ1FRTWJaaFgtV2UxNmkwcERmSzFLOVJTWUN4RUVJT2N0Zmo5WlZZQVYxQTdpcU1XVzhpYVFqVHRQS3lVR2tpT1lIN3RpSVVFSTZyVFNKTy1EZDBkZTRpWXVWSDlRNXIxWFhNb1c3WDV3TlRSZ2hmSy01djBNQ0JmN1Z4QkE3bms?oc=5
 · GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (Reuters) https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up-2026-10-08/
 · ITUB4 PetroRecôncavo vê produção de gás cair pelo 5º mês seguido e acende alerta no Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/petroreconcavo-ve-producao-de-gas-cair-pelo-5-mes-seguido-e-acende-alerta-no-itau-bba/
 · PETR4 Tempo real: Ibovespa avança aos 207 mil pontos com Petrobras (PETR4); dólar recua (Money Times) https://www.moneytimes.com.br/tempo-real-8-10-26-apsa-lils/
@@ -205,17 +228,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · BTC Q&A: Bitcoin Funds Are Expanding. HANetf’s Co-CEO Explains Why (The Wall Street Journal) https://www.wsj.com/finance/currencies/q-a-bitcoin-funds-are-expanding-hanetfs-co-ceo-explains-why-3edb2398
 · VALE3 Na cidade onde nasceu a Vale, ele construiu um negócio de R$ 1,8 bilhão bem longe do minério (Exame) https://exame.com/negocios/na-cidade-onde-nasceu-a-vale-ele-construiu-um-negocio-de-r-18-bilhao-bem-longe-do-minerio/
 · BTC Bitcoin ETFs bleed nearly $500 million in one day: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months
-· BBAS3 Banco do Brasil perde espaço para rivais na Bolsa e JPMorgan revela seus favoritos (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/banco-do-brasil-perde-espaco-para-rivais-na-bolsa-e-jpmorgan-revela-seus-favoritos/
-· ETH Current price of Ethereum for Oct. 8, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-08-2026/
-· BTC Current price of Bitcoin for Oct. 8, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-08-2026/
-· CVX Hess: When It Rains It Pours And This Time Chevron Is Raining On Shareholders (HESM) (Seeking Alpha) https://seekingalpha.com/article/4952727-hess-midstream-when-it-rains-it-pours-and-this-time-chevron-is-raining-on-shareholders
-· BTC Ethereum researcher's AI security warning stirs debate as bitcoin extends slide: Crypto Markets Today (CoinDesk) https://www.coindesk.com/markets/2026/10/08/bitcoin-slips-below-usd83-000-as-ethereum-researcher-s-bunker-mode-call-divides-crypto
-· BTC Bitcoin monthly inflows near $5B, but existing holders did most of the lifting (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:12ac7da2a094b:0-bitcoin-monthly-inflows-near-5b-but-existing-holders-did-most-of-the-lifting/
-· USDBRL Primeiras pesquisas após primeiro turno dividem agenda com ata do BCE; Ibovespa em dólar cai nesta quinta-feira (8) (Money Times) https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTEQzZ09ZS3lMMHp5WXgya3R2VnlVMlVDRTNWNlM1SjFSYnh6UkV0MVlKYTVQU18xaU9FS01QeURvUXcwdXNFQVQ5bW1ZVUJNUTQxbjhSNDJhd2xRRG5ULVlILW1pdGJZSDlibzdWNVM1QWhscXc5b1gwaDl3d2YxSXpWTTlQdzVDXzZTaldHS2NDU1lpR29scXJ0ZFl2U0xNWUZHLVp1MVJyOWRuMkR0dkdPVzE5X3VwSnZnemdJTHZHbjVPSUtrNjZrRXd5M0VUTDZSczdMMW9BUEhBdXlZR1VB?oc=5
-· BTC Strategy Stock: Trading Near Bitcoin NAV With Significant Upside (NASDAQ:MSTR) (Seeking Alpha) https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLUdqS2taSUdPdEtBdDBOdVc0bnFlbGhJSzNrTlBkUXdRdnlsek1wZmhhMUxWY0hMR3d6R1VjRjg5NzJzekN5ZjlwZ19pYlhoTDE0amw2RWhDRGl4OGFveThEcUdxdmJNMGZFMnJadDVXRXpOODNhMDRyNUc2QjBWZC04cHF3OEc4NnZhelNNQm5PeUtaZ0lwRFVIUFpWRE4xdW8yb0lrTkxha0dtZ19neFp1R2RQNVliaE80?oc=5
-· ETH Where Will Ethereum Be in 2030? (Yahoo Finance) https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWRZZHRNUmRTMkpuZUdZWjlONWx4UVZiTjUzLTR1c005TjVIQV9UM3piWGFLSVpVTG44ZmpacWFVdVN4bHU0U19hdGlOM2hSQVprTy1FZ3BUc2duVXduQmhNemtZUEF5dHJJSUhqRnh4WEVIRVM3U1ROcFMxNDRjeWFQSGVBZWFiVm5OSA?oc=5
-· KO Coca-Cola: Reiterating 'Sell' Amid Insider Selling And Steep Valuation (Q3 Earnings Preview) (Seeking Alpha) https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0czaXVoMzFOMlhXSFFMVUdSN2pGT2FwTTVjNG0xQWVIeEQxLXVFZzYwYldhX1ExaE9NSkd1NkRCa1Y3WjQzV08zblF1R3BlZ2pUbWpCZGJ3OFotMXlRN2Y1TFNaNlptRHMtU3lsNmdyNWFWck1QY2VpZVc1YllHVXFtNGFGeVFYa1FnclFMaXdjdjVSSXJ4U3hwSzBpTmVHQ09LYmhDc0drQ3R2MDE5bEtGMkZpRUYtMjhULU1ZeTJxdw?oc=5
-· VALE3 Vale, siderúrgicas, papel e celulose: por que não se animaram com rali? (InfoMoney) https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNHQyWWdIcWlTWUNWN2t6UDNhamM1WU1KNEkzRjhUZmVXTFk0a2RmSHdpdzVQYlRkbF83R2EweDFGdnJ4R0tfZUtCV0JtM3Q1RnpsQVhWa3VxREp3Y3I4S2VaUWxjMFMzNUpCQjR2WG5ERUY0WThMTXF2V0ExUmpMUFEyNXVGcXViMzlZRGtNMnZJaEdHaXZuRUhSN2xMdzJYQzZmVHh4UWgwd9IBrwFBVV95cUxPbjB2QzNvcUZLOXF0UjJORlF6aHdCa3hQYWtubVhZemJ3RVJNWEtLZGloWVlHXzAzOG0yTTJzMXZudGhJU3hoTk1tMUZnSkFLLWFXYWt5S2lZdjgyWlVnWHlyNzhocU5DNzNsN3YtdTBpYVM3aFFUMDYyU2d3V1FtMDRyRGppNlByM1FuN1NNdU9SeGptbmJYZ0dLQm9RYldCaG9vMzZGWFJ1Nm9JWWFR?oc=5
-· TSM Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLVp4bkQ5MTV6SS0zc3ZKMEFxTmdqR1FvTUxuYkdFdzFXTVRiemowd0REVUZOUG56aWtZcjhtMEFNUDhpeHBvaDVnemkyLTdYclJocFBneGpfMnJCYlJMa2ZQMGp0ejRQNk51bU9UUDFURzhoYWdOR1cwMGdHWXlNM3FBRUZyNV81MWNDYkotOTNFRGszcW5PNG1STUNjWEdlbmJobjJURHQxcWt3ZndyRVdLNHdjTVVoU0laV0U3clhxMGdSZDc1V2huemhMdkY1eGozWW5XRElBMU45TkE?oc=5
-· NVDA Jensen Huang Said Nvidia Now Has "a Lot Greater Visibility" Into Demand, Letting It Forecast a Full Year Ahead for the First Time Ever. Does That Con… (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/jensen-huang-said-nvidia-now-002000270.html
-· MINERIO Fortescue says dispute with China’s CMRG hits iron ore sales (Mining.com) https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/
+· (+14 manchetes; lista completa em eventos/noticias.json)
