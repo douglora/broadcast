@@ -303,6 +303,45 @@ def datas_de_decisao(ini, fim, hoje=None):
     return sorted(datas)
 
 
+def valor_de_mercado(base):
+    """DataFrame(data, cd_cvm, valor_mercado) para as datas de `base`, ou None.
+
+    Acoes (ex-tesouraria) da composicao do capital dos ITR/DFP, com a escala resolvida por
+    companhia, vezes o preco da classe mais liquida da companhia no universo daquela data.
+    Sem isto B/M, EBIT/EV e FCF yield ficam vazios e o sinal de valor se desliga sozinho -
+    foi o estado da primeira rodada real (08/10/2026). Companhia com escala nao decidida
+    fica de fora: valor de mercado ausente e melhor que mil vezes errado.
+    """
+    if base is None or len(base) == 0:
+        return None
+    try:
+        from quant.dados import capital_social as cs, cotahist, identidade
+        from quant import universo as uni_mod
+        from quant.sinais import mapear_empresa
+        cap = cs.carregar()
+        if cap is None or len(cap) == 0:
+            log("valor de mercado: sem capital social no banco (rode python -m quant.dados.capital_social)")
+            return None
+        datas = sorted({pd.Timestamp(d) for d in pd.to_datetime(base["data"]).unique()})
+        cot = cotahist.carregar(datas[0].year - 1, datas[-1].year)
+        ident = identidade.carregar_identidade()
+        uni = uni_mod.universo_pit(cotahist.acoes_a_vista(cot, apenas_lote_padrao=True), identidade=ident)
+        u = mapear_empresa(uni, ident)[["data", "cd_cvm", "preco", "adtv21"]].dropna(subset=["cd_cvm"])
+        u["data"] = pd.to_datetime(u["data"])
+        u = u.sort_values("adtv21").drop_duplicates(["data", "cd_cvm"], keep="last")
+        cap = cs.resolver_escala(cap, painel=base, precos=u)
+        esc = cap.attrs.get("escala") or {}
+        cap = cap[~cap["fonte"].astype(str).str.endswith(":?")]
+        vm = cs.valor_mercado(cs.acoes_em(cap, datas), u[["data", "cd_cvm", "preco"]])
+        log(f"valor de mercado: {vm['cd_cvm'].nunique() if len(vm) else 0} companhias; escala por LPA "
+            f"{esc.get('por_lpa')}, por P/VP {esc.get('por_pvp')}, por piso {esc.get('por_piso')}, "
+            f"em milhares {esc.get('em_milhares')}, sem decisao {esc.get('sem_decisao')}")
+        return vm if len(vm) else None
+    except Exception as e:                                      # o painel nunca cai por causa do valor de mercado
+        log(f"valor de mercado indisponivel ({type(e).__name__}: {e}); o sinal de valor fica sem dado")
+        return None
+
+
 MESES_RECENTE = 18        # janela de datas de decisao do painel recente
 VINTAGES_RECENTE = 10     # ultimos documentos de cada empresa: cobre a janela com folga
 
@@ -354,7 +393,7 @@ def recente(hoje=None, meses=MESES_RECENTE, limite_vintages=VINTAGES_RECENTE):
     if len(base):
         base["data"] = base["data"].map(dict(zip(usadas, datas)))
         base = base[base["data"].notna()].sort_values(["data", "cd_cvm"]).reset_index(drop=True)
-    painel = acrescentar_metricas(base)
+    painel = acrescentar_metricas(base, valor_mercado=valor_de_mercado(base))
     gravar(painel)
     log(f"painel recente: {len(painel)} linhas, {len(cods)} empresas, {len(datas)} datas "
         f"({datas[0].date()} a {datas[-1].date()})")

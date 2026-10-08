@@ -165,6 +165,13 @@ class Leitor:
             preco = _num(c[I_ULT])
             if preco is None or preco <= 0:
                 continue
+            if hora[:5] < ABERTURA:
+                # Antes da abertura qualquer volume e resto da sessao de ontem (aparece com a hora de agora
+                # quando o motor reinicia). Nao serve nem de linha de base: se o volume de hoje passar do de
+                # ontem, a diferenca viraria um negocio que nunca existiu. A base de hoje comeca do zero.
+                self.sem_volume.add(t)
+                self.ultimo.pop(t, None)
+                continue
             self.precos[t] = preco
             fin = _num(c[I_FIN]) if len(c) > I_FIN else None
             if fin is None and len(c) > I_MEDIO and _num(c[I_MEDIO]):
@@ -180,8 +187,6 @@ class Leitor:
             self.visto_em[t] = agora.timestamp()
             if dv <= 0:
                 continue                           # nada novo (ou a sessao recomecou: nova base)
-            if hora[:5] < ABERTURA:
-                continue                           # antes da abertura nao ha negocio: e resto da sessao de ontem
             giro = self.adtv.get(t)
             if giro and (ha_pouco or t in self.sem_volume) and dv * preco > SALTO_FRACAO_ADTV * giro:
                 # Um quarto do giro medio do dia em poucos segundos nao e negocio: e o volume de ONTEM que

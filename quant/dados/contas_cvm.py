@@ -41,7 +41,12 @@ MAPA_CONTAS = {
     "passivo_circulante": {"demo": "BPP", "codigos": ["2.01"], "agregar": "primeiro"},
     "emprestimos_cp": {"demo": "BPP", "codigos": ["2.01.04"], "agregar": "primeiro"},
     "emprestimos_lp": {"demo": "BPP", "codigos": ["2.02.01"], "agregar": "primeiro"},
-    "pl": {"demo": "BPP", "codigos": ["2.03"], "agregar": "primeiro"},
+    # PL: pela DESCRICAO da conta de segundo nivel, e so depois pelo codigo. No plano de contas de
+    # banco o 2.03 e outra coisa (no Itau, passivo financeiro; no BB, provisoes): a primeira rodada
+    # real (08/10/2026) deu PL de R$ 40 bi para o Banco do Brasil e de R$ 2,4 tri para o Itau, com
+    # ROE de 38% e de 2%. O patrimonio liquido deles esta em 2.07 ou 2.08, com o nome certo.
+    "pl": {"demo": "BPP", "descricao_nivel2": ["patrimonio liquido consolidado", "patrimonio liquido"],
+           "codigos": ["2.03"], "agregar": "primeiro"},
     # fluxos (DRE)
     "receita": {"demo": "DRE", "codigos": ["3.01"], "agregar": "primeiro"},
     "lucro_bruto": {"demo": "DRE", "codigos": ["3.03"], "agregar": "primeiro"},
@@ -119,6 +124,13 @@ def extrair(linhas, nome, cd_cvm=None):
     sel = _linhas_da_demo(linhas, r["demo"])
     if sel.empty:
         return float("nan")
+    if "descricao_nivel2" in r:
+        desc = sel["descricao"].map(normalizar_texto)
+        nivel2 = sel["conta"].astype(str).str.fullmatch(r"\d\.\d\d") & sel["valor_reais"].notna()
+        for termo in r["descricao_nivel2"]:
+            m = nivel2 & desc.str.startswith(normalizar_texto(termo))
+            if m.any():
+                return float(sel.loc[m, "valor_reais"].iloc[0])
     if "codigos" in r:
         achados = []
         for cod in r["codigos"]:

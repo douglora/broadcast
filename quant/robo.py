@@ -108,6 +108,8 @@ def preparar(dia=None, repetir=False):
         ("proventos", ["-m", "quant.dados.eventos"] + ([] if segunda else ["--sem-statusinvest"]), 1200),
         ("balancos", ["-m", "quant.dados.cvm_fundamentos", "--anos", f"{ano - 1}-{ano}"], 1800),
         # direto no modulo: `primeira_carga --so cdi` sai com erro quando os OUTROS passos nao rodaram
+        # numero de acoes (composicao do capital dos ITR/DFP ja baixados): alimenta o sinal de valor
+        ("capital", ["-m", "quant.dados.capital_social", "--anos", f"{ano - 3}-{ano}"], 300),
         ("cdi", ["-c", "import sys; from quant.dados import cdi; s = cdi.carregar(permitir_rede=True); "
                        "print(0 if s is None else len(s), 'dias de CDI'); sys.exit(0 if s is not None and len(s) else 1)"], 300),
         ("fundamentos", ["-m", "quant.dados.painel_fundamentos", "--recente"], 900),

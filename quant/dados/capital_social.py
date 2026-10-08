@@ -214,6 +214,169 @@ def valor_mercado(acoes, precos):
 
 
 # ─────────────────────────────────────────────────────────────
+# Composicao do capital nos zips de ITR e DFP (a fonte que existe de verdade)
+# ─────────────────────────────────────────────────────────────
+# A primeira carga real (08/10/2026) mostrou que o zip do FCA NAO traz capital social. Quem
+# traz e o proprio ITR/DFP: `<tipo>_cia_aberta_composicao_capital_<ano>.csv`, com as acoes do
+# capital integralizado e as em tesouraria, por (CNPJ, data de referencia, versao). E melhor
+# que o FCA em tudo: e trimestral (pega recompra e emissao) e tem data de ENTREGA de verdade
+# (DT_RECEB do documento), entao o carimbo point-in-time deixa de ser estimado.
+#
+# A ARMADILHA E A ESCALA. O formulario deixa a companhia informar em unidades ou em milhares, e
+# o CSV nao diz qual: o Banco do Brasil informa 5.730.834.040 (unidades) e a Vale 4.255.763
+# (milhares). `resolver_escala` decide por companhia, com tres evidencias, nesta ordem:
+#   1. lucro liquido / LPA do painel de fundamentos (quando |LPA| >= 0,01): a razao contra a
+#      quantidade informada cai perto de 1 (unidades) ou perto de 1.000 (milhares);
+#   2. preco/valor patrimonial: so uma das duas escalas deixa o P/VP entre 0,1 e 30;
+#   3. piso de valor de mercado: papel do universo liquido nao vale menos de R$ 50 milhoes.
+# Sem evidencia nenhuma fica em unidades e a fonte sai marcada `?`: o valor de mercado dessa
+# companhia nao entra no sinal de valor (melhor ausente do que mil vezes errado).
+ARQ_COMPOSICAO = "{tipo}_cia_aberta_composicao_capital_{ano}.csv"
+ARQ_GERAL = "{tipo}_cia_aberta_{ano}.csv"
+FAIXA_UNIDADE = (0.5, 2.0)
+FAIXA_MILHAR = (500.0, 2000.0)
+PVP_PLAUSIVEL = (0.1, 30.0)
+VALOR_MERCADO_MINIMO = 50e6
+
+
+def ler_composicao(zip_bytes, tipo, ano):
+    """Zip anual do ITR ou do DFP -> DataFrame(COLUNAS) com as acoes EX-TESOURARIA, na escala
+    que a companhia informou (ainda nao resolvida). Uma linha por (cd_cvm, data_ref, versao)."""
+    try:
+        z = zipfile.ZipFile(io.BytesIO(zip_bytes))
+    except zipfile.BadZipFile:
+        return _vazio()
+    tipo = str(tipo).lower()
+    nomes = {n.lower(): n for n in z.namelist()}
+    n_comp = nomes.get(ARQ_COMPOSICAO.format(tipo=tipo, ano=ano))
+    n_geral = nomes.get(ARQ_GERAL.format(tipo=tipo, ano=ano))
+    if not n_comp or not n_geral:
+        return _vazio()
+    comp = identidade._ler_csv_cvm(z.read(n_comp))
+    geral = identidade._ler_csv_cvm(z.read(n_geral))
+    if comp is None or comp.empty or geral is None or geral.empty:
+        return _vazio()
+    chave = ["CNPJ_CIA", "DT_REFER", "VERSAO"]
+    if any(c not in comp.columns for c in chave + ["QT_ACAO_TOTAL_CAP_INTEGR"]) or \
+            any(c not in geral.columns for c in chave + ["CD_CVM", "DT_RECEB"]):
+        return _vazio()
+    j = comp.merge(geral[chave + ["CD_CVM", "DT_RECEB"]].drop_duplicates(chave), on=chave, how="left")
+    total = _num(j["QT_ACAO_TOTAL_CAP_INTEGR"])
+    tes = _num(j["QT_ACAO_TOTAL_TESOURO"]).fillna(0.0) if "QT_ACAO_TOTAL_TESOURO" in j else 0.0
+    out = pd.DataFrame({
+        "cd_cvm": pd.to_numeric(j["CD_CVM"], errors="coerce").astype("Int64"),
+        "cnpj": j["CNPJ_CIA"].map(identidade.cnpj_limpo),
+        "data_ref": j["DT_REFER"].map(identidade.data_cvm),
+        "disponivel_em": j["DT_RECEB"].map(identidade.data_cvm),
+        "versao": pd.to_numeric(j["VERSAO"], errors="coerce").fillna(1).astype(int),
+        "tipo": "integralizado",
+        "acoes_on": _num(j["QT_ACAO_ORDIN_CAP_INTEGR"]) if "QT_ACAO_ORDIN_CAP_INTEGR" in j else np.nan,
+        "acoes_pn": _num(j["QT_ACAO_PREF_CAP_INTEGR"]) if "QT_ACAO_PREF_CAP_INTEGR" in j else np.nan,
+        "acoes_total": total - tes,
+        "capital": np.nan,
+        "fonte": tipo,
+    })
+    out = out[out["cd_cvm"].notna() & out["data_ref"].notna() & out["disponivel_em"].notna()
+              & (out["acoes_total"] > 0)]
+    return out[COLUNAS].sort_values(["cd_cvm", "data_ref", "versao"]).reset_index(drop=True)
+
+
+def atualizar_de_demonstracoes(anos, tipos=("DFP", "ITR")):
+    """Le a composicao do capital dos zips de ITR/DFP que `cvm_fundamentos` ja baixou.
+    Nenhum download novo. Devolve a tabela (escala ainda como informada) e grava o parquet."""
+    from quant.dados import cvm_fundamentos as cf
+    partes = []
+    for ano in anos:
+        for tipo in tipos:
+            caminho = cf.caminho_bruto(tipo, ano)
+            if not os.path.exists(caminho):
+                continue
+            try:
+                with open(caminho, "rb") as f:
+                    df = ler_composicao(f.read(), tipo, ano)
+            except Exception as e:
+                log(f"capital {tipo} {ano}: leitura falhou ({type(e).__name__}: {e})")
+                continue
+            if len(df):
+                partes.append(df)
+    if not partes:
+        return _vazio()
+    todo = pd.concat(partes, ignore_index=True)
+    todo = (todo.sort_values(["cd_cvm", "data_ref", "versao", "disponivel_em"])
+                .drop_duplicates(["cd_cvm", "data_ref", "versao"], keep="last").reset_index(drop=True))
+    gravar(todo)
+    return todo
+
+
+def resolver_escala(capital, painel=None, precos=None):
+    """Poe `acoes_total` em UNIDADES, companhia a companhia. Ver o comentario do bloco.
+
+    painel: painel de fundamentos (data, cd_cvm, lucro_liquido, lpa, pl). precos:
+    DataFrame(data, cd_cvm, preco). Devolve copia do capital com `acoes_total` (e ON/PN)
+    multiplicadas por 1 ou 1.000 e `fonte` acrescida de `:lpa`, `:pvp`, `:piso` (como a
+    escala foi decidida) ou `:?` (nao decidida; fica como informada).
+    """
+    if capital is None or len(capital) == 0:
+        return _vazio()
+    cap = capital.copy()
+    cap["cd_cvm"] = pd.to_numeric(cap["cd_cvm"], errors="coerce").astype("Int64")
+    ult = cap.sort_values(["cd_cvm", "disponivel_em", "versao"]).groupby("cd_cvm").tail(1).set_index("cd_cvm")
+    q = ult["acoes_total"].astype(float)
+    decisao = {}                                   # cd_cvm -> (fator, como)
+    # 1) lucro / LPA
+    if painel is not None and len(painel) and {"cd_cvm", "lucro_liquido", "lpa"} <= set(painel.columns):
+        p = painel[["data", "cd_cvm", "lucro_liquido", "lpa"]].dropna()
+        p = p[(p["lpa"].abs() >= 0.01) & (np.sign(p["lucro_liquido"]) == np.sign(p["lpa"]))]
+        if len(p):
+            p = p.assign(cd_cvm=pd.to_numeric(p["cd_cvm"], errors="coerce").astype("Int64"),
+                         por_lpa=p["lucro_liquido"] / p["lpa"])
+            for cod, g in p.groupby("cd_cvm"):
+                if cod not in q.index or not q[cod] > 0:
+                    continue
+                r = (g["por_lpa"] / q[cod]).astype(float)
+                un = int(((r >= FAIXA_UNIDADE[0]) & (r <= FAIXA_UNIDADE[1])).sum())
+                mil = int(((r >= FAIXA_MILHAR[0]) & (r <= FAIXA_MILHAR[1])).sum())
+                if un > mil:
+                    decisao[int(cod)] = (1.0, "lpa")
+                elif mil > un:
+                    decisao[int(cod)] = (1000.0, "lpa")
+    # 2 e 3) preco: P/VP plausivel, depois piso de valor de mercado
+    if precos is not None and len(precos):
+        pr = precos.copy()
+        pr["cd_cvm"] = pd.to_numeric(pr["cd_cvm"], errors="coerce").astype("Int64")
+        pr = pr.sort_values("data").groupby("cd_cvm").tail(1).set_index("cd_cvm")["preco"].astype(float)
+        pl = None
+        if painel is not None and len(painel) and "pl" in painel:
+            pp = painel[["data", "cd_cvm", "pl"]].dropna()
+            pp = pp.assign(cd_cvm=pd.to_numeric(pp["cd_cvm"], errors="coerce").astype("Int64"))
+            pl = pp.sort_values("data").groupby("cd_cvm").tail(1).set_index("cd_cvm")["pl"].astype(float)
+        for cod in q.index:
+            if int(cod) in decisao or cod not in pr.index or not (q[cod] > 0 and pr[cod] > 0):
+                continue
+            vm1 = q[cod] * pr[cod]
+            if pl is not None and cod in pl.index and pl[cod] > 0:
+                ok1 = PVP_PLAUSIVEL[0] <= vm1 / pl[cod] <= PVP_PLAUSIVEL[1]
+                ok2 = PVP_PLAUSIVEL[0] <= vm1 * 1000.0 / pl[cod] <= PVP_PLAUSIVEL[1]
+                if ok1 != ok2:
+                    decisao[int(cod)] = (1.0 if ok1 else 1000.0, "pvp")
+                    continue
+            if vm1 < VALOR_MERCADO_MINIMO:
+                decisao[int(cod)] = (1000.0, "piso")
+    fator = cap["cd_cvm"].map(lambda c: decisao.get(int(c), (1.0, "?"))[0] if pd.notna(c) else 1.0)
+    como = cap["cd_cvm"].map(lambda c: decisao.get(int(c), (1.0, "?"))[1] if pd.notna(c) else "?")
+    for c in ("acoes_on", "acoes_pn", "acoes_total"):
+        cap[c] = cap[c].astype(float) * fator.astype(float)
+    cap["fonte"] = cap["fonte"].astype(str) + ":" + como.astype(str)
+    cap.attrs["escala"] = {"companhias": int(len(q)),
+                           "por_lpa": sum(1 for v in decisao.values() if v[1] == "lpa"),
+                           "por_pvp": sum(1 for v in decisao.values() if v[1] == "pvp"),
+                           "por_piso": sum(1 for v in decisao.values() if v[1] == "piso"),
+                           "em_milhares": sum(1 for v in decisao.values() if v[0] == 1000.0),
+                           "sem_decisao": int(len(q)) - len(decisao)}
+    return cap
+
+
+# ─────────────────────────────────────────────────────────────
 # Download e banco
 # ─────────────────────────────────────────────────────────────
 def extrair_csv(zip_bytes, ano=None):
@@ -293,7 +456,9 @@ def main(argv=None):
     ap.add_argument("--anos", default=f"2010-{date.today().year}")
     ap.add_argument("--forcar", action="store_true")
     args = ap.parse_args(argv)
-    df = atualizar(_anos(args.anos), forcar=args.forcar)
+    df = atualizar_de_demonstracoes(_anos(args.anos))
+    if df.empty:
+        df = atualizar(_anos(args.anos), forcar=args.forcar)      # caminho antigo (FCA), por via das duvidas
     if df.empty:
         print("nenhum capital social lido; o sinal de valor vai depender da reserva por LPA")
         return 1
