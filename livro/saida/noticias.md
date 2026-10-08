@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 14h53
+NOTÍCIAS E FATOS · 08/10 15h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 451 veículo fora da lista, 50 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 11 novas (18 consultas; descartadas: 456 veículo fora da lista, 46 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -166,8 +166,19 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (89)
+## OUTRAS NOTÍCIAS (só manchete) (100)
 
+· NVDA Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC) https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html
+· BTC Bitcoin price news: BTC falls to $80,000 nearly one year after October 2025 crash (CoinDesk) https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears
+· UST Strong 30-Year Treasury Auction Shows That Bidders Remain Hungry for Bonds (Barron's) https://www.barrons.com/articles/strong-30-year-treasury-auction-shows-that-bidders-remain-hungry-for-bonds-6f69724a
+· MRVL Marvell: The Trillion-Dollar Math Comes With A Catch (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952870-marvell-the-trillion-dollar-math-comes-with-a-catch-rating-downgrade?utm_source=marketbeat.com&utm_medium=referral&feed_item_type=article?source=MarketBeat
+· MINERIO Dalian iron ore hits 18-month low as thin steel margins dim demand prospects (Mining.com) https://www.mining.com/web/dalian-iron-ore-hits-18-month-low-as-thin-steel-margins-dim-demand-prospects/
+· BTC Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto Liquidation Wave: Crypto Stocks Fall With AI Infrastructure Plays (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:75803f324094b:0-bitcoin-drops-below-81k-triggering-nearly-1b-crypto-liquidation-wave-crypto-stocks-fall-with-ai-infrastructure-plays/
+· JPM JPMorgan Chase & Co. (JPM) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/JPM/
+· JPM JPMorgan's Shares Before Q3 Earnings: Buy Now or Wait for Results? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:98923f00a094b:0-jpmorgan-s-shares-before-q3-earnings-buy-now-or-wait-for-results/
+· UST Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction (CNBC) https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html
+· GOOGL On Establishes Google Cloud as Enterprise AI Backbone, Beginning with Agent-Led Cloud Migration (PR Newswire) https://www.prnewswire.com/news-releases/on-establishes-google-cloud-as-enterprise-ai-backbone-beginning-with-agent-led-cloud-migration-302902072.html
+· CVX Hess Midstream: When It Rains It Pours And This Time Chevron Is Raining On Shareholders (NYSE:HESM) (Seeking Alpha) https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbFAzS18xWWpSOEdTcXVHMDM4MC1sQ0wtcjJLQndvV2xvMFZaZHZMcEFRN2VuLTB1YWxIT3JFckdKOV9ZQTlLZ2lMbW5KTWhqTkh0bkVONjRCSHJidFYwYUFnT2NfWWNaS3hQMzZOQkRVd081cjVWOWFYY3l4NFUzTE41aHU4VWFSVnMwdkdUNVd2cDJNa3BodjQ4Q0lrZFBuWGp1OFFwUFNWeFgzMC12UjdJVFV2VmJKbWJQbUtidW92dzZjVndHSTZsd1UtakpqLWJmTVpGMThGTmQtSy1FSlBjc1ZYZFNKT1FGUWl6Wl8?oc=5
 · TSLA General Motors vs. Tesla: What Revenue Growth Trends Tell Investors About These Automotive Giants (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/general-motors-vs-tesla-revenue-172509994.html
 · GOOGL Southlight Services Announces Our Strategic Collaboration with Google to Deliver Google Voice Carrier Link Across North America (Yahoo Finance) https://finance.yahoo.com/small-business/articles/southlight-services-announces-strategic-collaboration-172400916.html
 · INTC Intel (INTC): Buy, Sell, or Hold Post Q2 Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-buy-sell-hold-172009957.html
@@ -217,15 +228,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · GOOGL Alphabet’s Google Cloud Strategy Is Entering A New Phase (NASDAQ:GOOG) (Seeking Alpha) https://seekingalpha.com/article/4952790-alphabets-google-cloud-strategy-is-entering-a-new-phase
 · USDBRL Real sobe 10,19% frente ao dólar; 3ª maior valorização desde 2010 (Poder360) https://www.poder360.com.br/poder-economia/real-sobe-1019-frente-ao-dolar-3a-maior-valorizacao-desde-2010/
 · AVGO Broadcom Is Financing Its AI Moat (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952775-broadcom-is-financing-its-ai-moat
-· TSM TSMC Stock: Global Chip Demand Shows No Signs Of Slowing (NYSE:TSM) (Seeking Alpha) https://seekingalpha.com/article/4952778-tsmc-global-chip-demand-shows-no-signs-of-slowing
-· UGPA3 Após alta de 70%, Morgan Stanley rebaixa Vibra e Ultrapar: “precificadas à perfeição” (InfoMoney) https://www.infomoney.com.br/mercados/apos-alta-de-70-morgan-stanley-rebaixa-vibra-e-ultrapar-precificadas-a-perfeicao/
-· GOOGL Alphabet Stocks Drop Although TPU Sales Escape Google's Cloud (Yahoo Finance) https://uk.finance.yahoo.com/news/alphabet-stocks-drop-although-tpu-131342768.html
-· MU Micron’s Quarterly NAND Revenue Jumped 526%. Here’s Where the Stock Could Go by 2031 (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/micron-quarterly-nand-revenue-jumped-130607262.html
-· MRVL Marvell to Showcase Open AI Infrastructure Solutions at OCP Global Summit 2026 (Business Wire) https://www.businesswire.com/news/home/20261008676830/en/Marvell-to-Showcase-Open-AI-Infrastructure-Solutions-at-OCP-Global-Summit-2026
-· CVX Chevron Stocks Slip as Storm Evacuations Test Gulf Output (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:5386a57a9094b:0-chevron-stocks-slip-as-storm-evacuations-test-gulf-output/
-· MRVL Marvell Stock Just Got a Stunning Price Target Hike on the AI Boom (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0dd47febb094b:0-marvell-stock-just-got-a-stunning-price-target-hike-on-the-ai-boom/
-· NVDA Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:1be9c117a094b:0-samsung-s-80b-quarterly-profit-tops-nvidia-amd-s-lisa-su-shops-in-seoul/
-· GOOGL Alphabet Stocks Drop Although TPU Sales Escape Google's Cloud (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:7df360ef7094b:0-alphabet-stocks-drop-although-tpu-sales-escape-google-s-cloud/
-· GOOGL Alphabet shares rise as Google pushes Gemini deeper into enterprise AI (Yahoo Finance) https://uk.finance.yahoo.com/news/alphabet-shares-rise-google-pushes-131122567.html
-· BRENT Prefixados do Tesouro sobem em dia de alta do petróleo e dos juros globais (InfoMoney) https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-08102026/
-· (+29 manchetes; lista completa em eventos/noticias.json)
+· (+40 manchetes; lista completa em eventos/noticias.json)
