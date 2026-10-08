@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 13h21
+NOTÍCIAS E FATOS · 08/10 14h22
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 439 veículo fora da lista, 50 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 454 veículo fora da lista, 44 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
 
@@ -55,7 +55,7 @@ Por que importa: mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais
 Ativos: BTC
 Como falar: 'saiu no TradingView (Reuters): TD Cowen raises Bitcoin price target to $280,000 by 2029; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 08/10 12h17
-id: E05-BTC-5e96908bfd-2026-10-08 · status: pendente
+id: E05-BTC-5e96908bfd-2026-10-08 · status: entregue
 
 [ATENÇÃO] E05 · MRVL · Marvell Technology's AI Bet: Path To $90B In Revenue By 2031 (NASDAQ:MRVL)
 Seeking Alpha · 08/10 09h31 · fonte única · licença: manchete
@@ -166,8 +166,15 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (74)
+## OUTRAS NOTÍCIAS (só manchete) (81)
 
+· PETR4 Petrobras amplia portfólio exploratório com 21 blocos em leilões da ANP, e mira recomposição de reservas (ADVFN) https://br.advfn.com/jornal/2026/10/petrobras-amplia-portfolio-exploratorio-com-21-blocos-em-leiloes-da-anp-e-mira-recomposicao-de-reservas
+· GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (CNBC) https://www.cnbc.com/amp/2026/10/08/google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up.html
+· MRVL Marvell: The Easy Money Is Already Over (Downgrade) (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952807-marvell-the-easy-money-is-already-over-downgrade
+· MU Micron's DRAM Sales Reach $40B: Can AI Demand Drive Growth? (Yahoo Finance) https://ca.finance.yahoo.com/news/microns-dram-sales-reach-40b-125800292.html
+· PLTR What Is Going on With Palantir Tech Stock on Thursday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b31bfbaa6094b:0
+· TSM TSMC Reports 55% Growth in September Revenue (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-reports-55-growth-september-074426463.html
+· UST Brisk $39 Billion Treasury Auction Offers Bond Market Breather (Yahoo Finance) https://finance.yahoo.com/markets/articles/brisk-39-billion-treasury-auction-040100583.html
 · LITE Optics Stocks Tumble as Profit Taking Cuts Into Big Yearly Gains: Applied Optoelectronics Drops 9%, Coherent Falls 5%, Lumentum Slides 4% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-profit-taking-160031296.html
 · MU Nvidia: Micron Just Gave It Away (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952776-nvidia-micron-just-gave-it-away
 · CVX Chevron's Refining Strength, Higher Crude Prices Lift EPS Outlook, UBS Says (Yahoo Finance) https://finance.yahoo.com/energy/articles/chevron-apos-refining-strength-higher-155708368.html
@@ -221,11 +228,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · USDBRL Dólar sobe à espera de nova pesquisa eleitoral no Brasil (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-8-outubro-2026/
 · USDBRL Dólar sobe levemente entre cautela externa e cenário eleitoral (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/08/dolar-sobe-levemente-entre-cautela-externa-e-cenario-eleitoral.htm
 · AMZN AWS pricing team turns 18-tab Excel model into an AI chatbot to evaluate customer deals, CFO says (Fortune) https://fortune.com/2026/10/08/aws-pricing-team-18-tab-excel-model-into-ai-chatbot-evaluate-customer-deals-cfo/
-· PLTR Palantir Stocks Rise With Ives's 2027 AI Endorsement (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:93c0ea70e094b:0-palantir-stocks-rise-with-ives-s-2027-ai-endorsement/
-· MINERIO Oceanic Iron Ore CEO Chris Batalha Talks About The Demand for Green Steel (TradingView (Reuters)) https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRVlHQm1IdWsydHJySDBYQkJfVnpEYXBZeFR2UV9pNTBUVzRBVWFxSDNrRUIzSFg4a2Z0TWNIeUF2dEpXeXNUTTlFVmhPVTBKcWp0dDBfQ21rbzBWNlA3cGlkdnJudDJiQW1KeEloYmdjTWZzSnpneHh1Q2kzYUJpRFJwS1R4XzkzZ0hEUFEtaUIzaF9vM1ZqMFpmYzV3QXVWSUtOUlhzVmktS2ZLVXNid0FwSjNUWDVzTDB5aC1HVEtaWWhUQzZtU05RampibFdCbTJlc3FycFpkVFRsNWhQWEJ4SQ?oc=5
-· BTC Is the Bitcoin Bottom Already In at $57,000? (Yahoo Finance) https://news.google.com/rss/articles/CBMimgFBVV95cUxPVWZIZ21oVVNaemZtTVFSOWhQT2QwbVJKR01NRHZ1aTBraEVNYTdtYmhvR0xFaVVWS21qeEQyVVlWYXZyWl9tZ0lOb1RzLWxqUGV0ZnZqc0ZvZWJQRUI4UVliYnkzcTFIa05wV204cTRvOVR0djRKcDgxWHZhdll1WjFEMHpyVTlOSThzb0Q1TUJFXzZlVllYOVhn?oc=5
-· USDBRL Ibovespa futuro opera estável e dólar sobe com 'cabo de guerra' entre humor externo e 'trade Flávio' (Money Times) https://news.google.com/rss/articles/CBMia0FVX3lxTFBjb2xqSVUxbC02eExWTVY4MnZDNkxwdWFNa0RVY0JVT3NXU2d3NjQwTGc2OHNreXhqbnRKRkdqajd6NXF5eXp1WmVwWkZENDhlaEJWZklRV21tamRTRF9UU1ppRnZDUU5Nc3RR?oc=5
-· BTC Q&A: Bitcoin Funds Are Expanding. HANetf’s Co-CEO Explains Why (The Wall Street Journal) https://www.wsj.com/finance/currencies/q-a-bitcoin-funds-are-expanding-hanetfs-co-ceo-explains-why-3edb2398
-· VALE3 Na cidade onde nasceu a Vale, ele construiu um negócio de R$ 1,8 bilhão bem longe do minério (Exame) https://exame.com/negocios/na-cidade-onde-nasceu-a-vale-ele-construiu-um-negocio-de-r-18-bilhao-bem-longe-do-minerio/
-· BTC Bitcoin ETFs bleed nearly $500 million in one day: Crypto Daily (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months
-· (+14 manchetes; lista completa em eventos/noticias.json)
+· (+21 manchetes; lista completa em eventos/noticias.json)
