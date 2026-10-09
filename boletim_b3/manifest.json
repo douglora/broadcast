@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-09T11:51:48Z",
+ "gerado_em": "2026-10-09T17:32:17Z",
  "cliente_http": "curl_cffi",
  "livro": [
   "EQTL3",
@@ -27,7 +27,7 @@
    "completo": true,
    "faltam": [],
    "boletim": "publicado",
-   "sinais": 27,
+   "sinais": 24,
    "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
@@ -56,15 +56,13 @@
     }
    },
    "falhas": {},
-   "segundos": 311
+   "segundos": 425
   },
   "2026-10-08": {
-   "completo": false,
-   "faltam": [
-    "BTBLendingOpenPosition"
-   ],
+   "completo": true,
+   "faltam": [],
    "boletim": "publicado",
-   "sinais": 21,
+   "sinais": 28,
    "tabelas": 47,
    "arquivos": [
     "DerivativesOpenPosition",
@@ -73,7 +71,7 @@
     "TradeInformationConsolidatedAfterHours"
    ],
    "rf_cadastro": {
-    "papeis_no_dia": 1573,
+    "papeis_no_dia": 1559,
     "consultados": 0,
     "achados": 0,
     "sem_cadastro": 0,
@@ -93,10 +91,12 @@
     }
    },
    "falhas": {},
-   "segundos": 33
+   "segundos": 24
   }
  },
- "falhas": [],
+ "falhas": [
+  "posicoes em aberto de 2026-10-06: arquivo DerivativesOpenPosition: download HTTP 401"
+ ],
  "versao": 2,
  "ultimo_pregao": "2026-10-08"
 }

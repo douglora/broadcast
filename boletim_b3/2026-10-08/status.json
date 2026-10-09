@@ -42,11 +42,11 @@
    "id": 2,
    "nome": "Indicadores e informativos",
    "pai": 20,
-   "situacao": "republicado",
-   "errata": true,
-   "atualizado_em": "2026-10-09T08:52:58.143",
-   "arquivo": "",
-   "pdf": ""
+   "situacao": "publicado",
+   "errata": false,
+   "atualizado_em": "2026-10-09T11:08:01.313",
+   "arquivo": "BDI_02_20261008.pdf",
+   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-08/BDI_02_20261008.pdf"
   },
   {
    "id": 23,
@@ -84,7 +84,7 @@
    "pai": 3,
    "situacao": "",
    "errata": false,
-   "atualizado_em": "2026-10-09T08:50:38.723",
+   "atualizado_em": "2026-10-09T14:35:38.09",
    "arquivo": "",
    "pdf": ""
   },
@@ -102,11 +102,11 @@
    "id": 42,
    "nome": "Empréstimos de ativos",
    "pai": 4,
-   "situacao": "republicado",
-   "errata": false,
-   "atualizado_em": "2026-10-09T08:05:39.353",
-   "arquivo": "BDI_04-2_20261008.pdf",
-   "pdf": "https://arquivos.b3.com.br/bdi/download/bdi/2026-10-08/BDI_04-2_20261008.pdf"
+   "situacao": "publicado",
+   "errata": true,
+   "atualizado_em": "2026-10-09T10:13:49.307",
+   "arquivo": "",
+   "pdf": ""
   },
   {
    "id": 43,
