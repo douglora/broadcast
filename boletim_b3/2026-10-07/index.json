@@ -1,12 +1,20 @@
 {
  "pregao": "2026-10-07",
- "coletado_em": "2026-10-09T00:52:57Z",
+ "coletado_em": "2026-10-09T06:39:48Z",
  "tabelas": {
   "SharesInvesVolum": {
    "titulo": "Participação dos investidores",
    "situacao": "republicado",
    "atualizado_em": "2026-10-07T17:42:53.62",
    "sla": "20:00:00",
+   "linhas": 5,
+   "truncada": false
+  },
+  "SharesInvesVolumMonthly": {
+   "titulo": "Participação dos investidores mensal",
+   "situacao": "publicado",
+   "atualizado_em": "2026-10-07T00:00:00",
+   "sla": null,
    "linhas": 5,
    "truncada": false
   },
@@ -378,6 +386,18 @@
    "linhas": 84369,
    "estado": "Final"
   },
+  "TradeInformationConsolidatedAfterHours": {
+   "arquivo": "TradeInformationConsolidatedAfterHoursFile_20261007_1",
+   "bytes": 54162,
+   "linhas": 857,
+   "estado": "Final"
+  },
+  "InstrumentsConsolidated": {
+   "arquivo": "InstrumentsConsolidatedFile_20261007_1",
+   "bytes": 20660861,
+   "linhas": 91674,
+   "estado": "Final"
+  },
   "DerivativesOpenPosition": {
    "arquivo": "DerivativesOpenPositionFile_20261007_1",
    "bytes": 3772761,
@@ -385,11 +405,7 @@
    "estado": null
   }
  },
- "falhas": {
-  "SharesInvesVolumMonthly": "HTTP 0 em https://arquivos.b3.com.br/bdi/table/SharesInvesVolumMonthly/2026-10-07/2026-10-",
-  "TradeInformationConsolidatedAfterHours": "arquivo TradeInformationConsolidatedAfterHours: download HTTP 401",
-  "InstrumentsConsolidated": "arquivo InstrumentsConsolidated: download HTTP 401"
- },
+ "falhas": {},
  "rf_cadastro": {
   "papeis_no_dia": 1699,
   "consultados": 0,
@@ -397,7 +413,7 @@
   "sem_cadastro": 0,
   "erros": 0,
   "ficaram_para_depois": 0,
-  "no_cache": 3402
+  "no_cache": 3427
  },
  "anbima": {
   "situacao": "publicado",

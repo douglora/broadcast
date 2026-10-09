@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-07",
+ "pregao": "2026-10-08",
  "nome": "OTCInventoryCCP",
  "titulo": "Estoque com CCP",
  "sla": "8:00:00",
@@ -7,11 +7,11 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Instrumento financeiro"}, {"nome": "TradQty", "titulo": "Quantidade contratos"}, {"nome": "FinancialVol", "titulo": "Volume financeiro (R$)"}],
  "texto": ["Transações liquidadas por meio de uma Câmara de Compensação Central (CCP), que atua como intermediária. Os detalhes sobre as regras utilizadas, bem como a definição de cada um dos campos, estão disponíveis no <a href=\"https://www.b3.com.br/data/files/70/F3/F6/C4/73E609105FE89209AC094EA8/Glossario%20do%20BDI_v3.pdf\">Glossário</a>."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-08T01:12:32.677",
+ "atualizado_em": "2026-10-09T01:12:45.26",
  "truncada": false,
  "linhas": [
-  ["Opção", 530175, 93870717790.78],
-  ["Swap", 16575, 43700426559.05],
+  ["Opção", 529476, 93884210816],
+  ["Swap", 16261, 43651682332.44],
   ["Termo", 131, 906158652.27]
  ]
 }

@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-07",
+ "pregao": "2026-10-08",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-07T23:30:49.483",
+ "atualizado_em": "2026-10-08T23:30:27.323",
  "truncada": false,
  "linhas": [
-  ["NATU3", "ON      NM", 7.35, -9.03],
-  ["EMBJ3", "ON      NM", 89.34, -5.1],
-  ["HAPV3", "ON      NM", 8.52, -4.59],
-  ["ASAI3", "ON      NM", 12.07, -4.43],
-  ["BBDC4", "PN  EJ  N1", 21.96, -3.68],
-  ["BBDC3", "ON  EJ  N1", 19.29, -3.5],
-  ["CYRE3", "ON      NM", 33, -3.45],
-  ["ITSA4", "PN      N1", 16, -3.26],
-  ["ITUB4", "PN  EJ  N1", 49.11, -2.65],
-  ["BPAC11", "UNT     N2", 76.64, -2.51]
+  ["BEEF3", "ON      NM", 4.42, -3.91],
+  ["TEND3", "ON      NM", 29.49, -2.54],
+  ["CURY3", "ON      NM", 31.48, -2.44],
+  ["HYPE3", "ON  EJ  NM", 26.7, -2.26],
+  ["GOAU4", "PN      N1", 11.2, -2.09],
+  ["BBDC4", "PN  EJ  N1", 21.51, -2.04],
+  ["BRAP4", "PN      N1", 20.67, -1.8],
+  ["BBDC3", "ON  EJ  N1", 18.95, -1.76],
+  ["GGBR4", "PN      N1", 24.77, -1.74],
+  ["VALE3", "ON      NM", 67.64, -1.61]
  ]
 }
