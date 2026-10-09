@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 15h21
+NOTÍCIAS E FATOS · 09/10 15h44
 
-Pernas: noticias ok 13 novas (18 consultas; descartadas: 443 veículo fora da lista, 49 sem ativo, 8 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 8 novas (18 consultas; descartadas: 445 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -107,8 +107,16 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (94)
+## OUTRAS NOTÍCIAS (só manchete) (102)
 
+· MU Micron: Even If Memory Prices Fall 15%, It May Still Be Undervalued (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953146-micron-even-if-memory-prices-fall-15-percent-it-may-still-be-undervalued
+· AMD AMD Stocks Slide Lower Despite Street-High $800 AI Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1c4122e99094b:0-amd-stocks-slide-lower-despite-street-high-800-ai-target/
+· TSM TSMC Stocks Fall Despite 55% September Sales Surge (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6011c3487094b:0-tsmc-stocks-fall-despite-55-september-sales-surge/
+· PLTR Palantir Stocks Rise 2.4% as Goldman Backs Sovereign AI (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:aef245264094b:0-palantir-stocks-rise-2-4-as-goldman-backs-sovereign-ai/
+· BTC Hedge funds cut Bitcoin, brokerages load up in Q2: CoinShares report (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:5a278b51f094b:0-hedge-funds-cut-bitcoin-brokerages-load-up-in-q2-coinshares-report/
+· GOOGL Google Wants Gemini to Do the Work (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:aed05be03094b:0-google-wants-gemini-to-do-the-work/
+· MU Nvidia and Micron are about to lord their successes all over Wall Street (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-micron-lord-successes-over-163700727.html
+· PETR4 Sachsida diz que Flávio Bolsonaro não vai privatizar a Petrobras (eixos) https://eixos.com.br/politica/eleicoes/eleicoes-2026/sachsida-diz-que-flavio-bolsonaro-nao-vai-privatizar-a-petrobras/
 · BTC Hedge funds cut Bitcoin, brokerages load up in Q2: CoinShares report (Seeking Alpha) https://seekingalpha.com/news/4651832-hedge-funds-cut-bitcoin-brokerages-load-up-in-q2-coinshares-report
 · LITE Lumentum stock holds Outperform at Evercore on AI demand outlook (Investing.com) https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510
 · BBDC4 JPMorgan e UBS ficam mais otimistas com Bradesco após reestruturação (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/09/jpmorgan-e-ubs-ficam-mais-otimistas-com-bradesco-apos-reestruturacao.htm
@@ -161,12 +169,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · USDBRL Ibovespa sobe e fica perto dos 210 mil pontos; dólar cai abaixo de R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-fica-perto-dos-210-mil-pontos-dolar-cai-abaixo-de-r-5/
 · DI Inflação acima do esperado ameaça os cortes da Selic? Economistas avaliam o que muda para o BC (Money Times) https://www.moneytimes.com.br/inflacao-acima-do-esperado-ameaca-os-cortes-da-selic-economistas-avaliam-o-que-muda-para-o-bc-jcav/
 · USDBRL “Com ou sem dólar”: o que muda ao investir no S&P 500 pela B3 (Suno Noticias) https://www.suno.com.br/noticias/dolar-sp-500-etfs-xp-gss/
-· BTC CleanSpark Still Has 13K Bitcoin On Its Books, But It's Ending Its Monthly Updates As Data Center Buildout Accelerates (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:eca6731ca094b:0-cleanspark-still-has-13k-bitcoin-on-its-books-but-it-s-ending-its-monthly-updates-as-data-center-buildout-accelerates/
-· LITE Lumentum, Coherent Stocks Jump After CEO Warns AI Components Sold Out Through 2029 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:96bdcf810094b:0-lumentum-coherent-stocks-jump-after-ceo-warns-ai-components-sold-out-through-2029/
-· MU Nvidia and Micron stocks bounce on OpenAI $70B revenue target (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-micron-stocks-bounce-openai-133435783.html
-· AMD Can Advanced Micro Devices’ (AMD) Helios Racks Justify its Forward P/E? (Yahoo Finance) https://uk.finance.yahoo.com/news/advanced-micro-devices-amd-helios-132800060.html
-· BTC Bitcoin Rebounds From Near $80K After Trump Rules Out Iran Strikes — Analyst Eyes $205K (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-rebounds-near-80k-trump-131715054.html
-· TSM Taiwan Semiconductor's strong Q3 sales a positive sign for Q4, Wedbush says (TSM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4651740-taiwan-semiconductors-strong-q3-sales-a-positive-sign-for-q4-wedbush-says
-· BTC Fidelity Adds $438 Million of Bitcoin, Ethereum and Solana to Its Holdings (TradingView (Reuters)) https://www.tradingview.com/news/u_today:172b01a14094b:0-fidelity-adds-438-million-of-bitcoin-ethereum-and-solana-to-its-holdings/
-· ETH The XRP Ledger Surpasses Ethereum in a Key Area. What Does This Mean for the XRP Price? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/xrp-ledger-surpasses-ethereum-key-120051993.html
-· (+34 manchetes; lista completa em eventos/noticias.json)
+· (+42 manchetes; lista completa em eventos/noticias.json)
