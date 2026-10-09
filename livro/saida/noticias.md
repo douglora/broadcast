@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 17h31
+NOTÍCIAS E FATOS · 09/10 18h12
 
-Pernas: noticias ok 2 novas (18 consultas; descartadas: 450 veículo fora da lista, 51 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 453 veículo fora da lista, 53 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,32 @@ Fonte: SEC EDGAR 2026-10-09
 id: E04-MU-26000023-2026-10-09 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (8)
+## NOTÍCIAS COM MATERIALIDADE (10)
+
+[ATENÇÃO] E05 · USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5
+Money Times · 09/10 17h31 · fonte única · licença: integral
+Do texto:
+  – Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5 O Ibovespa (IBOV) estendeu os ganhos da véspera com o ‘trade Flávio’ e a melhora do humor externo,…
+  – Nesta sexta-feira (9), o principal índice da bolsa brasileira terminou as negociações com alta de 1,38%, aos 209.066,90 pontos, em novo recorde nominal de fechamento.
+  – Durante o pregão, o IBOV também renovou máxima histórica, aos 209.713,45 pontos (+1,69%).
+  – Na semana, o índice acumulou valorização de 8,82%, melhor desempenho semanal desde março de 2020.
+  – Já o dólar à vista encerrou as negociações a R$ 4,9851, com queda de 0,78%.
+  – No acumulado dos últimos cinco dias, a moeda recuou 4,44% ante o real.
+Link: https://www.moneytimes.com.br/ibovespa-9-10-26-lils/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no Money Times: Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno;…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 09/10 17h31
+id: E05-USDBRL-14b1d6a48e-2026-10-09 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
+TradingView (Reuters) · 09/10 17h24 · + Investing.com · licença: manchete
+Link: https://www.tradingview.com/news/reuters.com,2026:newsml_TUABSRGDH:0-coca-cola-consolidated-announces-fourth-quarter-dividend/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no TradingView (Reuters): Coca-Cola Consolidated Announces Fourth Quarter Dividend; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/10 17h24
+id: E05-KO-36a8a0b554-2026-10-09 · status: pendente
 
 [ATENÇÃO] E05 · KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
 Investing.com · 09/10 17h24 · fonte única · licença: manchete
@@ -23,7 +48,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no Investing.com: Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com; confirmar o número no texto antes de repassar'
 Fonte: Investing.com 09/10 17h24
-id: E05-KO-c6efed8be1-2026-10-09 · status: pendente
+id: E05-KO-c6efed8be1-2026-10-09 · status: expirado
 
 [ATENÇÃO] E05 · USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'; dólar cai
 Money Times · 09/10 10h17 · fonte única · licença: integral
@@ -116,8 +141,13 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (122)
+## OUTRAS NOTÍCIAS (só manchete) (127)
 
+· USDBRL Dólar cai com pesquisas eleitorais e acumula baixa de 4,44% na semana, diante do real (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-pesquisas-eleitorais-e-acumula-baixa-de-4-44-na-semana-diante-do-real
+· BABA Alibaba's Earnings Turn May Be Underpriced (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:29019dc8e094b:0-alibaba-s-earnings-turn-may-be-underpriced/
+· AMD AMD CEO Su shares important supply news with stock market investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-ceo-su-shares-important-191300089.html
+· UST Treasury yields steady as traders wrap up volatile week (CNBC) https://www.cnbc.com/2026/10/09/us-treasurys-bond-yields-midterms.html
+· BRENT Oil prices settle higher as more production shut ahead of hurricane (Reuters) https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/
 · INTC Intel Stocks Fall 1.0% as Applied Partnership Targets AI Bottlenecks (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0d3a1d097094b:0-intel-stocks-fall-1-0-as-applied-partnership-targets-ai-bottlenecks/
 · UST Gold rises over 1% as dollar weakens, Treasury yields retreat (Yahoo Finance) https://au.finance.yahoo.com/news/gold-rises-over-1-dollar-032811396.html
 · USDBRL Dólar fecha abaixo de R$ 5 e cai 4,43% na semana; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/09/dolar-fecha-abaixo-de-r-5-e-cai-443-na-semana-bolsa-sobe.htm
@@ -173,9 +203,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · GOOGL Prediction: Alphabet Could Be One of the Market’s Biggest Winners Over the Next 5 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-alphabet-could-one-market-150007982.html
 · BAC Should BAC Shares Be Added to Your Portfolio Ahead of Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:45a1bff5a094b:0-should-bac-shares-be-added-to-your-portfolio-ahead-of-q3-earnings/
 · SBSP3 EMAE sai da B3 em 23 de outubro após incorporação pela Sabesp (UOL Economia) https://www.bol.uol.com.br/economia/2026/10/09/emae-sai-da-b3-em-23-de-outubro-apos-incorporacao-pela-sabesp.ghtm
-· TSLA Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe (TechCrunch) https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/
-· USDBRL Ibovespa renova máxima no dia e dólar cai abaixo de R$ 5, mas IPCA lembra: a conta dos juros ainda não fechou (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-renova-maxima-no-dia-e-dolar-cai-abaixo-de-r-5-mas-ipca-lembra-a-conta-dos-juros-ainda-nao-fechou-ccgg/
-· DI Inflação de setembro fura teto da meta e divide o mercado sobre os rumos da Selic (InfoMoney) https://www.infomoney.com.br/economia/ipca-setembro-alta-meta-selic-09102026/
-· ITUB4 Esteves e Itaú discordam sobre arroz — afinal, quanto vale a Camil? (O Globo) https://oglobo.globo.com/blogs/capital/coluna/2026/10/esteves-e-itau-discordam-sobre-arroz-quanto-vale-a-camil.ghtml
-· GOOGL Is Alphabet Stock Priced Right Against Its Peers? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-priced-against-peers-133003487.html
-· (+62 manchetes; lista completa em eventos/noticias.json)
+· (+67 manchetes; lista completa em eventos/noticias.json)
