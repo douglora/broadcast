@@ -32,6 +32,7 @@ from quant.daytrade import estrategia as es
 from quant.daytrade import estrategia_fluxo as ef
 from quant.daytrade import estrategias_hist as eh
 from quant.daytrade import fluxo as fx
+from quant.daytrade import regras_lab
 from quant.daytrade.robo import (ABERTURA, ATIVOS, DIARIO_MAX, DIR_DT, FIM_PROCESSO, I_ABE, I_ANT, I_HORA, I_MAX,
                                  I_MEDIO, I_MIN, I_ULT, I_VAR, INTERVALO, MOTOR, SAIDAS_PADRAO, _num, _pontos, _reais,
                                  ler_motor)
@@ -303,6 +304,11 @@ class RoboFluxo:
         self.dado_opera = bool(modo.get("dado_opera", QUEM_OPERA["dado_opera"])) and setup == "niveis"
         self.dado = {a: br.SinalDado(**DADO) for a in ATIVOS} if setup == "niveis" else {}
         self.leitura_dado, self.dado_pendente = {}, {}
+        # regras do laboratorio que a rotina da noite registrou (quant/pesquisa/setups.json): rodam so no setup "niveis"
+        self.labs, falhas = regras_lab.carregar() if setup == "niveis" else ([], [])
+        for nome, motivo in falhas:
+            log(f"regra de laboratorio {nome} nao carregou: {motivo}")
+        self._sinais_hoje = (None, [])                           # (minuto, lista): refeita uma vez por minuto para a tela
         self.niveis_opera = bool(modo.get("niveis_opera", QUEM_OPERA["niveis_opera"]))
         self.climax = {a: br.SinalClimax(**CLIMAX) for a in ATIVOS} if setup == "niveis" else {}
         self.leitura_climax, self.climax_pendente = {}, {}
@@ -629,7 +635,17 @@ class RoboFluxo:
                 self._guardar_sinal(a, sinal, agora, opera=opera_nivel)
                 if not opera_nivel:
                     sinal = None                                 # so medido: nao vira entrada
-            elif ordem is not None:
+            if self.setup == "niveis" and sinal is None and a in self.barras:
+                for sl in self.labs:                             # regras do laboratorio, na barra de 1 minuto que acabou de fechar
+                    s_lab = sl.atualizar(self.barras[a].df)
+                    if s_lab is None:
+                        continue
+                    opera_lab = sl.estado == "opera" and not self._perto_do_dado(agora)
+                    s_lab["medidas"]["fita"] = self.leitura_da_fita(a, s_lab["lado"], s_lab["nivel"])
+                    self._guardar_sinal(a, s_lab, agora, opera=opera_lab)
+                    if opera_lab and sinal is None:
+                        sinal = s_lab
+            if ordem is not None and self.setup == "phicube":
                 l = self.leitura_pc[a]
                 sinal = {"tecnica": "phicube", "lado": ordem.lado, "nivel": l["medias_menor"][0],
                          "nome_nivel": f"média de {l['periodos'][0]} em {l['menor_min']} minutos (Prisma {l.get('prisma_maior', '?')})",
@@ -1122,6 +1138,8 @@ class RoboFluxo:
                           "negocios_perdedores": self.perdas, "lote_hoje": lote,
                           "patrimonio": p.capital + acumulado, "acumulado": acumulado, "dias": len(serie)},
             "instrumentos": instrumentos, "posicoes": posicoes, "operacoes": list(reversed(ops)),
+            "sinais_hoje": self.sinais_hoje(agora),
+            "regras_de_laboratorio": [{"nome": x.nome, "titulo": x.titulo, "estado": x.estado, "erro": x.erro} for x in self.labs],
             "chave": {"ligado": self.chave["ligado"], "desde": self.chave["desde"]},
             "janela": {"inicio": min((ef.ATIVOS[a].hora_inicio for a in ATIVOS), default="09:15"), "ultima_entrada": p.hora_ultima_entrada,
                        "zerar": p.hora_zerar, "motivo": self.janela.get("motivo") or ""},
@@ -1130,6 +1148,33 @@ class RoboFluxo:
             "fontes": {"cotacoes": "motor do Autopilot Terminal (MetaTrader)",
                        "fluxo": "AutopilotFeed 1.3: negócios por segundo com o lado agressor e livro de ofertas",
                        "regra": "quant/daytrade/estrategia_fluxo.py", "metodo": "quant/docs/metodo-alison-correia.md"}}
+
+    def sinais_hoje(self, agora):
+        """Para a tela: todo sinal guardado hoje (operando ou so medindo) e o que cada um deu ou esta dando, pelas barras de 1 minuto.
+        Refeito uma vez por minuto."""
+        minuto = agora.strftime("%H:%M")
+        if self._sinais_hoje[0] == minuto:
+            return self._sinais_hoje[1]
+        fora = []
+        try:
+            from quant.daytrade import medir
+            with open(os.path.join(self.pasta, f"sinais_{self.setup}.jsonl"), encoding="utf-8") as f:
+                linhas = [json.loads(x) for x in f if x.strip()]
+            for ev in linhas:
+                if ev.get("tipo") != "sinal" or ev.get("entrada") is None:
+                    continue
+                b = self.barras.get(ev.get("ativo"))
+                r = medir.hipotetico(ev, b.df) if b is not None else None
+                fora.append({"hora": ev.get("hora"), "ativo": ev.get("ativo"), "tecnica": ev.get("tecnica"), "lado": ev.get("lado"),
+                             "entrada": ev.get("entrada"), "opera": bool(ev.get("opera")), "nome_nivel": ev.get("nome_nivel"),
+                             "fita_confirmou": ((ev.get("medidas") or {}).get("fita") or {}).get("confirmou"),
+                             "situacao": "aberto" if r is None else "fechado", "saida": None if r is None else r["saida"],
+                             "pontos": None if r is None else round(r["pontos"], 2), "resultado": None if r is None else round(r["resultado"], 2)})
+        except (OSError, ValueError):
+            pass
+        fora.reverse()                                           # o mais novo em cima
+        self._sinais_hoje = (minuto, fora)
+        return fora
 
     def _serie(self, total, n_ops, pregao):
         serie = ler_json(self.arq_serie, padrao=None)

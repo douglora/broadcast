@@ -1,0 +1,4 @@
+{
+ "_leia": "Registro das regras de laboratorio que o robo roda ao vivo. estado: 'medido' (so guarda o sinal) ou 'opera'. So a rotina da noite (quant/pesquisa/noite.py) e o Douglas mudam o estado. Regra nova entra SEMPRE como 'medido' e so depois de positiva na descoberta, na validacao e na prova.",
+ "regras": []
+}

@@ -92,3 +92,83 @@ def test_sem_futuro_pega_regra_que_olha_a_barra_seguinte_e_evento_mede_sem_custo
         lab.sem_futuro(trapaca, m)
     tab = lab.evento(m, np.ones(len(m), bool), trapaca(m), horizontes=(1,), ini="00:00", ult="23:59", registrar=False)
     assert tab.media_pts[0] > 0.5                                 # quem ve o futuro ganha: o estudo de evento mede direito
+
+
+# ── rotina da noite: o protocolo decide quem opera e quem so mede ──────────────────────────────────────────────
+def _lista(dado=True, climax=True, niveis=False, lab_estado=None):
+    from quant.pesquisa import noite
+    modo = {"dado_opera": dado, "climax_opera": climax, "niveis_opera": niveis}
+    reg = [] if lab_estado is None else [{"nome": "x", "titulo": "regra x", "estado": lab_estado, "aprovada": True, "historico": "ok"}]
+    return noite.leituras(modo, reg), modo
+
+
+def test_protocolo_rebaixa_a_reprovada_e_a_que_perde_ao_vivo():
+    from quant.pesquisa import noite
+    lista, modo = _lista()
+    d = noite.decidir(lista, {}, modo)
+    assert [(x["tecnica"], x["acao"]) for x in d] == [("climax de volume", "rebaixa")] and "reprovada no historico" in d[0]["motivo"]
+    # aprovada que opera e perde ao vivo: 10 negocios com media de -R$ 80
+    lista, modo = _lista(climax=False)
+    pl = {"reversão do dado": {"sinais": 10, "media": -80.0, "t": -1.0, "soma": -800.0, "operados": 10, "soma_operados": -800.0, "media_operados": -80.0}}
+    assert [(x["tecnica"], x["acao"]) for x in noite.decidir(lista, pl, modo)] == [("reversão do dado", "rebaixa")]
+    pl["reversão do dado"].update(operados=9)                    # com 9 negocios ainda nao age
+    assert noite.decidir(lista, pl, modo) == []
+    # o que o Douglas travou nao e tocado
+    lista, modo = _lista()
+    modo["travado_pelo_douglas"] = ["climax_opera"]
+    assert noite.decidir(lista, {}, modo) == []
+
+
+def test_protocolo_promove_so_a_aprovada_com_amostra_e_pede_estudo_da_reprovada():
+    from quant.pesquisa import noite
+    lista, modo = _lista(climax=False, lab_estado="medido")
+    bom = {"sinais": 25, "media": 60.0, "t": 1.4, "soma": 1500.0, "operados": 0, "soma_operados": 0.0, "media_operados": 0.0}
+    d = noite.decidir(lista, {"regra x": bom, "nível e reação": dict(bom, sinais=80, t=2.5)}, modo)
+    assert sorted((x["tecnica"], x["acao"]) for x in d) == [("nível e reação", "estudo"), ("regra x", "promove")]
+    assert noite.decidir(lista, {"regra x": dict(bom, sinais=19)}, modo) == []          # amostra pequena: nao promove
+    assert noite.decidir(lista, {"regra x": dict(bom, t=0.5)}, modo) == []
+
+
+def test_rotina_da_noite_grava_as_chaves_e_o_relatorio(tmp_path, monkeypatch):
+    import json as js
+    from quant.pesquisa import noite
+    arq_modo, arq_set = tmp_path / "modo.json", tmp_path / "setups.json"
+    arq_modo.write_text(js.dumps({"regra": "niveis", "dado_opera": True, "climax_opera": True, "niveis_opera": False, "lote_base": 2}))
+    arq_set.write_text(js.dumps({"regras": [{"nome": "x", "titulo": "regra x", "estado": "medido", "aprovada": True, "arquivo": "nao_importa.py"}]}))
+    monkeypatch.setattr(noite, "DIR_RELATORIOS", str(tmp_path / "rel"))
+    monkeypatch.setattr(noite, "ARQ_DECISOES", str(tmp_path / "decisoes.jsonl"))
+    monkeypatch.setattr(noite, "agora_brt", lambda: pd.Timestamp("2026-10-09 19:20").to_pydatetime())
+    bom = {"sinais": 25, "media": 60.0, "t": 1.4, "soma": 1500.0, "acerto": 60.0, "operados": 0, "soma_operados": 0.0, "media_operados": 0.0, "pregoes": 12, "ultimo": "2026-10-09"}
+    monkeypatch.setattr(noite, "placar", lambda *a, **k: {"regra x": bom})
+    texto, dec = noite.rodar(ensaio=True, pasta=str(tmp_path / "dt"), arq_modo=str(arq_modo), arq_setups=str(arq_set))
+    assert "ENSAIO" in texto and js.loads(arq_modo.read_text())["climax_opera"] is True          # ensaio nao grava
+    lista = noite.leituras(js.loads(arq_modo.read_text()), noite.regras_lab.ler_registro(str(arq_set)))
+    noite.aplicar(dec, lista, str(arq_modo), str(arq_set), str(tmp_path / "decisoes.jsonl"))
+    m = js.loads(arq_modo.read_text())
+    assert m["climax_opera"] is False and m["dado_opera"] is True and m["lote_base"] == 2        # so a chave da leitura muda
+    assert js.loads(arq_set.read_text())["regras"][0]["estado"] == "opera"
+    assert "climax de volume: PASSA A SO MEDIR" in texto and "regra x: PASSA A OPERAR" in texto and "| regra x | opera | 25 em 12 pregoes" in texto
+    # com o pregao aberto a rotina se recusa a mexer no robo
+    monkeypatch.setattr(noite, "agora_brt", lambda: pd.Timestamp("2026-10-09 10:20").to_pydatetime())
+    with pytest.raises(SystemExit):
+        noite.rodar(ensaio=False, pasta=str(tmp_path / "dt"), arq_modo=str(arq_modo), arq_setups=str(arq_set))
+
+
+def test_regra_de_laboratorio_roda_ao_vivo_uma_vez_por_barra(tmp_path):
+    from quant.daytrade import regras_lab
+    (tmp_path / "r.py").write_text("import numpy as np\ndef regra(m):\n    return np.where(m.c - m.o >= 3, -1.0, 0.0)\n")
+    (tmp_path / "ruim.py").write_text("def regra(m):\n    raise ValueError('quebrou')\n")
+    reg = {"regras": [{"nome": "contra_barra", "titulo": "contra a barra de 3 pontos", "arquivo": str(tmp_path / "r.py"), "estado": "medido",
+                       "saida": {"stop": 8, "alvo": 4, "tempo": 15}},
+                      {"nome": "ruim", "arquivo": str(tmp_path / "ruim.py"), "estado": "opera"},
+                      {"nome": "aposentada", "arquivo": str(tmp_path / "r.py"), "estado": "aposentado"},
+                      {"nome": "sem_arquivo", "arquivo": str(tmp_path / "nao_existe.py"), "estado": "medido"}]}
+    (tmp_path / "setups.json").write_text(__import__("json").dumps(reg))
+    boas, falhas = regras_lab.carregar(str(tmp_path / "setups.json"))
+    assert [x.nome for x in boas] == ["contra_barra", "ruim"] and [f[0] for f in falhas] == ["sem_arquivo"]
+    m = _dia([PARADO] * 20 + [(5000.0, 5004.0, 5000.0, 5004.0)])
+    s = boas[0].atualizar(m)
+    assert (s["tecnica"], s["lado"], s["stop_pts"], s["alvo_pts"], s["tempo_max_s"], s["sem_parcial"]) == ("contra a barra de 3 pontos", "V", 8.0, 4, 900.0, True)
+    assert boas[0].atualizar(m) is None                              # a mesma barra nao da dois sinais
+    assert boas[1].atualizar(m) is None and "quebrou" in boas[1].erro     # regra que quebra nao derruba nada
+    assert boas[0].atualizar(_dia([PARADO] * 22)) is None
