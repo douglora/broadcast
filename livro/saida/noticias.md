@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 17h21
+NOTÍCIAS E FATOS · 09/10 17h31
 
-Pernas: noticias ok 12 novas (18 consultas; descartadas: 447 veículo fora da lista, 50 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 2 novas (18 consultas; descartadas: 450 veículo fora da lista, 51 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -116,8 +116,10 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (120)
+## OUTRAS NOTÍCIAS (só manchete) (122)
 
+· INTC Intel Stocks Fall 1.0% as Applied Partnership Targets AI Bottlenecks (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:0d3a1d097094b:0-intel-stocks-fall-1-0-as-applied-partnership-targets-ai-bottlenecks/
+· UST Gold rises over 1% as dollar weakens, Treasury yields retreat (Yahoo Finance) https://au.finance.yahoo.com/news/gold-rises-over-1-dollar-032811396.html
 · USDBRL Dólar fecha abaixo de R$ 5 e cai 4,43% na semana; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/09/dolar-fecha-abaixo-de-r-5-e-cai-443-na-semana-bolsa-sobe.htm
 · USDBRL Dólar à vista fecha em baixa de 0,76%, a R$4,9856 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-076-a-r49856-na-venda-2088221
 · USDBRL Dólar cai com eleições em foco e fica abaixo de R$ 5; moeda recua mais de 4% na semana (Money Times) https://www.moneytimes.com.br/dolar-9-10-26-lils/
@@ -176,6 +178,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · DI Inflação de setembro fura teto da meta e divide o mercado sobre os rumos da Selic (InfoMoney) https://www.infomoney.com.br/economia/ipca-setembro-alta-meta-selic-09102026/
 · ITUB4 Esteves e Itaú discordam sobre arroz — afinal, quanto vale a Camil? (O Globo) https://oglobo.globo.com/blogs/capital/coluna/2026/10/esteves-e-itau-discordam-sobre-arroz-quanto-vale-a-camil.ghtml
 · GOOGL Is Alphabet Stock Priced Right Against Its Peers? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-priced-against-peers-133003487.html
-· USDBRL Bolsa bate recorde intradiário após Datafolha mostrar Flávio à frente de Lula; Dólar cai (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-eleicao-no-radar-e-inflacao-acima-do-esperado.shtml
-· USDBRL Ibovespa opera em alta e vai aos 209 mil pontos, com inflação e eleições no foco; dólar cai (g1) https://g1.globo.com/economia/noticia/2026/10/09/dolar-ibovespa.ghtml
-· (+60 manchetes; lista completa em eventos/noticias.json)
+· (+62 manchetes; lista completa em eventos/noticias.json)
