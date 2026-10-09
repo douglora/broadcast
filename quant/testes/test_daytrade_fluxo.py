@@ -1155,3 +1155,34 @@ def test_setup_do_dado_nao_entra_com_reacao_pequena_e_reserva_a_vaga_antes_do_da
     assert r._perto_do_dado(datetime(2026, 10, 8, 9, 32, 5, tzinfo=BRT)) is True
     assert r._perto_do_dado(datetime(2026, 10, 8, 9, 32, 11, tzinfo=BRT)) is False
     assert r._perto_do_dado(datetime(2026, 12, 4, 9, 20, 0, tzinfo=BRT)) is False and r._perto_do_dado(datetime(2026, 12, 4, 10, 20, 0, tzinfo=BRT)) is True
+
+
+def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_path, monkeypatch):
+    rf, r, _mt5 = _robo(tmp_path, monkeypatch, "2026-10-09")
+    chamadas = []
+    monkeypatch.setattr(rf, "reabrir_metatrader", lambda: chamadas.append(1))
+    monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
+    monkeypatch.setattr(rf.threading, "Thread", lambda target, daemon=None: type("T", (), {"start": lambda self: target()})())
+    agora = datetime(2026, 10, 9, 10, 15, 0, tzinfo=BRT)
+
+    def leitura(sem_tique, atraso, quando=agora):
+        r.feed, r.feed_em = {"sem_tique_s": sem_tique, "atraso_ms": atraso, "mt5": "ligado"}, r.feed_em + 6.0
+        return r._vigiar_feed(quando)
+    # saudavel: nada. Duas leituras ruins: ainda nada. A terceira seguida: reabre.
+    assert [leitura(0.3, 180.0), leitura(31.0, 24000.0), leitura(4.0, 24000.0)] == [False, False, False] and chamadas == []
+    assert leitura(22.0, 24500.0) is True and chamadas == [1] and "Reabrindo o MetaTrader sozinho (1ª vez hoje)" in r.diario[-1]["texto"]
+    # logo depois nao repete (espera de 3 minutos), mesmo que siga ruim
+    assert [leitura(35.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1]
+    # passada a espera e ainda ruim: reabre de novo. A mesma leitura da saude nao conta duas vezes; leitura boa zera a contagem
+    r.reconectou_em = 0.0
+    assert leitura(35.0, 30000.0) is True and chamadas == [1, 1] and "2ª vez hoje" in r.diario[-1]["texto"]
+    r.reconectou_em = 0.0
+    assert r._vigiar_feed(agora) is False and leitura(0.2, 150.0) is False and r.feed_ruim == 0
+    # fora do pregao, com o MetaTrader fechado de proposito ou no limite do dia: nao reabre
+    for _ in range(3):
+        assert leitura(40.0, 30000.0, datetime(2026, 10, 9, 18, 40, 0, tzinfo=BRT)) is False
+    monkeypatch.setattr(rf, "metatrader_aberto", lambda: False)
+    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4
+    monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
+    r.reconexoes = rf.FEED_RUIM["max_por_dia"]
+    assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1]

@@ -20,7 +20,9 @@ Nada aqui manda ordem. Uso: python -m quant.daytrade.robo_fluxo [--uma-vez]
 import argparse
 import json
 import os
+import subprocess
 import sys
+import threading
 import time
 from dataclasses import asdict
 from datetime import datetime, timezone
@@ -83,6 +85,21 @@ DADO = {"minutos": 2, "limiar": 4.0, "stop": 40.0, "tempo_max": 120, "atraso_max
 DADO_ESPERA_S = 10.0              # como no climax: o sinal vale por estes segundos, se o spread abrir logo depois do dado
 DADO_RESERVA_MIN = 22             # antes do dado as outras leituras nao abrem posicao: a vaga e do setup proprio
 QUEM_OPERA = {"dado_opera": True, "climax_opera": True, "niveis_opera": False}
+# Cotacoes em rajadas: a conexao do MetaTrader com a corretora degrada e os tiques chegam de 20 em 20 segundos (08/10 de
+# manha e a tarde, 09/10 as 10h15). O remedio que sempre resolveu e fechar e reabrir o MetaTrader; o robo agora faz sozinho.
+FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_s": 180.0, "max_por_dia": 8}
+
+
+def metatrader_aberto():
+    return subprocess.run(["pgrep", "-f", r"MetaTrader 5\\terminal64\.exe"], capture_output=True).returncode == 0
+
+
+def reabrir_metatrader():
+    from quant.daytrade.ligar_fita import _reabrir_metatrader
+    try:
+        _reabrir_metatrader()
+    except Exception as e:                                       # nao consegui reabrir: fica o aviso na tela, o robo segue
+        log(f"nao consegui reabrir o MetaTrader: {type(e).__name__}: {e}")
 ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
 SETUPS_DE_GRAFICO = ("phicube", "niveis")
 FITA_PARADA_S = 30.0
@@ -287,6 +304,7 @@ class RoboFluxo:
         self.fita_em = {}                                        # (ativo, "fonte" | "mini") -> relogio da ultima linha
         self.ultima_fita = 0.0                                   # relogio da ultima linha de fita recebida
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
+        self.feed_visto, self.feed_ruim, self.reconectou_em, self.reconexoes = 0.0, 0, 0.0, 0
         self.chave = chave.ler()                                 # liga/desliga do Douglas
         self.preparado = False                                   # ja leu contratos e ajuste nesta execucao?
         self.barras, self.sinais_pc, self.leitura_pc, self.ordem_pc, self.minuto_pc = {}, {}, {}, {}, None
@@ -444,6 +462,26 @@ class RoboFluxo:
             "sem_tique_s": _num((mt5.get("idade_s") or {}).get("menor")),
             "atraso_ms": _num((mt5.get("atraso_tique_acima_do_melhor_ms") or {}).get("p50")), "mt5": mt5.get("estado")}
 
+    def _vigiar_feed(self, agora):
+        """Cotacoes em rajadas por tres leituras seguidas da saude do motor: reabre o MetaTrader sozinho (conexao nova).
+        So no pregao, so se o MetaTrader estiver aberto (fechado de proposito, nao reabre), com espera entre uma e outra."""
+        hm = agora.strftime("%H:%M")
+        if agora.weekday() >= 5 or not ("09:05" <= hm < "18:20") or self.feed_em == self.feed_visto:
+            return False
+        self.feed_visto = self.feed_em
+        f = self.feed or {}
+        ruim = (f.get("sem_tique_s") or 0) >= FEED_RUIM["sem_tique_s"] or (f.get("atraso_ms") or 0) >= FEED_RUIM["atraso_ms"]
+        self.feed_ruim = self.feed_ruim + 1 if ruim else 0
+        if self.feed_ruim < FEED_RUIM["leituras"] or time.time() - self.reconectou_em < FEED_RUIM["espera_s"] \
+                or self.reconexoes >= FEED_RUIM["max_por_dia"] or not metatrader_aberto():
+            return False
+        self.feed_ruim, self.reconectou_em, self.reconexoes = 0, time.time(), self.reconexoes + 1
+        self.anotar("feed", f"Cotações do MetaTrader em rajadas (último tique há {f.get('sem_tique_s') or 0:.0f} s, atraso típico de "
+                    f"{(f.get('atraso_ms') or 0) / 1000:.0f} s). Reabrindo o MetaTrader sozinho ({self.reconexoes}ª vez hoje); "
+                    "as cotações voltam em cerca de 40 segundos.", agora)
+        threading.Thread(target=reabrir_metatrader, daemon=True).start()
+        return True
+
     def _registrar(self, ev, agora):
         a, nome = ev["ativo"], es.CONTRATOS[ev["ativo"]]["nome"]
         if ev["tipo"] == "entrada":
@@ -507,6 +545,7 @@ class RoboFluxo:
         if retrato is None:
             retrato = ler_motor("/vivo/retrato", self.motor)
         self._frescor()
+        self._vigiar_feed(agora)
         pregao = agora.weekday() < 5 and ABERTURA <= hora[:5]
         if pregao and (not all(a in self.codigos for a in ATIVOS) or int(ts) % 60 == 0 or not self.preparado):
             self.preparar()
