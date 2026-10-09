@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 16h21
+NOTÍCIAS E FATOS · 09/10 17h21
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 443 veículo fora da lista, 52 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 12 novas (18 consultas; descartadas: 447 veículo fora da lista, 50 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,16 @@ Fonte: SEC EDGAR 2026-10-09
 id: E04-MU-26000023-2026-10-09 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (7)
+## NOTÍCIAS COM MATERIALIDADE (8)
+
+[ATENÇÃO] E05 · KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
+Investing.com · 09/10 17h24 · fonte única · licença: manchete
+Link: https://ca.investing.com/news/stock-market-news/cocacola-consolidated-declares-025-quarterly-dividend-93CH-4874059
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: KO
+Como falar: 'saiu no Investing.com: Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com; confirmar o número no texto antes de repassar'
+Fonte: Investing.com 09/10 17h24
+id: E05-KO-c6efed8be1-2026-10-09 · status: pendente
 
 [ATENÇÃO] E05 · USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'; dólar cai
 Money Times · 09/10 10h17 · fonte única · licença: integral
@@ -107,8 +116,19 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (109)
+## OUTRAS NOTÍCIAS (só manchete) (120)
 
+· USDBRL Dólar fecha abaixo de R$ 5 e cai 4,43% na semana; Bolsa sobe (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/09/dolar-fecha-abaixo-de-r-5-e-cai-443-na-semana-bolsa-sobe.htm
+· USDBRL Dólar à vista fecha em baixa de 0,76%, a R$4,9856 na venda Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-a-vista-fecha-em-baixa-de-076-a-r49856-na-venda-2088221
+· USDBRL Dólar cai com eleições em foco e fica abaixo de R$ 5; moeda recua mais de 4% na semana (Money Times) https://www.moneytimes.com.br/dolar-9-10-26-lils/
+· INTC Super Micro Stock Rises After Company Adds Former Intel Veteran to Board (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:271eda666094b:0-super-micro-stock-rises-after-company-adds-former-intel-veteran-to-board/
+· BABA Alibaba's Earnings Turn May Be Underpriced (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alibabas-earnings-turn-may-underpriced-200110038.html
+· UST Treasury Yields Reach 24-Year Highs, Telecom Stocks Sell Off: This Week On Wall Street (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:880c0b0dc094b:0-treasury-yields-reach-24-year-highs-telecom-stocks-sell-off-this-week-on-wall-street/
+· MRVL Marvell Stocks Fall as $20 Billion Goal Tests Execution (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:086fe0e7a094b:0-marvell-stocks-fall-as-20-billion-goal-tests-execution/
+· BTC Bitcoin Rebounds After Rough Week, But Traders Are Pricing In More Downside (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-rebounds-rough-week-traders-173626502.html
+· BTC A Year On, Bitcoin Languishes a Third Below its All-Time High. What’s Next For The Cryptocurrency? (The Wall Street Journal) https://www.wsj.com/finance/currencies/a-year-on-bitcoin-languishes-a-third-below-its-all-time-high-whats-next-for-the-cryptocurrency-046f2689
+· KO Coca-Cola Seeks to Unwind $5 Billion Costa Coffee Acquisition (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-seeks-unwind-5-130526534.html
+· TSLA Unlike EV Narrative, Cybercab Does Not Need Tesla To Overcome An Entire Industry (TSLA) (Seeking Alpha) https://seekingalpha.com/article/4952939-unlike-the-ev-narrative-cybercab-does-not-need-tesla-to-overcome-an-entire-industry
 · BBDC4 Bradesco (BBDC4): 2 gatilhos que podem ‘turbinar’ rentabilidade, segundo UBS BB (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-2-gatilhos-que-podem-turbinar-rentabilidade-segundo-ubs-bb/
 · TSLA 'I drive a Tesla': After Elon Musk said he’d lose his job, Delta CEO Ed Bastian says there’s 'no tit for tat' as airline unveils earnings miss (Fortune) https://fortune.com/2026/10/09/delta-ed-bastian-elon-musk-q3-earnings-tit-for-tat-starlink/
 · NVDA Management Raised the Bar For NVIDIA Stock; Does The Chart Agree? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/management-raised-bar-nvidia-stock-182211820.html
@@ -158,15 +178,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · GOOGL Is Alphabet Stock Priced Right Against Its Peers? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-priced-against-peers-133003487.html
 · USDBRL Bolsa bate recorde intradiário após Datafolha mostrar Flávio à frente de Lula; Dólar cai (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-eleicao-no-radar-e-inflacao-acima-do-esperado.shtml
 · USDBRL Ibovespa opera em alta e vai aos 209 mil pontos, com inflação e eleições no foco; dólar cai (g1) https://g1.globo.com/economia/noticia/2026/10/09/dolar-ibovespa.ghtml
-· MRVL Why Is Marvell Technology Stock Gaining Friday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:844750d1f094b:0
-· JPM JPMorgan Securities (Thailand) Ltd Warrant 2025-10.12.26 on VGI Global Medi (TradingView (Reuters)) https://www.tradingview.com/symbols/SET-VGI41C2612T/financials-statistics-and-ratios/price-earnings-fwd/
-· JPM JPMorgan, Citi, Bank Of America Earnings Previews: Eventually Return To More Normal Growth (Seeking Alpha) https://seekingalpha.com/article/4953114-jpmorgan-citigroup-bac-earnings-previews-eventually-return-to-more-normal-growth
-· LITE Lumentum Can’t Keep Up With AI Demand—and Its Stock Is Surging (Barron's) https://www.barrons.com/articles/lumentum-stock-ai-optical-component-shortages-b2580d80
-· USDBRL Dólar canadense cai após perda de empregos e recuo nas apostas de alta de juros (Investing.com) https://br.investing.com/news/stock-market-news/dolar-canadense-cai-apos-perda-de-empregos-e-recuo-nas-apostas-de-alta-de-juros-2088039
-· PLTR Palantir: The Next $1T Company (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4953091-palantir-the-next-1t-company
-· ITUB4 Bancões sob pressão no 3T26: Goldman vê piora do crédito e tem Itaú como favorito (InfoMoney) https://www.infomoney.com.br/mercados/bancoes-sob-pressao-no-3t26-goldman-ve-piora-do-credito-e-tem-itau-como-favorito/
-· CURY3 Cury: vendas líquidas crescem 11,4% no 3T26 e chegam a R$ 2,03 bilhões (ADVFN) https://br.advfn.com/jornal/2026/10/cury-vendas-liquidas-crescem-11-4-no-3t26-e-chegam-a-r-2-03-bilhoes
-· TESOURO Tesouro Direto hoje ignora alta do IPCA, se entrega à influência eleitoral e cai forte; veja taxas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-ignora-alta-do-ipca-se-entrega-a-influencia-eleitoral-e-cai-forte-veja-taxas/
-· LITE Lumentum shares rise as AI demand fills production capacity through early 2029 (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-shares-rise-ai-demand-142000071.html
-· UST Treasury yields have fallen after four of five House-flipping midterms, Ree says (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4651744-treasury-yields-have-fallen-after-four-of-five-house-flipping-midterms-ree-says
-· (+49 manchetes; lista completa em eventos/noticias.json)
+· (+60 manchetes; lista completa em eventos/noticias.json)
