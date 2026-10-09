@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 14h27
+NOTÍCIAS E FATOS · 09/10 15h21
 
-Pernas: noticias ok 5 novas (18 consultas; descartadas: 412 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 13 novas (18 consultas; descartadas: 443 veículo fora da lista, 49 sem ativo, 8 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -107,8 +107,21 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (81)
+## OUTRAS NOTÍCIAS (só manchete) (94)
 
+· BTC Hedge funds cut Bitcoin, brokerages load up in Q2: CoinShares report (Seeking Alpha) https://seekingalpha.com/news/4651832-hedge-funds-cut-bitcoin-brokerages-load-up-in-q2-coinshares-report
+· LITE Lumentum stock holds Outperform at Evercore on AI demand outlook (Investing.com) https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510
+· BBDC4 JPMorgan e UBS ficam mais otimistas com Bradesco após reestruturação (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/09/jpmorgan-e-ubs-ficam-mais-otimistas-com-bradesco-apos-reestruturacao.htm
+· PETR4 Governo 'faz uso eleitoreiro' da Petrobras, diz Flávio Bolsonaro (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/09/governo-faz-uso-eleitoreiro-da-petrobras-diz-flavio-bolsonaro.htm
+· BTC Can You Borrow Against Your Bitcoin Without Selling It? Costs and Risks You Should Know (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/borrow-against-bitcoin-without-selling-173039744.html
+· PLTR How Much Growth Are You Paying For In Palantir Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/much-growth-paying-palantir-stock-173002464.html
+· TSLA Tesla Stock Jumps as Shanghai Deliveries Rise for 11th Straight Month (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-shanghai-deliveries-172457505.html
+· KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report (Investing.com) https://www.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4941525
+· JPM Three Things to Watch From JPMorgan, Goldman and Other Big Bank Earnings (The Wall Street Journal) https://www.wsj.com/video/three-things-to-watch-from-jpmorgan-goldman-and-other-big-bank-earnings/BF4B94DC-BA48-44C3-91B3-FD25DCA29F16
+· BABA Citi, Morgan Stanley Put Alibaba Back in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e594d8544094b:0-citi-morgan-stanley-put-alibaba-back-in-focus/
+· BABA Alibaba Group Holding Limited Earnings and Revenue – BX:9988 (TradingView (Reuters)) https://www.tradingview.com/symbols/BX-9988/financials-earnings/?earnings-period=FQ&revenues-period=FQ
+· MRVL Marvell (MRVL) Is Aiming for $90B in Sales. Why Does It Trade Under 24 Times Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-aiming-90b-sales-132516704.html
+· KO Coca-Cola Is The Ultimate Compounder: Why I’m Continuing To Consume It (NYSE:KO) (Seeking Alpha) https://seekingalpha.com/article/4953101-coca-cola-is-the-ultimate-compounder-why-im-continuing-to-consume-it
 · LITE Lumentum stock holds Outperform at Evercore on AI demand outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4873922
 · KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4903419
 · TSLA Midday Need to Know: Delta slides on earnings miss, Tesla gains on China sales & more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:03a4bb666094b:0-midday-need-to-know-delta-slides-on-earnings-miss-tesla-gains-on-china-sales-more/
@@ -156,17 +169,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · TSM Taiwan Semiconductor's strong Q3 sales a positive sign for Q4, Wedbush says (TSM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4651740-taiwan-semiconductors-strong-q3-sales-a-positive-sign-for-q4-wedbush-says
 · BTC Fidelity Adds $438 Million of Bitcoin, Ethereum and Solana to Its Holdings (TradingView (Reuters)) https://www.tradingview.com/news/u_today:172b01a14094b:0-fidelity-adds-438-million-of-bitcoin-ethereum-and-solana-to-its-holdings/
 · ETH The XRP Ledger Surpasses Ethereum in a Key Area. What Does This Mean for the XRP Price? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/xrp-ledger-surpasses-ethereum-key-120051993.html
-· GOOGL Google Cloud y CaixaBank firman un acuerdo para ampliar la colaboración hasta 2033 (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45V0KY:0/
-· UST 3 US Life Insurance Stocks Linked To Higher Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-us-life-insurance-stocks-111603255.html
-· BTC Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure
-· AVGO Broadcom: Anthropic Financing Risk Is Priced Too High, Buy (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952916-broadcom-anthropic-financing-risk-is-priced-too-high-buy
-· MU Nvidia and Micron shares bounce as investors get clarity on a key OpenAI matter (MarketWatch) https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20
-· MRVL Marvell (MRVL) Stock Could Be 49% Below Fair Value After AI Revenue Targets Raised (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-could-49-131340147.html
-· BBDC4 BC homologa aumento de capital de R$ 10 bilhões do Bradesco (Valor Economico) https://valor.globo.com/financas/noticia/2026/10/09/bc-homologa-aumento-de-capital-de-r-10-bilhes-do-bradesco.ghtml
-· TSM Taiwan Semiconductor's strong Q3 sales a positive sign for Q4, Wedbush says (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:dfcebbdff094b:0-taiwan-semiconductor-s-strong-q3-sales-a-positive-sign-for-q4-wedbush-says/
-· USDBRL Dólar recua com pesquisa eleitoral no radar (CNN Brasil) https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-9-outubro-2026/
-· USDBRL Dólar cai ante real com pesquisas eleitorais e alívio externo (UOL Economia) https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/09/dolar-cai-ante-real-com-pesquisas-eleitorais-e-alivio-externo.htm
-· AMD AMD Turned $10,000 Into More Than $1.2 Million. Can It Happen Again? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-turned-10-000-more-124526814.html
-· LITE Optics Stocks Rally on Sold-Out Optical Capacity Through Early 2029: Applied Optoelectronics and Lumentum Surge 7%, Coherent Climbs 5% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-rally-sold-optical-123659817.html
-· USDBRL Dólar cai após duas novas pesquisas eleitorais mostrarem Flávio à frente de Lula Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-cai-apos-duas-novas-pesquisas-eleitorais-mostrarem-flavio-a-frente-de-lula-2087857
-· (+21 manchetes; lista completa em eventos/noticias.json)
+· (+34 manchetes; lista completa em eventos/noticias.json)
