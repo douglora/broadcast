@@ -172,3 +172,23 @@ def test_regra_de_laboratorio_roda_ao_vivo_uma_vez_por_barra(tmp_path):
     assert boas[0].atualizar(m) is None                              # a mesma barra nao da dois sinais
     assert boas[1].atualizar(m) is None and "quebrou" in boas[1].erro     # regra que quebra nao derruba nada
     assert boas[0].atualizar(_dia([PARADO] * 22)) is None
+
+
+def test_contas_do_mini_indice_e_de_acao():
+    # mini-indice: tick de 5 pontos, R$ 0,20 por ponto, R$ 0,30 por contrato e lado, 2 contratos
+    b = [(130000.0,) * 4] * 21 + [(130000.0, 130400.0, 130000.0, 130400.0), (130400.0, 130400.0, 130300.0, 130300.0)] + [(130300.0,) * 4] * 5
+    m = _dia(b)
+    r = lab.avaliar(m, _sinal(m, 20, 1), "x", stop=300.0, alvo=200.0, ativo="WIN", registrar=False)
+    t = lab.medir(r["negocios"], espec=lab.espec_de("WIN"))
+    assert t.entrada[0] == 130005.0 and t.saida[0] == "alvo" and t.pts[0] == 200.0             # entra 1 tick (5 pontos) contra
+    assert t.res[0] == pytest.approx(200.0 * 0.20 * 2 - 2 * 0.30 * 2) and r["ativo"] == "WIN"
+    # acao de R$ 40: tick de 1 centavo, R$ 20 mil por negocio (500 acoes), taxa de 0,025% do financeiro por lado
+    b = [(40.0,) * 4] * 21 + [(40.0, 40.5, 40.0, 40.5), (40.5, 40.5, 40.4, 40.4)] + [(40.4,) * 4] * 5
+    m = _dia(b, "2024-03-04 10:00")
+    r = lab.avaliar(m, _sinal(m, 20, 1), "x", stop=0.5, alvo=0.3, ativo="PETR4", ini="10:05", ult="16:30", zerar="16:50", registrar=False)
+    t = lab.medir(r["negocios"], espec=lab.espec_de("PETR4"))
+    assert t.entrada[0] == pytest.approx(40.01) and t.pts[0] == pytest.approx(0.3)
+    qtd = 400.0                                                 # R$ 20 mil / 40,01 = 499 -> lote de 100: 400
+    assert t.res[0] == pytest.approx(0.3 * qtd - 0.00025 * (40.01 + 40.31) * qtd)
+    # o padrao continua sendo o mini-dolar
+    assert lab.espec_de(None)["valor_ponto"] == 10.0 and lab.espec_de("vale3")["tipo"] == "acao"

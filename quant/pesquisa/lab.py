@@ -35,6 +35,20 @@ import numpy as np
 import pandas as pd
 
 TICK, VALOR_PONTO, TAXA = 0.5, 10.0, 1.20
+# Cada mercado com o seu custo (09/10/2026: o Douglas liberou mini-indice e acoes). Futuro: taxa em reais por contrato e
+# por lado. Acao: taxa em fracao do financeiro por lado (emolumentos e liquidacao de day trade da B3) e posicao de
+# `financeiro` reais por negocio, em lote de 100. O deslize e sempre 1 tick nas ordens a mercado.
+# Custo de ida e volta em relacao ao preco: mini-indice ~0,007%, mini-dolar ~0,02%, acao de R$ 35 ~0,11%.
+ESPEC = {
+    "WDO": {"tipo": "futuro", "tick": 0.5, "valor_ponto": 10.0, "taxa": 1.20, "contratos": 2},
+    "WIN": {"tipo": "futuro", "tick": 5.0, "valor_ponto": 0.20, "taxa": 0.30, "contratos": 2},
+    "ACAO": {"tipo": "acao", "tick": 0.01, "taxa_pct": 0.00025, "financeiro": 20_000.0},
+}
+
+
+def espec_de(ativo):
+    """As contas do mercado: WDO, WIN, ou acao/ETF (qualquer outro codigo)."""
+    return ESPEC.get(str(ativo or "WDO").upper(), ESPEC["ACAO"])
 PASTA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "saida", "pesquisa5")
 REGISTRO = os.path.join(PASTA, "registro.jsonl")
 PARTES = {"descoberta": ("2021-10-01", "2024-12-31"), "validacao": ("2025-01-01", "2025-12-31"), "prova": ("2026-01-01", "2026-12-31")}
@@ -104,11 +118,12 @@ def _vetor(x, n):
 
 
 def negocios(m, sinais, stop, alvo=None, tempo=None, arrasto=None, ini="09:15", ult="12:50", zerar="13:00", limite=None,
-             validade=5, alvo_no_toque=False):
+             validade=5, alvo_no_toque=False, tick=None):
     """Simula. `sinais`: um valor por barra (+1, -1, 0), decidido no fechamento da barra. `stop`, `alvo`, `arrasto` em
     pontos e `tempo` em minutos: numero ou vetor por barra (vale o da barra do sinal). `limite`: vetor com o preco da
     ordem parada de entrada (NaN = a mercado), valida por `validade` minutos. Devolve um DataFrame de negocios."""
     n = len(m)
+    TICK = float(tick) if tick else globals()["TICK"]           # o tick do mercado (padrao: mini-dolar)
     o, h, l, c = (m[k].to_numpy(dtype=float) for k in ("o", "h", "l", "c"))
     horas, d = hm(m), dia(m)
     s = np.nan_to_num(np.asarray(sinais, dtype=float))
@@ -173,9 +188,18 @@ def negocios(m, sinais, stop, alvo=None, tempo=None, arrasto=None, ini="09:15", 
     return t
 
 
-def medir(t, contratos=2):
+def medir(t, contratos=None, espec=None):
+    """Resultado em reais de cada negocio, depois de custo, no tamanho padrao do mercado (`espec`; sem ele, mini-dolar)."""
     t = t.copy()
-    t["res"] = t.pts * VALOR_PONTO * contratos - 2 * TAXA * contratos
+    e = espec or ESPEC["WDO"]
+    if e["tipo"] == "acao":
+        qtd = np.maximum(100.0, np.floor(e["financeiro"] / t.entrada.to_numpy(dtype=float) / 100.0) * 100.0) if len(t) else np.array([])
+        sinal = np.where(t.lado.to_numpy() == "C", 1.0, -1.0) if len(t) else np.array([])
+        saida = t.entrada.to_numpy(dtype=float) + sinal * t.pts.to_numpy(dtype=float) if len(t) else np.array([])
+        t["res"] = t.pts.to_numpy(dtype=float) * qtd - e["taxa_pct"] * (t.entrada.to_numpy(dtype=float) + saida) * qtd
+    else:
+        k = contratos or e["contratos"]
+        t["res"] = t.pts * e["valor_ponto"] * k - 2 * e["taxa"] * k
     return t
 
 
@@ -184,9 +208,9 @@ def _t(x):
     return float(x.mean() / (x.std(ddof=1) / np.sqrt(len(x)))) if len(x) > 3 and x.std(ddof=1) > 0 else float("nan")
 
 
-def resumir(t, pregoes, contratos=2):
+def resumir(t, pregoes, contratos=None, espec=None):
     """Numeros de um conjunto de negocios (DataFrame de `negocios`)."""
-    t = medir(t, contratos)
+    t = medir(t, contratos, espec)
     if not len(t):
         return {"n": 0}
     dt = pd.to_datetime(t.dia)
@@ -206,12 +230,15 @@ def resumir(t, pregoes, contratos=2):
 
 
 def avaliar(m, sinais, nome, familia="", stop=8.0, alvo=None, tempo=None, arrasto=None, ini="09:15", ult="12:50", zerar="13:00",
-            limite=None, validade=5, alvo_no_toque=False, contratos=2, registrar=True, extra=None):
-    """Simula e resume. Grava uma linha no registro (toda hipotese olhada conta). Devolve o resumo, com `negocios`."""
-    t = negocios(m, sinais, stop, alvo, tempo, arrasto, ini, ult, zerar, limite, validade, alvo_no_toque)
+            limite=None, validade=5, alvo_no_toque=False, contratos=None, registrar=True, extra=None, ativo="WDO"):
+    """Simula e resume, com as contas do mercado `ativo` ("WDO", "WIN" ou o codigo de uma acao/ETF: stop, alvo e arrasto
+    sempre na unidade de preco do ativo). Grava uma linha no registro (toda hipotese olhada conta). Devolve o resumo."""
+    e = espec_de(ativo)
+    t = negocios(m, sinais, stop, alvo, tempo, arrasto, ini, ult, zerar, limite, validade, alvo_no_toque, tick=e["tick"])
     pregoes = len(set(dia(m)))
-    r = resumir(t, pregoes, contratos)
-    r.update(nome=nome, familia=familia, janela=f"{ini}-{ult}", pregoes=pregoes, de=str(m.index[0].date()), ate=str(m.index[-1].date()))
+    r = resumir(t, pregoes, contratos, e)
+    r.update(nome=nome, familia=familia, ativo=str(ativo).upper(), janela=f"{ini}-{ult}", pregoes=pregoes, de=str(m.index[0].date()),
+             ate=str(m.index[-1].date()))
     if registrar:
         os.makedirs(PASTA, exist_ok=True)
         linha = {k: v for k, v in r.items()}

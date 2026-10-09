@@ -10,7 +10,10 @@ from quant.daytrade import historico as h
 from quant.pesquisa import lab
 
 ARQUIVOS = {"WDO": "WDOSD", "WDO_SEM_AJUSTE": "WDOSN", "DOL": "DOLSN", "WIN": "WINSN", "DI27": "DI1F27", "DI29": "DI1F29", "DI1": "DI1SN",
-            "WSP": "WSPSN", "PETR4": "PETR4", "VALE3": "VALE3"}
+            "WSP": "WSPSN", "PETR4": "PETR4", "VALE3": "VALE3",
+            # 09/10/2026: o Douglas liberou mini-indice e acoes; as mais liquidas e o ETF do Ibovespa
+            "ITUB4": "ITUB4", "BBDC4": "BBDC4", "BBAS3": "BBAS3", "B3SA3": "B3SA3", "ABEV3": "ABEV3", "WEGE3": "WEGE3", "PRIO3": "PRIO3",
+            "PETR3": "PETR3", "SUZB3": "SUZB3", "RENT3": "RENT3", "BOVA11": "BOVA11", "ITSA4": "ITSA4"}
 
 
 def ler(simbolo, pasta=fx.PASTA_MT5):
