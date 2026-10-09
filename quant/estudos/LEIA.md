@@ -153,3 +153,16 @@ por pregao). O gatilho ao vivo passou de 4 para 3 (`robo_fluxo.DADO`). Medir em 
 
 O que isso NAO muda: o setup rende, com 2 contratos, de R$ 10 a R$ 40 por pregao (0,01% a 0,04% do capital). A meta de
 1% ao dia fica 25 a 100 vezes acima, e nenhum gatilho opera todo dia: abaixo de 3 pontos a reversao perde.
+
+## 09/10/2026, noite: terceira rodada (mini-indice e acoes) e a meta de 0,5% ao dia
+
+O Douglas baixou a meta para 0,5% ao dia e liberou mini-indice e acoes. `lab.ESPEC` / `lab.avaliar(ativo=...)` passaram a
+ter as contas de cada mercado (custo de ida e volta: WIN ~0,01% do preco, WDO ~0,02%, acao ~0,11%); a base ganhou 13 acoes
+e o BOVA11. Quatro frentes (~15 mil medicoes): NENHUMA regra aprovada. O detalhe esta em `quant/pesquisa/FILA.md`.
+- A unica candidata (WIN: a tendencia do dia continua nos ultimos 30 minutos; descoberta t 6,6) foi reprovada na validacao
+  de 2025 (-R$ 4,47 por negocio, acerto de 40%). Reimplementada de forma independente em
+  `quant/pesquisa/regras/win_fim_do_dia.py` (800 de 801 sinais iguais aos da frente). Fica para a prova viva.
+- Em acoes o custo (0,11%) e 3 a 20 vezes maior que qualquer efeito intradiario encontrado.
+- Conta que foi dita ao Douglas: com perda maxima de 1% ao dia, um sistema excelente rende cerca de 0,1% ao dia; 0,5% pede
+  oscilar uns 4% ao dia. Somando as tres rodadas: mais de 30 mil medicoes em 5 anos, tres mercados, UMA regra aprovada
+  (reversao do dado americano no mini-dolar), que rende 0,01% a 0,04% ao dia com 2 contratos.
