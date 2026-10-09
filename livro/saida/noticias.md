@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 18h12
+NOTÍCIAS E FATOS · 09/10 20h08
 
-Pernas: noticias ok 7 novas (18 consultas; descartadas: 453 veículo fora da lista, 53 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 15 novas (18 consultas; descartadas: 440 veículo fora da lista, 52 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -141,8 +141,23 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (127)
+## OUTRAS NOTÍCIAS (só manchete) (142)
 
+· USDBRL Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana
+· BTC XRP ETFs Gain as Bitcoin and Ethereum Funds Lose $317 Million. Is It a Trend? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/xrp-etfs-gain-bitcoin-ethereum-220022976.html
+· DI Juros futuros caem com ‘trade eleitoral’ e ignoram IPCA elevado (Money Times) https://www.moneytimes.com.br/juros-futuros-9-10-26-apsa/
+· USDBRL Dólar fecha abaixo de R$ 5 e cai 4,44% na semana; até onde vai a queda? (Suno Noticias) https://www.suno.com.br/noticias/dolar-abaixo-5-queda-cambio-analistas-mt/
+· GOOGL Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending? (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/microsoft-vs-alphabet-ai-cloud-212027785.html
+· PETR4 Petrobras vê Belém como base de apoio a possível polo petrolífero no Amapá (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-ve-belem-como-base-de-apoio-a-possivel-polo-petrolifero-no-amapa/
+· KO Should Coca-Cola’s Upgraded Outlook and Prebiotic Push Require Action From Coca-Cola (KO) Investors? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/coca-cola-upgraded-outlook-prebiotic-211258629.html
+· BTC Weekly Wrap: Rising Treasury Yields Sink Bitcoin (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-rising-treasury-yields-205200729.html
+· USDBRL Semana fecha com topo histórico, dólar derrete com trade eleitoral (Investing.com) https://br.investing.com/analysis/semana-fecha-com-topo-historico-dolar-derrete-com-trade-eleitoral-200480082
+· USDBRL Ibovespa tem nova alta forte e renova máxima histórica; dólar cai a R$ 4,98 (InfoMoney) https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09102026/
+· BTC IBIT: A Strategic Bet On A Bitcoin Comeback (NASDAQ:IBIT) (Seeking Alpha) https://seekingalpha.com/article/4953164-ibit-a-strategic-bet-on-a-bitcoin-comeback
+· PLTR Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/PLTR/
+· LITE Lumentum: At The Point Of A Potential Upside Breakout (Seeking Alpha) https://seekingalpha.com/article/4953150-lumentum-at-the-point-of-an-upside-breakout
+· NVDA NVIDIA's Rally in Trouble? Analyst Warns of Bull Trap (TradingView (Reuters)) https://news.google.com/rss/articles/CBMisAFBVV95cUxNbm1tbmx1dVd1aVVFSlg4RHBhQmpwUThQYjhZT05NMi1NOXNNeGdjTlhNdzlOc0htOE0wQmNqRHlxY2FCSnVxbjVvbTYzdmVudUZRTDdwR3RfdmV5dlJtakh0RS1JWnRWWWtkTjNkYzFMUnhvY3d0aXpMYWNwMm9EY3hnVzhOQ2lOVnVhWHRKSVdwOTB5ZGJaNFd2UXotTlNBcE5XZUVzWnhCbzFERWhXaA?oc=5
+· JPM JPMorgan, Citigroup, And Bank Of America Earnings Previews: Eventually A Return To More Normal Growth (Seeking Alpha) https://news.google.com/rss/articles/CBMivgFBVV95cUxQWEJQVEs0YzBKSF9FRGFzT2lVZkNxNHI3SmV0RXlTMjVGM2JZUnc5M0xUSWpNTVBTaDJJOUgtZy13MnVFREFUelZNNDJKMC1xR1pYMkVuazhXUGo5bGxSdHdUa0E4emZ3amQ5Q3pQMGh5em5XTnoxbjlueHdVUkhvY0hjT3FHdEhaTVRaSUdqdHVjU1B2MUo4RlB3MVRVYWxkZDRXaWxJVHRmRDdqRmQ2WDhyTmxRTnFBUVlYeVdn?oc=5
 · USDBRL Dólar cai com pesquisas eleitorais e acumula baixa de 4,44% na semana, diante do real (ADVFN) https://br.advfn.com/jornal/2026/10/dolar-cai-com-pesquisas-eleitorais-e-acumula-baixa-de-4-44-na-semana-diante-do-real
 · BABA Alibaba's Earnings Turn May Be Underpriced (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:29019dc8e094b:0-alibaba-s-earnings-turn-may-be-underpriced/
 · AMD AMD CEO Su shares important supply news with stock market investors (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-ceo-su-shares-important-191300089.html
@@ -188,19 +203,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · BABA Citi, Morgan Stanley Put Alibaba Back in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e594d8544094b:0-citi-morgan-stanley-put-alibaba-back-in-focus/
 · BABA Alibaba Group Holding Limited Earnings and Revenue – BX:9988 (TradingView (Reuters)) https://www.tradingview.com/symbols/BX-9988/financials-earnings/?earnings-period=FQ&revenues-period=FQ
 · MRVL Marvell (MRVL) Is Aiming for $90B in Sales. Why Does It Trade Under 24 Times Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-aiming-90b-sales-132516704.html
-· KO Coca-Cola Is The Ultimate Compounder: Why I’m Continuing To Consume It (NYSE:KO) (Seeking Alpha) https://seekingalpha.com/article/4953101-coca-cola-is-the-ultimate-compounder-why-im-continuing-to-consume-it
-· LITE Lumentum stock holds Outperform at Evercore on AI demand outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4873922
-· KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4903419
-· TSLA Midday Need to Know: Delta slides on earnings miss, Tesla gains on China sales & more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:03a4bb666094b:0-midday-need-to-know-delta-slides-on-earnings-miss-tesla-gains-on-china-sales-more/
-· AMD Prediction: This Will Be AMD's Stock Price in 1 Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-amds-stock-price-1-165200419.html
-· AVGO What's Going On With Broadcom Stock Friday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:247d39d64094b:0
-· KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4873937
-· EQTL3 Equatorial Piauí tenta antecipar repasse de R$ 274,5 milhões da UBP (UOL Economia) https://megawhat.uol.com.br/destaques-do-diario/equatorial-piaui-tenta-antecipar-repasse-de-r-2745-milhoes-da-ubp/
-· LITE Lumentum stock holds Outperform at Evercore on AI demand outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4903404
-· TSLA Midday Need to Know: Delta slides on earnings miss, Tesla gains on China sales & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4651829-midday-need-to-know-delta-slides-on-earnings-miss-tesla-gains-on-china-sales-more
-· BTC Thailand SEC clears the way for local spot Bitcoin and Ether ETFs (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:dba7650be094b:0-thailand-sec-clears-the-way-for-local-spot-bitcoin-and-ether-etfs/
-· GFS GlobalFoundries Can Profit From AI Without Making GPUs (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/globalfoundries-profit-ai-without-making-162441306.html
-· GOOGL Prediction: Alphabet Could Be One of the Market’s Biggest Winners Over the Next 5 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-alphabet-could-one-market-150007982.html
-· BAC Should BAC Shares Be Added to Your Portfolio Ahead of Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:45a1bff5a094b:0-should-bac-shares-be-added-to-your-portfolio-ahead-of-q3-earnings/
-· SBSP3 EMAE sai da B3 em 23 de outubro após incorporação pela Sabesp (UOL Economia) https://www.bol.uol.com.br/economia/2026/10/09/emae-sai-da-b3-em-23-de-outubro-apos-incorporacao-pela-sabesp.ghtm
-· (+67 manchetes; lista completa em eventos/noticias.json)
+· (+82 manchetes; lista completa em eventos/noticias.json)
