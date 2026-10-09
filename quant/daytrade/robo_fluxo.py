@@ -81,7 +81,13 @@ CLIMAX_PROVA = {"pregoes": 1071, "de": "outubro de 2021", "ate": "janeiro de 202
 # stop de 40 pontos, sem alvo e sem parcial. Com 2 contratos: descoberta 262 negocios, +R$ 116 por negocio (t 3,2,
 # 7 de 7 semestres); validacao 45 negocios, +R$ 19; prova 32 negocios, +R$ 91. Fora da descoberta: 77 negocios, +R$ 49
 # (t 0,9): positivo nos seis anos, mas ainda sem forca estatistica sozinho. Os parametros estao CONGELADOS: nao reotimizar.
-DADO = {"minutos": 2, "limiar": 4.0, "stop": 40.0, "tempo_max": 120, "atraso_max_s": 8}
+# ESTUDO DO GATILHO (09/10/2026, pedido do Douglas): so com a descoberta, por faixa de reacao: ate 3 pontos a reversao
+# PERDE (-R$ 15 a -R$ 78 por negocio); de 3 a 6 e pequena (+R$ 46 a +R$ 56); acima de 6 e forte (+R$ 148 a +R$ 167).
+# O gatilho que da mais resultado por pregao na descoberta e 3 pontos (338 negocios, +R$ 100, t 3,3, 7 de 7 semestres).
+# Levado a validacao e a prova com a saida igual: 2025 +R$ 27 (62 negocios), 2026 +R$ 56 (54); fora da descoberta 116
+# negocios, +R$ 40 (t 1,0), contra 77 negocios e +R$ 49 com 4 pontos: 50% mais entradas e resultado total um pouco maior.
+# Por isso o gatilho passou de 4 para 3. Abaixo de 3 NAO: os anos de busca mostram prejuizo.
+DADO = {"minutos": 2, "limiar": 3.0, "stop": 40.0, "tempo_max": 120, "atraso_max_s": 8}
 DADO_ESPERA_S = 10.0              # como no climax: o sinal vale por estes segundos, se o spread abrir logo depois do dado
 DADO_RESERVA_MIN = 22             # antes do dado as outras leituras nao abrem posicao: a vaga e do setup proprio
 QUEM_OPERA = {"dado_opera": True, "climax_opera": True, "niveis_opera": False}
@@ -193,9 +199,10 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
         f"pontos, o robô entra CONTRA esse movimento no minuto seguinte. Sem alvo e sem parcial: sai depois de {d['tempo_max']} minutos, ou no "
         f"stop de {ef._n(d['stop'])} pontos. Antes do dado as outras leituras não abrem posição: a vaga é deste setup.",
         "De onde veio: busca de 08/10/2026 em 5 anos de barras de 1 minuto (sete frentes, milhares de hipóteses). Foi a única regra que "
-        "passou. Com 2 contratos: 2021 a 2024, 262 negócios, 59% de acerto, +R$ 116 por negócio; 2025, 45 negócios, +R$ 19; 2026, 32 "
-        "negócios, +R$ 91. Positivo nos seis anos, mas nos dois últimos (os que a busca não viu) a média é +R$ 49 e ainda pode ser acaso. "
-        "Dá 1 entrada a cada 3 a 6 pregões; cada negócio ganha ou perde perto de R$ 400 e o stop cheio custa R$ 815.",
+        "passou. Com 2 contratos e o gatilho de 3 pontos: 2021 a 2024, 338 negócios, 58% de acerto, +R$ 100 por negócio; 2025, 62 "
+        "negócios, +R$ 27; 2026, 54 negócios, +R$ 56. Positivo nas três partes, mas nos dois últimos anos (os que a busca não viu) a "
+        "média é +R$ 40 e ainda pode ser acaso. Reação menor que 3 pontos não devolve (nos anos de busca, perde): por isso o gatilho não "
+        "desce mais. Dá 1 entrada a cada 2 a 4 pregões; cada negócio ganha ou perde perto de R$ 400 e o stop cheio custa R$ 815.",
     ]
     return proprio + [
         "Só mini-dólar, em simulação. " + quem + " Revisão de 08/10/2026: em 888 pregões o teste de nível perdeu o custo da operação "

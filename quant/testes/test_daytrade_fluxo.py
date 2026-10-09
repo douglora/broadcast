@@ -1112,7 +1112,7 @@ def test_setup_do_dado_entra_contra_a_reacao_mesmo_na_pausa_e_sai_por_tempo(tmp_
     rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
     _fita_do_dado(mt5, reacao=6.0)
     r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
-    assert r.dado_opera is True and rf.DADO == {"minutos": 2, "limiar": 4.0, "stop": 40.0, "tempo_max": 120, "atraso_max_s": 8}
+    assert r.dado_opera is True and rf.DADO == {"minutos": 2, "limiar": 3.0, "stop": 40.0, "tempo_max": 120, "atraso_max_s": 8}
     r.codigos = {"WDOFUT": "WDOX26"}
     r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
     agora = datetime(2026, 10, 8, 9, 32, 3, tzinfo=BRT)                # dentro da pausa do dado (9h28 a 9h40): este setup passa
@@ -1139,7 +1139,7 @@ def test_setup_do_dado_entra_contra_a_reacao_mesmo_na_pausa_e_sai_por_tempo(tmp_
 
 def test_setup_do_dado_nao_entra_com_reacao_pequena_e_reserva_a_vaga_antes_do_dado(tmp_path, monkeypatch):
     rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
-    _fita_do_dado(mt5, reacao=3.0)
+    _fita_do_dado(mt5, reacao=3.0)                                   # exatamente 3 pontos nao basta: o gatilho pede MAIS de 3
     r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
     r.codigos = {"WDOFUT": "WDOX26"}
     r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": True, "setup": "niveis", "tempo_min": 6,

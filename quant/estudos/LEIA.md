@@ -129,3 +129,27 @@ a busca olhou mais de 12 mil medicoes. O tamanho real do efeito deve estar mais 
   congelados e foi reprovada (2025 -R$ 85, 2026 +R$ 193 por negocio). O que ficou de conhecimento: banco local compra com o
   preco; XP, formadores e BTG compram contra; o ajuste nao e ima; leilao agendado do BC nao tem hora nas barras.
 - Continua valendo: a unica regra aprovada e a reversao da reacao ao dado americano.
+
+## 09/10/2026, 17h45: estudo do gatilho do setup proprio ("estude melhor esse gatilho")
+
+So com a descoberta (2021-2024), por faixa de reacao aos 2 primeiros minutos do dado (saida igual: 120 min, stop 40):
+
+| Reacao | Negocios | Acerto | R$ por negocio |
+|---|---|---|---|
+| ate 1 ponto | 171 | 52% | -14,70 |
+| 1 a 2 | 136 | 43% | -78,10 |
+| 2 a 3 | 120 | 47% | -71,00 |
+| 3 a 4 | 76 | 54% | +46,50 |
+| 4 a 6 | 107 | 53% | +56,10 |
+| 6 a 10 | 82 | 63% | +148,40 |
+| mais de 10 | 73 | 62% | +167,00 |
+
+Reacao pequena nao devolve; a vantagem cresce com o tamanho da reacao. Gatilho acumulado: 3 pontos da o maior resultado
+por pregao (338 negocios, +R$ 100,30, t 3,3, 7 de 7 semestres, R$ 42 por pregao); 4 pontos, R$ 38; 2 pontos, R$ 31.
+Gatilho de 3 levado a validacao e a prova com a saida congelada: 2025 +R$ 26,50 (62 negocios), 2026 +R$ 56,10 (54);
+fora da descoberta 116 negocios, +R$ 40,30 (t 1,0), R$ 10,50 por pregao (com 4 pontos: 77 negocios, +R$ 49,00, R$ 8,50
+por pregao). O gatilho ao vivo passou de 4 para 3 (`robo_fluxo.DADO`). Medir em 1, 3 ou 5 minutos em vez de 2 e pior
+(t 1,5, 2,5 e 1,6).
+
+O que isso NAO muda: o setup rende, com 2 contratos, de R$ 10 a R$ 40 por pregao (0,01% a 0,04% do capital). A meta de
+1% ao dia fica 25 a 100 vezes acima, e nenhum gatilho opera todo dia: abaixo de 3 pontos a reversao perde.

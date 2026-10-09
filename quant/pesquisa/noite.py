@@ -39,7 +39,7 @@ DIR_RELATORIOS = os.path.join(os.path.dirname(DIR_DT), "relatorios")
 # as tres leituras que o robo tem escritas a mao: a chave em modo_robo.json e o veredito do historico
 PROPRIAS = {
     "reversão do dado": {"chave": "dado_opera", "aprovada": True,
-                         "historico": "descoberta +R$ 116, validacao +R$ 19, prova +R$ 91 por negocio (2 contratos)"},
+                         "historico": "gatilho de 3 pontos: descoberta +R$ 100, validacao +R$ 27, prova +R$ 56 por negocio (2 contratos)"},
     "climax de volume": {"chave": "climax_opera", "aprovada": False,
                          "historico": "ganhou em 2026, perdeu R$ 16,50 por negocio de 2021 a 2025"},
     "nível e reação": {"chave": "niveis_opera", "aprovada": False, "historico": "perde cerca de R$ 23 por negocio em 888 pregoes"},
