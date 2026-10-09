@@ -49,4 +49,7 @@ quant/saida/pesquisa5/{ptax_bc,posicao,corretoras}/RESULTADO.md). Nenhuma candid
   compram CONTRA (12 de 12 pregoes), mas depois que a corretora para o preco nao se mexe. Detector de ordem trabalhada na
   fita anonima: nao funciona (AUC 0,50 a 0,55). Pista: fluxo do BTG nos 30 min anteriores -> +3 a +4 pontos nos 15 a 30
   min seguintes (11 de 12 pregoes), mas a corretora so sai depois do fechamento: nao e operavel com o que temos.
+  VALIDACAO nos 8 pregoes guardados (29/09 a 08/10), parametros congelados: REPROVADA (media +0,50 ponto em 30 min, 5 de 8
+  pregoes; pedia 6 de 8 e mais de 1,05). O fato estavel se repetiu em 7 a 8 dos 8: banco local com o preco; XP, varejo e
+  formadores contra. A familia fecha sem pista viva; os ticks seguem sendo baixados porque a B3 so guarda 20 pregoes.
 
