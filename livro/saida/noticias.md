@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 12h22
+NOTÍCIAS E FATOS · 09/10 13h21
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 435 veículo fora da lista, 44 sem ativo, 1 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 444 veículo fora da lista, 45 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -27,7 +27,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no Money Times: Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 09/10 10h17
-id: E05-USDBRL-7b00c7028d-2026-10-09 · status: pendente · íntegra disponível
+id: E05-USDBRL-7b00c7028d-2026-10-09 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms
 CoinDesk · 09/10 07h44 · fonte única · licença: resumo
@@ -43,7 +43,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: BTC
 Como falar: 'saiu no CoinDesk: Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms; confirmar o número no texto antes de repassar'
 Fonte: CoinDesk 09/10 07h44
-id: E05-BTC-fdd6813a5d-2026-10-09 · status: pendente
+id: E05-BTC-fdd6813a5d-2026-10-09 · status: entregue
 
 [ATENÇÃO] E05 · BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
 Agencia Brasil · 08/10 12h37 · fonte única · licença: integral
@@ -59,7 +59,7 @@ Por que importa: evento operacional afeta producao e custo no trimestre corrente
 Ativos: BRENT
 Como falar: 'saiu no Agencia Brasil: Produção de petróleo e gás natural no Brasil bate recorde em 2025; confirmar o número no texto antes de repassar'
 Fonte: Agencia Brasil 08/10 12h37
-id: E05-BRENT-37b7747fcd-2026-10-08 · status: pendente · íntegra disponível
+id: E05-BRENT-37b7747fcd-2026-10-08 · status: entregue · íntegra disponível
 
 [ATENÇÃO] E05 · MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre
 Valor Economico · 09/10 08h29 · fonte única · licença: resumo
@@ -107,8 +107,17 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (58)
+## OUTRAS NOTÍCIAS (só manchete) (67)
 
+· TSLA Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe (TechCrunch) https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/
+· USDBRL Ibovespa renova máxima no dia e dólar cai abaixo de R$ 5, mas IPCA lembra: a conta dos juros ainda não fechou (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-renova-maxima-no-dia-e-dolar-cai-abaixo-de-r-5-mas-ipca-lembra-a-conta-dos-juros-ainda-nao-fechou-ccgg/
+· DI Inflação de setembro fura teto da meta e divide o mercado sobre os rumos da Selic (InfoMoney) https://www.infomoney.com.br/economia/ipca-setembro-alta-meta-selic-09102026/
+· ITUB4 Esteves e Itaú discordam sobre arroz — afinal, quanto vale a Camil? (O Globo) https://oglobo.globo.com/blogs/capital/coluna/2026/10/esteves-e-itau-discordam-sobre-arroz-quanto-vale-a-camil.ghtml
+· GOOGL Is Alphabet Stock Priced Right Against Its Peers? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-priced-against-peers-133003487.html
+· USDBRL Bolsa bate recorde intradiário após Datafolha mostrar Flávio à frente de Lula; Dólar cai (Folha de S.Paulo) https://www1.folha.uol.com.br/mercado/2026/10/dolar-abre-em-queda-com-eleicao-no-radar-e-inflacao-acima-do-esperado.shtml
+· USDBRL Ibovespa opera em alta e vai aos 209 mil pontos, com inflação e eleições no foco; dólar cai (g1) https://g1.globo.com/economia/noticia/2026/10/09/dolar-ibovespa.ghtml
+· MRVL Why Is Marvell Technology Stock Gaining Friday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:844750d1f094b:0
+· JPM JPMorgan Securities (Thailand) Ltd Warrant 2025-10.12.26 on VGI Global Medi (TradingView (Reuters)) https://www.tradingview.com/symbols/SET-VGI41C2612T/financials-statistics-and-ratios/price-earnings-fwd/
 · JPM JPMorgan, Citi, Bank Of America Earnings Previews: Eventually Return To More Normal Growth (Seeking Alpha) https://seekingalpha.com/article/4953114-jpmorgan-citigroup-bac-earnings-previews-eventually-return-to-more-normal-growth
 · LITE Lumentum Can’t Keep Up With AI Demand—and Its Stock Is Surging (Barron's) https://www.barrons.com/articles/lumentum-stock-ai-optical-component-shortages-b2580d80
 · USDBRL Dólar canadense cai após perda de empregos e recuo nas apostas de alta de juros (Investing.com) https://br.investing.com/news/stock-market-news/dolar-canadense-cai-apos-perda-de-empregos-e-recuo-nas-apostas-de-alta-de-juros-2088039
@@ -160,10 +169,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · LITE Coherent Shares Rise 3.5% as Lumentum Highlights Strong AI Optical Component Demand (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherent-shares-rise-3-5-104542372.html
 · USDBRL Pesquisa Datafolha e IPCA mexem com mercado no último pregão da semana; Ibovespa em dólar sobe nesta sexta-feira (9) (Money Times) https://www.moneytimes.com.br/pesquisa-datafolha-e-ipca-mexem-com-mercado-no-ultimo-pregao-da-semana-ibovespa-em-dolar-sobe-nesta-sexta-feira-9-rens/
 · COHR Why is Coherent stock rallying today? By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/why-is-coherent-stock-rallying-today-93CH-5625517
-· USDBRL Libra esterlina sobe levemente com recuo do dólar (Investing.com) https://br.investing.com/news/forex-news/libra-esterlina-sobe-levemente-com-recuo-do-dolar-2087611
-· ETH Ethereum Price Analysis: Whale Liquidated, Is $2,400 Next? (TradingView (Reuters)) https://www.tradingview.com/news/99Bitcoins:5e3ecd321094b:0-ethereum-price-analysis-whale-liquidated-is-2-400-next/
-· INTC Intel Has A $100 Billion Problem (NASDAQ:INTC) (Seeking Alpha) https://news.google.com/rss/articles/CBMiekFVX3lxTE5UUExYbDZnVE04MFFPQk9rOEhLMWgxa3JHbzVMbkxodXBhNGJMVTJwNEU2SHlGN0QtcVkxQ3JuM0w5bGZhcW5ZSlhpSG5PYVRoVEZsLUdyUmpJUDRpOFJLVlE5SFZpLVNneXBJSV9FUVNhcEZaMFRYYlJB?oc=5
-· BTC Bitcoin Price Flashes a Hidden Uptrend Signal Amid One 96% Problem (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPUV92YW1NNGdodEFEYUxGeENranhqMTd3OHh4X0gtRzNra29rTHdSX1NTQ0pTSmZNaVVoQnB5U2tWTFZ1TGRFMmthd3poaWFON1JKU1BTcUhkVGJ5OFV1d2k4cUJITi0tUFdKb1RiMG1wbzJvWHlDQmlhN21Ccm5hM05XYVlYZnZPMkZsS1c0UkY0NUJmalpxbVpCOXRXeG1RWU5R?oc=5
-· UST U.S. Treasury Yields Edge Higher, Eurozone Bond Yields Decline (The Wall Street Journal) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXFheWdiVEtRYmd1ZEtRVXBWRzJZS05pR3Vmcm4xXy05SnlxZ0F1ZkNOUjFTMkppSklPMUh4b1NObWE3ZFdad3U2dnJndXhCYm1qRko3LUMyTU5nelExdFV1UnBtRkRxcG82NkdYWnd6N2JHSDBUTGFqMHhaeEdpajFja0tlek5aR191WXFIV01wdHQ5d25MMURSYlZwamk2RFZTeUl6d3Y3MUE?oc=5
-· UST Gold rises over 1% as dollar, Treasury yields ease; set for weekly gains (Investing.com) https://news.google.com/rss/articles/CBMiugFBVV95cUxNb213N2JhZXJ0b01JeGJYYUJyUi1CaVpsVExCZnJMNkJ0VHk1RU9odXNZS0lWUlJLUzZST3AyekJiOUEyY0d1NldZTFdkM3Y5LXB3T1RnQTM5eDhNSUsyNjFpUFlySnZZNzJCRC1tdWVETEJmRVVlMy05OU44N2I2aW1DM05VVlBCTWJDY3dSM3c3OVZ0RE52RUFoQmZZb0YyMkVIbTQtZGtvYm1NaUtBS1V4aWdQUTZpRnc?oc=5
-· LITE Nvidia-Backed Lumentum Sees Opto-Parts Capacity Sold Out to 2029 (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029
+· (+7 manchetes; lista completa em eventos/noticias.json)
