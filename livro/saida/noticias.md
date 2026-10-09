@@ -1,8 +1,36 @@
-NOTÍCIAS E FATOS · 08/10 18h13
+NOTÍCIAS E FATOS · 08/10 21h13
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 458 veículo fora da lista, 35 sem ativo, 14 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 454 veículo fora da lista, 31 sem ativo, 12 teto) · cvm ok 6 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
-## FATOS RELEVANTES E COMUNICADOS (CVM) (2)
+## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
+
+[ATENÇÃO] E03 · SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (“EMAE” e, em conjunto com a Sabesp, as “Companhias”), em atendimento ao artigo 1…
+CVM · entregue 08/10/2026 20:30
+Do documento:
+  – São Paulo, 08 de outubro de 2026.
+  – 14/09 Publicação da ata da Assembleia da Sabesp no jornal “Valor Econômico”.
+  – 16/09  Realização da Assembleia da EMAE às 11h.
+  – 17/09 Publicação da ata da Assembleia da EMAE no jornal “Folha de São Paulo”.
+  – 18/09 Início do prazo para exercício do Direito de Retirada.
+  – 30/09 Último dia de atendimento pelo Antigo Escriturador (bloqueio p/corretoras,  pagamentos, transferência de titularidade etc.) à EMAE.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575714
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: SBSP3
+Como falar: 'a Sabesp publicou fato relevante sobre (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (…'
+Fonte: CVM 08/10
+id: E03-SBSP3-1575714-2026-10-08 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante Homologação do Aumento de Capital pelo Banco Central do Brasil, com a consequen…
+CVM · entregue 08/10/2026 18:50
+Do documento:
+  – As ações subscritas no Aumento de Capital serão emitidas e creditadas em nome dos  respectivos subscritores em 13.10.2026.
+  – Cidade de Deus, Osasco, SP, 8 de outubro de 2026.
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575663
+Por que importa: fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+Ativos: BBDC4
+Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante…'
+Fonte: CVM 08/10
+id: E03-BBDC4-1575663-2026-10-08 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E03 · PETR4 · Fato Relevante: Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e do 6º Ciclo de Oferta Permanente de Concessão promovidos pela Agência Nacional…
 CVM · entregue 08/10/2026 08:44
@@ -16,6 +44,42 @@ Ativos: PETR4
 Como falar: 'a Petrobras publicou fato relevante sobre Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e…'
 Fonte: CVM 08/10
 id: E03-PETR4-1575304-2026-10-08 · status: entregue · íntegra disponível
+
+[INFO] E03 · MRVE3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 08/10/2026 20:48 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575733
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: MRVE3
+Como falar: 'a MRV publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 08/10
+id: E03-MRVE3-1575733-2026-10-08 · status: linha
+
+[INFO] E03 · AXIA3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 08/10/2026 20:08 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575697
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: AXIA3
+Como falar: 'a Axia Energia publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 08/10
+id: E03-AXIA3-1575697-2026-10-08 · status: linha
+
+[INFO] E03 · CURY3 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
+CVM · entregue 08/10/2026 18:27 · Apresentações a analistas/agentes do mercado
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575625
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: CURY3
+Como falar: 'a Cury Construtora e Incorporadora publicou comunicado ao mercado sobre Apresentações a analistas/agentes do mercado'
+Fonte: CVM 08/10
+id: E03-CURY3-1575625-2026-10-08 · status: linha
+
+[INFO] E03 · CURY3 · Comunicado ao Mercado: Outros Comunicados Não Considerados Fatos Relevantes
+CVM · entregue 08/10/2026 18:20 · Outros Comunicados Não Considerados Fatos Relevantes
+Link: https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575614
+Por que importa: comunicado ao mercado costuma responder a noticia ou a oficio; confirma ou nega o que circula
+Ativos: CURY3
+Como falar: 'a Cury Construtora e Incorporadora publicou comunicado ao mercado sobre Outros Comunicados Não Considerados Fatos Relevantes'
+Fonte: CVM 08/10
+id: E03-CURY3-1575614-2026-10-08 · status: linha
 
 [INFO] E03 · ITSA4 · Comunicado ao Mercado: Apresentações a analistas/agentes do mercado
 CVM · entregue 08/10/2026 09:31 · Apresentações a analistas/agentes do mercado
@@ -46,7 +110,32 @@ Fonte: SEC EDGAR 2026-10-08
 id: E04-TSM-26000680-2026-10-08 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (12)
+## NOTÍCIAS COM MATERIALIDADE (14)
+
+[ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação
+Money Times · 08/10 20h07 · fonte única · licença: integral
+Do texto:
+  – Segundo o fato relevante, as ações subscritas no aumento de capital serão emitidas e creditadas aos respectivos subscritores em 13 de outubro de 2026.
+  – Com a homologação, o banco também atualizou os valores dos juros sobre o capital próprio (JCP) deliberados pelo conselho de administração em 30 de setembro.
+  – O montante total segue em R$ 3,8 bilhões, mas o valor por ação foi ajustado em razão da nova quantidade de papéis em circulação após a emissão das novas ações.
+  – O banco destacou que, fora esse ajuste nos valores por ação, permanecem inalteradas as demais condições do comunicado anterior, inclusive o valor global do JCP e a data de pagamento, prevista para ocorrer até 30 de abri…
+  – A movimentação ocorre após o banco já ter concluído o leilão de sobras e informado a homologação do aumento de capital de R$ 10 bilhões, divulgado recentemente.
+  – Link do documento original: https://www.rad.cvm.gov.br/ENETWEB/frmExibirArquivoIPEExterno.aspx?ID=1575663&flnk
+Link: https://www.moneytimes.com.br/bradesco-bbdc4-tem-aumento-de-capital-homologado-pelo-bc-e-ajusta-jcp-por-acao/
+Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+Ativos: BBDC4
+Como falar: 'saiu no Money Times: Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação; confirmar o número no texto antes de repassar'
+Fonte: Money Times 08/10 20h07
+id: E05-BBDC4-0684110eca-2026-10-08 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken Contracts
+TradingView (Reuters) · 08/10 18h13 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:068c81b6deac5:0-hess-midstream-to-acquire-chevron-dj-basin-midstream-assets-pays-200m-and-resets-bakken-contracts/
+Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
+Ativos: CVX
+Como falar: 'saiu no TradingView (Reuters): Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken…; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 08/10 18h13
+id: E05-CVX-d989f8916b-2026-10-08 · status: pendente
 
 [ATENÇÃO] E05 · DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até 25% de alta
 Seu Dinheiro · 08/10 16h10 · fonte única · licença: resumo
@@ -198,8 +287,22 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (135)
+## OUTRAS NOTÍCIAS (só manchete) (149)
 
+· PETR4 CEO da Petrobras (PETR4): Os possíveis nomes para um eventual governo Flávio, segundo jornal (Money Times) https://www.moneytimes.com.br/os-possiveis-ceos-da-petrobras-petr4-em-um-governo-flavio-segundo-jornal-rnda/
+· PETR4 Análise: Resultado dos leilões da ANP consolida força da Bacia de Campos e ratifica poder de fogo da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/08/analise-resultado-dos-leiloes-da-anp-consolida-forca-da-bacia-de-campos-e-ratifica-poder-de-fogo-da-petrobras.ghtml
+· BBDC4 Bradesco recebe aval do Banco Central para aumento de capital de R$ 10 bilhões (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-recebe-aval-do-bc-para-reforco-de-r-10-bilhoes-no-capital-e-mira-nova-fase-de-crescimento/
+· CURY3 Cury (CURY3): Vendas líquidas crescem 10,7% e atingem R$ 1,8 bi no 3T26; veja prévia (Money Times) https://www.moneytimes.com.br/cury-cury3-vendas-liquidas-crescem-114-e-atingem-r-18-bilhoes-no-3t26-veja-previa-pads/
+· DI Juros futuros caem com leilão do Tesouro, quadro eleitoral e alívio nos Treasuries (Money Times) https://www.moneytimes.com.br/juros-futuros-8-10-26-apsa/
+· USDBRL Euro cai a R$ 5,62: por que moeda perde mais força que o dólar — e até onde pode ir? (InfoMoney) https://www.infomoney.com.br/mercados/euro-real-eur-brl-queda-ate-onde-pode-ir/
+· MU Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’ (MarketWatch) https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53
+· UST Gold ticks up as U.S. Treasury yields pull back from early highs (GLD:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4651596-gold-ticks-up-as-us-treasury-yields-pull-back-from-early-highs
+· DI IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9) (Money Times) https://www.moneytimes.com.br/ipca-pode-frear-os-cortes-da-selic-inflacao-deve-superar-teto-da-meta-nesta-sexta-9/
+· TSLA Tesla (TSLA) Deliveries Beat Expectations. But TSLA’s 159x Forward P/E Is Betting on Much More (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-deliveries-beat-expectations-211716069.html
+· KO PepsiCo vs. Coca-Cola: Can PEP Stock Catch Up to KO After Its Q3 Earnings Beat? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:7631af010094b:0-pepsico-vs-coca-cola-can-pep-stock-catch-up-to-ko-after-its-q3-earnings-beat/
+· TSLA Tesla Stocks Fall 1.4% as AI Capex Gap Demands Optimus Proof (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:8528bb965094b:0-tesla-stocks-fall-1-4-as-ai-capex-gap-demands-optimus-proof/
+· MU Micron Stocks Fall Over 2% Despite Samsung's 783% Profit Surge (TradingView (Reuters)) https://news.google.com/rss/articles/CBMivAFBVV95cUxNZzFvTGJnR082M2VweHZpUXdIdVlKWF9OM1JnZjhqSUw2aWRKejZRcG5ydDdUV3o3RVMxYnZqOTJqSXVfaHNOYW9VQVVjaEVTbk5WNmhPTzhnQzRKNEtjeVBOOG1UWVNobGJyUGpDZnJXeVZkZm1qTHUzVFNyVUl3YUViS1lYcTZfbl91QlFIcGhneGh3SkgxMkFjT1BNa18wUHJuMFhvMjRMQWhXYTV0NWtRMm01Y2cyT09mUg?oc=5
+· JPM JPMorgan Stocks Slip as Higher Yields Test Trading Momentum (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUFtZXNfZzNHbjNIM3BZLXdkbW55ZW03d2hrcU9rMGlYcGhlQTZkRGxzTk5wSjBGR1Q4dHBNTEtjbFFyOXNBUy1DLW9lTDZ6QTdLeXdtMmc3N3Y3VVVtM3lZWVFlYnF4NWl2TUtNbkNKR2poTUswNWVkUTk0SW1qeTNYS2FmSE9abVZJQ011bHVyMGVvam5PbmxyTWFsQ1lMemJTVkN5cDdnREF2VjFZVWoxVW1RMWFhZzJV?oc=5
 · TSLA Tesla Stocks Fall 1.4% as AI Capex Gap Demands Optimus Proof (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-fall-1-4-204645384.html
 · LITE Lumentum: Conquering Connectivity (NASDAQ:LITE) (Seeking Alpha) https://seekingalpha.com/article/4952904-lumentum-conquering-connectivity
 · PETR4 Ibovespa fecha em alta de 1% com Petrobras e pesquisas do 2º turno; dólar vai a R$ 5,02 (Exame) https://exame.com/invest/mercados/ibovespa-fecha-em-alta-de-1-com-petrobras-e-pesquisas-do-2o-turno-dolar-vai-a-r-502/
@@ -246,18 +349,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · UST Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction (CNBC) https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html
 · GOOGL On Establishes Google Cloud as Enterprise AI Backbone, Beginning with Agent-Led Cloud Migration (PR Newswire) https://www.prnewswire.com/news-releases/on-establishes-google-cloud-as-enterprise-ai-backbone-beginning-with-agent-led-cloud-migration-302902072.html
 · CVX Hess Midstream: When It Rains It Pours And This Time Chevron Is Raining On Shareholders (NYSE:HESM) (Seeking Alpha) https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbFAzS18xWWpSOEdTcXVHMDM4MC1sQ0wtcjJLQndvV2xvMFZaZHZMcEFRN2VuLTB1YWxIT3JFckdKOV9ZQTlLZ2lMbW5KTWhqTkh0bkVONjRCSHJidFYwYUFnT2NfWWNaS3hQMzZOQkRVd081cjVWOWFYY3l4NFUzTE41aHU4VWFSVnMwdkdUNVd2cDJNa3BodjQ4Q0lrZFBuWGp1OFFwUFNWeFgzMC12UjdJVFV2VmJKbWJQbUtidW92dzZjVndHSTZsd1UtakpqLWJmTVpGMThGTmQtSy1FSlBjc1ZYZFNKT1FGUWl6Wl8?oc=5
-· TSLA General Motors vs. Tesla: What Revenue Growth Trends Tell Investors About These Automotive Giants (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/general-motors-vs-tesla-revenue-172509994.html
-· GOOGL Southlight Services Announces Our Strategic Collaboration with Google to Deliver Google Voice Carrier Link Across North America (Yahoo Finance) https://finance.yahoo.com/small-business/articles/southlight-services-announces-strategic-collaboration-172400916.html
-· INTC Intel (INTC): Buy, Sell, or Hold Post Q2 Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/intel-intc-buy-sell-hold-172009957.html
-· NVDA Nvidia: AI’s Lender Of Last Resort (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4952853-nvidia-ais-lender-of-last-resort
-· ETH Tom Lee Predicts 'Largest Crypto Bull Market Ever' but ETH Craters 5% (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:41efe35a1094b:0-tom-lee-predicts-largest-crypto-bull-market-ever-but-eth-craters-5/
-· PLTR Palantir Technologies Inc. (PLTR) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/PLTR/
-· PLTR Palantir Gets Goldman Sachs Upgrade as Sovereign AI Opens New Market (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:6b81b4832094b:0
-· TESOURO Ainda tem renda fixa pagando IPCA+ 8% por aí: veja a escolha dos bancões para títulos isentos e Tesouro Direto (Seu Dinheiro) https://www.seudinheiro.com/2026/renda-fixa/ainda-tem-renda-fixa-pagando-ipca-8-por-ai-veja-a-escolha-dos-bancoes-para-titulos-isentos-e-tesouro-direto-mlim/
-· PETR4 Petrobras amplia portfólio exploratório com 21 blocos em leilões da ANP, e mira recomposição de reservas (ADVFN) https://br.advfn.com/jornal/2026/10/petrobras-amplia-portfolio-exploratorio-com-21-blocos-em-leiloes-da-anp-e-mira-recomposicao-de-reservas
-· GOOGL Google Cloud introduces Gemini agent for work as AI race heats up (CNBC) https://www.cnbc.com/amp/2026/10/08/google-cloud-introduces-gemini-agent-for-work-as-ai-race-heats-up.html
-· MRVL Marvell: The Easy Money Is Already Over (Downgrade) (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952807-marvell-the-easy-money-is-already-over-downgrade
-· MU Micron's DRAM Sales Reach $40B: Can AI Demand Drive Growth? (Yahoo Finance) https://ca.finance.yahoo.com/news/microns-dram-sales-reach-40b-125800292.html
-· PLTR What Is Going on With Palantir Tech Stock on Thursday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:b31bfbaa6094b:0
-· TSM TSMC Reports 55% Growth in September Revenue (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tsmc-reports-55-growth-september-074426463.html
-· (+75 manchetes; lista completa em eventos/noticias.json)
+· (+89 manchetes; lista completa em eventos/noticias.json)
