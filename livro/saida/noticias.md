@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 10h32
+NOTÍCIAS E FATOS · 09/10 11h26
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 434 veículo fora da lista, 42 sem ativo, 23 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 1 novos em 3 dias
+Pernas: noticias ok 14 novas (18 consultas; descartadas: 429 veículo fora da lista, 47 sem ativo, 3 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -62,8 +62,22 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (31)
+## OUTRAS NOTÍCIAS (só manchete) (45)
 
+· USDBRL Ibovespa sobe e fica perto dos 210 mil pontos; dólar cai abaixo de R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-fica-perto-dos-210-mil-pontos-dolar-cai-abaixo-de-r-5/
+· DI Inflação acima do esperado ameaça os cortes da Selic? Economistas avaliam o que muda para o BC (Money Times) https://www.moneytimes.com.br/inflacao-acima-do-esperado-ameaca-os-cortes-da-selic-economistas-avaliam-o-que-muda-para-o-bc-jcav/
+· USDBRL “Com ou sem dólar”: o que muda ao investir no S&P 500 pela B3 (Suno Noticias) https://www.suno.com.br/noticias/dolar-sp-500-etfs-xp-gss/
+· BTC CleanSpark Still Has 13K Bitcoin On Its Books, But It's Ending Its Monthly Updates As Data Center Buildout Accelerates (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:eca6731ca094b:0-cleanspark-still-has-13k-bitcoin-on-its-books-but-it-s-ending-its-monthly-updates-as-data-center-buildout-accelerates/
+· LITE Lumentum, Coherent Stocks Jump After CEO Warns AI Components Sold Out Through 2029 (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:96bdcf810094b:0-lumentum-coherent-stocks-jump-after-ceo-warns-ai-components-sold-out-through-2029/
+· MU Nvidia and Micron stocks bounce on OpenAI $70B revenue target (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-micron-stocks-bounce-openai-133435783.html
+· AMD Can Advanced Micro Devices’ (AMD) Helios Racks Justify its Forward P/E? (Yahoo Finance) https://uk.finance.yahoo.com/news/advanced-micro-devices-amd-helios-132800060.html
+· BTC Bitcoin Rebounds From Near $80K After Trump Rules Out Iran Strikes — Analyst Eyes $205K (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-rebounds-near-80k-trump-131715054.html
+· TSM Taiwan Semiconductor's strong Q3 sales a positive sign for Q4, Wedbush says (TSM:NYSE) (Seeking Alpha) https://seekingalpha.com/news/4651740-taiwan-semiconductors-strong-q3-sales-a-positive-sign-for-q4-wedbush-says
+· BTC Fidelity Adds $438 Million of Bitcoin, Ethereum and Solana to Its Holdings (TradingView (Reuters)) https://www.tradingview.com/news/u_today:172b01a14094b:0-fidelity-adds-438-million-of-bitcoin-ethereum-and-solana-to-its-holdings/
+· ETH The XRP Ledger Surpasses Ethereum in a Key Area. What Does This Mean for the XRP Price? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/xrp-ledger-surpasses-ethereum-key-120051993.html
+· GOOGL Google Cloud y CaixaBank firman un acuerdo para ampliar la colaboración hasta 2033 (TradingView (Reuters)) https://www.tradingview.com/news/reuters.com,2026:newsml_L6N45V0KY:0/
+· UST 3 US Life Insurance Stocks Linked To Higher Treasury Yields (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/3-us-life-insurance-stocks-111603255.html
+· BTC Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure (CoinDesk) https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure
 · AVGO Broadcom: Anthropic Financing Risk Is Priced Too High, Buy (NASDAQ:AVGO) (Seeking Alpha) https://seekingalpha.com/article/4952916-broadcom-anthropic-financing-risk-is-priced-too-high-buy
 · MU Nvidia and Micron shares bounce as investors get clarity on a key OpenAI matter (MarketWatch) https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20
 · MRVL Marvell (MRVL) Stock Could Be 49% Below Fair Value After AI Revenue Targets Raised (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-could-49-131340147.html
