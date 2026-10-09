@@ -1,16 +1,15 @@
-ALERTAS · Fechamento 18h
+ALERTAS · Manhã 08h30
 
-(pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -102 bps em 5 pregões · F28 7 pregões seguidos (-113 bps) · F29 -150 bps em 5 pregões (ajuste B3 08/10) / C02 Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou mais) · F30-F28 -56 bps em 5 pregões / C03 DI em nível: F29 na mínima de 252 pregões: 12,32% · F30 cruzou 12,50% (para baixo, agora 12,39%) · F30 na mínima de 252 pregões: 12,39%
-DI F28 12,55 (-4) · F29 12,32 (-12) · F30 12,39 (-12) · F32 12,54 (-16) · F35 12,60 (-18)
-Inclinação F35-F28 +6 bps (-13)
-F35-F28 +6 bps (-13 dia · -49 5 pregões)
-F30-F28 -16 bps (-7 dia · -56 5 pregões)
-F32 na mínima de 252 pregões: 12,54%
-F35 na mínima de 252 pregões: 12,60%
-Por que importa: delta em bps e inclinação são o que toda mesa de renda fixa reporta e o que explica a marcação do Tesouro ao cliente
-Como falar: 'a curva fechou: o prefixado valorizou na marcação; o cupom contratado não muda'
-Fonte: B3 ajuste 08/10 · ajuste B3 08/10
-ids: C01-DI-fechou-2026-10-08, C02-DI-inclinacao-2026-10-08, C03-DI-di-2026-10-08
+[CRÍTICO] CURVA · C05 IPCA+ 2050 PU -6,9% em 5 datas-base (base 08/10) / C06 Inflação implícita: implícita 2029 -61 bps na semana · implícita 2032 -41 bps na semana · implícita 2032 cruzou 5,50%
+TD Pre 2029 12,53 (-2) · Pre 2031 12,71 (-1) · IPCA+ 2032 6,82 (-13) PU +0,8% · IPCA+ 2035 6,84 (-11) PU +0,9% · IPCA+ 2040 6,69 (0) · IPCA+ 2050 6,65 (+3) PU -0,6% · IPCA+ 2029 6,79 (-12) · Pre 2032 12,83 (+1)
+Implícita 2029: 5,38% (-61 bps na semana) vs Focus IPCA 2029 3,51% (+186 bps)
+Implícita 2032: 5,63% (-41 bps na semana) vs Focus IPCA 2030 3,50% (+213 bps)
+Implícita 2031/32 (descasado): 5,51% (-48 bps na semana) vs Focus IPCA 2030 3,50% (+201 bps)
+Por que importa: fechamento de taxa é ganho de marcação; quem carrega até o vencimento não mudou de rentabilidade
+Como falar: 'a marcação a mercado veio a favor; o rendimento contratado segue igual'
+Fonte: Tesouro Transparente base 08/10; BCB Focus · Tesouro Transparente, base 08/10
+Push: [CRÍTICO] TESOURO IPCA+ 2050 PU -6,9% em 5 datas-base (base 08/10) | TESOURO Inflação implícita · detalhe na sessão
+ids: C05-TESOURO-fechou-2026-10-08, C06-TESOURO-implicita-2026-10-08
 
 (pendente de slot anterior) [ATENÇÃO] E03 · SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (“EMAE” e, em conjunto com a Sabesp, as “Companhias”), em atendimento ao artigo 1…
 CVM · entregue 08/10/2026 20:30
@@ -65,33 +64,80 @@ Como falar: 'saiu no TradingView (Reuters): Hess Midstream to Acquire Chevron DJ
 Fonte: TradingView (Reuters) 08/10 18h13
 ids: E05-CVX-d989f8916b-2026-10-08
 
-Info (só linha no Fechamento):
-· E05 LITE · Nvidia-Backed Lumentum Sees Opto-Parts Capacity Sold Out to 2029
-· E05 TSM · Intel CEO Lip-Bu Tan Says Company Will Keep Working on Terafab — Elon Musk Confirms TSMC May Only Sublease Part of the Fab, Not Own It
-· E05 TSLA · Jim Cramer On SpaceX (SPCX): Buy Tesla (TSLA) If You Like It As An Earnings Explosion Might Be Coming
-· E05 BBDC4 · Bradesco recebe aval do BC para reforço de R$ 10 bilhões no capital e mira nova fase de crescimento
-· E05 JPM · JPMorgan Chase & Co. (JPM) stock price, news, quote and history
-· E05 EQTL3 · Alerta de golpe: Criminosos usam nome da Equatorial para cobrar faturas falsas por PIX
-· E05 AMD · Meta Muse gives AMD and Intel investors a reason to cheer
-· E05 TSLA · Tesla's EV Delivery Beat Is In, So What Happens Now?
-· E05 TSLA · Opinion: Tesla’s big AI gamble puts its EV business under a microscope
-· T04 REMX fechou na mínima de 52 semanas: US$ 60,58, -21% em 1m e -17% em 12m
-· T10 REMX no mínimo de força relativa em 63 sessões contra SPX: -16% vs +2,3% em 20 sessões (-18% relativo)
-· T10 PLTR no máximo de força relativa em 63 sessões contra SPX: +20% vs +2,3% em 20 sessões (+17% relativo)
-· T12 EQTL3: 8 altas seguidas (+27% acumulado) a R$ 49,66
-· T12 SBSP3: 8 altas seguidas (+25% acumulado) a R$ 33,36
-· T12 SMAL11: 8 altas seguidas (+23% acumulado) a R$ 134,39
+[ATENÇÃO] M01 · Agenda: IPCA de setembro (IBGE) hoje às 09:00 (09/10)
+O que está no preço: F28 12,55% · F35 12,60% · implícita 2029 5,38% · Focus IPCA 2027 4,30%
+Por que importa: evento macro de alta relevância reprecifica a curva inteira; o que importa é a surpresa contra o que está no preço
+Ativos: DI · Tesouro · USD/BRL
+Como falar: 'IPCA de setembro sai hoje; o mercado já precifica o consenso, a reação vem da surpresa'
+Fonte: config/calendario.yaml
+Push: Manhã 08h30: 4 alertas de atenção — M01 MACRO, E05 MRVE3, E05 TSLA, E05 META · detalhe na sessão
+ids: M01-MACRO-D0_0910-2026-10-09
 
-Suprimidos pelo teto (viram linha do Fechamento): T04-REMX-minima-2026-10-08 (teto de atenção), T10-REMX-mínimo-2026-10-08 (teto de atenção), T10-PLTR-máximo-2026-10-08 (teto de atenção), T12-EQTL3-altas_8-2026-10-08 (teto de atenção), T12-SBSP3-altas_8-2026-10-08 (teto de atenção), T12-SMAL11-altas_8-2026-10-08 (teto de atenção)
+[ATENÇÃO] E05 · MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre
+Valor Economico · 09/10 08h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A teleconferência será realizada às 11h.
+Link: https://valor.globo.com/empresas/noticia/2026/10/09/agenda-de-empresas-lucro-da-camil-cai-475percent-vendas-da-mrvandco-sobem-296percent-no-3-trimestre.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVE3
+Como falar: 'saiu no Valor Economico: Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 09/10 08h29
+ids: E05-MRVE3-35c45e1314-2026-10-09
+
+[ATENÇÃO] E05 · TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B cash
+TradingView (Reuters) · 09/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:5dbbd74b604fd:0-key-facts-tesla-inc-486-532-q3-deliveries-25b-2026-capex-43-5b-cash/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B cash; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/10 04h00
+ids: E05-TSLA-79fbbefc71-2026-10-09
+
+[ATENÇÃO] E05 · META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10B
+TradingView (Reuters) · 09/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:7a371049a4e80:0-key-facts-meta-q4-73-76b-guidance-bans-tiktok-ads-2026-capex-5-10b/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: META
+Como falar: 'saiu no TradingView (Reuters): Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10B; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/10 04h00
+ids: E05-META-6441e75de3-2026-10-09
+
+Info (só linha no Fechamento):
+· C03 Prefixado em nível: Pre 2029 na mínima de 252 bases: 12,53%
+· E01 BAC: resultado sai em 3 sessões (14/10)
+· E05 JPM · JPMorgan Chase Stock: Earnings Tell Half The Story (NYSE:JPM)
+· E05 BTC · Bitcoin holds near September highs as crypto stock proxies slide
+· E05 BTC · Current price of Bitcoin for Oct. 9, 2026
+· E05 NVDA · OpenAI’s Revenue Is Reportedly $20 Billion Lower Than Thought. Nvidia Just Lost $170 Billion
+· E05 ETH · Current price of Ethereum for Oct. 9, 2026
+· E05 AMD · Premarket Movers: CRWV, AMD And Other AI Stocks Rebound, SpaceX Deal Boosts Tower Shares
+· E05 LITE · Coherent Shares Rise 3.5% as Lumentum Highlights Strong AI Optical Component Demand
+· E05 USDBRL · Pesquisa Datafolha e IPCA mexem com mercado no último pregão da semana; Ibovespa em dólar sobe nesta sexta-feira (9)
+· E05 COHR · Why is Coherent stock rallying today? By Investing.com
+· E05 USDBRL · Libra esterlina sobe levemente com recuo do dólar
+· E05 ETH · Ethereum Price Analysis: Whale Liquidated, Is $2,400 Next?
+· E05 INTC · Intel Has A $100 Billion Problem (NASDAQ:INTC)
+· E05 BTC · Bitcoin Price Flashes a Hidden Uptrend Signal Amid One 96% Problem
+· E05 UST · U.S. Treasury Yields Edge Higher, Eurozone Bond Yields Decline
+· E05 UST · Gold rises over 1% as dollar, Treasury yields ease; set for weekly gains
+· E05 MU · Micron (MU) Is Down 5.6% After Netlist Deal, Strong Earnings And Dividend Affirmation - What's Changed
+
+Suprimidos pelo teto (viram linha do Fechamento): E05-MU-67835dcf64-2026-10-09 (teto de noticias)
 
 Alertas do dia (todos, com status):
-· expirado  C01 DI — A curva FECHOU: F28 -102 bps em 5 pregões · F28 7 pregões seguidos (-113 bps) · 
-· pendente  E03 SBSP3 — SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E E
-· pendente  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 F
-· pendente  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP 
-· pendente  E05 CVX — CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M an
-· expirado  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
-· expirado  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,32% · F30 cruzou 12,50% (para baix
+· pendente  C05 TESOURO — IPCA+ 2050 PU -6,9% em 5 datas-base (base 08/10)
+· entregue  C01 DI — A curva FECHOU: F28 -102 bps em 5 pregões · F28 7 pregões seguidos (-113 bps) · 
+· pendente  C06 TESOURO — Inflação implícita: implícita 2029 -61 bps na semana · implícita 2032 -41 bps na
+· pendente  M01 MACRO — Agenda: IPCA de setembro (IBGE) hoje às 09:00 (09/10)
+· pendente  E05 MRVE3 — MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,
+· pendente  E05 TSLA — TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B ca
+· pendente  E05 META — META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10
+· expirado  E03 SBSP3 — SBSP3 · Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E E
+· expirado  E03 BBDC4 — BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 F
+· expirado  E05 BBDC4 — BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP 
+· expirado  E05 CVX — CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M an
+· entregue  C02 DI — Inclinação da curva DI: F35-F28 -13 bps no dia: bull flattening (longo fechou ma
+· entregue  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,32% · F30 cruzou 12,50% (para baix
 · linha     T04 REMX — REMX fechou na mínima de 52 semanas: US$ 60,58, -21% em 1m e -17% em 12m
 · linha     T10 REMX — REMX no mínimo de força relativa em 63 sessões contra SPX: -16% vs +2,3% em 20 s
 · linha     T10 PLTR — PLTR no máximo de força relativa em 63 sessões contra SPX: +20% vs +2,3% em 20 s
@@ -109,6 +155,7 @@ Alertas do dia (todos, com status):
 · entregue  E05 MRVL — MRVL · Marvell's Investor Day: $70-90B FY 2031 Sales Feels Like A Different Comp
 · entregue  E05 UST — UST · Treasury yields rise as Fed's Waller says more hikes needed, investors awa
 · entregue  E05 MRVL — MRVL · Marvell Investor Day: Connectivity Lifts Outlook To $20 Billion
+· linha     C03 TESOURO — Prefixado em nível: Pre 2029 na mínima de 252 bases: 12,53%
 · linha     T04 EQTL3 — EQTL3 fechou na máxima de 52 semanas: R$ 49,66, +27% em 1m e +47% em 12m
 · linha     T04 ALUP4 — ALUP4 fechou na máxima de 52 semanas: R$ 12,83, +16% em 1m e +36% em 12m
 · linha     T04 SMAL11 — SMAL11 fechou na máxima de 52 semanas: R$ 134,39, +20% em 1m e +28% em 12m
@@ -120,8 +167,8 @@ Alertas do dia (todos, com status):
 · linha     T10 SMAL11 — SMAL11 no máximo de força relativa em 63 sessões contra IBOV: +20% vs +9,5% em 2
 · linha     T11 ITSA4 — ITSA4 descolou atrás de ITUB4: +13% vs +17% em 20 sessões (z -2,5 em 252 sessões
 · linha     T12 SAPR4 — SAPR4: 6 altas seguidas (+26% acumulado) a R$ 8,22
-· linha     F06 ETH — ETH cai a US$ 2.471 (cruzou US$ 2.500)
+· linha     F06 ETH — ETH cai a US$ 2.472 (cruzou US$ 2.500)
 · linha     F01 USDBRL — Real sobe: USD/BRL 5,0076 (-4,1% em 5 sessões) (parcial, intradia)
 · linha     F01 USDBRL — Real cai: USD/BRL 5,0234 (-3,8% em 5 sessões) (parcial, intradia)
 · linha     F03 BRENT — Brent sobe a US$ 104,28 (+4,1% no dia)
-· (+170 notícias só manchete, em noticias.md)
+· (+187 notícias só manchete, em noticias.md)

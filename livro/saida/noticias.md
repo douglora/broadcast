@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 22h09
+NOTÍCIAS E FATOS · 09/10 08h32
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 453 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 19 novas (18 consultas; descartadas: 426 veículo fora da lista, 34 sem ativo, 43 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
@@ -18,7 +18,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: SBSP3
 Como falar: 'a Sabesp publicou fato relevante sobre (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (…'
 Fonte: CVM 08/10
-id: E03-SBSP3-1575714-2026-10-08 · status: pendente · íntegra disponível
+id: E03-SBSP3-1575714-2026-10-08 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · BBDC4 · Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante Homologação do Aumento de Capital pelo Banco Central do Brasil, com a consequen…
 CVM · entregue 08/10/2026 18:50
@@ -30,7 +30,7 @@ Por que importa: fato relevante e o que a propria companhia julga capaz de mover
 Ativos: BBDC4
 Como falar: 'a Bradesco publicou fato relevante sobre Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante…'
 Fonte: CVM 08/10
-id: E03-BBDC4-1575663-2026-10-08 · status: pendente · íntegra disponível
+id: E03-BBDC4-1575663-2026-10-08 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E03 · PETR4 · Fato Relevante: Participou do 4º Ciclo de Oferta Permanente de Partilha de Produção e do 6º Ciclo de Oferta Permanente de Concessão promovidos pela Agência Nacional…
 CVM · entregue 08/10/2026 08:44
@@ -110,7 +110,52 @@ Fonte: SEC EDGAR 2026-10-08
 id: E04-TSM-26000680-2026-10-08 · status: linha · íntegra disponível
 
 
-## NOTÍCIAS COM MATERIALIDADE (14)
+## NOTÍCIAS COM MATERIALIDADE (18)
+
+[ATENÇÃO] E05 · MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre
+Valor Economico · 09/10 08h29 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – A teleconferência será realizada às 11h.
+Link: https://valor.globo.com/empresas/noticia/2026/10/09/agenda-de-empresas-lucro-da-camil-cai-475percent-vendas-da-mrvandco-sobem-296percent-no-3-trimestre.ghtml
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MRVE3
+Como falar: 'saiu no Valor Economico: Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre; confirmar o número no texto antes de repassar'
+Fonte: Valor Economico 09/10 08h29
+id: E05-MRVE3-35c45e1314-2026-10-09 · status: pendente
+
+[ATENÇÃO] E05 · TSLA · Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B cash
+TradingView (Reuters) · 09/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:5dbbd74b604fd:0-key-facts-tesla-inc-486-532-q3-deliveries-25b-2026-capex-43-5b-cash/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: TSLA
+Como falar: 'saiu no TradingView (Reuters): Key facts: Tesla, Inc. 486,532 Q3 deliveries; $25B+ 2026 capex; $43.5B cash; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/10 04h00
+id: E05-TSLA-79fbbefc71-2026-10-09 · status: pendente
+
+[ATENÇÃO] E05 · META · Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10B
+TradingView (Reuters) · 09/10 04h00 · fonte única · licença: manchete
+Link: https://www.tradingview.com/news/tradingview:7a371049a4e80:0-key-facts-meta-q4-73-76b-guidance-bans-tiktok-ads-2026-capex-5-10b/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: META
+Como falar: 'saiu no TradingView (Reuters): Key facts: META Q4 $73–$76B guidance; bans TikTok ads; 2026 capex +$5–$10B; confirmar o número no texto antes de repassar'
+Fonte: TradingView (Reuters) 09/10 04h00
+id: E05-META-6441e75de3-2026-10-09 · status: pendente
+
+[ATENÇÃO] E05 · MU · Micron (MU) Is Down 5.6% After Netlist Deal, Strong Earnings And Dividend Affirmation - What's Changed
+Yahoo Finance · 09/10 02h14 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – These 32 stocks are working on everything from early diagnostics to drug discovery.
+  – The best part - they are all under $10b in market cap - there's still time to get in early.
+  – The most relevant recent announcement is Micron's blockbuster fiscal 2026 report, with US$133,188 million in revenue and US$84,969 million in net income, alongside stronger guidance for early fiscal 2027.
+  – Micron Technology's narrative projects $297.7 billion revenue and $184.0 billion earnings by 2029.
+  – This requires 48.9% yearly revenue growth and a $133.5 billion earnings increase from $50.5 billion today.
+  – Uncover how Micron Technology's forecasts yield a $1521 fair value, a 47% upside to its current price.
+Link: https://finance.yahoo.com/markets/stocks/articles/micron-mu-down-5-6-051403875.html
+Por que importa: resultado trimestral reprecifica lucro, dividendos e multiplo; comparar com o consenso antes de comentar
+Ativos: MU
+Como falar: 'saiu no Yahoo Finance: Micron (MU) Is Down 5.6% After Netlist Deal, Strong Earnings And Dividend Affirmation - W…; confirmar o número no texto antes de repassar'
+Fonte: Yahoo Finance 09/10 02h14
+id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 [ATENÇÃO] E05 · BBDC4 · Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação
 Money Times · 08/10 20h07 · fonte única · licença: integral
@@ -126,7 +171,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: BBDC4
 Como falar: 'saiu no Money Times: Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação; confirmar o número no texto antes de repassar'
 Fonte: Money Times 08/10 20h07
-id: E05-BBDC4-0684110eca-2026-10-08 · status: pendente · íntegra disponível
+id: E05-BBDC4-0684110eca-2026-10-08 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · CVX · Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken Contracts
 TradingView (Reuters) · 08/10 18h13 · fonte única · licença: manchete
@@ -135,7 +180,7 @@ Por que importa: aquisicao ou venda muda alavancagem, mix de receita e o multipl
 Ativos: CVX
 Como falar: 'saiu no TradingView (Reuters): Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken…; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 08/10 18h13
-id: E05-CVX-d989f8916b-2026-10-08 · status: pendente
+id: E05-CVX-d989f8916b-2026-10-08 · status: expirado
 
 [ATENÇÃO] E05 · DI · XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até 25% de alta
 Seu Dinheiro · 08/10 16h10 · fonte única · licença: resumo
@@ -287,8 +332,23 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (158)
+## OUTRAS NOTÍCIAS (só manchete) (173)
 
+· JPM JPMorgan Chase Stock: Earnings Tell Half The Story (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4953036-jpm-earnings-tell-half-the-story
+· BTC Bitcoin holds near September highs as crypto stock proxies slide (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:6674690d2094b:0-bitcoin-holds-near-september-highs-as-crypto-stock-proxies-slide/
+· BTC Current price of Bitcoin for Oct. 9, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-09-2026/
+· NVDA OpenAI’s Revenue Is Reportedly $20 Billion Lower Than Thought. Nvidia Just Lost $170 Billion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/openai-revenue-reportedly-20-billion-111534921.html
+· ETH Current price of Ethereum for Oct. 9, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-09-2026/
+· AMD Premarket Movers: CRWV, AMD And Other AI Stocks Rebound, SpaceX Deal Boosts Tower Shares (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:c916d4f91094b:0-premarket-movers-crwv-amd-and-other-ai-stocks-rebound-spacex-deal-boosts-tower-shares/
+· LITE Coherent Shares Rise 3.5% as Lumentum Highlights Strong AI Optical Component Demand (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherent-shares-rise-3-5-104542372.html
+· USDBRL Pesquisa Datafolha e IPCA mexem com mercado no último pregão da semana; Ibovespa em dólar sobe nesta sexta-feira (9) (Money Times) https://www.moneytimes.com.br/pesquisa-datafolha-e-ipca-mexem-com-mercado-no-ultimo-pregao-da-semana-ibovespa-em-dolar-sobe-nesta-sexta-feira-9-rens/
+· COHR Why is Coherent stock rallying today? By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/why-is-coherent-stock-rallying-today-93CH-5625517
+· USDBRL Libra esterlina sobe levemente com recuo do dólar (Investing.com) https://br.investing.com/news/forex-news/libra-esterlina-sobe-levemente-com-recuo-do-dolar-2087611
+· ETH Ethereum Price Analysis: Whale Liquidated, Is $2,400 Next? (TradingView (Reuters)) https://www.tradingview.com/news/99Bitcoins:5e3ecd321094b:0-ethereum-price-analysis-whale-liquidated-is-2-400-next/
+· INTC Intel Has A $100 Billion Problem (NASDAQ:INTC) (Seeking Alpha) https://news.google.com/rss/articles/CBMiekFVX3lxTE5UUExYbDZnVE04MFFPQk9rOEhLMWgxa3JHbzVMbkxodXBhNGJMVTJwNEU2SHlGN0QtcVkxQ3JuM0w5bGZhcW5ZSlhpSG5PYVRoVEZsLUdyUmpJUDRpOFJLVlE5SFZpLVNneXBJSV9FUVNhcEZaMFRYYlJB?oc=5
+· BTC Bitcoin Price Flashes a Hidden Uptrend Signal Amid One 96% Problem (Yahoo Finance) https://news.google.com/rss/articles/CBMiowFBVV95cUxPUV92YW1NNGdodEFEYUxGeENranhqMTd3OHh4X0gtRzNra29rTHdSX1NTQ0pTSmZNaVVoQnB5U2tWTFZ1TGRFMmthd3poaWFON1JKU1BTcUhkVGJ5OFV1d2k4cUJITi0tUFdKb1RiMG1wbzJvWHlDQmlhN21Ccm5hM05XYVlYZnZPMkZsS1c0UkY0NUJmalpxbVpCOXRXeG1RWU5R?oc=5
+· UST U.S. Treasury Yields Edge Higher, Eurozone Bond Yields Decline (The Wall Street Journal) https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXFheWdiVEtRYmd1ZEtRVXBWRzJZS05pR3Vmcm4xXy05SnlxZ0F1ZkNOUjFTMkppSklPMUh4b1NObWE3ZFdad3U2dnJndXhCYm1qRko3LUMyTU5nelExdFV1UnBtRkRxcG82NkdYWnd6N2JHSDBUTGFqMHhaeEdpajFja0tlek5aR191WXFIV01wdHQ5d25MMURSYlZwamk2RFZTeUl6d3Y3MUE?oc=5
+· UST Gold rises over 1% as dollar, Treasury yields ease; set for weekly gains (Investing.com) https://news.google.com/rss/articles/CBMiugFBVV95cUxNb213N2JhZXJ0b01JeGJYYUJyUi1CaVpsVExCZnJMNkJ0VHk1RU9odXNZS0lWUlJLUzZST3AyekJiOUEyY0d1NldZTFdkM3Y5LXB3T1RnQTM5eDhNSUsyNjFpUFlySnZZNzJCRC1tdWVETEJmRVVlMy05OU44N2I2aW1DM05VVlBCTWJDY3dSM3c3OVZ0RE52RUFoQmZZb0YyMkVIbTQtZGtvYm1NaUtBS1V4aWdQUTZpRnc?oc=5
 · LITE Nvidia-Backed Lumentum Sees Opto-Parts Capacity Sold Out to 2029 (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029
 · TSM Intel CEO Lip-Bu Tan Says Company Will Keep Working on Terafab — Elon Musk Confirms TSMC May Only Sublease Part of the Fab, Not Own It (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-ceo-lip-bu-tan-233019464.html
 · TSLA Jim Cramer On SpaceX (SPCX): Buy Tesla (TSLA) If You Like It As An Earnings Explosion Might Be Coming (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jim-cramer-spacex-spcx-buy-225214489.html
@@ -334,19 +394,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · UST Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says (CNBC) https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html
 · BRENT Dólar canadense sobe com rally do petróleo e queda no diferencial de juros (Investing.com) https://br.investing.com/news/forex-news/dolar-canadense-sobe-com-rally-do-petroleo-e-queda-no-diferencial-de-juros-2087208
 · PETR4 Petrobras (PETR4) arremata 21 blocos e vai pagar R$ 3,2 bilhões; veja onde (Suno Noticias) https://www.suno.com.br/noticias/petrobras-petr4-leilao-anp-21-blocos-mt/amp/
-· GOOGL Google brings agentic AI to Gemini, starting with businesses (TechCrunch) https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/
-· MU Micron Stock Drops. Why Samsung’s Record Profit Didn’t Give It a Lift. (Barron's) https://www.barrons.com/articles/micron-stock-price-samsung-earnings-openai-2344912c
-· BTC Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-suffer-worst-loss-174605885.html
-· BTC YieldMax Bitcoin Option Income Strategy ETF announces weekly distribution of $0.1658 (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:480687c92094b:0-yieldmax-bitcoin-option-income-strategy-etf-announces-weekly-distribution-of-0-1658/
-· UST Bond yields fell, as the Treasury market passed a crucial test of investor confidence (MarketWatch) https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41
-· USDBRL Ouro fecha avança com alívio do dólar e dos Treasuries (Money Times) https://www.moneytimes.com.br/ouro-8-10-26-apsa/
-· PLTR 'Everybody knows you're out of touch': Palantir CEO Alex Karp says his own exec told him to stop hyping Foundry (Fortune) https://fortune.com/2026/10/08/everybody-knows-youre-out-of-touch-palantir-ceo-alex-karp-says-his-own-exec-told-him-to-stop-hyping-foundry/
-· UST Stock Market Today: S&P 500 Slips as Oil Spikes 5%, 10-Year Yields Near 5.35% (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:483f8f015094b:0-stock-market-today-s-p-500-slips-as-oil-spikes-5-10-year-yields-near-5-35/
-· BTC Is the US Government Selling $1 Billion in Bitcoin? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/us-government-selling-1-billion-163555621.html
-· JPM JPMorgan Chase & Co. (JPM) stock price, news, quote and history (Yahoo Finance) https://sg.finance.yahoo.com/quote/JPM/
-· BRENT Stock Market Today (Oct. 8, 2025): Nasdaq falls on surging oil prices, Treasury yields (Yahoo Finance) https://sg.finance.yahoo.com/news/stock-market-today-oct-8-135028860.html
-· USDBRL Ibovespa avança à espera de nova pesquisa eleitoral; dólar cai (CNN Brasil) https://news.google.com/rss/articles/CBMiowFBVV95cUxPWTRNeUZCTUJRZmdodXA2ck5ZWFhwOEFuN19fTWZiSm5peEk3eExDa240Y0loWVhNMmtmcWxxOEdDc0hYR0NEN1R3cTRjN1N2UHY3dVVlMVhubWRnMmhmWFk0WEhPWGNuaXpJTmQzVlBvNnJ2cjBFM1dua2d3d042TlFoaDg2YU1mWUpOeE8tdW5NY2VseU0ySW00NF8tMlNjc3JN?oc=5
-· ETH Current price of Ethereum for October 8, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE42MDV6bmVva2ZLNDZoT200RkVSa3MzRkRfaVI3Vjc0RGdFaTRRT3BMSFFaQk1jNVF1cnpyaV9OMUQ2bHpVUm9ObGRWZ0dwRllXM1VScXRzNXo5SGZwQ1FQVkptMVZ4MC1h?oc=5
-· NVDA Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC) https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html
-· BTC Bitcoin price news: BTC falls to $80,000 nearly one year after October 2025 crash (CoinDesk) https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears
-· (+98 manchetes; lista completa em eventos/noticias.json)
+· (+113 manchetes; lista completa em eventos/noticias.json)
