@@ -1,14 +1,30 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · qui 08/10 · 18h13 BRT
-Relógios: Yahoo 18h13 · DI ajuste D0 · Tesouro base
-  07/10 · UST CMT D0
+FECHAMENTO DO LIVRO · qui 08/10 · 22h09 BRT
+Relógios: Yahoo 22h09 · DI ajuste D0 · Tesouro base
+  07/10 · UST CMT D0 · PTAX 08/10
 
-ALERTAS DO DIA (35 · 1 crítico)
+ALERTAS DO DIA (39 · 1 crítico)
 [CRÍTICO] C01 A curva FECHOU: F28 -102 bps em 5
           pregões · F28 7 pregões seguidos (-113
           bps) · F29 -150 bps em 5 pregões (ajuste
           B3 08/10)
+[ATENÇÃO] E03 SBSP3 · Fato Relevante: (“Sabesp”) e a
+          EMAE – EMPRESA METROPOLITANA DE ÁGUAS E
+          ENERGIA S.A. (“EMAE” e, em conjunto com a
+          Sabesp, as “Companhias”), em atendimento
+          ao artigo 1…
+[ATENÇÃO] E03 BBDC4 · Fato Relevante: Página 1 de 1
+          Banco Bradesco S.A. o 60.746.948/0001-12
+          Fato Relevante Homologação do Aumento de
+          Capital pelo Banco Central do Brasil, com
+          a consequen…
+[ATENÇÃO] E05 BBDC4 · Bradesco (BBDC4) tem aumento
+          de capital homologado pelo BC e ajusta JCP
+          por ação
+[ATENÇÃO] E05 CVX · Hess Midstream to Acquire
+          Chevron DJ Basin Midstream Assets; Pays
+          $200M and Resets Bakken Contracts
 [ATENÇÃO] C02 Inclinação da curva DI: F35-F28 -13
           bps no dia: bull flattening (longo fechou
           mais) · F30-F28 -56 bps em 5 pregões
@@ -18,42 +34,36 @@ ALERTAS DO DIA (35 · 1 crítico)
           252 pregões: 12,39%
 [ATENÇÃO] T04 REMX fechou na mínima de 52 semanas:
           US$ 60,58, -21% em 1m e -17% em 12m
-[ATENÇÃO] T10 REMX no mínimo de força relativa em 63
-          sessões contra SPX: -16% vs +2,3% em 20
-          sessões (-18% relativo)
-[ATENÇÃO] T10 PLTR no máximo de força relativa em 63
-          sessões contra SPX: +20% vs +2,3% em 20
-          sessões (+17% relativo)
-[ATENÇÃO] T12 EQTL3: 8 altas seguidas (+27%
-          acumulado) a R$ 49,66
-[ATENÇÃO] T12 SBSP3: 8 altas seguidas (+25%
-          acumulado) a R$ 33,36
-(+27 em alertas.md)
+(+31 em alertas.md)
 
-ALTAS  ALUP4 +4,3% · SBSP3 +4,1% · BRENT +3,7% ·
+ALTAS  ALUP4 +4,3% · SBSP3 +4,1% · BRENT +4,1% ·
        SMAL11 +3,2% · CVX +3,1%
 BAIXAS COHR -9,6% · LITE -5,6% · INTC -5,3% · MU
        -4,8% · NOK -4,5%
 
-NOTÍCIAS E FATOS (10 com materialidade ·
+NOTÍCIAS E FATOS (14 com materialidade ·
   noticias.md)
+· SBSP3 Fato Relevante: (“Sabesp”) e a EMAE –
+  EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A.
+  (“EMAE” e, em conjunto com a Sabesp, as
+  “Companhias”), em atendimento ao artigo 1… (CVM)
+· BBDC4 Fato Relevante: Página 1 de 1 Banco Bradesco
+  S.A. o 60.746.948/0001-12 Fato Relevante
+  Homologação do Aumento de Capital pelo Banco
+  Central do Brasil, com a consequen… (CVM)
+· BBDC4 Bradesco (BBDC4) tem aumento de capital
+  homologado pelo BC e ajusta JCP por ação (Money
+  Times)
+· CVX Hess Midstream to Acquire Chevron DJ Basin
+  Midstream Assets; Pays $200M and Resets Bakken
+  Contracts (TradingView (Reuters))
 · DI XP (XPBR31) pode ganhar um empurrão da Selic
   mais baixa; UBS BB eleva preço-alvo e vê até 25%
   de alta (Seu Dinheiro)
 · PETR4 R$ 3,2 bi: Petrobras domina leilões da ANP e
   faz aposta em Campos e novas fronteiras
   (InfoMoney)
-· BTC TD Cowen raises Bitcoin price target to
-  $280,000 by 2029 (TradingView (Reuters))
-· PETR4 Fato Relevante: Participou do 4º Ciclo de
-  Oferta Permanente de Partilha de Produção e do 6º
-  Ciclo de Oferta Permanente de Concessão promovidos
-  pela Agência Nacional… (CVM)
-· MRVL Marvell Technology's AI Bet: Path To $90B In
-  Revenue By 2031 (NASDAQ:MRVL) (Seeking Alpha)
-· MU Micron Rival Samsung's Outlook Gets a $70
-  Billion Jolt (TradingView (Reuters))
-  (+4)
+  (+8)
 
 CURVAS · taxa (Δ bps)
 DI (D0, Δ dia·sem bps) F28 12,55 (-4·-102) F29 12,32
@@ -69,7 +79,7 @@ TD (base 07/10, Δ desde 06/10) Pre 2029 12,55 (0) ·
     (descasado) 5,40% vs Focus IPCA 2027 4,30%
 UST (D0) 2y 4,75 (-2) · 10y 5,22 (-6) · 30y 5,60
     (-7) · 2s10s +47 (-4)
-Regime: VIX 15,4 (+2,2%) · score risco 0 de 6 ·
+Regime: VIX 15,4 (+2,2%) · score risco 0 de 5 ·
     regime de vol LIGADO
 
 LEITURA DA MESA
@@ -94,10 +104,14 @@ qui 15/10 resultado TSM (madrugada, estimado)
 qua 21/10 resultado TSLA (Yahoo, estimado)
 qui 22/10 resultado NOK (madrugada, estimado)
 
-LACUNAS: QANT: barra de 08/10 não bate com a cotação
-  do Yahoo às 17:35 (5,9770 contra 5,9090, -1.14%);
-  variação do dia a confirmar; bcb: BCB devolveu 3
-  de 5 séries (faltaram ptax_venda, selic_meta).
+LACUNAS: DXY sem barra de 08/10 (última 07/10);
+  QANT: barra de 08/10 não bate com a cotação do
+  Yahoo às 17:35 (5,9770 contra 5,9090, -1.14%);
+  variação do dia a confirmar; DXY: barra de 08/10 é
+  o início da sessão seguinte (última cotação 21:00
+  de Nova York); barra descartada, fica a de 07/10;
+  bcb: BCB devolveu 4 de 5 séries (faltaram
+  ipca_12m).
 Fontes: Yahoo Finance · B3 Boletim Diário · Tesouro
   Transparente · Treasury.gov CMT · BCB
 ```
@@ -181,10 +195,10 @@ MRVE3  MRV        6,43 +1,3  +18  +11  -19 +1,3  -17
 CURY3  Cury      31,48 -2,4  +15 -6,0  -12  +14 +2,6
 Macro
 USDBRL USD/BRL  5,0234 +0,2 -3,8 -1,3 -1,5 -6,2 -8,3
-DXY    DXY      102,13 -0,1  0,0 +3,3 +3,3 +3,3 +3,9
-BRENT  Brent    103,92 +3,7 +1,6 +6,1 +8,3  +57  +71
-BTC*   BTC      81.697 -1,9 -3,7 +4,2  +14  -34 -6,6
-ETH*   ETH       2.471 -4,0 -8,7 -0,5  +13  -45  -17
+DXY*   DXY      102,24 +0,4 +0,8 +3,1 +3,1 +3,7 +4,0
+BRENT  Brent    104,28 +4,1 +1,9 +6,5 +8,7  +57  +71
+BTC    BTC      81.697 -1,9 -3,7 +4,2  +14  -34 -6,6
+ETH    ETH       2.471 -4,0 -8,7 -0,5  +13  -45  -17
 MINER* Minerio   91,13 -0,1 -5,7 -8,5  -15  -13  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World
@@ -201,6 +215,6 @@ Caixa em dolar e o IB01. · IB01 iShares $ Treasury
 Bond 0-1yr UCITS ETF USD (Acc). Hipótese: EWY
 iShares MSCI South Korea ETF · MCHI iShares MSCI
 China ETF (ETFs dos EUA, a confirmar).
-Minério: proxy Dalian 682 CNY/t (2026-10-08).
-Celulose: proxy SHFE SP (fibra longa) 4.878 CNY/t;
+Minério: proxy Dalian 682 CNY/t (2026-10-09).
+Celulose: proxy SHFE SP (fibra longa) 4.872 CNY/t;
 BHKP sem série diária.

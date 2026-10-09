@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 08/10 21h13
+NOTÍCIAS E FATOS · 08/10 22h09
 
-Pernas: noticias ok 16 novas (18 consultas; descartadas: 454 veículo fora da lista, 31 sem ativo, 12 teto) · cvm ok 6 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 453 veículo fora da lista, 30 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## FATOS RELEVANTES E COMUNICADOS (CVM) (8)
 
@@ -287,8 +287,17 @@ Fonte: Yahoo Finance 07/10 11h10
 id: E05-MMM-d5def19944-2026-10-07 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (149)
+## OUTRAS NOTÍCIAS (só manchete) (158)
 
+· LITE Nvidia-Backed Lumentum Sees Opto-Parts Capacity Sold Out to 2029 (Bloomberg) https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029
+· TSM Intel CEO Lip-Bu Tan Says Company Will Keep Working on Terafab — Elon Musk Confirms TSMC May Only Sublease Part of the Fab, Not Own It (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/intel-ceo-lip-bu-tan-233019464.html
+· TSLA Jim Cramer On SpaceX (SPCX): Buy Tesla (TSLA) If You Like It As An Earnings Explosion Might Be Coming (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/jim-cramer-spacex-spcx-buy-225214489.html
+· BBDC4 Bradesco recebe aval do BC para reforço de R$ 10 bilhões no capital e mira nova fase de crescimento (Estadao) https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/bradesco-recebe-aval-do-bc-para-reforco-de-r-10-bilhoes-no-capital-e-mira-nova-fase-de-crescimento/
+· JPM JPMorgan Chase & Co. (JPM) stock price, news, quote and history (Yahoo Finance) https://uk.finance.yahoo.com/quote/JPM/
+· EQTL3 Alerta de golpe: Criminosos usam nome da Equatorial para cobrar faturas falsas por PIX (g1) https://g1.globo.com/go/goias/videos-ja-2-edicao/video/alerta-de-golpe-criminosos-usam-nome-da-equatorial-para-cobrar-faturas-falsas-por-pix-15040504.ghtml
+· AMD Meta Muse gives AMD and Intel investors a reason to cheer (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/meta-muse-gives-amd-intel-163300484.html
+· TSLA Tesla's EV Delivery Beat Is In, So What Happens Now? (TradingView (Reuters)) https://www.tradingview.com/news/marketbeat:9691b4c28094b:0-tesla-s-ev-delivery-beat-is-in-so-what-happens-now/
+· TSLA Opinion: Tesla’s big AI gamble puts its EV business under a microscope (MarketWatch) https://www.marketwatch.com/story/teslas-big-ai-gamble-puts-its-ev-business-under-a-microscope-0ea9b387
 · PETR4 CEO da Petrobras (PETR4): Os possíveis nomes para um eventual governo Flávio, segundo jornal (Money Times) https://www.moneytimes.com.br/os-possiveis-ceos-da-petrobras-petr4-em-um-governo-flavio-segundo-jornal-rnda/
 · PETR4 Análise: Resultado dos leilões da ANP consolida força da Bacia de Campos e ratifica poder de fogo da Petrobras (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/08/analise-resultado-dos-leiloes-da-anp-consolida-forca-da-bacia-de-campos-e-ratifica-poder-de-fogo-da-petrobras.ghtml
 · BBDC4 Bradesco recebe aval do Banco Central para aumento de capital de R$ 10 bilhões (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bradesco-recebe-aval-do-bc-para-reforco-de-r-10-bilhoes-no-capital-e-mira-nova-fase-de-crescimento/
@@ -340,13 +349,4 @@ id: E05-MMM-d5def19944-2026-10-07 · status: linha
 · ETH Current price of Ethereum for October 8, 2026 (Fortune) https://news.google.com/rss/articles/CBMiaEFVX3lxTE42MDV6bmVva2ZLNDZoT200RkVSa3MzRkRfaVI3Vjc0RGdFaTRRT3BMSFFaQk1jNVF1cnpyaV9OMUQ2bHpVUm9ObGRWZ0dwRllXM1VScXRzNXo5SGZwQ1FQVkptMVZ4MC1h?oc=5
 · NVDA Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC) https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html
 · BTC Bitcoin price news: BTC falls to $80,000 nearly one year after October 2025 crash (CoinDesk) https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears
-· UST Strong 30-Year Treasury Auction Shows That Bidders Remain Hungry for Bonds (Barron's) https://www.barrons.com/articles/strong-30-year-treasury-auction-shows-that-bidders-remain-hungry-for-bonds-6f69724a
-· MRVL Marvell: The Trillion-Dollar Math Comes With A Catch (NASDAQ:MRVL) (Seeking Alpha) https://seekingalpha.com/article/4952870-marvell-the-trillion-dollar-math-comes-with-a-catch-rating-downgrade?utm_source=marketbeat.com&utm_medium=referral&feed_item_type=article?source=MarketBeat
-· MINERIO Dalian iron ore hits 18-month low as thin steel margins dim demand prospects (Mining.com) https://www.mining.com/web/dalian-iron-ore-hits-18-month-low-as-thin-steel-margins-dim-demand-prospects/
-· BTC Bitcoin Drops Below $81K, Triggering Nearly $1B Crypto Liquidation Wave: Crypto Stocks Fall With AI Infrastructure Plays (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:75803f324094b:0-bitcoin-drops-below-81k-triggering-nearly-1b-crypto-liquidation-wave-crypto-stocks-fall-with-ai-infrastructure-plays/
-· JPM JPMorgan Chase & Co. (JPM) Stock Price, News, Quote & History (Yahoo Finance) https://ca.finance.yahoo.com/quote/JPM/
-· JPM JPMorgan's Shares Before Q3 Earnings: Buy Now or Wait for Results? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:98923f00a094b:0-jpmorgan-s-shares-before-q3-earnings-buy-now-or-wait-for-results/
-· UST Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction (CNBC) https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html
-· GOOGL On Establishes Google Cloud as Enterprise AI Backbone, Beginning with Agent-Led Cloud Migration (PR Newswire) https://www.prnewswire.com/news-releases/on-establishes-google-cloud-as-enterprise-ai-backbone-beginning-with-agent-led-cloud-migration-302902072.html
-· CVX Hess Midstream: When It Rains It Pours And This Time Chevron Is Raining On Shareholders (NYSE:HESM) (Seeking Alpha) https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbFAzS18xWWpSOEdTcXVHMDM4MC1sQ0wtcjJLQndvV2xvMFZaZHZMcEFRN2VuLTB1YWxIT3JFckdKOV9ZQTlLZ2lMbW5KTWhqTkh0bkVONjRCSHJidFYwYUFnT2NfWWNaS3hQMzZOQkRVd081cjVWOWFYY3l4NFUzTE41aHU4VWFSVnMwdkdUNVd2cDJNa3BodjQ4Q0lrZFBuWGp1OFFwUFNWeFgzMC12UjdJVFV2VmJKbWJQbUtidW92dzZjVndHSTZsd1UtakpqLWJmTVpGMThGTmQtSy1FSlBjc1ZYZFNKT1FGUWl6Wl8?oc=5
-· (+89 manchetes; lista completa em eventos/noticias.json)
+· (+98 manchetes; lista completa em eventos/noticias.json)

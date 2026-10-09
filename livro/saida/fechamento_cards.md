@@ -1,4 +1,4 @@
-## Fechamento do livro · qui 08/10 · 18h13 BRT
+## Fechamento do livro · qui 08/10 · 22h09 BRT
 
 ---
 
@@ -22,7 +22,7 @@
 
 ### Destaques do dia
 
-**Altas** ALUP4 +4,3% (fechou na máxima · máxima de 52 semanas) · SBSP3 +4,1% (vol 1,8x · fechou na máxima) · BRENT +3,7% · SMAL11 +3,2% (vol 5,2x · máxima de 52 semanas) · CVX +3,1%
+**Altas** ALUP4 +4,3% (máxima de 52 semanas) · SBSP3 +4,1% · BRENT +4,1% · SMAL11 +3,2% (máxima de 52 semanas) · CVX +3,1%
 **Baixas** COHR -9,6% (vol 1,3x · fechou na mínima) · LITE -5,6% · INTC -5,3% · MU -4,8% (fechou na mínima) · NOK -4,5%
 
 ---
@@ -38,7 +38,7 @@
 | **NOK** | -4,5% | investigar antes de comentar | sem causa no dado |
 | **AVGO** | -4,3% | andou com o setor: semicondutores (eua) -3,7% (mediana), SOX -3,4%; notícia a conferir (Seeking Alpha): Broadcom Is Financing Its AI Moat (NASDAQ:AVGO) | setorial |
 | **ALUP4** | +4,3% | descolou do setor (energia e saneamento +2,2% (mediana), DI F35 -18 bps; 2,1 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **SBSP3** | +4,1% | descolou do setor (energia e saneamento +2,2% (mediana), DI F35 -18 bps; 1,8 p.p. da mediana); investigar antes de comentar | sem causa no dado |
+| **SBSP3** | +4,1% | descolou do setor (energia e saneamento +2,2% (mediana), DI F35 -18 bps; 1,8 p.p. da mediana); Fato Relevante na CVM: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (“ | documento |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
 
@@ -192,13 +192,13 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **USDBRL** Dolar/Real | 5,0234 | **+0,2** | -3,8 | -1,3 | -2,7 | -1,5 | -6,2 | -8,3 | -8,8 |
-| **DXY** Indice Dolar DXY | 102,13 | **-0,1** | 0,0 | +3,3 | +1,2 | +3,3 | +3,3 | +3,9 | +8,6 |
-| **BRENT** Petroleo Brent | 103,92 | **+3,7** | +1,6 | +6,1 | +36 | +8,3 | +57 | +71 | +26 |
-| **BTC** Bitcoin _(parcial)_ | 81.697 | **-1,9** | -3,7 | +4,2 | +29 | +14 | -34 | -6,6 | +49 |
-| **ETH** Ethereum _(parcial)_ | 2.471 | **-4,0** | -8,7 | -0,5 | +42 | +13 | -45 | -17 | -28 |
+| **DXY** Indice Dolar DXY _(dia 07/10)_ | 102,24 | **+0,4** | +0,8 | +3,1 | +1,2 | +3,1 | +3,7 | +4,0 | +8,7 |
+| **BRENT** Petroleo Brent | 104,28 | **+4,1** | +1,9 | +6,5 | +37 | +8,7 | +57 | +71 | +27 |
+| **BTC** Bitcoin | 81.697 | **-1,9** | -3,7 | +4,2 | +29 | +14 | -34 | -6,6 | +49 |
+| **ETH** Ethereum | 2.471 | **-4,0** | -8,7 | -0,5 | +42 | +13 | -45 | -17 | -28 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 07/10)_ · mínima de 52 semanas | 91,13 | **-0,1** | -5,7 | -8,5 | -7,8 | -15 | -13 | -15 | -26 |
 
-**Brent em reais:** R$ 522,03 por barril (08/10) · dia +3,9% · 1 mês +4,8% · no ano +57% (Brent do 1º vencimento × dólar).
+**Brent em reais:** R$ 523,84 por barril (08/10) · dia +4,2% · 1 mês +5,1% · no ano +57% (Brent do 1º vencimento × dólar).
 
 ---
 
@@ -206,11 +206,11 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 
 | Referência | US$/t | dia | 1 sem | 1 mês | leitura |
 |---|---:|---:|---:|---:|---|
-| **Celulose fibra longa** | 645 | -0,6 | -0,6 | - | 08/10 |
-| **Minerio de ferro Dalian** | 90 | -2,7 | -2,7 | - | 08/10 |
+| **Celulose fibra longa** | 643 | -0,7 | -0,7 | - | 09/10 |
+| **Minerio de ferro Dalian** | 90 | -2,9 | -2,9 | - | 09/10 |
 
-- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.878 a USD/CNY 6,69 = US$ 729/t com IVA
-- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 682 a USD/CNY 6,69 = US$ 102/t com IVA
+- **Celulose fibra longa**: futuro SP da SHFE (fibra longa) em CNY/t, sem o IVA de 13%; nao e preco de lista NBSK · CNY/t 4.872 a USD/CNY 6,70 = US$ 727/t com IVA
+- **Minerio de ferro Dalian**: futuro da DCE em CNY/t, sem o IVA de 13%; o CFR 62% em US$ e a linha MINERIO · CNY/t 682 a USD/CNY 6,70 = US$ 102/t com IVA
 
 ---
 
@@ -247,12 +247,20 @@ Inflação implícita 2029 5,28% · 2032 5,49% · 2031/32 (descasado) 5,40% · F
 
 2s10s +47 bps (-4 no dia)
 
-**Regime** VIX 15,4 (+2,2%) · score de risco 0 de 6 · **regime de vol LIGADO**
+**Regime** VIX 15,4 (+2,2%) · score de risco 0 de 5 · **regime de vol LIGADO**
 
 ---
 
-### Notícias e fatos · 10
+### Notícias e fatos · 14
 
+- **SBSP3** Fato Relevante: (“Sabesp”) e a EMAE – EMPRESA METROPOLITANA DE ÁGUAS E ENERGIA S.A. (“EMAE” e, em conjunto com a Sabesp, as “Companhias”), em atendimento ao artigo 1… (CVM · 08/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575714)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+- **BBDC4** Fato Relevante: Página 1 de 1 Banco Bradesco S.A. o 60.746.948/0001-12 Fato Relevante Homologação do Aumento de Capital pelo Banco Central do Brasil, com a consequen… (CVM · 08/10) [abrir a fonte](https://www.rad.cvm.gov.br/ENET/frmExibirArquivoIPEExterno.aspx?NumeroProtocoloEntrega=1575663)
+  *Por que importa:* fato relevante e o que a propria companhia julga capaz de mover o preco; ler o documento inteiro antes de comentar
+- **BBDC4** Bradesco (BBDC4) tem aumento de capital homologado pelo BC e ajusta JCP por ação (Money Times · 08/10) [abrir a fonte](https://www.moneytimes.com.br/bradesco-bbdc4-tem-aumento-de-capital-homologado-pelo-bc-e-ajusta-jcp-por-acao/)
+  *Por que importa:* provento muda o fluxo de caixa ao acionista e o yield; conferir data-com e valor por acao
+- **CVX** Hess Midstream to Acquire Chevron DJ Basin Midstream Assets; Pays $200M and Resets Bakken Contracts (TradingView (Reuters) · 08/10) [abrir a fonte](https://www.tradingview.com/news/tradingview:068c81b6deac5:0-hess-midstream-to-acquire-chevron-dj-basin-midstream-assets-pays-200m-and-resets-bakken-contracts/)
+  *Por que importa:* aquisicao ou venda muda alavancagem, mix de receita e o multiplo; olhar preco pago e financiamento
 - **DI** XP (XPBR31) pode ganhar um empurrão da Selic mais baixa; UBS BB eleva preço-alvo e vê até 25% de alta (Seu Dinheiro · 08/10) [abrir a fonte](https://www.seudinheiro.com/2026/empresas/xp-xpbr31-pode-ganhar-um-empurrao-da-selic-mais-baixa-ubs-bb-eleva-preco-alvo-e-ve-ate-25-de-alta-miql/)
   *Por que importa:* mudanca de recomendacao mexe no fluxo de curto prazo; pesa mais quando vem com revisao de lucro
 - **PETR4** R$ 3,2 bi: Petrobras domina leilões da ANP e faz aposta em Campos e novas fronteiras (InfoMoney · 08/10) [abrir a fonte](https://www.infomoney.com.br/mercados/petrobras-petr4-tres-bilhoes-estatal-leiloes-da-anp-aposta-em-campos-e-novas-fronteiras/)
@@ -298,11 +306,11 @@ Inflação implícita 2029 5,28% · 2032 5,49% · 2031/32 (descasado) 5,40% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h13 · DI ajuste D0 · Tesouro base 07/10 · UST CMT D0
-**Lacunas:** QANT: barra de 08/10 não bate com a cotação do Yahoo às 17:35 (5,9770 contra 5,9090, -1.14%); variação do dia a confirmar; bcb: BCB devolveu 3 de 5 séries (faltaram ptax_venda, selic_meta).
+**Relógios:** Yahoo 22h09 · DI ajuste D0 · Tesouro base 07/10 · UST CMT D0 · PTAX 08/10
+**Lacunas:** DXY sem barra de 08/10 (última 07/10); QANT: barra de 08/10 não bate com a cotação do Yahoo às 17:35 (5,9770 contra 5,9090, -1.14%); variação do dia a confirmar; DXY: barra de 08/10 é o início da sessão seguinte (última cotação 21:00 de Nova York); barra descartada, fica a de 07/10; bcb: BCB devolveu 4 de 5 séries (faltaram ipca_12m).
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.
-Minério: proxy Dalian 682 CNY/t (2026-10-08).
-Celulose: proxy SHFE SP (fibra longa) 4.878 CNY/t; BHKP sem série diária.
+Minério: proxy Dalian 682 CNY/t (2026-10-09).
+Celulose: proxy SHFE SP (fibra longa) 4.872 CNY/t; BHKP sem série diária.
 **Fontes:** Yahoo Finance · B3 Boletim Diário · Tesouro Transparente · Treasury.gov CMT · BCB.
 *Uso interno da mesa. Organização e comparação de dados públicos, não é recomendação de investimento (Resolução CVM 178).*
