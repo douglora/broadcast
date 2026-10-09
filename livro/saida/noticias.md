@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 15h44
+NOTÍCIAS E FATOS · 09/10 16h21
 
-Pernas: noticias ok 8 novas (18 consultas; descartadas: 445 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 7 novas (18 consultas; descartadas: 443 veículo fora da lista, 52 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -107,8 +107,15 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (102)
+## OUTRAS NOTÍCIAS (só manchete) (109)
 
+· BBDC4 Bradesco (BBDC4): 2 gatilhos que podem ‘turbinar’ rentabilidade, segundo UBS BB (Money Times) https://www.moneytimes.com.br/bradesco-bbdc4-2-gatilhos-que-podem-turbinar-rentabilidade-segundo-ubs-bb/
+· TSLA 'I drive a Tesla': After Elon Musk said he’d lose his job, Delta CEO Ed Bastian says there’s 'no tit for tat' as airline unveils earnings miss (Fortune) https://fortune.com/2026/10/09/delta-ed-bastian-elon-musk-q3-earnings-tit-for-tat-starlink/
+· NVDA Management Raised the Bar For NVIDIA Stock; Does The Chart Agree? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/management-raised-bar-nvidia-stock-182211820.html
+· GOOGL Constellation Energy (CEG) Is Up 10.1% After Google Backs 20-Year Nuclear Power Expansion (Yahoo Finance) https://sg.finance.yahoo.com/news/constellation-energy-ceg-10-1-180831306.html
+· GOOGL Alphabet Stocks Rise Higher as Nuclear Deal Locks 3.6 Gigawatts (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:c90fbe17d094b:0-alphabet-stocks-rise-higher-as-nuclear-deal-locks-3-6-gigawatts/
+· BTC Trader Loses $6.6 Million in Bitcoin After Buying New Ledger Wallet (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/trader-loses-6-6-million-162956153.html
+· NVDA Nvidia: Jensen Huang And Lisa Su Agree On One Thing (NASDAQ:NVDA) (Seeking Alpha) https://seekingalpha.com/article/4953017-nvidia-jensen-huang-and-lisa-su-agree-on-one-thing
 · MU Micron: Even If Memory Prices Fall 15%, It May Still Be Undervalued (NASDAQ:MU) (Seeking Alpha) https://seekingalpha.com/article/4953146-micron-even-if-memory-prices-fall-15-percent-it-may-still-be-undervalued
 · AMD AMD Stocks Slide Lower Despite Street-High $800 AI Target (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:1c4122e99094b:0-amd-stocks-slide-lower-despite-street-high-800-ai-target/
 · TSM TSMC Stocks Fall Despite 55% September Sales Surge (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:6011c3487094b:0-tsmc-stocks-fall-despite-55-september-sales-surge/
@@ -162,11 +169,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · TESOURO Tesouro Direto hoje ignora alta do IPCA, se entrega à influência eleitoral e cai forte; veja taxas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-ignora-alta-do-ipca-se-entrega-a-influencia-eleitoral-e-cai-forte-veja-taxas/
 · LITE Lumentum shares rise as AI demand fills production capacity through early 2029 (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-shares-rise-ai-demand-142000071.html
 · UST Treasury yields have fallen after four of five House-flipping midterms, Ree says (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4651744-treasury-yields-have-fallen-after-four-of-five-house-flipping-midterms-ree-says
-· NVDA Nvidia (NVDA) More Than Doubled Revenue, Yet Its Multiple Sits Below History. Bargain or Warning? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-more-doubled-revenue-132539113.html
-· USDBRL Bolsa sobe com Datafolha mostrando Flávio à frente no 2º turno; dólar cai apesar de IPCA acima do esperado (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPVnlFSnhNcVJSR2xjZzJ1MHV6aElNcFZnRURHVVRpMy1rNEswdk1OZWVnWXRGYzVSYlI1T1JGVWhpOU5JbXlrNnlNNFZNNTlNYTRXaEM4MEltcDkxRmxJZDRSaUZ1eU1HdlF5b2dGM2o4ZVhYWVZqNXU4enR5a1VaZkxmU1R1allKX1BGT2NUUE9kaEp6MmlJbnVSZ1REclNRRGxmUk9IdHE4UUk5OWxIUmtobm01dlhPS3ZVNDFB?oc=5
-· TSM Record Profits at Samsung and TSMC Say the AI Trade is Intact (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxONnZvTi1uaDNKSkZNVzVwMVBYRkYxTDNrQmRxZFFDaVZRMmczUzBVQUpWY0o3Y0M4eEpJZVBKNmgwT2lBZGQ5YTRMakgxYk9HU2NpbVFCQkZJSzhTRkxvNi1yUVJJQUg4WEt5WWlrUnhlR1VJSjZzN2I0ZEZXUjlyWUhTM2MtOEd4NzdHTk1DdngyQUk0Q2stTEU3MVNUSHNUb1RpRkVHOVBTZW5na0ZQWmNTODFCMHF5?oc=5
-· LITE Lumentum AI optical components sold out through 2029 (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxQMmw1WUxMWnpsT2h0NzJTV0lvdjFVR2dpcWFjZmVoZGE5VWF5UDB1QzNWVElfcDJsdHVYOVREZTRzLXFDWFBQV1NfUTFwMGJhZXhqSGo5STFfVmdtbVlDTGUxUGlzODBUTWp6NzJwYTdhdG55WXBFbVI2ekNRYlZxRFJtek9FVGltLTdGQlBTNFZjNjRIbnczR3BqanNfcGdV?oc=5
-· USDBRL Ibovespa sobe e fica perto dos 210 mil pontos; dólar cai abaixo de R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-fica-perto-dos-210-mil-pontos-dolar-cai-abaixo-de-r-5/
-· DI Inflação acima do esperado ameaça os cortes da Selic? Economistas avaliam o que muda para o BC (Money Times) https://www.moneytimes.com.br/inflacao-acima-do-esperado-ameaca-os-cortes-da-selic-economistas-avaliam-o-que-muda-para-o-bc-jcav/
-· USDBRL “Com ou sem dólar”: o que muda ao investir no S&P 500 pela B3 (Suno Noticias) https://www.suno.com.br/noticias/dolar-sp-500-etfs-xp-gss/
-· (+42 manchetes; lista completa em eventos/noticias.json)
+· (+49 manchetes; lista completa em eventos/noticias.json)
