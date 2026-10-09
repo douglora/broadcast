@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 14h21
+NOTÍCIAS E FATOS · 09/10 14h27
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 442 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 5 novas (18 consultas; descartadas: 412 veículo fora da lista, 43 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -107,8 +107,13 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (76)
+## OUTRAS NOTÍCIAS (só manchete) (81)
 
+· LITE Lumentum stock holds Outperform at Evercore on AI demand outlook By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4873922
+· KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4903419
+· TSLA Midday Need to Know: Delta slides on earnings miss, Tesla gains on China sales & more (TradingView (Reuters)) https://www.tradingview.com/news/seekingalpha:03a4bb666094b:0-midday-need-to-know-delta-slides-on-earnings-miss-tesla-gains-on-china-sales-more/
+· AMD Prediction: This Will Be AMD's Stock Price in 1 Year (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-amds-stock-price-1-165200419.html
+· AVGO What's Going On With Broadcom Stock Friday? (TradingView (Reuters)) https://www.tradingview.com/news/benzinga:247d39d64094b:0
 · KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4873937
 · EQTL3 Equatorial Piauí tenta antecipar repasse de R$ 274,5 milhões da UBP (UOL Economia) https://megawhat.uol.com.br/destaques-do-diario/equatorial-piaui-tenta-antecipar-repasse-de-r-2745-milhoes-da-ubp/
 · LITE Lumentum stock holds Outperform at Evercore on AI demand outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4903404
@@ -164,9 +169,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · AMD AMD Turned $10,000 Into More Than $1.2 Million. Can It Happen Again? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/amd-turned-10-000-more-124526814.html
 · LITE Optics Stocks Rally on Sold-Out Optical Capacity Through Early 2029: Applied Optoelectronics and Lumentum Surge 7%, Coherent Climbs 5% (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/optics-stocks-rally-sold-optical-123659817.html
 · USDBRL Dólar cai após duas novas pesquisas eleitorais mostrarem Flávio à frente de Lula Por Reuters (Investing.com) https://br.investing.com/news/forex-news/dolar-cai-apos-duas-novas-pesquisas-eleitorais-mostrarem-flavio-a-frente-de-lula-2087857
-· USDBRL Dólar hoje cai a R$ 4,998, na contramão do exterior (InfoMoney) https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-09102026/
-· AMD AMD: The Market Is Not Ready For The Huge Margin Upside (NASDAQ:AMD) (Seeking Alpha) https://seekingalpha.com/article/4953053-amd-the-market-is-not-ready-for-the-huge-margin-upside
-· BRENT Dólar abre em baixa, a R$ 5, com IPCA, eleições e petróleo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/09/dolar-bolsa-abre-hoje-9-de-outubro-de-2026.ghtm
-· MU Micron Technology Inc FY 2026: Revenue $133.19B, EPS $74.33— 10-K Summary (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:5445d6c3001bb:0-micron-technology-inc-fy-2026-revenue-133-19b-eps-74-33-10-k-summary/
-· JPM Here's What $10,000 Invested in JPMorgan Chase When Jamie Dimon Became CEO Is Worth Now (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-10-000-invested-jpmorgan-122300754.html
-· (+16 manchetes; lista completa em eventos/noticias.json)
+· (+21 manchetes; lista completa em eventos/noticias.json)
