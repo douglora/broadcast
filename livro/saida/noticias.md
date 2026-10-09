@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 11h26
+NOTÍCIAS E FATOS · 09/10 12h22
 
-Pernas: noticias ok 14 novas (18 consultas; descartadas: 429 veículo fora da lista, 47 sem ativo, 3 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 16 novas (18 consultas; descartadas: 435 veículo fora da lista, 44 sem ativo, 1 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -14,7 +14,52 @@ Fonte: SEC EDGAR 2026-10-09
 id: E04-MU-26000023-2026-10-09 · status: linha
 
 
-## NOTÍCIAS COM MATERIALIDADE (4)
+## NOTÍCIAS COM MATERIALIDADE (7)
+
+[ATENÇÃO] E05 · USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'; dólar cai
+Money Times · 09/10 10h17 · fonte única · licença: integral
+Do texto:
+  – O Centro de Operações de Comércio Marítimo do Reino Unido (UKMTO, na sigla em inglês) informou ter recebido um relato de incidente a 13 milhas náuticas (aproximadamente 24 quilômetros) a oeste de Al Jazeera, nos Emirado…
+  – “A situação da tripulação, a avaliação de danos e o impacto ambiental são desconhecidos no momento”, escreveu.
+  – “As autoridades estão investigando”, acrescentou.
+Link: https://www.moneytimes.com.br/tempo-real-9-10-26-apsa-lils/
+Por que importa: noticia material sobre um ativo do livro; ler o texto antes de comentar
+Ativos: USDBRL
+Como falar: 'saiu no Money Times: Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia com 'trade Flávio'…; confirmar o número no texto antes de repassar'
+Fonte: Money Times 09/10 10h17
+id: E05-USDBRL-7b00c7028d-2026-10-09 · status: pendente · íntegra disponível
+
+[ATENÇÃO] E05 · BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms
+CoinDesk · 09/10 07h44 · fonte única · licença: resumo
+Trechos (licença resumo: reescrever, não colar):
+  – Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms Bitcoin recovered to around $82,500 after Trump ruled out an Iran strike, but remains about 4% lower on the week, while ether has lost 9%.
+  – - Bitcoin recovered to around $82,500 after President Donald Trump said the U.S.
+  – 3 midterm elections, but remains about 4% lower than a week ago.
+  – - Smaller tokens led the bounce, with the CoinDesk 80 up 2.2% since midnight UTC, though the CoinDesk 100 remains 2.2% lower over 24 hours.
+  – - Starknet’s STRK jumped 33% after the network said it is considering becoming a standalone layer-1 blockchain to achieve full quantum resistance by 2027.
+  – Bitcoin  heads into the weekend about 4% lower than at the same time last Friday, even after recovering to around $82,500 from a low near $80,300 on Thursday.
+Link: https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: BTC
+Como falar: 'saiu no CoinDesk: Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms; confirmar o número no texto antes de repassar'
+Fonte: CoinDesk 09/10 07h44
+id: E05-BTC-fdd6813a5d-2026-10-09 · status: pendente
+
+[ATENÇÃO] E05 · BRENT · Produção de petróleo e gás natural no Brasil bate recorde em 2025
+Agencia Brasil · 08/10 12h37 · fonte única · licença: integral
+Do texto:
+  – A produção média nacional chegou, em 2025,  a quase 4,9 milhões de barris de óleo equivalente por dia.
+  – Um volume 12,7% maior que o recorde anterior, de 2023.
+  – Essa medida, "barril de óleo equivalente", é uma forma de somar, em um único número, o petróleo líquido e volume de gás natural retirados dos poços.
+  – No acumulado dos doze meses, o país extraiu quase 1,8 bilhão de barris, o que coloca o Brasil entre os nove maiores produtores de petróleo do mundo.
+  – No ano passado, as jazidas do pré-sal foram responsáveis por quase 80% da produção, principalmente em cinco campos entre o litoral do Rio de Janeiro e do Espírito Santo.
+  – A consequência é que, pelo segundo ano consecutivo, o petróleo bruto foi o item com maior faturamento entre as exportações brasileiras, superando soja e minério de ferro, e rendendo quase US$ 45 bilhões.
+Link: https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-10/producao-de-petroleo-e-gas-natural-no-brasil-bate-recorde-em-2025
+Por que importa: evento operacional afeta producao e custo no trimestre corrente
+Ativos: BRENT
+Como falar: 'saiu no Agencia Brasil: Produção de petróleo e gás natural no Brasil bate recorde em 2025; confirmar o número no texto antes de repassar'
+Fonte: Agencia Brasil 08/10 12h37
+id: E05-BRENT-37b7747fcd-2026-10-08 · status: pendente · íntegra disponível
 
 [ATENÇÃO] E05 · MRVE3 · Agenda de empresas: Lucro da Camil cai 47,5%; vendas da MRV&Co sobem 29,6% no 3° trimestre
 Valor Economico · 09/10 08h29 · fonte única · licença: resumo
@@ -62,8 +107,21 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (45)
+## OUTRAS NOTÍCIAS (só manchete) (58)
 
+· JPM JPMorgan, Citi, Bank Of America Earnings Previews: Eventually Return To More Normal Growth (Seeking Alpha) https://seekingalpha.com/article/4953114-jpmorgan-citigroup-bac-earnings-previews-eventually-return-to-more-normal-growth
+· LITE Lumentum Can’t Keep Up With AI Demand—and Its Stock Is Surging (Barron's) https://www.barrons.com/articles/lumentum-stock-ai-optical-component-shortages-b2580d80
+· USDBRL Dólar canadense cai após perda de empregos e recuo nas apostas de alta de juros (Investing.com) https://br.investing.com/news/stock-market-news/dolar-canadense-cai-apos-perda-de-empregos-e-recuo-nas-apostas-de-alta-de-juros-2088039
+· PLTR Palantir: The Next $1T Company (NASDAQ:PLTR) (Seeking Alpha) https://seekingalpha.com/article/4953091-palantir-the-next-1t-company
+· ITUB4 Bancões sob pressão no 3T26: Goldman vê piora do crédito e tem Itaú como favorito (InfoMoney) https://www.infomoney.com.br/mercados/bancoes-sob-pressao-no-3t26-goldman-ve-piora-do-credito-e-tem-itau-como-favorito/
+· CURY3 Cury: vendas líquidas crescem 11,4% no 3T26 e chegam a R$ 2,03 bilhões (ADVFN) https://br.advfn.com/jornal/2026/10/cury-vendas-liquidas-crescem-11-4-no-3t26-e-chegam-a-r-2-03-bilhoes
+· TESOURO Tesouro Direto hoje ignora alta do IPCA, se entrega à influência eleitoral e cai forte; veja taxas (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tesouro-direto-hoje-ignora-alta-do-ipca-se-entrega-a-influencia-eleitoral-e-cai-forte-veja-taxas/
+· LITE Lumentum shares rise as AI demand fills production capacity through early 2029 (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/lumentum-shares-rise-ai-demand-142000071.html
+· UST Treasury yields have fallen after four of five House-flipping midterms, Ree says (US10Y:) (Seeking Alpha) https://seekingalpha.com/news/4651744-treasury-yields-have-fallen-after-four-of-five-house-flipping-midterms-ree-says
+· NVDA Nvidia (NVDA) More Than Doubled Revenue, Yet Its Multiple Sits Below History. Bargain or Warning? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-more-doubled-revenue-132539113.html
+· USDBRL Bolsa sobe com Datafolha mostrando Flávio à frente no 2º turno; dólar cai apesar de IPCA acima do esperado (Folha de S.Paulo) https://news.google.com/rss/articles/CBMivgFBVV95cUxPVnlFSnhNcVJSR2xjZzJ1MHV6aElNcFZnRURHVVRpMy1rNEswdk1OZWVnWXRGYzVSYlI1T1JGVWhpOU5JbXlrNnlNNFZNNTlNYTRXaEM4MEltcDkxRmxJZDRSaUZ1eU1HdlF5b2dGM2o4ZVhYWVZqNXU4enR5a1VaZkxmU1R1allKX1BGT2NUUE9kaEp6MmlJbnVSZ1REclNRRGxmUk9IdHE4UUk5OWxIUmtobm01dlhPS3ZVNDFB?oc=5
+· TSM Record Profits at Samsung and TSMC Say the AI Trade is Intact (TradingView (Reuters)) https://news.google.com/rss/articles/CBMiuAFBVV95cUxONnZvTi1uaDNKSkZNVzVwMVBYRkYxTDNrQmRxZFFDaVZRMmczUzBVQUpWY0o3Y0M4eEpJZVBKNmgwT2lBZGQ5YTRMakgxYk9HU2NpbVFCQkZJSzhTRkxvNi1yUVJJQUg4WEt5WWlrUnhlR1VJSjZzN2I0ZEZXUjlyWUhTM2MtOEd4NzdHTk1DdngyQUk0Q2stTEU3MVNUSHNUb1RpRkVHOVBTZW5na0ZQWmNTODFCMHF5?oc=5
+· LITE Lumentum AI optical components sold out through 2029 (Yahoo Finance) https://news.google.com/rss/articles/CBMioAFBVV95cUxQMmw1WUxMWnpsT2h0NzJTV0lvdjFVR2dpcWFjZmVoZGE5VWF5UDB1QzNWVElfcDJsdHVYOVREZTRzLXFDWFBQV1NfUTFwMGJhZXhqSGo5STFfVmdtbVlDTGUxUGlzODBUTWp6NzJwYTdhdG55WXBFbVI2ekNRYlZxRFJtek9FVGltLTdGQlBTNFZjNjRIbnczR3BqanNfcGdV?oc=5
 · USDBRL Ibovespa sobe e fica perto dos 210 mil pontos; dólar cai abaixo de R$ 5 (Exame) https://exame.com/invest/mercados/ibovespa-sobe-e-fica-perto-dos-210-mil-pontos-dolar-cai-abaixo-de-r-5/
 · DI Inflação acima do esperado ameaça os cortes da Selic? Economistas avaliam o que muda para o BC (Money Times) https://www.moneytimes.com.br/inflacao-acima-do-esperado-ameaca-os-cortes-da-selic-economistas-avaliam-o-que-muda-para-o-bc-jcav/
 · USDBRL “Com ou sem dólar”: o que muda ao investir no S&P 500 pela B3 (Suno Noticias) https://www.suno.com.br/noticias/dolar-sp-500-etfs-xp-gss/
