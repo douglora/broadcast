@@ -1,19 +1,19 @@
 {
- "pregao": "2026-10-07",
+ "pregao": "2026-10-08",
  "nome": "Forward",
  "titulo": "Ações mais negociadas - a termo",
  "sla": "8:00:00",
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "republicado",
- "atualizado_em": "2026-10-08T04:03:48.207",
+ "situacao": "publicado",
+ "atualizado_em": "2026-10-08T19:05:28.07",
  "truncada": false,
  "linhas": [
-  ["INVESTOUTIL CI", "CI", 30, 142.85, 33000, 4714.05, 0.4124015906704262],
-  ["ISHARES SMALCI", "CI", 90, 133.97, 40000, 5358.8, 0.499880715964153],
-  ["INTER CO    DR2", "DR2", 16, 36.84, 150000, 5526.000000000001, 1.874552684865574],
-  ["TENDA       ON      NM", "ON      NM", 114, 31.18, 180000, 5612.4, 2.2494632218386887],
-  ["ASSAI       ON      NM", "ON      NM", 90, 12.55, 2000000, 25100, 24.994035798207655]
+  ["VALE        ON      NM", "ON      NM", 32, 68.54, 96900, 6641.526000000001, 1.4070538557486645],
+  ["JBS N.V.    DR2", "DR2", 180, 66.45, 230000, 15283.5, 3.3397563139545188],
+  ["INTER CO    DR2", "DR2", 18, 36.75, 243490, 8948.2575, 3.5356402821077637],
+  ["MINERVA     ON      NM", "ON      NM", 16, 4.46, 1005800, 4485.868, 14.604899567719368],
+  ["ASSAI       ON      NM", "ON      NM", 90, 12.64, 1500000, 18960, 21.781019438833816]
  ]
 }
