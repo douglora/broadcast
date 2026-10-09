@@ -87,7 +87,8 @@ DADO_RESERVA_MIN = 22             # antes do dado as outras leituras nao abrem p
 QUEM_OPERA = {"dado_opera": True, "climax_opera": True, "niveis_opera": False}
 # Cotacoes em rajadas: a conexao do MetaTrader com a corretora degrada e os tiques chegam de 20 em 20 segundos (08/10 de
 # manha e a tarde, 09/10 as 10h15). O remedio que sempre resolveu e fechar e reabrir o MetaTrader; o robo agora faz sozinho.
-FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_s": 180.0, "max_por_dia": 8}
+FEED_RUIM = {"sem_tique_s": 30.0, "atraso_ms": 15_000.0, "leituras": 3, "espera_s": 180.0, "max_por_dia": 8,
+             "pausa_do_mac_s": 30.0, "carencia_ao_acordar_s": 120.0}
 
 
 def metatrader_aberto():
@@ -305,6 +306,7 @@ class RoboFluxo:
         self.ultima_fita = 0.0                                   # relogio da ultima linha de fita recebida
         self.cot, self.feed, self.feed_em, self.livro = {}, {}, 0.0, {}
         self.feed_visto, self.feed_ruim, self.reconectou_em, self.reconexoes = 0.0, 0, 0.0, 0
+        self.vigia_em, self.acordou_em = time.time(), 0.0        # para saber quando o Mac dormiu (tampa fechada) e acabou de acordar
         self.chave = chave.ler()                                 # liga/desliga do Douglas
         self.preparado = False                                   # ja leu contratos e ajuste nesta execucao?
         self.barras, self.sinais_pc, self.leitura_pc, self.ordem_pc, self.minuto_pc = {}, {}, {}, {}, None
@@ -466,9 +468,15 @@ class RoboFluxo:
         """Cotacoes em rajadas por tres leituras seguidas da saude do motor: reabre o MetaTrader sozinho (conexao nova).
         So no pregao, so se o MetaTrader estiver aberto (fechado de proposito, nao reabre), com espera entre uma e outra."""
         hm = agora.strftime("%H:%M")
+        relogio = time.time()
+        if relogio - self.vigia_em > FEED_RUIM["pausa_do_mac_s"]:      # o robo ficou parado: o Mac dormiu. Preco velho ao acordar
+            self.acordou_em, self.feed_ruim = relogio, 0                # nao e defeito do MetaTrader (09/10/2026, tampa fechada as 13h59)
+        self.vigia_em = relogio
         if agora.weekday() >= 5 or not ("09:05" <= hm < "18:20") or self.feed_em == self.feed_visto:
             return False
         self.feed_visto = self.feed_em
+        if relogio - self.acordou_em < FEED_RUIM["carencia_ao_acordar_s"]:
+            return False                                         # acabou de acordar: o MetaTrader reconecta sozinho; espera antes de julgar
         f = self.feed or {}
         ruim = (f.get("sem_tique_s") or 0) >= FEED_RUIM["sem_tique_s"] or (f.get("atraso_ms") or 0) >= FEED_RUIM["atraso_ms"]
         self.feed_ruim = self.feed_ruim + 1 if ruim else 0

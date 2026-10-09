@@ -1186,3 +1186,27 @@ def test_robo_reabre_o_metatrader_sozinho_quando_as_cotacoes_vem_em_rajadas(tmp_
     monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
     r.reconexoes = rf.FEED_RUIM["max_por_dia"]
     assert [leitura(40.0, 30000.0) for _ in range(4)] == [False] * 4 and chamadas == [1, 1]
+
+
+def test_robo_nao_reabre_o_metatrader_quando_o_mac_acabou_de_acordar(tmp_path, monkeypatch):
+    # 09/10/2026: tampa fechada as 13h59; a cada despertar de manutencao o robo via preco velho e reabria o MetaTrader a toa
+    rf, r, _mt5 = _robo(tmp_path, monkeypatch, "2026-10-09")
+    chamadas = []
+    monkeypatch.setattr(rf, "reabrir_metatrader", lambda: chamadas.append(1))
+    monkeypatch.setattr(rf, "metatrader_aberto", lambda: True)
+    monkeypatch.setattr(rf.threading, "Thread", lambda target, daemon=None: type("T", (), {"start": lambda self: target()})())
+    relogio = [1_000_000.0]
+    monkeypatch.setattr(rf.time, "time", lambda: relogio[0])
+    r.vigia_em = relogio[0]
+    agora = datetime(2026, 10, 9, 14, 37, 3, tzinfo=BRT)
+
+    def leitura(sem_tique, atraso, passo=6.0):
+        relogio[0] += passo
+        r.feed, r.feed_em = {"sem_tique_s": sem_tique, "atraso_ms": atraso, "mt5": "ligado"}, relogio[0]
+        return r._vigiar_feed(agora)
+    # o robo ficou 15 minutos sem rodar (Mac dormindo) e acorda vendo preco de 23 minutos atras: nao reabre
+    assert leitura(1358.0, 0.0, passo=900.0) is False
+    assert [leitura(1370.0, 0.0) for _ in range(5)] == [False] * 5 and chamadas == []
+    # passada a carencia de 2 minutos, se continuar sem preco, ai sim reabre
+    assert [leitura(1500.0, 0.0) for _ in range(14)] == [False] * 14
+    assert [leitura(1600.0, 0.0) for _ in range(3)] == [False, False, True] and chamadas == [1]      # tres leituras ruins contadas depois da carencia
