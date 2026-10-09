@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 13h21
+NOTÍCIAS E FATOS · 09/10 14h21
 
-Pernas: noticias ok 9 novas (18 consultas; descartadas: 444 veículo fora da lista, 45 sem ativo, 0 teto) · cvm ok 0 novos de 10 (7 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 9 novas (18 consultas; descartadas: 442 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -107,8 +107,17 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (67)
+## OUTRAS NOTÍCIAS (só manchete) (76)
 
+· KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report By Investing.com (Investing.com) https://ca.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4873937
+· EQTL3 Equatorial Piauí tenta antecipar repasse de R$ 274,5 milhões da UBP (UOL Economia) https://megawhat.uol.com.br/destaques-do-diario/equatorial-piaui-tenta-antecipar-repasse-de-r-2745-milhoes-da-ubp/
+· LITE Lumentum stock holds Outperform at Evercore on AI demand outlook By Investing.com (Investing.com) https://uk.investing.com/news/stock-market-news/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4903404
+· TSLA Midday Need to Know: Delta slides on earnings miss, Tesla gains on China sales & more (SPY:NYSEARCA) (Seeking Alpha) https://seekingalpha.com/news/4651829-midday-need-to-know-delta-slides-on-earnings-miss-tesla-gains-on-china-sales-more
+· BTC Thailand SEC clears the way for local spot Bitcoin and Ether ETFs (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:dba7650be094b:0-thailand-sec-clears-the-way-for-local-spot-bitcoin-and-ether-etfs/
+· GFS GlobalFoundries Can Profit From AI Without Making GPUs (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/globalfoundries-profit-ai-without-making-162441306.html
+· GOOGL Prediction: Alphabet Could Be One of the Market’s Biggest Winners Over the Next 5 Years (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/prediction-alphabet-could-one-market-150007982.html
+· BAC Should BAC Shares Be Added to Your Portfolio Ahead of Q3 Earnings? (TradingView (Reuters)) https://www.tradingview.com/news/zacks:45a1bff5a094b:0-should-bac-shares-be-added-to-your-portfolio-ahead-of-q3-earnings/
+· SBSP3 EMAE sai da B3 em 23 de outubro após incorporação pela Sabesp (UOL Economia) https://www.bol.uol.com.br/economia/2026/10/09/emae-sai-da-b3-em-23-de-outubro-apos-incorporacao-pela-sabesp.ghtm
 · TSLA Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe (TechCrunch) https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/
 · USDBRL Ibovespa renova máxima no dia e dólar cai abaixo de R$ 5, mas IPCA lembra: a conta dos juros ainda não fechou (Seu Dinheiro) https://www.seudinheiro.com/2026/bolsa-dolar/ibovespa-renova-maxima-no-dia-e-dolar-cai-abaixo-de-r-5-mas-ipca-lembra-a-conta-dos-juros-ainda-nao-fechou-ccgg/
 · DI Inflação de setembro fura teto da meta e divide o mercado sobre os rumos da Selic (InfoMoney) https://www.infomoney.com.br/economia/ipca-setembro-alta-meta-selic-09102026/
@@ -160,13 +169,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · BRENT Dólar abre em baixa, a R$ 5, com IPCA, eleições e petróleo no radar (UOL Economia) https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/09/dolar-bolsa-abre-hoje-9-de-outubro-de-2026.ghtm
 · MU Micron Technology Inc FY 2026: Revenue $133.19B, EPS $74.33— 10-K Summary (TradingView (Reuters)) https://www.tradingview.com/news/tradingview:5445d6c3001bb:0-micron-technology-inc-fy-2026-revenue-133-19b-eps-74-33-10-k-summary/
 · JPM Here's What $10,000 Invested in JPMorgan Chase When Jamie Dimon Became CEO Is Worth Now (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/heres-10-000-invested-jpmorgan-122300754.html
-· JPM JPMorgan Chase Stock: Earnings Tell Half The Story (NYSE:JPM) (Seeking Alpha) https://seekingalpha.com/article/4953036-jpm-earnings-tell-half-the-story
-· BTC Bitcoin holds near September highs as crypto stock proxies slide (TradingView (Reuters)) https://www.tradingview.com/news/cryptobriefing:6674690d2094b:0-bitcoin-holds-near-september-highs-as-crypto-stock-proxies-slide/
-· BTC Current price of Bitcoin for Oct. 9, 2026 (Fortune) https://fortune.com/article/price-of-bitcoin-10-09-2026/
-· NVDA OpenAI’s Revenue Is Reportedly $20 Billion Lower Than Thought. Nvidia Just Lost $170 Billion (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/openai-revenue-reportedly-20-billion-111534921.html
-· ETH Current price of Ethereum for Oct. 9, 2026 (Fortune) https://fortune.com/article/price-of-ethereum-10-09-2026/
-· AMD Premarket Movers: CRWV, AMD And Other AI Stocks Rebound, SpaceX Deal Boosts Tower Shares (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:c916d4f91094b:0-premarket-movers-crwv-amd-and-other-ai-stocks-rebound-spacex-deal-boosts-tower-shares/
-· LITE Coherent Shares Rise 3.5% as Lumentum Highlights Strong AI Optical Component Demand (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/coherent-shares-rise-3-5-104542372.html
-· USDBRL Pesquisa Datafolha e IPCA mexem com mercado no último pregão da semana; Ibovespa em dólar sobe nesta sexta-feira (9) (Money Times) https://www.moneytimes.com.br/pesquisa-datafolha-e-ipca-mexem-com-mercado-no-ultimo-pregao-da-semana-ibovespa-em-dolar-sobe-nesta-sexta-feira-9-rens/
-· COHR Why is Coherent stock rallying today? By Investing.com (Investing.com) https://in.investing.com/news/stock-market-news/why-is-coherent-stock-rallying-today-93CH-5625517
-· (+7 manchetes; lista completa em eventos/noticias.json)
+· (+16 manchetes; lista completa em eventos/noticias.json)
