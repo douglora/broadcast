@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 08/10/2026 (quinta)
 
-**Situação: PARCIAL.** Ainda sem: saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-09T06:40:48Z (UTC).
+**Situação: PARCIAL.** Ainda sem: saldo de aluguel. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-09T11:57:32Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -24,7 +24,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Fluxo estrangeiro.** Estrangeiro comprou R$ 1.092 mi líquidos em 06/10; no mês, até 06/10, saldo de +R$ 13.703 mi. _(B3, SharesInvesVolum, 06/10)_
 - **Juros.** A curva de juros fechou: DI1F29 −12 pb, para 12,32%, DI1F30 −12 pb, para 12,39%, DI1F32 −16 pb, para 12,54%, DI1F35 −18 pb, para 12,60%. _(B3, TradeInformationConsolidated, 08/10)_
 - **ETF fora do valor da cota.** SMAL11 fechou a R$ 134,39, prêmio de 0,64% sobre o valor de referência da cota (R$ 133,53). _(B3, IOPV, 08/10)_
-- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: SBSP3 (5º); maiores baixas do Ibovespa: CURY3 (3º), BBDC4 (6º), VALE3 (10º); mais negociadas à vista: SMAL11 (1º), PETR4 (2º), VALE3 (3º), ITUB4 (4º), BBDC4 (5º); calls mais negociadas: SMALJ120 (5º); puts mais negociadas: SMALW143 (5º). _(B3, tabelas de maiores oscilacoes, 08/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: SBSP3 (5º); maiores baixas do Ibovespa: CURY3 (3º), BBDC4 (6º), VALE3 (10º); mais negociadas à vista: SMAL11 (1º), PETR4 (2º), VALE3 (3º), ITUB4 (4º), BBDC4 (5º); calls mais negociadas: SMALJ120 (5º); puts mais negociadas: SMALW143 (6º). _(B3, tabelas de maiores oscilacoes, 08/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -86,6 +86,18 @@ Saldo = compras menos vendas, somando todos os mercados da B3. A B3 divulga com 
 | INDV26 | 206.635,00 | +0,84% | 164.349 |
 
 DI1 = DI futuro (taxa prefixada); DAP = cupom de IPCA (juro real); DOL = dólar futuro; IND = Ibovespa futuro. pb = ponto-base (0,01 ponto percentual).
+
+## Posições em aberto por mercado (futuros)
+
+| Mercado | Contratos | Variação no pregão | Referencial (R$ mi) |
+|---|---:|---:|---:|
+| IND | 189.824 | +0,64% | 39.385 |
+| WIN | 1.227.832 | -2,08% | 50.819 |
+| WDO | 1.964.801 | +2,64% | 99.028 |
+| DOL | 908.218 | +0,72% | 228.878 |
+| DAP | 3.261.513 | +0,13% | 466.670 |
+| DDI | 4.812.836 | +0,42% | 1.135.579 |
+| DI1 | 42.305.955 | +2,39% | 3.470.454 |
 
 ## O livro em blocos
 
@@ -271,13 +283,12 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 
 ## Lacunas e pendências
 
-- quadro de posições em aberto: aguardando
-- saldo de aluguel: aguardando
-- empréstimos do dia: aguardando
+- saldo de aluguel: ignorado
 - aluguel por corretora: ignorado
-- Register: aguardando
-- Stock: aguardando
+- Publicadas pela B3 depois do prazo, mas com dado: AnalyticalFramework2.
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 08/10 de MELI nas séries do livro.
+
+Boletim completo em PDF (B3): https://arquivos.b3.com.br/bdi/download/bdi/2026-10-08/BDI_00_20261008.pdf
