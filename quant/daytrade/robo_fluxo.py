@@ -71,7 +71,17 @@ CLIMAX_ESPERA_S = 10.0            # o sinal de climax vale por estes segundos: s
 # A calibracao nao se sustenta: o climax segue no ar so para gerar operacoes e medir com a fita, no lote minimo.
 CLIMAX_PROVA = {"pregoes": 1071, "de": "outubro de 2021", "ate": "janeiro de 2026", "acerto": 56, "rs_por_negocio_e_contrato": -8.25,
                 "acerto_2026": 68, "rs_por_negocio_e_contrato_2026": 10.15, "configuracoes": 108, "ganham_2021_2025": 0}
-QUEM_OPERA = {"climax_opera": True, "niveis_opera": False}
+# SETUP PROPRIO (08/10/2026, 22h): busca em 5 anos de barras de 1 minuto, sete frentes, milhares de hipoteses, com
+# descoberta (2021-2024), validacao (2025) e prova (2026) separadas (quant/pesquisa/lab.py; quant/estudos/LEIA.md).
+# A unica regra que passou: apostar CONTRA a reacao dos 2 primeiros minutos ao dado americano das 8h30 de Nova York
+# (9h30 de Brasilia no horario de verao dos EUA, 10h30 fora), quando ela passa de 4 pontos; sai em 120 minutos ou no
+# stop de 40 pontos, sem alvo e sem parcial. Com 2 contratos: descoberta 262 negocios, +R$ 116 por negocio (t 3,2,
+# 7 de 7 semestres); validacao 45 negocios, +R$ 19; prova 32 negocios, +R$ 91. Fora da descoberta: 77 negocios, +R$ 49
+# (t 0,9): positivo nos seis anos, mas ainda sem forca estatistica sozinho. Os parametros estao CONGELADOS: nao reotimizar.
+DADO = {"minutos": 2, "limiar": 4.0, "stop": 40.0, "tempo_max": 120, "atraso_max_s": 8}
+DADO_ESPERA_S = 10.0              # como no climax: o sinal vale por estes segundos, se o spread abrir logo depois do dado
+DADO_RESERVA_MIN = 22             # antes do dado as outras leituras nao abrem posicao: a vaga e do setup proprio
+QUEM_OPERA = {"dado_opera": True, "climax_opera": True, "niveis_opera": False}
 ARQ_MODO = os.path.join(os.path.dirname(DIR_DT), "modo_robo.json")
 SETUPS_DE_GRAFICO = ("phicube", "niveis")
 FITA_PARADA_S = 30.0
@@ -148,7 +158,7 @@ def spread_do_livro(livro, codigo):
     return v[0][0] - c[0][0]
 
 
-def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_OPERA["niveis_opera"]):
+def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_OPERA["niveis_opera"], dado_opera=QUEM_OPERA["dado_opera"]):
     c, x = NIVEIS, CLIMAX
     parar = [f"com {ef._rs(p.perda_maxima_dia_rs)} de perda no dia", f"depois de {p.perdas_para_parar} negócios perdedores",
              f"quando devolve {p.devolucao_para:.0%} do lucro que o dia já teve"]
@@ -157,7 +167,18 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
     quem = ("Opera o climax de volume; o teste de nível é só medido." if climax_opera and not niveis_opera else
             "Opera o climax de volume e o teste de nível." if climax_opera else
             "Opera o teste de nível; o climax de volume é só medido." if niveis_opera else "As duas leituras estão só sendo medidas: o robô não entra.")
-    return [
+    d = DADO
+    proprio = [
+        "SETUP PRÓPRIO, REVERSÃO DO DADO AMERICANO" + ("" if dado_opera else " (só medido)") + ": às 9h30 (10h30 quando os Estados Unidos estão "
+        f"fora do horário de verão) saem os dados americanos. Se nos {d['minutos']} primeiros minutos o mini-dólar andar mais de {ef._n(d['limiar'])} "
+        f"pontos, o robô entra CONTRA esse movimento no minuto seguinte. Sem alvo e sem parcial: sai depois de {d['tempo_max']} minutos, ou no "
+        f"stop de {ef._n(d['stop'])} pontos. Antes do dado as outras leituras não abrem posição: a vaga é deste setup.",
+        "De onde veio: busca de 08/10/2026 em 5 anos de barras de 1 minuto (sete frentes, milhares de hipóteses). Foi a única regra que "
+        "passou. Com 2 contratos: 2021 a 2024, 262 negócios, 59% de acerto, +R$ 116 por negócio; 2025, 45 negócios, +R$ 19; 2026, 32 "
+        "negócios, +R$ 91. Positivo nos seis anos, mas nos dois últimos (os que a busca não viu) a média é +R$ 49 e ainda pode ser acaso. "
+        "Dá 1 entrada a cada 3 a 6 pregões; cada negócio ganha ou perde perto de R$ 400 e o stop cheio custa R$ 815.",
+    ]
+    return proprio + [
         "Só mini-dólar, em simulação. " + quem + " Revisão de 08/10/2026: em 888 pregões o teste de nível perdeu o custo da operação "
         "(cerca de R$ 23 por negócio) e nenhum filtro testado mudou isso. O climax de volume ganhou em 2026, mas perdeu nos cinco anos "
         "anteriores: nenhuma das regras testadas ganha depois de custo. O robô opera para gerar operações e medir com a fita.",
@@ -279,6 +300,9 @@ class RoboFluxo:
         except (TypeError, ValueError):
             pass
         self.climax_opera = bool(modo.get("climax_opera", QUEM_OPERA["climax_opera"])) and setup == "niveis"
+        self.dado_opera = bool(modo.get("dado_opera", QUEM_OPERA["dado_opera"])) and setup == "niveis"
+        self.dado = {a: br.SinalDado(**DADO) for a in ATIVOS} if setup == "niveis" else {}
+        self.leitura_dado, self.dado_pendente = {}, {}
         self.niveis_opera = bool(modo.get("niveis_opera", QUEM_OPERA["niveis_opera"]))
         self.climax = {a: br.SinalClimax(**CLIMAX) for a in ATIVOS} if setup == "niveis" else {}
         self.leitura_climax, self.climax_pendente = {}, {}
@@ -426,6 +450,11 @@ class RoboFluxo:
                                             contrato=self.codigos.get(a)), ensure_ascii=False) + "\n")
             except OSError:
                 pass
+            if ev.get("tecnica") == "reversão do dado":
+                self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
+                            f"contra a {ev['nome_nivel']} (setup próprio); stop {_pontos(ev['stop'], a)}, sem alvo: "
+                            f"sai em {m.get('tempo_max_min')} minutos.", agora)
+                return
             if ev.get("tecnica") == "climax de volume":
                 self.anotar("entrada", f"{nome}: {'COMPROU' if ev['lado'] == 'C' else 'VENDEU'} {ev['contratos']} a {_pontos(ev['entrada'], a)} "
                             f"contra um {ev['nome_nivel']}; stop {_pontos(ev['stop'], a)}, alvo a {_pontos(m.get('alvo_pts') or 0, a)} pontos, "
@@ -568,6 +597,7 @@ class RoboFluxo:
 
         O minuto que manda e o da FITA quando ela esta viva (ai a barra do minuto que fechou esta inteira, com maxima,
         minima e volume); so sem fita vale o relogio, com o fechamento que o motor da."""
+        sinal_dado = self._sinal_dado(a, agora) if self.setup == "niveis" else None
         sinal_climax = self._sinal_climax(a, agora) if self.setup == "niveis" else None
         fita_viva = time.time() - self.fita_em.get((a, "mini"), 0.0) <= FITA_PARADA_S
         minuto = ("fita", self.fitas_mini[a].relogio() // 60) if fita_viva else ("relogio", int(agora.timestamp() // 60))
@@ -595,8 +625,9 @@ class RoboFluxo:
                          "medidas": {"risco_pts": ordem.stop_pts, "alvo_pts": ordem.alvo_pts,
                                      "retorno_risco": round(ordem.alvo_pts / ordem.stop_pts, 2),
                                      "fracao_a_favor": fita.get("fracao_a_favor"), "fita": fita}}
-                self._guardar_sinal(a, sinal, agora, opera=self.niveis_opera)
-                if not self.niveis_opera:
+                opera_nivel = self.niveis_opera and not self._perto_do_dado(agora)
+                self._guardar_sinal(a, sinal, agora, opera=opera_nivel)
+                if not opera_nivel:
                     sinal = None                                 # so medido: nao vira entrada
             elif ordem is not None:
                 l = self.leitura_pc[a]
@@ -607,7 +638,45 @@ class RoboFluxo:
                          "medidas": {"tendencia": l["tendencia"], "maior_min": l["maior_min"], "menor_min": l["menor_min"],
                                      "medias_maior": l["medias_maior"], "medias_menor": l["medias_menor"],
                                      "risco_pts": ordem.stop_pts, "fracao_a_favor": None}}
-        return sinal_climax or sinal
+        return sinal_dado or sinal_climax or sinal
+
+    def _perto_do_dado(self, agora):
+        """Da reserva antes do dado ate o minuto da entrada, a vaga e do setup proprio."""
+        if not self.dado_opera:
+            return False
+        dado, _decide, entra = next(iter(self.dado.values())).horarios(agora.date())
+        t = br.pd.Timestamp(agora.replace(tzinfo=None))
+        return dado - br.pd.Timedelta(minutes=DADO_RESERVA_MIN) <= t < entra + br.pd.Timedelta(seconds=DADO_ESPERA_S)
+
+    def _sinal_dado(self, a, agora):
+        """Setup proprio: reversao da reacao ao dado americano. A ordem nasce no primeiro ciclo do minuto de entrada."""
+        try:
+            fita = self.fitas_mini[a]
+            self.leitura_dado[a], ordem = self.dado[a].atualizar(fita)
+            if ordem is None:
+                pend = self.dado_pendente.get(a)
+                if pend is None:
+                    return None
+                if self.estados[a].posicao is not None or agora.timestamp() > pend[1]:
+                    self.dado_pendente.pop(a, None)
+                    return None
+                return pend[0]
+            atraso = _relogio_brt(agora) - fita.relogio()
+            medida = self.leitura_da_fita(a, ordem.lado, ordem.nivel)
+            sinal = {"tecnica": "reversão do dado", "lado": ordem.lado, "nivel": ordem.nivel, "nome_nivel": ordem.nome_nivel,
+                     "stop_pts": ordem.stop_pts, "parcial_pts": None, "alvo_pts": None, "sem_arrasto": True, "sem_parcial": True,
+                     "ignora_pausa": True, "tempo_max_s": ordem.tempo_max * 60.0,
+                     "medidas": dict(ordem.info, risco_pts=ordem.stop_pts, tempo_max_min=ordem.tempo_max, atraso_fita_s=atraso,
+                                     fracao_a_favor=medida.get("fracao_a_favor"), fita=medida)}
+            opera = bool(self.dado_opera and -5 <= atraso <= 12)
+            self._guardar_sinal(a, sinal, agora, opera=opera)
+            if not opera:
+                return None
+            self.dado_pendente[a] = (sinal, agora.timestamp() + DADO_ESPERA_S)
+            return sinal
+        except Exception as e:                                   # leitura que falha nao derruba o robo
+            self.leitura_dado[a] = {"pronto": False, "motivo": f"erro na leitura do dado: {type(e).__name__}: {e}"}
+            return None
 
     def _sinal_climax(self, a, agora):
         """Climax de volume, lido na fita do mini a cada ciclo; a ordem nasce no primeiro ciclo do minuto seguinte ao tranco."""
@@ -630,7 +699,7 @@ class RoboFluxo:
                      "medidas": dict(ordem.info, risco_pts=ordem.stop_pts, alvo_pts=round(ordem.alvo_pts, 2), tempo_max_min=ordem.tempo_max,
                                      atraso_fita_s=atraso, fracao_a_favor=medida.get("fracao_a_favor"), fita=medida)}
             em_dia = -5 <= atraso <= 12
-            opera = bool(self.climax_opera and em_dia and ordem.info.get("opera", True))
+            opera = bool(self.climax_opera and em_dia and ordem.info.get("opera", True) and not self._perto_do_dado(agora))
             self._guardar_sinal(a, sinal, agora, opera=opera, diario=bool(ordem.info.get("opera", True)))
             if not opera:
                 return None
@@ -790,6 +859,16 @@ class RoboFluxo:
         if self.outras["perdas"] or self.outras["resultado"]:
             frases.append(f"Hoje, em outra regra mais cedo: {_reais(self.outras['resultado'])} e {self.outras['perdas']} negócio(s) perdedor(es); "
                           "contam para o limite do dia.")
+        ld = self.leitura_dado.get(a) or {}
+        if ld.get("pronto") and self.dado_opera:
+            if not ld["decidido"]:
+                frases.append(f"Setup do dado americano: hoje o dado sai às {ld['hora_dado']}. Se o mini-dólar andar mais de {_pontos(ld['limiar'], a)} "
+                              f"pontos nos {ld['minutos']} primeiros minutos, o robô entra contra às {ld['entra_as']} e segura por até "
+                              f"{ld['tempo_max']} minutos (stop de {_pontos(ld['stop'], a)} pontos).")
+            elif ld.get("movimento") is not None:
+                frases.append(f"Setup do dado americano: o mini-dólar andou {_pontos(ld['movimento'], a)} pontos na reação ao dado das {ld['hora_dado']} "
+                              + ("(passou do limite: entrada contra)." if abs(ld["movimento"]) > ld["limiar"]
+                                 else f"(pede mais de {_pontos(ld['limiar'], a)}): sem entrada hoje."))
         lc = self.leitura_climax.get(a) or {}
         if lc.get("pronto"):
             frases.append(f"Climax de volume{'' if self.climax_opera else ' (só medindo)'}: o minuto das {lc['minuto']} andou "
@@ -933,9 +1012,13 @@ class RoboFluxo:
                 cfg = ef.ATIVOS[a]
                 sinal_lado = 1.0 if e.posicao.lado == "C" else -1.0
                 parcial_pts = e.posicao.parcial_pts if e.posicao.parcial_pts is not None else cfg.parcial_pts
-                parcial_em = None if e.posicao.parcial_feita else e.posicao.entrada + sinal_lado * parcial_pts
+                parcial_em = None if e.posicao.parcial_feita or e.posicao.sem_parcial else e.posicao.entrada + sinal_lado * parcial_pts
                 do_alvo = f" Alvo em {_pontos(e.posicao.alvo, a)}." if e.posicao.alvo is not None else ""
-                if e.posicao.parcial_feita and e.posicao.sem_arrasto:
+                if e.posicao.sem_parcial:
+                    falta = None if not e.posicao.tempo_max_s or not e.posicao.ts_entrada else e.posicao.tempo_max_s - (agora.timestamp() - e.posicao.ts_entrada)
+                    passo_txt = ("Sem alvo e sem parcial: segura até o stop"
+                                 + (f" ou até o tempo acabar (faltam {max(0, int(falta // 60))} minutos)." if falta is not None else ".") + do_alvo)
+                elif e.posicao.parcial_feita and e.posicao.sem_arrasto:
                     passo_txt = f"Parcial feita. Stop no preço de entrada ({_pontos(e.posicao.stop, a)}); o resto espera o alvo." + do_alvo
                 elif e.posicao.parcial_feita:
                     passo_txt = f"Parcial feita. Stop em {_pontos(e.posicao.stop, a)}, andando {_pontos(cfg.arrasto_pts, a)} pontos atrás do melhor preço."
@@ -983,6 +1066,7 @@ class RoboFluxo:
                 "phicube": self.leitura_pc.get(a) if self.setup == "phicube" else None,
                 "grafico": self.leitura_pc.get(a) if self.setup == "niveis" else None,
                 "climax": self.leitura_climax.get(a) if self.setup == "niveis" else None,
+                "dado": self.leitura_dado.get(a) if self.setup == "niveis" else None,
                 "variacao_ajuste": c.get("var_ajuste"),
                 "corrida": None if not corr else {"alta_pts": corr["alta"]["tamanho"], "topo": corr["alta"]["extremo"],
                                                   "baixa_pts": corr["baixa"]["tamanho"], "fundo": corr["baixa"]["extremo"],
@@ -1018,8 +1102,9 @@ class RoboFluxo:
                         "itens": regras_phicube(p), "parametros": dict(asdict(p), lote_hoje=lote, phicube=PHICUBE)}
                        if self.setup == "phicube" else
                        {"nome": "Setup de níveis: teste de nível com reação, como nas lives da sala do PhiCube (versão 0)",
-                        "itens": regras_niveis(p, self.climax_opera, self.niveis_opera),
-                        "parametros": dict(asdict(p), lote_hoje=lote, niveis=NIVEIS, climax=CLIMAX, climax_opera=self.climax_opera,
+                        "itens": regras_niveis(p, self.climax_opera, self.niveis_opera, self.dado_opera),
+                        "parametros": dict(asdict(p), lote_hoje=lote, niveis=NIVEIS, climax=CLIMAX, dado=DADO, dado_opera=self.dado_opera,
+                                           climax_opera=self.climax_opera,
                                            niveis_opera=self.niveis_opera, outras_regras_hoje=self.outras)}
                        if self.setup == "niveis" else
                        {"nome": "Leitura de fluxo como Alison Correia ensina: defesa, nível perdido, rompimento e exaustão (versão 1.2)",

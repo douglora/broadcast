@@ -157,6 +157,7 @@ class PosicaoF:
     alvo: float | None = None              # preco em que sai de tudo; None = sem alvo
     sem_arrasto: bool = False              # True = depois da parcial o stop fica na entrada, sem andar
     tempo_max_s: float | None = None       # passou disso com a posicao aberta, sai a mercado (None = so stop, alvo ou fim da janela)
+    sem_parcial: bool = False              # True = nao realiza metade no caminho nem leva o stop para a entrada
 
 
 @dataclass
@@ -487,7 +488,7 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
             eventos.append(_fechar(estado, pos, arredondar(pos.alvo, tick), ts, hora, "alvo"))   # ordem parada: sai no preco
             return eventos
         parcial_pts = pos.parcial_pts if pos.parcial_pts is not None else a.parcial_pts
-        if not pos.parcial_feita and _pontos(pos, preco) >= parcial_pts:
+        if not pos.sem_parcial and not pos.parcial_feita and _pontos(pos, preco) >= parcial_pts:
             metade = pos.contratos // 2
             alvo = pos.entrada + parcial_pts if pos.lado == "C" else pos.entrada - parcial_pts
             if metade >= 1:
@@ -505,7 +506,8 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     hm = hora[:5]
     if not (pode_entrar and feed_ok) or not (a.hora_inicio <= hm < p.hora_ultima_entrada):
         return eventos
-    if p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1]:
+    passa_pela_pausa = bool((contexto.get("sinal") or {}).get("ignora_pausa"))    # o setup do dado opera justamente ali
+    if p.pausa_dado and p.pausa_dado[0] <= hm < p.pausa_dado[1] and not passa_pela_pausa:
         return eventos
     espera = p.espera_apos_perda_s if estado.ultima_foi_perda else p.espera_apos_saida_s
     if estado.operacoes >= p.max_operacoes or (ts - estado.ultima_saida_ts) < espera:
@@ -538,7 +540,8 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     estado.posicao = PosicaoF(lado=lado, contratos=n, entrada=entrada, stop=stop, hora=hora, tecnica=sinal["tecnica"],
                               nivel=sinal["nivel"], nome_nivel=sinal["nome_nivel"], contratos_iniciais=n, melhor=entrada,
                               ts_entrada=ts, parcial_pts=sinal.get("parcial_pts"), alvo=alvo,
-                              sem_arrasto=bool(sinal.get("sem_arrasto")), tempo_max_s=sinal.get("tempo_max_s"))
+                              sem_arrasto=bool(sinal.get("sem_arrasto")), tempo_max_s=sinal.get("tempo_max_s"),
+                              sem_parcial=bool(sinal.get("sem_parcial")))
     estado.operacoes += 1
     estado.perdas.pop(sinal["nome_nivel"], None)
     if sinal["tecnica"] == "exaustão":                      # conta quantas vezes ja operou contra este mesmo extremo

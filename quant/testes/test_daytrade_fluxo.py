@@ -1083,3 +1083,75 @@ def test_lote_de_partida_vem_da_configuracao_do_douglas(tmp_path, monkeypatch):
     assert rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt5), setup="niveis").p.lote_base == 8
     (tmp_path / "modo_robo.json").write_text(json.dumps({}))
     assert rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "q3.json")], pasta_mt5=str(mt5), setup="niveis").p.lote_base == 2
+
+
+# ── setup proprio: reversao da reacao ao dado americano (busca de 08/10/2026) ──────────────────────────────────
+def _fita_do_dado(mt5, reacao=6.0, com_climax=False):
+    """Manha morna em 5.030,0 e, no dado das 9h30, o mini-dolar sobe `reacao` pontos em dois minutos (9h30 e 9h31)."""
+    with open(mt5 / "autopilot_fita_20261008.csv", "w") as arq:
+        for k in range(30):                                            # 9h00 a 9h29
+            arq.write(_linha(_seg_brt(9, k, 30), 5030.0, 50, 50) + "\n")
+        vol = 300 if com_climax else 50
+        arq.write(_linha(_seg_brt(9, 30, 20), 5030.0 + reacao / 2, vol, 0) + "\n")
+        arq.write(_linha(_seg_brt(9, 31, 5), 5030.0 + reacao / 2, vol, 0) + "\n")
+        arq.write(_linha(_seg_brt(9, 31, 40), 5030.0 + reacao, vol, 0) + "\n")
+        arq.write(_linha(_seg_brt(9, 32, 1), 5030.0 + reacao, 10, 10) + "\n")
+
+
+def test_horario_de_verao_dos_eua_define_a_hora_do_dado():
+    from datetime import date
+    from quant.daytrade import barras as br
+    assert [br.verao_eua(date(2026, 3, 7)), br.verao_eua(date(2026, 3, 8)), br.verao_eua(date(2026, 10, 31)), br.verao_eua(date(2026, 11, 1))] == [False, True, True, False]
+    assert [br.verao_eua(date(2024, 3, 9)), br.verao_eua(date(2024, 3, 10)), br.verao_eua(date(2024, 11, 2)), br.verao_eua(date(2024, 11, 3))] == [False, True, True, False]
+    s = br.SinalDado()
+    assert [x.strftime("%H:%M") for x in s.horarios(date(2026, 10, 9))] == ["09:30", "09:31", "09:32"]
+    assert [x.strftime("%H:%M") for x in s.horarios(date(2026, 12, 4))] == ["10:30", "10:31", "10:32"]
+
+
+def test_setup_do_dado_entra_contra_a_reacao_mesmo_na_pausa_e_sai_por_tempo(tmp_path, monkeypatch):
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_do_dado(mt5, reacao=6.0)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r.dado_opera is True and rf.DADO == {"minutos": 2, "limiar": 4.0, "stop": 40.0, "tempo_max": 120, "atraso_max_s": 8}
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 8, 9, 32, 3, tzinfo=BRT)                # dentro da pausa do dado (9h28 a 9h40): este setup passa
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5036.0, agora.timestamp(), maxima=5036.0)}})
+    pos = r.estados["WDOFUT"].posicao
+    # subiu 6 pontos na reacao: VENDE a mercado em 5.035,5; stop 40 pontos acima; sem alvo, sem parcial; 120 minutos
+    assert pos and (pos.tecnica, pos.lado, pos.entrada, pos.stop, pos.alvo, pos.sem_parcial, pos.tempo_max_s) == \
+        ("reversão do dado", "V", 5035.5, 5075.5, None, True, 7200.0)
+    assert "contra a reação de +6 pontos ao dado das 09h30" in r.diario[-1]["texto"] and est["posicoes"][0]["parcial_em"] is None \
+        and "faltam 120 minutos" in est["posicoes"][0]["proximo_passo"]
+    assert est["instrumentos"][0]["dado"]["movimento"] == 6.0 and any("SETUP PRÓPRIO" in x for x in est["regras"]["itens"])
+    sinal = json.loads(open(tmp_path / "dt" / "2026-10-08" / "sinais_niveis.jsonl").read().splitlines()[0])
+    assert (sinal["tipo"], sinal["tecnica"], sinal["opera"], sinal["stop_pts"], sinal["tempo_max_s"]) == ("sinal", "reversão do dado", True, 40.0, 7200.0)
+    # 5 pontos a favor: NAO faz parcial nem leva o stop para a entrada (a regra testada nao tem parcial)
+    depois = agora + timedelta(minutes=30)
+    r.ciclo(depois, retrato={"q": {"WDOFUT": _cotacao(5030.5, depois.timestamp(), maxima=5036.0)}})
+    pos = r.estados["WDOFUT"].posicao
+    assert pos and pos.contratos == 2 and pos.stop == 5075.5 and not pos.parcial_feita and len(r.operacoes) == 0
+    # passados 120 minutos, sai a mercado
+    fim = agora + timedelta(minutes=120, seconds=1)
+    r.ciclo(fim, retrato={"q": {"WDOFUT": _cotacao(5031.0, fim.timestamp(), maxima=5036.0)}})
+    assert r.estados["WDOFUT"].posicao is None and r.operacoes[-1]["motivo"] == "tempo esgotado" and r.operacoes[-1]["pontos"] == 4.0
+
+
+def test_setup_do_dado_nao_entra_com_reacao_pequena_e_reserva_a_vaga_antes_do_dado(tmp_path, monkeypatch):
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    _fita_do_dado(mt5, reacao=3.0)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": True, "setup": "niveis", "tempo_min": 6,
+                                           "fechamento": 5033.0, "barra": [5030.0] * 4, "niveis": [{"preco": 5040.0, "nome": "número redondo"}],
+                                           "acima": 5040.0, "abaixo": None, "barras": 9000}, None)})()
+    agora = datetime(2026, 10, 8, 9, 32, 3, tzinfo=BRT)
+    est = r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5033.0, agora.timestamp(), maxima=5033.0)}})
+    assert r.estados["WDOFUT"].posicao is None and r.leitura_dado["WDOFUT"]["movimento"] == 3.0
+    assert any("sem entrada hoje" in f for f in est["instrumentos"][0]["espera"])
+    # das 9h08 as 9h32 as outras leituras nao abrem posicao (a vaga e do setup proprio); fora disso, sim
+    assert r._perto_do_dado(datetime(2026, 10, 8, 9, 7, 59, tzinfo=BRT)) is False
+    assert r._perto_do_dado(datetime(2026, 10, 8, 9, 20, 0, tzinfo=BRT)) is True
+    assert r._perto_do_dado(datetime(2026, 10, 8, 9, 32, 5, tzinfo=BRT)) is True
+    assert r._perto_do_dado(datetime(2026, 10, 8, 9, 32, 11, tzinfo=BRT)) is False
+    assert r._perto_do_dado(datetime(2026, 12, 4, 9, 20, 0, tzinfo=BRT)) is False and r._perto_do_dado(datetime(2026, 12, 4, 10, 20, 0, tzinfo=BRT)) is True

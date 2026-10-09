@@ -71,3 +71,45 @@ anos. Com as regras do dia e lote 4: -R$ 34,70 por pregao, pior dia -R$ 1.289. A
 
 Conclusao: o efeito do climax em 2026 nao e uma vantagem; foi o ano. Nenhuma regra testada ate aqui ganha depois de
 custo. Licao de processo: prova em historico longo ANTES de apresentar calibracao ou mexer no lote.
+
+## 08/10/2026, 22h: busca ampla em 5 anos e o setup proprio ("pense fora da caixa")
+
+Laboratorio: `quant/pesquisa/lab.py` (contas conservadoras, detector de regra que olha o futuro, registro de tudo o que
+foi olhado) e `quant/pesquisa/preparar_base.py` (WDO, DOL, WIN, DI27, DI29, DI1, WSP, PETR4, VALE3; 1.248 pregoes).
+Tres partes: DESCOBERTA 10/2021 a 12/2024 (805 pregoes), VALIDACAO 2025 (250), PROVA 2026 (193). Sete frentes rodaram
+so na descoberta; notas e scripts de cada uma em `quant/saida/pesquisa5/<frente>/RESULTADO.md` (fora do git).
+
+| Frente | O que olhou (aprox.) | Resultado |
+|---|---|---|
+| microestrutura (tamanho do negocio, dolar cheio x mini) | 330 medicoes, 56 simulacoes | nenhuma candidata; 1 pista, morta em 2025 (-R$ 134 por negocio) |
+| calendario e relogio (PTAX, fim de mes, dado americano) | 7.600 medicoes, 130 simulacoes | 1 CANDIDATA: reversao do dado americano |
+| intermercado (juros, bolsa, S&P, acoes) | 480 medicoes, 30 simulacoes | nenhuma; o dolar anda NA FRENTE dos outros |
+| regime do dia (gap, abertura, VWAP, tendencia) | 1.700 medicoes, 17 simulacoes | nenhuma; 2 pistas: uma morta em 2025, outra morta em 2026 |
+| armadilhas (rompimento falso, varredura de stop) | 415 variantes | nenhuma |
+| execucao (ordem parada, cerco, escada, formato) | 1.050 simulacoes | nenhuma; ordem parada economiza so 0,26 ponto |
+| maquina (78 caracteristicas, arvores e linear) | 355 ajustes | nenhuma; correlacao previsao x retorno de 0,01 a 0,02 |
+
+### O setup que sobrou: reversao da reacao ao dado americano
+
+Regra (parametros CONGELADOS): no horario do dado das 8h30 de Nova York (9h30 de Brasilia no horario de verao dos EUA,
+10h30 fora), mede o movimento do mini-dolar do fechamento do minuto anterior ao fechamento do 2o minuto depois. Passou
+de 4 pontos: entra CONTRA na abertura do minuto seguinte. Sem alvo e sem parcial; sai em 120 minutos ou no stop de 40
+pontos. Codigo de pesquisa: `quant/saida/pesquisa5/calendario/regras.py::reverte_dado_ny(m, r=2, thr=4.0)`; ao vivo:
+`quant/daytrade/barras.py::SinalDado` (confere com a regra de pesquisa nos 1.248 pregoes: 339 sinais, 0 diferencas).
+
+| Parte | Negocios | Acerto | R$ por negocio (2 contratos) | t |
+|---|---|---|---|---|
+| Descoberta 2021-2024 | 262 | 59% | +115,90 | +3,2 |
+| Validacao 2025 | 45 | 53% | +19,40 | +0,3 |
+| Prova 2026 | 32 | 66% | +90,50 | +1,1 |
+| Fora da descoberta (2025+2026) | 77 | 58% | +49,00 | +0,9 |
+| Os 5 anos | 339 | 59% | +100,70 | +3,3 |
+
+Por ano: 2021 +99,50; 2022 +109,50; 2023 +62,30; 2024 +184,50; 2025 +19,40; 2026 +90,50. Fora da descoberta, por
+semestre: +27,60; +9,20; -52,20; +299,00. Ganho medio +R$ 464, perda media -R$ 415, stop cheio -R$ 815 (34 de 339),
+maior sequencia de perdas 6, pior queda do acumulado -R$ 3.482. Media por pregao: R$ 27 nos 5 anos, R$ 8,50 fora da
+descoberta. Da 1 entrada a cada 3 a 6 pregoes.
+
+Leitura honesta: e a unica regra que atravessou descoberta, validacao e prova com sinal positivo, e tem mecanismo
+(reacao exagerada ao dado e devolvida). Mas fora da descoberta o resultado ainda nao se distingue do acaso (t 0,9), e
+a busca olhou mais de 12 mil medicoes. O tamanho real do efeito deve estar mais perto de R$ 50 do que de R$ 116.

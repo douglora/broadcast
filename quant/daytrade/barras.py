@@ -15,6 +15,7 @@ O SINAL
   menor: o que o robo opera ao vivo e exatamente o que foi testado no passado.
 """
 import os
+from datetime import date, timedelta
 
 import numpy as np
 import pandas as pd
@@ -230,6 +231,73 @@ class SinalClimax:
                                         nome_nivel=f"tranco de {abs(r):g} pontos com volume de {vezes:.1f}x",
                                         info={"tranco": round(r, 1), "volume_x": round(vezes, 2), "volume": v, "media": round(media, 1),
                                               "opera": forte})
+
+
+def verao_eua(d):
+    """Horario de verao dos EUA: do 2o domingo de marco ao 1o domingo de novembro. Nele o dado americano das 8h30 de
+    Nova York sai as 9h30 de Brasilia; fora dele, as 10h30."""
+    def domingo(ano, mes, n):
+        primeiro = date(ano, mes, 1)
+        return primeiro + timedelta(days=(6 - primeiro.weekday()) % 7 + 7 * (n - 1))
+    return domingo(d.year, 3, 2) <= d < domingo(d.year, 11, 1)
+
+
+class SinalDado:
+    """Setup proprio (busca de 08/10/2026 em 5 anos de barras de 1 minuto, quant/saida/pesquisa5): a reacao do mini-dolar
+    aos primeiros minutos do dado americano das 8h30 de Nova York costuma ser devolvida nas duas horas seguintes.
+    Mede o movimento do fechamento do minuto anterior ao dado ate o fechamento do `minutos`-esimo minuto depois dele;
+    passou de `limiar` pontos, ordem CONTRA o movimento, sem alvo e sem parcial: sai por tempo ou no stop."""
+
+    def __init__(self, minutos=2, limiar=4.0, stop=40.0, tempo_max=120, atraso_max_s=8):
+        self.minutos, self.limiar, self.stop, self.tempo_max, self.atraso_max_s = minutos, limiar, stop, tempo_max, atraso_max_s
+        self.minuto_visto, self.medido = None, None              # medido = (dia, movimento) do dia ja decidido
+        self.leitura = {"pronto": False, "motivo": "esperando a fita"}
+
+    def horarios(self, dia):
+        """(hora do dado, minuto que decide, minuto da entrada), em Timestamps sem fuso do dia."""
+        h = 9 if verao_eua(dia) else 10
+        dado = pd.Timestamp(dia) + pd.Timedelta(hours=h, minutes=30)
+        decide = dado + pd.Timedelta(minutes=self.minutos - 1)
+        return dado, decide, decide + pd.Timedelta(minutes=1)
+
+    def decidir(self, fechamentos, dia):
+        """`fechamentos`: {minuto (Timestamp): fechamento}. Devolve (movimento, lado) com lado "C", "V" ou None."""
+        dado, decide, _ = self.horarios(dia)
+        antes, depois = fechamentos.get(dado - pd.Timedelta(minutes=1)), fechamentos.get(decide)
+        if antes is None or depois is None:
+            return None, None
+        mv = float(depois) - float(antes)
+        return mv, (None if abs(mv) <= self.limiar else ("V" if mv > 0 else "C"))
+
+    def atualizar(self, fita):
+        """Devolve (leitura, ordem). A ordem so sai no primeiro ciclo do minuto de entrada."""
+        if fita is None or not fita.linhas:
+            self.leitura = {"pronto": False, "motivo": "sem fita de negócios"}
+            return self.leitura, None
+        relogio = fita.relogio()
+        m_atual = relogio // 60
+        if self.minuto_visto == m_atual:
+            return self.leitura, None
+        self.minuto_visto = m_atual
+        agora = pd.Timestamp(m_atual * 60, unit="s")               # o relogio da fita ja e a hora de Brasilia
+        dia = agora.date()
+        dado, decide, entra = self.horarios(dia)
+        mv = self.medido[1] if self.medido and self.medido[0] == dia else None
+        self.leitura = {"pronto": True, "hora_dado": dado.strftime("%H:%M"), "entra_as": entra.strftime("%H:%M"), "limiar": self.limiar,
+                        "minutos": self.minutos, "movimento": mv, "decidido": agora >= entra, "stop": self.stop, "tempo_max": self.tempo_max}
+        if agora != entra:
+            return self.leitura, None
+        fech = {x[0]: x[4] for x in minutos_da_fita(fita)}
+        mv, lado = self.decidir(fech, dia)
+        self.medido = (dia, mv)
+        self.leitura["movimento"] = mv
+        if lado is None or relogio % 60 > self.atraso_max_s:
+            return self.leitura, None
+        antes = float(fech[dado - pd.Timedelta(minutes=1)])
+        return self.leitura, hist.Ordem(lado, stop_pts=self.stop, alvo_pts=None, parcial_pts=None, tempo_max=self.tempo_max,
+                                        motivo="reversão do dado", nivel=antes,
+                                        nome_nivel=f"reação de {mv:+g} pontos ao dado das {dado.strftime('%Hh%M')}".replace(".", ","),
+                                        info={"movimento": round(mv, 1), "hora_dado": dado.strftime("%H:%M"), "preco_antes": antes})
 
 
 class SinalPhiCube:
