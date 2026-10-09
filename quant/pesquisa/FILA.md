@@ -24,6 +24,29 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    participante (estrangeiro, banco, institucional) de ontem contra o comportamento do pregao de hoje (gap, direcao da
    manha, reversao do dado); PTAX das quatro janelas contra o preco do futuro na hora; corretoras na fita (20 pregoes).
 
+7. Pistas da segunda rodada que dependem de dado diario da B3 (so quando a rotina tiver acumulado mais pregoes e houver
+   leitura ao vivo desse dado): preco x contratos em aberto de ontem (familia posicao, regra_A) e rolagem adiantada
+   (regra_C). Validar com parametros congelados em 2025 e 2026 antes de qualquer coisa.
+8. Reacao a anuncio EXTRA do Banco Central no mesmo dia (venda a vista ou swap fora da agenda): 15 casos em 3 anos; rever
+   quando houver mais casos (o arquivo de atuacoes e atualizado pela rotina).
+
 ## Testadas
 
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
+
+(09/10/2026) Segunda rodada, com os dados da B3 e do Banco Central (quant/saida/pesquisa5/BRIEF_B3.md; notas em
+quant/saida/pesquisa5/{ptax_bc,posicao,corretoras}/RESULTADO.md). Nenhuma candidata.
+- PTAX das 4 janelas, base futuro x a vista, cupom cambial, estoque de swap, leiloes agendados do BC (~420 medicoes): nada
+  acima do custo. Futuro "caro" contra a PTAX da janela continua, nao volta (correlacao 0,03 a 0,11). Leilao agendado nao
+  tem hora nem pico nas barras; anuncio extra do BC no mesmo dia: so 15 casos (pista, t 1,0 a 1,5).
+- Contratos em aberto x preco, rolagem, ajuste como ima, varejo x institucional, opcoes (dor maxima, strike carregado)
+  (~2.000 medicoes): nada passa o nulo. O ajuste NAO e ima (tocar o ajuste e tao provavel quanto tocar o nivel-espelho).
+  Pistas pequenas: preco e contratos em aberto de ontem subindo juntos -> segue (n 62, t 1,7 ate 12h50; t 2,2 a 2,8 ate
+  16h59); rolagem adiantada -> compra ate 10h30 (n 81, t 2,7). Dependem de dado diario da B3: nao rodam ao vivo ainda.
+- Penultimo dia util do mes, comprar de manha (apareceu em 3 frentes; descoberta n 39, +R$ 262, t 2,8): REPROVADA na
+  prova com parametros congelados: 2025 -R$ 85 (n 12), 2026 +R$ 193 (n 9); fora da descoberta +R$ 34 (t 0,3).
+- Corretoras na fita (12 pregoes de descoberta, ~1.100 medicoes): banco local compra COM o preco; XP, formadores e BTG
+  compram CONTRA (12 de 12 pregoes), mas depois que a corretora para o preco nao se mexe. Detector de ordem trabalhada na
+  fita anonima: nao funciona (AUC 0,50 a 0,55). Pista: fluxo do BTG nos 30 min anteriores -> +3 a +4 pontos nos 15 a 30
+  min seguintes (11 de 12 pregoes), mas a corretora so sai depois do fechamento: nao e operavel com o que temos.
+

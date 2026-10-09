@@ -113,3 +113,19 @@ descoberta. Da 1 entrada a cada 3 a 6 pregoes.
 Leitura honesta: e a unica regra que atravessou descoberta, validacao e prova com sinal positivo, e tem mecanismo
 (reacao exagerada ao dado e devolvida). Mas fora da descoberta o resultado ainda nao se distingue do acaso (t 0,9), e
 a busca olhou mais de 12 mil medicoes. O tamanho real do efeito deve estar mais perto de R$ 50 do que de R$ 116.
+
+## 09/10/2026: rotina da noite, dados da B3 sobre o dolar e segunda rodada de busca
+
+- Rotina da noite: `quant/pesquisa/noite.py` (placar de todo sinal guardado e protocolo que decide quem opera e quem so
+  mede; o texto de abertura do arquivo e o protocolo), `quant/daytrade/regras_lab.py` + `quant/pesquisa/setups.json`
+  (o robo roda ao vivo, sem traducao, regras no formato do laboratorio), `quant/pesquisa/FILA.md` (hipoteses a testar e
+  testadas). Tarefa agendada `quant-rotina-da-noite`, dias uteis as 19h15.
+- Dados novos em `quant/saida/pesquisa5/b3_dolar/` (LEIA.md la dentro): negocio a negocio de WDO e DOL com a corretora de
+  cada lado (20 pregoes, cresce com a rotina), PTAX das 4 janelas desde 2021, contratos em aberto, ajuste e rolagem por
+  contrato em 5 anos, dolar a vista B3, cupom cambial, swap e leiloes do BC, opcoes de dolar por strike. Nao existe mais de
+  graca: posicao por tipo de participante.
+- Segunda rodada (tres frentes, ~3.500 medicoes; `quant/saida/pesquisa5/BRIEF_B3.md`): NENHUMA candidata. O resumo de cada
+  frente esta em `quant/pesquisa/FILA.md`, secao "Testadas". A pista do penultimo dia util foi a prova com parametros
+  congelados e foi reprovada (2025 -R$ 85, 2026 +R$ 193 por negocio). O que ficou de conhecimento: banco local compra com o
+  preco; XP, formadores e BTG compram contra; o ajuste nao e ima; leilao agendado do BC nao tem hora nas barras.
+- Continua valendo: a unica regra aprovada e a reversao da reacao ao dado americano.
