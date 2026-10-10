@@ -231,7 +231,8 @@ def test_ferramentas_de_lopez_de_prado():
     # barras de volume: 100 contratos por minuto, barras de 300 = uma a cada 3 minutos, reiniciando no pregao seguinte
     m = pd.concat([_dia([PARADO] * 9, "2024-03-04 09:00"), _dia([PARADO] * 9, "2024-03-05 09:00")])
     bv = ldp.barras_de_volume(m, 300)
-    assert len(bv) == 8 and bv.v.iloc[0] == 200.0 and bv.v.iloc[1] == 300.0 and bv.index[1].strftime("%H:%M") == "09:04"
+    # a barra fecha no minuto em que o acumulado cruza 300 (o 3o minuto, 09:02) e nao um minuto antes: sem olhar o futuro
+    assert len(bv) == 6 and list(bv.v) == [300.0] * 6 and [x.strftime("%H:%M") for x in bv.index[:3]] == ["09:02", "09:05", "09:08"]
     t = pd.DataFrame({"dia": [dias[0], dias[0], dias[3]], "res": [100.0, -50.0, 200.0]})
     r = ldp.retorno_por_pregao(t, dias[:5])
     assert list(r.round(5)) == [0.0005, 0.0, 0.0, 0.002, 0.0]

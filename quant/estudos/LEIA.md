@@ -192,3 +192,10 @@ Leitura: nenhuma estrategia passa hoje nos criterios do metodo. O metodo cumpriu
 Sharpe 3,7 teria ido para o robo e perdido dinheiro em 2026. A vantagem do fim do pregao existiu, decaiu em 2025 e virou do
 avesso em 2026 (provavel excesso de gente explorando o mesmo empurrao). A variante adaptativa e a regra original ficam na
 prova viva (`quant/pesquisa/provas_vivas.json`), medidas so com pregoes novos.
+
+Na tarde de 10/10 rodou o resto do metodo (detalhe em `quant/pesquisa/FILA.md`): a meta-rotulagem do setup do dado nao
+melhora a regra simples (0 de 66 configuracoes; so o tamanho da reacao informa) e as barras de volume nao mudam o quadro no
+indice nem no dolar. Os limites de risco do metodo entraram no robo: perda da semana de R$ 2.000, queda maxima de R$ 10.000
+e lote cortado para o stop cheio nao passar da perda do dia (`quant/saida/risco_robo.json`, `chave.risco()`).
+Aritmetica que fecha a questao do historico: com cerca de 1.050 pregoes, um Sharpe deflacionado de 0,95 so sai com Sharpe
+anual acima de 2; regra de Sharpe 1 so se prova com dado novo.

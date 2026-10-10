@@ -108,6 +108,24 @@ contas em quant/estudos/2026-10-10_metricas_ldp.py e 2026-10-10_fim_do_pregao_me
   ver 2026: descritivo nos 5 anos Sharpe 2,28, com 2025 -R$ 2,70 e 2026 +R$ 0,80 por pregao. Nao ha dado antigo que a prove:
   so a prova viva (desde 13/10/2026).
 
+(10/10/2026, tarde) O resto do metodo: meta-rotulagem do setup do dado e barras de volume (notas em
+quant/saida/pesquisa5/{meta_dado,barras_volume}/RESULTADO.md). Nenhuma candidata; a prova de 2026 NAO foi aberta para elas.
+- Meta-rotulagem do dado (864 eventos de reacao >= 1 ponto, 10/2021-12/2025, validacao combinatoria 6/2 com purga, 15
+  divisoes, 66 configuracoes): o secundario NAO melhora o primario. Sharpe mediano das divisoes 0,64 (8 caracteristicas,
+  logistica, corte 0,55) contra 1,56 da regra simples de gatilho 3; ganha em 4 de 15 divisoes; em 2025 todas as variantes
+  perdem. So o tamanho da reacao carrega informacao (AUC 0,55; as outras 7 juntas 0,494). Volume, confirmacao do indice e
+  dos juros, regime e payroll parecem informativos na amostra inteira e somem fora dela. Mantido o gatilho de 3 pontos.
+- Barras de volume (WIN e WDO, 7 hipoteses, 50/100/200 barras por pregao contra barras de tempo, ~3.400 simulacoes): a barra
+  de volume nao muda o quadro. WDO: Sharpe mediano fora da amostra de -1,3 a -1,5 (o custo e 31% do desvio de uma barra).
+  WIN: -0,26 em volume e -0,47 em tempo. Barra rapida e direcional REVERTE, nao continua.
+  Pista pos-hoc, nao candidata: WIN, 5 barras de volume seguidas na mesma direcao ate as 11h, seguir por 4 barras: 465
+  negocios, +R$ 15,08 (t 2,07), Sharpe 1,03, 2025 positivo, plato de +-20%, deflacionado 0,04 a 0,07; no WDO e negativo.
+  Parametros congelados em quant/saida/pesquisa5/barras_volume/modelo.py: candidata a PROVA VIVA (escrever como regra de
+  quant/pesquisa/regras/ e por em provas_vivas.json), nao a prova de 2026.
+- Conta que vale para tudo: com ~1.050 pregoes, passar o Sharpe deflacionado de 0,95 exige Sharpe anual acima de ~2,05 com
+  100 tentativas e ~2,7 com 8.500. Regra de Sharpe 1 nao passa por historico; so por dado novo.
+- Defeito corrigido: `ldp.barras_de_volume` datava a barra um minuto antes de ela estar completa (um minuto de futuro).
+
 (09/10/2026, rotina da noite) Itens 1, 2 e 3 da fila, so na descoberta (805 pregoes; scripts em
 quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
 - Item 1, reversao de horas depois de evento de NY (abertura da bolsa 9h30, dados das 10h, Fed 14h so em dias de FOMC;

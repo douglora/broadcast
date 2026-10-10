@@ -86,7 +86,10 @@ def barras_de_volume(m, contratos):
     Usa so barras de 1 minuto ja fechadas; a hora da barra e a do minuto em que ela fechou. Reinicia a cada pregao."""
     d = np.asarray(m.index.date)
     ac = m.groupby(d)["v"].cumsum().to_numpy()
-    k = np.floor(ac / float(contratos)).astype(int)
+    # o minuto que faz o acumulado CRUZAR o limiar fecha a barra (pertence a ela); o seguinte abre a proxima. Com o
+    # acumulado do proprio minuto a barra ganhava a hora do minuto ANTERIOR ao cruzamento: um minuto de futuro
+    # (defeito achado pela frente barras_volume em 10/10/2026).
+    k = np.floor((ac - m["v"].to_numpy()) / float(contratos)).astype(int)
     grupo = pd.Series(d).astype(str).to_numpy() + "_" + k.astype(str)
     g = m.groupby(grupo, sort=False)
     out = pd.DataFrame({"o": g["o"].first(), "h": g["h"].max(), "l": g["l"].min(), "c": g["c"].last(), "n": g["n"].sum(), "v": g["v"].sum()})
