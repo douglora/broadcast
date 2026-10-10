@@ -133,3 +133,12 @@ def fechamentos():
     sp = sp[(sp["fech"] > 0) & (sp["fatcot"] == 1)]
     f = sp.pivot_table(index="dia", columns="ativo", values="fech", aggfunc="last")
     return f.sort_index()
+
+
+def dias_estendidos(ate="2028-12-31"):
+    """Pregoes conhecidos (Ibovespa) mais os dias uteis futuros pelo calendario de feriados da B3. Serve para contar pregoes
+    ate vencimentos que ainda nao aconteceram (sem isso, vencimento alem do ultimo pregao conhecido vira 'ultimo indice')."""
+    from quant.dados import calendario
+    base = dias_de_pregao()
+    fut = calendario.pregoes((base[-1] + pd.Timedelta(days=1)).date(), pd.Timestamp(ate).date())
+    return base.append(pd.DatetimeIndex(pd.to_datetime(fut)))

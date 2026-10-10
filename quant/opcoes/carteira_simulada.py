@@ -1,0 +1,223 @@
+"""
+CARTEIRA SIMULADA que acompanha o ranking de assimetrias (simulacao: nenhuma ordem real).
+
+Todo dia em que rodar, com a cadeia nova:
+  1. MARCA as posicoes abertas pela oferta de compra do fechamento (perna comprada) e pela oferta de venda (perna vendida), menos
+     emolumento; sem oferta, pelo ultimo negocio; no vencimento, pelo valor intrinseco. Encerra as vencidas.
+  2. ABRE ate 2 posicoes novas por dia entre as primeiras do ranking cuja familia NAO esta reprovada e cuja vantagem prudente e
+     POSITIVA, com perda maxima de ate R$ 500 por estrutura (lotes de 100), no maximo 6 abertas e R$ 3.000 (3% de R$ 100 mil) em risco
+     somado, sem repetir ativo + vencimento ja aberto. So estrutura de risco definido (compra de opcao, trava, straddle).
+  3. CAPITAL PROTEGIDO (A0) e posicao PERMANENTE a parte: todo mes, para o primeiro vencimento mensal com 15+ pregoes pela frente, o
+     orcamento de 0,5% do capital (R$ 500) vira calls no dinheiro de 6 ativos (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3), em partes
+     iguais, FRACIONADAS (a pesquisa nao arredonda lote: R$ 83 por ativo nao compra um lote de 100). O resto do capital fica no CDI e
+     nao e contado aqui. Esse orcamento nao entra no limite de 6 posicoes nem nos R$ 3.000.
+IDEMPOTENTE pela data da cadeia: rodar duas vezes com a mesma cadeia nao marca nem abre nada de novo.
+
+Estado em quant/saida/opcoes/carteira_simulada.json. Nada aqui e recomendacao (Resolucao CVM 178).
+"""
+import json
+import math
+import os
+from datetime import datetime
+
+import numpy as np
+import pandas as pd
+
+from quant.comum import DIR_SAIDA
+from quant.opcoes import custos as C
+from quant.opcoes import dados
+
+DIR_ESTADO = os.path.join(DIR_SAIDA, "opcoes")
+ARQ_ESTADO = os.path.join(DIR_ESTADO, "carteira_simulada.json")
+CAPITAL = 100_000.0
+RISCO_POR_ESTRUTURA = 500.0
+MAX_ABERTAS = 6
+RISCO_TOTAL_MAX = 0.03 * CAPITAL
+MAX_NOVAS_POR_DIA = 2
+ORCAMENTO_MENSAL = 0.005 * CAPITAL
+ATIVOS_CAPITAL_PROTEGIDO = ["PETR4", "VALE3", "BOVA11", "ITUB4", "BBDC4", "BBAS3"]
+LOTE = 100
+FEE = C.FEE_PREMIO
+
+
+def _brl(x):
+    return f"{x:,.0f}".replace(",", ".")
+
+
+def estado_vazio(dia):
+    return {"desde": str(pd.Timestamp(dia).date()), "capital": CAPITAL, "ultima_data": None, "posicoes": [], "criado_em": datetime.now().isoformat(timespec="seconds")}
+
+
+def carregar_estado(dia, caminho=ARQ_ESTADO):
+    if os.path.exists(caminho):
+        with open(caminho, encoding="utf-8") as f:
+            return json.load(f)
+    return estado_vazio(dia)
+
+
+def gravar_estado(est, caminho=ARQ_ESTADO):
+    os.makedirs(os.path.dirname(caminho), exist_ok=True)
+    tmp = caminho + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(est, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, caminho)
+
+
+# ------------------------------------------------------------------------------------------------------------- marcacao
+def _preco_perna(perna, indice, spot, dia):
+    """Valor unitario (por acao) para ENCERRAR a perna hoje + a origem. Comprada: vende na oferta de compra; vendida: recompra na de venda."""
+    chave = (perna["codigo"], perna["vencimento"])
+    venc = pd.Timestamp(perna["vencimento"])
+    if venc <= dia:
+        S = spot.get(perna["ativo"])
+        K = float(indice[chave]["exercicio"]) if chave in indice else float(perna["exercicio"])
+        if S is None or S != S:
+            return perna.get("ultimo_valor", 0.0), "sem preço do ativo (mantido o último valor)"
+        intr = max(S - K, 0.0) if perna["tipo"] == "call" else max(K - S, 0.0)
+        return intr, "valor intrínseco no vencimento"
+    if chave in indice:
+        r = indice[chave]
+        if perna["lado"] == "compra":
+            if r["oferta_compra"] == r["oferta_compra"] and r["oferta_compra"] > 0:
+                return float(r["oferta_compra"]), "oferta de compra do fechamento"
+        else:
+            if r["oferta_venda"] == r["oferta_venda"] and r["oferta_venda"] > 0:
+                return float(r["oferta_venda"]), "oferta de venda do fechamento"
+        return float(r["fech"]), "último negócio (sem oferta no fechamento)"
+    return perna.get("ultimo_valor", perna["premio_entrada"]), "série sem negócio hoje (mantido o último valor)"
+
+
+def marcar(pos, indice, spot, dia):
+    """Atualiza valor_hoje e resultado_rs da posicao (aberta). Devolve True se venceu e foi encerrada."""
+    total = 0.0
+    origens = set()
+    for p in pos["pernas"]:
+        v, origem = _preco_perna(p, indice, spot, dia)
+        p["ultimo_valor"] = v
+        origens.add(origem)
+        if p["lado"] == "compra":
+            total += v * (1 - FEE) * p["qtd"]
+        else:
+            total -= v * (1 + FEE if pd.Timestamp(p["vencimento"]) > dia else 1.0) * p["qtd"]
+    pos["valor_hoje"] = round(total, 2)
+    pos["resultado_rs"] = round(total - pos["custo"], 2)
+    pos["marcacao"] = "; ".join(sorted(origens))
+    if pd.Timestamp(pos["vencimento"]) <= dia:
+        pos["estado"] = "encerrada"
+        pos["fechada_em"] = str(dia.date())
+        pos["valor_final"] = pos["valor_hoje"]
+        return True
+    return False
+
+
+# ------------------------------------------------------------------------------------------------------------- abertura
+def _perna_estado(p, lado, qtd, ativo):
+    return {"codigo": p["codigo"], "ativo": ativo, "tipo": "put" if p["tipo"] == "P" else "call", "lado": lado, "exercicio": round(float(p["exercicio"]), 2),
+            "vencimento": str(pd.Timestamp(p["vencimento"]).date()),
+            "premio_entrada": round(float(p["oferta_venda"] if lado == "compra" else p["oferta_compra"]), 2), "qtd": qtd}
+
+
+def abrir_do_ranking(est, M, veredito_fn, dia):
+    """Ate 2 posicoes novas do ranking (familia nao reprovada, vantagem prudente > 0, risco <= R$ 500/estrutura, 6 abertas, R$ 3.000)."""
+    abertas = [p for p in est["posicoes"] if p["estado"] == "aberta" and not p.get("permanente")]
+    risco = sum(p["risco_rs"] for p in abertas)
+    novas = []
+    df = M["ranking_bruto"]
+    if df.empty:
+        return novas
+    for _, r in df.sort_values("vantagem", ascending=False).iterrows():
+        if len(novas) >= MAX_NOVAS_POR_DIA or len(abertas) + len(novas) >= MAX_ABERTAS:
+            break
+        if r["vantagem"] <= 0:
+            break
+        if veredito_fn(r)["estado"] == "reprovada":
+            continue
+        if any(p["ativo"] == r["ativo"] and p["vencimento"] == r["vencimento"] for p in abertas + novas):
+            continue
+        qtd = int(math.floor(RISCO_POR_ESTRUTURA / r["perda_maxima"] / LOTE) * LOTE)
+        if qtd < LOTE:
+            continue
+        risco_novo = qtd * r["perda_maxima"]
+        if risco + sum(n["risco_rs"] for n in novas) + risco_novo > RISCO_TOTAL_MAX:
+            continue
+        pernas = [_perna_estado(p, lado, qtd, r["ativo"]) for p, lado in r["pernas_obj"]]
+        custo = qtd * r["custo"]
+        novas.append({"id": f"{pd.Timestamp(dia).date()}|{r['ativo']}|{r['estrutura']}|{r['vencimento']}", "aberta_em": str(pd.Timestamp(dia).date()),
+                      "titulo": f"{r['rotulo']} em {r['ativo']}, vencimento {r['vencimento']}", "ativo": r["ativo"], "estrutura": r["estrutura"], "familia": r["familia"],
+                      "pernas": pernas, "qtd": qtd, "custo": round(custo, 2), "valor_hoje": round(custo, 2), "resultado_rs": 0.0, "risco_rs": round(risco_novo, 2),
+                      "vencimento": r["vencimento"], "estado": "aberta", "vantagem_na_abertura_pct": round(float(r["vantagem"]), 1),
+                      "marcacao": "aberta nas ofertas do fechamento (compra na oferta de venda, venda na de compra)"})
+    return novas
+
+
+def abrir_capital_protegido(est, M, dia):
+    """Tranche mensal do capital protegido: R$ 500 em calls no dinheiro dos 6 ativos, partes iguais, fracionadas, primeiro vencimento mensal com 15+ pregoes."""
+    from quant.opcoes.assimetrias import arbitragens_du
+    venc = None
+    for v in dados.vencimentos_padrao():
+        if v > dia and arbitragens_du(dia, v) >= 15:
+            venc = v
+            break
+    if venc is None:
+        return None
+    vstr = str(venc.date())
+    if any(p.get("permanente") and p["vencimento"] == vstr for p in est["posicoes"]):
+        return None
+    o = M["o"]
+    parte = ORCAMENTO_MENSAL / len(ATIVOS_CAPITAL_PROTEGIDO)
+    pernas, custo = [], 0.0
+    for a in ATIVOS_CAPITAL_PROTEGIDO:
+        el = o[(o["ativo"] == a) & (o["vencimento"] == venc) & (o["tipo"] == "C") & o["boa"] & (o["negocios"] >= C.NEG_MIN) & o["oferta_venda"].notna()]
+        if el.empty:
+            continue
+        S = float(el["S"].iloc[0])
+        el = el.assign(_d=(el["exercicio"] / S - 1).abs()).sort_values(["_d", "negocios"], ascending=[True, False])
+        r = el.iloc[0]
+        if r["_d"] > 0.03:
+            continue
+        unit = float(r["oferta_venda"]) * (1 + FEE)
+        qtd = parte / unit
+        p = _perna_estado(r, "compra", qtd, a)
+        pernas.append(p)
+        custo += qtd * unit
+    if not pernas:
+        return None
+    return {"id": f"{pd.Timestamp(dia).date()}|capital_protegido|{vstr}", "aberta_em": str(pd.Timestamp(dia).date()),
+            "titulo": f"Capital protegido: orçamento mensal de R$ {_brl(ORCAMENTO_MENSAL)} em calls no dinheiro de {len(pernas)} ativos, vencimento {vstr}",
+            "ativo": "cesta (" + ", ".join(p["ativo"] for p in pernas) + ")", "estrutura": "capital_protegido", "familia": "capital_protegido", "permanente": True,
+            "pernas": pernas, "qtd": None, "custo": round(custo, 2), "valor_hoje": round(custo, 2), "resultado_rs": 0.0, "risco_rs": round(custo, 2), "vencimento": vstr,
+            "estado": "aberta", "marcacao": "aberta nas ofertas do fechamento; quantidades fracionadas (sem arredondar lote)",
+            "nota": "O resto do capital fica no CDI e não entra nesta conta. Perda máxima do mês = o orçamento."}
+
+
+# ------------------------------------------------------------------------------------------------------------- principal
+def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True):
+    """Roda um dia da carteira com a cadeia M (saida de assimetrias.montar). Devolve (posicoes, resultado) para o JSON."""
+    dia = pd.Timestamp(M["dia"])
+    est = carregar_estado(dia, caminho)
+    ja = est.get("ultima_data") == str(dia.date())
+    if not ja:
+        op = M["op"]
+        indice = {(r["codigo"], str(pd.Timestamp(r["vencimento"]).date())): r for _, r in op[op["dia"] == dia].iterrows()}
+        sp = M["sp"]
+        spot = {r["ativo"]: float(r["fech"]) for _, r in sp[(sp["dia"] == dia) & (sp["fatcot"] == 1)].iterrows()}
+        for pos in est["posicoes"]:
+            if pos["estado"] == "aberta":
+                marcar(pos, indice, spot, dia)
+        novas = abrir_do_ranking(est, M, veredito_fn, dia)
+        cp = abrir_capital_protegido(est, M, dia)
+        est["posicoes"] += novas + ([cp] if cp else [])
+        est["ultima_data"] = str(dia.date())
+        if gravar:
+            gravar_estado(est, caminho)
+    pos = est["posicoes"]
+    aberto = sum(p["resultado_rs"] for p in pos if p["estado"] == "aberta")
+    real = sum(p["resultado_rs"] for p in pos if p["estado"] == "encerrada")
+    resultado = {"aberto_rs": round(aberto, 2), "realizado_rs": round(real, 2), "acumulado_rs": round(aberto + real, 2),
+                 "n_abertas": sum(1 for p in pos if p["estado"] == "aberta"), "n_encerradas": sum(1 for p in pos if p["estado"] == "encerrada"),
+                 "risco_em_aberto_rs": round(sum(p["risco_rs"] for p in pos if p["estado"] == "aberta"), 2), "desde": est["desde"],
+                 "capital_simulado_rs": CAPITAL, "ultima_data": est["ultima_data"], "regras": f"até {MAX_NOVAS_POR_DIA} novas por dia, perda máxima de R$ {_brl(RISCO_POR_ESTRUTURA)} por estrutura, "
+                 f"{MAX_ABERTAS} abertas e R$ {_brl(RISCO_TOTAL_MAX)} em risco; capital protegido à parte"}
+    saida = [{k: p.get(k) for k in ("id", "aberta_em", "titulo", "ativo", "estrutura", "pernas", "custo", "valor_hoje", "resultado_rs", "vencimento", "estado", "familia",
+                                      "qtd", "risco_rs", "marcacao", "permanente", "fechada_em", "valor_final", "vantagem_na_abertura_pct", "nota")} for p in pos]
+    return saida, resultado, est

@@ -25,7 +25,7 @@ import numpy as np
 import pandas as pd
 from scipy.special import ndtr
 
-from quant.opcoes import bs, dados
+from quant.opcoes import assimetrias, bs, carteira_simulada, dados
 from quant.opcoes import custos as C
 from quant.opcoes.base import DIR_DADOS, DIR_OPC, extrair_zip_diario
 
@@ -326,39 +326,82 @@ def montar_avisos(R, origem, data_cadeia):
     return [
         "SIMULAÇÃO: nenhuma ordem real. Este módulo descreve estruturas; não recomenda compra nem venda (Resolução CVM 178). A decisão é do assessor.",
         "Nenhuma estratégia de VENDA DE PRÊMIO (put, call coberta, trava de crédito) passou na descoberta de 2012-2019, e o pozinho tem valor esperado negativo: "
-        "estão listadas como reprovadas, com o número. Por isso a lista de hoje traz só estruturas de proteção, que são seguro e não fonte de retorno.",
+        "estão listadas como reprovadas, com o número. Por isso as candidatas de hoje (bloco candidatas_hoje) são só estruturas de proteção, que são seguro e não fonte de retorno; "
+        "o bloco assimetrias traz o ranking das estruturas de risco definido, cada uma com o veredito da sua família.",
         f"Cadeia de {data_cadeia}: {origem}. São as ofertas do FIM do pregão; no pregão seguinte o preço é outro. Confira a oferta na hora.",
         "Resultados antes de imposto (operação comum em opções paga 15% sobre o ganho, sem a isenção das ações) e sem corretagem. Emolumentos: premissa de 0,05% do prêmio por lado.",
         "Marcação mensal: a queda máxima é a do fechamento de cada ciclo; a perda dentro do mês pode ser maior. Opções tratadas como europeias (exercício antecipado ignorado).",
         "Antes de 2020 BOVA11 não tinha opção líquida: a proteção de 2013-2019 usou opções do próprio Ibovespa, com preço estimado (último negócio com 5% contra) em 40 de 47 ciclos.",
+        "RANKING DE ASSIMETRIAS: o valor esperado usa 10 anos de histórico do próprio ativo (uma amostra curta, que depende do período) e é a menor de duas contas (histórico puro e reescalado para a volatilidade de agora). "
+        "Vantagem positiva não é previsão: dos testes da pesquisa, só o capital protegido e o straddle em opção barata passaram nas três fases, e nenhum foi aprovado (Sharpe deflacionado abaixo de 0,95).",
+        "CARTEIRA SIMULADA: R$ 100 mil fictícios, até 2 posições novas por dia, perda máxima de R$ 500 por estrutura, 6 abertas e 3% do capital em risco. O capital protegido é à parte, com quantidades fracionadas. Não há ordem real.",
     ]
 
 
 # ---------------------------------------------------------------------------------------------------- principal
-def gerar(rede=True):
+def gerar(rede=True, gravar_carteira=True):
     with open(os.path.join(DIR_OPC, "resultados.json"), encoding="utf-8") as f:
         R = json.load(f)
-    estrategias = montar_estrategias(R)
+    with open(os.path.join(DIR_OPC, "resultados_assimetrias.json"), encoding="utf-8") as f:
+        RA = json.load(f)
+    novas = montar_estrategias_novas(RA, R)
+    estrategias = novas[:1] + montar_estrategias(R) + novas[1:]
     estado = {e["nome"]: e["estado"] for e in estrategias}
     op, sp, dia, origem = cadeia_recente(rede)
     cad = preparar_cadeia(op, sp, dia, ATIVOS_HEDGE)
     cands = candidatas(cad, estado, R)
+    # ranking diario de assimetrias e carteira simulada
+    M = assimetrias.montar(op, sp, dia, origem)
+    ranking = assimetrias.montar_ranking(M, RA, R)
+    arbs, arb_meta = assimetrias.montar_arbitragens(M)
+    veredito = lambda r: assimetrias.veredito_familia(RA, R, r)  # noqa: E731
+    posicoes, resultado, _est = carteira_simulada.atualizar(M, veredito, gravar=gravar_carteira)
+    pa = M["por_ativo"]
+    pa = pa[(pa["series_liquidas"] >= 3)].copy()
+    pa["no_ranking"] = pa["ativo"].isin(M["liq_ativos"])
+    por_ativo = [{k: (None if (isinstance(v, float) and v != v) else v) for k, v in r.items()} for r in pa.sort_values(["no_ranking", "negocios_no_dia"], ascending=[False, False]).to_dict("records")]
     agora = datetime.now(FUSO).isoformat(timespec="seconds")
     n_rep = sum(1 for e in estrategias if e["estado"] == "reprovada")
     n_med = sum(1 for e in estrategias if e["estado"] == "medindo")
     n_apr = sum(1 for e in estrategias if e["estado"] == "aprovada")
     texto = (f"{len(estrategias)} estratégias de opções testadas em histórico da B3 (2012-2026): {n_apr} aprovada(s), {n_med} em medição, {n_rep} reprovada(s). "
              "Vender put, vender call coberta, travas de crédito e comprar pozinho não pagaram o risco contra o CDI. "
-             "Sobrou a proteção com opções de BOVA11 (put, colar, trava de baixa), que funcionou como seguro em março de 2020 e custa de 7% a 15% da carteira ao ano.")
+             "Em medição: o capital protegido (caixa no CDI e 0,5% do capital por mês em calls no dinheiro, que nunca perdeu mais que o orçamento e rendeu cerca de 1 ponto ao ano acima do CDI), "
+             "o straddle onde a opção está barata contra a volatilidade realizada de 252 dias, a arbitragem de fechamento e a proteção de BOVA11 com put, colar e trava de baixa. "
+             "Nenhuma está aprovada: o Sharpe deflacionado fica abaixo de 0,95.")
     return {
         "v": 1, "tipo": "opcoes", "gerado": agora, "modo": "simulacao",
         "resumo": {"texto": texto, "data_da_cadeia": str(dia.date()), "origem_da_cadeia": origem,
                    "contagem": {"aprovada": n_apr, "medindo": n_med, "reprovada": n_rep},
-                   "tentativas": R["tentativas"], "pesquisa_gerada": R["gerado"],
+                   "tentativas": R["tentativas"], "pesquisa_gerada": R["gerado"], "pesquisa_assimetrias_gerada": RA["gerado"],
                    "juro_usado_aa_pct": round(juro_atual()[0] * 100, 3)},
-        "estrategias": estrategias, "candidatas_hoje": cands, "posicoes": [],
-        "avisos": montar_avisos(R, origem, str(dia.date())), "termos": TERMOS,
+        "estrategias": estrategias, "candidatas_hoje": cands, "posicoes": posicoes, "resultado": resultado,
+        "assimetrias": {
+            "data_da_cadeia": str(dia.date()),
+            "metodo": ("Para cada ativo com opção líquida (6+ séries com 30+ negócios, oferta dos dois lados e spread até 30%, e 1.000+ negócios de opções no dia), monta as estruturas de risco definido "
+                       "nos dois vencimentos mensais seguintes a preços executáveis (compra na oferta de venda, venda na de compra, emolumento de 0,05%). O valor esperado usa a distribuição HISTÓRICA dos "
+                       "retornos totais do próprio ativo no mesmo prazo (10 anos, janelas sobrepostas) e a mesma distribuição reescalada para a volatilidade realizada de 60 pregões de agora; o ranking vale pela "
+                       "menor das duas vantagens (valor esperado sobre o custo, depois do CDI). Cada linha mostra o veredito da família na pesquisa A0 a A6. Descreve estrutura; não recomenda compra nem venda."),
+            "ativos_no_ranking": M["liq_ativos"], "vencimentos": [str(pd.Timestamp(v).date()) for v in M["vencs"]], "ativos_com_volatilidade_barata_vs_252d": M["baratos_vr252"],
+            "por_ativo": por_ativo, "ranking": ranking, "arbitragens": arbs, "arbitragens_resumo": {**arb_meta, "historico_250_pregoes": {k: v for k, v in RA["A5"].items() if k != "por_tipo"}},
+        },
+        "avisos": montar_avisos(R, origem, str(dia.date())), "termos": TERMOS + TERMOS_NOVOS,
     }
+
+
+def sem_nan(x):
+    """JSON estrito: NaN e infinito viram null (o navegador nao le NaN)."""
+    if isinstance(x, dict):
+        return {k: sem_nan(v) for k, v in x.items()}
+    if isinstance(x, (list, tuple)):
+        return [sem_nan(v) for v in x]
+    if isinstance(x, (float, np.floating)):
+        return None if (math.isnan(x) or math.isinf(x)) else float(x)
+    if isinstance(x, np.integer):
+        return int(x)
+    if isinstance(x, np.bool_):
+        return bool(x)
+    return x
 
 
 def gravar_atomico(caminho, obj):
@@ -366,7 +409,7 @@ def gravar_atomico(caminho, obj):
     os.makedirs(pasta, exist_ok=True)
     tmp = os.path.join(pasta, f".{os.path.basename(caminho)}.{os.getpid()}.tmp")
     with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=1)
+        json.dump(sem_nan(obj), f, ensure_ascii=False, indent=1, allow_nan=False)
         f.flush()
         os.fsync(f.fileno())
     os.replace(tmp, caminho)
@@ -374,15 +417,128 @@ def gravar_atomico(caminho, obj):
 
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
-    obj = gerar(rede="--sem-rede" not in argv)
+    obj = gerar(rede="--sem-rede" not in argv, gravar_carteira="--so-mostrar" not in argv)
     if "--so-mostrar" in argv:
         print(json.dumps(obj, ensure_ascii=False, indent=1)[:6000])
         return 0
     for caminho in SAIDAS:
         gravar_atomico(caminho, obj)
         print("gravado", caminho)
-    print(f"{len(obj['estrategias'])} estrategias, {len(obj['candidatas_hoje'])} candidatas, cadeia de {obj['resumo']['data_da_cadeia']}")
+    print(f"{len(obj['estrategias'])} estrategias, {len(obj['candidatas_hoje'])} candidatas, {len(obj['assimetrias']['ranking'])} no ranking, {len(obj['posicoes'])} posicoes, cadeia de {obj['resumo']['data_da_cadeia']}")
     return 0
+
+
+
+
+# ---------------------------------------------------------------------------------------------------- assimetrias (hipoteses A0 a A6)
+def _pt(x, casas=1, sinal=False):
+    if x is None:
+        return "n/d"
+    s = f"{x:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    return ("+" + s) if (sinal and x > 0) else s
+
+
+def montar_estrategias_novas(RA, R):
+    """Entradas do quadro de estrategias para as hipoteses A0 a A6 (resultados_assimetrias.json). A primeira e o capital protegido."""
+    a0, a1, a2, a3, a4, a5, a6 = RA["A0"], RA["A1"], RA["A2"], RA["A3"], RA["A4"], RA["A5"], RA["A6"]
+    nome0 = "call_atm_1m orcamento=0.5%"
+    h0, v0 = a0["variantes"][nome0], a0["historico_completo"][nome0]
+    pr0 = a0["prova"][nome0]
+    out = []
+    out.append({
+        "nome": "capital_protegido", "titulo": "Capital protegido feito em casa: caixa no CDI e 0,5% do capital por mês em calls no dinheiro (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3)",
+        "hipotese": "O caixa rende o CDI (juro alto no Brasil) e só um orçamento fixo por mês compra convexidade: a perda máxima no ano é o orçamento e o ganho é aberto. "
+                    "Do outro lado estão os vendedores de volatilidade; a hipótese só paga se a alta em poucos meses compensar o desgaste dos meses parados.",
+        "estado": "medindo",
+        "historico": {"periodo": "2012-2026 (descoberta 2012-2019, validação 2020-2023, prova 2024-2026)", "n": v0["n_ciclos"], "retorno_anual_pct": v0["retorno_anual_pct"], "sharpe": v0["sharpe"],
+                      "queda_maxima_pct": v0["queda_maxima_pct"], "pior_mes_pct": v0["pior_mes_pct"], "sharpe_deflacionado": v0["sharpe_deflacionado"],
+                      "excesso_anual_pct": v0["excesso_anual_pct"], "cdi_anual_pct": v0["cdi_anual_pct"], "pior_ano_pct": v0["pior_ano_pct"],
+                      "captura_da_alta_pct": v0["captura_da_alta_pct"], "anos_acima_do_cdi_pct": v0["anos_acima_do_cdi_pct"]},
+        "nota": (f"PASSOU nas três fases: Sharpe {_pt(h0['descoberta']['sharpe'], 2)} (descoberta), {_pt(h0['validacao']['sharpe'], 2)} (validação) e {_pt(pr0['sharpe'], 2)} (prova 2024-2026, aberta uma vez); "
+                 f"excesso sobre o CDI de {_pt(h0['descoberta']['excesso_anual_pct'], 1, True)}, {_pt(h0['validacao']['excesso_anual_pct'], 1, True)} e {_pt(pr0['excesso_anual_pct'], 1, True)} ponto(s) ao ano. "
+                 f"NÃO está aprovada: Sharpe deflacionado {_pt(v0['sharpe_deflacionado'], 2)} (exige-se 0,95) e o retorno extra é pequeno. "
+                 f"'Nunca perde mais que o orçamento' se confirmou: pior mês {_pt(v0['pior_mes_pct'], 2)}% do patrimônio e pior ano {_pt(v0['pior_ano_pct'], 1)}% (a cesta de ações teve {_pt(v0['pior_ano_do_ativo_pct'], 0)}% em um ano). "
+                 f"'Participa da alta' só em parte: captura cerca de {_pt(v0['captura_da_alta_pct'], 0)}% da alta acima do CDI; retorno de {_pt(v0['retorno_anual_pct'], 1)}% ao ano contra CDI {_pt(v0['cdi_anual_pct'], 1)}%, "
+                 f"ações {_pt(v0['ref_ativo_aa_pct'], 1)}% e 70% ações + 30% CDI {_pt(v0['ref_70_30_aa_pct'], 1)}%. "
+                 f"Custo dos anos parados: {_pt(v0['excesso_medio_ano_parado_pct'], 1, True)} ponto ao ano contra o CDI em média ({v0['anos_parados_n']} de {v0['n_anos']} anos), acima do CDI em {_pt(v0['anos_acima_do_cdi_pct'], 0)}% dos anos. "
+                 f"Com orçamento de 1,0%: excesso de {_pt(a0['variantes']['call_atm_1m orcamento=1.0%']['descoberta']['excesso_anual_pct'], 1, True)} a {_pt(a0['prova']['call_atm_1m orcamento=1.0%']['excesso_anual_pct'], 1, True)} ponto(s) ao ano e captura de ~{_pt(a0['historico_completo']['call_atm_1m orcamento=1.0%']['captura_da_alta_pct'], 0)}% da alta.")})
+    c1 = a1["configs"]["straddle_barato_vr252"]
+    p1 = a1["prova"].get("straddle_barato_vr252", {})
+    hc1 = a1.get("historico_completo", {}).get("straddle_barato_vr252", {})
+    sp1 = a1["configs"]["spread_barato_menos_caro_vr252"]
+    out.append({
+        "nome": "straddle_vol_barata", "titulo": "Straddle comprado onde a volatilidade realizada de 252 dias supera a implícita de 30 dias (tercil mais barato do mês)",
+        "hipotese": "O mercado de opções reage devagar à volatilidade realizada; onde a opção está barata contra o que o ativo andou, quem compra straddle tende a ser pago (Goyal e Saretto, 2009). "
+                    "Do outro lado: formadores de mercado que precificam pela volatilidade passada recente.",
+        "estado": "medindo",
+        "historico": {"periodo": "2012-2026 (descoberta, validação e prova)", "n": hc1.get("n_ops"), "retorno_anual_pct": None, "sharpe": hc1.get("sharpe"), "queda_maxima_pct": None,
+                      "pior_mes_pct": hc1.get("pior_mes_por_op_pct"), "sharpe_deflacionado": p1.get("sharpe_deflacionado"), "media_por_straddle_pct": hc1.get("media_por_op_pct"), "t": hc1.get("t")},
+        "nota": (f"PASSOU nas três fases pelos critérios fixados: média por straddle de {_pt(c1['descoberta']['media_por_op_pct'], 0, True)}% (n {c1['descoberta']['n_ops']}), {_pt(c1['validacao']['media_por_op_pct'], 0, True)}% (n {c1['validacao']['n_ops']}) "
+                 f"e {_pt(p1.get('media_por_op_pct'), 0, True)}% (prova, n {p1.get('n_ops')}), mas com t de {_pt(c1['descoberta']['t'], 2)}, {_pt(c1['validacao']['t'], 2)} e {_pt(p1.get('t'), 2)} e Sharpe deflacionado {_pt(p1.get('sharpe_deflacionado'), 2)}: "
+                 f"NÃO está aprovada. O contraste barato menos caro (volatilidade de 252 dias) deu {_pt(sp1['descoberta']['media_pct'], 0, True)}% (t {_pt(sp1['descoberta']['t'], 2)}) e {_pt(sp1['validacao']['media_pct'], 0, True)}% (t {_pt(sp1['validacao']['t'], 2)}). "
+                 f"Em ~{_pt(100 - (hc1.get('pct_meses_positivos') or 0), 0)}% dos meses o straddle barato perde; pior caso por straddle {_pt(hc1.get('pior_mes_por_op_pct'), 0)}%. "
+                 f"A versão com a volatilidade de 60 dias não passou ({_pt(a1['configs']['spread_barato_menos_caro_vr60']['descoberta']['media_pct'], 0, True)}% na descoberta).")})
+    s2, b2 = a2["variantes"]["sempre_put"]["2020-2023"], a2["variantes"]["so_barato_put"]["2020-2023"]
+    out.append({
+        "nome": "protecao_na_hora_barata", "titulo": "Proteger BOVA11 só quando a volatilidade implícita está baixa (percentil < 30 do ano)",
+        "hipotese": "Seguro custa menos quando a volatilidade implícita está baixa contra o próprio ano; proteger só nessas horas reduziria o custo sem abrir mão da cobertura.",
+        "estado": "reprovada",
+        "historico": {"periodo": "2020-2023", "n": b2["n_ciclos"], "retorno_anual_pct": b2["retorno_anual_pct"], "sharpe": None, "queda_maxima_pct": b2["queda_maxima_pct"], "pior_mes_pct": b2["pior_mes_pct"], "sharpe_deflacionado": None},
+        "nota": (f"A regra falha onde importa: em fevereiro de 2020 o percentil da volatilidade de BOVA11 estava em {_pt(a2['mar2020']['perc_vi_na_entrada'], 1)}, acima do corte, então não haveria proteção e o ciclo de março fechou em "
+                 f"{_pt(a2['mar2020']['so_barato_put'], 1)}% (proteger sempre: {_pt(a2['mar2020']['sempre_put'], 1)}%). Custo bruto {_pt(b2['custo_bruto_anual_pct'], 1)}% ao ano contra {_pt(s2['custo_bruto_anual_pct'], 1)}% de proteger sempre, "
+                 f"mas o retorno caiu de {_pt(s2['retorno_anual_pct'], 1)}% para {_pt(b2['retorno_anual_pct'], 1)}% ao ano e a queda máxima voltou a {_pt(b2['queda_maxima_pct'], 0)}%. 2021-22: proteger sempre {_pt(a2['2021_22']['sempre_put'], 1)}%, só barato {_pt(a2['2021_22']['so_barato_put'], 1)}%.")})
+    ic = a3["previsao"]["skew_put_vs_fut21"]
+    s3 = a3["estruturas"]
+    out.append({
+        "nome": "inclinacao_skew", "titulo": "Inclinação da volatilidade (skew): trava de crédito quando a put está cara, trava de baixa quando está barata, e a inclinação como sinal do ativo",
+        "hipotese": "Put fora do dinheiro cara demais paga o vendedor; inclinação alta antecipa retorno pior do ativo (Xing, Zhang e Zhao, 2010).",
+        "estado": "reprovada",
+        "historico": {"periodo": "2012-2023 (descoberta e validação)", "n": s3["trava_baixa_debito_skew_menor_20"]["descoberta"]["n_ops"], "retorno_anual_pct": None, "sharpe": s3["trava_baixa_debito_skew_menor_20"]["validacao"]["sharpe"],
+                      "queda_maxima_pct": None, "pior_mes_pct": s3["trava_baixa_debito_skew_menor_20"]["validacao"]["pior_mes_por_op_pct"], "sharpe_deflacionado": s3["trava_baixa_debito_skew_menor_20"]["validacao"]["sharpe_deflacionado"]},
+        "nota": (f"Como sinal do ativo: correlação de postos entre a inclinação e o retorno de 21 pregões de {_pt(ic['descoberta']['corte_entre_acoes']['ic_medio'], 3)} (t {_pt(ic['descoberta']['corte_entre_acoes']['t'], 2)}) na descoberta e "
+                 f"{_pt(ic['validacao']['corte_entre_acoes']['ic_medio'], 3)} (t {_pt(ic['validacao']['corte_entre_acoes']['t'], 2)}) na validação: sem poder de previsão. Trava de baixa com débito quando a inclinação é baixa: "
+                 f"{_pt(s3['trava_baixa_debito_skew_menor_20']['descoberta']['media_por_op_pct'], 0, True)}% por operação na descoberta (n {s3['trava_baixa_debito_skew_menor_20']['descoberta']['n_ops']}) e "
+                 f"{_pt(s3['trava_baixa_debito_skew_menor_20']['validacao']['media_por_op_pct'], 0, True)}% na validação. Trava de crédito com puts quando a inclinação é alta: "
+                 f"{_pt(s3['trava_credito_put_skew_maior_80']['descoberta']['media_por_op_pct'], 0, True)}% e {_pt(s3['trava_credito_put_skew_maior_80']['validacao']['media_por_op_pct'], 0, True)}% por operação.")})
+    ic4 = a4["desvio_paridade_vs_fut21"]
+    ic4b = a4["desvio_paridade_vs_fut5"]
+    out.append({
+        "nome": "paridade_call_put", "titulo": "Desvio da paridade put-call (volatilidade da call menos a da put no mesmo exercício) como sinal do ativo",
+        "hipotese": "Compra informada de call aparece como volatilidade de call acima da de put e antecipa retorno melhor do ativo (Cremers e Weinbaum, 2010).",
+        "estado": "reprovada",
+        "historico": {"periodo": "2012-2023 (descoberta e validação)", "n": ic4["validacao"]["corte_entre_acoes"]["n_datas"], "retorno_anual_pct": None, "sharpe": None, "queda_maxima_pct": None, "pior_mes_pct": None, "sharpe_deflacionado": None},
+        "nota": (f"Correlação de postos com o retorno de 5 pregões: {_pt(ic4b['descoberta']['corte_entre_acoes']['ic_medio'], 3)} (t {_pt(ic4b['descoberta']['corte_entre_acoes']['t'], 2)}) na descoberta e "
+                 f"{_pt(ic4b['validacao']['corte_entre_acoes']['ic_medio'], 3)} (t {_pt(ic4b['validacao']['corte_entre_acoes']['t'], 2)}) na validação; com 21 pregões, {_pt(ic4['descoberta']['corte_entre_acoes']['ic_medio'], 3)} "
+                 f"(t {_pt(ic4['descoberta']['corte_entre_acoes']['t'], 2)}, só {ic4['descoberta']['corte_entre_acoes']['n_datas']} datas) e {_pt(ic4['validacao']['corte_entre_acoes']['ic_medio'], 3)} (t {_pt(ic4['validacao']['corte_entre_acoes']['t'], 2)}). "
+                 f"Não se repetiu fora da amostra.")})
+    out.append({
+        "nome": "arbitragem_fechamento", "titulo": "Arbitragem no fechamento: conversão, reversão, travas e borboletas fora do preço, com a oferta de compra e de venda",
+        "hipotese": "Se a oferta de compra e a de venda de pernas diferentes permitem travar ganho, ou é oportunidade pequena ou é cotação velha.",
+        "estado": "medindo",
+        "historico": {"periodo": a5["periodo"], "n": a5["estritas"], "retorno_anual_pct": None, "sharpe": None, "queda_maxima_pct": None, "pior_mes_pct": None, "sharpe_deflacionado": None},
+        "nota": (f"Descritivo de {a5['dias_na_amostra']} pregões: {a5['total_detectadas']} combinações com folga de 2 centavos ou mais depois dos custos ({_pt(a5['por_dia_media'], 1)} por dia); "
+                 f"{a5['sobrevivem']} com 5+ negócios e último negócio dentro das ofertas; {a5['estritas']} na versão estrita (20+ negócios, até 90 dias, exercício a até 15% do preço), {_pt(a5['estritas_por_dia'], 1)} por dia. "
+                 f"A folga mediana é de centavos por ação; só {_pt(a5['estritas_que_reaparecem_no_pregao_seguinte_pct'], 0)}% reaparecem no pregão seguinte. A maior parte é reversão, que exige alugar a ação, e conversão, que equivale a emprestar dinheiro um pouco acima do CDI. "
+                 f"Não é dinheiro livre de risco: é uma lista de perguntas ao livro de ofertas.")})
+    out.append({
+        "nome": "straddle_pre_resultado", "titulo": "Straddle no dinheiro comprado 5 pregões antes do protocolo do resultado trimestral na CVM e vendido no dia seguinte",
+        "hipotese": "A volatilidade implícita sobe antes do resultado e cai depois; só vale se o movimento do ativo superar o que a opção já cobra.",
+        "estado": "reprovada",
+        "historico": {"periodo": "2012-2023 (descoberta e validação)", "n": a6["descoberta"]["n"] + a6["validacao"]["n"], "retorno_anual_pct": None, "sharpe": None, "queda_maxima_pct": None,
+                      "pior_mes_pct": a6["validacao"]["pior_pct"], "sharpe_deflacionado": None, "media_por_operacao_pct": a6["validacao"]["media_pct"]},
+        "nota": (f"Perde em média {_pt(-a6['descoberta']['media_pct'], 0)}% por operação na descoberta (n {a6['descoberta']['n']}, t {_pt(a6['descoberta']['t'], 2)}) e {_pt(-a6['validacao']['media_pct'], 0)}% na validação "
+                 f"(n {a6['validacao']['n']}, t {_pt(a6['validacao']['t'], 2)}); só {_pt(a6['descoberta']['pct_positivos'], 0)}% e {_pt(a6['validacao']['pct_positivos'], 0)}% das operações ganham. Spread de entrada e de saída mais o desgaste do tempo e a queda da volatilidade pesam mais que o movimento do resultado.")})
+    return out
+
+
+TERMOS_NOVOS = [
+    {"termo": "Capital protegido feito em casa", "explicacao": "O caixa fica no CDI e todo mês uma fração fixa do capital (o orçamento) compra opções de alta. O máximo que se perde no mês é o orçamento; o ganho é aberto. É o que um fundo de capital protegido faz, sem a taxa do estruturador."},
+    {"termo": "Straddle", "explicacao": "Compra de uma call e uma put do mesmo exercício e vencimento. Ganha se o ativo andar muito para qualquer lado; perde o custo se ficar parado."},
+    {"termo": "Percentil da volatilidade", "explicacao": "Onde a volatilidade implícita de hoje está contra os últimos 252 pregões do próprio ativo: 10 é mais baixa que 90% do ano; 90 é mais alta."},
+    {"termo": "Inclinação (skew)", "explicacao": "Diferença entre a volatilidade implícita da put fora do dinheiro e a da opção no dinheiro. Inclinação alta = proteção contra queda cara."},
+    {"termo": "Conversão e reversão", "explicacao": "Combinações de ação, put e call do mesmo exercício que travam um valor no vencimento. Se o preço de uma das pernas está fora da linha, aparece uma pequena folga; a maioria é cotação do fim do pregão que não se executa."},
+    {"termo": "Vantagem", "explicacao": "Valor esperado da estrutura, pela distribuição histórica de retornos do ativo, dividido pelo custo, depois de descontar o CDI do prazo. Negativa = a história do ativo paga menos que o custo."},
+]
 
 
 if __name__ == "__main__":

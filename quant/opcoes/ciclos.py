@@ -16,16 +16,17 @@ import pandas as pd
 from quant.opcoes import bs, dados
 
 
-def montar(ini="2012-01-01", fim="2026-12-31", ativos=None, du_entrada=None):
+def montar(ini="2012-01-01", fim="2026-12-31", ativos=None, du_entrada=None, meses=1):
     """Tabela de cadeias de entrada (uma linha por serie mensal no dia de entrada) + tabela de ciclos.
     Devolve (cadeia, ciclos). `du_entrada`: se informado, a entrada e `du_entrada` pregoes ANTES do vencimento (vencimento
-    curto) em vez do primeiro pregao depois do vencimento anterior."""
+    curto) em vez do primeiro pregao depois do vencimento anterior. `meses`: 2 liga a entrada ao vencimento do
+    SEGUNDO mes (cerca de 40 pregoes), com a entrada ainda no pregao seguinte ao vencimento anterior."""
     ini, fim = pd.Timestamp(ini), pd.Timestamp(fim)
     dias = dados.dias_de_pregao()
     venc = [v for v in dados.vencimentos_padrao()]
     # ciclos: T com vencimento anterior P; entrada E = primeiro pregao depois de P
     linhas = []
-    for p, t in zip(venc[:-1], venc[1:]):
+    for p, t in zip(venc[:-meses], venc[meses:]):
         if t < ini or t > fim or t > dias[-1]:
             continue
         t_idx = dados.indice_de_dia(dias, t)
