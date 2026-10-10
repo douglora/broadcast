@@ -231,6 +231,21 @@ def valor_mercado(acoes, precos):
 #   3. piso de valor de mercado: papel do universo liquido nao vale menos de R$ 50 milhoes.
 # Sem evidencia nenhuma fica em unidades e a fonte sai marcada `?`: o valor de mercado dessa
 # companhia nao entra no sinal de valor (melhor ausente do que mil vezes errado).
+#
+# LACUNA ANTES DE 2020 (achada na pesquisa de 10/10/2026): os zips de ITR/DFP so trazem o arquivo de
+# composicao do capital a partir de 2020 (2010-2019 nao tem), entao o numero de acoes e o valor de
+# mercado simplesmente nao existiam na janela de desenvolvimento. A fonte que cobre 2010 em diante e
+# o FRE (Formulario de Referencia, dados.cvm.gov.br/.../DOC/FRE): `fre_cia_aberta_capital_social_<ano>.csv`
+# tem a quantidade de acoes por tipo de capital e o arquivo geral `fre_cia_aberta_<ano>.csv` tem a
+# DATA DE RECEBIMENTO de cada versao (carimbo point-in-time de verdade, sem estimar atraso). O FRE
+# informa a quantidade em UNIDADES (sem o problema de escala do ITR/DFP) e inclui as acoes em
+# tesouraria (o ITR/DFP desconta): o valor de mercado de quem recompra muito fica um pouco alto.
+# O FRE so entra ate FRE_ATE; de 2020 em diante vale a composicao trimestral do ITR/DFP.
+URL_FRE = "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/FRE/DADOS/fre_cia_aberta_{ano}.zip"
+DIR_FRE = os.path.join(DIR_BRUTOS, "cvm_fre")
+ARQ_FRE_GERAL = "fre_cia_aberta_{ano}.csv"
+ARQ_FRE_CAPITAL = "fre_cia_aberta_capital_social_{ano}.csv"
+FRE_ATE = pd.Timestamp("2020-01-01")       # o ITR/DFP tem composicao do capital desde 2020
 ARQ_COMPOSICAO = "{tipo}_cia_aberta_composicao_capital_{ano}.csv"
 ARQ_GERAL = "{tipo}_cia_aberta_{ano}.csv"
 FAIXA_UNIDADE = (0.5, 2.0)
@@ -281,9 +296,132 @@ def ler_composicao(zip_bytes, tipo, ano):
     return out[COLUNAS].sort_values(["cd_cvm", "data_ref", "versao"]).reset_index(drop=True)
 
 
-def atualizar_de_demonstracoes(anos, tipos=("DFP", "ITR")):
+def ler_fre(zip_bytes, ano):
+    """Zip anual do FRE -> DataFrame(COLUNAS) com a quantidade de acoes de cada versao do FRE.
+
+    Uma linha por documento (CNPJ, DT_REFER, VERSAO), com o melhor tipo de capital (integralizado,
+    subscrito, emitido; o autorizado nunca entra). `data_ref` e a data de referencia do FRE e
+    `disponivel_em` e a DATA DE RECEBIMENTO da versao. Quantidade em unidades (escala conhecida)."""
+    try:
+        z = zipfile.ZipFile(io.BytesIO(zip_bytes))
+    except zipfile.BadZipFile:
+        return _vazio()
+    nomes = {n.lower(): n for n in z.namelist()}
+    n_cap = nomes.get(ARQ_FRE_CAPITAL.format(ano=ano))
+    n_geral = nomes.get(ARQ_FRE_GERAL.format(ano=ano))
+    if not n_cap or not n_geral:
+        return _vazio()
+    cap = identidade._ler_csv_cvm(z.read(n_cap))
+    geral = identidade._ler_csv_cvm(z.read(n_geral))
+    if cap is None or cap.empty or geral is None or geral.empty:
+        return _vazio()
+    if any(c not in cap.columns for c in ("ID_Documento", "Tipo_Capital", "Quantidade_Total_Acoes")) or \
+            any(c not in geral.columns for c in ("ID_DOC", "CD_CVM", "DT_RECEB", "DT_REFER", "VERSAO", "CNPJ_CIA")):
+        return _vazio()
+    cap = cap.copy()
+    cap["_rank"] = cap["Tipo_Capital"].map(rank_tipo)
+    cap = cap[cap["_rank"].notna()]
+    if cap.empty:
+        return _vazio()
+    total = _num(cap["Quantidade_Total_Acoes"])
+    on = _num(cap["Quantidade_Acoes_Ordinarias"]) if "Quantidade_Acoes_Ordinarias" in cap else np.nan
+    pn = _num(cap["Quantidade_Acoes_Preferenciais"]) if "Quantidade_Acoes_Preferenciais" in cap else np.nan
+    cap["_on"], cap["_pn"] = on, pn
+    cap["_total"] = total.where(total > 0, cap[["_on", "_pn"]].sum(axis=1, min_count=1))
+    cap = cap[cap["_total"] > 0]
+    cap = cap.sort_values(["ID_Documento", "_rank"]).drop_duplicates("ID_Documento", keep="first")
+    g = geral[["ID_DOC", "CNPJ_CIA", "CD_CVM", "DT_REFER", "VERSAO", "DT_RECEB"]].drop_duplicates("ID_DOC")
+    j = cap.merge(g, left_on="ID_Documento", right_on="ID_DOC", how="inner")
+    out = pd.DataFrame({
+        "cd_cvm": pd.to_numeric(j["CD_CVM"], errors="coerce").astype("Int64"),
+        "cnpj": j["CNPJ_CIA"].map(identidade.cnpj_limpo),
+        "data_ref": j["DT_REFER"].map(identidade.data_cvm),
+        "disponivel_em": j["DT_RECEB"].map(identidade.data_cvm),
+        "versao": pd.to_numeric(j["VERSAO"], errors="coerce").fillna(1).astype(int),
+        "tipo": j["Tipo_Capital"].astype(str).str.strip(),
+        "acoes_on": j["_on"], "acoes_pn": j["_pn"], "acoes_total": j["_total"].astype(float),
+        "capital": _num(j["Valor_Capital"]) if "Valor_Capital" in j else np.nan,
+        "fonte": "fre",
+    })
+    out = out[out["cd_cvm"].notna() & out["data_ref"].notna() & out["disponivel_em"].notna()
+              & (out["acoes_total"] > 0)]
+    return out[COLUNAS].sort_values(["cd_cvm", "data_ref", "versao"]).reset_index(drop=True)
+
+
+def caminho_fre(ano):
+    return os.path.join(DIR_FRE, f"fre_cia_aberta_{ano}.zip")
+
+
+def baixar_fre(ano, forcar=False):
+    """Zip anual do FRE em dados_brutos/cvm_fre (baixa se faltar; ano passado nao e rebaixado)."""
+    destino = caminho_fre(ano)
+    if os.path.exists(destino) and not forcar and ano < date.today().year:
+        return destino
+    r = http_get(URL_FRE.format(ano=ano), timeout=900)
+    if r is None or len(r.content) < 1000 or not r.content.startswith(b"PK"):
+        log(f"fre {ano}: download falhou")
+        return destino if os.path.exists(destino) else None
+    garantir_dir(DIR_FRE)
+    gravar_atomico(destino, r.content)
+    return destino
+
+
+def atualizar_de_fre(anos, baixar=True):
+    """Quantidade de acoes de todas as versoes do FRE dos anos pedidos (nao grava)."""
+    partes = []
+    for ano in anos:
+        caminho = baixar_fre(ano) if baixar else (caminho_fre(ano) if os.path.exists(caminho_fre(ano)) else None)
+        if not caminho:
+            continue
+        try:
+            with open(caminho, "rb") as f:
+                df = ler_fre(f.read(), ano)
+        except Exception as e:
+            log(f"capital fre {ano}: leitura falhou ({type(e).__name__}: {e})")
+            continue
+        if len(df):
+            partes.append(df)
+    if not partes:
+        return _vazio()
+    todo = pd.concat(partes, ignore_index=True)
+    return (todo.sort_values(["cd_cvm", "data_ref", "versao", "disponivel_em"])
+                .drop_duplicates(["cd_cvm", "data_ref", "versao"], keep="last").reset_index(drop=True))
+
+
+def combinar(composicao, fre, fre_ate=FRE_ATE):
+    """Composicao do ITR/DFP (2020 em diante) mais o FRE ANTES de `fre_ate`. O corte e global e fixo,
+    nao depende dos anos pedidos: assim a rotina diaria (que pede so os ultimos anos) nao acrescenta nem
+    muda linha nenhuma do periodo que o ITR/DFP ja cobre."""
+    partes = [x for x in (composicao, fre[fre["disponivel_em"] < pd.Timestamp(fre_ate)] if fre is not None and len(fre) else None)
+              if x is not None and len(x)]
+    if not partes:
+        return _vazio()
+    todo = pd.concat(partes, ignore_index=True)
+    return (todo.sort_values(["cd_cvm", "data_ref", "versao", "disponivel_em"])
+                .drop_duplicates(["cd_cvm", "data_ref", "versao", "fonte"], keep="last").reset_index(drop=True))
+
+
+def mesclar(antigo, novo):
+    """Mantem as linhas do arquivo atual que a nova carga nao trouxe (a rotina diaria pede so os
+    ultimos anos e nao pode apagar a historia). Linha com a mesma chave vale a nova."""
+    if antigo is None or len(antigo) == 0:
+        return novo
+    if novo is None or len(novo) == 0:
+        return antigo
+    chave = ["cd_cvm", "data_ref", "versao", "fonte"]
+    a = antigo.copy()
+    a["cd_cvm"] = pd.to_numeric(a["cd_cvm"], errors="coerce").astype("Int64")
+    n = novo.copy()
+    n["cd_cvm"] = pd.to_numeric(n["cd_cvm"], errors="coerce").astype("Int64")
+    todo = pd.concat([a, n], ignore_index=True)
+    todo["versao"] = pd.to_numeric(todo["versao"], errors="coerce").fillna(1).astype(int)
+    todo = todo.drop_duplicates(chave, keep="last")
+    return todo.sort_values(["cd_cvm", "data_ref", "versao", "disponivel_em"]).reset_index(drop=True)
+
+
+def atualizar_de_demonstracoes(anos, tipos=("DFP", "ITR"), salvar=True):
     """Le a composicao do capital dos zips de ITR/DFP que `cvm_fundamentos` ja baixou.
-    Nenhum download novo. Devolve a tabela (escala ainda como informada) e grava o parquet."""
+    Nenhum download novo. Devolve a tabela (escala ainda como informada) e, com salvar=True, grava o parquet."""
     from quant.dados import cvm_fundamentos as cf
     partes = []
     for ano in anos:
@@ -304,7 +442,8 @@ def atualizar_de_demonstracoes(anos, tipos=("DFP", "ITR")):
     todo = pd.concat(partes, ignore_index=True)
     todo = (todo.sort_values(["cd_cvm", "data_ref", "versao", "disponivel_em"])
                 .drop_duplicates(["cd_cvm", "data_ref", "versao"], keep="last").reset_index(drop=True))
-    gravar(todo)
+    if salvar:
+        gravar(todo)
     return todo
 
 
@@ -320,7 +459,10 @@ def resolver_escala(capital, painel=None, precos=None):
         return _vazio()
     cap = capital.copy()
     cap["cd_cvm"] = pd.to_numeric(cap["cd_cvm"], errors="coerce").astype("Int64")
-    ult = cap.sort_values(["cd_cvm", "disponivel_em", "versao"]).groupby("cd_cvm").tail(1).set_index("cd_cvm")
+    # linhas do FRE ja vem em UNIDADES: nao entram na decisao de escala e nunca sao multiplicadas
+    eh_fre = cap["fonte"].astype(str).str.startswith("fre")
+    ult = (cap[~eh_fre].sort_values(["cd_cvm", "disponivel_em", "versao"])
+              .groupby("cd_cvm").tail(1).set_index("cd_cvm"))
     q = ult["acoes_total"].astype(float)
     decisao = {}                                   # cd_cvm -> (fator, como)
     # 1) lucro / LPA
@@ -364,16 +506,55 @@ def resolver_escala(capital, painel=None, precos=None):
                 decisao[int(cod)] = (1000.0, "piso")
     fator = cap["cd_cvm"].map(lambda c: decisao.get(int(c), (1.0, "?"))[0] if pd.notna(c) else 1.0)
     como = cap["cd_cvm"].map(lambda c: decisao.get(int(c), (1.0, "?"))[1] if pd.notna(c) else "?")
+    fator = fator.where(~eh_fre, 1.0)
+    como = como.where(~eh_fre, "u")
     for c in ("acoes_on", "acoes_pn", "acoes_total"):
         cap[c] = cap[c].astype(float) * fator.astype(float)
     cap["fonte"] = cap["fonte"].astype(str) + ":" + como.astype(str)
-    cap.attrs["escala"] = {"companhias": int(len(q)),
+    cap.attrs["escala"] = {"companhias": int(len(q)), "linhas_fre": int(eh_fre.sum()),
                            "por_lpa": sum(1 for v in decisao.values() if v[1] == "lpa"),
                            "por_pvp": sum(1 for v in decisao.values() if v[1] == "pvp"),
                            "por_piso": sum(1 for v in decisao.values() if v[1] == "piso"),
                            "em_milhares": sum(1 for v in decisao.values() if v[0] == 1000.0),
                            "sem_decisao": int(len(q)) - len(decisao)}
     return cap
+
+
+def corrigir_escala_por_linha(vm, painel, faixa=PVP_PLAUSIVEL, fator=1000.0):
+    """Corrige, LINHA A LINHA, o valor de mercado cuja escala saiu mil vezes errada.
+
+    `resolver_escala` decide UMA escala por companhia, olhando o ultimo registro. Companhia que
+    informava em milhares em 2020-2021 e passou a informar em unidades depois (ARZZ3, RENT3, PSSA3,
+    BRML3, JPSA3, ...) ou o contrario (ELET3, BKBR3) fica com o valor de mercado 1.000 vezes errado nas
+    linhas antigas: P/VP de 0,0005 ou de 1.500, e a acao parece a mais barata (ou a mais cara) do
+    mercado. Aqui, o valor de mercado de uma linha so e mexido quando o P/VP esta fora da faixa
+    plausivel (0,1 a 30) E exatamente um dos dois deslocamentos (x1.000 ou /1.000) o poe dentro dela.
+    Na pratica: P/VP entre 0,0001 e 0,03, ou entre 100 e 30.000, e lido como erro de escala.
+    Patrimonio liquido ausente ou negativo: nao decide, a linha fica como esta.
+
+    Devolve (vm corrigido, numero de linhas corrigidas). `painel` precisa de (data, cd_cvm, pl)."""
+    if vm is None or len(vm) == 0 or painel is None or len(painel) == 0 or "pl" not in painel:
+        return vm, 0
+    pl = painel[["data", "cd_cvm", "pl"]].copy()
+    for d in (pl,):
+        d["data"] = pd.to_datetime(d["data"])
+        d["cd_cvm"] = pd.to_numeric(d["cd_cvm"], errors="coerce").astype("Int64")
+    out = vm.copy()
+    out["data"] = pd.to_datetime(out["data"])
+    out["cd_cvm"] = pd.to_numeric(out["cd_cvm"], errors="coerce").astype("Int64")
+    j = out.merge(pl.drop_duplicates(["data", "cd_cvm"]), on=["data", "cd_cvm"], how="left")
+    p = j["valor_mercado"] / j["pl"].where(j["pl"] > 0)
+
+    def dentro(x):
+        return (x >= faixa[0]) & (x <= faixa[1])
+    ok, sobe, desce = dentro(p), dentro(p * fator), dentro(p / fator)
+    mult = np.where(~ok & sobe & ~desce, fator, np.where(~ok & desce & ~sobe, 1.0 / fator, 1.0))
+    n = int((mult != 1.0).sum())
+    if n:
+        out["valor_mercado"] = out["valor_mercado"].to_numpy(dtype=float) * mult
+        if "acoes_total" in out:
+            out["acoes_total"] = out["acoes_total"].to_numpy(dtype=float) * mult
+    return out, n
 
 
 # ─────────────────────────────────────────────────────────────
@@ -455,10 +636,18 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Numero de acoes em circulacao (FCA da CVM)")
     ap.add_argument("--anos", default=f"2010-{date.today().year}")
     ap.add_argument("--forcar", action="store_true")
+    ap.add_argument("--sem-fre", action="store_true", help="nao usa o FRE (so ITR/DFP, de 2020 em diante)")
     args = ap.parse_args(argv)
-    df = atualizar_de_demonstracoes(_anos(args.anos))
+    anos = _anos(args.anos)
+    comp = atualizar_de_demonstracoes(anos, salvar=False)
+    # o FRE cobre o que o ITR/DFP nao tem (antes de 2020); nunca mexe nas linhas de 2020 em diante
+    fre = atualizar_de_fre([a for a in anos if a <= FRE_ATE.year]) if not args.sem_fre else _vazio()
+    df = combinar(comp, fre)
     if df.empty:
-        df = atualizar(_anos(args.anos), forcar=args.forcar)      # caminho antigo (FCA), por via das duvidas
+        df = atualizar(anos, forcar=args.forcar)                  # caminho antigo (FCA), por via das duvidas
+    else:
+        df = mesclar(carregar(), df)       # a rotina diaria pede so os ultimos anos: nao apaga a historia
+        gravar(df)
     if df.empty:
         print("nenhum capital social lido; o sinal de valor vai depender da reserva por LPA")
         return 1

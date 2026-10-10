@@ -49,6 +49,7 @@ import pandas as pd
 from quant import carteira as ct
 from quant import custos as cst
 from quant import livro
+from quant import regime as rg
 from quant import sinais as sg
 from quant.comum import DIR_SAIDA, garantir_dir, log
 from quant.dados import calendario, mercado
@@ -69,6 +70,7 @@ CRITERIOS = {
     "conc_nome_max": 0.15, "conc_ano_max": 0.60, "dsr_min": 0.50, "subperiodos_min": 3,
 }
 
+LIMIAR_PESO_REGIME = 0.002        # ajuste de peso no mes em que o regime muda a exposicao em acoes
 COLUNAS_SERIE = ["data", "patrimonio", "caixa", "valor_posicoes", "retorno", "retorno_hedge",
                  "cdi", "n_posicoes", "contratos", "custo_dia", "giro_dia"]
 
@@ -118,11 +120,19 @@ def verificar_contabilidade(serie, tolerancia=0.01):
 # Motor
 # ─────────────────────────────────────────────────────────────
 def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, fim=DATA_FIM,
-          capital=CAPITAL, estresse=1.0, config=None, com_hedge=True, modo="intersecao"):
+          capital=CAPITAL, estresse=1.0, config=None, com_hedge=True, modo="intersecao",
+          regime=None):
     """Roda o backtest e devolve um dict com a serie diaria, as ordens e o P&L por nome.
 
     painel_sinais: saida de `sinais.painel`. retornos: painel largo data x ticker de
     retorno total. cdi: Series diaria. excesso/nivel: do modulo `mercado` (hedge).
+
+    regime (opcional): DataFrame de `regime.plano_protecao`. DESLIGADO (None) o resultado e
+    exatamente o de antes (provado em test_regime_backtest). Ligado: (1) a exposicao em acoes da
+    boleta mensal vem do estado de regime da data do SINAL; (2) o hedge deixa de ser "1 contrato
+    ate R$200 mil" e passa a ser `razao_exec x valor das acoes` em nocional, em contratos inteiros
+    e limitado pela margem, reajustado quando a razao muda, no dia da boleta e no roll; (3) o
+    stop da perna vendida vem pronto no plano. Sem `com_hedge` o regime so mexe nas acoes.
     """
     ini_ts, fim_ts = pd.Timestamp(ini), pd.Timestamp(fim)
     if painel_sinais is None or len(painel_sinais) == 0 or retornos is None or len(retornos) == 0:
@@ -158,6 +168,8 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
                 "config": config or {}, "violacoes": []}
 
     estado = ct.estado_inicial(capital, primeiro)
+    plano = _preparar_plano(regime)
+    exposicao_ant, custo_win_total = ct.EXPOSICAO_ALVO, 0.0
     linhas, ordens_todas, pnl_nome, n_efetivo, violacoes = [], [], {}, {}, []
     retornos_carteira = pd.Series(dtype=float)
     precos_vistos = {}
@@ -180,37 +192,161 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
             setor = mes.set_index("ticker")["setor"].to_dict()
             beta = mercado.beta_movel(retornos_carteira, excesso) if len(retornos_carteira) > 5 else None
             beta60 = float(beta.iloc[-1]) if beta is not None and len(beta) and np.isfinite(beta.iloc[-1]) else None
+            expo, lim_peso = ct.EXPOSICAO_ALVO, ct.LIMIAR_PESO
+            if plano is not None:
+                expo = float(_linha_plano(plano, t)["exposicao_sinal"])
+                if abs(expo - exposicao_ant) > 1e-9:
+                    lim_peso = LIMIAR_PESO_REGIME
+                exposicao_ant = expo
             alvo = ct.carteira_alvo(mes, estado, precos, adtv=adtv, setor=setor,
                                     patrimonio=estado["patrimonio"], estresse=estresse,
-                                    data=t, beta60=beta60)
+                                    data=t, beta60=beta60, exposicao=expo, limiar_peso=lim_peso)
             n_efetivo[t] = alvo["n_efetivo"]
             violacoes += [f"{t.date()}: {v}" for v in alvo["diagnostico"]["violacoes"]]
             estado, custo_dia, giro_dia = _executar(estado, alvo["ordens"], precos, d)
             if len(alvo["ordens"]):
                 ordens_todas.append(alvo["ordens"].assign(data=d))
-            if com_hedge:
-                if alvo["hedge"]["motivo"] in ("abertura", "roll", "tamanho", "beta"):
-                    custo_win = cst.custo_win(alvo["hedge"]["contratos"], estresse=estresse)["total"]
+            if com_hedge and plano is None:
+                # hedge LEGADO ("1 contrato fixo"): usa a copia congelada deste modulo, nao
+                # `alvo["hedge"]`, para que o S1 do holdout nao mude se a regra do robo ao vivo mudar
+                hedge_leg = _ajustar_hedge_legado(estado, t, estado["patrimonio"], beta60)
+                if hedge_leg["motivo"] in ("abertura", "roll", "tamanho", "beta"):
+                    custo_win = cst.custo_win(hedge_leg["contratos"], estresse=estresse)["total"]
                     estado["caixa"] -= custo_win
                     custo_dia += custo_win
-                estado["hedge"] = {"contratos": alvo["hedge"]["contratos"],
-                                   "vencimento": alvo["hedge"]["vencimento"],
+                estado["hedge"] = {"contratos": hedge_leg["contratos"],
+                                   "vencimento": hedge_leg["vencimento"],
                                    "nivel_entrada": float(nivel.get(d, np.nan)) if len(nivel) else np.nan}
             for pos in estado["posicoes"].values():
                 pos["meses"] = int(pos.get("meses", 0)) + 1
             estado["patrimonio"] = estado["caixa"] + sum(p["valor"] for p in estado["posicoes"].values())
+        if plano is not None and com_hedge:
+            estado, custo_win = _hedge_por_regime(estado, d, plano, nivel, estresse, d in execucao)
+            if custo_win:
+                custo_dia += custo_win
+                custo_win_total += custo_win
+                estado["patrimonio"] = estado["caixa"] + sum(p["valor"] for p in estado["posicoes"].values())
         linhas.append(_linha(estado, d, r_dia, r_hedge, float(cdi.get(d, 0.0)), custo_dia, giro_dia))
 
     serie = pd.DataFrame(linhas, columns=COLUNAS_SERIE).drop_duplicates("data", keep="last")
     serie = serie.sort_values("data").reset_index(drop=True)
     serie["retorno"] = serie["patrimonio"].pct_change().fillna(0.0)
-    return {"serie": serie,
-            "ordens": pd.concat(ordens_todas, ignore_index=True) if ordens_todas
-                      else pd.DataFrame(columns=ct.COLUNAS_ORDEM),
-            "pnl_nome": pd.Series(pnl_nome, dtype=float),
-            "n_efetivo": pd.Series(n_efetivo, dtype=float),
-            "config": config or {}, "violacoes": violacoes,
-            "estresse": float(estresse), "modo": modo, "com_hedge": bool(com_hedge)}
+    saida = {"serie": serie,
+             "ordens": pd.concat(ordens_todas, ignore_index=True) if ordens_todas
+                       else pd.DataFrame(columns=ct.COLUNAS_ORDEM),
+             "pnl_nome": pd.Series(pnl_nome, dtype=float),
+             "n_efetivo": pd.Series(n_efetivo, dtype=float),
+             "config": config or {}, "violacoes": violacoes,
+             "estresse": float(estresse), "modo": modo, "com_hedge": bool(com_hedge)}
+    if plano is not None:
+        # colunas e chaves EXTRAS so existem com regime ligado: desligado, a saida e a de sempre
+        for col, orig in (("estado_regime", "estado"), ("razao_hedge", "razao_exec"), ("stopado", "stopado")):
+            serie[col] = plano[orig].reindex(pd.DatetimeIndex(serie["data"])).to_numpy()
+        saida.update({"regime": True, "custo_win": float(custo_win_total), "plano": plano})
+    return saida
+
+
+# Hedge LEGADO, congelado em 10/10/2026: copia literal de `carteira.contratos_hedge` e `carteira.ajustar_hedge`
+# (1 contrato ate R$ 200 mil de patrimonio, 2 acima; so mexe no roll, no tamanho ou com o beta fora da banda).
+# E o S1 das comparacoes do holdout ("o robo de hoje"). Fica aqui, e nao importado de carteira.py, porque as
+# regras do robo ao vivo (venda de indice proporcional ao executado) estao sendo reescritas la: o S1 medido
+# no holdout tem de ser o de antes da reescrita. Os numeros de referencia estao em test_regime_backtest.
+_LEG_PREGOES_ROLL = 5
+_LEG_CAPITAL_2_CONTRATOS = 200_000.0
+_LEG_BETA_BANDA = (0.15, 0.55)
+
+
+def _contratos_hedge_legado(patrimonio):
+    if patrimonio is None or not np.isfinite(patrimonio) or patrimonio <= 0:
+        return 0
+    return 2 if float(patrimonio) >= _LEG_CAPITAL_2_CONTRATOS else 1
+
+
+def _ajustar_hedge_legado(estado, data, patrimonio, beta60=None):
+    """(contratos, vencimento, motivo) do hedge de 1 contrato, como dict. Copia de `carteira.ajustar_hedge`."""
+    h = estado.get("hedge") or {}
+    atual = int(h.get("contratos") or 0)
+    venc = h.get("vencimento")
+    alvo = _contratos_hedge_legado(patrimonio)
+    d = pd.Timestamp(data).date() if data is not None else None
+    if atual == 0:
+        return {"contratos": alvo, "vencimento": calendario.proximo_vencimento_indice(d) if d else None,
+                "motivo": "abertura"}
+    if venc is not None and d is not None:
+        limite = calendario.pregoes_atras(venc, _LEG_PREGOES_ROLL)
+        if d >= limite:
+            return {"contratos": alvo, "vencimento": calendario.proximo_vencimento_indice(venc), "motivo": "roll"}
+    if alvo != atual:
+        return {"contratos": alvo, "vencimento": venc, "motivo": "tamanho"}
+    if beta60 is not None and np.isfinite(beta60) and not (_LEG_BETA_BANDA[0] <= float(beta60) <= _LEG_BETA_BANDA[1]):
+        return {"contratos": alvo, "vencimento": venc, "motivo": "beta"}
+    return {"contratos": atual, "vencimento": venc, "motivo": "manter"}
+
+
+def _preparar_plano(regime):
+    """Plano de regime com indice de datas garantido, ou None."""
+    if regime is None:
+        return None
+    plano = regime.copy()
+    plano.index = pd.DatetimeIndex(plano.index)
+    return plano.sort_index()
+
+
+def _linha_plano(plano, data):
+    """Linha do plano na data (ou no ultimo dia ate ela). Antes do plano comecar: neutro."""
+    d = pd.Timestamp(data)
+    pos = int(plano.index.searchsorted(d, side="right")) - 1
+    if pos < 0:
+        return {"exposicao_sinal": ct.EXPOSICAO_ALVO, "razao_exec": 0.0}
+    return plano.iloc[pos]
+
+
+def contratos_para_razao(razao, valor_posicoes, nivel_dia, caixa, margem=ct.MARGEM_CONTRATO):
+    """Contratos inteiros de WIN para vender `razao x valor das acoes` em nocional, limitados
+    pela margem que cabe no caixa. Indice sem nivel ou razao nula: zero."""
+    if not (razao > 0 and valor_posicoes > 0 and np.isfinite(nivel_dia) and nivel_dia > 0):
+        return 0
+    ponto = mercado.nocional_win(float(nivel_dia), 1)
+    n = int(np.floor(float(razao) * float(valor_posicoes) / ponto + 0.5))
+    return int(max(min(n, int(max(float(caixa), 0.0) // float(margem))), 0))
+
+
+def _hedge_por_regime(estado, d, plano, nivel, estresse, dia_de_boleta):
+    """Reajusta a perna vendida de indice ao plano de regime. Devolve (estado, custo_win).
+
+    Reajusta so quando a razao em vigor mudou, no dia da boleta mensal (o valor das acoes mudou)
+    ou no roll; entre uma coisa e outra os contratos nao acompanham a oscilacao das acoes, como
+    na vida real. Custo: um lado por contrato acrescentado ou retirado; no roll, fechar o antigo e
+    abrir o novo.
+    """
+    h = dict(estado.get("hedge") or {})
+    atual = int(h.get("contratos") or 0)
+    venc = h.get("vencimento")
+    razao = float(_linha_plano(plano, d)["razao_exec"])
+    razao_ant = float(h.get("razao") or 0.0)
+    dia = pd.Timestamp(d).date()
+    roll = bool(atual > 0 and venc is not None and dia >= calendario.pregoes_atras(venc, ct.PREGOES_ROLL))
+    h["razao"] = razao
+    if not (abs(razao - razao_ant) > 1e-12 or dia_de_boleta or roll):
+        estado["hedge"] = h
+        return estado, 0.0
+    niv = float(nivel.get(d, np.nan)) if len(nivel) else np.nan
+    valor_pos = sum(p["valor"] for p in estado["posicoes"].values())
+    alvo = contratos_para_razao(razao, valor_pos, niv, estado["caixa"])
+    if roll:
+        custo = cst.custo_win(atual, estresse=estresse)["total"] + cst.custo_win(alvo, estresse=estresse)["total"]
+    else:
+        custo = cst.custo_win(abs(alvo - atual), estresse=estresse)["total"]
+    if alvo == 0:
+        h.update({"contratos": 0, "vencimento": None})
+    else:
+        base = venc if (roll and venc is not None) else dia
+        h.update({"contratos": alvo,
+                  "vencimento": venc if (atual > 0 and not roll) else calendario.proximo_vencimento_indice(base),
+                  "nivel_entrada": niv})
+    estado["caixa"] -= custo
+    estado["hedge"] = h
+    return estado, float(custo)
 
 
 def _executar(estado, ordens, precos, data):
@@ -408,7 +544,7 @@ def avaliar(m, atrib=None, conc=None, dsr=None, subperiodos_ok=None, criterios=C
 
 
 def comparar_pre_registrado(painel_sinais, retornos, cdi, excesso=None, nivel=None,
-                            ini=DATA_INI, fim=DATA_FIM, capital=CAPITAL, fatores=None):
+                            ini=DATA_INI, fim=DATA_FIM, capital=CAPITAL, fatores=None, regime=None):
     """As tres comparacoes pre-registradas da secao 7.
 
     (a) intersecao (portoes) contra soma de z-scores;
@@ -418,7 +554,7 @@ def comparar_pre_registrado(painel_sinais, retornos, cdi, excesso=None, nivel=No
     """
     def _mede(painel, modo="intersecao", rotulo=""):
         r = rodar(painel, retornos, cdi, excesso, nivel, ini=ini, fim=fim,
-                  capital=capital, modo=modo, config={"comparacao": rotulo})
+                  capital=capital, modo=modo, config={"comparacao": rotulo}, regime=regime)
         m = metricas(r)
         m["t_alfa"] = atribuicao_nefin(r, fatores).get("t_alfa", np.nan) if fatores is not None else np.nan
         return m
@@ -444,27 +580,28 @@ def comparar_pre_registrado(painel_sinais, retornos, cdi, excesso=None, nivel=No
 # Holdout e relatorio
 # ─────────────────────────────────────────────────────────────
 def rodar_holdout(painel_sinais, retornos, cdi, excesso=None, nivel=None, fatores=None,
-                  capital=CAPITAL, config=None, motivo="avaliacao unica do holdout"):
+                  capital=CAPITAL, config=None, motivo="avaliacao unica do holdout", regime=None):
     """Abre o lacre UMA vez e calcula TUDO de uma vez (ver o docstring do modulo)."""
     config = dict(config or {})
     livro.abrir_holdout(config, motivo)
     ini, fim = livro.HOLDOUT
     base = rodar(painel_sinais, retornos, cdi, excesso, nivel, ini=ini, fim=fim,
-                 capital=capital, config=config)
+                 capital=capital, config=config, regime=regime)
     caro = rodar(painel_sinais, retornos, cdi, excesso, nivel, ini=ini, fim=fim,
-                 capital=capital, estresse=2.0, config=dict(config, estresse=2.0))
+                 capital=capital, estresse=2.0, config=dict(config, estresse=2.0), regime=regime)
     m, m2 = metricas(base), metricas(caro)
     atrib = atribuicao_nefin(base, fatores)
     conc = concentracao(base)
     subs = {}
     for a, b in SUBPERIODOS:
-        r = rodar(painel_sinais, retornos, cdi, excesso, nivel, ini=a, fim=b, capital=capital)
+        r = rodar(painel_sinais, retornos, cdi, excesso, nivel, ini=a, fim=b, capital=capital,
+                  regime=regime)
         subs[f"{a[:4]}-{b[:4]}"] = metricas(r)
     ok_subs = sum(1 for v in subs.values() if np.isfinite(v["excesso_aa"]) and v["excesso_aa"] > 0)
     dsr = livro.sharpe_deflacionado(m.get("sharpe_mensal", np.nan), m.get("n_meses", 0),
                                     max(livro.n_tentativas(), 1), livro.variancia_sharpes())
     comp = comparar_pre_registrado(painel_sinais, retornos, cdi, excesso, nivel,
-                                   ini=ini, fim=fim, capital=capital, fatores=fatores)
+                                   ini=ini, fim=fim, capital=capital, fatores=fatores, regime=regime)
     veredito = avaliar(m, atrib, conc, dsr, ok_subs)
     resultados = {"metricas": m, "metricas_2x": m2, "atribuicao": atrib, "concentracao": conc,
                   "subperiodos": subs, "subperiodos_positivos": ok_subs,
@@ -472,6 +609,146 @@ def rodar_holdout(painel_sinais, retornos, cdi, excesso=None, nivel=None, fatore
                   "sharpe": m.get("sharpe_mensal", np.nan)}
     livro.registrar_holdout(resultados)
     livro.registrar(config, [ini, fim], resultados, motivo, escopo="holdout")
+    return resultados
+
+
+# ─────────────────────────────────────────────────────────────
+# Holdout com varias configuracoes numa chamada so
+# ─────────────────────────────────────────────────────────────
+COMPARACOES_DECLARADAS = ("S0", "S1", "R1", "R2", "R3", "R4", "R5")
+
+
+def configuracoes(nomes, excesso, cdi):
+    """nome -> {"com_hedge", "regime"} das configuracoes pre-registradas.
+
+    S0 = sem protecao; S1 = hedge LEGADO de 1 contrato fixo (copia congelada neste modulo); S2 e R1-R5 =
+    variantes de `regime.VARIANTES` (S2 e a protecao fixa em nocional, sem regime)."""
+    out = {}
+    for n in nomes:
+        if n == "S0":
+            out[n] = {"com_hedge": False, "regime": None}
+        elif n == "S1":
+            out[n] = {"com_hedge": True, "regime": None}
+        elif n in rg.VARIANTES:
+            out[n] = {"com_hedge": True, "regime": rg.plano_da_variante(n, excesso, cdi)}
+        else:
+            raise ValueError(f"configuracao desconhecida: {n!r}")
+    return out
+
+
+def config_holdout(principal, comparar, capital=CAPITAL, sinais=None):
+    """A configuracao que identifica (por hash) a unica abertura do holdout. Nao depende de caminho."""
+    nomes = [principal] + [c for c in comparar if c != principal]
+    return {"versao": "intersecao-pf-1+regime-1+valor", "capital": float(capital), "principal": principal,
+            "comparacoes": nomes[1:], "parametros": {n: rg.VARIANTES.get(n) for n in nomes},
+            "sinais": os.path.basename(sinais) if sinais else "banco/sinais.parquet"}
+
+
+def extras_holdout(resultado, capital=CAPITAL):
+    """Pior mes, pior ano, retorno por ano, perna de indice em R$ e custos em R$ de uma rodada."""
+    s = resultado["serie"].set_index("data").sort_index()
+    r = s["retorno"].fillna(0.0)
+    mensal = (1 + r).resample("ME").prod() - 1
+    anual = (1 + r).groupby(r.index.year).prod() - 1
+    cdi_ano = (1 + s["cdi"].fillna(0.0)).groupby(s.index.year).prod() - 1
+    pat_ant = s["patrimonio"].shift(1)
+    meses = max(len(mensal), 1)
+    cdi_total = float((1 + s["cdi"].fillna(0.0)).prod())
+    return {"pior_mes": float(mensal.min()), "pior_mes_data": str(mensal.idxmin().date()),
+            "pior_ano": float(anual.min()), "pior_ano_ano": int(anual.idxmin()),
+            "retorno_por_ano": {str(k): float(v) for k, v in anual.items()},
+            "cdi_por_ano": {str(k): float(v) for k, v in cdi_ano.items()},
+            "perna_indice_rs": float((s["retorno_hedge"] * pat_ant).sum()),
+            "custo_total_rs": float(s["custo_dia"].sum()),
+            "custo_win_rs": float(resultado["custo_win"]) if resultado.get("regime") else float(
+                s["custo_dia"].sum() - resultado["ordens"]["custo"].sum()),
+            "patrimonio_final": float(s["patrimonio"].iloc[-1]),
+            "ganho_medio_mes_rs": float((s["patrimonio"].iloc[-1] - capital) / meses),
+            "cdi_medio_mes_rs": float((capital * cdi_total - capital) / meses),
+            "n_meses": int(len(mensal)), "contratos_medio": float(s["contratos"].mean()),
+            "acoes_medio_pct": float((s["valor_posicoes"] / s["patrimonio"]).mean()),
+            "n_posicoes_medio": float(s["n_posicoes"].mean()),
+            "contabilidade_ok": bool(verificar_contabilidade(s.reset_index())[0])}
+
+
+def _limpar(x):
+    """Tipos nativos de JSON (numpy e Timestamp viram int/float/bool/str)."""
+    if isinstance(x, dict):
+        return {str(k): _limpar(v) for k, v in x.items()}
+    if isinstance(x, (list, tuple)):
+        return [_limpar(v) for v in x]
+    if isinstance(x, (np.bool_,)):
+        return bool(x)
+    if isinstance(x, (np.integer,)):
+        return int(x)
+    if isinstance(x, (np.floating,)):
+        return float(x)
+    if isinstance(x, (pd.Timestamp,)):
+        return str(x.date())
+    return x
+
+
+def _bloco_holdout(nome, kw, painel_sinais, retornos, cdi, excesso, nivel, fatores, capital, ini, fim):
+    """Tudo o que se mede de UMA configuracao no holdout: serie inteira, custo 2x, 4 subperiodos,
+    atribuicao NEFIN, concentracao, Sharpe deflacionado e veredito."""
+    def r_(i, f, **extra):
+        return rodar(painel_sinais, retornos, cdi, excesso, nivel, ini=i, fim=f, capital=capital,
+                     config={"holdout": nome}, **kw, **extra)
+    base, caro = r_(ini, fim), r_(ini, fim, estresse=2.0)
+    m, m2 = metricas(base), metricas(caro)
+    atrib, conc = atribuicao_nefin(base, fatores), concentracao(base)
+    subs = {f"{a[:4]}-{b[:4]}": metricas(r_(a, b)) for a, b in SUBPERIODOS}
+    ok_subs = sum(1 for v in subs.values() if np.isfinite(v["excesso_aa"]) and v["excesso_aa"] > 0)
+    dsr = livro.sharpe_deflacionado(m.get("sharpe_mensal", np.nan), m.get("n_meses", 0),
+                                    max(livro.n_tentativas(), 1), livro.variancia_sharpes())
+    return _limpar({"nome": nome, "metricas": m, "metricas_2x": m2, "extras": extras_holdout(base, capital),
+                    "atribuicao": atrib, "concentracao": conc, "subperiodos": subs,
+                    "subperiodos_positivos": ok_subs, "sharpe_deflacionado": dsr,
+                    "veredito": avaliar(m, atrib, conc, dsr, ok_subs),
+                    "trocas_regime": rg.trocas(base["serie"].set_index("data")["estado_regime"]) if base.get("regime") else None,
+                    "stops": rg.eventos_de_stop(base["plano"].loc[base["serie"]["data"].min():base["serie"]["data"].max()])
+                    if base.get("regime") else None,
+                    "violacoes": len(base.get("violacoes", [])), "n_efetivo_medio": float(base["n_efetivo"].mean())
+                    if len(base["n_efetivo"]) else None})
+
+
+def rodar_holdout_multiplo(painel_sinais, retornos, cdi, excesso=None, nivel=None, fatores=None,
+                           capital=CAPITAL, config=None, principal="S2", comparar=COMPARACOES_DECLARADAS,
+                           motivo="avaliacao unica do holdout, principal e comparacoes declaradas"):
+    """Abre o lacre UMA vez e calcula numa chamada so a configuracao PRINCIPAL e as comparacoes DECLARADAS.
+
+    A principal recebe tambem as tres comparacoes pre-registradas do plano (intersecao contra soma de z,
+    so momento contra com portoes, t do alfa dos vencedores). As comparacoes sao descritivas: nada aqui escolhe
+    a melhor. Tudo (todas as configuracoes) e gravado junto em `holdout.json` e no livro, e o lacre vale como antes:
+    uma abertura, mesma config = retomada, outra config = recusa."""
+    nomes = [principal] + [c for c in comparar if c != principal]
+    config = dict(config or config_holdout(principal, comparar, capital))
+    livro.abrir_holdout(config, motivo)
+    ini, fim = livro.HOLDOUT
+    cfgs = configuracoes(nomes, excesso, cdi)
+    blocos = {}
+    for nome in nomes:
+        blocos[nome] = _bloco_holdout(nome, cfgs[nome], painel_sinais, retornos, cdi, excesso, nivel, fatores,
+                                      capital, ini, fim)
+    comp = comparar_pre_registrado(painel_sinais, retornos, cdi, excesso, nivel, ini=ini, fim=fim, capital=capital,
+                                   fatores=fatores, regime=cfgs[principal]["regime"])
+    p = blocos[principal]
+    resultados = _limpar({
+        "principal": principal, "comparacoes_declaradas": nomes[1:], "configs": blocos,
+        "comparacoes_pre_registradas": comp,
+        "n_tentativas_livro": livro.n_tentativas(), "variancia_sharpes": livro.variancia_sharpes(),
+        # chaves de sempre, da configuracao principal (compatibilidade com `relatorio`)
+        "metricas": p["metricas"], "metricas_2x": p["metricas_2x"], "atribuicao": p["atribuicao"],
+        "concentracao": p["concentracao"], "subperiodos": p["subperiodos"],
+        "subperiodos_positivos": p["subperiodos_positivos"], "sharpe_deflacionado": p["sharpe_deflacionado"],
+        "comparacoes": comp, "veredito": p["veredito"], "sharpe": p["metricas"].get("sharpe_mensal")})
+    livro.registrar_holdout(resultados)
+    livro.registrar(config, [ini, fim], {"sharpe": resultados["sharpe"], "principal": principal,
+                                         "veredito_principal": p["veredito"]["passou"],
+                                         "configs": {n: {"excesso_aa": b["metricas"]["excesso_aa"],
+                                                         "sharpe_mensal": b["metricas"]["sharpe_mensal"],
+                                                         "mdd": b["metricas"]["mdd"]} for n, b in blocos.items()}},
+                    motivo, escopo="holdout")
     return resultados
 
 
@@ -522,13 +799,19 @@ def relatorio(resultados, caminho=None, origem="desconhecida", gate_passou=None)
     return texto
 
 
-def carregar_do_banco(ini, fim):
-    """Monta os insumos do backtest a partir do banco local. None se faltar dado."""
+def carregar_do_banco(ini, fim, arq_sinais=None):
+    """Monta os insumos do backtest a partir do banco local. None se faltar dado.
+
+    Tudo o que sai e cortado em `fim`: uma rodada de desenvolvimento (fim = 2015-12-31) nao
+    carrega nem um retorno do holdout. O NIVEL do indice e calculado com a serie inteira (a ancora
+    de 30/12/2021 esta depois do fim do treino) e so entao cortado: e uma constante de escala, o
+    formato da serie vem so de retornos anteriores a cada data. `arq_sinais` troca o parquet de
+    sinais (pesquisa com painel proprio, sem mexer no banco da rotina viva)."""
     from quant.dados import cdi as cdi_mod, cotahist, eventos, nefin
     cot = cotahist.carregar(pd.Timestamp(ini).year - 2, pd.Timestamp(fim).year)
     if cot is None or len(cot) == 0:
         return None
-    painel = sg.carregar()
+    painel = sg.carregar(arq_sinais) if arq_sinais else sg.carregar()
     if painel is None or len(painel) == 0:
         return None
     ret = sg.painel_retornos(eventos.retorno_total_limpo(cot[["ticker", "data", "fec", "fatcot"]],
@@ -540,8 +823,38 @@ def carregar_do_banco(ini, fim):
         fatores = None
     exc = mercado.excesso_mercado(fatores) if fatores is not None else None
     niv = mercado.nivel_indice(exc, taxa) if exc is not None and taxa is not None else None
-    return {"sinais": painel, "retornos": ret, "cdi": taxa, "excesso": exc,
-            "nivel": niv, "fatores": fatores}
+    corte = pd.Timestamp(fim)
+
+    def _ate(x):
+        return x[x.index <= corte] if x is not None and len(x) else x
+    painel = painel[pd.to_datetime(painel["data"]) <= corte].reset_index(drop=True)
+    return {"sinais": painel, "retornos": _ate(ret), "cdi": _ate(taxa), "excesso": _ate(exc),
+            "nivel": _ate(niv), "fatores": _ate(fatores)}
+
+
+ARQ_GATE = os.path.join(DIR_SAIDA, "gate_fase1.json")
+ARQ_PRE_REGISTRO = os.path.join(DIR_SAIDA, "pesquisa_carteira", "PRE_REGISTRO.md")
+
+
+def _motivo_holdout():
+    """Motivo da abertura, com o sha256 do pre-registro (e do adendo) que valia na hora: rastreio no livro."""
+    import hashlib
+    texto = "avaliacao unica do holdout: principal e comparacoes declaradas no adendo do pre-registro"
+    try:
+        with open(ARQ_PRE_REGISTRO, "rb") as f:
+            texto += f" (PRE_REGISTRO.md sha256 {hashlib.sha256(f.read()).hexdigest()})"
+    except OSError:
+        texto += " (PRE_REGISTRO.md ausente)"
+    return texto
+
+
+def gate_aprovado(caminho=ARQ_GATE):
+    """Resultado do ultimo gate da fase 1 (replica do WML do NEFIN): True/False, ou None se nao
+    houver arquivo. O relatorio dizia "NAO RODOU" mesmo com o gate aprovado em 08/10/2026
+    (correlacao 0,937) porque `main` passava `gate_passou=None` fixo."""
+    from quant.comum import ler_json
+    g = ler_json(caminho, None)
+    return bool(g.get("passou")) if isinstance(g, dict) and "passou" in g else None
 
 
 def main(argv=None):
@@ -552,39 +865,64 @@ def main(argv=None):
     ap.add_argument("--capital", type=float, default=CAPITAL)
     ap.add_argument("--abrir-holdout", action="store_true")
     ap.add_argument("--saida", default=None)
+    ap.add_argument("--sinais", default=None,
+                    help="parquet de sinais alternativo (pesquisa); o padrao e banco/sinais.parquet")
+    ap.add_argument("--ini", default=None, help="primeiro dia da rodada de treino (AAAA-MM-DD)")
+    ap.add_argument("--regime", default=None, choices=sorted(rg.VARIANTES),
+                    help="protecao por regime de mercado (quant/regime.py); sem isso, o hedge de sempre. "
+                         "No holdout com --comparar, e a configuracao PRINCIPAL")
+    ap.add_argument("--comparar", default=None,
+                    help="so no holdout: comparacoes declaradas, separadas por virgula (S0,S1,R1,...); "
+                         "calculadas na mesma abertura, descritivas")
     args = ap.parse_args(argv)
 
-    dados = carregar_do_banco(DATA_INI_PRECO, DATA_FIM)
+    # o holdout lacrado nem chega a carregar dado: recusar antes e mais barato (e mais seguro)
+    if args.janela == "holdout" and not args.abrir_holdout:
+        print("o holdout esta lacrado. Passe --abrir-holdout, e so uma vez "
+              "(o estado fica em quant/holdout.json e o diff fica no git).")
+        return 3
+    # a rodada de desenvolvimento nem carrega dado depois do fim do treino
+    fim_dados = TREINO[1] if args.janela == "treino" else DATA_FIM
+    dados = carregar_do_banco(DATA_INI_PRECO, fim_dados, arq_sinais=args.sinais)
     if dados is None:
         print("banco incompleto; rode cotahist, eventos, cvm_fundamentos, cdi e sinais primeiro")
         return 2
-    if args.janela == "holdout":
-        if not args.abrir_holdout:
-            print("o holdout esta lacrado. Passe --abrir-holdout, e so uma vez "
-                  "(o estado fica em quant/holdout.json e o diff fica no git).")
-            return 3
+    plano = rg.plano_da_variante(args.regime, dados["excesso"], dados["cdi"]) if args.regime else None
+    cfg_regime = {"regime": args.regime, "regime_parametros": rg.VARIANTES[args.regime]} if args.regime else {}
+    if args.janela == "holdout" and args.comparar:
+        comparar = [c.strip() for c in args.comparar.split(",") if c.strip()]
+        res = rodar_holdout_multiplo(dados["sinais"], dados["retornos"], dados["cdi"], dados["excesso"],
+                                     dados["nivel"], fatores=dados["fatores"], capital=args.capital,
+                                     config=config_holdout(args.regime or "S2", comparar, args.capital, args.sinais),
+                                     principal=args.regime or "S2", comparar=comparar,
+                                     motivo=_motivo_holdout())
+    elif args.janela == "holdout":
         res = rodar_holdout(dados["sinais"], dados["retornos"], dados["cdi"], dados["excesso"],
                             dados["nivel"], fatores=dados["fatores"], capital=args.capital,
-                            config={"versao": "intersecao-pf-1", "capital": args.capital})
+                            config=dict({"versao": "intersecao-pf-1", "capital": args.capital}, **cfg_regime),
+                            regime=plano)
     else:
         ini, fim = (TREINO if args.janela == "treino" else (DATA_INI, DATA_FIM))
+        if args.ini and args.janela == "treino":
+            ini = args.ini
         r = rodar(dados["sinais"], dados["retornos"], dados["cdi"], dados["excesso"],
                   dados["nivel"], ini=ini, fim=fim, capital=args.capital,
-                  estresse=args.estresse, config={"janela": args.janela})
+                  estresse=args.estresse, config={"janela": args.janela}, regime=plano)
         m = metricas(r)
         atrib = atribuicao_nefin(r, dados["fatores"])
         conc = concentracao(r)
         res = {"metricas": m, "atribuicao": atrib, "concentracao": conc,
                "veredito": avaliar(m, atrib, conc), "sharpe": m.get("sharpe_mensal", np.nan)}
-        livro.registrar({"janela": args.janela, "estresse": args.estresse,
-                         "capital": args.capital, "versao": "intersecao-pf-1"},
+        livro.registrar(dict({"janela": args.janela, "estresse": args.estresse,
+                              "capital": args.capital, "versao": "intersecao-pf-1"}, **cfg_regime,
+                             **({"ini": args.ini} if args.ini else {}), **({"sinais": args.sinais} if args.sinais else {})),
                         [ini, fim], res, f"rodada de {args.janela}", escopo="pesquisa")
         ok, erro = verificar_contabilidade(r["serie"])
         if not ok:
             print(f"ATENCAO: identidade contabil violada em ate R${erro:.2f}")
 
     caminho = args.saida or os.path.join(DIR_SAIDA, f"backtest_{args.janela}_{date.today():%Y%m%d}.md")
-    texto = relatorio(res, caminho, origem="real", gate_passou=None)
+    texto = relatorio(res, caminho, origem="real", gate_passou=gate_aprovado())
     print(texto)
     log(f"relatorio em {caminho}")
     return 0 if res.get("veredito", {}).get("passou") else 1

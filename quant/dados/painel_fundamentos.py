@@ -222,10 +222,15 @@ def painel_ttm(df, datas, cd_cvms=None, financeiras=None, valor_mercado=None, de
     look-ahead intradiario, ja que `visao_em` e inclusivo em t) mas devolve a linha
     CARIMBADA COM A DATA DE DECISAO. O contrato e "o que se sabia para decidir em d";
     devolver a data deslocada faria a juncao por data falhar em silencio no chamador.
+
+    `valor_mercado` e um DataFrame(data, cd_cvm, valor_mercado) OU uma funcao que recebe o painel ja
+    resolvido (data, cd_cvm, ...) e devolve esse DataFrame (ex.: `valor_de_mercado`): o valor de mercado
+    depende das empresas e datas do proprio painel, que so existem depois de resolvido.
     """
     vint = painel_vintages(df, cd_cvms=cd_cvms, financeiras=financeiras)
     if datas is None:
-        return acrescentar_metricas(resolver(vint, datas), valor_mercado=valor_mercado)
+        base = resolver(vint, datas)
+        return acrescentar_metricas(base, valor_mercado=valor_mercado(base) if callable(valor_mercado) else valor_mercado)
     originais = sorted({_ts(d) for d in datas})
     usadas = [_ts(calendario.pregao_anterior(d)) if deslocar else _ts(d) for d in originais]
     base = resolver(vint, usadas)
@@ -233,7 +238,7 @@ def painel_ttm(df, datas, cd_cvms=None, financeiras=None, valor_mercado=None, de
         de_para = dict(zip(usadas, originais))
         base["data"] = base["data"].map(de_para)
         base = base[base["data"].notna()].sort_values(["data", "cd_cvm"]).reset_index(drop=True)
-    return acrescentar_metricas(base, valor_mercado=valor_mercado)
+    return acrescentar_metricas(base, valor_mercado=valor_mercado(base) if callable(valor_mercado) else valor_mercado)
 
 
 def cobertura(painel):
@@ -303,8 +308,11 @@ def datas_de_decisao(ini, fim, hoje=None):
     return sorted(datas)
 
 
-def valor_de_mercado(base):
+def valor_de_mercado(base, capital=None):
     """DataFrame(data, cd_cvm, valor_mercado) para as datas de `base`, ou None.
+
+    `capital`: tabela de numero de acoes (padrao: banco/capital_social.parquet). A pesquisa passa a sua
+    para nao depender de um arquivo que a rotina diaria regrava.
 
     Acoes (ex-tesouraria) da composicao do capital dos ITR/DFP, com a escala resolvida por
     companhia, vezes o preco da classe mais liquida da companhia no universo daquela data.
@@ -318,7 +326,7 @@ def valor_de_mercado(base):
         from quant.dados import capital_social as cs, cotahist, identidade
         from quant import universo as uni_mod
         from quant.sinais import mapear_empresa
-        cap = cs.carregar()
+        cap = cs.carregar() if capital is None else capital
         if cap is None or len(cap) == 0:
             log("valor de mercado: sem capital social no banco (rode python -m quant.dados.capital_social)")
             return None
@@ -333,6 +341,8 @@ def valor_de_mercado(base):
         esc = cap.attrs.get("escala") or {}
         cap = cap[~cap["fonte"].astype(str).str.endswith(":?")]
         vm = cs.valor_mercado(cs.acoes_em(cap, datas), u[["data", "cd_cvm", "preco"]])
+        vm, n_corr = cs.corrigir_escala_por_linha(vm, base)
+        log(f"valor de mercado: {n_corr} linhas com escala corrigida por P/VP;")
         log(f"valor de mercado: {vm['cd_cvm'].nunique() if len(vm) else 0} companhias; escala por LPA "
             f"{esc.get('por_lpa')}, por P/VP {esc.get('por_pvp')}, por piso {esc.get('por_piso')}, "
             f"em milhares {esc.get('em_milhares')}, sem decisao {esc.get('sem_decisao')}")
@@ -425,7 +435,9 @@ def main(argv=None):
         log(f"sem mapa de setores ({e}); nenhuma empresa marcada como financeira")
     datas = datas_de_decisao(args.ini, args.fim)
     log(f"painel: {df['cd_cvm'].nunique()} empresas, {len(datas)} datas de decisao")
-    painel = painel_ttm(df, datas, financeiras=fin, deslocar=True)
+    # O painel completo esquecia o valor de mercado (so o `--recente` o calculava): B/M, EV/EBIT e FCF yield
+    # saiam vazios e o sinal de valor, 25% do score, se desligava sozinho em toda a historia.
+    painel = painel_ttm(df, datas, financeiras=fin, valor_mercado=valor_de_mercado, deslocar=True)
     gravar(painel)
     cob = cobertura(painel)
     log(f"gravado {ARQ_PARQUET}: {cob['linhas']} linhas")
