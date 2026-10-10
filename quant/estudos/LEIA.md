@@ -122,8 +122,8 @@ a busca olhou mais de 12 mil medicoes. O tamanho real do efeito deve estar mais 
   testadas). Tarefa agendada `quant-rotina-da-noite`, dias uteis as 19h15.
 - Dados novos em `quant/saida/pesquisa5/b3_dolar/` (LEIA.md la dentro): negocio a negocio de WDO e DOL com a corretora de
   cada lado (20 pregoes, cresce com a rotina), PTAX das 4 janelas desde 2021, contratos em aberto, ajuste e rolagem por
-  contrato em 5 anos, dolar a vista B3, cupom cambial, swap e leiloes do BC, opcoes de dolar por strike. Nao existe mais de
-  graca: posicao por tipo de participante.
+  contrato em 5 anos, dolar a vista B3, cupom cambial, swap e leiloes do BC, opcoes de dolar por strike. Nao achamos rota
+  gratuita para posicao por tipo de participante (a pagina antiga saiu do ar; nao se sabe se virou pago).
 - Segunda rodada (tres frentes, ~3.500 medicoes; `quant/saida/pesquisa5/BRIEF_B3.md`): NENHUMA candidata. O resumo de cada
   frente esta em `quant/pesquisa/FILA.md`, secao "Testadas". A pista do penultimo dia util foi a prova com parametros
   congelados e foi reprovada (2025 -R$ 85, 2026 +R$ 193 por negocio). O que ficou de conhecimento: banco local compra com o
@@ -220,3 +220,8 @@ de negocio a negocio com agressor. Detalhe em `quant/saida/pesquisa5/global_lide
 - Triagem do saldo de agressao por minuto (119 pregoes de descoberta): sem continuacao; devolucao pequena, abaixo do custo.
 - B3 (sessao "Boletim B3 handoff"): 20 pregoes de negocio a negocio com corretora, sem agressor e sem livro; nada mais
   longo de graca; UP2DATA pago e so fim de dia.
+- Armadilha da B3: o arquivo de negocios do ultimo pregao pode ser servido pela metade (o de 09/10, no sabado as 15h18,
+  tinha so o cabecalho no mini-dolar e so o fim da tarde no mini-indice). Os 51 arquivos ja guardados foram conferidos em
+  10/10 e estao inteiros (abertura ao fechamento). `b3_dolar/scripts/baixa_ticks.py` agora baixa de novo os dois ultimos
+  pregoes a cada rodada e so troca se vier com MAIS linhas (o antigo fica ao lado com o final `.parcial`; no registro sai
+  a palavra COMPLETADO). Se isso acontecer, o cache das corretoras daquele dia (`corretoras/cache/tk_*`) fica velho.
