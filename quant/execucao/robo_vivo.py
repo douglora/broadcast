@@ -688,6 +688,11 @@ class Robo:
         pronto = bool(b.get("emitida")) and not bloqueios
         if not b:
             fase, texto = "bloqueado", "A rodada de hoje ainda não foi gerada."
+            if not bloqueios:               # a tela mostra a lista de bloqueios: sem motivo escrito, o cartao fica mudo
+                bloqueios = [{"chave": "rodada", "titulo": "Sem boleta para hoje",
+                              "detalhe": "A rodada da manhã (dados de ontem, sinais, validação e boleta) roda sozinha às 8h35 "
+                                         "de cada dia de pregão. Fora de pregão não há boleta, e nada é simulado.",
+                              "comando": None}]
         elif not b.get("emitida"):
             fase, texto = "bloqueado", "Boleta de hoje bloqueada: " + "; ".join(b.get("motivo_bloqueio") or ["modo seguro"])
         else:
