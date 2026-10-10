@@ -254,3 +254,20 @@ desisti". Detalhe de cada frente no RESULTADO.md da pasta indicada.
   (`quant/dados_brutos/cvm_fre`), escala corrigida linha a linha, `capital_social` passa a mesclar em vez de substituir.
   O periodo NAO pode ser reaberto: ideia nova (tirar os portoes, exposicao por volatilidade, piso de protecao) so com
   dado novo.
+- ASSIMETRIAS EM OPCOES (10/10/2026, noite; pedido do Douglas: "ele tem que ver a melhor entrada nas opcoes", "ME DE A
+  SOLUCAO"; `quant/saida/pesquisa5/opcoes/RESULTADO_ASSIMETRIAS.md`, hipoteses A0 a A6 escritas antes): duas passaram nas
+  tres fases, nenhuma aprovada pelo Sharpe deflacionado. A0 capital protegido (caixa no CDI e 0,5% do capital por mes em
+  call no dinheiro de 1 mes): 10,9% a.a. contra CDI de 10,0% em 174 meses, pior mes -0,33%, pior ano +2,9%, captura ~7% da
+  alta acima do CDI, Sharpe 0,39/0,36/0,47 (deflacionado 0,47). A1 straddle onde a volatilidade realizada de 252 dias
+  supera a implicita: +20% por operacao (n 428, t 2,24; deflacionado 0,20; perde em metade dos meses). Reprovadas: proteger
+  BOVA11 so com volatilidade implicita baixa (nao teria protegido marco/2020), inclinacao, paridade, straddle antes do
+  resultado (-31% a -35% por operacao). Arbitragem no fechamento: 6,6 por dia, centavos, cotacao velha.
+  O modulo ganhou `quant/opcoes/assimetrias.py` (ranking diario das entradas pela vantagem contra 10 anos de historia do
+  ativo, com o veredito da familia em cada linha) e `quant/opcoes/carteira_simulada.py` (risco definido de ate R$ 500 por
+  estrutura, 6 abertas, R$ 3 mil em risco; capital protegido como posicao permanente; estado em `quant/saida/opcoes/`).
+  Em 09/10/2026 as opcoes estavam caras (percentil da volatilidade implicita do BOVA11 em 88) e so 3 de 15 estruturas
+  tinham vantagem positiva.
+- PUBLICACAO DA TELA (terminal): o Douglas disse "sim" em 10/10. As 64 fatias antigas `d/a/140` a `203` ja sairam do
+  artefato (versao 607). Os comandos `python -m coletor.montar --tirados` e `--liberar` sao barrados para o assistente
+  pela protecao do aplicativo: quem roda e o Douglas, no Terminal. Ate la a pagina oficial segue com a tela antiga.
+
