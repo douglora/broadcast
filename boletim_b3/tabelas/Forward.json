@@ -6,14 +6,14 @@
  "paginas": 1,
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Term", "titulo": "Prazo"}, {"nome": "Closing", "titulo": ""}, {"nome": "TradQty", "titulo": ""}, {"nome": "VlmTradedDay", "titulo": "Volume (R$) mil"}, {"nome": "Part", "titulo": "Participação (%)"}],
  "texto": ["Lista ações com maior volume de negociação em contratos a termo, destacando as mais ativas."],
- "situacao": "publicado",
- "atualizado_em": "2026-10-09T19:11:00.463",
+ "situacao": "republicado",
+ "atualizado_em": "2026-10-10T04:42:01.173",
  "truncada": false,
  "linhas": [
-  ["STONE CO    DRN", "DRN", 31, 61.85, 16000, 989.6, 0.6067857610136356],
-  ["ITAUUNIBANCOPN  EJ  N1", "PN  EJ  N1", 31, 50.77, 20000, 1015.4000000000001, 0.7584822012670447],
-  ["INVESTOUTIL CI", "CI", 31, 146.94, 42000, 6171.48, 1.5928126226607937],
-  ["EVEN        ON      NM", "ON      NM", 360, 7.05, 130000, 916.5, 4.93013430823579],
-  ["PAGSEGURO   DRN", "DRN", 31, 11.24, 825000, 9273, 31.287390802265584]
+  ["STONE CO    DRN", "DRN", 31, 61.85, 16000, 989.6, 0.6056304707830613],
+  ["ITAUUNIBANCOPN  EJ  N1", "PN  EJ  N1", 31, 50.77, 20000, 1015.4000000000001, 0.7570380884788267],
+  ["INVESTOUTIL CI", "CI", 31, 146.94, 42000, 6171.48, 1.589779985805536],
+  ["EVEN        ON      NM", "ON      NM", 360, 7.05, 130000, 916.5, 4.920747575112372],
+  ["PAGSEGURO   DRN", "DRN", 31, 11.24, 825000, 9273, 31.227821149751595]
  ]
 }

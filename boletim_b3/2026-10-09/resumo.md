@@ -1,16 +1,17 @@
 # Boletim da B3: pregão de 09/10/2026 (sexta)
 
-**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-10T06:22:20Z (UTC).
+**Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-10T11:52:31Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
-## Sinais do dia (13)
+## Sinais do dia (20)
 
 **Novos hoje**
 
 - **Volume fora do padrão.** KLBN4 girou 2,2x a média de 20 pregões (R$ 30 mi contra R$ 14 mi), com o preço em -1,08% no dia. _(B3, TradeInformationConsolidated, 09/10)_
 - **Volume fora do padrão.** MRVE3 girou 3,1x a média de 20 pregões (R$ 250 mi contra R$ 81 mi), com o preço em +21,61% no dia. _(B3, TradeInformationConsolidated, 09/10)_
+- **Pressão vendida.** VALE3: em 5 pregões o saldo alugado subiu 27,2% e o preço caiu 5,8%: posição vendida crescendo junto com a queda. _(B3, BTBLendingOpenPosition, 09/10)_
 - **Crédito: taxa abriu.** CRA02100130 (Riza Securitizadora, CRA): taxa média dos negócios da B3 abriu 736 pb contra 04/09, para IPCA+ 18,20%, em R$ 13,7 mi. _(B3, Trade + InstrumentRegistration (preliminar), 09/10)_
 - **Crédito: taxa abriu.** CRA024009Q4 (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 148 pb contra 08/10, para IPCA+ 14,02%, em R$ 12,3 mi. _(B3, Trade + InstrumentRegistration (preliminar), 09/10)_
 - **Crédito: taxa abriu.** CRA024002ML (Eco Securitizadora de Direitos Credit…, CRA): taxa média dos negócios da B3 abriu 121 pb contra 22/09, para IPCA+ 14,08%, em R$ 13,6 mi. _(B3, Trade + InstrumentRegistration (preliminar), 09/10)_
@@ -25,6 +26,12 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 
 - **Volume fora do padrão.** ITSA4 girou 2,4x a média de 20 pregões (R$ 1.141 mi contra R$ 485 mi), com o preço em +1,61% no dia. _(B3, TradeInformationConsolidated, 09/10 · 2º pregão seguido)_
 - **Volume fora do padrão.** SMAL11 girou 3,9x a média de 20 pregões (R$ 2.670 mi contra R$ 682 mi), com o preço em +4,02% no dia. _(B3, TradeInformationConsolidated, 09/10 · 6º pregão seguido)_
+- **Aluguel alto.** BBAS3: saldo alugado de 326,8 mi de ações, 11,5% da quantidade teórica do índice e 6,6 pregões de giro; taxa média do tomador de 0,03% ao ano. _(B3, BTBLendingOpenPosition, 09/10 · 28º pregão seguido)_
+- **Aluguel alto.** BBDC4: saldo alugado de 445,0 mi de ações, 8,7% da quantidade teórica do índice e 7,2 pregões de giro; taxa média do tomador de 0,56% ao ano. _(B3, BTBLendingOpenPosition, 09/10 · 21º pregão seguido)_
+- **Aluguel alto.** CURY3: saldo alugado de 19,8 mi de ações, 12,3% da quantidade teórica do índice e 3,6 pregões de giro; taxa média do tomador de 3,56% ao ano. O preço subiu 22,7% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 09/10 · 28º pregão seguido)_
+- **Aluguel alto.** DIRR3: saldo alugado de 28,7 mi de ações, 8,8% da quantidade teórica do índice e 2,1 pregões de giro; taxa média do tomador de 0,02% ao ano. _(B3, BTBLendingOpenPosition, 09/10 · 28º pregão seguido)_
+- **Aluguel alto.** MRVE3: saldo alugado de 55,5 mi de ações, 14,8% da quantidade teórica do índice e 3,7 pregões de giro; taxa média do tomador de 8,25% ao ano. O preço subiu 38,9% em 5 pregões: aluguel alto e caro com preço subindo é o quadro em que o vendido costuma ser forçado a recomprar. _(B3, BTBLendingOpenPosition, 09/10 · 28º pregão seguido)_
+- **Vendidos zerando.** SAPR4: em 5 pregões o saldo alugado caiu 27,8% e o preço subiu 25,5%: vendidos devolvendo o papel na alta. _(B3, BTBLendingOpenPosition, 09/10 · 3º pregão seguido)_
 
 ## Índices
 
@@ -118,6 +125,32 @@ Juros no mesmo dia: DI1F27 -0,5 pb, DI1F28 -2,0 pb, DI1F29 -9,3 pb, DI1F30 -17,2
 
 x média = volume do dia dividido pela média dos pregões anteriores no histórico (até 20).
 
+## Livro: aluguel de ações
+
+| Ativo | Saldo alugado em mi de ações (% do free float) | Variação no pregão | Taxa do tomador (ao ano) |
+|---|---:|---:|---:|
+| EQTL3 | 36,6 (2,9%) | -3,01% | 0,05% |
+| SAPR4 | 1,7 | +2,30% | 0,06% |
+| KLBN4 | 7,7 | -2,17% | 0,02% |
+| ALUP4 | 0,03 | +0,65% | 0,10% |
+| ITUB4 | 147,6 (2,8%) | +2,43% | 0,04% |
+| BBDC4 | 445,0 (8,7%) | +0,41% | 0,56% |
+| PETR4 | 204,4 (4,6%) | -1,75% | 0,05% |
+| VALE3 | 142,4 (3,9%) | +2,65% | 0,02% |
+| MELI34 | 5,0 | +2,36% | 0,66% |
+| UGPA3 | 33,2 (3,1%) | +3,79% | 0,41% |
+| AXIA3 | 53,5 (2,4%) | -2,81% | 0,03% |
+| ITSA4 | 48,1 (0,8%) | -3,00% | 0,10% |
+| BBAS3 | 326,8 (11,5%) | -1,69% | 0,03% |
+| SBSP3 | 90,4 (2,6%) | +9,40% | 0,05% |
+| SMAL11 | 13,3 | +2,37% | 2,56% |
+| RARA11 | 0,00 | -83,72% | 1,00% |
+| DIRR3 | 28,7 (8,8%) | -1,81% | 0,02% |
+| MRVE3 | 55,5 (14,8%) | +3,19% | 8,25% |
+| CURY3 | 19,8 (12,3%) | +1,61% | 3,56% |
+
+Aluguel de ações (BTC, o banco de títulos da B3): quem aluga normalmente vende a descoberto, então o saldo mede a aposta vendida. Free float aqui é a quantidade teórica da carteira de índice.
+
 ## ETFs do livro
 
 | ETF | Valor de referência da cota (IOPV) | Prêmio ou desconto | Cotas criadas no dia |
@@ -126,6 +159,35 @@ x média = volume do dia dividido pela média dos pregões anteriores no histór
 | RARA11 | - | - | 0 |
 
 - Paridade: RARA11 -0,14% contra REMX em reais +0,09% (lá fora +0,64%, câmbio -0,55%); desvio de -0,23%. Fechamentos em horários diferentes: é aproximação.
+
+## Ações do livro em programa de ADR
+
+| Ativo | Ações em ADR (mi) | % da classe | Variação no pregão (mi) |
+|---|---:|---:|---:|
+| ITUB4 | 1.262,5 | 23,3% | +0,00 |
+| PETR4 | 761,6 | 14,0% | +0,00 |
+| VALE3 | 1.261,8 | 28,4% | +0,00 |
+| UGPA3 | 70,3 | 6,3% | +0,00 |
+| AXIA3 | 47,9 | 2,0% | -0,00 |
+
+ADR = recibo da ação negociado em Nova York. Ações entrando no programa indicam compra lá fora; saindo, venda.
+
+## Radar do mercado: aluguel
+
+| Mais alugadas | % das ações | Taxa | Preço em 5 pregões |
+|---|---:|---:|---:|
+| TTEN3 | 23,4% | 0,50% | +25,32% |
+| PLPL3 | 22,8% | 0,47% | +26,52% |
+| MOVI3 | 22,8% | 4,42% | +74,56% |
+| TAEE11 | 22,0% | 0,55% | +8,40% |
+| VULC3 | 19,9% | 0,91% | +19,11% |
+| BEEF3 | 19,3% | 3,88% | +15,98% |
+
+**Aluguel mais caro (taxa ao ano):** YDUQ3 31,74%, CMIN3 26,64%, FRAS3 15,89%, AZZA3 15,77%, ECOR3 13,58%, PRNR3 9,26%.
+**Saldo alugado que mais subiu no pregão:** DXCO3 +22,5%, HYPE3 +11,3%, MOTV3 +10,6%, PGMN3 +10,5%, TIMS3 +10,1%, SBSP3 +9,4%.
+**Saldo que mais caiu:** LAVV3 -20,2%, EMBJ3 -11,6%, TEND3 -11,0%, SAUD3 -9,7%, MULT3 -9,3%, MOVI3 -9,1%.
+**Vendidos sob pressão (muito alugadas, preço subindo):** MOVI3 +74,6%, MGLU3 +60,6%, SIMH3 +59,8%, ANIM3 +58,4%, ECOR3 +49,1%, PGMN3 +48,6%.
+**Aposta vendida crescendo (aluguel subindo, preço caindo):** VALE3 -5,8%.
 
 **Volume fora do padrão no mercado:** TFCO4 4,7x (-2,57%), ANIM3 4,6x (+12,55%), LAVV3 4,4x (+9,67%), LJQQ3 4,4x (+21,57%), FRAS3 4,1x (+3,83%), RIAA3 3,9x (+13,96%), SMAL11 3,9x (+4,02%), RAPT4 3,7x (+8,07%).
 
@@ -212,14 +274,8 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 ## Lacunas e pendências
 
 - quadro de posições em aberto: aguardando
-- saldo de aluguel: aguardando
-- empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
-- Custody: aguardando
 - posições em aberto (opções e futuros): aguardando
-- Register: aguardando
-- RepurchaseDealings: aguardando
-- Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
