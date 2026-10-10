@@ -39,10 +39,6 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    agressor no contrato vigente, e o contrato vencido some do servidor. Ha 28 pregoes do WDOX26 e 42 do WINV26 gravados
    por minuto; a fita diaria do robo acumula o mini-dolar dai para a frente. So testar leitura de fluxo com agressor real
    quando houver 120+ pregoes (por volta de 03/2027); ate la, NAO garimpar os 28 pregoes.
-13. Dolar global em menos de 1 minuto (a versao de 1 minuto morreu em 10/10/2026): so faz sentido com negocio a negocio
-   dos dois lados e relogio comum; a demo da MetaQuotes guarda cotacao real de poucos meses. Antes de gastar tempo, medir
-   em 5 pregoes quanto do ajuste ja aconteceu em 1, 5 e 15 segundos.
-
 ## Testadas
 
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
@@ -162,3 +158,7 @@ quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
   MetaTrader da XP, agressor inferido pela regra do tique, descoberta 07/2025 a 12/2025, 119 pregoes; 25 triagens): MORTA
   na triagem. Nenhuma continuacao; devolucao de 0,1 a 0,7 ponto em 1 a 20 minutos (melhor t: -4,4 no saldo de 5 minutos,
   -0,61 ponto em 10 minutos), menor que o custo de 1,2 ponto. Absorcao: n 117, nada.
+- Dolar global em SEGUNDOS (um preco por segundo de 5 pregoes, 05 a 09/10/2026, WDOX26 contra USDMXN, USDZAR, EURUSD, USDJPY e
+  US500; `global_lidera/segundos.py`; descritivo): MORTA. O pico da correlacao de retornos de 5 segundos e em 0 segundo e
+  cai igual para os dois lados. Nos 0,2% maiores trancos la fora o mini-dolar anda 0,6 a 0,9 ponto DURANTE os mesmos 5
+  segundos; entrando 1 a 5 segundos depois sobra -0,05 a -0,55 ponto antes do custo de 1,2 ponto.

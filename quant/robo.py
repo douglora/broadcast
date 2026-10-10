@@ -200,13 +200,54 @@ def modo():
     return str((m or {}).get("robo") or "fatores")
 
 
-def dia():
-    """O dia inteiro. Sai sozinho em fim de semana e feriado da B3."""
+MODULOS_VALIDOS = ("fatores", "daytrade")
+
+
+def modulos():
+    """Quais robos rodam no dia. Em 10/10/2026 o Douglas pediu os modulos lado a lado (carteira multifatorial e day trade
+    de mini-dolar): `"modulos": ["fatores", "daytrade"]` em modo_robo.json. Sem essa chave vale o modo antigo, um so."""
+    m = ler_json(ARQ_MODO, padrao=None) or {}
+    lista = m.get("modulos")
+    if isinstance(lista, (list, tuple)):
+        fora = list(dict.fromkeys(str(x) for x in lista if str(x) in MODULOS_VALIDOS))
+        if fora:
+            return fora
+    return [modo()]
+
+
+def _dia_dos_dois(hoje):
+    """Carteira e day trade no mesmo dia, cada um no seu processo: a carteira passa minutos baixando dado de manha e
+    fica ate a noite esperando a fita oficial; o day trade nao pode esperar por nada disso. Cada robo tem a sua trava de
+    instancia unica, o seu estado e o seu arquivo de tela. Este processo so sai depois de o day trade terminar: se saisse
+    antes com erro, o agendador o religaria e tentaria subir um segundo day trade."""
+    log("rotina: carteira de fatores e day trade lado a lado, cada um no seu processo (simulacao)")
+    filho = None
+    try:
+        filho = subprocess.Popen([sys.executable, "-W", "ignore", "-u", "-m", "quant.robo", "dia", "--modulo", "daytrade"], cwd=RAIZ)
+    except OSError as e:
+        log(f"rotina: nao consegui subir o day trade ({type(e).__name__}: {e}); a carteira segue sozinha")
+    try:
+        _dia_fatores(hoje)
+    except Exception as e:                           # a carteira nao derruba o day trade
+        log(f"rotina: a carteira de fatores parou com erro ({type(e).__name__}: {e}); o day trade segue ate o fim do pregao")
+    if filho is not None:
+        try:
+            filho.wait()
+        except Exception as e:
+            log(f"rotina: esperando o day trade: {type(e).__name__}: {e}")
+    return 0
+
+
+def dia(so=None):
+    """O dia inteiro. Sai sozinho em fim de semana e feriado da B3. `so`: roda um modulo so ("fatores" ou "daytrade")."""
     hoje = agora_brt().date()
     if not calendario.eh_pregao(hoje):
         log(f"{hoje} nao e pregao: nada a fazer")
         return 0
-    if modo() == "daytrade":
+    mods = [so] if so in MODULOS_VALIDOS else modulos()
+    if "fatores" in mods and "daytrade" in mods:
+        return _dia_dos_dois(hoje)
+    if mods[0] == "daytrade":
         # day trade nao tem preparacao de manha nem medicao a noite: so o pregao, e zera antes do fim
         regra = str((ler_json(ARQ_MODO, padrao=None) or {}).get("regra") or "v0")
         if regra in ("fluxo", "phicube", "niveis"):
@@ -220,6 +261,11 @@ def dia():
             log("rotina: modo day trade, regra versao 0 (mini-indice e mini-dolar, simulacao)")
         dt.rodar()
         return 0
+    return _dia_fatores(hoje)
+
+
+def _dia_fatores(hoje):
+    """A carteira de fatores: manha (dados, sinais, validacao, boleta), pregao (simulacao ao vivo) e noite (fita oficial)."""
     hm = lambda: agora_brt().strftime("%H:%M")        # noqa: E731
     if hm() < HORA_FIM_VIVO:
         preparar(hoje)
@@ -243,6 +289,8 @@ def main(argv=None):
     ap.add_argument("--data", default=None, help="AAAA-MM-DD (para fechar um pregao passado)")
     ap.add_argument("--fita-do-robo", action="store_true",
                     help="com `fechar`: usa a fita que o robo viu ao vivo em vez da oficial da B3")
+    ap.add_argument("--modulo", choices=list(MODULOS_VALIDOS), default=None,
+                    help="com `dia`: roda so este modulo (a rotina usa para subir o day trade num processo a parte)")
     args = ap.parse_args(argv)
     d = datetime.strptime(args.data, "%Y-%m-%d").date() if args.data else agora_brt().date()
     if args.comando in ("desligar", "ligar"):
@@ -253,7 +301,7 @@ def main(argv=None):
                  else "Em até 2 segundos ele zera o que estiver aberto e não entra mais até você religar."))
         return 0
     if args.comando == "dia":
-        return dia()
+        return dia(so=args.modulo)
     if args.comando == "preparar":
         return 0 if preparar(d, repetir=args.repetir) else 1
     if args.comando == "vivo":

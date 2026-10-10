@@ -3,10 +3,14 @@
  "regras": [
   {"nome": "win_fim_do_dia", "titulo": "Mini-indice: a tendencia do dia continua nos ultimos 30 minutos",
    "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py", "funcao": "regra", "ativo": "WIN", "simbolo": "WIN$N", "desde": "2026-10-10",
+   "na_tela": {"titulo": "A tendência do dia continua nos últimos 30 minutos",
+               "explicacao": "30 minutos antes do fim do pregão, entra no sentido do dia (acima da abertura compra, abaixo vende) e sai 25 minutos depois."},
    "kw": {"stop": 500.0, "tempo": 25, "ini": "09:00", "ult": "18:30", "zerar": "18:30"},
    "historico": "2021-24: Sharpe 3,7 (800 negocios, +R$ 15,30); 2025: -R$ 4,47 (reprovada); prova de 2026, aberta em 10/10/2026: Sharpe -3,65, acerto de 38% (o efeito inverteu)"},
   {"nome": "win_fim_do_dia_adaptativa", "titulo": "Mini-indice, fim do pregao: opera no lado que vem dando certo nos ultimos 60 pregoes",
    "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py", "funcao": "regra_adaptativa", "ativo": "WIN", "simbolo": "WIN$N", "desde": "2026-10-13",
+   "na_tela": {"titulo": "Fim do pregão, no lado que vem dando certo",
+               "explicacao": "A mesma entrada do fim do pregão, mas só no lado (a favor ou contra o dia) que deu resultado nos 60 pregões anteriores."},
    "barras_extras": 45000,
    "kw": {"stop": 500.0, "tempo": 25, "ini": "09:00", "ult": "18:30", "zerar": "18:30"},
    "historico": "variante declarada em 10/10/2026, depois de 2026 ser visto: nao ha dado antigo que a prove. Descritivo nos 5 anos: Sharpe 2,28; 2025 -R$ 2,70 e 2026 +R$ 0,80 por pregao"}

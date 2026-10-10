@@ -49,9 +49,11 @@ DIR_VIVO = os.path.join(DIR_SAIDA, "vivo")
 ARQ_SERIE = os.path.join(DIR_VIVO, "serie.json")
 # Onde a area QUANT do terminal le o estado. Dois caminhos porque o montador do terminal copia
 # cache/out/pagina/ para web/d/x/ a cada rodada: gravando nos dois, nenhum fica velho.
+# Desde 10/10/2026 a carteira tem o SEU arquivo (quant_fatores.json, modulo MULTIFATORIAL da tela): o quant.json ficou
+# com o robo de day trade de mini-dolar, e os dois rodam no mesmo dia.
 SAIDAS_PADRAO = [os.path.expanduser(p) for p in os.environ.get(
-    "QUANT_SAIDA",
-    "~/Desktop/terminal-artefato/web/d/x/quant.json:~/Desktop/terminal-artefato/cache/out/pagina/quant.json"
+    "QUANT_SAIDA_FATORES",
+    "~/Desktop/terminal-artefato/web/d/x/quant_fatores.json:~/Desktop/terminal-artefato/cache/out/pagina/quant_fatores.json"
 ).split(":") if p]
 
 # Posicoes do vetor de cotacao do motor (coletor/vivo.py do terminal):
