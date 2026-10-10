@@ -242,3 +242,15 @@ desisti". Detalhe de cada frente no RESULTADO.md da pasta indicada.
   reprovados contra o CDI (97 configuracoes); protecao com opcoes de BOVA11 fica em medicao, como seguro.
 - Modulos: `modo_robo.json` ganhou a chave `modulos`; a carteira grava `quant_fatores.json`, o day trade `quant.json`, a
   prova viva do indice `quant_indice.json` e `quant/opcoes/painel.py` grava `quant_opcoes.json`.
+
+- TESTE LONGO DA CARTEIRA (periodo final 2016-01 a 2026-06, aberto UMA vez em 10/10/2026; `quant/holdout.json`,
+  `quant/saida/pesquisa_carteira/RESULTADO_HOLDOUT.md`): NAO PASSOU nos criterios escritos antes (4 de 9 reprovados).
+  Principal (acoes 70%, venda de indice de 50% do valor das acoes): 10,8% a.a. contra CDI de 9,6% (R$ 228 por mes a mais
+  com R$ 100 mil), Sharpe do excesso 0,12, queda maxima 23,3%, alfa contra o NEFIN -2,6% a.a. (t -1,5), Sharpe
+  deflacionado 0,08, 1 de 4 subperiodos positivo. Sem protecao: +4,6% a.a. sobre o CDI, queda de 35,5%. 1 contrato fixo:
+  +4,5%, queda de 29,3%. As cinco variantes de protecao por regime ficaram atras de todas (2020: -21% a -27%; alfa -7% a
+  -8% a.a., t -2,4 a -2,7). Os portoes fundamentalistas nao agregaram (sem eles: +4,1% a.a., Sharpe 0,39). O retorno veio de
+  ficar comprado em bolsa, nao da selecao. Antes de abrir: numero de acoes desde 2010 pelo FRE da CVM
+  (`quant/dados_brutos/cvm_fre`), escala corrigida linha a linha, `capital_social` passa a mesclar em vez de substituir.
+  O periodo NAO pode ser reaberto: ideia nova (tirar os portoes, exposicao por volatilidade, piso de protecao) so com
+  dado novo.

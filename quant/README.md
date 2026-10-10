@@ -5,6 +5,22 @@ Pasta separada do terminal BROADCAST. Objetivo: carteira **long por interseção
 em mini-índice**, rebalanceamento incremental por custo e apuração fiscal própria.
 Long/short beta-neutro com short em ações foi descartado para esta escala (ver o plano).
 
+## Resultado do teste historico (10/10/2026): NAO PASSOU nos criterios
+
+O periodo final (2016-01 a 2026-06) foi aberto UMA vez em 10/10/2026 (`quant/holdout.json`, relatorio em
+`quant/saida/pesquisa_carteira/RESULTADO_HOLDOUT.md`). Liquido de custos, antes de IR, CDI de 9,6% a.a.:
+
+| configuracao | retorno a.a. | excesso sobre o CDI | Sharpe | queda maxima |
+|---|---|---|---|---|
+| principal (acoes 70%, venda de indice de 50% do valor das acoes) | 10,8% | +1,2% | 0,12 | 23,3% |
+| sem protecao | 14,2% | +4,6% | 0,30 | 35,5% |
+| 1 contrato fixo | 14,1% | +4,5% | 0,36 | 29,3% |
+| cinco variantes de protecao por regime | 8,0% a 9,4% | -1,6% a -0,2% | negativo | 35% a 38% |
+
+Alfa contra os fatores do NEFIN: -2,6% a.a. (t -1,5) na principal e -0,8% (t -0,5) sem protecao. O retorno veio de estar
+comprado em bolsa, nao da selecao. Os portoes fundamentalistas nao agregaram. O periodo nao pode ser reaberto: ideia nova
+so com dado novo (simulacao ao vivo). A secao abaixo e a estimativa escrita ANTES do teste; ficou para registro.
+
 ## Veredito honesto (resumo)
 
 - **Viável tecnicamente: sim.** Todos os dados necessários são gratuitos (B3, CVM, NEFIN, BCB).

@@ -475,8 +475,9 @@ def _medidas_kill(desempenho, dados, mes):
 def bloco_regime(ibov=None, hoje=None):
     """Leitura de regime do Ibovespa para o cartao "Regime do mercado" da tela. SO INFORMACAO: nao mexe na carteira nem
     na protecao. O Douglas pediu em 10/10/2026 que o robo lesse o momento do mercado (alta ou baixa) para dosar acoes e
-    venda de indice; o teste de 2012 a 2015 mostrou que mexer na protecao por esta leitura PIOROU o resultado
-    (quant/saida/pesquisa_carteira/RESULTADO.md), entao ela fica medida e a vista, como as leituras "so medido" do robo
+    venda de indice; os testes de 2012 a 2015 e de 2016 a 2026 (periodo final, aberto em 10/10/2026) mostraram que mexer
+    na protecao por esta leitura PIOROU o resultado (quant/saida/pesquisa_carteira/RESULTADO.md e RESULTADO_HOLDOUT.md),
+    entao ela fica medida e a vista, como as leituras "so medido" do robo
     de day trade, ate haver evidencia. `ibov`: DataFrame (data, fec); sem ele, baixa do Yahoo. Devolve None sem dado."""
     import pandas as pd
 
@@ -514,8 +515,9 @@ def bloco_regime(ibov=None, hoje=None):
             "estado": estado, "desde": str(ok.index[i].date()), "data": str(ok.index[-1].date()), "votos": votos,
             "so_informacao": True,
             "texto": (f"Leitura {nomes.get(estado, estado.upper())}: {votos} de 4 sinais de tendência do Ibovespa a favor da alta. "
-                      "É só informação: no teste de 2012 a 2015, aumentar ou zerar a proteção por esta leitura piorou o "
-                      "resultado, então a carteira segue com 70% em ações e a venda de índice em metade do valor delas."),
+                      "É só informação: nos dois testes (2012 a 2015 e 2016 a 2026), aumentar ou zerar a proteção por esta "
+                      "leitura piorou o resultado; em 2020 as variantes com regime perderam de 21% a 27%, contra +0,5% da "
+                      "carteira sem proteção. A carteira segue com 70% em ações e a venda de índice em metade do valor delas."),
             "exposicao_acoes_pct": round(ct.EXPOSICAO_ALVO * 100.0, 1), "protecao_pct": round(protecao.RAZAO * 100.0, 1),
             "indicadores": [
                 {"nome": "Ibovespa contra a média de 200 pregões", "valor": f"{pts(ultimo)} contra {pts(ml)}", "leitura": fav(u["acima_media_longa"])},
