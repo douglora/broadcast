@@ -68,7 +68,9 @@ def rodar(arq=ARQ, pasta=fx.PASTA_MT5, gravar=True):
     hoje, fora = agora_brt(), []
     for r in regras:
         dias = max(1, int(np.busday_count(pd.Timestamp(r["desde"]).date(), hoje.date()))) + 4      # desde a vespera, com folga
-        barras = pedir_barras(r.get("simbolo") or r.get("ativo"), min(900_000, dias * 620), pasta)
+        # "barras_extras": historia a mais para a regra que precisa de memoria (por exemplo, os 60 pregoes anteriores)
+        barras = pedir_barras(r.get("simbolo") or r.get("ativo"), min(900_000, dias * 620 + int(r.get("barras_extras") or 0)), pasta,
+                              rotulo=int(agora_brt().strftime("%y%m%d")) * 10 + regras.index(r))
         if barras is None or not len(barras):
             fora.append({"nome": r["nome"], "titulo": r.get("titulo") or r["nome"], "erro": "o MetaTrader nao entregou as barras (esta aberto?)"})
             continue

@@ -92,6 +92,22 @@ reestimados todo mes sobre 18 meses, medida so fora da amostra (04/2023 a 12/202
 - Conclusao: os efeitos pequenos nao se somam; cada um ja e quase tudo o que ha. A unica assimetria que aparece de novo e o
   empurrao do fim do pregao (indice e dolar), que mudou de sinal em 2025: vai para a prova viva (item 9 de "A testar").
 
+(10/10/2026) Quinta rodada: o metodo Chan + Lopez de Prado (quant/pesquisa/METODO.md; ferramentas em quant/pesquisa/ldp.py;
+contas em quant/estudos/2026-10-10_metricas_ldp.py e 2026-10-10_fim_do_pregao_meta.py).
+- Regua nova na regra aprovada (reversao do dado, gatilho 3): Sharpe anual liquido 1,82 na descoberta, 0,45 em 2025, 1,06 em
+  2026; 1,50 nos 5 anos; 0,72 fora da descoberta (443 pregoes). Sharpe deflacionado nos 5 anos: 0,80 com 100 tentativas,
+  0,43 com 2.500, 0,20 com 35.000. NAO passa no criterio novo (pede Sharpe > 1 fora da amostra e deflacionado > 0,95).
+  Continua sendo a melhor evidencia do dolar, positiva nos 6 anos, mas e uma vantagem fraca.
+- Fim do pregao no mini-indice: Sharpe 3,68 de 2021 a 2024 (real: deflacionado 0,94 com 2.500 tentativas mesmo incluindo
+  2025). Meta-rotulagem minima declarada antes (so opera se a media dos ultimos 60 pregoes da propria regra for positiva):
+  10/2021 a 12/2025 Sharpe 2,88, queda maxima R$ 1.476, deflacionado 0,96 com 35.000 tentativas, permutacao p 0,000,
+  plato em 40/60/80. PROVA FINAL DE 2026, aberta UMA vez em 10/10/2026: REPROVADA. Primaria: Sharpe -3,65, acerto de 38%,
+  -R$ 17,68 por pregao (o efeito INVERTEU); com o filtro: 52 negocios, -R$ 14,35 por negocio, Sharpe -1,17 (o filtro limitou
+  a queda a R$ 880 contra R$ 3.769, mas nao salvou). 2026 esta gasto para esta regra.
+- Variante adaptativa (opera no lado que vem dando certo nos ultimos 60 pregoes; `regra_adaptativa`), declarada DEPOIS de
+  ver 2026: descritivo nos 5 anos Sharpe 2,28, com 2025 -R$ 2,70 e 2026 +R$ 0,80 por pregao. Nao ha dado antigo que a prove:
+  so a prova viva (desde 13/10/2026).
+
 (09/10/2026, rotina da noite) Itens 1, 2 e 3 da fila, so na descoberta (805 pregoes; scripts em
 quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
 - Item 1, reversao de horas depois de evento de NY (abertura da bolsa 9h30, dados das 10h, Fed 14h so em dias de FOMC;

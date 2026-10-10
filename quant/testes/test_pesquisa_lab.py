@@ -206,3 +206,32 @@ def test_prova_viva_mede_so_os_pregoes_novos(tmp_path):
     res = pv.medir_regra(r, barras)
     assert res["negocios"] == 2 and res["ultimo"] == "2026-10-14" and res["pedir_estudo"] is False     # o pregao de 08/10 fica de fora
     assert "2 negocios desde 2026-10-10" in pv.texto([res]) and "ainda sem negocio" in pv.texto([dict(res, negocios=0)])
+
+
+def test_ferramentas_de_lopez_de_prado():
+    from quant.pesquisa import ldp
+    rng = np.random.default_rng(11)
+    bom = rng.normal(0.001, 0.005, 1000)                       # Sharpe por pregao 0,2 -> anual ~3,2
+    nada = rng.normal(0.0, 0.005, 1000)
+    assert 2.5 < ldp.sharpe_anual(bom) < 4.0 and abs(ldp.sharpe_anual(nada)) < 1.0
+    assert ldp.psr(bom) > 0.99 and 0.05 < ldp.psr(nada) < 0.95
+    # quanto mais tentativas, maior o Sharpe que o acaso produz e menor o Sharpe deflacionado
+    v = 1.0 / 999
+    assert ldp.sharpe_esperado_do_acaso(10, v) < ldp.sharpe_esperado_do_acaso(1000, v) < ldp.sharpe_esperado_do_acaso(100000, v)
+    fraco = rng.normal(0.0004, 0.005, 1000)                    # Sharpe anual ~1,3
+    assert ldp.dsr(fraco, 5) > ldp.dsr(fraco, 5000) and ldp.dsr(bom, 5000) > 0.95
+    assert ldp.queda_maxima([1.0, -2.0, -1.0, 4.0, -1.0]) == -3.0
+    # validacao combinatoria: 6 blocos, 2 de teste = 15 divisoes; treino e teste nao se tocam e ha embargo
+    dias = pd.date_range("2024-01-01", periods=120, freq="D").date
+    divs = list(ldp.cpcv(dias, grupos=6, teste=2, embargo=1))
+    assert len(divs) == 15
+    for tr, te in divs:
+        assert not set(tr) & set(te) and len(te) == 40 and 76 <= len(tr) <= 79       # sai 1 pregao de embargo de cada lado livre
+        assert all(abs((a - b).days) > 1 for a in tr for b in te)                    # nenhum pregao de treino colado num de teste
+    # barras de volume: 100 contratos por minuto, barras de 300 = uma a cada 3 minutos, reiniciando no pregao seguinte
+    m = pd.concat([_dia([PARADO] * 9, "2024-03-04 09:00"), _dia([PARADO] * 9, "2024-03-05 09:00")])
+    bv = ldp.barras_de_volume(m, 300)
+    assert len(bv) == 8 and bv.v.iloc[0] == 200.0 and bv.v.iloc[1] == 300.0 and bv.index[1].strftime("%H:%M") == "09:04"
+    t = pd.DataFrame({"dia": [dias[0], dias[0], dias[3]], "res": [100.0, -50.0, 200.0]})
+    r = ldp.retorno_por_pregao(t, dias[:5])
+    assert list(r.round(5)) == [0.0005, 0.0, 0.0, 0.002, 0.0]

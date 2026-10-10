@@ -175,3 +175,20 @@ vamos refinando". Desenho em `quant/saida/pesquisa5/BRIEF_4.md`; resultado de ca
 mini-indice a soma so reencontra o fim do pregao; no mini-dolar, o dado americano (ja aprovado) e o fim do pregao; nas
 acoes o sinal e real (t 6,8) e 5 a 10 vezes menor que o custo. Os modelos ficaram com `modelo.py::sinais(parte)` prontos
 para rodar em dado novo.
+
+## 10/10/2026: o metodo Chan + Lopez de Prado e a prova final do fim do pregao
+
+O Douglas trouxe um metodo (ideia de Ernest Chan, rigor de Marcos Lopez de Prado) e pediu para introduzi-lo e dizer, com
+honestidade, se ha estrategia vencedora. O metodo virou `quant/pesquisa/METODO.md` e as ferramentas `quant/pesquisa/ldp.py`
+(Sharpe deflacionado pelo numero de tentativas, validacao combinatoria com purga, barras de volume, queda maxima).
+
+| Regra | Onde | Sharpe anual liquido | Veredito pelo metodo |
+|---|---|---|---|
+| Reversao do dado (WDO, gatilho 3) | 2021-24 / 2025 / 2026 | 1,82 / 0,45 / 1,06 | positiva nos 6 anos, mas fraca: 0,72 fora da descoberta (pede > 1) e deflacionado de 0,43 com 2.500 tentativas (pede > 0,95) |
+| Fim do pregao (WIN), sempre | 2021-24 / 2025 / 2026 | 3,68 / -0,91 / -3,65 | foi real e inverteu |
+| Fim do pregao com filtro de 60 pregoes | 10/2021-12/2025 / 2026 | 2,88 / -1,17 | passou em tudo ate 2025 (deflacionado 0,96 com 35.000 tentativas) e foi REPROVADA na prova final de 2026 |
+
+Leitura: nenhuma estrategia passa hoje nos criterios do metodo. O metodo cumpriu o papel dele: uma regra com tres anos de
+Sharpe 3,7 teria ido para o robo e perdido dinheiro em 2026. A vantagem do fim do pregao existiu, decaiu em 2025 e virou do
+avesso em 2026 (provavel excesso de gente explorando o mesmo empurrao). A variante adaptativa e a regra original ficam na
+prova viva (`quant/pesquisa/provas_vivas.json`), medidas so com pregoes novos.
