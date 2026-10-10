@@ -1,7 +1,7 @@
 BLOCO A
 ```
-FECHAMENTO DO LIVRO · sex 09/10 · 18h12 BRT
-Relógios: Yahoo 18h12 · DI ajuste D0 · Tesouro base
+FECHAMENTO DO LIVRO · sex 09/10 · 21h42 BRT
+Relógios: Yahoo 21h42 · DI ajuste D0 · Tesouro base
   08/10 · UST CMT D0 · PTAX 09/10
 
 ALERTAS DO DIA (40 · 3 críticos)
@@ -125,7 +125,7 @@ IGV    Softwar  112,67 +2,8 +3,9  +11  +51 -2,6 +6,6
 BOTZ   Robotic   35,48 +1,9 -1,5 +0,9 +0,2 -4,4 -2,0
 Temáticos: quântica e metais (USD)
 QNTM   Quantum   28,58 +0,8 -4,4 -1,0  +19 +2,7  +14
-QANT   Quantum    5,97 -0,1 -3,1 -0,8  +26    -  +18
+QANT   Quantum    5,97 +1,0 -3,1 -0,8  +26    -  +18
 WQTM   Quantum   36,63 -0,4 -4,6 -1,3  +18 +6,5  +22
 WQTMUS Quantum   31,13 +0,1 -4,2 -2,7  +16 +2,8  +20
 QTUM   Quantum  152,06 +0,8 -2,6 +3,2  +31  +37  +40
@@ -183,8 +183,8 @@ Macro
 USDBRL USD/BRL  4,9823 -0,8 -4,5 -2,5 -2,2 -6,6 -9,0
 DXY    DXY      102,23 +0,1 +0,3 +3,5 +3,6 +2,7 +4,0
 BRENT  Brent    104,43 +0,1 +2,1 +3,2 +9,7  +60  +72
-BTC*   BTC      82.500 +1,0 -2,4 +5,4  +13  -32 -5,7
-ETH*   ETH       2.481 +0,4 -7,0 +0,6  +11  -43  -16
+BTC    BTC      82.500 +1,0 -2,4 +5,4  +13  -32 -5,7
+ETH    ETH       2.481 +0,4 -7,0 +0,6  +11  -43  -16
 MINER* Minerio   90,98 -0,2 -1,2 -9,0  -14  -13  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

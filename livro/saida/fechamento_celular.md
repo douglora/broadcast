@@ -20,7 +20,7 @@ IGV    Softwa 112,67 +2,8 +3,9  +11 +6,6
 BOTZ   Roboti  35,48 +1,9 -1,5 +0,9 -2,0
 Temáticos: quântica e metais (USD)
 QNTM   Quantu  28,58 +0,8 -4,4 -1,0  +14
-QANT   Quantu   5,97 -0,1 -3,1 -0,8  +18
+QANT   Quantu   5,97 +1,0 -3,1 -0,8  +18
 WQTM   Quantu  36,63 -0,4 -4,6 -1,3  +22
 WQTMUS Quantu  31,13 +0,1 -4,2 -2,7  +20
 QTUM   Quantu 152,06 +0,8 -2,6 +3,2  +40
@@ -78,8 +78,8 @@ Macro
 USDBRL USD/BR 4,9823 -0,8 -4,5 -2,5 -9,0
 DXY    DXY    102,23 +0,1 +0,3 +3,5 +4,0
 BRENT  Brent  104,43 +0,1 +2,1 +3,2  +72
-BTC*   BTC    82.500 +1,0 -2,4 +5,4 -5,7
-ETH*   ETH     2.481 +0,4 -7,0 +0,6  -16
+BTC    BTC    82.500 +1,0 -2,4 +5,4 -5,7
+ETH    ETH     2.481 +0,4 -7,0 +0,6  -16
 MINER* Mineri  90,98 -0,2 -1,2 -9,0  -15
 ```
 UCITS por extenso: VWRA Vanguard FTSE All-World

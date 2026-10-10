@@ -1,6 +1,6 @@
-NOTÍCIAS E FATOS · 09/10 20h08
+NOTÍCIAS E FATOS · 09/10 21h42
 
-Pernas: noticias ok 15 novas (18 consultas; descartadas: 440 veículo fora da lista, 52 sem ativo, 7 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
+Pernas: noticias ok 10 novas (18 consultas; descartadas: 444 veículo fora da lista, 48 sem ativo, 0 teto) · cvm ok 0 novos de 4 (3 cias casadas) · sec ok 0 novos em 3 dias
 
 ## SEC (8-K, 6-K, 10-Q, 10-K) (1)
 
@@ -30,7 +30,7 @@ Por que importa: noticia material sobre um ativo do livro; ler o texto antes de 
 Ativos: USDBRL
 Como falar: 'saiu no Money Times: Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno;…; confirmar o número no texto antes de repassar'
 Fonte: Money Times 09/10 17h31
-id: E05-USDBRL-14b1d6a48e-2026-10-09 · status: pendente · íntegra disponível
+id: E05-USDBRL-14b1d6a48e-2026-10-09 · status: expirado · íntegra disponível
 
 [ATENÇÃO] E05 · KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
 TradingView (Reuters) · 09/10 17h24 · + Investing.com · licença: manchete
@@ -39,7 +39,7 @@ Por que importa: provento muda o fluxo de caixa ao acionista e o yield; conferir
 Ativos: KO
 Como falar: 'saiu no TradingView (Reuters): Coca-Cola Consolidated Announces Fourth Quarter Dividend; confirmar o número no texto antes de repassar'
 Fonte: TradingView (Reuters) 09/10 17h24
-id: E05-KO-36a8a0b554-2026-10-09 · status: pendente
+id: E05-KO-36a8a0b554-2026-10-09 · status: expirado
 
 [ATENÇÃO] E05 · KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
 Investing.com · 09/10 17h24 · fonte única · licença: manchete
@@ -141,8 +141,18 @@ Fonte: Yahoo Finance 09/10 02h14
 id: E05-MU-67835dcf64-2026-10-09 · status: linha
 
 
-## OUTRAS NOTÍCIAS (só manchete) (142)
+## OUTRAS NOTÍCIAS (só manchete) (152)
 
+· UST Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week (TradingView (Reuters)) https://www.tradingview.com/news/stocktwits:b3c231cec094b:0-stocktwits-weekly-spread-what-shaped-treasury-yields-and-the-dollar-this-week/
+· NVDA What Is Physical AI? Nvidia Is the Stock I'd Buy to Own It. (Yahoo Finance) https://finance.yahoo.com/technology/ai/articles/physical-ai-nvidia-stock-id-000101758.html
+· VALE3 Vale sanciona Marcelo Gasparino por vazamento de informações confidenciais (Valor Economico) https://valor.globo.com/empresas/noticia/2026/10/09/vale-sanciona-marcelo-gasparino-por-vazamento-de-informacoes-confidenciais.ghtml
+· PETR4 Petrobras anuncia fim de desconto de R$ 0,44 da gasolina (CNN Brasil) https://www.cnnbrasil.com.br/infra/petrobras-anuncia-fim-de-desconto-de-r-044-da-gasolina/
+· UST US Equity Indexes Rise This Week as Broad-Based Rally Helps Offset Tech Declines While Treasury Yields Remain Elevated (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202315082.html
+· ITUB4 MRV gera R$ 435 milhões em caixa, mas operação no Brasil preocupa Itaú BBA (Estadao) https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mrv-tem-alivio-milionario-no-caixa-mas-problema-no-brasil-mantem-itau-bba-em-alerta/
+· MRVE3 MRV (MRVE3) dispara mais de 20% com vendas recordes; bancos fazem ressalvas (Investing.com) https://br.investing.com/news/stock-market-news/mrv-mrve3-dispara-mais-de-20-com-vendas-recordes-bancos-fazem-ressalvas-2088203
+· USDBRL Dólar casado piora e operadores de câmbio veem espaço para nova atuação do BC (Valor Economico) https://valor.globo.com/financas/intraday/post/2026/10/dolar-casado-piora-e-operadores-de-cambio-veem-espaco-para-nova-atuacao-do-bc.ghtml
+· SMAL11 Índice small caps salta mais de 20% e tem a melhor semana da história com as eleições (Bloomberg Linea) https://www.bloomberglinea.com.br/mercados/indice-small-caps-salta-mais-de-20-e-tem-a-melhor-semana-da-historia-com-as-eleicoes/?outputType=amp
+· LITE Lumentum CEO: Opto-Parts Capacity Sold Out to 2029 (Yahoo Finance) https://finance.yahoo.com/video/lumentum-ceo-opto-parts-capacity-013640075.html
 · USDBRL Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana (Agencia Brasil) https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana
 · BTC XRP ETFs Gain as Bitcoin and Ethereum Funds Lose $317 Million. Is It a Trend? (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/xrp-etfs-gain-bitcoin-ethereum-220022976.html
 · DI Juros futuros caem com ‘trade eleitoral’ e ignoram IPCA elevado (Money Times) https://www.moneytimes.com.br/juros-futuros-9-10-26-apsa/
@@ -193,14 +203,4 @@ id: E05-MU-67835dcf64-2026-10-09 · status: linha
 · PETR4 Sachsida diz que Flávio Bolsonaro não vai privatizar a Petrobras (eixos) https://eixos.com.br/politica/eleicoes/eleicoes-2026/sachsida-diz-que-flavio-bolsonaro-nao-vai-privatizar-a-petrobras/
 · BTC Hedge funds cut Bitcoin, brokerages load up in Q2: CoinShares report (Seeking Alpha) https://seekingalpha.com/news/4651832-hedge-funds-cut-bitcoin-brokerages-load-up-in-q2-coinshares-report
 · LITE Lumentum stock holds Outperform at Evercore on AI demand outlook (Investing.com) https://www.investing.com/news/analyst-ratings/lumentum-stock-holds-outperform-at-evercore-on-ai-demand-outlook-93CH-4941510
-· BBDC4 JPMorgan e UBS ficam mais otimistas com Bradesco após reestruturação (UOL Economia) https://economia.uol.com.br/noticias/redacao/2026/10/09/jpmorgan-e-ubs-ficam-mais-otimistas-com-bradesco-apos-reestruturacao.htm
-· PETR4 Governo 'faz uso eleitoreiro' da Petrobras, diz Flávio Bolsonaro (UOL Economia) https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/09/governo-faz-uso-eleitoreiro-da-petrobras-diz-flavio-bolsonaro.htm
-· BTC Can You Borrow Against Your Bitcoin Without Selling It? Costs and Risks You Should Know (Yahoo Finance) https://finance.yahoo.com/markets/crypto/articles/borrow-against-bitcoin-without-selling-173039744.html
-· PLTR How Much Growth Are You Paying For In Palantir Stock? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/much-growth-paying-palantir-stock-173002464.html
-· TSLA Tesla Stock Jumps as Shanghai Deliveries Rise for 11th Straight Month (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/tesla-stock-jumps-shanghai-deliveries-172457505.html
-· KO Pepsi beats estimates ahead of Coca-Cola’s October earnings report (Investing.com) https://www.investing.com/news/stock-market-news/pepsi-beats-estimates-ahead-of-cocacolas-october-earnings-report-93CH-4941525
-· JPM Three Things to Watch From JPMorgan, Goldman and Other Big Bank Earnings (The Wall Street Journal) https://www.wsj.com/video/three-things-to-watch-from-jpmorgan-goldman-and-other-big-bank-earnings/BF4B94DC-BA48-44C3-91B3-FD25DCA29F16
-· BABA Citi, Morgan Stanley Put Alibaba Back in Focus (TradingView (Reuters)) https://www.tradingview.com/news/gurufocus:e594d8544094b:0-citi-morgan-stanley-put-alibaba-back-in-focus/
-· BABA Alibaba Group Holding Limited Earnings and Revenue – BX:9988 (TradingView (Reuters)) https://www.tradingview.com/symbols/BX-9988/financials-earnings/?earnings-period=FQ&revenues-period=FQ
-· MRVL Marvell (MRVL) Is Aiming for $90B in Sales. Why Does It Trade Under 24 Times Earnings? (Yahoo Finance) https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-aiming-90b-sales-132516704.html
-· (+82 manchetes; lista completa em eventos/noticias.json)
+· (+92 manchetes; lista completa em eventos/noticias.json)

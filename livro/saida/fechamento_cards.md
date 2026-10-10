@@ -1,4 +1,4 @@
-## Fechamento do livro · sex 09/10 · 18h12 BRT
+## Fechamento do livro · sex 09/10 · 21h42 BRT
 
 ---
 
@@ -41,9 +41,9 @@
 | **DIRR3** | +6,4% | descolou do setor (construtoras de baixa renda +8,6% (mediana), DI F30 -17 bps; -2,2 p.p. da mediana); investigar antes de comentar | sem causa no dado |
 | **BABA** | +5,4% | notícia a conferir (TradingView (Reuters)): Alibaba's Earnings Turn May Be Underpriced | notícia (conferir) |
 | **SAPR4** | +5,2% | descolou do setor (energia e saneamento +0,8% (mediana), DI F35 -26 bps; 4,5 p.p. da mediana); investigar antes de comentar | sem causa no dado |
-| **LITE** | +5,2% | notícia a conferir (Investing.com): Lumentum stock holds Outperform at Evercore on AI demand outlook | notícia (conferir) |
-| **PLTR** | +5,2% | notícia a conferir (TradingView (Reuters)): Palantir Stocks Rise 2.4% as Goldman Backs Sovereign AI | notícia (conferir) |
-| **SMAL11** | +4,0% | investigar antes de comentar | sem causa no dado |
+| **LITE** | +5,2% | notícia a conferir (Yahoo Finance): Lumentum CEO: Opto-Parts Capacity Sold Out to 2029 | notícia (conferir) |
+| **PLTR** | +5,2% | notícia a conferir (Yahoo Finance): Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History | notícia (conferir) |
+| **SMAL11** | +4,0% | notícia a conferir (Bloomberg Linea): Índice small caps salta mais de 20% e tem a melhor semana da história com as eleições | notícia (conferir) |
 
 *Grau: setorial = andou com a cesta; driver = acompanhou a commodity do par; documento = fato relevante ou 8-K do dia; sem causa no dado = investigar antes de comentar.*
 
@@ -97,7 +97,7 @@ Nomes completos: **VWRA** Vanguard FTSE All-World UCITS ETF USD Accumulating · 
 | Ativo | últ | dia | 1 sem | 1 mês | 3 m | 6 m | 1 ano | YTD | 5 anos |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **QNTM** VanEck Quantum Computing | 28,58 | **+0,8** | -4,4 | -1,0 | -2,0 | +19 | +2,7 | +14 | - |
-| **QANT** iShares Quantum Computing | 5,97 | **-0,1** | -3,1 | -0,8 | -3,7 | +26 | - | +18 | - |
+| **QANT** iShares Quantum Computing | 5,97 | **+1,0** | -3,1 | -0,8 | -3,7 | +26 | - | +18 | - |
 | **WQTM** WisdomTree Quantum Computing | 36,63 | **-0,4** | -4,6 | -1,3 | -7,2 | +18 | +6,5 | +22 | - |
 | **WQTMUS** WisdomTree Quantum Computing Fund | 31,13 | **+0,1** | -4,2 | -2,7 | -10 | +16 | +2,8 | +20 | - |
 | **QTUM** Defiance Quantum ETF | 152,06 | **+0,8** | -2,6 | +3,2 | -1,3 | +31 | +37 | +40 | +218 |
@@ -199,8 +199,8 @@ Nomes completos: **QNTM** VanEck Quantum Computing UCITS ETF USD (Acc) · **QANT
 | **USDBRL** Dolar/Real | 4,9823 | **-0,8** | -4,5 | -2,5 | -3,0 | -2,2 | -6,6 | -9,0 | -9,5 |
 | **DXY** Indice Dolar DXY | 102,23 | **+0,1** | +0,3 | +3,5 | +1,2 | +3,6 | +2,7 | +4,0 | +8,7 |
 | **BRENT** Petroleo Brent | 104,43 | **+0,1** | +2,1 | +3,2 | +37 | +9,7 | +60 | +72 | +27 |
-| **BTC** Bitcoin _(parcial)_ | 82.500 | **+1,0** | -2,4 | +5,4 | +29 | +13 | -32 | -5,7 | +51 |
-| **ETH** Ethereum _(parcial)_ | 2.481 | **+0,4** | -7,0 | +0,6 | +38 | +11 | -43 | -16 | -28 |
+| **BTC** Bitcoin | 82.500 | **+1,0** | -2,4 | +5,4 | +29 | +13 | -32 | -5,7 | +51 |
+| **ETH** Ethereum | 2.481 | **+0,4** | -7,0 | +0,6 | +38 | +11 | -43 | -16 | -28 |
 | **MINERIO** Minerio de ferro 62% Fe CFR China _(D-1, 08/10)_ · mínima de 52 semanas | 90,98 | **-0,2** | -1,2 | -9,0 | -7,7 | -14 | -13 | -15 | -26 |
 
 **Brent em reais:** R$ 520,30 por barril (09/10) · dia -0,7% · 1 mês +0,6% · no ano +56% (Brent do 1º vencimento × dólar).
@@ -304,7 +304,7 @@ Inflação implícita 2029 5,38% · 2032 5,63% · 2031/32 (descasado) 5,51% · F
 
 ### Como ler
 
-**Relógios:** Yahoo 18h12 · DI ajuste D0 · Tesouro base 08/10 · UST CMT D0 · PTAX 09/10
+**Relógios:** Yahoo 21h42 · DI ajuste D0 · Tesouro base 08/10 · UST CMT D0 · PTAX 09/10
 **Lacunas:** nenhuma perna falhou.
 **IUAA:** NAO e renda fixa ultracurta: cai ~6% a cada +100 bps na curva. Ler junto com UST 10y/30y. Caixa em dolar e o IB01.
 **Hipótese:** **EWY** iShares MSCI South Korea ETF · **MCHI** iShares MSCI China ETF — ETFs dos EUA, a confirmar.

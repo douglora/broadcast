@@ -1,4 +1,4 @@
-ALERTAS · eventos
+ALERTAS · Fechamento 18h
 
 (pendente de slot anterior) [CRÍTICO] CURVA · C01 A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F29 -152 bps em 5 pregões (ajuste B3 09/10) / C02 Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou mais) · F35-F28 inverteu (cruzou zero) · F30-F28 -15 bps no dia: bull flattening (longo fechou mais) / C03 DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões: 12,22% · F32 cruzou 12,50% (para baixo, agora 12,30%)
 DI F28 12,53 (-2) · F29 12,22 (-9) · F30 12,22 (-17) · F32 12,30 (-23) · F35 12,35 (-26)
@@ -49,21 +49,16 @@ Fonte: TradingView (Reuters) 09/10 17h24
 ids: E05-KO-36a8a0b554-2026-10-09
 
 Info (só linha no Fechamento):
-· E05 USDBRL · Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana
-· E05 BTC · XRP ETFs Gain as Bitcoin and Ethereum Funds Lose $317 Million. Is It a Trend?
-· E05 DI · Juros futuros caem com ‘trade eleitoral’ e ignoram IPCA elevado
-· E05 USDBRL · Dólar fecha abaixo de R$ 5 e cai 4,44% na semana; até onde vai a queda?
-· E05 GOOGL · Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?
-· E05 PETR4 · Petrobras vê Belém como base de apoio a possível polo petrolífero no Amapá
-· E05 KO · Should Coca-Cola’s Upgraded Outlook and Prebiotic Push Require Action From Coca-Cola (KO) Investors?
-· E05 BTC · Weekly Wrap: Rising Treasury Yields Sink Bitcoin
-· E05 USDBRL · Semana fecha com topo histórico, dólar derrete com trade eleitoral
-· E05 USDBRL · Ibovespa tem nova alta forte e renova máxima histórica; dólar cai a R$ 4,98
-· E05 BTC · IBIT: A Strategic Bet On A Bitcoin Comeback (NASDAQ:IBIT)
-· E05 PLTR · Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History
-· E05 LITE · Lumentum: At The Point Of A Potential Upside Breakout
-· E05 NVDA · NVIDIA's Rally in Trouble? Analyst Warns of Bull Trap
-· E05 JPM · JPMorgan, Citigroup, And Bank Of America Earnings Previews: Eventually A Return To More Normal Growth
+· E05 UST · Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week
+· E05 NVDA · What Is Physical AI? Nvidia Is the Stock I'd Buy to Own It.
+· E05 VALE3 · Vale sanciona Marcelo Gasparino por vazamento de informações confidenciais
+· E05 PETR4 · Petrobras anuncia fim de desconto de R$ 0,44 da gasolina
+· E05 UST · US Equity Indexes Rise This Week as Broad-Based Rally Helps Offset Tech Declines While Treasury Yields Remain Elevated
+· E05 ITUB4 · MRV gera R$ 435 milhões em caixa, mas operação no Brasil preocupa Itaú BBA
+· E05 MRVE3 · MRV (MRVE3) dispara mais de 20% com vendas recordes; bancos fazem ressalvas
+· E05 USDBRL · Dólar casado piora e operadores de câmbio veem espaço para nova atuação do BC
+· E05 SMAL11 · Índice small caps salta mais de 20% e tem a melhor semana da história com as eleições
+· E05 LITE · Lumentum CEO: Opto-Parts Capacity Sold Out to 2029
 · T08 INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) a US$ 104,70
 · T06 PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 dias
 · T06 RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 dias
@@ -76,12 +71,12 @@ Info (só linha no Fechamento):
 Suprimidos pelo teto (viram linha do Fechamento): T08-INTC--25-2026-10-09 (teto diário de críticos), T06-PLTR-alta-2026-10-09 (teto de atenção), T06-RARA11-queda-2026-10-09 (teto de atenção), T06-CURY3-alta-2026-10-09 (teto de atenção), T09-MRVE3-alta-2026-10-09 (teto de atenção), T10-SAPR4-máximo-2026-10-09 (teto de atenção), T10-KLBN4-mínimo-2026-10-09 (teto de atenção), T10-MRVE3-máximo-2026-10-09 (teto de atenção)
 
 Alertas do dia (todos, com status):
-· pendente  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
-· pendente  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
+· expirado  C01 DI — A curva FECHOU: F28 -98 bps em 5 pregões · F28 8 pregões seguidos (-115 bps) · F
+· expirado  T05 MRVE3 — MRVE3 +22% no dia a R$ 7,82: movimento de 6,0 desvios para uma vol de 20 dias de
 · linha     T08 INTC — INTC entrou em queda de -25% do pico: -26% do pico de 52s (US$ 140,94 em 22/06) 
-· pendente  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
-· pendente  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões
-· pendente  T05 PLTR — PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias
+· expirado  C02 DI — Inclinação da curva DI: F35-F28 -24 bps no dia: bull flattening (longo fechou ma
+· expirado  C03 DI — DI em nível: F29 na mínima de 252 pregões: 12,22% · F30 na mínima de 252 pregões
+· expirado  T05 PLTR — PLTR +5,2% no dia a US$ 209,05: movimento de 3,5 desvios para uma vol de 20 dias
 · linha     T06 PLTR — PLTR +11% em 5 sessões a US$ 209,05: movimento de 3,2 desvios para a vol de 20 d
 · linha     T06 RARA11 — RARA11 -8,3% em 5 sessões a R$ 13,58: movimento de 2,6 desvios para a vol de 20 
 · linha     T06 CURY3 — CURY3 +23% em 5 sessões a R$ 34,52: movimento de 2,9 desvios para a vol de 20 di
@@ -89,8 +84,8 @@ Alertas do dia (todos, com status):
 · linha     T10 SAPR4 — SAPR4 no máximo de força relativa em 63 sessões contra IBOV: +28% vs +12% em 20 
 · linha     T10 KLBN4 — KLBN4 no mínimo de força relativa em 63 sessões contra IBOV: -5,7% vs +12% em 20
 · linha     T10 MRVE3 — MRVE3 no máximo de força relativa em 63 sessões contra IBOV: +36% vs +12% em 20 
-· pendente  E05 USDBRL — USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na sema
-· pendente  E05 KO — KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
+· expirado  E05 USDBRL — USDBRL · Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na sema
+· expirado  E05 KO — KO · Coca-Cola Consolidated Announces Fourth Quarter Dividend
 · expirado  E05 KO — KO · Coca-Cola Consolidated declares $0.25 quarterly dividend By Investing.com
 · entregue  E05 USDBRL — USDBRL · Tempo real: Ibovespa sobe aos 209 mil pontos e renova recorde intradia 
 · entregue  E05 BTC — BTC · Bitcoin steadies near $82,500 after Trump rules out Iran strike before mid
@@ -116,4 +111,4 @@ Alertas do dia (todos, com status):
 · linha     T10 IGV — IGV no máximo de força relativa em 63 sessões contra SPX: +11% vs +2,0% em 20 se
 · linha     T10 LITE — LITE no máximo de força relativa em 63 sessões contra SOX: +19% vs +6,3% em 20 s
 · linha     F01 USDBRL — Real sobe: USD/BRL 4,9823 (-4,5% em 5 sessões · cruzou R$ 5,00) (parcial, intrad
-· (+145 notícias só manchete, em noticias.md)
+· (+155 notícias só manchete, em noticias.md)
