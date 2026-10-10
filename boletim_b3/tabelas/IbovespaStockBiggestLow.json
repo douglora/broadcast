@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-08",
+ "pregao": "2026-10-09",
  "nome": "IbovespaStockBiggestLow",
  "titulo": "Ações do IBOVESPA - maiores baixas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "OscillationDesc", "titulo": "Oscilação (%)"}],
  "texto": ["Lista as ações do IBOVESPA que apresentaram as maiores quedas de preços em um período."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-08T23:30:27.323",
+ "atualizado_em": "2026-10-09T23:30:17.987",
  "truncada": false,
  "linhas": [
-  ["BEEF3", "ON      NM", 4.42, -3.91],
-  ["TEND3", "ON      NM", 29.49, -2.54],
-  ["CURY3", "ON      NM", 31.48, -2.44],
-  ["HYPE3", "ON  EJ  NM", 26.7, -2.26],
-  ["GOAU4", "PN      N1", 11.2, -2.09],
-  ["BBDC4", "PN  EJ  N1", 21.51, -2.04],
-  ["BRAP4", "PN      N1", 20.67, -1.8],
-  ["BBDC3", "ON  EJ  N1", 18.95, -1.76],
-  ["GGBR4", "PN      N1", 24.77, -1.74],
-  ["VALE3", "ON      NM", 67.64, -1.61]
+  ["VIVT3", "ON", 30.35, -5.24],
+  ["TIMS3", "ON      NM", 18.1, -4.18],
+  ["AURE3", "ON      NM", 15.59, -2.92],
+  ["CXSE3", "ON      NM", 20.87, -2.47],
+  ["KLBN11", "UNT     N2", 18.13, -2],
+  ["VBBR3", "ON      NM", 36.88, -1.78],
+  ["ISAE4", "PN  EJ  N1", 29.32, -1.69],
+  ["ABEV3", "ON", 15.99, -0.99],
+  ["CMIN3", "ON      N2", 5.01, -0.98],
+  ["SANB11", "UNT", 28.83, -0.85]
  ]
 }

@@ -1,7 +1,7 @@
 # Boletim da B3: pregão de 09/10/2026 (sexta)
 
 **Situação: PARCIAL.** Ainda sem: posições em aberto (opções e futuros), saldo de aluguel, empréstimos do dia, quadro de posições em aberto. A B3 publica esses blocos na madrugada seguinte ao pregão; a rodada da manhã completa.
-Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-10T00:53:36Z (UTC).
+Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10-10T06:22:20Z (UTC).
 
 [[LEITURA_DA_MESA]]
 
@@ -19,7 +19,7 @@ Fonte: B3, Boletim Diario do Mercado (arquivos.b3.com.br/bdi). Gerado em 2026-10
 - **Crédito: prêmio alto.** CRA02400AHZ (Riza Securitizadora, CRA): negociada a IPCA+ 15,08%, 847 pb acima do juro real de mercado de prazo equivalente, em R$ 5,8 mi. _(B3, Trade + InstrumentRegistration (preliminar), 09/10)_
 - **Fluxo estrangeiro.** Estrangeiro vendeu R$ 628 mi líquidos em 07/10; no mês, até 07/10, saldo de +R$ 13.075 mi. _(B3, SharesInvesVolum, 07/10)_
 - **Juros.** A curva de juros fechou: DI1F30 −17 pb, para 12,22%, DI1F32 −23 pb, para 12,30%, DI1F35 −26 pb, para 12,35%. _(B3, TradeInformationConsolidated, 09/10)_
-- **Listas do dia.** Do livro nas listas do boletim: maiores altas do mercado: MRVE3 (5º); mais negociadas à vista: PETR4 (1º), SMAL11 (2º), ITUB4 (3º), VALE3 (4º), BBDC4 (5º); calls mais negociadas: SMALL140 (1º), SBSPJ294 (2º), SMALL145 (3º), SBSPJ319 (4º); puts mais negociadas: BBDCV214 (3º), SMALW129 (4º), BBDCV230 (5º). _(B3, tabelas de maiores oscilacoes, 09/10)_
+- **Listas do dia.** Do livro nas listas do boletim: maiores altas do Ibovespa: DIRR3 (1º), CURY3 (7º), MRVE3 (10º); maiores altas do mercado: MRVE3 (5º); mais negociadas à vista: PETR4 (1º), SMAL11 (2º), ITUB4 (3º), VALE3 (4º), BBDC4 (5º); calls mais negociadas: SMALL140 (1º), SBSPJ294 (2º), SMALL145 (3º), SBSPJ319 (4º); puts mais negociadas: BBDCV214 (3º), SMALW129 (4º), BBDCV230 (5º). _(B3, tabelas de maiores oscilacoes, 09/10)_
 
 **Já vinham de pregões anteriores**
 
@@ -216,16 +216,11 @@ Por classe, mediana das taxas de referência dos papéis. Taxa de referência: n
 - empréstimos do dia: aguardando
 - aluguel por corretora: ignorado
 - Custody: aguardando
-- DIover: aguardando
 - posições em aberto (opções e futuros): aguardando
-- IbovespaStockBiggestHighs: aguardando
-- IbovespaStockBiggestLow: aguardando
-- ProventionCreditVariable: aguardando
 - Register: aguardando
 - RepurchaseDealings: aguardando
 - Stock: aguardando
 - Posição em aberto de derivativos por tipo de investidor (estrangeiro, institucional, pessoa física): não existe no Boletim Diário do Mercado; procurado nas 69 tabelas e no texto dos 11 cadernos em 30/09/2026.
 - Fluxo por tipo de investidor sai acumulado no mês e com dois pregões de atraso; o saldo de um dia é a diferença entre dois acumulados seguidos.
-- Carteira de índice: a B3 não publicou a tabela neste pregão; valem os pesos de 08/10.
 - RARA11: a B3 não publica valor de referência da cota (IOPV) para este ETF no boletim.
 - Paridade de MELI34: sem a barra de 09/10 de MELI nas séries do livro.
