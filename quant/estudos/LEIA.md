@@ -166,3 +166,12 @@ e o BOVA11. Quatro frentes (~15 mil medicoes): NENHUMA regra aprovada. O detalhe
 - Conta que foi dita ao Douglas: com perda maxima de 1% ao dia, um sistema excelente rende cerca de 0,1% ao dia; 0,5% pede
   oscilar uns 4% ao dia. Somando as tres rodadas: mais de 30 mil medicoes em 5 anos, tres mercados, UMA regra aprovada
   (reversao do dado americano no mini-dolar), que rende 0,01% a 0,04% ao dia com 2 contratos.
+
+## 09/10/2026, 22h: quarta rodada, modelo multifator
+
+Pedido do Douglas: "continue so no day trade, mas multifatores agora... achar alguma assimetria com os dados e entrar, e ai
+vamos refinando". Desenho em `quant/saida/pesquisa5/BRIEF_4.md`; resultado de cada mercado em `quant/pesquisa/FILA.md`
+(secao "Testadas"). Nenhuma candidata: a soma dos efeitos pequenos nao paga o custo em nenhum dos tres mercados. No
+mini-indice a soma so reencontra o fim do pregao; no mini-dolar, o dado americano (ja aprovado) e o fim do pregao; nas
+acoes o sinal e real (t 6,8) e 5 a 10 vezes menor que o custo. Os modelos ficaram com `modelo.py::sinais(parte)` prontos
+para rodar em dado novo.

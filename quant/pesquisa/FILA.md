@@ -6,15 +6,6 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
 
 ## A testar
 
-1. Reversao de HORAS depois de evento com hora marcada, alem do dado das 8h30 de NY: decisao do Fed (15h ou 16h de Brasilia
-   conforme o horario de verao dos EUA), dado das 10h de NY, abertura da bolsa de NY (9h30 de la). Mesma forma do setup
-   proprio: reacao dos 2 a 5 primeiros minutos, entrar contra, segurar 60 a 120 minutos. (Frente calendario: "a reversao
-   util e de horas, nao de minutos".)
-2. Tarde de dia coerente: juros (DI27/DI29), mini-indice e dolar na mesma direcao de risco desde a abertura; o dolar
-   continua das 12h30 as 17h00? (Frente intermercado: +5,5 pontos nos dias de aversao, t 2,3, n 111: fraco, reavaliar com
-   regime definido antes.) Exige outros ativos: se passar, fica como candidata sem ir ao vivo ate haver barras ao vivo deles.
-3. Primeira meia hora grande continua de 13h00 a 17h20 (+4,2 pontos, t 3,0 na frente regime; nao se sustentou com limiar
-   fixo): testar com limiar em desvios da volatilidade dos 20 pregoes anteriores.
 4. Manha de volatilidade alta (pista da frente maquina: o pouco que ha de previsivel vive ali): repetir a regra do setup
    proprio e as reversoes de barra grande so nos dias em que a faixa dos primeiros 15 minutos esta no tercil alto dos 20
    pregoes anteriores.
@@ -37,6 +28,12 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    25, stop 500, janela 09:00-18:30). Se a prova viva juntar 60+ negocios com media positiva e t >= 2, vira pedido de estudo.
 10. O mesmo empurrao do fim do dia no mini-dolar (pista da familia win_estrutura: +R$ 8,50 por negocio, t 1,6, 7 de 7
    semestres, N=50, tempo=40, stop=60): so depois de a prova viva do indice dizer se o efeito ainda existe.
+
+11. Continuacao (nao reversao) depois do dado das 10h de NY (pista da noite de 09/10, nao prevista): medindo a reacao em 5
+   minutos (nao em 2), o preco CONTINUA na direcao da reacao por 60 a 120 minutos (bruto +2,0 a +2,7 pontos, t 1,9 a 2,1, n
+   287, 3 de 4 anos). Mecanismo: dado de 10h (ISM, confianca, vendas) traz informacao que o mercado leva minutos para
+   digerir, ao contrario do dado das 8h30, que e exagerado. Testar com lab.avaliar, parametros redondos (r=5, thr=5, stop 40,
+   tempo 120), t por pregao; se nao for candidata na descoberta, nao vai a validacao.
 
 ## Testadas
 
@@ -79,3 +76,34 @@ quant/saida/pesquisa5/{win_eventos,win_estrutura,acoes_eventos,acoes_relativo}/R
 - Dado: as series de acoes do MetaTrader sao AJUSTADAS por diferenca (o nivel antigo das pagadoras de dividendo fica
   deslocado: PETR4 a R$ 8,43 em out/2021); medir em reais normalizados ou em 2023-24. A ultima barra das acoes traz o preco
   do leilao de fechamento: cortar essa barra e as 3 anteriores.
+
+(09/10/2026, 21h-22h) Quarta rodada: MULTIFATOR (quant/saida/pesquisa5/BRIEF_4.md; notas e `modelo.py::sinais(parte)` em
+quant/saida/pesquisa5/{multi_win,multi_wdo,multi_acoes}/). Soma de 18 a 68 fatores por mercado, regressao ridge com pesos
+reestimados todo mes sobre 18 meses, medida so fora da amostra (04/2023 a 12/2024, 436 pregoes). Nenhuma candidata.
+- Mini-indice: correlacao previsao x retorno 0,063 (t 3,8), mas toda ela vem do fim do pregao (tendencia do dia + distancia
+  ao fim); barra grande, valor justo e "dolar na frente" somam zero (correlacao -0,003 a +0,009). Melhor regra: 206
+  negocios, +R$ 12,26 (t 2,5), R$ 5,80 por pregao; a regra simples do fim do dia rende o dobro na mesma janela (e falhou
+  em 2025). Cauda de 1%: +19,7 pontos liquidos (t 2,5).
+- Mini-dolar: correlacao 0,022 a 0,024; caudas liquidas negativas no desenho do plano. Melhor soma (v3, H60, K2): 98
+  negocios, +R$ 67,60 (t por pregao 1,9), mas 43 deles coincidem com a regra aprovada do dado; sem eles +R$ 34,70 (t 1,1).
+  O que carrega: dado de NY e o empurrao do fim do pregao. Valor justo, barra grande e fluxo do cheio somam zero.
+- Acoes (painel de 14 ativos): correlacao 0,036 (t 6,8, real e estavel), mas a cauda rende 1,3 a 2,7 pontos-base brutos
+  contra 11 a 14 de custo; com a regra de 2 ou 3 vezes o custo o modelo nao abre nenhum negocio.
+- Conclusao: os efeitos pequenos nao se somam; cada um ja e quase tudo o que ha. A unica assimetria que aparece de novo e o
+  empurrao do fim do pregao (indice e dolar), que mudou de sinal em 2025: vai para a prova viva (item 9 de "A testar").
+
+(09/10/2026, rotina da noite) Itens 1, 2 e 3 da fila, so na descoberta (805 pregoes; scripts em
+quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
+- Item 1, reversao de horas depois de evento de NY (abertura da bolsa 9h30, dados das 10h, Fed 14h so em dias de FOMC;
+  reacao de 2 e 5 minutos, limiares de 3 e 5 pontos e de 1,5 vez a media; saida em 30/60/120 min; 54 triagens brutas):
+  MORTA. Abertura de NY: +0,6 a +2,1 pontos brutos, t no maximo 1,5, sinal troca de ano para ano. Dados das 10h com
+  reacao de 2 minutos: t no maximo 1,0. Fed: so 16 a 21 dias, sem amostra. Pista nao prevista: dados das 10h medidos em 5
+  minutos CONTINUAM (nao revertem), t -2,1 no sentido contrario ao testado: virou item 11 de "A testar".
+- Item 2, tarde de dia coerente (dolar, juros DI27/DI29 e mini-indice no mesmo sentido desde a abertura; dolar continua das
+  12h30 as 17h00; 363 dias com sinal; 4 variantes): MORTA. Bruto -0,5 a +1,3 pontos, t no maximo 0,95, e a regra coerente
+  nao supera o controle que olha so o dolar (+0,2 a +0,4 pontos, t 0,3 a 0,8). Coerencia nao acrescenta nada.
+- Item 3, primeira meia hora grande continua de 13h00 a 17h20 (limiar normalizado em z = reacao / media dos 20 pregoes
+  anteriores; z de 1,0, 1,5 e 2,0; 12 triagens + 2 simulacoes): MORTA. Na triagem bruta so z >= 1,0 aparece (+2,3 pontos
+  em 120 min, t 2,5, n 323), sem dose-resposta (z >= 2,0 e mais fraco). Com custo, stop 40 e saida em 120 min: +R$ 11,55
+  por negocio (t 0,6, 3 de 7 semestres); saindo as 17h20: +R$ 38,14 (t 1,5, 5 de 7 semestres, 2023S2 -R$ 98). Nao e
+  candidata (pedia t 3). sem_futuro: passou.
