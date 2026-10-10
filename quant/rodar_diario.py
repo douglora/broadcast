@@ -472,6 +472,64 @@ def _medidas_kill(desempenho, dados, mes):
             "universo": uni}
 
 
+def bloco_regime(ibov=None, hoje=None):
+    """Leitura de regime do Ibovespa para o cartao "Regime do mercado" da tela. SO INFORMACAO: nao mexe na carteira nem
+    na protecao. O Douglas pediu em 10/10/2026 que o robo lesse o momento do mercado (alta ou baixa) para dosar acoes e
+    venda de indice; o teste de 2012 a 2015 mostrou que mexer na protecao por esta leitura PIOROU o resultado
+    (quant/saida/pesquisa_carteira/RESULTADO.md), entao ela fica medida e a vista, como as leituras "so medido" do robo
+    de day trade, ate haver evidencia. `ibov`: DataFrame (data, fec); sem ele, baixa do Yahoo. Devolve None sem dado."""
+    import pandas as pd
+
+    from quant import carteira as ct
+    from quant import regime as rg
+    from quant.dados import mercado
+    from quant.execucao import protecao
+    try:
+        if ibov is None:
+            fim = pd.Timestamp(hoje).date() if hoje is not None else agora_brt().date()
+            ibov = mercado.baixar_ibov_yahoo(ini=fim - pd.Timedelta(days=900), fim=fim)
+        if ibov is None or len(ibov) < rg.JANELA_PICO + rg.CONFIRMACAO + 5:
+            return None
+        s = pd.Series(pd.to_numeric(ibov["fec"], errors="coerce").to_numpy(), index=pd.to_datetime(ibov["data"])).dropna().sort_index()
+        d = rg.detectar(s)
+        ok = d.dropna(subset=["estado"])
+        if not len(ok):
+            return None
+        u = ok.iloc[-1]
+        mesmo = (ok["estado"] == u["estado"]).to_numpy()
+        estado = str(u["estado"]).lower()                  # a tela usa alta | neutro | baixa
+        i = len(mesmo) - 1
+        while i > 0 and mesmo[i - 1]:
+            i -= 1
+        ultimo = float(s.loc[ok.index[-1]])
+        ml, mc = float(s.rolling(rg.JANELA_LONGA).mean().iloc[-1]), float(s.rolling(rg.JANELA_CURTA).mean().iloc[-1])
+        r12 = float(s.iloc[-1] / s.iloc[-1 - rg.JANELA_MOM] - 1.0) if len(s) > rg.JANELA_MOM else None
+        pico = float(s.iloc[-1] / s.rolling(rg.JANELA_PICO).max().iloc[-1] - 1.0)
+        pts = lambda x: f"{x:,.0f}".replace(",", ".")                     # noqa: E731
+        pct = lambda x: f"{x * 100:+.1f}%".replace(".", ",")              # noqa: E731
+        fav = lambda v: "a favor da alta" if v == 1.0 else "contra"       # noqa: E731
+        votos = int(u["soma_votos"]) if pd.notna(u["soma_votos"]) else None
+        nomes = {"alta": "ALTA", "neutro": "NEUTRO", "baixa": "BAIXA"}
+        return {
+            "estado": estado, "desde": str(ok.index[i].date()), "data": str(ok.index[-1].date()), "votos": votos,
+            "so_informacao": True,
+            "texto": (f"Leitura {nomes.get(estado, estado.upper())}: {votos} de 4 sinais de tendência do Ibovespa a favor da alta. "
+                      "É só informação: no teste de 2012 a 2015, aumentar ou zerar a proteção por esta leitura piorou o "
+                      "resultado, então a carteira segue com 70% em ações e a venda de índice em metade do valor delas."),
+            "exposicao_acoes_pct": round(ct.EXPOSICAO_ALVO * 100.0, 1), "protecao_pct": round(protecao.RAZAO * 100.0, 1),
+            "indicadores": [
+                {"nome": "Ibovespa contra a média de 200 pregões", "valor": f"{pts(ultimo)} contra {pts(ml)}", "leitura": fav(u["acima_media_longa"])},
+                {"nome": "Média de 50 contra a de 200 pregões", "valor": f"{pts(mc)} contra {pts(ml)}", "leitura": fav(u["media_curta_acima"])},
+                {"nome": "Retorno de 12 meses", "valor": pct(r12) if r12 is not None else "sem dado", "leitura": fav(u["mom12_positivo"])},
+                {"nome": "Distância da máxima de 12 meses", "valor": pct(pico), "leitura": fav(u["perto_do_pico"])},
+            ],
+            "fonte": "Ibovespa diário (Yahoo); detector em quant/regime.py",
+        }
+    except Exception as e:                                  # a leitura e enfeite: nunca derruba a rodada da manha
+        log(f"regime: sem leitura ({type(e).__name__}: {e})")
+        return None
+
+
 def gravar_painel(painel, caminho=ARQ_PAINEL):
     garantir_dir(os.path.dirname(caminho))
     gravar_json(caminho, painel)
@@ -494,6 +552,9 @@ def main(argv=None):
     log(motivo_gate)
     painel = rodar(modo=modo, capital=args.capital, data=args.data, seed=args.seed,
                    gate_passou=passou)
+    regime = bloco_regime(hoje=args.data)
+    if regime is not None:
+        painel["regime"] = regime
     caminho = gravar_painel(painel)
     ms = painel["modo_seguro"]
     log(f"painel em {caminho} (origem: {painel['origem']}, modo: {modo})")

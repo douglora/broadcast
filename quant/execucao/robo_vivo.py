@@ -40,7 +40,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 from quant.comum import DIR_SAIDA, agora_brt, garantir_dir, gravar_atomico, ler_json, log
-from quant.execucao import paper, paper_vivo
+from quant.execucao import paper, paper_vivo, protecao
 
 MOTOR = os.environ.get("QUANT_MOTOR", "http://127.0.0.1:8930")
 INTERVALO = 2.0
@@ -68,8 +68,9 @@ ABERTURA, FECHAMENTO, FIM_PROCESSO = "10:00", "17:00", "18:30"
 ATIVO_HEDGE = "WINFUT"
 MULTIPLICADOR_WIN = 0.20          # R$ por ponto do mini-indice
 DIARIO_MAX = 200
-NOTA_HEDGE = ("Proteção parcial: mini-índice vendido. Entrada simulada no primeiro preço do contrato "
-              "depois do envio da boleta; sem custo de rolagem ainda.")
+NOTA_HEDGE = ("Proteção parcial: mini-índice vendido, proporcional às ações já compradas (metade do valor delas, em "
+              "contratos inteiros, nunca mais que o valor das ações). Carregada de um dia para o outro; sem custo de "
+              "rolagem ainda.")
 TOLERANCIA_PRECO_MEDIO = 0.01     # preco medio do ciclo a mais de 1% do ultimo: usa o ultimo
 SALTO_FRACAO_ADTV = 0.25          # salto de volume acima disto do giro medio, de um retrato para o outro, e descartado
 SALTO_JANELA_S = 120.0            # "de um retrato para o outro": leituras a menos de 2 minutos
@@ -252,7 +253,13 @@ class Robo:
         adtv = {str(o.get("ticker")): _num(o.get("adtv")) for o in (self.boleta_do_dia.get("ordens") or [])}
         self.leitor = Leitor([t for t in tickers if t], salvo.get("ultimo"), adtv)
         self.diario = list(salvo.get("diario") or [])
-        self.hedge = salvo.get("hedge")
+        # Protecao em mini-indice (quant/execucao/protecao.py): o estado do dia vem do arquivo do dia; em pregao novo, do
+        # caderno que carrega contratos, preco de referencia e resultado acumulado de um pregao para o outro.
+        self.arq_protecao = os.path.join(DIR_VIVO, "protecao.json")
+        h = salvo.get("hedge")
+        if not (isinstance(h, dict) and "resultado_hoje" in h):
+            h = protecao.nova(ler_json(self.arq_protecao, padrao=None), self.hoje)
+        self.hedge = h
         self.executado_ant = dict(salvo.get("executado") or {})
         self.marcos = set(salvo.get("marcos") or [])
         self.desde = salvo.get("desde") or agora_brt().isoformat(timespec="seconds")
@@ -321,7 +328,8 @@ class Robo:
                 self.sessao.aplicar(novos)
         if emitida:
             self._marcos_do_dia(agora, fase, hora_envio)
-            self._hedge(retrato, agora, fase)
+        self._hedge(retrato, agora, fase)           # sempre: contrato carregado de ontem e marcado mesmo sem boleta hoje
+        if emitida:
             self._anotar_execucoes(agora)
         self._frescor_do_feed()
         estado = self.estado(agora, fase, retrato)
@@ -376,33 +384,82 @@ class Robo:
                        + " (até o leilão de fechamento; o after-market não conta)."
                        + " A medição oficial sai com a fita da B3, depois das 20h.", agora)
 
+    def _valor_acoes(self, retrato):
+        """Valor de mercado das acoes carregadas agora: o que veio de ontem mais o que executou hoje."""
+        q = (retrato or {}).get("q") or {}
+        pos = {}
+        for x in ((self.painel.get("carteira") or {}).get("posicoes") or []):
+            qtd = int(_num(x.get("qtd")) or 0)
+            if qtd > 0 and x.get("ticker"):
+                pos[x["ticker"]] = [qtd, _num(x.get("preco_medio")) or 0.0]
+        for o in self.sessao.estado()["ordens"]:
+            if o["executado"] <= 0 or o.get("preco_medio") is None:
+                continue
+            p = pos.setdefault(o["ticker"], [0, o["preco_medio"]])
+            p[0] += o["executado"] if o["lado"] == "C" else -o["executado"]
+        total = 0.0
+        for t, (qtd, medio) in pos.items():
+            if qtd <= 0:
+                continue
+            preco = self.leitor.precos.get(t)
+            if preco is None:
+                c = q.get(t)
+                preco = _num(c[I_ULT]) if isinstance(c, list) and c else None
+            total += (preco if preco is not None else medio) * qtd
+        return total
+
     def _hedge(self, retrato, agora, fase):
-        h = self.boleta_do_dia.get("hedge")
-        if not isinstance(h, dict) or not h.get("contratos"):
-            return
+        """Protecao em mini-indice, proporcional as acoes ja compradas (regras em quant/execucao/protecao.py)."""
+        h = self.hedge
+        hb = self.boleta_do_dia.get("hedge")
+        emitida = bool(self.boleta_do_dia.get("emitida"))
+        h["nota"] = NOTA_HEDGE                      # o texto e do codigo, nao do estado salvo
+        if isinstance(hb, dict):
+            h["vencimento"] = hb.get("vencimento") or h.get("vencimento")
+            h["motivo"] = hb.get("motivo") or h.get("motivo")
         c = ((retrato or {}).get("q") or {}).get(ATIVO_HEDGE)
         preco = _num(c[I_ULT]) if isinstance(c, list) and c else None
         ts = _num(c[I_HORA]) if isinstance(c, list) and len(c) > I_HORA else None
         de_hoje = ts is not None and datetime.fromtimestamp(ts, agora.tzinfo).strftime("%Y-%m-%d") == self.hoje
-        if self.hedge is None:
-            self.hedge = {"ativo": ATIVO_HEDGE, "contratos": int(h.get("contratos") or 0), "lado": "V",
-                          "motivo": h.get("motivo"), "vencimento": h.get("vencimento"),
-                          "preco_entrada": None, "hora": None, "preco_mercado": None, "aberto": None,
-                          "multiplicador": MULTIPLICADOR_WIN,
-                          "nota": NOTA_HEDGE}
-        self.hedge["nota"] = NOTA_HEDGE            # o texto e do codigo, nao do estado salvo
         if preco is None or not de_hoje:
             return
-        if self.hedge["preco_entrada"] is None and fase == "operando":
-            self.hedge["preco_entrada"] = preco
-            self.hedge["hora"] = agora.strftime("%H:%M:%S")
-            pontos = f"{preco:,.0f}".replace(",", ".")
-            self.anotar("fill", f"Proteção: {self.hedge['contratos']} contrato(s) de mini-índice vendido(s) a "
-                                f"{pontos} pontos", agora)
-        self.hedge["preco_mercado"] = preco
-        if self.hedge["preco_entrada"] is not None:
-            self.hedge["aberto"] = round((self.hedge["preco_entrada"] - preco) * MULTIPLICADOR_WIN
-                                         * self.hedge["contratos"], 2)
+        valor = self._valor_acoes(retrato)
+        if emitida and fase == "operando":
+            # boleta do dia sem protecao (0 contratos): zera; sem o bloco de protecao na boleta: nao mexe
+            permitido = not isinstance(hb, dict) or int(hb.get("contratos") or 0) > 0
+            if isinstance(hb, dict):
+                atual = int(h.get("contratos") or 0)
+                alvo = protecao.contratos_alvo(valor, preco, atual, permitido=permitido)
+                if alvo != atual:
+                    d, realizado = protecao.mover(h, alvo, preco, agora.strftime("%H:%M:%S"))
+                    pontos = f"{preco:,.0f}".replace(",", ".")
+                    acoes = f"{valor:,.0f}".replace(",", ".")
+                    if d > 0:
+                        self.anotar("fill", f"Proteção: {d} contrato(s) de mini-índice vendido(s) a {pontos} pontos "
+                                            f"(ações compradas: R$ {acoes}; vendido agora: {alvo}).", agora)
+                    else:
+                        res = f"{realizado:+,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+                        porque = ("a boleta de hoje veio sem proteção" if not permitido
+                                  else f"ações carregadas em R$ {acoes}: o valor vendido não pode passar disso")
+                        self.anotar("fill", f"Proteção reduzida: {-d} contrato(s) recomprado(s) a {pontos} pontos, "
+                                            f"resultado R$ {res} ({porque}; vendido agora: {alvo}).", agora)
+        protecao.marcar(h, preco, valor)
+        try:
+            gravar_atomico(self.arq_protecao, json.dumps(protecao.caderno_de(h, self.hoje), ensure_ascii=False))
+        except OSError as e:
+            log(f"protecao: nao gravei o caderno ({type(e).__name__}: {e})")
+
+    def _bloco_protecao(self):
+        """O cartao "Protecao em mini-indice" da tela (modulo MULTIFATORIAL)."""
+        h = self.hedge or {}
+        cob = _num(h.get("cobertura"))
+        return {"contrato": h.get("vencimento") or ATIVO_HEDGE, "contratos": int(h.get("contratos") or 0), "lado": "V",
+                "entrada": h.get("preco_entrada"), "hora": h.get("hora"), "carregado": bool(h.get("carregado")),
+                "stop": None, "ultimo": h.get("preco_mercado"), "resultado_rs": h.get("resultado_hoje"),
+                "aberto_rs": h.get("aberto"), "realizado_rs": h.get("realizado"), "custos_rs": h.get("custos"),
+                "acumulado_rs": round((_num(h.get("ate_ontem")) or 0.0) + (_num(h.get("resultado_hoje")) or 0.0), 2),
+                "valor_acoes": h.get("valor_acoes"), "cobertura_pct": round(cob * 100.0, 1) if cob is not None else None,
+                "razao_alvo_pct": protecao.RAZAO * 100.0, "regra": protecao.REGRA_NA_TELA}
 
     def _anotar_execucoes(self, agora):
         for o in self.sessao.estado()["ordens"]:
@@ -571,13 +628,22 @@ class Robo:
                            "pnl": (preco - medio) * pos["qtd"] if preco is not None else None,
                            "pnl_pct": (preco / medio - 1.0) if (preco is not None and medio) else None,
                            "origem": pos["origem"]})
-        hedge_aberto = _num((self.hedge or {}).get("aberto")) or 0.0
-        patrimonio = caixa + valor_pos + hedge_aberto
+        # protecao: o resultado de hoje (aberto + realizado - custos) mais o que ela acumulou ate ontem
+        hd = self.hedge or {}
+        hedge_hoje = _num(hd.get("resultado_hoje"))
+        if hedge_hoje is None:
+            hedge_hoje = _num(hd.get("aberto")) or 0.0
+        hedge_antes = _num(hd.get("ate_ontem")) or 0.0
+        patrimonio = caixa + valor_pos + hedge_antes + hedge_hoje
         for x in linhas:
             x["peso"] = x["valor"] / patrimonio if patrimonio else None
         carteira = {"patrimonio": patrimonio, "caixa": caixa, "valor_posicoes": valor_pos,
                     "n_posicoes": len(linhas), "exposicao": valor_pos / patrimonio if patrimonio else None,
-                    "caixa_minimo": cart.get("caixa_minimo"), "resultado_dia": patrimonio - patrimonio_ini,
+                    "caixa_minimo": cart.get("caixa_minimo"),
+                    # o patrimonio da manha (livro de acoes) nao traz a protecao acumulada: o dia e acoes + protecao de hoje
+                    "resultado_dia": (caixa + valor_pos - patrimonio_ini) + hedge_hoje,
+                    "resultado_acoes_dia": caixa + valor_pos - patrimonio_ini, "resultado_protecao_dia": hedge_hoje,
+                    "protecao_acumulada": hedge_antes + hedge_hoje,
                     "custos_dia": custos, "posicoes": linhas}
 
         serie = self._serie(patrimonio, fase)
@@ -648,6 +714,8 @@ class Robo:
                        "financeiro_alvo": fin_alvo, "financeiro_executado": fin_exec, "aberto": aberto_total,
                        "executadas": n_exec, "parciais": n_parc, "sem_execucao": n_sem},
             "hedge": self.hedge,
+            "protecao": self._bloco_protecao(),
+            "regime": p.get("regime"),
             "carteira": carteira,
             "sinais": self._sinais(),
             "paper": p.get("paper") or {}, "kill": p.get("kill") or [], "versao": p.get("versao") or {},

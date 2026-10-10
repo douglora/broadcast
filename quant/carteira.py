@@ -344,7 +344,14 @@ def ajustar_hedge(estado, data, patrimonio, beta60=None, banda=BETA_BANDA,
     alvo = contratos_hedge(patrimonio, capital_2)
     d = pd.Timestamp(data).date() if data is not None else None
     if atual == 0:
-        return alvo, calendario.proximo_vencimento_indice(d) if d else None, "abertura"
+        if d is None:
+            return alvo, None, "abertura"
+        venc = calendario.proximo_vencimento_indice(d)
+        # Abrir dentro da janela de rolagem do proprio vencimento e pagar para rolar em poucos dias (em 08/10/2026 a
+        # protecao abriu no contrato que vencia em 14/10): nesse caso ja abre no vencimento seguinte.
+        if d >= calendario.pregoes_atras(venc, int(pregoes_roll)):
+            venc = calendario.proximo_vencimento_indice(venc)
+        return alvo, venc, "abertura"
     if venc is not None and d is not None:
         limite = calendario.pregoes_atras(venc, int(pregoes_roll))
         if d >= limite:
@@ -426,13 +433,19 @@ def ordens_incrementais(estado, alvo_qtd, precos, adtv, patrimonio, saidas=None,
 
 
 def carteira_alvo(sinais_mes, estado, precos, adtv=None, setor=None, patrimonio=None,
-                  exposicao=EXPOSICAO_ALVO, n=N_ALVO, estresse=1.0, data=None, beta60=None):
+                  exposicao=EXPOSICAO_ALVO, n=N_ALVO, estresse=1.0, data=None, beta60=None,
+                  limiar_peso=LIMIAR_PESO):
     """Orquestrador do mes: selecao -> pesos -> lotes -> ordens -> hedge.
 
     Devolve um dict com `tickers`, `pesos`, `alvo`, `ordens`, `hedge`, `caixa_minimo`,
     `diagnostico` e `n_efetivo`. `n_efetivo` e o numero de nomes que a estrategia
     REALMENTE conseguiu carregar: se cair abaixo da banda, o backtest nao esta testando a
     estrategia descrita e o relatorio precisa mostrar isso.
+
+    `limiar_peso` (padrao LIMIAR_PESO, 1,5 p.p.) e o desvio minimo de peso para ajustar quem ja
+    esta na carteira. O regime de mercado (`quant/regime.py`) o baixa no mes em que muda a
+    exposicao em acoes: cortar de 70% para 55% mexe ~0,7 p.p. em cada nome, e com o limiar
+    padrao nenhuma ordem de ajuste sairia e o corte nunca seria executado.
     """
     patrimonio = float(patrimonio if patrimonio is not None else estado.get("patrimonio", 0.0))
     tickers, saidas = selecionar(sinais_mes, estado.get("posicoes"), n=n)
@@ -443,7 +456,7 @@ def carteira_alvo(sinais_mes, estado, precos, adtv=None, setor=None, patrimonio=
     alvo = arredondar_lotes(w, precos, patrimonio)
     alvo_qtd = alvo.set_index("ticker")["qtd"] if len(alvo) else pd.Series(dtype=float)
     ordens = ordens_incrementais(estado, alvo_qtd, precos, adtv, patrimonio,
-                                 saidas=saidas, estresse=estresse)
+                                 saidas=saidas, estresse=estresse, limiar_peso=limiar_peso)
     contratos, venc, motivo = ajustar_hedge(estado, data, patrimonio, beta60=beta60)
     return {"tickers": tickers, "saidas": saidas, "pesos": w, "alvo": alvo, "ordens": ordens,
             "hedge": {"contratos": contratos, "vencimento": venc, "motivo": motivo},
