@@ -35,6 +35,12 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    digerir, ao contrario do dado das 8h30, que e exagerado. Testar com lab.avaliar, parametros redondos (r=5, thr=5, stop 40,
    tempo 120), t por pregao; se nao for candidata na descoberta, nao vai a validacao.
 
+14. PROVA VIVA do dolar em prazo de dias (tendencia `tsm_media`, parametros congelados em 10/10/2026): rodar
+   `quant/saida/pesquisa5/dolar_dias/coletar.py` e `sinal_hoje.py` todo dia util e comparar, so com pregoes de 13/10/2026 em
+   diante, com o resultado que a regra teria dado. Precisa do pacote yfinance no .venv. Nada opera.
+15. Dados gratuitos do dolar ainda sem teste (lista em `dolar_dias/RESULTADO.md`, parte 3): expectativas Focus, fluxo
+   cambial contratado do BC, posicao de BRL no CME (CFTC), cambio real (IPCA x CPI), estoque de swap cambial do BC, e a curva
+   de cupom cambial 2002-2021 da B3.
 12. Fluxo de agressao REAL por contrato (quant/saida/pesquisa5/fluxo_mt5/RESULTADO.md): o MetaTrader da XP so marca o
    agressor no contrato vigente, e o contrato vencido some do servidor. Ha 28 pregoes do WDOX26 e 42 do WINV26 gravados
    por minuto; a fita diaria do robo acumula o mini-dolar dai para a frente. So testar leitura de fluxo com agressor real
@@ -162,3 +168,12 @@ quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
   US500; `global_lidera/segundos.py`; descritivo): MORTA. O pico da correlacao de retornos de 5 segundos e em 0 segundo e
   cai igual para os dois lados. Nos 0,2% maiores trancos la fora o mini-dolar anda 0,6 a 0,9 ponto DURANTE os mesmos 5
   segundos; entrando 1 a 5 segundos depois sobra -0,05 a -0,55 ponto antes do custo de 1,2 ponto.
+- Mini contra cheio, WDO x DOL (`quant/saida/pesquisa5/dolar_arbitragem/`; negocio a negocio da B3 em milissegundo, 23
+  pregoes): MORTA para quem tem 200 a 500 ms. Os dois precos sao iguais em 59% do tempo e o ajuste termina em ate 20 ms.
+  Diferenca de 2,5 pontos ou mais (o custo do par): 1 a 2 vezes por dia, 50 ms de duracao. Robo simulado com atraso de
+  200/500 ms: negativo com custo realista nos 30 cenarios. Rolagem (28 a 30/09): diferencial oscila 0,44 ponto, nunca
+  chega ao custo. Convergencia do contrato que vence para a PTAX: existe (0,4 ponto), pequena demais.
+- Dolar com prazo de DIAS (`quant/saida/pesquisa5/dolar_dias/`; PTAX em excesso do carrego, 2000 a 2021, 34 tentativas):
+  NENHUMA passou. Tendencia (momentum de 21/63/126 dias) teve Sharpe 1,1 a 1,2 em 2000-2015 e caiu para 0,16 a 0,26 em
+  2016-2021 (queda maxima de 17% a 28%); carrego, DXY, EMBI, VIX, commodities, fim de mes, Copom e Fed: nada na validacao.
+  A prova 2022-09/2026 NAO foi aberta. Candidata a prova viva (so medir): `tsm_media`, via `dolar_dias/sinal_hoje.py`.

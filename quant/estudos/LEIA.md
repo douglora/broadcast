@@ -225,3 +225,20 @@ de negocio a negocio com agressor. Detalhe em `quant/saida/pesquisa5/global_lide
   10/10 e estao inteiros (abertura ao fechamento). `b3_dolar/scripts/baixa_ticks.py` agora baixa de novo os dois ultimos
   pregoes a cada rodada e so troca se vier com MAIS linhas (o antigo fica ao lado com o final `.parcial`; no registro sai
   a palavra COMPLETADO). Se isso acontecer, o cache das corretoras daquele dia (`corretoras/cache/tk_*`) fica velho.
+
+## 10/10/2026, noite: carteira liberada, quatro modulos, opcoes e mais duas frentes no dolar
+
+O Douglas liberou a carteira de acoes ("vamos entao para a carteira de acoes"), pediu a tela com quatro modulos
+(multifatorial, mini-dolar, mini-indice, opcoes), cobrou a protecao em mini-indice de 08/10 e disse do dolar: "ainda nao
+desisti". Detalhe de cada frente no RESULTADO.md da pasta indicada.
+
+- Protecao em mini-indice (`quant/execucao/protecao.py`, testes em `test_protecao.py`): o defeito de 08/10 era de tamanho
+  (venda executada antes das compras: livro vendido no liquido). Agora a venda acompanha as acoes carregadas, nunca passa
+  do valor delas, e carregada entre pregoes e nao abre em contrato perto do vencimento.
+- Protecao por regime (`quant/regime.py`, `quant/saida/pesquisa_carteira/`): cinco variantes pre-registradas, todas piores
+  que a protecao fixa na janela de desenvolvimento (2012-03 a 2015-12). A leitura de regime fica na tela so como informacao.
+- Dolar em segundos, mini contra cheio, rolagem e dolar com prazo de dias: nada passa (ver FILA.md, "Testadas").
+- Opcoes (`quant/opcoes/`, `quant/saida/pesquisa5/opcoes/`): venda de put, call coberta, trava de credito e pozinho
+  reprovados contra o CDI (97 configuracoes); protecao com opcoes de BOVA11 fica em medicao, como seguro.
+- Modulos: `modo_robo.json` ganhou a chave `modulos`; a carteira grava `quant_fatores.json`, o day trade `quant.json`, a
+  prova viva do indice `quant_indice.json` e `quant/opcoes/painel.py` grava `quant_opcoes.json`.
