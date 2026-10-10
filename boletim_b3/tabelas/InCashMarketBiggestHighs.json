@@ -1,5 +1,5 @@
 {
- "pregao": "2026-10-08",
+ "pregao": "2026-10-09",
  "nome": "InCashMarketBiggestHighs",
  "titulo": "Mercado à vista - maiores altas",
  "sla": "8:00:00",
@@ -7,18 +7,18 @@
  "colunas": [{"nome": "TckrSymb", "titulo": "Ação"}, {"nome": "Cod", "titulo": "Código"}, {"nome": "Price", "titulo": "Preço (R$)"}, {"nome": "Oscillation", "titulo": "Oscilação (%)"}],
  "texto": ["Mostra as maiores valorizações de ativos no mercado à vista, destacando as melhores performances."],
  "situacao": "publicado",
- "atualizado_em": "2026-10-08T19:01:38.91",
+ "atualizado_em": "2026-10-09T19:10:20.407",
  "truncada": false,
  "linhas": [
-  ["FSRF11", "CI", 0.08, 14.28],
-  ["CEDO3", "ON      N1", 7.01, 16.83],
-  ["FPAB11", "CI", 241.48, 17.22],
-  ["BRKM6", "PNB     N1", 4, 20.48],
-  ["WEST3", "ON      NM", 4.12, 24.84],
-  ["TELB3", "ON", 28.65, 27.9],
-  ["TELB4", "PN", 12, 27.93],
-  ["KNCR12", "DIR", 0.54, 28.57],
-  ["GPAR3", "ON", 19.95, 89.81],
-  ["DAMT11", "CI", 22.5, 99.64]
+  ["PPLA11", "UNT", 42.5, 18.05],
+  ["BEEF11", "BNS ORD NM", 0.76, 18.75],
+  ["MGLU3", "ON      NM", 12.22, 19.21],
+  ["LJQQ3", "ON      NM", 2.93, 21.57],
+  ["MRVE3", "ON      NM", 7.82, 21.61],
+  ["KNCR12", "DIR", 0.66, 22.22],
+  ["VIVR3", "ON      NM", 2.36, 31.11],
+  ["WEST3", "ON      NM", 5.5, 33.49],
+  ["R1VT34", "DRN", 27.6, 33.98],
+  ["AZEV3", "ON", 10.27, 42.83]
  ]
 }
