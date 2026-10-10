@@ -67,6 +67,23 @@ def janela(dia, arquivo=None):
 
 # ── quais contratos o robo opera, tambem do Douglas ──────────────────────────────────────────────
 ARQ_ATIVOS = os.path.join(DIR_SAIDA, "ativos_robo.json")
+# Limites de risco de prazo mais longo (metodo de 10/10/2026): perda maxima da SEMANA (o robo para ate a segunda-feira) e
+# queda maxima desde o pico do acumulado (o robo para ate o Douglas mandar religar; "queda_zerada_em" recomeca a contagem).
+ARQ_RISCO = os.path.join(DIR_SAIDA, "risco_robo.json")
+RISCO_PADRAO = {"perda_maxima_semana_rs": 2000.0, "queda_maxima_rs": 10000.0, "queda_zerada_em": None}
+
+
+def risco(arquivo=None):
+    d = ler_json(arquivo or ARQ_RISCO, padrao=None) or {}
+    fora = dict(RISCO_PADRAO)
+    for k in ("perda_maxima_semana_rs", "queda_maxima_rs"):
+        try:
+            if d.get(k) is not None and float(d[k]) > 0:
+                fora[k] = float(d[k])
+        except (TypeError, ValueError):
+            pass
+    fora["queda_zerada_em"] = d.get("queda_zerada_em") or None
+    return fora
 
 
 def ativos_ligados(todos, arquivo=None):

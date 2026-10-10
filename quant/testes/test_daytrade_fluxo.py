@@ -356,6 +356,7 @@ def _robo(tmp_path, monkeypatch, dia):
     monkeypatch.setattr(rf, "DIR_DT", str(tmp_path / "dt"))
     monkeypatch.setattr(rf, "ARQ_SERIE", str(tmp_path / "dt" / "serie_fluxo.json"))
     monkeypatch.setattr(rf, "ARQ_MODO", str(tmp_path / "modo_robo.json"))    # quem opera (climax, niveis) e do Douglas
+    monkeypatch.setattr(chave, "ARQ_RISCO", str(tmp_path / "risco_robo.json"))  # e os limites de risco tambem
     monkeypatch.setattr(rf, "ler_motor", lambda *a, **k: None)
     monkeypatch.setattr(rf, "ARQ_FUTUROS_B3", str(tmp_path / "sem_futuros.json"))
     mt5 = tmp_path / "mt5"
@@ -1210,3 +1211,49 @@ def test_robo_nao_reabre_o_metatrader_quando_o_mac_acabou_de_acordar(tmp_path, m
     # passada a carencia de 2 minutos, se continuar sem preco, ai sim reabre
     assert [leitura(1500.0, 0.0) for _ in range(14)] == [False] * 14
     assert [leitura(1600.0, 0.0) for _ in range(3)] == [False, False, True] and chamadas == [1]      # tres leituras ruins contadas depois da carencia
+
+
+# ── limites de risco de prazo longo e lote limitado pelo stop (metodo de 10/10/2026) ─────────────────────────────
+def test_perda_da_semana_e_queda_maxima_param_o_robo(tmp_path, monkeypatch):
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch)
+    (tmp_path / "dt").mkdir(exist_ok=True)
+    serie = tmp_path / "dt" / "serie_niveis.json"
+    # semana de 05 a 09/10/2026: ja perdeu R$ 1.900 ate quinta; sexta abre operando e para ao perder mais R$ 100
+    serie.write_text(json.dumps([{"data": "2026-10-02", "resultado": 500.0}, {"data": "2026-10-05", "resultado": -900.0},
+                                 {"data": "2026-10-08", "resultado": -1000.0}]))
+    _fita_do_dado(mt5, reacao=6.0)
+    r = rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r.trava is None and r._semana_e_queda(0.0) == (-1900.0, -1900.0)          # pico em +500 (02/10); hoje 1.900 abaixo
+    assert r._limite_longo(-100.0) == "semana" and r._limite_longo(-50.0) is None
+    # na semana seguinte a conta da semana recomeca, mas a queda desde o pico continua contando
+    r2 = rf.RoboFluxo("2026-10-13", saidas=[str(tmp_path / "q2.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r2.trava is None and r2._semana_e_queda(0.0) == (0.0, -1900.0)
+    # limite da semana ja estourado antes de abrir: o robo nasce parado e a tela diz por que
+    serie.write_text(json.dumps([{"data": "2026-10-05", "resultado": -900.0}, {"data": "2026-10-08", "resultado": -1200.0}]))
+    r3 = rf.RoboFluxo("2026-10-09", saidas=[str(tmp_path / "q3.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r3.trava == "semana"
+    r3.codigos = {"WDOFUT": "WDOX26"}
+    agora = datetime(2026, 10, 9, 10, 0, 0, tzinfo=BRT)
+    est = r3.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5030.0, agora.timestamp())}})
+    assert "Perda máxima da semana" in est["vivo"]["fase_texto"] and est["risco"]["semana"] == -2100.0 and est["risco"]["limite_semana"] == -2000.0
+    # queda maxima: R$ 10 mil abaixo do pico para ate o Douglas religar; "queda_zerada_em" recomeca a contagem
+    serie.write_text(json.dumps([{"data": "2026-08-03", "resultado": 3000.0}, {"data": "2026-09-01", "resultado": -6000.0},
+                                 {"data": "2026-09-15", "resultado": -4500.0}]))
+    r4 = rf.RoboFluxo("2026-10-14", saidas=[str(tmp_path / "q4.json")], pasta_mt5=str(mt5), setup="niveis")     # outro pregao: estado novo
+    assert r4.trava == "queda" and r4._semana_e_queda(0.0) == (0.0, -10500.0)
+    (tmp_path / "risco_robo.json").write_text(json.dumps({"queda_zerada_em": "2026-10-01", "perda_maxima_semana_rs": 1500}))
+    r5 = rf.RoboFluxo("2026-10-15", saidas=[str(tmp_path / "q5.json")], pasta_mt5=str(mt5), setup="niveis")
+    assert r5.trava is None and r5.risco["perda_maxima_semana_rs"] == 1500.0 and r5._semana_e_queda(0.0) == (0.0, 0.0)
+
+
+def test_lote_nunca_deixa_o_stop_passar_da_perda_maxima_do_dia(tmp_path, monkeypatch):
+    # lote de 4 pedido, stop de 40 pontos: 4 contratos arriscariam R$ 1.630; cabem 2 (R$ 815) na perda maxima de R$ 1.000
+    rf, mt5 = _robo_niveis(tmp_path, monkeypatch, modo={"lote_base": 4})
+    _fita_do_dado(mt5, reacao=6.0)
+    r = rf.RoboFluxo("2026-10-08", saidas=[str(tmp_path / "quant.json")], pasta_mt5=str(mt5), setup="niveis")
+    r.codigos = {"WDOFUT": "WDOX26"}
+    r.sinais_pc["WDOFUT"] = type("S", (), {"atualizar": lambda self, df, extras=(): ({"pronto": False, "motivo": "teste"}, None)})()
+    agora = datetime(2026, 10, 8, 9, 32, 3, tzinfo=BRT)
+    r.ciclo(agora, retrato={"q": {"WDOFUT": _cotacao(5036.0, agora.timestamp(), maxima=5036.0)}})
+    pos = r.estados["WDOFUT"].posicao
+    assert pos and pos.tecnica == "reversão do dado" and pos.contratos == 2

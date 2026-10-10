@@ -25,7 +25,7 @@ import sys
 import threading
 import time
 from dataclasses import asdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from quant.comum import agora_brt, garantir_dir, gravar_atomico, ler_json, log
 from quant.daytrade import barras as br
@@ -226,6 +226,9 @@ def regras_niveis(p, climax_opera=QUEM_OPERA["climax_opera"], niveis_opera=QUEM_
         "da ruim; só então ela vira filtro.",
         f"Lote: {p.lote_base} contratos de mini-dólar; sobe {p.lote_por_degrau} a cada {ef._rs(p.colchao_por_degrau)} de lucro acumulado (até {p.lote_maximo}).",
         "Para " + ", ".join(parar) + ". O limite vale para o dia inteiro, mesmo que a regra mude no meio do pregão.",
+        "Limites mais longos (método de 10/10/2026): R$ 2.000 de perda na semana e o robô para até segunda-feira; R$ 10.000 de queda "
+        "desde o pico do acumulado e ele para até você mandar religar. O stop cheio de um negócio nunca passa da perda máxima do dia: "
+        "se o lote pedir mais que isso, o robô entra com menos contratos.",
         f"Entradas das {ef.ATIVOS['WDOFUT'].hora_inicio} às {p.hora_ultima_entrada}, menos de {p.pausa_dado[0]} a {p.pausa_dado[1]} (dado das 9h30) "
         f"e com o spread aberto. Às {p.hora_zerar} zera tudo.",
     ]
@@ -341,12 +344,42 @@ class RoboFluxo:
         self.leitura_climax, self.climax_pendente = {}, {}
         self.outras = self._outras_regras_do_dia()               # o dia e um so: perdas e resultado das regras que ja rodaram hoje
         self.acumulado_antes = self._acumulado_antes()
+        self.risco = chave.risco()
+        if self.trava is None:                                   # limite da semana ou de queda ja estourado em pregoes anteriores:
+            self.trava = self._limite_longo(0.0)                 # nasce parado, antes do primeiro ciclo
 
     # ── persistencia ─────────────────────────────────────────
     def _acumulado_antes(self):
         serie = ler_json(self.arq_serie, padrao=None)
         return sum(float(x.get("resultado") or 0.0) for x in (serie if isinstance(serie, list) else [])
                    if isinstance(x, dict) and x.get("data") != self.hoje)
+
+    def _semana_e_queda(self, total_hoje):
+        """(resultado da semana, queda desde o pico), os dois com o pregao de hoje. A semana vai de segunda a hoje; a queda
+        e contada sobre o acumulado dos pregoes desde "queda_zerada_em" (ou desde o primeiro)."""
+        if getattr(self, "_pregoes_antes", None) is None:        # os pregoes anteriores nao mudam durante o dia: le uma vez
+            serie = ler_json(self.arq_serie, padrao=None)
+            self._pregoes_antes = [(str(x.get("data")), float(x.get("resultado") or 0.0)) for x in (serie if isinstance(serie, list) else [])
+                                   if isinstance(x, dict) and x.get("data") and str(x.get("data")) != self.hoje]
+        dias = self._pregoes_antes
+        hoje = datetime.strptime(self.hoje, "%Y-%m-%d").date()
+        segunda = (hoje - timedelta(days=hoje.weekday())).isoformat()
+        semana = sum(r for d, r in dias if d >= segunda) + total_hoje
+        desde = str(self.risco.get("queda_zerada_em") or "")
+        acum = pico = 0.0
+        for _d, r in sorted((d, r) for d, r in dias if d >= desde):
+            acum += r
+            pico = max(pico, acum)
+        return semana, min(0.0, acum + total_hoje - pico)
+
+    def _limite_longo(self, total_hoje):
+        """"semana", "queda" ou None, conforme os limites de prazo mais longo."""
+        semana, queda = self._semana_e_queda(total_hoje)
+        if queda <= -self.risco["queda_maxima_rs"]:
+            return "queda"
+        if semana <= -self.risco["perda_maxima_semana_rs"]:
+            return "semana"
+        return None
 
     def _outras_regras_do_dia(self):
         """Resultado e negocios perdedores de HOJE nas outras regras (o robo trocou de regra durante o dia). Em 08/10/2026
@@ -618,6 +651,9 @@ class RoboFluxo:
                 self.trava, motivo = "perda", "perda_maxima"
             elif self.p.meta_dia_rs and total_dia >= self.p.meta_dia_rs:
                 self.trava, motivo = "meta", "meta"
+            elif self._limite_longo(total) is not None:
+                self.trava = self._limite_longo(total)
+                motivo = "perda_da_semana" if self.trava == "semana" else "queda_maxima"
             elif perdas_dia >= self.p.perdas_para_parar and sem_posicao:
                 self.trava = "tres_perdas"
                 de_antes = f" ({self.outras['perdas']} deles em outra regra, mais cedo)" if self.outras["perdas"] else ""
@@ -635,7 +671,15 @@ class RoboFluxo:
                     self._registrar(ev, agora)
             realizado, aberto, _c = self.resultado()
             total = realizado + aberto
-            self.anotar("trava", ("Perda máxima do dia atingida" if self.trava == "perda" else "Meta do dia atingida")
+            semana, queda = self._semana_e_queda(total)
+            if self.trava == "semana":
+                self.anotar("trava", f"Perda máxima da SEMANA atingida ({_reais(semana)}; o limite é {_reais(-self.risco['perda_maxima_semana_rs'])}). "
+                            "Tudo zerado; o robô só volta a entrar na segunda-feira.", agora)
+            elif self.trava == "queda":
+                self.anotar("trava", f"Queda máxima atingida ({_reais(queda)} desde o pico; o limite é {_reais(-self.risco['queda_maxima_rs'])}). "
+                            "Tudo zerado; o robô só volta quando você mandar religar.", agora)
+            else:
+                self.anotar("trava", ("Perda máxima do dia atingida" if self.trava == "perda" else "Meta do dia atingida")
                         + f": {_reais(total_dia)}"
                         + (f" (com {_reais(self.outras['resultado'])} das regras de mais cedo)" if self.outras["resultado"] else "")
                         + ". Tudo zerado; o robô não entra mais hoje.", agora)
@@ -1011,6 +1055,11 @@ class RoboFluxo:
             fase = "meta_batida"
             texto = (f"O dia chegou a {_reais(self.pico_realizado)} e devolveu {p.devolucao_para:.0%} do lucro "
                      f"(está em {_reais(total)}). Parado até amanhã.")
+        elif self.trava in ("semana", "queda"):
+            fase = "perda_maxima"
+            semana, queda = self._semana_e_queda(total)
+            texto = (f"Perda máxima da semana atingida ({_reais(semana)}). Parado até segunda-feira." if self.trava == "semana"
+                     else f"Queda máxima atingida ({_reais(queda)} desde o pico). Parado até você mandar religar.")
         elif self.trava in ("perda", "tres_perdas"):
             fase = "perda_maxima"
             texto = (f"Perda máxima do dia atingida ({_reais(total)}). Parado até amanhã." if self.trava == "perda"
@@ -1179,6 +1228,8 @@ class RoboFluxo:
                        if self.setup == "niveis" else
                        {"nome": "Leitura de fluxo como Alison Correia ensina: defesa, nível perdido, rompimento e exaustão (versão 1.2)",
                         "itens": ef.regras_em_texto(p), "parametros": dict(asdict(p), lote_hoje=lote)}),
+            "risco": dict(zip(("semana", "queda"), self._semana_e_queda(total)), limite_semana=-self.risco["perda_maxima_semana_rs"],
+                          limite_queda=-self.risco["queda_maxima_rs"], queda_zerada_em=self.risco.get("queda_zerada_em")),
             "resultado": {"dia": total, "dia_pct": total / p.capital if p.capital else None, "realizado": realizado,
                           "aberto": aberto, "custos": custos, "operacoes": len(finais), "abertas": abertas,
                           "ganhadoras": len(ganhos), "perdedoras": len(perdas),

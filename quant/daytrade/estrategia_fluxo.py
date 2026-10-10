@@ -534,6 +534,10 @@ def passo(estado: EstadoF, ts, hora, preco, fita, niveis, p: ParamFluxo, lote, p
     else:
         stop = calcular_stop(estado.ativo, lado, entrada, sinal["nivel"], sinal["tecnica"], rapido)
     n = max(1, int(lote))
+    if sinal.get("stop_pts"):                               # o stop cheio de UM negocio nunca passa da perda maxima do dia
+        k = CONTRATOS[estado.ativo]
+        por_contrato = (float(sinal["stop_pts"]) + tick) * k["valor_ponto"] + 2 * k["custo"]
+        n = max(1, min(n, int(p.perda_maxima_dia_rs // por_contrato)))
     alvo = None
     if sinal.get("alvo_pts"):
         alvo = arredondar(entrada + sinal["alvo_pts"] if lado == "C" else entrada - sinal["alvo_pts"], tick)

@@ -48,7 +48,14 @@ para Sharpe liquido de custos, queda maxima aceitavel e estabilidade entre regim
    - Pelo menos 100 negocios fora da amostra.
    - Funciona em 2 dos 3 mercados (indice, dolar, acoes), ou ha explicacao clara de por que so em um.
 8. RISCO. Tamanho da posicao pela volatilidade (alvo de risco por negocio), perda maxima do dia e da semana que desligam o
-   robo, e no maximo meio Kelly.
+   robo, e no maximo meio Kelly. No robo desde 10/10/2026 (capital de R$ 100 mil):
+   - perda maxima do DIA: R$ 1.000 (1%) ou 3 negocios perdedores; para ate o pregao seguinte;
+   - perda maxima da SEMANA: R$ 2.000 (2%); para ate segunda-feira;
+   - QUEDA maxima desde o pico do acumulado: R$ 10.000 (10%); para ate o Douglas mandar religar;
+   - LOTE: o stop cheio de um negocio nunca passa da perda maxima do dia (com stop de 40 pontos no mini-dolar cabem 2
+     contratos, R$ 815). O meio Kelly calculado com a media medida daria muito mais que isso; como a media medida pode ser
+     zero (o Sharpe fora da amostra e 0,72), quem manda no tamanho e o limite de perda, nao o Kelly.
+   Os dois limites longos ficam em `quant/saida/risco_robo.json` (arquivo do Douglas) e a tela mostra semana e queda.
 
 ## Entregavel de cada rodada
 
