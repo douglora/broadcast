@@ -35,6 +35,14 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    digerir, ao contrario do dado das 8h30, que e exagerado. Testar com lab.avaliar, parametros redondos (r=5, thr=5, stop 40,
    tempo 120), t por pregao; se nao for candidata na descoberta, nao vai a validacao.
 
+12. Fluxo de agressao REAL por contrato (quant/saida/pesquisa5/fluxo_mt5/RESULTADO.md): o MetaTrader da XP so marca o
+   agressor no contrato vigente, e o contrato vencido some do servidor. Ha 28 pregoes do WDOX26 e 42 do WINV26 gravados
+   por minuto; a fita diaria do robo acumula o mini-dolar dai para a frente. So testar leitura de fluxo com agressor real
+   quando houver 120+ pregoes (por volta de 03/2027); ate la, NAO garimpar os 28 pregoes.
+13. Dolar global em menos de 1 minuto (a versao de 1 minuto morreu em 10/10/2026): so faz sentido com negocio a negocio
+   dos dois lados e relogio comum; a demo da MetaQuotes guarda cotacao real de poucos meses. Antes de gastar tempo, medir
+   em 5 pregoes quanto do ajuste ja aconteceu em 1, 5 e 15 segundos.
+
 ## Testadas
 
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
@@ -141,3 +149,16 @@ quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
   em 120 min, t 2,5, n 323), sem dose-resposta (z >= 2,0 e mais fraco). Com custo, stop 40 e saida em 120 min: +R$ 11,55
   por negocio (t 0,6, 3 de 7 semestres); saindo as 17h20: +R$ 38,14 (t 1,5, 5 de 7 semestres, 2023S2 -R$ 98). Nao e
   candidata (pedia t 3). sem_futuro: passou.
+
+### 10/10/2026, tarde: dolar global e fluxo de agressao (pedido do Douglas: "verifique a viabilidade para o daytrade")
+
+- O dolar la fora anda na frente do mini-dolar? (quant/saida/pesquisa5/global_lidera/; barras de 1 minuto da demo da
+  MetaQuotes: peso mexicano, rand, yuan, euro, iene, S&P, ouro; descoberta 02/2024 a 12/2024, 227 pregoes): MORTA em 1
+  minuto. Correlacao no mesmo minuto de 0,37 com o peso; com o minuto anterior la fora, zero (-0,009 a +0,006). Nos 1% de
+  minutos mais fortes o mundo mandava 3,72 pontos e o mini-dolar fez 3,51 no mesmo minuto (seguinte: -0,11). O "atraso"
+  contra a cesta rende +0,45 a +0,84 ponto bruto (t 3 a 4), menos que o custo: 8 simulacoes a mercado de -R$ 17,71 a
+  -R$ 28,93 por negocio e 6 com entrada parada de -R$ 8,42 a -R$ 19,68. Validacao e prova nao abertas.
+- Saldo de agressao por minuto antecipa o mini-dolar? (quant/saida/pesquisa5/fluxo_mt5/; serie continua WDO$N do
+  MetaTrader da XP, agressor inferido pela regra do tique, descoberta 07/2025 a 12/2025, 119 pregoes; 25 triagens): MORTA
+  na triagem. Nenhuma continuacao; devolucao de 0,1 a 0,7 ponto em 1 a 20 minutos (melhor t: -4,4 no saldo de 5 minutos,
+  -0,61 ponto em 10 minutos), menor que o custo de 1,2 ponto. Absorcao: n 117, nada.

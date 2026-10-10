@@ -199,3 +199,24 @@ indice nem no dolar. Os limites de risco do metodo entraram no robo: perda da se
 e lote cortado para o stop cheio nao passar da perda do dia (`quant/saida/risco_robo.json`, `chave.risco()`).
 Aritmetica que fecha a questao do historico: com cerca de 1.050 pregoes, um Sharpe deflacionado de 0,95 so sai com Sharpe
 anual acima de 2; regra de Sharpe 1 so se prova com dado novo.
+
+## 10/10/2026, fim da tarde: dolar global, historico de negocios e agressor ("verifique a viabilidade para o daytrade")
+
+O Douglas pediu para verificar duas ideias para o day trade: (1) o dolar la fora andar na frente do nosso e (2) historico
+de negocio a negocio com agressor. Detalhe em `quant/saida/pesquisa5/global_lidera/RESULTADO.md` e
+`quant/saida/pesquisa5/fluxo_mt5/RESULTADO.md`.
+
+- Ferramenta nova: `~/Desktop/terminal-artefato/ferramentas/mt5/AutopilotSonda.mq5`, um script so de leitura que roda uma
+  vez no MetaTrader (partida por `/config:` com `[StartUp] Script=`), sem tocar no AutopilotFeed. Tira barras de 1 minuto
+  de qualquer simbolo, conta negocios e agressor de um dia e grava o fluxo por minuto de um periodo.
+- Dolar global: em barra de 1 minuto o ajuste termina dentro do proprio minuto. Nao ha o que operar (14 simulacoes, todas
+  negativas depois do custo).
+- Historico da XP: negocio a negocio do mini-dolar e do mini-indice continuos desde 07/2025 (com dias faltando), SEM o
+  agressor da bolsa. O agressor so existe no contrato vigente (o vencido some do servidor) e em acoes (2 meses). Nao ha
+  corretora em lugar nenhum do MetaTrader. Gravado por minuto: WINV26 (42 pregoes), WDOX26 (28), DOLX26 (19) com agressor
+  real; WDO$N (290), WIN$N (313) e DOL$N (186) com agressor inferido.
+- Agressor inferido pelo preco contra a compra e a venda: 99,8% de acerto no contrato; na serie continua so resta a regra
+  do tique (correlacao de 0,95 por minuto com o saldo real).
+- Triagem do saldo de agressao por minuto (119 pregoes de descoberta): sem continuacao; devolucao pequena, abaixo do custo.
+- B3 (sessao "Boletim B3 handoff"): 20 pregoes de negocio a negocio com corretora, sem agressor e sem livro; nada mais
+  longo de graca; UP2DATA pago e so fim de dia.
