@@ -1,0 +1,9 @@
+{
+ "_leia": "Regras em PROVA VIVA: nao foram aprovadas no historico, mas tem evidencia que merece ser acompanhada so com dado NOVO (pregoes depois de 'desde'). Nada aqui opera. quant/pesquisa/prova_viva.py mede; com 60+ negocios, media positiva e t >= 2 vira pedido de estudo.",
+ "regras": [
+  {"nome": "win_fim_do_dia", "titulo": "Mini-indice: a tendencia do dia continua nos ultimos 30 minutos",
+   "arquivo": "quant/pesquisa/regras/win_fim_do_dia.py", "funcao": "regra", "ativo": "WIN", "simbolo": "WIN$N", "desde": "2026-10-10",
+   "kw": {"stop": 500.0, "tempo": 25, "ini": "09:00", "ult": "18:30", "zerar": "18:30"},
+   "historico": "descoberta 2021-24: 800 negocios, +R$ 15,30, t 6,6; validacao 2025: -R$ 4,47, acerto de 40% (reprovada); prova de 2026 nao aberta"}
+ ]
+}

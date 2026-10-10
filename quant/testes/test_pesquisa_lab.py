@@ -192,3 +192,17 @@ def test_contas_do_mini_indice_e_de_acao():
     assert t.res[0] == pytest.approx(0.3 * qtd - 0.00025 * (40.01 + 40.31) * qtd)
     # o padrao continua sendo o mini-dolar
     assert lab.espec_de(None)["valor_ponto"] == 10.0 and lab.espec_de("vale3")["tipo"] == "acao"
+
+
+def test_prova_viva_mede_so_os_pregoes_novos(tmp_path):
+    from quant.pesquisa import prova_viva as pv
+    (tmp_path / "r.py").write_text("import numpy as np\ndef regra(m):\n    return np.where((m.index.strftime('%H:%M') == '09:20'), 1.0, 0.0)\n")
+    dias = []
+    for d, sobe in (("2026-10-08", 3.0), ("2026-10-13", 3.0), ("2026-10-14", -2.0)):
+        b = [PARADO] * 21 + [(5000.0 + sobe * k / 9, 5000.0 + sobe * (k + 1) / 9, 5000.0 + sobe * k / 9, 5000.0 + sobe * (k + 1) / 9) for k in range(9)] + [PARADO] * 3
+        dias.append(_dia(b, d + " 09:00"))
+    barras = pd.concat(dias)
+    r = {"nome": "x", "arquivo": str(tmp_path / "r.py"), "ativo": "WDO", "desde": "2026-10-10", "kw": {"stop": 10.0, "tempo": 8}}
+    res = pv.medir_regra(r, barras)
+    assert res["negocios"] == 2 and res["ultimo"] == "2026-10-14" and res["pedir_estudo"] is False     # o pregao de 08/10 fica de fora
+    assert "2 negocios desde 2026-10-10" in pv.texto([res]) and "ainda sem negocio" in pv.texto([dict(res, negocios=0)])
