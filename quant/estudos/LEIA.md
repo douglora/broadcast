@@ -287,3 +287,24 @@ real no terminal. Onde esta cada coisa:
   robo). Mao por volatilidade corta a cauda sem melhorar o Sharpe; corte por queda reprovado.
 - TIR real implicita: modulo `tir` do terminal (`~/Desktop/terminal-artefato/coletor/tir.py`, `src/mod/tir/`).
 
+
+## 11/10/2026: o livro por classes e o orcamento de queda
+
+Respostas do Douglas: "entra cheia e pode rotacionar"; BBAS3 "foi so um exemplo pra voce entender uma forma de pensamento";
+pesos e regra de volatilidade "pode ser"; orcamento de queda "corrija entao". O que mudou:
+
+- Decisao em arquivo: `quant/saida/risco_livro.json` (lido por `quant/risco/livro.py`). Pesos 60% acoes, 30% opcoes, 10%
+  dolar; mao por volatilidade ligada; corte por queda desligado; orcamento de queda do livro 25% (17% acoes, 3% opcoes,
+  5% day trade). `"ligado": false` volta ao comportamento anterior (carteira em 70%, opcoes com o capital inteiro).
+- Carteira: exposicao = peso da classe x mao do dia (`quant/config_carteira.py`). "Cheia" e 60% do capital, nao 70%.
+  Uma `exposicao_acoes` escrita em `carteira_config.json` continua mandando por cima (ordem direta).
+- Rotina da manha: dois passos novos antes da boleta, `risco` (`python -m quant.risco.orcamento`) e `livro`
+  (`python -m quant.risco.livro`). Sao auxiliares: se falharem, a boleta sai com mao cheia e o log avisa.
+- Opcoes: o capital protegido passou a 1% do capital DA CLASSE por mes (R$ 300), nao do livro inteiro (R$ 1.000). Erro
+  do assistente em 10/10: R$ 1.000 por mes contra uns R$ 300 de rendimento do caixa da classe nao protegia o principal.
+  A tranche de outubro, aberta com R$ 1.000, fica como esta. Com o orcamento de queda estourado, nada tatico novo abre.
+- Day trade: `queda_maxima_rs` baixou de R$ 10.000 para R$ 5.000 em `quant/saida/risco_robo.json` (a fatia dele no
+  orcamento). Para voltar, escrever 10000 no arquivo. Semana (R$ 2.000) e dia (R$ 1.000) nao mudaram.
+- Caso BBAS3: marcado `exemplo` em `quant/opcoes/teses.py`; nunca abre.
+- Tela: bloco `livro` em `quant_fatores.json` (pesos, mao, queda de cada modulo contra o orcamento).
+- Testes: `quant/testes/conftest.py` isola a suite dos arquivos de decisao em `quant/saida`.

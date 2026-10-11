@@ -2,14 +2,16 @@
 Orcamento de risco: quanto de cada classe manter, quanto arriscar em cada tese de opcoes, e se o corte por queda esta valendo.
 
 POR QUE EXISTE. O Douglas pediu um "gestor": saber a hora de diminuir ou aumentar a mao e alocar por classe. Este modulo so CALCULA e
-EXPLICA; nao opera e nao esta ligado ao robo ao vivo. Funcoes puras (sem disco, sem rede); a leitura dos dados de hoje fica separada
+EXPLICA; nao opera. Desde 11/10/2026 a carteira de acoes le daqui a mao pela volatilidade (quant/risco/livro.py), quando o
+livro por classes esta ligado em `quant/saida/risco_livro.json`. Funcoes puras (sem disco, sem rede); a leitura dos dados de hoje fica separada
 em `carregar_entradas`, e o CLI (`python -m quant.risco.orcamento`) imprime e grava `quant/saida/risco/orcamento.json`.
 
 TRES COISAS:
   (i)   EXPOSICAO POR CLASSE pela regra de mao por volatilidade congelada em `PRE_REGISTRO_MAO.md`: exposicao = min(1, vol media
         historica da classe / vol dos ultimos 63 pregoes). O que sobra da classe vai para o CDI.
   (ii)  RISCO MAXIMO POR TESE do livro de opcoes (perda maxima de cada estrutura contra o limite de R$ 500 por estrutura) e o
-        TOTAL EM RISCO contra o limite de 3% do capital, mais o orcamento permanente do capital protegido (1% do capital por mes, lido do proprio livro).
+        TOTAL EM RISCO contra o limite de 3% do capital, mais o orcamento permanente do capital protegido (1% do capital DA CLASSE de
+        opcoes por mes, lido do proprio livro).
   (iii) CORTE POR QUEDA: a regra existe (`quant.risco.mao.MaoQueda`), mas NAO se sustentou na pesquisa (nao melhorou o Sharpe nos
         dados livres e piorou no holdout refeito: realiza prejuizo no fundo). Por isso entra DESLIGADA (`ativo=False`): o orcamento
         so mostra em que estado ela estaria, sem aplicar. Ligar exige uma decisao nova do Douglas.
@@ -32,7 +34,7 @@ CLASSES = ("acoes", "opcoes", "dolar")
 PESOS_PADRAO = {"acoes": 0.60, "opcoes": 0.30, "dolar": 0.10}     # a regra 60/30/10 da pesquisa
 RISCO_POR_ESTRUTURA_RS = 500.0                                   # limite do livro de opcoes (perda maxima por estrutura)
 RISCO_TOTAL_PCT = 0.03                                           # limite do livro de opcoes (total em risco, % do capital)
-ORCAMENTO_PROTEGIDO_PCT = 0.01                                   # capital protegido: 1% do capital por mes (era 0,5% ate 10/10/2026, decisao do modulo de opcoes)
+ORCAMENTO_PROTEGIDO_PCT = 0.01                                   # capital protegido: 1% do capital da classe de opcoes por mes (corrigido em 11/10/2026)
 ARQ_SAIDA = os.path.join("quant", "saida", "risco", "orcamento.json")
 MOTIVO_QUEDA_DESLIGADA = ("nao se sustentou: nos dados livres 2001-2015 nao melhorou o Sharpe (2 de 4 series) e no holdout "
                           "refeito (descritivo) baixou o Sharpe de S0 de 0,34 para 0,29; realiza prejuizo no fundo (2022: -4,3% contra +2,1%)")
@@ -108,13 +110,16 @@ def alocar(capital, pesos, exposicoes):
 # (ii) Risco do livro de opcoes
 # ─────────────────────────────────────────────────────────────
 def risco_opcoes(teses, capital, risco_por_estrutura=RISCO_POR_ESTRUTURA_RS, risco_total_pct=RISCO_TOTAL_PCT,
-                 orcamento_protegido_pct=ORCAMENTO_PROTEGIDO_PCT):
+                 orcamento_protegido_pct=ORCAMENTO_PROTEGIDO_PCT, capital_da_classe=None):
     """Risco maximo por tese (perda maxima = `risco_rs`) e total em risco, contra os limites do livro.
 
     teses: lista de dicts com 'titulo' e 'risco_rs' (e, se houver, 'vencimento', 'familia', 'permanente'). A posicao
     `permanente` (o capital protegido, orcamento mensal) entra a parte, como no livro simulado: nao conta no limite de estruturas
-    nem nos 3%; sem ela na lista, o orcamento e `orcamento_protegido_pct` x capital."""
+    nem nos 3%; sem ela na lista, o orcamento e `orcamento_protegido_pct` x capital DA CLASSE de opcoes (`capital_da_classe`;
+    sem ele, o capital inteiro). A base e a classe porque o premio do mes tem de caber no rendimento do caixa que o protege:
+    1% do capital inteiro com 30% em caixa gastaria mais de tres vezes o CDI daquele caixa."""
     capital = float(capital)
+    base_protegido = float(capital_da_classe) if capital_da_classe is not None else capital
     linhas, total, protegido = [], 0.0, 0.0
     for t in teses or []:
         r = float(t.get("risco_rs") or 0.0)
@@ -129,8 +134,9 @@ def risco_opcoes(teses, capital, risco_por_estrutura=RISCO_POR_ESTRUTURA_RS, ris
     return {"por_tese": linhas, "n_teses": len(linhas), "total_em_risco_rs": total,
             "total_pct_do_capital": total / capital if capital else float("nan"),
             "limite_total_rs": limite_total, "folga_rs": limite_total - total, "dentro_do_limite_total": bool(total <= limite_total + 1e-9),
-            "capital_protegido_mensal_rs": protegido if protegido > 0 else float(orcamento_protegido_pct) * capital,
-            "pior_caso_rs": total + (protegido if protegido > 0 else float(orcamento_protegido_pct) * capital)}
+            "capital_protegido_mensal_rs": protegido if protegido > 0 else float(orcamento_protegido_pct) * base_protegido,
+            "capital_protegido_regra_rs": float(orcamento_protegido_pct) * base_protegido,
+            "pior_caso_rs": total + (protegido if protegido > 0 else float(orcamento_protegido_pct) * base_protegido)}
 
 
 # ─────────────────────────────────────────────────────────────
@@ -165,14 +171,16 @@ def orcamento(capital, vols, alvos, teses, patrimonio=None, pesos=None, teto=mao
         for c in expo:
             expo[c]["exposicao"] = min(expo[c]["exposicao"], queda["exposicao_aplicada"])
     aloc = alocar(capital, pesos, expo)
-    ops = risco_opcoes(teses, capital)
+    ops = risco_opcoes(teses, capital, capital_da_classe=(aloc.get("opcoes") or {}).get("capital_rs"))
     porque = []
     for c in CLASSES:
         if c in expo:
             porque.append(f"{_rotulo(c)}: {expo[c]['porque']}. Capital da classe {_brl(aloc[c]['capital_rs'])}; em risco {_brl(aloc[c]['em_risco_rs'])}; "
                           f"{_brl(aloc[c]['para_o_cdi_rs'])} ficam no CDI.")
     porque.append(f"Opcoes: {ops['n_teses']} tese(s) abertas com {_brl(ops['total_em_risco_rs'])} em risco ({_pc(ops['total_pct_do_capital'], 2)} do capital; "
-                  f"limite {_brl(ops['limite_total_rs'])}, folga {_brl(ops['folga_rs'])}); mais {_brl(ops['capital_protegido_mensal_rs'])} por mes de capital protegido. "
+                  f"limite {_brl(ops['limite_total_rs'])}, folga {_brl(ops['folga_rs'])}); mais {_brl(ops['capital_protegido_mensal_rs'])} de capital protegido em aberto"
+                  + (f" (aberto antes da correcao de 11/10/2026; a regra agora e {_brl(ops['capital_protegido_regra_rs'])} por mes, 1% do capital da classe)"
+                     if abs(ops['capital_protegido_mensal_rs'] - ops['capital_protegido_regra_rs']) > 0.5 else " por mes (1% do capital da classe)") + ". "
                   f"A perda maxima de cada tese e o que ela custou.")
     porque.append("Corte por queda: " + queda["motivo"] + (f". Queda atual do patrimonio: {_pc(queda['queda_atual'], 2)}." if np.isfinite(queda["queda_atual"]) else "."))
     avisos = [c for c, t in expo.items() if c != "opcoes" and (t["vol_recente"] is None or t["vol_alvo"] is None)]
@@ -186,7 +194,7 @@ def orcamento(capital, vols, alvos, teses, patrimonio=None, pesos=None, teto=mao
 
 
 def _rotulo(c):
-    return {"acoes": "Acoes", "opcoes": "Opcoes (capital protegido)", "dolar": "Dolar (tendencia)"}.get(c, c)
+    return {"acoes": "Acoes", "opcoes": "Opcoes (capital protegido)", "dolar": "Dolar (margem do day trade)"}.get(c, c)
 
 
 # ─────────────────────────────────────────────────────────────
@@ -253,14 +261,17 @@ def _ler_json(caminho):
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Orcamento de risco de hoje (nao liga no robo)")
+    ap = argparse.ArgumentParser(description="Orcamento de risco de hoje (a carteira le a mao daqui quando o livro por classes esta ligado)")
     ap.add_argument("--saida", default=ARQ_SAIDA)
     ap.add_argument("--capital", type=float, default=None)
     args = ap.parse_args(argv)
+    from quant.risco import livro
     e = carregar_entradas()
     cap = args.capital or e["capital"]
-    o = orcamento(cap, e["vols"], e["alvos"], e["teses"], patrimonio=e["patrimonio"])
+    lv = livro.config()                                             # a decisao do Douglas: pesos e se o corte por queda vale
+    o = orcamento(cap, e["vols"], e["alvos"], e["teses"], patrimonio=e["patrimonio"], pesos=lv["pesos"], queda_ativa=lv["corte_por_queda"])
     o["fontes"] = e["fontes"]
+    o["livro"] = {"ligado": lv["ligado"], "desde": lv.get("desde"), "mao_por_volatilidade": lv["mao_por_volatilidade"]}
     os.makedirs(os.path.dirname(args.saida), exist_ok=True)
     tmp = args.saida + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:

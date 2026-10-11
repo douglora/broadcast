@@ -8,9 +8,11 @@ Todo dia em que rodar, com a cadeia nova:
      POSITIVA, com perda maxima de ate R$ 500 por estrutura (lotes de 100), no maximo 6 abertas e R$ 3.000 (3% de R$ 100 mil) em risco
      somado, sem repetir ativo + vencimento ja aberto. So estrutura de risco definido (compra de opcao, trava, straddle).
   3. CAPITAL PROTEGIDO (A0) e posicao PERMANENTE a parte: todo mes, para o primeiro vencimento mensal com 15+ pregoes pela frente, o
-     orcamento de 1% do capital (R$ 1.000; era 0,5% ate 10/10/2026) vira calls no dinheiro de 6 ativos (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3), em partes
+     orcamento de 1% do capital DA CLASSE de opcoes (R$ 300 com 30% do livro; ver `orcamento_mensal`) vira calls no dinheiro de 6 ativos (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3), em partes
      iguais, FRACIONADAS (a pesquisa nao arredonda lote: R$ 83 por ativo nao compra um lote de 100). O resto do capital fica no CDI e
-     nao e contado aqui. Esse orcamento nao entra no limite de 6 posicoes nem nos R$ 3.000. Tranche com orcamento menor que o atual e COMPLETADA com a cadeia do dia (uma vez).
+     nao e contado aqui. Esse orcamento nao entra no limite de 6 posicoes nem nos R$ 3.000. Tranche com orcamento menor que o atual e COMPLETADA com a cadeia do dia (uma vez);
+     tranche aberta com orcamento MAIOR que o atual (a de outubro de 2026, R$ 1.000) fica como esta: o que foi comprado nao se desfaz, a regra nova vale da proxima.
+  4. ORCAMENTO DE QUEDA DO LIVRO (quant/risco/livro.py): com o orcamento estourado, nada novo abre (nem ranking nem tese); o que esta aberto segue marcado.
 IDEMPOTENTE pela data da cadeia: rodar duas vezes com a mesma cadeia nao marca nem abre nada de novo.
 
 Estado em quant/saida/opcoes/carteira_simulada.json. Nada aqui e recomendacao (Resolucao CVM 178).
@@ -34,10 +36,28 @@ RISCO_POR_ESTRUTURA = 500.0
 MAX_ABERTAS = 6
 RISCO_TOTAL_MAX = 0.03 * CAPITAL
 MAX_NOVAS_POR_DIA = 2
-ORCAMENTO_MENSAL = 0.01 * CAPITAL          # 1% do capital por mes (o Douglas aprovou subir de 0,5% para 1% em 10/10/2026)
+ORCAMENTO_PCT = 0.01                       # 1% por mes (o Douglas aprovou subir de 0,5% para 1% em 10/10/2026)
+ORCAMENTO_MENSAL = ORCAMENTO_PCT * CAPITAL  # base antiga (capital inteiro): so vale com o livro por classes desligado
 ATIVOS_CAPITAL_PROTEGIDO = ["PETR4", "VALE3", "BOVA11", "ITUB4", "BBDC4", "BBAS3"]
 LOTE = 100
 FEE = C.FEE_PREMIO
+
+
+def orcamento_mensal():
+    """Premio do capital protegido por mes: 1% do capital DA CLASSE de opcoes (R$ 300 com 30% do livro).
+
+    CORRECAO de 11/10/2026. Em 10/10 o orcamento subiu para 1% do capital INTEIRO (R$ 1.000). Com o livro em 60/30/10 so 30% do
+    capital fica no caixa que protege a estrategia, e esse caixa rende perto de 1% ao mes: gastar R$ 1.000 por mes contra uns
+    R$ 300 de rendimento deixava de ser "capital protegido" (o principal cairia todo mes ruim). O premio do mes tem de caber
+    no rendimento do caixa da classe. Livro por classes desligado: vale a base antiga (capital inteiro)."""
+    from quant.risco import livro
+    return round(ORCAMENTO_PCT * CAPITAL * livro.peso("opcoes"), 2)
+
+
+def livro_estourado():
+    """True quando o orcamento de queda do livro estourou (quant/saida/risco/livro.json, gravado pela rotina). Sem arquivo: False."""
+    from quant.risco import livro
+    return bool((livro.ler_bloco() or {}).get("estourou"))
 
 
 def _brl(x):
@@ -151,7 +171,7 @@ def abrir_do_ranking(est, M, veredito_fn, dia):
 
 
 def abrir_capital_protegido(est, M, dia):
-    """Tranche mensal do capital protegido: R$ 500 em calls no dinheiro dos 6 ativos, partes iguais, fracionadas, primeiro vencimento mensal com 15+ pregoes."""
+    """Tranche mensal do capital protegido: `orcamento_mensal()` em calls no dinheiro dos 6 ativos, partes iguais, fracionadas, primeiro vencimento mensal com 15+ pregoes."""
     from quant.opcoes.assimetrias import arbitragens_du
     venc = None
     for v in dados.vencimentos_padrao():
@@ -164,7 +184,8 @@ def abrir_capital_protegido(est, M, dia):
     if any(p.get("permanente") and p["vencimento"] == vstr for p in est["posicoes"]):
         return None
     o = M["o"]
-    parte = ORCAMENTO_MENSAL / len(ATIVOS_CAPITAL_PROTEGIDO)
+    orc = orcamento_mensal()
+    parte = orc / len(ATIVOS_CAPITAL_PROTEGIDO)
     pernas, custo = [], 0.0
     for a in ATIVOS_CAPITAL_PROTEGIDO:
         el = o[(o["ativo"] == a) & (o["vencimento"] == venc) & (o["tipo"] == "C") & o["boa"] & (o["negocios"] >= C.NEG_MIN) & o["oferta_venda"].notna()]
@@ -183,8 +204,8 @@ def abrir_capital_protegido(est, M, dia):
     if not pernas:
         return None
     return {"id": f"{pd.Timestamp(dia).date()}|capital_protegido|{vstr}", "aberta_em": str(pd.Timestamp(dia).date()),
-            "titulo": f"Capital protegido: orçamento mensal de R$ {_brl(ORCAMENTO_MENSAL)} em calls no dinheiro de {len(pernas)} ativos, vencimento {vstr}",
-            "ativo": "cesta (" + ", ".join(p["ativo"] for p in pernas) + ")", "estrutura": "capital_protegido", "familia": "capital_protegido", "permanente": True, "orcamento_rs": ORCAMENTO_MENSAL,
+            "titulo": f"Capital protegido: orçamento mensal de R$ {_brl(orc)} em calls no dinheiro de {len(pernas)} ativos, vencimento {vstr}",
+            "ativo": "cesta (" + ", ".join(p["ativo"] for p in pernas) + ")", "estrutura": "capital_protegido", "familia": "capital_protegido", "permanente": True, "orcamento_rs": orc,
             "pernas": pernas, "qtd": None, "custo": round(custo, 2), "valor_hoje": round(custo, 2), "resultado_rs": 0.0, "risco_rs": round(custo, 2), "vencimento": vstr,
             "estado": "aberta", "marcacao": "aberta nas ofertas do fechamento; quantidades fracionadas (sem arredondar lote)",
             "nota": "O resto do capital fica no CDI e não entra nesta conta. Perda máxima do mês = o orçamento."}
@@ -192,14 +213,16 @@ def abrir_capital_protegido(est, M, dia):
 
 def completar_orcamento(est, M, indice, spot, dia):
     """Tranche permanente aberta com orcamento menor que o atual (ex.: R$ 500 quando o orcamento passou a R$ 1.000) recebe o que falta, em partes
-    iguais entre os ativos que ja tem na tranche, com as ofertas de venda da cadeia do dia. Uma vez: depois disso orcamento_rs == ORCAMENTO_MENSAL."""
+    iguais entre os ativos que ja tem na tranche, com as ofertas de venda da cadeia do dia. Uma vez: depois disso orcamento_rs == orcamento_mensal().
+    Tranche com orcamento MAIOR que o atual nao e mexida (o que foi comprado nao se desfaz)."""
     n = 0
     o = M["o"]
+    orc = orcamento_mensal()
     for pos in est["posicoes"]:
         if not pos.get("permanente") or pos["estado"] != "aberta" or pd.Timestamp(pos["vencimento"]) <= dia:
             continue
         atual = pos.get("orcamento_rs", pos["custo"])
-        falta = ORCAMENTO_MENSAL - atual
+        falta = orc - atual
         if falta <= 0.01:
             continue
         parte = falta / len(pos["pernas"])
@@ -218,7 +241,7 @@ def completar_orcamento(est, M, indice, spot, dia):
             pos["risco_rs"] = round(pos["risco_rs"] + gasto, 2)
             pos["orcamento_rs"] = round(atual + gasto, 2)
             pos["complementado_em"] = str(dia.date())
-            pos["titulo"] = f"Capital protegido: orçamento mensal de R$ {_brl(ORCAMENTO_MENSAL)} em calls no dinheiro de {len(pos['pernas'])} ativos, vencimento {pos['vencimento']}"
+            pos["titulo"] = f"Capital protegido: orçamento mensal de R$ {_brl(orc)} em calls no dinheiro de {len(pos['pernas'])} ativos, vencimento {pos['vencimento']}"
             marcar(pos, indice, spot, dia)
             n += 1
     return n
@@ -264,18 +287,19 @@ def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None)
     indice = {(r["codigo"], str(pd.Timestamp(r["vencimento"]).date())): r for _, r in op[op["dia"] == dia].iterrows()}
     spot = {r["ativo"]: float(r["fech"]) for _, r in sp[(sp["dia"] == dia) & (sp["fatcot"] == 1)].iterrows()}
     mudou = False
+    travado = livro_estourado()                 # orcamento de queda do livro estourado: nada tatico novo (o capital protegido segue, e o seguro)
     if not ja:
         for pos in est["posicoes"]:
             if pos["estado"] == "aberta":
                 marcar(pos, indice, spot, dia)
-        novas = abrir_do_ranking(est, M, veredito_fn, dia)
+        novas = [] if travado else abrir_do_ranking(est, M, veredito_fn, dia)
         cp = abrir_capital_protegido(est, M, dia)
         est["posicoes"] += novas + ([cp] if cp else [])
         est["ultima_data"] = str(dia.date())
         mudou = True
     if completar_orcamento(est, M, indice, spot, dia):
         mudou = True
-    nt = abrir_teses(est, teses_abrir, dia)
+    nt = [] if travado else abrir_teses(est, teses_abrir, dia)
     if nt:
         est["posicoes"] += nt
         mudou = True
@@ -288,7 +312,9 @@ def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None)
                  "n_abertas": sum(1 for p in pos if p["estado"] == "aberta"), "n_encerradas": sum(1 for p in pos if p["estado"] == "encerrada"),
                  "risco_em_aberto_rs": round(sum(p["risco_rs"] for p in pos if p["estado"] == "aberta"), 2), "desde": est["desde"],
                  "capital_simulado_rs": CAPITAL, "ultima_data": est["ultima_data"], "regras": f"até {MAX_NOVAS_POR_DIA} novas por dia, perda máxima de R$ {_brl(RISCO_POR_ESTRUTURA)} por estrutura, "
-                 f"{MAX_ABERTAS} abertas e R$ {_brl(RISCO_TOTAL_MAX)} em risco; capital protegido (R$ {_brl(ORCAMENTO_MENSAL)} por mês) à parte"}
+                 f"{MAX_ABERTAS} abertas e R$ {_brl(RISCO_TOTAL_MAX)} em risco; capital protegido (R$ {_brl(orcamento_mensal())} por mês, 1% do capital da classe de opções) à parte"
+                 + ("; ORÇAMENTO DE QUEDA DO LIVRO ESTOURADO: nada novo abre" if travado else ""),
+                 "orcamento_mensal_rs": orcamento_mensal(), "livro_estourado": travado}
     saida = [{k: p.get(k) for k in ("id", "aberta_em", "titulo", "ativo", "estrutura", "pernas", "custo", "valor_hoje", "resultado_rs", "vencimento", "estado", "familia",
                                       "qtd", "risco_rs", "marcacao", "permanente", "fechada_em", "valor_final", "vantagem_na_abertura_pct", "nota", "origem", "tese_id",
                                       "orcamento_rs", "complementado_em")} for p in pos]

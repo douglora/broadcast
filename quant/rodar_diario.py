@@ -593,6 +593,12 @@ def main(argv=None):
         painel["regime"] = regime
     if MESA_DO_DIA:
         painel["mesa"] = dict(MESA_DO_DIA)
+    if modo == "paper":                                    # o livro inteiro: pesos, mao e queda contra o orcamento (quant/risco/livro.py)
+        try:
+            from quant.risco import livro
+            painel["livro"] = livro.ler_bloco() or livro.montar(args.capital or 100_000.0, hoje=args.data, gravar_historico=False)
+        except Exception as e:                             # bloco informativo: nunca derruba a boleta
+            log(f"bloco do livro nao montou: {type(e).__name__}: {e}")
     caminho = gravar_painel(painel)
     ms = painel["modo_seguro"]
     log(f"painel em {caminho} (origem: {painel['origem']}, modo: {modo})")

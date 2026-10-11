@@ -6,7 +6,8 @@ expressao DESTA tese pela regra abaixo.
 TESE (dict)
   id, ativo, direcao ("alta"|"baixa"), horizonte_pregoes, evento {"data","descricao"} ou None,
   cenarios [{"nome","probabilidade","retorno_do_ativo_pct"}] (2 ou 3; sem cenarios usa a distribuicao historica do ativo no prazo),
-  conviccao 1..3, origem ("mesa"|"douglas"|"robo"), texto, probabilidade_pendente (opcional: True = o numero e do Douglas, nada abre sozinho)
+  conviccao 1..3, origem ("mesa"|"douglas"|"robo"|"exemplo"), texto, probabilidade_pendente (opcional: True = o numero e do Douglas, nada abre sozinho),
+  exemplo (opcional: True = caso de estudo, nunca abre)
 
 EXPRESSOES (tese de alta; a de baixa e o espelho)
   alta : papel; call no dinheiro; call fora do dinheiro (delta ~0,25); trava de alta (compra no dinheiro, vende a de delta ~0,25);
@@ -254,6 +255,8 @@ def avaliar_tese(tese, M, esmagamento_pct=None, vencs_mensais=None, tr=None):
     o = M["o"]
     S0 = float(M["sp"][(M["sp"]["ativo"] == ativo) & (M["sp"]["dia"] == dia) & (M["sp"]["fatcot"] == 1)]["fech"].iloc[0]) if len(M["sp"][(M["sp"]["ativo"] == ativo) & (M["sp"]["dia"] == dia)]) else None
     base = {k: tese.get(k) for k in ("id", "ativo", "direcao", "texto", "origem", "evento", "conviccao", "horizonte_pregoes")}
+    if tese.get("exemplo"):
+        base["exemplo"] = True                  # caso de estudo: a tela marca e a carteira simulada nunca abre
     base["preco_do_ativo"] = S0
     if S0 is None:
         return {**base, "cenarios": tese.get("cenarios"), "expressoes": [], "escolhida": None, "porque": "Sem preço do ativo na cadeia de hoje."}, []
@@ -325,7 +328,7 @@ def avaliar_tese(tese, M, esmagamento_pct=None, vencs_mensais=None, tr=None):
              "vencimento_usado": str(pd.Timestamp(venc).date()), "pregoes_ate_o_vencimento": du, "esmagamento_considerado_pct": esmagamento_pct if tem_evento else None,
              "expressoes": itens, "escolhida": escolhida, "porque": porque, "regra_de_escolha": "maior valor esperado por R$ de perda máxima, entre as que cabem no teto de R$ 500 por estrutura (lote de 100) e têm valor esperado positivo"}
     abrir = None
-    if escolhida and tese.get("origem") in ("mesa", "robo") and not tese.get("probabilidade_pendente") and not historico:
+    if escolhida and tese.get("origem") in ("mesa", "robo") and not tese.get("probabilidade_pendente") and not tese.get("exemplo") and not historico:
         e_esc = next(e for it, e, ev in saida if it["nome"] == escolhida)
         if e_esc["legs"]:
             abrir = {"id": tese["id"], "ativo": ativo, "origem": tese["origem"],
@@ -372,12 +375,15 @@ def _porque(itens, tese, escolhida, o, ativo, venc, cen, historico):
 
 # --------------------------------------------------------------------------------------------------------- caso do Douglas
 def caso_bbas3(M, esmagamento_pct, movimento_pct, vencs_mensais=None, tr=None):
-    """Caso trabalhado: BBAS3, alta, 2o turno em 25/10/2026. A probabilidade do cenario politico NAO e preenchida: o numero e do Douglas.
+    """Caso de ESTUDO: BBAS3, alta, 2o turno em 25/10/2026. Em 11/10/2026 o Douglas disse que foi "so um exemplo pra voce entender uma forma
+    de pensamento" e que "entrar agora em call de BBAS acho que ja foi o momento": fica marcado `exemplo` e nunca abre.
     Devolve (bloco principal calculado a 50%, tabela de sensibilidade 40/50/60 com tamanhos de movimento)."""
     base = {"id": "douglas-bbas3-2o-turno-2026", "ativo": "BBAS3", "direcao": "alta", "horizonte_pregoes": 14,
-            "evento": {"data": "2026-10-25", "descricao": "2º turno da eleição presidencial de 2026 (domingo; reação na segunda, 26/10)"}, "conviccao": 2, "origem": "douglas",
-            "texto": "Se o candidato da direita ficar na frente, as estatais (Banco do Brasil) tendem a subir muito; se não, podem cair muito. A ideia dele é expressar a alta por calls, porque a perda máxima é o prêmio. "
-                     "A probabilidade do cenário político é do Douglas: a tabela mostra 40%, 50% e 60%.", "probabilidade_pendente": True}
+            "evento": {"data": "2026-10-25", "descricao": "2º turno da eleição presidencial de 2026 (domingo; reação na segunda, 26/10)"}, "conviccao": 2, "origem": "exemplo",
+            "texto": "EXEMPLO DE RACIOCÍNIO, não é operação. O Douglas deu este caso em 10/10/2026 para mostrar um jeito de pensar: antes de um evento que pode levar o papel para os dois lados "
+                     "(a eleição e as estatais), expressar a alta por calls, porque a perda máxima é o prêmio. Em 11/10/2026 ele avisou que, para BBAS3, o momento de entrar já passou. "
+                     "O caso fica aqui como modelo de como o livro compara papel, call e trava antes de um evento; nada abre a partir dele. A tabela mostra 40%, 50% e 60% de chance só para a conta.",
+            "probabilidade_pendente": True, "exemplo": True}
     saidas = {}
     for p in (0.4, 0.5, 0.6):
         t = dict(base)

@@ -737,6 +737,7 @@ class Robo:
             "protecao": self._bloco_protecao(),
             "regime": p.get("regime"),
             "mesa": p.get("mesa"),
+            "livro": p.get("livro"),
             "carteira": carteira,
             "sinais": self._sinais(),
             "paper": p.get("paper") or {}, "kill": p.get("kill") or [], "versao": p.get("versao") or {},

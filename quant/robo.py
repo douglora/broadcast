@@ -86,6 +86,9 @@ def passo(dia, nome, args, timeout=1800, repetir=False):
 # ─────────────────────────────────────────────────────────────
 # Os tres momentos
 # ─────────────────────────────────────────────────────────────
+PASSOS_AUXILIARES = ("risco", "livro")             # falha aqui e avisada no log, mas nao reprova a manha
+
+
 def preparar(dia=None, repetir=False):
     """Manha. A ordem e a de dependencia: preco -> evento -> balanco -> sinal -> validacao -> boleta."""
     dia = dia or agora_brt().date()
@@ -116,13 +119,17 @@ def preparar(dia=None, repetir=False):
         ("sinais", ["-m", "quant.sinais", "--ini", str(ano - 1), "--fim", str(ano)], 900),
         # o banco mudou (entrou o pregao de ontem): a validacao de ontem nao vale mais
         ("validacao", ["-m", "quant.validacao.replica_nefin", "--ini", "2008", "--fim", str(ano)], 900),
+        # orcamento de risco do livro (quant/risco): a mao das acoes pela volatilidade, com a carteira de ontem. A boleta le daqui.
+        # Passo auxiliar: se falhar, a boleta sai com mao cheia e diz isso; nao derruba a rotina.
+        ("risco", ["-m", "quant.risco.orcamento"], 600),
+        ("livro", ["-m", "quant.risco.livro"], 120),
         ("boleta", ["-m", "quant.rodar_diario", "--paper"], 600),
     ]
     tudo = True
     for nome, args, limite in passos:
-        # validacao e boleta dependem do que veio antes: se algo mudou hoje, refazem
-        ok = passo(dia, nome, args, timeout=limite, repetir=repetir or nome in ("validacao", "boleta"))
-        tudo = tudo and ok
+        # validacao, risco e boleta dependem do que veio antes: se algo mudou hoje, refazem
+        ok = passo(dia, nome, args, timeout=limite, repetir=repetir or nome in ("validacao", "risco", "livro", "boleta"))
+        tudo = tudo and (ok or nome in PASSOS_AUXILIARES)
     return tudo
 
 

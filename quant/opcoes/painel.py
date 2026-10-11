@@ -369,7 +369,7 @@ def gerar(rede=True, gravar_carteira=True):
     n_apr = sum(1 for e in estrategias if e["estado"] == "aprovada")
     texto = (f"{len(estrategias)} estratégias de opções testadas em histórico da B3 (2012-2026): {n_apr} aprovada(s), {n_med} em medição, {n_rep} reprovada(s). "
              "Vender put, vender call coberta, travas de crédito e comprar pozinho não pagaram o risco contra o CDI. "
-             "Em medição: o capital protegido (caixa no CDI e 1% do capital por mês em calls no dinheiro, que nunca perdeu mais que o orçamento e rendeu cerca de 2 pontos ao ano acima do CDI), "
+             "Em medição: o capital protegido (caixa no CDI e 1% desse caixa por mês em calls no dinheiro, que nunca perdeu mais que o orçamento e rendeu cerca de 2 pontos ao ano acima do CDI), "
              "o straddle onde a opção está barata contra a volatilidade realizada de 252 dias, a arbitragem de fechamento e a proteção de BOVA11 com put, colar e trava de baixa. "
              "Nenhuma está aprovada: o Sharpe deflacionado fica abaixo de 0,95.")
     return {
@@ -445,12 +445,15 @@ def _pt(x, casas=1, sinal=False):
 def montar_estrategias_novas(RA, R):
     """Entradas do quadro de estrategias para as hipoteses A0 a A6 (resultados_assimetrias.json). A primeira e o capital protegido."""
     a0, a1, a2, a3, a4, a5, a6 = RA["A0"], RA["A1"], RA["A2"], RA["A3"], RA["A4"], RA["A5"], RA["A6"]
-    nome0 = "call_atm_1m orcamento=1.0%"        # o Douglas aprovou 1% do capital por mes (R$ 1.000) em 10/10/2026
+    nome0 = "call_atm_1m orcamento=1.0%"        # o Douglas aprovou 1% por mes em 10/10/2026; desde 11/10 a base e o capital da classe de opcoes
+    orc = carteira_simulada.orcamento_mensal()
+    base_rs = orc / carteira_simulada.ORCAMENTO_PCT
     h0, v0 = a0["variantes"][nome0], a0["historico_completo"][nome0]
     pr0 = a0["prova"][nome0]
     out = []
     out.append({
-        "nome": "capital_protegido", "titulo": "Capital protegido feito em casa: caixa no CDI e 1% do capital por mês (R$ 1.000 em R$ 100 mil) em calls no dinheiro (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3)",
+        "nome": "capital_protegido", "titulo": (f"Capital protegido feito em casa: caixa no CDI e 1% desse caixa por mês (R$ {_pt(orc, 0)} sobre os R$ {_pt(base_rs / 1000, 0)} mil da classe de opções) "
+                   "em calls no dinheiro (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3)"),
         "hipotese": "O caixa rende o CDI (juro alto no Brasil) e só um orçamento fixo por mês compra convexidade: a perda máxima no ano é o orçamento e o ganho é aberto. "
                     "Do outro lado estão os vendedores de volatilidade; a hipótese só paga se a alta em poucos meses compensar o desgaste dos meses parados.",
         "estado": "medindo",
@@ -458,7 +461,8 @@ def montar_estrategias_novas(RA, R):
                       "queda_maxima_pct": v0["queda_maxima_pct"], "pior_mes_pct": v0["pior_mes_pct"], "sharpe_deflacionado": v0["sharpe_deflacionado"],
                       "excesso_anual_pct": v0["excesso_anual_pct"], "cdi_anual_pct": v0["cdi_anual_pct"], "pior_ano_pct": v0["pior_ano_pct"],
                       "captura_da_alta_pct": v0["captura_da_alta_pct"], "anos_acima_do_cdi_pct": v0["anos_acima_do_cdi_pct"]},
-        "nota": (f"Números medidos com o orçamento de 1% do capital por mês. PASSOU nas três fases: Sharpe {_pt(h0['descoberta']['sharpe'], 2)} (descoberta), {_pt(h0['validacao']['sharpe'], 2)} (validação) e {_pt(pr0['sharpe'], 2)} (prova 2024-2026, aberta uma vez); "
+        "nota": (f"Números medidos com o orçamento de 1% ao mês sobre o capital que fica no CDI; por isso a base é o capital da classe de opções, não o do livro inteiro "
+                 f"(corrigido em 11/10/2026: 1% do livro inteiro gastaria mais que o rendimento do caixa da classe). PASSOU nas três fases: Sharpe {_pt(h0['descoberta']['sharpe'], 2)} (descoberta), {_pt(h0['validacao']['sharpe'], 2)} (validação) e {_pt(pr0['sharpe'], 2)} (prova 2024-2026, aberta uma vez); "
                  f"excesso sobre o CDI de {_pt(h0['descoberta']['excesso_anual_pct'], 1, True)}, {_pt(h0['validacao']['excesso_anual_pct'], 1, True)} e {_pt(pr0['excesso_anual_pct'], 1, True)} ponto(s) ao ano. "
                  f"NÃO está aprovada: Sharpe deflacionado {_pt(v0['sharpe_deflacionado'], 2)} (exige-se 0,95) e o retorno extra é pequeno. "
                  f"'Nunca perde mais que o orçamento' se confirmou: pior mês {_pt(v0['pior_mes_pct'], 2)}% do patrimônio e pior ano {_pt(v0['pior_ano_pct'], 1)}% (a cesta de ações teve {_pt(v0['pior_ano_do_ativo_pct'], 0)}% em um ano). "
@@ -581,10 +585,11 @@ def montar_teses(M, dia):
                                                    "prob_exigida_pct": {e["nome"]: e["probabilidade_que_o_preco_exige_pct"] for e in b["expressoes"]}} for p, b in bb.items()}
         principal["sensibilidade_movimento"] = sens
         principal["movimento_base_pct"] = ctx["mov_base"]
-        principal["nota_probabilidade"] = "A probabilidade do cenário político NÃO foi preenchida pelo robô: 50% é só o ponto médio da tabela. O número é do Douglas."
+        principal["nota_probabilidade"] = ("Caso de estudo: mostra como o livro compara papel, call e trava antes de um evento. Não é operação e nada abre a partir dele "
+                                           "(o Douglas avisou em 11/10/2026 que o momento de entrada em BBAS3 já passou). 50% é só o ponto médio da tabela.")
         blocos.append(principal)
     except Exception as e:  # noqa: BLE001
-        blocos.append({"id": "douglas-bbas3-2o-turno-2026", "ativo": "BBAS3", "direcao": "alta", "origem": "douglas", "expressoes": [], "escolhida": None, "porque": f"Falha ao montar o caso: {type(e).__name__}"})
+        blocos.append({"id": "douglas-bbas3-2o-turno-2026", "ativo": "BBAS3", "direcao": "alta", "origem": "exemplo", "exemplo": True, "expressoes": [], "escolhida": None, "porque": f"Falha ao montar o caso: {type(e).__name__}"})
     # 2) teses da mesa e do robo (arquivos podem nao existir)
     for t in livro_teses.ler_teses_mesa() + livro_teses.teses_da_visao_mesa(dia):
         ev = t.get("evento") or {}
