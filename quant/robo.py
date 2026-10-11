@@ -89,12 +89,28 @@ def passo(dia, nome, args, timeout=1800, repetir=False):
 PASSOS_AUXILIARES = ("risco", "livro")             # falha aqui e avisada no log, mas nao reprova a manha
 
 
-def preparar(dia=None, repetir=False):
-    """Manha. A ordem e a de dependencia: preco -> evento -> balanco -> sinal -> validacao -> boleta."""
+def _boleta_swing_emitida(dia):
+    from quant.swing import boleta
+    b = boleta.ler_boleta(dia)
+    return bool(b and b.get("emitida"))
+
+
+def preparar(dia=None, repetir=False, mods=None):
+    """Manha. A ordem e a de dependencia: preco -> evento -> balanco -> sinal -> validacao -> boleta.
+
+    `mods`: quais modulos a rodada serve (padrao: os de `modulos()`). Os passos de dado sao os mesmos; no fim a carteira de fatores faz risco, livro
+    e boleta, e o swing faz a conciliacao com as barras oficiais, os sinais e a boleta de swing (`quant.swing.boleta`). Sem "swing" na lista nada muda
+    para a carteira de fatores; com "swing" e sem "fatores", os passos de fatores nao rodam."""
     dia = dia or agora_brt().date()
     ano = dia.year
     segunda = dia.weekday() == 0
-    if not repetir and _boleta_da_manha(dia) and (_boleta_da_manha(dia) or {}).get("emitida"):
+    mods = list(mods) if mods is not None else modulos()
+    com_swing = "swing" in mods
+    com_fatores = "fatores" in mods or not com_swing
+    if not com_fatores and not repetir and _boleta_swing_emitida(dia):
+        log(f"rotina: a boleta de swing de {dia} ja foi emitida; a preparacao nao roda de novo")
+        return True
+    if com_fatores and not repetir and _boleta_da_manha(dia) and (_boleta_da_manha(dia) or {}).get("emitida"):
         # reinicio do robo com a boleta de hoje ja emitida: nada a refazer. Rodar de novo os sinais ou a
         # boleta no meio do dia nao muda o que ja saiu (o robo fica com a primeira), so gasta tempo.
         log(f"rotina: a boleta de {dia} ja foi emitida; a preparacao nao roda de novo")
@@ -123,12 +139,17 @@ def preparar(dia=None, repetir=False):
         # Passo auxiliar: se falhar, a boleta sai com mao cheia e diz isso; nao derruba a rotina.
         ("risco", ["-m", "quant.risco.orcamento"], 600),
         ("livro", ["-m", "quant.risco.livro"], 120),
-        ("boleta", ["-m", "quant.rodar_diario", "--paper"], 600),
     ]
+    if com_fatores:
+        passos.append(("boleta", ["-m", "quant.rodar_diario", "--paper"], 600))
+    # sem fatores, "risco" e "livro" seguem: a exposicao de acoes do swing (config_carteira.exposicao_acoes) vem do orcamento de risco
+    if com_swing:
+        # swing: concilia as posicoes com as barras oficiais de ontem, acha os sinais do ultimo fechamento e grava a boleta do dia (e a tela)
+        passos.append(("swing", ["-m", "quant.swing.boleta"], 900))
     tudo = True
     for nome, args, limite in passos:
         # validacao, risco e boleta dependem do que veio antes: se algo mudou hoje, refazem
-        ok = passo(dia, nome, args, timeout=limite, repetir=repetir or nome in ("validacao", "risco", "livro", "boleta"))
+        ok = passo(dia, nome, args, timeout=limite, repetir=repetir or nome in ("validacao", "risco", "livro", "boleta", "swing"))
         tudo = tudo and (ok or nome in PASSOS_AUXILIARES)
     return tudo
 
@@ -136,6 +157,11 @@ def preparar(dia=None, repetir=False):
 def vivo(ate=HORA_FIM_VIVO):
     from quant.execucao import robo_vivo
     return robo_vivo.rodar(ate=ate)
+
+
+def vivo_swing(ate=HORA_FIM_VIVO):
+    from quant.swing import vivo as vivo_sw
+    return vivo_sw.rodar(ate=ate)
 
 
 def _boleta_da_manha(dia):
@@ -207,12 +233,13 @@ def modo():
     return str((m or {}).get("robo") or "fatores")
 
 
-MODULOS_VALIDOS = ("fatores", "daytrade")
+MODULOS_VALIDOS = ("fatores", "swing", "daytrade")
 
 
 def modulos():
     """Quais robos rodam no dia. Em 10/10/2026 o Douglas pediu os modulos lado a lado (carteira multifatorial e day trade
-    de mini-dolar): `"modulos": ["fatores", "daytrade"]` em modo_robo.json. Sem essa chave vale o modo antigo, um so."""
+    de mini-dolar): `"modulos": ["fatores", "daytrade"]` em modo_robo.json. Sem essa chave vale o modo antigo, um so.
+    Em 11/10/2026 entrou o "swing" (acoes de curto prazo, ate 10 pregoes): `"modulos": ["swing", "daytrade"]` roda o swing no lugar de "fatores"."""
     m = ler_json(ARQ_MODO, padrao=None) or {}
     lista = m.get("modulos")
     if isinstance(lista, (list, tuple)):
@@ -222,26 +249,32 @@ def modulos():
     return [modo()]
 
 
-def _dia_dos_dois(hoje):
-    """Carteira e day trade no mesmo dia, cada um no seu processo: a carteira passa minutos baixando dado de manha e
-    fica ate a noite esperando a fita oficial; o day trade nao pode esperar por nada disso. Cada robo tem a sua trava de
-    instancia unica, o seu estado e o seu arquivo de tela. Este processo so sai depois de o day trade terminar: se saisse
-    antes com erro, o agendador o religaria e tentaria subir um segundo day trade."""
-    log("rotina: carteira de fatores e day trade lado a lado, cada um no seu processo (simulacao)")
-    filho = None
+def _dia_dos_dois(hoje, mods=None):
+    """Acoes e day trade no mesmo dia, cada um no seu processo: a carteira passa minutos baixando dado de manha e fica ate a noite esperando
+    a fita oficial (o swing, ate o fim do pregao); o day trade nao pode esperar por nada disso. Cada robo tem a sua trava de instancia unica,
+    o seu estado e o seu arquivo de tela. Este processo so sai depois de o day trade terminar: se saisse antes com erro, o agendador o religaria e
+    tentaria subir um segundo day trade.
+
+    O modulo de acoes que roda NESTE processo e o swing quando a lista tem "swing" e nao tem "fatores"; senao e a carteira de fatores (como sempre foi).
+    Se a lista tem os dois, o swing sobe num processo a parte, como o day trade."""
+    mods = list(mods) if mods is not None else modulos()
+    acoes = "swing" if ("swing" in mods and "fatores" not in mods) else "fatores"
+    log(f"rotina: {'swing' if acoes == 'swing' else 'carteira de fatores'} e day trade lado a lado, cada um no seu processo (simulacao)")
+    filhos = []
+    for nome in (["daytrade"] + (["swing"] if ("swing" in mods and "fatores" in mods) else [])):
+        try:
+            filhos.append(subprocess.Popen([sys.executable, "-W", "ignore", "-u", "-m", "quant.robo", "dia", "--modulo", nome], cwd=RAIZ))
+        except OSError as e:
+            log(f"rotina: nao consegui subir o modulo {nome} ({type(e).__name__}: {e}); o modulo de acoes segue sozinho")
     try:
-        filho = subprocess.Popen([sys.executable, "-W", "ignore", "-u", "-m", "quant.robo", "dia", "--modulo", "daytrade"], cwd=RAIZ)
-    except OSError as e:
-        log(f"rotina: nao consegui subir o day trade ({type(e).__name__}: {e}); a carteira segue sozinha")
-    try:
-        _dia_fatores(hoje)
-    except Exception as e:                           # a carteira nao derruba o day trade
-        log(f"rotina: a carteira de fatores parou com erro ({type(e).__name__}: {e}); o day trade segue ate o fim do pregao")
-    if filho is not None:
+        (_dia_swing if acoes == "swing" else _dia_fatores)(hoje)
+    except Exception as e:                           # as acoes nao derrubam o day trade
+        log(f"rotina: o modulo de acoes ({acoes}) parou com erro ({type(e).__name__}: {e}); o day trade segue ate o fim do pregao")
+    for filho in filhos:
         try:
             filho.wait()
         except Exception as e:
-            log(f"rotina: esperando o day trade: {type(e).__name__}: {e}")
+            log(f"rotina: esperando o processo filho: {type(e).__name__}: {e}")
     return 0
 
 
@@ -252,8 +285,10 @@ def dia(so=None):
         log(f"{hoje} nao e pregao: nada a fazer")
         return 0
     mods = [so] if so in MODULOS_VALIDOS else modulos()
-    if "fatores" in mods and "daytrade" in mods:
+    if ("fatores" in mods or "swing" in mods) and "daytrade" in mods:
         return _dia_dos_dois(hoje)
+    if mods[0] == "swing":
+        return _dia_swing(hoje)
     if mods[0] == "daytrade":
         # day trade nao tem preparacao de manha nem medicao a noite: so o pregao, e zera antes do fim
         regra = str((ler_json(ARQ_MODO, padrao=None) or {}).get("regra") or "v0")
@@ -289,6 +324,16 @@ def _dia_fatores(hoje):
     return 0          # codigo 0 de proposito: o agendador religa o processo quando ele sai com erro
 
 
+def _dia_swing(hoje):
+    """Swing (acoes de curto prazo, ate 10 pregoes): manha (dados, conciliacao com as barras oficiais, sinais, boleta) e pregao (entrada na abertura,
+    stop, alvo e prazo ao vivo). Nao ha medicao a noite: as operacoes so medidas sao resolvidas pelas barras oficiais na manha seguinte."""
+    hm = lambda: agora_brt().strftime("%H:%M")        # noqa: E731
+    if hm() < HORA_FIM_VIVO:
+        preparar(hoje, mods=["swing"])
+        vivo_swing()
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Rotina diaria do robo quant (simulacao)")
     ap.add_argument("comando", choices=["dia", "preparar", "vivo", "fechar", "estado", "desligar", "ligar"])
@@ -297,7 +342,8 @@ def main(argv=None):
     ap.add_argument("--fita-do-robo", action="store_true",
                     help="com `fechar`: usa a fita que o robo viu ao vivo em vez da oficial da B3")
     ap.add_argument("--modulo", choices=list(MODULOS_VALIDOS), default=None,
-                    help="com `dia`: roda so este modulo (a rotina usa para subir o day trade num processo a parte)")
+                    help="com `dia`: roda so este modulo (a rotina usa para subir o day trade num processo a parte); "
+                         "com `preparar`: prepara so este modulo (ex.: --modulo swing faz a boleta de swing no lugar da de fatores)")
     args = ap.parse_args(argv)
     d = datetime.strptime(args.data, "%Y-%m-%d").date() if args.data else agora_brt().date()
     if args.comando in ("desligar", "ligar"):
@@ -310,7 +356,7 @@ def main(argv=None):
     if args.comando == "dia":
         return dia(so=args.modulo)
     if args.comando == "preparar":
-        return 0 if preparar(d, repetir=args.repetir) else 1
+        return 0 if preparar(d, repetir=args.repetir, mods=[args.modulo] if args.modulo else None) else 1
     if args.comando == "vivo":
         return vivo()
     if args.comando == "fechar":

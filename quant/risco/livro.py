@@ -157,10 +157,29 @@ def _json(caminho, padrao=None):
         return padrao
 
 
-def resultado_acoes(capital, arq=None):
-    """(agora, pico) do resultado acumulado da carteira de acoes, pelo patrimonio que o robo grava a cada pregao."""
-    s = _json(arq or os.path.join(DIR_SAIDA, "vivo", "serie.json"), []) or []
-    v = [float(x["patrimonio"]) - float(capital) for x in s if isinstance(x, dict) and x.get("patrimonio") is not None]
+def _serie_de_resultado(arq, capital):
+    """data -> resultado acumulado (patrimonio menos o capital inicial) de um livro que grava `serie.json`."""
+    s = _json(arq, []) or []
+    return {str(x["data"]): float(x["patrimonio"]) - float(capital) for x in s
+            if isinstance(x, dict) and x.get("data") and x.get("patrimonio") is not None}
+
+
+def resultado_acoes(capital, arq=None, arq_swing=None, capital_swing=None):
+    """(agora, pico) do resultado acumulado do modulo de acoes: a carteira de fatores (quant/saida/vivo/serie.json) mais o livro de
+    swing (quant/saida/swing/serie.json, so as operacoes COM capital). Cada livro leva adiante o ultimo valor nos dias em que nao gravou."""
+    fat = _serie_de_resultado(arq or os.path.join(DIR_SAIDA, "vivo", "serie.json"), capital)
+    if capital_swing is None:
+        capital_swing = float(capital) * float(PADRAO["pesos"]["acoes"])
+        try:
+            from quant.swing import evidencia
+            capital_swing = float(evidencia.config()["capital"])
+        except Exception:
+            pass
+    swi = _serie_de_resultado(arq_swing or os.path.join(os.environ.get("QUANT_SWING_DIR") or os.path.join(DIR_SAIDA, "swing"), "serie.json"), capital_swing)
+    v, a, b = [], 0.0, 0.0
+    for d in sorted(set(fat) | set(swi)):
+        a, b = fat.get(d, a), swi.get(d, b)
+        v.append(a + b)
     return (v[-1], max([0.0] + v)) if v else (0.0, 0.0)
 
 

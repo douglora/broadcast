@@ -45,6 +45,7 @@ metodo em quant/saida/pesquisa5/BRIEF.md) e move a linha para "Testadas" com os 
    agressor no contrato vigente, e o contrato vencido some do servidor. Ha 28 pregoes do WDOX26 e 42 do WINV26 gravados
    por minuto; a fita diaria do robo acumula o mini-dolar dai para a frente. So testar leitura de fluxo com agressor real
    quando houver 120+ pregoes (por volta de 03/2027); ate la, NAO garimpar os 28 pregoes.
+
 ## Testadas
 
 (08/10/2026) Sete frentes, mais de 12 mil medicoes: ver quant/estudos/LEIA.md. Passou so a reversao do dado americano.
@@ -177,3 +178,34 @@ quant/saida/pesquisa5/noite/2026-10-09/). Nenhuma candidata.
   NENHUMA passou. Tendencia (momentum de 21/63/126 dias) teve Sharpe 1,1 a 1,2 em 2000-2015 e caiu para 0,16 a 0,26 em
   2016-2021 (queda maxima de 17% a 28%); carrego, DXY, EMBI, VIX, commodities, fim de mes, Copom e Fed: nada na validacao.
   A prova 2022-09/2026 NAO foi aberta. Candidata a prova viva (so medir): `tsm_media`, via `dolar_dias/sinal_hoje.py`.
+
+(11/10/2026) META DO DIA DE R$ 100 LIQUIDOS NO MINI-DOLAR (mandato do Douglas: "pode ser seguro... 0,10% ao dia liquido"). Medicao completa em
+`quant/pesquisa/META_DIA.md` (motor em `quant/pesquisa/meta_dia.py`, conferido contra o `historico.py` do robo: mesmos negocios). Descoberta 10/2021-12/2024
+(805 pregoes) e validacao 2025 (250); 2026 nao foi aberto. Duas hipoteses pre-registradas ANTES de rodar, so descoberta; nenhuma passou:
+- Item 16, meta como trava de entrada com a posicao do dado protegida em +R$ 90 (em vez de zerar): media por pregao +R$ 1,3 (t 0,2) contra +R$ 4,7 do teto
+  simples e +R$ 42,1 do dado sem teto; 338 negocios, acerto 82,5%, ganho medio R$ 90, perda media R$ 408; pior dia -R$ 815; queda maxima R$ 5.482.
+  NAO PASSA (pedia superar +R$ 4,7). Em barra de 1 minuto a protecao vale so a partir da barra seguinte e o preco ja voltou: ela vira o teto simples
+  um pouco pior: 7 negocios correm ate o tempo (media +R$ 665), 12 que o teto simples fecharia em +R$ 95 saem da protecao perto de zero (media -R$ 16) e os
+  outros 271 ganham R$ 90 em vez de R$ 95; so tique a tique diria se a protecao ajuda de verdade.
+- Item 17, teto de R$ 100 com stop de 10, 15 e 20 pontos (em vez de 40): media por pregao -R$ 3,9 (stop 10, acerto 66%), -R$ 5,9 (stop 15, acerto 73%) e
+  -R$ 3,7 (stop 20, acerto 79%); pior dia -R$ 215, -R$ 315, -R$ 415. NAO PASSA (pedia superar +R$ 4,7): o stop curto troca perda grande por perda
+  frequente e a conta fica negativa. A reacao ao dado ainda anda 10 a 20 pontos contra antes de voltar, como a hipotese contraria dizia.
+- Pre-registro (texto original):
+  16. [PRE-REGISTRO 11/10/2026, ANTES de rodar; mandato do Douglas: meta do mini-dolar de R$ 100 liquidos por dia, "pode ser seguro"]
+     META COMO TRAVA DE ENTRADA COM A POSICAO DO DADO PROTEGIDA (em vez de zerar a mercado). Mecanismo: o ganho do setup do dado esta nos
+     negocios que correm (saida por tempo: media de +R$ 184), e zerar em +R$ 100 troca isso por +R$ 95 em 85% dos negocios e deixa os 15% que nao
+     chegam la perderem R$ 487 (medida de 11/10 em `quant/pesquisa/META_DIA.md`). Regra: as mesmas entradas do dado (congeladas: 2 min, gatilho 3
+     pontos, stop 40, tempo 120, 2 contratos); ao PRIMEIRO toque de +R$ 100 liquidos no dia (aberto, como o robo mede), o robo NAO zera: leva o stop
+     para o preco em que o dia ainda fecha em +R$ 90 liquidos depois do deslize de 1 tick (vale a partir da barra seguinte), nao abre entrada nova, e
+     a posicao segue ate o tempo (120 min) ou ate a trava. Quem esta do outro lado: o mesmo do dado (quem exagerou a reacao ao numero). Parametros: 1
+     (o nivel da trava, +R$ 90); a meta (+R$ 100) e do Douglas. Descoberta 10/2021-12/2024 (805 pregoes), depois validacao 2025, depois a prova so se
+     passar; 2026 NAO se abre (ja foi prova do dado). Criterio para passar da descoberta: media por pregao acima da do teto simples (+R$ 4,7) E nao
+     pior que o dado sem teto no pior dia, E pelo menos 30% dos pregoes com +R$ 100 tocados; para ser candidata a robo: media por pregao >= R$ 40 na
+     descoberta e positiva na validacao, t >= 2. Precisaria de mudanca de regra de SAIDA no robo (nao feita).
+  17. [PRE-REGISTRO 11/10/2026, ANTES de rodar] ALVO CURTO COM STOP CURTO no setup do dado (a ideia de "seguro" do Douglas): as mesmas entradas
+     do dado, saida pela meta de +R$ 100 liquidos (zera a mercado) e stop de 10, 15 ou 20 pontos em vez de 40 (3 configuracoes; cada stop e uma
+     tentativa). Mecanismo: se o preco quase nunca anda mais de 10 a 20 pontos contra a entrada antes de devolver 5,5 pontos, o stop curto troca a
+     perda de R$ 487 por R$ 230 a R$ 450 e a expectativa sobe. Hipotese contraria (a que eu espero): a reacao ao dado e justamente o movimento
+     que ainda pode se estender 15 a 20 pontos antes de voltar, e um stop curto troca o acerto de 85% por 60% sem pagar a diferenca. Mesma regra de
+     descoberta/validacao/prova do item 16; passa da descoberta se a media por pregao superar a do teto simples com o stop de 40 (+R$ 4,7) e o
+     pior dia ficar acima de -R$ 500.

@@ -131,3 +131,13 @@ def test_caso_de_estudo_nunca_abre():
     fonte = inspect.getsource(teses.caso_bbas3)
     assert '"exemplo": True' in fonte and '"origem": "exemplo"' in fonte
     assert 'not tese.get("exemplo")' in inspect.getsource(teses.avaliar_tese)
+
+
+def test_resultado_das_acoes_soma_fatores_e_swing(tmp_path):
+    fat = tmp_path / "fat.json"
+    swi = tmp_path / "swi.json"
+    fat.write_text(json.dumps([{"data": "2026-10-08", "patrimonio": 99_900.0}]))                       # fatores: -100, depois parou
+    swi.write_text(json.dumps([{"data": "2026-10-13", "patrimonio": 60_500.0}, {"data": "2026-10-14", "patrimonio": 59_700.0}]))
+    agora, pico = livro.resultado_acoes(100_000, arq=str(fat), arq_swing=str(swi), capital_swing=60_000)
+    assert agora == pytest.approx(-400.0) and pico == pytest.approx(400.0)                               # -100 +500 no pico; -100 -300 agora
+    assert livro.resultado_acoes(100_000, arq=str(tmp_path / "x.json"), arq_swing=str(tmp_path / "y.json"), capital_swing=60_000) == (0.0, 0.0)
