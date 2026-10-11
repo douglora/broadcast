@@ -436,3 +436,102 @@ def test_main_holdout_com_comparar_chama_a_abertura_multipla(monkeypatch):
                     "--comparar", "S0,S1,R1,R2,R3,R4,R5", "--sinais", "x/sinais.parquet"]) == 1
     assert chamadas["principal"] == "S2" and chamadas["comparar"] == ["S0", "S1", "R1", "R2", "R3", "R4", "R5"]
     assert chamadas["config"]["sinais"] == "sinais.parquet"
+
+
+# ─────────────────────────────────────────────────────────────
+# Mao (tamanho da posicao) dentro do motor
+# ─────────────────────────────────────────────────────────────
+def _rodar_sem_hedge(sinais, ret, cdi, **kw):
+    return bt.rodar(sinais, ret, cdi, ini=INI, fim=FIM, capital=100_000.0, com_hedge=False, **kw)
+
+
+def test_mao_fixa_em_um_reproduz_o_motor_sem_mao(mercado):
+    sinais, ret, cdi, _, _ = mercado
+    a = _rodar_sem_hedge(sinais, ret, cdi)
+    b = _rodar_sem_hedge(sinais, ret, cdi, mao={"regra": "fixa", "exposicao": 1.0})
+    pd.testing.assert_frame_equal(a["serie"], b["serie"].drop(columns=["exposicao_mao"]))
+    assert b["custo_mao"] == 0.0 and (b["serie"]["exposicao_mao"] == 1.0).all()
+
+
+def test_mao_desligada_nao_acrescenta_coluna_nem_chave(mercado):
+    sinais, ret, cdi, _, _ = mercado
+    a = _rodar_sem_hedge(sinais, ret, cdi)
+    assert "exposicao_mao" not in a["serie"].columns and "mao" not in a
+
+
+def test_mao_fixa_em_meio_fica_perto_de_metade_do_resultado_das_acoes(mercado):
+    sinais, _, _, _, _ = mercado
+    ret = _retornos(taxa=0.0006, seed=9)
+    cheio = _rodar_sem_hedge(sinais, ret, _cdi(0.0))
+    meio = _rodar_sem_hedge(sinais, ret, _cdi(0.0), mao={"regra": "fixa", "exposicao": 0.5})
+    g_cheio = cheio["serie"]["patrimonio"].iloc[-1] - 100_000.0
+    g_meio = meio["serie"]["patrimonio"].iloc[-1] - 100_000.0
+    assert g_cheio > 1_000
+    assert abs(g_meio / g_cheio - 0.5) < 0.08
+    ok, erro = bt.verificar_contabilidade(meio["serie"])
+    assert ok, erro
+
+
+def test_mao_com_cdi_a_parte_fora_das_acoes_rende_o_cdi(mercado):
+    """Com retorno das acoes zero e e = 0,5, a metade 'vendida' rende o CDI sobre o valor das acoes."""
+    sinais, _, _, _, _ = mercado
+    ret = _retornos(taxa=0.0, seed=2) * 0.0
+    cdi = _cdi(0.0004)
+    cheio = _rodar_sem_hedge(sinais, ret, cdi)
+    meio = _rodar_sem_hedge(sinais, ret, cdi, mao={"regra": "fixa", "exposicao": 0.5})
+    # as acoes nao rendem nada: o patrimonio so ganha CDI no caixa; na versao meio, mais CDI (sobre metade das acoes)
+    assert meio["serie"]["patrimonio"].iloc[-1] > cheio["serie"]["patrimonio"].iloc[-1]
+
+
+def test_mao_por_volatilidade_diminui_a_mao_no_choque_e_cobra_custo(mercado):
+    sinais, _, cdi, _, _ = mercado
+    dias = _pregoes()
+    rng = np.random.default_rng(4)
+    vol = np.full(len(dias), 0.004)
+    vol[300:340] = 0.03                                   # choque de volatilidade
+    ret = pd.DataFrame({t: rng.normal(0.0003, vol) for t in _retornos().columns}, index=dias)
+    r = _rodar_sem_hedge(sinais, ret, cdi, mao={"regra": "vol", "janela": 21, "teto": 1.0})
+    e = r["serie"].set_index("data")["exposicao_mao"]
+    assert e.min() < 0.7 and e.max() <= 1.0 + 1e-12
+    assert r["custo_mao"] > 0
+    ok, erro = bt.verificar_contabilidade(r["serie"])
+    assert ok, erro
+
+
+def test_mao_por_queda_corta_depois_da_queda_e_nunca_alavanca(mercado):
+    sinais, _, cdi, _, _ = mercado
+    dias = _pregoes()
+    ret = pd.DataFrame({t: np.where(np.arange(len(dias)) == 200, -0.15, 0.0003) for t in _retornos().columns}, index=dias)
+    r = _rodar_sem_hedge(sinais, ret, cdi, mao={"regra": "queda", "limiar": 0.05})
+    e = r["serie"].set_index("data")["exposicao_mao"]
+    assert e.min() == 0.5 and e.max() == 1.0
+    primeiro_corte = e.index[(e < 1.0).to_numpy().argmax()]
+    assert primeiro_corte > dias[200]                       # so DEPOIS da queda, com a defasagem do projeto
+
+
+def test_mao_do_passado_nao_depende_do_futuro(mercado):
+    sinais, ret, cdi, _, _ = mercado
+    cfg = {"regra": "vol", "janela": 21, "teto": 1.0}
+    a = _rodar_sem_hedge(sinais, ret, cdi, mao=cfg)
+    dias = _pregoes()
+    alt = ret.copy()
+    alt.iloc[400:] = np.random.default_rng(8).normal(-0.01, 0.04, alt.iloc[400:].shape)
+    b = _rodar_sem_hedge(sinais, alt, cdi, mao=cfg)
+    sa, sb = a["serie"].set_index("data"), b["serie"].set_index("data")
+    corte = dias[400]
+    pd.testing.assert_frame_equal(sa[sa.index < corte][["patrimonio", "caixa", "exposicao_mao"]],
+                                  sb[sb.index < corte][["patrimonio", "caixa", "exposicao_mao"]])
+
+
+def test_mao_regra_desconhecida_levanta(mercado):
+    sinais, ret, cdi, _, _ = mercado
+    with pytest.raises(ValueError):
+        _rodar_sem_hedge(sinais, ret, cdi, mao={"regra": "palpite"})
+
+
+def test_mao_funciona_junto_com_o_regime(mercado):
+    sinais, ret, cdi, excesso, nivel = mercado
+    r = bt.rodar(sinais, ret, cdi, excesso, nivel, ini=INI, fim=FIM, capital=100_000.0,
+                 regime=_plano(_pregoes(), razao=0.5), mao={"regra": "vol", "janela": 21, "teto": 1.0})
+    ok, erro = bt.verificar_contabilidade(r["serie"])
+    assert ok, erro

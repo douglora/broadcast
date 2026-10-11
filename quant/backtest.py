@@ -50,6 +50,7 @@ from quant import carteira as ct
 from quant import custos as cst
 from quant import livro
 from quant import regime as rg
+from quant.risco import mao as mao_mod
 from quant import sinais as sg
 from quant.comum import DIR_SAIDA, garantir_dir, log
 from quant.dados import calendario, mercado
@@ -121,7 +122,7 @@ def verificar_contabilidade(serie, tolerancia=0.01):
 # ─────────────────────────────────────────────────────────────
 def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, fim=DATA_FIM,
           capital=CAPITAL, estresse=1.0, config=None, com_hedge=True, modo="intersecao",
-          regime=None):
+          regime=None, mao=None):
     """Roda o backtest e devolve um dict com a serie diaria, as ordens e o P&L por nome.
 
     painel_sinais: saida de `sinais.painel`. retornos: painel largo data x ticker de
@@ -133,6 +134,14 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
     ate R$200 mil" e passa a ser `razao_exec x valor das acoes` em nocional, em contratos inteiros
     e limitado pela margem, reajustado quando a razao muda, no dia da boleta e no roll; (3) o
     stop da perna vendida vem pronto no plano. Sem `com_hedge` o regime so mexe nas acoes.
+
+    mao (opcional): regra de TAMANHO DA POSICAO de `quant.risco.mao`, como dict. {"regra": "vol", "janela": 63,
+    "teto": 1.0} (exposicao = alvo / volatilidade dos ultimos N pregoes da propria carteira de acoes, em excesso
+    do CDI); {"regra": "queda", "limiar": 0.10} (metade da mao com 10% de queda do patrimonio, volta com metade
+    da recuperacao); {"regra": "fixa", "exposicao": 0.5} (so para teste). DESLIGADO (None) o resultado e exatamente
+    o de antes. Ligado, e uma sobreposicao: a fracao (1 - e) do resultado diario das acoes sai do caixa e essa fracao
+    do valor das acoes rende o CDI; o custo de cada mudanca de e e o custo real por ordem do projeto sobre
+    |variacao de e| x valor de cada posicao. Defasagem do projeto: decide em t, rende de t+2.
     """
     ini_ts, fim_ts = pd.Timestamp(ini), pd.Timestamp(fim)
     if painel_sinais is None or len(painel_sinais) == 0 or retornos is None or len(retornos) == 0:
@@ -169,6 +178,8 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
 
     estado = ct.estado_inicial(capital, primeiro)
     plano = _preparar_plano(regime)
+    ctl_mao = _ControleMao(mao) if mao is not None else None
+    adtv_vivo, preco_vivo = {}, {}
     exposicao_ant, custo_win_total = ct.EXPOSICAO_ALVO, 0.0
     linhas, ordens_todas, pnl_nome, n_efetivo, violacoes = [], [], {}, {}, []
     retornos_carteira = pd.Series(dtype=float)
@@ -180,6 +191,11 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
             pnl_nome[tk] = pnl_nome.get(tk, 0.0) + g
         retornos_carteira.loc[d] = r_dia
         custo_dia, giro_dia = 0.0, 0.0
+        if ctl_mao is not None:
+            estado, r_dia, custo_mao = ctl_mao.dia(estado, contrib, float(cdi.get(d, 0.0)), pat_ini_dia(estado, contrib),
+                                                   adtv_vivo, preco_vivo, estresse)
+            custo_dia += custo_mao
+            retornos_carteira.loc[d] = r_dia
         if d in execucao:
             t = execucao[d]
             mes = sinais_por_data[t]
@@ -189,6 +205,8 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
             precos = {k: v for k, v in precos_vistos.items()
                       if k in set(mes["ticker"]) or k in estado["posicoes"]}
             adtv = mes.set_index("ticker")["adtv21"].to_dict()
+            adtv_vivo.update(adtv)
+            preco_vivo.update(mes.set_index("ticker")["preco"].to_dict())
             setor = mes.set_index("ticker")["setor"].to_dict()
             beta = mercado.beta_movel(retornos_carteira, excesso) if len(retornos_carteira) > 5 else None
             beta60 = float(beta.iloc[-1]) if beta is not None and len(beta) and np.isfinite(beta.iloc[-1]) else None
@@ -238,6 +256,9 @@ def rodar(painel_sinais, retornos, cdi, excesso=None, nivel=None, ini=DATA_INI, 
              "n_efetivo": pd.Series(n_efetivo, dtype=float),
              "config": config or {}, "violacoes": violacoes,
              "estresse": float(estresse), "modo": modo, "com_hedge": bool(com_hedge)}
+    if ctl_mao is not None:
+        serie["exposicao_mao"] = ctl_mao.historico(serie["data"])
+        saida.update({"mao": dict(mao), "custo_mao": float(ctl_mao.custo_total)})
     if plano is not None:
         # colunas e chaves EXTRAS so existem com regime ligado: desligado, a saida e a de sempre
         for col, orig in (("estado_regime", "estado"), ("razao_hedge", "razao_exec"), ("stopado", "stopado")):
@@ -281,6 +302,68 @@ def _ajustar_hedge_legado(estado, data, patrimonio, beta60=None):
     if beta60 is not None and np.isfinite(beta60) and not (_LEG_BETA_BANDA[0] <= float(beta60) <= _LEG_BETA_BANDA[1]):
         return {"contratos": alvo, "vencimento": venc, "motivo": "beta"}
     return {"contratos": atual, "vencimento": venc, "motivo": "manter"}
+
+
+def pat_ini_dia(estado, contrib):
+    """Patrimonio no INICIO do dia (antes dos ganhos do dia): o atual menos os ganhos das acoes. O CDI do dia
+    e a variacao do caixa nao entram aqui porque a mao so mexe na parte de acoes."""
+    return float(sum(p["valor"] for p in estado["posicoes"].values()) - sum(contrib.values()))
+
+
+class _ControleMao:
+    """Estado da regra de mao dentro do motor (ver `rodar(mao=...)`)."""
+
+    def __init__(self, cfg):
+        from collections import deque
+        self.cfg = dict(cfg)
+        self.regra = self.cfg.get("regra")
+        self.defasagem = int(self.cfg.get("defasagem", mao_mod.DEFASAGEM))
+        if self.regra == "vol":
+            self.m = mao_mod.MaoVol(self.cfg.get("janela", 63), self.cfg.get("teto", mao_mod.TETO))
+        elif self.regra == "queda":
+            self.m = mao_mod.MaoQueda(self.cfg.get("limiar", mao_mod.LIMIAR_QUEDA), self.cfg.get("fator", mao_mod.FATOR_CORTE),
+                                      self.cfg.get("recuperacao", mao_mod.RECUPERACAO))
+        elif self.regra == "fixa":
+            self.m = None
+        else:
+            raise ValueError(f"regra de mao desconhecida: {self.regra!r}")
+        inicial = float(self.cfg.get("exposicao", 1.0)) if self.regra == "fixa" else 1.0
+        self.fila = deque([inicial] * self.defasagem, maxlen=self.defasagem)
+        self.e_ant = 1.0
+        self.custo_total = 0.0
+        self.expo = {}
+
+    def dia(self, estado, contrib, cdi_d, v_ini, adtv, preco, estresse):
+        """Aplica a exposicao do dia (decidida ha `defasagem` pregoes), cobra o custo da mudanca e decide a proxima."""
+        e = float(self.fila[0])
+        ganho = float(sum(contrib.values()))
+        custo = 0.0
+        if abs(e - self.e_ant) > 1e-12:
+            for t, p in estado["posicoes"].items():
+                a = adtv.get(t, np.nan)
+                pr = float(preco.get(t, np.nan))
+                frac = bool(np.isfinite(pr) and pr > ct.PRECO_MAX_LOTE)
+                custo += cst.custo_ordem(abs(e - self.e_ant) * p["valor"], a, fracionario=frac, estresse=estresse)["total"]
+        pat_ant = estado["patrimonio"]
+        estado["caixa"] += -(1.0 - e) * ganho + (1.0 - e) * max(v_ini, 0.0) * cdi_d - custo
+        estado["patrimonio"] = estado["caixa"] + sum(p["valor"] for p in estado["posicoes"].values())
+        r_dia = (estado["patrimonio"] / pat_ant - 1.0) if pat_ant else 0.0
+        self.custo_total += custo
+        self.e_ant = e
+        self.expo[estado["data"]] = e
+        # decisao de hoje, so com dados ate hoje
+        if self.regra == "vol":
+            r_ex = (ganho / v_ini - cdi_d) if v_ini > 1e-9 else 0.0
+            dec = self.m.passo(r_ex)
+        elif self.regra == "queda":
+            dec = self.m.passo(estado["patrimonio"])
+        else:
+            dec = float(self.cfg.get("exposicao", 1.0))
+        self.fila.append(dec)
+        return estado, r_dia, custo
+
+    def historico(self, datas):
+        return pd.Series(self.expo).reindex(pd.DatetimeIndex(datas)).ffill().fillna(1.0).to_numpy()
 
 
 def _preparar_plano(regime):
