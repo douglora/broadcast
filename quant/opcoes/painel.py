@@ -11,6 +11,9 @@ De onde vem cada parte:
                    (COTAHIST_Dddmmaaaa.ZIP) publicados depois. Sem rede, vale o ultimo dia da base. So estruturas de
                    estrategia NAO reprovada passam por aqui, e so se as pernas cumprem o filtro fixo de liquidez
                    (>= 30 negocios no dia, ofertas dos dois lados, spread <= 30%).
+  vertentes        as tres vertentes (especulativa, dividendo sintetico, travas com BOVA11): regra, evidencia, ranking do dia, posicoes, placar e
+                   limites (quant/opcoes/vertentes.py; contrato da tela em quant/docs/tela_opcoes_vertentes.md). Livros: carteira_simulada.json (V1)
+                   e carteira_vertentes.json (V2 e V3).
   Descreve estrutura que passa nos filtros. NUNCA diz compre ou venda (Resolucao CVM 178).
 
 Escrita atomica: grava num arquivo temporario ao lado e renomeia (os.replace).
@@ -25,7 +28,7 @@ import numpy as np
 import pandas as pd
 from scipy.special import ndtr
 
-from quant.opcoes import assimetrias, bs, carteira_simulada, dados, teses as livro_teses
+from quant.opcoes import assimetrias, bs, carteira_simulada, dados, teses as livro_teses, vertentes
 from quant.opcoes import custos as C
 from quant.opcoes.base import DIR_DADOS, DIR_OPC, extrair_zip_diario
 
@@ -358,7 +361,9 @@ def gerar(rede=True, gravar_carteira=True):
     arbs, arb_meta = assimetrias.montar_arbitragens(M)
     veredito = lambda r: assimetrias.veredito_familia(RA, R, r)  # noqa: E731
     blocos_teses, teses_abrir = montar_teses(M, dia)
-    posicoes, resultado, _est = carteira_simulada.atualizar(M, veredito, gravar=gravar_carteira, teses_abrir=teses_abrir)
+    r1 = vertentes.ranking_v1(M, dia)
+    posicoes, resultado, _est = carteira_simulada.atualizar(M, veredito, gravar=gravar_carteira, teses_abrir=teses_abrir, calls_v1=vertentes.aviso_ranking_v1_para_livro(r1))
+    bloco_vertentes, _r1, _est23 = vertentes.montar_bloco(M, dia, posicoes, gravar=gravar_carteira)
     pa = M["por_ativo"]
     pa = pa[(pa["series_liquidas"] >= 3)].copy()
     pa["no_ranking"] = pa["ativo"].isin(M["liq_ativos"])
@@ -389,6 +394,7 @@ def gerar(rede=True, gravar_carteira=True):
             "por_ativo": por_ativo, "ranking": ranking, "arbitragens": arbs, "arbitragens_resumo": {**arb_meta, "historico_250_pregoes": {k: v for k, v in RA["A5"].items() if k != "por_tipo"}},
         },
         "teses": blocos_teses,
+        "vertentes": bloco_vertentes,
         "avisos": montar_avisos(R, origem, str(dia.date())), "termos": TERMOS + TERMOS_NOVOS,
     }
 
@@ -546,6 +552,12 @@ TERMOS_NOVOS = [
     {"termo": "Inclinação (skew)", "explicacao": "Diferença entre a volatilidade implícita da put fora do dinheiro e a da opção no dinheiro. Inclinação alta = proteção contra queda cara."},
     {"termo": "Conversão e reversão", "explicacao": "Combinações de ação, put e call do mesmo exercício que travam um valor no vencimento. Se o preço de uma das pernas está fora da linha, aparece uma pequena folga; a maioria é cotação do fim do pregão que não se executa."},
     {"termo": "Vantagem", "explicacao": "Valor esperado da estrutura, pela distribuição histórica de retornos do ativo, dividido pelo custo, depois de descontar o CDI do prazo. Negativa = a história do ativo paga menos que o custo."},
+    {"termo": "Dividendo sintético", "explicacao": "Renda mensal obtida vendendo opção com garantia (put coberta por caixa ou call coberta) e recomprando quando já se capturou uns 80% do prêmio. Não é dividendo de verdade: o risco é de queda forte (put) ou de abrir mão da alta (call)."},
+    {"termo": "Put coberta por caixa", "explicacao": "Venda de put em que o dinheiro para comprar o ativo no strike já está separado (e rende CDI). Se o ativo cair abaixo do strike, você fica com ele pelo preço combinado."},
+    {"termo": "Trava de crédito", "explicacao": "Venda de uma opção e compra de outra mais distante do mesmo tipo e vencimento: recebe um crédito, e a perda máxima é a largura menos o crédito. Trava de alta usa puts; trava de baixa usa calls."},
+    {"termo": "Retorno sobre o risco", "explicacao": "Crédito da trava dividido pela perda máxima. 30% quer dizer ganhar R$ 30 se tudo der certo contra R$ 100 de risco."},
+    {"termo": "Stop em múltiplo do prêmio", "explicacao": "Fechar a venda de opção quando recomprá-la custa, por exemplo, 3 vezes o que se recebeu. Limita a perda, mas pode cortar uma posição que se recuperaria."},
+    {"termo": "Roda", "explicacao": "Aceitar a put exercida (ficar com o ativo) e vender call coberta sobre ele, repetindo o ciclo. Não foi testada no histórico."},
 ]
 
 

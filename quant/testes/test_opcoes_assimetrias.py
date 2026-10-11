@@ -176,7 +176,9 @@ def test_carteira_idempotente_e_respeita_o_risco(tmp_path, monkeypatch):
 
 
 def test_carteira_limites_de_seis_posicoes_e_tres_mil(tmp_path, monkeypatch):
+    """Teto global antigo (6 posicoes e R$ 3.000): vale quando a fatia da vertente especulativa e o teto inteiro."""
     monkeypatch.setattr(dados, "vencimentos_padrao", lambda: [])
+    monkeypatch.setattr(CS, "limite_risco_v1", lambda: CS.RISCO_TOTAL_MAX)
     caminho = str(tmp_path / "carteira.json")
     veredito = lambda r: {"estado": "medindo"}  # noqa: E731
     total = 0
@@ -187,6 +189,20 @@ def test_carteira_limites_de_seis_posicoes_e_tres_mil(tmp_path, monkeypatch):
         assert res["risco_em_aberto_rs"] <= CS.RISCO_TOTAL_MAX + 1e-6
         assert all(p["risco_rs"] <= CS.RISCO_POR_ESTRUTURA + 1e-6 for p in pos)
     assert res["n_abertas"] == 6 and res["risco_em_aberto_rs"] == pytest.approx(6 * 480)
+
+
+def test_carteira_respeita_a_fatia_da_vertente_especulativa(tmp_path, monkeypatch):
+    """Desde 11/10/2026 o risco aberto do ranking de assimetrias cabe na fatia da vertente especulativa (30% do orcamento de queda das opcoes)."""
+    monkeypatch.setattr(dados, "vencimentos_padrao", lambda: [])
+    caminho = str(tmp_path / "carteira.json")
+    veredito = lambda r: {"estado": "medindo"}  # noqa: E731
+    limite = CS.limite_risco_v1()
+    assert limite == pytest.approx(0.30 * CS.RISCO_TOTAL_MAX)
+    for i, dia in enumerate(pd.bdate_range("2026-10-09", periods=4)):
+        linhas = [_linha_ranking(f"A{i}{j}", "2026-11-19", 2.4, 50.0 - j) for j in range(3)]
+        pos, res, _ = CS.atualizar(_M(dia, linhas), veredito, caminho)
+        assert res["risco_em_aberto_rs"] <= limite + 1e-6
+    assert res["n_abertas"] == int(limite // 480)
 
 
 def test_carteira_marca_pela_oferta_de_compra_e_encerra_no_vencimento(tmp_path, monkeypatch):

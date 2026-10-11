@@ -54,6 +54,13 @@ def orcamento_mensal():
     return round(ORCAMENTO_PCT * CAPITAL * livro.peso("opcoes"), 2)
 
 
+def limite_risco_v1():
+    """Teto de risco aberto (fora o capital protegido) da vertente ESPECULATIVA: a fatia dela no orcamento de queda das opcoes (quant/opcoes/vertentes.py).
+    Nunca acima do teto antigo de R$ 3.000."""
+    from quant.opcoes import vertentes
+    return min(RISCO_TOTAL_MAX, vertentes.limite_risco("especulativa"))
+
+
 def livro_estourado():
     """True quando o orcamento de queda do livro estourou (quant/saida/risco/livro.json, gravado pela rotina). Sem arquivo: False."""
     from quant.risco import livro
@@ -62,6 +69,11 @@ def livro_estourado():
 
 def _brl(x):
     return f"{x:,.0f}".replace(",", ".")
+
+
+def _t(x, nd=1):
+    """Numero no formato brasileiro (virgula decimal, ponto de milhar) para texto de tela."""
+    return f"{x:,.{nd}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 def estado_vazio(dia):
@@ -158,7 +170,7 @@ def abrir_do_ranking(est, M, veredito_fn, dia):
         if qtd < LOTE:
             continue
         risco_novo = qtd * r["perda_maxima"]
-        if risco + sum(n["risco_rs"] for n in novas) + risco_novo > RISCO_TOTAL_MAX:
+        if risco + sum(n["risco_rs"] for n in novas) + risco_novo > limite_risco_v1():
             continue
         pernas = [_perna_estado(p, lado, qtd, r["ativo"]) for p, lado in r["pernas_obj"]]
         custo = qtd * r["custo"]
@@ -265,7 +277,7 @@ def abrir_teses(est, expressoes_teses, dia):
         if qtd < LOTE:
             continue
         risco_novo = qtd * e["perda_maxima_por_acao"]
-        if risco + sum(n["risco_rs"] for n in novas) + risco_novo > RISCO_TOTAL_MAX:
+        if risco + sum(n["risco_rs"] for n in novas) + risco_novo > limite_risco_v1():
             continue
         pernas = [{**p, "qtd": qtd} for p in e["pernas_estado"]]
         custo = qtd * e["custo_por_acao"]
@@ -276,8 +288,40 @@ def abrir_teses(est, expressoes_teses, dia):
     return novas
 
 
+def ja_v1_hoje(est, dia):
+    return any(p.get("familia") == "v1_call_barata" and p["aberta_em"] == str(pd.Timestamp(dia).date()) for p in est["posicoes"])
+
+
+def abrir_v1_calls(est, candidatos, dia, max_abertas_v1=2):
+    """VERTENTE ESPECULATIVA: ate 1 call nova por dia do ranking de calls baratas (pontos no minimo, lista `candidatos` ja filtrada por `vertentes.aviso_ranking_v1_para_livro`),
+    perda maxima = premio pago, ate R$ 500 por estrutura, `max_abertas_v1` abertas desta regra e o teto de risco da vertente. Nao repete ativo + vencimento."""
+    abertas = [p for p in est["posicoes"] if p["estado"] == "aberta" and not p.get("permanente")]
+    if sum(1 for p in abertas if p.get("familia") == "v1_call_barata") >= max_abertas_v1 or len(abertas) >= MAX_ABERTAS:
+        return []
+    risco = sum(p["risco_rs"] for p in abertas)
+    for c in candidatos or []:
+        r = c["pernas_obj"]
+        if any(p["ativo"] == c["ativo"] and p["vencimento"] == c["vencimento"] for p in abertas):
+            continue
+        unit = float(r["oferta_venda"]) * (1 + FEE)
+        qtd = int(math.floor(RISCO_POR_ESTRUTURA / unit / LOTE) * LOTE)
+        if qtd < LOTE:
+            continue
+        risco_novo = qtd * unit
+        if risco + risco_novo > limite_risco_v1():
+            continue
+        perna = _perna_estado(r, "compra", qtd, c["ativo"])
+        return [{"id": f"{pd.Timestamp(dia).date()}|{c['ativo']}|call_barata|{c['vencimento']}", "aberta_em": str(pd.Timestamp(dia).date()),
+                 "titulo": f"Call no dinheiro em {c['ativo']}, strike {_t(c['strike'], 2)}, vencimento {c['vencimento']} ({c['pontos']} pontos no ranking de calls baratas)",
+                 "ativo": c["ativo"], "estrutura": "call_no_dinheiro", "familia": "v1_call_barata", "vertente": "especulativa", "pontos_na_abertura": c["pontos"],
+                 "pernas": [perna], "qtd": qtd, "custo": round(risco_novo, 2), "valor_hoje": round(risco_novo, 2), "resultado_rs": 0.0, "risco_rs": round(risco_novo, 2),
+                 "vencimento": c["vencimento"], "estado": "aberta", "marcacao": "aberta na oferta de venda do fechamento",
+                 "nota": "Perda máxima = prêmio pago. " + "; ".join(c.get("porque", []))}]
+    return []
+
+
 # ------------------------------------------------------------------------------------------------------------- principal
-def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None):
+def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None, calls_v1=None):
     """Roda um dia da carteira com a cadeia M (saida de assimetrias.montar). Devolve (posicoes, resultado, estado) para o JSON.
     Marcar e abrir do ranking acontecem uma vez por data de cadeia; completar o orcamento do capital protegido e abrir teses sao idempotentes pelo proprio estado."""
     dia = pd.Timestamp(M["dia"])
@@ -303,6 +347,10 @@ def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None)
     if nt:
         est["posicoes"] += nt
         mudou = True
+    nc = [] if (travado or ja_v1_hoje(est, dia)) else abrir_v1_calls(est, calls_v1, dia)
+    if nc:
+        est["posicoes"] += nc
+        mudou = True
     if gravar and mudou:
         gravar_estado(est, caminho)
     pos = est["posicoes"]
@@ -312,10 +360,12 @@ def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None)
                  "n_abertas": sum(1 for p in pos if p["estado"] == "aberta"), "n_encerradas": sum(1 for p in pos if p["estado"] == "encerrada"),
                  "risco_em_aberto_rs": round(sum(p["risco_rs"] for p in pos if p["estado"] == "aberta"), 2), "desde": est["desde"],
                  "capital_simulado_rs": CAPITAL, "ultima_data": est["ultima_data"], "regras": f"até {MAX_NOVAS_POR_DIA} novas por dia, perda máxima de R$ {_brl(RISCO_POR_ESTRUTURA)} por estrutura, "
-                 f"{MAX_ABERTAS} abertas e R$ {_brl(RISCO_TOTAL_MAX)} em risco; capital protegido (R$ {_brl(orcamento_mensal())} por mês, 1% do capital da classe de opções) à parte"
+                 f"{MAX_ABERTAS} abertas e R$ {_brl(limite_risco_v1())} em risco (vertente especulativa); capital protegido (R$ {_brl(orcamento_mensal())} por mês, 1% do capital da classe de opções) à parte"
                  + ("; ORÇAMENTO DE QUEDA DO LIVRO ESTOURADO: nada novo abre" if travado else ""),
                  "orcamento_mensal_rs": orcamento_mensal(), "livro_estourado": travado}
     saida = [{k: p.get(k) for k in ("id", "aberta_em", "titulo", "ativo", "estrutura", "pernas", "custo", "valor_hoje", "resultado_rs", "vencimento", "estado", "familia",
                                       "qtd", "risco_rs", "marcacao", "permanente", "fechada_em", "valor_final", "vantagem_na_abertura_pct", "nota", "origem", "tese_id",
-                                      "orcamento_rs", "complementado_em")} for p in pos]
+                                      "orcamento_rs", "complementado_em", "pontos_na_abertura", "motivo_fechamento")} for p in pos]
+    for d, p in zip(saida, pos):
+        d["vertente"] = p.get("vertente", "especulativa")
     return saida, resultado, est

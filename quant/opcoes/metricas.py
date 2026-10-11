@@ -48,7 +48,7 @@ def calcular(ex, cdi, com_op=None, inicio=None, fim=None, n_tentativas=None, ano
         anos = max((pd.Timestamp(fim) - pd.Timestamp(inicio)).days / 365.25, 0.5) if inicio is not None else n / 12.0
     anos = max(float(anos), 0.5)
     tot = curva(ex, cdi)
-    ret_aa = tot[-1] ** (1.0 / anos) - 1.0
+    ret_aa = tot[-1] ** (1.0 / anos) - 1.0 if tot[-1] > 0 else -1.0     # patrimonio zerado em algum mes: -100% ao ano
     cdi_aa = float(np.prod(1.0 + cdi)) ** (1.0 / anos) - 1.0
     por_ano = n / anos
     sd = ex.std(ddof=1)
