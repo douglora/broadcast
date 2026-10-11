@@ -345,10 +345,10 @@ def veredito_familia(R_ass, R_ant, row):
         x = pzd[("inicio", "C" if "call" in est else "P")]
         return {"estado": "reprovada", "texto": f"Pozinho de {'call' if 'call' in est else 'put'}: {x['po_pct']:.0f}% viram pó, valor esperado {x['ev_pct']:+.0f}% por R$ 1 (2012-2026); nenhuma condição ficou positiva nas duas fases."}
     if f == "capital_protegido":
-        a0 = R_ass["A0"]["variantes"]["call_atm_1m orcamento=0.5%"]
-        pr = R_ass["A0"]["prova"].get("call_atm_1m orcamento=0.5%", {})
+        a0 = R_ass["A0"]["variantes"]["call_atm_1m orcamento=1.0%"]
+        pr = R_ass["A0"]["prova"].get("call_atm_1m orcamento=1.0%", {})
         return {"estado": "medindo", "texto": f"Call no dinheiro de ~1 mês como parte do capital protegido (A0): Sharpe {_vf(a0['descoberta']['sharpe'])} / {_vf(a0['validacao']['sharpe'])} / {_vf(pr.get('sharpe'))} "
-                                              f"(descoberta / validação / prova), excesso de {_vf(pr.get('excesso_anual_pct'), 1, True)}% ao ano na prova com 0,5% de orçamento; Sharpe deflacionado {_vf(a0['descoberta'].get('sharpe_deflacionado'), 2)}: passou as fases, não está aprovada."}
+                                              f"(descoberta / validação / prova), excesso de {_vf(pr.get('excesso_anual_pct'), 1, True)}% ao ano na prova com 1% de orçamento; Sharpe deflacionado {_vf(a0['descoberta'].get('sharpe_deflacionado'), 2)}: passou as fases, não está aprovada."}
     if f == "trava_alta":
         v = R_ass["A0"]["variantes"]["trava_alta_1m orcamento=0.5%"]
         return {"estado": "reprovada", "texto": f"Trava de alta (A0): Sharpe {_vf(v['descoberta']['sharpe'])} na descoberta e {_vf(v['validacao']['sharpe'])} na validação, abaixo da barra de 0,3."}

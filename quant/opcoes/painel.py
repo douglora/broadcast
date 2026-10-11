@@ -25,7 +25,7 @@ import numpy as np
 import pandas as pd
 from scipy.special import ndtr
 
-from quant.opcoes import assimetrias, bs, carteira_simulada, dados
+from quant.opcoes import assimetrias, bs, carteira_simulada, dados, teses as livro_teses
 from quant.opcoes import custos as C
 from quant.opcoes.base import DIR_DADOS, DIR_OPC, extrair_zip_diario
 
@@ -334,6 +334,8 @@ def montar_avisos(R, origem, data_cadeia):
         "Antes de 2020 BOVA11 não tinha opção líquida: a proteção de 2013-2019 usou opções do próprio Ibovespa, com preço estimado (último negócio com 5% contra) em 40 de 47 ciclos.",
         "RANKING DE ASSIMETRIAS: o valor esperado usa 10 anos de histórico do próprio ativo (uma amostra curta, que depende do período) e é a menor de duas contas (histórico puro e reescalado para a volatilidade de agora). "
         "Vantagem positiva não é previsão: dos testes da pesquisa, só o capital protegido e o straddle em opção barata passaram nas três fases, e nenhum foi aprovado (Sharpe deflacionado abaixo de 0,95).",
+        "LIVRO DE TESES: dado um cenário (do Douglas, da mesa ou do robô), mostra papel, call, trava e put vendida a preços executáveis, o que cada preço exige de probabilidade e qual cabe no teto de R$ 500 de perda. "
+        "No caso das eleições, a probabilidade do cenário político é do Douglas: o painel mostra 40%, 50% e 60%, e nenhuma posição é aberta sozinha com ela.",
         "CARTEIRA SIMULADA: R$ 100 mil fictícios, até 2 posições novas por dia, perda máxima de R$ 500 por estrutura, 6 abertas e 3% do capital em risco. O capital protegido é à parte, com quantidades fracionadas. Não há ordem real.",
     ]
 
@@ -355,7 +357,8 @@ def gerar(rede=True, gravar_carteira=True):
     ranking = assimetrias.montar_ranking(M, RA, R)
     arbs, arb_meta = assimetrias.montar_arbitragens(M)
     veredito = lambda r: assimetrias.veredito_familia(RA, R, r)  # noqa: E731
-    posicoes, resultado, _est = carteira_simulada.atualizar(M, veredito, gravar=gravar_carteira)
+    blocos_teses, teses_abrir = montar_teses(M, dia)
+    posicoes, resultado, _est = carteira_simulada.atualizar(M, veredito, gravar=gravar_carteira, teses_abrir=teses_abrir)
     pa = M["por_ativo"]
     pa = pa[(pa["series_liquidas"] >= 3)].copy()
     pa["no_ranking"] = pa["ativo"].isin(M["liq_ativos"])
@@ -366,7 +369,7 @@ def gerar(rede=True, gravar_carteira=True):
     n_apr = sum(1 for e in estrategias if e["estado"] == "aprovada")
     texto = (f"{len(estrategias)} estratégias de opções testadas em histórico da B3 (2012-2026): {n_apr} aprovada(s), {n_med} em medição, {n_rep} reprovada(s). "
              "Vender put, vender call coberta, travas de crédito e comprar pozinho não pagaram o risco contra o CDI. "
-             "Em medição: o capital protegido (caixa no CDI e 0,5% do capital por mês em calls no dinheiro, que nunca perdeu mais que o orçamento e rendeu cerca de 1 ponto ao ano acima do CDI), "
+             "Em medição: o capital protegido (caixa no CDI e 1% do capital por mês em calls no dinheiro, que nunca perdeu mais que o orçamento e rendeu cerca de 2 pontos ao ano acima do CDI), "
              "o straddle onde a opção está barata contra a volatilidade realizada de 252 dias, a arbitragem de fechamento e a proteção de BOVA11 com put, colar e trava de baixa. "
              "Nenhuma está aprovada: o Sharpe deflacionado fica abaixo de 0,95.")
     return {
@@ -385,6 +388,7 @@ def gerar(rede=True, gravar_carteira=True):
             "ativos_no_ranking": M["liq_ativos"], "vencimentos": [str(pd.Timestamp(v).date()) for v in M["vencs"]], "ativos_com_volatilidade_barata_vs_252d": M["baratos_vr252"],
             "por_ativo": por_ativo, "ranking": ranking, "arbitragens": arbs, "arbitragens_resumo": {**arb_meta, "historico_250_pregoes": {k: v for k, v in RA["A5"].items() if k != "por_tipo"}},
         },
+        "teses": blocos_teses,
         "avisos": montar_avisos(R, origem, str(dia.date())), "termos": TERMOS + TERMOS_NOVOS,
     }
 
@@ -441,12 +445,12 @@ def _pt(x, casas=1, sinal=False):
 def montar_estrategias_novas(RA, R):
     """Entradas do quadro de estrategias para as hipoteses A0 a A6 (resultados_assimetrias.json). A primeira e o capital protegido."""
     a0, a1, a2, a3, a4, a5, a6 = RA["A0"], RA["A1"], RA["A2"], RA["A3"], RA["A4"], RA["A5"], RA["A6"]
-    nome0 = "call_atm_1m orcamento=0.5%"
+    nome0 = "call_atm_1m orcamento=1.0%"        # o Douglas aprovou 1% do capital por mes (R$ 1.000) em 10/10/2026
     h0, v0 = a0["variantes"][nome0], a0["historico_completo"][nome0]
     pr0 = a0["prova"][nome0]
     out = []
     out.append({
-        "nome": "capital_protegido", "titulo": "Capital protegido feito em casa: caixa no CDI e 0,5% do capital por mês em calls no dinheiro (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3)",
+        "nome": "capital_protegido", "titulo": "Capital protegido feito em casa: caixa no CDI e 1% do capital por mês (R$ 1.000 em R$ 100 mil) em calls no dinheiro (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3)",
         "hipotese": "O caixa rende o CDI (juro alto no Brasil) e só um orçamento fixo por mês compra convexidade: a perda máxima no ano é o orçamento e o ganho é aberto. "
                     "Do outro lado estão os vendedores de volatilidade; a hipótese só paga se a alta em poucos meses compensar o desgaste dos meses parados.",
         "estado": "medindo",
@@ -454,14 +458,14 @@ def montar_estrategias_novas(RA, R):
                       "queda_maxima_pct": v0["queda_maxima_pct"], "pior_mes_pct": v0["pior_mes_pct"], "sharpe_deflacionado": v0["sharpe_deflacionado"],
                       "excesso_anual_pct": v0["excesso_anual_pct"], "cdi_anual_pct": v0["cdi_anual_pct"], "pior_ano_pct": v0["pior_ano_pct"],
                       "captura_da_alta_pct": v0["captura_da_alta_pct"], "anos_acima_do_cdi_pct": v0["anos_acima_do_cdi_pct"]},
-        "nota": (f"PASSOU nas três fases: Sharpe {_pt(h0['descoberta']['sharpe'], 2)} (descoberta), {_pt(h0['validacao']['sharpe'], 2)} (validação) e {_pt(pr0['sharpe'], 2)} (prova 2024-2026, aberta uma vez); "
+        "nota": (f"Números medidos com o orçamento de 1% do capital por mês. PASSOU nas três fases: Sharpe {_pt(h0['descoberta']['sharpe'], 2)} (descoberta), {_pt(h0['validacao']['sharpe'], 2)} (validação) e {_pt(pr0['sharpe'], 2)} (prova 2024-2026, aberta uma vez); "
                  f"excesso sobre o CDI de {_pt(h0['descoberta']['excesso_anual_pct'], 1, True)}, {_pt(h0['validacao']['excesso_anual_pct'], 1, True)} e {_pt(pr0['excesso_anual_pct'], 1, True)} ponto(s) ao ano. "
                  f"NÃO está aprovada: Sharpe deflacionado {_pt(v0['sharpe_deflacionado'], 2)} (exige-se 0,95) e o retorno extra é pequeno. "
                  f"'Nunca perde mais que o orçamento' se confirmou: pior mês {_pt(v0['pior_mes_pct'], 2)}% do patrimônio e pior ano {_pt(v0['pior_ano_pct'], 1)}% (a cesta de ações teve {_pt(v0['pior_ano_do_ativo_pct'], 0)}% em um ano). "
                  f"'Participa da alta' só em parte: captura cerca de {_pt(v0['captura_da_alta_pct'], 0)}% da alta acima do CDI; retorno de {_pt(v0['retorno_anual_pct'], 1)}% ao ano contra CDI {_pt(v0['cdi_anual_pct'], 1)}%, "
                  f"ações {_pt(v0['ref_ativo_aa_pct'], 1)}% e 70% ações + 30% CDI {_pt(v0['ref_70_30_aa_pct'], 1)}%. "
                  f"Custo dos anos parados: {_pt(v0['excesso_medio_ano_parado_pct'], 1, True)} ponto ao ano contra o CDI em média ({v0['anos_parados_n']} de {v0['n_anos']} anos), acima do CDI em {_pt(v0['anos_acima_do_cdi_pct'], 0)}% dos anos. "
-                 f"Com orçamento de 1,0%: excesso de {_pt(a0['variantes']['call_atm_1m orcamento=1.0%']['descoberta']['excesso_anual_pct'], 1, True)} a {_pt(a0['prova']['call_atm_1m orcamento=1.0%']['excesso_anual_pct'], 1, True)} ponto(s) ao ano e captura de ~{_pt(a0['historico_completo']['call_atm_1m orcamento=1.0%']['captura_da_alta_pct'], 0)}% da alta.")})
+                 f"Com orçamento de 0,5% (versão anterior): excesso de {_pt(a0['variantes']['call_atm_1m orcamento=0.5%']['descoberta']['excesso_anual_pct'], 1, True)} a {_pt(a0['prova']['call_atm_1m orcamento=0.5%']['excesso_anual_pct'], 1, True)} ponto(s) ao ano, captura de ~{_pt(a0['historico_completo']['call_atm_1m orcamento=0.5%']['captura_da_alta_pct'], 0)}% da alta e pior mês {_pt(a0['historico_completo']['call_atm_1m orcamento=0.5%']['pior_mes_pct'], 2)}%.")})
     c1 = a1["configs"]["straddle_barato_vr252"]
     p1 = a1["prova"].get("straddle_barato_vr252", {})
     hc1 = a1.get("historico_completo", {}).get("straddle_barato_vr252", {})
@@ -539,6 +543,56 @@ TERMOS_NOVOS = [
     {"termo": "Conversão e reversão", "explicacao": "Combinações de ação, put e call do mesmo exercício que travam um valor no vencimento. Se o preço de uma das pernas está fora da linha, aparece uma pequena folga; a maioria é cotação do fim do pregão que não se executa."},
     {"termo": "Vantagem", "explicacao": "Valor esperado da estrutura, pela distribuição histórica de retornos do ativo, dividido pelo custo, depois de descontar o CDI do prazo. Negativa = a história do ativo paga menos que o custo."},
 ]
+
+
+
+
+# ---------------------------------------------------------------------------------------------------- livro de teses
+ARQ_TESES = os.path.join(DIR_OPC, "resultados_teses.json")
+
+
+def _contexto_teses():
+    try:
+        with open(ARQ_TESES, encoding="utf-8") as f:
+            RT = json.load(f)
+    except (FileNotFoundError, ValueError):
+        RT = None
+    if not RT:
+        return {"esm_eleicao": -28.0, "esm_resultado": -4.0, "mov_base": 8.5, "RT": None}
+    mov = sorted(abs(x["movimento_pct"]) for x in RT["eleicoes"]["bbas3_movimentos"])
+    mediana = (mov[len(mov) // 2 - 1] + mov[len(mov) // 2]) / 2 if len(mov) % 2 == 0 else mov[len(mov) // 2]
+    return {"esm_eleicao": RT["eleicoes"]["esmagamento_vol_pct"]["mediana"], "esm_resultado": RT["resultado_trimestral"]["esmagamento_vol"]["mediana_pct"], "mov_base": round(mediana, 1), "RT": RT}
+
+
+def montar_teses(M, dia):
+    """Bloco `teses` do JSON e a lista das expressoes escolhidas que a carteira simulada pode abrir (so origem mesa/robo, probabilidade definida)."""
+    ctx = _contexto_teses()
+    blocos, abrir = [], []
+    tr = M.get("tr", {})
+    # 1) caso trabalhado do Douglas (BBAS3, 2o turno de 2026): a probabilidade e dele; 40/50/60 e tres tamanhos de movimento
+    try:
+        base = livro_teses.caso_bbas3(M, ctx["esm_eleicao"], ctx["mov_base"], tr=tr.get("BBAS3"))
+        principal = base[0.5]
+        principal["sensibilidade_probabilidade"] = {f"{int(p * 100)}%": {"escolhida": b["escolhida"], "valor_esperado_rs": {e["nome"]: e["valor_esperado_rs"] for e in b["expressoes"]}} for p, b in base.items()}
+        sens = {}
+        for mv in (5.0, ctx["mov_base"], 15.0):
+            bb = livro_teses.caso_bbas3(M, ctx["esm_eleicao"], mv, tr=tr.get("BBAS3"))
+            sens[f"±{mv:g}%"] = {f"{int(p * 100)}%": {"escolhida": b["escolhida"], "valor_esperado_rs": {e["nome"]: e["valor_esperado_rs"] for e in b["expressoes"]},
+                                                   "prob_exigida_pct": {e["nome"]: e["probabilidade_que_o_preco_exige_pct"] for e in b["expressoes"]}} for p, b in bb.items()}
+        principal["sensibilidade_movimento"] = sens
+        principal["movimento_base_pct"] = ctx["mov_base"]
+        principal["nota_probabilidade"] = "A probabilidade do cenário político NÃO foi preenchida pelo robô: 50% é só o ponto médio da tabela. O número é do Douglas."
+        blocos.append(principal)
+    except Exception as e:  # noqa: BLE001
+        blocos.append({"id": "douglas-bbas3-2o-turno-2026", "ativo": "BBAS3", "direcao": "alta", "origem": "douglas", "expressoes": [], "escolhida": None, "porque": f"Falha ao montar o caso: {type(e).__name__}"})
+    # 2) teses da mesa e do robo (arquivos podem nao existir)
+    for t in livro_teses.ler_teses_mesa() + livro_teses.teses_da_visao_mesa(dia):
+        ev = t.get("evento") or {}
+        esm = ctx["esm_eleicao"] if ("eleiç" in str(ev.get("descricao", "")).lower() or "turno" in str(ev.get("descricao", "")).lower()) else ctx["esm_resultado"]
+        b, ab = livro_teses.avaliar_tese(t, M, esm, tr=tr.get(t["ativo"]))
+        blocos.append(b)
+        abrir += ab
+    return blocos, abrir
 
 
 if __name__ == "__main__":

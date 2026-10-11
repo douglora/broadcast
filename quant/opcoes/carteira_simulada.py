@@ -8,9 +8,9 @@ Todo dia em que rodar, com a cadeia nova:
      POSITIVA, com perda maxima de ate R$ 500 por estrutura (lotes de 100), no maximo 6 abertas e R$ 3.000 (3% de R$ 100 mil) em risco
      somado, sem repetir ativo + vencimento ja aberto. So estrutura de risco definido (compra de opcao, trava, straddle).
   3. CAPITAL PROTEGIDO (A0) e posicao PERMANENTE a parte: todo mes, para o primeiro vencimento mensal com 15+ pregoes pela frente, o
-     orcamento de 0,5% do capital (R$ 500) vira calls no dinheiro de 6 ativos (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3), em partes
+     orcamento de 1% do capital (R$ 1.000; era 0,5% ate 10/10/2026) vira calls no dinheiro de 6 ativos (PETR4, VALE, BOVA11, ITUB4, BBDC4, BBAS3), em partes
      iguais, FRACIONADAS (a pesquisa nao arredonda lote: R$ 83 por ativo nao compra um lote de 100). O resto do capital fica no CDI e
-     nao e contado aqui. Esse orcamento nao entra no limite de 6 posicoes nem nos R$ 3.000.
+     nao e contado aqui. Esse orcamento nao entra no limite de 6 posicoes nem nos R$ 3.000. Tranche com orcamento menor que o atual e COMPLETADA com a cadeia do dia (uma vez).
 IDEMPOTENTE pela data da cadeia: rodar duas vezes com a mesma cadeia nao marca nem abre nada de novo.
 
 Estado em quant/saida/opcoes/carteira_simulada.json. Nada aqui e recomendacao (Resolucao CVM 178).
@@ -34,7 +34,7 @@ RISCO_POR_ESTRUTURA = 500.0
 MAX_ABERTAS = 6
 RISCO_TOTAL_MAX = 0.03 * CAPITAL
 MAX_NOVAS_POR_DIA = 2
-ORCAMENTO_MENSAL = 0.005 * CAPITAL
+ORCAMENTO_MENSAL = 0.01 * CAPITAL          # 1% do capital por mes (o Douglas aprovou subir de 0,5% para 1% em 10/10/2026)
 ATIVOS_CAPITAL_PROTEGIDO = ["PETR4", "VALE3", "BOVA11", "ITUB4", "BBDC4", "BBAS3"]
 LOTE = 100
 FEE = C.FEE_PREMIO
@@ -184,23 +184,87 @@ def abrir_capital_protegido(est, M, dia):
         return None
     return {"id": f"{pd.Timestamp(dia).date()}|capital_protegido|{vstr}", "aberta_em": str(pd.Timestamp(dia).date()),
             "titulo": f"Capital protegido: orçamento mensal de R$ {_brl(ORCAMENTO_MENSAL)} em calls no dinheiro de {len(pernas)} ativos, vencimento {vstr}",
-            "ativo": "cesta (" + ", ".join(p["ativo"] for p in pernas) + ")", "estrutura": "capital_protegido", "familia": "capital_protegido", "permanente": True,
+            "ativo": "cesta (" + ", ".join(p["ativo"] for p in pernas) + ")", "estrutura": "capital_protegido", "familia": "capital_protegido", "permanente": True, "orcamento_rs": ORCAMENTO_MENSAL,
             "pernas": pernas, "qtd": None, "custo": round(custo, 2), "valor_hoje": round(custo, 2), "resultado_rs": 0.0, "risco_rs": round(custo, 2), "vencimento": vstr,
             "estado": "aberta", "marcacao": "aberta nas ofertas do fechamento; quantidades fracionadas (sem arredondar lote)",
             "nota": "O resto do capital fica no CDI e não entra nesta conta. Perda máxima do mês = o orçamento."}
 
 
+def completar_orcamento(est, M, indice, spot, dia):
+    """Tranche permanente aberta com orcamento menor que o atual (ex.: R$ 500 quando o orcamento passou a R$ 1.000) recebe o que falta, em partes
+    iguais entre os ativos que ja tem na tranche, com as ofertas de venda da cadeia do dia. Uma vez: depois disso orcamento_rs == ORCAMENTO_MENSAL."""
+    n = 0
+    o = M["o"]
+    for pos in est["posicoes"]:
+        if not pos.get("permanente") or pos["estado"] != "aberta" or pd.Timestamp(pos["vencimento"]) <= dia:
+            continue
+        atual = pos.get("orcamento_rs", pos["custo"])
+        falta = ORCAMENTO_MENSAL - atual
+        if falta <= 0.01:
+            continue
+        parte = falta / len(pos["pernas"])
+        gasto = 0.0
+        for p in pos["pernas"]:
+            r = o[(o["codigo"] == p["codigo"]) & (o["vencimento"] == pd.Timestamp(p["vencimento"])) & o["oferta_venda"].notna()]
+            if r.empty:
+                continue
+            unit = float(r["oferta_venda"].iloc[0]) * (1 + FEE)
+            add = parte / unit
+            p["premio_entrada"] = round((p["premio_entrada"] * p["qtd"] + float(r["oferta_venda"].iloc[0]) * add) / (p["qtd"] + add), 4)
+            p["qtd"] = p["qtd"] + add
+            gasto += add * unit
+        if gasto > 0:
+            pos["custo"] = round(pos["custo"] + gasto, 2)
+            pos["risco_rs"] = round(pos["risco_rs"] + gasto, 2)
+            pos["orcamento_rs"] = round(atual + gasto, 2)
+            pos["complementado_em"] = str(dia.date())
+            pos["titulo"] = f"Capital protegido: orçamento mensal de R$ {_brl(ORCAMENTO_MENSAL)} em calls no dinheiro de {len(pos['pernas'])} ativos, vencimento {pos['vencimento']}"
+            marcar(pos, indice, spot, dia)
+            n += 1
+    return n
+
+
+def abrir_teses(est, expressoes_teses, dia):
+    """Abre a expressao escolhida de cada tese (origem mesa ou robo, probabilidade definida), mesmo teto: R$ 500 por estrutura, 6 abertas e R$ 3.000."""
+    abertas = [p for p in est["posicoes"] if p["estado"] == "aberta" and not p.get("permanente")]
+    risco = sum(p["risco_rs"] for p in abertas)
+    novas = []
+    for t in expressoes_teses or []:
+        if len(abertas) + len(novas) >= MAX_ABERTAS:
+            break
+        pid = f"{pd.Timestamp(dia).date()}|tese|{t['id']}|{t['expressao']['nome']}"
+        if any(p.get("tese_id") == t["id"] and p["estado"] == "aberta" for p in est["posicoes"]) or any(p["id"] == pid for p in est["posicoes"]):
+            continue
+        e = t["expressao"]
+        if e.get("perda_maxima_por_acao") is None or e["perda_maxima_por_acao"] <= 0:
+            continue
+        qtd = int(math.floor(RISCO_POR_ESTRUTURA / e["perda_maxima_por_acao"] / LOTE) * LOTE)
+        if qtd < LOTE:
+            continue
+        risco_novo = qtd * e["perda_maxima_por_acao"]
+        if risco + sum(n["risco_rs"] for n in novas) + risco_novo > RISCO_TOTAL_MAX:
+            continue
+        pernas = [{**p, "qtd": qtd} for p in e["pernas_estado"]]
+        custo = qtd * e["custo_por_acao"]
+        novas.append({"id": pid, "aberta_em": str(pd.Timestamp(dia).date()), "titulo": f"Tese {t['id']}: {e['titulo']}", "ativo": t["ativo"], "estrutura": e["nome"], "familia": "tese",
+                      "origem": t["origem"], "tese_id": t["id"], "pernas": pernas, "qtd": qtd, "custo": round(custo, 2), "valor_hoje": round(custo, 2), "resultado_rs": 0.0,
+                      "risco_rs": round(risco_novo, 2), "vencimento": e["vencimento"], "estado": "aberta",
+                      "marcacao": "aberta nas ofertas do fechamento (compra na oferta de venda, venda na de compra)"})
+    return novas
+
+
 # ------------------------------------------------------------------------------------------------------------- principal
-def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True):
-    """Roda um dia da carteira com a cadeia M (saida de assimetrias.montar). Devolve (posicoes, resultado) para o JSON."""
+def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True, teses_abrir=None):
+    """Roda um dia da carteira com a cadeia M (saida de assimetrias.montar). Devolve (posicoes, resultado, estado) para o JSON.
+    Marcar e abrir do ranking acontecem uma vez por data de cadeia; completar o orcamento do capital protegido e abrir teses sao idempotentes pelo proprio estado."""
     dia = pd.Timestamp(M["dia"])
     est = carregar_estado(dia, caminho)
     ja = est.get("ultima_data") == str(dia.date())
+    op, sp = M["op"], M["sp"]
+    indice = {(r["codigo"], str(pd.Timestamp(r["vencimento"]).date())): r for _, r in op[op["dia"] == dia].iterrows()}
+    spot = {r["ativo"]: float(r["fech"]) for _, r in sp[(sp["dia"] == dia) & (sp["fatcot"] == 1)].iterrows()}
+    mudou = False
     if not ja:
-        op = M["op"]
-        indice = {(r["codigo"], str(pd.Timestamp(r["vencimento"]).date())): r for _, r in op[op["dia"] == dia].iterrows()}
-        sp = M["sp"]
-        spot = {r["ativo"]: float(r["fech"]) for _, r in sp[(sp["dia"] == dia) & (sp["fatcot"] == 1)].iterrows()}
         for pos in est["posicoes"]:
             if pos["estado"] == "aberta":
                 marcar(pos, indice, spot, dia)
@@ -208,8 +272,15 @@ def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True):
         cp = abrir_capital_protegido(est, M, dia)
         est["posicoes"] += novas + ([cp] if cp else [])
         est["ultima_data"] = str(dia.date())
-        if gravar:
-            gravar_estado(est, caminho)
+        mudou = True
+    if completar_orcamento(est, M, indice, spot, dia):
+        mudou = True
+    nt = abrir_teses(est, teses_abrir, dia)
+    if nt:
+        est["posicoes"] += nt
+        mudou = True
+    if gravar and mudou:
+        gravar_estado(est, caminho)
     pos = est["posicoes"]
     aberto = sum(p["resultado_rs"] for p in pos if p["estado"] == "aberta")
     real = sum(p["resultado_rs"] for p in pos if p["estado"] == "encerrada")
@@ -217,7 +288,8 @@ def atualizar(M, veredito_fn, caminho=ARQ_ESTADO, gravar=True):
                  "n_abertas": sum(1 for p in pos if p["estado"] == "aberta"), "n_encerradas": sum(1 for p in pos if p["estado"] == "encerrada"),
                  "risco_em_aberto_rs": round(sum(p["risco_rs"] for p in pos if p["estado"] == "aberta"), 2), "desde": est["desde"],
                  "capital_simulado_rs": CAPITAL, "ultima_data": est["ultima_data"], "regras": f"até {MAX_NOVAS_POR_DIA} novas por dia, perda máxima de R$ {_brl(RISCO_POR_ESTRUTURA)} por estrutura, "
-                 f"{MAX_ABERTAS} abertas e R$ {_brl(RISCO_TOTAL_MAX)} em risco; capital protegido à parte"}
+                 f"{MAX_ABERTAS} abertas e R$ {_brl(RISCO_TOTAL_MAX)} em risco; capital protegido (R$ {_brl(ORCAMENTO_MENSAL)} por mês) à parte"}
     saida = [{k: p.get(k) for k in ("id", "aberta_em", "titulo", "ativo", "estrutura", "pernas", "custo", "valor_hoje", "resultado_rs", "vencimento", "estado", "familia",
-                                      "qtd", "risco_rs", "marcacao", "permanente", "fechada_em", "valor_final", "vantagem_na_abertura_pct", "nota")} for p in pos]
+                                      "qtd", "risco_rs", "marcacao", "permanente", "fechada_em", "valor_final", "vantagem_na_abertura_pct", "nota", "origem", "tese_id",
+                                      "orcamento_rs", "complementado_em")} for p in pos]
     return saida, resultado, est

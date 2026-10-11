@@ -418,6 +418,8 @@ def a6(pv_unused=None):
     m["valor_saida"] = (m["bid_c"] + m["bid_p"]) * (1 - FEE)
     m["ret"] = m["valor_saida"] / m["custo"] - 1.0
     m["T"] = m["saida"]
+    m["S_in"] = [sp.get((a, d), np.nan) for a, d in zip(m["ativo"], m["entrada"])]
+    m["S_out"] = [sp.get((a, d), np.nan) for a, d in zip(m["ativo"], m["saida"])]
     return m, {"eventos_com_serie_na_entrada": int(total), "eventos_com_saida_cotada": int(len(m)), "eventos_brutos": int(len(ev))}
 
 
