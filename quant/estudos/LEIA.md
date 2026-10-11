@@ -308,3 +308,30 @@ pesos e regra de volatilidade "pode ser"; orcamento de queda "corrija entao". O 
 - Caso BBAS3: marcado `exemplo` em `quant/opcoes/teses.py`; nunca abre.
 - Tela: bloco `livro` em `quant_fatores.json` (pesos, mao, queda de cada modulo contra o orcamento).
 - Testes: `quant/testes/conftest.py` isola a suite dos arquivos de decisao em `quant/saida`.
+
+## 11/10/2026 (fim da manha em diante): o mandato novo
+
+Palavras do Douglas: carteira de acoes "de operacoes de curto prazo, swing trades curtos, de no max 2 semanas"; day trade
+"pode voltar para os R$10.000,00"; opcoes em tres vertentes (especulativa, dividendo sintetico com saida perto de 80% do
+premio, travas de BOVA11: "fique especialista nisso"); mini-dolar com "objetivo de fazer 0,10% ao dia liquido"; Ruy Alves e
+Marco Freire (Kinea) como referencia macro; o robo com "acesso a todas ferramentas do terminal" e usando "o banco de dados
+do terminal". O que existe por causa disso:
+
+- `quant/saida/modo_robo.json`: `"modulos": ["swing", "daytrade"]`. A carteira de fatores nao roda (o modulo continua no
+  codigo; para voltar, `["fatores", "daytrade"]`).
+- Swing: `quant/swing/` (pesquisa, livro, boleta, gestor, vivo), contrato da tela em `quant/docs/tela_swing.md`, pre-registro
+  e resultados em `quant/saida/pesquisa_swing/`. 39 variantes, nenhuma passou descoberta (2010-2017) e validacao (2018-2021);
+  a prova 2022-2026 esta FECHADA. Roda so medido; capital so por evidencia ou por `"liberar"` em `quant/saida/swing_config.json`.
+  M1 e M2 medem a conviccao e o veto da mesa (sem teste historico).
+- Opcoes: `quant/opcoes/vertentes.py`, `manejo.py`, `vertentes_pesquisa.py`; manual em `quant/docs/travas-bova.md`; resultado
+  em `quant/saida/pesquisa5/opcoes/RESULTADO_VERTENTES.md`. Limites de risco 900 / 1.200 / 900 (somam os R$ 3.000 da classe).
+- Mini-dolar: `objetivo_dia_rs` (placar) e `meta_dia_rs` (teto que zera) em `quant/saida/risco_robo.json`; medicao em
+  `quant/pesquisa/META_DIA.md` (parar em R$ 100 baixa a media do dado americano de R$ 34 para R$ 2 por pregao).
+- Livro: `quant/saida/risco_livro.json` com orcamento de queda de 30% (17 acoes, 3 opcoes, 10 day trade); o resultado do
+  swing entra em `quant/risco/livro.py::resultado_acoes`.
+- Mesa: visao refeita para 10 pregoes; procedimento em `quant/docs/visao_mesa_procedimento.md`; lente Kinea em
+  `quant/saida/mesa/lente_kinea.json`; tarefa agendada `quant-visao-da-mesa-semanal` (domingo 8h40, Sonnet).
+- Terminal: `quant/terminal/` le o banco de dados do terminal (ficha, tabela, eventos, historico); inventario e lacunas em
+  `quant/docs/terminal-para-o-robo.md`. No terminal, `coletor/banco.py` guarda a historia diaria em SQLite.
+- Pendente do Douglas: liberar ou nao o setup D1.S1 (reacao ao resultado) com capital; parar ou nao o mini-dolar em R$ 100;
+  fonte para a expectativa dos dados americanos (`cache/manual/consenso_eua.csv` no terminal).
