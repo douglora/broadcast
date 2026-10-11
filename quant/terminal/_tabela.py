@@ -110,6 +110,13 @@ COLUNAS: list[tuple[str, str, Callable[[dict], Any]]] = [
     ("retorno_12d_pct", "%: retorno acumulado nos ultimos 12 pregoes", lambda f: _g(f, "pares", "retorno_12d_pct")),
     ("retorno_12d_vs_pares_pp", "pp: retorno de 12 pregoes menos a media dos pares proximos", lambda f: _g(f, "pares", "retorno_12d_vs_pares_pp")),
     ("fundos_pct_classe", "%: parte das acoes da classe na carteira dos fundos (CVM, com atraso de meses)", lambda f: _g(f, "fundos", "pct_das_acoes_da_classe")),
+    ("resultado_antes_da_abertura", "0/1: o proximo resultado sai ANTES da abertura (estimativa: moda das ultimas 8 entregas com hora, confianca de 60% ou mais; vazio = sem estimativa firme)",
+     lambda f: _bin(_g(f, "proximo_resultado", "proximo", "antes_da_abertura"))),
+    ("resultado_momento_confianca", "0 a 1: iguais / entregas com hora, na estimativa do momento do resultado", lambda f: _g(f, "proximo_resultado", "proximo", "momento_confianca")),
+    ("iv_skew_10_pp", "pp: volatilidade implicita ~10% abaixo do preco (put) menos ~10% acima (call), no vencimento de referencia; so com strike observado perto",
+     lambda f: _g(f, "opcoes", "sorriso_do_vencimento_de_referencia", "skew_10_pp")),
+    ("opcoes_pregao_incompleto", "0/1: o pregao mais recente veio incompleto da B3 e os numeros de opcao sao do ultimo pregao COMPLETO",
+     lambda f: None if f.get("opcoes") is None else float(bool(_g(f, "opcoes", "pregao_incompleto_mais_recente")))),
 ]
 NOMES = [c[0] for c in COLUNAS]
 TEXTO = ("nome", "classe", "setor", "subsetor")

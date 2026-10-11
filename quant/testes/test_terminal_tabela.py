@@ -20,7 +20,9 @@ COLUNAS_ESTAVEIS = [
     "dias_ate_resultado", "dias_ate_provento_ex", "reacao_resultado_media_abs_pct", "pl", "pvp", "ev_ebitda", "div_liq_ebitda", "dy_12m_pct", "roe_pct",
     "mg_liq_12m_pct", "cresc_lucro_12m_pct", "balanco_idade_dias", "pl_pct_5a", "pl_z_5a", "pvp_pct_5a", "ev_ebitda_pct_5a", "div_cp_pct",
     "div_cobertura_juros", "div_custo_pct", "div_moeda_estrangeira_pct", "iv_atm_pct", "iv_pctil", "opcoes_pc_oi", "opcoes_dor_maxima_dist_pct",
-    "retorno_12d_pct", "retorno_12d_vs_pares_pp", "fundos_pct_classe"]
+    "retorno_12d_pct", "retorno_12d_vs_pares_pp", "fundos_pct_classe",
+    # acrescentadas em 12/10/2026 (sempre no fim: a ordem das anteriores nao muda)
+    "resultado_antes_da_abertura", "resultado_momento_confianca", "iv_skew_10_pp", "opcoes_pregao_incompleto"]
 
 
 @pytest.fixture
@@ -72,6 +74,12 @@ def test_numeros_da_tabela_sao_os_da_ficha(raiz):
     assert r["pl"] == 5.41 and r["ev_ebitda"] == 3.98 and r["div_liq_ebitda"] == 1.14 and r["balanco_idade_dias"] == 103
     assert r["pl_pct_5a"] == 73 and r["div_cp_pct"] == 16.5 and r["iv_atm_pct"] == 32.0 and r["iv_pctil"] == 50.0 and r["opcoes_pc_oi"] == 1.12
     assert r["retorno_12d_pct"] == 2.01 and r["retorno_12d_vs_pares_pp"] == 3.01 and r["fundos_pct_classe"] == 7.03
+    assert r["resultado_antes_da_abertura"] == 0.0 and r["resultado_momento_confianca"] == 1.0 and r["iv_skew_10_pp"] == 10.0 and r["opcoes_pregao_incompleto"] == 1.0
+
+
+def test_antes_da_abertura_na_tabela_true_false_nan(raiz):
+    t = T.tabela(["PETR4", "PRIO3", "DIRR3", "VALE3"], hoje=HOJE)["resultado_antes_da_abertura"]
+    assert t["PETR4"] == 0.0 and t["PRIO3"] == 1.0 and math.isnan(t["DIRR3"]) and math.isnan(t["VALE3"])
 
 
 def test_onde_nao_ha_dado_e_nan_nunca_zero(raiz):

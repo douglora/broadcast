@@ -96,7 +96,16 @@ def montar_terminal(raiz: Path) -> Path:
     # ---- calendario e agenda
     _g(out / "pagina" / "eventos.json", {"gerado": "2026-10-12T07:00:00-03:00", "itens": [
         {"data": "2026-11-10", "tipo": "resultado", "ticker": "PETR4", "empresa": "Petrobras", "periodo": "3T26", "confirmado": True, "pais": "BR", "raiz": "PETR",
-         "fonte": "CVM", "indices": ["IBOV"]},
+         "fonte": "CVM", "indices": ["IBOV"], "momento_estimado": "ap\u00f3s o fechamento", "momento_confianca": 1.0, "momento_iguais": 8, "momento_entregas": 8,
+         "momento_origem": "estimado pelo hist\u00f3rico de entregas"},
+        {"data": "2026-10-29", "tipo": "resultado", "ticker": "PRIO3", "empresa": "Prio", "periodo": "3T26", "confirmado": True, "pais": "BR", "raiz": "PRIO",
+         "momento_estimado": "antes da abertura", "momento_confianca": 0.75, "momento_iguais": 6, "momento_entregas": 8,
+         "momento_origem": "estimado pelo hist\u00f3rico de entregas"},
+        {"data": "2026-10-30", "tipo": "resultado", "ticker": "DIRR3", "empresa": "Direcional", "periodo": "3T26", "confirmado": False, "pais": "BR", "raiz": "DIRR",
+         "momento_estimado": "antes da abertura", "momento_confianca": 0.5, "momento_iguais": 3, "momento_entregas": 6,
+         "momento_origem": "estimado pelo hist\u00f3rico de entregas"},
+        {"data": "2026-10-28", "tipo": "resultado", "ticker": "BBAS3", "empresa": "Banco do Brasil", "periodo": "3T26", "confirmado": True, "pais": "BR", "raiz": "BBAS",
+         "momento_estimado": "durante o preg\u00e3o", "momento_confianca": 1.0, "momento_origem": "informado pela companhia"},
         {"data": "2026-10-14", "hora": "09:00", "tipo": "resultado", "ticker": "JPM", "empresa": "JPMorgan", "periodo": "3T26", "confirmado": True, "pais": "US"},
         {"data": "2026-10-16", "tipo": "vencimento_opcoes", "ticker": None, "empresa": "Opcoes sobre acoes (B3)", "periodo": "out/26", "confirmado": True, "pais": "BR"},
         {"data": "2026-10-13", "tipo": "provento_ex", "ticker": "PETR4", "tickers": ["PETR3", "PETR4"], "empresa": "Petrobras", "confirmado": True, "pais": "BR",
@@ -110,7 +119,8 @@ def montar_terminal(raiz: Path) -> Path:
         {"id": "BR-ipca-2026-10-14", "pais": "BR", "dia": "2026-10-14", "hora": "09:00", "evento": "IPCA (mes)", "indicador": "ipca", "relevancia": 3,
          "expectativa": 0.5, "efetivo": None, "anterior": 0.82, "unidade": "%", "saiu": False, "fonte": "IBGE"},
         {"id": "US-cpi-2026-10-14", "pais": "US", "dia": "2026-10-14", "hora": "09:30", "evento": "CPI (mes)", "indicador": "cpi", "relevancia": 3, "anterior": 0.3,
-         "unidade": "%", "saiu": False, "fonte": "BLS"},
+         "expectativa": 0.3, "efetivo": 0.4, "surpresa": 0.1, "exp_fonte": "manual: Bloomberg, copiado em 2026-10-13 (cache/manual/consenso_eua.csv)",
+         "unidade": "%", "saiu": True, "fonte": "BLS"},
         {"id": "BR-focus-2026-10-26", "pais": "BR", "dia": "2026-10-26", "hora": "08:30", "evento": "Focus", "indicador": "focus", "relevancia": 2, "saiu": False}]})
 
     # ---- valuation, divida, opcoes, fundos, pares
@@ -127,13 +137,17 @@ def montar_terminal(raiz: Path) -> Path:
                  "me_falta": "A companhia nao abre os emprestimos por moeda."},
         "pares": {"grupo": "Exploracao, Refino e Distribuicao", "n": 8, "dl_ebitda": 1.74, "custo": 10.08}})
     _g(out / "deriv" / "opcoes" / "PETR4.json", {
-        "s": "PETR4", "data": "2026-10-09", "data_posicao": "2026-10-08", "spot": 56.0, "var_spot": 0.93,
+        "s": "PETR4", "data": "2026-10-08", "data_posicao": "2026-10-08", "spot": 56.0, "var_spot": 0.93,
         "resumo": {"oi_call": 369766200, "oi_put": 413901100, "pc_oi": 1.12, "doi_call": 425000, "doi_put": 10732800, "venc_ref": "2026-10-16", "vol_call": 0,
                    "ofertas": {"dois_lados": 323, "firmes": 113, "spread_max": 40.0}},
         "vencimentos": [{"venc": "2026-10-16", "du": 4, "dor_maxima": 47.61, "dor_maxima_dist_pct": -14.98, "parede_call": {"k": 59.86, "dist_pct": 6.89},
-                         "parede_put": {"k": 49.61, "dist_pct": -11.41}}],
-        "hist": {"t": ["2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09"], "iv_atm": [33.0, 34.0, 31.0, 32.0, None],
+                         "parede_put": {"k": 49.61, "dist_pct": -11.41},
+                         "strikes": [{"k": 50.4, "iv": 40.0}, {"k": 55.9, "iv": 31.0}, {"k": 58.8, "iv": 30.5}, {"k": 61.6, "iv": 30.0}, {"k": 70.0}]}],
+        "hist": {"t": ["2026-10-02", "2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08"], "iv_atm": [33.0, 34.0, 31.0, 32.0, None],
                  "venc_ref": ["2026-10-16"] * 4 + [None]}})
+    _g(out / "deriv" / "opcoes_resumo.json", {
+        "data": "2026-10-08", "incompleto": {"data": "2026-10-09", "motivo": "arquivo de negocios com 30.342 linhas de opcao, 41% da mediana", "tentativas": 3,
+                                              "ultima_tentativa": "2026-10-11T12:00:00-03:00"}})
     _g(out / "porativo" / "quemtem" / "PETR4.json", {
         "s": "PETR4", "ref": "2026-06", "data": "2026-06-30", "tot": {"n": 978, "q": 382706152, "v": 18634708275},
         "pct": {"cl": 7.03, "ff": 11.0}, "mov": {"de": "2026-06", "au": [295, 26251857], "en": [181, 23209203], "re": [299, -44811553], "sa": [77, -5812008]}})

@@ -20,6 +20,7 @@ _ORGAOS_GESTAO = ("conselho", "diretoria", "fiscal", "orgaos", "sem")        # t
 _LADO_COMPRA = re.compile(r"^compra( (\u00e0|a) (vista|termo))?$")
 _LADO_VENDA = re.compile(r"^venda( (\u00e0|a) (vista|termo))?$")
 JANELA_INSIDERS_DIAS = 90
+CONFIANCA_MOMENTO_MIN = 0.6          # abaixo disto o "momento do resultado" estimado nao vira True/False: fica None
 JANELA_NOTICIAS_DIAS = 7
 
 
@@ -76,6 +77,23 @@ class Ctx:
     def notas_agente(self) -> dict[str, Any]:
         d = L.ler_arquivo_da_cache("cache/notas_agente.json")
         return d if isinstance(d, dict) else {}
+
+
+def antes_da_abertura(momento: str | None, confianca: Any) -> bool | None:
+    """O resultado sai antes da abertura do pregao? True / False pelo momento estimado do terminal (moda das ultimas 8 entregas com hora);
+    None quando nao ha estimativa ou a confianca (iguais / entregas com hora) e menor que CONFIANCA_MOMENTO_MIN."""
+    c = L.num(confianca)
+    if not momento or c is None or c < CONFIANCA_MOMENTO_MIN:
+        return None
+    return momento == "antes da abertura"
+
+
+def _momento(x: dict) -> dict:
+    """Os campos do momento do resultado de um evento do calendario (ESTIMATIVA; so e informacao da companhia quando a origem diz)."""
+    m, conf = x.get("momento_estimado"), L.num(x.get("momento_confianca"))
+    return {"momento_estimado": m, "momento_confianca": conf, "momento_origem": x.get("momento_origem"),
+            "momento_iguais": L.inteiro(x.get("momento_iguais")), "momento_entregas": L.inteiro(x.get("momento_entregas")),
+            "antes_da_abertura": antes_da_abertura(m, conf)}
 
 
 def _cab(fonte: str, data: Any, c: Ctx) -> dict:
@@ -427,7 +445,7 @@ def sec_proximo_resultado(c: Ctx, t: str) -> tuple[dict | None, str | None]:
     out.update({
         "proximo": None if prox is None else {
             "data": prox["data"], "hora": prox.get("hora"), "periodo": prox.get("periodo"), "dias_ate": (date.fromisoformat(prox["data"]) - c.hoje).days,
-            "confirmado": prox.get("confirmado"), "fonte": prox.get("fonte"),
+            "confirmado": prox.get("confirmado"), "fonte": prox.get("fonte"), **_momento(prox),
             "teleconferencia": None if tele is None else {"data": tele["data"], "hora": tele.get("hora")}},
         "ultimo": None if ultimo is None else {"data": ultimo["data"], "hora": ultimo.get("hora"), "periodo": ultimo.get("periodo"),
                                                "reacao": ultimo.get("reacao")},
@@ -550,6 +568,23 @@ def sec_divida(c: Ctx, t: str) -> tuple[dict | None, str | None]:
 
 # --------------------------------------------------------------------------- opcoes
 
+def _sorriso(spot: Any, v: dict) -> dict | None:
+    """Volatilidade implicita observada em tres pontos do sorriso do vencimento: no dinheiro (a menos de 2% do preco), cerca de 10% abaixo
+    (put) e cerca de 10% acima (call), cada uma a no maximo 3 pontos percentuais do alvo. Nada interpolado: sem strike perto, None."""
+    s = L.num(spot)
+    pts = [((L.num(x["k"]) / s - 1.0) * 100.0, L.num(x["iv"])) for x in v.get("strikes") or []
+           if s and L.num(x.get("k")) and L.num(x.get("iv")) is not None]
+    if len(pts) < 3:
+        return None
+
+    def perto(alvo: float, tol: float) -> float | None:
+        d, iv = min(pts, key=lambda p: abs(p[0] - alvo))
+        return round(iv, 2) if abs(d - alvo) <= tol else None
+    atm, p10, c10 = perto(0.0, 2.0), perto(-10.0, 3.0), perto(10.0, 3.0)
+    return {"vencimento": v.get("venc"), "strikes_com_volatilidade": len(pts), "atm_pct": atm, "put_10_pct": p10, "call_10_pct": c10,
+            "skew_10_pp": round(p10 - c10, 2) if p10 is not None and c10 is not None else None}
+
+
 def sec_opcoes(c: Ctx, t: str) -> tuple[dict | None, str | None]:
     d = L.ler(f"deriv/opcoes/{t}.json", memo=False)
     if not isinstance(d, dict):
@@ -572,6 +607,9 @@ def sec_opcoes(c: Ctx, t: str) -> tuple[dict | None, str | None]:
               "media_historica_pct": round(sum(validos) / len(validos), 2), "valida": mot_iv is None, "motivo_descarte": mot_iv}
         if mot_iv:
             iv = {"pct": None, **{k: iv[k] for k in ("data", "idade_dias", "vencimento", "motivo_descarte")}}
+    inc = (L.ler("deriv/opcoes_resumo.json") or {}).get("incompleto")
+    inc = None if not inc or (inc.get("data") or "") <= (d.get("data") or "") else {
+        "data": inc.get("data"), "motivo": inc.get("motivo"), "tentativas": inc.get("tentativas"), "ultima_tentativa": inc.get("ultima_tentativa")}
     venc_ref = r.get("venc_ref")
     v_ref = next((v for v in d.get("vencimentos") or [] if v.get("venc") == venc_ref), None) or {}
     out = _cab("B3, arquivos do Boletim Diario (negocios, cadastro e posicoes em aberto), via Autopilot Terminal, modulo opcoes", d.get("data"), c)
@@ -579,7 +617,9 @@ def sec_opcoes(c: Ctx, t: str) -> tuple[dict | None, str | None]:
     out.update({
         "ativo_preco": L.arred(d.get("spot"), 4), "var_ativo_pct": L.arred(d.get("var_spot")),
         "iv_no_dinheiro": iv, "iv_do_dia_no_resumo_pct": L.arred(r.get("iv_atm")), "movimento_esperado_pct": L.arred(r.get("mov_esperado_pct")),
-        "vencimento_de_referencia": venc_ref,
+        "vencimento_de_referencia": venc_ref, "pregao_completo": d.get("data"),
+        "pregao_incompleto_mais_recente": inc,
+        "sorriso_do_vencimento_de_referencia": _sorriso(d.get("spot"), v_ref) if v_ref else None,
         "posicao": {"oi_call": L.inteiro(r.get("oi_call")), "oi_put": L.inteiro(r.get("oi_put")), "put_call_oi": L.arred(r.get("pc_oi"), 3),
                     "variacao_oi_call": L.inteiro(r.get("doi_call")), "variacao_oi_put": L.inteiro(r.get("doi_put")),
                     "data_da_posicao": d.get("data_posicao")},
@@ -590,7 +630,9 @@ def sec_opcoes(c: Ctx, t: str) -> tuple[dict | None, str | None]:
         "liquidez": {"vencimentos": len(d.get("vencimentos") or []), "ofertas_nos_dois_lados": L.inteiro(ofe.get("dois_lados")),
                      "ofertas_firmes": L.inteiro(ofe.get("firmes")), "spread_max_considerado": L.num(ofe.get("spread_max"))},
         "avisos": [("sem negocio de opcao no arquivo do pregao: a volatilidade implicita do dia nao foi calculada; vale a ultima com data"
-                    if iv and r.get("iv_atm") is None else None)],
+                    if iv and r.get("iv_atm") is None else None),
+                   (f"o pregao de {inc['data']} veio incompleto da B3 ({inc.get('motivo')}); estes numeros sao do ultimo pregao COMPLETO, {d.get('data')}"
+                    if inc else None)],
     })
     out["avisos"] = [a for a in out["avisos"] if a]
     return out, None

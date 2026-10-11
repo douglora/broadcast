@@ -1,4 +1,5 @@
 """Eventos dos proximos dias: janela, ordem, filtros e o aviso quando o calendario esta velho."""
+import json
 from datetime import date
 
 import pytest
@@ -60,3 +61,26 @@ def test_sem_terminal_devolve_lista_vazia_com_aviso(tmp_path, monkeypatch):
     T.limpar_cache()
     ev = T.eventos(10, hoje=HOJE)
     assert list(ev) == [] and len(ev.avisos) == 2
+
+
+def test_evento_macro_traz_a_surpresa_e_a_fonte_da_expectativa(raiz):
+    cpi = next(e for e in T.eventos(10, hoje=HOJE) if e["titulo"] == "CPI (mes)")
+    assert cpi["expectativa"] == 0.3 and cpi["efetivo"] == 0.4 and cpi["surpresa"] == 0.1 and cpi["expectativa_fonte"].startswith("manual: Bloomberg")
+
+
+def test_evento_de_resultado_traz_o_momento_estimado(raiz):
+    r = next(e for e in T.eventos(30, hoje=HOJE) if e["ticker"] == "PRIO3" and e["tipo"] == "resultado")
+    assert r["momento_estimado"] == "antes da abertura" and r["momento_confianca"] == 0.75 and r["antes_da_abertura"] is True
+    assert next(e for e in T.eventos(30, hoje=HOJE) if e["ticker"] == "DIRR3" and e["tipo"] == "resultado")["antes_da_abertura"] is None
+
+
+def test_sem_data_ex_futura_o_aviso_vem_do_arquivo_do_terminal(raiz):
+    assert T.eventos(10, hoje=HOJE).avisos == []                                    # o fixture tem uma data ex futura (13/10)
+    p = raiz / "cache" / "out" / "pagina" / "eventos.json"
+    d = json.loads(p.read_text())
+    d["fontes"] = {"proventos": {"data_com_futura": 0, "nota": "sem data ex futura porque a fonte nao tem: a B3 so lista depois da aprovacao"}}
+    p.write_text(json.dumps(d))
+    T.limpar_cache()
+    ev = T.eventos(10, hoje=HOJE)
+    assert len(ev.avisos) == 1 and ev.avisos[0].startswith("sem data ex de provento futura") and "aprovacao" in ev.avisos[0]
+    assert T.eventos(10, hoje=HOJE, tipos=["macro"]).avisos == []                    # quem nao pediu provento nao recebe o aviso

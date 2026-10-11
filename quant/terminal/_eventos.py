@@ -50,6 +50,9 @@ def montar(dias: int, ctx: S.Ctx, *, tipos: Iterable[str] | None = None, pais: s
         if mot:
             avisos.append(mot + ": eventos de empresas descartados")
         else:
+            prov = (ev.get("fontes") or {}).get("proventos") or {}
+            if prov.get("data_com_futura") == 0 and prov.get("nota") and (not quer_tipos or "provento_ex" in quer_tipos):
+                avisos.append("sem data ex de provento futura: " + prov["nota"])        # a B3 so lista o provento depois da aprovacao
             for x in ev.get("itens") or []:
                 d = x.get("data")
                 if not d or d < de_s or d > ate_s:
@@ -62,7 +65,8 @@ def montar(dias: int, ctx: S.Ctx, *, tipos: Iterable[str] | None = None, pais: s
                     "ticker": x.get("ticker"), "tickers": tks, "empresa": x.get("empresa"), "pais": x.get("pais"),
                     "titulo": _titulo(x), "periodo": x.get("periodo"), "confirmado": x.get("confirmado"), "relevancia": None,
                     "expectativa": None, "anterior": None, "efetivo": None, "unidade": None, "indices": x.get("indices") or [],
-                    "fonte": x.get("fonte"), "detalhe": x.get("det")})
+                    "fonte": x.get("fonte"), "detalhe": x.get("det"), "surpresa": None, "expectativa_fonte": None,
+                    **S._momento(x)})
 
     ag = L.ler("pagina/agenda.json")
     if not isinstance(ag, dict):
@@ -81,7 +85,8 @@ def montar(dias: int, ctx: S.Ctx, *, tipos: Iterable[str] | None = None, pais: s
                     "tickers": [], "empresa": None, "pais": x.get("pais"), "titulo": x.get("evento"), "periodo": x.get("periodo"),
                     "confirmado": True, "relevancia": x.get("relevancia"), "expectativa": L.num(x.get("expectativa")),
                     "anterior": L.num(x.get("anterior")), "efetivo": L.num(x.get("efetivo")), "unidade": x.get("unidade"), "indices": [],
-                    "fonte": x.get("fonte"), "detalhe": x.get("indicador")})
+                    "fonte": x.get("fonte"), "detalhe": x.get("indicador"), "surpresa": L.num(x.get("surpresa")),
+                    "expectativa_fonte": x.get("exp_fonte"), **S._momento({})})
     if quer_tipos:
         saida = [e for e in saida if e["tipo"] in quer_tipos]
     if pais:

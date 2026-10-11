@@ -25,8 +25,9 @@ terminal.disponivel()                                  # bool: o terminal esta n
 f = terminal.ficha("PETR4")                            # dict: tudo o que o terminal sabe do papel
 f["tir"]["tir_prudente"]["premio_pp"]                  # 11.68: TIR prudente menos a NTN-B de ~10 anos, em pontos
 f["tir"]["ciclo_do_lucro"]["marca"]                    # None | "pico" | "fundo"
+f["proximo_resultado"]["proximo"]["antes_da_abertura"] # True | False | None: o resultado sai antes da abertura? (estimativa, com confianca)
 f["motivos"]                                           # por que cada pedaco ausente esta ausente
-df = terminal.tabela(["PETR4", "VALE3"])               # DataFrame, 1 linha por ticker, 64 colunas estaveis
+df = terminal.tabela(["PETR4", "VALE3"])               # DataFrame, 1 linha por ticker, 68 colunas estaveis
 terminal.cobertura(df)                                 # quantos tickers tem cada coluna
 terminal.eventos(dias=10, pais="BR")                   # resultados, proventos, assembleias, vencimentos e agenda macro
 terminal.historico("tir", "PETR4", desde="2026-10-01") # lido do banco historico (tabelas na secao 5)
@@ -51,7 +52,7 @@ CLI (mesmos dados, para olhar no Terminal do Mac): `python -m quant.terminal fic
 6. **Nenhum campo do terminal foi testado como sinal de trade.** Antes de entrar numa decisao do robo, ele passa pelo mesmo caminho de
    qualquer ideia nova (hipotese escrita antes, desenvolvimento, validacao, prova viva). O banco historico existe para isso: ver a secao 6.
 
-## 2. O que a `ficha` e a `tabela` devolvem hoje (11/10/2026, 369 acoes da B3)
+## 2. O que a `ficha` e a `tabela` devolvem hoje (12/10/2026, 369 acoes da B3)
 
 `ficha`: doze pedacos. Para PETR4 e DIRR3, todos os 12 tem dado; para BBAS3, 11 (banco nao tem painel de divida: o motivo vem dito).
 
@@ -62,29 +63,29 @@ CLI (mesmos dados, para olhar no Terminal do Mac): `python -m quant.terminal fic
 | `insiders` | saldo de compras menos vendas em reais na janela de 90 dias, por orgao (controlador, conselho, diretoria...); saldo so de administradores; no de negocios; mes do formulario | CVM (Res. 44, art. 11) | formulario de agosto/2026 (entregue em 10/09) |
 | `aluguel` | taxa do tomador (media, minima, maxima), saldo em quantidade e em reais, variacao em 1/5/20 dias, % do float, dias para cobrir, saldo contra a media de 21 pregoes | B3 BDI | pregao de 09/10 |
 | `noticias` | manchetes dos ultimos 7 dias: contagem, soma e maior nota 0-3 de "faz preco", as 5 principais com fonte e hora | veiculos + agente | 11/10 |
-| `proximo_resultado` | data, periodo, confirmado ou estimado, dias ate; teleconferencia; reacao media historica do papel no pregao apos o resultado; outros eventos do papel (data ex, assembleia) | CVM, RAD, Yahoo | 11/10 |
+| `proximo_resultado` | data, periodo, confirmado ou estimado, dias ate; **momento estimado (antes da abertura, durante, apos o fechamento), confianca e `antes_da_abertura`**; teleconferencia; reacao media historica do papel no pregao apos o resultado; outros eventos do papel (data ex, assembleia) | CVM, RAD, Yahoo | 11/10 |
 | `multiplos` | preco, valor de mercado, liquidez de 21 dias, P/L, P/VP, EV/EBITDA, DL/EBITDA, DY, ROE, ROIC, margens, crescimento, cobertura de juros, custo da divida, idade do balanco | B3 + CVM ITR/DFP | pregao de 09/10 |
 | `valuation` | percentil e z-score do P/L, P/VP, EV/EBITDA e DY de hoje contra 5 e 10 anos do proprio papel; premio ou desconto contra a mediana do subsetor | modulo `valuation` | 09/10 |
 | `divida` | divida bruta, caixa, liquida, curto prazo, DL/EBITDA, cobertura de juros, custo, % em moeda estrangeira (quando a companhia abre), contra os pares | CVM ITR/DFP | 2T26 |
-| `opcoes` | IV no dinheiro (a ultima com data, percentil e media na historia de ate 60 pregoes), posicao em aberto, put/call, dor maxima e paredes do vencimento de referencia, liquidez da cadeia | B3 (boletim) | pregao de 09/10 (IV de 08/10) |
+| `opcoes` | IV no dinheiro (a ultima com data, percentil e media na historia de ate 60 pregoes), posicao em aberto, put/call, dor maxima e paredes do vencimento de referencia, sorriso (IV no dinheiro e ~10% abaixo e acima, skew), liquidez da cadeia, e qual pregao e o ultimo COMPLETO (e o incompleto mais recente, se houver) | B3 (boletim) | pregao completo de 08/10 (o de 09/10 veio incompleto da B3) |
 | `fundos` | % das acoes da classe e do free float nos fundos, no de fundos, movimento do mes | CVM (CDA) | carteira de 03/2026 |
 | `pares` | pares proximos por correlacao de 126 pregoes, retorno de 12 pregoes do papel contra a media dos pares | historico do terminal | 09/10 |
 
-`tabela()`: uma linha por ticker, 64 colunas (4 de texto e 60 numericas), as mesmas contas da `ficha`. Cobertura medida em 11/10/2026:
+`tabela()`: uma linha por ticker, 68 colunas (4 de texto e 64 numericas), as mesmas contas da `ficha`. As 4 ultimas colunas (momento do resultado, sorriso e pregao incompleto) entraram em 12/10/2026, sempre no fim: a ordem das anteriores nao muda. Cobertura medida em 12/10/2026:
 
 | Grupo | Colunas (no de tickers com dado, de 369) |
 |---|---|
 | Preco e liquidez | `preco` 362, `mcap_rs` 362, `liq_21d_rs` 362 |
-| TIR | `tir_pct` 92, `tir_prudente_pct` 92, `tir_premio_pp` 92, `tir_premio_hoje_pp` 92, `ciclo_lucro` 81, `ciclo_razao` 87, `tir_caixa_g0_pct` 71, `tir_caixa_diverge` 91, `tir_casas` 90 |
+| TIR | `tir_pct` 92, `tir_prudente_pct` 92, `tir_premio_pp` 92, `tir_premio_hoje_pp` 92, `ciclo_lucro` 83, `ciclo_razao` 87, `tir_caixa_g0_pct` 71, `tir_caixa_diverge` 91, `tir_casas` 90 |
 | Consenso | `consenso_upside_pct` 182, `consenso_alvo_n` 182, `consenso_nota` 124, `consenso_pct_compra` 179, `consenso_lpa_rev_30d_pct` 166, `consenso_lpa_rev_90d_pct` 166, `consenso_lpa_subiram_30d` 171, `consenso_lpa_cortaram_30d` 171, `consenso_pl_proj` 157 |
 | Insiders | `insiders_saldo_90d_rs` 351, `insiders_saldo_gestao_90d_rs` 351, `insiders_negocios_90d` 351, `insiders_idade_dias` 351 |
 | Aluguel | `aluguel_taxa_aa` 328, `aluguel_pct_float` 219, `aluguel_var_20d_pct` 324, `aluguel_dias_para_cobrir` 328, `aluguel_saldo_rs` 328 |
-| Noticias | `noticia_n_7d` 369, `noticia_score_7d` 193, `noticia_max_7d` 193 |
-| Calendario | `dias_ate_resultado` 360, `dias_ate_provento_ex` 0 (nenhuma data ex futura no calendario), `reacao_resultado_media_abs_pct` 369 |
+| Noticias | `noticia_n_7d` 369, `noticia_score_7d` 192, `noticia_max_7d` 192 |
+| Calendario | `dias_ate_resultado` 360, `dias_ate_provento_ex` 0, `reacao_resultado_media_abs_pct` 369, `resultado_antes_da_abertura` 347, `resultado_momento_confianca` 357 |
 | Multiplos e balanco | `pl` 267, `pvp` 325, `ev_ebitda` 281, `div_liq_ebitda` 281, `dy_12m_pct` 362, `roe_pct` 328, `mg_liq_12m_pct` 354, `cresc_lucro_12m_pct` 273, `balanco_idade_dias` 362 |
 | Valuation | `pl_pct_5a` 261, `pl_z_5a` 261, `pvp_pct_5a` 319, `ev_ebitda_pct_5a` 274 |
 | Divida | `div_cp_pct` 307, `div_cobertura_juros` 228, `div_custo_pct` 222, `div_moeda_estrangeira_pct` 210 |
-| Opcoes | `iv_atm_pct` 141, `iv_pctil` 141, `opcoes_pc_oi` 164, `opcoes_dor_maxima_dist_pct` 135 |
+| Opcoes | `iv_atm_pct` 138, `iv_pctil` 138, `iv_skew_10_pp` 76, `opcoes_pc_oi` 164, `opcoes_dor_maxima_dist_pct` 150, `opcoes_pregao_incompleto` 165 |
 | Pares e fundos | `retorno_12d_pct` 369, `retorno_12d_vs_pares_pp` 236, `fundos_pct_classe` 328 |
 
 Leitura honesta da cobertura: a TIR cobre so 92 empresas (as que o modelo consegue projetar); o consenso tem alguma coisa em 182, e em
@@ -206,9 +207,17 @@ entrega. Atualizacao rapida; as notas do agente chegam por lote.
 - `eventos.json` (versao 3): 1.042 itens de 27/09 a 10/12: resultados (817), teleconferencias (171), assembleias (34), data ex de proventos
   (18), vencimento de opcoes (2); BR (289 empresas: 232 confirmadas, 47 estimadas, 10 sem data) e EUA (566); fonte da data e hora quando
   existe; `reacoes`: por empresa, a reacao do papel e do Ibovespa no pregao seguinte a cada um dos ultimos 8 resultados, com media e media
-  em modulo.
+  em modulo. **Desde 12/10/2026** cada resultado futuro traz `momento_estimado` (antes da abertura, durante o pregao, apos o fechamento),
+  `momento_confianca` (iguais / entregas com hora entre as ultimas 8) e `momento_origem`: e ESTIMATIVA pelas 2.582 entregas passadas com hora
+  (ou o que a companhia informou em comunicado, confianca 1). Conferido fora da amostra: a regra sem a entrega mais recente acerta o momento
+  dela em 268 de 288 companhias (93%). Cobertura: 280 dos 281 resultados BR futuros (antes: 224 com `costuma` ou `quando`). No robo:
+  `proximo_resultado.proximo.antes_da_abertura` (True/False; None com confianca abaixo de 0,6) e a coluna `resultado_antes_da_abertura`.
+  **Data ex futura**: a fonte e que nao tem (a B3 so lista o provento depois da aprovacao; a aprovacao mais recente no cadastro e de 30/09 e a data
+  com mais recente, 08/10; o coletor nao filtra nada): `terminal.eventos().avisos` repete a nota.
 - `agenda.json`: agenda economica (103 eventos entre 27/09 e 25/11): IBGE, BCB, Tesouro, FRED, BEA, Fed; relevancia 1 a 3; efetivo,
-  anterior, expectativa so onde existe (Focus); eleicoes 2o turno em 25/10; FOMC em 28/10, 15h.
+  anterior, expectativa so onde existe (Focus; **EUA: so se o Douglas digitar o consenso em `cache/manual/consenso_eua.csv`, formato no proprio
+  arquivo; vem rotulado `manual`**); com expectativa e efetivo, o evento ganha `surpresa` (efetivo menos expectativa); eleicoes 2o turno em
+  25/10; FOMC em 28/10, 15h.
 - `wirp.json`: juro implicito por reuniao do Copom (DI e opcoes de Copom) e do Fed (contratos ZQ): movimento esperado e probabilidade de cada passo.
 - `macro.json` (33 indicadores com historico) e `rf.json` (curva de DI, NTN-B, Treasuries, Tesouro, debentures, spreads de credito dos EUA).
 
@@ -225,7 +234,11 @@ entrega. Atualizacao rapida; as notas do agente chegam por lote.
 - `deriv/opcoes/<ativo>.json` (204) e `opcoes_resumo.json`: por ativo e vencimento, **posicao em aberto** de cada serie (OI), variacao de OI, dor
   maxima, paredes de call e put, put/call, **IV no dinheiro**, movimento esperado, cadeia com IV e gregas (delta, gama, vega, theta) de 17 mil
   series (a partir do ultimo negocio ou do premio de referencia da B3, Black-Scholes europeu com o DI interpolado), bid e ask de fechamento,
-  historico de 60 pregoes do resumo e das series mais negociadas. B3, pregao de 09/10.
+  historico de 60 pregoes do resumo e das series mais negociadas. B3. **Pregao incompleto (12/10/2026)**: quando a B3 serve o arquivo de negocios
+  pela metade (o de 09/10 veio com 41% das linhas de opcao), o coletor nao o promove: o resumo e os arquivos por ativo ficam com o ultimo pregao
+  COMPLETO (hoje 08/10) e o resumo ganha `incompleto` {data, motivo, tentativas}; a cada 25 minutos o arquivo e pedido de novo (ate 16 vezes). A
+  ficha mostra `pregao_completo` e `pregao_incompleto_mais_recente`, e a cadeia ganhou o **sorriso**: `sorriso_do_vencimento_de_referencia` (IV no
+  dinheiro e a ~10% abaixo e acima do preco, com o skew), so com strike observado perto.
 - `deriv/futuros.json` (85 familias): WIN, WDO, DOL, IND, DI1, DAP, DDI, boi, milho, cafe, soja, ouro, S&P, bitcoin...; contratos com ajuste,
   abertura, ultimo, minimo, maximo, negocios, volume, OI e variacao de OI; curva do dia, de ontem, de uma semana e de um mes; estruturas
   (rolagem, FRA, EDS), **opcoes de dolar** (OI por strike), opcoes de IDI e o Copom embutido. `deriv/fut_hist/<RAIZ>.json`: historico por contrato.
@@ -279,24 +292,30 @@ Cada linha e uma **hipotese a testar**, nao uma regra pronta. Os campos existem 
 ## 5. O banco historico (para o robo aprender com o terminal)
 
 Hoje os indicadores derivados sao sobrescritos a cada rodada. O terminal ganhou o banco `cache/banco/terminal.sqlite`
-(`python -m coletor.banco --gravar`, uma vez por dia; documentacao em `~/Desktop/terminal-artefato/BANCO.md`). 17 tabelas:
+(`python -m coletor.banco --gravar`, uma vez por dia; documentacao em `~/Desktop/terminal-artefato/BANCO.md`). 18 tabelas:
 
 | Tabela | O que guarda | `data` e | Passado ja aproveitado |
 |---|---|---|---|
-| `tir`, `tir_geral` | TIR por empresa e premissas do dia | dia do retrato | nenhum (comeca em 11/10/2026) |
+| `tir`, `tir_geral` | TIR por empresa e premissas do dia | dia do retrato (e fim de mes na reconstrucao) | **reconstruida mes a mes (normalizada e por caixa), 92 papeis, 2013-01 a 2026-10, `origem = 'reconstruida'`**; o retrato com consenso comeca em 11/10/2026 |
 | `consenso` | alvo, recomendacao, LPA e revisoes por papel | dia do retrato | desde 18/09/2026 (alvo, nota, % compra), LPA desde julho |
 | `aluguel` | saldo, taxa, variacoes | pregao | 21 pregoes (so quantidade) |
 | `multiplos` | multiplos do pregao | pregao | cerca de 27 pregoes |
 | `valuation_mensal` | P/L, P/VP, EV/EBITDA, DY... de fim de mes | fim do mes | **desde 2011-01, 541 papeis (ponto no tempo)** |
-| `opcoes_ativo`, `opcoes_venc` | IV no dinheiro, OI, put/call; por vencimento: dor maxima e paredes | pregao | 60 pregoes (IV, OI) |
+| `opcoes_ativo`, `opcoes_venc` | IV no dinheiro, OI, put/call; por vencimento: dor maxima e paredes; `incompleto` marca pregao que a B3 serviu pela metade | pregao COMPLETO | 60 pregoes (IV, OI) |
+| `opcoes_sorriso` | volatilidade implicita por faixa de distancia do strike ao preco, por ativo e vencimento (so strike observado) | pregao completo | nenhum (comeca em 12/10/2026) |
 | `noticias_ativo` | manchetes e nota por ativo e dia | dia da noticia | ate 120 dias (contagem; nota so onde o agente pontuou) |
 | `macro`, `macro_focus`, `curva`, `wirp` | indicadores, Focus, DI/NTN-B/UST, juro implicito | dia do retrato ou da curva | nenhum |
 | `eventos`, `agenda_macro` | o calendario como o terminal o conhecia no dia (as datas mudam) | dia do retrato | nenhum |
 | `robo_painel`, `robo_item` | resumo do dia e itens (operacoes, sinais, posicoes, ordens, decisoes) de cada modulo do robo | dia do retrato | resultado e patrimonio desde 08/10/2026 |
 
-`terminal.historico("tir", "PETR4", desde="2026-10-01")` le qualquer uma. A coluna `origem` separa `retrato` (o que o terminal mostrava naquele
-dia) de `hist` (reconstruido depois): para medir um sinal, **use so `retrato`** quando houver, porque `hist` pode ter sido refeito com dado
-de depois.
+`terminal.historico("tir", "PETR4", desde="2013-01-01")` le qualquer uma. A coluna `origem` separa `retrato` (o que o terminal mostrava naquele
+dia), `hist` (reconstruido depois de um historico que o terminal tinha) e `reconstruida` (so na `tir`). Para medir um sinal, **use `retrato` quando
+houver**, porque `hist` pode ter sido refeito com dado de depois. A `reconstruida` e a excecao feita de proposito: ponto no tempo de verdade (balanco
+so depois da entrega, IPCA publicado, preco do mes), testado contra olhar o futuro, mas SEM consenso: a TIR normalizada e a por caixa
+(`tir_normalizada_pct`, `caixa_tir_g0_pct`, `ciclo_nivel`) sao as comparaveis com as de hoje; `tir_hoje_pct` e `tir_prudente_pct` dessa origem usam o
+historico de lucro em vez da estimativa dos analistas e **nao se misturam** com as do `retrato`. Conferencia com o modelo ao vivo no ultimo mes:
+a leitura por caixa bate dentro de 0,3 ponto em 67 de 67 papeis; o nivel do ciclo do lucro, em 90 de 92. O periodo 2016-2026 da carteira continua fechado:
+a TIR reconstruida serve a ideias novas medidas daqui para a frente ou na janela de desenvolvimento, nao para reabrir o teste longo.
 
 O que isso destrava: (a) o robo pode gravar o sinal de cada dia junto com a ficha daquele dia (`robo_item`) e **medir sem olhar o futuro**;
 (b) a serie de revisoes de LPA e de TIR se forma com o tempo; (c) a agenda macro guarda o `efetivo` junto com o `anterior`, formando a serie de
@@ -316,17 +335,18 @@ O metodo do robo (Chan e Lopez de Prado, `quant/pesquisa/METODO.md`) vale para o
 
 Atalho util: gravar em `robo_item` (tipo `sinal`) o que cada hipotese teria feito no dia, e medir o resultado depois. O banco ja aceita.
 
-## 7. O que falta no terminal para o robo decidir melhor (priorizado)
+## 7. O que falta no terminal para o robo decidir melhor (priorizado, estado de 12/10/2026)
 
-O Douglas pediu: "o que voce sentir que falta, voce implementa ou pede para eu implementar". Lista em ordem de valor para a decisao:
+O Douglas pediu: "o que voce sentir que falta, voce implementa ou pede para eu implementar". Em 11/10 saiu a lista abaixo; em 12/10 as lacunas 1, 2, 3 e
+4 e a 11 foram atacadas. Estado de cada uma:
 
-| # | Lacuna | Por que pesa | Evidencia (11/10/2026) | Quem faz | Esforco |
-|---|---|---|---|---|---|
-| 1 | **Profundidade historica dos sinais do terminal.** TIR, eventos, macro, curva e Selic implicita nunca foram guardados; o consenso proprio comeca em 07/10 (sementes de 18/09); o aluguel tem 21 pregoes; as notas de noticia, 6 dias. | sem passado nao ha teste: toda regra com dado do terminal so tem prova viva, que leva meses | `--status` do banco: tir/macro/curva/wirp/eventos com 1 dia | **ja resolvido para frente** (banco + linha no `atualizar.sh`); para tras, **reconstruir a TIR normalizada e a por caixa ponto no tempo** (contas da CVM + preco, desde 2012, como o modulo valuation fez com o P/L) so se o terminal pedir | rodar o banco: 1 linha; reconstrucao: medio |
-| 2 | **Opcoes: IV do pregao incompleta quando o arquivo de negocios da B3 vem sem opcao, e sem sorriso guardado.** Em 09/10 so 53 de 203 ativos tem IV no dinheiro do dia (155 a 161 nos quatro dias anteriores) e 137 de 204 ficaram com volume de opcao zero (provavel arquivo da B3 servido incompleto, a armadilha ja registrada no day trade); a cadeia nao guarda o sorriso (inclinacao, estrutura a termo) por dia. | o robo vende put e compra vol com base em IV; sem ela cai para o premio de referencia | `deriv/opcoes/*.json`, `hist.iv_atm`; `resumo.vol_call = vol_put = 0` em 137 ativos em 09/10 | terminal | baixo: marcar o dia como incompleto e refazer o download quando o arquivo vier curto (o mesmo cuidado que ja existe no day trade); medio: guardar IV por strike ao longo dos dias |
-| 3 | **Mini-dolar: sem a expectativa (consenso) dos dados americanos.** O setup aprovado reage ao movimento dos 2 primeiros minutos depois do dado; o terminal declara que nao existe fonte gratuita do consenso dos EUA, entao `expectativa` e vazia para CPI, payroll, PIB. | nao da para medir se a reversao e maior quando a **surpresa** e grande, que e a hipotese natural do setup | `agenda.json`, lista `lacunas` ("Consenso de mercado dos EUA") | **Douglas** (se tem acesso a uma tabela semanal de consenso, o terminal passa a ler de um arquivo seu) ou fonte permitida | baixo se vier por arquivo; indefinido se for coleta |
-| 4 | **Calendario de resultados sem hora de divulgacao e com data estimada.** Das 289 empresas, 47 tem data so estimada e 10 sem data; **nenhum** dos 281 resultados BR futuros traz a hora (antes ou depois do pregao); nao ha data ex futura. | no swing de ate 10 pregoes, o gap e no mesmo dia ou na abertura seguinte? muda o risco e a hora de zerar | `eventos.json`: `hora` nula em 281 de 281 | terminal | baixo: o terminal ja tem 2.582 entregas passadas com hora (RAD): inferir o "momento tipico" de cada empresa (pre, durante, pos-pregao) e marcar |
-| 5 | **Consenso do Brasil raso e sem mudanca por casa.** Alguma cobertura em 240 das 369 acoes (alvo em 182), alvo de 3 analistas ou mais em 160, e so 28 papeis com 3 ou mais mudancas de estimativa em 30 dias (PETR4 tem LPA de **uma** casa); "mudancas por casa" so existe nos EUA; o modelo do Safra saiu em 08/10. | a revisao de lucro e o sinal mais citado nos gestores de referencia e hoje e ruido no Brasil | `consenso_estado.json` (`mud` = 0 para `acao_br`) | terminal (extrair das manchetes que ja coleta: "BTG eleva recomendacao", preco-alvo e casa) ou Douglas (relatorios que ele recebe) | medio, com precisao moderada |
+| # | Lacuna | Estado em 12/10/2026 | O que sobra |
+|---|---|---|---|
+| 1 | **Profundidade historica dos sinais.** TIR, eventos, macro e curva nunca foram guardados. | **Parcial.** Banco com retrato diario (linha no `atualizar.sh`) + **TIR normalizada e por caixa reconstruidas mes a mes** (92 papeis, 2013-01 a 2026-10, 12.230 linhas; ponto no tempo, sem consenso; conferida contra o modelo ao vivo). | O consenso, os eventos, o macro e a curva so tem historia daqui para a frente. A TIR com consenso nao se reconstroi: o consenso do passado nao foi guardado. |
+| 2 | **Opcoes: pregao incompleto da B3 e sorriso.** Em 09/10 so 53 de 203 ativos com IV (155 a 161 nos dias vizinhos). | **Feito.** O pregao incompleto nao e promovido: vale o ultimo completo (hoje 08/10, 155 ativos com IV), com `incompleto` e o motivo no resumo; novo pedido a cada 25 minutos, ate 16. A ficha diz qual pregao e o completo e qual ficou de fora. Sorriso por faixa de distancia do strike guardado no banco (`opcoes_sorriso`, ~7 mil linhas por pregao, a partir de 12/10). | Sorriso sem passado. O arquivo de 09/10 continua curto na B3 (tentativa 1 devolveu o mesmo): a B3 pode nunca completa-lo. |
+| 3 | **Mini-dolar: expectativa dos dados americanos.** | **Sem fonte limpa; caminho manual pronto.** Pesquisa de fontes publicas sem login: investing.com (robots 403), FXStreet (robots proibe o calendario), MarketWatch e Yahoo (Disallow /), Atlanta Fed (Disallow /; e modelo), Nasdaq (termos proibem), Finviz, Trading Economics, Forex Factory e Econoday (termos ilegiveis por robo ou consenso pago), Cleveland Fed (nowcast e modelo, nao consenso; sem arquivo de dados). Nada foi forcado. O terminal le `cache/manual/consenso_eua.csv` (formato no proprio arquivo, que ja esta la, vazio) e aplica a expectativa por (dia, indicador), rotulada `manual`; o evento ganha `surpresa`. | **Douglas**: alguem tem de digitar (ou colar de Bloomberg/Reuters) o consenso de CPI, nucleo, payroll, PIB, PCE, PPI e pedidos de seguro-desemprego. Vendas no varejo dos EUA nem estao na agenda do terminal (a agenda traz so o varejo do IBGE). |
+| 4 | **Calendario de resultados sem hora.** | **Feito (estimativa).** `momento_estimado` e `momento_confianca` em 280 dos 281 resultados BR futuros (93% de acerto fora da amostra); `antes_da_abertura` na ficha e `resultado_antes_da_abertura` na tabela. | A hora exata continua desconhecida (so antes/durante/depois); as 47 datas estimadas ainda sao estimativa. |
+| 5 | **Consenso do Brasil raso e sem mudanca por casa.** Alguma cobertura em 240 das 369 acoes (alvo em 182), alvo de 3 analistas ou mais em 160, 28 papeis com 3 ou mais mudancas de estimativa em 30 dias. | Nao atacada (precisa de fonte nova; o Safra saiu em 08/10). | Extrair das manchetes ja coletadas ("BTG eleva recomendacao") ou relatorios que o Douglas recebe. |
 
 Outras lacunas, em ordem:
 
@@ -334,8 +354,11 @@ Outras lacunas, em ordem:
 7. **Beta, volatilidade e matriz de correlacao prontos** (o robo calcula do banco de precos; seria so para cruzar com `proximos.json`).
 8. **Fluxo estrangeiro por papel** e **posicao por tipo de investidor em futuros de dolar e indice** (a B3 publica agregados; nao ha fonte gratuita por papel).
 9. **Taxa de aluguel intradiaria e contratos novos por dia**: o terminal tem o fechamento do dia e 21 pregoes; o banco passa a acumular o resto.
-10. **Cobertura da TIR**: 92 empresas; as 277 restantes ficam sem numero (muitas sem consenso e sem 3 anos de dividendos). Um modo "sem consenso" com a media historica de lucro cobriria mais.
-11. **Data ex de provento futura**: nenhuma no calendario (as 18 do arquivo sao todas passadas). Vale conferir se a fonte (B3) so publica depois da aprovacao ou se o coletor esta filtrando.
-
-Nada disso foi feito neste pedido alem das duas entregas (leitor no robo e banco no terminal); os itens 2 e 4 sao pequenos e podem ser a proxima
-rodada no terminal. Os itens 1 e 3 dependem de decisao do Douglas.
+10. **Cobertura da TIR**: 92 empresas; as 277 restantes ficam sem numero (muitas sem consenso e sem 3 anos de dividendos).
+11. **Data ex de provento futura**: **era a fonte, nao o coletor.** Conferido direto no servico da B3 (GetListedSupplementCompany e GetListedCashDividends) para Itau, BB, Vale, ISA e
+    Petrobras: a B3 so lista o provento depois da aprovacao pela companhia; a aprovacao mais recente em todo o cadastro e de 30/09/2026 e a data com mais recente, 08/10.
+    Parcela mensal ja aprovada de uma vez (JCP mensal do Itau, aprovado em 09/12/2025) so aparece quando a B3 a lista (a B3 mostra ate a de 30/09). O arquivo de eventos
+    traz a nota em `fontes.proventos.nota`, e `terminal.eventos().avisos` a repete. Nada a consertar.
+12. **Estado normal da manha do cadastro de opcoes** (descoberto em 12/10): quando o resumo fica com `data` igual a `data_posicao` (o estado de toda manha depois das 8h), 3 series
+    de PETR* (87 mil contratos) tem posicao em aberto no fechamento mas nao estao no cadastro do proprio dia (entram no do dia seguinte); o total do ativo as conta e a soma por
+    vencimento nao. E anterior a esta rodada, aparece em `ferramentas/teste_opcoes.py` (23 conferencias de posicao) e nao muda o que o robo le (a ficha usa o total).

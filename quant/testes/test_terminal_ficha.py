@@ -197,8 +197,21 @@ def test_proximo_resultado_e_reacao_historica(raiz):
     assert r["outros_eventos"][0]["tipo"] == "provento_ex" and r["outros_eventos"][0]["dias_ate"] == 1
 
 
+def test_momento_do_resultado_e_estimativa_com_confianca(raiz):
+    r = ficha()["proximo_resultado"]["proximo"]
+    assert r["momento_estimado"] == "ap\u00f3s o fechamento" and r["momento_confianca"] == 1.0 and r["momento_iguais"] == 8 and r["momento_entregas"] == 8
+    assert r["momento_origem"] == "estimado pelo hist\u00f3rico de entregas" and r["antes_da_abertura"] is False
+
+
+def test_antes_da_abertura_true_false_ou_none_pela_confianca(raiz):
+    assert ficha("PRIO3")["proximo_resultado"]["proximo"]["antes_da_abertura"] is True                  # antes da abertura, 6 de 8 (0,75)
+    assert ficha("DIRR3")["proximo_resultado"]["proximo"]["antes_da_abertura"] is None                  # 3 de 6 (0,5): abaixo de 0,6, sem palpite
+    b = ficha("BBAS3")["proximo_resultado"]["proximo"]
+    assert b["antes_da_abertura"] is False and b["momento_origem"] == "informado pela companhia"        # informado no comunicado: durante o pregao
+
+
 def test_papel_sem_nada_no_calendario_e_none(raiz):
-    f = ficha("PRIO3")
+    f = ficha("NVDC34")
     assert f["proximo_resultado"] is None and "nenhum evento" in f["motivos"]["proximo_resultado"]
 
 
@@ -229,15 +242,40 @@ def test_divida_em_reais_e_moeda_nao_aberta_fica_dita(raiz):
 def test_opcoes_iv_e_a_ultima_com_data_nao_a_de_ontem_disfarcada(raiz):
     o = ficha()["opcoes"]
     iv = o["iv_no_dinheiro"]
-    assert iv["pct"] == 32.0 and iv["data"] == "2026-10-08" and iv["idade_dias"] == 4 and iv["vencimento"] == "2026-10-16" and iv["valida"] is True
+    # o ultimo pregao COMPLETO e 08/10 (arquivo e `data`); o resumo desse dia nao trouxe IV, entao vale a de 07/10, dita com a data
+    assert o["pregao_completo"] == "2026-10-08" and o["idade_dias"] == 4
+    assert iv["pct"] == 32.0 and iv["data"] == "2026-10-07" and iv["idade_dias"] == 5 and iv["vencimento"] == "2026-10-16" and iv["valida"] is True
     assert iv["percentil_historico"] == 50.0 and iv["media_historica_pct"] == 32.5 and iv["pontos_na_historia"] == 4
     assert o["iv_do_dia_no_resumo_pct"] is None and any("volatilidade implicita do dia nao foi calculada" in a for a in o["avisos"])
     assert o["posicao"]["put_call_oi"] == 1.12 and o["no_vencimento_de_referencia"]["dor_maxima_dist_pct"] == -14.98
     assert o["liquidez"]["ofertas_nos_dois_lados"] == 323
 
 
+def test_opcoes_pregao_incompleto_da_b3_fica_de_fora_e_o_aviso_diz_qual(raiz):
+    o = ficha()["opcoes"]
+    inc = o["pregao_incompleto_mais_recente"]
+    assert inc["data"] == "2026-10-09" and inc["tentativas"] == 3 and "41%" in inc["motivo"]
+    assert any("veio incompleto da B3" in a and "2026-10-08" in a for a in o["avisos"]) and any("opcoes: o pregao de 2026-10-09" in a for a in ficha()["avisos"])
+
+
+def test_opcoes_pregao_incompleto_antigo_ou_resolvido_nao_aparece(raiz, tmp_path):
+    p = tmp_path / "cache" / "out" / "deriv" / "opcoes_resumo.json"
+    d = json.loads(p.read_text())
+    d["incompleto"]["data"] = "2026-10-08"                                         # nao e mais novo que o pregao completo: nada a dizer
+    p.write_text(json.dumps(d))
+    T.limpar_cache()
+    assert ficha()["opcoes"]["pregao_incompleto_mais_recente"] is None
+
+
+def test_opcoes_sorriso_observado_sem_interpolar(raiz):
+    s = ficha()["opcoes"]["sorriso_do_vencimento_de_referencia"]
+    # strikes 50,4 (-10,0%) iv 40; 55,9 (-0,2%) iv 31; 58,8 (+5%) iv 30,5; 61,6 (+10,0%) iv 30; o strike de 70 nao tem iv e fica fora
+    assert s["atm_pct"] == 31.0 and s["put_10_pct"] == 40.0 and s["call_10_pct"] == 30.0 and s["skew_10_pp"] == 10.0 and s["strikes_com_volatilidade"] == 4
+    assert s["vencimento"] == "2026-10-16"
+
+
 def test_opcoes_iv_velha_nao_vale_mesmo_com_o_arquivo_em_dia(raiz):
-    o = ficha(hoje=date(2026, 10, 14))["opcoes"]                                   # arquivo de 09/10: 5 dias (vale); IV de 08/10: 6 dias (nao vale)
+    o = ficha(hoje=date(2026, 10, 13))["opcoes"]                                   # arquivo de 08/10: 5 dias (vale); IV de 07/10: 6 dias (nao vale)
     assert o is not None and o["iv_no_dinheiro"]["pct"] is None and "limite de 5" in o["iv_no_dinheiro"]["motivo_descarte"]
     assert ficha(hoje=date(2026, 10, 20))["opcoes"] is None
 
