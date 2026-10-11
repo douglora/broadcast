@@ -41,6 +41,26 @@ def _data(x):
         return None
 
 
+def _flag(x):
+    return x if isinstance(x, bool) else None
+
+
+def _resultado(x):
+    """(data, antes_da_abertura) de um `proximo_resultado`, em qualquer dos dois formatos:
+    o da mesa (data em texto ou {"data": ..., "resultado_antes_da_abertura": bool}) e o da ficha do terminal
+    ({"data": <dia do dado>, "proximo": {"data": <dia do resultado>, "resultado_antes_da_abertura": bool, ...}}).
+    ATENCAO: na ficha do terminal o "data" de cima e o dia em que o dado foi coletado, NAO o dia do resultado; o resultado esta em "proximo"."""
+    if isinstance(x, dict):
+        if "proximo" in x:
+            prox = x.get("proximo")
+            if not isinstance(prox, dict):
+                return None, None
+            flag = _flag(prox.get("resultado_antes_da_abertura"))
+            return _data(prox.get("data")), flag if flag is not None else _flag(x.get("resultado_antes_da_abertura"))
+        return _data(x), _flag(x.get("resultado_antes_da_abertura"))
+    return _data(x), None
+
+
 def terminal_modulo():
     """O modulo `quant.terminal` se existir e disser que esta disponivel; senao None. Nunca levanta."""
     try:
@@ -65,43 +85,55 @@ def ficha_do_terminal(terminal, ticker):
 
 
 def _resultado_da_ficha(ficha):
+    """(data, antes_da_abertura) do proximo resultado segundo a ficha do terminal; (None, None) se ela nao sabe."""
     if not isinstance(ficha, dict):
-        return None
+        return None, None
     for chave in ("proximo_resultado", "proximo_balanco"):
-        d = _data(ficha.get(chave))
+        d, flag = _resultado(ficha.get(chave))
         if d:
-            return d
+            return d, flag
     for sub in ficha.values():
         if isinstance(sub, dict):
             for chave in ("proximo_resultado", "proximo_balanco"):
-                d = _data(sub.get(chave))
+                d, flag = _resultado(sub.get(chave))
                 if d:
-                    return d
-    return None
+                    return d, flag
+    return None, None
 
 
 def info_da_mesa(visao, ticker):
     """Tudo o que a mesa disse do papel (zeros e None quando ela nao analisou)."""
-    vazio = {"conviccao": 0, "setor_inclinacao": 0, "analisado": False, "proximo_resultado": None, "gatilho": None, "eventos": [], "risco": None}
+    vazio = {"conviccao": 0, "setor_inclinacao": 0, "analisado": False, "proximo_resultado": None, "antes_da_abertura": None, "gatilho": None, "eventos": [],
+             "risco": None}
     if not visao:
         return vazio
     a = next((x for x in visao.get("acoes") or [] if str(x.get("ticker")).upper() == ticker.upper()), None)
     if a is None:
         return vazio
     incl = mesa.inclinacoes(visao)
-    res = _data(a.get("proximo_resultado"))
+    res, antes = _resultado(a.get("proximo_resultado"))
     if res is None:
         eb = a.get("evento_binario")
         if isinstance(eb, dict) and str(eb.get("descricao") or "").strip().lower().startswith("resultado"):
-            res = _data(eb.get("data"))
+            res, antes = _data(eb.get("data")), _flag(eb.get("resultado_antes_da_abertura"))
     return {"conviccao": mesa._inteiro(a.get("conviccao")), "setor_inclinacao": mesa._setor_da_mesa(a.get("setor"), incl), "analisado": True,
-            "proximo_resultado": res, "gatilho": a.get("gatilho_curto_prazo"), "eventos": a.get("eventos_10_pregoes") or [], "risco": a.get("risco")}
+            "proximo_resultado": res, "antes_da_abertura": antes, "gatilho": a.get("gatilho_curto_prazo"), "eventos": a.get("eventos_10_pregoes") or [],
+            "risco": a.get("risco")}
 
 
-def vespera_de_resultado(res, entrada_em, janela=JANELA_VESPERA):
-    """True se o resultado sai no dia da entrada ou em ate `janela` pregoes depois dele."""
+def vespera_de_resultado(res, entrada_em, antes_da_abertura=None, janela=JANELA_VESPERA):
+    """True se a compra na abertura de `entrada_em` cai na VESPERA do resultado.
+
+    Com o horario conhecido (`antes_da_abertura` True ou False), a vespera e um dia so:
+      - resultado ANTES da abertura de D: a vespera e o pregao anterior a D (D-1); comprar na abertura de D ja e depois da reacao;
+      - resultado DEPOIS do fechamento de D: a vespera e o proprio D.
+    Sem o horario (campo ausente), vale a janela conservadora: bloqueia se o resultado sai no dia da entrada ou em ate `janela` pregoes depois dele."""
     if res is None:
         return False
+    if antes_da_abertura is True:
+        return entrada_em == calendario.pregao_anterior(res)
+    if antes_da_abertura is False:
+        return entrada_em == res
     limite = entrada_em
     for _ in range(janela):
         limite = calendario.proximo_pregao(limite)
@@ -159,9 +191,15 @@ def decidir(candidatas, ctx):
             recusar("vetada pela mesa (convicção -2)" + (f": {mi['risco']}" if mi["risco"] else ""))
             continue
         ficha = ficha_do_terminal(term, t)
-        res = mi["proximo_resultado"] or _resultado_da_ficha(ficha)
-        if setup not in SETUPS_DE_RESULTADO and vespera_de_resultado(res, entrada_em):
-            recusar(f"véspera de resultado ({res.strftime('%d/%m/%Y')}); só os setups de resultado operam isso")
+        res, antes = mi["proximo_resultado"], mi["antes_da_abertura"]
+        if res is None:
+            res, antes = _resultado_da_ficha(ficha)
+        elif antes is None:
+            r_f, a_f = _resultado_da_ficha(ficha)
+            antes = a_f if r_f == res else None                   # o horario do terminal vale quando a mesa deu so a data e o terminal concorda com ela
+        if setup not in SETUPS_DE_RESULTADO and vespera_de_resultado(res, entrada_em, antes):
+            quando = {True: ", antes da abertura", False: ", depois do fechamento", None: ""}[antes]
+            recusar(f"véspera de resultado ({res.strftime('%d/%m/%Y')}{quando}); só os setups de resultado operam isso")
             continue
         qtd, valor = tamanho.quantidade(patrimonio, linha["preco_ref"], linha["stop_dist"], cfg["risco"], cfg["teto_nome"])
         if qtd <= 0:
@@ -171,7 +209,8 @@ def decidir(candidatas, ctx):
             recusar("sem espaço: número máximo de posições ou exposição de ações no limite")
             continue
         linha.update({"destino": "capital", "qtd": qtd, "valor": valor, "proximo_resultado": str(res) if res else None,
-                      "ficha": ficha or {}, "nota_resultado": None if res else "data do resultado não informada",
+                      "resultado_antes_da_abertura": antes, "ficha": ficha or {},
+                      "nota_resultado": None if res else "data do resultado não informada",
                       "risco_rs": float(qtd * linha["stop_dist"])})
         aberto += valor
         n_abertas += 1

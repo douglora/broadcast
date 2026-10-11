@@ -10,7 +10,7 @@ formato que a tela já lê; o bloco `swing` é aditivo. **`modulo: "swing"`** av
 
 ## Primeira coisa que a tela mostra
 
-`avisos[0]` e `swing.resumo_evidencia` dizem, com todas as letras, se algum setup tem capital. **Em 11/10/2026 nenhum dos 39 passou nas etapas de teste**
+`avisos[0]` e `swing.resumo_evidencia` dizem, com todas as letras, se algum setup tem capital. **Em 11/10/2026 nenhum dos 39 setups pesquisados passou nas etapas de teste**
 (`swing.estado == "so_medido"`): o livro registra cada sinal e o resultado como se tivesse operado R$ 6.000, sem capital. A tela deve mostrar isso antes de
 qualquer número de resultado, e nunca chamar de "carteira" ou "posição" o que é só medição.
 
@@ -45,7 +45,8 @@ As chaves específicas da carteira de fatores (`hedge`, `protecao`, `gate`...) n
     "gerais": ["frase", "..."],              // as regras do livro em frases (prazo, risco, teto, exposição, mesa, custos, o que acontece no stop)
     "setups": [{"setup": "C1", "familia": "c_rompimento", "rotulo": "rompimento da máxima de 20 pregões com volume",
                 "regra": "frase da regra de entrada e saída", "status": "so_medido", "status_texto": "só medido (sem capital)",
-                "variantes": ["C1.S0", "C1.S1", "C1.S2"]}]            // 13 setups (A1 A2 B1 B2 C1 C2 D1 D2 E1 E2 F1 F2 G1)
+                "variantes": ["C1.S0", "C1.S1", "C1.S2"],
+                "camada_de_julgamento": false, "etiqueta": null}]      // 15 setups: 13 pesquisados (A1 A2 B1 B2 C1 C2 D1 D2 E1 E2 F1 F2 G1) + M1 e M2 da mesa (ver abaixo)
   },
   "dimensionamento": {"capital": 60000, "risco_por_operacao_pct": 0.5, "risco_por_operacao_rs": 300, "teto_por_papel_pct": 12, "max_posicoes": 10,
                       "prazo_max_pregoes": 10, "valor_por_operacao_medida_rs": 6000, "exposicao_acoes_pct": 59.1, "exposicao_teto_rs": 59092.8,
@@ -56,9 +57,11 @@ As chaves específicas da carteira de fatores (`hedge`, `protecao`, `gate`...) n
   "medidas_abertas": [ /* as só medidas ainda abertas ou à espera da barra do dia (até 150, as mais novas primeiro) */ ],
   "medidas_abertas_total": 130,
   "candidatas_hoje": {"sinal_em": "2026-10-09", "entrada_prevista": "2026-10-13", "total": 130, "com_capital": 0, "recusadas": 0, "so_medidas": 130,
+                      "da_mesa": 0,                                         // quantas das linhas são M1/M2
+                      "medidas_mesa": null,                                 // resumo da última visão da mesa medida: {gerado, visao_em, entrada_em, m1, m2, tickers_m1, tickers_m2, sem_dado[], repetidas[]}
                       "linhas": [ /* ver abaixo */ ]},
-  "placar": {"medido": [ /* 39 linhas, uma por variante */ ], "capital": {"operacoes", "acerto", "expectativa_pct", "payoff", "resultado_rs"}},
-  "evidencia": [ /* 39 linhas: a pesquisa por variante */ ],
+  "placar": {"medido": [ /* 41 linhas, uma por variante: 39 pesquisadas + M1.S0 e M2.S0 */ ], "capital": {"operacoes", "acerto", "expectativa_pct", "payoff", "resultado_rs"}},
+  "evidencia": [ /* 41 linhas: a pesquisa por variante (M1.S0 e M2.S0 sem pesquisa: ver abaixo) */ ],
   "fechadas_recentes": [ /* as 40 últimas operações fechadas (com capital e medidas), mais nova primeiro */ ],
   "avisos": ["texto"]
 }
@@ -88,13 +91,15 @@ As chaves específicas da carteira de fatores (`hedge`, `protecao`, `gate`...) n
  "motivo": "setup só medido: reprovou na descoberta: ...",                      // por que não é capital, ou por que foi recusada (veto da mesa, véspera de resultado, sem espaço...)
  "variante": null, "qtd": null, "valor": null, "risco_rs": null,                // preenchidos só quando destino = "capital"
  "proximo_resultado": null, "nota_resultado": null,
- "mesa": {"conviccao": 0, "setor_inclinacao": 0, "analisado": false, "gatilho_curto_prazo": null, "eventos_10_pregoes": []}}
+ "resultado_antes_da_abertura": null,                                              // true/false quando o terminal ou a mesa dizem o horário do resultado; null = não sabe
+ "mesa": {"conviccao": 0, "setor_inclinacao": 0, "analisado": false, "gatilho_curto_prazo": null, "eventos_10_pregoes": []},
+ "entrada_em": null, "visao_gerado": null, "etiqueta": null, "camada_de_julgamento": null}   // as 4 últimas só nas linhas de M1/M2 (entrada_em = abertura em que a medida entra)
 ```
 `stop_ref` e `alvo_ref` são referência no fechamento do sinal; o stop e o alvo de verdade partem do preço da abertura em que a posição entrar.
 
 ### `placar.medido[]` e `evidencia[]`
 
-Uma linha por variante (13 setups × 3 sobreposições: `S0` = todos os sinais, `S1` = só a metade de cima do ranking multifatorial, `S2` = só com o Ibovespa acima da média
+Uma linha por variante (13 setups pesquisados × 3 sobreposições, mais M1.S0 e M2.S0: `S0` = todos os sinais, `S1` = só a metade de cima do ranking multifatorial, `S2` = só com o Ibovespa acima da média
 de 200 pregões).
 
 ```json
@@ -115,6 +120,39 @@ posições que o livro da pesquisa tinha. `evidencia[]`: `variante`, `setup`, `s
 `id`, `setup`, `ticker`, `modo`, `entrada_em`, `saida_em`, `preco_entrada`, `preco_saida`, `qtd`, `valor`, `motivo_saida` (`stop`, `gap_stop`, `alvo`, `gap_alvo`, `tempo`),
 `texto_saida`, `resultado_rs`, `resultado_pct` (líquidos de custo nos dois lados), `r_multiplo` (resultado em múltiplos do risco planejado; abaixo de -1 = a perda passou do
 risco, como no gap), `pregoes`, `porque`, `origem_saida` (`vivo` = o robô viu durante o pregão; `conciliacao` = refeito pela barra oficial da B3 na manhã seguinte).
+
+## M1 e M2: a camada de julgamento da mesa (prova viva)
+
+Pedido do Douglas ("o robô precisa pensar como gestor de fundo"): medir, com honestidade, se o julgamento da mesa tem informação. **Sem teste histórico** (julgamento escrito num
+dia não tem série de 15 anos): só prova viva, daqui para a frente. Toda linha de M1/M2 leva `etiqueta: "camada de julgamento: sem teste histórico; só prova viva"` e
+`camada_de_julgamento: true`; a tela deve mostrar essa etiqueta ao lado do nome do setup, no placar e na evidência.
+
+| Setup | O que mede | Sinal |
+|---|---|---|
+| **M1** convicção da mesa | se os papéis que a mesa prefere sobem | uma vez por visão da mesa, cada papel com convicção **+1 ou +2** vira uma **compra medida** de R$ 6.000 |
+| **M2** veto da mesa (espelho) | se o veto tem informação: **se o veto é bom, M2 perde** | uma vez por visão, cada papel com convicção **-2** vira uma **compra medida** de R$ 6.000 |
+
+**Texto obrigatório de M2 na tela:** "mede o que teria acontecido com os papéis vetados". **Não é operação vendida** e não é recomendação: é a medição do veto.
+
+Regras (iguais para os dois): a visão é identificada pelo `gerado` do `visao_mesa.json` e medida **uma vez** (o estado guarda as visões já medidas, em `estado.json -> visoes_medidas`);
+entrada na abertura do primeiro pregão depois do `gerado` (antes das 10h de um dia de pregão: a abertura do mesmo dia); **stop em 2,0 ATR, alvo em 3,0 ATR e saída no 10º pregão no
+máximo, os mesmos números do setup E1** (lidos dele); ATR e preço de referência do último fechamento antes da entrada; não repete o papel enquanto a medida anterior do mesmo
+setup estiver aberta; papel sem barras no painel (fora do universo de giro, ticker novo) fica de fora e aparece em `medidas_mesa.sem_dado` com o motivo.
+**Nunca recebem capital pela regra de evidência**: `status` é sempre `so_medido`, salvo `liberado` por decisão escrita do Douglas (`swing_config.json`, `"liberar": ["M1.S0"]`);
+mesmo liberado, M2 não recebe capital, porque o veto da própria mesa barra a compra do papel vetado.
+
+Elas entram no `placar.medido[]` (variantes `M1.S0` e `M2.S0`, `pesquisa_descoberta`/`pesquisa_validacao` = `null`), em `evidencia[]` e em `regras.setups[]` como as outras, e são resolvidas
+pelas barras oficiais na manhã seguinte, como qualquer medida. Na boleta e em `candidatas_hoje.linhas[]` aparecem com `setup: "M1"`/`"M2"`, `destino: "medida"` e `entrada_em`.
+
+Comando que acrescenta M1/M2 de uma visão nova a uma boleta **já emitida**, sem refazer as candidatas que estão nela (idempotente; o robô também o roda toda manhã depois da boleta):
+`cd ~/Desktop/quant-b3 && PYTHONPATH=. .venv/bin/python -W ignore -m quant.swing.boleta --so-mesa`.
+
+## Véspera do resultado (regra do gestor, sem capital hoje)
+
+O gestor não abre compra com capital na véspera do resultado do papel (exceto nos setups D1 e D2). A data vem de `proximo_resultado` da mesa ou da ficha do terminal
+(`ficha["proximo_resultado"]["proximo"]["data"]`; atenção: o `data` de cima, no mesmo dicionário, é o dia da coleta). Com `resultado_antes_da_abertura` conhecido, a véspera é um dia só: resultado
+**antes da abertura** de D, a véspera é D-1; resultado **depois do fechamento** de D, a véspera é o próprio D. Sem o campo vale a janela conservadora (bloqueia se o resultado é no dia da
+entrada ou no pregão seguinte). A linha da candidata mostra o motivo, por exemplo "véspera de resultado (14/10/2026, antes da abertura)".
 
 ## O que a tela deve explicar ao Douglas (sem sigla solta)
 

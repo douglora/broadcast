@@ -16,7 +16,7 @@ import json
 import os
 
 from quant.comum import DIR_SAIDA
-from quant.swing import setups
+from quant.swing import mesa_setups, setups
 
 PASTA = os.path.join(DIR_SAIDA, "pesquisa_swing")
 ARQ_DV = os.path.join(PASTA, "resultados_dv.json")
@@ -110,6 +110,9 @@ def por_variante(dv=None, prova=None, cfg=None):
         linha["status"], linha["motivo"], linha["status_texto"] = status, motivo, STATUS_TEXTO[status]
         linha["sensibilidade_custo_leve"] = bool((r.get("sensibilidade_custo_leve") or {}).get("passaria_dv"))
         out[vid] = linha
+    for vid, r in mesa_setups.linhas_de_evidencia(cfg).items():       # M1 e M2: camada de julgamento, sem teste historico, so prova viva
+        r["status_texto"] = STATUS_TEXTO[r["status"]]
+        out[vid] = r
     return out
 
 
@@ -141,14 +144,15 @@ def aceita(variantes, nucleo, top, ibov_ok):
 
 def resumo(variantes):
     """Frase para a primeira linha da tela e dos relatorios."""
-    n = len(variantes)
+    n = sum(1 for r in variantes.values() if r["familia"] != mesa_setups.FAMILIA)           # os 39 pesquisados; M1 e M2 nao tem teste historico
     cap = com_capital(variantes)
     if not cap:
         d = sum(1 for r in variantes.values() if r["motivo"].startswith("reprovou na descoberta"))
         v = sum(1 for r in variantes.values() if r["motivo"].startswith("reprovou na validação"))
         return (f"Nenhum dos {n} setups de swing passou na descoberta e na validação; a prova (2022 a 2026) continua fechada. "
                 f"O livro roda só medido: registra cada sinal e o resultado como se tivesse operado R$ 6.000, sem capital. "
-                f"({'todos' if d == n else d} reprovaram na descoberta" + (f", {v} na validação" if v else "") + ".)")
+                f"({'todos' if d == n else d} reprovaram na descoberta" + (f", {v} na validação" if v else "") + ".) "
+                f"M1 e M2 (convicção e veto da mesa) não têm teste histórico: só prova viva, também sem capital.")
     medindo = [x for x in cap if variantes[x]["status"] == "medindo"]
     lib = [x for x in cap if variantes[x]["status"] == "liberado"]
     partes = [f"{len(cap)} setup(s) com capital: " + ", ".join(cap)]
@@ -162,4 +166,5 @@ def resumo(variantes):
 def descricao_da_regra():
     return ("Um setup só usa capital se passar na descoberta (2010-2017), na validação (2018-2021) e na prova (2022-2026, aberta uma vez). "
             "Quem passa fica 'medindo' até o Sharpe deflacionado (que desconta o número de variantes testadas) chegar a 0,95. "
-            "Quem reprova fica 'só medido': o robô registra o sinal e o resultado, sem capital. Só o Douglas libera exceção, por escrito.")
+            "Quem reprova fica 'só medido': o robô registra o sinal e o resultado, sem capital. M1 e M2 (convicção e veto da mesa) são julgamento, "
+            "sem teste histórico possível: só prova viva, nunca capital pela regra. Só o Douglas libera exceção, por escrito.")

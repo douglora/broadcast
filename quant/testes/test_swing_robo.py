@@ -128,11 +128,13 @@ def test_dia_swing_prepara_e_sobe_o_robo_ao_vivo(modo, monkeypatch):
     chamadas = []
     monkeypatch.setattr(robo, "preparar", lambda hoje, repetir=False, mods=None: chamadas.append(("preparar", mods)) or True)
     monkeypatch.setattr(robo, "vivo_swing", lambda ate=robo.HORA_FIM_VIVO: chamadas.append(("vivo", ate)) or 0)
+    monkeypatch.setattr(robo, "passo", lambda dia, nome, args, timeout=1800, repetir=False: chamadas.append((nome, args[-1])) or True)
     from datetime import datetime
     from quant.comum import FUSO_BRT
     monkeypatch.setattr(robo, "agora_brt", lambda: datetime(2026, 10, 13, 8, 35, tzinfo=FUSO_BRT))
     assert robo._dia_swing(robo.agora_brt().date()) == 0
-    assert chamadas == [("preparar", ["swing"]), ("vivo", "18:30")]
+    # depois da boleta da manha, o passo leve que acrescenta M1/M2 de uma visao nova da mesa (idempotente), e so entao o pregao
+    assert chamadas == [("preparar", ["swing"]), ("swing_mesa", "--so-mesa"), ("vivo", "18:30")]
     chamadas.clear()
     monkeypatch.setattr(robo, "agora_brt", lambda: datetime(2026, 10, 13, 19, 0, tzinfo=FUSO_BRT))
     robo._dia_swing(robo.agora_brt().date())

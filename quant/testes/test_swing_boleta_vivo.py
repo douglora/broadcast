@@ -241,7 +241,8 @@ def test_contrato_da_tela_tem_todos_os_campos_das_posicoes(ambiente, monkeypatch
         assert k in tela
     for k in ("estado", "resumo_evidencia", "regras", "dimensionamento", "livro", "posicoes", "medidas_abertas", "candidatas_hoje", "placar", "evidencia", "fechadas_recentes"):
         assert k in tela["swing"]
-    assert len(tela["swing"]["evidencia"]) == 39 and len(tela["swing"]["placar"]["medido"]) == 39
+    assert len(tela["swing"]["evidencia"]) == 41 and len(tela["swing"]["placar"]["medido"]) == 41      # 39 pesquisados + M1 e M2 da mesa
+    assert len(tela["swing"]["regras"]["setups"]) == 15
 
 
 def test_trava_de_instancia_unica(ambiente, monkeypatch):

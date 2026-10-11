@@ -77,7 +77,8 @@ def test_config_do_douglas_dentro_de_limites(tmp_path):
 def test_a_pesquisa_de_verdade_deixou_todos_so_medidos():
     """Guarda do estado de 11/10/2026: se isto mudar, o Douglas precisa saber (a prova foi aberta ou ha liberacao)."""
     v = evidencia.por_variante(cfg=_cfg())
-    assert len(v) == 39 and evidencia.com_capital(v) == []
+    assert len(v) == 41 and evidencia.com_capital(v) == []                                  # 39 pesquisados + M1 e M2 da mesa (prova viva)
+    assert sum(1 for r in v.values() if r["familia"] != "m_mesa") == 39
 
 
 # ── gestor ────────────────────────────────────────────────────
@@ -211,3 +212,79 @@ def test_um_papel_uma_posicao_com_capital():
 def test_lote_que_nao_cabe_no_risco_e_recusado():
     r = gestor.decidir([_cand("AAAA3", preco=20.0, stop=10.0)], _ctx())                # 300/10 = 30 acoes: menos de um lote
     assert r["entradas"] == [] and "não cabe um lote" in r["linhas"][0]["motivo"]
+
+
+# ── M1 e M2 (camada de julgamento da mesa) na regra de evidencia ──
+def test_m1_e_m2_nunca_recebem_capital_pela_regra_so_por_liberacao_escrita():
+    v = evidencia.por_variante(_dv(), {"finalistas": []}, _cfg())
+    for vid in ("M1.S0", "M2.S0"):
+        assert v[vid]["status"] == "so_medido" and "sem teste histórico; só prova viva" in v[vid]["motivo"] and v[vid]["camada_de_julgamento"] is True
+        assert v[vid]["descoberta"] is None and v[vid]["validacao"] is None
+    assert "M1 e M2" in evidencia.resumo(v) and "só prova viva" in evidencia.resumo(v)
+    # mesmo que a pesquisa liberasse tudo, M1/M2 nao entram por ela: so pela lista "liberar"
+    v2 = evidencia.por_variante(_dv(["C1.S0"]), {"C1.S0": {"passa_prova": True, "dsr_serie_inteira": .5, "prova": {}}}, _cfg())
+    assert evidencia.com_capital(v2) == ["C1.S0"]
+    v3 = evidencia.por_variante(_dv(), {"finalistas": []}, _cfg(liberar=["M1.S0"], decidido_em="2026-10-14"))
+    assert v3["M1.S0"]["status"] == "liberado" and "2026-10-14" in v3["M1.S0"]["motivo"] and v3["M2.S0"]["status"] == "so_medido"
+
+
+def test_m1_liberado_recebe_capital_mas_m2_liberado_e_barrado_pelo_proprio_veto():
+    v = evidencia.por_variante(_dv(), {"finalistas": []}, _cfg(liberar=["M1.S0", "M2.S0"]))
+    visao = _visao([{"ticker": "AAAA3", "conviccao": 1}, {"ticker": "BBBB3", "conviccao": -2, "risco": "calote"}])
+    m1, m2 = _cand("AAAA3", setup="M1"), _cand("BBBB3", setup="M2")
+    r = gestor.decidir([m1, m2], _ctx(variantes=v, visao=visao))
+    por = {x["setup"]: x for x in r["linhas"]}
+    assert por["M1"]["destino"] == "capital" and por["M2"]["destino"] == "recusada" and "vetada pela mesa" in por["M2"]["motivo"]
+
+
+# ── a data do resultado na ficha do terminal e a vespera com horario ──
+def _ficha_real(proximo, antes=None, dia_do_dado="2026-10-13"):
+    """A estrutura de verdade de terminal.ficha(t)["proximo_resultado"]: o "data" de cima e o dia da COLETA; o resultado esta em "proximo"."""
+    prox = {"data": proximo, "hora": None, "periodo": "3T26", "dias_ate": 10, "confirmado": True}
+    if antes is not None:
+        prox["resultado_antes_da_abertura"] = antes
+    return {"nome": "x", "proximo_resultado": {"fonte": "Autopilot Terminal, modulo eventos", "data": dia_do_dado, "idade_dias": 0, "proximo": prox, "ultimo": None}}
+
+
+def test_ficha_real_a_data_de_cima_e_a_da_coleta_nao_a_do_resultado():
+    # o dado foi coletado em 13/10 (o dia da entrada) e o resultado so sai em 5/11: nao e vespera. Ler o "data" de cima bloquearia a compra por engano.
+    t = _Terminal({"AAAA3": _ficha_real("2026-11-05")})
+    r = gestor.decidir([_cand("AAAA3")], _ctx(terminal=t))
+    assert r["entradas"] and r["entradas"][0]["proximo_resultado"] == "2026-11-05"
+    assert gestor._resultado_da_ficha(_ficha_real("2026-11-05")) == (date(2026, 11, 5), None)
+    assert gestor._resultado_da_ficha({"proximo_resultado": {"data": "2026-10-13", "proximo": None}}) == (None, None)
+
+
+@pytest.mark.parametrize("res,antes,esperado", [
+    # entrada na abertura de terca 13/10; o pregao anterior a 14/10 e o proprio 13/10, e o de 13/10 e sexta 09/10 (12/10 e feriado)
+    ("2026-10-14", True, True),        # antes da abertura de D=14: a vespera e D-1=13 -> bloqueia a compra de 13
+    ("2026-10-13", True, False),       # antes da abertura de D=13: a reacao ja passou quando a abertura de 13 compra
+    ("2026-10-15", True, False),
+    ("2026-10-13", False, True),       # depois do fechamento de D=13: a vespera e o proprio D
+    ("2026-10-14", False, False),
+    ("2026-10-13", None, True),        # sem o campo: janela conservadora de antes (dia da entrada e o seguinte)
+    ("2026-10-14", None, True),
+    ("2026-10-15", None, False),
+])
+def test_vespera_com_o_horario_do_resultado(res, antes, esperado):
+    assert gestor.vespera_de_resultado(date.fromisoformat(res), date(2026, 10, 13), antes) is esperado
+
+
+def test_vespera_pelo_campo_da_ficha_na_decisao():
+    t = _Terminal({"AAAA3": _ficha_real("2026-10-14", True), "BBBB3": _ficha_real("2026-10-14", False), "CCCC3": _ficha_real("2026-10-13", False),
+                   "DDDD3": _ficha_real("2026-10-13", True)})
+    r = gestor.decidir([_cand(x) for x in ("AAAA3", "BBBB3", "CCCC3", "DDDD3")], _ctx(terminal=t))
+    por = {x["ticker"]: x for x in r["linhas"]}
+    assert por["AAAA3"]["destino"] == "recusada" and "antes da abertura" in por["AAAA3"]["motivo"]
+    assert por["BBBB3"]["destino"] == "capital" and por["BBBB3"]["resultado_antes_da_abertura"] is False
+    assert por["CCCC3"]["destino"] == "recusada" and "depois do fechamento" in por["CCCC3"]["motivo"]
+    assert por["DDDD3"]["destino"] == "capital"
+
+
+def test_data_da_mesa_com_horario_da_ficha_quando_os_dois_concordam():
+    v = _visao([{"ticker": "AAAA3", "proximo_resultado": "2026-10-13"}, {"ticker": "BBBB3", "proximo_resultado": {"data": "2026-10-14", "resultado_antes_da_abertura": True}}])
+    t = _Terminal({"AAAA3": _ficha_real("2026-10-13", False), "BBBB3": _ficha_real("2026-10-20", False)})
+    r = gestor.decidir([_cand("AAAA3"), _cand("BBBB3")], _ctx(visao=v, terminal=t))
+    por = {x["ticker"]: x for x in r["linhas"]}
+    assert por["AAAA3"]["destino"] == "recusada" and "depois do fechamento" in por["AAAA3"]["motivo"]       # a mesa deu a data; o terminal concorda e traz o horario
+    assert por["BBBB3"]["destino"] == "recusada" and "antes da abertura" in por["BBBB3"]["motivo"]          # o horario da propria mesa vale; o terminal discorda da data e nao entra

@@ -330,6 +330,8 @@ def _dia_swing(hoje):
     hm = lambda: agora_brt().strftime("%H:%M")        # noqa: E731
     if hm() < HORA_FIM_VIVO:
         preparar(hoje, mods=["swing"])
+        # visao nova da mesa depois da boleta da manha: acrescenta M1 e M2 a boleta (idempotente: visao ja medida = nada a fazer)
+        passo(hoje, "swing_mesa", ["-m", "quant.swing.boleta", "--so-mesa"], timeout=300, repetir=True)
         vivo_swing()
     return 0
 

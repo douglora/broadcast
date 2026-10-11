@@ -101,7 +101,8 @@ def placar(fechadas, variantes):
         m = _metricas([f.get("resultado_pct") for f in mine])
         soma = sum(float(f.get("resultado_rs") or 0.0) for f in mine)
         linhas.append({"variante": vid, "setup": r["nucleo"], "sobreposicao": r["overlay"], "rotulo": r["rotulo"], **m, "resultado_rs": soma,
-                       "pesquisa_descoberta": r["descoberta"], "pesquisa_validacao": r["validacao"], "status": r["status"], "status_texto": r["status_texto"]})
+                       "pesquisa_descoberta": r["descoberta"], "pesquisa_validacao": r["validacao"], "status": r["status"], "status_texto": r["status_texto"],
+                       "camada_de_julgamento": bool(r.get("camada_de_julgamento")), "etiqueta": r.get("etiqueta")})
     return linhas
 
 
@@ -125,6 +126,8 @@ def regras_gerais(cfg, exposicao_texto=None):
         "Só entra com capital o setup que passou na descoberta (2010-2017), na validação (2018-2021) e na prova (2022-2026). "
         "Os demais são só medidos: o robô registra o sinal e o resultado como se tivesse operado R$ 6.000, sem capital.",
         "A mesa veta (convicção -2) e prefere (convicção e setor positivos); o gestor não compra na véspera do resultado do papel, exceto nos setups de resultado.",
+        "M1 e M2 medem a camada de julgamento da mesa em compras medidas de R$ 6.000: M1, os papéis com convicção +1 ou +2; M2, os vetados (convicção -2), "
+        "para mostrar o que teria acontecido com eles (não é operação vendida). Sem teste histórico: só prova viva, e nunca recebem capital pela regra de evidência.",
         "Custos reais nos dois lados (corretagem, emolumentos, spread e impacto, `quant/custos.py`). Simulação: nenhuma ordem vai à corretora.",
         NOTA_STOP]
 
@@ -135,14 +138,16 @@ def regras_dos_setups(variantes):
         vs = [v for v in variantes.values() if v["nucleo"] == nid]
         forte = max(vs, key=lambda v: ["so_medido", "medindo", "liberado", "validado"].index(v["status"]))
         out.append({"setup": nid, "familia": vs[0]["familia"], "rotulo": vs[0]["rotulo"], "regra": cand_mod.frase_da_regra(nid),
-                    "status": forte["status"], "status_texto": forte["status_texto"], "variantes": [v["id"] for v in vs]})
+                    "status": forte["status"], "status_texto": forte["status_texto"], "variantes": [v["id"] for v in vs],
+                    "camada_de_julgamento": bool(vs[0].get("camada_de_julgamento")), "etiqueta": vs[0].get("etiqueta")})
     return out
 
 
 def evidencia_por_setup(variantes):
     return [{"variante": v["id"], "setup": v["nucleo"], "sobreposicao": v["overlay"], "rotulo": v["rotulo"], "descoberta": v["descoberta"],
              "validacao": v["validacao"], "prova": v["prova"], "dsr": v["dsr"], "status": v["status"], "status_texto": v["status_texto"], "motivo": v["motivo"],
-             "passaria_com_custo_leve": v["sensibilidade_custo_leve"]} for v in variantes.values()]
+             "passaria_com_custo_leve": v["sensibilidade_custo_leve"],
+             "camada_de_julgamento": bool(v.get("camada_de_julgamento")), "etiqueta": v.get("etiqueta")} for v in variantes.values()]
 
 
 # ─────────────────────────────────────────────────────────────
@@ -172,7 +177,9 @@ def bloco(estado, fechadas, boleta, variantes, cfg, hoje, precos, exposicao, avi
         "medidas_abertas": med_pos[:MEDIDAS_ABERTAS_MAX], "medidas_abertas_total": len(med_pos),
         "candidatas_hoje": {"sinal_em": boleta.get("sinal_em"), "entrada_prevista": boleta.get("data"), "total": len(linhas),
                             "com_capital": sum(1 for x in linhas if x.get("destino") == "capital"), "recusadas": sum(1 for x in linhas if x.get("destino") == "recusada"),
-                            "so_medidas": sum(1 for x in linhas if x.get("destino") == "medida"), "linhas": [_linha(x) for x in linhas]},
+                            "so_medidas": sum(1 for x in linhas if x.get("destino") == "medida"),
+                            "da_mesa": sum(1 for x in linhas if x.get("camada_de_julgamento")), "medidas_mesa": boleta.get("medidas_mesa"),
+                            "linhas": [_linha(x) for x in linhas]},
         "placar": {"medido": placar(fechadas, variantes), "capital": placar_capital(fechadas)},
         "evidencia": evidencia_por_setup(variantes),
         "fechadas_recentes": [fechada_vista(f) for f in reversed([f for f in fechadas if f.get("status") == "fechada"][-RECENTES:])],
@@ -182,7 +189,8 @@ def bloco(estado, fechadas, boleta, variantes, cfg, hoje, precos, exposicao, avi
 
 def _linha(x):
     campos = ("setup", "rotulo", "ticker", "sinal_em", "preco_ref", "stop_ref", "alvo_ref", "prazo", "adtv", "top", "ibov_ok", "porque", "destino", "motivo",
-              "variante", "qtd", "valor", "risco_rs", "proximo_resultado", "nota_resultado", "mesa")
+              "variante", "qtd", "valor", "risco_rs", "proximo_resultado", "resultado_antes_da_abertura", "nota_resultado", "mesa", "entrada_em",
+              "visao_gerado", "etiqueta", "camada_de_julgamento")
     return {k: x.get(k) for k in campos}
 
 

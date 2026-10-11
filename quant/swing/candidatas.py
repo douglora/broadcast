@@ -7,7 +7,7 @@ na abertura do pregao seguinte; stop e alvo saem em multiplos do ATR (amplitude 
 """
 import numpy as np
 
-from quant.swing import setups
+from quant.swing import mesa_setups, setups
 from quant.swing.texto import br, pct
 
 
@@ -104,6 +104,8 @@ def gerar(p, ind, eventos=None, i=-1):
 
 def frase_da_regra(nucleo):
     """A regra do setup em uma frase (para a tela), sem numero de ticker."""
+    if nucleo in ("M1", "M2"):
+        return mesa_setups.regra_texto(nucleo)
     for v in nucleos_s0():
         if v["nucleo"] != nucleo:
             continue

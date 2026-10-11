@@ -260,9 +260,8 @@ def conciliar(estado, painel, hoje=None):
             pos = nova_posicao(pos["setup"], pos["ticker"], pos["sinal_em"], preco_real, pos["stop_dist"], pos["alvo_dist"], pos["prazo"], qtd,
                                pos["entrada_em"], pos["adtv"], modo="medida", porque=pos["porque"], overlays=pos["overlays"], ficha=pos["ficha"],
                                preco_ref=pos.get("preco_ref"), origem="conciliacao")
-            for k in ("score", "conviccao_mesa", "sinal_id"):
-                if k in base:
-                    pos[k] = base[k]
+            for k, v in base.items():                                # o que veio com o sinal (conviccao da mesa, etiqueta da camada de julgamento...) acompanha a operacao
+                pos.setdefault(k, v)
         ruim = painel.ruim[sl, j]
         ruim_ou_vazio = ~(np.isfinite(O) & np.isfinite(H) & np.isfinite(L) & np.isfinite(C)) | ruim
         n = len(O)
