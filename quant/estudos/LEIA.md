@@ -271,3 +271,19 @@ desisti". Detalhe de cada frente no RESULTADO.md da pasta indicada.
   artefato (versao 607). Os comandos `python -m coletor.montar --tirados` e `--liberar` sao barrados para o assistente
   pela protecao do aplicativo: quem roda e o Douglas, no Terminal. Ate la a pagina oficial segue com a tela antiga.
 
+## 10 para 11/10/2026: a rodada do "gestor multimercado"
+
+Pedido do Douglas: protecao em 1/4, stock picking com macro e bottom-up, opcoes junto, referencias de gestores e a TIR
+real no terminal. Onde esta cada coisa:
+
+- Decisoes dele: `quant/saida/carteira_config.json` (lido por `quant/config_carteira.py` e `quant/execucao/protecao.py`).
+- Visao da mesa (macro, setores, bottom-up): `quant/saida/mesa/visao_mesa.json`, aplicada por `quant/mesa.py` (veto com
+  conviccao -2, ajuste pequeno de peso; sem teste historico, medida daqui para a frente).
+- Gestores: `quant/docs/gestores-referencia.md` (regras G1 a G18) e o relatorio em `quant/saida/relatorios/`.
+- Opcoes: `quant/saida/pesquisa5/opcoes/RESULTADO_TESES.md`. Put depois de queda forte nao melhora a venda de put; nas
+  eleicoes de 2014, 2018 e 2022 o papel bateu a call em media; gatilho tecnico com trava falhou na prova. O livro de
+  teses (`quant/opcoes/teses.py`) compara papel, call, trava e put por tese e mostra o que o preco exige.
+- Tamanho da mao e alocacao: `quant/saida/pesquisa_carteira/RESULTADO_MAO_E_ALOCACAO.md` e `quant/risco/` (nao ligado ao
+  robo). Mao por volatilidade corta a cauda sem melhorar o Sharpe; corte por queda reprovado.
+- TIR real implicita: modulo `tir` do terminal (`~/Desktop/terminal-artefato/coletor/tir.py`, `src/mod/tir/`).
+
